@@ -12,20 +12,22 @@ ms:contentKeyID: 49733747
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2499b7cae2a6833612c34b877ca872f1a504fac9
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: f35ef9adaf4f19023ebe2220494fdb315c782515
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42198814"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48523258"
 ---
+# <a name="overview-of-av-conferencing-in-lync-server-2013"></a>Visão geral da Conferência A/V no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="overview-of-av-conferencing-in-lync-server-2013"></a>Visão geral da Conferência A/V no Lync Server 2013
+
 
 </div>
 
@@ -43,7 +45,7 @@ Para planejar a conferência A/V, você precisa saber a largura de banda de rede
 
 Antes de habilitar os usuários para conferência A/V, verifique se a rede pode lidar com a carga resultante. Sem largura de banda de rede suficiente, a experiência do usuário pode ser seriamente degradada. Você pode usar o CAC (controle de admissão de chamadas) para gerenciar a largura de banda da rede usada por conferência A/V. Isso é importante para redes restritas, como links limitados de largura de banda entre os sites central e de filial. Para obter detalhes, consulte [Overview of Call Admission Control in Lync Server 2013](lync-server-2013-overview-of-call-admission-control.md). Para obter detalhes sobre os requisitos de largura de banda de mídia, consulte [requisitos de largura de banda de rede para tráfego de mídia no Lync Server 2013](lync-server-2013-network-bandwidth-requirements-for-media-traffic.md).
 
-Se você implantar uma conferência de áudio na sua rede, os usuários precisarão de dispositivos de áudio, como fones de ouvido, para participar em uma conferência de áudio. Se você implantar conferência de vídeo, será necessário implantar dispositivos de vídeo, como webcams, para os usuários. Recomendamos que você use dispositivos UC (comunicações unificadas) certificados pela Microsoft para todos os tipos de dispositivos, para garantir uma experiência ideal para o usuário. Para obter detalhes sobre dispositivos certificados para UC, consulte "telefones e dispositivos para Lync" [https://go.microsoft.com/fwlink/p/?LinkId=263861](https://go.microsoft.com/fwlink/p/?linkid=263861)em. Para dispositivos de áudio e vídeo, a implantação de vídeo e treinamento do usuário são etapas importantes a serem consideradas e planejadas.
+Se você implantar uma conferência de áudio na sua rede, os usuários precisarão de dispositivos de áudio, como fones de ouvido, para participar em uma conferência de áudio. Se você implantar conferência de vídeo, será necessário implantar dispositivos de vídeo, como webcams, para os usuários. Recomendamos que você use dispositivos UC (comunicações unificadas) certificados pela Microsoft para todos os tipos de dispositivos, para garantir uma experiência ideal para o usuário. Para obter detalhes sobre dispositivos certificados para UC, consulte "telefones e dispositivos para Lync" em [https://go.microsoft.com/fwlink/p/?LinkId=263861](https://go.microsoft.com/fwlink/p/?linkid=263861) . Para dispositivos de áudio e vídeo, a implantação de vídeo e treinamento do usuário são etapas importantes a serem consideradas e planejadas.
 
 As seções a seguir descrevem os recursos para conferência de áudio e vídeo, incluindo informações sobre gerenciamento de largura de banda e seleção de clientes apropriados.
 
@@ -53,11 +55,11 @@ As seções a seguir descrevem os recursos para conferência de áudio e vídeo,
 
 O Lync Server 2013 fornece vários recursos que você pode usar para configurar a experiência de conferência de áudio para o usuário, incluindo o seguinte:
 
-  - **Tirar o áudio sem som**   o apresentador pode usar essa configuração para desativar todos os participantes de áudio na conferência e colocar a conferência em um estado em que os não-presenteres não podem desativar o mudo.
+  - **Audiência sem som**     O apresentador pode usar essa configuração para retirar o áudio de todos os participantes de áudio na conferência e colocar a conferência em um estado em que os não-apresentadores não podem desativar o mudo.
 
-  - **Comunicados de entrada/saída de conferência**   se você habilitou a conferência discada, os apresentadores podem usar essa configuração para ativar ou desativar anúncios de entrada e saída para minimizar distrações enquanto uma conferência estiver em andamento.
+  - Anúncios de entrada **/saída de conferência**     Se você tiver habilitado a conferência discada, os apresentadores poderão usar essa configuração para ativar ou desativar anúncios de entrada e saída para minimizar distrações enquanto uma conferência estiver em andamento.
 
-  - **Adicionar um usuário discando**   os apresentadores e participantes que receberam permissão, pode adicionar números PSTN às conferências e fazer com que a conferência disque para esses números.
+  - **Adicionando um usuário discando**     Apresentadores e participantes que receberam permissão, podem adicionar números PSTN às conferências e fazer com que a conferência disque para esses números.
 
 </div>
 
@@ -67,15 +69,15 @@ O Lync Server 2013 fornece vários recursos que você pode usar para configurar 
 
 O Lync Server 2013 fornece vários recursos que você pode usar para configurar a experiência de conferência de vídeo do usuário, incluindo o seguinte:
 
-  - **Modo de exibição**   de galeria em conferências de vídeo com mais de duas pessoas, os usuários veem automaticamente todos na conferência. Se a conferência tiver mais que cinco participantes, o vídeo dos participantes mais ativos serão exibidos na linha superior e apenas a foto dos outros participantes será exibida. O vídeo de vários participantes está ativado como padrão. Para obter detalhes sobre como configurar ou desativar o vídeo com vários participantes, confira [Configurando a largura de banda de vídeo no Lync Server 2013](lync-server-2013-configuring-video-bandwidth.md).
+  - **Modo de exibição**     de galeria Em conferências de vídeo que têm mais de duas pessoas, os usuários veem automaticamente todos na conferência. Se a conferência tiver mais que cinco participantes, o vídeo dos participantes mais ativos serão exibidos na linha superior e apenas a foto dos outros participantes será exibida. O vídeo de vários participantes está ativado como padrão. Para obter detalhes sobre como configurar ou desativar o vídeo com vários participantes, confira [Configurando a largura de banda de vídeo no Lync Server 2013](lync-server-2013-configuring-video-bandwidth.md).
 
-  - **Vídeo panorâmico se**   um dispositivo de conferência de vídeo redonda estiver instalado na sala de conferência, este recurso fornece uma visão de 360 graus de tamanho completo da sala de conferência. A faixa de vídeo panorâmico está disponível apenas em dispositivos de mesa redonda.
+  - **Vídeo panorâmico**     Se um dispositivo de audioconferência de vídeo da mesa redonda estiver instalado na sala de conferência, este recurso fornecerá uma visão de 360 graus de tamanho completo da sala de conferência. A faixa de vídeo panorâmico está disponível apenas em dispositivos de mesa redonda.
 
-  - **Apresentador somente modo**   de vídeo os apresentadores podem configurar a reunião para que apenas o vídeo do apresentador seja mostrado. Isso evita distrações em reuniões grandes, quando várias transmissões de vídeo estão disponíveis e travadas para diferentes fontes. Esse modo também é aplicado ao vídeo capturado e fornecido por dispositivos de mesa redonda.
+  - Modo de vídeo **somente para apresentador**     Os apresentadores podem configurar a reunião para que apenas o vídeo do apresentador seja mostrado. Isso evita distrações em reuniões grandes, quando várias transmissões de vídeo estão disponíveis e travadas para diferentes fontes. Esse modo também é aplicado ao vídeo capturado e fornecido por dispositivos de mesa redonda.
 
-  - ****   Os usuários de vídeo HD podem experimentar resoluções de até HD 1080p em chamadas de duas partes e conferências com vários participantes.
+  - **Vídeo HD**     Os usuários podem experimentar resoluções de até HD 1080P em chamadas de duas partes e conferências com vários participantes.
 
-  - ****   Os apresentadores de Spotlight de vídeo podem configurar a reunião para que apenas o vídeo de um participante selecionado que é uma fonte de vídeo seja visto pelos outros participantes da conferência. Esse modo também se aplica ao vídeo capturado e fornecido pelos dispositivos de mesa redonda de vídeo panorâmico.
+  - **Destaque**     de vídeo Os apresentadores podem configurar a reunião para que apenas o vídeo de um participante selecionado que é uma fonte de vídeo seja visto pelos outros participantes da conferência. Esse modo também se aplica ao vídeo capturado e fornecido pelos dispositivos de mesa redonda de vídeo panorâmico.
 
 </div>
 

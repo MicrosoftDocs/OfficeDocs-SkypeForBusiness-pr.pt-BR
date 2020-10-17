@@ -4,13 +4,16 @@ description: Encontre todas as informações do Learning central do Learning for
 author: cichur
 ms.date: 09/21/2020
 ms.topic: article
+ms.service: msteams
 ms.author: v-cichur
-ms.openlocfilehash: 61a6c6e1745e4ce49884d23acdf84f5073170297
-ms.sourcegitcommit: 032a22c8b61456dcbd798ec390f0ae1ca7d8eda0
+audience: admin
+manager: serdars
+ms.openlocfilehash: 2c816e71675f2b7082164271322c47c1708d20e3
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/05/2020
-ms.locfileid: "48357599"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48514938"
 ---
 # <a name="teams-sessions-at-ignite-2020"></a>Sessões do teams em Ignite 2020
 
@@ -85,7 +88,7 @@ ms.locfileid: "48357599"
 |[Criar aplicativos, bots e automação personalizados para o Microsoft Teams com recursos de código baixo](https://aka.ms/PR134)|Saiba como começar a criar soluções personalizadas para o Teams.  Vamos mais fundo na integração das Teams + Power Platform para mostrar como o usuário pode criar ferramentas digitais personalizadas, mesmo que elas não tenham experiência de desenvolvedor|300|Pete Daderko, Geneve estrada|
 |[Eleve experiências do usuário com equipes e cartões adaptáveis](https://aka.ms/PR135)|A plataforma de equipe com cartões adaptáveis permite a criação de experiências de usuários integradas e acionáveis do lindas no Microsoft Teams. Nesta sessão, abordaremos como os desenvolvedores podem aproveitar novos recursos para criar experiências contextuais e em conformidade que elevam a colaboração no Teams.|300|Suryamanohar Mallela, Shubham Chauhan|
 |[Dicas e truques: práticas recomendadas e desafios comuns ao criar aplicativos do Microsoft Teams](https://aka.ms/PR136) |Junte-se a nós para uma sessão na qual abordamos alguns desafios comuns que os desenvolvedores executam à medida que criam aplicativos do teams. Os desenvolvedores deixarão esta sessão com dicas e ideias que podem ser usadas conforme elas continuam na jornada de desenvolvimento do aplicativo de suas equipes.|400|Elza Solis, Erin|
-|[Criando aplicativos de uso incompleto & habilitando a adoção contínua usando recursos de autorização e autenticação e o Microsoft Graph](https://aka.ms/PR137)|Desenvolva aplicativos com recursos avançados como logon único (SSO), consentimento específico do recurso (RSC), permissões granulares e onde os administradores de ti podem aprender a aproveitar as APIs de gráficos para automatizar o ciclo de vida/gerenciamento do aplicativo.|400|Nick Kramer|
+|[Criando aplicativos de uso incompleto & habilitando a adoção contínua usando recursos de autorização e autenticação e o Microsoft Graph](https://aka.ms/PR137)|Desenvolva aplicativos com recursos avançados como Sign-On único (SSO), Resource-Specific consentimento (RSC), permissões granulares e onde os administradores de ti podem aprender a aproveitar as APIs de gráficos para automatizar o ciclo de vida/gerenciamento do aplicativo.|400|Nick Kramer|
 ||||||
 
 ### <a name="industry"></a>Informática

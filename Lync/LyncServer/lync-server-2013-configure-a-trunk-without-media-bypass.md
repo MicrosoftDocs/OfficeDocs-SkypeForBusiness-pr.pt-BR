@@ -12,20 +12,22 @@ ms:contentKeyID: 48183825
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7216b6c3003ab30a31a9181e11d725c4827f0584
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 8fce45563538b41773f76a8733b1c226454e6f76
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42205227"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48523118"
 ---
+# <a name="configure-a-trunk-without-media-bypass-in-lync-server-2013"></a>Configurar um tronco sem bypass de mídia no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-a-trunk-without-media-bypass-in-lync-server-2013"></a>Configurar um tronco sem bypass de mídia no Lync Server 2013
+
 
 </div>
 
@@ -139,7 +141,7 @@ Uma configuração de tronco, como descrito abaixo, agrupa um conjunto de parâm
     
 
     > [!IMPORTANT]  
-    > É importante associar registros de uso do PSTN de acordo com o ponto do servidor de mediação associado ao tronco que está sendo configurado. Se o ponto de servidor de mediação for um gateway PSTN ou um SBC (controlador de borda de sessão), é altamente recomendável que a configuração de tronco não esteja associada a um registro de uso de PSTN que roteia um destino PSTN ou qualquer outro sistema downstream conectado via Lync Do.
+    > É importante associar registros de uso do PSTN de acordo com o ponto do servidor de mediação associado ao tronco que está sendo configurado. Se o ponto do servidor de mediação for um gateway PSTN ou um SBC (controlador de borda de sessão), é altamente recomendável que a configuração de tronco não esteja associada a um registro de uso de PSTN que roteia um destino PSTN ou qualquer outro sistema downstream conectado via Lync Server.
 
     
     </div>

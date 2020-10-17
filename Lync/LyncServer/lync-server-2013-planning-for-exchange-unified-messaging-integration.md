@@ -12,20 +12,22 @@ ms:contentKeyID: 48185880
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 049de11361f0d27390df75592035bd31eca17c18
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 298e0f2667707c0ff73819b6fdd38ab105474d91
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42201987"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48522238"
 ---
+# <a name="planning-for-exchange-unified-messaging-integration-in-lync-server-2013"></a>Planejamento da integração de Unificação de mensagens do Exchange no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="planning-for-exchange-unified-messaging-integration-in-lync-server-2013"></a>Planejamento da integração de Unificação de mensagens do Exchange no Lync Server 2013
+
 
 </div>
 
@@ -41,7 +43,7 @@ O Lync Server 2013 oferece suporte à integração com a Unificação de mensage
 
 No Microsoft Exchange Server 2013, o UM do Exchange é executado como um serviço em um servidor de caixa de correio do Exchange. Para implantações do Lync Server 2013 Enterprise Voice, a Unificação de mensagens combina mensagens de voz e mensagens de email em um único repositório disponível em um telefone (Outlook Voice Access) ou um computador. A Unificação de mensagens e o Lync Server 2013 trabalham juntos para fornecer atendimento de chamadas, Outlook Voice Access e serviços de atendedor automático para usuários do Enterprise Voice.
 
-Para obter mais informações sobre as alterações de arquitetura no Microsoft Exchange Server 2013, consulte "mudanças de arquitetura de voz" na documentação do Microsoft [https://go.microsoft.com/fwlink/p/?LinkId=266730](https://go.microsoft.com/fwlink/p/?linkid=266730)Exchange Server 2013 em.
+Para obter mais informações sobre as alterações de arquitetura no Microsoft Exchange Server 2013, consulte "mudanças de arquitetura de voz" na documentação do Microsoft Exchange Server 2013 em [https://go.microsoft.com/fwlink/p/?LinkId=266730](https://go.microsoft.com/fwlink/p/?linkid=266730) .
 
 Para que esses recursos sejam suportados em uma implantação local do UM do Exchange, você deve estar executando um dos seguintes:
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 48183947
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5f2897434eb275b82ef9ab4ef78e32e99e8d0a5f
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 010d4437f2eb90d596ace15cc392690dba5544d6
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213907"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48522768"
 ---
+# <a name="deployment-checklist-for-external-user-access-in-lync-server-2013"></a>Lista de verificação de implantação para acesso de usuário externo no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deployment-checklist-for-external-user-access-in-lync-server-2013"></a>Lista de verificação de implantação para acesso de usuário externo no Lync Server 2013
+
 
 </div>
 
@@ -41,9 +43,9 @@ Antes de implantar sua rede de perímetro e implementar o suporte para usuários
 
 O Microsoft Lync Server 2013 inclui ferramentas para facilitar o planejamento e a implantação de servidores internos e servidores de borda. Depois que a topologia estiver concluída, publique a definição de topologia resultante no seu ambiente de produção. Para tal, você precisa ser membro do grupo de **Administradores de domínio** e do grupo **RTCUniversalServerAdmins**.
 
-  - **Ferramenta de planejamento**   o Office Communications Server 2007 R2 incluía uma ferramenta de planejamento e uma ferramenta de planejamento de borda que você poderia usar para ajudar a projetar o design de topologia. No Lync Server 2010, essas duas ferramentas foram combinadas em uma única ferramenta de planejamento com recursos e funcionalidades adicionais, como coletar contagem de usuário planejada, requisitos de voz, tipos de acesso de usuário externo e opções de Federação. Além disso, você pode planejar os parâmetros de rede da infraestrutura, como o endereço IP, tipos de balanceadores de carga e outras considerações de rede de perímetro.
+  - **Ferramenta**     de planejamento O Office Communications Server 2007 R2 incluiu uma ferramenta de planejamento e uma ferramenta de planejamento de borda que você poderia usar para ajudar a projetar o design de topologia. No Lync Server 2010, essas duas ferramentas foram combinadas em uma única ferramenta de planejamento com recursos e funcionalidades adicionais, como coletar contagem de usuário planejada, requisitos de voz, tipos de acesso de usuário externo e opções de Federação. Além disso, você pode planejar os parâmetros de rede da infraestrutura, como o endereço IP, tipos de balanceadores de carga e outras considerações de rede de perímetro.
 
-  - **Construtor de topologias**   o construtor de topologias do Lync Server 2013 ajuda você a definir sua topologia e seus componentes. O construtor de topologias é essencial para implantar servidores que executam o Lync Server 2013. O construtor de topologias publica os resultados em um repositório de gerenciamento central que é usado para configurar todos os servidores que executam o Lync Server 2013 em sua organização. Não é possível instalar o Lync Server 2013 em servidores sem usar o construtor de topologias.
+  - **Construtor**     de topologia O construtor de topologias do Lync Server 2013 ajuda você a definir sua topologia e seus componentes. O construtor de topologias é essencial para implantar servidores que executam o Lync Server 2013. O construtor de topologias publica os resultados em um repositório de gerenciamento central que é usado para configurar todos os servidores que executam o Lync Server 2013 em sua organização. Não é possível instalar o Lync Server 2013 em servidores sem usar o construtor de topologias.
 
 Se você criou sua topologia de borda durante o processo de planejamento, incluindo a execução do construtor de topologias para definir sua topologia de borda, você pode usar esses resultados para iniciar a implantação do servidor de borda. Se você não concluiu a criação da sua topologia de borda anteriormente ou deseja alterar as informações especificadas anteriormente, deverá concluir a execução do construtor de topologias antes de prosseguir com outras etapas de implantação. Para obter detalhes sobre como criar sua topologia, consulte [cenários para acesso de usuário externo no Lync Server 2013](lync-server-2013-scenarios-for-external-user-access.md).
 
@@ -85,7 +87,7 @@ Para aprimorar o desempenho e a segurança do Servidor de Borda e para facilitar
 <tr class="header">
 <th>Fase</th>
 <th>Etapas</th>
-<th>Permissions</th>
+<th>Permissões</th>
 <th>Documentação</th>
 </tr>
 </thead>
@@ -135,7 +137,7 @@ Para aprimorar o desempenho e a segurança do Servidor de Borda e para facilitar
 <tr class="odd">
 <td><p>Configurar proxy reverso.</p></td>
 <td><ul>
-<li><p>Configure o proxy reverso (por exemplo, para o Microsoft Forefront Threat Management Gateway 2010 ou o Microsoft Internet Security and Acceleration (ISA) Server com Service Pack 1) na rede de perímetro, obtenha os certificados públicos necessários e configure o regras de publicação na Web no servidor de proxy reverso.</p>
+<li><p>Configure o proxy reverso (por exemplo, para o Microsoft Forefront Threat Management Gateway 2010 ou o Microsoft Internet Security and Acceleration (ISA) Server com Service Pack 1) na rede de perímetro, obtenha os certificados públicos necessários e configure as regras de publicação na Web no servidor de proxy reverso.</p>
 <p>Prepare o proxy reverso para serviços de Mobilidade se você tiver planejado para Mobilidade e está implantando serviços de Mobilidade no pool de Front End ou no servidor Standard Edition.</p></li>
 </ul></td>
 <td><p>Grupo <strong>Administrators</strong> ou administrador de Proxy Reversa</p></td>
@@ -185,7 +187,7 @@ Para aprimorar o desempenho e a segurança do Servidor de Borda e para facilitar
 <td><ol>
 <li><p>Verifique a conectividade de servidor e replicação de dados de configuração de servidores internos.</p></li>
 <li><p>Verifique se os usuários externos podem se conectar, incluindo usuários remotos, usuários em domínios federados, usuários públicos de mensagens instantâneas e usuários anônimos, conforme apropriado para sua implantação.</p></li>
-<li><p>Verificar a configuração e a comunicação usando o analisador de conectividade remota do Lync Server<a href="https://www.testocsconnectivity.com" class="uri">https://www.testocsconnectivity.com</a></p></li>
+<li><p>Verificar a configuração e a comunicação usando o analisador de conectividade remota do Lync Server <a href="https://www.testocsconnectivity.com" class="uri">https://www.testocsconnectivity.com</a></p></li>
 <li><p>Solução de problemas de dificuldades de configuração e comunicação</p></li>
 </ol></td>
 <td><p>Para verificação de replicação, o grupo <strong>RTCUniversalServerAdmins</strong> ou a conta de usuário que é atribuída à função <strong>CSAdministrator</strong></p>

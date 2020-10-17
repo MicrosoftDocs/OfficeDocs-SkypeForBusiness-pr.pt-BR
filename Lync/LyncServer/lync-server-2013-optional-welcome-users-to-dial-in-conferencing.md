@@ -12,20 +12,22 @@ ms:contentKeyID: 48185443
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4698484c240322623760f1fd308398192bfb928f
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: fde04364faf306983f5008539c2ccc6f248955bf
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42216437"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48522248"
 ---
+# <a name="optional-welcome-users-to-dial-in-conferencing-in-lync-server-2013"></a>Opcion Usuários de boas-vindas para conferência discada no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="optional-welcome-users-to-dial-in-conferencing-in-lync-server-2013"></a>Opcion Usuários de boas-vindas para conferência discada no Lync Server 2013
+
 
 </div>
 
@@ -37,11 +39,11 @@ ms.locfileid: "42216437"
 
 _**Última modificação do tópico:** 2012-09-30_
 
-Depois de configurar a conferência discada e testar para verificar se está funcionando corretamente, você deve definir os números de identificação pessoal iniciais (PINs) para usuários e notificar os usuários sobre a disponibilidade do recurso, incluindo instruções introdutórias, como o PIN inicial e o link para a página da Web configurações de conferência discada. Essa etapa é opcional. Normalmente, você usa o cmdlet **set-CsClientPin** para redefinir Pins, mas você pode usar o procedimento neste tópico pela primeira vez se quiser enviar um email de boas-vindas com as informações. Se não quiser enviar o email, você pode usar **set-CsClientPin** em vez disso.
+Depois de configurar a conferência discada e testar para verificar se está funcionando corretamente, você deve definir números de identificação pessoal iniciais (PINs) para usuários e notificar os usuários sobre a disponibilidade do recurso, incluindo instruções introdutórias, como o PIN inicial e o link para a página da Web configurações de conferência discada. Essa etapa é opcional. Normalmente, você usa o cmdlet **set-CsClientPin** para redefinir Pins, mas você pode usar o procedimento neste tópico pela primeira vez se quiser enviar um email de boas-vindas com as informações. Se não quiser enviar o email, você pode usar **set-CsClientPin** em vez disso.
 
 Você pode usar o script **set-CsPinSendCAWelcomeMail** para definir o PIN e enviar um email de boas-vindas para um único usuário. Por padrão, o script não redefine um PIN se já estiver definido, mas você pode usar o parâmetro **Force** para forçar a redefinição de um PIN. A mensagem de email é enviada usando Simple Mail Transfer Protocol (SMTP).
 
-Você pode criar um script que executa o script **set-CsPinSendCAWelcomeMail** iterativamente para definir Pins e enviar emails para um grupo de usuários. Você pode modificar o modelo de email (ou seja, o arquivo **CAWelcomeEmailTemplate. html** ) para adicionar mais links a páginas da intranet ou modificar o texto do email.
+Você pode criar um script que executa o script **set-CsPinSendCAWelcomeMail** iterativamente para definir Pins e enviar emails para um grupo de usuários. Você pode modificar o modelo de email (ou seja, o arquivo **CAWelcomeEmailTemplate.html** ) para adicionar mais links a páginas da intranet ou modificar o texto do email.
 
 <div>
 
@@ -64,9 +66,9 @@ Você pode criar um script que executa o script **set-CsPinSendCAWelcomeMail** i
         [-Pin <new numeric PIN>] [-Force] `
         [-Credential <SMTP server credentials used to send email with the specified From address>]
     
-    **SmtpServer**   por padrão, o script usa o valor da variável de ambiente reservada **$PSEmailServer** para esse parâmetro. Se a variável **$PSEmailServer** não for definida, você deverá especificar esse parâmetro.
+    **SmtpServer**     Por padrão, o script usa o valor da variável de ambiente reservada **$PSEmailServer** para esse parâmetro. Se a variável **$PSEmailServer** não for definida, você deverá especificar esse parâmetro.
     
-    **Credencial**   por padrão, o script usa as credenciais do usuário atual. Se o usuário atual não tiver permissão para enviar email em nome do endereço de origem especificado, você deverá especificar esse parâmetro. Como regra geral, especifique esse parâmetro se não especificar seu endereço de email como o endereço do remetente.
+    **Credencial**     Por padrão, o script usa as credenciais do usuário atual. Se o usuário atual não tiver permissão para enviar email em nome do endereço de origem especificado, você deverá especificar esse parâmetro. Como regra geral, especifique esse parâmetro se não especificar seu endereço de email como o endereço do remetente.
     
     Por exemplo:
     

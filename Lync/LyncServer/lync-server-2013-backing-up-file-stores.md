@@ -12,20 +12,22 @@ ms:contentKeyID: 51541449
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cceaffb2ecf0ac1b133e01bd04f50f9950cc0dec
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: f4971b5df8646f20843569ba653cd7a0c274d501
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42205827"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48523158"
 ---
+# <a name="backing-up-file-stores-in-lync-server-2013"></a>Fazendo backup de repositórios de arquivos no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="backing-up-file-stores-in-lync-server-2013"></a>Fazendo backup de repositórios de arquivos no Lync Server 2013
+
 
 </div>
 
@@ -45,7 +47,7 @@ O backup dos repositórios de arquivos do Lync Server inclui todos os arquivos e
 
 1.  Para localizar os locais específicos dos repositórios de arquivos do Lync Server, abra o construtor de topologias e examine o nó **repositórios de arquivos** .
 
-2.  Use o Robocopy ou outra ferramenta de gerenciamento de sistema de arquivos para copiar cada\\repositório de arquivos para o repositório de $backup.
+2.  Use o Robocopy ou outra ferramenta de gerenciamento de sistema de arquivos para copiar cada repositório de arquivos para o repositório de $Backup \\ .
 
 </div>
 

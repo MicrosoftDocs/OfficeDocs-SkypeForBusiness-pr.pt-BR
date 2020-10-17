@@ -12,20 +12,22 @@ ms:contentKeyID: 48184606
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: afcbfec56f4cfee3def2a0ef6deb82934534dbb2
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: c4e627dfdc161093d07243e6598807f3ad91cab1
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213803"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48522708"
 ---
+# <a name="deployment-guidelines-for-mediation-server-in-lync-server-2013"></a>Diretrizes de implantação para o servidor de mediação no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deployment-guidelines-for-mediation-server-in-lync-server-2013"></a>Diretrizes de implantação para o servidor de mediação no Lync Server 2013
+
 
 </div>
 
@@ -53,7 +55,7 @@ O Servidor de mediação é colocado por padrão no servidor Standard Edition ou
 
 Ao planejar, certifique-se de considerar os requisitos de processamento de mídia para chamadas PSTN e conferências A/V que não estão configuradas para bypass de mídia, bem como o processamento necessário para lidar com as interações de sinalização para o número de chamadas em tempo de ocupação que precisam ser suportadas. Se não houver CPU suficiente, você deverá implantar um pool autônomo de servidores de mediação; e os gateways PSTN, IP-PBXs e SBCs precisarão ser divididos em subconjuntos controlados pelos servidores de mediação colocados em um pool e os servidores de mediação autônomos em um ou mais pools autônomos.
 
-Se você implantou gateways PSTN, IP-PBXs ou controladores de borda de sessão (SBCs) que não dão suporte aos recursos corretos para interagir com um pool de servidores de mediação, incluindo o seguinte, eles precisarão ser associados a um pool autônomo que consiste em de um único servidor de mediação:
+Se você implantou gateways PSTN, IP-PBXs ou controladores de borda de sessão (SBCs) que não dão suporte aos recursos corretos para interagir com um pool de servidores de mediação, incluindo o seguinte, então eles precisarão ser associados a um pool autônomo que consiste em um único servidor de mediação:
 
   - Executar o balanceamento de carga do DNS (sistema de nomes de domínio) da camada de rede nos servidores de mediação em um pool (ou, caso contrário, rotear o tráfego uniformemente para todos os servidores de mediação
 
@@ -73,7 +75,7 @@ Os servidores de mediação no site central podem ser usados para rotear chamada
 
 
 > [!NOTE]  
-> O desvio de mídia não irá interoperar com cada gateway PSTN, IP-PBX e SBC. A Microsoft testou um conjunto de gateways PSTN e SBCs com parceiros certificados e realizou alguns testes com IP-PBXs da Cisco. O bypass de mídia é suportado apenas com produtos e versões listados no programa de interoperabilidade aberta de comunicações <A href="https://go.microsoft.com/fwlink/p/?linkid=268730">https://go.microsoft.com/fwlink/p/?LinkId=268730</A>unificativas – Lync Server em.
+> O desvio de mídia não irá interoperar com cada gateway PSTN, IP-PBX e SBC. A Microsoft testou um conjunto de gateways PSTN e SBCs com parceiros certificados e realizou alguns testes com IP-PBXs da Cisco. O bypass de mídia é suportado apenas com produtos e versões listados no programa de interoperabilidade aberta de comunicações unificativas – Lync Server em <A href="https://go.microsoft.com/fwlink/p/?linkid=268730">https://go.microsoft.com/fwlink/p/?LinkId=268730</A> .
 
 
 
@@ -89,7 +91,7 @@ Finalmente, se o site central tiver um PBX TDM ou se o IP-PBX não elimina a nec
 
 
 > [!NOTE]  
-> Para melhorar o desempenho de mídia do servidor de mediação autônomo, você deve habilitar o RSS (escala de recebimento) nos adaptadores de rede nesses servidores. O RSS permite que pacotes recebidos sejam manipulados em paralelo por vários processadores no servidor. Para obter detalhes, consulte "aprimoramentos de redimensionamento no lado do recebimento <A href="https://go.microsoft.com/fwlink/p/?linkid=268731">https://go.microsoft.com/fwlink/p/?LinkId=268731</A>no Windows Server" em. Para obter detalhes sobre como habilitar o RSS, consulte a documentação do seu adaptador de rede.
+> Para melhorar o desempenho de mídia do servidor de mediação autônomo, você deve habilitar o RSS (escala de recebimento) nos adaptadores de rede nesses servidores. O RSS permite que pacotes recebidos sejam manipulados em paralelo por vários processadores no servidor. Para obter detalhes, consulte "aprimoramentos de redimensionamento no lado do recebimento no Windows Server" em <A href="https://go.microsoft.com/fwlink/p/?linkid=268731">https://go.microsoft.com/fwlink/p/?LinkId=268731</A> . Para obter detalhes sobre como habilitar o RSS, consulte a documentação do seu adaptador de rede.
 
 
 

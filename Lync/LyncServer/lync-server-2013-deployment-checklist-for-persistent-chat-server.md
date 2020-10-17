@@ -12,20 +12,22 @@ ms:contentKeyID: 48185155
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a01d38cec8d03a75d5f295c61f6e591da43f4a61
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 2399d6ce6fc17a802c8f6bc39730370948ef0253
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213807"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48522738"
 ---
+# <a name="deployment-checklist-for-persistent-chat-server-in-lync-server-2013"></a>Lista de verificação de implantação para o servidor de chat persistente no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deployment-checklist-for-persistent-chat-server-in-lync-server-2013"></a>Lista de verificação de implantação para o servidor de chat persistente no Lync Server 2013
+
 
 </div>
 
@@ -64,7 +66,7 @@ A tabela a seguir lista as etapas básicas para implantar o servidor de chat per
 </colgroup>
 <thead>
 <tr class="header">
-<th>Tarefa</th>
+<th>Tarefas</th>
 <th>Etapas</th>
 <th>Funções exigidas e associações em grupo</th>
 <th>Tópicos relacionados</th>
@@ -107,13 +109,13 @@ A tabela a seguir lista as etapas básicas para implantar o servidor de chat per
 <li><p>Clique na caixa de seleção definição do pool de servidores de chat persistente para habilitar a conformidade</p></li>
 <li><p>Publicar a topologia</p></li>
 </ul>
-<p>Se você instalar o servidor de chat persistente no Standard Edition, o nome de domínio totalmente qualificado (FQDN) do pool do servidor de chat persistente deve corresponder ao servidor Standard Edition e os bancos de dados do SQL Server são colocados na instância do SQL Server Express no padrão Servidor de edição</p></td>
+<p>Se você instalar o servidor de chat persistente no Standard Edition, o nome de domínio totalmente qualificado (FQDN) do pool do servidor de chat persistente deve corresponder ao servidor Standard Edition e os bancos de dados do SQL Server são colocados na instância do SQL Server Express no servidor Standard Edition</p></td>
 <td><p>Para definir uma topologia, uma canta membro do grupo de usuários local</p>
 <p>Para publicar a topologia, uma conta que é membro do grupo de administradores de domínio e do grupo RTCUniversalServerAdmins e o usuário também deve ter permissões de controle total (ler/gravar/modificar) no repositório de arquivos do Lync para arquivos do servidor de chat persistente (de modo que o construtor de topologias possa configurar as DACLs necessárias).</p></td>
 <td><p><a href="lync-server-2013-adding-persistent-chat-server-to-your-deployment.md">Adicionando servidor de chat persistente à sua implantação no Lync Server 2013</a> na documentação de implantação</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Implantar servidor de chat persistente</strong></p></td>
+<td><p><strong>Implantar Servidor de Chat Persistente</strong></p></td>
 <td><p>Execute a instalação do Lync Server em todos os computadores que executam o servidor de chat persistente. A configuração do servidor de chat persistente é integrada ao assistente de implantação do Lync Server 2013 que fornece as seguintes instruções:</p>
 <ul>
 <li><p>Implantar repositório de gerenciamento local</p></li>
@@ -125,7 +127,7 @@ A tabela a seguir lista as etapas básicas para implantar o servidor de chat per
 <td><p><a href="lync-server-2013-deploying-persistent-chat-server.md">Implantando o servidor de chat persistente no Lync Server 2013</a> na documentação de implantação</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Criar um administrador de chat persistente</strong></p></td>
+<td><p><strong>Criar um administrador de Chat Persistente</strong></p></td>
 <td><p>Adicionar usuários ao grupo de segurança CsPersistentChatAdministrator.</p></td>
 <td><p>Qualquer usuário que seja membro dos administradores de domínio</p></td>
 <td><p><a href="lync-server-2013-adding-a-persistent-chat-administrator.md">Adicionando um administrador de chat persistente no Lync Server 2013</a> na documentação de implantação</p></td>

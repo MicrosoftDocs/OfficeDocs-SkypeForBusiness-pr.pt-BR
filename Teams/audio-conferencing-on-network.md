@@ -18,12 +18,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: A seguir, a descrição da funcionalidade de visualização aberta para videoconferência na rede.
-ms.openlocfilehash: 18bd33281379efe7dd2e64019e20a66a2dbec920
-ms.sourcegitcommit: c48a5aca37220ac6a797ac88b09cf80090b1b7df
+ms.openlocfilehash: b73461d8aeb42bb7b8edc8d5186b482d6fc2ef31
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48444207"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48503468"
 ---
 # <a name="open-preview-of-on-network-conferencing-for-audio-conferencing"></a>Abrir a visualização de conferências na rede para videoconferências
 
@@ -63,7 +63,7 @@ Você pode encontrar os números de serviço no centro de administração do tea
 
 As chamadas de reunião discada do teams são iniciadas dentro de uma reunião da sua organização até números PSTN, incluindo chamadas para mim e chamadas para trazer novos participantes para uma reunião. 
 
-Para habilitar o roteamento de discagem externa da reunião do teams por meio do roteamento direto, você precisa criar e atribuir uma política de roteamento de audioconferência chamada "OnlineAudioConferencingRoutingPolicy". 
+Para habilitar o roteamento de discagem externa da reunião do teams por meio do roteamento direto para usuários na rede, você precisa criar e atribuir uma política de roteamento de audioconferência chamada "OnlineAudioConferencingRoutingPolicy". 
 
 A política OnlineAudioConferencingRoutingPolicy é equivalente à CsOnlineVoiceRoutingPolicy de chamadas PSTN do 1:1 via roteamento direto. A política OnlineAudioConferencingRoutingPolicy pode ser gerenciada usando os seguintes cmdlets:
 

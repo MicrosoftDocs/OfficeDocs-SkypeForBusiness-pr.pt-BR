@@ -12,20 +12,22 @@ ms:contentKeyID: 48183586
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a6e11f85cb929cdd3dbddcab23caaffcf434f303
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 997097da30db000df82cba020b043748a1a5f62d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213537"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48522628"
 ---
+# <a name="deployment-process-for-call-park-in-lync-server-2013"></a>Processo de implantação para estacionamento de chamadas no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deployment-process-for-call-park-in-lync-server-2013"></a>Processo de implantação para estacionamento de chamadas no Lync Server 2013
+
 
 </div>
 
@@ -74,7 +76,7 @@ Esta seção fornece uma visão geral das etapas envolvidas na implantação do 
 <td><p><a href="lync-server-2013-create-or-modify-a-call-park-orbit-range.md">Criar ou modificar um intervalo de órbita de estacionamento de chamada no Lync Server 2013</a></p></td>
 </tr>
 <tr class="even">
-<td><p>Definir configurações de estacionamento de chamadas</p></td>
+<td><p>Definir configurações de Estacionamento de Chamada</p></td>
 <td><p>Use o cmdlet <strong>set-CsCpsConfiguration</strong> para definir as configurações de estacionamento de chamadas. No mínimo, recomendamos que você configure a opção <strong>OnTimeoutURI</strong> para configurar o destino de fallback a ser usado quando uma chamada estacionada expirar. Você também pode definir as seguintes configurações:</p>
 <ul>
 <li><p>(Opcional) <strong>EnableMusicOnHold</strong> para ativar ou desativar música em espera.</p></li>
@@ -120,7 +122,7 @@ Esta seção fornece uma visão geral das etapas envolvidas na implantação do 
 <td><p><a href="lync-server-2013-enable-call-park-for-users.md">Habilitar estacionamento de chamada para usuários no Lync Server 2013</a></p></td>
 </tr>
 <tr class="odd">
-<td><p>Verificar regras de normalização para estacionamento de chamada</p></td>
+<td><p>Verificar regras de normalização para o Estacionamento de Chamada</p></td>
 <td><p>Órbitas de estacionamento de chamadas não devem ser normalizadas. Verifique se suas regras de normalização não incluem nenhum intervalo de órbita. Se necessário, crie regras adicionais de normalização para evitar órbitas normalizadas.</p></td>
 <td><p>RTCUniversalServerAdmins</p>
 <p>CsVoiceAdministrator</p>
