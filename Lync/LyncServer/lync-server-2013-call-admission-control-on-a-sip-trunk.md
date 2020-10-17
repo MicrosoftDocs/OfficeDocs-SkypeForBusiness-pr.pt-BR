@@ -12,20 +12,22 @@ ms:contentKeyID: 48184623
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f60a868a4a77259b358f8ab9d4042bf33c56b044
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: bb2f12b395215c0b09fa650508cf93f1aec58d7f
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42199544"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48512958"
 ---
+# <a name="call-admission-control-on-a-sip-trunk-in-lync-server-2013"></a><span data-ttu-id="6e10e-102">Controle de admissão de chamada em um tronco SIP no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="6e10e-102">Call admission control on a SIP trunk in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="call-admission-control-on-a-sip-trunk-in-lync-server-2013"></a><span data-ttu-id="d3cb5-102">Controle de admissão de chamada em um tronco SIP no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d3cb5-102">Call admission control on a SIP trunk in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,32 +37,32 @@ ms.locfileid: "42199544"
 
 <span> </span>
 
-<span data-ttu-id="d3cb5-103">_**Última modificação do tópico:** 2012-09-22_</span><span class="sxs-lookup"><span data-stu-id="d3cb5-103">_**Topic Last Modified:** 2012-09-22_</span></span>
+<span data-ttu-id="6e10e-103">_**Última modificação do tópico:** 2012-09-22_</span><span class="sxs-lookup"><span data-stu-id="6e10e-103">_**Topic Last Modified:** 2012-09-22_</span></span>
 
-<span data-ttu-id="d3cb5-p101">Para implantar o controle de admissão de chamadas em um tronco SIP, crie um local de rede para representar o ITSP (provedor de serviço de telefonia da Internet). Para aplicar valores de política de largura de banda no tronco SIP, crie uma política entre locais entre o local de rede na sua empresa e o local de rede criado para representar o ITSP.</span><span class="sxs-lookup"><span data-stu-id="d3cb5-p101">To deploy call admission control (CAC) on a SIP trunk, you create a network site to represent the Internet telephony service provider (ITSP). To apply bandwidth policy values on the SIP trunk, you create an inter-site policy between the network site in your enterprise and the network site that you create to represent the ITSP.</span></span>
+<span data-ttu-id="6e10e-p101">Para implantar o controle de admissão de chamadas em um tronco SIP, crie um local de rede para representar o ITSP (provedor de serviço de telefonia da Internet). Para aplicar valores de política de largura de banda no tronco SIP, crie uma política entre locais entre o local de rede na sua empresa e o local de rede criado para representar o ITSP.</span><span class="sxs-lookup"><span data-stu-id="6e10e-p101">To deploy call admission control (CAC) on a SIP trunk, you create a network site to represent the Internet telephony service provider (ITSP). To apply bandwidth policy values on the SIP trunk, you create an inter-site policy between the network site in your enterprise and the network site that you create to represent the ITSP.</span></span>
 
-<span data-ttu-id="d3cb5-106">A figura a seguir mostra um exemplo de implantação do CAC em um tronco SIP.</span><span class="sxs-lookup"><span data-stu-id="d3cb5-106">The following figure shows an example CAC deployment on a SIP trunk.</span></span>
+<span data-ttu-id="6e10e-106">A figura a seguir mostra um exemplo de implantação do CAC em um tronco SIP.</span><span class="sxs-lookup"><span data-stu-id="6e10e-106">The following figure shows an example CAC deployment on a SIP trunk.</span></span>
 
-<span data-ttu-id="d3cb5-107">**Configuração do CAC em um tronco SIP**</span><span class="sxs-lookup"><span data-stu-id="d3cb5-107">**CAC configuration on a SIP trunk**</span></span>
+<span data-ttu-id="6e10e-107">**Configuração do CAC em um tronco SIP**</span><span class="sxs-lookup"><span data-stu-id="6e10e-107">**CAC configuration on a SIP trunk**</span></span>
 
-<span data-ttu-id="d3cb5-108">![Diagrama de tronco SIP do controle de admissão de chamadas](images/Gg398632.276c0d8f-1dd5-4883-8499-c202399ddbe9(OCS.15).jpg "Diagrama de tronco SIP do controle de admissão de chamadas")</span><span class="sxs-lookup"><span data-stu-id="d3cb5-108">![Call Admission Control SIP Trunking diagram](images/Gg398632.276c0d8f-1dd5-4883-8499-c202399ddbe9(OCS.15).jpg "Call Admission Control SIP Trunking diagram")</span></span>
+<span data-ttu-id="6e10e-108">![Diagrama de tronco SIP do controle de admissão de chamadas](images/Gg398632.276c0d8f-1dd5-4883-8499-c202399ddbe9(OCS.15).jpg "Diagrama de tronco SIP do controle de admissão de chamadas")</span><span class="sxs-lookup"><span data-stu-id="6e10e-108">![Call Admission Control SIP Trunking diagram](images/Gg398632.276c0d8f-1dd5-4883-8499-c202399ddbe9(OCS.15).jpg "Call Admission Control SIP Trunking diagram")</span></span>
 
-<span data-ttu-id="d3cb5-109">Para configurar o CAC em um tronco SIP, você terá que executar as seguintes tarefas durante a implantação do CAC:</span><span class="sxs-lookup"><span data-stu-id="d3cb5-109">To configure CAC on a SIP trunk, you will have to perform the following tasks during CAC deployment:</span></span>
+<span data-ttu-id="6e10e-109">Para configurar o CAC em um tronco SIP, você terá que executar as seguintes tarefas durante a implantação do CAC:</span><span class="sxs-lookup"><span data-stu-id="6e10e-109">To configure CAC on a SIP trunk, you will have to perform the following tasks during CAC deployment:</span></span>
 
-1.  <span data-ttu-id="d3cb5-110">Crie um site de rede para representar o ITSP.</span><span class="sxs-lookup"><span data-stu-id="d3cb5-110">Create a network site to represent the ITSP.</span></span> <span data-ttu-id="d3cb5-111">Associe o site de rede a uma região de rede apropriada e aloque a largura de banda de zero para áudio e vídeo para este site de rede.</span><span class="sxs-lookup"><span data-stu-id="d3cb5-111">Associate the network site to an appropriate network region, and allocate bandwidth of zero for audio and video for this network site.</span></span> <span data-ttu-id="d3cb5-112">Para obter detalhes, consulte [Configure Network sites for CAC in Lync Server 2013](lync-server-2013-configure-network-sites-for-cac.md) na documentação de implantação.</span><span class="sxs-lookup"><span data-stu-id="d3cb5-112">For details, see [Configure network sites for CAC in Lync Server 2013](lync-server-2013-configure-network-sites-for-cac.md) in the Deployment documentation.</span></span>
+1.  <span data-ttu-id="6e10e-110">Crie um site de rede para representar o ITSP.</span><span class="sxs-lookup"><span data-stu-id="6e10e-110">Create a network site to represent the ITSP.</span></span> <span data-ttu-id="6e10e-111">Associe o site de rede a uma região de rede apropriada e aloque a largura de banda de zero para áudio e vídeo para este site de rede.</span><span class="sxs-lookup"><span data-stu-id="6e10e-111">Associate the network site to an appropriate network region, and allocate bandwidth of zero for audio and video for this network site.</span></span> <span data-ttu-id="6e10e-112">Para obter detalhes, consulte [Configure Network sites for CAC in Lync Server 2013](lync-server-2013-configure-network-sites-for-cac.md) na documentação de implantação.</span><span class="sxs-lookup"><span data-stu-id="6e10e-112">For details, see [Configure network sites for CAC in Lync Server 2013](lync-server-2013-configure-network-sites-for-cac.md) in the Deployment documentation.</span></span>
     
     <div>
     
 
     > [!NOTE]  
-    > <span data-ttu-id="d3cb5-113">Para o ITSP, essa configuração de site de rede não funciona.</span><span class="sxs-lookup"><span data-stu-id="d3cb5-113">For the ITSP, this network site configuration is not functional.</span></span> <span data-ttu-id="d3cb5-114">Os valores da política de largura de banda são, na verdade, aplicados na etapa 2.</span><span class="sxs-lookup"><span data-stu-id="d3cb5-114">Bandwidth policy values are actually applied in step 2.</span></span>
+    > <span data-ttu-id="6e10e-113">Para o ITSP, essa configuração de site de rede não funciona.</span><span class="sxs-lookup"><span data-stu-id="6e10e-113">For the ITSP, this network site configuration is not functional.</span></span> <span data-ttu-id="6e10e-114">Os valores da política de largura de banda são, na verdade, aplicados na etapa 2.</span><span class="sxs-lookup"><span data-stu-id="6e10e-114">Bandwidth policy values are actually applied in step 2.</span></span>
 
     
     </div>
 
-2.  <span data-ttu-id="d3cb5-115">Crie um link entre sites para o tronco SIP usando os valores de parâmetro relevantes para o site criado na etapa 1.</span><span class="sxs-lookup"><span data-stu-id="d3cb5-115">Create an inter-site link for the SIP trunk using the relevant parameter values for the site you created in step 1.</span></span> <span data-ttu-id="d3cb5-116">Por exemplo, use o nome do site de rede na sua empresa como o valor do parâmetro NetworkSiteID1 e o site de rede ITSP como o valor do parâmetro NetworkSiteID2.</span><span class="sxs-lookup"><span data-stu-id="d3cb5-116">For example, use the name of the network site in your enterprise as the value of the NetworkSiteID1 parameter, and the ITSP network site as the value of the NetworkSiteID2 parameter.</span></span> <span data-ttu-id="d3cb5-117">Para obter detalhes, consulte [Create Network intersite Policies in Lync Server 2013](lync-server-2013-create-network-intersite-policies.md) na documentação de implantação.</span><span class="sxs-lookup"><span data-stu-id="d3cb5-117">For details, see [Create network intersite policies in Lync Server 2013](lync-server-2013-create-network-intersite-policies.md) in the Deployment documentation.</span></span> <span data-ttu-id="d3cb5-118">Consulte também a documentação do Shell de gerenciamento do Lync Server para o cmdlet New-CsNetworkInterSitePolicy.</span><span class="sxs-lookup"><span data-stu-id="d3cb5-118">Also see the Lync Server Management Shell documentation for the New-CsNetworkInterSitePolicy cmdlet.</span></span>
+2.  <span data-ttu-id="6e10e-115">Crie um link entre sites para o tronco SIP usando os valores de parâmetro relevantes para o site criado na etapa 1.</span><span class="sxs-lookup"><span data-stu-id="6e10e-115">Create an inter-site link for the SIP trunk using the relevant parameter values for the site you created in step 1.</span></span> <span data-ttu-id="6e10e-116">Por exemplo, use o nome do site de rede na sua empresa como o valor do parâmetro NetworkSiteID1 e o site de rede ITSP como o valor do parâmetro NetworkSiteID2.</span><span class="sxs-lookup"><span data-stu-id="6e10e-116">For example, use the name of the network site in your enterprise as the value of the NetworkSiteID1 parameter, and the ITSP network site as the value of the NetworkSiteID2 parameter.</span></span> <span data-ttu-id="6e10e-117">Para obter detalhes, consulte [Create Network intersite Policies in Lync Server 2013](lync-server-2013-create-network-intersite-policies.md) na documentação de implantação.</span><span class="sxs-lookup"><span data-stu-id="6e10e-117">For details, see [Create network intersite policies in Lync Server 2013](lync-server-2013-create-network-intersite-policies.md) in the Deployment documentation.</span></span> <span data-ttu-id="6e10e-118">Consulte também a documentação do Shell de gerenciamento do Lync Server para o cmdlet New-CsNetworkInterSitePolicy.</span><span class="sxs-lookup"><span data-stu-id="6e10e-118">Also see the Lync Server Management Shell documentation for the New-CsNetworkInterSitePolicy cmdlet.</span></span>
 
-3.  <span data-ttu-id="d3cb5-119">Obtenha o endereço IP do ponto de terminação de mídia do SCB (controlador de borda da sessão)  no seu ITSP.</span><span class="sxs-lookup"><span data-stu-id="d3cb5-119">Get the IP address of the Session Border Controller’s (SCB) Media Termination Point from your ITSP.</span></span> <span data-ttu-id="d3cb5-120">Adicione o endereço IP com uma máscara de sub-rede de 32 para o site de rede que representa o ITSP.</span><span class="sxs-lookup"><span data-stu-id="d3cb5-120">Add that IP address with a subnet mask of 32 to the network site that represents the ITSP.</span></span> <span data-ttu-id="d3cb5-121">Para obter detalhes, consulte [associar uma sub-rede a um site de rede no Lync Server 2013](lync-server-2013-associate-a-subnet-with-a-network-site.md).</span><span class="sxs-lookup"><span data-stu-id="d3cb5-121">For details, see [Associate a subnet with a network site in Lync Server 2013](lync-server-2013-associate-a-subnet-with-a-network-site.md).</span></span>
+3.  <span data-ttu-id="6e10e-119">Obtenha o endereço IP do ponto de terminação de mídia do SCB (controlador de borda da sessão)  no seu ITSP.</span><span class="sxs-lookup"><span data-stu-id="6e10e-119">Get the IP address of the Session Border Controller’s (SCB) Media Termination Point from your ITSP.</span></span> <span data-ttu-id="6e10e-120">Adicione o endereço IP com uma máscara de sub-rede de 32 para o site de rede que representa o ITSP.</span><span class="sxs-lookup"><span data-stu-id="6e10e-120">Add that IP address with a subnet mask of 32 to the network site that represents the ITSP.</span></span> <span data-ttu-id="6e10e-121">Para obter detalhes, consulte [associar uma sub-rede a um site de rede no Lync Server 2013](lync-server-2013-associate-a-subnet-with-a-network-site.md).</span><span class="sxs-lookup"><span data-stu-id="6e10e-121">For details, see [Associate a subnet with a network site in Lync Server 2013](lync-server-2013-associate-a-subnet-with-a-network-site.md).</span></span>
 
 </div>
 

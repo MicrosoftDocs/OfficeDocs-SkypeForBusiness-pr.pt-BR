@@ -12,20 +12,22 @@ ms:contentKeyID: 48184579
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d93300acda297a026af03070680825899a608d86
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 948581815b6e38fd08b47a95ea7176a694879e96
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42186404"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48513778"
 ---
+# <a name="locations-table-in-lync-server-2013"></a><span data-ttu-id="5d33b-102">Tabela Locations no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="5d33b-102">Locations table in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="locations-table-in-lync-server-2013"></a><span data-ttu-id="0dea0-102">Tabela Locations no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="0dea0-102">Locations table in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,9 +37,9 @@ ms.locfileid: "42186404"
 
 <span> </span>
 
-<span data-ttu-id="0dea0-103">_**Última modificação do tópico:** 2012-05-25_</span><span class="sxs-lookup"><span data-stu-id="0dea0-103">_**Topic Last Modified:** 2012-05-25_</span></span>
+<span data-ttu-id="5d33b-103">_**Última modificação do tópico:** 2012-05-25_</span><span class="sxs-lookup"><span data-stu-id="5d33b-103">_**Topic Last Modified:** 2012-05-25_</span></span>
 
-<span data-ttu-id="0dea0-104">Cada registro representa uma referência de local em uma chamada de emergência, como uma chamada do tipo 9-1-1 Avançado.</span><span class="sxs-lookup"><span data-stu-id="0dea0-104">Each record represents one location reference in an emergency call, like an E9-1-1 call.</span></span>
+<span data-ttu-id="5d33b-104">Cada registro representa uma referência de local em uma chamada de emergência, como uma chamada do tipo 9-1-1 Avançado.</span><span class="sxs-lookup"><span data-stu-id="5d33b-104">Each record represents one location reference in an emergency call, like an E9-1-1 call.</span></span>
 
 
 <table>
@@ -49,30 +51,30 @@ ms.locfileid: "42186404"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="0dea0-105">Coluna</span><span class="sxs-lookup"><span data-stu-id="0dea0-105">Column</span></span></th>
-<th><span data-ttu-id="0dea0-106">Tipo de dados</span><span class="sxs-lookup"><span data-stu-id="0dea0-106">Data Type</span></span></th>
-<th><span data-ttu-id="0dea0-107">Chave/índice</span><span class="sxs-lookup"><span data-stu-id="0dea0-107">Key/Index</span></span></th>
-<th><span data-ttu-id="0dea0-108">Detalhes</span><span class="sxs-lookup"><span data-stu-id="0dea0-108">Details</span></span></th>
+<th><span data-ttu-id="5d33b-105">Coluna</span><span class="sxs-lookup"><span data-stu-id="5d33b-105">Column</span></span></th>
+<th><span data-ttu-id="5d33b-106">Tipo de dados</span><span class="sxs-lookup"><span data-stu-id="5d33b-106">Data Type</span></span></th>
+<th><span data-ttu-id="5d33b-107">Chave/índice</span><span class="sxs-lookup"><span data-stu-id="5d33b-107">Key/Index</span></span></th>
+<th><span data-ttu-id="5d33b-108">Detalhes</span><span class="sxs-lookup"><span data-stu-id="5d33b-108">Details</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="0dea0-109"><strong>Identificação_da_sessãotime</strong></span><span class="sxs-lookup"><span data-stu-id="0dea0-109"><strong>SessionIdTime</strong></span></span></p></td>
-<td><p><span data-ttu-id="0dea0-110">datetime</span><span class="sxs-lookup"><span data-stu-id="0dea0-110">datetime</span></span></p></td>
-<td><p><span data-ttu-id="0dea0-111">Primária, Estrangeira</span><span class="sxs-lookup"><span data-stu-id="0dea0-111">Primary, Foreign</span></span></p></td>
-<td><p><span data-ttu-id="0dea0-112">Tempo da solicitação de sessão.</span><span class="sxs-lookup"><span data-stu-id="0dea0-112">Time of session request.</span></span> <span data-ttu-id="0dea0-113">Usado em conjunto com <strong>SessionIdSeq</strong> para identificar exclusivamente uma sessão.</span><span class="sxs-lookup"><span data-stu-id="0dea0-113">Used in conjunction with <strong>SessionIdSeq</strong> to uniquely identify a session.</span></span> <span data-ttu-id="0dea0-114">Consulte a <a href="lync-server-2013-dialogs-table.md">tabela diálogos no Lync Server 2013</a> para obter mais informações.</span><span class="sxs-lookup"><span data-stu-id="0dea0-114">See the <a href="lync-server-2013-dialogs-table.md">Dialogs table in Lync Server 2013</a> for more information.</span></span></p></td>
+<td><p><span data-ttu-id="5d33b-109"><strong>Identificação_da_sessãotime</strong></span><span class="sxs-lookup"><span data-stu-id="5d33b-109"><strong>SessionIdTime</strong></span></span></p></td>
+<td><p><span data-ttu-id="5d33b-110">datetime</span><span class="sxs-lookup"><span data-stu-id="5d33b-110">datetime</span></span></p></td>
+<td><p><span data-ttu-id="5d33b-111">Primário, Estrangeiro</span><span class="sxs-lookup"><span data-stu-id="5d33b-111">Primary, Foreign</span></span></p></td>
+<td><p><span data-ttu-id="5d33b-112">Tempo da solicitação de sessão.</span><span class="sxs-lookup"><span data-stu-id="5d33b-112">Time of session request.</span></span> <span data-ttu-id="5d33b-113">Usado em conjunto com <strong>SessionIdSeq</strong> para identificar exclusivamente uma sessão.</span><span class="sxs-lookup"><span data-stu-id="5d33b-113">Used in conjunction with <strong>SessionIdSeq</strong> to uniquely identify a session.</span></span> <span data-ttu-id="5d33b-114">Consulte a <a href="lync-server-2013-dialogs-table.md">tabela diálogos no Lync Server 2013</a> para obter mais informações.</span><span class="sxs-lookup"><span data-stu-id="5d33b-114">See the <a href="lync-server-2013-dialogs-table.md">Dialogs table in Lync Server 2013</a> for more information.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="0dea0-115"><strong>SessionIdSeq</strong></span><span class="sxs-lookup"><span data-stu-id="0dea0-115"><strong>SessionIdSeq</strong></span></span></p></td>
-<td><p><span data-ttu-id="0dea0-116">int</span><span class="sxs-lookup"><span data-stu-id="0dea0-116">int</span></span></p></td>
-<td><p><span data-ttu-id="0dea0-117">Primário, Estrangeiro</span><span class="sxs-lookup"><span data-stu-id="0dea0-117">Primary, Foreign</span></span></p></td>
-<td><p><span data-ttu-id="0dea0-118">O número de ID para identificar a sessão.</span><span class="sxs-lookup"><span data-stu-id="0dea0-118">ID number to identify the session.</span></span> <span data-ttu-id="0dea0-119">Usado em conjunto com <strong>SessionIdTime</strong> para identificar exclusivamente uma sessão.</span><span class="sxs-lookup"><span data-stu-id="0dea0-119">Used in conjunction with <strong>SessionIdTime</strong> to uniquely identify a session.</span></span> <span data-ttu-id="0dea0-120">Consulte a <a href="lync-server-2013-dialogs-table.md">tabela diálogos no Lync Server 2013</a> para obter mais informações.</span><span class="sxs-lookup"><span data-stu-id="0dea0-120">See the <a href="lync-server-2013-dialogs-table.md">Dialogs table in Lync Server 2013</a> for more information.</span></span></p></td>
+<td><p><span data-ttu-id="5d33b-115"><strong>SessionIdSeq</strong></span><span class="sxs-lookup"><span data-stu-id="5d33b-115"><strong>SessionIdSeq</strong></span></span></p></td>
+<td><p><span data-ttu-id="5d33b-116">int</span><span class="sxs-lookup"><span data-stu-id="5d33b-116">int</span></span></p></td>
+<td><p><span data-ttu-id="5d33b-117">Primário, Estrangeiro</span><span class="sxs-lookup"><span data-stu-id="5d33b-117">Primary, Foreign</span></span></p></td>
+<td><p><span data-ttu-id="5d33b-118">O número de ID para identificar a sessão.</span><span class="sxs-lookup"><span data-stu-id="5d33b-118">ID number to identify the session.</span></span> <span data-ttu-id="5d33b-119">Usado em conjunto com <strong>SessionIdTime</strong> para identificar exclusivamente uma sessão.</span><span class="sxs-lookup"><span data-stu-id="5d33b-119">Used in conjunction with <strong>SessionIdTime</strong> to uniquely identify a session.</span></span> <span data-ttu-id="5d33b-120">Consulte a <a href="lync-server-2013-dialogs-table.md">tabela diálogos no Lync Server 2013</a> para obter mais informações.</span><span class="sxs-lookup"><span data-stu-id="5d33b-120">See the <a href="lync-server-2013-dialogs-table.md">Dialogs table in Lync Server 2013</a> for more information.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="0dea0-121"><strong>Localização</strong></span><span class="sxs-lookup"><span data-stu-id="0dea0-121"><strong>Location</strong></span></span></p></td>
-<td><p><span data-ttu-id="0dea0-122">nvarchar (máx.)</span><span class="sxs-lookup"><span data-stu-id="0dea0-122">nvarchar(max)</span></span></p></td>
+<td><p><span data-ttu-id="5d33b-121"><strong>Location</strong></span><span class="sxs-lookup"><span data-stu-id="5d33b-121"><strong>Location</strong></span></span></p></td>
+<td><p><span data-ttu-id="5d33b-122">nvarchar (máx.)</span><span class="sxs-lookup"><span data-stu-id="5d33b-122">nvarchar(max)</span></span></p></td>
 <td></td>
-<td><p><span data-ttu-id="0dea0-123">Local da chamada de emergência.</span><span class="sxs-lookup"><span data-stu-id="0dea0-123">Location of emergency call.</span></span></p></td>
+<td><p><span data-ttu-id="5d33b-123">Local da chamada de emergência.</span><span class="sxs-lookup"><span data-stu-id="5d33b-123">Location of emergency call.</span></span></p></td>
 </tr>
 </tbody>
 </table>
