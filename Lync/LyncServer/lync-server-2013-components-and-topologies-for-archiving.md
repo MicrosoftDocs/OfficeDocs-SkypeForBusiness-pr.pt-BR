@@ -12,20 +12,22 @@ ms:contentKeyID: 48184213
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5ca674be0059a235439df637f07cb4ca834806d4
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: ec153b237df086f3622acc70c104bddc64fef28a
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42209427"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48502608"
 ---
+# <a name="components-and-topologies-for-archiving-in-lync-server-2013"></a>Componentes e topologias para arquivamento no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="components-and-topologies-for-archiving-in-lync-server-2013"></a>Componentes e topologias para arquivamento no Lync Server 2013
+
 
 </div>
 
@@ -49,7 +51,7 @@ O recurso de arquivamento inclui os seguintes componentes:
 
   - **Armazenamento de dados de arquivamento**. O armazenamento de dados do Lync Server 2013 pode ser um dos seguintes:
     
-      - Armazenamento 2013 do Exchange. Se você habilitar a opção de integração do Microsoft Exchange, as caixas de correio do usuário hospedadas no servidor Exchange 2013 usam o armazenamento do Exchange 2013 para dados arquivados, mas somente se as caixas de correio foram colocadas em retenção in-loco.
+      - Armazenamento 2013 do Exchange. Se você habilitar a opção de integração do Microsoft Exchange, as caixas de correio do usuário hospedadas no servidor Exchange 2013 usam o armazenamento do Exchange 2013 para dados arquivados, mas somente se as caixas de correio foram colocadas em In-Place.
     
       - Armazenamento do SQL Server. Se você tiver usuários na sua implantação hospedados no Lync Server 2013, poderá configurar bancos de dados de arquivamento que executam uma versão com suporte do SQL Server para habilitar o arquivamento para esses usuários.
 
@@ -69,7 +71,7 @@ Você implanta o arquivamento em cada pool que possui usuários que requerem sup
 
   - Implantado usando bancos de dados do SQL Server separados
 
-Se sua implantação do Exchange 2013 não inclui todos os usuários em sua implantação do Lync Server, você deve usar a integração do Microsoft Exchange para os usuários cujas caixas de correio estão em casa nos servidores do Exchange 2013 e você deve implantar bancos de dados do SQL Server separados para todos os outros Usuários do Lync a serem usados para arquivamento.
+Se sua implantação do Exchange 2013 não inclui todos os usuários em sua implantação do Lync Server, você deve usar a integração do Microsoft Exchange para os usuários cujas caixas de correio estão em casa nos servidores do Exchange 2013 e você deve implantar bancos de dados do SQL Server separados para todos os outros usuários do Lync usarem para arquivamento.
 
 </div>
 
@@ -77,7 +79,7 @@ Se sua implantação do Exchange 2013 não inclui todos os usuários em sua impl
 
 ## <a name="supported-collocation"></a>Colocação suportada
 
-O Lync Server 2013 oferece suporte a uma variedade de cenários de colocação, permitindo que você tenha flexibilidade para salvar os custos de hardware executando vários componentes em um servidor (se você tiver uma organização pequena) ou para executar componentes individuais em servidores diferentes (se você tiver um maior organização que precisa de escalabilidade e desempenho). Os fatores de escalabilidade certamente devem ser considerados antes de você decidir se quer colocar componentes.
+O Lync Server 2013 oferece suporte a uma variedade de cenários de colocação, permitindo que você tenha flexibilidade para salvar os custos de hardware executando vários componentes em um servidor (se você tiver uma organização pequena) ou para executar componentes individuais em servidores diferentes (se você tiver uma organização maior que precise de escalabilidade e desempenho). Os fatores de escalabilidade certamente devem ser considerados antes de você decidir se quer colocar componentes.
 
 O arquivamento é implantado nos servidores front-end de um pool ou servidores Standard Edition. Para obter detalhes sobre os componentes que podem ser colocados no local, consulte [suporte à colocação de servidor no Lync server 2013](lync-server-2013-supported-server-collocation.md) na documentação de suporte.
 

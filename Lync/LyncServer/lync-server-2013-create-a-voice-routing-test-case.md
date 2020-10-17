@@ -12,20 +12,22 @@ ms:contentKeyID: 48183979
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b9fac6f65d1bb1c04b8d8597454df775f8545d2a
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: da110d7e3bfb7188384163cb572591d0bf7f8ff3
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42205747"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48501768"
 ---
+# <a name="create-a-voice-routing-test-case-in-lync-server-2013"></a>Criar um caso de teste de roteamento de voz no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="create-a-voice-routing-test-case-in-lync-server-2013"></a>Criar um caso de teste de roteamento de voz no Lync Server 2013
+
 
 </div>
 
@@ -51,7 +53,7 @@ _**Última modificação do tópico:** 2014-02-07_
 
 5.  Em **Nome**, digite um nome exclusivo para o caso de teste.
     
-    O nome deve ser exclusivo entre todos os casos de teste de roteamento de voz em sua implantação do Enterprise Voice. Pode ter até 32 caracteres de comprimento e pode conter qualquer caractere alfanumérico, além da barra invertida (\\), ponto (.) ou sublinhado (\_).
+    O nome deve ser exclusivo entre todos os casos de teste de roteamento de voz em sua implantação do Enterprise Voice. Pode ter até 32 caracteres de comprimento e pode conter qualquer caractere alfanumérico, além da barra invertida ( \\ ), ponto (.) ou sublinhado ( \_ ).
 
 6.  Em **Número discado para fazer um teste**, digite o número discado que deseja usar para testar a configuração de roteamento que você especificar para esse caso de teste. Com base no plano de discagem, na rota e na política de voz, esse número será normalizado e exibido como saída.
 
@@ -80,7 +82,7 @@ _**Última modificação do tópico:** 2014-02-07_
     
     </div>
     
-    Se o plano de discagem que está sendo empregado no teste normalizar números de telefone que começam com um sinal de adição (por exemplo, + 12065551219), esse plano pode causar uma falha no teste de roteamento de voz. (O plano de discagem e a rota de voz funcionará; na verdade, o Test-CsDialPlan será bem-sucedido. No entanto, o teste de roteamento de voz pode falhar. É algo que você deve ter em mente ao testar as rotas de voz.
+    Se o plano de discagem que está sendo empregado no teste normalizar números de telefone que começam com um sinal de adição (por exemplo, + 12065551219), esse plano pode causar uma falha no teste de roteamento de voz. (O plano de discagem e a rota de voz funcionará; na verdade, Test-CsDialPlan será bem-sucedido. No entanto, o teste de roteamento de voz pode falhar. É algo que você deve ter em mente ao testar as rotas de voz.
 
 </div>
 

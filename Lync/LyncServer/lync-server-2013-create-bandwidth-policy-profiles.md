@@ -12,20 +12,22 @@ ms:contentKeyID: 48185086
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 66f2489b0ffaabc3744d92b38bcbf71ffcd84591
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 173f63fce60215ca0bc68791b0bc051136d931a4
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42205696"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48501698"
 ---
+# <a name="create-bandwidth-policy-profiles-in-lync-server-2013"></a>Criar perfis de política de largura de banda no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="create-bandwidth-policy-profiles-in-lync-server-2013"></a>Criar perfis de política de largura de banda no Lync Server 2013
+
 
 </div>
 
@@ -51,7 +53,7 @@ Para obter detalhes sobre como trabalhar com políticas de largura de banda e pe
 
   - [Remove-CsNetworkBandwidthPolicyProfile](https://docs.microsoft.com/powershell/module/skype/Remove-CsNetworkBandwidthPolicyProfile)
 
-As políticas de exemplo criadas no procedimento a seguir definem limites para o tráfego de áudio geral, sessões de áudio individuais, tráfego de vídeo geral e sessões de vídeo individuais. Por exemplo, o perfil\_de política de largura de banda de link de 5 MB define os seguintes limites:
+As políticas de exemplo criadas no procedimento a seguir definem limites para o tráfego de áudio geral, sessões de áudio individuais, tráfego de vídeo geral e sessões de vídeo individuais. Por exemplo, o perfil de política de largura de banda de link de 5 MB \_ define os seguintes limites:
 
   - Limite de Áudio: 2.000 kbps
 

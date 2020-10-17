@@ -12,20 +12,22 @@ ms:contentKeyID: 48184077
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e2da0884915f44246e316f80cb9fd35fb7aecaad
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 331b2afbfa4b6c4147ffab3765af4e9e5031c190
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42195764"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48502868"
 ---
+# <a name="audiostream-table-in-lync-server-2013"></a>Tabela AudioStream no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="audiostream-table-in-lync-server-2013"></a>Tabela AudioStream no Lync Server 2013
+
 
 </div>
 
@@ -269,63 +271,63 @@ Cada registro representa um fluxo de áudio. Uma linha de mídia de áudio norma
 </tr>
 <tr class="even">
 <td><p><strong>JitterInterArrivalSD</strong></p></td>
-<td><p>float</p></td>
+<td><p>flutuação</p></td>
 <td></td>
 <td><p>Desvio padrão para tempos de chegada de tremulação.</p>
 <p>Esta coluna foi introduzida no Microsoft Lync Server 2013.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>ConcealRatioMax</strong></p></td>
-<td><p>float</p></td>
+<td><p>flutuação</p></td>
 <td></td>
 <td><p>Taxa máxima de pacotes ocultos pelo reparo.</p>
 <p>Esta coluna foi introduzida no Microsoft Lync Server 2013.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>ConcealRatioSD</strong></p></td>
-<td><p>float</p></td>
+<td><p>flutuação</p></td>
 <td></td>
 <td><p>Desvio padrão para a taxa de pacotes ocultos pelo reparo.</p>
 <p>Esta coluna foi introduzida no Microsoft Lync Server 2013.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>HealerPacketDropRatio</strong></p></td>
-<td><p>float</p></td>
+<td><p>flutuação</p></td>
 <td></td>
 <td><p>Taxa de pacotes descartados pelo REO reparo em comparação com o número total de pacotes recebidos.</p>
 <p>Esta coluna foi introduzida no Microsoft Lync Server 2013.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>HealerFECPacketUsedRatio</strong></p></td>
-<td><p>float</p></td>
+<td><p>flutuação</p></td>
 <td></td>
 <td><p>Taxa de pacotes de correção de erro de encaminhamento usados em comparação com o número total de pacotes recebidos.</p>
 <p>Esta coluna foi introduzida no Microsoft Lync Server 2013.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>MaxCompressedSamples</strong></p></td>
-<td><p>float</p></td>
+<td><p>flutuação</p></td>
 <td></td>
 <td><p>Número máximo de pacotes de áudio que foram compactados pelo reparánte.</p>
 <p>Esta coluna foi introduzida no Microsoft Lync Server 2013.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>LossCongestionPercent</strong></p></td>
-<td><p>float</p></td>
+<td><p>flutuação</p></td>
 <td></td>
 <td><p>Indica a porcentagem de tempo em que a chamada estava em um estado de congestionamento de perda.</p>
 <p>Esta coluna foi introduzida no Microsoft Lync Server 2013.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>DelayCongestionPercent</strong></p></td>
-<td><p>float</p></td>
+<td><p>flutuação</p></td>
 <td></td>
 <td><p>Indica a porcentagem da chamada durante a qual o congestionamento foi causado pela chegada atrasada de pacotes de rede.</p>
 <p>Esta coluna foi introduzida no Microsoft Lync Server 2013.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>ContentionDetectedPercent</strong></p></td>
-<td><p>float</p></td>
+<td><p>flutuação</p></td>
 <td></td>
 <td><p>Indica a porcentagem de tempo em que a chamada estava competindo por recursos de rede.</p>
 <p>Esta coluna foi introduzida no Microsoft Lync Server 2013.</p></td>
@@ -360,21 +362,21 @@ Cada registro representa um fluxo de áudio. Uma linha de mídia de áudio norma
 </tr>
 <tr class="odd">
 <td><p><strong>RelativeOneWayTotal</strong></p></td>
-<td><p>float</p></td>
+<td><p>flutuação</p></td>
 <td></td>
 <td><p>Quantidade total de latência unidirecional. A latência relativa unidirecional mede o atraso entre o cliente e o servidor.</p>
 <p>Esta coluna foi introduzida no Microsoft Lync Server 2013.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>RelativeOneWayAverage</strong></p></td>
-<td><p>float</p></td>
+<td><p>flutuação</p></td>
 <td></td>
 <td><p>Quantidade média de latência unidirecional. A latência relativa unidirecional mede o atraso entre o cliente e o servidor.</p>
 <p>Esta coluna foi introduzida no Microsoft Lync Server 2013.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>RelativeOneWayMax</strong></p></td>
-<td><p>float</p></td>
+<td><p>flutuação</p></td>
 <td></td>
 <td><p>Quantidade máxima de latência unidirecional. A latência relativa unidirecional mede o atraso entre o cliente e o servidor.</p>
 <p>Esta coluna foi introduzida no Microsoft Lync Server 2013.</p></td>
@@ -388,14 +390,14 @@ Cada registro representa um fluxo de áudio. Uma linha de mídia de áudio norma
 </tr>
 <tr class="odd">
 <td><p><strong>RelativeOneWayBurstDensity</strong></p></td>
-<td><p>float</p></td>
+<td><p>flutuação</p></td>
 <td></td>
 <td><p>Densidade total de intermitências unidirecionais. Uma transmissão "intermitente" ocorre quando os fluxos de dados sofrem intermitências imprevisíveis, em oposição a um fluxo contínuo. Esta medida avalia o fluxo de dados entre o cliente e o servidor.</p>
 <p>Esta coluna foi introduzida no Microsoft Lync Server 2013.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>RelativeOneWayBurstDuration</strong></p></td>
-<td><p>float</p></td>
+<td><p>flutuação</p></td>
 <td></td>
 <td><p>Duração total de intermitências unidirecionais. Uma transmissão "intermitente" ocorre quando os fluxos de dados sofrem intermitências imprevisíveis, em oposição a um fluxo contínuo. Esta medida avalia o fluxo de dados entre o cliente e o servidor.</p>
 <p>Esta coluna foi introduzida no Microsoft Lync Server 2013.</p></td>
@@ -409,49 +411,49 @@ Cada registro representa um fluxo de áudio. Uma linha de mídia de áudio norma
 </tr>
 <tr class="even">
 <td><p><strong>RelativeOneWayGapDensity</strong></p></td>
-<td><p>float</p></td>
+<td><p>flutuação</p></td>
 <td></td>
 <td><p>Densidade total de intervalos unidirecionais. Uma transmissão "intermitente" ocorre quando os fluxos de dados sofrem intermitências imprevisíveis, em oposição a um fluxo contínuo: os intervalos indicam os atrasos entre essas intermitências. Esta medida avalia o fluxo de dados entre o cliente e o servidor.</p>
 <p>Esta coluna foi introduzida no Microsoft Lync Server 2013.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>RelativeOneWayGapDuration</strong></p></td>
-<td><p>float</p></td>
+<td><p>flutuação</p></td>
 <td></td>
 <td><p>Duração total de intervalos unidirecionais. Uma transmissão "intermitente" ocorre quando os fluxos de dados sofrem intermitências imprevisíveis, em oposição a um fluxo contínuo: os intervalos indicam os atrasos entre essas intermitências. Esta medida avalia o fluxo de dados entre o cliente e o servidor.</p>
 <p>Esta coluna foi introduzida no Microsoft Lync Server 2013.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>DecodeStereoPercent</strong></p></td>
-<td><p>float</p></td>
+<td><p>flutuação</p></td>
 <td></td>
 <td><p>Porcentagem da chamada decodificada como estéreo.</p>
 <p>Esta coluna foi introduzida no Microsoft Lync Server 2013.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>AecRenderStereoPercent</strong></p></td>
-<td><p>float</p></td>
+<td><p>flutuação</p></td>
 <td></td>
 <td><p>Porcentagem da chamada processada como estéreo pelo cancelador de eco acústico.</p>
 <p>Esta coluna foi introduzida no Microsoft Lync Server 2013.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>AudioPostFECPLR</strong></p></td>
-<td><p>float</p></td>
+<td><p>flutuação</p></td>
 <td></td>
 <td><p>Taxa de perda de pacote após a correção de erro encaminhar ter sido aplicada.</p>
 <p>Esta coluna foi introduzida no Microsoft Lync Server 2013.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>EncodeStereoPercent</strong></p></td>
-<td><p>float</p></td>
+<td><p>flutuação</p></td>
 <td></td>
 <td><p>Porcentagem da chamada codificada como estéreo.</p>
 <p>Esta coluna foi introduzida no Microsoft Lync Server 2013.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>AecCaptureStereoPercent</strong></p></td>
-<td><p>float</p></td>
+<td><p>flutuação</p></td>
 <td></td>
 <td><p>Porcentagem da chamada capturada como estéreo pelo cancelador de eco acústico.</p>
 <p>Esta coluna foi introduzida no Microsoft Lync Server 2013.</p></td>

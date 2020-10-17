@@ -12,20 +12,22 @@ ms:contentKeyID: 51541453
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d414a998fcce0f68186fbf9a6e42d6075dfb991c
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: e97bb7d77bbd468fff18084ecc7d4da8c5feb7f6
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42203137"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48502108"
 ---
+# <a name="configuring-certificates-for-autodiscover-in-lync-server-2013"></a>Configurando certificados para descoberta automática no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-certificates-for-autodiscover-in-lync-server-2013"></a>Configurando certificados para descoberta automática no Lync Server 2013
+
 
 </div>
 
@@ -43,7 +45,7 @@ Os certificados do seu pool de diretores, pool de front-ends e proxy reverso exi
 
 
 > [!NOTE]  
-> Você pode usar o cmdlet <STRONG>Get-CsCertificate</STRONG> para exibir as informações sobre os certificados atualmente atribuídos. No entanto, o modo padrão trunca as propriedades do certificado e não exibe todos os valores na propriedade SubjectAlternativeNames. Você pode usar o <STRONG>Get-CsCertificate</STRONG> , o CsCertificate <STRONG>Request-</STRONG> e os cmdlets <STRONG>Set-CsCertificate</STRONG> para exibir alguma informação e para solicitar e atribuir certificados. Porém, não é o melhor método a ser usado se você não conhece as propriedades do SAN (nomes alternativos da entidade) no certificado atual. Para exibir o certificado e todos os membros de propriedade, é recomendável usar o snap-in de certificados no <EM>console de gerenciamento Microsoft (MMC)</EM> ou usar o assistente de implantação do Lync Server. No assistente de implantação do Lync Server, você pode usar o assistente de certificado para exibir as propriedades do certificado. Os procedimentos para exibir, solicitar e atribuir um certificado usando o Shell de gerenciamento do Lync Server e o <EM>MMC (console de gerenciamento Microsoft)</EM> são detalhados nos procedimentos a seguir. Para usar o assistente de implantação do Lync Server, confira detalhes aqui se você tiver implantado o diretor opcional ou o pool de diretores: <A href="lync-server-2013-configure-certificates-for-the-director.md">configure certificados para o diretor no Lync Server 2013</A>. Para o servidor front-end ou o pool de front-ends, consulte os detalhes aqui: <A href="lync-server-2013-configure-certificates-for-servers.md">Configure Certificates for Servers in Lync Server 2013</A>.<BR>As etapas iniciais nesse procedimento são de preparação para te orientar sobre a função do certificado atual. Por padrão, os certificados não terão lyncdiscover. &lt;sipdomain&gt; ou lyncdiscoverinternal. &lt;entrada de nome&gt; de domínio interno, a menos que você tenha instalado os serviços de mobilidade anteriormente ou tenha preparado os certificados com antecedência. Esse procedimento utiliza o exemplo do nome do domínio SIP ‘contoso.com’ e o exemplo do nome do domínio interno ‘contoso.net’.<BR>A configuração de certificado padrão do Lync Server 2013 e do Lync Server 2010 é usar um único certificado (chamado "padrão") com o padrão de finalidades (para todos os fins, exceto para os serviços Web), WebServicesExternal e WebServicesInternal. Uma configuração opcional seria usar certificados separados para cada propósito. Os certificados podem ser gerenciados usando o Shell de gerenciamento do Lync Server e os cmdlets do Windows PowerShell, ou usando o assistente de certificado no assistente de implantação do Lync Server.
+> Você pode usar o cmdlet <STRONG>Get-CsCertificate</STRONG> para exibir as informações sobre os certificados atualmente atribuídos. No entanto, o modo padrão trunca as propriedades do certificado e não exibe todos os valores na propriedade SubjectAlternativeNames. Você pode usar o <STRONG>Get-CsCertificate</STRONG> , o CsCertificate <STRONG>Request-</STRONG> e os cmdlets <STRONG>Set-CsCertificate</STRONG> para exibir alguma informação e para solicitar e atribuir certificados. Porém, não é o melhor método a ser usado se você não conhece as propriedades do SAN (nomes alternativos da entidade) no certificado atual. Para exibir o certificado e todos os membros de propriedade, é recomendável usar o snap-in de certificados no <EM>console de gerenciamento Microsoft (MMC)</EM> ou usar o assistente de implantação do Lync Server. No assistente de implantação do Lync Server, você pode usar o assistente de certificado para exibir as propriedades do certificado. Os procedimentos para exibir, solicitar e atribuir um certificado usando o Shell de gerenciamento do Lync Server e o <EM>MMC (console de gerenciamento Microsoft)</EM> são detalhados nos procedimentos a seguir. Para usar o assistente de implantação do Lync Server, confira detalhes aqui se você tiver implantado o diretor opcional ou o pool de diretores: <A href="lync-server-2013-configure-certificates-for-the-director.md">configure certificados para o diretor no Lync Server 2013</A>. Para o servidor front-end ou o pool de front-ends, consulte os detalhes aqui: <A href="lync-server-2013-configure-certificates-for-servers.md">Configure Certificates for Servers in Lync Server 2013</A>.<BR>As etapas iniciais nesse procedimento são de preparação para te orientar sobre a função do certificado atual. Por padrão, os certificados não terão lyncdiscover. &lt; sipdomain &gt; ou lyncdiscoverinternal. &lt; entrada de nome de domínio interno &gt; , a menos que você tenha instalado os serviços de mobilidade anteriormente ou tenha preparado os certificados com antecedência. Esse procedimento utiliza o exemplo do nome do domínio SIP ‘contoso.com’ e o exemplo do nome do domínio interno ‘contoso.net’.<BR>A configuração de certificado padrão do Lync Server 2013 e do Lync Server 2010 é usar um único certificado (chamado "padrão") com o padrão de finalidades (para todos os fins, exceto para os serviços Web), WebServicesExternal e WebServicesInternal. Uma configuração opcional seria usar certificados separados para cada propósito. Os certificados podem ser gerenciados usando o Shell de gerenciamento do Lync Server e os cmdlets do Windows PowerShell, ou usando o assistente de certificado no assistente de implantação do Lync Server.
 
 
 
@@ -108,13 +110,13 @@ Os certificados do seu pool de diretores, pool de front-ends e proxy reverso exi
     
       - Nomes internos e externos de serviços Web (por exemplo, webpool01.contoso.net, webpool01.contoso.com), com base nas escolhas feitas no construtor de topologias e nas seleções de serviços Web do nas.
     
-      - Se já tiver sido atribuído, o lyncdiscover. \<sipdomain\> e lyncdiscoverinternal. \<sipdomain\> registros.
+      - Se já tiver sido atribuído, o lyncdiscover.\<sipdomain\> e lyncdiscoverinternal.\<sipdomain\> relatórios.
     
     O último item é o mais interessante – se houver uma entrada SAN lyncdiscover e lyncdiscoverinternal.
     
     Assim que obtiver essa informação, você pode fechar o certificado exibido e o MMC.
 
-12. Se um serviço de descoberta automática, ou seja, o lyncdiscover. \>nome\> de domínio e lyncdiscoverinternal. \<nome\> do domínio (baseado em se este for um certificado externo ou interno) o nome alternativo da entidade estiver ausente e você estiver usando um único certificado padrão para os tipos padrão, WebServicesInternal e WebServiceExternal, faça o seguinte:
+12. Se um serviço de descoberta automática, ou seja, o lyncdiscover. \> nome \> de domínio e lyncdiscoverinternal.\<domain name\> (baseado em se este é um certificado externo ou interno), o nome alternativo da entidade está ausente e você está usando um único certificado padrão para os tipos padrão, WebServicesInternal e WebServiceExternal, faça o seguinte:
     
       - No prompt da linha de comando do Shell de gerenciamento do Lync Server, digite:
         

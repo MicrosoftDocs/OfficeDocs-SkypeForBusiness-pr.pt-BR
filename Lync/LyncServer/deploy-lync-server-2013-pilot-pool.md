@@ -12,20 +12,22 @@ ms:contentKeyID: 48185028
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cbb620a4846b05c7f81ecea4d5cc525c9c16c0c1
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 9489db1fef9b836749fe4f381e717a4d406f5938
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42180524"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48502968"
 ---
+# <a name="deploy-lync-server-2013-pilot-pool"></a>Implantar o pool piloto do Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deploy-lync-server-2013-pilot-pool"></a>Implantar o pool piloto do Lync Server 2013
+
 
 </div>
 
@@ -78,7 +80,7 @@ Ao implantar um pool piloto, você usa o Assistente Definir novo pool de front-e
     
     ![Página de seleção de recursos do pool de front-ends](images/JJ204718.5c3f3ff9-6e17-4d66-9b13-3bd55b38246b(OCS.15).jpg "Página de seleção de recursos do pool de front-ends")
 
-6.  Na página **selecionar funções de servidor posicionadas** , recomendamos colocar o servidor de mediação no Lync Server 2013. Ao mesclar uma topologia herdada com o Lync Server 2013, exigimos que você primeiro coloque o servidor de mediação do Lync Server 2010. Após mesclar as topologias e configurar o servidor de mediação do Lync Server 2013, você pode decidir se deseja manter o servidor de mediação posicionado ou alterá-lo para um servidor autônomo quando mover a função de servidor de mediação para o Lync Server 2013 mais tarde na implantação -.
+6.  Na página **selecionar funções de servidor posicionadas** , recomendamos colocar o servidor de mediação no Lync Server 2013. Ao mesclar uma topologia herdada com o Lync Server 2013, exigimos que você primeiro coloque o servidor de mediação do Lync Server 2010. Após mesclar as topologias e configurar o servidor de mediação do Lync Server 2013, você pode decidir se deseja manter o servidor de mediação colocado ou alterá-lo para um servidor autônomo quando mover a função de servidor de mediação para o Lync Server 2013 mais tarde no processo de implantação.
     
     ![Página de funções de servidor do pool de front-ends selecionar](images/JJ204718.e00b7eba-010b-44ed-b0a6-6ab3e534fb8c(OCS.15).jpg "Página de funções de servidor do pool de front-ends selecionar")
 

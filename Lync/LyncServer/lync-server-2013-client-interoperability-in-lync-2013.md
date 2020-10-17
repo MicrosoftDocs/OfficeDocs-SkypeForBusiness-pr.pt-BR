@@ -12,20 +12,22 @@ ms:contentKeyID: 48183417
 ms.date: 03/04/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 437051279393b9dedc7c4def0c75cd119cded914
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 2e00071edd4a3d65e9db763914577983306491fc
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42197824"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48502668"
 ---
+# <a name="client-interoperability-in-lync-2013"></a>Interoperabilidade do cliente no Lync 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="client-interoperability-in-lync-2013"></a>Interoperabilidade do cliente no Lync 2013
+
 
 </div>
 
@@ -55,7 +57,7 @@ A tabela a seguir exibe as combinações com suporte de versões de cliente e de
 </colgroup>
 <thead>
 <tr class="header">
-<th>Client</th>
+<th>Cliente</th>
 <th>Lync Server 2013</th>
 <th>Lync Server 2010</th>
 <th>Office Communications Server 2007 R2</th>
@@ -72,25 +74,25 @@ A tabela a seguir exibe as combinações com suporte de versões de cliente e de
 <td><p>Lync 2013 Basic</p></td>
 <td><p>Com suporte</p></td>
 <td><p>Com suporte</p></td>
-<td><p>Não suportado</p></td>
+<td><p>Não Suportado</p></td>
 </tr>
 <tr class="odd">
 <td><p>Lync Web App 2013</p></td>
 <td><p>Com suporte</p></td>
-<td><p>Não suportado</p></td>
+<td><p>Não Suportado</p></td>
 <td><p>Não Suportado</p></td>
 </tr>
 <tr class="even">
 <td><p>Lync 2010</p></td>
 <td><p>Com suporte</p></td>
 <td><p>Com suporte</p></td>
-<td><p>Não suportado</p></td>
+<td><p>Não Suportado</p></td>
 </tr>
 <tr class="odd">
 <td><p>Lync 2010 Attendant</p></td>
 <td><p>Com suporte</p></td>
 <td><p>Com suporte</p></td>
-<td><p>Não suportado</p></td>
+<td><p>Não Suportado</p></td>
 </tr>
 <tr class="even">
 <td><p>Chat de grupo do Lync 2010</p></td>
@@ -100,15 +102,15 @@ A tabela a seguir exibe as combinações com suporte de versões de cliente e de
 </tr>
 <tr class="odd">
 <td><p>Lync Web App 2010</p></td>
-<td><p>Não Suportado</p></td>
-<td><p>Com suporte</p></td>
 <td><p>Não suportado</p></td>
+<td><p>Com suporte</p></td>
+<td><p>Não Suportado</p></td>
 </tr>
 <tr class="even">
 <td><p>Lync 2010 Attendee</p></td>
 <td><p>Não Supported3</p></td>
 <td><p>Com suporte</p></td>
-<td><p>Não suportado</p></td>
+<td><p>Não Suportado</p></td>
 </tr>
 <tr class="odd">
 <td><p>Office Communicator 2007 R2</p></td>
@@ -118,19 +120,19 @@ A tabela a seguir exibe as combinações com suporte de versões de cliente e de
 </tr>
 <tr class="even">
 <td><p>Microsoft Office Communications Server 2007 R2 Attendant</p></td>
-<td><p>Não Suportado</p></td>
+<td><p>Não suportado</p></td>
 <td><p>Com suporte</p></td>
 <td><p>Com suporte</p></td>
 </tr>
 <tr class="odd">
 <td><p>Office Communicator 2007</p></td>
-<td><p>Não Suportado</p></td>
+<td><p>Não suportado</p></td>
 <td><p>Com suporte</p></td>
 <td><p>Com suporte</p></td>
 </tr>
 <tr class="even">
 <td><p>Office Live Meeting 2007</p></td>
-<td><p>Não Suportado</p></td>
+<td><p>Não suportado</p></td>
 <td><p>Com suporte</p></td>
 <td><p>Com suporte</p></td>
 </tr>
@@ -138,7 +140,7 @@ A tabela a seguir exibe as combinações com suporte de versões de cliente e de
 <td><p>Aplicativo Lync da Windows Store</p></td>
 <td><p>Com suporte</p></td>
 <td><p>Com suporte</p></td>
-<td><p>Não suportado</p></td>
+<td><p>Não Suportado</p></td>
 </tr>
 </tbody>
 </table>
@@ -197,7 +199,7 @@ A tabela a seguir compara a disponibilidade de recursos em sessões ponto a pont
 </colgroup>
 <thead>
 <tr class="header">
-<th>Client</th>
+<th>Cliente</th>
 <th>Sistema de Mensagens Instantâneas</th>
 <th>Presença</th>
 <th>Voz</th>
@@ -361,7 +363,7 @@ Nas reuniões do Lync Server 2013, determinados recursos de conferência têm su
 </colgroup>
 <thead>
 <tr class="header">
-<th>Client</th>
+<th>Cliente</th>
 <th>Mensagens instantâneas ponto a ponto</th>
 <th>Voz</th>
 <th>Vídeo</th>
@@ -450,11 +452,11 @@ os recursos de presença e IM do 4The no Office Communicator 2007 R2 são compat
 
 O suporte do servidor a vários suplementos de agendamento é consistente com a compatibilidade de versão do servidor e cliente. Em geral, os seguintes suplementos de agendamento têm suporte no Lync Server 2013. No entanto, versões anteriores de suplementos não fornecem novos recursos de suplemento do Lync 2013, como a opção para desativar o áudio e o vídeo de todos os participantes na entrada da reunião.
 
-  - **O suplemento de reunião online para Lync 2013**   oferece os mesmos recursos que o suplemento de reunião online para o Lync 2010, com a adição de controles sem som de participantes, o que permite que os organizadores de reunião agendem conferências com áudio e vídeo de participante sem som por padrão. Administradores também podem personalizar convites de reunião da organização incluindo um logotipo personalizado, uma URL da equipe de suporte, uma URL de aviso de isenção legal ou um texto de rodapé personalizado.
+  - **Suplemento de reunião online para Lync 2013**     Oferece os mesmos recursos que o suplemento de reunião online para o Lync 2010, com a adição de controles sem som de participantes, que permitem que os organizadores de reunião agendem conferências com áudio e vídeo de participante sem som por padrão. Administradores também podem personalizar convites de reunião da organização incluindo um logotipo personalizado, uma URL da equipe de suporte, uma URL de aviso de isenção legal ou um texto de rodapé personalizado.
 
-  - **O suplemento de reunião online para Lync 2010**   fornece agendamento para reuniões do Lync e remove a capacidade de agendar conferências do Office Live Meeting.
+  - **Suplemento de reunião online para Lync 2010**     Fornece agendamento para reuniões do Lync e remove a capacidade de agendar conferências do Office Live Meeting.
 
-  - **O suplemento de conferência do Office Communicator 2007 R2**   fornece agendamento para conferências do Office Live Meeting e conferências do Office Communicator 2007 R2. 
+  - Suplemento de conferência **do Office Communicator 2007 R2**     Fornece agendamento para conferências do Office Live Meeting e conferências do Office Communicator 2007 R2. 
 
 <div>
 
@@ -492,8 +494,8 @@ O suporte do servidor a vários suplementos de agendamento é consistente com a 
 <tr class="even">
 <td><p>Agendador da Web do Lync 2013</p></td>
 <td><p>Com suporte</p></td>
-<td><p>Não suportado</p></td>
-<td><p>Não suportado</p></td>
+<td><p>Não Suportado</p></td>
+<td><p>Não Suportado</p></td>
 </tr>
 <tr class="odd">
 <td><p>Suplemento de Reunião Online para Lync 2010</p></td>

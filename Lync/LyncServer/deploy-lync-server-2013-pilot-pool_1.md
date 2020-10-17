@@ -12,20 +12,22 @@ ms:contentKeyID: 48183539
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: af8c2f5ed78bb228c4e650da983a1c82456c47b4
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 3df30b2aa45fe9519d724f904e8b375bed794042
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42180494"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48502948"
 ---
+# <a name="deploy-lync-server-2013-pilot-pool"></a>Implantar o pool piloto do Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deploy-lync-server-2013-pilot-pool"></a>Implantar o pool piloto do Lync Server 2013
+
 
 </div>
 
@@ -39,7 +41,7 @@ _**Última modificação do tópico:** 2013-11-22_
 
 Uma das primeiras etapas necessárias para a migração para o Lync Server 2013 é implantar um pool piloto. O pool piloto é onde você testar a coexistência do Lync Server 2013 com a implantação do Office Communications Server 2007 R2. A coexistência é um estado temporário que dura até que você tenha movido todos os usuários e pools para o Lync Server 2013.
 
-Ao implantar um pool piloto, você usa o Assistente Definir novo pool de front-ends. Você deve implantar os mesmos recursos e cargas de trabalho no pool piloto do Lync Server 2013 que você tem no pool do Office Communications Server 2007 R2. Se você implantou o servidor de arquivamento, o Monitoring Server ou o System Center Operations Manager para arquivamento ou monitoramento do seu ambiente do Office Communications Server 2007 R2 e deseja continuar arquivando ou monitorando durante a migração, precisará Além disso, implante esses recursos no seu ambiente piloto. A versão implantada para arquivar ou monitorar o ambiente do Office Communications Server 2007 R2 não capturará dados no seu ambiente do Lync Server 2013.
+Ao implantar um pool piloto, você usa o Assistente Definir novo pool de front-ends. Você deve implantar os mesmos recursos e cargas de trabalho no pool piloto do Lync Server 2013 que você tem no pool do Office Communications Server 2007 R2. Se você implantou o servidor de arquivamento, o Monitoring Server ou o System Center Operations Manager para arquivamento ou monitoramento do seu ambiente do Office Communications Server 2007 R2 e deseja continuar o arquivamento ou monitoramento durante a migração, também é necessário implantar esses recursos no seu ambiente piloto. A versão implantada para arquivar ou monitorar o ambiente do Office Communications Server 2007 R2 não capturará dados no seu ambiente do Lync Server 2013.
 
 <div>
 
@@ -84,7 +86,7 @@ Ao implantar um pool piloto, você usa o Assistente Definir novo pool de front-e
     
     ![Página de seleção de recursos do pool de front-ends](images/JJ204718.5c3f3ff9-6e17-4d66-9b13-3bd55b38246b(OCS.15).jpg "Página de seleção de recursos do pool de front-ends")
 
-8.  Na página **selecionar funções de servidor posicionadas** , recomendamos colocar o servidor de mediação no Lync Server 2013. Ao mesclar uma topologia herdada com o Lync Server 2013, exige que você primeiro coloque o servidor de mediação do Office Communications Server 2007 R2. Após mesclar as topologias e configurar o servidor de mediação do Lync Server 2013, você pode decidir se deseja manter o servidor de mediação posicionado ou alterá-lo para um servidor autônomo quando mover a função de servidor de mediação para o Lync Server 2013 mais tarde na implantação -.
+8.  Na página **selecionar funções de servidor posicionadas** , recomendamos colocar o servidor de mediação no Lync Server 2013. Ao mesclar uma topologia herdada com o Lync Server 2013, exige que você primeiro coloque o servidor de mediação do Office Communications Server 2007 R2. Após mesclar as topologias e configurar o servidor de mediação do Lync Server 2013, você pode decidir se deseja manter o servidor de mediação colocado ou alterá-lo para um servidor autônomo quando mover a função de servidor de mediação para o Lync Server 2013 mais tarde no processo de implantação.
     
     ![Página de funções de servidor do pool de front-ends selecionar](images/JJ204718.e00b7eba-010b-44ed-b0a6-6ab3e534fb8c(OCS.15).jpg "Página de funções de servidor do pool de front-ends selecionar")
 

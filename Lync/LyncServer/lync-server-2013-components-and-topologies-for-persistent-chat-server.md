@@ -12,20 +12,22 @@ ms:contentKeyID: 48184420
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 45707cafca4a7ed9da7cdeb5e162128ccd73468d
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 586a24f4cfacd2ed28947102a7d5a129159a26bd
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42191504"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48502498"
 ---
+# <a name="components-and-topologies-for-persistent-chat-server-in-lync-server-2013"></a>Componentes e topologias para servidor de chat persistente no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="components-and-topologies-for-persistent-chat-server-in-lync-server-2013"></a>Componentes e topologias para servidor de chat persistente no Lync Server 2013
+
 
 </div>
 
@@ -55,7 +57,7 @@ A instalação da versão mais recente do servidor de chat persistente requer os
     
 
     > [!IMPORTANT]  
-    > No Lync Server 2013, os serviços Web de chat persistente para upload/download de arquivo agora estão posicionados com o&nbsp;servidor front-end do Lync Server 2013.<BR>Os serviços Web de chat persistente para gerenciamento de salas de chat também são colocados com o&nbsp;servidor front-end do Lync Server 2013.
+    > No Lync Server 2013, os serviços Web de chat persistente para upload/download de arquivo agora estão posicionados com o &nbsp; servidor front-end do Lync Server 2013.<BR>Os serviços Web de chat persistente para gerenciamento de salas de chat também são colocados com o &nbsp; servidor front-end do Lync Server 2013.
 
     
     </div>
@@ -83,7 +85,7 @@ Para obter detalhes sobre os requisitos de hardware e software do servidor de ch
 
 ## <a name="supported-collocation"></a>Colocação suportada
 
-O Lync Server 2013 oferece suporte a uma variedade de cenários de colocação, fornecendo a flexibilidade para salvar os custos de hardware executando vários componentes em um servidor (se você tiver uma organização pequena) ou para executar componentes individuais em servidores diferentes (se você tiver um organização maior que precisa de escalabilidade e desempenho). Os fatores de escalabilidade certamente devem ser considerados antes de você decidir se quer colocar componentes.
+O Lync Server 2013 oferece suporte a uma variedade de cenários de colocação, fornecendo a flexibilidade para salvar os custos de hardware executando vários componentes em um servidor (se você tiver uma organização pequena) ou para executar componentes individuais em servidores diferentes (se você tiver uma organização maior que precise de escalabilidade e desempenho). Os fatores de escalabilidade certamente devem ser considerados antes de você decidir se quer colocar componentes.
 
 O serviço de conformidade do chat persistente, se a conformidade estiver habilitada, será colocado com o servidor front-end do Lync Server 2013.
 
@@ -139,7 +141,7 @@ Você pode adicionar o servidor de chat persistente à sua implantação do Lync
 
 ## <a name="single-server-topology"></a>Topologia de servidor único
 
-A configuração mínima e a implantação mais simples para o servidor de chat persistente é uma topologia de servidor front-end de servidor de chat persistente única. Esta implantação requer um único servidor que executa o servidor de chat persistente (que, opcionalmente, executa o serviço de conformidade, se a conformidade estiver habilitada), um servidor que hospeda o banco de dados do SQL Server e, se a conformidade for necessária, o banco de dados do SQL Server para armazenar o dados de conformidade.
+A configuração mínima e a implantação mais simples para o servidor de chat persistente é uma topologia de servidor front-end de servidor de chat persistente única. Essa implantação requer um único servidor que executa o servidor de chat persistente (que, opcionalmente, executa o serviço de conformidade, se a conformidade estiver habilitada), um servidor que hospeda o banco de dados do SQL Server e, se a conformidade for necessária, o banco de dados do SQL Server para armazenar os dados de conformidade.
 
 <div>
 

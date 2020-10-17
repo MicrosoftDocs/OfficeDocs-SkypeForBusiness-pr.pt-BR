@@ -12,20 +12,22 @@ ms:contentKeyID: 48183481
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9518b605ed6c79418e58fd0d3f9aab0e4d493957
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: e23f14b1db7c846d5dbaa0aa6861274a7b6a2611
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42195924"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48501878"
 ---
+# <a name="create-a-site-level-hosted-voice-mail-policy-in-lync-server-2013"></a>Criar uma política de caixa postal hospedada no nível do site no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="create-a-site-level-hosted-voice-mail-policy-in-lync-server-2013"></a>Criar uma política de caixa postal hospedada no nível do site no Lync Server 2013
+
 
 </div>
 
@@ -59,7 +61,7 @@ Para obter detalhes sobre como configurar políticas de site, consulte a documen
     
     Esse exemplo cria uma política de caixa postal com escopo do site e define os parâmetros a seguir:
     
-      - A **Identidade** especifica um identificador único para a política, o que inclui o escopo. Para uma política com escopo de site, o valor do parâmetro Identity deve ser especificado no `site:` * \<nome\>* do formato, por `site:Redmond`exemplo,.
+      - A **Identidade** especifica um identificador único para a política, o que inclui o escopo. Para uma política com escopo de site, o valor do parâmetro Identity deve ser especificado no formato `site:` *\<name\>* , por exemplo, `site:Redmond` .
     
       - **Destino** especifica o nome de domínio completamente qualificado (FQDN) do serviço Exchange UM hospedado. Esse parâmetro é opcional, mas se você tentar ativar um usuário para o correio de voz hospedado e a política atribuída ao usuário não possui um valor de Destino, a ativação irá falhar.
     

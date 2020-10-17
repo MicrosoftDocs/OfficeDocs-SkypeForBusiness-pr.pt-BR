@@ -13,20 +13,22 @@ ms:contentKeyID: 49733816
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b087b04a4f6bbf4b5740dcc28172d3f5312e793e
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 30dc21ddbbfd5d65d6834ffa5a6181c5e4a13b1c
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42180714"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48503178"
 ---
+# <a name="configure-xmpp-gateway-on-lync-server-2013"></a>Configurar o Gateway XMPP no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-xmpp-gateway-on-lync-server-2013"></a>Configurar o Gateway XMPP no Lync Server 2013
+
 
 </div>
 
@@ -71,7 +73,7 @@ As etapas finais para migrar seu gateway do XMPP são configurar certificados pa
 
 4.  Na página **Solicitação Atrasada ou Imediata**, marque a caixa de seleção **Preparar a solicitação agora, mas enviá-la depois**.
 
-5.  Na página **arquivo de solicitação de certificado** , digite o caminho completo e o nome do arquivo para o qual a solicitação será salva (por exemplo, c:\\CERT\_externos\_Edge. cer).
+5.  Na página **arquivo de solicitação de certificado** , digite o caminho completo e o nome do arquivo para o qual a solicitação será salva (por exemplo, c: \\ CERT \_ externos \_ Edge. cer).
 
 6.  Na página **Especificar Modelo de Certificado Alternativo**, para usar um modelo diferente do modelo WebServer padrão, marque a caixa de seleção **Usar o modelo de certificado alternativo para a autoridade de certificação selecionada**.
 
@@ -89,7 +91,7 @@ As etapas finais para migrar seu gateway do XMPP são configurar certificados pa
 
 10. Na página **Nome da Entidade/Nomes Alternativos da Entidade**, as informações a serem preenchidas automaticamente pelo assistente são exibidas. Se nomes alternativos de entidade adicionais forem necessários, especifique-os nas próximas duas etapas.
 
-11. Na página **configuração do domínio SIP em nomes alternativos da entidade (SANs)** , marque a caixa de seleção domínio para adicionar um SIP. \<entrada\> sipdomain para a lista de nomes alternativos de entidade.
+11. Na página **configuração do domínio SIP em nomes alternativos da entidade (SANs)** , marque a caixa de seleção domínio para adicionar um SIP.\<sipdomain\> entrada à lista de nomes alternativos da entidade.
 
 12. Na página **Configurar Nomes Alternativos da Entidade Adicionais**, especifique quaisquer nomes alternativos de entidade adicionais que sejam necessários.
     
@@ -132,15 +134,15 @@ As etapas finais para migrar seu gateway do XMPP são configurar certificados pa
 
 4.  Defina as configurações globais:
 
-5.  **Domínio primário (**     obrigatório). O domínio primário é o domínio base do parceiro XMPP. Por exemplo, você deveria inserir **fabrikam.com** para o nome de domínio do parceiro XMPP. Esta é uma entrada necessária.
+5.  **Domínio primário**     (Obrigatório). O domínio primário é o domínio base do parceiro XMPP. Por exemplo, você deveria inserir **fabrikam.com** para o nome de domínio do parceiro XMPP. Esta é uma entrada necessária.
 
-6.  **Descrição**   a descrição é para anotações ou outras informações de identificação para esta configuração específica. Esta entrada é opcional.
+6.  **Descrição**     A descrição é para anotações ou outras informações de identificação para esta configuração específica. Esta entrada é opcional.
 
-7.  **Domínios adicionais domínios**   adicionais são domínios que fazem parte do domínio do seu parceiro do XMPP que devem ser incluídos como parte da comunicação do XMPP permitido. Por exemplo, se o domínio primário é **fabrikam.com**, você deve listar todos os outros domínios sob fabrikam.com que irão se comunicar através do XMPP.
+7.  **Domínios adicionais**     Domínios adicionais são domínios que fazem parte do domínio do seu parceiro do XMPP que devem ser incluídos como parte da comunicação do XMPP permitido. Por exemplo, se o domínio primário é **fabrikam.com**, você deve listar todos os outros domínios sob fabrikam.com que irão se comunicar através do XMPP.
 
-8.  **Tipo de parceiro**   o **tipo de parceiro** é uma configuração obrigatória. Você deve escolher um dos seguintes para descrever e forçar quais contatos podem ser adicionados. É possível selecionar entre:
+8.  **Tipo**     de parceiro O **tipo de parceiro** é uma configuração obrigatória. Você deve escolher um dos seguintes para descrever e forçar quais contatos podem ser adicionados. É possível selecionar entre:
     
-      - **Federado**   um tipo de parceiro **federado** representa um alto nível de confiança entre a implantação do Lync Server e o parceiro XMPP.Este tipo de parceiro é recomendado para federação com servidores XMPP dentro da mesma empresa ou se há uma relação comercial estabelecida.Os contatos XMPP nos parceiros Federados podem:
+      - **Federado**     Um tipo de parceiro **federado** representa um alto nível de confiança entre a implantação do Lync Server e o parceiro XMPP.Este tipo de parceiro é recomendado para federação com servidores XMPP dentro da mesma empresa ou se há uma relação comercial estabelecida.Os contatos XMPP nos parceiros Federados podem:
         
         1.  Adicionar contatos do Lync e exibir sua presença sem autorização expressa do usuário Lync.
         
@@ -148,43 +150,43 @@ As etapas finais para migrar seu gateway do XMPP são configurar certificados pa
         
         3.  Veja as notas de status do usuário do Lync.
     
-      - **Público verificado**   um parceiro **público verificado** é um provedor de XMPP público que é confiável para verificar a identidade de seus usuários.Os contatos XMPP nas redes Públicas verificadas podem adicionar contatos do Lync e exibir sua presença e enviar mensagens instantâneas para eles sem expressar a autorização dos usuários do Lync.Os contatos do XMPP em redes verificadas públicas nunca veem as notas de status dos usuários do Lync.Esta configuração não é recomendada.
+      - **Público verificado**     Um parceiro **público verificado** é um provedor de XMPP público que é confiável para verificar a identidade de seus usuários.Os contatos XMPP nas redes Públicas verificadas podem adicionar contatos do Lync e exibir sua presença e enviar mensagens instantâneas para eles sem expressar a autorização dos usuários do Lync.Os contatos do XMPP em redes verificadas públicas nunca veem as notas de status dos usuários do Lync.Esta configuração não é recomendada.
     
-      - **Público não verificado**   um parceiro não **verificado** público é um provedor de XMPP público que não é confiável para verificar a identidade de seus usuários.Os usuários do XMPP nas redes Públicas não verificadas não podem se comunicar com os usuários do Lync a não ser que o usuário Lync tenha autorizado expressamente adicionando-os à lista de contatos.Os usuários do XMPP em redes públicas não verificadas nunca veem as notas de status dos usuários do Lync.Esta configuração é recomendada para qualquer federação com provedores XMPP públicos como o Google Talk.
+      - **Público não verificado**     Um parceiro não **verificado público** é um provedor de XMPP público que não é confiável para verificar a identidade de seus usuários.Os usuários do XMPP nas redes Públicas não verificadas não podem se comunicar com os usuários do Lync a não ser que o usuário Lync tenha autorizado expressamente adicionando-os à lista de contatos.Os usuários do XMPP em redes públicas não verificadas nunca veem as notas de status dos usuários do Lync.Esta configuração é recomendada para qualquer federação com provedores XMPP públicos como o Google Talk.
 
 9.  **Tipo de conexão:** Define as várias regras e configurações de discagem.
     
-      - **A negociação**   TLS define as regras de negociação TLS. Um serviço XMPP pode exigir TLS, pode tornar o TLS opcional, ou definir que o TLS não é suportado. Escolher Opcional deixa os requisitos para o serviço XMPP para uma decisão de obrigatória para negociação. Para exibir todas as configurações e detalhes possíveis para a negociação SASL, TLS e Dialback – incluindo configurações de erro não válidas e conhecidas-consulte [configurações de negociação para parceiros federados do XMPP no Lync Server 2013](lync-server-2013-negotiation-settings-for-xmpp-federated-partners.md).
+      - **Negociação TLS**     Define as regras de negociação TLS. Um serviço XMPP pode exigir TLS, pode tornar o TLS opcional, ou definir que o TLS não é suportado. Escolher Opcional deixa os requisitos para o serviço XMPP para uma decisão de obrigatória para negociação. Para exibir todas as configurações e detalhes possíveis para a negociação SASL, TLS e Dialback – incluindo configurações de erro não válidas e conhecidas-consulte [configurações de negociação para parceiros federados do XMPP no Lync Server 2013](lync-server-2013-negotiation-settings-for-xmpp-federated-partners.md).
         
           - <span></span>  
-            **Obrigatório**   o serviço XMPP requer negociação TLS.
+            **Necessárias**     O serviço XMPP requer negociação TLS.
         
           - <span></span>  
-            **Opcional**   o serviço XMPP indica que o TLS é obrigatório para negociar.
+            **Opcional**     O serviço XMPP indica que o TLS é obrigatório para negociar.
         
           - <span></span>  
-            **Não suportado**   o serviço XMPP não oferece suporte a TLS.
+            **Sem suporte**     O serviço XMPP não oferece suporte a TLS.
     
-      - **A negociação**   SASL define as regras de negociação SASL. Um serviço XMPP pode exigir SASL, pode tornar SASL opcional ou definir que o SASL não é suportado. Escolher Opcional deixa os requisitos para o serviço XMPP parceiro para uma decisão de obrigatório para negociar.
+      - **Negociação SASL**     Define as regras de negociação SASL. Um serviço XMPP pode exigir SASL, pode tornar SASL opcional ou definir que o SASL não é suportado. Escolher Opcional deixa os requisitos para o serviço XMPP parceiro para uma decisão de obrigatório para negociar.
         
           - <span></span>  
-            **Obrigatório**   o serviço XMPP requer negociação SASL.
+            **Necessárias**     O serviço XMPP requer negociação SASL.
         
           - <span></span>  
-            **Opcional**   o serviço XMPP indica que SASL é obrigatório para negociar.
+            **Opcional**     O serviço XMPP indica que SASL é obrigatório para negociar.
         
           - <span></span>  
-            **Não suportado**   o serviço XMPP não suporta SASL.
+            **Sem suporte**     O serviço XMPP não suporta SASL.
     
       - **Dialback negociação de servidor de suporte** O processo de negociação dialback do servidor de suporte usa o DNS (sistema de nomes de domínio) e um servidor autoritativo para verificar se a solicitação provém de um parceiro do XMPP válido. Para fazer isso, o servidor originador cria uma mensagem de um tipo específico com uma chave de discagem gerada e procura o servidor de recebimento no DNS. O servidor originador envia a chave em um fluxo XML para a pesquisa DNS resultante, provavelmente o servidor recebedor. Na receita do fluxo chave sobre XML, o servidor recebedor não responde ao servidor originador, mas envia a chave para um servidor autoritativo conhecido. O servidor autoritativo verifica se a chave é válida ou inválida. Se não for válida, o servidor recebedor não responde ao servidor originador. Se a chave é válida, o servidor recebedor informa ao servidor originador que a identidade e a chave é válida e a conversação pode começar.
         
         Existem dois estados válidos para **Negociação de discagem**:
         
           - <span></span>  
-            **True**   o servidor do XMPP está configurado para usar a negociação do Dialback se uma solicitação precisar ser recebida de um servidor de origem.
+            **True**     O servidor do XMPP está configurado para usar a negociação do Dialback se uma solicitação for recebida de um servidor de origem.
         
           - <span></span>  
-            **False**   o servidor XMPP não está configurado para usar a negociação Dialback e, se uma solicitação for recebida de um servidor de origem, ela será ignorada.
+            **False**     O servidor do XMPP não está configurado para usar a negociação Dialback e, se uma solicitação precisar ser recebida de um servidor de origem, ela será ignorada.
 
 10. Clique em **Confirmar** para salvar suas mudanças para a política local ou do usuário.
 
@@ -194,7 +196,7 @@ As etapas finais para migrar seu gateway do XMPP são configurar certificados pa
 
 ## <a name="update-dns-records-for-lync-server-2013-xmpp-gateway"></a>Atualizar registros DNS para Gateway XMPP do Lync Server 2013
 
-1.  Para configurar o DNS para Federação XMPP, adicione o seguinte registro SRV ao seu DNS externo:\_XMPP-Server. \_TCP. \<nome\> do domínio o registro SRV resolverá o FQDN de borda de acesso do servidor de borda, com um valor de porta de 5269.
+1.  Para configurar o DNS para Federação XMPP, adicione o seguinte registro SRV ao seu DNS externo: \_ XMPP-Server. \_ TCP.\<domain name\> O registro SRV será resolvido para o FQDN de borda de acesso do servidor de borda, com um valor de porta de 5269.
 
 </div>
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 54973684
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 10cedd0162b5d7680d3aadd016fbcb8ea87e0d67
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 09f6c33ab9619e7a6b168e5d552ac13d84343c3c
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42195514"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48502058"
 ---
+# <a name="configuring-windows-8-for-using-virtual-smart-cards-with-lync-server-2013"></a>Configurando o Windows 8 para o uso de cartões inteligentes virtuais com o Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-windows-8-for-using-virtual-smart-cards-with-lync-server-2013"></a>Configurando o Windows 8 para o uso de cartões inteligentes virtuais com o Lync Server 2013
+
 
 </div>
 
@@ -39,7 +41,7 @@ _**Última modificação do tópico:** 2013-07-03_
 
 Um fator a ser considerado ao implantar a autenticação de dois fatores e a tecnologia de cartão inteligente é o custo da implementação. O Windows 8 oferece vários recursos de segurança novos e um dos novos recursos mais interessantes é o suporte para cartões inteligentes virtuais.
 
-Para computadores equipados com um chip TPM (Trusted Platform Module) que atende à versão 1,2 da especificação, as organizações agora podem obter os benefícios do logon do cartão inteligente sem fazer investimentos adicionais em hardware. Para obter mais informações, consulte usando cartões inteligentes virtuais com o Windows [https://go.microsoft.com/fwlink/p/?LinkId=313365](https://go.microsoft.com/fwlink/p/?linkid=313365)8 em.
+Para computadores equipados com um chip TPM (Trusted Platform Module) que atende à versão 1,2 da especificação, as organizações agora podem obter os benefícios do logon do cartão inteligente sem fazer investimentos adicionais em hardware. Para obter mais informações, consulte usando cartões inteligentes virtuais com o Windows 8 em [https://go.microsoft.com/fwlink/p/?LinkId=313365](https://go.microsoft.com/fwlink/p/?linkid=313365) .
 
 <div>
 

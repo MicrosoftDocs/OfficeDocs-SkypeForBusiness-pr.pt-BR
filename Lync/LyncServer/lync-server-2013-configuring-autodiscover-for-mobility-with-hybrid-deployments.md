@@ -12,20 +12,22 @@ ms:contentKeyID: 48706012
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4d09ad9555e9ef694baece8bf089eeaa06814f51
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: c3b0617094c9dcab6b6eee0cf634440fea63cf16
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42180278"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48502158"
 ---
+# <a name="configuring-autodiscover-in-lync-server-2013-for-mobility-with-hybrid-deployments"></a>Configurando a descoberta automática no Lync Server 2013 para mobilidade com implantações híbridas
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-autodiscover-in-lync-server-2013-for-mobility-with-hybrid-deployments"></a>Configurando a descoberta automática no Lync Server 2013 para mobilidade com implantações híbridas
+
 
 </div>
 
@@ -55,13 +57,13 @@ Para permitir que os clientes móveis descubram a implantação em que o servido
 
 ## <a name="configuring-autodiscover-for-hybrid-deployments"></a>Configurando a descoberta automática em implantações híbridas
 
-1.  Use Get-CsHostingProvider para recuperar o valor do atributo ProxyFQDN.
+1.  Você usa Get-CsHostingProvider para recuperar o valor do atributo ProxyFQDN.
 
 2.  No Shell de gerenciamento do Lync Server, digite
     
         Set-CsHostingProvider -Identity [identity] -AutodiscoverUrl https://webdir.online.lync.com/autodiscover/autodiscoverservice.svc/root
     
-    Onde \[Identity\] é substituído pelo nome de domínio do espaço de endereçamento SIP compartilhado.
+    Onde \[ Identity \] é substituído pelo nome de domínio do espaço de endereçamento SIP compartilhado.
 
 </div>
 

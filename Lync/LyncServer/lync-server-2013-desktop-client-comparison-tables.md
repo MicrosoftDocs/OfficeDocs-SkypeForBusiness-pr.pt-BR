@@ -12,20 +12,22 @@ ms:contentKeyID: 48183798
 ms.date: 01/23/2018
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3b154bc5f94064f0a42d6cda138ca66e0700aea7
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: 0e8b1a6713a8a8a4b3ac980679e7f98266338268
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44219711"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48501498"
 ---
+# <a name="desktop-client-comparison-tables-for-lync-server-2013"></a>Tabelas de comparação de clientes de desktop do Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="desktop-client-comparison-tables-for-lync-server-2013"></a>Tabelas de comparação de clientes de desktop do Lync Server 2013
+
 
 </div>
 
@@ -1702,7 +1704,7 @@ Essas tabelas indicam os recursos disponíveis para os usuários do Lync em uma 
 
 1 para usuários do Skype for Business Online, Microsoft 365 ou Office 365, o atendedor do Lync 2010 não é suportado.
 
-2 para o Skype for Business Online, o Microsoft 365 ou o Office 365 Users, esse recurso exige o Exchange Online e é controlado pelo atributo de bloqueio in-loco da caixa de correio do Exchange do usuário.
+2 para o Skype for Business Online, o Microsoft 365 ou o Office 365 Users, esse recurso exige o Exchange Online e é controlado pelo atributo de caixa de correio do Exchange In-Place isenção do usuário.
 
 3 para o Skype for Business Online, os usuários do Microsoft 365 ou do Office 365, o arquivamento de transferências de arquivos, páginas compartilhadas do OneNote e anotações do PowerPoint não estão disponíveis.
 

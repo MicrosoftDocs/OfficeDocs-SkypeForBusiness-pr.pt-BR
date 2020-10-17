@@ -12,20 +12,22 @@ ms:contentKeyID: 51541470
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0e868ecc20dcafbb5da12c91deb26a91f4efacb2
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 062dc114534abb7d2a011c31b9747c2d6a0a45bb
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213177"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48502358"
 ---
+# <a name="components-used-by-group-call-pickup-in-lync-server-2013"></a>Componentes usados por recebimento de chamada em grupo no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="components-used-by-group-call-pickup-in-lync-server-2013"></a>Componentes usados por recebimento de chamada em grupo no Lync Server 2013
+
 
 </div>
 
@@ -39,13 +41,13 @@ _**Última modificação do tópico:** 2013-01-30_
 
 O recebimento de chamadas em grupo é implantado automaticamente quando você implanta o Enterprise Voice e o aplicativo de estacionamento de chamada. Você habilita o recebimento de chamadas em grupo Configurando a tabela de órbita de estacionamento de chamada com intervalos separados de números designados como números de grupo de recebimento de chamadas e, em seguida, atribuindo usuários para chamar grupos de retirada e habilitando os usuários para o recebimento de chamadas em grupo. Os seguintes componentes do Lync Server oferecem suporte ao recebimento de chamadas de Grupo:
 
-  - ****   Serviço de aplicativo de serviço de aplicativo fornece uma plataforma para implantar, hospedar e gerenciar aplicativos de comunicação unificada, como o aplicativo de estacionamento de chamada. O serviço de aplicativo é instalado automaticamente em todos os servidores front-end em um pool de front-ends e em cada servidor Standard Edition.
+  - **Serviço**     de aplicativo O serviço de aplicativo fornece uma plataforma para implantar, hospedar e gerenciar aplicativos de comunicação unificada, como o aplicativo de estacionamento de chamada. O serviço de aplicativo é instalado automaticamente em todos os servidores front-end em um pool de front-ends e em cada servidor Standard Edition.
 
-  - **Aplicativo de estacionamento de chamadas**   o aplicativo de estacionamento de chamada é um dos aplicativos de comunicações unificadas hospedados pelo serviço de aplicativo. O recebimento de chamadas em grupo é baseado no aplicativo de estacionamento de chamada.
+  - Aplicativo de estacionamento de **chamada**     O aplicativo de estacionamento de chamada é um dos aplicativos de comunicações unificadas hospedados pelo serviço de aplicativo. O recebimento de chamadas em grupo é baseado no aplicativo de estacionamento de chamada.
 
-  - **Shell de gerenciamento do Lync Server**   você usa o Shell de gerenciamento do Lync Server para gerenciar grupos de recebimento de chamadas de grupo.
+  - Shell de gerenciamento **do Lync Server**     Você usa o Shell de gerenciamento do Lync Server para gerenciar grupos de recebimento de chamadas de grupo.
 
-  - **SEFAUtil Resource Kit Tool**   você usa o utilitário de ativação de recurso de extensão secundária (SEFAUtil) para atribuir usuários a um grupo de recebimento de chamadas e habilitar ou desabilitar o recebimento de chamadas para usuários.
+  - Ferramenta SEFAUtil Resource **Kit**     Use o utilitário de ativação de recurso de extensão secundária (SEFAUtil) para atribuir usuários a um grupo de recebimento de chamadas e habilitar ou desabilitar o recebimento de chamadas para usuários.
 
 </div>
 

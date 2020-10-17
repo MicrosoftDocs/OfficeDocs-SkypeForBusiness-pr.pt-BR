@@ -13,20 +13,22 @@ ms:contentKeyID: 65227958
 ms.date: 09/18/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7b89457c35bc9c9c0150b84ab34f4103776206ad
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 20980f0f0b6697eada6c237aa8d2297b0fd227d9
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42180774"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48503298"
 ---
+# <a name="configure-the-client-experience-with-skype-for-business"></a>Configurar a experiência do cliente com o Skype for Business
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-the-client-experience-with-skype-for-business"></a>Configurar a experiência do cliente com o Skype for Business
+
 
 </div>
 
@@ -66,7 +68,7 @@ O Lync Server 2013 oferece suporte à nova experiência de cliente do Skype for 
 
 <div>
 
-## <a name="configure-the-client-experience"></a>Configurar a experiência do cliente
+## <a name="configure-the-client-experience"></a>Configurar experiência do cliente
 
 Você pode especificar a experiência do cliente que os usuários da sua organização verão usando o cmdlet **set-CSClientPolicy** com o parâmetro EnableSkypeUI. O comando a seguir seleciona a experiência de cliente do Skype for Business para todos os usuários da sua organização afetados pela política global (Lembre-se, políticas específicas de site ou usuário substituem a política global):
 
@@ -96,7 +98,7 @@ O próximo comando atribui a política, SalesClientUI, a todos os membros do dep
 
 ## <a name="first-launch-client-behaviors"></a>Primeiro iniciar comportamentos do cliente
 
-Por padrão, quando os usuários iniciam o Skype for Business pela primeira vez, eles sempre verão a interface de usuário do Skype for Business, mesmo que você tenha selecionado a experiência do cliente do Lync Configurando o valor do $False parâmetro EnableSkypeUI como descrito anteriormente . Após alguns minutos, os usuários serão solicitados a alternar para o modo Lync.
+Por padrão, quando os usuários iniciam o Skype for Business pela primeira vez, eles sempre verão a interface de usuário do Skype for Business, mesmo que você tenha selecionado a experiência do cliente do Lync Configurando o valor do $False parâmetro EnableSkypeUI como descrito anteriormente. Após alguns minutos, os usuários serão solicitados a alternar para o modo Lync.
 
 Se você quiser exibir a interface do usuário do Lync quando os usuários iniciarem o cliente Skype for Business pela primeira vez, siga estas etapas antes que o cliente seja iniciado pela primeira vez após a atualização:
 
@@ -104,7 +106,7 @@ Se você quiser exibir a interface do usuário do Lync quando os usuários inici
 
 2.  Atualize o registro do sistema no computador do usuário. Você deve fazer isso antes da primeira vez que os usuários iniciam o cliente Skype for Business e você deve fazer isso apenas uma vez. Para obter informações sobre como criar um objeto de diretiva de grupo para atualizar o registro em um computador ingressado no domínio, consulte a seção mais adiante neste tópico.
     
-    Na chave ** \[hKey\_Current\_user\\software\\\\\\Office Lync\] ** , crie um novo valor **binário** .
+    Na chave ** \[ HKEY \_ Current \_ user \\ software \\ \\ Office \\ \] Lync** , crie um novo valor **binário** .
     
     O **nome do valor** deve ser **EnableSkypeUI**, e os **dados do valor** devem ser definidos como **00 00 00 00**.
     
@@ -124,7 +126,7 @@ A interface de usuário do Lync agora será exibida quando os usuários iniciare
 
 Quando os usuários abrem o cliente Skype for Business, o comportamento padrão é exibir uma tela de boas-vindas que inclui *7 dicas rápidas que a maioria das pessoas pede*. Você pode desativar a exibição da tela de boas-vindas, mas ainda permitir que os usuários acessem o tutorial adicionando o seguinte valor do registro no computador cliente:
 
-Na chave ** \[de\_software\_\\do\\usuário atual\\do\\Microsoft\\Office\] 15,0 Lync** , crie um novo **valor de DWORD (32 bits)**. O **nome do valor** deve ser **IsBasicTutorialSeenByUser**, e os **dados do valor** devem ser definidos como **1**.
+Na chave de ** \[ \_ \_ software do usuário atual do \\ \\ Microsoft \\ Office \\ 15,0 \\ Lync \] ** , crie um novo valor de **DWORD (32 bits)**. O **nome do valor** deve ser **IsBasicTutorialSeenByUser**, e os **dados do valor** devem ser definidos como **1**.
 
 A chave deve ter a seguinte aparência:
 
@@ -138,7 +140,7 @@ A chave deve ter a seguinte aparência:
 
 Se você não quiser que os usuários possam acessar o tutorial, desative o tutorial do cliente com o seguinte valor de registro:
 
-Na chave ** \[de\_software\_\\do\\usuário atual\\do\\Microsoft\\Office\] 15,0 Lync** , crie um novo **valor de DWORD (32 bits)**. O **nome do valor** deve ser **TutorialFeatureEnabled**, e os **dados do valor** devem ser definidos como **0**.
+Na chave de ** \[ \_ \_ software do usuário atual do \\ \\ Microsoft \\ Office \\ 15,0 \\ Lync \] ** , crie um novo valor de **DWORD (32 bits)**. O **nome do valor** deve ser **TutorialFeatureEnabled**, e os **dados do valor** devem ser definidos como **0**.
 
     "TutorialFeatureEnabled"=dword:00000000
 
@@ -176,7 +178,7 @@ Se sua organização tiver o Skype for Business Server 2015 e o Lync Server impl
 </tr>
 <tr class="even">
 <td><p>Skype for Business Server 2015</p></td>
-<td><p>True</p></td>
+<td><p>Verdadeiro.</p></td>
 <td><p>Skype for Business</p></td>
 </tr>
 <tr class="odd">
@@ -191,7 +193,7 @@ Se sua organização tiver o Skype for Business Server 2015 e o Lync Server impl
 </tr>
 <tr class="odd">
 <td><p>Lync Server 2010 ou Lync Server 2013 (com patches corretos)</p></td>
-<td><p>True</p></td>
+<td><p>Verdadeiro.</p></td>
 <td><p>Skype for Business</p></td>
 </tr>
 <tr class="even">
@@ -229,7 +231,7 @@ A próxima tabela mostra a experiência do cliente quando o administrador altera
 <tbody>
 <tr class="odd">
 <td><p>Skype for Business Server 2015</p></td>
-<td><p>True</p></td>
+<td><p>Verdadeiro.</p></td>
 <td><p>O usuário é solicitado a alternar para o Skype for Business</p></td>
 <td><p>Skype for Business</p></td>
 </tr>
@@ -241,7 +243,7 @@ A próxima tabela mostra a experiência do cliente quando o administrador altera
 </tr>
 <tr class="odd">
 <td><p>Lync Server 2010 ou Lync Server 2013 (com patches corretos)</p></td>
-<td><p>True</p></td>
+<td><p>Verdadeiro.</p></td>
 <td><p>O usuário é solicitado a alternar para o Skype for Business</p></td>
 <td><p>Skype for Business</p></td>
 </tr>
@@ -329,7 +331,7 @@ O procedimento a seguir descreve como modificar o registro para que a experiênc
     <td><p>REG_BINARY</p></td>
     </tr>
     <tr class="even">
-    <td><p><strong>Dados de valor</strong></p></td>
+    <td><p><strong>Dados do valor</strong></p></td>
     <td><p>00000000</p></td>
     </tr>
     </tbody>
@@ -358,7 +360,7 @@ Em seguida, você precisará vincular o GPO que você criou ao grupo de usuário
     
     Você deve ver "objetos de política de grupo atribuídos" com o nome do GPO que você criou exibido abaixo.
 
-Você também pode verificar se o GPO atualizou com êxito o registro no computador de um usuário examinando o registro. Abra o editor do registro e navegue até a chave do ** \[\_\\\\Office\\Lync\] atual\_software do usuário\\do hKey** . Se o GPO atualizou com êxito o registro, você verá um valor chamado EnableSkypeUI com um valor de 0.
+Você também pode verificar se o GPO atualizou com êxito o registro no computador de um usuário examinando o registro. Abra o editor do registro e navegue até a chave do ** \[ \_ \_ \\ \\ \\ Office \\ \] Lync atual software do usuário do hKey** . Se o GPO atualizou com êxito o registro, você verá um valor chamado EnableSkypeUI com um valor de 0.
 
 </div>
 

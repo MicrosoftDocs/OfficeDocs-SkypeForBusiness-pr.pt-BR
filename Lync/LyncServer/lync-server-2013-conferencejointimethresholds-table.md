@@ -12,20 +12,22 @@ ms:contentKeyID: 48183855
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6d6ce43adee4c00a945325cf31c4194816e7ee14
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 7d8dcf3d8b5f74abe6e145d7ac25e43411ca085c
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42190295"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48502308"
 ---
+# <a name="conferencejointimethresholds-table-in-lync-server-2013"></a>Tabela ConferenceJoinTimeThresholds no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="conferencejointimethresholds-table-in-lync-server-2013"></a>Tabela ConferenceJoinTimeThresholds no Lync Server 2013
+
 
 </div>
 
@@ -81,7 +83,7 @@ Esta tabela foi introduzida no Microsoft Lync Server 2013.
 <td><p>Limite superior da classificação. Os valores permitidos são:</p>
 <ol>
 <li><p>duas</p></li>
-<li><p>0,5</p></li>
+<li><p>5 </p></li>
 <li><p>10 </p></li>
 </ol></td>
 </tr>

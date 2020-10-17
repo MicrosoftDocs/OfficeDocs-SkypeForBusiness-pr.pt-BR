@@ -12,20 +12,22 @@ ms:contentKeyID: 48185758
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bf2f9eac959e9061e42bdc05982593c9f21aa2b0
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 2baa4cd40ae0f6421dbb01facecf0ab41825fc31
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42200170"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48501588"
 ---
+# <a name="create-registrar-configuration-settings-in-lync-server-2013"></a>Criar definições de configuração do registrador no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="create-registrar-configuration-settings-in-lync-server-2013"></a>Criar definições de configuração do registrador no Lync Server 2013
+
 
 </div>
 
@@ -39,11 +41,11 @@ _**Última modificação do tópico:** 2013-03-17_
 
 É possível usar o Registrador para configurar métodos de autenticação do servidor proxy. O protocolo de autenticação que você especificar determina que tipo de desafios os servidores no pool vão gerar para os clientes. Os protocolos disponíveis são:
 
-  - **Kerberos**   este é o esquema de autenticação de senha mais seguro disponível para clientes, mas normalmente está disponível somente para clientes corporativos, pois requer conexão do cliente com um centro de distribuição de chaves (controlador de domínio Kerberos). Essa configuração é apropriada se o servidor autenticar somente clientes empresariais.
+  - **Kerberos**     Este é o esquema de autenticação de senha mais seguro disponível para clientes, mas que normalmente está disponível somente para clientes corporativos, pois exige conexão do cliente com um centro de distribuição de chaves (controlador de domínio Kerberos). Essa configuração é apropriada se o servidor autenticar somente clientes empresariais.
 
-  - **NTLM**   esta é a autenticação baseada em senha disponível para clientes que usam um esquema de hash de resposta de desafio na senha. Essa é a única forma de autenticação disponível para clientes sem conectividade com um Centro de distribuição de chaves (controlador de domínio Kerberos), como usuários remotos. Se um servidor autenticar somente usuários remotos, escolha NTLM.
+  - **NTLM**     Esta é a autenticação baseada em senha disponível para clientes que usam um esquema de hash de resposta de desafio na senha. Essa é a única forma de autenticação disponível para clientes sem conectividade com um Centro de distribuição de chaves (controlador de domínio Kerberos), como usuários remotos. Se um servidor autenticar somente usuários remotos, escolha NTLM.
 
-  - **Autenticação de certificado**   esse é o novo método de autenticação quando o servidor precisa obter certificados de clientes do Lync Phone Edition, telefones de área comum, Lync 2013 e o aplicativo Lync da Windows Store. Nos clientes do Lync Phone Edition, depois que um usuário entra e é autenticado com êxito, fornecendo um PIN (número de identificação pessoal), o Lync Server 2013 e, em seguida, provisiona o URI do SIP para o telefone e fornece um certificado assinado do Lync Server ou um certificado de usuário que identifica Joe (ex: SN=joe@contoso.com) para o telefone. Esse certificado é usado para autenticação com o Registrador e Serviços Web.
+  - **Autenticação**     de certificado Este é o novo método de autenticação quando o servidor precisa obter certificados de clientes do Lync Phone Edition, telefones de área comum, Lync 2013 e o aplicativo Lync da Windows Store. Nos clientes do Lync Phone Edition, depois que um usuário entra e é autenticado com êxito, fornecendo um PIN (número de identificação pessoal), o Lync Server 2013 e, em seguida, provisiona o URI do SIP para o telefone e fornece um certificado assinado do Lync Server ou um certificado de usuário que identifica Joe (ex: SN=joe@contoso.com) para o telefone. Esse certificado é usado para autenticação com o Registrador e Serviços Web.
 
 <div>
 

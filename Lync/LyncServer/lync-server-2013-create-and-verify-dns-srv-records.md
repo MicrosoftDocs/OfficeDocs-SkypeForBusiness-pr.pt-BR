@@ -12,20 +12,22 @@ ms:contentKeyID: 48184714
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c7faf0cd00b59d5df5bab1650a28eff8b9563f91
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: b80b5dccfeab136f02705264fea985550cb11240
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42205677"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48501718"
 ---
+# <a name="create-and-verify-dns-srv-records-in-lync-server-2013"></a>Criar e verificar registros DNS SRV no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="create-and-verify-dns-srv-records-in-lync-server-2013"></a>Criar e verificar registros DNS SRV no Lync Server 2013
+
 
 </div>
 
@@ -53,9 +55,9 @@ Este tópico descreve como configurar os registros de DNS (sistema de nomes de d
 
 4.  Em **Selecione um tipo de registro de recurso**, clique em **Local do Serviço (SRV)** e, em seguida, clique em **Criar Registro**.
 
-5.  Clique em **serviço**e digite ** \_sipinternaltls**.
+5.  Clique em **serviço**e digite ** \_ sipinternaltls**.
 
-6.  Clique em **protocolo**e digite ** \_TCP**.
+6.  Clique em **protocolo**e digite ** \_ TCP**.
 
 7.  Clique em **Número da Porta** e digite **5061**.
 
@@ -79,15 +81,15 @@ Este tópico descreve como configurar os registros de DNS (sistema de nomes de d
 
 5.  Digite **set type=srv** e pressione ENTER.
 
-6.  Digite ** \_sipinternaltls.\_ tcp.contoso.com**e pressione Enter. A saída exibida para o registro de TLS (segurança de camada de transporte) é a seguinte:
+6.  Digite ** \_ sipinternaltls. \_ tcp.contoso.com**e pressione Enter. A saída exibida para o registro de TLS (segurança de camada de transporte) é a seguinte:
     
-    Servidor: \<servidor\>DNS. contoso.com
+    Servidor: \<dns server\> . contoso.com
     
-    Endereço: \<endereço IP do servidor DNS\>
+    Enfrentar \<IP address of DNS server\>
     
     Resposta não-autorizada:
     
-    \_sipinternaltls. \_local do serviço SRV do TCP.contoso.com:
+    \_sipinternaltls. \_ local do serviço SRV do tcp.contoso.com:
     
     prioridade = 0
     
@@ -97,7 +99,7 @@ Este tópico descreve como configurar os registros de DNS (sistema de nomes de d
     
     nome da SVR = poolname.contoso.com (ou um registro do servidor Standard Edition A)
     
-    poolname.contoso.com Internet address = \<endereço IP virtual do balanceador de carga\> ou \<endereço IP de um único servidor Enterprise Edition para pools com apenas um servidor\> Enterprise Edition \<ou endereço IP do servidor Standard Edition\>
+    Endereço da Internet do poolname.contoso.com = \<virtual IP Address of the load balancer\> ou \<IP address of a single Enterprise Edition server for pools with only one Enterprise Edition server\> ou \<IP address of the Standard Edition server\>
 
 7.  Quando terminar, no prompt de comando, digite **exit** e pressione ENTER.
 
@@ -113,7 +115,7 @@ Este tópico descreve como configurar os registros de DNS (sistema de nomes de d
 
 3.  Na caixa **Abrir**, digite **cmd** e clique em **OK**.
 
-4.  No prompt de comando, digite FQDN do **nslookup** \<do pool\> de front- \<ends ou FQDN do servidor\>Standard Edition e pressione Enter.
+4.  No prompt de comando, digite **nslookup** \<FQDN of the Front End pool\> ou \<FQDN of the Standard Edition server\> e pressione Enter.
 
 5.  Verifique se recebeu uma resposta que resolve para o endereço IP apropriado para o FQDN.
 

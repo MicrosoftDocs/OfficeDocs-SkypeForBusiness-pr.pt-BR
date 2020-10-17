@@ -12,20 +12,22 @@ ms:contentKeyID: 48185707
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e4c843bbe5c34aaf0ad98ca73e8ebd33820b87d2
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: cfdb6ae250e3ccb97f044892daa8ac11e7c1b99b
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42209347"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48502578"
 ---
+# <a name="components-and-topologies-for-conferencing-in-lync-server-2013"></a>Componentes e topologias para conferências no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="components-and-topologies-for-conferencing-in-lync-server-2013"></a>Componentes e topologias para conferências no Lync Server 2013
+
 
 </div>
 
@@ -49,15 +51,15 @@ O Lync Server 2013 usa o Office Web Apps e o servidor do Office Web Apps para li
 
 Além dos requisitos de conferência da Web e conferência A/V, a conferência discada usa os seguintes componentes do Lync Server 2013:
 
-  - ****   Serviço de aplicativo de serviço de aplicativo fornece uma plataforma para implantar, hospedar e gerenciar aplicativos de comunicação unificada (UC). A conferência discada usa dois aplicativos de comunicação unificada que exigem o serviço de aplicativo: o atendedor de conferência e o comunicado de conferência. O Serviço de aplicativo é instalado e ativado por padrão em cada Servidor Front-End em um pool de Front-Ends e em cada Servidor Standard Edition ao implantar uma carga de trabalho de Conferência e selecionar a opção de conferência de discagem.
+  - **Serviço**     de aplicativo O serviço de aplicativo fornece uma plataforma para implantar, hospedar e gerenciar aplicativos de comunicação unificada (UC). A conferência discada usa dois aplicativos de comunicação unificada que exigem o serviço de aplicativo: o atendedor de conferência e o comunicado de conferência. O Serviço de aplicativo é instalado e ativado por padrão em cada Servidor Front-End em um pool de Front-Ends e em cada Servidor Standard Edition ao implantar uma carga de trabalho de Conferência e selecionar a opção de conferência de discagem.
 
-  - **Assistente de conferência**   o aplicativo atendedor de conferência do aplicativo é um aplicativo de comunicações unificado que aceita chamadas PSTN (rede telefônica pública comutada), reproduz prompts e une as chamadas a uma conferência a/V. O aplicativo atendedor de conferência é instalado e ativado por padrão ao implantar uma carga de trabalho de conferência e selecionar a opção de conferência discada.
+  - Aplicativo de atendedor de **conferência**     O aplicativo de atendedor de conferência é um aplicativo de comunicações unificado que aceita chamadas PSTN (rede telefônica pública comutada), reproduz prompts e une as chamadas a uma conferência A/V. O aplicativo atendedor de conferência é instalado e ativado por padrão ao implantar uma carga de trabalho de conferência e selecionar a opção de conferência discada.
 
-  - **Comunicado de conferência**   o aplicativo comunicado de conferência de aplicativo é um aplicativo de comunicações unificado que reproduz tons e avisa para os participantes de PSTN em determinadas ações, como quando os participantes ingressam ou saem de uma conferência, os participantes são desativados ou desativados, alguém entra no lobby de conferência ou está bloqueado ou desbloqueado. O aplicativo de anúncio de conferência também suporta comandos DTMF (multifrequência de tom dual) do teclado numérico do telefone. O aplicativo de anúncio de conferência é automaticamente instalado e ativado por padrão ao implantar uma carga de trabalho de conferência e selecionar a opção de conferência discada.
+  - Aplicativo comunicado de **conferência**     O aplicativo de anúncio de conferência é um aplicativo de comunicações unificado que reproduz tons e avisa para os participantes de PSTN em determinadas ações, como quando os participantes ingressam ou saem de uma conferência, os participantes são habilitados ou desativados, alguém entra no lobby da conferência ou a conferência é bloqueada ou desbloqueada. O aplicativo de anúncio de conferência também suporta comandos DTMF (multifrequência de tom dual) do teclado numérico do telefone. O aplicativo de anúncio de conferência é automaticamente instalado e ativado por padrão ao implantar uma carga de trabalho de conferência e selecionar a opção de conferência discada.
 
-  - **Página de configurações de conferência discada**   a página de configurações de conferência discada exibe números de discagem de conferência com seus idiomas disponíveis, informações de conferência atribuídas (ou seja, para reuniões que não precisam ser agendadas) e controles de DTMF em conferência, e suporta o gerenciamento de PIN (número de identificação pessoal) e informações de conferência atribuídas. A página de configurações de conferência discada é instalada automaticamente como parte dos serviços Web.
+  - Página de configurações **de conferência discada**     A página de configurações de conferência discada exibe os números de discagem de conferência com seus idiomas disponíveis, as informações de conferência atribuídas (ou seja, para reuniões que não precisam ser agendadas) e para o gerenciamento de DTMF de conferência e oferece suporte ao gerenciamento de PIN (número de identificação pessoal) e informações de conferência atribuídas. A página de configurações de conferência discada é instalada automaticamente como parte dos serviços Web.
 
-  - **Lync Server 2013, servidor de mediação e**   conferência de discagem de gateway PSTN requer um servidor de mediação para converter sinalização (e mídia, em algumas configurações) entre o Lync Server 2013 e o gateway PSTN e um gateway PSTN para converter sinalização e mídia entre o servidor de mediação e o gateway PSTN. Para a Conferência de Discagem, você deve implantar pelo menos um Servidor de Mediação e pelo menos um dos seguintes:
+  - **Lync server 2013, servidor de mediação e gateway PSTN**     A conferência discada requer um servidor de mediação para converter a sinalização (e mídia, em algumas configurações) entre o Lync Server 2013 e o gateway PSTN e um gateway PSTN para converter a sinalização e mídia entre o servidor de mediação e o gateway PSTN. Para a Conferência de Discagem, você deve implantar pelo menos um Servidor de Mediação e pelo menos um dos seguintes:
     
       - Gateway PSTN
     
@@ -74,13 +76,13 @@ Além dos requisitos de conferência da Web e conferência A/V, a conferência d
     
     </div>
 
-  - ****   O repositório de arquivos do repositório de arquivos é usado para arquivos de áudio de nome gravados. O repositório de arquivos é um componente padrão em cada implantação Enterprise Edition ou Standard Edition.
+  - **Repositório**     de arquivos O repositório de arquivos é usado para arquivos de áudio de nome gravados. O repositório de arquivos é um componente padrão em cada implantação Enterprise Edition ou Standard Edition.
 
-  - **Repositório do usuário o**   armazenamento do usuário é usado para armazenar Pins do usuário do Lync Server 2013. Os PINs estão em hash. O repositório de usuário é um componente padrão em cada implantação Enterprise Edition ou Standard Edition.
+  - **Repositório**     do usuário O repositório do usuário é usado para armazenar os PINs do Lync Server 2013 do usuário. Os PINs estão em hash. O repositório de usuário é um componente padrão em cada implantação Enterprise Edition ou Standard Edition.
 
-  - **Painel de controle do Lync Server**   algumas configurações de discagem podem ser configuradas usando o painel de controle do Lync Server.
+  - Painel de controle **do Lync Server**     Algumas configurações de discagem podem ser configuradas usando o painel de controle do Lync Server.
 
-  - **Shell de gerenciamento do Lync Server**   todas as configurações de discagem podem ser configuradas usando os cmdlets do Shell de gerenciamento do Lync Server. Os cmdlets do Shell de gerenciamento do Lync Server estão disponíveis para implantação, configuração, execução, monitoramento e solução de problemas de aplicativo e anúncio de conferência do atendedor de conferência. Para obter detalhes sobre cmdlets específicos, consulte Lync Server Management Shell Documentation.
+  - Shell de gerenciamento **do Lync Server**     Todas as configurações de discagem podem ser configuradas usando os cmdlets do Shell de gerenciamento do Lync Server. Os cmdlets do Shell de gerenciamento do Lync Server estão disponíveis para implantação, configuração, execução, monitoramento e solução de problemas de aplicativo e anúncio de conferência do atendedor de conferência. Para obter detalhes sobre cmdlets específicos, consulte Lync Server Management Shell Documentation.
 
 </div>
 

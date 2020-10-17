@@ -12,20 +12,22 @@ ms:contentKeyID: 48184299
 ms.date: 09/03/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 772ece86803f9fc499b38299621ccd491221f84b
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: d4390c2f3aa18820668415543496dfdcfd5aa79e
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213067"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48502348"
 ---
+# <a name="conference-summary-report-in-lync-server-2013"></a>Relatório de Resumo de conferências no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="conference-summary-report-in-lync-server-2013"></a>Relatório de Resumo de conferências no Lync Server 2013
+
 
 </div>
 
@@ -39,7 +41,7 @@ _**Última modificação do tópico:** 2014-09-03_
 
 O Relatório de Resumo de Conferências traz uma visão geral de suas sessões de conferência online. Uma conferência normalmente envolve mais de dois usuários e requer o uso de serviços de conferência do Microsoft Lync Server 2013. Por outro lado, uma sessão ponto a ponto geralmente envolve apenas dois usuários e não exige o uso dos serviços de conferência do Lync Server. As atividades ponto a ponto são relatadas no [relatório de Resumo de atividades ponto a ponto no Lync Server 2013](lync-server-2013-peer-to-peer-activity-summary-report.md).
 
-O relatório de Resumo de conferências não só informa quantas conferências foram mantidas durante um determinado período de tempo (por hora, diariamente, semanalmente, mensalmente), mas também informa o número total de pessoas que fizeram parte dessas conferências e o número total de conferências exclusivas organizadores.
+O relatório de Resumo de conferências não só informa quantas conferências foram mantidas durante um determinado período de tempo (por hora, diariamente, semanalmente, mensalmente), mas também informa o número total de pessoas que participaram das conferências e o número total de organizadores de conferência exclusivos.
 
 Um organizador "exclusivo" é qualquer pessoa que agenda pelo menos uma conferência. Por exemplo, se Pilar Ackerman agendar uma conferência, ela será contabilizada como um organizador exclusivo. Se Ken Myer agendar 148 conferências, ele também será contabilizado como um único organizador exclusivo. Por exemplo, a tabela a seguir mostra oito conferências agendadas, mas apenas três organizadores exclusivos (Ken Myer, Pilar Ackerman e David Ahs).
 
@@ -195,7 +197,7 @@ A tabela a seguir lista os filtros que você pode usar com o Relatório de Resum
 <p>7/7/2012</p>
 <p>Para exibir por semana ou mês, insira uma data que está dentro da semana ou mês que deseja exibir (não é necessário inserir o primeiro dia da semana ou mês):</p>
 <p>7/3/2012</p>
-<p>As semanas sempre são de Domingo a Sábado.</p></td>
+<p>As semanas são sempre de domingo a sábado.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>To</strong></p></td>
@@ -226,7 +228,7 @@ A tabela a seguir lista os filtros que você pode usar com o Relatório de Resum
 
 <div>
 
-## <a name="metrics"></a>Métricas
+## <a name="metrics"></a>Métrica
 
 A tabela a seguir as informações fornecidas pelo 	Relatório de Resumo de Conferências.
 

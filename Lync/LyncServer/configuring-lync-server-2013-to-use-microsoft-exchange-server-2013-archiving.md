@@ -12,20 +12,22 @@ ms:contentKeyID: 49557731
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 85a9a1d035994c143336abc83312fb56f67b927d
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: b6f557c95b9bf706b3a38b51bdbea4fea156b314
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42180624"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48503158"
 ---
+# <a name="configuring-microsoft-lync-server-2013-to-use-microsoft-exchange-server-2013-archiving"></a>Configurando o Microsoft Lync Server 2013 para usar o arquivamento do Microsoft Exchange Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-microsoft-lync-server-2013-to-use-microsoft-exchange-server-2013-archiving"></a>Configurando o Microsoft Lync Server 2013 para usar o arquivamento do Microsoft Exchange Server 2013
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42180624"
 
 _**Última modificação do tópico:** 2014-06-24_
 
-O Microsoft Lync Server 2013 oferece aos administradores a opção de ter as transcrições de mensagens instantâneas e webconferência arquivadas na caixa de correio do Microsoft Exchange Server 2013 de um usuário, em vez de em um banco de dados do SQL Server. Se você habilitar esta opção, as transcrições são gravadas na pasta Lixeira da caixa de correio do usuário. A pasta Lixeira é uma pasta oculta encontrada na pasta Itens Recuperáveis. Embora essa pasta não fique visível para os usuários finais, a pasta é indexada pelo mecanismo de pesquisa do Exchange e pode ser descoberta usando a pesquisa de caixa de correio do Exchange e/ou o Microsoft SharePoint Server 2013. Como as informações são armazenadas na mesma pasta usada pelo recurso de bloqueio in-loco do Exchange (responsável pelo arquivamento de email e outras comunicações do Exchange), os administradores podem usar uma única ferramenta para pesquisar todas as comunicações eletrônicas arquivadas para um utilizador.
+O Microsoft Lync Server 2013 oferece aos administradores a opção de ter as transcrições de mensagens instantâneas e webconferência arquivadas na caixa de correio do Microsoft Exchange Server 2013 de um usuário, em vez de em um banco de dados do SQL Server. Se você habilitar esta opção, as transcrições são gravadas na pasta Lixeira da caixa de correio do usuário. A pasta Lixeira é uma pasta oculta encontrada na pasta Itens Recuperáveis. Embora essa pasta não fique visível para os usuários finais, a pasta é indexada pelo mecanismo de pesquisa do Exchange e pode ser descoberta usando a pesquisa de caixa de correio do Exchange e/ou o Microsoft SharePoint Server 2013. Como as informações são armazenadas na mesma pasta usada pelo recurso de bloqueio do Exchange In-Place (responsável pelo arquivamento de email e outras comunicações do Exchange), os administradores podem usar uma única ferramenta para pesquisar todas as comunicações eletrônicas arquivadas para um usuário.
 
 <div>
 
@@ -107,7 +109,7 @@ O arquivamento do Exchange também pode ser habilitado (ou desabilitado) usando 
 
 </div>
 
-Se o Lync Server 2013 e o Exchange 2013 estiverem localizados na mesma floresta, o arquivamento para usuários individuais (ou pelo menos para usuários que tenham contas de email no Exchange 2013) será gerenciado usando as políticas de bloqueio in-loco do Exchange. Se você tiver usuários hospedados em uma versão anterior do Exchange, o arquivamento desses usuários será gerenciado usando as políticas de arquivamento do Lync Server. Observe que apenas usuários com contas no Exchange 2013 podem ter suas transcrições do Lync arquivadas no Exchange.
+Se o Lync Server 2013 e o Exchange 2013 estiverem localizados na mesma floresta, o arquivamento para usuários individuais (ou pelo menos para usuários que tenham contas de email no Exchange 2013) será gerenciado usando as políticas de retenção do Exchange In-Place. Se você tiver usuários hospedados em uma versão anterior do Exchange, o arquivamento desses usuários será gerenciado usando as políticas de arquivamento do Lync Server. Observe que apenas usuários com contas no Exchange 2013 podem ter suas transcrições do Lync arquivadas no Exchange.
 
 Se o Lync Server 2013 e o Exchange 2013 estiverem localizados em florestas diferentes, o arquivamento de usuários individuais será gerenciado pela configuração da propriedade ExchangeArchivingPolicy para cada conta de usuário individual. Consulte a Etapa 3 para obter mais informações.
 
@@ -145,13 +147,13 @@ As políticas de arquivamento também podem ser gerenciadas usando o painel de c
 
 Se o Lync Server 2013 e o Exchange 2013 estiverem localizados em florestas diferentes, não é suficiente simplesmente habilitar o arquivamento do Exchange nas definições de configuração de arquivamento; Isso não resultará em mensagens instantâneas e transcrições de webconferências sendo arquivadas no Exchange. Em vez disso, você também deve configurar a propriedade ExchangeArchivingPolicy em cada uma das contas de usuário relevantes do Lync Server. Esta propriedade pode ser definida para uma dos quatro valores possíveis:
 
-1.  Não inicializado. Indica que o arquivamento será baseado nas configurações de bloqueio in-loco configuradas para a caixa de correio do Exchange do usuário; Se o bloqueio in-loco não tiver sido habilitado na caixa de correio do usuário, o usuário terá suas transcrições de mensagens e webconferência arquivadas no Lync Server.
+1.  Não inicializado. Indica que o arquivamento será baseado nas configurações de retenção de In-Place configuradas para a caixa de correio do Exchange do usuário; se In-Place bloqueio não tiver sido habilitado na caixa de correio do usuário, o usuário terá suas transcrições de mensagens e webconferência arquivadas no Lync Server.
 
 2.  **UseLyncArchivingPolicy**. Indica que as transcrições de mensagens instantâneas e webconferências do usuário devem ser arquivadas no Lync Server, e não no Exchange.
 
 3.  **Noarquivamento**. Indica que as transcrições de mensagem instantânea e conferência da Web do usuário não devem ser arquivadas. Observe que essa configuração substitui as políticas de arquivamento do Lync Server atribuídas ao usuário.
 
-4.  **ArchivingToExchange**. Indica que as transcrições de mensagens instantâneas e webconferências do usuário devem ser arquivadas no Exchange, independentemente das configurações de bloqueio in-loco que tiverem (ou não) atribuídas à caixa de correio do usuário.
+4.  **ArchivingToExchange**. Indica que as transcrições de mensagens instantâneas e webconferências do usuário devem ser arquivadas no Exchange independentemente das configurações de retenção de In-Place que tiverem (ou não) atribuídas à caixa de correio do usuário.
 
 Por exemplo, para configurar uma conta de usuário para que as transcrições de mensagens instantâneas e webconferências sejam sempre arquivadas no Exchange, você pode usar um comando semelhante a este no Shell de gerenciamento do Lync Server:
 

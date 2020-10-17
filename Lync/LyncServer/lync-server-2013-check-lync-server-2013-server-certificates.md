@@ -12,20 +12,22 @@ ms:contentKeyID: 63969620
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 11c5e545bc00de48fa5590dc8c4b119a46ffe9e0
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 4f5e8465ce7f0343bea96ee6f0613b8725d0e540
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42190364"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48502698"
 ---
+# <a name="check-lync-server-2013-server-certificates"></a>Verificar os certificados do servidor do Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="check-lync-server-2013-server-certificates"></a>Verificar os certificados do servidor do Lync Server 2013
+
 
 </div>
 
@@ -66,7 +68,7 @@ _**Última modificação do tópico:** 2014-11-01_
 
 ## <a name="description"></a>Descrição
 
-O cmdlet Get-CsCertificate permite recuperar informações sobre cada um dos seus certificados do Lync Server. Isso é especialmente importante porque os certificados têm uma data de vencimento interna. Por exemplo, os certificados emitidos de forma privada normalmente expiram após 12 meses. Se qualquer um dos seus certificados do Lync Server expirar, você perderá a funcionalidade de acompanhamento até que esse certificado seja renovado ou substituído.
+O cmdlet Get-CsCertificate permite que você recupere informações sobre cada um dos seus certificados do Lync Server. Isso é especialmente importante porque os certificados têm uma data de vencimento interna. Por exemplo, os certificados emitidos de forma privada normalmente expiram após 12 meses. Se qualquer um dos seus certificados do Lync Server expirar, você perderá a funcionalidade de acompanhamento até que esse certificado seja renovado ou substituído.
 
 </div>
 
@@ -134,7 +136,7 @@ WebServicesInteral 32980AA20BBB20000191 02/15/2016 2:16:12 PM
 
 WebServicesExternal 0451B012003872651A0C 02/20/2016 7:11:58 AM
 
-Se você tiver problemas com o certificado, convém revisar os outros osnames configurados para um certificado. À primeira vista, isso parece ser um problema. Por padrão, e dependendo do tamanho da janela do console, o Get-CsCertificate pode não ser capaz de exibir todos os nomes:
+Se você tiver problemas com o certificado, convém revisar os outros osnames configurados para um certificado. À primeira vista, isso parece ser um problema. Por padrão, e dependendo do tamanho da janela do console, Get-CsCertificate pode não conseguir exibir todos os nomes:
 
 Alternativonames: {sip.fabrikam.com, LYNC.fabrikam.com,
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 48183223
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2f2c57f56f1f82b94b20feb7aa801ca26f0ae022
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: a6f39bf16a9d0ecf57a5617774395af477a67c2d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42180268"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48502128"
 ---
+# <a name="configuring-call-detail-recording-and-quality-of-experience-settings-in-lync-server-2013"></a>Configurando a gravação de detalhes da chamada e as configurações de qualidade da experiência no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-call-detail-recording-and-quality-of-experience-settings-in-lync-server-2013"></a>Configurando a gravação de detalhes da chamada e as configurações de qualidade da experiência no Lync Server 2013
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42180268"
 
 _**Última modificação do tópico:** 2012-10-17_
 
-Depois de associar um repositório de monitoramento a um pool de front-ends, configurar o repositório de monitoramento e, em seguida, instalar e configurar o SQL Server Reporting Services e os relatórios de monitoramento, você poderá gerenciar o CDR (registro de detalhes de chamadas) e o QoE (qualidade da experiência) monitoramento usando o Shell de gerenciamento do Lync Server. Os cmdlets do Shell de gerenciamento do Lync Server permitem habilitar e desabilitar o monitoramento de CDR e/ou QoE para um determinado site ou para toda a sua implantação do Lync Server; Isso pode ser feito com um comando tão simples quanto:
+Após ter associado um repositório de monitoramento a um pool de front-ends, configure o repositório de monitoramento e, em seguida, instale e configurou o SQL Server Reporting Services e os relatórios de monitoramento você pode gerenciar o registro de detalhes da chamada (CDR) e o monitoramento de QoE (qualidade da experiência) usando o Shell de gerenciamento do Lync Server. Os cmdlets do Shell de gerenciamento do Lync Server permitem habilitar e desabilitar o monitoramento de CDR e/ou QoE para um determinado site ou para toda a sua implantação do Lync Server; Isso pode ser feito com um comando tão simples quanto:
 
     Set-CsQoEConfiguration -Identity "global" -EnableQoE $False
 
@@ -61,12 +63,12 @@ Ao instalar o Microsoft Lync Server 2013, você também instalará um conjunto p
 <tr class="odd">
 <td><p>EnableCDR</p></td>
 <td><p>Indica se o CDR está habilitado ou não. Se for Verdadeiro, todos os registros de CDR serão coletados e gravados no banco de dados de monitoramento.</p></td>
-<td><p>True</p></td>
+<td><p>Verdadeiro.</p></td>
 </tr>
 <tr class="even">
 <td><p>EnablePurging</p></td>
 <td><p>Indica se os registros CDR serão excluídos periodicamente do banco de dados. Se for Verdadeiro, os registros serão excluídos após o período especificado pelas propriedades KeepCallDetailForDays (para registros CDR) e KeepErrorReportForDays (para erros de CDR). Se for Falso, os registros CDR serão mantidos indefinidamente.</p></td>
-<td><p>True</p></td>
+<td><p>Verdadeiro.</p></td>
 </tr>
 <tr class="odd">
 <td><p>KeepCallDetailForDays</p></td>
@@ -104,12 +106,12 @@ Da mesma forma, os valores padrão para as configurações de QoE selecionadas s
 <tr class="odd">
 <td><p>EnableQoE</p></td>
 <td><p>Indica se o monitoramento de QoE está habilitado ou não. Se for Verdadeiro, todos os registros de QoE serão coletados e gravados no banco de dados de monitoramento.</p></td>
-<td><p>True</p></td>
+<td><p>Verdadeiro.</p></td>
 </tr>
 <tr class="even">
 <td><p>EnablePurging</p></td>
 <td><p>Indica se os registros de QoE serão excluídos periodicamente do banco de dados. Se for Verdadeiro, os registros serão excluídos após o período especificado pela propriedade KeepQoEDataForDays. Se for Falso, os registros de QoE serão mantidos indefinidamente.</p></td>
-<td><p>True</p></td>
+<td><p>Verdadeiro.</p></td>
 </tr>
 <tr class="odd">
 <td><p>KeepQoEDataForDays</p></td>
