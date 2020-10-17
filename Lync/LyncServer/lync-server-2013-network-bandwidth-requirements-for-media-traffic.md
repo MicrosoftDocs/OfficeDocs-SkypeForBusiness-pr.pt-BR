@@ -1,5 +1,6 @@
 ---
 title: Requisitos de largura de banda de rede do Lync Server 2013 para tráfego de mídia
+description: Requisitos de largura de banda de rede do Lync Server 2013 para tráfego de mídia.
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 49733716
 ms.date: 09/25/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d10ef9e4ebf2c30c12e40c7f6f48f5ac36e58dce
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 52e2ff02f0f89f22b3eca6de29fc5a6908e3041a
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48505568"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48561507"
 ---
 # <a name="network-bandwidth-requirements-for-media-traffic-in-lync-server-2013"></a>Requisitos de largura de banda de rede para tráfego de mídia no Lync Server 2013
 

@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: habilitar estacionamento de chamada para usuários'
+description: 'Lync Server 2013: habilitar estacionamento de chamada para usuários.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184814
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9345cdf2665a5a02d04a372606b95111d870a727
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: c7f9ab23b9fa71943efafd588b8c57a2af781b08
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48528778"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48561017"
 ---
 # <a name="enable-call-park-for-users-in-lync-server-2013"></a>Habilitar estacionamento de chamada para usuários no Lync Server 2013
 

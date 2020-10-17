@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: monitorando o desempenho de armazenamento do Lync Server do back-end'
+description: 'Lync Server 2013: monitorando o desempenho de armazenamento de back-end do Lync Server.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 63969619
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: aad04524df22c9d299b4a871b580330052d2aa5b
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: e7501418d3589b941b7e92d2b414492c1d27a3ee
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48531948"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48562067"
 ---
 # <a name="monitoring-back-end-lync-server-2013-storage-performance"></a>Monitorando o desempenho de armazenamento do Lync Server 2013 de back-end
 

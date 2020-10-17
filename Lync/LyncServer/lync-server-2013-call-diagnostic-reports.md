@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: relatórios de diagnóstico de chamada'
+description: 'Lync Server 2013: relatórios de diagnóstico de chamada.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184794
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 46073c5540b0b4cd48f6c5a13c17d4a4d3f12a46
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 6acc41585414e134eebde1635729b470c7f3472c
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48526328"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48561707"
 ---
 # <a name="call-diagnostic-reports-in-lync-server-2013"></a>Relatórios de diagnóstico de chamada no Lync Server 2013
 
