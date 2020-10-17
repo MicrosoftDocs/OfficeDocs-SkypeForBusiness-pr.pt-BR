@@ -12,20 +12,22 @@ ms:contentKeyID: 48183382
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 998787b3f052d2271eb2323bcdb71ddc106b57f6
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: d639ba422bde7b936bd58ff58abae47ea365bb70
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42210223"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48508518"
 ---
+# <a name="wildcard-certificate-support-in-lync-server-2013"></a><span data-ttu-id="2d979-102">Suporte a certificados curinga no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2d979-102">Wildcard certificate support in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="wildcard-certificate-support-in-lync-server-2013"></a><span data-ttu-id="22fd6-102">Suporte a certificados curinga no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="22fd6-102">Wildcard certificate support in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,77 +37,77 @@ ms.locfileid: "42210223"
 
 <span> </span>
 
-<span data-ttu-id="22fd6-103">_**Última modificação do tópico:** 2013-03-21_</span><span class="sxs-lookup"><span data-stu-id="22fd6-103">_**Topic Last Modified:** 2013-03-21_</span></span>
+<span data-ttu-id="2d979-103">_**Última modificação do tópico:** 2013-03-21_</span><span class="sxs-lookup"><span data-stu-id="2d979-103">_**Topic Last Modified:** 2013-03-21_</span></span>
 
-<span data-ttu-id="22fd6-104">O Lync Server 2013 usa certificados para fornecer criptografia de comunicação e autenticação de identidade do servidor.</span><span class="sxs-lookup"><span data-stu-id="22fd6-104">Lync Server 2013 uses certificates to provide communications encryption and server identity authentication.</span></span> <span data-ttu-id="22fd6-105">Em alguns casos, como em publicações na web através do proxy reverso, uma entrada forte de nome alternativo da entidade (SAN) que corresponda ao nome de domínio totalmente qualificado (FQDN) do servidor apresentando o serviço não é necessária.</span><span class="sxs-lookup"><span data-stu-id="22fd6-105">In some cases, such as web publishing through the reverse proxy, strong subject alternative name (SAN) entry matching to the fully qualified domain name (FQDN) of the server presenting the service is not required.</span></span> <span data-ttu-id="22fd6-106">Nesses casos, é possível usar certificados com entradas curingas de SAN (comumente conhecidos como "certificados curinga") para reduzir o custo de um certificado solicitado por uma autoridade de certificação pública e para reduzir a complexidade do processo de planejamento para certificados.</span><span class="sxs-lookup"><span data-stu-id="22fd6-106">In these cases, you can use certificates with wildcard SAN entries (commonly known as “wildcard certificates”) to reduce the cost of a certificate requested from a public certification authority and to reduce the complexity of the planning process for certificates.</span></span>
+<span data-ttu-id="2d979-104">O Lync Server 2013 usa certificados para fornecer criptografia de comunicação e autenticação de identidade do servidor.</span><span class="sxs-lookup"><span data-stu-id="2d979-104">Lync Server 2013 uses certificates to provide communications encryption and server identity authentication.</span></span> <span data-ttu-id="2d979-105">Em alguns casos, como em publicações na web através do proxy reverso, uma entrada forte de nome alternativo da entidade (SAN) que corresponda ao nome de domínio totalmente qualificado (FQDN) do servidor apresentando o serviço não é necessária.</span><span class="sxs-lookup"><span data-stu-id="2d979-105">In some cases, such as web publishing through the reverse proxy, strong subject alternative name (SAN) entry matching to the fully qualified domain name (FQDN) of the server presenting the service is not required.</span></span> <span data-ttu-id="2d979-106">Nesses casos, é possível usar certificados com entradas curingas de SAN (comumente conhecidos como "certificados curinga") para reduzir o custo de um certificado solicitado por uma autoridade de certificação pública e para reduzir a complexidade do processo de planejamento para certificados.</span><span class="sxs-lookup"><span data-stu-id="2d979-106">In these cases, you can use certificates with wildcard SAN entries (commonly known as “wildcard certificates”) to reduce the cost of a certificate requested from a public certification authority and to reduce the complexity of the planning process for certificates.</span></span>
 
 <div>
 
 
 > [!WARNING]  
-> <span data-ttu-id="22fd6-107">Para reter a funcionalidade de dispositivos de comunicações unificadas (UC) (por exemplo, telefones de mesa), você deve testar o certificado implantado com cuidado para garantir que os dispositivos funcionem adequadamente depois de implantar um certificado curinga.</span><span class="sxs-lookup"><span data-stu-id="22fd6-107">To retain the functionality of unified communications (UC) devices (for example, desk phones), you should test the deployed certificate carefully to ensure that devices function properly after you implement a wildcard certificate.</span></span>
+> <span data-ttu-id="2d979-107">Para reter a funcionalidade de dispositivos de comunicações unificadas (UC) (por exemplo, telefones de mesa), você deve testar o certificado implantado com cuidado para garantir que os dispositivos funcionem adequadamente depois de implantar um certificado curinga.</span><span class="sxs-lookup"><span data-stu-id="2d979-107">To retain the functionality of unified communications (UC) devices (for example, desk phones), you should test the deployed certificate carefully to ensure that devices function properly after you implement a wildcard certificate.</span></span>
 
 
 
 </div>
 
-<span data-ttu-id="22fd6-p102">Não há suporte para uma entrada curinga como nome de entidade (também conhecido como nome comum ou CN) para nenhuma função. As funções do servidor apresentadas a seguir são suportadas quando são usadas entradas curinga no SAN:</span><span class="sxs-lookup"><span data-stu-id="22fd6-p102">There is no support for a wildcard entry as the subject name (also referred to as the common name or CN) for any role. The following server roles are supported when using wildcard entries in the SAN:</span></span>
+<span data-ttu-id="2d979-p102">Não há suporte para uma entrada curinga como nome de entidade (também conhecido como nome comum ou CN) para nenhuma função. As funções do servidor apresentadas a seguir são suportadas quando são usadas entradas curinga no SAN:</span><span class="sxs-lookup"><span data-stu-id="2d979-p102">There is no support for a wildcard entry as the subject name (also referred to as the common name or CN) for any role. The following server roles are supported when using wildcard entries in the SAN:</span></span>
 
   - <span></span>  
-    <span data-ttu-id="22fd6-110">**Proxy reverso.**    A entrada de San curinga é suportada para o certificado de publicação URL simples (reunião e discagem).</span><span class="sxs-lookup"><span data-stu-id="22fd6-110">**Reverse proxy.**   Wildcard SAN entry is supported for Simple URL (meet and dialin) publishing certificate.</span></span>
+    <span data-ttu-id="2d979-110">**Proxy reverso.**     A entrada de SAN curinga é suportada para o certificado de publicação URL simples (reunião e discagem).</span><span class="sxs-lookup"><span data-stu-id="2d979-110">**Reverse proxy.**   Wildcard SAN entry is supported for Simple URL (meet and dialin) publishing certificate.</span></span>
 
   - <span></span>  
-    <span data-ttu-id="22fd6-111">**Proxy reverso.**    A entrada de San curinga é suportada para as entradas de San do LyncDiscover no certificado de publicação.</span><span class="sxs-lookup"><span data-stu-id="22fd6-111">**Reverse proxy.**   Wildcard SAN entry is supported for the SAN entries for LyncDiscover on the publishing certificate.</span></span>
+    <span data-ttu-id="2d979-111">**Proxy reverso.**     A entrada de SAN curinga é suportada para as entradas de SAN do LyncDiscover no certificado de publicação.</span><span class="sxs-lookup"><span data-stu-id="2d979-111">**Reverse proxy.**   Wildcard SAN entry is supported for the SAN entries for LyncDiscover on the publishing certificate.</span></span>
 
   - <span></span>  
-    <span data-ttu-id="22fd6-112">**Diretor.**    A entrada de San curinga é suportada para URLs simples (atender e discar) e para entradas de San para o LyncDiscover e o LyncDiscoverInternal nos componentes Web do diretor.</span><span class="sxs-lookup"><span data-stu-id="22fd6-112">**Director.**   Wildcard SAN entry is supported for Simple URLs (meet and dialin) and for SAN entries for LyncDiscover and LyncDiscoverInternal in Director web components.</span></span>
+    <span data-ttu-id="2d979-112">**Diretor.**     A entrada de SAN curinga é suportada para URLs simples (atender e discar) e para entradas de SAN para o LyncDiscover e o LyncDiscoverInternal nos componentes Web do diretor.</span><span class="sxs-lookup"><span data-stu-id="2d979-112">**Director.**   Wildcard SAN entry is supported for Simple URLs (meet and dialin) and for SAN entries for LyncDiscover and LyncDiscoverInternal in Director web components.</span></span>
 
   - <span></span>  
-    <span data-ttu-id="22fd6-113">**Servidor front-end (Standard Edition) e pool de front-ends (Enterprise Edition).**</span><span class="sxs-lookup"><span data-stu-id="22fd6-113">**Front End Server (Standard Edition) and Front End pool (Enterprise Edition).**</span></span> <span data-ttu-id="22fd6-114">A entrada de SAN curinga é suportada para URLs simples (atender e discar) e para entradas de SAN para o LyncDiscover e o LyncDiscoverInternal em componentes da Web de front-end.</span><span class="sxs-lookup"><span data-stu-id="22fd6-114">Wildcard SAN entry is supported for Simple URLs (meet and dialin) and for SAN entries for LyncDiscover and LyncDiscoverInternal in Front End web components.</span></span>
+    <span data-ttu-id="2d979-113">**Servidor front-end (Standard Edition) e pool de front-ends (Enterprise Edition).**</span><span class="sxs-lookup"><span data-stu-id="2d979-113">**Front End Server (Standard Edition) and Front End pool (Enterprise Edition).**</span></span> <span data-ttu-id="2d979-114">A entrada de SAN curinga é suportada para URLs simples (atender e discar) e para entradas de SAN para o LyncDiscover e o LyncDiscoverInternal em componentes da Web de front-end.</span><span class="sxs-lookup"><span data-stu-id="2d979-114">Wildcard SAN entry is supported for Simple URLs (meet and dialin) and for SAN entries for LyncDiscover and LyncDiscoverInternal in Front End web components.</span></span>
 
   - <span></span>  
-    <span data-ttu-id="22fd6-115">**Unificação de mensagens (UM) do Exchange.**    O servidor não usa entradas San quando implantado como um servidor autônomo.</span><span class="sxs-lookup"><span data-stu-id="22fd6-115">**Exchange Unified Messaging (UM).**   The server does not use SAN entries when deployed as a stand-alone server.</span></span>
+    <span data-ttu-id="2d979-115">**Unificação de mensagens (um) do Exchange.**     O servidor não usa entradas SAN quando implantado como um servidor autônomo.</span><span class="sxs-lookup"><span data-stu-id="2d979-115">**Exchange Unified Messaging (UM).**   The server does not use SAN entries when deployed as a stand-alone server.</span></span>
 
   - <span></span>  
-    <span data-ttu-id="22fd6-116">**Servidor de acesso para cliente do Microsoft Exchange Server.**    As entradas CURINGA na San têm suporte para clientes internos e externos.</span><span class="sxs-lookup"><span data-stu-id="22fd6-116">**Microsoft Exchange Server Client Access server.**   Wildcard entries in the SAN are supported for internal and external clients.</span></span>
+    <span data-ttu-id="2d979-116">**Servidor de acesso para cliente do Microsoft Exchange Server.**     As entradas curinga na SAN têm suporte para clientes internos e externos.</span><span class="sxs-lookup"><span data-stu-id="2d979-116">**Microsoft Exchange Server Client Access server.**   Wildcard entries in the SAN are supported for internal and external clients.</span></span>
 
   - <span></span>  
-    <span data-ttu-id="22fd6-117">**Unificação de mensagens (UM) do Exchange e servidor de acesso para cliente do Microsoft Exchange Server no mesmo servidor.**    Há suporte para as entradas San curinga.</span><span class="sxs-lookup"><span data-stu-id="22fd6-117">**Exchange Unified Messaging (UM) and Microsoft Exchange Server Client Access server on same server.**   Wildcard SAN entries are supported.</span></span>
+    <span data-ttu-id="2d979-117">**Unificação de mensagens (um) do Exchange e servidor de acesso para cliente do Microsoft Exchange Server no mesmo servidor.**     Há suporte para as entradas SAN curinga.</span><span class="sxs-lookup"><span data-stu-id="2d979-117">**Exchange Unified Messaging (UM) and Microsoft Exchange Server Client Access server on same server.**   Wildcard SAN entries are supported.</span></span>
 
-<span data-ttu-id="22fd6-118">As funções do servidor que não são abordadas neste tópico:</span><span class="sxs-lookup"><span data-stu-id="22fd6-118">Server roles that are not addressed in this topic:</span></span>
+<span data-ttu-id="2d979-118">As funções do servidor que não são abordadas neste tópico:</span><span class="sxs-lookup"><span data-stu-id="2d979-118">Server roles that are not addressed in this topic:</span></span>
 
-  - <span data-ttu-id="22fd6-119">Funções de servidor interno (incluindo, mas não limitado ao servidor de mediação, servidor de arquivamento e monitoramento, aparelho de filial persistente ou servidor de filial persistente)</span><span class="sxs-lookup"><span data-stu-id="22fd6-119">Internal server roles (including, but not limited to the Mediation Server, Archiving and Monitoring Server, Survivable Branch Appliance, or Survivable Branch Server)</span></span>
+  - <span data-ttu-id="2d979-119">Funções de servidor interno (incluindo, mas não limitado ao servidor de mediação, servidor de arquivamento e monitoramento, aparelho de filial persistente ou servidor de filial persistente)</span><span class="sxs-lookup"><span data-stu-id="2d979-119">Internal server roles (including, but not limited to the Mediation Server, Archiving and Monitoring Server, Survivable Branch Appliance, or Survivable Branch Server)</span></span>
 
-  - <span data-ttu-id="22fd6-120">Interfaces do servidor de borda externo</span><span class="sxs-lookup"><span data-stu-id="22fd6-120">External Edge Server interfaces</span></span>
+  - <span data-ttu-id="2d979-120">Interfaces do servidor de borda externo</span><span class="sxs-lookup"><span data-stu-id="2d979-120">External Edge Server interfaces</span></span>
 
-  - <span data-ttu-id="22fd6-121">Servidor de borda interno</span><span class="sxs-lookup"><span data-stu-id="22fd6-121">Internal Edge Server</span></span>
+  - <span data-ttu-id="2d979-121">Servidor de borda interno</span><span class="sxs-lookup"><span data-stu-id="2d979-121">Internal Edge Server</span></span>
     
     <div>
     
 
     > [!NOTE]  
-    > <span data-ttu-id="22fd6-122">Para a interface do servidor de borda interna, uma entrada curinga pode ser atribuída à SAN e é suportada.</span><span class="sxs-lookup"><span data-stu-id="22fd6-122">For the internal Edge Server interface, a wildcard entry can be assigned to the SAN, and is supported.</span></span> <span data-ttu-id="22fd6-123">A SAN no servidor de borda interno não é consultada e uma entrada de SAN curinga é de valor limitado.</span><span class="sxs-lookup"><span data-stu-id="22fd6-123">The SAN on the internal Edge Server is not queried, and a wildcard SAN entry is of limited value.</span></span>
+    > <span data-ttu-id="2d979-122">Para a interface do servidor de borda interna, uma entrada curinga pode ser atribuída à SAN e é suportada.</span><span class="sxs-lookup"><span data-stu-id="2d979-122">For the internal Edge Server interface, a wildcard entry can be assigned to the SAN, and is supported.</span></span> <span data-ttu-id="2d979-123">A SAN no servidor de borda interno não é consultada e uma entrada de SAN curinga é de valor limitado.</span><span class="sxs-lookup"><span data-stu-id="2d979-123">The SAN on the internal Edge Server is not queried, and a wildcard SAN entry is of limited value.</span></span>
 
     
     </div>
 
-<span data-ttu-id="22fd6-124">Para obter detalhes sobre as configurações de certificado, incluindo o uso de caracteres curinga em certificados, consulte os seguintes tópicos:</span><span class="sxs-lookup"><span data-stu-id="22fd6-124">For details about certificate configurations, including the use of wildcards in certificates, see the following topics:</span></span>
+<span data-ttu-id="2d979-124">Para obter detalhes sobre as configurações de certificado, incluindo o uso de caracteres curinga em certificados, consulte os seguintes tópicos:</span><span class="sxs-lookup"><span data-stu-id="2d979-124">For details about certificate configurations, including the use of wildcards in certificates, see the following topics:</span></span>
 
-  - [<span data-ttu-id="22fd6-125">Requisitos de certificado para servidores internos no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="22fd6-125">Certificate requirements for internal servers in Lync Server 2013</span></span>](lync-server-2013-certificate-requirements-for-internal-servers.md)
+  - [<span data-ttu-id="2d979-125">Requisitos de certificado para servidores internos no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2d979-125">Certificate requirements for internal servers in Lync Server 2013</span></span>](lync-server-2013-certificate-requirements-for-internal-servers.md)
 
-  - [<span data-ttu-id="22fd6-126">Requisitos de certificado para acesso de usuário externo no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="22fd6-126">Certificate requirements for external user access in Lync Server 2013</span></span>](lync-server-2013-certificate-requirements-for-external-user-access.md)
+  - [<span data-ttu-id="2d979-126">Requisitos de certificado para acesso de usuário externo no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2d979-126">Certificate requirements for external user access in Lync Server 2013</span></span>](lync-server-2013-certificate-requirements-for-external-user-access.md)
 
-  - [<span data-ttu-id="22fd6-127">Resumo de certificado-carga de DNS e HLB balanceada no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="22fd6-127">Certificate summary - DNS and HLB load balanced in Lync Server 2013</span></span>](lync-server-2013-certificate-summary-dns-and-hlb-load-balanced.md)
+  - [<span data-ttu-id="2d979-127">Resumo de certificado-carga de DNS e HLB balanceada no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2d979-127">Certificate summary - DNS and HLB load balanced in Lync Server 2013</span></span>](lync-server-2013-certificate-summary-dns-and-hlb-load-balanced.md)
 
-  - [<span data-ttu-id="22fd6-128">Resumo de certificado-diretor único no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="22fd6-128">Certificate summary - Single Director in Lync Server 2013</span></span>](lync-server-2013-certificate-summary-single-director.md)
+  - [<span data-ttu-id="2d979-128">Resumo de certificado-diretor único no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2d979-128">Certificate summary - Single Director in Lync Server 2013</span></span>](lync-server-2013-certificate-summary-single-director.md)
 
-  - [<span data-ttu-id="22fd6-129">Resumo de certificado-pool de diretores em escala, balanceador de carga de hardware no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="22fd6-129">Certificate summary - Scaled Director pool, hardware load balancer in Lync Server 2013</span></span>](lync-server-2013-certificate-summary-scaled-director-pool-hardware-load-balancer.md)
+  - [<span data-ttu-id="2d979-129">Resumo de certificado-pool de diretores em escala, balanceador de carga de hardware no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2d979-129">Certificate summary - Scaled Director pool, hardware load balancer in Lync Server 2013</span></span>](lync-server-2013-certificate-summary-scaled-director-pool-hardware-load-balancer.md)
 
-  - [<span data-ttu-id="22fd6-130">Resumo de certificado-proxy reverso no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="22fd6-130">Certificate summary - Reverse proxy in Lync Server 2013</span></span>](lync-server-2013-certificate-summary-reverse-proxy.md)
+  - [<span data-ttu-id="2d979-130">Resumo de certificado-proxy reverso no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2d979-130">Certificate summary - Reverse proxy in Lync Server 2013</span></span>](lync-server-2013-certificate-summary-reverse-proxy.md)
 
-  - [<span data-ttu-id="22fd6-131">Diretrizes para integrar a Unificação de mensagens local e o Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="22fd6-131">Guidelines for integrating on-premises Unified Messaging and Lync Server 2013</span></span>](lync-server-2013-guidelines-for-integrating-on-premises-unified-messaging.md)
+  - [<span data-ttu-id="2d979-131">Diretrizes para integrar a Unificação de mensagens local e o Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2d979-131">Guidelines for integrating on-premises Unified Messaging and Lync Server 2013</span></span>](lync-server-2013-guidelines-for-integrating-on-premises-unified-messaging.md)
 
-<span data-ttu-id="22fd6-132">Para obter detalhes sobre como configurar certificados para o Exchange, incluindo o uso de curingas, consulte a documentação do produto Exchange 2013.</span><span class="sxs-lookup"><span data-stu-id="22fd6-132">For details about configuring certificates for Exchange, including the use of wildcards, see the Exchange 2013 product documentation.</span></span>
+<span data-ttu-id="2d979-132">Para obter detalhes sobre como configurar certificados para o Exchange, incluindo o uso de curingas, consulte a documentação do produto Exchange 2013.</span><span class="sxs-lookup"><span data-stu-id="2d979-132">For details about configuring certificates for Exchange, including the use of wildcards, see the Exchange 2013 product documentation.</span></span>
 
 </div>
 

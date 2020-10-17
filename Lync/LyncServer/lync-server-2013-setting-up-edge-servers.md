@@ -12,20 +12,22 @@ ms:contentKeyID: 48183354
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8d086b00bb7db15d76fbde998a0508ef2e961efa
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 0bb9717df659368a1b5b8078fee7672df1f211cf
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42182104"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48509678"
 ---
+# <a name="setting-up-edge-servers-in-lync-server-2013"></a><span data-ttu-id="56c6a-102">Configurando servidores de borda no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="56c6a-102">Setting up Edge Servers in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="setting-up-edge-servers-in-lync-server-2013"></a><span data-ttu-id="27ae1-102">Configurando servidores de borda no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="27ae1-102">Setting up Edge Servers in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,27 +37,27 @@ ms.locfileid: "42182104"
 
 <span> </span>
 
-<span data-ttu-id="27ae1-103">_**Última modificação do tópico:** 2012-09-08_</span><span class="sxs-lookup"><span data-stu-id="27ae1-103">_**Topic Last Modified:** 2012-09-08_</span></span>
+<span data-ttu-id="56c6a-103">_**Última modificação do tópico:** 2012-09-08_</span><span class="sxs-lookup"><span data-stu-id="56c6a-103">_**Topic Last Modified:** 2012-09-08_</span></span>
 
-<span data-ttu-id="27ae1-104">As principais tarefas necessárias para configurar os Servidores de Borda são as mesmas da instalação de um único Servidor de Borda ou de um do pool de Servidores de Borda com balanceamento de carga. Porém, o pool de Servidores de Borda com balanceamento de carga de hardware requer a implantação de balanceadores de carga e etapas adicionais para replicar a configuração em vários Servidores de Borda.</span><span class="sxs-lookup"><span data-stu-id="27ae1-104">The primary tasks required to set up Edge Servers are the same for installing a single Edge Server or a load-balanced pool of Edge Servers, except that a pool of hardware load balanced Edge Servers requires deployment of the load balancers and additional steps for replicating the set up on multiple Edge Servers.</span></span>
+<span data-ttu-id="56c6a-104">As principais tarefas necessárias para configurar os Servidores de Borda são as mesmas da instalação de um único Servidor de Borda ou de um do pool de Servidores de Borda com balanceamento de carga. Porém, o pool de Servidores de Borda com balanceamento de carga de hardware requer a implantação de balanceadores de carga e etapas adicionais para replicar a configuração em vários Servidores de Borda.</span><span class="sxs-lookup"><span data-stu-id="56c6a-104">The primary tasks required to set up Edge Servers are the same for installing a single Edge Server or a load-balanced pool of Edge Servers, except that a pool of hardware load balanced Edge Servers requires deployment of the load balancers and additional steps for replicating the set up on multiple Edge Servers.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="27ae1-105">Nesta seção</span><span class="sxs-lookup"><span data-stu-id="27ae1-105">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="56c6a-105">Nesta seção</span><span class="sxs-lookup"><span data-stu-id="56c6a-105">In This Section</span></span>
 
-  - [<span data-ttu-id="27ae1-106">Configurar interfaces de rede para servidores de borda no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="27ae1-106">Set up network interfaces for Edge Servers in Lync Server 2013</span></span>](lync-server-2013-set-up-network-interfaces-for-edge-servers.md)
+  - [<span data-ttu-id="56c6a-106">Configurar interfaces de rede para servidores de borda no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="56c6a-106">Set up network interfaces for Edge Servers in Lync Server 2013</span></span>](lync-server-2013-set-up-network-interfaces-for-edge-servers.md)
 
-  - [<span data-ttu-id="27ae1-107">Instalar o software de pré-requisito nos servidores de borda do Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="27ae1-107">Install prerequisite software on Edge Servers for Lync Server 2013</span></span>](lync-server-2013-install-prerequisite-software-on-edge-servers.md)
+  - [<span data-ttu-id="56c6a-107">Instalar o software de pré-requisito nos servidores de borda do Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="56c6a-107">Install prerequisite software on Edge Servers for Lync Server 2013</span></span>](lync-server-2013-install-prerequisite-software-on-edge-servers.md)
 
-  - [<span data-ttu-id="27ae1-108">Exporte sua topologia do Lync Server 2013 e copie-a para a mídia externa para instalação de borda</span><span class="sxs-lookup"><span data-stu-id="27ae1-108">Export your Lync Server 2013 topology and copy it to external media for edge installation</span></span>](lync-server-2013-export-your-topology-and-copy-it-to-external-media-for-edge-installation.md)
+  - [<span data-ttu-id="56c6a-108">Exporte sua topologia do Lync Server 2013 e copie-a para a mídia externa para instalação de borda</span><span class="sxs-lookup"><span data-stu-id="56c6a-108">Export your Lync Server 2013 topology and copy it to external media for edge installation</span></span>](lync-server-2013-export-your-topology-and-copy-it-to-external-media-for-edge-installation.md)
 
-  - [<span data-ttu-id="27ae1-109">Instalar servidores de borda para o Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="27ae1-109">Install Edge Servers for Lync Server 2013</span></span>](lync-server-2013-install-edge-servers.md)
+  - [<span data-ttu-id="56c6a-109">Instalar servidores de borda para o Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="56c6a-109">Install Edge Servers for Lync Server 2013</span></span>](lync-server-2013-install-edge-servers.md)
 
-  - [<span data-ttu-id="27ae1-110">Configurar certificados de borda para o Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="27ae1-110">Set up Edge certificates for Lync Server 2013</span></span>](lync-server-2013-set-up-edge-certificates.md)
+  - [<span data-ttu-id="56c6a-110">Configurar certificados de borda para o Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="56c6a-110">Set up Edge certificates for Lync Server 2013</span></span>](lync-server-2013-set-up-edge-certificates.md)
 
-  - [<span data-ttu-id="27ae1-111">Iniciar servidores de borda no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="27ae1-111">Start Edge Servers in Lync Server 2013</span></span>](lync-server-2013-start-edge-servers.md)
+  - [<span data-ttu-id="56c6a-111">Iniciar servidores de borda no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="56c6a-111">Start Edge Servers in Lync Server 2013</span></span>](lync-server-2013-start-edge-servers.md)
 
-  - [<span data-ttu-id="27ae1-112">Configurando servidores de proxy reverso para o Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="27ae1-112">Setting up reverse proxy servers for Lync Server 2013</span></span>](lync-server-2013-setting-up-reverse-proxy-servers.md)
+  - [<span data-ttu-id="56c6a-112">Configurando servidores de proxy reverso para o Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="56c6a-112">Setting up reverse proxy servers for Lync Server 2013</span></span>](lync-server-2013-setting-up-reverse-proxy-servers.md)
 
 </div>
 
