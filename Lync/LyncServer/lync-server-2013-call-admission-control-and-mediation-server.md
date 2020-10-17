@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: controle de admissão de chamada e servidor de mediação'
+description: 'Lync Server 2013: controle de admissão de chamada e servidor de mediação.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184546
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c6c0cf06ccf9acde86e3ab344058803218eaf0cf
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 77e4b12a11f941923d50f3ffcab7a8f9b6a9edc5
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48537258"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48569217"
 ---
 # <a name="call-admission-control-and-mediation-server-in-lync-server-2013"></a>Controle de admissão de chamadas e servidor de mediação no Lync Server 2013
 

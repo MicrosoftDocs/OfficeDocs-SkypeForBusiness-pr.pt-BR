@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: exibir informações do plano de discagem'
+description: 'Lync Server 2013: exibir informações do plano de discagem.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 49733587
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 763e60533af230f613be89cad16379b851549801
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: b4473302b182b8de4ea6aad12d7993cb5d442b7e
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48506428"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48569687"
 ---
 # <a name="view-dial-plan-information-in-lync-server-2013"></a>Exibir informações do plano de discagem no Lync Server 2013
 

@@ -1,5 +1,6 @@
 ---
 title: Remover o banco de dados do Servidor SQL de um servidor de Arquivamento
+description: Remova o banco de dados do SQL Server para um servidor de arquivamento.
 ms.reviewer: ''
 ms.author: serdars
 author: serdarsoysal
@@ -12,12 +13,12 @@ ms:contentKeyID: 49733686
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fab9cefc3fff51267426fd26263f9e2ec20a85ee
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 738f82f297e1ccb3c6f23f9ecea25657d409f0a6
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48518098"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48570167"
 ---
 # <a name="remove-the-sql-server-database-for-an-archiving-server"></a>Remover o banco de dados do Servidor SQL de um servidor de Arquivamento
 

@@ -1,5 +1,6 @@
 ---
 title: Migração do Office Communications Server 2007 R2 para o Lync Server 2013
+description: Migração do Office Communications Server 2007 R2 para o Lync Server 2013.
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185802
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a71ac7e0e1291dedfa45e4e358b5b3495d8a623b
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: d0afdc754ae691bc674c200addb9fb97c1eb4199
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48527248"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48569587"
 ---
 # <a name="migration-from-office-communications-server-2007-r2-to-lync-server-2013"></a>Migração do Office Communications Server 2007 R2 para o Lync Server 2013
 
@@ -77,15 +78,15 @@ Este documento define os termos conforme especificados na lista a seguir.
 
 ## <a name="in-this-section"></a>Nesta seção
 
-  - [Antes de começar a migração](before-you-begin-the-migration_1.md)
+  - [Antes de começar a migração](before-you-begin-the-migration.md)
 
-  - [Fases de migração](migration-phases_1.md)
+  - [Fases de migração](migration-phases.md)
 
   - [Fase 1: planejar a migração do Office Communications Server 2007 R2](phase-1-plan-your-migration-from-office-communications-server-2007-r2.md)
 
-  - [Fase 2: Preparar para migração](phase-2-prepare-for-migration_1.md)
+  - [Fase 2: Preparar para migração](phase-2-prepare-for-migration.md)
 
-  - [Fase 3: implantar o pool piloto do Lync Server 2013](phase-3-deploy-lync-server-2013-pilot-pool_1.md)
+  - [Fase 3: implantar o pool piloto do Lync Server 2013](phase-3-deploy-lync-server-2013-pilot-pool.md)
 
   - [Fase 4: mesclar topologias](phase-4-merge-topologies.md)
 
