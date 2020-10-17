@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: detalhes da tabela do servidor de chat persistente'
+description: 'Lync Server 2013: detalhes da tabela do servidor de chat persistente.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48185323
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cde75ceb141a81af1b6a093742edd23b4adf1716
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 6a27feaaccf861d537127f06920cf903be5ae000
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48524218"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48545127"
 ---
-# <a name="persistent-chat-server-table-details-in-lync-server-2013"></a><span data-ttu-id="2eeb9-102">Detalhes da tabela do servidor de chat persistente no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2eeb9-102">Persistent Chat Server table details in Lync Server 2013</span></span>
+# <a name="persistent-chat-server-table-details-in-lync-server-2013"></a><span data-ttu-id="e1f17-103">Detalhes da tabela do servidor de chat persistente no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e1f17-103">Persistent Chat Server table details in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,75 +38,75 @@ ms.locfileid: "48524218"
 
 <span> </span>
 
-<span data-ttu-id="2eeb9-103">_**Última modificação do tópico:** 2012-06-25_</span><span class="sxs-lookup"><span data-stu-id="2eeb9-103">_**Topic Last Modified:** 2012-06-25_</span></span>
+<span data-ttu-id="e1f17-104">_**Última modificação do tópico:** 2012-06-25_</span><span class="sxs-lookup"><span data-stu-id="e1f17-104">_**Topic Last Modified:** 2012-06-25_</span></span>
 
-<span data-ttu-id="2eeb9-104">Os tópicos a seguir detalham as colunas em cada tabela de esquema de banco de dados de chat persistente.</span><span class="sxs-lookup"><span data-stu-id="2eeb9-104">The following topics detail the columns in each of the Persistent Chat database schema tables.</span></span>
+<span data-ttu-id="e1f17-105">Os tópicos a seguir detalham as colunas em cada tabela de esquema de banco de dados de chat persistente.</span><span class="sxs-lookup"><span data-stu-id="e1f17-105">The following topics detail the columns in each of the Persistent Chat database schema tables.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="2eeb9-105">Nesta seção</span><span class="sxs-lookup"><span data-stu-id="2eeb9-105">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="e1f17-106">Nesta seção</span><span class="sxs-lookup"><span data-stu-id="e1f17-106">In This Section</span></span>
 
-  - [<span data-ttu-id="2eeb9-106">tblADCookie no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2eeb9-106">tblADCookie in Lync Server 2013</span></span>](lync-server-2013-tbladcookie.md)
+  - [<span data-ttu-id="e1f17-107">tblADCookie no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e1f17-107">tblADCookie in Lync Server 2013</span></span>](lync-server-2013-tbladcookie.md)
 
-  - [<span data-ttu-id="2eeb9-107">tblPrincipalMemberDifference no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2eeb9-107">tblPrincipalMemberDifference in Lync Server 2013</span></span>](lync-server-2013-tblprincipalmemberdifference.md)
+  - [<span data-ttu-id="e1f17-108">tblPrincipalMemberDifference no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e1f17-108">tblPrincipalMemberDifference in Lync Server 2013</span></span>](lync-server-2013-tblprincipalmemberdifference.md)
 
-  - [<span data-ttu-id="2eeb9-108">tblADUpdates no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2eeb9-108">tblADUpdates in Lync Server 2013</span></span>](lync-server-2013-tbladupdates.md)
+  - [<span data-ttu-id="e1f17-109">tblADUpdates no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e1f17-109">tblADUpdates in Lync Server 2013</span></span>](lync-server-2013-tbladupdates.md)
 
-  - [<span data-ttu-id="2eeb9-109">tblPrincipalMembers no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2eeb9-109">tblPrincipalMembers in Lync Server 2013</span></span>](lync-server-2013-tblprincipalmembers.md)
+  - [<span data-ttu-id="e1f17-110">tblPrincipalMembers no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e1f17-110">tblPrincipalMembers in Lync Server 2013</span></span>](lync-server-2013-tblprincipalmembers.md)
 
-  - [<span data-ttu-id="2eeb9-110">tblPrincipalMeta no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2eeb9-110">tblPrincipalMeta in Lync Server 2013</span></span>](lync-server-2013-tblprincipalmeta.md)
+  - [<span data-ttu-id="e1f17-111">tblPrincipalMeta no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e1f17-111">tblPrincipalMeta in Lync Server 2013</span></span>](lync-server-2013-tblprincipalmeta.md)
 
-  - [<span data-ttu-id="2eeb9-111">tblSkippedAffiliations no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2eeb9-111">tblSkippedAffiliations in Lync Server 2013</span></span>](lync-server-2013-tblskippedaffiliations.md)
+  - [<span data-ttu-id="e1f17-112">tblSkippedAffiliations no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e1f17-112">tblSkippedAffiliations in Lync Server 2013</span></span>](lync-server-2013-tblskippedaffiliations.md)
 
-  - [<span data-ttu-id="2eeb9-112">tblPrincipalType no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2eeb9-112">tblPrincipalType in Lync Server 2013</span></span>](lync-server-2013-tblprincipaltype.md)
+  - [<span data-ttu-id="e1f17-113">tblPrincipalType no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e1f17-113">tblPrincipalType in Lync Server 2013</span></span>](lync-server-2013-tblprincipaltype.md)
 
-  - [<span data-ttu-id="2eeb9-113">tblPrincipal no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2eeb9-113">tblPrincipal in Lync Server 2013</span></span>](lync-server-2013-tblprincipal.md)
+  - [<span data-ttu-id="e1f17-114">tblPrincipal no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e1f17-114">tblPrincipal in Lync Server 2013</span></span>](lync-server-2013-tblprincipal.md)
 
-  - [<span data-ttu-id="2eeb9-114">tblPrincipalAffiliations no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2eeb9-114">tblPrincipalAffiliations in Lync Server 2013</span></span>](lync-server-2013-tblprincipalaffiliations.md)
+  - [<span data-ttu-id="e1f17-115">tblPrincipalAffiliations no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e1f17-115">tblPrincipalAffiliations in Lync Server 2013</span></span>](lync-server-2013-tblprincipalaffiliations.md)
 
-  - [<span data-ttu-id="2eeb9-115">tblNode no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2eeb9-115">tblNode in Lync Server 2013</span></span>](lync-server-2013-tblnode.md)
+  - [<span data-ttu-id="e1f17-116">tblNode no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e1f17-116">tblNode in Lync Server 2013</span></span>](lync-server-2013-tblnode.md)
 
-  - [<span data-ttu-id="2eeb9-116">tblRoleType no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2eeb9-116">tblRoleType in Lync Server 2013</span></span>](lync-server-2013-tblroletype.md)
+  - [<span data-ttu-id="e1f17-117">tblRoleType no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e1f17-117">tblRoleType in Lync Server 2013</span></span>](lync-server-2013-tblroletype.md)
 
-  - [<span data-ttu-id="2eeb9-117">tblScopePrincipal no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2eeb9-117">tblScopePrincipal in Lync Server 2013</span></span>](lync-server-2013-tblscopeprincipal.md)
+  - [<span data-ttu-id="e1f17-118">tblScopePrincipal no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e1f17-118">tblScopePrincipal in Lync Server 2013</span></span>](lync-server-2013-tblscopeprincipal.md)
 
-  - [<span data-ttu-id="2eeb9-118">tblPrincipalRole no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2eeb9-118">tblPrincipalRole in Lync Server 2013</span></span>](lync-server-2013-tblprincipalrole.md)
+  - [<span data-ttu-id="e1f17-119">tblPrincipalRole no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e1f17-119">tblPrincipalRole in Lync Server 2013</span></span>](lync-server-2013-tblprincipalrole.md)
 
-  - [<span data-ttu-id="2eeb9-119">tblSiopWhiteList no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2eeb9-119">tblSiopWhiteList in Lync Server 2013</span></span>](lync-server-2013-tblsiopwhitelist.md)
+  - [<span data-ttu-id="e1f17-120">tblSiopWhiteList no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e1f17-120">tblSiopWhiteList in Lync Server 2013</span></span>](lync-server-2013-tblsiopwhitelist.md)
 
-  - [<span data-ttu-id="2eeb9-120">tblEnumAttribute no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2eeb9-120">tblEnumAttribute in Lync Server 2013</span></span>](lync-server-2013-tblenumattribute.md)
+  - [<span data-ttu-id="e1f17-121">tblEnumAttribute no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e1f17-121">tblEnumAttribute in Lync Server 2013</span></span>](lync-server-2013-tblenumattribute.md)
 
-  - [<span data-ttu-id="2eeb9-121">tblEnumValue no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2eeb9-121">tblEnumValue in Lync Server 2013</span></span>](lync-server-2013-tblenumvalue.md)
+  - [<span data-ttu-id="e1f17-122">tblEnumValue no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e1f17-122">tblEnumValue in Lync Server 2013</span></span>](lync-server-2013-tblenumvalue.md)
 
-  - [<span data-ttu-id="2eeb9-122">tblPrincipalInvites no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2eeb9-122">tblPrincipalInvites in Lync Server 2013</span></span>](lync-server-2013-tblprincipalinvites.md)
+  - [<span data-ttu-id="e1f17-123">tblPrincipalInvites no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e1f17-123">tblPrincipalInvites in Lync Server 2013</span></span>](lync-server-2013-tblprincipalinvites.md)
 
-  - [<span data-ttu-id="2eeb9-123">tblChat no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2eeb9-123">tblChat in Lync Server 2013</span></span>](lync-server-2013-tblchat.md)
+  - [<span data-ttu-id="e1f17-124">tblChat no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e1f17-124">tblChat in Lync Server 2013</span></span>](lync-server-2013-tblchat.md)
 
-  - [<span data-ttu-id="2eeb9-124">tblLastInviteId no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2eeb9-124">tblLastInviteId in Lync Server 2013</span></span>](lync-server-2013-tbllastinviteid.md)
+  - [<span data-ttu-id="e1f17-125">tblLastInviteId no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e1f17-125">tblLastInviteId in Lync Server 2013</span></span>](lync-server-2013-tbllastinviteid.md)
 
-  - [<span data-ttu-id="2eeb9-125">tblLastChatId no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2eeb9-125">tblLastChatId in Lync Server 2013</span></span>](lync-server-2013-tbllastchatid.md)
+  - [<span data-ttu-id="e1f17-126">tblLastChatId no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e1f17-126">tblLastChatId in Lync Server 2013</span></span>](lync-server-2013-tbllastchatid.md)
 
-  - [<span data-ttu-id="2eeb9-126">tblPreference no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2eeb9-126">tblPreference in Lync Server 2013</span></span>](lync-server-2013-tblpreference.md)
+  - [<span data-ttu-id="e1f17-127">tblPreference no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e1f17-127">tblPreference in Lync Server 2013</span></span>](lync-server-2013-tblpreference.md)
 
-  - [<span data-ttu-id="2eeb9-127">tblFileToken no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2eeb9-127">tblFileToken in Lync Server 2013</span></span>](lync-server-2013-tblfiletoken.md)
+  - [<span data-ttu-id="e1f17-128">tblFileToken no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e1f17-128">tblFileToken in Lync Server 2013</span></span>](lync-server-2013-tblfiletoken.md)
 
-  - [<span data-ttu-id="2eeb9-128">tblServerIdentity no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2eeb9-128">tblServerIdentity in Lync Server 2013</span></span>](lync-server-2013-tblserveridentity.md)
+  - [<span data-ttu-id="e1f17-129">tblServerIdentity no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e1f17-129">tblServerIdentity in Lync Server 2013</span></span>](lync-server-2013-tblserveridentity.md)
 
-  - [<span data-ttu-id="2eeb9-129">tblAdminLock no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2eeb9-129">tblAdminLock in Lync Server 2013</span></span>](lync-server-2013-tbladminlock.md)
+  - [<span data-ttu-id="e1f17-130">tblAdminLock no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e1f17-130">tblAdminLock in Lync Server 2013</span></span>](lync-server-2013-tbladminlock.md)
 
-  - [<span data-ttu-id="2eeb9-130">tblSystemRevision no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2eeb9-130">tblSystemRevision in Lync Server 2013</span></span>](lync-server-2013-tblsystemrevision.md)
+  - [<span data-ttu-id="e1f17-131">tblSystemRevision no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e1f17-131">tblSystemRevision in Lync Server 2013</span></span>](lync-server-2013-tblsystemrevision.md)
 
-  - [<span data-ttu-id="2eeb9-131">tblActivePeers no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2eeb9-131">tblActivePeers in Lync Server 2013</span></span>](lync-server-2013-tblactivepeers.md)
+  - [<span data-ttu-id="e1f17-132">tblActivePeers no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e1f17-132">tblActivePeers in Lync Server 2013</span></span>](lync-server-2013-tblactivepeers.md)
 
-  - [<span data-ttu-id="2eeb9-132">tblConfig no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2eeb9-132">tblConfig in Lync Server 2013</span></span>](lync-server-2013-tblconfig.md)
+  - [<span data-ttu-id="e1f17-133">tblConfig no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e1f17-133">tblConfig in Lync Server 2013</span></span>](lync-server-2013-tblconfig.md)
 
-  - [<span data-ttu-id="2eeb9-133">tblComplianceData no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2eeb9-133">tblComplianceData in Lync Server 2013</span></span>](lync-server-2013-tblcompliancedata.md)
+  - [<span data-ttu-id="e1f17-134">tblComplianceData no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e1f17-134">tblComplianceData in Lync Server 2013</span></span>](lync-server-2013-tblcompliancedata.md)
 
-  - [<span data-ttu-id="2eeb9-134">tblComplianceFanout no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2eeb9-134">tblComplianceFanout in Lync Server 2013</span></span>](lync-server-2013-tblcompliancefanout.md)
+  - [<span data-ttu-id="e1f17-135">tblComplianceFanout no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e1f17-135">tblComplianceFanout in Lync Server 2013</span></span>](lync-server-2013-tblcompliancefanout.md)
 
-  - [<span data-ttu-id="2eeb9-135">tblComplianceParticipant no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2eeb9-135">tblComplianceParticipant in Lync Server 2013</span></span>](lync-server-2013-tblcomplianceparticipant.md)
+  - [<span data-ttu-id="e1f17-136">tblComplianceParticipant no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e1f17-136">tblComplianceParticipant in Lync Server 2013</span></span>](lync-server-2013-tblcomplianceparticipant.md)
 
-  - [<span data-ttu-id="2eeb9-136">tblComplianceState no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2eeb9-136">tblComplianceState in Lync Server 2013</span></span>](lync-server-2013-tblcompliancestate.md)
+  - [<span data-ttu-id="e1f17-137">tblComplianceState no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e1f17-137">tblComplianceState in Lync Server 2013</span></span>](lync-server-2013-tblcompliancestate.md)
 
 </div>
 

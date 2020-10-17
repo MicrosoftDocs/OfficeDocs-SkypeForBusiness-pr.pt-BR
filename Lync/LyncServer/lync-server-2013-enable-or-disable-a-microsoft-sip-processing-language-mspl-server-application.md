@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: habilitar ou desabilitar um aplicativo de servidor do Microsoft SIP Processing Language (MSPL)'
+description: 'Lync Server 2013: habilitar ou desabilitar um aplicativo de servidor do Microsoft SIP Processing Language (MSPL).'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48185145
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 98dce0363a031a2d56c7d8a7cc479452f4fb0382
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 8f919599d6c6a39fea73424f4e287f00636c0982
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48528628"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48544777"
 ---
-# <a name="enable-or-disable-a-microsoft-sip-processing-language-mspl-server-application-in-lync-server-2013"></a><span data-ttu-id="2ade6-102">Habilitar ou desabilitar um aplicativo de servidor do Microsoft SIP Processing Language (MSPL) no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2ade6-102">Enable or disable a Microsoft SIP Processing Language (MSPL) server application in Lync Server 2013</span></span>
+# <a name="enable-or-disable-a-microsoft-sip-processing-language-mspl-server-application-in-lync-server-2013"></a><span data-ttu-id="cf824-103">Habilitar ou desabilitar um aplicativo de servidor do Microsoft SIP Processing Language (MSPL) no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="cf824-103">Enable or disable a Microsoft SIP Processing Language (MSPL) server application in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,42 +38,42 @@ ms.locfileid: "48528628"
 
 <span> </span>
 
-<span data-ttu-id="2ade6-103">_**Última modificação do tópico:** 2012-09-21_</span><span class="sxs-lookup"><span data-stu-id="2ade6-103">_**Topic Last Modified:** 2012-09-21_</span></span>
+<span data-ttu-id="cf824-104">_**Última modificação do tópico:** 2012-09-21_</span><span class="sxs-lookup"><span data-stu-id="cf824-104">_**Topic Last Modified:** 2012-09-21_</span></span>
 
-<span data-ttu-id="2ade6-104">Você pode usar o painel de controle do Lync Server para habilitar ou desabilitar aplicativos de servidor do Microsoft SIP Processing Language (MSPL) que são executados no seu ambiente do Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="2ade6-104">You can use Lync Server Control Panel to enable or disable Microsoft SIP Processing Language (MSPL) server applications that run in your Lync Server 2013 environment.</span></span> <span data-ttu-id="2ade6-105">Esses aplicativos são aplicativos somente com scripts que usam uma linguagem de scripts em vez do API do Microsoft Lync 2013 Preview.</span><span class="sxs-lookup"><span data-stu-id="2ade6-105">These applications are script-only applications that use a scripting language instead of the Microsoft Lync 2013 Preview API.</span></span>
+<span data-ttu-id="cf824-105">Você pode usar o painel de controle do Lync Server para habilitar ou desabilitar aplicativos de servidor do Microsoft SIP Processing Language (MSPL) que são executados no seu ambiente do Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="cf824-105">You can use Lync Server Control Panel to enable or disable Microsoft SIP Processing Language (MSPL) server applications that run in your Lync Server 2013 environment.</span></span> <span data-ttu-id="cf824-106">Esses aplicativos são aplicativos somente com scripts que usam uma linguagem de scripts em vez do API do Microsoft Lync 2013 Preview.</span><span class="sxs-lookup"><span data-stu-id="cf824-106">These applications are script-only applications that use a scripting language instead of the Microsoft Lync 2013 Preview API.</span></span>
 
-<span data-ttu-id="2ade6-p102">Nem todos os scripts podem ser habilitados ou desabilitados. Por exemplo, o script DefaultRouting está habilitado e essa opção não pode ser alterada para DefaultRouting.</span><span class="sxs-lookup"><span data-stu-id="2ade6-p102">Not all scripts can be enabled or disabled. For instance, the DefaultRouting script is enabled and this option cannot be changed for DefaultRouting.</span></span>
+<span data-ttu-id="cf824-p102">Nem todos os scripts podem ser habilitados ou desabilitados. Por exemplo, o script DefaultRouting está habilitado e essa opção não pode ser alterada para DefaultRouting.</span><span class="sxs-lookup"><span data-stu-id="cf824-p102">Not all scripts can be enabled or disabled. For instance, the DefaultRouting script is enabled and this option cannot be changed for DefaultRouting.</span></span>
 
 <div>
 
-## <a name="to-enable-or-disable-an-mspl-server-application"></a><span data-ttu-id="2ade6-108">Para habilitar ou desabilitar um aplicativo de servidor do MSPL</span><span class="sxs-lookup"><span data-stu-id="2ade6-108">To enable or disable an MSPL server application</span></span>
+## <a name="to-enable-or-disable-an-mspl-server-application"></a><span data-ttu-id="cf824-109">Para habilitar ou desabilitar um aplicativo de servidor do MSPL</span><span class="sxs-lookup"><span data-stu-id="cf824-109">To enable or disable an MSPL server application</span></span>
 
-1.  <span data-ttu-id="2ade6-109">A partir de uma conta de usuário que seja membro do grupo RTCUniversalServerAdmins (ou tenha direitos de usuário equivalentes) ou atribuída à função CsServerAdministrator ou CsAdministrator, faça logon em qualquer computador que esteja na rede na qual você implantou o Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="2ade6-109">From a user account that is a member of the RTCUniversalServerAdmins group (or has equivalent user rights), or assigned to the CsServerAdministrator or CsAdministrator role, log on to any computer that is in the network in which you deployed Lync Server 2013.</span></span>
+1.  <span data-ttu-id="cf824-110">A partir de uma conta de usuário que seja membro do grupo RTCUniversalServerAdmins (ou tenha direitos de usuário equivalentes) ou atribuída à função CsServerAdministrator ou CsAdministrator, faça logon em qualquer computador que esteja na rede na qual você implantou o Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="cf824-110">From a user account that is a member of the RTCUniversalServerAdmins group (or has equivalent user rights), or assigned to the CsServerAdministrator or CsAdministrator role, log on to any computer that is in the network in which you deployed Lync Server 2013.</span></span>
 
-2.  <span data-ttu-id="2ade6-110">Abra uma janela do navegador e insira a URL do Administrador para abrir o Painel de Controle do Lync Server.</span><span class="sxs-lookup"><span data-stu-id="2ade6-110">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="2ade6-111">Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o painel de controle do Lync Server, consulte [Open Lync server 2013 Administrative Tools](lync-server-2013-open-lync-server-administrative-tools.md).</span><span class="sxs-lookup"><span data-stu-id="2ade6-111">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
+2.  <span data-ttu-id="cf824-111">Abra uma janela do navegador e insira a URL do Administrador para abrir o Painel de Controle do Lync Server.</span><span class="sxs-lookup"><span data-stu-id="cf824-111">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="cf824-112">Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o painel de controle do Lync Server, consulte [Open Lync server 2013 Administrative Tools](lync-server-2013-open-lync-server-administrative-tools.md).</span><span class="sxs-lookup"><span data-stu-id="cf824-112">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
 
-3.  <span data-ttu-id="2ade6-112">Na barra de navegação esquerda, clique em **Topologia** e em **Aplicativo de Servidor**.</span><span class="sxs-lookup"><span data-stu-id="2ade6-112">In the left navigation bar, click **Topology** and then click **Server Application**.</span></span>
+3.  <span data-ttu-id="cf824-113">Na barra de navegação esquerda, clique em **Topologia** e em **Aplicativo de Servidor**.</span><span class="sxs-lookup"><span data-stu-id="cf824-113">In the left navigation bar, click **Topology** and then click **Server Application**.</span></span>
 
-4.  <span data-ttu-id="2ade6-113">Na página **Aplicativo de Servidor**, clique no título de uma coluna para classificar os aplicativos, se for necessário, e clique no aplicativo de servidor que você deseja modificar.</span><span class="sxs-lookup"><span data-stu-id="2ade6-113">On the **Server Application** page, click a column heading to sort the applications, if needed, and then click the server application that you want to modify.</span></span>
+4.  <span data-ttu-id="cf824-114">Na página **Aplicativo de Servidor**, clique no título de uma coluna para classificar os aplicativos, se for necessário, e clique no aplicativo de servidor que você deseja modificar.</span><span class="sxs-lookup"><span data-stu-id="cf824-114">On the **Server Application** page, click a column heading to sort the applications, if needed, and then click the server application that you want to modify.</span></span>
 
-5.  <span data-ttu-id="2ade6-114">Clique em **Ação**.</span><span class="sxs-lookup"><span data-stu-id="2ade6-114">Click **Action**.</span></span>
+5.  <span data-ttu-id="cf824-115">Clique em **Ação**.</span><span class="sxs-lookup"><span data-stu-id="cf824-115">Click **Action**.</span></span>
 
-6.  <span data-ttu-id="2ade6-115">Clique em **Habilitar aplicativo** ou **Desabilitar aplicativo** (ou seja, se o script suportar essa opção).</span><span class="sxs-lookup"><span data-stu-id="2ade6-115">Click **Enable application** or **Disable application** (that is, if the script supports this option).</span></span>
+6.  <span data-ttu-id="cf824-116">Clique em **Habilitar aplicativo** ou **Desabilitar aplicativo** (ou seja, se o script suportar essa opção).</span><span class="sxs-lookup"><span data-stu-id="cf824-116">Click **Enable application** or **Disable application** (that is, if the script supports this option).</span></span>
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="2ade6-116">Confira também</span><span class="sxs-lookup"><span data-stu-id="2ade6-116">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="cf824-117">Confira também</span><span class="sxs-lookup"><span data-stu-id="cf824-117">See Also</span></span>
 
 
-[<span data-ttu-id="2ade6-117">Marcar um aplicativo de idioma de processamento SIP da Microsoft (MSPL) como crítico ou não crítico no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2ade6-117">Mark a Microsoft SIP Processing Language (MSPL) application as critical or not critical in Lync Server 2013</span></span>](lync-server-2013-mark-a-microsoft-sip-processing-language-mspl-application-as-critical-or-not-critical.md)  
+[<span data-ttu-id="cf824-118">Marcar um aplicativo de idioma de processamento SIP da Microsoft (MSPL) como crítico ou não crítico no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="cf824-118">Mark a Microsoft SIP Processing Language (MSPL) application as critical or not critical in Lync Server 2013</span></span>](lync-server-2013-mark-a-microsoft-sip-processing-language-mspl-application-as-critical-or-not-critical.md)  
 
 
-[<span data-ttu-id="2ade6-118">Exibir aplicativos de servidor do idioma de processamento SIP da Microsoft (MSPL) no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2ade6-118">View Microsoft SIP Processing Language (MSPL) server applications in Lync Server 2013</span></span>](lync-server-2013-view-microsoft-sip-processing-language-mspl-server-applications.md)  
+[<span data-ttu-id="cf824-119">Exibir aplicativos de servidor do idioma de processamento SIP da Microsoft (MSPL) no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="cf824-119">View Microsoft SIP Processing Language (MSPL) server applications in Lync Server 2013</span></span>](lync-server-2013-view-microsoft-sip-processing-language-mspl-server-applications.md)  
 
 
-[<span data-ttu-id="2ade6-119">Gerenciando a topologia do Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2ade6-119">Managing the Lync Server 2013 topology</span></span>](lync-server-2013-managing-the-lync-server-topology.md)  
+[<span data-ttu-id="cf824-120">Gerenciando a topologia do Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="cf824-120">Managing the Lync Server 2013 topology</span></span>](lync-server-2013-managing-the-lync-server-topology.md)  
   
 
 </div>

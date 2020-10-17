@@ -1,5 +1,6 @@
 ---
 title: Cmdlets no Skype for Business online que usam uma identidade do provedor de conferência
+description: Cmdlets no Skype for Business online que usam uma identidade de provedor de conferência.
 ms.reviewer: ''
 ms.author: serdars
 author: serdarsoysal
@@ -13,33 +14,33 @@ ms:contentKeyID: 56558858
 ms.date: 05/04/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: accaad94f5e29863ac948ea64d061d23b811105f
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: 61ab4fb410878ca73314b73737948d9961462c87
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44755123"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48545727"
 ---
-# <a name="cmdlets-in-skype-for-business-online-that-use-a-conferencing-provider-identity"></a><span data-ttu-id="5f6cf-102">Cmdlets no Skype for Business online que usam uma identidade do provedor de conferência</span><span class="sxs-lookup"><span data-stu-id="5f6cf-102">Cmdlets in Skype for Business Online that use a conferencing provider identity</span></span>
+# <a name="cmdlets-in-skype-for-business-online-that-use-a-conferencing-provider-identity"></a><span data-ttu-id="7b818-103">Cmdlets no Skype for Business online que usam uma identidade do provedor de conferência</span><span class="sxs-lookup"><span data-stu-id="7b818-103">Cmdlets in Skype for Business Online that use a conferencing provider identity</span></span>
 
  
 
 
-<span data-ttu-id="5f6cf-103">Para retornar informações sobre todos os provedores de audioconferência que sua organização tenha contratado, você pode simplesmente chamar o cmdlet [Get-CsAudioConferencingProvider](https://technet.microsoft.com/library/jj994030\(v=ocs.15\)) sem nenhum parâmetro:</span><span class="sxs-lookup"><span data-stu-id="5f6cf-103">To return information about all of the audio conferencing providers that your organization has contracted with, you can simply call the [Get-CsAudioConferencingProvider](https://technet.microsoft.com/library/jj994030\(v=ocs.15\)) cmdlet without any parameters:</span></span>
+<span data-ttu-id="7b818-104">Para retornar informações sobre todos os provedores de audioconferência que sua organização tenha contratado, você pode simplesmente chamar o cmdlet [Get-CsAudioConferencingProvider](https://technet.microsoft.com/library/jj994030\(v=ocs.15\)) sem nenhum parâmetro:</span><span class="sxs-lookup"><span data-stu-id="7b818-104">To return information about all of the audio conferencing providers that your organization has contracted with, you can simply call the [Get-CsAudioConferencingProvider](https://technet.microsoft.com/library/jj994030\(v=ocs.15\)) cmdlet without any parameters:</span></span>
 
     Get-CsAudioConferencingProvider
 
-<span data-ttu-id="5f6cf-104">Se você quiser limitar os dados retornados a um único provedor (neste exemplo, os serviços de áudio da Contoso do provedor), use o parâmetro Identity:</span><span class="sxs-lookup"><span data-stu-id="5f6cf-104">If you want to limit the returned data to a single provider (in this example, the provider Contoso Audio Services), then use the Identity parameter:</span></span>
+<span data-ttu-id="7b818-105">Se você quiser limitar os dados retornados a um único provedor (neste exemplo, os serviços de áudio da Contoso do provedor), use o parâmetro Identity:</span><span class="sxs-lookup"><span data-stu-id="7b818-105">If you want to limit the returned data to a single provider (in this example, the provider Contoso Audio Services), then use the Identity parameter:</span></span>
 
     Get-CsAudioConferencingProvider -Identity "Contoso Audio Services"
 
-<span data-ttu-id="5f6cf-105">Há apenas um cmdlet do Skype for Business online que aceita uma ID de provedor de audioconferência:</span><span class="sxs-lookup"><span data-stu-id="5f6cf-105">There is only one Skype for Business Online cmdlet that accepts an audio conferencing provider ID:</span></span>
+<span data-ttu-id="7b818-106">Há apenas um cmdlet do Skype for Business online que aceita uma ID de provedor de audioconferência:</span><span class="sxs-lookup"><span data-stu-id="7b818-106">There is only one Skype for Business Online cmdlet that accepts an audio conferencing provider ID:</span></span>
 
-  - <span data-ttu-id="5f6cf-106">[Get-CsAudioConferencingProvider](https://technet.microsoft.com/library/jj994030\(v=ocs.15\))</span><span class="sxs-lookup"><span data-stu-id="5f6cf-106">[Get-CsAudioConferencingProvider](https://technet.microsoft.com/library/jj994030\(v=ocs.15\))</span></span>
+  - <span data-ttu-id="7b818-107">[Get-CsAudioConferencingProvider](https://technet.microsoft.com/library/jj994030\(v=ocs.15\))</span><span class="sxs-lookup"><span data-stu-id="7b818-107">[Get-CsAudioConferencingProvider](https://technet.microsoft.com/library/jj994030\(v=ocs.15\))</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="5f6cf-107">Confira também</span><span class="sxs-lookup"><span data-stu-id="5f6cf-107">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="7b818-108">Confira também</span><span class="sxs-lookup"><span data-stu-id="7b818-108">See Also</span></span>
 
 
-[<span data-ttu-id="5f6cf-108">Identidades, escopos e locatários no Skype for Business Online</span><span class="sxs-lookup"><span data-stu-id="5f6cf-108">Identities, scopes, and tenants in Skype for Business Online</span></span>](identities-scopes-and-tenants-in-skype-for-business-online.md)  
-<span data-ttu-id="5f6cf-109">[Cmdlets do Skype for Business Online](https://technet.microsoft.com/library/dn362817\(v=ocs.15\))</span><span class="sxs-lookup"><span data-stu-id="5f6cf-109">[The Skype for Business Online cmdlets](https://technet.microsoft.com/library/dn362817\(v=ocs.15\))</span></span>
+[<span data-ttu-id="7b818-109">Identidades, escopos e locatários no Skype for Business Online</span><span class="sxs-lookup"><span data-stu-id="7b818-109">Identities, scopes, and tenants in Skype for Business Online</span></span>](identities-scopes-and-tenants-in-skype-for-business-online.md)  
+<span data-ttu-id="7b818-110">[Cmdlets do Skype for Business Online](https://technet.microsoft.com/library/dn362817\(v=ocs.15\))</span><span class="sxs-lookup"><span data-stu-id="7b818-110">[The Skype for Business Online cmdlets](https://technet.microsoft.com/library/dn362817\(v=ocs.15\))</span></span>
 
