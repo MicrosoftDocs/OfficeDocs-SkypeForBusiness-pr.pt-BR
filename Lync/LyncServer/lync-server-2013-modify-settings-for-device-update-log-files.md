@@ -12,20 +12,22 @@ ms:contentKeyID: 48184975
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 112f9e5a90e0b7b73acc40c6c7ec9d68b256d45d
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 2118cac5e8380d27e8f273f5cb469efdbddfd9bd
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42184904"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48534328"
 ---
+# <a name="modify-settings-for-device-update-log-files-in-lync-server-2013"></a><span data-ttu-id="2343f-102">Modificar configurações para arquivos de log de atualização de dispositivo no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2343f-102">Modify settings for Device Update log files in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="modify-settings-for-device-update-log-files-in-lync-server-2013"></a><span data-ttu-id="6517c-102">Modificar configurações para arquivos de log de atualização de dispositivo no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="6517c-102">Modify settings for Device Update log files in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,11 +37,11 @@ ms.locfileid: "42184904"
 
 <span> </span>
 
-<span data-ttu-id="6517c-103">_**Última modificação do tópico:** 2013-02-23_</span><span class="sxs-lookup"><span data-stu-id="6517c-103">_**Topic Last Modified:** 2013-02-23_</span></span>
+<span data-ttu-id="2343f-103">_**Última modificação do tópico:** 2013-02-23_</span><span class="sxs-lookup"><span data-stu-id="2343f-103">_**Topic Last Modified:** 2013-02-23_</span></span>
 
-<span data-ttu-id="6517c-104">Você pode alterar as configurações de como as informações de atualização de dispositivo são registradas em sua organização usando o painel de controle do Lync Server ou o Shell de gerenciamento do Lync Server.</span><span class="sxs-lookup"><span data-stu-id="6517c-104">You can change settings for how device update information is logged in your organization by using Lync Server Control Panel or Lync Server Management Shell.</span></span> <span data-ttu-id="6517c-105">A tabela a seguir mostra quais configurações podem ser modificadas e quais ferramentas você usa para modificar as configurações.</span><span class="sxs-lookup"><span data-stu-id="6517c-105">The following table shows which settings are modifiable, and which tool(s) you use to modify the settings.</span></span>
+<span data-ttu-id="2343f-104">Você pode alterar as configurações de como as informações de atualização de dispositivo são registradas em sua organização usando o painel de controle do Lync Server ou o Shell de gerenciamento do Lync Server.</span><span class="sxs-lookup"><span data-stu-id="2343f-104">You can change settings for how device update information is logged in your organization by using Lync Server Control Panel or Lync Server Management Shell.</span></span> <span data-ttu-id="2343f-105">A tabela a seguir mostra quais configurações podem ser modificadas e quais ferramentas você usa para modificar as configurações.</span><span class="sxs-lookup"><span data-stu-id="2343f-105">The following table shows which settings are modifiable, and which tool(s) you use to modify the settings.</span></span>
 
-<span data-ttu-id="6517c-106">As configurações de log podem ser alteradas e aplicadas globalmente, ou por site.</span><span class="sxs-lookup"><span data-stu-id="6517c-106">Log settings can be changed and applied globally, or per site.</span></span>
+<span data-ttu-id="2343f-106">As configurações de log podem ser alteradas e aplicadas globalmente, ou por site.</span><span class="sxs-lookup"><span data-stu-id="2343f-106">Log settings can be changed and applied globally, or per site.</span></span>
 
 
 <table>
@@ -49,46 +51,46 @@ ms.locfileid: "42184904"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="6517c-107">Para alterar</span><span class="sxs-lookup"><span data-stu-id="6517c-107">To change</span></span></th>
-<th><span data-ttu-id="6517c-108">Usar</span><span class="sxs-lookup"><span data-stu-id="6517c-108">Use</span></span></th>
+<th><span data-ttu-id="2343f-107">Para alterar</span><span class="sxs-lookup"><span data-stu-id="2343f-107">To change</span></span></th>
+<th><span data-ttu-id="2343f-108">Usar</span><span class="sxs-lookup"><span data-stu-id="2343f-108">Use</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="6517c-109">O tamanho máximo (em bytes) para um arquivo de log</span><span class="sxs-lookup"><span data-stu-id="6517c-109">The maximum size (in bytes) for a log file</span></span></p></td>
-<td><p><span data-ttu-id="6517c-110">Painel de controle do Lync Server</span><span class="sxs-lookup"><span data-stu-id="6517c-110">Lync Server Control Panel</span></span></p>
-<p><span data-ttu-id="6517c-111">- ou -</span><span class="sxs-lookup"><span data-stu-id="6517c-111">-or-</span></span></p>
-<p><span data-ttu-id="6517c-112">Shell de Gerenciamento do Lync Server</span><span class="sxs-lookup"><span data-stu-id="6517c-112">Lync Server Management Shell</span></span></p></td>
+<td><p><span data-ttu-id="2343f-109">O tamanho máximo (em bytes) para um arquivo de log</span><span class="sxs-lookup"><span data-stu-id="2343f-109">The maximum size (in bytes) for a log file</span></span></p></td>
+<td><p><span data-ttu-id="2343f-110">Painel de controle do Lync Server</span><span class="sxs-lookup"><span data-stu-id="2343f-110">Lync Server Control Panel</span></span></p>
+<p><span data-ttu-id="2343f-111">-ou-</span><span class="sxs-lookup"><span data-stu-id="2343f-111">-or-</span></span></p>
+<p><span data-ttu-id="2343f-112">Shell de Gerenciamento do Lync Server</span><span class="sxs-lookup"><span data-stu-id="2343f-112">Lync Server Management Shell</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="6517c-113">A quantidade máxima de informações (em bytes) que podem ser mantidas no cache</span><span class="sxs-lookup"><span data-stu-id="6517c-113">The maximum amount of information (in bytes) that can be held in the cache</span></span></p></td>
-<td><p><span data-ttu-id="6517c-114">Painel de controle do Lync Server</span><span class="sxs-lookup"><span data-stu-id="6517c-114">Lync Server Control Panel</span></span></p>
-<p><span data-ttu-id="6517c-115">- ou -</span><span class="sxs-lookup"><span data-stu-id="6517c-115">-or-</span></span></p>
-<p><span data-ttu-id="6517c-116">Shell de Gerenciamento do Lync Server</span><span class="sxs-lookup"><span data-stu-id="6517c-116">Lync Server Management Shell</span></span></p></td>
+<td><p><span data-ttu-id="2343f-113">A quantidade máxima de informações (em bytes) que podem ser mantidas no cache</span><span class="sxs-lookup"><span data-stu-id="2343f-113">The maximum amount of information (in bytes) that can be held in the cache</span></span></p></td>
+<td><p><span data-ttu-id="2343f-114">Painel de controle do Lync Server</span><span class="sxs-lookup"><span data-stu-id="2343f-114">Lync Server Control Panel</span></span></p>
+<p><span data-ttu-id="2343f-115">-ou-</span><span class="sxs-lookup"><span data-stu-id="2343f-115">-or-</span></span></p>
+<p><span data-ttu-id="2343f-116">Shell de Gerenciamento do Lync Server</span><span class="sxs-lookup"><span data-stu-id="2343f-116">Lync Server Management Shell</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="6517c-117">Frequência (em minutos) de gravação de informações armazenadas em cache no arquivo de log</span><span class="sxs-lookup"><span data-stu-id="6517c-117">How often (in minutes) to write cached information to the log file</span></span></p></td>
-<td><p><span data-ttu-id="6517c-118">Painel de controle do Lync Server</span><span class="sxs-lookup"><span data-stu-id="6517c-118">Lync Server Control Panel</span></span></p>
-<p><span data-ttu-id="6517c-119">- ou -</span><span class="sxs-lookup"><span data-stu-id="6517c-119">-or-</span></span></p>
-<p><span data-ttu-id="6517c-120">Shell de Gerenciamento do Lync Server</span><span class="sxs-lookup"><span data-stu-id="6517c-120">Lync Server Management Shell</span></span></p></td>
+<td><p><span data-ttu-id="2343f-117">Frequência (em minutos) de gravação de informações armazenadas em cache no arquivo de log</span><span class="sxs-lookup"><span data-stu-id="2343f-117">How often (in minutes) to write cached information to the log file</span></span></p></td>
+<td><p><span data-ttu-id="2343f-118">Painel de controle do Lync Server</span><span class="sxs-lookup"><span data-stu-id="2343f-118">Lync Server Control Panel</span></span></p>
+<p><span data-ttu-id="2343f-119">-ou-</span><span class="sxs-lookup"><span data-stu-id="2343f-119">-or-</span></span></p>
+<p><span data-ttu-id="2343f-120">Shell de Gerenciamento do Lync Server</span><span class="sxs-lookup"><span data-stu-id="2343f-120">Lync Server Management Shell</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="6517c-121">Quanto tempo (em dias) para manter os arquivos de log</span><span class="sxs-lookup"><span data-stu-id="6517c-121">How long (in days) to keep log files</span></span></p></td>
-<td><p><span data-ttu-id="6517c-122">Painel de controle do Lync Server</span><span class="sxs-lookup"><span data-stu-id="6517c-122">Lync Server Control Panel</span></span></p>
-<p><span data-ttu-id="6517c-123">- ou -</span><span class="sxs-lookup"><span data-stu-id="6517c-123">-or-</span></span></p>
-<p><span data-ttu-id="6517c-124">Shell de Gerenciamento do Lync Server</span><span class="sxs-lookup"><span data-stu-id="6517c-124">Lync Server Management Shell</span></span></p></td>
+<td><p><span data-ttu-id="2343f-121">Quanto tempo (em dias) para manter os arquivos de log</span><span class="sxs-lookup"><span data-stu-id="2343f-121">How long (in days) to keep log files</span></span></p></td>
+<td><p><span data-ttu-id="2343f-122">Painel de controle do Lync Server</span><span class="sxs-lookup"><span data-stu-id="2343f-122">Lync Server Control Panel</span></span></p>
+<p><span data-ttu-id="2343f-123">-ou-</span><span class="sxs-lookup"><span data-stu-id="2343f-123">-or-</span></span></p>
+<p><span data-ttu-id="2343f-124">Shell de Gerenciamento do Lync Server</span><span class="sxs-lookup"><span data-stu-id="2343f-124">Lync Server Management Shell</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="6517c-125">Quando (hora do dia) para verificar se há arquivos expirados que devem ser excluídos</span><span class="sxs-lookup"><span data-stu-id="6517c-125">When (time of day) to check for expired files that should be deleted</span></span></p></td>
-<td><p><span data-ttu-id="6517c-126">Shell de Gerenciamento do Lync Server</span><span class="sxs-lookup"><span data-stu-id="6517c-126">Lync Server Management Shell</span></span></p></td>
+<td><p><span data-ttu-id="2343f-125">Quando (hora do dia) para verificar se há arquivos expirados que devem ser excluídos</span><span class="sxs-lookup"><span data-stu-id="2343f-125">When (time of day) to check for expired files that should be deleted</span></span></p></td>
+<td><p><span data-ttu-id="2343f-126">Shell de Gerenciamento do Lync Server</span><span class="sxs-lookup"><span data-stu-id="2343f-126">Lync Server Management Shell</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="6517c-127">Quais extensões de arquivo de log permitir</span><span class="sxs-lookup"><span data-stu-id="6517c-127">What log file extensions to permit</span></span></p></td>
-<td><p><span data-ttu-id="6517c-128">Shell de Gerenciamento do Lync Server</span><span class="sxs-lookup"><span data-stu-id="6517c-128">Lync Server Management Shell</span></span></p></td>
+<td><p><span data-ttu-id="2343f-127">Quais extensões de arquivo de log permitir</span><span class="sxs-lookup"><span data-stu-id="2343f-127">What log file extensions to permit</span></span></p></td>
+<td><p><span data-ttu-id="2343f-128">Shell de Gerenciamento do Lync Server</span><span class="sxs-lookup"><span data-stu-id="2343f-128">Lync Server Management Shell</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="6517c-129">Quais tipos de arquivo de log manter</span><span class="sxs-lookup"><span data-stu-id="6517c-129">Which log file types to retain</span></span></p></td>
-<td><p><span data-ttu-id="6517c-130">Shell de Gerenciamento do Lync Server</span><span class="sxs-lookup"><span data-stu-id="6517c-130">Lync Server Management Shell</span></span></p></td>
+<td><p><span data-ttu-id="2343f-129">Quais tipos de arquivo de log manter</span><span class="sxs-lookup"><span data-stu-id="2343f-129">Which log file types to retain</span></span></p></td>
+<td><p><span data-ttu-id="2343f-130">Shell de Gerenciamento do Lync Server</span><span class="sxs-lookup"><span data-stu-id="2343f-130">Lync Server Management Shell</span></span></p></td>
 </tr>
 </tbody>
 </table>
@@ -96,51 +98,51 @@ ms.locfileid: "42184904"
 
 <div>
 
-## <a name="to-change-logging-settings-by-using-lync-server-control-panel"></a><span data-ttu-id="6517c-131">Para alterar as configurações de log usando o painel de controle do Lync Server</span><span class="sxs-lookup"><span data-stu-id="6517c-131">To change logging settings by using Lync Server Control Panel</span></span>
+## <a name="to-change-logging-settings-by-using-lync-server-control-panel"></a><span data-ttu-id="2343f-131">Para alterar as configurações de log usando o painel de controle do Lync Server</span><span class="sxs-lookup"><span data-stu-id="2343f-131">To change logging settings by using Lync Server Control Panel</span></span>
 
-1.  <span data-ttu-id="6517c-132">Abra uma janela do navegador e insira a URL do Administrador para abrir o Painel de Controle do Lync Server.</span><span class="sxs-lookup"><span data-stu-id="6517c-132">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="6517c-133">Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o painel de controle do Lync Server, consulte [Open Lync server 2013 Administrative Tools](lync-server-2013-open-lync-server-administrative-tools.md).</span><span class="sxs-lookup"><span data-stu-id="6517c-133">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
+1.  <span data-ttu-id="2343f-132">Abra uma janela do navegador e insira a URL do Administrador para abrir o Painel de Controle do Lync Server.</span><span class="sxs-lookup"><span data-stu-id="2343f-132">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="2343f-133">Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o painel de controle do Lync Server, consulte [Open Lync server 2013 Administrative Tools](lync-server-2013-open-lync-server-administrative-tools.md).</span><span class="sxs-lookup"><span data-stu-id="2343f-133">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
 
-2.  <span data-ttu-id="6517c-134">Na barra de navegação à esquerda, clique em **clientes**e em **configuração de log de dispositivo**.</span><span class="sxs-lookup"><span data-stu-id="6517c-134">In the left navigation bar, click **Clients**, and then click **Device Log Configuration**.</span></span>
+2.  <span data-ttu-id="2343f-134">Na barra de navegação à esquerda, clique em **clientes**e em **configuração de log de dispositivo**.</span><span class="sxs-lookup"><span data-stu-id="2343f-134">In the left navigation bar, click **Clients**, and then click **Device Log Configuration**.</span></span>
 
-3.  <span data-ttu-id="6517c-135">Na página **configuração do log do dispositivo** , clique duas vezes na configuração que você deseja alterar.</span><span class="sxs-lookup"><span data-stu-id="6517c-135">On the **Device Log Configuration** page, double-click the configuration that you want to change.</span></span>
+3.  <span data-ttu-id="2343f-135">Na página **configuração do log do dispositivo** , clique duas vezes na configuração que você deseja alterar.</span><span class="sxs-lookup"><span data-stu-id="2343f-135">On the **Device Log Configuration** page, double-click the configuration that you want to change.</span></span>
 
-4.  <span data-ttu-id="6517c-136">Na caixa de diálogo **Editar configuração de log** , altere qualquer uma das seguintes configurações:</span><span class="sxs-lookup"><span data-stu-id="6517c-136">In the **Edit Log Setting** dialog box, change any of the following settings:</span></span>
+4.  <span data-ttu-id="2343f-136">Na caixa de diálogo **Editar configuração de log** , altere qualquer uma das seguintes configurações:</span><span class="sxs-lookup"><span data-stu-id="2343f-136">In the **Edit Log Setting** dialog box, change any of the following settings:</span></span>
     
-      - <span data-ttu-id="6517c-137">**Tamanho máximo de arquivo (bytes)**   especifica o tamanho máximo que um arquivo de log pode se tornar antes de ser removido.</span><span class="sxs-lookup"><span data-stu-id="6517c-137">**Maximum file size (bytes)**   Specifies the maximum size a log file can become before it is purged.</span></span> <span data-ttu-id="6517c-138">O padrão é 1.024.000 bytes (1 MB).</span><span class="sxs-lookup"><span data-stu-id="6517c-138">The default is 1,024,000 bytes (1 MB).</span></span>
+      - <span data-ttu-id="2343f-137">**Tamanho máximo do arquivo (bytes)**     Especifica o tamanho máximo que um arquivo de log pode ser antes de ser removido.</span><span class="sxs-lookup"><span data-stu-id="2343f-137">**Maximum file size (bytes)**   Specifies the maximum size a log file can become before it is purged.</span></span> <span data-ttu-id="2343f-138">O padrão é 1.024.000 bytes (1 MB).</span><span class="sxs-lookup"><span data-stu-id="2343f-138">The default is 1,024,000 bytes (1 MB).</span></span>
     
-      - <span data-ttu-id="6517c-139">**Tamanho máximo de cache (bytes)**   especifica a quantidade máxima de informações (em bytes) que podem ser mantidas no cache de arquivos de log antes que o cache deve ser limpo e os dados são gravados em um arquivo de log.</span><span class="sxs-lookup"><span data-stu-id="6517c-139">**Maximum cache size (bytes)**   Specifies the maximum amount of information (in bytes) that can be held in the log file cache before that cache must be cleared and the data is written to a log file.</span></span> <span data-ttu-id="6517c-140">O padrão é 512.000 bytes (0,5 MB).</span><span class="sxs-lookup"><span data-stu-id="6517c-140">The default is 512,000 bytes (0.5 MB).</span></span>
+      - <span data-ttu-id="2343f-139">**Tamanho máximo do cache (bytes)**     Especifica a quantidade máxima de informações (em bytes) que podem ser mantidas no cache de arquivos de log antes que o cache seja apagado e os dados são gravados em um arquivo de log.</span><span class="sxs-lookup"><span data-stu-id="2343f-139">**Maximum cache size (bytes)**   Specifies the maximum amount of information (in bytes) that can be held in the log file cache before that cache must be cleared and the data is written to a log file.</span></span> <span data-ttu-id="2343f-140">O padrão é 512.000 bytes (0,5 MB).</span><span class="sxs-lookup"><span data-stu-id="2343f-140">The default is 512,000 bytes (0.5 MB).</span></span>
     
-      - <span data-ttu-id="6517c-141">**Número de minutos para liberar o cache (1-60)**   indica a frequência com que as informações armazenadas no cache do arquivo de log são gravadas no arquivo de log real.</span><span class="sxs-lookup"><span data-stu-id="6517c-141">**Number of minutes to flush cache (1-60)**   Indicates how often information stored in the log file cache is written to the actual log file.</span></span> <span data-ttu-id="6517c-142">Depois que os dados são registrados, o cache é limpo.</span><span class="sxs-lookup"><span data-stu-id="6517c-142">After the data is logged, the cache is cleared.</span></span> <span data-ttu-id="6517c-143">O padrão é cinco minutos.</span><span class="sxs-lookup"><span data-stu-id="6517c-143">The default is five minutes.</span></span>
+      - <span data-ttu-id="2343f-141">**Número de minutos para liberar o cache (1-60)**     Indica com que frequência as informações armazenadas no cache de arquivos de log são gravadas no arquivo de log real.</span><span class="sxs-lookup"><span data-stu-id="2343f-141">**Number of minutes to flush cache (1-60)**   Indicates how often information stored in the log file cache is written to the actual log file.</span></span> <span data-ttu-id="2343f-142">Depois que os dados são registrados, o cache é limpo.</span><span class="sxs-lookup"><span data-stu-id="2343f-142">After the data is logged, the cache is cleared.</span></span> <span data-ttu-id="2343f-143">O padrão é cinco minutos.</span><span class="sxs-lookup"><span data-stu-id="2343f-143">The default is five minutes.</span></span>
     
-      - <span data-ttu-id="6517c-144">**Número de dias para manter arquivos de log (1-365)**   especifica o número de dias que os arquivos de log são mantidos antes de serem limpos.</span><span class="sxs-lookup"><span data-stu-id="6517c-144">**Number of days to keep log files (1-365)**   Specifies the number of days the log files are kept before they are purged.</span></span> <span data-ttu-id="6517c-145">O padrão é 10 dias.</span><span class="sxs-lookup"><span data-stu-id="6517c-145">The default is 10 days.</span></span>
+      - <span data-ttu-id="2343f-144">**Número de dias para manter arquivos de log (1-365)**     Especifica o número de dias que os arquivos de log são mantidos antes de serem limpos.</span><span class="sxs-lookup"><span data-stu-id="2343f-144">**Number of days to keep log files (1-365)**   Specifies the number of days the log files are kept before they are purged.</span></span> <span data-ttu-id="2343f-145">O padrão é 10 dias.</span><span class="sxs-lookup"><span data-stu-id="2343f-145">The default is 10 days.</span></span>
 
-5.  <span data-ttu-id="6517c-146">Clique em **Confirmar**.</span><span class="sxs-lookup"><span data-stu-id="6517c-146">Click **Commit**.</span></span>
+5.  <span data-ttu-id="2343f-146">Clique em **Confirmar**.</span><span class="sxs-lookup"><span data-stu-id="2343f-146">Click **Commit**.</span></span>
 
 </div>
 
 <div>
 
-## <a name="changing-logging-settings-by-using-windows-powershell-cmdlets"></a><span data-ttu-id="6517c-147">Alterar as configurações de log usando cmdlets do Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="6517c-147">Changing Logging Settings by Using Windows PowerShell Cmdlets</span></span>
+## <a name="changing-logging-settings-by-using-windows-powershell-cmdlets"></a><span data-ttu-id="2343f-147">Alterar as configurações de log usando cmdlets do Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="2343f-147">Changing Logging Settings by Using Windows PowerShell Cmdlets</span></span>
 
-<span data-ttu-id="6517c-148">As configurações de arquivo de log de atualização de dispositivo podem ser modificadas usando o Windows PowerShell e o cmdlet **set-CsDeviceUpdateConfiguration** .</span><span class="sxs-lookup"><span data-stu-id="6517c-148">Device update log file settings can be modified by using Windows PowerShell and the **Set-CsDeviceUpdateConfiguration** cmdlet.</span></span> <span data-ttu-id="6517c-149">Este cmdlet pode ser executado a partir do Shell de gerenciamento do Lync Server 2013 ou de uma sessão remota do Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="6517c-149">This cmdlet can be run either from the Lync Server 2013 Management Shell or from a remote session of Windows PowerShell.</span></span>
+<span data-ttu-id="2343f-148">As configurações de arquivo de log de atualização de dispositivo podem ser modificadas usando o Windows PowerShell e o cmdlet **set-CsDeviceUpdateConfiguration** .</span><span class="sxs-lookup"><span data-stu-id="2343f-148">Device update log file settings can be modified by using Windows PowerShell and the **Set-CsDeviceUpdateConfiguration** cmdlet.</span></span> <span data-ttu-id="2343f-149">Este cmdlet pode ser executado a partir do Shell de gerenciamento do Lync Server 2013 ou de uma sessão remota do Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="2343f-149">This cmdlet can be run either from the Lync Server 2013 Management Shell or from a remote session of Windows PowerShell.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="6517c-150">Para obter detalhes sobre como usar o Windows PowerShell remoto para se conectar ao Lync Server, consulte o artigo de blog do Lync Server Windows PowerShell "início rápido: Managing Microsoft Lync Server <A href="https://go.microsoft.com/fwlink/p/?linkid=255876">https://go.microsoft.com/fwlink/p/?linkId=255876</A>2010 using Remote PowerShell" em.</span><span class="sxs-lookup"><span data-stu-id="6517c-150">For details about using remote Windows PowerShell to connect to Lync Server, see the Lync Server Windows PowerShell blog article "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" at <A href="https://go.microsoft.com/fwlink/p/?linkid=255876">https://go.microsoft.com/fwlink/p/?linkId=255876</A>.</span></span>
+> <span data-ttu-id="2343f-150">Para obter detalhes sobre como usar o Windows PowerShell remoto para se conectar ao Lync Server, consulte o artigo de blog do Lync Server Windows PowerShell "início rápido: Managing Microsoft Lync Server 2010 using Remote PowerShell" em <A href="https://go.microsoft.com/fwlink/p/?linkid=255876">https://go.microsoft.com/fwlink/p/?linkId=255876</A> .</span><span class="sxs-lookup"><span data-stu-id="2343f-150">For details about using remote Windows PowerShell to connect to Lync Server, see the Lync Server Windows PowerShell blog article "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" at <A href="https://go.microsoft.com/fwlink/p/?linkid=255876">https://go.microsoft.com/fwlink/p/?linkId=255876</A>.</span></span>
 
 
 
 </div>
 
-<span data-ttu-id="6517c-151">Os exemplos a seguir mostram algumas das maneiras que você pode usar **set-CsDeviceUpdateConfiguration** para modificar as configurações.</span><span class="sxs-lookup"><span data-stu-id="6517c-151">The following examples show a couple of the ways that you can use **Set-CsDeviceUpdateConfiguration** to modify settings.</span></span>
+<span data-ttu-id="2343f-151">Os exemplos a seguir mostram algumas das maneiras que você pode usar **set-CsDeviceUpdateConfiguration** para modificar as configurações.</span><span class="sxs-lookup"><span data-stu-id="2343f-151">The following examples show a couple of the ways that you can use **Set-CsDeviceUpdateConfiguration** to modify settings.</span></span>
 
 <div>
 
-## <a name="to-modify-the-maximum-log-file-size-and-the-log-cleanup-interval"></a><span data-ttu-id="6517c-152">Para modificar o tamanho máximo do arquivo de log e o intervalo de limpeza de log</span><span class="sxs-lookup"><span data-stu-id="6517c-152">To modify the maximum log file size and the log cleanup interval</span></span>
+## <a name="to-modify-the-maximum-log-file-size-and-the-log-cleanup-interval"></a><span data-ttu-id="2343f-152">Para modificar o tamanho máximo do arquivo de log e o intervalo de limpeza de log</span><span class="sxs-lookup"><span data-stu-id="2343f-152">To modify the maximum log file size and the log cleanup interval</span></span>
 
-  - <span data-ttu-id="6517c-153">O comando a seguir modifica as configurações de log de atualização de dispositivo aplicadas ao site Redmond.</span><span class="sxs-lookup"><span data-stu-id="6517c-153">The following command modifies the device update log settings applied to the Redmond site.</span></span> <span data-ttu-id="6517c-154">Neste exemplo, o tamanho máximo do arquivo de log é definido como 204800 bytes e o intervalo de limpeza do log é definido como 14 dias.</span><span class="sxs-lookup"><span data-stu-id="6517c-154">In this example, the maximum log file size is set to 204800 bytes and the log cleanup interval is set to 14 days.</span></span>
+  - <span data-ttu-id="2343f-153">O comando a seguir modifica as configurações de log de atualização de dispositivo aplicadas ao site Redmond.</span><span class="sxs-lookup"><span data-stu-id="2343f-153">The following command modifies the device update log settings applied to the Redmond site.</span></span> <span data-ttu-id="2343f-154">Neste exemplo, o tamanho máximo do arquivo de log é definido como 204800 bytes e o intervalo de limpeza do log é definido como 14 dias.</span><span class="sxs-lookup"><span data-stu-id="2343f-154">In this example, the maximum log file size is set to 204800 bytes and the log cleanup interval is set to 14 days.</span></span>
     
         Set-CsDeviceUpdateConfiguration -Identity "site:Redmond" -MaxLogFileSize 204800 -LogCleanUpInterval 14.00:00:00
 
@@ -148,15 +150,15 @@ ms.locfileid: "42184904"
 
 <div>
 
-## <a name="to-modify-the-log-cleanup-time-of-day"></a><span data-ttu-id="6517c-155">Para modificar o horário de limpeza do log do dia</span><span class="sxs-lookup"><span data-stu-id="6517c-155">To modify the log cleanup time of day</span></span>
+## <a name="to-modify-the-log-cleanup-time-of-day"></a><span data-ttu-id="2343f-155">Para modificar o horário de limpeza do log do dia</span><span class="sxs-lookup"><span data-stu-id="2343f-155">To modify the log cleanup time of day</span></span>
 
-  - <span data-ttu-id="6517c-156">Este comando define o tempo de limpeza do log para o site Redmond para 3:00 AM.</span><span class="sxs-lookup"><span data-stu-id="6517c-156">This command sets the log cleanup time for the Redmond site to 3:00 AM.</span></span>
+  - <span data-ttu-id="2343f-156">Este comando define o tempo de limpeza do log para o site Redmond para 3:00 AM.</span><span class="sxs-lookup"><span data-stu-id="2343f-156">This command sets the log cleanup time for the Redmond site to 3:00 AM.</span></span>
     
         Set-CsDeviceUpdateConfiguration -Identity "site:Redmond" -LogCleanupTimeOfDay 03:00
 
 </div>
 
-<span data-ttu-id="6517c-157">Para obter detalhes, consulte o tópico de ajuda para o cmdlet [set-CsDeviceUpdateConfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsDeviceUpdateConfiguration) .</span><span class="sxs-lookup"><span data-stu-id="6517c-157">For details, see the Help topic for the [Set-CsDeviceUpdateConfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsDeviceUpdateConfiguration) cmdlet.</span></span>
+<span data-ttu-id="2343f-157">Para obter detalhes, consulte o tópico de ajuda para o cmdlet [set-CsDeviceUpdateConfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsDeviceUpdateConfiguration) .</span><span class="sxs-lookup"><span data-stu-id="2343f-157">For details, see the Help topic for the [Set-CsDeviceUpdateConfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsDeviceUpdateConfiguration) cmdlet.</span></span>
 
 </div>
 

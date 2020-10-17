@@ -12,20 +12,22 @@ ms:contentKeyID: 48184029
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e63f652749f7349fe5ddad45c9de2479e5699ffd
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 343ce7aa3eebd170fcd115675eeca29ecbdb5fe4
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42184964"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48534398"
 ---
+# <a name="mobility-support-in-lync-server-2013"></a><span data-ttu-id="9be09-102">Suporte à mobilidade no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="9be09-102">Mobility support in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="mobility-support-in-lync-server-2013"></a><span data-ttu-id="052ab-102">Suporte à mobilidade no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="052ab-102">Mobility support in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,19 +37,19 @@ ms.locfileid: "42184964"
 
 <span> </span>
 
-<span data-ttu-id="052ab-103">_**Última modificação do tópico:** 2012-06-29_</span><span class="sxs-lookup"><span data-stu-id="052ab-103">_**Topic Last Modified:** 2012-06-29_</span></span>
+<span data-ttu-id="9be09-103">_**Última modificação do tópico:** 2012-06-29_</span><span class="sxs-lookup"><span data-stu-id="9be09-103">_**Topic Last Modified:** 2012-06-29_</span></span>
 
-<span data-ttu-id="052ab-104">Com o Lync Server 2013 Mobility, os usuários têm acesso à funcionalidade do Lync 2013 em seus dispositivos móveis.</span><span class="sxs-lookup"><span data-stu-id="052ab-104">With Lync Server 2013 mobility, users have access to Lync 2013 functionality on their mobile devices.</span></span> <span data-ttu-id="052ab-105">Os dispositivos móveis suportados incluem os seguintes:</span><span class="sxs-lookup"><span data-stu-id="052ab-105">Supported mobile devices include the following:</span></span>
+<span data-ttu-id="9be09-104">Com o Lync Server 2013 Mobility, os usuários têm acesso à funcionalidade do Lync 2013 em seus dispositivos móveis.</span><span class="sxs-lookup"><span data-stu-id="9be09-104">With Lync Server 2013 mobility, users have access to Lync 2013 functionality on their mobile devices.</span></span> <span data-ttu-id="9be09-105">Os dispositivos móveis suportados incluem os seguintes:</span><span class="sxs-lookup"><span data-stu-id="9be09-105">Supported mobile devices include the following:</span></span>
 
-  - <span data-ttu-id="052ab-106">Dispositivos Apple iOS suportados</span><span class="sxs-lookup"><span data-stu-id="052ab-106">Supported Apple iOS devices</span></span>
+  - <span data-ttu-id="9be09-106">Dispositivos Apple iOS suportados</span><span class="sxs-lookup"><span data-stu-id="9be09-106">Supported Apple iOS devices</span></span>
 
-  - <span data-ttu-id="052ab-107">Windows Phone</span><span class="sxs-lookup"><span data-stu-id="052ab-107">Windows Phone</span></span>
+  - <span data-ttu-id="9be09-107">Windows Phone</span><span class="sxs-lookup"><span data-stu-id="9be09-107">Windows Phone</span></span>
 
-  - <span data-ttu-id="052ab-108">Android</span><span class="sxs-lookup"><span data-stu-id="052ab-108">Android</span></span>
+  - <span data-ttu-id="9be09-108">Android</span><span class="sxs-lookup"><span data-stu-id="9be09-108">Android</span></span>
 
-  - <span data-ttu-id="052ab-109">Nokia</span><span class="sxs-lookup"><span data-stu-id="052ab-109">Nokia</span></span>
+  - <span data-ttu-id="9be09-109">Nokia</span><span class="sxs-lookup"><span data-stu-id="9be09-109">Nokia</span></span>
 
-<span data-ttu-id="052ab-110">Para obter detalhes sobre os recursos e requisitos de mobilidade, consulte [Planning for Mobility in Lync Server 2013](lync-server-2013-planning-for-mobility.md) na documentação de planejamento.</span><span class="sxs-lookup"><span data-stu-id="052ab-110">For details about mobility features and requirements, see [Planning for mobility in Lync Server 2013](lync-server-2013-planning-for-mobility.md) in the Planning documentation.</span></span>
+<span data-ttu-id="9be09-110">Para obter detalhes sobre os recursos e requisitos de mobilidade, consulte [Planning for Mobility in Lync Server 2013](lync-server-2013-planning-for-mobility.md) na documentação de planejamento.</span><span class="sxs-lookup"><span data-stu-id="9be09-110">For details about mobility features and requirements, see [Planning for mobility in Lync Server 2013](lync-server-2013-planning-for-mobility.md) in the Planning documentation.</span></span>
 
 </div>
 

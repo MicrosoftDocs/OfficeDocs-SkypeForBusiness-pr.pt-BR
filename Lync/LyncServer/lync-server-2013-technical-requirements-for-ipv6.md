@@ -12,20 +12,22 @@ ms:contentKeyID: 48185465
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6a5565080f2b5fab0f47cc944f9569f55e8721c4
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 3484dd6ff1404d5d2a4adf77c4ab27a5a29e66b7
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42194884"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48533808"
 ---
+# <a name="technical-requirements-for-ipv6-in-lync-server-2013"></a><span data-ttu-id="d5bac-102">Requisitos técnicos para IPv6 no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d5bac-102">Technical requirements for IPv6 in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="technical-requirements-for-ipv6-in-lync-server-2013"></a><span data-ttu-id="7264f-102">Requisitos técnicos para IPv6 no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="7264f-102">Technical requirements for IPv6 in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,21 +37,21 @@ ms.locfileid: "42194884"
 
 <span> </span>
 
-<span data-ttu-id="7264f-103">_**Última modificação do tópico:** 2012-10-30_</span><span class="sxs-lookup"><span data-stu-id="7264f-103">_**Topic Last Modified:** 2012-10-30_</span></span>
+<span data-ttu-id="d5bac-103">_**Última modificação do tópico:** 2012-10-30_</span><span class="sxs-lookup"><span data-stu-id="d5bac-103">_**Topic Last Modified:** 2012-10-30_</span></span>
 
-<span data-ttu-id="7264f-104">Se você planeja configurar o Lync Server 2013 para IPv6, tenha em mente os seguintes requisitos:</span><span class="sxs-lookup"><span data-stu-id="7264f-104">If you plan to configure Lync Server 2013 for IPv6, keep the following requirements in mind:</span></span>
+<span data-ttu-id="d5bac-104">Se você planeja configurar o Lync Server 2013 para IPv6, tenha em mente os seguintes requisitos:</span><span class="sxs-lookup"><span data-stu-id="d5bac-104">If you plan to configure Lync Server 2013 for IPv6, keep the following requirements in mind:</span></span>
 
-  - <span data-ttu-id="7264f-105">Para usar endereços IPv6 com o Lync Server, você precisa criar registros de DNS (sistema de nomes de domínio) para registros que devem ser descobertos e resolvidos para um endereço IPv6.</span><span class="sxs-lookup"><span data-stu-id="7264f-105">To use IPv6 addresses with Lync Server, you need to create domain name system (DNS) records for records that must be discovered and resolved to an IPv6 address.</span></span> <span data-ttu-id="7264f-106">O DNS IPv6 usa um registros de host AAAA (quad-A).</span><span class="sxs-lookup"><span data-stu-id="7264f-106">IPv6 DNS uses host AAAA (quad-A) records.</span></span> <span data-ttu-id="7264f-107">Se você usar o IPv4 e o IPv6 na sua implantação, é melhor configurar e manter os registros de host A para IPv4 e registros de host AAAA para IPv6.</span><span class="sxs-lookup"><span data-stu-id="7264f-107">If you use both IPv4 and IPv6 in your deployment, it is best to configure and maintain both host A records for IPv4 and host AAAA records for IPv6.</span></span> <span data-ttu-id="7264f-108">Mesmo quando passar totalmente sua implantação para o IPv6, você ainda pode precisar de registros de host DNS IPv4 para usuários externos que ainda usam IPv4.</span><span class="sxs-lookup"><span data-stu-id="7264f-108">Even when you fully transition your deployment to IPv6, you may still require IPv4 DNS host records for external users who still use IPv4.</span></span>
+  - <span data-ttu-id="d5bac-105">Para usar endereços IPv6 com o Lync Server, você precisa criar registros de DNS (sistema de nomes de domínio) para registros que devem ser descobertos e resolvidos para um endereço IPv6.</span><span class="sxs-lookup"><span data-stu-id="d5bac-105">To use IPv6 addresses with Lync Server, you need to create domain name system (DNS) records for records that must be discovered and resolved to an IPv6 address.</span></span> <span data-ttu-id="d5bac-106">O DNS IPv6 usa um registros de host AAAA (quad-A).</span><span class="sxs-lookup"><span data-stu-id="d5bac-106">IPv6 DNS uses host AAAA (quad-A) records.</span></span> <span data-ttu-id="d5bac-107">Se você usar o IPv4 e o IPv6 na sua implantação, é melhor configurar e manter os registros de host A para IPv4 e registros de host AAAA para IPv6.</span><span class="sxs-lookup"><span data-stu-id="d5bac-107">If you use both IPv4 and IPv6 in your deployment, it is best to configure and maintain both host A records for IPv4 and host AAAA records for IPv6.</span></span> <span data-ttu-id="d5bac-108">Mesmo quando passar totalmente sua implantação para o IPv6, você ainda pode precisar de registros de host DNS IPv4 para usuários externos que ainda usam IPv4.</span><span class="sxs-lookup"><span data-stu-id="d5bac-108">Even when you fully transition your deployment to IPv6, you may still require IPv4 DNS host records for external users who still use IPv4.</span></span>
     
-    <span data-ttu-id="7264f-109">É possível implantar registros de host DNS IPv6 antes de iniciar a usar o IPv6.</span><span class="sxs-lookup"><span data-stu-id="7264f-109">You can deploy IPv6 DNS host records before you start using IPv6.</span></span> <span data-ttu-id="7264f-110">Se o cliente ou servidor não usar IPv6, o registro não será referenciado.</span><span class="sxs-lookup"><span data-stu-id="7264f-110">If the client or server doesn't use IPv6, the record will not be referenced.</span></span> <span data-ttu-id="7264f-111">As tecnologias transicionais tomarão a decisão sobre qual registro usar, com base na configuração de tecnologia de transição e políticas.</span><span class="sxs-lookup"><span data-stu-id="7264f-111">Transitional technologies will make the decision about which record to use, based on transition technology configuration and policies.</span></span>
+    <span data-ttu-id="d5bac-109">É possível implantar registros de host DNS IPv6 antes de iniciar a usar o IPv6.</span><span class="sxs-lookup"><span data-stu-id="d5bac-109">You can deploy IPv6 DNS host records before you start using IPv6.</span></span> <span data-ttu-id="d5bac-110">Se o cliente ou servidor não usar IPv6, o registro não será referenciado.</span><span class="sxs-lookup"><span data-stu-id="d5bac-110">If the client or server doesn't use IPv6, the record will not be referenced.</span></span> <span data-ttu-id="d5bac-111">As tecnologias transicionais tomarão a decisão sobre qual registro usar, com base na configuração de tecnologia de transição e políticas.</span><span class="sxs-lookup"><span data-stu-id="d5bac-111">Transitional technologies will make the decision about which record to use, based on transition technology configuration and policies.</span></span>
 
-  - <span data-ttu-id="7264f-112">Cada endereço IPv6 possui um escopo.</span><span class="sxs-lookup"><span data-stu-id="7264f-112">Each IPv6 address has a scope.</span></span> <span data-ttu-id="7264f-113">Os três escopos que você pode usar para o endereçamento IPv6 são endereços globais IPv6 (semelhantes aos endereços IPv4 públicos), endereços locais exclusivos IPv6 (semelhantes aos intervalos de endereços IPv4 privados) e endereços de link local IPv6 (semelhante aos endereços IP privados automáticos no Servidor do Windows para IPv4).</span><span class="sxs-lookup"><span data-stu-id="7264f-113">The three scopes that you can use for IPv6 addressing are IPv6 global addresses (similar to public IPv4 addresses), IPv6 unique local addresses (similar to the private IPv4 address ranges), and IPv6 link-local addresses (similar to automatic private IP addresses in Windows Server for IPv4).</span></span> <span data-ttu-id="7264f-114">Todos os servidores em um pool devem ter endereços IPv6 com o mesmo escopo.</span><span class="sxs-lookup"><span data-stu-id="7264f-114">All the servers within a pool should have IPv6 addresses with the same scope.</span></span>
+  - <span data-ttu-id="d5bac-112">Cada endereço IPv6 possui um escopo.</span><span class="sxs-lookup"><span data-stu-id="d5bac-112">Each IPv6 address has a scope.</span></span> <span data-ttu-id="d5bac-113">Os três escopos que você pode usar para o endereçamento IPv6 são endereços globais IPv6 (semelhantes aos endereços IPv4 públicos), endereços locais exclusivos IPv6 (semelhantes aos intervalos de endereços IPv4 privados) e endereços de link local IPv6 (semelhante aos endereços IP privados automáticos no Windows Server para IPv4).</span><span class="sxs-lookup"><span data-stu-id="d5bac-113">The three scopes that you can use for IPv6 addressing are IPv6 global addresses (similar to public IPv4 addresses), IPv6 unique local addresses (similar to the private IPv4 address ranges), and IPv6 link-local addresses (similar to automatic private IP addresses in Windows Server for IPv4).</span></span> <span data-ttu-id="d5bac-114">Todos os servidores em um pool devem ter endereços IPv6 com o mesmo escopo.</span><span class="sxs-lookup"><span data-stu-id="d5bac-114">All the servers within a pool should have IPv6 addresses with the same scope.</span></span>
 
 <div>
 
 
 > [!IMPORTANT]  
-> <span data-ttu-id="7264f-115">O IPv6 é um tópico complexo e requer um planejamento cuidadoso com sua equipe de rede e seu provedor de Internet para ajudar a garantir que os endereços que você atribui no nível do servidor do Windows e no nível do Lync Server 2013 funcione conforme o esperado.</span><span class="sxs-lookup"><span data-stu-id="7264f-115">IPv6 is a complex topic and requires careful planning with your networking team and your Internet provider to help ensure that the addresses that you assign at the Windows Server level and at the Lync Server 2013 level work as expected.</span></span> <span data-ttu-id="7264f-116">Consulte os links no final deste tópico para obter recursos adicionais sobre o endereço IPv6 e planejamento.</span><span class="sxs-lookup"><span data-stu-id="7264f-116">See the links at the end of this topic for additional resources on IPv6 addressing and planning.</span></span>
+> <span data-ttu-id="d5bac-115">O IPv6 é um tópico complexo e requer um planejamento cuidadoso com sua equipe de rede e seu provedor de Internet para ajudar a garantir que os endereços que você atribui no nível do servidor do Windows e no nível do Lync Server 2013 funcione conforme o esperado.</span><span class="sxs-lookup"><span data-stu-id="d5bac-115">IPv6 is a complex topic and requires careful planning with your networking team and your Internet provider to help ensure that the addresses that you assign at the Windows Server level and at the Lync Server 2013 level work as expected.</span></span> <span data-ttu-id="d5bac-116">Consulte os links no final deste tópico para obter recursos adicionais sobre o endereço IPv6 e planejamento.</span><span class="sxs-lookup"><span data-stu-id="d5bac-116">See the links at the end of this topic for additional resources on IPv6 addressing and planning.</span></span>
 
 
 
@@ -57,12 +59,12 @@ ms.locfileid: "42194884"
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="7264f-117">Confira também</span><span class="sxs-lookup"><span data-stu-id="7264f-117">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="d5bac-117">Confira também</span><span class="sxs-lookup"><span data-stu-id="d5bac-117">See Also</span></span>
 
 
-[<span data-ttu-id="7264f-118">Arquitetura de endereçamento de IP versão 6</span><span class="sxs-lookup"><span data-stu-id="7264f-118">IP Version 6 Addressing Architecture</span></span>](https://tools.ietf.org/html/rfc4291)  
-[<span data-ttu-id="7264f-119">Formato de endereço de unicast global IPv6</span><span class="sxs-lookup"><span data-stu-id="7264f-119">IPv6 Global Unicast Address Format</span></span>](https://tools.ietf.org/html/rfc3587)  
-[<span data-ttu-id="7264f-120">Endereços exclusivos de unicast IPv6 locais</span><span class="sxs-lookup"><span data-stu-id="7264f-120">Unique Local IPv6 Unicast Addresses</span></span>](https://tools.ietf.org/html/rfc4193)  
+[<span data-ttu-id="d5bac-118">Arquitetura de endereçamento de IP versão 6</span><span class="sxs-lookup"><span data-stu-id="d5bac-118">IP Version 6 Addressing Architecture</span></span>](https://tools.ietf.org/html/rfc4291)  
+[<span data-ttu-id="d5bac-119">Formato de endereço de unicast global IPv6</span><span class="sxs-lookup"><span data-stu-id="d5bac-119">IPv6 Global Unicast Address Format</span></span>](https://tools.ietf.org/html/rfc3587)  
+[<span data-ttu-id="d5bac-120">Endereços exclusivos de unicast IPv6 locais</span><span class="sxs-lookup"><span data-stu-id="d5bac-120">Unique Local IPv6 Unicast Addresses</span></span>](https://tools.ietf.org/html/rfc4193)  
   
 
 </div>
