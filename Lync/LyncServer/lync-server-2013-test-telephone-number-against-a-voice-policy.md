@@ -12,20 +12,22 @@ ms:contentKeyID: 63969596
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d22c801c7d08c3df663f69df07a6c73a5f17f858
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: f2ac10938dbbc2810e5b43aae85711bf8413ad27
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42194515"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48519158"
 ---
+# <a name="test-telephone-number-against-a-voice-policy-in-lync-server-2013"></a>Testar número de telefone em uma política de voz no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="test-telephone-number-against-a-voice-policy-in-lync-server-2013"></a>Testar número de telefone em uma política de voz no Lync Server 2013
+
 
 </div>
 
@@ -76,7 +78,7 @@ A capacidade de usuários do Enterprise Voice de fazer chamadas telefônicas de 
 
 O uso do PSTN é especialmente importante: é a propriedade que conecta uma política de voz a uma rota de voz. (Uma política de voz e uma rota de voz são consideradas conectadas se tiverem pelo menos um uso de PSTN em comum). As políticas de voz podem ser configuradas sem a especificação de um uso de PSTN. Nesse caso, os usuários que receberam essa política não poderão fazer chamadas de saída na rede PSTN. Da mesma forma, as rotas de voz que não têm pelo menos um uso PSTN especificado não poderão rotear as chamadas para a rede PSTN.
 
-O cmdlet Test-CsVoicePolicy verifica se uma determinada política de voz tem um uso de PSTN e se o uso é compartilhado por pelo menos uma rota de voz. Se a verificação executada por Test-CsVoicePolicy tiver êxito, o cmdlet relatará o nome da primeira rota de voz válida que encontrará e também o nome do uso de PSTN que conecta a política à rota.
+O cmdlet Test-CsVoicePolicy verifica se uma determinada política de voz tem um uso de PSTN e se o uso é compartilhado por pelo menos uma rota de voz. Se a verificação for executada por Test-CsVoicePolicy tiver êxito, o cmdlet relatará o nome da primeira rota de voz válida que encontrará e também o nome do uso de PSTN que conecta a política à rota.
 
 </div>
 
@@ -84,7 +86,7 @@ O cmdlet Test-CsVoicePolicy verifica se uma determinada política de voz tem um 
 
 ## <a name="running-the-test"></a>Executar o teste
 
-Para executar o cmdlet Test-CsVoicePolicy, primeiro você deve usar o cmdlet Get-CsVoicePolicy recuperar uma instância da política de voz a ser testada; essa instância deve então ser canalizada para Test-CsVoicePolicy. Por exemplo:
+Para executar o cmdlet Test-CsVoicePolicy você deve primeiro usar o cmdlet Get-CsVoicePolicy recuperar uma instância da política de voz a ser testada; essa instância deve então ser canalizada para Test-CsVoicePolicy. Por exemplo:
 
 `Get-CsVoicePolicy -Identity "Global" | Test-CsVoicePolicy -TargetNumber "+12065551219"`
 

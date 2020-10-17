@@ -12,20 +12,22 @@ ms:contentKeyID: 63969638
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f3536e7bc95aced3a8bd68cab15b8994aa9e697c
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: c7c599e2199a605b4d24a79c450d7abe2bd4473c
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42194544"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48519218"
 ---
+# <a name="test-mobile-users-ability-to-exchange-instant-messages-in-lync-server-2013"></a>Testar a capacidade dos usuários móveis de trocar mensagens instantâneas no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="test-mobile-users-ability-to-exchange-instant-messages-in-lync-server-2013"></a>Testar a capacidade dos usuários móveis de trocar mensagens instantâneas no Lync Server 2013
+
 
 </div>
 
@@ -74,7 +76,7 @@ O serviço de mobilidade permite que os usuários de dispositivos móveis façam
 
 3.  Aproveite os recursos do Lync Server, como ligar via trabalho e conferência discada.
 
-O cmdlet Test-CsMxcP2PIM fornece uma maneira rápida e fácil de verificar se os usuários podem usar o serviço de mobilidade para trocar mensagens instantâneas.
+O cmdlet Test-CsMxcP2PIM oferece uma maneira rápida e fácil de verificar se os usuários podem usar o serviço de mobilidade para trocar mensagens instantâneas.
 
 </div>
 
@@ -97,11 +99,11 @@ Para obter mais informações, consulte o tópico de ajuda para o cmdlet [Test-C
 
 ## <a name="determining-success-or-failure"></a>Determinando o sucesso ou a falha
 
-Se os dois usuários de teste puderem trocar mensagens instantâneas usando o serviço de mobilidade, Test-CsMcxP2PIM retornará o resultado de teste Success:
+Se os dois usuários de teste puderem trocar mensagens instantâneas usando o serviço de mobilidade, Test-CsMcxP2PIM retornará o êxito do resultado do teste:
 
 FQDN de destino: atl-cs-001.litwareinc.com
 
-URI de destino:http://atl-cs-001.litwareinc.com:443/mcx
+URI de destino: http://atl-cs-001.litwareinc.com:443/mcx
 
 Resultado: êxito
 
@@ -115,13 +117,13 @@ Se o teste falhar, o resultado será definido como Failure e uma mensagem de err
 
 FQDN de destino: atl-cs-001.litwareinc.com
 
-URI de destino:https://atl-cs-001.litwareinc.com:443/mcx
+URI de destino: https://atl-cs-001.litwareinc.com:443/mcx
 
 Resultado: falha
 
 Latência: 00:00:00
 
-Mensagem de erro: nenhuma resposta recebida para o serviço de tíquete da Web.
+Mensagem de erro: nenhuma resposta recebida para o serviço de Web-Ticket.
 
 Exceção interna: a solicitação HHTP não é autorizada com
 
@@ -139,13 +141,13 @@ Diagnóstico interno: X-MS-Server-Fqdb: ATL-cs-
 
 001.litwareinc.com
 
-Cache-Control: Private
+Cache-Control: privada
 
 Content-Type: text/html; charset = utf-8.
 
 Servidor: Microsoft-IIS/8.5
 
-WWW-Authenticate: Negotiate, NTLM
+WWW-Authenticate: negociar, NTLM
 
 X-powered-by: ASP.NET
 
@@ -175,7 +177,7 @@ Você também deve verificar se o usuário está habilitado para mobilidade. Par
 
     Get-CsUser -Identity "sip:kenmyer@litwareinc.com" | Select-Object MobilityPolicy
 
-Depois de saber o nome da política, use o cmdlet Get-CsMobilityPolicy para verificar se a política em questão (por exemplo, Edmondmobilitypolicy) tem a propriedade EnableMobility definida como true:
+Após saber o nome da política, use o cmdlet Get-CsMobilityPolicy para verificar se a política em questão (por exemplo, Edmondmobilitypolicy) tem a propriedade EnableMobility definida como true:
 
     Get-CsMobilityPolicy -Identity "RedmondMobilityPolicy"
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 48184253
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fc8ea4abd3608863dea1bf914f5d89cc0ad43fae
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 6103c6cd8ae762402a94412a56eda107f43a58fd
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42210957"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48518198"
 ---
+# <a name="whats-new-for-clients-in-lync-server-2013"></a>O que há de novo para clientes no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="whats-new-for-clients-in-lync-server-2013"></a>O que há de novo para clientes no Lync Server 2013
+
 
 </div>
 
@@ -43,7 +45,7 @@ O Microsoft Lync 2013 tem uma interface do usuário reprojetada e novos recursos
 
 
 > [!NOTE]  
-> Para obter uma visão ilustrada das atualizações da interface de usuário do Lync 2013, consulte "What ' s <A href="https://go.microsoft.com/fwlink/?linkid=273885">https://go.microsoft.com/fwlink/?LinkId=273885</A>New in Lync 2013" em.
+> Para obter uma visão ilustrada das atualizações da interface de usuário do Lync 2013, consulte "What ' s New in Lync 2013" em <A href="https://go.microsoft.com/fwlink/?linkid=273885">https://go.microsoft.com/fwlink/?LinkId=273885</A> .
 
 
 
@@ -81,7 +83,7 @@ Para obter detalhes, consulte [Deploying Lync clients in Lync Server 2013](lync-
 
 ## <a name="group-policy-deployment"></a>Implantação da Política de Grupo
 
-Como o Lync 2013 agora está incluído na instalação do Office, o método para implantar as configurações da política de grupo do Lync foi alterado. Nas versões anteriores do Lync e do Office Communicator, você poderia usar o Communicator. ADM para definir as configurações de política de grupo, enquanto no Lync 2013 agora você pode usar os modelos administrativos do Lync ADMX e ADML que são fornecidos junto com a política de grupo do Office Modelos administrativos.
+Como o Lync 2013 agora está incluído na instalação do Office, o método para implantar as configurações da política de grupo do Lync foi alterado. Nas versões anteriores do Lync e do Office Communicator, você poderia usar o Communicator. ADM para definir as configurações de política de grupo, enquanto no Lync 2013, agora você pode usar os modelos administrativos do Lync ADMX e ADML fornecidos junto com os modelos administrativos da política de grupo do Office.
 
 Para obter detalhes, consulte [configurações de política de grupo para o Lync 2013](lync-server-2013-group-policy-settings-for-lync-2013.md).
 

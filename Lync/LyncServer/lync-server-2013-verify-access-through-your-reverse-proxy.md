@@ -12,20 +12,22 @@ ms:contentKeyID: 48183753
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8f7d061daedcdfabf4636c78a3a6a8bbe601903a
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 8b8c8e4c92f0cdb9eb1b7070735882b43a308080
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42211797"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48518708"
 ---
+# <a name="verify-access-through-your-reverse-proxy-in-lync-server-2013"></a>Verificar o acesso por meio de seu proxy reverso no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="verify-access-through-your-reverse-proxy-in-lync-server-2013"></a>Verificar o acesso por meio de seu proxy reverso no Lync Server 2013
+
 
 </div>
 
@@ -45,15 +47,15 @@ Execute o procedimento a seguir para verificar se os usuários podem acessar inf
 
   - Abra um navegador da Web e, na barra **Endereço**, digite as URLs que são usadas pelos clientes para acessar os arquivos do Catálogo de Endereços e o site de Webconferências da seguinte forma:
     
-      - Para o servidor de catálogo de endereços, digite uma URL semelhante à **https://externalwebfarmFQDN/abs** seguinte: onde externalwebfarmFQDN é o FQDN externo dos serviços Web externos que hospeda os serviços de catálogo de endereços. O usuário deve receber um desafio HTTP, pois a segurança do diretório na pasta do Servidor de Catálogo de Endereço está configurada para autenticação do Windows por padrão.
+      - Para o servidor de catálogo de endereços, digite uma URL semelhante à seguinte: **https://externalwebfarmFQDN/abs** onde externalwebfarmFQDN é o FQDN externo dos serviços Web externos que hospeda os serviços de catálogo de endereços. O usuário deve receber um desafio HTTP, pois a segurança do diretório na pasta do Servidor de Catálogo de Endereço está configurada para autenticação do Windows por padrão.
     
-      - Para conferência, digite uma URL semelhante à seguinte: **https://externalwebfarmFQDN/meet** onde externalwebfarmFQDN é o FQDN externo do farm da Web que hospeda o conteúdo da reunião. Essa URL deve exibir a página de solução de problemas para conferência. Em alternativa, confirme que sua URL Simples para conferência funcione corretamente. Um exemplo de URL simples para a junção de conferência pode serhttps://meet.contoso.com
+      - Para conferência, digite uma URL semelhante à seguinte: **https://externalwebfarmFQDN/meet** onde externalwebfarmFQDN é o FQDN externo do farm da Web que hospeda o conteúdo da reunião. Essa URL deve exibir a página de solução de problemas para conferência. Em alternativa, confirme que sua URL Simples para conferência funcione corretamente. Um exemplo de URL simples para a junção de conferência pode ser https://meet.contoso.com
     
-      - Para expansão de grupo de distribuição, digite uma URL semelhante à seguinte **https://externalwebfarmFQDN/GroupExpansion/service.svc**:. O usuário deve receber um desafio HTTP, pois a segurança do diretório no serviço de expansão do grupo de distribuição está configurada para autenticação do Windows por padrão.
+      - Para expansão de grupo de distribuição, digite uma URL semelhante à seguinte: **https://externalwebfarmFQDN/GroupExpansion/service.svc** . O usuário deve receber um desafio HTTP, pois a segurança do diretório no serviço de expansão do grupo de distribuição está configurada para autenticação do Windows por padrão.
     
-      - Para discagem, digite a URL simples semelhante à seguinte **https://externalwebfarmFQDN/dialin** , em que externalwebfarmFQDN é o FQDN externo do farm da Web que hospeda a página de discagem para conferência discada. O usuário deve ser redirecionado para a página de discagem. Em alternativa, confirme que sua discagem de URL simples funcione corretamente. Um exemplo de URL simples para discagem pode serhttps://dialin.contoso.com
+      - Para discagem, digite a URL simples semelhante à seguinte, **https://externalwebfarmFQDN/dialin** em que externalwebfarmFQDN é o FQDN externo do farm da Web que hospeda a página de discagem para conferência discada. O usuário deve ser redirecionado para a página de discagem. Em alternativa, confirme que sua discagem de URL simples funcione corretamente. Um exemplo de URL simples para discagem pode ser https://dialin.contoso.com
     
-      - Para confirmar se a URL de descoberta automática está funcionando, https://lyncdiscoverdigite. externaldomainFQDN. O navegador deve solicitar que você abra um arquivo. Selecione o bloco de notas para abri-lo. Uma resposta típica seria semelhante a:
+      - Para confirmar se a URL de descoberta automática está funcionando, digite https://lyncdiscover . externaldomainFQDN. O navegador deve solicitar que você abra um arquivo. Selecione o bloco de notas para abri-lo. Uma resposta típica seria semelhante a:
         
             {"AccessLocation":"External","Root":{"Links":[{"href":"https:\/\/extweb.contoso.com\/Autodiscover\/AutodiscoverService.svc\/root\/domain","token":"Domain"},
             {"href":"https:\/\/extweb.contoso.com\/Autodiscover\/AutodiscoverService.svc\/root\/user","token":"User"},

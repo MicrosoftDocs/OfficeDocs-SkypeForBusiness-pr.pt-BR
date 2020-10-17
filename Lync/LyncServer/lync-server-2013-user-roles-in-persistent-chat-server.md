@@ -12,20 +12,22 @@ ms:contentKeyID: 49361095
 ms.date: 03/19/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a7d01b15c035b3f14a0f2d6dba92719d7f885437
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 9c91fcb656d936d0fb469cdec4b01824d3fa97d1
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213007"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48518848"
 ---
+# <a name="user-roles-in-persistent-chat-server-in-lync-server-2013"></a>Funções de usuário no servidor de chat persistente no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="user-roles-in-persistent-chat-server-in-lync-server-2013"></a>Funções de usuário no servidor de chat persistente no Lync Server 2013
+
 
 </div>
 
@@ -77,7 +79,7 @@ A seguir estão as quatro funções de usuário do servidor de chat persistente:
     
     </div>
 
-  - **Membro:** Usuários que são membros de uma sala de chat. Esses usuários podem ver as salas de chat no diretório (mesmo que a sala de bate-papo seja secreta), bem como inscrever-se na sala de chat (incluindo as opções de metadados como mensagens não lidas, filtros egos e filtros de palavra-chave) e participar da sala de chat (podem postar, a menos que a sala é uma sala auditório em que apenas os apresentadores podem postar, obter conteúdo e Pesquisar. Os usuários que não são membros da sala de chat podem pesquisar a sala de chat se estiverem na lista de membros permitidos da categoria, mas precisarão solicitar acesso para participar dessas salas de chat para acessar o conteúdo. (Não há nenhuma solicitação de acesso ou aprovação no sistema; elas são feitas externamente por email, telefone ou outras formas de contato.)
+  - **Membro:** Usuários que são membros de uma sala de chat. Esses usuários podem ver as salas de chat no diretório (mesmo que a sala de bate-papo seja secreta), bem como inscrever-se na sala de chat (incluindo as opções de metadados, como mensagens não lidas, filtros do ego e filtros de palavra-chave) e participar da sala de bate-papo (pode publicar, a menos que a sala seja uma sala de auditório onde somente Os usuários que não são membros da sala de chat podem pesquisar a sala de chat se estiverem na lista de membros permitidos da categoria, mas precisarão solicitar acesso para participar dessas salas de chat para acessar o conteúdo. (Não há nenhuma solicitação de acesso ou aprovação no sistema; elas são feitas externamente por email, telefone ou outras formas de contato.)
 
   - **Apresentador:** Usuários que podem postar em uma sala do auditório.
 
@@ -93,9 +95,9 @@ A seguir estão as quatro funções de usuário do servidor de chat persistente:
 
 As funções a seguir são funções de administrador para o servidor de chat persistente:
 
-  - **Administrador de chat persistente (CsPersistentChatAdministrator):** Esta é uma nova função RBAC (controle de acesso baseado em função) para administrar e gerenciar o servidor de chat persistente. Os usuários ou grupos de segurança designados como CsPersistentChatAdministrator podem administrar o servidor de chat persistente usando cmdlets do Windows PowerShell remotamente (ou seja, de um computador diferente do servidor de chat persistente). Servidor de chat persistente verifica se o administrador de chat persistente é membro do grupo local de administrador local RTC no servidor de front-end do servidor de chat persistente.
+  - **Administrador de chat persistente (CsPersistentChatAdministrator):** Esta é uma nova função de controle de acesso de Role-Based (RBAC) para administrar e gerenciar o servidor de chat persistente. Os usuários ou grupos de segurança designados como CsPersistentChatAdministrator podem administrar o servidor de chat persistente usando cmdlets do Windows PowerShell remotamente (ou seja, de um computador diferente do servidor de chat persistente). Servidor de chat persistente verifica se o administrador de chat persistente é membro do grupo local de administrador local RTC no servidor de front-end do servidor de chat persistente.
     
-    A função CsPersistentChatAdministrator permite gerenciar salas de chat (modificar todas as propriedades, inclusive associações, gerentes, categorias, marcar salas como desabilitadas), bem como criar e gerenciar categorias de sala de chat que definem quem pode criar e acessar as salas de chat. Os administradores também podem marcar salas de chat como desabilitadas e limpar salas de chat que não estão mais ativas. Os administradores não estão sujeitos às restrições dos criadores ou membros permitidos. Eles podem criar qualquer tipo de sala de chat e adicionar a si próprios como membros de qualquer sala. Os administradores também podem modificar e gerenciar a configuração de chat persistente (Propriedades de pool, configurações globais e configuração de conformidade) e também podem planejar e implementar a migração de uma implantação de servidor de chat de grupo mais antiga para o Lync Server 2013 chat persistente Do.
+    A função CsPersistentChatAdministrator permite gerenciar salas de chat (modificar todas as propriedades, inclusive associações, gerentes, categorias, marcar salas como desabilitadas), bem como criar e gerenciar categorias de sala de chat que definem quem pode criar e acessar as salas de chat. Os administradores também podem marcar salas de chat como desabilitadas e limpar salas de chat que não estão mais ativas. Os administradores não estão sujeitos às restrições dos criadores ou membros permitidos. Eles podem criar qualquer tipo de sala de chat e adicionar a si próprios como membros de qualquer sala. Os administradores também podem modificar e gerenciar a configuração de chat persistente (Propriedades de pool, configurações globais e configuração de conformidade) e também podem planejar e implementar a migração de uma implantação de servidor de chat de grupo mais antiga para o servidor de chat persistente do Lync Server 2013.
 
   - **Administrador do Lync:** Administrador corporativo geral do Lync Server 2013 responsável pela implantação.
 

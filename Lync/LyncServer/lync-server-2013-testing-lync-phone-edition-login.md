@@ -12,20 +12,22 @@ ms:contentKeyID: 63969583
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ce22e6c7f5fb48132f3f67c79c33daaa568d93ed
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 2b55ef9024caedaecb27bba3e01eb2bde5181fca
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42194054"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48519018"
 ---
+# <a name="testing-lync-phone-edition-login-in-lync-server-2013"></a>Testando o logon do Lync Phone Edition no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="testing-lync-phone-edition-login-in-lync-server-2013"></a>Testando o logon do Lync Phone Edition no Lync Server 2013
+
 
 </div>
 
@@ -68,7 +70,7 @@ _**Última modificação do tópico:** 2014-06-05_
 
 O cmdlet Test-CsPhoneBootstrap permite que os administradores verifiquem se um determinado usuário, usando o número de telefone e o PIN atribuído a ele, podem fazer logon no sistema de um dispositivo compatível com Lync 2013 Phone Edition. (Nenhum dispositivo é realmente necessário para executar o teste).
 
-Para que Test-CsPhoneBootstrap possa realizar essa verificação, é necessário que o pool de registradores que hospeda a conta do usuário testada seja detectável usando-se o DHCP. Para determinar se um registrador é detectável dessa maneira, use o cmdlet Get-CsRegistrarConfiguration e verifique o valor da propriedade EnableDHCPServer. Se essa propriedade for definida como false, você deverá usar set-CsRegistrarConfiguration para definir o valor da propriedade como true e tornar o registrador detectável usando DHCP. Isso também pode ser feito usando o servidor DHCP corporativo e configurando as opções específicas do Lync Server.
+Para que Test-CsPhoneBootstrap possa realizar essa verificação, é necessário que o pool de registradores que hospeda a conta do usuário testada seja detectável usando-se o DHCP. Para determinar se um registrador é detectável dessa maneira, use o cmdlet Get-CsRegistrarConfiguration e verifique o valor da propriedade EnableDHCPServer. Se essa propriedade for definida como false, você deverá usar Set-CsRegistrarConfiguration para definir o valor da propriedade como true e tornar o registrador detectável usando DHCP. Isso também pode ser feito usando o servidor DHCP corporativo e configurando as opções específicas do Lync Server.
 
 </div>
 
@@ -94,7 +96,7 @@ Para obter mais informações, consulte a documentação de ajuda para o cmdlet 
 
 Se o usuário especificado foi capaz de se conectar ao Lync Server, você receberá uma saída semelhante a esta, com a propriedade Result marcada como **êxito:**
 
-TargetUrihttps://atl-cs-001.litwareinc.com:443/CertProv/
+TargetUri https://atl-cs-001.litwareinc.com:443/CertProv/
 
 CertProvisioningService. svc
 
@@ -116,7 +118,7 @@ Resultado: falha
 
 Latência: 00:00:04.1993845
 
-Erro: erro-nenhuma resposta recebida para o serviço de tíquete da Web.
+Erro: erro-nenhuma resposta recebida para o serviço de Web-Ticket.
 
 Diagnóstico
 
@@ -132,19 +134,19 @@ Se Test-CsPhoneBootstrap falhar, talvez você queira executar novamente o teste,
 
     Test-CsPhoneBootstrap -PhoneOrExt "+12065551219" -Pin "0712" -Verbose
 
-Quando o parâmetro Verbose é incluído, o Test-CsPhoneBootstrap retornará uma conta passo a passo de cada ação que tentou quando verificou a capacidade do usuário especificado fazer logon no Lync Server. Por exemplo, aqui está uma parte da saída de um logon não bem-sucedido, uma sessão na qual um PIN incorreto foi incluído:
+Quando o parâmetro Verbose é incluído, Test-CsPhoneBootstrap retornará uma conta passo a passo de cada ação que tentou quando verificou a capacidade do usuário especificado fazer logon no Lync Server. Por exemplo, aqui está uma parte da saída de um logon não bem-sucedido, uma sessão na qual um PIN incorreto foi incluído:
 
-Usando o PIN auth com\\ramal de telefone: 12065551219 PIN: 0712
+Usando o PIN auth com \\ ramal de telefone: 12065551219 PIN: 0712
 
 Não foi possível obter o tíquete da Web
 
 Fira
 
-\-A URL do serviço Web é válida e os serviços Web são funcionais
+\- A URL do serviço Web é válida e os serviços Web são funcionais
 
-\-Se estiver usando\\o PIN PhoneNo para autenticação, certifique-se de que eles correspondam ao URI do usuário
+\- Se estiver usando \\ o PIN PhoneNo para autenticação, certifique-se de que eles correspondam ao URI do usuário
 
-\-Se estiver usando\\a autenticação Kerberos NTLM, certifique-se de ter fornecido credenciais válidas
+\- Se estiver usando a \\ autenticação Kerberos NTLM, certifique-se de ter fornecido credenciais válidas
 
 </div>
 
@@ -152,7 +154,7 @@ Fira
 
 ## <a name="reasons-why-the-test-might-have-failed"></a>Motivos pelos quais o teste pode ter falhado
 
-Aqui estão alguns motivos comuns pelos quais Test-CsPhoneBootstrap pode falhar:
+Aqui estão alguns motivos comuns para que Test-CsPhoneBootstrap possa falhar:
 
   - Você pode ter especificado um endereço SIP que não é válido. Você pode verificar se um endereço SIP está correto usando um comando como este:
     

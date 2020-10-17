@@ -12,20 +12,22 @@ ms:contentKeyID: 63969644
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 98c5f39a636eb300f19cd42131fc42d2480bbf14
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: e74a24818094d7de0edc4627f987464df048315f
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42194064"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48519008"
 ---
+# <a name="testing-lync-server-services-in-lync-server-2013"></a>Testando serviços do Lync Server no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="testing-lync-server-services-in-lync-server-2013"></a>Testando serviços do Lync Server no Lync Server 2013
+
 
 </div>
 
@@ -66,7 +68,7 @@ _**Última modificação do tópico:** 2014-06-05_
 
 ## <a name="description"></a>Descrição
 
-Test-CsComputer verifica o status de todos os serviços do Lync Server 2013 que estão em execução no computador local. (Test-CsComputer pode ser executado localmente, ele não pode ser executado a partir de uma instância remota do Windows PowerShell.) O cmdlet também verifica se as portas de firewall apropriadas estão abertas no computador e determina se os grupos do Active Directory que foram criados quando você instalou o Lync Server 2013 foram adicionados aos grupos locais correspondentes. Por exemplo, Test-CsComputer verificará se o grupo do Active Directory RTCUniversalUserAdmins foi adicionado ao grupo de administradores.
+Test-CsComputer verifica o status de todos os serviços do Lync Server 2013 que estão em execução no computador local. (Test-CsComputer pode ser executado localmente, ele não pode ser executado a partir de uma instância remota do Windows PowerShell.) O cmdlet também verifica se as portas de firewall apropriadas estão abertas no computador e determina se os grupos do Active Directory que foram criados quando você instalou o Lync Server 2013 foram adicionados aos grupos locais correspondentes. Por exemplo, Test-CsComputer verificará se o grupo do Active Directory RTCUniversalUserAdmins foi adicionado ao grupo Administradores.
 
 Para obter mais informações, consulte a documentação de ajuda para o cmdlet [Test-CsComputer](https://docs.microsoft.com/powershell/module/skype/Test-CsComputer) .
 
@@ -76,9 +78,9 @@ Para obter mais informações, consulte a documentação de ajuda para o cmdlet 
 
 ## <a name="running-the-test"></a>Executar o teste
 
-O cmdlet Test-CsComputer pode ser executado somente no computador local, não é possível chamar Test-CsComputer de uma instância remota do Windows PowerShell. Por padrão, Test-CsComputer exibe uma saída muito pequena na tela, em vez disso, as informações retornadas pelo cmdlet são gravadas em um arquivo HTML. Por isso, recomendamos que você inclua o parâmetro Verbose e o parâmetro Report sempre que executar Test-CsComputer. O parâmetro Verbose fornecerá uma saída mais detalhada na tela enquanto o cmdlet é executado. O parâmetro Report permite que você especifique um caminho de arquivo e um nome de arquivo para o arquivo HTML gerado por Test-CsComputer. Se você não incluir o parâmetro Report, o arquivo HTML será automaticamente salvo na pasta usuários e receberá um nome semelhante a este: ce84964a-c4da-4622-ad34-c54ff3ed361f. html.
+O cmdlet Test-CsComputer só pode ser executado no computador local, não é possível chamar Test-CsComputer de uma instância remota do Windows PowerShell. Por padrão, Test-CsComputer exibe muito pouca saída na tela, em vez disso, as informações retornadas pelo cmdlet são gravadas em um arquivo HTML. Por isso, recomendamos que você inclua o parâmetro Verbose e o parâmetro Report sempre que executar Test-CsComputer. O parâmetro Verbose fornecerá uma saída mais detalhada na tela enquanto o cmdlet é executado. O parâmetro Report permite que você especifique um caminho de arquivo e um nome de arquivo para o arquivo HTML gerado por Test-CsComputer. Se você não incluir o parâmetro Report, o arquivo HTML será automaticamente salvo na pasta usuários e receberá um nome semelhante a este: ce84964a-c4da-4622-ad34-c54ff3ed361f.html.
 
-O seguinte comando de exemplo executa Test-CsComputer e salva a saída em um arquivo chamado C:\\logs\\ComputerTest. html:
+O seguinte comando de exemplo é executado Test-CsComputer e salva a saída em um arquivo chamado C: \\ Logs \\ComputerTest.html:
 
     Test-CsComputer -Report "C:\Logs\ComputerTest.html" -Verbose
 
@@ -90,7 +92,7 @@ Para obter mais informações, consulte a documentação de ajuda para o cmdlet 
 
 ## <a name="determining-success-or-failure"></a>Determinando o sucesso ou a falha
 
-Devido ao número de verificações de verificação que ele realiza, Test-CsComputer não relata um **Sim simples, o teste foi bem-sucedido** ou **não, o teste falhou**. Em vez disso, você precisa exibir o arquivo HTML gerado usando o Internet Explorer para determinar o sucesso ou a falha de cada teste.
+Por causa do número de verificações de verificação que ele realiza, Test-CsComputer não relata um sim simples **, o teste foi bem-sucedido** ou **não, o teste falhou**. Em vez disso, você precisa exibir o arquivo HTML gerado usando o Internet Explorer para determinar o sucesso ou a falha de cada teste.
 
 </div>
 
@@ -98,9 +100,9 @@ Devido ao número de verificações de verificação que ele realiza, Test-CsCom
 
 ## <a name="reasons-why-the-test-might-have-failed"></a>Motivos pelos quais o teste pode ter falhado
 
-Aqui estão alguns motivos comuns pelos quais Test-CsComputer pode falhar:
+Aqui estão alguns motivos comuns para que Test-CsComputer possa falhar:
 
-  - O computador de teste pode não estar habilitado para uso com o Lync Server. Isso pode ocorrer se os serviços do Lync Server ou as funções de servidor no computador tiverem sido alterados e o cmdlet Enable-CsComputer não for executado. Para resolver esse problema, execute o seguinte comando:
+  - O computador de teste pode não estar habilitado para uso com o Lync Server. Isso pode ocorrer se os serviços do Lync Server ou as funções de servidor no computador tiverem sido alteradas e o cmdlet Enable-CsComputer não foi executado. Para resolver esse problema, execute o seguinte comando:
     
         Enable-CsComputer
 

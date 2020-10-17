@@ -12,20 +12,22 @@ ms:contentKeyID: 63969650
 ms.date: 08/20/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a723c17e5c909ba0313b962cf97a508b17487309
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: d8177cf0a647ec5155a32a91c6e764e9c13e1dcb
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42210977"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48518218"
 ---
+# <a name="weekly-tasks-in-lync-server-2013"></a>Tarefas semanais no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="weekly-tasks-in-lync-server-2013"></a>Tarefas semanais no Lync Server 2013
+
 
 </div>
 
@@ -145,7 +147,7 @@ Com o acesso à rede correto, a ferramenta pode examinar seu AD DS e servidores 
 
   - Gerar informações de configuração que possam ser capturadas para revisão posterior
 
-Verifique se o RTCBPA. msi está instalado em todos os servidores do Lync Server 2013 e gere um relatório de verificação de integridade semanal. Anote os resultados e corrija, se necessário.
+Verifique se o RTCBPA.msi está instalado em todos os servidores do Lync Server 2013 e gere um relatório semanal de verificação de integridade. Anote os resultados e corrija, se necessário.
 
 </div>
 
@@ -211,11 +213,11 @@ Para cada pool de empresas, os administradores podem usar a guia **banco de dado
 <ul>
 <li><p>Um usuário habilitado é um usuário habilitado para o Lync Server 2013 usando o snap-in usuários e computadores do Active Directory.</p></li>
 <li><p>Um usuário ativo é um usuário que fez logon ou está registrado.</p></li>
-<li><p>Os relatórios de resumo também oferecem um conjunto de informações estatísticas sobre contatos. Essas estatísticas são válidas apenas para a população de usuários que fizeram logon pelo menos uma vez e que têm pelo menos um contato. Consequentemente, você normalmente não verá um número mínimo de contatos de 0. Devido a esse comportamento, se um usuário não tiver contatos (mas estiver ativo, se o usuário tiver registrado), você poderá ver: &lt;vazio&gt; para alguns campos de estatísticas.</p></li>
+<li><p>Os relatórios de resumo também oferecem um conjunto de informações estatísticas sobre contatos. Essas estatísticas são válidas apenas para a população de usuários que fizeram logon pelo menos uma vez e que têm pelo menos um contato. Consequentemente, você normalmente não verá um número mínimo de contatos de 0. Devido a esse comportamento, se um usuário não tiver contatos (mas estiver ativo, se o usuário tiver registrado), você poderá ver: &lt; vazio &gt; para alguns campos de estatísticas.</p></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><p>Relatórios por usuário</p></td>
+<td><p>Relatórios de Per-User</p></td>
 <td><p>Dbanalyze/v/Report: Disk [/SqlServer: value]</p>
 <p>Ao contrário dos relatórios de resumo, que são calculados sobre uma população de usuário, eles são relatórios sobre um usuário específico.</p></td>
 </tr>

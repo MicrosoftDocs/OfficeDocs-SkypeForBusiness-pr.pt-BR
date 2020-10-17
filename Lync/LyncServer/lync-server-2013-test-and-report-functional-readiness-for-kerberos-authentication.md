@@ -12,20 +12,22 @@ ms:contentKeyID: 48185519
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e160af5920f58b3813bd168c7f4fbe2e0f0cf95c
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: ac03f06a5d2c4b4989319f32a867d91614bd3a30
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42194714"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48519318"
 ---
+# <a name="test-and-report-functional-readiness-for-kerberos-authentication-in-lync-server-2013"></a>Testar e relatar prontidão funcional para autenticação Kerberos no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="test-and-report-functional-readiness-for-kerberos-authentication-in-lync-server-2013"></a>Testar e relatar prontidão funcional para autenticação Kerberos no Lync Server 2013
+
 
 </div>
 
@@ -39,7 +41,7 @@ _**Última modificação do tópico:** 2012-01-16_
 
 Para concluir com sucesso este procedimento, você deve ter feito logon como usuário membro do grupo RTCUniversalServerAdmins.
 
-Você pode usar o cmdlet **Test-CsKerberosAccountAssignment** do Windows PowerShell para testar e relatar a prontidão funcional de uma atribuição de site para autenticação Kerberos. Esse comando consulta o site especificado no parâmetro Identity necessário. O parâmetro de relatório opcional faz com que o cmdlet grave um relatório HTML em\\C: logs no computador no qual o comando é executado. O parâmetro Verbose opcional mostra as informações de atividade na tela.
+Você pode usar o cmdlet **Test-CsKerberosAccountAssignment**   do Windows PowerShell para testar e relatar a prontidão funcional de uma atribuição de site para autenticação Kerberos. Esse comando consulta o site especificado no parâmetro Identity necessário. O parâmetro de relatório opcional faz com que o cmdlet grave um relatório HTML em C: \\ logs no computador no qual o comando é executado. O parâmetro Verbose opcional mostra as informações de atividade na tela.
 
 <div>
 

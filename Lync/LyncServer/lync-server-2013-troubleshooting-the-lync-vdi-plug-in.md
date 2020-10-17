@@ -12,20 +12,22 @@ ms:contentKeyID: 48183525
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ddc58629ea7c641427347600be48538cd555022c
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: fe652a2a378759584b8d855cdcdc7790b622ad02
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42193344"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48518958"
 ---
+# <a name="troubleshooting-the-lync-vdi-plug-in-in-lync-server-2013"></a>Solucionando problemas do plug-in do Lync VDI no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="troubleshooting-the-lync-vdi-plug-in-in-lync-server-2013"></a>Solucionando problemas do plug-in do Lync VDI no Lync Server 2013
+
 
 </div>
 
@@ -77,11 +79,11 @@ A seguir estão possíveis razões para falhas e as ações corretivas que você
 
   - **Os arquivos necessários não foram instalados corretamente.**
     
-    Depois que o plug-in é instalado no computador local, os seguintes arquivos devem estar presentes em C:\\arquivos\\de programa Microsoft\\Office Office15 (ou a letra de unidade apropriada):
+    Depois que o plug-in é instalado no computador local, os seguintes arquivos devem estar presentes em C: \\ arquivos de programa \\ Microsoft Office \\ Office15 (ou a letra de unidade apropriada):
     
-      - LyncVdiPlugin. dll
+      - LyncVdiPlugin.dll
     
-      - UcVdi. dll
+      - UcVdi.dll
     
     Caso existam quaisquer problemas com o pareamento VDI, verifique para se assegurar que estes arquivos estão presentes no computador local.
 

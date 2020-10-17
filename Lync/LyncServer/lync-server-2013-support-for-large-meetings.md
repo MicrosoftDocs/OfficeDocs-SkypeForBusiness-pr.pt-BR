@@ -12,20 +12,22 @@ ms:contentKeyID: 48184820
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cb551013a07cf16236e9fae5f8c3a3056bdb2f51
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 1f177c7555a945be4e871c53e0e49a57c1a304a7
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42181634"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48519408"
 ---
+# <a name="support-for-large-meetings-in-lync-server-2013"></a>Suporte para grandes reuniões no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="support-for-large-meetings-in-lync-server-2013"></a>Suporte para grandes reuniões no Lync Server 2013
+
 
 </div>
 
@@ -39,7 +41,7 @@ _**Última modificação do tópico:** 2012-10-01_
 
 O Lync Server 2013 pode dar suporte a reuniões com até 1000 participantes usando a conferência de áudio/vídeo (A/V), incluindo o compartilhamento de apresentações do PowerPoint. Esse suporte requer um pool dedicado configurado para dar suporte a grandes reuniões e gerenciados de forma a garantir a hospedagem de apenas uma única reunião de grande porte.
 
-Esta seção descreve como dar suporte a grandes reuniões usando um pool dedicado do Lync Server 2013. Descreve as considerações de escalabilidade e os requisitos de implementação de um pool dedicado, incluindo a topologia, o hardware, o software e os requisitos de configuração. Ele também fornece um conjunto de recomendações de práticas recomendadas para o suporte a grandes reuniões, um resumo dos métodos de teste e resultados de testes de escalabilidade de servidor conduzidos pela equipe de engenharia do Lync Server e as respostas para perguntas frequentes sobre o suporte para grandes reuniões.
+Esta seção descreve como dar suporte a grandes reuniões usando um pool dedicado do Lync Server 2013. Descreve as considerações de escalabilidade e os requisitos de implementação de um pool dedicado, incluindo a topologia, o hardware, o software e os requisitos de configuração. Ele também fornece um conjunto de recomendações de práticas recomendadas para o suporte a grandes reuniões, um resumo dos métodos de teste e resultados de testes de escalabilidade de servidor conduzidos pela equipe de engenharia do Lync Server e as respostas para perguntas frequentes sobre o suporte a grandes reuniões.
 
 <div>
 

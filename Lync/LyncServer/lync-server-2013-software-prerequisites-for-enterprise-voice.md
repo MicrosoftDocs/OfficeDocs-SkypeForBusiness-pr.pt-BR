@@ -12,20 +12,22 @@ ms:contentKeyID: 48183960
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9a4b0b2e2708abbf3b92223474ec0804c1d11ac8
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 5b504c498b2f07915f741e6c3172e911c7d40dae
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42181804"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48519618"
 ---
+# <a name="software-prerequisites-for-enterprise-voice-in-lync-server-2013"></a>Pré-requisitos de software para o Enterprise Voice no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="software-prerequisites-for-enterprise-voice-in-lync-server-2013"></a>Pré-requisitos de software para o Enterprise Voice no Lync Server 2013
+
 
 </div>
 
@@ -43,7 +45,7 @@ Verifique se a infraestrutura em que você pretende implantar o Enterprise Voice
 
   - Todos os servidores de borda são implantados e operados em sua rede de perímetro, incluindo servidores de borda executando o serviço de borda de acesso, serviço de borda A/V, serviço de borda de Webconferência e um proxy reverso.
 
-  - O Microsoft Exchange Server 2007 Service Pack 3 (SP3), o Microsoft Exchange Server 2010 ou o Microsoft Exchange Server 2013 é necessário para integrar a Unificação de mensagens do Exchange com o Lync Server e fornecer notificações ricas e informações de log de chamadas para o Pontos de extremidade do Lync.
+  - O Microsoft Exchange Server 2007 Service Pack 3 (SP3), o Microsoft Exchange Server 2010 ou o Microsoft Exchange Server 2013 é necessário para integrar a Unificação de mensagens do Exchange ao Lync Server e fornecer notificações ricas e informações de log de chamadas aos pontos de extremidade do Lync.
 
   - Um ou mais usuários foram criados e habilitados para o Lync Server.
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 48185714
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f31159a2d14facbdfed2f74f3567081699a7bde9
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 8d9bbf5ea35b6b24180f7853fd3715ad95973051
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42181834"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48519648"
 ---
+# <a name="sip-trunking-support-in-lync-server-2013"></a>Suporte de tronco SIP no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="sip-trunking-support-in-lync-server-2013"></a>Suporte de tronco SIP no Lync Server 2013
+
 
 </div>
 
@@ -39,7 +41,7 @@ _**Última modificação do tópico:** 2012-10-03_
 
 Se você planeja usar o Enterprise Voice com tronco SIP, você deve implantar um servidor de mediação e certificar-se de que outros componentes e infraestrutura atendem aos requisitos de suporte apropriados ao seu modelo de implantação. Para obter detalhes sobre como determinar se deve implementar o tronco SIP, consulte [Overview of SIP trunking in Lync Server 2013](lync-server-2013-overview-of-sip-trunking.md) na documentação de planejamento.
 
-Você pode usar o programa de interoperabilidade aberta do Microsoft Unified Communications para infraestrutura de telefonia corporativa para localizar gateways PSTN (rede telefônica pública comutada), IP-PBXs e serviços de tronco SIP, incluindo telefonia IP qualificada provedores de serviços. Para obter detalhes, consulte o site do programa de interoperabilidade aberta [https://go.microsoft.com/fwlink/p/?LinkId=203309](https://go.microsoft.com/fwlink/p/?linkid=203309)do Microsoft Unified Communications em.
+Você pode usar o programa de interoperabilidade aberta do Microsoft Unified Communications para infraestrutura de telefonia corporativa para localizar gateways PSTN (rede telefônica pública comutada), IP-PBXs e serviços de tronco SIP, incluindo provedores de serviços de telefonia IP qualificados. Para obter detalhes, consulte o site do programa de interoperabilidade aberta do Microsoft Unified Communications em [https://go.microsoft.com/fwlink/p/?LinkId=203309](https://go.microsoft.com/fwlink/p/?linkid=203309) .
 
 <div>
 
@@ -95,7 +97,7 @@ O Lync Server 2013 oferece suporte aos seguintes tipos de conexão para tronco S
 
   - Uma conexão privada sem outro tráfego é normalmente o tipo de conexão mais confiável e segura (por exemplo, uma conexão de fibra óptica dedicada ou uma linha T1). Esse tipo de conexão fornece a maior capacidade de transporte de chamadas, mas geralmente é o mais caro. VPN não é necessário. Conexões privadas são adequadas para organizações com alto volume de chamadas ou com requisitos de segurança e disponibilidade rígidos.
 
-  - A Internet pública é o tipo de conexão menos caro, mas também a menos confiável, e aquela com a menor capacidade de transporte de chamadas. Seu provedor de serviços de telefonia da Internet (ITSP) pode ajudar a proteger esse tipo de conexão de tronco SIP se ele oferecer suporte à segurança da camada de transporte (TLS) e ao protocolo SRTP para criptografar a sinalização e o tráfego de mídia. Se você não puder configurar uma conexão de tronco SIP através da Internet para usar TLS e SRTP, recomendamos enfaticamente que você use um túnel VPN para fornecer uma conexão mais segura. Entre em contato com seu ITSP para determinar se ele fornece suporte para TLS com SRTP.
+  - A Internet pública é o tipo de conexão menos caro, mas também a menos confiável, e aquela com a menor capacidade de transporte de chamadas. Seu provedor de serviços de telefonia da Internet (ITSP) pode ajudar a proteger esse tipo de conexão de tronco SIP se ele oferecer suporte à segurança da camada de transporte (TLS) Real-Time e ao protocolo SRTP para criptografar a sinalização e o tráfego de mídia. Se você não puder configurar uma conexão de tronco SIP através da Internet para usar TLS e SRTP, recomendamos enfaticamente que você use um túnel VPN para fornecer uma conexão mais segura. Entre em contato com seu ITSP para determinar se ele fornece suporte para TLS com SRTP.
 
 <div>
 

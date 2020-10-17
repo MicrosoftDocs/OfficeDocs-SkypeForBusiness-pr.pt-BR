@@ -12,20 +12,22 @@ ms:contentKeyID: 49733555
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0001d70033aac6d7c6125bb9e4016143beefc80f
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 51dbff3748f342bd630c33fc867a4249b386c00c
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42212757"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48518818"
 ---
+# <a name="using-microsoft-sql-server-2008-r2-as-your-system-center-operations-manager-database-for-lync-server-2013"></a>Usando o Microsoft SQL Server 2008 R2 como seu banco de dados do System Center Operations Manager para o Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="using-microsoft-sql-server-2008-r2-as-your-system-center-operations-manager-database-for-lync-server-2013"></a>Usando o Microsoft SQL Server 2008 R2 como seu banco de dados do System Center Operations Manager para o Lync Server 2013
+
 
 </div>
 
@@ -47,11 +49,11 @@ Antes de começar a instalação do System Center Operations Manager, você deve
 
 1.  Clique em **Iniciar** e em **Executar**.
 
-2.  Na caixa de diálogo **executar** , digite **C:\\\\arquivos de programa Microsoft SQL\\ Server\_MSRS10 50.\\ARCHINST Reporting Services\\ReportServer** e pressione Enter.
+2.  Na caixa de diálogo **executar** , digite **C: \\ arquivos de programa \\ Microsoft SQL Server \\ MSRS10 \_ 50. ARCHINST \\ Reporting Services \\ ReportServer** e pressione Enter.
 
 3.  Na pasta **ReportServer**, abra o arquivo **rsreportserver.config** no Bloco de Notas ou em qualquer outro editor de texto.
 
-4.  Próximo ao início do arquivo, você verá uma série de nós "Add Key". Encontre a entrada que começa ** \<a adicionar Key = "SecureConnectionLevel"** e defina o valor como **0**:
+4.  Próximo ao início do arquivo, você verá uma série de nós "Add Key". Encontre a entrada que começa a ** \< Adicionar Key = "SecureConnectionLevel"** e defina o valor como **0**:
     
         <Add Key="SecureConnectionLevel" Value="0"/>
 
@@ -81,7 +83,7 @@ Se você quiser configurar o System Center Operations Manager para usar um banco
 
 Para criar um banco de dados do Operations Manager manualmente, faça o seguinte:
 
-1.  Na mídia de instalação do System Center Operations Manager 2007 R2, na\\pasta SupportTools AMD64, clique duas vezes em **DBCreateWizard. exe**.
+1.  Na mídia de instalação do System Center Operations Manager 2007 R2, na \\ pasta SupportTools AMD64, clique duas vezes em **DBCreateWizard.exe**.
 
 2.  No Assistente para Configuração do Banco de Dados, na página **Benvindo ao Assistente para Configuração do Banco de Dados**, clique em **Avançar**.
 
@@ -101,15 +103,15 @@ Para criar um banco de dados do Operations Manager manualmente, faça o seguinte
 
 O Microsoft Lync Server 2013 acompanha três novos relatórios do System Center Operations Manager:
 
-  - **Relatório de disponibilidade de cenário de ponta a ponta**   este relatório detalha a disponibilidade/tempo de atividade para os principais serviços do Lync Server, como registro ou presença.
+  - **Relatório de disponibilidade de cenário de ponta a ponta**     Este relatório detalha a disponibilidade/tempo de atividade dos serviços principais do Lync Server, como registro ou presença.
 
-  - **Relatório de capacidade**   usando informações de contador de desempenho, este relatório mostra tendências para componentes do sistema, como disponibilidade de memória e uso do processador.
+  - **Relatório**     de capacidade Usando informações de contador de desempenho, este relatório mostra tendências para componentes do sistema, como disponibilidade de memória e uso do processador.
 
-  - **Relatório de componente**   este relatório lista os principais geradores de alerta agrupados pelo componente do Lync Server.
+  - **Relatório**     de componente Este relatório lista os principais geradores de alerta agrupados pelo componente do Lync Server.
 
 Para usar esses novos relatórios, você deve instalar um data warehouse do System Center Operations Manager. (Um data warehouse fornece um armazenamento de dados de longo prazo de operações.) Para usar um data warehouse com o SQL Server 2008 R2, você deve executar as seguintes etapas no computador que hospeda o banco de dados do SQL Server:
 
-1.  Na mídia de instalação do System Center Operations Manager, na\\pasta\\setup SupportTools AMD64, clique duas vezes em **DBCreateWizard. exe**.
+1.  Na mídia de instalação do System Center Operations Manager, na \\ pasta Setup SupportTools \\ AMD64, clique duas vezes em **DBCreateWizard.exe**.
 
 2.  No Assistente para Configuração do Banco de Dados, na página **Benvindo ao Assistente para Configuração do Banco de Dados**, clique em **Avançar**.
 
@@ -127,7 +129,7 @@ O console do Operations Manager é a principal ferramenta usada para gerenciar o
 
 Para instalar o console do System Center Operations Manager:
 
-1.  Na mídia de instalação do System Center Operations Manager, clique duas vezes em **SetupOM. exe**.
+1.  Na mídia de instalação do System Center Operations Manager, clique duas vezes em **SetupOM.exe**.
 
 2.  Na instalação do System Center Operations Manager 2007 R2, clique em **verificar pré-requisitos**.
 
@@ -171,15 +173,15 @@ Após instalar e configurar o console do System Center Operations Manager, você
 
 2.  No Gerenciador de Servidores, expanda **Configuração**, **Usuários e Grupos Locais** e clique em **Grupos**.
 
-3.  Localize o grupo a seguir, em que ATL-SC-001 representa o nome do seu computador e ARCHINST representa a instância do SQL Server para o banco de dados do System Center: **SQLServerReportServerUser $ ATL\_-SC-001 $ MSRS10 50. ARCHINST**.
+3.  Localize o grupo a seguir, em que ATL-SC-001 representa o nome do seu computador e ARCHINST representa a instância do SQL Server para o banco de dados do System Center: **SQLServerReportServerUser $ ATL-SC-001 $ MSRS10 \_ 50. ARCHINST**.
 
-4.  Clique com o botão direito no grupo e clique em **Renomear**. Renomeie o grupo excluindo ** \_50** do nome do grupo. Por exemplo: **SQLServerReportServerUser $ ATL-SC-001 $ MSRS10. ARCHINST**.
+4.  Clique com o botão direito no grupo e clique em **Renomear**. Renomeie o grupo excluindo ** \_ 50** do nome do grupo. Por exemplo: **SQLServerReportServerUser $ ATL-SC-001 $ MSRS10. ARCHINST**.
 
 5.  Feche o Gerenciador de Servidores.
 
 Neste ponto, você está pronto para instalar o System Center Reporting Services. Para isso:
 
-1.  Na mídia de instalação do System Center Operations Manager 2007 R2, clique duas vezes em **SetupOM. exe**.
+1.  Na mídia de instalação do System Center Operations Manager 2007 R2, clique duas vezes em **SetupOM.exe**.
 
 2.  Na instalação do System Center Operations Manager 2007 R2, clique em **instalar o Operations Manager Reporting**.
 
@@ -219,7 +221,7 @@ Após a instalação do System Center Reporting, use o procedimento a seguir par
 
 3.  Localize o grupo a seguir, em que ATL-SC-001 representa o nome do seu computador e ARCHINST representa a instância do SQL Server para os bancos de dados de arquivamento e monitoramento: **SQLServerReportServerUser $ ATL-SC-001 $ MSRS10. ARCHINST**.
 
-4.  Clique com o botão direito no grupo e clique em **Renomear**. Renomeie o grupo adicionando ** \_50** ao final do nome do grupo, imediatamente antes do nome da instância do SQL Server. Por exemplo: **SQLServerReportServerUser $ ATL-SC-001 $ MSRS10\_50. ARCHINST**.
+4.  Clique com o botão direito no grupo e clique em **Renomear**. Renomeie o grupo adicionando ** \_ 50** ao final do nome do grupo, imediatamente antes do nome da instância do SQL Server. Por exemplo: **SQLServerReportServerUser $ ATL-SC-001 $ MSRS10 \_ 50. ARCHINST**.
 
 5.  Feche o Gerenciador de Servidores.
 

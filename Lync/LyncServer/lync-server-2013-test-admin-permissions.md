@@ -12,20 +12,22 @@ ms:contentKeyID: 63969607
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8cdb56dd75c168731ee386236302732088351e39
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: b1653f2287e06db71f6e971a0a4f483b810734f2
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42194734"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48519378"
 ---
+# <a name="test-admin-permissions-in-lync-server-2013"></a>Testar permissões de administrador no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="test-admin-permissions-in-lync-server-2013"></a>Testar permissões de administrador no Lync Server 2013
+
 
 </div>
 
@@ -70,7 +72,7 @@ Quando você instala o Lync Server 2013 1 das tarefas que foram realizadas pelo 
 
 O cmdlet Test-CsOUPermission verifica se as permissões necessárias necessárias para gerenciar usuários, computadores e outros objetos estão definidas em um contêiner do Active Directory. Se essas permissões não estiverem definidas, você poderá resolver esse problema executando o cmdlet [Grant-CsOUPermission](https://docs.microsoft.com/powershell/module/skype/Grant-CsOUPermission) .
 
-Observe que Grant-CsOUPermission só pode atribuir permissões aos membros do grupo RTCUniversalUserAdmins. Você não pode usar este cmdlet para conceder permissões a um usuário ou grupo arbitrário. Se quiser que um usuário ou grupo diferente tenha permissões de gerenciamento de usuário, você deve adicionar esse usuário (ou grupo) ao grupo RTCUniversalUserAdmins.
+Observe que Grant-CsOUPermission só pode atribuir permissões a membros do grupo RTCUniversalUserAdmins. Você não pode usar este cmdlet para conceder permissões a um usuário ou grupo arbitrário. Se quiser que um usuário ou grupo diferente tenha permissões de gerenciamento de usuário, você deve adicionar esse usuário (ou grupo) ao grupo RTCUniversalUserAdmins.
 
 Para obter mais informações sobre permissões de OU, confira o artigo a [herança de permissões está desabilitada em computadores, usuários ou contêiners inetOrgPerson no Lync Server 2013](lync-server-2013-permissions-inheritance-is-disabled-on-computers-users-or-inetorgperson-containers.md).
 
@@ -98,19 +100,19 @@ Para obter mais informações, consulte o tópico de ajuda para o cmdlet [Test-C
 
 Se as permissões necessárias já tiverem sido definidas, Test-CsOUPermission retornará uma resposta de um Word:
 
-True
+Verdadeiro.
 
 Se as permissões necessárias não estiverem definidas, Test-CsOUPermission retornará o valor false. Talvez seja necessário pesquisar por um momento para encontrar esse valor. Normalmente, ele será incorporado dentro de vários avisos de acompanhamento. Por exemplo:
 
-Aviso: entrada de controle de acesso (ACE) ATL-cs\\-001 RTCUniversalUserReadOnlyGroup; permitiu ReadProperty ContainerInherit; Descendentes; bf967aba-0de6-11d0-00aa003049e2; d819615a-3b9b-4738-b47e-f1bd8ee3aea4
+Aviso: entrada de controle de acesso (ACE) ATL-cs-001 \\ RTCUniversalUserReadOnlyGroup; permitir; ReadProperty ContainerInherit; Descendentes; bf967aba-0de6-11d0-00aa003049e2; d819615a-3b9b-4738-b47e-f1bd8ee3aea4
 
-Aviso: as entradas de controle de acesso (ACEs) no objeto "OU = América, DC = ATL-cs-\\001 DC = LITWAREINC, DC = com" não estão prontas.
+Aviso: as entradas de controle de acesso (ACEs) no objeto "OU = América, DC = ATL-cs-001 \\ DC = litwareinc, DC = com" não estão prontas.
 
 Falso
 
 Aviso: o processamento de "Test-CsOUPermission" foi concluído com avisos. os avisos "2" foram registrados durante esta execução.
 
-Aviso: resultados detalhados podem ser encontrados em "C\\:\\Users\\admin\\\\local\\Temp Test-CsOUPermission-5d7a89af-f854-4A9C-87e3-69e37e58de. html".
+Aviso: resultados detalhados podem ser encontrados em "C \\ : \\ usuários \\ admin \\ \\Test-CsOUPermission-5d7a89af-f854-4a9c-87e3-69e37e58de.htmlocal \\
 
 </div>
 

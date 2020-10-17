@@ -12,20 +12,22 @@ ms:contentKeyID: 48184014
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a313419ca4072fe4d1841ba66a9cb603671e6c56
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: ef5c417ff391bb3ec5954cf12d00f6de3d2e6d9b
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42211637"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48518558"
 ---
+# <a name="videostream-table-in-lync-server-2013"></a>Tabela VideoStream no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="videostream-table-in-lync-server-2013"></a>Tabela VideoStream no Lync Server 2013
+
 
 </div>
 
@@ -251,21 +253,21 @@ Cada registro representa um fluxo de vídeo. Uma linha de mídia de vídeo geral
 </tr>
 <tr class="odd">
 <td><p><strong>LossCongestionPercent</strong></p></td>
-<td><p>float</p></td>
+<td><p>flutuação</p></td>
 <td></td>
 <td><p>Indica a porcentagem de tempo em que a chamada estava em um estado de congestionamento de perda.</p>
 <p>Esta coluna foi introduzida no Microsoft Lync Server 2013.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>DelayCongestionPercent</strong></p></td>
-<td><p>float</p></td>
+<td><p>flutuação</p></td>
 <td></td>
 <td><p>Indica a porcentagem da chamada durante a qual o congestionamento foi causado pela chegada atrasada de pacotes de rede.</p>
 <p>Esta coluna foi introduzida no Microsoft Lync Server 2013.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>ContentionDetectedPercent</strong></p></td>
-<td><p>float</p></td>
+<td><p>flutuação</p></td>
 <td></td>
 <td><p>Indica a porcentagem de tempo em que a chamada estava competindo por recursos de rede.</p>
 <p>Esta coluna foi introduzida no Microsoft Lync Server 2013.</p></td>
@@ -300,28 +302,28 @@ Cada registro representa um fluxo de vídeo. Uma linha de mídia de vídeo geral
 </tr>
 <tr class="even">
 <td><p><strong>LowBandwidthForMultiview</strong></p></td>
-<td><p>float</p></td>
+<td><p>flutuação</p></td>
 <td></td>
 <td><p>Porcentagem da chamada em que o ponto de extremidade determinou que a conexão de rede não pôde suportar vídeo MultiView.</p>
 <p>Esta coluna foi introduzida no Microsoft Lync Server 2013.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>RelativeOneWayTotal</strong></p></td>
-<td><p>float</p></td>
+<td><p>flutuação</p></td>
 <td></td>
 <td><p>Quantidade total de latência unidirecional. A latência relativa unidirecional mede o atraso entre o cliente e o servidor.</p>
 <p>Esta coluna foi introduzida no Microsoft Lync Server 2013.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>RelativeOneWayAverage</strong></p></td>
-<td><p>float</p></td>
+<td><p>flutuação</p></td>
 <td></td>
 <td><p>Quantidade média de latência unidirecional. A latência relativa unidirecional mede o atraso entre o cliente e o servidor.</p>
 <p>Esta coluna foi introduzida no Microsoft Lync Server 2013.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>RelativeOneWayMax</strong></p></td>
-<td><p>float</p></td>
+<td><p>flutuação</p></td>
 <td></td>
 <td><p>Quantidade máxima de latência unidirecional. A latência relativa unidirecional mede o atraso entre o cliente e o servidor.</p>
 <p>Esta coluna foi introduzida no Microsoft Lync Server 2013.</p></td>
@@ -342,7 +344,7 @@ Cada registro representa um fluxo de vídeo. Uma linha de mídia de vídeo geral
 </tr>
 <tr class="even">
 <td><p><strong>RelativeOneWayBurstDuration</strong></p></td>
-<td><p>float</p></td>
+<td><p>flutuação</p></td>
 <td></td>
 <td><p>Duração total de intermitências unidirecionais. Uma transmissão "intermitente" ocorre quando os fluxos de dados sofrem intermitências imprevisíveis, em oposição a um fluxo contínuo. Esta medida avalia o fluxo de dados entre o cliente e o servidor.</p>
 <p>Esta coluna foi introduzida no Microsoft Lync Server 2013.</p></td>
@@ -356,14 +358,14 @@ Cada registro representa um fluxo de vídeo. Uma linha de mídia de vídeo geral
 </tr>
 <tr class="even">
 <td><p><strong>RelativeOneWayGapDensity</strong></p></td>
-<td><p>float</p></td>
+<td><p>flutuação</p></td>
 <td></td>
 <td><p>Densidade total de intervalos unidirecionais. Uma transmissão "intermitente" ocorre quando os fluxos de dados sofrem intermitências imprevisíveis, em oposição a um fluxo contínuo: os intervalos indicam os atrasos entre essas intermitências. Esta medida avalia o fluxo de dados entre o cliente e o servidor.</p>
 <p>Esta coluna foi introduzida no Microsoft Lync Server 2013.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>RelativeOneWayGapDuration</strong></p></td>
-<td><p>float</p></td>
+<td><p>flutuação</p></td>
 <td></td>
 <td><p>Duração total de intervalos unidirecionais. Uma transmissão "intermitente" ocorre quando os fluxos de dados sofrem intermitências imprevisíveis, em oposição a um fluxo contínuo: os intervalos indicam os atrasos entre essas intermitências. Esta medida avalia o fluxo de dados entre o cliente e o servidor.</p>
 <p>Esta coluna foi introduzida no Microsoft Lync Server 2013.</p></td>
@@ -405,7 +407,7 @@ Cada registro representa um fluxo de vídeo. Uma linha de mídia de vídeo geral
 </tr>
 <tr class="odd">
 <td><p><strong>SendFrameRateAverage</strong></p></td>
-<td><p>float</p></td>
+<td><p>flutuação</p></td>
 <td></td>
 <td><p>Taxa média de transmissão de quadros de vídeo usada pelo remetente.</p>
 <p>Esta coluna foi introduzida no Microsoft Lync Server 2013.</p></td>
@@ -453,7 +455,7 @@ Cada registro representa um fluxo de vídeo. Uma linha de mídia de vídeo geral
 </tr>
 <tr class="even">
 <td><p><strong>RecvFrameRateAverage</strong></p></td>
-<td><p>float</p></td>
+<td><p>flutuação</p></td>
 <td></td>
 <td><p>Taxa média de quadros de vídeo usada pelo receptor.</p>
 <p>Esta coluna foi introduzida no Microsoft Lync Server 2013.</p></td>
@@ -495,14 +497,14 @@ Cada registro representa um fluxo de vídeo. Uma linha de mídia de vídeo geral
 </tr>
 <tr class="even">
 <td><p><strong>VideoPostFECPLR</strong></p></td>
-<td><p>float</p></td>
+<td><p>flutuação</p></td>
 <td></td>
 <td><p>Taxa de perda de pacote após a correção de erro encaminhar ter sido aplicada.</p>
 <p>Esta coluna foi introduzida no Microsoft Lync Server 2013.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>DynamicCapabilityPercent</strong></p></td>
-<td><p>float</p></td>
+<td><p>flutuação</p></td>
 <td></td>
 <td><p>Porcentagem de tempo em que o sinalizador de recurso dinâmico estava ativo.</p>
 <p>Esta coluna foi introduzida no Microsoft Lync Server 2013.</p></td>
@@ -516,21 +518,21 @@ Cada registro representa um fluxo de vídeo. Uma linha de mídia de vídeo geral
 </tr>
 <tr class="odd">
 <td><p><strong>LowBitRateCallPercent</strong></p></td>
-<td><p>float</p></td>
+<td><p>flutuação</p></td>
 <td></td>
 <td><p>Porcentagem da chamada abaixo do limite de taxa de bits baixa (70 kilobits por segundo).</p>
 <p>Esta coluna foi introduzida no Microsoft Lync Server 2013.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>LowFrameRateCallPercent</strong></p></td>
-<td><p>float</p></td>
+<td><p>flutuação</p></td>
 <td></td>
 <td><p>Porcentagem da chamada abaixo do limite de baixa taxa de quadros (7,5 quadros por segundo, entrada).</p>
 <p>Esta coluna foi introduzida no Microsoft Lync Server 2013.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>LowResolutionCallPercent</strong></p></td>
-<td><p>float</p></td>
+<td><p>flutuação</p></td>
 <td></td>
 <td><p>Porcentagem da chamada que ocorreu na resolução mais baixa.</p>
 <p>Esta coluna foi introduzida no Microsoft Lync Server 2013.</p>
@@ -538,7 +540,7 @@ Cada registro representa um fluxo de vídeo. Uma linha de mídia de vídeo geral
 </tr>
 <tr class="even">
 <td><p><strong>DurationSeconds</strong></p></td>
-<td><p>float</p></td>
+<td><p>flutuação</p></td>
 <td></td>
 <td><p>Duração da chamada em segundos.</p>
 <p>Esta coluna foi introduzida no Microsoft Lync Server 2013.</p></td>

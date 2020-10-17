@@ -12,20 +12,22 @@ ms:contentKeyID: 63969575
 ms.date: 12/29/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 050ba83b4598fc5ed8ed3d40d0b1aa02ba9356b2
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: e17b4a4e3550ea5af665c78b40039dcbd56facdc
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42194724"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48519358"
 ---
+# <a name="test-admin-topology-rights-in-lync-server-2013"></a>Testar os direitos de topologia de administração no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="test-admin-topology-rights-in-lync-server-2013"></a>Testar os direitos de topologia de administração no Lync Server 2013
+
 
 </div>
 
@@ -100,11 +102,11 @@ Para obter mais informações, consulte o tópico de ajuda para o cmdlet [Test-C
 
 Se Test-CsSetupPermission determinar que as permissões necessárias já foram definidas em um contêiner do Active Directory, o cmdlet retornará o valor true:
 
-True
+Verdadeiro.
 
 Se as permissões não forem definidas, Test-CsSetupPermission retornará o valor false. Observe que esse valor normalmente será incluído em várias mensagens de aviso. Por exemplo:
 
-Aviso: entrada de controle de acesso (ACE) ATL-cs\\-001 RTCUniversalServerAdmins; Permitiu ExtendedRight; Nenhum Nenhum 1131f6aa-9c07-11d1-f79f-00c04fc2dcd2
+Aviso: entrada de controle de acesso (ACE) ATL-cs-001 \\ RTCUniversalServerAdmins; Permitiu ExtendedRight; Nenhum Nenhum 1131f6aa-9c07-11d1-f79f-00c04fc2dcd2
 
 Aviso: as entradas de controle de acesso (ACEs) no objeto "CN = computadores, DC = litwareinc, DC = com" não estão prontas.
 
@@ -112,7 +114,7 @@ Falso
 
 Aviso: o processamento de "Test-CsSetupPermission" foi concluído com avisos. os avisos "2" foram registrados durante esta execução.
 
-Aviso: resultados detalhados podem ser encontrados em "C\\:\\Users\\admin\\\\local\\Temp-CsSetupPermission-1da99ba6-abe2-45E4-8b16-dfd244763118. html".
+Aviso: resultados detalhados podem ser encontrados em "C \\ : \\ usuários \\ admin \\ \\Test-CsSetupPermission-1da99ba6-abe2-45e4-8b16-dfd244763118.htmlocal \\
 
 </div>
 

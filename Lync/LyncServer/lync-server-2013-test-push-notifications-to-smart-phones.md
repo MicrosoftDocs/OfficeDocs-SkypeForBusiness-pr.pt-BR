@@ -12,20 +12,22 @@ ms:contentKeyID: 63969626
 ms.date: 03/15/2017
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 06684665819e14540628e5cd45309ef2c920b227
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: d0e8d6198fc022c03e69e68475d77f513d577ad4
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42194514"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48519198"
 ---
+# <a name="test-push-notifications-to-smart-phones-in-lync-server-2013"></a>Testar notificações por push para telefones inteligentes no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="test-push-notifications-to-smart-phones-in-lync-server-2013"></a>Testar notificações por push para telefones inteligentes no Lync Server 2013
+
 
 </div>
 
@@ -66,7 +68,7 @@ _**Última modificação do tópico:** 2017-03-15_
 
 ## <a name="description"></a>Descrição
 
-O serviço de notificação por push (Apple Push Notification Service e o serviço de notificação por push da Microsoft) pode enviar notificações sobre eventos como novas mensagens instantâneas ou nova caixa postal para dispositivos móveis, como iPhones e telefones Windows, mesmo que o cliente do Lync nesses dispositivos estão atualmente suspensos ou em execução em segundo plano. O serviço de notificação por push é um serviço baseado em nuvem que é executado em servidores Microsoft. Para aproveitar as notificações por push, você deve ser capaz de se conectar a e ser autenticado por uma notificação de envio por push. O cmdlet Test-CsMcxPushNotification permite que os administradores verifiquem se as solicitações de notificação por push podem ser roteadas pelo servidor de borda para a Clearinghouse de notificação por push.
+O serviço de notificação por push (Apple Push Notification Service e o serviço de notificação por push da Microsoft) pode enviar notificações sobre eventos como novas mensagens instantâneas ou nova caixa postal para dispositivos móveis, como iPhones e telefones Windows, mesmo que o cliente Lync nesses dispositivos esteja atualmente suspenso ou em execução em segundo plano. O serviço de notificação por push é um serviço baseado em nuvem que é executado em servidores Microsoft. Para aproveitar as notificações por push, você deve ser capaz de se conectar a e ser autenticado por uma notificação de envio por push. O cmdlet Test-CsMcxPushNotification permite que os administradores verifiquem se as solicitações de notificação por push podem ser roteadas pelo servidor de borda para a Clearinghouse de notificação por push.
 
 </div>
 
@@ -98,7 +100,7 @@ Erros
 
 Diagnóstico
 
-Se Test-CsMcxPushNotification não puder se conectar à Clearinghouse de notificação por push, o cmdlet normalmente não retornará um resultado de teste de falha. Em vez disso, o comando geralmente falhará completamente. Por exemplo:
+Se Test-CsMcxPushNotification não conseguir se conectar à Clearinghouse de notificação por push, o cmdlet normalmente não retornará um resultado de teste de falha. Em vez disso, o comando geralmente falhará completamente. Por exemplo:
 
 Test-CsMcxPushNotification: uma resposta de 504 (tempo limite do servidor) foi recebida da rede e a operação falhou. Consulte os detalhes da exceção para obter mais informações.
 
@@ -106,9 +108,9 @@ Na linha: 1 caractere: 27
 
 \+Test-CsMcxPushNotification \< \< \< \< -AccessEdgeFqdn lyncedge.mydomain.com
 
-\+CategoryInfo: OperationStopped: (:) \[Test-CsMcxPushNotification\], FailureResponseException
+\+ CategoryInfo: OperationStopped: (:) \[ Test-CsMcxPushNotification \] , FailureResponseException
 
-\+FullyQualifiedErrorId: WorkflowNotCompleted, Microsoft. RTC. Management. SyntheticTransactions. TestMcxPushNotificationCmdlet
+\+ FullyQualifiedErrorId: WorkflowNotCompleted, Microsoft. RTC. Management. SyntheticTransactions. TestMcxPushNotificationCmdlet
 
 </div>
 
@@ -138,17 +140,17 @@ Se o URI estiver configurado corretamente, sua próxima etapa deverá ser verifi
 
 Uma resposta de 504 (tempo limite do servidor) foi recebida da rede e a operação falhou. Consulte os detalhes da exceção para obter mais informações.
 
-Também é possível que o Test-CsMcxConfiguration falhe com esta mensagem de erro:
+Também é possível que Test-CsMcxConfiguration falhe com esta mensagem de erro:
 
 Test-CsMcxPushNotification: a solicitação de notificação por push foi rejeitada.
 
 Na linha: 1 caractere: 27
 
-\+Test-CsMcxPushNotification\<\<\<\<
+\+ Test-CsMcxPushNotification \<\<\<\<
 
-\+CategoryInfo: OperationStopped: (:) \[Test-CsMcxPushNotification\], SyntheticTransactionException
+\+ CategoryInfo: OperationStopped: (:) \[ Test-CsMcxPushNotification \] , SyntheticTransactionException
 
-\+FullyQualifiedErrorId: WorkflowNotCompleted, Microsoft. RTC. Management. SyntheticTransactions. TestMcxPushNotificationCmdlet
+\+ FullyQualifiedErrorId: WorkflowNotCompleted, Microsoft. RTC. Management. SyntheticTransactions. TestMcxPushNotificationCmdlet
 
 A mensagem "solicitação de notificação por push foi rejeitada" geralmente ocorrerá se você tiver habilitado a filtragem de URL e estiver bloqueando os prefixos http: e https:. Você pode determinar quais prefixos estão sendo bloqueados usando um comando semelhante ao seguinte:
 

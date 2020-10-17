@@ -12,20 +12,22 @@ ms:contentKeyID: 51803984
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d2e0454b5f8fc891aa878623575ee3850050ba28
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 854e887605cc1d3d2b6d394228ebd3e8059644ee
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42212995"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48518828"
 ---
+# <a name="users-location-in-lync-server-2013"></a>Local do usuário no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="users-location-in-lync-server-2013"></a>Local do usuário no Lync Server 2013
+
 
 </div>
 
@@ -37,26 +39,26 @@ ms.locfileid: "42212995"
 
 _**Última modificação do tópico:** 2013-03-09_
 
-O roteamento baseado em local aproveita as mesmas regiões de rede, sites e sub-redes, conforme definido no Lync Server usado pelo E9-1-1, CAC e bypass de mídia para aplicar restrições de roteamento de chamadas para evitar o bypass de chamada PSTN. O local de um usuário é determinado pela sub-rede IP dos pontos de extremidade do Lync do usuário estão conectados. Cada sub-rede IP é associada a um site de rede, que é agregado às regiões de rede definidas pelo administrador. O roteamento baseado em local é aplicado com base no site de rede do usuário.
+Location-Based roteamento aproveita as mesmas regiões de rede, sites e sub-redes, conforme definido no Lync Server usado pelo E9-1-1, CAC e bypass de mídia para aplicar restrições de roteamento de chamadas para evitar o bypass de chamada PSTN. O local de um usuário é determinado pela sub-rede IP dos pontos de extremidade do Lync do usuário estão conectados. Cada sub-rede IP é associada a um site de rede, que é agregado às regiões de rede definidas pelo administrador. Location-Based roteamento é aplicado com base no site de rede do usuário.
 
-Regras de roteamento com base no local são aplicadas por site de rede, significando que um determinado conjunto de regras será aplicado a todos os pontos de extremidade habilitados para roteamento baseado em local localizado dentro do mesmo local de rede. Os administradores podem aplicar o roteamento baseado em local a sites de rede que o exijam.
+Location-Based regras de roteamento são aplicadas por site de rede, o que significa que um determinado conjunto de regras será aplicado a todos os pontos de extremidade habilitados para Location-Based roteamento localizado dentro do mesmo local de rede. Os administradores podem aplicar Location-Based roteamento a sites de rede que o exijam.
 
-As políticas de roteamento de voz podem ser definidas por site de rede para definir um gateway PSTN específico que deve ser usado por todos os usuários localizados no site de rede para chamar números de telefone PSTN. Essas políticas de roteamento de voz terão precedência sobre o roteamento definido pela política de voz do usuário quando o usuário estiver localizado em um site de rede habilitado para o roteamento baseado em local e impedirá o roteamento de chamadas por meio de outros gateways PSTN habilitados para Roteamento baseado em local. Quando um usuário do Lync coloca uma chamada PSTN, a política de voz do usuário determina se o usuário pode ser autorizado a fazer a chamada. Se a política de voz do usuário permitir que o usuário faça a chamada, o roteamento baseado em local determinará o gateway PSTN de saída da chamada. O roteamento baseado em local faz essa determinação com base no local do usuário.
+As políticas de roteamento de voz podem ser definidas por site de rede para definir um gateway PSTN específico que deve ser usado por todos os usuários localizados no site de rede para chamar números de telefone PSTN. Essas políticas de roteamento de voz terão precedência sobre o roteamento definido pela política de voz do usuário quando o usuário estiver localizado em um site de rede habilitado para roteamento de Location-Based e impedirá o roteamento de chamadas por meio de outros gateways PSTN habilitados para roteamento Location-Based. Quando um usuário do Lync coloca uma chamada PSTN, a política de voz do usuário determina se o usuário pode ser autorizado a fazer a chamada. Se a política de voz do usuário permitir que o usuário faça a chamada, Location-Based roteamento determinará o gateway PSTN de saída da chamada. Location-Based roteamento faz essa determinação com base no local do usuário.
 
 Um local de usuário pode ser categorizado das seguintes maneiras:
 
-  - O usuário está localizado em um site de rede conhecido habilitado para roteamento baseado em local e seu número (discagem direta interna) termina em um gateway PSTN colocado no mesmo local de rede (ou seja, Office). O roteamento de chamadas de saída será através da política de roteamento de voz do local de rede no qual o usuário está localizado. As chamadas PSTN de entrada para o usuário são roteadas para pontos de extremidade localizados no mesmo local de rede que o gateway PSTN.
+  - O usuário está localizado em um site de rede conhecido habilitado para roteamento de Location-Based e seu número (discagem direta interna) termina em um gateway PSTN colocado no mesmo local de rede (ou seja, Office). O roteamento de chamadas de saída será através da política de roteamento de voz do local de rede no qual o usuário está localizado. As chamadas PSTN de entrada para o usuário são roteadas para pontos de extremidade localizados no mesmo local de rede que o gateway PSTN.
 
   - O usuário está localizado em um site de rede conhecido que é diferente do local de rede onde o gateway PSTN está localizado. (ou seja, o usuário viajau para outro escritório corporativo). O roteamento de chamadas de saída usará a política de roteamento de voz do local de rede no qual o usuário está localizado. As chamadas PSTN de entrada para o usuário não serão encaminhadas para pontos de extremidade localizados em diferentes sites do que o gateway PSTN para impedir o bypass de chamada PSTN.
 
-  - Quando um usuário está localizado em um site de rede que é desconhecido para a implantação do Lync Server, o roteamento de chamadas de saída será baseado na política de voz atribuída ao usuário para gateways PSTN não ligados a restrições de roteamento com base no local. As chamadas PSTN de entrada não serão encaminhadas para pontos de extremidade localizados em sites de rede desconhecidos para impedir o bypass de chamadas PSTN.
+  - Quando um usuário está localizado em um site de rede que é desconhecido para a implantação do Lync Server, o roteamento de chamadas de saída será baseado na política de voz atribuída ao usuário aos gateways PSTN não associados a Location-Based restrições de roteamento. As chamadas PSTN de entrada não serão encaminhadas para pontos de extremidade localizados em sites de rede desconhecidos para impedir o bypass de chamadas PSTN.
 
 <div>
 
 ## <a name="see-also"></a>Confira também
 
 
-[Orientação para roteamento baseado em local no Lync Server 2013](lync-server-2013-guidance-for-location-based-routing.md)  
+[Orientações para Location-Based roteamento no Lync Server 2013](lync-server-2013-guidance-for-location-based-routing.md)  
   
 
 </div>

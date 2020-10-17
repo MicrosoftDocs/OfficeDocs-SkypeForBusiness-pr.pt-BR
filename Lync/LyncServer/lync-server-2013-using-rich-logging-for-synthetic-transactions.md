@@ -12,20 +12,22 @@ ms:contentKeyID: 48183812
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b1fd1cfd26e1b5d56a6043e13d348e73e3c2b108
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 1d73bfe085d34e536c5d3b44f1cacca8819de442
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42212717"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48518788"
 ---
+# <a name="using-rich-logging-for-synthetic-transactions-in-lync-server-2013"></a>Usando o registro avançado de transações sintéticas no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="using-rich-logging-for-synthetic-transactions-in-lync-server-2013"></a>Usando o registro avançado de transações sintéticas no Lync Server 2013
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42212717"
 
 _**Última modificação do tópico:** 2012-10-22_
 
-As transações sintéticas (introduzidas no Microsoft Lync Server 2010) permitem que os administradores verifiquem se os usuários podem concluir com êxito as tarefas comuns, como fazer logon no sistema, trocar mensagens instantâneas ou fazer chamadas a um telefone localizado na rede telefônica pública comutada (PSTN). Esses testes (que são empacotados como um conjunto de cmdlets do Windows PowerShell do Lync Server) podem ser conduzidos manualmente por um administrador ou podem ser executados automaticamente por um aplicativo como o System Center Operations Manager.
+As transações sintéticas (introduzidas no Microsoft Lync Server 2010) permitem que os administradores verifiquem se os usuários podem concluir com êxito as tarefas comuns, como fazer logon no sistema, trocar mensagens instantâneas ou fazer chamadas para um telefone localizado na rede telefônica pública comutada (PSTN). Esses testes (que são empacotados como um conjunto de cmdlets do Windows PowerShell do Lync Server) podem ser conduzidos manualmente por um administrador ou podem ser executados automaticamente por um aplicativo como o System Center Operations Manager.
 
 No Lync Server 2010, as transações sintéticas são extremamente úteis para ajudar os administradores a identificar problemas com o sistema. Por exemplo, o cmdlet **Test-CsRegistration** pode alertar os administradores no fato de que alguns usuários estavam tendo dificuldade para registrar-se no Lync Server. No entanto, as transações sintéticas eram um pouco menos úteis para ajudar os administradores a determinar por que esses usuários estavam tendo dificuldade para se registrar no Lync Server. Isso se deve ao fato de que as transações sintéticas não forneceram informações detalhadas de registro em log que podem ajudar os administradores a solucionar problemas com o Lync Server. Na melhor das hipóteses, a saída detalhada de uma transação sintética oferecia informações passo a passo que poderiam habilitar um administrador a fazer um palpite fundamentado sobre onde era provável que tivesse ocorrido o problema.
 
@@ -91,7 +93,7 @@ Esses arquivos podem ser exibidos usando o Internet Explorer, o Visual Studio ou
 As transações sintéticas executadas de dentro do System Center Operations Manager gerarão automaticamente esses arquivos de log para falhas. No entanto, esses logs não serão gerados se a execução falhar antes que o Windows PowerShell possa carregar e executar a transação sintética.
 
 > [!IMPORTANT]  
-> Por padrão, o Lync Server 2013 salva arquivos de log em uma pasta que não é compartilhada. Para tornar esses logs prontamente acessíveis, você deve compartilhar esta pasta (por exemplo \\ \\, ATL-Watcher-001. litwareinc. com\WatcherNode.
+> Por padrão, o Lync Server 2013 salva arquivos de log em uma pasta que não é compartilhada. Para tornar esses logs prontamente acessíveis, você deve compartilhar esta pasta (por exemplo, \\ \\ ATL-Watcher-001. litwareinc. com\WatcherNode.
 
 
 </div>

@@ -12,20 +12,22 @@ ms:contentKeyID: 63969633
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c2f9cd0beea65cfb1718fea3bc1c0235eb7554ad
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 4d8d68dfaaca20d991aa37d1a73ae31bf88f5c31
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42211807"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48518718"
 ---
+# <a name="validating-voice-number-normalization-and-routing-in-lync-server-2013"></a>Validação da normalização de número de voz e roteamento no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="validating-voice-number-normalization-and-routing-in-lync-server-2013"></a>Validação da normalização de número de voz e roteamento no Lync Server 2013
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42211807"
 
 _**Última modificação do tópico:** 2014-05-19_
 
-A normalização e o roteamento do número corretos são muito importantes para o ambiente corporativo de voz funcional. Especialmente durante as migrações do PBX (Private Branch Exchange) para o ambiente do Lync Server autônomo, uma das chaves para a migração bem-sucedida é revelar e documentar todas as regras de discagem existentes e criar regras de normalização apropriadas, políticas de voz usos e rotas de telefone.
+A normalização e o roteamento do número corretos são muito importantes para o ambiente corporativo de voz funcional. Especialmente durante migrações do PBX (Private Branch Exchange) para o ambiente do Lync Server autônomo, uma das chaves para a migração bem-sucedida é revelar e documentar todas as regras de discagem existentes e criar regras de normalização apropriadas, políticas de voz, usos e rotas de telefone.
 
 A validação do número normalização e o roteamento é importante não apenas durante as migrações, mas também durante a operação estável normal do sistema.
 

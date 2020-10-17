@@ -12,20 +12,22 @@ ms:contentKeyID: 48185060
 ms.date: 12/29/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bc029df06f22524fa99c232edf6bbe6aa9759f5a
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 1e7acf5fa315e566094728066bbc798267f029ed
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780170"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48519448"
 ---
+# <a name="steps-to-prepare-and-deploy-lync-server-2013-hybrid-environment"></a>Etapas para preparar e implantar o ambiente híbrido do Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="steps-to-prepare-and-deploy-lync-server-2013-hybrid-environment"></a>Etapas para preparar e implantar o ambiente híbrido do Lync Server 2013
+
 
 </div>
 
@@ -66,7 +68,7 @@ A tabela a seguir lista as etapas necessárias para preparar seu ambiente para u
 <td><p>Adicionar seu domínio e verificar a propriedade</p></td>
 <td><p>Seu domínio, às vezes, também é conhecido como seu <em>domínio personalizado</em>. Você deve adicionar seu domínio à sua organização do Office 365 e, em seguida, siga as etapas para validar o domínio com o Office 365. Isso é para confirmar que você é o proprietário do domínio.</p>
 <p>Para adicionar seu domínio à sua organização do Office 365, siga as etapas descritas em <a href="https://go.microsoft.com/fwlink/p/?linkid=254983">Adicionar seu domínio ao Office 365</a>.</p>
-<p>Conclua todas as etapas em cada seção do tópico, incluindo &quot;editar registros DNS para seus serviços do Office 365.&quot;</p></td>
+<p>Conclua todas as etapas em cada seção do tópico, incluindo &quot; editar registros DNS para seus serviços do Office 365.&quot;</p></td>
 </tr>
 <tr class="odd">
 <td></td>

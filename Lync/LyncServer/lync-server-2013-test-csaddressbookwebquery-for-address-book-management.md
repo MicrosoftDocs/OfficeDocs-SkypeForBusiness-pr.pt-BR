@@ -12,20 +12,22 @@ ms:contentKeyID: 48184865
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f5f03ead82f4ec5ebcb09c3bbfa1bba6206b8333
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 8c4112f34eb35bcf45991e6744327487afe9a2a7
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42194585"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48519238"
 ---
+# <a name="test-csaddressbookwebquery-for-address-book-management-in-lync-server-2013"></a>Test-CsAddressBookWebQuery para gerenciamento de catálogo de endereços no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="test-csaddressbookwebquery-for-address-book-management-in-lync-server-2013"></a>Test-CsAddressBookWebQuery para gerenciamento de catálogo de endereços no Lync Server 2013
+
 
 </div>
 
@@ -41,7 +43,7 @@ Quem pode executar este cmdlet: por padrão, os membros dos seguintes grupos sã
 
     Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Test-CsAddressBookService"}
 
-Semelhante à transação sintética test-CsAddressBookService, Test-CsAddressBookWebQuery executa uma consulta em relação à consulta à Web do catálogo de endereços para garantir que ela esteja funcionando corretamente. O cmdlet será conectado à autenticação de tíquete da Web e apresentará as credenciais especificadas em – usercredential. Se for autenticado, o cmdlet apresentará as informações – TargetSipAddress. O cmdlet deve relatar êxito se tiver conseguido recuperar as informações sobre o contato.
+Semelhante à transação sintética de Test-CsAddressBookService, Test-CsAddressBookWebQuery executa uma consulta em relação à consulta à Web do catálogo de endereços para garantir que ela esteja funcionando corretamente. O cmdlet será conectado à autenticação de tíquete da Web e apresentará as credenciais especificadas em – usercredential. Se for autenticado, o cmdlet apresentará as informações – TargetSipAddress. O cmdlet deve relatar êxito se tiver conseguido recuperar as informações sobre o contato.
 
 Por exemplo:
 

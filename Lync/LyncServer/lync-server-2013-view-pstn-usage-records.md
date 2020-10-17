@@ -12,20 +12,22 @@ ms:contentKeyID: 48184361
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b6c6ca5761959b8b98cb4eb6a8f17e87c543e788
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 558efe06fb8a91a4a1f923b004756b5791e4367e
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42211687"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48518438"
 ---
+# <a name="view-pstn-usage-records-in-lync-server-2013"></a>Exibir registros de uso de PSTN no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="view-pstn-usage-records-in-lync-server-2013"></a>Exibir registros de uso de PSTN no Lync Server 2013
+
 
 </div>
 
@@ -66,7 +68,7 @@ Um registro de uso de PSTN (rede telefônica pública comutada) especifica uma c
 
 ## <a name="viewing-pstn-usage-information-by-using-windows-powershell-cmdlets"></a>Exibindo informações de uso de PSTN usando cmdlets do Windows PowerShell
 
-Você também pode exibir usos de PSTN usando o Windows PowerShell e o cmdlet **Get-CsPstnUsage** . Este cmdlet pode ser executado a partir do Shell de gerenciamento do Lync Server 2013 ou de uma sessão remota do Windows PowerShell. Para obter detalhes sobre como usar o Windows PowerShell remoto para se conectar ao Lync Server, consulte o artigo de blog do Lync Server Windows PowerShell "início rápido: Managing Microsoft Lync Server [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)2010 using Remote PowerShell" em.
+Você também pode exibir usos de PSTN usando o Windows PowerShell e o cmdlet **Get-CsPstnUsage** . Este cmdlet pode ser executado a partir do Shell de gerenciamento do Lync Server 2013 ou de uma sessão remota do Windows PowerShell. Para obter detalhes sobre como usar o Windows PowerShell remoto para se conectar ao Lync Server, consulte o artigo de blog do Lync Server Windows PowerShell "início rápido: Managing Microsoft Lync Server 2010 using Remote PowerShell" em [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876) .
 
 <div>
 
@@ -76,7 +78,7 @@ Você também pode exibir usos de PSTN usando o Windows PowerShell e o cmdlet **
     
         Get-CsPstnUsage
     
-    Esse comando retorna informações semelhantes às seguintes:
+    Esse comando retornará informações parecidas com:
     
         Identity : Global
         Usage    : {Internal, Local, Long Distance}

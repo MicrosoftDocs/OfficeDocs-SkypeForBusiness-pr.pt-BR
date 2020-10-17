@@ -12,20 +12,22 @@ ms:contentKeyID: 48183883
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ca51a3c597be40c679a7b131f87775876a63811d
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: c07fc83680fd6b1d3f4d0d24429165ff9cc5ca65
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42211747"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48518608"
 ---
+# <a name="verify-or-configure-authentication-and-certification-on-iis-virtual-directories-in-lync-server-2013"></a>Verificar ou configurar a autenticação e certificação nos diretórios virtuais do IIS no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="verify-or-configure-authentication-and-certification-on-iis-virtual-directories-in-lync-server-2013"></a>Verificar ou configurar a autenticação e certificação nos diretórios virtuais do IIS no Lync Server 2013
+
 
 </div>
 
@@ -43,7 +45,7 @@ Use o procedimento a seguir para configurar o certificado nos diretórios virtua
 
 
 > [!NOTE]  
-> O procedimento a seguir define um procedimento para solicitar um certificado combinado que é usado para todas as finalidades do Lync Server, site interno e site externo no IIS. O Lync Server 2010 introduziu um conjunto de cmdlets&nbsp;do Windows PowerShell do Shell de gerenciamento do Lync Server para o propósito expresso de gerenciamento de solicitação de certificado, importação e atribuição. O procedimento assume que há uma autoridade de certificação (CA) implantada internamente que pode processar a solicitação. Se você usar certificados públicos para fins do Lync Server ou sua autoridade de certificação exigir uma solicitação offline, consulte a sintaxe detalhada neste tópico para obter informações sobre o parâmetro – output. <A href="https://docs.microsoft.com/powershell/module/skype/Request-CsCertificate">Request-CsCertificate</A>
+> O procedimento a seguir define um procedimento para solicitar um certificado combinado que é usado para todas as finalidades do Lync Server, site interno e site externo no IIS. O Lync Server 2010 introduziu um conjunto de cmdlets do Windows PowerShell do Shell de gerenciamento do Lync Server &nbsp; para o propósito expresso de gerenciamento de solicitação de certificado, importação e atribuição. O procedimento assume que há uma autoridade de certificação (CA) implantada internamente que pode processar a solicitação. Se você usar certificados públicos para fins do Lync Server ou sua autoridade de certificação exigir uma solicitação offline, consulte a sintaxe detalhada neste tópico para obter informações sobre o parâmetro – output. <A href="https://docs.microsoft.com/powershell/module/skype/Request-CsCertificate">Request-CsCertificate</A>
 
 
 
@@ -76,7 +78,7 @@ Use o procedimento a seguir para configurar o certificado nos diretórios virtua
     
     A saída é uma lista dos certificados que estão atualmente no servidor, no repositório de certificados do Pessoal do Computador. Observe que, no certificado combinado (isto é, onde por padrão os serviços da web internos e externos estão utilizando o mesmo certificado), você verá que a propriedade Uso estará populado com Padrão, WebServicesInternal and WebServicesExternal. Além disso, a propriedade Thumbprint será a mesma para cada um dos tipos de Uso. Um exemplo de saída de Get-CsCertificate é exibido neste exemplo:
     
-    ![Get-CsCertificate informações sobre o status atual do scert](images/Gg429702.664f6326-6cd5-48e2-8235-fc3950ea43b4(OCS.15).jpg "Get-CsCertificate informações sobre o status atual do scert")
+    ![Get-CsCertificate informações sobre o status atual do scert](images/Gg429702.664f6326-6cd5-48e2-8235-fc3950ea43b4(OCS.15).jpg "Informações de Get-CsCertificate sobre o status atual do scert")
 
 6.  No Shell de gerenciamento do Lync Server, digite o seguinte:
     
@@ -95,7 +97,7 @@ Use o procedimento a seguir para configurar o certificado nos diretórios virtua
     
     </div>
     
-    ![Saída da solicitação de CERT usando Request-CsCertifica](images/Gg429702.9e59a657-fa75-4454-8fd3-57c81e829f7b(OCS.15).jpg "Saída da solicitação de CERT usando Request-CsCertifica")
+    ![Saída da solicitação de CERT usando Request-CsCertifica](images/Gg429702.9e59a657-fa75-4454-8fd3-57c81e829f7b(OCS.15).jpg "Saída da solicitação de certificado usando Request-CsCertifica")
 
 7.  No Shell de gerenciamento do Lync Server, digite o seguinte:
     
