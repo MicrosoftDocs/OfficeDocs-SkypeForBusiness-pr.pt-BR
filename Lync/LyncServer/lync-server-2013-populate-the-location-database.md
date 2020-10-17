@@ -12,20 +12,22 @@ ms:contentKeyID: 48185939
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0216cada44f2512e33a0b33b627ed9a6d6582cda
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: de9a5c9015dcaf83252260c89837a473a6a2291f
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42208807"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48527968"
 ---
+# <a name="populate-the-location-database-in-lync-server-2013"></a>Preencher o banco de dados de localização no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="populate-the-location-database-in-lync-server-2013"></a>Preencher o banco de dados de localização no Lync Server 2013
+
 
 </div>
 
@@ -58,23 +60,23 @@ Se você usa um gateway de número da chamada de emergência (Emergency Location
 <tbody>
 <tr class="odd">
 <td><p><strong>Ponto de acesso sem fio </strong></p></td>
-<td><p>&lt;BSSID&gt;,&lt;Descrição&gt;,&lt;local&gt;,&lt;CompanyName&gt;,&lt;HouseNumber&gt;,&lt;HouseNumberSuffix&gt;,&lt;predirectional&gt;,...</p>
-<p>... &lt;Streetname&gt;,&lt;StreetSuffix&gt;,&lt;&gt;-direcional&lt;, cidade&gt;,&lt;estado&gt;,&lt;CEP&gt;, país&lt;&gt;</p></td>
+<td><p>&lt;BSSID &gt; , &lt; Descrição &gt; , &lt; local &gt; , &lt; CompanyName &gt; , &lt; HouseNumber &gt; , &lt; HouseNumberSuffix &gt; , &lt; predirectional &gt; ,...</p>
+<p>... &lt; Streetname &gt; , &lt; StreetSuffix &gt; ,- &lt; direcional &gt; , &lt; cidade &gt; , &lt; estado &gt; , &lt; CEP &gt; , &lt; país&gt;</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>-</strong></p></td>
-<td><p>&lt;Sub&gt;-&lt;rede&gt;,&lt;Descrição&gt;,&lt;local&gt;,&lt;CompanyName&gt;,&lt;HouseNumber&gt;,&lt;HouseNumberSuffix, predirectional&gt;,...</p>
-<p>... &lt;Streetname&gt;,&lt;StreetSuffix&gt;,&lt;&gt;-direcional&lt;, cidade&gt;,&lt;estado&gt;,&lt;CEP&gt;, país&lt;&gt;</p></td>
+<td><p><strong>Sub-rede</strong></p></td>
+<td><p>&lt;Sub-rede &gt; , &lt; Descrição &gt; , &lt; local &gt; , &lt; CompanyName &gt; , &lt; HouseNumber &gt; , &lt; HouseNumberSuffix &gt; , &lt; predirectional &gt; ,...</p>
+<p>... &lt; Streetname &gt; , &lt; StreetSuffix &gt; ,- &lt; direcional &gt; , &lt; cidade &gt; , &lt; estado &gt; , &lt; CEP &gt; , &lt; país&gt;</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Port</strong></p></td>
-<td><p>&lt;ChassisID&gt;,&lt;PortIDSubType&gt;,&lt;portid&gt;,&lt;Description&gt;,&lt;Location&gt;,&lt;CompanyName&gt;,&lt;HouseNumber&gt;,&lt;HouseNumberSuffix&gt;,...</p>
-<p>... &lt;Predirectional&gt;,&lt;streetname&gt;,&lt;StreetSuffix&gt;,&lt;multidirecional&gt;,&lt;cidade&gt;,&lt;estado&gt;,&lt;CEP&gt;,&lt;país&gt;</p></td>
+<td><p>&lt;ChassisID &gt; , &lt; PortIDSubType &gt; , &lt; portid &gt; , &lt; Description &gt; , &lt; Location &gt; , &lt; CompanyName &gt; , &lt; HouseNumber &gt; , &lt; HouseNumberSuffix &gt; ,...</p>
+<p>... &lt; Predirectional &gt; , &lt; streetname &gt; , &lt; StreetSuffix &gt; , &lt; multidirecional &gt; , &lt; cidade &gt; , &lt; estado &gt; , &lt; CEP &gt; , &lt; país&gt;</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Switch</strong></p></td>
-<td><p>&lt;ChassisID&gt;,&lt;Descrição&gt;,&lt;local&gt;,&lt;CompanyName&gt;,&lt;HouseNumber&gt;,&lt;HouseNumberSuffix&gt;,&lt;predirectional&gt;,...</p>
-<p>... &lt;Streetname&gt;,&lt;StreetSuffix&gt;,&lt;&gt;-direcional&lt;, cidade&gt;,&lt;estado&gt;,&lt;CEP&gt;, país&lt;&gt;</p></td>
+<td><p>&lt;ChassisID &gt; , &lt; Descrição &gt; , &lt; local &gt; , &lt; CompanyName &gt; , &lt; HouseNumber &gt; , &lt; HouseNumberSuffix &gt; , &lt; predirectional &gt; ,...</p>
+<p>... &lt; Streetname &gt; , &lt; StreetSuffix &gt; ,- &lt; direcional &gt; , &lt; cidade &gt; , &lt; estado &gt; , &lt; CEP &gt; , &lt; país&gt;</p></td>
 </tr>
 </tbody>
 </table>

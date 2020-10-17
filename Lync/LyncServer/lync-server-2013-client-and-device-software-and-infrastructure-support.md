@@ -12,20 +12,22 @@ ms:contentKeyID: 48184265
 ms.date: 08/27/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6eec46250d138e6b97dfe6a12da9d57f43ca2458
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 9e599a7628cd24c59b34616f0c108d7a8c292b9e
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42197894"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48529358"
 ---
+# <a name="client-and-device-software-and-infrastructure-support-in-lync-server-2013"></a>Suporte a infraestrutura e software de cliente e dispositivo no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="client-and-device-software-and-infrastructure-support-in-lync-server-2013"></a>Suporte a infraestrutura e software de cliente e dispositivo no Lync Server 2013
+
 
 </div>
 
@@ -59,9 +61,9 @@ O suporte de software para clientes e dispositivos de uma implantação do Lync 
 > O Lync Phone Edition funciona da mesma maneira que o Lync Server 2013, como no Lync Server 2010. Para obter detalhes sobre o suporte de software para dispositivos, consulte os seguintes tópicos na Biblioteca TechNet do Lync Server 2010: 
 > <UL>
 > <LI>
-> <P>Componentes necessários do Lync Server 2010 para dispositivos em<A class=uri href="https://go.microsoft.com/fwlink/p/?linkid=256488">https://go.microsoft.com/fwlink/p/?linkid=256488</A></P>
+> <P>Componentes necessários do Lync Server 2010 para dispositivos em <A class=uri href="https://go.microsoft.com/fwlink/p/?linkid=256488">https://go.microsoft.com/fwlink/p/?linkid=256488</A></P>
 > <LI>
-> <P>Suporte a infraestrutura e sistema de dispositivos em<A class=uri href="https://go.microsoft.com/fwlink/p/?linkid=256489">https://go.microsoft.com/fwlink/p/?linkid=256489</A></P></LI></UL>
+> <P>Suporte a infraestrutura e sistema de dispositivos em <A class=uri href="https://go.microsoft.com/fwlink/p/?linkid=256489">https://go.microsoft.com/fwlink/p/?linkid=256489</A></P></LI></UL>
 
 
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 48185305
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ea97a57deba77e0bc5b7f2a77a973bb1fb8c21b7
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: aa0164a9e3003c130bc7b14a4312397a4559843c
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42198734"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48528238"
 ---
+# <a name="health-configuration-in-lync-server-2013"></a>Configuração de integridade no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="health-configuration-in-lync-server-2013"></a>Configuração de integridade no Lync Server 2013
+
 
 </div>
 
@@ -41,7 +43,7 @@ Entre vários sites, artigos da base de conhecimento da Microsoft e ferramentas 
 
 Obviamente, não há uma maneira de garantir que você nunca encontrará problemas no Lync Server 2013 porque o Lync Server pode ser afetado por muitas coisas, como falhas de rede e falhas de hardware, que o próprio produto não pode controlar. Ao implementar o monitoramento de integridade, os administradores podem identificar problemas potenciais antes que se transformem em problemas reais. Por exemplo, os administradores podem usar o monitoramento do Lync Server para identificar tendências e Tendencies. Por exemplo, um aumento contínuo no número de conferências de áudio/vídeo pode indicar uma necessidade de adicionar mais capacidade antes do sistema ficar sobrecarregado.
 
-De modo semelhante, os administradores podem usar o System Center Operations Manager para fazer coisas como emitir alertas em tempo real quando os eventos especificados ocorrerem e executar transações sintéticas que testem proativamente o sistema. As transações sintéticas são usadas no Lync Server para verificar se os usuários podem concluir com êxito tarefas comuns, como fazer logon no sistema, trocar mensagens instantâneas ou fazer chamadas a um telefone localizado na rede telefônica pública comutada (PSTN). Por exemplo, a execução periódica desses testes pode alertá-lo sobre possíveis problemas com os usuários que fazem logon no Lync Server e lhe dá a oportunidade de corrigir o problema antes que a equipe de suporte seja inundada com chamadas de usuários que não podem fazer uma conexão. Ao usar o System Center Operations Manager para executar essas transações sintéticas, os administradores podem monitorar rotineiramente sua implantação do Lync Server continuamente por 24 horas por dia, sem ter que fazer muito nada além de responder a qualquer alerta que possa ser emitido.
+De modo semelhante, os administradores podem usar o System Center Operations Manager para fazer coisas como emitir alertas em tempo real quando os eventos especificados ocorrerem e executar transações sintéticas que testem proativamente o sistema. As transações sintéticas são usadas no Lync Server para verificar se os usuários podem concluir com êxito tarefas comuns, como fazer logon no sistema, trocar mensagens instantâneas ou fazer chamadas a um telefone localizado na rede telefônica pública comutada (PSTN). Por exemplo, a execução periódica desses testes pode alertá-lo sobre possíveis problemas com os usuários que fazem logon no Lync Server e lhe dá a oportunidade de corrigir o problema antes que a equipe de suporte seja inundada com chamadas de usuários que não podem fazer uma conexão. Usando o System Center Operations Manager para executar essas transações sintéticas, os administradores podem monitorar rotineiramente sua implantação do Lync Server continuamente por 24 horas por dia, sem ter que fazer muito nada além de responder a qualquer alerta que possa ser emitido.
 
 <div>
 
@@ -55,7 +57,7 @@ De modo semelhante, os administradores podem usar o System Center Operations Man
 
 A configuração de integridade no Lync Server 2013 é criada sobre o System Center Operations Manager e o uso de pacotes de gerenciamento do Lync Server. Esses Pacotes de gerenciamento incluem um número de novos recursos e aprimoramentos, incluindo:
 
-  - **Disponibilidade de cenário de qualquer local.** O pacote de gerenciamento do Lync Server 2010 introduziu o conceito de monitoramento da disponibilidade de cenário do usuário final com transações sintéticas. No Lync Server 2013, esses agentes têm mais transações sintéticas e podem ser executados a partir de uma variedade de locais dentro da empresa, de locais geográficos remotos fora da empresa, contra dispositivos de filial e do Lync Server 2010 implantações para adicionar cobertura a implantações de borda herdadas.
+  - **Disponibilidade de cenário de qualquer local.** O pacote de gerenciamento do Lync Server 2010 introduziu o conceito de monitoramento da disponibilidade de cenário do usuário final com transações sintéticas. No Lync Server 2013, esses agentes têm mais transações sintéticas e podem ser executados a partir de uma variedade de locais dentro da empresa, de locais geográficos remotos fora da empresa, em filiais de escritório e em implantações do Lync Server 2010 para adicionar cobertura a implantações de borda herdadas.
 
   - **Logs de transação sintéticos.** Quando uma transação sintética falhar, os administradores têm acesso a logs HTML para ajudar a determinar onde está a falha. Isso inclui entender que ação falhou, a latência de cada ação, a linha de comando usado para executar o teste e o erro encontrado.
 

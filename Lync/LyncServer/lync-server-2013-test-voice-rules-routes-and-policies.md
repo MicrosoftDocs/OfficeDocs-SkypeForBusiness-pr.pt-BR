@@ -12,20 +12,22 @@ ms:contentKeyID: 63969661
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bbf04728db30bada37e43f14b33420ede1ce9258
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: b903ff4453f15bc22b6715abe27cc045381c0e5b
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42194354"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48527848"
 ---
+# <a name="test-voice-rules-routes-and-policies-in-lync-server-2013"></a>Testar regras de voz, rotas e políticas no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="test-voice-rules-routes-and-policies-in-lync-server-2013"></a>Testar regras de voz, rotas e políticas no Lync Server 2013
+
 
 </div>
 
@@ -76,7 +78,7 @@ Quando um usuário faz uma chamada telefônica, a rota que a chamada leva para c
 
   - O uso de telefone que vinculou a política de voz do usuário à rota de voz.
 
-Test-CsVoiceUser permite determinar se um número de telefone específico irá encaminhar e traduzir conforme o esperado e pode ajudar a solucionar problemas relacionados a chamadas que são experientes por usuários individuais.
+Test-CsVoiceUser permite que você determine se um número de telefone específico irá encaminhar e traduzir conforme o esperado e pode ajudar a solucionar problemas relacionados a chamadas que são experientes por usuários individuais.
 
 </div>
 
@@ -84,7 +86,7 @@ Test-CsVoiceUser permite determinar se um número de telefone específico irá e
 
 ## <a name="running-the-test"></a>Executar o teste
 
-Ao executar o cmdlet Test-CsVoiceUser, você deve fornecer duas partes de informação: o número sendo discado (DialedNumber) e a identidade da conta de usuário que está sendo testada. Por exemplo, este comando testa a capacidade do usuário que tem o endereço SIP sip:kenmyer@litwareinc.com para fazer uma chamada para o número de telefone + 1206555-1219:
+Ao executar o cmdlet Test-CsVoiceUser você deve fornecer duas partes de informação: o número que está sendo discado (DialedNumber) e a identidade da conta de usuário que está sendo testada. Por exemplo, este comando testa a capacidade do usuário que tem o endereço SIP sip:kenmyer@litwareinc.com para fazer uma chamada para o número de telefone + 1206555-1219:
 
 `Test-CsVoiceUser -DialedNumber "12065551219" -SipUri "sip:kenmyer@litwareinc.com"`
 
@@ -122,7 +124,7 @@ Isso exibirá a saída em um formato mais amigável para leitores:
 
 TranslatedNumber: + 12065551219
 
-MatchingRule: Descrição =; Padrão = ^ (\\d{11}) $; Conversão = + $1;
+MatchingRule: Descrição =; Padrão = ^ ( \\ d {11} ) $; Conversão = + $1;
 
 Name = prefix All; IsInternalExtension = false
 
@@ -146,7 +148,7 @@ Há várias razões pelas quais o cmdlet Test-CsVoiceUser pode falhar: Talvez n�
 
 `Test-CsVoiceUser -DialedNumber "+12065551219" -SipUri "sip:kenmyer@litwareinc.com" -Verbose`
 
-Quando o cmdlet verboso for incluído, o Test-CsVoiceUser emitirá uma conta detalhada de todas as etapas adotadas ao conduzir suas verificações. Por exemplo, você pode ver etapas semelhantes a estas: 
+Quando o cmdlet verboso for incluído, Test-CsVoiceUser emitirá uma conta detalhada de todas as etapas adotadas ao conduzir suas verificações. Por exemplo, você pode ver etapas semelhantes a estas: 
 
 VERBOse: Localizando usuário com identidade "sip:kenmyer@litwareinc.com"
 

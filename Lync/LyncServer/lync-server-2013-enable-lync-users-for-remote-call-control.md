@@ -12,20 +12,22 @@ ms:contentKeyID: 48185795
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2a400b5a071a3540f65c38d606724df10883931e
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 37d5aa0b9f13f17dee91ff48048908cde3dbc2cf
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42190664"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48528728"
 ---
+# <a name="enable-lync-users-for-remote-call-control-in-lync-server-2013"></a>Habilitar usuários do Lync para controle de chamada remota no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="enable-lync-users-for-remote-call-control-in-lync-server-2013"></a>Habilitar usuários do Lync para controle de chamada remota no Lync Server 2013
+
 
 </div>
 
@@ -39,7 +41,7 @@ _**Última modificação do tópico:** 2012-09-21_
 
 Você pode configurar os usuários do Lync para controle de chamada remota usando as políticas de provisionamento em banda que são baseadas em servidor. Você pode gerenciar as configurações de provisionamento em banda usando o painel de controle do Lync Server ou a interface de linha de comando do Shell de gerenciamento do Lync Server. Essas ferramentas substituem o snap-in WMI (Instrumentação de gerenciamento do Windows) usado para gerenciar as configurações de política de grupo em versões anteriores.
 
-Se preferir permitir que os usuários definam suas próprias configurações de controle de chamada remota no Lync, você pode definir as configurações de controle de chamada remota para usuários no servidor sem especificar o **URI do servidor de linha** e os valores de **URI da linha** . Certifique-se de comunicar o **URI do servidor de linha** apropriado e os valores de URI da **linha** para seus usuários e forneça as instruções para definir essas configurações. Para o procedimento para configurar manualmente o controle de chamada remota no Lync Server, consulte "configurar opções e números de <https://go.microsoft.com/fwlink/p/?linkid=210132> telefones" na documentação do cliente do Lync no site do Microsoft Office.
+Se preferir permitir que os usuários definam suas próprias configurações de controle de chamada remota no Lync, você pode definir as configurações de controle de chamada remota para usuários no servidor sem especificar o **URI do servidor de linha** e os valores de **URI da linha** . Certifique-se de comunicar o **URI do servidor de linha** apropriado e os valores de URI da **linha** para seus usuários e forneça as instruções para definir essas configurações. Para o procedimento para configurar manualmente o controle de chamada remota no Lync Server, consulte "configurar opções e números de telefones" na <https://go.microsoft.com/fwlink/p/?linkid=210132> documentação do cliente do Lync no site do Microsoft Office.
 
 Se você tiver uma implantação existente do Communications Server 2007 R2 ou Communications Server 2007, os clientes do Communicator 2007 R2 e do Communicator 2007 continuarão a usar a política de grupo durante a migração lado a lado. No entanto, se você quiser que as configurações de política sejam transportadas para os clientes Lync, será necessário configurar as definições equivalentes de provisionamento em banda do Lync Server.
 

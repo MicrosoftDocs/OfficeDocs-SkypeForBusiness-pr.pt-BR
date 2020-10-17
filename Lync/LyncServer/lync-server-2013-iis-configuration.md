@@ -12,20 +12,22 @@ ms:contentKeyID: 48185169
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5c2dd96b45105eabe644b86ba5ab3af099ea8e8f
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 1fc8895a144b4911560af8fd6a2f12d576f3ec14
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42199344"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48528148"
 ---
+# <a name="iis-configuration-in-lync-server-2013"></a>Configuração do IIS no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="iis-configuration-in-lync-server-2013"></a>Configuração do IIS no Lync Server 2013
+
 
 </div>
 
@@ -45,7 +47,7 @@ Antes de configurar e instalar o servidor front-end para o Lync Server 2013, Sta
 
 
 > [!IMPORTANT]  
-> Se sua organização exigir que você localize o IIS e todos os serviços Web em uma unidade diferente da unidade do sistema, você poderá alterar o caminho do local de instalação dos arquivos do Lync Server 2013 na caixa de diálogo de instalação ao instalar inicialmente o Lync Server 2013 Ferramentas administrativas. Instale as ferramentas Administrativas antes de instalar o IIS. Se você instalar os arquivos de instalação nesse caminho, incluindo o OCSCore. msi, o restante dos arquivos do Lync Server 2013 também será implantado nessa unidade. Para o dtails, confira <A href="lync-server-2013-install-lync-server-administrative-tools.md">instalar as ferramentas administrativas do Lync Server 2013</A>. Para obter detalhes sobre como realocar o INETPUB implantado pelo Windows Server Manager ao instalar <A href="https://go.microsoft.com/fwlink/p/?linkid=216888">https://go.microsoft.com/fwlink/p/?linkId=216888</A>o IIS, consulte.
+> Se a sua organização exigir que você localize o IIS e todos os serviços Web em uma unidade diferente da unidade do sistema, você poderá alterar o caminho do local de instalação dos arquivos do Lync Server 2013 na caixa de diálogo Configurar ao instalar inicialmente as ferramentas administrativas do Lync Server 2013. Instale as ferramentas Administrativas antes de instalar o IIS. Se você instalar os arquivos de instalação nesse caminho, incluindo OCSCore.msi, o restante dos arquivos do Lync Server 2013 também será implantado nessa unidade. Para o dtails, confira <A href="lync-server-2013-install-lync-server-administrative-tools.md">instalar as ferramentas administrativas do Lync Server 2013</A>. Para obter detalhes sobre como realocar o INETPUB implantado pelo Windows Server Manager ao instalar o IIS, consulte <A href="https://go.microsoft.com/fwlink/p/?linkid=216888">https://go.microsoft.com/fwlink/p/?linkId=216888</A> .
 
 
 
@@ -80,16 +82,16 @@ A tabela a seguir indica os serviços de função do IIS 7,5 necessários.
 <td><p>Erros HTTP</p></td>
 </tr>
 <tr class="even">
-<td><p>Desenvolvimento de aplicativo</p></td>
+<td><p>Desenvolvimento de aplicativos</p></td>
 <td><p>ASP.NET</p>
 <p>O Windows Server 2012 também requer o ASP. NET 4.5</p></td>
 </tr>
 <tr class="odd">
-<td><p>Desenvolvimento de aplicativo</p></td>
+<td><p>Desenvolvimento de aplicativos</p></td>
 <td><p>Extensibilidade .NET</p></td>
 </tr>
 <tr class="even">
-<td><p>Desenvolvimento de aplicativo</p></td>
+<td><p>Desenvolvimento de aplicativos</p></td>
 <td><p>Extensões Internet Server API (ISAPI)</p></td>
 </tr>
 <tr class="odd">
@@ -155,7 +157,7 @@ No sistema operacional Windows Server 2008 R2 SP1 x64, você pode usar o Windows
 
 
 > [!NOTE]  
-> A autenticação anônima está instalada por padrão com a função de servidor do IIS. É possível gerenciar a autenticação anônima após a instalação do IIS. Para obter detalhes, consulte "habilitar autenticação anônima (IIS 7)" <A href="https://go.microsoft.com/fwlink/p/?linkid=203935">https://go.microsoft.com/fwlink/p/?linkId=203935</A>em.
+> A autenticação anônima está instalada por padrão com a função de servidor do IIS. É possível gerenciar a autenticação anônima após a instalação do IIS. Para obter detalhes, consulte "habilitar autenticação anônima (IIS 7)" em <A href="https://go.microsoft.com/fwlink/p/?linkid=203935">https://go.microsoft.com/fwlink/p/?linkId=203935</A> .
 
 
 
@@ -216,7 +218,7 @@ A tabela a seguir indica os serviços de função do IIS 8,0 e IIS 8,5 necessár
 <td><p>Log HTTP</p></td>
 </tr>
 <tr class="even">
-<td><p>Manutenção e diagnóstico</p></td>
+<td><p>Integridade e Diagnósticos</p></td>
 <td><p>Ferramentas de log</p></td>
 </tr>
 <tr class="odd">
@@ -260,7 +262,7 @@ A tabela a seguir indica os serviços de função do IIS 8,0 e IIS 8,5 necessár
 <td><p>ASP.Net 4,5</p></td>
 </tr>
 <tr class="odd">
-<td><p>Desenvolvimento de aplicativo</p></td>
+<td><p>Desenvolvimento do aplicativo</p></td>
 <td><p>Extensões ISAPI</p></td>
 </tr>
 <tr class="even">
@@ -357,7 +359,7 @@ No Windows Server 2012 e no Windows Server 2012 R2, você pode usar o Windows Po
 
 
 > [!IMPORTANT]  
-> Novo com o Windows Server 2012 é o parâmetro – source que define onde a mídia de origem do Windows Server 2012 pode ser encontrada. A mídia pode ser definida como uma unidade de DVD (por exemplo, D:\Sources\Sxs) ou para um compartilhamento de rede que os arquivos de mídia foram copiados (por \\exemplo, fileserver\windows2012\sources\Sxs).
+> Novo com o Windows Server 2012 é o parâmetro – source que define onde a mídia de origem do Windows Server 2012 pode ser encontrada. A mídia pode ser definida como uma unidade de DVD (por exemplo, D:\Sources\Sxs) ou para um compartilhamento de rede que os arquivos de mídia foram copiados (por exemplo, \\ fileserver\windows2012\sources\Sxs).
 
 
 

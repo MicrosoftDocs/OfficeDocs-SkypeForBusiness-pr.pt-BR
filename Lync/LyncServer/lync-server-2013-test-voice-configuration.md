@@ -12,20 +12,22 @@ ms:contentKeyID: 63969605
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c3bd2e9b86ee0c14d8fd9e2bbe386d48398d2418
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 1491aa1d28de238bcadd2a024021fabf16e9128a
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42194384"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48527898"
 ---
+# <a name="test-voice-configuration-in-lync-server-2013"></a>Testar a configuração de voz no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="test-voice-configuration-in-lync-server-2013"></a>Testar a configuração de voz no Lync Server 2013
+
 
 </div>
 
@@ -66,7 +68,7 @@ _**Última modificação do tópico:** 2014-05-20_
 
 ## <a name="description"></a>Descrição
 
-O Lync Server inclui vários cmdlets do Windows PowerShell (como Test-CsVoiceRoute e Test-CsVoicePolicy, Test-CsTrunkConfiguration) que permitem verificar se as partes individuais de sua infraestrutura do Enterprise Voice – rotas de voz, voz as políticas, troncos SIP – estão funcionando conforme o esperado.
+O Lync Server inclui vários cmdlets do Windows PowerShell (como Test-CsVoiceRoute e Test-CsVoicePolicy, Test-CsTrunkConfiguration) que permitem verificar se as partes individuais de sua infraestrutura do Enterprise Voice – rotas de voz, políticas de voz, troncos SIP – estão funcionando conforme o esperado.
 
 Embora seja importante com o Enterprise Voice que todas as partes individuais funcionem: é possível ter uma rota de voz válida, uma política de voz válida e um tronco SIP válido, mas ainda assim os usuários não podem fazer ou receber chamadas telefônicas. Por isso, o Lync Server também oferece a capacidade de criar configurações de teste de voz. As configurações de teste de voz representam cenários comuns do Enterprise Voice: você pode especificar coisas como uma rota de voz, uma política de voz e um plano de discagem e, em seguida, verificar se esses itens individuais podem trabalhar juntos para fornecer serviço de telefone. Além disso, você pode validar suas expectativas em um determinado cenário. Por exemplo, suponha que você espera que a combinação de plano de discagem A e a política de voz B resulte em chamadas sendo roteadas pela rota de voz C. Você pode inserir a rota de voz C como ExpectedRoute. Quando você executar o teste, se a rota de voz C não for empregada, o teste será marcado como tendo falhado.
 
@@ -92,13 +94,13 @@ Para obter mais informações, consulte a documentação de ajuda para o cmdlet 
 
 ## <a name="determining-success-or-failure"></a>Determinando o sucesso ou a falha
 
-O cmdlet Test-CsVoiceTestConfiguration relata se um teste falhou ou teve êxito e fornece informações adicionais sobre cada teste bem-sucedido, como a regra de conversão, a rota de voz e o uso de PSTN usados para concluir a tarefa:
+O cmdlet Test-CsVoiceTestConfiguration relata se um teste falhou ou teve êxito e fornece informações adicionais sobre cada teste bem-sucedido, como a regra de conversão, a rota de voz e o uso da PSTN usados para concluir a tarefa:
 
 Resultado: êxito
 
 TranslatedNumber: + 15551234
 
-MatchingRule: Descrição =; Padrão = ^ (\\d{4}) $; Tradução = + 1\\d; Name = teste; IsInternalExtension = false
+MatchingRule: Descrição =; Padrão = ^ ( \\ d {4} ) $; Tradução = + 1 \\ d; Name = teste; IsInternalExtension = false
 
 FirstMatchingRoute: site: Redmond
 
@@ -120,7 +122,7 @@ MatchingUsage:      
 
 ## <a name="reasons-why-the-test-might-have-failed"></a>Motivos pelos quais o teste pode ter falhado
 
-Como o teste de configuração de teste de voz testa vários itens diferentes, incluindo políticas de voz, planos de discagem, rotas de voz e assim por diante, há vários fatores diferentes que podem resultar em um teste com falha. Se um teste falhar, sua primeira etapa deve ser revisar as definições de configuração por conta própria usando o cmdlet Get-CsVoiceTestConfiguration:
+Como o teste de configuração de teste de voz testa vários itens diferentes, incluindo políticas de voz, planos de discagem, rotas de voz e assim por diante, há vários fatores diferentes que podem resultar em um teste com falha. Se um teste falhar, sua primeira etapa deve ser revisar as definições de configuração usando o cmdlet Get-CsVoiceTestConfiguration:
 
 `Get-CsVoiceTestConfiguration -Identity "RedmondVoiceTestConfiguration"`
 
@@ -128,7 +130,7 @@ Se as configurações parecem estar configuradas corretamente, execute o teste n
 
 `Get-CsVoiceTestConfiguration -Identity "RedmondVoiceTestConfiguration" | Test-CsVoiceTestConfiguration`
 
-O parâmetro Verbose fornecerá uma conta passo a passo de cada ação tomada por Test-CsVoiceTestConfiguration, conforme mostrado neste exemplo:
+O parâmetro Verbose fornecerá uma conta passo a passo de cada ação tomada por Test-CsVoiceTestConfiguration conforme mostrado neste exemplo:
 
 VERBOse: carregando o plano de discagem: "global"
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 48185748
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2ede940e1126660aaae89fe6552f050632f841b8
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 1dae7088982fd3f28ead762c6f50ed4543a5cdef
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42198724"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48528188"
 ---
+# <a name="hosted-exchange-contact-object-management-in-lync-server-2013"></a>Gerenciamento de objeto de contato do Exchange hospedado no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="hosted-exchange-contact-object-management-in-lync-server-2013"></a>Gerenciamento de objeto de contato do Exchange hospedado no Lync Server 2013
+
 
 </div>
 
@@ -39,7 +41,7 @@ _**Última modificação do tópico:** 2012-09-25_
 
 Você precisa configurar um objeto de contato para cada número de atendedor automático e número de acesso do assinante em sua implantação entre locais.
 
-Para a integração com a UM do Exchange hospedado, o ocsumutil. exe não pode ser usado para gerenciar objetos de contato, pois ele depende das configurações do UM do Exchange Active Directory. Em uma implantação entre instalações, o Lync Server 2013 e o Exchange hospedado da UM estão instalados em florestas separadas sem nenhuma confiança entre elas. Por motivos de segurança, os administradores do Lync Server 2013 não têm acesso direto às configurações do Active Directory da UM do Exchange. Como resultado, o Lync Server 2013 fornece um modelo diferente para o gerenciamento de objetos de contato em um *espaço de endereçamento SIP compartilhado* que é acessível para o Lync Server 2013 e para o serviço um do Exchange hospedado.
+Para a integração com a UM do Exchange hospedado, ocsumutil.exe não pode ser usado para gerenciar objetos de contato, pois ele depende das configurações do UM do Exchange Active Directory. Em uma implantação entre instalações, o Lync Server 2013 e o Exchange hospedado da UM estão instalados em florestas separadas sem nenhuma confiança entre elas. Por motivos de segurança, os administradores do Lync Server 2013 não têm acesso direto às configurações do Active Directory da UM do Exchange. Como resultado, o Lync Server 2013 fornece um modelo diferente para o gerenciamento de objetos de contato em um *espaço de endereçamento SIP compartilhado* que é acessível para o Lync Server 2013 e para o serviço um do Exchange hospedado.
 
 <div>
 

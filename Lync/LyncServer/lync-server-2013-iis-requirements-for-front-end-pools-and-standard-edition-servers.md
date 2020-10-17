@@ -12,20 +12,22 @@ ms:contentKeyID: 48185888
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1511ea24acb058f8de7bdbcf7f831e6493b2ffd6
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 33c3db01f772f43ea8507cee5c309b6705c8a69d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42197174"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48528138"
 ---
+# <a name="iis-requirements-for-front-end-pools-and-standard-edition-servers-in-lync-server-2013"></a>Requisitos de IIS para pools front-end e servidores Standard Edition no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="iis-requirements-for-front-end-pools-and-standard-edition-servers-in-lync-server-2013"></a>Requisitos de IIS para pools front-end e servidores Standard Edition no Lync Server 2013
+
 
 </div>
 
@@ -70,7 +72,7 @@ O Lync Server requer a instalação dos seguintes módulos do IIS:
 
 
 > [!IMPORTANT]
-> Se sua organização exigir que você localize o IIS e todos os serviços Web em uma unidade diferente da unidade do sistema, você poderá alterar o caminho do local de instalação dos arquivos do Lync Server na caixa de diálogo Configurar. Se você instalar os arquivos de instalação nesse caminho, incluindo o OCSCore. msi, o restante dos arquivos do Lync Server também será implantado nessa unidade. Para obter detalhes sobre como realocar o INETPUB implantado pelo Windows Server Manager ao instalar <A href="https://go.microsoft.com/fwlink/p/?linkid=216888">https://go.microsoft.com/fwlink/p/?linkId=216888</A>o IIS, consulte.
+> Se sua organização exigir que você localize o IIS e todos os serviços Web em uma unidade diferente da unidade do sistema, você poderá alterar o caminho do local de instalação dos arquivos do Lync Server na caixa de diálogo Configurar. Se você instalar os arquivos de instalação nesse caminho, incluindo OCSCore.msi, o restante dos arquivos do Lync Server também será implantado nessa unidade. Para obter detalhes sobre como realocar o INETPUB implantado pelo Windows Server Manager ao instalar o IIS, consulte <A href="https://go.microsoft.com/fwlink/p/?linkid=216888">https://go.microsoft.com/fwlink/p/?linkId=216888</A> .
 
 
   - Conteúdo estático
@@ -129,58 +131,58 @@ A tabela a seguir relaciona os URIs dos diretórios virtuais para acesso interno
 <tbody>
 <tr class="odd">
 <td><p>Servidor de Catálogo de Endereços</p></td>
-<td><p>https://&lt;interno FQDN&gt;/ABS/int/Handler</p></td>
+<td><p>https:// &lt; interno FQDN &gt; /ABS/int/Handler</p></td>
 <td><p>Localização de arquivos de download do Serviço de Catálogo de Endereços para usuários internos.</p></td>
 </tr>
 <tr class="even">
 <td><p>Serviço de descoberta automática</p></td>
-<td><p>https://&lt;interno FQDN&gt;/autodiscover</p></td>
+<td><p>https:// &lt; interno FQDN &gt; /autodiscover</p></td>
 <td><p>Local do serviço de descoberta automática do Lync Server que localiza recursos de mobilidade para usuários de dispositivos móveis internos.</p></td>
 </tr>
 <tr class="odd">
 <td><p>Atualizações de cliente</p></td>
-<td><p>http://&lt;interno FQDN&gt;/AutoUpdate/int</p></td>
+<td><p>http:// &lt; interno FQDN &gt; /AutoUpdate/int</p></td>
 <td><p>Localização de arquivos de atualização para clientes baseados em computador interno.</p></td>
 </tr>
 <tr class="even">
 <td><p>Fere</p></td>
-<td><p>http://&lt;interno FQDN&gt;/conf/int</p></td>
+<td><p>http:// &lt; interno FQDN &gt; /conf/int</p></td>
 <td><p>Localização de recursos de conferência para usuários internos.</p></td>
 </tr>
 <tr class="odd">
 <td><p>Atualizações de dispositivos</p></td>
-<td><p>http://&lt;/FQDN&gt;interno/DeviceUpdateFiles_Int</p></td>
+<td><p>http:// &lt; /FQDN interno &gt; /DeviceUpdateFiles_Int</p></td>
 <td><p>Localização de arquivos de atualização de dispositivo de UC para dispositivos internos de UC.</p></td>
 </tr>
 <tr class="even">
 <td><p>Atenda</p></td>
-<td><p>http://&lt;interno FQDN&gt;/etc/Place/NULL</p></td>
+<td><p>http:// &lt; interno FQDN &gt; /etc/Place/NULL</p></td>
 <td><p>Localização do conteúdo de reunião para usuários internos.</p></td>
 </tr>
 <tr class="odd">
 <td><p>Serviço de Mobilidade</p></td>
-<td><p>https://&lt;interno FQDN&gt;/MCX</p></td>
+<td><p>https:// &lt; interno FQDN &gt; /MCX</p></td>
 <td><p>Localização dos recursos do Serviço de Mobilidade para usuários de dispositivo móvel internos.</p></td>
 </tr>
 <tr class="even">
 <td><p>Serviço de Consulta na Web ao Catálogo de Endereços e Expansão de Grupo</p></td>
-<td><p>http://&lt;interno FQDN&gt;/GroupExpansion/int/Service.asmx</p></td>
+<td><p>http:// &lt; interno FQDN &gt; /GroupExpansion/int/Service.asmx</p></td>
 <td><p>Localização do serviço web que permite a expansão de grupos para usuários internos. Além disso, o local do serviço de consulta à Web do catálogo de endereços que fornece informações de lista de endereços global para clientes móveis internos do Lync Mobile Microsoft Lync 2010.</p></td>
 </tr>
 <tr class="odd">
 <td><p>Conferência por telefone</p></td>
-<td><p>http://&lt;interno FQDN&gt;/PhoneConferencing/int</p></td>
+<td><p>http:// &lt; interno FQDN &gt; /PhoneConferencing/int</p></td>
 <td><p>Localização de dados de conferência por telefone para usuários internos.</p></td>
 </tr>
 <tr class="even">
 <td><p>Atualizações de dispositivos</p></td>
-<td><p>http://&lt;interno FQDN&gt;/RequestHandler</p></td>
+<td><p>http:// &lt; interno FQDN &gt; /RequestHandler</p></td>
 <td><p>Localização do Manipulador de Solicitações do Serviço Web de Atualização de Dispositivo que permite aos dispositivos de UC internos carregar logs e verificar a existência de atualizações.</p></td>
 </tr>
 <tr class="odd">
 <td><p>Aplicativo Grupo de Resposta</p></td>
-<td><p>http://&lt;interno FQDN&gt;/RgsConfig</p>
-<p>http://&lt;interno FQDN&gt;/RgsClients</p></td>
+<td><p>http:// &lt; interno FQDN &gt; /RgsConfig</p>
+<p>http:// &lt; interno FQDN &gt; /RgsClients</p></td>
 <td><p>Localização da Ferramenta de Configuração de Grupo de Resposta.</p></td>
 </tr>
 </tbody>

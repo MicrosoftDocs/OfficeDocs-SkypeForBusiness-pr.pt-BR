@@ -12,20 +12,22 @@ ms:contentKeyID: 48183938
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 25d8efb03b4d67b6409f93b6a99d2314cb703952
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 0f52d9c5e88e88665f530d6d7ace06a07c4814b4
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42191274"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48529558"
 ---
+# <a name="add-a-survivable-branch-appliance-to-active-directory-in-lync-server-2013"></a>Adicionar um aparelho de filial persistente ao Active Directory no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="add-a-survivable-branch-appliance-to-active-directory-in-lync-server-2013"></a>Adicionar um aparelho de filial persistente ao Active Directory no Lync Server 2013
+
 
 </div>
 
@@ -80,7 +82,7 @@ Se você planeja implantar um aparelho de filial persistente, você deve adicion
 
 9.  Na lista de atributos, clique em **servicePrincipalName** e em **Editar**.
 
-10. No campo **valor a ser adicionado** ,\<digite FQDN\> de host/SBA \<em que\> SBA FQDN é o nome de domínio totalmente qualificado (FQDN) do seu aparelho de filial persistente. Por exemplo, digite **HOST/BranchOffice1.contoso.com**.
+10. No campo **valor a ser adicionado** , digite host/ \<SBA FQDN\> onde \<SBA FQDN\> é o nome de domínio totalmente qualificado (FQDN) do seu aparelho de filial persistente. Por exemplo, digite **HOST/BranchOffice1.contoso.com**.
 
 11. Clique em **OK** para  salvar a configuração do atributo **servicePrincipalName** e, em seguida, clique em **OK** para salvar as propriedades do objeto de computador.
 

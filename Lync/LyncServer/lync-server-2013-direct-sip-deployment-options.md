@@ -12,20 +12,22 @@ ms:contentKeyID: 48184692
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e521e1665361e15fffdf1e058731d04bc2eb9aa4
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 7aaecb9bd7b5fc4f144236f83f85f9e1e192784f
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42197604"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48529108"
 ---
+# <a name="direct-sip-deployment-options-in-lync-server-2013"></a>Opções de implantação de SIP direto no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="direct-sip-deployment-options-in-lync-server-2013"></a>Opções de implantação de SIP direto no Lync Server 2013
+
 
 </div>
 
@@ -45,7 +47,7 @@ Este tópico fornece exemplos de topologias para a implantação de conexões SI
 
 <div>
 
-## <a name="lync-server-stand-alone"></a>Lync Server autônomo
+## <a name="lync-server-stand-alone"></a>Lync Server Stand-Alone
 
 Se sua organização usa uma das implantações descritas nesta seção, você pode usar o Lync Server 2013 como a única solução de telefonia de parte ou de uma organização. Esta seção descreve as seguintes implantações em detalhes:
 
@@ -71,7 +73,7 @@ A figura a seguir mostra a topologia genérica para a implantação do Enterpris
 
 
 > [!NOTE]  
-> Se você estiver conectando sua implantação do Lync Server a um parceiro SIP direto certificado, um gateway PSTN (rede telefônica pública comutada) entre o servidor de mediação e o PBX não é necessário. Para obter uma lista de parceiros de SIP diretos certificados, consulte o site do programa de interoperabilidade aberta do Microsoft Unified Communications em <A href="https://go.microsoft.com/fwlink/p/?linkid=203309">https://go.microsoft.com/fwlink/p/?linkId=203309</A>.
+> Se você estiver conectando sua implantação do Lync Server a um parceiro SIP direto certificado, um gateway PSTN (rede telefônica pública comutada) entre o servidor de mediação e o PBX não é necessário. Para obter uma lista de parceiros de SIP diretos certificados, consulte o site do programa de interoperabilidade aberta do Microsoft Unified Communications em <A href="https://go.microsoft.com/fwlink/p/?linkid=203309">https://go.microsoft.com/fwlink/p/?linkId=203309</A> .
 
 
 
@@ -141,9 +143,9 @@ Quando o Enterprise Voice é implantado na frente do PBX, todas as chamadas cheg
 
 <div>
 
-## <a name="lync-server-voip-only-deployment"></a>Implantação somente VoIP do Lync Server
+## <a name="lync-server-voip-only-deployment"></a>Implantação do Lync Server VoIP-Only
 
-O Enterprise Voice oferece novos negócios e novos sites do Office para empresas existentes, com a oportunidade de implementar uma solução VoIP completa sem ter que se preocupar com a integração de PBX ou incorrer à implantação e à manutenção substanciais custos de uma infraestrutura IP-PBX. Esta solução oferece suporte a funcionários remotos e no local.
+O Enterprise Voice oferece novos negócios e novos sites do Office para empresas existentes, com a oportunidade de implementar uma solução VoIP completa sem ter que se preocupar com a integração com PBX ou incorrer com os consideráveis custos de implantação e manutenção de uma infraestrutura IP-PBX. Esta solução oferece suporte a funcionários remotos e no local.
 
 Nesta implantação, todas as chamadas são roteadas pela rede IP. As chamadas para a PSTN são roteadas para o gateway PSTN apropriado. O Lync 2013 ou o Lync Phone Edition serve como softphone. O controle de chamada remota não está disponível e é desnecessário porque não há telefones PBX para que os usuários controlem. Os serviços de caixa postal e atendedor automático estão disponíveis por meio da implantação opcional da Unificação de mensagens (UM) do Exchange.
 

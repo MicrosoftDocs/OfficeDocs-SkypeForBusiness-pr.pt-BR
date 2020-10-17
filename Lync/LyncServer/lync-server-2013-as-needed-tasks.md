@@ -12,20 +12,22 @@ ms:contentKeyID: 63969643
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 58abaf251bf479a9e892d019bd086a10b2300afc
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 98b4323374c9801ec07930941a0daa3635b04e43
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42204757"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48529538"
 ---
+# <a name="as-needed-tasks-in-lync-server-2013"></a>Tarefas necessárias no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="as-needed-tasks-in-lync-server-2013"></a>Tarefas necessárias no Lync Server 2013
+
 
 </div>
 
@@ -41,11 +43,11 @@ Execute as seguintes tarefas, conforme necessário. Eles também são freqüente
 
   - **Auditoria de segurança completa   ** Você pode executar essa auditoria regularmente, em resposta a uma atualização ou reformulação do sistema de mensagens, ou em resposta a uma falha de segurança tentada (ou bem-sucedida). O procedimento pode envolver verificações de porta em servidores e firewalls, auditorias de correções de segurança e testes de penetração de terceiros.
 
-  - **Substituir certificados prestes a**   verificar se a validade de certificados do Lync Server é uma das tarefas semanais regulares e, como parte do procedimento, um administrador deve ter um registro de todas as datas de vencimento dos certificados. Este registro permite que um administrador crie uma notificação quando um determinado certificado estiver prestes a expirar e substituído conforme necessário.
+  - **Substituir certificados prestes a expirar**     A verificação de certificados do Lync Server é uma das tarefas periódicas regulares e, como parte do procedimento, um administrador deve ter um registro de todas as datas de vencimento dos certificados. Este registro permite que um administrador crie uma notificação quando um determinado certificado estiver prestes a expirar e substituído conforme necessário.
 
-  - **Atualizando linhas de base de desempenho**   atualizar as linhas de base após uma atualização ou alteração de configuração. Sua organização pode usar linhas de base para medir as alterações de desempenho e detectar problemas que afetam o desempenho do sistema.
+  - **Atualizando linhas de base**     de desempenho Atualize as linhas de base de desempenho após uma atualização ou alteração de configuração. Sua organização pode usar linhas de base para medir as alterações de desempenho e detectar problemas que afetam o desempenho do sistema.
 
-  - **Gerenciar**   a configuração inicial do pool corporativo de pools corporativos, servidores Standard Edition e quaisquer outros servidores no ambiente da sua organização foram feitos durante a implantação dos servidores individuais. O gerenciamento pós-implantação de servidores e pools para servidores Standard Edition e pools corporativos inclui as seguintes tarefas:
+  - **Gerenciando o pool corporativo**     A configuração inicial dos pools corporativos, dos servidores Standard Edition e de qualquer outro servidor no ambiente da organização foi feita durante a implantação dos servidores individuais. O gerenciamento pós-implantação de servidores e pools para servidores Standard Edition e pools corporativos inclui as seguintes tarefas:
     
       - Gerenciando servidores front-end
     
@@ -61,7 +63,7 @@ Execute as seguintes tarefas, conforme necessário. Eles também são freqüente
     
       - Remover servidores e funções de servidor, remover pools e encerrar servidores e pools
 
-  - **Gerenciando o uso**   você pode configurar o Lync Server 2013 para fornecer os recursos e a funcionalidade mais apropriados para a sua organização. Isso inclui:
+  - **Gerenciando o uso**     Você pode configurar o Lync Server 2013 para fornecer os recursos e a funcionalidade mais adequados para sua organização. Isso inclui:
     
       - Gerenciando o suporte para reuniões da webconferência no local
     
@@ -75,7 +77,7 @@ Execute as seguintes tarefas, conforme necessário. Eles também são freqüente
     
       - Configurando arquivamento, registro de detalhes das chamadas e conformidade da reunião
 
-  - **Gerenciar a conectividade**   do servidor de borda o gerenciamento contínuo dos servidores e das configurações necessárias para fornecer conectividade externa inclui o seguinte:
+  - **Gerenciando a conectividade**     do servidor de borda O gerenciamento contínuo dos servidores e das configurações necessárias para fornecer conectividade externa inclui o seguinte:
     
       - Gerenciando a conectividade entre servidores internos e servidores de borda
     
@@ -83,13 +85,13 @@ Execute as seguintes tarefas, conforme necessário. Eles também são freqüente
     
       - Gerenciando o acesso de parceiro federado
 
-  - **A administração do catálogo**   de endereços servidores do catálogo de endereços inclui o seguinte:
+  - **Administrar o catálogo**     de endereços Administrar servidores de catálogo de endereços inclui o seguinte:
     
       - Configurando a normalização de telefone do servidor do catálogo de endereços
     
       - Gerenciando o servidor de catálogo de endereços a partir da linha de comando
 
-  - **Gerenciar contas**   de usuário o gerenciamento de contas de usuário inclui o seguinte:
+  - **Gerenciando contas**     de usuário O gerenciamento de contas de usuário inclui o seguinte:
     
       - Habilitar contas de usuário para o Lync Server
     
@@ -103,7 +105,7 @@ Execute as seguintes tarefas, conforme necessário. Eles também são freqüente
     
       - Excluir usuários do Lync Server
 
-  - **Analisando arquivos**   de log do Lync Server 2013 uma ferramenta muito útil, geralmente usada para solução de problemas, é a ferramenta de registro em log do Lync Server 2013 descrita em detalhes sobre como [usar a ferramenta de registro em log do Lync Server 2013](https://technet.microsoft.com/library/gg558599.aspx).
+  - **Analisando arquivos**     de log do Lync Server 2013 Uma ferramenta muito útil, geralmente usada para solução de problemas, é a ferramenta de registro em log do Lync Server 2013 descrita em detalhes em [using Lync server 2013 Logging Tool](https://technet.microsoft.com/library/gg558599.aspx).
 
 Como a ferramenta de registro em log gera arquivos de log (em uma base por servidor), esses arquivos de log podem ser visualizados e analisados usando a ferramenta Snooper, se as ferramentas do Microsoft Office Server 12 Resource Kit estiverem instaladas no computador. Caso contrário, os logs também podem ser analisados usando um editor de texto, que é muito menos transparente e mais complexo do que o uso do utilitário Snooper.
 
@@ -123,7 +125,7 @@ Na ferramenta de log, depois de finalizar a sessão de depuração, clique em an
 
   - Relatórios de erro do banco de dados de arquivamento
 
-Para ajudar a organizar o desempenho das tarefas necessárias, confira lista de verificação de operações necessárias.
+Para ajudar a organizar o desempenho das tarefas necessárias, confira As-Needed lista de verificação de operações.
 
 <div>
 
@@ -139,7 +141,7 @@ Para ajudar a organizar o desempenho das tarefas necessárias, confira lista de 
 
 ## <a name="backup-and-restore-policies-or-configuration-settings"></a>Políticas de backup (e restauração) ou definições de configuração
 
-O Lync Server 2013 permite fazer backup e restaurar todo o sistema. IIf que você deseja fazer backup (e, em seguida, pode ser uma restauração de algum dia) uma única política ou uma única coleção de definições de configuração, recuperar a política apropriada e, em seguida, canalizar o objeto para o cmdlet Export-Clixml, que salva as informações da política como um arquivo XML:
+O Lync Server 2013 permite fazer backup e restaurar todo o sistema. IIf que você deseja fazer backup (e, em seguida, pode ser uma restauração de algum dia) uma única política ou uma única coleção de definições de configuração, recuperar a política apropriada e, em seguida, canalizar esse objeto para o cmdlet Export-Clixml, que salva as informações de política como um arquivo XML:
 
 `Get-CsClientPolicy -Identity "RedmondClientPolicy" | Export-Clixml -Path C:\Backup\RedmondClientPolicy.xml`
 

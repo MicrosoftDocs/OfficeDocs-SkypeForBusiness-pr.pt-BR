@@ -12,20 +12,22 @@ ms:contentKeyID: 48183790
 ms.date: 08/19/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f5b3febefc8f6ee08f16fc958f6f12b0c32f4d08
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 89ec4337bd4bc728f9737ecb75bb29075831bc09
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42207857"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48528538"
 ---
+# <a name="configuring-integration-with-office-web-apps-server-and-lync-server-2013"></a>Configurando a integração com o servidor do Office Web Apps e o Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-integration-with-office-web-apps-server-and-lync-server-2013"></a>Configurando a integração com o servidor do Office Web Apps e o Lync Server 2013
+
 
 </div>
 
@@ -39,7 +41,7 @@ _**Última modificação do tópico:** 2016-08-19_
 
 O Lync Server 2013 emprega o servidor do Office Web Apps para lidar com apresentações do PowerPoint. Para obter informações sobre as vantagens dessa abordagem, consulte [Overview of Web Conferencing in Lync Server 2013](lync-server-2013-web-conferencing-overview.md).
 
-Para usar esses novos recursos, os administradores devem instalar o Office Web Apps Server e devem configurar o Lync Server 2013 para se comunicar com o servidor do Office Web Apps. Esta documentação fornece informações sobre como configurar o Lync Server 2013 para funcionar com o servidor do Office Web Apps. O que esta documentação não fornece é informações sobre como instalar o próprio servidor do Office Web Apps; para essas informações, consulte o site de implantação do Microsoft Office Web <https://go.microsoft.com/fwlink/p/?linkid=257525>apps em. Esse guia inclui informações completas de pré-requisito para o servidor do Office Web Apps; Observe que o servidor do Office Web Apps deve ser instalado em um computador autônomo que não esteja executando o Lync Server, o Microsoft SQL Server ou qualquer outro aplicativo de servidor. (Você não deve ter nenhuma versão do Microsoft Office instalada nesse computador.) Qualquer computador usado para executar o servidor do Office Web Apps também deve ter um conjunto específico de software instalado (incluindo o .NET Framework 4,5 e o Windows PowerShell 3,0); esses requisitos, juntamente com as informações sobre a configuração de certificados e os serviços de informações da Internet (IIS), são discutidos em detalhes no site <https://go.microsoft.com/fwlink/p/?linkid=257525>de implantação do Microsoft Office Web Apps em.
+Para usar esses novos recursos, os administradores devem instalar o Office Web Apps Server e devem configurar o Lync Server 2013 para se comunicar com o servidor do Office Web Apps. Esta documentação fornece informações sobre como configurar o Lync Server 2013 para funcionar com o servidor do Office Web Apps. O que esta documentação não fornece é informações sobre como instalar o próprio servidor do Office Web Apps; para essas informações, consulte o site de implantação do Microsoft Office Web Apps em <https://go.microsoft.com/fwlink/p/?linkid=257525> . Esse guia inclui informações completas de pré-requisito para o servidor do Office Web Apps; Observe que o servidor do Office Web Apps deve ser instalado em um computador autônomo que não esteja executando o Lync Server, o Microsoft SQL Server ou qualquer outro aplicativo de servidor. (Você não deve ter nenhuma versão do Microsoft Office instalada nesse computador.) Qualquer computador usado para executar o servidor do Office Web Apps também deve ter um conjunto específico de software instalado (incluindo o .NET Framework 4,5 e o Windows PowerShell 3,0); esses requisitos, juntamente com as informações sobre a configuração de certificados e os serviços de informações da Internet (IIS), são discutidos em detalhes no site de implantação do Microsoft Office Web Apps em <https://go.microsoft.com/fwlink/p/?linkid=257525> .
 
 <div>
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 48183347
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cc93d529c5f93ad020634d631c94c09e0a94df1a
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 0f06c4208e3830db2e32dc9866747b78a93b567e
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42202317"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48528358"
 ---
+# <a name="exporting-archived-data-from-lync-server-2013"></a>Exportar dados arquivados do Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="exporting-archived-data-from-lync-server-2013"></a>Exportar dados arquivados do Lync Server 2013
+
 
 </div>
 
@@ -45,11 +47,11 @@ Se você habilitar a integração com o Microsoft Exchange, os dados serão arqu
 
 ## <a name="exporting-archiving-data-by-using-windows-powershell-cmdlets"></a>Exportar dados de arquivamento usando cmdlets do Windows PowerShell
 
-Os dados de arquivamento podem ser exportados usando o cmdlet Export-CSArchivingData. Este cmdlet pode ser executado a partir do Shell de gerenciamento do Lync Server 2013 ou de uma sessão remota do Windows PowerShell. Para obter detalhes sobre como usar o Windows PowerShell remoto para se conectar ao Lync Server, consulte o artigo de blog do Lync Server Windows PowerShell "início rápido: Managing Microsoft Lync Server [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)2010 using Remote PowerShell" em.
+Os dados de arquivamento podem ser exportados usando o cmdlet Export-CSArchivingData. Este cmdlet pode ser executado a partir do Shell de gerenciamento do Lync Server 2013 ou de uma sessão remota do Windows PowerShell. Para obter detalhes sobre como usar o Windows PowerShell remoto para se conectar ao Lync Server, consulte o artigo de blog do Lync Server Windows PowerShell "início rápido: Managing Microsoft Lync Server 2010 using Remote PowerShell" em [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876) .
 
 **Para exportar dados de arquivamento**
 
-  - Este comando exporta todos os dados de arquivamento gravados no banco de dados de arquivamento atl-sql-001.litwareinc.com desde 1 de junho de 2012. O arquivo de saída resultante será armazenado na pasta C:\\ArchivingExports.
+  - Este comando exporta todos os dados de arquivamento gravados no banco de dados de arquivamento atl-sql-001.litwareinc.com desde 1 de junho de 2012. O arquivo de saída resultante será armazenado na pasta C: \\ ArchivingExports.
     
         Export-CsArchivingData -Identity "ArchivingDatabase:atl-sql-001.litwareinc.com" -StartDate 6/1/2012 -OutputFolder "C:\ArchivingExports"
 

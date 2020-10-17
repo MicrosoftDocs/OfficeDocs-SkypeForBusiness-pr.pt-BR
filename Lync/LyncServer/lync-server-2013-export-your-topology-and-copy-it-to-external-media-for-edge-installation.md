@@ -12,20 +12,22 @@ ms:contentKeyID: 48185615
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 52903a2e7ae1b9a3a994a1199e32d8d7c4bd1e03
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 5dd461e6a8ce184e5e418feddede258af68d2c25
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42202347"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48528368"
 ---
+# <a name="export-your-lync-server-2013-topology-and-copy-it-to-external-media-for-edge-installation"></a>Exporte sua topologia do Lync Server 2013 e copie-a para a mídia externa para instalação de borda
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="export-your-lync-server-2013-topology-and-copy-it-to-external-media-for-edge-installation"></a>Exporte sua topologia do Lync Server 2013 e copie-a para a mídia externa para instalação de borda
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42202347"
 
 _**Última modificação do tópico:** 2012-09-08_
 
-Depois de publicar sua topologia, o assistente de implantação do Lync Server precisa acessar os dados do repositório de gerenciamento central para iniciar o processo de implantação no servidor. Na rede interna, os dados estão disponíveis diretamente nos servidores, mas os servidores de borda que não estão no domínio interno não podem acessar os dados. Para disponibilizar os dados de configuração de topologia para uma implantação de servidor de borda, você deve exportar os dados de topologia para um arquivo e copiá-los para a mídia externa (por exemplo, uma unidade USB ou um compartilhamento de rede que está disponível no servidor de borda) antes de executar o Lync Server Dep loyment assistente no servidor de borda. Use o procedimento a seguir para tornar os dados de configuração de topologia disponíveis no servidor de borda que você está implantando.
+Depois de publicar sua topologia, o assistente de implantação do Lync Server precisa acessar os dados do repositório de gerenciamento central para iniciar o processo de implantação no servidor. Na rede interna, os dados estão disponíveis diretamente nos servidores, mas os servidores de borda que não estão no domínio interno não podem acessar os dados. Para disponibilizar os dados de configuração de topologia para uma implantação de servidor de borda, você deve exportar os dados de topologia para um arquivo e copiá-los para a mídia externa (por exemplo, uma unidade USB ou um compartilhamento de rede que está disponível no servidor de borda) antes de executar o assistente de implantação do Lync Server no servidor de borda. Use o procedimento a seguir para tornar os dados de configuração de topologia disponíveis no servidor de borda que você está implantando.
 
 <div>
 

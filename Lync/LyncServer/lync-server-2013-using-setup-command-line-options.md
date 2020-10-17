@@ -12,20 +12,22 @@ ms:contentKeyID: 48184957
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c181c16e5480d1dc7659ed3778faf738eed70949
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: c530387fa9f504120ff3a8f38128eeb07b04e615
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42212697"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48527638"
 ---
+# <a name="using-setup-command-line-options-in-lync-server-2013"></a>Usando opções de linha de comando da instalação no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="using-setup-command-line-options-in-lync-server-2013"></a>Usando opções de linha de comando da instalação no Lync Server 2013
+
 
 </div>
 
@@ -37,11 +39,11 @@ ms.locfileid: "42212697"
 
 _**Última modificação do tópico:** 2012-10-03_
 
-A linha de comando Setup. exe é usada para muito poucas operações na instalação do Office. Em vez de usar as opções de linha de comando da instalação, você geralmente usará a ferramenta de personalização do Office e o arquivo config. xml para a configuração do produto e a personalização de recursos.
+A linha de comando Setup.exe é usada para muito poucas operações na instalação do Office. Em vez de usar as opções de linha de comando da instalação, você geralmente usará a ferramenta de personalização do Office e o arquivo de Config.xml para a configuração do produto e a personalização de recursos.
 
-A linha de comando Setup. exe do Office reconhece as opções de linha de comando descritas na tabela a seguir.
+A linha de comando do Office Setup.exe reconhece as opções de linha de comando descritas na tabela a seguir.
 
-### <a name="office-setup-command-line-options"></a>Opções de linha de comando da instalação do Office
+### <a name="office-setup-command-line-options"></a>Opções de Command-Line de instalação do Office
 
 <table>
 <colgroup>
@@ -50,7 +52,7 @@ A linha de comando Setup. exe do Office reconhece as opções de linha de comand
 </colgroup>
 <thead>
 <tr class="header">
-<th>Opção de linha de comando de instalação</th>
+<th>Opção de Command-Line de configuração</th>
 <th>Descrição</th>
 </tr>
 </thead>
@@ -65,7 +67,7 @@ A linha de comando Setup. exe do Office reconhece as opções de linha de comand
 </tr>
 <tr class="odd">
 <td><p>/config [path]</p></td>
-<td><p>Especifica o arquivo Config.xml que a Instalação usa durante a instalação. Use a opção/config para especificar o arquivo config. XML que você personalizou para instalações do Lync 2013, por exemplo:<code>/config \\server\share\Lync15\Lync.WW\Config.xml</code></p></td>
+<td><p>Especifica o arquivo Config.xml que a Instalação usa durante a instalação. Use a opção/config para especificar o arquivo de Config.xml que você personalizou para instalações do Lync 2013, por exemplo: <code>/config \\server\share\Lync15\Lync.WW\Config.xml</code></p></td>
 </tr>
 <tr class="even">
 <td><p>/Modify Lync</p></td>
@@ -83,7 +85,7 @@ A linha de comando Setup. exe do Office reconhece as opções de linha de comand
 </table>
 
 
-Para obter detalhes sobre como usar as opções de linha de comando <https://go.microsoft.com/fwlink/p/?linkid=267515>da instalação, consulte.
+Para obter detalhes sobre como usar as opções de linha de comando da instalação, consulte <https://go.microsoft.com/fwlink/p/?linkid=267515> .
 
 </div>
 

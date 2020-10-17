@@ -12,20 +12,22 @@ ms:contentKeyID: 48185966
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a4478a68392e751ee9e641542e7764237580e781
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: b1e04507e0dc109b4477973a3a36b851afe81014
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42216977"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48528038"
 ---
+# <a name="new-conferencing-features-in-lync-server-2013"></a>Novos recursos de conferência no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="new-conferencing-features-in-lync-server-2013"></a>Novos recursos de conferência no Lync Server 2013
+
 
 </div>
 
@@ -49,13 +51,13 @@ O Lync Server 2013 introduz vários novos recursos que aprimoram a conferência,
     
       - Dispositivos Apple iOS
     
-      - Windows 8
+      - Windows 8
     
       - Internet Explorer 10
 
   - **Compartilhamento de PowerPoint Atualizado**
     
-    O Lync Server 2013 agora usa o Office Web Apps e o servidor do Office Web Apps (anteriormente conhecido como servidor do WAC) para lidar com apresentações do PowerPoint. O uso do servidor do Office Web Apps permite exibições de alta resolução e melhor suporte para recursos do PowerPoint, acesso a mais tipos de dispositivos móveis (o Lync Server 2013 usa DHTML e JavaScript padrão para transmitir apresentações do PowerPoint) e o capacidade para os usuários com privilégios apropriados para rolar por uma apresentação do PowerPoint independente da própria apresentação.
+    O Lync Server 2013 agora usa o Office Web Apps e o servidor do Office Web Apps (anteriormente conhecido como servidor do WAC) para lidar com apresentações do PowerPoint. O uso do servidor do Office Web Apps permite exibições de alta resolução e melhor suporte para recursos do PowerPoint, acesso a mais tipos de dispositivos móveis (o Lync Server 2013 usa DHTML e JavaScript padrão para transmitir apresentações do PowerPoint) e a capacidade de os usuários com privilégios apropriados para rolar por uma apresentação do PowerPoint independente da própria apresentação.
 
   - **modo de exibição de galeria e Videoconferência em HD**
     

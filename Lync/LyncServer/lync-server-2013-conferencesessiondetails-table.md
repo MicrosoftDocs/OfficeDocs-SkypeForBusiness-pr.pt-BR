@@ -12,20 +12,22 @@ ms:contentKeyID: 48184925
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3e991f6240d9c21815299a3ef169c5824cf5ef3b
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 57d8e3cb0a79c8ce6a6c1c51891fbad265f045de
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213137"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48529198"
 ---
+# <a name="conferencesessiondetails-table-in-lync-server-2013"></a>Tabela ConferenceSessionDetails no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="conferencesessiondetails-table-in-lync-server-2013"></a>Tabela ConferenceSessionDetails no Lync Server 2013
+
 
 </div>
 
@@ -59,7 +61,7 @@ Cada registro representa uma sessão de conferência, que poderia ser a sessão 
 <tr class="odd">
 <td><p><strong>Identificação_da_sessãotime</strong></p></td>
 <td><p>Datetime</p></td>
-<td><p>Primário, externo</p></td>
+<td><p>Primária, Estrangeira</p></td>
 <td><p>Tempo da solicitação da sessão; usado em conjunto com <strong>SessionIdSeq</strong> para identificar de forma única uma sessão de conferência. Consulte a <a href="lync-server-2013-dialogs-table.md">tabela diálogos no Lync Server 2013</a> para obter mais informações.</p></td>
 </tr>
 <tr class="even">
@@ -248,7 +250,7 @@ Cada registro representa uma sessão de conferência, que poderia ser a sessão 
 </table>
 
 
-\*Para a maioria das sessões, SessionIdSeq terá o valor 1. Se várias sessões iniciam exatamente ao mesmo tempo, o SessionIdSeq para uma delas será 1 e para a outra será 2 e assim por diante.
+\* Para a maioria das sessões, SessionIdSeq terá o valor 1. Se várias sessões iniciam exatamente ao mesmo tempo, o SessionIdSeq para uma delas será 1 e para a outra será 2 e assim por diante.
 
 </div>
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 63969657
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fe41a6bd898c6f23bc746f5922c98113339a5ee7
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 2d03647df3752860c114a16967a3bea5271a89d4
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42194184"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48527808"
 ---
+# <a name="testing-civic-addresses-against-the-master-street-address-guide-in-lync-server-2013"></a>Testando endereços cívicos no guia de endereço mestre no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="testing-civic-addresses-against-the-master-street-address-guide-in-lync-server-2013"></a>Testando endereços cívicos no guia de endereço mestre no Lync Server 2013
+
 
 </div>
 
@@ -92,7 +94,7 @@ Para obter mais informações, consulte a documentação de ajuda para o cmdlet 
 
 ## <a name="determining-success-or-failure"></a>Determinando o sucesso ou a falha
 
-Test-CsLisCivicAddress informará o êxito ou falha dos endereços fornecidos. Um teste de endereço falhará se o endereço não for encontrado ou se o provedor de serviços não puder ser contatado.
+Test-CsLisCivicAddress irá relatar o êxito ou falha dos endereços fornecidos. Um teste de endereço falhará se o endereço não for encontrado ou se o provedor de serviços não puder ser contatado.
 
 </div>
 
@@ -100,7 +102,7 @@ Test-CsLisCivicAddress informará o êxito ou falha dos endereços fornecidos. U
 
 ## <a name="reasons-why-the-test-might-have-failed"></a>Motivos pelos quais o teste pode ter falhado
 
-Aqui estão alguns motivos comuns pelos quais Test-CsLisCivicAddress pode falhar:
+Aqui estão alguns motivos comuns para que Test-CsLisCivicAddress possa falhar:
 
   - O provedor de serviços LIS pode não estar disponível. Você pode recuperar a URL do seu provedor de serviços de LIS executando o cmdlet Get-CsLisConfiguration:
     

@@ -12,20 +12,22 @@ ms:contentKeyID: 51541461
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 950d52dfe86ebf4d5b8b53677248528f1ef49047
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 1ae71fa6e91c0bc212bc019b1afa85ebcacb4d0d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42193244"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48527788"
 ---
+# <a name="ucwa-events-in-lync-server-2013"></a>Eventos do UCWA no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="ucwa-events-in-lync-server-2013"></a>Eventos do UCWA no Lync Server 2013
+
 
 </div>
 
@@ -64,26 +66,26 @@ O UCWA gravará registros de comportamento operacional como tipos de eventos inf
 <td><p>20001</p></td>
 <td><p>Informativa</p></td>
 <td><p>UCWA inicializado</p></td>
-<td><p>Não disponível</p>
-<p>Não disponível</p></td>
+<td><p>N/D</p>
+<p>N/D</p></td>
 </tr>
 <tr class="even">
 <td><p>20002</p></td>
-<td><p>Error</p></td>
+<td><p>Erro</p></td>
 <td><p>UCWA encontrou uma exceção inesperada durante a inicialização</p></td>
 <td><p>Ocorreu um erro inesperado durante a inicialização</p>
 <p>Examine os detalhes da exceção na entrada do log de eventos associada para determinar a possível causa</p></td>
 </tr>
 <tr class="odd">
 <td><p>20003</p></td>
-<td><p>Error</p></td>
+<td><p>Erro</p></td>
 <td><p>UCWA encontrou uma exceção não manipulada</p></td>
 <td><p>Ocorreu uma exceção não manipulada</p>
 <p>Reiniciar o servidor. Se o problema persistir, contate o suporte ao produto</p></td>
 </tr>
 <tr class="even">
 <td><p>20004</p></td>
-<td><p>Error</p></td>
+<td><p>Erro</p></td>
 <td><p>Não é possível acessar o Exchange para foto HD</p></td>
 <td><p>A conexão com o Exchange não está disponível</p>
 <p>Certifique-se de que a conexão com o Exchange esteja disponível</p></td>
@@ -92,11 +94,11 @@ O UCWA gravará registros de comportamento operacional como tipos de eventos inf
 <td><p>20005</p></td>
 <td><p>Informativa</p></td>
 <td><p>Recuperação de falha ao acessar o Exchange para foto HD</p></td>
-<td><p>Não disponível</p></td>
+<td><p>N/D</p></td>
 </tr>
 <tr class="even">
 <td><p>20006</p></td>
-<td><p>Error</p></td>
+<td><p>Erro</p></td>
 <td><p>Não é possível acessar o Exchange para pesquisa de contato</p></td>
 <td><p>A conexão com o Exchange não está disponível</p>
 <p>Certifique-se de que a conexão com o Exchange esteja disponível</p></td>
@@ -105,7 +107,7 @@ O UCWA gravará registros de comportamento operacional como tipos de eventos inf
 <td><p>20007</p></td>
 <td><p>Informativa</p></td>
 <td><p>Recuperado da falha ao pesquisar o contato no Exchange</p></td>
-<td><p>Não disponível</p></td>
+<td><p>N/D</p></td>
 </tr>
 <tr class="even">
 <td><p>20008</p></td>
@@ -123,28 +125,28 @@ O UCWA gravará registros de comportamento operacional como tipos de eventos inf
 </tr>
 <tr class="even">
 <td><p>20010</p></td>
-<td><p>Error</p></td>
+<td><p>Erro</p></td>
 <td><p>Não é possível recuperar dados de inband</p></td>
 <td><p>Não é possível recuperar dados de inband</p>
 <p>Se o problema persistir, contate o suporte ao produto</p></td>
 </tr>
 <tr class="odd">
 <td><p>20011</p></td>
-<td><p>Error</p></td>
+<td><p>Erro</p></td>
 <td><p>Não é possível assinar a presença</p></td>
 <td><p>Não é possível assinar a presença</p>
 <p>Se o problema persistir, contate o suporte ao produto</p></td>
 </tr>
 <tr class="even">
 <td><p>20012</p></td>
-<td><p>Error</p></td>
+<td><p>Erro</p></td>
 <td><p>Falha ao registrar o ponto de extremidade</p></td>
 <td><p>Falha ao registrar o ponto de extremidade</p>
 <p>Se o problema persistir, contate o suporte ao produto</p></td>
 </tr>
 <tr class="odd">
 <td><p>20013</p></td>
-<td><p>Error</p></td>
+<td><p>Erro</p></td>
 <td><p>IM MCU não está disponível</p></td>
 <td><p>IM MCU não está disponível</p>
 <p>Veja se o IM MCU está em execução</p></td>
@@ -153,11 +155,11 @@ O UCWA gravará registros de comportamento operacional como tipos de eventos inf
 <td><p>20014</p></td>
 <td><p>Informativa</p></td>
 <td><p>Recuperação de falha na conexão com a MCU de IM</p></td>
-<td><p>Não disponível</p></td>
+<td><p>N/D</p></td>
 </tr>
 <tr class="odd">
 <td><p>20015</p></td>
-<td><p>Error</p></td>
+<td><p>Erro</p></td>
 <td><p>AV MCU não está disponível</p></td>
 <td><p>AV MCU não está disponível</p>
 <p>Veja se o AV MCU está em execução</p></td>
@@ -166,11 +168,11 @@ O UCWA gravará registros de comportamento operacional como tipos de eventos inf
 <td><p>20016</p></td>
 <td><p>Informativa</p></td>
 <td><p>Recuperação de falha na conexão com o AV MCU</p></td>
-<td><p>Não disponível</p></td>
+<td><p>N/D</p></td>
 </tr>
 <tr class="odd">
 <td><p>20017</p></td>
-<td><p>Error</p></td>
+<td><p>Erro</p></td>
 <td><p>À medida que a MCU não está disponível</p></td>
 <td><p>À medida que a MCU não está disponível</p>
 <p>Confira se a MCU está sendo executada</p></td>
@@ -179,11 +181,11 @@ O UCWA gravará registros de comportamento operacional como tipos de eventos inf
 <td><p>20018</p></td>
 <td><p>Informativa</p></td>
 <td><p>Recuperação de falha na conexão com a MCU</p></td>
-<td><p>Não disponível</p></td>
+<td><p>N/D</p></td>
 </tr>
 <tr class="odd">
 <td><p>20019</p></td>
-<td><p>Error</p></td>
+<td><p>Erro</p></td>
 <td><p>Data MCU não está disponível</p></td>
 <td><p>Data MCU não está disponível</p>
 <p>Ver se os dados MCU estão sendo executados</p></td>
@@ -192,39 +194,39 @@ O UCWA gravará registros de comportamento operacional como tipos de eventos inf
 <td><p>20020</p></td>
 <td><p>Informativa</p></td>
 <td><p>Recuperação de falha na conexão com o data MCU</p></td>
-<td><p>Não disponível</p></td>
+<td><p>N/D</p></td>
 </tr>
 <tr class="odd">
 <td><p>20021</p></td>
-<td><p>Error</p></td>
+<td><p>Erro</p></td>
 <td><p>Não é possível ingressar no IM MCU</p></td>
 <td><p>Não é possível ingressar no IM MCU</p>
 <p>Veja se o IM MCU está em execução</p></td>
 </tr>
 <tr class="even">
 <td><p>20022</p></td>
-<td><p>Error</p></td>
+<td><p>Erro</p></td>
 <td><p>Não é possível ingressar no AV MCU</p></td>
 <td><p>Não é possível ingressar no AV MCU</p>
 <p>Veja se o AV MCU está em execução</p></td>
 </tr>
 <tr class="odd">
 <td><p>20023</p></td>
-<td><p>Error</p></td>
+<td><p>Erro</p></td>
 <td><p>Não é possível entrar como MCU</p></td>
 <td><p>Não é possível entrar como MCU</p>
 <p>Confira se a MCU está sendo executada</p></td>
 </tr>
 <tr class="even">
 <td><p>20024</p></td>
-<td><p>Error</p></td>
+<td><p>Erro</p></td>
 <td><p>Não é possível participar dos dados MCU</p></td>
 <td><p>Não é possível participar dos dados MCU</p>
 <p>Ver se os dados MCU estão sendo executados</p></td>
 </tr>
 <tr class="odd">
 <td><p>20025</p></td>
-<td><p>Error</p></td>
+<td><p>Erro</p></td>
 <td><p>Não é possível acessar o Active Directory para a foto</p></td>
 <td><p>A conexão com o Active Directory não está disponível</p>
 <p>Certifique-se de que a conexão com o Active Directory está disponível</p></td>
@@ -233,7 +235,7 @@ O UCWA gravará registros de comportamento operacional como tipos de eventos inf
 <td><p>20026</p></td>
 <td><p>Informativa</p></td>
 <td><p>Recuperação de falha ao acessar o Active Directory para foto</p></td>
-<td><p>Não disponível</p></td>
+<td><p>N/D</p></td>
 </tr>
 <tr class="odd">
 <td><p>20027</p></td>

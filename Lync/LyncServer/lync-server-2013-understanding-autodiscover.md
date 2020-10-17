@@ -12,20 +12,22 @@ ms:contentKeyID: 51541522
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: edaa9a938fe893ebca6f4e8abee4a3f41d1527dc
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: b63e29608dd8c3a0187b17c03e6ba9373b31f08f
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42193184"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48527758"
 ---
+# <a name="understanding-autodiscover-in-lync-server-2013"></a>Compreendendo a descoberta automática no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="understanding-autodiscover-in-lync-server-2013"></a>Compreendendo a descoberta automática no Lync Server 2013
+
 
 </div>
 
@@ -39,9 +41,9 @@ _**Última modificação do tópico:** 2013-06-03_
 
 O serviço de descoberta automática do Lync Server 2013 é um recurso introduzido originalmente no Microsoft Lync Server 2010 como parte da atualização cumulativa do Lync Server 2010: novembro de 2011. Além de correções, esta atualização cumulativa fornece suporte para clientes Lync Mobile e Lync 2013.
 
-No Lync Server 2013, o serviço de descoberta automática é parte integrante da operação de clientes móveis externos e internos, e a descoberta automática também é estendida para novos clientes, como o aplicativo Lync Windows Store recentemente introduzido para o Windows 8. A descoberta automática também é usada pelos clientes de desktop do Lync 2013. A descoberta automática é reconhecida no Lync Server pelos registros do sistema de nomes de domínio (DNS) necessários **lyncdiscover.\< domínio\> ** e **lyncdiscoverinternal.\< domínio\>**. Além disso, as versões mais recentes do cliente de área de trabalho Lync 2010 e Lync 2013 preferem a descoberta automática sobre os registros SRV do DNS (sistema de nomes de domínio), usando registros SRV DNS somente se o lyncdiscover. \<domínio\> ou lyncdiscoverinternal. \<o\> domínio não responde ou não resolve. O aplicativo Lync da Windows Store para Windows 8 e Lync Mobile usa descoberta automática exclusivamente e não fará referência aos Registros SRV DNS tradicionais.
+No Lync Server 2013, o serviço de descoberta automática é parte integrante da operação de clientes móveis externos e internos, e a descoberta automática também é estendida para novos clientes, como o aplicativo Lync Windows Store recentemente introduzido para o Windows 8. A descoberta automática também é usada pelos clientes de desktop do Lync 2013. A descoberta automática é reconhecida no Lync Server pelos registros do sistema de nomes de domínio (DNS) necessários **lyncdiscover. \<domain\> ** e **lyncdiscoverinternal. \<domain\> **. Além disso, as versões mais recentes do cliente de área de trabalho Lync 2010 e Lync 2013 preferem a descoberta automática sobre os registros SRV do DNS (sistema de nomes de domínio), usando registros SRV DNS somente se o lyncdiscover.\<domain\> ou lyncdiscoverinternal.\<domain\> Não responde ou não resolve. O aplicativo Lync da Windows Store para Windows 8 e Lync Mobile usa descoberta automática exclusivamente e não fará referência aos Registros SRV DNS tradicionais.
 
-No Lync Server 2013, a descoberta automática é expandida para comunicar ao cliente quais elementos, recursos e métodos de comunicação estão disponíveis para o cliente. As informações são comunicadas por meio de uma solicitação que é enviada do cliente e os serviços Web do Lync Server respondem com uma resposta definida claramente que nomeia o que está disponível para o cliente e como entrar em contato com esses recursos no formato da descoberta automática Documento de resposta.
+No Lync Server 2013, a descoberta automática é expandida para comunicar ao cliente quais elementos, recursos e métodos de comunicação estão disponíveis para o cliente. As informações são comunicadas por meio de uma solicitação que é enviada do cliente e os serviços Web do Lync Server respondem com uma resposta definida claramente que nomeia o que está disponível para o cliente e como entrar em contato com esses recursos no formato do documento de resposta de descoberta automática.
 
 A melhor maneira de entender o documento de resposta de descoberta automática, incluindo como os serviços Web comunicam os recursos para os clientes por meio deste documento, é Dissect e definir cada linha em uma resposta típica do documento de resposta de descoberta automática do Lync Web Service.
 
@@ -59,7 +61,7 @@ A melhor maneira de entender o documento de resposta de descoberta automática, 
 
 
 > [!NOTE]  
-> O serviço Web de descoberta automática do Lync é definido nos <STRONG>protocolos do Microsoft Office</STRONG> na seção <STRONG>especificações abertas</STRONG> da biblioteca do <STRONG>Microsoft Developer Network</STRONG> (MSDN). Para obter detalhes, consulte o documento de especificação completa, "protocolo de serviço Web de descoberta automática do <A href="https://go.microsoft.com/fwlink/?linkid=273839">https://go.microsoft.com/fwlink/?LinkId=273839</A>Lync" em:. Para obter detalhes sobre a autenticação, consulte "OC Authentication Web Service Protocol <A href="https://go.microsoft.com/fwlink/?linkid=279015">https://go.microsoft.com/fwlink/?LinkId=279015</A>" em.
+> O serviço Web de descoberta automática do Lync é definido nos <STRONG>protocolos do Microsoft Office</STRONG> na seção <STRONG>especificações abertas</STRONG> da biblioteca do <STRONG>Microsoft Developer Network</STRONG> (MSDN). Para obter detalhes, consulte o documento de especificação completa, "protocolo de serviço Web de descoberta automática do Lync" em: <A href="https://go.microsoft.com/fwlink/?linkid=273839">https://go.microsoft.com/fwlink/?LinkId=273839</A> . Para obter detalhes sobre a autenticação, consulte "OC Authentication Web Service Protocol" em <A href="https://go.microsoft.com/fwlink/?linkid=279015">https://go.microsoft.com/fwlink/?LinkId=279015</A> .
 
 
 
@@ -129,7 +131,7 @@ SipClientInternalAccess e SipClientExternalAccess descrevem o nome de domínio t
 
     <Link token ="External/Autodiscover" href="https://webexternal.contoso.com/Autodiscover/AutodiscoverService.svc/root"/>
 
-As `Autodiscover` referências contêm os pontos de entrada de serviço para o serviço de descoberta automática. O atributo token contém o nome do serviço e o href é uma URL que define o cliente onde o serviço pode ser encontrado. Os clientes em uma rede externa usam `External/Autodiscover`o. O serviço de descoberta automática é instalado como parte do processo de implantação. `Internal/Autodiscover`Não é usado no momento e está reservado para uso futuro.
+As `Autodiscover` referências contêm os pontos de entrada de serviço para o serviço de descoberta automática. O atributo token contém o nome do serviço e o href é uma URL que define o cliente onde o serviço pode ser encontrado. Os clientes em uma rede externa usam o `External/Autodiscover` . O serviço de descoberta automática é instalado como parte do processo de implantação. `Internal/Autodiscover` Não é usado no momento e está reservado para uso futuro.
 
     <Link token="Internal/AuthBroker" href="https://webinternal.contoso.net/Reach/sip.svc"/>
 
@@ -137,7 +139,7 @@ As `Autodiscover` referências contêm os pontos de entrada de serviço para o s
 
     <Link token="External/AuthBroker" href="https://webexternal.contoso.com/Reach/sip.svc"/>
 
-As `AuthBroker` referências contêm os pontos de entrada de serviço para o serviço de agente de autenticação interno e externo, neste caso, SIP. svc. O atributo token contém o nome do serviço e o href é uma URL que define o cliente onde o serviço pode ser encontrado. Clientes na rede interna com o uso `Internal/AuthBroker`. Os clientes em uma rede externa usam `External/AuthBroker`o. O serviço AuthBroker é instalado como parte do processo de implantação de seus serviços Web de implantação do Lync Server 2013 internos.
+As `AuthBroker` referências contêm os pontos de entrada de serviço para o serviço de agente de autenticação interno e externo, neste caso, SIP. svc. O atributo token contém o nome do serviço e o href é uma URL que define o cliente onde o serviço pode ser encontrado. Clientes na rede interna com o uso `Internal/AuthBroker` . Os clientes em uma rede externa usam o `External/AuthBroker` . O serviço AuthBroker é instalado como parte do processo de implantação de seus serviços Web de implantação do Lync Server 2013 internos.
 
     <Link token="Internal/WebScheduler" href="https://webinternal.contoso.net/Scheduler"/>
 
@@ -153,7 +155,7 @@ O `WebScheduler` token faz referência às URLs para o acesso do cliente ao agen
 
     <Link token="External/Mcx" href="https://webexternal.contoso.com/Mcx/McxService.svc"/>
 
-`Internal/Mcx`e `External/Mcx` são os locais dos serviços de mobilidade, introduzidos na atualização cumulativa do Lync Server 2010:2011 de novembro. Essas referências continuarão a ser usadas pelo Lync 2010 Mobile em todos os dispositivos com suporte. O serviço MCX é instalado como parte do processo de implantação de seus serviços Web de implantação do Lync Server 2013 internos.
+`Internal/Mcx` e `External/Mcx` são os locais dos serviços de mobilidade, introduzidos na atualização cumulativa do Lync Server 2010:2011 de novembro. Essas referências continuarão a ser usadas pelo Lync 2010 Mobile em todos os dispositivos com suporte. O serviço MCX é instalado como parte do processo de implantação de seus serviços Web de implantação do Lync Server 2013 internos.
 
     <Link token="Internal/Ucwa" href="https://webinternal.contoso.net/ucwa/v1/applications"/>
 
@@ -165,7 +167,7 @@ O `WebScheduler` token faz referência às URLs para o acesso do cliente ao agen
 
     <Link token="Ucwa" href="https://webexternal.contoso.com/ucwa/v1/applications"/>
 
-**Interno/Ucwa**, **external/Ucwa** e **Ucwa** fornecem um meio para os clientes acessarem a interface de programação de aplicativos Web de comunicação unificada (API Ucwa ou simplesmente Ucwa). `Internal/Ucwa`e `External/Ucwa` os diretórios virtuais são pontos de acesso reservados para aprimoramento de recursos futuros e não são usados. O `Ucwa` diretório virtual é usado para o Microsoft Lync Mobile (introduzido com o Lync Server 2013) em todos os dispositivos com suporte. O serviço UCWA é instalado como parte do processo de implantação de seus serviços Web de implantação do Lync Server 2013 internos.
+**Interno/Ucwa**, **external/Ucwa** e **Ucwa** fornecem um meio para os clientes acessarem a interface de programação de aplicativos Web de comunicação unificada (API Ucwa ou simplesmente Ucwa). `Internal/Ucwa` e os `External/Ucwa` diretórios virtuais são pontos de acesso reservados para aprimoramento de recursos futuros e não são usados. O `Ucwa` diretório virtual é usado para o Microsoft Lync Mobile (introduzido com o Lync Server 2013) em todos os dispositivos com suporte. O serviço UCWA é instalado como parte do processo de implantação de seus serviços Web de implantação do Lync Server 2013 internos.
 
     <Link token="Internal/XFrame" href="https://webinternal.contoso.net/Autodiscover/XFrame/XFrame.html"/>
 

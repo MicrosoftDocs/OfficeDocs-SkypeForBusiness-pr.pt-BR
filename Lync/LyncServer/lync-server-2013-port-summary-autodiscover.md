@@ -12,20 +12,22 @@ ms:contentKeyID: 51541497
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 93750418bce8ea98d0cee385232bc09bb0bd63bc
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 57397d3c2629c0f3f69ebb616c3d933c8312f7b0
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42208817"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48527948"
 ---
+# <a name="port-summary---autodiscover-in-lync-server-2013"></a>Resumo de porta-descoberta automática no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="port-summary---autodiscover-in-lync-server-2013"></a>Resumo de porta-descoberta automática no Lync Server 2013
+
 
 </div>
 
@@ -37,13 +39,13 @@ ms.locfileid: "42208817"
 
 _**Última modificação do tópico:** 2013-03-05_
 
-O serviço de descoberta automática do Lync Server 2013 é executado nos servidores do diretor e do pool de front-ends, e `lyncdiscover.<domain>` quando `lyncdiscoverinternal.<domain>` publicado no DNS usando os registros de host, pode ser usado por clientes para localizar recursos do Lync Server. Para que os dispositivos móveis que executam o Lync Mobile usem a descoberta automática, você precisará primeiro modificar listas de nomes alternativos de entidades de certificado em qualquer diretor e servidor front-end executando o serviço de descoberta automática. Além disso, pode ser necessário modificar as listas de nomes alternativos de entidade nos certificados usados pelas regras de publicação de serviços de Web externa em proxies reversos.
+O serviço de descoberta automática do Lync Server 2013 é executado nos servidores do diretor e do pool de front-ends, e quando publicado no DNS usando os `lyncdiscover.<domain>` `lyncdiscoverinternal.<domain>` registros de host, pode ser usado por clientes para localizar recursos do Lync Server. Para que os dispositivos móveis que executam o Lync Mobile usem a descoberta automática, você precisará primeiro modificar listas de nomes alternativos de entidades de certificado em qualquer diretor e servidor front-end executando o serviço de descoberta automática. Além disso, pode ser necessário modificar as listas de nomes alternativos de entidade nos certificados usados pelas regras de publicação de serviços de Web externa em proxies reversos.
 
 A decisão sobre a utilização de listas de nomes alternativos de entidades em proxies reversos baseia-se no fato de você publicar o serviço de descoberta automática na porta 80 ou na porta 443:
 
-  - **Publicado na porta 80**   para dispositivos móveis, não são necessárias alterações de certificado se a consulta inicial para o serviço de descoberta automática ocorrer pela porta 80. Isso ocorre porque os dispositivos móveis que executam o Lync acessarão o proxy reverso na porta 80 externamente e, em seguida, serão redirecionados para um diretor ou servidor front-end na porta 8080 internamente.
+  - **Publicado na porta 80**     Para dispositivos móveis, nenhuma alteração de certificado será necessária se a consulta inicial para o serviço de descoberta automática ocorrer pela porta 80. Isso ocorre porque os dispositivos móveis que executam o Lync acessarão o proxy reverso na porta 80 externamente e, em seguida, serão redirecionados para um diretor ou servidor front-end na porta 8080 internamente.
 
-  - **Publicado na porta 443**   a lista de nomes alternativos da entidade em certificados usados pela regra de publicação dos serviços Web externos `lyncdiscover.<sipdomain>` deve conter uma entrada para cada domínio SIP em sua organização.
+  - **Publicado na porta 443**     A lista de nomes alternativos da entidade em certificados usados pela regra de publicação dos serviços Web externos deve conter uma `lyncdiscover.<sipdomain>` entrada para cada domínio SIP em sua organização.
     
     <div>
     
@@ -74,13 +76,13 @@ A decisão sobre a utilização de listas de nomes alternativos de entidades em 
 <tbody>
 <tr class="odd">
 <td><p>HTTP/TCP/80</p></td>
-<td><p>Qualquer tamanho</p></td>
+<td><p>Qualquer</p></td>
 <td><p>Ouvinte de proxy reverso</p></td>
-<td><p>Opcion Redirecionamento para HTTPS se o usuário inserir&lt;http://&gt;publishedSiteFQDN. Também necessário se estiver usando o Office Web Apps para conferência e o serviço de descoberta automática para dispositivos móveis que executam o Lync em situações em que a organização não deseja modificar o certificado de regra de publicação do serviço Web externo.</p></td>
+<td><p>Opcion Redirecionamento para HTTPS se o usuário inserir http:// &lt; publishedSiteFQDN &gt; . Também necessário se estiver usando o Office Web Apps para conferência e o serviço de descoberta automática para dispositivos móveis que executam o Lync em situações em que a organização não deseja modificar o certificado de regra de publicação do serviço Web externo.</p></td>
 </tr>
 <tr class="even">
 <td><p>HTTPS/TCP/443</p></td>
-<td><p>Qualquer tamanho</p></td>
+<td><p>Qualquer</p></td>
 <td><p>Ouvinte de proxy reverso</p></td>
 <td><p>Downloads do catálogo de endereços, serviço de consulta à Web do catálogo de endereços, descoberta automática, atualizações do cliente, conteúdo da reunião, atualizações de dispositivo, expansão de grupo, Office Web Apps para conferência, conferência discada e reuniões.</p></td>
 </tr>

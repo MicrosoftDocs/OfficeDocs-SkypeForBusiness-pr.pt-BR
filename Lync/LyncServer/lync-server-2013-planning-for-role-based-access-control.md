@@ -12,20 +12,22 @@ ms:contentKeyID: 48183962
 ms.date: 01/28/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d88353019a266fbb094df8808faa4543e31bf562
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 65f6411023c80a527cff31c389a8283d090dfc0d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42201887"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48528028"
 ---
+# <a name="planning-for-role-based-access-control-in-lync-server-2013"></a>Planejando o controle de acesso baseado em função no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="planning-for-role-based-access-control-in-lync-server-2013"></a>Planejando o controle de acesso baseado em função no Lync Server 2013
+
 
 </div>
 
@@ -159,11 +161,11 @@ Todas as funções predefinidas fornecidas no Lync Server têm um escopo global.
 
 ## <a name="creating-a-scoped-role"></a>Criando uma Função com escopo
 
-Ao criar uma função com escopo limitado (função com escopo), você especifica o escopo junto com a função existente a qual é baseada e o grupo de Diretório Ativo a ser atribuído à função. O grupo do Diretório Ativo especificado já deve ter sido criado. O cmdlet a seguir é um exemplo de uma criação de função a qual possui os privilégios de uma das funções administrativas, mas com escopo limitado. Ele cria uma nova função chamada `Site01 Server Administrators`. A função possui as capacidades da função CsServerAdministrator predefinida, mas apenas servidores localizados no local do Site01. Para que este cmdlet funcione, o site do Site01 já deve estar definido, e um grupo de segurança `Site01 Server Administrators` universal chamado já deve existir.
+Ao criar uma função com escopo limitado (função com escopo), você especifica o escopo junto com a função existente a qual é baseada e o grupo de Diretório Ativo a ser atribuído à função. O grupo do Diretório Ativo especificado já deve ter sido criado. O cmdlet a seguir é um exemplo de uma criação de função a qual possui os privilégios de uma das funções administrativas, mas com escopo limitado. Ele cria uma nova função chamada `Site01 Server Administrators` . A função possui as capacidades da função CsServerAdministrator predefinida, mas apenas servidores localizados no local do Site01. Para que este cmdlet funcione, o site do Site01 já deve estar definido, e um grupo de segurança universal chamado `Site01 Server Administrators` já deve existir.
 
     New-CsAdminRole -Identity "Site01 Server Administrators" -Template CsServerAdministrator -ConfigScopes "site:Site01"
 
-Após a execução do cmdlet, todos os usuários que são membros `Site01 Server Administrators` do grupo terão privilégios de administrador do servidor para os servidores no Site01. Além disso, qualquer usuário que posteriormente adicionado a esse grupo de segurança universal também obterá os privilégios dessa função. Observe que a função em si e o grupo de segurança universal ao qual é atribuído são chamados `Site01 Server Administrators`.
+Após a execução do cmdlet, todos os usuários que são membros do `Site01 Server Administrators` grupo terão privilégios de administrador do servidor para os servidores no Site01. Além disso, qualquer usuário que posteriormente adicionado a esse grupo de segurança universal também obterá os privilégios dessa função. Observe que a função em si e o grupo de segurança universal ao qual é atribuído são chamados `Site01 Server Administrators` .
 
 O exemplo a seguir limita o escopo de usuário, em vez do escopo do servidor. Ele cria uma `Sales Users Administrator` função para administrar as contas de usuário na unidade organizacional Sales. O grupo de segurança universal do SalesUsersAdministrator já deve ser criado para que esse cmdlet funcione.
 
@@ -177,13 +179,13 @@ O exemplo a seguir limita o escopo de usuário, em vez do escopo do servidor. El
 
 Para criar uma função que possui acesso a um conjunto de cmdlets que não estão em uma das funções predefinidas ou para um conjunto de scripts ou módulos, você pode começar utilizando uma das funções predefinidas como modelo. Observe que os scripts e módulos com a função que devem estar aptos a ser executados devem ser armazenados nos seguintes locais:
 
-  - O caminho do módulo do Lync, que é por padrão\\C:\\arquivos de\\programa arquivos comuns do\\Microsoft\\Lync Server 2013 Lync
+  - O caminho do módulo do Lync, que é por padrão C: Arquivos de \\ programa arquivos \\ comuns \\ do Microsoft Lync Server 2013 \\ \\ Lync
 
-  - O caminho do script de usuário, que é por padrão\\C:\\arquivos de\\programas comuns Microsoft Lync\\Server 2013 AdminScripts
+  - O caminho do script de usuário, que é por padrão C: Arquivos de \\ programas \\ comuns \\ Microsoft Lync Server 2013 \\ AdminScripts
 
 Para criar uma nova função, utilize o cmdlet **New-CsAdminRole**. Antes de executar o **New-CsAdminRole**, você deve primeiro criar o grupo de segurança universal subjacente que será associado a essa função.
 
-Os seguintes cmdlets servem como um exemplo de criação de nova função. Eles criam um novo tipo de função `MyHelpDeskScriptRole`chamado. A nova função possui as capacidades da função CsHelpDesk predefinida e pode, adicionalmente, executar funções em um script chamado “testscript”.
+Os seguintes cmdlets servem como um exemplo de criação de nova função. Eles criam um novo tipo de função chamado `MyHelpDeskScriptRole` . A nova função possui as capacidades da função CsHelpDesk predefinida e pode, adicionalmente, executar funções em um script chamado “testscript”.
 
     New-CsAdminRole -Identity "MyHelpDeskScriptRole" -Template CsHelpDesk -ScriptModules @{Add="testScript.ps1"}
 

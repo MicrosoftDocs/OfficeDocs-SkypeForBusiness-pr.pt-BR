@@ -12,20 +12,22 @@ ms:contentKeyID: 48185136
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8bee58b0a35d2a3a322d799f2aadc9ba3b9c1bd9
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 44f427486756895f1bff5330075f4c323f944afd
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42199744"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48529628"
 ---
+# <a name="active-directory-domain-services-support-in-lync-server-2013"></a>Suporte aos serviços de domínio do Active Directory no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="active-directory-domain-services-support-in-lync-server-2013"></a>Suporte aos serviços de domínio do Active Directory no Lync Server 2013
+
 
 </div>
 
@@ -93,7 +95,7 @@ Todas as florestas nas quais você implanta o Lync Server 2013 devem ser elevada
 
 <div>
 
-## <a name="support-for-read-only-domain-controllers"></a>Suporte para controladores de domínio somente leitura
+## <a name="support-for-read-only-domain-controllers"></a>Suporte para controladores de domínio Read-Only
 
 O Lync Server 2013 oferece suporte a implantações de serviços de domínio do Active Directory que incluem controladores de domínio somente leitura ou servidores de catálogo global somente leitura, desde que haja controladores de domínio graváveis disponíveis.
 
@@ -103,7 +105,7 @@ O Lync Server 2013 oferece suporte a implantações de serviços de domínio do 
 
 ## <a name="domain-names"></a>Nomes de domínio
 
-O Lync Server não dá suporte a domínios com rótulo único. Por exemplo, uma floresta com um domínio raiz chamado **contoso.local** é suportado, mas um domínio raiz chamado **local** não é suportado. Para obter detalhes, consulte o artigo 300684 da base de dados de conhecimento da Microsoft, "informações sobre como configurar o Windows para domínios [https://go.microsoft.com/fwlink/p/?linkId=143752](https://go.microsoft.com/fwlink/p/?linkid=143752)com nomes DNS de rótulo único" em.
+O Lync Server não dá suporte a domínios com rótulo único. Por exemplo, uma floresta com um domínio raiz chamado **contoso.local** é suportado, mas um domínio raiz chamado **local** não é suportado. Para obter detalhes, consulte o artigo 300684 da base de dados de conhecimento da Microsoft, "informações sobre como configurar o Windows para domínios com nomes DNS de rótulo único" em [https://go.microsoft.com/fwlink/p/?linkId=143752](https://go.microsoft.com/fwlink/p/?linkid=143752) .
 
 <div>
 
@@ -121,7 +123,7 @@ O Lync Server não dá suporte a domínios com rótulo único. Por exemplo, uma 
 
 ## <a name="locked-down-adds-environments"></a>Ambientes AD DS bloqueados
 
-Em um ambiente do AD DS bloqueado, os usuários e os objetos de computador costumam ser colocados em unidades organizacionais (OUs) específicas com herança de permissões desabilitada para ajudar a proteger a delegação administrativa e habilitar o uso de GPOs (objetos de política de grupo) para impor políticas de segurança. O Lync Server 2013 pode ser implantado em um ambiente do Active Directory bloqueado. Para obter detalhes sobre o que é necessário para implantar o Lync Server em um ambiente bloqueado, consulte [preparação de serviços de domínio do Active Directory bloqueados no Lync Server 2013](lync-server-2013-preparing-a-locked-down-active-directory-domain-services.md) na documentação de implantação.
+Em um ambiente do AD DS bloqueado, os usuários e os objetos de computador costumam ser colocados em unidades organizacionais (UOs) específicas com herança de permissões desabilitada para ajudar a proteger a delegação administrativa e habilitar o uso de GPOs (objetos de política de grupo) para impor políticas de segurança. O Lync Server 2013 pode ser implantado em um ambiente do Active Directory bloqueado. Para obter detalhes sobre o que é necessário para implantar o Lync Server em um ambiente bloqueado, consulte [preparação de serviços de domínio do Active Directory bloqueados no Lync Server 2013](lync-server-2013-preparing-a-locked-down-active-directory-domain-services.md) na documentação de implantação.
 
 </div>
 

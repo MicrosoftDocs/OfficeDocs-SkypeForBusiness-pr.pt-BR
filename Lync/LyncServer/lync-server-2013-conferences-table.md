@@ -12,20 +12,22 @@ ms:contentKeyID: 48185340
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d3dbaf1a721433cc04aa681dad56d753de8bc9a3
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: ef5e8811ad4b0adaccd8964e2f0bca718ca531e2
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42190244"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48529258"
 ---
+# <a name="conferences-table-in-lync-server-2013"></a>Tabela de conferências no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="conferences-table-in-lync-server-2013"></a>Tabela de conferências no Lync Server 2013
+
 
 </div>
 
@@ -126,7 +128,7 @@ Cada registro desta tabela contém os detalhes da chamada de uma conferência.
 </table>
 
 
-\*Para a maioria das sessões, SessionIdSeq terá o valor 1. Se duas sessões começarem exatamente ao mesmo tempo, o SessionIdSeq de um será 1 e o outro será 2 e assim por diante.
+\* Para a maioria das sessões, SessionIdSeq terá o valor 1. Se duas sessões começarem exatamente ao mesmo tempo, o SessionIdSeq de um será 1 e o outro será 2 e assim por diante.
 
 </div>
 

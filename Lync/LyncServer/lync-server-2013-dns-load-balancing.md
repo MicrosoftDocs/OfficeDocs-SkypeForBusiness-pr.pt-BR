@@ -12,20 +12,22 @@ ms:contentKeyID: 48184625
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 47469a8b47273c077a96196b06b827ac13a0e336
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 79c2bb8e5bbcb9d00fe687d6f06ac6226a2edf6e
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42197432"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48528918"
 ---
+# <a name="dns-load-balancing-in-lync-server-2013"></a>Balanceamento de carga de DNS no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="dns-load-balancing-in-lync-server-2013"></a>Balanceamento de carga de DNS no Lync Server 2013
+
 
 </div>
 
@@ -41,7 +43,7 @@ O Lync Server habilita o balanceamento de carga de DNS, uma solução de softwar
 
 Se você implantar o balanceamento de carga DNS, a sobrecarga de administração da sua organização para balanceadores de carga de hardware será minimizada. Além disso, a solução complexa de problemas relacionados à configuração incorreta de balanceadores de carga de tráfego SIP será eliminada. Você também pode impedir as conexões de servidor para que seja possível assumir servidores offline. O balanceamento de carga DNS também garante que os problemas de balanceador de carga de hardware não afetem elementos do tráfego SIP, como o roteamento básico de chamada.
 
-Se você usar o balanceamento de carga DNS, também poderá adquirir os balanceadores de carga de hardware de custo mais baixo do que se usasse os balanceadores de carga de hardware para todos os tipos de tráfego. Você deve usar balanceadores de carga que passaram no teste de qualificação de interoperabilidade com o Lync Server. Para obter detalhes sobre o teste de interoperabilidade do balanceador de carga, consulte "parceiros do balanceador de carga do Lync Server 2010" em [https://go.microsoft.com/fwlink/p/?linkId=202452](https://go.microsoft.com/fwlink/p/?linkid=202452).
+Se você usar o balanceamento de carga DNS, também poderá adquirir os balanceadores de carga de hardware de custo mais baixo do que se usasse os balanceadores de carga de hardware para todos os tipos de tráfego. Você deve usar balanceadores de carga que passaram no teste de qualificação de interoperabilidade com o Lync Server. Para obter detalhes sobre o teste de interoperabilidade do balanceador de carga, consulte "parceiros do balanceador de carga do Lync Server 2010" em [https://go.microsoft.com/fwlink/p/?linkId=202452](https://go.microsoft.com/fwlink/p/?linkid=202452) .
 
 O balanceamento de carga DNS é suportado para pools de Front-Ends,  pools de Servidor de Borda, pools do Diretor e pools autônomos do Servidor de Mediação.
 
@@ -57,7 +59,7 @@ Embora você ainda precisará de balanceadores de carga de hardware para estes p
 
 ## <a name="dns-load-balancing-and-supporting-older-clients-and-servers"></a>Balanceamento de carga DNS e suporte aos clientes e servidores mais antigos
 
-O balanceamento de carga DNS oferece suporte a failover automático somente para servidores que executam o Lync Server 2013 ou o Lync Server 2010 e para clientes do Lync 2013 e Lync 2010. As versões anteriores de clientes e o Office Communications Server ainda podem se conectar a pools que executam o balanceamento de carga DNS, mas se não puderem estabelecer uma conexão com o primeiro servidor ao qual o balanceamento de carga DNS as referencia, eles não poderão fazer failover para outro servidor no pool .
+O balanceamento de carga DNS oferece suporte a failover automático somente para servidores que executam o Lync Server 2013 ou o Lync Server 2010 e para clientes do Lync 2013 e Lync 2010. As versões anteriores de clientes e o Office Communications Server ainda podem se conectar a pools que executam o balanceamento de carga DNS, mas se não puderem estabelecer uma conexão com o primeiro servidor ao qual o balanceamento de carga DNS as referencia, eles não poderão fazer failover para outro servidor no pool.
 
 Além disso, se você estiver usando o UM do Exchange, deverá usar um mínimo de Exchange 2010 SP1 para obter suporte para o balanceamento de carga DNS do Lync Server. Se você usar uma versão anterior do Exchange, seus usuários não terão recursos de failover para esses cenários de UM do Exchange:
 
@@ -104,7 +106,7 @@ Usar o balanceamento de carga DNS nos servidores de borda provoca uma perda da c
 
   - Federação com organizações que estão executando versões do Office Communications Server lançadas antes do Lync Server 2010.
 
-  - Troca de mensagens instantâneas com usuários de serviços de mensagens instantâneas (IM\!) AOLand Yahoo, além de provedores e servidores baseados em XMPP, como o Google Talk.
+  - Troca de mensagens instantâneas com usuários de serviços de mensagens instantâneas (IM) AOLand Yahoo \! , além de provedores e servidores baseados em XMPP, como o Google Talk.
     
     <div>
     

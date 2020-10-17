@@ -12,20 +12,22 @@ ms:contentKeyID: 49733660
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7bc6d1888753edbeb076d60d6725b6d9cffc509e
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: cf8023408990b7f0243aaf0e937e2d1095dff0c2
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42209357"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48529178"
 ---
+# <a name="conferencesessiondetails-view-in-lync-server-2013"></a>Exibição ConferenceSessionDetails no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="conferencesessiondetails-view-in-lync-server-2013"></a>Exibição ConferenceSessionDetails no Lync Server 2013
+
 
 </div>
 
@@ -237,7 +239,7 @@ O ConferenceSessionDetails visualiza as informações dos repositórios sobre se
 <td><p>Tipo de conteúdo para a sessão.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Front</strong></p></td>
+<td><p><strong>FrontEnd</strong></p></td>
 <td><p>nvarchar (256)</p></td>
 <td><p>FQDN do servidor de Front-End que capturou os dados para a sessão.</p></td>
 </tr>
