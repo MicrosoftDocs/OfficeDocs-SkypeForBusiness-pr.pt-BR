@@ -12,20 +12,22 @@ ms:contentKeyID: 48183802
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c45300800ad83bbeee0d71abd1a38879f41c903d
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 2ed272afa7fe21a7b40004fb93dcdfa239b4caf8
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42209327"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48520658"
 ---
+# <a name="codecdescription-table-in-lync-server-2013"></a><span data-ttu-id="98d6f-102">Tabela CodecDescription no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="98d6f-102">CodecDescription table in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="codecdescription-table-in-lync-server-2013"></a><span data-ttu-id="4ba5b-102">Tabela CodecDescription no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="4ba5b-102">CodecDescription table in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,9 +37,9 @@ ms.locfileid: "42209327"
 
 <span> </span>
 
-<span data-ttu-id="4ba5b-103">_**Última modificação do tópico:** 2012-10-17_</span><span class="sxs-lookup"><span data-stu-id="4ba5b-103">_**Topic Last Modified:** 2012-10-17_</span></span>
+<span data-ttu-id="98d6f-103">_**Última modificação do tópico:** 2012-10-17_</span><span class="sxs-lookup"><span data-stu-id="98d6f-103">_**Topic Last Modified:** 2012-10-17_</span></span>
 
-<span data-ttu-id="4ba5b-104">A tabela CodecDescription associa identificadores exclusivos de codec a seus codecs correspondentes.</span><span class="sxs-lookup"><span data-stu-id="4ba5b-104">The CodecDescription table maps unique codec identifiers to their corresponding codec.</span></span> <span data-ttu-id="4ba5b-105">Os codecs são usados para codificar sinais digitais para transmissão e divulgação e, depois, para decodificar esses sinais para reprodução.</span><span class="sxs-lookup"><span data-stu-id="4ba5b-105">Codecs are used to encode digital signals for transmission and broadcast, and then to decode those signals for playback.</span></span> <span data-ttu-id="4ba5b-106">Esta tabela foi introduzida no Microsoft Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="4ba5b-106">This table was introduced in Microsoft Lync Server 2013</span></span>
+<span data-ttu-id="98d6f-104">A tabela CodecDescription associa identificadores exclusivos de codec a seus codecs correspondentes.</span><span class="sxs-lookup"><span data-stu-id="98d6f-104">The CodecDescription table maps unique codec identifiers to their corresponding codec.</span></span> <span data-ttu-id="98d6f-105">Os codecs são usados para codificar sinais digitais para transmissão e divulgação e, depois, para decodificar esses sinais para reprodução.</span><span class="sxs-lookup"><span data-stu-id="98d6f-105">Codecs are used to encode digital signals for transmission and broadcast, and then to decode those signals for playback.</span></span> <span data-ttu-id="98d6f-106">Esta tabela foi introduzida no Microsoft Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="98d6f-106">This table was introduced in Microsoft Lync Server 2013</span></span>
 
 
 <table>
@@ -49,24 +51,24 @@ ms.locfileid: "42209327"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="4ba5b-107"><strong>Coluna</strong></span><span class="sxs-lookup"><span data-stu-id="4ba5b-107"><strong>Column</strong></span></span></th>
-<th><span data-ttu-id="4ba5b-108"><strong>Tipo de dados</strong></span><span class="sxs-lookup"><span data-stu-id="4ba5b-108"><strong>Data Type</strong></span></span></th>
-<th><span data-ttu-id="4ba5b-109"><strong>Chave/índice</strong></span><span class="sxs-lookup"><span data-stu-id="4ba5b-109"><strong>Key/Index</strong></span></span></th>
-<th><span data-ttu-id="4ba5b-110"><strong>Detalhes</strong></span><span class="sxs-lookup"><span data-stu-id="4ba5b-110"><strong>Details</strong></span></span></th>
+<th><span data-ttu-id="98d6f-107"><strong>Coluna</strong></span><span class="sxs-lookup"><span data-stu-id="98d6f-107"><strong>Column</strong></span></span></th>
+<th><span data-ttu-id="98d6f-108"><strong>Tipo de dados</strong></span><span class="sxs-lookup"><span data-stu-id="98d6f-108"><strong>Data Type</strong></span></span></th>
+<th><span data-ttu-id="98d6f-109"><strong>Chave/índice</strong></span><span class="sxs-lookup"><span data-stu-id="98d6f-109"><strong>Key/Index</strong></span></span></th>
+<th><span data-ttu-id="98d6f-110"><strong>Detalhes</strong></span><span class="sxs-lookup"><span data-stu-id="98d6f-110"><strong>Details</strong></span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="4ba5b-111"><strong>CodecDescriptionKey</strong></span><span class="sxs-lookup"><span data-stu-id="4ba5b-111"><strong>CodecDescriptionKey</strong></span></span></p></td>
-<td><p><span data-ttu-id="4ba5b-112">smallint</span><span class="sxs-lookup"><span data-stu-id="4ba5b-112">smallint</span></span></p></td>
-<td><p><span data-ttu-id="4ba5b-113">Primário</span><span class="sxs-lookup"><span data-stu-id="4ba5b-113">Primary</span></span></p></td>
-<td><p><span data-ttu-id="4ba5b-114">Identificador exclusivo atribuído ao codec.</span><span class="sxs-lookup"><span data-stu-id="4ba5b-114">Unique identifier assigned to the codec.</span></span></p></td>
+<td><p><span data-ttu-id="98d6f-111"><strong>CodecDescriptionKey</strong></span><span class="sxs-lookup"><span data-stu-id="98d6f-111"><strong>CodecDescriptionKey</strong></span></span></p></td>
+<td><p><span data-ttu-id="98d6f-112">smallint</span><span class="sxs-lookup"><span data-stu-id="98d6f-112">smallint</span></span></p></td>
+<td><p><span data-ttu-id="98d6f-113">Primário</span><span class="sxs-lookup"><span data-stu-id="98d6f-113">Primary</span></span></p></td>
+<td><p><span data-ttu-id="98d6f-114">Identificador exclusivo atribuído ao codec.</span><span class="sxs-lookup"><span data-stu-id="98d6f-114">Unique identifier assigned to the codec.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="4ba5b-115"><strong>CodecDescription</strong></span><span class="sxs-lookup"><span data-stu-id="4ba5b-115"><strong>CodecDescription</strong></span></span></p></td>
-<td><p><span data-ttu-id="4ba5b-116">varchar (256)</span><span class="sxs-lookup"><span data-stu-id="4ba5b-116">varchar(256)</span></span></p></td>
-<td><p><span data-ttu-id="4ba5b-117">Diferente</span><span class="sxs-lookup"><span data-stu-id="4ba5b-117">Unique</span></span></p></td>
-<td><p><span data-ttu-id="4ba5b-118">Descrição exclusiva do codec correspondendo à chave de descrição do codec.</span><span class="sxs-lookup"><span data-stu-id="4ba5b-118">Unique description of the codec corresponding to the CodecDescriptionKey.</span></span></p></td>
+<td><p><span data-ttu-id="98d6f-115"><strong>CodecDescription</strong></span><span class="sxs-lookup"><span data-stu-id="98d6f-115"><strong>CodecDescription</strong></span></span></p></td>
+<td><p><span data-ttu-id="98d6f-116">varchar (256)</span><span class="sxs-lookup"><span data-stu-id="98d6f-116">varchar(256)</span></span></p></td>
+<td><p><span data-ttu-id="98d6f-117">Diferente</span><span class="sxs-lookup"><span data-stu-id="98d6f-117">Unique</span></span></p></td>
+<td><p><span data-ttu-id="98d6f-118">Descrição exclusiva do codec correspondendo à chave de descrição do codec.</span><span class="sxs-lookup"><span data-stu-id="98d6f-118">Unique description of the codec corresponding to the CodecDescriptionKey.</span></span></p></td>
 </tr>
 </tbody>
 </table>

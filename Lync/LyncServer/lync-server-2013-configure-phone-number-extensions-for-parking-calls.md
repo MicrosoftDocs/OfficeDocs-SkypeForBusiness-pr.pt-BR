@@ -12,20 +12,22 @@ ms:contentKeyID: 48185980
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b4f1c9b448327b7f95d7987e995749124da9b026
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 97a8871454ed95b955558c441d567f68dd0974bd
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213277"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48520428"
 ---
+# <a name="configure-phone-number-extensions-for-parking-calls-in-lync-server-2013"></a><span data-ttu-id="95600-102">Configurar extensões de número de telefone para estacionamento de chamadas no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="95600-102">Configure phone number extensions for parking calls in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-phone-number-extensions-for-parking-calls-in-lync-server-2013"></a><span data-ttu-id="51c9e-102">Configurar extensões de número de telefone para estacionamento de chamadas no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="51c9e-102">Configure phone number extensions for parking calls in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,15 +37,15 @@ ms.locfileid: "42213277"
 
 <span> </span>
 
-<span data-ttu-id="51c9e-103">_**Última modificação do tópico:** 2012-09-10_</span><span class="sxs-lookup"><span data-stu-id="51c9e-103">_**Topic Last Modified:** 2012-09-10_</span></span>
+<span data-ttu-id="95600-103">_**Última modificação do tópico:** 2012-09-10_</span><span class="sxs-lookup"><span data-stu-id="95600-103">_**Topic Last Modified:** 2012-09-10_</span></span>
 
-<span data-ttu-id="51c9e-104">O aplicativo de estacionamento de chamada usa números de ramal na tabela de órbita de estacionamento de chamada para estacionar chamadas.</span><span class="sxs-lookup"><span data-stu-id="51c9e-104">The Call Park application uses extension numbers in the Call Park orbit table to park calls.</span></span> <span data-ttu-id="51c9e-105">Você precisa configurar a tabela de órbita de estacionamento de chamada com os intervalos de números de ramal que sua organização reserva para chamadas estacionadas.</span><span class="sxs-lookup"><span data-stu-id="51c9e-105">You need to configure the Call Park orbit table with the ranges of extension numbers that your organization reserves for parked calls.</span></span> <span data-ttu-id="51c9e-106">Essas extensões precisam ser extensões virtuais (ou seja, extensões com nenhum usuário ou telefone atribuído a eles).</span><span class="sxs-lookup"><span data-stu-id="51c9e-106">These extensions need to be virtual extensions (that is, extensions that have no user or phone assigned to them).</span></span> <span data-ttu-id="51c9e-107">Cada pool do Lync Server onde um aplicativo de estacionamento de chamada é implantado e configurado pode ter um ou mais intervalos de órbita.</span><span class="sxs-lookup"><span data-stu-id="51c9e-107">Each Lync Server pool where a Call Park application is deployed and configured can have one or more orbit ranges.</span></span> <span data-ttu-id="51c9e-108">Os intervalos de órbita devem ser globalmente exclusivos na implantação do Lync Server.</span><span class="sxs-lookup"><span data-stu-id="51c9e-108">Orbit ranges must be globally unique across the Lync Server deployment.</span></span>
+<span data-ttu-id="95600-104">O aplicativo de estacionamento de chamada usa números de ramal na tabela de órbita de estacionamento de chamada para estacionar chamadas.</span><span class="sxs-lookup"><span data-stu-id="95600-104">The Call Park application uses extension numbers in the Call Park orbit table to park calls.</span></span> <span data-ttu-id="95600-105">Você precisa configurar a tabela de órbita de estacionamento de chamada com os intervalos de números de ramal que sua organização reserva para chamadas estacionadas.</span><span class="sxs-lookup"><span data-stu-id="95600-105">You need to configure the Call Park orbit table with the ranges of extension numbers that your organization reserves for parked calls.</span></span> <span data-ttu-id="95600-106">Essas extensões precisam ser extensões virtuais (ou seja, extensões com nenhum usuário ou telefone atribuído a eles).</span><span class="sxs-lookup"><span data-stu-id="95600-106">These extensions need to be virtual extensions (that is, extensions that have no user or phone assigned to them).</span></span> <span data-ttu-id="95600-107">Cada pool do Lync Server onde um aplicativo de estacionamento de chamada é implantado e configurado pode ter um ou mais intervalos de órbita.</span><span class="sxs-lookup"><span data-stu-id="95600-107">Each Lync Server pool where a Call Park application is deployed and configured can have one or more orbit ranges.</span></span> <span data-ttu-id="95600-108">Os intervalos de órbita devem ser globalmente exclusivos na implantação do Lync Server.</span><span class="sxs-lookup"><span data-stu-id="95600-108">Orbit ranges must be globally unique across the Lync Server deployment.</span></span>
 
 <div>
 
 
 > [!IMPORTANT]  
-> <span data-ttu-id="51c9e-109">Você deve marcar a caixa de seleção <STRONG>habilitar estacionamento de chamadas</STRONG> em sua política de voz antes de poder usar o estacionamento de chamada.</span><span class="sxs-lookup"><span data-stu-id="51c9e-109">You must select the <STRONG>Enable call park</STRONG> check box in your voice policy before you can use Call Park.</span></span> <span data-ttu-id="51c9e-110">Por padrão, essa opção não está selecionada.</span><span class="sxs-lookup"><span data-stu-id="51c9e-110">By default, this option is not selected.</span></span>
+> <span data-ttu-id="95600-109">Você deve marcar a caixa de seleção <STRONG>habilitar estacionamento de chamadas</STRONG> em sua política de voz antes de poder usar o estacionamento de chamada.</span><span class="sxs-lookup"><span data-stu-id="95600-109">You must select the <STRONG>Enable call park</STRONG> check box in your voice policy before you can use Call Park.</span></span> <span data-ttu-id="95600-110">Por padrão, essa opção não está selecionada.</span><span class="sxs-lookup"><span data-stu-id="95600-110">By default, this option is not selected.</span></span>
 
 
 
@@ -51,11 +53,11 @@ ms.locfileid: "42213277"
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="51c9e-111">Nesta seção</span><span class="sxs-lookup"><span data-stu-id="51c9e-111">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="95600-111">Nesta seção</span><span class="sxs-lookup"><span data-stu-id="95600-111">In This Section</span></span>
 
-  - [<span data-ttu-id="51c9e-112">Criar ou modificar um intervalo de órbita de estacionamento de chamada no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="51c9e-112">Create or modify a Call Park orbit range in Lync Server 2013</span></span>](lync-server-2013-create-or-modify-a-call-park-orbit-range.md)
+  - [<span data-ttu-id="95600-112">Criar ou modificar um intervalo de órbita de estacionamento de chamada no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="95600-112">Create or modify a Call Park orbit range in Lync Server 2013</span></span>](lync-server-2013-create-or-modify-a-call-park-orbit-range.md)
 
-  - [<span data-ttu-id="51c9e-113">Excluir um intervalo de órbita de estacionamento de chamada no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="51c9e-113">Delete a Call Park orbit range in Lync Server 2013</span></span>](lync-server-2013-delete-a-call-park-orbit-range.md)
+  - [<span data-ttu-id="95600-113">Excluir um intervalo de órbita de estacionamento de chamada no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="95600-113">Delete a Call Park orbit range in Lync Server 2013</span></span>](lync-server-2013-delete-a-call-park-orbit-range.md)
 
 </div>
 
