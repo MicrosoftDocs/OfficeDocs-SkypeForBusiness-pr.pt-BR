@@ -12,20 +12,22 @@ ms:contentKeyID: 48183945
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4dd399ef7a0ed2dd6609fe0455d9593e1e567b3b
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: e0be98112431b9e57486bb33e0eab84eada94e50
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42183634"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48506778"
 ---
+# <a name="prerequisites-for-enabling-kerberos-authentication-in-lync-server-2013"></a><span data-ttu-id="6c092-102">Pré-requisitos para habilitar a autenticação Kerberos no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="6c092-102">Prerequisites for enabling Kerberos authentication in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="prerequisites-for-enabling-kerberos-authentication-in-lync-server-2013"></a><span data-ttu-id="12639-102">Pré-requisitos para habilitar a autenticação Kerberos no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="12639-102">Prerequisites for enabling Kerberos authentication in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,25 +37,25 @@ ms.locfileid: "42183634"
 
 <span> </span>
 
-<span data-ttu-id="12639-103">_**Última modificação do tópico:** 2013-02-21_</span><span class="sxs-lookup"><span data-stu-id="12639-103">_**Topic Last Modified:** 2013-02-21_</span></span>
+<span data-ttu-id="6c092-103">_**Última modificação do tópico:** 2013-02-21_</span><span class="sxs-lookup"><span data-stu-id="6c092-103">_**Topic Last Modified:** 2013-02-21_</span></span>
 
-<span data-ttu-id="12639-104">Antes de habilitar a autenticação Kerberos, verifique se você concluiu todas as preparações de configuração e preparação de pré-requisitos:</span><span class="sxs-lookup"><span data-stu-id="12639-104">Before enabling Kerberos authentication, make sure that you complete all prerequisite configuration and infrastructure preparations:</span></span>
+<span data-ttu-id="6c092-104">Antes de habilitar a autenticação Kerberos, verifique se você concluiu todas as preparações de configuração e preparação de pré-requisitos:</span><span class="sxs-lookup"><span data-stu-id="6c092-104">Before enabling Kerberos authentication, make sure that you complete all prerequisite configuration and infrastructure preparations:</span></span>
 
-  - <span data-ttu-id="12639-105">O esquema do Active Directory é estendido para o Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="12639-105">Active Directory schema is extended for Lync Server 2013.</span></span>
+  - <span data-ttu-id="6c092-105">O esquema do Active Directory é estendido para o Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="6c092-105">Active Directory schema is extended for Lync Server 2013.</span></span>
 
-  - <span data-ttu-id="12639-106">A preparação da floresta do Active Directory foi concluída para o Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="12639-106">Active Directory forest preparation is completed for Lync Server 2013.</span></span>
+  - <span data-ttu-id="6c092-106">A preparação da floresta do Active Directory foi concluída para o Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="6c092-106">Active Directory forest preparation is completed for Lync Server 2013.</span></span>
 
-  - <span data-ttu-id="12639-107">A preparação do domínio do Active Directory foi concluída para o Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="12639-107">Active Directory domain preparation is completed for Lync Server 2013.</span></span>
+  - <span data-ttu-id="6c092-107">A preparação do domínio do Active Directory foi concluída para o Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="6c092-107">Active Directory domain preparation is completed for Lync Server 2013.</span></span>
 
-  - <span data-ttu-id="12639-108">O repositório de gerenciamento central está instalado e disponível com êxito.</span><span class="sxs-lookup"><span data-stu-id="12639-108">Central Management store is successfully installed and available.</span></span>
+  - <span data-ttu-id="6c092-108">O repositório de gerenciamento central está instalado e disponível com êxito.</span><span class="sxs-lookup"><span data-stu-id="6c092-108">Central Management store is successfully installed and available.</span></span>
 
-  - <span data-ttu-id="12639-109">A topologia foi criada e publicada usando o construtor de topologias.</span><span class="sxs-lookup"><span data-stu-id="12639-109">The topology has been created and published by using Topology Builder.</span></span>
+  - <span data-ttu-id="6c092-109">A topologia foi criada e publicada usando o construtor de topologias.</span><span class="sxs-lookup"><span data-stu-id="6c092-109">The topology has been created and published by using Topology Builder.</span></span>
 
-  - <span data-ttu-id="12639-110">Os servidores e as funções que exigem serviços Web foram definidos e implantados, incluindo servidores front-end, servidores Standard Edition e diretores.</span><span class="sxs-lookup"><span data-stu-id="12639-110">Servers and roles that require Web Services have been defined and deployed, including Front End Servers, Standard Edition servers, and Directors.</span></span>
+  - <span data-ttu-id="6c092-110">Os servidores e as funções que exigem serviços Web foram definidos e implantados, incluindo servidores front-end, servidores Standard Edition e diretores.</span><span class="sxs-lookup"><span data-stu-id="6c092-110">Servers and roles that require Web Services have been defined and deployed, including Front End Servers, Standard Edition servers, and Directors.</span></span>
 
-  - <span data-ttu-id="12639-111">O IIS (serviços de informações da Internet) é configurado e implantado com os serviços de função recomendados para dar suporte a serviços Web no Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="12639-111">Internet Information Services (IIS) is configured and deployed with the recommended role services to support Web Services in Lync Server 2013.</span></span>
+  - <span data-ttu-id="6c092-111">O IIS (serviços de informações da Internet) é configurado e implantado com os serviços de função recomendados para dar suporte a serviços Web no Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="6c092-111">Internet Information Services (IIS) is configured and deployed with the recommended role services to support Web Services in Lync Server 2013.</span></span>
 
-<span data-ttu-id="12639-112">Depois que os pré-requisitos forem atendidos, você deve estar pronto para criar uma ou mais contas para serviços Web a serem usados para a autenticação Kerberos para sua implantação.</span><span class="sxs-lookup"><span data-stu-id="12639-112">After the prerequisites have been met, you should be ready to create one or more accounts for Web Services to use for Kerberos authentication for your deployment.</span></span> <span data-ttu-id="12639-113">No mínimo, você precisa criar uma conta de autenticação Kerberos para cada implantação.</span><span class="sxs-lookup"><span data-stu-id="12639-113">At a minimum, you need to create one Kerberos authentication account for each deployment.</span></span> <span data-ttu-id="12639-114">No entanto, você pode criar uma conta para cada site, a fim de fornecer a autenticação Kerberos local no site.</span><span class="sxs-lookup"><span data-stu-id="12639-114">However, you can create an account for each site to provide local Kerberos authentication at the site.</span></span> <span data-ttu-id="12639-115">Você só pode especificar uma conta de autenticação Kerberos por site.</span><span class="sxs-lookup"><span data-stu-id="12639-115">You can only specify one Kerberos authentication account per site.</span></span>
+<span data-ttu-id="6c092-112">Depois que os pré-requisitos forem atendidos, você deve estar pronto para criar uma ou mais contas para serviços Web a serem usados para a autenticação Kerberos para sua implantação.</span><span class="sxs-lookup"><span data-stu-id="6c092-112">After the prerequisites have been met, you should be ready to create one or more accounts for Web Services to use for Kerberos authentication for your deployment.</span></span> <span data-ttu-id="6c092-113">No mínimo, você precisa criar uma conta de autenticação Kerberos para cada implantação.</span><span class="sxs-lookup"><span data-stu-id="6c092-113">At a minimum, you need to create one Kerberos authentication account for each deployment.</span></span> <span data-ttu-id="6c092-114">No entanto, você pode criar uma conta para cada site, a fim de fornecer a autenticação Kerberos local no site.</span><span class="sxs-lookup"><span data-stu-id="6c092-114">However, you can create an account for each site to provide local Kerberos authentication at the site.</span></span> <span data-ttu-id="6c092-115">Você só pode especificar uma conta de autenticação Kerberos por site.</span><span class="sxs-lookup"><span data-stu-id="6c092-115">You can only specify one Kerberos authentication account per site.</span></span>
 
 </div>
 
