@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: processo de implantação para recebimento de chamadas em grupo'
+description: 'Lync Server 2013: processo de implantação para recebimento de chamadas em grupo.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 51541444
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 52f7646010e4048d135e11c98d06a651f923d633
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 2a01409b257c685ae71dfdb13074f2d8ea590cd9
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48522608"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48552487"
 ---
 # <a name="deployment-process-for-group-call-pickup-in-lync-server-2013"></a>Processo de implantação do recebimento de chamadas em grupo no Lync Server 2013
 

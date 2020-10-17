@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: Saiba qual escrivaninha e telefones de conferências são certificados para que o Microsoft Teams produza os melhores resultados.
-ms.openlocfilehash: d19f3382fd64d48c4fa1067c0a8e6c8749a84596
-ms.sourcegitcommit: 4afb9617c1734d2f18e833fd9a22f4eda79f8c3b
+ms.openlocfilehash: 922ca79f5f3083dd57dc1bae6941a1d4dff0e2ad
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "47331635"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48552727"
 ---
 # <a name="ip-phones-certified-for-microsoft-teams"></a>Telefones IP certificados para o Microsoft Teams
 
@@ -83,9 +83,10 @@ Veja a seguir as versões mais recentes do aplicativo e do firmware para telefon
 
 | Lançamento do produto | Data do lançamento  | Versão do aplicativo Microsoft Teams | Versão do portal da empresa | Versão do agente de administração |
 |:----------------|:--------------|:----------------------------|:-----------------------|:--------------------|
-| Atualizar #5       | 31 de agosto de 2020 | 1449/1.0.94.2020071702    | 5.0.4867.0            | 1.0.0.202006290446. Product Versioncode: 216|
+| Atualizar #6       | 12 de outubro de 2020|1449/1.0.94.2020091801     | 5.0.4912.0             | produto 1.0.0.202006290446. (216) |
+| Atualizar #5       | 31 de agosto de 2020 | 1449/1.0.94.2020071702    | 5.0.4867.0             | produto 1.0.0.202006290446. (216) |
 | Atualizar #4       | 30 de junho de 2020 | 1449/1.0.94.2020051601      | 5.0.4771.0             | 1.0.0.202005060552  |
-| Atualizar #3       | 13 de maio de 2020  | .040801                     | .4715                  | 1,210               |
+| Atualizar #3       | 13 de maio de 2020  | 1449/1.0.94.2020040801      | 5.0.4715.0             | 1,210               |
 
 #### <a name="firmware-versions"></a>Versões do firmware
 
@@ -93,16 +94,16 @@ Ao instalar uma nova versão de firmware em seu dispositivo, você pode determin
 
 | Modelo de dispositivo        | Versão do firmware     | Lançamento do produto incluído |
 |:--------------------|:---------------------|:-------------------------|
-| AudioCodes C448HD   | C450HD_TEAMS_1.5.203 | Atualizar #5                |
-| AudioCodes C450HD   | C450HD_TEAMS_1.5.203 | Atualizar #5                |
-|Exibição ThinkSmart do Lenovo|CD-18781Y. 200809.091 |Atualizar #5                 |
+| AudioCodes C448HD   | C450HD_TEAMS_1.7.9   | Atualizar #6                |
+| AudioCodes C450HD   | C450HD_TEAMS_1.7.9   | Atualizar #6                |
+|Exibição ThinkSmart do Lenovo|CD-18781Y. 200922.098 | Atualizar #6                |
 | CCX400 de Polyline         | 6.2.21.1198          | Atualizar #5                |
 | CCX500/CCX600  | 6.2.21.1198          | Atualizar #5                |
 | C60 de Polyline trio       | 5.9.5.2686           | Atualizar #5                |
-| Yealink T55/T56/T58 | 58.15.0.110          | Atualizar #5                |
-| Yealink MP56        | 122.15.0.13          | Atualizar #5                |
-| Yealink VP59        | 91.15.0.44           | Atualizar #5                |
-| Yealink CP960       | 73.15.0.105          | Atualizar #5                |
+| Yealink T55/T56/T58 | 58.15.0.116          | Atualizar #6                |
+| Yealink MP56        | 122.15.0.23          | Atualizar #6                |
+| Yealink VP59        | 91.15.0.48           | Atualizar #6                |
+| Yealink CP960       | 73.15.0.109          | Atualizar #6                |
 
 ### <a name="product-release-information-for-collaboration-bars"></a>Informações de lançamento do produto para as barras de colaboração
 
