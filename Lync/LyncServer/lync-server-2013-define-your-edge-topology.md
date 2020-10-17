@@ -12,20 +12,22 @@ ms:contentKeyID: 48184562
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dec463e960a60e1c6d0251bf0c77300626e57c66
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: ceba1f397493ac0ef6961099877643f802c11d93
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42209138"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48504558"
 ---
+# <a name="define-your-edge-topology-in-lync-server-2013"></a>Definir sua topologia de borda no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="define-your-edge-topology-in-lync-server-2013"></a>Definir sua topologia de borda no Lync Server 2013
+
 
 </div>
 
@@ -91,7 +93,7 @@ O processo para definir a topologia do servidor de borda é feito no construtor 
         
 
         > [!IMPORTANT]  
-        > O nome especificado pode você deve ser idêntico ao nome de computador configurado no servidor. Por padrão, o nome de um computador que não é atribuído a um domínio é um nome curto, não um FQDN. O Construtor de Topologia utiliza FQDNs, não nomes curtos. Portanto, configure um sufixo DNS no nome do computador a ser implantado como um servidor de borda e que não esteja em um domínio. Use apenas caracteres padrões (incluindo A–Z, a–z, 0–9 e hífens) quando atribuir FQDNs a seus Lync Servers, Servidores de Borda e pools. Não use caracteres Unicode e sublinhados. Os caracteres não padrões em um FQDN frequentemente não são suportados pelo DNS externo e CAs públicos (quando o FQDN deve ser atribuído para o SN no certificado). Para obter detalhes sobre como adicionar um sufixo DNS a um nome de computador, consulte <A href="lync-server-2013-configure-dns-for-edge-support.md">Configurar o DNS para suporte de borda no Lync Server 2013</A>.
+        > O nome especificado deve ser idêntico ao nome do computador configurado no servidor. Por padrão, o nome de um computador que não é atribuído a um domínio é um nome curto, não um FQDN. O Construtor de Topologia utiliza FQDNs, não nomes curtos. Portanto, você deve configurar um sufixo DNS no nome do computador para ser implantado como um Servidor de Borda que não é vinculado a um domínio. Use apenas caracteres padrões (incluindo A–Z, a–z, 0–9 e hífens) quando atribuir FQDNs a seus Lync Servers, Servidores de Borda e pools. Não use caracteres Unicode ou sublinhados. Os caracteres não padrões em um FQDN frequentemente não são suportados pelo DNS externo e CAs públicos (quando o FQDN deve ser atribuído para o SN no certificado). Para obter detalhes sobre como adicionar um sufixo DNS a um nome de computador, consulte <A href="lync-server-2013-configure-dns-for-edge-support.md">Configurar o DNS para suporte de borda no Lync Server 2013</A>.
 
         
         </div>
@@ -226,7 +228,7 @@ O processo para definir a topologia do servidor de borda é feito no construtor 
         
 
         > [!IMPORTANT]  
-        > O nome especificado para o pool deve ser o nome do pool de borda interno. Ele deve ser definido como um FQDN. O Construtor de Topologia utiliza FQDNs, não nomes curtos. Use apenas caracteres padrões (incluindo A–Z, a–z, 0–9 e hífens) ao atribuir FQDNs dos seus Lync Servers, Servidores de Borda e pools. Não use caracteres Unicode e sublinhados. Muitas vezes, o DNS externo e as autoridades de certificação públicas não oferecem suporte a caracteres diferentes do padrão em um FQDN (quando o FQDN deve ser atribuído ao SN no certificado).
+        > O nome especificado para o pool deve ser o nome do pool de borda interno. Ele deve ser definido como um FQDN. O Construtor de Topologia utiliza FQDNs, não nomes curtos. Use apenas caracteres padrões (incluindo A–Z, a–z, 0–9 e hífens) ao atribuir FQDNs dos seus Lync Servers, Servidores de Borda e pools. Não use caracteres Unicode ou sublinhados. Muitas vezes, o DNS externo e as autoridades de certificação públicas não oferecem suporte a caracteres diferentes do padrão em um FQDN (quando o FQDN deve ser atribuído ao SN no certificado).
 
         
         </div>
@@ -264,7 +266,7 @@ O processo para definir a topologia do servidor de borda é feito no construtor 
     
     Você também pode configurar o servidor de borda ou o pool de borda para usar um endereço de conversão de endereço de rede para endereços IP externos. Faça isso marcando a caixa de seleção **O endereço IP externo desse pool de Borda é convertido pelo NAT**.
 
-9.  Em **FQDNs Externos**, faça o seguinte:
+9.  Em **FQDNs externos**, faça o seguinte:
     
       - Se em **Selecionar recursos** você optou por usar um único FQDN e Endereço IP para o acesso SIP, serviço de Webconferências e serviço de Borda de A/V, digite o FQDN externo em **Acesso SIP**.
         
@@ -304,7 +306,7 @@ O processo para definir a topologia do servidor de borda é feito no construtor 
     
       - Se você escolher usar um FQDN único e Endereço IP para o acesso SIP, o serviço de Webconferência e o serviço de Borda A/V, digite o endereço IP externo do Servidor de Borda em **Acesso SIP**.
     
-      - Se você não escolher usar um FQDN único e Endereço IP para o acesso SIP, o serviço de Webconferência e o serviço de Conferência A/V, digite o endereço IP escolhido para o lado público deste servidor de pool de Borda para o **Acesso SIP**. Em **Webconferência**, digite o endereço IP escolhido para o lado público deste servidor de pool de Borda. Em **Conferência A/V**, digite o endereço IP escolhido para seu lado público deste servidor de pool de Borda.
+      - Se você não optou por usar um único FQDN e Endereço IP para o acesso SIP, serviço de Webconferências e serviço de Conferências de A/V, digite o endereço IP escolhido para o lado voltado ao público deste servidor de pool de Borda no **Acesso SIP**. Em **Webconferências**, digite o endereço IP escolhido para o lado voltado ao público deste servidor de pool de Borda. Em **Conferências de A/V**, digite o endereço IP escolhido para o lado voltado ao público deste servidor de pool de Borda.
 
 15. Clique em **Avançar**.
 
@@ -329,20 +331,20 @@ O processo para definir a topologia do servidor de borda é feito no construtor 
     
 
     > [!NOTE]  
-    > Você verá agora o primeiro Servidor de Borda criado no seu pool na caixa de diálogo <STRONG>Definir os computadores neste pool</STRONG>.
+    > Agora você verá o primeiro Servidor de Borda criado em seu pool na caixa de diálogo <STRONG>Definir os computadores neste pool</STRONG>.
 
     
     </div>
 
 18. Em **Definir os computadores neste pool**, clique em **Adicionar** e repita as etapas 11 até 14 para o segundo Servidor de Borda que deseja adicionar ao seu pool de Borda.
 
-19. Após repetir as etapas 11 a 14, clique em **Avançar** em **Definir os computadores neste pool**.
+19. Depois de repetir as etapas 11 a 14, clique em **Avançar** em **Definir os computadores neste pool**.
     
     <div>
     
 
     > [!NOTE]  
-    > Nesse ponto, é possível ver os dois Servidores de Borda em seu pool.
+    > Neste ponto, você poderá ver ambos os Servidores de Borda em seu pool.
 
     
     </div>
@@ -358,7 +360,7 @@ O processo para definir a topologia do servidor de borda é feito no construtor 
     
     </div>
 
-21. Em **Definir o próximo salto**, na lista **Próximo pool de salto**, selecione o nome do pool interno, que pode ser um pool de Front-Ends ou um pool do Standard Edition. Em alternativa, se sua implantação inclui um Diretor, selecione o nome do Diretor. Clique em **Avançar**.
+21. Em **Definir o próximo salto**, na lista **Pool do próximo salto**, selecione o nome do pool interno, que pode ser um pool de Front-Ends ou um pool Standard Edition. Ou, se sua implantação inclui um Diretor, selecione o nome do Diretor. Em seguida, clique em **Avançar**.
 
 22. Em **Associar pools de front-ends**, especifique um ou mais pools internos, que podem incluir pools de Front-Ends e servidores do Standard Edition, para serem associados a este Servidor de Borda selecionando os nomes dos pools internos que devem usar este Servidor de Borda para comunicação com os usuários externos suportados.
     

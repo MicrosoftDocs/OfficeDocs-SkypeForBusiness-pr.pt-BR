@@ -12,20 +12,22 @@ ms:contentKeyID: 48184174
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4bc6266cdf81f4462adf82c5878bcc47a6060fdf
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: a2e982884e0e73a5315f0c6281876be225ccab6f
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42198574"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48504158"
 ---
+# <a name="how-archiving-works-in-lync-server-2013"></a>Como o arquivamento funciona no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="how-archiving-works-in-lync-server-2013"></a>Como o arquivamento funciona no Lync Server 2013
+
 
 </div>
 
@@ -77,15 +79,15 @@ O Lync Server também não arquiva conversas de chat persistente. Para arquivar 
 
 O arquivamento é instalado automaticamente em cada Servidor Front-End quando você implanta o servidor, mas o arquivamento não é habilitado até você configurá-lo. Como você deve configurá-lo é determinado pelo modo como você implanta o arquivamento:
 
-  - **Arquivamento usando a integração com o Microsoft Exchange.** Se você tem usuários hospedados no Exchange 2013 e suas caixas de correio foram colocadas em bloqueio in-loco, você pode selecionar a opção para integrar o armazenamento do Lync Server 2013 com o armazenamento do Exchange. Se você escolher a opção de integração com o Microsoft Exchange, use as políticas e configurações do Exchange 2013 para controlar o arquivamento de dados do Lync Server 2013 para esses usuários.
+  - **Arquivamento usando a integração com o Microsoft Exchange.** Se você tiver usuários hospedados no Exchange 2013 e suas caixas de correio tiverem sido colocadas em In-Place, é possível selecionar a opção para integrar o armazenamento do Lync Server 2013 com o armazenamento do Exchange. Se você escolher a opção de integração com o Microsoft Exchange, use as políticas e configurações do Exchange 2013 para controlar o arquivamento de dados do Lync Server 2013 para esses usuários.
 
-  - **Arquivamento usando os bancos de dados de arquivamento do Lync Server.** Se você tiver usuários que não estão hospedados no Exchange 2013 ou que não tiveram suas caixas de correio colocadas em bloqueio in-loco, ou se você não quiser usar a integração do Microsoft Exchange para qualquer um ou todos os usuários em sua implantação, poderá implantar bancos de dados de arquivamento do Lync Server usando o SQL Server  para armazenar dados de arquivamento para esses usuários. Nesse caso, as configurações e políticas de arquivamento do Lync Server 2013 determinam se o arquivamento está habilitado e como ele é implementado. Para usar o Lync Server 2013, você deve adicionar os bancos de dados do SQL Server apropriados à sua topologia e publicar a topologia.
+  - **Arquivamento usando os bancos de dados de arquivamento do Lync Server.** Se você tiver usuários que não estão hospedados no Exchange 2013 ou que não tiveram suas caixas de correio colocadas em In-Place isenção ou se você não quiser usar a integração do Microsoft Exchange para qualquer um ou todos os usuários em sua implantação, poderá implantar bancos de dados de arquivamento do Lync Server usando o SQL Server para armazenar dados de arquivamento para esses usuários. Nesse caso, as configurações e políticas de arquivamento do Lync Server 2013 determinam se o arquivamento está habilitado e como ele é implementado. Para usar o Lync Server 2013, você deve adicionar os bancos de dados do SQL Server apropriados à sua topologia e publicar a topologia.
 
 <div>
 
 ## <a name="archiving-setup-when-using-microsoft-exchange-integration"></a>Configuração de arquivamento ao usar a integração com o Microsoft Exchange
 
-Se os seus usuários estiverem hospedados no Exchange 2013 e suas caixas de correio tiverem sido colocadas em bloqueio in-loco, você poderá escolher a opção de **integração do Microsoft Exchange** (conforme descrito mais adiante nesta seção) para arquivar o Lync Server 2013 para esses usuários e, em seguida, controlar o arquivamento desses usuários especificando as configurações e políticas de bloqueio in-loco do Exchange, bem como as configurações
+Se os seus usuários estiverem hospedados no Exchange 2013 e suas caixas de correio tiverem sido colocadas em In-Place, você poderá escolher a opção de **integração do Microsoft Exchange** (conforme descrito mais adiante nesta seção) para arquivar o Lync Server 2013 para esses usuários e, em seguida, controlar o arquivamento desses usuários, especificando as políticas e configurações do Exchange In-Place, bem como para controlar o seguinte:
 
   - Se arquivará mensagens instantâneas, conferências ou ambas.
 
@@ -93,7 +95,7 @@ Se os seus usuários estiverem hospedados no Exchange 2013 e suas caixas de corr
 
   - Seleção da opção de integração do Microsoft Exchange para usar o Exchange 2013 para armazenamento de dados arquivados.
 
-Essas opções de configuração de arquivamento do Lync Server 2013 são descritas mais adiante nesta seção. Para obter informações sobre como configurar as políticas de bloqueio in-loco do Exchange para dar suporte ao arquivamento, consulte a documentação do produto Exchange 2013.
+Essas opções de configuração de arquivamento do Lync Server 2013 são descritas mais adiante nesta seção. Para obter informações sobre como configurar as políticas e as configurações de retenção do Exchange In-Place para dar suporte ao arquivamento, consulte a documentação do produto Exchange 2013.
 
 </div>
 
@@ -123,7 +125,7 @@ Para obter detalhes sobre como configurar as políticas de arquivamento iniciais
 
 
 > [!NOTE]  
-> Se você implementar os bancos de dados de arquivamento do Lync Server 2013 e habilitar a integração com o Microsoft Exchange, as políticas do Exchange 2013 substituirão as políticas de arquivamento do Lync Server, mas apenas para os usuários hospedados no Exchange 2013 e tiveram suas caixas de correio colocadas em bloqueio in-loco . O arquivamento do Lync depende apenas da política de bloqueio in-loco do Microsoft Exchange.
+> Se você implementar os bancos de dados de arquivamento do Lync Server 2013 e habilitar a integração com o Microsoft Exchange, as políticas do Exchange 2013 substituirão as políticas de arquivamento do Lync Server, mas apenas para os usuários hospedados no Exchange 2013 e tiveram suas caixas de correio colocadas em In-Place isenção. O arquivamento do Lync depende somente da política de retenção de In-Place do Microsoft Exchange.
 
 
 
@@ -167,7 +169,7 @@ A configuração em nível global é criada automaticamente quando você implant
     
 
     > [!NOTE]  
-    > Se você habilitar a integração com o Microsoft Exchange, a limpeza para usuários hospedados no Exchange 2013 e em suas caixas de correio colocadas no bloqueio in-loco é controlada pelo Exchange. A única qualificação é para arquivos de conferência, que são armazenados no compartilhamento de arquivos do Lync Server. Esses arquivos são excluídos do compartilhamento de arquivos somente depois que os arquivos foram exportados (carregados no Exchange), se você selecionar a opção para limpar dados após os dados de arquivamento terem sido exportados ou após o número máximo de dias especificado, se você especificar um número máximo de dias para retenção.
+    > Se você habilitar a integração com o Microsoft Exchange, a limpeza para usuários hospedados no Exchange 2013 e em suas caixas de correio colocadas em In-Place bloqueio é controlada pelo Exchange. A única qualificação é para arquivos de conferência, que são armazenados no compartilhamento de arquivos do Lync Server. Esses arquivos são removidos do compartilhamento de arquivos somente depois que os arquivos foram exportados (carregados no Exchange), se você selecionar a opção para limpar dados após os dados de arquivamento terem sido exportados ou após o número máximo de dias especificado, se você especificar um número máximo de dias para retenção.
 
     
     </div>
@@ -208,9 +210,9 @@ Usando o Shell de gerenciamento do Lync Server 2013, você pode usar cmdlets par
 
 O acesso aos dados arquivados depende de onde os dados estão armazenados:
 
-  - **Armazenamento do Microsoft Exchange**. Se você escolher a opção de integração do Exchange, o Lync Server deposita o conteúdo de arquivamento no armazenamento 2013 do Exchange para todos os usuários hospedados no Exchange 2013 e que tiveram suas caixas de correio colocadas no bloqueio in-loco. Os dados arquivados são armazenados na pasta itens recuperáveis de caixas de correio do usuário, que geralmente são visíveis para os usuários e só podem ser pesquisados por usuários com uma função de **Gerenciamento de descoberta** do Exchange. O Exchange permite pesquisa e descoberta federada, juntamente com o SharePoint, se estiver implantado. Para obter mais detalhes sobre armazenamento, retenção e descoberta de dados armazenados no Exchange, consulte a documentação do Exchange 2013 e do SharePoint.
+  - **Armazenamento do Microsoft Exchange**. Se você escolher a opção de integração do Exchange, o Lync Server deposita o conteúdo de arquivamento no armazenamento 2013 do Exchange para todos os usuários hospedados no Exchange 2013 e que tiveram suas caixas de correio colocadas em In-Place. Os dados arquivados são armazenados na pasta itens recuperáveis de caixas de correio do usuário, que geralmente são visíveis para os usuários e só podem ser pesquisados por usuários com uma função de **Gerenciamento de descoberta** do Exchange. O Exchange permite pesquisa e descoberta federada, juntamente com o SharePoint, se estiver implantado. Para obter mais detalhes sobre armazenamento, retenção e descoberta de dados armazenados no Exchange, consulte a documentação do Exchange 2013 e do SharePoint.
 
-  - **Arquivamento do Lync Server**. Se você configurar bancos de dados de arquivamento do Lync Server 2013 para armazenamento de dados do Lync Server, os depósitos do Lync Server fazem o arquivamento de conteúdo nos bancos de dados de arquivamento do Lync Server (bancos de dados do SQL Server) para qualquer usuário que não seja hospedado no Exchange 2013 e que não tenham suas caixas de correio colocadas em Bloqueio in-loco. Esses dados não podem ser pesquisados, mas eles podem ser exportados para formatos que podem ser pesquisados utilizando outras ferramentas. Para obter detalhes sobre como exportar dados armazenados em bancos de dados de arquivamento, consulte [exportando dados arquivados do Lync Server 2013](lync-server-2013-exporting-archived-data.md) na documentação operações.
+  - **Arquivamento do Lync Server**. Se você configurar bancos de dados de arquivamento do Lync Server 2013 para armazenamento de dados do Lync Server, os depósitos do Lync Server fazem o arquivamento de conteúdo nos bancos de dados de arquivamento do Lync Server (bancos de dados do SQL Server) para qualquer usuário que não seja hospedado no Exchange 2013 e que não tenham suas caixas de correio colocadas em In-Place. Esses dados não podem ser pesquisados, mas eles podem ser exportados para formatos que podem ser pesquisados utilizando outras ferramentas. Para obter detalhes sobre como exportar dados armazenados em bancos de dados de arquivamento, consulte [exportando dados arquivados do Lync Server 2013](lync-server-2013-exporting-archived-data.md) na documentação operações.
 
 Para obter mais detalhes sobre como o Lync Server 2013 e o Exchange 2013 funcionam juntos, consulte [Exchange Server and SharePoint Integration Support in Lync server 2013](lync-server-2013-exchange-and-sharepoint-integration-support.md) na documentação de suporte.
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 48185319
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9be82373d33dafba7a5cf3e967b162ab5d33b01e
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 54629a270fcba5f6237deaaa1146108e16bafef7
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213708"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48504328"
 ---
+# <a name="defining-your-requirements-for-front-end-servers-instant-messaging-and-presence-in-lync-server-2013"></a>Definindo seus requisitos para servidores front-end, mensagens instantâneas e presença no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="defining-your-requirements-for-front-end-servers-instant-messaging-and-presence-in-lync-server-2013"></a>Definindo seus requisitos para servidores front-end, mensagens instantâneas e presença no Lync Server 2013
+
 
 </div>
 
@@ -45,11 +47,11 @@ A principal tarefa de planejamento de mensagens instantâneas (IM) e presença �
 
 Você pode aumentar significativamente os benefícios de seu investimento no Lync Server, permitindo que os usuários se comuniquem com usuários externos. Os usuários externos podem incluir:
 
-  - **Usuários remotos**   os usuários da sua organização, quando estão trabalhando fora de seus firewalls e estão usando seus laptops ou outros dispositivos do Lync Server.
+  - **Usuários**     remotos Os próprios usuários da sua organização, quando estão trabalhando fora de seus firewalls e estão usando seus laptops ou outros dispositivos do Lync Server.
 
-  - **Usuários federados**usuários de empresas com as quais você trabalha, que também executam o Lync Server.    Para permitir que os usuários contatem facilmente esses usuários, você pode criar relacionamentos federados com essas empresas.
+  - **Usuários federados**     Usuários de empresas com as quais você trabalha e que também executam o Lync Server. Para permitir que os usuários contatem facilmente esses usuários, você pode criar relacionamentos federados com essas empresas.
 
-  - **Usuários públicos**   usuários de serviços públicos de IM, como serviços de im fornecidos pela rede do Windows Live de serviços de Internet\!, Yahoo e AOL, e usuários de provedores e servidores que usam o protocolo XMPP (Extensible Messaging and Presence Protocol), como o Google Talk.
+  - **Usuários públicos**     Usuários de serviços públicos de IM, como serviços de IM fornecidos pela rede do Windows Live de serviços de Internet, Yahoo e \! AOL, e usuários de provedores e servidores que usam o protocolo XMPP (Extensible Messaging and Presence Protocol), como o Google Talk.
     
     <div>
     

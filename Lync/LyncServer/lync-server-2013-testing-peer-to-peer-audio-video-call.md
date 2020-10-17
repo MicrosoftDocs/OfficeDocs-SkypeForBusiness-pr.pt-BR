@@ -12,20 +12,22 @@ ms:contentKeyID: 63969627
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ea5283f588315d06387ed2d441f138538cd13ca3
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: a8522a1f3a8aedd44a6d39faa0ba6f59ba773677
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42193964"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48504078"
 ---
+# <a name="testing-peer-to-peer-audiovideo-call-in-lync-server-2013"></a>Teste de chamada de áudio/vídeo ponto a ponto no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="testing-peer-to-peer-audiovideo-call-in-lync-server-2013"></a>Teste de chamada de áudio/vídeo ponto a ponto no Lync Server 2013
+
 
 </div>
 
@@ -78,7 +80,7 @@ Para obter mais informações, consulte a documentação de ajuda para o cmdlet 
 
 ## <a name="running-the-test"></a>Executar o teste
 
-O cmdlet Test-CsP2PAV pode ser executado usando um par de contas de teste pré-configuradas (consulte Configurando contas de teste para executar testes do Lync Server) ou as contas de dois usuários que estão habilitados para o Lync Server. Para executar essa verificação usando contas de teste, basta especificar o FQDN do pool do Lync Server que está sendo testado. Por exemplo:
+O cmdlet Test-CsP2PAV pode ser executado usando um par de contas de teste pré-configuradas (Confira Configurando contas de teste para executar testes do Lync Server) ou as contas de dois usuários que estão habilitados para o Lync Server. Para executar essa verificação usando contas de teste, basta especificar o FQDN do pool do Lync Server que está sendo testado. Por exemplo:
 
     Test-CsP2PAV -TargetFqdn "atl-cs-001.litwareinc.com"
 
@@ -128,11 +130,11 @@ Se Test-CsP2PAV falhar, talvez você queira executar novamente o teste, desta ve
 
 Test-CsP2PAV-TargetFqdn "atl-cs-001.litwareinc.com"-Verbose
 
-Quando o parâmetro Verbose for incluído, o Test-CsP2PAV retornará uma conta passo a passo de cada ação que tentou que verificou a capacidade do usuário especificado fazer logon no Lync Server. Por exemplo, suponha que o teste falhou com o seguinte diagnóstico:
+Quando o parâmetro Verbose é incluído, Test-CsP2PAV retornará uma conta passo a passo de cada ação que tentou verificar se verificou a capacidade do usuário especificado fazer logon no Lync Server. Por exemplo, suponha que o teste falhou com o seguinte diagnóstico:
 
 ErrorCode = 6003, Source = ATL-cs-001. litwareinc. com, razão = não há suporte para a solicitação de diálogo
 
-Se você executar Test-CsP2PAV novamente e incluir o parâmetro Verbose, receberá uma saída semelhante a esta:
+Se você executar novamente Test-CsP2PAV e incluir o parâmetro Verbose, receberá uma saída semelhante a esta:
 
 VERBOse: atividade de ' registro ' iniciada.
 
@@ -156,7 +158,7 @@ Embora ele possa não ser imediatamente óbvio, se você examinar a saída cuida
 
 ## <a name="reasons-why-the-test-might-have-failed"></a>Motivos pelos quais o teste pode ter falhado
 
-Aqui estão alguns motivos comuns pelos quais Test-CsP2PAV pode falhar:
+Aqui estão alguns motivos comuns para que Test-CsP2PAV possa falhar:
 
   - Você especificou uma conta de usuário que não é válida. Você pode verificar se uma conta de usuário existe executando um comando semelhante a este:
     

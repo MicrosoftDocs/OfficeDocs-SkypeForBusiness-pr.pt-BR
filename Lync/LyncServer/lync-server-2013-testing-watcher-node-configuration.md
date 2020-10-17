@@ -12,20 +12,22 @@ ms:contentKeyID: 63969667
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6d5b73b0c56aa2f1ce4a0db2925354dd658ec2f0
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: a52b251f238b8d79602e5fe1bf2803902cbae23f
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42193684"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48503808"
 ---
+# <a name="testing-watcher-node-configuration-in-lync-server-2013"></a>Testando a configuração do nó do Inspetor no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="testing-watcher-node-configuration-in-lync-server-2013"></a>Testando a configuração do nó do Inspetor no Lync Server 2013
+
 
 </div>
 
@@ -66,7 +68,7 @@ _**Última modificação do tópico:** 2014-11-03_
 
 ## <a name="description"></a>Descrição
 
-Se você estiver usando o Microsoft System Center Operations Manager para monitorar o Lync Server 2013, então você tem a opção de configurar "nós do Inspetor": computadores que periodicamente, e automaticamente, executam transações sintéticas para verificar se o Lync Server está funcionando como esperá. Os nós do Inspetor são atribuídos a pools e são gerenciados usando os cmdlets **CsWatcherNodeConfiguration** . Observe que você não precisa instalar nós do observador se estiver usando o System Center Operations Manager. Você ainda pode monitorar o sistema sem usar nós do Inspetor. A única diferença é que todas as transações sintéticas que você deseja executar devem ser chamadas manualmente em vez de invocadas automaticamente pelo Operations Manager.
+Se estiver usando o Microsoft System Center Operations Manager para monitorar o Lync Server 2013, você terá a opção de configurar "nós do Inspetor": computadores que periodicamente, e automaticamente, executam transações sintéticas para verificar se o Lync Server está funcionando conforme o esperado. Os nós do Inspetor são atribuídos a pools e são gerenciados usando os cmdlets **CsWatcherNodeConfiguration** . Observe que você não precisa instalar nós do observador se estiver usando o System Center Operations Manager. Você ainda pode monitorar o sistema sem usar nós do Inspetor. A única diferença é que todas as transações sintéticas que você deseja executar devem ser chamadas manualmente em vez de invocadas automaticamente pelo Operations Manager.
 
 O cmdlet **Test-CsWatcherNodeConfiguration** permite verificar se um nó do inspetor foi configurado corretamente e é atribuído a um pool válido do Lync Server 2013. Observe que o cmdlet **Test-CsWatcherNodeConfiguration** deve ser executado no próprio nó do Inspetor. O cmdlet não pode ser executado em computadores remotos.
 
@@ -122,9 +124,9 @@ Verificar as chaves do registro do nó do observador criadas pela instalação d
 
 tiver. Se algum erro for detectado, ele será impresso.
 
-Test-CsWatcherNodeConfiguration: não é possível localizar a chave de integridade do registro no
+Test-CsWatcherNodeConfiguration: não é possível encontrar a chave do registro de integridade no
 
-Comunicação\\do\\software da Microsoft em tempo real. Verifique se o nó do Inspetor. msi é
+\\Comunicação do software da Microsoft \\ em tempo real. Verifique se o nó do Inspetor. msi é
 
 instalado corretamente.
 

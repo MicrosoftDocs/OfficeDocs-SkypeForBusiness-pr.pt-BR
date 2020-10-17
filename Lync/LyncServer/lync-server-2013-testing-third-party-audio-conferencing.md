@@ -12,20 +12,22 @@ ms:contentKeyID: 63969576
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 34e55661d2d28052f7672798059d458563ab5c8d
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 51f728bfb5617185bdd9a1ef3b5f21b3e12ca61f
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42193754"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48503928"
 ---
+# <a name="testing-third-party-audio-conferencing-in-lync-server-2013"></a>Testando a conferência de áudio de terceiros no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="testing-third-party-audio-conferencing-in-lync-server-2013"></a>Testando a conferência de áudio de terceiros no Lync Server 2013
+
 
 </div>
 
@@ -82,7 +84,7 @@ O Exemplo 1 verifica se um usuário de teste definido para o pool atl-cs-001.lit
 
     Test-CsAudioConferencingProvider -TargetFqdn atl-cs-001.litwareinc.com 
 
-Os comandos mostrados no exemplo 2 testam a capacidade de um usuário específico\\(litwareinc kenmyer) para se conectar ao seu provedor de conferência de áudio. Para fazer isso, o primeiro comando no exemplo usa o cmdlet Get-Credential para criar um objeto de credenciais da interface de linha de comando do Windows PowerShell contendo o nome e a senha do usuário Ken Myer. (Como o nome de logon\\litwareinc kenmyer foi incluído como um parâmetro, a caixa de diálogo de solicitação de credencial do Windows PowerShell só exige que o administrador insira a senha da conta Ken Myer.) O objeto de credenciais resultante é armazenado em uma variável chamada $credential.
+Os comandos mostrados no exemplo 2 testam a capacidade de um usuário específico (litwareinc \\ kenmyer) para se conectar ao seu provedor de conferência de áudio. Para fazer isso, o primeiro comando no exemplo usa o cmdlet Get-Credential para criar um objeto de credenciais da interface de linha de comando do Windows PowerShell contendo o nome e a senha do usuário Ken Myer. (Como o nome de logon litwareinc \\ kenmyer foi incluído como um parâmetro, a caixa de diálogo de solicitação de credencial do Windows PowerShell só exige que o administrador insira a senha da conta Ken Myer.) O objeto de credenciais resultante é armazenado em uma variável chamada $credential.
 
 O segundo comando verifica se este usuário pode se conectar ao provedor de conferência de áudio. Para realizar essa tarefa, o cmdlet Test-CsAudioConferencingProvider é chamado, juntamente com três parâmetros: TargetFqdn (o FQDN do pool de registradores); Usercredential (o objeto Windows PowerShell que contém as credenciais de usuário de Ken Myer); e UserSipAddress (o endereço SIP correspondente às credenciais de usuário fornecidas).
 
@@ -121,7 +123,7 @@ Não respondeu corretamente após um período de tempo ou
 
 a conexão estabelecida falhou porque o host conectado tem
 
-Falha ao responder \[2001:4898: E8: f39e: 5c9a\]: ad83:81b3:9944:5061
+Falha ao responder \[ 2001:4898: E8: f39e: 5c9a: ad83:81b3:9944: \] 5061
 
 Exceção interna: falha na tentativa de conexão porque o
 
@@ -131,7 +133,7 @@ a hora ou a conexão estabelecida falhou porque o host conectado
 
 falhou ao responder
 
-\[2001:4898: E8: f39e: 5c9a\]: ad83:81b3:5061
+\[2001:4898: E8: f39e: 5c9a: ad83:81b3: \] 5061
 
 Diagnóstico
 

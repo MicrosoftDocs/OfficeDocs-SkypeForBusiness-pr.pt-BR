@@ -12,20 +12,22 @@ ms:contentKeyID: 63969604
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fd30591d651e6af587322a5d86cef9d5079f4ce6
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 4812f36d19f9645f926eb1aa4f017d70befa47a7
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42193734"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48503888"
 ---
+# <a name="testing-user-connection-to-exchange-um-voicemail-in-lync-server-2013"></a>Testar a conexão do usuário com a caixa postal do UM do Exchange no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="testing-user-connection-to-exchange-um-voicemail-in-lync-server-2013"></a>Testar a conexão do usuário com a caixa postal do UM do Exchange no Lync Server 2013
+
 
 </div>
 
@@ -78,15 +80,15 @@ O exemplo a seguir testa a conectividade de caixa postal do Exchange Unified Mes
 
     Test-CsExUMVoiceMail -TargetFqdn "atl-cs-001.litwareinc.com" -ReceiverSipAddress "sip:kenmyer@litwareinc.com" 
 
-Os comandos mostrados no exemplo a seguir testam a conectividade de caixa postal de Unificação de mensagens do Exchange para o usuário litwareinc\\kenmyer. Para fazer isso, o primeiro comando no exemplo usa o cmdlet **Get-Credential** para criar um objeto de credenciais da interface de linha de comando do Windows PowerShell para\\o usuário litwareinc kenmyer. Observe que você deve fornecer a senha dessa conta para criar um objeto de credenciais válido e para garantir que o cmdlet **Test-CsExUMVoiceMail** possa executar a verificação.
+Os comandos mostrados no exemplo a seguir testam a conectividade de caixa postal de Unificação de mensagens do Exchange para o usuário litwareinc \\ kenmyer. Para fazer isso, o primeiro comando no exemplo usa o cmdlet **Get-Credential** para criar um objeto de credenciais da interface de linha de comando do Windows PowerShell para o usuário litwareinc \\ kenmyer. Observe que você deve fornecer a senha dessa conta para criar um objeto de credenciais válido e para garantir que o cmdlet **Test-CsExUMVoiceMail** possa executar a verificação.
 
-O segundo comando no exemplo usa o objeto de credenciais fornecido ($x) e o endereço SIP do usuário litwareinc\\kenmyer para determinar se ou este usuário pode se conectar a uma caixa postal do Exchange Unified Messaging.
+O segundo comando no exemplo usa o objeto de credenciais fornecido ($x) e o endereço SIP do usuário litwareinc \\ kenmyer para determinar se ou este usuário pode se conectar a uma caixa postal do Exchange Unified Messaging.
 
     $credential = Get-Credential "litwareinc\pilar" 
     
     Test-CsExUMVoiceMail -TargetFqdn "atl-cs-001.litwareinc.com" -ReceiverSipAddress "sip:kenmyer@litwareinc.com" -SenderSipAddress "sip:pilar@litwareinc.com" -SenderCredential $credential 
 
-O comando mostrado no exemplo a seguir é uma variação do comando mostrado no exemplo 1; Nesse caso, o parâmetro OutLoggerVariable é incluído para gerar um log detalhado de cada etapa feita pelo **Test-CsExUMVoiceMail** cmdletand o sucesso ou a falha de cada uma dessas etapas. Para fazer isso, o parâmetro OutLoggerVariable é adicionado junto com o valor do parâmetro ExumText; Isso faz com que informações de registro detalhadas sejam armazenadas em uma variável chamada $ExumTest. No comando final do exemplo, o método ToXML() é usado para converter a informação de log para um formato XML. Em seguida, esses dados XML são gravados em um arquivo chamado C\\:\\logs VoicemailTest. xml usando o cmdlet Out-File.
+O comando mostrado no exemplo a seguir é uma variação do comando mostrado no exemplo 1; Nesse caso, o parâmetro OutLoggerVariable é incluído para gerar um log detalhado de cada etapa feita pelo **Test-CsExUMVoiceMail** cmdletand o sucesso ou a falha de cada uma dessas etapas. Para fazer isso, o parâmetro OutLoggerVariable é adicionado junto com o valor do parâmetro ExumText; Isso faz com que informações de registro detalhadas sejam armazenadas em uma variável chamada $ExumTest. No comando final do exemplo, o método ToXML() é usado para converter a informação de log para um formato XML. Em seguida, esses dados XML são gravados em um arquivo chamado C: \\ Logs \\VoicemailTest.xml usando o cmdlet Out-File.
 
     Test-CsExUMVoiceMail -TargetFqdn "atl-cs-001.litwareinc.com" -ReceiverSipAddress "sip:kenmyer@litwareinc.com" -OutLoggerVariable VoicemailTest 
      

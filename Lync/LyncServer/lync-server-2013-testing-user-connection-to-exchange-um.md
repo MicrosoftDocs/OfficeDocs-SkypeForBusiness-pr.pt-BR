@@ -12,20 +12,22 @@ ms:contentKeyID: 63969573
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9cf7189df06549a3008fd86b9395617c6aea3e98
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 87b6fd59ed0efb3a775017af1effd7bd022071fc
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42193724"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48503868"
 ---
+# <a name="testing-user-connection-to-exchange-um-in-lync-server-2013"></a>Testando a conexão do usuário para o Exchange UM no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="testing-user-connection-to-exchange-um-in-lync-server-2013"></a>Testando a conexão do usuário para o Exchange UM no Lync Server 2013
+
 
 </div>
 
@@ -78,14 +80,14 @@ O exemplo a seguir testa a conectividade de Unificação de mensagens do Exchang
 
     Test-CsExUMConnectivity -TargetFqdn "atl-cs-001.litwareinc.com" 
 
-Os comandos mostrados no exemplo a seguir testam a conectividade de Unificação\\de mensagens do Exchange para o usuário litwareinc kenmyer. Para fazer isso, o primeiro comando no exemplo usa o cmdlet **Get-Credential** para criar um objeto de credenciais da interface de linha de comando do Windows PowerShell para\\o usuário litwareinc kenmyer. Observe que você deve fornecer a senha dessa conta para criar um objeto de credenciais válido e para garantir que o cmdlet **Test-CsExUMConnectivity** possa executar a verificação.
+Os comandos mostrados no exemplo a seguir testam a conectividade de Unificação de mensagens do Exchange para o usuário litwareinc \\ kenmyer. Para fazer isso, o primeiro comando no exemplo usa o cmdlet **Get-Credential** para criar um objeto de credenciais da interface de linha de comando do Windows PowerShell para o usuário litwareinc \\ kenmyer. Observe que você deve fornecer a senha dessa conta para criar um objeto de credenciais válido e para garantir que o cmdlet **Test-CsExUMConnectivity** possa executar a verificação.
 
-O segundo comando no exemplo usa o objeto de credenciais fornecido ($x) e o endereço SIP do usuário litwareinc\\kenmyer para determinar se ou este usuário pode se conectar à unificação de mensagens do Exchange.
+O segundo comando no exemplo usa o objeto de credenciais fornecido ($x) e o endereço SIP do usuário litwareinc \\ kenmyer para determinar se ou este usuário pode se conectar à unificação de mensagens do Exchange.
 
     $credential = Get-Credential "litwareinc\kenmyer" 
     Test-CsExUMConnectivity -TargetFqdn "atl-cs-001.litwareinc.com" -UserSipAddress "sip:kenmyer@litwareinc.com" -UserCredential $credential
 
-O comando mostrado no exemplo a seguir é uma variação do comando que acabou de ser mostrado. Nesse caso, o parâmetro OutLoggerVariable é incluído para gerar um log detalhado de cada etapa feita pelo **Test-CsExUMConnectivity** cmdletand o sucesso ou a falha de cada uma dessas etapas. Para fazer isso, o parâmetro OutLoggerVariable é adicionado junto com o valor de parâmetro ExumText; Isso faz com que informações de registro detalhadas sejam armazenadas em uma variável chamada $ExumTest. No comando final do exemplo, o método ToXML() é usado para converter a informação de log para um formato XML. Em seguida, esses dados XML são gravados em um arquivo chamado C\\:\\logs ExumTest. xml usando o cmdlet Out-File.
+O comando mostrado no exemplo a seguir é uma variação do comando que acabou de ser mostrado. Nesse caso, o parâmetro OutLoggerVariable é incluído para gerar um log detalhado de cada etapa feita pelo **Test-CsExUMConnectivity** cmdletand o sucesso ou a falha de cada uma dessas etapas. Para fazer isso, o parâmetro OutLoggerVariable é adicionado junto com o valor de parâmetro ExumText; Isso faz com que informações de registro detalhadas sejam armazenadas em uma variável chamada $ExumTest. No comando final do exemplo, o método ToXML() é usado para converter a informação de log para um formato XML. Em seguida, esses dados XML são gravados em um arquivo chamado C: \\ Logs \\ExumTest.xml usando o cmdlet Out-File.
 
     $credential = Get-Credential "litwareinc\kenmyer" 
     Test-CsExUMConnectivity -TargetFqdn "atl-cs-001.litwareinc.com" -UserSipAddress "sip:kenmyer@litwareinc.com" -UserCredential $credential -OutLoggerVariable ExumTest 

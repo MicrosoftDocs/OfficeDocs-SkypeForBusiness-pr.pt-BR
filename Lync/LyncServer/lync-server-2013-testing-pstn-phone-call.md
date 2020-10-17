@@ -12,20 +12,22 @@ ms:contentKeyID: 63969656
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f7c9c0b0441ea31e2419101aba188c33b0bbfd70
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: abc46703118d27533ac2afd2b4b448ad9516bdd6
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42193914"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48503967"
 ---
+# <a name="testing-pstn-phone-call-in-lync-server-2013"></a>Testando chamada telefônica PSTN no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="testing-pstn-phone-call-in-lync-server-2013"></a>Testando chamada telefônica PSTN no Lync Server 2013
+
 
 </div>
 
@@ -76,7 +78,7 @@ Ao conduzir seu teste, Test-CsPstnOutboundCall fará uma chamada telefônica rea
 
 ## <a name="running-the-test"></a>Executar o teste
 
-O cmdlet Test-CsPstnOutboundCall pode ser executado usando uma conta de teste pré-configurada (consulte Configurando contas de teste para executar testes do Lync Server) ou a conta de qualquer usuário habilitado para o Lync Server. Para executar essa verificação usando uma conta de teste, basta especificar o FQDN do pool do Lync Server que está sendo testado e o número de telefone PSTN que está sendo chamado. Por exemplo:
+O cmdlet Test-CsPstnOutboundCall pode ser executado usando uma conta de teste pré-configurada (Confira Configurando contas de teste para executar testes do Lync Server) ou a conta de qualquer usuário habilitado para o Lync Server. Para executar essa verificação usando uma conta de teste, basta especificar o FQDN do pool do Lync Server que está sendo testado e o número de telefone PSTN que está sendo chamado. Por exemplo:
 
     Test-CsPstnOutboundCall -TargetFqdn "atl-cs-001.litwareinc.com" -TargetPstnPhoneNumber "+12065551219"
 
@@ -125,7 +127,7 @@ Se Test-CsPstnOutboundCall falhar, talvez você queira executar novamente o test
 
     Test-CsPstnOutboundCall -TargetFqdn "atl-cs-001.litwareinc.com" -TargetPstnPhoneNumber "+12065551219" -Verbose
 
-Quando o parâmetro Verbose é incluído, o Test-CsPstnOutboundCall retornará uma conta passo a passo de cada ação que tentou quando verificou a capacidade do usuário especificado fazer logon no Lync Server. Por exemplo, essa saída indica que problemas de rede estão impedindo uma conexão com o PSTN:
+Quando o parâmetro Verbose é incluído, Test-CsPstnOutboundCall retornará uma conta passo a passo de cada ação que tentou quando verificou a capacidade do usuário especificado fazer logon no Lync Server. Por exemplo, essa saída indica que problemas de rede estão impedindo uma conexão com o PSTN:
 
 Estabelecendo chamada de vídeo de áudio para ' SIP: + 12065551219@litwareinc. com; user = Phone '.
 
@@ -137,7 +139,7 @@ Uma resposta de uma exceção ' A 404 (não encontrada) foi recebida da rede e a
 
 ## <a name="reasons-why-the-test-might-have-failed"></a>Motivos pelos quais o teste pode ter falhado
 
-Aqui estão alguns motivos comuns pelos quais Test-CsPstnOutboundCall pode falhar:
+Aqui estão alguns motivos comuns para que Test-CsPstnOutboundCall possa falhar:
 
   - Você especificou uma conta de usuário inválida. Você pode verificar se uma conta de usuário existe executando um comando semelhante a este:
     

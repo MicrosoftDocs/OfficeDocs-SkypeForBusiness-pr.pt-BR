@@ -12,20 +12,22 @@ ms:contentKeyID: 63969587
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4f6dcc7461362129df72eefd0fd1ab3f5dd809b5
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 335ad014595f855c1ccefab363f3cf34ad7c282b
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42193714"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48503848"
 ---
+# <a name="testing-user-presence-publishing-and-subscribing-in-lync-server-2013"></a>Testar a publicação de presença do usuário e inscrever-se no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="testing-user-presence-publishing-and-subscribing-in-lync-server-2013"></a>Testar a publicação de presença do usuário e inscrever-se no Lync Server 2013
+
 
 </div>
 
@@ -74,7 +76,7 @@ Test-CsPresence é usado para determinar se um par de usuários de teste pode fa
 
 ## <a name="running-the-test"></a>Executar o teste
 
-O cmdlet Test-CsPresence pode ser executado usando um par de contas de teste pré-configuradas (consulte Configurando contas de teste para executar testes do Lync Server) ou as contas de dois usuários que estão habilitados para o Lync Server. Para executar essa verificação usando contas de teste, basta especificar o FQDN do pool do Lync Server que está sendo testado. Por exemplo:
+O cmdlet Test-CsPresence pode ser executado usando um par de contas de teste pré-configuradas (Confira Configurando contas de teste para executar testes do Lync Server) ou as contas de dois usuários que estão habilitados para o Lync Server. Para executar essa verificação usando contas de teste, basta especificar o FQDN do pool do Lync Server que está sendo testado. Por exemplo:
 
     Test-CsPresence -TargetFqdn "atl-cs-001.litwareinc.com"
 
@@ -130,7 +132,7 @@ Se Test-CsPresence falhar, talvez você queira executar novamente o teste, desta
 
     Test-CsPresence -TargetFqdn "atl-cs-001.litwareinc.com" -Verbose
 
-Quando o parâmetro Verbose é incluído, o Test-CsPresence retornará uma conta passo a passo de cada ação que tentou quando verificou a capacidade do usuário especificado fazer logon no Lync Server. Por exemplo:
+Quando o parâmetro Verbose é incluído, Test-CsPresence retornará uma conta passo a passo de cada ação que tentou quando verificou a capacidade do usuário especificado fazer logon no Lync Server. Por exemplo:
 
 Acerto de solicitação de registro contra desconhecido
 
@@ -156,7 +158,7 @@ O fato de que a notificação de presença não foi recebida em 25 segundos pode
 
 ## <a name="reasons-why-the-test-might-have-failed"></a>Motivos pelos quais o teste pode ter falhado
 
-Aqui estão alguns motivos comuns pelos quais Test-CsPresence pode falhar:
+Aqui estão alguns motivos comuns para que Test-CsPresence possa falhar:
 
   - Você especificou uma conta de usuário incorreta. Você pode verificar se uma conta de usuário existe executando um comando semelhante a este:
     

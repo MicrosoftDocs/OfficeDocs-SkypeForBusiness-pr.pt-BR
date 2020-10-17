@@ -12,20 +12,22 @@ ms:contentKeyID: 48184632
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 340a1902137b6c675b154ef9ccf3d9fbcc882e88
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 2d8096f9dbce6e5e807cc806a5d87df7558f38a7
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42217077"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48505478"
 ---
+# <a name="network-settings-for-the-advanced-enterprise-voice-features-in-lync-server-2013"></a>Configurações de rede para os recursos avançados do Enterprise Voice no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="network-settings-for-the-advanced-enterprise-voice-features-in-lync-server-2013"></a>Configurações de rede para os recursos avançados do Enterprise Voice no Lync Server 2013
+
 
 </div>
 
@@ -65,7 +67,7 @@ Uma região de rede é um hub de rede ou backbone de rede usada somente na confi
 
 </div>
 
-O CAC requer que todas as regiões de rede tenham um site central do Lync Server associado, que gerencia o tráfego de mídia dentro da região (ou seja, ele toma decisões com base nas políticas que você configurou, em relação a se ou não uma sessão de áudio ou vídeo em tempo real pode ser estabelecida). Os sites centrais do Lync Server não representam locais geográficos, mas sim grupos lógicos de servidores configurados como um pool ou um conjunto de pools. Para obter detalhes sobre sites centrais, consulte [Reference topologias in Lync Server 2013](lync-server-2013-reference-topologies.md) na documentação de planejamento. Confira também as [topologias com suporte no Lync Server 2013](lync-server-2013-supported-topologies.md) na documentação de suporte.
+O CAC requer que todas as regiões de rede tenham um site central do Lync Server associado, que gerencia o tráfego de mídia dentro da região (ou seja, ele toma decisões com base nas políticas que você configurou, em relação a se uma sessão de áudio ou vídeo em tempo real pode ser estabelecida). Os sites centrais do Lync Server não representam locais geográficos, mas sim grupos lógicos de servidores configurados como um pool ou um conjunto de pools. Para obter detalhes sobre sites centrais, consulte [Reference topologias in Lync Server 2013](lync-server-2013-reference-topologies.md) na documentação de planejamento. Confira também as [topologias com suporte no Lync Server 2013](lync-server-2013-supported-topologies.md) na documentação de suporte.
 
 Para configurar uma região de rede, você pode usar a guia **regiões** na seção **configuração de rede** do painel de controle do Lync Server ou executar os cmdlets do Shell de gerenciamento do Lync Server **New-CsNetworkRegion** ou **set-CsNetworkRegion** . Para obter instruções, consulte [criar ou modificar uma região de rede no Lync Server 2013](lync-server-2013-create-or-modify-a-network-region.md) na documentação de implantação ou consulte a documentação do Shell de gerenciamento do Lync Server.
 

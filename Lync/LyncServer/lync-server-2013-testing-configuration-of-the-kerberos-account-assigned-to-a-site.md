@@ -12,20 +12,22 @@ ms:contentKeyID: 63969637
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a608f84c3c302c503450bfe1c763aebacc269e96
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 08477e9902a1410a98516a79fe5fdd01c5e94214
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42194164"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48504118"
 ---
+# <a name="testing-configuration-of-the-kerberos-account-assigned-to-a-site-in-lync-server-2013"></a>Testando a configuração da conta Kerberos atribuída a um site no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="testing-configuration-of-the-kerberos-account-assigned-to-a-site-in-lync-server-2013"></a>Testando a configuração da conta Kerberos atribuída a um site no Lync Server 2013
+
 
 </div>
 
@@ -66,7 +68,7 @@ _**Última modificação do tópico:** 2014-06-05_
 
 ## <a name="description"></a>Descrição
 
-O cmdlet Test-CsKerberosAccountAssignment permite verificar se uma conta Kerberos está associada a um determinado site, se essa conta está configurada corretamente e se a conta está funcionando conforme o esperado. As contas Kerberos são contas de computador que podem servir como entidade de autenticação para todos os computadores em um site que executa o Internet Information Server (IIS). Como essas contas usam o protocolo de autenticação Kerberos, as contas são conhecidas como contas Kerberos e o novo processo de autenticação é conhecido como autenticação da Web Kerberos. Isso permite que você gerencie todos os servidores IIS usando uma única conta.
+O cmdlet Test-CsKerberosAccountAssignment permite que você verifique se uma conta Kerberos está associada a um determinado site, se essa conta está configurada corretamente e se a conta está funcionando conforme o esperado. As contas Kerberos são contas de computador que podem servir como entidade de autenticação para todos os computadores em um site que executa o Internet Information Server (IIS). Como essas contas usam o protocolo de autenticação Kerberos, as contas são conhecidas como contas Kerberos e o novo processo de autenticação é conhecido como autenticação da Web Kerberos. Isso permite que você gerencie todos os servidores IIS usando uma única conta.
 
 Para obter mais informações, consulte a documentação de ajuda para o cmdlet [Test-CsKerberosAccountAssignment](https://technet.microsoft.com/library/Gg425938(v=OCS.15)) .
 
@@ -76,11 +78,11 @@ Para obter mais informações, consulte a documentação de ajuda para o cmdlet 
 
 ## <a name="running-the-test"></a>Executar o teste
 
-Por padrão, Test-CsKerberosAccountAssignment exibe uma saída muito pequena na tela. Em vez disso, as informações retornadas pelo cmdlet são gravadas em um arquivo HTML. Por isso, recomendamos que você inclua o parâmetro Verbose e o parâmetro Report sempre que executar Test-CsKerberosAccountAssignment. O parâmetro Verbose fornecerá uma saída mais detalhada na tela enquanto o cmdlet é executado. O parâmetro Report permite que você especifique um caminho de arquivo e um nome de arquivo para o arquivo HTML gerado por Test-CsKerberosAccountAssignment. Se você não incluir o parâmetro Report, o arquivo HTML será automaticamente salvo na pasta usuários e receberá um nome semelhante a este: ce84964a-c4da-4622-ad34-c54ff3ed361f. html.
+Por padrão, Test-CsKerberosAccountAssignment exibe muito pouco saída na tela. Em vez disso, as informações retornadas pelo cmdlet são gravadas em um arquivo HTML. Por isso, recomendamos que você inclua o parâmetro Verbose e o parâmetro Report sempre que executar Test-CsKerberosAccountAssignment. O parâmetro Verbose fornecerá uma saída mais detalhada na tela enquanto o cmdlet é executado. O parâmetro Report permite que você especifique um caminho de arquivo e um nome de arquivo para o arquivo HTML gerado por Test-CsKerberosAccountAssignment. Se você não incluir o parâmetro Report, o arquivo HTML será automaticamente salvo na pasta usuários e receberá um nome semelhante a este: ce84964a-c4da-4622-ad34-c54ff3ed361f.html.
 
 Você também deve especificar uma identidade de site ao executar Test-CsKerberosAccountAssignment. As contas Kerberos são atribuídas no escopo do site.
 
-O comando a seguir executa Test-CsKerberosAccountAssignment e salva a saída em um arquivo chamado C:\\logs\\KerberosTest. html:
+O comando a seguir executa Test-CsKerberosAccountAssignment e salva a saída em um arquivo chamado C: \\ Logs \\KerberosTest.html:
 
     Test-CsKerberosAccountAssignment -Identity "site:Redmond" -Report "C:\Logs\KerberosTest.html" -Verbose
 
@@ -100,7 +102,7 @@ O cmdlet Test-CsKerberosAccountAssignment não retorna uma simples indicação d
 
 ## <a name="reasons-why-the-test-might-have-failed"></a>Motivos pelos quais o teste pode ter falhado
 
-Aqui estão alguns motivos comuns pelos quais Test-CsKerberosAccountAssignment pode falhar:
+Aqui estão alguns motivos comuns para que Test-CsKerberosAccountAssignment possa falhar:
 
   - Você pode ter especificado uma identidade de site incorreta. Para retornar uma lista de identidade de site válida, use este comando:
     
@@ -118,7 +120,7 @@ Aqui estão alguns motivos comuns pelos quais Test-CsKerberosAccountAssignment p
     
     InvalidKerberosConfiguration: a configuração Kerberos é inválida.
     
-    InvalidKerberosConfiguration: a configuração Kerberos no atl-cs001.litwareinc.com é inválida. A conta atribuída esperada é\\litwareinc kerberostest. Certifique-se de que a conta não tenha expirado e que a senha configurada na máquina corresponda à senha do Active Directory da conta.
+    InvalidKerberosConfiguration: a configuração Kerberos no atl-cs001.litwareinc.com é inválida. A conta atribuída esperada é litwareinc \\ kerberostest. Certifique-se de que a conta não tenha expirado e que a senha configurada na máquina corresponda à senha do Active Directory da conta.
     
     Você pode definir a senha usando o cmdlet [set-CsKerberosAccountPassword](https://technet.microsoft.com/library/Gg398659(v=OCS.15)) .
 

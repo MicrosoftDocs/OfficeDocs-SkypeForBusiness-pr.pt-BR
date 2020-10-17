@@ -12,20 +12,22 @@ ms:contentKeyID: 48184984
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f1e8fb2cdbf2b9192411f74c5099930d8bd7d7a5
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: d76107fc419891561b8c98cf0989bbb0cbddbee4
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42207127"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48504838"
 ---
+# <a name="branch-site-resiliency-requirements-for-lync-server-2013"></a>Requisitos de resiliência de site de filial para o Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="branch-site-resiliency-requirements-for-lync-server-2013"></a>Requisitos de resiliência de site de filial para o Lync Server 2013
+
 
 </div>
 
@@ -76,7 +78,7 @@ Se um site de filial não tiver um servidor DNS, há duas maneiras alternativas 
 
 </div>
 
-Para ajudar a garantir que as chamadas de entrada para os usuários do site de filial chegarão aos usuários quando o gateway de filial ou o componente do Windows do site do aparelho de filial persistente não estiver disponível (o que aconteceria, por exemplo, se o aparelho ou ramificação de filial persistente o gateway estava desativado para manutenção), crie uma rota de failover no gateway (ou trabalhe com seu provedor de discagem direta interna) para redirecionar as chamadas de entrada para o pool de registradores de backup no site central. Daí, as chamadas serão roteadas sobre o link WAN para os usuários da filial. Garanta que a rota traduza os números para estar de acordo com o gateway PSTN ou outros formatos de número de telefone aceitos pelo ponto do tronco. Para obter detalhes sobre como criar uma rota de failover, consulte [Configurando uma rota de failover no Lync Server 2013](lync-server-2013-configuring-a-failover-route.md). Crie também planos de discagem de nível de serviço para o tronco associado ao gateway no site de filial para normalizar chamadas de entrada. Se você tiver dois aparelhos de filial persistentes em um site de filial, você pode criar um plano de discagem no nível do site para ambos, a menos que seja necessário um plano de nível de serviço separado para cada um.
+Para ajudar a garantir que as chamadas de entrada para os usuários do site de filial chegarão aos usuários quando o gateway de filial ou o componente do Windows do site do aparelho de filial persistente não estiver disponível (o que aconteceria, por exemplo, se o aparelho de filial persistente ou o gateway de ramificação estivessem inativos para manutenção), crie uma rota de failover no gateway (ou trabalhe com seu provedor de discagem direta (DID)) para redirecionar as chamadas de entrada para o pool de registradores de backup no site central. Daí, as chamadas serão roteadas sobre o link WAN para os usuários da filial. Garanta que a rota traduza os números para estar de acordo com o gateway PSTN ou outros formatos de número de telefone aceitos pelo ponto do tronco. Para obter detalhes sobre como criar uma rota de failover, consulte [Configurando uma rota de failover no Lync Server 2013](lync-server-2013-configuring-a-failover-route.md). Crie também planos de discagem de nível de serviço para o tronco associado ao gateway no site de filial para normalizar chamadas de entrada. Se você tiver dois aparelhos de filial persistentes em um site de filial, você pode criar um plano de discagem no nível do site para ambos, a menos que seja necessário um plano de nível de serviço separado para cada um.
 
 <div>
 
@@ -94,7 +96,7 @@ Também é recomendável criar um plano de discagem de nível de usuário e uma 
 
 ## <a name="routing-extension-numbers"></a>Números de extensão de roteamento
 
-Ao preparar planos de discagem e políticas de voz para usuários de site de filial, certifique-se de incluir regras de normalização e regras de conversão que correspondam às cadeias de caracteres e formato de número usados no atributo msRTCSIP-line (ou line URI), de modo que as chamadas do Lync 2013 habilitadas entre Branch os usuários do site e os usuários do site central serão roteados corretamente, especialmente quando as chamadas devem ser reencaminhadas pela PSTN porque o link WAN não está disponível. Existem considerações especiais adicionais para números discados que contêm números de extensão, em vez de apenas números de telefone.
+Ao preparar planos de discagem e políticas de voz para usuários de site de filial, certifique-se de incluir regras de normalização e regras de conversão que correspondam às cadeias de caracteres e o formato de número usados no atributo msRTCSIP-line (ou line URI), de modo que as chamadas do Lync 2013 habilitadas entre os usuários do site da filial e os usuários do site central serão roteadas corretamente, particularmente quando as chamadas devem ser reencaminhadas por meio da PSTN Existem considerações especiais adicionais para números discados que contêm números de extensão, em vez de apenas números de telefone.
 
 Regras de normalização e de tradução que correspondam a URIs de Linha que contêm um número de extensão, seja de forma exclusiva ou além de um número de telefone totalmente E.164, possuem requisitos adicionais. Esta seção descreve vários cenários de exemplo para rotear chamadas para URIs de Linha com um número de extensão.
 
@@ -124,7 +126,7 @@ Em um cenário onde o link WAN entre um site de filial e um site central esteja 
 <tr class="odd">
 <td><p>5digitExtensions</p></td>
 <td><p>Não traduz números de 5 dígitos</p></td>
-<td><p>^ (\d{5}) $</p></td>
+<td><p>^ (\d {5} ) $</p></td>
 <td><p>$1</p></td>
 <td><p>10001 não é traduzido</p></td>
 </tr>
@@ -153,13 +155,13 @@ Você também deve acomodar números de extensão para cenários específicos, c
 <tbody>
 <tr class="odd">
 <td><p>Traduz números de 5 dígitos para o número de telefone e extensão de um usuário</p></td>
-<td><p>^ (\d{5}) $</p></td>
+<td><p>^ (\d {5} ) $</p></td>
 <td><p>+ 14255550123; Ext = $1</p></td>
 <td><p>10001 é traduzido como +14255550123;ext=10001</p></td>
 </tr>
 <tr class="even">
 <td><p>Traduz números de 5 dígitos para o número de telefone da sua empresa e a extensão de um usuário</p></td>
-<td><p>^ (\d{5}) $</p></td>
+<td><p>^ (\d {5} ) $</p></td>
 <td><p>+ 14255550100; Ext = $1</p></td>
 <td><p>10001 é traduzido como +14255550100;ext=10001</p></td>
 </tr>
@@ -210,7 +212,7 @@ Para obter detalhes sobre chamadas de um usuário do site central para um usuár
 
 ## <a name="preparing-for-voice-mail-survivability"></a>Preparação para persistência de caixa postal
 
-A Unificação de mensagens (UM) do Exchange geralmente é instalada em um site central e não em sites de filial. Um chamador deve ser capaz de deixar uma mensagem de caixa postal, mesmo se o link WAN entre o site da filial e o site central estiver indisponível. Como resultado, a configuração do URI de linha para o número de telefone do atendedor automático do UM do Exchange que fornece caixa postal para usuários do site de filial requer considerações especiais, além das regras de política de voz, plano de discagem e normalização aplicáveis a essa caixa postal série.
+A Unificação de mensagens (UM) do Exchange geralmente é instalada em um site central e não em sites de filial. Um chamador deve ser capaz de deixar uma mensagem de caixa postal, mesmo se o link WAN entre o site da filial e o site central estiver indisponível. Como resultado, a configuração do URI de linha para o número de telefone do atendedor automático do UM do Exchange que fornece caixa postal para usuários do site de filial requer considerações especiais, além das regras de política de voz, plano de discagem e normalização aplicáveis a esse número de caixa postal.
 
 Os aparelhos de ramificação persistente (SBAs) e os servidores de filial persistente fornecem sustentabilidade da caixa postal para usuários de filial durante uma interrupção da WAN. Especificamente, se você estiver usando um aparelho de filial persistente ou servidor de filial persistente e a WAN ficar indisponível, o servidor de filial SBA ou persistente redireciona novamente as chamadas não atendidas pela PSTN para UM do Exchange no site central. Com um servidor de filial SBA ou persistente, os usuários também podem recuperar mensagens de caixa postal através da PSTN durante uma interrupção da WAN. Por fim, durante uma interrupção da WAN, o aparelho de filial persistente ou o servidor de filial persistente enfileira as notificações de chamadas perdidas e, em seguida, carrega-as para o servidor de UM do Exchange quando a WAN é restaurada. Para ajudar a garantir que o encaminhamento de caixa postal é resistente, certifique-se de adicionar uma entrada para o FQDN do pool de sites central e uma entrada para o FQDN do servidor de borda ao arquivo hosts no servidor de filial persistente. Do contrário, a resolução do DNS pode ultrapassar o tempo se não houver um servidor DNS no site da filial.
 

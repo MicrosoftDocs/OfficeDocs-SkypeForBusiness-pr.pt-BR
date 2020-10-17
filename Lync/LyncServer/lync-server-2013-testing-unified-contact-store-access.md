@@ -12,20 +12,22 @@ ms:contentKeyID: 63969621
 ms.date: 05/16/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 34dbf6ede9f58b39df1722e742511ee0844c41f7
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 5552c03ac18ddd373385674da03d872ce89eb585
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42218287"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48503898"
 ---
+# <a name="testing-unified-contact-store-access-in-lync-server-2013"></a>Testando o acesso de repositório unificado de contatos no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="testing-unified-contact-store-access-in-lync-server-2013"></a>Testando o acesso de repositório unificado de contatos no Lync Server 2013
+
 
 </div>
 
@@ -78,9 +80,9 @@ Observe que o cmdlet **Test-CsUnifiedContactStore** falhará se o usuário tiver
 
 ## <a name="running-the-test"></a>Executar o teste
 
-Os comandos mostrados no exemplo a seguir determinam se os contatos do\\usuário litwareinc kenmyer podem ser encontrados no repositório unificado de contatos. Para fazer isso, o primeiro comando no exemplo usa o cmdlet **Get-Credential** para criar um objeto de credenciais da interface de linha de comando do Windows PowerShell para\\o usuário litwareinc kenmyer. Observe que você deve fornecer a senha dessa conta para criar um objeto de credenciais válido e para garantir que o cmdlet **Test-CsUnifiedContactStore** possa executar a verificação.
+Os comandos mostrados no exemplo a seguir determinam se os contatos do usuário litwareinc \\ kenmyer podem ser encontrados no repositório unificado de contatos. Para fazer isso, o primeiro comando no exemplo usa o cmdlet **Get-Credential** para criar um objeto de credenciais da interface de linha de comando do Windows PowerShell para o usuário litwareinc \\ kenmyer. Observe que você deve fornecer a senha dessa conta para criar um objeto de credenciais válido e para garantir que o cmdlet **Test-CsUnifiedContactStore** possa executar a verificação.
 
-O segundo comando no exemplo usa o objeto de credenciais fornecido ($x) e o endereço SIP do usuário litwareinc\\kenmyer para determinar se seus contatos podem ser encontrados no repositório unificado de contatos.
+O segundo comando no exemplo usa o objeto de credenciais fornecido ($x) e o endereço SIP do usuário litwareinc \\ kenmyer para determinar se seus contatos podem ser encontrados no repositório unificado de contatos.
 
     $credential = Get-Credential "litwareinc\kenmyer"
     

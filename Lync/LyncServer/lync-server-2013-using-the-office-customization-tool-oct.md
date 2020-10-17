@@ -12,20 +12,22 @@ ms:contentKeyID: 48183654
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c55cfa8fd795feeca5e265f43823c4263512211f
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 8943712ff78dcc065a6a75e3756c1c689234eec2
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42212547"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48503708"
 ---
+# <a name="using-the-office-customization-tool-oct-in-lync-server-2013"></a>Usando a ferramenta de personalização do Office (OCT) no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="using-the-office-customization-tool-oct-in-lync-server-2013"></a>Usando a ferramenta de personalização do Office (OCT) no Lync Server 2013
+
 
 </div>
 
@@ -51,9 +53,9 @@ Os administradores usam a OCT para criar um arquivo de personalização de insta
 
   - **Conteúdo adicional** Usado para adicionar ou remover arquivos, adicionar ou remover entradas do registro e configurar atalhos.
 
-  - **Outlook** Usado para personalizar o perfil padrão do Outlook do usuário, especificar as configurações do Exchange, adicionar contas, remover contas e exportar configurações e\\especificar grupos de recebimento de envio.
+  - **Outlook** Usado para personalizar o perfil padrão do Outlook do usuário, especificar as configurações do Exchange, adicionar contas, remover contas e exportar configurações e especificar grupos de recebimento de envio \\ .
 
-Para obter informações sobre a OCT, <https://go.microsoft.com/fwlink/p/?linkid=267516>consulte.
+Para obter informações sobre a OCT, consulte <https://go.microsoft.com/fwlink/p/?linkid=267516> .
 
 </div>
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 48185553
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 64c164f24f0f2c140a140b7343dd526979cc2bff
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 8bdb3b556f5b9a8d552a3c48e300b8c4b7b19f5f
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42208917"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48504518"
 ---
+# <a name="defining-the-location-policy-for-lync-server-2013"></a>Definir a política de local para o Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="defining-the-location-policy-for-lync-server-2013"></a>Definir a política de local para o Lync Server 2013
+
 
 </div>
 
@@ -45,7 +47,7 @@ Cada política de local contém as seguintes informações:
 <!-- end list -->
 
   - **Local necessário**  
-    Essa configuração é usada somente quando os **serviços de emergência habilitados** estão definidos como **Sim**.
+    Essa configuração é usada somente quando os **serviços de emergência habilitados**   estão definidos como **Sim**.
     
     É possível definir a configuração **Local Necessário** para definir o comportamento do cliente. A definição do valor como **Não** significa que o usuário não receberá uma solicitação de local. A definição do valor como **Sim** significa que o usuário receberá uma solicitação por um local, mas poderá ignorar a solicitação. A definição do valor como **Aviso de isenção de responsabilidade** significa que o usuário receberá uma solicitação por um local e mostrará um aviso de isenção de responsabilidade caso ele tente ignorar a solicitação. Em todos os casos, o usuário pode continuar a usar o cliente.
     
@@ -81,7 +83,7 @@ Cada política de local contém as seguintes informações:
     
 
     > [!NOTE]  
-    > Se sua organização não usa um prefixo de acesso de linha externa, não será necessário criar uma regra de normalização do Plano de discagem correspondente que acrescenta um “+” à sequência 911 antes de enviar a chamada ao Roteamento de saída em um servidor de pool do Lync; o “+” será automaticamente pré-demarcado pelo cliente do Lync como resultado da política de local. No entanto, se seu site usar um prefixo de acesso externo, é necessário adicionar uma regra de normalização à política de Plano de discagem aplicável que retira o prefixo de acesso externo e adiciona o “+”. Por exemplo, se seu local usar um prefixo de acesso externo 9 e um usuário discar 9&nbsp;911 para fazer uma chamada de emergência, o cliente usará sua política de plano de discagem para normalizar isso para + 911 antes que o número discado seja avaliado pelas rotas no perfil de local do chamador.
+    > Se sua organização não usa um prefixo de acesso de linha externa, não será necessário criar uma regra de normalização do Plano de discagem correspondente que acrescenta um “+” à sequência 911 antes de enviar a chamada ao Roteamento de saída em um servidor de pool do Lync; o “+” será automaticamente pré-demarcado pelo cliente do Lync como resultado da política de local. No entanto, se seu site usar um prefixo de acesso externo, é necessário adicionar uma regra de normalização à política de Plano de discagem aplicável que retira o prefixo de acesso externo e adiciona o “+”. Por exemplo, se seu local usar um prefixo de acesso externo 9 e um usuário discar 9 &nbsp; 911 para fazer uma chamada de emergência, o cliente usará sua política de plano de discagem para normalizar isso para + 911 antes que o número discado seja avaliado pelas rotas no perfil de local do chamador.
 
     
     </div>

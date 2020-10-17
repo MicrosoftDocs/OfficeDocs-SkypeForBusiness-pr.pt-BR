@@ -12,20 +12,22 @@ ms:contentKeyID: 63969615
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: eb206930dae08d0c2fcf5fa6a26b427b28c03e1b
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 3f0bfeef1abcf7b5859c365b7c64b4fcc84f49ae
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42212593"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48503698"
 ---
+# <a name="validating-audiovideo-conferences-in-lync-server-2013"></a>Validar conferências de áudio/vídeo no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="validating-audiovideo-conferences-in-lync-server-2013"></a>Validar conferências de áudio/vídeo no Lync Server 2013
+
 
 </div>
 
@@ -82,7 +84,7 @@ Outros exemplos para este comando podem ser encontrados em [Test-CsAVConference]
 
 ## <a name="running-the-test"></a>Executar o teste
 
-O cmdlet Test-CsAVConference pode ser executado usando um par de contas de teste pré-configuradas (consulte Configurando contas de teste para executar testes do Lync Server) ou as contas de dois usuários que estão habilitados para o Lync Server. Para executar essa verificação usando contas de teste, basta especificar o FQDN do pool do Lync Server que está sendo testado. Por exemplo:
+O cmdlet Test-CsAVConference pode ser executado usando um par de contas de teste pré-configuradas (Confira Configurando contas de teste para executar testes do Lync Server) ou as contas de dois usuários que estão habilitados para o Lync Server. Para executar essa verificação usando contas de teste, basta especificar o FQDN do pool do Lync Server que está sendo testado. Por exemplo:
 
     Test-CsAVConference -TargetFqdn "atl-cs-001.litwareinc.com"
 
@@ -138,7 +140,7 @@ Se Test-CsAVConference falhar, talvez você queira executar novamente o teste, d
 
     Test-CsAVConference -TargetFqdn "atl-cs-001.litwareinc.com" -Verbose
 
-Quando o parâmetro Verbose é incluído, Test-CsAVConference retornará uma conta de etapa por etapa de cada ação que tentou quando verificou a capacidade dos usuários especificados de participar de uma conferência AV. Por exemplo, suponha que o teste falhe e que você receba o seguinte diagnóstico:
+Quando o parâmetro Verbose é incluído Test-CsAVConference retornará uma conta passo a passo de cada ação que tentou quando verificou a capacidade dos usuários especificados de participar de uma conferência AV. Por exemplo, suponha que o teste falhe e que você receba o seguinte diagnóstico:
 
 ErrorCode = 1008, Source = accessproxy. litwareinc. com, Reason = não é possível resolver o registro SRV de DNS
 
@@ -178,7 +180,7 @@ A última linha desse resultado indica que o usuário sip:kenmyer@litwareinc.com
 
 ## <a name="reasons-why-the-test-might-have-failed"></a>Motivos pelos quais o teste pode ter falhado
 
-Aqui estão alguns motivos comuns pelos quais Test-CsAVConference pode falhar:
+Aqui estão alguns motivos comuns para que Test-CsAVConference possa falhar:
 
   - Você especificou uma conta de usuário que não é válida. Você pode verificar se uma conta de usuário existe executando um comando semelhante a este:
     

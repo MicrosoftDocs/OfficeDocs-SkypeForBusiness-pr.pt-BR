@@ -12,20 +12,22 @@ ms:contentKeyID: 48185241
 ms.date: 12/08/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: de4a1a82dbefb5a7f55a4c5872a6702933af08c7
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 5aa98f8935a692f06b78db523e4e109e8cba9ddf
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42184574"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48505428"
 ---
+# <a name="new-and-changed-settings-for-lync-2013"></a>Configurações novas e alteradas para o Lync 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="new-and-changed-settings-for-lync-2013"></a>Configurações novas e alteradas para o Lync 2013
+
 
 </div>
 
@@ -61,7 +63,7 @@ Este tópico discute alterações nos cmdlets do Shell de gerenciamento do Lync 
 <tr class="odd">
 <td><p>TracingLevel</p></td>
 <td><p>CsClientPolicy</p></td>
-<td><p>Quando definido como true, o rastreamento de software será habilitado no Lync; Quando definido como false, o rastreamento de software será desabilitado. O rastreamento de software envolve a manutenção de um registro detalhado de tudo que o programa faz (incluindo chamadas de API de rastreamento). O rastreamento é praticamente útil para desenvolvedores e para a equipe de suporte a aplicativos. Essa configuração equivale à configuração &quot;de política de grupo do Communications Server 2007 R2 ative o rastreamento para o Communicator. &quot; As configurações são as seguintes:</p>
+<td><p>Quando definido como true, o rastreamento de software será habilitado no Lync; Quando definido como false, o rastreamento de software será desabilitado. O rastreamento de software envolve a manutenção de um registro detalhado de tudo que o programa faz (incluindo chamadas de API de rastreamento). O rastreamento é praticamente útil para desenvolvedores e para a equipe de suporte a aplicativos. Essa configuração equivale à configuração de política de grupo do Communications Server 2007 R2 &quot; ative o rastreamento para o Communicator. &quot; As configurações são as seguintes:</p>
 <ul>
 <li><p>Off = o rastreamento está desabilitado e o usuário não pode alterar essa configuração.</p></li>
 <li><p>Light = o rastreamento mínimo é executado e o usuário não pode alterar essa configuração.</p></li>
@@ -77,7 +79,7 @@ Este tópico discute alterações nos cmdlets do Shell de gerenciamento do Lync 
 <tr class="odd">
 <td><p>AllowLargeMeetings</p></td>
 <td><p>CsConferencing</p></td>
-<td><p>Quando definido como true, todas as reuniões do Lync são &quot;tratadas como grandes reuniões. &quot; Com uma grande reunião, as restrições são colocadas no número de notificações enviadas aos participantes, além do tamanho da lista de reunião que é transmitida por padrão.</p></td>
+<td><p>Quando definido como true, todas as reuniões do Lync são tratadas como &quot; grandes reuniões. &quot; Com uma grande reunião, as restrições são colocadas no número de notificações enviadas aos participantes, além do tamanho da lista de reunião que é transmitida por padrão.</p></td>
 </tr>
 <tr class="even">
 <td><p>DisablePowerPointAnnotations</p></td>
@@ -151,7 +153,7 @@ Este tópico discute alterações nos cmdlets do Shell de gerenciamento do Lync 
 <td><p>EnableSQMData</p></td>
 <td><p>CsClientPolicy</p></td>
 <td><p>O parâmetro EnableSQMData do cmdlet Set-CSClientPolicy foi removido no Lync Server 2013. Em vez disso, você pode usar a configuração da política de grupo compartilhada para dados de SQM (gerenciamento de qualidade de software) para determinar a interface do usuário para a opção de aperfeiçoamento da experiência do cliente na página Opções gerais do cliente do Lync:</p>
-<p>HKEY_CURRENT_USER \Software\Policies\Microsoft\Office\Common\QMEnable</p>
+<p>HKEY_CURRENT_USER\Software\Policies\Microsoft\Office\Common\QMEnable</p>
 <p>Valores</p>
 <p>1 = exibir e marcar a caixa de seleção (o usuário pode desmarcar a caixa de seleção)</p>
 <p>0 = desativar e desabilitar a caixa de seleção (o usuário não pode substituir)</p>

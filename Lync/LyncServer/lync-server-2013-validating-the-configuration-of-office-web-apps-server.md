@@ -12,20 +12,22 @@ ms:contentKeyID: 48185859
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 068c3fcfd33668918eb330b64d816ceca818de27
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 0a33a5e9bb93371bdccac3c88b7a1c080e3efaa8
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42211817"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48503678"
 ---
+# <a name="validating-the-configuration-of-office-web-apps-server-in-lync-server-2013"></a>Validando a configuração do servidor do Office Web Apps no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="validating-the-configuration-of-office-web-apps-server-in-lync-server-2013"></a>Validando a configuração do servidor do Office Web Apps no Lync Server 2013
+
 
 </div>
 
@@ -45,13 +47,13 @@ Além disso, você deve ver outro evento LS Data MCU (ID 41032) que relata as UR
 
 **Descoberta bem-sucedida do servidor do Office Web Apps do servidor de Webconferência.**
 
-**Página do apresentador interno do servidor do Office Web Apps:https://atl-officewebapps-001.litwareinc.com/m/Presenter.aspx?a=0\&embed=**
+**Página do apresentador interno do servidor do Office Web Apps: https://atl-officewebapps-001.litwareinc.com/m/Presenter.aspx?a=0\&embed=**
 
-**Página de participantes internos do servidor do Office Web Apps:https://atl-officewebapps-001.litwareinc.com/m/ParticipantFrame.aspx?a=0\&embed=true&=**
+**Página de participantes internos do servidor do Office Web Apps: https://atl-officewebapps-001.litwareinc.com/m/ParticipantFrame.aspx?a=0\&embed=true&=**
 
-**Página do apresentador externo do servidor do Office Web Apps:https://atl-officewebapps-001.litwareinc.com/m/Presenter.aspx?a=0\&embed**
+**Página do apresentador externo do servidor do Office Web Apps: https://atl-officewebapps-001.litwareinc.com/m/Presenter.aspx?a=0\&embed**
 
-**Página de participantes internos do servidor do Office Web Apps:https://atl-officewebapps-001.litwareinc.com/m/ParticipantFrame.aspx?a=0\&embed=true&**
+**Página de participantes internos do servidor do Office Web Apps: https://atl-officewebapps-001.litwareinc.com/m/ParticipantFrame.aspx?a=0\&embed=true&**
 
 Se você ver um evento LS Data MCU com o ID 41033, significa que a descoberta do Office Web Apps Server falhou. Nesse caso, o Microsoft Lync Server 2013 tentará quantas vezes forem necessárias para descobrir o servidor do Office Web Apps recém configurado. Se o processo de descoberta falhar repetidamente, você deve remover o Office Web Apps Server do seu documento de topologia, publicar a topologia atualizada e tentar adicionar o Office Web Apps Server novamente à topologia depois que os problemas de conectividade tiverem sido resolvidos.
 

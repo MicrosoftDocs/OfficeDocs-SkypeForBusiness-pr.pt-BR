@@ -12,20 +12,22 @@ ms:contentKeyID: 63969603
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 83f9eb59a14fc0ede5cc5d61f0c9f8dff0e1e445
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: b385184486cdbf8e2ee18956df1546d09335e6c8
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42193764"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48503938"
 ---
+# <a name="testing-the-web-scheduler-in-lync-server-2013"></a>Testando o Agendador da Web no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="testing-the-web-scheduler-in-lync-server-2013"></a>Testando o Agendador da Web no Lync Server 2013
+
 
 </div>
 
@@ -92,7 +94,7 @@ Se os usuários de teste não estiverem definidos, o comando falhará porque nã
 
     Test-CsWebScheduler -TargetFqdn "atl-cs-001.litwareinc.com"
 
-Os comandos mostrados no exemplo a seguir testam a capacidade de um usuário específico\\(litwareinc kenmeyer) para agendar uma reunião online usando o Agendador da Web. Para fazer isso, o primeiro comando no exemplo usa o cmdlet **Get-Credential** para criar um objeto de credencial da interface de linha de comando do Windows PowerShell que contenha o nome e a senha do usuário Ken Araújo. (Como o nome de logon\\litwareinc kenmeyer é incluído como um parâmetro, a caixa de diálogo de solicitação de credencial do Windows PowerShell requer apenas que o administrador insira a senha da conta Ken Araújo.) O objeto Credential resultante é armazenado em uma variável chamada $cred 1.
+Os comandos mostrados no exemplo a seguir testam a capacidade de um usuário específico (litwareinc \\ kenmeyer) para agendar uma reunião online usando o Agendador da Web. Para fazer isso, o primeiro comando no exemplo usa o cmdlet **Get-Credential** para criar um objeto de credencial da interface de linha de comando do Windows PowerShell que contenha o nome e a senha do usuário Ken Araújo. (Como o nome de logon litwareinc \\ kenmeyer é incluído como um parâmetro, a caixa de diálogo de solicitação de credencial do Windows PowerShell requer apenas que o administrador insira a senha da conta Ken Araújo.) O objeto Credential resultante é armazenado em uma variável chamada $cred 1.
 
 Em seguida, o segundo comando verifica se esse usuário pode fazer logon no pool atl-cs-001.litwareinc.com e agendar uma reunião online. Para executar essa tarefa, o cmdlet **Test-CsWebScheduler** é chamado, juntamente com três parâmetros: TargetFqdn (o FQDN do pool de registrador); Usercredential (o objeto Windows PowerShell que contém as credenciais de usuário de pilar Ackerman); e UserSipAddress (o endereço SIP que corresponde às credenciais de usuário fornecidas).
 

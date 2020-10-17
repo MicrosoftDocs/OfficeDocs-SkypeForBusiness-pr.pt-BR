@@ -12,20 +12,22 @@ ms:contentKeyID: 48185288
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 89a8969924acdf8268f059ae3b3660b70ca1dca7
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 3150d56bbd4935d6139c8584fcd69d721056317e
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42217047"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48505378"
 ---
+# <a name="new-archiving-features-in-lync-server-2013"></a>Novos recursos de arquivamento no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="new-archiving-features-in-lync-server-2013"></a>Novos recursos de arquivamento no Lync Server 2013
+
 
 </div>
 
@@ -47,13 +49,13 @@ O arquivamento no Lync Server 2013 pode arquivar os seguintes tipos de conteúdo
 
 Além disso, o arquivamento no Lync Server 2013 oferece novos recursos que melhoram a implantação e a eficiência das operações. Esses novos recursos consistem em:
 
-  - **Colocação do arquivamento em servidores front-end.**    O Lync Server 2013 não tem uma função de servidor de arquivamento separada. O Arquivamento é um recurso opcional disponível em todos os Servidores front-end em uma implantação Enterprise Edition e, nos servidores Standard Edition, que podem ser implementados e configurados para um pool ou site.
+  - **Colocação do arquivamento em servidores front-end.**     O Lync Server 2013 não tem uma função de servidor de arquivamento separada. O Arquivamento é um recurso opcional disponível em todos os Servidores front-end em uma implantação Enterprise Edition e, nos servidores Standard Edition, que podem ser implementados e configurados para um pool ou site.
 
-  - **Integração com o Microsoft Exchange.**    Ao implantar o arquivamento, você pode integrar o armazenamento de dados para arquivamento com seu armazenamento existente do Exchange 2013 para todos os usuários hospedados no Exchange 2013 e ter suas caixas de correio colocadas em bloqueio in-loco, portanto, não é necessário implantar bancos de dados do SQL Server separados para arquivar dados do Lync. Se você não tiver uma implantação do Exchange 2013, ou se preferir não integrá-la, ou se você tiver usuários do Lync 2013 que não estejam hospedados no Exchange 2013 com suas caixas de correio colocadas em bloqueio in-loco, é possível implantar bancos de dados de arquivamento separados usando o SQL Server para o stor dados arquivados de comunicações do Lync. Você pode usar os bancos de dados de integração do Microsoft Exchange e do Lync Server 2013 se quiser usar a integração do Microsoft Exchange para alguns, mas não todos os usuários em sua implantação. Para obter detalhes sobre o bloqueio in-loco, consulte "bloqueio in-loco [https://go.microsoft.com/fwlink/p/?LinkId=267500](https://go.microsoft.com/fwlink/p/?linkid=267500)" em.
+  - **Integração com o Microsoft Exchange.**     Ao implantar o arquivamento, você pode integrar o armazenamento de dados para arquivamento com seu armazenamento existente do Exchange 2013 para todos os usuários hospedados no Exchange 2013 e ter suas caixas de correio colocadas em In-Place isenção, portanto, não é necessário implantar bancos de dados do SQL Server separados para arquivar dados do Lync. Se você não tiver uma implantação do Exchange 2013, ou se preferir não integrá-la, ou se você tiver usuários do Lync 2013 que não estejam hospedados no Exchange 2013 com suas caixas de correio colocadas em In-Place isenção, poderá implantar bancos de dados de arquivamento separados usando o SQL Server para armazenar dados arquivados de comunicações do Lync. Você pode usar os bancos de dados de integração do Microsoft Exchange e do Lync Server 2013 se quiser usar a integração do Microsoft Exchange para alguns, mas não todos os usuários em sua implantação. Para obter detalhes sobre In-Place reter, consulte "bloqueio in-loco" em [https://go.microsoft.com/fwlink/p/?LinkId=267500](https://go.microsoft.com/fwlink/p/?linkid=267500) .
 
-  - **Espelhamento do repositório SQL.**    Ao implantar o arquivamento, você pode habilitar o espelhamento de banco de dados do SQL Server para o banco de dados de arquivamento.
+  - **Espelhamento do repositório SQL.**     Ao implantar o arquivamento, você pode habilitar o espelhamento de banco de dados do SQL Server para o banco de dados de arquivamento.
 
-  - **Arquivamento de quadros de comunicações e pesquisas.**    O conteúdo de conferência arquivada agora inclui quadros de comunicações e pesquisas que são compartilhadas durante a reunião.
+  - **Arquivamento de quadros de comunicações e pesquisas.**     O conteúdo de conferência arquivada agora inclui quadros de comunicações e pesquisas que são compartilhadas durante a reunião.
 
 Os seguintes tipos de conteúdo não são arquivados:
 
