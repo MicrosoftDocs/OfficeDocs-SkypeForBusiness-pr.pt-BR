@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: listas de verificação de operações'
+description: 'Lync Server 2013: listas de verificação de operações.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,19 +13,19 @@ ms:contentKeyID: 63969588
 ms.date: 04/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 13d3ddce01fb172aa03134a48c40cdd43573f369
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 0ce6fc8a17c4b661737d014b5d1abf20731e39d7
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755795"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48565883"
 ---
 # <a name="operations-checklists-for-lync-server-2013"></a>Listas de verificação de operações do Lync Server 2013 
 
 
-_**Tópico da última modificação:** 2019-06-03_
+_**Última modificação do tópico:** 2019-06-03_
 
-As listas de verificação mencionadas aqui são para a manutenção de registros internos e, se necessário, você pode alterá-las para atender às necessidades da sua organização.
+As listas de verificação mencionadas aqui são mantidas para manutenção de registros internos e, se necessário, você pode alterá-las para atender às necessidades da sua organização.
 
 <br>
 
@@ -34,7 +35,7 @@ A lista de verificação de tarefas diárias é apresentada nesta [planilha do E
 
 <br>
 
-## <a name="weekly-task-checklist"></a>Lista de verificação semanal de tarefas
+## <a name="weekly-task-checklist"></a>Lista de verificação de tarefas semanais
 
 A lista de verificação de tarefas semanais é apresentada nesta [planilha do Excel](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Lync/LyncServer/downloads/operations-weekly.xlsx?raw=true).
 

@@ -1,5 +1,6 @@
 ---
 title: 'Fase 6: mover usuários para o pool piloto'
+description: 'Fase 6: mover usuários para o pool piloto.'
 ms.reviewer: ''
 ms.author: serdars
 author: serdarsoysal
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184388
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7b07d568c7aaabba77c9a66a0db3264a96657839
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: e8928e142be50398c47b4e9c3d1f92008846137b
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48518178"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48566167"
 ---
 # <a name="phase-6-move-users-to-the-pilot-pool"></a>Fase 6: mover usuários para o pool piloto
 
@@ -45,11 +46,11 @@ Você pode mover um único usuário ou grupos de usuários para a nova implanta�
 
 ## <a name="in-this-section"></a>Nesta seção
 
-  - [Verificar a conclusão da replicação de usuário](verify-user-replication-has-completed_1.md)
+  - [Verificar a conclusão da replicação de usuário](verify-user-replication-has-completed.md)
 
-  - [Mover um único usuário para o pool piloto](move-a-single-user-to-the-pilot-pool_1.md)
+  - [Mover um único usuário para o pool piloto](move-a-single-user-to-the-pilot-pool.md)
 
-  - [Mover vários usuários para o pool piloto](move-multiple-users-to-the-pilot-pool_1.md)
+  - [Mover vários usuários para o pool piloto](move-multiple-users-to-the-pilot-pool.md)
 
 </div>
 
