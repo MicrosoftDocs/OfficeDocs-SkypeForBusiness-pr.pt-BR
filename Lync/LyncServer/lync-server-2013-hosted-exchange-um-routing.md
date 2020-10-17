@@ -12,20 +12,22 @@ ms:contentKeyID: 48184422
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bace74b58c706ef58d05e54e31d2f79ab587ba64
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 31091da9a80dc03c798cbf674c1c46e0ea7b901c
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42198624"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48533108"
 ---
+# <a name="hosted-exchange-um-routing-in-lync-server-2013"></a>Roteamento do Exchange UM hospedado no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="hosted-exchange-um-routing-in-lync-server-2013"></a>Roteamento do Exchange UM hospedado no Lync Server 2013
+
 
 </div>
 
@@ -70,9 +72,9 @@ A caixa de correio de Alice e o serviço UM do Exchange estão localizados em um
 
   - A política de caixa postal hospedada atribuída à conta de usuário de Alice fornece os detalhes de encaminhamento:
     
-      - O destino é o provedor de serviços UM UM do Exchange hospedado (ls. ExUm. \<hostedExchangeServer\>. com neste exemplo).
+      - O destino é o provedor de serviços UM UM do Exchange hospedado (ls. ExUm. \<hostedExchangeServer\> . com neste exemplo).
     
-      - As organizações são identificadas pelas IDs de locatário, que são os FQDNs de roteamento para mensagens SIP para locatários do Exchange Server que estão localizados na ls. ExUm. \<hostedExchangeServer\>. com (Corp.contoso.com e Corp.litwareinc.com neste exemplo).
+      - As organizações são identificadas pelas IDs de locatário, que são os FQDNs de roteamento para mensagens SIP para locatários do Exchange Server que estão localizados na ls. ExUm. \<hostedExchangeServer\> . com (corp.contoso.com e corp.litwareinc.com neste exemplo).
         
         <div>
         

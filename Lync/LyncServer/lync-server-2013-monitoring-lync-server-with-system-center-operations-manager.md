@@ -12,20 +12,22 @@ ms:contentKeyID: 63969636
 ms.date: 05/06/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 91fd6f11fc080fea89ea736365603ea226e8b68a
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: c402ca88e45b70f26eb4de9691c95e1935a609f6
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42184724"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48531888"
 ---
+# <a name="monitoring-lync-server-2013-with-system-center-operations-manager"></a>Monitoramento do Lync Server 2013 com o System Center Operations Manager
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="monitoring-lync-server-2013-with-system-center-operations-manager"></a>Monitoramento do Lync Server 2013 com o System Center Operations Manager
+
 
 </div>
 
@@ -39,9 +41,9 @@ _**Última modificação do tópico:** 2015-05-06_
 
 O pacote de gerenciamento do Lync Server (MP) é a solução de monitoramento escolhida para o monitoramento de qualquer implantação do Lync Server.
 
-O MP implementa o log de eventos tradicional e a instrumentação baseada em contador de desempenho e habilita a instrumentação recentemente disponível no Lync Server, como eventos de pares (falha/sucesso) para vários indicadores de integridade principais, e também implementa totalmente as novas\* transações sintéticas (cmdlets Test-cs do Windows PowerShell).
+O MP implementa o log de eventos tradicional e a instrumentação baseada em contador de desempenho e habilita a instrumentação recentemente disponível no Lync Server, como eventos de pares (falha/sucesso) para vários indicadores de integridade principais, e também implementa totalmente as novas transações sintéticas (cmdlets Test-cs do \* Windows PowerShell).
 
-Você pode encontrar o pacote de gerenciamento do Lync Server 2013 e a documentação [https://go.microsoft.com/fwlink/p/?LinkId=400468](https://go.microsoft.com/fwlink/p/?linkid=400468)relacionada em. Isso é recomendável se você estiver executando o System Center Operations Manager 2012.
+Você pode encontrar o pacote de gerenciamento do Lync Server 2013 e a documentação relacionada em [https://go.microsoft.com/fwlink/p/?LinkId=400468](https://go.microsoft.com/fwlink/p/?linkid=400468) . Isso é recomendável se você estiver executando o System Center Operations Manager 2012.
 
 </div>
 

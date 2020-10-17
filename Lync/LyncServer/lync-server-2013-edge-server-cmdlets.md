@@ -12,20 +12,22 @@ ms:contentKeyID: 48183534
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6d18bea94d7844f611afb14d388d6655379ee047
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: b8af979b36564fef40a4839e31f2597d82117741
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42179948"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48533378"
 ---
+# <a name="edge-server-cmdlets-in-lync-server-2013"></a>Cmdlets do servidor de borda no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="edge-server-cmdlets-in-lync-server-2013"></a>Cmdlets do servidor de borda no Lync Server 2013
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42179948"
 
 _**Última modificação do tópico:** 2013-10-07_
 
-Os servidores de borda fornecem uma maneira de estender os recursos do Microsoft Lync Server 2013 para pessoas que não estão conectados à sua rede interna. Por exemplo, se você tiver usuários remotos – usuários autenticados que fazem logon no Lync Server 2013 pela Internet, e não através da rede interna, será necessário configurar um servidor de borda que execute o serviço de borda de acesso do Lync Server. Além disso, os servidores de borda são necessários se você quiser estabelecer uma federação com outra organização ou se quiser dar aos usuários o direito de se comunicar com pessoas que têm contas com um serviço de mensagens instantâneas\!públicos, como Yahoo, AOL ou MSN.
+Os servidores de borda fornecem uma maneira de estender os recursos do Microsoft Lync Server 2013 para pessoas que não estão conectados à sua rede interna. Por exemplo, se você tiver usuários remotos – usuários autenticados que fazem logon no Lync Server 2013 pela Internet, e não através da rede interna, será necessário configurar um servidor de borda que execute o serviço de borda de acesso do Lync Server. Além disso, os servidores de borda são necessários se você quiser estabelecer uma federação com outra organização ou se quiser dar aos usuários o direito de se comunicar com pessoas que têm contas com um serviço de mensagens instantâneas públicos, como Yahoo \! , AOL ou MSN.
 
 <div>
 

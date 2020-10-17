@@ -12,20 +12,22 @@ ms:contentKeyID: 48183217
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: de07393ef9f43346d0c1b4c96dcfdcf33f00513a
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 2605bfbd3e1d4023c013557aea2bcf75404fb23c
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42195834"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48533508"
 ---
+# <a name="audiosignal-table-in-lync-server-2013"></a>Tabela AudioSignal no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="audiosignal-table-in-lync-server-2013"></a>Tabela AudioSignal no Lync Server 2013
+
 
 </div>
 
@@ -205,7 +207,7 @@ Cada registro representa as métricas do sinal de áudio para um ponto de extrem
 </tr>
 <tr class="odd">
 <td><p><strong>InitialSignalLevelRMS</strong></p></td>
-<td><p>float</p></td>
+<td><p>flutuação</p></td>
 <td><p> </p></td>
 <td><p>O quadrado de raiz média (RMS) do sinal de entrada de até os primeiros 30 segundos da chamada.</p></td>
 </tr>

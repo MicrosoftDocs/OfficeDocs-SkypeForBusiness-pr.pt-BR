@@ -1,5 +1,5 @@
 ---
-title: Preparando o AV e certificados OAuth usando-o-Role no set-CsCertificate
+title: Preparando o AV e certificados OAuth usando-o Set-CsCertificate
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 49354387
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ee572bbf115d1e83476194b0e5c92859886da42f
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 003c8da4c953dc843fe49bf3fc5eb2d2a70b093b
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42208397"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48533008"
 ---
+# <a name="staging-av-and-oauth-certificates-in-lync-server-2013-using--roll-in-set-cscertificate"></a>Preparando certificados de AV e OAuth no Lync Server 2013 usando-redistribuir Set-CsCertificate
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="staging-av-and-oauth-certificates-in-lync-server-2013-using--roll-in-set-cscertificate"></a>Preparando certificados AV e OAuth no Lync Server 2013 usando-o-rolo no set-CsCertificate
+
 
 </div>
 
@@ -65,13 +67,13 @@ O serviço de autenticação A/V é responsável por emitir tokens que são usad
 
 </div>
 
-Detalhes adicionais são necessários para entender totalmente as opções e os requisitos ao usar o cmdlet Set-CsCertificate e usá-lo para testar certificados antes do vencimento do certificado atual. O parâmetro – rolo é importante, mas essencialmente um único objetivo. Se você defini-lo como um parâmetro, você está dizendo Set-CsCertificate que você fornecerá informações sobre o certificado que será afetado definido por – Type (por exemplo, AudioVideoAuthentication e OAuthTokenIssuer), quando o certificado se tornar eficaz definido por – EffectiveDate.
+É necessário mais detalhes para compreender totalmente as opções e os requisitos ao usar o cmdlet Set-CsCertificate e usá-lo para testar certificados antes do vencimento do certificado atual. O parâmetro – rolo é importante, mas essencialmente um único objetivo. Se você defini-lo como um parâmetro, você está dizendo Set-CsCertificate de que você fornecerá informações sobre o certificado que será afetado definido por – Type (por exemplo, AudioVideoAuthentication e OAuthTokenIssuer), quando o certificado se tornará efetivo definido por – EffectiveDate.
 
 **-Rolo:** O parâmetro – rolo é necessário e tem dependências que devem ser fornecidas junto com ele. Parâmetros necessários para definir totalmente quais certificados serão afetados e como eles serão aplicados:
 
 **-EffectiveDate:** O parâmetro – EffectiveDate define quando o novo certificado ficará coativo com o certificado atual. O – EffectiveDate pode ser próximo do tempo de expiração do certificado atual ou pode ser um período de tempo mais longo. Um mínimo recomendado – EffectiveDate para o certificado AudioVideoAuthentication seria de 8 horas, que é o tempo de vida de token padrão para tokens de serviço de borda de AV emitidos usando o certificado AudioVideoAuthentication.
 
-Ao preparar certificados do OAuthTokenIssuer, existem diferentes requisitos para o prazo de entrega antes que o certificado possa se tornar efetivo. O tempo mínimo que o certificado OAuthTokenIssuer deve ter para o tempo de avanço é de 24 horas antes do tempo de expiração do certificado atual. O tempo de avanço estendido para a coexistência é devido a outras funções de servidor que são dependentes do certificado OAuthTokenIssuer (Exchange Server, por exemplo) que tem um tempo de retenção mais longo para a autenticação e chave de criptografia criadas pelo certificado necessários.
+Ao preparar certificados do OAuthTokenIssuer, existem diferentes requisitos para o prazo de entrega antes que o certificado possa se tornar efetivo. O tempo mínimo que o certificado OAuthTokenIssuer deve ter para o tempo de avanço é de 24 horas antes do tempo de expiração do certificado atual. O tempo de avanço estendido para a coexistência é devido a outras funções de servidor que são dependentes do certificado OAuthTokenIssuer (servidor Exchange, por exemplo), que tem um tempo de retenção mais longo para a autenticação de certificado criada e materiais de chave de criptografia.
 
 **– Impressão digital:** A impressão digital é um atributo no certificado que é exclusivo desse certificado. O parâmetro – Thumbprint é usado para identificar o certificado que será afetado pelas ações do cmdlet Set-CsCertificate.
 
@@ -87,7 +89,7 @@ Ao preparar certificados do OAuthTokenIssuer, existem diferentes requisitos para
 
 3.  Importe o novo certificado AudioVideoAuthentication para o servidor de borda e todos os outros servidores de borda em seu pool (se você tiver um pool implantado).
 
-4.  Configure o certificado importado com o cmdlet Set-CsCertificate e use o parâmetro – rolo com o parâmetro – EffectiveDate. A data efetiva deve ser definida como o tempo de expiração do certificado atual (14:00:00 ou 2:00:00 PM) menos tempo de vida do token (por padrão, oito horas). Isso nos dá uma hora em que o certificado deve ser definido como ativo e é a cadeia de \<caracteres\>– EFFECTIVEDATE: "7/22/2012 6:00:00 AM".
+4.  Configure o certificado importado com o cmdlet Set-CsCertificate e use o parâmetro – rolo com o parâmetro – EffectiveDate. A data efetiva deve ser definida como o tempo de expiração do certificado atual (14:00:00 ou 2:00:00 PM) menos tempo de vida do token (por padrão, oito horas). Isso nos dá um tempo em que o certificado deve ser definido como ativo e é o – EffectiveDate \<string\> : "7/22/2012 6:00:00 AM".
     
     <div>
     
@@ -102,7 +104,7 @@ Ao preparar certificados do OAuthTokenIssuer, existem diferentes requisitos para
     
         Set-CsCertificate -Type AudioVideoAuthentication -Thumbprint <thumb print of new certificate> -Roll -EffectiveDate <date and time for certificate to become active>
     
-    Um comando Set-CsCertificate de exemplo:
+    Um exemplo Set-CsCertificate comando:
     
         Set-CsCertificate -Type AudioVideoAuthentication -Thumbprint "B142918E463981A76503828BB1278391B716280987B" -Roll -EffectiveDate "7/22/2012 6:00:00 AM"
     
@@ -115,9 +117,9 @@ Ao preparar certificados do OAuthTokenIssuer, existem diferentes requisitos para
     
     </div>
 
-Para entender melhor o processo que o set-CsCertificate,-rolo e – EffectiveDate usa para testar um novo certificado para emitir novos tokens de AudioVideoAuthentication e ainda usar um certificado existente para validar o AudioVideoAuthentication que estão em uso por consumidores, uma linha do tempo Visual é uma maneira eficaz de compreender o processo.
+Para entender melhor o processo que o set-CsCertificate,-rolo e – EffectiveDate usa para testar um novo certificado para emitir novos tokens de AudioVideoAuthentication e, ao mesmo tempo, usar um certificado existente para validar o AudioVideoAuthentication que estão sendo usados por consumidores, uma linha do tempo Visual é uma maneira eficaz de compreender o processo.
 
-No exemplo a seguir, o administrador determina que o certificado de serviço de borda A/V está prestes a expirar às 2:00:00 PM no 07/22/2012. Ele solicita e recebe um novo certificado e o importa para cada servidor de borda em seu pool. Às 2 AM no 07/22/2012, ele começa a executar Get-CsCertificate com – rolo,-Thumbprint igual à cadeia de caracteres de impressão digital do novo certificado e – Efetivotime definido como 07/22/2012 6:00:00 AM. Ele executa este comando em cada servidor de borda.
+No exemplo a seguir, o administrador determina que o certificado de serviço de borda A/V está prestes a expirar às 2:00:00 PM no 07/22/2012. Ele solicita e recebe um novo certificado e o importa para cada servidor de borda em seu pool. Às 2 AM no 07/22/2012, ele começa a executar Get-CsCertificate com – rolo,-Thumbprint igual à cadeia de caracteres de impressão digital do novo certificado e – effectiveTime definido como 07/22/2012 6:00:00 AM. Ele executa este comando em cada servidor de borda.
 
 ![Usando os parâmetros rolo e EffectiveDate.](images/JJ660292.21d51a76-0d03-4ed7-a37e-a7c14940265f(OCS.15).jpg "Usando os parâmetros rolo e EffectiveDate.")
 
@@ -143,7 +145,7 @@ Quando a hora efetiva é atingida (7/22/2012 6:00:00 AM), todos os novos tokens 
     
         Set-CsCertificate -Type OAuthTokenIssuer -Thumbprint <thumb print of new certificate> -Roll -EffectiveDate <date and time for certificate to become active>
     
-    Um comando Set-CsCertificate de exemplo:
+    Um exemplo Set-CsCertificate comando:
     
         Set-CsCertificate -Type OAuthTokenIssuer -Thumbprint "B142918E463981A76503828BB1278391B716280987B" -Roll -EffectiveDate "7/21/2012 1:00:00 PM"
     

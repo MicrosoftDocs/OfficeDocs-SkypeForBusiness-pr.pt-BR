@@ -3,7 +3,7 @@ title: Coexistência com o Microsoft Teams e o Skype for Business
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
-ms.date: 09/16/20
+ms.date: 09/16/2020
 ms.topic: article
 ms.service: msteams
 audience: admin
@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2c5993611a383ee9b7040dfa4b74dae1b392253f
-ms.sourcegitcommit: b37632ffa22e3a6045b476c95d46889e9193a15b
+ms.openlocfilehash: 0690af8226f3f992dcc12f68c6135c953eb043f5
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "47955958"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48533608"
 ---
 # <a name="coexistence-with-teams-and-skype-for-business"></a>Coexistência com o Microsoft Teams e o Skype for Business
 
@@ -132,7 +132,7 @@ O Teams e o Skype for Business têm listas separadas de contatos. Isso significa
 
 - Para qualquer usuário do Skype for Business Online, na primeira vez que fizer logon no Microsoft Teams, os contatos do Skype for Business serão copiados para o Microsoft Teams.  Esse comportamento não está disponível para usuários com uma conta local no Skype for Business Server.  
 
-- Depois que um usuário for atualizado para o TeamsOnly (por meio da atribuição de TeamsUpgradePolicy ou via move-CsUser-MoveToTeams), da próxima vez que um usuário fizer logon no Microsoft Teams, os contatos existentes no Skype for Business serão mesclados com contatos existentes já presentes no Microsoft Teams. Esse comportamento ocorre se a conta do Skype for Business do usuário for hospedada no local ou online. 
+- Depois que um usuário for atualizado para o TeamsOnly (por meio da atribuição de TeamsUpgradePolicy ou via Move-CsUser-MoveToTeams), na próxima vez que um usuário fizer logon no Microsoft Teams, os contatos existentes no Skype for Business serão mesclados com contatos existentes já presentes no Microsoft Teams. Esse comportamento ocorre se a conta do Skype for Business do usuário for hospedada no local ou online. 
 
 Em ambos os casos, a transferência de contatos do Skype for Business para o Microsoft Teams é assíncrona, por isso pode ser um número de minutos para que os contatos sejam exibidos no Microsoft Teams. Os dois eventos acima são o que aciona a cópia.  
 

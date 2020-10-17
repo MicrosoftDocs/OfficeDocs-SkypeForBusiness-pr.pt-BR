@@ -12,20 +12,22 @@ ms:contentKeyID: 48183249
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d0ace2b05b506b5bbf73177282747a66d212b38f
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: eff0ab4c6ee2f6582c8274345c15af681d242561
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42209573"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48532168"
 ---
+# <a name="dns-requirements-for-front-end-pool-in-lync-server-2013"></a>Requisitos de DNS para pool de front-ends no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="dns-requirements-for-front-end-pool-in-lync-server-2013"></a>Requisitos de DNS para pool de front-ends no Lync Server 2013
+
 
 </div>
 
@@ -45,7 +47,7 @@ Você precisa configurar os registros de DNS (sistema de nomes de domínio) nece
 
 
 > [!WARNING]  
-> O Lync Server 2013 não oferece suporte a domínios com rótulo único. Por exemplo, uma floresta com um domínio raiz chamado <STRONG>contoso.local</STRONG> é suportado, mas um domínio raiz chamado <STRONG>local</STRONG> não é suportado. Para obter detalhes, consulte o artigo 300684 da base de dados de conhecimento da Microsoft, "informações sobre como configurar o Windows para domínios com nomes DNS de rótulo único" em <A class=uri href="https://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=300684"> https://go.microsoft.com/fwlink/p/?linkid=3052&amp; kbid = 300684</A>.
+> O Lync Server 2013 não oferece suporte a domínios com rótulo único. Por exemplo, uma floresta com um domínio raiz chamado <STRONG>contoso.local</STRONG> é suportado, mas um domínio raiz chamado <STRONG>local</STRONG> não é suportado. Para obter detalhes, consulte o artigo 300684 da base de dados de conhecimento da Microsoft, "informações sobre como configurar o Windows para domínios com nomes DNS de rótulo único" em <A class=uri href="https://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=300684"> https://go.microsoft.com/fwlink/p/?linkid=3052&amp ; kbid = 300684</A>.
 
 
 
@@ -67,7 +69,7 @@ Antes de operar a topologia após ela ter sido implantada, verifique se os segui
 
   - Um Registro DNS A existe para cada servidor.
 
-  - Existe um registro SRV DNS para cada domínio SIP se você planeja usar o logon automático para clientes no formato de \_sipinternaltls\_TCP. \<Domínio\>SIP. Este registro não é necessário se você utilizará configuração manual para clientes.
+  - Existe um registro SRV DNS para cada domínio SIP se você planeja usar o logon automático para clientes no formato de \_ sipinternaltls \_ TCP. \<SIP domain\> . Este registro não é necessário se você utilizará configuração manual para clientes.
 
   - Um Registro DNS A para cada URL simples configurada, da qual normalmente existem quatro: meet, dialin, lwa e scheduler. Além disso, há a URL simples do administrador, que é uma URL especial para acessar o painel de controle do Lync Server 2013.
 
@@ -212,7 +214,7 @@ A tabela segue as arquiteturas de referência apresentadas na seção Planejamen
 <tr class="odd">
 <td><p>DNS Interno</p></td>
 <td><p>SRV</p></td>
-<td><p>_sipinternaltls. _tcp. contoso. com</p></td>
+<td><p>_sipinternaltls _sipinternaltls._tcp. contoso. com</p></td>
 <td><p>pool01.contoso.com</p></td>
 <td><p>5061</p></td>
 <td><p>Necessário para a configuração automática dos clientes do Lync 2013 para trabalhar internamente.</p></td>
@@ -220,7 +222,7 @@ A tabela segue as arquiteturas de referência apresentadas na seção Planejamen
 <tr class="even">
 <td><p>DNS Interno</p></td>
 <td><p>SRV</p></td>
-<td><p>_sipinternaltls. _tcp. fabrikam. com</p></td>
+<td><p>_sipinternaltls _sipinternaltls._tcp. fabrikam. com</p></td>
 <td><p>pool01.fabrikam.com</p></td>
 <td><p>5061</p></td>
 <td><p>Necessário para a configuração automática dos clientes do Lync 2013 para trabalhar internamente.</p></td>
@@ -228,7 +230,7 @@ A tabela segue as arquiteturas de referência apresentadas na seção Planejamen
 <tr class="odd">
 <td><p>DNS Interno</p></td>
 <td><p>SRV</p></td>
-<td><p>_ntp. _udp. contoso. com</p></td>
+<td><p>_ntp _ntp._udp. contoso. com</p></td>
 <td><p>dc01.contoso.com</p></td>
 <td><p>123</p></td>
 <td><p>Origem do protocolo de tempo de rede (NTP) necessária para dispositivos que executam o Lync Phone Edition. Isso deve indicar o controlador de domínio, internamente. Caso o controlador de domínio não esteja definido, tentará usar o servidor NTP time.windows.com</p></td>

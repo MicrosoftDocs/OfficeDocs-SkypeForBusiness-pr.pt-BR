@@ -12,20 +12,22 @@ ms:contentKeyID: 51541423
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ffd95611f3033dff992092e3be93815bd0e01915
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 80a9116374914c212d305ef2e55d0b8c4fecb782
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42206167"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48533664"
 ---
+# <a name="lync-server-2013-persistent-chat-resource-kit-tools"></a>Ferramentas do kit de recursos de chat persistente do Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="lync-server-2013-persistent-chat-resource-kit-tools"></a>Ferramentas do kit de recursos de chat persistente do Lync Server 2013
+
 
 </div>
 
@@ -43,13 +45,13 @@ As ferramentas do kit de recursos de chat persistente do Lync Server 2013 ajudam
 
 ## <a name="installation-of-the-resource-kit-tools"></a>Instalação das ferramentas do kit de recursos
 
-Para instalar o Lync Server 2013, ferramentas do Resource Kit, baixe o **PersistentChatReskit. msi**. Execute o **PersistentChatReskit. msi** para fazer uma instalação simples. O. msi instala todas as ferramentas no seguinte caminho: \\ **arquivos\\ de programa Microsoft Lync Server 2013\\persistent chat Server Resource Kit**. As ferramentas que são executáveis independentes estão nessa pasta. As ferramentas que também têm arquivos estão em suas próprias subpastas.
+Para instalar o Lync Server 2013, ferramentas do kit de recursos, **PersistentChatReskit.msi**de download. Execute **PersistentChatReskit.msi** para fazer uma instalação simples. O. msi instala todas as ferramentas no seguinte caminho: \\ **arquivos de programa \\ Microsoft Lync Server 2013 \\ persistent chat Server Resource Kit**. As ferramentas que são executáveis independentes estão nessa pasta. As ferramentas que também têm arquivos estão em suas próprias subpastas.
 
 <div>
 
 
 > [!IMPORTANT]  
-> Após a instalação do Lync Server 2013, ferramentas do Resource Kit, você deve instalar o <STRONG>PsExec. exe</STRONG> e copiar o <STRONG>PsExec. exe</STRONG> no \\seguinte caminho: <STRONG>arquivos de programa \ Microsoft Lync Server 2013 \ Kit\ChatStressTool de recurso de servidor de chat persistente</STRONG>. Se você não copiar o <STRONG>PsExec. exe</STRONG>, a ferramenta de estresse de chat persistente lançará uma exceção de erro e não será executada corretamente. Certifique-se de atender a esse requisito de pré-requisito antes de executar a ferramenta. Para obter detalhes sobre como instalar o <STRONG>PsExec. exe</STRONG>, consulte <A href="https://go.microsoft.com/fwlink/p/?linkid=282246">https://go.microsoft.com/fwlink/p/?LinkId=282246</A>.
+> Após a instalação do Lync Server 2013, ferramentas do Resource Kit, você deve instalar <STRONG>PsExec.exe</STRONG> e copiar <STRONG>PsExec.exe</STRONG> para o seguinte caminho: \\ <STRONG>arquivos de programa \ Microsoft Lync Server 2013 \ persistent chat Server Resource Kit\ChatStressTool</STRONG>. Se você não copiar <STRONG>PsExec.exe</STRONG>, a ferramenta de estresse de chat persistente lançará uma exceção de erro e não será executada corretamente. Certifique-se de atender a esse requisito de pré-requisito antes de executar a ferramenta. Para obter detalhes sobre como instalar o <STRONG>PsExec.exe</STRONG>, consulte <A href="https://go.microsoft.com/fwlink/p/?linkid=282246">https://go.microsoft.com/fwlink/p/?LinkId=282246</A> .
 
 
 
@@ -99,7 +101,7 @@ A ferramenta AffCheck confirma que o usuário do banco de dados de back-end de c
 
 <div>
 
-## <a name="requirements"></a>Requirements
+## <a name="requirements"></a>Requisitos
 
 A ferramenta é instalada com o instalador do PersistentChatResKit em um computador ingressado no domínio.
 
@@ -111,9 +113,9 @@ A conta de usuário sob a qual a ferramenta é executada deve ter acesso de leit
 
 ## <a name="usage"></a>Uso
 
-Configure o arquivo AffCheck. exe. config de acordo com as instruções no arquivo de configuração e execute a ferramenta AffCheck sem parâmetros de linha de comando. Veja a seguir o conteúdo do AffCheck. exe. config padrão.
+Configure o arquivo de AffCheck.exe.config de acordo com as instruções no arquivo de configuração e execute a ferramenta AffCheck sem parâmetros de linha de comando. Veja a seguir o conteúdo do AffCheck.exe.config padrão.
 
-**AffCheck. exe. config:**
+**AffCheck.exe.config:**
 
 ```XML
     <?xml version="1.0" encoding="utf-8" ?>
@@ -169,13 +171,13 @@ O arquivo CSV conterá uma divisão de sessões de chat persistentes pelo númer
 
 <div>
 
-## <a name="requirements"></a>Requirements
+## <a name="requirements"></a>Requisitos
 
 Instale as ferramentas do kit de recursos de chat persistente em uma máquina associada a um domínio que tenha acesso ao banco de dados de monitoramento.
 
 A conta de usuário sob a qual a ferramenta é executada deve ter acesso de leitura ao banco de dados de monitoramento.
 
-O arquivo, PersistentChatMonitoringSummary. exe. config, deve conter uma \<\> seção connectionStrings que define a cadeia de caracteres de conexão com o banco de dados de monitoramento. Ele também deve conter uma chave para o PersistentChatEndpointUri para o qual os dados de monitoramento serão coletados e um caminho de arquivo para um local para o arquivo CSV que será gerado. Consulte o arquivo de configuração instalado para obter exemplos. O arquivo deve estar localizado no mesmo diretório que a ferramenta.
+O arquivo, PersistentChatMonitoringSummary.exe.config, deve conter uma \<connectionStrings\> seção que define a cadeia de caracteres de conexão com o banco de dados de monitoramento. Ele também deve conter uma chave para o PersistentChatEndpointUri para o qual os dados de monitoramento serão coletados e um caminho de arquivo para um local para o arquivo CSV que será gerado. Consulte o arquivo de configuração instalado para obter exemplos. O arquivo deve estar localizado no mesmo diretório que a ferramenta.
 
 </div>
 
@@ -228,7 +230,7 @@ A ferramenta de estresse de chat persistente oferece uma maneira fácil de simul
 
 <div>
 
-## <a name="requirements"></a>Requirements
+## <a name="requirements"></a>Requisitos
 
 Instale as ferramentas do kit de recursos de chat persistente em uma máquina associada a um domínio que tenha acesso ao banco de dados de back-end de chat persistente.
 
@@ -257,9 +259,9 @@ Criar usuários e canais para uso na execução de estresse:
 
 Edite os arquivos de configuração de acordo com sua topologia:
 
-Em **LoaderProcess. exe. config**, altere "Controller.contoso.com" para o nome de domínio totalmente qualificado (FQDN) do computador do controlador.
+Em **LoaderProcess.exe.config**, altere "Controller.contoso.com" para o nome de domínio totalmente qualificado (FQDN) do computador do controlador.
 
-Em **StressLauncher. exe. config:**
+No **StressLauncher.exe.config:**
 
 1.  Altere o valor de configuração "LoaderBinary" para o caminho da pasta compartilhada.
 
@@ -267,7 +269,7 @@ Em **StressLauncher. exe. config:**
 
 3.  Altere "ChannelCategory" para o nome da categoria em que os canais de estresse foram criados.
 
-4.  Altere "UserNamePattern" e "UserPasswordPattern" para um modelo que corresponda às suas credenciais de usuário de estresse. {0}é substituído pelo número de índice do usuário.
+4.  Altere "UserNamePattern" e "UserPasswordPattern" para um modelo que corresponda às suas credenciais de usuário de estresse. {0} é substituído pelo número de índice do usuário.
 
 5.  Altere "Domain" para o domínio SIP de sua topologia de teste.
 
@@ -287,7 +289,7 @@ Em **StressLauncher. exe. config:**
 
 ## <a name="usage"></a>Uso
 
-Após a conclusão da configuração, abra o StressLauncher. exe no computador controlador. Você pode iniciar o StressLauncher como qualquer usuário. As credenciais sob as quais os processos de carregador começam nas máquinas de carregador devem ser especificadas no arquivo de configuração. Você também deve fornecer uma cadeia de conexão com acesso de leitura ao banco de dados de back-end de chat persistente. Se essa cadeia de conexão usar a autenticação integrada do Windows, você deverá iniciar o StressLauncher como um usuário que tenha esse acesso.
+Após a conclusão da configuração, abra StressLauncher.exe no computador do controlador. Você pode iniciar o StressLauncher como qualquer usuário. As credenciais sob as quais os processos de carregador começam nas máquinas de carregador devem ser especificadas no arquivo de configuração. Você também deve fornecer uma cadeia de conexão com acesso de leitura ao banco de dados de back-end de chat persistente. Se essa cadeia de conexão usar a autenticação integrada do Windows, você deverá iniciar o StressLauncher como um usuário que tenha esse acesso.
 
 Altere as configurações de modelo de usuário conforme necessário. Clique em **Iniciar carregamento** para iniciar uma execução. Após um minuto, os usuários começarão a entrar, e a barra de progresso começará a ser preenchida. Neste ponto, é possível que a máquina controladora funcione e tenha medidas de desempenho.
 
@@ -311,13 +313,13 @@ A ferramenta verificará, uma por um, cada categoria, sala de chat persistente e
 
 <div>
 
-## <a name="requirements"></a>Requirements
+## <a name="requirements"></a>Requisitos
 
 Instale as ferramentas do kit de recursos de chat persistente em uma máquina que ingressou em um domínio que tenha acesso aos bancos de dados de back-end de chat persistente (versões anteriores e atuais para chat persistente).
 
 A conta de usuário sob a qual a ferramenta é executada deve ter acesso de leitura aos bancos de dados de chat persistente.
 
-O arquivo ChatUpgradeVerifier. exe. config deve conter o parâmetro GroupChat2007R2Db ou o parâmetro GroupChat2010Db, com uma cadeia de caracteres de conexão para o banco de dados de chat de grupo apropriado (Groupchat 2007R2 ou 2010). Também deve conter um parâmetro PersistentChat2013Db, com uma cadeia de caracteres de conexão para o banco de dados chat persistente 2013.
+O arquivo ChatUpgradeVerifier.exe.config deve conter o parâmetro GroupChat2007R2Db ou o parâmetro GroupChat2010Db, com uma cadeia de caracteres de conexão para o banco de dados de chat de grupo apropriado (Groupchat 2007R2 ou 2010). Também deve conter um parâmetro PersistentChat2013Db, com uma cadeia de caracteres de conexão para o banco de dados chat persistente 2013.
 
 </div>
 
@@ -333,7 +335,7 @@ Execute o **ChatUpgradeVerifier** sem nenhum parâmetro.
 
 ## <a name="example"></a>Exemplo
 
-![Executar o ChatUpgradeVerifier. exe.](images/JJ945599.4c273bc3-7926-47c7-ade7-34522721ebf9(OCS.15).jpg "Executar o ChatUpgradeVerifier. exe.")
+![Executando ChatUpgradeVerifier.exe.](images/JJ945599.4c273bc3-7926-47c7-ade7-34522721ebf9(OCS.15).jpg "Executando ChatUpgradeVerifier.exe.")
 
 </div>
 
@@ -353,13 +355,13 @@ A ferramenta ChatUsageReport gera um relatório HTML de uso do serviço de chat 
 
 <div>
 
-## <a name="requirements"></a>Requirements
+## <a name="requirements"></a>Requisitos
 
 Instale as ferramentas do kit de recursos de chat persistente em uma máquina associada a um domínio que tenha acesso ao banco de dados de back-end de chat persistente.
 
 A conta de usuário sob a qual a ferramenta é executada deve ter acesso de leitura ao banco de dados back-end de chat persistente.
 
-O arquivo, ChatUsageReport. exe. config, deve conter uma \<\> seção connectionStrings que define a sequência de conexão para o banco de dados de back-end de chat persistente. O conteúdo do arquivo de configuração padrão é incluído aqui para sua referência.
+O arquivo, ChatUsageReport.exe.config, deve conter uma \<connectionStrings\> seção que define a sequência de conexão para o banco de dados de back-end de chat persistente. O conteúdo do arquivo de configuração padrão é incluído aqui para sua referência.
 
 </div>
 
@@ -386,9 +388,9 @@ Estes parâmetros definem como e quais dados são exibidos:
 
 **RoomsInactiveSince:** Se for especificado, o relatório incluirá uma lista de salas de chat que foram inativas desde a data especificada. Padrão: hora inteira
 
-**OutputFolder:** A pasta onde o ChatUsageReport. html e as imagens de gráfico serão colocados. Isso deve ser definido no arquivo de configuração ou na linha de comando.
+**OutputFolder:** A pasta na qual as imagens do ChatUsageReport.html e do gráfico serão colocadas. Isso deve ser definido no arquivo de configuração ou na linha de comando.
 
-Todos os valores de parâmetro de linha de comando também podem ser especificados no arquivo ChatUsageReport. exe. config localizado no mesmo diretório que a ferramenta. Se qualquer valor for especificado no arquivo de configuração e na linha de comando, o valor da linha de comando substituirá o valor do arquivo de configuração.
+Todos os valores de parâmetro de linha de comando também podem ser especificados no arquivo de ChatUsageReport.exe.config que está localizado no mesmo diretório que a ferramenta. Se qualquer valor for especificado no arquivo de configuração e na linha de comando, o valor da linha de comando substituirá o valor do arquivo de configuração.
 
 </div>
 
@@ -422,12 +424,12 @@ O relatório sempre incluirá o seguinte resultado:
 
 ## <a name="example"></a>Exemplo
 
-O exemplo a seguir gera um relatório de uso para o ano inteiro 2001 e coloca o relatório no OutputFolder especificado em ChatUsageReport. exe. config.
+O exemplo a seguir gera um relatório de uso para o ano inteiro 2001 e coloca o relatório no OutputFolder especificado no ChatUsageReport.exe.config.
 
 ```Powershell
     ChatUsageReport -RoomsInactiveSince 06-20-2010
 ```
-ChatUsageReport. exe. config:
+ChatUsageReport.exe.config:
 
 ```XML
     <?xml version="1.0" encoding="utf-8" ?>
@@ -467,7 +469,7 @@ ScheduleADSyncForPrincipal é um script do Microsoft SQL Server 2012 que deve se
 
 <div>
 
-## <a name="requirements"></a>Requirements
+## <a name="requirements"></a>Requisitos
 
 A conta de usuário sob a qual o script é executado deve ter acesso de proprietário para o banco de dados de back-end de chat persistente.
 

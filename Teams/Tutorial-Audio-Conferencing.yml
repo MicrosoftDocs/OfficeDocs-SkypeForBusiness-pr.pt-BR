@@ -3,7 +3,9 @@ title: 'Tutorial: Conferência de áudio-Microsoft Teams'
 metadata:
   title: Audioconferência no Microsoft Teams
   description: Use este tutorial interativo para aprender os requisitos, as etapas de planejamento e a emissão de relatórios para videoconferências no Microsoft Teams.
-  ms.custom: seo-marvel-mar2020
+  ms.custom:
+  - seo-marvel-apr2020
+  - seo-marvel-mar2020
   audience: IT Pro
   level: Intermediate
   displayType: one-column
@@ -20,12 +22,12 @@ metadata:
   - M365-collaboration
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: 28e1cf02f9f25bded8f0e28f5d82fc18065f6f52
-  ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+  ms.openlocfilehash: fc4f57607a0a96de6754eec0e693b7cf5cb0b767
+  ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
   ms.translationtype: MT
   ms.contentlocale: pt-BR
-  ms.lasthandoff: 04/27/2020
-  ms.locfileid: "43904546"
+  ms.lasthandoff: 10/16/2020
+  ms.locfileid: "48532758"
 items:
 - durationInMinutes: 1
   content: >
@@ -68,7 +70,7 @@ items:
     Para fazer comentários sobre o produto Teams, como ideias de novos recursos, visite o [UserVoice](https://microsoftteams.uservoice.com/forums/555103-public).
 - title: Conferências de áudio no Microsoft Teams
   durationInMinutes: 12
-  content: "\nCom o áudio videoconferência, os participantes usam um telefone comum para participar de reuniões do Teams, discando para a reunião pelo telefone ou usando a funcionalidade de discagem interna na reunião. Revise os recursos a seguir para saber mais sobre a conferência de áudio:\n-   [Recursos de videoconferência](https://products.office.com/skype-for-business/audio-conferencing#Features) (tempo estimado de leitura de 1 minuto)\n-   [9 dicas para reunião com o Microsoft Teams](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/9-tips-for-meeting-with-Microsoft-Teams/ba-p/151444) (tempo estimado\\#de leitura para \"1-ingressar em uma reunião via áudio videoconferência\" é 1 minuto; mais se você ler o artigo inteiro)\n-   [Perguntas comuns sobre o áudio audioconferência](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/audio-conferencing-common-questions) (tempo estimado de leitura de 7 minutos)\n-   [Discar de uma reunião para que outras pessoas possam participar dela](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/dialing-out-from-a-meeting-so-other-people-can-join-it) (tempo estimado de leitura de 2 minutos)\n"
+  content: "\nCom o áudio videoconferência, os participantes usam um telefone comum para participar de reuniões do Teams, discando para a reunião pelo telefone ou usando a funcionalidade de discagem interna na reunião. Revise os recursos a seguir para saber mais sobre a conferência de áudio:\n-   [Recursos de videoconferência](https://products.office.com/skype-for-business/audio-conferencing#Features) (tempo estimado de leitura de 1 minuto)\n-   [9 dicas para reunião com o Microsoft Teams](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/9-tips-for-meeting-with-Microsoft-Teams/ba-p/151444) (tempo estimado de leitura para \" \\# 1-ingressar em uma reunião via áudio videoconferência\" é 1 minuto; mais se você ler o artigo inteiro)\n-   [Perguntas comuns sobre o áudio audioconferência](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/audio-conferencing-common-questions) (tempo estimado de leitura de 7 minutos)\n-   [Discar de uma reunião para que outras pessoas possam participar dela](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/dialing-out-from-a-meeting-so-other-people-can-join-it) (tempo estimado de leitura de 2 minutos)\n"
 - title: Cenário – conferência de áudio
   durationInMinutes: 1
   content: "\nO Paulo funciona na contoso, uma empresa com vários escritórios. Com frequência, o Paulo precisa se conectar com pessoas em outros locais do Office e, com frequência, ele trabalha de casa ou entra em trânsito, ele é um grande fã de reuniões do teams. Quando o Paulo envia um convite de reunião, ele adiciona automaticamente informações para videoconferências. Isso torna possível os seguintes cenários:\n-   Alice quer participar da reunião do Paulo, mas ela está em trânsito e não tem acesso a uma rede confiável. Portanto, ela ingressa na reunião usando as coordenadas de discagem do convite da reunião. Durante o processo de discagem, ela usa o PIN para autenticar, portanto ela é reconhecida pelo sistema como \"Ana\".\n-   Bob, que atualmente está em um hotel, ingressa na reunião usando o cliente do teams em seu computador. Infelizmente, a qualidade de áudio pela conexão à Internet no Hotel não é ótima, portanto, Bob disca para o seu próprio número de telefone da reunião para ingressar pela PSTN (rede telefônica pública comutada).\n-   Se os participantes da reunião decidirem durante a chamada que desejam adicionar usuários em um número de telefone diferente, eles poderão discar para o número de telefone e trazer outras pessoas para a reunião.\n-   Outros usuários também podem participar do cliente do teams em seu PC, Mac ou dispositivo móvel.\n\nNo Teams, os organizadores da reunião podem finalizar uma reunião para todos os participantes da reunião. Isso é útil em cenários como o seguinte:\n\n-   Educadores podem garantir que os alunos não permaneçam em uma reunião dessupervisionada após a conclusão de uma classe.\n-   Para reuniões que estão sendo gravadas, como webinars, os organizadores da reunião podem garantir que a gravação termine quando a reunião terminar.\n-   Finalizar uma reunião para todos os participantes pode ajudar a reduzir o uso e a cobrança PSTN da sua organização. \n\nPor exemplo, quando a reunião é concluída, o Paulo pode clicar em **encerrar reunião** dentro da reunião no Teams para encerrá-la e remover todos os participantes dela.\n"

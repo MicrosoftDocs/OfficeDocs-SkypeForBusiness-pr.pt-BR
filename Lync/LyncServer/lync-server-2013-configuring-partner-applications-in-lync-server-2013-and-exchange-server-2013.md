@@ -12,20 +12,22 @@ ms:contentKeyID: 49733754
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: db2f0df542cb85956ae3efa7321083b99ed561a8
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: c8743b012042738ea25653cf49a804e08d59a423
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42198784"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48532508"
 ---
+# <a name="configuring-partner-applications-in-microsoft-lync-server-2013-and-microsoft-exchange-server-2013"></a>Configurando aplicativos parceiros no Microsoft Lync Server 2013 e no Microsoft Exchange Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-partner-applications-in-microsoft-lync-server-2013-and-microsoft-exchange-server-2013"></a>Configurando aplicativos parceiros no Microsoft Lync Server 2013 e no Microsoft Exchange Server 2013
+
 
 </div>
 
@@ -47,7 +49,7 @@ Para configurar a autenticação de servidor para servidor entre o Lync Server e
 
 ## <a name="configuring-lync-server-2013-to-be-a-partner-application-for-exchange-2013"></a>Configurando o Lync Server 2013 para ser um aplicativo parceiro para o Exchange 2013
 
-A maneira mais fácil de configurar o Lync Server 2013 para ser um aplicativo parceiro com o Exchange 2013 é executar o script configure-enterprisepartnerapplication. ps1, um script do Windows PowerShell que acompanha o Exchange 2013. Para executar esse script, você deve fornecer a URL para o documento de metadados de autenticação do Lync Server; Normalmente, o nome de domínio totalmente qualificado do pool do Lync Server 2013, seguido do sufixo/Metadata/JSON/1. Por exemplo:
+A maneira mais fácil de configurar o Lync Server 2013 para ser um aplicativo parceiro com o Exchange 2013 é executar o Configure-EnterprisePartnerApplication.ps1 script, um script do Windows PowerShell que acompanha o Exchange 2013. Para executar esse script, você deve fornecer a URL para o documento de metadados de autenticação do Lync Server; Normalmente, o nome de domínio totalmente qualificado do pool do Lync Server 2013, seguido do sufixo/Metadata/JSON/1. Por exemplo:
 
     https://atl-cs-001.litwareinc.com/metadata/json/1
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 48183506
 ms.date: 12/29/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e969de7198eecf43b57ea00fa0591bbeb06da0b1
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 160d90a5a79291d18afdab00c23ff0a6726fa5b0
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42217307"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48531938"
 ---
+# <a name="monitoring-for-server-memory-capacity-limits-in-lync-server-2013"></a>Monitoramento de limites de capacidade de memória do servidor no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="monitoring-for-server-memory-capacity-limits-in-lync-server-2013"></a>Monitoramento de limites de capacidade de memória do servidor no Lync Server 2013
+
 
 </div>
 
@@ -61,19 +63,19 @@ Você deve definir um limite na **contagem de sessão ativa no momento com assin
 
 Para determinar os limites apropriados, você precisa primeiro determinar a quantidade de memória disponível no servidor front-end para o serviço de mobilidade. Monitore os contadores para determinar quando você precisa planejar capacidade extra, de acordo com a fórmula a seguir:
 
-Memória total usada pelo serviço de mobilidade MCX (MB) = 164 + (400 + 134)/1024 \* **contagem de sessão ativa no momento com assinaturas de presença ativas** + 400 \* /1024 (contagem de sessão ativa**no** momento – **contagem de sessão ativa no momento com assinaturas de presença ativas**)
+Memória total usada pelo serviço de mobilidade MCX (MB) = 164 + (400 + 134)/1024 \* **contagem de sessão ativa no momento com assinaturas de presença ativas** + 400/1024 \* (contagem de sessão ativa**no** momento – **contagem de sessão ativa no momento com assinaturas de presença ativas**)
 
 <div>
 
 
 > [!IMPORTANT]  
-> A calculadora de capacidade do Microsoft Lync Server 2010 é uma planilha preenchida previamente com todas as fórmulas que permitem que um planejador determine quais são os requisitos para os servidores, incluindo CPU, memória e disco rígido. Você pode baixar a planilha e um documento associado em:<A href="https://go.microsoft.com/fwlink/p/?linkid=212657">https://go.microsoft.com/fwlink/p/?LinkID=212657</A>
+> A calculadora de capacidade do Microsoft Lync Server 2010 é uma planilha preenchida previamente com todas as fórmulas que permitem que um planejador determine quais são os requisitos para os servidores, incluindo CPU, memória e disco rígido. Você pode baixar a planilha e um documento associado em: <A href="https://go.microsoft.com/fwlink/p/?linkid=212657">https://go.microsoft.com/fwlink/p/?LinkID=212657</A>
 
 
 
 </div>
 
-O servidor front-end precisa de memória suficiente disponível para suportar o serviço de mobilidade em situações de failover. Você pode monitorar a memória atual disponível no servidor front-end usando o contador **memória\\disponível de Mbytes** ou usando a equação mencionada anteriormente para planejar a quantidade de memória que você espera que o serviço de mobilidade use.
+O servidor front-end precisa de memória suficiente disponível para suportar o serviço de mobilidade em situações de failover. Você pode monitorar a memória atual disponível no servidor front-end usando o contador **memória \\ disponível de Mbytes** ou usando a equação mencionada anteriormente para planejar a quantidade de memória que você espera que o serviço de mobilidade use.
 
 Se a quantidade de memória disponível no servidor front-end for inferior a 1.500 MB quando você planejar o número esperado de usuários de mobilidade, você precisará adicionar mais hardware para dar suporte ao serviço de mobilidade. Para obter mais detalhes, consulte [Monitoring Mobility for Performance in Lync Server 2013](lync-server-2013-monitoring-mobility-for-performance.md) na documentação operações.
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 51541465
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 900421ed081d5fb8e37fb6b23ddbb80dc85963eb
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 96eee88d6055d7a66d858dc5c6324a2592616ceb
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42188084"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48532638"
 ---
+# <a name="backup-and-restoration-requirements-in-lync-server-2013-tools-and-permissions"></a>Requisitos de backup e restauração no Lync Server 2013: ferramentas e permissões
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="backup-and-restoration-requirements-in-lync-server-2013-tools-and-permissions"></a>Requisitos de backup e restauração no Lync Server 2013: ferramentas e permissões
+
 
 </div>
 
@@ -41,7 +43,7 @@ Este tópico identifica as ferramentas que você pode usar para fazer o backup e
 
 <div>
 
-## <a name="backups"></a>Fazer
+## <a name="backups"></a>Backups
 
 Para fazer backup do Lync Server, use as ferramentas identificadas na tabela a seguir. Todos os comandos de que você precisa para fazer o backup do Lync Server podem ser executados em script e podem ser executados remotamente.
 
@@ -165,7 +167,7 @@ Para restaurar o Lync Server, use as ferramentas da tabela a seguir. Todos os co
 <tr class="even">
 <td><p>Publicar e habilitar a topologia</p></td>
 <td><p>Construtor de Topologias</p>
-<p>- ou -</p>
+<p>-ou-</p>
 <p>Publish-CsTopology e Enable-CsTopology</p></td>
 </tr>
 <tr class="odd">
@@ -178,7 +180,7 @@ Para restaurar o Lync Server, use as ferramentas da tabela a seguir. Todos os co
 <div>
 
 > [!NOTE]  
-> Localizado na pasta de instalação do Lync Server ou na mídia em \setup\amd64\Setup.exe.
+> Localizado na pasta ou na mídia de instalação do Lync Server em \setup\amd64\Setup.exe.
 
 
 </div></td>

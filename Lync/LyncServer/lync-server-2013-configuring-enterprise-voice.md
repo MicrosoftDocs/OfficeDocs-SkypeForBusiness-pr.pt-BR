@@ -12,20 +12,22 @@ ms:contentKeyID: 51803952
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8a6c09bd44f9fc4b98488c7825f8cab1d3eea7f6
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: ca998a723e4ef84fc1c203d6eddc5f9016f28739
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42202937"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48532548"
 ---
+# <a name="configuring-enterprise-voice-in-lync-server-2013"></a>Configurando o Enterprise Voice no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-enterprise-voice-in-lync-server-2013"></a>Configurando o Enterprise Voice no Lync Server 2013
+
 
 </div>
 
@@ -51,7 +53,7 @@ Para implantar o Enterprise Voice, você precisará configurar o seguinte:
 
 ## <a name="create-a-trunk"></a>Criar um tronco
 
-Você deve definir troncos em sua implantação do Enterprise Voice. Para o roteamento baseado em local, você deve criar uma configuração de tronco por tronco. Use o construtor de topologias do Lync Server para definir seus troncos e use o comando do Lync Server Windows PowerShell, New-CsTrunkConfiguration ou o painel de controle do Lync Server para definir as configurações de tronco correspondentes. É possível encontrar mais informações sobre como habilitar o roteamento baseado em local nas configurações de tronco na seção, habilitar o roteamento baseado em local para troncos, no tópico, [habilitando o roteamento baseado em local no Lync Server 2013](lync-server-2013-enabling-location-based-routing.md). Neste exemplo, a tabela a seguir ilustra os troncos usados neste cenário.
+Você deve definir troncos em sua implantação do Enterprise Voice. Para Location-Based roteamento, você deve criar uma configuração de tronco por tronco. Use o construtor de topologias do Lync Server para definir seus troncos e use o comando do Lync Server Windows PowerShell, New-CsTrunkConfiguration ou o painel de controle do Lync Server para definir as configurações de tronco correspondentes. É possível encontrar mais informações sobre como habilitar o roteamento de Location-Based nas configurações de tronco na seção, habilitar Location-Based roteamento para troncos, no tópico, [habilitando Location-Based roteamento no Lync Server 2013](lync-server-2013-enabling-location-based-routing.md). Neste exemplo, a tabela a seguir ilustra os troncos usados neste cenário.
 
 Para obter mais informações, consulte [definir troncos adicionais no construtor de topologias no Lync Server 2013](lync-server-2013-define-additional-trunks-in-topology-builder.md).
 
@@ -117,7 +119,7 @@ Para obter mais informações, consulte [definir troncos adicionais no construto
 
 ## <a name="defines-voice-policies"></a>Define políticas de voz
 
-Você deve definir políticas de voz para a implantação do Enterprise Voice. Defina uma política de voz para impor restrições de roteamento com base no local a um subconjunto de usuários, se apenas um subconjunto deles for necessário para usar o roteamento baseado em local. Neste exemplo, a tabela a seguir ilustra as políticas de voz usadas neste cenário. Somente as configurações específicas do roteamento baseado em local são incluídas na tabela para fins de ilustração.
+Você deve definir políticas de voz para a implantação do Enterprise Voice. Defina uma política de voz para impor restrições de roteamento Location-Based a um subconjunto de usuários se apenas um subconjunto deles for necessário para usar o roteamento Location-Based. Neste exemplo, a tabela a seguir ilustra as políticas de voz usadas neste cenário. Somente as configurações específicas para o roteamento de Location-Based são incluídas na tabela para fins de ilustração.
 
 Para saber mais, confira [Configurando políticas de voz e registros de uso de PSTN para autorizar recursos e privilégios de chamada no Lync Server 2013](lync-server-2013-configuring-voice-policies-and-pstn-usage-records-to-authorize-calling-features-and-privileges.md).
 
@@ -166,7 +168,7 @@ Para saber mais, confira [Configurando políticas de voz e registros de uso de P
 
 ## <a name="define-voice-routes"></a>Definir rotas de voz
 
-Você deve definir rotas de voz para sua implantação do Enterprise Voice. Neste exemplo, a tabela a seguir ilustra as rotas de voz usadas neste cenário. Somente as configurações específicas do roteamento baseado em local são incluídas na tabela para fins de ilustração.
+Você deve definir rotas de voz para sua implantação do Enterprise Voice. Neste exemplo, a tabela a seguir ilustra as rotas de voz usadas neste cenário. Somente as configurações específicas para o roteamento de Location-Based são incluídas na tabela para fins de ilustração.
 
 Para obter mais informações, consulte [Configurando rotas de voz para chamadas de saída no Lync Server 2013](lync-server-2013-configuring-voice-routes-for-outbound-calls.md).
 
@@ -225,7 +227,7 @@ Para obter mais informações, consulte [Configurando rotas de voz para chamadas
 
 ## <a name="enable-users-for-enterprise-voice"></a>Habilitar usuários para o Enterprise Voice
 
-Habilite usuários para o Enterprise Voice e atribua a eles uma política de voz que você tenha definido anteriormente. Neste exemplo, a tabela a seguir ilustra a atribuição usada neste cenário. Somente as configurações específicas do roteamento baseado em local são incluídas na tabela para fins de ilustração.
+Habilite usuários para o Enterprise Voice e atribua a eles uma política de voz que você tenha definido anteriormente. Neste exemplo, a tabela a seguir ilustra a atribuição usada neste cenário. Somente as configurações específicas para o roteamento de Location-Based são incluídas na tabela para fins de ilustração.
 
 Para obter mais informações, consulte [Enable users for Enterprise Voice in Lync Server 2013](lync-server-2013-enable-users-for-enterprise-voice.md).
 
@@ -270,7 +272,7 @@ Para obter mais informações, consulte [Enable users for Enterprise Voice in Ly
 ## <a name="see-also"></a>Confira também
 
 
-[Configurando o roteamento baseado em local no Lync Server 2013](lync-server-2013-configuring-location-based-routing.md)  
+[Configurando o roteamento de Location-Based no Lync Server 2013](lync-server-2013-configuring-location-based-routing.md)  
   
 
 </div>

@@ -12,20 +12,22 @@ ms:contentKeyID: 54973690
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 96c2c94bde12e6b8b77060a82f1990b673421de9
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 780b539aeaf6a6bc6956fc5f8b6185092675632b
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42198774"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48532488"
 ---
+# <a name="configuring-lync-server-2013-passive-authentication"></a>Configurando a autenticação passiva do Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-lync-server-2013-passive-authentication"></a>Configurando a autenticação passiva do Lync Server 2013
+
 
 </div>
 
@@ -99,7 +101,7 @@ As etapas a seguir descrevem como criar uma configuração de proxy Personalizad
 
 **Para criar uma configuração de proxy Personalizada**
 
-1.  Na linha de comando do Shell de gerenciamento do Lync Server, crie uma nova configuração de proxy para cada Lync Server 2013 com atualizações cumulativas: pool de borda de julho de 2013, pool corporativo e servidor Standard Edition que será habilitado para autenticação passiva executando o seguintes comandos:
+1.  Na linha de comando do Shell de gerenciamento do Lync Server, crie uma nova configuração de proxy para cada Lync Server 2013 com atualizações cumulativas: pool de borda de julho de 2013, pool corporativo e servidor Standard Edition que será habilitado para autenticação passiva executando os seguintes comandos:
     
        ```powershell
         New-CsProxyConfiguration -Identity "Service:EdgeServer:EdgePool01.contoso.com" 

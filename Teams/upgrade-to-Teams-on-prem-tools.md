@@ -3,7 +3,7 @@ title: Atualize para o Teams a partir de uma implantação local do Skype for Bu
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
-ms.date: 09/16/20
+ms.date: 09/16/2020
 ms.topic: article
 ms.service: msteams
 audience: admin
@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 076e96ac8cf44e05e2852ca5bdf33b42e14eb731
-ms.sourcegitcommit: 739ffd5893abf6d181877d1110f9dc8230b3bfd2
+ms.openlocfilehash: 952214d615b62d0175841e2c7b24b45f1ae2d2b1
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "48328190"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48533568"
 ---
 # <a name="tools-for-upgrading-to-teams-mdash-for-it-administrators"></a>Ferramentas para a atualização do teams &mdash; para administradores de ti
 
@@ -51,7 +51,7 @@ Não importa se você executa uma transição de recursos selecionados usando os
 
 Você também pode atribuir qualquer modo de TeamsUpgradePolicy, exceto para o modo TeamsOnly, aos usuários hospedados no Skype for Business local. **O modo TeamsOnly só pode ser atribuído a um usuário que já esteja hospedado no Skype for Business online**. Isso ocorre porque a interoperabilidade com os usuários do Skype for Business e a Federação, bem como a funcionalidade do sistema telefônico do Microsoft 365 só é possível se o usuário estiver hospedado no Skype for Business online. Além disso, **você não pode atribuir o modo TeamsOnly como o padrão geral do locatário se tiver uma implantação do Skype for Business local** (que é detectada pela presença de um registro DNS lyncdiscover que aponta para o local diferente do Office 365.
 
-Os usuários com contas do Skype for Business hospedadas no local [devem ser movidos online](https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-from-on-premises-to-teams) (para o Skype for Business online ou direto para o Microsoft Teams) usando o conjunto de ferramentas de CsUser no Skype for Business local. Esses usuários podem ser movidos para o TeamsOnly nas etapas 1 ou 2:
+Os usuários com contas do Skype for Business hospedadas no local [devem ser movidos online](https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-from-on-premises-to-teams) (para o Skype for Business online ou direto para o Microsoft Teams) usando Move-CsUser no conjunto de ferramentas local do Skype for Business. Esses usuários podem ser movidos para o TeamsOnly nas etapas 1 ou 2:
 
 -   1 etapa: Especifique a opção-MoveToTeams em move-CsUser. Isso requer o Skype for Business Server 2019 ou o Skype for Business Server 2015 com o CU8 ou posterior.
 
@@ -69,7 +69,7 @@ Para atualizar um usuário online para o modo TeamsOnly, atribua a instância "U
 Grant-CsTeamsUpgradePolicy -PolicyName UpgradeToTeams -Identity $user 
 ```
 
-Para atualizar um usuário local do Skype for Business para o modo TeamsOnly, use move-CsUser no conjunto de ferramentas local:
+Para atualizar um usuário local do Skype for Business para o modo TeamsOnly, use Move-CsUser no conjunto de ferramentas local:
 
 ```PowerShell
 Move-CsUser -identity $user -Target sipfed.online.lync.com -MoveToTeams -credential $cred
@@ -112,7 +112,7 @@ Grant-CsTeamsUpgradePolicy -Identity $user -PolicyName EnableNotification
 
 Quando um usuário é migrado para o modo TeamsOnly, por padrão, suas reuniões do Skype for Business existentes que eles organizadas serão convertidas para o Microsoft Teams. Opcionalmente, você pode desativar o comportamento padrão ao atribuir o modo TeamsOnly a um usuário. Ao mover usuários do local, as reuniões devem ser migradas para a nuvem para que funcionem com a conta de usuário online, mas se você não especificar-MoveToTeams, as reuniões serão migradas como reuniões do Skype for Business, em vez de serem convertidas para o Microsoft Teams. 
 
-Ao atribuir o modo TeamsOnly no nível do locatário, a migração da reunião não é disparada para nenhum usuário. Se quiser atribuir o modo TeamsOnly no nível do locatário e migrar reuniões, você pode usar o PowerShell para obter uma lista de usuários no locatário (por exemplo, usar Get-CsOnlineUser com os filtros necessários) e fazer um loop por cada um desses usuários para disparar a migração de reunião usando Start-CsExMeetingMigration. Para obter detalhes, consulte [usando o serviço de migração de reunião (MMS)](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms).
+Ao atribuir o modo TeamsOnly no nível do locatário, a migração da reunião não é disparada para nenhum usuário. Se quiser atribuir o modo TeamsOnly no nível do locatário e migrar reuniões, você pode usar o PowerShell para obter uma lista de usuários no locatário (por exemplo, usando Get-CsOnlineUser com os filtros necessários) e executar um loop por cada um desses usuários para disparar a migração de reunião usando o Start-CsExMeetingMigration. Para obter detalhes, consulte [usando o serviço de migração de reunião (MMS)](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms).
 
 
 

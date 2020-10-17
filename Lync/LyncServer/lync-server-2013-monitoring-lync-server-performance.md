@@ -12,20 +12,22 @@ ms:contentKeyID: 63969592
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bd46beb944f676b9916472cc39394d84ae205786
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 0db9afa670cd21428a3dc4f4c812240abaa10468
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42217277"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48531908"
 ---
+# <a name="monitoring-lync-server-2013-performance"></a>Monitorar o desempenho do Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="monitoring-lync-server-2013-performance"></a>Monitorar o desempenho do Lync Server 2013
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42217277"
 
 _**Última modificação do tópico:** 2014-05-15_
 
-O desempenho do Lync Server 2013 é afetado por vários fatores, como perfis de usuário, arquitetura do sistema, software, componentes de hardware, pontos de integração de terceiros, como gateways e equipamentos de telefonia, conectividade e desempenho da rede, Windows Configuração e desempenho do serviço do Active Directory além da funcionalidade do sistema operacional Windows.
+O desempenho do Lync Server 2013 é afetado por vários fatores, como perfis de usuário, arquitetura do sistema, software, componentes de hardware, pontos de integração de terceiros, como gateways e equipamentos de telefonia, conectividade e desempenho da rede, configuração e desempenho do serviço do Active Directory do Windows, além da funcionalidade do sistema operacional Windows.
 
 No núcleo de um desempenho de implantações do Lync Server 2013 é o software do servidor e o hardware em que ele é implementado. Por exemplo, um servidor front-end deve ter recursos de hardware suficientes para lidar com a carga de usuário esperada (de curto prazo). Se for necessário ter um servidor front-end para fornecer serviços a 10000 usuários, um servidor configurado adequadamente deverá atender aos requisitos de carga esperados para ajudar a garantir a melhor experiência possível para o usuário final.
 
@@ -45,25 +47,25 @@ Portanto, o desempenho do Monitoring Server é extremamente importante para aval
 
 Enquanto informações detalhadas sobre todos os objetos de desempenho e contadores a serem observados estão vinculadas ao [monitoramento do Lync Server 2013 com o System Center Operations Manager](lync-server-2013-monitoring-lync-server-with-system-center-operations-manager.md), alguns contadores de desempenho que você deve seguir podem fornecer aos administradores uma rápida visualização do desempenho do sistema:
 
-  - Para controlar a integridade geral do sistema do servidor front-end, um bom ponto de partida é verificar\\o processador% tempo do processador. O valor deve estar sempre abaixo de 80%.
+  - Para controlar a integridade geral do sistema do servidor front-end, um bom ponto de partida é verificar o processador \\ % tempo do processador. O valor deve estar sempre abaixo de 80%.
 
   - Para acompanhar o desempenho da instância do software de banco de dados back-end do SQL Server usada pelo pool de front-ends, monitore os seguintes contadores de desempenho:
     
-    LC: USrv – 00 – DBStore\\USrv – 002 – latência de fila (MS)
+    LC: USrv – 00 – DBStore \\ USrv – 002 – latência de fila (MS)
     
-    LC: USrv – 00 – DBStore\\USrv – 0 04 – latência de SPROC (MS)
+    LC: USrv – 00 – DBStore \\ USrv – 0 04 – latência de SPROC (MS)
     
-    O servidor íntegro em estado Steady deve mostrar \<100 valores de latência MS. O mecanismo de limitação se deparará quando a latência atingir 12 segundos, o que significa que o servidor front-end inicia as solicitações de limitação para o back-end. Isso faz com que os clientes comecem a receber uma mensagem de erro do servidor 503 que esteja ocupado.
+    O servidor íntegro em estado Steady deve mostrar \< 100 valores de latência MS. O mecanismo de limitação se deparará quando a latência atingir 12 segundos, o que significa que o servidor front-end inicia as solicitações de limitação para o back-end. Isso faz com que os clientes comecem a receber uma mensagem de erro do servidor 503 que esteja ocupado.
 
   - Para controlar o tempo de processamento no servidor front-end, monitore o seguinte contador:
     
-    LC: SIP-07-gerenciamento\\de carga SIP-000-tempo médio de retenção para mensagens de entrada
+    LC: SIP-07-gerenciamento de carga \\ SIP-000-tempo médio de retenção para mensagens de entrada
     
     Este é outro mecanismo de limitação nos servidores front-end, desde o momento em que o tempo de processamento no front-end é alto. Se o tempo médio de processamento for de mais de seis segundos, o servidor entrará no modo de limitação e permitirá apenas uma transação pendente por conexão do cliente.
 
   - Para rastrear problemas de memória no servidor back-end SQL, monitore o seguinte contador:
     
-    Expectativa de vida da\\página do Gerenciador de buffer do SQL Server
+    \\Expectativa de vida da página do Gerenciador de buffer do SQL Server
     
     Um valor baixo, abaixo de 3600 segundos (junto com gravações de alta latência/s e páginas de ponto de verificação/seg) indica pressão de memória.
 
@@ -77,9 +79,9 @@ O servidor front-end pode indicar problemas que podem ser causados por afunilame
 
 Dois contadores adicionais a serem revisados primeiro são os seguintes:
 
-LC: USrv-00-DBStore\\USrv-002-latência de fila (MS)
+LC: USrv-00-DBStore \\ USrv-002-latência de fila (MS)
 
-LC: USrv-00-DBStore\\USrv-004-SPROC latência (msec)
+LC: USrv-00-DBStore \\ USrv-004-SPROC latência (msec)
 
 O contador de latência de fila representa o tempo que uma solicitação gastou na fila para o back-end e a latência SPROC representa o tempo necessário para que o back-end processe a solicitação. Se, por qualquer motivo, disco, memória, rede e processador no back-end estiverem em problemas, o contador de latência de fila será alto.
 
@@ -103,21 +105,21 @@ Você pode determinar se o SQL Server requer RAM adicional examinando o contador
 
 Há um mecanismo de limitação adicional em um servidor front-end do Lync Server 2013 que é iniciado se o tempo de processamento do servidor for alto. A limitação de latência do DBStore só será habilitada se a latência para o SQL Server for alta. Um exemplo no qual essa limitação está habilitada é se o servidor front-end estiver vinculado à CPU.
 
-Se o tempo médio de processamento **(LC: SIP-07-Load\\Management SIP-000-tempo médio de retenção para mensagens de entrada)** no servidor exceder seis segundos, o servidor entra no modo de limitação e só fornece aos usuários uma transação pendente por conexão do cliente. Depois que o tempo de processamento cai para três segundos, o servidor descarta o modo de limitação e oferece aos usuários até 20 transações pendentes por conexão do cliente. Sempre que o número de transações em uma conexão específica exceder o limite acima, a conexão será marcada como fluxo controlado. O resultado é o servidor não publica os recebimentos nele, e o contador de **conexões controladas por fluxo de\\SIP-01-Peers** é incrementado. Se uma conexão permanecer em um Estado controlado por fluxo por mais de um minuto, o servidor a fechará. Ele faz isso de forma ociosa. Quando ele tem uma oportunidade de verificar a conexão, ele determina se ele foi limitado por muito tempo e o fechará se tiver mais de um minuto.
+Se o tempo médio de processamento **(LC: SIP-07-Load Management \\ SIP-000-tempo médio de retenção para mensagens de entrada)** no servidor exceder seis segundos, o servidor entra no modo de limitação e só fornece aos usuários uma transação pendente por conexão do cliente. Depois que o tempo de processamento cai para três segundos, o servidor descarta o modo de limitação e oferece aos usuários até 20 transações pendentes por conexão do cliente. Sempre que o número de transações em uma conexão específica exceder o limite acima, a conexão será marcada como fluxo controlado. O resultado é o servidor não publica os recebimentos nele, e o contador de ** \\ conexões controladas por fluxo de SIP-01-Peers** é incrementado. Se uma conexão permanecer em um Estado controlado por fluxo por mais de um minuto, o servidor a fechará. Ele faz isso de forma ociosa. Quando ele tem uma oportunidade de verificar a conexão, ele determina se ele foi limitado por muito tempo e o fechará se tiver mais de um minuto.
 
 Estes são os dois mecanismos de limitação e há um contador de desempenho que resume o que, se houver, a limitação do servidor está executando.
 
-**LC: SIP-04-respostas\\sip-053-local 503/seg**
+**LC: SIP-04-respostas \\ SIP-053-Local 503/seg**
 
   - O termo "local" no contador anterior se refere a respostas geradas localmente.
 
   - O código 503 corresponde ao servidor indisponível, onde você não deve ver nenhum código 503 em um servidor saudável. Durante o período após um servidor ser colocado online, você pode ver alguns códigos de 503. Quando todos os usuários entram novamente e o servidor retorna a um estado estável, não deve haver nenhum código 503 adicional.
 
-**LC: SIP-04-respostas\\sip-074-local 504/seg**
+**LC: SIP-04-respostas \\ SIP-074-Local 504/seg**
 
 Este contador de desempenho indica problemas de conectividade com outros servidores e pode indicar falhas de conexão ou atrasos na conexão. Se você estiver vendo erros 504, o contador de desempenho a seguir deve ser verificado.
 
-**LC: SIP-01-Peers\\SIP-017-envios pendentes**
+**LC: SIP-01-Peers \\ SIP-017-envios pendentes**
 
 Este contador indica o número de solicitações e respostas enfileiradas de saída. Se esse contador for alto, o problema provavelmente não está no servidor local. Observe que esse contador pode ser alto se houver problemas de latência de rede. Ele também pode indicar problemas com o adaptador de rede local, mas é mais provável que seja causado por um problema em um servidor remoto. Esse contador provavelmente seria alto em um servidor de diretor quando o pool com o qual ele está tentando se comunicar está sobrecarregado. A chave com esse contador é examinar as instâncias, e não apenas o total.
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 48183986
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 18ec967418effe53399070bc8e6f414cd2d927cd
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: a4fee1fa728c3c418c1f837a83248d95df7e7544
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42191774"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48532308"
 ---
+# <a name="configuring-the-primary-management-server-in-lync-server-2013"></a>Configurando o servidor de gerenciamento primário no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-the-primary-management-server-in-lync-server-2013"></a>Configurando o servidor de gerenciamento primário no Lync Server 2013
+
 
 </div>
 
@@ -61,9 +63,9 @@ Ao instalar o System Center Operations Manager 2012 ou o System Center Operation
 
   - Data warehouse
 
-Esses componentes e respectivas instalações não serão debatidas em detalhes neste documento. Para obter detalhes sobre o System Center Operations Manager 2007 R2, consulte a documentação do Operations Manager 2007 R2 em <https://go.microsoft.com/fwlink/p/?linkid=257526> e a documentação do <https://go.microsoft.com/fwlink/p/?linkid=257527>System Center Operations Manager 2012 em. Siga estas instruções se você for usar o SQL Server 2005 ou o SQL Server 2008 Service Pack 1 como banco de dados back-end.
+Esses componentes e respectivas instalações não serão debatidas em detalhes neste documento. Para obter detalhes sobre o System Center Operations Manager 2007 R2, consulte a documentação do Operations Manager 2007 R2 em <https://go.microsoft.com/fwlink/p/?linkid=257526> e a documentação do System Center Operations manager 2012 em <https://go.microsoft.com/fwlink/p/?linkid=257527> . Siga estas instruções se você for usar o SQL Server 2005 ou o SQL Server 2008 Service Pack 1 como banco de dados back-end.
 
-Se você estiver usando o System Center Operations Manager 2012, poderá usar o SQL Server 2012 como banco de dados de back-end. Para obter detalhes sobre o SQL Server 2012, consulte manuais online para o SQL [https://go.microsoft.com/fwlink/p/?LinkId=257528](https://go.microsoft.com/fwlink/p/?linkid=257528)Server 2012 em.
+Se você estiver usando o System Center Operations Manager 2012, poderá usar o SQL Server 2012 como banco de dados de back-end. Para obter detalhes sobre o SQL Server 2012, consulte manuais online para o SQL Server 2012 em [https://go.microsoft.com/fwlink/p/?LinkId=257528](https://go.microsoft.com/fwlink/p/?linkid=257528) .
 
 Tenha em mente que você só pode ter um único servidor de gerenciamento principal por implantação do Lync Server. Além disso, embora você possa usar o System Center Operations Manager 2012 ou o System Center Operations Manager 2007 R2, não é possível executar os dois aplicativos simultaneamente, você deve escolher um ou outro. Por exemplo, se você estiver executando o System Center Operations Manager 2012, todos os agentes do System Center também devem estar executando o System Center Operations Manager 2012. Você não pode ter alguns agentes executando o System Center Operations Manager 2012 e outros agentes executando o System Center Operations Manager 2007 R2.
 

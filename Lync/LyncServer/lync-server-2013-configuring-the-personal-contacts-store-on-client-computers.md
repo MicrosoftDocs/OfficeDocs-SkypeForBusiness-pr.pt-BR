@@ -12,20 +12,22 @@ ms:contentKeyID: 49733857
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7d791943f8d4057c173851e5d6eedb4a713b3cdf
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 6020182c0083ecadcb65c07fa71be213f9458f0f
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42191814"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48532338"
 ---
+# <a name="configuring-the-personal-contacts-store-on-client-computers-for-lync-server-2013"></a>Configurando o repositório de contatos pessoais em computadores clientes para o Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-the-personal-contacts-store-on-client-computers-for-lync-server-2013"></a>Configurando o repositório de contatos pessoais em computadores clientes para o Lync Server 2013
+
 
 </div>
 
@@ -47,7 +49,7 @@ Para configurar esse valor em um único computador, execute os seguinte procedim
 
 2.  Na caixa de diálogo **executar** , digite regedit e pressione Enter.
 
-3.  No editor do registro, expanda **\_hKey local\_Machine**, expanda **software**, expanda **Policies**, expanda **Microsoft**e, em seguida, expanda **Communicator**.
+3.  No editor do registro, expanda **HKEY \_ local \_ Machine**, expanda **software**, expanda **Policies**, expanda **Microsoft**e, em seguida, expanda **Communicator**.
 
 4.  Clique com o botão direito do mouse em **Communicator**, aponte para **novo**e clique em **valor DWORD (32 bits)**.
 
@@ -55,7 +57,7 @@ Para configurar esse valor em um único computador, execute os seguinte procedim
 
 6.  Verifique se o valor de PersonalContactStoreOverride está definido para 0 e feche o Editor do Registro.
 
-Se precisar fazer esta mesma alteração em vários computadores, você pode criar um objeto personalizado de Política de Grupo. Para obter detalhes, consulte a documentação da política [https://go.microsoft.com/fwlink/p/?LinkId=268543](https://go.microsoft.com/fwlink/p/?linkid=268543)de grupo em.
+Se precisar fazer esta mesma alteração em vários computadores, você pode criar um objeto personalizado de Política de Grupo. Para obter detalhes, consulte a documentação da política de grupo em [https://go.microsoft.com/fwlink/p/?LinkId=268543](https://go.microsoft.com/fwlink/p/?linkid=268543) .
 
 </div>
 

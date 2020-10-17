@@ -12,20 +12,22 @@ ms:contentKeyID: 48184683
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0c3975d91ab3dc53b7bfd240d6aa6b863360db6e
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 2248bbd2eea4bb9204a98b5c5805ef196cbf2015
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42184734"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48531788"
 ---
+# <a name="monitoring-mobility-service-and-ucwa-usage-in-lync-server-2013"></a>Monitorando o serviço de mobilidade e o uso do UCWA no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="monitoring-mobility-service-and-ucwa-usage-in-lync-server-2013"></a>Monitorando o serviço de mobilidade e o uso do UCWA no Lync Server 2013
+
 
 </div>
 
@@ -49,9 +51,9 @@ Para a maioria das implantações, o uso da CPU do UCWA deve estar abaixo de 15%
 
 Além de contadores de uso de CPU e memória, você pode usar os contadores de desempenho a seguir para ajudar a determinar quando um servidor está sobrecarregado com solicitações:
 
-  - **Ls: Web – limitação e Web\\de autenticação – total de solicitações em processamento**, que indica o número de solicitações da Web pendentes no servidor. Quando esse contador chegar a 10.000, as solicitações subsequentes falharão, com a mensagem de erro "503-Serviço indisponível".
+  - **Ls: Web – limitação e autenticação \\ WEB – total de solicitações em processamento**, que indica o número de solicitações da Web pendentes no servidor. Quando esse contador chegar a 10.000, as solicitações subsequentes falharão, com a mensagem de erro "503-Serviço indisponível".
 
-  - **Solicitações\\ASP.NET Enfileiradas** (devem sempre ser zero).
+  - **ASP.NET \\ Solicitações enfileiradas** (devem sempre ser zero).
 
 <div>
 
@@ -73,9 +75,9 @@ Para a maioria das implantações, o uso da CPU do serviço de mobilidade deve e
 
 Além de contadores de uso de CPU e memória, você pode usar os contadores de desempenho do ASP.NET a seguir para ajudar a determinar quando um servidor está sobrecarregado com solicitações:
 
-  - **ASP.NET v 2.0.50727\\solicitações atuais**, que indica o número de solicitações pendentes da Web no servidor. Quando esse contador chegar a 5.000, as solicitações subsequentes falharão com a mensagem de erro "503-Serviço indisponível".
+  - **ASP.NET v 2.0.50727 \\ Solicitações atuais**, que indica o número de solicitações da Web pendentes no servidor. Quando esse contador chegar a 5.000, as solicitações subsequentes falharão com a mensagem de erro "503-Serviço indisponível".
 
-  - **Solicitações\\ASP.NET Enfileiradas** (devem sempre ser zero).
+  - **ASP.NET \\ Solicitações enfileiradas** (devem sempre ser zero).
 
 <div>
 
