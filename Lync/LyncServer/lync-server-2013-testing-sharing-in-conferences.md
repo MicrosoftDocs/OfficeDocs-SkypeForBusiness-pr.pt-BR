@@ -12,20 +12,22 @@ ms:contentKeyID: 63969660
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4b46fba4c9426a76bfb7c8ca9f15e7cba4950e8f
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 36cf05d0d3d5cce13a100d23cb541eb5aa186ef7
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42193884"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48530488"
 ---
+# <a name="testing-sharing-in-conferences-in-lync-server-2013"></a>Testando o compartilhamento em conferências no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="testing-sharing-in-conferences-in-lync-server-2013"></a>Testando o compartilhamento em conferências no Lync Server 2013
+
 
 </div>
 
@@ -78,7 +80,7 @@ O comando mostrado no Exemplo 1 verifica se uma conferência de dados pode ser c
 
     Test-CsDataConference -TargetFqdn "atl-cs-001.litwareinc.com" 
 
-Os comandos mostrados no exemplo 2 testam a capacidade de um par de usuários\\(litwareinc pilar\\e litwareinc kenmyer) para fazer logon no Lync Server 2013 e, em seguida, conduzir uma conferência de dados. Para fazer isso, o primeiro comando no exemplo usa o cmdlet **Get-Credential** para criar um objeto de credencial da interface de linha de comando do Windows PowerShell contendo o nome e a senha do usuário pilar Ackerman. (Como o nome de logon,\\litwareinc pilar, foi incluído como um parâmetro, a caixa de diálogo de solicitação de credencial do Windows PowerShell só exige que o administrador insira a senha da conta pilar Ackerman.) O objeto Credential resultante é armazenado em uma variável chamada $cred 1. O segundo comando fará o mesmo, retornando, desta vez, um objeto de credencial para a conta de Ken Myer.
+Os comandos mostrados no exemplo 2 testam a capacidade de um par de usuários (litwareinc \\ pilar e litwareinc \\ kenmyer) para fazer logon no Lync Server 2013 e, em seguida, conduzir uma conferência de dados. Para fazer isso, o primeiro comando no exemplo usa o cmdlet **Get-Credential** para criar um objeto de credencial da interface de linha de comando do Windows PowerShell contendo o nome e a senha do usuário pilar Ackerman. (Como o nome de logon, litwareinc \\ pilar, foi incluído como um parâmetro, a caixa de diálogo de solicitação de credencial do Windows PowerShell só exige que o administrador insira a senha da conta pilar Ackerman.) O objeto Credential resultante é armazenado em uma variável chamada $cred 1. O segundo comando fará o mesmo, retornando, desta vez, um objeto de credencial para a conta de Ken Myer.
 
 Com os objetos de credencial em mãos, o terceiro comando determina se esses dois usuários podem ou não fazer logon no Lync Server 2013 e realizar uma conferência de dados. Para realizar essa tarefa, o cmdlet **Test-CsDataConference** é chamado, junto com os seguintes parâmetros: TargetFqdn (o FQDN do pool de registrador); SenderSipAddress (o endereço SIP para o primeiro usuário de teste); SenderCredential (o objeto Windows PowerShell contendo as credenciais desse mesmo usuário); ReceiverSipAddress (o endereço SIP para o outro usuário de teste); e ReceiverCredential (o objeto Windows PowerShell que contém as credenciais para o outro usuário de teste).
 
@@ -118,7 +120,7 @@ Não respondeu corretamente após um período de tempo ou
 
 a conexão estabelecida falhou porque o host conectado tem
 
-Falha ao responder \[2001:4898: E8: f39e: 5c9a\]: ad83:81b3:9944:5061
+Falha ao responder \[ 2001:4898: E8: f39e: 5c9a: ad83:81b3:9944: \] 5061
 
 Exceção interna: falha na tentativa de conexão porque o
 
@@ -128,7 +130,7 @@ a hora ou a conexão estabelecida falhou porque o host conectado
 
 falhou ao responder
 
-\[2001:4898: E8: f39e: 5c9a\]: ad83:81b3:5061
+\[2001:4898: E8: f39e: 5c9a: ad83:81b3: \] 5061
 
 Diagnóstico
 

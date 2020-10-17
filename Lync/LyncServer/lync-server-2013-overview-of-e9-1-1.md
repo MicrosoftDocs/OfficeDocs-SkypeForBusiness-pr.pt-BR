@@ -12,20 +12,22 @@ ms:contentKeyID: 48185290
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 345116ebdd353fccf85f05a4a3f3ffc82fab6de2
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: ce1c97914abf8e5db393cd932c0a453885e86a5c
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42216338"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48530618"
 ---
+# <a name="overview-of-e9-1-1-in-lync-server-2013"></a>Visão geral do E9-1-1 no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="overview-of-e9-1-1-in-lync-server-2013"></a>Visão geral do E9-1-1 no Lync Server 2013
+
 
 </div>
 
@@ -58,9 +60,9 @@ Ao usar um gateway ELIN, você também adiciona ERLs ao banco de dados do servi�
 > Os dispositivos analógicos conectados ao Lync não podem receber informações de local do serviço de informações de local ou local de transmissão para o provedor de serviços E9-1-1. Se você usar a opção do provedor de serviço E9-1-1 do tronco SIP e precisar oferecer suporte ao E9-1-1 a partir de telefones analógicos, terá duas opções: 
 > <UL>
 > <LI>
-> <P><STRONG></STRONG>&nbsp;Opção&nbsp;PS&nbsp;-ali tradicional se você tiver gateways PSTN locais em cada local em que os telefones analógicos são implantados e cada telefone analógico tiver um, você poderá provisionar o local do dispositivo analógico diretamente com um provedor de serviços de comutador privado/identificação automática de local (PS-ali). Nesse caso, você configura políticas de voz do Lync criadas especialmente e as atribui aos objetos de contato com o dispositivo analógico, de modo que as chamadas E9-1-1 desses telefones sejam encaminhadas diretamente pelo gateway local para o provedor de PSTN que atende ao site (em vez de encaminhá-las ao tronco SIP de um provedor de serviço E9-1-1). Quando uma chamada de emergência é feita, um banco de dados em um provedor PS-ALI associado ao tronco do PSTN mapeia o DID de cada telefone analógico para um local físico e fornece esse local ao PSAP. Esses registros precisam ser atualizados com o provedor de serviço PS-ALI sempre que os telefones são movidos para ERLs diferentes.</P>
+> <P>Opção PS- <STRONG>ali tradicional</STRONG> &nbsp; &nbsp; &nbsp; Se você tiver gateways PSTN locais em cada site em que os telefones analógicos são implantados e cada telefone analógico tiver um, você poderá provisionar o local do dispositivo analógico diretamente com um provedor de serviços de comutador de local privado/identificação automática (PS-ALI). Nesse caso, você configura políticas de voz do Lync criadas especialmente e as atribui aos objetos de contato com o dispositivo analógico, de modo que as chamadas E9-1-1 desses telefones sejam encaminhadas diretamente pelo gateway local para o provedor de PSTN que atende ao site (em vez de encaminhá-las ao tronco SIP de um provedor de serviço E9-1-1). Quando uma chamada de emergência é feita, um banco de dados em um provedor PS-ALI associado ao tronco do PSTN mapeia o DID de cada telefone analógico para um local físico e fornece esse local ao PSAP. Esses registros precisam ser atualizados com o provedor de serviço PS-ALI sempre que os telefones são movidos para ERLs diferentes.</P>
 > <LI>
-> <P><STRONG></STRONG>&nbsp;Opção&nbsp;de&nbsp;provedor de serviços E9-1-1 você pode registrar o DIDs de telefone analógico e seus ERLs correspondentes com o provedor de serviços E9-1-1, se houver suporte para o provedor de serviços E9-1-1. Se o provedor receber uma chamada do Lync Server que não inclui os dados do PIDF-LO, o provedor poderá ver se há uma correspondência de banco de dados no número do participante da chamada. Usando o ERL recuperado de seu banco de dados, o provedor pode rotear automaticamente a chamada de emergência para o PSAP correto, e o PSAP receberá o DID do dispositivo analógico e um registro ESQK que permite ao despachante procurar o local do chamador.</P></LI></UL>Se você usar a opção de gateway ELIN e precisar oferecer suporte a E9-1-1 de telefones analógicos, é possível prover o local do dispositivo analógico diretamente com o provedor de serviços PS-ALI, como descrito na primeira opção acima.</div>
+> <P>Opção de provedor <STRONG>de serviços E9-1-1</STRONG> &nbsp; &nbsp; &nbsp; Você pode registrar o DIDs de telefone analógico e o ERLs correspondente com o provedor de serviço E9-1-1, se houver suporte para o provedor de serviços E9-1-1. Se o provedor receber uma chamada do Lync Server que não inclui os dados do PIDF-LO, o provedor poderá ver se há uma correspondência de banco de dados no número do participante da chamada. Usando o ERL recuperado de seu banco de dados, o provedor pode rotear automaticamente a chamada de emergência para o PSAP correto, e o PSAP receberá o DID do dispositivo analógico e um registro ESQK que permite ao despachante procurar o local do chamador.</P></LI></UL>Se você usar a opção de gateway ELIN e precisar oferecer suporte a E9-1-1 de telefones analógicos, é possível prover o local do dispositivo analógico diretamente com o provedor de serviços PS-ALI, como descrito na primeira opção acima.</div>
 
 A partir de uma perspectiva do Lync Server, o processo E9-1-1 pode ser separado em dois estágios:
 

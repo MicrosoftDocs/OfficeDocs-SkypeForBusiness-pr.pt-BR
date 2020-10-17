@@ -12,20 +12,22 @@ ms:contentKeyID: 49733700
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1a5aa8e93bed162219da1ad522483d61b003a603
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 276cc87d6ec943332fc30dc21c0906a03703382d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42212677"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48529948"
 ---
+# <a name="using-the-centralized-logging-service-in-lync-server-2013"></a>Usando o serviço de registro em log centralizado no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="using-the-centralized-logging-service-in-lync-server-2013"></a>Usando o serviço de registro em log centralizado no Lync Server 2013
+
 
 </div>
 
@@ -64,7 +66,7 @@ O serviço de registro centralizado é um novo recurso no Lync Server 2013. É u
     
       - Defina o escopo da sessão de registro log nas opções**Local** (executa capturas de registro log em computadores somente naquele local) ou **Global** (executa capturas de registro log em todos os computadores da implantação).
 
-O serviço de registro em log centralizado é extremamente poderoso e pode atender a praticamente todas as necessidades de solução de problemas, grandes ou pequenos. Da análise de causa raiz para problemas de desempenho, o serviço de registro em log centralizado pode ser uma ferramenta importante para qualquer administrador. Todos os exemplos são mostrados usando o Shell de gerenciamento do Lync Server. Há um componente de linha de comando para o serviço de registro em log centralizado chamado **CLSController. exe**. A ajuda para a ferramenta de linha de comando está disponível na própria ferramenta. Por esta razão, a primeira linha neste exemplo é uma chamada ao cmdlet do nm-winshell-2nd Read-Host. Usando o Shell de gerenciamento do Lync Server, você tem acesso a um conjunto muito maior e mais configurável de recursos. Você deve sempre considerar o Shell de gerenciamento do Lync Server como o primeiro método ao usar o serviço de registro em log centralizado.
+O serviço de registro em log centralizado é extremamente poderoso e pode atender a praticamente todas as necessidades de solução de problemas, grandes ou pequenos. Da análise de causa raiz para problemas de desempenho, o serviço de registro em log centralizado pode ser uma ferramenta importante para qualquer administrador. Todos os exemplos são mostrados usando o Shell de gerenciamento do Lync Server. Há um componente de linha de comando para o serviço de registro em log centralizado chamado **CLSController.exe**. A ajuda para a ferramenta de linha de comando está disponível na própria ferramenta. Por esta razão, a primeira linha neste exemplo é uma chamada ao cmdlet do nm-winshell-2nd Read-Host. Usando o Shell de gerenciamento do Lync Server, você tem acesso a um conjunto muito maior e mais configurável de recursos. Você deve sempre considerar o Shell de gerenciamento do Lync Server como o primeiro método ao usar o serviço de registro em log centralizado.
 
 Os tópicos desta seção explicam como usar o serviço de registro em log centralizado e exemplos de como usar seus vários recursos.
 

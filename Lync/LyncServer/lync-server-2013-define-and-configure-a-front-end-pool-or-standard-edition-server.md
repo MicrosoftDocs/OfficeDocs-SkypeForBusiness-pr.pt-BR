@@ -12,20 +12,22 @@ ms:contentKeyID: 48184457
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bfd8cc2b12032e1283c10e26d4a9fa879621233f
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 847aeda66657b2bd665964d6fec3276dc22807ea
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42209149"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48531508"
 ---
+# <a name="define-and-configure-a-front-end-pool-or-standard-edition-server-in-lync-server-2013"></a>Definir e configurar um pool Front-end ou um servidor Standard Edition no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="define-and-configure-a-front-end-pool-or-standard-edition-server-in-lync-server-2013"></a>Definir e configurar um pool Front-end ou um servidor Standard Edition no Lync Server 2013
+
 
 </div>
 
@@ -68,11 +70,11 @@ Se você estiver implantando um servidor corporativo, um número mínimo de serv
 </tr>
 <tr class="even">
 <td><p>7-8</p></td>
-<td><p>quatro</p></td>
+<td><p>4 </p></td>
 </tr>
 <tr class="odd">
 <td><p>9-10</p></td>
-<td><p>0,5</p></td>
+<td><p>5 </p></td>
 </tr>
 <tr class="even">
 <td><p>11-12</p></td>
@@ -119,7 +121,7 @@ Após ter definido sua topologia, use o procedimento a seguir para definir um po
 
 4.  Na página **Selecionar recursos**, marque as caixas de seleção para os recursos que você deseja neste pool de Front-Ends. Por exemplo, se você estiver implantando apenas recursos de mensagens instantâneas (IM) e presença, marque a caixa de seleção **conferência** para permitir mensagens instantâneas com vários participantes, mas não selecionaria as caixas de seleção **conferência de discagem (PSTN)**, **Enterprise Voice**ou **controle de admissão de chamada** , pois representam recursos de voz, vídeo e conferência colaborativa.
     
-      - **Conferência**   esta seleção habilita um rico conjunto de recursos, incluindo:
+      - **Conferência**     Essa seleção permite um conjunto avançado de recursos, incluindo:
         
           - IM com mais de duas partes em uma sessão de mensagens instantâneas
         
@@ -127,15 +129,15 @@ Após ter definido sua topologia, use o procedimento a seguir para definir um po
         
           - Conferência a/V, que permite que os usuários tenham conferências de áudio/vídeo (A/V) em tempo real sem a necessidade de serviços externos, como o serviço Live Meeting ou uma ponte de áudio de terceiros.
     
-      - **A conferência**   discada (PSTN) permite que os usuários ingressem na parte de áudio de uma conferência do Lync Server 2013 usando um telefone PSTN (rede telefônica pública comutada) sem exigir um provedor de audioconferência.
+      - Conferência discada **(PSTN)**     Permite que os usuários ingressem na parte de áudio de uma conferência do Lync Server 2013 usando um telefone PSTN (rede telefônica pública comutada) sem exigir um provedor de conferência de áudio.
     
-      - **O Enterprise Voice**   Enterprise Voice é a solução de voz sobre IP (VoIP) no Lync Server 2013 que permite que os usuários façam e recebam chamadas telefônicas. Você implantaria esse recurso se planeja usar o Lync Server 2013 para chamadas de voz, caixa postal e outras funções que usam um dispositivo de hardware ou um cliente de software.
+      - **Enterprise Voice**     O Enterprise Voice é a solução de voz sobre IP (VoIP) no Lync Server 2013 que permite que os usuários façam e recebam chamadas telefônicas. Você implantaria esse recurso se planeja usar o Lync Server 2013 para chamadas de voz, caixa postal e outras funções que usam um dispositivo de hardware ou um cliente de software.
     
-      - **O CAC (controle de admissão de chamadas)**   determina, com base na largura de banda de rede disponível, se deve permitir sessões de comunicação em tempo real, como chamadas de voz ou vídeo a serem estabelecidas. Se você implantou apenas IM e presença, o CAC não é necessário porque nenhum destes dois recursos usam o CAC.
+      - **Controle de admissão de chamadas (CAC)**     O CAC determina, com base na largura de banda de rede disponível, se permitirá sessões de comunicação em tempo real, como chamadas de voz ou vídeo a serem estabelecidas. Se você implantou apenas IM e presença, o CAC não é necessário porque nenhum destes dois recursos usam o CAC.
     
-      - **Archiving Archiving**oferece uma maneira de arquivar conteúdo de IM, de conferência (reunião) ou ambos enviados por meio do Lync Server 2013.   
+      - **Arquivamento**     O arquivamento oferece uma maneira de arquivar conteúdo de IM, de conferência (reunião) ou ambos enviados por meio do Lync Server 2013.
     
-      - **Monitoring**   Monitoring Server permite coletar dados numéricos que descrevem a qualidade de mídia em sua rede e pontos de extremidade, informações de uso relacionadas a chamadas de VoIP, mensagens de IM, conversas A/V, reuniões, compartilhamento de aplicativos e transferências de arquivos e informações de erro de chamada e de solução de problemas para chamadas com falha.
+      - **Monitoramento**     O Monitoring Server permite coletar dados numéricos que descrevem a qualidade de mídia em sua rede e pontos de extremidade, informações de uso relacionadas a chamadas de VoIP, mensagens de IM, conversas de A/V, reuniões, compartilhamento de aplicativos e transferências de arquivos, e informações de erro e de solução de problemas para chamadas com falha.
     
     <div>
     
@@ -218,7 +220,7 @@ Após ter definido sua topologia, use o procedimento a seguir para definir um po
 
 6.  A página **associar funções de servidor a este pool de front-ends** permite definir e associar funções de servidor ao pool de front-ends. A seguinte função está disponível:
     
-    **Habilitar um pool**   de borda define e associa um único servidor de borda ou um pool de servidores de borda. Um servidor de borda facilita a comunicação e a colaboração entre usuários dentro da organização e pessoas de fora da organização, incluindo usuários federados.
+    **Habilitar um pool**     de borda Define e associa um único servidor de borda ou um pool de servidores de borda. Um servidor de borda facilita a comunicação e a colaboração entre usuários dentro da organização e pessoas de fora da organização, incluindo usuários federados.
     
     Existem dois cenários possíveis que você pode usar para implantar e associar as funções do servidor:
     
@@ -265,7 +267,7 @@ Após ter definido sua topologia, use o procedimento a seguir para definir um po
     
 
     > [!IMPORTANT]
-    > A URL base é a identidade dos Serviços Web para a URL, menos o https://. Por exemplo, se a URL completa para os serviços Web do pool for https://pool01.contoso.net, a URL base será pool01.contoso.net.
+    > A URL base é a identidade dos Serviços Web para a URL, menos o https://. Por exemplo, se a URL completa para os serviços Web do pool for https://pool01.contoso.net , a URL base será pool01.contoso.net.
 
     
     </div>
@@ -279,7 +281,7 @@ Após ter definido sua topologia, use o procedimento a seguir para definir um po
     
     </div>
     
-    1.  Se você estiver configurando o balanceamento de carga DNS, marque a caixa de seleção **substituir o FQDN do pool de serviços Web interno** , digite a URL base interna (que deve ser diferente do FQDN do pool e\<pode ser,\>por exemplo, interna-a URL base) na **URL base interna**.
+    1.  Se você estiver configurando o balanceamento de carga DNS, marque a caixa de seleção **substituir o FQDN do pool de serviços Web interno** , digite a URL base interna (que deve ser diferente do FQDN do pool e pode ser, por exemplo, interna \<your base URL\> ) na **URL base interna**.
         
         <div>
         

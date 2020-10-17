@@ -12,20 +12,22 @@ ms:contentKeyID: 48183823
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 921db63f02be50866e6d26cb33007ac8ddbb32eb
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 928de572305cdbe19f5222f34e6616a8022e37b3
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42198744"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48531538"
 ---
+# <a name="creating-dns-records-for-the-autodiscover-service-in-lync-server-2013"></a>Criar registros DNS para o serviço de descoberta automática no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="creating-dns-records-for-the-autodiscover-service-in-lync-server-2013"></a>Criar registros DNS para o serviço de descoberta automática no Lync Server 2013
+
 
 </div>
 
@@ -59,7 +61,7 @@ Os registros DNS que você cria podem ser registros A (host) ou registros CNAME.
 
 4.  Verifique se existe um registro de host A (AAAA para IPv6) para o pool de diretores de um registro de DNS interno, um registro de host A deve existir para o FQDN (nome de domínio totalmente qualificado) dos serviços Web internos para seu pool de diretores (por exemplo, lyncwebdir01. contoso. local). Se ele não estiver aqui, talvez você não esteja usando um pool de diretores e você precisará usar o FQDN para seu pool de front-ends ou até mesmo um único FQDN de servidor, se essa for sua configuração.
 
-5.  Tendo isso em mente, verifique se existe um registro de host A (AAAA para IPv6) para o seu pool de front-ends de um registro de DNS interno, um registro de host A (ou AAAA) deve existir para o FQDN de serviços Web internos do seu pool de front-ends (por exemplo, , lyncwebpool01. contoso. local). Caso contrário, você precisará anotar o FQDN do servidor front-end ou do servidor Standard Edition.
+5.  Tendo isso em mente, verifique se existe um registro de host A (AAAA para IPv6) para o seu pool de front-ends de um registro de DNS interno, um registro de host A (ou AAAA) deve existir para o FQDN de serviços Web internos do seu pool de front-ends (por exemplo, lyncwebpool01. contoso. local). Caso contrário, você precisará anotar o FQDN do servidor front-end ou do servidor Standard Edition.
 
 6.  Quando você souber quais registros de host A (ou AAAA) existem, na árvore de console do seu servidor DNS, expanda **zonas de pesquisa direta** para seu domínio SIP (por exemplo, contoso.com).
 
@@ -83,7 +85,7 @@ Os registros DNS que você cria podem ser registros A (host) ou registros CNAME.
 
 3.  Você já deve ter um domínio SIP criado para esse ambiente. Expanda a **zona de pesquisa direta** para este domínio SIP ou selecione-a, dependendo da interface DNS externa que está sendo usada.
 
-4.  Você já deve ter um registro de host A (AAAA para IPv6) para o seu pool de diretores (como lyncwebexdir01.contoso.com), portanto, confirme se ele está lá. Caso contrário, talvez você não esteja usando um pool de diretores. Se esse for o caso, você precisará usar o FQDN do seu pool de front-ends ou se estiver fazendo isso para um único servidor, para o servidor front-end ou servidor Standard Edition.
+4.  Você já deve ter um registro de host A (AAAA para IPv6) para o seu pool de diretores (como lyncwebexdir01.contoso.com), portanto, confirme se ele está lá. Caso contrário, talvez você não esteja usando um pool de diretores. Se esse for o caso, você precisará usar o FQDN do seu pool de front-ends ou se estiver fazendo isso para um único servidor, para seu servidor do Front-End ou Standard Edition.
 
 5.  Você também precisará confirmar se um registro de host A (AAAA para IPv6) existe para o nome de domínio totalmente qualificado (FQDN) dos serviços Web externos para seu pool de front-ends (como lyncwebextpool01.contoso.com) ou um FQDN para o FQDN de servidor único, se não houver pool de front-ends. Conforme observado na etapa anterior, você precisará disso, se não tiver um pool de diretores.
 
@@ -109,7 +111,7 @@ Os registros DNS que você cria podem ser registros A (host) ou registros CNAME.
 
 4.  Verifique se existe um registro de host A (AAAA para IPv6) para o pool de diretores de um registro de DNS interno, um registro de host A deve existir para o FQDN (nome de domínio totalmente qualificado) dos serviços Web internos para seu pool de diretores (por exemplo, lyncwebdir01. contoso. local). Se ele não estiver aqui, talvez você não esteja usando um pool de diretores e você precisará usar o endereço IP para seu pool de front-ends ou mesmo um endereço IP de servidor único, se essa for sua configuração.
 
-5.  Tendo isso em mente, verifique se existe um registro de host A (AAAA para IPv6) para o seu pool de front-ends de um registro de DNS interno, um registro de host A (ou AAAA) deve existir para o FQDN de serviços Web internos do seu pool de front-ends (por exemplo, , lyncwebpool01. contoso. local). Caso contrário, você precisará anotar o endereço IP do servidor front-end ou do servidor Standard Edition.
+5.  Tendo isso em mente, verifique se existe um registro de host A (AAAA para IPv6) para o seu pool de front-ends de um registro de DNS interno, um registro de host A (ou AAAA) deve existir para o FQDN de serviços Web internos do seu pool de front-ends (por exemplo, lyncwebpool01. contoso. local). Caso contrário, você precisará anotar o endereço IP do servidor front-end ou do servidor Standard Edition.
 
 6.  Quando você souber quais registros de host A (ou AAAA) existem, na árvore de console do seu servidor DNS, expanda **zonas de pesquisa direta** para seu domínio SIP (por exemplo, contoso.com).
 
@@ -137,9 +139,9 @@ Os registros DNS que você cria podem ser registros A (host) ou registros CNAME.
 
 3.  Para um registro de DNS externo, na árvore de console do servidor de DNS, expanda **Zonas de Pesquisa Direta** para seu domínio do SIP (por exemplo, contoso.com). Para um registro de DNS externo, na árvore de console do servidor de DNS, expanda **Zonas de Pesquisa Direta** para seu domínio do SIP (por exemplo, contoso.com).
 
-4.  Você já deve ter um registro de host A (AAAA para IPv6) para o seu pool de diretores (como lyncwebexdir01.contoso.com), portanto, confirme se ele está lá e o endereço IP. Caso contrário, talvez você não esteja usando um pool de diretores. Se esse for o caso, você precisará usar o endereço IP do seu pool de front-ends ou se estiver fazendo isso para um único servidor, para o servidor front-end ou servidor Standard Edition. Tenha em mente que seus servidores também podem estar atrás de um balanceador de carga ou usando um proxy reverso. Anote os endereços IP também para seguir as etapas abaixo.
+4.  Você já deve ter um registro de host A (AAAA para IPv6) para o seu pool de diretores (como lyncwebexdir01.contoso.com), portanto, confirme se ele está lá e o endereço IP. Caso contrário, talvez você não esteja usando um pool de diretores. Se esse for o caso, você precisará usar o endereço IP do seu pool de front-ends ou se estiver fazendo isso para um único servidor, para seu servidor do Front-End ou o servidor Standard Edition. Tenha em mente que seus servidores também podem estar atrás de um balanceador de carga ou usando um proxy reverso. Anote os endereços IP também para seguir as etapas abaixo.
 
-5.  Você também precisará confirmar se um registro de host A (AAAA para IPv6) existe para seu nome de domínio totalmente qualificado (FQDN) dos serviços Web externos para seu pool de front-ends (como lyncwebextpool01.contoso.com) ou um endereço IP para a sua instalação do Lync de servidor único se você Não têm pool de front-ends. Conforme observado na etapa anterior, você precisará disso, se não tiver um pool de diretores.
+5.  Você também precisará confirmar se um registro de host A (AAAA para IPv6) existe para o nome de domínio totalmente qualificado (FQDN) dos serviços Web externos para o seu pool de front-ends (como lyncwebextpool01.contoso.com) ou um endereço IP para a sua instalação do Lync de servidor único, se não houver pool de front-ends. Conforme observado na etapa anterior, você precisará disso, se não tiver um pool de diretores.
 
 6.  Agora, no formato apropriado para seu provedor de DNS externo, escolha a opção para criar um **novo host a ou aaaa** (isso pode ser uma opção de menu ou um link, dependendo do formato do provedor de DNS).
 

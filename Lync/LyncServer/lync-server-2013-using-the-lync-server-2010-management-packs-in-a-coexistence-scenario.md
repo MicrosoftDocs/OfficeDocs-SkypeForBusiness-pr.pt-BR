@@ -12,20 +12,22 @@ ms:contentKeyID: 48184772
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ffc2aed62b9ad26fd1498787ecd3d58144a005b2
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: bb614726458f2cf9c77bdfe740ddb13d99d54f2f
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42212637"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48529918"
 ---
+# <a name="using-the-lync-server-2010-management-packs-in-a-coexistence-scenario"></a>Usando os pacotes de gerenciamento do Lync Server 2010 em um cenário de coexistência
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="using-the-lync-server-2010-management-packs-in-a-coexistence-scenario"></a>Usando os pacotes de gerenciamento do Lync Server 2010 em um cenário de coexistência
+
 
 </div>
 
@@ -59,7 +61,7 @@ Para dar suporte a essa migração, primeiro você precisará atualizar seu moni
 
 Para indicar um computador do repositório de gerenciamento não central (por exemplo, um servidor front-end do Lync Server) para lidar com a descoberta central, você precisará criar a seguinte chave do registro no servidor do repositório de gerenciamento não central:
 
-\\CentralDiscoveryCandidate de\\integridade\\\\de comunicação\\em tempo real da Microsoft
+\\CentralDiscoveryCandidate de \\ \\ integridade de comunicação em tempo real da Microsoft \\ \\
 
 Você pode instalar criar essa chave de registro concluindo o seguinte procedimento:
 
@@ -67,7 +69,7 @@ Você pode instalar criar essa chave de registro concluindo o seguinte procedime
 
 2.  Na caixa de diálogo **Executar**, digite **regedit** e pressione ENTER.
 
-3.  No editor do registro, expanda **\_máquina local\_de hKey**, expanda **software**, expanda **Microsoft**e, em seguida, expanda **comunicação em tempo real**.
+3.  No editor do registro, expanda ** \_ \_ máquina local de hKey**, expanda **software**, expanda **Microsoft**e, em seguida, expanda **comunicação em tempo real**.
 
 4.  Com o botão direito em **Integridade**, clique em **Novo**, e depois em **Chave**. Se a chave **Integridade** não existir, clique com o botão direito em **Comunicações em tempo real**, aponte para **Novo**, e depois clique em **Chave**. Quando a nova chave for criada, digite Integridade, e depois pressione ENTER.
     

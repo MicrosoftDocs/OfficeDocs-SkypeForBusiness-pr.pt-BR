@@ -12,20 +12,22 @@ ms:contentKeyID: 59893871
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 00038dce85a7461be37456d9dee263a71f60c113
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: a5a4e548f68f68a65ac4ecfb2e4ddc532b5f337c
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42199584"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48529708"
 ---
+# <a name="active-directory-domain-services-for-lync-server-2013"></a>Serviços de domínio do Active Directory para o Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="active-directory-domain-services-for-lync-server-2013"></a>Serviços de domínio do Active Directory para o Lync Server 2013
+
 
 </div>
 
@@ -71,7 +73,7 @@ Para obter detalhes, consulte [Active Directory Infrastructure Requirements for 
 
 
 > [!NOTE]  
-> Recomendamos que você implante as configurações globais no contêiner de Configuração em vez do contêiner do Sistema. Isso não melhora a segurança, mas pode resultar em melhorias de escalabilidade para algumas topologias dos Serviços de Domínio Active Directory. Se você estiver migrando do Microsoft Office Communications Server 2007 e tiver usado o contêiner de sistema, mas planejar usar o contêiner de configuração, você deve mover as configurações no contêiner do sistema antes de fazer preparativos de atualização. Para migrar as configurações do contêiner de sistema para o contêiner de configuração, confira ferramenta de migração de <A href="https://go.microsoft.com/fwlink/p/?linkid=145236">https://go.microsoft.com/fwlink/p/?LinkId=145236</A>configurações globais do Office Communications Server 2007 em.
+> Recomendamos que você implante as configurações globais no contêiner de Configuração em vez do contêiner do Sistema. Isso não melhora a segurança, mas pode resultar em melhorias de escalabilidade para algumas topologias dos Serviços de Domínio Active Directory. Se você estiver migrando do Microsoft Office Communications Server 2007 e tiver usado o contêiner de sistema, mas planejar usar o contêiner de configuração, você deve mover as configurações no contêiner do sistema antes de fazer preparativos de atualização. Para migrar as configurações do contêiner de sistema para o contêiner de configuração, confira ferramenta de migração de configurações globais do Office Communications Server 2007 em <A href="https://go.microsoft.com/fwlink/p/?linkid=145236">https://go.microsoft.com/fwlink/p/?LinkId=145236</A> .
 
 
 
@@ -119,7 +121,7 @@ Para obter detalhes sobre os grupos universais específicos criados ao preparar 
 
 ## <a name="role-based-access-control"></a>Controle de Acesso Baseado em Função
 
-Além de criar grupos universais de serviço e de administração e de adicionar grupos de serviços e de administração aos grupos universais apropriados, a preparação da floresta também cria grupos RBAC (controle de acesso baseado em função). Para obter detalhes sobre grupos de RBAC específicos criados pela preparação da floresta, confira [as alterações feitas pela preparação da floresta no Lync Server 2013](lync-server-2013-changes-made-by-forest-preparation.md) na documentação de implantação. Para obter mais informações sobre grupos RBAC, consulte [controle de acesso baseado em função (RBAC) para o Lync Server 2013](lync-server-2013-role-based-access-control-rbac.md).
+Além de criar grupos universais de serviço e de administração e de adicionar grupos de serviços e de administração aos grupos universais apropriados, a preparação da floresta também cria grupos de controle de acesso de Role-Based (RBAC). Para obter detalhes sobre grupos de RBAC específicos criados pela preparação da floresta, confira [as alterações feitas pela preparação da floresta no Lync Server 2013](lync-server-2013-changes-made-by-forest-preparation.md) na documentação de implantação. Para obter mais informações sobre grupos RBAC, consulte [controle de acesso baseado em função (RBAC) para o Lync Server 2013](lync-server-2013-role-based-access-control-rbac.md).
 
 </div>
 
@@ -179,7 +181,7 @@ No Lync Server 2013, os servidores confiáveis são aqueles especificados quando
 
 Quando um dos seguintes critérios está ausente, o servidor não é confiável e a conexão com ele é recusada. Esse requisito duplo impede um possível ataque, embora improvável, em que um servidor não autorizado tenta assumir o FQDN do servidor válido.
 
-Além disso, para habilitar o Microsoft Office Communications Server 2007 R2 e o Microsoft Office Communications Server 2007 implantações para se comunicar com os servidores do Lync Server 2013, o Lync Server 2013 cria contêineres durante a preparação da floresta para conter listas de servidores confiáveis para versões anteriores. A tabela a seguir descreve os contêineres criados para permitir a compatibilidade com implementações anteriores.
+Além disso, para habilitar o Microsoft Office Communications Server 2007 R2 e o Microsoft Office Communications Server 2007 implantações para se comunicar com os servidores do Lync Server 2013, o Lync Server 2013 cria contêineres durante a preparação da floresta para manter listas de servidores confiáveis para versões anteriores. A tabela a seguir descreve os contêineres criados para permitir a compatibilidade com implementações anteriores.
 
 ### <a name="trusted-server-lists-and-their-active-directory-containers-for-compatibility-with-previous-releases"></a>Listas de servidores confiáveis e seus contêineres do Active Directory para compatibilidade com versões anteriores
 
@@ -219,7 +221,7 @@ Além disso, para habilitar o Microsoft Office Communications Server 2007 R2 e o
 </table>
 
 
-Para dar suporte a servidores confiáveis de versões anteriores, você deve executar a ferramenta Best Practices Analyzer. Para obter detalhes sobre como executar o analisador de [https://go.microsoft.com/fwlink/p/?LinkId=330633](https://go.microsoft.com/fwlink/p/?linkid=330633)práticas recomendadas, consulte.
+Para dar suporte a servidores confiáveis de versões anteriores, você deve executar a ferramenta Best Practices Analyzer. Para obter detalhes sobre como executar o analisador de práticas recomendadas, consulte [https://go.microsoft.com/fwlink/p/?LinkId=330633](https://go.microsoft.com/fwlink/p/?linkid=330633) .
 
 </div>
 

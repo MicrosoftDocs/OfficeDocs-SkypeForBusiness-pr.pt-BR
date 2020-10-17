@@ -12,20 +12,22 @@ ms:contentKeyID: 48183862
 ms.date: 02/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 50ac61976923bac8bff0162a61e5496df6181127
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 36001aaf38dc39d0bb4eb7524e41c616b0a1c160
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42192984"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48530228"
 ---
+# <a name="user-activity-report-in-lync-server-2013"></a>Relatório de atividades do usuário no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="user-activity-report-in-lync-server-2013"></a>Relatório de atividades do usuário no Lync Server 2013
+
 
 </div>
 
@@ -186,11 +188,11 @@ A tabela a seguir lista os filtros que podem ser usados com o relatório de ativ
 <td><p>Indica se a atividade em questão teve sucesso ou falhou. Selecione uma das seguintes opções:</p>
 <ul>
 <li><p>Todos os</p></li>
-<li><p>Êxito</p></li>
+<li><p>Sucesso</p></li>
 <li><p>Falha esperada</p></li>
 <li><p>Falha inesperada</p></li>
 </ul>
-<p>Uma &quot;falha&quot; esperada é uma falha que deve acontecer; por exemplo, se um usuário tiver definido seu status como não incomodar, você esperaria que qualquer chamada para esse usuário falhe. Uma &quot;falha&quot; inesperada é uma falha que ocorre no que parece ser um sistema saudável de outra forma. Por exemplo, uma chamada não deveria ser terminada se o chamador for colocado em espera. Se isso ocorrer, será sinalizado como uma falha inesperada.</p></td>
+<p>Uma &quot; falha esperada &quot; é uma falha que deve ocorrer; por exemplo, se um usuário tiver definido seu status como não incomodar, você esperaria que qualquer chamada para esse usuário falhe. Uma &quot; falha inesperada &quot; é uma falha que ocorre no que parece ser um sistema saudável de outra forma. Por exemplo, uma chamada não deveria ser terminada se o chamador for colocado em espera. Se isso ocorrer, será sinalizado como uma falha inesperada.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Prefixo URI do usuário</strong></p></td>
@@ -253,7 +255,7 @@ A tabela a seguir lista as informações fornecidas no relatório de atividades 
 <tr class="even">
 <td><p><strong>Hora da resposta</strong></p></td>
 <td><p>Sim</p></td>
-<td><p>Data e hora em que &quot;o&quot; usuário deve aceitar o convite da sessão.</p></td>
+<td><p>Data e hora em que &quot; o &quot; usuário deve aceitar o convite da sessão.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Hora de término</strong></p></td>
@@ -263,7 +265,7 @@ A tabela a seguir lista as informações fornecidas no relatório de atividades 
 <tr class="even">
 <td><p><strong>ID do Diagnóstico</strong></p></td>
 <td><p>Sim</p></td>
-<td><p>Identificador exclusivo (na forma de um cabeçalho de diagnóstico-ms) anexado a uma mensagem SIP que fornece informações úteis sobre os erros de solução de problemas. Os cabeçalhos diagnósticos são opcionais (é possível ter sessões SIP que não os incluem), e os IDs diagnósticos são relatados somente para as sessões com algum tipo de problema.</p></td>
+<td><p>Identificador exclusivo (na forma de um cabeçalho ms-diagnostics) anexado a uma mensagem SIP que frequentemente fornece informações úteis para solução de erros. Os cabeçalhos de diagnóstico são opcionais (é possível ter sessões SIP que não incluem esses cabeçalhos) e os IDs de diagnóstico são reportadas somente para sessões que enfrentaram problemas de algum tipo.</p></td>
 </tr>
 </tbody>
 </table>
@@ -296,7 +298,7 @@ A tabela a seguir lista as informações fornecidas no relatório de atividades 
 <tr class="odd">
 <td><p><strong>URI de conferência</strong></p></td>
 <td><p>Sim</p></td>
-<td><p>Identificador de conferência exclusivo. Quando você clica nesse item, o relatório mostra o relatório de detalhes da conferência da sessão selecionada. Quando você expande esse item, o relatório mostra informações sobre os participantes da conferência. Para obter detalhes, consulte &quot;a seção métricas para&quot; participantes da conferência mais adiante neste tópico.</p></td>
+<td><p>Identificador de conferência exclusivo. Quando você clica nesse item, o relatório mostra o relatório de detalhes da conferência da sessão selecionada. Quando você expande esse item, o relatório mostra informações sobre os participantes da conferência. Para obter detalhes, consulte a &quot; seção métricas para participantes da conferência &quot; mais adiante neste tópico.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Organizador</strong></p></td>
@@ -359,7 +361,7 @@ A tabela a seguir lista as informações fornecidas no relatório de atividades 
 <tr class="odd">
 <td><p><strong>Conectividade</strong></p></td>
 <td><p>Não</p></td>
-<td><p>Tipo de conexão de rede. Por exemplo &quot;, de&quot; interno para conexão interna &quot;ou da&quot; PSTN para usuários de discagem.</p></td>
+<td><p>Tipo de conexão de rede. Por exemplo, &quot; de interno &quot; para conexão interna ou &quot; da PSTN &quot; para usuários de discagem.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Hora de ingresso</strong></p></td>

@@ -12,20 +12,22 @@ ms:contentKeyID: 48184396
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1da806e476635543e0afeafee8b7c195cf21cfc4
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 2132af73fec67ace0bffd6db1836071cb8fc2d06
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42202287"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48530998"
 ---
+# <a name="failing-back-persistent-chat-server-in-lync-server-2013"></a>Failback do servidor de chat persistente no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="failing-back-persistent-chat-server-in-lync-server-2013"></a>Failback do servidor de chat persistente no Lync Server 2013
+
 
 </div>
 
@@ -51,7 +53,7 @@ Estas etapas foram criadas para recuperar a configuração como ela se encontrav
 
 ## <a name="to-fail-back-persistent-chat-server"></a>Para fazer failback do servidor de chat persistente
 
-1.  Limpe todos os servidores da lista de servidores ativos do servidor de chat persistente `Set-CsPersistentChatActiveServer` usando o cmdlet do Shell de gerenciamento do Lync Server. Isso impede que todos os servidores de chat persistente se conectem ao banco de dados do MGC e ao banco de dados do mgccomp durante o failback.
+1.  Limpe todos os servidores da lista de servidores ativos do servidor de chat persistente usando o `Set-CsPersistentChatActiveServer` cmdlet do Shell de gerenciamento do Lync Server. Isso impede que todos os servidores de chat persistente se conectem ao banco de dados do MGC e ao banco de dados do mgccomp durante o failback.
     
     <div>
     
@@ -91,7 +93,7 @@ Estas etapas foram criadas para recuperar a configuração como ela se encontrav
     
     5.  Aceite o nome de conjunto de backup padrão sugerido em **Nome** ou insira outro nome para o conjunto de backup.
     
-    6.  * \<Opcional\> * Em **Descrição**, insira uma descrição do conjunto de backup.
+    6.  *\<Optional\>* Em **Descrição**, insira uma descrição do conjunto de backup.
     
     7.  Remova o local de backup padrão da lista de destinos.
     

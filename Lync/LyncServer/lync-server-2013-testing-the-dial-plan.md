@@ -12,20 +12,22 @@ ms:contentKeyID: 63969616
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a83f8058dd761386329c3c0bc58a50c4aef7bdb2
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 0c758f2f16d59db92841a5e7ef727a41cee8a8d4
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42193824"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48530438"
 ---
+# <a name="testing-the-dial-plan-in-lync-server-2013"></a>Testando o plano de discagem no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="testing-the-dial-plan-in-lync-server-2013"></a>Testando o plano de discagem no Lync Server 2013
+
 
 </div>
 
@@ -76,7 +78,7 @@ Você pode usar esse cmdlet para solucionar problemas com traduções de número
 
 ## <a name="running-the-test"></a>Executar o teste
 
-O cmdlet Test-CsDialPlan exige que você faça duas coisas. Primeiro, você deve obter uma instância do plano de discagem que está sendo testado; Isso pode ser feito usando o cmdlet Get-CsDialPlan. Em segundo lugar, você deve especificar o número de telefone que deve ser normalizado. O formato usado para o número de telefone deve corresponder ao número como discado/inserido por um usuário. Por exemplo, este comando recupera uma instância do plano de discagem, RedmondDialPlan, e verifica se o número de telefone 12065551219 pode ser normalizado:
+O cmdlet Test-CsDialPlan requer que você faça duas coisas. Primeiro, você deve obter uma instância do plano de discagem que está sendo testado; Isso pode ser feito usando o cmdlet Get-CsDialPlan. Em segundo lugar, você deve especificar o número de telefone que deve ser normalizado. O formato usado para o número de telefone deve corresponder ao número como discado/inserido por um usuário. Por exemplo, este comando recupera uma instância do plano de discagem, RedmondDialPlan, e verifica se o número de telefone 12065551219 pode ser normalizado:
 
     Get-CsDialPlan -Identity "RedmondDialPlan" | Test-CsDialPlan -DialedNumber "12065551219" | Format-List
 
@@ -92,7 +94,7 @@ Para obter mais informações, consulte a documentação de ajuda para o cmdlet 
 
 ## <a name="determining-success-or-failure"></a>Determinando o sucesso ou a falha
 
-Test-CsDialPlan difere de muitos dos cmdlets de teste do Lync Server porque apenas indica indiretamente se um teste foi bem-sucedido ou falhou. Ao usar o Test-CsDialPlan, você não recebe uma saída semelhante a esta com o resultado identificado com clareza:
+Test-CsDialPlan difere de muitos dos cmdlets de teste do Lync Server, pois apenas indica indiretamente se um teste foi bem-sucedido ou falhou. Ao usar Test-CsDialPlan você não recebe o resultado de saída semelhante a isso com o rótulo claramente rotulado:
 
 TargetFqdn: atl-cs-001.litwareinc.com
 
@@ -104,11 +106,11 @@ Erros
 
 Diagnóstico
 
-Em vez disso, se Test-CsDialPlan tiver êxito, você receberá informações sobre a regra de normalização que foi capaz de traduzir e usar o número de telefone especificado com êxito:
+Em vez disso, se Test-CsDialPlan for bem-sucedido, você receberá informações sobre a regra de normalização que foi capaz de traduzir e usar o número de telefone especificado com êxito:
 
 TranslatedNumber: + 12065551219
 
-MatchingRule: Descrição =; Padrão = ^ (\\d (11)) $; Conversão = + $1;
+MatchingRule: Descrição =; Padrão = ^ ( \\ d (11)) $; Conversão = + $1;
 
 Name = prefix All; IsInternalExtension = false
 
@@ -124,7 +126,7 @@ MatchingRule :
 
 ## <a name="reasons-why-the-test-might-have-failed"></a>Motivos pelos quais o teste pode ter falhado
 
-Aqui estão alguns motivos comuns pelos quais Test-CsDialPlan pode falhar:
+Aqui estão alguns motivos comuns para que Test-CsDialPlan possa falhar:
 
   - Você pode ter usado um formato incorreto ao especificar o número de telefone. Os planos de discagem incluem regras de normalização que permitem ao Lync Server converter os números de telefone discados ou inseridos por um usuário. Portanto, o plano de discagem deve ter regras de normalização que correspondam aos números que os usuários podem discar. Por exemplo, se os usuários podem discar o código do país, o código de área e o número de telefone em si, isso significa que seu plano de discagem deve ter uma regra de normalização para lidar com números de telefone, como:
     

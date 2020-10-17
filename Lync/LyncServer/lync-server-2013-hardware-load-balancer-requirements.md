@@ -12,20 +12,22 @@ ms:contentKeyID: 49287208
 ms.date: 05/11/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8bb8c3ff97930411cb8d679054015ffc18ab3ce2
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 5c4aac657dd1e472068474a3a70d17f1a2a38c63
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42191684"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48530868"
 ---
+# <a name="hardware-load-balancer-requirements-for-lync-server-2013"></a>Requisitos do balanceador de carga de hardware para Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="hardware-load-balancer-requirements-for-lync-server-2013"></a>Requisitos do balanceador de carga de hardware para Lync Server 2013
+
 
 </div>
 
@@ -75,7 +77,7 @@ A topologia de borda consolidada em escala do Lync Server 2013 é otimizada para
 
 </div>
 
-Para determinar se o seu balanceador de carga de hardware oferece suporte aos recursos necessários exigidos pelo Lync Server 2013, consulte "parceiros do balanceador [https://go.microsoft.com/fwlink/p/?linkId=202452](https://go.microsoft.com/fwlink/p/?linkid=202452)de carga do lync Server 2010" em.
+Para determinar se o seu balanceador de carga de hardware oferece suporte aos recursos necessários exigidos pelo Lync Server 2013, consulte "parceiros do balanceador de carga do Lync Server 2010" em [https://go.microsoft.com/fwlink/p/?linkId=202452](https://go.microsoft.com/fwlink/p/?linkid=202452) .
 
 <div>
 
@@ -143,7 +145,7 @@ Se estiver implantando dispositivos móveis, o balanceador de carga de hardware 
 
 
 > [!WARNING]  
-> Os balanceadores de carga de hardware F5 têm um recurso chamado OneConnect que assegura que todas as solicitações de uma conexão TCP tenham a carga balanceada individualmente. Se estiver implantando dispositivos móveis, verifique se o fornecedor do balanceador de carga de hardware tem o mesmo recurso. Os aplicativos móveis mais recentes do Apple iOS exigem a versão 1.2 do protocolo TLS. O F5 oferece configurações específicas para isso.<BR>Para obter detalhes sobre balanceadores de carga de hardware de terceiros, consulte<A href="https://go.microsoft.com/fwlink/p/?linkid=230700">https://go.microsoft.com/fwlink/p/?linkId=230700</A>
+> Os balanceadores de carga de hardware F5 têm um recurso chamado OneConnect que assegura que todas as solicitações de uma conexão TCP tenham a carga balanceada individualmente. Se estiver implantando dispositivos móveis, verifique se o fornecedor do balanceador de carga de hardware tem o mesmo recurso. Os aplicativos móveis mais recentes do Apple iOS exigem a versão 1.2 do protocolo TLS. O F5 oferece configurações específicas para isso.<BR>Para obter detalhes sobre balanceadores de carga de hardware de terceiros, consulte <A href="https://go.microsoft.com/fwlink/p/?linkid=230700">https://go.microsoft.com/fwlink/p/?linkId=230700</A>
 
 
 
@@ -151,7 +153,7 @@ Se estiver implantando dispositivos móveis, o balanceador de carga de hardware 
 
 A seguir, são apresentados os requisitos do balanceador de carga de hardware para serviços Web do pool de diretores e de front-end:
 
-  - Para VIPs de serviços Web internos, defina\_persistência de endereço de origem (porta interna 80, 443) no balanceador de carga de hardware. Para o Lync Server 2013,\_a persistência do endereço de origem significa que várias conexões provenientes de um único endereço IP são sempre enviadas a um servidor para manter o estado da sessão.
+  - Para VIPs de serviços Web internos, defina \_ persistência de endereço de origem (porta interna 80, 443) no balanceador de carga de hardware. Para o Lync Server 2013, \_ a persistência do endereço de origem significa que várias conexões provenientes de um único endereço IP são sempre enviadas a um servidor para manter o estado da sessão.
 
   - Use um tempo de ociosidade de TCP de 1.800 segundos.
 
@@ -239,7 +241,7 @@ Defina o monitoramento de portas nos balanceadores de carga de hardware para det
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>&lt;int_mco_443_vs&gt;da Web do pool</p>
+<td><p>&lt;&gt;int_mco_443_vs da Web do pool</p>
 <p>443</p></td>
 <td><p>443</p></td>
 <td><p>Front-end</p>
@@ -248,7 +250,7 @@ Defina o monitoramento de portas nos balanceadores de carga de hardware para det
 <td><p>HTTPS</p></td>
 </tr>
 <tr class="even">
-<td><p>&lt;int_mco_80_vs&gt;da Web do pool</p>
+<td><p>&lt;&gt;int_mco_80_vs da Web do pool</p>
 <p>80</p></td>
 <td><p>80</p></td>
 <td><p>Front-end</p>
@@ -281,7 +283,7 @@ Defina o monitoramento de portas nos balanceadores de carga de hardware para det
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>&lt;web_mco_443_vs&gt;de pool</p>
+<td><p>&lt;web_mco_443_vs de pool &gt;</p>
 <p>443</p></td>
 <td><p>4443</p></td>
 <td><p>Front-end</p>
@@ -290,7 +292,7 @@ Defina o monitoramento de portas nos balanceadores de carga de hardware para det
 <td><p>HTTPS</p></td>
 </tr>
 <tr class="even">
-<td><p>&lt;web_mco_80_vs&gt;de pool</p>
+<td><p>&lt;web_mco_80_vs de pool &gt;</p>
 <p>80</p></td>
 <td><p>8080</p></td>
 <td><p>Front-end</p>

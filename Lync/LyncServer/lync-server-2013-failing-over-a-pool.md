@@ -12,20 +12,22 @@ ms:contentKeyID: 48183432
 ms.date: 10/10/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 93f6aadd6cde7f09d7c6bdde118055cde8a56de5
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 1bf54f1949627c39291388be248e0029077e9278
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42204258"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48530958"
 ---
+# <a name="failing-over-a-pool-in-lync-server-2013"></a>Failover de um pool no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="failing-over-a-pool-in-lync-server-2013"></a>Failover de um pool no Lync Server 2013
+
 
 </div>
 
@@ -63,33 +65,33 @@ Além disso, se um pool de Front End falhar mas o pool de Borda no local ainda e
     
         Invoke-CsManagementServerFailover -Whatif
     
-    Os resultados deste cmdlet mostram qual pool atualmente hospeda o servidor de gerenciamento central. No restante deste procedimento, esse pool é conhecido como pool de CMS\_.
+    Os resultados deste cmdlet mostram qual pool atualmente hospeda o servidor de gerenciamento central. No restante deste procedimento, esse pool é conhecido como pool de CMS \_ .
 
-2.  Use o construtor de topologias para localizar a versão do Lync Server em\_execução no pool do CMS. Se ele estiver executando o Lync Server 2013, use o cmdlet a seguir para localizar o pool de backup do pool 1.
+2.  Use o construtor de topologias para localizar a versão do Lync Server em execução no pool do CMS \_ . Se ele estiver executando o Lync Server 2013, use o cmdlet a seguir para localizar o pool de backup do pool 1.
     
         Get-CsPoolBackupRelationship -PoolFQDN <CMS_Pool FQDN>
     
-    Permite que\_o pool de backup seja o pool de backup.
+    Permite que \_ o pool de backup seja o pool de backup.
 
 3.  Verifique o status do repositório de gerenciamento central com o seguinte cmdlet:
     
         Get-CsManagementStoreReplicationStatus -CentralManagementStoreStatus 
     
-    Este cmdlet deve mostrar que tanto ActiveMasterFQDN quanto ActiveFileTransferAgents estão apontando para o FQDN do pool\_CMS. Se eles estiverem vazios, o servidor de gerenciamento central não estará disponível e você deverá fazer o failover.
+    Este cmdlet deve mostrar que tanto ActiveMasterFQDN quanto ActiveFileTransferAgents estão apontando para o FQDN do \_ pool CMS. Se eles estiverem vazios, o servidor de gerenciamento central não estará disponível e você deverá fazer o failover.
 
 4.  Se o repositório de gerenciamento central não estiver disponível ou se o repositório de gerenciamento central estiver em execução no Pool1 (ou seja, o pool com falha), você deverá fazer failover do servidor de gerenciamento central antes de realizar o failover do pool. Se você precisar fazer failover do servidor de gerenciamento central hospedado em um pool executando o Lync Server 2013, use o cmdlet na etapa 5 deste procedimento. Se você precisar fazer failover do servidor de gerenciamento central hospedado em um pool executando o Lync Server 2010, use o cmdlet na etapa 6 deste procedimento. Se você não precisar fazer failover do servidor de gerenciamento central, pule para a etapa 7 deste procedimento.
 
 5.  Para fazer failover do repositório de gerenciamento central em um pool executando o Lync Server 2013, faça o seguinte:
     
-      - Primeiro, verifique o servidor back-end no\_pool de backup que executa a instância principal do repositório de gerenciamento central digitando o seguinte:
+      - Primeiro, verifique o servidor back-end no \_ pool de backup que executa a instância principal do repositório de gerenciamento central digitando o seguinte:
         
             Get-CsDatabaseMirrorState -DatabaseType Centralmgmt -PoolFqdn <Backup_Pool Fqdn>
     
-      - Se o servidor back-end principal no\_pool de backup for o principal, digite:
+      - Se o servidor back-end principal no \_ pool de backup for o principal, digite:
         
             Invoke-CSManagementServerFailover -BackupSQLServerFqdn <Backup_Pool Primary BackEnd Server FQDN> -BackupSQLInstanceName <Backup_Pool Primary SQL Instance Name>
         
-        Se o servidor de back-end de\_espelho no pool de backup for o principal, digite:
+        Se o servidor de back-end de espelho no pool de backup \_ for o principal, digite:
         
             Invoke-CSManagementServerFailover -MirrorSQLServerFqdn <Backup_Pool Mirror BackEnd Server FQDN> -MirrorSQLInstanceName <Backup_Pool Mirror SQL Instance Name>
     
@@ -97,7 +99,7 @@ Além disso, se um pool de Front End falhar mas o pool de Borda no local ainda e
         
             Get-CsManagementStoreReplicationStatus -CentralManagementStoreStatus 
         
-        Verifique se ActiveMasterFQDN e ActiveFileTransferAgents estão apontando para o FQDN do pool de\_backup.
+        Verifique se ActiveMasterFQDN e ActiveFileTransferAgents estão apontando para o FQDN do pool de backup \_ .
     
       - Por fim, verifique o status da réplica para todos os servidores front-end digitando o seguinte:
         
@@ -107,7 +109,7 @@ Além disso, se um pool de Front End falhar mas o pool de Borda no local ainda e
         
         Pule para a etapa 7 neste procedimento.
 
-6.  Instale o repositório de gerenciamento central no servidor back-end do\_pool de backup.
+6.  Instale o repositório de gerenciamento central no servidor back-end do \_ pool de backup.
     
       - Primeiro, execute o seguinte comando:
         
@@ -115,7 +117,7 @@ Além disso, se um pool de Front End falhar mas o pool de Borda no local ainda e
         Install-CsDatabase -CentralManagementDatabase -Clean -SqlServerFqdn <Backup_Pool Back End Server FQDN> -SqlInstanceName rtc  
         ```
     
-      - Execute o próximo comando em um dos servidores de front-end do\_pool de backup para forçar a movimentação do repositório de gerenciamento central:
+      - Execute o próximo comando em um dos servidores de front-end do \_ pool de backup para forçar a movimentação do repositório de gerenciamento central:
         
             Move-CsManagementServer -ConfigurationFileName c:\CsConfigurationFile.zip -LisConfigurationFileName c:\CsLisConfigurationFile.zip -Force 
     
@@ -123,7 +125,7 @@ Além disso, se um pool de Front End falhar mas o pool de Borda no local ainda e
         
             Get-CsManagementStoreReplicationStatus -CentralManagementStoreStatus 
         
-        Verifique se ActiveMasterFQDN e ActiveFileTransferAgents estão apontando para o FQDN do pool de\_backup.
+        Verifique se ActiveMasterFQDN e ActiveFileTransferAgents estão apontando para o FQDN do pool de backup \_ .
     
       - Verifique o status da réplica para todos os servidores de Front End digitando:
         
@@ -131,7 +133,7 @@ Além disso, se um pool de Front End falhar mas o pool de Borda no local ainda e
         
         Verifique se todas as réplicas possuem o valor Verdadeiro (True).
     
-      - Instale o serviço do servidor de gerenciamento central no restante dos servidores de front-end\_no pool de backup. Para fazer isso, execute o seguinte comando em todos os servidores front-end, exceto aquele que você usou ao forçar a movimentação do repositório de gerenciamento central neste procedimento:
+      - Instale o serviço do servidor de gerenciamento central no restante dos servidores de front-end no pool de backup \_ . Para fazer isso, execute o seguinte comando em todos os servidores front-end, exceto aquele que você usou ao forçar a movimentação do repositório de gerenciamento central neste procedimento:
         
             Bootstrapper /Setup 
 

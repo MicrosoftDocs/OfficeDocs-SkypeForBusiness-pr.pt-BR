@@ -12,20 +12,22 @@ ms:contentKeyID: 63969655
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 541870c2dc9bf5fde0ce2a339b07b894feb83082
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 9ac7f02d18f1b270b3a58a7ece84cb3a859b32b7
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42193844"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48530468"
 ---
+# <a name="testing-the-ability-of-a-user-to-log-on-to-lync-server-2013"></a>Testando a capacidade de um usuário fazer logon no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="testing-the-ability-of-a-user-to-log-on-to-lync-server-2013"></a>Testando a capacidade de um usuário fazer logon no Lync Server 2013
+
 
 </div>
 
@@ -74,7 +76,7 @@ O cmdlet Test-CsRegistration permite verificar se os usuários da sua organizaç
 
 ## <a name="running-the-test"></a>Executar o teste
 
-O cmdlet Test-CsRegistration pode ser executado usando uma conta de teste pré-configurada (consulte Configurando contas de teste para executar testes do Lync Server) ou a conta de qualquer usuário habilitado para o Lync Server. Para executar esta verificação usando uma conta de teste, basta especificar o FQDN do pool de registradores do Lync Server que está sendo testado. Por exemplo:
+O cmdlet Test-CsRegistration pode ser executado usando uma conta de teste pré-configurada (Confira Configurando contas de teste para executar testes do Lync Server) ou a conta de qualquer usuário habilitado para o Lync Server. Para executar esta verificação usando uma conta de teste, basta especificar o FQDN do pool de registradores do Lync Server que está sendo testado. Por exemplo:
 
     Test-CsRegistration -TargetFqdn "atl-cs-001.litwareinc.com"
 
@@ -127,7 +129,7 @@ Se Test-CsRegistration falhar, talvez você queira executar novamente o teste, d
 
     Test-CsRegistration -UserSipAddress "sip:kenmyer@litwareinc.com" -TargetFqdn "atl-cs-001.litwareinc.com" -Verbose
 
-Quando o parâmetro Verbose é incluído, o Test-CsRegistration retornará uma conta passo a passo de cada ação que tentou quando verificou a capacidade do usuário especificado fazer logon no Lync Server. Por exemplo:
+Quando o parâmetro Verbose é incluído, Test-CsRegistration retornará uma conta passo a passo de cada ação que tentou quando verificou a capacidade do usuário especificado fazer logon no Lync Server. Por exemplo:
 
 VERBOse: atividade de ' registro ' iniciada.
 
@@ -151,7 +153,7 @@ Pilha de chamadas de exceção: em Microsoft. RTC. Signaling. SipAsyncResult'1. 
 
 ## <a name="reasons-why-the-test-might-have-failed"></a>Motivos pelos quais o teste pode ter falhado
 
-Aqui estão alguns motivos comuns pelos quais Test-CsRegistration pode falhar:
+Aqui estão alguns motivos comuns para que Test-CsRegistration possa falhar:
 
   - Você especificou uma conta de usuário incorreta. Você pode verificar se uma conta de usuário existe executando um comando semelhante a este:
     

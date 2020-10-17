@@ -12,20 +12,22 @@ ms:contentKeyID: 63969594
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2ce58dae337121af9e2754b38ad5c1c0dafbfab4
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 92e29cafcfac7a74e43617841a174653f6072c5a
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42193904"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48530518"
 ---
+# <a name="testing-service-activation-and-group-permissions-in-lync-server-2013"></a>Testando a ativação de serviços e permissões de grupo no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="testing-service-activation-and-group-permissions-in-lync-server-2013"></a>Testando a ativação de serviços e permissões de grupo no Lync Server 2013
+
 
 </div>
 
@@ -66,9 +68,9 @@ _**Última modificação do tópico:** 2014-06-05_
 
 ## <a name="description"></a>Descrição
 
-O cmdlet Test-CsTopology permite verificar se o Lync Server 2013 está funcionando corretamente em um escopo global. Por padrão, o cmdlet verifica toda a infraestrutura do Lync Server, verificando se os serviços necessários estão em execução e se as permissões apropriadas estão definidas para esses serviços e para os grupos de segurança universal criados quando você instala o Lync Server .
+O cmdlet Test-CsTopology permite verificar se o Lync Server 2013 está funcionando corretamente em um escopo global. Por padrão, o cmdlet verifica toda a infraestrutura do Lync Server, verificando se os serviços necessários estão em execução e se as permissões apropriadas estão definidas para esses serviços e para os grupos de segurança universal criados quando você instala o Lync Server.
 
-Além de verificar a validade da instalação do Lync Server, o Test-CsTopology também permite verificar a validade de um serviço específico. Por exemplo, este comando verifica o estado do Servidor de Conferência A/V no pool atl-cs-001.litwareinc.com:
+Além de verificar a validade da instalação do Lync Server, Test-CsTopology também permite verificar a validade de um serviço específico. Por exemplo, este comando verifica o estado do Servidor de Conferência A/V no pool atl-cs-001.litwareinc.com:
 
     Test-CsTopology -Service "ConferencingServer:atl-cs-001.litwareinc.com"
 
@@ -78,9 +80,9 @@ Além de verificar a validade da instalação do Lync Server, o Test-CsTopology 
 
 ## <a name="running-the-test"></a>Executar o teste
 
-Por padrão, Test-CsTopology exibe uma saída muito pequena na tela. Em vez disso, as informações retornadas pelo cmdlet são gravadas em um arquivo HTML. O parâmetro Report permite que você especifique um caminho de arquivo e um nome de arquivo para o arquivo HTML gerado por Test-CsTopology. Se você não incluir o parâmetro Report, o arquivo HTML será automaticamente salvo na pasta usuários e receberá um nome semelhante a este: ce84964a-c4da-4622-ad34-c54ff3ed361f. html.
+Por padrão, Test-CsTopology exibe muito pouco saída na tela. Em vez disso, as informações retornadas pelo cmdlet são gravadas em um arquivo HTML. O parâmetro Report permite que você especifique um caminho de arquivo e um nome de arquivo para o arquivo HTML gerado por Test-CsTopology. Se você não incluir o parâmetro Report, o arquivo HTML será automaticamente salvo na pasta usuários e receberá um nome semelhante a este: ce84964a-c4da-4622-ad34-c54ff3ed361f.html.
 
-O seguinte comando de exemplo executa Test-CsTopology e salva a saída em um arquivo chamado C:\\logs\\ComputerTest. html:
+O seguinte comando de exemplo é executado Test-CsTopology e salva a saída em um arquivo chamado C: \\ Logs \\ComputerTest.html:
 
     Test-CsTopology -Report "C:\Logs\ComputerTest.html" -Verbose
 
@@ -100,7 +102,7 @@ Ao contrário da maioria dos cmdlets de teste, Test-CsTopology relata êxito ou 
 
 ## <a name="reasons-why-the-test-might-have-failed"></a>Motivos pelos quais o teste pode ter falhado
 
-Aqui estão alguns motivos comuns pelos quais Test-CsTopology pode falhar:
+Aqui estão alguns motivos comuns para que Test-CsTopology possa falhar:
 
   - A replicação pode não estar atualizada no computador de teste. Você pode verificar o status de replicação atual de um computador executando o cmdlet Get-CsManagementStoreReplicationStatus:
     

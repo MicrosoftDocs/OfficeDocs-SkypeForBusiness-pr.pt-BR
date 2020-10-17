@@ -12,20 +12,22 @@ ms:contentKeyID: 62268951
 ms.date: 11/13/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d950bd62b2db91f60dd5828f79977472a9c5d573
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 677fdd070994c8cc1f63f775ffb2569642768f0e
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42212667"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48529938"
 ---
+# <a name="using-the-lync-room-system-administrative-web-portal-in-lync-server-2013"></a>Usando o portal da Web administrativo do sistema de salas do Lync no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="using-the-lync-room-system-administrative-web-portal-in-lync-server-2013"></a>Usando o portal da Web administrativo do sistema de salas do Lync no Lync Server 2013
+
 
 </div>
 
@@ -45,7 +47,7 @@ Depois de implantar o LRS no servidor, você pode verificar o status de todas as
 
 1.  Navegue até a seguinte URL:
     
-    https://\<FE-servidor\>/lRS
+    https:// \<fe-server\> /lRS
 
 2.  Insira as credenciais para a conta LRSSupport ou uma conta que tenha sido adicionada ao grupo de segurança LRSSupportAdminGroup.
 
@@ -59,15 +61,15 @@ Depois de implantar o LRS no servidor, você pode verificar o status de todas as
 
 A página de resumo fornece as seguintes informações para todas as salas do LRS implantadas no servidor:
 
-  - **Marca**   o nome personalizado que o administrador fornece à sala. A marca pode ser definida no portal clicando no nome da sala.
+  - **Marca**     O nome personalizado que o administrador fornece à sala. A marca pode ser definida no portal clicando no nome da sala.
 
-  - **Integridade**   o status de integridade da sala, que é derivado do status de integridade de agregação da sala, que é mostrado na seção integridade da página Configurações da sala.
+  - **Health**     O status de integridade da sala, que é derivado do status de integridade de agregação da sala, que é mostrado na seção integridade da página Configurações da sala.
 
-  - **Próxima reunião**   a data e a hora em que a próxima reunião foi agendada.
+  - **Próxima reunião**     A data e a hora em que a próxima reunião foi agendada.
 
-  - **Versão lRS, fabricante, modelo**   esses valores são predefinidos no lRS. Dependendo do fabricante, esses campos podem ser deixados em branco.
+  - **Versão lRS, fabricante, modelo**     Esses valores são predefinidos no LRS. Dependendo do fabricante, esses campos podem ser deixados em branco.
 
-  - **Última atualização**   exibe a última vez que a página da Web foi atualizada.
+  - **Última atualização**     Exibe a última vez em que a página da Web foi atualizada.
 
 ![Exibição resumida do portal de administração do sistema de salas do Lync](images/Dn743660.f829ce90-dd95-4725-bd94-6870c5dcf046(OCS.15).png "Exibição resumida do portal de administração do sistema de salas do Lync")
 
@@ -101,7 +103,7 @@ A seção detalhes fornece um resumo somente leitura das configurações da sala
 
 <div>
 
-## <a name="troubleshooting"></a>Solução de problemas
+## <a name="troubleshooting"></a>Solução de Problemas
 
 A seção solução de problemas pode ser usada para coletar logs remotamente e salvá-los em um local especificado. Também é possível reiniciar o console do LRS (LRS user interface) ou reiniciar todo o sistema. Para coletar logs, forneça um caminho de pasta no formato especificado e certifique-se de que a pasta tenha permissões de gravação atribuídas à conta de máquina do LRS. Se o tamanho do log for muito grande, pode levar até 5 minutos para concluir a coleta de logs. A atualização da página fornecerá o status mais recente.
 
@@ -151,7 +153,7 @@ A seção integridade fornece uma indicação visual da integridade da conexão 
 
 ## <a name="why-cant-i-sign-in-to-the-administrative-web-portal"></a>Por que não consigo entrar no portal da Web administrativo?
 
-  - Ao abrir https://localhost/lrso, você poderá ver a página de entrada, mas quando digitar suas credenciais, não poderá entrar. Nesse caso, você deve abrir https://FQDNofFEserver/lrs o para entrar no portal da Web administrativo.
+  - Ao abrir https://localhost/lrs o, você poderá ver a página de entrada, mas quando digitar suas credenciais, não poderá entrar. Nesse caso, você deve abrir https://FQDNofFEserver/lrs o para entrar no portal da Web administrativo.
 
   - Se o computador a partir do qual você está acessando o portal da Web administrativo estiver em um grupo de trabalho, "http://" não funcionará. Em vez disso, use "https".
 
@@ -173,7 +175,7 @@ A seção integridade fornece uma indicação visual da integridade da conexão 
 
   - Verifique se a conta de usuário LRSApp está habilitada para SIP.
 
-  - Se você ainda estiver tendo problemas, colete o arquivo **trace. log** no sistema LRS de D:\\rastreamento\\LRSAdminLogs\\e envie-o para o seu contato de suporte do lRS.
+  - Se você ainda estiver tendo problemas, colete o arquivo **trace. log** no sistema LRS de D: \\ rastreamento \\ LRSAdminLogs \\ e envie-o para o seu contato de suporte do lRS.
 
 </div>
 

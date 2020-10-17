@@ -12,20 +12,22 @@ ms:contentKeyID: 48183442
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 49d62537f91145803f60f51c18b86816a0af657f
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 6fd56d0c06c9c81eda8cd1d7ef64b57da3219f3e
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42195254"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48531168"
 ---
+# <a name="deploying-monitoring-in-lync-server-2013"></a>Implantando o monitoramento no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deploying-monitoring-in-lync-server-2013"></a>Implantando o monitoramento no Lync Server 2013
+
 
 </div>
 
@@ -65,7 +67,7 @@ Embora normalmente seja mais fácil habilitar o monitoramento ao mesmo tempo em 
 
 
 > [!NOTE]  
-> Se o monitoramento tiver sido habilitado para um pool, você poderá desabilitar o processo de coleta de dados de monitoramento sem precisar alterar sua topologia: o Shell de gerenciamento do Lync Server oferece uma maneira de desabilitar (e depois reabilitar) o CDR (registro de detalhes das chamadas) ou a qualidade coleta de dados da QoE (of Experience). Para mais informações, consulte a seção Como Configurar o Registro de Detalhes de Chamadas e Configurações de Qualidade de Experiência deste documento.
+> Se o monitoramento tiver sido habilitado para um pool, você poderá desabilitar o processo de coleta de dados de monitoramento sem ter que alterar sua topologia: o Shell de gerenciamento do Lync Server oferece uma maneira de desabilitar (e depois reabilitar) a coleta de dados da chamada (registro de detalhes das chamadas) ou de QoE (qualidade da experiência). Para mais informações, consulte a seção Como Configurar o Registro de Detalhes de Chamadas e Configurações de Qualidade de Experiência deste documento.
 
 
 
@@ -77,7 +79,7 @@ Outro aprimoramento importante do monitoramento no Lync Server 2013 é o fato de
 
 
 > [!NOTE]  
-> Certifique-se de que o tipo de inicialização do serviço SQL Server Agent seja automático e que o serviço SQL Server Agent esteja em execução para a instância SQL que está mantendo os bancos de dados de monitoramento, para que os trabalhos de manutenção do SQL Server de monitoramento padrão possam ser executados na base agendada sob o controle do serviço do SQL Server Agent.
+> Certifique-se de que o tipo de inicialização do serviço do SQL Server Agent seja automático e que o serviço SQL Server Agent esteja em execução para a instância SQL que está mantendo os bancos de dados de monitoramento, para que os trabalhos de manutenção do SQL Server de monitoramento padrão possam ser executados em sua base agendada sob o controle do serviço do SQL Server Agent.
 
 
 

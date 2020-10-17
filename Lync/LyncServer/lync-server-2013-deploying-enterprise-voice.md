@@ -12,20 +12,22 @@ ms:contentKeyID: 48185207
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5a19016a095e38a0df70a561976c6b03d59fdfd1
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 4b2784c5cb04994004503010426ebc98763c0250
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42188294"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48531144"
 ---
+# <a name="deploying-enterprise-voice-in-lync-server-2013"></a>Implantando o Enterprise Voice no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deploying-enterprise-voice-in-lync-server-2013"></a>Implantando o Enterprise Voice no Lync Server 2013
+
 
 </div>
 
@@ -90,7 +92,7 @@ Para exibir uma topologia de referência que ilustra e explica um exemplo de imp
 
 Esta seção inclui procedimentos para implantações nas quais um Servidor de mediação é colocado em cada Servidor Front-End ou servidor Standard Edition, conforme recomendado, e também para implantações com um pool de Servidor de mediação autônomo.
 
-Você pode ignorar o seguinte conteúdo se você usou o construtor de topologias para definir e publicar uma topologia que coloca um servidor de mediação em cada servidor front-end ou servidor Standard Edition, porque o assistente de implantação já instalou automaticamente os arquivos para Servidor de mediação quando você instalou arquivos para o pool de servidores front-end ou servidor Standard Edition:
+Você pode ignorar o seguinte conteúdo se você usou o construtor de topologias para definir e publicar uma topologia que coloca um servidor de mediação em cada servidor front-end ou servidor Standard Edition, porque o assistente de implantação já instalou automaticamente os arquivos para o servidor de mediação quando você instalou os arquivos do pool de servidores front-end ou do servidor Standard Edition:
 
   - [Configurando troncos no Lync Server 2013](lync-server-2013-configuring-trunks.md)
 

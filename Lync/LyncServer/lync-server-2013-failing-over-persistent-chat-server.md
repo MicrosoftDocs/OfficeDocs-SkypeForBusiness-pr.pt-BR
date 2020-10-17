@@ -12,20 +12,22 @@ ms:contentKeyID: 48183726
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 570ed42bb2ff1d5b1f4ab58e9bbd9aad9159bef3
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: ede95ad504244fc5a97d62a074192a5270fbcdef
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42214397"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48530938"
 ---
+# <a name="failing-over-persistent-chat-server-in-lync-server-2013"></a>Failover do servidor de chat persistente no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="failing-over-persistent-chat-server-in-lync-server-2013"></a>Failover do servidor de chat persistente no Lync Server 2013
+
 
 </div>
 
@@ -69,13 +71,13 @@ O banco de dados de conformidade de chat persistente (mgccomp) não tem failover
 
 2.  Copie qualquer arquivo de backup não copiado do compartilhamento de backup para a pasta de destino da cópia do servidor de backup.
 
-3.  Aplique qualquer backup do log de transação não aplicado na sequência para o banco de dados secundário. Para obter detalhes, consulte "como aplicar um backup de log de transação (Transact-SQL)" https://go.microsoft.com/fwlink/p/?linkid=247428em.
+3.  Aplique qualquer backup do log de transação não aplicado na sequência para o banco de dados secundário. Para obter detalhes, consulte "como aplicar um backup de log de transação (Transact-SQL)" em https://go.microsoft.com/fwlink/p/?linkid=247428 .
 
 4.  Coloque o banco de dados de gerenciamento de backup online. Usando a janela de consulta que abra na etapa 1b, faça o seguinte:
     
     1.  Finalize todas as conexões com o banco de dados de gerenciamento, se houver:
         
-        1.  **exec SP\_who2** para identificar as conexões com o banco de dados MGC.
+        1.  **exec SP \_ who2** para identificar as conexões com o banco de dados MGC.
         
         2.  **Kill \<spid\> ** para encerrar essas conexões.
     
