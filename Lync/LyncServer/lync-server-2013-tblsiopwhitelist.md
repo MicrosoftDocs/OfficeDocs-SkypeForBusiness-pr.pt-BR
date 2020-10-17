@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: tblSiopWhiteList'
+description: 'Lync Server 2013: tblSiopWhiteList.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48183310
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3cac704c6f62903c502ae5a4345ee0848c775d6f
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: fbb58c0818a6f36959732f210b8eb53bbfe223d0
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48536208"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48563857"
 ---
-# <a name="tblsiopwhitelist-in-lync-server-2013"></a><span data-ttu-id="f1e40-102">tblSiopWhiteList no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f1e40-102">tblSiopWhiteList in Lync Server 2013</span></span>
+# <a name="tblsiopwhitelist-in-lync-server-2013"></a><span data-ttu-id="126d6-103">tblSiopWhiteList no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="126d6-103">tblSiopWhiteList in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,11 +38,11 @@ ms.locfileid: "48536208"
 
 <span> </span>
 
-<span data-ttu-id="f1e40-103">_**Última modificação do tópico:** 2012-06-28_</span><span class="sxs-lookup"><span data-stu-id="f1e40-103">_**Topic Last Modified:** 2012-06-28_</span></span>
+<span data-ttu-id="126d6-104">_**Última modificação do tópico:** 2012-06-28_</span><span class="sxs-lookup"><span data-stu-id="126d6-104">_**Topic Last Modified:** 2012-06-28_</span></span>
 
-<span data-ttu-id="f1e40-104">A tabela SiopWhiteList é a lista de suplementos registrados que podem ser associados aos nós.</span><span class="sxs-lookup"><span data-stu-id="f1e40-104">tblSiopWhiteList is the list of registered add-ins that can be associated with nodes.</span></span>
+<span data-ttu-id="126d6-105">A tabela SiopWhiteList é a lista de suplementos registrados que podem ser associados aos nós.</span><span class="sxs-lookup"><span data-stu-id="126d6-105">tblSiopWhiteList is the list of registered add-ins that can be associated with nodes.</span></span>
 
-### <a name="columns"></a><span data-ttu-id="f1e40-105">Colunas</span><span class="sxs-lookup"><span data-stu-id="f1e40-105">Columns</span></span>
+### <a name="columns"></a><span data-ttu-id="126d6-106">Colunas</span><span class="sxs-lookup"><span data-stu-id="126d6-106">Columns</span></span>
 
 <table>
 <colgroup>
@@ -51,32 +52,32 @@ ms.locfileid: "48536208"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="f1e40-106">Coluna</span><span class="sxs-lookup"><span data-stu-id="f1e40-106">Column</span></span></th>
-<th><span data-ttu-id="f1e40-107">Tipo</span><span class="sxs-lookup"><span data-stu-id="f1e40-107">Type</span></span></th>
-<th><span data-ttu-id="f1e40-108">Descrição</span><span class="sxs-lookup"><span data-stu-id="f1e40-108">Description</span></span></th>
+<th><span data-ttu-id="126d6-107">Coluna</span><span class="sxs-lookup"><span data-stu-id="126d6-107">Column</span></span></th>
+<th><span data-ttu-id="126d6-108">Tipo</span><span class="sxs-lookup"><span data-stu-id="126d6-108">Type</span></span></th>
+<th><span data-ttu-id="126d6-109">Descrição</span><span class="sxs-lookup"><span data-stu-id="126d6-109">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="f1e40-109">siopID</span><span class="sxs-lookup"><span data-stu-id="f1e40-109">siopID</span></span></p></td>
-<td><p><span data-ttu-id="f1e40-110">GUID, não nulo</span><span class="sxs-lookup"><span data-stu-id="f1e40-110">GUID, not null</span></span></p></td>
-<td><p><span data-ttu-id="f1e40-111">GUID do suplemento.</span><span class="sxs-lookup"><span data-stu-id="f1e40-111">GUID of the add-in.</span></span></p></td>
+<td><p><span data-ttu-id="126d6-110">siopID</span><span class="sxs-lookup"><span data-stu-id="126d6-110">siopID</span></span></p></td>
+<td><p><span data-ttu-id="126d6-111">GUID, não nulo</span><span class="sxs-lookup"><span data-stu-id="126d6-111">GUID, not null</span></span></p></td>
+<td><p><span data-ttu-id="126d6-112">GUID do suplemento.</span><span class="sxs-lookup"><span data-stu-id="126d6-112">GUID of the add-in.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="f1e40-112">siopName</span><span class="sxs-lookup"><span data-stu-id="f1e40-112">siopName</span></span></p></td>
-<td><p><span data-ttu-id="f1e40-113">nvarchar (50), não nulo</span><span class="sxs-lookup"><span data-stu-id="f1e40-113">nvarchar (50), not null</span></span></p></td>
-<td><p><span data-ttu-id="f1e40-114">Nome de exibição do suplemento.</span><span class="sxs-lookup"><span data-stu-id="f1e40-114">Display-name of the add-in.</span></span></p></td>
+<td><p><span data-ttu-id="126d6-113">siopName</span><span class="sxs-lookup"><span data-stu-id="126d6-113">siopName</span></span></p></td>
+<td><p><span data-ttu-id="126d6-114">nvarchar (50), não nulo</span><span class="sxs-lookup"><span data-stu-id="126d6-114">nvarchar (50), not null</span></span></p></td>
+<td><p><span data-ttu-id="126d6-115">Nome de exibição do suplemento.</span><span class="sxs-lookup"><span data-stu-id="126d6-115">Display-name of the add-in.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="f1e40-115">siopUrl</span><span class="sxs-lookup"><span data-stu-id="f1e40-115">siopUrl</span></span></p></td>
-<td><p><span data-ttu-id="f1e40-116">nvarchar (255), não nulo</span><span class="sxs-lookup"><span data-stu-id="f1e40-116">nvarchar (255), not null</span></span></p></td>
-<td><p><span data-ttu-id="f1e40-117">URL do suplemento.</span><span class="sxs-lookup"><span data-stu-id="f1e40-117">URL of the add-in.</span></span></p></td>
+<td><p><span data-ttu-id="126d6-116">siopUrl</span><span class="sxs-lookup"><span data-stu-id="126d6-116">siopUrl</span></span></p></td>
+<td><p><span data-ttu-id="126d6-117">nvarchar (255), não nulo</span><span class="sxs-lookup"><span data-stu-id="126d6-117">nvarchar (255), not null</span></span></p></td>
+<td><p><span data-ttu-id="126d6-118">URL do suplemento.</span><span class="sxs-lookup"><span data-stu-id="126d6-118">URL of the add-in.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="key"></a><span data-ttu-id="f1e40-118">Chave</span><span class="sxs-lookup"><span data-stu-id="f1e40-118">Key</span></span>
+### <a name="key"></a><span data-ttu-id="126d6-119">Chave</span><span class="sxs-lookup"><span data-stu-id="126d6-119">Key</span></span>
 
 <table>
 <colgroup>
@@ -85,14 +86,14 @@ ms.locfileid: "48536208"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="f1e40-119">Coluna</span><span class="sxs-lookup"><span data-stu-id="f1e40-119">Column</span></span></th>
-<th><span data-ttu-id="f1e40-120">Descrição</span><span class="sxs-lookup"><span data-stu-id="f1e40-120">Description</span></span></th>
+<th><span data-ttu-id="126d6-120">Coluna</span><span class="sxs-lookup"><span data-stu-id="126d6-120">Column</span></span></th>
+<th><span data-ttu-id="126d6-121">Descrição</span><span class="sxs-lookup"><span data-stu-id="126d6-121">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="f1e40-121">siopID</span><span class="sxs-lookup"><span data-stu-id="f1e40-121">siopID</span></span></p></td>
-<td><p><span data-ttu-id="f1e40-122">Chave primária.</span><span class="sxs-lookup"><span data-stu-id="f1e40-122">Primary key.</span></span></p></td>
+<td><p><span data-ttu-id="126d6-122">siopID</span><span class="sxs-lookup"><span data-stu-id="126d6-122">siopID</span></span></p></td>
+<td><p><span data-ttu-id="126d6-123">Chave primária.</span><span class="sxs-lookup"><span data-stu-id="126d6-123">Primary key.</span></span></p></td>
 </tr>
 </tbody>
 </table>

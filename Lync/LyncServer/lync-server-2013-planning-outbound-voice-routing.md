@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: planejando roteamento de voz de saída'
+description: 'Lync Server 2013: planejando roteamento de voz de saída.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48183835
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 852e11c596a541f04fe1dd5771dee193db48e600
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 057f81b995e231c2025a9fcb07e675086a662efe
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48513428"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48563977"
 ---
-# <a name="planning-outbound-voice-routing-in-lync-server-2013"></a><span data-ttu-id="e620e-102">Planejamento de roteamento de voz de saída no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e620e-102">Planning outbound voice routing in Lync Server 2013</span></span>
+# <a name="planning-outbound-voice-routing-in-lync-server-2013"></a><span data-ttu-id="b041f-103">Planejamento de roteamento de voz de saída no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="b041f-103">Planning outbound voice routing in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,11 +38,11 @@ ms.locfileid: "48513428"
 
 <span> </span>
 
-<span data-ttu-id="e620e-103">_**Última modificação do tópico:** 2012-09-21_</span><span class="sxs-lookup"><span data-stu-id="e620e-103">_**Topic Last Modified:** 2012-09-21_</span></span>
+<span data-ttu-id="b041f-104">_**Última modificação do tópico:** 2012-09-21_</span><span class="sxs-lookup"><span data-stu-id="b041f-104">_**Topic Last Modified:** 2012-09-21_</span></span>
 
-<span data-ttu-id="e620e-p101">O roteamento de chamadas de saída é aplicado a chamadas destinadas a um gateway PSTN (Rede Telefônica Pública Comutada), tronco ou PBX (central privada de comutação telefônica). Quando um usuário faz uma chamada, o servidor normaliza o número de telefone para o formato E.164, se necessário, e tenta correspondê-lo a um URI do SIP. Se o servidor não conseguir fazer a correspondência, ele aplicará a lógica de roteamento de chamadas de saída baseada na cadeia de caracteres de discagem especificada. Especifique essa lógica definindo as configurações do servidor descritas na tabela a seguir.</span><span class="sxs-lookup"><span data-stu-id="e620e-p101">Outbound call routing applies to calls that are destined for a public switched telephone network (PSTN) gateway, trunk, or private branch exchange (PBX). When a user places a call, the server normalizes the phone number to E.164 format, if necessary, and attempts to match it to a SIP URI. If the server cannot make the match, it applies outbound call routing logic based on the supplied dial string. You define that logic by configuring the server settings that are described in the following table.</span></span>
+<span data-ttu-id="b041f-p101">O roteamento de chamadas de saída é aplicado a chamadas destinadas a um gateway PSTN (Rede Telefônica Pública Comutada), tronco ou PBX (central privada de comutação telefônica). Quando um usuário faz uma chamada, o servidor normaliza o número de telefone para o formato E.164, se necessário, e tenta correspondê-lo a um URI do SIP. Se o servidor não conseguir fazer a correspondência, ele aplicará a lógica de roteamento de chamadas de saída baseada na cadeia de caracteres de discagem especificada. Especifique essa lógica definindo as configurações do servidor descritas na tabela a seguir.</span><span class="sxs-lookup"><span data-stu-id="b041f-p101">Outbound call routing applies to calls that are destined for a public switched telephone network (PSTN) gateway, trunk, or private branch exchange (PBX). When a user places a call, the server normalizes the phone number to E.164 format, if necessary, and attempts to match it to a SIP URI. If the server cannot make the match, it applies outbound call routing logic based on the supplied dial string. You define that logic by configuring the server settings that are described in the following table.</span></span>
 
-### <a name="lync-server-outbound-call-routing-settings"></a><span data-ttu-id="e620e-108">Configurações de roteamento de chamadas de saída do Lync Server</span><span class="sxs-lookup"><span data-stu-id="e620e-108">Lync Server Outbound Call Routing Settings</span></span>
+### <a name="lync-server-outbound-call-routing-settings"></a><span data-ttu-id="b041f-109">Configurações de roteamento de chamadas de saída do Lync Server</span><span class="sxs-lookup"><span data-stu-id="b041f-109">Lync Server Outbound Call Routing Settings</span></span>
 
 <table>
 <colgroup>
@@ -50,30 +51,30 @@ ms.locfileid: "48513428"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="e620e-109">Objeto</span><span class="sxs-lookup"><span data-stu-id="e620e-109">Object</span></span></th>
-<th><span data-ttu-id="e620e-110">Descrição</span><span class="sxs-lookup"><span data-stu-id="e620e-110">Description</span></span></th>
+<th><span data-ttu-id="b041f-110">Objeto</span><span class="sxs-lookup"><span data-stu-id="b041f-110">Object</span></span></th>
+<th><span data-ttu-id="b041f-111">Descrição</span><span class="sxs-lookup"><span data-stu-id="b041f-111">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="e620e-111">Plano de discagem</span><span class="sxs-lookup"><span data-stu-id="e620e-111">Dial Plan</span></span></p></td>
-<td><p><span data-ttu-id="e620e-112">Um plano de discagem é um conjunto nomeado de regras de normalização que converte números de telefone de um local nomeado, usuário individual ou objeto de contato em um formato padrão único (E.164) para fins de roteamento de chamadas e autorização.</span><span class="sxs-lookup"><span data-stu-id="e620e-112">A dial plan is a named set of normalization rules that translates phone numbers for a named location, individual user, or contact object into a single standard (E.164) format for purposes of phone authorization and call routing.</span></span></p></td>
+<td><p><span data-ttu-id="b041f-112">Plano de discagem</span><span class="sxs-lookup"><span data-stu-id="b041f-112">Dial Plan</span></span></p></td>
+<td><p><span data-ttu-id="b041f-113">Um plano de discagem é um conjunto nomeado de regras de normalização que converte números de telefone de um local nomeado, usuário individual ou objeto de contato em um formato padrão único (E.164) para fins de roteamento de chamadas e autorização.</span><span class="sxs-lookup"><span data-stu-id="b041f-113">A dial plan is a named set of normalization rules that translates phone numbers for a named location, individual user, or contact object into a single standard (E.164) format for purposes of phone authorization and call routing.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="e620e-113">Regra de normalização</span><span class="sxs-lookup"><span data-stu-id="e620e-113">Normalization rule</span></span></p></td>
-<td><p><span data-ttu-id="e620e-p102">As regras de normalização definem como os números de telefone expressos em vários formatos são roteados para cada local, usuário ou objeto de contato especificado. A mesma cadeia de caracteres de discagem pode ser interpretada e convertida de maneira diferente, conforme o local do qual é discada e da pessoa ou objeto de contato que está fazendo a chamada. Um conjunto de regras de normalização associadas a um local específico constitui um plano de discagem.</span><span class="sxs-lookup"><span data-stu-id="e620e-p102">Normalization rules define how phone numbers expressed in various formats are to be routed for each specified location, user, or contact object. The same dial string may be interpreted and translated differently, depending on the location from which it is dialed and the person or contact object that makes the call. A set of normalization rules associated with a particular location constitutes a dial plan.</span></span></p></td>
+<td><p><span data-ttu-id="b041f-114">Regra de normalização</span><span class="sxs-lookup"><span data-stu-id="b041f-114">Normalization rule</span></span></p></td>
+<td><p><span data-ttu-id="b041f-p102">As regras de normalização definem como os números de telefone expressos em vários formatos são roteados para cada local, usuário ou objeto de contato especificado. A mesma cadeia de caracteres de discagem pode ser interpretada e convertida de maneira diferente, conforme o local do qual é discada e da pessoa ou objeto de contato que está fazendo a chamada. Um conjunto de regras de normalização associadas a um local específico constitui um plano de discagem.</span><span class="sxs-lookup"><span data-stu-id="b041f-p102">Normalization rules define how phone numbers expressed in various formats are to be routed for each specified location, user, or contact object. The same dial string may be interpreted and translated differently, depending on the location from which it is dialed and the person or contact object that makes the call. A set of normalization rules associated with a particular location constitutes a dial plan.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="e620e-117">Política de voz</span><span class="sxs-lookup"><span data-stu-id="e620e-117">Voice policy</span></span></p></td>
-<td><p><span data-ttu-id="e620e-p103">Uma política de voz associa um ou mais registros de uso de PSTN a um usuário ou grupo de usuários. Também fornece uma lista de recursos de chamada que você pode ativar ou desativar.</span><span class="sxs-lookup"><span data-stu-id="e620e-p103">A voice policy associates one or more PSTN usage records with one user or a group of users. A voice policy also provides a list of calling features that you can enable or disable.</span></span></p></td>
+<td><p><span data-ttu-id="b041f-118">Política de voz</span><span class="sxs-lookup"><span data-stu-id="b041f-118">Voice policy</span></span></p></td>
+<td><p><span data-ttu-id="b041f-p103">Uma política de voz associa um ou mais registros de uso de PSTN a um usuário ou grupo de usuários. Também fornece uma lista de recursos de chamada que você pode ativar ou desativar.</span><span class="sxs-lookup"><span data-stu-id="b041f-p103">A voice policy associates one or more PSTN usage records with one user or a group of users. A voice policy also provides a list of calling features that you can enable or disable.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="e620e-120">Registro de uso de PSTN</span><span class="sxs-lookup"><span data-stu-id="e620e-120">PSTN usage record</span></span></p></td>
-<td><p><span data-ttu-id="e620e-121">Um registro de uso de PSTN especifica uma classe de chamada (por exemplo, interna, local ou interurbana) que pode ser feita por vários usuários ou grupos de usuários em uma organização.</span><span class="sxs-lookup"><span data-stu-id="e620e-121">A PSTN usage record specifies a class of call (such as internal, local, or long distance) that can be made by various users, or groups of users, in an organization.</span></span></p></td>
+<td><p><span data-ttu-id="b041f-121">Registro de uso de PSTN</span><span class="sxs-lookup"><span data-stu-id="b041f-121">PSTN usage record</span></span></p></td>
+<td><p><span data-ttu-id="b041f-122">Um registro de uso de PSTN especifica uma classe de chamada (por exemplo, interna, local ou interurbana) que pode ser feita por vários usuários ou grupos de usuários em uma organização.</span><span class="sxs-lookup"><span data-stu-id="b041f-122">A PSTN usage record specifies a class of call (such as internal, local, or long distance) that can be made by various users, or groups of users, in an organization.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="e620e-122">Rota de chamada</span><span class="sxs-lookup"><span data-stu-id="e620e-122">Call Route</span></span></p></td>
-<td><p><span data-ttu-id="e620e-p104">Uma rota de chamada associa os números de telefone de destino com troncos específicos e registros de uso de PSTN. Um gateway PSTN é considerado um tronco.</span><span class="sxs-lookup"><span data-stu-id="e620e-p104">A call route associates destination phone numbers with particular trunks and PSTN usage records. A PSTN gateway is considered a trunk.</span></span></p></td>
+<td><p><span data-ttu-id="b041f-123">Rota de chamada</span><span class="sxs-lookup"><span data-stu-id="b041f-123">Call Route</span></span></p></td>
+<td><p><span data-ttu-id="b041f-p104">Uma rota de chamada associa os números de telefone de destino com troncos específicos e registros de uso de PSTN. Um gateway PSTN é considerado um tronco.</span><span class="sxs-lookup"><span data-stu-id="b041f-p104">A call route associates destination phone numbers with particular trunks and PSTN usage records. A PSTN gateway is considered a trunk.</span></span></p></td>
 </tr>
 </tbody>
 </table>
@@ -81,31 +82,31 @@ ms.locfileid: "48513428"
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="e620e-125">Nesta seção</span><span class="sxs-lookup"><span data-stu-id="e620e-125">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="b041f-126">Nesta seção</span><span class="sxs-lookup"><span data-stu-id="b041f-126">In This Section</span></span>
 
-<span data-ttu-id="e620e-126">Esta seção fornece diretrizes para definir as seguintes configurações do servidor de roteamento de chamadas de saída</span><span class="sxs-lookup"><span data-stu-id="e620e-126">This section provides guidelines for configuring the following outbound call routing server settings:</span></span>
-
-  - <span></span>  
-    [<span data-ttu-id="e620e-127">Planos de discagem e regras de normalização no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e620e-127">Dial plans and normalization rules in Lync Server 2013</span></span>](lync-server-2013-dial-plans-and-normalization-rules.md)
+<span data-ttu-id="b041f-127">Esta seção fornece diretrizes para definir as seguintes configurações do servidor de roteamento de chamadas de saída</span><span class="sxs-lookup"><span data-stu-id="b041f-127">This section provides guidelines for configuring the following outbound call routing server settings:</span></span>
 
   - <span></span>  
-    [<span data-ttu-id="e620e-128">Políticas de voz no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e620e-128">Voice policies in Lync Server 2013</span></span>](lync-server-2013-voice-policies.md)
+    [<span data-ttu-id="b041f-128">Planos de discagem e regras de normalização no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="b041f-128">Dial plans and normalization rules in Lync Server 2013</span></span>](lync-server-2013-dial-plans-and-normalization-rules.md)
 
   - <span></span>  
-    [<span data-ttu-id="e620e-129">Registros de uso de PSTN no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e620e-129">PSTN usage records in Lync Server 2013</span></span>](lync-server-2013-pstn-usage-records.md)
+    [<span data-ttu-id="b041f-129">Políticas de voz no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="b041f-129">Voice policies in Lync Server 2013</span></span>](lync-server-2013-voice-policies.md)
 
   - <span></span>  
-    [<span data-ttu-id="e620e-130">Rotas de voz no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e620e-130">Voice routes in Lync Server 2013</span></span>](lync-server-2013-voice-routes.md)
+    [<span data-ttu-id="b041f-130">Registros de uso de PSTN no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="b041f-130">PSTN usage records in Lync Server 2013</span></span>](lync-server-2013-pstn-usage-records.md)
+
+  - <span></span>  
+    [<span data-ttu-id="b041f-131">Rotas de voz no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="b041f-131">Voice routes in Lync Server 2013</span></span>](lync-server-2013-voice-routes.md)
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="e620e-131">Confira também</span><span class="sxs-lookup"><span data-stu-id="e620e-131">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="b041f-132">Confira também</span><span class="sxs-lookup"><span data-stu-id="b041f-132">See Also</span></span>
 
 
-[<span data-ttu-id="e620e-132">Tronco SIP no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e620e-132">SIP trunking in Lync Server 2013</span></span>](lync-server-2013-sip-trunking.md)  
-[<span data-ttu-id="e620e-133">Conexões SIP diretas no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e620e-133">Direct SIP connections in Lync Server 2013</span></span>](lync-server-2013-direct-sip-connections.md)  
+[<span data-ttu-id="b041f-133">Tronco SIP no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="b041f-133">SIP trunking in Lync Server 2013</span></span>](lync-server-2013-sip-trunking.md)  
+[<span data-ttu-id="b041f-134">Conexões SIP diretas no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="b041f-134">Direct SIP connections in Lync Server 2013</span></span>](lync-server-2013-direct-sip-connections.md)  
   
 
 </div>

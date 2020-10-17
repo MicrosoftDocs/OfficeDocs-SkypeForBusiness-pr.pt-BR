@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: atribuindo políticas por usuário'
+description: 'Lync Server 2013: atribuindo políticas por usuário.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48184971
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7a2b73e5f94bbc2b7ea7deae2359a005fa2291db
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 6a99156f9413926251c27dfee40677976b80b7ea
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48514918"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48563357"
 ---
-# <a name="assigning-per-user-policies-in-lync-server-2013"></a><span data-ttu-id="f1769-102">Atribuindo políticas por usuário no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f1769-102">Assigning per-user policies in Lync Server 2013</span></span>
+# <a name="assigning-per-user-policies-in-lync-server-2013"></a><span data-ttu-id="f6a1e-103">Atribuindo políticas por usuário no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f6a1e-103">Assigning per-user policies in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,42 +38,42 @@ ms.locfileid: "48514918"
 
 <span> </span>
 
-<span data-ttu-id="f1769-103">_**Última modificação do tópico:** 2012-10-14_</span><span class="sxs-lookup"><span data-stu-id="f1769-103">_**Topic Last Modified:** 2012-10-14_</span></span>
+<span data-ttu-id="f6a1e-104">_**Última modificação do tópico:** 2012-10-14_</span><span class="sxs-lookup"><span data-stu-id="f6a1e-104">_**Topic Last Modified:** 2012-10-14_</span></span>
 
-<span data-ttu-id="f1769-p101">Você pode atribuir determinadas políticas a um usuário ou grupo de usuários para especificar configurações particulares que se desviam das configurações definidas em políticas atribuídas a outros usuários, como políticas globais. Essas políticas são chamadas de políticas por usuário.</span><span class="sxs-lookup"><span data-stu-id="f1769-p101">You can assign certain policies to a user or a group of users in order to specify particular settings that deviate from the settings defined in policies assigned to other users, such as global policies. These policies are called per-user policies.</span></span>
+<span data-ttu-id="f6a1e-p101">Você pode atribuir determinadas políticas a um usuário ou grupo de usuários para especificar configurações particulares que se desviam das configurações definidas em políticas atribuídas a outros usuários, como políticas globais. Essas políticas são chamadas de políticas por usuário.</span><span class="sxs-lookup"><span data-stu-id="f6a1e-p101">You can assign certain policies to a user or a group of users in order to specify particular settings that deviate from the settings defined in policies assigned to other users, such as global policies. These policies are called per-user policies.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="f1769-106">Nesta seção</span><span class="sxs-lookup"><span data-stu-id="f1769-106">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="f6a1e-107">Nesta seção</span><span class="sxs-lookup"><span data-stu-id="f6a1e-107">In This Section</span></span>
 
-  - [<span data-ttu-id="f1769-107">Atribuir uma política de conferência por usuário no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f1769-107">Assign a per-user conferencing policy in Lync Server 2013</span></span>](lync-server-2013-assign-a-per-user-conferencing-policy.md)
+  - [<span data-ttu-id="f6a1e-108">Atribuir uma política de conferência por usuário no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f6a1e-108">Assign a per-user conferencing policy in Lync Server 2013</span></span>](lync-server-2013-assign-a-per-user-conferencing-policy.md)
 
-  - [<span data-ttu-id="f1769-108">Atribuir uma política de versão de cliente por usuário no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f1769-108">Assign a per-user client version policy in Lync Server 2013</span></span>](lync-server-2013-assign-a-per-user-client-version-policy.md)
+  - [<span data-ttu-id="f6a1e-109">Atribuir uma política de versão de cliente por usuário no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f6a1e-109">Assign a per-user client version policy in Lync Server 2013</span></span>](lync-server-2013-assign-a-per-user-client-version-policy.md)
 
-  - [<span data-ttu-id="f1769-109">Atribuir uma política de PIN por usuário no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f1769-109">Assign a per-user PIN policy in Lync Server 2013</span></span>](lync-server-2013-assign-a-per-user-pin-policy.md)
+  - [<span data-ttu-id="f6a1e-110">Atribuir uma política de PIN por usuário no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f6a1e-110">Assign a per-user PIN policy in Lync Server 2013</span></span>](lync-server-2013-assign-a-per-user-pin-policy.md)
 
-  - [<span data-ttu-id="f1769-110">Atribuir uma política de acesso de usuário externo a um usuário habilitado do Lync no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f1769-110">Assign an external user access policy to a Lync enabled user in Lync Server 2013</span></span>](lync-server-2013-assign-an-external-user-access-policy-to-a-lync-enabled-user.md)
+  - [<span data-ttu-id="f6a1e-111">Atribuir uma política de acesso de usuário externo a um usuário habilitado do Lync no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f6a1e-111">Assign an external user access policy to a Lync enabled user in Lync Server 2013</span></span>](lync-server-2013-assign-an-external-user-access-policy-to-a-lync-enabled-user.md)
 
-  - [<span data-ttu-id="f1769-111">Atribuir uma política de arquivamento por usuário no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f1769-111">Assign a per-user archiving policy in Lync Server 2013</span></span>](lync-server-2013-assign-a-per-user-archiving-policy.md)
+  - [<span data-ttu-id="f6a1e-112">Atribuir uma política de arquivamento por usuário no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f6a1e-112">Assign a per-user archiving policy in Lync Server 2013</span></span>](lync-server-2013-assign-a-per-user-archiving-policy.md)
 
-  - [<span data-ttu-id="f1769-112">Atribuir uma política de local por usuário no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f1769-112">Assign a per-user location policy in Lync Server 2013</span></span>](lync-server-2013-assign-a-per-user-location-policy.md)
+  - [<span data-ttu-id="f6a1e-113">Atribuir uma política de local por usuário no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f6a1e-113">Assign a per-user location policy in Lync Server 2013</span></span>](lync-server-2013-assign-a-per-user-location-policy.md)
 
-  - [<span data-ttu-id="f1769-113">Atribuir uma política de mobilidade por usuário no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f1769-113">Assign a per-user mobility policy in Lync Server 2013</span></span>](lync-server-2013-assign-a-per-user-mobility-policy.md)
+  - [<span data-ttu-id="f6a1e-114">Atribuir uma política de mobilidade por usuário no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f6a1e-114">Assign a per-user mobility policy in Lync Server 2013</span></span>](lync-server-2013-assign-a-per-user-mobility-policy.md)
 
-  - [<span data-ttu-id="f1769-114">Atribuir uma política de chat persistente por usuário no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f1769-114">Assign a per-user Persistent Chat policy in Lync Server 2013</span></span>](lync-server-2013-assign-a-per-user-persistent-chat-policy.md)
+  - [<span data-ttu-id="f6a1e-115">Atribuir uma política de chat persistente por usuário no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f6a1e-115">Assign a per-user Persistent Chat policy in Lync Server 2013</span></span>](lync-server-2013-assign-a-per-user-persistent-chat-policy.md)
 
-  - [<span data-ttu-id="f1769-115">Atribuir uma política de plano de discagem por usuário no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f1769-115">Assign a per-user dial plan policy in Lync Server 2013</span></span>](lync-server-2013-assign-a-per-user-dial-plan-policy.md)
+  - [<span data-ttu-id="f6a1e-116">Atribuir uma política de plano de discagem por usuário no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f6a1e-116">Assign a per-user dial plan policy in Lync Server 2013</span></span>](lync-server-2013-assign-a-per-user-dial-plan-policy.md)
 
-  - [<span data-ttu-id="f1769-116">Atribuir uma política de voz por usuário no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f1769-116">Assign a per-user voice policy in Lync Server 2013</span></span>](lync-server-2013-assign-a-per-user-voice-policy.md)
+  - [<span data-ttu-id="f6a1e-117">Atribuir uma política de voz por usuário no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f6a1e-117">Assign a per-user voice policy in Lync Server 2013</span></span>](lync-server-2013-assign-a-per-user-voice-policy.md)
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="f1769-117">Confira também</span><span class="sxs-lookup"><span data-stu-id="f1769-117">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="f6a1e-118">Confira também</span><span class="sxs-lookup"><span data-stu-id="f6a1e-118">See Also</span></span>
 
 
-[<span data-ttu-id="f1769-118">Gerenciando usuários no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f1769-118">Managing users in Lync Server 2013</span></span>](lync-server-2013-managing-users-in-lync-server.md)  
+[<span data-ttu-id="f6a1e-119">Gerenciando usuários no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f6a1e-119">Managing users in Lync Server 2013</span></span>](lync-server-2013-managing-users-in-lync-server.md)  
   
 
 </div>
