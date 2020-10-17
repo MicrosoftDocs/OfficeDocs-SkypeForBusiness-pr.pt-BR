@@ -12,20 +12,22 @@ ms:contentKeyID: 63969590
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ab574067b05b494601e0dd769003cb01904c52bc
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 7922fe79d97a1fa83fdaa5afbc1eeddee8523e37
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42211097"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48535578"
 ---
+# <a name="view-status-of-global-settings-for-a-forest-in-lync-server-2013"></a>Exibir o status das configurações globais de uma floresta no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="view-status-of-global-settings-for-a-forest-in-lync-server-2013"></a>Exibir o status das configurações globais de uma floresta no Lync Server 2013
+
 
 </div>
 
@@ -49,7 +51,7 @@ Verifique as configurações gerais, incluindo os domínios SIP (Session Initiat
 
 As informações do domínio SIP podem ser retornadas usando o Windows PowerShell e o cmdlet **Get-CsSipDomain** . Para retornar essas informações, execute o `Get-CsSipDomain` comando do Windows PowerShell.
 
-O Get-CsSipDomain retornará informações semelhantes a estas para todos os domínios SIP autorizados:
+Get-CsSipDomain retornará informações parecidas com isso para todos os domínios SIP autorizados:
 
 Nome da identidade IsDefault
 
@@ -71,7 +73,7 @@ As configurações de reunião incluem definições de política de reunião e s
 
 As definições de configuração de reunião podem ser recuperadas usando o Windows PowerShell e o cmdlet **Get-CsMeetingConfiguration** . Por exemplo, este comando retorna informações sobre as definições de configuração de reunião global:
 
-Get-CsMeetingConfiguration – Identity "global" as definições de configuração de reunião também podem ser configuradas no escopo do site. Por isso, talvez você queira usar o seguinte comando, que retorna informações sobre todas as definições de configuração de reunião:
+Get-CsMeetingConfiguration – Identity "global" as configurações de reunião também podem ser configuradas no escopo do site. Por isso, talvez você queira usar o seguinte comando, que retorna informações sobre todas as definições de configuração de reunião:
 
 `Get-CsMeetingConfiguration`
 
@@ -295,7 +297,7 @@ Como as políticas de arquivamento também podem ser configuradas no site e no e
 
 `Get-CsArchivingPolicy`
 
-As informações recebidas do Get-CsArchivingPolicy serão parecidas com isso:
+As informações recebidas de Get-CsArchivingPolicy serão parecidas com:
 
 Identity: global
 
@@ -321,7 +323,7 @@ Como o CDR também pode ser configurado no escopo do site, você também pode qu
 
 `Get-CsCdrConfiguration`
 
-O cmdlet Get-CsCdrConfiguration retorna informações parecidas com isso para cada conjunto de definições de configuração de CDR:
+O cmdlet Get-CsCdrConfiguration retorna informações semelhantes a estas para cada coleção de definições de configuração de CDR:
 
 Identity: global
 
@@ -377,7 +379,7 @@ Você também pode retornar o FQDN dos seus servidores de monitoramento executan
 
 ## <a name="check-voice-settings"></a>Verificar configurações de voz
 
-As configurações de voz normalmente importantes para os administradores estão contidas em políticas de voz e rotas de voz: as políticas de voz contêm as configurações que determinam os recursos expostos a usuários individuais (como a capacidade de encaminhar ou transferir chamadas), enquanto as rotas de voz determinam como as chamadas (e se) são encaminhadas no PSTN.
+As configurações de voz normalmente importantes para os administradores estão contidas em políticas de voz e rotas de voz: as políticas de voz contêm as configurações que determinam os recursos expostos a usuários individuais (como a capacidade de encaminhar ou transferir chamadas), enquanto as rotas de voz determinam como as chamadas (e IF) são roteadas através do PSTN.
 
 As informações da política de voz podem ser recuperadas usando o Windows PowerShell. Por exemplo, este comando retorna informações sobre a política de voz global:
 
@@ -391,7 +393,7 @@ As informações retornadas pelo cmdlet Get-CsVoicePolicy se assemelham ao segui
 
 Identity: global
 
-PstnUsages{}
+PstnUsages {}
 
 Descrição
 
@@ -437,11 +439,11 @@ Prioridade: 0
 
 Descrição
 
-NumberPattern: ^ (\\+ 1\[0-9\]{10}) $
+NumberPattern: ^ ( \\ + 1 \[ 0-9 \] {10} ) $
 
-PstnUsages{}
+PstnUsages {}
 
-PstnGatewayList :{}
+PstnGatewayList : {}
 
 Nome: LocalRoute
 

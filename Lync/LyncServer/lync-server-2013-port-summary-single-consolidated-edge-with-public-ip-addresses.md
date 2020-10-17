@@ -12,20 +12,22 @@ ms:contentKeyID: 48183685
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f94ac852959ca440f09f8878a17c1e23f7698bd4
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 6aa6c3e2ad475cb641a2df50c1dc0016a5ac2fd9
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42183814"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48534008"
 ---
+# <a name="port-summary---single-consolidated-edge-with-public-ip-addresses-in-lync-server-2013"></a>Resumo de porta-borda consolidada única com endereços IP públicos no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="port-summary---single-consolidated-edge-with-public-ip-addresses-in-lync-server-2013"></a>Resumo de porta-borda consolidada única com endereços IP públicos no Lync Server 2013
+
 
 </div>
 
@@ -73,98 +75,98 @@ Para que o acesso remoto funcione em qualquer serviço de borda, é obrigatório
 <tbody>
 <tr class="odd">
 <td><p>XMPP/TCP/5269</p></td>
-<td><p>Qualquer tamanho</p></td>
+<td><p>Qualquer</p></td>
 <td><p>Serviço de proxy XMPP (compartilha o endereço IP com o serviço de borda de acesso)</p></td>
 <td><p>O serviço de proxy XMPP aceita tráfego de contatos XMPP em federações XMPP definidas</p></td>
 </tr>
 <tr class="even">
 <td><p>Access/HTTP/TCP/80</p></td>
 <td><p>Endereço IP público do serviço de borda de acesso do servidor de borda</p></td>
-<td><p>Qualquer tamanho</p></td>
+<td><p>Qualquer</p></td>
 <td><p>Revogação de certificado/verificação e recuperação CRL</p></td>
 </tr>
 <tr class="odd">
 <td><p>Access/DNS/TCP/53</p></td>
 <td><p>Endereço IP público do serviço de borda de acesso do servidor de borda</p></td>
-<td><p>Qualquer tamanho</p></td>
+<td><p>Qualquer</p></td>
 <td><p>Consulta DNS sobre TCP</p></td>
 </tr>
 <tr class="even">
 <td><p>Access/DNS/UDP/53</p></td>
 <td><p>Endereço IP público do serviço de borda de acesso do servidor de borda</p></td>
-<td><p>Qualquer tamanho</p></td>
+<td><p>Qualquer</p></td>
 <td><p>Consulta DNS sobre UDP</p></td>
 </tr>
 <tr class="odd">
 <td><p>/TCP/443 de acesso/SIP (TLS)</p></td>
-<td><p>Qualquer tamanho</p></td>
+<td><p>Qualquer</p></td>
 <td><p>Endereço IP público do serviço de borda de acesso do servidor de borda</p></td>
 <td><p>Tráfego SIP de cliente a servidor para acesso de usuário externo</p></td>
 </tr>
 <tr class="even">
 <td><p>/TCP/5061 de acesso/SIP (MTLS)</p></td>
-<td><p>Qualquer tamanho</p></td>
+<td><p>Qualquer</p></td>
 <td><p>Endereço IP público do serviço de borda de acesso do servidor de borda</p></td>
 <td><p>Para conectividade a redes públicas e federadas de IM usando SIP</p></td>
 </tr>
 <tr class="odd">
 <td><p>/TCP/5061 de acesso/SIP (MTLS)</p></td>
 <td><p>Endereço IP público do serviço de borda de acesso do servidor de borda</p></td>
-<td><p>Qualquer tamanho</p></td>
+<td><p>Qualquer</p></td>
 <td><p>Para conectividade a redes públicas e federadas de IM usando SIP</p></td>
 </tr>
 <tr class="even">
 <td><p>Webconferência/PSOM (TLS)/TCP/443</p></td>
-<td><p>Qualquer tamanho</p></td>
+<td><p>Qualquer</p></td>
 <td><p>Endereço IP público do serviço de borda de Webconferência do servidor de borda</p></td>
 <td><p>Mídia de webconferência</p></td>
 </tr>
 <tr class="odd">
 <td><p>A/V/RTP/TCP/50000-59.999</p></td>
 <td><p>Endereço IP público do serviço de borda de acesso do servidor de borda</p></td>
-<td><p>Qualquer tamanho</p></td>
+<td><p>Qualquer</p></td>
 <td><p>Necessário para federação com parceiros que executam o Office Communications Server 2007, o Office Communications Server 2007 R2, o Lync Server 2010 e o Lync Server 2013.</p></td>
 </tr>
 <tr class="even">
 <td><p>A/V/RTP/UDP/50000-59.999</p></td>
 <td><p>Endereço IP público do serviço de borda A/V do servidor de borda</p></td>
-<td><p>Qualquer tamanho</p></td>
+<td><p>Qualquer</p></td>
 <td><p>Necessário somente para federação com parceiros que executam o Office Communications Server 2007</p></td>
 </tr>
 <tr class="odd">
 <td><p>A/V/RTP/TCP/50000-59.999</p></td>
-<td><p>Qualquer tamanho</p></td>
+<td><p>Qualquer</p></td>
 <td><p>Endereço IP público do serviço de borda A/V do servidor de borda</p></td>
 <td><p>Necessário somente para federação com parceiros que executam o Office Communications Server 2007.</p></td>
 </tr>
 <tr class="even">
 <td><p>A/V/RTP/UDP/50000-59.999</p></td>
-<td><p>Qualquer tamanho</p></td>
+<td><p>Qualquer</p></td>
 <td><p>Endereço IP público do serviço de borda A/V do servidor de borda</p></td>
 <td><p>Necessário somente para federação com parceiros que executam o Office Communications Server 2007.</p></td>
 </tr>
 <tr class="odd">
 <td><p>A/V/STUN, MSTURN/UDP/3478</p></td>
 <td><p>Endereço IP público do serviço de borda A/V do servidor de borda</p></td>
-<td><p>Qualquer tamanho</p></td>
+<td><p>Qualquer</p></td>
 <td><p>3478 a saída é usada para determinar a versão do servidor de borda com a qual o Lync Server está se comunicando e também para o tráfego de mídia do servidor de borda servidor a borda. Necessário para federação com o Lync Server 2010, o Windows Live Messenger e o Office Communications Server 2007 R2, e também se vários pools de borda estiverem implantados em uma empresa.</p></td>
 </tr>
 <tr class="even">
 <td><p>A/V/STUN, MSTURN/UDP/3478</p></td>
-<td><p>Qualquer tamanho</p></td>
+<td><p>Qualquer</p></td>
 <td><p>Endereço IP público do serviço de borda A/V do servidor de borda</p></td>
 <td><p>Negociação de candidatos STUN/TURN através de UDP/3478</p></td>
 </tr>
 <tr class="odd">
 <td><p>A/V/STUN, MSTURN/TCP/443</p></td>
-<td><p>Qualquer tamanho</p></td>
+<td><p>Qualquer</p></td>
 <td><p>Endereço IP público do serviço de borda A/V do servidor de borda</p></td>
 <td><p>Negociação de candidatos STUN/TURN através de TCP/443</p></td>
 </tr>
 <tr class="even">
 <td><p>A/V/STUN, MSTURN/TCP/443</p></td>
 <td><p>Endereço IP público do serviço de borda A/V do servidor de borda</p></td>
-<td><p>Qualquer tamanho</p></td>
+<td><p>Qualquer</p></td>
 <td><p>Negociação de candidatos STUN/TURN por TCP/443</p></td>
 </tr>
 </tbody>
@@ -185,7 +187,7 @@ Para que o acesso remoto funcione em qualquer serviço de borda, é obrigatório
 <th>Protocolo/TCP ou UDP/Porta</th>
 <th>Endereço IP de origem</th>
 <th>Endereço IP de destino</th>
-<th>Comentários</th>
+<th>Comments</th>
 </tr>
 </thead>
 <tbody>
@@ -221,13 +223,13 @@ Para que o acesso remoto funcione em qualquer serviço de borda, é obrigatório
 </tr>
 <tr class="even">
 <td><p>STUN/MSTURN/UDP/3478</p></td>
-<td><p>Qualquer tamanho</p></td>
+<td><p>Qualquer</p></td>
 <td><p>Interface interna do servidor de borda</p></td>
 <td><p>Caminho preferencial para transferência de mídia A/V entre usuários internos e externos, aparelho de filial persistente ou servidor de filial persistente</p></td>
 </tr>
 <tr class="odd">
 <td><p>STUN/MSTURN/TCP/443</p></td>
-<td><p>Qualquer tamanho</p></td>
+<td><p>Qualquer</p></td>
 <td><p>Interface interna do servidor de borda</p></td>
 <td><p>Caminho de fallback para transferência de mídia A/V entre usuários internos e externos, aparelho de filial persistente ou servidor de filial persistente se a comunicação UDP não puder ser estabelecida, o TCP é usado para transferência de arquivos e compartilhamento de área de trabalho</p></td>
 </tr>
@@ -239,21 +241,21 @@ Para que o acesso remoto funcione em qualquer serviço de borda, é obrigatório
 </tr>
 <tr class="odd">
 <td><p>MTLS/TCP/50001</p></td>
-<td><p>Qualquer tamanho</p></td>
+<td><p>Qualquer</p></td>
 <td><p>Interface interna do servidor de borda</p></td>
-<td><p>Controle de log centralizado usando o Shell de gerenciamento do Lync Server e os cmdlets do serviço de registro em log centralizado, comandos de linha de comando do ClsController (ClsController. exe) ou de agente (ClsAgent. exe) e coleção de logs</p></td>
+<td><p>Controle de log centralizado usando o Shell de gerenciamento do Lync Server e os cmdlets do serviço de registro em log centralizado, comandos de linha de comando do ClsController (ClsController.exe) ou de agente (ClsAgent.exe) e coleção de logs</p></td>
 </tr>
 <tr class="even">
 <td><p>MTLS/TCP/50002</p></td>
-<td><p>Qualquer tamanho</p></td>
+<td><p>Qualquer</p></td>
 <td><p>Interface interna do servidor de borda</p></td>
-<td><p>Controle de log centralizado usando o Shell de gerenciamento do Lync Server e os cmdlets do serviço de registro em log centralizado, comandos de linha de comando do ClsController (ClsController. exe) ou de agente (ClsAgent. exe) e coleção de logs</p></td>
+<td><p>Controle de log centralizado usando o Shell de gerenciamento do Lync Server e os cmdlets do serviço de registro em log centralizado, comandos de linha de comando do ClsController (ClsController.exe) ou de agente (ClsAgent.exe) e coleção de logs</p></td>
 </tr>
 <tr class="odd">
 <td><p>MTLS/TCP/50003</p></td>
-<td><p>Qualquer tamanho</p></td>
+<td><p>Qualquer</p></td>
 <td><p>Interface interna do servidor de borda</p></td>
-<td><p>Controle de log centralizado usando o Shell de gerenciamento do Lync Server e os cmdlets do serviço de registro em log centralizado, comandos de linha de comando do ClsController (ClsController. exe) ou de agente (ClsAgent. exe) e coleção de logs</p></td>
+<td><p>Controle de log centralizado usando o Shell de gerenciamento do Lync Server e os cmdlets do serviço de registro em log centralizado, comandos de linha de comando do ClsController (ClsController.exe) ou de agente (ClsAgent.exe) e coleção de logs</p></td>
 </tr>
 </tbody>
 </table>
@@ -285,7 +287,7 @@ Para que o acesso remoto funcione em qualquer serviço de borda, é obrigatório
 <tr class="odd">
 <td><p>/TCP/5061 de acesso/SIP (MTLS)</p></td>
 <td><p>Endereço IP público do serviço da Borda de Acesso</p></td>
-<td><p>Qualquer tamanho</p></td>
+<td><p>Qualquer</p></td>
 <td><p>Para conectividade a redes públicas e federadas de IM usando SIP</p></td>
 </tr>
 </tbody>
@@ -319,13 +321,13 @@ Para que o acesso remoto funcione em qualquer serviço de borda, é obrigatório
 <td><p>/TCP/5061 de acesso/SIP (MTLS)</p></td>
 <td><p>Parceiros de conectividade pública de IM</p></td>
 <td><p>Serviço de borda de acesso do servidor de borda</p></td>
-<td><p>Para conectividade pública e federada de mensagens instantâneas usando SIP</p></td>
+<td><p>Para conectividade a redes públicas e federadas de IM usando SIP</p></td>
 </tr>
 <tr class="even">
 <td><p>/TCP/5061 de acesso/SIP (MTLS)</p></td>
 <td><p>Serviço de borda de acesso do servidor de borda</p></td>
 <td><p>Parceiros de conectividade pública de IM</p></td>
-<td><p>Para conectividade de IM público e federado usando SIP</p></td>
+<td><p>Para conectividade a redes públicas e federadas de IM usando SIP</p></td>
 </tr>
 <tr class="odd">
 <td><p>/TCP/443 de acesso/SIP (TLS)</p></td>
@@ -343,7 +345,7 @@ Para que o acesso remoto funcione em qualquer serviço de borda, é obrigatório
 <td><p>A/V/STUN, MSTURN/UDP/3478</p></td>
 <td><p>Serviço de borda A/V do servidor de borda</p></td>
 <td><p>Clientes Live Messenger</p></td>
-<td><p>Necessário para conectividade de IM público com Windows Live Messenger</p></td>
+<td><p>Obrigatório para conectividade pública de IM com o Windows Live Messenger</p></td>
 </tr>
 <tr class="even">
 <td><p>A/V/STUN, MSTURN/UDP/3478</p></td>
@@ -374,25 +376,25 @@ Para que o acesso remoto funcione em qualquer serviço de borda, é obrigatório
 <th>Protocolo/TCP ou UDP/Porta</th>
 <th>Origem (endereço IP)</th>
 <th>Destino (endereço IP)</th>
-<th>Comentários</th>
+<th>Comments</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>XMPP/TCP/5269</p></td>
-<td><p>Qualquer tamanho</p></td>
+<td><p>Qualquer</p></td>
 <td><p>Endereço IP da interface de serviço de borda de acesso do servidor de borda</p></td>
 <td><p>Porta padrão de comunicação entre servidores para XMPP. Permite a comunicação com o servidor de borda XMPP proxy de parceiros federados do XMPP</p></td>
 </tr>
 <tr class="even">
 <td><p>XMPP/TCP/5269</p></td>
 <td><p>Endereço IP da interface de serviço de borda de acesso do servidor de borda</p></td>
-<td><p>Qualquer tamanho</p></td>
+<td><p>Qualquer</p></td>
 <td><p>Porta padrão de comunicação entre servidores para XMPP. Permite a comunicação do proxy do servidor de borda XMPP com parceiros federados XMPP</p></td>
 </tr>
 <tr class="odd">
 <td><p>XMPP/MTLS/TCP/23456</p></td>
-<td><p>Qualquer tamanho</p></td>
+<td><p>Qualquer</p></td>
 <td><p>Cada IP de interface de servidor de borda interna</p></td>
 <td><p>Tráfego XMPP interno do Gateway XMPP no servidor front-end ou do pool de front-ends para o endereço IP interno do servidor de borda ou o endereço IP interno de cada membro do pool de borda</p></td>
 </tr>

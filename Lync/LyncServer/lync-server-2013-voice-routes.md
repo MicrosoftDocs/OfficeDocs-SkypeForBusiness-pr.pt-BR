@@ -12,20 +12,22 @@ ms:contentKeyID: 48185038
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 434f7cc92fd6a6bc284074cce476f4bc3b2eca01
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: d0f457fc96981927ea2b6cb4d4177488dc3f5231
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42211067"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48535488"
 ---
+# <a name="voice-routes-in-lync-server-2013"></a>Rotas de voz no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="voice-routes-in-lync-server-2013"></a>Rotas de voz no Lync Server 2013
+
 
 </div>
 
@@ -85,7 +87,7 @@ Para um exemplo de como o roteamento de custo mínimo poderia ser usado, conside
 
 ## <a name="translating-outbound-dial-strings"></a>Como traduzir cadeias de caracteres de discagem de saída
 
-O Lync Server 2013, como seus predecessores imediatos, exige que todas as cadeias de caracteres de discagem sejam normalizadas para o formato E. 164 para o propósito de executar a pesquisa de número reverso (RNL). Para troncos com gateways ou PBXs (Private Branch eXchanges) que exigem números convertidos em formatos de discagem locais, o Lync Server 2013 permite que você crie uma ou mais regras que auxiliam na manipulação do número chamado (ou seja, URI de solicitação) antes de roteá-lo para o Trunk. Por exemplo, você pode escrever uma regra para remover +44 do início da cadeia de caracteres de discagem e subsituí-lo por 0144.
+O Lync Server 2013, como seus predecessores imediatos, exige que todas as cadeias de caracteres de discagem sejam normalizadas para o formato E. 164 para o propósito de executar a pesquisa de número reverso (RNL). Para troncos com gateways ou PBXs (Private Branch eXchanges) que exigem números convertidos em formatos de discagem locais, o Lync Server 2013 permite que você crie uma ou mais regras que auxiliam na manipulação do número chamado (ou seja, URI de solicitação) antes de roteá-lo ao tronco. Por exemplo, você pode escrever uma regra para remover +44 do início da cadeia de caracteres de discagem e subsituí-lo por 0144.
 
 Com o Lync Server 2013, é possível criar uma ou mais regras que auxiliam na manipulação do número de chamada antes de encaminhá-lo ao tronco.
 
@@ -97,7 +99,7 @@ Ao planejar seus troncos que associam gateways: pares de porta com servidor de m
 
 ## <a name="configuring-caller-id"></a>Como configurar o ID de chamador
 
-O Lync Server oferece uma maneira de manipular a ID de chamada para chamadas de saída. Por exemplo, se uma organização deseja mascarar as extensões de discagem direta dos funcionários e substituí-las com o número genérico corporativo ou departamental, um administrador pode fazer isso usando o painel de controle do Lync Server para suprimir a ID de chamadas e substituí-la por uma ID do chamador alternativo especificado. Ao planejar a lógica do seu roteamento, considere para quais indivíduos, grupos e sites você deseja essa opção - talvez, mesmo, para todos os funcionários.
+O Lync Server oferece uma maneira de manipular a ID de chamada para chamadas de saída. Por exemplo, se uma organização deseja mascarar as extensões de discagem direta dos funcionários e substituí-las com o número genérico corporativo ou departamental, um administrador pode fazer isso usando o painel de controle do Lync Server para suprimir a ID de chamadas e substituí-la por uma ID de chamador alternativa especificada. Ao planejar a lógica do seu roteamento, considere para quais indivíduos, grupos e sites você deseja essa opção - talvez, mesmo, para todos os funcionários.
 
 <div>
 

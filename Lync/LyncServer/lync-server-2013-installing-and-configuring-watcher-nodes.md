@@ -12,20 +12,22 @@ ms:contentKeyID: 48184284
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1765e9108619c5947eda02dd758aa764b0b407e6
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 980dc8c92488e3806cd6c1bf15970a79af6fa2b4
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42197054"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48534938"
 ---
+# <a name="installing-and-configuring-watcher-nodes-in-lync-server-2013"></a>Instalando e configurando nós do Inspetor no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="installing-and-configuring-watcher-nodes-in-lync-server-2013"></a>Instalando e configurando nós do Inspetor no Lync Server 2013
+
 
 </div>
 
@@ -39,7 +41,7 @@ _**Última modificação do tópico:** 2013-11-07_
 
 Os *nós do Inspetor* são computadores que executam periodicamente as transações sintéticas do Lync Server. *As transações sintéticas* são cmdlets do Windows PowerShell que verificam se os principais cenários de usuário final, como a capacidade de entrar no sistema, ou a capacidade de trocar mensagens instantâneas, estão funcionando conforme o esperado. Para o Lync Server 2013, o System Center Operations Manager pode executar as transações sintéticas mostradas na tabela a seguir. A tabela mostra três tipos diferentes de transações sintéticas:
 
-  - **Padrão**. Estas são as transações sintéticas que um nó do Inspetor será executado por padrão. Ao criar um novo nó do Inspetor, você tem a opção de especificar quais transações sintéticas esse nó será executado. (Esse é o objetivo do parâmetro tests usado pelo cmdlet **New-CsWatcherNodeConfiguration** .) Se você não usar o parâmetro tests quando o nó do Inspetor for criado, ele executará automaticamente todas as transações sintéticas padrão e não executará qualquer uma das transações sintéticas não padrão. Isso significa, por exemplo, que o nó do Inspetor será configurado para executar o teste Test-CsAddressBookService, mas não será configurado para executar o teste Test-CsExumConnectivity.
+  - **Padrão**. Estas são as transações sintéticas que um nó do Inspetor será executado por padrão. Ao criar um novo nó do Inspetor, você tem a opção de especificar quais transações sintéticas esse nó será executado. (Esse é o objetivo do parâmetro tests usado pelo cmdlet **New-CsWatcherNodeConfiguration** .) Se você não usar o parâmetro tests quando o nó do Inspetor for criado, ele executará automaticamente todas as transações sintéticas padrão e não executará qualquer uma das transações sintéticas não padrão. Isso significa, por exemplo, que o nó do Inspetor será configurado para executar o teste de Test-CsAddressBookService, mas não será configurado para executar o teste de Test-CsExumConnectivity.
 
   - **Não padrão**. Como o nome já diz, as transações sintéticas não padrão são testes que os nós do inspetor não executam por padrão. No entanto, o nó do inspetor pode ser habilitado para executar qualquer uma das transações sintéticas não padrão. Você pode fazer isso ao criar o nó do inspetor (usando o cmdlet **New-CsWatcherNodeConfiguration**) ou a qualquer momento após a criação. Muitas das transações sintéticas não padrão exigem etapas de configuração adicionais. Para obter detalhes, consulte [instruções de configuração especial para transações sintéticas no Lync Server 2013](lync-server-2013-special-setup-instructions-for-synthetic-transactions.md).
 
@@ -164,7 +166,7 @@ Não é necessário instalar nós do inspetor para usar o System Center Operatio
 
 
 > [!NOTE]  
-> Os administradores também podem executar transações sintéticas manualmente, sem a necessidade de usar ou instalar o Operations Manager. Para obter detalhes sobre os vários cmdlets Test-cs, consulte o <A href="https://docs.microsoft.com/powershell/module/skype/?view=skype-ps">índice de cmdlets do Lync Server 2013</A>.
+> Os administradores também podem executar transações sintéticas manualmente, sem a necessidade de usar ou instalar o Operations Manager. Para obter detalhes sobre os vários cmdlets do Test-Cs, consulte o <A href="https://docs.microsoft.com/powershell/module/skype/?view=skype-ps">índice de cmdlets do Lync Server 2013</A>.
 
 
 

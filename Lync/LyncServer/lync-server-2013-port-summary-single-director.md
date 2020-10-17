@@ -12,20 +12,22 @@ ms:contentKeyID: 48183322
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 27095f154d4a79af949d3568bb444adfc83699c9
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 541cd7eb560cd9d509c5c0beec206803f2cddecc
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42208947"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48533988"
 ---
+# <a name="port-summary---single-director-in-lync-server-2013"></a>Resumo de porta-diretor único no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="port-summary---single-director-in-lync-server-2013"></a>Resumo de porta-diretor único no Lync Server 2013
+
 
 </div>
 
@@ -60,18 +62,18 @@ Os requisitos de porta de firewall para um único diretor consistem nas portas u
 <tr class="odd">
 <td><p>HTTP/TCP 8080</p></td>
 <td><p>Interface interna do proxy reverso</p></td>
-<td><p>Be</p></td>
+<td><p>Diretor</p></td>
 <td><p>Recebido inicialmente pelo lado externo do proxy reverso, a comunicação é enviada para os serviços Web diretor e servidor front-end</p></td>
 </tr>
 <tr class="even">
 <td><p>HTTPS/TCP 4443</p></td>
 <td><p>Interface interna do proxy reverso</p></td>
-<td><p>Be</p></td>
+<td><p>Diretor</p></td>
 <td><p>Recebido inicialmente pelo lado externo do proxy reverso, a comunicação é enviada para os serviços Web diretor e servidor front-end</p></td>
 </tr>
 <tr class="odd">
 <td><p>HTTPS/TCP 444</p></td>
-<td><p>Be</p></td>
+<td><p>Diretor</p></td>
 <td><p>Servidor Front-End ou pool de Front-Ends</p></td>
 <td><p>Comunicação entre servidores entre o diretor e o servidor front-end</p></td>
 </tr>
@@ -90,24 +92,24 @@ Os requisitos de porta de firewall para um único diretor consistem nas portas u
 <tr class="even">
 <td><p>SIP/MTLS/5061</p></td>
 <td><p>Interface interna do servidor de borda</p></td>
-<td><p>Be</p></td>
+<td><p>Diretor</p></td>
 <td><p>Comunicação SIP do servidor de borda para o diretor e o servidor front-end.</p></td>
 </tr>
 <tr class="odd">
 <td><p>MTLS/TCP/50001</p></td>
-<td><p>Qualquer tamanho</p></td>
+<td><p>Qualquer</p></td>
 <td><p>Interface interna do servidor de borda</p></td>
 <td><p>Comandos e coleção de registros do controlador (ClsController.exe) ou agente (ClasAgent.exe) de serviços centralizados de registro</p></td>
 </tr>
 <tr class="even">
 <td><p>MTLS/TCP/50002</p></td>
-<td><p>Qualquer tamanho</p></td>
+<td><p>Qualquer</p></td>
 <td><p>Interface interna do servidor de borda</p></td>
 <td><p>Comandos e coleção de registros do controlador (ClsController.exe) ou agente (ClasAgent.exe) de serviços centralizados de registro</p></td>
 </tr>
 <tr class="odd">
 <td><p>MTLS/TCP/50003</p></td>
-<td><p>Qualquer tamanho</p></td>
+<td><p>Qualquer</p></td>
 <td><p>Interface interna do servidor de borda</p></td>
 <td><p>Comandos e coleção de registros do controlador (ClsController.exe) ou agente (ClasAgent.exe) de serviços centralizados de registro</p></td>
 </tr>

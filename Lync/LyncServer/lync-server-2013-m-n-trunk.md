@@ -12,20 +12,22 @@ ms:contentKeyID: 48185592
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: accb2efafddc9253deda7fa20006dd9093e32496
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 91c0878623a68863aea219d1b3f3735042abc085
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42186004"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48534588"
 ---
+# <a name="mn-trunk-in-lync-server-2013"></a>Tronco M:N no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="mn-trunk-in-lync-server-2013"></a>Tronco M:N no Lync Server 2013
+
 
 </div>
 
@@ -49,9 +51,9 @@ O servidor de mediação pode ser implantado como um pool; esse pool pode ser co
 
   - **Controlador de borda de sessão.** Para um tronco SIP, a entidade par é um controlador de borda de sessão (SBC) em um provedor de serviços de telefonia da Internet. Na direção do pool do servidor de mediação até o SBC, o SBC pode receber conexões de qualquer servidor de mediação no pool. Na direção do SBC para o pool, o tráfego pode ser enviado para qualquer servidor de mediação no pool. Um método de obter isso é por meio do balanceamento de carga DNS, se houver suporte do provedor de serviços e do SBC. Uma alternativa é fornecer ao provedor de serviços os endereços IP de todos os servidores de mediação no pool e o provedor de serviços provisioná-los em seu SBC como um tronco SIP separado para cada servidor de mediação. O provedor de serviços irá manipular o balanceamento de carga para seus próprios servidores. Nem todos os provedores de serviços ou SBCs podem oferecer suporte a esses recursos. Além disso, o provedor de serviços pode cobrar extra por esse recurso. Geralmente, cada tronco SIP para o SBC provoca uma taxa mensal.
 
-  - **IP-PBX.** Na direção do pool do servidor de mediação para o encerramento SIP IP-PBX, o IP-PBX pode receber conexões de qualquer servidor de mediação no pool. Na direção do IP-PBX ao pool, o tráfego pode ser enviado para qualquer servidor de mediação no pool. Como a maioria dos IP-PBXs não oferece suporte ao balanceamento de carga DNS, recomendamos que as conexões SIP diretas individuais sejam definidas a partir do IP-PBX para cada servidor de mediação no pool. O IP-PBX manipulará seu próprio balanceamento de carga distribuindo o tráfego no grupo de troncos. A pressuposição é que o grupo de troncos tem um conjunto consistente de regras de roteamento no IP-PBX. Se um IP-PBX específico oferece suporte a esse conceito de grupo de tronco e como ele faz interseção com a redundância de IP-PBX e a arquitetura de clustering precisa ser determinada para que você possa decidir se um cluster de servidor de mediação pode interagir corretamente com um IP-PBX.
+  - **IP-PBX.** Na direção do pool do servidor de mediação para o encerramento SIP IP-PBX, o IP-PBX pode receber conexões de qualquer servidor de mediação no pool. Na direção do IP-PBX ao pool, o tráfego pode ser enviado para qualquer servidor de mediação no pool. Como a maioria dos IP-PBXs não dá suporte ao balanceamento de carga DNS, recomendamos que as conexões SIP diretas individuais sejam definidas a partir do IP-PBX para cada servidor de mediação no pool. O IP-PBX manipulará seu próprio balanceamento de carga distribuindo o tráfego no grupo de troncos. A pressuposição é que o grupo de troncos tem um conjunto consistente de regras de roteamento no IP-PBX. Se um IP-PBX específico oferece suporte a esse conceito de grupo de tronco e como ele faz interseção com a redundância de IP-PBX e a arquitetura de clustering precisa ser determinada para que você possa decidir se um cluster de servidor de mediação pode interagir corretamente com um IP-PBX.
 
-Um pool de servidor de mediação deve ter uma visão uniforme do gateway par com o qual ele interage. Isso significa que todos os membros do pool acessam a mesma definição do gateway par do repositório de configuração e têm igualmente de interagir com ele para chamadas de saída. Portanto, não há uma maneira de segmentar o pool para que alguns servidores de mediação se comuniquem somente com determinados pares de gateway para chamadas de saída. Se essa segmentação for necessária, um pool separado de servidores de mediação deverá ser usado. Esse será o caso, por exemplo, se os recursos associados em gateways PSTN, troncos SIP ou PBXs IP para interagir com um pool, conforme descrito anteriormente neste tópico, não estão presentes.
+Um pool de servidor de mediação deve ter uma visão uniforme do gateway par com o qual ele interage. Isso significa que todos os membros do pool acessam a mesma definição do gateway par do repositório de configuração e têm igualmente de interagir com ele para chamadas de saída. Portanto, não há uma maneira de segmentar o pool para que alguns servidores de mediação se comuniquem somente com determinados pares de gateway para chamadas de saída. Se essa segmentação for necessária, um pool separado de servidores de mediação deverá ser usado. Esse será o caso, por exemplo, se os recursos associados em gateways PSTN, troncos SIP ou IP-PBXs para interagir com um pool, conforme descrito anteriormente neste tópico, não estão presentes.
 
 Um gateway PSTN específico, IP-PBX ou par de tronco SIP pode ser roteado para vários servidores de mediação ou troncos. O número de gateways que um pool específico de servidores de mediação pode controlar depende do número de chamadas que usam bypass de mídia. Se um grande número de chamadas usar o bypass de mídia, um servidor de mediação no pool pode lidar com muito mais chamadas, porque apenas o processamento da camada de sinalização é necessário.
 

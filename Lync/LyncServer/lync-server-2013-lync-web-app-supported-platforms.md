@@ -12,20 +12,22 @@ ms:contentKeyID: 48183808
 ms.date: 06/12/2019
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fcc5de45da918547a2c26b0e3fcc1e7768c1cbe8
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 528be9cdc6ba5a256aa3d18e784a26837716802f
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42186094"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48534608"
 ---
+# <a name="lync-web-app-supported-platforms-for-lync-server-2013"></a>Plataformas com suporte do Lync Web App para o Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="lync-web-app-supported-platforms-for-lync-server-2013"></a>Plataformas com suporte do Lync Web App para o Lync Server 2013
+
 
 </div>
 
@@ -86,10 +88,10 @@ Para usar o Lync Web App, você deve ter uma das seguintes combinações de sist
 <td><p>Windows 10</p></td>
 <td><p>Sim</p></td>
 <td><p>Sim</p></td>
-<td><p>Não disponível</p></td>
-<td><p>Não disponível</p></td>
-<td><p>Não disponível</p></td>
-<td><p>Não disponível</p></td>
+<td><p>N/D</p></td>
+<td><p>N/D</p></td>
+<td><p>N/D</p></td>
+<td><p>N/D</p></td>
 <td><p>Não</p></td>
 <td><p>Não</p></td>
 <td><p>N/D</p></td>
@@ -99,10 +101,10 @@ Para usar o Lync Web App, você deve ter uma das seguintes combinações de sist
 <td><p>Windows 8,1<sup>1</sup></p></td>
 <td><p>N/D</p></td>
 <td><p>Sim</p></td>
-<td><p>Não disponível</p></td>
-<td><p>Não disponível</p></td>
-<td><p>Não disponível</p></td>
-<td><p>Não disponível</p></td>
+<td><p>N/D</p></td>
+<td><p>N/D</p></td>
+<td><p>N/D</p></td>
+<td><p>N/D</p></td>
 <td><p>Não</p></td>
 <td><p>Não</p></td>
 <td><p>N/D</p></td>
@@ -110,12 +112,12 @@ Para usar o Lync Web App, você deve ter uma das seguintes combinações de sist
 </tr>
 <tr class="even">
 <td><p>Windows 8 (baseado em Intel)<sup>1</sup></p></td>
-<td><p>Não disponível</p></td>
-<td><p>Não disponível</p></td>
+<td><p>N/D</p></td>
+<td><p>N/D</p></td>
 <td><p>Sim</p></td>
 <td><p>Sim</p></td>
-<td><p>Não disponível</p></td>
-<td><p>Não disponível</p></td>
+<td><p>N/D</p></td>
+<td><p>N/D</p></td>
 <td><p>Não</p></td>
 <td><p>Não</p></td>
 <td><p>N/D</p></td>
@@ -162,12 +164,12 @@ Para usar o Lync Web App, você deve ter uma das seguintes combinações de sist
 </tr>
 <tr class="even">
 <td><p>Mac OS X 10,7 e posterior (baseado em Intel)<sup>2</sup></p></td>
-<td><p>Não disponível</p></td>
-<td><p>Não disponível</p></td>
-<td><p>Não disponível</p></td>
-<td><p>Não disponível</p></td>
-<td><p>Não disponível</p></td>
-<td><p>Não disponível</p></td>
+<td><p>N/D</p></td>
+<td><p>N/D</p></td>
+<td><p>N/D</p></td>
+<td><p>N/D</p></td>
+<td><p>N/D</p></td>
+<td><p>N/D</p></td>
 <td><p>Não</p></td>
 <td><p>Não</p></td>
 <td><p>Sim</p></td>
@@ -183,7 +185,7 @@ Para usar o Lync Web App, você deve ter uma das seguintes combinações de sist
 
 <sup>3</sup> em sistemas operacionais Windows Server 2008 compatíveis, voz e vídeo baseados no computador não estão disponíveis. A visualização de aplicativos, compartilhamento de aplicativos, exibição de área de trabalho e compartilhamento de área de trabalho estão disponíveis.
 
-<sup>4</sup> o plug-in requer suporte para NPAPI no navegador. O Firefox removeu o suporte para NPAPI na versão 52,0 e o Chrome removeu o suporte na versão 45, portanto, esses navegadores não têm mais suporte em suas versões atuais.
+<sup>4</sup>  o plug-in requer suporte para NPAPI no navegador. O Firefox removeu o suporte para NPAPI na versão 52,0 e o Chrome removeu o suporte na versão 45, portanto, esses navegadores não têm mais suporte em suas versões atuais.
 
 </div>
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 48185465
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6a5565080f2b5fab0f47cc944f9569f55e8721c4
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 3484dd6ff1404d5d2a4adf77c4ab27a5a29e66b7
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42194884"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48533808"
 ---
+# <a name="technical-requirements-for-ipv6-in-lync-server-2013"></a>Requisitos técnicos para IPv6 no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="technical-requirements-for-ipv6-in-lync-server-2013"></a>Requisitos técnicos para IPv6 no Lync Server 2013
+
 
 </div>
 
@@ -43,7 +45,7 @@ Se você planeja configurar o Lync Server 2013 para IPv6, tenha em mente os segu
     
     É possível implantar registros de host DNS IPv6 antes de iniciar a usar o IPv6. Se o cliente ou servidor não usar IPv6, o registro não será referenciado. As tecnologias transicionais tomarão a decisão sobre qual registro usar, com base na configuração de tecnologia de transição e políticas.
 
-  - Cada endereço IPv6 possui um escopo. Os três escopos que você pode usar para o endereçamento IPv6 são endereços globais IPv6 (semelhantes aos endereços IPv4 públicos), endereços locais exclusivos IPv6 (semelhantes aos intervalos de endereços IPv4 privados) e endereços de link local IPv6 (semelhante aos endereços IP privados automáticos no Servidor do Windows para IPv4). Todos os servidores em um pool devem ter endereços IPv6 com o mesmo escopo.
+  - Cada endereço IPv6 possui um escopo. Os três escopos que você pode usar para o endereçamento IPv6 são endereços globais IPv6 (semelhantes aos endereços IPv4 públicos), endereços locais exclusivos IPv6 (semelhantes aos intervalos de endereços IPv4 privados) e endereços de link local IPv6 (semelhante aos endereços IP privados automáticos no Windows Server para IPv4). Todos os servidores em um pool devem ter endereços IPv6 com o mesmo escopo.
 
 <div>
 

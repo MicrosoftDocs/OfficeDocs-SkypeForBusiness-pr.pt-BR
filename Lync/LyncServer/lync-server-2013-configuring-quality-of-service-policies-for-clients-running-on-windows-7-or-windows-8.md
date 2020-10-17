@@ -12,20 +12,22 @@ ms:contentKeyID: 48185785
 ms.date: 03/29/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2c372cae4bd55f4dec59be91c47dbee6497cbf7e
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 2cd058e2903160f1c9f4ea06e30959b63953ab01
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42205997"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48534968"
 ---
+# <a name="configuring-quality-of-service-policies-in-lync-server-2013-for-clients-running-on-windows-7-or-windows-8"></a>Configurando políticas de qualidade de serviço no Lync Server 2013 para clientes que executam o Windows 7 ou Windows 8
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-quality-of-service-policies-in-lync-server-2013-for-clients-running-on-windows-7-or-windows-8"></a>Configurando políticas de qualidade de serviço no Lync Server 2013 para clientes que executam o Windows 7 ou Windows 8
+
 
 </div>
 
@@ -94,7 +96,7 @@ Para criar uma política de áudio de qualidade de serviço para computadores co
 
 6.  Na caixa de diálogo **QoS baseada em política** , na página de abertura, digite um nome para a nova política (por exemplo, **áudio do Lync**) na caixa **nome** . Selecione **Especificar valor de DSCP** e defina o valor como **46**. Deixe a opção **Especificar Taxa de Aceleração de Saída** desmarcada e clique em **Avançar**.
 
-7. Na próxima página, selecione **somente aplicativos com esse nome executável** e digite o nome **Lync. exe**e clique em **Avançar**. Essa configuração instrui a política a priorizar apenas o tráfego de correspondência do cliente do Lync.
+7. Na próxima página, selecione **somente aplicativos com esse nome executável** e digite o nome **Lync.exe**e clique em **Avançar**. Essa configuração instrui a política a priorizar apenas o tráfego de correspondência do cliente do Lync.
 
 8.  Na terceira página, certifique-se de que ambas as opções **Qualquer endereço IP de origem** e **Qualquer endereço IP de destino** estejam selecionadas e clique em **Avançar**. Essas duas configurações garantem que os pacotes serão gerenciados independente de qual computador (endereço IP) tenha os enviado e de qual computador (endereço IP) os receberá.
 
@@ -140,7 +142,7 @@ Para ajudar a garantir que os pacotes de rede sejam marcados com o valore DSCP c
 
 2.  Na caixa de diálogo **Executar**, digite **regedit** e pressione ENTER.
 
-3.  No editor do registro, expanda **\_hKey\_local Machine**, expanda **System**, expanda **CurrentControlSet**, expanda **Services**e, em seguida, expanda **tcpip**.
+3.  No editor do registro, expanda **HKEY \_ local \_ Machine**, expanda **System**, expanda **CurrentControlSet**, expanda **Services**e, em seguida, expanda **tcpip**.
 
 4.  Clique com o botão direito em **Tcpip**, aponte para **Novo** e clique em **Chave**. Depois de criar a nova chave de registro, digite **QoS** e pressione ENTER para renomear a chave.
 
@@ -162,7 +164,7 @@ Se quiser marcar valores de DSCP para todos os adaptadores de rede em um computa
 
 2.  Na caixa de diálogo **Executar**, digite **regedit** e pressione ENTER.
 
-3.  No editor do registro, expanda **\_hKey\_local Machine**, expanda **System**, expanda **CurrentControlSet**, expanda **Services**e, em seguida, expanda **tcpip**.
+3.  No editor do registro, expanda **HKEY \_ local \_ Machine**, expanda **System**, expanda **CurrentControlSet**, expanda **Services**e, em seguida, expanda **tcpip**.
 
 4.  Se você não vir uma chave de registro identificada por **QoS** , clique com o botão direito em **tcpip**, aponte para **novo**e clique em **chave**. Após a criação da nova chave, digite **QoS** e pressione ENTER para renomear a chave.
 

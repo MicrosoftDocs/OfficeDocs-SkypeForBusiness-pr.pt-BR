@@ -12,20 +12,22 @@ ms:contentKeyID: 56737622
 ms.date: 04/09/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7b475911da0e0508fecb53de533f75e9feb10155
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 54b772311865a36ba17699fc876c32c5504214e5
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42187604"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48534898"
 ---
+# <a name="installing-the-lync-room-system-administrative-web-portal-in-lync-server-2013"></a>Instalando o portal da Web administrativo do sistema de salas do Lync no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="installing-the-lync-room-system-administrative-web-portal-in-lync-server-2013"></a>Instalando o portal da Web administrativo do sistema de salas do Lync no Lync Server 2013
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42187604"
 
 _**Última modificação do tópico:** 2015-04-09_
 
-Você pode baixar o portal da Web administrativo do sistema de salas do Microsoft Lync no centro [https://go.microsoft.com/fwlink/p/?LinkId=324044](https://go.microsoft.com/fwlink/p/?linkid=324044)de download da Microsoft em.
+Você pode baixar o portal da Web administrativo do sistema de salas do Microsoft Lync no centro de download da Microsoft em [https://go.microsoft.com/fwlink/p/?LinkId=324044](https://go.microsoft.com/fwlink/p/?linkid=324044) .
 
 Para instalar o portal da Web administrativo do sistema de salas do Lync, use as etapas a seguir.
 
@@ -45,21 +47,21 @@ Para instalar o portal da Web administrativo do sistema de salas do Lync, use as
     
         Set-CsWebServer -Identity POOLFQDN -MeetingRoomAdminPortalInternalListeningPort 4456 -MeetingRoomAdminPortalExternalListeningPort 4457
 
-2.  Para instalar o portal de sala de reunião, baixe o **LyncRoomAdminPortal. exe** e execute-o como administrador.
+2.  Para instalar o portal de sala de reunião, baixe **LyncRoomAdminPortal.exe** e, em seguida, execute-o como administrador.
 
-3.  Abra o arquivo Web. config no seguinte local:
+3.  Abra o arquivo Web.config do seguinte local:
     
-    % Arquivos de programa\\% Microsoft Lync Server\\2013 manipulador\\de sala de\\reunião\\de Web Components int do portal\\
+    % Arquivos de programa% \\ Microsoft Lync Server 2013 manipulador de \\ sala de reunião de Web Components \\ int do portal \\ \\\\
 
-4.  No arquivo Web. config, altere o PortalUserName para o nome de usuário criado na etapa 2 na seção "Configurando pré-requisitos para o portal de administração do sistema de salas do Lync" (o nome recomendado na etapa é LRSApp):
+4.  No arquivo Web.Config, altere o PortalUserName para o nome de usuário criado na etapa 2, abaixo da seção "Configurando pré-requisitos para o portal de administração do sistema de salas do Lync" (o nome recomendado na etapa é LRSApp):
     
         <add key="PortalUserName" value="sip:LRSApp@domain.com" />
 
-5.  Como o portal de administração do LRS é um aplicativo confiável, você não precisa fornecer a senha na configuração do Portal. Se este usuário estiver usando um registrador diferente do registrador local, você precisará especificar o registrador para ele adicionando a seguinte linha no arquivo Web. config:
+5.  Como o portal de administração do LRS é um aplicativo confiável, você não precisa fornecer a senha na configuração do Portal. Se este usuário estiver usando um registrador diferente do registrador local, você precisará especificar o registrador para ele adicionando a seguinte linha no arquivo de Web.Config:
     
         <add key="PortalUserRegistrarFQDN" value="pool-xxxx.domain.com" />
 
-6.  Se a porta usada for diferente de 5061, adicione a seguinte linha no arquivo Web. config:
+6.  Se a porta usada for diferente de 5061, adicione a seguinte linha no arquivo Web.Config:
     
         <add key="PortalUserRegistrarPort" value="5061" />
 
@@ -72,7 +74,7 @@ Para verificar a instalação do portal da Web administrativo do sistema de sala
 
 1.  Em um servidor front-end, navegue até a seguinte URL:
     
-    https://\<FE-servidor\>/lRS
+    https:// \<fe-server\> /lRS
     
     Você não verá nenhum erro, conforme mostrado na imagem a seguir:
     
@@ -80,9 +82,9 @@ Para verificar a instalação do portal da Web administrativo do sistema de sala
 
 2.  Se você não vir nenhum erro, tente acessar a seguinte URL de qualquer outro computador na topologia:
     
-    https://\<FE-servidor\>/lRS
+    https:// \<fe-server\> /lRS
     
-    Para acessar a página, você precisará adicionar os registros DNS, conforme descrito em "registros de DNS necessários para entrada automática de cliente" em [https://go.microsoft.com/fwlink/p/?LinkId=318056](https://go.microsoft.com/fwlink/p/?linkid=318056).
+    Para acessar a página, você precisará adicionar os registros DNS, conforme descrito em "registros de DNS necessários para entrada automática de cliente" em [https://go.microsoft.com/fwlink/p/?LinkId=318056](https://go.microsoft.com/fwlink/p/?linkid=318056) .
 
 </div>
 

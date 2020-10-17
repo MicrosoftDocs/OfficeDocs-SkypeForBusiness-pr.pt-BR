@@ -12,20 +12,22 @@ ms:contentKeyID: 48185552
 ms.date: 03/07/2017
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7be6cd7dcf58cae1cfe794c6a27d27fc5aaa5193
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: b63ee7f494b131fc194d6bf9d028525efd71cf0a
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42186104"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48534678"
 ---
+# <a name="lync-vdi-plug-in-prerequisites-in-lync-server-2013"></a>Pré-requisitos do plug-in VDI do Lync no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="lync-vdi-plug-in-prerequisites-in-lync-server-2013"></a>Pré-requisitos do plug-in VDI do Lync no Lync Server 2013
+
 
 </div>
 
@@ -46,9 +48,9 @@ Em um ambiente de infraestrutura de área de trabalho virtual (VDI), as máquina
 > Consulte o provedor de solução de virtualização para obter detalhes sobre como instalar e implantar o ambiente virtualizado. Para obter informações sobre como implantar um ambiente virtualizado com base nos Serviços de Área de Trabalho Remota e Hyper-V, consulte os artigos a seguir na Biblioteca TechNet da Microsoft: 
 > <UL>
 > <LI>
-> <P>Hyper-V em<A class=uri href="https://go.microsoft.com/fwlink/p/?linkid=247514">https://go.microsoft.com/fwlink/p/?linkid=247514</A></P>
+> <P>Hyper-V em <A class=uri href="https://go.microsoft.com/fwlink/p/?linkid=247514">https://go.microsoft.com/fwlink/p/?linkid=247514</A></P>
 > <LI>
-> <P>Serviços de área de trabalho remota&nbsp;no&nbsp;Windows Server 2008 R2 em<A class=uri href="https://go.microsoft.com/fwlink/p/?linkid=247513">https://go.microsoft.com/fwlink/p/?linkid=247513</A></P></LI></UL>
+> <P>Serviços de área de trabalho remota no Windows Server &nbsp; 2008 &nbsp; R2 em <A class=uri href="https://go.microsoft.com/fwlink/p/?linkid=247513">https://go.microsoft.com/fwlink/p/?linkid=247513</A></P></LI></UL>
 
 
 
@@ -66,7 +68,7 @@ Estes são os requisitos para o usuário e o computador local do usuário:
 
   - Se você estiver usando os serviços de área de trabalho remota, a leitura de bits do plug-in VDI do Lync (ou seja, se o aplicativo for 32 bits ou 64 bits) deve corresponder ao bit de bits do sistema operacional do computador local. O bitness do sistema operacional no computador local e o sistema operacional na máquina virtual não precisam corresponder. Se você estiver usando outra solução de virtualização ou plataforma, consulte o guia do seu provedor de solução de virtualização sobre os requisitos de bitness.
 
-  - O computador local deve estar executando a versão mais atual do cliente de área de trabalho remota. Instale as últimas atualizações do cliente dos Serviços da Área de Trabalho Remota da Microsoft ou o software do cliente de área de trabalho remota mais atual do seu provedor de solução de virtualização. Para obter as atualizações mais recentes dos serviços de [https://go.microsoft.com/fwlink/p/?LinkId=268032](https://go.microsoft.com/fwlink/p/?linkid=268032)área de trabalho remota, consulte.
+  - O computador local deve estar executando a versão mais atual do cliente de área de trabalho remota. Instale as últimas atualizações do cliente dos Serviços da Área de Trabalho Remota da Microsoft ou o software do cliente de área de trabalho remota mais atual do seu provedor de solução de virtualização. Para obter as atualizações mais recentes dos serviços de área de trabalho remota, consulte [https://go.microsoft.com/fwlink/p/?LinkId=268032](https://go.microsoft.com/fwlink/p/?linkid=268032) .
 
   - No computador local, as configurações do cliente de área de trabalho remota devem ser definidas para que o áudio reproduza o computador local e a gravação remota esteja desabilitada. Para definir essas configurações para a conexão de área de trabalho remota no Windows, confira a próxima seção, "para definir as configurações da conexão de área de trabalho remota".
 
@@ -76,7 +78,7 @@ Estes são os requisitos para o usuário e o computador local do usuário:
 
 Para preparar a conexão de área de trabalho remota no Windows para o plug-in VDI do Lync, siga estas etapas.
 
-1.  Se o computador local estiver executando o Windows 8, pule esta etapa. Se o computador local estiver executando o Windows 7 com SP1, instale a versão mais recente do Windows 8 do cliente de serviços de área [https://go.microsoft.com/fwlink/p/?LinkId=268032](https://go.microsoft.com/fwlink/p/?linkid=268032)de trabalho remota, disponível em.
+1.  Se o computador local estiver executando o Windows 8, pule esta etapa. Se o computador local estiver executando o Windows 7 com SP1, instale a versão mais recente do Windows 8 do cliente de serviços de área de trabalho remota, disponível em [https://go.microsoft.com/fwlink/p/?LinkId=268032](https://go.microsoft.com/fwlink/p/?linkid=268032) .
 
 2.  Inicie o cliente dos Serviços de Área de Trabalho Remota clicando em **Iniciar** e em **Conexão da Área de Trabalho Remota**.
 

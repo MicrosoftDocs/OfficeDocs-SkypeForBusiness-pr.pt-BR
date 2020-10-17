@@ -12,20 +12,22 @@ ms:contentKeyID: 49733807
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 164c58859a6e92abfbb50b79c12b587c3b65c1a4
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 2fc5aec6371bff867c2e33dbe7b88aa0d2a888c0
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42185964"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48534538"
 ---
+# <a name="manage-announcements-during-disaster-recovery-in-lync-server-2013"></a>Gerenciar comunicados durante recuperação de desastre no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="manage-announcements-during-disaster-recovery-in-lync-server-2013"></a>Gerenciar comunicados durante recuperação de desastre no Lync Server 2013
+
 
 </div>
 
@@ -47,7 +49,7 @@ Esta seção se aplica a intervalos de números não atribuídos que usam o apli
 
 Independentemente de você optar por usar comunicados durante as interrupções, você deve fazer backups separados de qualquer arquivo de áudio personalizado que você configurou para o aplicativo de comunicado. Não é feito backup dos comunicados personalizados como parte do processo de recuperação de desastres do Lync Server. Se você não realizar backups separados dos arquivos e os arquivos que você carregou ao servidor ou pool estão danificados, corrompidos ou apagados, os arquivos serão perdidos.
 
-Se você não tem cópias de backup de arquivos de áudio personalizados e os arquivos de áudio originais não estão mais disponíveis, você pode encontrar os arquivos de áudio que você configurou para um aplicativo de anúncio procurando no repositório de arquivos do servidor ou pool onde você originalmente importado os arquivos. Você pode copiar todos os arquivos de áudio que você configurou para o aplicativo de anúncio no repositório de arquivos.
+Se você não tem cópias de backup de arquivos de áudio personalizados e os arquivos de áudio originais não estão mais disponíveis, você pode encontrar os arquivos de áudio que você configurou para um aplicativo de anúncio, procurando no repositório de arquivos do servidor ou pool em que você importou originalmente os arquivos. Você pode copiar todos os arquivos de áudio que você configurou para o aplicativo de anúncio no repositório de arquivos.
 
 **Para copiar arquivos de áudio do repositório de arquivos**
 

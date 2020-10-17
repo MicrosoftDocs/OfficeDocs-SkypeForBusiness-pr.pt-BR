@@ -12,20 +12,22 @@ ms:contentKeyID: 48184251
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6259614da322e79f69db40441125b28c95e379c9
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: dfe8a797fa926899774386101ff57fa5733b9918
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42183904"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48534148"
 ---
+# <a name="port-summary---reverse-proxy-in-lync-server-2013"></a>Resumo de porta-proxy reverso no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="port-summary---reverse-proxy-in-lync-server-2013"></a>Resumo de porta-proxy reverso no Lync Server 2013
+
 
 </div>
 
@@ -82,14 +84,14 @@ O proxy reverso tem requisitos mínimos de firewall e porta/protocolo.
 <tbody>
 <tr class="odd">
 <td><p>HTTP/TCP/80</p></td>
-<td><p>Qualquer tamanho</p></td>
+<td><p>Qualquer</p></td>
 <td><p>Ouvinte de proxy reverso</p></td>
-<td><p>Opcion Redirecionamento para HTTPS se o usuário inserir&lt;http://&gt;publishedSiteFQDN.</p>
+<td><p>Opcion Redirecionamento para HTTPS se o usuário inserir http:// &lt; publishedSiteFQDN &gt; .</p>
 <p>Também necessário se estiver usando o Office Web Apps para conferência e o serviço de descoberta automática para dispositivos móveis que executam o Lync em situações em que a organização não deseja modificar o certificado de regra de publicação do serviço Web externo.</p></td>
 </tr>
 <tr class="even">
 <td><p>HTTPS/TCP/443</p></td>
-<td><p>Qualquer tamanho</p></td>
+<td><p>Qualquer</p></td>
 <td><p>Ouvinte de proxy reverso</p></td>
 <td><p>Downloads do catálogo de endereços, serviço de consulta à Web do catálogo de endereços, descoberta automática, atualizações do cliente, conteúdo da reunião, atualizações de dispositivo, expansão de grupo, Office Web Apps para conferência, conferência discada e reuniões.</p></td>
 </tr>

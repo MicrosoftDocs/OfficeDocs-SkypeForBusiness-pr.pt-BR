@@ -12,20 +12,22 @@ ms:contentKeyID: 48185099
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f2c4f922565b5b3af5613de4a5e43c79cf573410
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: db84f9b353450419a8cc8029e4a24d01f0df76b5
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42217387"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48534408"
 ---
+# <a name="modify-a-dial-plan-in-lync-server-2013"></a>Modificar um plano de discagem no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="modify-a-dial-plan-in-lync-server-2013"></a>Modificar um plano de discagem no Lync Server 2013
+
 
 </div>
 
@@ -84,7 +86,7 @@ Para modificar um plano de discagem existente, execute as etapas do procedimento
     
     </div>
 
-8.  Opcion No campo **prefixo de acesso externo** , especifique um valor somente se os usuários precisarem discar um ou mais dígitos iniciais adicionais para obter uma linha externa (por exemplo, 9). Você pode digitar um valor de prefixo de até quatro caracteres (ou seja, \# \*, e 0-9).
+8.  Opcion No campo **prefixo de acesso externo** , especifique um valor somente se os usuários precisarem discar um ou mais dígitos iniciais adicionais para obter uma linha externa (por exemplo, 9). Você pode digitar um valor de prefixo de até quatro caracteres (ou seja,, \# \* e 0-9).
     
     <div>
     
@@ -122,7 +124,7 @@ Para modificar um plano de discagem existente, execute as etapas do procedimento
     
 
     > [!IMPORTANT]  
-    > O Lync Server percorre a lista de regras de normalização de cima para baixo e usa a primeira regra que corresponde ao número discado. Se você configurar um plano de discagem de modo que um número discado possa corresponder a mais de uma regra de normalização, certifique-se de que as regras mais restritivas sejam classificadas acima das menos restritivas.<BR>O padrão <STRONG>manter todas as</STRONG> regras de normalização <STRONG>^{11}(\d) $</STRONG> corresponde a qualquer número de 11 dígitos. Se, por exemplo, você adicionar uma regra de normalização que corresponda a números de 11 dígitos que começam com 1425, certifique-se de que <STRONG>manter todos</STRONG> esteja classificado abaixo da regra <STRONG>^ ({7}1425 \ d) $</STRONG> mais restritiva.
+    > O Lync Server percorre a lista de regras de normalização de cima para baixo e usa a primeira regra que corresponde ao número discado. Se você configurar um plano de discagem de modo que um número discado possa corresponder a mais de uma regra de normalização, certifique-se de que as regras mais restritivas sejam classificadas acima das menos restritivas.<BR>O padrão <STRONG>manter todas as</STRONG> regras de normalização <STRONG>^ (\d {11} ) $</STRONG> corresponde a qualquer número de 11 dígitos. Se, por exemplo, você adicionar uma regra de normalização que corresponda a números de 11 dígitos que começam com 1425, certifique-se de que <STRONG>manter todos</STRONG> esteja classificado abaixo da regra <STRONG>^ (1425 \ d {7} ) $</STRONG> mais restritiva.
 
     
     </div>

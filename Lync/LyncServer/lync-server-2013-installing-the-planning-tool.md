@@ -12,20 +12,22 @@ ms:contentKeyID: 51541525
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c5ba88a00ed00a36005f9c1a60806e18253d2ce1
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 970a638a84849120a27748980fa4017570672a35
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42207267"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48534788"
 ---
+# <a name="installing-the-planning-tool-in-lync-server-2013"></a>Instalando a ferramenta de planejamento no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="installing-the-planning-tool-in-lync-server-2013"></a>Instalando a ferramenta de planejamento no Lync Server 2013
+
 
 </div>
 
@@ -51,9 +53,9 @@ Antes de começar a projetar e planejar sua infraestrutura do Lync Server 2013 u
 
 Os sistemas operacionais suportados para instalação e operação da ferramenta de planejamento são:
 
-  - Windows 8
+  - Windows 8
 
-  - Windows 8.1
+  - Windows 8.1
 
   - Windows Server 2012
 
@@ -83,7 +85,7 @@ Após os requisitos de pré-instalação serem atendidos, você poderá instalar
 
 5.  Revise o **Contrato de Licença de Usuário Final**, selecione **Aceito os termos do Contrato de Licença** se você escolher aceitar os termos de uso do contrato de licença e clique em **Avançar**.
 
-6.  Escolha onde instalar os arquivos da Ferramenta de Planejamento. O local padrão é C:\\arquivos de programas (x86\\) ferramenta de planejamento\\do Microsoft Lync Server 2013. Se você quiser alterar o local de instalação, clique em **Alterar**. Em **Alterar pasta de destino**, procure ou digite o local para instalar os arquivos, clique em **OK** e clique em **Avançar**.
+6.  Escolha onde instalar os arquivos da Ferramenta de Planejamento. O local padrão é C: \\ arquivos de programas (x86) \\ ferramenta de planejamento do Microsoft Lync Server 2013 \\ . Se você quiser alterar o local de instalação, clique em **Alterar**. Em **Alterar pasta de destino**, procure ou digite o local para instalar os arquivos, clique em **OK** e clique em **Avançar**.
 
 7.  O instalador agora está pronto para instalar a ferramenta de planejamento. Clique em **Instalar** para começar o processo de instalação.
 
