@@ -1,5 +1,6 @@
 ---
 title: Planejando a Federação do protocolo XMPP (Extensible Messaging and Presence Protocol)
+description: Planejando a Federação do protocolo XMPP (Extensible Messaging and Presence Protocol).
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184892
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4308bd09d571c41349ed9362affa220cf9723e3a
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 511273b69181334821f446bcc4424641367ecf51
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48526528"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48562797"
 ---
 # <a name="planning-for-extensible-messaging-and-presence-protocol-xmpp-federation-in-lync-server-2013"></a>Planejando a Federação do protocolo XMPP (Extensible Messaging and Presence Protocol) no Lync Server 2013
 

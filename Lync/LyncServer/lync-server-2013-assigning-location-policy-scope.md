@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: atribuindo escopo de política de local'
+description: 'Lync Server 2013: atribuindo escopo de política de local.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185734
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 090c0d4e7ce65f633458860f0c488e4257d15b5a
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 9f6c46150241b0b224e8005556c0f2f594d8bce5
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48499418"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48563377"
 ---
 # <a name="assigning-location-policy-scope-in-lync-server-2013"></a>Atribuindo escopo de política de local no Lync Server 2013
 

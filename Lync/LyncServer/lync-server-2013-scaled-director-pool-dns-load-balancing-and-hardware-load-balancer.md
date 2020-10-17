@@ -1,5 +1,6 @@
 ---
 title: Pool de diretores em escala-balanceamento de carga de DNS e balanceador de carga de hardware
+description: Pool de diretores em escala-balanceamento de carga de DNS e balanceador de carga de hardware.
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185023
 ms.date: 03/29/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d05e579d8c4a2c54342b926b34ff20bbd722524c
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: b30dfcc3515420ffb34343e4653e9518b1b9c3ed
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48510968"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48563457"
 ---
 # <a name="scaled-director-pool---dns-load-balancing-and-hardware-load-balancer-in-lync-server-2013"></a>Pool de diretores em escala-balanceamento de carga de DNS e balanceador de carga de hardware no Lync Server 2013
 

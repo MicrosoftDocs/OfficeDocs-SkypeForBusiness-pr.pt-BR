@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: atribuindo políticas de presença por usuário'
+description: 'Lync Server 2013: atribuindo políticas de presença por usuário.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185955
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7c4f561189b72cf19fad28879711e3a1da0da8fb
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 5c3d4b4bda0c4bb85065d546fdbb4b2578db0e3f
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48527118"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48563367"
 ---
 # <a name="assigning-per-user-presence-policies-in-lync-server-2013"></a>Atribuindo políticas de presença por usuário no Lync Server 2013
 
