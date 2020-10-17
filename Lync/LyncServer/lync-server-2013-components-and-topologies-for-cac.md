@@ -12,20 +12,22 @@ ms:contentKeyID: 48184685
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 69880010c530f1d12918a668654807ce1f92ac79
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: d77913a9817c114153f8da87c04430c36b2ad595
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42209407"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48502588"
 ---
+# <a name="components-and-topologies-for-cac-in-lync-server-2013"></a><span data-ttu-id="3303d-102">Componentes e topologias para CAC no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="3303d-102">Components and topologies for CAC in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="components-and-topologies-for-cac-in-lync-server-2013"></a><span data-ttu-id="b9ed9-102">Componentes e topologias para CAC no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="b9ed9-102">Components and topologies for CAC in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,19 +37,19 @@ ms.locfileid: "42209407"
 
 <span> </span>
 
-<span data-ttu-id="b9ed9-103">_**Última modificação do tópico:** 2012-10-20_</span><span class="sxs-lookup"><span data-stu-id="b9ed9-103">_**Topic Last Modified:** 2012-10-20_</span></span>
+<span data-ttu-id="3303d-103">_**Última modificação do tópico:** 2012-10-20_</span><span class="sxs-lookup"><span data-stu-id="3303d-103">_**Topic Last Modified:** 2012-10-20_</span></span>
 
-<span data-ttu-id="b9ed9-104">Os tópicos desta seção fornecem informações sobre considerações especiais para implantar o CAC (controle de admissão de chamadas) com vários tipos de topologias de rede.</span><span class="sxs-lookup"><span data-stu-id="b9ed9-104">The topics in this section provide information about special considerations for deploying call admission control (CAC) with various types of network topologies.</span></span>
+<span data-ttu-id="3303d-104">Os tópicos desta seção fornecem informações sobre considerações especiais para implantar o CAC (controle de admissão de chamadas) com vários tipos de topologias de rede.</span><span class="sxs-lookup"><span data-stu-id="3303d-104">The topics in this section provide information about special considerations for deploying call admission control (CAC) with various types of network topologies.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="b9ed9-105">Nesta seção</span><span class="sxs-lookup"><span data-stu-id="b9ed9-105">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="3303d-105">Nesta seção</span><span class="sxs-lookup"><span data-stu-id="3303d-105">In This Section</span></span>
 
-  - [<span data-ttu-id="b9ed9-106">Controle de admissão de chamadas em uma rede MPLS com o Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="b9ed9-106">Call admission control on an MPLS network with Lync Server 2013</span></span>](lync-server-2013-call-admission-control-on-an-mpls-network.md)
+  - [<span data-ttu-id="3303d-106">Controle de admissão de chamadas em uma rede MPLS com o Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="3303d-106">Call admission control on an MPLS network with Lync Server 2013</span></span>](lync-server-2013-call-admission-control-on-an-mpls-network.md)
 
-  - [<span data-ttu-id="b9ed9-107">Controle de admissão de chamada em um tronco SIP no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="b9ed9-107">Call admission control on a SIP trunk in Lync Server 2013</span></span>](lync-server-2013-call-admission-control-on-a-sip-trunk.md)
+  - [<span data-ttu-id="3303d-107">Controle de admissão de chamada em um tronco SIP no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="3303d-107">Call admission control on a SIP trunk in Lync Server 2013</span></span>](lync-server-2013-call-admission-control-on-a-sip-trunk.md)
 
-  - [<span data-ttu-id="b9ed9-108">Controle de admissão de chamadas no Lync Server 2013 com um gateway PSTN ou PBX de terceiros</span><span class="sxs-lookup"><span data-stu-id="b9ed9-108">Call admission control in Lync Server 2013 with a third-party PSTN gateway or PBX</span></span>](lync-server-2013-call-admission-control-with-a-third-party-pstn-gateway-or-pbx.md)
+  - [<span data-ttu-id="3303d-108">Controle de admissão de chamadas no Lync Server 2013 com um gateway PSTN ou PBX de terceiros</span><span class="sxs-lookup"><span data-stu-id="3303d-108">Call admission control in Lync Server 2013 with a third-party PSTN gateway or PBX</span></span>](lync-server-2013-call-admission-control-with-a-third-party-pstn-gateway-or-pbx.md)
 
 </div>
 
