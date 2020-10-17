@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: criar ou modificar regiões de rede'
+description: 'Lync Server 2013: Criando ou modificando regiões de rede.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185266
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 60e8a5309344a7d504cf958e29dc50a67d50ed29
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 1b02a041272f0df27d2133ca26096caeb01816c7
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48516728"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48544027"
 ---
 # <a name="creating-or-modifying-network-regions-in-lync-server-2013"></a>Criar ou modificar regiões de rede no Lync Server 2013
 

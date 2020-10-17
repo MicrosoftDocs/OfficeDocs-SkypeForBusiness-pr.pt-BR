@@ -1,5 +1,6 @@
 ---
 title: Configurando o servidor de chat persistente para alta disponibilidade e recuperação de desastre
+description: Configuração do servidor de chat persistente para alta disponibilidade e recuperação de desastre.
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185760
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 90bb6ee0d9c060787c7b750046f79810aeb0c425
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 13935f2ec690deb7f896c13d185680ce1122a892
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48532408"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48544827"
 ---
 # <a name="configuring-persistent-chat-server-for-high-availability-and-disaster-recovery-in-lync-server-2013"></a>Configurando o servidor de chat persistente para alta disponibilidade e recuperação de desastre no Lync Server 2013
 

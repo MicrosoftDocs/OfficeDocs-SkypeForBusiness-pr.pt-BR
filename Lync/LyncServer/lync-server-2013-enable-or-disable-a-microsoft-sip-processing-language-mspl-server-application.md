@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: habilitar ou desabilitar um aplicativo de servidor do Microsoft SIP Processing Language (MSPL)'
+description: 'Lync Server 2013: habilitar ou desabilitar um aplicativo de servidor do Microsoft SIP Processing Language (MSPL).'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185145
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 98dce0363a031a2d56c7d8a7cc479452f4fb0382
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 8f919599d6c6a39fea73424f4e287f00636c0982
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48528628"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48544777"
 ---
 # <a name="enable-or-disable-a-microsoft-sip-processing-language-mspl-server-application-in-lync-server-2013"></a>Habilitar ou desabilitar um aplicativo de servidor do Microsoft SIP Processing Language (MSPL) no Lync Server 2013
 

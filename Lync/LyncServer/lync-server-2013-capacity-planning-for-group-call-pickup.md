@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: planejamento de capacidade para recebimento de chamadas em grupo'
+description: 'Lync Server 2013: planejamento de capacidade para recebimento de chamadas em grupo.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 51476680
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c073ea360e00b196e6cf30b6bb6f204d37532ae0
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 12648c57d1036a0ed27c60ef6399bf570c5dcd3d
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48512808"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48544527"
 ---
 # <a name="capacity-planning-for-group-call-pickup-in-lync-server-2013"></a>Planejamento de capacidade para recebimento de chamadas em grupo no Lync Server 2013
 
