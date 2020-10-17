@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: como implementar o tronco SIP?'
+description: 'Lync Server 2013: como implementar o tronco SIP?.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48183666
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ecd89ce28f1565e44c92ba543ccf992bb2a3c811
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 10882adc0bff573868dcd07268ed0446385d895c
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48504138"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48553147"
 ---
-# <a name="how-do-i-implement-sip-trunking-in-lync-server-2013"></a><span data-ttu-id="60c55-102">Como faço para implementar o tronco SIP no Lync Server 2013?</span><span class="sxs-lookup"><span data-stu-id="60c55-102">How do I implement SIP trunking in Lync Server 2013?</span></span>
+# <a name="how-do-i-implement-sip-trunking-in-lync-server-2013"></a><span data-ttu-id="43e0e-103">Como faço para implementar o tronco SIP no Lync Server 2013?</span><span class="sxs-lookup"><span data-stu-id="43e0e-103">How do I implement SIP trunking in Lync Server 2013?</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,101 +38,53 @@ ms.locfileid: "48504138"
 
 <span> </span>
 
-<span data-ttu-id="60c55-103">_**Última modificação do tópico:** 2013-03-18_</span><span class="sxs-lookup"><span data-stu-id="60c55-103">_**Topic Last Modified:** 2013-03-18_</span></span>
+<span data-ttu-id="43e0e-104">_**Última modificação do tópico:** 2013-03-18_</span><span class="sxs-lookup"><span data-stu-id="43e0e-104">_**Topic Last Modified:** 2013-03-18_</span></span>
 
-<span data-ttu-id="60c55-104">Para implementar o tronco SIP, você deve rotear a conexão por meio de um servidor de mediação, que atua como um proxy para sessões de comunicação entre clientes do Lync Server 2013 e o provedor de serviço e transcodifica a mídia, quando necessário.</span><span class="sxs-lookup"><span data-stu-id="60c55-104">To implement SIP trunking, you must route the connection through a Mediation Server, which acts as a proxy for communications sessions between Lync Server 2013 clients and the service provider and transcodes media, when necessary.</span></span>
+<span data-ttu-id="43e0e-105">Para implementar o tronco SIP, você deve rotear a conexão por meio de um servidor de mediação, que atua como um proxy para sessões de comunicação entre clientes do Lync Server 2013 e o provedor de serviço e transcodifica a mídia, quando necessário.</span><span class="sxs-lookup"><span data-stu-id="43e0e-105">To implement SIP trunking, you must route the connection through a Mediation Server, which acts as a proxy for communications sessions between Lync Server 2013 clients and the service provider and transcodes media, when necessary.</span></span>
 
-<span data-ttu-id="60c55-105">Cada servidor de mediação tem uma interface de rede interna e uma interface de rede externa.</span><span class="sxs-lookup"><span data-stu-id="60c55-105">Each Mediation Server has an internal network interface and an external network interface.</span></span> <span data-ttu-id="60c55-106">A interface interna conecta-se aos servidores front-end.</span><span class="sxs-lookup"><span data-stu-id="60c55-106">The internal interface connects to the Front End Servers.</span></span> <span data-ttu-id="60c55-107">Normalmente, a interface externa é chamada de interface de gateway, pois é tradicionalmente usada para conectar o servidor de mediação a um gateway PSTN (rede telefônica pública comutada) ou a um IP-PBX.</span><span class="sxs-lookup"><span data-stu-id="60c55-107">The external interface is commonly called the gateway interface because it has traditionally been used to connect the Mediation Server to a public switched telephone network (PSTN) gateway or an IP-PBX.</span></span> <span data-ttu-id="60c55-108">Para implementar um tronco SIP, conecte a interface externa do servidor de mediação ao componente de borda externa do ITSP.</span><span class="sxs-lookup"><span data-stu-id="60c55-108">To implement a SIP trunk, you connect the external interface of the Mediation Server to the external edge component of the ITSP.</span></span>
-
-<div>
-
-
-> [!NOTE]  
-> <span data-ttu-id="60c55-109">O componente de borda externa do ITSP pode ser um SBC (controlador de borda da sessão), um roteador ou um gateway.</span><span class="sxs-lookup"><span data-stu-id="60c55-109">The external edge component of the ITSP could be a Session Border Controller (SBC), a router, or a gateway.</span></span>
-
-
-
-</div>
-
-<span data-ttu-id="60c55-110">Para obter detalhes sobre servidores de mediação, consulte [Mediation Server Component in Lync server 2013](lync-server-2013-mediation-server-component.md).</span><span class="sxs-lookup"><span data-stu-id="60c55-110">For details about Mediation Servers, see [Mediation Server component in Lync Server 2013](lync-server-2013-mediation-server-component.md).</span></span>
-
-<div>
-
-## <a name="centralized-vs-distributed-sip-trunking"></a><span data-ttu-id="60c55-111">Tronco SIP centralizado versus distribuído</span><span class="sxs-lookup"><span data-stu-id="60c55-111">Centralized vs. Distributed SIP Trunking</span></span>
-
-<span data-ttu-id="60c55-112">*Centralizado* O tronco SIP roteia todo o tráfego do protocolo VoIP, incluindo o tráfego do site da filial, através do seu site central.</span><span class="sxs-lookup"><span data-stu-id="60c55-112">*Centralized* SIP trunking routes all Voice over Internet Protocol (VoIP) traffic, including branch site traffic, through your central site.</span></span> <span data-ttu-id="60c55-113">O modelo de implantação centralizado é simples, econômico e geralmente é a abordagem recomendada para a implementação de troncos SIP com o Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="60c55-113">The centralized deployment model is simple, cost-effective, and is generally the recommended approach for implementing SIP trunks with Lync Server 2013.</span></span>
-
-<span data-ttu-id="60c55-114">*Distribuído* O tronco SIP é um modelo de implantação no qual você implementa um tronco SIP local em um ou mais sites de filial.</span><span class="sxs-lookup"><span data-stu-id="60c55-114">*Distributed* SIP trunking is a deployment model in which you implement a local SIP trunk at one or more branch sites.</span></span> <span data-ttu-id="60c55-115">O tráfego VoIP é então roteado do site de filial diretamente para um provedor de serviços sem passar pelo site central.</span><span class="sxs-lookup"><span data-stu-id="60c55-115">VoIP traffic is then routed from the branch site directly to a service provider without going through the central site.</span></span>
-
-<span data-ttu-id="60c55-116">O tronco SIP distribuído é exigido somente nos seguintes casos:</span><span class="sxs-lookup"><span data-stu-id="60c55-116">Distributed SIP trunking is required only in the following cases:</span></span>
-
-  - <span data-ttu-id="60c55-117">O site de filial requer conectividade de telefone persistente (por exemplo, se a WAN for desativada).</span><span class="sxs-lookup"><span data-stu-id="60c55-117">The branch site requires survivable phone connectivity (for example, if the WAN goes down).</span></span> <span data-ttu-id="60c55-118">Esse requisito deve ser analisado para cada site de filial; algumas das suas filiais podem exigir redundância e failover, enquanto outras não.</span><span class="sxs-lookup"><span data-stu-id="60c55-118">This requirement should be analyzed for each branch site; some of your branches may require redundancy and failover, whereas others may not.</span></span>
-
-  - <span data-ttu-id="60c55-119">A resiliência é necessária entre dois sites centrais.</span><span class="sxs-lookup"><span data-stu-id="60c55-119">Resiliency is required between two central sites.</span></span> <span data-ttu-id="60c55-120">Você precisa certificar-se de que um tronco SIP termina em cada site central.</span><span class="sxs-lookup"><span data-stu-id="60c55-120">You need to make sure that a SIP trunk terminates at each central site.</span></span> <span data-ttu-id="60c55-121">Por exemplo, se você tiver sites centrais do Dublin e do Tukwila e ambos usarem somente o tronco SIP de um site, se o tronco ficar inativo, os usuários do outro site não poderão fazer chamadas PSTN.</span><span class="sxs-lookup"><span data-stu-id="60c55-121">For example, if you have Dublin and Tukwila central sites and both use only one site’s SIP trunk, if the trunk goes down, the other site’s users cannot make PSTN calls.</span></span>
-
-  - <span data-ttu-id="60c55-122">O site de filial e o site central estão em diferentes países/regiões.</span><span class="sxs-lookup"><span data-stu-id="60c55-122">The branch site and central site are in different countries/regions.</span></span> <span data-ttu-id="60c55-123">Por motivos legais e de compatibilidade, você precisa de pelo menos um tronco SIP por país/região.</span><span class="sxs-lookup"><span data-stu-id="60c55-123">For compatibility and legal reasons, you need at least one SIP trunk per country/region.</span></span> <span data-ttu-id="60c55-124">Por exemplo, na União Europeia, as comunicações não podem deixar um país/região sem serem terminarem localmente em um ponto centralizado.</span><span class="sxs-lookup"><span data-stu-id="60c55-124">For example, in the European Union, communications cannot leave a country/region without terminating locally at a centralized point.</span></span>
-
-<span data-ttu-id="60c55-125">Dependendo do local geográfico dos sites e da quantidade de tráfego que você previu dentro da sua empresa, talvez você não queira encaminhar todos os usuários por meio do tronco SIP central, ou pode optar por rotear alguns usuários por meio de um tronco SIP em seu site de filial.</span><span class="sxs-lookup"><span data-stu-id="60c55-125">Depending on the geographical location of sites and how much traffic you anticipate within your enterprise, you may not want to route all users through the central SIP trunk, or you may opt to route some users through a SIP trunk at their branch site.</span></span> <span data-ttu-id="60c55-126">Para analisar suas necessidades, responda às seguintes perguntas:</span><span class="sxs-lookup"><span data-stu-id="60c55-126">To analyze your needs, answer the following questions:</span></span>
-
-  - <span data-ttu-id="60c55-127">Qual o tamanho de cada site (ou seja, quantos usuários estão habilitados para o Enterprise Voice)?</span><span class="sxs-lookup"><span data-stu-id="60c55-127">How big is each site (that is, how many users are enabled for Enterprise Voice)?</span></span>
-
-  - <span data-ttu-id="60c55-128">Quais números DID (discagem direta interna) em cada site recebem a maioria das chamadas?</span><span class="sxs-lookup"><span data-stu-id="60c55-128">Which direct inward dialing (DID) numbers at each site get the most phone calls?</span></span>
-
-<span data-ttu-id="60c55-129">A decisão sobre implantar um tronco SIP centralizado ou distribuído exige uma análise com bom custo benefício.</span><span class="sxs-lookup"><span data-stu-id="60c55-129">The decision whether to deploy centralized or distributed SIP trunking requires a cost-benefit analysis.</span></span> <span data-ttu-id="60c55-130">Em alguns casos, pode ser vantajoso optar pelo modelo de implantação distribuído mesmo se não for necessário.</span><span class="sxs-lookup"><span data-stu-id="60c55-130">In some cases, it may be advantageous to opt for the distributed deployment model even if it is not required.</span></span> <span data-ttu-id="60c55-131">Em uma implantação completamente centralizada, todo o tráfego do site da filial é roteado através de links WAN.</span><span class="sxs-lookup"><span data-stu-id="60c55-131">In a completely centralized deployment, all branch site traffic is routed over WAN links.</span></span> <span data-ttu-id="60c55-132">Em vez de pagar pela largura de banda exigida pelo link de WAN, convém usar o tronco SIP distribuído.</span><span class="sxs-lookup"><span data-stu-id="60c55-132">Instead of paying for the bandwidth required for WAN linking, you may want to use distributed SIP trunking.</span></span> <span data-ttu-id="60c55-133">Por exemplo, você pode querer implantar um servidor Standard Edition em um site de filial com Federação para o site central ou pode desejar implantar um aparelho de filial persistente ou um servidor de filial persistente com um pequeno gateway.</span><span class="sxs-lookup"><span data-stu-id="60c55-133">For example, you may want to deploy a Standard Edition server at a branch site with federation to the central site, or you may want to deploy a Survivable Branch Appliance or a Survivable Branch Server with a small gateway.</span></span>
+<span data-ttu-id="43e0e-106">Cada servidor de mediação tem uma interface de rede interna e uma interface de rede externa.</span><span class="sxs-lookup"><span data-stu-id="43e0e-106">Each Mediation Server has an internal network interface and an external network interface.</span></span> <span data-ttu-id="43e0e-107">A interface interna conecta-se aos servidores front-end.</span><span class="sxs-lookup"><span data-stu-id="43e0e-107">The internal interface connects to the Front End Servers.</span></span> <span data-ttu-id="43e0e-108">Normalmente, a interface externa é chamada de interface de gateway, pois é tradicionalmente usada para conectar o servidor de mediação a um gateway PSTN (rede telefônica pública comutada) ou a um IP-PBX.</span><span class="sxs-lookup"><span data-stu-id="43e0e-108">The external interface is commonly called the gateway interface because it has traditionally been used to connect the Mediation Server to a public switched telephone network (PSTN) gateway or an IP-PBX.</span></span> <span data-ttu-id="43e0e-109">Para implementar um tronco SIP, conecte a interface externa do servidor de mediação ao componente de borda externa do ITSP.</span><span class="sxs-lookup"><span data-stu-id="43e0e-109">To implement a SIP trunk, you connect the external interface of the Mediation Server to the external edge component of the ITSP.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="60c55-134">Para obter detalhes sobre o tronco SIP distribuído, consulte <A href="lync-server-2013-branch-site-sip-trunking.md">Branch site SIP trunking in Lync Server 2013</A>.</span><span class="sxs-lookup"><span data-stu-id="60c55-134">For details about distributed SIP trunking, see <A href="lync-server-2013-branch-site-sip-trunking.md">Branch site SIP trunking in Lync Server 2013</A>.</span></span>
+> <span data-ttu-id="43e0e-110">O componente de borda externa do ITSP pode ser um SBC (controlador de borda da sessão), um roteador ou um gateway.</span><span class="sxs-lookup"><span data-stu-id="43e0e-110">The external edge component of the ITSP could be a Session Border Controller (SBC), a router, or a gateway.</span></span>
 
 
 
 </div>
 
-</div>
+<span data-ttu-id="43e0e-111">Para obter detalhes sobre servidores de mediação, consulte [Mediation Server Component in Lync server 2013](lync-server-2013-mediation-server-component.md).</span><span class="sxs-lookup"><span data-stu-id="43e0e-111">For details about Mediation Servers, see [Mediation Server component in Lync Server 2013](lync-server-2013-mediation-server-component.md).</span></span>
 
 <div>
 
-## <a name="supported-sip-trunking-connection-types"></a><span data-ttu-id="60c55-135">Tipos de conexão de tronco SIP suportadas</span><span class="sxs-lookup"><span data-stu-id="60c55-135">Supported SIP Trunking Connection Types</span></span>
+## <a name="centralized-vs-distributed-sip-trunking"></a><span data-ttu-id="43e0e-112">Tronco SIP centralizado versus distribuído</span><span class="sxs-lookup"><span data-stu-id="43e0e-112">Centralized vs. Distributed SIP Trunking</span></span>
 
-<span data-ttu-id="60c55-136">O Lync Server oferece suporte aos seguintes tipos de conexão para tronco SIP:</span><span class="sxs-lookup"><span data-stu-id="60c55-136">Lync Server supports the following connection types for SIP trunking:</span></span>
+<span data-ttu-id="43e0e-113">*Centralizado* O tronco SIP roteia todo o tráfego do protocolo VoIP, incluindo o tráfego do site da filial, através do seu site central.</span><span class="sxs-lookup"><span data-stu-id="43e0e-113">*Centralized* SIP trunking routes all Voice over Internet Protocol (VoIP) traffic, including branch site traffic, through your central site.</span></span> <span data-ttu-id="43e0e-114">O modelo de implantação centralizado é simples, econômico e geralmente é a abordagem recomendada para a implementação de troncos SIP com o Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="43e0e-114">The centralized deployment model is simple, cost-effective, and is generally the recommended approach for implementing SIP trunks with Lync Server 2013.</span></span>
 
-  - <span data-ttu-id="60c55-p109">MPLS (Multiprotocol Label Switching) é uma rede privada que direciona e transporta dados de um nó de rede para o próximo. A largura de banda em uma rede MPLS é compartilhada com outros assinantes e cada pacote de dados recebe um rótulo para diferenciar os dados de um assinante dos dados de outro assinante. Esse tipo de conexão não exige VPN. Uma possível desvantagem é que o tráfego IP excessivo pode interferir com a operação VoIP, a menos que o tráfego VoIP tenha prioridade.</span><span class="sxs-lookup"><span data-stu-id="60c55-p109">Multiprotocol Label Switching (MPLS) is a private network that directs and carries data from one network node to the next. The bandwidth in an MPLS network is shared with other subscribers, and each data packet is assigned a label to distinguish one subscriber’s data from another’s. This connection type does not require a virtual private network (VPN). A potential drawback is that excessive IP traffic can interfere with VoIP operation unless VoIP traffic is given priority.</span></span>
+<span data-ttu-id="43e0e-115">*Distribuído* O tronco SIP é um modelo de implantação no qual você implementa um tronco SIP local em um ou mais sites de filial.</span><span class="sxs-lookup"><span data-stu-id="43e0e-115">*Distributed* SIP trunking is a deployment model in which you implement a local SIP trunk at one or more branch sites.</span></span> <span data-ttu-id="43e0e-116">O tráfego VoIP é então roteado do site de filial diretamente para um provedor de serviços sem passar pelo site central.</span><span class="sxs-lookup"><span data-stu-id="43e0e-116">VoIP traffic is then routed from the branch site directly to a service provider without going through the central site.</span></span>
 
-  - <span data-ttu-id="60c55-p110">Uma conexão privada sem outro tráfego—por exemplo, uma conexão de fibra ótica arrendada ou linha T1—é normalmente o tipo de conexão mais confiável e segura (por exemplo, uma conexão de fibra óptica. Este tipo de conexão oferece a maior capacidade de realização de chamadas, mas é geralmente o mais caro. VPN não é necessário. Conexões privadas são adequadas para organizações com alto volume de chamadas ou com requisitos de segurança e disponibilidade rígidos.</span><span class="sxs-lookup"><span data-stu-id="60c55-p110">A private connection with no other traffic—for example, a leased fiber-optic connection or T1 line—is typically the most reliable and secure connection type. This connection type provides the highest call-carrying capacity, but it is typically the most expensive. VPN is not required. Private connections are appropriate for organizations with high call volumes or stringent security and availability requirements.</span></span>
+<span data-ttu-id="43e0e-117">O tronco SIP distribuído é exigido somente nos seguintes casos:</span><span class="sxs-lookup"><span data-stu-id="43e0e-117">Distributed SIP trunking is required only in the following cases:</span></span>
 
-  - <span data-ttu-id="60c55-145">A Internet é o tipo de conexão menos caro, mas também o menos confiável.</span><span class="sxs-lookup"><span data-stu-id="60c55-145">The Internet is the least expensive connection type, but it is also the least reliable.</span></span> <span data-ttu-id="60c55-146">A conexão com a Internet é o único tipo de conexão de tronco SIP do Lync Server que requer VPN.</span><span class="sxs-lookup"><span data-stu-id="60c55-146">Internet connection is the only Lync Server SIP trunking connection type that requires VPN.</span></span>
+  - <span data-ttu-id="43e0e-118">O site de filial requer conectividade de telefone persistente (por exemplo, se a WAN for desativada).</span><span class="sxs-lookup"><span data-stu-id="43e0e-118">The branch site requires survivable phone connectivity (for example, if the WAN goes down).</span></span> <span data-ttu-id="43e0e-119">Esse requisito deve ser analisado para cada site de filial; algumas das suas filiais podem exigir redundância e failover, enquanto outras não.</span><span class="sxs-lookup"><span data-stu-id="43e0e-119">This requirement should be analyzed for each branch site; some of your branches may require redundancy and failover, whereas others may not.</span></span>
 
-<div>
+  - <span data-ttu-id="43e0e-120">A resiliência é necessária entre dois sites centrais.</span><span class="sxs-lookup"><span data-stu-id="43e0e-120">Resiliency is required between two central sites.</span></span> <span data-ttu-id="43e0e-121">Você precisa certificar-se de que um tronco SIP termina em cada site central.</span><span class="sxs-lookup"><span data-stu-id="43e0e-121">You need to make sure that a SIP trunk terminates at each central site.</span></span> <span data-ttu-id="43e0e-122">Por exemplo, se você tiver sites centrais do Dublin e do Tukwila e ambos usarem somente o tronco SIP de um site, se o tronco ficar inativo, os usuários do outro site não poderão fazer chamadas PSTN.</span><span class="sxs-lookup"><span data-stu-id="43e0e-122">For example, if you have Dublin and Tukwila central sites and both use only one site’s SIP trunk, if the trunk goes down, the other site’s users cannot make PSTN calls.</span></span>
 
-## <a name="selecting-a-connection-type"></a><span data-ttu-id="60c55-147">Selecionando um tipo de conexão</span><span class="sxs-lookup"><span data-stu-id="60c55-147">Selecting a Connection Type</span></span>
+  - <span data-ttu-id="43e0e-123">O site de filial e o site central estão em diferentes países/regiões.</span><span class="sxs-lookup"><span data-stu-id="43e0e-123">The branch site and central site are in different countries/regions.</span></span> <span data-ttu-id="43e0e-124">Por motivos legais e de compatibilidade, você precisa de pelo menos um tronco SIP por país/região.</span><span class="sxs-lookup"><span data-stu-id="43e0e-124">For compatibility and legal reasons, you need at least one SIP trunk per country/region.</span></span> <span data-ttu-id="43e0e-125">Por exemplo, na União Europeia, as comunicações não podem deixar um país/região sem serem terminarem localmente em um ponto centralizado.</span><span class="sxs-lookup"><span data-stu-id="43e0e-125">For example, in the European Union, communications cannot leave a country/region without terminating locally at a centralized point.</span></span>
 
-<span data-ttu-id="60c55-148">O tipo de conexão de tronco SIP mais apropriado para sua empresa depende de suas necessidades e de seu orçamento.</span><span class="sxs-lookup"><span data-stu-id="60c55-148">The most appropriate SIP trunking connection type for your enterprise depends on your needs and your budget.</span></span>
+<span data-ttu-id="43e0e-126">Dependendo do local geográfico dos sites e da quantidade de tráfego que você previu dentro da sua empresa, talvez você não queira encaminhar todos os usuários por meio do tronco SIP central, ou pode optar por rotear alguns usuários por meio de um tronco SIP em seu site de filial.</span><span class="sxs-lookup"><span data-stu-id="43e0e-126">Depending on the geographical location of sites and how much traffic you anticipate within your enterprise, you may not want to route all users through the central SIP trunk, or you may opt to route some users through a SIP trunk at their branch site.</span></span> <span data-ttu-id="43e0e-127">Para analisar suas necessidades, responda às seguintes perguntas:</span><span class="sxs-lookup"><span data-stu-id="43e0e-127">To analyze your needs, answer the following questions:</span></span>
 
-  - <span data-ttu-id="60c55-p112">Para uma empresa de médio ou grande porte, uma rede MPLS normalmente fornece o maior valor. Ela pode fornecer a largura de banda necessária por uma taxa mais barata do que uma rede privada especializada.</span><span class="sxs-lookup"><span data-stu-id="60c55-p112">For a mid-size or larger enterprise, an MPLS network usually provides the greatest value. It can provide the necessary bandwidth at a cheaper rate than a specialized private network.</span></span>
+  - <span data-ttu-id="43e0e-128">Qual o tamanho de cada site (ou seja, quantos usuários estão habilitados para o Enterprise Voice)?</span><span class="sxs-lookup"><span data-stu-id="43e0e-128">How big is each site (that is, how many users are enabled for Enterprise Voice)?</span></span>
 
-  - <span data-ttu-id="60c55-151">Empresas de grande porte podem exigir uma conexão de fibra ótica T1, T3 ou superior (E1, E3 ou superior na União Europeia).</span><span class="sxs-lookup"><span data-stu-id="60c55-151">Large enterprises may require a private fiber-optic, T1, T3 or higher connection (E1, E3 or higher in the European Union).</span></span>
+  - <span data-ttu-id="43e0e-129">Quais números DID (discagem direta interna) em cada site recebem a maioria das chamadas?</span><span class="sxs-lookup"><span data-stu-id="43e0e-129">Which direct inward dialing (DID) numbers at each site get the most phone calls?</span></span>
 
-  - <span data-ttu-id="60c55-152">Para uma pequena empresa ou um site de filial com baixo volume de chamadas, o tronco SIP através da Internet pode ser a melhor opção.</span><span class="sxs-lookup"><span data-stu-id="60c55-152">For a small enterprise or branch site with low call volume, SIP trunking through the Internet may be the best choice.</span></span> <span data-ttu-id="60c55-153">Esse tipo de conexão não é recomendado para sites de médio ou grande porte.</span><span class="sxs-lookup"><span data-stu-id="60c55-153">This connection type is not recommended for mid-size or larger sites.</span></span>
-
-</div>
-
-</div>
-
-<div>
-
-## <a name="bandwidth-requirements"></a><span data-ttu-id="60c55-154">Requisitos de largura de banda</span><span class="sxs-lookup"><span data-stu-id="60c55-154">Bandwidth Requirements</span></span>
-
-<span data-ttu-id="60c55-p114">A quantidade de largura de banda exigida pela sua implementação depende da capacidade da chamada (o número de chamadas simultâneas que você precisa suportar). A disponibilidade de largura de banda precisa ser levada em consideração para que você possa aproveitar ao máximo a capacidade de pico pela qual pagou. Use a fórmula a seguir para calcular o requisito de largura de banda de pico do tronco SIP:</span><span class="sxs-lookup"><span data-stu-id="60c55-p114">The amount of bandwidth your implementation requires depends on call capacity (the number of concurrent calls you must be able to support). You need to consider bandwidth availability, so that you can take full advantage of the peak capacity that you have paid for. Use the following formula to calculate SIP trunk peak bandwidth requirement:</span></span>
-
-<span data-ttu-id="60c55-158">Largura de banda de pico do tronco SIP = máximo de chamadas simultâneas x (64 kbps + tamanho do cabeçalho)</span><span class="sxs-lookup"><span data-stu-id="60c55-158">SIP Trunk Peak Bandwidth = Max Simultaneous Calls x (64 kbps + header size)</span></span>
+<span data-ttu-id="43e0e-130">A decisão sobre implantar um tronco SIP centralizado ou distribuído exige uma análise com bom custo benefício.</span><span class="sxs-lookup"><span data-stu-id="43e0e-130">The decision whether to deploy centralized or distributed SIP trunking requires a cost-benefit analysis.</span></span> <span data-ttu-id="43e0e-131">Em alguns casos, pode ser vantajoso optar pelo modelo de implantação distribuído mesmo se não for necessário.</span><span class="sxs-lookup"><span data-stu-id="43e0e-131">In some cases, it may be advantageous to opt for the distributed deployment model even if it is not required.</span></span> <span data-ttu-id="43e0e-132">Em uma implantação completamente centralizada, todo o tráfego do site da filial é roteado através de links WAN.</span><span class="sxs-lookup"><span data-stu-id="43e0e-132">In a completely centralized deployment, all branch site traffic is routed over WAN links.</span></span> <span data-ttu-id="43e0e-133">Em vez de pagar pela largura de banda exigida pelo link de WAN, convém usar o tronco SIP distribuído.</span><span class="sxs-lookup"><span data-stu-id="43e0e-133">Instead of paying for the bandwidth required for WAN linking, you may want to use distributed SIP trunking.</span></span> <span data-ttu-id="43e0e-134">Por exemplo, você pode querer implantar um servidor Standard Edition em um site de filial com Federação para o site central ou pode desejar implantar um aparelho de filial persistente ou um servidor de filial persistente com um pequeno gateway.</span><span class="sxs-lookup"><span data-stu-id="43e0e-134">For example, you may want to deploy a Standard Edition server at a branch site with federation to the central site, or you may want to deploy a Survivable Branch Appliance or a Survivable Branch Server with a small gateway.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="60c55-159">O tamanho do cabeçalho é de 20 bytes no máximo.</span><span class="sxs-lookup"><span data-stu-id="60c55-159">Header size is 20 bytes maximum.</span></span>
+> <span data-ttu-id="43e0e-135">Para obter detalhes sobre o tronco SIP distribuído, consulte <A href="lync-server-2013-branch-site-sip-trunking.md">Branch site SIP trunking in Lync Server 2013</A>.</span><span class="sxs-lookup"><span data-stu-id="43e0e-135">For details about distributed SIP trunking, see <A href="lync-server-2013-branch-site-sip-trunking.md">Branch site SIP trunking in Lync Server 2013</A>.</span></span>
 
 
 
@@ -141,29 +94,77 @@ ms.locfileid: "48504138"
 
 <div>
 
-## <a name="codec-support"></a><span data-ttu-id="60c55-160">Suporte ao codec</span><span class="sxs-lookup"><span data-stu-id="60c55-160">Codec Support</span></span>
+## <a name="supported-sip-trunking-connection-types"></a><span data-ttu-id="43e0e-136">Tipos de conexão de tronco SIP suportadas</span><span class="sxs-lookup"><span data-stu-id="43e0e-136">Supported SIP Trunking Connection Types</span></span>
 
-<span data-ttu-id="60c55-161">O Lync Server 2013 suporta apenas os seguintes codecs:</span><span class="sxs-lookup"><span data-stu-id="60c55-161">Lync Server 2013 supports only the following codecs:</span></span>
+<span data-ttu-id="43e0e-137">O Lync Server oferece suporte aos seguintes tipos de conexão para tronco SIP:</span><span class="sxs-lookup"><span data-stu-id="43e0e-137">Lync Server supports the following connection types for SIP trunking:</span></span>
 
-  - <span data-ttu-id="60c55-162">G.711 a-law (usado principalmente fora da América do Norte)</span><span class="sxs-lookup"><span data-stu-id="60c55-162">G.711 a-law (used primarily outside North America)</span></span>
+  - <span data-ttu-id="43e0e-p109">MPLS (Multiprotocol Label Switching) é uma rede privada que direciona e transporta dados de um nó de rede para o próximo. A largura de banda em uma rede MPLS é compartilhada com outros assinantes e cada pacote de dados recebe um rótulo para diferenciar os dados de um assinante dos dados de outro assinante. Esse tipo de conexão não exige VPN. Uma possível desvantagem é que o tráfego IP excessivo pode interferir com a operação VoIP, a menos que o tráfego VoIP tenha prioridade.</span><span class="sxs-lookup"><span data-stu-id="43e0e-p109">Multiprotocol Label Switching (MPLS) is a private network that directs and carries data from one network node to the next. The bandwidth in an MPLS network is shared with other subscribers, and each data packet is assigned a label to distinguish one subscriber’s data from another’s. This connection type does not require a virtual private network (VPN). A potential drawback is that excessive IP traffic can interfere with VoIP operation unless VoIP traffic is given priority.</span></span>
 
-  - <span data-ttu-id="60c55-163">G.711 µ-law (usado na América do Norte)</span><span class="sxs-lookup"><span data-stu-id="60c55-163">G.711 µ-law (used in North America)</span></span>
+  - <span data-ttu-id="43e0e-p110">Uma conexão privada sem outro tráfego—por exemplo, uma conexão de fibra ótica arrendada ou linha T1—é normalmente o tipo de conexão mais confiável e segura (por exemplo, uma conexão de fibra óptica. Este tipo de conexão oferece a maior capacidade de realização de chamadas, mas é geralmente o mais caro. VPN não é necessário. Conexões privadas são adequadas para organizações com alto volume de chamadas ou com requisitos de segurança e disponibilidade rígidos.</span><span class="sxs-lookup"><span data-stu-id="43e0e-p110">A private connection with no other traffic—for example, a leased fiber-optic connection or T1 line—is typically the most reliable and secure connection type. This connection type provides the highest call-carrying capacity, but it is typically the most expensive. VPN is not required. Private connections are appropriate for organizations with high call volumes or stringent security and availability requirements.</span></span>
+
+  - <span data-ttu-id="43e0e-146">A Internet é o tipo de conexão menos caro, mas também o menos confiável.</span><span class="sxs-lookup"><span data-stu-id="43e0e-146">The Internet is the least expensive connection type, but it is also the least reliable.</span></span> <span data-ttu-id="43e0e-147">A conexão com a Internet é o único tipo de conexão de tronco SIP do Lync Server que requer VPN.</span><span class="sxs-lookup"><span data-stu-id="43e0e-147">Internet connection is the only Lync Server SIP trunking connection type that requires VPN.</span></span>
+
+<div>
+
+## <a name="selecting-a-connection-type"></a><span data-ttu-id="43e0e-148">Selecionando um tipo de conexão</span><span class="sxs-lookup"><span data-stu-id="43e0e-148">Selecting a Connection Type</span></span>
+
+<span data-ttu-id="43e0e-149">O tipo de conexão de tronco SIP mais apropriado para sua empresa depende de suas necessidades e de seu orçamento.</span><span class="sxs-lookup"><span data-stu-id="43e0e-149">The most appropriate SIP trunking connection type for your enterprise depends on your needs and your budget.</span></span>
+
+  - <span data-ttu-id="43e0e-p112">Para uma empresa de médio ou grande porte, uma rede MPLS normalmente fornece o maior valor. Ela pode fornecer a largura de banda necessária por uma taxa mais barata do que uma rede privada especializada.</span><span class="sxs-lookup"><span data-stu-id="43e0e-p112">For a mid-size or larger enterprise, an MPLS network usually provides the greatest value. It can provide the necessary bandwidth at a cheaper rate than a specialized private network.</span></span>
+
+  - <span data-ttu-id="43e0e-152">Empresas de grande porte podem exigir uma conexão de fibra ótica T1, T3 ou superior (E1, E3 ou superior na União Europeia).</span><span class="sxs-lookup"><span data-stu-id="43e0e-152">Large enterprises may require a private fiber-optic, T1, T3 or higher connection (E1, E3 or higher in the European Union).</span></span>
+
+  - <span data-ttu-id="43e0e-153">Para uma pequena empresa ou um site de filial com baixo volume de chamadas, o tronco SIP através da Internet pode ser a melhor opção.</span><span class="sxs-lookup"><span data-stu-id="43e0e-153">For a small enterprise or branch site with low call volume, SIP trunking through the Internet may be the best choice.</span></span> <span data-ttu-id="43e0e-154">Esse tipo de conexão não é recomendado para sites de médio ou grande porte.</span><span class="sxs-lookup"><span data-stu-id="43e0e-154">This connection type is not recommended for mid-size or larger sites.</span></span>
+
+</div>
 
 </div>
 
 <div>
 
-## <a name="internet-telephony-service-provider"></a><span data-ttu-id="60c55-164">Provedor de Serviço de Telefonia pela Internet</span><span class="sxs-lookup"><span data-stu-id="60c55-164">Internet Telephony Service Provider</span></span>
+## <a name="bandwidth-requirements"></a><span data-ttu-id="43e0e-155">Requisitos de largura de banda</span><span class="sxs-lookup"><span data-stu-id="43e0e-155">Bandwidth Requirements</span></span>
 
-<span data-ttu-id="60c55-165">Como você implementa o lado do provedor de serviço de uma conexão de tronco SIP varia de um ITSP para outro.</span><span class="sxs-lookup"><span data-stu-id="60c55-165">How you implement the service provider side of a SIP trunk connection varies from one ITSP to another.</span></span> <span data-ttu-id="60c55-166">Para obter informações de implantação, entre em contato com o seu provedor de serviços.</span><span class="sxs-lookup"><span data-stu-id="60c55-166">For deployment information, contact your service provider.</span></span> <span data-ttu-id="60c55-167">Para obter uma lista de provedores de serviços de tronco SIP certificados, consulte [o site do programa de interoperabilidade aberta do Microsoft Unified Communications](https://go.microsoft.com/fwlink/?linkid=287029).</span><span class="sxs-lookup"><span data-stu-id="60c55-167">For a list of certified SIP trunking service providers, see [Microsoft Unified Communications Open Interoperability Program website](https://go.microsoft.com/fwlink/?linkid=287029).</span></span>
+<span data-ttu-id="43e0e-p114">A quantidade de largura de banda exigida pela sua implementação depende da capacidade da chamada (o número de chamadas simultâneas que você precisa suportar). A disponibilidade de largura de banda precisa ser levada em consideração para que você possa aproveitar ao máximo a capacidade de pico pela qual pagou. Use a fórmula a seguir para calcular o requisito de largura de banda de pico do tronco SIP:</span><span class="sxs-lookup"><span data-stu-id="43e0e-p114">The amount of bandwidth your implementation requires depends on call capacity (the number of concurrent calls you must be able to support). You need to consider bandwidth availability, so that you can take full advantage of the peak capacity that you have paid for. Use the following formula to calculate SIP trunk peak bandwidth requirement:</span></span>
 
-<span data-ttu-id="60c55-168">Para obter detalhes sobre os provedores de tronco SIP certificado pela Microsoft, entre em contato com seu representante da Microsoft.</span><span class="sxs-lookup"><span data-stu-id="60c55-168">For details about Microsoft certified SIP trunking providers, contact your Microsoft representative.</span></span>
+<span data-ttu-id="43e0e-159">Largura de banda de pico do tronco SIP = máximo de chamadas simultâneas x (64 kbps + tamanho do cabeçalho)</span><span class="sxs-lookup"><span data-stu-id="43e0e-159">SIP Trunk Peak Bandwidth = Max Simultaneous Calls x (64 kbps + header size)</span></span>
+
+<div>
+
+
+> [!NOTE]  
+> <span data-ttu-id="43e0e-160">O tamanho do cabeçalho é de 20 bytes no máximo.</span><span class="sxs-lookup"><span data-stu-id="43e0e-160">Header size is 20 bytes maximum.</span></span>
+
+
+
+</div>
+
+</div>
+
+<div>
+
+## <a name="codec-support"></a><span data-ttu-id="43e0e-161">Suporte ao codec</span><span class="sxs-lookup"><span data-stu-id="43e0e-161">Codec Support</span></span>
+
+<span data-ttu-id="43e0e-162">O Lync Server 2013 suporta apenas os seguintes codecs:</span><span class="sxs-lookup"><span data-stu-id="43e0e-162">Lync Server 2013 supports only the following codecs:</span></span>
+
+  - <span data-ttu-id="43e0e-163">G.711 a-law (usado principalmente fora da América do Norte)</span><span class="sxs-lookup"><span data-stu-id="43e0e-163">G.711 a-law (used primarily outside North America)</span></span>
+
+  - <span data-ttu-id="43e0e-164">G.711 µ-law (usado na América do Norte)</span><span class="sxs-lookup"><span data-stu-id="43e0e-164">G.711 µ-law (used in North America)</span></span>
+
+</div>
+
+<div>
+
+## <a name="internet-telephony-service-provider"></a><span data-ttu-id="43e0e-165">Provedor de Serviço de Telefonia pela Internet</span><span class="sxs-lookup"><span data-stu-id="43e0e-165">Internet Telephony Service Provider</span></span>
+
+<span data-ttu-id="43e0e-166">Como você implementa o lado do provedor de serviço de uma conexão de tronco SIP varia de um ITSP para outro.</span><span class="sxs-lookup"><span data-stu-id="43e0e-166">How you implement the service provider side of a SIP trunk connection varies from one ITSP to another.</span></span> <span data-ttu-id="43e0e-167">Para obter informações de implantação, entre em contato com o seu provedor de serviços.</span><span class="sxs-lookup"><span data-stu-id="43e0e-167">For deployment information, contact your service provider.</span></span> <span data-ttu-id="43e0e-168">Para obter uma lista de provedores de serviços de tronco SIP certificados, consulte [o site do programa de interoperabilidade aberta do Microsoft Unified Communications](https://go.microsoft.com/fwlink/?linkid=287029).</span><span class="sxs-lookup"><span data-stu-id="43e0e-168">For a list of certified SIP trunking service providers, see [Microsoft Unified Communications Open Interoperability Program website](https://go.microsoft.com/fwlink/?linkid=287029).</span></span>
+
+<span data-ttu-id="43e0e-169">Para obter detalhes sobre os provedores de tronco SIP certificado pela Microsoft, entre em contato com seu representante da Microsoft.</span><span class="sxs-lookup"><span data-stu-id="43e0e-169">For details about Microsoft certified SIP trunking providers, contact your Microsoft representative.</span></span>
 
 <div>
 
 
 > [!IMPORTANT]  
-> <span data-ttu-id="60c55-p116">Você deve usar um provedor de serviço certificado pela Microsoft para garantir que seu ITSP suporte todas as funcionalidades que atravessam o tronco SIP (por exemplo, configurar e gerenciar sessões e suportar todos os serviços de VoIP estendido). O suporte técnico da Microsoft não estender as configurações que usam provedores não certificados. Se você atualmente usa um provedor de serviço Internet não certificado para tronco SIP, é possível optar por continuar usando este provedor como seu ISP e usar um provedor certificado pela Microsoft para tronco SIP.</span><span class="sxs-lookup"><span data-stu-id="60c55-p116">You must use a Microsoft certified service provider to ensure that your ITSP supports all of the functionality that traverses the SIP trunk (for example, setting up and managing sessions and supporting all of the extended VoIP services). Microsoft technical support does not extend to configurations that use noncertified providers. If you currently use an Internet service provider that is not certified for SIP trunking, you can opt to continue using that provider as your ISP and use a provider certified by Microsoft for SIP trunking.</span></span>
+> <span data-ttu-id="43e0e-p116">Você deve usar um provedor de serviço certificado pela Microsoft para garantir que seu ITSP suporte todas as funcionalidades que atravessam o tronco SIP (por exemplo, configurar e gerenciar sessões e suportar todos os serviços de VoIP estendido). O suporte técnico da Microsoft não estender as configurações que usam provedores não certificados. Se você atualmente usa um provedor de serviço Internet não certificado para tronco SIP, é possível optar por continuar usando este provedor como seu ISP e usar um provedor certificado pela Microsoft para tronco SIP.</span><span class="sxs-lookup"><span data-stu-id="43e0e-p116">You must use a Microsoft certified service provider to ensure that your ITSP supports all of the functionality that traverses the SIP trunk (for example, setting up and managing sessions and supporting all of the extended VoIP services). Microsoft technical support does not extend to configurations that use noncertified providers. If you currently use an Internet service provider that is not certified for SIP trunking, you can opt to continue using that provider as your ISP and use a provider certified by Microsoft for SIP trunking.</span></span>
 
 
 

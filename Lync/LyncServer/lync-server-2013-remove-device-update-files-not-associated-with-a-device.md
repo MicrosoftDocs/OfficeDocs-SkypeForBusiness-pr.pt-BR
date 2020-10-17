@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: remover arquivos de atualização do dispositivo não associados a um dispositivo'
+description: 'Lync Server 2013: remover arquivos de atualização do dispositivo não associados a um dispositivo.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 51803996
 ms.date: 12/12/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a21ef2e9dae4c09ce975bd048f628930cd3dfeda
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 8338f7274d1d27e2290d822324986238f4856fe4
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48536438"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48553497"
 ---
-# <a name="remove-device-update-files-not-associated-with-a-device-in-lync-server-2013"></a><span data-ttu-id="6866b-102">Remover arquivos de atualização de dispositivo não associados a um dispositivo no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="6866b-102">Remove Device Update files not associated with a device in Lync Server 2013</span></span>
+# <a name="remove-device-update-files-not-associated-with-a-device-in-lync-server-2013"></a><span data-ttu-id="c1ac6-103">Remover arquivos de atualização de dispositivo não associados a um dispositivo no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c1ac6-103">Remove Device Update files not associated with a device in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,20 +38,20 @@ ms.locfileid: "48536438"
 
 <span> </span>
 
-<span data-ttu-id="6866b-103">_**Última modificação do tópico:** 2013-02-20_</span><span class="sxs-lookup"><span data-stu-id="6866b-103">_**Topic Last Modified:** 2013-02-20_</span></span>
+<span data-ttu-id="c1ac6-104">_**Última modificação do tópico:** 2013-02-20_</span><span class="sxs-lookup"><span data-stu-id="c1ac6-104">_**Topic Last Modified:** 2013-02-20_</span></span>
 
-<span data-ttu-id="6866b-104">Cada vez que novas atualizações de dispositivos são carregadas para o sistema, uma regra de atualização de dispositivo correspondente é criada.</span><span class="sxs-lookup"><span data-stu-id="6866b-104">Each time new device updates are uploaded to the system, a corresponding device update rule is created.</span></span> <span data-ttu-id="6866b-105">Por padrão, essas novas regras de atualização de dispositivo são atribuídas ao estado pendente.</span><span class="sxs-lookup"><span data-stu-id="6866b-105">By default, these new device update rules are assigned to the Pending state.</span></span> <span data-ttu-id="6866b-106">Isso significa que as regras podem ser baixadas e instaladas em dispositivos de teste, mas não em dispositivos de produção, que permitem testar as atualizações antes de disponibilizá-las aos usuários.</span><span class="sxs-lookup"><span data-stu-id="6866b-106">This means that the rules can be downloaded and installed on test devices, but not on production devices, which enables you to test the updates before making them available to users.</span></span> <span data-ttu-id="6866b-107">Com base nos testes, você pode aceitar e implantar ou rejeitar e excluir a atualização.</span><span class="sxs-lookup"><span data-stu-id="6866b-107">Based on the tests, you either accept and deploy or reject and delete the update.</span></span> <span data-ttu-id="6866b-108">Quando você rejeita uma atualização, a atualização do dispositivo é desassociada da regra de atualização do dispositivo.</span><span class="sxs-lookup"><span data-stu-id="6866b-108">When you reject an update, the device update is disassociated from its device update rule.</span></span>
+<span data-ttu-id="c1ac6-105">Cada vez que novas atualizações de dispositivos são carregadas para o sistema, uma regra de atualização de dispositivo correspondente é criada.</span><span class="sxs-lookup"><span data-stu-id="c1ac6-105">Each time new device updates are uploaded to the system, a corresponding device update rule is created.</span></span> <span data-ttu-id="c1ac6-106">Por padrão, essas novas regras de atualização de dispositivo são atribuídas ao estado pendente.</span><span class="sxs-lookup"><span data-stu-id="c1ac6-106">By default, these new device update rules are assigned to the Pending state.</span></span> <span data-ttu-id="c1ac6-107">Isso significa que as regras podem ser baixadas e instaladas em dispositivos de teste, mas não em dispositivos de produção, que permitem testar as atualizações antes de disponibilizá-las aos usuários.</span><span class="sxs-lookup"><span data-stu-id="c1ac6-107">This means that the rules can be downloaded and installed on test devices, but not on production devices, which enables you to test the updates before making them available to users.</span></span> <span data-ttu-id="c1ac6-108">Com base nos testes, você pode aceitar e implantar ou rejeitar e excluir a atualização.</span><span class="sxs-lookup"><span data-stu-id="c1ac6-108">Based on the tests, you either accept and deploy or reject and delete the update.</span></span> <span data-ttu-id="c1ac6-109">Quando você rejeita uma atualização, a atualização do dispositivo é desassociada da regra de atualização do dispositivo.</span><span class="sxs-lookup"><span data-stu-id="c1ac6-109">When you reject an update, the device update is disassociated from its device update rule.</span></span>
 
 <div>
 
 
-<span data-ttu-id="6866b-109">Arquivos de atualização de dispositivos que não estão mais associados a um dispositivo podem ser removidos usando o Windows PowerShell e o cmdlet **Clear-CsDeviceUpdateFile** .</span><span class="sxs-lookup"><span data-stu-id="6866b-109">Device update files that are no longer associated with a device can be removed by using Windows PowerShell and the **Clear-CsDeviceUpdateFile** cmdlet.</span></span> <span data-ttu-id="6866b-110">Este cmdlet pode ser executado a partir do Shell de gerenciamento do Lync Server 2013 ou de uma sessão remota do Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="6866b-110">This cmdlet can be run either from the Lync Server 2013 Management Shell or from a remote session of Windows PowerShell.</span></span>
+<span data-ttu-id="c1ac6-110">Arquivos de atualização de dispositivos que não estão mais associados a um dispositivo podem ser removidos usando o Windows PowerShell e o cmdlet **Clear-CsDeviceUpdateFile** .</span><span class="sxs-lookup"><span data-stu-id="c1ac6-110">Device update files that are no longer associated with a device can be removed by using Windows PowerShell and the **Clear-CsDeviceUpdateFile** cmdlet.</span></span> <span data-ttu-id="c1ac6-111">Este cmdlet pode ser executado a partir do Shell de gerenciamento do Lync Server 2013 ou de uma sessão remota do Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="c1ac6-111">This cmdlet can be run either from the Lync Server 2013 Management Shell or from a remote session of Windows PowerShell.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="6866b-111">Para obter detalhes sobre como usar o Windows PowerShell remoto para se conectar ao Lync Server, consulte o artigo de blog do Lync Server Windows PowerShell "início rápido: Managing Microsoft Lync Server 2010 using Remote PowerShell" em <A href="https://go.microsoft.com/fwlink/p/?linkid=255876">https://go.microsoft.com/fwlink/p/?linkId=255876</A> .</span><span class="sxs-lookup"><span data-stu-id="6866b-111">For details about using remote Windows PowerShell to connect to Lync Server, see the Lync Server Windows PowerShell blog article "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" at <A href="https://go.microsoft.com/fwlink/p/?linkid=255876">https://go.microsoft.com/fwlink/p/?linkId=255876</A>.</span></span>
+> <span data-ttu-id="c1ac6-112">Para obter detalhes sobre como usar o Windows PowerShell remoto para se conectar ao Lync Server, consulte o artigo de blog do Lync Server Windows PowerShell "início rápido: Managing Microsoft Lync Server 2010 using Remote PowerShell" em <A href="https://go.microsoft.com/fwlink/p/?linkid=255876">https://go.microsoft.com/fwlink/p/?linkId=255876</A> .</span><span class="sxs-lookup"><span data-stu-id="c1ac6-112">For details about using remote Windows PowerShell to connect to Lync Server, see the Lync Server Windows PowerShell blog article "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" at <A href="https://go.microsoft.com/fwlink/p/?linkid=255876">https://go.microsoft.com/fwlink/p/?linkId=255876</A>.</span></span>
 
 
 
@@ -59,13 +60,13 @@ ms.locfileid: "48536438"
 <div>
 
 
-  - <span data-ttu-id="6866b-112">Por exemplo, o comando a seguir remove todas as regras de atualização de dispositivo no servidor Web atl-cs-001.litwareinc.com que não estão mais associadas a um dispositivo:</span><span class="sxs-lookup"><span data-stu-id="6866b-112">For example, the following command removes any device update rules on the Web server atl-cs-001.litwareinc.com that are no longer associated with a device:</span></span>
+  - <span data-ttu-id="c1ac6-113">Por exemplo, o comando a seguir remove todas as regras de atualização de dispositivo no servidor Web atl-cs-001.litwareinc.com que não estão mais associadas a um dispositivo:</span><span class="sxs-lookup"><span data-stu-id="c1ac6-113">For example, the following command removes any device update rules on the Web server atl-cs-001.litwareinc.com that are no longer associated with a device:</span></span>
     
         Clear-CsDeviceUpdateFile -Identity "service:WebServer:atl-cs-001.litwareinc.com"
 
 </div>
 
-<span data-ttu-id="6866b-113">Para obter detalhes, consulte o tópico de ajuda para o cmdlet [Clear-CsDeviceUpdateFile](https://docs.microsoft.com/powershell/module/skype/Clear-CsDeviceUpdateFile) .</span><span class="sxs-lookup"><span data-stu-id="6866b-113">For details, see the Help topic for the [Clear-CsDeviceUpdateFile](https://docs.microsoft.com/powershell/module/skype/Clear-CsDeviceUpdateFile) cmdlet.</span></span>
+<span data-ttu-id="c1ac6-114">Para obter detalhes, consulte o tópico de ajuda para o cmdlet [Clear-CsDeviceUpdateFile](https://docs.microsoft.com/powershell/module/skype/Clear-CsDeviceUpdateFile) .</span><span class="sxs-lookup"><span data-stu-id="c1ac6-114">For details, see the Help topic for the [Clear-CsDeviceUpdateFile](https://docs.microsoft.com/powershell/module/skype/Clear-CsDeviceUpdateFile) cmdlet.</span></span>
 
 </div>
 

@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: habilitar ou desabilitar o hot desk'
+description: 'Lync Server 2013: habilitar ou desabilitar o hot desk.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 51803968
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fb052f3a0743edac47ccfbe3786943820c59f78f
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 3fd22c9bf51078324cfe5e215bd154503c2d9b57
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48515538"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48552427"
 ---
-# <a name="enable-or-disable-hot-desking-in-lync-server-2013"></a><span data-ttu-id="0f177-102">Habilitar ou desabilitar o hot desk no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="0f177-102">Enable or disable hot desking in Lync Server 2013</span></span>
+# <a name="enable-or-disable-hot-desking-in-lync-server-2013"></a><span data-ttu-id="7c011-103">Habilitar ou desabilitar o hot desk no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="7c011-103">Enable or disable hot desking in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,26 +38,26 @@ ms.locfileid: "48515538"
 
 <span> </span>
 
-<span data-ttu-id="0f177-103">_**Última modificação do tópico:** 2013-02-20_</span><span class="sxs-lookup"><span data-stu-id="0f177-103">_**Topic Last Modified:** 2013-02-20_</span></span>
+<span data-ttu-id="7c011-104">_**Última modificação do tópico:** 2013-02-20_</span><span class="sxs-lookup"><span data-stu-id="7c011-104">_**Topic Last Modified:** 2013-02-20_</span></span>
 
-<span data-ttu-id="0f177-104">Você pode configurar telefones de área comum como *telefones de mesa*.</span><span class="sxs-lookup"><span data-stu-id="0f177-104">You can set up common area phones as *hot-desk phones*.</span></span> <span data-ttu-id="0f177-105">Com telefones de uma só mesa, os usuários podem fazer logon em sua própria conta de usuário e, depois de estarem conectados, usar os recursos do Lync Server e suas próprias configurações de perfil de usuário.</span><span class="sxs-lookup"><span data-stu-id="0f177-105">With hot-desk phones, users can log on to their own user account, and, after they are logged on, use Lync Server features and their own user profile settings.</span></span> <span data-ttu-id="0f177-106">O hot desk é gerenciado com o uso de políticas de cliente: para habilitar ou desabilitar o hot desk, você precisa modificar as políticas de cliente usadas por seus telefones de área comum.</span><span class="sxs-lookup"><span data-stu-id="0f177-106">Hot desking is managed by using client policies: to enable or disable hot desking, you need to modify the client policies that are used by your common area phones.</span></span> <span data-ttu-id="0f177-107">Para obter detalhes sobre como determinar as políticas de conferência que foram atribuídas a seus telefones de área comum, consulte [Exibir informações de telefone de área comum no Lync Server 2013](lync-server-2013-view-common-area-phone-information.md).</span><span class="sxs-lookup"><span data-stu-id="0f177-107">For details about how to determine the conferencing policies that have been assigned to your common area phones, see [View common area phone information in Lync Server 2013](lync-server-2013-view-common-area-phone-information.md).</span></span>
+<span data-ttu-id="7c011-105">Você pode configurar telefones de área comum como *telefones de mesa*.</span><span class="sxs-lookup"><span data-stu-id="7c011-105">You can set up common area phones as *hot-desk phones*.</span></span> <span data-ttu-id="7c011-106">Com telefones de uma só mesa, os usuários podem fazer logon em sua própria conta de usuário e, depois de estarem conectados, usar os recursos do Lync Server e suas próprias configurações de perfil de usuário.</span><span class="sxs-lookup"><span data-stu-id="7c011-106">With hot-desk phones, users can log on to their own user account, and, after they are logged on, use Lync Server features and their own user profile settings.</span></span> <span data-ttu-id="7c011-107">O hot desk é gerenciado com o uso de políticas de cliente: para habilitar ou desabilitar o hot desk, você precisa modificar as políticas de cliente usadas por seus telefones de área comum.</span><span class="sxs-lookup"><span data-stu-id="7c011-107">Hot desking is managed by using client policies: to enable or disable hot desking, you need to modify the client policies that are used by your common area phones.</span></span> <span data-ttu-id="7c011-108">Para obter detalhes sobre como determinar as políticas de conferência que foram atribuídas a seus telefones de área comum, consulte [Exibir informações de telefone de área comum no Lync Server 2013](lync-server-2013-view-common-area-phone-information.md).</span><span class="sxs-lookup"><span data-stu-id="7c011-108">For details about how to determine the conferencing policies that have been assigned to your common area phones, see [View common area phone information in Lync Server 2013](lync-server-2013-view-common-area-phone-information.md).</span></span>
 
-<span data-ttu-id="0f177-108">Você usa o parâmetro EnableHotdesking do cmdlet **New-CSClientPolicy** ou o cmdlet **set-CSClientPolicy** para habilitar ou desabilitar o hot desk em um telefone, da seguinte maneira.</span><span class="sxs-lookup"><span data-stu-id="0f177-108">You use the EnableHotdesking parameter of the **New-CSClientPolicy** cmdlet or the **Set-CSClientPolicy** cmdlet to enable or disable hot desking on a phone, as follows.</span></span> <span data-ttu-id="0f177-109">Execute estes cmdlets do Shell de gerenciamento do Lync Server 2013 ou de uma sessão remota do Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="0f177-109">Run these cmdlets from either the Lync Server 2013 Management Shell or from a remote session of Windows PowerShell.</span></span> <span data-ttu-id="0f177-110">Para obter detalhes sobre como usar o Windows PowerShell remoto para se conectar ao Lync Server, consulte o artigo de blog do Lync Server Windows PowerShell "início rápido: Managing Microsoft Lync Server 2010 using Remote PowerShell" em [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876) .</span><span class="sxs-lookup"><span data-stu-id="0f177-110">For details about using remote Windows PowerShell to connect to Lync Server, see the Lync Server Windows PowerShell blog article "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" at [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876).</span></span>
-
-<div>
-
+<span data-ttu-id="7c011-109">Você usa o parâmetro EnableHotdesking do cmdlet **New-CSClientPolicy** ou o cmdlet **set-CSClientPolicy** para habilitar ou desabilitar o hot desk em um telefone, da seguinte maneira.</span><span class="sxs-lookup"><span data-stu-id="7c011-109">You use the EnableHotdesking parameter of the **New-CSClientPolicy** cmdlet or the **Set-CSClientPolicy** cmdlet to enable or disable hot desking on a phone, as follows.</span></span> <span data-ttu-id="7c011-110">Execute estes cmdlets do Shell de gerenciamento do Lync Server 2013 ou de uma sessão remota do Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="7c011-110">Run these cmdlets from either the Lync Server 2013 Management Shell or from a remote session of Windows PowerShell.</span></span> <span data-ttu-id="7c011-111">Para obter detalhes sobre como usar o Windows PowerShell remoto para se conectar ao Lync Server, consulte o artigo de blog do Lync Server Windows PowerShell "início rápido: Managing Microsoft Lync Server 2010 using Remote PowerShell" em [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876) .</span><span class="sxs-lookup"><span data-stu-id="7c011-111">For details about using remote Windows PowerShell to connect to Lync Server, see the Lync Server Windows PowerShell blog article "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" at [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876).</span></span>
 
 <div>
 
-## <a name="enabling-hot-desking"></a><span data-ttu-id="0f177-111">Habilitando o hot desk</span><span class="sxs-lookup"><span data-stu-id="0f177-111">Enabling hot desking</span></span>
 
-  - <span data-ttu-id="0f177-112">Para habilitar o hot desk para um telefone de área comum, você deve modificar a política de cliente que foi atribuída a esse telefone (ou a uma coleção de telefones).</span><span class="sxs-lookup"><span data-stu-id="0f177-112">To enable hot desking for a common area phone, you must modify the client policy that has been assigned to that phone (or collection of phones).</span></span>
+<div>
+
+## <a name="enabling-hot-desking"></a><span data-ttu-id="7c011-112">Habilitando o hot desk</span><span class="sxs-lookup"><span data-stu-id="7c011-112">Enabling hot desking</span></span>
+
+  - <span data-ttu-id="7c011-113">Para habilitar o hot desk para um telefone de área comum, você deve modificar a política de cliente que foi atribuída a esse telefone (ou a uma coleção de telefones).</span><span class="sxs-lookup"><span data-stu-id="7c011-113">To enable hot desking for a common area phone, you must modify the client policy that has been assigned to that phone (or collection of phones).</span></span>
     
-    <span data-ttu-id="0f177-113">Depois de identificar a política que precisa ser modificada, a próxima etapa é usar o cmdlet **set-CsClientPolicy** para definir o parâmetro EnableHotdesking como true.</span><span class="sxs-lookup"><span data-stu-id="0f177-113">After you have identified the policy that needs to be modified, the next step is to use the **Set-CsClientPolicy** cmdlet to set the EnableHotdesking parameter to True.</span></span> <span data-ttu-id="0f177-114">Por exemplo:</span><span class="sxs-lookup"><span data-stu-id="0f177-114">For example:</span></span>
+    <span data-ttu-id="7c011-114">Depois de identificar a política que precisa ser modificada, a próxima etapa é usar o cmdlet **set-CsClientPolicy** para definir o parâmetro EnableHotdesking como true.</span><span class="sxs-lookup"><span data-stu-id="7c011-114">After you have identified the policy that needs to be modified, the next step is to use the **Set-CsClientPolicy** cmdlet to set the EnableHotdesking parameter to True.</span></span> <span data-ttu-id="7c011-115">Por exemplo:</span><span class="sxs-lookup"><span data-stu-id="7c011-115">For example:</span></span>
     
         Set-CsClientPolicy -Identity "CommonAreaPhonePolicy" - EnableHotdesking $True
 
-  - <span data-ttu-id="0f177-115">Como alternativa, você pode usar o cmdlet **New-CsClientPolicy** para criar uma nova política de cliente que habilita o hot desk.</span><span class="sxs-lookup"><span data-stu-id="0f177-115">Alternatively, you can use the **New-CsClientPolicy** cmdlet to create a new client policy that enables hot desking.</span></span> <span data-ttu-id="0f177-116">Por exemplo:</span><span class="sxs-lookup"><span data-stu-id="0f177-116">For example:</span></span>
+  - <span data-ttu-id="7c011-116">Como alternativa, você pode usar o cmdlet **New-CsClientPolicy** para criar uma nova política de cliente que habilita o hot desk.</span><span class="sxs-lookup"><span data-stu-id="7c011-116">Alternatively, you can use the **New-CsClientPolicy** cmdlet to create a new client policy that enables hot desking.</span></span> <span data-ttu-id="7c011-117">Por exemplo:</span><span class="sxs-lookup"><span data-stu-id="7c011-117">For example:</span></span>
     
         New-CsClientPolicy -Identity "NewCommonAreaPhonePolicy" - EnableHotdesking $True
 
@@ -66,7 +67,7 @@ ms.locfileid: "48515538"
 
 
 > [!IMPORTANT]  
-> <span data-ttu-id="0f177-117">Após a criação da política, você deve atribuí-la aos telefones de área comum apropriados.</span><span class="sxs-lookup"><span data-stu-id="0f177-117">After this policy has been created, you must assign it to the appropriate common area phones.</span></span> <span data-ttu-id="0f177-118">Para obter detalhes, consulte <A href="lync-server-2013-assign-policies-to-a-common-area-phone.md">atribuir políticas no Lync Server 2013 a um telefone de área comum</A>.</span><span class="sxs-lookup"><span data-stu-id="0f177-118">For details, see <A href="lync-server-2013-assign-policies-to-a-common-area-phone.md">Assign policies in Lync Server 2013 to a common area phone</A>.</span></span>
+> <span data-ttu-id="7c011-118">Após a criação da política, você deve atribuí-la aos telefones de área comum apropriados.</span><span class="sxs-lookup"><span data-stu-id="7c011-118">After this policy has been created, you must assign it to the appropriate common area phones.</span></span> <span data-ttu-id="7c011-119">Para obter detalhes, consulte <A href="lync-server-2013-assign-policies-to-a-common-area-phone.md">atribuir políticas no Lync Server 2013 a um telefone de área comum</A>.</span><span class="sxs-lookup"><span data-stu-id="7c011-119">For details, see <A href="lync-server-2013-assign-policies-to-a-common-area-phone.md">Assign policies in Lync Server 2013 to a common area phone</A>.</span></span>
 
 
 
@@ -74,15 +75,15 @@ ms.locfileid: "48515538"
 
 <div>
 
-## <a name="disabling-hot-desking"></a><span data-ttu-id="0f177-119">Desabilitando o hot desk</span><span class="sxs-lookup"><span data-stu-id="0f177-119">Disabling hot desking</span></span>
+## <a name="disabling-hot-desking"></a><span data-ttu-id="7c011-120">Desabilitando o hot desk</span><span class="sxs-lookup"><span data-stu-id="7c011-120">Disabling hot desking</span></span>
 
-  - <span data-ttu-id="0f177-120">Para desabilitar o hot desk para um telefone de área comum, redefina o parâmetro EnableHotdesking do cmdlet **set-CsClientPolicy** para o valor padrão false.</span><span class="sxs-lookup"><span data-stu-id="0f177-120">To disable hot desking for a common area phone, reset the EnableHotdesking parameter of the **Set-CsClientPolicy** cmdlet to the default value of False.</span></span> <span data-ttu-id="0f177-121">Por exemplo:</span><span class="sxs-lookup"><span data-stu-id="0f177-121">For example:</span></span>
+  - <span data-ttu-id="7c011-121">Para desabilitar o hot desk para um telefone de área comum, redefina o parâmetro EnableHotdesking do cmdlet **set-CsClientPolicy** para o valor padrão false.</span><span class="sxs-lookup"><span data-stu-id="7c011-121">To disable hot desking for a common area phone, reset the EnableHotdesking parameter of the **Set-CsClientPolicy** cmdlet to the default value of False.</span></span> <span data-ttu-id="7c011-122">Por exemplo:</span><span class="sxs-lookup"><span data-stu-id="7c011-122">For example:</span></span>
     
         Set-CsClientPolicy -Identity "CommonAreaPhonePolicy" - EnableHotdesking $False
 
 </div>
 
-<span data-ttu-id="0f177-122">Para obter detalhes, consulte os tópicos de ajuda para o cmdlet [New-CsClientPolicy](https://docs.microsoft.com/powershell/module/skype/New-CsClientPolicy) e o cmdlet [set-CsClientPolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsClientPolicy) .</span><span class="sxs-lookup"><span data-stu-id="0f177-122">For details, see the Help topics for the [New-CsClientPolicy](https://docs.microsoft.com/powershell/module/skype/New-CsClientPolicy) cmdlet and the [Set-CsClientPolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsClientPolicy) cmdlet.</span></span>
+<span data-ttu-id="7c011-123">Para obter detalhes, consulte os tópicos de ajuda para o cmdlet [New-CsClientPolicy](https://docs.microsoft.com/powershell/module/skype/New-CsClientPolicy) e o cmdlet [set-CsClientPolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsClientPolicy) .</span><span class="sxs-lookup"><span data-stu-id="7c011-123">For details, see the Help topics for the [New-CsClientPolicy](https://docs.microsoft.com/powershell/module/skype/New-CsClientPolicy) cmdlet and the [Set-CsClientPolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsClientPolicy) cmdlet.</span></span>
 
 </div>
 

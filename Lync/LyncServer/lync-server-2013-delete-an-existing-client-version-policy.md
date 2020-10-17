@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: excluir uma política de versão de cliente existente'
+description: 'Lync Server 2013: excluir uma política de versão de cliente existente.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 50675349
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e8915d828dd81c61e7d0c94f01fb7fdcb70e43a2
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 1328d54790b2a7856fa2776bb59feeb515bab1cf
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48525608"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48553657"
 ---
-# <a name="delete-an-existing-client-version-policy-in-lync-server-2013"></a><span data-ttu-id="5af86-102">Excluir uma política de versão de cliente existente no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="5af86-102">Delete an existing client version policy in Lync Server 2013</span></span>
+# <a name="delete-an-existing-client-version-policy-in-lync-server-2013"></a><span data-ttu-id="c6ac3-103">Excluir uma política de versão de cliente existente no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c6ac3-103">Delete an existing client version policy in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,35 +38,35 @@ ms.locfileid: "48525608"
 
 <span> </span>
 
-<span data-ttu-id="5af86-103">_**Última modificação do tópico:** 2013-02-23_</span><span class="sxs-lookup"><span data-stu-id="5af86-103">_**Topic Last Modified:** 2013-02-23_</span></span>
+<span data-ttu-id="c6ac3-104">_**Última modificação do tópico:** 2013-02-23_</span><span class="sxs-lookup"><span data-stu-id="c6ac3-104">_**Topic Last Modified:** 2013-02-23_</span></span>
 
-<span data-ttu-id="5af86-104">Se você deseja excluir uma política de versão de cliente previamente configurada, você pode excluí-la do painel de controle do Lync Server 2013 ou do Shell de gerenciamento do Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="5af86-104">If you want to delete a client version policy that was previously configured, you can delete it from Lync Server 2013 Control Panel or Lync Server 2013 Management Shell.</span></span>
+<span data-ttu-id="c6ac3-105">Se você deseja excluir uma política de versão de cliente previamente configurada, você pode excluí-la do painel de controle do Lync Server 2013 ou do Shell de gerenciamento do Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="c6ac3-105">If you want to delete a client version policy that was previously configured, you can delete it from Lync Server 2013 Control Panel or Lync Server 2013 Management Shell.</span></span>
 
 <div>
 
-## <a name="to-delete-client-version-policies-by-using-lync-server-control-panel"></a><span data-ttu-id="5af86-105">Para excluir políticas de versão do cliente usando o painel de controle do Lync Server</span><span class="sxs-lookup"><span data-stu-id="5af86-105">To delete client version policies by using Lync Server Control Panel</span></span>
+## <a name="to-delete-client-version-policies-by-using-lync-server-control-panel"></a><span data-ttu-id="c6ac3-106">Para excluir políticas de versão do cliente usando o painel de controle do Lync Server</span><span class="sxs-lookup"><span data-stu-id="c6ac3-106">To delete client version policies by using Lync Server Control Panel</span></span>
 
-1.  <span data-ttu-id="5af86-106">Por uma conta de usuário atribuída à função CsUserAdministrator role ou CsAdministrator, faça o login em qualquer computador na sua implantação interna.</span><span class="sxs-lookup"><span data-stu-id="5af86-106">From a user account that is assigned to the CsUserAdministrator role or the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
+1.  <span data-ttu-id="c6ac3-107">Por uma conta de usuário atribuída à função CsUserAdministrator role ou CsAdministrator, faça o login em qualquer computador na sua implantação interna.</span><span class="sxs-lookup"><span data-stu-id="c6ac3-107">From a user account that is assigned to the CsUserAdministrator role or the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
 
-2.  <span data-ttu-id="5af86-107">Abra uma janela do navegador e insira a URL do Administrador para abrir o Painel de Controle do Lync Server.</span><span class="sxs-lookup"><span data-stu-id="5af86-107">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="5af86-108">Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o painel de controle do Lync Server, consulte [Open Lync server 2013 Administrative Tools](lync-server-2013-open-lync-server-administrative-tools.md).</span><span class="sxs-lookup"><span data-stu-id="5af86-108">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
+2.  <span data-ttu-id="c6ac3-108">Abra uma janela do navegador e insira a URL do Administrador para abrir o Painel de Controle do Lync Server.</span><span class="sxs-lookup"><span data-stu-id="c6ac3-108">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="c6ac3-109">Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o painel de controle do Lync Server, consulte [Open Lync server 2013 Administrative Tools](lync-server-2013-open-lync-server-administrative-tools.md).</span><span class="sxs-lookup"><span data-stu-id="c6ac3-109">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
 
-3.  <span data-ttu-id="5af86-109">Na barra de navegação esquerda, clique em **clientes**e, em seguida, clique no botão de navegação **política de versão do cliente** .</span><span class="sxs-lookup"><span data-stu-id="5af86-109">In the left navigation bar, click **Clients**, and then click the **Client Version Policy** navigation button.</span></span>
+3.  <span data-ttu-id="c6ac3-110">Na barra de navegação esquerda, clique em **clientes**e, em seguida, clique no botão de navegação **política de versão do cliente** .</span><span class="sxs-lookup"><span data-stu-id="c6ac3-110">In the left navigation bar, click **Clients**, and then click the **Client Version Policy** navigation button.</span></span>
 
-4.  <span data-ttu-id="5af86-110">Na página **política de versão do cliente** , selecione a política de versão do cliente ou as políticas que você deseja excluir, clique em **Editar**e em **excluir**.</span><span class="sxs-lookup"><span data-stu-id="5af86-110">On the **Client Version Policy** page, select the client version policy or policies you want to delete, click **Edit**, and then click **Delete**.</span></span>
+4.  <span data-ttu-id="c6ac3-111">Na página **política de versão do cliente** , selecione a política de versão do cliente ou as políticas que você deseja excluir, clique em **Editar**e em **excluir**.</span><span class="sxs-lookup"><span data-stu-id="c6ac3-111">On the **Client Version Policy** page, select the client version policy or policies you want to delete, click **Edit**, and then click **Delete**.</span></span>
 
 </div>
 
 <div>
 
-## <a name="deleting-client-version-policies-by-using-windows-powershell-cmdlets"></a><span data-ttu-id="5af86-111">Excluindo políticas de versão do cliente usando cmdlets do Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="5af86-111">Deleting Client Version Policies by Using Windows PowerShell Cmdlets</span></span>
+## <a name="deleting-client-version-policies-by-using-windows-powershell-cmdlets"></a><span data-ttu-id="c6ac3-112">Excluindo políticas de versão do cliente usando cmdlets do Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="c6ac3-112">Deleting Client Version Policies by Using Windows PowerShell Cmdlets</span></span>
 
-<span data-ttu-id="5af86-112">Você pode excluir políticas de versão do cliente usando o cmdlet **Remove-CsClientVersionPolicy** .</span><span class="sxs-lookup"><span data-stu-id="5af86-112">You can delete client version policies by using the **Remove-CsClientVersionPolicy** cmdlet.</span></span> <span data-ttu-id="5af86-113">Este cmdlet pode ser executado a partir do Shell de gerenciamento do Lync Server 2013 ou de uma sessão remota do Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="5af86-113">This cmdlet can be run either from the Lync Server 2013 Management Shell or from a remote session of Windows PowerShell.</span></span> <span data-ttu-id="5af86-114">Para obter detalhes sobre como usar o Windows PowerShell remoto para se conectar ao Lync Server, consulte o artigo de blog do Lync Server Windows PowerShell "início rápido: Managing Microsoft Lync Server 2010 using Remote PowerShell" em [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876) .</span><span class="sxs-lookup"><span data-stu-id="5af86-114">For details about using remote Windows PowerShell to connect to Lync Server, see the Lync Server Windows PowerShell blog article "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" at [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876).</span></span>
+<span data-ttu-id="c6ac3-113">Você pode excluir políticas de versão do cliente usando o cmdlet **Remove-CsClientVersionPolicy** .</span><span class="sxs-lookup"><span data-stu-id="c6ac3-113">You can delete client version policies by using the **Remove-CsClientVersionPolicy** cmdlet.</span></span> <span data-ttu-id="c6ac3-114">Este cmdlet pode ser executado a partir do Shell de gerenciamento do Lync Server 2013 ou de uma sessão remota do Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="c6ac3-114">This cmdlet can be run either from the Lync Server 2013 Management Shell or from a remote session of Windows PowerShell.</span></span> <span data-ttu-id="c6ac3-115">Para obter detalhes sobre como usar o Windows PowerShell remoto para se conectar ao Lync Server, consulte o artigo de blog do Lync Server Windows PowerShell "início rápido: Managing Microsoft Lync Server 2010 using Remote PowerShell" em [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876) .</span><span class="sxs-lookup"><span data-stu-id="c6ac3-115">For details about using remote Windows PowerShell to connect to Lync Server, see the Lync Server Windows PowerShell blog article "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" at [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876).</span></span>
 
 <div>
 
-## <a name="to-remove-a-specific-client-version-policy"></a><span data-ttu-id="5af86-115">Para remover uma política de versão de cliente específica</span><span class="sxs-lookup"><span data-stu-id="5af86-115">To remove a specific client version policy</span></span>
+## <a name="to-remove-a-specific-client-version-policy"></a><span data-ttu-id="c6ac3-116">Para remover uma política de versão de cliente específica</span><span class="sxs-lookup"><span data-stu-id="c6ac3-116">To remove a specific client version policy</span></span>
 
-  - <span data-ttu-id="5af86-116">Este comando exclui a política de versão do cliente aplicada ao site de Redmond:</span><span class="sxs-lookup"><span data-stu-id="5af86-116">This command deletes the client version policy applied to the Redmond site:</span></span>
+  - <span data-ttu-id="c6ac3-117">Este comando exclui a política de versão do cliente aplicada ao site de Redmond:</span><span class="sxs-lookup"><span data-stu-id="c6ac3-117">This command deletes the client version policy applied to the Redmond site:</span></span>
     
         Remove-CsClientVersionPolicy -Identity site:Redmond
 
@@ -73,9 +74,9 @@ ms.locfileid: "48525608"
 
 <div>
 
-## <a name="to-remove-all-the-client-version-policies-applied-to-the-site-scope"></a><span data-ttu-id="5af86-117">Para remover todas as políticas de versão do cliente aplicadas ao escopo do site</span><span class="sxs-lookup"><span data-stu-id="5af86-117">To remove all the client version policies applied to the site scope</span></span>
+## <a name="to-remove-all-the-client-version-policies-applied-to-the-site-scope"></a><span data-ttu-id="c6ac3-118">Para remover todas as políticas de versão do cliente aplicadas ao escopo do site</span><span class="sxs-lookup"><span data-stu-id="c6ac3-118">To remove all the client version policies applied to the site scope</span></span>
 
-  - <span data-ttu-id="5af86-118">Este comando Remove todas as políticas de versão do cliente configuradas no escopo do site:</span><span class="sxs-lookup"><span data-stu-id="5af86-118">This command removes all the client version policies configured at the site scope:</span></span>
+  - <span data-ttu-id="c6ac3-119">Este comando Remove todas as políticas de versão do cliente configuradas no escopo do site:</span><span class="sxs-lookup"><span data-stu-id="c6ac3-119">This command removes all the client version policies configured at the site scope:</span></span>
     
         Get-CsClientVersionPolicy -Fiter "site:*" | Remove-CsClientVersionPolicy
 
@@ -83,15 +84,15 @@ ms.locfileid: "48525608"
 
 <div>
 
-## <a name="to-remove-client-version-policies-that-do-not-include-a-specific-user-agent"></a><span data-ttu-id="5af86-119">Para remover políticas de versão do cliente que não incluem um agente de usuário específico</span><span class="sxs-lookup"><span data-stu-id="5af86-119">To remove client version policies that do not include a specific user agent</span></span>
+## <a name="to-remove-client-version-policies-that-do-not-include-a-specific-user-agent"></a><span data-ttu-id="c6ac3-120">Para remover políticas de versão do cliente que não incluem um agente de usuário específico</span><span class="sxs-lookup"><span data-stu-id="c6ac3-120">To remove client version policies that do not include a specific user agent</span></span>
 
-  - <span data-ttu-id="5af86-120">E este comando Remove todas as políticas de versão do cliente que não incluem uma regra para o agente do usuário do Windows Phone Lync (WPLync):</span><span class="sxs-lookup"><span data-stu-id="5af86-120">And this command removes any client version policies that do not include a rule for the Windows Phone Lync (WPLync) user agent:</span></span>
+  - <span data-ttu-id="c6ac3-121">E este comando Remove todas as políticas de versão do cliente que não incluem uma regra para o agente do usuário do Windows Phone Lync (WPLync):</span><span class="sxs-lookup"><span data-stu-id="c6ac3-121">And this command removes any client version policies that do not include a rule for the Windows Phone Lync (WPLync) user agent:</span></span>
     
         Get-CsClientVersionPolicy | Where-Object {$_.Rules -notmatch "UserAgent=WPLync" | Remove-CsClientVersionPolicy
 
 </div>
 
-<span data-ttu-id="5af86-121">Para obter detalhes, consulte o tópico de ajuda para o cmdlet [Remove-CsClientVersionPolicy](https://docs.microsoft.com/powershell/module/skype/Remove-CsClientVersionPolicy) .</span><span class="sxs-lookup"><span data-stu-id="5af86-121">For details, see the Help topic for the [Remove-CsClientVersionPolicy](https://docs.microsoft.com/powershell/module/skype/Remove-CsClientVersionPolicy) cmdlet.</span></span>
+<span data-ttu-id="c6ac3-122">Para obter detalhes, consulte o tópico de ajuda para o cmdlet [Remove-CsClientVersionPolicy](https://docs.microsoft.com/powershell/module/skype/Remove-CsClientVersionPolicy) .</span><span class="sxs-lookup"><span data-stu-id="c6ac3-122">For details, see the Help topic for the [Remove-CsClientVersionPolicy](https://docs.microsoft.com/powershell/module/skype/Remove-CsClientVersionPolicy) cmdlet.</span></span>
 
 </div>
 
