@@ -12,20 +12,22 @@ ms:contentKeyID: 48185222
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d6786d22d81f6b78d1e551d05f3d908876ca3068
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 8c802141adfecf53b70709ad90cc098004eacda1
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42197994"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48522458"
 ---
+# <a name="device-hardware-support-in-lync-server-2013"></a><span data-ttu-id="ec3df-102">Suporte a hardware de dispositivo no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="ec3df-102">Device hardware support in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="device-hardware-support-in-lync-server-2013"></a><span data-ttu-id="bb1fd-102">Suporte a hardware de dispositivo no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="bb1fd-102">Device hardware support in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,31 +37,31 @@ ms.locfileid: "42197994"
 
 <span> </span>
 
-<span data-ttu-id="bb1fd-103">_**Última modificação do tópico:** 2012-12-14_</span><span class="sxs-lookup"><span data-stu-id="bb1fd-103">_**Topic Last Modified:** 2012-12-14_</span></span>
+<span data-ttu-id="ec3df-103">_**Última modificação do tópico:** 2012-12-14_</span><span class="sxs-lookup"><span data-stu-id="ec3df-103">_**Topic Last Modified:** 2012-12-14_</span></span>
 
-<span data-ttu-id="bb1fd-104">Configurações de hardware específicas devem ser feitas antes de você implantar telefones IP e dispositivos analógicos.</span><span class="sxs-lookup"><span data-stu-id="bb1fd-104">Specific hardware configurations must be in place before you deploy IP phones and analog devices.</span></span>
+<span data-ttu-id="ec3df-104">Configurações de hardware específicas devem ser feitas antes de você implantar telefones IP e dispositivos analógicos.</span><span class="sxs-lookup"><span data-stu-id="ec3df-104">Specific hardware configurations must be in place before you deploy IP phones and analog devices.</span></span>
 
-<span data-ttu-id="bb1fd-105">Telefones IP que executam o protocolo de descoberta de camada de link do Lync Phone Edition – descoberta de ponto de extremidade de mídia (LLDP-MED) e PoE (Power over Ethernet).</span><span class="sxs-lookup"><span data-stu-id="bb1fd-105">IP phones running Lync Phone Edition support Link Layer Discovery Protocol-Media Endpoint Discovery (LLDP-MED) and Power over Ethernet (PoE).</span></span><span data-ttu-id="bb1fd-106">Para aproveitar o LLDP-MED, o comutador deve suportar IEEE802.1AB e ANSI/TIA-1057.</span><span class="sxs-lookup"><span data-stu-id="bb1fd-106"> To take advantage of LLDP-MED, the switch must support IEEE802.1AB and ANSI/TIA-1057.</span></span> <span data-ttu-id="bb1fd-107">Para aproveitar o PoE, o comutador deve oferecer suporte a PoE802.3AF ou 802.3at.</span><span class="sxs-lookup"><span data-stu-id="bb1fd-107">To take advantage of PoE, the switch must support PoE802.3AF or 802.3at.</span></span>
+<span data-ttu-id="ec3df-105">Os telefones IP executando o Lync Phone Edition dão suporte à descoberta de camada de link Protocol-Media Endpoint Discovery (LLDP-MED) e à Power over Ethernet (PoE).</span><span class="sxs-lookup"><span data-stu-id="ec3df-105">IP phones running Lync Phone Edition support Link Layer Discovery Protocol-Media Endpoint Discovery (LLDP-MED) and Power over Ethernet (PoE).</span></span><span data-ttu-id="ec3df-106">Para aproveitar o LLDP-MED, o comutador deve suportar IEEE802.1AB e ANSI/TIA-1057.</span><span class="sxs-lookup"><span data-stu-id="ec3df-106"> To take advantage of LLDP-MED, the switch must support IEEE802.1AB and ANSI/TIA-1057.</span></span> <span data-ttu-id="ec3df-107">Para aproveitar o PoE, o comutador deve oferecer suporte a PoE802.3AF ou 802.3at.</span><span class="sxs-lookup"><span data-stu-id="ec3df-107">To take advantage of PoE, the switch must support PoE802.3AF or 802.3at.</span></span>
 
-<span data-ttu-id="bb1fd-108">Para habilitar o LLDP-MED, o administrador precisa habilitar o LLDP usando a janela do console do comutador e definir a política de rede do LLDP-MED com a ID de VLAN de voz correta.</span><span class="sxs-lookup"><span data-stu-id="bb1fd-108">To enable LLDP-MED, the administrator must enable LLDP by using the switch console window and set the LLDP-MED network policy with the correct voice VLAN ID.</span></span>
+<span data-ttu-id="ec3df-108">Para habilitar o LLDP-MED, o administrador precisa habilitar o LLDP usando a janela do console do comutador e definir a política de rede do LLDP-MED com a ID de VLAN de voz correta.</span><span class="sxs-lookup"><span data-stu-id="ec3df-108">To enable LLDP-MED, the administrator must enable LLDP by using the switch console window and set the LLDP-MED network policy with the correct voice VLAN ID.</span></span>
 
-<span data-ttu-id="bb1fd-109">Além disso, se sua implantação incluir dispositivos analógicos, você deve configurar o gateway analógico para usar o Lync Server e o gateway deve ser um dos seguintes:</span><span class="sxs-lookup"><span data-stu-id="bb1fd-109">In addition, if your deployment includes analog devices, you must configure the analog gateway to use Lync Server, and the gateway must be one of the following:</span></span>
+<span data-ttu-id="ec3df-109">Além disso, se sua implantação incluir dispositivos analógicos, você deve configurar o gateway analógico para usar o Lync Server e o gateway deve ser um dos seguintes:</span><span class="sxs-lookup"><span data-stu-id="ec3df-109">In addition, if your deployment includes analog devices, you must configure the analog gateway to use Lync Server, and the gateway must be one of the following:</span></span>
 
-  - <span data-ttu-id="bb1fd-110">Um adaptador de telefone analógico (ATA)</span><span class="sxs-lookup"><span data-stu-id="bb1fd-110">An analog telephone adapter (ATA)</span></span>
+  - <span data-ttu-id="ec3df-110">Um adaptador de telefone analógico (ATA)</span><span class="sxs-lookup"><span data-stu-id="ec3df-110">An analog telephone adapter (ATA)</span></span>
 
-  - <span data-ttu-id="bb1fd-111">Um gateway analógico PSTN</span><span class="sxs-lookup"><span data-stu-id="bb1fd-111">A PSTN analog gateway</span></span>
+  - <span data-ttu-id="ec3df-111">Um gateway analógico PSTN</span><span class="sxs-lookup"><span data-stu-id="ec3df-111">A PSTN analog gateway</span></span>
 
-  - <span data-ttu-id="bb1fd-112">Um Aparelho de Filial Persistente que inclua um gateway PSTN analógico</span><span class="sxs-lookup"><span data-stu-id="bb1fd-112">A Survivable Branch Appliance that includes a PSTN analog gateway</span></span>
+  - <span data-ttu-id="ec3df-112">Um Aparelho de Filial Persistente que inclua um gateway PSTN analógico</span><span class="sxs-lookup"><span data-stu-id="ec3df-112">A Survivable Branch Appliance that includes a PSTN analog gateway</span></span>
 
-  - <span data-ttu-id="bb1fd-113">Um Aparelho de Filial Persistente que inclui um gateway PSTN que se comunica com um ATA</span><span class="sxs-lookup"><span data-stu-id="bb1fd-113">A Survivable Branch Appliance that includes a PSTN gateway that communicates with an ATA</span></span>
+  - <span data-ttu-id="ec3df-113">Um Aparelho de Filial Persistente que inclui um gateway PSTN que se comunica com um ATA</span><span class="sxs-lookup"><span data-stu-id="ec3df-113">A Survivable Branch Appliance that includes a PSTN gateway that communicates with an ATA</span></span>
 
-<span data-ttu-id="bb1fd-114">Para saber como configurar um gateway analógico, consulte "planejando a implantação de dispositivos analógicos" [https://go.microsoft.com/fwlink/p/?LinkId=268537](https://go.microsoft.com/fwlink/p/?linkid=268537) na biblioteca do TechNet do Lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="bb1fd-114">To learn how to configure an analog gateway, see "Planning to Deploy Analog Devices" at [https://go.microsoft.com/fwlink/p/?LinkId=268537](https://go.microsoft.com/fwlink/p/?linkid=268537) in the Lync Server 2010 TechNet Library.</span></span> <span data-ttu-id="bb1fd-115">(Os dispositivos analógicos funcionam da mesma maneira que no Lync Server 2013, como no Lync Server 2010.)</span><span class="sxs-lookup"><span data-stu-id="bb1fd-115">(Analog devices work the same way in Lync Server 2013 as they do in Lync Server 2010.)</span></span>
+<span data-ttu-id="ec3df-114">Para saber como configurar um gateway analógico, consulte "planejando a implantação de dispositivos analógicos" na [https://go.microsoft.com/fwlink/p/?LinkId=268537](https://go.microsoft.com/fwlink/p/?linkid=268537) biblioteca do TechNet do Lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="ec3df-114">To learn how to configure an analog gateway, see "Planning to Deploy Analog Devices" at [https://go.microsoft.com/fwlink/p/?LinkId=268537](https://go.microsoft.com/fwlink/p/?linkid=268537) in the Lync Server 2010 TechNet Library.</span></span> <span data-ttu-id="ec3df-115">(Os dispositivos analógicos funcionam da mesma maneira que no Lync Server 2013, como no Lync Server 2010.)</span><span class="sxs-lookup"><span data-stu-id="ec3df-115">(Analog devices work the same way in Lync Server 2013 as they do in Lync Server 2010.)</span></span>
 
 <div>
 
 
 > [!IMPORTANT]  
-> <span data-ttu-id="bb1fd-116">É possível configurar o comutador para o Enhanced 9-1-1 (E9-1-1), se o comutador suportar isso.</span><span class="sxs-lookup"><span data-stu-id="bb1fd-116">You can configure the switch for Enhanced 9-1-1 (E9-1-1), if the switch supports this.</span></span>
+> <span data-ttu-id="ec3df-116">É possível configurar o comutador para o Enhanced 9-1-1 (E9-1-1), se o comutador suportar isso.</span><span class="sxs-lookup"><span data-stu-id="ec3df-116">You can configure the switch for Enhanced 9-1-1 (E9-1-1), if the switch supports this.</span></span>
 
 
 

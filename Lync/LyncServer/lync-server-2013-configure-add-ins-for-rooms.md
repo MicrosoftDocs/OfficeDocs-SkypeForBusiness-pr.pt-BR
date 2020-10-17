@@ -12,20 +12,22 @@ ms:contentKeyID: 48184090
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ca916731f34bf08e59ae2ba281a1c6d723b46ae8
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 8779e770ca96cbfc34bbbc1f1897df1f5eb9ea03
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42205167"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48523048"
 ---
+# <a name="configure-add-ins-for-rooms-in-lync-server-2013"></a><span data-ttu-id="0338a-102">Configurar suplementos para salas no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="0338a-102">Configure add-ins for rooms in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-add-ins-for-rooms-in-lync-server-2013"></a><span data-ttu-id="6cd7e-102">Configurar suplementos para salas no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="6cd7e-102">Configure add-ins for rooms in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,56 +37,56 @@ ms.locfileid: "42205167"
 
 <span> </span>
 
-<span data-ttu-id="6cd7e-103">_**Última modificação do tópico:** 2013-02-21_</span><span class="sxs-lookup"><span data-stu-id="6cd7e-103">_**Topic Last Modified:** 2013-02-21_</span></span>
+<span data-ttu-id="0338a-103">_**Última modificação do tópico:** 2013-02-21_</span><span class="sxs-lookup"><span data-stu-id="0338a-103">_**Topic Last Modified:** 2013-02-21_</span></span>
 
-<span data-ttu-id="6cd7e-104">No painel de controle do Lync Server 2013, você pode usar a seção **suplemento** da página **chat persistente** para associar URLs a salas de chat persistente.</span><span class="sxs-lookup"><span data-stu-id="6cd7e-104">In Lync Server 2013 Control Panel, you can use the **Add-in** section of the **Persistent Chat** page to associate URLs with Persistent Chat rooms.</span></span> <span data-ttu-id="6cd7e-105">Essas URLs aparecem no cliente do Lync 2013 na sala de chat no painel de extensibilidade de conversa.</span><span class="sxs-lookup"><span data-stu-id="6cd7e-105">These URLs appear in the Lync 2013 client in the chat room in the conversation extensibility pane.</span></span> <span data-ttu-id="6cd7e-106">Um administrador deve adicionar suplementos à lista de suplementos registrados e os gerentes/salas de sala de bate-papo precisam associar salas a um dos suplementos registrados antes que os usuários possam ver essa atualização em seu cliente Lync 2013.</span><span class="sxs-lookup"><span data-stu-id="6cd7e-106">An administrator must add Add-ins to the list of registered add-ins, and chat room managers/Creators have to associate rooms with one of the registered add-ins before users can see this upgrade in their Lync 2013 client.</span></span>
+<span data-ttu-id="0338a-104">No painel de controle do Lync Server 2013, você pode usar a seção **suplemento** da página **chat persistente** para associar URLs a salas de chat persistente.</span><span class="sxs-lookup"><span data-stu-id="0338a-104">In Lync Server 2013 Control Panel, you can use the **Add-in** section of the **Persistent Chat** page to associate URLs with Persistent Chat rooms.</span></span> <span data-ttu-id="0338a-105">Essas URLs aparecem no cliente do Lync 2013 na sala de chat no painel de extensibilidade de conversa.</span><span class="sxs-lookup"><span data-stu-id="0338a-105">These URLs appear in the Lync 2013 client in the chat room in the conversation extensibility pane.</span></span> <span data-ttu-id="0338a-106">Um administrador deve adicionar suplementos à lista de suplementos registrados e os gerentes/salas de sala de bate-papo precisam associar salas a um dos suplementos registrados antes que os usuários possam ver essa atualização em seu cliente Lync 2013.</span><span class="sxs-lookup"><span data-stu-id="0338a-106">An administrator must add Add-ins to the list of registered add-ins, and chat room managers/Creators have to associate rooms with one of the registered add-ins before users can see this upgrade in their Lync 2013 client.</span></span>
 
-<span data-ttu-id="6cd7e-107">Os suplementos são usados para estender a experiência na sala.</span><span class="sxs-lookup"><span data-stu-id="6cd7e-107">Add-ins are used to extend the in-room experience.</span></span> <span data-ttu-id="6cd7e-108">Um suplemento típico pode incluir uma URL que aponta para um aplicativo do Silverlight que intercepta quando uma cotação de ações é lançada em uma sala de chat e mostra o histórico de ações no painel extensibilidade.</span><span class="sxs-lookup"><span data-stu-id="6cd7e-108">A typical add-in might include a URL pointing to a Silverlight application that intercepts when a stock ticker is posted to a chat room, and shows the stock history in the extensibility pane.</span></span> <span data-ttu-id="6cd7e-109">Outros exemplos incluem o URL do OneNote 2013 na sala de chat como um suplemento para incluir algum contexto compartilhado, como o "Mais lembrado" ou "Assunto do dia."</span><span class="sxs-lookup"><span data-stu-id="6cd7e-109">Other examples include embedding a OneNote 2013 URL in the chat room as an add-in to include some shared context, such as "Top of mind" or "Topic of the day."</span></span>
+<span data-ttu-id="0338a-107">Os suplementos são usados para estender a experiência na sala.</span><span class="sxs-lookup"><span data-stu-id="0338a-107">Add-ins are used to extend the in-room experience.</span></span> <span data-ttu-id="0338a-108">Um suplemento típico pode incluir uma URL que aponta para um aplicativo do Silverlight que intercepta quando uma cotação de ações é lançada em uma sala de chat e mostra o histórico de ações no painel extensibilidade.</span><span class="sxs-lookup"><span data-stu-id="0338a-108">A typical add-in might include a URL pointing to a Silverlight application that intercepts when a stock ticker is posted to a chat room, and shows the stock history in the extensibility pane.</span></span> <span data-ttu-id="0338a-109">Outros exemplos incluem o URL do OneNote 2013 na sala de chat como um suplemento para incluir algum contexto compartilhado, como o "Mais lembrado" ou "Assunto do dia."</span><span class="sxs-lookup"><span data-stu-id="0338a-109">Other examples include embedding a OneNote 2013 URL in the chat room as an add-in to include some shared context, such as "Top of mind" or "Topic of the day."</span></span>
 
 <div>
 
-## <a name="to-configure-add-ins-for-chat-rooms"></a><span data-ttu-id="6cd7e-110">Para configurar Suplementos para as salas de chat</span><span class="sxs-lookup"><span data-stu-id="6cd7e-110">To configure Add-ins for chat rooms</span></span>
+## <a name="to-configure-add-ins-for-chat-rooms"></a><span data-ttu-id="0338a-110">Para configurar Suplementos para as salas de chat</span><span class="sxs-lookup"><span data-stu-id="0338a-110">To configure Add-ins for chat rooms</span></span>
 
-1.  <span data-ttu-id="6cd7e-111">A partir de uma conta de usuário com a função CsPersistentChatAdministrator ou CsAdministrator atribuída, faça o logon em qualquer computador na sua implementação interna.</span><span class="sxs-lookup"><span data-stu-id="6cd7e-111">From a user account that is assigned to the CsPersistentChatAdministrator or CsAdministrator role, log on to any computer in your internal deployment.</span></span>
+1.  <span data-ttu-id="0338a-111">A partir de uma conta de usuário com a função CsPersistentChatAdministrator ou CsAdministrator atribuída, faça o logon em qualquer computador na sua implementação interna.</span><span class="sxs-lookup"><span data-stu-id="0338a-111">From a user account that is assigned to the CsPersistentChatAdministrator or CsAdministrator role, log on to any computer in your internal deployment.</span></span>
 
-2.  <span data-ttu-id="6cd7e-112">No menu **Iniciar** , selecione o painel de controle do Lync Server ou abra uma janela do navegador e insira a URL do administrador.</span><span class="sxs-lookup"><span data-stu-id="6cd7e-112">From the **Start** menu, select the Lync Server Control Panel or open a browser window, and then enter the Admin URL.</span></span> <span data-ttu-id="6cd7e-113">Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o painel de controle do Lync Server, consulte [Open Lync server 2013 Administrative Tools](lync-server-2013-open-lync-server-administrative-tools.md).</span><span class="sxs-lookup"><span data-stu-id="6cd7e-113">For details about the different methods that you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
+2.  <span data-ttu-id="0338a-112">No menu **Iniciar** , selecione o painel de controle do Lync Server ou abra uma janela do navegador e insira a URL do administrador.</span><span class="sxs-lookup"><span data-stu-id="0338a-112">From the **Start** menu, select the Lync Server Control Panel or open a browser window, and then enter the Admin URL.</span></span> <span data-ttu-id="0338a-113">Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o painel de controle do Lync Server, consulte [Open Lync server 2013 Administrative Tools](lync-server-2013-open-lync-server-administrative-tools.md).</span><span class="sxs-lookup"><span data-stu-id="0338a-113">For details about the different methods that you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
     
     <div>
     
 
     > [!IMPORTANT]  
-    > <span data-ttu-id="6cd7e-114">Você também pode usar os cmdlets do Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="6cd7e-114">You can also use Windows PowerShell cmdlets.</span></span> <span data-ttu-id="6cd7e-115">Para obter detalhes, consulte <A href="configuring-persistent-chat-server-by-using-windows-powershell-cmdlets.md">Configurando o servidor de chat persistente usando cmdlets do Windows PowerShell</A> na documentação de implantação.</span><span class="sxs-lookup"><span data-stu-id="6cd7e-115">For details, see <A href="configuring-persistent-chat-server-by-using-windows-powershell-cmdlets.md">Configuring Persistent Chat Server by using Windows PowerShell cmdlets</A> in the Deployment documentation.</span></span>
+    > <span data-ttu-id="0338a-114">Você também pode usar os cmdlets do Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="0338a-114">You can also use Windows PowerShell cmdlets.</span></span> <span data-ttu-id="0338a-115">Para obter detalhes, consulte <A href="configuring-persistent-chat-server-by-using-windows-powershell-cmdlets.md">Configurando o servidor de chat persistente usando cmdlets do Windows PowerShell</A> na documentação de implantação.</span><span class="sxs-lookup"><span data-stu-id="0338a-115">For details, see <A href="configuring-persistent-chat-server-by-using-windows-powershell-cmdlets.md">Configuring Persistent Chat Server by using Windows PowerShell cmdlets</A> in the Deployment documentation.</span></span>
 
     
     </div>
 
-3.  <span data-ttu-id="6cd7e-116">Na barra de navegação esquerda, clique em **Chat Persistente** e clique em **Suplemento**.</span><span class="sxs-lookup"><span data-stu-id="6cd7e-116">In the left navigation bar, click **Persistent Chat**, and then click **Add-in**.</span></span>
+3.  <span data-ttu-id="0338a-116">Na barra de navegação esquerda, clique em **Chat Persistente** e clique em **Suplemento**.</span><span class="sxs-lookup"><span data-stu-id="0338a-116">In the left navigation bar, click **Persistent Chat**, and then click **Add-in**.</span></span>
     
-    <span data-ttu-id="6cd7e-117">Para várias implantações de pool do servidor de chat persistente, selecione o pool apropriado na lista suspensa.</span><span class="sxs-lookup"><span data-stu-id="6cd7e-117">For multiple Persistent Chat Server pool deployments, select the appropriate pool from the drop-down list.</span></span>
+    <span data-ttu-id="0338a-117">Para várias implantações de pool do servidor de chat persistente, selecione o pool apropriado na lista suspensa.</span><span class="sxs-lookup"><span data-stu-id="0338a-117">For multiple Persistent Chat Server pool deployments, select the appropriate pool from the drop-down list.</span></span>
 
-4.  <span data-ttu-id="6cd7e-118">Na página **Suplementos**, clique em **Novo**.</span><span class="sxs-lookup"><span data-stu-id="6cd7e-118">On the **Add-in** page, click **New**.</span></span>
+4.  <span data-ttu-id="0338a-118">Na página **Suplementos**, clique em **Novo**.</span><span class="sxs-lookup"><span data-stu-id="0338a-118">On the **Add-in** page, click **New**.</span></span>
 
-5.  <span data-ttu-id="6cd7e-119">Em **selecionar um serviço**, selecione o serviço correspondente ao pool do servidor de chat persistente onde você precisa criar o suplemento.</span><span class="sxs-lookup"><span data-stu-id="6cd7e-119">In **Select a Service**, select the service corresponding to the Persistent Chat Server pool where you need to create the Add-in.</span></span> <span data-ttu-id="6cd7e-120">Os suplementos não podem ser movidos de um pool para outro ou compartilhado entre pools diferentes.</span><span class="sxs-lookup"><span data-stu-id="6cd7e-120">Add-ins cannot be moved from one pool to another or shared between different pools.</span></span>
+5.  <span data-ttu-id="0338a-119">Em **selecionar um serviço**, selecione o serviço correspondente ao pool do servidor de chat persistente onde você precisa criar o suplemento.</span><span class="sxs-lookup"><span data-stu-id="0338a-119">In **Select a Service**, select the service corresponding to the Persistent Chat Server pool where you need to create the Add-in.</span></span> <span data-ttu-id="0338a-120">Os suplementos não podem ser movidos de um pool para outro ou compartilhado entre pools diferentes.</span><span class="sxs-lookup"><span data-stu-id="0338a-120">Add-ins cannot be moved from one pool to another or shared between different pools.</span></span>
 
-6.  <span data-ttu-id="6cd7e-121">Em **Suplementos novos**, faça o seguinte:</span><span class="sxs-lookup"><span data-stu-id="6cd7e-121">In **New Add-in**, do the following:</span></span>
+6.  <span data-ttu-id="0338a-121">Em **Suplementos novos**, faça o seguinte:</span><span class="sxs-lookup"><span data-stu-id="0338a-121">In **New Add-in**, do the following:</span></span>
     
-      - <span data-ttu-id="6cd7e-122">Em **Nome**, especifique um nome para o novo suplemento.</span><span class="sxs-lookup"><span data-stu-id="6cd7e-122">In **Name**, specify a name for the new add-in.</span></span>
+      - <span data-ttu-id="0338a-122">Em **Nome**, especifique um nome para o novo suplemento.</span><span class="sxs-lookup"><span data-stu-id="0338a-122">In **Name**, specify a name for the new add-in.</span></span>
     
-      - <span data-ttu-id="6cd7e-p106">Em **URL**, especifique o  URL que deve ser associada ao suplemento. Os URLs são limitados aos protocolos http e https.</span><span class="sxs-lookup"><span data-stu-id="6cd7e-p106">In **URL**, specify the URL to be associated with the add-in. URLs are limited to http and https protocols.</span></span>
+      - <span data-ttu-id="0338a-p106">Em **URL**, especifique o  URL que deve ser associada ao suplemento. Os URLs são limitados aos protocolos http e https.</span><span class="sxs-lookup"><span data-stu-id="0338a-p106">In **URL**, specify the URL to be associated with the add-in. URLs are limited to http and https protocols.</span></span>
 
-7.  <span data-ttu-id="6cd7e-125">Clique em **Confirmar**.</span><span class="sxs-lookup"><span data-stu-id="6cd7e-125">Click **Commit**.</span></span>
+7.  <span data-ttu-id="0338a-125">Clique em **Confirmar**.</span><span class="sxs-lookup"><span data-stu-id="0338a-125">Click **Commit**.</span></span>
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="6cd7e-126">Confira também</span><span class="sxs-lookup"><span data-stu-id="6cd7e-126">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="0338a-126">Confira também</span><span class="sxs-lookup"><span data-stu-id="0338a-126">See Also</span></span>
 
 
-[<span data-ttu-id="6cd7e-127">Abrir as ferramentas administrativas do Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="6cd7e-127">Open Lync Server 2013 administrative tools</span></span>](lync-server-2013-open-lync-server-administrative-tools.md)  
+[<span data-ttu-id="0338a-127">Abrir as ferramentas administrativas do Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="0338a-127">Open Lync Server 2013 administrative tools</span></span>](lync-server-2013-open-lync-server-administrative-tools.md)  
 
 
-[<span data-ttu-id="6cd7e-128">Configurando o servidor de chat persistente usando cmdlets do Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="6cd7e-128">Configuring Persistent Chat Server by using Windows PowerShell cmdlets</span></span>](configuring-persistent-chat-server-by-using-windows-powershell-cmdlets.md)  
+[<span data-ttu-id="0338a-128">Configurando o servidor de chat persistente usando cmdlets do Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="0338a-128">Configuring Persistent Chat Server by using Windows PowerShell cmdlets</span></span>](configuring-persistent-chat-server-by-using-windows-powershell-cmdlets.md)  
   
 
 </div>

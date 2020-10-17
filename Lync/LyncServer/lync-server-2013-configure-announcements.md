@@ -12,20 +12,22 @@ ms:contentKeyID: 49733851
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 76477d748b1a79c616562c20480194f3c4960879
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 21eed897d0f85e7d7041f5e86db2fe41e7c30bdd
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42205083"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48522968"
 ---
+# <a name="configure-announcements-in-lync-server-2013"></a><span data-ttu-id="4e450-102">Configurar comunicados no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="4e450-102">Configure announcements in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-announcements-in-lync-server-2013"></a><span data-ttu-id="653d0-102">Configurar comunicados no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="653d0-102">Configure announcements in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,19 +37,19 @@ ms.locfileid: "42205083"
 
 <span> </span>
 
-<span data-ttu-id="653d0-103">_**Última modificação do tópico:** 2012-09-12_</span><span class="sxs-lookup"><span data-stu-id="653d0-103">_**Topic Last Modified:** 2012-09-12_</span></span>
+<span data-ttu-id="4e450-103">_**Última modificação do tópico:** 2012-09-12_</span><span class="sxs-lookup"><span data-stu-id="4e450-103">_**Topic Last Modified:** 2012-09-12_</span></span>
 
-<span data-ttu-id="653d0-p101">Ao configurar comunicados, na verdade você está configurando como deseja manipular as chamadas para números não atribuídos. É possível reproduzir um prompt, que pode ser um arquivo de áudio ou um arquivo TTS (conversão de texto em fala) ou simplesmente transferir a chamada para um destino especificado sem reproduzir um prompt.</span><span class="sxs-lookup"><span data-stu-id="653d0-p101">When you configure announcements, you are really configuring how you want calls to unassigned numbers to be handled. You can play a prompt, which can be an audio file or a text-to-speech (TTS) file, or you can just transfer the call to a specified destination without playing a prompt.</span></span>
+<span data-ttu-id="4e450-p101">Ao configurar comunicados, na verdade você está configurando como deseja manipular as chamadas para números não atribuídos. É possível reproduzir um prompt, que pode ser um arquivo de áudio ou um arquivo TTS (conversão de texto em fala) ou simplesmente transferir a chamada para um destino especificado sem reproduzir um prompt.</span><span class="sxs-lookup"><span data-stu-id="4e450-p101">When you configure announcements, you are really configuring how you want calls to unassigned numbers to be handled. You can play a prompt, which can be an audio file or a text-to-speech (TTS) file, or you can just transfer the call to a specified destination without playing a prompt.</span></span>
 
-<span data-ttu-id="653d0-p102">Você precisa criar anúncios antes de definir a tabela de números não atribuídos. Você precisa executar esta etapa para todos os anúncios que usam um prompt de áudio, de TTS ou nenhum prompt.</span><span class="sxs-lookup"><span data-stu-id="653d0-p102">You need to create announcements before you define the unassigned number table. You need to perform this step for all announcements that use an audio prompt, a TTS prompt, or no prompt.</span></span>
+<span data-ttu-id="4e450-p102">Você precisa criar anúncios antes de definir a tabela de números não atribuídos. Você precisa executar esta etapa para todos os anúncios que usam um prompt de áudio, de TTS ou nenhum prompt.</span><span class="sxs-lookup"><span data-stu-id="4e450-p102">You need to create announcements before you define the unassigned number table. You need to perform this step for all announcements that use an audio prompt, a TTS prompt, or no prompt.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="653d0-108">Nesta seção</span><span class="sxs-lookup"><span data-stu-id="653d0-108">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="4e450-108">Nesta seção</span><span class="sxs-lookup"><span data-stu-id="4e450-108">In This Section</span></span>
 
-  - [<span data-ttu-id="653d0-109">Criar um comunicado no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="653d0-109">Create an announcement in Lync Server 2013</span></span>](lync-server-2013-create-an-announcement.md)
+  - [<span data-ttu-id="4e450-109">Criar um comunicado no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="4e450-109">Create an announcement in Lync Server 2013</span></span>](lync-server-2013-create-an-announcement.md)
 
-  - [<span data-ttu-id="653d0-110">Excluir um comunicado no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="653d0-110">Delete an announcement in Lync Server 2013</span></span>](lync-server-2013-delete-an-announcement.md)
+  - [<span data-ttu-id="4e450-110">Excluir um comunicado no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="4e450-110">Delete an announcement in Lync Server 2013</span></span>](lync-server-2013-delete-an-announcement.md)
 
 </div>
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 48184289
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 72019a1bc95bd1c9c2b8cd69a623311ad6f249ba
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: d2ad8ee15d0242a5512284e00064dfe9b49c41c5
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42202297"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48522358"
 ---
+# <a name="failing-back-a-pool-in-lync-server-2013"></a><span data-ttu-id="b7ed1-102">Failback de um pool no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="b7ed1-102">Failing back a pool in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="failing-back-a-pool-in-lync-server-2013"></a><span data-ttu-id="1ab7d-102">Failback de um pool no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="1ab7d-102">Failing back a pool in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,17 +37,17 @@ ms.locfileid: "42202297"
 
 <span> </span>
 
-<span data-ttu-id="1ab7d-103">_**Última modificação do tópico:** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="1ab7d-103">_**Topic Last Modified:** 2012-11-01_</span></span>
+<span data-ttu-id="b7ed1-103">_**Última modificação do tópico:** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="b7ed1-103">_**Topic Last Modified:** 2012-11-01_</span></span>
 
-<span data-ttu-id="1ab7d-104">Depois que o pool que passou por desastre voltar a ficar online (ou seja, o Pool1 neste exemplo), execute as etapas a seguir para restaurar sua implantação para o status funcional normal.</span><span class="sxs-lookup"><span data-stu-id="1ab7d-104">After the pool that experienced the disaster is back online (that is, Pool1 in this example), take the following steps to restore your deployment to regular working status.</span></span>
+<span data-ttu-id="b7ed1-104">Depois que o pool que passou por desastre voltar a ficar online (ou seja, o Pool1 neste exemplo), execute as etapas a seguir para restaurar sua implantação para o status funcional normal.</span><span class="sxs-lookup"><span data-stu-id="b7ed1-104">After the pool that experienced the disaster is back online (that is, Pool1 in this example), take the following steps to restore your deployment to regular working status.</span></span>
 
-<span data-ttu-id="1ab7d-p101">O processo de failback leva vários minutos para ser concluído.  Como referência, espera-se que leve até 60 minutos para um pool de 20 mil usuários.</span><span class="sxs-lookup"><span data-stu-id="1ab7d-p101">Note that the failback process takes several minute to complete.  For reference, it is expected to take up to 60 minutes for a pool of 20,000 users.</span></span>
+<span data-ttu-id="b7ed1-p101">O processo de failback leva vários minutos para ser concluído.  Como referência, espera-se que leve até 60 minutos para um pool de 20 mil usuários.</span><span class="sxs-lookup"><span data-stu-id="b7ed1-p101">Note that the failback process takes several minute to complete.  For reference, it is expected to take up to 60 minutes for a pool of 20,000 users.</span></span>
 
-1.  <span data-ttu-id="1ab7d-107">Para fazer failback dos usuários que estavam originalmente hospedados no Pool1 e dos quais foi feito failover para o Pool2, digite o seguinte cmdlet:</span><span class="sxs-lookup"><span data-stu-id="1ab7d-107">Fail back the users who were originally homed in Pool1 and have been failed over to Pool2 by typing the following cmdlet:</span></span>
+1.  <span data-ttu-id="b7ed1-107">Para fazer failback dos usuários que estavam originalmente hospedados no Pool1 e dos quais foi feito failover para o Pool2, digite o seguinte cmdlet:</span><span class="sxs-lookup"><span data-stu-id="b7ed1-107">Fail back the users who were originally homed in Pool1 and have been failed over to Pool2 by typing the following cmdlet:</span></span>
     
         Invoke-CsPoolFailback -PoolFQDN <Pool1 FQDN> -Verbose
 
-<span data-ttu-id="1ab7d-108">Nenhuma outra etapa é necessária.</span><span class="sxs-lookup"><span data-stu-id="1ab7d-108">No other steps are necessary.</span></span> <span data-ttu-id="1ab7d-109">Se você tiver falhado no servidor de gerenciamento central, você pode deixá-lo no Pool2.</span><span class="sxs-lookup"><span data-stu-id="1ab7d-109">If you failed over the Central Management Server, you can leave it in Pool2.</span></span>
+<span data-ttu-id="b7ed1-108">Nenhuma outra etapa é necessária.</span><span class="sxs-lookup"><span data-stu-id="b7ed1-108">No other steps are necessary.</span></span> <span data-ttu-id="b7ed1-109">Se você tiver falhado no servidor de gerenciamento central, você pode deixá-lo no Pool2.</span><span class="sxs-lookup"><span data-stu-id="b7ed1-109">If you failed over the Central Management Server, you can leave it in Pool2.</span></span>
 
 </div>
 
