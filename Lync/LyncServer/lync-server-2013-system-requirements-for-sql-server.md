@@ -12,20 +12,22 @@ ms:contentKeyID: 48184904
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: aeebdf5e06c647172b0e1d00b2602855eca6bc1c
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 6b9aa4a51ed7e75b413b0712297d02f5e8050fa2
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42192114"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48497368"
 ---
+# <a name="system-requirements-for-sql-server-in-lync-server-2013"></a>Requisitos do sistema para o SQL Server no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="system-requirements-for-sql-server-in-lync-server-2013"></a>Requisitos do sistema para o SQL Server no Lync Server 2013
+
 
 </div>
 
@@ -39,7 +41,7 @@ _**Última modificação do tópico:** 2013-10-25_
 
 Antes de implantar o servidor Enterprise Edition, instale o Microsoft SQL Server 2008 R2 ou o Microsoft SQL Server 2012 em um computador dedicado que atenda aos requisitos de hardware. Para obter detalhes sobre os requisitos de hardware, consulte [Server Hardware Platforms for Lync server 2013](lync-server-2013-server-hardware-platforms.md) na documentação de suporte. Para obter detalhes sobre os requisitos de software, consulte [Database software support in Lync Server 2013](lync-server-2013-database-software-support.md) na documentação de suporte. Para obter informações sobre as permissões necessárias para a implantação, consulte [Deployment Permissions for SQL Server in Lync server 2013](lync-server-2013-deployment-permissions-for-sql-server.md).
 
-Antes de criar o pool de front-ends, você também deve configurar o Firewall do Windows para permitir o acesso do Lync Server 2013 ao SQL Server em portas específicas definindo portas para o servidor usando o Gerenciador de configuração do SQL Server e abrindo portas no firewall do Windows com Segurança avançada.
+Antes de criar o pool de front-ends, você também deve configurar o Firewall do Windows para permitir o acesso do Lync Server 2013 ao SQL Server em portas específicas definindo portas para o servidor usando o Gerenciador de configuração do SQL Server e abrindo portas no firewall do Windows com segurança avançada.
 
 </div>
 

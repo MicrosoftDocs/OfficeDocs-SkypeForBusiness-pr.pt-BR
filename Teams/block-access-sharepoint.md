@@ -20,73 +20,73 @@ search.appverid: MET150
 description: Saiba mais sobre como bloquear o acesso ao SharePoint para usuários específicos
 ms.openlocfilehash: edcdb8286ff69557215a0e481b12e67b81f440fe
 ms.sourcegitcommit: 3db7c450d3afbc1049e1016d51016442e5764634
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 09/22/2020
 ms.locfileid: "48203834"
 ---
 # <a name="block-access-to-sharepoint-for-specific-users"></a>Bloquear o acesso ao SharePoint para usuários específicos
 
-A aplicação de qualquer política de acesso condicional (CA) no SharePoint no Microsoft 365 também é aplicada ao Teams. No entanto, algumas organizações desejam bloquear o acesso aos arquivos do SharePoint (carregar, baixar, exibir, editar, criar) ainda permitem que seus funcionários usem clientes da área de trabalho do Teams, dispositivos móveis e Web em dispositivos não gerenciados. Nas regras de política da autoridade de certificação, bloquear o SharePoint também levaria a bloquear o Teams. Este artigo explica como você pode contornar essa limitação e permitir que seus funcionários continuem a usar o Teams enquanto bloqueiam completamente o acesso a arquivos armazenados no SharePoint.
+A aplicação de qualquer política de Acesso Condicional (AC) do SharePoint no Microsoft 365 também se aplica ao Teams. No entanto, algumas organizações desejam bloquear o acesso aos arquivos do SharePoint (carregar, baixar, visualizar, editar, criar) e ainda permitir que seus funcionários usem clientes Web, móveis e da área de trabalho do Teams em dispositivos não gerenciados. De acordo com as regras de política AC, o bloqueio do Sharepoint bloquearia também o Teams. Este artigo explica como você pode contornar essa limitação e permitir que seus funcionários continuem usando o Teams enquanto bloqueia completamente o acesso aos arquivos armazenados no SharePoint.
 
 > [!Note]
-> Bloquear ou limitar o acesso em dispositivos não gerenciados depende das políticas de acesso condicional do Azure AD. Saiba mais sobre o [Licenciamento do Azure ad](https://azure.microsoft.com/pricing/details/active-directory/). Para obter uma visão geral do acesso condicional no Azure AD, consulte [acesso condicional no Azure Active Directory](https://docs.microsoft.com/azure/active-directory/conditional-access/overview). Para obter informações sobre as políticas de acesso recomendadas do SharePoint Online, consulte [recomendações de política para proteger sites e arquivos do SharePoint](https://docs.microsoft.com/microsoft-365/enterprise/sharepoint-file-access-policies). Se você limitar o acesso em dispositivos não gerenciados, os usuários em dispositivos gerenciados devem usar uma das [combinações de sistema operacional e navegador compatíveis](https://docs.microsoft.com/azure/active-directory/conditional-access/technical-reference#client-apps-condition)ou também terão acesso limitado.
+> O bloqueio ou limitação do acesso em dispositivos não gerenciados depende das políticas de acesso condicional do Microsoft Azure AD. Saiba mais sobre o [Licenciamento do Microsoft Azure AD](https://azure.microsoft.com/pricing/details/active-directory/). Para obter uma visão geral do acesso condicional no Microsoft Azure AD, confira [Acesso condicional no Azure Active Directory](https://docs.microsoft.com/azure/active-directory/conditional-access/overview). Para obter informações sobre as políticas de acesso recomendadas do SharePoint Online, confira [Recomendações de política para proteger sites e arquivos do SharePoint](https://docs.microsoft.com/microsoft-365/enterprise/sharepoint-file-access-policies). Se você limitar o acesso a dispositivos não gerenciados, os usuários de dispositivos gerenciados deverão usar um dos [sistemas operacionais e combinações de navegador com suporte](https://docs.microsoft.com/azure/active-directory/conditional-access/technical-reference#client-apps-condition), ou terão seu acesso limitado também.
 
-Você pode bloquear ou limitar o acesso para:
+Você pode bloquear ou limitar o acesso de:
 
-- Usuários na organização ou somente alguns usuários ou grupos de segurança.
+- Usuários da organização ou apenas alguns usuários ou grupos de segurança.
 
-- Todos os sites da organização ou somente alguns sites.
+- Todos os sites da organização ou apenas alguns deles.
 
-Quando o Access estiver bloqueado, os usuários verão uma mensagem de erro. O bloqueio do Access ajuda a oferecer segurança e protege dados protegidos. Quando o Access estiver bloqueado, os usuários verão uma mensagem de erro.
+Quando o acesso é bloqueado, os usuários verão uma mensagem de erro. O bloqueio de acesso ajuda a fornecer segurança e protege dados seguros. Quando o acesso é bloqueado, os usuários verão uma mensagem de erro.
 
-1. Abra o centro de administração do SharePoint.
+1. Abra o Centro de Administração do SharePoint.
 
-2. Expanda políticas de **Policies**  >  **acesso às**políticas.
+2. Expanda **Políticas** > **Políticas de Acesso**.
 
-3. Na seção **dispositivos não gerenciados** , selecione **bloquear acesso** e selecione **salvar**.
+3. Na seção **Dispositivos não gerenciados**, selecione **Bloquear Acesso** e selecione **Salvar**.
 
-   ![a seção dispositivos não gerenciados para políticas](media/no-sharepoint-access1.png)
+   ![a seção Dispositivos não gerenciados para Políticas](media/no-sharepoint-access1.png)
 
-4. Abra o portal [do Active Directory do Azure](https://portal.azure.com/#blade/Microsoft_AAD_IAM/ConditionalAccessBlade/Policies) e navegue até **políticas de acesso condicional**.
+4. Abra o portal do [Azure Active Directory](https://portal.azure.com/#blade/Microsoft_AAD_IAM/ConditionalAccessBlade/Policies) e acesse **Políticas de Acesso Condicional**.
 
-    Você verá que uma nova política foi criada pelo SharePoint semelhante a este exemplo:
+    Você verá uma nova política criada pelo SharePoint semelhante a este exemplo:
 
-    ![uma nova política nomeada usar restrições impostas pelo aplicativo para acesso ao navegador](media/no-sharepoint-access2.png)
+    ![uma nova política chamada Usar restrições impostas pelo aplicativo para acesso ao navegador](media/no-sharepoint-access2.png)
 
-5. Atualize a política para direcionar apenas usuários específicos ou um grupo.
+5. Atualize a política para direcionar apenas a usuários ou a um grupo específicos.
 
-    ![o centro de administração do SharePoint com a seção Selecionar usuário realçada.](media/no-sharepoint-access2b.png)
+    ![o centro de administração do Sharepoint com a seção Selecionar usuário destacada.](media/no-sharepoint-access2b.png)
 
   > [!Note]
-> A configuração desta política recortará seu acesso ao portal de administração do SharePoint. Recomendamos que você configure a política de exclusão e selecione os administradores globais e do SharePoint.
+> Configurar essa política impedirá seu acesso ao portal de administração do SharePoint. Recomendamos que você configure a política de exclusão e selecione os Administradores globais e do SharePoint.
 
-6. Verificar se apenas o SharePoint está selecionado como aplicativo de nuvem direcionado
+6. Verificar se apenas o SharePoint está selecionado como Aplicativo na Nuvem de destino
 
     ![O SharePoint está selecionado como o aplicativo de destino.](media/no-sharepoint-access3.png)
 
-7. Atualize **condições** para incluir clientes da área de trabalho também.
+7. Atualize as **Condições** para incluir clientes da área de trabalho também.
 
-    ![aplicativos de área de trabalho e móveis realçados.](media/no-sharepoint-access4.png)
+    ![aplicativos móveis e da área de trabalho em destaque.](media/no-sharepoint-access4.png)
 
-8. Verifique se a opção **conceder acesso** está habilitada
+8. Certifique-se de que **Conceder acesso** está habilitado
 
     ![conceder acesso está habilitado.](media/no-sharepoint-access5.png)
 
-9. Certifique-se de que a opção **usar restrições impostas de aplicativo** esteja habilitada.
+9. Certifique-se de que **Usar restrições impostas pelo aplicativo** está habilitado.
 
-10. Habilite a política e selecione **salvar**.
+10. Habilite sua política e selecione **Salvar**.
 
-    ![As restrições do aplicativo Enforced estão habilitadas.](media/no-sharepoint-access6.png)
+    ![As restrições impostas pelo aplicativo estão habilitadas.](media/no-sharepoint-access6.png)
 
-Para testar sua política, você precisa desconectar-se de qualquer cliente, como o aplicativo da área de trabalho Teams ou o cliente de sincronização do OneDrive for Business, e entrar novamente para ver a política em funcionamento. Se o seu acesso tiver sido bloqueado, você verá uma mensagem em Teams que informa que o item pode não existir.
+Para testar sua política, você precisa sair de qualquer cliente, como o aplicativo da área de trabalho do Teams ou o cliente de sincronização do OneDrive for Business e entrar novamente para ver a política funcionando. Se o seu acesso tiver sido bloqueado, você verá uma mensagem no Teams informando que o item pode não existir.
 
- ![A mensagem item não encontrado.](media/access-denied-sharepoint.png)
+ ![Mensagem de item não encontrado.](media/access-denied-sharepoint.png)
 
-No SharePoint, você receberá uma mensagem de acesso negado.
+No Sharepoint, você receberá uma mensagem de acesso negado.
 
 ![A mensagem de acesso negado.](media/blocked-access-warning.png)
 
 ## <a name="related-topics"></a>Tópicos relacionados
 
-[Controlar o acesso a dispositivos não gerenciados no SharePoint](https://docs.microsoft.com/sharepoint/control-access-from-unmanaged-devices)
+[Controle o acesso a dispositivos não gerenciados no SharePoint](https://docs.microsoft.com/sharepoint/control-access-from-unmanaged-devices)

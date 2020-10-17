@@ -12,20 +12,22 @@ ms:contentKeyID: 48185772
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3172b2db7197cfec13249bdff4490128d8b664a1
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: cc7fd5613b39fd17724c9b62152f9d9401fbc072
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42197104"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48498588"
 ---
+# <a name="install-the-files-for-mediation-server-in-lync-server-2013"></a>Instalar os arquivos para o servidor de mediação no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="install-the-files-for-mediation-server-in-lync-server-2013"></a>Instalar os arquivos para o servidor de mediação no Lync Server 2013
+
 
 </div>
 
@@ -47,7 +49,7 @@ Neste site, se você já implantou servidores de mediação colocados no pool de
 
 
 > [!NOTE]  
-> Este tópico pressupõe que você já tenha definido e publicado um pool do servidor de mediação autônomo, conforme descrito em <A href="lync-server-2013-define-a-mediation-server-in-topology-builder.md">definir um servidor de mediação no construtor de topologias no Lync Server 2013</A> e <A href="lync-server-2013-publish-the-topology.md">publicar a topologia no Lync Server 2013</A> na documentação de implantação e que você verificou que os computadores no pool do servidor de mediação atendem aos pré-requisitos descritos nos <A href="lync-server-2013-software-prerequisites-for-enterprise-voice.md">pré-requisitos de software para o enterprise Voice no Lync Server 2013</A> e os <A href="lync-server-2013-security-and-configuration-prerequisites-for-enterprise-voice.md">pré-requisitos de segurança e configuração para empresas Voz no Lync Server 2013</A>.
+> Este tópico pressupõe que você já tenha definido e publicado um pool do servidor de mediação autônomo, conforme descrito em <A href="lync-server-2013-define-a-mediation-server-in-topology-builder.md">definir um servidor de mediação no construtor de topologias no Lync Server 2013</A> e <A href="lync-server-2013-publish-the-topology.md">publicar a topologia no Lync Server 2013</A> na documentação de implantação e que você verificou que os computadores no pool do servidor de mediação atendem aos pré-requisitos descritos nos <A href="lync-server-2013-software-prerequisites-for-enterprise-voice.md">pré-requisitos de software para o enterprise Voice no Lync Server 2013</A> e os <A href="lync-server-2013-security-and-configuration-prerequisites-for-enterprise-voice.md">pré-requisitos de segurança e configuração para o Enterprise Voice no Lync Server 2013</A>.
 
 
 
@@ -57,7 +59,7 @@ Neste site, se você já implantou servidores de mediação colocados no pool de
 
 ## <a name="to-install-the-files-for-a-stand-alone-mediation-server-pool"></a>Para instalar os arquivos em um pool do Servidor de Mediação autônomo
 
-1.  Na mídia de instalação, clique com o \<botão direito\>em instalação de instalação de mídia**\\\\\\AMD64. exe**e clique em **Executar como administrador**.
+1.  Na mídia de instalação, clique com o botão direito do mouse em \<installation media\> ** \\ Setup \\ AMD64 \\Setup.exe**e clique em **Executar como administrador**.
 
 2.  Na página **Local de instalação**, clique em **OK**.
 

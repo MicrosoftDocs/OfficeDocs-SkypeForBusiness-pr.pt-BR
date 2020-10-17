@@ -12,20 +12,22 @@ ms:contentKeyID: 48185496
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 88b27e325ba8990cf239548c689d4e021397858a
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: e33f05f0a05b1225f1687faa00cf48af02fa1410
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42185614"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48498158"
 ---
+# <a name="managing-locations-for-elin-gateways-in-lync-server-2013"></a>Gerenciando locais para gateways do ELIN no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="managing-locations-for-elin-gateways-in-lync-server-2013"></a>Gerenciando locais para gateways do ELIN no Lync Server 2013
+
 
 </div>
 
@@ -73,7 +75,7 @@ O campo **local** do serviço de informações de local, que mantém o local esp
 
   - Um nome fácil de entender que identifica o local do chamador 911 para ajudar a garantir que os respondedores de emergência encontrem o local específico imediatamente quando chegarem ao endereço civil. Esse nome de local pode incluir um número de edifício, um número de chão, um designador de asa, um número de sala e assim por diante. Evite apelidos que são conhecidos apenas por funcionários, que podem fazer com que os respondentes de emergência vá para o local errado.
 
-  - Um identificador de local que ajuda os usuários a ver facilmente que seu cliente do Lync obteve o local correto. O cliente Lync concatena e exibe automaticamente os campos **Location** e **City** descobertos em seu cabeçalho. Uma boa prática é adicionar o endereço de rua da construção a cada identificador de local (por exemplo, "número \<\>da rua do primeiro andar"). Sem o endereço físico, um identificador de local genérico como "1° andar" pode ser aplicado a qualquer construção na cidade.
+  - Um identificador de local que ajuda os usuários a ver facilmente que seu cliente do Lync obteve o local correto. O cliente Lync concatena e exibe automaticamente os campos **Location** e **City** descobertos em seu cabeçalho. Uma boa prática é adicionar o endereço de rua da construção a cada identificador de local (por exemplo, "primeiro andar \<street number\> "). Sem o endereço físico, um identificador de local genérico como "1° andar" pode ser aplicado a qualquer construção na cidade.
 
   - Se o local for aproximado por ser determinado por um ponto de acesso sem fio, é possível adicionar uma palavra Near (por exemplo, "próximo ao 1º andar, 1234").
 
@@ -144,7 +146,7 @@ As perguntas a seguir o ajudarão a determinar como preencher o banco de dados d
   - **Você tem um banco de dados de terceiros que já contém um mapeamento de locais?**  
     Usando a opção de serviço de informações de local secundário do Lync Server para se conectar a um banco de dados de terceiros, é possível agrupar e gerenciar locais usando uma plataforma offline. Um benefício dessa abordagem é que além de associar locais aos identificadores de rede, é possível associar locais a um usuário. Isso significa que o serviço de informações de local pode retornar vários endereços, originários do serviço de informações de local secundário, para um cliente do Lync Server. Em seguida, o usuário pode escolher o local mais apropriado.
     
-    Para integrar com o serviço de informações de local, o banco de dados de terceiros deve seguir o esquema de solicitação/resposta de local do Lync Server. Para obter detalhes, <https://go.microsoft.com/fwlink/p/?linkid=213819>consulte. Para obter detalhes sobre a implantação de um serviço de informações de local secundário, consulte [configurar um serviço de informações de local secundário no Lync Server 2013](lync-server-2013-configure-a-secondary-location-information-service.md) na documentação de implantação.
+    Para integrar com o serviço de informações de local, o banco de dados de terceiros deve seguir o esquema de solicitação/resposta de local do Lync Server. Para obter detalhes, consulte <https://go.microsoft.com/fwlink/p/?linkid=213819> . Para obter detalhes sobre a implantação de um serviço de informações de local secundário, consulte [configurar um serviço de informações de local secundário no Lync Server 2013](lync-server-2013-configure-a-secondary-location-information-service.md) na documentação de implantação.
 
 Para obter detalhes sobre como preencher o banco de dados de local, consulte [Configure the Location Database in Lync Server 2013](lync-server-2013-configure-the-location-database.md) na documentação de implantação.
 

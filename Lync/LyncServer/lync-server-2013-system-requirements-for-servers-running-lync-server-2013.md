@@ -12,12 +12,12 @@ ms:contentKeyID: 48184564
 ms.date: 07/24/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0affd2d951d437a930bc7f210e0878e2978f8731
-ms.sourcegitcommit: 5fbb57c5f0692afcb8e65516c63b96814f51ca65
+ms.openlocfilehash: 2d25be2132fdaba58024ba58081656b830ea9fe4
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/05/2020
-ms.locfileid: "42417576"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48497328"
 ---
 # <a name="system-requirements-for-servers-running-lync-server-2013"></a>Requisitos do sistema para servidores que executam o Lync Server 2013
 
@@ -84,7 +84,7 @@ Instale o software do sistema operacional no servidor Standard Edition ou no ser
 
 
 > [!NOTE]
-> Para que o Lync Server 2013 funcione no Windows Server 2012 R2, talvez seja necessário alterar o valor de uma chave de registro no Windows Server. Essa alteração pode ser necessária para que os certificados funcionem corretamente e para que os clientes possam se registrar em aparelhos de filial persistente. Para obter mais informações, <A class=uri href="https://support.microsoft.com/kb/2901554">https://support.microsoft.com/kb/2901554</A>consulte.
+> Para que o Lync Server 2013 funcione no Windows Server 2012 R2, talvez seja necessário alterar o valor de uma chave de registro no Windows Server. Essa alteração pode ser necessária para que os certificados funcionem corretamente e para que os clientes possam se registrar em aparelhos de filial persistente. Para obter mais informações, consulte <A class=uri href="https://support.microsoft.com/kb/2901554">https://support.microsoft.com/kb/2901554</A> .
 
 
 
@@ -118,7 +118,7 @@ O Lync Server 2013 requer que você instale o Windows PowerShell 3,0 em cada com
 
 
 > [!NOTE]
-> No Windows Server&nbsp;2008&nbsp;R2 com SP1, a interface de linha de comando do Windows PowerShell 3,0 não pode ser instalada antes da instalação do Microsoft .NET Framework 4,5.
+> No Windows Server &nbsp; 2008 &nbsp; R2 com SP1, a interface de linha de comando do Windows PowerShell 3,0 não pode ser instalada antes da instalação do Microsoft .net Framework 4,5.
 
 
 

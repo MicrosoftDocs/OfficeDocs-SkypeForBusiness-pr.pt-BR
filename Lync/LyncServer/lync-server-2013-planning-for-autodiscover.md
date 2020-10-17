@@ -12,20 +12,22 @@ ms:contentKeyID: 51541474
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 990e58dc01171001e896b03e5a32fc8175c93b2f
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 6416e2ed817dc3cc03a0ec516175c92623bb31b3
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42184504"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48497868"
 ---
+# <a name="planning-for-autodiscover-in-lync-server-2013"></a>Planejamento para descoberta automática no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="planning-for-autodiscover-in-lync-server-2013"></a>Planejamento para descoberta automática no Lync Server 2013
+
 
 </div>
 
@@ -49,15 +51,15 @@ A descoberta automática foi introduzida no Lync Server na atualização cumulat
 
 </div>
 
-Quando a descoberta automática foi introduzida no Lync Server 2010, houve comprometimentos que precisavam ser feitos para implementar um serviço que exigia alterações potenciais de certificado para implantações de servidor existentes. A descoberta automática pode ser usada na porta TCP 443 para HTTPS ou over Port TCP 80 para HTTP. Se a decisão foi feita para usar HTTPS, os certificados em proxies reversos, diretores e servidores front-end precisam ser reemitidos para acomodar os registros `lyncdiscover.<domain>` necessários `lyncdiscoverinternal.<domain>` e DNS. Se a decisão era usar HTTP, a reemissão de certificados pode ser evitada usando registros CNAME (ou alias) DNS para usar os nomes existentes nos certificados. O uso de HTTP significa que as comunicações iniciais não foram criptografadas.
+Quando a descoberta automática foi introduzida no Lync Server 2010, houve comprometimentos que precisavam ser feitos para implementar um serviço que exigia alterações potenciais de certificado para implantações de servidor existentes. A descoberta automática pode ser usada na porta TCP 443 para HTTPS ou over Port TCP 80 para HTTP. Se a decisão foi feita para usar HTTPS, os certificados em proxies reversos, diretores e servidores front-end precisam ser reemitidos para acomodar os `lyncdiscover.<domain>` registros necessários e `lyncdiscoverinternal.<domain>` DNS. Se a decisão era usar HTTP, a reemissão de certificados pode ser evitada usando registros CNAME (ou alias) DNS para usar os nomes existentes nos certificados. O uso de HTTP significa que as comunicações iniciais não foram criptografadas.
 
-Como o Lync Server 2013 usa a descoberta automática para todos os clientes, o cenário principal é usar o HTTPS exclusivamente e criar certificados com o lyncdiscover. \<domínio\> como parte da configuração de proxies reversos, diretores e servidores front-end. Se você estiver implementando a descoberta automática em uma implantação atualizada do Lync Server 2010, convém usar HTTP para evitar a reemissão de certificados. As orientações para ambos os cenários são fornecidas nas seções a seguir.
+Como o Lync Server 2013 usa a descoberta automática para todos os clientes, o cenário principal é usar o HTTPS exclusivamente e criar certificados com o lyncdiscover.\<domain\> como parte da configuração de proxies reversos, diretores e servidores front-end. Se você estiver implementando a descoberta automática em uma implantação atualizada do Lync Server 2010, convém usar HTTP para evitar a reemissão de certificados. As orientações para ambos os cenários são fornecidas nas seções a seguir.
 
 <div>
 
 
 > [!IMPORTANT]  
-> A lista de nomes alternativos da entidade em certificados usados pela regra de publicação dos serviços Web externos deve conter um <EM>lyncdiscover.&lt; sipdomain&gt; </EM> entrada para cada domínio SIP em sua organização. Para obter detalhes sobre as entradas de nome alternativo de entidade que são necessárias para diretores, servidores front-end e proxies reverso, consulte <A href="lync-server-2013-certificate-summary-autodiscover.md">Resumo de certificado-descoberta automática no Lync Server 2013</A>.
+> A lista de nomes alternativos da entidade em certificados usados pela regra de publicação dos serviços Web externos deve conter um <EM>lyncdiscover. &lt; sipdomain &gt; </EM> entrada para cada domínio SIP em sua organização. Para obter detalhes sobre as entradas de nome alternativo de entidade que são necessárias para diretores, servidores front-end e proxies reverso, consulte <A href="lync-server-2013-certificate-summary-autodiscover.md">Resumo de certificado-descoberta automática no Lync Server 2013</A>.
 
 
 

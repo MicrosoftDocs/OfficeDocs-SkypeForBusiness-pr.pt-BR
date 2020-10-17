@@ -12,20 +12,22 @@ ms:contentKeyID: 48184164
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 16a61a07ae14f004b406aa38ef783a1c873f2128
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: e81f314fd0746b5a3d47f1b17dfa8ab9380678c3
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42184404"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48497728"
 ---
+# <a name="planning-for-central-site-voice-resiliency-in-lync-server-2013"></a>Planejamento da resiliência de voz do site central no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="planning-for-central-site-voice-resiliency-in-lync-server-2013"></a>Planejamento da resiliência de voz do site central no Lync Server 2013
+
 
 </div>
 
@@ -145,7 +147,7 @@ O Lync Server depende dos seguintes componentes de infraestrutura e software par
 </tr>
 <tr class="odd">
 <td><p>Opções de DHCP 120</p></td>
-<td><p>Se o DNS SRV não estiver disponível, o cliente tentará usar a opção 120 de DHCP para descobrir o registrador. Para que isso funcione, é necessário configurar um servidor DHCP ou o Lync Server 2013 DHCP deve estar habilitado. Para obter detalhes, consulte requisitos de hardware e software para resiliência de site de filial na seção <a href="lync-server-2013-branch-site-resiliency-requirements.md">requisitos de resiliência de site para Lync Server 2013</a> .</p></td>
+<td><p>Se o DNS SRV não estiver disponível, o cliente tentará usar a opção 120 de DHCP para descobrir o registrador. Para que isso funcione, é necessário configurar um servidor DHCP ou o Lync Server 2013 DHCP deve estar habilitado. Para obter detalhes, consulte Hardware and Software Requirements for Branch-Site resiliência na seção <a href="lync-server-2013-branch-site-resiliency-requirements.md">requisitos de resiliência de site de filial para Lync Server 2013</a> .</p></td>
 </tr>
 </tbody>
 </table>

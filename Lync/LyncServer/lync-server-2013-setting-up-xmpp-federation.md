@@ -12,20 +12,22 @@ ms:contentKeyID: 48184270
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4e34e47eaa5cd4bf8ffc2fccbc2a8bcb3f4f2de5
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 4cb6b2904ee2a8883c492e570173e73bc001cc03
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42181944"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48497518"
 ---
+# <a name="setting-up-xmpp-federation-in-lync-server-2013"></a>Configurando a Federação XMPP no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="setting-up-xmpp-federation-in-lync-server-2013"></a>Configurando a Federação XMPP no Lync Server 2013
+
 
 </div>
 
@@ -47,7 +49,7 @@ Para implantar o proxy XMPP no servidor de borda, você deve configurar o servid
 
 2.  No servidor front-end, abra o Assistente para Implantação do Lync Server. Clique em Instalar ou Atualizar o Sistema do Lync Server e depois em Instalar ou Remover os Componentes de Servidor do Lync Server. Clique em Executar Novamente.
 
-3.  Em Componentes de Configuração Lync Server, clique em Próxima. A tela de resumo mostrará as ações conforme forem executadas. Quando a implantação for concluída, clique em Exibir Log para ver os arquivos de log disponíveis. Clique em Concluir para finalizar a implantação.
+3.  Em Instalar componentes do Lync Server, clique em Avançar. A tela de resumo mostrará as ações à medida que forem executadas. Após a conclusão da implantação, clique em Exibir Log para exibir os arquivos de log disponíveis. Clique em Concluir para finalizar a implantação.
 
 4.  No servidor front-end, abra o Assistente para Implantação do Lync Server. Clique em Instalar ou Atualizar o Sistema do Lync Server e depois em Instalar ou Remover os Componentes de Servidor do Lync Server. Clique em Executar Novamente.
 
@@ -70,7 +72,7 @@ Para implantar o proxy XMPP no servidor de borda, você deve configurar o servid
 
 9.  Na página Solicitação Atrasada ou Imediata, marque a caixa de seleção Preparar a solicitação agora, mas enviá-la mais tarde.
 
-10. Na página arquivo de solicitação de certificado, digite o caminho completo e o nome do arquivo para o qual a solicitação será salva (por exemplo, c:\\CERT\_externos\_Edge. cer).
+10. Na página arquivo de solicitação de certificado, digite o caminho completo e o nome do arquivo para o qual a solicitação será salva (por exemplo, c: \\ CERT \_ externos \_ Edge. cer).
 
 11. Na página Especificar Modelo de Certificado Alternativo, para usar um modelo diferente do modelo WebServer padrão, marque a caixa de seleção Usar modelo de certificado alternativo para a autoridade de certificação selecionada.
 
@@ -88,7 +90,7 @@ Para implantar o proxy XMPP no servidor de borda, você deve configurar o servid
 
 15. Na página Nome da Entidade/Nomes Alternativos da Entidade, as informações a serem preenchidas automaticamente pelo assistente são exibidas. Se nomes alternativos de entidade adicionais forem necessários, especifique-os nas próximas duas etapas.
 
-16. Na página configuração do domínio SIP em nomes alternativos da entidade (SANs), marque a caixa de seleção domínio para adicionar um SIP. \<entrada\> sipdomain para a lista de nomes alternativos de entidade.
+16. Na página configuração do domínio SIP em nomes alternativos da entidade (SANs), marque a caixa de seleção domínio para adicionar um SIP.\<sipdomain\> entrada à lista de nomes alternativos da entidade.
 
 17. Na página Configurar Nomes Alternativos da Entidade Adicionais, especifique os nomes alternativos de entidade adicionais que sejam necessários.
     
@@ -119,7 +121,7 @@ Para implantar o proxy XMPP no servidor de borda, você deve configurar o servid
         Start-CsWindowsService
        ```
 
-23. Para configurar o DNS para Federação XMPP, adicione o seguinte registro SRV ao DNS externo:\_XMPP-Server. \_TCP. \<nome\> do domínio o registro SRV resolverá o FQDN de borda de acesso do servidor de borda, com um valor de porta de 5269. Além disso, configure um registro de host "A" (por exemplo, xmpp.contoso.com) que aponte para o endereço IP do servidor de borda de acesso.
+23. Para configurar o DNS para Federação XMPP, adicione o seguinte registro SRV ao DNS externo: \_ XMPP-Server. \_ TCP.\<domain name\> O registro SRV será resolvido para o FQDN de borda de acesso do servidor de borda, com um valor de porta de 5269. Além disso, configure um registro de host "A" (por exemplo, xmpp.contoso.com) que aponte para o endereço IP do servidor de borda de acesso.
     
     <div class=" ">
     

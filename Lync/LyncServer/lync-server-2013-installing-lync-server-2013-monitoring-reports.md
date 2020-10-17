@@ -12,20 +12,22 @@ ms:contentKeyID: 48184445
 ms.date: 02/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b1a2694aaef4845b776b09f6c57fec65ca77b77b
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: ad28507f5b0da1758c2e29b9907bd017f922f692
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42191664"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48498538"
 ---
+# <a name="installing-lync-server-2013-monitoring-reports"></a>Instalando Relatórios de Monitoramento do Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="installing-lync-server-2013-monitoring-reports"></a>Instalando Relatórios de Monitoramento do Lync Server 2013
+
 
 </div>
 
@@ -83,7 +85,7 @@ Para instalar os relatórios de monitoramento usando o Assistente de Implantaç�
 
 3.  No assistente Implantar Relatórios de Monitoramento, na página **Especificar Banco de Dados de Monitoramento**, certifique-se de que o nome de domínio totalmente qualificado do computador que hospeda o repositório de monitoramento apareça na lista suspensa **Banco de dados de monitoramento** (caso tenha vários repositórios de monitoramento, será necessário selecionar o servidor correto na lista suspensa). Verifique se a instância correta do SQL Server aparece na caixa **Instância do SSRS (SQL Server Reporting Services)** (por exemplo, **atl-sql-001.litwareinc.com/archinst**) e clique em **Avançar**.
 
-4.  Na página **especificar credenciais** , na caixa **nome de usuário** , digite o nome de domínio e o nome de usuário da conta a ser usada ao acessar os relatórios de monitoramento (por exemplo, **\\litwareinc kenmyer**). Se você não usar esse formato (nome de\\usuário do domínio), ocorrerá um erro.
+4.  Na página **especificar credenciais** , na caixa **nome de usuário** , digite o nome de domínio e o nome de usuário da conta a ser usada ao acessar os relatórios de monitoramento (por exemplo, **litwareinc \\ kenmyer**). Se você não usar esse formato (nome de \\ usuário do domínio), ocorrerá um erro.
     
     Digite a senha da conta de usuário na caixa **Senha** e clique em **Avançar**. Observe que nenhum direito especial é necessário para esta conta. A conta receberá automaticamente as permissões de logon e banco de dados necessárias quando a instalação for concluída.
 
@@ -91,7 +93,7 @@ Para instalar os relatórios de monitoramento usando o Assistente de Implantaç�
 
 6.  Na página **Executando Comandos**, clique em **Concluir**.
 
-Os relatórios de monitoramento também podem ser instalados do Shell de gerenciamento do Lync Server executando o script DeployReports. ps1; Este script do Windows PowerShell pode ser encontrado na mídia de instalação do Lync Server \\na\\pasta Setup ReportingSetup Para instalar os relatórios de monitoramento usando DeployReports.ps1, digite um comando semelhante a este no prompt do Shell de Gerenciamento:
+Os relatórios de monitoramento também podem ser instalados do Shell de gerenciamento do Lync Server executando o script DeployReports.ps1; Este script do Windows PowerShell pode ser encontrado na mídia de instalação do Lync Server \\ na \\ pasta Setup ReportingSetup Para instalar os relatórios de monitoramento usando DeployReports.ps1, digite um comando semelhante a este no prompt do Shell de Gerenciamento:
 
     C:\Program Files\Microsoft Lync Server 2013\Deployment\Setup\DeployReports.ps1 -storedUserName "litwareinc\kenmyer" -storedPassword "p@ssw0rd" -readOnlyGroupName "RTCUniversalReadOnlyAdmins" -reportServerSqlInstance "atl-sql-001.litwareinc.com" -monitoringDatabaseId "MonitoringDatabase:atl-sql-001.litwareinc.com"
 

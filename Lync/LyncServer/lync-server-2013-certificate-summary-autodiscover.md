@@ -12,20 +12,22 @@ ms:contentKeyID: 51541451
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7424d0c002e5b14335a6d0256fc72a3beff733cc
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 196b3dacec792097a4760ef134ead91f267a53d1
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42187474"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48499308"
 ---
+# <a name="certificate-summary---autodiscover-in-lync-server-2013"></a>Resumo de certificado-descoberta automática no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="certificate-summary---autodiscover-in-lync-server-2013"></a>Resumo de certificado-descoberta automática no Lync Server 2013
+
 
 </div>
 
@@ -41,9 +43,9 @@ O serviço de descoberta automática do Lync Server 2013 é executado nos servid
 
 A decisão sobre a utilização de listas de nomes alternativos de entidades em proxies reversos baseia-se no fato de você publicar o serviço de descoberta automática na porta 80 ou na porta 443:
 
-  - **Publicado na porta 80**   nenhuma alteração de certificado será necessária se a consulta inicial para o serviço de descoberta automática ocorrer pela porta 80. Isso ocorre porque os dispositivos móveis que executam o Lync acessarão o proxy reverso na porta 80 externamente e, em seguida, serão ligados ao diretor ou servidor front-end na porta 8080 internamente. Para obter detalhes, consulte a seção sobre requisitos técnicos de "processo de descoberta automática inicial usando a porta 80" [para mobilidade no Lync Server 2013](lync-server-2013-technical-requirements-for-mobility.md).
+  - **Publicado na porta 80**     Nenhuma alteração de certificado será necessária se a consulta inicial para o serviço de descoberta automática ocorrer na porta 80. Isso ocorre porque os dispositivos móveis que executam o Lync acessarão o proxy reverso na porta 80 externamente e, em seguida, serão ligados ao diretor ou servidor front-end na porta 8080 internamente. Para obter detalhes, consulte a seção sobre requisitos técnicos de "processo de descoberta automática inicial usando a porta 80" [para mobilidade no Lync Server 2013](lync-server-2013-technical-requirements-for-mobility.md).
 
-  - **Publicado na porta 443**   a lista de nomes alternativos da entidade em certificados usados pela regra de publicação dos serviços Web externos deve conter um *lyncdiscover.\< sipdomain\> * entrada para cada domínio SIP em sua organização.
+  - **Publicado na porta 443**     A lista de nomes alternativos da entidade em certificados usados pela regra de publicação dos serviços Web externos deve conter um *lyncdiscover. \<sipdomain\> * entrada para cada domínio SIP em sua organização.
     
     <div>
     
@@ -86,11 +88,11 @@ As tabelas a seguir definem as entradas de SAN de descoberta automática para o 
 <tbody>
 <tr class="odd">
 <td><p>URL interna do serviço de Descoberta Automática</p></td>
-<td><p>SAN = lyncdiscoverinternal. &lt;nome de domínio interno&gt;</p></td>
+<td><p>SAN = lyncdiscoverinternal. &lt; nome de domínio interno&gt;</p></td>
 </tr>
 <tr class="even">
 <td><p>URL externa do serviço de Descoberta Automática</p></td>
-<td><p>SAN = lyncdiscover. &lt;sipdomain&gt;</p></td>
+<td><p>SAN = lyncdiscover. &lt; sipdomain&gt;</p></td>
 </tr>
 </tbody>
 </table>
@@ -100,7 +102,7 @@ As tabelas a seguir definem as entradas de SAN de descoberta automática para o 
 
 
 > [!NOTE]  
-> Você atribui o certificado recentemente atualizado à nova entrada de SAN ao certificado padrão. Como alternativa, você pode usar SAN = *. &lt;sipdomain&gt;.
+> Você atribui o certificado recentemente atualizado à nova entrada de SAN ao certificado padrão. Como alternativa, você pode usar SAN = *. &lt; sipdomain &gt; .
 
 
 
@@ -122,11 +124,11 @@ As tabelas a seguir definem as entradas de SAN de descoberta automática para o 
 <tbody>
 <tr class="odd">
 <td><p>URL interna do serviço de Descoberta Automática</p></td>
-<td><p>SAN = lyncdiscoverinternal. &lt;nome de domínio interno&gt;</p></td>
+<td><p>SAN = lyncdiscoverinternal. &lt; nome de domínio interno&gt;</p></td>
 </tr>
 <tr class="even">
 <td><p>URL externa do serviço de Descoberta Automática</p></td>
-<td><p>SAN = lyncdiscover. &lt;sipdomain&gt;</p></td>
+<td><p>SAN = lyncdiscover. &lt; sipdomain&gt;</p></td>
 </tr>
 </tbody>
 </table>
@@ -136,7 +138,7 @@ As tabelas a seguir definem as entradas de SAN de descoberta automática para o 
 
 
 > [!NOTE]  
-> Você atribui o certificado recentemente atualizado à nova entrada de SAN ao certificado padrão. Como alternativa, você pode usar SAN = *. &lt;sipdomain&gt;
+> Você atribui o certificado recentemente atualizado à nova entrada de SAN ao certificado padrão. Como alternativa, você pode usar SAN = *. &lt; sipdomain&gt;
 
 
 
@@ -158,7 +160,7 @@ As tabelas a seguir definem as entradas de SAN de descoberta automática para o 
 <tbody>
 <tr class="odd">
 <td><p>URL externa do serviço de Descoberta Automática</p></td>
-<td><p>SAN = lyncdiscover. &lt;sipdomain&gt;</p></td>
+<td><p>SAN = lyncdiscover. &lt; sipdomain&gt;</p></td>
 </tr>
 </tbody>
 </table>

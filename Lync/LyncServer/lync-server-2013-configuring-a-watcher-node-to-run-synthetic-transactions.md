@@ -12,20 +12,22 @@ ms:contentKeyID: 48185578
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 605a859717736785df2d726720c2984162ff830d
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 9514099b3981dafdbb34911d0cedd249221c5621
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42207987"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48499098"
 ---
+# <a name="configuring-a-watcher-node-to-run-synthetic-transactions-in-lync-server-2013"></a>Configurando um nó do inspetor para executar transações sintéticas no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-a-watcher-node-to-run-synthetic-transactions-in-lync-server-2013"></a>Configurando um nó do inspetor para executar transações sintéticas no Lync Server 2013
+
 
 </div>
 
@@ -74,7 +76,7 @@ Ao configurar um nó do observador, você também deve escolher o tipo de métod
 </table>
 
 
-Você também deve verificar se o firewall tem regras de entrada para MonitoringHost. exe e PowerShell. exe. Se esses processos forem bloqueados pelo firewall, suas transações sintéticas falharão com o erro 504 (tempo limite do servidor).
+Você também deve verificar se o firewall tem regras de entrada para MonitoringHost.exe e PowerShell.exe. Se esses processos forem bloqueados pelo firewall, suas transações sintéticas falharão com o erro 504 (tempo limite do servidor).
 
 </div>
 
