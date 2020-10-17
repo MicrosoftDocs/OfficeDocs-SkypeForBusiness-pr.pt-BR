@@ -12,20 +12,22 @@ ms:contentKeyID: 48185646
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1fcde0adac292b8773a81c759c72765f832ce745
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 627832870de3a8306912d07134bb92caeee3076e
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42211777"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48518618"
 ---
+# <a name="verify-normalization-rules-for-call-park-in-lync-server-2013"></a><span data-ttu-id="d31ee-102">Verificar regras de normalização para estacionamento de chamada no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d31ee-102">Verify normalization rules for Call Park in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="verify-normalization-rules-for-call-park-in-lync-server-2013"></a><span data-ttu-id="08413-102">Verificar regras de normalização para estacionamento de chamada no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="08413-102">Verify normalization rules for Call Park in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,15 +37,15 @@ ms.locfileid: "42211777"
 
 <span> </span>
 
-<span data-ttu-id="08413-103">_**Última modificação do tópico:** 2012-09-11_</span><span class="sxs-lookup"><span data-stu-id="08413-103">_**Topic Last Modified:** 2012-09-11_</span></span>
+<span data-ttu-id="d31ee-103">_**Última modificação do tópico:** 2012-09-11_</span><span class="sxs-lookup"><span data-stu-id="d31ee-103">_**Topic Last Modified:** 2012-09-11_</span></span>
 
-<span data-ttu-id="08413-104">As órbitas do estacionamento de chamadas não devem ser normalizadas.</span><span class="sxs-lookup"><span data-stu-id="08413-104">Call Park orbits must not be normalized.</span></span> <span data-ttu-id="08413-105">Verifique seus planos de discagem para ter certeza de que seus números de órbita não estão normalizados.</span><span class="sxs-lookup"><span data-stu-id="08413-105">Check your dial plans to be sure that your orbit numbers are not normalized.</span></span> <span data-ttu-id="08413-106">Se você precisar criar uma regra de normalização adicional para impedir que as órbitas sejam normalizadas, siga o procedimento em [Create a dial Plan in Lync Server 2013](lync-server-2013-create-a-dial-plan.md) para definir uma nova regra de normalização, para que o **padrão correspondente** identifique o intervalo de órbitas e o **padrão de conversão** seja **$1**.</span><span class="sxs-lookup"><span data-stu-id="08413-106">If you must create an additional normalization rule to prevent your orbits from being normalized, follow the procedure in [Create a dial plan in Lync Server 2013](lync-server-2013-create-a-dial-plan.md) to define a new normalization rule, so that **Pattern to match** identifies the orbit range and **Translation pattern** is **$1**.</span></span> <span data-ttu-id="08413-107">Por exemplo, se o intervalo de órbita de estacionamento de chamadas for 7000 – 7999, o **padrão a ser correspondido** será **^ (\\7 d{3}) $** e o padrão de **conversão** será **$1**.</span><span class="sxs-lookup"><span data-stu-id="08413-107">For example, if your Call Park orbit range is 7000 – 7999, the **Pattern to match** is **^(7\\d{3})$** and **Translation pattern** is **$1**.</span></span>
+<span data-ttu-id="d31ee-104">As órbitas do estacionamento de chamadas não devem ser normalizadas.</span><span class="sxs-lookup"><span data-stu-id="d31ee-104">Call Park orbits must not be normalized.</span></span> <span data-ttu-id="d31ee-105">Verifique seus planos de discagem para ter certeza de que seus números de órbita não estão normalizados.</span><span class="sxs-lookup"><span data-stu-id="d31ee-105">Check your dial plans to be sure that your orbit numbers are not normalized.</span></span> <span data-ttu-id="d31ee-106">Se você precisar criar uma regra de normalização adicional para impedir que as órbitas sejam normalizadas, siga o procedimento em [Create a dial Plan in Lync Server 2013](lync-server-2013-create-a-dial-plan.md) para definir uma nova regra de normalização, para que o **padrão correspondente** identifique o intervalo de órbitas e o **padrão de conversão** seja **$1**.</span><span class="sxs-lookup"><span data-stu-id="d31ee-106">If you must create an additional normalization rule to prevent your orbits from being normalized, follow the procedure in [Create a dial plan in Lync Server 2013](lync-server-2013-create-a-dial-plan.md) to define a new normalization rule, so that **Pattern to match** identifies the orbit range and **Translation pattern** is **$1**.</span></span> <span data-ttu-id="d31ee-107">Por exemplo, se o intervalo de órbita de estacionamento de chamadas for 7000 – 7999, o **padrão a ser correspondido** será **^ (7 \\ d {3} ) $** e o **padrão de conversão** será **$1**.</span><span class="sxs-lookup"><span data-stu-id="d31ee-107">For example, if your Call Park orbit range is 7000 – 7999, the **Pattern to match** is **^(7\\d{3})$** and **Translation pattern** is **$1**.</span></span>
 
 <div>
 
 
 > [!IMPORTANT]  
-> <span data-ttu-id="08413-108">Certifique-se de que a regra de normalização padrão em seus planos de discagem não contenha <STRONG>^ (\d \*)</STRONG>.</span><span class="sxs-lookup"><span data-stu-id="08413-108">Be sure that the default normalization rule in your dial plans does not contain <STRONG>^(\d\*)</STRONG>.</span></span> <span data-ttu-id="08413-109">Caso contrário, sua regra de normalização de estacionamento de chamada nunca será executada.</span><span class="sxs-lookup"><span data-stu-id="08413-109">Otherwise, your Call Park normalization rule will never run.</span></span>
+> <span data-ttu-id="d31ee-108">Certifique-se de que a regra de normalização padrão em seus planos de discagem não contenha <STRONG>^ (\d \*)</STRONG>.</span><span class="sxs-lookup"><span data-stu-id="d31ee-108">Be sure that the default normalization rule in your dial plans does not contain <STRONG>^(\d\*)</STRONG>.</span></span> <span data-ttu-id="d31ee-109">Caso contrário, sua regra de normalização de estacionamento de chamada nunca será executada.</span><span class="sxs-lookup"><span data-stu-id="d31ee-109">Otherwise, your Call Park normalization rule will never run.</span></span>
 
 
 
@@ -51,10 +53,10 @@ ms.locfileid: "42211777"
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="08413-110">Confira também</span><span class="sxs-lookup"><span data-stu-id="08413-110">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="d31ee-110">Confira também</span><span class="sxs-lookup"><span data-stu-id="d31ee-110">See Also</span></span>
 
 
-[<span data-ttu-id="08413-111">Criar um plano de discagem no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="08413-111">Create a dial plan in Lync Server 2013</span></span>](lync-server-2013-create-a-dial-plan.md)  
+[<span data-ttu-id="d31ee-111">Criar um plano de discagem no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d31ee-111">Create a dial plan in Lync Server 2013</span></span>](lync-server-2013-create-a-dial-plan.md)  
   
 
 </div>

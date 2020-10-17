@@ -12,20 +12,22 @@ ms:contentKeyID: 48184616
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bda2a04ca57a6bbd8f1d98cc93e0adf635049b8b
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 215e877820d4fac8cb00bbf036dd31e90f71dcdb
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42209567"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48518158"
 ---
+# <a name="phase-7-add-lync-server-2013-edge-server-to-pilot-pool"></a><span data-ttu-id="e7d28-102">Fase 7: Adicionar o servidor de borda do Lync Server 2013 ao pool piloto</span><span class="sxs-lookup"><span data-stu-id="e7d28-102">Phase 7: Add Lync Server 2013 Edge Server to pilot pool</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="phase-7-add-lync-server-2013-edge-server-to-pilot-pool"></a><span data-ttu-id="2ed46-102">Fase 7: Adicionar o servidor de borda do Lync Server 2013 ao pool piloto</span><span class="sxs-lookup"><span data-stu-id="2ed46-102">Phase 7: Add Lync Server 2013 Edge Server to pilot pool</span></span>
+
 
 </div>
 
@@ -35,17 +37,17 @@ ms.locfileid: "42209567"
 
 <span> </span>
 
-<span data-ttu-id="2ed46-103">_**Última modificação do tópico:** 2012-09-26_</span><span class="sxs-lookup"><span data-stu-id="2ed46-103">_**Topic Last Modified:** 2012-09-26_</span></span>
+<span data-ttu-id="e7d28-103">_**Última modificação do tópico:** 2012-09-26_</span><span class="sxs-lookup"><span data-stu-id="e7d28-103">_**Topic Last Modified:** 2012-09-26_</span></span>
 
-<span data-ttu-id="2ed46-104">Os tópicos desta seção explicam como adicionar um servidor de borda do Lync Server 2013 à implantação do pool piloto.</span><span class="sxs-lookup"><span data-stu-id="2ed46-104">The topics in this section explain how to add a Lync Server 2013 Edge Server to the pilot pool deployment.</span></span> <span data-ttu-id="2ed46-105">Os tópicos oferecem orientação para configuração e verificação ao executar o assistente para **Implantar novo pool de borda**.</span><span class="sxs-lookup"><span data-stu-id="2ed46-105">The topics provide configuration and verification guidance when running the **Deploy New Edge pool** wizards.</span></span>
+<span data-ttu-id="e7d28-104">Os tópicos desta seção explicam como adicionar um servidor de borda do Lync Server 2013 à implantação do pool piloto.</span><span class="sxs-lookup"><span data-stu-id="e7d28-104">The topics in this section explain how to add a Lync Server 2013 Edge Server to the pilot pool deployment.</span></span> <span data-ttu-id="e7d28-105">Os tópicos oferecem orientação para configuração e verificação ao executar o assistente para **Implantar novo pool de borda**.</span><span class="sxs-lookup"><span data-stu-id="e7d28-105">The topics provide configuration and verification guidance when running the **Deploy New Edge pool** wizards.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="2ed46-106">Nesta seção</span><span class="sxs-lookup"><span data-stu-id="2ed46-106">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="e7d28-106">Nesta seção</span><span class="sxs-lookup"><span data-stu-id="e7d28-106">In This Section</span></span>
 
-  - [<span data-ttu-id="2ed46-107">Implantar servidor de borda piloto</span><span class="sxs-lookup"><span data-stu-id="2ed46-107">Deploy pilot Edge Server</span></span>](deploy-pilot-edge-server_1.md)
+  - [<span data-ttu-id="e7d28-107">Implantar um Servidor de Borda piloto</span><span class="sxs-lookup"><span data-stu-id="e7d28-107">Deploy pilot Edge Server</span></span>](deploy-pilot-edge-server_1.md)
 
-  - [<span data-ttu-id="2ed46-108">Validar a replicação de definições de configuração</span><span class="sxs-lookup"><span data-stu-id="2ed46-108">Validate replication of configuration settings</span></span>](validate-replication-of-configuration-settings.md)
+  - [<span data-ttu-id="e7d28-108">Validar a replicação de definições de configuração</span><span class="sxs-lookup"><span data-stu-id="e7d28-108">Validate replication of configuration settings</span></span>](validate-replication-of-configuration-settings.md)
 
 </div>
 
