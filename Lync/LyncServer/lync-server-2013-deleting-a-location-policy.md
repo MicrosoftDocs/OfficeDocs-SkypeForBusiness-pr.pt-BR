@@ -12,20 +12,22 @@ ms:contentKeyID: 49733724
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dc554d24bc93b81969832c9d8d2b034d071760bf
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 0d046b344c294475dffcc0a10ee8972475f7e903
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42202487"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48525458"
 ---
+# <a name="deleting-a-location-policy-in-lync-server-2013"></a><span data-ttu-id="a12c0-102">Excluindo uma política de local no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a12c0-102">Deleting a location policy in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deleting-a-location-policy-in-lync-server-2013"></a><span data-ttu-id="f42e7-102">Excluindo uma política de local no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f42e7-102">Deleting a location policy in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,42 +37,42 @@ ms.locfileid: "42202487"
 
 <span> </span>
 
-<span data-ttu-id="f42e7-103">_**Última modificação do tópico:** 2012-10-10_</span><span class="sxs-lookup"><span data-stu-id="f42e7-103">_**Topic Last Modified:** 2012-10-10_</span></span>
+<span data-ttu-id="a12c0-103">_**Última modificação do tópico:** 2012-10-10_</span><span class="sxs-lookup"><span data-stu-id="a12c0-103">_**Topic Last Modified:** 2012-10-10_</span></span>
 
-<span data-ttu-id="f42e7-104">No Lync Server 2013, você pode usar a política de local para aplicar configurações relacionadas à funcionalidade avançada 9-1-1 (E9-1-1) e às configurações de local para usuários ou contatos.</span><span class="sxs-lookup"><span data-stu-id="f42e7-104">In Lync Server 2013, you can use the location policy to apply settings that relate to Enhanced 9-1-1 (E9-1-1) functionality and to location settings for users or contacts.</span></span> <span data-ttu-id="f42e7-105">A política de local determina se o usuário está habilitado para o E9-1-1 e, se estiver, qual vai ser o comportamento de uma chamada de emergência.</span><span class="sxs-lookup"><span data-stu-id="f42e7-105">The location policy determines whether a user is enabled for E9-1-1, and if so what the behavior is of an emergency call.</span></span> <span data-ttu-id="f42e7-106">Por exemplo, é possível usar a política de local para definir o número que constitui uma chamada de emergência (911 nos Estados Unidos), se a segurança da empresa deve ser automaticamente notificada e como a chamada é roteada.</span><span class="sxs-lookup"><span data-stu-id="f42e7-106">For example, you can use the location policy to define what number constitutes an emergency call (for example, 911 in the United States), whether corporate security should be automatically notified, and how the call should be routed.</span></span>
+<span data-ttu-id="a12c0-104">No Lync Server 2013, você pode usar a política de local para aplicar configurações relacionadas à funcionalidade avançada 9-1-1 (E9-1-1) e às configurações de local para usuários ou contatos.</span><span class="sxs-lookup"><span data-stu-id="a12c0-104">In Lync Server 2013, you can use the location policy to apply settings that relate to Enhanced 9-1-1 (E9-1-1) functionality and to location settings for users or contacts.</span></span> <span data-ttu-id="a12c0-105">A política de local determina se o usuário está habilitado para o E9-1-1 e, se estiver, qual vai ser o comportamento de uma chamada de emergência.</span><span class="sxs-lookup"><span data-stu-id="a12c0-105">The location policy determines whether a user is enabled for E9-1-1, and if so what the behavior is of an emergency call.</span></span> <span data-ttu-id="a12c0-106">Por exemplo, é possível usar a política de local para definir o número que constitui uma chamada de emergência (911 nos Estados Unidos), se a segurança da empresa deve ser automaticamente notificada e como a chamada é roteada.</span><span class="sxs-lookup"><span data-stu-id="a12c0-106">For example, you can use the location policy to define what number constitutes an emergency call (for example, 911 in the United States), whether corporate security should be automatically notified, and how the call should be routed.</span></span>
 
-<span data-ttu-id="f42e7-107">Você pode configurar políticas de local no painel de controle de **rede** do Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="f42e7-107">You can configure location policies from the **Network Configuration** group in Lync Server 2013 Control Panel.</span></span> <span data-ttu-id="f42e7-108">No painel de controle do Lync Server, você pode exibir, criar, modificar ou excluir políticas de local.</span><span class="sxs-lookup"><span data-stu-id="f42e7-108">From Lync Server Control Panel you can view, create, modify, or delete location policies.</span></span> <span data-ttu-id="f42e7-109">Usar os procedimentos a seguir excluirá uma política de local.</span><span class="sxs-lookup"><span data-stu-id="f42e7-109">Use the following procedures delete a location policy.</span></span> <span data-ttu-id="f42e7-110">Para obter detalhes sobre como criar ou modificar políticas de local, consulte [criando ou modificando uma política de local no Lync Server 2013](lync-server-2013-creating-or-modifying-a-location-policy.md).</span><span class="sxs-lookup"><span data-stu-id="f42e7-110">For details on creating or modifying location policies, see [Creating or modifying a location policy in Lync Server 2013](lync-server-2013-creating-or-modifying-a-location-policy.md).</span></span>
+<span data-ttu-id="a12c0-107">Você pode configurar políticas de local no painel de controle de **rede** do Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="a12c0-107">You can configure location policies from the **Network Configuration** group in Lync Server 2013 Control Panel.</span></span> <span data-ttu-id="a12c0-108">No painel de controle do Lync Server, você pode exibir, criar, modificar ou excluir políticas de local.</span><span class="sxs-lookup"><span data-stu-id="a12c0-108">From Lync Server Control Panel you can view, create, modify, or delete location policies.</span></span> <span data-ttu-id="a12c0-109">Usar os procedimentos a seguir excluirá uma política de local.</span><span class="sxs-lookup"><span data-stu-id="a12c0-109">Use the following procedures delete a location policy.</span></span> <span data-ttu-id="a12c0-110">Para obter detalhes sobre como criar ou modificar políticas de local, consulte [criando ou modificando uma política de local no Lync Server 2013](lync-server-2013-creating-or-modifying-a-location-policy.md).</span><span class="sxs-lookup"><span data-stu-id="a12c0-110">For details on creating or modifying location policies, see [Creating or modifying a location policy in Lync Server 2013](lync-server-2013-creating-or-modifying-a-location-policy.md).</span></span>
 
 <div>
 
-## <a name="to-delete-a-location-policy"></a><span data-ttu-id="f42e7-111">Para excluir uma política de local</span><span class="sxs-lookup"><span data-stu-id="f42e7-111">To delete a location policy</span></span>
+## <a name="to-delete-a-location-policy"></a><span data-ttu-id="a12c0-111">Para excluir uma política de local</span><span class="sxs-lookup"><span data-stu-id="a12c0-111">To delete a location policy</span></span>
 
-1.  <span data-ttu-id="f42e7-112">A partir de uma conta de usuário que seja membro do grupo RTCUniversalServerAdmins (ou tenha direitos de usuário equivalentes) ou atribuída à função CsAdministrator, faça logon em qualquer computador em sua implantação interna.</span><span class="sxs-lookup"><span data-stu-id="f42e7-112">From a user account that is a member of the RTCUniversalServerAdmins group (or has equivalent user rights), or is assigned to the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
+1.  <span data-ttu-id="a12c0-112">A partir de uma conta de usuário que seja membro do grupo RTCUniversalServerAdmins (ou tenha direitos de usuário equivalentes) ou atribuída à função CsAdministrator, faça logon em qualquer computador em sua implantação interna.</span><span class="sxs-lookup"><span data-stu-id="a12c0-112">From a user account that is a member of the RTCUniversalServerAdmins group (or has equivalent user rights), or is assigned to the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
 
-2.  <span data-ttu-id="f42e7-113">Abra uma janela do navegador e insira a URL do Administrador para abrir o Painel de Controle do Lync Server.</span><span class="sxs-lookup"><span data-stu-id="f42e7-113">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="f42e7-114">Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o painel de controle do Lync Server, consulte [Open Lync server 2013 Administrative Tools](lync-server-2013-open-lync-server-administrative-tools.md).</span><span class="sxs-lookup"><span data-stu-id="f42e7-114">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
+2.  <span data-ttu-id="a12c0-113">Abra uma janela do navegador e insira a URL do Administrador para abrir o Painel de Controle do Lync Server.</span><span class="sxs-lookup"><span data-stu-id="a12c0-113">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="a12c0-114">Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o painel de controle do Lync Server, consulte [Open Lync server 2013 Administrative Tools](lync-server-2013-open-lync-server-administrative-tools.md).</span><span class="sxs-lookup"><span data-stu-id="a12c0-114">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
 
-3.  <span data-ttu-id="f42e7-115">Na barra de navegação, clique em **Configuração de rede** e clique em **Política de local**.</span><span class="sxs-lookup"><span data-stu-id="f42e7-115">In the left navigation bar, click **Network Configuration** and then click **Location Policy**.</span></span>
+3.  <span data-ttu-id="a12c0-115">Na barra de navegação, clique em **Configuração de rede** e clique em **Política de local**.</span><span class="sxs-lookup"><span data-stu-id="a12c0-115">In the left navigation bar, click **Network Configuration** and then click **Location Policy**.</span></span>
 
-4.  <span data-ttu-id="f42e7-116">Na página **Política de local**, selecione a política de local que você quer excluir.</span><span class="sxs-lookup"><span data-stu-id="f42e7-116">On the **Location Policy** page, select the location policy that you want to delete.</span></span>
+4.  <span data-ttu-id="a12c0-116">Na página **Política de local**, selecione a política de local que você quer excluir.</span><span class="sxs-lookup"><span data-stu-id="a12c0-116">On the **Location Policy** page, select the location policy that you want to delete.</span></span>
     
     <div>
     
 
     > [!NOTE]  
-    > <span data-ttu-id="f42e7-p104">Você pode excluir mais que uma política de local ao mesmo tempo. Para isso, mantenha a tecla CTRL e selecione várias políticas. Ou, para selecionar todas as políticas, clique em <STRONG>Selecionar tudo</STRONG> no menu <STRONG>Editar</STRONG>.</span><span class="sxs-lookup"><span data-stu-id="f42e7-p104">You can delete more than one location policy at a time. To do this, press CTRL and select multiple policies while holding down the CTRL key. Or, to select all policies, click <STRONG>Select all</STRONG> on the <STRONG>Edit</STRONG> menu.</span></span>
+    > <span data-ttu-id="a12c0-p104">Você pode excluir mais que uma política de local ao mesmo tempo. Para isso, mantenha a tecla CTRL e selecione várias políticas. Ou, para selecionar todas as políticas, clique em <STRONG>Selecionar tudo</STRONG> no menu <STRONG>Editar</STRONG>.</span><span class="sxs-lookup"><span data-stu-id="a12c0-p104">You can delete more than one location policy at a time. To do this, press CTRL and select multiple policies while holding down the CTRL key. Or, to select all policies, click <STRONG>Select all</STRONG> on the <STRONG>Edit</STRONG> menu.</span></span>
 
     
     </div>
 
-5.  <span data-ttu-id="f42e7-120">No menu **Editar**, clique em **Excluir**.</span><span class="sxs-lookup"><span data-stu-id="f42e7-120">On the **Edit** menu, click **Delete**.</span></span>
+5.  <span data-ttu-id="a12c0-120">No menu **Editar**, clique em **Excluir**.</span><span class="sxs-lookup"><span data-stu-id="a12c0-120">On the **Edit** menu, click **Delete**.</span></span>
 
-6.  <span data-ttu-id="f42e7-121">Clique em **OK**.</span><span class="sxs-lookup"><span data-stu-id="f42e7-121">Click **OK**.</span></span>
+6.  <span data-ttu-id="a12c0-121">Clique em **OK**.</span><span class="sxs-lookup"><span data-stu-id="a12c0-121">Click **OK**.</span></span>
     
     <div>
     
 
     > [!IMPORTANT]  
-    > <span data-ttu-id="f42e7-p105">Você não pode excluir uma política de local Global. Se você tentar excluir a política Global, você receberá uma mensagem de aviso, e essa política será redefinida aos seus valores padrão.</span><span class="sxs-lookup"><span data-stu-id="f42e7-p105">You cannot delete the Global location policy. If you attempt to delete the Global policy you will receive a warning message and that policy will be reset to its default values.</span></span>
+    > <span data-ttu-id="a12c0-p105">Você não pode excluir uma política de local Global. Se você tentar excluir a política Global, você receberá uma mensagem de aviso, e essa política será redefinida aos seus valores padrão.</span><span class="sxs-lookup"><span data-stu-id="a12c0-p105">You cannot delete the Global location policy. If you attempt to delete the Global policy you will receive a warning message and that policy will be reset to its default values.</span></span>
 
     
     </div>
@@ -79,11 +81,11 @@ ms.locfileid: "42202487"
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="f42e7-124">Confira também</span><span class="sxs-lookup"><span data-stu-id="f42e7-124">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="a12c0-124">Confira também</span><span class="sxs-lookup"><span data-stu-id="a12c0-124">See Also</span></span>
 
 
-[<span data-ttu-id="f42e7-125">Criando ou modificando uma política de local no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f42e7-125">Creating or modifying a location policy in Lync Server 2013</span></span>](lync-server-2013-creating-or-modifying-a-location-policy.md)  
-[<span data-ttu-id="f42e7-126">Exibindo informações de política de local no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f42e7-126">Viewing location policy information in Lync Server 2013</span></span>](lync-server-2013-viewing-location-policy-information.md)  
+[<span data-ttu-id="a12c0-125">Criando ou modificando uma política de local no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a12c0-125">Creating or modifying a location policy in Lync Server 2013</span></span>](lync-server-2013-creating-or-modifying-a-location-policy.md)  
+[<span data-ttu-id="a12c0-126">Exibindo informações de política de local no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a12c0-126">Viewing location policy information in Lync Server 2013</span></span>](lync-server-2013-viewing-location-policy-information.md)  
   
 
 </div>
