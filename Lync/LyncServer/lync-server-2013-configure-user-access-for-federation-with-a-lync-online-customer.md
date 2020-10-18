@@ -1,5 +1,6 @@
 ---
 title: Configurar o acesso do usuário para federação com um cliente do Lync Online
+description: Configure o acesso do usuário para federação com um cliente do Lync Online.
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48184473
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6f5b6c162cd80d8ed1273e83da4abc300eeb9985
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 663cdeb1576f07e2650453afdf52f0c43507a100
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48520208"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48578027"
 ---
-# <a name="configure-user-access-for-federation-with-a-lync-online-customer-in-lync-server-2013"></a><span data-ttu-id="6a5c6-102">Configurar o acesso do usuário para federação com um cliente do Lync Online no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="6a5c6-102">Configure user access for federation with a Lync Online customer in Lync Server 2013</span></span>
+# <a name="configure-user-access-for-federation-with-a-lync-online-customer-in-lync-server-2013"></a><span data-ttu-id="30617-103">Configurar o acesso do usuário para federação com um cliente do Lync Online no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="30617-103">Configure user access for federation with a Lync Online customer in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,9 +38,9 @@ ms.locfileid: "48520208"
 
 <span> </span>
 
-<span data-ttu-id="6a5c6-103">_**Última modificação do tópico:** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="6a5c6-103">_**Topic Last Modified:** 2012-11-01_</span></span>
+<span data-ttu-id="30617-104">_**Última modificação do tópico:** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="30617-104">_**Topic Last Modified:** 2012-11-01_</span></span>
 
-<span data-ttu-id="6a5c6-104">Você deve configurar as contas de usuário de todos os usuários em sua organização para que eles possam se comunicar com parceiros federados.</span><span class="sxs-lookup"><span data-stu-id="6a5c6-104">You must configure the user accounts of all the users in your organization in order for them be allowed to communicate with federated partners.</span></span> <span data-ttu-id="6a5c6-105">Essa configuração é aplicada a todos os parceiros federados, incluindo quaisquer domínios de cliente 2010 do Microsoft Lync Online com os quais você dá suporte à Federação.</span><span class="sxs-lookup"><span data-stu-id="6a5c6-105">This configuration is applied for all federated partners, including any Microsoft Lync Online 2010 customer domains with which you support federation.</span></span> <span data-ttu-id="6a5c6-106">Para obter detalhes sobre como configurar o suporte de Federação para contas de usuário, consulte [Configurar políticas para controlar o acesso de usuário federado no Lync server 2013](lync-server-2013-configure-policies-to-control-federated-user-access.md) e [atribuir uma política de acesso de usuário externo a um usuário habilitado do Lync no Lync Server 2013](lync-server-2013-assign-an-external-user-access-policy-to-a-lync-enabled-user.md) na documentação operações.</span><span class="sxs-lookup"><span data-stu-id="6a5c6-106">For details about configuring federation support for user accounts, see [Configure policies to control federated user access in Lync Server 2013](lync-server-2013-configure-policies-to-control-federated-user-access.md) and [Assign an external user access policy to a Lync enabled user in Lync Server 2013](lync-server-2013-assign-an-external-user-access-policy-to-a-lync-enabled-user.md) in the Operations documentation.</span></span>
+<span data-ttu-id="30617-105">Você deve configurar as contas de usuário de todos os usuários em sua organização para que eles possam se comunicar com parceiros federados.</span><span class="sxs-lookup"><span data-stu-id="30617-105">You must configure the user accounts of all the users in your organization in order for them be allowed to communicate with federated partners.</span></span> <span data-ttu-id="30617-106">Essa configuração é aplicada a todos os parceiros federados, incluindo quaisquer domínios de cliente 2010 do Microsoft Lync Online com os quais você dá suporte à Federação.</span><span class="sxs-lookup"><span data-stu-id="30617-106">This configuration is applied for all federated partners, including any Microsoft Lync Online 2010 customer domains with which you support federation.</span></span> <span data-ttu-id="30617-107">Para obter detalhes sobre como configurar o suporte de Federação para contas de usuário, consulte [Configurar políticas para controlar o acesso de usuário federado no Lync server 2013](lync-server-2013-configure-policies-to-control-federated-user-access.md) e [atribuir uma política de acesso de usuário externo a um usuário habilitado do Lync no Lync Server 2013](lync-server-2013-assign-an-external-user-access-policy-to-a-lync-enabled-user.md) na documentação operações.</span><span class="sxs-lookup"><span data-stu-id="30617-107">For details about configuring federation support for user accounts, see [Configure policies to control federated user access in Lync Server 2013](lync-server-2013-configure-policies-to-control-federated-user-access.md) and [Assign an external user access policy to a Lync enabled user in Lync Server 2013](lync-server-2013-assign-an-external-user-access-policy-to-a-lync-enabled-user.md) in the Operations documentation.</span></span>
 
 </div>
 
