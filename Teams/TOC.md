@@ -678,7 +678,6 @@
 ### [Introdução aos modelos do Teams](get-started-with-teams-templates.md)
 ### [Turnos do Teams](expand-teams-across-your-org/shifts-for-teams-landing-page.md)
 #### [Gerenciar o aplicativo Shifts para sua organização no Teams](expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md)
-
 ## Teams para Serviços de Saúde
 ### [Introdução ao Teams para Organizações de Saúde](expand-teams-across-your-org/healthcare/teams-in-hc.md)
 ### [Aplicativo marcações e visitas virtuais](bookings-app-admin.md)
@@ -720,6 +719,7 @@
 ## Teams para trabalhadores de linha de frente
 ### [Início rápido para Firstline Workers](firstline-workers-quickstart.yml)
 ### [Implantação programada de trabalhadores de primeira linha](flw-scripted-deployment.md)
+### [Gerenciar o acesso baseado em turnos para funcionários iniciais](expand-teams-across-your-org/shifts/manage-shift-based-access-flw.md)
 ### [RealWear para Microsoft Teams](flw-realwear.md)
 ### [Walkie Talkie](walkie-talkie.md)
 ### [Criar um aplicativo do portal de intranet do Teams a partir de um site ou página do SPO](teams-standalone-static-tabs-using-spo-sites.md)
