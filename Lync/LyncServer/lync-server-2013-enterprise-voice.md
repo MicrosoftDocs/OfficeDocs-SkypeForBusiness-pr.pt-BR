@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013 Enterprise Voice
+description: Lync Server 2013 Enterprise Voice.
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +13,22 @@ ms:contentKeyID: 48185404
 ms.date: 04/08/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 924e15aae9590b6148864084aa68924e4c080f7c
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: e11f2497cf99319317a75b81f02ed0d8ca797fbf
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213337"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48574227"
 ---
+# <a name="enterprise-voice-in-lync-server-2013"></a>Enterprise Voice no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="enterprise-voice-in-lync-server-2013"></a>Enterprise Voice no Lync Server 2013
+
 
 </div>
 
@@ -77,7 +80,7 @@ Com a Unificação de mensagens (UM) do Exchange, o Lync e o Lync Server se inte
 
 O Enterprise Voice também inclui vários recursos de chamadas avançados, como a delegação de chamada do Lync, chamada em equipe, recebimento de chamadas em grupo e grupos de resposta.
 
-A delegação de chamadas do Lync permite que os usuários deleguem o tratamento de chamadas a um **** \> ou mais assistentes, acessando as **configurações de atendimento de chamadas das** **Opções** \> . O representante pode executar diversas tarefas de chamada em nome do usuário, incluindo camadas filtragem de chamadas, realização de chamadas e início de conferências.
+A delegação de chamadas do Lync permite que os usuários deleguem o tratamento de chamadas a um ou mais assistentes, acessando as configurações de atendimento **de** \> **Options** \> **chamadas das**opções. O representante pode executar diversas tarefas de chamada em nome do usuário, incluindo camadas filtragem de chamadas, realização de chamadas e início de conferências.
 
 <div>
 
