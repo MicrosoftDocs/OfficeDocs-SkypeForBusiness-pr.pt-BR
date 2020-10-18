@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: visão geral da implantação'
+description: 'Lync Server 2013: visão geral da implantação.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185555
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3600df130f0159df0945edb25d72059bb4bcb8a9
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 5bb3bac4261783a765b64ab2e81adb107599496b
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48522658"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48575747"
 ---
 # <a name="deployment-overview-for-lync-server-2013"></a>Visão geral da implantação do Lync Server 2013
 

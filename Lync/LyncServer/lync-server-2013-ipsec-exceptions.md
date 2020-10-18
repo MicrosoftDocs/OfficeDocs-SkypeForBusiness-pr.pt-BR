@@ -1,5 +1,6 @@
 ---
 title: Exceções IPsec do Lync Server 2013
+description: Lync Server 2013 exceções IPsec.
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183627
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4ee06e4b7f3cabc606a612cd0f332aed47b46823
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 9b01264171592ec352b778e1aa7eee5861801991
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48514148"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48574997"
 ---
 # <a name="ipsec-exceptions-in-lync-server-2013"></a>Exceções de IPsec no Lync Server 2013
 

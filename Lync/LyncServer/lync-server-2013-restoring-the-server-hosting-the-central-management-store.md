@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: restaurar o servidor que hospeda o repositório de gerenciamento central'
+description: 'Lync Server 2013: restaurar o servidor que hospeda o repositório de gerenciamento central.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 51541464
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 01d3912402b48ce8aede4a53efea208c96bff825
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: c0c07e4c6722695b2bfb4cb478a1f3eefa86b4eb
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48511388"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48575447"
 ---
 # <a name="restoring-the-server-hosting-the-central-management-store-in-lync-server-2013"></a>Restaurando o servidor que hospeda o repositório de gerenciamento central no Lync Server 2013
 
