@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: configurar bypass de mídia'
+description: 'Lync Server 2013: configurar bypass de mídia.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185836
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6153be57ec60e58b404370ece2c2214ae33083c1
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: eefe960b9811f16544b7dabdd6aa07960e273806
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48520619"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48577607"
 ---
 # <a name="configure-media-bypass-in-lync-server-2013"></a>Configurar bypass de mídia no Lync Server 2013
 

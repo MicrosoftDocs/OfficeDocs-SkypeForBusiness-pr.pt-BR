@@ -1,5 +1,6 @@
 ---
 title: Suporte à virtualização do Lync Server 2013
+description: Suporte à virtualização do Lync Server 2013.
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185484
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6cd68a13b7e9ccaace337a05bcdfc7f7df69f944
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: d0c94b3fc5b972874f0ad1e501b052880c8c05fd
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48535538"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48578427"
 ---
 # <a name="virtualization-support-in-lync-server-2013"></a>Suporte de virtualização no Lync Server 2013
 
