@@ -17,14 +17,15 @@ appliesto:
 localization_priority: Priority
 f1.keywords:
 - CSH
-ms.custom: ''
+ms.custom:
+- ms.teamsadmincenter.deploymentadvisor.overview
 description: Utilize o Advisor for Teams para ajudá-lo a planejar e concluir a implementação do Microsoft Teams.
-ms.openlocfilehash: 4315ab438131e6b7e119a3e0dc48fee661190552
-ms.sourcegitcommit: 272995feb5661712668404ba57ce7afdf3b848be
+ms.openlocfilehash: 00ec8303c73df100b93808f5fdc1e775f80ec289
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/11/2020
-ms.locfileid: "47474640"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48503418"
 ---
 # <a name="use-advisor-for-teams-to-help-you-roll-out-microsoft-teams"></a>Use o Assistente do Teams para ajudá-lo na implantação do Microsoft Teams
 
