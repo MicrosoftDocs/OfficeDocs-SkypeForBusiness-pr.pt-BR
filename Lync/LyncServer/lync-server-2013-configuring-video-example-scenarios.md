@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Configurando cenários de exemplo de vídeo'
+description: 'Lync Server 2013: Configurando cenários de exemplo de vídeo.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48185536
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cf9570f3df344c26da3296904a8394f59f8a907d
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 625899887926de9afe2e6ff94df70ab725c0190a
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48516968"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48575137"
 ---
-# <a name="configuring-video-example-scenarios-for-lync-server-2013"></a><span data-ttu-id="6a495-102">Configurando cenários de exemplo de vídeo para o Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="6a495-102">Configuring video example scenarios for Lync Server 2013</span></span>
+# <a name="configuring-video-example-scenarios-for-lync-server-2013"></a><span data-ttu-id="87fbe-103">Configurando cenários de exemplo de vídeo para o Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="87fbe-103">Configuring video example scenarios for Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,13 +38,13 @@ ms.locfileid: "48516968"
 
 <span> </span>
 
-<span data-ttu-id="6a495-103">_**Última modificação do tópico:** 2012-10-02_</span><span class="sxs-lookup"><span data-stu-id="6a495-103">_**Topic Last Modified:** 2012-10-02_</span></span>
+<span data-ttu-id="87fbe-104">_**Última modificação do tópico:** 2012-10-02_</span><span class="sxs-lookup"><span data-stu-id="87fbe-104">_**Topic Last Modified:** 2012-10-02_</span></span>
 
-<span data-ttu-id="6a495-104">O Lync 2013 adiciona novos recursos de vídeo para suportar o vídeo de 1920 x 1080 de alta definição (HD) e galeria do modo de exibição de imagem.</span><span class="sxs-lookup"><span data-stu-id="6a495-104">Lync 2013 adds new video features to support 1920 x 1080 full high definition (HD) video and Gallery View video.</span></span> <span data-ttu-id="6a495-105">As medições com base nos dados do cliente mostram que a largura de banda de vídeo típica aumentou apenas um pouco para o Lync 2010, mas a largura de banda máxima do fluxo de vídeo aumentou devido ao suporte total de HD (para obter detalhes, consulte a seção "uso da rede de tráfego de mídia" em [requisitos de largura de banda de rede para o tráfego de mídia no Lync Server 2013](lync-server-2013-network-bandwidth-requirements-for-media-traffic.md)).</span><span class="sxs-lookup"><span data-stu-id="6a495-105">Measurements based on customer data show that the typical video bandwidth increased only slightly compared to Lync 2010, but the maximum video stream bandwidth has increased due to full HD support (for details, see the "Media Traffic Network Usage" section in [Network bandwidth requirements for media traffic in Lync Server 2013](lync-server-2013-network-bandwidth-requirements-for-media-traffic.md)).</span></span> <span data-ttu-id="6a495-106">Portanto, os administradores podem restringir a largura de banda de vídeo para determinados usuários (como os usuários em um escritório filial com menor capacidade de rede) e ajuda a garantir a melhor qualidade de vídeo possível para outros usuários (como executivos).</span><span class="sxs-lookup"><span data-stu-id="6a495-106">Therefore, administrators may want to restrict video bandwidth for certain users (such as users in a branch office that has less network capacity) and help to ensure the best possible video quality for other users (such as executives).</span></span>
+<span data-ttu-id="87fbe-105">O Lync 2013 adiciona novos recursos de vídeo para suportar o vídeo de 1920 x 1080 de alta definição (HD) e galeria do modo de exibição de imagem.</span><span class="sxs-lookup"><span data-stu-id="87fbe-105">Lync 2013 adds new video features to support 1920 x 1080 full high definition (HD) video and Gallery View video.</span></span> <span data-ttu-id="87fbe-106">As medições com base nos dados do cliente mostram que a largura de banda de vídeo típica aumentou apenas um pouco para o Lync 2010, mas a largura de banda máxima do fluxo de vídeo aumentou devido ao suporte total de HD (para obter detalhes, consulte a seção "uso da rede de tráfego de mídia" em [requisitos de largura de banda de rede para o tráfego de mídia no Lync Server 2013](lync-server-2013-network-bandwidth-requirements-for-media-traffic.md)).</span><span class="sxs-lookup"><span data-stu-id="87fbe-106">Measurements based on customer data show that the typical video bandwidth increased only slightly compared to Lync 2010, but the maximum video stream bandwidth has increased due to full HD support (for details, see the "Media Traffic Network Usage" section in [Network bandwidth requirements for media traffic in Lync Server 2013](lync-server-2013-network-bandwidth-requirements-for-media-traffic.md)).</span></span> <span data-ttu-id="87fbe-107">Portanto, os administradores podem restringir a largura de banda de vídeo para determinados usuários (como os usuários em um escritório filial com menor capacidade de rede) e ajuda a garantir a melhor qualidade de vídeo possível para outros usuários (como executivos).</span><span class="sxs-lookup"><span data-stu-id="87fbe-107">Therefore, administrators may want to restrict video bandwidth for certain users (such as users in a branch office that has less network capacity) and help to ensure the best possible video quality for other users (such as executives).</span></span>
 
-<span data-ttu-id="6a495-p102">A tabela a seguir oferece uma lista de configurações recomendadas para configurar vídeo para diferentes capacidades de rede. Estas configurações irão restringir alguns cenários do usuário de enviar e receber vídeos de maior resolução (consulte a coluna mais a direita). A configuração mínima resultará no Vídeo da Galeria indisponível, devido ao baixo máximo receber largura de banda de rede.</span><span class="sxs-lookup"><span data-stu-id="6a495-p102">The following table provides a list of recommended settings for configuring video for different network capacities. These settings will restrict some user scenarios from sending and receiving higher resolution videos (see rightmost column). The minimum setting will result in Gallery Video being unavailable, due to the low maximum receive network bandwidth.</span></span>
+<span data-ttu-id="87fbe-p102">A tabela a seguir oferece uma lista de configurações recomendadas para configurar vídeo para diferentes capacidades de rede. Estas configurações irão restringir alguns cenários do usuário de enviar e receber vídeos de maior resolução (consulte a coluna mais a direita). A configuração mínima resultará no Vídeo da Galeria indisponível, devido ao baixo máximo receber largura de banda de rede.</span><span class="sxs-lookup"><span data-stu-id="87fbe-p102">The following table provides a list of recommended settings for configuring video for different network capacities. These settings will restrict some user scenarios from sending and receiving higher resolution videos (see rightmost column). The minimum setting will result in Gallery Video being unavailable, due to the low maximum receive network bandwidth.</span></span>
 
-### <a name="recommended-video-settings"></a><span data-ttu-id="6a495-110">Configurações de vídeo recomendadas</span><span class="sxs-lookup"><span data-stu-id="6a495-110">Recommended Video Settings</span></span>
+### <a name="recommended-video-settings"></a><span data-ttu-id="87fbe-111">Configurações de vídeo recomendadas</span><span class="sxs-lookup"><span data-stu-id="87fbe-111">Recommended Video Settings</span></span>
 
 <table style="width:100%;">
 <colgroup>
@@ -57,105 +58,105 @@ ms.locfileid: "48516968"
 <thead>
 <tr class="header">
 <th>-</th>
-<th><span data-ttu-id="6a495-111">AllowMultiView</span><span class="sxs-lookup"><span data-stu-id="6a495-111">AllowMultiView</span></span></th>
-<th><span data-ttu-id="6a495-112">EnableMultiViewJoin</span><span class="sxs-lookup"><span data-stu-id="6a495-112">EnableMultiViewJoin</span></span></th>
-<th><span data-ttu-id="6a495-113">VideoBitRateKB</span><span class="sxs-lookup"><span data-stu-id="6a495-113">VideoBitRateKB</span></span></th>
-<th><span data-ttu-id="6a495-114">TotalReceiveVideoBitRateKB</span><span class="sxs-lookup"><span data-stu-id="6a495-114">TotalReceiveVideoBitRateKB</span></span></th>
-<th><span data-ttu-id="6a495-115">Resolução de vídeo esperada para boa qualidade de vídeo</span><span class="sxs-lookup"><span data-stu-id="6a495-115">Expected video resolution for good quality video</span></span></th>
+<th><span data-ttu-id="87fbe-112">AllowMultiView</span><span class="sxs-lookup"><span data-stu-id="87fbe-112">AllowMultiView</span></span></th>
+<th><span data-ttu-id="87fbe-113">EnableMultiViewJoin</span><span class="sxs-lookup"><span data-stu-id="87fbe-113">EnableMultiViewJoin</span></span></th>
+<th><span data-ttu-id="87fbe-114">VideoBitRateKB</span><span class="sxs-lookup"><span data-stu-id="87fbe-114">VideoBitRateKB</span></span></th>
+<th><span data-ttu-id="87fbe-115">TotalReceiveVideoBitRateKB</span><span class="sxs-lookup"><span data-stu-id="87fbe-115">TotalReceiveVideoBitRateKB</span></span></th>
+<th><span data-ttu-id="87fbe-116">Resolução de vídeo esperada para boa qualidade de vídeo</span><span class="sxs-lookup"><span data-stu-id="87fbe-116">Expected video resolution for good quality video</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="6a495-116">Melhor</span><span class="sxs-lookup"><span data-stu-id="6a495-116">Best</span></span></p></td>
-<td><p><span data-ttu-id="6a495-117">Verdadeiro</span><span class="sxs-lookup"><span data-stu-id="6a495-117">True</span></span></p></td>
-<td><p><span data-ttu-id="6a495-118">Verdadeiro</span><span class="sxs-lookup"><span data-stu-id="6a495-118">True</span></span></p></td>
-<td><p><span data-ttu-id="6a495-119">8000</span><span class="sxs-lookup"><span data-stu-id="6a495-119">8000</span></span></p></td>
-<td><p><span data-ttu-id="6a495-120">8000</span><span class="sxs-lookup"><span data-stu-id="6a495-120">8000</span></span></p></td>
-<td><p><span data-ttu-id="6a495-121">Ponto a ponto: Resolução de vídeo de até 1920 x 1080</span><span class="sxs-lookup"><span data-stu-id="6a495-121">Peer-to-peer: Up to 1920 x 1080 video resolution</span></span></p>
-<p><span data-ttu-id="6a495-122">Exibição de galeria: Até dois vídeos de 1920 x 1080 ou vários vídeos de resolução menor</span><span class="sxs-lookup"><span data-stu-id="6a495-122">Gallery View: Up to two 1920 x 1080 videos or multiple smaller resolution videos</span></span></p></td>
+<td><p><span data-ttu-id="87fbe-117">Melhor</span><span class="sxs-lookup"><span data-stu-id="87fbe-117">Best</span></span></p></td>
+<td><p><span data-ttu-id="87fbe-118">Verdadeiro</span><span class="sxs-lookup"><span data-stu-id="87fbe-118">True</span></span></p></td>
+<td><p><span data-ttu-id="87fbe-119">Verdadeiro</span><span class="sxs-lookup"><span data-stu-id="87fbe-119">True</span></span></p></td>
+<td><p><span data-ttu-id="87fbe-120">8000</span><span class="sxs-lookup"><span data-stu-id="87fbe-120">8000</span></span></p></td>
+<td><p><span data-ttu-id="87fbe-121">8000</span><span class="sxs-lookup"><span data-stu-id="87fbe-121">8000</span></span></p></td>
+<td><p><span data-ttu-id="87fbe-122">Ponto a ponto: Resolução de vídeo de até 1920 x 1080</span><span class="sxs-lookup"><span data-stu-id="87fbe-122">Peer-to-peer: Up to 1920 x 1080 video resolution</span></span></p>
+<p><span data-ttu-id="87fbe-123">Exibição de galeria: Até dois vídeos de 1920 x 1080 ou vários vídeos de resolução menor</span><span class="sxs-lookup"><span data-stu-id="87fbe-123">Gallery View: Up to two 1920 x 1080 videos or multiple smaller resolution videos</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="6a495-123">Good</span><span class="sxs-lookup"><span data-stu-id="6a495-123">Good</span></span></p></td>
-<td><p><span data-ttu-id="6a495-124">Verdadeiro</span><span class="sxs-lookup"><span data-stu-id="6a495-124">True</span></span></p></td>
-<td><p><span data-ttu-id="6a495-125">Verdadeiro</span><span class="sxs-lookup"><span data-stu-id="6a495-125">True</span></span></p></td>
-<td><p><span data-ttu-id="6a495-126">2500</span><span class="sxs-lookup"><span data-stu-id="6a495-126">2500</span></span></p></td>
-<td><p><span data-ttu-id="6a495-127">2500</span><span class="sxs-lookup"><span data-stu-id="6a495-127">2500</span></span></p></td>
-<td><p><span data-ttu-id="6a495-128">Ponto a ponto: Resolução de vídeo de até 1280 x 720</span><span class="sxs-lookup"><span data-stu-id="6a495-128">Peer-to-peer: Up to 1280 x 720 video resolution</span></span></p>
-<p><span data-ttu-id="6a495-129">Exibição de galeria: Até cinco vídeos de resolução 640 x 360</span><span class="sxs-lookup"><span data-stu-id="6a495-129">Gallery View: Up to five 640 x 360 resolution videos</span></span></p></td>
+<td><p><span data-ttu-id="87fbe-124">Good</span><span class="sxs-lookup"><span data-stu-id="87fbe-124">Good</span></span></p></td>
+<td><p><span data-ttu-id="87fbe-125">Verdadeiro</span><span class="sxs-lookup"><span data-stu-id="87fbe-125">True</span></span></p></td>
+<td><p><span data-ttu-id="87fbe-126">Verdadeiro</span><span class="sxs-lookup"><span data-stu-id="87fbe-126">True</span></span></p></td>
+<td><p><span data-ttu-id="87fbe-127">2500</span><span class="sxs-lookup"><span data-stu-id="87fbe-127">2500</span></span></p></td>
+<td><p><span data-ttu-id="87fbe-128">2500</span><span class="sxs-lookup"><span data-stu-id="87fbe-128">2500</span></span></p></td>
+<td><p><span data-ttu-id="87fbe-129">Ponto a ponto: Resolução de vídeo de até 1280 x 720</span><span class="sxs-lookup"><span data-stu-id="87fbe-129">Peer-to-peer: Up to 1280 x 720 video resolution</span></span></p>
+<p><span data-ttu-id="87fbe-130">Exibição de galeria: Até cinco vídeos de resolução 640 x 360</span><span class="sxs-lookup"><span data-stu-id="87fbe-130">Gallery View: Up to five 640 x 360 resolution videos</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="6a495-130">Médio</span><span class="sxs-lookup"><span data-stu-id="6a495-130">Medium</span></span></p></td>
-<td><p><span data-ttu-id="6a495-131">Verdadeiro</span><span class="sxs-lookup"><span data-stu-id="6a495-131">True</span></span></p></td>
-<td><p><span data-ttu-id="6a495-132">Verdadeiro</span><span class="sxs-lookup"><span data-stu-id="6a495-132">True</span></span></p></td>
-<td><p><span data-ttu-id="6a495-133">1000</span><span class="sxs-lookup"><span data-stu-id="6a495-133">1000</span></span></p></td>
-<td><p><span data-ttu-id="6a495-134">1000</span><span class="sxs-lookup"><span data-stu-id="6a495-134">1000</span></span></p></td>
-<td><p><span data-ttu-id="6a495-135">Ponto a ponto: Resolução de vídeo de até 960 x 540</span><span class="sxs-lookup"><span data-stu-id="6a495-135">Peer-to-peer: Up to 960 x 540 video resolution</span></span></p>
-<p><span data-ttu-id="6a495-136">Exibição de galeria: Até cinco vídeos de resolução de 424 x 240</span><span class="sxs-lookup"><span data-stu-id="6a495-136">Gallery View: Up to five 424 x 240 resolution videos</span></span></p></td>
+<td><p><span data-ttu-id="87fbe-131">Médio</span><span class="sxs-lookup"><span data-stu-id="87fbe-131">Medium</span></span></p></td>
+<td><p><span data-ttu-id="87fbe-132">Verdadeiro</span><span class="sxs-lookup"><span data-stu-id="87fbe-132">True</span></span></p></td>
+<td><p><span data-ttu-id="87fbe-133">Verdadeiro</span><span class="sxs-lookup"><span data-stu-id="87fbe-133">True</span></span></p></td>
+<td><p><span data-ttu-id="87fbe-134">1000</span><span class="sxs-lookup"><span data-stu-id="87fbe-134">1000</span></span></p></td>
+<td><p><span data-ttu-id="87fbe-135">1000</span><span class="sxs-lookup"><span data-stu-id="87fbe-135">1000</span></span></p></td>
+<td><p><span data-ttu-id="87fbe-136">Ponto a ponto: Resolução de vídeo de até 960 x 540</span><span class="sxs-lookup"><span data-stu-id="87fbe-136">Peer-to-peer: Up to 960 x 540 video resolution</span></span></p>
+<p><span data-ttu-id="87fbe-137">Exibição de galeria: Até cinco vídeos de resolução de 424 x 240</span><span class="sxs-lookup"><span data-stu-id="87fbe-137">Gallery View: Up to five 424 x 240 resolution videos</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="6a495-137">Minimum</span><span class="sxs-lookup"><span data-stu-id="6a495-137">Minimum</span></span></p></td>
-<td><p><span data-ttu-id="6a495-138">Verdadeiro.</span><span class="sxs-lookup"><span data-stu-id="6a495-138">True</span></span></p></td>
-<td><p><span data-ttu-id="6a495-139">Falso</span><span class="sxs-lookup"><span data-stu-id="6a495-139">False</span></span></p></td>
-<td><p><span data-ttu-id="6a495-140">350</span><span class="sxs-lookup"><span data-stu-id="6a495-140">350</span></span></p></td>
-<td><p><span data-ttu-id="6a495-141">350</span><span class="sxs-lookup"><span data-stu-id="6a495-141">350</span></span></p></td>
-<td><p><span data-ttu-id="6a495-142">Ponto a ponto: Resolução de vídeo de até 424 x 240</span><span class="sxs-lookup"><span data-stu-id="6a495-142">Peer-to-peer: Up to 424 x 240 video resolution</span></span></p>
-<p><span data-ttu-id="6a495-143">Exibição de galeria: Indisponível</span><span class="sxs-lookup"><span data-stu-id="6a495-143">Gallery View: Unavailable</span></span></p></td>
+<td><p><span data-ttu-id="87fbe-138">Minimum</span><span class="sxs-lookup"><span data-stu-id="87fbe-138">Minimum</span></span></p></td>
+<td><p><span data-ttu-id="87fbe-139">Verdadeiro.</span><span class="sxs-lookup"><span data-stu-id="87fbe-139">True</span></span></p></td>
+<td><p><span data-ttu-id="87fbe-140">Falso</span><span class="sxs-lookup"><span data-stu-id="87fbe-140">False</span></span></p></td>
+<td><p><span data-ttu-id="87fbe-141">350</span><span class="sxs-lookup"><span data-stu-id="87fbe-141">350</span></span></p></td>
+<td><p><span data-ttu-id="87fbe-142">350</span><span class="sxs-lookup"><span data-stu-id="87fbe-142">350</span></span></p></td>
+<td><p><span data-ttu-id="87fbe-143">Ponto a ponto: Resolução de vídeo de até 424 x 240</span><span class="sxs-lookup"><span data-stu-id="87fbe-143">Peer-to-peer: Up to 424 x 240 video resolution</span></span></p>
+<p><span data-ttu-id="87fbe-144">Exibição de galeria: Indisponível</span><span class="sxs-lookup"><span data-stu-id="87fbe-144">Gallery View: Unavailable</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-<span data-ttu-id="6a495-144">É possível usar a informação na tabela anterior para exibir o novo vídeo HD e recursos de conferência de vídeo de Exibição de Galeria para alguns usuários na organização, enquanto permite diferentes resoluções de vídeo para outros.</span><span class="sxs-lookup"><span data-stu-id="6a495-144">You can use the information in the preceding table to deploy the new HD video and Gallery View video conferencing features for some users in your organization, while allowing different video resolutions for others.</span></span>
+<span data-ttu-id="87fbe-145">É possível usar a informação na tabela anterior para exibir o novo vídeo HD e recursos de conferência de vídeo de Exibição de Galeria para alguns usuários na organização, enquanto permite diferentes resoluções de vídeo para outros.</span><span class="sxs-lookup"><span data-stu-id="87fbe-145">You can use the information in the preceding table to deploy the new HD video and Gallery View video conferencing features for some users in your organization, while allowing different video resolutions for others.</span></span>
 
-<span data-ttu-id="6a495-p103">No exemplo a seguir, o administrador encaminha os novos recursos de vídeo com a maior qualidade de vídeo disponível apenas para executivos. Para funcionários em um escritório filial remoto que possui baixa capacidade de rede, apenas a configuração mínima da tabela anterior é implantada. Para todos os outros funcionários, a configuração "Bom" na tabela anterior é implantada.</span><span class="sxs-lookup"><span data-stu-id="6a495-p103">In the following example, the administrator rolls out the new video features with the highest video quality available only to executives. For employees in a remote branch office that has low network capacity, only the minimum setting from the preceding table is deployed. For all other employees, the "Good" setting from the preceding table is deployed.</span></span>
+<span data-ttu-id="87fbe-p103">No exemplo a seguir, o administrador encaminha os novos recursos de vídeo com a maior qualidade de vídeo disponível apenas para executivos. Para funcionários em um escritório filial remoto que possui baixa capacidade de rede, apenas a configuração mínima da tabela anterior é implantada. Para todos os outros funcionários, a configuração "Bom" na tabela anterior é implantada.</span><span class="sxs-lookup"><span data-stu-id="87fbe-p103">In the following example, the administrator rolls out the new video features with the highest video quality available only to executives. For employees in a remote branch office that has low network capacity, only the minimum setting from the preceding table is deployed. For all other employees, the "Good" setting from the preceding table is deployed.</span></span>
 
-<span data-ttu-id="6a495-p104">Para destacar os novos recursos para executivos, o administrador cria uma política de conferência chamada ExecutiveVideo. Esta política de conferência possui as seguintes configurações:</span><span class="sxs-lookup"><span data-stu-id="6a495-p104">To roll out the new features to the executives, the administrator creates a conferencing policy named ExecutiveVideo. This conferencing policy has the following settings:</span></span>
+<span data-ttu-id="87fbe-p104">Para destacar os novos recursos para executivos, o administrador cria uma política de conferência chamada ExecutiveVideo. Esta política de conferência possui as seguintes configurações:</span><span class="sxs-lookup"><span data-stu-id="87fbe-p104">To roll out the new features to the executives, the administrator creates a conferencing policy named ExecutiveVideo. This conferencing policy has the following settings:</span></span>
 
-  - <span data-ttu-id="6a495-150">VideoBitRateKB está definido para 8000 Kbps</span><span class="sxs-lookup"><span data-stu-id="6a495-150">VideoBitRateKB is set to 8000 Kbps</span></span>
+  - <span data-ttu-id="87fbe-151">VideoBitRateKB está definido para 8000 Kbps</span><span class="sxs-lookup"><span data-stu-id="87fbe-151">VideoBitRateKB is set to 8000 Kbps</span></span>
 
-  - <span data-ttu-id="6a495-151">TotalReceiveVideoBitRateKB está definido para 8000 Kbps</span><span class="sxs-lookup"><span data-stu-id="6a495-151">TotalReceiveVideoBitRateKB is set to 8000 Kbps</span></span>
+  - <span data-ttu-id="87fbe-152">TotalReceiveVideoBitRateKB está definido para 8000 Kbps</span><span class="sxs-lookup"><span data-stu-id="87fbe-152">TotalReceiveVideoBitRateKB is set to 8000 Kbps</span></span>
 
-  - <span data-ttu-id="6a495-152">AllowMultiview está definido para True</span><span class="sxs-lookup"><span data-stu-id="6a495-152">AllowMultiview is set to True</span></span>
+  - <span data-ttu-id="87fbe-153">AllowMultiview está definido para True</span><span class="sxs-lookup"><span data-stu-id="87fbe-153">AllowMultiview is set to True</span></span>
 
-  - <span data-ttu-id="6a495-153">EnableMultiviewJoin está definido para True</span><span class="sxs-lookup"><span data-stu-id="6a495-153">EnableMultiviewJoin is set to True</span></span>
+  - <span data-ttu-id="87fbe-154">EnableMultiviewJoin está definido para True</span><span class="sxs-lookup"><span data-stu-id="87fbe-154">EnableMultiviewJoin is set to True</span></span>
 
-<span data-ttu-id="6a495-p105">Para funcionários no escritório de filial, o administrador cria uma política de conferência chamada BranchOfficeVideo. Esta política de conferência possui as seguintes configurações:</span><span class="sxs-lookup"><span data-stu-id="6a495-p105">For employees in the branch office, the administrator creates a conferencing policy named BranchOfficeVideo. This conferencing policy has the following settings:</span></span>
+<span data-ttu-id="87fbe-p105">Para funcionários no escritório de filial, o administrador cria uma política de conferência chamada BranchOfficeVideo. Esta política de conferência possui as seguintes configurações:</span><span class="sxs-lookup"><span data-stu-id="87fbe-p105">For employees in the branch office, the administrator creates a conferencing policy named BranchOfficeVideo. This conferencing policy has the following settings:</span></span>
 
-  - <span data-ttu-id="6a495-156">VideoBitRateKB está definido para 350 Kbps</span><span class="sxs-lookup"><span data-stu-id="6a495-156">VideoBitRateKB is set to 350 Kbps</span></span>
+  - <span data-ttu-id="87fbe-157">VideoBitRateKB está definido para 350 Kbps</span><span class="sxs-lookup"><span data-stu-id="87fbe-157">VideoBitRateKB is set to 350 Kbps</span></span>
 
-  - <span data-ttu-id="6a495-157">TotalReceiveVideoBitRateKB está definido para 350 Kbps</span><span class="sxs-lookup"><span data-stu-id="6a495-157">TotalReceiveVideoBitRateKB is set to 350 Kbps</span></span>
+  - <span data-ttu-id="87fbe-158">TotalReceiveVideoBitRateKB está definido para 350 Kbps</span><span class="sxs-lookup"><span data-stu-id="87fbe-158">TotalReceiveVideoBitRateKB is set to 350 Kbps</span></span>
 
-  - <span data-ttu-id="6a495-158">AllowMultiview está definido para True</span><span class="sxs-lookup"><span data-stu-id="6a495-158">AllowMultiview is set to True</span></span>
+  - <span data-ttu-id="87fbe-159">AllowMultiview está definido para True</span><span class="sxs-lookup"><span data-stu-id="87fbe-159">AllowMultiview is set to True</span></span>
 
-  - <span data-ttu-id="6a495-159">EnableMultiviewJoin está definido para False</span><span class="sxs-lookup"><span data-stu-id="6a495-159">EnableMultiviewJoin is set to False</span></span>
+  - <span data-ttu-id="87fbe-160">EnableMultiviewJoin está definido para False</span><span class="sxs-lookup"><span data-stu-id="87fbe-160">EnableMultiviewJoin is set to False</span></span>
 
-<span data-ttu-id="6a495-p106">Para todos os outros funcionários, o administrador cria uma política de conferência chamada StandardVideo. Esta política de conferência possui as seguintes configurações:</span><span class="sxs-lookup"><span data-stu-id="6a495-p106">For all other employees, the administrator creates a conferencing policy named StandardVideo. This conferencing policy has the following settings:</span></span>
+<span data-ttu-id="87fbe-p106">Para todos os outros funcionários, o administrador cria uma política de conferência chamada StandardVideo. Esta política de conferência possui as seguintes configurações:</span><span class="sxs-lookup"><span data-stu-id="87fbe-p106">For all other employees, the administrator creates a conferencing policy named StandardVideo. This conferencing policy has the following settings:</span></span>
 
-  - <span data-ttu-id="6a495-162">VideoBitRateKB está definido para 2500 Kbps</span><span class="sxs-lookup"><span data-stu-id="6a495-162">VideoBitRateKB is set to 2500 Kbps</span></span>
+  - <span data-ttu-id="87fbe-163">VideoBitRateKB está definido para 2500 Kbps</span><span class="sxs-lookup"><span data-stu-id="87fbe-163">VideoBitRateKB is set to 2500 Kbps</span></span>
 
-  - <span data-ttu-id="6a495-163">TotalReceiveVideoBitRateKB está definido para 2500 Kbps</span><span class="sxs-lookup"><span data-stu-id="6a495-163">TotalReceiveVideoBitRateKB is set to 2500 Kbps</span></span>
+  - <span data-ttu-id="87fbe-164">TotalReceiveVideoBitRateKB está definido para 2500 Kbps</span><span class="sxs-lookup"><span data-stu-id="87fbe-164">TotalReceiveVideoBitRateKB is set to 2500 Kbps</span></span>
 
-  - <span data-ttu-id="6a495-164">AllowMultiview está definido para True</span><span class="sxs-lookup"><span data-stu-id="6a495-164">AllowMultiview is set to True</span></span>
+  - <span data-ttu-id="87fbe-165">AllowMultiview está definido para True</span><span class="sxs-lookup"><span data-stu-id="87fbe-165">AllowMultiview is set to True</span></span>
 
-  - <span data-ttu-id="6a495-165">EnableMultiviewJoin está definido para True</span><span class="sxs-lookup"><span data-stu-id="6a495-165">EnableMultiviewJoin is set to True</span></span>
+  - <span data-ttu-id="87fbe-166">EnableMultiviewJoin está definido para True</span><span class="sxs-lookup"><span data-stu-id="87fbe-166">EnableMultiviewJoin is set to True</span></span>
 
-<span data-ttu-id="6a495-166">O administrador atribui a política de conferência para usuários como a seguir:</span><span class="sxs-lookup"><span data-stu-id="6a495-166">The administrator assigns conferencing policy to users as follows:</span></span>
+<span data-ttu-id="87fbe-167">O administrador atribui a política de conferência para usuários como a seguir:</span><span class="sxs-lookup"><span data-stu-id="87fbe-167">The administrator assigns conferencing policy to users as follows:</span></span>
 
-  - <span data-ttu-id="6a495-167">A política de conferência ExecutiveVideo é atribuída aos executivos.</span><span class="sxs-lookup"><span data-stu-id="6a495-167">The ExecutiveVideo conferencing policy is assigned to the executives.</span></span>
+  - <span data-ttu-id="87fbe-168">A política de conferência ExecutiveVideo é atribuída aos executivos.</span><span class="sxs-lookup"><span data-stu-id="87fbe-168">The ExecutiveVideo conferencing policy is assigned to the executives.</span></span>
 
-  - <span data-ttu-id="6a495-168">A política de conferência BranchOfficeVideo é atribuída a todos os funcionários no escritório de filial.</span><span class="sxs-lookup"><span data-stu-id="6a495-168">The BranchOfficeVideo conferencing policy is assigned to all employees in the branch office.</span></span>
+  - <span data-ttu-id="87fbe-169">A política de conferência BranchOfficeVideo é atribuída a todos os funcionários no escritório de filial.</span><span class="sxs-lookup"><span data-stu-id="87fbe-169">The BranchOfficeVideo conferencing policy is assigned to all employees in the branch office.</span></span>
 
-  - <span data-ttu-id="6a495-169">A política de conferência StandardVideo é atribuída a todos os outros funcionários.</span><span class="sxs-lookup"><span data-stu-id="6a495-169">The StandardVideo conferencing policy is assigned to all other employees.</span></span>
+  - <span data-ttu-id="87fbe-170">A política de conferência StandardVideo é atribuída a todos os outros funcionários.</span><span class="sxs-lookup"><span data-stu-id="87fbe-170">The StandardVideo conferencing policy is assigned to all other employees.</span></span>
 
-<span data-ttu-id="6a495-170">Estas atribuições de política de conferência resulta na seguinte experiência do usuário:</span><span class="sxs-lookup"><span data-stu-id="6a495-170">These conferencing policy assignments result in the following user experience:</span></span>
+<span data-ttu-id="87fbe-171">Estas atribuições de política de conferência resulta na seguinte experiência do usuário:</span><span class="sxs-lookup"><span data-stu-id="87fbe-171">These conferencing policy assignments result in the following user experience:</span></span>
 
-  - <span data-ttu-id="6a495-171">Todas as conferências organizadas por qualquer Exibição de Galeria de suporte do usuário, mas os funcionários no escritório de filial não podem utilizar a Exibição de Galeria.</span><span class="sxs-lookup"><span data-stu-id="6a495-171">All conferences organized by any user support Gallery View, but employees in the branch office cannot experience Gallery View.</span></span>
+  - <span data-ttu-id="87fbe-172">Todas as conferências organizadas por qualquer Exibição de Galeria de suporte do usuário, mas os funcionários no escritório de filial não podem utilizar a Exibição de Galeria.</span><span class="sxs-lookup"><span data-stu-id="87fbe-172">All conferences organized by any user support Gallery View, but employees in the branch office cannot experience Gallery View.</span></span>
 
-  - <span data-ttu-id="6a495-172">Para qualquer conferência de várias partes ou de duas partes, executivos podem enviar vídeo HD completo 1920 x 1080, se seu hardware e link de rede suportar e pode receber vídeo de HD completo 1920 x 1080 e o outro cliente participante suporta.</span><span class="sxs-lookup"><span data-stu-id="6a495-172">For any two-party or multiparty conferences, executives can send 1920 x 1080 full HD video, if their hardware and network link supports it, and can receive 1920 x 1080 full HD video where the other participant clients support it.</span></span>
+  - <span data-ttu-id="87fbe-173">Para qualquer conferência de várias partes ou de duas partes, executivos podem enviar vídeo HD completo 1920 x 1080, se seu hardware e link de rede suportar e pode receber vídeo de HD completo 1920 x 1080 e o outro cliente participante suporta.</span><span class="sxs-lookup"><span data-stu-id="87fbe-173">For any two-party or multiparty conferences, executives can send 1920 x 1080 full HD video, if their hardware and network link supports it, and can receive 1920 x 1080 full HD video where the other participant clients support it.</span></span>
 
-  - <span data-ttu-id="6a495-173">Funcionários que não são executivos enfrentam resoluções mais baixas do que os executivos em suas conferências de duas partes ou várias partes, mas ainda têm boa resolução.</span><span class="sxs-lookup"><span data-stu-id="6a495-173">Employees who are not executives experience lower resolutions than the executives in their two-party or multiparty conferences, but still get good resolution.</span></span>
+  - <span data-ttu-id="87fbe-174">Funcionários que não são executivos enfrentam resoluções mais baixas do que os executivos em suas conferências de duas partes ou várias partes, mas ainda têm boa resolução.</span><span class="sxs-lookup"><span data-stu-id="87fbe-174">Employees who are not executives experience lower resolutions than the executives in their two-party or multiparty conferences, but still get good resolution.</span></span>
 
-  - <span data-ttu-id="6a495-174">Os funcionários que estão na filial receberão boa qualidade de vídeo em chamadas de duas partes quando o Lync exibir o tamanho padrão da janela de vídeo; no entanto, se a janela do Lync estiver maximizada para tela inteira, a resolução de vídeo não aumentará.</span><span class="sxs-lookup"><span data-stu-id="6a495-174">Employees who are in the branch office will get good video quality in two-party calls when Lync displays the default video window size; however, if the Lync window is maximized to full screen, the video resolution will not increase.</span></span> <span data-ttu-id="6a495-175">Para conferências com vários participantes, os funcionários no escritório de filial verão apenas um vídeo ativo.</span><span class="sxs-lookup"><span data-stu-id="6a495-175">For multiparty conferences, the employees in the branch office will see only one active video.</span></span>
+  - <span data-ttu-id="87fbe-175">Os funcionários que estão na filial receberão boa qualidade de vídeo em chamadas de duas partes quando o Lync exibir o tamanho padrão da janela de vídeo; no entanto, se a janela do Lync estiver maximizada para tela inteira, a resolução de vídeo não aumentará.</span><span class="sxs-lookup"><span data-stu-id="87fbe-175">Employees who are in the branch office will get good video quality in two-party calls when Lync displays the default video window size; however, if the Lync window is maximized to full screen, the video resolution will not increase.</span></span> <span data-ttu-id="87fbe-176">Para conferências com vários participantes, os funcionários no escritório de filial verão apenas um vídeo ativo.</span><span class="sxs-lookup"><span data-stu-id="87fbe-176">For multiparty conferences, the employees in the branch office will see only one active video.</span></span>
 
 </div>
 
