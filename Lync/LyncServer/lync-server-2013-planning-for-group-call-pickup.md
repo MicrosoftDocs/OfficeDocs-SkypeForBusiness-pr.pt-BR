@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: planejando o recebimento de chamadas em grupo'
+description: 'Lync Server 2013: planejamento de recebimento de chamadas em grupo.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 51541487
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7b3cf5c8e340b552a2e0915575293d63e902e66f
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: ddf2c2da1d150ad1e69f5271fa09d6c25dc08e19
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48522128"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48578727"
 ---
 # <a name="planning-for-group-call-pickup-in-lync-server-2013"></a>Planejando o recebimento de chamadas em grupo no Lync Server 2013
 

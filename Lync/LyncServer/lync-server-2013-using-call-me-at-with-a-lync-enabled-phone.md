@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: usando ligar para mim com um telefone habilitado para Lync'
+description: 'Lync Server 2013: usando ligar para o com um telefone habilitado para Lync.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 56470326
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 840089b2e65e158086d33f8ebfdfc6828e4e9317
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 7fd7855e45132b133c78230e7f8769bdab897140
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48535818"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48580417"
 ---
 # <a name="using-call-me-at-with-a-lync-enabled-phone-and-lync-server-2013"></a>Usando ligar para mim com um telefone habilitado para Lync e o Lync Server 2013
 
