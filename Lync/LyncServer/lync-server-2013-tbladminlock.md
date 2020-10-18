@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: tblAdminLock'
+description: 'Lync Server 2013: tblAdminLock.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48184560
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 608dcc5d8044b5e1dd62166bfd13124013b3979f
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: c3313826b2c0d578c515fb25f83e713b8978ae63
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48509518"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48573707"
 ---
-# <a name="tbladminlock-in-lync-server-2013"></a><span data-ttu-id="51737-102">tblAdminLock no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="51737-102">tblAdminLock in Lync Server 2013</span></span>
+# <a name="tbladminlock-in-lync-server-2013"></a><span data-ttu-id="50479-103">tblAdminLock no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="50479-103">tblAdminLock in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,11 +38,11 @@ ms.locfileid: "48509518"
 
 <span> </span>
 
-<span data-ttu-id="51737-103">_**Última modificação do tópico:** 2012-06-25_</span><span class="sxs-lookup"><span data-stu-id="51737-103">_**Topic Last Modified:** 2012-06-25_</span></span>
+<span data-ttu-id="50479-104">_**Última modificação do tópico:** 2012-06-25_</span><span class="sxs-lookup"><span data-stu-id="50479-104">_**Topic Last Modified:** 2012-06-25_</span></span>
 
-<span data-ttu-id="51737-104">tblAdminLock contém o bloqueio do administrador necessário para a execução de alguns comandos de administrador.</span><span class="sxs-lookup"><span data-stu-id="51737-104">tblAdminLock contains the administrator lock that is needed to run some administrator commands.</span></span>
+<span data-ttu-id="50479-105">tblAdminLock contém o bloqueio do administrador necessário para a execução de alguns comandos de administrador.</span><span class="sxs-lookup"><span data-stu-id="50479-105">tblAdminLock contains the administrator lock that is needed to run some administrator commands.</span></span>
 
-### <a name="columns"></a><span data-ttu-id="51737-105">Colunas</span><span class="sxs-lookup"><span data-stu-id="51737-105">Columns</span></span>
+### <a name="columns"></a><span data-ttu-id="50479-106">Colunas</span><span class="sxs-lookup"><span data-stu-id="50479-106">Columns</span></span>
 
 <table>
 <colgroup>
@@ -51,26 +52,26 @@ ms.locfileid: "48509518"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="51737-106">Coluna</span><span class="sxs-lookup"><span data-stu-id="51737-106">Column</span></span></th>
-<th><span data-ttu-id="51737-107">Tipo</span><span class="sxs-lookup"><span data-stu-id="51737-107">Type</span></span></th>
-<th><span data-ttu-id="51737-108">Descrição</span><span class="sxs-lookup"><span data-stu-id="51737-108">Description</span></span></th>
+<th><span data-ttu-id="50479-107">Coluna</span><span class="sxs-lookup"><span data-stu-id="50479-107">Column</span></span></th>
+<th><span data-ttu-id="50479-108">Tipo</span><span class="sxs-lookup"><span data-stu-id="50479-108">Type</span></span></th>
+<th><span data-ttu-id="50479-109">Descrição</span><span class="sxs-lookup"><span data-stu-id="50479-109">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="51737-109">lockExpiresTime</span><span class="sxs-lookup"><span data-stu-id="51737-109">lockExpiresTime</span></span></p></td>
-<td><p><span data-ttu-id="51737-110">datetime, não nulo</span><span class="sxs-lookup"><span data-stu-id="51737-110">datetime, not null</span></span></p></td>
-<td><p><span data-ttu-id="51737-p101">Data de expiração de bloqueio. O proprietário pode estender esse valor periodicamente.</span><span class="sxs-lookup"><span data-stu-id="51737-p101">Lock expiration date and time. The owner can extend this value periodically.</span></span></p></td>
+<td><p><span data-ttu-id="50479-110">lockExpiresTime</span><span class="sxs-lookup"><span data-stu-id="50479-110">lockExpiresTime</span></span></p></td>
+<td><p><span data-ttu-id="50479-111">datetime, não nulo</span><span class="sxs-lookup"><span data-stu-id="50479-111">datetime, not null</span></span></p></td>
+<td><p><span data-ttu-id="50479-p101">Data de expiração de bloqueio. O proprietário pode estender esse valor periodicamente.</span><span class="sxs-lookup"><span data-stu-id="50479-p101">Lock expiration date and time. The owner can extend this value periodically.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="51737-113">lockServerID</span><span class="sxs-lookup"><span data-stu-id="51737-113">lockServerID</span></span></p></td>
-<td><p><span data-ttu-id="51737-114">int, não nulo</span><span class="sxs-lookup"><span data-stu-id="51737-114">int, not null</span></span></p></td>
-<td><p><span data-ttu-id="51737-115">Identificação do servidor que possui o bloqueio.</span><span class="sxs-lookup"><span data-stu-id="51737-115">ID of the server that owns the lock.</span></span></p></td>
+<td><p><span data-ttu-id="50479-114">lockServerID</span><span class="sxs-lookup"><span data-stu-id="50479-114">lockServerID</span></span></p></td>
+<td><p><span data-ttu-id="50479-115">int, não nulo</span><span class="sxs-lookup"><span data-stu-id="50479-115">int, not null</span></span></p></td>
+<td><p><span data-ttu-id="50479-116">Identificação do servidor que possui o bloqueio.</span><span class="sxs-lookup"><span data-stu-id="50479-116">ID of the server that owns the lock.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="51737-116">lockActorID</span><span class="sxs-lookup"><span data-stu-id="51737-116">lockActorID</span></span></p></td>
-<td><p><span data-ttu-id="51737-117">int, não nulo</span><span class="sxs-lookup"><span data-stu-id="51737-117">int, not null</span></span></p></td>
-<td><p><span data-ttu-id="51737-118">Identificação da entidade que possui o bloqueio.</span><span class="sxs-lookup"><span data-stu-id="51737-118">ID of the principal that owns the lock.</span></span></p></td>
+<td><p><span data-ttu-id="50479-117">lockActorID</span><span class="sxs-lookup"><span data-stu-id="50479-117">lockActorID</span></span></p></td>
+<td><p><span data-ttu-id="50479-118">int, não nulo</span><span class="sxs-lookup"><span data-stu-id="50479-118">int, not null</span></span></p></td>
+<td><p><span data-ttu-id="50479-119">Identificação da entidade que possui o bloqueio.</span><span class="sxs-lookup"><span data-stu-id="50479-119">ID of the principal that owns the lock.</span></span></p></td>
 </tr>
 </tbody>
 </table>

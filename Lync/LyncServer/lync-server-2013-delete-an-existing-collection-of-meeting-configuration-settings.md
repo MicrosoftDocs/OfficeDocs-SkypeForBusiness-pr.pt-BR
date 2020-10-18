@@ -1,5 +1,6 @@
 ---
 title: Excluir um conjunto existente de definições de configuração de reunião
+description: Excluir um conjunto existente de definições de configuração de reunião.
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 49733736
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: edf416af31b219c07691790b88d672d26768104d
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 9fc0985023a1459130c7d589327535436145a0ac
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48514658"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48572837"
 ---
-# <a name="delete-an-existing-collection-of-meeting-configuration-settings-in-lync-server-2013"></a><span data-ttu-id="d576e-102">Excluir um conjunto existente de definições de configuração de reunião no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d576e-102">Delete an existing collection of meeting configuration settings in Lync Server 2013</span></span>
+# <a name="delete-an-existing-collection-of-meeting-configuration-settings-in-lync-server-2013"></a><span data-ttu-id="d524e-103">Excluir um conjunto existente de definições de configuração de reunião no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d524e-103">Delete an existing collection of meeting configuration settings in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,35 +38,35 @@ ms.locfileid: "48514658"
 
 <span> </span>
 
-<span data-ttu-id="d576e-103">_**Última modificação do tópico:** 2013-02-23_</span><span class="sxs-lookup"><span data-stu-id="d576e-103">_**Topic Last Modified:** 2013-02-23_</span></span>
+<span data-ttu-id="d524e-104">_**Última modificação do tópico:** 2013-02-23_</span><span class="sxs-lookup"><span data-stu-id="d524e-104">_**Topic Last Modified:** 2013-02-23_</span></span>
 
-<span data-ttu-id="d576e-p101">Você pode excluir uma configuração de site ou de usuário. A configuração global não pode ser removida. Se você excluir a configuração global, ela será automaticamente redefinida para os valores padrão.</span><span class="sxs-lookup"><span data-stu-id="d576e-p101">You can delete a site or user configuration. The global configuration cannot be removed. If you delete the global configuration, it is automatically reset to the default values.</span></span>
+<span data-ttu-id="d524e-p101">Você pode excluir uma configuração de site ou de usuário. A configuração global não pode ser removida. Se você excluir a configuração global, ela será automaticamente redefinida para os valores padrão.</span><span class="sxs-lookup"><span data-stu-id="d524e-p101">You can delete a site or user configuration. The global configuration cannot be removed. If you delete the global configuration, it is automatically reset to the default values.</span></span>
 
 <div>
 
-## <a name="to-delete-a-site-or-user-meeting-configuration"></a><span data-ttu-id="d576e-107">Para excluir uma configuração de site ou de reunião</span><span class="sxs-lookup"><span data-stu-id="d576e-107">To delete a site or user meeting configuration</span></span>
+## <a name="to-delete-a-site-or-user-meeting-configuration"></a><span data-ttu-id="d524e-108">Para excluir uma configuração de site ou de reunião</span><span class="sxs-lookup"><span data-stu-id="d524e-108">To delete a site or user meeting configuration</span></span>
 
-1.  <span data-ttu-id="d576e-108">Por uma conta de usuário atribuída à função CsUserAdministrator role ou CsAdministrator, faça o login em qualquer computador na sua implantação interna.</span><span class="sxs-lookup"><span data-stu-id="d576e-108">From a user account that is assigned to the CsUserAdministrator role or the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
+1.  <span data-ttu-id="d524e-109">Por uma conta de usuário atribuída à função CsUserAdministrator role ou CsAdministrator, faça o login em qualquer computador na sua implantação interna.</span><span class="sxs-lookup"><span data-stu-id="d524e-109">From a user account that is assigned to the CsUserAdministrator role or the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
 
-2.  <span data-ttu-id="d576e-109">Abra uma janela do navegador e insira a URL do Administrador para abrir o Painel de Controle do Lync Server.</span><span class="sxs-lookup"><span data-stu-id="d576e-109">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="d576e-110">Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o painel de controle do Lync Server, consulte [Open Lync server 2013 Administrative Tools](lync-server-2013-open-lync-server-administrative-tools.md).</span><span class="sxs-lookup"><span data-stu-id="d576e-110">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
+2.  <span data-ttu-id="d524e-110">Abra uma janela do navegador e insira a URL do Administrador para abrir o Painel de Controle do Lync Server.</span><span class="sxs-lookup"><span data-stu-id="d524e-110">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="d524e-111">Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o painel de controle do Lync Server, consulte [Open Lync server 2013 Administrative Tools](lync-server-2013-open-lync-server-administrative-tools.md).</span><span class="sxs-lookup"><span data-stu-id="d524e-111">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
 
-3.  <span data-ttu-id="d576e-111">Na barra de navegação esquerda, clique em **Conferência** e em **Configuração da reunião**.</span><span class="sxs-lookup"><span data-stu-id="d576e-111">In the left navigation bar, click **Conferencing** and then click **Meeting Configuration**.</span></span>
+3.  <span data-ttu-id="d524e-112">Na barra de navegação esquerda, clique em **Conferência** e em **Configuração da reunião**.</span><span class="sxs-lookup"><span data-stu-id="d524e-112">In the left navigation bar, click **Conferencing** and then click **Meeting Configuration**.</span></span>
 
-4.  <span data-ttu-id="d576e-112">Na lista de configurações de reunião, clique na configuração de site ou pool que deseja excluir, clique em **Editar**e em **excluir**.</span><span class="sxs-lookup"><span data-stu-id="d576e-112">In the list of meeting configurations, click the site or pool configuration that you want to delete, click **Edit**, and then click **Delete**.</span></span>
+4.  <span data-ttu-id="d524e-113">Na lista de configurações de reunião, clique na configuração de site ou pool que deseja excluir, clique em **Editar**e em **excluir**.</span><span class="sxs-lookup"><span data-stu-id="d524e-113">In the list of meeting configurations, click the site or pool configuration that you want to delete, click **Edit**, and then click **Delete**.</span></span>
 
 </div>
 
 <div>
 
-## <a name="removing-meeting-configuration-settings-by-using-windows-powershell-cmdlets"></a><span data-ttu-id="d576e-113">Removendo definições de configuração de reunião usando os cmdlets do Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="d576e-113">Removing Meeting Configuration Settings by Using Windows PowerShell Cmdlets</span></span>
+## <a name="removing-meeting-configuration-settings-by-using-windows-powershell-cmdlets"></a><span data-ttu-id="d524e-114">Removendo definições de configuração de reunião usando os cmdlets do Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="d524e-114">Removing Meeting Configuration Settings by Using Windows PowerShell Cmdlets</span></span>
 
-<span data-ttu-id="d576e-114">As configurações de reunião podem ser excluídas usando o Windows PowerShell e o cmdlet Remove-CsMeetingConfiguration.</span><span class="sxs-lookup"><span data-stu-id="d576e-114">Meeting settings can be deleted by using Windows PowerShell and the Remove-CsMeetingConfiguration cmdlet.</span></span> <span data-ttu-id="d576e-115">Este cmdlet pode ser executado a partir do Shell de gerenciamento do Lync Server 2013 ou de uma sessão remota do Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="d576e-115">This cmdlet can be run either from the Lync Server 2013 Management Shell or from a remote session of Windows PowerShell.</span></span> <span data-ttu-id="d576e-116">Para obter detalhes sobre como usar o Windows PowerShell remoto para se conectar ao Lync Server, consulte o artigo de blog do Lync Server Windows PowerShell "início rápido: Managing Microsoft Lync Server 2010 using Remote PowerShell" em [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876) .</span><span class="sxs-lookup"><span data-stu-id="d576e-116">For details about using remote Windows PowerShell to connect to Lync Server, see the Lync Server Windows PowerShell blog article "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" at [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876).</span></span>
+<span data-ttu-id="d524e-115">As configurações de reunião podem ser excluídas usando o Windows PowerShell e o cmdlet Remove-CsMeetingConfiguration.</span><span class="sxs-lookup"><span data-stu-id="d524e-115">Meeting settings can be deleted by using Windows PowerShell and the Remove-CsMeetingConfiguration cmdlet.</span></span> <span data-ttu-id="d524e-116">Este cmdlet pode ser executado a partir do Shell de gerenciamento do Lync Server 2013 ou de uma sessão remota do Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="d524e-116">This cmdlet can be run either from the Lync Server 2013 Management Shell or from a remote session of Windows PowerShell.</span></span> <span data-ttu-id="d524e-117">Para obter detalhes sobre como usar o Windows PowerShell remoto para se conectar ao Lync Server, consulte o artigo de blog do Lync Server Windows PowerShell "início rápido: Managing Microsoft Lync Server 2010 using Remote PowerShell" em [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876) .</span><span class="sxs-lookup"><span data-stu-id="d524e-117">For details about using remote Windows PowerShell to connect to Lync Server, see the Lync Server Windows PowerShell blog article "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" at [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876).</span></span>
 
 <div>
 
-## <a name="to-remove-a-specified-collection-of-meeting-configuration-settings"></a><span data-ttu-id="d576e-117">Para remover um conjunto especificado de definições de configuração de reunião</span><span class="sxs-lookup"><span data-stu-id="d576e-117">To remove a specified collection of meeting configuration settings</span></span>
+## <a name="to-remove-a-specified-collection-of-meeting-configuration-settings"></a><span data-ttu-id="d524e-118">Para remover um conjunto especificado de definições de configuração de reunião</span><span class="sxs-lookup"><span data-stu-id="d524e-118">To remove a specified collection of meeting configuration settings</span></span>
 
-  - <span data-ttu-id="d576e-118">Este comando remove as definições de configuração de reunião aplicadas ao site da Redmond:</span><span class="sxs-lookup"><span data-stu-id="d576e-118">This command removes the meeting configuration settings applied to the Redmond site:</span></span>
+  - <span data-ttu-id="d524e-119">Este comando remove as definições de configuração de reunião aplicadas ao site da Redmond:</span><span class="sxs-lookup"><span data-stu-id="d524e-119">This command removes the meeting configuration settings applied to the Redmond site:</span></span>
     
         Remove-CsMeetingConfiguration -Identity "site:Redmond"
 
@@ -73,9 +74,9 @@ ms.locfileid: "48514658"
 
 <div>
 
-## <a name="to-remove-all-the-meeting-configuration-settings-applied-to-the-site-scope"></a><span data-ttu-id="d576e-119">Para remover todas as definições de configuração de reunião aplicadas ao escopo do site</span><span class="sxs-lookup"><span data-stu-id="d576e-119">To remove all the meeting configuration settings applied to the site scope</span></span>
+## <a name="to-remove-all-the-meeting-configuration-settings-applied-to-the-site-scope"></a><span data-ttu-id="d524e-120">Para remover todas as definições de configuração de reunião aplicadas ao escopo do site</span><span class="sxs-lookup"><span data-stu-id="d524e-120">To remove all the meeting configuration settings applied to the site scope</span></span>
 
-  - <span data-ttu-id="d576e-120">Este comando remove todas as definições de configuração de reunião aplicadas ao escopo do site:</span><span class="sxs-lookup"><span data-stu-id="d576e-120">This command removes all the meeting configuration settings applied to the site scope:</span></span>
+  - <span data-ttu-id="d524e-121">Este comando remove todas as definições de configuração de reunião aplicadas ao escopo do site:</span><span class="sxs-lookup"><span data-stu-id="d524e-121">This command removes all the meeting configuration settings applied to the site scope:</span></span>
     
         Get-CsMeetingConfiguration -Filter "site:*" | Remove-CsMeetingConfiguration
 
@@ -83,15 +84,15 @@ ms.locfileid: "48514658"
 
 <div>
 
-## <a name="to-remove-all-the-meeting-configuration-settings-that-admit-anonymous-users-by-default"></a><span data-ttu-id="d576e-121">Para remover todas as definições de configuração de reunião que admitem usuários anônimos por padrão</span><span class="sxs-lookup"><span data-stu-id="d576e-121">To remove all the meeting configuration settings that admit anonymous users by default</span></span>
+## <a name="to-remove-all-the-meeting-configuration-settings-that-admit-anonymous-users-by-default"></a><span data-ttu-id="d524e-122">Para remover todas as definições de configuração de reunião que admitem usuários anônimos por padrão</span><span class="sxs-lookup"><span data-stu-id="d524e-122">To remove all the meeting configuration settings that admit anonymous users by default</span></span>
 
-  - <span data-ttu-id="d576e-122">E este remove todas as configurações que permitem que usuários anônimos sejam admitidos como padrão:</span><span class="sxs-lookup"><span data-stu-id="d576e-122">And this one removes all the settings that allow anonymous users to be admitted by default:</span></span>
+  - <span data-ttu-id="d524e-123">E este remove todas as configurações que permitem que usuários anônimos sejam admitidos como padrão:</span><span class="sxs-lookup"><span data-stu-id="d524e-123">And this one removes all the settings that allow anonymous users to be admitted by default:</span></span>
     
         Get-CsMeetingConfiguration | Where-Object {$_.AdmitAnonymousUsersByDefault -eq $True} | Remove-CsMeetingConfiguration
 
 </div>
 
-<span data-ttu-id="d576e-123">Para obter mais informações, consulte o tópico de ajuda para o cmdlet [Remove-CsMeetingConfiguration](https://technet.microsoft.com/library/Gg412775(v=OCS.15)) .</span><span class="sxs-lookup"><span data-stu-id="d576e-123">For more information, see the help topic for the [Remove-CsMeetingConfiguration](https://technet.microsoft.com/library/Gg412775(v=OCS.15)) cmdlet.</span></span>
+<span data-ttu-id="d524e-124">Para obter mais informações, consulte o tópico de ajuda para o cmdlet [Remove-CsMeetingConfiguration](https://technet.microsoft.com/library/Gg412775(v=OCS.15)) .</span><span class="sxs-lookup"><span data-stu-id="d524e-124">For more information, see the help topic for the [Remove-CsMeetingConfiguration](https://technet.microsoft.com/library/Gg412775(v=OCS.15)) cmdlet.</span></span>
 
 </div>
 

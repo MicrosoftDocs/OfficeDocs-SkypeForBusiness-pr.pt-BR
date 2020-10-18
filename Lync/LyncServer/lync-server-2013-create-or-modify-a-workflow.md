@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: criar ou modificar um fluxo de trabalho'
+description: 'Lync Server 2013: criar ou modificar um fluxo de trabalho.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48184225
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b79e4be39f461364b43efa9c3420cd8f4aa3eac0
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 053b80e313e497313e613a5f8b16bd5beeabf7ac
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48525768"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48574467"
 ---
-# <a name="create-or-modify-a-workflow-in-lync-server-2013"></a><span data-ttu-id="caec3-102">Criar ou modificar um fluxo de trabalho no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="caec3-102">Create or modify a workflow in Lync Server 2013</span></span>
+# <a name="create-or-modify-a-workflow-in-lync-server-2013"></a><span data-ttu-id="12699-103">Criar ou modificar um fluxo de trabalho no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="12699-103">Create or modify a workflow in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,15 +38,15 @@ ms.locfileid: "48525768"
 
 <span> </span>
 
-<span data-ttu-id="caec3-103">_**Última modificação do tópico:** 2012-10-02_</span><span class="sxs-lookup"><span data-stu-id="caec3-103">_**Topic Last Modified:** 2012-10-02_</span></span>
+<span data-ttu-id="12699-104">_**Última modificação do tópico:** 2012-10-02_</span><span class="sxs-lookup"><span data-stu-id="12699-104">_**Topic Last Modified:** 2012-10-02_</span></span>
 
-<span data-ttu-id="caec3-104">O Lync Server 2013 oferece suporte a dois tipos de fluxos de trabalho: grupo de busca e resposta de voz interativa (IVR).</span><span class="sxs-lookup"><span data-stu-id="caec3-104">Lync Server 2013 supports two types of workflows: hunt group and interactive voice response (IVR).</span></span> <span data-ttu-id="caec3-105">Ao criar um fluxo de trabalho, use a ferramenta de configuração de grupo de resposta para especificar a fila a ser usada e outras configurações, como uma mensagem de boas-vindas, música em espera, horário comercial e perguntas que o aplicativo grupo de resposta solicita o chamador.</span><span class="sxs-lookup"><span data-stu-id="caec3-105">When you create a workflow, you use the Response Group Configuration Tool to specify the queue to use and other settings, such as a welcome message, music on hold, business hours, and questions that the Response Group application asks the caller.</span></span>
+<span data-ttu-id="12699-105">O Lync Server 2013 oferece suporte a dois tipos de fluxos de trabalho: grupo de busca e resposta de voz interativa (IVR).</span><span class="sxs-lookup"><span data-stu-id="12699-105">Lync Server 2013 supports two types of workflows: hunt group and interactive voice response (IVR).</span></span> <span data-ttu-id="12699-106">Ao criar um fluxo de trabalho, use a ferramenta de configuração de grupo de resposta para especificar a fila a ser usada e outras configurações, como uma mensagem de boas-vindas, música em espera, horário comercial e perguntas que o aplicativo grupo de resposta solicita o chamador.</span><span class="sxs-lookup"><span data-stu-id="12699-106">When you create a workflow, you use the Response Group Configuration Tool to specify the queue to use and other settings, such as a welcome message, music on hold, business hours, and questions that the Response Group application asks the caller.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="caec3-p102">Você deve criar grupos de agente e filas antes de criar um fluxo de trabalho que os utiliza. Se desejar criar horários comerciais e feriados predefinidos que pode usar para vários fluxos de trabalho, você também deverá definir esses horários e feriados antes de criar um fluxo de trabalho que os utiliza.</span><span class="sxs-lookup"><span data-stu-id="caec3-p102">You must create agent groups and queues before you create a workflow that uses them. If you want to create predefined business hours and holidays that you can use for multiple workflows, you must also define these hours and holidays before you create a workflow that uses them.</span></span>
+> <span data-ttu-id="12699-p102">Você deve criar grupos de agente e filas antes de criar um fluxo de trabalho que os utiliza. Se desejar criar horários comerciais e feriados predefinidos que pode usar para vários fluxos de trabalho, você também deverá definir esses horários e feriados antes de criar um fluxo de trabalho que os utiliza.</span><span class="sxs-lookup"><span data-stu-id="12699-p102">You must create agent groups and queues before you create a workflow that uses them. If you want to create predefined business hours and holidays that you can use for multiple workflows, you must also define these hours and holidays before you create a workflow that uses them.</span></span>
 
 
 
@@ -53,25 +54,25 @@ ms.locfileid: "48525768"
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="caec3-108">Nesta seção</span><span class="sxs-lookup"><span data-stu-id="caec3-108">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="12699-109">Nesta seção</span><span class="sxs-lookup"><span data-stu-id="12699-109">In This Section</span></span>
 
-  - [<span data-ttu-id="caec3-109">Criar ou modificar um fluxo de trabalho de grupo de busca no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="caec3-109">Create or modify a hunt group workflow in Lync Server 2013</span></span>](lync-server-2013-create-or-modify-a-hunt-group-workflow.md)
+  - [<span data-ttu-id="12699-110">Criar ou modificar um fluxo de trabalho de grupo de busca no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="12699-110">Create or modify a hunt group workflow in Lync Server 2013</span></span>](lync-server-2013-create-or-modify-a-hunt-group-workflow.md)
 
-  - [<span data-ttu-id="caec3-110">Criar ou modificar um fluxo de trabalho interativo no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="caec3-110">Create or modify an interactive workflow in Lync Server 2013</span></span>](lync-server-2013-create-or-modify-an-interactive-workflow.md)
+  - [<span data-ttu-id="12699-111">Criar ou modificar um fluxo de trabalho interativo no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="12699-111">Create or modify an interactive workflow in Lync Server 2013</span></span>](lync-server-2013-create-or-modify-an-interactive-workflow.md)
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="caec3-111">Confira também</span><span class="sxs-lookup"><span data-stu-id="caec3-111">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="12699-112">Confira também</span><span class="sxs-lookup"><span data-stu-id="12699-112">See Also</span></span>
 
 
-[<span data-ttu-id="caec3-112">Criar ou modificar um grupo de agentes no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="caec3-112">Create or modify an agent group in Lync Server 2013</span></span>](lync-server-2013-create-or-modify-an-agent-group.md)  
-[<span data-ttu-id="caec3-113">Criar ou modificar uma fila no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="caec3-113">Create or modify a queue in Lync Server 2013</span></span>](lync-server-2013-create-or-modify-a-queue.md)  
-[<span data-ttu-id="caec3-114">Opcion Definir os conjuntos de feriados do grupo de resposta no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="caec3-114">(Optional) Define Response Group holiday sets in Lync Server 2013</span></span>](lync-server-2013-optional-define-response-group-holiday-sets.md)  
+[<span data-ttu-id="12699-113">Criar ou modificar um grupo de agentes no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="12699-113">Create or modify an agent group in Lync Server 2013</span></span>](lync-server-2013-create-or-modify-an-agent-group.md)  
+[<span data-ttu-id="12699-114">Criar ou modificar uma fila no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="12699-114">Create or modify a queue in Lync Server 2013</span></span>](lync-server-2013-create-or-modify-a-queue.md)  
+[<span data-ttu-id="12699-115">Opcion Definir os conjuntos de feriados do grupo de resposta no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="12699-115">(Optional) Define Response Group holiday sets in Lync Server 2013</span></span>](lync-server-2013-optional-define-response-group-holiday-sets.md)  
 
 
-[<span data-ttu-id="caec3-115">Opcion Definir o horário comercial do grupo de resposta no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="caec3-115">(Optional) Define Response Group business hours in Lync Server 2013</span></span>](lync-server-2013-optional-define-response-group-business-hours.md)  
+[<span data-ttu-id="12699-116">Opcion Definir o horário comercial do grupo de resposta no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="12699-116">(Optional) Define Response Group business hours in Lync Server 2013</span></span>](lync-server-2013-optional-define-response-group-business-hours.md)  
   
 
 </div>
