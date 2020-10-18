@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: preparando a floresta'
+description: 'Lync Server 2013: preparando a floresta.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48183926
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e35438969d8876875bef3d22b2d0ab676c146189
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 275d861ebfe7e0350e7baf120b6e6f2bae6a26ad
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48506858"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48579997"
 ---
-# <a name="preparing-the-forest-for-lync-server-2013"></a><span data-ttu-id="2640f-102">Preparando a floresta para o Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2640f-102">Preparing the forest for Lync Server 2013</span></span>
+# <a name="preparing-the-forest-for-lync-server-2013"></a><span data-ttu-id="bc71d-103">Preparando a floresta para o Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="bc71d-103">Preparing the forest for Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,33 +38,33 @@ ms.locfileid: "48506858"
 
 <span> </span>
 
-<span data-ttu-id="2640f-103">_**Última modificação do tópico:** 2013-02-21_</span><span class="sxs-lookup"><span data-stu-id="2640f-103">_**Topic Last Modified:** 2013-02-21_</span></span>
+<span data-ttu-id="bc71d-104">_**Última modificação do tópico:** 2013-02-21_</span><span class="sxs-lookup"><span data-stu-id="bc71d-104">_**Topic Last Modified:** 2013-02-21_</span></span>
 
-<span data-ttu-id="2640f-104">A preparação da floresta cria configurações e objetos globais do Active Directory e grupos universais do Active Directory para uso pelo Lync Server 2013 e concede permissões de acesso adequadas nos objetos do Active Directory.</span><span class="sxs-lookup"><span data-stu-id="2640f-104">Forest preparation creates Active Directory global settings and objects and Active Directory universal groups for use by Lync Server 2013, and grants suitable access permissions on the Active Directory objects.</span></span> <span data-ttu-id="2640f-105">Para obter uma descrição dos grupos universais e das configurações globais e dos objetos criados pela preparação da floresta, confira [as alterações feitas pela preparação da floresta no Lync Server 2013](lync-server-2013-changes-made-by-forest-preparation.md).</span><span class="sxs-lookup"><span data-stu-id="2640f-105">For a description of the universal groups and the global settings and objects created by forest preparation, see [Changes made by forest preparation in Lync Server 2013](lync-server-2013-changes-made-by-forest-preparation.md).</span></span>
+<span data-ttu-id="bc71d-105">A preparação da floresta cria configurações e objetos globais do Active Directory e grupos universais do Active Directory para uso pelo Lync Server 2013 e concede permissões de acesso adequadas nos objetos do Active Directory.</span><span class="sxs-lookup"><span data-stu-id="bc71d-105">Forest preparation creates Active Directory global settings and objects and Active Directory universal groups for use by Lync Server 2013, and grants suitable access permissions on the Active Directory objects.</span></span> <span data-ttu-id="bc71d-106">Para obter uma descrição dos grupos universais e das configurações globais e dos objetos criados pela preparação da floresta, confira [as alterações feitas pela preparação da floresta no Lync Server 2013](lync-server-2013-changes-made-by-forest-preparation.md).</span><span class="sxs-lookup"><span data-stu-id="bc71d-106">For a description of the universal groups and the global settings and objects created by forest preparation, see [Changes made by forest preparation in Lync Server 2013](lync-server-2013-changes-made-by-forest-preparation.md).</span></span>
 
-<span data-ttu-id="2640f-106">A preparação da floresta também cria objetos que contêm conjuntos de propriedades e especificadores de exibição que são usados pelo Lync Server 2013 e os armazena no contêiner de configuração.</span><span class="sxs-lookup"><span data-stu-id="2640f-106">Forest preparation also creates objects that contain property sets and display specifiers that are used by Lync Server 2013, and stores them in the Configuration container.</span></span>
+<span data-ttu-id="bc71d-107">A preparação da floresta também cria objetos que contêm conjuntos de propriedades e especificadores de exibição que são usados pelo Lync Server 2013 e os armazena no contêiner de configuração.</span><span class="sxs-lookup"><span data-stu-id="bc71d-107">Forest preparation also creates objects that contain property sets and display specifiers that are used by Lync Server 2013, and stores them in the Configuration container.</span></span>
 
 <div>
 
 
 > [!IMPORTANT]  
-> <span data-ttu-id="2640f-107">Verifique se as alterações de preparação do esquema foram replicadas para todos os controladores de domínio antes de executar o procedimento de preparação da floresta.</span><span class="sxs-lookup"><span data-stu-id="2640f-107">Make sure that schema preparation changes have replicated to all domain controllers before performing the forest preparation procedure.</span></span> <span data-ttu-id="2640f-108">Se não for concluída a replicação, ocorrerá um erro.</span><span class="sxs-lookup"><span data-stu-id="2640f-108">If replication is not completed, an error occurs.</span></span>
+> <span data-ttu-id="bc71d-108">Verifique se as alterações de preparação do esquema foram replicadas para todos os controladores de domínio antes de executar o procedimento de preparação da floresta.</span><span class="sxs-lookup"><span data-stu-id="bc71d-108">Make sure that schema preparation changes have replicated to all domain controllers before performing the forest preparation procedure.</span></span> <span data-ttu-id="bc71d-109">Se não for concluída a replicação, ocorrerá um erro.</span><span class="sxs-lookup"><span data-stu-id="bc71d-109">If replication is not completed, an error occurs.</span></span>
 
 
 
 </div>
 
-<span data-ttu-id="2640f-109">Se você estiver executando uma nova implantação do Lync Server, deverá armazenar as configurações globais no contêiner de configuração.</span><span class="sxs-lookup"><span data-stu-id="2640f-109">If you are performing a new Lync Server deployment, you must store global settings in the Configuration container.</span></span> <span data-ttu-id="2640f-110">Se você estiver atualizando de uma versão anterior e ainda armazenar as configurações globais no contêiner do sistema, poderá continuar a usar o contêiner de sistema.</span><span class="sxs-lookup"><span data-stu-id="2640f-110">If you are upgrading from an earlier version and you still store global settings in the System container, you can continue to use the System container.</span></span>
+<span data-ttu-id="bc71d-110">Se você estiver executando uma nova implantação do Lync Server, deverá armazenar as configurações globais no contêiner de configuração.</span><span class="sxs-lookup"><span data-stu-id="bc71d-110">If you are performing a new Lync Server deployment, you must store global settings in the Configuration container.</span></span> <span data-ttu-id="bc71d-111">Se você estiver atualizando de uma versão anterior e ainda armazenar as configurações globais no contêiner do sistema, poderá continuar a usar o contêiner de sistema.</span><span class="sxs-lookup"><span data-stu-id="bc71d-111">If you are upgrading from an earlier version and you still store global settings in the System container, you can continue to use the System container.</span></span>
 
-<span data-ttu-id="2640f-111">Você deve ser membro do grupo Administração de Empresa ou Admins. do Domínio no domínio raiz da floresta para executar esse procedimento.</span><span class="sxs-lookup"><span data-stu-id="2640f-111">You must be a member of the Enterprise Admins or Domain Admins group for the forest root domain to perform this procedure.</span></span>
+<span data-ttu-id="bc71d-112">Você deve ser membro do grupo Administração de Empresa ou Admins. do Domínio no domínio raiz da floresta para executar esse procedimento.</span><span class="sxs-lookup"><span data-stu-id="bc71d-112">You must be a member of the Enterprise Admins or Domain Admins group for the forest root domain to perform this procedure.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="2640f-112">Nesta seção</span><span class="sxs-lookup"><span data-stu-id="2640f-112">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="bc71d-113">Nesta seção</span><span class="sxs-lookup"><span data-stu-id="bc71d-113">In This Section</span></span>
 
-  - [<span data-ttu-id="2640f-113">Executando a preparação da floresta para o Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2640f-113">Running forest preparation for Lync Server 2013</span></span>](lync-server-2013-running-forest-preparation.md)
+  - [<span data-ttu-id="bc71d-114">Executando a preparação da floresta para o Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="bc71d-114">Running forest preparation for Lync Server 2013</span></span>](lync-server-2013-running-forest-preparation.md)
 
-  - [<span data-ttu-id="2640f-114">Usando cmdlets para reverter a preparação da floresta para o Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2640f-114">Using cmdlets to reverse forest preparation for Lync Server 2013</span></span>](lync-server-2013-using-cmdlets-to-reverse-forest-preparation.md)
+  - [<span data-ttu-id="bc71d-115">Usando cmdlets para reverter a preparação da floresta para o Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="bc71d-115">Using cmdlets to reverse forest preparation for Lync Server 2013</span></span>](lync-server-2013-using-cmdlets-to-reverse-forest-preparation.md)
 
 </div>
 

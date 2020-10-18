@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: cmdlets de registrador e diretor'
+description: 'Lync Server 2013: cmdlets de registrador e diretor.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48183813
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b73528a29a88ee2196d9aa1c522b6d6cdb221a9f
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 7a0cd1775e2fc4e83e3507cbbea588b57550b8cb
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48536678"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48578597"
 ---
-# <a name="registrar-and-director-cmdlets-in-lync-server-2013"></a><span data-ttu-id="70d6f-102">Cmdlets de registradores e diretor no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="70d6f-102">Registrar and Director cmdlets in Lync Server 2013</span></span>
+# <a name="registrar-and-director-cmdlets-in-lync-server-2013"></a><span data-ttu-id="f4f9c-103">Cmdlets de registradores e diretor no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f4f9c-103">Registrar and Director cmdlets in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,58 +38,58 @@ ms.locfileid: "48536678"
 
 <span> </span>
 
-<span data-ttu-id="70d6f-103">_**Última modificação do tópico:** 2012-10-09_</span><span class="sxs-lookup"><span data-stu-id="70d6f-103">_**Topic Last Modified:** 2012-10-09_</span></span>
+<span data-ttu-id="f4f9c-104">_**Última modificação do tópico:** 2012-10-09_</span><span class="sxs-lookup"><span data-stu-id="f4f9c-104">_**Topic Last Modified:** 2012-10-09_</span></span>
 
-<span data-ttu-id="70d6f-p101">Registradores e Diretores são usados para autenticar solicitações de logon e manter informações sobre disponibilidade e status do usuário. Os cmdlets do Registrador e Diretor permitem gerenciar as configurações desses servidores.</span><span class="sxs-lookup"><span data-stu-id="70d6f-p101">Registrars and Directors are used to authenticate logon requests and to maintain information about user status and availability. The Registrar and Director cmdlets enable you to manage configuration settings for these servers.</span></span>
+<span data-ttu-id="f4f9c-p101">Registradores e Diretores são usados para autenticar solicitações de logon e manter informações sobre disponibilidade e status do usuário. Os cmdlets do Registrador e Diretor permitem gerenciar as configurações desses servidores.</span><span class="sxs-lookup"><span data-stu-id="f4f9c-p101">Registrars and Directors are used to authenticate logon requests and to maintain information about user status and availability. The Registrar and Director cmdlets enable you to manage configuration settings for these servers.</span></span>
 
 <div>
 
-## <a name="registrar-and-director-cmdlets"></a><span data-ttu-id="70d6f-106">Cmdlets do Registrador e Diretor</span><span class="sxs-lookup"><span data-stu-id="70d6f-106">Registrar and Director Cmdlets</span></span>
+## <a name="registrar-and-director-cmdlets"></a><span data-ttu-id="f4f9c-107">Cmdlets do Registrador e Diretor</span><span class="sxs-lookup"><span data-stu-id="f4f9c-107">Registrar and Director Cmdlets</span></span>
 
-<span data-ttu-id="70d6f-107">Veja a seguir uma lista de cmdlets que se relacionam diretamente com o gerenciamento de Registradores e Diretores:</span><span class="sxs-lookup"><span data-stu-id="70d6f-107">The following is a list of cmdlets that relate directly to managing Registrars and Directors:</span></span>
+<span data-ttu-id="f4f9c-108">Veja a seguir uma lista de cmdlets que se relacionam diretamente com o gerenciamento de Registradores e Diretores:</span><span class="sxs-lookup"><span data-stu-id="f4f9c-108">The following is a list of cmdlets that relate directly to managing Registrars and Directors:</span></span>
 
-<span data-ttu-id="70d6f-108">**Registradores e Directors**</span><span class="sxs-lookup"><span data-stu-id="70d6f-108">**Registrars and Directors**</span></span>
+<span data-ttu-id="f4f9c-109">**Registradores e Directors**</span><span class="sxs-lookup"><span data-stu-id="f4f9c-109">**Registrars and Directors**</span></span>
 
   - <span></span>  
-    <span data-ttu-id="70d6f-109">[Set-CsDirector](https://technet.microsoft.com/library/Gg398565(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="70d6f-109">[Set-CsDirector](https://technet.microsoft.com/library/Gg398565(v=OCS.15))</span></span>
+    <span data-ttu-id="f4f9c-110">[Set-CsDirector](https://technet.microsoft.com/library/Gg398565(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="f4f9c-110">[Set-CsDirector](https://technet.microsoft.com/library/Gg398565(v=OCS.15))</span></span>
 
 <!-- end list -->
 
   - <span></span>  
-    <span data-ttu-id="70d6f-110">[Reset-CsPoolRegistrarState](https://technet.microsoft.com/library/JJ619172(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="70d6f-110">[Reset-CsPoolRegistrarState](https://technet.microsoft.com/library/JJ619172(v=OCS.15))</span></span>
+    <span data-ttu-id="f4f9c-111">[Reset-CsPoolRegistrarState](https://technet.microsoft.com/library/JJ619172(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="f4f9c-111">[Reset-CsPoolRegistrarState](https://technet.microsoft.com/library/JJ619172(v=OCS.15))</span></span>
 
 <!-- end list -->
 
   - <span></span>  
-    <span data-ttu-id="70d6f-111">[Set-CsRegistrar](https://technet.microsoft.com/library/Gg398993(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="70d6f-111">[Set-CsRegistrar](https://technet.microsoft.com/library/Gg398993(v=OCS.15))</span></span>
+    <span data-ttu-id="f4f9c-112">[Set-CsRegistrar](https://technet.microsoft.com/library/Gg398993(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="f4f9c-112">[Set-CsRegistrar](https://technet.microsoft.com/library/Gg398993(v=OCS.15))</span></span>
 
 <!-- end list -->
 
   - <span></span>  
-    <span data-ttu-id="70d6f-112">[Get-CsRegistrarConfiguration](https://technet.microsoft.com/library/Gg398483(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="70d6f-112">[Get-CsRegistrarConfiguration](https://technet.microsoft.com/library/Gg398483(v=OCS.15))</span></span>
+    <span data-ttu-id="f4f9c-113">[Get-CsRegistrarConfiguration](https://technet.microsoft.com/library/Gg398483(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="f4f9c-113">[Get-CsRegistrarConfiguration](https://technet.microsoft.com/library/Gg398483(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="70d6f-113">[New-CsRegistrarConfiguration](https://technet.microsoft.com/library/Gg425893(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="70d6f-113">[New-CsRegistrarConfiguration](https://technet.microsoft.com/library/Gg425893(v=OCS.15))</span></span>
+    <span data-ttu-id="f4f9c-114">[New-CsRegistrarConfiguration](https://technet.microsoft.com/library/Gg425893(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="f4f9c-114">[New-CsRegistrarConfiguration](https://technet.microsoft.com/library/Gg425893(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="70d6f-114">[Remove-CsRegistrarConfiguration](https://technet.microsoft.com/library/Gg398482(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="70d6f-114">[Remove-CsRegistrarConfiguration](https://technet.microsoft.com/library/Gg398482(v=OCS.15))</span></span>
+    <span data-ttu-id="f4f9c-115">[Remove-CsRegistrarConfiguration](https://technet.microsoft.com/library/Gg398482(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="f4f9c-115">[Remove-CsRegistrarConfiguration](https://technet.microsoft.com/library/Gg398482(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="70d6f-115">[Set-CsRegistrarConfiguration](https://technet.microsoft.com/library/Gg398764(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="70d6f-115">[Set-CsRegistrarConfiguration](https://technet.microsoft.com/library/Gg398764(v=OCS.15))</span></span>
+    <span data-ttu-id="f4f9c-116">[Set-CsRegistrarConfiguration](https://technet.microsoft.com/library/Gg398764(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="f4f9c-116">[Set-CsRegistrarConfiguration](https://technet.microsoft.com/library/Gg398764(v=OCS.15))</span></span>
 
 <!-- end list -->
 
   - <span></span>  
-    <span data-ttu-id="70d6f-116">[Test-CsRegistration](https://technet.microsoft.com/library/Gg412737(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="70d6f-116">[Test-CsRegistration](https://technet.microsoft.com/library/Gg412737(v=OCS.15))</span></span>
+    <span data-ttu-id="f4f9c-117">[Test-CsRegistration](https://technet.microsoft.com/library/Gg412737(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="f4f9c-117">[Test-CsRegistration](https://technet.microsoft.com/library/Gg412737(v=OCS.15))</span></span>
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="70d6f-117">Confira também</span><span class="sxs-lookup"><span data-stu-id="70d6f-117">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="f4f9c-118">Confira também</span><span class="sxs-lookup"><span data-stu-id="f4f9c-118">See Also</span></span>
 
 
-[<span data-ttu-id="70d6f-118">Blog do PowerShell do Lync Server</span><span class="sxs-lookup"><span data-stu-id="70d6f-118">Lync Server PowerShell Blog</span></span>](https://go.microsoft.com/fwlink/p/?linkid=203150)  
+[<span data-ttu-id="f4f9c-119">Blog do PowerShell do Lync Server</span><span class="sxs-lookup"><span data-stu-id="f4f9c-119">Lync Server PowerShell Blog</span></span>](https://go.microsoft.com/fwlink/p/?linkid=203150)  
   
 
 </div>

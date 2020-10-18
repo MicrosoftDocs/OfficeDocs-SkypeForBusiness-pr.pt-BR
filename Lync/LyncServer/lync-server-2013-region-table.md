@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: tabela Region'
+description: 'Lync Server 2013: tabela Region.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48183518
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d48217ff0daa62a8f528829b85620e173626ca06
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 544827434808a0277438984c420fcc39cd1b02a8
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48536718"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48578617"
 ---
-# <a name="region-table-in-lync-server-2013"></a><span data-ttu-id="40092-102">Tabela Region no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="40092-102">Region table in Lync Server 2013</span></span>
+# <a name="region-table-in-lync-server-2013"></a><span data-ttu-id="623a4-103">Tabela Region no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="623a4-103">Region table in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,9 +38,9 @@ ms.locfileid: "48536718"
 
 <span> </span>
 
-<span data-ttu-id="40092-103">_**Última modificação do tópico:** 2010-11-09_</span><span class="sxs-lookup"><span data-stu-id="40092-103">_**Topic Last Modified:** 2010-11-09_</span></span>
+<span data-ttu-id="623a4-104">_**Última modificação do tópico:** 2010-11-09_</span><span class="sxs-lookup"><span data-stu-id="623a4-104">_**Topic Last Modified:** 2010-11-09_</span></span>
 
-<span data-ttu-id="40092-p101">A tabela Regions é uma tabela de suporte. Cada registro representa um país ou uma região definida na configuração de rede.</span><span class="sxs-lookup"><span data-stu-id="40092-p101">The Region table is a supporting table. Each record represents one country/region defined in network configuration setting.</span></span>
+<span data-ttu-id="623a4-p101">A tabela Regions é uma tabela de suporte. Cada registro representa um país ou uma região definida na configuração de rede.</span><span class="sxs-lookup"><span data-stu-id="623a4-p101">The Region table is a supporting table. Each record represents one country/region defined in network configuration setting.</span></span>
 
 
 <table>
@@ -51,24 +52,24 @@ ms.locfileid: "48536718"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="40092-106"><strong>Coluna</strong></span><span class="sxs-lookup"><span data-stu-id="40092-106"><strong>Column</strong></span></span></th>
-<th><span data-ttu-id="40092-107"><strong>Tipo de dados</strong></span><span class="sxs-lookup"><span data-stu-id="40092-107"><strong>Data Type</strong></span></span></th>
-<th><span data-ttu-id="40092-108"><strong>Chave/índice</strong></span><span class="sxs-lookup"><span data-stu-id="40092-108"><strong>Key/Index</strong></span></span></th>
-<th><span data-ttu-id="40092-109"><strong>Detalhes</strong></span><span class="sxs-lookup"><span data-stu-id="40092-109"><strong>Details</strong></span></span></th>
+<th><span data-ttu-id="623a4-107"><strong>Coluna</strong></span><span class="sxs-lookup"><span data-stu-id="623a4-107"><strong>Column</strong></span></span></th>
+<th><span data-ttu-id="623a4-108"><strong>Tipo de dados</strong></span><span class="sxs-lookup"><span data-stu-id="623a4-108"><strong>Data Type</strong></span></span></th>
+<th><span data-ttu-id="623a4-109"><strong>Chave/índice</strong></span><span class="sxs-lookup"><span data-stu-id="623a4-109"><strong>Key/Index</strong></span></span></th>
+<th><span data-ttu-id="623a4-110"><strong>Detalhes</strong></span><span class="sxs-lookup"><span data-stu-id="623a4-110"><strong>Details</strong></span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="40092-110"><strong>RegionKey</strong></span><span class="sxs-lookup"><span data-stu-id="40092-110"><strong>RegionKey</strong></span></span></p></td>
-<td><p><span data-ttu-id="40092-111">int</span><span class="sxs-lookup"><span data-stu-id="40092-111">int</span></span></p></td>
-<td><p><span data-ttu-id="40092-112">Primário</span><span class="sxs-lookup"><span data-stu-id="40092-112">Primary</span></span></p></td>
-<td><p><span data-ttu-id="40092-113">Número exclusivo de identificação de país/região.</span><span class="sxs-lookup"><span data-stu-id="40092-113">Unique number identifying the country/region.</span></span></p></td>
+<td><p><span data-ttu-id="623a4-111"><strong>RegionKey</strong></span><span class="sxs-lookup"><span data-stu-id="623a4-111"><strong>RegionKey</strong></span></span></p></td>
+<td><p><span data-ttu-id="623a4-112">int</span><span class="sxs-lookup"><span data-stu-id="623a4-112">int</span></span></p></td>
+<td><p><span data-ttu-id="623a4-113">Primário</span><span class="sxs-lookup"><span data-stu-id="623a4-113">Primary</span></span></p></td>
+<td><p><span data-ttu-id="623a4-114">Número exclusivo de identificação de país/região.</span><span class="sxs-lookup"><span data-stu-id="623a4-114">Unique number identifying the country/region.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="40092-114"><strong>RegionName</strong></span><span class="sxs-lookup"><span data-stu-id="40092-114"><strong>RegionName</strong></span></span></p></td>
-<td><p><span data-ttu-id="40092-115">nvarchar(128</span><span class="sxs-lookup"><span data-stu-id="40092-115">nvarchar(128)</span></span></p></td>
-<td><p><span data-ttu-id="40092-116">Diferente</span><span class="sxs-lookup"><span data-stu-id="40092-116">Unique</span></span></p></td>
-<td><p><span data-ttu-id="40092-117">O nome do país/região.</span><span class="sxs-lookup"><span data-stu-id="40092-117">The name of the country/region.</span></span></p></td>
+<td><p><span data-ttu-id="623a4-115"><strong>RegionName</strong></span><span class="sxs-lookup"><span data-stu-id="623a4-115"><strong>RegionName</strong></span></span></p></td>
+<td><p><span data-ttu-id="623a4-116">nvarchar(128</span><span class="sxs-lookup"><span data-stu-id="623a4-116">nvarchar(128)</span></span></p></td>
+<td><p><span data-ttu-id="623a4-117">Diferente</span><span class="sxs-lookup"><span data-stu-id="623a4-117">Unique</span></span></p></td>
+<td><p><span data-ttu-id="623a4-118">O nome do país/região.</span><span class="sxs-lookup"><span data-stu-id="623a4-118">The name of the country/region.</span></span></p></td>
 </tr>
 </tbody>
 </table>

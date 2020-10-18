@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: New-CsAddressBookConfiguration para gerenciamento de catálogo de endereços'
+description: 'Lync Server 2013: New-CsAddressBookConfiguration para gerenciamento de catálogo de endereços.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48184985
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 88c2cbeb3ff4b9f75a0bce77543e8094ba8a7a89
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: c85d85fefe701456ad253f1afc69b73093b30996
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48508828"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48578947"
 ---
-# <a name="new-csaddressbookconfiguration-for-address-book-management-in-lync-server-2013"></a><span data-ttu-id="0f5f8-102">New-CsAddressBookConfiguration para gerenciamento de catálogo de endereços no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="0f5f8-102">New-CsAddressBookConfiguration for Address Book management in Lync Server 2013</span></span>
+# <a name="new-csaddressbookconfiguration-for-address-book-management-in-lync-server-2013"></a><span data-ttu-id="79b19-103">New-CsAddressBookConfiguration para gerenciamento de catálogo de endereços no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="79b19-103">New-CsAddressBookConfiguration for Address Book management in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,24 +38,24 @@ ms.locfileid: "48508828"
 
 <span> </span>
 
-<span data-ttu-id="0f5f8-103">_**Última modificação do tópico:** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="0f5f8-103">_**Topic Last Modified:** 2012-11-01_</span></span>
+<span data-ttu-id="79b19-104">_**Última modificação do tópico:** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="79b19-104">_**Topic Last Modified:** 2012-11-01_</span></span>
 
-<span data-ttu-id="0f5f8-p101">Quem pode executar este cmdlet: por padrão, os membros do grupo a seguir estão autorizados a executar o cmdlet New-CsAddressBookConfiguration localmente: RTCUniversalServerAdmins. Para retornar uma lista de todas as funções RBAC (controle de acesso baseado em função) que receberam a atribuição desse cmdlet (incluindo qualquer função RBAC personalizada criada por você), execute o seguinte comando no prompt do Windows PowerShell:</span><span class="sxs-lookup"><span data-stu-id="0f5f8-p101">Who can run this cmdlet: By default, members of the following groups are authorized to run the New-CsAddressBookConfiguration cmdlet locally: RTCUniversalServerAdmins. To return a list of all the role-based access control (RBAC) roles this cmdlet has been assigned to (including any custom RBAC roles you have created yourself), run the following command from the Windows PowerShell prompt:</span></span>
+<span data-ttu-id="79b19-p101">Quem pode executar este cmdlet: por padrão, os membros do grupo a seguir estão autorizados a executar o cmdlet New-CsAddressBookConfiguration localmente: RTCUniversalServerAdmins. Para retornar uma lista de todas as funções RBAC (controle de acesso baseado em função) que receberam a atribuição desse cmdlet (incluindo qualquer função RBAC personalizada criada por você), execute o seguinte comando no prompt do Windows PowerShell:</span><span class="sxs-lookup"><span data-stu-id="79b19-p101">Who can run this cmdlet: By default, members of the following groups are authorized to run the New-CsAddressBookConfiguration cmdlet locally: RTCUniversalServerAdmins. To return a list of all the role-based access control (RBAC) roles this cmdlet has been assigned to (including any custom RBAC roles you have created yourself), run the following command from the Windows PowerShell prompt:</span></span>
 
     Get-CsAdminRole | Where-Object {$_.Cmdlets -match "New-CsAddressBookConfiguration"}
 
-<span data-ttu-id="0f5f8-p102">O cmdlet New-CsAddressBookConfiguration cria uma nova configuração para gerenciar o comportamento do catálogo de Endereços. A capacidade de definir se o Serviço do Catálogo de Endereços cria os arquivos de download de clientes, como e se regras de normalização são usadas, por quanto tempo manter arquivos delta e arquivos delta compactados, o tamanho de arquivos delta antes de incorporar a criação de um novo arquivo completo, em que momento do dia o Catálogo de Endereços de arquivo completo é criado e quais internos devem ser para a sincronização de informações no banco de dados do Usuário são tarefas específicas a este cmdlet.</span><span class="sxs-lookup"><span data-stu-id="0f5f8-p102">The New-CsAddressBookConfiguration cmdlet creates a new configuration to manage the behavior of the Address book. Specific to this cmdlet is the ability to define if the Address Book Service creates the client download files, how and if normalization rules are used, how long to retain delta and compact delta files, delta file size before incorporating a new full file creation, what time of day the full file Address Book is created, and what the internal should be for synchronization of information in the User database.</span></span>
+<span data-ttu-id="79b19-p102">O cmdlet New-CsAddressBookConfiguration cria uma nova configuração para gerenciar o comportamento do catálogo de Endereços. A capacidade de definir se o Serviço do Catálogo de Endereços cria os arquivos de download de clientes, como e se regras de normalização são usadas, por quanto tempo manter arquivos delta e arquivos delta compactados, o tamanho de arquivos delta antes de incorporar a criação de um novo arquivo completo, em que momento do dia o Catálogo de Endereços de arquivo completo é criado e quais internos devem ser para a sincronização de informações no banco de dados do Usuário são tarefas específicas a este cmdlet.</span><span class="sxs-lookup"><span data-stu-id="79b19-p102">The New-CsAddressBookConfiguration cmdlet creates a new configuration to manage the behavior of the Address book. Specific to this cmdlet is the ability to define if the Address Book Service creates the client download files, how and if normalization rules are used, how long to retain delta and compact delta files, delta file size before incorporating a new full file creation, what time of day the full file Address Book is created, and what the internal should be for synchronization of information in the User database.</span></span>
 
-<span data-ttu-id="0f5f8-108">Por exemplo:</span><span class="sxs-lookup"><span data-stu-id="0f5f8-108">For example:</span></span>
+<span data-ttu-id="79b19-109">Por exemplo:</span><span class="sxs-lookup"><span data-stu-id="79b19-109">For example:</span></span>
 
     New-CsAddressBookConfiguration -Identity site:Redmond -KeepDuration 15 -SynchronizePollingInterval 00:10:00
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="0f5f8-109">Consulte também</span><span class="sxs-lookup"><span data-stu-id="0f5f8-109">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="79b19-110">Consulte também</span><span class="sxs-lookup"><span data-stu-id="79b19-110">See Also</span></span>
 
 
-[<span data-ttu-id="0f5f8-110">New-CsAddressBookConfiguration</span><span class="sxs-lookup"><span data-stu-id="0f5f8-110">New-CsAddressBookConfiguration</span></span>](https://docs.microsoft.com/powershell/module/skype/New-CsAddressBookConfiguration)  
+[<span data-ttu-id="79b19-111">New-CsAddressBookConfiguration</span><span class="sxs-lookup"><span data-stu-id="79b19-111">New-CsAddressBookConfiguration</span></span>](https://docs.microsoft.com/powershell/module/skype/New-CsAddressBookConfiguration)  
   
 
 </div>
