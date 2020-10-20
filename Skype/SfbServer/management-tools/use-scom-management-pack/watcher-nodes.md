@@ -15,11 +15,11 @@ ms.collection: IT_Skype16
 ms.assetid: 7392e4f8-6e2d-447b-aaa3-878f73995f9d
 description: 'Resumo: instalar e configurar nós do inspetor para transações sintéticas do Skype for Business Server.'
 ms.openlocfilehash: 8efe291f72312b7634ae644d0e910cf58951b7a6
-ms.sourcegitcommit: b72bf3827e7145b9b6a95c84e88a7879c6e8c337
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/12/2020
-ms.locfileid: "46640937"
+ms.lasthandoff: 10/19/2020
+ms.locfileid: "48599919"
 ---
 # <a name="install-and-configure-watcher-nodes"></a>Instalar e configurar nós do Inspetor
  
@@ -27,7 +27,7 @@ ms.locfileid: "46640937"
   
 Os nós do Inspetor são computadores que executam periodicamente as transações sintéticas do Skype for Business Server. As transações sintéticas são cmdlets do Windows PowerShell que verificam se os principais cenários de usuário, como a capacidade de entrar ou para trocar mensagens instantâneas, estão funcionando conforme o esperado. Para o Skype for Business Server 2015, o System Center Operations Manager pode executar as transações sintéticas mostradas na tabela a seguir, que inclui três tipos de transações sintéticas:
   
-- **Padrão** Transações sintéticas que um nó do Inspetor executa por padrão. Ao criar um novo nó do Inspetor, você pode especificar quais transações sintéticas esse nó executará. (Esse é o objetivo do parâmetro tests usado pelo cmdlet New-CsWatcherNodeConfiguration.) Se você não usar o parâmetro tests quando o nó do Inspetor for criado, ele executará automaticamente todas as transações sintéticas padrão e não executará qualquer uma das transações sintéticas não padrão. Isso significa, por exemplo, que o nó do Inspetor será configurado para executar o teste Test-CsAddressBookService, mas não será configurado para executar o teste Test-CsExumConnectivity.
+- **Padrão** Transações sintéticas que um nó do Inspetor executa por padrão. Ao criar um novo nó do Inspetor, você pode especificar quais transações sintéticas esse nó executará. (Esse é o objetivo do parâmetro tests usado pelo cmdlet New-CsWatcherNodeConfiguration.) Se você não usar o parâmetro tests quando o nó do Inspetor for criado, ele executará automaticamente todas as transações sintéticas padrão e não executará qualquer uma das transações sintéticas não padrão. Isso significa, por exemplo, que o nó do Inspetor será configurado para executar o teste de Test-CsAddressBookService, mas não será configurado para executar o teste de Test-CsExumConnectivity.
     
 - **Não padrão** Testes que os nós do inspetor não são executados por padrão. (Para obter detalhes, consulte a descrição do tipo padrão.) No entanto, o nó do Inspetor pode ser habilitado para executar qualquer uma das transações sintéticas não padrão. Você pode fazer isso ao criar o nó do Inspetor (usando o cmdlet New-CsWatcherNodeConfiguration) ou a qualquer momento depois que o nó do Inspetor tiver sido criado. Observe que muitas das transações sintéticas não padrão exigem etapas de configuração adicionais. Para obter mais detalhes sobre essas etapas, consulte [instruções de configuração especial para transações sintéticas](test-users-and-settings.md#special_synthetictrans).
     
@@ -43,7 +43,7 @@ As transações sintéticas disponíveis para os nós do inspetor incluem as seg
 |Test-CsAddressBookWebQuery (ABWQ)  <br/> |Confirma se os usuários podem pesquisar usuários que não estão em sua lista de contatos via HTTP.  <br/> |
 |Test-CsAVConference (AvConference)  <br/> |Confirma se os usuários podem criar e participar de uma conferência de áudio/vídeo.  <br/> |
 |Test-CsGroupIM (conferência de mensagens instantâneas)  <br/> |Confirma se os usuários podem enviar mensagens instantâneas em conferências e participar de conversas de mensagem instantânea com três ou mais pessoas.  <br/> |
-|Test-CsIM (mensagens instantâneas P2P)  <br/> |Confirma se os usuários podem enviar mensagens instantâneas ponto a ponto.  <br/> |
+|Test-CsIM (MENSAGENS INSTANTÂNEAS P2P)  <br/> |Confirma se os usuários podem enviar mensagens instantâneas ponto a ponto.  <br/> |
 |Test-CsP2PAV (P2PAV)  <br/> |Confirma se os usuários podem realizar chamadas de áudio ponto a ponto (apenas sinalização).  <br/> |
 |Test-CsPresence (Presence)  <br/> |Confirma se os usuários podem exibir a presença de outros usuários.  <br/> |
 |Test-CsRegistration (Registration)  <br/> |Confirma se os usuários podem entrar no Skype for Business.  <br/> |
@@ -123,7 +123,7 @@ Get-CsWatcherNodeConfiguration
   
 Se seu computador do nó do observador estiver localizado dentro de sua rede de perímetro, você poderá executar o comando a seguir para verificar a instalação do Skype for Business Server 2015:
   
-O Get-CsPinPolicyYou receberá informações semelhantes a estas, dependendo do número de políticas de PIN configuradas para uso na organização:
+Get-CsPinPolicyYou receberá informações parecidas com isso, dependendo do número de políticas de PIN configuradas para uso na organização:
   
 Identity: global
   
@@ -254,7 +254,7 @@ O modo TrustedServer pode ser usado apenas com computadores que estejam dentro d
 
 Se o computador do nó do observador estiver fora da rede de perímetro, você deverá seguir um procedimento levemente diferente para configurar esse nó do inspetor para executar as transações sintéticas: em particular, você não deve criar um pool de aplicativos confiável ou um aplicativo confiável. Isso significa que você precisará concluir as próximas duas tarefas.
   
-### <a name="update-membership-in-the-rtc-local-read-only-administrators-group"></a>Atualizar a associação no grupo de administradores locais somente leitura RTC
+### <a name="update-membership-in-the-rtc-local-read-only-administrators-group"></a>Atualizar a associação no grupo de administradores locais do Read-Only RTC
 
 Se o nó do Inspetor estiver fora da rede de perímetro, você deve adicionar a conta de serviço de rede ao grupo de administradores locais somente leitura RTC no computador do nó do Inspetor, concluindo o seguinte procedimento no nó do inspetor:
   

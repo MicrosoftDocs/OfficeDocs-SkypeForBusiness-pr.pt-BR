@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: Saiba qual escrivaninha e telefones de conferências são certificados para que o Microsoft Teams produza os melhores resultados.
-ms.openlocfilehash: 922ca79f5f3083dd57dc1bae6941a1d4dff0e2ad
-ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
+ms.openlocfilehash: b598e55ec130876b0b3ae8d52f1283fa596b2ebc
+ms.sourcegitcommit: 96febfae562d604d9affc60028975881f5d6fb7c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/17/2020
-ms.locfileid: "48552727"
+ms.lasthandoff: 10/20/2020
+ms.locfileid: "48599536"
 ---
 # <a name="ip-phones-certified-for-microsoft-teams"></a>Telefones IP certificados para o Microsoft Teams
 
@@ -97,9 +97,9 @@ Ao instalar uma nova versão de firmware em seu dispositivo, você pode determin
 | AudioCodes C448HD   | C450HD_TEAMS_1.7.9   | Atualizar #6                |
 | AudioCodes C450HD   | C450HD_TEAMS_1.7.9   | Atualizar #6                |
 |Exibição ThinkSmart do Lenovo|CD-18781Y. 200922.098 | Atualizar #6                |
-| CCX400 de Polyline         | 6.2.21.1198          | Atualizar #5                |
-| CCX500/CCX600  | 6.2.21.1198          | Atualizar #5                |
-| C60 de Polyline trio       | 5.9.5.2686           | Atualizar #5                |
+| CCX400 de Polyline         | 6.2.22.0185          | Atualizar #6                |
+| CCX500/CCX600  | 6.2.22.0185          | Atualizar #6                |
+| C60 de Polyline trio       | 5.9.5.2983           | Atualizar #6                |
 | Yealink T55/T56/T58 | 58.15.0.116          | Atualizar #6                |
 | Yealink MP56        | 122.15.0.23          | Atualizar #6                |
 | Yealink VP59        | 91.15.0.48           | Atualizar #6                |

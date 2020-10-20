@@ -17,12 +17,12 @@ f1.keywords:
 localization_priority: Normal
 search.appverid: MET150
 description: Saiba como gerenciar o acesso a aplicativos da plataforma de alimentação no centro de administração do Microsoft Teams.
-ms.openlocfilehash: 74bfabaff0ec7ed5f27c08ac86b325164d9dad10
-ms.sourcegitcommit: af9f96010460f9323db84912fe143aa0750ac798
+ms.openlocfilehash: a380a7d8803fc32393f5c99c576cb304e563c296
+ms.sourcegitcommit: 96febfae562d604d9affc60028975881f5d6fb7c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/21/2020
-ms.locfileid: "48171433"
+ms.lasthandoff: 10/20/2020
+ms.locfileid: "48599546"
 ---
 # <a name="manage-power-platform-apps-in-the-microsoft-teams-admin-center"></a>Gerenciar aplicativos da plataforma de energia no centro de administração do Microsoft Teams
 
@@ -78,6 +78,13 @@ Para permitir ou bloquear usuários específicos em sua organização de acessar
 Por exemplo, para bloquear usuários específicos que acessam aplicativos criados em aplicativos de energia, crie uma política de permissão de aplicativo personalizada para bloquear os **aplicativos de energia compartilhados**e atribuir a política a esses usuários.
 
 :::image type="content" source="media/manage-power-platform-apps-app-permissions-policy.png" alt-text="Captura de tela do exemplo de política de permissão de aplicativo personalizada com aplicativos de energia compartilhados bloqueados":::
+
+### <a name="use-audit-logs-to-investigate-power-platform-installation-activity"></a>Usar logs de auditoria para investigar a atividade de instalação da plataforma de energia
+
+Você pode usar logs de auditoria para Teams para investigar eventos em que os usuários instalaram aplicativos da plataforma de energia na seção de aplicativos **criados por seus colegas** da página aplicativos no Microsoft Teams. Para fazer isso, [pesquise o log de auditoria](https://docs.microsoft.com/microsoftteams/audit-log-events) para o evento Teams do **app instalado** (na operação **AppInstalled** ) para um determinado usuário ou conjunto de usuários. Para localizar aplicativos instalados na seção **desenvolvido por seus colegas** , procure o valor **TemplatedInstance** sob a propriedade **AppDistributionMode** nos detalhes de um determinado registro. 
+
+> [!NOTE]
+> Você pode exportar registros de auditoria em formato CSV para facilitar a filtragem.
 
 ## <a name="related-topics"></a>Tópicos relacionados
 
