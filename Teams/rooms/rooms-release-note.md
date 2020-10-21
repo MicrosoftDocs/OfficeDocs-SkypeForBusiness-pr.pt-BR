@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 description: O administrador pode ler as notas de versão para salas do Microsoft Teams, que lista melhorias cumulativas nas salas do Microsoft Teams.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: ba230d25251535a6c32b65d57fe84ed6d791e7fd
-ms.sourcegitcommit: 3b54a56ec1fe4366580621e19cdbb6a833a01161
+ms.openlocfilehash: 7c8f81988525431615f83576f30b6ad809f08806
+ms.sourcegitcommit: 619b68d28b4fbf8b5296d95bbc7ed566f839f1db
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "48361491"
+ms.lasthandoff: 10/20/2020
+ms.locfileid: "48625117"
 ---
 # <a name="release-notes"></a>Notas de versão
 
@@ -29,6 +29,7 @@ Este artigo discute melhorias cumulativas nas salas do Microsoft Teams.
 
 |Liberação |Publicado em <br/> Microsoft Store |
 |--- |--- |
+|4.6.23.0 |10/19/2020 |
 |4.6.20.0 |09/30/2020 |
 |4.5.37.0 |08/14/2020 |
 |4.5.35.0 |07/23/2020 |
@@ -67,6 +68,11 @@ Este artigo discute melhorias cumulativas nas salas do Microsoft Teams.
 |RTM (1.0.8) |12/7/2016 |
 
 ## <a name="microsoft-teams-rooms-feature-introduction-and-issue-resolution"></a>Introdução ao recurso salas do Microsoft Teams e resolução de problemas
+
+### <a name="46230-10192020"></a>4.6.23.0 (10/19/2020)
+
+Apresentado nesta atualização:
+- Correção para metade branca da tela ao invocar o teclado virtual na reunião do teams
 
 ### <a name="46200-09302020"></a>4.6.20.0 (09/30/2020)
 
@@ -346,7 +352,7 @@ Apresentado nesta atualização:
 
 Apresentado nesta atualização:
 
-- Suporte a tela dupla (para paridade do sistema herdado)
+- Suporte a Dual-Screen (para paridade do sistema herdado)
 - Temas (temas internos e a capacidade de definir o tema personalizado)
 - Capacidade de enviar comentários para compilações públicas
 - Telemetria aprimorada em relação à confiabilidade da junção de reunião

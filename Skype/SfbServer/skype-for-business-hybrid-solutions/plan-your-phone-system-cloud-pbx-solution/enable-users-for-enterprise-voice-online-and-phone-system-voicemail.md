@@ -19,12 +19,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 28daebcb-c2dc-4338-b2d1-04345ece9c19
 description: Saiba como habilitar os serviços de voz do sistema de telefonia para seus usuários do Skype for Business.
-ms.openlocfilehash: ed5e571976a032facc70b2e602d4b0ea7fd01afc
-ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
+ms.openlocfilehash: 76fbc20b11c0ec91685479d768b88abf71b65d21
+ms.sourcegitcommit: 619b68d28b4fbf8b5296d95bbc7ed566f839f1db
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "47359177"
+ms.lasthandoff: 10/20/2020
+ms.locfileid: "48625107"
 ---
 # <a name="enable-users-for-enterprise-voice-online-and-phone-system-voicemail"></a>Habilitar os usuários do Enterprise Voice online e da Caixa Postal do Sistema de Telefone
  
@@ -41,14 +41,18 @@ Para habilitar um usuário para voz e caixa postal do sistema de telefonia, voc�
   
 ### <a name="to-enable-your-users-for-phone-system-voice-and-voicemail"></a>Para habilitar os usuários para voz e caixa postal do sistema de telefonia
 
-1. Antes de começar, verifique se o conector do Skype for Business online (módulo do Windows PowerShell) está implantado em seus servidores front-end. Caso contrário, você pode baixá-lo do [centro de download](https://www.microsoft.com/download/details.aspx?id=39366). Você pode encontrar mais informações sobre como usar esse módulo em [Configurando o computador para o gerenciamento do Skype for Business online](https://technet.microsoft.com/library/dn362839%28v=ocs.15%29.aspx).
+> [!NOTE]
+> O conector do Skype for Business online atualmente faz parte do módulo mais recente do PowerShell do teams.
+> Se você estiver usando a versão pública mais recente do [PowerShell do teams](https://www.powershellgallery.com/packages/MicrosoftTeams/), não será necessário instalar o conector do Skype for Business online.
+
+1. Antes de começar, verifique se o módulo do teams PowerShell está instalado em seus servidores front-end. Caso contrário, instale usando as instruções na [instalação do módulo do teams PowerShell](https://docs.microsoft.com/microsoftteams/teams-powershell-install).
     
 2. Inicie o Windows PowerShell como administrador.
     
 3. Digite o seguinte e pressione ENTER:
     
    ```powershell
-   Import-Module skypeonlineconnector
+   Import-Module MicrosoftTeams
    ```
 
 4. Digite o seguinte e pressione ENTER:

@@ -15,12 +15,12 @@ localization_priority: Normal
 f1.keywords:
 - NOCSH
 description: Veja quais periféricos e dispositivos USB, como fones de ouvido com microfone, telefones-voz, webcams e monitores, são certificados para o Microsoft Teams.
-ms.openlocfilehash: 446518d9221cd9f484b47f3f098d95db3997dd3d
-ms.sourcegitcommit: a043bde507a9f6747fdd2063dd085edb3c1d6c3c
+ms.openlocfilehash: 94cad46104cd3c9c225abeac673d9ad17130b801
+ms.sourcegitcommit: 619b68d28b4fbf8b5296d95bbc7ed566f839f1db
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/12/2020
-ms.locfileid: "48427686"
+ms.lasthandoff: 10/20/2020
+ms.locfileid: "48625097"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>Dispositivos de áudio e vídeo USB certificados para o Microsoft Teams
 
@@ -74,10 +74,12 @@ Se você for um fabricante e quiser participar do programa de certificação, co
 
 ## <a name="certified-devices"></a>Dispositivos certificados
 
-*Tabela atualizada em agosto de 2020*
+*Tabela atualizada em outubro de 2020*
 
 | Fabricante        | Modelo                                                     | Qualificação      | Programa certificado                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
+|EPOS/Sennheiser      |MB pro 1                                                   |10/2/2020       |Skype for Business com atualização para o Microsoft Teams      |
+|EPOS/Sennheiser      |MB Pro 2                                                   |10/2/2020       |Skype for Business com atualização para o Microsoft Teams      |
 |Jabra                |Desenvolvimento de fone de ouvido com microfone 80                                          |8/23/2020       |Skype for Business com atualização para o Microsoft Teams      |
 |Jabra                |Desenvolvimento de fone de ouvido com microfone 40                                          |8/23/2020       |Skype for Business com atualização para o Microsoft Teams      |
 |Jabra                |Desenvolvimento de fone de ouvido com 30 II                                       |8/23/2020       |Skype for Business com atualização para o Microsoft Teams      |
