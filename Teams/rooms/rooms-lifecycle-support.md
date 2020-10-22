@@ -14,12 +14,12 @@ f1.keywords:
 localization_priority: Normal
 description: Saiba mais sobre o suporte do ciclo de vida para salas do Microsoft Teams, incluindo a estrutura de suporte dinâmico e suas fases.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: bd4640df6b4512b5f5b4707a1423c78ae6deea49
-ms.sourcegitcommit: fd7d5ba09ef30cf4594e352c36f62b950e0e41a6
+ms.openlocfilehash: 17e1dcd3c473b31754ac29d98db04747798d581f
+ms.sourcegitcommit: 3a577c07b4f399c81d8650a2bba8cfc00b695b49
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "48336979"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48650914"
 ---
 # <a name="microsoft-teams-rooms-app-version-support"></a>Suporte à versão do aplicativo salas do Microsoft Teams
  
@@ -38,7 +38,7 @@ Todas as versões estão listadas nas [notas de versão das salas do Microsoft T
 
 ## <a name="windows-10-release-support"></a>Suporte para versões do Windows 10
 
-As salas do Microsoft Teams exigem as SKUs Windows 10 IoT Enterprise ou Windows 10 Enterprise em opções de serviços de canal semestral. Não há suporte para essas outras edições do Windows 10:
+As salas do Microsoft Teams exigem as SKUs Windows 10 IoT Enterprise ou Windows 10 Enterprise em opções de serviço de canal de Semi-Annual. Não há suporte para essas outras edições do Windows 10:
 
 - As edições do Windows 10 Enterprise (corporativo)/canal de serviço de longo prazo (LTSC)
 - Edições do Windows 10 corporativo/LTSC do Windows 10 para empresas
@@ -53,7 +53,8 @@ A tabela a seguir mostra as versões recomendadas e com suporte do Windows 10 qu
 
 |Versão  |Data de disponibilidade   |Status de suporte de salas do Microsoft Teams   |Sala mínima de salas do Microsoft Teams versão do aplicativo | Build do sistema operacional recomendado  |
 |:---  |:---       |:---                                  |:---     |:---     |
-| 2004 |2020-05-27 |Em validação, <br/>Não recomendado|&#x2014; |19041,264 |
+| 20H2 |2020-10-20 |Em validação, <br/>Ainda não tem suporte|&#x2014; |19042,572 |
+| 2004 |2020-05-27 |Ignorada <br/> Não recomendado|&#x2014; |19041,264 |
 | 1909 |2019-11-12 |Suporte <br/>Recomendado |4.5.33.0 |18363,418  |
 | 1903 |2019-05-21 |Com suporte  |4.2.4.0 |18362,356 |
 | 1809 |2019-03-28 |Sem suporte, <br/>Problemas de compatibilidade conhecidos &#x2780;|&#x2014; |&#x2014; |

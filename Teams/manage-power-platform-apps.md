@@ -17,12 +17,12 @@ f1.keywords:
 localization_priority: Normal
 search.appverid: MET150
 description: Saiba como gerenciar o acesso a aplicativos da plataforma de alimentação no centro de administração do Microsoft Teams.
-ms.openlocfilehash: a380a7d8803fc32393f5c99c576cb304e563c296
-ms.sourcegitcommit: 96febfae562d604d9affc60028975881f5d6fb7c
+ms.openlocfilehash: 687d8df929150cdc38795a13ba06687ed7e42b2b
+ms.sourcegitcommit: 3a577c07b4f399c81d8650a2bba8cfc00b695b49
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "48599546"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48650954"
 ---
 # <a name="manage-power-platform-apps-in-the-microsoft-teams-admin-center"></a>Gerenciar aplicativos da plataforma de energia no centro de administração do Microsoft Teams
 
@@ -32,7 +32,7 @@ Este artigo fornece uma visão geral de como gerenciar aplicativos da [plataform
 
 Os [aplicativos de energia](https://powerapps.microsoft.com) são um ambiente de desenvolvimento de aplicativos de código e sem código baixo que os facilitadores da sua organização podem usar para criar aplicativos personalizados que se conectam aos seus dados corporativos. [Os agentes de energia virtual](https://docs.microsoft.com/power-virtual-agents/fundamentals-what-is-power-virtual-agents) são um ambiente de construção sem código-código para que Makers criem bots avançados. Com a integração dos aplicativos da plataforma de energia ao Microsoft Teams, as organizações podem simplificar os processos de negócios, atender às mudanças nas necessidades dos negócios com mais rapidez para aumentar a colaboração e criar e compartilhar soluções personalizadas para serem mais produtivas.  
 
-Os aplicativos da plataforma de energia criados por Makers em sua organização são adicionados automaticamente ao Teams. Os Makers podem controlar quem pode acessar o aplicativo usando o [recurso de compartilhamento em aplicativos de energia](https://docs.microsoft.com/powerapps/maker/canvas-apps/share-app) e o [recurso de compartilhamento em agentes de energia virtual](https://docs.microsoft.com/power-virtual-agents/admin-share-bots). 
+Os aplicativos da plataforma de energia criados por Makers em sua organização são adicionados automaticamente ao Teams. Os Makers podem controlar quem pode acessar o aplicativo usando o [recurso de compartilhamento em aplicativos de energia](https://docs.microsoft.com/powerapps/maker/canvas-apps/share-app) e o [recurso de compartilhamento em agentes de energia virtual](https://docs.microsoft.com/power-virtual-agents/admin-share-bots).
 
 Quando um aplicativo da plataforma de energia é criado ou compartilhado, os usuários podem exibi-lo e instalá-lo na página de aplicativos indo para ** *o nome de sua organização***  >  **criado por seus colegas**. (Pode levar alguns minutos depois que um aplicativo é criado ou compartilhado para que o aplicativo seja exibido aqui).
 
@@ -77,11 +77,13 @@ Para permitir ou bloquear usuários específicos em sua organização de acessar
 
 Por exemplo, para bloquear usuários específicos que acessam aplicativos criados em aplicativos de energia, crie uma política de permissão de aplicativo personalizada para bloquear os **aplicativos de energia compartilhados**e atribuir a política a esses usuários.
 
-:::image type="content" source="media/manage-power-platform-apps-app-permissions-policy.png" alt-text="Captura de tela do exemplo de política de permissão de aplicativo personalizada com aplicativos de energia compartilhados bloqueados":::
+:::image type="content" source="media/manage-power-platform-apps-app-permission-policy.png" alt-text="Captura de tela do exemplo de política de permissão de aplicativo personalizada com aplicativos de energia compartilhados bloqueados":::
 
 ### <a name="use-audit-logs-to-investigate-power-platform-installation-activity"></a>Usar logs de auditoria para investigar a atividade de instalação da plataforma de energia
 
-Você pode usar logs de auditoria para Teams para investigar eventos em que os usuários instalaram aplicativos da plataforma de energia na seção de aplicativos **criados por seus colegas** da página aplicativos no Microsoft Teams. Para fazer isso, [pesquise o log de auditoria](https://docs.microsoft.com/microsoftteams/audit-log-events) para o evento Teams do **app instalado** (na operação **AppInstalled** ) para um determinado usuário ou conjunto de usuários. Para localizar aplicativos instalados na seção **desenvolvido por seus colegas** , procure o valor **TemplatedInstance** sob a propriedade **AppDistributionMode** nos detalhes de um determinado registro. 
+Você pode usar logs de auditoria para Teams para investigar eventos em que os usuários instalaram aplicativos da plataforma de energia na seção de aplicativos **criados por seus colegas** da página aplicativos no Microsoft Teams. Para fazer isso, [pesquise o log de auditoria](https://docs.microsoft.com/microsoftteams/audit-log-events) para o evento app Teams **instalado** (na operação **AppInstalled** ) para um usuário ou conjunto de usuários. Para localizar aplicativos instalados de **criados por seus colegas**, procure o valor **TemplatedInstance** na propriedade **AppDistributionMode** nos detalhes de um determinado registro. 
+
+:::image type="content" source="media/manage-power-platform-apps-audit.png" alt-text="Captura de tela do valor TemplatedInstance na propriedade AppDistributionMode":::
 
 > [!NOTE]
 > Você pode exportar registros de auditoria em formato CSV para facilitar a filtragem.

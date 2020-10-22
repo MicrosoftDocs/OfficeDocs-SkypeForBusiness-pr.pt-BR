@@ -18,16 +18,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bbb03fc030361419e5f42b2e792e752f2007e6d2
-ms.sourcegitcommit: 762e303509940f830c304e00a98b05796bf5537f
+ms.openlocfilehash: 026b7f238b059b4e310fa2216b482c68f2528780
+ms.sourcegitcommit: 3a577c07b4f399c81d8650a2bba8cfc00b695b49
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "48333487"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48650974"
 ---
 # <a name="export-content-with-the-microsoft-teams-export-apis"></a>Exportar conteúdo com as APIs de exportação do Microsoft Teams
 
-As APIs de exportação do teams permitem que você exporte o 1:1 e mensagens de chat em grupo do Microsoft Teams. Se a sua organização precisa exportar mensagens do Microsoft Teams, você pode poder extraí-las usando as APIs de exportação do teams. *Mensagem de chat* representa uma mensagem de chat individual em um [canal](https://docs.microsoft.com/graph/api/resources/channel?view=graph-rest-beta) ou [chat](https://docs.microsoft.com/graph/api/resources/chat?view=graph-rest-beta). A mensagem de chat pode ser uma mensagem de chat raiz ou parte de um thread de resposta que é definido pela propriedade **replyToId** na mensagem de chat.
+As APIs de exportação do teams permitem que você exporte o 1:1 e mensagens de chat em grupo do Microsoft Teams. Se a sua organização precisar exportar mensagens do Microsoft Teams, você poderá extraí-las usando as APIs de exportação do teams. *Mensagem de chat* representa uma mensagem de chat individual em um [canal](https://docs.microsoft.com/graph/api/resources/channel?view=graph-rest-beta) ou [chat](https://docs.microsoft.com/graph/api/resources/chat?view=graph-rest-beta). A mensagem de chat pode ser uma mensagem de chat raiz ou parte de um thread de resposta que é definido pela propriedade **replyToId** na mensagem de chat.
 
 Veja a seguir alguns exemplos de como você pode usar essas APIs de exportação:
 

@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: Saiba como habilitar o roteamento direto do sistema de usuários do Microsoft Phone System.
-ms.openlocfilehash: f89133b5205dc77f8045c484b97d3049773c28e2
-ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
+ms.openlocfilehash: 5739797649c639e3259c6972da665ae0ced4b4bf
+ms.sourcegitcommit: 0a9c5c01b37a93eecc369ca0ed49ae18f6a5065b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/15/2020
-ms.locfileid: "47814540"
+ms.lasthandoff: 10/22/2020
+ms.locfileid: "48655478"
 ---
 # <a name="enable-users-for-direct-routing-voice-and-voicemail"></a>Habilite os usuários para roteamento direto, voz e correio de voz
 
@@ -91,7 +91,7 @@ Para adicionar o número de telefone e habilitar o correio de voz:
 2. Execute o comando: 
  
     ```PowerShell
-    Set-CsUser -Identity "<User name>" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true -OnPremLineURI tel:<E.164 phone number>
+    Set-CsUser -Identity "<User name>" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true -OnPremLineURI tel:<phone number>
     ```
     
     Por exemplo, para adicionar um número de telefone para o usuário "Spencer baixo", digite o seguinte: 
@@ -99,9 +99,18 @@ Para adicionar o número de telefone e habilitar o correio de voz:
     ```PowerShell
     Set-CsUser -Identity "spencer.low@contoso.com" -OnPremLineURI tel:+14255388797 -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
     ```
+    Se os usuários "Spencer baixo" e "Stacy Quinn" compartilharem o mesmo número base com extensões exclusivas, insira o seguinte
+    
+    ```PowerShell
+    Set-CsUser -Identity "spencer.low@contoso.com" -OnPremLineURI tel:+14255388701;ext=1001 -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
+    Set-CsUser -Identity "stacy.quinn@contoso.com" -OnPremLineURI tel:+14255388701;ext=1002 -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
+    ```
 
-    O número de telefone usado deve ser configurado como um número de telefone completo E. 164 com código de país. 
-
+    É recomendável, mas não obrigatório, que o número de telefone usado é configurado como um número de telefone E. 164 completo com código de país. Ele tem suporte para configurar números de telefone com extensões que serão usadas para pesquisar usuários quando a pesquisa do número base retornar mais de um resultado. Isso permite que as empresas configurem números de telefone com o mesmo número base e ramais exclusivos. Para que a pesquisa seja bem-sucedida, o convite deve incluir o número completo com extensão da seguinte maneira:
+    ```PowerShell
+    To: <sip:+14255388701;ext=1001@sbc1.adatum.biz
+    ```
+    
     > [!NOTE]
     > Se o número de telefone do usuário for gerenciado localmente, use o Shell de gerenciamento do Skype for Business local ou o painel de controle para configurar o número de telefone do usuário. 
 

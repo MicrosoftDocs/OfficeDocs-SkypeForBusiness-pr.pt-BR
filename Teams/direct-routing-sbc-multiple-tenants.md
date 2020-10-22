@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: Saiba como configurar um SBC (controlador de borda de sessão) para atender a vários locatários para parceiros da Microsoft e/ou operadoras PSTN.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 91ca12f3e0d9720800ad9b0bcf946df8d31b3e86
-ms.sourcegitcommit: 34f407a6a40317056005e3bf38ce58f792c04810
+ms.openlocfilehash: 64647330104735c92ebac8439fc264e1411a60a1
+ms.sourcegitcommit: 0a9c5c01b37a93eecc369ca0ed49ae18f6a5065b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "46814237"
+ms.lasthandoff: 10/22/2020
+ms.locfileid: "48655518"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>Configurar um controlador de borda da sessão para vários locatários
 
@@ -62,7 +62,7 @@ Para ver as etapas detalhadas sobre como implantar e configurar o SBCs para um c
 - **Oracle:** [notas de configuração de roteamento direto](https://www.oracle.com/technetwork/indexes/documentation/acme-packet-2228107.html), a configuração do cenário de Hospedagem de SBC é descrita na seção "Microsoft". 
 - **Comunicações da faixa**  de opções:  Consulte o guia de [configuração do Microsoft Teams SBC da faixa de opções do Microsoft Teams](https://support.sonus.net/display/IOT/PBXs+-+SBC+5k7kSWe) para obter a documentação sobre como configurar a faixa de opções da faixa de opções SBCS e para esta página de [práticas recomendadas de roteamento direto do Microsoft Teams](https://support.sonus.net/display/UXDOC81/Connect+SBC+Edge+to+Microsoft+Teams+Direct+Routing+to+Support+Direct+Routing+Carrier)
 - **SMS (anynode):**  Registre-se na [página da comunidade de SMS](https://community.te-systems.de/) para obter documentação e exemplos sobre como configurar o SBC anynode para vários locatários.
-- **Metaswitch:**  Registre-se na [página da Comunidade metaswitch](https://sso.metaswitch.com/UI/Login) para obter a documentação sobre como habilitar o SBC Perimeta para vários locatários.
+- **Metaswitch:**  Registre-se na [página da Comunidade metaswitch](https://manuals.metaswitch.com/MAN39555) para obter a documentação sobre como habilitar o SBC Perimeta para vários locatários.
 
 > [!NOTE]
 > Preste atenção em como configurar o cabeçalho "contato". O cabeçalho do contato é usado para localizar o locatário do cliente na mensagem de convite de entrada. 
@@ -87,7 +87,7 @@ O diagrama a seguir resume os requisitos para o domínio base, subdomínios e ca
 
 ![Diagrama mostrando os requisitos para domínios e cabeçalho de contato](media/direct-routing-1-sbc-requirements.png)
 
-O SBC exige um certificado para autenticar as conexões. Para o cenário de hospedagem SBC, a transportadora precisa solicitar um certificado com SAN * \* . base_domain (por exemplo, \* . Customers.adatum.biz)*. Esse certificado pode ser usado para autenticar conexões para vários locatários servidos a partir de um único SBC.
+O SBC exige um certificado para autenticar as conexões. Para o cenário de hospedagem SBC, a transportadora precisa solicitar um certificado com o * \* .base_domain San (por exemplo, \* . Customers.adatum.biz)*. Esse certificado pode ser usado para autenticar conexões para vários locatários servidos a partir de um único SBC.
 
 
 A tabela a seguir é um exemplo de uma configuração.
@@ -220,7 +220,7 @@ No entanto, isso não provou ideal por dois motivos:
 Com base nesses comentários, a Microsoft está trazendo uma nova lógica para provisionar os troncos para os locatários do cliente.
 
 Duas novas entidades foram introduzidas:
--    Um tronco de portadora registrado no locatário da operadora usando o comando New-CSOnlinePSTNGateway, por exemplo, New-CSOnlinePSTNGateway-FQDN customers.adatum.biz-SIPSignalingport 5068-ForwardPAI $true.
+-    Um tronco de transportadora registrado no locatário da transportadora usando o comando New-CSOnlinePSTNGateway, por exemplo New-CSOnlinePSTNGateway-FQDN customers.adatum.biz-SIPSignalingport 5068-ForwardPAI $true.
 
 -    Um tronco derivado, que não exige registro. É simplesmente um nome de host desejado adicionado do tronco da transportadora. Ele deriva todos os parâmetros de configuração do tronco da transportadora. O tronco derivado não precisa ser criado no PowerShell, e a associação com o tronco da transportadora é baseada no nome FQDN (veja os detalhes abaixo).
 

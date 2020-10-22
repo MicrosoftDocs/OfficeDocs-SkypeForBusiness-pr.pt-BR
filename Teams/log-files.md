@@ -16,12 +16,12 @@ search.appverid: MET150
 description: Saiba mais sobre registros de depuração, mídia e desktop produzidos pelo Microsoft Teams, onde podem ser encontrados e como eles podem ajudar na resolução de problemas.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 468f0f67743f7cd0e11ff28e4484f70a71af3b64
-ms.sourcegitcommit: 67c686810d37bffda72a6e92155d9c8ec86bfae6
+ms.openlocfilehash: 2ff24ddb8aaf63b539959119138aebf2f5d4e81f
+ms.sourcegitcommit: 3a577c07b4f399c81d8650a2bba8cfc00b695b49
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/15/2020
-ms.locfileid: "47766755"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48650824"
 ---
 <a name="use-log-files-in-troubleshooting-microsoft-teams"></a>Usar arquivos de registro para solucionar problemas no Microsoft Teams
 =================================================
@@ -90,11 +90,11 @@ Os registros de depuração serão baixados automaticamente nas seguintes pastas
 <a name="media-logs"></a>Registros de mídia
 ---------------------------
 
-Os logs de mídia contêm dados de diagnóstico sobre áudio, vídeo e compartilhamento de tela em reuniões do teams. Eles são necessários para casos de suporte apenas mediante solicitação e só podem ser inspecionados pela Microsoft. 
+Os logs de mídia contêm dados de diagnóstico sobre áudio, vídeo e compartilhamento de tela em reuniões do teams. Elas são necessárias para casos de suporte vinculados a problemas relacionados a chamadas.
 
-O log de mídia está desativado por padrão. Para registrar dados de diagnóstico para reuniões do Teams, os usuários devem ativar a opção no cliente do teams. Vá para **configurações**  >  **geral**, marque a caixa de seleção **habilitar o registro em log para diagnóstico de reunião (requer a reinicialização de equipes**) e reinicie o Microsoft Teams.
+O log de mídia está desativado por padrão. Para registrar dados de diagnóstico para reuniões do Teams, os usuários devem ativar a opção no cliente do teams. Vá para **configurações**  >  **geral**, marque a caixa de seleção **habilitar o registro em log para diagnóstico de reunião (requer a reinicialização de equipes**) e reinicie o Microsoft Teams e reproduza o problema. 
 
-A tabela a seguir descreve os locais dos logs.
+A tabela a seguir descreve os locais do log de mídia. Ao enviar os arquivos de log para o suporte da Microsoft, verifique o carimbo de data/hora dos arquivos de log para garantir que os logs cubram o intervalo de tempo quando você reproduziu o problema.
 
 |Cliente |Localização |
 |---------|---------|
@@ -143,4 +143,3 @@ Linux
 ## <a name="related-topics"></a>Tópicos relacionados
 
 [Solução de problemas do Teams](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)
-

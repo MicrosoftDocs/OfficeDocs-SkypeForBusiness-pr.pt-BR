@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2905fe25d3051f322630d75473597e69425e2dc0
-ms.sourcegitcommit: df1eca90090c29eaaf7fd79bd8cc84c556f12b1e
+ms.openlocfilehash: a158850a70a0410c9be7cb434d6f0868d68218f5
+ms.sourcegitcommit: 0a9c5c01b37a93eecc369ca0ed49ae18f6a5065b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/12/2020
-ms.locfileid: "48424701"
+ms.lasthandoff: 10/22/2020
+ms.locfileid: "48655498"
 ---
 # <a name="use-general-teams-templates-in-the-admin-center"></a>Usar modelos gerais do teams no centro de administração
 
@@ -44,8 +44,8 @@ Para saber mais sobre os modelos de equipe em geral, confira [introdução aos m
 
 Centralize a colaboração para sua equipe de crise nas unidades de negócios e ajude a criar planos de continuidade de negócios, compartilhar dicas de trabalho remotas, acompanhar a comunicação do cliente e manter todos em um círculo com anúncios e notícias.
 
-| Tipo de modelo base |baseTemplateId | Propriedades que vêm com este modelo base |
-| ------------------ |--|----------------------------------------------------- |
+| Tipo de modelo base |baseTemplateId| Propriedades que vêm com este modelo base |
+| ------------------ |--|----------------------------------------------------------|
 | Colaborar em uma crise global ou em um evento |`com.microsoft.teams.template.CollaborateOnAGlobalCrisisOrEvent` |Canais <ul><li>Geral<li>Comunicados</li><li>Notícias do mundo</li><li>Continuidade de negócios</li><li>Trabalho remoto</li><li>Comms internas</li><li>Comentários externos</li><li>Reclamações do cliente</li><li>Parabéns</li><li>Atualização executiva</li></ul>Aplicativo <ul><li>Elogia</li><li>Wiki</li><li>Site</li></ul>|
 ||||
 
@@ -53,17 +53,17 @@ Centralize a colaboração para sua equipe de crise nas unidades de negócios e 
 
 Ajude a criar, expandir e sustentar a distribuição da sua comunidade de especialistas por divulgar e ajudar seus colegas com a nova tecnologia.
 
-| Tipo de modelo base |baseTemplateId | Propriedades que vêm com este modelo base |
-| ------------------|-- |----------------------------------------------------- |
-| Adotar o Office 365 | `com.microsoft.teams.template.AdoptOffice365` |  Canais <ul><li>Geral</li> <li>Comunicados</li> <li>Canto dos Campeões</li> <li>Formulários de equipe</li></ul> Aplicativo <ul><li>Wiki</li>  <li>Calendário</li> |Li><li>Desenvolvimento de habilidades</li><li>Processamento de empréstimos</li><li>Reclamações do cliente</li><li>Parabéns</li><li>Coisas divertidas</li><li>Conformidade</li></ul>|
+| Tipo de modelo base |baseTemplateId| Propriedades que vêm com este modelo base |
+| ------------------|--|-----------------------------------------------------------|
+| Adotar o Office 365 | `com.microsoft.teams.template.AdoptOffice365` |  Canais <ul><li>Geral</li> <li>Comunicados</li> <li>Canto dos Campeões</li> <li>Formulários de equipe</li></ul> Aplicativo <ul><li>Wiki</li>  <li>Calendário</li><li>Desenvolvimento de habilidades</li><li>Processamento de empréstimos</li><li>Reclamações do cliente</li><li>Parabéns</li><li>Coisas divertidas</li><li>Conformidade</li></ul>|
 ||||
 
 ## <a name="manage-a-project"></a>Gerenciar um projeto
 
 Gerenciar tarefas, compartilhar documentos, conduzir reuniões de projetos e documentar riscos e decisões com este modelo para gerenciamento geral de projetos.
 
-| Tipo de modelo base| baseTemplateId | Propriedades que vêm com este modelo base |
-| ------------------|-- |----------------------------------------------------- |
+| Tipo de modelo base| baseTemplateId| Propriedades que vêm com este modelo base |
+| ------------------|--|-----------------------------------------------------------|
 | Gerenciar um projeto| com. Microsoft. Teams. Template. ManageAProject  | Canais <ul><li>Geral</li> <li>Comunicados</li> <li>Recursos</li> <li>Planejamento</li></ul> Aplicativo<ul><li>Wiki</li><li>OneNote</li></ul> |
 ||||
 
@@ -74,7 +74,7 @@ Gerenciar tarefas, documentos e colaborar em tudo o que você precisa para forne
 Talvez você não tenha acesso a determinados aplicativos com base na política de permissão do aplicativo.
 
 | Tipo de modelo base | baseTemplateId| Propriedades que vêm com este modelo base |
-| ------------------ |--|----------------------------------------------------- |
+| ------------------ |--|-----------------------------------------------------------|
 | Gerenciar um evento| `com.microsoft.teams.template.ManageAnEvent` | Canais <ul><li>Geral</li> <li>Comunicados</li> <li>Orçamento</li> <li>Conteúdo</li><li>Logística</li> <li>Planejamento</li> <li> Marketing e PR</li></ul> Aplicativo<ul><li>Wiki</li><li>Site</li> <li>YouTube</li> <li>Planner</li> <li>OneNote</li></ul> |
 ||||
 
@@ -82,8 +82,8 @@ Talvez você não tenha acesso a determinados aplicativos com base na política 
 
 Melhore sua cultura e simplifique seu funcionário a integrar-se a essa equipe central para recursos, perguntas e um pouco de diversão.
 
-| Tipo de modelo base |baseTemplateId | Propriedades que vêm com este modelo base |
-| ------------------|- |----------------------------------------------------- |
+| Tipo de modelo base |baseTemplateId| Propriedades que vêm com este modelo base |
+| ------------------|--|-----------------------------------------------------------|
 |Funcionários onboard|`com.microsoft.teams.template.OnboardEmployees`  | Canais <ul><li>Geral</li> <li>Comunicados</li> <li>Chat de funcionários</li> <li>Treinamento</li></ul>Aplicativo<ul><li>Wiki</li><li>Às</li></ul>|
 ||||
 
@@ -91,7 +91,7 @@ Melhore sua cultura e simplifique seu funcionário a integrar-se a essa equipe c
 
 Colabore na documentação, na política e nos processos que dão suporte à assistência técnica. Integre seu sistema de tíquete existente ou use nosso modelo para gerenciar solicitações.
 
-| Tipo de modelo base | | Propriedades que vêm com este modelo base |
-| ------------------|-- |----------------------------------------------------- |
+| Tipo de modelo base |baseTemplateId| Propriedades que vêm com este modelo base |
+| ------------------|--|------------------------------------------------------------|
 |Organizar o Help Desk|`com.microsoft.teams.template.OrganizeHelpDesk`| Canais<ul><li>Geral</li><li>Comunicados</li><li>Perguntas frequentes</li></ul>Aplicativo<ul><li>Wiki</li><li>OneNote</li></ul> |
 ||||
