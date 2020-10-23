@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a57c54fcd90787048cc357a71296f942cacdef43
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: 2b9145854008753cf5c0d1f5915096766689c68b
+ms.sourcegitcommit: 1db39fde090809d9abc6d7346dda55814d88993a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46583440"
+ms.lasthandoff: 10/23/2020
+ms.locfileid: "48739239"
 ---
 # <a name="manage-microsoft-teams-settings-for-your-organization"></a>Gerencie as configurações do Microsoft Teams para sua organização 
 
@@ -97,6 +97,10 @@ A pesquisa de diretório no escopo do Microsoft Teams usa a APB (política de ca
 - Sua escola quer limitar os chats entre professores e alunos. 
 
 **Ative** essa configuração para ativar as pesquisas de diretório no escopo.
+
+### <a name="skype-for-business"></a>Skype for Business
+
+Use essa página para gerenciar os recursos do Skype for Business para usuários do Skype for Business na sua organização. Para obter mais informações, confira [Gerenciar as configurações do Skype for Business do centro de Administração do Microsoft Teams](skype-for-business-settings.md).
 
 ### <a name="teams-upgrade"></a>Atualização do Microsoft Teams
 
