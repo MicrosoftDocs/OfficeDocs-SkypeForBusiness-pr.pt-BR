@@ -15,12 +15,12 @@ description: Crie uma estratégia de gerenciamento de alterações para o Micros
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 15bf9c37dd205cb95133f157a6b9fe9cc2549f2a
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: a65e60923414618fc19f43e81fb2b2a085b0978b
+ms.sourcegitcommit: 1db39fde090809d9abc6d7346dda55814d88993a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46581782"
+ms.lasthandoff: 10/23/2020
+ms.locfileid: "48739089"
 ---
 <a name="create-a-change-management-strategy-for-microsoft-teams"></a>Criar uma estratégia de gerenciamento de mudanças para o Microsoft Teams
 =======================================================
@@ -40,7 +40,7 @@ Boas práticas de gerenciamento de mudanças para os Teams:
     a.  Materiais de conscientização interna, como pôsteres, painéis digitais e eventos.
 
     b.  Informações de autoajuda e treinamentos em um só local
-    
+
     c.  Um mecanismo de comentário definido
 
     d.  Medidas predefinidas de sucesso (adoção de solução, visualização dos principais materiais, presença em cursos)
@@ -58,7 +58,7 @@ Boas práticas de gerenciamento de mudanças para os Teams:
 
 A primeira regra de uma adoção bem-sucedida é criar uma equipe dinâmica composta pelos principais participantes e pessoas certas capazes de motivar e produzir mudanças em outras. Uma estratégia de adoção bem-sucedida começa com uma equipe de indivíduos comprometidos que representam uma seção transversal da sua organização. As funções dos participantes incluem um patrocinador executivo, proprietários de serviços, profissionais de TI e defensores.
 
-|  |  |
+|Icon  |Descrição  |
 |---------|---------|
 |![Ícone de patrocinadores executivos.](media/Create_a_change_management_strategy_for_Microsoft_Teams_image1.png)     |Os **Patrocinadores executivos** são líderes importantes dentro da organização e a participação deles é essencial para direcionar a adoção pelos funcionários. Eles têm a maior influência na cultura da empresa e conseguem comunicar ativamente o valor e os benefícios de uma nova tecnologia e de um novo caminho.         |
 |![Ícone de proprietários de serviço.](media/Create_a_change_management_strategy_for_Microsoft_Teams_image2.png)     |Os **proprietários de serviços** são responsáveis por garantir que as pessoas usem o serviço e obtenham valor dele. A configuração de proprietários de serviço em sua organização é importante para garantir que as metas comerciais definidas para o Microsoft 365 ou o Office 365 sejam concretizadas.         |

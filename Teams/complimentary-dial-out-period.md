@@ -23,12 +23,12 @@ ms.custom:
 - Legal
 - seo-marvel-mar2020
 description: Saiba mais sobre o período de discagem gratuita do plano de chamadas do Microsoft 365 ou do Office 365 e do Office 365 audioconferência no Microsoft Teams.
-ms.openlocfilehash: 11788e00b1fa643f18beaca2b339a1770c6cd909
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 842e496b242237bfc67b1adead73afd0a3653ddd
+ms.sourcegitcommit: 1db39fde090809d9abc6d7346dda55814d88993a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44690887"
+ms.lasthandoff: 10/23/2020
+ms.locfileid: "48739249"
 ---
 # <a name="audio-conferencing-complimentary-dial-out-period"></a>Período complementar de discagem de audioconferência
 
@@ -68,7 +68,7 @@ Para obter informações adicionais sobre créditos de comunicação, consulte [
 
 **Região para países e regiões**
 
-|    |
+|País    |
 |-----|
 |Austrália  <br/> |
 |Áustria  <br/> |
@@ -116,4 +116,4 @@ Para obter informações adicionais sobre créditos de comunicação, consulte [
 |Estados Unidos  <br/> |
      
 ## <a name="related-topics"></a>Tópicos relacionados
-[Disponibilidade da Audioconferência e dos Planos de Chamadas por país e região](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
+[Disponibilidade de audioconferência e Planos de Chamadas por país e região](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)

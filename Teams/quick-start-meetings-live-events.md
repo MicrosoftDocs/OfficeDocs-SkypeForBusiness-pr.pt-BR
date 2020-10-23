@@ -17,12 +17,12 @@ localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 14fffe2d50d2bca7ad5026a2d4d59518e9c3763c
-ms.sourcegitcommit: 26dc4ca6aacf4634b1dbe1bfbd97aa17f8cb7dd5
+ms.openlocfilehash: 64465bd50c189bc2e2d6fab820c3693f2c404210
+ms.sourcegitcommit: 1db39fde090809d9abc6d7346dda55814d88993a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48235839"
+ms.lasthandoff: 10/23/2020
+ms.locfileid: "48739389"
 ---
 # <a name="admin-quick-start---meetings-and-live-events-in-microsoft-teams"></a>Início rápido do administrador – reuniões e eventos ao vivo no Microsoft Teams
 
@@ -31,10 +31,9 @@ Há duas maneiras de se reunir no Microsoft Teams – reuniões e eventos ao viv
 > [!Note]
 > Para saber mais sobre configuração rápida de reuniões e eventos do Teams em diferentes plataformas, confira [recursos do Teams por plataforma](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3).
 
- - As **Reuniões** no Teams incluem áudio, vídeo e compartilhamento de tela para até 300* pessoas. Elas são uma das principais maneiras de colaboração no Teams. E não é necessário ser membro de uma organização (nem mesmo ter uma conta do Teams!) para participar de uma reunião do Teams – basta verificar no convite as instruções sobre como ingressar.
+ - As **Reuniões** no Teams incluem áudio, vídeo e compartilhamento de tela para até 300 pessoas. Elas são uma das principais maneiras de colaboração no Teams. E não é necessário ser membro de uma organização (nem mesmo ter uma conta do Teams!) para participar de uma reunião do Teams – basta verificar no convite as instruções sobre como ingressar.
 
  - Os **eventos ao vivo** são uma extensão das reuniões do Teams e permitem agendar e produzir eventos que podem ser transmitidos para grandes públicos online – até 10.000 pessoas. Se você precisar de uma reunião para mais de 300 pessoas, use um evento ao vivo.
-<br><br>**Observação:** para o Teams Governamental (GCC, GCC Alta, DoD), o limite ainda é 250. Atualizaremos este artigo quando o limite de nuvem governamental aumentar de 250 para 300. Consulte [Limites e Especificações](limits-specifications-teams.md) para obter as informações mais recentes sobre os limites de reunião das equipes.
 
 ## <a name="get-licenses-for-meetings-and-live-events"></a>Obter licenças para reuniões e eventos ao vivo
 

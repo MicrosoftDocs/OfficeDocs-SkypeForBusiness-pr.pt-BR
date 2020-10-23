@@ -19,12 +19,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f95a38727a886187e6bf01b0a4ec64e5546b627d
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: eed9ec99445c2f632f1443343b7076aadfbb70a8
+ms.sourcegitcommit: 1db39fde090809d9abc6d7346dda55814d88993a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44689647"
+ms.lasthandoff: 10/23/2020
+ms.locfileid: "48739039"
 ---
 <a name="quick-start-guide-configuring-calling-plans-in-microsoft-teams"></a>Guia de Início Rápido: como configurar Planos de Chamadas no Microsoft Teams
 ==============================================================
@@ -71,8 +71,9 @@ Para garantir que as chamadas VOIP e PSTN de entrada sejam sempre chamadas para 
 ### <a name="how-to-configure-users-to-receive-all-incoming-voip-and-pstn-calls-in-teams"></a>Como configurar os usuários para receber todas as chamadas VOIP e PSTN de entrada no Microsoft Teams
 Para garantir que os usuários recebam todas as chamadas VOIP e PSTN de entrada no Teams, defina o modo de coexistência do usuário como TeamsOnly no centro de administração do Microsoft Teams ou use a sessão remota do Windows PowerShell do Skype for Business para atualizar o TeamsUpgradePolicy da seguinte maneira:
 
-    Grant-CsTeamsUpgradePolicy -PolicyName UpgradeToTeams -Identity user@contoso.com
-
+```powershell
+Grant-CsTeamsUpgradePolicy -PolicyName UpgradeToTeams -Identity user@contoso.com
+```
 
 ## <a name="see-also"></a>Confira também
 [Configurar Planos de Chamadas](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/set-up-calling-plans)

@@ -19,12 +19,12 @@ localization_priority: Normal
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: e12509f8a8b2bf43b98cb7c0dba387aa1e92383b
-ms.sourcegitcommit: 682566e51a9e5f0fc65540535c7dcdcbd38e04c4
+ms.openlocfilehash: 295bee65120e3c349efe1aa5fbc1e7b42c8da87a
+ms.sourcegitcommit: 1db39fde090809d9abc6d7346dda55814d88993a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "45429363"
+ms.lasthandoff: 10/23/2020
+ms.locfileid: "48739379"
 ---
 # <a name="microsoft-teams-apps-permissions-and-considerations"></a>Permissões e considerações dos aplicativos Microsoft Teams
 
@@ -40,7 +40,7 @@ Os aplicativos são aceitos pelos usuários e gerenciados pela TI a partir de um
 As permissões listadas abaixo em maiúsculas, por exemplo, RECEIVE_MESSAGE e REPLYTO_MESSAGE, não aparece em nenhum lugar da [documentação do desenvolvedor do Microsoft Teams](https://aka.ms/teamsdevdocs) nem no [Gráfico de permissões da Microsoft](https://developer.microsoft.com/graph/docs/concepts/permissions_reference). São somente uma abreviação descritiva para o propósito deste artigo.
 
 
-|    |     |
+| Título   | Descrição    |
 |-----------|------------|
 | ![Um ícone representando um ponto de decisão](media/audio_conferencing_image7.png) <br/>Ponto de decisão|<ul><li>Use as tabelas a seguir como um guia para entender quais permissões os aplicativos que você está investigando estão solicitando.</li></ul> |
 | ![Um ícone representando o passo seguinte](media/audio_conferencing_image9.png)<br/>Próxima etapa|<ul><li>Pesquise o aplicativo ou o próprio serviço para decidir se deseja permitir o acesso a ele dentro da sua organização. Por exemplo, os bots enviam e recebem mensagens de usuários e, exceto para os bots personalizados da empresa, eles estão localizados fora do limite de conformidade. Portanto, qualquer aplicativo que inclua um bot requer essas permissões e tem esse perfil de risco, no mínimo. </li></ul>|

@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: af369a04836fd12c032f468324bbaf920417878d
-ms.sourcegitcommit: 3a577c07b4f399c81d8650a2bba8cfc00b695b49
+ms.openlocfilehash: 859e16ca4ffce26dc85eb117812cd9f1b1e201e0
+ms.sourcegitcommit: 1db39fde090809d9abc6d7346dda55814d88993a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48650964"
+ms.lasthandoff: 10/23/2020
+ms.locfileid: "48739329"
 ---
 # <a name="introduction-to-teams-policy-based-recording-for-callings--meetings"></a>Introdução à gravação baseada em políticas de equipe para chamadas & reuniões
 
@@ -50,7 +50,7 @@ Casos de uso de gravação de interação podem ser efetivamente separados em qu
 
 Cada uma das categorias envolve diferentes requisitos para a forma como as gravações são iniciadas, o que é gravado, em que as gravações são armazenadas, quem é notificado, quem controla o acesso e como a retenção é manipulada.
 
-|                        | Transtorno        | Funcional         | Org-geral      | Regulamentado pela organização | Interceptação legal   |
+| Tipo                   | Transtorno        | Funcional         | Org-geral      | Regulamentado pela organização | Interceptação legal   |
 | ---------------------- | ------------------ | ------------------ | ------------------ | --------------- | ------------------ |
 | Inicia              | Usuário               | Aplicativo/solução       | Administrador (sistema)     | Administrador (sistema)  | LEA                |
 | Destino                  | Por chamada/reunião | Por chamada/reunião | Por chamada/reunião | Por usuário        | Por ponto de extremidade/DID |

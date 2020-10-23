@@ -19,18 +19,18 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 698d63f0d53119569f6b212fa7db7a16c827f571
-ms.sourcegitcommit: fa567451f8f7af6d915e33809d88f26b415db54c
+ms.openlocfilehash: 350af8c004f44205c6228b0dc734da25602062d0
+ms.sourcegitcommit: 1db39fde090809d9abc6d7346dda55814d88993a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/08/2020
-ms.locfileid: "44610053"
+ms.lasthandoff: 10/23/2020
+ms.locfileid: "48739319"
 ---
 # <a name="evaluate-my-environment"></a>Avaliar meu ambiente
 
 Este artigo fornece uma visão geral dos requisitos para a avaliação adequada do ambiente atual para o uso de serviços de voz na nuvem. Ao avaliar seu ambiente, você identifica os riscos e os requisitos que influenciarão sua implantação geral de voz em nuvem. Ao identificar esses itens antecipadamente, você pode ajustar o planejamento para impulsionar o sucesso.
 
-## <a name="introduction-to-evaluating-your-environment"></a>Introdução à avaliação do seu ambiente 
+## <a name="introduction-to-evaluating-your-environment"></a>Introdução à avaliação do seu ambiente
 
 Para obter seus resultados de chave objetiva (OKRs), você anteriormente fez decisões importantes sobre o serviço. A próxima etapa é executar a descoberta ambiental para avaliar todos os aspectos relacionados à sua infraestrutura de ti e telefonia, à rede e às operações para confirmar se a sua organização está pronta para implementar a solução.
 
@@ -49,13 +49,14 @@ A descoberta ambiental também pode descobrir se você precisa [transferir núme
 Saber isso ajudará sua organização a ajustar seu plano de projeto de acordo e preparar as informações necessárias para portabilidade de números. Você pode usar a [descoberta ambiental para a distribuição do Microsoft Teams](environmental-discovery-for-microsoft-teams-rollout.md) para executar a descoberta ambiental.
 
 <table>
+<tr><td>Título</td><td>Descrição</td></tr>
 <tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Pontos de decisão</td><td><ul><li>Quem será o responsável pela conclusão de uma avaliação de ambiente?</li></ol></td></tr>
 <tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Próximas etapas</td><td><ul><li>Documentar os resultados da avaliação do ambiente.</li></ol></td></tr>
 </table>
 
 <!--ENDOFSECTION-->
 
-## <a name="adoption-and-change-management-assessment-capabilities"></a>Recursos de avaliação e gerenciamento de alterações de adoção 
+## <a name="adoption-and-change-management-assessment-capabilities"></a>Recursos de avaliação e gerenciamento de alterações de adoção
 
 A implantação coloca uma nova tecnologia nos dedos de um usuário, mas os resultados dos negócios só são percebidos depois que os usuários realmente adotam essa solução como a própria. Para ajudar a garantir a adoção sustentável de uma nova solução, você precisará concentrar seus esforços em preparação do usuário e gerenciamento de alterações. Para obter resultados ótimos, realize um planejamento de preparação do usuário como uma workstream paralela às suas atividades de preparação técnica e incorpore as seguintes atividades:
 
@@ -66,6 +67,7 @@ A implantação coloca uma nova tecnologia nos dedos de um usuário, mas os resu
 Use as seguintes considerações para avaliar a prontidão da sua organização para lidar com o gerenciamento de alterações do usuário.
 
 <table>
+<tr><td>Título</td><td>Descrição</td></tr>
 <tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Pontos de decisão</td><td><ul><li>Você teve sucesso anterior com a adoção do software ou dos serviços pelo usuário?</li><li>Você pode acompanhar a tomada de uso?</li><li>Você tem recursos para projetar e gerenciar uma &mdash; campanha de adoção inicial e contínua &mdash; (conscientização, treinamento e suporte)?</li><li>Você tem uma equipe de gerenciamento de alterações/adoção de usuários dedicada ou pode investir nesses recursos para garantir resultados de negócios?</li></ol></td></tr>
 <tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Próximas etapas</td><td><ul><li>Se você respondeu &quot; Sim &quot; a todas as opções acima, identifique os participantes corretos do gerenciamento de alterações do usuário e comece a planejar a preparação do usuário.</li><li>Se você respondeu &quot; não &quot; a alguns ou todos os itens acima, considere envolver recursos externos para auxiliar na condução do gerenciamento de alterações e das atividades relacionadas à adoção da sua organização.</li></ol></td></tr>
 </table>
@@ -130,7 +132,7 @@ Para implementar um túnel dividido, consulte o fornecedor da VPN para obter os 
 
 ### <a name="wi-fi"></a>Wi-Fi
 
-Como as redes VPN, Wi-Fi não são necessariamente projetadas ou configuradas para dar suporte à mídia em tempo real. Planejar ou otimizar uma rede Wi-Fi para oferecer suporte ao Teams é uma consideração importante para uma implantação de alta qualidade.
+Como VPN, Wi-Fi redes não são necessariamente projetadas ou configuradas para dar suporte a mídia em tempo real. Planejar ou otimizar uma rede Wi-Fi para oferecer suporte ao Teams é uma consideração importante para uma implantação de alta qualidade.
 
 Existem vários fatores que entram em cena para otimizar uma rede Wi-Fi:
 
@@ -220,6 +222,7 @@ Para obter mais informações, consulte [Qualidade de Serviço no Microsoft Team
 
 
 <table>
+<tr><td>Título</td><td>Descrição</td></tr>
 <tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Pontos de decisão</td><td><ul><li>Quem será o responsável por realizar as devidas avaliações de rede em todos os segmentos de rede e locais da organização?</li></ol></td></tr>
 <tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Próximas etapas</td><td><ul><li>Você pode realizar uma avaliação detalhada da rede para ajudar a garantir que sua rede esteja pronta para a implantação do Microsoft Teams.</li><li>Execute a correção de rede com base nos resultados da avaliação para cada segmento de rede.</li></ol></td></tr>
 </table>

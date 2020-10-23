@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dc024491ee289717b9028969544ae179a72e3d0e
-ms.sourcegitcommit: 96febfae562d604d9affc60028975881f5d6fb7c
+ms.openlocfilehash: ce6c5cc546c3c2e8b8369247de38e0f734b9b467
+ms.sourcegitcommit: 1db39fde090809d9abc6d7346dda55814d88993a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "48599556"
+ms.lasthandoff: 10/23/2020
+ms.locfileid: "48739219"
 ---
 # <a name="use-onedrive-for-business-and-sharepoint-or-stream-for-meeting-recordings"></a>Usar o OneDrive for Business e o SharePoint ou o Stream para gravações de reunião
 
@@ -66,6 +66,9 @@ Assista à "gravação na reunião" para obter mais informações.
 > [!VIDEO https://www.youtube.com/embed/8iol0KfCeL8]
 
 ## <a name="set-up-the-meeting-recording-option-for-onedrive-for-business-and-sharepoint"></a>Configurar a opção de gravação de reunião do OneDrive for Business e do SharePoint
+
+> [!Note]
+> A opção de gravação da reunião é uma configuração no nível da política de equipe. O exemplo a seguir mostra como definir a política global. Certifique-se de definir a opção de gravação da reunião para a política ou políticas atribuídas aos usuários. As alterações da política de reunião do teams levam tempo para se propagar. Verifique novamente depois de algumas horas de configuração e saia e entre novamente.
 
 1. Instale o Skype for Business online PowerShell. 
 **Observação**: o conector Skype for Business online atualmente faz parte do módulo do PowerShell mais recente do teams. Se você estiver usando a versão pública do teams PowerShell mais recente, não será necessário instalar o conector do Skype for Business online. Consulte [gerenciar o Skype for Business online com o PowerShell](https://docs.microsoft.com/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell?view=o365-worldwide&preserve-view=true).
