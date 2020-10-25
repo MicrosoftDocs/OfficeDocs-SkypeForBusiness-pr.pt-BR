@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ce6c5cc546c3c2e8b8369247de38e0f734b9b467
-ms.sourcegitcommit: 1db39fde090809d9abc6d7346dda55814d88993a
+ms.openlocfilehash: aa6245c78b66bde710ea6c03839cc98de8ec8f3f
+ms.sourcegitcommit: a5bc64abb02201cb5c2ff6696f6ef99064e1cae7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/23/2020
-ms.locfileid: "48739219"
+ms.lasthandoff: 10/24/2020
+ms.locfileid: "48753546"
 ---
 # <a name="use-onedrive-for-business-and-sharepoint-or-stream-for-meeting-recordings"></a>Usar o OneDrive for Business e o SharePoint ou o Stream para gravações de reunião
 
@@ -108,16 +108,16 @@ Set-CsTeamsMeetingPolicy -Identity Global -RecordingStorageMode "Stream"
 
 |Tipo de reunião                               | Quem clicou no registro?| Onde está a gravação?                               |Quem tem acesso? R/W, R ou compartilhamento                                                                                                                                                                                                                                                     |
 |-------------------------------------------|-----------------------|--------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|1:1 chamada com partes internas             |Chamador                 |Conta do OneDrive for Business do chamador                        |-O chamador é proprietário, tem permissões completas-o recurso de chamada (se estiver no mesmo locatário) tem acesso somente leitura, sem acesso de compartilhamento-Calle (se estiver em um locatário diferente) não tem acesso. O chamador deve compartilhá-lo para o receptor|
-|1:1 chamada com partes internas             |Receptor                 |Conta do OneDrive for Business do chamador                        |-O proprietário é proprietário, tem direitos totais-quem está no mesmo locatário tem acesso somente leitura, sem acesso de compartilhamento-o autor de chamadas (se estiver em um locatário diferente) não tem acesso. O chamado deve compartilhá-lo para o chamador|
-|1:1 chamada com chamada externa             |Chamador                 |Conta do OneDrive for Business do chamador                        |-O chamador é proprietário, tem direitos totais-o Calle não tem acesso. O chamador deve compartilhá-lo para o receptor|
-|1:1 chamada com chamada externa             |Receptor                 |Conta do OneDrive for Business do chamador                        |-O proprietário é proprietário, tem direitos totais – o autor de chamada não tem acesso. O chamado deve compartilhá-lo para o chamador|
-|Chamada em grupo                                 |Qualquer membro da chamada |Membro que clicou na conta do OneDrive for Business do registro  |-O membro que clicou em registro tem direitos totais – outros membros do mesmo locatário têm direitos de leitura: outros membros de locatários diferentes não têm direitos sobre ele.|
-|Reunião adhoc/agendada                    |Organizador              |Conta do OneDrive for Business do organizador                     |-O organizador tem permissões completas para a gravação-todos os outros membros da reunião têm acesso de leitura|
-|Reunião adhoc/agendada                    |Outro membro de reunião   |Membro que clicou em gravar                                  |-O membro que clicou em registro tem direitos totais ao organizador de gravação tem direitos de edição e pode compartilhar-todos os outros membros têm acesso de leitura|
-|Reunião adhoc/agendada com usuários externos|Organizador              |Conta do OneDrive for Business do organizador                     |-O organizador tem permissões completas para a gravação-todos os outros membros da reunião do mesmo locatário que o organizador têm acesso de leitura-todos os outros membros externos não têm acesso e o organizador deve compartilhá-lo para ele|
-|Reunião adhoc/agendada com usuários externos|Outro membro de reunião   |Membro que clicou em gravar                                  |-O membro que clicou em registro tem direitos totais ao organizador de gravação tem direitos de edição e pode compartilhar todos os outros membros da reunião a partir do mesmo locatário que o organizador tem acesso de leitura-todos os outros membros externos não têm acesso e o organizador deve compartilhá-lo para ele|
-|Reunião de canal                            |Membro do canal         |Local do SharePoint do teams para esse canal                   |-Membro que clicou em registro tem direitos de edição para a gravação-as permissões de cada membro são baseadas nas permissões do SharePoint do canal|
+|1:1 chamada com partes internas             |Chamador                 |Conta do OneDrive for Business do chamador                        |O chamador é proprietário, tem direitos totais <br /><br />O chamado (se estiver no mesmo locatário) tem acesso somente leitura, sem acesso de compartilhamento <br /><br /> O chamado (se estiver em um locatário diferente) não tem acesso. O chamador deve compartilhá-lo para o receptor|
+|1:1 chamada com partes internas             |Receptor                 |Conta do OneDrive for Business do chamador                        |Chamado é proprietário, tem direitos totais <br /><br />O chamador (se estiver no mesmo locatário tiver acesso somente leitura, sem acesso de compartilhamento <br /><br />O chamador (se estiver em um locatário diferente) não tem acesso. O chamado deve compartilhá-lo para o chamador|
+|1:1 chamada com chamada externa             |Chamador                 |Conta do OneDrive for Business do chamador                        |O chamador é proprietário, tem direitos totais<br /> <br />O chamado não tem acesso. O chamador deve compartilhá-lo para o receptor|
+|1:1 chamada com chamada externa             |Receptor                 |Conta do OneDrive for Business do chamador                        | Chamado é proprietário, tem direitos totais<br /><br />O autor não tem acesso. O chamado deve compartilhá-lo para o chamador|
+|Chamada em grupo                                 |Qualquer membro da chamada |Membro que clicou na conta do OneDrive for Business do registro  |O membro que clicou em registro tem direitos totais <br /><br /> Outros membros do mesmo locatário têm direitos de leitura <br /><br /> Outros membros de diferentes locatários não têm direito a ele.|
+|Reunião adhoc/agendada                    |Organizador              |Conta do OneDrive for Business do organizador                     | O organizador tem permissões completas para a gravação <br /><br /> Todos os outros membros da reunião têm acesso de leitura|
+|Reunião adhoc/agendada                    |Outro membro de reunião   |Membro que clicou em gravar                                  | Membro que clicou em registro tem direitos totais à gravação <br />O organizador tem direitos de edição e pode compartilhar <br /><br /> Todos os outros membros têm acesso de leitura|
+|Reunião adhoc/agendada com usuários externos|Organizador              |Conta do OneDrive for Business do organizador                     |O organizador tem permissões completas para a gravação<br /> <br /> Todos os outros membros da reunião do mesmo locatário do organizador têm acesso de leitura <br /><br /> Todos os outros membros externos não têm acesso e o organizador deve compartilhá-lo para ele|
+|Reunião adhoc/agendada com usuários externos|Outro membro de reunião   |Membro que clicou em gravar                                  | O membro que clicou em registro tem direitos totais ao organizador de gravação tem direitos de edição e pode compartilhar <br /><br /> Todos os outros membros da reunião do mesmo locatário do organizador têm acesso de leitura <br /><br />Todos os outros membros externos não têm acesso e o organizador deve compartilhá-lo para ele|
+|Reunião de canal                            |Membro do canal         |Local do SharePoint do teams para esse canal                   | Membro que clicou em registro tem direitos de edição para a gravação <br /> <br />As permissões de cada membro são baseadas nas permissões do SharePoint do canal|
 
 
 ## <a name="frequently-asked-questions"></a>Perguntas frequentes

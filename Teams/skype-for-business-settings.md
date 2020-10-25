@@ -22,12 +22,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Saiba como gerenciar as configurações dos recursos do Skype for Business no centro de administração do Microsoft Teams.
-ms.openlocfilehash: 7248d57c5a2efb49714bf9e43c4e367ef454bfd0
-ms.sourcegitcommit: 1db39fde090809d9abc6d7346dda55814d88993a
+ms.openlocfilehash: 18f1de99964a36485e69a210c71b6350313aa1cb
+ms.sourcegitcommit: a5bc64abb02201cb5c2ff6696f6ef99064e1cae7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/23/2020
-ms.locfileid: "48739229"
+ms.lasthandoff: 10/24/2020
+ms.locfileid: "48753556"
 ---
 # <a name="manage-skype-for-business-settings-in-the-microsoft-teams-admin-center"></a>Gerenciar as configurações do Skype for Business no centro de administração do Microsoft Teams
 
@@ -37,10 +37,12 @@ ms.locfileid: "48739229"
 
 Como administrador, o centro de administração do Microsoft Teams é onde você gerencia os recursos do Skype for Business para os usuários do Skype for Business em sua organização. Você pode gerenciar as configurações [de sua organização](#manage-skype-for-business-settings-for-your-organization) na página do **Skype for Business** e as configurações [para usuários individuais](#manage-skype-for-business-settings-for-individual-users) na guia **Skype for Business** de páginas de detalhes do usuário.
 
-Você só verá a página do **Skype for Business** no centro de administração do Microsoft Teams se o modo de coexistência de sua organização não estiver definido **somente como Teams**. Da mesma forma, você só verá a guia **Skype for Business** para um usuário se o modo de coexistência do usuário não for **somente de equipe**. Para saber mais sobre os modos de coexistência, consulte [entender equipes e a coexistência e interoperabilidade do Skype for Business](teams-and-skypeforbusiness-coexistence-and-interoperability.md) e [definir suas configurações de coexistência e atualização](setting-your-coexistence-and-upgrade-settings.md).
+Você só verá a página do **Skype for Business** se o modo de coexistência de sua organização não estiver definido **somente como Teams**. Da mesma forma, você só verá a guia **Skype for Business** para um usuário se o modo de coexistência do usuário não for **somente de equipe**. Para saber mais sobre os modos de coexistência, consulte [entender equipes e a coexistência e interoperabilidade do Skype for Business](teams-and-skypeforbusiness-coexistence-and-interoperability.md) e [definir suas configurações de coexistência e atualização](setting-your-coexistence-and-upgrade-settings.md).
 
 > [!NOTE]
 > As configurações do Skype for Business estavam anteriormente no **portal herdado** no centro de administração do Microsoft Teams. Com o descontinuação do portal herdado, migramos as configurações para esses novos locais no centro de administração do teams para gerenciamento do Skype for Business.
+
+Você deve receber a função de administrador global do [Azure ad](https://docs.microsoft.com/azure/active-directory/roles/permissions-reference) ou administrador do Skype for Business para gerenciar os recursos do Skype for Business no centro de administração do Microsoft Teams.
 
 ## <a name="manage-skype-for-business-settings-for-your-organization"></a>Gerenciar as configurações do Skype for Business para sua organização
 

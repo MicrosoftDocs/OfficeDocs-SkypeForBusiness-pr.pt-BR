@@ -20,17 +20,17 @@ ms.custom:
 - Setup
 - ms.lync.lac.OrgPresencePrivacy
 description: 'Saiba como configurar o modo de privacidade para seus usuários para que eles possam controlar melhor como as pessoas veem sua disponibilidade. '
-ms.openlocfilehash: f0f9237f701be219a9cbce9a44704cbb582f48d4
-ms.sourcegitcommit: 1db39fde090809d9abc6d7346dda55814d88993a
+ms.openlocfilehash: a2b4ed11f1d56927a4bc7eed6ce36b5b04411509
+ms.sourcegitcommit: a5bc64abb02201cb5c2ff6696f6ef99064e1cae7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/23/2020
-ms.locfileid: "48739179"
+ms.lasthandoff: 10/24/2020
+ms.locfileid: "48753436"
 ---
 # <a name="configure-presence-privacy-mode"></a>Configurar o modo de privacidade de presença
 
 > [!IMPORTANT]
-> O centro de administração do Microsoft Teams substituiu o centro de administração do Skype for Business (Portal herdado). Todas as configurações para gerenciar o Skype for Business agora estão no centro de administração do teams. Para saber mais, confira [gerenciar as configurações do Skype for Business no centro de administração do Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/skype-for-business-settings?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json).
+> O centro de administração do Microsoft Teams substituiu o centro de administração do Skype for Business (Portal herdado). Todas as configurações para gerenciar o Skype for Business agora estão no centro de administração do teams. Você deve receber a função de administrador global do [Azure ad](https://docs.microsoft.com/azure/active-directory/roles/permissions-reference) ou administrador do Skype for Business para gerenciar os recursos do Skype for Business no centro de administração do teams. Para obter mais informações, confira [Gerenciar as configurações do Skype for Business do centro de Administração do Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/skype-for-business-settings?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json).
 
 A configuração de presença do Skype for Business Online permite que as pessoas tenham mais controle sobre quem pode ver se estão disponíveis, em uma reunião ou fora do escritório. Para obter detalhes sobre as configurações de presença e privacidade do Skype for Business, consulte [Configurar presença no Skype for Business online](configure-presence-in-skype-for-business-online.md). 
   

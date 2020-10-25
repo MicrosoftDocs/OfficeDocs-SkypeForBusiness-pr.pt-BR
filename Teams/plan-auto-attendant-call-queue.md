@@ -23,12 +23,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Saiba mais sobre atendedores automáticos e filas de chamadas e como usá-los para ajudar os chamadores a percorrer um sistema de menu para alcançar pessoas ou departamentos em sua organização.
-ms.openlocfilehash: 3e1a7fe6b5f059236e0fafd64dbf87b7cebbeecf
-ms.sourcegitcommit: 22e2f51abf879b34701064839d0e410758b6a3dd
+ms.openlocfilehash: ece138b3e3513273b57d980442f46f683aaddda4
+ms.sourcegitcommit: 5a013b4c0a8d23d33ab9e9147991f2b3b7247693
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48209971"
+ms.lasthandoff: 10/23/2020
+ms.locfileid: "48748893"
 ---
 # <a name="plan-for-teams-auto-attendants-and-call-queues"></a>Planejar os atendedores automáticos e as filas de chamadas do teams
 
@@ -136,13 +136,13 @@ Atendedores automáticos roteiam todas as chamadas de uma das seguintes maneiras
 > [!NOTE]
 > Um único atendedor automático pode dar suporte apenas a um único método "discar por".  Para permitir que os chamadores disquem por nome e número, você precisará criar um atendedor automático que tenha uma opção para discar por nome e o outro para discar por extensão.  Cada uma dessas opções será roteada para attenantss de discagem automática configuradas para estes cenários de "discar por". 
 
-Quando as chamadas são redirecionadas por um atendedor automático, você pode escolher entre os seguintes destinos de roteamento de chamadas:
+Quando as chamadas são redirecionadas por um atendedor automático ou fila de chamadas, você pode escolher entre os seguintes destinos de roteamento de chamadas:
 
 - **Pessoa na organização** -uma pessoa em sua organização que pode receber chamadas de voz. Pode ser um usuário online ou um usuário hospedado no local usando o Skype for Business Server.
 - **Aplicativo de voz** -outro atendedor automático ou uma fila de chamadas. Escolha a conta do recurso associada ao destino.
 - **Número de telefone externo** – qualquer número de telefone. (Veja [detalhes técnicos da transferência externa](create-a-phone-system-auto-attendant.md#external-phone-number-transfers---technical-details)).
 - Correio **de voz-a** caixa de correio de voz associada a um grupo do Microsoft 365 que você especificar.
-- **Operator** – o operador definido para o atendedor automático. A definição de um operador é opcional. Um operador pode ser qualquer um dos outros destinos nesta lista.
+- **Operator** (somente atendedor automático)-o operador definido para o atendedor automático. A definição de um operador é opcional. Um operador pode ser qualquer um dos outros destinos nesta lista.
 
 Atendedores automáticos oferecem opções de roteamento de chamadas separadas para chamadas recebidas fora do horário comercial e em feriados. O encaminhamento de chamadas após o expediente permite todas as opções listadas acima, enquanto o encaminhamento de chamadas de feriados permite redirecionar ou desconectar uma chamada, mas nenhuma opção de tecla de discagem.
 
@@ -222,6 +222,6 @@ Consulte os artigos a seguir para obter informações sobre como criar atendedor
 
 [Planejar o Roteamento Direto](direct-routing-plan.md)
 
-[Disponibilidade de Audioconferência e Planos de Chamadas por país e região](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
+[Disponibilidade de audioconferência e Planos de Chamadas por país e região](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
 [Exemplo de pequenas empresas - Configurar um atendedor automático](/microsoftteams/tutorial-org-aa)
