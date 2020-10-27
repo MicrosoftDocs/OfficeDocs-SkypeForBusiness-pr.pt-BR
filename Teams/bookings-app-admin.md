@@ -1,5 +1,5 @@
 ---
-title: Aplicativos de livro e visitas virtuais no Microsoft Teams
+title: Visitas virtuais com o Microsoft Teams e o aplicativo de reservas
 author: msdmaguire
 ms.author: dmaguire
 manager: serdars
@@ -13,14 +13,14 @@ localization_priority: Normal
 ms.collection: ''
 ms.reviewer: ''
 description: Microsoft Teams e visitas virtuais com o aplicativo bookings
-ms.openlocfilehash: c60993b57233c0c526e1770c1d3d414a73fcc42a
-ms.sourcegitcommit: a043bde507a9f6747fdd2063dd085edb3c1d6c3c
+ms.openlocfilehash: 0c88feec8a90b2794e93fb9c51bffafabf942748
+ms.sourcegitcommit: 0a51738879b13991986a3a872445daa8bd20533d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/12/2020
-ms.locfileid: "48427676"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "48766954"
 ---
-# <a name="bookings-app-and-virtual-visits-in-microsoft-teams"></a>Aplicativos de livro e visitas virtuais no Microsoft Teams
+# <a name="virtual-visits-with-microsoft-teams-and-the-bookings-app"></a>Visitas virtuais com o Microsoft Teams e o aplicativo de reservas
 
 O aplicativo de reservas do Microsoft Teams oferece uma maneira simples de agendar compromissos presenciais e virtuais, como visitas à saúde, consultas financeiras, entrevistas, suporte ao cliente, treinamento de horas de escritório e muito mais.
 
@@ -51,13 +51,13 @@ Há várias maneiras de controlar quem tem acesso ao aplicativo de reservas e a 
 
 ## <a name="recommended-meeting-policy-settings"></a>Configurações de política de reunião recomendadas
 
-Para habilitar a melhor experiência para reservas, crie uma política de reunião de equipe para admitir automaticamente **todos em sua organização**. Isso permitirá que a equipe ingresse no compromisso automaticamente e habilite a experiência de lobby para participantes externos. Você pode saber mais sobre como [admitting automaticamente as pessoas para reuniões](meeting-policies-in-teams.md#automatically-admit-people).
+Para habilitar a melhor experiência para reservas, crie uma política de reunião de equipe para admitir automaticamente **todos em sua organização** . Isso permitirá que a equipe ingresse no compromisso automaticamente e habilite a experiência de lobby para participantes externos. Você pode saber mais sobre como [admitting automaticamente as pessoas para reuniões](meeting-policies-in-teams.md#automatically-admit-people).
 
 ### <a name="optional-staff-approvals-setting"></a>Configuração de aprovações de equipe opcionais
 
 Como uma configuração de privacidade adicional, você pode optar por exigir que a equipe opte antes de as informações de disponibilidade do cronograma sejam compartilhadas por meio de reservas e antes de serem reservadas para um compromisso.  
 
-Para habilitar essa configuração, vá para configurações de configurações **do centro de administração do Microsoft 365** \> **Settings** \> **Settings**e, em seguida, selecione **reservas**.
+Para habilitar essa configuração, vá para configurações de configurações **do centro de administração do Microsoft 365** \> **Settings** \> **Settings** e, em seguida, selecione **reservas** .
 
 Com essa configuração ativada, a equipe receberá um email em que será solicitado a aprovar a associação a um calendário de reservas.  
 

@@ -8,12 +8,12 @@ ms.service: msteams
 ms.author: v-cichur
 audience: admin
 manager: serdars
-ms.openlocfilehash: 2c816e71675f2b7082164271322c47c1708d20e3
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 9f7818102426f38279caac5c4532a22e53f1673e
+ms.sourcegitcommit: 0a51738879b13991986a3a872445daa8bd20533d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48514938"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "48766764"
 ---
 # <a name="teams-sessions-at-ignite-2020"></a>Sessões do teams em Ignite 2020
 
@@ -96,7 +96,7 @@ ms.locfileid: "48514938"
 | Título | Abstrair            | Nível| falantes |
 |---|----------|---|---|---|
 |[Implantação e governança de equipes para educação](https://aka.ms/PR103) |Compreenda tudo o que você precisa saber para o controle holístico da sua instituição educacional. Nesta sessão, abordaremos políticas de chat, políticas de reunião, políticas de aplicativos, tarefas através de grupos, como configurar a segurança do aluno e métodos para automatizar a criação da classe da equipe. |300|Jethro Seghers|
-|[Saúde virtual e colaboração com o Microsoft Teams na área de saúde](https://aka.ms/PR116)|Saiba como as organizações de assistência médica podem ajudar a capacitar as equipes a fornecer o melhor possível cuidado com o Microsoft Teams. Esta sessão se concentrará na integridade virtual e na importabilidade da equipe e se aprofundará em áreas como os comunicados mais recentes para equipes de assistência médica, visitas virtuais, histórias de clientes e muito mais. Você também aprenderá a usar o Microsoft Teams como uma plataforma para lidar com vários cenários de saúde atuais.|200|Henrique Westenberger, Tom McGuinness, Kristina Behr, Daniel gravando|
+|[Saúde virtual e colaboração com o Microsoft Teams na área de saúde](https://aka.ms/PR116)|Saiba como as organizações de assistência médica podem ajudar a capacitar equipes de saúde a fornecer o melhor possível cuidado com o Microsoft Teams. Esta sessão se concentrará na integridade virtual e na colaboração da equipe de saúde e se aprofundará em áreas como os comunicados mais recentes para equipes de assistência médica, visitas virtuais, histórias de clientes e muito mais. Você também aprenderá a usar o Microsoft Teams como uma plataforma para lidar com vários cenários de saúde atuais.|200|Henrique Westenberger, Tom McGuinness, Kristina Behr, Daniel gravando|
 |[Personalizar o Microsoft Teams para seu setor](https://aka.ms/PR117)|Nesta sessão, vamos compartilhar detalhes sobre como inicializar experiências de colaboração com modelos por meio da nossa galeria do setor, personalizar esses modelos para a sua organização e implantá-los em várias partes da nossa organização e simplesmente gerenciar através de pacotes de política.|200|Local Kuchi, Aaron Glick|
 |[Colaboração e comunicação usando o Microsoft Teams no governo](https://aka.ms/PR118) |Os órgãos estaduais, locais e federais aproveitam o Microsoft Teams para aumentar a capacidade de colaborar e melhorar os tempos de resposta e o envolvimento do cidadão.  Saiba como maximizar o uso de recursos existentes, o que vem a seguir e a nossa visão futura do Microsoft Teams no governo. |200|Rima Reyes, Karuana Gatimu, Roxy Ndebumadu, Sarah Gilbert|
 |[Integre-se com o Microsoft Teams for Education Platform app](https://aka.ms/PR120)|Teams é uma plataforma aberta para instituições educacionais para integrar aplicativos e criar fluxos de trabalho personalizados.  Nesta sessão, vamos abordar como a app Teams Store é usada no ensino da sala de aula para integração com o suporte técnico de ti. Saiba mais sobre o controle de aplicativos de terceiros, modelos de aplicativos de código-fonte aberto e um exemplo prático do App Studio para criar um aplicativo de site personalizado rápido para sua instituição.|300|Dominic Williamson|

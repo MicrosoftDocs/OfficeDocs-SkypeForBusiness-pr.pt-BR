@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: ''
-ms.openlocfilehash: b10127dd403059d21e8ab54c1267b85d77bf29f8
-ms.sourcegitcommit: 51d94d621e3411f35622e852b699275f526600dd
+ms.openlocfilehash: d8225198a3d56c731193d72e98d4ebebe2954a2f
+ms.sourcegitcommit: 0a51738879b13991986a3a872445daa8bd20533d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/15/2020
-ms.locfileid: "48469557"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "48766730"
 ---
 # <a name="manage-the-lists-app-for-your-organization-in-microsoft-teams"></a>Gerenciar o aplicativo listas para sua organização no Microsoft Teams
 
@@ -44,7 +44,7 @@ Os modelos em listas são adaptados para cenários comuns de controle de informa
 
 - Controlar problemas e trazê-los para fechar usando o modelo de controlador de problemas.
 - Organize todos os detalhes do evento com o modelo de itinerário do evento.
-- Use o modelo pacientes para registrar as necessidades e o status dos pacientes para equipes de cuidado em sua organização de assistência médica para monitorar e coordenar o cuidado.
+- Use o modelo pacientes para registrar as necessidades e o status de pacientes para equipes de saúde em sua organização de assistência médica para monitorar e coordenar o cuidado.
 - Acompanhar o status dos aplicativos de empréstimo com o modelo empréstimos.
 
 ## <a name="example-scenario"></a>Cenário de exemplo
@@ -91,8 +91,8 @@ Listas é habilitado por padrão para todos os usuários do teams em sua organiz
 1. Na navegação à esquerda do centro de administração do Microsoft Teams, vá até **Team apps**  >  **gerenciar aplicativos** .
 2. Siga um destes procedimentos:
 
-    - Para desativar listas para a sua organização, procure o aplicativo listas, selecione-o e clique em **Bloquear**.
-    - Para ativar listas para a sua organização, procure o aplicativo listas, selecione-o e clique em **permitir**.
+    - Para desativar listas para a sua organização, procure o aplicativo listas, selecione-o e clique em **Bloquear** .
+    - Para ativar listas para a sua organização, procure o aplicativo listas, selecione-o e clique em **permitir** .
 
 ### <a name="enable-or-disable-lists-for-specific-users-in-your-organization"></a>Habilitar ou desabilitar listas para usuários específicos em sua organização
 
@@ -112,7 +112,7 @@ As listas dão suporte à [automatização de energia](https://preview.flow.micr
 
 ## <a name="give-feedback-or-report-an-issue"></a>Enviar comentários ou relatar um problema
   
-Para nos enviar comentários ou reportar um problema, clique em **ajuda** próximo à parte inferior do painel de navegação esquerdo no Teams e selecione **relatar um problema**. Selecione **listas**e, em seguida, insira seus comentários ou detalhes sobre o problema que está ocorrendo.
+Para nos enviar comentários ou reportar um problema, clique em **ajuda** próximo à parte inferior do painel de navegação esquerdo no Teams e selecione **relatar um problema** . Selecione **listas** e, em seguida, insira seus comentários ou detalhes sobre o problema que está ocorrendo.
 
 ## <a name="related-topics"></a>Tópicos relacionados
 

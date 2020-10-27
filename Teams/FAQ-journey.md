@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0192f6d822d19b2efd22beba81c1865197aff53c
-ms.sourcegitcommit: c49698e03fa3bdd7c82496189b200ac6bb4e05a1
+ms.openlocfilehash: dd329b6aa439143967a132b05119e064430340ac
+ms.sourcegitcommit: 0a51738879b13991986a3a872445daa8bd20533d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "48320896"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "48766584"
 ---
 # <a name="faq--upgrading-from-skype-for-business-to-microsoft-teams"></a>Perguntas frequentes ‒ atualização do Skype for Business para o Microsoft Teams
 
@@ -68,7 +68,7 @@ Você tem a flexibilidade de atualizar os usuários — indivíduos, grupos de u
 
 **O que acontecerá depois que meus usuários forem atualizados?**<br>
 
-Depois que seus usuários forem atualizados para o Teams (modo **Apenas Teams**):
+Depois que seus usuários forem atualizados para o Teams (modo **Apenas Teams** ):
 
 - O cliente Skype for Business deles será desabilitado para uso, pois todos os chats e chamadas irão para o Teams. Esse cliente continuará a ser usado para reuniões previamente agendadas nele. Se esse cliente de desktop não estiver instalado, os usuários serão redirecionados para acessar as reuniões previamente agendadas do Skype for Business via Skype for Business Web App.
 
@@ -114,7 +114,7 @@ Sim, o Teams está disponível para a GCC (Nuvem da comunidade governamental) do
 
 
 
-## <a name="calling-capabiities"></a>Recursos de chamadas
+## <a name="calling-capabilities"></a>Funcionalidades de chamadas
 
 **Quais são os planos para os recursos online de voz da Microsoft?**<br>
 O núcleo da nossa solução de voz é o Sistema de Telefonia que está disponível hoje. Os clientes também podem adicionar um Plano de Chamadas da Microsoft, que fornece suporte completo para chamadas, incluindo a aquisição e a atribuição de números diretamente no Microsoft 365. Os clientes que desejam manter os troncos de telefonia da telecomunicações poderão usar o Roteamento direto, que está incluído como parte do Sistema de telefonia. Misture e combine os dois como achar melhor para as necessidades da sua organização, para ter uma solução de voz completa.

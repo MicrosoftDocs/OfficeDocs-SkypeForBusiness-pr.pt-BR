@@ -16,16 +16,16 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.reviewer: ''
-description: Use os modelos do Microsoft Teams para criar equipes rápida e facilmente fornecendo um modelo predefinido de configurações, canais e aplicativos.
+description: Use os modelos do Microsoft Teams com o Microsoft Graph para criar equipes rápida e facilmente fornecendo um modelo predefinido de configurações, canais e aplicativos.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: f2ef6bd4bf358a90654e7fda643effbfcc34b3c2
-ms.sourcegitcommit: 340c2f432b78af4e78b21056af56c6421627045d
+ms.openlocfilehash: 63376c68d8267aaa49b4bdf4033d5ebfaa0a446f
+ms.sourcegitcommit: 0a51738879b13991986a3a872445daa8bd20533d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "48294428"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "48766694"
 ---
-# <a name="get-started-with-teams-templates-for-healthcare-organizations-using-microsoft-graph"></a>Introdução aos modelos do teams para organizações de assistência médica usando o Microsoft Graph
+# <a name="get-started-with-teams-templates-for-healthcare-organizations"></a>Introdução aos modelos do teams para organizações de assistência médica
 
 Os modelos do Microsoft Teams permitem criar equipes de forma rápida e fácil, fornecendo um modelo predefinido de configurações, canais e aplicativos pré-instalados.
 
@@ -35,7 +35,7 @@ Atualmente, oferecemos dois modelos de saúde de primeira mão que você pode us
 
 ## <a name="ward-template"></a>Modelo de versões anteriores
 
-O modelo para a era destinado à comunicação e à colaboração em um departamento, um pod ou um departamento. O modelo pode ser usado para facilitar o gerenciamento de pacientes, bem como as necessidades operacionais de uma vez. Por exemplo, os comunicados para o fim podem ser publicados no canal de *anúncios* e os turnos podem ser gerenciados na *equipe*. Se você pretende simplificar as operações de sua era para você, este modelo é para você.
+O modelo para a era destinado à comunicação e à colaboração em um departamento, um pod ou um departamento. O modelo pode ser usado para facilitar o gerenciamento de pacientes, bem como as necessidades operacionais de uma vez. Por exemplo, os comunicados para o fim podem ser publicados no canal de *anúncios* e os turnos podem ser gerenciados na *equipe* . Se você pretende simplificar as operações de sua era para você, este modelo é para você.
 
 |Tipo de modelo base |baseTemplateId |Canais de modelo de linha de base|
 |:--- |:---|:---|
@@ -46,7 +46,7 @@ O modelo para a era destinado à comunicação e à colaboração em um departam
 
 ## <a name="hospital-template"></a>Modelo do hospital
 
-O modelo hospital destina-se à comunicação e colaboração entre vários departamentos, pods e departamentos em um hospital. Neste modelo, há vários canais operacionais, incluindo *anúncios*, *custodial*e *Farmácias*, mas também fornecemos um script abaixo que estende o modelo com uma variedade de canais complementares de departamento ou especialidade que você pode adicionar, excluir ou editar de preferência. Por exemplo, se você tiver um departamento *Endocrinology* , mas não precisa de um canal para *ophthalmology*, o script poderá ser adaptado para incluir um canal de *Endocrinology* e remover o canal de *ophthalmology* . Recomendamos que esses canais de especialidade ou modelo não sejam favoritos automaticamente para evitar a saturação da notificação. Os usuários geralmente têm favorito todos os canais que encontrarem relevantes.
+O modelo hospital destina-se à comunicação e colaboração entre vários departamentos, pods e departamentos em um hospital. Neste modelo, há vários canais operacionais, incluindo *anúncios* , *custodial* e *Farmácias* , mas também fornecemos um script abaixo que estende o modelo com uma variedade de canais complementares de departamento ou especialidade que você pode adicionar, excluir ou editar de preferência. Por exemplo, se você tiver um departamento *Endocrinology* , mas não precisa de um canal para *ophthalmology* , o script poderá ser adaptado para incluir um canal de *Endocrinology* e remover o canal de *ophthalmology* . Recomendamos que esses canais de especialidade ou modelo não sejam favoritos automaticamente para evitar a saturação da notificação. Os usuários geralmente têm favorito todos os canais que encontrarem relevantes.
 
 |Tipo de modelo base |baseTemplateId |Canais de modelo de linha de base|
 |:--- |:---|:---|
