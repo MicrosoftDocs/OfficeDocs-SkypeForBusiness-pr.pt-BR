@@ -1,8 +1,6 @@
 ---
 title: Teams para Serviços de Saúde
 description: Saiba mais sobre os recursos de administração disponíveis para você gerenciar o Teams for Healthcare Teams em sua organização.
-layout: LandingPage
-ms.topic: landing-page
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -18,70 +16,19 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 5470b33235e61df7003ebbb666e3a6df124c67a0
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: e77bd388dd2d852c23fb05e6e54f265065fc1a1a
+ms.sourcegitcommit: 0a51738879b13991986a3a872445daa8bd20533d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905693"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "48766864"
 ---
 # <a name="teams-for-healthcare"></a>Teams para Serviços de Saúde
 
-O Microsoft Teams dá cuidado às equipes e profissionais de saúde uma maneira segura de se comunicar, coordenar o atendimento ao paciente e melhorar a eficiência operacional. Aqui você encontrará os recursos de administrador necessários para gerenciar o Teams for Healthcare Teams em sua organização.
+O Microsoft Teams oferece às equipes de saúde e profissionais de saúde uma maneira segura de se comunicar, coordenar o atendimento ao paciente e melhorar a eficiência operacional. Aqui você encontrará os recursos de administrador necessários para gerenciar o Teams for Healthcare Teams em sua organização.
 
-<ul class="panelContent cardsFTitle">
-    <li>
-        <a href="https://docs.microsoft.com/microsoftteams/expand-teams-across-your-org/healthcare/teams-in-hc">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/get-started-teams.svg" alt="Pointing hand icon with arrow, representing getting started" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Introdução ao Teams para Organizações de Saúde</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-    <li>
-        <a href="https://docs.microsoft.com/microsoftteams/expand-teams-across-your-org/healthcare/healthcare-templates">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/walkthrough-map-teams.svg" alt="Folded paper icon, representing templates" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Introdução aos modelos do Teams para Organizações de Saúde</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-    <li>
-        <a href="https://docs.microsoft.com/MicrosoftTeams/expand-teams-across-your-org/healthcare/messaging-policies-hc">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/chat.svg" alt="Chat bubble icon, representing messaging" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Introdução às Mensagens Seguras para Organizações de Saúde</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-</ul>
+|               |               |
+| ------------- | ------------- |
+| ![Get-Started-Teams](../media/get-started-teams.svg)  |  [Introdução ao Teams para Organizações de Saúde](https://docs.microsoft.com/microsoftteams/expand-teams-across-your-org/healthcare/teams-in-hc) |
+| ![passo-a-passo-mapa-equipes](../media/walkthrough-map-teams.svg) | [Introdução aos modelos do Teams para Organizações de Saúde](https://docs.microsoft.com/microsoftteams/expand-teams-across-your-org/healthcare/healthcare-templates) |
+| ![chat](../media/chat.svg)  |  [Introdução às Mensagens Seguras para Organizações de Saúde](https://docs.microsoft.com/MicrosoftTeams/expand-teams-across-your-org/healthcare/messaging-policies-hc) |
