@@ -17,12 +17,12 @@ ms.collection:
 - Teams_ITAdmin_RemoteWorkers
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 35ebe9f93321b67806b9fd777aba948f83954c04
-ms.sourcegitcommit: a5bc64abb02201cb5c2ff6696f6ef99064e1cae7
+ms.openlocfilehash: a266d9d3ea8fd572cca171768174d86094a8c945
+ms.sourcegitcommit: 0a51738879b13991986a3a872445daa8bd20533d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/24/2020
-ms.locfileid: "48753576"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "48766964"
 ---
 <a name="manage-the-microsoft-teams-exploratory-license"></a>Gerenciar a licença do Microsoft Teams Exploratory
 =======================================================
@@ -67,9 +67,8 @@ Habilite os usuários para se inscreverem em aplicativos e versões de avaliaç�
 
 Os usuários não se enquadram nos critérios se:
 
-- Tem uma licença do Teams ou anteriormente tinha uma licença Teams paga.
-- Estão usando uma oferta de avaliação ou oferta de avaliação COVID.
-- Estão em um locatário que tem pelo menos uma oferta especial de avaliação COVID.
+- Atualmente ou anteriormente o Teams era disponibilizado com uma licença paga, não paga ou experimental 
+- Estão em um locatário que usou/recebeu pelo menos uma oferta especial de COVID.
 
 Sua organização não está qualificada para esta oferta se você for um Cliente Parceiro de Agregação ou se for um cliente do GCC, GCC High, DoD ou EDU.
 
@@ -164,7 +163,7 @@ Quando os usuários se conectam no Teams Commercial Cloud Trial expirado pela pr
 
 - Se você quiser remover essa licença por meio do portal de administração do, confira: [Excluir um usuário da sua organização](https://docs.microsoft.com/microsoft-365/admin/add-users/delete-a-user)
 
-## <a name="what-is-the-data-retention-policy"></a>Qual é a política de retenção de dados?
+## <a name="what-is-the-data-retention-policy"></a>Qual é a política de retenção de dados
 
 Confira as [Informações de assinatura do Microsoft 365](https://docs.microsoft.com/microsoft-365/commerce/subscriptions/what-if-my-subscription-expires?view=o365-worldwide).
 

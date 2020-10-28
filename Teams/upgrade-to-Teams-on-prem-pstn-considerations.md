@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6b27694c476fc1ab571716939ad57cc3f2dae20e
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: ee76c4955ba1eaaef3ff5c31b925d133b22a5365
+ms.sourcegitcommit: 18b5e3487ba1350c5d2e6d676a4ab582b5b638d4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48533548"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "48772212"
 ---
 # <a name="pstn-considerations-when-upgrading-to-teams-mdash-for-it-administrators"></a>Considerações de PSTN durante a atualização para o Microsoft Teams &mdash; para administradores de ti
 
@@ -45,7 +45,7 @@ Além disso, os seguintes artigos descrevem conceitos importantes de atualizaç�
 
  > [!NOTE]
  > - Só há suporte para o uso do sistema telefônico com Teams quando o usuário está no modo TeamsOnly.  Se o usuário estiver no modo de ilhas, o sistema telefônico só será compatível com o Skype for Business. 
- > - Todas as configurações de encaminhamento de chamadas e delegação do Skype for Business não são migradas e precisarão ser recriadas para o Microsoft Teams.
+ > - Todas as configurações de encaminhamento de chamadas, grupo de chamada de equipe e delegação do Skype for Business não são migradas e precisarão ser recriadas para o Microsoft Teams.
 
 
 ## <a name="pstn-calling-scenarios"></a>Cenários de chamadas PSTN

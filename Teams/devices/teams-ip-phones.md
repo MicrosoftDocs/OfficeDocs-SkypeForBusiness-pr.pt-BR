@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: Saiba qual escrivaninha e telefones de conferências são certificados para que o Microsoft Teams produza os melhores resultados.
-ms.openlocfilehash: b598e55ec130876b0b3ae8d52f1283fa596b2ebc
-ms.sourcegitcommit: 96febfae562d604d9affc60028975881f5d6fb7c
+ms.openlocfilehash: 35985ab9d930c5c689c196697957a672111263ab
+ms.sourcegitcommit: a1524afb546fde9844f53390fab85e7073da8cb2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "48599536"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "48778874"
 ---
 # <a name="ip-phones-certified-for-microsoft-teams"></a>Telefones IP certificados para o Microsoft Teams
 
@@ -63,7 +63,7 @@ Os seguintes telefones são certificados para o Microsoft Teams:
 | Yealink CP 960                         | 73.15.0.20                                                                                                                                                                                                                                 | Dezembro de 2018                |
 | Yealink T58 & série T56               | 58.15.0.20                                                                                                                                                                                                                                 | Dezembro de 2018                |
 
-## <a name="certified-collaboration-bars"></a>Barras de colaboração certificadas
+## <a name="currently-certified-collaboration-bars"></a>Barras de colaboração certificadas no momento
 
 As seguintes barras de colaboração são certificadas para o Microsoft Teams:
 
@@ -73,37 +73,42 @@ As seguintes barras de colaboração são certificadas para o Microsoft Teams:
 | X50 de Polyline Studio         | 3.1.1.216109     | De junho de 2020     | Sala de foco (3m x 3ms) </br> Pequena sala de reunião (4,5 m x 4,5 m) |
 | Yealink VC210           | 118.15.0.14      | Fevereiro de 2020 | Sala de foco (3m x 3ms) </br> Pequena sala de reunião (4,5 m x 4,5 m) |
 
+## <a name="currently-certified-teams-display"></a>Exibição de equipes certificadas no momento
+As seguintes telas do Microsoft Teams são certificadas para o Microsoft Teams:
+
+| Modelo de exibição de equipes | Versão do firmware | Data do lançamento  |                                         
+|:------------------------|:-----------------|:--------------|
+|Exibição ThinkSmart do Lenovo|CD-18781Y. 201006.099|Outubro de 2020 |
+
 ### <a name="product-release-information-for-teams-phones"></a>Informações de lançamento do produto para telefones de equipes
 
 Veja a seguir as versões mais recentes do aplicativo e do firmware para telefone IP do teams.
-
-#### <a name="release-date-august-312020"></a>Data do lançamento: 31 de agosto de 2020
 
 #### <a name="app-versions"></a>Versões do aplicativo
 
 | Lançamento do produto | Data do lançamento  | Versão do aplicativo Microsoft Teams | Versão do portal da empresa | Versão do agente de administração |
 |:----------------|:--------------|:----------------------------|:-----------------------|:--------------------|
-| Atualizar #6       | 12 de outubro de 2020|1449/1.0.94.2020091801     | 5.0.4912.0             | produto 1.0.0.202006290446. (216) |
-| Atualizar #5       | 31 de agosto de 2020 | 1449/1.0.94.2020071702    | 5.0.4867.0             | produto 1.0.0.202006290446. (216) |
-| Atualizar #4       | 30 de junho de 2020 | 1449/1.0.94.2020051601      | 5.0.4771.0             | 1.0.0.202005060552  |
-| Atualizar #3       | 13 de maio de 2020  | 1449/1.0.94.2020040801      | 5.0.4715.0             | 1,210               |
+| Atualizar #6  | 12 de outubro de 2020  |1449/1.0.94.2020091801     | 5.0.4912.0             | produto 1.0.0.202006290446. (216) |
+| Atualizar #5  | 31 de agosto de 2020 | 1449/1.0.94.2020071702    | 5.0.4867.0             | produto 1.0.0.202006290446. (216) |
+| Atualizar #4  | 30 de junho de 2020 | 1449/1.0.94.2020051601      | 5.0.4771.0             | 1.0.0.202005060552  |
+| Atualizar #3  | 13 de maio de 2020  | 1449/1.0.94.2020040801      | 5.0.4715.0             | 1,210               |
 
 #### <a name="firmware-versions"></a>Versões do firmware
 
 Ao instalar uma nova versão de firmware em seu dispositivo, você pode determinar o aplicativo Microsoft Teams, o portal da empresa e o agente de administração correspondentes, versões que são instaladas encontrando a versão do produto na coluna **lançamento do produto incluído** . Em seguida, procure a versão do produto na tabela **versões do aplicativo** acima.
 
-| Modelo de dispositivo        | Versão do firmware     | Lançamento do produto incluído |
+| Modelo de dispositivo        | Versão do firmware     | Ano/lançamento do produto incluído  |
 |:--------------------|:---------------------|:-------------------------|
-| AudioCodes C448HD   | C450HD_TEAMS_1.7.9   | Atualizar #6                |
-| AudioCodes C450HD   | C450HD_TEAMS_1.7.9   | Atualizar #6                |
-|Exibição ThinkSmart do Lenovo|CD-18781Y. 200922.098 | Atualizar #6                |
-| CCX400 de Polyline         | 6.2.22.0185          | Atualizar #6                |
-| CCX500/CCX600  | 6.2.22.0185          | Atualizar #6                |
-| C60 de Polyline trio       | 5.9.5.2983           | Atualizar #6                |
-| Yealink T55/T56/T58 | 58.15.0.116          | Atualizar #6                |
-| Yealink MP56        | 122.15.0.23          | Atualizar #6                |
-| Yealink VP59        | 91.15.0.48           | Atualizar #6                |
-| Yealink CP960       | 73.15.0.109          | Atualizar #6                |
+| AudioCodes C448HD   | C450HD_TEAMS_1.7.9   | 2020, Update #6           |
+| AudioCodes C450HD   | C450HD_TEAMS_1.7.9   | 2020, Update #6           |
+|Exibição ThinkSmart do Lenovo|CD-18781Y. 200922.098 | 2020, Update #6           |
+| CCX400 de Polyline         | 6.2.22.0185          | 2020, Update #6           |
+| CCX500/CCX600  | 6.2.22.0185          | 2020, Update #6           |
+| C60 de Polyline trio       | 5.9.5.2983           | 2020, Update #6           |
+| Yealink T55/T56/T58 | 58.15.0.116          | 2020, Update #6           |
+| Yealink MP56        | 122.15.0.23          | 2020, Update #6           |
+| Yealink VP59        | 91.15.0.48           | 2020, Update #6           |
+| Yealink CP960       | 73.15.0.109          | 2020, Update #6           |
 
 ### <a name="product-release-information-for-collaboration-bars"></a>Informações de lançamento do produto para as barras de colaboração
 
@@ -111,20 +116,38 @@ Veja a seguir as versões mais recentes do aplicativo da barra de colaboração 
 
 #### <a name="app-versions"></a>Versões do aplicativo
 
-| Lançamento do produto | Data do lançamento | Versão do aplicativo Microsoft Teams | Versão do portal da empresa | Versão do agente de administração |
+| Lançamento do produto| Data do lançamento | Versão do aplicativo Microsoft Teams | Versão do portal da empresa | Versão do agente de administração |
 |:----------------|:-------------|:----------------------------|:-----------------------|:--------------------|
-| Atualizar #2       | 24 de agosto de 2020| 1449/1.0.94.2020062501    | 5.0.4771.0    | 1.0.0.202005060552. Product versioncode: 212|
-| Atualizar #1       | 13 de maio de 2020 | .040901                     | .4715                  | .210                |
+| Atualizar #2  | 24 de agosto de 2020| 1449/1.0.94.2020062501    | 5.0.4771.0    | 1.0.0.202005060552. Product versioncode: 212|
+| Atualizar #1  | 13 de maio de 2020 | .040901                     | .4715                  | .210                |
 
 #### <a name="firmware-versions"></a>Versões do firmware
 
 Ao instalar uma nova versão de firmware em seu dispositivo, você pode determinar o aplicativo Microsoft Teams, o portal da empresa e o agente de administração correspondentes, versões que são instaladas encontrando a versão do produto na coluna **lançamento do produto incluído** . Em seguida, procure a versão do produto na tabela **versões do aplicativo** acima.
 
-| Modelo de dispositivo  | Versão do firmware | Lançamento do produto incluído |
+| Modelo de dispositivo  | Versão do firmware | Ano/lançamento do produto incluído |
 |:--------------|:-----------------|:-------------------------|
-| Yealink VC210 + CP900 | 118.15.0.32      | Atualizar #2         |
-| X30 de Polyline Studio | 3.2.0.222012          | Atualizar #2         |
-| X50 de Polyline Studio | 3.2.0.222012          | Atualizar #2         |
+| Yealink VC210 + CP900 | 118.15.0.32     | 2020, Update #2    |
+| X30 de Polyline Studio | 3.2.0.222012          | 2020, Update #2    |
+| X50 de Polyline Studio | 3.2.0.222012          | 2020, Update #2    |
+
+### <a name="product-release-information-for-teams-display"></a>Informações de lançamento do produto para a exibição do teams
+
+Veja a seguir as versões mais recentes de aplicativos de exibição de aplicativos e firmware.
+
+#### <a name="app-versions"></a>Versões do aplicativo
+
+|Lançamento do produto| Data do lançamento | Versão do aplicativo Microsoft Teams | Versão do portal da empresa | Versão do agente de administração |
+|:----------------|:-------------|:----------------------------|:-----------------------|:--------------------|
+|Atualizar #1  |22 de outubro de 2020 |1449/1.0.95.2020092307    |5.0.4927.0              |produto 1.0.0.202006290446.|
+
+#### <a name="firmware-versions"></a>Versões do firmware
+
+Ao instalar uma nova versão de firmware em seu dispositivo, você pode determinar o aplicativo Microsoft Teams, o portal da empresa e o agente de administração correspondentes, versões que são instaladas encontrando a versão do produto na coluna **lançamento do produto incluído** . Em seguida, procure a versão do produto na tabela **versões do aplicativo** acima.
+
+| Modelo de dispositivo  | Versão do firmware | Ano/lançamento do produto incluído|
+|:--------------|:-----------------|:-------------------------|
+|Exibição ThinkSmart do Lenovo| CD-18781Y. 201006.099 |2020, Update #1 |
 
 Consulte [conjunto de recursos de telefones do Microsoft Teams](/MicrosoftTeams/devices/phones-for-teams#microsoft-teams-phones-feature-set) para obter informações sobre os recursos compatíveis com esses dispositivos.
 

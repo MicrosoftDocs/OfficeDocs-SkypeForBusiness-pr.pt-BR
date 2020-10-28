@@ -17,12 +17,12 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: ''
 description: Usar o Microsoft Teams para configurar seu sistema de visitas virtuais
-ms.openlocfilehash: dcf852486d6a7fbace23bea5fb8610c62bdc7e4f
-ms.sourcegitcommit: 0a51738879b13991986a3a872445daa8bd20533d
+ms.openlocfilehash: 3d5d68e7c4ba3cc203df33604a7210e67b402938
+ms.sourcegitcommit: a1524afb546fde9844f53390fab85e7073da8cb2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/27/2020
-ms.locfileid: "48766714"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "48778884"
 ---
 # <a name="virtual-visits-with-teams---integration-into-ehr"></a>Visitas virtuais com o Teams-integração ao EHR
 
@@ -35,6 +35,10 @@ A plataforma de comunicação e colaboração de equipes torna mais fácil para 
 - Escreva novamente em metadados do EHR em eventos de conexão e desconexão para habilitar a auditoria automática e a manutenção de registros.
 
 - Integre-se a fluxos de trabalho clínicos e de pacientes existentes, permitindo que eles usem o Microsoft Teams.
+
+  Assista ao vídeo sobre como gerenciar visitas virtuais no portal EHR.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4HAtn]
 
 ## <a name="before-you-begin"></a>Antes de você começar
 

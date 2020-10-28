@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a524b551911add01979f9563ab7233a46b93053c
-ms.sourcegitcommit: 3b54a56ec1fe4366580621e19cdbb6a833a01161
+ms.openlocfilehash: 484b3ac3fd3545ce306dcb6e3d833bb523df5a86
+ms.sourcegitcommit: 18b5e3487ba1350c5d2e6d676a4ab582b5b638d4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "48361651"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "48772192"
 ---
 # <a name="get-started-with-teams-templates-using-microsoft-graph"></a>Introdução aos modelos do Microsoft Teams usando o Microsoft Graph
 
@@ -64,7 +64,7 @@ Tipos de modelo básico são modelos especiais criados pela Microsoft para indú
 
 Depois que um tipo de modelo base é definido, você pode estender ou substituir esses modelos especiais por propriedades adicionais que gostaria de especificar. Alguns tipos de modelo básico contêm propriedades que não podem ser substituídas.
 
-Por padrão, o modelo base é definido como **padrão**, que não contém nenhum aplicativo proprietário adicional ou propriedades especiais. Abaixo está a lista atual de tipos de modelo base disponíveis.
+Por padrão, o modelo base é definido como **padrão** , que não contém nenhum aplicativo proprietário adicional ou propriedades especiais. Abaixo está a lista atual de tipos de modelo base disponíveis.
 
 | Tipo de modelo base | baseTemplateId | Propriedades que vêm com este modelo base |
 | ------------------ | -------------- | ----------------------------------------------------- |
@@ -77,6 +77,29 @@ Por padrão, o modelo base é definido como **padrão**, que não contém nenhum
 | Intensivo<br>Flecha |`https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareWard')` |Canais <ul><li>Comunicados\*</li><li>Huddles\*</li><li>Arredonda</li><li>Especificam\*</li><li>Treinamento\*</li></ul>\*Canais de favoritos automáticos |
 |Intensivo<br>Hospital | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareHospital')` |Canais<ul><li>Comunicados\*</li><li>Conformidade\*</li><li>Custodial</li><li>Recursos humanos</li></li><li>Farmácia</li></ul>\*Canal de preferência automática|
 |||
+
+
+Use os modelos a seguir para criar equipes no cliente do Teams e no Microsoft Graph.
+
+
+| Tipo de modelo base | baseTemplateId | Propriedades que vêm com este modelo base |
+| ------------------ | -------------- | ----------------------------------------------------- |
+| Adotar o Office 365 |`com.microsoft.teams.template.`<br>`AdoptOffice365`|  Canais <ul><li>Geral</li> <li>Comunicados</li> <li>Canto dos Campeões</li> <li>Formulários de equipe</li></ul> Aplicativo <ul><li>Wiki</li>  <li>Calendário</li> |
+| Gerenciar um projeto |`com.microsoft.teams.template.`<br>`ManageAProject`| Canais <ul><li>Geral</li> <li>Comunicados</li> <li>Recursos</li> <li>Planejamento</li></ul> Aplicativo<ul><li>Wiki</li><li>OneNote</li></ul> |
+| Gerenciar um evento|`com.microsoft.teams.template.`<br>`ManageAnEvent` | Canais <ul><li>Geral</li> <li>Comunicados</li> <li>Orçamento</li> <li>Conteúdo</li><li>Logística</li> <li>Planejamento</li> <li> Marketing e PR</li></ul> Aplicativo<ul><li>Wiki</li><li>Site</li> <li>YouTube</li> <li>Planner</li> <li>OneNote</li></ul> |
+|Funcionários onboard|`com.microsoft.teams.template.`<br>`OnboardEmployees` | Canais <ul><li>Geral</li> <li>Comunicados</li> <li>Chat de funcionários</li> <li>Treinamento</li></ul>Aplicativo<ul><li>Wiki</li><li>Às</li></ul>|
+|Organizar o Help Desk| `com.microsoft.teams.template.`<br>`OrganizeHelpDesk`|Canais<ul><li>Geral</li><li>Comunicados</li><li>Perguntas frequentes</li></ul>Aplicativo<ul><li>Wiki</li><li>OneNote</li></ul> |
+| Colabore no atendimento ao paciente| `healthcareWard `| Canais<ul><li>Geral</li><li>Comunicados</li><li>Huddles</li><li>Arredonda</li><li>Especificam</li><li>Treinamento</li></ul> Aplicativo <ul><li>Wiki</li>|
+| Colaborar em uma crise global ou em um evento |`com.microsoft.teams.template.`<br>`CollaborateOnAGlobalCrisisOrEvent`| Canais <ul><li>Geral<li>Comunicados</li><li>Notícias do mundo</li><li>Continuidade de negócios</li><li>Trabalho remoto</li><li>Comms internas</li><li>Comentários externos</li><li>Reclamações do cliente</li><li>Parabéns</li><li>Atualização executiva</li></ul>Aplicativo <ul><li>Elogia</li><li>Wiki</li><li>Site</li></ul>|
+|Colaborar dentro de um Branch bancário| `com.microsoft.teams.template.`<br>`CollaborateWithinABankBranch `|Canais <ul><li>Geral<li>Comunicados</li><li>Huddles</li><li>Reuniões do cliente</li><li>Treina</li><li>Desenvolvimento de habilidades</li><li>Processamento de empréstimos</li><li>Reclamações do cliente</li><li>Parabéns</li><li>Coisas divertidas</li><li>Conformidade</li></ul>|
+|Coordenar resposta a incidentes| `com.microsoft.teams.template.`<br>`CoordinateIncidentResponse`|Canais <ul><li>Geral<li>Comunicados</li><li>Logística</li><li>Planejamento</li><li>Automatiza</li><li>Urgente</li></ul> Aplicativo <ul><li>Wiki</li><li>Excel</li><li>OneNote</li><li>SharePoint</li><li>Planner</li></ul>|
+|Hospital| `healthcareHospita`t |Canais <ul><li>Geral<li>Comunicados</li><li>Conformidade</li><li>Custodial</li><li>Recursos humanos</li><li>Farmácia</li></ul> Aplicativo <ul><li>Wiki</li></ul>|
+|Organizar uma loja| `retailStore` |Canais <ul><li>Geral<li>Deslocar entrega</li><li>Aprendizagem</li></ul> Aplicativo <ul><li>Wiki</li></ul>|
+|Qualidade e segurança |`com.microsoft.teams.`<br>`template.QualitySafety`|Canais <ul><li>Geral<li>Comunicados</li><li>Linha 1</li><li>Linha 2</li><li>Linha 3</li><li>Segurança</li><li>Treinamento</li><li>Manutenção</li><li>Coisas divertidas</li></ul> Aplicativo <ul><li>Wiki</li></ul>|
+|Colaboração do gerente de varejo| `retailManagerCollaboration` |Canais <ul><li>Geral<li>Operações</li><li>Aprendizagem</li></ul> Aplicativo <ul><li>Wiki</li></ul>|
+||||
+
+Para obter mais detalhes, consulte [introdução aos modelos de equipe no centro de administração](get-started-with-teams-templates-in-the-admin-console.md) .
 
 ## <a name="related-topics"></a>Tópicos relacionados
 

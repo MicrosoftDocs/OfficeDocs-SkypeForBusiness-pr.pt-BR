@@ -18,12 +18,12 @@ appliesto:
 ms.reviewer: ''
 description: Saiba mais sobre os recursos de assistência médica que incluem coordenação, mensagens de segurança, visita virtual, integração do EHR e primeira integração do sistema de trabalho.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: ab34d5da83a189c3d135c330bbe2fe015d248349
-ms.sourcegitcommit: 0a51738879b13991986a3a872445daa8bd20533d
+ms.openlocfilehash: 6c00c4ba2ccdc6164c4c9e2bdf56b8fd1583eed4
+ms.sourcegitcommit: 18b5e3487ba1350c5d2e6d676a4ab582b5b638d4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 10/27/2020
-ms.locfileid: "48766834"
+ms.locfileid: "48772292"
 ---
 # <a name="get-started-with-teams-for-healthcare-organizations"></a>Comece a usar o Microsoft Teams para organizações de assistência médica
 
@@ -94,6 +94,9 @@ Além disso, sua equipe pode usar aplicativos no Teams para:
 - Criar, gerenciar e compartilhar cronogramas com o aplicativo turnos
 
 ### <a name="share-lists-and-track-information-with-the-lists-app"></a>Compartilhar listas e controlar informações com o aplicativo listas
+
+> [!NOTE]
+> A partir de 30 de outubro de 2020, o aplicativo pacientes será desativado e substituído pelo [aplicativo listas](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db) no Teams. Com listas, equipes de cuidado em sua organização de assistência médica podem criar listas de pacientes para cenários que vão desde rodadas e reuniões interdisciplinares de equipe até o monitoramento geral do paciente.
 
 O aplicativo listas no Teams ajuda as equipes a acompanhar informações e organizar o trabalho. O aplicativo é pré-instalado para todos os usuários do Teams e está disponível como uma guia em cada equipe e canal. As listas podem ser criadas do zero, de modelos predefinidos ou importando dados para o Excel.
 
