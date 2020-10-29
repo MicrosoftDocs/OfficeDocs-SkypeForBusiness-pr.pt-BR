@@ -1,10 +1,10 @@
 ### YamlMime:Hub
 title: Giz palestras do Microsoft Teams
-summary: Projetado para profissionais de ti e tomadores de decisões, a palestra em palestras oferece uma oportunidade única para aprender práticas recomendadas e orientação prática sobre alguns dos cenários mais populares e atraentes do teams. Clique em qualquer título do workshop para se registrar.
+summary: Projetado para profissionais de ti e tomadores de decisões, a palestra em palestras oferece uma oportunidade única para aprender práticas recomendadas e orientação prática sobre alguns dos cenários mais populares e atraentes do teams.
 brand: teams
 metadata:
   title: Giz palestras do Microsoft Teams
-  description: Projetado para profissionais de ti e tomadores de decisões, a palestra em palestras oferece uma oportunidade única para aprender práticas recomendadas e orientação prática sobre alguns dos cenários mais populares e atraentes do teams. Facilitada por especialistas no assunto, esses workshops interativos online vão rearmar você com o insights para aprimorar a implementação de suas equipes e fornecer valor adicional para os usuários finais. Clique no título de qualquer Workshop abaixo para ver as datas e horários disponíveis e inscreva-se agora! Clique em qualquer título do workshop para se registrar.
+  description: Projetado para profissionais de ti e tomadores de decisões, a palestra em palestras oferece uma oportunidade única para aprender práticas recomendadas e orientação prática sobre alguns dos cenários mais populares e atraentes do teams. Facilitada por especialistas no assunto, esses workshops interativos online vão rearmar você com o insights para aprimorar a implementação de suas equipes e fornecer valor adicional para os usuários finais. Clique no título de qualquer Workshop abaixo para ver as datas e horários disponíveis e inscreva-se agora!
   ms.service: msteams
   ms.topic: hub-page
   author: SerdarSoysal
@@ -25,18 +25,15 @@ metadata:
   search.appverid: MET150
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: aeb244d8969ad3f8463cd966a6f0facae68f08e0
-  ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+  ms.openlocfilehash: 6a30116a884ea2cbe66447b36071ba71e29f50e4
+  ms.sourcegitcommit: 62d5ccf10202a50755166e3b8de0bd31d1f94fef
   ms.translationtype: MT
   ms.contentlocale: pt-BR
-  ms.lasthandoff: 08/06/2020
-  ms.locfileid: "46583460"
+  ms.lasthandoff: 10/28/2020
+  ms.locfileid: "48790593"
 productDirectory:
+  summary: Clique em qualquer título do workshop para se registrar.
   items:
-  - title: Acessar o Microsoft Teams--zero para produção
-    imageSrc: https://docs.microsoft.com/office/media/icons/list-123-teams.svg
-    summary: Em breve! Comece a implementar a implementação do seu Teams para colaboração, chat e reuniões. Compartilharemos configurações importantes, considerações, práticas recomendadas e recursos para que os usuários funcionem rapidamente.
-    url: http://aka.ms/ChalkTalkGTT
   - title: Então... você deseja fazer chamadas com o Microsoft Teams?
     imageSrc: https://docs.microsoft.com/office/media/icons/headset-teams.svg
     summary: Junte-se a nós para ter uma visão profunda da adição de recursos de chamada PSTN à implantação do seu Teams. Juntos, vamos examinar a terminologia de chamadas, os principais conceitos e as configurações.
@@ -45,18 +42,14 @@ productDirectory:
     imageSrc: https://docs.microsoft.com/office/media/icons/education-tutorial-teams.svg
     summary: Procurando garantir que os usuários tenham experiências ideais com reuniões e recursos de voz? Vamos discutir ferramentas, relatórios e práticas recomendadas para ajudá-lo a gerenciar a qualidade do serviço--desde o estabelecimento de uma estratégia pró-ativa para a solução de problemas comuns.
     url: https://microsoftteams.eventbuilder.com/ChalkTalksQuality
-  - title: Faça mais com aplicativos no Microsoft Teams
+  - title: Aplicativos em fundamentos da equipe
     imageSrc: https://docs.microsoft.com/office/media/icons/cloud-devtest-teams.svg
     summary: Esta sessão de fundação abrange recursos básicos, incluindo gerenciamento e segurança de aplicativos. Saiba como integrar seus fluxos de trabalho, aplicativos de produtividade e os serviços que você usa todos os dias em uma única experiência unificada.
     url: https://microsoftteams.eventbuilder.com/ChalkTalksApps
-  - title: Automatizar fluxos de trabalho de ti com o Teams
+  - title: Fluxos de trabalho da chave turbinados com aplicativos no Teams
     imageSrc: https://docs.microsoft.com/office/media/icons/layout-navigation-teams.svg
-    summary: Em breve! Automatize seus processos de ti usando aplicativos disponíveis no Microsoft Teams. Abordaremos cenários comuns como assistência técnica e compartilhamento de conhecimento para que sua equipe possa economizar tempo e se concentrar no que é importante.
-    url: https://aka.ms/ChalkTalkAutoIT
-  - title: Como habilitar o Microsoft Teams para o envolvimento do trabalho da primeira
-    imageSrc: https://docs.microsoft.com/office/media/icons/clock-teams.svg
-    summary: Pronto para começar a habilitar os espaços de trabalho digitais para a sua primeira força de trabalho? Juntos, abordaremos as práticas recomendadas para iniciar um piloto para melhorar a comunicação, o envolvimento do funcionário e a produtividade operacional.
-    url: https://microsoftteams.eventbuilder.com/ChalkTalksEnableFirstline
+    summary: Conecte seus sistemas, aumente a automação e forneça experiências aprimoradas para os usuários trazendo os aplicativos que a sua organização conta no Teams.
+    url: https://aka.ms/ChalkTalkKeyApps
 additionalContent:
   sections:
   - items:
