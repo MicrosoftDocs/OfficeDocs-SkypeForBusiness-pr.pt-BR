@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: Saiba como planejar a bypass de mídia com o roteamento direto do sistema telefônico, o que permite reduzir o caminho do tráfego de mídia e melhorar o desempenho.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: cabbfd62ecc1a86d6e893d8d26ecdbe6cbbe7dbb
-ms.sourcegitcommit: 51d94d621e3411f35622e852b699275f526600dd
+ms.openlocfilehash: efd6d4275d1e83df7821f178ddac8027039b6fce
+ms.sourcegitcommit: 62d5ccf10202a50755166e3b8de0bd31d1f94fef
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/15/2020
-ms.locfileid: "48469577"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "48790653"
 ---
 # <a name="plan-for-media-bypass-with-direct-routing"></a>Planejar o bypass de mídia com Roteamento Direto
 
@@ -42,11 +42,11 @@ Sem bypass de mídia, quando um cliente faz ou recebe uma chamada, tanto a sinal
 
 Mas vamos pressupor que um usuário esteja no mesmo prédio ou na mesma rede do SBC. Por exemplo, suponha que um usuário que está em um edifício em Frankfurt faça uma chamada para um usuário PSTN: 
 
-- **Sem bypass de mídia**, a mídia fluirá via Amsterdã ou Dublin (em que o Microsoft datacenters será implantado) e voltará para o SBC em Frankfurt. 
+- **Sem bypass de mídia** , a mídia fluirá via Amsterdã ou Dublin (em que o Microsoft datacenters será implantado) e voltará para o SBC em Frankfurt. 
 
   O datacenter na Europa está selecionado porque o SBC está na Europa e a Microsoft usa o datacenter mais próximo do SBC. Embora essa abordagem não afete a qualidade da chamada devido à otimização do fluxo de tráfego nas redes Microsoft na maioria dos países, o tráfego tem um loop desnecessário.     
 
-- **Com o bypass de mídia**, a mídia é mantida diretamente entre o usuário do Teams e o SBC, conforme mostrado no diagrama a seguir:
+- **Com o bypass de mídia** , a mídia é mantida diretamente entre o usuário do Teams e o SBC, conforme mostrado no diagrama a seguir:
 
   > [!div class="mx-imgBorder"]
   > ![Mostra a sinalização e o fluxo de mídia com bypass de mídia](media/direct-routing-media-bypass-2.png)
@@ -193,7 +193,7 @@ Você deve colocar esses três FQDNs em ordem para:
 - Fornecer failover quando uma conexão de um SBC é estabelecida com um datacenter que está apresentando um problema temporário. Para obter mais informações, consulte o mecanismo de failover abaixo.
 
 
-Os FQDNs **SIP.pstnhub.Microsoft.com**, **SIP2.pstnhub.Microsoft.com**e **sip3.pstnhub.Microsoft.com** serão resolvidos como um dos seguintes endereços IP:
+Os FQDNs **SIP.pstnhub.Microsoft.com** , **SIP2.pstnhub.Microsoft.com** e **sip3.pstnhub.Microsoft.com** serão resolvidos como um dos seguintes endereços IP:
 - 52.114.148.0
 - 52.114.132.46
 - 52.114.16.74
@@ -352,7 +352,7 @@ O exemplo a seguir ilustra essa lógica.
 Usuários com tronco bypass sem mídia | 980 | sbc1.contoso.com:5060 | verdadeiro
 Usuários com tronco de bypass de mídia | cedido | sbc2.contoso.com:5061 | falsas | 
 
-Os dois troncos podem apontar para o mesmo SBC com o mesmo endereço IP público. As portas de sinalização TLS no SBC devem ser diferentes, conforme mostrado no diagrama a seguir. Observação Você precisará verificar se o seu certificado dá suporte a ambos troncos. Na SAN, você precisa ter dois nomes (**sbc1.contoso.com** e **sbc2.contoso.com**) ou ter um certificado curinga.
+Os dois troncos podem apontar para o mesmo SBC com o mesmo endereço IP público. As portas de sinalização TLS no SBC devem ser diferentes, conforme mostrado no diagrama a seguir. Observação Você precisará verificar se o seu certificado dá suporte a ambos troncos. Na SAN, você precisa ter dois nomes ( **sbc1.contoso.com** e **sbc2.contoso.com** ) ou ter um certificado curinga.
 
 > [!div class="mx-imgBorder"]
 > ![Mostra que os dois troncos podem apontar para o mesmo SBC com o mesmo IP público](media/direct-routing-media-bypass-7.png)
@@ -366,9 +366,9 @@ Para obter informações sobre como configurar dois troncos no mesmo SBC, consul
 
 ## <a name="client-endpoints-supported-with-media-bypass"></a>Pontos de extremidade do cliente com suporte com bypass de mídia
 
-O bypass de mídia é compatível com todos os clientes de desktop de equipe e dispositivos telefônicos de equipe. 
+O bypass de mídia é compatível com todos os clientes de desktop de equipe autônomo, clientes Android e iOS e dispositivos telefônicos de equipe. 
 
-Para todos os outros pontos de extremidade que não são compatíveis com o bypass de mídia, veremos a chamada para non-bypass, mesmo que ele tenha começado como uma chamada de bypass. Isso acontece automaticamente e não requer nenhuma ação do administrador. Isso inclui os telefones do Skype for Business 3PIP e os clientes Web do teams que dão suporte a chamadas de roteamento direto (novo Microsoft Edge baseado no Chromium, Google Chrome, Mozilla Firefox). 
+Para todos os outros pontos de extremidade que não são compatíveis com o bypass de mídia, converteremos a chamada em non-bypass, mesmo que ele tenha começado como uma chamada de bypass. Isso acontece automaticamente e não requer nenhuma ação do administrador. Isso inclui os telefones do Skype for Business 3PIP e os clientes Web do teams que dão suporte a chamadas de roteamento direto (clientes baseados em WebRTC executados no Microsoft Edge, Google Chrome e Mozilla Firefox). 
  
 ## <a name="see-also"></a>Confira também
 

@@ -7,23 +7,27 @@ audience: ITPro
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
+searchScope:
+- Microsoft Teams
+- Microsoft Cloud for Healthcare
 f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_Healthcare
+- microsoftcloud-healthcare
 appliesto:
 - Microsoft Teams
 ms.reviewer: acolonna
 description: Saiba como um usuário com status ausente ou não incomodar pode definir explicitamente outro usuário como representante em sua mensagem de status.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 5fea05e8f316117ae711cc9f00da752c45959f2e
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: ac23afbea7f452967718a8c2d86fd4d36584492d
+ms.sourcegitcommit: 62d5ccf10202a50755166e3b8de0bd31d1f94fef
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43904733"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "48790463"
 ---
 # <a name="message-delegation"></a>Delegação de mensagem
 
@@ -45,7 +49,7 @@ Esse é um processo iniciado pelo usuário no cliente e não é necessário ter 
 
 Os administradores devem estar cientes de que as anotações de status e os comportamentos de referência de delegação dependerão parcialmente do modo de coexistência de um usuário. Esta matriz mostra as possibilidades:
 
-|Modo de co-existência | Comportamento esperado|
+|Modo de Co-Existence | Comportamento esperado|
 |---|---|
 |TeamsOnly |Os usuários podem definir uma anotação apenas do teams. <br> A nota de equipes do usuário é visível no Teams & SfB. |
 |Ilhas | Anotação do usuário definida em equipes visíveis somente no Teams. <br> Nota do usuário definida no SfB visível apenas em SfB |

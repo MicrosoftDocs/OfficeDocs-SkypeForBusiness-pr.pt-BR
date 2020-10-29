@@ -7,23 +7,27 @@ audience: ITPro
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
+searchScope:
+- Microsoft Teams
+- Microsoft Cloud for Healthcare
 f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_Healthcare
+- microsoftcloud-healthcare
 appliesto:
 - Microsoft Teams
 ms.reviewer: ''
 description: Saiba mais sobre os recursos de assistência médica que incluem coordenação, mensagens de segurança, visita virtual, integração do EHR e primeira integração do sistema de trabalho.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 6c00c4ba2ccdc6164c4c9e2bdf56b8fd1583eed4
-ms.sourcegitcommit: 18b5e3487ba1350c5d2e6d676a4ab582b5b638d4
+ms.openlocfilehash: f21871a016bbe42dafe89b12b0c84270355ce412
+ms.sourcegitcommit: 62d5ccf10202a50755166e3b8de0bd31d1f94fef
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/27/2020
-ms.locfileid: "48772292"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "48790629"
 ---
 # <a name="get-started-with-teams-for-healthcare-organizations"></a>Comece a usar o Microsoft Teams para organizações de assistência médica
 
@@ -35,7 +39,14 @@ O Microsoft Teams oferece diversos recursos úteis para hospitais e outras organ
 - Modelos de equipe
 - Coordenação e colaboração de cuidados
 
-O conteúdo desta seção pressupõe que você já implantou o Microsoft Teams em sua organização. Se você ainda não distribuiu o Microsoft Teams, comece lendo [como implantar o Microsoft Teams](../../How-to-roll-out-teams.md).
+Esta funcionalidade faz parte da Microsoft Cloud para assistência médica. Saiba mais sobre como usar esta solução, que reúne recursos do Azure, do Dynamics 365 e do Microsoft 365 no [Microsoft Cloud para assistência médica](https://docs.microsoft.com/industry/healthcare).
+
+Assista ao vídeo a seguir para saber mais sobre como usar o conjunto de assistência médica para aprimorar a colaboração da equipe de saúde no Microsoft Teams.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4Hqan]
+
+> [!NOTE]
+> O conteúdo desta seção pressupõe que você já implantou o Microsoft Teams em sua organização. Se você ainda não distribuiu o Microsoft Teams, comece lendo [como implantar o Microsoft Teams](../../How-to-roll-out-teams.md).
 
 ## <a name="virtual-visits-and-electronic-healthcare-record-ehr-integration"></a>Integração de visitas virtuais e do EHR (Electronic Healthcare Record)
 
@@ -65,13 +76,13 @@ As mensagens seguras dão suporte à colaboração em equipes de saúde, incluin
 
 Juntos, esses recursos permitem uma atenção mais rápida para mensagens urgentes e confiança de que a mensagem foi recebida e lida. Novas equipes de integridade que usam esses recursos podem ser criadas em uma base por paciente. Esses recursos são baseados em políticas e podem ser atribuídos a indivíduos ou a equipes inteiras.
 
-Consulte [introdução ao Secure Messaging Policies for Healthcare para empresas](messaging-policies-hc.md) para obter mais detalhes.
+Para saber mais, confira [introdução ao Secure Messaging Policies for Healthcare organizações](messaging-policies-hc.md).
 
 Também relacionados a mensagens seguras é a capacidade de ter outros locatários agrupados por organizações de assistência médica, permitindo comunicações mais ricas entre os locatários. (Consulte [gerenciar o acesso externo (Federação) no Microsoft Teams](../../manage-external-access.md)).
 
 ## <a name="teams-templates-for-healthcare-organizations"></a>Modelos de equipe para organizações de assistência médica
 
-Novos modelos para a criação de equipes foram desenvolvidos para serem aplicados a uma configuração do hospital e mais esperadas em breve. Isso facilita a criação de equipes que os funcionários da área de saúde usam para coordenar o cuidado com pacientes em vários departamentos ou em diante. Consulte [introdução aos modelos de equipe para organizações de assistência médica](healthcare-templates.md). As equipes podem ser iniciadas para departamentos internos, como cardiologia ou para portabilidade, e mais modelos estão em desenvolvimento.
+Novos modelos para a criação de equipes foram desenvolvidos para serem aplicados a uma configuração do hospital e mais esperadas em breve. Isso facilita a criação de equipes que os funcionários da área de saúde usam para coordenar o cuidado com pacientes em vários departamentos ou em diante. Para saber mais, confira [introdução aos modelos de equipe para organizações de assistência médica](healthcare-templates.md). As equipes podem ser iniciadas para departamentos internos, como cardiologia ou para portabilidade, e mais modelos estão em desenvolvimento.
 
 ## <a name="care-coordination-and-collaboration"></a>Coordenação e colaboração de cuidados
 

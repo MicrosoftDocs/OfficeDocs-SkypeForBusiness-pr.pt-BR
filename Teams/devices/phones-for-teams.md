@@ -17,12 +17,12 @@ ms.collection:
 search.appverid: MET150
 localization_priority: Normal
 description: Este artigo aborda a lista de telefones certificados para o Microsoft Teams e os recursos com suporte nos telefones certificados para o Microsoft Teams.
-ms.openlocfilehash: cd38586b67f728febb4a43d3f018875b378cffd8
-ms.sourcegitcommit: b255db7ef816d1884c9c71af86a901bd83a1d9ab
+ms.openlocfilehash: a4fc3a6516881d6f865b22cbf92d85af6859cb14
+ms.sourcegitcommit: e07b2d7470b93e52b9e85207db0d6fa3a136efd9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/18/2020
-ms.locfileid: "47962842"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "48787025"
 ---
 # <a name="phones-for-microsoft-teams"></a>Telefones para o Microsoft Teams
 
@@ -33,6 +33,7 @@ Para oferecer uma experiência de alta qualidade e confiabilidade do Microsoft T
 Para gerenciar telefones, você precisa ser um administrador global, administrador de serviços do teams ou administrador de dispositivos do teams. Para obter mais informações sobre funções de administrador, consulte [usar funções de administrador do Microsoft Teams para gerenciar o Teams](../using-admin-roles.md).
 
 ## <a name="features-supported-by-teams-phones"></a>Recursos compatíveis com telefones de equipes
+
 Os telefones certificados pela equipe têm uma ampla variedade de recursos para ajudar os usuários a realizar seus trabalhos e ajudá-lo a gerenciar o uso deles. Aqui está um resumo dos recursos disponíveis em telefones certificados pela equipe:
 
 - **Autenticação** Os telefones usam autenticação moderna para simplificar a conexão e melhorar a segurança. Os usuários podem entrar digitando o nome de usuário e a senha do telefone ou conectando-se a partir de outro dispositivo, como PC/smartphone.
@@ -52,38 +53,27 @@ Além dos recursos acima, você pode controlar quais recursos estão disponívei
 
 ## <a name="required-licenses"></a>Licenças necessárias
 
-As licenças do Microsoft Teams podem ser compradas como parte das [assinaturas do microsoft 365 e do Office 365](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description). Para saber mais sobre as licenças necessárias para usar o Microsoft Teams em telefones, consulte [licenças do sistema telefônico](https://products.office.com/microsoft-teams/voice-calling)disponíveis.
+As licenças do teams podem ser compradas como parte das [assinaturas do Microsoft 365 e do Office 365](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description). Para saber mais sobre as licenças necessárias para usar o Microsoft Teams em telefones, consulte [licenças do sistema de telefonia](https://products.office.com/microsoft-teams/voice-calling)disponíveis.
 
 Para obter mais informações sobre como obter o Microsoft Teams, confira [como faço para obter acesso ao Microsoft Teams?](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b)
 
-## <a name="deploy-your-phones-via-intune"></a>Implantar seus telefones via Intune
+## <a name="deploy-your-phones-using-intune"></a>Implantar seus telefones usando o Intune
 
-### <a name="conditional-access"></a>Acesso condicional
-
-O acesso condicional é um recurso do Azure Active Directory que o ajuda a garantir que os dispositivos que acessam os recursos do Office 365 sejam gerenciados corretamente e sejam seguros.  Se você aplicar políticas de acesso condicional ao serviço do Teams, os dispositivos Android (incluindo um telefone de equipe) que acessam as equipes do Access devem ser registrados no Intune e suas configurações precisam estar em conformidade com as políticas.  Se o dispositivo não estiver registrado no Intune ou se estiver registrado, mas suas configurações não atenderem às suas políticas, o acesso condicional impedirá um usuário de entrar ou usar o aplicativo Teams no dispositivo.
-
-Geralmente, as políticas de conformidade definidas no Intune são atribuídas a grupos de usuários.  Isso significa que, se você atribuir uma política de conformidade Android ao user@contoso.com, essa política será aplicada igualmente ao smartphone Android e a qualquer dispositivo de equipe baseado em Android que o user@contoso.com entrar.
-
-Se você usar o acesso condicional, o que requer que o registro do Intune seja imposto, em sua organização, há algumas coisas que você precisa configurar para ter uma inscrição bem-sucedida do Intune:
-
-- **Licença do Intune** O usuário que estiver entrando no Microsoft Teams Phone deve ser licenciado para o Intune.  Desde que os telefones dos Microsoft Teams sejam conectados a uma conta de usuário que tenha uma licença válida do Intune, o telefone será automaticamente registrado no Microsoft Intune como parte do processo de entrada.
-- **Configurar o Intune** Você deve ter uma configuração de locatário do Intune configurada corretamente para o registro do administrador do dispositivo Android.
-
-### <a name="configure-intune-to-enroll-teams-android-based-devices"></a>Configurar o Intune para registrar dispositivos baseados em Android do teams
-
-Os dispositivos baseados em Android do teams são gerenciados pelo Intune via gerenciamento de administrador de dispositivo Android (DA). Para que os dispositivos possam ser registrados no Intune, há algumas etapas básicas a serem realizadas.  Se você já estiver gerenciando dispositivos com o Intune hoje, provavelmente já fez todas essas coisas.  Caso contrário, veja o que fazer:
-
-1. Defina a autoridade MDM (gerenciamento de dispositivo móvel) do Intune.  Se você nunca usou o Intune antes, é preciso definir a autoridade de MDM antes de poder inscrever dispositivos. Para obter mais informações, consulte [definir a autoridade de gerenciamento de dispositivos móveis](https://docs.microsoft.com/intune/fundamentals/mdm-authority-set).  Esta é uma etapa única que deve ser realizada durante a criação de um novo locatário do Intune.
-2. Habilite o registro do administrador do dispositivo Android. O dispositivo de equipes baseado em Android é gerenciado como dispositivos de administrador de dispositivos com o Intune.  O registro do administrador do dispositivo está desativado por padrão para locatários recém-criados.  Para obter mais informações, consulte [registro do administrador do dispositivo Android](https://docs.microsoft.com/intune/enrollment/android-enroll-device-administrator).
-3. Atribuir licenças a usuários. Os usuários de dispositivos do teams que estão sendo registrados no Intune devem receber uma licença válida do Intune. Para obter mais informações, consulte [atribuir licenças aos usuários para que eles possam registrar dispositivos no Intune](https://docs.microsoft.com/intune/fundamentals/licenses-assign).
-4. Atribuir políticas de conformidade do administrador do dispositivo.  Crie uma política de conformidade do administrador de dispositivo Android e atribua-a ao grupo do Azure Active Directory que contém os usuários que entrarão nos dispositivos do teams. Para obter mais informações, consulte [usar políticas de conformidade para definir regras para os dispositivos que você gerencia com o Intune](https://docs.microsoft.com/mem/intune/protect/device-compliance-get-started).
+Para saber mais sobre como implantar as telas do Microsoft Teams usando o Intune, confira [implantar as equipes de telefones e equipes](phones-displays-deploy.md).
 
 ## <a name="manage-your-phones"></a>Gerenciar seus telefones
 
-Um administrador de locatários pode gerenciar e manter todos os dispositivos do teams atualizados por meio do centro de administração do teams. Para obter mais informações, consulte [gerenciar seus dispositivos no Microsoft Teams](https://docs.microsoft.com/microsoftteams/devices/device-management). 
+Gerencie e mantenha seus contatos do teams em dia usando o centro de administração do Microsoft Teams. Para obter mais informações, consulte [gerenciar seus dispositivos no Microsoft Teams](device-management.md).
+
+## <a name="upgrade-your-phones-to-teams-displays"></a>Atualize seus telefones para a equipe de exibição do Microsoft Teams
+
+[O Microsoft Teams](teams-displays.md) é uma categoria de dispositivos unidirecionais de equipes individuais que apresentam uma tela sensível ao meio ambiente e uma experiência viva-graça da plataforma da Cortana. Com o Microsoft Teams, os usuários podem usar um microfone, câmera e alto-falantes (ou fone de ouvido com microfone Bluetooth) para obter uma experiência de chamada e reunião confiável. O Microsoft Teams exibe integra-se às janelas dos usuários do Windows para oferecer uma experiência complementar que permita interação entre dispositivos sem interrupções
+
+Você pode atualizar os telefones de equipes em sua organização para o Microsoft Teams para exibição no centro de administração do Microsoft Teams. Essa opção está disponível somente para telefones que oferecem suporte à atualização para o Microsoft Teams. Para saber mais, confira [atualizar os telefones de equipes para o Microsoft Teams](upgrade-phones-to-displays.md).
 
 ## <a name="see-also"></a>Confira também
 
 [Marketplace do teams](https://office.com/teamsdevices)
 
 [Telefones IP certificados para o Microsoft Teams](teams-ip-phones.md)
+

@@ -21,24 +21,24 @@ ms.custom:
 - seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2b9145854008753cf5c0d1f5915096766689c68b
-ms.sourcegitcommit: 1db39fde090809d9abc6d7346dda55814d88993a
+ms.openlocfilehash: d2e334269dd31b876dd18b62a9b61ae1b583c504
+ms.sourcegitcommit: 62d5ccf10202a50755166e3b8de0bd31d1f94fef
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/23/2020
-ms.locfileid: "48739239"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "48790523"
 ---
 # <a name="manage-microsoft-teams-settings-for-your-organization"></a>Gerencie as configurações do Microsoft Teams para sua organização 
 
 ## <a name="teams-apps-settings-in-the-microsoft-teams-admin-center"></a>Configurações dos aplicativos do Teams no centro de administração do Microsoft Teams.
 
-Gerencie aplicativos para a sua organização em ** aplicativos do Teams** no [centro de administração do Microsoft Teams](https://admin.teams.microsoft.com). Por exemplo, é possível definir políticas para controlar quais aplicativos estarão disponíveis para toda a organização ou para usuários específicos do Teams e poderá personalizar o Teams fixando os aplicativos mais importantes para seus usuários.
+Gerencie aplicativos para a sua organização em **aplicativos do Teams** no [centro de administração do Microsoft Teams](https://admin.teams.microsoft.com). Por exemplo, é possível definir políticas para controlar quais aplicativos estarão disponíveis para toda a organização ou para usuários específicos do Teams e poderá personalizar o Teams fixando os aplicativos mais importantes para seus usuários.
 
 Para saber mais, veja [Configurações de administração para aplicativos no Teams](admin-settings.md).  
 
 ## <a name="teams-org-wide-settings-in-the-microsoft-teams-admin-center"></a>Configurações da organização do Teams no centro de administração do Microsoft Teams.
 
-Você pode controlar as configurações de usuário em toda a organização no centro de administração do Microsoft Teams. Para editar as configurações de toda a organização, vá até o centro de administração do Microsoft Teams e escolha **Configurações gerais da organização**. Você pode definir as seguintes configurações.
+Você pode controlar as configurações de usuário em toda a organização no centro de administração do Microsoft Teams. Para editar as configurações de toda a organização, vá até o centro de administração do Microsoft Teams e escolha **Configurações gerais da organização** . Você pode definir as seguintes configurações.
 
 ### <a name="external-access"></a>Acesso externo
 
@@ -46,9 +46,9 @@ O **acesso externo** permite que os usuários do Microsoft Teams e do Skype for 
 
 Para adicionar ou bloquear um domínio:
 
-1. Selecione **Adicionar um domínio**.
+1. Selecione **Adicionar um domínio** .
 2. Em Adicionar um painel de domínio, insira o nome de domínio e clique na barra de espaços para salvar o nome.
-3. Selecione **Permitido** ou **Bloqueado**.
+3. Selecione **Permitido** ou **Bloqueado** .
 4. Selecione **Concluído** para salvar as alterações. 
 
 ### <a name="guest-access"></a>Acesso de convidados
@@ -57,7 +57,7 @@ O **Acesso de Convidado** no Microsoft Teams permite que as equipes em sua organ
 
 ### <a name="teams-settings"></a>Configurações de equipes
 
-Nas **Configurações do Teams**, você pode configurar recursos para equipes, incluindo notificações e feeds, integração de email, opções de armazenamento em nuvem e dispositivos.
+Nas **Configurações do Teams** , você pode configurar recursos para equipes, incluindo notificações e feeds, integração de email, opções de armazenamento em nuvem e dispositivos.
 
 #### <a name="notifications-and-feeds"></a>Notificações e feeds
 
@@ -69,17 +69,17 @@ As marcações permitem que os usuários se comuniquem com um subconjunto de pes
 
 #### <a name="email-integration"></a>Integração de email
 
-Ative esse recurso para que os usuários possam enviar emails para um canal no Microsoft Teams usando o endereço de email do canal. Os usuários podem fazer isso para qualquer canal pertencente a uma equipe que possuem. Os usuários também podem enviar emails a qualquer canal de uma equipe que tenha conectores adicionais ativados para os membros da equipe. Para ativar a integração de email, verifique se **Allow users to send emails to a channel email address** (Permitir que os usuários enviem emails para um endereço de email do canal) está **Ativado**.
+Ative esse recurso para que os usuários possam enviar emails para um canal no Microsoft Teams usando o endereço de email do canal. Os usuários podem fazer isso para qualquer canal pertencente a uma equipe que possuem. Os usuários também podem enviar emails a qualquer canal de uma equipe que tenha conectores adicionais ativados para os membros da equipe. Para ativar a integração de email, verifique se **Allow users to send emails to a channel email address** (Permitir que os usuários enviem emails para um endereço de email do canal) está **Ativado** .
 
 #### <a name="files"></a>Arquivos
 
 Aqui você pode ativar ou desativar as opções de compartilhamento de arquivos e armazenamento em nuvem.
 
-Os usuários podem carregar e compartilhar arquivos dos serviços de armazenamento em nuvem nos canais e chats do Teams. No momento, as opções de armazenamento em nuvem no Teams incluem Dropbox, Box, ShareFile, Google Drive e Egnyte (em breve). Ative a opção para os provedores de armazenamento em nuvem que sua organização deseja usar.
+Os usuários podem carregar e compartilhar arquivos de serviços de armazenamento em nuvem nos canais e chats do Microsoft Teams. No momento, as opções de armazenamento em nuvem do Microsoft Teams incluem, Dropbox, Box, ShareFile, Google Drive e Egnyte. Ative a opção para os provedores de armazenamento em nuvem que sua organização deseja usar.
 
 #### <a name="organization"></a>Organização
 
-Aqui você pode ativar a guia **Organização**, que mostra o organograma detalhado da organização do usuário. Para saber mais, confira [usar a guia organização no Teams](https://support.office.com/article/use-the-organization-tab-in-teams-ff02568b-290a-46d6-ae7a-cda22f723894).
+Aqui você pode ativar a guia **Organização** , que mostra o organograma detalhado da organização do usuário. Para saber mais, confira [usar a guia organização no Teams](https://support.office.com/article/use-the-organization-tab-in-teams-ff02568b-290a-46d6-ae7a-cda22f723894).
 
 #### <a name="devices"></a>Dispositivos
 
