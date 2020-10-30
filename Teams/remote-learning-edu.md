@@ -18,12 +18,12 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 38b600a259da1d067cc0a2553f1f99800ef9edf3
-ms.sourcegitcommit: af9f96010460f9323db84912fe143aa0750ac798
+ms.openlocfilehash: a79e123ca25715fdc33456fa5d566f5a3e8c3e99
+ms.sourcegitcommit: bc471f18e40e37456edc9696e11b175581847617
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/21/2020
-ms.locfileid: "48171105"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "48800614"
 ---
 # <a name="get-started-with-microsoft-teams-for-remote-learning"></a>Introdução ao Microsoft Teams para aprendizado remoto
 
@@ -78,7 +78,7 @@ Estas são as duas coisas que você precisa fazer para começar a trabalhar com 
 
 ### <a name="1-allow-users-to-create-teams"></a>1. Permitir que os usuários criem equipes
 
-Estudantes e professores aproveitarão ao máximo o Teams ao usá-lo com barreiras mínimas e terão a flexibilidade para adaptá-lo às suas necessidades. Uma forma dos usuários personalizarem a experiência do Teams é ter a capacidade de criar equipes que atendem às suas necessidades. **Por padrão, todos podem criar grupos no Microsoft 365 e no Teams**. Há momentos em que esse recurso pode não ser apropriado; por exemplo, alguns clientes podem querer impedir que os alunos do ensino fundamental criem grupos no Teams. Se necessário, a criação de equipes e grupos do Microsoft 365 pode ser [restrita a determinados grupos de segurança](https://docs.microsoft.com/microsoft-365/admin/create-groups/manage-creation-of-groups) em seu ambiente.
+Estudantes e professores aproveitarão ao máximo o Teams ao usá-lo com barreiras mínimas e terão a flexibilidade para adaptá-lo às suas necessidades. Uma forma dos usuários personalizarem a experiência do Teams é ter a capacidade de criar equipes que atendem às suas necessidades. **Por padrão, todos podem criar grupos no Microsoft 365 e no Teams** . Há momentos em que esse recurso pode não ser apropriado; por exemplo, alguns clientes podem querer impedir que os alunos do ensino fundamental criem grupos no Teams. Se necessário, a criação de equipes e grupos do Microsoft 365 pode ser [restrita a determinados grupos de segurança](https://docs.microsoft.com/microsoft-365/admin/create-groups/manage-creation-of-groups) em seu ambiente.
 
 Os clientes do ensino superior se beneficiam quando você permite que todos, inclusive estudantes, criem equipes para aulas, pesquisas, projetos e grupos de estudo. As escolas de ensino integral podem impedir a criação no Teams para garantir que todas as comunicações entre alunos ocorram em um fórum que inclua um adulto. Nesse caso, a criação de equipes e grupos do Microsoft 365 pode ser restrita a todos os professores e funcionários.
 
@@ -96,7 +96,7 @@ Para obter instruções sobre como criar no Teams, confira: [criar uma equipe de
 
 **A equipe de ensino superior, professores e estudantes** se beneficiam dos recursos incluídos nas políticas padrão (globais). Algumas configurações adicionais de política podem ser habilitadas para adicionar mais funcionalidade ao Microsoft Teams, incluindo o [habilitar recursos de tradução na política de mensagens](messaging-policies-in-teams.md#messaging-policy-settings) e [permitir a transcrição automática da reunião](meeting-policies-in-teams.md#allow-transcription) na política de reunião.
 
-Talvez seja necessário restringir os recursos fornecidos aos **estudantes de ensino básico e fundamental**. As políticas definem os limites do que os alunos podem fazer. Como a população de alunos geralmente é o maior conjunto de usuários e, muitas vezes, eles recebem as configurações mais restritivas, é recomendável que as alterações na política do aluno sejam feitas nas políticas "Globais (padrão da organização)".
+Talvez seja necessário restringir os recursos fornecidos aos **estudantes de ensino básico e fundamental** . As políticas definem os limites do que os alunos podem fazer. Como a população de alunos geralmente é o maior conjunto de usuários e, muitas vezes, eles recebem as configurações mais restritivas, é recomendável que as alterações na política do aluno sejam feitas nas políticas "Globais (padrão da organização)".
 
 > [!IMPORTANT]
 > Para atender às políticas atribuídas a qualquer usuário, recomendamos definir a configuração "Admitir pessoas automaticamente" para "Todos em sua organização". Essa configuração garantirá que usuários não autenticados sejam admitidos do lobby antes que possam participar de reuniões do Teams. Para mais informações, confira [Gerenciar políticas de reunião no Teams](https://docs.microsoft.com/microsoftteams/meeting-policies-in-teams#automatically-admit-people).
@@ -113,6 +113,7 @@ O Microsoft Teams para Educação oferece   [tipos de equipes específicos](ht
 - Notas
 - Bloco de anotações de classe do OneNote  
 - [Pasta de materiais de classe](https://support.office.com/article/Use-folders-to-create-read-only-files-for-students-or-other-team-members-0e7791d7-8c9c-4749-9bca-984289477988)  garantindo o conteúdo somente leitura para estudantes
+- O [Insights](https://docs.microsoft.com/microsoftteams/class-insights) fornece dados em tempo real sobre o compromisso, as atribuições e o bem-estar dos alunos em cada sala de aula. 
 - [Acesso antecipado ao professor](https://support.microsoft.com/article/activate-early-access-class-teams-created-with-school-data-sync-0d154696-66ab-4fcf-b22f-c3d9a82aaf78) para configurar a classe antes que os alunos sejam adicionados 
 - A capacidade silenciar alunos bagunceiros e outras permissões especiais.  
 
@@ -156,7 +157,7 @@ Para começar, acesse [School Data Sync (SDS)](https://docs.microsoft.com/School
 
 A criação da equipe liderada por educadores é uma ótima opção de implantação se você quiser que os educadores possam facilmente criar as classes de que precisam. Também recomendamos que as instituições com mais de 500.000 equipes usem esse método para minimizar o número de equipes criadas despropositadamente.   
 
-Essa abordagem híbrida permite que você use o SDS para criar grupos para cada classe (recomendado) ou use a [API do Graph](https://docs.microsoft.com/graph/api/educationroot-post-classes) para criá-las por conta própria. Depois que os grupos de classe estiverem preparados, os educadores poderão converter os grupos em equipes usando o ícone **Classes sugeridas**.
+Essa abordagem híbrida permite que você use o SDS para criar grupos para cada classe (recomendado) ou use a [API do Graph](https://docs.microsoft.com/graph/api/educationroot-post-classes) para criá-las por conta própria. Depois que os grupos de classe estiverem preparados, os educadores poderão converter os grupos em equipes usando o ícone **Classes sugeridas** .
 
 :::image type="content" source="media/class-teams-edu-suggested-classes.png" alt-text="Captura de tela mostrando o ícone Classes sugeridas":::
 
