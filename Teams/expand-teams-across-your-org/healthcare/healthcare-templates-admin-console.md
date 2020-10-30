@@ -22,22 +22,20 @@ appliesto:
 ms.reviewer: ''
 description: Use os modelos do Microsoft Teams no centro de administração para criar equipes rápida e facilmente fornecendo um modelo predefinido de configurações, canais e aplicativos.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 102c9db47ba9a79acf64338d2fab0cb1ddc49392
-ms.sourcegitcommit: 62d5ccf10202a50755166e3b8de0bd31d1f94fef
+ms.openlocfilehash: d2f2fcbf2fb66206306e2ae5c6ab14ed6176e612
+ms.sourcegitcommit: bc471f18e40e37456edc9696e11b175581847617
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "48790423"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "48800664"
 ---
 # <a name="use-teams-healthcare-templates-in-the-admin-center"></a>Usar modelos do teams Healthcare no centro de administração
-
-[!INCLUDE [preview-feature](../../includes/preview-feature.md)]
 
 Os modelos do Microsoft Teams permitem criar equipes de forma rápida e fácil, fornecendo um modelo predefinido de configurações, canais e aplicativos pré-instalados.
 
 Para organizações de assistência médica, os modelos podem ser especialmente poderosos, pois eles fornecem estrutura para que os usuários se orientem com a melhor utilização das equipes com eficiência. Os modelos também permitem que os administradores implantem equipes consistentes em suas organizações. Este artigo é para você se for responsável por planejar, implantar e gerenciar várias equipes em toda a organização de assistência médica.
 
-Atualmente, oferecemos dois modelos de saúde de primeira mão que você pode aproveitar para várias situações. Para saber mais sobre os modelos de equipe em geral, consulte Introdução aos modelos do Microsoft Teams [no centro de administração](../../get-started-with-teams-templates-in-the-admin-console.md).
+Atualmente, oferecemos dois modelos de saúde de primeira mão que você pode usar para várias situações. Para saber mais sobre os modelos de equipe em geral, consulte Introdução aos modelos do Microsoft Teams [no centro de administração](../../get-started-with-teams-templates-in-the-admin-console.md).
 
 ## <a name="collaborate-on-patient-care"></a>Colabore no atendimento ao paciente
 

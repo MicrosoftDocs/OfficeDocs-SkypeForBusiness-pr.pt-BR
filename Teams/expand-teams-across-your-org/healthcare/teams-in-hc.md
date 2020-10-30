@@ -22,12 +22,12 @@ appliesto:
 ms.reviewer: ''
 description: Saiba mais sobre os recursos de assistência médica que incluem coordenação, mensagens de segurança, visita virtual, integração do EHR e primeira integração do sistema de trabalho.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f21871a016bbe42dafe89b12b0c84270355ce412
-ms.sourcegitcommit: 62d5ccf10202a50755166e3b8de0bd31d1f94fef
+ms.openlocfilehash: b4c4ff0319d285d3dcd8c70b3a19de8cce6248ca
+ms.sourcegitcommit: beaaee10019f4eda746f348888a4a3c2aaa6f196
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "48790629"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "48803529"
 ---
 # <a name="get-started-with-teams-for-healthcare-organizations"></a>Comece a usar o Microsoft Teams para organizações de assistência médica
 
@@ -107,7 +107,7 @@ Além disso, sua equipe pode usar aplicativos no Teams para:
 ### <a name="share-lists-and-track-information-with-the-lists-app"></a>Compartilhar listas e controlar informações com o aplicativo listas
 
 > [!NOTE]
-> A partir de 30 de outubro de 2020, o aplicativo pacientes será desativado e substituído pelo [aplicativo listas](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db) no Teams. Com listas, equipes de cuidado em sua organização de assistência médica podem criar listas de pacientes para cenários que vão desde rodadas e reuniões interdisciplinares de equipe até o monitoramento geral do paciente.
+> A partir de 30 de outubro de 2020, o aplicativo pacientes foi desativado e substituído pelo [aplicativo listas](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db) no Teams. Com listas, equipes de cuidado em sua organização de assistência médica podem criar listas de pacientes para cenários que vão desde rodadas e reuniões interdisciplinares de equipe até o monitoramento geral do paciente.
 
 O aplicativo listas no Teams ajuda as equipes a acompanhar informações e organizar o trabalho. O aplicativo é pré-instalado para todos os usuários do Teams e está disponível como uma guia em cada equipe e canal. As listas podem ser criadas do zero, de modelos predefinidos ou importando dados para o Excel.
 

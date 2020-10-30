@@ -16,17 +16,19 @@ ms.collection:
 ms.reviewer: anach
 description: Saiba mais sobre como auditar o aplicativo pacientes para administradores do teams
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 042d3308e70f2b6275360dfd0137bdc9ed94b7c8
-ms.sourcegitcommit: 18b5e3487ba1350c5d2e6d676a4ab582b5b638d4
+ms.openlocfilehash: ce1851b6d424203f6a4aed8a871209e3a65ce5f8
+ms.sourcegitcommit: beaaee10019f4eda746f348888a4a3c2aaa6f196
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/27/2020
-ms.locfileid: "48772272"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "48803509"
 ---
 # <a name="audit-logs-for-patients-app"></a>Logs de auditoria para o aplicativo de pacientes
 
 > [!NOTE]
-> A partir de 30 de outubro de 2020, o aplicativo pacientes foi desativado e substituído pelo [aplicativo listas](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db) no Teams. Com listas, equipes de cuidado em sua organização de assistência médica podem criar listas de pacientes para cenários que vão desde rodadas e reuniões interdisciplinares de equipe até o monitoramento geral do paciente. Confira o modelo pacientes em listas para começar. Para saber mais sobre como gerenciar o aplicativo listas em sua organização, consulte [gerenciar o aplicativo listas](../../manage-lists-app.md).
+> A partir de 30 de outubro de 2020, o aplicativo pacientes foi desativado e substituído pelo [aplicativo listas](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db) no Teams. Os dados do aplicativo pacientes são armazenados na caixa de correio do grupo do grupo do Office 365 que faz a equipe. Todos os dados associados ao aplicativo pacientes são mantidos neste grupo, mas não podem mais ser acessados por meio da interface do usuário. Os usuários podem recriar suas listas usando o [aplicativo listas](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db).
+>
+>Com listas, equipes de cuidado em sua organização de assistência médica podem criar listas de pacientes para cenários que vão desde rodadas e reuniões interdisciplinares de equipe até o monitoramento geral do paciente. Confira o modelo pacientes em listas para começar. Para saber mais sobre como gerenciar o aplicativo listas em sua organização, consulte [gerenciar o aplicativo listas](../../manage-lists-app.md).
 
 Um log de auditoria para atividades de aplicativo pacientes permite que as equipes de resposta a incidentes revisem alterações para os registros médicos eletrônicos (EMR) ou informações de assistência médica (PHI) de um paciente e determine se alterações ou melhorias na política ou nos procedimentos para o acesso PHI em ferramentas de produtividade são necessárias. Os eventos de log de auditoria abordam as ações realizadas por meio da interface de usuário do aplicativo pacientes.
 

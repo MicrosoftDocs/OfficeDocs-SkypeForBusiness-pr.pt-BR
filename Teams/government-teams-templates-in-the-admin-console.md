@@ -19,16 +19,14 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 993cabc7139edeb971f60f1cdf44428fb4083db9
-ms.sourcegitcommit: 0a9c5c01b37a93eecc369ca0ed49ae18f6a5065b
+ms.openlocfilehash: 513b83fdab26d73b42bed692b5ea887629fc1851
+ms.sourcegitcommit: bc471f18e40e37456edc9696e11b175581847617
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/22/2020
-ms.locfileid: "48655508"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "48800624"
 ---
 # <a name="use-teams-government-templates-in-the-admin-center"></a>Usar modelos de governo do teams no centro de administração
-
-[!INCLUDE [preview-feature](includes/preview-feature.md)]
 
 Os modelos de equipe permitem criar equipes de forma rápida e fácil, fornecendo um modelo predefinido de configurações, canais e aplicativos pré-instalados.
 
