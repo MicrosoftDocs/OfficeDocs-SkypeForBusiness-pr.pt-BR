@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9fd066fe06126043475a7264b3b2c4501c7ac3ae
-ms.sourcegitcommit: 3a577c07b4f399c81d8650a2bba8cfc00b695b49
+ms.openlocfilehash: 15b71f3c62d39f85275a9bb916b8ac4ed6f99abb
+ms.sourcegitcommit: 273f231098799975dc4cf609a68c9944b8072ce1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48650944"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "48818831"
 ---
 # <a name="user-presence-in-teams"></a>Presença do usuário no Teams
 
@@ -47,7 +47,7 @@ A presença faz parte do perfil de um usuário no Microsoft Teams (e em todo o M
 | ![Ícone de relógio amarelo, indica ausente](media/Presence_Away.png) Ausente| ![Ícone de relógio amarelo, indica ausente](media/Presence_Away.png) Ausente|
 || ![Ícone de relógio amarelo, indica ausente](media/Presence_Away.png) Ausente Visto por Último *horário*|
 |![Ícone de relógio amarelo, indica ausente, volto logo](media/Presence_Away.png) Volto Logo| |
-|![Círculo cinza com x, indica Offline](media/Presence_Offline.png) Aparecer offline. Em breve no Teams.|![Círculo cinza com x, indica Offline](media/Presence_Offline.png) Modo.  Quando os usuários não se conectarem em nenhum dos seus dispositivos por alguns minutos, eles aparecerão offline. | |
+|![Círculo cinza com x, indica Offline](media/Presence_Offline.png) Aparecer offline|![Círculo cinza com x, indica Offline](media/Presence_Offline.png) Modo.  Quando os usuários não se conectarem em nenhum dos seus dispositivos por alguns minutos, eles aparecerão offline. | |
 || ![Círculo cinza aberta, indica status desconhecido](media/Presence_Unknown.png) Status desconhecido|
 || ![Círculo roxo com seta, indica Ausência temporária](media/Presence_OOF.png) Fora do escritório. Fora do escritório é usado quando uma resposta automática é definida. (Disponível somente no Outlook.) |
 |||
@@ -84,7 +84,7 @@ Os Estados configurados pelo usuário têm configurações de expiração padrã
 As seguintes configurações de administrador do Skype for Business são diferentes no Teams:
 
 - No Teams, o compartilhamento de presença fica sempre habilitado para os usuários da organização. Privacidade (onde define quem pode ver a presença) a configuração não está disponível no Teams.
-- O compartilhamento de presença com todos (incluindo serviços federados) está sempre habilitado para usuários no Teams. Sua lista de contatos (se tiverem uma no Skype for Business) é visível em **Chat > Contatos** ou em **Chamadas > Contatos**.
+- O compartilhamento de presença com todos (incluindo serviços federados) está sempre habilitado para usuários no Teams. Sua lista de contatos (se tiverem uma no Skype for Business) é visível em **Chat > Contatos** ou em **Chamadas > Contatos** .
 - Os recursos de cliente Não Incomodar e Exceções estão sempre habilitados para usuários no Teams.
 - A integração do calendário (inclui ausência temporária e outras informações de calendário) está sempre habilitada para os usuários quando o Teams é integrado com o Outlook.
 - Os indicadores *Visto por último* ou *Ausente desde* estarão sempre habilitados para usuários no Teams se a organização também usa o Skype.

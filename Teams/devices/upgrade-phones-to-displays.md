@@ -16,12 +16,12 @@ ms.collection:
 search.appverid: MET150
 localization_priority: Normal
 description: Saiba como atualizar os telefones de equipes para o Microsoft Teams no centro de administração do Microsoft Teams.
-ms.openlocfilehash: b1cb1e94092d833cdf80c3fa9b73e5180b66d063
-ms.sourcegitcommit: e07b2d7470b93e52b9e85207db0d6fa3a136efd9
+ms.openlocfilehash: e741374ceb377dfec2f7b8a78f0d67b8e5a70bd1
+ms.sourcegitcommit: 532205e5a3c28b44b86cd4d1376ebee9590b8266
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "48787597"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "48816111"
 ---
 # <a name="upgrade-teams-phones-to-teams-displays"></a>Atualizar telefones de equipes para o Microsoft Teams
 
@@ -70,7 +70,13 @@ Pode levar até uma hora para que a atualização seja concluída. Se o processo
 
 ## <a name="known-issues"></a>Problemas conhecidos
 
-O suporte ao tema escuro nas telas do teams estará disponível em uma atualização futura. Os telefones de equipes que usam o tema escuro receberão o tema padrão após a atualização.
+### <a name="teams-displays-have-the-default-theme-instead-of-the-dark-theme"></a>As telas de equipe têm o tema padrão em vez do tema escuro
+
+O suporte ao tema escuro nas telas do teams estará disponível em uma atualização futura. Os telefones de equipes que usam o tema escuro receberão o tema padrão após a atualização para o Microsoft Teams.
+
+### <a name="some-apps-are-missing-from-the-home-screen"></a>Alguns aplicativos estão ausentes na tela inicial
+
+Se determinados aplicativos estiverem ausentes da tela inicial após a atualização, saia e entre novamente. A correção para isso estará disponível em uma atualização futura.
 
 ## <a name="see-also"></a>Confira também
 

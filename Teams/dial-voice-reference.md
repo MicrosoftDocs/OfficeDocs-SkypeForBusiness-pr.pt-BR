@@ -22,12 +22,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Saiba mais sobre as opções atendedor automático e discagem da fila de chamadas e reconhecimento de voz no Teams.
-ms.openlocfilehash: bf520fa4dffe258da523c8815449f1e71279d7f2
-ms.sourcegitcommit: bc471f18e40e37456edc9696e11b175581847617
+ms.openlocfilehash: 3e3e750ff28779fb8fe8765a088c5a65d2a9b1f0
+ms.sourcegitcommit: 273f231098799975dc4cf609a68c9944b8072ce1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "48800564"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "48818801"
 ---
 # <a name="auto-attendant-and-call-queue-dialing-and-voice-recognition-reference"></a>Atendedor automático e discagem da fila de chamadas e referência do reconhecimento de voz
 
@@ -100,7 +100,7 @@ Os chamadores podem dizer nomes nos seguintes formatos:
 
 Os seguintes idiomas estão disponíveis para conversão de texto em fala usadas com prompts de saída:
   
-||||
+|-|-|-|
 |:-----|:-----|:-----|
 |Árabe (EG)  |Inglês (NZ)  |Coreano (KO)  |
 |Chinês (HK)  |Inglês (Reino Unido) |Noruega (NO)  |
@@ -114,7 +114,7 @@ Os seguintes idiomas estão disponíveis para conversão de texto em fala usadas
 
 A entrada de reconhecimento de fala dos atendedores automáticos está disponível nos seguintes idiomas:
   
-|||
+|-|-|
 |:-----|:-----|
 |Chinês (ZH)  |Francês (FR)  |
 |Inglês (AU)  |Alemão (DE)  |
