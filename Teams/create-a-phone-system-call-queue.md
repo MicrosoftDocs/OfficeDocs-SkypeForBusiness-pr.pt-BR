@@ -1,5 +1,5 @@
 ---
-title: Criar uma fila de chamadas
+title: Criar uma fila de chamadas no Microsoft Teams
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
@@ -23,12 +23,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Saiba como configurar o sistema telefônico para filas de chamadas com o Microsoft Teams, que fornecem uma mensagem de saudação, suspender música, redirecionamento de chamada e outros recursos.
-ms.openlocfilehash: 31826d1090835a073551e3639cb6105feb16d650
-ms.sourcegitcommit: e07b2d7470b93e52b9e85207db0d6fa3a136efd9
+ms.openlocfilehash: 9825c6ed1780efa78bfdbc86911e9b403be589f6
+ms.sourcegitcommit: 273f231098799975dc4cf609a68c9944b8072ce1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "48793540"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "48820016"
 ---
 # <a name="create-a-call-queue"></a>Criar uma fila de chamadas
 
@@ -50,7 +50,7 @@ Para configurar uma fila de chamadas, no centro de administração do Teams, exp
 
 ## <a name="resource-account-and-language"></a>Conta e idioma do recurso
 
-![](media/call-queue-name-language.png)
+![Captura de tela da conta do recurso e das configurações de idioma](media/call-queue-name-language.png)
 
 1. Digite um nome para a fila de chamadas. Os agentes verão esse nome quando receberem uma chamada de entrada da fila.
 
@@ -77,7 +77,7 @@ Os agentes de chamada selecionados devem ser um dos seguintes:
 - Usuários locais do Skype for Business Server
 - Se seus agentes estiverem usando o aplicativo Microsoft Teams para chamadas da fila de chamadas, eles precisarão estar no modo TeamsOnly.
 
-![](media/call-queue-users-groups.png)
+![Captura de tela de configurações de usuários e grupos para filas de chamadas](media/call-queue-users-groups.png)
 
 Você pode adicionar até 20 agentes individualmente e até 200 agentes por meio de grupos.
 
@@ -90,7 +90,7 @@ Para adicionar um grupo à fila, clique em **Adicionar grupos** , procure o grup
 
 ## <a name="call-routing"></a>Roteamento de chamadas
 
-![](media/call-queue-conference-mode-routing-method.png)
+![Captura de tela das configurações do modo de conferência e do método de roteamento](media/call-queue-conference-mode-routing-method.png)
 
 O **modo de conferência** reduz significativamente o tempo necessário para que um chamador seja conectado a um agente, após o agente aceitar a chamada. Para que o modo de conferência funcione, os agentes na fila de chamadas devem usar um dos seguintes clientes:
 
@@ -112,7 +112,7 @@ O **método de roteamento** determina a ordem em que os agentes recebem chamadas
 
 - O mais **longo** é direcionado a cada chamada para o agente que esteve ocioso ao longo do tempo mais longo. Um agente será considerado ocioso se seu estado de presença estiver disponível ou se o estado de presença ficar ausente por menos de 10 minutos. Os agentes cujo estado de presença esteve ausente por mais de 10 minutos não são considerados ociosos e não ficarão qualificados para receber chamadas até que eles alterem sua presença para disponível. 
 
-![](media/call-queue-presence-agents-time.png)
+![Captura de tela das configurações de roteamento, cancelamento e tempo de alerta](media/call-queue-presence-agents-time.png)
 
 
 O **roteamento baseado em presença** usa o status de disponibilidade dos agentes de chamada para determinar se um agente deve ser incluído na lista de roteamento de chamadas para o método de roteamento selecionado. Os agentes de chamada cujo status de disponibilidade está definido como **disponível** estão incluídos na lista de circulação de chamadas e podem receber chamadas. Os agentes cujo status de disponibilidade é definido como qualquer outro status serão excluídos da lista de roteamento de chamadas e não receberão chamadas até que seu status de disponibilidade mude novamente para **disponível** . 
@@ -135,18 +135,18 @@ Para filas de alto volume, recomendamos as seguintes configurações:
 
 ## <a name="call-overflow-handling"></a>Tratamento de estouro de chamadas
 
-![](media/call-queue-overflow-handling.png)
+![Captura de tela das configurações de estouro de chamadas](media/call-queue-overflow-handling.png)
 
 O **máximo de chamadas na fila** especifica o número máximo de chamadas que podem esperar na fila a qualquer momento. O padrão é 50, mas pode variar de 0 a 200. Quando esse limite for atingido, a chamada será manipulada conforme especificado pela configuração **quando o número máximo de chamadas for atingido** .
 
-Você pode optar por desconectar a chamada ou redirecioná-la para um dos destinos de roteamento de chamadas. Por exemplo, você pode ter o chamador deixar um correio de voz para os agentes na fila.
+Você pode optar por desconectar a chamada ou redirecioná-la para qualquer um dos [destinos de roteamento de chamadas](create-a-phone-system-auto-attendant.md#call-routing-options) , exceto o operador. Por exemplo, você pode ter o chamador deixar um correio de voz para os agentes na fila. (Observe [esses detalhes](https://docs.microsoft.com/microsoftteams/create-a-phone-system-auto-attendant#external-phone-number-transfers---technical-details) se você estiver transferindo para um número externo.)
 
 > [!NOTE]
 > Se o número máximo de chamadas for definido como 0, a mensagem de saudação não será reproduzida.
 
 ## <a name="call-timeout-handling"></a>Tratamento de tempo limite de chamada
 
-![](media/call-queue-timeout-handling.png)
+![Captura de tela das configurações de tempo limite de chamada](media/call-queue-timeout-handling.png)
 
 Tempo **limite de chamada: o tempo de espera máximo** especifica o tempo máximo que uma chamada pode estar em espera na fila antes de ser redirecionada ou desconectada. Você pode especificar um valor de 15 segundos a 45 minutos.
 
@@ -181,13 +181,13 @@ Como os agentes em uma fila de chamadas podem discar para retornar uma chamada d
 
 Você também pode usar o Windows PowerShell para criar e configurar filas de chamadas. Estes são os cmdlets que você usa para gerenciar uma fila de chamadas.
 
-- [New-CsCallQueue](https://docs.microsoft.com/powershell/module/skype/new-CsCallQueue?view=skype-ps)
+- [New-CsCallQueue](https://docs.microsoft.com/powershell/module/skype/new-CsCallQueue)
 
-- [Set-CsCallQueue](https://docs.microsoft.com/powershell/module/skype/set-CsCallQueue?view=skype-ps)
+- [Set-CsCallQueue](https://docs.microsoft.com/powershell/module/skype/set-CsCallQueue)
 
-- [Get-CsCallQueue](https://docs.microsoft.com/powershell/module/skype/get-CsCallQueue?view=skype-ps)
+- [Get-CsCallQueue](https://docs.microsoft.com/powershell/module/skype/get-CsCallQueue)
 
-- [Remove-CsCallQueue](https://docs.microsoft.com/powershell/module/skype/remove-CsCallQueue?view=skype-ps)
+- [Remove-CsCallQueue](https://docs.microsoft.com/powershell/module/skype/remove-CsCallQueue)
 
 ## <a name="related-topics"></a>Tópicos relacionados
 
@@ -197,6 +197,6 @@ Você também pode usar o Windows PowerShell para criar e configurar filas de ch
 
 [Disponibilidade de audioconferência e Planos de Chamadas por país e região](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
-[New-CsOnlineApplicationInstance](https://docs.microsoft.com/powershell/module/skype/new-csonlineapplicationinstance?view=skype-ps)
+[New-CsOnlineApplicationInstance](https://docs.microsoft.com/powershell/module/skype/new-csonlineapplicationinstance)
 
 [Uma introdução ao Windows PowerShell e ao Skype for Business Online](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
