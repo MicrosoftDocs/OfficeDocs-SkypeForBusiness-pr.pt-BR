@@ -13,12 +13,12 @@ f1.keywords:
 description: Uma visão geral da solução integrada do centro de contatos como serviço (CCaaS) para o Microsoft Teams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3f0989c8fade3461418e86713dfb758bc7dfbbcc
-ms.sourcegitcommit: df1eca90090c29eaaf7fd79bd8cc84c556f12b1e
+ms.openlocfilehash: 0fb65edc260c5a91ee51a32c6c3796e2773ba179
+ms.sourcegitcommit: 54e685b07d1c23100951d46913480989f046d534
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/12/2020
-ms.locfileid: "48424621"
+ms.lasthandoff: 11/02/2020
+ms.locfileid: "48827735"
 ---
 # <a name="contact-center-integrations-for-microsoft-teams"></a>Integrações do centro de contato do Microsoft Teams
 
@@ -54,6 +54,7 @@ Os parceiros a seguir estão no processo de certificação da solução para o M
 | Tecnologias Landis | https://landistechnologies.com/microsoft-teams-contact-center/                                          |
 | Luware | https://luware.com/en/solutions/                                                                                       |
 | BOM contato | https://www.niceincontact.com/microsoft-teams                                                            |
+| Novomind | https://www.novomind.com/en/customer-service-software-call-center/microsoft-teams/                             |
 | Tendfor | https://www.tendfor.com/en/                                                                                     |
 
 Esta lista será atualizada à medida que mais parceiros entrarem e atenderem aos critérios de certificação.
@@ -90,19 +91,19 @@ As organizações podem ter certeza de que as chamadas são direcionadas para o 
 
 Embora a seguinte não seja uma lista abrangente de recursos de recursos para esse modelo de integração, as áreas de foco incluem:
 
-  - Office 365 Authn para agentes para permitir que os agentes se conectem ao locatários da Microsoft a partir de seu cliente CCaaS integrado 
+  - Office 365 Authn para agentes para permitir que os agentes se conectem ao locatários da Microsoft a partir de seu cliente CCaaS integrado 
 
-  - Indicação de presença de usuários do teams 
+  - Indicação de presença de usuários do teams 
 
-  - Fluxos de chamadas via roteamento direto (conforme indicado em planos de teste) 
+  - Fluxos de chamadas via roteamento direto (conforme indicado em planos de teste) 
 
-  - Suporte a transferências e chamadas em grupo com usuários do teams 
+  - Suporte a transferências e chamadas em grupo com usuários do teams 
 
-  - APIs do teams Graph e APIs de comunicação na nuvem para integração com o Microsoft Teams 
+  - APIs do teams Graph e APIs de comunicação na nuvem para integração com o Microsoft Teams 
 
-  - Capaz de dar suporte ao entroncamento SIP multilocatário para dar suporte a vários clientes no SBC do parceiro.  
+  - Capaz de dar suporte ao entroncamento SIP multilocatário para dar suporte a vários clientes no SBC do parceiro.  
 
-  - Parceiros para implementar [ <span class="underline">o Microsoft Certified Session Border Controller (SBC)</span>](https://docs.microsoft.com/MicrosoftTeams/direct-routing-border-controllers) 
+  - Parceiros para implementar [ <span class="underline">o Microsoft Certified Session Border Controller (SBC)</span>](https://docs.microsoft.com/MicrosoftTeams/direct-routing-border-controllers) 
 
 ### <a name="connect-and-extend"></a>Conectar e estender
 
@@ -116,11 +117,11 @@ As organizações podem projetar fluxos de trabalho e configurações de roteame
 
 Embora a seguinte não seja uma lista abrangente de recursos de recursos para esse modelo de integração, ele destaca as principais áreas de foco:
 
-  - APIs do teams Graph e APIs de comunicação na nuvem para integração com o Microsoft Teams 
+  - APIs do teams Graph e APIs de comunicação na nuvem para integração com o Microsoft Teams 
 
-  - Aplicativo baseado em equipes para experiências de agente 
+  - Aplicativo baseado em equipes para experiências de agente 
 
-  - Teams como o ponto de extremidade de chamada primária para os agentes 
+  - Teams como o ponto de extremidade de chamada primária para os agentes 
 
   - Chamadas do cliente do teams para todos os controles de chamada
 
@@ -128,9 +129,9 @@ Embora a seguinte não seja uma lista abrangente de recursos de recursos para es
 
   - Análises, gerenciamento de fluxo de trabalho, experiências baseadas em função para agentes no aplicativo CCaaS no Teams
 
-  - Experiências de chat e colaboração integradas a clientes do Microsoft Teams 
+  - Experiências de chat e colaboração integradas a clientes do Microsoft Teams 
 
-  - Preserve o desempenho e a qualidade das experiências do cliente das equipes em todos os aplicativos  
+  - Preserve o desempenho e a qualidade das experiências do cliente das equipes em todos os aplicativos  
 
 ### <a name="extend-and-power"></a>Estender e desligar
 
@@ -144,13 +145,13 @@ Com o modelo de integração de extensão e energia, os parceiros podem fornecer
 
 Embora a seguinte não seja uma lista abrangente de recursos de recursos para esse modelo de integração, essas áreas de destaque, além das fornecidas pelo modelo Connect e Extend.
 
-  - Experiências de agente formal habilitadas nativamente para comunicação de canal de Omni via SDK do teams 
+  - Experiências de agente formal habilitadas nativamente para comunicação de canal de Omni via SDK do teams 
 
-  - Aproveitar os serviços de colaboração de equipe para colaboração do agente e interações com o cliente  
+  - Aproveitar os serviços de colaboração de equipe para colaboração do agente e interações com o cliente  
 
-  - Provisionamento rápido de serviços de nuvem, implantação em qualquer lugar 
+  - Provisionamento rápido de serviços de nuvem, implantação em qualquer lugar 
 
-  - Controle de conversa direto e interação com usuários durante conversas de equipes 
+  - Controle de conversa direto e interação com usuários durante conversas de equipes 
 
 ### <a name="comparing-connected-contact-center-integration-models"></a>Comparando modelos de integração à central de contatos conectados
 
@@ -160,10 +161,10 @@ Revise a tabela abaixo para obter uma visão geral dos modelos de integração a
 <thead>
 <tr class="header">
 <th></th>
-<th><strong>Aplicativos de voz do teams</strong></th>
-<th><strong>Conectado</strong></th>
-<th><strong>Connect + extend</strong></th>
-<th><strong>Estender + potência</strong></th>
+<th>Aplicativos de voz do teams</th>
+<th>Conectado</th>
+<th>Expandir</th>
+<th>Recursos</th>
 </tr>
 </thead>
 <tbody>
@@ -210,7 +211,8 @@ Revise a tabela abaixo para obter uma visão geral dos modelos de integração a
 <td>Plataforma<br />
 (Planos de chamada + DR)</td>
 <td>Roteamento direto</td>
-<td>Roteamento direto</td>
+<td>Plataforma<br />
+(Planos de chamada + DR)</td>
 <td>Plataforma<br />
 (Planos de chamada + DR)</td>
 </tr>

@@ -48,7 +48,7 @@ Cada atendedor automático tem um idioma e um fuso horário específicos. Se voc
 
 Para cada atendedor automático, você pode configurar um operador. Embora você possa configurar as chamadas do operador para ir para uma variedade de destinos, o recurso de operador foi projetado para permitir que os chamadores conversem com uma pessoa específica em sua organização, que pode ajudá-los.
 
-Atendedores automáticos podem ser configurados para permitir que os chamadores pesquisem o diretório da sua organização, seja por nome ou por número de ramal. Em um atendedor automático, você pode especificar quem está disponível para a pesquisa de diretório, escolhendo grupos de usuários a serem incluídos ou excluídos. (Isso é conhecido como *escopo de discagem* .)
+Atendedores automáticos podem ser configurados para permitir que os chamadores pesquisem o diretório da sua organização, seja por nome ou por número de ramal. Em um atendedor automático, você pode especificar quem está disponível para a pesquisa de diretório, escolhendo grupos de usuários a serem incluídos ou excluídos. (Isso é conhecido como *escopo de discagem*.)
 
 Os chamadores podem alcançar um atendedor automático por número de telefone direto, se configurado ou sendo Redirecionado de outro atendedor automático ou de uma fila de chamadas.
 
@@ -158,7 +158,7 @@ O exemplo a seguir mostra um exemplo de roteamento de chamadas usando atendedore
 
 No exemplo acima:
 
-- A chave zero (0) redireciona os chamadores para um operador. A operadora desse atendedor automático foi configurada como uma **pessoa na organização** .
+- A chave zero (0) redireciona os chamadores para um operador. A operadora desse atendedor automático foi configurada como uma **pessoa na organização**.
 - A chave um (1) redireciona os chamadores para a fila de chamadas de vendas. Esta fila de chamadas está conectada a uma equipe que contém a equipe de vendas atribuída à fila.
 - As duas (2) teclas redirecionam os chamadores para a fila de chamadas de chamadas de suporte. Esta fila de chamadas está conectada a uma equipe que contém a equipe de suporte atribuída à equipe.
 - A fila de chamadas de suporte tem um número de telefone direto por meio de um atendedor automático interveniente. Ter um atendedor automático responda à linha de suporte permite horas de desativação e encaminhamento de chamadas de férias.

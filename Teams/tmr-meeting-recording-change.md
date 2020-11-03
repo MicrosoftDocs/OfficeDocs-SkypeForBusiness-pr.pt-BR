@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0e57587ea428d8395b65553fc05d1964daa5fb61
-ms.sourcegitcommit: a1524afb546fde9844f53390fab85e7073da8cb2
+ms.openlocfilehash: 452976ca2d88225fb239425861e1c97cd58a2b9f
+ms.sourcegitcommit: 54e685b07d1c23100951d46913480989f046d534
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "48778854"
+ms.lasthandoff: 11/02/2020
+ms.locfileid: "48827745"
 ---
 # <a name="use-onedrive-for-business-and-sharepoint-or-stream-for-meeting-recordings"></a>Usar o OneDrive for Business e o SharePoint ou o Stream para gravações de reunião
 
@@ -97,7 +97,7 @@ Assista à "gravação na reunião" para obter mais informações.
 
 ## <a name="opt-out-of-onedrive-for-business-and-sharepoint-to-continue-using-stream"></a>Recusar o OneDrive for Business e o SharePoint para continuar usando o Stream
 
-Mesmo se uma política disser que está definida como **Stream** , ela pode não ser definida. Geralmente, se a política não estiver definida, a configuração padrão será **Stream** . No entanto, com essa nova alteração, se você quiser optar por usar o SharePoint ou o OneDrive for Business, será necessário redefinir a política para **transmitir** para garantir que seja o padrão.
+Mesmo se uma política disser que está definida como **Stream** , ela pode não ser definida. Geralmente, se a política não estiver definida, a configuração padrão será **Stream**. No entanto, com essa nova alteração, se você quiser optar por usar o SharePoint ou o OneDrive for Business, será necessário redefinir a política para **transmitir** para garantir que seja o padrão.
 
 ```PowerShell
 Set-CsTeamsMeetingPolicy -Identity Global -RecordingStorageMode "Stream"
@@ -127,7 +127,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -RecordingStorageMode "Stream"
 
   <i>onedrive for Business</i> / do gravador **Gravações**
 
-- Para reuniões de canal, a gravação é armazenada na biblioteca de documentação do site do teams em uma pasta chamada **gravações** . Exemplo
+- Para reuniões de canal, a gravação é armazenada na biblioteca de documentação do site do teams em uma pasta chamada **gravações**. Exemplo
 
   <i>Nome do Team-nome</i> / do canal **Documentos** / do **Gravações**
 
