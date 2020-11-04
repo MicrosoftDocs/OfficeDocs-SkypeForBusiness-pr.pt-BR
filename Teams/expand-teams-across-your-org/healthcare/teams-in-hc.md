@@ -20,18 +20,20 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.reviewer: ''
-description: Saiba mais sobre os recursos de assistência médica que incluem coordenação, mensagens de segurança, visita virtual, integração do EHR e primeira integração do sistema de trabalho.
-ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b4c4ff0319d285d3dcd8c70b3a19de8cce6248ca
-ms.sourcegitcommit: beaaee10019f4eda746f348888a4a3c2aaa6f196
+description: Saiba mais sobre os recursos de assistência médica, como o Microsoft Teams telehealth, a integração do EHR, a integração do sistema do primeiro trabalhador e o aplicativo pacientes.
+ms.custom:
+- seo-marvel-apr2020
+- seo-marvel-jun2020
+ms.openlocfilehash: 7cd05039797f26cd2a6fb3fb93e9b90cc3059651
+ms.sourcegitcommit: 43dc627e9fef31a2508f54acf741000551ff68b5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "48803529"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "48878705"
 ---
 # <a name="get-started-with-teams-for-healthcare-organizations"></a>Comece a usar o Microsoft Teams para organizações de assistência médica
 
-O Microsoft Teams oferece diversos recursos úteis para hospitais e outras organizações de assistência médica, incluindo:
+O Microsoft Teams oferece vários recursos de telemedicina úteis para hospitais e outras organizações de assistência médica. Os recursos do teams estão em desenvolvimento para ajudar hospitais com:
 
 - Integração de visitas virtuais e do EHR (Electronic Healthcare Record)
 - Pacotes de política de equipe

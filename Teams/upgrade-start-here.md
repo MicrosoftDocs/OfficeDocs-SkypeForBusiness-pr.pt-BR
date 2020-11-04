@@ -1,5 +1,5 @@
 ---
-title: Introdução à atualização para o Microsoft Teams
+title: Como atualizar o Skype for Business para o Teams-Microsoft Teams
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -13,6 +13,7 @@ search.appverid: MET150
 ms.custom:
 - Teams-upgrade-guidance
 - seo-marvel-apr2020
+- seo-marvel-may2020
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
@@ -29,14 +30,14 @@ f1.keywords:
 - CSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6c955d0f104dc9aef476c9252a78cc2bfd2bc6f9
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 384897b7496a1617b2b6617aece31b677535dc81
+ms.sourcegitcommit: 43dc627e9fef31a2508f54acf741000551ff68b5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48497288"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "48878495"
 ---
-# <a name="getting-started-with-your-microsoft-teams-upgrade"></a>Introdução à atualização para o Microsoft Teams
+# <a name="get-started-on-your-upgrade-from-skype-for-business-to-microsoft-teams"></a>Comece a usar a atualização do Skype for Business para o Microsoft Teams
 
 Parabéns pela atualização pendente do Skype for Business para o Microsoft Teams. Quer você esteja começando a usar o Teams, usando o Teams em conjunto com o Skype for Business ou pronto para atualizar, queremos garantir que você tenha tudo o que precisa para realizar uma migração tranquila para o Teams.
 
@@ -46,7 +47,7 @@ Se você estiver atualizando do Skype for Business Online para o Teams ou de um 
 
 O Microsoft Teams amplia os recursos do Skype for Business, reunindo chat, reuniões, chamadas, colaboração, integração de aplicativos e armazenamento de arquivos em uma única interface. Essa nova central para o trabalho em equipe pode ajudar a simplificar a forma como os usuários realizam suas tarefas, melhorando a satisfação do usuário e acelerando os resultados dos negócios. Estamos expandindo continuamente os recursos do Teams para que possa comunicar e colaborar de novas maneiras, dividir barreiras geográficas e organizacionais e aumentar a eficiência dos processos e tomada de decisões. Saiba mais sobre os benefícios da atualização para as equipes do relatório da Forrester: [Impacto econômico total do Microsoft Teams](https://www.microsoft.com/microsoft-365/blog/wp-content/uploads/sites/2/2019/04/Total-Economic-Impact-Microsoft-Teams-Infographic.pdf).  
 
-## <a name="when-should-my-organization-upgrade-to-teams"></a>Quando a minha organização deve atualizar para o Teams?
+## <a name="when-should-my-organization-migrate-to-teams"></a>Quando minha organização deve migrar para o Microsoft Teams?
 
 O Skype for Business Online será desativado em 31 de julho de 2021, e depois disso não estará mais acessível nem terá suporte. Embora o serviço Skype for Business online continue totalmente funcional até 31 de julho de 2021, a Microsoft recomenda que os clientes comecem a jornada de atualização hoje, permitindo um bom tempo para concluir a atualização antes da data de desativação.  Leia nosso [comunicado sobre a desativação](https://aka.ms/sfboannounce) para saber mais.
 
@@ -62,7 +63,7 @@ Sim. O sistema de telefonia está disponível para todos os usuários do teams d
 
 Sim. Com o roteamento direto do sistema telefônico, você pode usar o sistema telefônico com praticamente qualquer operadora de telefonia. Com o roteamento direto, você conecta seu próprio controlador de borda de sessão (SBC) diretamente ao sistema telefônico. Para obter mais informações, consulte [Roteamento direto do sistema telefônico](direct-routing-landing-page.md).
  
-## <a name="how-is-microsoft-helping-customers-with-their-upgrade-to-teams"></a>Como a Microsoft está ajudando os clientes na atualização para o Teams? 
+## <a name="how-is-microsoft-helping-customers-with-their-migration-to-teams"></a>Como a Microsoft está ajudando os clientes na migração para o Microsoft Teams? 
 
 A Microsoft assume o compromisso de ajudar você a migrar do Skype for Business para o Teams com sucesso. A Microsoft está fornecendo diretrizes robustas, criadas com base em uma estrutura de sucesso de atualização de ponta a ponta comprovada, concebida para ajudá-lo a planejar e executar a atualização para o Teams. Nossas diretrizes foram projetadas para cada estágio da viagem de atualização, quer você esteja apenas começando o planejamento, executando o Teams em conjunto com o Skype for Business ou pronto para atualizar para o Teams.
 

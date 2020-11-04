@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Saiba como configurar e testar atendedores automáticos do Microsoft Teams.
-ms.openlocfilehash: bda0772f26e0adf996461f838b5f0978341d0e82
-ms.sourcegitcommit: 54e685b07d1c23100951d46913480989f046d534
+ms.openlocfilehash: ae1863d30236321080fb580e9152f8c3a09d0ad2
+ms.sourcegitcommit: 3f465eb6eb46db008f2b69fc4c6bb425d432dfcc
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2020
-ms.locfileid: "48840419"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48878187"
 ---
 # <a name="set-up-an-auto-attendant"></a>Configurar um atendedor automático
 
@@ -213,7 +213,7 @@ O número de telefone de saída exibido é determinado da seguinte maneira:
 
 Não há suporte para transferências entre troncos de plano de chamada e troncos diretos de roteamento.
 
-Em um ambiente híbrido, para transferir uma chamada de atendedor automático para a PSTN via integração PSTN do Skype for Business, crie um novo usuário local com o encaminhamento de chamadas definido para o número PSTN. O usuário deve estar habilitado para o Enterprise Voice e ter uma política de voz atribuída. Para saber mais, consulte [transferência de chamadas de atendedor automático para PSTN](https://docs.microsoft.com/SkypeForBusiness/plan/exchange-unified-messaging-online-migration-support#auto-attendant-call-transfer-to-pstn).
+Em um ambiente híbrido do Skype for Business, para transferir uma chamada de atendedor automático para a PSTN, crie um novo usuário local com encaminhamento de chamadas definido para o número PSTN. O usuário deve estar habilitado para o Enterprise Voice e ter uma política de voz atribuída. Para saber mais, consulte [transferência de chamadas de atendedor automático para PSTN](https://docs.microsoft.com/SkypeForBusiness/plan/exchange-unified-messaging-online-migration-support#auto-attendant-call-transfer-to-pstn).
 
 ### <a name="create-an-auto-attendant-with-powershell"></a>Criar um atendedor automático com o PowerShell
 

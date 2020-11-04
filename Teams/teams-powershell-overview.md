@@ -13,16 +13,16 @@ ms.collection:
 description: Aprenda a usar os controles do PowerShell para gerenciar o Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a5986a730ed678d45360d89efbd35693134c2a6a
-ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
+ms.openlocfilehash: 12360110df90fb5de2e3e4547534c8569cc5537a
+ms.sourcegitcommit: 3f465eb6eb46db008f2b69fc4c6bb425d432dfcc
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/15/2020
-ms.locfileid: "47814360"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48852152"
 ---
 # <a name="microsoft-teams-powershell-overview"></a>Visão geral do Microsoft Teams PowerShell
 
-O Microsoft Teams PowerShell é um conjunto de cmdlets para o gerenciamento de equipes diretamente da linha de comando do PowerShell. Escrito em .NET Standard, o PowerShell do teams funciona no PowerShell 5,1 no Windows, PowerShell 6. x e superior em todas as plataformas, incluindo o Shell do Azure.
+O Microsoft Teams PowerShell é um conjunto de cmdlets para o gerenciamento de equipes diretamente da linha de comando do PowerShell. Escrito em .NET Standard, o PowerShell do teams funciona no PowerShell 5,1 no Windows, PowerShell 6. x e superior em todas as plataformas, incluindo o Shell de nuvem do Azure.
 
 Antes de começar a usar o PowerShell, você precisará [instalá-lo](teams-powershell-install.md). 
 
@@ -34,9 +34,9 @@ Antes de começar a usar o PowerShell, você precisará [instalá-lo](teams-powe
 
 O Microsoft Teams PowerShell está disponível na [Galeria do PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams) em dois tipos de versão.
 
-- **Disponibilidade geral (GA)**: cmdlets prontos para produção, atualizados mensalmente.
+- **Disponibilidade geral (GA)** : cmdlets prontos para produção, atualizados mensalmente.
 
-- **Visualização pública**: acesso antecipado aos recursos. Pode ser atualizado com mais frequência do que o GA.
+- **Visualização pública** : acesso antecipado aos recursos. Pode ser atualizado com mais frequência do que o GA.
 
 Para obter informações detalhadas sobre adições de recursos e melhorias para ambos os lançamentos, leia as [notas de versão do teams PowerShell](teams-powershell-release-notes.md).
 

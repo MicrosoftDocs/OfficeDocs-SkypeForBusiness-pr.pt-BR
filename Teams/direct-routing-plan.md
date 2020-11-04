@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
 description: Saiba como o roteamento direto do Microsoft Phone System permite conectar um controlador de borda de sessão (SBC) compatível fornecido pelo cliente a um sistema telefônico da Microsoft.
-ms.openlocfilehash: 06326279ed410afdeb881b68a3353d984d34ff3a
-ms.sourcegitcommit: 8924cd77923ca321de72edc3fed04425a4b13044
+ms.openlocfilehash: ea971cb4cacf51c5970b0a89c43d4e88949dc9f0
+ms.sourcegitcommit: 3f465eb6eb46db008f2b69fc4c6bb425d432dfcc
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/24/2020
-ms.locfileid: "48262528"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48852192"
 ---
 # <a name="plan-direct-routing"></a>Planejar o Roteamento Direto
 
@@ -189,7 +189,7 @@ O certificado precisa ser gerado por uma das seguintes autoridades de certifica�
 - T-Systems International GmbH (alemães Telekom)
 - QuoVadis
 
-Para roteamento direto no ambiente do Office 365 GCC DoD, o certificado precisa ser gerado por uma das seguintes autoridades de certificação raiz:
+Para roteamento direto no Office 365 GCCH e em ambientes DoD, o certificado precisa ser gerado por uma das seguintes autoridades de certificação raiz:
 - CA raiz global do DigiCert
 - CA raiz EV de alta garantia DigiCert
 
@@ -235,7 +235,7 @@ Os FQDNs – sip.pstnhub.microsoft.com, sip2.pstnhub.microsoft.com e sip3.pstnhu
 Você precisa abrir portas para todos esses endereços IP no seu firewall para permitir o recebimento e o tráfego de entrada e saída dos endereços para sinalização.  Se o seu firewall der suporte a nomes DNS, a **SIP-ALL.PSTNHUB.Microsoft.com** FQDN será resolvida para todos esses endereços IP. 
 
 
-### <a name="office-365-gcc-dod-environment"></a>Ambiente do Office 365 GCC DoD
+### <a name="office-365-gcch-and-dod-environment"></a>Ambiente GCCH e DoD do Office 365
 
 O ponto de conexão para roteamento direto é o seguinte FQDN:
 
@@ -299,7 +299,7 @@ O tráfego de mídia flui para e de um serviço separado na nuvem da Microsoft. 
 - 52.112.0.0/14 (endereços IP de 52.112.0.1 para 52.115.255.254).
 - 52.120.0.0/14 (endereços IP de 52.120.0.1 para 52.123.255.254).
 
-### <a name="office-365-gcc-dod-environment"></a>Ambiente do Office 365 GCC DoD
+### <a name="office-365-dod-environment"></a>Ambiente DoD do Office 365
 
 - 52.127.64.0/21
 

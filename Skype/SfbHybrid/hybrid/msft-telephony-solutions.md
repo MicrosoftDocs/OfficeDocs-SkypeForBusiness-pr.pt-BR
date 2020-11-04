@@ -17,17 +17,18 @@ ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
-description: Descreve as soluções de telefonia da Microsoft.
-ms.openlocfilehash: 4d83ea2251175de65db6e642f89bca730af9e0be
-ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
+description: 'Saiba mais sobre as soluções de telefonia da Microsoft: sistema de telefonia (Private Branch Exchange-PBX) e opções de conectividade PSTN (planos de chamadas e roteamento direto).'
+ms.custom: seo-marvel-jun2020
+ms.openlocfilehash: 3f5e4f0cf0cb027ed0c18b98c85b123634687a77
+ms.sourcegitcommit: 43dc627e9fef31a2508f54acf741000551ff68b5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "47359097"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "48878535"
 ---
 # <a name="microsoft-telephony-solutions"></a>Soluções de telefonia da Microsoft
 
-A Microsoft dá suporte a várias opções à medida que você começa sua jornada para o Teams na nuvem da Microsoft. Este artigo ajuda você a decidir qual solução de telefonia da Microsoft (sistema telefônico na nuvem ou o Enterprise Voice no local) é a mais adequada para os usuários em sua organização e como sua organização pode se conectar à PSTN (rede telefônica pública comutada). 
+A Microsoft dá suporte a várias opções à medida que você começa sua jornada para o Teams na nuvem da Microsoft. Este artigo ajuda você a decidir qual solução de telefonia da Microsoft (sistema telefônico na nuvem ou o Enterprise Voice no local) é a mais adequada para os usuários em sua organização e como sua organização pode se conectar à PSTN (rede telefônica pública comutada).
 
 Você deve usar este artigo junto com o diagrama técnico associado, que fornece um auxílio visual para tomar a decisão certa para sua organização:
 
@@ -42,7 +43,7 @@ Você deve usar este artigo junto com o diagrama técnico associado, que fornece
 
 ### <a name="phone-system-microsoft-365-or-office-365"></a>Sistema de telefonia (Microsoft 365 ou Office 365)
   
-O sistema de telefonia é a tecnologia da Microsoft para habilitar o controle de chamadas e os recursos de PBX (central privada de comutação telefônica) na nuvem do Microsoft 365 ou do Office 365 com o Microsoft Teams e/ou o Skype for Business online. 
+O sistema de telefonia é a tecnologia da Microsoft para habilitar o controle de chamadas e os recursos de PBX (central privada de comutação telefônica) na nuvem do Microsoft 365 ou do Office 365 com o Microsoft Teams e/ou o Skype for Business online.
 
 O sistema de telefonia funciona com o Microsoft Teams ou clientes do Skype for Business Online e dispositivos certificados. O sistema de telefonia permite substituir seu sistema PBX existente por um conjunto de recursos fornecidos diretamente pelo Microsoft 365 ou Office 365 e totalmente integrado à experiência de produtividade de nuvem da empresa. Para conectar o sistema de telefonia à rede telefônica pública comutada (PSTN), você pode escolher o plano de chamadas da Microsoft ou sua própria operadora de telefonia.
 
@@ -50,7 +51,7 @@ Para obter mais informações, consulte [o que é o sistema de telefonia no Micr
 
 ### <a name="enterprise-voice-skype-for-business-server"></a>Enterprise Voice (Skype for Business Server)
 
-O Enterprise Voice é a tecnologia da Microsoft para habilitar o controle de chamadas e os recursos de PBX (central privada de comutação) no Skype for Business Server local. Essa opção só pode ser conectada à rede telefônica pública comutada usando sua própria operadora de telefonia. 
+O Enterprise Voice é a tecnologia da Microsoft para habilitar o controle de chamadas e os recursos de PBX (central privada de comutação) no Skype for Business Server local. Essa opção do Skype for Business só pode ser conectada à rede telefônica pública comutada usando sua própria operadora de telefonia.
 
 Para obter mais informações, consulte [Plan for Enterprise Voice in Skype for Business Server](https://docs.microsoft.com/SkypeForBusiness/plan-your-deployment/enterprise-voice-solution/enterprise-voice?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json).
 

@@ -1,5 +1,5 @@
 ---
-title: Salas do Microsoft Teams
+title: Salas de reunião virtual do Microsoft Teams
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,13 +12,14 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
-description: As considerações de planejamento pertinentes para a implantação de salas do Microsoft Teams e como implantar e gerenciar o sistema.
-ms.openlocfilehash: 4474d5f7c5e273fccc52e077907017c073e3a7b5
-ms.sourcegitcommit: 207c58563b7b2aba274b067cf64242abd7a33c2c
+description: Saiba como configurar salas do Microsoft Teams, incluindo o planejamento, a implantação e o gerenciamento do sistema para criar sua sala de reuniões virtual ideal.
+ms.custom: seo-marvel-may2020
+ms.openlocfilehash: 3f2aba78baf1933f2f0104a8cadd568b685964fd
+ms.sourcegitcommit: 43dc627e9fef31a2508f54acf741000551ff68b5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/08/2020
-ms.locfileid: "47405798"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "48878675"
 ---
 # <a name="microsoft-teams-rooms"></a>Salas do Microsoft Teams
 

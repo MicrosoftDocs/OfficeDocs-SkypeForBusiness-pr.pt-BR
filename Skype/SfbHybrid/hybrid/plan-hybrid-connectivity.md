@@ -16,17 +16,16 @@ ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
-description: Considerações de planejamento para implementar a conectividade híbrida entre o Skype for Business Server e o Skype for Business online ou o Teams.
-ms.openlocfilehash: 38c44dbbb60ed541ab3a5b830c130dcb37eb86e0
-ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
+description: Planejar a implementação da conectividade híbrida entre o Skype for Business Server e o Teams ou o Skype for Business online Configurando o modo híbrido do Skype for Business.
+ms.custom: seo-marvel-jun2020
+ms.openlocfilehash: 856172d5fba3df96b2456f0ceca1c661120e84e4
+ms.sourcegitcommit: 43dc627e9fef31a2508f54acf741000551ff68b5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "47359057"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "48878575"
 ---
 # <a name="plan-hybrid-connectivity-between-skype-for-business-server-and-microsoft-365-or-office-365"></a>Planejar a conectividade híbrida entre o Skype for Business Server e o Microsoft 365 ou o Office 365
-
-## <a name="overview"></a>Visão Geral
 
 Leia este tópico para saber como planejar a conectividade híbrida entre o Skype for Business Server e o Teams ou o Skype for Business online. Configurar a conectividade híbrida é o primeiro passo para migrar seu ambiente local para a nuvem.
 
@@ -49,7 +48,7 @@ Depois de ler este tópico e estiver pronto para configurar a conectividade híb
 
 Esse tipo de configuração depende da funcionalidade de espaço de endereço SIP compartilhado e, às vezes, é chamada de "domínio dividido", o que significa que os usuários de um domínio, como o contoso.com, são divididos entre o uso do Skype for Business Server no local e no Microsoft Teams ou o Skype for Business Online, conforme mostrado no diagrama a seguir:
 
-![Conectividade híbrida do SfB-domínio dividido](../../sfbserver2019/media/plan-hybrid-connectivity-2019-1.png)
+![Conectividade híbrida do Skype for Business-dividir domínio](../../sfbserver2019/media/plan-hybrid-connectivity-2019-1.png)
 
 Quando o espaço de endereçamento SIP compartilhado é configurado:
 
@@ -61,7 +60,7 @@ Quando o espaço de endereçamento SIP compartilhado é configurado:
 
 Para que um usuário possa ser movido online, o usuário deve receber uma licença do Skype for Business online (plano 2). Se o usuário estiver usando o Microsoft Teams, o usuário também deverá receber uma licença do Teams (e a licença do Skype for Business deverá permanecer habilitada). Se os seus usuários desejam aproveitar recursos online adicionais, como audioconferência ou sistema de telefonia, você precisa atribuir a licença apropriada no Microsoft 365 ou no Office 365.
 
-## <a name="infrastructure-requirements"></a>Requisitos de infraestrutura
+## <a name="hybrid-connectivity-infrastructure-requirements"></a>Requisitos de infraestrutura de conectividade híbrida
 
 <a name="BKMK_Infrastructure"> </a>
 
@@ -75,8 +74,8 @@ Para implementar a conectividade híbrida entre seu ambiente local e os serviço
     
 - Azure Active Directory Connect para sincronizar seu diretório local com o Microsoft 365 ou o Office 365. Para obter mais informações, consulte [Azure ad Connect: Accounts and Permissions](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect-accounts-permissions).
 
-- Ferramentas administrativas do Skype for Business Server.  Eles são necessários para mover os usuários do local para a nuvem. Essas ferramentas devem ser instaladas em um servidor com acesso à implantação local e à Internet.
-- Ferramentas administrativas online.  É possível usar o centro de administração do teams ou o Windows PowerShell para gerenciar o Teams e o Skype for Business online. Para usar o PowerShell para gerenciar o Teams ou o Skype for Business Online, baixe e instale o conector do Skype for Business online.
+- Ferramentas administrativas do Skype for Business Server. Eles são necessários para mover os usuários do local para a nuvem. Essas ferramentas devem ser instaladas em um servidor com acesso à implantação local e à Internet.
+- Ferramentas administrativas online. É possível usar o centro de administração do teams ou o Windows PowerShell para gerenciar o Teams e o Skype for Business online. Para usar o PowerShell para gerenciar o Teams ou o Skype for Business Online, baixe e instale o conector do Skype for Business online.
 - O espaço de endereçamento SIP compartilhado deve ser habilitado, e sua implantação local deve ser configurada para usar o Microsoft 365 ou o Office 365 como um provedor de hospedagem. Para obter mais informações sobre as etapas necessárias para configurar a conectividade híbrida, consulte [configurar conectividade híbrida](configure-hybrid-connectivity.md).
 
 Depois de configurar a conectividade híbrida, você pode mover os usuários para o Microsoft Teams ou o Skype for Business online. Para obter mais informações, consulte [move users from local to Teams](move-users-from-on-premises-to-teams.md) e [move users from local to Skype for Business online](move-users-from-on-premises-to-skype-for-business-online.md).
@@ -85,7 +84,7 @@ Depois de configurar a conectividade híbrida, você pode mover os usuários par
 
 <a name="BKMK_Topology"> </a>
 
-Para configurar sua implantação do híbrida com o **Teams ou o Skype for Business online**, você precisa ter uma das seguintes topologias compatíveis:
+Para configurar sua implantação do híbrida com o **Teams ou o Skype for Business online** , você precisa ter uma das seguintes topologias compatíveis:
 
 - Uma implantação do Skype for Business 2019 com todos os servidores executando o Skype for Business 2019.
 - Uma implantação do Skype for Business 2015 com todos os servidores executando o Skype for Business 2015.
@@ -95,9 +94,9 @@ Para configurar sua implantação do híbrida com o **Teams ou o Skype for Busin
   - Lync Server 2013 e Skype for Business Server 2019
   - Lync Server 2013 e Skype for Business Server 2015
 
-*Se a voz híbrida for desejada em qualquer topologia*, o servidor de borda designado como a borda de Federação, bem como o pool associado à Federação SIP, deverá estar executando o Skype for Business 2015 ou posterior. Os usuários podem permanecer em um pool do Lync 2013, se houver um. Para obter mais detalhes, consulte [Plan Phone System with PSTN Connectivity in Skype for Business Server](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-phone-system-with-on-premises-pstn-connectivity).
+*Se a voz híbrida for desejada em qualquer topologia* , o servidor de borda designado como a borda de Federação, bem como o pool associado à Federação SIP, deverá estar executando o Skype for Business 2015 ou posterior. Os usuários podem permanecer em um pool do Lync 2013, se houver um. Para obter mais detalhes, consulte [Plan Phone System with PSTN Connectivity in Skype for Business Server](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-phone-system-with-on-premises-pstn-connectivity).
 
-As seguintes topologias que incluem o **Lync Server 2010 são compatíveis com o Skype for Business online** para mensagens instantâneas e reuniões.  Topologias que incluem o **Lync Server 2010 não são suportadas para voz híbrida e equipes**.
+As seguintes topologias que incluem o **Lync Server 2010 são compatíveis com o Skype for Business online** para mensagens instantâneas e reuniões. Topologias que incluem o **Lync Server 2010 não são suportadas para voz híbrida e equipes**.
 
 - Uma implantação mista do Lync Server 2010 e do Skype for Business Server 2015
 - Uma implantação mista do Lync Server 2010 e Lync Server 2013
@@ -126,7 +125,7 @@ A Microsoft oferece suporte aos seguintes tipos de cenários híbridos de vária
 
 <a name="BKMK_Federation"> </a>
 
-Ao configurar o híbrido, você deve garantir que seus ambientes locais e online possam se federar.  O ambiente online tem Federação aberta por padrão; o ambiente local geralmente tem a Federação fechada por padrão.  
+Ao configurar o modo híbrido do Skype for Business, você deve garantir que seus ambientes locais e online possam se federar.  O ambiente online tem Federação aberta por padrão; o ambiente local geralmente tem a Federação fechada por padrão.  
 
 Os seguintes requisitos devem ser atendidos para configurar com êxito uma implantação híbrida:
 
@@ -142,7 +141,7 @@ As seções a seguir descrevem as considerações para:
 - Configurações de DNS
 - Considerações sobre o firewall
 
-### <a name="dns-settings"></a>Configurações de DNS
+### <a name="dns-settings-for-hybrid-deployments"></a>Configurações de DNS para implantações híbridas
 
 <a name="BKMK_DNS"> </a>
 
@@ -152,12 +151,12 @@ Além disso, você precisa garantir que a resolução DNS descrita na tabela a s
 
 |Registro DNS  <br/> |Resolvível por  <br/> |Requisito de DNS  <br/> |
 |:-----|:-----|:-----|
-|Registro SRV de DNS para _sipfederationtls. _tcp.\<sipdomain.com\> para todos os domínios SIP com suporte que resolvem os IP externos de borda de acesso  <br/> |Servidor (es) de borda  <br/> |Habilitar a comunicação federada em uma configuração híbrida. O servidor de borda precisa saber onde rotear o tráfego federado para o domínio SIP dividido entre o local e o online.  <br/> Deve usar o nome de DNS estrito correspondente entre o domínio no nome de usuário e o registro SRV.  <br/> |
+|Registro SRV de DNS para _sipfederationtls. _ TCP.\<sipdomain.com\> para todos os domínios SIP com suporte que resolvem os IP externos de borda de acesso  <br/> |Servidor (es) de borda  <br/> |Habilitar a comunicação federada em uma configuração híbrida. O servidor de borda precisa saber onde rotear o tráfego federado para o domínio SIP dividido entre o local e o online.  <br/> Deve usar o nome de DNS estrito correspondente entre o domínio no nome de usuário e o registro SRV.  <br/> |
 |Registro (s) de DNS para o FQDN do serviço de webconferência de borda, por exemplo, webcon.contoso.com resolvendo IP (s) externo de borda de Webconferência  <br/> |Computadores de usuários conectados à rede corporativa interna  <br/> |Permitir que os usuários online apresentem ou exibam conteúdo em reuniões hospedadas no local. O conteúdo inclui arquivos do PowerPoint, quadros de comunicações, pesquisas e anotações compartilhadas.  <br/> |
 
 Dependendo de como o DNS é configurado em sua organização, talvez seja necessário adicionar esses registros à zona de DNS hospedada internamente para o (s) domínio (s) SIP correspondente para fornecer resolução DNS interna a esses registros.
 
-### <a name="firewall-considerations"></a>Considerações sobre o firewall
+### <a name="firewall-considerations-for-hybrid-deployments"></a>Considerações de firewall para implantações híbridas
 
 <a name="BKMK_Firewall"> </a>
 

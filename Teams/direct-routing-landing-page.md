@@ -14,16 +14,18 @@ search.appverid: MET150
 f1.keywords:
 - NOCSH
 - ms.teamsadmincenter.directrouting.overview
-description: Saiba mais sobre o roteamento direto e entenda as decisões de implantação necessárias que você vai enfrentar.
-ms.custom: seo-marvel-apr2020
+description: Saiba mais sobre roteamento direto, como configuração, decisões de implantação básica necessárias e considerações de roteamento de voz.
+ms.custom:
+- seo-marvel-apr2020
+- seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2c988670a17a9ba2f803c11740d97404de52d4d5
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 172253f0c1fe99043a21bf70309d81f71e392d4c
+ms.sourcegitcommit: 43dc627e9fef31a2508f54acf741000551ff68b5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48497298"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "48878515"
 ---
 # <a name="phone-system-direct-routing"></a>Roteamento Direto do Sistema de Telefonia
 
@@ -47,7 +49,7 @@ Além disso, talvez você queira ler os seguintes artigos dependendo dos seus re
 -  [Contas de usuário em um ambiente híbrido com conectividade PSTN](direct-routing-user-accounts-in-a-hybrid-environment.md)
 - Assista à sessão a seguir para saber mais sobre o roteamento direto: [Roteamento direto no Microsoft Teams](https://aka.ms/teams-direct-routing)
 
-## <a name="core-deployment-decisions"></a>Decisões importantes sobre implantação
+## <a name="core-deployment-decisions"></a>Decisões principais de implantação
 
 Estas são as principais decisões a serem consideradas para o roteamento direto. 
 

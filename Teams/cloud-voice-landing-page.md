@@ -16,16 +16,17 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.dashboard.helparticle.cloudvoice
 - seo-marvel-apr2020
+- seo-marvel-may2020
 search.appverid: MET150
-description: Saiba mais sobre as soluções de voz da Microsoft com o sistema telefônico da Microsoft e as opções de conectividade PSTN, incluindo plano de chamada e roteamento direto.
+description: Saiba mais sobre os recursos de voz do Microsoft Teams Cloud e as decisões de implantação que você fará para sua organização.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 513525448112fbb9b2b0bf4beacfec46bfb1d76a
-ms.sourcegitcommit: 45064a0020a1231e17967c74f082106c68213ea0
+ms.openlocfilehash: 243c4d9f7cc2987fa796b7d21a5a37a49d4db7ec
+ms.sourcegitcommit: 43dc627e9fef31a2508f54acf741000551ff68b5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "48308336"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "48878555"
 ---
 # <a name="plan-your-teams-voice-solution"></a>Planejar a solução de voz do teams 
 
@@ -57,7 +58,7 @@ No entanto, sua situação pode ser mais complexa. Por exemplo, você pode ter e
 | [**Sistema de Telefonia**](#phone-system) | A tecnologia da Microsoft para habilitar os recursos de controle de chamada e PBX (Private Branch Exchange) na nuvem do Microsoft 365 com o Microsoft Teams. |
 | [**Opções de conectividade PSTN (rede telefônica pública comutada)**](#public-switched-telephone-network-connectivity-options) | Uma escolha entre usar a Microsoft como sua operadora de telefonia ou conectar sua própria operadora de telefonia ao Microsoft Teams usando o roteamento direto. Combinado com o sistema telefônico, as opções de conectividade PSTN permitem que os usuários façam chamadas para telefones no mundo todo.|
 
-**Dependendo dos seus requisitos.** Algumas das seções neste artigo são pertinentes dependendo da implantação e dos requisitos existentes. Por exemplo, o roteamento baseado em localização só é necessário para clientes de roteamento direto em locais geográficos que não permitem o bypass de chamada tarifada.
+**Dependendo dos seus requisitos.** Algumas das seções neste artigo são pertinentes dependendo da implantação e dos requisitos existentes. Por exemplo, Location-Based roteamento só é necessário para os clientes de roteamento direto em locais geográficos que não permitem o bypass de chamada tarifada.
 
 
 | Dependendo dos seus requisitos | Descrição |
@@ -65,8 +66,8 @@ No entanto, sua situação pode ser mais complexa. Por exemplo, você pode ter e
 | [**Números de telefone da Microsoft**](#phone-numbers-from-microsoft) | Como obter e gerenciar números de telefone da Microsoft e como transferir números existentes para a Microsoft. Leia isto se precisar obter números de telefone para o plano de chamadas da Microsoft, transferir números existentes, obter números de serviço e assim por diante. |
 | [**Planos de discagem e encaminhamento de chamadas**](#dial-plans-and-call-routing) | Como configurar e gerenciar planos de discagem que convertem números de telefone discados em um formato alternativo (geralmente formato E. 164) para autorização de chamadas e encaminhamento de chamadas. Leia esta opção se você precisar entender quais são os planos de discagem e se precisará especificar planos de discagem para a sua organização.|
 | [**Chamadas de emergência**](#emergency-calling) | Como gerenciar e configurar as chamadas de emergência &mdash; dependendo da opção de conectividade PSTN. Leia esta seção se estiver usando o plano de chamadas da Microsoft ou o roteamento direto e precisar compreender como gerenciar as chamadas de emergência para sua organização. |
-| [**Roteamento baseado em local para roteamento direto**](#location-based-routing-for-direct-routing) |Como usar o roteamento baseado em local (LBR) para restringir o bypass de chamadas para usuários do Microsoft Teams com base em sua localização geográfica. Leia esta seção se a sua organização estiver usando o roteamento direto em um local que não permita o bypass de chamada tarifada.
-| [**Topologia de rede para recursos de voz na nuvem**](#network-topology-for-voice-features) | Se a sua organização estiver implantando o roteamento baseado em local (LBR) para roteamento direto ou chamadas de emergência dinâmicas, você deve definir as configurações de rede para usar com esses recursos no Microsoft Teams. Leia esta seção se você estiver implementando LBR para roteamento direto ou se estiver implementando chamadas de emergência dinâmicas com plano de chamada ou roteamento direto. |
+| [**Roteamento baseado em local para roteamento direto**](#location-based-routing-for-direct-routing) |Como usar o roteamento de Location-Based (LBR) para restringir o bypass para usuários do Microsoft Teams com base em sua localização geográfica. Leia esta seção se a sua organização estiver usando o roteamento direto em um local que não permita o bypass de chamada tarifada.
+| [**Topologia de rede para recursos de voz na nuvem**](#network-topology-for-voice-features) | Se a sua organização estiver implantando o roteamento de Location-Based (LBR) para roteamento direto ou chamadas de emergência dinâmicas, você deve definir as configurações de rede para usar com esses recursos no Microsoft Teams. Leia esta seção se você estiver implementando LBR para roteamento direto ou se estiver implementando chamadas de emergência dinâmicas com plano de chamada ou roteamento direto. |
 | [**Migrar sua solução de voz existente**](#migrate-your-existing-voice-solution-to-teams) | O que você precisa pensar ao migrar sua solução de voz para o Microsoft Teams.  Leia esta seção se você estiver migrando de uma solução de voz existente para o Microsoft Teams. 
 
 
@@ -253,19 +254,19 @@ A maneira como você configura a chamada de emergência é diferente, dependendo
 - [Estudo de caso da Contoso: chamadas de emergência](voice-case-study-emergency-calling.md)<br>
   Descreve como uma corporação multinacionais fictícia, contoso, implementou chamadas de emergência para sua organização.
 
-## <a name="location-based-routing-for-direct-routing"></a>Roteamento baseado em local para roteamento direto
+## <a name="location-based-routing-for-direct-routing"></a>Roteamento Location-Based para roteamento direto
 
-Em alguns países e regiões, é ilegal ignorar o provedor PSTN (rede telefônica pública comutada) para reduzir os custos de chamadas de longa distância. O roteamento baseado em local para roteamento direto permite restringir o bypass para tarifas para usuários do Microsoft Teams com base em sua localização geográfica. Para obter mais informações sobre como planejar e configurar o roteamento baseado em local (LBR), consulte os seguintes artigos:
+Em alguns países e regiões, é ilegal ignorar o provedor PSTN (rede telefônica pública comutada) para reduzir os custos de chamadas de longa distância. Location-Based roteamento para roteamento direto permite que você restrinja o bypass de chamadas para usuários do Microsoft Teams com base em sua localização geográfica. Para obter mais informações sobre como planejar e configurar o roteamento de Location-Based (LBR), consulte os seguintes artigos:
 
 - [Planejar o Roteamento baseado na localização para o Roteamento direto](location-based-routing-plan.md)
 - [Configurar definições de rede para o Roteamento baseado na localização](location-based-routing-configure-network-settings.md)
 - [Habilitar o Roteamento baseado na localização para o Roteamento direto](location-based-routing-enable.md)
-- [Estudo de caso da Contoso: roteamento baseado em localização](voice-case-study-location-based-routing.md)<br>
-  Descreve como uma corporação multinacionais, contoso, um roteamento baseado em local e implementado para a sua organização.
+- [Estudo de caso da Contoso: Location-Based roteamento](voice-case-study-location-based-routing.md)<br>
+  Descreve como uma corporação multinacionais fictícia, contoso, implementou o roteamento Location-Based para a sua organização.
 
 ## <a name="network-topology-for-voice-features"></a>Topologia de rede para recursos de voz
 
-Se você estiver implantando chamadas de emergência dinâmicas ou roteamento baseado em local para roteamento direto, deve definir as configurações de rede para usar com esses recursos no Microsoft Teams. Para saber como definir as configurações de rede para regiões de rede, sites de rede, sub-redes de rede e endereços IP confiáveis, consulte os seguintes artigos:
+Se você estiver implantando chamadas de emergência dinâmicas ou roteamento Location-Based para roteamento direto, deve definir as configurações de rede para usar com esses recursos no Microsoft Teams. Para saber como definir as configurações de rede para regiões de rede, sites de rede, sub-redes de rede e endereços IP confiáveis, consulte os seguintes artigos:
 
 - [Configurações de rede para recursos de voz na nuvem no Microsoft Teams – conceitos e terminologia](cloud-voice-network-settings.md)
 - [Gerenciar a topologia de rede para recursos de voz na nuvem no Microsoft Teams](manage-your-network-topology.md)
@@ -282,11 +283,11 @@ Ao migrar sua solução de voz, há quatro cenários de chamadas possíveis ao s
 
 - [**Um usuário no Skype for Business Online, com um plano de chamadas da Microsoft**](upgrade-to-teams-on-prem-pstn-considerations.md#from-skype-for-business-online-with-microsoft-calling-plans). Após a atualização, este usuário continuará a ter um plano de chamadas da Microsoft.
 
-- ** [Um usuário no Skype for Business Online, com funcionalidade de voz local](upgrade-to-teams-on-prem-pstn-considerations.md#from-skype-for-business-online-with-on-premises-voice) por meio do Skype for Business local ou da edição do Cloud Connector**. A atualização do usuário para o Teams precisa ser coordenada com a migração do usuário para o roteamento direto para garantir que o usuário do TeamsOnly tenha funcionalidade PSTN.
+- **[Um usuário no Skype for Business Online, com funcionalidade de voz local](upgrade-to-teams-on-prem-pstn-considerations.md#from-skype-for-business-online-with-on-premises-voice) por meio do Skype for Business local ou da edição do Cloud Connector**. A atualização do usuário para o Teams precisa ser coordenada com a migração do usuário para o roteamento direto para garantir que o usuário do TeamsOnly tenha funcionalidade PSTN.
 
-- ** [Um usuário do Skype for Business no local com o Enterprise Voice](upgrade-to-teams-on-prem-pstn-considerations.md#from-skype-for-business-server-on-premises-with-enterprise-voice-to-direct-routing), que será movido para online e mantendo a conectividade PSTN local**. Migrar este usuário para o Teams requer mover a conta do Skype for Business no local para a nuvem e coordenar essa movimentação com a migração do usuário para o roteamento direto. 
+- **[Um usuário do Skype for Business no local com o Enterprise Voice](upgrade-to-teams-on-prem-pstn-considerations.md#from-skype-for-business-server-on-premises-with-enterprise-voice-to-direct-routing), que será movido para online e mantendo a conectividade PSTN local**. Migrar este usuário para o Teams requer mover a conta do Skype for Business no local para a nuvem e coordenar essa movimentação com a migração do usuário para o roteamento direto. 
 
-- ** [Um usuário do Skype for Business no local com o Enterprise Voice](upgrade-to-teams-on-prem-pstn-considerations.md#from-skype-for-business-server-on-premises-with-enterprise-voice-to-microsoft-calling-plan), que se moverá para online e usando um plano de chamadas da Microsoft**.  Migrar este usuário para o Microsoft Teams requer mover a conta do Skype for Business no local para a nuvem e coordenar essa movimentação com uma a porta do número de telefone do usuário para um plano de chamadas da Microsoft ou B) atribuir um novo número de assinante de regiões disponíveis.
+- **[Um usuário do Skype for Business no local com o Enterprise Voice](upgrade-to-teams-on-prem-pstn-considerations.md#from-skype-for-business-server-on-premises-with-enterprise-voice-to-microsoft-calling-plan), que se moverá para online e usando um plano de chamadas da Microsoft**.  Migrar este usuário para o Microsoft Teams requer mover a conta do Skype for Business no local para a nuvem e coordenar essa movimentação com uma a porta do número de telefone do usuário para um plano de chamadas da Microsoft ou B) atribuir um novo número de assinante de regiões disponíveis.
 
 Para obter mais informações sobre como implementar sua migração de voz para cada um desses cenários &mdash; , incluindo informações sobre quando você precisa configurar a conectividade híbrida e como migrar usuários com funcionalidade de voz local para o roteamento direto, &mdash; consulte os seguintes artigos:
 
