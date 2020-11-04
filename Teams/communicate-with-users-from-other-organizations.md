@@ -1,6 +1,6 @@
 ---
-title: Comunique-se com usuários de outras organizações no Microsoft Teams
-author: SerdarSoysal
+title: Ligar e conversar com usuários de outras organizações
+author: serdars
 ms.author: serdars
 manager: serdars
 ms.topic: article
@@ -13,18 +13,18 @@ ms.reviewer: vinbel
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Aprenda a se comunicar com usuários de outras organizações no Microsoft Teams usando o acesso externo (federação) e o acesso de convidado.
+description: Aprenda a ligar, usar o chat, encontrar e adicionar usuários de fora da organização no Microsoft Teams usando acesso externo (federação) e acesso de convidado.
 appliesto:
 - Microsoft Teams
 localization_priority: Priority
-ms.openlocfilehash: 5f493643ede3fda0eab0791d5195d749f20eb7ad
-ms.sourcegitcommit: 20258b691ffc559b1656fd1e57f67f5c3a9e29e1
+ms.openlocfilehash: 0535798a506adf839391c9e9075ff1e68398e341
+ms.sourcegitcommit: 43dc627e9fef31a2508f54acf741000551ff68b5
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/15/2020
-ms.locfileid: "46761377"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "48878665"
 ---
-<a name="communicate-with-users-from-other-organizations-in-microsoft-teams"></a>Comunique-se com usuários de outras organizações no Microsoft Teams
+<a name="call-and-chat-with-users-from-other-organizations-in-microsoft-teams"></a>Ligar e conversar com usuários de outras organizações no Microsoft Teams
 ======================================================
 
 Quando você precisa se comunicar e colaborar com pessoas de fora da sua organização, o Microsoft Teams oferece duas maneiras diferentes de fazer isso acontecer. O primeiro - **acesso externo** (federação) - permite que você encontre, ligue e converse com usuários em outros domínios (por exemplo, contoso.com). O segundo - **acesso de convidados** - permite que você adicione indivíduos às suas equipes, como convidados, usando o endereço de email deles. Você pode colaborar com os convidados como faria com outros usuários da sua organização.
@@ -35,7 +35,7 @@ Em um nível alto, veja aqui como escolher (para uma comparação detalhada, vá
 
 ## <a name="external-access"></a>Acesso externo
 
-Use o **acesso externo** (federação) quando você precisar de uma solução que permita que os usuários externos em outros domínios localizem, liguem, conversem e agendem reuniões com você. Os usuários externos não têm acesso às equipes ou aos recursos da equipe da sua organização. Escolha o acesso externo quando quiser se comunicar com usuários externos que ainda estão no Skype for Business (online ou local) ou no Skype (que chega no início de 2020). 
+Use o **acesso externo** (federação) quando você precisar de uma solução que permita que os usuários externos em outros domínios localizem, liguem, conversem e agendem reuniões com você. Os usuários externos não têm acesso às equipes ou aos recursos da equipe da sua organização. Escolha o acesso externo quando quiser se comunicar com usuários de fora da organização que ainda usam o Skype for Business (online ou local) ou o Skype (lançado no início de 2020). 
 
 O acesso externo é ativado por padrão no Teams, o que significa que sua organização pode se comunicar com todos os domínios externos. O administrador do Teams pode desativá-lo ou especificar quais domínios devem ser incluídos (ou excluídos). Para saber mais, leia [Gerenciar acesso externo](manage-external-access.md). 
 

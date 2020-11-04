@@ -1,7 +1,7 @@
 ---
 title: Treinamento de administração do Microsoft Teams
 ms.reviewer: ''
-description: Use estes recursos para usuários finais, administradores e treinamentos guiados por instrutores para ajudá-lo a tirar o máximo de proveito do Microsoft Teams na sua organização.
+description: Use estes vídeos de tutoriais e recursos para usuários finais, administradores e treinamentos guiados por instrutores para ajudá-lo a tirar o máximo de proveito do Microsoft Teams na sua organização.
 ms.topic: overview
 author: msdmaguire
 ms.author: dmaguire
@@ -18,12 +18,13 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: aac5d9d0ee52547312cab655973b66503a0886de
-ms.sourcegitcommit: fd7d5ba09ef30cf4594e352c36f62b950e0e41a6
+ms.custom: seo-marvel-may2020
+ms.openlocfilehash: f1215838081d6cab919999b7ccd91d061ce87321
+ms.sourcegitcommit: 43dc627e9fef31a2508f54acf741000551ff68b5
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "48336970"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "48878345"
 ---
 # <a name="microsoft-teams-training"></a>Treinamento para o Microsoft Teams
 

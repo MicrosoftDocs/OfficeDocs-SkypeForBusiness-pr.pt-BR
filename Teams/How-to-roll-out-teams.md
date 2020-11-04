@@ -1,13 +1,13 @@
 ---
 title: Como implementar o Microsoft Teams
-author: lolajacobsen
-ms.author: lolaj
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.topic: article
 ms.service: msteams
 ms.reviewer: LolaJ
 audience: admin
-description: Independentemente de você estar implementando tudo de uma vez ou estar iniciando em fases, elabore um plano para implementar o Microsoft Teams em sua organização com sucesso.
+description: Independentemente de estar implementando tudo de uma vez ou estar iniciando em fases, elabore um plano para implementar o Microsoft Teams em sua organização com sucesso.
 localization_priority: Priority
 search.appverid: MET150
 ms.collection:
@@ -19,14 +19,15 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.dashboard.helparticle.rolloutteams
 - seo-marvel-mar2020
+- seo-marvel-may2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 761f94e34afacb487ac9ce85f5da36d4ca6b866a
-ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
+ms.openlocfilehash: 06c4ad76b8a10e25f4efe0105fbee59cbfa53a30
+ms.sourcegitcommit: 43dc627e9fef31a2508f54acf741000551ff68b5
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44637910"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "48878685"
 ---
 # <a name="how-to-roll-out-microsoft-teams"></a>Como implementar o Microsoft Teams
 
@@ -48,9 +49,9 @@ Recomendamos implementar o Teams em etapas, uma carga de trabalho por vez, à me
 ![Diagrama ilustrando os caminhos para implantação do Teams](media/how-to-roll-out-teams-image1.png)
 
 
-## <a name="if-youre-starting-from-skype-for-business-on-premises-or-hybrid-deployments"></a>Se você começar pelas implantações do Skype for Business, no local ou híbrida
+## <a name="if-youre-starting-from-skype-for-business-on-premises-or-hybrid-deployments"></a>Se estiver começando por implantações locais ou híbridas do Skype for Business
 
-Se você chegou ao Teams pelo Skype for Business (online ou no local), ou se precisa de uma configuração híbrida, siga o [caminho recomendado](#recommended-path-to-teams) acima para implementar o Teams, mas antes você precisará fazer algum planejamento extra. Comece revisando as instruções na tabela abaixo que se aplicam ao perfil da sua organização.
+Se você chegou ao Teams pelo Skype for Business (online ou no local), ou se precisa de uma configuração híbrida, siga o [caminho recomendado](#recommended-path-to-teams) acima para implantar o Teams, mas antes você precisará fazer algum planejamento extra. Comece revisando as instruções na tabela abaixo que se aplicam ao perfil da sua organização.
 
 
 

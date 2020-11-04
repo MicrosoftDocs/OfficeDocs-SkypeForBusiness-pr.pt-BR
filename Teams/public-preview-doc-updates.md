@@ -17,12 +17,12 @@ description: Saiba mais sobre a visualização pública no Microsoft Teams. Expe
 appliesto:
 - Microsoft Teams
 localization_priority: Priority
-ms.openlocfilehash: a13e5499cb00d95d685b493db1365e9dc08ff43f
-ms.sourcegitcommit: 532205e5a3c28b44b86cd4d1376ebee9590b8266
+ms.openlocfilehash: a2b06c58396db0e8fdb976037696b7a782d581cd
+ms.sourcegitcommit: 3f465eb6eb46db008f2b69fc4c6bb425d432dfcc
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "48816214"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48852182"
 ---
 # <a name="microsoft-teams-public-preview"></a>Visualização Pública do Microsoft Teams
 
@@ -36,20 +36,20 @@ A Visualização Pública para o Microsoft Teams fornece acesso antecipado a rec
  A visualização pública é habilitada para cada usuário e a opção de ativar a visualização pública é controlada em uma política administrativa. As políticas de atualização são usadas para gerenciar o Microsoft Teams e os usuários de visualização do Office que verão recursos de pré-lançamento ou pré-visualização no aplicativo Microsoft Teams. Você pode usar a política Global (Padrão em toda a organização) e personalizá-la ou criar uma ou mais políticas personalizadas para os usuários.
 
 1. Entre no centro de administração.
-2. Selecione **Teams**>**Atualizar políticas** .
+2. Selecione **Teams**>**Atualizar políticas**.
 
    ![Selecionar a opção Atualizar políticas](media/updatePolicies.png)
 
-3. Selecione **Adicionar** .
-4. Nomeie a política de atualização, adicione uma descrição e ative **Mostrar recursos de pré-visualização** .
+3. Selecione **Adicionar**.
+4. Nomeie a política de atualização, adicione uma descrição e ative **Mostrar recursos de pré-visualização**.
 
 ## <a name="enable-public-preview"></a>Habilitar visualização pública
 
 Para habilitar a visualização pública em uma área de trabalho ou cliente da web, você precisa realizar as seguintes tarefas:
 
 1. Selecione o perfil para exibir o menu Teams.
-2. Selecione **Sobre** → **Pré-visualização do desenvolvedor** .
-3. Selecione **Alternar para pré-visualização do Desenvolvedor** .
+2. Selecione **Sobre** → **Visualização pública**.
+3. Selecione **Alternar para Visualização pública**.
 
 ## <a name="related-topics"></a>Tópicos relacionados
 

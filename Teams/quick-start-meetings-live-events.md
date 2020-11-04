@@ -1,7 +1,7 @@
 ---
-title: Início rápido do administrador – reuniões e eventos ao vivo no Microsoft Teams
+title: Início rápido do administrador – Reuniões e eventos ao vivo no Microsoft Teams
 ms.reviewer: ''
-description: Comece a trabalhar rapidamente com reuniões e eventos ao vivo no Microsoft Teams.
+description: Um guia de início rápido para administradores obterem licenças, implementar e configurar reuniões online e eventos ao vivo no Microsoft Teams.
 ms.topic: article
 author: SerdarSoysal
 ms.author: serdars
@@ -17,14 +17,14 @@ localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 64465bd50c189bc2e2d6fab820c3693f2c404210
-ms.sourcegitcommit: 1db39fde090809d9abc6d7346dda55814d88993a
+ms.openlocfilehash: 4a825518748ec4c755b966f43a27027779bc69ea
+ms.sourcegitcommit: 43dc627e9fef31a2508f54acf741000551ff68b5
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/23/2020
-ms.locfileid: "48739389"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "48878655"
 ---
-# <a name="admin-quick-start---meetings-and-live-events-in-microsoft-teams"></a>Início rápido do administrador – reuniões e eventos ao vivo no Microsoft Teams
+# <a name="admin-quick-start---meetings-and-live-events-in-microsoft-teams"></a>Início rápido do administrador – Reuniões e eventos ao vivo no Microsoft Teams
 
 Há duas maneiras de se reunir no Microsoft Teams – reuniões e eventos ao vivo. Use este artigo para implementar e configurar reuniões e eventos ao vivo na sua organização rapidamente.
 
