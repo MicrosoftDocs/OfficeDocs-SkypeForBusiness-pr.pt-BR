@@ -8,7 +8,7 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 search.appverid: MET150
-description: Orientação passo a passo para a implantação de chats, equipes, canais e aplicativos no Microsoft Teams, com base no perfil da sua organização e nos requisitos de negócios.
+description: Contém orientações passo a passo para definir as configurações do Teams para chat, equipes, aplicativos e canais no Microsoft Teams.
 localization_priority: Priority
 ms.collection:
 - M365-collaboration
@@ -19,12 +19,13 @@ ms.custom:
 appliesto:
 - Microsoft Teams
 - seo-marvel-apr2020
-ms.openlocfilehash: 0b1d9c7d4e2cfda8f2e175128613df9ecc112c33
-ms.sourcegitcommit: 491c44b6a9b30faaf4d73394969f4a0587362830
+- seo-marvel-may2020
+ms.openlocfilehash: ac9c1d78c7960ebadfc590b87a6007286bc43209
+ms.sourcegitcommit: 43dc627e9fef31a2508f54acf741000551ff68b5
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "47820505"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "48878525"
 ---
 # <a name="chat-teams-channels--apps-in-microsoft-teams"></a>Chat, equipes, canais e aplicativos no Microsoft Teams
 
@@ -80,7 +81,7 @@ Além das funções de administrador, o Teams permite que você atribua funçõe
 
 ### <a name="messaging-policies"></a>Políticas de mensagens
 
-As políticas de mensagens controlam quais recursos de mensagens de chat e canal estão disponíveis para usuários no Teams. Por exemplo, quem pode editar e excluir mensagens, quem pode usar o chat, quem pode usar memes em conversas e muito mais. Por padrão, os usuários recebem a atribuição da política global de mensagens e todos os recursos estão **Habilitados**. Você pode usar a política global padrão ou criar uma ou mais políticas de mensagens personalizadas para pessoas em sua organização. 
+As políticas de mensagens controlam quais recursos de mensagens de chat e canal estão disponíveis para usuários no Teams. Por exemplo, quem pode editar e excluir mensagens, quem pode usar o chat, quem pode usar memes em conversas e muito mais. Por padrão, os usuários recebem a atribuição da política global de mensagens e todos os recursos estão **Habilitados**. Você pode usar a política global padrão ou criar uma ou mais políticas de mensagens personalizadas para pessoas em sua organização. 
 
 |Pergunte-se|Ação |
 |------------|-------|
@@ -91,7 +92,7 @@ As políticas de mensagens controlam quais recursos de mensagens de chat e canal
 
 ### <a name="external-access"></a>Acesso externo
 
-O acesso externo (anteriormente conhecido como federação) permite que os usuários do Teams e do Skype for Business se comuniquem com usuários que estão fora da organização. Ao habilitar essa opção e adicionar domínios à lista de permissões, os usuários podem se comunicar com usuários em outros domínios e organizações.O acesso externo é diferente do acesso de convidado já que um domínio inteiro recebe permissão de acesso e não apenas um indivíduo. O acesso externo está desativado por padrão.
+O acesso externo (anteriormente conhecido como federação) permite que os usuários do Teams e do Skype for Business se comuniquem com usuários que estão fora da organização. Ao habilitar essa opção e adicionar domínios à lista de permissões, os usuários podem se comunicar com usuários em outros domínios e organizações. O acesso externo é diferente do acesso de convidado, já que um domínio inteiro recebe permissão de acesso e não apenas um indivíduo. O acesso externo está desativado por padrão.
 
 |Pergunte-se|Ação |
 |------------|-------|
@@ -114,18 +115,18 @@ No Teams, o acesso de convidado permite que pessoas que não pertencem à organi
 
 ### <a name="teams-settings"></a>Configurações de equipes
 
-As configurações do Teams permitem que você configure suas equipes para usar recursos, como a integração de email, opções de armazenamento em nuvem, guia da organização, configuração de dispositivos de salas de reunião e escopo de pesquisa. Ao realizar alterações nessas configurações, elas serão aplicadas a todas as equipes da organização. Para saber mais, confira [Configurações do Teams](enable-features-office-365.md#teams-settings).
+As configurações do Teams permitem que você configure suas equipes para usar recursos, como a integração de email, opções de armazenamento em nuvem, guia da organização, configuração de dispositivos de salas de reunião e escopo de pesquisa. Ao realizar alterações nessas configurações, elas serão aplicadas a todas as equipes da organização. Para saber mais, confira [Configurações do Teams](enable-features-office-365.md#teams-settings).
 
-|Pergunte-se|Ação |
+|Pergunte a si mesmo|Ação |
 |------------|-------|
 |Vou personalizar as configurações do Teams para minha organização? | Para saber sobre as configurações do Teams e personalizá-las, confira [Configurações do Teams](enable-features-office-365.md#teams-settings).|
 |||
 
 ### <a name="teams-clients"></a>Clientes do Teams
 
-O Teams é compatível com vários clientes, como clientes de área de trabalho, móveis e clientes Web, e a configuração padrão permite que os usuários escolham os clientes desejados.Para saber mais, confira [Obter clientes para o Teams](get-clients.md).
+O Teams é compatível com vários clientes da Web, da área de trabalho e de dispositivos móveis; a configuração padrão permite que os usuários escolham os clientes desejados. Para saber mais, confira [Obter clientes para o Teams](get-clients.md).
 
-|Pergunte-se|Ação |
+|Pergunte a si mesmo|Ação |
 |------------|-------|
 |Vou personalizar a disponibilidade do cliente do Teams para minha organização?|Confira os [Requisitos de hardware para o aplicativo Teams](hardware-requirements-for-the-teams-app.md). |
 |Vou personalizar as configurações de cliente do Teams para minha organização?|Saiba como [Instalar o Teams usando o MSI](msi-deployment.md).|
@@ -209,9 +210,9 @@ Um aplicativo fixado é exibido na lateral do Teams. Ao criar políticas de apli
 
 ### <a name="archiving-and-compliance"></a>Arquivamento e conformidade 
 
-Sua organização pode exigir que você implemente controles sobre como as equipes são arquivadas e os tipos de dados que são retidos em certos tipos de equipes. Para saber quais configurações são ativadas por padrão, leia [Visão geral de segurança e conformidade no Teams](security-compliance-overview.md).
+Sua organização pode exigir que você implemente controles sobre como as equipes são arquivadas e os tipos de dados que são retidos em certos tipos de equipes. Para saber quais configurações do Teams são ativadas por padrão, leia [Visão geral de segurança e conformidade no Teams](security-compliance-overview.md).
 
-| Pergunte-se | Ação |
+| Pergunte a si mesmo | Ação |
 |--------------|--------|
 |Será necessário configurar a retenção das equipes?|Para configurar políticas de retenção, confira [Configurar políticas de retenção do Teams](retention-policies.md).|
 |Será necessário configurar o arquivamento das equipes?|Para arquivar ou restaurar uma equipe, confira [Arquivar ou restaurar uma equipe](https://support.office.com/article/archive-or-restore-a-team-dc161cfd-b328-440f-974b-5da5bd98b5a7).|
