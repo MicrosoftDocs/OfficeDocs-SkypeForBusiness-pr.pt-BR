@@ -18,21 +18,21 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 description: Gerenciar recursos e funcionalidades de acesso de convidados no Microsoft Teams por meio de quatro níveis diferentes de autorização.
-ms.openlocfilehash: e74152bc61bdf0bb793338b50ddcd5da62e9b2d0
-ms.sourcegitcommit: 43e5a4aac11c20dd5a4c35b59695f309e1559e82
+ms.openlocfilehash: 1040d548140d0fbb781e9cc9296be3d374b7b314
+ms.sourcegitcommit: 20f881285edf699ebf36320664166c95ccd6df35
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/03/2020
-ms.locfileid: "48346182"
+ms.lasthandoff: 11/05/2020
+ms.locfileid: "48918983"
 ---
 # <a name="authorize-guest-access-in-microsoft-teams"></a>Autorizar o acesso para convidado no Microsoft Teams
 
 Para satisfazer os requisitos da sua organização, você pode gerenciar recursos e recursos do acesso de convidados do teams por meio de quatro níveis diferentes de autorização. Todos os níveis de autorização se aplicam à sua organização do Microsoft 365. Cada nível de autorização controla a experiência do convidado conforme mostrado a seguir:
 
-- **Active Directory do Azure**: o acesso de convidado no Teams depende da plataforma do Azure ad Business-to-Business (B2B). Esse nível de autorização controla a experiência dos convidados com relação a diretório, locatário e aplicativo.
-- **Teams**: controla a experiência de convidado somente em Teams.
-- **Grupos do microsoft 365**: controla a experiência de convidado no Microsoft 365 grupos e equipes.
-- **SharePoint e onedrive**: controla a experiência de convidado no SharePoint, no onedrive, nos grupos do Microsoft 365 e nas equipes.
+- **Active Directory do Azure** : o acesso de convidado no Teams depende da plataforma do Azure ad Business-to-Business (B2B). Esse nível de autorização controla a experiência dos convidados com relação a diretório, locatário e aplicativo.
+- **Teams** : controla a experiência de convidado somente em Teams.
+- **Grupos do microsoft 365** : controla a experiência de convidado no Microsoft 365 grupos e equipes.
+- **SharePoint e onedrive** : controla a experiência de convidado no SharePoint, no onedrive, nos grupos do Microsoft 365 e nas equipes.
 
 Esses níveis diferentes de autorização fornecem flexibilidade para a forma como você configura o acesso de convidados para sua organização. Por exemplo, se você não quiser permitir usuários convidados no Microsoft Teams, mas quiser permitir que ele seja geral em sua organização, basta desativar o acesso de convidado no Microsoft Teams. Outro exemplo: você pode habilitar o acesso de convidado nos níveis do Azure AD, do Teams e de grupos, mas então [desabilitar a adição de usuários convidados em equipes selecionadas que correspondam a um ou mais critérios, como a classificação de dados é igual a confidencial](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-teams-groups-sites). O SharePoint e o OneDrive têm suas próprias configurações de acesso de convidado que não dependem dos grupos do Microsoft 365.
 
@@ -43,11 +43,13 @@ Para obter instruções de configuração do acesso a convidados ponto a ponto, 
 
 O diagrama a seguir mostra como a dependência de autorização de acesso de convidado é concedida e integrada entre o Azure Active Directory, o Teams e o Microsoft 365.
 
-![Diagrama de dependências de autorização para acesso de convidados.](media/teams_dependencies_image1.png)
+> [!div class="mx-imgBorder"]
+> ![Diagrama de dependências de autorização para acesso de convidados.](media/teams_dependencies_image1.png)
 
 O próximo diagrama mostra, em um nível elevado, como a experiência do usuário funciona com o modelo de permissão por meio de um convite de acesso a convidados e um fluxo de resgate típicos.
 
-![Diagrama de fluxos de convite e resgate](media/authorize-guest-image1.png)
+> [!div class="mx-imgBorder"]
+> ![Diagrama de fluxos de convite e resgate](media/authorize-guest-image1.png)
 
 É importante observar aqui que aplicativos, bots e conectores podem exigir seu próprio conjunto de permissões e/ou consentimento específicos para a conta de usuário. Estes podem precisar ser concedidos separadamente. Da mesma forma, o SharePoint pode impor limites de compartilhamento externo adicionais para um usuário específico ou grupos de usuários, ou até mesmo no nível do site.
 
@@ -63,11 +65,9 @@ O Azure AD inclui as seguintes configurações para configurar usuários externo
 
 - [Restrições de acesso de usuário convidado](https://docs.microsoft.com/azure/active-directory/users-groups-roles/users-restrict-guest-permissions)
 
-- **Os administradores e usuários na função de emissor de convite para convidado podem enviar convites**: **Sim** significa que os administradores e usuários na função de emissor de convite para convidado poderão convidar pessoas para o locatário. **Não** significa que os administradores e usuários não podem convidar pessoas para o locatário.
-- **Os membros podem convidar**: para permitir que os membros não administradores do seu diretório convidem pessoas, defina essa política como **Sim** (recomendado). Se preferir que somente os administradores sejam capazes de adicionar convidados, você pode definir essa política como **Não**. Lembre-se de que definir **Não** limitará a experiência de convidado para proprietários de equipes não administrativos; eles só poderão adicionar convidados ao Teams que já foram adicionados ao AAD pelo administrador.
-- **Convidados podem convidar**: **Sim** significa que os convidados em seu diretório podem enviar convites a outros convidados a fim de que colaborem em recursos protegidos pelo seu Azure AD, como sites do SharePoint ou recursos do Azure. **Não** significa que os convidados não podem enviar convites a outros convidados a fim de que colaborem com a sua organização.
-    > [!IMPORTANT]
-    > Atualmente, o Teams não oferece suporte à função de emissor de convites, portanto, mesmo se você definir **Convidados possam convidar** para **Sim**, os convidados não conseguirão convidar outros convidados no Teams.
+- **Os administradores e usuários na função de emissor de convite para convidado podem enviar convites** : **Sim** significa que os administradores e usuários na função de emissor de convite para convidado poderão convidar pessoas para o locatário. **Não** significa que os administradores e usuários não podem convidar pessoas para o locatário.
+- **Os membros podem convidar** : para permitir que os membros não administradores do seu diretório convidem pessoas, defina essa política como **Sim** (recomendado). Se preferir que somente os administradores sejam capazes de adicionar convidados, você pode definir essa política como **Não**. Lembre-se de que definir **Não** limitará a experiência de convidado para proprietários de equipes não administrativos; eles só poderão adicionar convidados ao Teams que já foram adicionados ao AAD pelo administrador.
+- **Convidados podem convidar** : **Sim** significa que os convidados em seu diretório podem enviar convites a outros convidados a fim de que colaborem em recursos protegidos pelo seu Azure AD, como sites do SharePoint ou recursos do Azure. **Não** significa que os convidados não podem enviar convites a outros convidados a fim de que colaborem com a sua organização. Mesmo se definido como **Sim** , o convidado não poderá convidar outros convidados no Teams.
  
 Para obter mais informações sobre como controlar quem pode convidar convidados, consulte [habilitar a colaboração externa B2B e gerenciar quem pode convidar convidados](https://docs.microsoft.com/azure/active-directory/b2b/delegate-invitations).
 

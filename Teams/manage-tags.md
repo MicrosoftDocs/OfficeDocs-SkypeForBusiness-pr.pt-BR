@@ -16,17 +16,17 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Saiba como gerenciar como as marcas são usadas em sua organização no Microsoft Teams.
-ms.openlocfilehash: 965de27b2671106bed4e5c877f26a7132bf61040
-ms.sourcegitcommit: b07938c0b6edafacaeaaef205a1be00c4c1693ba
+ms.openlocfilehash: 718a2401aa8e015a6dec2b6a4c6116a567aaf82d
+ms.sourcegitcommit: 20f881285edf699ebf36320664166c95ccd6df35
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "47940521"
+ms.lasthandoff: 11/05/2020
+ms.locfileid: "48919053"
 ---
 # <a name="manage-tags-in-microsoft-teams"></a>Gerenciar marcas no Microsoft Teams
 
 > [!NOTE]
-> Um dos recursos descritos neste artigo, **marcação por turno**, ainda não foi lançado. Ele foi anunciado e estará disponível em breve.Se você for um administrador, poderá descobrir quando este recurso será lançado no centro de mensagens (no centro de administração do [Microsoft 365](https://portal.office.com/adminportal/home)). Para manter-se atualizado sobre os recursos futuros do Teams, consulte o [mapa do Microsoft 365](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=microsoft%2Cteams).
+> Um dos recursos descritos neste artigo, **marcação por turno** , ainda não foi lançado. Ele foi anunciado e estará disponível em breve. Se você for um administrador, poderá descobrir quando este recurso será lançado no centro de mensagens (no centro de administração do [Microsoft 365](https://portal.office.com/adminportal/home)). Para manter-se atualizado sobre os recursos futuros do Teams, consulte o [mapa do Microsoft 365](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=microsoft%2Cteams).
 
 ## <a name="overview"></a>Visão geral
 
@@ -34,11 +34,11 @@ As marcas no Microsoft Teams permitem que os usuários se conectem de forma ráp
 
 Conforme mencionado anteriormente, há dois tipos de marcas no Teams.
 
-- **Marcas personalizadas**: os proprietários da equipe e os membros da equipe (se o recurso estiver habilitado para eles) podem criar e atribuir marcas manualmente a pessoas. Por exemplo, uma marca "designer" ou "radiologist" vai chegar a esses conjuntos de pessoas em uma equipe sem ter que digitar seus nomes.
+- **Marcas personalizadas** : os proprietários da equipe e os membros da equipe (se o recurso estiver habilitado para eles) podem criar e atribuir marcas manualmente a pessoas. Por exemplo, uma marca "designer" ou "radiologist" vai chegar a esses conjuntos de pessoas em uma equipe sem ter que digitar seus nomes.
 - **Marcando por turno (em** breve): com esse recurso, as pessoas recebem automaticamente marcas que correspondem ao cronograma e ao nome do grupo de turno no [aplicativo turnos](https://support.microsoft.com/office/get-started-in-shifts-5f3e30d8-1821-4904-be26-c3cd25a497d6#bkmk_openshiftsappdesktop) do teams. Por exemplo, a marca "EngineerOnCall" atinge todos os engenheiros agendados em turnos para trabalhar no momento em que a marca é usada em uma postagem de canal ou chat. Com a marcação por turno, o Microsoft Teams usa a adivinhação de saber o nome do pessoal do usuário no turno quando os usuários precisam retransmitir informações rapidamente. A marcação por turno também pode ser apoiada pelos principais sistemas de gerenciamento de força de equipe, como o JDA, o Kronos e o AMiON, integrando-os com turnos no Teams. Para saber mais sobre como configurar esse recurso, consulte [Configurar marcação por turno](#set-up-tagging-by-shift-coming-soon).
 
 > [!NOTE]
-> Marcas ainda não são suportadas em canais privados. As marcas ainda não estão disponíveis nas organizações da Comunidade do governo dos EUA (GCC), GCC alto ou departamento de defesa (DoD).
+> Marcas ainda não são suportadas em canais privados. As marcas ainda não estão disponíveis nas organizações da Comunidade do governo dos EUA (GCC), GCC alto ou departamento de defesa (DoD). 
 
 ## <a name="how-tags-work"></a>Como as marcas funcionam
 
@@ -54,7 +54,7 @@ Quando uma marca é @mentioned em uma conversa de canal, os membros da equipe as
 
 ## <a name="manage-custom-tags-for-your-organization"></a>Gerenciar marcas personalizadas para sua organização
 
-Como administrador, você pode controlar como as marcas são usadas em toda a organização no centro de administração do Microsoft Teams.
+Como administrador, você pode controlar como as marcas são usadas em toda a organização no centro de administração do Microsoft Teams. No momento, você não pode usar o PowerShell para gerenciar as marcas.
 
 ![Captura de tela das configurações de marcação no centro de administração do Microsoft Teams](media/manage-tags-admin-settings.png)
 
@@ -65,26 +65,26 @@ Uma equipe pode ter até 100 marcas, até 100 os membros da equipe podem ser atr
 Por padrão, os proprietários da equipe podem adicionar marcas personalizadas. Você pode alterar essa configuração para permitir que os proprietários da equipe e os membros da equipe criem, editem, excluam e gerenciem marcas ou você pode desativar as marcas da sua organização.
 
 1. Na navegação à esquerda do centro de administração do Microsoft Teams, clique em configurações da equipe de **configurações de toda a organização**  >  **Teams settings**.
-2. Em **marcação**, ao lado de **marcas são gerenciados por**, selecione uma das seguintes opções:
+2. Em **marcação** , ao lado de **marcas são gerenciados por** , selecione uma das seguintes opções:
 
-    - **Proprietários e membros da equipe**: permitir que os proprietários e membros da equipe gerenciem as etiquetas.
-    - **Proprietários da equipe**: permitir que os proprietários de equipe gerenciem as etiquetas.
-    - **Disabled**: desativar marcas.
+    - **Proprietários e membros da equipe** : permitir que os proprietários e membros da equipe gerenciem as etiquetas.
+    - **Proprietários da equipe** : permitir que os proprietários de equipe gerenciem as etiquetas.
+    - **Disabled** : desativar marcas.
 
 ### <a name="configure-custom-tags-settings"></a>Definir configurações de marcas personalizadas
 
 Você pode definir as seguintes configurações de marcas para controlar como as marcas personalizadas são usadas em toda a sua organização.
 
 1. Na navegação à esquerda do centro de administração do Microsoft Teams, clique em configurações da equipe de **configurações de toda a organização**  >  **Teams settings**.
-2. Em **marcação**, defina o seguinte, dependendo das necessidades da sua organização.
+2. Em **marcação** , defina o seguinte, dependendo das necessidades da sua organização.
 
-    - **Permitir que os proprietários de equipe substituam quem pode gerenciar as etiquetas**: quando você ativa essa configuração, os proprietários da equipe podem definir se os membros da equipe podem criar e gerenciar marcas em uma equipe e o valor das **marcas são gerenciados por** configuração é o valor padrão para cada equipe. Se você desativar essa configuração, as **marcas são gerenciadas pela** configuração não podem ser alteradas por equipe.
-    - **Marcas padrão sugeridas**: Use isto para adicionar um conjunto de marcas padrão. Você pode adicionar até 25 marcas e cada marca pode conter no máximo 25 caracteres. Os proprietários e membros da equipe (se o recurso estiver habilitado para eles) podem usar essas sugestões, adicionar a eles ou criar um novo conjunto de marcas.
-    - **Deixe as marcas personalizadas serem criadas**: Ative essa configuração para permitir que as pessoas adicionem marcas diferentes das marcas padrão sugeridas que você definiu. Se estiver desativado, as pessoas só poderão usar as marcas padrão sugeridas. Se você desativar essa opção, certifique-se de adicionar uma ou mais marcas padrão.
+    - **Permitir que os proprietários de equipe substituam quem pode gerenciar as etiquetas** : quando você ativa essa configuração, os proprietários da equipe podem definir se os membros da equipe podem criar e gerenciar marcas em uma equipe e o valor das **marcas são gerenciados por** configuração é o valor padrão para cada equipe. Se você desativar essa configuração, as **marcas são gerenciadas pela** configuração não podem ser alteradas por equipe.
+    - **Marcas padrão sugeridas** : Use isto para adicionar um conjunto de marcas padrão. Você pode adicionar até 25 marcas e cada marca pode conter no máximo 25 caracteres. Os proprietários e membros da equipe (se o recurso estiver habilitado para eles) podem usar essas sugestões, adicionar a eles ou criar um novo conjunto de marcas.
+    - **Deixe as marcas personalizadas serem criadas** : Ative essa configuração para permitir que as pessoas adicionem marcas diferentes das marcas padrão sugeridas que você definiu. Se estiver desativado, as pessoas só poderão usar as marcas padrão sugeridas. Se você desativar essa opção, certifique-se de adicionar uma ou mais marcas padrão.
 
 ## <a name="manage-custom-tags-settings-for-a-team"></a>Gerenciar configurações de marcas personalizadas para uma equipe
 
-Se você ativou a configuração **deixar que os proprietários da equipe substituam quem pode gerenciar marcas** no centro de administração do Microsoft Teams, os proprietários da equipe podem definir se os membros podem adicionar marcas no nível da equipe. Para fazer isso, na guia **configurações** de uma equipe, vá até **marcas**e escolha quem pode adicionar marcas.
+Se você ativou a configuração **deixar que os proprietários da equipe substituam quem pode gerenciar marcas** no centro de administração do Microsoft Teams, os proprietários da equipe podem definir se os membros podem adicionar marcas no nível da equipe. Para fazer isso, na guia **configurações** de uma equipe, vá até **marcas** e escolha quem pode adicionar marcas.
 
 ![Captura de tela da configuração marcas no nível da equipe](media/manage-tags-team-settings.png)
 
@@ -94,7 +94,7 @@ Veja como adicionar marcas personalizadas e como configurar a marcação por Shi
 
 ### <a name="create-and-assign-custom-tags"></a>Criar e atribuir marcas personalizadas
 
-Para criar e atribuir marcas personalizadas, selecione **equipes** no lado esquerdo do aplicativo e localize sua equipe na lista. Selecione **̇ ̇ ̇ mais opções**e, em seguida, escolha **gerenciar marcas**. Aqui, você pode criar marcas e atribuí-las às pessoas de sua equipe.
+Para criar e atribuir marcas personalizadas, selecione **equipes** no lado esquerdo do aplicativo e localize sua equipe na lista. Selecione **̇ ̇ ̇ mais opções** e, em seguida, escolha **gerenciar marcas**. Aqui, você pode criar marcas e atribuí-las às pessoas de sua equipe.
 
 ![Captura de tela de como aplicar marcas no cliente do teams ](media/manage-tags-teams.png)
 

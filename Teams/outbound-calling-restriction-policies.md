@@ -21,12 +21,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: Os administradores podem controlar o tipo de conferência de áudio e as chamadas PSTN do usuário final que podem ser feitas pelos usuários.
-ms.openlocfilehash: fd7c30a7561c06dd237bb72b405c8fc5b7b68dcd
-ms.sourcegitcommit: c8b5d4dd70d183f7ca480fb735a19290a3457b30
+ms.openlocfilehash: e085f996226a59d88339b20e64dd06f68ef566ce
+ms.sourcegitcommit: ee217e1d7188842c7becd19387fd421b485c3575
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/08/2020
-ms.locfileid: "45077666"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "48908650"
 ---
 # <a name="outbound-calling-restriction-policies-for-audio-conferencing-and-user-pstn-calls"></a>Políticas de restrição de chamadas de saída para audioconferência e chamadas PSTN do usuário
 
@@ -36,10 +36,10 @@ Os controles de chamada de saída podem ser aplicados por usuário e fornecer os
 
 |Controle|Descrição|Opções de controle|
 |:-----|:-----|:-----|
-|Chamadas PSTN de conferência de áudio|Restringe o tipo de saída </br>chamadas que são permitidas dentro </br>reuniões organizadas por um usuário.|Qualquer destino (padrão)</br>No mesmo país ou região da organizor </br> </br>Zona para apenas países ou regiões </br>Não permitir|
+|Chamadas PSTN de conferência de áudio|Restringe o tipo de saída </br>chamadas que são permitidas dentro </br>reuniões organizadas por um usuário.|Qualquer destino (padrão)</br>No mesmo país ou região do organizador </br> [Zona para apenas países ou regiões](audio-conferencing-zones.md) </br>Não permitir|
 |Chamadas PSTN do usuário final|Restringe o tipo de chamadas </br>que podem ser feitas por um usuário.|Internacional e doméstico (padrão)</br>Doméstico</br>Nenhum|
 
-Para descobrir quais são os países/regiões que são considerados zona A, consulte [zona a países/regiões](https://docs.microsoft.com/microsoftteams/calling-plans-for-office-365).
+Para descobrir quais países e regiões são considerados zona A, consulte [zonas de país e região para videoconferências](audio-conferencing-zones.md).
 
    > [!NOTE]
    > Uma chamada será considerada doméstica se o número discado estiver no mesmo país em que o Microsoft 365 ou o Office 365 foi configurado para o organizador da reunião (no caso de videoconferência) ou o usuário final (no caso de chamadas PSTN do usuário final). 
@@ -47,31 +47,30 @@ Para descobrir quais são os países/regiões que são considerados zona A, cons
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
 
-## <a name="restrict-audio-conferencing-outbound-calls"></a>Restringir chamadas de saída de áudio videoconferência 
+## <a name="restrict-audio-conferencing-outbound-calls"></a>Restringir chamadas de saída de áudio videoconferência
 
 ![Um ícone mostrando o logotipo do Microsoft Teams](media/teams-logo-30x30.png) **Usando o centro de administração do Microsoft Teams**
 
-1. Na navegação à esquerda, clique em **usuários**e selecione o usuário na lista de usuários disponíveis.
+1. Na navegação à esquerda, clique em **usuários** e, em seguida, clique no nome para exibição do usuário na lista de usuários disponíveis.
 
-2. Na parte superior da página, clique em **Editar**.
+3. Ao lado de **conferência de áudio** , clique em **Editar**.
 
-3. Ao lado de **conferência de áudio**, clique em **Editar**.
-
-4. Em **permissão de discagem de reuniões**, selecione a opção de restrição de discagem desejada.
+4. Em **discagem de reuniões** , selecione a opção de restrição de discagem que você deseja.
 
 5. Clique em **Salvar**. 
 
 ![Um ícone mostrando o logotipo do Skype for Business](media/sfb-logo-30x30.png) **Usando o centro de administração do Skype for Business**
 
-1.    No **centro de administração do Skype for Business**, no painel de navegação esquerdo, vá para **Audio conferencing**  >  **usuários**de audioconferência e, em seguida, selecione o usuário na lista de usuários disponíveis.
+1. No **centro de administração do Skype for Business** , no painel de navegação esquerdo, vá para **Audio conferencing**  >  **usuários** de audioconferência e, em seguida, selecione o usuário na lista de usuários disponíveis.
 
-2.    No Painel de Ações, clique em **Editar**.
+2. No Painel de Ações, clique em **Editar**.
 
-3.    Em **restrições a chamadas discadas de reuniões desse usuário**, selecione a opção de restrição discada que você deseja.
+3.  Em **restrições a chamadas discadas de reuniões desse usuário** , selecione a opção de restrição discada que você deseja.
 
-    ![Restrições às opções de discagem](/Skype/SfbOnline/images/restrictions-to-dial-outs.png)
+      ![Restrições às opções de discagem](media/restrictions-to-dial-outs.png)
+      
 
-5. Clique em **Salvar**.
+4. Clique em **Salvar**.
 
 > [!Note]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
@@ -95,6 +94,6 @@ A tabela a seguir fornece uma visão geral de cada política.
 |    Identity = ' marca: DialoutCPCDomesticPSTNDisabled '    |    O usuário na conferência pode discar para números domésticos e esse usuário não pode fazer chamadas de saída para o número PSTN além dos números de emergência.    |
 |    Identity = ' marca: DialoutCPCDisabledPSTNDomestic '    |    O usuário na conferência não pode fazer dial-out, e esse usuário somente pode fazer chamadas de saída para números PSTN domésticos.    |
 |    Identity = ' marca: DialoutCPCandPSTNDisabled '    |    O usuário na conferência não pode fazer dial-out, e este usuário não pode fazer chamadas de saída para o número PSTN além dos números de emergência.    |
-|    Identity = ' marca: DialoutCPCZoneAPSTNInternational '    |    O usuário na conferência só pode discar para países e regiões da região, e esse usuário pode fazer chamadas de saída para números internacionais e nacionais.    |
-|    Identity = ' marca: DialoutCPCZoneAPSTNDomestic '    |    O usuário na conferência só pode discar para países e regiões da região, e esse usuário somente pode fazer chamadas de saída para números PSTN domésticos.    |
-|    Identity = ' marca: DialoutCPCZoneAPSTNDisabled '    |    O usuário na conferência só pode discar para países e regiões da região, e esse usuário não pode fazer chamadas de saída para números PSTN além de números de emergência.    |
+|    Identity = ' marca: DialoutCPCZoneAPSTNInternational '    |    O usuário na conferência só pode discar para [países e regiões da região](audio-conferencing-zones.md), e esse usuário pode fazer chamadas de saída para números internacionais e nacionais.    |
+|    Identity = ' marca: DialoutCPCZoneAPSTNDomestic '    |    O usuário na conferência só pode discar para [países e regiões da região](audio-conferencing-zones.md), e esse usuário somente pode fazer chamadas de saída para números PSTN domésticos.    |
+|    Identity = ' marca: DialoutCPCZoneAPSTNDisabled '    |    O usuário na conferência só pode discar para [países e regiões da região](audio-conferencing-zones.md), e esse usuário não pode fazer chamadas de saída para números PSTN além de números de emergência.    |

@@ -21,12 +21,12 @@ ms.custom:
 ms.collection:
 - M365-collaboration
 description: Aprenda a gerenciar as configurações das reuniões do Teams que os usuários agendam em sua organização.
-ms.openlocfilehash: b1c71c4b22b90c38e4b34eebd745b85f7d27e86c
-ms.sourcegitcommit: bb5229c9f7999358dcf0ba185ecfd7c881627a38
+ms.openlocfilehash: b231fb1ae564466985195325fb748af5730623a6
+ms.sourcegitcommit: ee217e1d7188842c7becd19387fd421b485c3575
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "46824942"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "48908480"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>Gerenciar configurações de reunião no Microsoft Teams
 
@@ -44,7 +44,7 @@ Você deve ser um administrador de serviços do teams para fazer essas alteraç�
 
 2. Na barra de navegação à esquerda, vá para **Reuniões** > **Configurações de reunião**.
 
-3. Em **Participantes**, ative **Usuários anônimos podem ingressar em uma reunião**.
+3. Em **Participantes** , ative **Usuários anônimos podem ingressar em uma reunião**.
 
     ![Captura de tela das configurações dos participantes para reuniões no centro de administração](media/meeting-settings-participants.png "Captura de tela das configurações dos participantes das reuniões do Teams no centro de administração do Microsoft Teams")
 
@@ -69,7 +69,7 @@ Você pode personalizar os convites para reuniões do Teams para atender às nec
 
 1. Vá para o centro de administração.
 2. Na barra de navegação à esquerda, vá para **Reuniões** > **Configurações de reunião**.
-3. Em **Convite por email**, faça o seguinte:
+3. Em **Convite por email** , faça o seguinte:
 
     ![Captura de tela das configurações de convite para reunião que você pode personalizar](media/meeting-settings-invitation.png "Captura de tela das configurações de convite de reunião que você pode personalizar para reuniões do Teams")
 
@@ -93,19 +93,19 @@ Se você estiver usando a QoS (qualidade de serviço) para priorizar o tráfego 
  ![Um ícone mostrando o logotipo do Microsoft Teams](media/teams-logo-30x30.png) **Usando o centro de administração do Microsoft Teams**
 1. Vá para o centro de administração.
 2. Na barra de navegação à esquerda, vá para **Reuniões** > **Configurações de reunião**.
-3. Em **Rede**, faça o seguinte:
+3. Em **Rede** , faça o seguinte:
 
     ![Captura de tela das configurações de rede para reuniões no centro de administração](media/meeting-settings-network.png "Captura de tela das configurações de rede para reuniões do Teams no centro de administração do Microsoft Teams")
 
     - Para permitir que marcadores DSCP sejam usados para QoS, ative **Inserir marcadores Quality of Service (QoS) para tráfego de mídia em tempo real**. Você só tem a opção de usar ou não usar marcadores; você não pode definir marcadores personalizados para cada tipo de tráfego. Consulte [Selecionar um método de implementação de QoS](QoS-in-Teams.md#select-a-qos-implementation-method) para obter mais informações sobre marcadores DSCP.
         > [!NOTE]
         > A marcação de DSCP geralmente é feita por meio das portas de origem e o tráfego UDP roteia a retransmissão de transporte com a porta de destino 3478 por padrão. Se a sua empresa exigir a marcação nas portas de destino, entre em contato com o suporte para habilitar a comunicação com a transmissão de transporte com as portas UDP 3479 (áudio), 3480 (vídeo) e 3481 (compartilhamento).
-    - Para especificar intervalos de portas, ao lado de **Selecione um intervalo de portas para cada tipo de tráfego de mídia em tempo real**, selecione **Especificar intervalos de portas** e insira as portas inicial e final para compartilhamento de áudio, vídeo e tela. A seleção desta opção é necessária para implementar a QoS. 
+    - Para especificar intervalos de portas, ao lado de **Selecione um intervalo de portas para cada tipo de tráfego de mídia em tempo real** , selecione **Especificar intervalos de portas** e insira as portas inicial e final para compartilhamento de áudio, vídeo e tela. A seleção desta opção é necessária para implementar a QoS. 
         > [!Note]
         > Se os **marcadores de qualidade do serviço (QoS) do tráfego de mídia em tempo real** estiverem ativados, você precisará gerenciar as configurações da porta. Elas não são gerenciadas automaticamente.
         
         > [!IMPORTANT]
-        > Se você selecionar **Usar automaticamente qualquer porta disponível**, serão usadas portas disponíveis entre 1024 e 65535. Use esta opção apenas quando não estiver implementando a QoS.
+        > Se você selecionar **Usar automaticamente qualquer porta disponível** , serão usadas portas disponíveis entre 1024 e 65535. Use esta opção apenas quando não estiver implementando a QoS.
         >
         > A seleção de um intervalo de portas muito restrito resultará em queda de chamadas e baixa qualidade de chamadas. As recomendações abaixo devem ser o mínimo.
 
@@ -120,6 +120,6 @@ Tipo de tráfego de mídia| Intervalo de portas de origem do cliente \* |Protoco
 |Compartilhamento de tela/aplicativo| 50.040-50.059      |TCP/UDP |dezoito        |Assured Forwarding (AF21)|
 | | | | |
 
-\* Os intervalos de portas que você atribui não podem se sobrepor e devem estar próximos um do outro.
+\* Os intervalos de porta que você atribui não podem ficar sobrepostos e devem ser adjacentes entre si.
 
 Depois que a QoS estiver em uso por um tempo, você terá informações de uso sobre a demanda para cada uma dessas três cargas de trabalho e poderá escolher as alterações a serem feitas com base em suas necessidades específicas. O [Painel de Qualidade de Chamadas](turning-on-and-using-call-quality-dashboard.md) ajudará com isso.

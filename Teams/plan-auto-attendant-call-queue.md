@@ -23,12 +23,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Saiba mais sobre atendedores automáticos e filas de chamadas e como usá-los para ajudar os chamadores a percorrer um sistema de menu para alcançar pessoas ou departamentos em sua organização.
-ms.openlocfilehash: 7407b9a2bbcd8d8b3fb5d15202d1bba518953f07
-ms.sourcegitcommit: 6c24c77f0aad693d45dd5657c12bf876f62c495b
+ms.openlocfilehash: 338926c167bd35742da06ca996946a22aeef1c72
+ms.sourcegitcommit: ee217e1d7188842c7becd19387fd421b485c3575
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/26/2020
-ms.locfileid: "48765938"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "48908600"
 ---
 # <a name="plan-for-teams-auto-attendants-and-call-queues"></a>Planejar os atendedores automáticos e as filas de chamadas do teams
 
@@ -70,11 +70,21 @@ Para configurar atendedores automáticos e filas de chamadas, você precisa dos 
 
 - Uma conta de recurso para cada atendedor automático e todas as filas de chamadas
 - Um sistema de telefonia livre-licença de usuário virtual para cada conta de recurso
-- Um número de serviço para cada atendedor automático ou fila de chamadas que você deseja que seja diretamente discável
-- Um plano de chamada para cada pessoa que receberá chamadas na fila de chamadas
+- Pelo menos um [número de serviço da Microsoft](getting-service-phone-numbers.md), um número de roteamento direto ou um número híbrido para cada conta de recurso que você deseja que seja diretamente discável
+ - O número do serviço pode ser um número de chamada tarifada ou gratuita
+
+Os agentes que recebem chamadas das filas de chamadas devem ser habilitados para o Enterprise Voice online ou usuários locais. 
+
+Se seus agentes estiverem usando o aplicativo Microsoft Teams para chamadas da fila de chamadas, eles precisarão estar no modo TeamsOnly.
+
+Ao transferir chamadas para um número de telefone externo, a conta do recurso que executa a transferência (ou seja, a associada ao atendedor automático ou à fila de chamadas) deve ter um número de telefone e uma licença de usuário virtual do Microsoft 365 Phone System. Além
+
+- Para uma conta de recurso com um número de plano de chamada, atribua uma licença de [plano de chamada](calling-plans-for-office-365.md) .
+- Para uma conta de recurso com um número de roteamento direto, atribua uma [política de roteamento de voz online](manage-voice-routing-policies.md).
 
 > [!NOTE]
-> Os números do serviço de roteamento direto para atendedor automático e filas de chamadas são suportados somente para usuários do Microsoft Teams e para agentes de chamadas.
+> Os números do serviço de roteamento direto para atendedor automático e filas de chamadas são suportados somente para usuários do Microsoft Teams e para agentes de chamadas.<br>
+> Não há suporte para transferências entre troncos de plano de chamada e troncos diretos de roteamento.
 
 ## <a name="business-decisions"></a>Decisões comerciais
 
@@ -180,18 +190,6 @@ Veja algumas práticas recomendadas de roteamento de chamadas:
 - Descreva o serviço primeiro e, em seguida, pressione a opção para pressionar (por exemplo, para vendas, pressione 1) em vez de o contrário (por exemplo, Pressione 1 para vendas.
 - Terminologia do usuário que seus chamadores compreenderão em vez do que você pode usar internamente.
 - Evitar atualizações frequentes para roteamento de chamadas. Se você alterar as opções de menu para um atendedor automático no futuro, ligue para isso nos prompts de voz para os primeiros 30 dias.
-
-## <a name="resource-accounts-and-phone-numbers"></a>Contas de recursos e números de telefone
-
-O Microsoft Teams usa *[contas de recursos](manage-resource-accounts.md)* para conectar atendedores automáticos e filas de chamadas para cada um deles e atribuir a eles números de telefone, se desejado.
-
-- Cada fila de chamadas e atendedor automático requer pelo menos uma conta do recurso.
-- Cada conta de recurso requer um sistema telefônico gratuito-licença de usuário virtual.
-- Uma conta de recurso pode, opcionalmente, atribuir um ou mais números de serviço. (Esse é o modo como os números de telefone são atribuídos aos atendedores automáticos e às filas de chamadas.)
-
-Você pode atribuir um [número de serviço da Microsoft](getting-service-phone-numbers.md), um número de roteamento direto ou um número híbrido a uma conta de recurso.
-
-Você pode usar números de serviço de chamada tarifada ou gratuita. Você não pode usar números de telefone de usuários para atendedores automáticos ou filas de chamadas.
 
 ## <a name="getting-started"></a>Introdução
 

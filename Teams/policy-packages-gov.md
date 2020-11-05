@@ -17,12 +17,12 @@ ms.custom: ''
 localization_priority: Normal
 search.appverid: MET150
 description: Saiba como usar e gerenciar pacotes de política de equipe para sua organização governamental.
-ms.openlocfilehash: 738197a82303c1149ebc89a8e3ad7c6b37df90eb
-ms.sourcegitcommit: bd13aecbb25c14e17d1b64343df6d80c90b2aa45
+ms.openlocfilehash: 8ef632689cb52180e8fd18cf4047fb9a25150885
+ms.sourcegitcommit: ee217e1d7188842c7becd19387fd421b485c3575
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "46804003"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "48908590"
 ---
 # <a name="teams-policy-packages-for-government"></a>Pacotes de política de equipe para o governo
 
@@ -59,7 +59,7 @@ Cada política individual recebe o nome do pacote de política para que você po
 
 ### <a name="view"></a>View
 
-Exiba as configurações de cada política em um pacote de política antes de atribuir um pacote. Na navegação à esquerda do centro de administração do Microsoft Teams, selecione **pacotes de política**, selecione o nome do pacote e, em seguida, selecione o nome da política.
+Exiba as configurações de cada política em um pacote de política antes de atribuir um pacote. Na navegação à esquerda do centro de administração do Microsoft Teams, selecione **pacotes de política** , selecione o nome do pacote e, em seguida, selecione o nome da política.
 
 Decida se os valores predefinidos são adequados para sua organização ou se você precisa personalizá-los para serem mais restritivos ou lenient com base nas necessidades da sua organização.
 
@@ -71,13 +71,31 @@ Lembre-se de que você também pode alterar as configurações de políticas em 
 
 ### <a name="assign"></a>Atribuição
 
-Atribua o pacote de política aos usuários. Para atribuir um pacote de política a um ou vários usuários, clique em **gerenciar usuários**. Você também pode [usar o PowerShell](https://docs.microsoft.com/powershell/module/teams/new-csbatchpolicypackageassignmentoperation) para atribuir um pacote de política a lotes grandes de usuários. 
+Atribua o pacote de política aos usuários. Se um usuário tiver uma política atribuída e depois você atribuir uma política diferente, a atribuição mais recente terá prioridade.
 
-Para ver as etapas sobre como atribuir um pacote de política usando o centro de administração do Microsoft Teams ou o PowerShell, consulte [atribuir um pacote de política](manage-policy-packages.md#assign-a-policy-package).
+#### <a name="assign-a-policy-package-to-one-or-several-users"></a>Atribuir um pacote de política a um ou vários usuários
 
-![Captura de tela de como atribuir um pacote de política no centro de administração](media/policy-packages-gov-assign.png)
+Para atribuir um pacote de política a um ou vários usuários, no painel de navegação esquerdo do centro de administração do Microsoft Teams, vá para **pacotes de política** e selecione **gerenciar usuários**.  
+
+![Captura de tela de como atribuir um pacote de política no centro de administração](media/policy-packages-healthcare-assign.png)
+
+Para saber mais, consulte [atribuir um pacote de política](manage-policy-packages.md#assign-a-policy-package).
 
 Se um usuário tiver uma política atribuída e depois você atribuir uma política diferente, a atribuição mais recente terá prioridade.
+
+#### <a name="assign-a-policy-package-to-a-group"></a>Atribuir um pacote de política a um grupo
+
+**Este recurso está em visualização particular**
+
+A atribuição de pacote de política para grupos permite que você atribua várias políticas a um grupo de usuários, como um grupo de segurança ou lista de distribuição. A atribuição de política é propagada para os membros do grupo de acordo com as regras de precedência. Conforme os membros são adicionados ou removidos de um grupo, suas atribuições de política herdadas são atualizadas de acordo. Esse método é recomendado para grupos de até 50.000 usuários, mas também funcionará com grupos maiores.
+
+Para saber mais, consulte [atribuir um pacote de política a um grupo](assign-policies.md#assign-a-policy-package-to-a-group).
+
+#### <a name="assign-a-policy-package-to-a-large-set-batch-of-users"></a>Atribuir um pacote de política a um grande conjunto (lote) de usuários
+
+Use a atribuição de pacote de política em lotes para atribuir um pacote de política a grandes conjuntos de usuários por vez. Use o cmdlet [New-CsBatchPolicyPackageAssignmentOperation](https://docs.microsoft.com/powershell/module/teams/new-csbatchpolicypackageassignmentoperation) para enviar um lote de usuários e o pacote de política que você deseja atribuir. As atribuições são processadas como uma operação em segundo plano e uma ID de operação é gerada para cada lote.
+
+Um lote pode conter até 5.000 usuários. Você pode especificar os usuários por sua ID de objeto, UPN, endereço SIP ou endereço de email. Para saber mais, consulte [atribuir um pacote de política a um lote de usuários](assign-policies.md#assign-a-policy-package-to-a-batch-of-users).
 
 ## <a name="related-topics"></a>Tópicos relacionados
 

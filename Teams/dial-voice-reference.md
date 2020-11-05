@@ -22,12 +22,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Saiba mais sobre as opções atendedor automático e discagem da fila de chamadas e reconhecimento de voz no Teams.
-ms.openlocfilehash: 3e3e750ff28779fb8fe8765a088c5a65d2a9b1f0
-ms.sourcegitcommit: 273f231098799975dc4cf609a68c9944b8072ce1
+ms.openlocfilehash: b63235409418f7ff05b8d34973d2390e6b18df36
+ms.sourcegitcommit: ee217e1d7188842c7becd19387fd421b485c3575
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "48818801"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "48908700"
 ---
 # <a name="auto-attendant-and-call-queue-dialing-and-voice-recognition-reference"></a>Atendedor automático e discagem da fila de chamadas e referência do reconhecimento de voz
 
@@ -35,9 +35,9 @@ Discar por nome é um recurso de um atendedor automático que também é conheci
 
 ## <a name="searching-for-users"></a>Procurando usuários
 
-Os usuários que você quer localizar e acessar usando o recurso discar por nome **não devem ter um número de telefone ou ter planos de chamadas atribuídos a eles, mas devem ter uma licença de sistema telefônico se eles forem usuários online ou o Enterprise Voice estiver habilitado para usuários do Skype for Business Server** . Discar por nome poderá, até mesmo, localizar e transferir chamadas para os usuários do Microsoft Teams que são hospedados em diferentes países ou regiões para organizações multinacionais. Devido aos pré-requisitos envolvidos, você habilitou explicitamente o recurso discar por nome em um atendedor automático.
+Os usuários que você quer localizar e acessar usando o recurso discar por nome **não devem ter um número de telefone ou ter planos de chamadas atribuídos a eles, mas devem ter uma licença de sistema telefônico se eles forem usuários online ou o Enterprise Voice estiver habilitado para usuários do Skype for Business Server**. Discar por nome poderá, até mesmo, localizar e transferir chamadas para os usuários do Microsoft Teams que são hospedados em diferentes países ou regiões para organizações multinacionais. Devido aos pré-requisitos envolvidos, você habilitou explicitamente o recurso discar por nome em um atendedor automático.
 
-Discar por extensão é um recurso de um atendedor automático que também faz parte da pesquisa de diretório. Ele permite que as pessoas que chamam seu atendente automático usem voz (reconhecimento de fala) ou as respostas do teclado de telefone (DTMF) para inserir a extensão de telefone do usuário para o qual estão tentando falar e, em seguida, fazer com que a chamada seja transferida para elas. Os usuários que você quer localizar e se encontrarem usando o recurso discar por  **não devem ter um número de telefone ou ter planos de chamada atribuídos a eles, mas devem ter uma licença de sistema telefônico se eles forem usuários online ou Enterprise Voice habilitado para usuários do Skype for Business Server** . Você também precisará ter um plano de discagem configurado adequadamente para seus usuários. A discagem por extensão poderá até mesmo localizar e transferir chamadas para os usuários do Microsoft Teams que são hospedados em diferentes países ou regiões para organizações multinacionais. Devido aos pré-requisitos envolvidos, você habilitou explicitamente a extensão dial by em um atendedor automático.
+Discar por extensão é um recurso de um atendedor automático que também faz parte da pesquisa de diretório. Ele permite que as pessoas que chamam seu atendente automático usem voz (reconhecimento de fala) ou as respostas do teclado de telefone (DTMF) para inserir a extensão de telefone do usuário para o qual estão tentando falar e, em seguida, fazer com que a chamada seja transferida para elas. Os usuários que você quer localizar e se encontrarem usando o recurso discar por  **não devem ter um número de telefone ou ter planos de chamada atribuídos a eles, mas devem ter uma licença de sistema telefônico se eles forem usuários online ou Enterprise Voice habilitado para usuários do Skype for Business Server**. Você também precisará ter um plano de discagem configurado adequadamente para seus usuários. A discagem por extensão poderá até mesmo localizar e transferir chamadas para os usuários do Microsoft Teams que são hospedados em diferentes países ou regiões para organizações multinacionais. Devido aos pré-requisitos envolvidos, você habilitou explicitamente a extensão dial by em um atendedor automático.
 
 ### <a name="maximum-directory-size"></a>Tamanho máximo do diretório
 
@@ -78,7 +78,7 @@ Há vários caracteres especiais que são usados durante a pesquisa de pessoas p
 
 ### <a name="dial-by-name---name-recognition-with-speech"></a>Discar por Nome - Reconhecimento de nome pela fala
 
-As pessoas podem pesquisar outras pessoas em sua organização com voz (reconhecimento de fala). Eles também podem acessar qualquer pessoa no Active Directory informando o nome da pessoa que ele está tentando localizar. Usar entradas de voz pode reconhecer nomes em vários formatos, incluindo FirstName, LastName, FirstName + LastName ou LastName + FirstName.
+As pessoas podem pesquisar outras pessoas em sua organização com voz (reconhecimento de fala). Eles também podem acessar qualquer pessoa no Active Directory informando o nome completo ou parcial da pessoa que está tentando localizar. Usar entradas de voz pode reconhecer nomes em vários formatos, incluindo FirstName, LastName, FirstName + LastName ou LastName + FirstName.
   
 Você pode habilitar o reconhecimento de fala para um atendedor automático, mas a entrada do teclado de telefone (DTMF) não está desabilitada. A entrada do teclado de telefone pode ser usada a qualquer momento, mesmo se o reconhecimento de fala estiver habilitado no atendedor automático.
   
@@ -92,6 +92,9 @@ Os chamadores podem dizer nomes nos seguintes formatos:
 |Sobrenome + Nome |Completo  |Marble Amos |Amos Marble |
 |Nome |Completo |Amos |Pressione ou fale 1 para Amos Marble  <br/> Pressione ou fale 2 para Amos Jones |
 |Apelido |Completo |Marble |Pressione ou fale 1 para Amos Marble  <br/> Pressione ou fale 2 para Ben Marble |
+|Nome ou Sobrenome |Parcial |Mar |Pressione ou diga 1 para Mary Marble  <br/> Pressione ou diga 2 para Mary Jones  <br/> Pressione ou diga 3 para Amos Marcus |
+|Nome + Sobrenome |Parcial |Mar de Amos |Pressione ou fale 1 para Amos Marble  <br/> Pressione ou diga 2 para Amos Marcus |
+
 
 > [!NOTE]
 > Pode levar até 36 horas para que um novo usuário tenha o nome listado no diretório para discar por nome com reconhecimento de fala devido à defasagem de replicação do Active Directory.

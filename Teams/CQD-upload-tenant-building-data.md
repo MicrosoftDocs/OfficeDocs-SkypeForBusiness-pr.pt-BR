@@ -21,12 +21,12 @@ ms.custom:
 - Reporting
 - seo-marvel-apr2020
 description: Saiba como carregar locatários e compilar dados no painel de qualidade de chamada (CQD).
-ms.openlocfilehash: 37499cf2715a3cabb05ab5039a19190190253b07
-ms.sourcegitcommit: c1aaf1f81c07c0956095b5bd4cb241b1de67b189
+ms.openlocfilehash: 50a059f78a2d719d5d9106a755dbcf6ac8044d1b
+ms.sourcegitcommit: ee217e1d7188842c7becd19387fd421b485c3575
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "46897831"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "48908690"
 ---
 # <a name="upload-tenant-and-building-data-in-call-quality-dashboard-cqd"></a>Carregar o locatário e compilar dados no painel de qualidade de chamada (CQD)
 
@@ -49,7 +49,7 @@ No painel relatórios de resumo do CQD, selecione **carregar dados do locatário
 
 4. Depois de selecionar um arquivo de dados, especifique **data de início** e, opcionalmente, especifique uma data de término.
 
-5. Depois de selecionar **data de início**, selecione **carregar** para carregar o arquivo para CQD. <br><br>Antes de o arquivo ser carregado, ele é validado. Se a validação falhar, uma mensagem de erro será exibida solicitando que você corrija o arquivo. A figura a seguir mostra um erro que ocorre quando o número de colunas no arquivo de dados está incorreto.
+5. Depois de selecionar **data de início** , selecione **carregar** para carregar o arquivo para CQD. <br><br>Antes de o arquivo ser carregado, ele é validado. Se a validação falhar, uma mensagem de erro será exibida solicitando que você corrija o arquivo. A figura a seguir mostra um erro que ocorre quando o número de colunas no arquivo de dados está incorreto.
 
    ![Exemplo de caixa de diálogo exibindo um erro de carregamento de dados de construção](media/qerguide-image-buildingdatauploaderror.png)
  
@@ -111,7 +111,7 @@ O primeiro tipo de arquivo de dados locatário no CQD é o arquivo de dados de *
 
 ### <a name="supernetting"></a>Combinação de sub-redes
 
-Você pode usar a combinação de redes, comumente chamada de roteamento Inter-Domain sem classe (CIDR), no lugar da definição de cada sub-rede. Um *Supernet* é uma combinação de várias sub-redes que compartilham um único prefixo de roteamento. Em vez de adicionar uma entrada para cada sub-rede, você pode usar o endereço de sub-rede. Há suporte para a combinação de sub-redes, mas não recomendamos usá-la.
+Você pode usar a combinação de redes, comumente chamada de roteamento Inter-Domain sem classe (CIDR) em vez de definir cada sub-rede. Um *Supernet* é uma combinação de várias sub-redes que compartilham um único prefixo de roteamento. Em vez de adicionar uma entrada para cada sub-rede, você pode usar o endereço de sub-rede. Há suporte para a combinação de sub-redes, mas não recomendamos usá-la.
 
 Por exemplo, a compilação de marketing da Contoso é composta pelas subredes abaixo:
 
@@ -161,7 +161,7 @@ O outro tipo de arquivo de dados locatário CQD é o arquivo de dados do **ponto
 
 - O conteúdo do arquivo de dados não inclui cabeçalhos de tabela. Espera-se que a primeira linha do arquivo de dados seja real, não um rótulo de cabeçalho como "EndpointName".
 
-- Todas as seis colunas usam somente o tipo de dados de cadeia de caracteres. O comprimento máximo permitido é de 64 caracteres.
+- Todas as sete colunas usam somente o tipo de dados de cadeia de caracteres. O comprimento máximo permitido é de 64 caracteres.
 
 - Um campo de dados pode estar vazio, mas ainda deve ser separado por uma Tabulação ou vírgula. Um campo de dados vazio apenas atribui um valor de cadeia de caracteres vazia.
 
@@ -169,15 +169,15 @@ O outro tipo de arquivo de dados locatário CQD é o arquivo de dados do **ponto
 
 - EndpointLabel1, EndpointLabel2 e EndpointLabel3 são rótulos personalizáveis. Elas podem ser cadeias de caracteres ou valores vazios, como o "departamento de ti designado 2018 laptop" ou "marca do ativo 5678".
 
-- Deve haver seis colunas para cada linha, e as colunas devem estar na seguinte ordem:
+- Deve haver sete colunas para cada linha, e as colunas devem estar na seguinte ordem:
 
   **Ordem dos campos:**
 
-  EndpointName, EndpointModel, EndpointType, EndpointLabel1, EndpointLabel2, EndpointLabel3
+  EndpointName, EndpointMake, EndpointModel, EndpointType, EndpointLabel1, EndpointLabel2, EndpointLabel3
 
   **Linha de amostra:**
 
-  `1409W3534, Fabrikam Model 123, Laptop, IT designated 2018 Laptop, Asset Tag 5678, Purchase 2018,`  
+  `1409W3534, Fabrikam, Model 123, Laptop, IT designated 2018 Laptop, Asset Tag 5678, Purchase 2018`
 
 
 ## <a name="update-a-building-file"></a>Atualizar um arquivo de construção
@@ -220,7 +220,7 @@ Depois de carregar as informações de construção para redes gerenciadas, cada
 > Você precisará adicionar sua ID de locatário como um filtro de consulta para a **segunda ID de locatário** a esse relatório para filtrar o relatório e exibir somente os dados locatários da sua organização. Caso contrário, o relatório mostrará sub-redes federadas.
 
 > [!NOTE] 
-> Certifique-se de ajustar o filtro de relatório de ano do mês para o mês atual. Selecione **Editar**e ajuste o filtro relatório de **ano do mês** para salvar o novo mês padrão.
+> Certifique-se de ajustar o filtro de relatório de ano do mês para o mês atual. Selecione **Editar** e ajuste o filtro relatório de **ano do mês** para salvar o novo mês padrão.
 
 
 ## <a name="related-topics"></a>Tópicos relacionados

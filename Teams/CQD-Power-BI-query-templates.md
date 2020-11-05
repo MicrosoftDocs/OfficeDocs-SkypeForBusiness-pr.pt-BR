@@ -16,12 +16,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: Use o Power BI para analisar dados do CQD para o Microsoft Teams.
-ms.openlocfilehash: 5ce4aa58033555551c2fa75f3c3eb93068c59601
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: 256b2264cef4b84dc4f9d9881c960d357cee28e5
+ms.sourcegitcommit: ee217e1d7188842c7becd19387fd421b485c3575
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46584040"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "48908640"
 ---
 # <a name="use-power-bi-to-analyze-cqd-data-for-microsoft-teams"></a>Usar o Power BI para analisar dados do CQD para o Microsoft Teams
 
@@ -35,6 +35,7 @@ Verifique se você tem a [função de acesso CQD](https://docs.microsoft.com/mic
 
 |  |  |
 |---------|---------|
+|<strong>(Novo!)</strong> Atendedor automático do teams CQD & relatório histórico de filas de chamadas. PBit     |  Este modelo fornece os três relatórios a seguir:</p><li>Atendedor automático – mostrando a análise de chamadas que chegam aos atendedores automáticos.</li><li>Fila de chamadas – mostrando a análise de chamadas que chegam às suas filas de chamadas.</li><li>Linha do tempo do agente – mostrar um modo de exibição de linha do tempo dos agentes ativos nas chamadas da fila de chamadas.</li><br>Para saber mais, leia [use o relatório do Power bi do CQD para ver o atendedor automático & relatório histórico histórico da fila de chamadas](CQD-teams-aa-cq-historical-report.md).        |
 |Relatório de assistência técnica CQD. PBit     |Ao integrar dados de construção e EUII, esse relatório foi projetado para permitir que você faça uma busca detalhada de um único usuário para localizar a causa raiz de upstreams de baixa qualidade de chamadas para aquele usuário (por exemplo, o usuário está em um prédio com problemas de rede).         |
 |Relatório avançado de localização CQD. PBit     | Renovar relatórios de localização SPD do CQD. Inclui 9 relatórios, fornecimento de qualidade de chamada, criação de WiFi, confiabilidade e classificar minhas informações de chamada (RMC) com buscas adicionais por meio do edifício ou pelo usuário.  Certifique-se de carregar os dados de construção para maximizar sua experiência com relatórios.        |
 |Relatório de dispositivo móvel CQD. PBit     | Fornece ideias especificamente ajustadas em relação a usuários de dispositivos móveis, incluindo qualidade da chamada, confiabilidade e classifique minha chamada. Exibir relatórios de rede móvel, rede WiFi e sistema operacional móvel (Android, iOS).        |
