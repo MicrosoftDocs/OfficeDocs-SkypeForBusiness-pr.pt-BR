@@ -1,0 +1,2721 @@
+- name: Skype for Business Server 2015
+  href: ../skype-for-business-server-2015.yml
+  items:
+    - name: Diagramas técnicos
+      href: ../technical-diagrams.md
+    - name: Novidades no Skype for Business Server
+      href: ../what-s-new-in-skype-for-business-server.md
+    - name: Downloads e atualizações do Skype for Business
+      href: ../software-updates.md
+      items:
+        - name: Atualizações de cliente
+          href: ../sfb-client-updates.md
+        - name: Atualizações de servidor
+          href: ../sfb-server-updates.md
+    - name: Soluções de telefonia da Microsoft
+      href: ../../sfbhybrid/hybrid/msft-telephony-solutions.md
+      items:
+        - name: Planejar Sistema de Telefonia com conectividade PSTN local por meio do Skype for Business Server
+          href: ../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-phone-system-with-on-premises-pstn-connectivity.md
+        - name: Habilitar usuários para o Sistema de Telefonia com conectividade PSTN local no Skype for Business Server
+          href: ../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-users-for-phone-system.md
+          items:
+            - name: Habilitar usuários do Enterprise Voice local
+              href: ../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-the-users-for-enterprise-voice-on-premises.md
+            - name: Atribuir uma política de roteamento de voz
+              href: ../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/assign-a-voice-routing-policy.md
+            - name: Habilitar os usuários do Enterprise Voice online e da Caixa Postal do Sistema de Telefone
+              href: ../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-users-for-enterprise-voice-online-and-phone-system-voicemail.md
+        - name: Skype for Business Cloud Connector Edition
+          href: ../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-skype-for-business-cloud-connector-edition.md
+          items:
+            - name: Plano para sites PSTN do Cloud Connector Edition
+              href: ../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-for-cloud-connector-edition-pstn-sites.md
+            - name: Plano para bypass de mídia no Cloud Connector Edition
+              href: ../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-for-media-bypass-in-cloud-connector-edition.md
+        - name: Configurar o Skype for Business edição Conector de Nuvem
+          href: ../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/configure-skype-for-business-cloud-connector-edition.md
+          items:
+            - name: Preparar o dispositivo do Cloud Connector
+              href: ../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/prepare-your-cloud-connector-appliance.md
+            - name: Implantar um único site no Cloud Connector
+              href: ../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/deploy-a-single-site-in-cloud-connector.md
+            - name: Implantar vários sites no Cloud Connector
+              href: ../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/deploy-multiple-sites-in-cloud-connector.md
+            - name: Configurar a integração do Cloud Connector com a sua organização do Office 365
+              href: ../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/configure-cloud-connector-integration-with-your-office-365-tenant.md
+            - name: Validar a implantação do Cloud Connector
+              href: ../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/validate-your-cloud-connector-deployment.md
+            - name: Atualizar para uma nova versão do Cloud Connector
+              href: ../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/upgrade-to-a-new-version-of-cloud-connector.md
+            - name: Modificar a configuração de uma implantação do Cloud Connector existente
+              href: ../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/modify-the-configuration-of-an-existing-cloud-connector-deployment.md
+            - name: Implantar bypass de mídia no Cloud Connector
+              href: ../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/deploy-media-bypass-in-cloud-connector.md
+            - name: Monitor Cloud Connector using Operations Management Suite (OMS).
+              href: ../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/monitor-cloud-connector-using-operations-management-suite-oms.md
+            - name: Referência de cmdlet do Cloud Connector
+              href: ../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/cloud-connector-cmdlet-reference.md
+              items:
+                - name: Backup-CcCertificationAuthority
+                  href: ../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/backup-cccertificationauthority.md
+                - name: Convert-CcIsoToVhdx
+                  href: ../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/convert-ccisotovhdx.md
+                - name: Enter-CcUpdate
+                  href: ../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enter-ccupdate.md
+                - name: Exit-CcUpdate
+                  href: ../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/exit-ccupdate.md
+                - name: Export-CcConfigurationSampleFile
+                  href: ../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/export-ccconfigurationsamplefile.md
+                - name: Export-CcRootCertificate
+                  href: ../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/export-ccrootcertificate.md
+                - name: Export-CcConfiguration
+                  href: ../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/export-ccconfiguration.md
+                - name: Get-CcApplianceDirectory
+                  href: ../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/get-ccappliancedirectory.md
+                - name: Get-CcApplianceLogDirectory
+                  href: ../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/get-ccappliancelogdirectory.md
+                - name: Get-CcApplianceStatus
+                  href: ../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/get-ccappliancestatus.md
+                - name: Get-CcCredential
+                  href: ../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/get-cccredential.md
+                - name: Get-CcExternalCertificateFilePath
+                  href: ../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/get-ccexternalcertificatefilepath.md
+                - name: Get-CcSiteDirectory
+                  href: ../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/get-ccsitedirectory.md
+                - name: Get-CcSiteLogDirectory
+                  href: ../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/get-ccsitelogdirectory.md
+                - name: Get-CcVersion
+                  href: ../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/get-ccversion.md
+                - name: Import-CcConfiguration
+                  href: ../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/import-ccconfiguration.md
+                - name: Install-CcAppliance
+                  href: ../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/install-ccappliance.md
+                - name: Publish-CcAppliance
+                  href: ../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/publish-ccappliance.md
+                - name: Register-CcAppliance
+                  href: ../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/register-ccappliance.md
+                - name: Remover-CcCertificationAuthorityFile
+                  href: ../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/remove-cccertificationauthorityfile.md
+                - name: Remover-CcLegacyServerCertificate
+                  href: ../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/remove-cclegacyservercertificate.md
+                - name: Renew-CcCACertificate
+                  href: ../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/renew-cccacertificate.md
+                - name: Renew-CcServerCertificate
+                  href: ../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/renew-ccservercertificate.md
+                - name: Reset-CcCACertificate
+                  href: ../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/reset-cccacertificate.md
+                - name: Restore-CcCredentials
+                  href: ../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/restore-cccredentials.md
+                - name: Search-CcLog
+                  href: ../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/search-cclog.md
+                - name: Set-CcApplianceDirectory
+                  href: ../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/set-ccappliancedirectory.md
+                - name: Set-CcCredential
+                  href: ../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/set-cccredential.md
+                - name: Set-CcExternalCertificateFilePath
+                  href: ../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/set-ccexternalcertificatefilepath.md
+                - name: Set-CcSiteDirectory
+                  href: ../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/set-ccsitedirectory.md
+                - name: Start-CcDownload
+                  href: ../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/start-ccdownload.md
+                - name: Start-CcLogging
+                  href: ../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/start-cclogging.md
+                - name: Stop-CcLogging
+                  href: ../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/stop-cclogging.md
+                - name: Switch-CcVersion
+                  href: ../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/switch-ccversion.md
+                - name: Uninstall-CcAppliance
+                  href: ../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/uninstall-ccappliance.md
+                - name: Unregister-CcAppliance
+                  href: ../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/unregister-ccappliance.md
+                - name: Update-CcCACertificate
+                  href: ../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/update-cccacertificate.md
+                - name: Update-CcServerCertificate
+                  href: ../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/update-ccservercertificate.md
+            - name: Solução de problemas de implantação do Cloud Connector
+              href: ../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/troubleshoot-your-cloud-connector-deployment.md
+    - name: Soluções híbridas para o Teams e Skype for Business
+      href: ../../SfbHybrid/hybrid/plan-hybrid-connectivity.md?toc=/SkypeForBusiness/sfbhybridtoc/toc.json
+    - name: Planejar sua implantação
+      href: ../plan-your-deployment/plan-your-deployment.md
+      items:
+        - name: Fundamentos de topologia
+          href: ../plan-your-deployment/topology-basics/topology-basics.md
+          items:
+            - name: Topologias de referência
+              href: ../plan-your-deployment/topology-basics/reference-topologies.md
+        - name: Requisitos para o seu ambiente
+          href: ../plan-your-deployment/requirements-for-your-environment/requirements-for-your-environment.md
+          items:
+            - name: Requisitos de servidor
+              href: ../plan-your-deployment/requirements-for-your-environment/server-requirements.md
+            - name: Requisitos de ambiente
+              href: ../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md
+        - name: Requisitos de rede
+          href: ../plan-your-deployment/network-requirements/network-requirements.md
+          items:
+            - name: IPv6
+              href: ../plan-your-deployment/network-requirements/ipv6.md
+              items:
+                - name: Tipos de endereços IP
+                  href: ../plan-your-deployment/network-requirements/ip-address-types.md
+            - name: Balanceamento de carga
+              href: ../plan-your-deployment/network-requirements/load-balancing.md
+            - name: DNS
+              href: ../plan-your-deployment/network-requirements/dns.md
+              items:
+                - name: Noções básicas
+                  href: ../plan-your-deployment/network-requirements/basics.md
+                - name: URLs simples
+                  href: ../plan-your-deployment/network-requirements/simple-urls.md
+                - name: Servidor de borda avançada DNS
+                  href: ../plan-your-deployment/network-requirements/advanced-edge-server-dns.md
+            - name: Portas e protocolos
+              href: ../plan-your-deployment/network-requirements/ports-and-protocols.md
+        - name: Atualizar
+          href: ../plan-your-deployment/upgrade.md
+        - name: Clientes e dispositivos
+          href: ../plan-your-deployment/clients-and-devices/clients-and-devices.md
+          items:
+            - name: Experiência do usuário
+              href: ../plan-your-deployment/clients-and-devices/user-experience.md
+            - name: Comparação de recursos da área de trabalho
+              href: ../plan-your-deployment/clients-and-devices/desktop-feature-comparison.md
+            - name: Comparação de recursos móveis
+              href: ../plan-your-deployment/clients-and-devices/mobile-feature-comparison.md
+            - name: Requisitos do Windows
+              href: ../plan-your-deployment/clients-and-devices/windows-requirements.md
+            - name: Requisitos do Mac
+              href: ../plan-your-deployment/clients-and-devices/mac-requirements.md
+            - name: Compatibilidade com o Office
+              href: ../plan-your-deployment/clients-and-devices/compatibility-with-office.md
+            - name: Resoluções de vídeo
+              href: ../plan-your-deployment/clients-and-devices/video-resolutions.md
+            - name: Clientes de reuniões
+              href: ../plan-your-deployment/clients-and-devices/meetings-clients.md
+              items:
+                - name: Requisitos mínimos de rede do Aplicativo Skype Meetings
+                  href: ../plan-your-deployment/clients-and-devices/minimum-network-requirements.md
+            - name: Requisitos para o Windows Phone
+              href: ../plan-your-deployment/clients-and-devices/requirements-for-windows-phone.md
+            - name: Ambientes VDI
+              href: ../plan-your-deployment/clients-and-devices/vdi-environments.md
+        - name: Alta disponibilidade e recuperação de desastre
+          href: ../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md
+          items:
+            - name: Alta disponibilidade
+              href: ../plan-your-deployment/high-availability-and-disaster-recovery/high-availability.md
+            - name: Recuperação de desastres
+              href: ../plan-your-deployment/high-availability-and-disaster-recovery/disaster-recovery.md
+            - name: Experiência do usuário
+              href: ../plan-your-deployment/high-availability-and-disaster-recovery/user-experience.md
+            - name: Servidor de Back-End
+              href: ../plan-your-deployment/high-availability-and-disaster-recovery/back-end-server.md
+            - name: Compartilhamento de arquivos
+              href: ../plan-your-deployment/high-availability-and-disaster-recovery/file-sharing.md
+        - name: Sistema de mensagens instantâneas e presença
+          href: ../plan-your-deployment/instant-messaging-and-presence.md
+        - name: Servidor de Interoperabilidade de Vídeo
+          href: ../plan-your-deployment/video-interop-server.md
+        - name: Servidor de Chat persistente
+          href: ../plan-your-deployment/persistent-chat-server/persistent-chat-server.md
+          items:
+            - name: Requisitos de hardware e software
+              href: ../plan-your-deployment/persistent-chat-server/hardware-and-software-requirements.md
+            - name: Topologia
+              href: ../plan-your-deployment/persistent-chat-server/topology.md
+            - name: Alta disponibilidade e recuperação de desastre
+              href: ../plan-your-deployment/persistent-chat-server/high-availability-and-disaster-recovery.md
+            - name: Planejamento da capacidade
+              href: ../plan-your-deployment/persistent-chat-server/capacity-planning.md
+            - name: 'Categorias, salas de chat e funções de usuário'
+              href: ../plan-your-deployment/persistent-chat-server/categories-chat-rooms-and-user-roles.md
+        - name: Solução do Enterprise Voice
+          href: ../plan-your-deployment/enterprise-voice-solution/enterprise-voice-solution.md
+          items:
+            - name: Enterprise Voice
+              href: ../plan-your-deployment/enterprise-voice-solution/enterprise-voice.md
+              items:
+                - name: Componentes obrigatórios para Enterprise Voice
+                  href: ../plan-your-deployment/enterprise-voice-solution/components-required-for-enterprise-voice.md
+                  items:
+                    - name: Servidor de Mediação
+                      href: ../plan-your-deployment/enterprise-voice-solution/mediation-server.md
+                    - name: Conectividade PSTN
+                      href: ../plan-your-deployment/enterprise-voice-solution/pstn-connectivity.md
+                    - name: VoIP de Servidor Front-End
+                      href: ../plan-your-deployment/enterprise-voice-solution/front-end-server-voip.md
+                - name: Conectividade PSTN
+                  href: ../plan-your-deployment/enterprise-voice-solution/pstn-connectivity-0.md
+                  items:
+                    - name: Entroncamento SIP
+                      href: ../plan-your-deployment/enterprise-voice-solution/sip-trunking.md
+                      items:
+                        - name: Site de filial
+                          href: ../plan-your-deployment/enterprise-voice-solution/branch-site.md
+                    - name: SIP direto
+                      href: ../plan-your-deployment/enterprise-voice-solution/direct-sip.md
+                    - name: 'Tronco M:N'
+                      href: ../plan-your-deployment/enterprise-voice-solution/m-n-trunk.md
+                    - name: Roteamento entre troncos
+                      href: ../plan-your-deployment/enterprise-voice-solution/inter-trunk-routing.md
+                    - name: Regras de tradução
+                      href: ../plan-your-deployment/enterprise-voice-solution/translation-rules.md
+                    - name: Roteamento de voz de saída
+                      href: ../plan-your-deployment/enterprise-voice-solution/outbound-voice-routing.md
+                - name: Resiliência do Enterprise Voice
+                  href: ../plan-your-deployment/enterprise-voice-solution/enterprise-voice-resiliency.md
+                - name: Configurações de rede para recursos avançados
+                  href: ../plan-your-deployment/enterprise-voice-solution/network-settings-for-advanced-features.md
+                - name: Controle de admissão de chamada
+                  href: ../plan-your-deployment/enterprise-voice-solution/call-admission-control.md
+                  items:
+                    - name: 'Exemplo: Reunir requisitos'
+                      href: ../plan-your-deployment/enterprise-voice-solution/example-gathering-requirements.md
+                    - name: Componentes e topologias
+                      href: ../plan-your-deployment/enterprise-voice-solution/components-and-topologies.md
+                - name: Serviços de Emergência
+                  href: ../plan-your-deployment/enterprise-voice-solution/emergency-services.md
+                  items:
+                    - name: Definir requisitos
+                      href: ../plan-your-deployment/enterprise-voice-solution/define-requirements.md
+                      items:
+                        - name: Escopo
+                          href: ../plan-your-deployment/enterprise-voice-solution/scope.md
+                        - name: Local da rede
+                          href: ../plan-your-deployment/enterprise-voice-solution/network-location.md
+                        - name: Habilitar usuários
+                          href: ../plan-your-deployment/enterprise-voice-solution/enable-users.md
+                        - name: Gerenciar locais
+                          href: ../plan-your-deployment/enterprise-voice-solution/manage-locations.md
+                        - name: Gateways ELIN
+                          href: ../plan-your-deployment/enterprise-voice-solution/elin-gateways.md
+                        - name: Adquirir manualmente um local
+                          href: ../plan-your-deployment/enterprise-voice-solution/manually-acquiring-a-location.md
+                        - name: Projetar o tronco SIP
+                          href: ../plan-your-deployment/enterprise-voice-solution/design-the-sip-trunk.md
+                        - name: Suporte de segurança
+                          href: ../plan-your-deployment/enterprise-voice-solution/security-desk.md
+                        - name: Escolher um provedor de serviço
+                          href: ../plan-your-deployment/enterprise-voice-solution/choose-a-service-provider.md
+                        - name: Políticas de local
+                          href: ../plan-your-deployment/enterprise-voice-solution/location-policies.md
+                        - name: Escopo da política de local
+                          href: ../plan-your-deployment/enterprise-voice-solution/location-policy-scope.md
+                    - name: Vários números de emergências
+                      href: ../plan-your-deployment/enterprise-voice-solution/multiple-emergency-numbers.md
+                - name: Bypass de mídia
+                  href: ../plan-your-deployment/enterprise-voice-solution/media-bypass.md
+                - name: Linhas de telefone privadas
+                  href: ../plan-your-deployment/enterprise-voice-solution/private-telephone-lines.md
+                - name: Roteamento com Base no Local
+                  href: ../plan-your-deployment/enterprise-voice-solution/location-based-routing.md
+                  items:
+                    - name: LBR para conferência
+                      href: ../plan-your-deployment/enterprise-voice-solution/lbr-for-conferencing.md
+                - name: Recursos de gerenciamento de chamadas
+                  href: ../plan-your-deployment/enterprise-voice-solution/call-management-features.md
+                  items:
+                    - name: Estacionamento de chamada
+                      href: ../plan-your-deployment/enterprise-voice-solution/call-park.md
+                    - name: Recebimento de chamadas em grupo
+                      href: ../plan-your-deployment/enterprise-voice-solution/group-call-pickup.md
+                    - name: Grupo de Resposta
+                      href: ../plan-your-deployment/enterprise-voice-solution/response-group.md
+                    - name: Comunicado
+                      href: ../plan-your-deployment/enterprise-voice-solution/announcement.md
+                - name: Aparência da linha compartilhada
+                  href: ../plan-your-deployment/enterprise-voice-solution/shared-line-appearance.md
+                - name: Opções de ocupado
+                  href: ../plan-your-deployment/enterprise-voice-solution/busy-options.md
+            - name: Telefonar via trabalho
+              href: ../plan-your-deployment/enterprise-voice-solution/call-via-work.md
+            - name: Chamada de controle remoto
+              href: ../plan-your-deployment/enterprise-voice-solution/remote-call-control.md
+        - name: Integrar com o Exchange
+          href: ../plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md
+          items:
+            - name: Unificação de Mensagens
+              href: ../plan-your-deployment/integrate-with-exchange/unified-messaging.md
+              items:
+                - name: Visão geral de implantação
+                  href: ../plan-your-deployment/integrate-with-exchange/deployment-overview.md
+            - name: Repositório unificado de contatos
+              href: ../plan-your-deployment/integrate-with-exchange/unified-contact-store.md
+        - name: Autenticação moderna
+          href: ../plan-your-deployment/modern-authentication/modern-authentication.md
+          items:
+            - name: Topologias compatíveis
+              href: ../plan-your-deployment/modern-authentication/topologies-supported.md
+            - name: Aplicativos de servidor para servidor e de parceiros
+              href: ../manage/authentication/server-to-server-and-partner-applications.md
+            - name: Autenticação do usuário e do cliente
+              href: ../plan-your-deployment/security/user-and-client-authentication.md
+        - name: Monitoramento
+          href: ../plan-your-deployment/monitoring.md
+        - name: Arquivamento
+          href: ../plan-your-deployment/archiving/archiving.md
+        - name: Conferências
+          href: ../plan-your-deployment/conferencing/conferencing.md
+          items:
+            - name: Requisitos de hardware e software
+              href: ../plan-your-deployment/conferencing/hardware-and-software-requirements.md
+            - name: Topologia de conferência
+              href: ../plan-your-deployment/conferencing/conferencing-topology.md
+            - name: Conferência discada
+              href: ../plan-your-deployment/conferencing/dial-in-conferencing.md
+            - name: Reuniões grandes
+              href: ../plan-your-deployment/conferencing/large-meetings.md
+        - name: Implantações do Servidor de Borda
+          href: ../plan-your-deployment/edge-server-deployments/edge-server-deployments.md
+          items:
+            - name: Requisitos do sistema
+              href: ../plan-your-deployment/edge-server-deployments/system-requirements.md
+            - name: Requisitos de ambiente de Borda
+              href: ../plan-your-deployment/edge-server-deployments/edge-environmental-requirements.md
+              items:
+                - name: Servidor de borda avançada DNS
+                  href: ../plan-your-deployment/network-requirements/advanced-edge-server-dns.md
+            - name: Cenários
+              href: ../plan-your-deployment/edge-server-deployments/scenarios.md
+        - name: Mobilidade
+          href: ../plan-your-deployment/mobility.md
+        - name: Segurança
+          href: ../plan-your-deployment/security/security.md
+          items:
+            - name: Antivírus
+              href: ../plan-your-deployment/security/antivirus.md
+            - name: Chave de segurança
+              href: ../plan-your-deployment/security/key-security.md
+            - name: Ameaças comuns
+              href: ../plan-your-deployment/security/common-threats.md
+            - name: Estrutura de segurança
+              href: ../plan-your-deployment/security/security-framework.md
+              items:
+                - name: Serviços de Domínio do Active Directory
+                  href: ../plan-your-deployment/security/active-directory-domain-services.md
+                - name: Controle de Acesso Baseado em Função (RBAC)
+                  href: ../plan-your-deployment/security/role-based-access-control-rbac.md
+                - name: Infraestrutura de chave pública do Skype
+                  href: ../plan-your-deployment/security/public-key-infrastructure-for-skype.md
+                - name: TLS e MTLS
+                  href: ../plan-your-deployment/security/tls-and-mtls.md
+                - name: Criptografia
+                  href: ../plan-your-deployment/security/encryption.md
+                - name: Ferramentas de gerenciamento
+                  href: ../plan-your-deployment/security/management-tools.md
+            - name: Endereçamento de ameaças
+              href: ../plan-your-deployment/security/addressing-threats.md
+              items:
+                - name: Práticas recomendadas
+                  href: ../plan-your-deployment/security/best-practices.md
+        - name: Capacidade
+          href: ../plan-your-deployment/capacity/capacity.md
+          items:
+            - name: Modelo de usuário
+              href: ../plan-your-deployment/capacity/user-model.md
+              items:
+                - name: Estimar o tráfego de voz
+                  href: ../plan-your-deployment/capacity/estimating-voice-traffic.md
+                - name: Orientações de implantação para Servidor de Mediação
+                  href: ../plan-your-deployment/capacity/mediation-server-deployment-guidelines.md
+            - name: Modelos do usuário
+              href: ../plan-your-deployment/capacity/user-models.md
+    - name: Implantar
+      href: ../deploy/deploy.md
+      items:
+        - name: Instalar
+          href: ../deploy/install/install.md
+          items:
+            - name: Instalar pré-requisitos
+              href: ../deploy/install/install-prerequisites.md
+            - name: Criar um compartilhamento de arquivo
+              href: ../deploy/install/create-a-file-share.md
+            - name: Instalar ferramentas administrativas
+              href: ../deploy/install/install-administrative-tools.md
+            - name: Preparar o Active Directory
+              href: ../deploy/install/prepare-active-directory.md
+            - name: Criar registros DNS
+              href: ../deploy/install/create-dns-records.md
+            - name: Criar e publicar nova topologia
+              href: ../deploy/install/create-and-publish-new-topology.md
+            - name: Instalar o Skype for Business Server
+              href: ../deploy/install/install-skype-for-business-server.md
+            - name: Verificar a topologia
+              href: ../deploy/install/verify-the-topology.md
+        - name: Atualização para o Skype for Business Server
+          href: ../deploy/upgrade-to-skype-for-business-server.md
+        - name: Implantar Telefonar Via trabalho
+          href: ../deploy/deploy-call-via-work.md
+        - name: Implantar Servidor de Chat Persistente
+          href: ../deploy/deploy-persistent-chat-server/deploy-persistent-chat-server.md
+          items:
+            - name: Adicionar servidor de Chat Persistente
+              href: ../deploy/deploy-persistent-chat-server/add-persistent-chat-server.md
+            - name: Instalar componentes de Chat Persistente
+              href: ../deploy/deploy-persistent-chat-server/install-persistent-chat-components.md
+            - name: Criar um administrador de Chat Persistente
+              href: ../deploy/deploy-persistent-chat-server/create-a-persistent-chat-administrator.md
+            - name: Configurar opções de Chat Persistente
+              href: ../deploy/deploy-persistent-chat-server/configure-persistent-chat-server-options.md
+            - name: Configurar políticas do usuário de Chat persistente
+              href: ../deploy/deploy-persistent-chat-server/configure-persistent-chat-user-policies.md
+            - name: Configurar HADR de Chat persistente
+              href: ../deploy/deploy-persistent-chat-server/configure-hadr-for-persistent-chat.md
+        - name: Implantar arquivamento
+          href: ../deploy/deploy-archiving/deploy-archiving.md
+          items:
+            - name: Adicionar arquivamento de bancos de dados
+              href: ../deploy/deploy-archiving/add-archiving-databases.md
+            - name: Configurar opções arquivamento
+              href: ../deploy/deploy-archiving/configure-archiving-options.md
+            - name: Configurar políticas de arquivamento
+              href: ../deploy/deploy-archiving/configure-archiving-policies.md
+            - name: Configurar o arquivamento de isenção de responsabilidade
+              href: ../deploy/deploy-archiving/configure-archiving-disclaimers.md
+            - name: Configurar integração com o armazenamento do Exchange
+              href: ../deploy/deploy-archiving/configure-integration-with-exchange-storage.md
+        - name: Implantar monitoramento
+          href: ../deploy/deploy-monitoring/deploy-monitoring.md
+          items:
+            - name: Associar uma loja de monitoramento
+              href: ../deploy/deploy-monitoring/associate-a-monitoring-store.md
+            - name: Instalar o SQL Server Reporting Services
+              href: ../deploy/deploy-monitoring/install-sql-server-reporting-services.md
+            - name: Instalar relatórios de monitoramento
+              href: ../deploy/deploy-monitoring/install-monitoring-reports.md
+            - name: Monitoramento de relatórios com um banco de dados espelho
+              href: ../deploy/deploy-monitoring/monitoring-reports-with-a-mirror-database.md
+            - name: Registro de detalhes das chamadas e QoE
+              href: ../deploy/deploy-monitoring/call-detail-recording-and-qoe.md
+            - name: Registro de detalhes de Purgecall e QoE
+              href: ../deploy/deploy-monitoring/purgecall-detail-recording-and-qoe.md
+        - name: Implantar o Servidor de Interoperabilidade de Vídeo
+          href: ../deploy/deploy-video-interop-server/deploy-video-interop-server.md
+          items:
+            - name: Criar um pool VIS
+              href: ../deploy/deploy-video-interop-server/create-a-vis-pool.md
+            - name: Implantar a função de servidor VIS
+              href: ../deploy/deploy-video-interop-server/deploy-the-vis-server-role.md
+            - name: Configurar o VIS
+              href: ../deploy/deploy-video-interop-server/configure-the-vis.md
+            - name: Configurar o CUCM para interoperação
+              href: ../deploy/deploy-video-interop-server/configure-cucm-for-interoperation.md
+            - name: Configurar um VTC para interoperação
+              href: ../deploy/deploy-video-interop-server/configure-a-vtc-for-interoperation.md
+        - name: Implantar o Enterprise Voice
+          href: ../deploy/deploy-enterprise-voice/deploy-enterprise-voice.md
+          items:
+            - name: Segurança do Enterprise Voice
+              href: ../deploy/deploy-enterprise-voice/enterprise-voice-security.md
+            - name: Implantar um Servidor Mediação
+              href: ../deploy/deploy-enterprise-voice/deploy-a-mediation-server.md
+            - name: Definir um gateway
+              href: ../deploy/deploy-enterprise-voice/define-a-gateway.md
+            - name: Definir troncos adicionais
+              href: ../deploy/deploy-enterprise-voice/define-additional-trunks.md
+            - name: Instalar Servidor de Mediação
+              href: ../deploy/deploy-enterprise-voice/install-mediation-server.md
+            - name: Configurar troncos
+              href: ../deploy/deploy-enterprise-voice/configure-trunks.md
+              items:
+                - name: Suporte a vários troncos
+                  href: ../manage/voice-routing/multiple-trunk-support.md
+                - name: Roteamento entre troncos
+                  href: ../manage/voice-routing/inter-trunk-routing.md
+                - name: Visualizar Informações de Configuração do Tronco
+                  href: ../manage/voice-routing/view-trunk-configuration-information.md
+                - name: Configurar um tronco (com bypass de mídia)
+                  href: ../deploy/deploy-enterprise-voice/configure-trunk-with-media-bypass.md
+                - name: Configurar um tronco (sem bypass de mídia)
+                  href: ../deploy/deploy-enterprise-voice/configure-trunk-without-media-bypass.md
+                - name: Definições da configuração de tronco
+                  href: ../deploy/deploy-enterprise-voice/trunk-configuration-settings.md
+                - name: Excluir configuração de tronco
+                  href: ../deploy/deploy-enterprise-voice/delete-trunk-configuration.md
+                - name: Modificar a configuração de tronco SIP
+                  href: ../deploy/deploy-enterprise-voice/modify-sip-trunk-configuration.md
+                - name: Testar a configuração de tronco SIP
+                  href: ../deploy/deploy-enterprise-voice/test-sip-trunk-configuration.md
+                - name: Exibir informações SIP
+                  href: ../deploy/deploy-enterprise-voice/view-sip-info.md
+            - name: Regras de apresentação de identificação de chamada
+              href: ../deploy/deploy-enterprise-voice/caller-id-presentation-rules.md
+            - name: Regras de apresentação de ID chamadas
+              href: ../deploy/deploy-enterprise-voice/called-id-presentation-rules.md
+            - name: Regras de normalização
+              href: ../deploy/deploy-enterprise-voice/normalization-rules.md
+            - name: Planos de discagem
+              href: ../deploy/deploy-enterprise-voice/dial-plans.md
+            - name: Voz e PSTN
+              href: ../deploy/deploy-enterprise-voice/voice-and-pstn.md
+              items:
+                - name: Política de voz e os registros de uso PSTN
+                  href: ../deploy/deploy-enterprise-voice/voice-policy-and-pstn-usage-records.md
+                - name: Configurar escape de caixa postal
+                  href: ../deploy/deploy-enterprise-voice/configure-voice-mail-escape.md
+                - name: Exibir registros de uso de PSTN
+                  href: ../deploy/deploy-enterprise-voice/view-pstn-usage-records.md
+                - name: Criar ou modificar uma rota de voz
+                  href: ../deploy/deploy-enterprise-voice/create-or-modify-a-voice-route.md
+                - name: Importar/exportar a configuração de rota de voz
+                  href: ../deploy/deploy-enterprise-voice/voice-route-configuration-import-export.md
+                - name: Alterações de configuração de rota de voz
+                  href: ../deploy/deploy-enterprise-voice/voice-route-config-changes.md
+            - name: Habilitar usuários para o Enterprise Voice
+              href: ../deploy/deploy-enterprise-voice/enable-users-for-enterprise-voice.md
+            - name: Implantar recursos avançados do Enterprise Voice
+              href: ../deploy/deploy-enterprise-voice/deploy-advanced-enterprise-voice-features.md
+              items:
+                - name: Implantar rede
+                  href: ../deploy/deploy-enterprise-voice/deploy-network.md
+                - name: Implantar o serviço de controle de admissão de chamadas
+                  href: ../deploy/deploy-enterprise-voice/deploy-call-admission-control.md
+                  items:
+                    - name: Criar perfis de política de largura de banda
+                      href: ../deploy/deploy-enterprise-voice/create-bandwidth-policy-profiles.md
+                    - name: Criar links de região de rede
+                      href: ../deploy/deploy-enterprise-voice/create-network-region-links.md
+                    - name: Criar rotas inter-regionais de rede
+                      href: ../deploy/deploy-enterprise-voice/create-network-interregional-routes.md
+                    - name: Criar políticas entre sites da rede
+                      href: ../deploy/deploy-enterprise-voice/create-network-intersite-policies.md
+                    - name: Habilitar o serviço de controle de admissão de chamadas
+                      href: ../deploy/deploy-enterprise-voice/enable-call-admission-control.md
+                    - name: Lista de verificação final
+                      href: ../deploy/deploy-enterprise-voice/final-checklist.md
+                - name: Implantar os serviços de emergências
+                  href: ../deploy/deploy-enterprise-voice/deploy-emergency-services.md
+                  items:
+                    - name: Configurar uma rota de voz do E9-1-1
+                      href: ../deploy/deploy-enterprise-voice/configure-an-e9-1-1-voice-route.md
+                    - name: Criar políticas de localização
+                      href: ../deploy/deploy-enterprise-voice/create-location-policies.md
+                    - name: Adicionar uma política de local a um site de rede
+                      href: ../deploy/deploy-enterprise-voice/add-a-location-policy-to-a-network-site.md
+                    - name: Configure o banco de dados de localização
+                      href: ../deploy/deploy-enterprise-voice/configure-the-location-database.md
+                    - name: Configurar um aplicativo SNMP
+                      href: ../deploy/deploy-enterprise-voice/configure-an-snmp-application.md
+                    - name: Serviço de Informações de Local secundário
+                      href: ../deploy/deploy-enterprise-voice/secondary-location-information-service.md
+                    - name: Configurar vários números de emergência
+                      href: ../deploy/deploy-enterprise-voice/configure-multiple-emergency-numbers.md
+                - name: Implantar bypass de mídia
+                  href: ../deploy/deploy-enterprise-voice/deploy-media-bypass.md
+                  items:
+                    - name: Usar o Bypass no Servidor de Mediação
+                      href: ../deploy/deploy-enterprise-voice/bypass-the-mediation-server.md
+                    - name: Use as informações de site e região
+                      href: ../deploy/deploy-enterprise-voice/use-site-and-region-information.md
+            - name: Implantar recursos de gerenciamento de chamada
+              href: ../deploy/deploy-enterprise-voice/deploy-call-management-features.md
+              items:
+                - name: Processo de implantação do Estacionamento de Chamada
+                  href: ../deploy/deploy-enterprise-voice/deployment-process-for-call-park.md
+                  items:
+                    - name: Criar ou modificar um intervalo de Órbita do Estacionamento de Chamada
+                      href: ../deploy/deploy-enterprise-voice/create-or-modify-a-call-park-orbit-range.md
+                    - name: Definir configurações de Estacionamento de Chamada
+                      href: ../deploy/deploy-enterprise-voice/configure-call-park-settings.md
+                    - name: Personalizar a música de espera do Estacionamento de Chamada
+                      href: ../deploy/deploy-enterprise-voice/customize-call-park-music-on-hold.md
+                    - name: Habilitar o Estacionamento de Chamada para usuários
+                      href: ../deploy/deploy-enterprise-voice/enable-call-park-for-users.md
+                    - name: Verificar regras de normalização para o Estacionamento de Chamada
+                      href: ../deploy/deploy-enterprise-voice/verify-normalization-rules-for-call-park.md
+                    - name: (Opcional) Verificar a implantação do Estacionamento de Chamada
+                      href: ../deploy/deploy-enterprise-voice/optional-verify-call-park-deployment.md
+                - name: Processo de implantação do Recebimento de Chamadas em Grupo
+                  href: ../deploy/deploy-enterprise-voice/deployment-process-for-group-call-pickup.md
+                  items:
+                    - name: Implantar a ferramenta SEFAUtil
+                      href: ../deploy/deploy-enterprise-voice/deploy-the-sefautil-tool.md
+                    - name: Criar ou modificar um intervalo numérico de Recebimento de Chamadas em Grupo
+                      href: ../deploy/deploy-enterprise-voice/create-or-modify-a-group-call-pickup-number-range.md
+                    - name: Habilitar o Recebimento de Chamadas em Grupo para os usuários e atribuir um número de grupo
+                      href: ../deploy/deploy-enterprise-voice/enable-group-call-pickup-for-users-and-assign-a-group-number.md
+                - name: Processo de implantação para Grupo de Resposta
+                  href: ../deploy/deploy-enterprise-voice/deployment-process-for-response-group.md
+                  items:
+                    - name: Criar ou modificar um grupo de agente
+                      href: ../deploy/deploy-enterprise-voice/create-or-modify-an-agent-group.md
+                    - name: Criar ou modificar uma fila
+                      href: ../deploy/deploy-enterprise-voice/create-or-modify-a-queue.md
+                    - name: (Opcional) Definir horário comercial do Grupo de Resposta
+                      href: ../deploy/deploy-enterprise-voice/optional-define-response-group-business-hours.md
+                    - name: (Opcional) Definir os conjuntos de feriados do Grupo de Resposta
+                      href: ../deploy/deploy-enterprise-voice/optional-define-response-group-holiday-sets.md
+                    - name: Conceber e criar fluxos de trabalho do Grupo de Resposta
+                      href: ../deploy/deploy-enterprise-voice/designing-and-creating-response-group-workflows.md
+                    - name: Gerenciar configurações do Grupo de Resposta no nível do aplicativo
+                      href: ../deploy/deploy-enterprise-voice/managing-application-level-response-group-settings.md
+                    - name: (Opcional) Verificar a implantação do Grupo de Resposta
+                      href: ../deploy/deploy-enterprise-voice/optional-verify-response-group-deployment.md
+                - name: Processo de implantação para o aplicativo Comunicado
+                  href: ../deploy/deploy-enterprise-voice/deployment-process-for-the-announcement-application.md
+                  items:
+                    - name: Criar um comunicado
+                      href: ../deploy/deploy-enterprise-voice/create-an-announcement.md
+                    - name: Criar ou modificar um intervalo de números não atribuídos
+                      href: ../deploy/deploy-enterprise-voice/create-or-modify-an-unassigned-number-range.md
+                    - name: (Opcional) Verificar implantação do Comunicado
+                      href: ../deploy/deploy-enterprise-voice/optional-verify-announcement-deployment.md
+            - name: Implantar a Aparência de linha compartilhada
+              href: ../deploy/deploy-enterprise-voice/deploy-shared-line-appearance.md
+            - name: Instalar e configurar Opções de Disponibilidade
+              href: ../deploy/deploy-enterprise-voice/install-and-configure-busy-options.md
+        - name: Integrar com o Exchange Server
+          href: ../deploy/integrate-with-exchange-server/integrate-with-exchange-server.md
+          items:
+            - name: Configurar aplicativos parceiros
+              href: ../deploy/integrate-with-exchange-server/configure-partner-applications.md
+            - name: Usar o arquivamento do Exchange
+              href: ../deploy/integrate-with-exchange-server/use-exchange-archiving.md
+            - name: Configurar o SharePoint Server para pesquisar dados arquivados
+              href: ../deploy/integrate-with-exchange-server/sharepoint-to-search-for-archived-data.md
+            - name: Fotos em alta resolução
+              href: ../deploy/integrate-with-exchange-server/high-resolution-photos.md
+            - name: Usar o repositório de contatos unificado
+              href: ../deploy/integrate-with-exchange-server/use-the-unified-contact-store.md
+            - name: Unificação de Mensagens do Exchange para caixa postal
+              href: ../deploy/integrate-with-exchange-server/exchangeunified-messaging-for-voice-mail.md
+            - name: Repositório de contatos pessoais
+              href: ../deploy/integrate-with-exchange-server/personal-contacts-store.md
+            - name: Outlook Web App
+              href: ../deploy/integrate-with-exchange-server/outlook-web-app.md
+            - name: OAuth com Online e Local
+              href: ../deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises.md
+        - name: Implantar repositório unificado de contatos
+          href: ../deploy/deploy-unified-contact-store.md
+        - name: Implantar conectividade do Skype
+          href: ../deploy/deploy-skype-connectivity.md
+        - name: Implantar conferências
+          href: ../deploy/deploy-conferencing/deploy-conferencing.md
+          items:
+            - name: Servidor do Office Web App
+              href: ../deploy/deploy-conferencing/office-web-app-server.md
+            - name: Conferência discada
+              href: ../deploy/deploy-conferencing/dial-in-conferencing.md
+            - name: Portal da Web Administrativo do Room System versão 1
+              href: ../deploy/deploy-conferencing/room-system-v1-administrative-web-portal.md
+        - name: Implantar o Servidor de Borda
+          href: ../deploy/deploy-edge-server/deploy-edge-server.md
+          items:
+            - name: Create your Edge topology
+              href: ../deploy/deploy-edge-server/create-your-edge-topology.md
+            - name: Deploy Edge Servers
+              href: ../deploy/deploy-edge-server/deploy-edge-servers.md
+            - name: Validar a implantação de Borda
+              href: ../deploy/deploy-edge-server/validate-edge-deployment.md
+        - name: Implantar e configurar Mobilidade
+          href: ../deploy/deploy-and-configure-mobility.md
+        - name: Implantar clientes
+          href: ../deploy/deploy-clients/deploy-clients.md
+          items:
+            - name: Personalizar a instalação de cliente do Windows
+              href: ../deploy/deploy-clients/customize-windows-client-installation.md
+              items:
+                - name: Usar a OCT (Ferramenta de Personalização do Office)
+                  href: ../deploy/deploy-clients/use-the-office-customization-tool-oct.md
+                - name: Usar o Config.xml para executar as tarefas de instalação
+                  href: ../deploy/deploy-clients/use-config-xml-to-perform-installation-tasks.md
+                - name: Usar opções de linha de comando de instalação
+                  href: ../deploy/deploy-clients/use-setup-command-line-options.md
+                - name: Configurar as políticas de inicialização do cliente
+                  href: ../deploy/deploy-clients/configure-client-bootstrapping-policies.md
+            - name: Configurar experiência do cliente
+              href: ../deploy/deploy-clients/configure-the-client-experience.md
+            - name: Windows Phone
+              href: ../deploy/deploy-clients/windows-phone.md
+            - name: iOS
+              href: ../deploy/deploy-clients/ios.md
+            - name: Configurar a Lista de Contatos Inteligente
+              href: ../deploy/deploy-clients/configure-smart-contacts-list.md
+              items:
+                - name: Contas Exchange e Skype do sistema de salas do Skype
+                  href: ../deploy/deploy-clients/skype-room-system-exchange-and-skype-accounts.md
+                  items:
+                    - name: Implantações locais de floresta única
+                      href: ../deploy/deploy-clients/single-forest-on-premises-deployments.md
+                    - name: Implantações locais de várias florestas
+                      href: ../deploy/deploy-clients/multiple-forest-on-premises-deployments.md
+                    - name: Provisionamento de contas do sistema de salas do Skype no Office 365
+                      href: ../deploy/deploy-clients/provisioning-skype-room-system-accounts-in-office-365.md
+                    - name: Implantações híbridas
+                      href: ../deploy/deploy-clients/hybrid-deployments.md
+                    - name: Sistema de salas e parceiros federados
+                      href: ../deploy/deploy-clients/room-system-and-federated-partners.md
+                    - name: Gerenciar contas do sistema de salas do Skype
+                      href: ../deploy/deploy-clients/manage-skype-room-system-accounts.md
+                - name: Política de conferência
+                  href: ../deploy/deploy-clients/conferencing-policy.md
+                - name: Domínios confiáveis
+                  href: ../deploy/deploy-clients/trusted-domains.md
+                - name: Considerações de migração
+                  href: ../deploy/deploy-clients/migration-considerations.md
+                - name: Considerações de ingresso no domínio
+                  href: ../deploy/deploy-clients/domain-joining-considerations.md
+                - name: Licença de software do Skype for Business
+                  href: ../deploy/deploy-clients/skype-for-business-software-liicense.md
+                - name: Capacidade de gerenciamento e ferramentas
+                  href: ../deploy/deploy-clients/manageability-and-tools.md
+                - name: Scripts de configuração de sala
+                  href: ../deploy/deploy-clients/room-setup-scripts.md
+            - name: Sistemas de sala v2
+              href: ../deploy/deploy-clients/room-systems-v2.md
+              items:
+                - name: Com o Office 365
+                  href: ../deploy/deploy-clients/with-office-365.md
+                - name: Com o Skype for Business Server 2015
+                  href: ../deploy/deploy-clients/with-skype-for-business-server-2015.md
+                - name: Com o Exchange Online
+                  href: ../deploy/deploy-clients/with-exchange-online.md
+                - name: Com o Exchange no local
+                  href: ../deploy/deploy-clients/with-exchange-on-premises.md
+                - name: Console
+                  href: ../deploy/deploy-clients/console.md
+            - name: Implantar o plug-in VDI do Lync
+              href: ../deploy/deploy-clients/deploy-the-lync-vdi-plug-in.md
+            - name: Implantar clientes para download na Web
+              href: ../deploy/deploy-clients/deploy-web-downloadable-clients.md
+            - name: Personalizar a experiência de cliente do Mac
+              href: ../deploy/deploy-clients/customize-the-mac-client-experience.md
+        - name: Configurar a Transmissão de Reunião do Skype
+          href: ../deploy/configure-skype-meeting-broadcast.md
+        - name: IM e presença
+          href: ../deploy/im-and-presence/im-and-presence.md
+          items:
+            - name: Habilitar ou desabilitar o IM Offline
+              href: ../deploy/im-and-presence/enable-or-disable-offline-im.md
+        - name: Implantar alta disponibilidade e recuperação de desastre
+          href: ../deploy/deploy-high-availability-and-disaster-recovery/deploy-high-availability-and-disaster-recovery.md
+          items:
+            - name: Grupo de Disponibilidade AlwaysOn
+              href: ../deploy/deploy-high-availability-and-disaster-recovery/alwayson-availability-group.md
+            - name: Front-Ends emparelhados para recuperação de desastre
+              href: ../deploy/deploy-high-availability-and-disaster-recovery/front-end-pools-for-disaster-recovery.md
+            - name: SQL espelhado para alta disponibilidade
+              href: ../deploy/deploy-high-availability-and-disaster-recovery/sql-mirroring-for-high-availability.md
+            - name: Configurar HADR de Chat persistente
+              href: ../deploy/deploy-persistent-chat-server/configure-hadr-for-persistent-chat.md
+    - name: Gerencie
+      href: ../manage/manage.md
+      items:
+        - name: Topologia
+          href: ../manage/topology/topology.md
+          items:
+            - name: Gerenciar Servidores Front-End
+              href: ../manage/topology/manage-front-end-servers.md
+            - name: Corrigir ou atualizar um servidor Back-End ou Standard Edition
+              href: ../manage/topology/patch-or-update-a-back-end-or-standard-edition-server.md
+            - name: Gerenciar bancos de dados
+              href: ../manage/topology/manage-databases.md
+            - name: Mover dados do repositório de arquivos
+              href: ../manage/topology/move-file-store-data.md
+            - name: Desabilitar a TLS 1.0/1.1
+              href: ../manage/topology/disable-tls-1.0-1.1.md
+            - name: Gerenciar serviços
+              href: ../manage/manage-services.md
+            - name: Delegar o controle administrativo
+              href: ../manage/topology/delegating-administrative-control.md
+        - name: Chat persistente
+          href: ../manage/persistent-chat/persistent-chat.md
+          items:
+            - name: Categorias
+              href: ../manage/persistent-chat/categories.md
+            - name: Salas de chat
+              href: ../manage/persistent-chat/chat-rooms.md
+            - name: Configurar suplementos
+              href: ../manage/persistent-chat/configure-add-ins.md
+            - name: Configurar a Conformidade
+              href: ../manage/persistent-chat/configure-compliance.md
+            - name: Backup e restauração de bancos de dados
+              href: ../manage/persistent-chat/back-up-and-restore-databases.md
+            - name: Alta disponibilidade e recuperação de desastre
+              href: ../manage/persistent-chat/high-availability-and-disaster-recovery.md
+            - name: 'Monitorar, iniciar e parar de serviços'
+              href: ../manage/persistent-chat/monitor-start-and-stop-services.md
+        - name: Integridade e monitoramento
+          href: ../manage/health-and-monitoring/health-and-monitoring.md
+          items:
+            - name: Acessar dados de monitoramento
+              href: ../manage/health-and-monitoring/access-monitoring-data.md
+            - name: CDR (registro de detalhes das chamadas)
+              href: ../manage/health-and-monitoring/call-detail-recording-cdr.md
+              items:
+                - name: Exibir informações de configuração
+                  href: ../manage/health-and-monitoring/view-configuration-information.md
+                - name: Habilitar CDR
+                  href: ../manage/health-and-monitoring/enable-cdr.md
+                - name: Especificar a retenção de dados
+                  href: ../manage/health-and-monitoring/specify-retention-of-data.md
+                - name: Criar ou modificar um conjunto de configurações de CDR
+                  href: ../manage/health-and-monitoring/create-or-modify-a-collection-of-settings.md
+                - name: Excluir uma coleção existente de configurações de CDR
+                  href: ../manage/health-and-monitoring/delete-configuration-settings.md
+            - name: Qualidade da experiência
+              href: ../manage/health-and-monitoring/quality-of-experience.md
+              items:
+                - name: Criar configurações de QoE
+                  href: ../manage/health-and-monitoring/create-qoe-configuration-settings.md
+                - name: Habilitar QoE
+                  href: ../manage/health-and-monitoring/enable-qoe.md
+                - name: Modificar configurações de QoE
+                  href: ../manage/health-and-monitoring/modify-qoe-settings.md
+                - name: Excluir configurações de QoE
+                  href: ../manage/health-and-monitoring/delete-qoe-configuration-settings.md
+            - name: Monitorar desempenho de mobilidade
+              href: ../manage/health-and-monitoring/monitor-mobility-performance.md
+              items:
+                - name: Limites de capacidade de memória do servidor
+                  href: ../manage/health-and-monitoring/server-memory-capacity-limits.md
+                - name: Uso do serviço e UCWA
+                  href: ../manage/health-and-monitoring/service-and-ucwa-usage.md
+                - name: Arquivos de log de rastreamento de solicitações de IIS
+                  href: ../manage/health-and-monitoring/iis-request-tracing-log-files.md
+                - name: Configurar o serviço
+                  href: ../manage/health-and-monitoring/configure-service.md
+                - name: Contadores de desempenho
+                  href: ../manage/health-and-monitoring/performance-counters.md
+                - name: Eventos UCWA
+                  href: ../manage/health-and-monitoring/ucwa-events.md
+            - name: Relatórios de monitoramento
+              href: ../manage/health-and-monitoring/monitoring-reports.md
+              items:
+                - name: Monitoramento de painel
+                  href: ../manage/health-and-monitoring/monitoring-dashboard.md
+                - name: Relatórios de uso do sistema
+                  href: ../manage/health-and-monitoring/system-usage-reports.md
+                  items:
+                    - name: Relatório de registro do usuário
+                      href: ../manage/health-and-monitoring/user-registration-report.md
+                    - name: Relatório do resumo de atividades ponto a ponto
+                      href: ../manage/health-and-monitoring/peer-to-peer-activity-summary-report.md
+                      items:
+                        - name: Relatório de mensagem instantânea
+                          href: ../manage/health-and-monitoring/im-report.md
+                        - name: Relatório de Voz e Vídeo
+                          href: ../manage/health-and-monitoring/voice-and-video-report.md
+                    - name: Relatório de resumo da conferência
+                      href: ../manage/health-and-monitoring/conference-summary-report.md
+                      items:
+                        - name: Relatório de atividade
+                          href: ../manage/health-and-monitoring/activity-report.md
+                        - name: Relatório detalhado
+                          href: ../manage/health-and-monitoring/detail-report.md
+                        - name: Relatório de hora de ingresso
+                          href: ../manage/health-and-monitoring/join-time-report.md
+                    - name: Relatório de resumo de conferência de PSTN
+                      href: ../manage/health-and-monitoring/pstn-conference-summary-report.md
+                    - name: Relatório de uso do grupo de resposta
+                      href: ../manage/health-and-monitoring/response-group-usage-report.md
+                      items:
+                        - name: Relatório de lista de chamadas
+                          href: ../manage/health-and-monitoring/call-list-report.md
+                    - name: Relatório de Inventário de Telefones IP
+                      href: ../manage/health-and-monitoring/ip-phone-inventory-report.md
+                    - name: Relatório de Controle de Admissão de Chamadas
+                      href: ../manage/health-and-monitoring/call-admission-control-report.md
+                      items:
+                        - name: Relatório de detalhes de sessão ponto a ponto
+                          href: ../manage/health-and-monitoring/peer-to-peer-session-detail-report.md
+                - name: Relatórios de diagnóstico de chamadas (por usuário)
+                  href: ../manage/health-and-monitoring/call-diagnostic-reports-per-user.md
+                - name: Relatórios de diagnóstico de chamada
+                  href: ../manage/health-and-monitoring/call-diagnostic-reports.md
+                  items:
+                    - name: Relatório de resumo
+                      href: ../manage/health-and-monitoring/summary-report.md
+                      items:
+                        - name: Subrelatório de resumo da conferência
+                          href: ../manage/health-and-monitoring/conference-summary-subreport.md
+                        - name: Sub-relatório de resumo P2P
+                          href: ../manage/health-and-monitoring/p2p-summary-subreport.md
+                    - name: Relatório de diagnóstico de atividade ponto a ponto
+                      href: ../manage/health-and-monitoring/peer-to-peer-activity-diagnostic-report.md
+                    - name: Relatório de diagnósticos da conferência
+                      href: ../manage/health-and-monitoring/conference-diagnostic-report.md
+                    - name: Relatório das principais falhas
+                      href: ../manage/health-and-monitoring/top-failures-report.md
+                    - name: Relatório de distribuição com falha
+                      href: ../manage/health-and-monitoring/failure-distribution-report.md
+                    - name: Relatório de Lista de Falhas
+                      href: ../manage/health-and-monitoring/failure-list-report.md
+                    - name: Relatório de diagnósticos
+                      href: ../manage/health-and-monitoring/diagnostic-report.md
+                - name: Relatórios de diagnóstico de qualidade de mídia
+                  href: ../manage/health-and-monitoring/media-quality-diagnostic-reports.md
+                  items:
+                    - name: Resumo
+                      href: ../manage/health-and-monitoring/summary.md
+                    - name: Comparação
+                      href: ../manage/health-and-monitoring/comparison.md
+                    - name: Desempenho do servidor
+                      href: ../manage/health-and-monitoring/server-performance.md
+                    - name: Relatório de localização
+                      href: ../manage/health-and-monitoring/location-report.md
+                    - name: Relatório de dispositivos
+                      href: ../manage/health-and-monitoring/device-report.md
+                    - name: Relatório de lista de chamadas
+                      href: ../manage/health-and-monitoring/call-list-report-0.md
+                    - name: Relatório detalhado de chamadas
+                      href: ../manage/health-and-monitoring/call-detail-report.md
+                    - name: Relatório de tendência de qualidade de mídia do servidor
+                      href: ../manage/health-and-monitoring/server-media-quality-trend-report.md
+                    - name: Relatório de Distribuição da Métrica de Qualidade de Mídia
+                      href: ../manage/health-and-monitoring/media-quality-metrics-distribution-report.md
+                    - name: Relatório de tendência de localização
+                      href: ../manage/health-and-monitoring/location-trend-report.md
+            - name: Rate my Call
+              href: ../manage/health-and-monitoring/rate-my-call.md
+        - name: Arquivamento
+          href: ../manage/archiving/archiving.md
+          items:
+            - name: Opções
+              href: ../manage/archiving/options.md
+              items:
+                - name: Criar uma configuração
+                  href: ../manage/archiving/create-a-configuration.md
+                - name: Excluir uma configuração
+                  href: ../manage/archiving/delete-a-configuration.md
+                - name: Habilitar ou desabilitar o arquivamento
+                  href: ../manage/archiving/enable-or-disable-archiving.md
+                - name: Configurar opções para lidar com falhas
+                  href: ../manage/archiving/configure-options-to-handle-failures.md
+                - name: Limpeza de dados arquivados
+                  href: ../manage/archiving/purging-of-archived-data.md
+            - name: Políticas
+              href: ../manage/archiving/policies.md
+              items:
+                - name: Criar uma nova política
+                  href: ../manage/archiving/create-a-new-policy.md
+                - name: Alterar uma política existente
+                  href: ../manage/archiving/change-an-existing-policy.md
+                - name: Aplicar uma política aos usuários
+                  href: ../manage/archiving/apply-a-policy-to-users.md
+                - name: Excluir uma política existente
+                  href: ../manage/archiving/delete-an-existing-policy.md
+            - name: Modificar opções do banco de dados de arquivamento
+              href: ../manage/archiving/change-archiving-database-options.md
+            - name: Exportar dados arquivados
+              href: ../manage/archiving/export-archived-data.md
+        - name: Conferências
+          href: ../manage/conferencing/conferencing.md
+          items:
+            - name: Políticas de conferência
+              href: ../manage/conferencing/conferencing-policies.md
+              items:
+                - name: Exibir
+                  href: ../manage/conferencing/view.md
+                - name: Criar políticas
+                  href: ../manage/conferencing/create-policies.md
+                - name: Modificar políticas
+                  href: ../manage/conferencing/modify-policies.md
+                - name: Atribuir Políticas
+                  href: ../manage/conferencing/assign-policies.md
+                - name: Excluir políticas
+                  href: ../manage/conferencing/delete-policies.md
+            - name: Definições de configuração de reunião
+              href: ../manage/conferencing/meeting-configuration-settings.md
+              items:
+                - name: Configurações de exibição
+                  href: ../manage/conferencing/view-settings.md
+                - name: Criar configurações
+                  href: ../manage/conferencing/create-settings.md
+                - name: Modificar configurações
+                  href: ../manage/conferencing/modify-settings.md
+                - name: Excluir configurações
+                  href: ../manage/conferencing/delete-settings.md
+            - name: Configurações do servidor de conferência
+              href: ../manage/conferencing/conferencing-server-configuration-settings.md
+            - name: Conferência discada
+              href: ../manage/conferencing/dial-in-conferencing.md
+              items:
+                - name: Habilitar ou desabilitar
+                  href: ../manage/conferencing/enable-or-disable.md
+                - name: Números de acesso
+                  href: ../manage/conferencing/access-numbers.md
+                - name: Diretivas de PIN
+                  href: ../manage/conferencing/pin-policies.md
+                - name: Comunicados de participação e saída
+                  href: ../manage/conferencing/join-and-leave-announcements.md
+                - name: Mapeamento de teclas para os comandos DTMF
+                  href: ../manage/conferencing/key-mapping-for-dtmf-commands.md
+                - name: Ingresso em reuniões sem PIN
+                  href: ../manage/conferencing/pin-less-meeting-join.md
+                - name: Diretórios
+                  href: ../manage/conferencing/directories.md
+                - name: Email de boas-vindas
+                  href: ../manage/conferencing/welcome-emails.md
+                - name: Testes
+                  href: ../manage/conferencing/tests.md
+            - name: Página de ingresso na reunião
+              href: ../manage/conferencing/meeting-join-page.md
+        - name: Shell de gerenciamento
+          href: ../manage/management-shell.md
+        - name: Federação e acesso externo
+          href: ../manage/federation-and-external-access/managing-federation-and-external-access.md
+          items:
+            - name: Gerenciar políticas de acesso externo
+              href: ../manage/federation-and-external-access/external-access-policies/manage-external-access-policy-for-your-organization.md
+              items:
+                - name: Configurar políticas para controlar acesso de usuário federado
+                  href: ../manage/federation-and-external-access/external-access-policies/configure-policies-to-control-federated-user-access.md
+                - name: Configurar políticas para controle de acesso de usuário remoto
+                  href: ../manage/federation-and-external-access/external-access-policies/configure-policies-to-control-remote-user-access.md
+                - name: Configurar políticas para controlar o acesso de usuário público
+                  href: ../manage/federation-and-external-access/external-access-policies/configure-policies-to-control-public-user-access.md
+                - name: Atribuir uma política de acesso de usuário externo
+                  href: ../manage/federation-and-external-access/external-access-policies/assign-an-external-user-access-policy.md
+                - name: Excluir um site ou uma política de usuário para acesso de usuário externo
+                  href: ../manage/federation-and-external-access/external-access-policies/delete-a-site-or-user-policy-for-external-user-access.md
+                - name: Redefinir a política global para acesso de usuário externo
+                  href: ../manage/federation-and-external-access/external-access-policies/reset-the-global-policy-for-external-user-access.md
+            - name: Gerenciar configuração da borda de acesso para sua organização
+              href: ../manage/federation-and-external-access/access-edge/manage-access-edge-configuration-for-your-organization.md
+              items:
+                - name: Habilitar ou desabilitar federação e conectividade de IM pública
+                  href: ../manage/federation-and-external-access/access-edge/enable-or-disable-federation-and-public-im-connectivity.md
+                - name: Habilitar ou desabilitar descoberta de parceiros de federação
+                  href: ../manage/federation-and-external-access/access-edge/enable-or-disable-discovery-of-federation-partners.md
+                - name: Habilitar ou desabilitar o envio de um aviso de isenção de responsabilidade de Arquivamento a parceiros federados
+                  href: ../manage/federation-and-external-access/access-edge/enable-or-disable-sending-an-archiving-disclaimer-to-federated-partners.md
+                - name: Habilitar ou desabilitar acesso de usuário remoto
+                  href: ../manage/federation-and-external-access/access-edge/enable-or-disable-remote-user-access.md
+                - name: Habilitar ou desabilitar acesso de usuário anônimo
+                  href: ../manage/federation-and-external-access/access-edge/enable-or-disable-anonymous-user-access.md
+                - name: Atribuir políticas de conferência para suporte de usuário anônimo
+                  href: ../manage/federation-and-external-access/access-edge/assign-conferencing-policies-to-support-anonymous-users.md
+            - name: Gerenciar domínios SIP federados para sua organização
+              href: ../manage/federation-and-external-access/sip-domains/manage-sip-federated-domains-for-your-organization.md
+            - name: Gerenciar fornecedores SIP federados para sua organização
+              href: ../manage/federation-and-external-access/sip-providers/manage-sip-federated-providers-for-your-organization.md
+            - name: Configurando o suporte de federação para um cliente do Skype for Business Online cliente
+              href: ../manage/federation-and-external-access/federation-support/configuring-federation-support.md
+        - name: Rede
+          items:
+            - name: Qualidade de Serviço (QoS)
+              href: ../manage/network-management/qos/managing-quality-of-service-qos.md
+              items:
+                - name: Habilitando QoS para dispositivos não baseado no Windows
+                  href: ../manage/network-management/qos/enabling-qos-for-devices-that-are-not-based-on-windows.md
+                - name: 'Configurando intervalos de portas e políticas QoS para seus servidores de medicação, aplicativos e sua conferência'
+                  href: ../manage/network-management/qos/configuring-port-ranges-for-your-conferencing-application-and-mediation-servers.md
+                - name: Configurar uma política QoS e intervalos de portas para os servidores de borda
+                  href: ../manage/network-management/qos/configuring-port-ranges-for-your-edge-servers.md
+                - name: Configurar uma política QoS e intervalos de portas para seus clientes do Skype for Business Server
+                  href: ../manage/network-management/qos/configuring-port-ranges-for-your-skype-clients.md
+            - name: Controle de admissão de chamada
+              items:
+                - name: Habilitar o controle de admissão de chamada no Skype for Business Server
+                  href: ../manage/network-management/call-admission-control/enabling-call-admission-control.md
+                - name: Gerenciar perfis de política de largura de banda no Skype for Business Server
+                  href: ../manage/network-management/call-admission-control/managing-network-bandwidth-policy-profiles.md
+                - name: Gerenciar regiões de rede no Skype for Business Server
+                  href: ../manage/network-management/call-admission-control/managing-network-regions.md
+                - name: Gerenciar roteamento de regiões de rede no Skype for Business Server
+                  href: ../manage/network-management/call-admission-control/managing-network-region-routes.md
+                - name: Gerenciar o controle de admissão de chamadas para sites no Skype for Business Server
+                  href: ../manage/network-management/call-admission-control/managing-call-admission-control-for-sites.md
+                - name: Habilitar e desabilitar bypass de mídia no Skype for Business Server
+                  href: ../manage/network-management/call-admission-control/enabling-and-disabling-media-bypass.md
+                - name: Vincular regiões de rede no Skype for Business Server
+                  href: ../manage/network-management/call-admission-control/linking-network-regions.md
+                - name: Gerenciar sub-redes de rede no Skype for Business Server
+                  href: ../manage/network-management/call-admission-control/managing-network-subnets.md
+            - name: Interfaces de Rede
+              href: ../manage/network-management/viewing-network-interface-information.md
+            - name: Evitar novas conexões
+              href: ../manage/network-management/prevent-new-connections.md
+        - name: Autenticação
+          href: ../manage/authentication/authentication.md
+          items:
+            - name: Usar a ADAL
+              href: ../manage/authentication/use-adal.md
+            - name: Certificados Stage AV e OAuth
+              href: ../manage/authentication/stage-av-and-oauth-certificates.md
+            - name: Atribuir um certificado de servidor para servidor
+              href: ../manage/authentication/assign-a-server-to-server-certificate.md
+            - name: Configurar a autenticação de servidor para servidor em um ambiente híbrido
+              href: ../manage/authentication/configure-a-hybrid-environment.md
+            - name: Configurar um aplicativo de parceiro local
+              href: ../manage/authentication/configure-an-on-premises-partner-app.md
+            - name: Configurações de registrador de domínios
+              href: ../manage/authentication/registrar-configuration-settings.md
+            - name: Configurações de serviços da Web
+              href: ../manage/authentication/web-service-configuration-settings.md
+            - name: Configurações de PIN
+              href: ../manage/authentication/pin-settings.md
+              items:
+                - name: Exibir informações de política de PIN
+                  href: ../manage/authentication/view-pin-policy-information.md
+                - name: Criar uma nova política de PIN
+                  href: ../manage/authentication/create-a-new-pin-policy.md
+                - name: Modificar uma política de PIN existente
+                  href: ../manage/authentication/modify-an-existing-pin-policy.md
+                - name: Excluir uma política de PIN
+                  href: ../manage/authentication/delete-a-pin-policy.md
+                - name: Atribuir uma política de PIN por usuário
+                  href: ../manage/authentication/assign-a-per-user-pin-policy.md
+                - name: Configurar PIN de conferência discada de um usuário
+                  href: ../manage/authentication/set-a-user-s-dial-in-conferencing-pin.md
+                - name: Exibir informações de PIN do usuário
+                  href: ../manage/authentication/view-user-pin-information.md
+                - name: Bloquear ou desbloquear um PIN de usuário
+                  href: ../manage/authentication/lock-or-unlock-a-user-pin.md
+            - name: Autenticação de dois fatores
+              href: ../manage/authentication/two-factor-authentication.md
+              items:
+                - name: Configurar a autenticação de dois fatores
+                  href: ../manage/authentication/configure-two-factor.md
+                - name: Usar a autenticação de dois fatores
+                  href: ../manage/authentication/use-two-factor.md
+        - name: ' 9-1-1 aprimorado e serviço de Local'
+          href: ../manage/enhanced-9-1-1-and-location-service.md
+        - name: Aplicativos confiáveis
+          href: ../manage/trusted-applications.md
+        - name: 'Serviço de Backup, alta disponibilidade e recuperação de desastres'
+          href: ../manage/ha-dr-and-backup-service/managing-da-ha-backup-service.md
+          items:
+            - name: Configurando e monitorando o Serviço de Backup
+              href: ../manage/ha-dr-and-backup-service/configuring-and-monitoring-the-backup-service.md
+            - name: Havendo falha e havendo falha em um pool
+              href: ../manage/ha-dr-and-backup-service/failing-over-and-failing-back-a-pool.md
+        - name: Compartilhamento de tela baseado em vídeo
+          href: ../manage/video-based-screen-sharing.md
+          items:
+            - name: Problemas conhecidos
+              href: ../manage/skype-room-systems-v2/known-issues.md
+            - name: Arquivo de configuração XML
+              href: ../manage/skype-room-systems-v2/xml-config-file.md
+            - name: Usar a ferramenta de recuperação
+              href: ../manage/skype-room-systems-v2/recovery-tool.md
+        - name: Contas de usuário
+          href: ../manage/user-accounts/user-accounts.md
+          items:
+            - name: Personalizar as propriedades
+              href: ../manage/user-accounts/customize-properties.md
+        - name: Teste de tarefas
+          items:
+            - name: Teste recuperação de desastres
+              href: ../manage/test-disaster-recovery.md
+            - name: Teste de permissões de administrador
+              href: ../manage/test-admin-permissions.md
+            - name: Teste de direitos de topologia de administrador
+              href: ../manage/test-admin-topology-rights.md
+    - name: Ferramentas de gerenciamento
+      href: ../management-tools/management-tools.md
+      items:
+        - name: Instalar e abrir ferramentas administrativas
+          href: ../management-tools/install-and-open-administrative-tools.md
+        - name: Painel de Qualidade da Chamada
+          href: ../management-tools/call-quality-dashboard/call-quality-dashboard.md
+          items:
+            - name: Plano
+              href: ../management-tools/call-quality-dashboard/plan.md
+            - name: Implantar
+              href: ../management-tools/call-quality-dashboard/deploy-0.md
+            - name: Usar
+              href: ../management-tools/call-quality-dashboard/use.md
+            - name: Desenvolver
+              href: ../management-tools/call-quality-dashboard/develop.md
+              items:
+                - name: API de dados
+                  href: ../management-tools/call-quality-dashboard/data-api.md
+                  items:
+                    - name: Obter o cubo
+                      href: ../management-tools/call-quality-dashboard/get-cube.md
+                    - name: Obtenha os Membros da Dimensão
+                      href: ../management-tools/call-quality-dashboard/get-dimension-members.md
+                    - name: Executar Consulta
+                      href: ../management-tools/call-quality-dashboard/run-query.md
+                    - name: Limpar Cache
+                      href: ../management-tools/call-quality-dashboard/clear-cache.md
+                    - name: Obter o Log de integração
+                      href: ../management-tools/call-quality-dashboard/get-integration-log.md
+                    - name: Obter Últimos Dados de Integração
+                      href: ../management-tools/call-quality-dashboard/get-last-integration-data.md
+                - name: Repositório API
+                  href: ../management-tools/call-quality-dashboard/repository-api.md
+                  items:
+                    - name: Serviço do usuário
+                      href: ../management-tools/call-quality-dashboard/user-service.md
+                      items:
+                        - name: Obter usuários
+                          href: ../management-tools/call-quality-dashboard/get-users.md
+                        - name: Obter usuário
+                          href: ../management-tools/call-quality-dashboard/get-user.md
+                    - name: Serviço de itens
+                      href: ../management-tools/call-quality-dashboard/item-service.md
+                      items:
+                        - name: Obter itens
+                          href: ../management-tools/call-quality-dashboard/get-items.md
+                        - name: Obter item
+                          href: ../management-tools/call-quality-dashboard/get-item.md
+                        - name: Obter subitens
+                          href: ../management-tools/call-quality-dashboard/get-sub-items.md
+                        - name: Obter o Item Predecessor
+                          href: ../management-tools/call-quality-dashboard/get-item-ancestors.md
+                        - name: Atualizar item
+                          href: ../management-tools/call-quality-dashboard/update-item.md
+                    - name: Serviço de configurações de usuário
+                      href: ../management-tools/call-quality-dashboard/user-settings-service.md
+                      items:
+                        - name: Obter configurações do usuário
+                          href: ../management-tools/call-quality-dashboard/get-user-settings.md
+                        - name: Obter configuração de usuário
+                          href: ../management-tools/call-quality-dashboard/get-user-setting.md
+                - name: Amostras de Desenvolvimento para o CQD
+                  href: ../management-tools/call-quality-dashboard/cqd-development-samples.md
+        - name: Serviço de Log Centralizado
+          href: ../management-tools/centralized-logging-service/centralized-logging-service.md
+          items:
+            - name: Gerenciar configurações
+              href: ../management-tools/centralized-logging-service/manage-configuration-settings.md
+              items:
+                - name: Configurar provedores
+                  href: ../management-tools/centralized-logging-service/configure-providers.md
+                - name: Configurar cenários
+                  href: ../management-tools/centralized-logging-service/configure-scenarios.md
+            - name: Iniciar ou interromper captura de log
+              href: ../management-tools/centralized-logging-service/start-or-stop-log-capture.md
+            - name: Pesquisa captura de logs
+              href: ../management-tools/centralized-logging-service/search-capture-logs.md
+            - name: Agente CLS
+              href: ../management-tools/centralized-logging-service/cls-logger.md
+        - name: Usar um pacote de gerenciamento de SCOM
+          href: ../management-tools/use-scom-management-pack/use-scom-management-pack.md
+          items:
+            - name: Configurar o Primário
+              href: ../management-tools/use-scom-management-pack/configure-the-primary.md
+            - name: Configurar os computadores para monitorar
+              href: ../management-tools/use-scom-management-pack/configure-computers-to-monitor.md
+            - name: Nós do inspetor
+              href: ../management-tools/use-scom-management-pack/watcher-nodes.md
+              items:
+                - name: Configurações e usuários de teste
+                  href: ../management-tools/use-scom-management-pack/test-users-and-settings.md
+        - name: Gerenciador de Estatísticas
+          href: ../management-tools/statistics-manager/statistics-manager.md
+          items:
+            - name: Plano
+              href: ../management-tools/statistics-manager/plan.md
+            - name: Implantar
+              href: ../management-tools/statistics-manager/deploy.md
+            - name: Atualizar
+              href: ../management-tools/statistics-manager/upgrade.md
+            - name: Solução de problemas
+              href: ../management-tools/statistics-manager/troubleshoot.md
+        - name: Ferramentas do Resource Kit
+          href: ../management-tools/resource-kit-tools.md
+        - name: Calculadora de planejamento de capacidade
+          href: ../management-tools/capacity-planning-calculator.md
+        - name: Ferramenta de Planejamento
+          href: ../management-tools/planning-tool/planning-tool.md
+          items:
+            - name: Instalar
+              href: ../management-tools/planning-tool/install.md
+            - name: Navegar
+              href: ../management-tools/planning-tool/navigate.md
+            - name: Criar o design inicial
+              href: ../management-tools/planning-tool/create-the-initial-design.md
+            - name: Editar a topologia
+              href: ../management-tools/planning-tool/edit-the-topology.md
+            - name: Revisar os relatórios do administrador
+              href: ../management-tools/planning-tool/review-the-administrator-reports.md
+            - name: Referência de UI
+              href: ../management-tools/planning-tool/ui-reference.md
+              items:
+                - name: Conferências de áudio/vídeo
+                  href: ../management-tools/planning-tool/audio-video-conferencing.md
+                - name: Conferência discada
+                  href: ../management-tools/planning-tool/dial-in-conferencing.md
+                - name: Webconferência
+                  href: ../management-tools/planning-tool/web-conferencing.md
+                - name: Enterprise Voice
+                  href: ../management-tools/planning-tool/enterprise-voice.md
+                - name: Configurações de Unificação de Mensagens do Exchange
+                  href: ../management-tools/planning-tool/exchange-unified-messaging-settings.md
+                - name: Controle de admissão de chamada
+                  href: ../management-tools/planning-tool/call-admission-control.md
+                - name: Monitoramento
+                  href: ../management-tools/planning-tool/monitoring.md
+                - name: Chat persistente
+                  href: ../management-tools/planning-tool/persistent-chat.md
+                - name: Mobilidade
+                  href: ../management-tools/planning-tool/mobility.md
+                - name: Federação
+                  href: ../management-tools/planning-tool/federation.md
+                - name: Alta Disponibilidade
+                  href: ../management-tools/planning-tool/high-availability.md
+                - name: Versão IP
+                  href: ../management-tools/planning-tool/ip-version.md
+                - name: Recuperação de desastre
+                  href: ../management-tools/planning-tool/disaster-recovery.md
+                - name: Visão geral do recurso
+                  href: ../management-tools/planning-tool/feature-overview.md
+                - name: Unificação de Mensagens do Exchange
+                  href: ../management-tools/planning-tool/exchange-unified-messaging.md
+                - name: Balanceador de carga
+                  href: ../management-tools/planning-tool/load-balancer.md
+                - name: Diretor
+                  href: ../management-tools/planning-tool/director.md
+                - name: Configurações do Cliente
+                  href: ../management-tools/planning-tool/client-settings.md
+                - name: Colocação de Mediação
+                  href: ../management-tools/planning-tool/mediation-collocation.md
+                - name: Arquivamento
+                  href: ../management-tools/planning-tool/archiving.md
+                - name: Sites de Filiais
+                  href: ../management-tools/planning-tool/branch-sites.md
+                - name: Rede de borda
+                  href: ../management-tools/planning-tool/edge-network.md
+                - name: Bypass de mídia
+                  href: ../management-tools/planning-tool/media-bypass.md
+                - name: Infraestrutura de voz
+                  href: ../management-tools/planning-tool/voice-infrastructure.md
+                - name: Tráfego de voz
+                  href: ../management-tools/planning-tool/voice-traffic.md
+        - name: Ferramenta de Desempenho e Stress
+          href: ../management-tools/stress-and-performance-tool/stress-and-performance-tool.md
+          items:
+            - name: Pré-requisitos e configuração
+              href: ../management-tools/stress-and-performance-tool/prerequisites-and-setup.md
+            - name: Cenários
+              href: ../management-tools/stress-and-performance-tool/scenarios.md
+              items:
+                - name: Provisionamento de topologia para executar carregamento
+                  href: ../management-tools/stress-and-performance-tool/provisioning-the-topology-to-run-load.md
+                - name: Configuração de políticas
+                  href: ../management-tools/stress-and-performance-tool/configuring-policies.md
+            - name: Usar a ferramenta
+              href: ../management-tools/stress-and-performance-tool/using-the-tool.md
+            - name: Perguntas frequentes
+              href: ../management-tools/stress-and-performance-tool/faq.md
+    - name: Referência de esquema
+      href: ../schema-reference/schema-reference.md
+      items:
+        - name: Esquema de banco de dados de gravação de detalhes de chamada (CDR)
+          href: ../schema-reference/call-detail-recording-cdr-database-schema/call-detail-recording-cdr-database-schema.md
+          items:
+            - name: Lista de tabelas CDR
+              href: ../schema-reference/call-detail-recording-cdr-database-schema/list-of-cdr-tables.md
+            - name: Detalhes da tabela CDR
+              href: ../schema-reference/call-detail-recording-cdr-database-schema/cdr-table-details.md
+              items:
+                - name: Aplicativo
+                  href: ../schema-reference/call-detail-recording-cdr-database-schema/application.md
+                - name: CallPriorities
+                  href: ../schema-reference/call-detail-recording-cdr-database-schema/callpriorities.md
+                - name: CallType
+                  href: ../schema-reference/call-detail-recording-cdr-database-schema/calltype.md
+                - name: ClientVersions
+                  href: ../schema-reference/call-detail-recording-cdr-database-schema/clientversions.md
+                - name: ConferenceJoinTimeThresholds
+                  href: ../schema-reference/call-detail-recording-cdr-database-schema/conferencejointimethresholds.md
+                - name: ConferenceMessageCount
+                  href: ../schema-reference/call-detail-recording-cdr-database-schema/conferencemessagecount.md
+                - name: Conferências
+                  href: ../schema-reference/call-detail-recording-cdr-database-schema/conferences.md
+                - name: ConferenceSessionDetails
+                  href: ../schema-reference/call-detail-recording-cdr-database-schema/conferencesessiondetails-0.md
+                - name: ConferenceUris
+                  href: ../schema-reference/call-detail-recording-cdr-database-schema/conferenceuris.md
+                - name: ContentTypes
+                  href: ../schema-reference/call-detail-recording-cdr-database-schema/contenttypes.md
+                - name: DeRegisterType
+                  href: ../schema-reference/call-detail-recording-cdr-database-schema/deregistertype.md
+                - name: Dispositivos
+                  href: ../schema-reference/call-detail-recording-cdr-database-schema/devices.md
+                - name: Caixas de Diálogo
+                  href: ../schema-reference/call-detail-recording-cdr-database-schema/dialogs.md
+                - name: EdgeServers
+                  href: ../schema-reference/call-detail-recording-cdr-database-schema/edgeservers.md
+                - name: ErrorCategory
+                  href: ../schema-reference/call-detail-recording-cdr-database-schema/errorcategory.md
+                - name: ErrorDef
+                  href: ../schema-reference/call-detail-recording-cdr-database-schema/errordef.md
+                - name: ErrorReport
+                  href: ../schema-reference/call-detail-recording-cdr-database-schema/errorreport.md
+                - name: FileTransfers
+                  href: ../schema-reference/call-detail-recording-cdr-database-schema/filetransfers-0.md
+                - name: FocusJoinsAndLeaves
+                  href: ../schema-reference/call-detail-recording-cdr-database-schema/focusjoinsandleaves.md
+                - name: Front
+                  href: ../schema-reference/call-detail-recording-cdr-database-schema/frontend.md
+                - name: Gateways
+                  href: ../schema-reference/call-detail-recording-cdr-database-schema/gateways.md
+                - name: HardwareVersions
+                  href: ../schema-reference/call-detail-recording-cdr-database-schema/hardwareversions.md
+                - name: IMReportSummary
+                  href: ../schema-reference/call-detail-recording-cdr-database-schema/imreportsummary.md
+                - name: Locais
+                  href: ../schema-reference/call-detail-recording-cdr-database-schema/locations.md
+                - name: Manufacturers
+                  href: ../schema-reference/call-detail-recording-cdr-database-schema/manufacturers.md
+                - name: McuJoinsAndLeaves
+                  href: ../schema-reference/call-detail-recording-cdr-database-schema/mcujoinsandleaves.md
+                - name: Mcus
+                  href: ../schema-reference/call-detail-recording-cdr-database-schema/mcus.md
+                - name: Mídia
+                  href: ../schema-reference/call-detail-recording-cdr-database-schema/media.md
+                - name: MediaList
+                  href: ../schema-reference/call-detail-recording-cdr-database-schema/medialist.md
+                - name: MediationServers
+                  href: ../schema-reference/call-detail-recording-cdr-database-schema/mediationservers.md
+                - name: MSMQProcessing
+                  href: ../schema-reference/call-detail-recording-cdr-database-schema/msmqprocessing.md
+                - name: Phone
+                  href: ../schema-reference/call-detail-recording-cdr-database-schema/phones.md
+                - name: Pools
+                  href: ../schema-reference/call-detail-recording-cdr-database-schema/pools.md
+                - name: ProgressReport
+                  href: ../schema-reference/call-detail-recording-cdr-database-schema/progressreport.md
+                - name: PurgeSettings
+                  href: ../schema-reference/call-detail-recording-cdr-database-schema/purgesettings.md
+                - name: Registro
+                  href: ../schema-reference/call-detail-recording-cdr-database-schema/registration.md
+                - name: Funções
+                  href: ../schema-reference/call-detail-recording-cdr-database-schema/roles.md
+                - name: Servidores
+                  href: ../schema-reference/call-detail-recording-cdr-database-schema/servers.md
+                - name: SessionDetails
+                  href: ../schema-reference/call-detail-recording-cdr-database-schema/sessiondetails.md
+                - name: SIPResponseMetaData
+                  href: ../schema-reference/call-detail-recording-cdr-database-schema/sipresponsemetadata.md
+                - name: Syndicators
+                  href: ../schema-reference/call-detail-recording-cdr-database-schema/syndicators.md
+                - name: SyndicatorsTenantMap
+                  href: ../schema-reference/call-detail-recording-cdr-database-schema/syndicatorstenantmap.md
+                - name: Tarefas
+                  href: ../schema-reference/call-detail-recording-cdr-database-schema/task.md
+                - name: Locatários
+                  href: ../schema-reference/call-detail-recording-cdr-database-schema/tenants.md
+                - name: UriTypes
+                  href: ../schema-reference/call-detail-recording-cdr-database-schema/uritypes.md
+                - name: Usuários
+                  href: ../schema-reference/call-detail-recording-cdr-database-schema/users.md
+                - name: UserAgentDef
+                  href: ../schema-reference/call-detail-recording-cdr-database-schema/useragentdef.md
+                - name: VoipDetails
+                  href: ../schema-reference/call-detail-recording-cdr-database-schema/voipdetails-0.md
+                - name: UserStatistics
+                  href: ../schema-reference/call-detail-recording-cdr-database-schema/userstatistics.md
+            - name: Lista de Exibições de CDR
+              href: ../schema-reference/call-detail-recording-cdr-database-schema/list-of-cdr-views.md
+              items:
+                - name: ClientVersions
+                  href: ../schema-reference/call-detail-recording-cdr-database-schema/clientversions-0.md
+                - name: ConferenceMessageCount
+                  href: ../schema-reference/call-detail-recording-cdr-database-schema/conferencemessagecount-0.md
+                - name: Conferências
+                  href: ../schema-reference/call-detail-recording-cdr-database-schema/conferences-0.md
+                - name: ConferenceSessionDetails
+                  href: ../schema-reference/call-detail-recording-cdr-database-schema/conferencesessiondetails.md
+                - name: ConferenceUris
+                  href: ../schema-reference/call-detail-recording-cdr-database-schema/conferenceuris-0.md
+                - name: ErrorReport
+                  href: ../schema-reference/call-detail-recording-cdr-database-schema/errorreport-0.md
+                - name: FileTransfers
+                  href: ../schema-reference/call-detail-recording-cdr-database-schema/filetransfers.md
+                - name: FocusJoinsAndLeaves
+                  href: ../schema-reference/call-detail-recording-cdr-database-schema/focusjoinsandleaves-0.md
+                - name: Mcus
+                  href: ../schema-reference/call-detail-recording-cdr-database-schema/mcus-0.md
+                - name: McuJoinsAndLeaves
+                  href: ../schema-reference/call-detail-recording-cdr-database-schema/mcujoinsandleaves-0.md
+                - name: Mídia
+                  href: ../schema-reference/call-detail-recording-cdr-database-schema/media-0.md
+                - name: ProgressReport
+                  href: ../schema-reference/call-detail-recording-cdr-database-schema/progressreport-0.md
+                - name: Registro
+                  href: ../schema-reference/call-detail-recording-cdr-database-schema/registration-0.md
+                - name: SessionDetails
+                  href: ../schema-reference/call-detail-recording-cdr-database-schema/sessiondetails-0.md
+                - name: Usuário
+                  href: ../schema-reference/call-detail-recording-cdr-database-schema/user.md
+                - name: VoipDetails
+                  href: ../schema-reference/call-detail-recording-cdr-database-schema/voipdetails.md
+        - name: Esquema de banco de dados de Qualidade da Experiência (QoE)
+          href: ../schema-reference/quality-of-experience-qoe-database-schema/quality-of-experience-qoe-database-schema.md
+          items:
+            - name: Lista de tabelas QoE
+              href: ../schema-reference/quality-of-experience-qoe-database-schema/list-of-qoe-tables.md
+            - name: Detalhes da tabela de QoE
+              href: ../schema-reference/quality-of-experience-qoe-database-schema/qoe-table-details.md
+              items:
+                - name: AppliedBandwidthSource
+                  href: ../schema-reference/quality-of-experience-qoe-database-schema/appliedbandwidthsource.md
+                - name: AppSharingMetricsThreshold
+                  href: ../schema-reference/quality-of-experience-qoe-database-schema/appsharingmetricsthreshold.md
+                - name: AppSharingStream
+                  href: ../schema-reference/quality-of-experience-qoe-database-schema/appsharingstream.md
+                - name: AudioClientEvent
+                  href: ../schema-reference/quality-of-experience-qoe-database-schema/audioclientevent.md
+                - name: AudioSignal
+                  href: ../schema-reference/quality-of-experience-qoe-database-schema/audiosignal.md
+                - name: AudioStream
+                  href: ../schema-reference/quality-of-experience-qoe-database-schema/audiostream.md
+                - name: CodecDescription
+                  href: ../schema-reference/quality-of-experience-qoe-database-schema/codecdescription.md
+                - name: Conferência
+                  href: ../schema-reference/quality-of-experience-qoe-database-schema/conference.md
+                - name: Dispositivo
+                  href: ../schema-reference/quality-of-experience-qoe-database-schema/device.md
+                - name: DeviceDriver
+                  href: ../schema-reference/quality-of-experience-qoe-database-schema/devicedriver.md
+                - name: Caixa de Diálogo
+                  href: ../schema-reference/quality-of-experience-qoe-database-schema/dialog.md
+                - name: Endpoint
+                  href: ../schema-reference/quality-of-experience-qoe-database-schema/endpoint.md
+                - name: EndpointSubnet
+                  href: ../schema-reference/quality-of-experience-qoe-database-schema/endpointsubnet.md
+                - name: IPAddress
+                  href: ../schema-reference/quality-of-experience-qoe-database-schema/ipaddress.md
+                - name: MacAddress
+                  href: ../schema-reference/quality-of-experience-qoe-database-schema/macaddress.md
+                - name: MediaLine
+                  href: ../schema-reference/quality-of-experience-qoe-database-schema/medialine-0.md
+                - name: MonitoredRegionLink
+                  href: ../schema-reference/quality-of-experience-qoe-database-schema/monitoredregionlink.md
+                - name: MonitoredUserSiteLink
+                  href: ../schema-reference/quality-of-experience-qoe-database-schema/monitoredusersitelink.md
+                - name: NetworkConnectionDetail
+                  href: ../schema-reference/quality-of-experience-qoe-database-schema/networkconnectiondetail.md
+                - name: PayloadDescription
+                  href: ../schema-reference/quality-of-experience-qoe-database-schema/payloaddescription.md
+                - name: Pool
+                  href: ../schema-reference/quality-of-experience-qoe-database-schema/pool.md
+                - name: PurgeSettings (QoE)
+                  href: ../schema-reference/quality-of-experience-qoe-database-schema/purgesettings-qoe.md
+                - name: Região
+                  href: ../schema-reference/quality-of-experience-qoe-database-schema/region.md
+                - name: Servidor
+                  href: ../schema-reference/quality-of-experience-qoe-database-schema/server.md
+                - name: Sessão
+                  href: ../schema-reference/quality-of-experience-qoe-database-schema/session.md
+                - name: SessionCorrelation
+                  href: ../schema-reference/quality-of-experience-qoe-database-schema/sessioncorrelation.md
+                - name: Sub-rede
+                  href: ../schema-reference/quality-of-experience-qoe-database-schema/subnet.md
+                - name: TraceRoute
+                  href: ../schema-reference/quality-of-experience-qoe-database-schema/traceroute.md
+                - name: Usuário
+                  href: ../schema-reference/quality-of-experience-qoe-database-schema/user-0.md
+                - name: UserAgent
+                  href: ../schema-reference/quality-of-experience-qoe-database-schema/useragent.md
+                - name: UserAgentDef (QoE)
+                  href: ../schema-reference/quality-of-experience-qoe-database-schema/useragentdef-qoe.md
+                - name: UserSite
+                  href: ../schema-reference/quality-of-experience-qoe-database-schema/usersite.md
+                - name: VideoClientEvent
+                  href: ../schema-reference/quality-of-experience-qoe-database-schema/videoclientevent.md
+                - name: VideoMetricsThreshold
+                  href: ../schema-reference/quality-of-experience-qoe-database-schema/videometricsthreshold.md
+                - name: VideoStream
+                  href: ../schema-reference/quality-of-experience-qoe-database-schema/videostream.md
+            - name: Detalhes de exibição de QoE
+              href: ../schema-reference/quality-of-experience-qoe-database-schema/qoe-view-details.md
+              items:
+                - name: AudioStreamDetail
+                  href: ../schema-reference/quality-of-experience-qoe-database-schema/audiostreamdetail.md
+                - name: MediaLine
+                  href: ../schema-reference/quality-of-experience-qoe-database-schema/medialine.md
+                - name: NetworkConfigurationSettings
+                  href: ../schema-reference/quality-of-experience-qoe-database-schema/networkconfigurationsettings.md
+                - name: Sessão
+                  href: ../schema-reference/quality-of-experience-qoe-database-schema/session-0.md
+                - name: UserAgent
+                  href: ../schema-reference/quality-of-experience-qoe-database-schema/useragent-0.md
+                - name: VideoStreamDetail
+                  href: ../schema-reference/quality-of-experience-qoe-database-schema/videostreamdetail.md
+            - name: Exemplo de consultas ao banco de dados de QoE
+              href: ../schema-reference/quality-of-experience-qoe-database-schema/sample-qoe-database-queries.md
+        - name: Esquema do banco de dados de Chat Persistente
+          href: ../schema-reference/persistent-chat-database-schema/persistent-chat-database-schema.md
+          items:
+            - name: Tabelas de lista de Servidores de Chat Persistente
+              href: ../schema-reference/persistent-chat-database-schema/list-of-persistent-chat-server-tables.md
+            - name: Lista de tabelas de conformidade do Servidor de Chat Persistente
+              href: ../schema-reference/persistent-chat-database-schema/list-of-persistent-chat-server-compliance-tables.md
+            - name: Detalhes da tabela do Servidor de Chat Persistente
+              href: ../schema-reference/persistent-chat-database-schema/persistent-chat-server-table-details.md
+              items:
+                - name: tblADCookie
+                  href: ../schema-reference/persistent-chat-database-schema/tbladcookie.md
+                - name: tblPrincipalMemberDifference
+                  href: ../schema-reference/persistent-chat-database-schema/tblprincipalmemberdifference.md
+                - name: tblADUpdates
+                  href: ../schema-reference/persistent-chat-database-schema/tbladupdates.md
+                - name: tblPrincipalMembers
+                  href: ../schema-reference/persistent-chat-database-schema/tblprincipalmembers.md
+                - name: tblPrincipalMeta
+                  href: ../schema-reference/persistent-chat-database-schema/tblprincipalmeta.md
+                - name: tblSkippedAffiliations
+                  href: ../schema-reference/persistent-chat-database-schema/tblskippedaffiliations.md
+                - name: tblPrincipalType
+                  href: ../schema-reference/persistent-chat-database-schema/tblprincipaltype.md
+                - name: tblPrincipal
+                  href: ../schema-reference/persistent-chat-database-schema/tblprincipal.md
+                - name: tblPrincipalAffiliations
+                  href: ../schema-reference/persistent-chat-database-schema/tblprincipalaffiliations.md
+                - name: tblNode
+                  href: ../schema-reference/persistent-chat-database-schema/tblnode.md
+                - name: tblRoleType
+                  href: ../schema-reference/persistent-chat-database-schema/tblroletype.md
+                - name: tblScopePrincipal
+                  href: ../schema-reference/persistent-chat-database-schema/tblscopeprincipal.md
+                - name: tblPrincipalRole
+                  href: ../schema-reference/persistent-chat-database-schema/tblprincipalrole.md
+                - name: tblSiopWhiteList
+                  href: ../schema-reference/persistent-chat-database-schema/tblsiopwhitelist.md
+                - name: tblEnumAttribute
+                  href: ../schema-reference/persistent-chat-database-schema/tblenumattribute.md
+                - name: tblEnumValue
+                  href: ../schema-reference/persistent-chat-database-schema/tblenumvalue.md
+                - name: tblPrincipalInvites
+                  href: ../schema-reference/persistent-chat-database-schema/tblprincipalinvites.md
+                - name: tblChat
+                  href: ../schema-reference/persistent-chat-database-schema/tblchat.md
+                - name: tblLastInviteId
+                  href: ../schema-reference/persistent-chat-database-schema/tbllastinviteid.md
+                - name: tblLastChatId
+                  href: ../schema-reference/persistent-chat-database-schema/tbllastchatid.md
+                - name: tblPreference
+                  href: ../schema-reference/persistent-chat-database-schema/tblpreference.md
+                - name: tblFileToken
+                  href: ../schema-reference/persistent-chat-database-schema/tblfiletoken.md
+                - name: tblServerIdentity
+                  href: ../schema-reference/persistent-chat-database-schema/tblserveridentity.md
+                - name: tblAdminLock
+                  href: ../schema-reference/persistent-chat-database-schema/tbladminlock.md
+                - name: tblSystemRevision
+                  href: ../schema-reference/persistent-chat-database-schema/tblsystemrevision.md
+                - name: tblActivePeers
+                  href: ../schema-reference/persistent-chat-database-schema/tblactivepeers.md
+                - name: tblConfig
+                  href: ../schema-reference/persistent-chat-database-schema/tblconfig.md
+                - name: tblComplianceData
+                  href: ../schema-reference/persistent-chat-database-schema/tblcompliancedata.md
+                - name: tblComplianceFanout
+                  href: ../schema-reference/persistent-chat-database-schema/tblcompliancefanout.md
+                - name: tblComplianceParticipant
+                  href: ../schema-reference/persistent-chat-database-schema/tblcomplianceparticipant.md
+                - name: tblComplianceState
+                  href: ../schema-reference/persistent-chat-database-schema/tblcompliancestate.md
+            - name: Amostragem de consultas de banco de dados de Chat Persistente
+              href: ../schema-reference/persistent-chat-database-schema/sample-persistent-chat-database-queries.md
+        - name: 'Extensões, classes e atributos do esquema do Active Directory'
+          href: ../schema-reference/active-directory-schema-extensions-classes-and-attributes/active-directory-schema-extensions-classes-and-attributes.md
+          items:
+            - name: Alterações de esquema
+              href: ../schema-reference/active-directory-schema-extensions-classes-and-attributes/schema-changes.md
+            - name: Classes e descrições de esquema
+              href: ../schema-reference/active-directory-schema-extensions-classes-and-attributes/schema-classes-and-descriptions.md
+            - name: Atributos de esquema por classe
+              href: ../schema-reference/active-directory-schema-extensions-classes-and-attributes/schema-attributes-by-class.md
+            - name: Atributos e descrições de esquema
+              href: ../schema-reference/active-directory-schema-extensions-classes-and-attributes/schema-attributes-and-descriptions.md
+            - name: Alterações feitas pela preparação da floresta
+              href: ../schema-reference/active-directory-schema-extensions-classes-and-attributes/changes-made-by-forest-preparation.md
+            - name: Alterações feitas pela preparação de domínio
+              href: ../schema-reference/active-directory-schema-extensions-classes-and-attributes/changes-made-by-domain-preparation.md
+            - name: Alterações feitas por Grant-CsSetupPermission
+              href: ../schema-reference/active-directory-schema-extensions-classes-and-attributes/changes-made-by-grant-cssetuppermission.md
+            - name: Alterações feitas por Grant-CsOUPermission
+              href: ../schema-reference/active-directory-schema-extensions-classes-and-attributes/changes-made-by-grant-csoupermission.md
+    - name: Tópicos de ajuda
+      items:
+        - name: Help-DepWiz
+          items:
+            - name: Preparar Servidor Standard Edition Único (Introdução)
+              href: ../help-topics/help-depwiz/prepare-single-standard-edition-server-intro.md
+            - name: Preparar Servidor Standard Edition Único (Invocar)
+              href: ../help-topics/help-depwiz/prepare-single-standard-edition-server-invoke.md
+            - name: Exibir Certificado
+              href: ../help-topics/help-depwiz/view-certificate.md
+            - name: Configurar ou Remover Componentes do Skype for Business Server (Introdução)
+              href: ../help-topics/help-depwiz/setup-or-remove-skype-for-business-server-components-intro.md
+            - name: Configurar ou Remover Componentes do Skype for Business Server (Invocar)
+              href: ../help-topics/help-depwiz/setup-or-remove-skype-for-business-server-components-invoke.md
+            - name: Atribuição de Certificado (Introdução)
+              href: ../help-topics/help-depwiz/certificate-assignment-intro.md
+            - name: Atribuição de Certificado (da solicitação)
+              href: ../help-topics/help-depwiz/certificate-assignment-from-request.md
+            - name: Atribuição de Certificado (Invocar)
+              href: ../help-topics/help-depwiz/certificate-assignment-invoke.md
+            - name: Atribuição de Certificado (Resumo)
+              href: ../help-topics/help-depwiz/certificate-assignment-summary.md
+            - name: Importar Certificado (Introdução)
+              href: ../help-topics/help-depwiz/import-certificate-intro.md
+            - name: Importar Certificado (Invocar)
+              href: ../help-topics/help-depwiz/import-certificate-invoke.md
+            - name: Importar Certificado (Resumo)
+              href: ../help-topics/help-depwiz/import-certificate-summary.md
+            - name: Lista de Certificados
+              href: ../help-topics/help-depwiz/certificate-list.md
+            - name: Certificado Pendente (Introdução)
+              href: ../help-topics/help-depwiz/pending-certificate-intro.md
+            - name: Certificado Pendente (Invocar)
+              href: ../help-topics/help-depwiz/pending-certificate-invoke.md
+            - name: Certificado Pendente (Retornado)
+              href: ../help-topics/help-depwiz/pending-certificate-returned.md
+            - name: Remover Certificado (Introdução)
+              href: ../help-topics/help-depwiz/remove-certificate-intro.md
+            - name: Remover Certificado (Invocar)
+              href: ../help-topics/help-depwiz/remove-certificate-invoke.md
+            - name: Solicitação de Certificado (Básico)
+              href: ../help-topics/help-depwiz/certificate-request-basic.md
+            - name: Solicitação de Certificado (Autoridade de Certificação)
+              href: ../help-topics/help-depwiz/certificate-request-certificate-authority.md
+            - name: Solicitação de Certificado (Conta da Autoridade de Certificação)
+              href: ../help-topics/help-depwiz/certificate-request-certificate-authority-account.md
+            - name: Solicitação de Certificado (Solicitação de Assinatura de Certificado)
+              href: ../help-topics/help-depwiz/certificate-request-certificate-signing-request.md
+            - name: Solicitação de Certificado (Solicitação de Assinatura de Certificado Gerada)
+              href: ../help-topics/help-depwiz/certificate-request-certificate-signing-request-generated.md
+            - name: Solicitação de Certificado (Geografia)
+              href: ../help-topics/help-depwiz/certificate-request-geography.md
+            - name: Solicitação de Certificado (Introdução)
+              href: ../help-topics/help-depwiz/certificate-request-intro.md
+            - name: Solicitação de Certificado (Invocar)
+              href: ../help-topics/help-depwiz/certificate-request-invoke.md
+            - name: Solicitação de Certificado (Online Offline)
+              href: ../help-topics/help-depwiz/certificate-request-online-offline.md
+            - name: Solicitação de Certificado (Informações da Organização)
+              href: ../help-topics/help-depwiz/certificate-request-organization-information.md
+            - name: Solicitação de Certificado (Retornado)
+              href: ../help-topics/help-depwiz/certificate-request-returned.md
+            - name: Solicitação de Certificado (Nomes de Entidade Alternativos)
+              href: ../help-topics/help-depwiz/certificate-request-subject-alternate-names.md
+            - name: Solicitação de Certificado (Nomes de Entidade Alternativos Adicionais)
+              href: ../help-topics/help-depwiz/certificate-request-additional-subject-alternate-names.md
+            - name: Solicitação de Certificado (Domínios SIP)
+              href: ../help-topics/help-depwiz/certificate-request-sip-domains.md
+            - name: Solicitação de Certificado (Resumo)
+              href: ../help-topics/help-depwiz/certificate-request-summary.md
+            - name: Solicitação de Certificado (Especificar Modelo)
+              href: ../help-topics/help-depwiz/certificate-request-specify-termplate.md
+            - name: Assistente de Certificado
+              href: ../help-topics/help-depwiz/certificate-wizard.md
+            - name: Preparar Domínio Atual (Intro)
+              href: ../help-topics/help-depwiz/prepare-current-domain-intro.md
+            - name: Preparar Domínio Atual (Invocar)
+              href: ../help-topics/help-depwiz/prepare-current-domain-invoke.md
+            - name: Preparar a Floresta Atual (Local do Grupo Universal)
+              href: ../help-topics/help-depwiz/prepare-current-forest-universal-group-location.md
+            - name: Preparar Floresta Atual (Introdução)
+              href: ../help-topics/help-depwiz/prepare-current-forrest-intro.md
+            - name: Preparar a Floresta Atual (Invocar)
+              href: ../help-topics/help-depwiz/prepare-current-forrest-invoke.md
+            - name: Preparar o Active Directory
+              href: ../help-topics/help-depwiz/prepare-active-directory.md
+            - name: Configurar ou Remover Componentes do Skype for Business Server
+              href: ../help-topics/help-depwiz/setup-or-remove-skype-for-business-server-components.md
+            - name: 'Solicitar, Instalar ou Atribuir Certificados'
+              href: ../help-topics/help-depwiz/request-install-or-assign-certificates.md
+            - name: Criar Administradores de Painel de Controle do Skype for Business Server
+              href: ../help-topics/help-depwiz/create-skype-for-business-server-control-panel-administrators.md
+            - name: Instalar ou Atualizar o Sistema Skype for Business Server
+              href: ../help-topics/help-depwiz/install-or-update-skype-for-business-server-system.md
+            - name: Preparar Domínio Atual
+              href: ../help-topics/help-depwiz/prepare-current-domain.md
+            - name: Preparar Floresta Atual
+              href: ../help-topics/help-depwiz/prepare-current-forest.md
+            - name: Instalar Repositório de Configuração Local
+              href: ../help-topics/help-depwiz/install-local-configuration-store.md
+            - name: Preparar Esquema
+              href: ../help-topics/help-depwiz/prepare-schema.md
+            - name: Iniciar Serviços
+              href: ../help-topics/help-depwiz/start-services.md
+            - name: Verificar Replicação no Domínio
+              href: ../help-topics/help-depwiz/verify-replication-in-the-domain.md
+            - name: Verificar a Replicação da Preparação da Floresta
+              href: ../help-topics/help-depwiz/verify-replication-of-forest-preparation.md
+            - name: Verificar Replicação de Partição do Esquema
+              href: ../help-topics/help-depwiz/verify-replication-of-schema-partition.md
+            - name: Instalar Invocação do Repositório de Configuração Local (Configuração)
+              href: ../help-topics/help-depwiz/install-local-configuration-store-invoke-configure.md
+            - name: Instalar Repositório de Configuração Local (Invocar)
+              href: ../help-topics/help-depwiz/install-local-configuration-store-invoke.md
+            - name: Preparar Esquema (Introdução)
+              href: ../help-topics/help-depwiz/prepare-schema-intro.md
+            - name: Preparar Esquema (Invocar)
+              href: ../help-topics/help-depwiz/prepare-schema-invoke.md
+            - name: SQL Server Reporting Services (Credenciais)
+              href: ../help-topics/help-depwiz/sql-server-reporting-services-credentials.md
+            - name: SQL Server Reporting Services (Grupos)
+              href: ../help-topics/help-depwiz/sql-server-reporting-services-groups.md
+            - name: SQL Server Reporting Services (Grupos)
+              href: ../help-topics/help-depwiz/sql-server-reporting-services-intro.md
+            - name: SQL Server Reporting Services (Invocar)
+              href: ../help-topics/help-depwiz/sql-server-reporting-services-invoke.md
+            - name: SQL Server Reporting Services (Pré-requisitos não atendidos)
+              href: ../help-topics/help-depwiz/sql-server-reporting-services-prerequisites-not-satisfied.md
+            - name: Iniciar Serviços (Introdução)
+              href: ../help-topics/help-depwiz/startservices-intro.md
+            - name: Iniciar Serviços (Invocar)
+              href: ../help-topics/help-depwiz/start-services-invoke.md
+            - name: 'Assistente de Implantação: Solicitar um Certificado'
+              href: ../help-topics/help-depwiz/deployment-wizard-request-a-certificate.md
+            - name: 'Assistente de Implantação: Usando as Ferramentas de Administração'
+              href: ../help-topics/help-depwiz/deployment-wizard-using-the-admin-tools.md
+            - name: 'Assistente de Implantação: Ferramentas de Administração'
+              href: ../help-topics/help-depwiz/deployment-wizard-admin-tools.md
+            - name: 'Assistente de Implantação: Caminho para o instalador MSI'
+              href: ../help-topics/help-depwiz/deployment-wizard-path-to-msi-installer.md
+            - name: 'Assistente de Implantação: Windows Update'
+              href: ../help-topics/help-depwiz/deployment-wizard-windows-update.md
+            - name: 'Assistente de Implantação: API de Comunicações Unificadas'
+              href: ../help-topics/help-depwiz/deployment-wizard-unified-communications-api.md
+        - name: Help-LSCP
+          items:
+            - name: Usar o painel de controle
+              href: ../help-topics/help-lscp/use-the-control-panel.md
+            - name: 'Política de Versão do Cliente: Criar Nova ou Editar Existente'
+              href: ../help-topics/help-lscp/client-version-policy-create-new-or-edit-existing.md
+            - name: Política de Versão de Cliente
+              href: ../help-topics/help-lscp/client-version-policy.md
+            - name: Regra de Versão de Cliente
+              href: ../help-topics/help-lscp/client-version-rule.md
+            - name: 'Configuração de Versão de Cliente: Criar Nova ou Editar Existente'
+              href: ../help-topics/help-lscp/client-version-configuration-create-new-or-edit-existing.md
+            - name: Configuração de Versão de Cliente
+              href: ../help-topics/help-lscp/client-version-configuration.md
+            - name: Configuração do Log de Dispositivos
+              href: ../help-topics/help-lscp/device-log-configuration.md
+            - name: 'Dispositivo de Teste: Criar Novo ou Editar Existente'
+              href: ../help-topics/help-lscp/test-device-create-new-or-edit-existing.md
+            - name: Dispositivo de Teste
+              href: ../help-topics/help-lscp/test-device.md
+            - name: 'Configuração de Log de Dispositivo: Editar'
+              href: ../help-topics/help-lscp/device-log-configuration-edit.md
+            - name: Atualização de Dispositivo
+              href: ../help-topics/help-lscp/device-update.md
+            - name: 'Configuração de Dispositivo: Criar Nova ou Editar Existente'
+              href: ../help-topics/help-lscp/device-configuration-create-new-or-edit-existing.md
+            - name: Configuração do dispositivo
+              href: ../help-topics/help-lscp/device-configuration.md
+            - name: 'Número de Acesso de Discagem: Criar Novo ou Editar Existente'
+              href: ../help-topics/help-lscp/dial-in-access-number-create-new-or-edit-existing.md
+            - name: Número de Acesso Discado
+              href: ../help-topics/help-lscp/dial-in-access-number.md
+            - name: Selecionar Idiomas
+              href: ../help-topics/help-lscp/select-languages.md
+            - name: Selecionar Regiões
+              href: ../help-topics/help-lscp/select-regions.md
+            - name: 'Política de Conferência: Criar Novo ou Editar Existente'
+              href: ../help-topics/help-lscp/conferencing-policy-create-new-or-edit-existing.md
+            - name: Política de conferência
+              href: ../help-topics/help-lscp/conferencing-policy.md
+            - name: 'Configuração de Reunião: Criar Novo ou Editar Existente'
+              href: ../help-topics/help-lscp/meeting-configuration-create-new-or-edit-existing.md
+            - name: Configuração de Reunião
+              href: ../help-topics/help-lscp/meeting-configuration.md
+            - name: 'Domínios Federados: Criar Novos ou Editar Existentes'
+              href: ../help-topics/help-lscp/federated-domains-create-new-or-edit-existing.md
+            - name: Domínios Federados
+              href: ../help-topics/help-lscp/federated-domains.md
+            - name: 'Configuração de Borda de Acesso: Editar'
+              href: ../help-topics/help-lscp/access-edge-configuration-edit.md
+            - name: Configuração de Borda de Acesso
+              href: ../help-topics/help-lscp/access-edge-configuration.md
+            - name: 'Política de Acesso Externo: Criar Nova ou Editar Existente'
+              href: ../help-topics/help-lscp/external-access-policy-create-new-or-edit-existing.md
+            - name: Política de Acesso Externo
+              href: ../help-topics/help-lscp/external-access-policy.md
+            - name: 'Provedores Federados de SIP: Criar Novos ou Editar Existentes'
+              href: ../help-topics/help-lscp/sip-federated-providers-create-new-or-edit-existing.md
+            - name: Provedores Federados SIP
+              href: ../help-topics/help-lscp/sip-federated-providers.md
+            - name: Executar primeiro lista de verificação do Painel de Controle do Skype for Business Server
+              href: ../help-topics/help-lscp/first-run-checklist-for-skype-for-business-server-control-panel.md
+            - name: Funções Administrativas e Painel de Controle Lync Server
+              href: ../help-topics/help-lscp/administrative-roles-and-lync-server-control-panel.md
+            - name: Selecionar Extensões de Tipo de Arquivo
+              href: ../help-topics/help-lscp/select-file-type-extensions.md
+            - name: Selecionar Prefixo de Hiperlink
+              href: ../help-topics/help-lscp/select-hyperlink-prefix.md
+            - name: 'Filtro de Arquivo: Criar Novo ou Editar Existente'
+              href: ../help-topics/help-lscp/file-filter-create-new-or-edit-existing.md
+            - name: Filtro de Arquivo
+              href: ../help-topics/help-lscp/file-filter.md
+            - name: 'Filtro URL: Criar Novo ou Editar Existente'
+              href: ../help-topics/help-lscp/url-filter-create-new-or-edit-existing.md
+            - name: Filtro de URL
+              href: ../help-topics/help-lscp/url-filter.md
+            - name: 'Registro de Detalhes de Chamadas: Criar Nova ou Editar Existente'
+              href: ../help-topics/help-lscp/call-detail-recording-create-new-or-edit-existing.md
+            - name: Registro de Detalhes de Chamada
+              href: ../help-topics/help-lscp/call-detail-recording.md
+            - name: 'Política de Arquivamento: Criar Nova ou Editar Existente'
+              href: ../help-topics/help-lscp/archiving-policy-create-new-or-edit-existing.md
+            - name: Política de Arquivamento
+              href: ../help-topics/help-lscp/archiving-policy.md
+            - name: 'Dados de QoE (Qualidade da Experiência): Criar Novos ou Editar Existentes'
+              href: ../help-topics/help-lscp/quality-of-experience-qoe-data-create-new-or-edit-existing.md
+            - name: Dados de QoE (Qualidade da Experiência)
+              href: ../help-topics/help-lscp/quality-of-experience-qoe-data.md
+            - name: 'Configuração de Arquivamento: Criar Novo ou Editar Existente'
+              href: ../help-topics/help-lscp/archiving-configuration-create-new-or-edit-existing.md
+            - name: Configuração de Arquivamento
+              href: ../help-topics/help-lscp/archiving-configuration.md
+            - name: 'Configuração de Rede: Editar Definição Global'
+              href: ../help-topics/help-lscp/network-configuration-edit-global-setting.md
+            - name: 'Configuração de Rede: Definição Global'
+              href: ../help-topics/help-lscp/network-configuration-global-setting.md
+            - name: 'Política de Local: Criar Nova ou Editar Existente'
+              href: ../help-topics/help-lscp/location-policy-create-new-or-edit-existing.md
+            - name: Política de Local
+              href: ../help-topics/help-lscp/location-policy.md
+            - name: 'Perfil de Política de Largura de Banda: Criar Novo ou Editar Existente'
+              href: ../help-topics/help-lscp/bandwidth-policy-profile-create-new-or-edit-existing.md
+            - name: Perfil de Política de Largura de Banda
+              href: ../help-topics/help-lscp/bandwidth-policy-profile.md
+            - name: 'Configurar uma Região de Rede: Criar Nova ou Editar Existente'
+              href: ../help-topics/help-lscp/configure-a-network-region-create-new-or-edit-existing.md
+            - name: 'Configurar um Link de Região de Rede: Criar Novo ou Editar Existente'
+              href: ../help-topics/help-lscp/configure-a-network-region-link-create-new-or-edit-existing.md
+            - name: Configurar um Link de Região de Rede
+              href: ../help-topics/help-lscp/configure-a-network-region-link.md
+            - name: Configurar uma Região de Rede
+              href: ../help-topics/help-lscp/configure-a-network-region.md
+            - name: 'Configurar uma Rota de Região de Rede: Criar Nova ou Editar Existente'
+              href: ../help-topics/help-lscp/configure-a-network-region-route-create-new-or-edit-existing.md
+            - name: Configurar uma Rota de Região de Rede
+              href: ../help-topics/help-lscp/configure-a-network-region-route.md
+            - name: Atribuir Propriedades
+              href: ../help-topics/help-lscp/assign-properties.md
+            - name: Selecionar um Link de Região
+              href: ../help-topics/help-lscp/select-a-region-link.md
+            - name: 'Configurar um Site de Rede: Criar Novo ou Editar Existente'
+              href: ../help-topics/help-lscp/configure-a-network-site-create-new-or-edit-existing.md
+            - name: Configurar um Site de Rede
+              href: ../help-topics/help-lscp/configure-a-network-site.md
+            - name: 'Associar uma Sub-rede: Adicionar Nova ou Editar Existente'
+              href: ../help-topics/help-lscp/associate-a-subnet-add-new-or-edit-existing.md
+            - name: Associar uma Sub-rede
+              href: ../help-topics/help-lscp/associate-a-subnet.md
+            - name: 'Grupos de Resposta: Criar Novo ou Editar Grupo de Agentes Existente'
+              href: ../help-topics/help-lscp/response-groups-create-new-or-edit-existing-agent-group.md
+            - name: 'Grupos de Resposta: Grupo'
+              href: ../help-topics/help-lscp/response-groups-group.md
+            - name: 'Fila de Grupos de Resposta: Criar Nova ou Editar Existente'
+              href: ../help-topics/help-lscp/response-groups-queue-create-new-or-edit-existing.md
+            - name: Fila de Grupos de Resposta
+              href: ../help-topics/help-lscp/response-groups-queue.md
+            - name: Selecionar Agentes
+              href: ../help-topics/help-lscp/select-agents.md
+            - name: Selecionar Grupos
+              href: ../help-topics/help-lscp/select-groups.md
+            - name: Selecionar Fila de Estouro
+              href: ../help-topics/help-lscp/select-overflow-queue.md
+            - name: Selecionar Fila de Tempo Limite
+              href: ../help-topics/help-lscp/select-time-out-queue.md
+            - name: Fluxo de Trabalho de Grupos de Resposta
+              href: ../help-topics/help-lscp/response-groups-workflow.md
+            - name: 'Política PIN: Criar Nova ou Editar Existente'
+              href: ../help-topics/help-lscp/pin-policy-create-new-or-edit-existing.md
+            - name: Política de PIN
+              href: ../help-topics/help-lscp/pin-policy.md
+            - name: 'Definições de Segurança de Registrador: Criar Novas ou Editar Existentes'
+              href: ../help-topics/help-lscp/registrar-security-settings-create-new-or-edit-existing.md
+            - name: Definições de Segurança de Registrador
+              href: ../help-topics/help-lscp/registrar-security-settings.md
+            - name: 'Definições de Segurança de Serviços Web: Criar Novas ou Modificar Existentes'
+              href: ../help-topics/help-lscp/web-service-security-settings-create-new-or-modify-existing.md
+            - name: Configurações de Segurança de Serviços Web
+              href: ../help-topics/help-lscp/web-service-security-settings.md
+            - name: Selecionar um Serviço
+              href: ../help-topics/help-lscp/select-a-service.md
+            - name: Selecionar um Site
+              href: ../help-topics/help-lscp/select-a-site.md
+            - name: 'Topologia: Aplicativo de Servidor'
+              href: ../help-topics/help-lscp/topology-server-application.md
+            - name: 'Topologia: Aplicativo Confiável'
+              href: ../help-topics/help-lscp/topology-trusted-application.md
+            - name: 'Topologia: Exibir Detalhe de URL Simples'
+              href: ../help-topics/help-lscp/topology-view-simple-url-detail.md
+            - name: 'Topologia: Exibir URL Simples'
+              href: ../help-topics/help-lscp/topology-view-simple-url.md
+            - name: 'Topologia: Exibir Detalhes do Computador'
+              href: ../help-topics/help-lscp/topology-view-computer-detail.md
+            - name: 'Topologia: Status'
+              href: ../help-topics/help-lscp/topology-status.md
+            - name: 'Topologia: Exibir Detalhes do Serviço'
+              href: ../help-topics/help-lscp/topology-view-service-detail.md
+            - name: 'Usuários: Atribuir Políticas'
+              href: ../help-topics/help-lscp/users-assign-policies.md
+            - name: 'Usuários: Editar Usuário'
+              href: ../help-topics/help-lscp/users-edit-user.md
+            - name: 'Painel de Controle - atualizado: Pesquisa de Usuário'
+              href: ../help-topics/help-lscp/control-panelupdated-user-search.md
+            - name: Mover Usuário
+              href: ../help-topics/help-lscp/move-user.md
+            - name: Mover Todos os Usuários
+              href: ../help-topics/help-lscp/move-all-users.md
+            - name: 'Usuários: Novo Usuário de Servidor Lync'
+              href: ../help-topics/help-lscp/users-new-lync-server-user.md
+            - name: 'Usuários: Novos Objetos de Contato'
+              href: ../help-topics/help-lscp/users-new-contact-objects.md
+            - name: PIN Definido com Sucesso
+              href: ../help-topics/help-lscp/pin-set-successfully.md
+            - name: Selecionar no Active Directory
+              href: ../help-topics/help-lscp/select-from-active-directory.md
+            - name: Selecionar Contatos no Active Directory
+              href: ../help-topics/help-lscp/select-contacts-from-active-directory.md
+            - name: Definir PIN
+              href: ../help-topics/help-lscp/set-pin.md
+            - name: 'Usuários: Exibir ou Configurar Política de Arquivamento'
+              href: ../help-topics/help-lscp/users-view-or-configure-archiving-policy.md
+            - name: 'Usuários: Exibir ou Configurar Política de Conferência'
+              href: ../help-topics/help-lscp/users-view-or-configure-conferencing-policy.md
+            - name: 'Usuários: Exibir ou Configurar Política de Versão de Cliente'
+              href: ../help-topics/help-lscp/users-view-or-configure-client-version-policy.md
+            - name: 'Usuários: Exibir ou Configurar Plano de Discagem'
+              href: ../help-topics/help-lscp/users-view-or-configure-dial-plan.md
+            - name: 'Usuários: Exibir ou Configurar Política de Acesso Externo'
+              href: ../help-topics/help-lscp/users-view-or-configure-external-access-policy.md
+            - name: 'Usuários: Exibir ou Configurar Política de Local'
+              href: ../help-topics/help-lscp/users-view-or-configure-location-policy.md
+            - name: 'Usuários: Exibir Status de PIN'
+              href: ../help-topics/help-lscp/users-view-pin-status.md
+            - name: 'Usuários: Exibir Política de Voz'
+              href: ../help-topics/help-lscp/users-view-voice-policy.md
+            - name: 'Usuários: Exibir ou Configurar Política PIN'
+              href: ../help-topics/help-lscp/users-view-or-configure-pin-policy.md
+            - name: Salvar Informações de Caso de Teste de Roteamento de Voz
+              href: ../help-topics/help-lscp/save-voice-routing-test-case-information.md
+            - name: Selecionar Usuários de Enterprise Voice
+              href: ../help-topics/help-lscp/select-enterprise-voice-users.md
+            - name: 'Plano de Discagem: Criar Novo ou Editar Existente'
+              href: ../help-topics/help-lscp/dial-plan-create-new-or-edit-existing.md
+            - name: Plano de discagem
+              href: ../help-topics/help-lscp/dial-plan.md
+            - name: 'Regra de Normalização: Criar Nova ou Editar Existente'
+              href: ../help-topics/help-lscp/normalization-rule-create-new-or-edit-existing.md
+            - name: Selecionar Regras de Normalização
+              href: ../help-topics/help-lscp/select-normalization-rules.md
+            - name: 'Estacionamento de Chamada: Criar Novo ou Editar Existente'
+              href: ../help-topics/help-lscp/call-park-create-new-or-edit-existing.md
+            - name: Estacionamento de chamada
+              href: ../help-topics/help-lscp/call-park.md
+            - name: Selecionar um Serviço de Comunicado
+              href: ../help-topics/help-lscp/select-an-announcement-service.md
+            - name: Selecionar um Atendedor Automático do UM do Exchange
+              href: ../help-topics/help-lscp/select-exchange-um-auto-attendant.md
+            - name: 'Número de Telefone Não Atribuído: Criar Novo ou Editar Existente'
+              href: ../help-topics/help-lscp/unassigned-phone-number-create-new-or-edit-existing.md
+            - name: Número de Telefone Não Atribuído
+              href: ../help-topics/help-lscp/unassigned-phone-number.md
+            - name: Exibir Gateways (Importar Configuração)
+              href: ../help-topics/help-lscp/view-gateways-import-configuration.md
+            - name: 'Política de Voz: Criar Nova ou Editar Existente'
+              href: ../help-topics/help-lscp/voice-policy-create-new-or-edit-existing.md
+            - name: Política de voz
+              href: ../help-topics/help-lscp/voice-policy.md
+            - name: Selecionar Registro de Uso PSTN
+              href: ../help-topics/help-lscp/select-pstn-usage-record.md
+            - name: 'Política de Voz: Criar Nova ou Editar Registro de Uso PSTN Existente'
+              href: ../help-topics/help-lscp/voice-policy-create-new-or-edit-existing-pstn-usage-record.md
+            - name: 'Roteamento de Voz: Status de Confirmação de Mudanças para Configuração de Roteamento de Voz'
+              href: ../help-topics/help-lscp/voice-routing-status-of-commit-changes-for-voice-routing-configuration.md
+            - name: 'Rota de Voz: Criar Nova ou Editar Existente'
+              href: ../help-topics/help-lscp/voice-route-create-new-or-edit-existing.md
+            - name: Rota de voz
+              href: ../help-topics/help-lscp/voice-route.md
+            - name: Edição de Prefixo
+              href: ../help-topics/help-lscp/prefix-edit.md
+            - name: 'Regra de Normalização: Digite uma Expressão Regular'
+              href: ../help-topics/help-lscp/normalization-rule-type-a-regular-expression.md
+            - name: Selecionar Tronco
+              href: ../help-topics/help-lscp/select-trunk.md
+            - name: 'Regra de Conversão: Digite uma Expressão Regular'
+              href: ../help-topics/help-lscp/translation-rule-type-a-regular-expression.md
+            - name: 'Testar Roteamento de Voz: Criar Novos ou Editar Casos de Teste Existentes'
+              href: ../help-topics/help-lscp/test-voice-routing-create-new-or-edit-existing-test-cases.md
+            - name: 'Testar Roteamento de Voz: Casos de Teste'
+              href: ../help-topics/help-lscp/test-voice-routing-test-cases.md
+            - name: 'Configuração de Tronco: Criar Novo ou Editar Existente'
+              href: ../help-topics/help-lscp/trunk-configuration-create-new-or-edit-existing.md
+            - name: Configuração de Tronco
+              href: ../help-topics/help-lscp/trunk-configuration.md
+            - name: 'Regra de Conversão: Criar Nova ou Editar Existente'
+              href: ../help-topics/help-lscp/translation-rule-create-new-or-edit-existing.md
+            - name: Selecionar Regras de Conversão
+              href: ../help-topics/help-lscp/select-translation-rules.md
+            - name: 'Uso PSTN: Criar Novo ou Editar Existente'
+              href: ../help-topics/help-lscp/pstn-usage-create-new-or-edit-existing.md
+            - name: Uso de PSTN
+              href: ../help-topics/help-lscp/pstn-usage.md
+            - name: Selecionar Rotas
+              href: ../help-topics/help-lscp/select-routes.md
+            - name: 'Definições de Configuração de Voz Não Confirmadas: Revisar'
+              href: ../help-topics/help-lscp/uncommitted-voice-configuration-settings-review.md
+            - name: 'Definições de Configuração de Voz Não Confirmadas: Confirmar'
+              href: ../help-topics/help-lscp/uncommitted-voice-configuration-settings-commit.md
+            - name: Política de Uso de Voz
+              href: ../help-topics/help-lscp/voice-usage-policy.md
+            - name: Editar Política de Mobilidade do Cliente
+              href: ../help-topics/help-lscp/edit-client-mobility-policy.md
+            - name: 'Clientes: Política de Mobilidade'
+              href: ../help-topics/help-lscp/clients-mobility-policy.md
+            - name: 'Cliente Móvel: Crie ou Edite a Configuração de Notificação por Push'
+              href: ../help-topics/help-lscp/mobile-client-create-or-edit-push-notification-configuration.md
+            - name: 'Cliente Móvel: Configuração de Notificação por Push'
+              href: ../help-topics/help-lscp/mobile-client-push-notification-configuration.md
+            - name: 'Parceiros Federados XMPP: Criar Novos ou Editar Existentes'
+              href: ../help-topics/help-lscp/xmpp-federated-partners-create-new-or-edit-existing.md
+            - name: Parceiros Federados XMPP
+              href: ../help-topics/help-lscp/xmpp-federated-partners.md
+            - name: Suplemento de Chat Persistente
+              href: ../help-topics/help-lscp/persistent-chat-add-in.md
+            - name: Página Principal do Suplemento de Chat Persistente
+              href: ../help-topics/help-lscp/persistent-chat-add-in-main-page.md
+            - name: Categoria de Chat Persistente
+              href: ../help-topics/help-lscp/persistent-chat-category.md
+            - name: Página Principal da Categoria de Chat Persistente
+              href: ../help-topics/help-lscp/persistent-chat-category-main-page.md
+            - name: Configuração de Chat Persistente
+              href: ../help-topics/help-lscp/persistent-chat-configuration.md
+            - name: Página Principal da Configuração de Chat Persistente
+              href: ../help-topics/help-lscp/persistent-chat-configuration-main-page.md
+            - name: Política de Chat Persistente
+              href: ../help-topics/help-lscp/persistent-chat-policy.md
+            - name: Página Principal da Política de Chat Persistente
+              href: ../help-topics/help-lscp/persistent-chat-policy-main-page.md
+            - name: Selecionar Membros Permitidos
+              href: ../help-topics/help-lscp/select-allowed-members.md
+            - name: Selecionar Criadores
+              href: ../help-topics/help-lscp/select-creators.md
+            - name: Selecionar Membros Negados
+              href: ../help-topics/help-lscp/select-denied-members.md
+            - name: 'Usuários: Exibir Política de Mobilidade'
+              href: ../help-topics/help-lscp/users-view-mobility-policy.md
+            - name: 'Usuários: Exibir Chat Persistente'
+              href: ../help-topics/help-lscp/users-view-persistent-chat.md
+            - name: Nova Regra de Conversão de Número de Chamada
+              href: ../help-topics/help-lscp/new-calling-number-translation-rule.md
+            - name: Selecionar Conversão de Regras de Número de Chamada
+              href: ../help-topics/help-lscp/select-calling-number-rules-translation.md
+            - name: 'Assistente híbrido: Editar usuários'
+              href: ../help-topics/help-lscp/hybrid-wizard-edit-users.md
+            - name: 'Assistente de implantação híbrida: Mover Usuário'
+              href: ../help-topics/help-lscp/hybrid-wizard-move-user.md
+            - name: Assistente de capacidade de gerenciamento de implantação híbrida
+              href: ../help-topics/help-lscp/hybrid-manageability-wizard.md
+            - name: 'Assistente híbrido: Conecte-se ao Office 365'
+              href: ../help-topics/help-lscp/hybrid-wizard-sign-in-to-office-365.md
+        - name: Planejamento de ajuda
+          items:
+            - name: Arquivamento
+              href: ../management-tools/planning-tool/archiving.md
+            - name: Conferências de áudio/vídeo
+              href: ../management-tools/planning-tool/audio-video-conferencing.md
+            - name: Sites de Filiais
+              href: ../management-tools/planning-tool/branch-sites.md
+            - name: Controle de admissão de chamada
+              href: ../management-tools/planning-tool/call-admission-control.md
+            - name: Configurações do Cliente
+              href: ../management-tools/planning-tool/client-settings.md
+            - name: Conferência discada
+              href: ../management-tools/planning-tool/dial-in-conferencing.md
+            - name: Diretor
+              href: ../management-tools/planning-tool/director.md
+            - name: Recuperação de desastre
+              href: ../management-tools/planning-tool/disaster-recovery.md
+            - name: Rede de borda
+              href: ../management-tools/planning-tool/edge-network.md
+            - name: Enterprise Voice
+              href: ../management-tools/planning-tool/enterprise-voice.md
+            - name: Unificação de Mensagens do Exchange
+              href: ../management-tools/planning-tool/exchange-unified-messaging.md
+            - name: Configurações de Unificação de Mensagens do Exchange
+              href: ../management-tools/planning-tool/exchange-unified-messaging-settings.md
+            - name: Visão geral do recurso
+              href: ../management-tools/planning-tool/feature-overview.md
+            - name: Federação
+              href: ../management-tools/planning-tool/federation.md
+            - name: Alta Disponibilidade
+              href: ../management-tools/planning-tool/high-availability.md
+            - name: Versão IP
+              href: ../management-tools/planning-tool/ip-version.md
+            - name: Balanceador de carga
+              href: ../management-tools/planning-tool/load-balancer.md
+            - name: Bypass de mídia
+              href: ../management-tools/planning-tool/media-bypass.md
+            - name: Colocação de Mediação
+              href: ../management-tools/planning-tool/mediation-collocation.md
+            - name: Mobilidade
+              href: ../management-tools/planning-tool/mobility.md
+            - name: Monitoramento
+              href: ../management-tools/planning-tool/monitoring.md
+            - name: Chat persistente
+              href: ../management-tools/planning-tool/persistent-chat.md
+            - name: Infraestrutura de voz
+              href: ../management-tools/planning-tool/voice-infrastructure.md
+            - name: Tráfego de voz
+              href: ../management-tools/planning-tool/voice-traffic.md
+            - name: Webconferência
+              href: ../management-tools/planning-tool/web-conferencing.md
+        - name: Help-TopoBld
+          items:
+            - name: Adicionar Domínios SIP Adicionais
+              href: ../help-topics/help-topobld/add-additional-sip-domains.md
+            - name: Adicionar Repositório de Arquivo de Servidor de Arquivamento
+              href: ../help-topics/help-topobld/add-archiving-server-file-store.md
+            - name: Adicionar Servidor de Arquivamento
+              href: ../help-topics/help-topobld/add-archiving-server.md
+            - name: Adicionar Repositório de Servidor SQL para Servidor de Arquivamento
+              href: ../help-topics/help-topobld/add-archiving-server-sql-server-store.md
+            - name: Adicionar Máquina A/V MCU
+              href: ../help-topics/help-topobld/add-a-v-mcu-machine.md
+            - name: Adicionar Pool A/V MCU
+              href: ../help-topics/help-topobld/add-a-v-mcu-pool.md
+            - name: Adicionar Pool de Aparelho de Escritório Persistente
+              href: ../help-topics/help-topobld/add-survivable-branch-appliance-pool.md
+            - name: Adicionar Aparelho PSTN a Filial Persistente
+              href: ../help-topics/help-topobld/add-survivable-branch-appliance-pstn.md
+            - name: Adicionar Detalhes de Site de Filial
+              href: ../help-topics/help-topobld/add-branch-site-details.md
+            - name: Adicionar Nome de Site de Filial
+              href: ../help-topics/help-topobld/add-branch-site-name.md
+            - name: Adicionar Domínio SIP Padrão
+              href: ../help-topics/help-topobld/add-default-sip-domain.md
+            - name: Adicionar Recursos de Diretor
+              href: ../help-topics/help-topobld/add-director-features.md
+            - name: Adicionar Repositório de Arquivo Diretor
+              href: ../help-topics/help-topobld/add-director-file-store.md
+            - name: Adicionar Máquina de Diretor
+              href: ../help-topics/help-topobld/add-director-machine.md
+            - name: Adicionar Monitoramento de Diretor
+              href: ../help-topics/help-topobld/add-director-monitoring.md
+            - name: Adicionar Pool de Diretor
+              href: ../help-topics/help-topobld/add-director-pool.md
+            - name: Adicionar Serviço da Web de Diretor
+              href: ../help-topics/help-topobld/add-director-web-service.md
+            - name: Adicionar IP Externo de Máquina de Borda 2010
+              href: ../help-topics/help-topobld/add-edge-machine-external-ip-2010.md
+            - name: Adicionar IPv4 de Máquina Externa de Borda
+              href: ../help-topics/help-topobld/add-edge-machine-external-ipv4.md
+            - name: Adicionar IPv6 Externo de Máquina de Borda
+              href: ../help-topics/help-topobld/add-edge-machine-external-ipv6.md
+            - name: Adicionar IP Interno de Máquina de Borda
+              href: ../help-topics/help-topobld/add-edge-machine-internal-ip.md
+            - name: Adicionar IP Interno de Máquina de Borda 2010
+              href: ../help-topics/help-topobld/add-edge-machine-internal-ip-2010.md
+            - name: Adicionaor IP NAT de Máquina de Borda
+              href: ../help-topics/help-topobld/add-edge-machine-nat-ip.md
+            - name: Adicioanr IP NAT de Máquina de Borda 2010
+              href: ../help-topics/help-topobld/add-edge-machine-nat-ip-2010.md
+            - name: Adicionar Associações de Servidor de Borda
+              href: ../help-topics/help-topobld/add-edge-server-associations.md
+            - name: Adicionar IP Externo de Servidor de Borda 2010
+              href: ../help-topics/help-topobld/add-edge-server-external-ip-2010.md
+            - name: Adicionar IPv4 Externo de Servidor de Borda
+              href: ../help-topics/help-topobld/add-edge-server-external-ipv4.md
+            - name: Adicionar IPv6 Externo de Servidor de Borda
+              href: ../help-topics/help-topobld/add-edge-server-external-ipv6.md
+            - name: Adicionar FQDN do Servidor de Borda
+              href: ../help-topics/help-topobld/add-edge-server-fqdn.md
+            - name: Adicioanr IP Interno de Servidor de Borda
+              href: ../help-topics/help-topobld/add-edge-server-internal-ip.md
+            - name: Adicionar IP Interno de Servidor de Borda 2010
+              href: ../help-topics/help-topobld/add-edge-server-internal-ip-2010.md
+            - name: Adicionar Opções de IP de Servidor de Borda
+              href: ../help-topics/help-topobld/add-edge-server-ip-options.md
+            - name: Adicioanr IP NAT de Servidor de Borda
+              href: ../help-topics/help-topobld/add-edge-server-nat-ip.md
+            - name: Adicionar IP NAT de Servidor de Borda 2010
+              href: ../help-topics/help-topobld/add-edge-server-nat-ip-2010.md
+            - name: Adicionar Próximo Salto de Servidor de Borda
+              href: ../help-topics/help-topobld/add-edge-server-next-hop.md
+            - name: Adicionar Opções de Servidor de Borda
+              href: ../help-topics/help-topobld/add-edge-server-options.md
+            - name: Adicionar Opções de Servidor de Borda para o Lync Server 2010
+              href: ../help-topics/help-topobld/add-edge-server-options-for-lync-server-2010.md
+            - name: Adicionar Servidor de Borda
+              href: ../help-topics/help-topobld/add-edge-server.md
+            - name: Adicionar Suporde de Servidor de Borda
+              href: ../help-topics/help-topobld/add-edge-server-support.md
+            - name: Adicionar máquina de Aplicativo Confiável
+              href: ../help-topics/help-topobld/add-trusted-application-machine.md
+            - name: Adicionar Servidor de Aplicativo Confiável NextHop
+              href: ../help-topics/help-topobld/add-nexthop-trusted-application-server.md
+            - name: Adicionar Pool de Aplicativo Confiável
+              href: ../help-topics/help-topobld/add-trusted-application-pool-fqdn.md
+            - name: Adicionar Repositóriod e Arquivos
+              href: ../help-topics/help-topobld/add-file-store.md
+            - name: Adicionar Repositório de Arquivamento Front End
+              href: ../help-topics/help-topobld/add-front-end-archiving-store.md
+            - name: Adicionar Associações de Front End
+              href: ../help-topics/help-topobld/add-front-end-associations.md
+            - name: Adicionar Associações de Front-End 2010
+              href: ../help-topics/help-topobld/add-front-end-associations-2010.md
+            - name: Adicionar Colocações de Servidor Front End
+              href: ../help-topics/help-topobld/add-front-end-server-collocations.md
+            - name: Adicionar Colocações de Servidor Front End 2010
+              href: ../help-topics/help-topobld/add-front-end-server-collocations-2010.md
+            - name: Adicionar Recursos de Front End
+              href: ../help-topics/help-topobld/add-front-end-features.md
+            - name: Adicionar Recursos de Front End 2010
+              href: ../help-topics/help-topobld/add-front-end-features-2010.md
+            - name: Adicionar Repositório de Arquivo do Front End
+              href: ../help-topics/help-topobld/add-front-end-file-store.md
+            - name: Adicionar Máquina de Front End
+              href: ../help-topics/help-topobld/add-front-end-machine.md
+            - name: Adicionar Página de Repositório de Monitoramento do Front End
+              href: ../help-topics/help-topobld/add-front-end-monitoring-store-page.md
+            - name: Adicionar FQDN do Pool de Front-Ends
+              href: ../help-topics/help-topobld/add-front-end-pool-fqdn.md
+            - name: Adicionar Repositório de Servidor SQL Front End
+              href: ../help-topics/help-topobld/add-front-end-sql-server-store.md
+            - name: Adicioanr Página de Repositório SQL de Front End para Lync Server 2010
+              href: ../help-topics/help-topobld/add-front-end-sql-store-page-for-lync-server-2010.md
+            - name: Adicionar Serviços Web de Front End
+              href: ../help-topics/help-topobld/add-front-end-web-services.md
+            - name: Adicionar Servidor
+              href: ../help-topics/help-topobld/add-server.md
+            - name: Adicionar Máquina de Mediação
+              href: ../help-topics/help-topobld/add-mediation-machine.md
+            - name: Adicionar NextHop de Servidor de Mediação
+              href: ../help-topics/help-topobld/add-mediation-server-nexthop.md
+            - name: Adicionar Servidor de Mediação
+              href: ../help-topics/help-topobld/add-mediation-server.md
+            - name: Adicionar Servidor de Monitoramento
+              href: ../help-topics/help-topobld/add-monitoring-server.md
+            - name: Adicionar Repositório de Servidor SQL de Servidor de Monitoramento
+              href: ../help-topics/help-topobld/add-monitoring-server-sql-server-store.md
+            - name: Adicionar Servidor do Office Web Apps
+              href: ../help-topics/help-topobld/add-office-web-apps-server.md
+            - name: Adicionar Repositório de Servidor SQL de Backup de Conformidade de Bate-papo Persistente
+              href: ../help-topics/help-topobld/add-persistent-chat-compliance-backup-sql-server-store.md
+            - name: Adicionar Repositório de SQL Server de Backup de Chat Persistente
+              href: ../help-topics/help-topobld/add-persistent-chat-backup-sql-server-store.md
+            - name: Adicionar Repositório de Servidor SQL de Conformidade de Bate-papo Persistente
+              href: ../help-topics/help-topobld/add-persistent-chat-compliance-sql-server-store.md
+            - name: Adicionar Repositório de Arquivo de Chat Persistente
+              href: ../help-topics/help-topobld/add-persistent-chat-file-store.md
+            - name: Mover dados do repositório de arquivos
+              href: ../manage/topology/move-file-store-data.md
+            - name: Definir FQDN de Chat Persistente
+              href: ../help-topics/help-topobld/define-persistent-chat-fqdn.md
+            - name: Definir Computadores no Pool de Bate-papo Persistente
+              href: ../help-topics/help-topobld/define-computers-in-persistent-chat-pool.md
+            - name: Definir Propriedades e Opções para Pool de Bate-papo Persistente
+              href: ../help-topics/help-topobld/define-properties-and-options-for-persistent-chat-pool.md
+            - name: Adicionar Repositório de Servidor SQL de Bate-papo Persistente
+              href: ../help-topics/help-topobld/add-persistent-chat-sql-server-store.md
+            - name: Definir o Gateway PSTN do FQDN
+              href: ../help-topics/help-topobld/define-the-pstn-gateway-fqdn.md
+            - name: Definir endereço IP do gateway PSTN ou IP
+              href: ../help-topics/help-topobld/define-the-ip-address-of-the-ip-or-pstn-gateway.md
+            - name: Definir a árvore raiz para um novo IP ou gateway PSTN
+              href: ../help-topics/help-topobld/define-the-root-trunk-for-a-new-ip-or-pstn-gateway.md
+            - name: Adicionar URL Simples
+              href: ../help-topics/help-topobld/add-simple-url.md
+            - name: Adicionar Detalhes de Site
+              href: ../help-topics/help-topobld/add-site-details.md
+            - name: Adicionar Nome de Site
+              href: ../help-topics/help-topobld/add-site-name.md
+            - name: Adicionar Repositório SQL
+              href: ../help-topics/help-topobld/add-sql-store.md
+            - name: Definir um Novo Tronco
+              href: ../help-topics/help-topobld/define-a-new-trunk.md
+            - name: Expansor das Configurações Gerais do Servidor de Arquivamento
+              href: ../help-topics/help-topobld/archiving-server-general-settings-expander.md
+            - name: Nó de Escopo de Servidor de Arquivamento
+              href: ../help-topics/help-topobld/archiving-server-scope-node.md
+            - name: Nó do Escopo dos Servidores de Arquivamento
+              href: ../help-topics/help-topobld/archiving-servers-scope-node.md
+            - name: Associar AV MCU com Front End
+              href: ../help-topics/help-topobld/associate-av-mcu-with-front-end.md
+            - name: Associar Appliance de Escritório com Borda
+              href: ../help-topics/help-topobld/associate-branch-office-appliance-with-edge.md
+            - name: Associar Aparelho de Filial com Front End
+              href: ../help-topics/help-topobld/associate-branch-office-appliance-with-front-end.md
+            - name: Associar Front End com Arquivamento
+              href: ../help-topics/help-topobld/associate-front-end-with-archiving.md
+            - name: Associar Front End com AV MCU
+              href: ../help-topics/help-topobld/associate-front-end-with-av-mcu.md
+            - name: Associar Front-End com Borda
+              href: ../help-topics/help-topobld/associate-front-end-with-edge.md
+            - name: Associar Front End com Monitoramento
+              href: ../help-topics/help-topobld/associate-front-end-with-monitoring.md
+            - name: Associar Front End com Página do Servidor do Office Web Apps
+              href: ../help-topics/help-topobld/associate-front-end-with-office-web-apps-server-page.md
+            - name: Associar Servidor de Mediação com Borda
+              href: ../help-topics/help-topobld/associate-mediation-server-with-edge.md
+            - name: Expansor de Configurações Gerais MCU AV
+              href: ../help-topics/help-topobld/av-mcu-general-settings-expander.md
+            - name: Nó de Escopo AV MCU
+              href: ../help-topics/help-topobld/av-mcu-scope-node.md
+            - name: Expansor de Configurações AV MCU
+              href: ../help-topics/help-topobld/av-mcu-settings-expander.md
+            - name: Nó de Escopol AV de MCUs
+              href: ../help-topics/help-topobld/av-mcus-scope-node.md
+            - name: Expansor de Configurações Gerais de Aparelho de Filial
+              href: ../help-topics/help-topobld/branch-office-appliance-general-settings-expander.md
+            - name: Expansor de Configurações Gerais de Aparelho de Escritório para Lync Server 2010
+              href: ../help-topics/help-topobld/branch-office-appliance-general-settings-expander-for-lync-server-2010.md
+            - name: Nó de Escopo de Aparelho de Filial
+              href: ../help-topics/help-topobld/branch-office-appliance-scope-node.md
+            - name: Nó de Escopo de Aparelhos de Filial
+              href: ../help-topics/help-topobld/branch-office-appliances-scope-node.md
+            - name: Nó de Escopo de Filiais
+              href: ../help-topics/help-topobld/branch-offices-scope-node.md
+            - name: Expansor de Configurações CMS
+              href: ../help-topics/help-topobld/cms-settings-expander.md
+            - name: Expansor de Configurações de Implantação
+              href: ../help-topics/help-topobld/deployment-settings-expander.md
+            - name: Expansor de Configurações Gerais de Diretor
+              href: ../help-topics/help-topobld/director-general-settings-expander.md
+            - name: Expansor de Configurações Gerais de Diretor para Lync Server 2010
+              href: ../help-topics/help-topobld/director-general-settings-expander-for-lync-server-2010.md
+            - name: Nó de Escopo de Diretor
+              href: ../help-topics/help-topobld/director-scope-node.md
+            - name: Nó de Escopo de Diretores
+              href: ../help-topics/help-topobld/directors-scope-node.md
+            - name: Expansor de Configurações FQDNs de Servidor de Borda
+              href: ../help-topics/help-topobld/edge-server-fqdns-settings-expander.md
+            - name: Expansor de Configurações FQDN de Servidor de Borda para Lync Server 2010
+              href: ../help-topics/help-topobld/edge-server-fqdn-settings-expander-for-lync-server-2010.md
+            - name: Expansor de Configurações de Máquina de Borda
+              href: ../help-topics/help-topobld/edge-machine-settings-expander.md
+            - name: Expansor de Configurações de Máquina de Borda para Lync Server 2010
+              href: ../help-topics/help-topobld/edge-machine-settings-expander-for-lync-server-2010.md
+            - name: Expansor de Configurações de Próximo Salto de Borda
+              href: ../help-topics/help-topobld/edge-next-hop-settings-expander.md
+            - name: Máquina de Adição de Servidor de Borda
+              href: ../help-topics/help-topobld/edge-server-add-machine.md
+            - name: Nó de Escopo de Servidor de Borda
+              href: ../help-topics/help-topobld/edge-server-scope-node.md
+            - name: Nó de Escopo de Servidores de Borda
+              href: ../help-topics/help-topobld/edge-servers-scope-node.md
+            - name: Expansor de Configurações de Borda
+              href: ../help-topics/help-topobld/edge-settings-expander.md
+            - name: Editar Expansor de Configurações de Borda para Lync Server 2010
+              href: ../help-topics/help-topobld/edit-edge-settings-expander-for-lync-server-2010.md
+            - name: Expansor de Configurações Gerais de Aplicativo Externo
+              href: ../help-topics/help-topobld/external-application-general-settings-expander.md
+            - name: Expansor de Configurações de Próximo Salto de Aplicativo Externo
+              href: ../help-topics/help-topobld/external-application-next-hop-settings-expander.md
+            - name: Nó de Escopo de Aplicativo Externo
+              href: ../help-topics/help-topobld/external-application-scope-node.md
+            - name: Nó de Escopo de Aplicativos Externos
+              href: ../help-topics/help-topobld/external-applications-scope-node.md
+            - name: Expansor de Configurações de Rota de Federação
+              href: ../help-topics/help-topobld/federation-route-settings-expander.md
+            - name: Expansor de Configurações de Serviço de Mediação
+              href: ../help-topics/help-topobld/mediation-service-settings-expander.md
+            - name: Expansor de Configurações do Serviço de Mediação de Front End para Lync Server 2010
+              href: ../help-topics/help-topobld/front-end-mediation-service-settings-expander-for-lync-server-2010.md
+            - name: Nó de Escopo de Repositório de Arquivos
+              href: ../help-topics/help-topobld/file-store-scope-node.md
+            - name: Expansor de Configurações de Repositório de Arquivo
+              href: ../help-topics/help-topobld/file-store-settings-expander.md
+            - name: Nó de Escopo de Repositórios de Arquivos
+              href: ../help-topics/help-topobld/file-stores-scope-node.md
+            - name: Expansor de Configurações Gerais de Front End
+              href: ../help-topics/help-topobld/front-end-general-settings-expander.md
+            - name: Expansor de Configurações Gerais de Front End para Lync Server 2010
+              href: ../help-topics/help-topobld/front-end-general-settings-expander-for-lync-server-2010.md
+            - name: Nó de Escopo de Servidor Front End
+              href: ../help-topics/help-topobld/front-end-server-scope-node.md
+            - name: Nó de Escopo de Servidores Front-End
+              href: ../help-topics/help-topobld/front-end-servers-scope-node.md
+            - name: Página de Início do Front End
+              href: ../help-topics/help-topobld/front-end-start-page.md
+            - name: Instalar e Criar Bancos de Dados
+              href: ../help-topics/help-topobld/install-and-create-databases.md
+            - name: Instalar Página de Banco de Dados de Espelho Criar Banco de Dados
+              href: ../help-topics/help-topobld/install-database-create-mirror-database-page.md
+            - name: Instalar Página de Opções de Banco de Dados
+              href: ../help-topics/help-topobld/install-database-options-page.md
+            - name: Instalar Página de Opção de Banco de Dados de Espelhamento
+              href: ../help-topics/help-topobld/install-mirror-database-option-page.md
+            - name: Borda Expandida de Adição de Mesclagem de Legado
+              href: ../help-topics/help-topobld/legacy-merge-add-expanded-edge.md
+            - name: Máquina de Adição de Mesclagem de Legado
+              href: ../help-topics/help-topobld/legacy-merge-add-machine.md
+            - name: Mesclagem Herdada
+              href: ../help-topics/help-topobld/legacy-merge.md
+            - name: Tipo de Borda de Mesclagem de Legado
+              href: ../help-topics/help-topobld/legacy-merge-edge-type.md
+            - name: FQDN de Mesclagem de Legado
+              href: ../help-topics/help-topobld/legacy-merge-fqdn.md
+            - name: Patamar de Mesclagem de Legado
+              href: ../help-topics/help-topobld/legacy-merge-landing.md
+            - name: Próximo Salto de Mesclagem de Legado
+              href: ../help-topics/help-topobld/legacy-merge-next-hop.md
+            - name: Resultados de Mesclagem de Legado
+              href: ../help-topics/help-topobld/legacy-merge-results.md
+            - name: Porta SIP de Mesclagem de Legado
+              href: ../help-topics/help-topobld/legacy-merge-sip-port.md
+            - name: Início da Mesclagem Herdada
+              href: ../help-topics/help-topobld/legacy-merge-start.md
+            - name: |
+                Página de Resumo de Mesclagem de Legado
+              href: ../help-topics/help-topobld/legacy-merge-summary-page.md
+            - name: Lync Server 2010 Criar Novo Expansor
+              href: ../help-topics/help-topobld/lync-server-2010-create-new-expander.md
+            - name: Lync Server 2013 Criar novo expansor
+              href: ../help-topics/help-topobld/lync-server-2013-create-new-expander.md
+            - name: Nó de Escopo de Máquina
+              href: ../help-topics/help-topobld/machine-scope-node.md
+            - name: Expansor de Configurações de Servidor
+              href: ../help-topics/help-topobld/server-settings-expander.md
+            - name: Expansor de Confgurações de Servidor para Lync Server 2010
+              href: ../help-topics/help-topobld/server-settings-expander-for-lync-server-2010.md
+            - name: Expansor de Configurações de Próximo Salto de Mediação
+              href: ../help-topics/help-topobld/mediation-next-hop-settings-expander.md
+            - name: Expansor de Configurações Gerais de Servidor de Mediação
+              href: ../help-topics/help-topobld/mediation-server-general-settings-expander.md
+            - name: Expansor de Configurações Gerais do Servido de Mediação para Lync Server 2010
+              href: ../help-topics/help-topobld/mediation-server-general-settings-expander-for-lync-server-2010.md
+            - name: Nód e Escopo do Servidor de Mediação
+              href: ../help-topics/help-topobld/mediation-server-scope-node.md
+            - name: Nó de Escopo de Servidores de Mediação
+              href: ../help-topics/help-topobld/mediation-servers-scope-node.md
+            - name: Expansor de Configuração de Serviço de Mediação
+              href: ../help-topics/help-topobld/mediation-service-setting-expander.md
+            - name: Expansor de Configurações do Serviço de Mediação para o Lync Server 2010
+              href: ../help-topics/help-topobld/mediation-service-settings-expander-for-lync-server-2010.md
+            - name: Expansor de Configurações Gerais de Servidor de Monitoramento
+              href: ../help-topics/help-topobld/monitoring-server-general-settings-expander.md
+            - name: Nó do Escopo de Monitoramento
+              href: ../help-topics/help-topobld/monitoring-scope-node.md
+            - name: Nó de Escopo de Servidores de Monitoramento
+              href: ../help-topics/help-topobld/monitoring-servers-scope-node.md
+            - name: Nó do Lync do Construtor de Topologia
+              href: ../help-topics/help-topobld/topology-builder-lync-node.md
+            - name: Nó de Escopo de Servidor de Comunicações do Office
+              href: ../help-topics/help-topobld/office-communications-server-scope-node.md
+            - name: Expansor de Nó de Escopo do Servidor do Office Web Apps
+              href: ../help-topics/help-topobld/office-web-apps-server-scope-node-expander.md
+            - name: Editar Configurações do Servidor do Office Web Apps
+              href: ../help-topics/help-topobld/edit-office-web-apps-server-settings.md
+            - name: Nó do Escopo do Office Web Apps Servers
+              href: ../help-topics/help-topobld/office-web-apps-servers-scope-node.md
+            - name: Expansor de Configurações do Serviço de Controle de Admissão de Chamadas
+              href: ../help-topics/help-topobld/call-admission-control-settings-expander.md
+            - name: Expansor de Configurações Gerais de Bate-papo Persistente
+              href: ../help-topics/help-topobld/persistent-chat-general-settings-expander.md
+            - name: Expansor de Máquinas de Bate-papo Persistente
+              href: ../help-topics/help-topobld/persistent-chat-machines-expander.md
+            - name: Expansor de Configurações de Próximo Salto de Bate-papo Persistente
+              href: ../help-topics/help-topobld/persistent-chat-next-hop-settings-expander.md
+            - name: Nó de Escopo de Bate-papo Persistente
+              href: ../help-topics/help-topobld/persistent-chat-scope-node.md
+            - name: Expansor de Configurações de Bate-papo Persistente
+              href: ../help-topics/help-topobld/persistent-chat-settings-expander.md
+            - name: Criar Nó de Escopo de Servidores de Bate-papo Persistente
+              href: ../help-topics/help-topobld/create-persistent-chat-servers-scope-node.md
+            - name: Nó de Escopo de Gateway PSTN
+              href: ../help-topics/help-topobld/pstn-gateway-scope-node.md
+            - name: Expansor de Configurações de Gateway PSTN
+              href: ../help-topics/help-topobld/pstn-gateway-settings-expander.md
+            - name: Nó de Escopo de Gateways PSTN
+              href: ../help-topics/help-topobld/pstn-gateways-scope-node.md
+            - name: Criar banco de dados
+              href: ../help-topics/help-topobld/create-database.md
+            - name: Criar Topologia Publicar Página de Banco de Dados de Espelho
+              href: ../help-topics/help-topobld/publish-topology-create-mirror-database-page.md
+            - name: Próxima etapa de publicação de topologia
+              href: ../help-topics/help-topobld/publish-topology-next-step.md
+            - name: Publicar Página de Pool de Redefinição de Topologia
+              href: ../help-topics/help-topobld/publish-topology-reset-pool-page.md
+            - name: Publicar Página CMS de Seleção de Topologia
+              href: ../help-topics/help-topobld/publish-topology-select-cms-page.md
+            - name: Publicar Topologia
+              href: ../help-topics/help-topobld/publish-topology.md
+            - name: Expansor de Configurações SBA do Registrador
+              href: ../help-topics/help-topobld/registrar-sba-settings-expander.md
+            - name: Expansor de Configurações do Registrador
+              href: ../help-topics/help-topobld/registrar-settings-expander.md
+            - name: Expansor de Configurações de Registrador para o Lync Server for 2010
+              href: ../help-topics/help-topobld/registrar-settings-expander-for-lync-server-for-2010.md
+            - name: Remover Implantação
+              href: ../help-topics/help-topobld/remove-deployment.md
+            - name: Introdução de Remoção de Implantação
+              href: ../help-topics/help-topobld/remove-deployment-introduction.md
+            - name: Nó de escopo de componentes compartilhados
+              href: ../help-topics/help-topobld/shared-components-scope-node.md
+            - name: Expansor de Configurações de URL Simples
+              href: ../help-topics/help-topobld/simple-url-settings-expander.md
+            - name: Expansor de Configurações de Site do Servidor Lync
+              href: ../help-topics/help-topobld/lync-server-site-settings-expander.md
+            - name: Nó de Escopo de Instância SQL
+              href: ../help-topics/help-topobld/sql-instance-scope-node.md
+            - name: Nó de Escopo de Instâncias do SQL
+              href: ../help-topics/help-topobld/sql-instances-scope-node.md
+            - name: Expansor de Configurações de Repositório SQL
+              href: ../help-topics/help-topobld/sql-store-settings-expander.md
+            - name: Diálogo de Inicialização do Construtor de Topologia
+              href: ../help-topics/help-topobld/topology-builder-startup-dialog.md
+            - name: Nó de Escopo de Tronco
+              href: ../help-topics/help-topobld/trunk-scope-node.md
+            - name: Expansor de Configurações de Tronco
+              href: ../help-topics/help-topobld/trunk-settings-expander.md
+            - name: Nó de Escopo de Troncos
+              href: ../help-topics/help-topobld/trunks-scope-node.md
+            - name: Expansor de Configurações de Serviços da Web
+              href: ../help-topics/help-topobld/web-services-settings-expander.md
+            - name: Adicionar Associação de Diretor para Lync Server 2010
+              href: ../help-topics/help-topobld/add-director-association-for-lync-server-2010.md
+            - name: Associar Diretor com Página de Monitoramento para Lync Server 2010
+              href: ../help-topics/help-topobld/associate-director-with-monitoring-page-for-lync-server-2010.md
+            - name: Adicionar Serviços Web de Front End 2010
+              href: ../help-topics/help-topobld/add-front-end-web-services-2010.md
+            - name: Adicionar Página de Próximo Salto de Chat Persistente
+              href: ../help-topics/help-topobld/add-persistent-chat-next-hop-page.md
+            - name: Adicionar FQDN do Gateway de Vídeo
+              href: ../help-topics/help-topobld/add-video-gateway-fqdn.md
+            - name: Adicionar IP do Gateway de Vídeo
+              href: ../help-topics/help-topobld/add-video-gateway-ip.md
+            - name: Adicionar tronco do Gateway de Vídeo
+              href: ../help-topics/help-topobld/add-video-gateway-trunk.md
+            - name: Adicionar FQDN do VIS
+              href: ../help-topics/help-topobld/add-vis-fqdn.md
+            - name: Adicionar computador do VIS
+              href: ../help-topics/help-topobld/add-vis-machine.md
+            - name: Adicionar próximo salto do VIS
+              href: ../help-topics/help-topobld/add-vis-next-hop.md
+            - name: Adicionar uso do VIS
+              href: ../help-topics/help-topobld/add-vis-usage.md
+            - name: Associar VIS à borda
+              href: ../help-topics/help-topobld/associate-vis-with-edge.md
+            - name: Nó de escopo do Lync Server 2013
+              href: ../help-topics/help-topobld/lync-server-2013-scope-node.md
+            - name: Nó de escopo do tronco de vídeo SIP
+              href: ../help-topics/help-topobld/sip-video-trunk-scope-node.md
+            - name: Expansor das configurações do tronco de vídeo SIP
+              href: ../help-topics/help-topobld/sip-video-trunk-setting-expander.md
+            - name: Nó de escopo dos troncos de vídeo SIP
+              href: ../help-topics/help-topobld/sip-video-trunks-scope-node.md
+            - name: Configurações gerais de Gateway de Vídeo
+              href: ../help-topics/help-topobld/video-gateway-general-settings.md
+            - name: Escopo do Gateway de Vídeo
+              href: ../help-topics/help-topobld/video-gateway-scope.md
+            - name: Configuração do Gateway de Vídeo
+              href: ../help-topics/help-topobld/video-gateway-setting.md
+            - name: Escopo dos Gateways de Vídeo
+              href: ../help-topics/help-topobld/video-gateways-scope.md
+            - name: Configurações gerais do Servidor de interoperabilidade de vídeo
+              href: ../help-topics/help-topobld/video-interop-server-general-settings.md
+            - name: Configurações de próximo salto do Servidor de interoperabilidade de vídeo
+              href: ../help-topics/help-topobld/video-interop-server-next-hop-settings.md
+            - name: Expansor das configurações de porta do Servidor de interoperabilidade de vídeo
+              href: ../help-topics/help-topobld/video-interop-server-port-settings-expander.md
+            - name: Servidor de interoperabilidade de vídeo - escopo o nó
+              href: ../help-topics/help-topobld/video-interop-serverscope-the-node.md
+            - name: Servidores de interoperabilidade de vídeo - escopo o nó
+              href: ../help-topics/help-topobld/video-interop-serversscope-the-node.md
+            - name: Adicionar Servidor de Borda com Página FQDN Única
+              href: ../help-topics/help-topobld/add-edge-server-with-single-fqdn-page.md
+            - name: Teste - Site Nó de Escopo Raiz do Skype for Business Server
+              href: ../help-topics/help-topobld/testskype-for-business-server-site-scope-node.md
+            - name: Nó de Escopo Raiz do Skype for Business Server
+              href: ../help-topics/help-topobld/skype-for-business-server-root-scope-node.md

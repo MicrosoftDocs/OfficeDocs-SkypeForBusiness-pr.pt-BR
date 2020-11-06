@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 51b3333723624dc0c250ce3e4de9a3af88ad84f1
-ms.sourcegitcommit: a1524afb546fde9844f53390fab85e7073da8cb2
+ms.openlocfilehash: 28d5c9b318c2ce098d1f361f8af4b074260aaf98
+ms.sourcegitcommit: e95519cbcc4078810b251c6725863e4610323319
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "48778894"
+ms.lasthandoff: 11/05/2020
+ms.locfileid: "48925463"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>Teams para Infraestrutura de Área de Trabalho Virtualizada
 
@@ -187,7 +187,7 @@ Para saber mais sobre o Teams e aplicativos do Microsoft 365 para empresas, cons
 
         > [!NOTE]
         > Esses exemplos também usam o parâmetro **AllUsers = 1** . Quando você define esse parâmetro, o instalador do teams Machine-Wide aparece em programas e recursos no painel de controle e em aplicativos & recursos nas configurações do Windows para todos os usuários do computador. Em seguida, todos os usuários podem desinstalar o Microsoft Teams, caso tenham credenciais de administrador.
-        É importante compreender a diferença entre **AllUsers = 1** e **usuário = 1** . O parâmetro **AllUsers = 1** pode ser usado em ambientes que não sejam VDI e VDI, enquanto o parâmetro **MyUser = 1** é usado somente em ambientes de VDI para especificar uma instalação por máquina.
+        É importante compreender a diferença entre **AllUsers = 1** e **usuário = 1**. O parâmetro **AllUsers = 1** pode ser usado em ambientes que não sejam VDI e VDI, enquanto o parâmetro **MyUser = 1** é usado somente em ambientes de VDI para especificar uma instalação por máquina.
 
 3. Desinstale o MSI da VM VDI. Há duas maneiras de desinstalar o Microsoft Teams.
 
@@ -229,7 +229,6 @@ Para saber mais sobre como preparar sua rede para o Microsoft Teams, consulte [p
 
 Se você estiver migrando do Skype for Business no VDI para o Teams no VDI, além das diferenças entre os dois aplicativos, há algumas diferenças quando o VDI também é implementado. Alguns recursos que atualmente não são compatíveis com o VDI do teams na VDI do Skype for Business são os seguintes:
 
-- Controle de experiências de chamada VDI com políticas para limitar a taxa de bits de mídia
 - Política por plataforma para desabilitar alguns recursos AV do VDI
 - Conceder e assumir o controle quando o compartilhamento de aplicativos
 - Compartilhamento de tela de chat sem áudio
@@ -260,27 +259,27 @@ Como fazer [**chamadas para políticas**](teams-calling-policy.md): o Teams incl
 
 Para atribuir a política de chamada do DisallowCalling e a política de reunião do AllOff a um usuário:
 
-1. Na navegação à esquerda do centro de administração do Microsoft Teams, vá para **usuários** .
-2. Selecione o usuário clicando à esquerda do nome de exibição do usuário e clique em **Editar configurações** .
+1. Na navegação à esquerda do centro de administração do Microsoft Teams, vá para **usuários**.
+2. Selecione o usuário clicando à esquerda do nome de exibição do usuário e clique em **Editar configurações**.
 3. Siga este procedimento:
-    1.  Em **política de chamada** , clique em **DisallowCalling** .
-    2.  Em **política de reunião** , clique em **AllOff** .
-4. Clique em **Aplicar** .
+    1.  Em **política de chamada** , clique em **DisallowCalling**.
+    2.  Em **política de reunião** , clique em **AllOff**.
+4. Clique em **Aplicar**.
 
 Para atribuir uma política a vários usuários por vez:
 
 1. Na barra de navegação à esquerda do centro de administração do Microsoft Teams, vá para **Usuários** e, em seguida, pesquise os usuários ou filtre o modo de exibição para mostrar os usuários que você deseja.
 2. Na coluna **&#x2713;** (marca de seleção), selecione os usuários. Para selecionar todos os usuários, clique na (marca de seleção) &#x2713; na parte superior da tabela.
-3. Clique em **Editar configurações** , faça as alterações desejadas e, em seguida, clique em **Aplicar** .
+3. Clique em **Editar configurações** , faça as alterações desejadas e, em seguida, clique em **Aplicar**.
 
 Ou, você também pode fazer o seguinte:
 
 1. Na navegação à esquerda do centro de administração do Microsoft Teams, vá para a política que você deseja atribuir. Por exemplo:
-    - Vá para **Voice**  >  **políticas de chamadas** de voz e clique em **DisallowCalling** .
-    - Vá para **Meetings**  >  **políticas de reunião** de reuniões e clique em **AllOff** .
-2. Selecione **Gerenciar usuários** .
-3. No painel **Gerenciar usuários** , procure o usuário pelo nome de exibição ou pelo nome de usuário, escolha o nome e clique em **Adicionar** . Repita esta etapa para cada usuário que você deseja adicionar.
-4. Quando tiver terminado de adicionar usuários, clique em **salvar** .
+    - Vá para **Voice**  >  **políticas de chamadas** de voz e clique em **DisallowCalling**.
+    - Vá para **Meetings**  >  **políticas de reunião** de reuniões e clique em **AllOff**.
+2. Selecione **Gerenciar usuários**.
+3. No painel **Gerenciar usuários** , procure o usuário pelo nome de exibição ou pelo nome de usuário, escolha o nome e clique em **Adicionar**. Repita esta etapa para cada usuário que você deseja adicionar.
+4. Quando tiver terminado de adicionar usuários, clique em **salvar**.
 
 #### <a name="assign-policies-using-powershell"></a>Atribuir políticas usando o PowerShell
 
@@ -316,27 +315,27 @@ Como fazer [**chamadas**](teams-calling-policy.md)para políticas: as políticas
 
 Para atribuir a política de chamada do AllowCalling e a política de reunião do enistor a um usuário:
 
-1. Na navegação à esquerda do centro de administração do Microsoft Teams, vá para **usuários** .
-2. Selecione o usuário clicando à esquerda do nome de exibição do usuário e clique em **Editar configurações** .
+1. Na navegação à esquerda do centro de administração do Microsoft Teams, vá para **usuários**.
+2. Selecione o usuário clicando à esquerda do nome de exibição do usuário e clique em **Editar configurações**.
 3. Siga este procedimento:
-    1.  Em **política de chamada** , clique em **AllowCalling** .
-    2.  Em **política de reunião** , clique em **permitir** .
-4. Clique em **Aplicar** .
+    1.  Em **política de chamada** , clique em **AllowCalling**.
+    2.  Em **política de reunião** , clique em **permitir**.
+4. Clique em **Aplicar**.
 
 Para atribuir uma política a vários usuários por vez:
 
 1. Na barra de navegação à esquerda do centro de administração do Microsoft Teams, vá para **Usuários** e, em seguida, pesquise os usuários ou filtre o modo de exibição para mostrar os usuários que você deseja.
 2. Na coluna **&#x2713;** (marca de seleção), selecione os usuários. Para selecionar todos os usuários, clique no **&#x2713;** (marca de seleção) na parte superior da tabela.
-3. Clique em **Editar configurações** , faça as alterações desejadas e, em seguida, clique em **Aplicar** .
+3. Clique em **Editar configurações** , faça as alterações desejadas e, em seguida, clique em **Aplicar**.
 
 Ou, você também pode fazer o seguinte:
 
 1. Na navegação à esquerda do centro de administração do Microsoft Teams, vá para a política que você deseja atribuir. Por exemplo:
-    - Vá para **Voice**  >  **políticas de chamadas** de voz e clique em **AllowCalling** .
-    - Vá para **Meetings**  >  **políticas de reunião** de reuniões e clique em **permitir** .
-2. Selecione **Gerenciar usuários** .
-3. No painel **Gerenciar usuários** , procure o usuário pelo nome de exibição ou pelo nome de usuário, escolha o nome e clique em **Adicionar** . Repita esta etapa para cada usuário que você deseja adicionar.
-4. Quando tiver terminado de adicionar usuários, clique em **salvar** .
+    - Vá para **Voice**  >  **políticas de chamadas** de voz e clique em **AllowCalling**.
+    - Vá para **Meetings**  >  **políticas de reunião** de reuniões e clique em **permitir**.
+2. Selecione **Gerenciar usuários**.
+3. No painel **Gerenciar usuários** , procure o usuário pelo nome de exibição ou pelo nome de usuário, escolha o nome e clique em **Adicionar**. Repita esta etapa para cada usuário que você deseja adicionar.
+4. Quando tiver terminado de adicionar usuários, clique em **salvar**.
 
 #### <a name="assign-policies-using-powershell"></a>Atribuir políticas usando o PowerShell
 
@@ -363,7 +362,7 @@ Quando os usuários se conectam de um ponto de extremidade sem suporte, os usuá
 - HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Teams\DisableFallback
 - HKEY_CURRENT_USER\SOFTWARE\Microsoft\Office\Teams\DisableFallback
 
-Para desativar o modo de fallback, defina o valor como **1** . Para habilitar somente áudio, defina o valor como **2** . Se o valor não estiver presente ou estiver definido como **0** (zero), o modo de fallback será habilitado.
+Para desativar o modo de fallback, defina o valor como **1**. Para habilitar somente áudio, defina o valor como **2**. Se o valor não estiver presente ou estiver definido como **0** (zero), o modo de fallback será habilitado.
 
 Este recurso está disponível no Teams versão 1.3.00.13565 e posterior.
 

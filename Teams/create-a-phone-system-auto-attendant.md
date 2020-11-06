@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Saiba como configurar e testar atendedores automáticos do Microsoft Teams.
-ms.openlocfilehash: ae1863d30236321080fb580e9152f8c3a09d0ad2
-ms.sourcegitcommit: 3f465eb6eb46db008f2b69fc4c6bb425d432dfcc
+ms.openlocfilehash: a1770142d9ef02f1e23f446ee457d67c23812ce6
+ms.sourcegitcommit: 20f881285edf699ebf36320664166c95ccd6df35
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48878187"
+ms.lasthandoff: 11/05/2020
+ms.locfileid: "48922434"
 ---
 # <a name="set-up-an-auto-attendant"></a>Configurar um atendedor automático
 
@@ -118,7 +118,7 @@ Os usuários que você deseja disponibilizar por ramal devem ter uma extensão e
 - TelephoneNumber/intervalo
 - OtherTelephone
 
-O formato obrigatório para inserir a extensão no campo de número de telefone do usuário é *+ <phone number> <extension> ext* . ou *+ <phone number> x <extension>*.
+O formato obrigatório para inserir a extensão no campo de número de telefone do usuário é *+ \<phone number> \<extension> ext* . ou *+ \<phone number> x \<extension>*.
 
 Você pode definir a extensão no [centro de administração do Microsoft 365](https://admin.microsoft.com/) ou no [centro de administração do Azure Active Directory](https://aad.portal.azure.com). Pode levar até 12 horas antes que as alterações sejam disponibilizadas para atendedores automáticos e filas de chamadas.
 

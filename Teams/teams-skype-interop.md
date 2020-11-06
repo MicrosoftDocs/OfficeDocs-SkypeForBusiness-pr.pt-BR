@@ -12,12 +12,12 @@ ms.reviewer: vinbel
 search.appverid: MET150
 description: Saiba mais sobre os recursos de interoperabilidade entre usuários do teams na sua organização e usuários do Skype (cliente).
 localization_priority: Normal
-ms.openlocfilehash: 56940dd7fbca87936b3137b1e27bffa92fea3112
-ms.sourcegitcommit: 20f881285edf699ebf36320664166c95ccd6df35
+ms.openlocfilehash: 18031f9d1f4ae9a4e42525f8c722259590349c24
+ms.sourcegitcommit: e95519cbcc4078810b251c6725863e4610323319
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 11/05/2020
-ms.locfileid: "48919033"
+ms.locfileid: "48925423"
 ---
 # <a name="teams-and-skype-interoperability"></a>Teams e interoperabilidade do Skype
 
@@ -90,7 +90,10 @@ No centro de administração do Microsoft Teams, vá para **configurações de t
 
 ### <a name="using-powershell"></a>Usando o PowerShell
 
-Use o cmdlet [set-CsExternalAccessPolicy](https://docs.microsoft.com/powershell/module/skype/set-csexternalaccesspolicy) juntos com o ```EnablePublicCloudAccess``` parâmetro para controlar se os usuários do teams podem se comunicar com os usuários do Skype. Definir o parâmetro para ```true``` permitir que os usuários do Team se comuniquem com usuários do Skype. Você pode usar o ```EnablePublicCloudAudioVideoAccess``` parâmetro para habilitar/desabilitar chamadas de áudio/vídeo.
+Siga este procedimento: 
+1. Use o cmdlet [set-CsExternalAccessPolicy](https://docs.microsoft.com/powershell/module/skype/set-csexternalaccesspolicy) juntos com o ```EnablePublicCloudAccess``` parâmetro para controlar se os usuários do teams podem se comunicar com os usuários do Skype. Definir o parâmetro para ```true``` permitir que os usuários do Team se comuniquem com usuários do Skype. Você pode usar o ```EnablePublicCloudAudioVideoAccess``` parâmetro para habilitar/desabilitar chamadas de áudio/vídeo.
+
+2. Use o cmdlet [set-CsTenantPublicProvider](https://docs.microsoft.com/powershell/module/skype/Set-CsTenantPublicProvider) juntos com o ```Provider``` parâmetro definido para ```"WindowsLive"``` que os usuários do teams possam se comunicar com usuários do Skype.
 
 ## <a name="related-topics"></a>Tópicos relacionados
 
