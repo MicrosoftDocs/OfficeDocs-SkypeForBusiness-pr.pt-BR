@@ -21,12 +21,12 @@ ms.custom: ms.teamsadmincenter.policypackages.overview
 localization_priority: Priority
 search.appverid: MET150
 description: Saiba mais sobre políticas em uma configuração EDU ou educacional e como usar e gerenciar pacotes de políticas no Microsoft Teams.
-ms.openlocfilehash: f8bda2fc5741b9575fa2eabc786b7e565a86f2ea
-ms.sourcegitcommit: 8924cd77923ca321de72edc3fed04425a4b13044
+ms.openlocfilehash: f580d8c41fe629a1c705f650a2aef84302128c20
+ms.sourcegitcommit: ee217e1d7188842c7becd19387fd421b485c3575
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/24/2020
-ms.locfileid: "48262468"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "48908610"
 ---
 # <a name="teams-policies-and-policy-packages-for-education"></a>Políticas do Teams e Pacotes de Políticas para Educação
 
@@ -35,7 +35,7 @@ ms.locfileid: "48262468"
 
 ## <a name="admins-getting-started-with-microsoft-teams-policy-management"></a>Administradores: Introdução ao gerenciamento de política do Microsoft Teams
 
-O Microsoft Teams permite que os usuários realizem ações como participar de reuniões online ou eventos ao vivo, conversar, fazer chamadas e usar aplicativos. Definir as políticas de administração corretas do Microsoft Teams é uma etapa crítica para garantir que o Teams seja um ambiente de aprendizado seguro para os alunos. Como administrador, você pode usar políticas para controlar os recursos do Teams que estão disponíveis para os usuários em sua instituição educacional.  Na maioria dos casos, as políticas devem ser ajustadas para estudantes e professores para que o ambiente seja seguro.  
+O Microsoft Teams permite que os usuários realizem ações como participar de reuniões online ou eventos ao vivo, conversar, fazer chamadas e usar aplicativos. Definir as políticas de administração corretas do Microsoft Teams é uma etapa crítica para garantir que o Teams seja um ambiente de aprendizado seguro para os alunos. Como administrador, você pode usar políticas para controlar os recursos do Teams que estão disponíveis para os usuários em sua instituição educacional.  Na maioria dos casos, as políticas devem ser ajustadas para estudantes e professores para manter o ambiente seguro.  
 
 Aqui está uma lista das principais áreas de políticas que você encontrará no Microsoft Teams. Para saber mais sobre as políticas em cada área e os recursos que eles controlam, use os links a seguir:
 
@@ -107,7 +107,7 @@ Depois que sua definição de política for criada ou atualizada, você poderá 
 
 ![Painel Gerenciar usuários, no lado direito, na parte superior da página Políticas de mensagens.](media/edu-manage-users-pane.png)
 
-Você também pode atribuir uma política a um usuário, navegando até **Usuários**, selecionando o usuário para o qual deseja atualizar as políticas, selecionando **Políticas**, e, em seguida, **Editar**. A partir daí, você pode selecionar a definição de política que deseja atribuir ao usuário para cada área de recursos.
+Você também pode atribuir uma política a um usuário, navegando até **Usuários** , selecionando o usuário para o qual deseja atualizar as políticas, selecionando **Políticas** , e, em seguida, **Editar**. A partir daí, você pode selecionar a definição de política que deseja atribuir ao usuário para cada área de recursos.
 
 ![Edite o painel de políticas do usuário, no lado direito da página Políticas atribuídas.](media/edu-edit-user-policies-pane.png)
 
@@ -151,5 +151,48 @@ Cada política individual recebe o nome do pacote de políticas, para que você 
 > [!NOTE]
 > Se você decidir que os educadores e a equipe de suporte administrativo precisam de políticas diferentes, poderá redefinir um pacote existente: identifique um pacote que não esteja usando no momento e altere as configurações para que sejam apropriadas para esse grupo. Você pode ter que anotar qual grupo tem qual pacote, mas esse é o único impedimento para a redefinição de um pacote.
 
+## <a name="manage-policy-packages"></a>Gerenciar pacotes de política
+
+### <a name="view"></a>Exibir
+
+Exibir as configurações de cada política em um pacote de política antes de atribuir um pacote. Na barra de navegação à esquerda do centro de administração do Microsoft Teams, selecione **Pacotes de Política** , selecione o nome do pacote e, em seguida, selecione o nome da política.
+
+Decida se os valores predefinidos são apropriados para a sua organização ou se você precisa personalizá-los para serem mais restritivos ou leniente com base nas necessidades da sua organização.
+
+### <a name="customize"></a>Personalizar
+
+Personalize as configurações das políticas no pacote de política, conforme necessário, para atender às necessidades da sua organização. As alterações que você fizer nas configurações da política serão automaticamente aplicadas aos usuários que recebem o pacote. Para editar as configurações de uma política em um pacote de política, no centro de administração do Microsoft Teams, selecione o pacote de política, selecione o nome da política que você deseja editar e, em seguida, selecione **Editar**.
+
+Lembre-se de que você também pode alterar as configurações das políticas em um pacote após atribuir o pacote de política. Para saber mais, confira [Personalizar políticas em um pacote de política](manage-policy-packages.md#customize-policies-in-a-policy-package). 
+
+### <a name="assign"></a>Atribuir
+
+Atribua o pacote de política aos usuários. Se um usuário tiver uma política atribuída e, em seguida, você atribuir uma política diferente, a atribuição mais recente terá prioridade.
+
+#### <a name="assign-a-policy-package-to-one-or-several-users"></a>Atribuir um pacote de política a um ou vários usuários
+
+Para atribuir um pacote de política a um ou vários usuários, na barra de navegação à esquerda do centro de administração do Microsoft Teams, vá para **Pacotes de política** e, em seguida, selecione **Gerenciar usuários**.  
+
+![Captura de tela de como atribuir um pacote de política no centro de administração](media/policy-packages-healthcare-assign.png)
+
+Para saber mais, confira [Atribuir um pacote de política](manage-policy-packages.md#assign-a-policy-package).
+
+Se um usuário tiver uma política atribuída e, em seguida, você atribuir uma política diferente, a atribuição mais recente terá prioridade.
+
+#### <a name="assign-a-policy-package-to-a-group"></a>Atribua o pacote de política a um grupo.
+
+**Este recurso está na visualização particular**
+
+As atribuições de pacote de política aos grupos permitem atribuir várias políticas a um grupo de usuários, como uma lista de distribuição ou grupo de segurança. As atribuições de política serão propagadas para os membros do grupo, de acordo com as regras de precedência. À medida que os membros forem adicionados ou removidos de um grupo, as atribuições de política herdadas serão atualizadas. Esse método é recomendado para grupos de até 50.000 usuários, mas também funcionará com grupos maiores.
+
+Para saber mais, confira [Atribuir um pacote de política a um grupo](assign-policies.md#assign-a-policy-package-to-a-group).
+
+#### <a name="assign-a-policy-package-to-a-large-set-batch-of-users"></a>Atribuir um pacote de política a um conjunto grande (lote) de usuários
+
+Use a tarefa de pacote de política de lote para atribuir um pacote de política a grandes conjuntos de usuários por vez. Use o cmdlet [New-CsBatchPolicyPackageAssignmentOperation](https://docs.microsoft.com/powershell/module/teams/new-csbatchpolicypackageassignmentoperation) para enviar um lote de usuários e o pacote de política que você deseja atribuir. As atribuições são processadas como uma operação de plano de fundo e uma ID de operação é gerada para cada lote.
+
+Um lote pode conter até 5.000 usuários. Você pode especificar os usuários por ID do objeto, UPN, endereço SIP ou endereço de email. Para saber mais, confira [Atribuir um pacote de política a um lote de usuários](assign-policies.md#assign-a-policy-package-to-a-batch-of-users).
+
 ## <a name="policies-that-should-be-assigned-for-student-safety"></a>Políticas que devem ser atribuídas à segurança do estudante
+
 Para obter mais informações sobre as etapas necessárias para proteger os alunos em seu ambiente, reveja cuidadosamente [Manter os alunos seguros enquanto usam o Teams para aprendizagem à distância](https://support.office.com/article/keeping-students-safe-while-using-meetings-in-teams-for-distance-learning-f00fa399-0473-4d31-ab72-644c137e11c8).
