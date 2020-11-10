@@ -16,12 +16,12 @@ f1.keywords:
 description: Otimização de mídia local para roteamento direto
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 060b6f0fdf92969894cad98178073a4288eb2325
-ms.sourcegitcommit: 25e70de7c943e22fe6ac6e8d6b4353ca68f81f83
+ms.openlocfilehash: ebf6ca7b8b3c1bd18ffb5c00f124d90f973c4b46
+ms.sourcegitcommit: aec9fcc178c227d9cfe3e2bf57d0f3bf4c318d49
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/06/2020
-ms.locfileid: "43157926"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "48950785"
 ---
 # <a name="local-media-optimization-for-direct-routing"></a>Otimização de mídia local para roteamento direto
 
@@ -49,25 +49,25 @@ Este artigo descreve a funcionalidade dos recursos e as soluções e os cenário
 
 Para esta discussão, suponha que a contoso executa várias empresas em todo o mundo da seguinte maneira. (Observe que as regiões Europa e Ásia-oeste são usadas apenas como exemplos. Uma empresa pode ter várias regiões diferentes com requisitos semelhantes.)
  
-- **Na Europa**, a contoso tem escritórios em cerca de 30 países. Cada escritório tem sua própria agência de intercâmbio privada (PBX). 
+- **Na Europa** , a contoso tem escritórios em cerca de 30 países. Cada escritório tem sua própria agência de intercâmbio privada (PBX). 
 
   A contoso ofereceu uma opção para centralizar os troncos em um local--Amsterdã--para todos os 30 escritórios europeus. A contoso implantou o SBC em Amsterdã, desde largura de banda suficiente para executar chamadas por meio do local centralizado, conectar um tronco SIP central ao local centralizado e começar a servir todos os locais europeus do Amsterdã. 
 
-- **Na região da Ásia, a**contoso tem vários escritórios em diferentes países. 
+- **Na região da Ásia, a** contoso tem vários escritórios em diferentes países. 
 
   Em muitos países, a empresa ainda tem troncos TDM (multiplexação de divisão de tempo) em filiais locais. A centralização dos troncos TDM não é uma opção na região da Ásia e, portanto, não é possível mudar para SIP. Suponha que há mais de 50 filiais da Contoso na região da Ásia-Pacífico com centenas de gateways (SBCs). Nesse cenário, não é possível emparelhar todos os gateways para a interface de roteamento direto devido a falta de endereços IP públicos e/ou debates locais na Internet. Além disso, alguns países impõem requisitos regulatórios que não podem ser atendidos sem conectividade de rede PSTN local.
 
 Com base em suas necessidades comerciais, a contoso implementou duas soluções com otimização de mídia local para roteamento direto:
 
-- **Na Europa**, todos os troncos são centralizados e os fluxos de mídia entre o SBC central e os usuários, com base no local do usuário. 
+- **Na Europa** , todos os troncos são centralizados e os fluxos de mídia entre o SBC central e os usuários, com base no local do usuário. 
 
   - Se um usuário estiver conectado à sub-rede local de uma rede corporativa (ou seja, o usuário for interno), o fluxo de mídia entre o IP interno do SBC central e o cliente das equipes do usuário. 
   
   - Se um usuário estiver fora dos limites da rede corporativa, por exemplo, se o usuário estiver usando uma conexão de Internet pública sem fio--então o usuário será considerado externo. Nesse caso, a mídia flui entre o IP externo do SBC central e o cliente da equipe.
 
-- **Na região da Ásia**, um SBC de proxy centralizado está emparelhado ao direcionamento direto da Microsoft, que direciona a mídia entre a interface de roteamento direto e a SBCS de downstream em filiais locais. 
+- **Na região da Ásia** , um SBC de proxy centralizado está emparelhado ao direcionamento direto da Microsoft, que direciona a mídia entre a interface de roteamento direto e a SBCS de downstream em filiais locais. 
 
-  O SBCs downstream nas filiais locais não está diretamente visível para o roteamento direto na Ásia, mas ele está emparelhado usando o cmdlet Set-CSOnlinePSTNGateway para criar uma topologia de rede virtual no sistema telefônico da Microsoft. A mídia sempre fica local quando possível. Os usuários externos têm fluxo de mídia entre o cliente da equipe e o IP público do SBC do proxy.
+  O SBCs downstream nas filiais locais não está diretamente visível para o roteamento direto na Ásia, mas eles são emparelhados usando o cmdlet Set-CSOnlinePSTNGateway para criar uma topologia de rede virtual no sistema telefônico da Microsoft. A mídia sempre fica local quando possível. Os usuários externos têm fluxo de mídia entre o cliente da equipe e o IP público do SBC do proxy.
 
 
 ## <a name="central-sbc-with-centralized-trunks"></a>SBC central com troncos centralizados
@@ -210,7 +210,7 @@ Tabela 3. Configuração de exemplo para o cenário 1
 
 | Localização física do usuário | O usuário faz uma chamada para um número | Política de roteamento de voz online | Modo configurado para SBC | Fluxo de mídia | 
 |:------------|:-------|:-------|:-------|:-------|
-| Alemanha | + 49 1 437 2800 | Prioridade 1: ^\+49 (\d{8}) $-DEsbc.contoso.com<br>Prioridade 2:. *-proxysbc.contoso.com| DEsbc.contoso.com – sempre ignorar <br>proxysbc.contoso.com – sempre ignorar | < de usuários do teams – > DEsbc.contoso.com |
+| Alemanha | + 49 1 437 2800 | Prioridade 1: ^ \+ 49 (\d {8} ) $-DEsbc.contoso.com<br>Prioridade 2:. *-proxysbc.contoso.com| DEsbc.contoso.com – sempre ignorar <br>proxysbc.contoso.com – sempre ignorar | < de usuários do teams – > DEsbc.contoso.com |
 
 O diagrama a seguir mostra o fluxo de tráfego de alto nível para o usuário interno na Alemanha, que faz uma chamada telefônica direta de roteamento por meio do teams para o número na Alemanha. 
 
@@ -238,7 +238,7 @@ Tabela 4. Configuração de exemplo para o cenário 2
 
 | Localização física do usuário | O usuário faz uma chamada para um número | Política de roteamento de voz online | Modo configurado para SBC | Fluxo de mídia | 
 |:------------|:-------|:-------|:-------|:-------|
-| França | + 49 1 437 2800 | Prioridade 1: ^\+49 (\d{8}) $-DEsbc.contoso.com <br>Prioridade 2:. *-proxysbc.contoso.com |  DEsbc.contoso.com – sempre ignorar proxysbc.contoso.com – sempre ignorar | < de usuários do teams – > DEsbc.contoso.com  |
+| França | + 49 1 437 2800 | Prioridade 1: ^ \+ 49 (\d {8} ) $-DEsbc.contoso.com <br>Prioridade 2:. *-proxysbc.contoso.com |  DEsbc.contoso.com – sempre ignorar proxysbc.contoso.com – sempre ignorar | < de usuários do teams – > DEsbc.contoso.com  |
 
 O diagrama a seguir mostra o fluxo de tráfego de alto nível quando o usuário interno do alemão localizado na França faz uma chamada telefônica direta por meio do teams para o número na Alemanha. 
 
@@ -274,7 +274,7 @@ Tabela 5. Configuração de exemplo para modo ' somente para usuários locais ' 
 
 | Localização física do usuário | O usuário faz uma chamada para um número | Política de roteamento de voz online | Modo configurado para SBC | Fluxo de mídia | 
 |:------------|:-------|:-------|:-------|:-------|
-| Vietnã | + 84 4 3926 3000 | Prioridade 1: ^\+84 (\d{9}) $-VNsbc.contoso.com <br>Prioridade 2:. *-proxysbc.contoso.com | VNsbc.contoso.com – somente para usuários locais <br> proxysbc.contoso.com – sempre ignorar | < de usuários do teams – > VNsbc.contoso.com |
+| Vietnã | + 84 4 3926 3000 | Prioridade 1: ^ \+ 84 (\d {9} ) $-VNsbc.contoso.com <br>Prioridade 2:. *-proxysbc.contoso.com | VNsbc.contoso.com – somente para usuários locais <br> proxysbc.contoso.com – sempre ignorar | < de usuários do teams – > VNsbc.contoso.com |
 
 No diagrama a seguir, um usuário atribuído à filial local no Vietnã, enquanto em local, faz uma chamada telefônica direta por meio do teams. 
 
@@ -295,13 +295,13 @@ Diagrama 7. Fluxo de tráfego com o modo "somente para usuários locais" e o usu
 
 #### <a name="scenario-2-the-user-and-gateways-are-in-different-sites"></a>Cenário 2. O usuário e os gateways estão em sites diferentes
 
-Suponha que o SBC em Cingapura esteja configurado como um SBC do proxy para o SBCs downstream local no Vietnã e na Indonésia. O usuário interno na Indonésia, localizado na filial local, é fazer uma chamada de roteamento direto para o Vietnã. As políticas de roteamento de voz online especificam que chamadas para o Vietnã (com código de área + 84) devem ser roteadas para o SBC local no Vietnã. Todas as outras chamadas--e, em caso de falha do SBC no Vietnã, as chamadas para o Vietnã--devem ser roteadas para o SBC do proxy em Cingapura. O SBC do proxy em Cingapura está definido como o modo ' sempre byass ' e o SBC local no Vietnã está definido como ' somente para usuários locais '. A tabela a seguir resume o exemplo de configuração. 
+Suponha que o SBC em Cingapura esteja configurado como um SBC do proxy para o SBCs downstream local no Vietnã e na Indonésia. O usuário interno na Indonésia, localizado na filial local, é fazer uma chamada de roteamento direto para o Vietnã. As políticas de roteamento de voz online especificam que chamadas para o Vietnã (com código de área + 84) devem ser roteadas para o SBC local no Vietnã. Todas as outras chamadas--e, em caso de falha do SBC no Vietnã, as chamadas para o Vietnã--devem ser roteadas para o SBC do proxy em Cingapura. O SBC do proxy em Cingapura está definido como o modo ' sempre ignorar ' e o SBC local no Vietnã está definido como ' somente para usuários locais '. A tabela a seguir resume o exemplo de configuração. 
 
 Tabela 6. Configuração do usuário
 
 | Localização física do usuário | O usuário faz uma chamada para um número | Política de roteamento de voz online | Modo configurado para SBC | Fluxo de mídia | 
 |:------------|:-------|:-------|:-------|:-------|
-| Indonésia | + 84 4 3926 3000 | Prioridade 1: ^\+84 (\d{9}) $-VNsbc.contoso.com <br> Prioridade 2:. *-proxysbc.contoso.com |VNsbc.contoso.com – somente para usuários locais <br> proxysbc.contoso.com – sempre ignorar | < de usuário do teams – > proxysbc.contoso.com < – > VNsbc.contoso.com |
+| Indonésia | + 84 4 3926 3000 | Prioridade 1: ^ \+ 84 (\d {9} ) $-VNsbc.contoso.com <br> Prioridade 2:. *-proxysbc.contoso.com |VNsbc.contoso.com – somente para usuários locais <br> proxysbc.contoso.com – sempre ignorar | < de usuário do teams – > proxysbc.contoso.com < – > VNsbc.contoso.com |
 
 
 No diagrama a seguir, o usuário interno, enquanto em local no escritório da filial em indonésio, faz uma chamada telefônica direta por meio do teams para um número no Vietnã. 
@@ -321,5 +321,14 @@ No diagrama a seguir, o usuário interno, enquanto em local no escritório da fi
 Diagrama 8.  Fluxo de tráfego com o modo "somente para usuários locais" e o usuário não está no site "Home", mas na rede interna
 
 ![Diagrama mostrando a otimização de mídia local do fluxo de tráfego](media/direct-routing-media-op-8.png "Fluxo de tráfego com o modo "somente para usuários locais", o usuário não está no site "Home", mas na rede interna")
+
+## <a name="known-issues"></a>Problemas conhecidos
+
+Veja a seguir uma lista de problemas conhecidos que estão presentes atualmente na otimização de mídia local. A Microsoft está trabalhando para resolver esses problemas.
+
+| Problema | Possíveis |
+| :--- | :--- |
+| O cliente de equipes não é identificado como **interno** quando o IP público do cliente do teams corresponde à lista de IPs confiáveis do cliente. | A otimização de mídia local requer que a sub-rede do cliente do teams corresponda uma [sub-rede de rede](https://docs.microsoft.com/powershell/module/skype/new-cstenantnetworksubnet?view=skype-ps) configurada por locatário|
+| Os escalonamentos de chamadas resultam em chamadas ignoradas quando o cliente do teams é identificado como interno.| Desabilite a otimização de mídia local no SBC Routing direto.|
 
 
