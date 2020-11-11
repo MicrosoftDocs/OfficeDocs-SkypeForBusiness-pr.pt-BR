@@ -16,12 +16,12 @@ description: Este artigo explica o que são barreiras de informações no Micros
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 519e216a8736ca214f65f11ca5b3509541c09860
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: d46a911d3844c7dbc95bf81feeec792173de012f
+ms.sourcegitcommit: 75eb4cce1a63cf200736790b74f4bb849e0e21ac
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48508348"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "48988318"
 ---
 # <a name="information-barriers-in-microsoft-teams"></a>Barreiras de informação no Microsoft Teams
 
@@ -44,7 +44,7 @@ No entanto, como apresentar barreiras de informação, muitas outras áreas o en
 - Educação: os alunos em uma escola não conseguem Pesquisar detalhes de contato para alunos de outras escolas.
 - Legal: manter a confidencialidade dos dados obtidos pela advogado de um cliente de ser acessado por um advogado para a mesma firma que representa um cliente diferente.
 - Governo: o acesso às informações e o controle são limitados entre departamentos e grupos.
-- Serviços profissionais: um grupo de pessoas em uma empresa só pode conversar com um cliente ou cliente específico via Federação ou acesso de convidado durante um envolvimento do cliente.
+- Serviços profissionais: um grupo de pessoas em uma empresa só pode conversar com um cliente ou cliente específico via acesso de convidado durante um envolvimento do cliente.
 
 Por exemplo, Enrico pertence ao segmento bancário e Pradeep pertence ao segmento de supervisor financeiro. O Enrico e o Pradeep não conseguem se comunicar uns com os outros porque a política IB da organização bloqueia a comunicação e a colaboração entre esses dois segmentos. No entanto, Enrico e Pradeep podem se comunicar com Lee em RH.
 
@@ -169,7 +169,7 @@ Atualmente, os usuários perceberão os seguintes cenários se uma política de 
 
 Quando uma equipe é criada, um site do SharePoint é provisionado e associado ao Microsoft Teams para a experiência dos arquivos. As políticas de barreira de informações não são respeitadas neste site e arquivos do SharePoint por padrão. Para habilitar as políticas de barreira de informações, o administrador já preencheu um formulário, solicitando que as políticas de IB sejam habilitadas no SharePoint e no OneDrive (consulte a seção de *pré-requisitos* nas [barreiras de informação](https://docs.microsoft.com/sharepoint/information-barriers#prerequisites)). Se a política de barreira de informações estiver ativada no SharePoint e no OneDrive, as políticas de IB funcionarão em sites do SharePoint provisionados quando uma equipe for criada com o Microsoft Teams.
 
-**Exemplo de políticas de IB no site do SharePoint de uma equipe**: na contoso Bank Corporation, o usuário "Sesha@contosobank.onmicrosoft.com" pertence ao segmento do banco de investimentos, e o usuário ' Nikita@contosobank.onmicrosoft.com ' pertence ao Conselho do segmento. A política IB da organização bloqueia a comunicação e a colaboração entre esses dois segmentos.
+**Exemplo de políticas de IB no site do SharePoint de uma equipe** : na contoso Bank Corporation, o usuário "Sesha@contosobank.onmicrosoft.com" pertence ao segmento do banco de investimentos, e o usuário ' Nikita@contosobank.onmicrosoft.com ' pertence ao Conselho do segmento. A política IB da organização bloqueia a comunicação e a colaboração entre esses dois segmentos.
 Quando o usuário Sesha cria um segmento de banco de investimentos, a equipe e o site do SharePoint que os reproduzir serão acessíveis somente para os usuários do segmento do banco de investimentos. O Nikita do usuário não pode acessar esse site, mesmo que ele tenha o link do site.
 
 Consulte o artigo [barreiras de informação](https://docs.microsoft.com/sharepoint/information-barriers#segments-associated-with-microsoft-teams-sites) para obter mais detalhes.
@@ -179,7 +179,9 @@ Consulte o artigo [barreiras de informação](https://docs.microsoft.com/sharepo
 Para obter mais informações, incluindo planos e preços, consulte [orientação de licenciamento](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance).
 
 ## <a name="known-issues"></a>Problemas conhecidos
-- **Os usuários não podem ingressar em reuniões**: se as políticas do IB estiverem habilitadas, os usuários não poderão ingressar em reuniões se o tamanho da lista de reunião for maior do que os [limites de presença da reunião](limits-specifications-teams.md). A causa raiz é que as verificações de IB dependem se os usuários podem ser adicionados a uma lista de chats de reunião e leva esse sinal para permitir que os usuários ingressem em reuniões. Ao ingressar em uma reunião, você será adicionado ao usuário à lista, portanto para reuniões recorrentes, a escala será preenchida rapidamente. Quando atingir os [limites de participação da reunião](limits-specifications-teams.md), nenhum usuário adicional poderá ser adicionado à lista de chats da reunião. Se o IB estiver habilitado, os usuários não poderão ingressar na reunião, mas se a IB não estiver habilitada, os usuários poderão ingressar na reunião, embora não sejam adicionados à lista de chats da reunião. Uma solução de curto prazo é remover membros inativos da lista de chats da reunião para liberar espaço para novos usuários. No entanto, vamos aumentar o tamanho das escalas de chat da reunião em uma data posterior.
+- **Os usuários não podem ingressar em reuniões ad hoc** : se as políticas do IB estiverem habilitadas, os usuários não poderão ingressar em reuniões se o tamanho da lista de reunião for maior do que os [limites de presença da reunião](limits-specifications-teams.md). A causa raiz é que as verificações de IB dependem se os usuários podem ser adicionados a uma lista de chats de reunião e leva esse sinal para permitir que os usuários ingressem em reuniões. Ao ingressar em uma reunião, você será adicionado ao usuário à lista, portanto para reuniões recorrentes, a escala será preenchida rapidamente. Quando atingir os [limites de participação da reunião](limits-specifications-teams.md), nenhum usuário adicional poderá ser adicionado à lista de chats da reunião. Se o IB estiver habilitado para o locatário e a lista de chats estiver cheia para uma reunião, novos usuários (aqueles que ainda não estão na lista) não poderão ingressar na reunião. Mas se a IB não estiver habilitada para o locatário e a lista de chats da reunião estiver cheia, novos usuários (aqueles que ainda não estão na lista) poderão ingressar na reunião, embora não vejam a opção chat na reunião. Uma solução de curto prazo é remover membros inativos da lista de chats da reunião para liberar espaço para novos usuários. No entanto, vamos aumentar o tamanho das escalas de chat da reunião em uma data posterior.
+
+- **Os usuários não podem ingressar em reuniões de canal** : se as políticas do IB estiverem habilitadas, os usuários não poderão participar de reuniões de canal se não forem membros da equipe. A causa raiz é que as verificações de IB dependem se os usuários podem ser adicionados a uma lista de chats de reunião e leva esse sinal para permitir que os usuários ingressem em reuniões. O thread de chat em uma reunião de canal está disponível somente para membros de equipe/canal, e não membros não podem ver/acessar o thread de chat. Se o IB estiver habilitado para o locatário e um membro de não equipe tentar ingressar em uma reunião de canal, o usuário não poderá ingressar na reunião. Mas se a IB não estiver habilitada para o locatário e um membro da equipe tentar ingressar em uma reunião de canal, o usuário poderá ingressar na reunião, no entanto, ela não verá a opção chat na reunião.
 
 ## <a name="more-information"></a>Mais informações
 

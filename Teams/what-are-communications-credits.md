@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Licensing
 description: 'Learn what Communication Credits (PSTN Consumption) billing, how to find rates, and what services you get. '
-ms.openlocfilehash: 11777ccfd8ed3aa6cbfca14c2c8a507373230425
-ms.sourcegitcommit: fae47764336b47c65e9e24b9abd6fe23ad9fc1a4
+ms.openlocfilehash: 60c80f9eac7aac4f024f8517690227a507501efd
+ms.sourcegitcommit: 247b2587a60b1609947310ec82d51f47cf829703
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "48341085"
+ms.lasthandoff: 11/11/2020
+ms.locfileid: "48993447"
 ---
 # <a name="what-are-communications-credits"></a>O que são Créditos de Comunicação?
 
@@ -36,7 +36,7 @@ Os créditos de comunicações são uma maneira conveniente de pagar pela Confer
     
 - Discagem de uma reunião de conferência de áudio para adicionar outra pessoa de qualquer lugar do mundo.
     
-- Discagem de uma reunião de conferência de áudio para seu celular com o aplicativo Skype for Business ou Microsoft Teams instalado para destinos que ainda não estão incluídos na sua assinatura.
+- Discar de uma reunião de conferência de áudio para seu celular com o aplicativo Microsoft Teams ou o aplicativo Skype for Business instalado para destinos que ainda não estão incluídos na sua assinatura.
     
 - Disque qualquer número de telefone internacional quando tiver assinaturas de **plano de chamada doméstica** .
     
@@ -56,7 +56,7 @@ Se você estiver se perguntando qual o custo das chamadas para os planos de cham
   
 ## <a name="what-is-it"></a>O que é isso?
 
-Para usar números de chamada gratuita no Skype for Business, é necessário fazer créditos de comunicação, pois essas chamadas são cobradas por minuto. Além disso, recomendamos que você configure créditos de comunicações para o seu plano de chamadas e usuários de audioconferência que precisam da capacidade de discar para **qualquer destino PSTN**. Muitos países/regiões estão incluídos, mas alguns destinos podem não ser incluídos no seu plano de chamadas ou assinaturas de audioconferência. Se você não configurar créditos de comunicações ou atribuir uma licença a seus usuários e tiver minutos para a sua organização (dependendo do seu plano de chamadas, do plano de audioconferência ou do seu país/região), esses usuários não poderão fazer chamadas nem discar de reuniões online de videoconferência.
+Para usar números de chamada gratuita, os créditos de comunicações são obrigatórios, pois essas chamadas são cobradas por minuto. Além disso, recomendamos que você configure créditos de comunicações para o seu plano de chamadas e usuários de audioconferência que precisam da capacidade de discar para **qualquer destino PSTN**. Muitos países/regiões estão incluídos, mas alguns destinos podem não ser incluídos no seu plano de chamadas ou assinaturas de audioconferência. Se você não configurar créditos de comunicações ou atribuir uma licença a seus usuários e tiver minutos para a sua organização (dependendo do seu plano de chamadas, do plano de audioconferência ou do seu país/região), esses usuários não poderão fazer chamadas nem discar de reuniões online de videoconferência.
   
 > [!NOTE]
 > Você deve configurar créditos de comunicações e atribuir uma licença de créditos de comunicações para cada usuário no **centro de administração do Microsoft 365**  >  **usuários**  >  **ativos**. As licenças de créditos de comunicações aparecerão como ilimitadas, pois são usadas para conceder acesso ao saldo dos créditos de comunicações para qualquer usuário ao qual você atribui a licença dos créditos de comunicações.
@@ -68,13 +68,35 @@ Você pode configurar a cobrança de consumo usando um **financiamento único** 
 > [!NOTE]
 > Você pode ver os planos e preços ao [entrar no centro de administração do Microsoft 365](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog) e ir para assinaturas de **cobrança**  >  **Subscriptions**  >  **adicionar assinaturas**. 
   
-No **centro de administração do 365 do Microsoft**  >  **Billing**  >  **Purchase Services**  >  **Complementos** do serviços de compra você pode selecionar créditos de comunicação para adicionar os créditos, e você pode adicionar crédito manualmente a qualquer momento. Você também pode habilitar a opção **Recarga automática**, que permitirá a recarga automática da conta quando o saldo ficar abaixo do limite definido. Se você optar por financiar o saldo do seu crédito de comunicações com um valor único e o saldo ficar em zero, os cenários de chamadas adicionais acima não funcionarão mais, incluindo números de telefone de chamada gratuita. Assim, é recomendável que você use a configuração de **recarga automática** para evitar qualquer interrupção do serviço caso o saldo dos créditos de comunicações atinja 0 (zero). Você receberá emails para todos os usuários com funções de administração globais, de cobrança e de equipes, ao recarregar as transações com êxito, recarregar transações que falham (como um cartão de crédito expirado) e ou o saldo dos créditos de comunicações atinge 0 (zero). Você também pode ver o saldo atual dos créditos de comunicação ao **cobrar**  >  **os créditos de comunicação dos seus produtos**  >  **Communications Credits**.
+No **centro de administração do 365 do Microsoft**  >  **Billing**  >  **Purchase Services**  >  **Complementos** do serviços de compra você pode selecionar créditos de comunicação para adicionar os créditos, e você pode adicionar crédito manualmente a qualquer momento. Você também pode habilitar a opção **Recarga automática** , que permitirá a recarga automática da conta quando o saldo ficar abaixo do limite definido. Se você optar por financiar o saldo do seu crédito de comunicações com um valor único e o saldo ficar em zero, os cenários de chamadas adicionais acima não funcionarão mais, incluindo números de telefone de chamada gratuita. Assim, é recomendável que você use a configuração de **recarga automática** para evitar qualquer interrupção do serviço caso o saldo dos créditos de comunicações atinja 0 (zero). Você pode ver o saldo atual dos créditos de comunicação ao **cobrar**  >  **os créditos de comunicação dos seus produtos**  >  **Communications Credits**.
+
+> [!NOTE]
+>Você receberá emails para **todos os usuários** com o administrador de serviços do Lync, administrador da empresa, administrador de cobrança, administrador da empresa, administrador da conta de usuário, administrador da assistência técnica, administrador de suporte do serviço, administrador de cobrança administrador de serviço do Lync, administradores de dispositivo, administrador de aplicativos, administrador de licenças, administrador de dispositivo na nuvem, administrador de autenticação, administrador de autenticação privilegiada, administrador de comunicações de equipes, engenheiro de suporte de comunicações de equipes, administração de suporte do teams Service, funções de administrador do teams Service, ou o saldo dos créditos de comunicações atinge 0 (zero).
   
 ## <a name="communications-credits"></a>Créditos de Comunicação
 
-Cada organização terá um uso diferente de taxas e volumes de planos de chamadas a serem considerados. You will need to get this type of usage data from your current service provider. Para organizações que usam o Skype for Business já como provedor de serviços, você pode obter dados de uso revisando-os nos relatórios do **centro de administração do Microsoft 365**  >  **Reports** ou no **centro de administração do Skype for Business**  >  **relata**  >  **detalhes de uso de PSTN**.
+Cada organização terá um uso diferente de taxas e volumes de planos de chamadas a serem considerados. You will need to get this type of usage data from your current service provider. Para organizações que usam o provedor de serviços, você pode obter dados de uso revisando-os no centro de administração do Microsoft Teams > **análises &** relatórios de  >  **uso** de relatórios e selecione o **uso de PSTN**.
   
-Ao configurar créditos de comunicações, você precisará investigar o uso da chamada para a sua organização para determinar os valores que precisará colocar. Você pode obter informações de uso de chamadas examinando o relatório **Detalhes de uso de PSTN**. Este relatório permite exportar os registros de dados de chamadas para o Excel e criar relatórios personalizados.
+Ao configurar créditos de comunicações, você precisará investigar o uso da chamada para a sua organização para determinar os valores que precisará colocar. Você pode obter informações de uso de chamadas revisando o relatório de uso de PSTN. Este relatório permite exportar os registros de dados de chamadas para o Excel e criar relatórios personalizados.
+
+Notificações importantes relacionadas ao saldo de créditos de comunicação da sua organização serão enviadas para os seguintes administradores:
+
+- Administrador de cobrança
+- Administrador do Skype for Business
+- Administrador da empresa
+- Administrador de conta de usuário
+- Administrador da assistência técnica
+- Administrador de suporte do serviço
+- Administradores de dispositivo
+- Administrador do aplicativo
+- Administrador de licenças
+- Administrador de dispositivo na nuvem
+- Administrador de autenticação
+- Administrador de autenticação privilegiada
+- Administrador de Comunicações de Equipes
+- Engenheiro de Suporte de Comunicações de Equipes
+- Especialista em suporte do teams Communications
+- Administrador de Serviço do Teams
 
 > [!NOTE]
 > Os créditos de comunicações também são usados para números de Tarifa Premium. O chamador paga os encargos.
@@ -100,7 +122,8 @@ Você também pode ver informações sobre preços [entrando no centro de admini
 Para ver uma tabela com as licenças ou licenças necessárias para cada recurso, consulte [Licenciamento de Complementos do Microsoft Teams](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing).
   
 ## <a name="related-topics"></a>Tópicos relacionados
-[Relatório de uso de PSTN do Skype for Business](/SkypeForBusiness/skype-for-business-online-reporting/pstn-usage-report)
+
+[Relatório de uso de PSTN de equipe](teams-analytics-and-reports/pstn-usage-report.md)
 
   
  
