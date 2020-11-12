@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Saiba como configurar e testar atendedores automáticos do Microsoft Teams.
-ms.openlocfilehash: a1770142d9ef02f1e23f446ee457d67c23812ce6
-ms.sourcegitcommit: 20f881285edf699ebf36320664166c95ccd6df35
+ms.openlocfilehash: 00cf80578564db122d4eaf206456b465a21668af
+ms.sourcegitcommit: 950c04ce49064209ee04880e7c7473a4f931df50
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/05/2020
-ms.locfileid: "48922434"
+ms.lasthandoff: 11/11/2020
+ms.locfileid: "48999219"
 ---
 # <a name="set-up-an-auto-attendant"></a>Configurar um atendedor automático
 
@@ -196,13 +196,11 @@ Quando terminar de adicionar contas de serviço, clique em **Enviar**. Isso conc
 
 ## <a name="external-phone-number-transfers---technical-details"></a>Transferências de número de telefone externo-detalhes técnicos
 
-Ao transferir chamadas para um número de telefone externo, a conta de recurso associada ao atendedor automático ou à fila de chamadas deve ter um número de telefone e um sistema telefônico Microsoft 365-licença de usuário virtual. Além
+Para permitir que atendedores automáticos Transfira chamadas externamente, consulte os [pré-requisitos](plan-auto-attendant-call-queue.md#prerequisites) para permitir que atendedores automáticos transfiram chamadas externamente.  Além disso:
 
-- Para uma conta de recurso com um número de plano de chamada, atribua uma licença de [plano de chamada](calling-plans-for-office-365.md) .
-  - O número de telefone de transferência externa deve ser inserido no formato E. 164 (+ CC + phone_number).
+- Para uma conta de recurso com um número de [plano de chamada](calling-plans-for-office-365.md) , o número de telefone de transferência externa deve ser inserido no formato E. 164 (+ [código do país] [código de área] [número de telefone]).
 
-- Para uma conta de recurso com um número de roteamento direto, atribua uma [política de roteamento de voz online](manage-voice-routing-policies.md).
-  - O formato de número de telefone de transferência externa depende de suas configurações de [SBC (controlador de borda de sessão)](https://docs.microsoft.com/microsoftteams/direct-routing-connect-the-sbc) .
+- Para uma conta de recurso com um número de roteamento direto, o formato de número de telefone de transferência externa depende das configurações de [SBC (controlador de borda de sessão)](direct-routing-connect-the-sbc.md) .
 
 O número de telefone de saída exibido é determinado da seguinte maneira:
 
@@ -210,8 +208,6 @@ O número de telefone de saída exibido é determinado da seguinte maneira:
   - Para números de roteamento direto, o número enviado é baseado na configuração P-Assertd-Identity (PAI) no SBC, da seguinte maneira:
     - Se definido como Disabled, o número de telefone do chamador original será exibido. Esta é a configuração padrão e recomendada.
     - Se definido como habilitado, o número de telefone da conta do recurso será exibido.
-
-Não há suporte para transferências entre troncos de plano de chamada e troncos diretos de roteamento.
 
 Em um ambiente híbrido do Skype for Business, para transferir uma chamada de atendedor automático para a PSTN, crie um novo usuário local com encaminhamento de chamadas definido para o número PSTN. O usuário deve estar habilitado para o Enterprise Voice e ter uma política de voz atribuída. Para saber mais, consulte [transferência de chamadas de atendedor automático para PSTN](https://docs.microsoft.com/SkypeForBusiness/plan/exchange-unified-messaging-online-migration-support#auto-attendant-call-transfer-to-pstn).
 
