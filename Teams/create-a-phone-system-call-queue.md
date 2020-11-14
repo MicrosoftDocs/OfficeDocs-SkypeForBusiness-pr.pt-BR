@@ -11,6 +11,7 @@ ms.service: msteams
 search.appverid: MET150
 ms.collection:
 - M365-voice
+- m365initiative-voice
 audience: Admin
 appliesto:
 - Skype for Business
@@ -23,12 +24,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Saiba como configurar o sistema telefônico para filas de chamadas com o Microsoft Teams, que fornecem uma mensagem de saudação, suspender música, redirecionamento de chamada e outros recursos.
-ms.openlocfilehash: 9825c6ed1780efa78bfdbc86911e9b403be589f6
-ms.sourcegitcommit: 273f231098799975dc4cf609a68c9944b8072ce1
+ms.openlocfilehash: b9c611a31550be8dbae541ef24c63c746d5edb86
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "48820016"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49032990"
 ---
 # <a name="create-a-call-queue"></a>Criar uma fila de chamadas
 
@@ -46,7 +47,7 @@ As filas de chamadas fornecem:
 
 Verifique se você leu o [plano de atendedores automáticos e filas de chamadas do teams](plan-auto-attendant-call-queue.md) e seguiu as [etapas de introdução](plan-auto-attendant-call-queue.md#getting-started) antes de seguir os procedimentos deste artigo.
 
-Para configurar uma fila de chamadas, no centro de administração do Teams, expanda **voz** , clique em **filas de chamadas** e, em seguida, clique em **Adicionar** .
+Para configurar uma fila de chamadas, no centro de administração do Teams, expanda **voz** , clique em **filas de chamadas** e, em seguida, clique em **Adicionar**.
 
 ## <a name="resource-account-and-language"></a>Conta e idioma do recurso
 
@@ -54,7 +55,7 @@ Para configurar uma fila de chamadas, no centro de administração do Teams, exp
 
 1. Digite um nome para a fila de chamadas. Os agentes verão esse nome quando receberem uma chamada de entrada da fila.
 
-2. Clique em **Adicionar contas** , procure a conta de recurso que você deseja usar com esta fila de chamadas, clique em **Adicionar** e, em seguida, clique em **Adicionar** .
+2. Clique em **Adicionar contas** , procure a conta de recurso que você deseja usar com esta fila de chamadas, clique em **Adicionar** e, em seguida, clique em **Adicionar**.
 
 3. Escolha um idioma. Esse idioma será usado para solicitações de voz geradas pelo sistema e para a transcrição de correio de voz (se você habilitá-las).
 
@@ -81,9 +82,9 @@ Os agentes de chamada selecionados devem ser um dos seguintes:
 
 Você pode adicionar até 20 agentes individualmente e até 200 agentes por meio de grupos.
 
-Para adicionar um usuário à fila, clique em **Adicionar usuários** , procure o usuário, clique em **Adicionar** e, em seguida, clique em **Adicionar** .
+Para adicionar um usuário à fila, clique em **Adicionar usuários** , procure o usuário, clique em **Adicionar** e, em seguida, clique em **Adicionar**.
 
-Para adicionar um grupo à fila, clique em **Adicionar grupos** , procure o grupo, clique em **Adicionar** e, em seguida, clique em **Adicionar** . Você pode usar listas de distribuição, grupos de segurança e grupos do Microsoft 365 ou Microsoft Teams Teams.
+Para adicionar um grupo à fila, clique em **Adicionar grupos** , procure o grupo, clique em **Adicionar** e, em seguida, clique em **Adicionar**. Você pode usar listas de distribuição, grupos de segurança e grupos do Microsoft 365 ou Microsoft Teams Teams.
 
 > [!NOTE]
 > Novos usuários adicionados a um grupo podem levar até oito horas para que a primeira chamada seja recebida.
@@ -115,7 +116,7 @@ O **método de roteamento** determina a ordem em que os agentes recebem chamadas
 ![Captura de tela das configurações de roteamento, cancelamento e tempo de alerta](media/call-queue-presence-agents-time.png)
 
 
-O **roteamento baseado em presença** usa o status de disponibilidade dos agentes de chamada para determinar se um agente deve ser incluído na lista de roteamento de chamadas para o método de roteamento selecionado. Os agentes de chamada cujo status de disponibilidade está definido como **disponível** estão incluídos na lista de circulação de chamadas e podem receber chamadas. Os agentes cujo status de disponibilidade é definido como qualquer outro status serão excluídos da lista de roteamento de chamadas e não receberão chamadas até que seu status de disponibilidade mude novamente para **disponível** . 
+O **roteamento baseado em presença** usa o status de disponibilidade dos agentes de chamada para determinar se um agente deve ser incluído na lista de roteamento de chamadas para o método de roteamento selecionado. Os agentes de chamada cujo status de disponibilidade está definido como **disponível** estão incluídos na lista de circulação de chamadas e podem receber chamadas. Os agentes cujo status de disponibilidade é definido como qualquer outro status serão excluídos da lista de roteamento de chamadas e não receberão chamadas até que seu status de disponibilidade mude novamente para **disponível**. 
 
 Você pode habilitar o roteamento de chamadas baseado em presença com qualquer um dos métodos de roteamento.
 
@@ -152,7 +153,7 @@ Tempo **limite de chamada: o tempo de espera máximo** especifica o tempo máxim
 
 Você pode optar por desconectar a chamada ou redirecioná-la para um dos destinos de roteamento de chamadas. Por exemplo, você pode ter o chamador deixar um correio de voz para os agentes na fila.
 
-Depois de selecionar as opções de tempo limite de uma chamada, clique em **salvar** .
+Depois de selecionar as opções de tempo limite de uma chamada, clique em **salvar**.
 
 ## <a name="caller-id-for-outbound-calls"></a>IDENTIFICAÇÃO de chamada para chamadas de saída
 

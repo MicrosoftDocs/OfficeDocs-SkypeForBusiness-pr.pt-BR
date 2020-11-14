@@ -11,6 +11,7 @@ ms.service: msteams
 search.appverid: MET150
 ms.collection:
 - M365-voice
+- m365initiative-voice
 audience: Admin
 appliesto:
 - Skype for Business
@@ -26,12 +27,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-apr2020
 description: Saiba como obter e gerenciar números de telefone do usuário (assinante) e serviço (gratuito e gratuito) do Microsoft Teams para sua organização.
-ms.openlocfilehash: f4c9c7a20d5aa20f72f5854e9766f1955c5e4911
-ms.sourcegitcommit: c49698e03fa3bdd7c82496189b200ac6bb4e05a1
+ms.openlocfilehash: 7d72bdd8f688d079ce3627935d837d94d9b1d5f6
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "48320816"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49031747"
 ---
 # <a name="manage-phone-numbers-for-your-organization"></a>Gerenciar os números de telefone de sua organização
 
@@ -67,7 +68,7 @@ Se você sabe o tipo de formulários que está procurando, use a lista suspensa 
 > - [Reino Unido](phone-number-management-for-the-u-k.md)
 > - [Estados Unidos & Porto Rico](phone-number-management-for-the-u-s.md)
 
-***
+**_
 ## <a name="heres-a-bit-more-information-about-these-number-request-forms"></a>Aqui está um pouco mais informações sobre esses formulários de solicitação de números.
 
 ### <a name="request-forms-for-new-phone-numbers"></a>Formulários de solicitação para novos números de telefone
@@ -82,10 +83,10 @@ Em caso afirmativo, você precisará baixar o formulário LOA PDF correto (por p
 
 Se você precisar transferir/portar seus números de telefone existentes, será necessário baixar, preencher e nos enviar uma carta de autorização (LOA), que nos oferece permissão para solicitar e transferir, em seu nome os números existentes de um provedor de serviços diferente para o Microsoft Teams.
 
-Envie-nos um **loa** , se você tiver o seguinte com outra operadora:
+Envie-nos um _ *loa* * se tiver o seguinte com outra operadora:
 - Números de usuário (assinante).
 - Números de serviço (chamada tarifada) para pontes de áudio audioconferência, atendedores automáticos ou filas de chamadas.
-- Números de telefone de chamada gratuita.
+- Toll-Free números de telefone.
 - Mais de 999 números de telefone de usuário que você precisa transferir/portar, mas não é possível acessar o centro de administração do Microsoft Teams usando o assistente de portabilidade de número local.
 
 Depois que você tiver o loa **preenchido e assinado** , [entre em contato com nosso serviço de suporte PSTN](https://docs.microsoft.com/microsoftteams/manage-phone-numbers-for-your-organization/contact-pstn-service-desk) para que possamos ajudá-lo.

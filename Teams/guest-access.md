@@ -15,15 +15,16 @@ ms.custom: ms.teamsadmincenter.orgwidesettings.guestaccess.overview
 ms.collection:
 - Teams_ITAdmin_GuestAccess
 - M365-collaboration
+- m365initiative-externalcollab
 appliesto:
 - Microsoft Teams
 description: O acesso de convidados no Microsoft Teams permite que as equipes da sua organização colaborem com pessoas de fora da sua organização, lhes concedendo acesso a equipes e a canais.
-ms.openlocfilehash: 6efaa942b3818d8fb5aaca7a07b9300f1c731dca
-ms.sourcegitcommit: 43823358e7e1c1cece72a69a2ceb4eff86d3f927
+ms.openlocfilehash: cab51fd9cf0a81c849a0baf379150ccb2e08d818
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "48416846"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49030277"
 ---
 # <a name="guest-access-in-microsoft-teams"></a>Acesso para convidado no Microsoft Teams
 
@@ -57,7 +58,7 @@ O acesso de convidado no Teams é uma configuração em toda a organização e e
   Os usuários convidados que têm uma conta corporativa ou de estudante no Azure Active Directory podem aceitar o convite e autenticar diretamente. Outros usuários recebem um código de passagem única para validar sua identidade (necessária[autenticação de senha única](https://docs.microsoft.com/azure/active-directory/external-identities/one-time-passcode) ).
 4. Depois de aceitar o convite, o convidado pode [participar de equipes e de canais](https://support.office.com/article/df38ae23-8f85-46d3-b071-cb11b9de5499), receber e responder mensagens de canais, [acessar arquivos em canais](https://support.office.com/article/access-files-in-channels-c593c78a-27c4-4661-a598-682baa30ca7e), participar de bate-papos participar de reuniões, colaborar em documentos e muito mais. 
 
-Nas equipes, os convidados são identificados de forma clara. O nome de um usuário convidado inclui o rótulo ** (Convidado) ** e o canal inclui um ícone para indicar que há convidados na equipe. Para obter mais detalhes, consulte [Como é a experiência do convidado](guest-experience.md)
+Nas equipes, os convidados são identificados de forma clara. O nome de um usuário convidado inclui o rótulo **(Convidado)** e o canal inclui um ícone para indicar que há convidados na equipe. Para obter mais detalhes, consulte [Como é a experiência do convidado](guest-experience.md)
   
 Os convidados podem deixar a equipe a qualquer momento no Teams. Para obter detalhes, consulte [Como posso sair de uma equipe?](https://support.office.com/article/leave-a-team-e481005d-3ec6-4694-b300-375472ba4076)
 

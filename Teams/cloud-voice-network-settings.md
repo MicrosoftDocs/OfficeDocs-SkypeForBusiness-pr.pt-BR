@@ -8,27 +8,28 @@ ms.reviewer: roykuntz
 ms.service: msteams
 audience: admin
 search.appverid: MET150
-description: Saiba mais sobre as configurações de rede que devem ser configuradas para roteamento baseado em local para roteamento direto e serviços de emergência avançados.
+description: Saiba mais sobre as configurações de rede que devem ser configuradas para Location-Based roteamento de roteamento direto e serviços de emergência aprimorados.
 localization_priority: Normal
 f1.keywords:
 - NOCSH
 ms.collection:
 - M365-voice
+- m365initiative-voice
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: bc2694760e93579a78cb849cc054d70a65431724
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: a01f80e00be75600fdd93f9758a1974b57954e87
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43139060"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49031827"
 ---
 # <a name="network-settings-for-cloud-voice-features-in-microsoft-teams"></a>Configurações de rede para recursos de voz na nuvem no Microsoft Teams
 
 Saiba mais sobre regiões de rede, sites de rede, sub-redes de rede e endereços IP confiáveis. Estes termos e conceitos são usados em toda a documentação de voz em nuvem para [roteamento baseado em local para roteamento direto](location-based-routing-plan.md) e [chamadas de emergência dinâmicas](configure-dynamic-emergency-calling.md). Se você estiver implantando esses recursos de nuvem em sua organização, deverá definir as configurações de rede para usar com esses recursos no Microsoft Teams.
 
-Este artigo fornece uma visão geral das configurações de rede comuns a roteamento baseado em local e chamadas de emergência dinâmicas. Dependendo do recurso de voz em nuvem e do recurso que você está implantando, você define algumas ou todas essas configurações. Para ver as etapas sobre como definir essas configurações, consulte [gerenciar a topologia de rede para recursos de nuvem no Teams](manage-your-network-topology.md).
+Este artigo fornece uma visão geral das configurações de rede comuns para Location-Based roteamento e chamadas de emergência dinâmicas. Dependendo do recurso de voz em nuvem e do recurso que você está implantando, você define algumas ou todas essas configurações. Para ver as etapas sobre como definir essas configurações, consulte [gerenciar a topologia de rede para recursos de nuvem no Teams](manage-your-network-topology.md).
 
 > [!NOTE]
 > Qualquer requisito específico de recurso para configurações de rede está documentado nos tópicos de configuração para esse recurso.
@@ -37,7 +38,7 @@ Este artigo fornece uma visão geral das configurações de rede comuns a roteam
 
 Uma região de rede contém uma coleção de locais de rede. Ele interconecta várias partes de uma rede em várias áreas geográficas. Por exemplo, se a sua organização tiver muitos sites localizados na Índia, você pode optar por designar "Índia" como uma região de rede. Cada site de rede deve estar associado a uma região de rede.
 
-As mesmas regiões de rede são compartilhadas por roteamento baseado em local para roteamento direto e serviços de emergência avançados. Se já tiver criado regiões de rede para um único recurso, você não precisará criar novas regiões de rede para o outro recurso.
+As mesmas regiões de rede são compartilhadas por Location-Based roteamento para roteamento direto e serviços de emergência aprimorados. Se já tiver criado regiões de rede para um único recurso, você não precisará criar novas regiões de rede para o outro recurso.
 
 ## <a name="network-site"></a>Site de rede
 

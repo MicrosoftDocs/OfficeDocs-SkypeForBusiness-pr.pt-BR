@@ -12,18 +12,19 @@ f1.keywords:
 - NOCSH
 ms.collection:
 - M365-voice
+- m365initiative-voice
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
 description: Saiba como usar o assistente de portabilidade para transferir seu número de telefone de seu provedor de serviços atual para o Microsoft Teams.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: a13e08a569c34f8182997bb438e997d8caee2ae7
-ms.sourcegitcommit: 2d44f1a673316daf0aca3149571b24a63ca72772
+ms.openlocfilehash: 2a70f6b1cec2658cb2348d21895bfc3b30717d75
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/11/2020
-ms.locfileid: "43227525"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49030757"
 ---
 # <a name="transfer-phone-numbers-to-microsoft-teams"></a>Transferir números de telefone para o Microsoft Teams
 
@@ -41,32 +42,32 @@ Antes de começar, recomendamos que você revise as informações em [um pedido 
 > [!NOTE]
 > **No momento, você pode usar esse assistente para obter números de telefone para o Reino Unido, Estados Unidos e Canadá**. Para obter números de telefone para outros países e regiões, você pode [Enviar manualmente um pedido de portabilidade](manually-submit-port-order.md). Para obter o formulário necessário para enviar um pedido de portabilidade manualmente, selecione seu país ou região na lista suspensa em [gerenciar números de telefone para a sua organização](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
 
-1. Na navegação à esquerda do centro de administração do Microsoft Teams, vá para**números de telefone**de **voz** > . Clique em **números**e, em seguida, clique em **porta** para iniciar o assistente de portabilidade.
+1. Na navegação à esquerda do centro de administração do Microsoft Teams, vá para números de telefone de **voz**  >  **Phone numbers**. Clique em **números** e, em seguida, clique em **porta** para iniciar o assistente de portabilidade.
 2. Examine as informações na página **introdução** e, quando estiver pronto, clique em **Avançar**.
-3. Na página **selecionar local e tipo de número** , especifique o seguinte e clique em **Avançar**:
+3. Na página **selecionar local e tipo de número** , especifique o seguinte e clique em **Avançar** :
 
-    - **País ou região**: país ou região em que você está obtendo números.
-    - **Tipo de número de telefone**: tipo de número, como números geográficos ou de chamada gratuita.
-    - **Números atribuídos a**: a que os números são atribuídos. Por exemplo, usuários ou recursos de conferência ou voz.
+    - **País ou região** : país ou região em que você está obtendo números.
+    - **Tipo de número de telefone** : tipo de número, como números geográficos ou de chamada gratuita.
+    - **Números atribuídos a** : a que os números são atribuídos. Por exemplo, usuários ou recursos de conferência ou voz.
 
 4. Na página **adicionar informações da conta** , conclua o seguinte e clique em **Avançar**.
 
     > [!IMPORTANT]
     > As informações exibidas nesta página são determinadas pelo tipo de país ou região e número. Cada país e região têm regulamentações diferentes nas informações necessárias para os números de porta. O que você vê nesta página pode ser diferente do que está descrito aqui.
 
-    - **Detalhes do pedido**: 
-        - **Nome do pedido**: nome do seu pedido
-        - **Emails de notificação**: endereços de email para receber notificações de pedidos. Se você inserir vários endereços de email, separe-os com um ponto-e-vírgula.
-        - **Data**da transferência: data de transferência emitida pelo provedor de serviços atual.
+    - **Detalhes do pedido** : 
+        - **Nome do pedido** : nome do seu pedido
+        - **Emails de notificação** : endereços de email para receber notificações de pedidos. Se você inserir vários endereços de email, separe-os com um ponto-e-vírgula.
+        - **Data** da transferência: data de transferência emitida pelo provedor de serviços atual.
     - **Detalhes do número de telefone**
-        - **Tipo de porta**: se você estiver fazendo uma portabilidade completa para transferir todos os seus números ou uma porta parcial para transferir alguns de seus números.
+        - **Tipo de porta** : se você estiver fazendo uma portabilidade completa para transferir todos os seus números ou uma porta parcial para transferir alguns de seus números.
     - **Pessoa solicitando detalhes**  
         - O nome da sua organização e os detalhes de contato da pessoa que está solicitando a transferência.
     - **Detalhes do provedor atual**
-        - **Número de telefone de cobrança (BTN)**: sua BTN no formato e. 164, que exige um sinal de + para preceder o número. Por exemplo, para um número da América do Norte, use o formato + 1XXXYYYZZZZ.
+        - **Número de telefone de cobrança (BTN)** : sua BTN no formato e. 164, que exige um sinal de + para preceder o número. Por exemplo, para um número da América do Norte, use o formato + 1XXXYYYZZZZ.
         - Outros detalhes, incluindo o nome de seu provedor de serviços atual, o número da sua conta e seu endereço de serviço.
             
-5. Na página **Adicionar números** , clique em **selecionar um arquivo**, procure e selecione o arquivo CSV que contém os números de telefone que você deseja transferir e clique em **Avançar**.  
+5. Na página **Adicionar números** , clique em **selecionar um arquivo** , procure e selecione o arquivo CSV que contém os números de telefone que você deseja transferir e clique em **Avançar**.  
 
     > [!NOTE]
     > O arquivo CSV deve ter apenas uma coluna com um cabeçalho chamado intervalo. Cada número de telefone deve estar em uma linha separada e pode ser apenas dígitos ou no formato E. 164.
@@ -90,7 +91,7 @@ Antes de começar, recomendamos que você revise as informações em [um pedido 
 
 Quando recebermos seu pedido de portabilidade, você receberá um e-mail que confirma sua solicitação. Sua solicitação será verificada e atualizada diariamente, e você será notificado sobre o andamento e o status do email. Se a sua solicitação de porta for recusada pela transportadora perdida, entre em contato com o [serviço de suporte PSTN](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md).
 
-Para exibir o status do seu pedido de portabilidade, no painel de navegação esquerdo do centro de administração do Microsoft Teams, vá para >**pedidos de porta**de **voz** > e clique em **histórico de pedidos**. Cada status de pedido de portabilidade é listado na coluna **status** . Para saber mais, confira [qual é o status de seus pedidos de portabilidade?](port-order-status.md)
+Para exibir o status do seu pedido de portabilidade, no painel de navegação esquerdo do centro de administração do Microsoft Teams, vá para > pedidos de porta de **voz**  >  **Port orders** e clique em **histórico de pedidos**. Cada status de pedido de portabilidade é listado na coluna **status** . Para saber mais, confira [qual é o status de seus pedidos de portabilidade?](port-order-status.md)
 
 ## <a name="related-topics"></a>Tópicos relacionados
 

@@ -11,6 +11,7 @@ ms.service: msteams
 search.appverid: MET150
 ms.collection:
 - M365-voice
+- m365initiative-voice
 audience: Admin
 appliesto:
 - Microsoft Teams
@@ -21,12 +22,12 @@ ms.custom:
 - Phone System
 - seo-marvel-mar2020
 description: Saiba como obter novos números de telefone e porta ou transferir números existentes para conferências de áudio, atendedores automáticos e filas de chamadas (números de serviço) para equipes.
-ms.openlocfilehash: 9ce7875f06677ab6b9a4ad61a9e30bf0df861bb8
-ms.sourcegitcommit: e618396eb8da958983668ad0884b4481e1ed7b98
+ms.openlocfilehash: adca7b31b59a88d16eefcd8f45a4c896a5c3de3f
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44021983"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49030437"
 ---
 # <a name="getting-service-phone-numbers"></a>Obter números de telefone de serviço
 
@@ -50,14 +51,14 @@ Há três maneiras de obter números de serviço:
 
 ![Um ícone mostrando o logotipo do Microsoft Teams](media/teams-logo-30x30.png) **Usando o centro de administração do Microsoft Teams**
 
-1. No painel de navegação esquerdo, vá para**números de telefone**de **voz** > e clique em **Adicionar**.
+1. No painel de navegação esquerdo, vá **Voice** para  >  **números de telefone** de voz e clique em **Adicionar**.
 2. Insira um nome para o pedido e adicione uma descrição.
 3. Na página localização e quantidade, faça o seguinte:
-    1. Em **país ou região**, selecione um país ou região.
-    1. Em **tipo de número**, selecione o tipo de número de serviço desejado.
-    1. Em **local**, selecione um local. Se você precisar criar um novo local, clique em **Adicionar um local**.
-    1. Em **código de área**, selecione um código de área. 
-    2. Em **quantidade**, digite o número de números que você deseja para sua organização e clique em **Avançar** para selecionar seus números.
+    1. Em **país ou região** , selecione um país ou região.
+    1. Em **tipo de número** , selecione o tipo de número de serviço desejado.
+    1. Em **local** , selecione um local. Se você precisar criar um novo local, clique em **Adicionar um local**.
+    1. Em **código de área** , selecione um código de área. 
+    2. Em **quantidade** , digite o número de números que você deseja para sua organização e clique em **Avançar** para selecionar seus números.
 4. Selecione os números desejados. Você tem 10 minutos para selecionar seus números de telefone e fazer o pedido. Se você demorar mais de 10 minutos, os números de telefone serão retornados ao pool de números.
 5. Quando estiver pronto para fazer o pedido, clique em **fazer pedido**.
 
@@ -74,7 +75,7 @@ Se seu país ou região não estiver listado no assistente de portabilidade, voc
 
 ![Um ícone mostrando o logotipo do Microsoft Teams](media/teams-logo-30x30.png) **Usando o centro de administração do Microsoft Teams** 
 
-No painel de navegação esquerdo, vá para**números de telefone** de **voz** > para exibir os números de sua organização, incluindo localização, tipo de número e informações de status.
+No painel de navegação esquerdo, vá para números de telefone de **voz**  >  **Phone numbers** para exibir os números de sua organização, incluindo localização, tipo de número e informações de status.
 
 ## <a name="assign-service-phone-numbers"></a>Atribuir números de telefone de serviço
 
@@ -90,4 +91,4 @@ Depois de obter seus números de serviço, atribua cada número a uma ponte de v
 
 [Gerenciar os números de telefone de sua organização](/microsoftteams/manage-phone-numbers-for-your-organization)
 
-[Disponibilidade de Audioconferência e Planos de Chamadas por país e região](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)
+[Disponibilidade de audioconferência e Planos de Chamadas por país e região](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)

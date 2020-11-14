@@ -13,16 +13,17 @@ f1.keywords:
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
+- m365initiative-meetings
 description: Configurar eventos dinâmicos no Microsoft Teams, incluindo configurar sua rede, atribuir licenças, habilitar recursos de eventos dinâmicos, agendamento e soluções de distribuição de vídeo.
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: dacb226d83753a39153e876999c23dd6d6961122
-ms.sourcegitcommit: 0a9c5c01b37a93eecc369ca0ed49ae18f6a5065b
+ms.openlocfilehash: 0125f3772b9cf2f090df3adee18124b4293f59b1
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/22/2020
-ms.locfileid: "48655458"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49030907"
 ---
 # <a name="set-up-for-live-events-in-microsoft-teams"></a>Configurar eventos ao vivo no Microsoft Teams
 
@@ -47,7 +48,7 @@ As políticas de eventos ao vivo são usadas para controlar quem em sua organiza
 
 <a name="bkcreatepolicy"> </a>
 
-1. Na navegação à esquerda do centro de administração do Microsoft Teams, **Meetings**vá para  >  **políticas de eventos dinâmicos**de reuniões.
+1. Na navegação à esquerda do centro de administração do Microsoft Teams, **Meetings** vá para  >  **políticas de eventos dinâmicos** de reuniões.
 2. Siga uma destas opções:
 
     - Se você quiser editar a política padrão existente, escolha **Global (padrão para toda a organização)**.
@@ -64,7 +65,7 @@ As políticas de eventos ao vivo são usadas para controlar quem em sua organiza
 |**Descrição**    |Use isso para adicionar uma descrição amigável à política.         |
 |**Permitir agendamento**     |Habilitar essa operação permite que os usuários da organização criem e agendem eventos ao vivo no Teams. É importante saber que, se você quiser que os usuários agendem um evento ao vivo produzido por um aplicativo ou dispositivo externo, há outras etapas que você deve seguir. Para saber mais, confira [Permitir aos usuários agendar eventos que foram produzidos com um aplicativo ou dispositivo externo](#enable-users-to-schedule-events-that-were-produced-with-an-external-app-or-device).     |
 |**Permitir transcrição para participantes** |Essa configuração só pode ser aplicada a eventos produzidos no Teams. Ativar esse recurso permite que os participantes de eventos ao vivo vejam legendas em tempo real durante o evento.         |
-|**Quem pode ingressar eventos ao vivo agendados**    |Escolha uma destas opções.<br><br>**Todos** os usuários podem criar eventos ao vivo em que todos, incluindo as pessoas de fora da sua organização, podem participar. Essa configuração permite o tipo de permissão**pública** no Teams quando um usuário agenda um evento ao vivo.<br> **Todos na organização** os usuários podem criar eventos ao vivo nos quais as pessoas de sua organização, incluindo [usuários convidados](../add-guests.md) adicionados à sua organização, podem participar. Os usuários não podem criar eventos ao vivo com participação de usuários anônimos. Essa configuração permite o tipo de permissão**toda a organização** no Teams quando um usuário agenda um evento ao vivo.<br> **Usuários ou grupos específicos** podem criar eventos ao vivo em que somente usuários ou grupos específicos da sua organização podem participar. Os usuários não podem criar eventos ao vivo com a participação de todos em sua organização ou de usuários anônimos. Essa configuração permite o tipo de permissão**Pessoas e grupos** no Teams quando um usuário agenda um evento ao vivo.       |
+|**Quem pode ingressar eventos ao vivo agendados**    |Escolha uma destas opções.<br><br>**Todos** os usuários podem criar eventos ao vivo em que todos, incluindo as pessoas de fora da sua organização, podem participar. Essa configuração permite o tipo de permissão **pública** no Teams quando um usuário agenda um evento ao vivo.<br> **Todos na organização** os usuários podem criar eventos ao vivo nos quais as pessoas de sua organização, incluindo [usuários convidados](../add-guests.md) adicionados à sua organização, podem participar. Os usuários não podem criar eventos ao vivo com participação de usuários anônimos. Essa configuração permite o tipo de permissão **toda a organização** no Teams quando um usuário agenda um evento ao vivo.<br> **Usuários ou grupos específicos** podem criar eventos ao vivo em que somente usuários ou grupos específicos da sua organização podem participar. Os usuários não podem criar eventos ao vivo com a participação de todos em sua organização ou de usuários anônimos. Essa configuração permite o tipo de permissão **Pessoas e grupos** no Teams quando um usuário agenda um evento ao vivo.       |
 |**Configuração de gravação**  <br>     | Essa configuração só pode ser aplicada a eventos produzidos no Teams. Escolha uma destas opções. <br><br> **Sempre Gravar** Eventos ao vivo criados por usuários sempre são gravados. Após o evento ser encerrado, os membros da equipe do eventos podem baixar a gravação, e os participantes podem assistir ao evento. <br> **Nunca gravar** eventos ao vivo criados pelos usuários nunca são gravados. <br>**O organizador pode gravar ou não** Usuários podem decidir se desejam gravar o evento ao vivo. Se ele for gravado, após o evento ser encerrado, os membros da equipe do eventos podem baixar a gravação, e os participantes podem assistir ao evento.
 
 Você também pode fazer isso usando o Windows PowerShell. Para saber mais, confira [usar o PowerShell para definir políticas de eventos ao vivo no Teams](set-teams-live-events-policies-using-powershell.md).
@@ -100,10 +101,10 @@ As seguintes soluções SDN/eCDN são pré-configuradas e podem ser configuradas
 
 - **Ramp OmniCache** fornece a distribuição de rede de última geração e garante a entrega tranquila de conteúdo de vídeo em WANs globais, ajudando os produtores de eventos a otimizar a largura de banda da rede e dando suporte a difusões de eventos ao vivo e transmissões sob demanda. O suporte para o Ramp OmniCache de eventos ao vivo produzidos no Teams será lançado em breve. [Saiba mais](https://rampecdn.com).
 
-- **Riverbed**, o padrão do setor em otimização de rede, está ampliando suas soluções de aceleração para o Microsoft Teams e o Stream.  Agora, os clientes da Microsoft 365 podem acelerar o tráfego do 365 de maneira confiante, incluindo o Microsoft Teams e o Stream, juntamente com uma ampla gama de outros serviços de SaaS corporativos líderes para aumentar a produtividade da força de As equipes e a aceleração de fluxo podem ser habilitadas por meio de uma configuração sem esforço que vem com todas as garantias do suporte contínuo e do suporte de classe mundial do Riverbed.
+- **Riverbed** , o padrão do setor em otimização de rede, está ampliando suas soluções de aceleração para o Microsoft Teams e o Stream.  Agora, os clientes da Microsoft 365 podem acelerar o tráfego do 365 de maneira confiante, incluindo o Microsoft Teams e o Stream, juntamente com uma ampla gama de outros serviços de SaaS corporativos líderes para aumentar a produtividade da força de As equipes e a aceleração de fluxo podem ser habilitadas por meio de uma configuração sem esforço que vem com todas as garantias do suporte contínuo e do suporte de classe mundial do Riverbed.
 
 > [!NOTE]
-> A solução SDN ou eCDN escolhida está sujeita aos **Termos de serviço e política de privacidade de terceiros**, que governam o uso da solução do provedor. O uso da solução do provedor não estará sujeito aos termos de licenciamento por volume da Microsoft ou a termos de serviços online. Caso não concorde com os **termos do provedor de terceiros**, não habilite a solução no Teams.
+> A solução SDN ou eCDN escolhida está sujeita aos **Termos de serviço e política de privacidade de terceiros** , que governam o uso da solução do provedor. O uso da solução do provedor não estará sujeito aos termos de licenciamento por volume da Microsoft ou a termos de serviços online. Caso não concorde com os **termos do provedor de terceiros** , não habilite a solução no Teams.
 
 Depois de configurar a solução SDN ou eCDN, você estará pronto para configurar o provedor para eventos ao vivo no Teams.
 

@@ -10,6 +10,7 @@ audience: admin
 ms.collection:
 - Teams_ITAdmin_GuestAccess
 - M365-collaboration
+- m365initiative-externalcollab
 ms.reviwer: rafarhi
 search.appverid: MET150
 f1.keywords:
@@ -21,12 +22,12 @@ localization_priority: Normal
 appliesto:
 - Microsoft Teams
 description: Neste artigo, você aprenderá como um administrador pode exibir informações sobre usuários convidados no Microsoft Teams.
-ms.openlocfilehash: 215ee111f0b56e0e9b5c2b377d17012a5ee632c6
-ms.sourcegitcommit: 43e5a4aac11c20dd5a4c35b59695f309e1559e82
+ms.openlocfilehash: 6e079a142fa6b3efcace3d4b246dbbbd16e736dd
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/03/2020
-ms.locfileid: "48346342"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49031037"
 ---
 # <a name="view-guest-users-in-a-team"></a>Visualizar usuários convidados em uma equipe
 

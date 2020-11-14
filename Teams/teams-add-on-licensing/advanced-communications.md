@@ -14,14 +14,15 @@ f1.keywords:
 - NOCSH
 ms.collection:
 - M365-collaboration
+- m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3d596bb890ad2976ec16179f845397df5e27bc38
-ms.sourcegitcommit: c49698e03fa3bdd7c82496189b200ac6bb4e05a1
+ms.openlocfilehash: 591ab2f93212e518c89b3cbacda82332b4c4957d
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "48321654"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49031207"
 ---
 # <a name="advanced-communications-add-on-for-microsoft-teams"></a>Complemento avançado de comunicação do Microsoft Teams
 
@@ -33,9 +34,9 @@ Se sua organização estiver procurando aprimorar ainda mais sua experiência de
 
 As comunicações avançadas fornecem recursos de chamada e reunião aprimorados que atendem a um espectro de necessidades de comunicação, incluindo o seguinte:
 
-- **Atinja as audiências maiores**: Ajude seus usuários a ficar conectados com eventos dinâmicos para até 20.000 participantes e reuniões interativas para que os participantes do 1.000 possam permitir até 20.000 participantes em uma experiência de exibição somente para exibição.
-- **Personalizar e personalizar reuniões**: padronização de unidade em reuniões para seus cenários internos e personalizados, com recursos como lobby de reunião com marca personalizada. Implementar com flexibilidade nos departamentos da sua organização. 
-- **Gerenciar a comunicação da sua organização**: monitore, rastreie e analise dados em usuários e dispositivos para garantir uma experiência perfeita.
+- **Atinja as audiências maiores** : Ajude seus usuários a ficar conectados com eventos dinâmicos para até 20.000 participantes e reuniões interativas para que os participantes do 1.000 possam permitir até 20.000 participantes em uma experiência de exibição somente para exibição.
+- **Personalizar e personalizar reuniões** : padronização de unidade em reuniões para seus cenários internos e personalizados, com recursos como lobby de reunião com marca personalizada. Implementar com flexibilidade nos departamentos da sua organização. 
+- **Gerenciar a comunicação da sua organização** : monitore, rastreie e analise dados em usuários e dispositivos para garantir uma experiência perfeita.
 
 As comunicações avançadas estão disponíveis em todos os mercados do Microsoft 365 como um complemento para qualquer assinatura paga do Microsoft 365 ou do Office 365. Os recursos incluídos em comunicações avançadas não serão adicionados a outros planos do Microsoft 365 ou do Office 365 e não podem ser comprados separadamente. Para obter os recursos, você deve comprar o complemento.
 

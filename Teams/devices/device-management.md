@@ -9,6 +9,7 @@ audience: admin
 ms.reviewer: kelsawi
 ms.collection:
 - M365-collaboration
+- m365initiative-deployteams
 f1.keywords:
 - CSH
 ms.custom:
@@ -19,12 +20,12 @@ localization_priority: Normal
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 40ddf36c27a8fbc3aadfddaddee886d1906bab82
-ms.sourcegitcommit: e07b2d7470b93e52b9e85207db0d6fa3a136efd9
+ms.openlocfilehash: d6996b0980ae7305a7517a71645ba823a588e2f8
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "48793524"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49033022"
 ---
 # <a name="manage-your-devices-in-microsoft-teams"></a>Gerenciar seus dispositivos no Microsoft Teams
 
@@ -54,15 +55,15 @@ Para gerenciar dispositivos, na navegação à esquerda do [centro de administra
 
 Você pode usar o centro de administração do teams para exibir e gerenciar remotamente seus dispositivos de salas de equipe em sua organização. O centro de administração do Microsoft Teams torna mais fácil ver, em um relance, quais dispositivos estão íntegros e quais precisam de atenção e permitem que você se concentre em dispositivos específicos para ver informações detalhadas sobre a integridade do dispositivo, o desempenho da reunião, a qualidade da chamada e periféricos. 
 
-Aqui estão algumas coisas que você pode fazer para gerenciar seus dispositivos de sala de equipe. Os dispositivos de salas de equipe podem ser encontrados no [centro de administração do Microsoft Teams](https://admin.teams.microsoft.com) em salas de equipe de **dispositivos**  >  **Teams Rooms** .
+Aqui estão algumas coisas que você pode fazer para gerenciar seus dispositivos de sala de equipe. Os dispositivos de salas de equipe podem ser encontrados no [centro de administração do Microsoft Teams](https://admin.teams.microsoft.com) em salas de equipe de **dispositivos**  >  **Teams Rooms**.
 
 Para obter detalhes sobre como gerenciar seus dispositivos de salas de equipe, consulte [gerenciar salas do Microsoft Teams](../rooms/rooms-manage.md).
 
 | Para fazer isso... | Faça isto|
 |---------------|--------|
-| Alterar configurações em um ou mais dispositivos | Selecione um ou mais dispositivos > **Editar configurações** . Se você selecionar vários dispositivos, os valores alterados substituirão os valores em todos os dispositivos selecionados. |
-| Reiniciar dispositivos | Selecione um ou mais dispositivos > **reiniciar** . Ao reiniciar um dispositivo, você pode escolher se deseja reiniciar o dispositivo imediatamente ou selecionar **agendar reinicialização** para reiniciar o dispositivo em uma data e hora específicas. A data e a hora selecionadas são locais para o dispositivo que está sendo reiniciado.|
-| Exibir atividade da reunião | Selecione um nome de dispositivo para abrir detalhes do dispositivo > **atividade** . Ao abrir a guia **atividade** , você pode ver todas as reuniões nas quais o dispositivo participou. Este modo de exibição de resumo mostra a hora de início da reunião, o número de participantes, sua duração e a qualidade geral da chamada.|
+| Alterar configurações em um ou mais dispositivos | Selecione um ou mais dispositivos > **Editar configurações**. Se você selecionar vários dispositivos, os valores alterados substituirão os valores em todos os dispositivos selecionados. |
+| Reiniciar dispositivos | Selecione um ou mais dispositivos > **reiniciar**. Ao reiniciar um dispositivo, você pode escolher se deseja reiniciar o dispositivo imediatamente ou selecionar **agendar reinicialização** para reiniciar o dispositivo em uma data e hora específicas. A data e a hora selecionadas são locais para o dispositivo que está sendo reiniciado.|
+| Exibir atividade da reunião | Selecione um nome de dispositivo para abrir detalhes do dispositivo > **atividade**. Ao abrir a guia **atividade** , você pode ver todas as reuniões nas quais o dispositivo participou. Este modo de exibição de resumo mostra a hora de início da reunião, o número de participantes, sua duração e a qualidade geral da chamada.|
 | Ver detalhes da reunião |  Selecione um nome de dispositivo para abrir detalhes do dispositivo > **atividade** > selecione uma reunião. Ao abrir os dados de uma reunião, você pode ver todos os participantes da reunião, por quanto tempo eles estavam na chamada, os tipos de sessão do Team e a qualidade da chamada individual. Se você quiser ver informações técnicas sobre a chamada de um participante, selecione a hora de início da chamada do participante.|
 
 ## <a name="manage-phones-collaboration-bars-and-teams-displays"></a>Gerenciar telefones, barras de colaboração e telas do teams 
@@ -75,30 +76,30 @@ Aqui estão alguns exemplos de como você pode gerenciar telefones, barras de co
 
 |Para fazer isso...  |Faça isto |
 |---------|---------|
-| Alterar as informações do dispositivo               | Selecione um dispositivo > **Editar** . Você pode editar detalhes, como o nome do dispositivo, a marca de ativos e adicionar anotações.     |
-| Gerenciar atualizações de software                 | Selecione um dispositivo > **atualização** . Você pode exibir a lista de atualizações de software e firmware disponíveis para o dispositivo e escolher as atualizações a serem instaladas. Para obter mais informações sobre como atualizar dispositivos, consulte [Atualizar dispositivos de equipe remotamente](remote-update.md)   |
-| Atualizar telefones de equipes para o Microsoft Teams                | Na página **IP phones** , selecione um ou mais grupos de telefones > **atualização** . Essa opção está disponível somente para telefones que oferecem suporte à atualização para o Microsoft Teams. Para saber mais, confira [atualizar os telefones de equipes para o Microsoft Teams](upgrade-phones-to-displays.md).   |
-| Atribuir ou alterar políticas de configuração | Selecione um ou mais dispositivos > **atribuir configuração** .                                                                                                                                                                                                                   |
-| Adicionar ou remover marcas de dispositivo               | Selecione um ou mais dispositivos > **gerenciar marcas** . Para obter mais informações sobre marcas de dispositivo, consulte [gerenciar marcas de dispositivo do teams](manage-device-tags.md).                                                                                                      |
-| Reiniciar dispositivos                         | Selecione um ou mais dispositivos > **reiniciar** .                                                                                                                                                                                                                                |
-| Filtrar dispositivos usando marcas de dispositivo        | Selecione o ícone de filtro, selecione o campo de **marca** , especifique uma marca de dispositivo para filtrar e selecione **aplicar** . Para obter mais informações sobre como filtrar dispositivos usando marcas de dispositivo, consulte [usar filtros para retornar dispositivos com uma marca específica](manage-device-tags.md#use-filters-to-return-devices-with-a-specific-tag).|
+| Alterar as informações do dispositivo               | Selecione um dispositivo > **Editar**. Você pode editar detalhes, como o nome do dispositivo, a marca de ativos e adicionar anotações.     |
+| Gerenciar atualizações de software                 | Selecione um dispositivo > **atualização**. Você pode exibir a lista de atualizações de software e firmware disponíveis para o dispositivo e escolher as atualizações a serem instaladas. Para obter mais informações sobre como atualizar dispositivos, consulte [Atualizar dispositivos de equipe remotamente](remote-update.md)   |
+| Atualizar telefones de equipes para o Microsoft Teams                | Na página **IP phones** , selecione um ou mais grupos de telefones > **atualização**. Essa opção está disponível somente para telefones que oferecem suporte à atualização para o Microsoft Teams. Para saber mais, confira [atualizar os telefones de equipes para o Microsoft Teams](upgrade-phones-to-displays.md).   |
+| Atribuir ou alterar políticas de configuração | Selecione um ou mais dispositivos > **atribuir configuração**.                                                                                                                                                                                                                   |
+| Adicionar ou remover marcas de dispositivo               | Selecione um ou mais dispositivos > **gerenciar marcas**. Para obter mais informações sobre marcas de dispositivo, consulte [gerenciar marcas de dispositivo do teams](manage-device-tags.md).                                                                                                      |
+| Reiniciar dispositivos                         | Selecione um ou mais dispositivos > **reiniciar**.                                                                                                                                                                                                                                |
+| Filtrar dispositivos usando marcas de dispositivo        | Selecione o ícone de filtro, selecione o campo de **marca** , especifique uma marca de dispositivo para filtrar e selecione **aplicar**. Para obter mais informações sobre como filtrar dispositivos usando marcas de dispositivo, consulte [usar filtros para retornar dispositivos com uma marca específica](manage-device-tags.md#use-filters-to-return-devices-with-a-specific-tag).|
 | Exibir o histórico de dispositivos                     | Selecione um > **histórico** de dispositivos. Você pode exibir o histórico de atualizações do dispositivo.                                                                                                                                                                                |
-| Exibir diagnósticos                        | Selecione um dispositivo > **diagnóstico** .                                                                                                                                                                                                                            |
+| Exibir diagnósticos                        | Selecione um dispositivo > **diagnóstico**.                                                                                                                                                                                                                            |
 ### <a name="use-configuration-profiles-in-teams"></a>Usar perfis de configuração no Teams
 
 Use perfis de configuração para gerenciar as configurações e os recursos de telefones e barras de colaboração de equipes em sua organização. Você pode criar ou carregar perfis de configuração para incluir configurações e recursos que você deseja habilitar ou desabilitar e atribuir um perfil a um dispositivo ou grupos de dispositivos. 
 
 #### <a name="create-a-configuration-profile"></a>Criar um perfil de configuração
 
-1. No painel de navegação esquerdo, vá para perfis de configuração de **dispositivos**  >  **Configuration profiles** .
-2. Clique em **Adicionar** .
+1. No painel de navegação esquerdo, vá para perfis de configuração de **dispositivos**  >  **Configuration profiles**.
+2. Clique em **Adicionar**.
 3. Digite um nome para o perfil e, se desejar, adicione uma descrição amigável.
-4. Especifique as configurações desejadas para o perfil e clique em **salvar** .
+4. Especifique as configurações desejadas para o perfil e clique em **salvar**.
 
 #### <a name="assign-a-configuration-profile"></a>Atribuir um perfil de configuração
 
-1. No painel de navegação esquerdo, vá para perfis de configuração de **dispositivos**  >  **Configuration profiles** .
-2. Selecione o **perfil de configuração** que você deseja atribuir e clique em **atribuir a dispositivo** .  
+1. No painel de navegação esquerdo, vá para perfis de configuração de **dispositivos**  >  **Configuration profiles**.
+2. Selecione o **perfil de configuração** que você deseja atribuir e clique em **atribuir a dispositivo**.  
 3. No painel **atribuir dispositivos a um perfil de configuração** , procure e selecione os dispositivos que você deseja atribuir.
-4. Clique em **Salvar** .
+4. Clique em **Salvar**.
 

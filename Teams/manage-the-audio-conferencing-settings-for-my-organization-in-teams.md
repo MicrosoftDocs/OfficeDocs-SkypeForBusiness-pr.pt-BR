@@ -12,6 +12,7 @@ search.appverid: MET150
 ms.collection:
 - M365-voice
 - M365-collaboration
+- m365initiative-meetings
 audience: Admin
 appliesto:
 - Microsoft Teams
@@ -22,12 +23,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: 'Consulte as etapas para atribuir uma licença de conferência discada e um ID de conferência a um usuário no Microsoft Teams e várias outras configurações de conferência discada. '
-ms.openlocfilehash: 8a01be430e8c3993325c5ef6759e520664a21e55
-ms.sourcegitcommit: d1e4e1105d86745009cf0fdf42d1fc5ad545a952
+ms.openlocfilehash: f2d056ffd2c3b40b8e39f6d4727859b45e675ebf
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "46788765"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49031797"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-your-organization-in-microsoft-teams"></a>Gerenciar as configurações de Audioconferência de sua organização no Microsoft Teams
 
@@ -45,14 +46,14 @@ Pode ser mais fácil para você visualizar todas as configurações de audioconf
   
 1. Entre no Microsoft 365 com sua conta corporativa ou de estudante.
     
-2. Na navegação à esquerda do **centro de administração do Microsoft 365**, vá para usuários ativos do **usuários**  >  **Active users**e selecione o usuário ou os usuários na lista de usuários disponíveis.
+2. Na navegação à esquerda do **centro de administração do Microsoft 365** , vá para usuários ativos do **usuários**  >  **Active users** e selecione o usuário ou os usuários na lista de usuários disponíveis.
     
     > [!NOTE]
-    > [!DICA] Para atribuir licenças a mais de 20 usuários ao mesmo tempo, você pode usar o menu suspenso **Selecionar uma exibição** e escolher uma das opções ou criar sua própria exibição. Em seguida, clique em **Editar**, **Próximo** duas vezes, selecione a licença e clique em **Enviar**.  
+    > [!DICA] Para atribuir licenças a mais de 20 usuários ao mesmo tempo, você pode usar o menu suspenso **Selecionar uma exibição** e escolher uma das opções ou criar sua própria exibição. Em seguida, clique em **Editar** , **Próximo** duas vezes, selecione a licença e clique em **Enviar**.  
   
-3. No painel Ação em **Licenças de produto**, clique em **Editar**. 
+3. No painel Ação em **Licenças de produto** , clique em **Editar**. 
     
-4. Na página **Licenças de produto**, ative **Audioconferência** e clique em **Salvar**. Para saber mais sobre licenciamento, consulte [Licenciamento de Complementos do Microsoft Teams](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing).
+4. Na página **Licenças de produto** , ative **Audioconferência** e clique em **Salvar**. Para saber mais sobre licenciamento, consulte [Licenciamento de Complementos do Microsoft Teams](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing).
     
    > [!NOTE]
    > Depois de atribuir a licença, a Microsoft pode não aparecer inicialmente na lista como provedor de audioconferência. Se isso acontecer, desconecte-se do centro de administração ou pressione CTRL + F5 para atualizar a janela do navegador. 
@@ -63,9 +64,9 @@ Pode ser mais fácil para você visualizar todas as configurações de audioconf
 
 1. Na navegação à esquerda, vá para **Reuniões** > **Pontes de conferência**. 
 
-2. No topo da página **Pontes de conferência**, clique em **Configurações da ponte**. 
+2. No topo da página **Pontes de conferência** , clique em **Configurações da ponte**. 
 
-3. No painel **Configurações de ponte**, habilite ou desabilite **Enviar e-mails aos usuários automaticamente de suas configurações de discagem forem alteradas**.
+3. No painel **Configurações de ponte** , habilite ou desabilite **Enviar e-mails aos usuários automaticamente de suas configurações de discagem forem alteradas**.
 
 4. Clique em **Salvar**.
 
@@ -78,9 +79,9 @@ Consulte a [referência do Microsoft Teams PowerShell](https://docs.microsoft.co
 
 ![Um ícone mostrando o logotipo do teams ](media/teams-logo-30x30.png) **usando o centro de administração do Microsoft Teams**
 
-1. Na navegação à esquerda, clique em **usuários**e selecione o usuário na lista de usuários disponíveis.
+1. Na navegação à esquerda, clique em **usuários** e selecione o usuário na lista de usuários disponíveis.
 
-2. Em **conferência de áudio**, clique em **Redefinir ID de conferência**.  
+2. Em **conferência de áudio** , clique em **Redefinir ID de conferência**.  
 
 3. Na janela **Redefinir ID de conferência?** , clique em **Redefinir**. Um ID de conferência será criado automaticamente e um email será enviado ao usuário com o novo ID de conferência, se o envio de email para seus usuários estiver ativado. Está ativado por padrão.
 
@@ -92,9 +93,9 @@ Cada reunião agendada por um usuário receberá uma ID de conferência exclusiv
 
 ![Um ícone mostrando o logotipo do Microsoft Teams](media/teams-logo-30x30.png) **Usando o centro de administração do Microsoft Teams**
 
-1. Na navegação à esquerda, clique em **usuários**e selecione o usuário na lista de usuários disponíveis.
+1. Na navegação à esquerda, clique em **usuários** e selecione o usuário na lista de usuários disponíveis.
 
-2. Em **conferência de áudio**, clique em **Redefinir PIN**e em **Redefinir**. 
+2. Em **conferência de áudio** , clique em **Redefinir PIN** e em **Redefinir**. 
   
 Os usuários receberão um email com o PIN quando estiverem habilitados para videoconferência ou quando o PIN for redefinido. Mas se você tiver desabilitado o envio de emails automaticamente, um email de redefinição de PIN não será enviado e você terá que enviar o PIN manualmente para o usuário. O PIN será exibido somente uma vez depois de ser redefinido. Depois que ele é exibido logo após a redefinição, o pino não é mais mostrado nas propriedades do usuário; em vez disso, * * * será mostrado. 
   
@@ -104,9 +105,9 @@ Consulte [redefinir o PIN de audioconferência](reset-the-audio-conferencing-pin
 
 ![Um ícone mostrando o logotipo do Microsoft Teams](media/teams-logo-30x30.png) **Usando o centro de administração do Microsoft Teams**
 
-1. Na navegação à esquerda, clique em **usuários**e selecione o usuário na lista de usuários disponíveis.
+1. Na navegação à esquerda, clique em **usuários** e selecione o usuário na lista de usuários disponíveis.
 
-2. Em **conferência de áudio**, clique em **enviar informações de conferência por email**. 
+2. Em **conferência de áudio** , clique em **enviar informações de conferência por email**. 
 
     > [!NOTE]
     > Quando você faz isso, o pino de audioconferência não é enviado para o usuário. 
@@ -117,9 +118,9 @@ Veja [Enviar um email para um usuário com suas informações de conferência de
 
 ![Um ícone mostrando o logotipo do Microsoft Teams](media/teams-logo-30x30.png) **Usando o centro de administração do Microsoft Teams**
 
-1. Na navegação à esquerda, clique em **usuários**e selecione o usuário na lista de usuários disponíveis.
+1. Na navegação à esquerda, clique em **usuários** e selecione o usuário na lista de usuários disponíveis.
 
-2. Ao lado de **conferência de áudio**, clique em **Editar**.
+2. Ao lado de **conferência de áudio** , clique em **Editar**.
  
 3. No painel **conferência de áudio** , você pode definir o **número de chamada tarifada** e, se permitido, o **número de chamada gratuita**.
 
@@ -138,13 +139,13 @@ Consulte [definir os números de telefone incluídos nos convites](set-the-phone
 
 2. Na parte superior da página **pontes de conferência** , clique em **configurações de ponte**. 
 
-3. No painel **Configurações da ponte**, ative ou desative **Notificações de entrada/saída de reuniões**.
+3. No painel **Configurações da ponte** , ative ou desative **Notificações de entrada/saída de reuniões**.
 
     Isso é habilitado por padrão. Se você desabilitar essa opção, por padrão, os usuários que já entraram na reunião não serão notificados quando alguém entrar ou sair da reunião.
 
-4. Em **tipo de anúncio de entrada/saída**, escolha **toques** ou **nomes ou números de telefone**. 
+4. Em **tipo de anúncio de entrada/saída** , escolha **toques** ou **nomes ou números de telefone**. 
 
-    Se você escolher **nomes ou números de telefone**, também poderá optar por habilitar ou desabilitar **o recurso pedir que os chamadores registrem o nome antes de ingressar na reunião**. 
+    Se você escolher **nomes ou números de telefone** , também poderá optar por habilitar ou desabilitar **o recurso pedir que os chamadores registrem o nome antes de ingressar na reunião**. 
     > [!NOTE]
     > Por padrão, os participantes externos não conseguem ver os números de telefone dos participantes discadas. Se você quiser manter a privacidade desses números de telefone, selecione **Tons** para o **tipo de anúncio de entrada/saída** (isso impede que os números sejam lidos pelas equipes).
 
@@ -158,9 +159,9 @@ Consulte [Alterar as configurações de uma ponte de audioconferência](change-t
 
 1. Na navegação à esquerda, vá para **Reuniões** > **Pontes de conferência**. 
 
-2. No topo da página **Pontes de conferência**, clique em **Configurações da ponte**. 
+2. No topo da página **Pontes de conferência** , clique em **Configurações da ponte**. 
 
-3. No painel **Configurações da ponte**, insira o número de dígitos que deseja para o PIN na lista **Tamanho do PIN** e clique em **Salvar**.
+3. No painel **Configurações da ponte** , insira o número de dígitos que deseja para o PIN na lista **Tamanho do PIN** e clique em **Salvar**.
 
     O PIN deve ter entre 4 e 12 dígitos. O padrão é 5.
 
@@ -171,9 +172,9 @@ Consulte [Alterar as configurações de uma ponte de audioconferência](change-t
 
 1. Na navegação à esquerda, vá para **Reuniões** > **Pontes de conferência**. 
 
-2. No topo da página **Pontes de conferência**, clique em **Configurações da ponte**. 
+2. No topo da página **Pontes de conferência** , clique em **Configurações da ponte**. 
 
-3. No painel **Configurações da ponte**, ative ou desative **Enviar e-mails automaticamente aos usuários se suas configurações de audioconferência forem alteradas**.
+3. No painel **Configurações da ponte** , ative ou desative **Enviar e-mails automaticamente aos usuários se suas configurações de audioconferência forem alteradas**.
 
 4. Clique em **Salvar**. 
  

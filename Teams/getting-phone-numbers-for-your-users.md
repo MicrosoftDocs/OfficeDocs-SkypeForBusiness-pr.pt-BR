@@ -11,6 +11,7 @@ ms.service: msteams
 search.appverid: MET150
 ms.collection:
 - M365-voice
+- m365initiative-voice
 audience: Admin
 appliesto:
 - Microsoft Teams
@@ -20,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 'Saiba como obter novos, portar ou transferir números existentes para o Microsoft Teams e como mostrar as alterações aos seus usuários. '
-ms.openlocfilehash: ccc0baa1f4793967daa9520de1c9aaa9b56175ba
-ms.sourcegitcommit: 3e5cac88911611c94c0330bf50af9c34db308cdf
+ms.openlocfilehash: f2028a4d7b49560ff426d83241da8f1f7c3243d3
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/22/2020
-ms.locfileid: "45372070"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49030457"
 ---
 # <a name="getting-phone-numbers-for-your-users"></a>Obter números de telefone para seus usuários
 
@@ -49,14 +50,14 @@ Há três maneiras de obter números de usuário:
 Você deve ser um administrador de serviços do teams para fazer essas alterações. Consulte [usar funções de administrador do teams para gerenciar o Teams](https://docs.microsoft.com/microsoftteams/using-admin-roles) para ler sobre como obter funções e permissões de administrador.
 
 1. Vá para o centro de administração do Microsoft Teams.
-2. No painel de navegação esquerdo, vá **Voice**para  >  **números de telefone**de voz e clique em **Adicionar**.
+2. No painel de navegação esquerdo, vá **Voice** para  >  **números de telefone** de voz e clique em **Adicionar**.
 3. Insira um nome para o pedido e adicione uma descrição.
 4. Na página localização e quantidade, faça o seguinte:
-    1. Em **país ou região**, selecione um país ou região.
-    2. Em **tipo de número**, selecione **usuário (assinante)**.
-    3. Em **local**, selecione um local. Se você precisar criar um novo local, clique em **Adicionar um local**.
-    4. Em **código de área**, selecione um código de área.
-    5. Em **quantidade**, digite o número de números que você deseja para sua organização e clique em **Avançar** para selecionar seus números.
+    1. Em **país ou região** , selecione um país ou região.
+    2. Em **tipo de número** , selecione **usuário (assinante)**.
+    3. Em **local** , selecione um local. Se você precisar criar um novo local, clique em **Adicionar um local**.
+    4. Em **código de área** , selecione um código de área.
+    5. Em **quantidade** , digite o número de números que você deseja para sua organização e clique em **Avançar** para selecionar seus números.
 5. Selecione os números desejados. Você tem 10 minutos para selecionar seus números de telefone e fazer o pedido. Se você demorar mais de 10 minutos, os números de telefone serão retornados ao pool de números.
 6. Quando estiver pronto para fazer o pedido, clique em **fazer pedido**.
 

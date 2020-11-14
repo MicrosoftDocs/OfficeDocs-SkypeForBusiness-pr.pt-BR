@@ -7,7 +7,7 @@ ms.date: 01/28/2019
 ms.topic: article
 audience: admin
 ms.service: msteams
-ms.reviewer: lolaj
+ms.reviewer: dstrome
 description: Comece a trabalhar com o Teams implementando suas primeiras equipes e canais, para que você possa aumentar sua experiência com o Teams antes de implantá-lo o em sua organização.
 localization_priority: Priority
 search.appverid: MET150
@@ -15,20 +15,21 @@ f1.keywords:
 - NOCSH
 ms.collection:
 - M365-collaboration
+- m365initiative-deployteams
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: ee5abda84737a75b539fdc808f30abf78dd797d4
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: 0d59a3dbecb10a1666949273023112fa09961639
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46583188"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49030427"
 ---
 # <a name="get-started-with-microsoft-teams"></a>Introdução ao Microsoft Teams
 
 > [!IMPORTANT]
-> Se você estiver implantando o Microsoft Teams rapidamente em resposta a uma demanda maior de suporte ao **trabalho remoto**, use estas diretrizes de introdução a fim de distribuir o Teams para toda a organização. Estas orientações se aplicam mesmo quando o Teams é sua primeira carga de trabalho do Microsoft 365 ou Office 365.
+> Se você estiver implantando o Microsoft Teams rapidamente em resposta a uma demanda maior de suporte ao **trabalho remoto** , use estas diretrizes de introdução a fim de distribuir o Teams para toda a organização. Estas orientações se aplicam mesmo quando o Teams é sua primeira carga de trabalho do Microsoft 365 ou Office 365.
 
 Para começar a usar o Teams rapidamente, recomendamos que você crie duas ou três equipes e canais para um grupo selecionado de usuários pioneiros. Ao implementar o Teams em pequena escala inicialmente, você aprenderá a usar o Teams de forma prática e receberá informações úteis sobre como implantar o Teams em toda a organização. Se sua empresa for pequena, este guia de início rápido é tudo o que você precisa para implementar o Teams em toda a organização.
 
@@ -46,7 +47,7 @@ Veja aqui como implementar o primeiro conjunto de equipes e canais para que seus
 
 Se sua organização for de grande porte, realize uma configuração híbrida ou no local do Skype for Business, defina requisitos regulamentares ou de conformidade rigorosos ou, se desejar implementar reuniões ou recursos de voz (como planos de chamadas ou sistema de telefonia), comece pela leitura do arquivo [Como implementar o Teams](how-to-roll-out-teams.md). Recomendamos que você ainda comece pela seção **Introdução** para desenvolver suas habilidades e começar a planejar sua implantação em toda a organização. "Planeje suas equipes com o Teams." Comece por algo mais simples, implementando o Teams com chat, equipes, canais e aplicativos, e se desenvolva a partir daí. Essas experiências iniciais ajudarão você a divulgar o Teams, gerando entusiasmo em toda a organização para a próxima fase de lançamento. 
 
-Se você tiver um pequeno negócio ou se **estiver implantando o Teams rapidamente para dar suporte a uma força de trabalho recentemente remota**, use estas diretrizes de introdução para distribuir o Teams de forma completa em sua organização. Não deixe de conferir os modelos disponíveis especificamente para pequenas empresas para tornar a implantação na sua organização mais simples e fácil. Confira[Introdução aos modelos do Teams para pequenas e médias empresas](https://docs.microsoft.com/microsoftteams/smb-templates).
+Se você tiver um pequeno negócio ou se **estiver implantando o Teams rapidamente para dar suporte a uma força de trabalho recentemente remota** , use estas diretrizes de introdução para distribuir o Teams de forma completa em sua organização. Não deixe de conferir os modelos disponíveis especificamente para pequenas empresas para tornar a implantação na sua organização mais simples e fácil. Confira[Introdução aos modelos do Teams para pequenas e médias empresas](https://docs.microsoft.com/microsoftteams/smb-templates).
 
 ## <a name="before-you-get-started"></a>Antes de começar
 

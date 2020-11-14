@@ -9,6 +9,7 @@ ms.service: msteams
 audience: admin
 ms.collection:
 - M365-voice
+- m365initiative-voice
 f1.keywords:
 - NOCSH
 ms.reviewer: crowe
@@ -17,12 +18,12 @@ description: Determine qual plano de chamadas do sistema telefônico da Microsof
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 46a985247acaf80c228e19dc8ba38cfb1085308e
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 71fe92646a3a2976e9a4d393e54ea56a7669b400
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44691407"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49031847"
 ---
 # <a name="which-calling-plan-is-right-for-you"></a>Qual plano de chamadas é ideal para você? 
 
@@ -49,7 +50,7 @@ Há dois tipos de planos de chamada disponíveis:
 - Planos de chamadas domésticas 
 - Planos de chamadas locais e internacionais
 
-|Pergunte a si mesmo|Ação |
+|Pergunte a si mesmo|Action |
 |------------|-------|
 |Os planos de chamada estão disponíveis na minha área? Quais locais de usuário terão o serviço plano de chamadas? | Para obter mais informações, consulte [disponibilidade de país e região para conferências de áudio e planos de chamada](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md). | 
 Meus usuários precisam fazer chamadas internacionais? | Para obter mais informações, consulte [planos de chamada para o Microsoft 365 ou o Office 365](calling-plans-for-office-365.md). |
@@ -66,7 +67,7 @@ Cada um dos meus usuários tem um número de telefone do Direct Inward Dial (DID
 
 Com os planos de chamada no Microsoft 365 ou no Office 365, todos os usuários de sua organização precisam ter um número de telefone exclusivo do Direct Inward Dial (DID) e um endereço de emergência validado correspondente. Você também pode especificar um local de emergência dentro do endereço de emergência (por exemplo, um número de escritório ou um número de chão). 
 
-|Pergunte a si mesmo|Ação |
+|Pergunte a si mesmo|Action |
 |:------------|:-------|
 |Qual é o nível de detalhamento dos dados do endereço de emergência e do local que devem ser? |Para obter mais informações, consulte [o que são locais de emergência, endereços e encaminhamento de chamadas?](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/what-are-emergency-locations-addresses-and-call-routing).
 
@@ -75,7 +76,7 @@ Com os planos de chamada no Microsoft 365 ou no Office 365, todos os usuários d
 
 Por padrão, todas as chamadas de saída usam o número de telefone atribuído como identidade de chamada (identificação de chamadas). O destinatário da chamada pode identificar o autor da chamada rapidamente e decidir se deseja aceitar ou rejeitar a chamada.
 
-|Pergunte a si mesmo|Ação |
+|Pergunte a si mesmo|Action |
 |:------------|:-------|
 |Desejo mascarar ou desabilitar o recurso de identificação de chamadas? | Para alterar ou bloquear a identificação de chamadas, consulte [definir a identificação de chamadas para um usuário](set-the-caller-id-for-a-user.md). |
 |||

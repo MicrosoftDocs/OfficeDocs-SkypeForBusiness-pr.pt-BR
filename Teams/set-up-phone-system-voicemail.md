@@ -11,6 +11,7 @@ ms.service: msteams
 search.appverid: MET150
 ms.collection:
 - M365-voice
+- m365initiative-voice
 audience: Admin
 appliesto:
 - Skype for Business
@@ -21,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 'Saiba como configurar o correio de voz na nuvem para seus usuários. '
-ms.openlocfilehash: 62729794ff1e23ce29b3e3aad86fa09b63a428e5
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: df8e6d5962e3bff2148165466400e90ee3a4607d
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44691047"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49031067"
 ---
 # <a name="set-up-cloud-voicemail"></a>Configurar a caixa postal na nuvem
 
@@ -68,9 +69,9 @@ Para configurar o correio de voz protegido, faça o seguinte:
 1. Acesse https://admin.microsoft.com e entre usando uma conta com permissões de administrador global.
 2. Selecione **Mostrar tudo** e, em seguida, vá para o Exchange das **centrais de administração**  >  **Exchange**.
 3. No centro de administração do Exchange, selecione regras de **fluxo de email**  >  **Rules**.
-4. Selecione **+** **Adicionar**e, em seguida, selecione **aplicar a criptografia de mensagens e a proteção de direitos do Office 365 às mensagens**.
-5. Forneça um nome para a nova regra de fluxo de email e, em **aplicar esta regra se**, selecione **as propriedades da mensagem**  >  **incluem o tipo de mensagem de**caixa  >  **postal**. Selecione **OK**.
-6. Em **faça o seguinte**, selecione **aplicar criptografia de mensagem do Office 365 e proteção de direitos à mensagem com** e selecione **uma opção**. Em **modelo RMS**, selecione **não encaminhar**. Selecione **OK** e, em seguida, **salvar**.
+4. Selecione **+** **Adicionar** e, em seguida, selecione **aplicar a criptografia de mensagens e a proteção de direitos do Office 365 às mensagens**.
+5. Forneça um nome para a nova regra de fluxo de email e, em **aplicar esta regra se** , selecione **as propriedades da mensagem**  >  **incluem o tipo de mensagem de** caixa  >  **postal**. Selecione **OK**.
+6. Em **faça o seguinte** , selecione **aplicar criptografia de mensagem do Office 365 e proteção de direitos à mensagem com** e selecione **uma opção**. Em **modelo RMS** , selecione **não encaminhar**. Selecione **OK** e, em seguida, **salvar**.
     > [!NOTE]
     > Se a lista de **modelos RMS** estiver vazia, você precisará configurar a criptografia de mensagens. Para obter mais informações sobre a configuração da criptografia de mensagens, consulte os seguintes artigos:
     > - [Configurar novos recursos de criptografia de mensagens](https://docs.microsoft.com/microsoft-365/compliance/set-up-new-message-encryption-capabilities?view=o365-worldwide)

@@ -9,6 +9,7 @@ audience: admin
 ms.collection:
 - Teams_ITAdmin_GuestAccess
 - M365-collaboration
+- m365initiative-externalcollab
 ms.reviewer: rafarhi
 search.appverid: MET150
 ms.custom:
@@ -21,12 +22,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 description: Saiba mais sobre como ativar ou desativar o recurso de acesso de convidado no Microsoft Teams como um administrador do Office 365.
-ms.openlocfilehash: 54d7461e9e03cd22900e07aca7ad2d12712faab7
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 0920e9d8b8184f7f7ca83a71f0bd97d3a4d78470
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48508058"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49031187"
 ---
 # <a name="turn-on-or-turn-off-guest-access-to-microsoft-teams"></a>Ativar ou desativar o acesso de convidados ao Microsoft Teams
 
@@ -47,7 +48,7 @@ Depois de ativar o acesso de convidado, pode levar algumas horas para que as alt
 
     ![Permita que a opção de acesso de convidados seja definida como Ativada ](media/set-up-guests-image1.png)
 
-4. Em **chamadas**, **reuniões**e **mensagens**, selecione **Ativar** ou **desativar** para cada recurso, dependendo do que você deseja permitir para usuários convidados.
+4. Em **chamadas** , **reuniões** e **mensagens** , selecione **Ativar** ou **desativar** para cada recurso, dependendo do que você deseja permitir para usuários convidados.
 
       - **Fazer chamadas privadas** – **Ativar** essa função para permitir que os usuários façam chamadas ponto a ponto.
       - **Permitir vídeo IP** - **Ativar** essa configuração para permitir que os convidados usem vídeos em suas chamadas e reuniões.

@@ -15,14 +15,15 @@ f1.keywords:
 ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_RemoteWorkers
+- m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a266d9d3ea8fd572cca171768174d86094a8c945
-ms.sourcegitcommit: 0a51738879b13991986a3a872445daa8bd20533d
+ms.openlocfilehash: f27dc7e8772e25b6dcc91622cabec421e058af7b
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/27/2020
-ms.locfileid: "48766964"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49031477"
 ---
 <a name="manage-the-microsoft-teams-exploratory-license"></a>Gerenciar a licença do Microsoft Teams Exploratory
 =======================================================
@@ -82,22 +83,22 @@ A experiência Exploratória do Teams deve ser iniciada por usuários finais ind
 
 A experiência Exploratória do Teams vem com uma licença do Exchange Online, mas não será atribuída ao usuário até que o administrador a atribua. Se o usuário ainda não tiver uma licença do Exchange e o administrador ainda não tiver atribuído a licença do Exchange Online, o usuário não poderá agendar reuniões no Teams e pode estar perdendo outras funcionalidades do Teams.
 
-Os administradores podem desabilitar a capacidade para que os usuários finais executem a experiência do Teams Exploratory em sua organização, usando a opção **Aplicativos e serviços de avaliação** .
+Os administradores podem desabilitar a capacidade para que os usuários finais executem a experiência do Teams Exploratory em sua organização, usando a opção **Aplicativos e serviços de avaliação**.
 
 ### <a name="prevent-users-from-installing-trial-apps-and-services"></a>Impedir que os usuários instalem serviços e aplicativos de avaliação
 
 Você pode desativar a capacidade de um usuário de instalar aplicativos e serviços de avaliação, o que impediria o usuário de executar a experiência Exploratória do Teams.
 
-1. Do Centro de administração do Microsoft 365, vá até **Configurações** > **Configurações da Organização** , selecione **Serviços** e, em seguida, selecione **Aplicativos e serviços de propriedade do usuário** .
+1. Do Centro de administração do Microsoft 365, vá até **Configurações** > **Configurações da Organização** , selecione **Serviços** e, em seguida, selecione **Aplicativos e serviços de propriedade do usuário**.
 
     ![a página de Serviços no centro de administração](media/iw-trial-services.png)
 
-2. Desmarque a caixa de seleção **Permitir que os usuários instalem aplicativos e serviços de avaliação** .
+2. Desmarque a caixa de seleção **Permitir que os usuários instalem aplicativos e serviços de avaliação**.
 
     ![a página de aplicativos e serviços de propriedade do Usuário no centro de administração](media/iw-trial-user-owned-apps-services.png)
 
     > [!NOTE]
-    > Se a sua organização não estiver qualificada para a experiência do Teams Exploratory, você não verá a opção **Permitir que os usuários instalem aplicativos e serviços de avaliação** .
+    > Se a sua organização não estiver qualificada para a experiência do Teams Exploratory, você não verá a opção **Permitir que os usuários instalem aplicativos e serviços de avaliação**.
 
 ### <a name="manage-availability-for-a-user-with-a-license-that-includes-teams"></a>Gerenciar a disponibilidade de um usuário com uma licença que inclua o Teams
 
@@ -105,13 +106,13 @@ Um usuário que recebe uma licença que inclui o Teams não está qualificado pa
 
 Para desativar o acesso ao Teams:
 
-1. No Centro de administração do Microsoft 365, selecione **Usuários** > **Usuários ativos** .
+1. No Centro de administração do Microsoft 365, selecione **Usuários** > **Usuários ativos**.
 
 2. Marque a caixa ao lado do nome do usuário.
 
-3. Na linha **Licenças de produto** , escolha **Editar** .
+3. Na linha **Licenças de produto** , escolha **Editar**.
 
-4. No painel **​​Licenças do produto** , alterne a chave para **Desligado** .
+4. No painel **​​Licenças do produto** , alterne a chave para **Desligado**.
 
     ![a página de licenças do Produto no centro de administração.](media/iw-trial-enable-3.png)
 
@@ -121,13 +122,13 @@ Se um usuário estiver executando a experiência do Teams Exploratory, você pod
 
 Para desativar a licença de experiência do Teams Exploratory:
 
-1. No Centro de administração do Microsoft 365, selecione **Usuários** > **Usuários ativos** .
+1. No Centro de administração do Microsoft 365, selecione **Usuários** > **Usuários ativos**.
 
 2. Marque a caixa ao lado do nome do usuário.
 
-3. Na linha **Licenças de produto** , escolha **Editar** .
+3. Na linha **Licenças de produto** , escolha **Editar**.
 
-4. No painel **Licenças de produto** , alterne a opção desta licença exploratória para **Desativar** .
+4. No painel **Licenças de produto** , alterne a opção desta licença exploratória para **Desativar**.
 
     >[!Note]
     >A opção de alternância do Teams Exploratory será exibida após o primeiro usuário da organização iniciar a experiência do Teams Exploratory.
@@ -169,7 +170,7 @@ Confira as [Informações de assinatura do Microsoft 365](https://docs.microsoft
 
 ## <a name="how-long-does-the-teams-exploratory-experience-last"></a>Quanto tempo dura a experiência do Teams Exploratory?
 
-A experiência Microsoft Teams Exploratory ficará disponível sem custo adicional até o próximo **aniversário** ou a **renovação de contrato** em ou após janeiro de 2021. Nesse momento, os usuários finais em uma licença do Microsoft Exploratory precisarão passar para uma licença paga que inclua o Teams. Quaisquer licenças da experiência do Microsoft Exploratory iniciadas depois disso permanecerão disponíveis sem custos adicionais, até o seu próximo ciclo de **aniversário** ou **renovação** .
+A experiência Microsoft Teams Exploratory ficará disponível sem custo adicional até o próximo **aniversário** ou a **renovação de contrato** em ou após janeiro de 2021. Nesse momento, os usuários finais em uma licença do Microsoft Exploratory precisarão passar para uma licença paga que inclua o Teams. Quaisquer licenças da experiência do Microsoft Exploratory iniciadas depois disso permanecerão disponíveis sem custos adicionais, até o seu próximo ciclo de **aniversário** ou **renovação**.
 
 ### <a name="what-happens-if-an-end-user-initiates-the-microsoft-teams-exploratory-experience-just-before-the-anniversary-or-renewal-date"></a>O que acontece se um usuário final iniciar a experiência Microsoft Teams Exploratory pouco antes do aniversário ou data de renovação
 

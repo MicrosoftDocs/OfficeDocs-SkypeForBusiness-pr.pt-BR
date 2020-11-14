@@ -10,6 +10,7 @@ ms.service: msteams
 audience: Admin
 ms.collection:
 - M365-voice
+- m365initiative-voice
 f1.keywords:
 - CSH
 ms.custom: ms.teamsadmincenter.networktopology.overview
@@ -18,12 +19,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Saiba como definir configurações de rede para recursos de voz na nuvem no Microsoft Teams.
-ms.openlocfilehash: 21d47b5b2fae0b22ea585168acdce4a5e25af2ea
-ms.sourcegitcommit: 7631af666ae439cc85f1dae8955653a67170cf20
+ms.openlocfilehash: 2414010a6e7098a18954067dad659cb8c9912736
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "48304575"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49031097"
 ---
 # <a name="manage-your-network-topology-for-cloud-voice-features-in-microsoft-teams"></a>Gerenciar a topologia de rede para recursos de voz na nuvem no Microsoft Teams
 
@@ -39,24 +40,24 @@ Você define regiões de rede, sites de rede e sub-redes na guia **sites de rede
 
 #### <a name="add-and-configure-a-network-site"></a>Adicionar e configurar um site de rede
 
-1. Na navegação à esquerda do centro de administração do Microsoft Teams, vá para **locais**de  >  **topologia de rede**e clique na guia sites de **rede** .
-2. Clique em **Adicionar**e, em seguida, insira um nome e uma descrição para o site.
+1. Na navegação à esquerda do centro de administração do Microsoft Teams, vá para **locais** de  >  **topologia de rede** e clique na guia sites de **rede** .
+2. Clique em **Adicionar** e, em seguida, insira um nome e uma descrição para o site.
 
     ![Captura de tela da página Adicionar site de rede](media/manage-network-topology-add-site.png)
 
-3. Para associar o site a uma região de rede, clique em **Adicionar região de rede**, selecione uma região existente ou clique em **Adicionar** para adicionar uma região e, em seguida, clique em **vincular**.  
-4. Para habilitar o roteamento baseado em local para o site, ative o **roteamento baseado em localização**.
+3. Para associar o site a uma região de rede, clique em **Adicionar região de rede** , selecione uma região existente ou clique em **Adicionar** para adicionar uma região e, em seguida, clique em **vincular**.  
+4. Para habilitar o roteamento Location-Based para o site, ative o **roteamento baseado em localização**.
 5. Para atribuir políticas de serviços de emergência ao site, siga um destes procedimentos ou ambos:
 
-    - Se a sua organização usar planos de chamadas ou roteamento direto do sistema telefônico implantado, em **política de chamadas de emergência**, selecione a política desejada.
-    - Se sua organização implantou o roteamento direto do sistema telefônico, em **política de roteamento de chamadas de emergência**, selecione a política desejada.
+    - Se a sua organização usar planos de chamadas ou roteamento direto do sistema telefônico implantado, em **política de chamadas de emergência** , selecione a política desejada.
+    - Se sua organização implantou o roteamento direto do sistema telefônico, em **política de roteamento de chamadas de emergência** , selecione a política desejada.
 
-6. Para associar uma sub-rede ao site, em **sub-redes**, clique em **Adicionar sub-redes**. Especifique a versão IP, o endereço IP, o intervalo de rede, adicione uma descrição e clique em **aplicar**. Cada sub-rede deve estar associada a um site específico.
+6. Para associar uma sub-rede ao site, em **sub-redes** , clique em **Adicionar sub-redes**. Especifique a versão IP, o endereço IP, o intervalo de rede, adicione uma descrição e clique em **aplicar**. Cada sub-rede deve estar associada a um site específico.
 7. Clique em **Salvar**.
 
 #### <a name="modify-a-network-site"></a>Modificar um site de rede
 
-1. Na navegação à esquerda do centro de administração do Microsoft Teams, vá para **locais**de  >  **topologia de rede**e clique na guia sites de **rede** .
+1. Na navegação à esquerda do centro de administração do Microsoft Teams, vá para **locais** de  >  **topologia de rede** e clique na guia sites de **rede** .
 2. Selecione o site clicando à esquerda do nome do site e, em seguida, clique em **Editar**.
 3. Faça as alterações desejadas e clique em **salvar.**
 
@@ -66,7 +67,7 @@ Você gerencia endereços IP externos confiáveis na guia **IPs confiáveis** , 
 
 #### <a name="add-a-trusted-ip-address"></a>Adicionar um endereço IP confiável
 
-1. Na navegação à esquerda do centro de administração do Microsoft Teams, vá para **locais**de  >  **topologia de rede**e clique na guia **IPs confiáveis** .
+1. Na navegação à esquerda do centro de administração do Microsoft Teams, vá para **locais** de  >  **topologia de rede** e clique na guia **IPs confiáveis** .
 2. Clique em **Novo**.
 3. No painel **Adicionar endereço IP confiável** , especifique a versão IP, o endereço IP, o intervalo de rede, adicione uma descrição e clique em **aplicar**.
 
@@ -74,7 +75,7 @@ Você gerencia endereços IP externos confiáveis na guia **IPs confiáveis** , 
 
 #### <a name="edit-a-trusted-ip-address"></a>Editar um endereço IP confiável
 
-1. Na navegação à esquerda do centro de administração do Microsoft Teams, vá para **locais**de  >  **topologia de rede**e clique na guia **IPs confiáveis** .
+1. Na navegação à esquerda do centro de administração do Microsoft Teams, vá para **locais** de  >  **topologia de rede** e clique na guia **IPs confiáveis** .
 2. Selecione o endereço IP clicando à esquerda dele e, em seguida, clique em **Editar**.
 3. No painel **Editar endereço IP confiável** , faça as alterações desejadas e, em seguida, clique em **aplicar**.
 

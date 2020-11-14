@@ -8,6 +8,7 @@ ms.topic: article
 ms.service: msteams
 ms.collection:
 - M365-collaboration
+- m365initiative-deployteams
 ms.reviewer: harij, rafarhi
 localization_priority: Normal
 search.appverid: MET150
@@ -18,12 +19,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 429dd2c7e5b5fe8048bdac52e07dfb0577121540
-ms.sourcegitcommit: 48cb3cdd69558ec80f8f25f870b302a65280ce5a
+ms.openlocfilehash: 9e42e002e8ae0c2462bc0021ac1103c59e96f7cc
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/08/2020
-ms.locfileid: "48389869"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49030417"
 ---
 # <a name="get-clients-for-microsoft-teams"></a>Obter clientes do Microsoft Teams 
 
@@ -88,7 +89,7 @@ Usuários de Mac podem instalar o Teams usando um arquivo de instalação PKG pa
 
 #### <a name="install-teams-by-using-the-pkg-file"></a>Instalar o Teams usando o arquivo PKG
 
-1. Na [página de download do Teams](https://teams.microsoft.com/downloads), em **Mac**, clique em **Download**.
+1. Na [página de download do Teams](https://teams.microsoft.com/downloads), em **Mac** , clique em **Download**.
 2. Clique duas vezes no arquivo PKG.
 3. Siga o assistente de instalação para concluir a instalação.
 4. O Teams será instalado na pasta /Applications. É uma instalação em toda a máquina.
@@ -105,7 +106,7 @@ Se um usuário tiver atualmente uma instalação DMG do Teams e quiser substitu�
 Os administradores de TI podem usar a implantação gerenciada do Teams para distribuir os arquivos de instalação para todos os Macs de sua organização, como o Jamf Pro.
 
 > [!NOTE]
-> Se você tiver problemas ao instalar o PKG, avise-nos. Na seção **Comentários**, no final deste artigo, clique em **Comentários sobre o produto**.
+> Se você tiver problemas ao instalar o PKG, avise-nos. Na seção **Comentários** , no final deste artigo, clique em **Comentários sobre o produto**.
 
 ### <a name="linux"></a>Linux
 
@@ -196,9 +197,9 @@ Na China, veja como [obter o Teams para Android](get-teams-android-in-china.md).
 
 As plataformas móveis suportadas para os aplicativos móveis da Microsoft Teams são as seguintes:
 
--   **Android**: o suporte é limitado às últimas quatro versões principais do Android. Quando uma nova versão principal do Android é lançada, a nova versão e as três versões anteriores são oficialmente suportadas.
+-   **Android** : o suporte é limitado às últimas quatro versões principais do Android. Quando uma nova versão principal do Android é lançada, a nova versão e as três versões anteriores são oficialmente suportadas.
 
--   **iOS**: o suporte é limitado às duas versões principais mais recentes do iOS. Quando uma nova versão principal do iOS é lançada, a nova versão do iOS e a versão anterior são oficialmente suportadas.
+-   **iOS** : o suporte é limitado às duas versões principais mais recentes do iOS. Quando uma nova versão principal do iOS é lançada, a nova versão do iOS e a versão anterior são oficialmente suportadas.
 
 > [!NOTE]
 > A versão móvel deve estar disponível ao público para que o Teams funcione conforme o esperado.

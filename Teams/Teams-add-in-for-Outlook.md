@@ -16,14 +16,15 @@ ms.custom:
 - NewAdminCenter_Update
 ms.collection:
 - M365-collaboration
+- m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dc543096965a3abc51964c5006795cf385a4cb55
-ms.sourcegitcommit: 34f407a6a40317056005e3bf38ce58f792c04810
+ms.openlocfilehash: 574e770eb1756a2c83758b830c26e6adbac24183
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "46814097"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49031757"
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>Usar o suplemento de Reunião do Teams no Outlook
 =======================================
@@ -85,7 +86,7 @@ Para saber mais sobre como configurar a autenticação, veja [Modelos de identid
 
 ## <a name="enable-private-meetings"></a>Habilitar reuniões privadas
 
-A **permissão para agendar reuniões privadas** deve estar ativada no centro de administração do Microsoft Teams para que o suplemento seja implantado. No centro de administração, vá para **Reuniões** > **Políticas de Reunião**, e na seção **Geral**, ative **Permitir agendamento de reuniões particulares** para Ativado.)
+A **permissão para agendar reuniões privadas** deve estar ativada no centro de administração do Microsoft Teams para que o suplemento seja implantado. No centro de administração, vá para **Reuniões** > **Políticas de Reunião** , e na seção **Geral** , ative **Permitir agendamento de reuniões particulares** para Ativado.)
 
 ![Captura de tela das configurações no centro de administração do Microsoft Teams.](media/teams-add-in-for-outlook-image1.png)
 
@@ -167,14 +168,14 @@ Se o suplemento ainda não for exibido, use as etapas a seguir para verificar as
 > [!NOTE]
 > A edição incorreta do registro pode danificar seriamente seu sistema. Antes de fazer alterações no registro, você deve fazer backup de todos os dados importantes do computador.
 - Iniciar RegEdit.exe
-- Navegue até HKEY_CURRENT_USER \Software\Microsoft\Office\Outlook\Addins
+- Navegue até HKEY_CURRENT_USER\Software\Microsoft\Office\Outlook\Addins
 - Verifique se o TeamsAddin. FastConnect existe.
 - Em TeamsAddin. FastConnect, verifique se existe LoadBehavior e se está definido como 3.
   - Se LoadBehavior tiver um valor diferente de 3, altere-o para 3 e reinicie o Outlook.
 
 ### <a name="delegate-scheduling-does-not-work"></a>O agendamento de representante não funciona
 
-Se o seu administrador configurou o Microsoft Exchange para [controlar o acesso ao Exchange Web Server (EWS)](https://docs.microsoft.com/exchange/client-developer/exchange-web-services/how-to-control-access-to-ews-in-exchange), um representante não poderá agendar uma reunião do Teams em nome do chefe. A solução para esta configuração está em desenvolvimento e será lançada no futuro. Como solução alternativa, o administrador pode adicionar a seguinte cadeia de caracteres à lista de permissões do EWS: "*SchedulingService*". 
+Se o seu administrador configurou o Microsoft Exchange para [controlar o acesso ao Exchange Web Server (EWS)](https://docs.microsoft.com/exchange/client-developer/exchange-web-services/how-to-control-access-to-ews-in-exchange), um representante não poderá agendar uma reunião do Teams em nome do chefe. A solução para esta configuração está em desenvolvimento e será lançada no futuro. Como solução alternativa, o administrador pode adicionar a seguinte cadeia de caracteres à lista de permissões do EWS: " *SchedulingService* ". 
 
 
 ## <a name="related-topics"></a>Tópicos relacionados

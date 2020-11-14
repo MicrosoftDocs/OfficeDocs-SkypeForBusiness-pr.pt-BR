@@ -11,6 +11,7 @@ ms.service: msteams
 search.appverid: MET150
 ms.collection:
 - M365-voice
+- m365initiative-voice
 audience: Admin
 appliesto:
 - Microsoft Teams
@@ -24,12 +25,12 @@ ms.custom:
 - Direct Routing
 - seo-marvel-mar2020
 description: Saiba mais sobre chamadas de emergência, incluindo informações sobre endereços de emergência, roteamento de chamadas de emergência e chamadas de emergência dinâmicas.
-ms.openlocfilehash: b41b7e9b4442e10cf3ca352a9d6460f2d537b43e
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: 4f2ef86d05537a147a459fd6bc121f0680b534bd
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44665153"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49031597"
 ---
 # <a name="manage-emergency-calling"></a>Gerenciar chamadas de emergência
 
@@ -37,7 +38,7 @@ Este artigo descreve os conceitos que você precisará saber para gerenciar as c
 
 - **Endereço de emergência** -um endereço cívico &mdash; do endereço físico ou da rua de um local de negócios para a sua organização.
 
-  Por exemplo, o endereço *12345 residencial do Norte, Redmond, WA 98052* é usado para direcionar chamadas de emergência para as autoridades de expedição adequadas e para ajudar a localizar o chamador de emergência.
+  Por exemplo, o endereço  *12345 residencial do Norte, Redmond, WA 98052* é usado para direcionar chamadas de emergência para as autoridades de expedição adequadas e para ajudar a localizar o chamador de emergência.
 
 - **Lugar** -geralmente um número de andar, prédio, asa ou número de escritório. O local está associado a um endereço de emergência para dar um local mais exato dentro de um edifício. Você pode ter um número ilimitado de locais associados a um endereço de emergência. Por exemplo, se a sua organização tiver vários edifícios, talvez você queira incluir informações de local para cada prédio e para cada andar dentro de cada edifício.  
 
@@ -117,15 +118,15 @@ Quando um plano de chamada de equipe faz a discagem de um número de emergência
 
   - Se um chamador de emergência não conseguir atualizar o local de emergência para o centro de triagem, a chamada será transferida para o PSAP que está servindo o endereço cadastrado do chamador.
 
-  **No Canadá, na Irlanda e no Reino Unido, as**chamadas de emergência são primeiramente reconectadas para determinar a localização atual do usuário antes de conectar a chamada ao centro de expedição apropriado. 
+  **No Canadá, na Irlanda e no Reino Unido, as** chamadas de emergência são primeiramente reconectadas para determinar a localização atual do usuário antes de conectar a chamada ao centro de expedição apropriado. 
 
-  **Na França, na Alemanha e na Espanha**, as chamadas de emergência são roteadas diretamente para o PSAP que está servindo o endereço de emergência associado ao número, independentemente da localização do chamador.
+  **Na França, na Alemanha e na Espanha** , as chamadas de emergência são roteadas diretamente para o PSAP que está servindo o endereço de emergência associado ao número, independentemente da localização do chamador.
 
-  **Nos Países Baixos**, as chamadas de emergência são roteadas diretamente para o PSAP para o código de área local do número, independentemente da localização do chamador.
+  **Nos Países Baixos** , as chamadas de emergência são roteadas diretamente para o PSAP para o código de área local do número, independentemente da localização do chamador.
 
-  **Na Austrália**, os endereços de emergência são configurados e roteados pelo parceiro da operadora.
+  **Na Austrália** , os endereços de emergência são configurados e roteados pelo parceiro da operadora.
 
-  **No Japão**, não há suporte para chamadas de emergência.
+  **No Japão** , não há suporte para chamadas de emergência.
 
 
 Para obter mais informações, consulte:
@@ -214,7 +215,7 @@ Durante uma chamada de emergência, uma mesa de segurança é reconversada e a e
 ## <a name="related-topics"></a>Tópicos relacionados
 
 - [Gerenciar políticas de chamadas de emergência](manage-emergency-calling-policies.md)
-- [Gerenciar políticas de roteamento de chamadas de emergência](manage-emergency-call-routing-policies.md)
+- [Gerenciar políticas de roteamento de chamadas de emergência ](manage-emergency-call-routing-policies.md)
 - [Adicionar, alterar ou remover um local de emergência para sua organização](add-change-remove-emergency-location-organization.md)
 - [Atribuir ou alterar um local de emergência para o usuário](assign-change-emergency-location-user.md)
 - [Planejar e configurar chamadas de emergência dinâmicas](configure-dynamic-emergency-calling.md)

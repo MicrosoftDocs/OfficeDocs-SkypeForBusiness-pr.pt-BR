@@ -12,6 +12,7 @@ search.appverid: MET150
 ms.collection:
 - M365-voice
 - M365-collaboration
+- m365initiative-meetings
 audience: Admin
 appliesto:
 - Microsoft Teams
@@ -22,12 +23,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: Um administrador do Microsoft 365 ou do Office 365 pode editar as configurações de conferência de áudio do Teams, incluindo provedor, chamada tarifada padrão ou número de chamada gratuita, ID de conferência ou PIN para um usuário.
-ms.openlocfilehash: 33d241e9758bab2b52e342cab2ec157dafb73275
-ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
+ms.openlocfilehash: 80f8627efddae70388c17ed7585c74f6b4d97cc3
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44638470"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49031657"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-a-user-in-microsoft-teams"></a>Gerenciar as configurações de audioconferência de um usuário no Microsoft Teams
 
@@ -35,15 +36,15 @@ Como um administrador do Microsoft 365 ou do Office 365, você pode editar as co
 
 ## <a name="an-icon-showing-the-microsoft-teams-logo-using-the-microsoft-teams-admin-center"></a>![Um ícone mostrando o logotipo do Microsoft Teams](media/teams-logo-30x30.png) Usando o centro de administração do Microsoft Teams
 
-1. Na navegação à esquerda, clique em **usuários**e selecione o usuário na lista de usuários disponíveis.
+1. Na navegação à esquerda, clique em **usuários** e selecione o usuário na lista de usuários disponíveis.
 
 2. Clique em **Editar**.
 
-3. Em **videoconferência**, modifique qualquer um destes procedimentos:
+3. Em **videoconferência** , modifique qualquer um destes procedimentos:
 
 |**Configuração**|**Descrição**|
 |:-----|:-----|
-|**Audioconferência**|Para ativar ou desativar a conferência de áudio para o usuário, clique em **Editar** ao lado de **conferência de áudio**e, em seguida, no painel **videoconferência** , ative ou desative a **conferência de áudio** .|
+|**Audioconferência**|Para ativar ou desativar a conferência de áudio para o usuário, clique em **Editar** ao lado de **conferência de áudio** e, em seguida, no painel **videoconferência** , ative ou desative a **conferência de áudio** .|
 |**Enviar informações de conferência por email**  |Clique neste link apenas se você quiser enviar imediatamente um e-mail para o usuário com sua ID de conferência e número de telefone. (Este e-mail não inclui o PIN.) Consulte [Enviar um e-mail para um usuário com informações de audioconferência](send-an-email-to-a-user-with-their-dial-in-information-in-teams.md).  |
 |**ID de conferência**  |Clique em **Redefinir ID de conferência** se precisar redefinir a ID de conferência do usuário. Para obter mais informações, consulte [Redefinir uma ID de conferência para um usuário](reset-a-conference-id-for-a-user-in-teams.md).  |
 |**PIN** |Clique em **Redefinir PIN** se precisar redefinir o PIN para o usuário. Para obter mais informações, consulte [Redefinir o PIN de audioconferência](reset-the-audio-conferencing-pin-in-teams.md). |

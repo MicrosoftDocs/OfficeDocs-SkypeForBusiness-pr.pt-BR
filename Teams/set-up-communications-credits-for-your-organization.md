@@ -11,6 +11,7 @@ ms.service: msteams
 search.appverid: MET150
 ms.collection:
 - M365-voice
+- m365initiative-voice
 audience: Admin
 appliesto:
 - Skype for Business
@@ -22,12 +23,12 @@ ms.custom:
 - Licensing
 - seo-marvel-apr2020
 description: 'Learn how to set up communication credits (PSTN Consumption) billing licenses for your users and organization. '
-ms.openlocfilehash: 16b44071e6025d0dc10c270aa2a37679eec840e4
-ms.sourcegitcommit: d1e4e1105d86745009cf0fdf42d1fc5ad545a952
+ms.openlocfilehash: 51885d80e698d0f47308c45110af83063e7bd7ba
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "46788365"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49031387"
 ---
 # <a name="set-up-communications-credits-for-your-organization"></a>Configurar Créditos de Comunicação para sua organização
 
@@ -63,7 +64,7 @@ Para obter mais informações, consulte [Licenciamento de Complementos do Micros
 
 3. Selecione **créditos de comunicações**.
     
-4. Na página de assinatura **créditos de comunicação** , preencha as informações e clique em **Avançar**:
+4. Na página de assinatura **créditos de comunicação** , preencha as informações e clique em **Avançar** :
     
    - **Adicionar fundos** Digite o valor que você deseja adicionar à sua conta. Se você não habilitar a recarga automática, uma vez que esses fundos sejam esgotados, os recursos de chamada habilitados usando créditos de comunicações serão interrompidos (como serviço de chamadas de entrada grátis). Para evitar a necessidade de reabastecer manualmente o saldo dos créditos de comunicações cada vez que seu saldo atingir 0 (zero), recomendamos que você ative o recurso de recarga automática.
     
@@ -84,7 +85,7 @@ Para obter mais informações, consulte [Licenciamento de Complementos do Micros
     >[!IMPORTANT]
     >Se você for um cliente de licenciamento por volume, você pode escolher seu número enterprise agreement para pagamento. Se você tiver vários números enterprise agreement, você pode escolher qual prefere usar para o pagamento. Você também poderá especificar um número de ordem de compra que será associado ao número do enterprise agreement (se aplicável).
     
-Cada organização terá um uso diferente de taxas e volumes do plano de chamadas a serem considerados. You will need to get this type of usage data from your current service provider. As organizações que já usam o Skype for Business online já como provedor de serviços podem obter dados de uso revisando-as no **centro de administração do Microsoft Teams**  >  **reports**  >  relatório de detalhes de uso de**PSTN** .
+Cada organização terá um uso diferente de taxas e volumes do plano de chamadas a serem considerados. You will need to get this type of usage data from your current service provider. As organizações que já usam o Skype for Business online já como provedor de serviços podem obter dados de uso revisando-as no **centro de administração do Microsoft Teams**  >  **reports**  >  relatório de detalhes de uso de **PSTN** .
   
 Ao configurar créditos de comunicações, você precisará investigar o uso da chamada para a sua organização para determinar os valores necessários. Você pode obter informações de uso de chamadas examinando o relatório **Detalhes de uso de PSTN**. Este relatório permite exportar os registros de dados de chamadas para o Excel se você precisar armazenar os dados ou criar relatórios personalizados. Para saber como ver o uso, leia [relatório de uso de PSTN](https://docs.microsoft.com/skypeforbusiness/skype-for-business-online-reporting/pstn-usage-report).
   
@@ -92,7 +93,7 @@ Ao configurar créditos de comunicações, você precisará investigar o uso da 
 
 1. Entre no centro de [Administração do Microsoft 365](https://portal.office.com/Adminportal) com sua conta corporativa ou de estudante.
     
-2. Na navegação à esquerda do centro de administração do Microsoft 365, vá **para usuários**  >  **ativos**do Microsoft e selecione um usuário na lista.
+2. Na navegação à esquerda do centro de administração do Microsoft 365, vá **para usuários**  >  **ativos** do Microsoft e selecione um usuário na lista.
     
 3. Escolha **licenças e aplicativos**.
     

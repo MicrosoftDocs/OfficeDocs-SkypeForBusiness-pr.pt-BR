@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 452976ca2d88225fb239425861e1c97cd58a2b9f
-ms.sourcegitcommit: 54e685b07d1c23100951d46913480989f046d534
+ms.openlocfilehash: 631adf514044f67db5691513d231af28cc817d90
+ms.sourcegitcommit: f378b07dd9e57454d8614fcb529d364e9269c375
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2020
-ms.locfileid: "48827745"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49021138"
 ---
 # <a name="use-onedrive-for-business-and-sharepoint-or-stream-for-meeting-recordings"></a>Usar o OneDrive for Business e o SharePoint ou o Stream para gravações de reunião
 
@@ -30,10 +30,14 @@ ms.locfileid: "48827745"
 
 
 |Data|Evento|
-|---|-----------------|
-|CY20 no início do quarto trimestre|**A gravação de reunião do teams no OneDrive for Business e no SharePoint está disponível para aceitação ou cancelamento.**<br> Os administradores de locatários podem optar ou recusar o OneDrive for Business e o SharePoint Configurando a política de equipe no PowerShell|
-|Mid CY20 do quarto trimestre|**Gravação de reunião do teams no OneDrive for Business e no SharePoint definido como padrão para locatários que não são recusados**<br> Esse é o caminho recomendado para a maioria dos clientes|
-|T1 CY21|**Salvar a gravação da reunião do teams no fluxo clássico não é mais permitido**<br>Todos os locatários salvarão o registro de reunião do teams no OneDrive for Business e no SharePoint|
+|------------------------------------|----------------------------------------------------------------------------------------------------------------|
+|5 de outubro de 2020| Você pode habilitar a política de reunião do teams para ter gravações de reunião salvas no OneDrive for Business e no SharePoint em vez do Microsoft Stream (clássico)|
+|Lançando a partir de 11 de janeiro de 2021|Todas as novas gravações de reunião do teams serão salvas no OneDrive for Business e no SharePoint, a menos que você adie essa alteração modificando as políticas de reunião do teams da sua organização e definindo-as explicitamente para **transmitir**. Ver o relatório de política como Stream não é suficiente. Você precisa definir explicitamente o valor da política como **Stream**.|
+|Iniciando em 1º de março de 2021|**Clientes empresariais**<br>Não é possível salvar novas gravações de reunião no Microsoft Stream (clássico); todos os clientes terão automaticamente gravações de reunião salvas no OneDrive for Business e no SharePoint, mesmo que tenham alterado suas políticas de reunião do teams para **transmitir**. Recomendamos que os clientes lancem esse recurso antes desta data para que possam controlar o tempo do lançamento. |
+|Iniciando em 7 de julho de 2021|**Clientes educacionais**<br>Não é possível salvar novas gravações de reunião no Microsoft Stream (clássico); todos os clientes terão automaticamente gravações de reunião salvas no OneDrive for Business e no SharePoint, mesmo que tenham alterado suas políticas de reunião do teams para **transmitir**. Recomendamos que os clientes lancem esse recurso antes desta data para que possam controlar o tempo do lançamento. Atualizamos este cronograma para fornecer aos clientes de educação a capacidade de completar os semestrees em andamento. |
+
+> [!Note]
+> Recomendamos que os clientes corporativos e educacionais sejam mais adequados para controlar a alteração em sua organização, se você se sentir confortável quando estiver confortável com a mudança, em vez de esperar que isso aconteça. 
 
 O Microsoft Teams tem um novo método para salvar gravações na reunião. Como a primeira fase de uma transição do fluxo clássico da Microsoft para o [novo fluxo](https://docs.microsoft.com/stream/streamnew/new-stream), esse método armazena gravações no Microsoft onedrive for Business e no SharePoint no Microsoft 365 e oferece muitos benefícios.
 

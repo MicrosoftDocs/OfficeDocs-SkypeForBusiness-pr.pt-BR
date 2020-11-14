@@ -8,6 +8,7 @@ ms.service: msteams
 audience: admin
 ms.collection:
 - M365-voice
+- m365initiative-voice
 ms.reviewer: roykuntz
 localization_priority: Normal
 search.appverid: MET150
@@ -17,12 +18,12 @@ description: Saiba como configurar os planos de chamada e o recurso de chamadas 
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 772b439c7d0590cdc917c3e94780761de2da8915
-ms.sourcegitcommit: 5c232ab2dfe4374ac69701241e55b05b8de8eb3e
+ms.openlocfilehash: 06153eccd343ef8731af38ff4e3b45cea334fcb2
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/25/2020
-ms.locfileid: "48269645"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49031007"
 ---
 # <a name="plan-and-configure-dynamic-emergency-calling"></a>Planejar e configurar chamadas de emergência dinâmicas 
 
@@ -148,7 +149,7 @@ Para que um cliente obtenha um local, você deve preencher o LIS com identificad
 ### <a name="using-the-microsoft-teams-admin-center"></a>Usando o centro de administração do Microsoft Teams
 
 1. No painel de navegação esquerdo, vá para **locais**  >  **redes & locais**.
-2. Clique na guia que representa o identificador de rede que você deseja adicionar. Por exemplo, clique em **sub-redes**, **pontos de acesso Wi-Fi**, **Opções**ou **portas**. Em seguida, clique em **Adicionar**.
+2. Clique na guia que representa o identificador de rede que você deseja adicionar. Por exemplo, clique em **sub-redes** , **pontos de acesso Wi-Fi** , **Opções** ou **portas**. Em seguida, clique em **Adicionar**.
 3. Preencha os campos, adicione um local de emergência e clique em **aplicar**.
 
 ### <a name="using-powershell"></a>Usando o PowerShell

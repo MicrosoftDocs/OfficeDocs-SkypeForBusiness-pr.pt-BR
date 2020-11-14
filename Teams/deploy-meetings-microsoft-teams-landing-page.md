@@ -14,17 +14,18 @@ ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_RemoteWorkers
 - remotework
+- m365initiative-meetings
 localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a08a646ed2f89a857d2126ef9551bc84e6389a11
-ms.sourcegitcommit: 3db7c450d3afbc1049e1016d51016442e5764634
+ms.openlocfilehash: c6019c72d54ad48406060178389a66f8cdd9cee7
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48203824"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49030797"
 ---
 # <a name="meetings-and-conferencing-in-microsoft-teams"></a>Conferências e reuniões no Microsoft Teams
 
@@ -40,9 +41,9 @@ Você concluiu a [Introdução](get-started-with-teams-quick-start.md). Você im
 Para saber mais sobre a experiência de reuniões para seus usuários, confira [Reuniões e chamadas](https://support.office.com/article/meetings-and-calls-d92432d5-dd0f-4d17-8f69-06096b6b48a8). 
 
 
-*Novidades em abril de 2020*: Os organizadores de reuniões podem finalizar uma reunião para todos os participantes da reunião do Teams, clicando em **Encerrar reunião** nos controles de reunião dentro dela.  
+*Novidades em abril de 2020* : Os organizadores de reuniões podem finalizar uma reunião para todos os participantes da reunião do Teams, clicando em **Encerrar reunião** nos controles de reunião dentro dela.  
 
-*Novidades de novembro de 2019*: Agora você pode [usar o Assistente do Teams (visualização) para ajudá-lo na implantação do Microsoft Teams](use-advisor-teams-roll-out.md). O Assistente do Teams (visualização) o orienta na implementação do Microsoft Teams, incluindo reuniões e conferências. Ele avalia o ambiente do Office 365 e identifica as configurações mais comuns que talvez seja necessário atualizar ou modificar antes de poder implantar o Teams com êxito.
+*Novidades de novembro de 2019* : Agora você pode [usar o Assistente do Teams (visualização) para ajudá-lo na implantação do Microsoft Teams](use-advisor-teams-roll-out.md). O Assistente do Teams (visualização) o orienta na implementação do Microsoft Teams, incluindo reuniões e conferências. Ele avalia o ambiente do Office 365 e identifica as configurações mais comuns que talvez seja necessário atualizar ou modificar antes de poder implantar o Teams com êxito.
 
  > [!Note]
 > Para saber mais sobre reuniões e conferências do Teams em diferentes plataformas, confira [recursos do Teams por plataforma](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3).

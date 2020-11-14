@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9a7a40a4f7e99f79f67c0aaea0e5259652b5a8d8
-ms.sourcegitcommit: ee217e1d7188842c7becd19387fd421b485c3575
+ms.openlocfilehash: 61fbce79fc528f4b69baed9c08a8dabc9d40ed4a
+ms.sourcegitcommit: 76fc38fe1fbbd93bf2815c57e66fc479df34d929
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "48908570"
+ms.lasthandoff: 11/12/2020
+ms.locfileid: "49002193"
 ---
 # <a name="introduction-to-teams-policy-based-recording-for-callings--meetings"></a>Introdução à gravação baseada em políticas de equipe para chamadas & reuniões
 
@@ -40,7 +40,7 @@ O Microsoft Teams foi aprimorado para dar suporte à integração de soluções 
 
 - Novas políticas administrativas para a gravação de conformidade, incluindo a integração com as ferramentas de reunião e as ferramentas de reunião e as políticas de reunião existentes
 
-A gravação de conformidade pode ser habilitada nos usuários do Microsoft 365 a3/a5/E3/E5 e do Office 365 a3/a5/E3/e5. 
+A gravação de compatibilidade pode ser habilitada nos usuários do Microsoft 365 a3/a5/E3/E5/Business Premium e do Office 365 a3/a5/E3/e5. 
 
 Os recursos de integração da solução de gravação de conformidade também foram revisados em Ignite 2019 na [<span class="underline">sessão de gravação de conformidade e Microsoft Teams</span>](https://myignite.techcommunity.microsoft.com/sessions/83184?source=sessions).
 

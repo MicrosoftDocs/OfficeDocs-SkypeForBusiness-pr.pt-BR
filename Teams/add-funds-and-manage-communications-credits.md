@@ -12,6 +12,7 @@ ms.service: msteams
 search.appverid: MET150
 ms.collection:
 - M365-voice
+- m365initiative-voice
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -29,12 +30,12 @@ ms.custom:
 - O365P_SFBVoiceCreditAether
 - Licensing
 description: 'Saiba como pagar por créditos de comunicação (consumo PSTN) dos serviços do Skype for Business e consulte planos para manter os usuários com acesso contínuo ao sistema telefônico. '
-ms.openlocfilehash: 9e7dbfea6e662828a6c79ceaec969659acf9224d
-ms.sourcegitcommit: d1e4e1105d86745009cf0fdf42d1fc5ad545a952
+ms.openlocfilehash: bb2e237e1bc35c2f3173ea216702c707ba02fcc6
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "46788535"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49031057"
 ---
 # <a name="add-funds-and-manage-communications-credits"></a>Adicionar fundos e gerenciar Créditos de Comunicação
 
@@ -57,7 +58,7 @@ Como administrador, você pode adicionar fundos manualmente ou configurar o recu
   
 A recarga automática completa automaticamente o saldo quando este fica abaixo do valor que você definiu. Recomendamos usar a recarga automática para que você não precise lembrar de adicionar fundos manualmente. Quando seu saldo atingir o valor definido, os fundos serão adicionados automaticamente. Se você não escolher a recarga automática, correrá o risco de seu saldo cair abaixo de zero. Se isso ocorrer, você e seus usuários não poderão fazer chamadas gratuitas nem chamadas internacionais.
   
-Você pode atualizar suas opções de pagamento a qualquer momento. Na página **assinaturas** , selecione **créditos de comunicações**e faça as atualizações.
+Você pode atualizar suas opções de pagamento a qualquer momento. Na página **assinaturas** , selecione **créditos de comunicações** e faça as atualizações.
   
 Os fundos serão aplicados somente a créditos de comunicação nas tarifas publicadas pela Microsoft quando os serviços forem usados. Quaisquer fundos não usados dentro de doze (12) meses da data de compra vencerão e serão perdidos.
   
