@@ -9,33 +9,34 @@ audience: admin
 ms.collection:
 - Teams_ITAdmin_GuestAccess
 - M365-collaboration
+- m365initiative-deployteams
 ms.reviewer: dansteve
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Saiba mais sobre a visualização pública no Microsoft Teams. Experimente novos recursos e forneça feedback.
+description: Obtenha mais informações sobre a prévia pública no Microsoft Teams. Experimente novos recursos e forneça comentários.
 appliesto:
 - Microsoft Teams
 localization_priority: Priority
-ms.openlocfilehash: a2b06c58396db0e8fdb976037696b7a782d581cd
-ms.sourcegitcommit: 3f465eb6eb46db008f2b69fc4c6bb425d432dfcc
+ms.openlocfilehash: 0b0e6bb9c4082125b2dfbc1ab0dfb6e21edab2d6
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48852182"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49031607"
 ---
 # <a name="microsoft-teams-public-preview"></a>Visualização Pública do Microsoft Teams
 
 > [!NOTE]
-> Os recursos incluídos na pré-visualização podem não estar completos e podem sofrer alterações antes de se tornarem disponíveis no lançamento público. Eles são fornecidos apenas para fins de avaliação e exploração.
+> Talvez os recursos incluídos na pré-visualização possam estar incompletos e possam sofrer alterações antes de ficarem disponíveis no lançamento público. Eles são fornecidoas apenas para fins de avaliação e exploração.
 
-A Visualização Pública para o Microsoft Teams fornece acesso antecipado a recursos não lançados no Microsoft Teams. As visualizações permitem que você explore e teste os próximos recursos. Também agradecemos feedback sobre qualquer recurso em visualizações públicas. A visualização pública é habilitada para cada usuário do Microsoft Teams, então você não precisa se preocupar em afetar toda a organização.
+A Pré-visualização Pública do Microsoft Teams oferece acesso antecipado aos recursos inéditos no Teams. As pré-visualizações permitem que você explore e teste os recursos que estão por vir. Também agradecemos comentários sobre qualquer recurso nas pré-visualizações públicas. A pré-visualização pública está habilitada para cada usuário do Teams, portanto, você não precisa se preocupar em afetar a sua organização.
 
 ## <a name="set-the-update-policy"></a>Definir a política de Atualização
 
- A visualização pública é habilitada para cada usuário e a opção de ativar a visualização pública é controlada em uma política administrativa. As políticas de atualização são usadas para gerenciar o Microsoft Teams e os usuários de visualização do Office que verão recursos de pré-lançamento ou pré-visualização no aplicativo Microsoft Teams. Você pode usar a política Global (Padrão em toda a organização) e personalizá-la ou criar uma ou mais políticas personalizadas para os usuários.
+ A visualização pública é habilitada para cada usuário, e a opção para ativar a visualização pública é controlada em uma política administrativa. As políticas de atualização são usadas para gerenciar o Teams e os usuários de visualização do Office que verão os recursos de pré-lançamento ou de pré-visualização no aplicativo do Teams. Você pode usar a política Global (padrão Org-wide) e personalizá-la, ou criar uma ou mais políticas personalizadas para seus usuários.
 
-1. Entre no centro de administração.
+1. Entre no Centro de administração.
 2. Selecione **Teams**>**Atualizar políticas**.
 
    ![Selecionar a opção Atualizar políticas](media/updatePolicies.png)
