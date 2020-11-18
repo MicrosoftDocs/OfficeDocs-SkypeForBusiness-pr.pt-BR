@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f11a5e01105cde728c0efbda46a38c4643a332bf
-ms.sourcegitcommit: 803a7acf628819e4edd95bd7a67867bb9ebdd344
+ms.openlocfilehash: 0e9fcc4475b7f06b427dbc73de4b00b09b08755a
+ms.sourcegitcommit: b282acc1633c2d62bbff0ea77b6b647775ae6dfe
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/14/2020
-ms.locfileid: "49073152"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "49085545"
 ---
 # <a name="use-onedrive-for-business-and-sharepoint-or-stream-for-meeting-recordings"></a>Usar o OneDrive for Business e o SharePoint ou o Stream para gravações de reunião
 
@@ -37,7 +37,7 @@ ms.locfileid: "49073152"
 |Iniciando em 7 de julho de 2021 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|**Clientes educacionais**<br>Não é possível salvar novas gravações de reunião no Microsoft Stream (clássico); todos os clientes terão automaticamente gravações de reunião salvas no OneDrive for Business e no SharePoint, mesmo que tenham alterado suas políticas de reunião do teams para **transmitir**. Recomendamos que os clientes lancem esse recurso antes desta data para que possam controlar o tempo do lançamento. Atualizamos este cronograma para fornecer aos clientes de educação a capacidade de completar os semestrees em andamento. |
 
 > [!Note]
-> Recomendamos que os clientes corporativos e educacionais sejam mais adequados para controlar a alteração em sua organização, se você se sentir confortável quando estiver confortável com a mudança, em vez de esperar que isso aconteça. 
+> Recomendamos que os clientes corporativos e educacionais sejam mais adequados para controlar a alteração em sua organização, se você se sentir confortável quando estiver confortável com a mudança, em vez de esperar que isso aconteça.
 
 O Microsoft Teams tem um novo método para salvar gravações na reunião. Como a primeira fase de uma transição do fluxo clássico da Microsoft para o [novo fluxo](https://docs.microsoft.com/stream/streamnew/new-stream), esse método armazena gravações no Microsoft onedrive for Business e no SharePoint no Microsoft 365 e oferece muitos benefícios.
 
@@ -75,7 +75,7 @@ Assista à "gravação na reunião" para obter mais informações.
 > As alterações da política de reunião do teams levam tempo para se propagar. Verifique novamente depois de algumas horas de configuração e saia e entre novamente.
 
 1. Instale o Skype for Business online PowerShell.
-**Observação** : o conector Skype for Business online atualmente faz parte do módulo do PowerShell mais recente do teams. Se você estiver usando a versão pública do teams PowerShell mais recente, não será necessário instalar o conector do Skype for Business online. Consulte [gerenciar o Skype for Business online com o PowerShell](https://docs.microsoft.com/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell?view=o365-worldwide&preserve-view=true).
+**Observação**: o conector Skype for Business online atualmente faz parte do módulo do PowerShell mais recente do teams. Se você estiver usando a versão pública do teams PowerShell mais recente, não será necessário instalar o conector do Skype for Business online. Consulte [gerenciar o Skype for Business online com o PowerShell](https://docs.microsoft.com/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell?view=o365-worldwide&preserve-view=true).
 
     a. Baixe o [Skype for Business online PowerShell](https://docs.microsoft.com/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell?view=o365-worldwide&preserve-view=true).
 
@@ -85,7 +85,7 @@ Assista à "gravação na reunião" para obter mais informações.
 
 2. Iniciar o PowerShell como administrador
 
-3. Importe o conector SkypeOnline e faça logon como administrador do teams.
+3. Importe o conector SkypeOnline e entre como administrador do teams.
 
    ```powershell
    Import-Module SkypeOnlineConnector
@@ -101,7 +101,7 @@ Assista à "gravação na reunião" para obter mais informações.
 
 ## <a name="opt-out-of-onedrive-for-business-and-sharepoint-to-continue-using-stream"></a>Recusar o OneDrive for Business e o SharePoint para continuar usando o Stream
 
-Mesmo se uma política disser que está definida como **Stream** , ela pode não ser definida. Geralmente, se a política não estiver definida, a configuração padrão será **Stream**. No entanto, com essa nova alteração, se você quiser optar por usar o SharePoint ou o OneDrive for Business, será necessário redefinir a política para **transmitir** para garantir que seja o padrão.
+Mesmo se uma política disser que está definida como **Stream**, ela pode não ser definida. Geralmente, se a política não estiver definida, a configuração padrão será **Stream**. No entanto, com essa nova alteração, se você quiser optar por usar o SharePoint ou o OneDrive for Business, será necessário redefinir a política para **transmitir** para garantir que seja o padrão.
 
 ```PowerShell
 Set-CsTeamsMeetingPolicy -Identity Global -RecordingStorageMode "Stream"
@@ -156,9 +156,11 @@ As legendas ocultas são suportadas para gravações de reunião do Team por 60 
 
 Legendas codificadas não são totalmente suportadas se a gravação da reunião do teams for movida ou copiada de seu local original no OneDrive for Business ou no SharePoint.
 
-**Como a minha cota de armazenamento será afetada**
+**Como a minha cota de armazenamento será afetada?**
 
-A reunião de equipes que grava arquivos residem no OneDrive for Business e no SharePoint e está incluída na sua cota para esses serviços. Consulte [cota do SharePoint](https://docs.microsoft.com/sharepoint/sites/plan-site-maintenance-and-management#quotas) e [cota do onedrive for Business] ( https://docs.microsoft.com/onedrive/set-default-storage-space) .
+A reunião de equipes que grava arquivos residem no OneDrive for Business e no SharePoint e está incluída na sua cota para esses serviços. Consulte [cota do SharePoint](https://docs.microsoft.com/sharepoint/sites/plan-site-maintenance-and-management#quotas) e [cota do onedrive for Business](https://docs.microsoft.com/onedrive/set-default-storage-space).
+
+Você obtém mais armazenamento com o [onedrive for Business](https://docs.microsoft.com/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-limits) em comparação com o fluxo e mais armazenamento fungible com o SharePoint.
 
 **Como faço para reproduzir uma gravação de reunião do teams?**
 

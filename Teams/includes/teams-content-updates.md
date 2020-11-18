@@ -3,6 +3,111 @@
 
 
 
+## <a name="week-of-november-09-2020"></a>Semana de 09 de novembro de 2020
+
+
+| Publicado em |Título do tópico | Alteração |
+|------|------------|--------|
+| 11/9/2020 | [Central de contatos do teams](/MicrosoftTeams/teams-contact-center) | modificado |
+| 11/9/2020 | [Otimização direta de roteamento de mídia local](/MicrosoftTeams/direct-routing-media-optimization) | modificado |
+| 11/10/2020 | [Barreiras de informação no Microsoft Teams](/MicrosoftTeams/information-barriers-in-teams) | modificado |
+| 11/10/2020 | [Central de contatos do teams](/MicrosoftTeams/teams-contact-center) | modificado |
+| 11/10/2020 | [O que são Créditos de Comunicação?](/MicrosoftTeams/what-are-communications-credits) | modificado |
+| 11/11/2020 | [Configurar um atendedor automático para o Microsoft Teams](/MicrosoftTeams/create-a-phone-system-auto-attendant) | modificado |
+| 11/11/2020 | [Barreiras de informação no Microsoft Teams](/MicrosoftTeams/information-barriers-in-teams) | modificado |
+| 11/11/2020 | [Controladores de borda de sessão certificados para roteamento direto](/MicrosoftTeams/direct-routing-border-controllers) | modificado |
+| 11/11/2020 | [Políticas de retenção no Microsoft Teams](/MicrosoftTeams/retention-policies) | modificado |
+| 11/12/2020 | [Introdução à gravação baseada em políticas de equipe para fazer chamadas & reuniões](/MicrosoftTeams/teams-recording-policy) | modificado |
+| 11/12/2020 | [Usar o OneDrive for Business e o SharePoint para gravações de reunião](/MicrosoftTeams/tmr-meeting-recording-change) | modificado |
+| 11/12/2020 | [Usar o suplemento de Reunião do Microsoft Teams no Outlook](/MicrosoftTeams/teams-add-in-for-outlook) | modificado |
+| 11/12/2020 | [Autorizar o acesso para convidado no Microsoft Teams](/MicrosoftTeams/teams-dependencies) | modificado |
+| 11/12/2020 | [Bem-vindo ao Microsoft Teams](/MicrosoftTeams/teams-overview) | modificado |
+| 11/12/2020 | [Adicionar fundos e gerenciar Créditos de Comunicação](/MicrosoftTeams/add-funds-and-manage-communications-credits) | modificado |
+| 11/12/2020 | [Adicionar um convidado a uma equipe](/MicrosoftTeams/add-guests) | modificado |
+| 11/12/2020 | [Conferência de áudio no Microsoft 365](/MicrosoftTeams/audio-conferencing-in-office-365) | modificado |
+| 11/12/2020 | [Conferência na rede para videoconferência](/MicrosoftTeams/audio-conferencing-on-network) | modificado |
+| 11/12/2020 | [Configurar a videoconferência para empresas de pequeno e médio porte](/MicrosoftTeams/audio-conferencing-smb) | modificado |
+| 11/12/2020 | [Usar o assistente do Guia de Introdução para configurar o Business Voice](/MicrosoftTeams/business-voice/use-getting-started-wizard) | modificado |
+| 11/12/2020 | [O que preciso comprar para usar o Microsoft 365 Business Voice com Plano de Chamadas?](/MicrosoftTeams/business-voice/what-to-buy) | modificado |
+| 11/12/2020 | [O que é o Microsoft 365 Business Voice?](/MicrosoftTeams/business-voice/whats-business-voice) | modificado |
+| 11/12/2020 | [Planos de chamada do Microsoft Teams](/MicrosoftTeams/calling-plan-landing-page) | modificado |
+| 11/12/2020 | [Gravação de reuniões na nuvem do Microsoft Teams](/MicrosoftTeams/cloud-recording) | modificado |
+| 11/12/2020 | [Voz no Microsoft Teams](/MicrosoftTeams/cloud-voice-landing-page) | modificado |
+| 11/12/2020 | [Configurações de rede para recursos de voz na nuvem](/MicrosoftTeams/cloud-voice-network-settings) | modificado |
+| 11/12/2020 | [Ligar e conversar com usuários de outras organizações](/MicrosoftTeams/communicate-with-users-from-other-organizations) | modificado |
+| 11/12/2020 | [Configurar chamadas de emergência dinâmicas](/MicrosoftTeams/configure-dynamic-emergency-calling) | modificado |
+| 11/12/2020 | [Configurar um atendedor automático para o Microsoft Teams](/MicrosoftTeams/create-a-phone-system-auto-attendant) | modificado |
+| 11/12/2020 | [Criar uma fila de chamadas no Microsoft Teams](/MicrosoftTeams/create-a-phone-system-call-queue) | modificado |
+| 11/12/2020 | [Definir configurações de videoconferência – Microsoft Teams](/MicrosoftTeams/deploy-audio-conferencing-teams-landing-page) | modificado |
+| 11/12/2020 | [Chat, equipes, canais e aplicativos no Microsoft Teams](/MicrosoftTeams/deploy-chat-teams-channels-microsoft-teams-landing-page) | modificado |
+| 11/12/2020 | [Conferências e reuniões no Microsoft Teams](/MicrosoftTeams/deploy-meetings-microsoft-teams-landing-page) | modificado |
+| 11/12/2020 | [Gerenciar seus dispositivos no Microsoft Teams](/MicrosoftTeams/devices/device-management) | modificado |
+| 11/12/2020 | [Configurar o Roteamento Direto](/MicrosoftTeams/direct-routing-configure) | modificado |
+| 11/12/2020 | [Roteamento Direto do Sistema Telefônico](/MicrosoftTeams/direct-routing-landing-page) | modificado |
+| 11/12/2020 | [Planejar o Roteamento Direto](/MicrosoftTeams/direct-routing-plan) | modificado |
+| 11/12/2020 | [Editar informações de usuários convidados](/MicrosoftTeams/edit-guests-information) | modificado |
+| 11/12/2020 | [Obter clientes para o Microsoft Teams](/MicrosoftTeams/get-clients) | modificado |
+| 11/12/2020 | [Criar suas primeiras equipes e canais](/MicrosoftTeams/get-started-with-teams-create-your-first-teams-and-channels) | modificado |
+| 11/12/2020 | [Monitorar o uso e os comentários no Microsoft Teams](/MicrosoftTeams/get-started-with-teams-monitor-usage-and-feedback) | modificado |
+| 11/12/2020 | [Integração de usuários pioneiros do Microsoft Teams](/MicrosoftTeams/get-started-with-teams-onboard-early-adopters) | modificado |
+| 11/12/2020 | [Introdução ao Microsoft Teams](/MicrosoftTeams/get-started-with-teams-quick-start) | modificado |
+| 11/12/2020 | [Escolha um caminho para a implantação em toda a organização](/MicrosoftTeams/get-started-with-teams-resources-for-org-wide-rollout) | modificado |
+| 11/12/2020 | [Obter números de telefone para seus usuários](/MicrosoftTeams/getting-phone-numbers-for-your-users) | modificado |
+| 11/12/2020 | [Obter números de telefone de serviço](/MicrosoftTeams/getting-service-phone-numbers) | modificado |
+| 11/12/2020 | [Acesso para convidado no Microsoft Teams](/MicrosoftTeams/guest-access) | modificado |
+| 11/12/2020 | [Experiência de convidado no Microsoft Teams](/MicrosoftTeams/guest-experience) | modificado |
+| 11/12/2020 | [Requisitos de hardware para o Microsoft Teams](/MicrosoftTeams/hardware-requirements-for-the-teams-app) | modificado |
+| 11/12/2020 | [Veja o que você obtém com o Sistema de Telefonia](/MicrosoftTeams/here-s-what-you-get-with-phone-system) | modificado |
+| 11/12/2020 | [Limites e especificações para o Microsoft Teams](/MicrosoftTeams/limits-specifications-teams) | modificado |
+| 11/12/2020 | [Gerenciar o acesso externo (Federação)](/MicrosoftTeams/manage-external-access) | modificado |
+| 11/12/2020 | [Gerenciar a versão gratuita de Microsoft Teams](/MicrosoftTeams/manage-freemium) | modificado |
+| 11/12/2020 | [Gerenciar números de telefone para sua organização](/MicrosoftTeams/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization) | modificado |
+| 11/12/2020 | [Gerenciar contas de recursos no Teams](/MicrosoftTeams/manage-resource-accounts) | modificado |
+| 11/12/2020 | [Gerenciar configurações de audioconferência de áudio para usuários](/MicrosoftTeams/manage-the-audio-conferencing-settings-for-a-user-in-teams) | modificado |
+| 11/12/2020 | [Gerenciar as configurações de conferência de áudio](/MicrosoftTeams/manage-the-audio-conferencing-settings-for-my-organization-in-teams) | modificado |
+| 11/12/2020 | [Gerenciar a topologia de rede para recursos de voz na nuvem no Microsoft Teams](/MicrosoftTeams/manage-your-network-topology) | modificado |
+| 11/12/2020 | [Gerenciar políticas de reunião](/MicrosoftTeams/meeting-policies-in-teams) | modificado |
+| 11/12/2020 | [Gerenciar configurações de reunião](/MicrosoftTeams/meeting-settings-in-teams) | modificado |
+| 11/12/2020 | [Migrar do Slack para o Microsoft Teams](/MicrosoftTeams/migrate-slack-to-teams) | modificado |
+| 11/12/2020 | [Instalar o Microsoft Teams usando o Gerenciador de configuração do Microsoft Endpoint](/MicrosoftTeams/msi-deployment) | modificado |
+| 11/12/2020 | [Experiência de chat nativo para usuários externos (federados) no Microsoft Teams](/MicrosoftTeams/native-chat-for-external-users) | modificado |
+| 11/12/2020 | [Usar o planejador de rede para o Microsoft Teams](/MicrosoftTeams/network-planner) | modificado |
+| 11/12/2020 | [Transferir números de telefone para o Microsoft Teams](/MicrosoftTeams/phone-number-calling-plans/transfer-phone-numbers-to-teams) | modificado |
+| 11/12/2020 | [Planejar o Grupos do Microsoft 365 quando criar equipes](/MicrosoftTeams/plan-office-365-groups) | modificado |
+| 11/12/2020 | [Planejar os atendedores automáticos e as filas de chamadas do teams](/MicrosoftTeams/plan-auto-attendant-call-queue) | modificado |
+| 11/12/2020 | [Preparo da rede da sua organização para o Teams](/MicrosoftTeams/prepare-network) | modificado |
+| 11/12/2020 | [Visualização pública no Microsoft Teams](/MicrosoftTeams/public-preview-doc-updates) | modificado |
+| 11/12/2020 | [Início rápido do administrador – Reuniões e eventos ao vivo no Microsoft Teams](/MicrosoftTeams/quick-start-meetings-live-events) | modificado |
+| 11/12/2020 | [Salas de reunião virtual do Microsoft Teams](/MicrosoftTeams/rooms/index) | modificado |
+| 11/12/2020 | [Serviço gerenciado de salas do Microsoft Teams](/MicrosoftTeams/rooms/microsoft-teams-rooms-premium) | modificado |
+| 11/12/2020 | [Planejar as Salas do Microsoft Teams](/MicrosoftTeams/rooms/rooms-plan) | modificado |
+| 11/12/2020 | [Configurar Audioconferência no Microsoft Teams](/MicrosoftTeams/set-up-audio-conferencing-in-teams) | modificado |
+| 11/12/2020 | [Configurar Créditos de Comunicação para sua organização](/MicrosoftTeams/set-up-communications-credits-for-your-organization) | modificado |
+| 11/12/2020 | [Ativar ou desativar o acesso de convidados ao Microsoft Teams](/MicrosoftTeams/set-up-guests) | modificado |
+| 11/12/2020 | [Configurar a caixa postal na nuvem](/MicrosoftTeams/set-up-phone-system-voicemail) | modificado |
+| 11/12/2020 | [Configurar o Sistema de Telefonia na sua organização](/MicrosoftTeams/setting-up-your-phone-system) | modificado |
+| 11/12/2020 | [Complemento avançado de comunicação do Microsoft Teams](/MicrosoftTeams/teams-add-on-licensing/advanced-communications) | modificado |
+| 11/12/2020 | [Atualizações do Microsoft Teams](/MicrosoftTeams/teams-client-update) | modificado |
+| 11/12/2020 | [Gerenciar a experiência do Microsoft Teams Exploratory](/MicrosoftTeams/teams-exploratory) | modificado |
+| 11/12/2020 | [Teams para Infraestrutura de Área de Trabalho Virtualizada](/MicrosoftTeams/teams-for-vdi) | modificado |
+| 11/12/2020 | [Configurar eventos ao vivo no Microsoft Teams](/MicrosoftTeams/teams-live-events/configure-teams-live-events) | modificado |
+| 11/12/2020 | [Planejar eventos ao vivo no Microsoft Teams](/MicrosoftTeams/teams-live-events/plan-for-teams-live-events) | modificado |
+| 11/12/2020 | [Configurar eventos ao vivo no Microsoft Teams](/MicrosoftTeams/teams-live-events/set-up-for-teams-live-events) | modificado |
+| 11/12/2020 | [O que são os eventos ao vivo do Microsoft Teams ?](/MicrosoftTeams/teams-live-events/what-are-teams-live-events) | modificado |
+| 11/12/2020 | [Teams e interoperabilidade do Skype](/MicrosoftTeams/teams-skype-interop) | modificado |
+| 11/12/2020 | [Experimentar ou comprar videoconferências no Microsoft 365 para Teams](/MicrosoftTeams/try-or-purchase-audio-conferencing-in-office-365-for-teams) | modificado |
+| 11/12/2020 | [Atualize o Microsoft Teams gratuitamente para a assinatura](/MicrosoftTeams/upgrade-freemium) | modificado |
+| 11/12/2020 | [Use o Assistente do Teams para ajudá-lo na implantação do Microsoft Teams](/MicrosoftTeams/use-advisor-teams-roll-out) | modificado |
+| 11/12/2020 | [Exibir usuários convidados em uma equipe](/MicrosoftTeams/view-guests) | modificado |
+| 11/12/2020 | [O que são Créditos de Comunicação?](/MicrosoftTeams/what-are-communications-credits) | modificado |
+| 11/12/2020 | [O que são planos de discagem?](/MicrosoftTeams/what-are-dial-plans) | modificado |
+| 11/12/2020 | [Planejar e gerenciar chamadas de emergência](/MicrosoftTeams/what-are-emergency-locations-addresses-and-call-routing) | modificado |
+| 11/12/2020 | [O que é o sistema de telefonia?](/MicrosoftTeams/what-is-phone-system-in-office-365) | modificado |
+| 11/13/2020 | [Como implementar o Microsoft Teams](/MicrosoftTeams/how-to-roll-out-teams) | modificado |
+| 11/13/2020 | [Voz no Microsoft Teams](/MicrosoftTeams/cloud-voice-landing-page) | modificado |
+| 11/13/2020 | [Usar o OneDrive for Business e o SharePoint para gravações de reunião](/MicrosoftTeams/tmr-meeting-recording-change) | modificado |
+
+
 ## <a name="week-of-november-02-2020"></a>Semana de 2 de novembro de 2020
 
 
@@ -307,65 +412,3 @@
 | 10/16/2020 | [Use o Assistente do Teams para ajudá-lo na implantação do Microsoft Teams](/MicrosoftTeams/use-advisor-teams-roll-out) | modificado |
 | 10/16/2020 | [Gerenciar o acesso de usuários ao Microsoft Teams](/MicrosoftTeams/user-access) | modificado |
 | 10/16/2020 | [O que é o sistema de telefonia?](/MicrosoftTeams/what-is-phone-system-in-office-365) | modificado |
-
-
-## <a name="week-of-october-05-2020"></a>Semana de 5 de outubro de 2020
-
-
-| Publicado em |Título do tópico | Alteração |
-|------|------------|--------|
-| 10/5/2020 | [Sessões do teams em Ignite 2020](/MicrosoftTeams/ignite-2020-landing-page) | modificado |
-| 10/5/2020 | [Usar funções de administrador do Microsoft Teams para gerenciar equipes](/MicrosoftTeams/using-admin-roles) | modificado |
-| 10/5/2020 | [Criar uma equipe englobando toda a organização no Microsoft Teams](/MicrosoftTeams/create-an-org-wide-team) | modificado |
-| 10/5/2020 | [Interface do DSTU2 de integração do EHR e aplicativo pacientes](/MicrosoftTeams/expand-teams-across-your-org/healthcare/dstu2-interface) | modificado |
-| 10/5/2020 | [Conecte o aplicativo de pacientes à API do Azure para FHIR](/MicrosoftTeams/expand-teams-across-your-org/healthcare/patients-app-connect-azure-api-fhir) | modificado |
-| 10/5/2020 | [Aplicativo pacientes para administradores do teams ](/MicrosoftTeams/expand-teams-across-your-org/healthcare/patients-app-overview) | modificado |
-| 10/5/2020 | [Visão geral do aplicativo de pacientes](/MicrosoftTeams/expand-teams-across-your-org/healthcare/patients-app) | modificado |
-| 10/5/2020 | [Aplicativo de auditoria de pacientes para administradores de ti e conformidade do teams ](/MicrosoftTeams/expand-teams-across-your-org/healthcare/patients-audit) | modificado |
-| 10/5/2020 | [Interface do STU3 de integração do EHR e aplicativo pacientes](/MicrosoftTeams/expand-teams-across-your-org/healthcare/stu3-interface) | modificado |
-| 10/5/2020 | [Introdução ao Teams para Organizações de Saúde](/MicrosoftTeams/expand-teams-across-your-org/healthcare/teams-in-hc) | modificado |
-| 10/5/2020 | [Introdução aos modelos do Microsoft Teams usando o Microsoft Graph](/MicrosoftTeams/get-started-with-teams-templates) | modificado |
-| 10/5/2020 | [Limites e especificações para o Microsoft Teams](/MicrosoftTeams/limits-specifications-teams) | modificado |
-| 10/5/2020 | [Gerenciamento de número de telefone para a Áustria](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-austria) | modificado |
-| 10/5/2020 | [Gerenciamento de números de telefone para a Bélgica](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-belgium) | modificado |
-| 10/5/2020 | [Gerenciamento de número de telefone para a Dinamarca](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-denmark) | modificado |
-| 10/5/2020 | [Gerenciamento de números de telefone para a França](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-france) | modificado |
-| 10/5/2020 | [Gerenciamento de números de telefone para a Alemanha](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-germany) | modificado |
-| 10/5/2020 | [Gerenciamento de números de telefone para a Irlanda](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-ireland) | modificado |
-| 10/5/2020 | [Gerenciamento de número de telefone para Itália](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-italy) | modificado |
-| 10/5/2020 | [Gerenciamento de número de telefone para Portugal](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-portugal) | modificado |
-| 10/5/2020 | [Gerenciamento de números de telefone para a Espanha](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-spain) | modificado |
-| 10/5/2020 | [Gerenciamento de número de telefone para a Suécia](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-sweden) | modificado |
-| 10/5/2020 | [Gerenciamento de número de telefone para Suíça](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-switzerland) | modificado |
-| 10/5/2020 | [Gerenciamento de números de telefone para os Países Baixos](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-the-netherlands) | modificado |
-| 10/5/2020 | [Notas de versão](/MicrosoftTeams/rooms/rooms-release-note) | modificado |
-| 10/5/2020 | [Central de contatos do teams](/MicrosoftTeams/teams-contact-center) | modificado |
-| 10/5/2020 | [Usar o OneDrive e o SharePoint para gravações de reunião](/MicrosoftTeams/tmr-meeting-recording-change) | modificado |
-| 10/6/2020 | [Exibir permissões do aplicativo e conceder consentimento de administrador no centro de administração do Microsoft Teams](/MicrosoftTeams/app-permissions-admin-center) | modificado |
-| 10/6/2020 | [Interface do DSTU2 de integração do EHR e aplicativo pacientes](/MicrosoftTeams/expand-teams-across-your-org/healthcare/dstu2-interface) | modificado |
-| 10/6/2020 | [Conecte o aplicativo de pacientes à API do Azure para FHIR](/MicrosoftTeams/expand-teams-across-your-org/healthcare/patients-app-connect-azure-api-fhir) | modificado |
-| 10/6/2020 | [Aplicativo pacientes para administradores do teams ](/MicrosoftTeams/expand-teams-across-your-org/healthcare/patients-app-overview) | modificado |
-| 10/6/2020 | [Visão geral do aplicativo de pacientes](/MicrosoftTeams/expand-teams-across-your-org/healthcare/patients-app) | modificado |
-| 10/6/2020 | [Aplicativo de auditoria de pacientes para administradores de ti e conformidade do teams ](/MicrosoftTeams/expand-teams-across-your-org/healthcare/patients-audit) | modificado |
-| 10/6/2020 | [Interface do STU3 de integração do EHR e aplicativo pacientes](/MicrosoftTeams/expand-teams-across-your-org/healthcare/stu3-interface) | modificado |
-| 10/6/2020 | [Introdução ao Teams para Organizações de Saúde](/MicrosoftTeams/expand-teams-across-your-org/healthcare/teams-in-hc) | modificado |
-| 10/6/2020 | [Limites e especificações para o Microsoft Teams](/MicrosoftTeams/limits-specifications-teams) | modificado |
-| 10/6/2020 | [Gerenciar pacotes de política no Microsoft Teams](/MicrosoftTeams/manage-policy-packages) | modificado |
-| 10/6/2020 | [O que são os eventos ao vivo do Microsoft Teams ?](/MicrosoftTeams/teams-live-events/what-are-teams-live-events) | modificado |
-| 10/6/2020 | [Conferência na rede para videoconferência](/MicrosoftTeams/audio-conferencing-on-network) | modificado |
-| 10/6/2020 | [Roteamento direto – conectando dispositivos analógicos](/MicrosoftTeams/direct-routing-analog-devices) | modificado |
-| 10/6/2020 | [Converter números de telefone para roteamento direto](/MicrosoftTeams/direct-routing-translate-numbers) | modificado |
-| 10/6/2020 | [Presença do usuário no Teams](/MicrosoftTeams/presence-admins) | modificado |
-| 10/6/2020 | [Usar o PowerShell para definir políticas de eventos dinâmicos](/MicrosoftTeams/teams-live-events/set-teams-live-events-policies-using-powershell) | modificado |
-| 10/6/2020 | [Usar o OneDrive e o SharePoint para gravações de reunião](/MicrosoftTeams/tmr-meeting-recording-change) | modificado |
-| 10/6/2020 | [Requisitos do Microsoft Teams \| Aprimorar o serviço](/MicrosoftTeams/upgrade-enhance-my-service) | modificado |
-| 10/8/2020 | [Configurar a videoconferência para empresas de pequeno e médio porte](/MicrosoftTeams/audio-conferencing-smb) | modificado |
-| 10/8/2020 | [Obter clientes para o Microsoft Teams](/MicrosoftTeams/get-clients) | modificado |
-| 10/8/2020 | [Requisitos de hardware para o Microsoft Teams](/MicrosoftTeams/hardware-requirements-for-the-teams-app) | modificado |
-| 10/8/2020 | [Usar o OneDrive e o SharePoint para gravações de reunião](/MicrosoftTeams/tmr-meeting-recording-change) | modificado |
-| 10/8/2020 | [Controladores de borda de sessão certificados para roteamento direto](/MicrosoftTeams/direct-routing-border-controllers) | modificado |
-| 10/9/2020 | [Planejar eventos ao vivo no Microsoft Teams](/MicrosoftTeams/teams-live-events/plan-for-teams-live-events) | modificado |
-| 10/9/2020 | [Acesso para convidado no Microsoft Teams](/MicrosoftTeams/guest-access) | modificado |
-| 10/9/2020 | [Requisitos de hardware para o Microsoft Teams](/MicrosoftTeams/hardware-requirements-for-the-teams-app) | modificado |
-| 10/9/2020 | [Planejar a governança em equipes ‒ Microsoft Teams](/MicrosoftTeams/plan-teams-governance) | modificado |
-| 10/9/2020 | [Planejar o gerenciamento do ciclo de vida](/MicrosoftTeams/plan-teams-lifecycle) | modificado |

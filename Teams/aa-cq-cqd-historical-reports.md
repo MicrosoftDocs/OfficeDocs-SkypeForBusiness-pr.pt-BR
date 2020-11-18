@@ -1,9 +1,9 @@
 ---
-title: Usando o relatório do CQD Power BI para ver o atendedor automático & relatório histórico histórico da fila de chamadas
-ms.author: colongma
-author: clyvr
-manager: roykuntz
-ms.reviewer: mikedav, siunies, gageames
+title: O atendedor automático & relatório histórico histórico da fila de chamadas
+ms.author: mikeplum
+author: MikePlumleyMSFT
+manager: serdars
+ms.reviewer: colongma
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -21,68 +21,81 @@ ms.custom:
 - Reporting
 - ms.teamsadmincenter.directrouting.cqd
 - ms.lync.lac.ToolsCallQualityDashboard
-- seo-marvel-apr2020
 description: Saiba como usar o relatório do Power BI do painel de qualidade de chamada para exibir os dados de atendedor automático e a fila de chamadas de dados históricos.
-ms.openlocfilehash: 1dbbe8d058317335109025816b8ffbd81fa67830
+ms.openlocfilehash: 23d9f9db7668195bba4e964e8c5ac5607038f197
 ms.sourcegitcommit: b282acc1633c2d62bbff0ea77b6b647775ae6dfe
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 11/17/2020
-ms.locfileid: "49085575"
+ms.locfileid: "49085705"
 ---
-# <a name="what-are-the-requirements"></a>Quais são os requisitos? 
+# <a name="auto-attendant--call-queue-historical-report"></a>O atendedor automático & relatório histórico histórico da fila de chamadas
+
+O atendedor automático da equipe do CQD & relatório histórico de relatório histórico do Power BI fornece os três relatórios a seguir:
+
+- Atendedor automático – mostrando a análise de chamadas que chegam aos atendedores automáticos.
+- Fila de chamadas – mostrando a análise de chamadas que chegam às suas filas de chamadas.
+- Linha do tempo do agente – mostrar um modo de exibição de linha do tempo dos agentes ativos nas chamadas da fila de chamadas.
+
+Esses relatórios usam dados do repositório de dados do [painel de qualidade da chamada](CQD-Power-BI-query-templates.md) e permitem que as organizações reportem o número de chamadas sendo processadas por atendedores automáticos e filas de chamadas, bem como o desempenho do agente nas filas de chamadas.
+
+## <a name="what-are-the-requirements"></a>Quais são os requisitos? 
+
 Você precisa ter o Power BI desktop instalado. Você pode instalá-lo na [Windows Store da Microsoft](https://aka.ms/pbidesktopstore).
 
 Você pode usar a versão gratuita do Power BI desktop. A versão mínima compatível é 2.85.681.0 (setembro de 2020).
 
 ## <a name="permissions-to-access-the-cqd-pipeline"></a>Permissões para acessar o pipeline CQD
+
 A conta que você usa para exibir o relatório histórico de análise de CQ de AA & precisa ter permissões para acessar o pipeline de dados CQD. Para obter mais informações, consulte a [função de acesso CQD](https://docs.microsoft.com/microsoftteams/turning-on-and-using-call-quality-dashboard#assign-roles-for-accessing-cqd) .
 
 ## <a name="installation"></a>Instalação 
+
 As etapas a seguir pressupõem que você já tenha instalado o Power BI desktop no computador e que sua conta tenha as permissões necessárias para acessar o pipeline de dados CQD.
 
 Siga estas etapas:
-- Baixe o [CQD Teams auto Attendant & modelo de relatório histórico da fila de chamadas](https://aka.ms/TAPAACQAnalytics) e salve-o em um diretório em seu computador.
-- Clique duas vezes no modelo e o Power BI desktop deve ser iniciado.
+- Baixe os [modelos de consulta do CQD Power bi](https://www.microsoft.com/download/details.aspx?id=102291) e salve o arquivo zip em um diretório do computador.
+- Clique duas vezes no arquivo zip para abri-lo.
+- Clique duas vezes no arquivo de modelo "análise combinada 20201105. PBit" CQ e AA "e o Power BI desktop deve ser iniciado.
 - Você será solicitado a selecionar a região de pipeline de dados CQD. Selecione a região onde seu locatário está localizado.
 
-:::image type="content" source="media/cqd-teams-aa-cq-historical-report-01.png" alt-text="Captura de tela do botão painel de qualidade de chamada no centro de administração do teams":::
+:::image type="content" source="media/cqd-teams-aa-cq-historical-report-01.png" alt-text="Captura de tela selecionando a região de pipeline de dados CQD":::
 
  - Você pode ver a região usando o cmdlet do PS do Skype for Business online (Get-CsTenant). Saída de serviceInstance. 
  A região será exibida após a/curtida neste exemplo: microsoftcommunicationsonline/Noam-4a-S7 em que a região é Noam.
  - O relatório será iniciado com dados de exemplo.
  - Para ver seus próprios dados, clique em **Atualizar** na guia página inicial em consultas na área de trabalho do Power bi.
 
-:::image type="content" source="media/cqd-teams-aa-cq-historical-report-02.png" alt-text="Captura de tela do botão painel de qualidade de chamada no centro de administração do teams":::
+:::image type="content" source="media/cqd-teams-aa-cq-historical-report-02.png" alt-text="Captura de tela selecionando a opção atualizar":::
 
 - Em seguida, você será solicitado a entrar. Selecione a **conta da organização** e, em seguida, selecione **entrar**.
 
-:::image type="content" source="media/cqd-teams-aa-cq-historical-report-03.png" alt-text="Captura de tela do botão painel de qualidade de chamada no centro de administração do teams":::
+:::image type="content" source="media/cqd-teams-aa-cq-historical-report-03.png" alt-text="Captura de tela mostrando o login":::
 
 - Selecione **conectar** e assista à atualização de dados.
 
-## <a name="data-latency-any-aa--cq-analytics"></a>Latência de dados qualquer & análise de CQ
+## <a name="data-latency-and-aa--cq-analytics"></a>Latência de dados e análise de & de CQ de AA
+
 Os dados estarão disponíveis no pipeline de dados do CQD em 30 minutos.
 
 Você terá que atualizar os dados para ver os novos dados de análise. 
 
 ## <a name="customization"></a>Personalizada 
+
 Você pode personalizar determinados aspectos de visualização dos relatórios, como adicionar ou remover campos a serem mostrados nas várias visualizações, alterar o tipo de gráfico etc.
 
 Você não pode adicionar outros campos de dados além daqueles fornecidos no relatório.
 
 ### <a name="change-color-schema"></a>Alterar esquema de cores 
+
 As etapas a seguir pressupõem que você já concluiu as etapas de instalação.
 
 Siga estas etapas:
 - Selecione a **guia Exibir** na faixa de opções.
 
-:::image type="content" source="media/cqd-teams-aa-cq-historical-report-04.png" alt-text="Captura de tela do botão painel de qualidade de chamada no centro de administração do teams":::
+:::image type="content" source="media/cqd-teams-aa-cq-historical-report-04.png" alt-text="Captura de tela selecionando a guia Exibir para alterar o esquema de cores":::
 
 - Selecione o esquema de cores na lista suspensa.
-
-:::image type="content" source="media/cqd-teams-aa-cq-historical-report-05.png" alt-text="Captura de tela do botão painel de qualidade de chamada no centro de administração do teams":::
-
 
 ## <a name="cqd-fields-description"></a>Descrição dos campos CQD
 
@@ -91,7 +104,7 @@ Siga estas etapas:
 |Identidade do atendedor automático                 |String                   |Nome da conta do recurso anexada ao AA<br>Exemplo: aa_test@microsoft.com|
 |Hora de início da cadeia de atendedor automático         |datetime                 |Hora de início da cadeia AA                    |
 |Método de pesquisa do diretório de atendedor automático  |String                   |Último método de pesquisa do catálogo de endereços        |
-|Ação de transferência do atendedor automático          |String                   |Tipo de destino da transferência de chamadas<br>Valores possíveis:<br>§ desconhecido-tipo de entidade não foi especificado<br>§ usuário – entidade de usuário<br>§ orgaa-entidade de atendedor automático organizacional<br>§ hunt_group-entidade da fila de chamadas<br>§ aplicativo-entidade do aplicativo de voz<br>§ external_pstn-entidade PSTN externa<br>§ shared_voicemail-entidade de correio de voz compartilhada|
+|Ação de transferência do atendedor automático          |String                   |Tipo de destino da transferência de chamadas<br>valores possíveis:<br>§ desconhecido-tipo de entidade não foi especificado<br>§ usuário – entidade de usuário<br>§ orgaa-entidade de atendedor automático organizacional<br>§ hunt_group-entidade da fila de chamadas<br>§ aplicativo-entidade do aplicativo de voz<br>§ external_pstn-entidade PSTN externa<br>§ shared_voicemail-entidade de correio de voz compartilhada|
 |Resultado da chamada de atendedor automático              |String                   |Resultado da chamada:<br>§ desconhecido<br>§ transferred_to_user<br>§ transferred_to_operator<br>§ failover_to_operator<br>§ user_terminated<br>§ service_declined<br>§ service_terminated<br>§ failed_to_establish_media<br>§ terminated_no_operator<br>§ terminated_transfer_failed<br>§ terminated_automatic_selection<br>§ transferred_to_shared_voicemail<br>§ oaa_chain_too_long<br>§ oaa_session_too_long|
 |Fluxo de chamadas do atendedor automático                |String                   |Encapsula os diferentes Estados de chamada de atendedor automático<br>§ abs_search<br>§ call_termination<br>§ call_transfer<br>§ main_menu<br>§ user_selection<br>§ speech_input_confirmation<br>§ first_level_menu<br>§ automatic_menu<br>§ lançamento|
 |O atendedor automático está envolvido              |Boolean                  |Indicado se o AA estiver envolvido na chamada |
@@ -113,18 +126,18 @@ Siga estas etapas:
 |Nome                                    |Tipo de dados                |Descrição                            |
 |:---------------------------------------|:------------------------|:--------------------------------------|
 |Nome do AA                                   |String                   |ID do atendedor automático (ID da conta do recurso) |
-|AACallFlow                              |String                   |Encapsula os diferentes Estados de chamada de atendedor automático<br>§ abs_search<br>§ call_termination<br>§ call_transfer<br>§ main_menu<br>§ user_selection<br>§ speech_input_confirmation<br>§ first_level_menu<br>§ automatic_menu<br>comunicado |
-|AACallResult                            |String                   |Resultado da chamada de atendedor automático:<br>§ desconhecido<br>§ transferred_to_user<br>§ transferred_to_operator<br>§ failover_to_operator<br>§ user_terminated<br>§ service_declined – erro de configuração de AA<br>§ service_terminated – erros internos AA<br>§ failed_to_establish_media<br> terminated_no_operator<br>§ terminated_transfer_failed<br>§ terminated_automatic_selection<br>§ transferred_to_shared_voicemail<br>§ oaa_chain_too_long<br>§ oaa_session_too_long          |
+|AACallFlow                              |String                   |Encapsula os diferentes Estados de chamada de atendedor automático<br>§ abs_search<br>§ call_termination<br>§ call_transfer<br>§ main_menu<br>§ user_selection<br>§ speech_input_confirmation<br>§ first_level_menu<br>§ automatic_menu<br>§ lançamento |
+|AACallResult                            |String                   |Resultado da chamada de atendedor automático:<br>§ desconhecido<br>§ transferred_to_user<br>§ transferred_to_operator<br>§ failover_to_operator<br>§ user_terminated<br>§ service_declined – erro de configuração de AA<br>§ service_terminated – erros internos AA<br>§ failed_to_establish_media<br>§ terminated_no_operator<br>§ terminated_transfer_failed<br>§ terminated_automatic_selection<br>§ transferred_to_shared_voicemail<br>§ oaa_chain_too_long<br>§ oaa_session_too_long          |
 |AAChainDuration                         |String                   |Duração da chamada de atendedor automático em segundos  |
 |AACount                                 |String                   |# do atendedor automático envolve chamada         |
-|AADirectorySearchMethod                 |String                   |Método de pesquisa usado na chamada:<br>§ abs_search_dtmf<br>§ abs_search_extension<br>§ abs_search_name|
-|AAStartTime                             |String                   |Tempo de chamada em UTC                            |
+|AADirectorySearchMethod                 |String                   |Método de pesquisa usado na chamada:<br>§ abs_search_dtmf<br>§ abs_search_extension<br>§ abs_search_name<br>
+|AAStartTime                             |String                   |Tempo de chamada em UTC      |
 |AATransferAction                        |String                   |Receptor de chamada:<br>§ desconhecido-tipo de entidade não foi especificado<br>§ usuário – entidade de usuário<br>§ AA-entidade de atendedor automático da organização<br>§ CQ-entidade da fila de chamadas<br>§ aplicativo-entidade do aplicativo de voz<br>§ external_pstn-entidade PSTN externa<br>§ shared_voicemail-entidade de correio de voz compartilhada      |
 |PSTNMinutes                             |int                      |Uso total de minutos                          |
-|Resultado da chamada em fila de chamada                  |String                   |Estado final da chamada na fila de chamadas<br>valores possíveis:<br>§ erro<br>§ recusada<br>§ estourado<br>§ falhou<br> timed_out<br>§ transferred_to_agent<br>§ agent_joined_conference    |
+|Resultado da chamada em fila de chamada                  |String                   |Estado final da chamada na fila de chamadas<br>valores possíveis:<br>§ erro<br>§ recusada<br>§ estourado<br>§ falhou<br>§ timed_out<br>§ transferred_to_agent<br>§ agent_joined_conference    |
 |Identidade da fila de chamadas                     |String                   |Nome da conta de recurso anexada ao CQ     |
 |Tipo de destino da fila de chamadas                  |String                   |Tipo de destino de redirecionamento de chamadas esperado:<br>§ Usuário<br>§ Ponto de extremidade do aplicativo<br>§ Outros     |
-|Resultado da chamada em fila de chamada                  |String                   |Estado final da chamada na fila de chamadas<br>valores possíveis:<br>§ erro<br>§ recusada<br>§ estourado<br>§ falhou<br> timed_out<br>§ transferred_to_agent<br>agent_joined_conference           |
+|Resultado da chamada em fila de chamada                  |String                   |Estado final da chamada na fila de chamadas<br>valores possíveis:<br>§ erro<br>§ recusada<br>§ estourado<br>§ falhou<br>§ timed_out<br>§ transferred_to_agent<br>§ agent_joined_conference           |
 |Ação de estado final da fila de chamadas           |String                   |Ação final da fila de chamadas<br>valores possíveis:<br>§ frente<br>§ desconectar<br>§ correio de voz<br>§ disconnect_with_busy<br>§ shared_voicemail<br>§ failed_to_accept_call<br>§ outros             |
 |Nome do agente                              |String                   |UPN do usuário               |
 
@@ -175,5 +188,6 @@ Siga estas etapas:
 
 
 ## <a name="known-issues"></a>Problemas conhecidos
+
 - Atualmente, a fila de chamadas e o atendedor automático mostram a ID das contas dos recursos em vez dos nomes da fila de chamadas/atendedor automático.  Para mostrar todo o tráfego de um atendedor automático ou de uma fila de chamadas, você deve selecionar todas as contas de recursos atribuídas ao atendedor automático ou à fila de chamadas.
 - Atualmente, apenas 28 dias de histórico está disponível no painel, pois os dados da fila de chamadas/atendedor automático são considerados informações identificáveis pelo usuário final e estão sujeitos a políticas de retenção de privacidade de dados.

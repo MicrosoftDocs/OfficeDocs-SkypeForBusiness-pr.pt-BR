@@ -24,16 +24,16 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Saiba como configurar o sistema telefônico para filas de chamadas com o Microsoft Teams, que fornecem uma mensagem de saudação, suspender música, redirecionamento de chamada e outros recursos.
-ms.openlocfilehash: b9c611a31550be8dbae541ef24c63c746d5edb86
-ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
+ms.openlocfilehash: fb4510ce81b09569a8228916b7d05cc6697caac8
+ms.sourcegitcommit: b282acc1633c2d62bbff0ea77b6b647775ae6dfe
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49032990"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "49089343"
 ---
 # <a name="create-a-call-queue"></a>Criar uma fila de chamadas
 
-As filas de chamadas fornecem um método de roteamento de chamadores para as pessoas em sua organização que podem ajudá-lo com um problema ou uma pergunta específica. As chamadas são distribuídas uma de cada vez para as pessoas na fila (que são conhecidas como *agentes* ). 
+As filas de chamadas fornecem um método de roteamento de chamadores para as pessoas em sua organização que podem ajudá-lo com um problema ou uma pergunta específica. As chamadas são distribuídas uma de cada vez para as pessoas na fila (que são conhecidas como *agentes*). 
 
 As filas de chamadas fornecem:
 
@@ -47,7 +47,7 @@ As filas de chamadas fornecem:
 
 Verifique se você leu o [plano de atendedores automáticos e filas de chamadas do teams](plan-auto-attendant-call-queue.md) e seguiu as [etapas de introdução](plan-auto-attendant-call-queue.md#getting-started) antes de seguir os procedimentos deste artigo.
 
-Para configurar uma fila de chamadas, no centro de administração do Teams, expanda **voz** , clique em **filas de chamadas** e, em seguida, clique em **Adicionar**.
+Para configurar uma fila de chamadas, no centro de administração do Teams, expanda **voz**, clique em **filas de chamadas** e, em seguida, clique em **Adicionar**.
 
 ## <a name="resource-account-and-language"></a>Conta e idioma do recurso
 
@@ -55,11 +55,11 @@ Para configurar uma fila de chamadas, no centro de administração do Teams, exp
 
 1. Digite um nome para a fila de chamadas. Os agentes verão esse nome quando receberem uma chamada de entrada da fila.
 
-2. Clique em **Adicionar contas** , procure a conta de recurso que você deseja usar com esta fila de chamadas, clique em **Adicionar** e, em seguida, clique em **Adicionar**.
+2. Clique em **Adicionar contas**, procure a conta de recurso que você deseja usar com esta fila de chamadas, clique em **Adicionar** e, em seguida, clique em **Adicionar**.
 
 3. Escolha um idioma. Esse idioma será usado para solicitações de voz geradas pelo sistema e para a transcrição de correio de voz (se você habilitá-las).
 
-## <a name="greetings-and-hold-music"></a>Saudação e isenção de música
+## <a name="greetings-and-music-on-hold-in-queue"></a>Saudações e música em espera na fila
 
 Especifique se deseja reproduzir uma saudação para os chamadores quando chegarem na fila. Você deve carregar um arquivo MP3, WAV ou WMA contendo a saudação que deseja reproduzir.
 
@@ -71,20 +71,15 @@ O Teams oferece música padrão para chamadores enquanto estiverem em espera em 
 
 ## <a name="call-agents"></a>Agentes de chamada
 
-Os agentes de chamada selecionados devem ser um dos seguintes: 
-
-- Usuários online com uma licença do sistema telefônico e Enterprise Voice habilitadas
-- Usuários online com um plano de chamada
-- Usuários locais do Skype for Business Server
-- Se seus agentes estiverem usando o aplicativo Microsoft Teams para chamadas da fila de chamadas, eles precisarão estar no modo TeamsOnly.
+Confira os [pré-requisitos](plan-auto-attendant-call-queue.md#prerequisites) para poder adicionar agentes a uma fila de chamadas.
 
 ![Captura de tela de configurações de usuários e grupos para filas de chamadas](media/call-queue-users-groups.png)
 
 Você pode adicionar até 20 agentes individualmente e até 200 agentes por meio de grupos.
 
-Para adicionar um usuário à fila, clique em **Adicionar usuários** , procure o usuário, clique em **Adicionar** e, em seguida, clique em **Adicionar**.
+Para adicionar um usuário à fila, clique em **Adicionar usuários**, procure o usuário, clique em **Adicionar** e, em seguida, clique em **Adicionar**.
 
-Para adicionar um grupo à fila, clique em **Adicionar grupos** , procure o grupo, clique em **Adicionar** e, em seguida, clique em **Adicionar**. Você pode usar listas de distribuição, grupos de segurança e grupos do Microsoft 365 ou Microsoft Teams Teams.
+Para adicionar um grupo à fila, clique em **Adicionar grupos**, procure o grupo, clique em **Adicionar** e, em seguida, clique em **Adicionar**. Você pode usar listas de distribuição, grupos de segurança e grupos do Microsoft 365 ou Microsoft Teams Teams.
 
 > [!NOTE]
 > Novos usuários adicionados a um grupo podem levar até oito horas para que a primeira chamada seja recebida.
@@ -140,7 +135,7 @@ Para filas de alto volume, recomendamos as seguintes configurações:
 
 O **máximo de chamadas na fila** especifica o número máximo de chamadas que podem esperar na fila a qualquer momento. O padrão é 50, mas pode variar de 0 a 200. Quando esse limite for atingido, a chamada será manipulada conforme especificado pela configuração **quando o número máximo de chamadas for atingido** .
 
-Você pode optar por desconectar a chamada ou redirecioná-la para qualquer um dos [destinos de roteamento de chamadas](create-a-phone-system-auto-attendant.md#call-routing-options) , exceto o operador. Por exemplo, você pode ter o chamador deixar um correio de voz para os agentes na fila. (Observe [esses detalhes](https://docs.microsoft.com/microsoftteams/create-a-phone-system-auto-attendant#external-phone-number-transfers---technical-details) se você estiver transferindo para um número externo.)
+Você pode optar por desconectar a chamada ou redirecioná-la para qualquer um dos destinos de roteamento de chamadas. Por exemplo, você pode ter o chamador deixar um correio de voz para os agentes na fila. Para transferências externas, consulte [pré-requisitos](plan-auto-attendant-call-queue.md#prerequisites) e as [transferências de número de telefone externo-detalhes técnicos](create-a-phone-system-auto-attendant.md#external-phone-number-transfers---technical-details) de formatação de números.
 
 > [!NOTE]
 > Se o número máximo de chamadas for definido como 0, a mensagem de saudação não será reproduzida.
@@ -149,9 +144,9 @@ Você pode optar por desconectar a chamada ou redirecioná-la para qualquer um d
 
 ![Captura de tela das configurações de tempo limite de chamada](media/call-queue-timeout-handling.png)
 
-Tempo **limite de chamada: o tempo de espera máximo** especifica o tempo máximo que uma chamada pode estar em espera na fila antes de ser redirecionada ou desconectada. Você pode especificar um valor de 15 segundos a 45 minutos.
+Tempo **limite de chamada: o tempo de espera máximo** especifica o tempo máximo que uma chamada pode estar em espera na fila antes de ser redirecionada ou desconectada. Você pode especificar um valor entre 0 segundo e 45 minutos.
 
-Você pode optar por desconectar a chamada ou redirecioná-la para um dos destinos de roteamento de chamadas. Por exemplo, você pode ter o chamador deixar um correio de voz para os agentes na fila.
+Você pode optar por desconectar a chamada ou redirecioná-la para um dos destinos de roteamento de chamadas. Por exemplo, você pode ter o chamador deixar um correio de voz para os agentes na fila. Para transferências externas, consulte [pré-requisitos](plan-auto-attendant-call-queue.md#prerequisites) e as [transferências de número de telefone externo-detalhes técnicos](create-a-phone-system-auto-attendant.md#external-phone-number-transfers---technical-details) de formatação de números.
 
 Depois de selecionar as opções de tempo limite de uma chamada, clique em **salvar**.
 
