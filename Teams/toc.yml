@@ -504,6 +504,8 @@
               href: aa-cq-cqd-historical-reports.md
             - name: Referência de voz e discagem
               href: dial-voice-reference.md
+            - name: Reporting
+              href: aa-cq-cqd-historical-reports.md
         - name: Bloquear chamadas de entrada
           href: block-inbound-calls.md
         - name: Recuperação e estacionamento de chamadas
