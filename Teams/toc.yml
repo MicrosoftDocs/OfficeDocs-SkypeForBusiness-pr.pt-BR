@@ -490,10 +490,6 @@
               href: create-a-phone-system-auto-attendant.md
             - name: Configuração da fila de chamadas
               href: create-a-phone-system-call-queue.md
-            - name: Exemplo de pequenas empresas - Configurar um atendedor automático
-              href: tutorial-org-aa.yml
-            - name: Exemplo de pequenas empresas – Configurar uma fila de chamada
-              href: /SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-cq?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
             - name: Gerenciar contas de recursos do Teams
               href: manage-resource-accounts.md
             - name: Definir feriados
@@ -1063,16 +1059,20 @@
           href: business-voice/customize-business-voice.md
         - name: Portabilidade de números de telefone
           href: business-voice/port-phone-numbers.md
-        - name: Configurar atendedores automáticos
-          href: business-voice/set-up-auto-attendants.md
         - name: Configurar políticas de chamadas
           href: business-voice/set-up-policies.md
         - name: Gerenciar pacotes de política
           href: business-voice/policy-packages.md
         - name: Criar usuários adicionais
           href: business-voice/create-users.md
+        - name: 'Exemplo: configurar uma fila de chamadas'
+          href: /SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-cq?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
         - name: Configurar filas de chamadas
           href: business-voice/set-up-call-queues.md
+        - name: 'Exemplo: configurar um atendedor automático'
+          href: tutorial-org-aa.yml
+        - name: Configurar atendedores automáticos
+          href: business-voice/set-up-auto-attendants.md
     - name: Gerenciar suas configurações
       items:
         - name: Criar um ou mais usuários
