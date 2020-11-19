@@ -93,7 +93,7 @@ A Política de mensagens controla quais recursos de chat e de mensagens de canal
 
 ### <a name="external-access"></a>Acesso externo
 
-O acesso externo (anteriormente conhecido como federação) permite que seus usuários do Teams e do Skype para Empresas se comuniquem com usuários que estão fora da sua organização. Ao ativá-lo e adicionar domínios à lista permitida, seus usuários podem se comunicar com usuários de outros domínios e organizações. O acesso externo difere do acesso de convidados porque um domínio completo recebe permissão de acesso, e não um indivíduo. O acesso externo é desativado por padrão.
+O acesso externo (anteriormente conhecido como federação) permite que seus usuários do Teams e do Skype for Business se comuniquem com usuários que estão fora da sua organização. Ao ativá-lo e adicionar domínios à lista permitida, seus usuários podem se comunicar com usuários de outros domínios e organizações. O acesso externo difere do acesso de convidados porque um domínio completo recebe permissão de acesso, e não um indivíduo. O acesso externo é desativado por padrão.
 
 |Pergunte a si mesmo|Ação |
 |------------|-------|
@@ -163,7 +163,7 @@ O Teams é fornecido como parte de muitas licenças do Microsoft 365 ou do Offic
 
 ### <a name="exchange-and-sharepoint-interoperability"></a>Interoperabilidade entre o Exchange e o SharePoint
 
-Para a experiência integral do Teams, cada usuário deve estar habilitado para o Exchange Online, SharePoint Online e a criação de grupo do Microsoft 365. Os artigos a seguir descrevem informações relacionadas às caixas de correio do Exchange hospedadas em vários ambientes, como o Exchange e o Teams interagem, assim como considerações similares do SharePoint e do OneDrive for Business.
+Para a experiência integral do Teams, cada usuário deve estar habilitado para o Exchange Online, o SharePoint Online e a criação de grupo do Microsoft 365. Os artigos a seguir descrevem informações relacionadas às caixas de correio do Exchange hospedadas em vários ambientes, como o Exchange e o Teams interagem, assim como considerações similares do SharePoint e do OneDrive for Business.
 
 |Pergunte a si mesmo|Ação |
 |------------|-------|
@@ -252,6 +252,6 @@ O uso do Microsoft 365 for Government - GCC (Nuvem da Comunidade Governamental) 
 
 ## <a name="next-steps"></a>Próximas etapas
 - [Direcionar a adoção](adopt-microsoft-teams-landing-page.md) do chat, equipes, canais e aplicativos.
-- Inclua os aplicativos que estão em destaque - como o Planner - no seu lançamento inicial do Teams. Adicione outros [aplicativos, bots e conectores](deploy-apps-microsoft-teams-landing-page.md) à medida que você impulsiona a adoção do Teams.
+- Inclua os aplicativos que estão em destaque — como o Planner — no seu lançamento inicial do Teams. Adicione outros [aplicativos, bots e conectores](deploy-apps-microsoft-teams-landing-page.md) à medida que você impulsiona a adoção do Teams.
 - [Implementar reuniões e conferências](deploy-meetings-microsoft-teams-landing-page.md)
 - [Implementar o Cloud Voice](cloud-voice-landing-page.md)

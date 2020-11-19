@@ -28,7 +28,7 @@ ms.locfileid: "49030777"
 ---
 # <a name="what-is-microsoft-365-business-voice"></a>O que é o Microsoft 365 Business Voice?
 
-O Microsoft 365 Business Voice facilita empresas de pequeno e médio porte a tornar o Microsoft Teams um sistema de telefone flexível e poderoso. É uma substituição para provedores de telefonia tradicionais e sistemas de telefonia internos que podem ser difíceis e caros de gerenciar. Você pode configurar números de telefone gratuitos e não gratuitos, menus de chamada para ajudar os chamadores a chegarem ao departamento certo, a conferência de áudio para que você possa organizar reuniões com qualquer pessoa e muito mais. Você pode até dar às pessoas seus próprios números de telefone para que elas possam receber chamadas diretamente.
+O Microsoft 365 Business Voice facilita para as empresas de pequeno e médio porte a tornar o Microsoft Teams um sistema de telefone flexível e poderoso. É uma substituição para provedores de telefonia tradicionais e sistemas de telefonia internos que podem ser difíceis e caros de gerenciar. Você pode configurar números de telefone gratuitos e não gratuitos, menus de chamada para ajudar os chamadores a chegarem ao departamento certo, a conferência de áudio para que você possa organizar reuniões com qualquer pessoa e muito mais. Você pode até dar às pessoas seus próprios números de telefone para que elas possam receber chamadas diretamente.
 
 O Business Voice faz tudo isso agrupando os recursos do Microsoft 365 Phone System em um pacote fácil de gerenciar. Você não precisa se preocupar em escolher o plano ou recurso certo. Eles estão todos lá e configurados para você. Como o sistema de telefonia faz parte do Teams, você pode transformar qualquer computador, Mac ou dispositivo móvel em um telefone que possa usar seu número de telefone do Business Voice.
 
@@ -51,11 +51,11 @@ O Business Voice é ideal para você se sua organização tiver 300 ou menos pes
 - Microsoft 365 Standard para entidades sem fins lucrativos
 - Microsoft 365 e Office 365 E1 ou E3 para entidades sem fins lucrativos
 
-Business Voice está disponível em mais de 70 países/regiões. Se você pode configurar o Business Voice por conta própria, transferir números de telefone para o Microsoft 365 e gerenciar seus números de telefone no Microsoft 365, depende do país ou região no qual seu locatário Microsoft 365 está localizado. Para saber mais, confira a [Disponibilidade de países e regiões para o Business Voice](country-region-availability.md).
+O Business Voice está disponível em mais de 70 países/regiões. A permissão de configurar o Business Voice por conta própria, transferir números de telefone para o Microsoft 365 e gerenciar seus números de telefone no Microsoft 365 depende do país ou região no qual seu locatário Microsoft 365 está localizado. Para saber mais, confira a [Disponibilidade de países e regiões para o Business Voice](country-region-availability.md).
 
 > [!IMPORTANT]
 >
-> O Microsoft Teams e o Business Voice só funcionam quando as caixas de correio dos seus usuários estão localizadas no Microsoft 365.  Eles não dão suporte a caixas de correio localizadas no Servidor Exchange local.
+> O Microsoft Teams e o Business Voice só funcionam quando as caixas de correio dos seus usuários estão localizadas no Microsoft 365. Eles não dão suporte a caixas de correio localizadas no Servidor Exchange local.
 
 Ao adquirir o Business Voice, você obtém os seguintes recursos e muito mais:
 
@@ -72,7 +72,7 @@ Ao adquirir o Business Voice, você obtém os seguintes recursos e muito mais:
         <td>As chamadas do seu país ou região são gratuitas. Planos internacionais e discagem gratuita também estão disponíveis. </td>
     </tr>
     <tr>
-        <td><b><a href="/microsoftteams/audio-conferencing-in-office-365">Conferência de Áudio</a></b>
+        <td><b><a href="/microsoftteams/audio-conferencing-in-office-365">Audioconferência</a></b>
         </td>
         <td>Permite hospedar chamadas em conferência com pessoas que não têm o Teams ou uma conexão com a Internet.
         </td>
