@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
 description: Saiba como o roteamento direto do Microsoft Phone System permite conectar um controlador de borda de sessão (SBC) compatível fornecido pelo cliente a um sistema telefônico da Microsoft.
-ms.openlocfilehash: 59fecbdc741cdbc104e41883423165000ff1b327
-ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
+ms.openlocfilehash: 7fece1a84870360afa12c841a2c6c232cba77bf5
+ms.sourcegitcommit: 7966991c398cd80f6bd0bb21e57a6b2a97c09ea9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49030697"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "49130632"
 ---
 # <a name="plan-direct-routing"></a>Planejar o Roteamento Direto
 
@@ -235,6 +235,8 @@ Os FQDNs – sip.pstnhub.microsoft.com, sip2.pstnhub.microsoft.com e sip3.pstnhu
 
 Você precisa abrir portas para todos esses endereços IP no seu firewall para permitir o recebimento e o tráfego de entrada e saída dos endereços para sinalização.  Se o seu firewall der suporte a nomes DNS, a **SIP-ALL.PSTNHUB.Microsoft.com** FQDN será resolvida para todos esses endereços IP. 
 
+> [!IMPORTANT]
+>  Como parte da expansão direta de equipes do Teams e melhoria de serviço, implantamos novas instâncias de infraestrutura de roteamento direto na Austrália. Isso é refletido em dois endereços IP adicionais (52.114.16.74 e 52.114.20.29) aos quais os FQDNs seguintes são resolvidos para clientes da Austrália – sip.pstnhub.microsoft.com, sip2.pstnhub.microsoft.com e sip3.pstnhub.microsoft.com. Você precisa adicionar esses dois endereços IP (52.114.16.74 e 52.114.20.29) às suas listas de controle de acesso IP (ACLs) e abrir portas para todos esses endereços IP no seu firewall para permitir o tráfego de entrada e saída para e dos endereços para sinalização.
 
 ### <a name="office-365-gcch-and-dod-environment"></a>Ambiente GCCH e DoD do Office 365
 

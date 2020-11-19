@@ -13,6 +13,7 @@ localization_priority: Normal
 ms.collection:
 - M365-collaboration
 - m365initiative-meetings
+- enabler-strategic
 description: Saiba como gerenciar as configurações de eventos dinâmicos do teams que são mantidas em sua organização.
 f1.keywords:
 - CSH
@@ -20,12 +21,12 @@ ms.custom:
 - ms.teamsadmincenter.liveevents.settings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: afbcd90db9a17f509076bae1271bf541dfb93fd4
-ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
+ms.openlocfilehash: f3731a43e16b7853a4370a61b848499383d51ffc
+ms.sourcegitcommit: 7966991c398cd80f6bd0bb21e57a6b2a97c09ea9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49030887"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "49130612"
 ---
 # <a name="configure-live-event-settings-in-microsoft-teams"></a>Configurar eventos ao vivo no Microsoft Teams
 
@@ -42,7 +43,7 @@ Esta URL é mostrada para participantes do evento ao vivo. Adicione a URL de sup
 ### <a name="an-icon-showing-the-microsoft-teams-logo-using-the-microsoft-teams-admin-center"></a>![Um ícone mostrando o logotipo do Microsoft Teams](../media/teams-logo-30x30.png) Usando o centro de administração do Microsoft Teams
 
 1. No painel de navegação esquerdo, vá para **reuniões**  >  **ao vivo configurações de eventos**.
-2. Em **URL de suporte** , insira a URL de suporte da sua organização.
+2. Em **URL de suporte**, insira a URL de suporte da sua organização.
 
     ![Configuração da URL de suporte para eventos dinâmicos no centro de administração](../media/teams-live-events-settings-supporturl.png "Captura de tela da configuração da URL de suporte para eventos ao vivo do teams")
 
@@ -61,7 +62,7 @@ Se você comprou e configurou uma solução SDN (software defined Network) ou um
 ### <a name="an-icon-showing-the-microsoft-teams-logo-using-the-microsoft-teams-admin-center"></a>![Um ícone mostrando o logotipo do Microsoft Teams](../media/teams-logo-30x30.png) Usando o centro de administração do Microsoft Teams
 
 1. No painel de navegação esquerdo, vá para **reuniões**  >  **ao vivo configurações de eventos**.
-2. Em **provedores de distribuição de vídeo de terceiros** , conclua o seguinte: 
+2. Em **provedores de distribuição de vídeo de terceiros**, conclua o seguinte: 
 
     ![Configurações de provedor de distribuição de vídeo de terceiros no centro de administração](../media/teams-live-events-settings-distribution-provider.png "Captura de tela das configurações de provedor de distribuição de vídeo de terceiros para eventos dinâmicos")
 

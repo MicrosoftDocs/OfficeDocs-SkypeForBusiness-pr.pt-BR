@@ -19,12 +19,12 @@ MS.collection:
 - microsoftcloud-healthcare
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c1372dd4e997d2ebc263afdb2b4b692e9b9deb8c
-ms.sourcegitcommit: 62d5ccf10202a50755166e3b8de0bd31d1f94fef
+ms.openlocfilehash: 18af74a2a62f8282ee9b39c998db803235cc4ff0
+ms.sourcegitcommit: 7966991c398cd80f6bd0bb21e57a6b2a97c09ea9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "48790443"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "49130492"
 ---
 # <a name="manage-the-tasks-app-for-your-organization-in-microsoft-teams"></a>Gerenciar o aplicativo tarefas para sua organização no Microsoft Teams
 
@@ -33,7 +33,7 @@ ms.locfileid: "48790443"
 O aplicativo tarefas traz uma experiência coesa de gerenciamento de tarefas para o Microsoft Teams, integrando tarefas individuais da [Microsoft a fazer](https://todo.microsoft.com/tasks/) e tarefas da equipe com o Planner em um só lugar. Os usuários podem acessar as tarefas como um aplicativo no lado esquerdo do Teams e como uma guia em um canal dentro de equipes individuais. **Minhas tarefas** e **planos compartilhados** em tarefas permitem aos usuários exibir e gerenciar todas as tarefas individuais e da equipe e priorizar o trabalho delas. Tarefas está disponível em Teams desktop, Web e clientes móveis. 
 
 > [!NOTE]
-> Ao implantar a experiência de tarefas em clientes da área de trabalho do Teams, o nome do aplicativo aparecerá inicialmente como **planejador** para os usuários. O nome então mudará temporariamente para **tarefas pelo Planner e para fazer** e, posteriormente, será renomeado para **tarefas** . Em clientes móveis do Teams, os usuários sempre verão o nome do aplicativo como **tarefas** . Pode haver um pequeno atraso na disponibilidade da experiência móvel depois que a experiência da área de trabalho estiver disponível.
+> Ao implantar a experiência de tarefas em clientes da área de trabalho do Teams, o nome do aplicativo aparecerá inicialmente como **planejador** para os usuários. O nome então mudará temporariamente para **tarefas pelo Planner e para fazer** e, posteriormente, será renomeado para **tarefas**. Em clientes móveis do Teams, os usuários sempre verão o nome do aplicativo como **tarefas**. Pode haver um pequeno atraso na disponibilidade da experiência móvel depois que a experiência da área de trabalho estiver disponível.
 
    ![Captura de tela do modo de exibição de lista de tarefas na lista de equipes](media/manage-tasks-app-tasks.png)
 
@@ -63,8 +63,11 @@ Tarefas é habilitada por padrão para todos os usuários do teams em sua organi
 1. Na navegação à esquerda do centro de administração do Microsoft Teams, vá até **Team apps**  >  **gerenciar aplicativos** .
 2. Na lista de aplicativos, siga um destes procedimentos:
 
-    - Para desativar as tarefas da sua organização, procure o aplicativo tarefas, selecione-a e clique em **Bloquear** .
-    - Para ativar as tarefas da sua organização, procure o aplicativo tarefas, selecione-a e clique em **permitir** .
+    - Para desativar as tarefas da sua organização, procure o aplicativo tarefas, selecione-a e clique em **Bloquear**.
+    - Para ativar as tarefas da sua organização, procure o aplicativo tarefas, selecione-a e clique em **permitir**.
+
+> [!NOTE]
+> Se você não conseguir encontrar o aplicativo tarefas, procure os nomes na primeira anotação deste artigo. O aplicativo ainda pode estar em processo de ser renomeado.
 
 ### <a name="enable-or-disable-tasks-for-specific-users-in-your-organization"></a>Habilitar ou desabilitar tarefas para usuários específicos em sua organização
 
@@ -78,7 +81,7 @@ Para fixar o aplicativo tarefas para seus usuários, você pode editar a políti
 
 ### <a name="a-users-my-tasks-is-visible-if-the-user-is-licensed-for-exchange-online"></a>As minhas tarefas de um usuário ficam visíveis se o usuário estiver licenciado para o Exchange Online
 
-Se não quiser que um usuário veja **minhas tarefas** , você pode ocultá-la. Para fazer isso, [remova a licença do Exchange Online do usuário](https://docs.microsoft.com/microsoft-365/admin/manage/remove-licenses-from-users). É importante saber que, após remover uma licença do Exchange Online, o usuário não tem mais acesso à sua caixa de correio.  Os dados de caixa de correio são mantidos por 30 dias, após o qual os dados serão removidos e não poderão ser recuperados, a menos que a caixa de correio seja colocada em [retenção in-loco ou em retenção de litígio](https://docs.microsoft.com/exchange/security-and-compliance/in-place-and-litigation-holds).
+Se não quiser que um usuário veja **minhas tarefas**, você pode ocultá-la. Para fazer isso, [remova a licença do Exchange Online do usuário](https://docs.microsoft.com/microsoft-365/admin/manage/remove-licenses-from-users). É importante saber que, após remover uma licença do Exchange Online, o usuário não tem mais acesso à sua caixa de correio.  Os dados de caixa de correio são mantidos por 30 dias, após o qual os dados serão removidos e não poderão ser recuperados, a menos que a caixa de correio seja colocada em [retenção in-loco ou em retenção de litígio](https://docs.microsoft.com/exchange/security-and-compliance/in-place-and-litigation-holds).
 
 Não recomendamos isso para os operadores de informações, mas pode haver alguns cenários nos quais isso pode ser aplicado, como para os funcionários iniciantes que não dependem do e-mail.
 

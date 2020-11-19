@@ -1,31 +1,16 @@
 ---
-title: O que são os eventos ao vivo do Microsoft Teams ?
-author: lanachin
-ms.author: v-lanac
-manager: serdars
-ms.topic: conceptual
-ms.service: msteams
-ms.collection:
-- M365-collaboration
-- m365initiative-meetings
-ms.reviewer: sonua
-audience: admin
-search.appverid: MET150
-description: Saiba como eventos dinâmicos permitem que os usuários transmitam vídeo e conteúdo para grandes audiências online no Teams, no Yammer e no Stream.
-f1.keywords:
-- CSH
-ms.custom:
-- ms.teamsadmincenter.dashboard.helparticle.liveevents
-- ms.teamsadmincenter.liveevents.policies
-appliesto:
-- Microsoft Teams
-ms.openlocfilehash: 7b1538d63b17027af2212110a01bb1ccdfdd4109
-ms.sourcegitcommit: b282acc1633c2d62bbff0ea77b6b647775ae6dfe
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "49085555"
+Título: o que são eventos do Microsoft Teams Live? Autor: lanachin MS. Author: v-lanac Manager: serdars MS. Topic: conceptual MS. Service: msteams MS. Collection: 
+  - M365-colaboração
+  - m365initiative-reuniões
+  - m365solution-transcomms
+- m365solution-cenário MS. Reviewer: sonua Audience: pesquisa de administração. appverid: MET150 Descrição: saiba como os eventos dinâmicos permitem que os usuários transmitam vídeo e conteúdo para grandes audiências online no Teams, no Yammer e no Stream.
+Palavras-chave F1. F1: 
+- CSH MS. Custom:
+  - MS. teamsadmincenter. Dashboard. helparticle. liveevents
+  - MS. teamsadmincenter. liveevents. Policies aplica-se: 
+  - Microsoft Teams
 ---
+
 # <a name="what-are-microsoft-teams-live-events"></a>O que são eventos dinâmicos do Microsoft Teams
 
 ## <a name="overview"></a>Visão geral

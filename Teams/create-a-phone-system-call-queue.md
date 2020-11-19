@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Saiba como configurar o sistema telefônico para filas de chamadas com o Microsoft Teams, que fornecem uma mensagem de saudação, suspender música, redirecionamento de chamada e outros recursos.
-ms.openlocfilehash: fb4510ce81b09569a8228916b7d05cc6697caac8
-ms.sourcegitcommit: b282acc1633c2d62bbff0ea77b6b647775ae6dfe
+ms.openlocfilehash: 57ef565a333f89772f5c9d35d664785c2e166679
+ms.sourcegitcommit: 7966991c398cd80f6bd0bb21e57a6b2a97c09ea9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "49089343"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "49135939"
 ---
 # <a name="create-a-call-queue"></a>Criar uma fila de chamadas
 
@@ -156,7 +156,7 @@ Como os agentes em uma fila de chamadas podem discar para retornar uma chamada d
 
 ## <a name="supported-clients"></a>Clientes com suporte
 
-- Os seguintes clientes têm suporte para agentes de chamada em uma fila de chamadas:
+Os seguintes clientes têm suporte para agentes de chamada em uma fila de chamadas:
 
   - Cliente de área de trabalho do Skype for Business 2016 (versões de 32 bits e de 64 bits)
   - Lync desktop cliente 2013 (versões de 32 bits e de 64 bits)

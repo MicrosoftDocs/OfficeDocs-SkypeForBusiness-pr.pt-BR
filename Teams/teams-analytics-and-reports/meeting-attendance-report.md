@@ -17,12 +17,12 @@ description: Obter um relatório de presença de reunião de dentro do teams. Es
 appliesto:
 - Microsoft Teams
 ms.custom: ''
-ms.openlocfilehash: 7a048b3a334f9a70273c7a1b39f888247dbb9596
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: fe30df1a6ab6cb81d313400e584ac9b1e519e0a1
+ms.sourcegitcommit: 7966991c398cd80f6bd0bb21e57a6b2a97c09ea9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46583780"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "49130432"
 ---
 # <a name="microsoft-teams-meeting-attendance-report"></a>Relatório de presença de reunião do Microsoft Teams
 
@@ -33,8 +33,6 @@ Os organizadores da reunião podem exibir e baixar um relatório de presença de
 Para locatários educacionais, esse relatório é útil para acompanhar a participação dos alunos em aulas online. Por exemplo, o professor pode baixar o relatório de presença no início da classe como uma maneira simples de fazer uma "Roll Call". Para saber mais, leia [baixar relatórios de presença no Microsoft Teams](https://support.office.com/article/download-attendance-reports-in-teams-ae7cf170-530c-47d3-84c1-3aedac74d310).
 
 Como administrador, você controla se os organizadores da reunião podem baixar relatórios de presença de reunião Configurando uma política de reunião do teams. Por padrão, a capacidade de baixar o relatório está desativada. Para ver as etapas sobre como ativar esse recurso, consulte [configurações de política de reunião – relatório de presença de reunião](../meeting-policies-in-teams.md#meeting-policy-settings---meeting-attendance-report).
-
-Os administradores de equipe podem exibir dados de presença de reunião adicionais no centro de administração do Teams, em **análises &** relatórios de  >  **uso**. Para saber mais, veja [Tópicos relacionados](#related-topics) abaixo.
 
 Se os organizadores de reunião precisarem acessar mais dados de participação da reunião do que recebem do relatório disponível na reunião, você pode atribuir a função de *leitor de relatório* para que eles possam acessar os próprios relatórios de administração do teams. Para saber mais sobre isso, leia [quem pode acessar os relatórios de atividade do teams](../teams-activity-reports.md#who-can-access-the-teams-activity-reports). 
 

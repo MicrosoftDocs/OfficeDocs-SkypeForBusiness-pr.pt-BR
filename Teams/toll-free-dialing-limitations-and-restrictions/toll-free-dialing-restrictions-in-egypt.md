@@ -24,12 +24,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
 description: Saiba mais sobre números de chamada gratuita no Egito, incluindo a disponibilidade, a disponibilidade de rede com fio/linha fixa e a disponibilidade de rede móvel e restrições.
-ms.openlocfilehash: 3ebb1bbd5a66064b6d53a26347d881df20485d5e
-ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
+ms.openlocfilehash: f2bd76c221b23fa1df5956115a8c6035378c8380
+ms.sourcegitcommit: 7966991c398cd80f6bd0bb21e57a6b2a97c09ea9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/30/2020
-ms.locfileid: "44938420"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "49130662"
 ---
 # <a name="toll-free-dialing-restrictions-in-egypt"></a>Restrições de discagem de chamada gratuita no Egito
 
@@ -44,7 +44,7 @@ ms.locfileid: "44938420"
 |Ilha/território abrangido  <br/> |Não aplicável  <br/> |
 |Ilha/território não coberto  <br/> |Não aplicável  <br/> |
 |Disponibilidade de linha fixa/com fio  <br/> |Somente pela Telecom Egypt.  <br/> |
-|Disponibilidade com a rede móvel  <br/> |Sim  <br/> |
+|Disponibilidade com a rede móvel  <br/> |Não  <br/> |
 |Comentários, restrições e problemas de acesso  <br/> |Nenhum  <br/> |
    
 ## <a name="related-topics"></a>Tópicos relacionados

@@ -23,12 +23,12 @@ ms.custom:
 - ms.lync.lac.ToolsCallQualityDashboard
 - seo-marvel-apr2020
 description: Saiba como usar o relatório do Power BI do painel de qualidade de chamada para exibir os dados de atendedor automático e a fila de chamadas de dados históricos.
-ms.openlocfilehash: 1dbbe8d058317335109025816b8ffbd81fa67830
-ms.sourcegitcommit: b282acc1633c2d62bbff0ea77b6b647775ae6dfe
+ms.openlocfilehash: 16f8682e8f1bc444e2694a0586ff21cf442288cd
+ms.sourcegitcommit: 7966991c398cd80f6bd0bb21e57a6b2a97c09ea9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "49085575"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "49130422"
 ---
 # <a name="what-are-the-requirements"></a>Quais são os requisitos? 
 Você precisa ter o Power BI desktop instalado. Você pode instalá-lo na [Windows Store da Microsoft](https://aka.ms/pbidesktopstore).
@@ -43,21 +43,27 @@ As etapas a seguir pressupõem que você já tenha instalado o Power BI desktop 
 
 Siga estas etapas:
 - Baixe o [CQD Teams auto Attendant & modelo de relatório histórico da fila de chamadas](https://aka.ms/TAPAACQAnalytics) e salve-o em um diretório em seu computador.
+
 - Clique duas vezes no modelo e o Power BI desktop deve ser iniciado.
+
 - Você será solicitado a selecionar a região de pipeline de dados CQD. Selecione a região onde seu locatário está localizado.
 
-:::image type="content" source="media/cqd-teams-aa-cq-historical-report-01.png" alt-text="Captura de tela do botão painel de qualidade de chamada no centro de administração do teams":::
+  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-01.png" alt-text="Captura de tela do botão painel de qualidade de chamada no centro de administração do teams":::
 
  - Você pode ver a região usando o cmdlet do PS do Skype for Business online (Get-CsTenant). Saída de serviceInstance. 
- A região será exibida após a/curtida neste exemplo: microsoftcommunicationsonline/Noam-4a-S7 em que a região é Noam.
+ A região será exibida após o/like neste exemplo: 
+ 
+   microsoftcommunicationsonline/Noam-4a-S7 em que a região é Noam.
+   
  - O relatório será iniciado com dados de exemplo.
+ 
  - Para ver seus próprios dados, clique em **Atualizar** na guia página inicial em consultas na área de trabalho do Power bi.
 
-:::image type="content" source="media/cqd-teams-aa-cq-historical-report-02.png" alt-text="Captura de tela do botão painel de qualidade de chamada no centro de administração do teams":::
+   :::image type="content" source="media/cqd-teams-aa-cq-historical-report-02.png" alt-text="Captura de tela do botão painel de qualidade de chamada no centro de administração do teams":::
 
 - Em seguida, você será solicitado a entrar. Selecione a **conta da organização** e, em seguida, selecione **entrar**.
 
-:::image type="content" source="media/cqd-teams-aa-cq-historical-report-03.png" alt-text="Captura de tela do botão painel de qualidade de chamada no centro de administração do teams":::
+  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-03.png" alt-text="Captura de tela do botão painel de qualidade de chamada no centro de administração do teams":::
 
 - Selecione **conectar** e assista à atualização de dados.
 
@@ -77,11 +83,11 @@ As etapas a seguir pressupõem que você já concluiu as etapas de instalação.
 Siga estas etapas:
 - Selecione a **guia Exibir** na faixa de opções.
 
-:::image type="content" source="media/cqd-teams-aa-cq-historical-report-04.png" alt-text="Captura de tela do botão painel de qualidade de chamada no centro de administração do teams":::
+  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-04.png" alt-text="Captura de tela do botão painel de qualidade de chamada no centro de administração do teams":::
 
 - Selecione o esquema de cores na lista suspensa.
 
-:::image type="content" source="media/cqd-teams-aa-cq-historical-report-05.png" alt-text="Captura de tela do botão painel de qualidade de chamada no centro de administração do teams":::
+  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-05.png" alt-text="Captura de tela do botão painel de qualidade de chamada no centro de administração do teams":::
 
 
 ## <a name="cqd-fields-description"></a>Descrição dos campos CQD
@@ -176,4 +182,5 @@ Siga estas etapas:
 
 ## <a name="known-issues"></a>Problemas conhecidos
 - Atualmente, a fila de chamadas e o atendedor automático mostram a ID das contas dos recursos em vez dos nomes da fila de chamadas/atendedor automático.  Para mostrar todo o tráfego de um atendedor automático ou de uma fila de chamadas, você deve selecionar todas as contas de recursos atribuídas ao atendedor automático ou à fila de chamadas.
+
 - Atualmente, apenas 28 dias de histórico está disponível no painel, pois os dados da fila de chamadas/atendedor automático são considerados informações identificáveis pelo usuário final e estão sujeitos a políticas de retenção de privacidade de dados.

@@ -19,12 +19,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 4b5ebfc4c626cac14439ef98420e219dd0d93df8
-ms.sourcegitcommit: ce2a1239473ca88de799dc548bd7a2a934b3af6a
+ms.openlocfilehash: 3b7854af353b9619a1e668006c4e143ac8d37e77
+ms.sourcegitcommit: 7966991c398cd80f6bd0bb21e57a6b2a97c09ea9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/12/2020
-ms.locfileid: "48999255"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "49130652"
 ---
 # <a name="retention-policies-in-microsoft-teams"></a>Políticas de retenção no Microsoft Teams
 
@@ -43,8 +43,8 @@ Para saber mais sobre as políticas de retenção do Microsoft 365 ou do Office 
 
 Ao configurar uma política de retenção para o Teams ou qualquer outra carga de trabalho, você pode configurá-las para:
 
-- **Manter dados** : Use uma política de retenção para garantir que seus dados sejam mantidos por um período de tempo especificado, independentemente do que acontece no aplicativo usuário. Os dados são mantidos por motivos de conformidade e estão disponíveis para Descoberta eletrônica até que o período de retenção expire, após o qual sua política indica se deseja ou não excluir os dados. Por exemplo, se você criar uma política de retenção do Teams para reter mensagens de canal por 7 anos, as mensagens serão mantidas para Descoberta eletrônica por 7 anos, mesmo que os usuários excluam as mensagens deles no Teams.
-- **Excluir dados** : Use uma política de retenção para excluir dados e garantir que não seja um passivo para a sua organização. Com uma política de retenção do Teams, ao excluir dados, eles serão excluídos permanentemente de todos os locais de armazenamento do serviço Teams.
+- **Manter dados**: Use uma política de retenção para garantir que seus dados sejam mantidos por um período de tempo especificado, independentemente do que acontece no aplicativo usuário. Os dados são mantidos por motivos de conformidade e estão disponíveis para Descoberta eletrônica até que o período de retenção expire, após o qual sua política indica se deseja ou não excluir os dados. Por exemplo, se você criar uma política de retenção do Teams para reter mensagens de canal por 7 anos, as mensagens serão mantidas para Descoberta eletrônica por 7 anos, mesmo que os usuários excluam as mensagens deles no Teams.
+- **Excluir dados**: Use uma política de retenção para excluir dados e garantir que não seja um passivo para a sua organização. Com uma política de retenção do Teams, ao excluir dados, eles serão excluídos permanentemente de todos os locais de armazenamento do serviço Teams.
 
 Com as políticas de retenção para o Teams, você pode:
 
@@ -123,14 +123,14 @@ Para criar uma política de retenção para chats e mensagens de canal do Teams,
 
 1. Na barra de navegação à esquerda do Centro de Conformidade & Segurança, acesse **Governança de informações** > **Retenção**.
 2. Selecione **Criar**.
-3. Na página **Nomear sua política** , digite um nome e uma descrição para a política e, em seguida, clique em **Avançar**.
-4. Na página **Configurações** , especifique se deseja manter os dados, excluir ou ambos, o período de retenção e, em seguida, clique em **Próximo**.
-5. Na página **Escolher locais** , realize o seguinte procedimento e clique em **Próximo** :
+3. Na página **Nomear sua política**, digite um nome e uma descrição para a política e, em seguida, clique em **Avançar**.
+4. Na página **Configurações**, especifique se deseja manter os dados, excluir ou ambos, o período de retenção e, em seguida, clique em **Próximo**.
+5. Na página **Escolher locais**, realize o seguinte procedimento e clique em **Próximo**:
 
     - Para aplicar a política a mensagens de canal, ative **Mensagens do canal do Teams**.  Se você quiser aplicar a política a equipes específicas em sua organização, selecione **Escolher equipes** e selecione as equipes desejadas.
     - Para aplicar a política a chats, habilite os **Chats do Teams**. Se você quiser aplicar a política a usuários específicos em sua organização, selecione **Escolher usuários** e, em seguida, selecione os usuários desejados.
       > [!NOTE]
-      > Quando você ativa as **Mensagens de canal do Teams** e/ou **chats do Teams** , todos os outros locais são desativados automaticamente. Uma política de retenção do Teams só pode incluir locais do Teams.
+      > Quando você ativa as **Mensagens de canal do Teams** e/ou **chats do Teams**, todos os outros locais são desativados automaticamente. Uma política de retenção do Teams só pode incluir locais do Teams.
 
         ![Captura de tela das opções de chat e mensagens de canal do Teams na página Escolher locais](media/retention-policies-create.png)
 
@@ -200,7 +200,7 @@ A seguir estão alguns problemas conhecidos em políticas de retenção do Teams
 
 - Em **escolher equipes** na linha de localização de **mensagens de canal do teams** , você pode ver os grupos do Microsoft 365 que não são equipes também. Isso será solucionado no futuro.
 
-- Em **Escolher usuários** na linha **Chats do Teams** , você poderá ver convidados e usuários que não são de caixa de correio. As políticas de retenção não devem ser definidas para convidados, e estamos trabalhando para removê-los da lista.
+- Em **Escolher usuários** na linha **Chats do Teams**, você poderá ver convidados e usuários que não são de caixa de correio. As políticas de retenção não devem ser definidas para convidados, e estamos trabalhando para removê-los da lista.
 
 - As tarefas de processamento de retenção são executadas diariamente, mas a latência é conhecida para até 7 dias, em alguns casos. Como resultado, é possível que, se você tiver uma política de retenção do Teams para excluir itens com mais de 60 dias, esses itens possam persistir por até 67 dias. Essa não é uma nova situação. Certamente, na maioria dos casos, não existem atrasos.
 
