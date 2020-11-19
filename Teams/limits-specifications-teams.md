@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a552fd88d469c7daaae324614c398c24ac2f9d41
-ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
+ms.openlocfilehash: 3aded7fefd977d3f3437f15a97296be083d43359
+ms.sourcegitcommit: b282acc1633c2d62bbff0ea77b6b647775ae6dfe
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49031357"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "49085465"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Limites e especificações para o Microsoft Teams
 
@@ -48,26 +48,27 @@ Este artigo descreve alguns dos limites, das especificações e de outros requis
 |Número máximo de membros em um grupo do Office 365 que pode ser convertido em uma equipe    |10.000<sup>5</sup>     |
 |Tamanho da postagem de conversa do canal | Aproximadamente 28 KB pela postagem <sup>4</sup> |
 
-<sup>1</sup> Qualquer objeto de diretório no Azure Active Directory conta para este limite. Os administradores globais estão isentos desse limite, assim como os aplicativos que chamam o Microsoft Graph usando as [permissões de aplicativo](https://docs.microsoft.com/graph/permissions-reference).
+<sup>1</sup> Qualquer objeto de diretório no Azure Active Directory conta para este limite. Os administradores globais estão isentos desse limite, assim como os aplicativos que chamam o Microsoft Graph usando [permissões de aplicativo](https://docs.microsoft.com/graph/permissions-reference).
 
 <sup>2</sup> Esse limite inclui equipes arquivadas.
 
-<sup>3</sup> Os canais excluídos podem ser restaurados dentro de 30 dias. Durante esses 30 dias, um canal excluído continua a ser contado no limite de 200 canais ou 30 canais privados por equipe. Depois de 30 dias, um canal e seu conteúdo excluídos serão permanentemente excluídos e o canal deixará de contar com o limite por equipe.
+<sup>3</sup> Os canais excluídos podem ser restaurados dentro de 30 dias. Durante esses 30 dias, um canal excluído continua a ser contado no limite de 200 canais ou 30 canais privados por equipe. Depois de 30 dias, um canal e seus conteúdos excluídos serão permanentemente excluídos e o canal deixará de contar com o limite por equipe.
 
 <sup>4</sup> 28 KB é um limite aproximado porque inclui a própria mensagem (texto, links de imagens, etc.), @-menções, número de conectores e reações.
 
 <sup>5</sup> Equipes no GCC só acomodam 5.000 membros e as equipes do GCCH/DoD só acomodam 2.500 membros.
+
 ## <a name="messaging"></a>Mensagens
 
 ### <a name="chat"></a>Chat
 
-Os usuários que participam de conversas que fazem parte da lista de bate-papo do Teams precisam ter uma caixa de correio no Exchange Online (baseada em nuvem) para um administrador pesquisar as conversas de bate-papo. Isso ocorre porque as conversas que fazem parte da lista de bate-papo ficam armazenadas nas caixas de correio baseadas em nuvem dos participantes do bate-papo. Se um participante de bate-papo não tiver uma caixa de correio do Exchange Online, o administrador não poderá pesquisar nem fazer uma retenção das conversas de bate-papo. Por exemplo, em uma implantação híbrida do Exchange, os usuários com caixas de correio locais podem participar de conversas que fazem parte da lista de bate-papo do Teams. No entanto, nesse caso, o conteúdo dessas conversas não é pesquisável e não pode ser colocado em espera porque os usuários não têm caixas de correio baseadas em nuvem. (Para saber mais, confira [Como o Exchange e o Microsoft Teams interagem](exchange-teams-interact.md).)
+Os usuários que participam de conversas que fazem parte da lista de bate-papo do Teams precisam ter uma caixa de correio no Exchange Online (baseada em nuvem) para um administrador pesquisar as conversas de bate-papo. Isso ocorre porque as conversas que fazem parte da lista de bate-papo ficam armazenadas nas caixas de correio baseadas em nuvem dos participantes do bate-papo. Se um participante do bate-papo não tiver uma caixa de correio do Exchange Online, o administrador não poderá pesquisar nem fazer uma retenção das conversas de bate-papo. Por exemplo, em uma implantação híbrida do Exchange, os usuários com caixas de correio locais podem participar de conversas que fazem parte da lista de bate-papo do Teams. No entanto, nesse caso, o conteúdo dessas conversas não é pesquisável e não pode ser colocado em espera porque os usuários não têm caixas de correio baseadas em nuvem. (Para obter mais informações, confira [Como o Exchange e o Microsoft Teams interagem](exchange-teams-interact.md).)
 
 O bate-papo do Teams funciona em um back-end do Microsoft Exchange, para que os limites de mensagens do Exchange sejam aplicados à função de bate-papo dentro do Teams.
 
 |Recurso  | Limite máximo  |
 |---------|---------|
-|Número de pessoas em um bate-papo particular <sup>1</sup>  | 250 |
+|Número de pessoas em um bate-papo particular <sup>1</sup>  | 350 |
 |O número de pessoas em uma chamada de áudio ou vídeo do chat | 20 |
 |Número de anexos de arquivo<sup>2</sup>  |10     |
 |Tamanho do chat | Aproximadamente 28 KB pela postagem <sup>3</sup> |
@@ -98,8 +99,6 @@ Para obter mais informações, confira [Limites do Exchange Online](https://docs
 > [!NOTE]
 > O tamanho da mensagem, os anexos de arquivos e os limites de imagens embutidas são os mesmos em todas as licenças do Microsoft 365 e Office 365. O envio de emails em um canal não está disponível para organizações no Teams para Office GCC/GCCH/DOD.
 
-
-
 ## <a name="channel-names"></a>Nomes de canal
 
 Os nomes de canal não podem conter os seguintes caracteres ou palavras.
@@ -117,20 +116,19 @@ Os nomes de canal também não podem começar com um caractere de sublinhado (_)
 > [!IMPORTANT]
 > **O limite de eventos ao vivo do Microsoft 365 cresce**
 >
-> **Para ajudar a oferecer suporte aos nossos clientes, até 1º de janeiro de 2021, estenderemos os aumentos temporários de limite para Eventos Ao vivo hospedados no Teams, Stream e Yammer, incluindo** :
+> **Para ajudar a oferecer suporte aos nossos clientes, até 1º de janeiro de 2021, estenderemos os aumentos temporários de limite para Eventos Ao vivo hospedados no Teams, Stream e Yammer, incluindo**:
 >
 >- Até 20.000 participantes por evento
 >- Até 50 eventos simultâneos por locatário do Teams
 >- Até 16 horas por transmissão
 >
-> Além disso, os Eventos Ao vivo com até 100.000 participantes podem ser planejados por meio do programa de assistência do Microsoft 365. A equipe avaliará cada solicitação e trabalhará com você para determinar opções que podem estar disponíveis. [Saiba mais](https://aka.ms/Stream/Blog/LiveEventOptions). **Depois de 1º de janeiro de 2021, os clientes que precisarem destes aumentos de limite serão necessários para comprar o [complemento Advanced Communications](teams-add-on-licensing/advanced-communications.md).**
-
+> Além disso, os Eventos ao Vivo com até 100.000 participantes podem ser planejados por meio do programa de assistência do Microsoft 365. A equipe avaliará cada solicitação e trabalhará com você para determinar opções que podem estar disponíveis. [Saiba Mais](https://aka.ms/Stream/Blog/LiveEventOptions). **Depois de 1º de janeiro de 2021, os clientes que precisarem desses aumentos de limite deverão comprar o [Complemento Comunicações avançadas](teams-add-on-licensing/advanced-communications.md).**
 
 |Recurso     | Limite máximo |
 |------------|---------------|
-|Número de pessoas em uma reunião (podem conversar e telefonar)  | 300 |
+|Número de pessoas em uma reunião (podem conversar e telefonar)  | 350 |
 |O número de pessoas em uma chamada de áudio ou vídeo do chat | 20 |
-|Tamanho máximo do arquivo do PowerPoint | 2GB|
+|Tamanho máximo do arquivo do PowerPoint | 2 GB|
 |As equipes mantêm [gravações de reunião](cloud-recording.md) que não são carregadas no Microsoft Stream, disponíveis para download local | 20 dias |
 
 >[!Note]
@@ -157,20 +155,20 @@ Os nomes de canal também não podem começar com um caractere de sublinhado (_)
 |Duração do evento | 4 horas |
 |Eventos simultâneos Ao vivo em execução em uma organização Microsoft 365 ou Office 365 <sup>1</sup> | 15 |
 
-<sup>1</sup> Você pode agendar quantos Eventos Ao vivo quiser, mas só pode executar 15 de cada vez. Assim que o produtor entra em um evento ao vivo, ele será considerado em andamento. O produtor que tentar se entrar no décimo-sexto evento ao vivo receberá uma mensagem de erro.
+<sup>1</sup> Você pode agendar quantos Eventos Ao vivo quiser, mas só pode executar 15 de cada vez. Assim que o produtor entra em um evento ao vivo, ele será considerado em andamento. O produtor que tentar participar do 16° evento ao vivo receberá uma mensagem de erro.
 
-Para saber mais sobre eventos ao vivo e uma comparação dos eventos ao vivo do Teams para a Transmissão de Reunião do Skype, vá para [Eventos ao vivo do Teams e Transmissão de Reunião do Skype](teams-live-events/plan-for-teams-live-events.md#teams-live-events-and-skype-meeting-broadcast). Confira também [Agendar um evento ao vivo do Teams](https://support.microsoft.com/office/schedule-a-teams-live-event-7a9ce97c-e1cd-470f-acaf-e6dfc179a0e2).
+Para obter mais informações sobre eventos ao vivo do Teams e uma comparação entre eventos ao vivo do Teams e Transmissão de Reunião do Skype, vá para [Eventos ao vivo do Teams e Transmissão de Reunião do Skype](teams-live-events/plan-for-teams-live-events.md#teams-live-events-and-skype-meeting-broadcast). Confira também [Agendar um evento ao vivo do Teams](https://support.microsoft.com/office/schedule-a-teams-live-event-7a9ce97c-e1cd-470f-acaf-e6dfc179a0e2).
 
 > [!IMPORTANT]
 > **O limite de eventos ao vivo do Microsoft 365 cresce**
 >
-> **Para ajudar a oferecer suporte aos nossos clientes, até 1º de janeiro de 2021, estenderemos os aumentos temporários de limite para Eventos Ao vivo hospedados no Teams, Stream e Yammer, incluindo** :
+> **Para ajudar a oferecer suporte aos nossos clientes, até 1º de janeiro de 2021, estenderemos os aumentos temporários de limite para Eventos Ao vivo hospedados no Teams, Stream e Yammer, incluindo**:
 >
 > - Até 20.000 participantes por evento
 > - Até 50 eventos simultâneos por locatário do Teams
 > - Até 16 horas por transmissão
 >
-> Além disso, os Eventos Ao vivo com até 100.000 participantes podem ser planejados por meio do programa de assistência do Microsoft 365. A equipe avaliará cada solicitação e trabalhará com você para determinar opções que podem estar disponíveis. [Saiba mais](https://aka.ms/Stream/Blog/LiveEventOptions). **Depois de 1º de janeiro de 2021, os clientes que precisarem destes aumentos de limite serão necessários para comprar o [complemento Advanced Communications](teams-add-on-licensing/advanced-communications.md).**
+> Além disso, os Eventos ao Vivo com até 100.000 participantes podem ser planejados por meio do programa de assistência do Microsoft 365. A equipe avaliará cada solicitação e trabalhará com você para determinar opções que podem estar disponíveis. [Saiba Mais](https://aka.ms/Stream/Blog/LiveEventOptions). **Depois de 1º de janeiro de 2021, os clientes que precisarem desses aumentos de limite deverão comprar o [Complemento Comunicações avançadas](teams-add-on-licensing/advanced-communications.md).**
 
 ## <a name="presence-in-outlook"></a>Presença no Outlook
 
@@ -178,16 +176,16 @@ A presença do Teams no Outlook é compatível com o aplicativo de área de trab
 
 ## <a name="storage"></a>Armazenamento
 
-Cada equipe do Microsoft Teams tem um site de equipe no SharePoint Online, e cada canal de uma equipe obtém uma pasta dentro da biblioteca de documentos padrão do site da equipe. Os arquivos compartilhados em uma conversa são adicionados automaticamente à biblioteca de documentos e as permissões e as opções de segurança do arquivo definidas no SharePoint são refletidas automaticamente dentro do Teams.
+Cada equipe do Microsoft Teams tem um site de equipe no SharePoint Online e cada canal de uma equipe obtém uma pasta dentro da biblioteca de documentos padrão do site da equipe. Os arquivos compartilhados em uma conversa são adicionados automaticamente à biblioteca de documentos, e as permissões e as opções de segurança do arquivo definidas no SharePoint são refletidas automaticamente dentro do Teams.
 
 > [!NOTE]
 > Cada [canal privado](https://docs.microsoft.com/microsoftteams/private-channels) tem seu próprio conjunto de sites do SharePoint.
 
-Se o SharePoint Online não está habilitado em seu locatário, os usuários do Microsoft Teams nem sempre poderão compartilhar arquivos em equipes. Os usuários no bate-papo particular também não podem compartilhar arquivos, pois o OneDrive for Business (que é vinculado à licença do SharePoint) é necessário para essa funcionalidade.
+Se o SharePoint Online não está habilitado em seu locatário, os usuários do Microsoft Teams nem sempre poderão compartilhar arquivos em equipes. Os usuários em bate-papo particular também não podem compartilhar arquivos, pois o OneDrive for Business (que é vinculado à licença do SharePoint) é necessário para essa funcionalidade.
 
-Ao armazenar os arquivos na biblioteca de documentos do SharePoint Online e no OneDrive for Business, todas as regras de conformidade configuradas no nível tenant serão cumpridas. (Para saber mais, confira [Como o SharePoint Online e o OneDrive for Business interagem com o Microsoft Teams](sharepoint-onedrive-interact.md).)
+Ao armazenar os arquivos na biblioteca de documentos do SharePoint Online e no OneDrive for Business, todas as regras de conformidade configuradas no nível do locatário serão cumpridas. (Para saber mais, confira [Como o SharePoint Online e o OneDrive for Business interagem com o Microsoft Teams](sharepoint-onedrive-interact.md).)
 
-Como o Teams é executado em um back-end do SharePoint Online para compartilhamento de arquivos, as limitações do SharePoint se aplicam à seção Arquivos em uma Equipe. Estes são os limites de armazenamento aplicáveis ao SharePoint Online.
+Como o Teams é executado em um back-end do SharePoint Online para compartilhamento de arquivos, as limitações do SharePoint se aplicam à seção Arquivos em uma Equipe. Aqui estão os limites de armazenamento aplicáveis ao SharePoint Online.
 
 |Recurso                 |Microsoft 365 Business Basic  |Microsoft 365 Business Standard   |Office 365 Enterprise E1  |Office 365 Enterprise E3  |Office 365 Enterprise E5  |Office 365 Enterprise F1  |
 |------------------------|---------|---------|---------|---------|---------|---------|
@@ -201,7 +199,7 @@ Para mais informações, confira [Limites do SharePoint Online](https://support.
 
 ## <a name="class-teams"></a>Equipes de classe
 
-O Microsoft Teams para Educação fornece modelos projetados para cenários de ensino único, como o ensino da sala de aula. Mais informações sobre os tipos de equipe, incluindo as equipes de classe, é disponível em [Escolha um tipo de equipe para colaborar com o Microsoft Teams](https://support.microsoft.com/office/choose-a-team-type-to-collaborate-in-microsoft-teams-0a971053-d640-4555-9fd7-f785c2b99e67).
+O Microsoft Teams para Educação fornece modelos projetados para cenários de ensino exclusivos, como o ensino da sala de aula. Mais informações sobre os tipos de equipe, incluindo as equipes de classe, estão disponíveis em [Escolha um tipo de equipe para colaborar no Microsoft Teams](https://support.microsoft.com/office/choose-a-team-type-to-collaborate-in-microsoft-teams-0a971053-d640-4555-9fd7-f785c2b99e67).
 
 Uma equipe de classe é um tipo de modelo com aplicativos adicionais incluídos e com limites separados para o número de membros da equipe.
 
@@ -216,8 +214,7 @@ Os limites para as equipes de classe estão listados na tabela a seguir:
 |Número de membros para usar Tarefas em uma equipe de classe    | 200        |
 |Número de membros para usar um Bloco de Anotações de Classe do OneNote em uma equipe de classe     |200         |
 
-Uma equipe de classe pode dar suporte a mais de 200 membros. No entanto, se você planeja usar o aplicativo de Tarefas ou o aplicativo de Bloco de anotações de classe dentro da sua equipe, precisará manter o número de membros abaixo dos limites máximos acima.
-
+Uma equipe de classe pode dar suporte a mais de 200 membros. No entanto, se você planeja usar o aplicativo de Tarefas ou o aplicativo de Bloco de Anotações de Classe dentro da sua equipe, precisará manter o número de membros abaixo dos limites máximos acima.
 
 ## <a name="tags"></a>Marcas
 
