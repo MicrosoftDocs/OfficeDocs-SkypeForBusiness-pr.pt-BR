@@ -1,207 +1,207 @@
 - name: Skype for Business Server 2019
   href: ../skype-for-business-server-2019.yml
   items:
-    - name: Novidades
+    - name: Quais são as novidades?
       href: ../whats-new.md
-    - name: O que foi preterido
+    - name: O que foi depreciado
       href: ../deprecated.md
     - name: Diretrizes de virtualização
       href: ../virtualization-guidance.md
     - name: Soluções de telefonia da Microsoft
       href: ../../sfbhybrid/hybrid/msft-telephony-solutions.md
     - name: Downloads e atualizações do Skype for Business
-      href: ../../SfbServer/software-updates.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+      href: ../../SfbServer/software-updates.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
       items:
         - name: Atualizações de cliente
-          href: ../../SfbServer/sfb-client-updates.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
-        - name: Atualizações de servidor
-          href: ../../SfbServer/sfb-server-updates.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+          href: ../../SfbServer/sfb-client-updates.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+        - name: Atualizações do servidor
+          href: ../../SfbServer/sfb-server-updates.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
     - name: Soluções híbridas para o Teams e Skype for Business
       href: ../../SfbHybrid/hybrid/plan-hybrid-connectivity.md?toc=/SkypeForBusiness/sfbhybridtoc/toc.json
     - name: Plano
       items:
-        - name: Fundamentos de topologia
-          href: ../../SfbServer/plan-your-deployment/topology-basics/topology-basics.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+        - name: O Básico de Topologia
+          href: ../../SfbServer/plan-your-deployment/topology-basics/topology-basics.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
           items:
             - name: Topologias de referência
-              href: ../../SfbServer/plan-your-deployment/topology-basics/reference-topologies.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
-        - name: Requirements
+              href: ../../SfbServer/plan-your-deployment/topology-basics/reference-topologies.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+        - name: Requisitos
           items:
             - name: Requisitos do sistema
               href: ../plan/system-requirements.md
             - name: Requisitos de balanceamento de carga
-              href: ../../SfbServer/plan-your-deployment/network-requirements/load-balancing.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+              href: ../../SfbServer/plan-your-deployment/network-requirements/load-balancing.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
             - name: Requisitos de rede
-              href: ../../SfbServer/plan-your-deployment/network-requirements/network-requirements.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+              href: ../../SfbServer/plan-your-deployment/network-requirements/network-requirements.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
               items:
                 - name: IPv6
-                  href: ../../SfbServer/plan-your-deployment/network-requirements/ipv6.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                  href: ../../SfbServer/plan-your-deployment/network-requirements/ipv6.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
                   items:
                     - name: Tipos de endereços IP
-                      href: ../../SfbServer/plan-your-deployment/network-requirements/ip-address-types.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                      href: ../../SfbServer/plan-your-deployment/network-requirements/ip-address-types.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
                 - name: DNS
-                  href: ../../SfbServer/plan-your-deployment/network-requirements/dns.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                  href: ../../SfbServer/plan-your-deployment/network-requirements/dns.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
                   items:
-                    - name: Noções básicas
-                      href: ../../SfbServer/plan-your-deployment/network-requirements/basics.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                    - name: Básico
+                      href: ../../SfbServer/plan-your-deployment/network-requirements/basics.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
                     - name: URLs simples
-                      href: ../../SfbServer/plan-your-deployment/network-requirements/simple-urls.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
-                    - name: Servidor de borda avançada DNS
-                      href: ../../SfbServer/plan-your-deployment/network-requirements/advanced-edge-server-dns.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                      href: ../../SfbServer/plan-your-deployment/network-requirements/simple-urls.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                    - name: DNS Avançado do Servidor de borda
+                      href: ../../SfbServer/plan-your-deployment/network-requirements/advanced-edge-server-dns.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
             - name: Requisitos de porta e protocolo
-              href: ../../SfbServer/plan-your-deployment/network-requirements/ports-and-protocols.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
-        - name: Autenticação e autorização
-          href: ../../SfbServer/plan-your-deployment/modern-authentication/modern-authentication.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+              href: ../../SfbServer/plan-your-deployment/network-requirements/ports-and-protocols.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+        - name: Autenticação e Autorização
+          href: ../../SfbServer/plan-your-deployment/modern-authentication/modern-authentication.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
           items:
             - name: Topologias compatíveis
-              href: ../../SfbServer/plan-your-deployment/modern-authentication/topologies-supported.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+              href: ../../SfbServer/plan-your-deployment/modern-authentication/topologies-supported.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
             - name: Aplicativos de servidor para servidor e de parceiros
-              href: ../../SfbServer/manage/authentication/server-to-server-and-partner-applications.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+              href: ../../SfbServer/manage/authentication/server-to-server-and-partner-applications.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
             - name: Autenticação do usuário e do cliente
-              href: ../../SfbServer/plan-your-deployment/security/user-and-client-authentication.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+              href: ../../SfbServer/plan-your-deployment/security/user-and-client-authentication.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
         - name: Clientes e dispositivos
-          href: ../../SfbServer/plan-your-deployment/clients-and-devices/clients-and-devices.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+          href: ../../SfbServer/plan-your-deployment/clients-and-devices/clients-and-devices.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
           items:
             - name: Experiência do usuário
-              href: ../../SfbServer/plan-your-deployment/clients-and-devices/user-experience.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+              href: ../../SfbServer/plan-your-deployment/clients-and-devices/user-experience.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
             - name: Comparação de recursos do cliente de área de trabalho
-              href: ../plan/feature-comparison.md?toc=/SkypeForBusiness/toc.json
+              href: ../plan/feature-comparison.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json
             - name: Comparação de recursos móveis
-              href: ../../SfbServer/plan-your-deployment/clients-and-devices/mobile-feature-comparison.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+              href: ../../SfbServer/plan-your-deployment/clients-and-devices/mobile-feature-comparison.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
             - name: Requisitos do Windows
-              href: ../../SfbServer/plan-your-deployment/clients-and-devices/windows-requirements.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+              href: ../../SfbServer/plan-your-deployment/clients-and-devices/windows-requirements.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
             - name: Requisitos do Mac
-              href: ../../SfbServer/plan-your-deployment/clients-and-devices/mac-requirements.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+              href: ../../SfbServer/plan-your-deployment/clients-and-devices/mac-requirements.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
             - name: Compatibilidade com o Office
-              href: ../../SfbServer/plan-your-deployment/clients-and-devices/compatibility-with-office.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+              href: ../../SfbServer/plan-your-deployment/clients-and-devices/compatibility-with-office.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
             - name: Resoluções de vídeo
-              href: ../../SfbServer/plan-your-deployment/clients-and-devices/video-resolutions.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+              href: ../../SfbServer/plan-your-deployment/clients-and-devices/video-resolutions.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
             - name: Clientes de reuniões
-              href: ../../SfbServer/plan-your-deployment/clients-and-devices/meetings-clients.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+              href: ../../SfbServer/plan-your-deployment/clients-and-devices/meetings-clients.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
               items:
                 - name: Requisitos mínimos de rede do Aplicativo Skype Meetings
-                  href: ../../SfbServer/plan-your-deployment/clients-and-devices/minimum-network-requirements.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                  href: ../../SfbServer/plan-your-deployment/clients-and-devices/minimum-network-requirements.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
             - name: Ambientes VDI
-              href: ../../SfbServer/plan-your-deployment/clients-and-devices/vdi-environments.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+              href: ../../SfbServer/plan-your-deployment/clients-and-devices/vdi-environments.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
         - name: Alta disponibilidade e recuperação de desastre
-          href: ../../SfbServer/plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+          href: ../../SfbServer/plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
           items:
             - name: Alta disponibilidade
-              href: ../../SfbServer/plan-your-deployment/high-availability-and-disaster-recovery/high-availability.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+              href: ../../SfbServer/plan-your-deployment/high-availability-and-disaster-recovery/high-availability.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
             - name: Recuperação de desastres
-              href: ../../SfbServer/plan-your-deployment/high-availability-and-disaster-recovery/disaster-recovery.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+              href: ../../SfbServer/plan-your-deployment/high-availability-and-disaster-recovery/disaster-recovery.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
             - name: Experiência do usuário
-              href: ../../SfbServer/plan-your-deployment/high-availability-and-disaster-recovery/user-experience.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+              href: ../../SfbServer/plan-your-deployment/high-availability-and-disaster-recovery/user-experience.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
             - name: Servidor de Back-End
-              href: ../../SfbServer/plan-your-deployment/high-availability-and-disaster-recovery/back-end-server.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+              href: ../../SfbServer/plan-your-deployment/high-availability-and-disaster-recovery/back-end-server.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
             - name: Compartilhamento de arquivos
-              href: ../../SfbServer/plan-your-deployment/high-availability-and-disaster-recovery/file-sharing.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
-        - name: Sistema de mensagens instantâneas e presença
-          href: ../../SfbServer/plan-your-deployment/instant-messaging-and-presence.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+              href: ../../SfbServer/plan-your-deployment/high-availability-and-disaster-recovery/file-sharing.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+        - name: Mensagens instantâneas e presença
+          href: ../../SfbServer/plan-your-deployment/instant-messaging-and-presence.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
         - name: Servidor de Interoperabilidade de Vídeo
-          href: ../../SfbServer/plan-your-deployment/video-interop-server.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+          href: ../../SfbServer/plan-your-deployment/video-interop-server.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
         - name: Soluções de voz
-          href: ../../SfbServer/plan-your-deployment/enterprise-voice-solution/enterprise-voice-solution.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+          href: ../../SfbServer/plan-your-deployment/enterprise-voice-solution/enterprise-voice-solution.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
           items:
             - name: Enterprise Voice
-              href: ../../SfbServer/plan-your-deployment/enterprise-voice-solution/enterprise-voice.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+              href: ../../SfbServer/plan-your-deployment/enterprise-voice-solution/enterprise-voice.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
               items:
-                - name: Componentes obrigatórios para Enterprise Voice
-                  href: ../../SfbServer/plan-your-deployment/enterprise-voice-solution/components-required-for-enterprise-voice.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                - name: Componentes requeridos para o Enterprise Voice
+                  href: ../../SfbServer/plan-your-deployment/enterprise-voice-solution/components-required-for-enterprise-voice.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
                   items:
                     - name: Servidor de Mediação
-                      href: ../../SfbServer/plan-your-deployment/enterprise-voice-solution/mediation-server.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                      href: ../../SfbServer/plan-your-deployment/enterprise-voice-solution/mediation-server.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
                     - name: Conectividade PSTN
-                      href: ../../SfbServer/plan-your-deployment/enterprise-voice-solution/pstn-connectivity.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                      href: ../../SfbServer/plan-your-deployment/enterprise-voice-solution/pstn-connectivity.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
                     - name: VoIP de Servidor Front-End
-                      href: ../../SfbServer/plan-your-deployment/enterprise-voice-solution/front-end-server-voip.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                      href: ../../SfbServer/plan-your-deployment/enterprise-voice-solution/front-end-server-voip.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
                 - name: Conectividade PSTN
-                  href: ../../SfbServer/plan-your-deployment/enterprise-voice-solution/pstn-connectivity-0.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                  href: ../../SfbServer/plan-your-deployment/enterprise-voice-solution/pstn-connectivity-0.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
                   items:
                     - name: Entroncamento SIP
-                      href: ../../SfbServer/plan-your-deployment/enterprise-voice-solution/sip-trunking.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                      href: ../../SfbServer/plan-your-deployment/enterprise-voice-solution/sip-trunking.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
                       items:
                         - name: Site de filial
-                          href: ../../SfbServer/plan-your-deployment/enterprise-voice-solution/branch-site.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                          href: ../../SfbServer/plan-your-deployment/enterprise-voice-solution/branch-site.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
                     - name: SIP direto
-                      href: ../../SfbServer/plan-your-deployment/enterprise-voice-solution/direct-sip.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                      href: ../../SfbServer/plan-your-deployment/enterprise-voice-solution/direct-sip.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
                     - name: 'Tronco M:N'
-                      href: ../../SfbServer/plan-your-deployment/enterprise-voice-solution/m-n-trunk.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                      href: ../../SfbServer/plan-your-deployment/enterprise-voice-solution/m-n-trunk.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
                     - name: Roteamento entre troncos
-                      href: ../../SfbServer/plan-your-deployment/enterprise-voice-solution/inter-trunk-routing.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                      href: ../../SfbServer/plan-your-deployment/enterprise-voice-solution/inter-trunk-routing.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
                     - name: Regras de tradução
-                      href: ../../SfbServer/plan-your-deployment/enterprise-voice-solution/translation-rules.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                      href: ../../SfbServer/plan-your-deployment/enterprise-voice-solution/translation-rules.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
                     - name: Roteamento de voz de saída
-                      href: ../../SfbServer/plan-your-deployment/enterprise-voice-solution/outbound-voice-routing.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                      href: ../../SfbServer/plan-your-deployment/enterprise-voice-solution/outbound-voice-routing.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
                 - name: Resiliência do Enterprise Voice
-                  href: ../../SfbServer/plan-your-deployment/enterprise-voice-solution/enterprise-voice-resiliency.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                  href: ../../SfbServer/plan-your-deployment/enterprise-voice-solution/enterprise-voice-resiliency.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
                 - name: Configurações de rede para recursos avançados
-                  href: ../../SfbServer/plan-your-deployment/enterprise-voice-solution/network-settings-for-advanced-features.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                  href: ../../SfbServer/plan-your-deployment/enterprise-voice-solution/network-settings-for-advanced-features.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
                 - name: Controle de admissão de chamada
-                  href: ../../SfbServer/plan-your-deployment/enterprise-voice-solution/call-admission-control.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                  href: ../../SfbServer/plan-your-deployment/enterprise-voice-solution/call-admission-control.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
                   items:
                     - name: 'Exemplo: Reunir requisitos'
-                      href: ../../SfbServer/plan-your-deployment/enterprise-voice-solution/example-gathering-requirements.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                      href: ../../SfbServer/plan-your-deployment/enterprise-voice-solution/example-gathering-requirements.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
                     - name: Componentes e topologias
-                      href: ../../SfbServer/plan-your-deployment/enterprise-voice-solution/components-and-topologies.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                      href: ../../SfbServer/plan-your-deployment/enterprise-voice-solution/components-and-topologies.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
                 - name: Serviços de Emergência
-                  href: ../../SfbServer/plan-your-deployment/enterprise-voice-solution/emergency-services.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                  href: ../../SfbServer/plan-your-deployment/enterprise-voice-solution/emergency-services.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
                   items:
                     - name: Definir requisitos
-                      href: ../../SfbServer/plan-your-deployment/enterprise-voice-solution/define-requirements.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                      href: ../../SfbServer/plan-your-deployment/enterprise-voice-solution/define-requirements.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
                       items:
                         - name: Escopo
-                          href: ../../SfbServer/plan-your-deployment/enterprise-voice-solution/scope.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                          href: ../../SfbServer/plan-your-deployment/enterprise-voice-solution/scope.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
                         - name: Local da rede
-                          href: ../../SfbServer/plan-your-deployment/enterprise-voice-solution/network-location.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                          href: ../../SfbServer/plan-your-deployment/enterprise-voice-solution/network-location.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
                         - name: Habilitar usuários
-                          href: ../../SfbServer/plan-your-deployment/enterprise-voice-solution/enable-users.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                          href: ../../SfbServer/plan-your-deployment/enterprise-voice-solution/enable-users.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
                         - name: Gerenciar locais
-                          href: ../../SfbServer/plan-your-deployment/enterprise-voice-solution//manage-locations.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                          href: ../../SfbServer/plan-your-deployment/enterprise-voice-solution//manage-locations.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
                         - name: Gateways ELIN
-                          href: ../../SfbServer/plan-your-deployment/enterprise-voice-solution/elin-gateways.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                          href: ../../SfbServer/plan-your-deployment/enterprise-voice-solution/elin-gateways.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
                         - name: Adquirir manualmente um local
-                          href: ../../SfbServer/plan-your-deployment/enterprise-voice-solution/manually-acquiring-a-location.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                          href: ../../SfbServer/plan-your-deployment/enterprise-voice-solution/manually-acquiring-a-location.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
                         - name: Projetar o tronco SIP
-                          href: ../../SfbServer/plan-your-deployment/enterprise-voice-solution/design-the-sip-trunk.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                          href: ../../SfbServer/plan-your-deployment/enterprise-voice-solution/design-the-sip-trunk.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
                         - name: Suporte de segurança
-                          href: ../../SfbServer/plan-your-deployment/enterprise-voice-solution/security-desk.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                          href: ../../SfbServer/plan-your-deployment/enterprise-voice-solution/security-desk.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
                         - name: Escolher um provedor de serviço
-                          href: ../../SfbServer/plan-your-deployment/enterprise-voice-solution/choose-a-service-provider.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                          href: ../../SfbServer/plan-your-deployment/enterprise-voice-solution/choose-a-service-provider.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
                         - name: Políticas de local
-                          href: ../../SfbServer/plan-your-deployment/enterprise-voice-solution/location-policies.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                          href: ../../SfbServer/plan-your-deployment/enterprise-voice-solution/location-policies.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
                         - name: Escopo da política de local
-                          href: ../../SfbServer/plan-your-deployment/enterprise-voice-solution/location-policy-scope.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                          href: ../../SfbServer/plan-your-deployment/enterprise-voice-solution/location-policy-scope.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
                     - name: Vários números de emergências
-                      href: ../../SfbServer/plan-your-deployment/enterprise-voice-solution/multiple-emergency-numbers.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                      href: ../../SfbServer/plan-your-deployment/enterprise-voice-solution/multiple-emergency-numbers.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
                 - name: Bypass de mídia
-                  href: ../../SfbServer/plan-your-deployment/enterprise-voice-solution/media-bypass.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                  href: ../../SfbServer/plan-your-deployment/enterprise-voice-solution/media-bypass.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
                 - name: Linhas de telefone privadas
-                  href: ../../SfbServer/plan-your-deployment/enterprise-voice-solution/private-telephone-lines.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                  href: ../../SfbServer/plan-your-deployment/enterprise-voice-solution/private-telephone-lines.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
                 - name: Roteamento com Base no Local
-                  href: ../../SfbServer/plan-your-deployment/enterprise-voice-solution/location-based-routing.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                  href: ../../SfbServer/plan-your-deployment/enterprise-voice-solution/location-based-routing.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
                   items:
                     - name: LBR para conferência
-                      href: ../../SfbServer/plan-your-deployment/enterprise-voice-solution/lbr-for-conferencing.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
-                - name: Recursos de gerenciamento de chamadas
-                  href: ../../SfbServer/plan-your-deployment/enterprise-voice-solution/call-management-features.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                      href: ../../SfbServer/plan-your-deployment/enterprise-voice-solution/lbr-for-conferencing.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                - name: Recursos do gerenciamento de chamadas
+                  href: ../../SfbServer/plan-your-deployment/enterprise-voice-solution/call-management-features.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
                   items:
-                    - name: Estacionamento de chamada
-                      href: ../../SfbServer/plan-your-deployment/enterprise-voice-solution/call-park.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                    - name: Estacionamento de Chamada
+                      href: ../../SfbServer/plan-your-deployment/enterprise-voice-solution/call-park.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
                     - name: Recebimento de chamadas em grupo
-                      href: ../../SfbServer/plan-your-deployment/enterprise-voice-solution/group-call-pickup.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                      href: ../../SfbServer/plan-your-deployment/enterprise-voice-solution/group-call-pickup.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
                     - name: Grupo de Resposta
-                      href: ../../SfbServer/plan-your-deployment/enterprise-voice-solution/response-group.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                      href: ../../SfbServer/plan-your-deployment/enterprise-voice-solution/response-group.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
                     - name: Comunicado
-                      href: ../../SfbServer/plan-your-deployment/enterprise-voice-solution/announcement.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
-                - name: Aparência da linha compartilhada
-                  href: ../../SfbServer/plan-your-deployment/enterprise-voice-solution/shared-line-appearance.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                      href: ../../SfbServer/plan-your-deployment/enterprise-voice-solution/announcement.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                - name: Aparência de linha compartilhada
+                  href: ../../SfbServer/plan-your-deployment/enterprise-voice-solution/shared-line-appearance.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
                 - name: Opções de ocupado
-                  href: ../../SfbServer/plan-your-deployment/enterprise-voice-solution/busy-options.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                  href: ../../SfbServer/plan-your-deployment/enterprise-voice-solution/busy-options.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
             - name: Telefonar via trabalho
-              href: ../../SfbServer/plan-your-deployment/enterprise-voice-solution/call-via-work.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+              href: ../../SfbServer/plan-your-deployment/enterprise-voice-solution/call-via-work.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
             - name: Chamada de controle remoto
-              href: ../../SfbServer/plan-your-deployment/enterprise-voice-solution/remote-call-control.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+              href: ../../SfbServer/plan-your-deployment/enterprise-voice-solution/remote-call-control.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
             - name: Caixa Postal na Nuvem
               items:
                 - name: Planejar caixa postal da nuvem
@@ -221,389 +221,389 @@
                 - name: Configurar contas de recurso
                   href: ../../SfbHybrid/hybrid/configure-onprem-ra.md
         - name: Plano para integrar o Skype for Business e o Exchange
-          href: ../../SfbServer/plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+          href: ../../SfbServer/plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
           items:
             - name: Unificação de Mensagens
-              href: ../../SfbServer/plan-your-deployment/integrate-with-exchange/unified-messaging.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+              href: ../../SfbServer/plan-your-deployment/integrate-with-exchange/unified-messaging.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
               items:
                 - name: Visão geral de implantação
-                  href: ../../SfbServer/plan-your-deployment/integrate-with-exchange/deployment-overview.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                  href: ../../SfbServer/plan-your-deployment/integrate-with-exchange/deployment-overview.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
             - name: Repositório unificado de contatos
-              href: ../../SfbServer/plan-your-deployment/integrate-with-exchange/unified-contact-store.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+              href: ../../SfbServer/plan-your-deployment/integrate-with-exchange/unified-contact-store.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
             - name: Plano de migração para o Skype for Business Server e Exchange Server
               href: ../../sfbhybrid/hybrid/plan-um-migration.md
             - name: Suporte à migração da Unificação de Mensagens do Exchange Online
               href: ../plan/exchange-unified-messaging-online-migration-support.md
         - name: Monitoramento
-          href: ../../SfbServer/plan-your-deployment/monitoring.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+          href: ../../SfbServer/plan-your-deployment/monitoring.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
         - name: Arquivamento
-          href: ../../SfbServer/plan-your-deployment/archiving/archiving.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
-        - name: Conferências
-          href: ../../SfbServer/plan-your-deployment/conferencing/conferencing.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+          href: ../../SfbServer/plan-your-deployment/archiving/archiving.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+        - name: Conferência
+          href: ../../SfbServer/plan-your-deployment/conferencing/conferencing.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
           items:
             - name: Requisitos de hardware e software
-              href: ../../SfbServer/plan-your-deployment/conferencing/hardware-and-software-requirements.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+              href: ../../SfbServer/plan-your-deployment/conferencing/hardware-and-software-requirements.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
             - name: Topologia de conferência
-              href: ../../SfbServer/plan-your-deployment/conferencing/conferencing-topology.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+              href: ../../SfbServer/plan-your-deployment/conferencing/conferencing-topology.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
             - name: Conferência discada
-              href: ../../SfbServer/plan-your-deployment/conferencing/dial-in-conferencing.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+              href: ../../SfbServer/plan-your-deployment/conferencing/dial-in-conferencing.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
             - name: Reuniões grandes
-              href: ../../SfbServer/plan-your-deployment/conferencing/large-meetings.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+              href: ../../SfbServer/plan-your-deployment/conferencing/large-meetings.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
         - name: Implantações do Servidor de Borda
-          href: ../../SfbServer/plan-your-deployment/edge-server-deployments/edge-server-deployments.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+          href: ../../SfbServer/plan-your-deployment/edge-server-deployments/edge-server-deployments.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
           items:
             - name: Requisitos do sistema
-              href: ../../SfbServer/plan-your-deployment/edge-server-deployments/system-requirements.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+              href: ../../SfbServer/plan-your-deployment/edge-server-deployments/system-requirements.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
             - name: Requisitos de ambiente de Borda
-              href: ../../SfbServer/plan-your-deployment/edge-server-deployments/edge-environmental-requirements.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+              href: ../../SfbServer/plan-your-deployment/edge-server-deployments/edge-environmental-requirements.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
               items:
-                - name: Servidor de borda avançada DNS
-                  href: ../../SfbServer/plan-your-deployment/network-requirements/advanced-edge-server-dns.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                - name: DNS Avançado do Servidor de borda
+                  href: ../../SfbServer/plan-your-deployment/network-requirements/advanced-edge-server-dns.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
             - name: Cenários
-              href: ../../SfbServer/plan-your-deployment/edge-server-deployments/scenarios.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+              href: ../../SfbServer/plan-your-deployment/edge-server-deployments/scenarios.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
         - name: Mobilidade
           href: ../../SfbServer/plan-your-deployment/mobility.md
         - name: Segurança
-          href: ../../SfbServer/plan-your-deployment/security/security.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+          href: ../../SfbServer/plan-your-deployment/security/security.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
           items:
             - name: Antivírus
-              href: ../../SfbServer/plan-your-deployment/security/antivirus.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+              href: ../../SfbServer/plan-your-deployment/security/antivirus.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
             - name: Chave de segurança
-              href: ../../SfbServer/plan-your-deployment/security/key-security.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+              href: ../../SfbServer/plan-your-deployment/security/key-security.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
             - name: Ameaças comuns
-              href: ../../SfbServer/plan-your-deployment/security/common-threats.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+              href: ../../SfbServer/plan-your-deployment/security/common-threats.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
             - name: Estrutura de segurança
-              href: ../../SfbServer/plan-your-deployment/security/security-framework.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+              href: ../../SfbServer/plan-your-deployment/security/security-framework.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
               items:
                 - name: Serviços de Domínio do Active Directory
-                  href: ../../SfbServer/plan-your-deployment/security/active-directory-domain-services.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                  href: ../../SfbServer/plan-your-deployment/security/active-directory-domain-services.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
                 - name: Controle de Acesso Baseado em Função (RBAC)
-                  href: ../../SfbServer/plan-your-deployment/security/role-based-access-control-rbac.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                  href: ../../SfbServer/plan-your-deployment/security/role-based-access-control-rbac.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
                 - name: Infraestrutura de chave pública do Skype
-                  href: ../../SfbServer/plan-your-deployment/security/public-key-infrastructure-for-skype.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                  href: ../../SfbServer/plan-your-deployment/security/public-key-infrastructure-for-skype.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
                 - name: TLS e MTLS
-                  href: ../../SfbServer/plan-your-deployment/security/tls-and-mtls.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                  href: ../../SfbServer/plan-your-deployment/security/tls-and-mtls.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
                 - name: Criptografia
-                  href: ../../SfbServer/plan-your-deployment/security/encryption.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
-                - name: Ferramentas de gerenciamento
-                  href: ../../SfbServer/plan-your-deployment/security/management-tools.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                  href: ../../SfbServer/plan-your-deployment/security/encryption.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                - name: Ferramenta de gerenciamento
+                  href: ../../SfbServer/plan-your-deployment/security/management-tools.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
             - name: Endereçamento de ameaças
-              href: ../../SfbServer/plan-your-deployment/security/addressing-threats.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+              href: ../../SfbServer/plan-your-deployment/security/addressing-threats.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
         - name: Capacidade
-          href: ../../SfbServer/plan-your-deployment/capacity/capacity.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+          href: ../../SfbServer/plan-your-deployment/capacity/capacity.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
           items:
             - name: Modelo de usuário
               href: ../plan/user-model-2019.md
               items:
                 - name: Estimar o tráfego de voz
-                  href: ../../SfbServer/plan-your-deployment/capacity/estimating-voice-traffic.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                  href: ../../SfbServer/plan-your-deployment/capacity/estimating-voice-traffic.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
                 - name: Orientações de implantação para Servidor de Mediação
-                  href: ../../SfbServer/plan-your-deployment/capacity/mediation-server-deployment-guidelines.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                  href: ../../SfbServer/plan-your-deployment/capacity/mediation-server-deployment-guidelines.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
             - name: Modelos do usuário
-              href: ../../SfbServer/plan-your-deployment/capacity/user-models.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+              href: ../../SfbServer/plan-your-deployment/capacity/user-models.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
     - name: Implantar
       items:
         - name: Instalar
-          href: ../../SfbServer/deploy/install/install.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+          href: ../../SfbServer/deploy/install/install.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
           items:
             - name: Instalar pré-requisitos
-              href: ../../SfbServer/deploy/install/install-prerequisites.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+              href: ../../SfbServer/deploy/install/install-prerequisites.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
             - name: Criar um compartilhamento de arquivo
-              href: ../../SfbServer/deploy/install/create-a-file-share.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+              href: ../../SfbServer/deploy/install/create-a-file-share.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
             - name: Instalar ferramentas administrativas
-              href: ../../SfbServer/deploy/install/install-administrative-tools.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+              href: ../../SfbServer/deploy/install/install-administrative-tools.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
             - name: Preparar o Active Directory
-              href: ../../SfbServer/deploy/install/prepare-active-directory.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+              href: ../../SfbServer/deploy/install/prepare-active-directory.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
             - name: Criar registros DNS
-              href: ../../SfbServer/deploy/install/create-dns-records.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+              href: ../../SfbServer/deploy/install/create-dns-records.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
             - name: Criar e publicar nova topologia
-              href: ../../SfbServer/deploy/install/create-and-publish-new-topology.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+              href: ../../SfbServer/deploy/install/create-and-publish-new-topology.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
             - name: Instalar o Skype for Business Server
-              href: ../../SfbServer/deploy/install/install-skype-for-business-server.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+              href: ../../SfbServer/deploy/install/install-skype-for-business-server.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
             - name: Verificar a topologia
-              href: ../../SfbServer/deploy/install/verify-the-topology.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
-        - name: Implantar Telefonar Via trabalho
-          href: ../../SfbServer/deploy/deploy-call-via-work.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+              href: ../../SfbServer/deploy/install/verify-the-topology.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+        - name: Implantar Chamada via Trabalho
+          href: ../../SfbServer/deploy/deploy-call-via-work.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
         - name: Implantar arquivamento
-          href: ../../SfbServer/deploy/deploy-archiving/deploy-archiving.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+          href: ../../SfbServer/deploy/deploy-archiving/deploy-archiving.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
           items:
             - name: Adicionar arquivamento de bancos de dados
-              href: ../../SfbServer/deploy/deploy-archiving/add-archiving-databases.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+              href: ../../SfbServer/deploy/deploy-archiving/add-archiving-databases.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
             - name: Configurar opções arquivamento
-              href: ../../SfbServer/deploy/deploy-archiving/configure-archiving-options.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+              href: ../../SfbServer/deploy/deploy-archiving/configure-archiving-options.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
             - name: Configurar políticas de arquivamento
-              href: ../../SfbServer/deploy/deploy-archiving/configure-archiving-policies.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+              href: ../../SfbServer/deploy/deploy-archiving/configure-archiving-policies.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
             - name: Configurar o arquivamento de isenção de responsabilidade
-              href: ../../SfbServer/deploy/deploy-archiving/configure-archiving-disclaimers.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+              href: ../../SfbServer/deploy/deploy-archiving/configure-archiving-disclaimers.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
             - name: Configurar integração com o armazenamento do Exchange
-              href: ../../SfbServer/deploy/deploy-archiving/configure-integration-with-exchange-storage.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+              href: ../../SfbServer/deploy/deploy-archiving/configure-integration-with-exchange-storage.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
         - name: Implantar monitoramento
-          href: ../../SfbServer/deploy/deploy-monitoring/deploy-monitoring.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+          href: ../../SfbServer/deploy/deploy-monitoring/deploy-monitoring.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
           items:
             - name: Associar uma loja de monitoramento
-              href: ../../SfbServer/deploy/deploy-monitoring/associate-a-monitoring-store.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+              href: ../../SfbServer/deploy/deploy-monitoring/associate-a-monitoring-store.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
             - name: Instalar o SQL Server Reporting Services
-              href: ../../SfbServer/deploy/deploy-monitoring/install-sql-server-reporting-services.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+              href: ../../SfbServer/deploy/deploy-monitoring/install-sql-server-reporting-services.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
             - name: Instalar relatórios de monitoramento
-              href: ../../SfbServer/deploy/deploy-monitoring/install-monitoring-reports.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
-            - name: Monitoramento de relatórios com um banco de dados espelho
-              href: ../../SfbServer/deploy/deploy-monitoring/monitoring-reports-with-a-mirror-database.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+              href: ../../SfbServer/deploy/deploy-monitoring/install-monitoring-reports.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+            - name: Monitoramento de Relatórios com um banco de dados espelho
+              href: ../../SfbServer/deploy/deploy-monitoring/monitoring-reports-with-a-mirror-database.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
             - name: Registro de detalhes das chamadas e QoE
-              href: ../../SfbServer/deploy/deploy-monitoring/call-detail-recording-and-qoe.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+              href: ../../SfbServer/deploy/deploy-monitoring/call-detail-recording-and-qoe.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
             - name: Registro de detalhes de Purgecall e QoE
-              href: ../../SfbServer/deploy/deploy-monitoring/purgecall-detail-recording-and-qoe.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+              href: ../../SfbServer/deploy/deploy-monitoring/purgecall-detail-recording-and-qoe.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
         - name: Implantar o Servidor de Interoperabilidade de Vídeo
-          href: ../../SfbServer/deploy/deploy-video-interop-server/deploy-video-interop-server.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+          href: ../../SfbServer/deploy/deploy-video-interop-server/deploy-video-interop-server.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
           items:
             - name: Criar um pool VIS
-              href: ../../SfbServer/deploy/deploy-video-interop-server/create-a-vis-pool.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+              href: ../../SfbServer/deploy/deploy-video-interop-server/create-a-vis-pool.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
             - name: Implantar a função de servidor VIS
-              href: ../../SfbServer/deploy/deploy-video-interop-server/deploy-the-vis-server-role.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+              href: ../../SfbServer/deploy/deploy-video-interop-server/deploy-the-vis-server-role.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
             - name: Configurar o VIS
-              href: ../../SfbServer/deploy/deploy-video-interop-server/configure-the-vis.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+              href: ../../SfbServer/deploy/deploy-video-interop-server/configure-the-vis.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
             - name: Configurar o CUCM para interoperação
-              href: ../../SfbServer/deploy/deploy-video-interop-server/configure-cucm-for-interoperation.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+              href: ../../SfbServer/deploy/deploy-video-interop-server/configure-cucm-for-interoperation.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
             - name: Configurar um VTC para interoperação
-              href: ../../SfbServer/deploy/deploy-video-interop-server/configure-a-vtc-for-interoperation.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+              href: ../../SfbServer/deploy/deploy-video-interop-server/configure-a-vtc-for-interoperation.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
         - name: Implantar o Enterprise Voice
-          href: ../../SfbServer/deploy/deploy-enterprise-voice/deploy-enterprise-voice.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+          href: ../../SfbServer/deploy/deploy-enterprise-voice/deploy-enterprise-voice.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
           items:
             - name: Segurança do Enterprise Voice
-              href: ../../SfbServer/deploy/deploy-enterprise-voice/enterprise-voice-security.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+              href: ../../SfbServer/deploy/deploy-enterprise-voice/enterprise-voice-security.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
             - name: Implantar um Servidor Mediação
-              href: ../../SfbServer/deploy/deploy-enterprise-voice/deploy-a-mediation-server.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+              href: ../../SfbServer/deploy/deploy-enterprise-voice/deploy-a-mediation-server.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
             - name: Definir um gateway
-              href: ../../SfbServer/deploy/deploy-enterprise-voice/define-a-gateway.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+              href: ../../SfbServer/deploy/deploy-enterprise-voice/define-a-gateway.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
             - name: Definir troncos adicionais
-              href: ../../SfbServer/deploy/deploy-enterprise-voice/define-additional-trunks.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+              href: ../../SfbServer/deploy/deploy-enterprise-voice/define-additional-trunks.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
             - name: Instalar Servidor de Mediação
-              href: ../../SfbServer/deploy/deploy-enterprise-voice/install-mediation-server.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+              href: ../../SfbServer/deploy/deploy-enterprise-voice/install-mediation-server.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
             - name: Configurar troncos
-              href: ../../SfbServer/deploy/deploy-enterprise-voice/configure-trunks.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+              href: ../../SfbServer/deploy/deploy-enterprise-voice/configure-trunks.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
               items:
                 - name: Configurar um tronco (com bypass de mídia)
-                  href: ../../SfbServer/deploy/deploy-enterprise-voice/configure-trunk-with-media-bypass.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                  href: ../../SfbServer/deploy/deploy-enterprise-voice/configure-trunk-with-media-bypass.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
                 - name: Configurar um tronco (sem bypass de mídia)
-                  href: ../../SfbServer/deploy/deploy-enterprise-voice/configure-trunk-without-media-bypass.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                  href: ../../SfbServer/deploy/deploy-enterprise-voice/configure-trunk-without-media-bypass.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
                 - name: Definições da configuração de tronco
-                  href: ../../SfbServer/deploy/deploy-enterprise-voice/trunk-configuration-settings.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                  href: ../../SfbServer/deploy/deploy-enterprise-voice/trunk-configuration-settings.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
                 - name: Excluir configuração de tronco
-                  href: ../../SfbServer/deploy/deploy-enterprise-voice/delete-trunk-configuration.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
-                - name: Modificar a configuração de tronco SIP
-                  href: ../../SfbServer/deploy/deploy-enterprise-voice/modify-sip-trunk-configuration.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
-                - name: Testar a configuração de tronco SIP
-                  href: ../../SfbServer/deploy/deploy-enterprise-voice/test-sip-trunk-configuration.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                  href: ../../SfbServer/deploy/deploy-enterprise-voice/delete-trunk-configuration.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                - name: Modificar a configuração do tronco SIP
+                  href: ../../SfbServer/deploy/deploy-enterprise-voice/modify-sip-trunk-configuration.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                - name: Testar a configuração do tronco SIP
+                  href: ../../SfbServer/deploy/deploy-enterprise-voice/test-sip-trunk-configuration.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
                 - name: Exibir informações SIP
-                  href: ../../SfbServer/deploy/deploy-enterprise-voice/view-sip-info.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
-            - name: Regras de apresentação de identificação de chamada
-              href: ../../SfbServer/deploy/deploy-enterprise-voice/caller-id-presentation-rules.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
-            - name: Regras de apresentação de ID chamadas
-              href: ../../SfbServer/deploy/deploy-enterprise-voice/called-id-presentation-rules.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                  href: ../../SfbServer/deploy/deploy-enterprise-voice/view-sip-info.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+            - name: Regras de apresentação de Identificação de Chamadas
+              href: ../../SfbServer/deploy/deploy-enterprise-voice/caller-id-presentation-rules.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+            - name: Regras de apresentação de Chamadas identificadas
+              href: ../../SfbServer/deploy/deploy-enterprise-voice/called-id-presentation-rules.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
             - name: Regras de normalização
-              href: ../../SfbServer/deploy/deploy-enterprise-voice/normalization-rules.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+              href: ../../SfbServer/deploy/deploy-enterprise-voice/normalization-rules.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
             - name: Planos de discagem
-              href: ../../SfbServer/deploy/deploy-enterprise-voice/dial-plans.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+              href: ../../SfbServer/deploy/deploy-enterprise-voice/dial-plans.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
             - name: Voz e PSTN
-              href: ../../SfbServer/deploy/deploy-enterprise-voice/voice-and-pstn.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+              href: ../../SfbServer/deploy/deploy-enterprise-voice/voice-and-pstn.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
               items:
                 - name: Política de voz e os registros de uso PSTN
-                  href: ../../SfbServer/deploy/deploy-enterprise-voice/voice-policy-and-pstn-usage-records.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
-                - name: Configurar escape de caixa postal
-                  href: ../../SfbServer/deploy/deploy-enterprise-voice/configure-voice-mail-escape.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                  href: ../../SfbServer/deploy/deploy-enterprise-voice/voice-policy-and-pstn-usage-records.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                - name: Configurar escape da caixa postal
+                  href: ../../SfbServer/deploy/deploy-enterprise-voice/configure-voice-mail-escape.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
                 - name: Exibir registros de uso de PSTN
-                  href: ../../SfbServer/deploy/deploy-enterprise-voice/view-pstn-usage-records.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                  href: ../../SfbServer/deploy/deploy-enterprise-voice/view-pstn-usage-records.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
                 - name: Criar ou modificar uma rota de voz
-                  href: ../../SfbServer/deploy/deploy-enterprise-voice/create-or-modify-a-voice-route.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                  href: ../../SfbServer/deploy/deploy-enterprise-voice/create-or-modify-a-voice-route.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
                 - name: Importar/exportar a configuração de rota de voz
-                  href: ../../SfbServer/deploy/deploy-enterprise-voice/voice-route-configuration-import-export.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                  href: ../../SfbServer/deploy/deploy-enterprise-voice/voice-route-configuration-import-export.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
                 - name: Alterações de configuração de rota de voz
-                  href: ../../SfbServer/deploy/deploy-enterprise-voice/voice-route-config-changes.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                  href: ../../SfbServer/deploy/deploy-enterprise-voice/voice-route-config-changes.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
             - name: Habilitar usuários para o Enterprise Voice
-              href: ../../SfbServer/deploy/deploy-enterprise-voice/enable-users-for-enterprise-voice.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+              href: ../../SfbServer/deploy/deploy-enterprise-voice/enable-users-for-enterprise-voice.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
             - name: Implantar recursos avançados do Enterprise Voice
-              href: ../../SfbServer/deploy/deploy-enterprise-voice/deploy-advanced-enterprise-voice-features.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+              href: ../../SfbServer/deploy/deploy-enterprise-voice/deploy-advanced-enterprise-voice-features.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
               items:
                 - name: Implantar rede
-                  href: ../../SfbServer/deploy/deploy-enterprise-voice/deploy-network.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                  href: ../../SfbServer/deploy/deploy-enterprise-voice/deploy-network.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
                 - name: Implantar o serviço de controle de admissão de chamadas
-                  href: ../../SfbServer/deploy/deploy-enterprise-voice/deploy-call-admission-control.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                  href: ../../SfbServer/deploy/deploy-enterprise-voice/deploy-call-admission-control.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
                   items:
                     - name: Criar perfis de política de largura de banda
-                      href: ../../SfbServer/deploy/deploy-enterprise-voice/create-bandwidth-policy-profiles.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                      href: ../../SfbServer/deploy/deploy-enterprise-voice/create-bandwidth-policy-profiles.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
                     - name: Criar links de região de rede
-                      href: ../../SfbServer/deploy/deploy-enterprise-voice/create-network-region-links.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                      href: ../../SfbServer/deploy/deploy-enterprise-voice/create-network-region-links.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
                     - name: Criar rotas inter-regionais de rede
-                      href: ../../SfbServer/deploy/deploy-enterprise-voice/create-network-interregional-routes.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                      href: ../../SfbServer/deploy/deploy-enterprise-voice/create-network-interregional-routes.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
                     - name: Criar políticas entre sites da rede
-                      href: ../../SfbServer/deploy/deploy-enterprise-voice/create-network-intersite-policies.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                      href: ../../SfbServer/deploy/deploy-enterprise-voice/create-network-intersite-policies.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
                     - name: Habilitar o serviço de controle de admissão de chamadas
-                      href: ../../SfbServer/deploy/deploy-enterprise-voice/enable-call-admission-control.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                      href: ../../SfbServer/deploy/deploy-enterprise-voice/enable-call-admission-control.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
                     - name: Lista de verificação final
-                      href: ../../SfbServer/deploy/deploy-enterprise-voice/final-checklist.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                      href: ../../SfbServer/deploy/deploy-enterprise-voice/final-checklist.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
                 - name: Implantar os serviços de emergências
-                  href: ../../SfbServer/deploy/deploy-enterprise-voice/deploy-emergency-services.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                  href: ../../SfbServer/deploy/deploy-enterprise-voice/deploy-emergency-services.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
                   items:
                     - name: Configurar uma rota de voz do E9-1-1
-                      href: ../../SfbServer/deploy/deploy-enterprise-voice/configure-an-e9-1-1-voice-route.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
-                    - name: Criar políticas de localização
-                      href: ../../SfbServer/deploy/deploy-enterprise-voice/create-location-policies.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
-                    - name: Adicionar uma política de local a um site de rede
-                      href: ../../SfbServer/deploy/deploy-enterprise-voice/add-a-location-policy-to-a-network-site.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                      href: ../../SfbServer/deploy/deploy-enterprise-voice/configure-an-e9-1-1-voice-route.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                    - name: Crie políticas de localização
+                      href: ../../SfbServer/deploy/deploy-enterprise-voice/create-location-policies.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                    - name: Adicione uma política de local a um site de rede
+                      href: ../../SfbServer/deploy/deploy-enterprise-voice/add-a-location-policy-to-a-network-site.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
                     - name: Configure o banco de dados de localização
-                      href: ../../SfbServer/deploy/deploy-enterprise-voice/configure-the-location-database.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
-                    - name: Configurar um aplicativo SNMP
-                      href: ../../SfbServer/deploy/deploy-enterprise-voice/configure-an-snmp-application.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                      href: ../../SfbServer/deploy/deploy-enterprise-voice/configure-the-location-database.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                    - name: Configure um aplicativo SNMP
+                      href: ../../SfbServer/deploy/deploy-enterprise-voice/configure-an-snmp-application.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
                     - name: Serviço de Informações de Local secundário
-                      href: ../../SfbServer/deploy/deploy-enterprise-voice/secondary-location-information-service.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                      href: ../../SfbServer/deploy/deploy-enterprise-voice/secondary-location-information-service.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
                     - name: Configurar vários números de emergência
-                      href: ../../SfbServer/deploy/deploy-enterprise-voice/configure-multiple-emergency-numbers.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                      href: ../../SfbServer/deploy/deploy-enterprise-voice/configure-multiple-emergency-numbers.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
                 - name: Implantar bypass de mídia
-                  href: ../../SfbServer/deploy/deploy-enterprise-voice/deploy-media-bypass.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                  href: ../../SfbServer/deploy/deploy-enterprise-voice/deploy-media-bypass.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
                   items:
                     - name: Usar o Bypass no Servidor de Mediação
-                      href: ../../SfbServer/deploy/deploy-enterprise-voice/bypass-the-mediation-server.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                      href: ../../SfbServer/deploy/deploy-enterprise-voice/bypass-the-mediation-server.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
                     - name: Use as informações de site e região
-                      href: ../../SfbServer/deploy/deploy-enterprise-voice/use-site-and-region-information.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                      href: ../../SfbServer/deploy/deploy-enterprise-voice/use-site-and-region-information.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
             - name: Implantar recursos de gerenciamento de chamada
-              href: ../../SfbServer/deploy/deploy-enterprise-voice/deploy-call-management-features.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+              href: ../../SfbServer/deploy/deploy-enterprise-voice/deploy-call-management-features.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
               items:
                 - name: Processo de implantação do Estacionamento de Chamada
-                  href: ../../SfbServer/deploy/deploy-enterprise-voice/deployment-process-for-call-park.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                  href: ../../SfbServer/deploy/deploy-enterprise-voice/deployment-process-for-call-park.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
                   items:
                     - name: Criar ou modificar um intervalo de Órbita do Estacionamento de Chamada
-                      href: ../../SfbServer/deploy/deploy-enterprise-voice/create-or-modify-a-call-park-orbit-range.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                      href: ../../SfbServer/deploy/deploy-enterprise-voice/create-or-modify-a-call-park-orbit-range.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
                     - name: Definir configurações de Estacionamento de Chamada
-                      href: ../../SfbServer/deploy/deploy-enterprise-voice/configure-call-park-settings.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                      href: ../../SfbServer/deploy/deploy-enterprise-voice/configure-call-park-settings.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
                     - name: Personalizar a música de espera do Estacionamento de Chamada
-                      href: ../../SfbServer/deploy/deploy-enterprise-voice/customize-call-park-music-on-hold.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                      href: ../../SfbServer/deploy/deploy-enterprise-voice/customize-call-park-music-on-hold.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
                     - name: Habilitar o Estacionamento de Chamada para usuários
-                      href: ../../SfbServer/deploy/deploy-enterprise-voice/enable-call-park-for-users.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                      href: ../../SfbServer/deploy/deploy-enterprise-voice/enable-call-park-for-users.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
                     - name: Verificar regras de normalização para o Estacionamento de Chamada
-                      href: ../../SfbServer/deploy/deploy-enterprise-voice/verify-normalization-rules-for-call-park.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                      href: ../../SfbServer/deploy/deploy-enterprise-voice/verify-normalization-rules-for-call-park.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
                     - name: (Opcional) Verificar a implantação do Estacionamento de Chamada
-                      href: ../../SfbServer/deploy/deploy-enterprise-voice/optional-verify-call-park-deployment.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                      href: ../../SfbServer/deploy/deploy-enterprise-voice/optional-verify-call-park-deployment.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
                 - name: Processo de implantação do Recebimento de Chamadas em Grupo
-                  href: ../../SfbServer/deploy/deploy-enterprise-voice/deployment-process-for-group-call-pickup.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                  href: ../../SfbServer/deploy/deploy-enterprise-voice/deployment-process-for-group-call-pickup.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
                   items:
                     - name: Implantar a ferramenta SEFAUtil
-                      href: ../../SfbServer/deploy/deploy-enterprise-voice/deploy-the-sefautil-tool.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                      href: ../../SfbServer/deploy/deploy-enterprise-voice/deploy-the-sefautil-tool.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
                     - name: Criar ou modificar um intervalo numérico de Recebimento de Chamadas em Grupo
-                      href: ../../SfbServer/deploy/deploy-enterprise-voice/create-or-modify-a-group-call-pickup-number-range.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                      href: ../../SfbServer/deploy/deploy-enterprise-voice/create-or-modify-a-group-call-pickup-number-range.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
                     - name: Habilitar o Recebimento de Chamadas em Grupo para os usuários e atribuir um número de grupo
-                      href: ../../SfbServer/deploy/deploy-enterprise-voice/enable-group-call-pickup-for-users-and-assign-a-group-number.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                      href: ../../SfbServer/deploy/deploy-enterprise-voice/enable-group-call-pickup-for-users-and-assign-a-group-number.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
                 - name: Processo de implantação para Grupo de Resposta
-                  href: ../../SfbServer/deploy/deploy-enterprise-voice/deployment-process-for-response-group.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                  href: ../../SfbServer/deploy/deploy-enterprise-voice/deployment-process-for-response-group.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
                   items:
                     - name: Criar ou modificar um grupo de agente
-                      href: ../../SfbServer/deploy/deploy-enterprise-voice/create-or-modify-an-agent-group.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                      href: ../../SfbServer/deploy/deploy-enterprise-voice/create-or-modify-an-agent-group.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
                     - name: Criar ou modificar uma fila
-                      href: ../../SfbServer/deploy/deploy-enterprise-voice/create-or-modify-a-queue.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                      href: ../../SfbServer/deploy/deploy-enterprise-voice/create-or-modify-a-queue.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
                     - name: (Opcional) Definir horário comercial do Grupo de Resposta
-                      href: ../../SfbServer/deploy/deploy-enterprise-voice/optional-define-response-group-business-hours.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                      href: ../../SfbServer/deploy/deploy-enterprise-voice/optional-define-response-group-business-hours.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
                     - name: (Opcional) Definir os conjuntos de feriados do Grupo de Resposta
-                      href: ../../SfbServer/deploy/deploy-enterprise-voice/optional-define-response-group-holiday-sets.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                      href: ../../SfbServer/deploy/deploy-enterprise-voice/optional-define-response-group-holiday-sets.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
                     - name: Conceber e criar fluxos de trabalho do Grupo de Resposta
-                      href: ../../SfbServer/deploy/deploy-enterprise-voice/designing-and-creating-response-group-workflows.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                      href: ../../SfbServer/deploy/deploy-enterprise-voice/designing-and-creating-response-group-workflows.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
                     - name: Gerenciar configurações do Grupo de Resposta no nível do aplicativo
-                      href: ../../SfbServer/deploy/deploy-enterprise-voice/managing-application-level-response-group-settings.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                      href: ../../SfbServer/deploy/deploy-enterprise-voice/managing-application-level-response-group-settings.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
                     - name: (Opcional) Verificar a implantação do Grupo de Resposta
-                      href: ../../SfbServer/deploy/deploy-enterprise-voice/optional-verify-response-group-deployment.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                      href: ../../SfbServer/deploy/deploy-enterprise-voice/optional-verify-response-group-deployment.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
                 - name: Processo de implantação para o aplicativo Comunicado
-                  href: ../../SfbServer/deploy/deploy-enterprise-voice/deployment-process-for-the-announcement-application.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                  href: ../../SfbServer/deploy/deploy-enterprise-voice/deployment-process-for-the-announcement-application.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
                   items:
                     - name: Criar um comunicado
-                      href: ../../SfbServer/deploy/deploy-enterprise-voice/create-an-announcement.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                      href: ../../SfbServer/deploy/deploy-enterprise-voice/create-an-announcement.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
                     - name: Criar ou modificar um intervalo de números não atribuídos
-                      href: ../../SfbServer/deploy/deploy-enterprise-voice/create-or-modify-an-unassigned-number-range.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                      href: ../../SfbServer/deploy/deploy-enterprise-voice/create-or-modify-an-unassigned-number-range.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
                     - name: (Opcional) Verificar implantação do Comunicado
-                      href: ../../SfbServer/deploy/deploy-enterprise-voice/optional-verify-announcement-deployment.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                      href: ../../SfbServer/deploy/deploy-enterprise-voice/optional-verify-announcement-deployment.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
             - name: Implantar a Aparência de linha compartilhada
-              href: ../../SfbServer/deploy/deploy-enterprise-voice/deploy-shared-line-appearance.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+              href: ../../SfbServer/deploy/deploy-enterprise-voice/deploy-shared-line-appearance.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
             - name: Instalar e configurar Opções de Disponibilidade
-              href: ../../SfbServer/deploy/deploy-enterprise-voice/install-and-configure-busy-options.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+              href: ../../SfbServer/deploy/deploy-enterprise-voice/install-and-configure-busy-options.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
         - name: Integrar com o Exchange Server
-          href: ../../SfbServer/deploy/integrate-with-exchange-server/integrate-with-exchange-server.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+          href: ../../SfbServer/deploy/integrate-with-exchange-server/integrate-with-exchange-server.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
           items:
             - name: Configurar aplicativos parceiros
-              href: ../../SfbServer/deploy/integrate-with-exchange-server/configure-partner-applications.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+              href: ../../SfbServer/deploy/integrate-with-exchange-server/configure-partner-applications.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
             - name: Usar o arquivamento do Exchange
-              href: ../../SfbServer/deploy/integrate-with-exchange-server/use-exchange-archiving.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
-            - name: Configurar o SharePoint Server para pesquisar dados arquivados
-              href: ../../SfbServer/deploy/integrate-with-exchange-server/sharepoint-to-search-for-archived-data.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+              href: ../../SfbServer/deploy/integrate-with-exchange-server/use-exchange-archiving.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+            - name: O Microsoft Office SharePoint Online para pesquisar dados arquivados
+              href: ../../SfbServer/deploy/integrate-with-exchange-server/sharepoint-to-search-for-archived-data.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
             - name: Fotos em alta resolução
-              href: ../../SfbServer/deploy/integrate-with-exchange-server/high-resolution-photos.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+              href: ../../SfbServer/deploy/integrate-with-exchange-server/high-resolution-photos.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
             - name: Usar o repositório de contatos unificado
-              href: ../../SfbServer/deploy/integrate-with-exchange-server/use-the-unified-contact-store.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+              href: ../../SfbServer/deploy/integrate-with-exchange-server/use-the-unified-contact-store.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
             - name: Unificação de Mensagens do Exchange para caixa postal
-              href: ../../SfbServer/deploy/integrate-with-exchange-server/exchangeunified-messaging-for-voice-mail.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
-            - name: Outlook Web App
-              href: ../../SfbServer/deploy/integrate-with-exchange-server/outlook-web-app.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
-            - name: OAuth com Online e Local
-              href: ../../SfbServer/deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+              href: ../../SfbServer/deploy/integrate-with-exchange-server/exchangeunified-messaging-for-voice-mail.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+            - name: Microsoft Outlook Web App
+              href: ../../SfbServer/deploy/integrate-with-exchange-server/outlook-web-app.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+            - name: OAuth com Online e no Local
+              href: ../../SfbServer/deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
             - name: Implantar repositório unificado de contatos
-              href: ../../SfbServer/deploy/deploy-unified-contact-store.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
-        - name: Implantar conectividade do Skype
-          href: ../../SfbServer/deploy/deploy-skype-connectivity.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+              href: ../../SfbServer/deploy/deploy-unified-contact-store.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+        - name: Implantar Conectividade do Skype
+          href: ../../SfbServer/deploy/deploy-skype-connectivity.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
         - name: Implantar conferências
-          href: ../../SfbServer/deploy/deploy-conferencing/deploy-conferencing.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+          href: ../../SfbServer/deploy/deploy-conferencing/deploy-conferencing.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
           items:
-            - name: Servidor do Office Web App
-              href: ../../SfbServer/deploy/deploy-conferencing/office-web-app-server.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+            - name: Servidor do Aplicativo Office Web
+              href: ../../SfbServer/deploy/deploy-conferencing/office-web-app-server.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
             - name: Conferência discada
-              href: ../../SfbServer/deploy/deploy-conferencing/dial-in-conferencing.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
-            - name: Portal da Web Administrativo do Room System versão 1
-              href: ../../SfbServer/deploy/deploy-conferencing/room-system-v1-administrative-web-portal.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
-        - name: Implantar o Servidor de Borda
-          href: ../../SfbServer/deploy/deploy-edge-server/deploy-edge-server.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+              href: ../../SfbServer/deploy/deploy-conferencing/dial-in-conferencing.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+            - name: Sistema de Salas v1 Portal Web Administrativo
+              href: ../../SfbServer/deploy/deploy-conferencing/room-system-v1-administrative-web-portal.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+        - name: Implantar Servidor de Borda
+          href: ../../SfbServer/deploy/deploy-edge-server/deploy-edge-server.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
           items:
-            - name: Create your Edge topology
-              href: ../../SfbServer/deploy/deploy-edge-server/create-your-edge-topology.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
-            - name: Deploy Edge Servers
-              href: ../../SfbServer/deploy/deploy-edge-server/deploy-edge-servers.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+            - name: Crie sua topologia de Borda
+              href: ../../SfbServer/deploy/deploy-edge-server/create-your-edge-topology.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+            - name: Implantar Servidores de Borda
+              href: ../../SfbServer/deploy/deploy-edge-server/deploy-edge-servers.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
             - name: Validar a implantação de Borda
-              href: ../../SfbServer/deploy/deploy-edge-server/validate-edge-deployment.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+              href: ../../SfbServer/deploy/deploy-edge-server/validate-edge-deployment.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
         - name: Implantar e configurar Mobilidade
-          href: ../../SfbServer/deploy/deploy-and-configure-mobility.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+          href: ../../SfbServer/deploy/deploy-and-configure-mobility.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
         - name: Implantar clientes
-          href: ../../SfbServer/deploy/deploy-clients/deploy-clients.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+          href: ../../SfbServer/deploy/deploy-clients/deploy-clients.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
           items:
             - name: Personalizar a instalação de cliente do Windows
-              href: ../../SfbServer/deploy/deploy-clients/customize-windows-client-installation.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+              href: ../../SfbServer/deploy/deploy-clients/customize-windows-client-installation.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
               items:
                 - name: Usar a OCT (Ferramenta de Personalização do Office)
-                  href: ../../SfbServer/deploy/deploy-clients/use-the-office-customization-tool-oct.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                  href: ../../SfbServer/deploy/deploy-clients/use-the-office-customization-tool-oct.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
                 - name: Usar o Config.xml para executar as tarefas de instalação
-                  href: ../../SfbServer/deploy/deploy-clients/use-config-xml-to-perform-installation-tasks.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                  href: ../../SfbServer/deploy/deploy-clients/use-config-xml-to-perform-installation-tasks.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
                 - name: Usar opções de linha de comando de instalação
-                  href: ../../SfbServer/deploy/deploy-clients/use-setup-command-line-options.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                  href: ../../SfbServer/deploy/deploy-clients/use-setup-command-line-options.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
                 - name: Configurar as políticas de inicialização do cliente
-                  href: ../../SfbServer/deploy/deploy-clients/configure-client-bootstrapping-policies.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                  href: ../../SfbServer/deploy/deploy-clients/configure-client-bootstrapping-policies.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
             - name: iOS
-              href: ../../SfbServer/deploy/deploy-clients/ios.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
-            - name: Configurar a Lista de Contatos Inteligente
-              href: ../../SfbServer/deploy/deploy-clients/configure-smart-contacts-list.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+              href: ../../SfbServer/deploy/deploy-clients/ios.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+            - name: Configurar a lista de contatos Inteligente
+              href: ../../SfbServer/deploy/deploy-clients/configure-smart-contacts-list.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
             - name: Implantar clientes para download na Web
-              href: ../../SfbServer/deploy/deploy-clients/deploy-web-downloadable-clients.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+              href: ../../SfbServer/deploy/deploy-clients/deploy-web-downloadable-clients.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
             - name: Personalizar a experiência de cliente do Mac
-              href: ../../SfbServer/deploy/deploy-clients/customize-the-mac-client-experience.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
-        - name: Configurar a Transmissão de Reunião do Skype
-          href: ../../SfbServer/deploy/configure-skype-meeting-broadcast.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+              href: ../../SfbServer/deploy/deploy-clients/customize-the-mac-client-experience.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+        - name: Configurar Transmissão de Reunião do Skype
+          href: ../../SfbServer/deploy/configure-skype-meeting-broadcast.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
         - name: IM e presença
-          href: ../../SfbServer/deploy/im-and-presence/im-and-presence.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+          href: ../../SfbServer/deploy/im-and-presence/im-and-presence.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
           items:
             - name: Habilitar ou desabilitar o IM Offline
-              href: ../../SfbServer/deploy/im-and-presence/enable-or-disable-offline-im.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
-        - name: Implantar alta disponibilidade e recuperação de desastre
-          href: ../../SfbServer/deploy/deploy-high-availability-and-disaster-recovery/deploy-high-availability-and-disaster-recovery.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+              href: ../../SfbServer/deploy/im-and-presence/enable-or-disable-offline-im.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+        - name: Implantar alta disponibilidade e recuperação de desastres
+          href: ../../SfbServer/deploy/deploy-high-availability-and-disaster-recovery/deploy-high-availability-and-disaster-recovery.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
           items:
             - name: Grupo de Disponibilidade AlwaysOn
-              href: ../../SfbServer/deploy/deploy-high-availability-and-disaster-recovery/alwayson-availability-group.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
-            - name: Front-Ends emparelhados para recuperação de desastre
-              href: ../../SfbServer/deploy/deploy-high-availability-and-disaster-recovery/front-end-pools-for-disaster-recovery.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+              href: ../../SfbServer/deploy/deploy-high-availability-and-disaster-recovery/alwayson-availability-group.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+            - name: Pools de front-end para a recuperação de desastres
+              href: ../../SfbServer/deploy/deploy-high-availability-and-disaster-recovery/front-end-pools-for-disaster-recovery.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
     - name: Migrar
       href: ../migration/migration-to-skype-for-business-server-2019.md
       items:
-        - name: Antes de começar a migração
+        - name: Antes de você começar a migração
           href: ../migration/before-you-begin-the-migration.md
           items:
             - name: Processo de migração
@@ -628,7 +628,7 @@
           items:
             - name: Aplicar atualizações à instalação herdada
               href: ../migration/apply-updates.md
-            - name: Configurar registros de DNS para implantação de pool piloto
+            - name: Configurar os registros DNS para a implantação do pool piloto
               href: ../migration/configure-dns-records-for-pilot-pool-deployment.md
             - name: Fazer backup de dados e sistemas
               href: ../migration/back-up-systems-and-data.md
@@ -649,7 +649,7 @@
               href: ../migration/verify-pilot-pool-coexistence-with-legacy-pool.md
             - name: Conectar pool piloto aos Servidores de Borda herdados
               href: ../migration/connect-pilot-pool-to-legacy-edge-servers.md
-            - name: Configurar políticas e certificados de acesso ao gateway de XMPP
+            - name: Configurar políticas e certificados de acesso ao gateway XMPP
               href: ../migration/configure-xmpp-gateway-access-policies-and-certificates.md
         - name: 'Fase 4: Mover usuários de teste para o pool piloto'
           href: ../migration/phase-4-move-test-users-to-the-pilot-pool.md
@@ -674,13 +674,13 @@
           items:
             - name: Configure o tráfego de mídia e rotas de federação
               href: ../migration/configure-federation-routes-and-media-traffic.md
-            - name: Verifique o acesso remoto e de federação para usuários externos
+            - name: Verificar a federação e o acesso remoto para usuários externos
               href: ../migration/verify-federation-and-remote-access-for-external-users.md
             - name: Alterar URLs simples após a migração
               href: ../migration/change-simple-urls-after-migration.md
             - name: Mover usuários restantes
               href: ../migration/move-remaining-users.md
-        - name: 'Fase 7: Concluir tarefas pós-migração'
+        - name: 'Fase 7: Tarefas completas pós-migração'
           href: ../migration/phase-7-complete-post-migration-tasks.md
           items:
             - name: Migrar reuniões existentes e conteúdo de reunião
@@ -714,7 +714,7 @@
           items:
             - name: Atualizar registros de DNS SRV
               href: ../migration/update-dns-srv-records.md
-            - name: Mover o Servidor de gerenciamento central herdado
+            - name: Mover o Servidor de Gerenciamento Central herdado
               href: ../migration/move-the-central-management-server.md
             - name: Mover de diretórios de conferência
               href: ../migration/move-conference-directories.md
@@ -735,304 +735,304 @@
                   href: ../migration/remove-a-front-end-server-from-a-pool.md
                 - name: Remover um pool Front-End ou um servidor Standard Edition
                   href: ../migration/remove-front-end-pool-or-standard-edition-server.md
-            - name: Remover instâncias SQL Server e bancos de dados no Servidor Back-End
+            - name: Remover a Instância do SQL Server e os bancos de dados no Servidor Back-End
               href: ../migration/remove-sql-server-instances-and-databases-on-the-back-end-server.md
               items:
-                - name: Remover o banco de dados do Servidor SQL para um pool Front-End
+                - name: Remover o banco de dados do SQL Server para um pool Front-End
                   href: ../migration/remove-the-sql-server-database-for-a-front-end-pool.md
-                - name: Remover banco de dados do SQL Server de um servidor de Monitoramento
+                - name: Remover o banco de dados do SQL Server de um servidor de Monitoramento
                   href: ../migration/remove-the-sql-server-database-for-a-monitoring-server.md
-                - name: Remover o banco de dados do Servidor SQL de um servidor de Arquivamento
+                - name: Remover o banco de dados do SQL Server de um servidor de Arquivamento
                   href: ../migration/remove-the-sql-server-database-for-an-archiving-server.md
     - name: Gerencie
       items:
         - name: Topologia
-          href: ../../SfbServer/manage/topology/topology.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+          href: ../../SfbServer/manage/topology/topology.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
           items:
             - name: Gerenciar Servidores Front-End
-              href: ../../SfbServer/manage/topology/manage-front-end-servers.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+              href: ../../SfbServer/manage/topology/manage-front-end-servers.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
             - name: Corrigir ou atualizar um servidor Back-End ou Standard Edition
-              href: ../../SfbServer/manage/topology/patch-or-update-a-back-end-or-standard-edition-server.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+              href: ../../SfbServer/manage/topology/patch-or-update-a-back-end-or-standard-edition-server.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
             - name: Gerenciar bancos de dados
-              href: ../../SfbServer/manage/topology/manage-databases.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
-            - name: Mover dados do repositório de arquivos
-              href: ../../SfbServer/manage/topology/move-file-store-data.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+              href: ../../SfbServer/manage/topology/manage-databases.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+            - name: Mover Dados do Repositório de Arquivos
+              href: ../../SfbServer/manage/topology/move-file-store-data.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
             - name: Desabilitar a TLS 1.0/1.1
-              href: ../../SfbServer/manage/topology/disable-tls-1.0-1.1.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+              href: ../../SfbServer/manage/topology/disable-tls-1.0-1.1.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
         - name: Integridade e monitoramento
-          href: ../../SfbServer/manage/health-and-monitoring/health-and-monitoring.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+          href: ../../SfbServer/manage/health-and-monitoring/health-and-monitoring.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
           items:
             - name: Acessar dados de monitoramento
-              href: ../../SfbServer/manage/health-and-monitoring/access-monitoring-data.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+              href: ../../SfbServer/manage/health-and-monitoring/access-monitoring-data.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
             - name: CDR (registro de detalhes das chamadas)
-              href: ../../SfbServer/manage/health-and-monitoring/call-detail-recording-cdr.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+              href: ../../SfbServer/manage/health-and-monitoring/call-detail-recording-cdr.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
               items:
                 - name: Exibir informações de configuração
-                  href: ../../SfbServer/manage/health-and-monitoring/view-configuration-information.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                  href: ../../SfbServer/manage/health-and-monitoring/view-configuration-information.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
                 - name: Habilitar CDR
-                  href: ../../SfbServer/manage/health-and-monitoring/enable-cdr.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                  href: ../../SfbServer/manage/health-and-monitoring/enable-cdr.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
                 - name: Especificar a retenção de dados
-                  href: ../../SfbServer/manage/health-and-monitoring/specify-retention-of-data.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                  href: ../../SfbServer/manage/health-and-monitoring/specify-retention-of-data.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
                 - name: Criar ou modificar um conjunto de configurações de CDR
-                  href: ../../SfbServer/manage/health-and-monitoring/create-or-modify-a-collection-of-settings.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                  href: ../../SfbServer/manage/health-and-monitoring/create-or-modify-a-collection-of-settings.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
                 - name: Excluir uma coleção existente de configurações de CDR
-                  href: ../../SfbServer/manage/health-and-monitoring/delete-configuration-settings.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
-            - name: Qualidade da experiência
-              href: ../../SfbServer/manage/health-and-monitoring/quality-of-experience.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                  href: ../../SfbServer/manage/health-and-monitoring/delete-configuration-settings.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+            - name: Qualidade da Experiência
+              href: ../../SfbServer/manage/health-and-monitoring/quality-of-experience.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
               items:
                 - name: Criar configurações de QoE
-                  href: ../../SfbServer/manage/health-and-monitoring/create-qoe-configuration-settings.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                  href: ../../SfbServer/manage/health-and-monitoring/create-qoe-configuration-settings.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
                 - name: Habilitar QoE
-                  href: ../../SfbServer/manage/health-and-monitoring/enable-qoe.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                  href: ../../SfbServer/manage/health-and-monitoring/enable-qoe.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
                 - name: Modificar configurações de QoE
-                  href: ../../SfbServer/manage/health-and-monitoring/modify-qoe-settings.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                  href: ../../SfbServer/manage/health-and-monitoring/modify-qoe-settings.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
                 - name: Excluir configurações de QoE
-                  href: ../../SfbServer/manage/health-and-monitoring/delete-qoe-configuration-settings.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                  href: ../../SfbServer/manage/health-and-monitoring/delete-qoe-configuration-settings.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
             - name: Monitorar desempenho de mobilidade
-              href: ../../SfbServer/manage/health-and-monitoring/monitor-mobility-performance.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+              href: ../../SfbServer/manage/health-and-monitoring/monitor-mobility-performance.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
               items:
                 - name: Limites de capacidade de memória do servidor
-                  href: ../../SfbServer/manage/health-and-monitoring/server-memory-capacity-limits.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
-                - name: Uso do serviço e UCWA
-                  href: ../../SfbServer/manage/health-and-monitoring/service-and-ucwa-usage.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                  href: ../../SfbServer/manage/health-and-monitoring/server-memory-capacity-limits.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                - name: Serviço e uso do UCWA
+                  href: ../../SfbServer/manage/health-and-monitoring/service-and-ucwa-usage.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
                 - name: Configurar o serviço
-                  href: ../../SfbServer/manage/health-and-monitoring/configure-service.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                  href: ../../SfbServer/manage/health-and-monitoring/configure-service.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
                 - name: Contadores de desempenho
-                  href: ../../SfbServer/manage/health-and-monitoring/performance-counters.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                  href: ../../SfbServer/manage/health-and-monitoring/performance-counters.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
                 - name: Eventos UCWA
-                  href: ../../SfbServer/manage/health-and-monitoring/ucwa-events.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
-            - name: Relatórios de monitoramento
-              href: ../../SfbServer/manage/health-and-monitoring/monitoring-reports.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                  href: ../../SfbServer/manage/health-and-monitoring/ucwa-events.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+            - name: Relatórios de Monitoramento
+              href: ../../SfbServer/manage/health-and-monitoring/monitoring-reports.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
               items:
-                - name: Monitoramento de painel
-                  href: ../../SfbServer/manage/health-and-monitoring/monitoring-dashboard.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                - name: Painel de Monitoramento
+                  href: ../../SfbServer/manage/health-and-monitoring/monitoring-dashboard.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
                 - name: Relatórios de uso do sistema
-                  href: ../../SfbServer/manage/health-and-monitoring/system-usage-reports.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                  href: ../../SfbServer/manage/health-and-monitoring/system-usage-reports.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
                   items:
-                    - name: Relatório de registro do usuário
-                      href: ../../SfbServer/manage/health-and-monitoring/user-registration-report.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
-                    - name: Relatório do resumo de atividades ponto a ponto
-                      href: ../../SfbServer/manage/health-and-monitoring/peer-to-peer-activity-summary-report.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                    - name: Relatório de Registro do Usuário
+                      href: ../../SfbServer/manage/health-and-monitoring/user-registration-report.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                    - name: Relatório de Resumo de Atividades Ponto a Ponto
+                      href: ../../SfbServer/manage/health-and-monitoring/peer-to-peer-activity-summary-report.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
                       items:
-                        - name: Relatório de mensagem instantânea
-                          href: ../../SfbServer/manage/health-and-monitoring/im-report.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                        - name: Relatório de Mensagem Instantânea
+                          href: ../../SfbServer/manage/health-and-monitoring/im-report.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
                         - name: Relatório de Voz e Vídeo
-                          href: ../../SfbServer/manage/health-and-monitoring/voice-and-video-report.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
-                    - name: Relatório de resumo da conferência
-                      href: ../../SfbServer/manage/health-and-monitoring/conference-summary-report.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                          href: ../../SfbServer/manage/health-and-monitoring/voice-and-video-report.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                    - name: Relatório Resumido da Conferência
+                      href: ../../SfbServer/manage/health-and-monitoring/conference-summary-report.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
                       items:
                         - name: Relatório de atividade
-                          href: ../../SfbServer/manage/health-and-monitoring/activity-report.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
-                        - name: Relatório detalhado
-                          href: ../../SfbServer/manage/health-and-monitoring/detail-report.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
-                        - name: Relatório de hora de ingresso
-                          href: ../../SfbServer/manage/health-and-monitoring/join-time-report.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
-                    - name: Relatório de resumo de conferência de PSTN
-                      href: ../../SfbServer/manage/health-and-monitoring/pstn-conference-summary-report.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
-                    - name: Relatório de uso do grupo de resposta
-                      href: ../../SfbServer/manage/health-and-monitoring/response-group-usage-report.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                          href: ../../SfbServer/manage/health-and-monitoring/activity-report.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                        - name: Relatório Detalhado
+                          href: ../../SfbServer/manage/health-and-monitoring/detail-report.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                        - name: Relatório de Tempo de Adesão
+                          href: ../../SfbServer/manage/health-and-monitoring/join-time-report.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                    - name: Relatório Resumido da Conferência PSTN
+                      href: ../../SfbServer/manage/health-and-monitoring/pstn-conference-summary-report.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                    - name: Relatório de Utilização do Grupo de Resposta
+                      href: ../../SfbServer/manage/health-and-monitoring/response-group-usage-report.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
                       items:
-                        - name: Relatório de lista de chamadas
-                          href: ../../SfbServer/manage/health-and-monitoring/call-list-report.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
-                    - name: Relatório de Inventário de Telefones IP
-                      href: ../../SfbServer/manage/health-and-monitoring/ip-phone-inventory-report.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                        - name: Relatório da Lista de Chamadas
+                          href: ../../SfbServer/manage/health-and-monitoring/call-list-report.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                    - name: Relatório de Inventário Telefônico IP
+                      href: ../../SfbServer/manage/health-and-monitoring/ip-phone-inventory-report.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
                     - name: Relatório de Controle de Admissão de Chamadas
-                      href: ../../SfbServer/manage/health-and-monitoring/call-admission-control-report.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                      href: ../../SfbServer/manage/health-and-monitoring/call-admission-control-report.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
                       items:
-                        - name: Relatório de detalhes de sessão ponto a ponto
-                          href: ../../SfbServer/manage/health-and-monitoring/peer-to-peer-session-detail-report.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
-                - name: Relatórios de diagnóstico de chamadas (por usuário)
-                  href: ../../SfbServer/manage/health-and-monitoring/call-diagnostic-reports-per-user.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
-                - name: Relatórios de diagnóstico de chamada
-                  href: ../../SfbServer/manage/health-and-monitoring/call-diagnostic-reports.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                        - name: Relatório Detalhado da Sessão de Ponto a Ponto
+                          href: ../../SfbServer/manage/health-and-monitoring/peer-to-peer-session-detail-report.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                - name: Relatórios de Diagnóstico de Chamadas (por usuário)
+                  href: ../../SfbServer/manage/health-and-monitoring/call-diagnostic-reports-per-user.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                - name: Relatórios de Diagnóstico de Chamadas
+                  href: ../../SfbServer/manage/health-and-monitoring/call-diagnostic-reports.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
                   items:
-                    - name: Relatório de resumo
-                      href: ../../SfbServer/manage/health-and-monitoring/summary-report.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                    - name: Relatório de Resumo
+                      href: ../../SfbServer/manage/health-and-monitoring/summary-report.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
                       items:
-                        - name: Subrelatório de resumo da conferência
-                          href: ../../SfbServer/manage/health-and-monitoring/conference-summary-subreport.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
-                        - name: Sub-relatório de resumo P2P
-                          href: ../../SfbServer/manage/health-and-monitoring/p2p-summary-subreport.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
-                    - name: Relatório de diagnóstico de atividade ponto a ponto
-                      href: ../../SfbServer/manage/health-and-monitoring/peer-to-peer-activity-diagnostic-report.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
-                    - name: Relatório de diagnósticos da conferência
-                      href: ../../SfbServer/manage/health-and-monitoring/conference-diagnostic-report.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
-                    - name: Relatório das principais falhas
-                      href: ../../SfbServer/manage/health-and-monitoring/top-failures-report.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
-                    - name: Relatório de distribuição com falha
-                      href: ../../SfbServer/manage/health-and-monitoring/failure-distribution-report.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
-                    - name: Relatório de Lista de Falhas
-                      href: ../../SfbServer/manage/health-and-monitoring/failure-list-report.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
-                    - name: Relatório de diagnósticos
-                      href: ../../SfbServer/manage/health-and-monitoring/diagnostic-report.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
-                - name: Relatórios de diagnóstico de qualidade de mídia
-                  href: ../../SfbServer/manage/health-and-monitoring/media-quality-diagnostic-reports.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                        - name: Subrelatório de Resumo da Conferência
+                          href: ../../SfbServer/manage/health-and-monitoring/conference-summary-subreport.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                        - name: Sub-relatório de Resumo P2P
+                          href: ../../SfbServer/manage/health-and-monitoring/p2p-summary-subreport.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                    - name: Relatório de Diagnóstico de atividade ponto a ponto
+                      href: ../../SfbServer/manage/health-and-monitoring/peer-to-peer-activity-diagnostic-report.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                    - name: Relatório de Diagnósticos da Conferência
+                      href: ../../SfbServer/manage/health-and-monitoring/conference-diagnostic-report.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                    - name: Relatório das Principais falhas
+                      href: ../../SfbServer/manage/health-and-monitoring/top-failures-report.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                    - name: Relatório de Distribuição com falha
+                      href: ../../SfbServer/manage/health-and-monitoring/failure-distribution-report.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                    - name: Relatório da Lista de Falhas
+                      href: ../../SfbServer/manage/health-and-monitoring/failure-list-report.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                    - name: Relatório de Diagnósticos
+                      href: ../../SfbServer/manage/health-and-monitoring/diagnostic-report.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                - name: Relatórios de Diagnóstico de Qualidade da Mídia
+                  href: ../../SfbServer/manage/health-and-monitoring/media-quality-diagnostic-reports.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
                   items:
                     - name: Resumo
-                      href: ../../SfbServer/manage/health-and-monitoring/summary.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                      href: ../../SfbServer/manage/health-and-monitoring/summary.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
                     - name: Comparação
-                      href: ../../SfbServer/manage/health-and-monitoring/comparison.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
-                    - name: Desempenho do servidor
-                      href: ../../SfbServer/manage/health-and-monitoring/server-performance.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
-                    - name: Relatório de localização
-                      href: ../../SfbServer/manage/health-and-monitoring/location-report.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
-                    - name: Relatório de dispositivos
-                      href: ../../SfbServer/manage/health-and-monitoring/device-report.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
-                    - name: Relatório de lista de chamadas
-                      href: ../../SfbServer/manage/health-and-monitoring/call-list-report-0.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
-                    - name: Relatório detalhado de chamadas
-                      href: ../../SfbServer/manage/health-and-monitoring/call-detail-report.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
-                    - name: Relatório de tendência de qualidade de mídia do servidor
-                      href: ../../SfbServer/manage/health-and-monitoring/server-media-quality-trend-report.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                      href: ../../SfbServer/manage/health-and-monitoring/comparison.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                    - name: Desempenho do Servidor
+                      href: ../../SfbServer/manage/health-and-monitoring/server-performance.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                    - name: Relatório de Localização
+                      href: ../../SfbServer/manage/health-and-monitoring/location-report.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                    - name: Relatório de Dispositivos
+                      href: ../../SfbServer/manage/health-and-monitoring/device-report.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                    - name: Relatório da Lista de Chamadas
+                      href: ../../SfbServer/manage/health-and-monitoring/call-list-report-0.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                    - name: Relatório Detalhado de Chamadas
+                      href: ../../SfbServer/manage/health-and-monitoring/call-detail-report.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                    - name: Relatório de Tendência de Qualidade da Mídia do Servidor
+                      href: ../../SfbServer/manage/health-and-monitoring/server-media-quality-trend-report.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
                     - name: Relatório de Distribuição da Métrica de Qualidade de Mídia
-                      href: ../../SfbServer/manage/health-and-monitoring/media-quality-metrics-distribution-report.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
-                    - name: Relatório de tendência de localização
-                      href: ../../SfbServer/manage/health-and-monitoring/location-trend-report.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
-            - name: Rate my Call
-              href: ../../SfbServer/manage/health-and-monitoring/rate-my-call.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
-            - name: Conector de dados de chamada
+                      href: ../../SfbServer/manage/health-and-monitoring/media-quality-metrics-distribution-report.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                    - name: Relatório de Tendência de localização
+                      href: ../../SfbServer/manage/health-and-monitoring/location-trend-report.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+            - name: Classificar minha Chamada
+              href: ../../SfbServer/manage/health-and-monitoring/rate-my-call.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+            - name: 'Conector de Chamada de Dados '
               items:
-                - name: Planejar o conector de dados de chamada
+                - name: Conector de Dados do Plano de Chamada
                   href: ../../sfbhybrid/hybrid/plan-call-data-connector.md
-                - name: Configurar o conector de dados de chamada
+                - name: Configurar o Conector de Dados de Chamada
                   href: ../../sfbhybrid/hybrid/configure-call-data-connector.md
         - name: Arquivamento
-          href: ../../SfbServer/manage/archiving/archiving.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+          href: ../../SfbServer/manage/archiving/archiving.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
           items:
             - name: Opções
-              href: ../../SfbServer/manage/archiving/options.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+              href: ../../SfbServer/manage/archiving/options.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
               items:
                 - name: Criar uma configuração
-                  href: ../../SfbServer/manage/archiving/create-a-configuration.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                  href: ../../SfbServer/manage/archiving/create-a-configuration.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
                 - name: Excluir uma configuração
-                  href: ../../SfbServer/manage/archiving/delete-a-configuration.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                  href: ../../SfbServer/manage/archiving/delete-a-configuration.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
                 - name: Habilitar ou desabilitar o arquivamento
-                  href: ../../SfbServer/manage/archiving/enable-or-disable-archiving.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                  href: ../../SfbServer/manage/archiving/enable-or-disable-archiving.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
                 - name: Configurar opções para lidar com falhas
-                  href: ../../SfbServer/manage/archiving/configure-options-to-handle-failures.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                  href: ../../SfbServer/manage/archiving/configure-options-to-handle-failures.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
                 - name: Limpeza de dados arquivados
-                  href: ../../SfbServer/manage/archiving/purging-of-archived-data.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                  href: ../../SfbServer/manage/archiving/purging-of-archived-data.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
             - name: Políticas
-              href: ../../SfbServer/manage/archiving/policies.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+              href: ../../SfbServer/manage/archiving/policies.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
               items:
                 - name: Criar uma nova política
-                  href: ../../SfbServer/manage/archiving/create-a-new-policy.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                  href: ../../SfbServer/manage/archiving/create-a-new-policy.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
                 - name: Alterar uma política existente
-                  href: ../../SfbServer/manage/archiving/change-an-existing-policy.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                  href: ../../SfbServer/manage/archiving/change-an-existing-policy.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
                 - name: Aplicar uma política aos usuários
-                  href: ../../SfbServer/manage/archiving/apply-a-policy-to-users.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                  href: ../../SfbServer/manage/archiving/apply-a-policy-to-users.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
                 - name: Excluir uma política existente
-                  href: ../../SfbServer/manage/archiving/delete-an-existing-policy.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                  href: ../../SfbServer/manage/archiving/delete-an-existing-policy.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
             - name: Modificar opções do banco de dados de arquivamento
-              href: ../../SfbServer/manage/archiving/change-archiving-database-options.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+              href: ../../SfbServer/manage/archiving/change-archiving-database-options.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
             - name: Exportar dados arquivados
-              href: ../../SfbServer/manage/archiving/export-archived-data.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
-        - name: Conferências
-          href: ../../SfbServer/manage/conferencing/conferencing.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+              href: ../../SfbServer/manage/archiving/export-archived-data.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+        - name: Conferência
+          href: ../../SfbServer/manage/conferencing/conferencing.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
           items:
             - name: Políticas de conferência
-              href: ../../SfbServer/manage/conferencing/conferencing-policies.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+              href: ../../SfbServer/manage/conferencing/conferencing-policies.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
               items:
-                - name: Exibir
-                  href: ../../SfbServer/manage/conferencing/view.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                - name: Exibição
+                  href: ../../SfbServer/manage/conferencing/view.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
                 - name: Criar políticas
-                  href: ../../SfbServer/manage/conferencing/create-policies.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                  href: ../../SfbServer/manage/conferencing/create-policies.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
                 - name: Modificar políticas
-                  href: ../../SfbServer/manage/conferencing/modify-policies.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                  href: ../../SfbServer/manage/conferencing/modify-policies.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
                 - name: Atribuir Políticas
-                  href: ../../SfbServer/manage/conferencing/assign-policies.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                  href: ../../SfbServer/manage/conferencing/assign-policies.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
                 - name: Excluir políticas
-                  href: ../../SfbServer/manage/conferencing/delete-policies.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                  href: ../../SfbServer/manage/conferencing/delete-policies.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
             - name: Definições de configuração de reunião
-              href: ../../SfbServer/manage/conferencing/meeting-configuration-settings.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+              href: ../../SfbServer/manage/conferencing/meeting-configuration-settings.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
               items:
-                - name: Configurações de exibição
-                  href: ../../SfbServer//manage/conferencing/view-settings.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                - name: Exibição das Configurações
+                  href: ../../SfbServer//manage/conferencing/view-settings.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
                 - name: Criar configurações
-                  href: ../../SfbServer/manage/conferencing/create-settings.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                  href: ../../SfbServer/manage/conferencing/create-settings.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
                 - name: Modificar configurações
-                  href: ../../SfbServer/manage/conferencing/modify-settings.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                  href: ../../SfbServer/manage/conferencing/modify-settings.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
                 - name: Excluir configurações
-                  href: ../../SfbServer/manage/conferencing/delete-settings.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                  href: ../../SfbServer/manage/conferencing/delete-settings.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
             - name: Configurações do servidor de conferência
-              href: ../../SfbServer/manage/conferencing/conferencing-server-configuration-settings.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+              href: ../../SfbServer/manage/conferencing/conferencing-server-configuration-settings.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
             - name: Conferência discada
-              href: ../../SfbServer/manage/conferencing/dial-in-conferencing.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+              href: ../../SfbServer/manage/conferencing/dial-in-conferencing.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
               items:
                 - name: Habilitar ou desabilitar
-                  href: ../../SfbServer/manage/conferencing/enable-or-disable.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                  href: ../../SfbServer/manage/conferencing/enable-or-disable.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
                 - name: Números de acesso
-                  href: ../../SfbServer/manage/conferencing/access-numbers.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                  href: ../../SfbServer/manage/conferencing/access-numbers.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
                 - name: Diretivas de PIN
-                  href: ../../SfbServer/manage/conferencing/pin-policies.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
-                - name: Comunicados de participação e saída
-                  href: ../../SfbServer/manage/conferencing/join-and-leave-announcements.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
-                - name: Mapeamento de teclas para os comandos DTMF
-                  href: ../../SfbServer/manage/conferencing/key-mapping-for-dtmf-commands.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                  href: ../../SfbServer/manage/conferencing/pin-policies.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                - name: Anúncios de entrada e saída
+                  href: ../../SfbServer/manage/conferencing/join-and-leave-announcements.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                - name: Mapeamento de chaves para comandos DTMF
+                  href: ../../SfbServer/manage/conferencing/key-mapping-for-dtmf-commands.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
                 - name: Ingresso em reuniões sem PIN
-                  href: ../../SfbServer/manage/conferencing/pin-less-meeting-join.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                  href: ../../SfbServer/manage/conferencing/pin-less-meeting-join.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
                 - name: Diretórios
-                  href: ../../SfbServer/manage/conferencing/directories.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                  href: ../../SfbServer/manage/conferencing/directories.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
                 - name: Email de boas-vindas
-                  href: ../../SfbServer/manage/conferencing/welcome-emails.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                  href: ../../SfbServer/manage/conferencing/welcome-emails.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
                 - name: Testes
-                  href: ../../SfbServer/manage/conferencing/tests.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                  href: ../../SfbServer/manage/conferencing/tests.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
             - name: Página de ingresso na reunião
-              href: ../../SfbServer/manage/conferencing/meeting-join-page.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
-        - name: Shell de gerenciamento
-          href: ../../SfbServer/manage/management-shell.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+              href: ../../SfbServer/manage/conferencing/meeting-join-page.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+        - name: Gerenciamento do Shell
+          href: ../../SfbServer/manage/management-shell.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
         - name: Autenticação
-          href: ../../SfbServer/manage/authentication/authentication.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+          href: ../../SfbServer/manage/authentication/authentication.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
           items:
             - name: Usar a ADAL
-              href: ../../SfbServer/manage/authentication/use-adal.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+              href: ../../SfbServer/manage/authentication/use-adal.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
             - name: Certificados Stage AV e OAuth
-              href: ../../SfbServer/manage/authentication/stage-av-and-oauth-certificates.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+              href: ../../SfbServer/manage/authentication/stage-av-and-oauth-certificates.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
             - name: Atribuir um certificado de servidor para servidor
-              href: ../../SfbServer/manage/authentication/assign-a-server-to-server-certificate.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+              href: ../../SfbServer/manage/authentication/assign-a-server-to-server-certificate.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
             - name: Configurar a autenticação de servidor a servidor para híbrido
-              href: ../../SfbServer/manage/authentication/configure-a-hybrid-environment.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+              href: ../../SfbServer/manage/authentication/configure-a-hybrid-environment.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
             - name: Configurar um aplicativo de parceiro local
-              href: ../../SfbServer/manage/authentication/configure-an-on-premises-partner-app.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
-            - name: Configurações de registrador de domínios
-              href: ../../SfbServer/manage/authentication/registrar-configuration-settings.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
-            - name: Configurações de serviços da Web
-              href: ../../SfbServer/manage/authentication/web-service-configuration-settings.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+              href: ../../SfbServer/manage/authentication/configure-an-on-premises-partner-app.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+            - name: Configurações de configuração do registrador
+              href: ../../SfbServer/manage/authentication/registrar-configuration-settings.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+            - name: Definições de configuração do Serviço Web
+              href: ../../SfbServer/manage/authentication/web-service-configuration-settings.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
             - name: Configurações de PIN
-              href: ../../SfbServer/manage/authentication/pin-settings.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+              href: ../../SfbServer/manage/authentication/pin-settings.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
               items:
                 - name: Exibir informações de política de PIN
-                  href: ../../SfbServer/manage/authentication/view-pin-policy-information.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                  href: ../../SfbServer/manage/authentication/view-pin-policy-information.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
                 - name: Criar uma nova política de PIN
-                  href: ../../SfbServer/manage/authentication/create-a-new-pin-policy.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                  href: ../../SfbServer/manage/authentication/create-a-new-pin-policy.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
                 - name: Modificar uma política de PIN existente
-                  href: ../../SfbServer/manage/authentication/modify-an-existing-pin-policy.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                  href: ../../SfbServer/manage/authentication/modify-an-existing-pin-policy.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
                 - name: Excluir uma política de PIN
-                  href: ../../SfbServer/manage/authentication/delete-a-pin-policy.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                  href: ../../SfbServer/manage/authentication/delete-a-pin-policy.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
                 - name: Atribuir uma política de PIN por usuário
-                  href: ../../SfbServer/manage/authentication/assign-a-per-user-pin-policy.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                  href: ../../SfbServer/manage/authentication/assign-a-per-user-pin-policy.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
                 - name: Configurar PIN de conferência discada de um usuário
-                  href: ../../SfbServer/manage/authentication/set-a-user-s-dial-in-conferencing-pin.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                  href: ../../SfbServer/manage/authentication/set-a-user-s-dial-in-conferencing-pin.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
                 - name: Exibir informações de PIN do usuário
-                  href: ../../SfbServer/manage/authentication/view-user-pin-information.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                  href: ../../SfbServer/manage/authentication/view-user-pin-information.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
                 - name: Bloquear ou desbloquear um PIN de usuário
-                  href: ../../SfbServer/manage/authentication/lock-or-unlock-a-user-pin.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                  href: ../../SfbServer/manage/authentication/lock-or-unlock-a-user-pin.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
             - name: Autenticação de dois fatores
-              href: ../../SfbServer/manage/authentication/two-factor-authentication.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+              href: ../../SfbServer/manage/authentication/two-factor-authentication.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
               items:
                 - name: Configurar a autenticação de dois fatores
-                  href: ../../SfbServer/manage/authentication/configure-two-factor.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                  href: ../../SfbServer/manage/authentication/configure-two-factor.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
                 - name: Usar a autenticação de dois fatores
-                  href: ../../SfbServer/manage/authentication/use-two-factor.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                  href: ../../SfbServer/manage/authentication/use-two-factor.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
         - name: Compartilhamento de tela baseado em vídeo do Skype for Business Server
-          href: ../../SfbServer/manage/video-based-screen-sharing.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+          href: ../../SfbServer/manage/video-based-screen-sharing.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
         - name: Contas de usuário
-          href: ../../SfbServer/manage/user-accounts/user-accounts.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+          href: ../../SfbServer/manage/user-accounts/user-accounts.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
           items:
             - name: Personalizar as propriedades
-              href: ../../SfbServer/manage/user-accounts/customize-properties.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+              href: ../../SfbServer/manage/user-accounts/customize-properties.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
         - name: Gerenciar serviços
-          href: ../../SfbServer/manage/manage-services.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+          href: ../../SfbServer/manage/manage-services.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
         - name: 'Backup de Dados RGS '
           href: ../backup-rgs-data.md
         - name: Usar SEFAUtil
@@ -1040,37 +1040,37 @@
     - name: Ferramentas de gerenciamento
       href: ../management-tools-2019.md
       items:
-        - name: Painel de qualidade da chamada para Skype for Business Server
+        - name: Painel de Controle de Qualidade de Chamadas para o Skype for Business Server
           href: ../../SfbServer/management-tools/call-quality-dashboard/call-quality-dashboard.md
           items:
-            - name: Planejar o Painel de qualidade da chamada
+            - name: Planejar o Painel de Qualidade de Chamadas
               href: ../../SfbServer/management-tools/call-quality-dashboard/plan.md
-            - name: Implantar o Painel de qualidade da chamada
+            - name: Implantar o Painel de Qualidade de Chamadas
               href: ../../SfbServer/management-tools/call-quality-dashboard/deploy-0.md
-            - name: Usar o Painel de qualidade da chamada
+            - name: Usar o Painel de Qualidade de Chamadas
               href: ../../SfbServer/management-tools/call-quality-dashboard/use.md
         - name: Gerenciador de e Estatísticas do Skype for Business Server
           href: ../../SfbServer/management-tools/statistics-manager/statistics-manager.md
           items:
-            - name: Planejar o Gerenciador de estatísticas do Skype for Business Server
+            - name: Planejar o Gerenciador de Estatísticas do Skype for Business Server
               href: ../../SfbServer/management-tools/statistics-manager/plan.md
-            - name: Implantar o Gerenciador de estatísticas do Skype for Business Server
+            - name: Implantar Gerenciador de Estatísticas do Skype for Business Server
               href: ../../SfbServer/management-tools/statistics-manager/deploy.md
-            - name: Atualizar o Gerenciador de estatísticas do Skype for Business Server
+            - name: Atualizar o Gerenciador de Estatísticas do Skype for Business Server
               href: ../../SfbServer/management-tools/statistics-manager/upgrade.md
-            - name: Solução de problemas do Gerenciador de estatísticas do Skype for Business Server
+            - name: Solução de problemas do Gerenciador de Estatísticas do Skype for Business Server
               href: ../../SfbServer/management-tools/statistics-manager/troubleshoot.md
         - name: Gerenciar o Skype for Business Server usando o pacote de gerenciamento do SCOM
           href: ../tools/scom-management-pack-use-2019.md
           items:
-            - name: Configurar o servidor de gerenciamento principal
+            - name: Configurar o Servidor de Gerenciamento Primário
               href: ../tools/configure-the-primary-2019.md
             - name: Configurar os computadores que serão monitorados
               href: ../tools/configure-computers-to-monitor-2019.md
-            - name: Nós do inspetor
+            - name: Nós de Vigilância
               href: ../tools/watcher-nodes-2019.md
               items:
                 - name: Configurações e usuários de teste
                   href: ../tools/test-users-and-settings-2019.md
-        - name: Calculadora de planejamento de capacidade do Skype for Business Server
+        - name: Calculadora de Planejamento de Capacidade do Skype for Business Server
           href: ../../SfbServer/management-tools/capacity-planning-calculator.md
