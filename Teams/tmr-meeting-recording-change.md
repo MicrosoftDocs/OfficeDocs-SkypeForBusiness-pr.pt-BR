@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0e9fcc4475b7f06b427dbc73de4b00b09b08755a
-ms.sourcegitcommit: b282acc1633c2d62bbff0ea77b6b647775ae6dfe
+ms.openlocfilehash: bb045a6bf6a950e1b3d822a0e3b8a9389affbf64
+ms.sourcegitcommit: 7387d631cf895992906a46d3b7576a2ac76f5b4d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "49085545"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "49366910"
 ---
 # <a name="use-onedrive-for-business-and-sharepoint-or-stream-for-meeting-recordings"></a>Usar o OneDrive for Business e o SharePoint ou o Stream para gravações de reunião
 
@@ -70,8 +70,9 @@ Assista à "gravação na reunião" para obter mais informações.
 
 ## <a name="set-up-the-meeting-recording-option-for-onedrive-for-business-and-sharepoint"></a>Configurar a opção de gravação de reunião do OneDrive for Business e do SharePoint
 
+A opção de gravação da reunião é uma configuração no nível da política de equipe. O exemplo a seguir mostra como definir a política global. Certifique-se de definir a opção de gravação da reunião para a política ou políticas atribuídas aos usuários.
+
 > [!Note]
-> A opção de gravação da reunião é uma configuração no nível da política de equipe. O exemplo a seguir mostra como definir a política global. Certifique-se de definir a opção de gravação da reunião para a política ou políticas atribuídas aos usuários.
 > As alterações da política de reunião do teams levam tempo para se propagar. Verifique novamente depois de algumas horas de configuração e saia e entre novamente.
 
 1. Instale o Skype for Business online PowerShell.
@@ -108,6 +109,9 @@ Set-CsTeamsMeetingPolicy -Identity Global -RecordingStorageMode "Stream"
 ```
 
 ## <a name="permissions-or-role-based-access"></a>Permissões ou acesso baseado na função
+
+> [!Note]
+> Recomendamos que o destinatário seja um usuário conectado ao compartilhar gravações de reunião do teams. Isso pode ser conseguido selecionando a opção **pessoas na (sua organização)** ao compartilhar o arquivo conforme documentado em [compartilhar arquivos ou pastas do SharePoint](https://support.microsoft.com/office/share-sharepoint-files-or-folders-1fe37332-0f9a-4719-970e-d2578da4941c?redirectSourcePath=%25252fen-US%25252farticle%25252fShare-sites-or-documents-with-people-outside-your-organization-80E49744-E30F-44DB-8D51-16661B1D4232&ui=en-US&rs=en-US&ad=US). O compartilhamento externo não foi projetado para a distribuição de arquivos grandes ou um grande número de arquivos. Para evitar cenários de fraudes e abusos, você pode ter problemas ao compartilhar uma grande quantidade de dados para usuários externos.
 
 |Tipo de reunião                               | Quem clicou no registro?| Onde está a gravação?                               |Quem tem acesso? R/W, R ou compartilhamento                                                                                                                                                                                                                                                     |
 |-------------------------------------------|-----------------------|--------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|

@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f8670b7a1a2ba8393f6afddb9546cd01c276808f
-ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
+ms.openlocfilehash: 53a4fca44e63f76875205726b4d145b815b9ee9c
+ms.sourcegitcommit: ef58f429658333b53d72d5fa7265701d2a18326b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49031257"
+ms.lasthandoff: 11/19/2020
+ms.locfileid: "49350633"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>Teams para Infraestrutura de Área de Trabalho Virtualizada
 
@@ -40,17 +40,17 @@ Usar o Microsoft Teams em um ambiente virtualizado pode ser um pouco diferente d
 
 Para garantir uma experiência de usuário ideal, siga as orientações deste artigo.
 
- > [!Note]
+> [!Note]
 > Para obter detalhes sobre o VDI Teams em diferentes plataformas, consulte [recursos do teams por plataforma](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3).
 
 ## <a name="teams-on-vdi-components"></a>Teams on VDI Components
 
 Usar o Microsoft Teams em um ambiente virtualizado requer os componentes a seguir.
 
-- **Agente de virtualização** : o Gerenciador de recursos e conexão com o provedor de virtualização, como o Azure
-- **Área de trabalho virtual** : pilha da máquina virtual (VM) que executa o Microsoft Teams
-- **Cliente leve** : o ponto de extremidade com o qual o usuário se interfaces fisicamente
-- **Aplicativo da área de trabalho Teams** : o aplicativo cliente de desktop Teams
+- **Agente de virtualização**: o Gerenciador de recursos e conexão com o provedor de virtualização, como o Azure
+- **Área de trabalho virtual**: pilha da máquina virtual (VM) que executa o Microsoft Teams
+- **Cliente leve**: o ponto de extremidade com o qual o usuário se interfaces fisicamente
+- **Aplicativo da área de trabalho Teams**: o aplicativo cliente de desktop Teams
 
 ## <a name="teams-on-vdi-requirements"></a>Teams on VDI requirements
 
@@ -161,8 +161,11 @@ Para saber mais sobre o Teams e aplicativos do Microsoft 365 para empresas, cons
 
 1. Baixe o pacote MSI do teams que corresponde ao seu sistema operacional VDI VM usando um dos seguintes links:
 
-    - [Versão de 32 bits](https://statics.teams.cdn.office.net/production-windows/1.3.00.21759/Teams_windows.msi)
-    - [Versão de 64 bits](https://statics.teams.cdn.office.net/production-windows-x64/1.3.00.21759/Teams_windows_x64.msi)
+    - [Versão de 32 bits](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&managedInstaller=true&download=true)
+    - [Versão de 64 bits](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&arch=x64&managedInstaller=true&download=true)
+
+    > [!NOTE]
+    > Para nuvens governamentais, confira [instalar o Microsoft Teams usando o Gerenciador de configuração do Microsoft Endpoint](msi-deployment.md) para obter links de download para os arquivos MSI.
 
     A versão mínima do aplicativo de área de trabalho Teams necessário é a versão 1.3.00.4461. (A suspensão PSTN não tem suporte em versões anteriores).
 
@@ -263,15 +266,15 @@ Para atribuir a política de chamada do DisallowCalling e a política de reuniã
 1. Na navegação à esquerda do centro de administração do Microsoft Teams, vá para **usuários**.
 2. Selecione o usuário clicando à esquerda do nome de exibição do usuário e clique em **Editar configurações**.
 3. Siga este procedimento:
-    1.  Em **política de chamada** , clique em **DisallowCalling**.
-    2.  Em **política de reunião** , clique em **AllOff**.
+    1.  Em **política de chamada**, clique em **DisallowCalling**.
+    2.  Em **política de reunião**, clique em **AllOff**.
 4. Clique em **Aplicar**.
 
 Para atribuir uma política a vários usuários por vez:
 
 1. Na barra de navegação à esquerda do centro de administração do Microsoft Teams, vá para **Usuários** e, em seguida, pesquise os usuários ou filtre o modo de exibição para mostrar os usuários que você deseja.
 2. Na coluna **&#x2713;** (marca de seleção), selecione os usuários. Para selecionar todos os usuários, clique na (marca de seleção) &#x2713; na parte superior da tabela.
-3. Clique em **Editar configurações** , faça as alterações desejadas e, em seguida, clique em **Aplicar**.
+3. Clique em **Editar configurações**, faça as alterações desejadas e, em seguida, clique em **Aplicar**.
 
 Ou, você também pode fazer o seguinte:
 
@@ -279,7 +282,7 @@ Ou, você também pode fazer o seguinte:
     - Vá para **Voice**  >  **políticas de chamadas** de voz e clique em **DisallowCalling**.
     - Vá para **Meetings**  >  **políticas de reunião** de reuniões e clique em **AllOff**.
 2. Selecione **Gerenciar usuários**.
-3. No painel **Gerenciar usuários** , procure o usuário pelo nome de exibição ou pelo nome de usuário, escolha o nome e clique em **Adicionar**. Repita esta etapa para cada usuário que você deseja adicionar.
+3. No painel **Gerenciar usuários**, procure o usuário pelo nome de exibição ou pelo nome de usuário, escolha o nome e clique em **Adicionar**. Repita esta etapa para cada usuário que você deseja adicionar.
 4. Quando tiver terminado de adicionar usuários, clique em **salvar**.
 
 #### <a name="assign-policies-using-powershell"></a>Atribuir políticas usando o PowerShell
@@ -319,15 +322,15 @@ Para atribuir a política de chamada do AllowCalling e a política de reunião d
 1. Na navegação à esquerda do centro de administração do Microsoft Teams, vá para **usuários**.
 2. Selecione o usuário clicando à esquerda do nome de exibição do usuário e clique em **Editar configurações**.
 3. Siga este procedimento:
-    1.  Em **política de chamada** , clique em **AllowCalling**.
-    2.  Em **política de reunião** , clique em **permitir**.
+    1.  Em **política de chamada**, clique em **AllowCalling**.
+    2.  Em **política de reunião**, clique em **permitir**.
 4. Clique em **Aplicar**.
 
 Para atribuir uma política a vários usuários por vez:
 
 1. Na barra de navegação à esquerda do centro de administração do Microsoft Teams, vá para **Usuários** e, em seguida, pesquise os usuários ou filtre o modo de exibição para mostrar os usuários que você deseja.
 2. Na coluna **&#x2713;** (marca de seleção), selecione os usuários. Para selecionar todos os usuários, clique no **&#x2713;** (marca de seleção) na parte superior da tabela.
-3. Clique em **Editar configurações** , faça as alterações desejadas e, em seguida, clique em **Aplicar**.
+3. Clique em **Editar configurações**, faça as alterações desejadas e, em seguida, clique em **Aplicar**.
 
 Ou, você também pode fazer o seguinte:
 
@@ -335,7 +338,7 @@ Ou, você também pode fazer o seguinte:
     - Vá para **Voice**  >  **políticas de chamadas** de voz e clique em **AllowCalling**.
     - Vá para **Meetings**  >  **políticas de reunião** de reuniões e clique em **permitir**.
 2. Selecione **Gerenciar usuários**.
-3. No painel **Gerenciar usuários** , procure o usuário pelo nome de exibição ou pelo nome de usuário, escolha o nome e clique em **Adicionar**. Repita esta etapa para cada usuário que você deseja adicionar.
+3. No painel **Gerenciar usuários**, procure o usuário pelo nome de exibição ou pelo nome de usuário, escolha o nome e clique em **Adicionar**. Repita esta etapa para cada usuário que você deseja adicionar.
 4. Quando tiver terminado de adicionar usuários, clique em **salvar**.
 
 #### <a name="assign-policies-using-powershell"></a>Atribuir políticas usando o PowerShell
@@ -400,6 +403,7 @@ Veja a seguir as limitações e os problemas conhecidos de chamadas e reuniões:
 - Só há suporte para um único fluxo de vídeo de entrada em reuniões ou chamadas em grupo. Quando várias pessoas enviam vídeo, somente o vídeo da palestrante dominante é mostrado a qualquer momento.
 - A resolução de fluxo de vídeo de entrada e saída está limitada à resolução de 720p. Esta é uma limitação WebRTC.
 - Só há suporte para um fluxo de vídeo de uma câmera de entrada ou de um fluxo de compartilhamento de tela. Quando há um compartilhamento de tela recebido, esse compartilhamento de tela é mostrado, em vez do vídeo do alto-falante dominante.
+- O Teams não alterna para usar o último dispositivo de áudio que um usuário selecionou, se o dispositivo estiver desconectado e depois reconectado.
 - Compartilhamento de tela de saída:
     - Não há suporte para compartilhamento de aplicativos.
 - Conceda controle e assuma o controle:
