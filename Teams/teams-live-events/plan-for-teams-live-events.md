@@ -32,24 +32,24 @@ ms.locfileid: "49130582"
 Ao planejar eventos ao vivo do Teams para realizar grandes reuniões em sua organização, há vários fatores que você precisa considerar antes de iniciar a configuração.
 
 > [!Note]
-> For details about Teams live events on different platforms, see [Teams features by platform](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3). See [prepare your organization](../prepare-network.md) to learn about bandwidth requirements for Teams live events.
+> Para saber mais sobre os recursos do Teams ao vivo em diferentes plataformas, confira [Recursos do Teams por plataforma](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3). Confira [preparar sua organização](../prepare-network.md) para saber mais sobre os requisitos de largura de banda para os eventos ao vivo do Teams.
 
 ## <a name="who-can-attend-create-and-schedule-live-events"></a>Quem pode participar, criar e agendar eventos ao vivo?
 
-Anyone can attend a live event without a license. Read [Admin quick start - Meetings and live events](../quick-start-meetings-live-events.md).
+Todos podem participar de um evento ao vivo sem uma licença. Leia [Início rápido do administrador – Reuniões e eventos ao vivo](../quick-start-meetings-live-events.md).
 
 Os pré-requisitos a seguir são necessários para o usuário agendar um evento ao vivo do Teams.
 
 Estas são as licenças que devem ser atribuídas para produzir ou apresentar um evento ao vivo no Teamse:  
 
-- A Microsoft or Office 365 Enterprise E1, E3, or E5 license or an Office 365 Education A3 or A5 license. The exception to this requirement is guest users can present without a license if the other criteria for [guest users](plan-for-teams-live-events.md#guest-to-present) is met.
+- Uma licença do Microsoft ou Office 365 Enterprise E1, E3 ou E5 ou uma licença do Office 365 para Educação A3 ou A5. A exceção a esse requisito é que os usuários convidados podem apresentar sem licença se os outros critérios para [usuários convidados](plan-for-teams-live-events.md#guest-to-present) forem atendidos.
 - Uma licença do Microsoft Teams - está incluída nas licenças listadas no primeiro marcador.
 - Uma licença do Microsoft Stream-será necessária se você estiver planejando compartilhar o conteúdo para um aplicativo ou dispositivo externo; Confira [licenciamento do Microsoft Stream](https://docs.microsoft.com/stream/license-overview).
 
   Os usuários não precisarão de uma licença do Microsoft Stream atribuída se você quiser que apenas gravem e baixem as gravações. Isso significa que as gravações não são armazenadas no Microsoft Stream, mas sim no Serviços de Mídia do Microsoft Azure (SMA) com um limite de 180 dias antes de serem excluídas. Não é algo neste momento que um administrador pode controlar ou gerenciar para incluir a capacidade de excluí-lo.
 
 >[!Note]
-> The change from using Microsoft Stream to [OneDrive for Business and SharePoint for meeting recordings](../tmr-meeting-recording-change.md) will be a phased approach. At launch you'll be able to opt-in to this experience, in November you'll have to opt-out if you want to continue using Stream, and some time in early 2021 we'll require all customers to OneDrive for Business and SharePoint for meeting recordings.
+> A mudança do Microsoft Stream para o [Microsoft OneDrive for Business e o Microsoft Office SharePoint Online para gravações de reunião](../tmr-meeting-recording-change.md) será uma abordagem em fases. No lançamento você poderá optar por aceitar essa experiência, em novembro você terá que recusar se quiser continuar usando o Stream e, no início de 2021, exigiremos que todos os clientes usem o OneDrive for Business e o Microsoft Office SharePoint Online para gravações de reunião.
 
 > [!NOTE]
 > Neste momento, não há nenhum plano do Microsoft 365 Small Business, que possa ser usado para criar e realizar eventos ao vivo no Teams.
@@ -84,7 +84,7 @@ Para um convidado apresentar em um evento ao vivo, faça o seguinte:
 2. Solicite que o usuário aceite o convite de convidado e participe da equipe.
 3. [Agende o evento ao vivo e adicione o convidado ao seu grupo de eventos](https://support.microsoft.com/article/schedule-a-teams-live-event-7a9ce97c-e1cd-470f-acaf-e6dfc179a0e2).
 
-As a best practice, we recommend that you create a channel for producers and presenters of the live event so they can chat and share information before the event. Guests who don't have Microsoft 365 credentials won't see the Calendar in Teams. To make it easy for them to join the event, producers can post the event link to the channel. Presenters can then open Teams, go to the channel, and then click the link to join the event.
+Como prática recomendada, recomendamos que você crie um canal para produtores e apresentadores do evento ao vivo para que eles possam conversar e compartilhar informações antes do evento. Os convidados que não têm credenciais do Microsoft 365 não verão o calendário nas equipes. Para que seja mais fácil se juntar ao evento, os produtores podem postar o link de evento no canal. Os apresentadores podem abrir o Teams, ir para o canal e, em seguida, clicar no link para entrar no evento.
 
 ## <a name="who-can-watch-live-events"></a>Quem pode assistir a eventos ao vivo
 
@@ -142,12 +142,12 @@ A tabela a seguir destaca os principais recursos oferecidos em eventos ao vivo e
 |Relatório de participação posterior à transmissão para Produtores |&#x2714; |&#x2714; |&#x274C; |
 |Análise de opiniões do público – Votação ao vivo e sondagens  |&#x2714; (Microsoft Pulse) |&#x274C; |&#x274C; |
 
-<sup>1</sup> The limits that are set might be changed. Check [Limits and specifications for Teams](../limits-specifications-teams.md).<br/>
+<sup>1</sup> Os limites que são definidos podem ser alterados. Verifique [Limites e especificações do Teams](../limits-specifications-teams.md).<br/>
 <sup>2</sup> Você pode ter até 250 apresentadores e produtores em um evento ao vivo, mas apenas as últimas 10 pessoas que falaram são exibidas na lista.
 
 ## <a name="regional-availability"></a>Disponibilidade regional
 
-You can use Teams live events in multiple regions across the world. The following information shows availability for event team members and attendees.
+Você pode usar os eventos ao vivo do Teams em várias regiões do mundo inteiro. As informações a seguir mostram a disponibilidade dos membros e participantes da equipe de eventos.
 
 > [!IMPORTANT]
 > A região do evento é selecionada automaticamente, dependendo do organizador e do local do locatário do Microsoft 365.
@@ -183,7 +183,7 @@ You can use Teams live events in multiple regions across the world. The followin
 **Exclusões e considerações**
 
 - **Localização de dados:** Localizações de dados do Teams, fora das listadas acima, não são suportadas no momento.
-- **China:** Event team members and attendees will not be able to use Teams live events because Azure CDN is not accessible in China. A workaround is to use a company VPN connection, which gets the client connected to CDN via the customer's corporate network.
+- **China:**  membros da equipe de eventos e participantes não poderão usar os eventos ao vivo do Teams porque a CDN do Azure não é acessível na China. Uma solução alternativa é usar uma conexão VPN da empresa, que recebe o cliente conectado à CDN pela rede corporativa do cliente.
 
 ## <a name="next-steps"></a>Próximas etapas
 
