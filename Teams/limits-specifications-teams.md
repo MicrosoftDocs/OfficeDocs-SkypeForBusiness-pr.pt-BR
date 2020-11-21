@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 3aded7fefd977d3f3437f15a97296be083d43359
-ms.sourcegitcommit: b282acc1633c2d62bbff0ea77b6b647775ae6dfe
+ms.openlocfilehash: dff2718277aac71af578dbb849560751bb2e33a7
+ms.sourcegitcommit: 03c9b13416ca173f30ed496fb786520147246e15
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "49085465"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "49349107"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Limites e especificações para o Microsoft Teams
 
@@ -68,7 +68,7 @@ O bate-papo do Teams funciona em um back-end do Microsoft Exchange, para que os 
 
 |Recurso  | Limite máximo  |
 |---------|---------|
-|Número de pessoas em um bate-papo particular <sup>1</sup>  | 350 |
+|Número de pessoas em um bate-papo particular <sup>1</sup>  | 250 |
 |O número de pessoas em uma chamada de áudio ou vídeo do chat | 20 |
 |Número de anexos de arquivo<sup>2</sup>  |10     |
 |Tamanho do chat | Aproximadamente 28 KB pela postagem <sup>3</sup> |
@@ -101,7 +101,7 @@ Para obter mais informações, confira [Limites do Exchange Online](https://docs
 
 ## <a name="channel-names"></a>Nomes de canal
 
-Os nomes de canal não podem conter os seguintes caracteres ou palavras.
+Os nomes de canal não podem conter os seguintes caracteres ou palavras:
 
 |Tipo|Exemplo|
 |---------|---------|
@@ -191,9 +191,9 @@ Como o Teams é executado em um back-end do SharePoint Online para compartilhame
 |------------------------|---------|---------|---------|---------|---------|---------|
 |Armazenamento                 |1 TB por organização mais 10 GB por licença adquirida  |1 TB por organização mais 10 GB por licença adquirida  |1 TB por organização mais 10 GB por licença adquirida   |1 TB por organização mais 10 GB por licença adquirida |1 TB por organização mais 10 GB por licença adquirida  |1 TB por organização           |
 |Armazenamento de arquivos do Teams |Até 25 TB por conjunto de sites ou grupo |Até 25 TB por conjunto de sites ou grupo |Até 25 TB por conjunto de sites ou grupo |Até 25 TB por conjunto de sites ou grupo |Até 25 TB por conjunto de sites ou grupo |Até 25 TB por conjunto de sites ou grupo |
-|Limite de upload de arquivos (por arquivo)    |100 GB    |100 GB    |100 GB    |100 GB    |100 GB    |100 GB    |
+|Limite de upload de arquivos (por arquivo)    |2 GB    |2 GB    |2 GB    |2 GB    |2 GB    |2 GB    |
 
-Os canais são apoiados por pastas dentro do conjunto de sites do SharePoint Online criado para a equipe, para que as guias de arquivo dentro de Canais compartilhem os limites de armazenamento da equipe a que pertencem.
+Os canais são apoiados por pastas dentro do conjunto de sites do Microsoft Office SharePoint Online criado para a equipe, para que as guias de arquivo dentro de Canais compartilhem os limites de armazenamento da equipe a que pertencem.
 
 Para mais informações, confira [Limites do SharePoint Online](https://support.office.com/article/SharePoint-Online-limits-8f34ff47-b749-408b-abc0-b605e1f6d498).
 

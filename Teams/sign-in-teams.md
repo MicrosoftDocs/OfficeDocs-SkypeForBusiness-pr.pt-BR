@@ -1,5 +1,5 @@
 ---
-title: Entrar no Teams usando a autenticação moderna
+title: Entrar no Microsoft Teams
 author: MSFTTracyP
 ms.author: tracyp
 manager: dansimp
@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2d931c41fb3da345be124ddef570e0f4bda53474
-ms.sourcegitcommit: 98c5bcfad4ded89ac7b3604367e43a28663828bb
+ms.openlocfilehash: bc31b7d3c81581361e28e2074fdee45aae5e0422
+ms.sourcegitcommit: ef58f429658333b53d72d5fa7265701d2a18326b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/07/2020
-ms.locfileid: "48944185"
+ms.lasthandoff: 11/19/2020
+ms.locfileid: "49350563"
 ---
 <a name="sign-in-to-microsoft-teams"></a>Entrar no Microsoft Teams
 ==========================
@@ -102,7 +102,7 @@ Defina os seguintes parâmetros de configuração no portal do Azure Intune para
 
 |Plataforma |Chave  |Valor  |
 |---------|---------|---------|
-|iOS     |  **IntuneMAMAllowedAccountsOnly**       | **Habilitado** : a única conta permitida é a conta de usuário gerenciada definida pela chave IntuneMAMUPN.<br> **Desabilitado** (ou qualquer valor que não seja uma correspondência que não diferencia maiúsculas e minúsculas para **Habilitado** ): qualquer conta é permitida.        |
+|iOS     |  **IntuneMAMAllowedAccountsOnly**       | **Habilitado**: a única conta permitida é a conta de usuário gerenciada definida pela chave IntuneMAMUPN.<br> **Desabilitado** (ou qualquer valor que não seja uma correspondência que não diferencia maiúsculas e minúsculas para **Habilitado**): qualquer conta é permitida.        |
 |iOS     |   **IntuneMAMUPN**      |   UPN da conta que pode entrar no Teams.<br> Para dispositivos registrados do Intune, o token {{userprincipalname}} pode ser usado para representar a conta de usuário registrada.       |
 |Android     |**com.microsoft.intune.mam.AllowedAccountUPNs**         |    Somente as contas permitidas são as contas de usuário gerenciadas definidas por essa chave.<br> Um ou mais pontos e vírgulas;] - UPNs delimitados.<br> Para dispositivos registrados do Intune, o token {{userprincipalname}} pode ser usado para representar a conta de usuário registrada.
 
