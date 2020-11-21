@@ -17,24 +17,25 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bc31b7d3c81581361e28e2074fdee45aae5e0422
-ms.sourcegitcommit: ef58f429658333b53d72d5fa7265701d2a18326b
+ms.openlocfilehash: 9171ffa0b2750d053afa76c5dc788b24cf8ec2d4
+ms.sourcegitcommit: cb50f1fde4913c5a61e521c77fb554b883beb451
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/19/2020
-ms.locfileid: "49350563"
+ms.lasthandoff: 11/21/2020
+ms.locfileid: "49376014"
 ---
 <a name="sign-in-to-microsoft-teams"></a>Entrar no Microsoft Teams
 ==========================
 
 ## <a name="windows-users"></a>Usuários do Windows
+
 A Microsoft recomenda que as organizações usem versões recentes do Windows 10 com a configuração de Ingresso do Domínio Híbrido ou Ingresso no Azure AD. O uso de versões recentes garante que as contas dos usuários sejam preparadas no Gerenciador de Contas da Web do Windows, que por sua vez permite o logon único no Teams e em outros aplicativos da Microsoft. O logon único fornece uma melhor experiência do usuário (logon silencioso) e uma melhor postura de segurança.
 
 O Microsoft Teams usa autenticação moderna para manter a experiência de inscrição simples e segura. Para ver como os usuários entram no Teams, leia [Entrar no Teams](https://support.office.com/article/sign-in-to-teams-ea4b1443-d11b-4791-8ae1-9977e7723055).
 
 ### <a name="how-modern-authentication-works"></a>Como funciona a autenticação moderna
 
-A autenticação moderna é um processo que permite. O Microsoft Teams sabe que os usuários já inseriram suas credenciais, como email comercial e senha em outro lugar, e não devem ser solicitados a inseri-las novamente para iniciar o aplicativo. A experiência varia dependendo de alguns fatores, como, por exemplo, se os usuários estão trabalhando no Windows ou em um Mac. Também irá variar dependendo se a sua organização habilitou a autenticação de fator único ou a autenticação de vários fatores. A autenticação multifator geralmente envolve a verificação de credenciais por meio de um telefone, fornecendo um código exclusivo, inserindo um PIN ou apresentando uma impressão digital. Este é um resumo de cada cenário de autenticação moderna.
+A autenticação moderna é um processo que permite que as Equipes saibam que os usuários já inseriram suas credenciais, como email de trabalho e senha em outro lugar, e não há necessidade de inseri-las novamente para iniciar o aplicativo. A experiência varia dependendo de alguns fatores, como, por exemplo, se os usuários estão trabalhando no Windows ou em um Mac. Também irá variar dependendo se a sua organização habilitou a autenticação de fator único ou a autenticação de vários fatores. A autenticação multifator geralmente envolve a verificação de credenciais por meio de um telefone, fornecendo um código exclusivo, inserindo um PIN ou apresentando uma impressão digital. Este é um resumo de cada cenário de autenticação moderna.
 
 A autenticação moderna está disponível para todas as organizações que usam Microsoft Teams. Se os usuários não conseguirem concluir o processo, pode haver um problema subjacente com a configuração do Azure Active Directory da sua organização. Para obter mais informações, confira [Por que estou tendo problemas para entrar no Microsoft Teams?](https://support.office.com/article/why-am-i-having-trouble-signing-in-to-microsoft-teams-a02f683b-61a3-4008-9447-ee60c5593b0f)
 
@@ -57,7 +58,7 @@ A autenticação moderna está disponível para todas as organizações que usam
 
 ### <a name="signing-out-of-teams-after-completing-modern-authentication"></a>Sair do Teams após concluir a autenticação moderna
 
-Para sair do Teams, os usuários podem clicar na imagem do perfil na parte superior do aplicativo e, em seguida, selecionar **Sair**. Eles também podem clicar com o botão direito do mouse no ícone do aplicativo na barra de tarefas e, em seguida, selecionar **Fazer logoff**. Depois de sair do Teams, eles precisam inserir suas credenciais novamente para iniciar o aplicativo.
+Para sair do Teams, os usuários podem selecionar a imagem do perfil na parte superior do aplicativo e, em seguida, selecionar **Sair**. Eles também podem clicar com o botão direito do mouse no ícone do aplicativo na barra de tarefas e, em seguida, selecionar **Fazer logoff**. Depois de sair do Teams, eles precisam inserir suas credenciais novamente para iniciar o aplicativo.
 
 ### <a name="signing-in-to-another-account-on-a-domain-joined-computer"></a>Login em outra conta em um computador Associado ao Domínio
 
@@ -118,10 +119,11 @@ Os aplicativos do Microsoft Teams no Windows e MacOS estão ganhando suporte par
 Quando esta política é configurada em um dispositivo, os usuários só podem entrar com contas hospedadas em um locatário do Azure Active Directory incluído na “Lista de Permissões de Locatário” definida na política. A política se aplica a todos os logins, incluindo contas iniciais e adicionais. Se sua organização abrange vários locatários do Azure Active Directory, você pode incluir várias IDs de Locatário na Lista de Permissões. Os links para adicionar outra conta podem continuar visíveis no aplicativo Microsoft Teams, mas não estarão operacionais.
 
 > [!NOTE]
->1. A política restringe apenas logins. Ele não restringe a capacidade de os usuários serem convidados como convidados em outros locatários do Azure Active Directory ou alternar para outros locatários.
->2. A política requer Microsoft Teams para Windows versão 1.3.00.30866 ou superior e Microsoft Teams para MacOS versão 1.3.00.30882 (lançado em meados de novembro de 2020).
+>1. A política restringe apenas logins. Ela não restringe a capacidade de os usuários serem convidados como visitantes em outros locatários do Azure Active Directory ou alternação para outros locatários.
+>2. A política requer o Microsoft Teams para Windows versão 1.3.00.30866 ou superior e Microsoft Teams para MacOS versão 1.3.00.30882 (lançado em meados de novembro de 2020).
 
-**Políticas para Windows** Você pode definir manualmente as chaves no Registro do Windows:
+**As políticas dos arquivos de modelo administrativo do Windows** (ADMX/ADML) estão disponíveis no [Centro de download](https://www.microsoft.com/download/details.aspx?id=49030). Além disso, você pode definir manualmente as chaves no Registro do Windows:
+
 - Nome do valor: RestrictTeamsSignInToAccountsFromTenantList
 - Tipo de Valor: Cadeia de Caracteres
 - Dados do Valor: ID do Locatário ou lista separada por vírgulas de IDs do Locatário
@@ -129,9 +131,7 @@ Quando esta política é configurada em um dispositivo, os usuários só podem e
 
  Computer\HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Cloud\Office\16.0\Teams Computer\HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\16.0\Teams Computer\HKEY_CURRENT_USER\SOFTWARE\Microsoft\Office\16.0\Teams
 
-Examplo: SOFTWARE\Policies\Microsoft\Office\16.0\Teams\RestrictTeamsSignInToAccountsFromTenantList = ID do Locatário ou SOFTWARE\Policies\Microsoft\Office\16.0\Teams\RestrictTeamsSignInToAccountsFromTenantList = ID do Locatário 1, ID do Locatário 2, ID do Locatário 3
-
-Atualizaremos este documento nos próximos dias com detalhes sobre o uso de arquivos de Modelo Administrativo (ADMX/ADML).
+Exemplo: SOFTWARE\Policies\Microsoft\Office\16.0\Teams\RestrictTeamsSignInToAccountsFromTenantList = ID do Locatário ou SOFTWARE\Policies\Microsoft\Office\16.0\Teams\RestrictTeamsSignInToAccountsFromTenantList = ID do Locatário 1, ID do Locatário 2, ID do Locatário 3
 
 **Políticas para MacOS** Para dispositivos gerenciados MacOS, use .plist para implantar restrições de login. O perfil de configuração é um arquivo .plist que consiste em entradas identificadas por uma chave (que denota o nome da preferência), seguida por um valor, que depende da natureza da preferência. Os valores podem ser simples (como um valor numérico) ou complexos, como uma lista aninhada de preferências.
 
