@@ -18,12 +18,12 @@ description: Obtenha mais informações sobre a prévia pública no Microsoft Te
 appliesto:
 - Microsoft Teams
 localization_priority: Priority
-ms.openlocfilehash: 0b0e6bb9c4082125b2dfbc1ab0dfb6e21edab2d6
-ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
+ms.openlocfilehash: 8e0efa04b67f2818581f710b14850ba9944e3b51
+ms.sourcegitcommit: 8a0eebde4c77b28c93f3fa4365f8917352182954
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49031607"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "49373457"
 ---
 # <a name="microsoft-teams-public-preview"></a>Visualização Pública do Microsoft Teams
 
@@ -34,7 +34,7 @@ A Pré-visualização Pública do Microsoft Teams oferece acesso antecipado aos 
 
 ## <a name="set-the-update-policy"></a>Definir a política de Atualização
 
- A visualização pública é habilitada para cada usuário, e a opção para ativar a visualização pública é controlada em uma política administrativa. As políticas de atualização são usadas para gerenciar o Teams e os usuários de visualização do Office que verão os recursos de pré-lançamento ou de pré-visualização no aplicativo do Teams. Você pode usar a política Global (padrão Org-wide) e personalizá-la, ou criar uma ou mais políticas personalizadas para seus usuários.
+ A visualização pública é habilitada para cada usuário, e a opção para ativar a visualização pública é controlada em uma política administrativa. As políticas de atualização são usadas para gerenciar o Teams e os usuários de visualização do Office que verão os recursos de pré-lançamento ou de pré-visualização no aplicativo do Teams. Você pode usar a política Global (padrão Org-wide) e personalizá-la, ou criar uma ou mais políticas personalizadas para seus usuários. A política precisa ser atribuída a usuários específicos, pois não se sobrepõe à política global.
 
 1. Entre no Centro de administração.
 2. Selecione **Teams**>**Atualizar políticas**.

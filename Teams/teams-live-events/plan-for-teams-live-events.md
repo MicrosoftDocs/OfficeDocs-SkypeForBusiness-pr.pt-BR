@@ -20,12 +20,12 @@ description: Neste artigo, você aprenderá sobre os fatores a serem considerado
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: e1be13bb3e92a7ccd927696061ba20d3e4513080
-ms.sourcegitcommit: 7966991c398cd80f6bd0bb21e57a6b2a97c09ea9
+ms.openlocfilehash: 45f7d629b53a8f20ed9fb072d5dc8812a680d0c4
+ms.sourcegitcommit: 25d14b501c0d62b8b77bbf03dac490f5bc1969bd
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/18/2020
-ms.locfileid: "49130582"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "49372245"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Planejar eventos ao vivo no Microsoft Teams
 
@@ -143,7 +143,7 @@ A tabela a seguir destaca os principais recursos oferecidos em eventos ao vivo e
 |Análise de opiniões do público – Votação ao vivo e sondagens  |&#x2714; (Microsoft Pulse) |&#x274C; |&#x274C; |
 
 <sup>1</sup> Os limites que são definidos podem ser alterados. Verifique [Limites e especificações do Teams](../limits-specifications-teams.md).<br/>
-<sup>2</sup> Você pode ter até 250 apresentadores e produtores em um evento ao vivo, mas apenas as últimas 10 pessoas que falaram são exibidas na lista.
+<sup>2</sup> Você pode ter até 100 apresentadores e produtores em um evento ao vivo, mas apenas as últimas 10 pessoas que falaram são exibidas na lista.
 
 ## <a name="regional-availability"></a>Disponibilidade regional
 
