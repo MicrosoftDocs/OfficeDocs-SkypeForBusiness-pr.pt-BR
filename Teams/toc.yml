@@ -250,7 +250,7 @@
               href: rooms/rooms-release-note.md
             - name: Preparar seu ambiente
               href: rooms/rooms-prep.md
-            - name: Requisitos
+            - name: Requirements
               href: rooms/requirements.md
             - name: Licenciamento online
               href: rooms/rooms-licensing.md
@@ -348,6 +348,8 @@
       href: /SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
     - name: Gerencie o quadro de comunicações no Teams
       href: manage-whiteboard.md
+    - name: Configurar o complemento do teams Meeting para o Google Workspace
+      href: add-gsuite-thru-aad.md
     - name: Audioconferência
       items:
         - name: Planejar sua implantação
@@ -967,7 +969,7 @@
       href: continue-journey.md
     - name: Desativação do Skype for Business Online
       href: skype-for-business-online-retirement.md
-    - name: Perguntas frequentes
+    - name: PERGUNTAS FREQÜENTES
       href: FAQ-journey.md
     - name: Biblioteca técnica
       items:
@@ -1098,7 +1100,7 @@
           items:
             - name: Gerenciar o aplicativo Shifts para sua organização no Teams
               href: expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md
-    - name: Teams para Serviços de Saúde
+    - name: Equipes para Serviços de Saúde
       items:
         - name: Começar com o Teams para organizações de saúde
           href: expand-teams-across-your-org/healthcare/teams-in-hc.md
@@ -1132,7 +1134,7 @@
               href: expand-teams-across-your-org/shifts-for-teams-landing-page.md
             - name: Gerenciar o aplicativo Turnos
               href: expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md
-    - name: Teams para o ensino
+    - name: Equipes para Educação
       href: expand-teams-across-your-org/teams-for-education-landing-page.md
       items:
         - name: Início rápido - Administradores do Teams for Education
@@ -1182,7 +1184,7 @@
           href: retail-teams-templates-in-the-admin-console.md
         - name: Introdução aos modelos de varejo do Teams
           href: get-started-with-retail-teams-templates.md
-    - name: Teams para o governo
+    - name: Equipes para o Governo
       href: expand-teams-across-your-org/teams-for-government-landing-page.md
       items:
         - name: Oferecer suporte aos trabalhadores remotos (WFH)
