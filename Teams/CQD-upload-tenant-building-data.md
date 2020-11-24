@@ -21,12 +21,12 @@ ms.custom:
 - Reporting
 - seo-marvel-apr2020
 description: Saiba como carregar locatários e compilar dados no painel de qualidade de chamada (CQD).
-ms.openlocfilehash: 50a059f78a2d719d5d9106a755dbcf6ac8044d1b
-ms.sourcegitcommit: ee217e1d7188842c7becd19387fd421b485c3575
+ms.openlocfilehash: 1ee722e63a8699e1447ffc0c2bc859a6a080d220
+ms.sourcegitcommit: bac9aa29074ef32387dc05b3918e87d4c38d195d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "48908690"
+ms.lasthandoff: 11/23/2020
+ms.locfileid: "49385628"
 ---
 # <a name="upload-tenant-and-building-data-in-call-quality-dashboard-cqd"></a>Carregar o locatário e compilar dados no painel de qualidade de chamada (CQD)
 
@@ -49,7 +49,7 @@ No painel relatórios de resumo do CQD, selecione **carregar dados do locatário
 
 4. Depois de selecionar um arquivo de dados, especifique **data de início** e, opcionalmente, especifique uma data de término.
 
-5. Depois de selecionar **data de início** , selecione **carregar** para carregar o arquivo para CQD. <br><br>Antes de o arquivo ser carregado, ele é validado. Se a validação falhar, uma mensagem de erro será exibida solicitando que você corrija o arquivo. A figura a seguir mostra um erro que ocorre quando o número de colunas no arquivo de dados está incorreto.
+5. Depois de selecionar **data de início**, selecione **carregar** para carregar o arquivo para CQD. <br><br>Antes de o arquivo ser carregado, ele é validado. Se a validação falhar, uma mensagem de erro será exibida solicitando que você corrija o arquivo. A figura a seguir mostra um erro que ocorre quando o número de colunas no arquivo de dados está incorreto.
 
    ![Exemplo de caixa de diálogo exibindo um erro de carregamento de dados de construção](media/qerguide-image-buildingdatauploaderror.png)
  
@@ -71,7 +71,7 @@ O primeiro tipo de arquivo de dados locatário no CQD é o arquivo de dados de *
 
 - Se uma coluna usa o tipo de dados de cadeia de caracteres, um campo de dados pode estar vazio, mas ainda deve ser separado por uma Tabulação ou vírgula. Um campo de dados vazio apenas atribui um valor de cadeia de caracteres vazia.
 
-- Deve haver 14 colunas para cada linha, cada coluna deve ter o tipo de dados apropriado, e as colunas devem estar na ordem listada na tabela a seguir (vírgula ou delimitada por tabulação):
+- Deve haver 15 colunas para cada linha, cada coluna deve ter o tipo de dados apropriado, e as colunas devem estar na ordem listada na tabela a seguir (vírgula ou delimitada por tabulação):
 
   **Criando um formato de arquivo de dados**
   

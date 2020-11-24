@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bb045a6bf6a950e1b3d822a0e3b8a9389affbf64
-ms.sourcegitcommit: 7387d631cf895992906a46d3b7576a2ac76f5b4d
+ms.openlocfilehash: 2d391a72cf7b73942f9e596fe71c23f14b9bd0a6
+ms.sourcegitcommit: bac9aa29074ef32387dc05b3918e87d4c38d195d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/20/2020
-ms.locfileid: "49366910"
+ms.lasthandoff: 11/23/2020
+ms.locfileid: "49385618"
 ---
 # <a name="use-onedrive-for-business-and-sharepoint-or-stream-for-meeting-recordings"></a>Usar o OneDrive for Business e o SharePoint ou o Stream para gravações de reunião
 
