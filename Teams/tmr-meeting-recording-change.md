@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2d391a72cf7b73942f9e596fe71c23f14b9bd0a6
-ms.sourcegitcommit: bac9aa29074ef32387dc05b3918e87d4c38d195d
+ms.openlocfilehash: 62ba371156ff2ae40949df01f433d22bf0e8cf0b
+ms.sourcegitcommit: 207e6aa97867e3fd80734cc839c0c5858bca24c8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/23/2020
-ms.locfileid: "49385618"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "49477040"
 ---
 # <a name="use-onedrive-for-business-and-sharepoint-or-stream-for-meeting-recordings"></a>Usar o OneDrive for Business e o SharePoint ou o Stream para gravações de reunião
 
@@ -94,11 +94,14 @@ A opção de gravação da reunião é uma configuração no nível da política
    Import-PSSession $sfbSession
    ```
 
-4. Use [set-csteamsmeetingpolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps&preserve-view=true) para definir uma política de reunião do teams para fazer a transição do armazenamento de fluxo para o onedrive for Business e o SharePoint.
+4. Use [set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy) para definir uma política de reunião do teams para fazer a transição do armazenamento de fluxo para o onedrive for Business e o SharePoint.
 
    ```powershell
    Set-CsTeamsMeetingPolicy -Identity Global -RecordingStorageMode "OneDriveForBusiness"
    ```
+   
+> [!Note]
+> Se alguns de seus usuários tiverem atribuído uma política por organização ou por usuário, você deverá definir essa configuração nessa política se quiser que elas também armazenem as gravações de reunião no OneDrive for Business e no SharePoint. Para obter mais informações, consulte [gerenciar políticas de reunião no Microsoft Teams](meeting-policies-in-teams.md).
 
 ## <a name="opt-out-of-onedrive-for-business-and-sharepoint-to-continue-using-stream"></a>Recusar o OneDrive for Business e o SharePoint para continuar usando o Stream
 

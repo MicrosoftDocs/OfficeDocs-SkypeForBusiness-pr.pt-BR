@@ -16,16 +16,24 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Notas de versão para recursos de administração do Microsoft Teams.
-ms.openlocfilehash: ff1fb34e627b7a422249cfb5d22fbd90c6a8940e
-ms.sourcegitcommit: 532205e5a3c28b44b86cd4d1376ebee9590b8266
+ms.openlocfilehash: eb450d89df9ecf13f262c91db6fde8514448a29b
+ms.sourcegitcommit: 207e6aa97867e3fd80734cc839c0c5858bca24c8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "48816101"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "49477030"
 ---
 # <a name="release-notes-for-microsoft-teams-admin-features"></a>Notas de versão para recursos de administração do Microsoft Teams
 
 Estas notas de versão fornecem informações sobre novos recursos de administração do Microsoft Teams.
+
+## <a name="november-25-2020"></a>25 de novembro de 2020
+
+### <a name="set-up-microsoft-teams-meeting-add-on-for-google-workspace"></a>Configurar o complemento de reunião do Microsoft Teams para o Google Workspace
+
+Usar o complemento de reunião do Microsoft Teams permite aos usuários do calendário do Google agendar e ingressar em uma reunião do Microsoft Teams diretamente do Google Workspace. Os usuários receberão acesso a recursos de reuniões de equipes, incluindo videoconferência e videoconferência, compartilhamento de tela, chat de reunião, quadros de comunicações digitais e muito mais. Mantenha-se conectado e organizado para se reunir mais juntos no trabalho, na escola e na vida.
+
+O suplemento de reunião do Microsoft Teams para Google Workspace deve ser habilitado por um administrador de equipe antes que os usuários do locatário possam acessar o aplicativo. [Saiba mais](https://docs.microsoft.com/microsoftteams/add-gsuite-thru-aad).
 
 ## <a name="october-28-2020"></a>28 de outubro de 2020
 
@@ -55,7 +63,7 @@ Você pode gerenciar as configurações do Skype for Business para usuários do 
 
 ### <a name="manage-skype-for-business-settings-for-your-organization"></a>Gerenciar as configurações do Skype for Business para sua organização
 
-Você pode gerenciar os recursos do Skype for Business para usuários do Skype for Business em sua organização no centro de administração do Microsoft Teams. Acesse **as configurações de toda a organização**  >  **Skype for Business** . A partir daqui, você pode gerenciar a transmissão de reunião do Skype, a presença e as notificações de celular. [Saiba mais](https://docs.microsoft.com/MicrosoftTeams/skype-for-business-settings).
+Você pode gerenciar os recursos do Skype for Business para usuários do Skype for Business em sua organização no centro de administração do Microsoft Teams. Acesse **as configurações de toda a organização**  >  **Skype for Business**. A partir daqui, você pode gerenciar a transmissão de reunião do Skype, a presença e as notificações de celular. [Saiba mais](https://docs.microsoft.com/MicrosoftTeams/skype-for-business-settings).
 
 ## <a name="october-16-2020"></a>16 de outubro de 2020
 
@@ -67,7 +75,7 @@ Como administrador, você pode configurar o Microsoft Teams para mostrar um conj
 
 ### <a name="custom-policy-packages"></a>Pacotes de política personalizados
 
-*Este recurso está em visualização particular*
+*Este recurso está na visualização particular*
 
 Os pacotes de política personalizados permitem que você reúna seu próprio conjunto de políticas para usuários com funções semelhantes na organização. Crie seus próprios pacotes de política adicionando os tipos de política e políticas de que você precisa. [Saiba mais](https://docs.microsoft.com/MicrosoftTeams/manage-policy-packages#custom-policy-packages).
 
@@ -373,7 +381,7 @@ O cliente do Microsoft Teams para RealWear permite que os funcionários de prime
 
 ### <a name="tag-youre-it"></a>, Você é
 
-Crie marcas e atribua pessoas a elas para que você possa @mention um grupo, função, departamento etc. Proprietários da equipe, experimente para vocês. Vá para uma equipe, selecione **mais opções**  >  **gerenciar marcas** . [Saiba mais](../manage-tags.md).
+Crie marcas e atribua pessoas a elas para que você possa @mention um grupo, função, departamento etc. Proprietários da equipe, experimente para vocês. Vá para uma equipe, selecione **mais opções**  >  **gerenciar marcas**. [Saiba mais](../manage-tags.md).
 
 ## <a name="march-30-2020"></a>30 de março de 2020
 
