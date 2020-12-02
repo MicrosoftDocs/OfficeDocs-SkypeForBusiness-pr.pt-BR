@@ -22,16 +22,16 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Saiba como configurar e testar atendedores automáticos do Microsoft Teams.
-ms.openlocfilehash: 1d19483fe458c38d01a9c46c982101eeab6546c2
-ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
+ms.openlocfilehash: 203a05e19ffce4154c123cbb700ca59e0b75a63a
+ms.sourcegitcommit: 660d0d65892408d0bb4ac1a870c88b11a7c6841e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49033008"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "49530584"
 ---
 # <a name="set-up-an-auto-attendant"></a>Configurar um atendedor automático
 
-Os atendedores automáticos permitem que as pessoas liguem para sua organização e naveguem em um sistema de menus para falar com o departamento certo, a fila de chamadas, a pessoa ou um operador. Você pode criar atendedores automáticos para sua organização com o centro de administração do Microsoft Teams ou com o PowerShell. 
+Os atendedores automáticos permitem que as pessoas liguem para sua organização e naveguem em um sistema de menus para falar com o departamento certo, a fila de chamadas, a pessoa ou um operador. Você pode criar atendedores automáticos para sua organização com o centro de administração do Microsoft Teams ou com o PowerShell.
 
 Verifique se você leu o [plano de atendedores automáticos e filas de chamadas do teams](plan-auto-attendant-call-queue.md) e seguiu as [etapas de introdução](plan-auto-attendant-call-queue.md#getting-started) antes de seguir os procedimentos deste artigo.
 
@@ -45,7 +45,7 @@ Os atendedores automáticos podem direcionar chamadas com base nas entradas dos 
 
 Você será solicitado a escolher uma dessas opções em diversos estágios à medida que configurar um atendedor automático.
 
-Para configurar um atendedor automático, no centro de administração do Teams, expanda **voz** , clique em **atendedores automáticos** e, em seguida, clique em **Adicionar**.
+Para configurar um atendedor automático, no centro de administração do Teams, expanda **voz**, clique em **atendedores automáticos** e, em seguida, clique em **Adicionar**.
 
 ## <a name="general-info"></a>Informações gerais
 
@@ -77,11 +77,11 @@ Se você selecionar **digitar uma mensagem de saudação** , o sistema lerá o t
 
 Escolha como você deseja direcionar a chamada.
 
-Se você selecionar **Desconectar** , o atendedor automático irá desligar a chamada.
+Se você selecionar **Desconectar**, o atendedor automático irá desligar a chamada.
 
-Se você selecionar **redirecionar chamada** , poderá escolher um dos destinos de roteamento de chamadas.
+Se você selecionar **redirecionar chamada**, poderá escolher um dos destinos de roteamento de chamadas.
 
-Se você selecionar **Opções do menu reproduzir** , poderá optar por **reproduzir um arquivo de áudio** ou **digitar uma mensagem de saudação** e escolher entre as opções do menu e a pesquisa de diretório.
+Se você selecionar **Opções do menu reproduzir**, poderá optar por **reproduzir um arquivo de áudio** ou **digitar uma mensagem de saudação** e escolher entre as opções do menu e a pesquisa de diretório.
 
 ### <a name="menu-options"></a>Opções do menu
 
@@ -91,7 +91,7 @@ Para opções de discagem, você pode atribuir as chaves 0-9 no teclado de telef
 
 Os mapeamentos de chave não precisam ser contínuos. É possível, por exemplo, criar um menu com as teclas 0, 1 e 3 mapeadas para as opções, enquanto que a 2 chave não seja usada.
 
-Recomendamos mapear a chave 0 para a operadora se você tiver configurado uma. Se o operador não estiver definido como qualquer chave, o comando de voz "operador" também será desabilitado. 
+Recomendamos mapear a chave 0 para a operadora se você tiver configurado uma. Se o operador não estiver definido como qualquer chave, o comando de voz "operador" também será desabilitado.
 
 Para cada opção de menu, especifique o seguinte:
 
@@ -109,7 +109,7 @@ Se você não atribuiu teclas de discagem, selecione uma opção para **pesquisa
 
 **Discar por nome** -se você habilitar essa opção, os chamadores poderão dizer o nome do usuário ou digitá-lo no teclado do telefone. Qualquer usuário online com uma licença de sistema telefônico ou qualquer usuário hospedado no local usando o Skype for Business Server é um usuário elegível e pode ser encontrado com o nome discado. (Você pode definir quem é e não está incluído no diretório na página de [escopo de discagem](#dial-scope) ).
 
-**Discar por extensão** -se você habilitar essa opção, os chamadores poderão se conectar aos usuários na sua organização discando a extensão do telefone. Qualquer usuário online com uma licença do sistema telefônico ou qualquer usuário hospedado no local usando o Skype for Business Server é um usuário elegível e pode ser encontrado com a **extensão dial** -to. (Você pode definir quem é e não está incluído no diretório na página de [escopo de discagem](#dial-scope) ).
+**Discar por extensão** -se você habilitar essa opção, os chamadores poderão se conectar aos usuários na sua organização discando a extensão do telefone. Qualquer usuário online com uma licença do sistema telefônico ou qualquer usuário hospedado no local usando o Skype for Business Server é um usuário elegível e pode ser encontrado com a **extensão dial**-to. (Você pode definir quem é e não está incluído no diretório na página de [escopo de discagem](#dial-scope) ).
 
 Os usuários que você deseja disponibilizar por ramal devem ter uma extensão especificada como parte de um dos seguintes atributos de telefone definidos no Active Directory ou Active Directory do Azure (consulte [Adicionar usuários individualmente ou em massa](https://docs.microsoft.com/microsoft-365/admin/add-users/add-users) para obter mais informações.)
 
@@ -119,7 +119,8 @@ Os usuários que você deseja disponibilizar por ramal devem ter uma extensão e
 - TelephoneNumber/intervalo
 - OtherTelephone
 
-O formato obrigatório para inserir a extensão no campo de número de telefone do usuário é *+ \<phone number> \<extension> ext* . ou *+ \<phone number> x \<extension>*.
+O formato obrigatório para inserir a extensão no campo de número de telefone do usuário é *+ \<phone number> : ext \<extension> =* ou *+ \<phone number> ; \<extension> x*.
+Exemplo: Set-MsolUser-UserPrincipalName usern@domain.com-intervalo "+ 15555555678; ext = 5678".
 
 Você pode definir a extensão no [centro de administração do Microsoft 365](https://admin.microsoft.com/) ou no [centro de administração do Azure Active Directory](https://aad.portal.azure.com). Pode levar até 12 horas antes que as alterações sejam disponibilizadas para atendedores automáticos e filas de chamadas.
 
@@ -234,7 +235,6 @@ Você também pode usar o PowerShell para criar e configurar atendedores automá
 - [Import-CsAutoAttendantHolidays](https://docs.microsoft.com/powershell/module/skype/import-csautoattendantholidays)
 - [New-CsAutoAttendantCallableEntity](https://docs.microsoft.com/powershell/module/skype/New-CsAutoAttendantCallableEntity)
 
-
 ## <a name="related-topics"></a>Tópicos relacionados
 
 [Veja o que você obtém com o Sistema de Telefonia](/MicrosoftTeams/here-s-what-you-get-with-phone-system)
@@ -243,6 +243,6 @@ Você também pode usar o PowerShell para criar e configurar atendedores automá
 
 [Disponibilidade de audioconferência e Planos de Chamadas por país e região](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)
 
-[Exemplo de pequena empresa – configurar um atendedor automático](/microsoftteams/tutorial-org-aa) 
+[Exemplo de pequena empresa – configurar um atendedor automático](/microsoftteams/tutorial-org-aa)
 
 [Uma introdução ao Windows PowerShell e ao Skype for Business Online](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)

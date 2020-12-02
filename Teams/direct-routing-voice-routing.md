@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: Saiba como configurar o roteamento de voz com o roteamento direto do sistema de telefonia da Microsoft.
-ms.openlocfilehash: 37343ad177e3408f94103296509e4b9bfc8ea759
-ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
+ms.openlocfilehash: e87d7d04f9b2477d65e08f461ac3ff113b4d0e7c
+ms.sourcegitcommit: d85425d9e6022d1bf84b877920640f9cbaf8bdce
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "47359407"
+ms.lasthandoff: 12/02/2020
+ms.locfileid: "49530988"
 ---
 # <a name="configure-voice-routing-for-direct-routing"></a>Configurar o roteamento de voz para roteamento direto
 
@@ -70,7 +70,7 @@ O diagrama a seguir mostra dois exemplos de políticas de roteamento de voz em u
 
 ![Mostra exemplos de política de roteamento de voz](media/ConfigDirectRouting-VoiceRoutingPolicyExamples.png)
 
-Nos dois exemplos, enquanto a rota de voz é atribuída às prioridades, o SBCs nos roteiros é tentado em ordem aleatória.
+Nos dois exemplos, enquanto a rota de voz é atribuída às prioridades, o SBCs nos roteiros é tentado em ordem aleatória. Quando dois SBC são configurados em uma rota, o tráfego de rede deve ser roteável entre os dois SBCs ou a mídia não será estabelecida nas transferências, pois é possível que o novo convite para a transferência seja enviado para um SBC diferente na rota.
 
   > [!NOTE]
   > A menos que o usuário também tenha uma licença do plano de chamadas da Microsoft, as chamadas para qualquer número, exceto números que correspondam aos padrões + 1 425 XXX XX XX ou + 1 206 XXX XX XX no exemplo de configuração são descartados. Se o usuário tiver uma licença de plano de chamada, a chamada será roteada automaticamente de acordo com as políticas do plano de chamadas da Microsoft. O plano de chamadas da Microsoft aplica-se automaticamente como a última rota para todos os usuários com a licença do plano de chamadas da Microsoft e não requer configuração de roteamento de chamadas adicional.
@@ -109,15 +109,15 @@ Você pode usar o [centro de administração do Microsoft Teams](#admincenterexa
 
 #### <a name="step-1-create-the-us-and-canada-pstn-usage"></a>Etapa 1: criar o uso da PSTN "EUA e Canadá"
 
-1. Na navegação à esquerda do centro de administração do Microsoft Teams, **Voice**vá para  >  **Roteamento direto**de voz e, em seguida, no canto superior direito, selecione **gerenciar registros de uso PSTN**.
-2. Clique em **Adicionar**, digite **EUA e Canadá**e, em seguida, clique em **aplicar**.
+1. Na navegação à esquerda do centro de administração do Microsoft Teams, **Voice** vá para  >  **Roteamento direto** de voz e, em seguida, no canto superior direito, selecione **gerenciar registros de uso PSTN**.
+2. Clique em **Adicionar**, digite **EUA e Canadá** e, em seguida, clique em **aplicar**.
 
 #### <a name="step-2-create-three-voice-routes-redmond-1-redmond-2-and-other-1"></a>Etapa 2: criar três rotas de voz (Redmond, 1, Redmond 2 e outros + 1)
 
 As etapas a seguir descrevem como criar uma rota de voz. Use estas etapas para criar as três rotas de voz chamadas Redmond 1, Redmond 2 e outros + 1 para este exemplo usando as configurações descritas na tabela anterior.
 
-1. Na navegação à esquerda do centro de administração do Microsoft Teams, **Voice**vá para  >  **Roteamento direto**de voz e selecione a guia **rotas de voz** .
-2. Clique em **Adicionar**e, em seguida, insira um nome e uma descrição para a rota de voz.
+1. Na navegação à esquerda do centro de administração do Microsoft Teams, **Voice** vá para  >  **Roteamento direto** de voz e selecione a guia **rotas de voz** .
+2. Clique em **Adicionar** e, em seguida, insira um nome e uma descrição para a rota de voz.
 3. Defina a prioridade e especifique o padrão de número discado.
 4. Para registrar um SBC com a rota de voz, em **SBCS registrado (opcional)**, clique em **Adicionar SBCS**, selecione o SBCS que você deseja registrar e clique em **aplicar**.
 5. Para adicionar registros de uso de PSTN, em **registros de uso PSTN (opcional)**, clique em **Adicionar uso de PSTN**, selecione os registros PSTN que você deseja adicionar e clique em **aplicar**.
@@ -125,7 +125,7 @@ As etapas a seguir descrevem como criar uma rota de voz. Use estas etapas para c
 
 #### <a name="step-3-create-a-voice-routing-policy-named-us-only-and-add-the-us-and-canada-pstn-usage-to-the-policy"></a>Etapa 3: criar uma política de roteamento de voz chamada "apenas EUA" e adicionar o uso da PSTN "EUA e Canadá" à política
 
-1. Na navegação à esquerda do centro de administração do Microsoft Teams, vá para políticas de roteamento de voz de **voz**  >  **Voice routing policies**e clique em **Adicionar**.
+1. Na navegação à esquerda do centro de administração do Microsoft Teams, vá para políticas de roteamento de voz de **voz**  >  **Voice routing policies** e clique em **Adicionar**.
 2. Digite **-nos apenas** como o nome e adicione uma descrição.
 3. Em **registros de uso de PSTN**, clique em **Adicionar uso de PSTN**, selecione o registro de uso PSTN "EUA e Canadá" e clique em **aplicar**.
 4. Clique em **Salvar**.
@@ -135,7 +135,7 @@ Para saber mais, consulte [gerenciar políticas de roteamento de voz](manage-voi
 #### <a name="step-4-assign-the-voice-routing-policy-to-a-user-named-spencer-low"></a>Etapa 4: atribuir a política de roteamento de voz a um usuário chamado Spencer-baixo
 
 1. Na barra de navegação à esquerda do centro de administração do Microsoft Teams, vá para **Usuários** e clique no usuário.
-2. Clique em **políticas**e, em seguida, ao lado de **políticas atribuídas**, clique em **Editar**.
+2. Clique em **políticas** e, em seguida, ao lado de **políticas atribuídas**, clique em **Editar**.
 3. Em **política de roteamento de voz**, selecione a política "somente EUA" e, em seguida, clique em **salvar**.
 
 Para saber mais, consulte [gerenciar políticas de roteamento de voz](manage-voice-routing-policies.md).
@@ -342,12 +342,12 @@ Você pode usar o [centro de administração do Microsoft Teams](#admincenterexa
 
 #### <a name="step-1-create-the-international-pstn-usage"></a>Etapa 1: criar o uso de PSTN "internacional"
 
-1. Na navegação à esquerda do centro de administração do Microsoft Teams, **Voice**vá para  >  **Roteamento direto**de voz e, em seguida, no canto superior direito, selecione **gerenciar registros de uso PSTN**.
-2. Clique em **Adicionar**, digite **internacional**e, em seguida, clique em **aplicar**.
+1. Na navegação à esquerda do centro de administração do Microsoft Teams, **Voice** vá para  >  **Roteamento direto** de voz e, em seguida, no canto superior direito, selecione **gerenciar registros de uso PSTN**.
+2. Clique em **Adicionar**, digite **internacional** e, em seguida, clique em **aplicar**.
 
 #### <a name="step-2-create-the-international-voice-route"></a>Etapa 2: criar a rota de voz "internacional"
 
-1. Na navegação à esquerda do centro de administração do Microsoft Teams, **Voice**vá para  >  **Roteamento direto**de voz e selecione a guia **rotas de voz** .
+1. Na navegação à esquerda do centro de administração do Microsoft Teams, **Voice** vá para  >  **Roteamento direto** de voz e selecione a guia **rotas de voz** .
 2. Clique em **Adicionar**, digite "internacional" como o nome e, em seguida, adicione a descrição.
 3. Defina a prioridade como 4 e, em seguida, defina o padrão de número discado como \d +.
 4. Em **SBCS registrado (opcional)**, clique em **Adicionar SBCs**, selecione sbc2.contoso.biz e sbc5.contoso.biz e, em seguida, clique em **aplicar**.
@@ -358,7 +358,7 @@ Você pode usar o [centro de administração do Microsoft Teams](#admincenterexa
 
 O uso de PSTN "EUA e Canadá" é reutilizado nesta política de roteamento de voz para preservar a manipulação especial de chamadas para número "+ 1 425 XXX XX XX XX" e "+ 1 206 XXX XX XX" como chamadas locais ou locais.
 
-1. Na navegação à esquerda do centro de administração do Microsoft Teams, vá para políticas de roteamento de voz de **voz**  >  **Voice routing policies**e clique em **Adicionar**.
+1. Na navegação à esquerda do centro de administração do Microsoft Teams, vá para políticas de roteamento de voz de **voz**  >  **Voice routing policies** e clique em **Adicionar**.
 2. Digite **nenhuma restrição** como o nome e adicione uma descrição.
 3. Em **registros de uso de PSTN**, clique em **Adicionar uso PSTN**, selecione o registro de uso PSTN "EUA e Canadá" e, em seguida, selecione o registro de uso PSTN "internacional". Clique em **Aplicar**.
 
@@ -375,7 +375,7 @@ Para saber mais, consulte [gerenciar políticas de roteamento de voz](manage-voi
 #### <a name="step-4-assign-the-voice-routing-policy-to-a-user-named-john-woods"></a>Etapa 4: atribuir a política de roteamento de voz a um usuário chamado John Woods
 
 1. Na barra de navegação à esquerda do centro de administração do Microsoft Teams, vá para **Usuários** e clique no usuário.
-2. Clique em **políticas**e, em seguida, ao lado de **políticas atribuídas**, clique em **Editar**.
+2. Clique em **políticas** e, em seguida, ao lado de **políticas atribuídas**, clique em **Editar**.
 3. Em **política de roteamento de voz**, selecione a política "sem restrições" e clique em **salvar**.
 
 O resultado é que a política de voz aplicada a chamadas de John Woods é irrestrita e seguirá a lógica de roteamento de chamadas disponível para chamadas para os EUA, Canadá e internacional.
