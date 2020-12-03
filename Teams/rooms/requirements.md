@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 description: Saiba mais sobre os requisitos de suporte a salas do Microsoft Teams, incluindo a escolha do dispositivo apropriado, microfones, alto-falantes, câmeras e monitores.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a77558feb7ffaeb330750c60e0f47e619823726a
-ms.sourcegitcommit: 0a9c5c01b37a93eecc369ca0ed49ae18f6a5065b
+ms.openlocfilehash: 2656e1b2b6b89c390ff292276d6d897be79242d3
+ms.sourcegitcommit: e285f55a7e9563a2ab764d44805513d7bf1a3851
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/22/2020
-ms.locfileid: "48655468"
+ms.lasthandoff: 12/02/2020
+ms.locfileid: "49557955"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Requisitos das Salas Microsoft Teams
 
@@ -45,7 +45,7 @@ Além disso, confira:
 ## <a name="hardware-requirements"></a>Requisitos de hardware
 Uma implantação de hardware inclui uma seleção de um sistema de Sala do Microsoft Teams, combinada com periféricos de áudio e vídeo certificados e uma solução de cabeamento para integrar esses dispositivos.  Essas opções estão descritas aqui.
 
-**Sistemas compatíveis com a Sala do Microsoft Teams **
+**Sistemas compatíveis com a Sala do Microsoft Teams**
 
 Todos os pacotes e dispositivos da Sala do Microsoft Teams estão disponíveis em [Mostra de produtos dos Sistemas de Sala](https://products.office.com/microsoft-teams/across-devices/devices/category?devicetype=20&page=1&filterIds=).
 
@@ -103,6 +103,7 @@ Esses dispositivos estão disponíveis na [Mostruário de produtos de acessório
 
 |Periférico das Salas do Microsoft Teams|Versão de firmware certificado | A câmera compatível com o uso da câmera de conteúdo|
 |:--- |:--- | :--- |
+|[Câmera aver VC520 pro + viva-voz](https://www.averusa.com/products/conference-camera/vc520pro) |1004,35|
 |[Aver VB342 + câmera de som da câmera](https://www.averusa.com/products/conference-camera/vb342plus) | Som de som: 0.0.0000.97|
 |[Aver CAM 540](https://www.averusa.com/products/conference-camera/cam540) |0.0.6002.83 |
 |[Aver CAM 520 pro](https://www.averusa.com/products/conference-camera/cam520pro) |0.0.1000.73 |

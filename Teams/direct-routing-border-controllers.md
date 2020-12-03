@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: O administrador pode saber qual controlador de borda de sessão (SBCs) foi certificado para roteamento direto.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: c092df13f2bde66286f9971ff9969e10cc198271
-ms.sourcegitcommit: 7966991c398cd80f6bd0bb21e57a6b2a97c09ea9
+ms.openlocfilehash: 1637d71269cdacc4e48de98f210a4c6ce4c56c13
+ms.sourcegitcommit: 3eb5820b279fc904f34ac4259deeb419e02d832a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/18/2020
-ms.locfileid: "49130442"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "49561037"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>Lista de controladores de borda da sessão certificados para Roteamento Direto
 
@@ -38,7 +38,7 @@ O Microsoft funciona com cada fornecedor para:
 
 
   > [!NOTE]
-  > A Microsoft só oferece suporte ao sistema telefônico se um dispositivo ou dispositivos certificados estiverem conectados por meio de roteamento direto. A Microsoft se reserva o direito de rejeitar casos de suporte em que um dispositivo não certificado está conectado ao sistema telefônico por meio de roteamento direto. 
+  > A Microsoft só oferece suporte ao sistema telefônico se um dispositivo ou dispositivos certificados estiverem conectados por meio de roteamento direto. A Microsoft se reserva o direito de rejeitar casos de suporte em que um dispositivo não certificado está conectado ao sistema telefônico por meio de roteamento direto. Se a Microsoft determinar que o problema de roteamento direto do cliente é com o dispositivo SBC de um fornecedor, o cliente precisará envolver o fornecedor de SBC para obter suporte.
 
 A tabela a seguir lista os dispositivos certificados para Roteamento Direto. (Para obter informações sobre quais fornecedores do SBC dão suporte à otimização de mídia local, consulte [Configurar a otimização de mídia local para roteamento direto](direct-routing-media-optimization-configure.md).)
 
