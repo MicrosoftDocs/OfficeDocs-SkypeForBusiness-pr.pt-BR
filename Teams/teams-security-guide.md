@@ -8,7 +8,7 @@ ms.topic: reference
 ms.service: msteams
 audience: admin
 ms.reviewer: pawa
-description: Conselhos e informações de segurança para ITAdmins na instalação, configuração e manutenção do Microsoft Teams.
+description: Aconselhamento e aprendizagem de segurança para administradores de TI na instalação, configuração e manutenção do Microsoft Teams.
 localization_priority: Priority
 search.appverid: MET150
 f1.keywords:
@@ -20,12 +20,12 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: aebd85f7f2cc8234edce285a23c011f82914af8b
-ms.sourcegitcommit: 8a345ca9a8ddc6a84f9e270ab55f1b28f6ba49c8
+ms.openlocfilehash: a62952378debd0c2345533688dd8d84d171f0863
+ms.sourcegitcommit: d85425d9e6022d1bf84b877920640f9cbaf8bdce
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48486796"
+ms.lasthandoff: 12/02/2020
+ms.locfileid: "49530968"
 ---
 # <a name="security-and-microsoft-teams"></a>Segurança e Microsoft Teams
 
@@ -40,9 +40,9 @@ O Teams foi projetado e desenvolvido em conformidade com Microsoft Trustworthy C
 
 ## <a name="trustworthy-by-default"></a>Confiável por padrão
 
-As comunicações de rede no Teams são criptografadas por padrão. Ao exigir que todos os servidores usem certificados e ao usar OAUTH, TLS, SRTP (Secure Real-Time Transport Protocol), e outras técnicas de criptografia padrão do setor, incluindo a criptografia AES de 256 bits, todos os dados do Teams estão protegidos na rede.
+As comunicações de rede no Teams são criptografadas por padrão. Ao exigir que todos os servidores usem certificados e usando OAUTH, TLS, Protocolo RTP Seguro (SRTP), todos os dados do Teams são protegidos na rede.
 
-## <a name="how-teams-handles-common-security-threats"></a>Como o Teams lida com ameaças comuns de segurança
+## <a name="how-teams-handles-common-security-threats"></a>Como o Teams Lida com Ameaças Comuns de Segurança
 
 Esta seção identifica as ameaças mais comuns à segurança do serviço do Teams e aborda como a Microsoft atenua cada ameaça.
 
@@ -136,11 +136,11 @@ O Teams utiliza o TLS e MTLS para criptografar mensagens instantâneas. Todo o t
 
 Esta tabela resume os protocolos usados pelo Teams.
 
-***Criptografia de tráfego***
+***Criptografia de Tráfego** _
 
 |||
 |:-----|:-----|
-|**Tipo de tráfego**|**Criptografado por**|
+|_ *Tipo de tráfego**|**Criptografado por**|
 |Servidor para Servidor|MTLS|
 |Cliente para servidor (por exemplo, Mensagens instantâneas e presença)|TLS|
 |Fluxos de mídia (por exemplo, Compartilhamento de mídia de áudio e vídeo)|TLS|
@@ -256,8 +256,8 @@ Um apresentador também pode promover um participante ao papel de apresentador d
 
 Os participantes da reunião também são categorizados por local e por credenciais. Você pode usar essas duas características para decidir quais usuários podem ter acesso a reuniões específicas. Os usuários podem ser divididos amplamente nas categorias a seguir:
 
-1. **Usuários que não pertencem ao locatário**esses usuários têm credenciais no Active Directory do Azure para o locatário.
-    a. *Pessoas na minha organização*esses usuários têm credenciais no Active Directory do Azure para o locatário. *Pessoas na minha organização* – incluem contas de convidado.
+1. **Usuários que não pertencem ao locatário** esses usuários têm credenciais no Active Directory do Azure para o locatário.
+    a. *Pessoas na minha organização* esses usuários têm credenciais no Active Directory do Azure para o locatário. *Pessoas na minha organização* – incluem contas de convidado.
     b. *Usuários remotos* – esses usuários estão ingressando de fora da rede corporativa. Podem ser funcionários que estão trabalhando em casa ou em trânsito, entre outros, como funcionários de fornecedores confiáveis que receberam credenciais corporativas em seus termos de serviço. Usuários remotos podem criar e ingressar em reuniões e atuar como apresentadores.
 .
 2. **Usuários que não pertencem ao locatário** esses usuários não têm credenciais no AD do Azure para o locatário.
@@ -303,8 +303,8 @@ Os organizadores da reunião controlam se os participantes podem fazer apresenta
 
 [Gerenciar configurações de reunião no Microsoft Teams](https://docs.microsoft.com/microsoftteams/meeting-settings-in-teams)
 
-[Otimize a conectividade do Microsoft 365 ou do Office 365 para usuários remotos usando o tunelamento dividido da VPN](https://docs.microsoft.com/Office365/Enterprise/office-365-vpn-split-tunnel)
+[Otimize a conectividade do Microsoft 365 ou do Office 365 dos usuários remotos usando o túnel dividido da VPN](https://docs.microsoft.com/Office365/Enterprise/office-365-vpn-split-tunnel)
 
-- [Implementando o tunelamento dividido de VPN](https://docs.microsoft.com/Office365/Enterprise/office-365-vpn-implement-split-tunnel)
+- [Implementando o túnel dividido de VPN](https://docs.microsoft.com/Office365/Enterprise/office-365-vpn-implement-split-tunnel)
 
 [Gravações de reunião no Teams, onde as gravações são armazenadas e quem pode acessá-las](https://docs.microsoft.com/microsoftteams/tmr-meeting-recording-change)
