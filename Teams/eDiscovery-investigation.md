@@ -17,12 +17,12 @@ description: Saiba o que fazer quando você precisar executar uma descoberta ele
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 4679d8ed59ab8eec0fb856961f646d1f20049ff3
-ms.sourcegitcommit: 34f407a6a40317056005e3bf38ce58f792c04810
+ms.openlocfilehash: 53f3f1f3d8146b06b69a70dbbf7c00bdb979c43c
+ms.sourcegitcommit: b6aeaa3d98c29bdc120db8ccfcb7ff2c11d246af
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "46814107"
+ms.lasthandoff: 12/04/2020
+ms.locfileid: "49570820"
 ---
 # <a name="conduct-an-ediscovery-investigation-of-content-in-microsoft-teams"></a>Conduzir uma investigação de Descoberta Eletrônica de conteúdo no Microsoft Teams
 
@@ -65,13 +65,15 @@ Nem todo o conteúdo do teams é eDiscoverable. A tabela a seguir mostra os tipo
 
 A imagem mostra um exemplo dos metadados.
 
-![Image é da CVR registros da reunião.](media/conversationOption3.png)
+> [!div class="mx-imgBorder"]
+> ![Image é da CVR registros da reunião.](media/conversationOption3.png)
 
 Aqui está um exemplo de conversa de mensagem instantânea entre participantes durante a reunião.
 
-![A imagem é de uma conversa entre participantes.](media/MeetingIMConversations.png)
+![Conversa entre participantes do teams.](media/MeetingIMConversations.png)
 
-![A imagem é de uma conversa entre participantes.](media/MeetingImConversation2.png)
+> [!div class="mx-imgBorder"]
+> ![Conversa entre participantes nos resultados da pesquisa de descoberta eletrônica.](media/MeetingImConversation2.png)
 
 Para conduzir uma investigação de descoberta eletrônica com o conteúdo do Microsoft Teams, examine a etapa 1 em introdução [à descoberta eletrônica principal](https://docs.microsoft.com/microsoft-365/compliance/get-started-core-ediscovery).
 
@@ -95,7 +97,7 @@ Use as etapas a seguir para identificar arquivos e mensagens em um canal privado
 
 ### <a name="include-private-channel-files-in-an-ediscovery-search"></a>Incluir arquivos de canal privado em uma pesquisa de descoberta eletrônica
 
-Antes de executar essas etapas, instale o [Shell de gerenciamento do SharePoint Online e conecte-se ao SharePoint Online](https://docs.microsoft.com/powershell/sharepoint/sharepoint-online/connect-sharepoint-online?view=sharepoint-ps).
+Antes de executar essas etapas, instale o [Shell de gerenciamento do SharePoint Online e conecte-se ao SharePoint Online](https://docs.microsoft.com/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
 
 1. Execute o seguinte para obter uma lista de todos os conjuntos de sites do SharePoint associados a canais privados na equipe.
 
@@ -179,13 +181,14 @@ Um conjunto de revisão normal é semelhante a uma exportação; Ele fornece os 
 
 Um conjunto de revisão de conversa fornece uma exibição encadeada e mais intuitiva das conversas; Ele exibe mensagens relacionadas juntas na ordem correta.
 
-![Captura de tela do conjunto de revisão de conversa](media/conversationOptions2.png)
+> [!div class="mx-imgBorder"]
+> ![Captura de tela do conjunto de revisão de conversa](media/conversationOptions2.png)
 
 A funcionalidade como a redação está disponível nos dois tipos de conjuntos de revisão. Para obter mais informações sobre conjuntos de revisão, consulte [rever conversas na descoberta eletrônica avançada](https://docs.microsoft.com/microsoft-365/compliance/conversation-review-sets).
 
 #### <a name="collection-options"></a>Opções de coleção
 
-Ao adicionar a um conjunto de revisão, há várias opções disponíveis como caixas de seleção na seção **Opções de cobrança** da janela, incluindo **Opções de recuperação de conversa** e conversas de **equipe**. Se você habilitar essas opções, todas as mensagens individuais do teams que fazem parte do seu conjunto de revisão também serão mostradas com mensagens adicionais ao redor do contexto. Por exemplo, se a sua consulta for muito específica e apenas uma mensagem for retornada como resultado, habilitar essas opções também retornará várias mensagens de acordo com a mensagem que correspondeu à sua consulta.
+Ao adicionar a um conjunto de revisão, há várias opções disponíveis como caixas de seleção na seção **Opções de cobrança** da janela, incluindo **Opções de recuperação de conversa** e conversas de **equipe**. Se você habilitar essas opções, todas as mensagens individuais do teams que fazem parte do seu conjunto de revisão também serão mostradas com mensagens adicionais ao redor do contexto. Por exemplo, se a sua consulta for específica e apenas uma mensagem for retornada como resultado, habilitar essas opções também retornará várias mensagens de acordo com a mensagem que correspondeu à sua consulta.
 
 Muitos critérios lógicos são usados para determinar se as mensagens adicionais fornecem contexto para mensagens que correspondam à sua consulta. Por exemplo, para o conteúdo do Teams, habilitar essas opções recuperará a mensagem pai e todas as mensagens filho, devido à maneira como as mensagens são encadeadas.
 
@@ -215,7 +218,8 @@ Clique na guia **modo de exibição de anotação** para acessar os recursos de 
 
 Aqui está um exemplo de um arquivo redigido para conversa encadeada entre usuários.
 
-![Captura de tela do arquivo redigido](media/RedactedFileExample.png)
+> [!div class="mx-imgBorder"]
+> ![Captura de tela do arquivo redigido](media/RedactedFileExample.png)
 
 Na parte inferior da guia **modo de exibição de anotação** está o botão **Marcar documentos** , que exibe o painel de marcação. Nesse painel, você pode aplicar uma marca a todas as mensagens dentro da conversa do teams. Você pode rotular uma conversa como responsiva ou não responsiva, privilegiada ou não privilegiada, se contiver "itens interessantes", se deve ser incluído na exportação e se precisa de uma revisão adicional. Você também pode gerenciar e aplicar outras marcas personalizáveis.
 
