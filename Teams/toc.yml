@@ -250,7 +250,7 @@
               href: rooms/rooms-release-note.md
             - name: Preparar seu ambiente
               href: rooms/rooms-prep.md
-            - name: Requisitos
+            - name: Requirements
               href: rooms/requirements.md
             - name: Licenciamento online
               href: rooms/rooms-licensing.md
@@ -1124,7 +1124,7 @@
               href: expand-teams-across-your-org/healthcare/healthcare-templates-admin-console.md
             - name: Modelos de equipe para assistência médica
               href: expand-teams-across-your-org/healthcare/healthcare-templates.md
-        - name: Gerenciar o aplicativo Listas
+        - name: Gerenciar o aplicativo listas
           href: manage-lists-app.md
         - name: Gerenciar o aplicativo tarefas
           href: manage-tasks-app.md
@@ -1132,7 +1132,7 @@
           items:
             - name: Turnos do Teams
               href: expand-teams-across-your-org/shifts-for-teams-landing-page.md
-            - name: Gerenciar o aplicativo Turnos
+            - name: Gerenciar o aplicativo turnos
               href: expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md
     - name: Teams para o ensino
       href: expand-teams-across-your-org/teams-for-education-landing-page.md
@@ -1236,17 +1236,13 @@
         - name: Prevenção contra Perda de Dados
           href: 'https://docs.microsoft.com/microsoft-365/compliance/dlp-microsoft-teams?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json'
         - name: Descoberta Eletrônica
-          items:
-            - name: Conduzir uma investigação de descoberta eletrônica do conteúdo
-              href: ediscovery-investigation.md
-            - name: Colocar um usuário ou uma equipe do Teams em retenção legal
-              href: legal-hold.md
-        - name: Pesquisa de Conteúdo
-          items:
-            - name: Usar a Pesquisa de Conteúdo
-              href: content-search.md
-            - name: Pesquisar eventos no log de auditoria
-              href: audit-log-events.md
+          href: ediscovery-investigation.md
+        - name: Retenção legal
+          href: legal-hold.md
+        - name: Pesquisa de conteúdo
+          href: content-search.md
+        - name: Auditoria
+          href: audit-log-events.md
     - name: Privacidade
       items:
         - name: Privacidade e Microsoft Teams
