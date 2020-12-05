@@ -1,13 +1,13 @@
 ---
-title: Planejar a atualização do Skype for Business para o Microsoft Teams | Estrutura de adoção
-author: lanachin
-ms.author: v-lanac
+title: Planejar a atualização do Skype for Business para o Microsoft Teams
+author: msdmaguire
+ms.author: dmaguire
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: landerl
 audience: admin
-description: Saiba mais sobre como planejar a atualização ao fazer a lista de stakeholders primeiro e, em seguida, fazer o escopo do projeto.
+description: Saiba mais sobre como planejar a atualização fazendo uma lista de participantes e criando o escopo do projeto.
 localization_priority: Normal
 f1.keywords:
 - CSH
@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 12d9db8cfc765efbb516fb4b53010d51d8e4e3a7
-ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
+ms.openlocfilehash: 76bf5c09a90bc426db2eaa85918fd7e711f5b13d
+ms.sourcegitcommit: 1e16c6c7112bdde03209c12468b5705ddd116a62
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/24/2020
-ms.locfileid: "44868448"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "49578434"
 ---
 # <a name="plan-for-your-upgrade"></a>Planejar a atualização
 

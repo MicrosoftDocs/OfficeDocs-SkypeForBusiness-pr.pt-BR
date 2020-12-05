@@ -1,13 +1,13 @@
 ---
-title: Pré-requisitos do Microsoft Teams | Atualização de adoção de dependências
-author: lanachin
-ms.author: v-lanac
+title: Pré-requisitos e dependências ambientais para a atualização para o Microsoft Teams
+author: msdmaguire
+ms.author: dmaguire
 manager: serdars
 ms.topic: article
 ms.service: msteams
 ms.reviewer: landerl
 audience: admin
-description: Use esta orientação para saber mais sobre os pré-requisitos e as dependências ambientais para implantar equipes em sua organização
+description: Use esta orientação para saber mais sobre os pré-requisitos e as dependências ambientais para a implantação de equipes em sua organização
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1199bacde9ed41152cde6054975963cfd5a19ae9
-ms.sourcegitcommit: f7f86744c6dbf0db87e1408fd1f4b770fda07ff9
+ms.openlocfilehash: bcd3de45954ea500a6be0d325370ab0660604a65
+ms.sourcegitcommit: 1e16c6c7112bdde03209c12468b5705ddd116a62
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/17/2020
-ms.locfileid: "45158729"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "49578274"
 ---
 # <a name="prerequisites-and-environmental-dependencies-for-teams"></a>Pré-requisitos e dependências ambientais para equipes
 

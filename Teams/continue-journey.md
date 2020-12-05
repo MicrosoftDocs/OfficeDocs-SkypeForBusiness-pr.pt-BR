@@ -1,14 +1,14 @@
 ---
-title: Plano de adoção do usuário do Microsoft Teams | Práticas recomendadas
-author: serdarsoysal
-ms.author: serdars
+title: Como usar o Microsoft Teams de forma eficaz
+author: msdmaguire
+ms.author: dmaguire
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 audience: admin
 ms.reviewer: landerl
 search.appverid: MET150
-description: Saiba como usar o Microsoft Teams para monitorar a integridade da rede, manter os usuários envolvidos e se preparar para a nova funcionalidade.
+description: Saiba como usar o Microsoft Teams para monitorar a integridade da rede, para manter os usuários envolvidos e para se preparar para a nova funcionalidade.
 localization_priority: Normal
 ms.custom:
 - Teams-upgrade-guidance
@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0ed9c6b55551e7541f8074b71f67abd57851df9c
-ms.sourcegitcommit: f7f86744c6dbf0db87e1408fd1f4b770fda07ff9
+ms.openlocfilehash: 9ec8523ca154341ea213a6cce6712506dae47cad
+ms.sourcegitcommit: 1e16c6c7112bdde03209c12468b5705ddd116a62
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/17/2020
-ms.locfileid: "45158499"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "49578044"
 ---
 # <a name="how-to-use-microsoft-teams-effectively"></a>Como usar o Microsoft Teams de forma eficaz
 

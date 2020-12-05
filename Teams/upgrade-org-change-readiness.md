@@ -1,13 +1,13 @@
 ---
-title: Skype for Business para Microsoft Teams | Atualizar a preparação para alteração do usuário
-author: lanachin
-ms.author: v-lanac
+title: Avaliar a preparação das alterações organizacionais para a atualização do seu Skype for Business para o Teams
+author: msdmaguire
+ms.author: dmaguire
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 audience: admin
 ms.reviewer: landerl
-description: Saiba como avaliar a preparação da sua organização para fazer a transição com êxito para o ambiente do Microsoft Teams.
+description: Saiba como avaliar a preparação da sua organização para uma transição bem-sucedida para o Microsoft Teams.
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 39690deaf7561aedf6192217c66e67c3cd6c5e99
-ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
+ms.openlocfilehash: b422fc9542f989cd335bfb3064fbdecb7f59bfe7
+ms.sourcegitcommit: 1e16c6c7112bdde03209c12468b5705ddd116a62
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44523124"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "49578284"
 ---
 # <a name="assess-organizational-change-readiness"></a>Avaliar preparação da mudança organizacional
 
@@ -41,7 +41,7 @@ Este artigo faz parte do estágio de preparação do usuário da jornada da atua
 Depois de proteger a sua equipe de projeto e definir sua visão, o escopo e os objetivos, a próxima etapa da sua jornada de atualização é garantir que sua organização e os usuários estejam prontos para o Teams, uma atividade que você conclui em paralelo com a garantia de sua prontidão técnica. Para obter valor do Teams, os usuários devem realmente usá-lo. Simplesmente habilitar o Microsoft Teams não garante que você atinja sua meta. Os usuários têm casos de uso diferentes e estilos de aprendizagem variados e se adaptam a novas tecnologias em diferentes velocidades. A boa notícia é que o gerenciamento de alterações não é tão complicado, mas tem um esforço focado. As discussões orientadas abaixo foram projetadas para ajudar você a entender sua base de usuários, de modo que você possa preparar o nível certo de educação para facilitar e acelerar a adoção do usuário. Há duas maneiras de ver a sua base de usuários:
 
 - **Preparação das alterações organizacionais**: entender com que rapidez (ou não) os usuários costumam reagir a alterações. Essas informações ajudarão a informar a quantidade de conscientização, treinamento e venda de valor que talvez seja necessário fazer para orientar a adoção do usuário.
-- **Cenários**de trabalho em equipe: entender como os usuários trabalham permitirá que você mapeie equipes para suas atividades de trabalho, acelerando a adoção e facilitando a mudança do Skype for Business.
+- **Cenários** de trabalho em equipe: entender como os usuários trabalham permitirá que você mapeie equipes para suas atividades de trabalho, acelerando a adoção e facilitando a mudança do Skype for Business.
 
 > [!Note]
 > Você pode adaptar as atividades de avaliação fornecidas abaixo a qualquer iniciativa de alteração em sua organização. Basta abordar as perguntas com base no escopo do seu projeto. Nas discussões a seguir, "nova solução", pode ser aplicada a chamadas de áudio, videoconferências ou a atualização do Skype for Business para o Microsoft Teams.

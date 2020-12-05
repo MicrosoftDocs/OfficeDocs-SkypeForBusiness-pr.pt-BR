@@ -1,13 +1,13 @@
 ---
-title: Atualize o Skype for Business online para o Microsoft Teams | Implementar
-author: lanachin
-ms.author: v-lanac
+title: Atualizar do Skype for Business online para o Microsoft Teams
+author: msdmaguire
+ms.author: dmaguire
 manager: serdars
 ms.topic: article
 ms.service: msteams
 audience: admin
 ms.reviewer: landerl
-description: Saiba como atualizar sua organização para o Microsoft Teams a partir de um deployement do Skype for Business online.
+description: Saiba como atualizar sua organização para o Microsoft Teams a partir de uma implantação do Skype for Business online.
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 70700e0a05fb3d647fb8c0b26e0d15ecb8371671
-ms.sourcegitcommit: b07938c0b6edafacaeaaef205a1be00c4c1693ba
+ms.openlocfilehash: ca99c193a17547943018eba75004f0ec0a1a92f3
+ms.sourcegitcommit: 1e16c6c7112bdde03209c12468b5705ddd116a62
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "47940501"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "49578254"
 ---
 # <a name="upgrade-from-skype-for-business-online-to-teams"></a>Atualizar do Skype for Business Online para o Teams
 
@@ -77,7 +77,7 @@ Muitas vezes, as organizações podem optar por atualizar suas organizações em
 ### <a name="step-2-set-notification-for-the-users-in-the-current-upgrade-wave-optional"></a>Etapa 2: definir notificação para os usuários na onda de atualização atual (opcional)
 
 Se estiver usando o centro de administração do Microsoft Teams, você pode configurar o TeamsUpgradePolicy para até 20 usuários de uma só vez:
-1. No centro de administração do Microsoft Teams, selecione **usuários**e localize e selecione várias caixas de seleção para até 20 usuários que devem ser atualizados. 
+1. No centro de administração do Microsoft Teams, selecione **usuários** e localize e selecione várias caixas de seleção para até 20 usuários que devem ser atualizados. 
 2. Selecione **Editar configurações** no canto superior esquerdo da ListView. 
 3. No painel **Editar configurações** à direita, em atualização do Microsoft **Teams**, altere **Notifique a opção usuário do Skype for Business** para **ligar**. Observação: se o valor do modo de coexistência for "usar configurações de toda a organização", você precisará primeiro definir explicitamente o modo de coexistência para esses usuários, seja qual for o valor padrão para a organização.
 
@@ -88,7 +88,7 @@ Como alternativa, talvez seja mais fácil habilitar notificações para grupos d
 Quando estiver pronto para atualizar os usuários da onda atual para usar o Microsoft Teams como o único aplicativo, defina o modo de coexistência para os usuários somente para equipes.
 
 Se estiver usando o centro de administração do Microsoft Teams, você pode configurar o TeamsUpgradePolicy para até 20 usuários de uma só vez:
-1. No centro de administração do Microsoft Teams, selecione **usuários**e marque a caixa de seleção de até 20 usuários.
+1. No centro de administração do Microsoft Teams, selecione **usuários** e marque a caixa de seleção de até 20 usuários.
 2. Selecione **Editar configurações** no canto superior esquerdo da ListView.
 3. No painel **Editar configurações** à direita, em seção **atualização do teams** , defina o modo de coexistência com o Microsoft **Teams somente** na lista suspensa.
 

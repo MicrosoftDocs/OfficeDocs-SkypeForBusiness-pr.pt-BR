@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 62ba371156ff2ae40949df01f433d22bf0e8cf0b
-ms.sourcegitcommit: 207e6aa97867e3fd80734cc839c0c5858bca24c8
+ms.openlocfilehash: 46d3b53f62a3bb497f173c9efd418b7ed88444c7
+ms.sourcegitcommit: 1e16c6c7112bdde03209c12468b5705ddd116a62
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "49477040"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "49578504"
 ---
 # <a name="use-onedrive-for-business-and-sharepoint-or-stream-for-meeting-recordings"></a>Usar o OneDrive for Business e o SharePoint ou o Stream para gravações de reunião
 
@@ -99,7 +99,7 @@ A opção de gravação da reunião é uma configuração no nível da política
    ```powershell
    Set-CsTeamsMeetingPolicy -Identity Global -RecordingStorageMode "OneDriveForBusiness"
    ```
-   
+
 > [!Note]
 > Se alguns de seus usuários tiverem atribuído uma política por organização ou por usuário, você deverá definir essa configuração nessa política se quiser que elas também armazenem as gravações de reunião no OneDrive for Business e no SharePoint. Para obter mais informações, consulte [gerenciar políticas de reunião no Microsoft Teams](meeting-policies-in-teams.md).
 
@@ -153,7 +153,7 @@ Como os vídeos são como qualquer outro arquivo no OneDrive for Business e no S
 
 **Como eu posso gerenciar transcrições?**
 
-Os clientes que optarem por esta visualização não terão legendas ocultas disponíveis em suas gravações de reunião do teams migradas para o OneDrive for Business e para o SharePoint.Estamos trabalhando para adicionar legendas, começando com legendas ocultas em inglês, para fazer gravações em reuniões em outubro de 2020.
+Os clientes que optarem por esta visualização não terão legendas ocultas disponíveis em suas gravações de reunião do teams migradas para o OneDrive for Business e para o SharePoint.Estamos trabalhando para adicionar legendas, começando com legendas ocultas em inglês, para fazer gravações nas gravações do quarto CY2020.
 
 As legendas ocultas estarão disponíveis em gravações de reunião do teams para clientes que optaram por permitir transcrições, conforme descrito em [gravações na nuvem do teams](cloud-recording.md)
 
@@ -180,3 +180,7 @@ O fluxo como uma plataforma não será preterido em breve. Os vídeos que reside
 **Como posso aplicar um rótulo de retenção?**
 
 Veja [como aplicar automaticamente um rótulo de retenção](https://docs.microsoft.com/microsoft-365/compliance/apply-retention-labels-automatically?view=o365-worldwide#microsoft-teams-meeting-recordings).
+
+**Como faço para atribuir políticas aos meus usuários no Microsoft Teams e quais políticas têm precedência?**
+
+Veja [qual política tem precedência?](https://docs.microsoft.com/MicrosoftTeams/assign-policies#which-policy-takes-precedence).
