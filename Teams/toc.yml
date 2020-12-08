@@ -250,7 +250,7 @@
               href: rooms/rooms-release-note.md
             - name: Preparar seu ambiente
               href: rooms/rooms-prep.md
-            - name: Requirements
+            - name: Requisitos
               href: rooms/requirements.md
             - name: Licenciamento online
               href: rooms/rooms-licensing.md
@@ -604,6 +604,8 @@
                   href: direct-routing-protocols-media.md
             - name: Gerenciar uma política de roteamento de voz
               href: manage-voice-routing-policies.md
+            - name: Aparelho de filial persistente de roteamento direto
+              href: direct-routing-survivable-branch-appliance.md
     - name: Telefones
       items:
         - name: Gerenciar números de telefone para sua organização
