@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f78d507a7ab15cfa43e10d51e13f36749f11a7cb
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: cab89e7d3e1c2956c79a4013edd254167c990f9b
+ms.sourcegitcommit: f122c078b6458754500f3cc68086d6ccfa62d183
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48526388"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "49588304"
 ---
 # <a name="set-up-your-team-targeting-hierarchy"></a>Configurar sua hierarquia de direcionamento de equipe
 
@@ -51,7 +51,7 @@ Você também pode definir buckets, que são categorias que a equipe de publica�
 
 ### <a name="add-required-columns"></a>Adicionar colunas obrigatórias
 
-O arquivo CSV deve conter as três colunas a seguir, na seguinte ordem, começando na primeira coluna. Um nó deve ser vinculado a uma equipe para que ele receba tarefas. Durante a visualização particular, damos suporte a nós 500. Na inicialização, esperamos dar suporte a pelo menos nós do 2.000 por padrão. Planejamos trabalhar com clientes para gerar esse limite para organizações maiores.
+O arquivo CSV deve conter as três colunas a seguir, na seguinte ordem, começando na primeira coluna. Um nó deve ser vinculado a uma equipe para que ele receba tarefas. Durante a visualização particular, damos suporte a nós 2.000. Na inicialização, esperamos dar suporte a pelo menos nós do 15.000 por padrão. Planejamos trabalhar com clientes para gerar esse limite para organizações maiores.
 
 | Nome da coluna   | Obrigatório | Descrição   |
 ----------------|----------|---------------|

@@ -21,30 +21,31 @@ description: Saiba como gerenciar atribuições no centro de administração do 
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e3a0bf0dd0141679dc89ed1d5ecc0cfc542854c8
-ms.sourcegitcommit: 3eb5820b279fc904f34ac4259deeb419e02d832a
+ms.openlocfilehash: 64be355da30feb3c629569f583897353c21cfa37
+ms.sourcegitcommit: 481d18b76304adfa340b5f1b2f1b7965e9ff4993
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "49561047"
+ms.lasthandoff: 12/07/2020
+ms.locfileid: "49586614"
 ---
 # <a name="assignments-in-teams-for-education"></a>Tarefas do Teams for Education
 
-As atribuições são tarefas ou unidades de trabalho atribuídas a um membro do aluno ou da equipe em uma classe como parte do estudo. Você pode criar tarefas dentro da classe Teams.
+Os recursos de tarefas e notas no Teams for Education permitem que professores atribuam tarefas, trabalho ou testes a seus alunos. Educadores podem gerenciar cronogramas de atribuição, instruções, adicionar recursos para entrar, fazer uma classificação com reutilizáveis e muito mais. Eles também podem acompanhar a classe e o andamento individual do aluno na guia notas.
 
-[Saiba mais sobre as tarefas](https://support.office.com/article/microsoft-teams-5aa4431a-8a3c-4aa5-87a6-b6401abea114?ui=en-US&rs=en-IE&ad=IE#ID0EAABAAA=Assignments).
+[Saiba mais sobre as tarefas e as notas no Teams for Education](https://support.office.com/article/microsoft-teams-5aa4431a-8a3c-4aa5-87a6-b6401abea114?ui=en-US&rs=en-IE&ad=IE#ID0EAABAAA=Assignments).
 
 > [!Note]
 > Para obter detalhes sobre as tarefas do Team em diferentes plataformas, consulte [recursos do teams por plataforma](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3).
 
-## <a name="assignments-in-the-microsoft-teams-admin-center"></a>Tarefas no centro de administração do Microsoft Teams
+## <a name="assignments-integrations-in-the-microsoft-teams-admin-center"></a>Integrações de atribuições no centro de administração do Microsoft Teams
 
-Com as configurações de administrador no centro de administração do Microsoft Teams, você pode ativar ou desativar os recursos a seguir para estar disponível para alunos e professores em sua organização. As configurações a seguir estão relacionadas às tarefas:
+Usando as configurações de administrador no centro de administração do Microsoft Teams, você pode ativar ou desativar recursos para educadores dentro da sua organização e de seus alunos. As configurações a seguir estão relacionadas às tarefas:
 
 <a name="#bkemaildigest"> </a>
 ### <a name="weekly-guardian-email-digest"></a>Resumo semanal do email do guardião
 
-Os emails contêm informações sobre as tarefas da semana anterior e para a próxima semana e serão enviados pelo final de semana. As informações sobre o conteúdo do email podem ser encontradas aqui. Os emails precisam ser configurados e atualizados pelos administradores usando a [SDS (sincronização de dados da escola)](https://docs.microsoft.com/schooldatasync/). Esse recurso automaticamente preenche classes para equipes com escalas de alunos do SIS (sistema de informações do aluno) da escola. As etapas para habilitar esse recurso são:
+
+Os emails do Guardian são enviados a cada final de semana para pais ou tutores. O email contém informações sobre as tarefas da semana anterior e para a próxima semana. A sincronização pai e guardião pode ser configurada usando a [sincronização de dados da escola](https://docs.microsoft.com/schooldatasync/parent-contact-sync).
 
 1. Importar informações de contato pai via sincronização de pai e guardião no SDS. Para obter instruções sobre como habilitar a sincronização de pais e guardiões, consulte [habilitando a sincronização de pai e guardião](https://docs.microsoft.com/schooldatasync/parent-contact-sync#enabling-parent-and-guardian-sync).
 
@@ -61,7 +62,7 @@ Para verificar se os pais receberão o email, os três itens a seguir devem ser 
 
  - Os emails conterão informações sobre as atribuições que tiveram uma data de conclusão na semana anterior ou na próxima semana.
 
-Essa configuração está desativada por padrão.
+A configuração padrão para esse recurso é **desativada**.
 
 
 <a name="bkmakecode"> </a>
@@ -70,7 +71,9 @@ O Microsoft MakeCode é uma plataforma de codificação baseada em blocos que le
 
 O MakeCode é um produto da Microsoft que está sujeito aos [termos de uso e às políticas de](https://go.microsoft.com/fwlink/?LinkID=206977) [privacidade](https://go.microsoft.com/fwlink/?LinkId=521839) da Microsoft.
 
-Essa configuração está desativada por padrão. Para habilitar as tarefas do MakeCode no Teams, no **centro de administração do teams**, navegue até a seção **tarefas** e ative a opção de alternância de **MakeCode.** Clique em **salvar** e aguarde algumas horas para que as configurações entrem em vigor.
+A configuração padrão para esse recurso é **desativada**.
+
+Para habilitar as atribuições do MakeCode no Microsoft Teams, vá para o **centro de administração do teams**, navegue até a seção **tarefas** e ative a opção de alternância de **MakeCode.** Clique em **Salvar**. Aguarde algumas horas para que essas configurações entrem em vigor.
 
 Para obter mais informações sobre como esse recurso funciona, consulte esta [demonstração em vídeo](https://makecode.com/blog/teams/teams-assignments).
 
@@ -79,11 +82,11 @@ Para obter mais informações sobre como esse recurso funciona, consulte esta [d
 <a name="#turnitin"> </a>
 ### <a name="turnitin"></a>Turnitin
 
-TurnItIn é um serviço de detecção de plagiarism. Este é um produto ou serviço de terceiros sujeito aos seus próprios termos e políticas de privacidade. Você é responsável pelo uso de produtos e serviços de terceiros.
+O [TurnItIn](https://www.turnitin.com/) é um serviço de integridade acadêmica. Este é um produto ou serviço de terceiros sujeito aos seus próprios termos e políticas de privacidade. Você é responsável pelo uso de produtos e serviços de terceiros.
 
-Essa configuração está desativada por padrão.
+A configuração padrão para este recurso é **desativada**...
 
-Para habilitar o TurnItIn com êxito para sua organização, você precisará ter uma assinatura do TurnItIn. Você precisará inserir as seguintes informações adicionais, que podem ser encontradas no console de administração do TurnItIn:
+Para habilitar o TurnItIn para sua organização, você precisará de uma assinatura do TurnItIn. Em seguida, você pode inserir as informações a seguir, que podem ser encontradas no console de administração do TurnItIn:
 
   * **TurnitinApiKey**: é um GUID de caractere 32 encontrado no console de administração em integrações.
   * **TurnitinApiUrl**: esta é a URL https do seu console de administração do TurnItIn.
@@ -105,4 +108,3 @@ O **TurnitinApiKey** será atribuído a você depois de seguir as instruções. 
 
 Ao clicar no botão **salvar** no centro de administração para esta configuração, aguarde algumas horas para que essas configurações entrem em vigor.
 
-Pronto para começar a usar a integração do TurnItIn no Microsoft Teams? Inscreva-se para o [programa de acesso antecipado](https://www.turnitin.com/products/feedback-studio/microsoft-teams-integration).

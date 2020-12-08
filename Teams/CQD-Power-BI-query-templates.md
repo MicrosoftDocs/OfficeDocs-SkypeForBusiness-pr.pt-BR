@@ -16,12 +16,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: Use o Power BI para analisar dados do CQD para o Microsoft Teams.
-ms.openlocfilehash: 4889428096209b9856d75caf11348ac036b4c7b0
-ms.sourcegitcommit: b282acc1633c2d62bbff0ea77b6b647775ae6dfe
+ms.openlocfilehash: a06a3cb76cd778c132b3e8745b279035e875f16e
+ms.sourcegitcommit: f122c078b6458754500f3cc68086d6ccfa62d183
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "49085565"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "49588324"
 ---
 # <a name="use-power-bi-to-analyze-cqd-data-for-microsoft-teams"></a>Usar o Power BI para analisar dados do CQD para o Microsoft Teams
 
@@ -35,7 +35,7 @@ Verifique se você tem a [função de acesso CQD](turning-on-and-using-call-qual
 
 |  |  |
 |---------|---------|
-|<strong>(Novo!)</strong> Atendedor automático do teams CQD & relatório histórico de filas de chamadas. PBit     |  Este modelo fornece os três relatórios a seguir:</p><li>Atendedor automático – mostrando a análise de chamadas que chegam aos atendedores automáticos.</li><li>Fila de chamadas – mostrando a análise de chamadas que chegam às suas filas de chamadas.</li><li>Linha do tempo do agente – mostrar um modo de exibição de linha do tempo dos agentes ativos nas chamadas da fila de chamadas.</li><br>Para saber mais, leia [use o relatório do Power bi do CQD para ver o atendedor automático & relatório histórico histórico da fila de chamadas](CQD-teams-aa-cq-historical-report.md).        |
+|<strong>(Novo!)</strong> Atendedor automático do teams CQD & relatório histórico de filas de chamadas. PBit     |  Este modelo fornece os três relatórios a seguir:</p><li>Atendedor automático – mostrando a análise de chamadas que chegam aos atendedores automáticos.</li><li>Fila de chamadas – mostrando a análise de chamadas que chegam às suas filas de chamadas.</li><li>Linha do tempo do agente – mostrar um modo de exibição de linha do tempo dos agentes ativos nas chamadas da fila de chamadas.</li><br>Para saber mais, leia [atendedor automático & relatório histórico histórico da fila de chamadas](aa-cq-cqd-historical-reports.md).        |
 |Relatório de assistência técnica CQD. PBit     |Ao integrar dados de construção e EUII, esse relatório foi projetado para permitir que você faça uma busca detalhada de um único usuário para localizar a causa raiz de upstreams de baixa qualidade de chamadas para aquele usuário (por exemplo, o usuário está em um prédio com problemas de rede).         |
 |Relatório avançado de localização CQD. PBit     | Renovar relatórios de localização SPD do CQD. Inclui 9 relatórios, fornecimento de qualidade de chamada, criação de WiFi, confiabilidade e classificar minhas informações de chamada (RMC) com buscas adicionais por meio do edifício ou pelo usuário.  Certifique-se de carregar os dados de construção para maximizar sua experiência com relatórios.        |
 |Relatório de dispositivo móvel CQD. PBit     | Fornece ideias especificamente ajustadas em relação a usuários de dispositivos móveis, incluindo qualidade da chamada, confiabilidade e classifique minha chamada. Exibir relatórios de rede móvel, rede WiFi e sistema operacional móvel (Android, iOS).        |
