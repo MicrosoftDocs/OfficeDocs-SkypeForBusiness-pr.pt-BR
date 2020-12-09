@@ -1,7 +1,7 @@
 ---
 title: Perguntas frequentes sobre a atualização do Skype for Business para o Teams
-author: lanachin
-ms.author: v-lanac
+author: msdmaguire
+ms.author: dmaguire
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dd329b6aa439143967a132b05119e064430340ac
-ms.sourcegitcommit: 0a51738879b13991986a3a872445daa8bd20533d
+ms.openlocfilehash: 77233c2678b8349d416a28e7a62525897f9d3f9f
+ms.sourcegitcommit: 1e16c6c7112bdde03209c12468b5705ddd116a62
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/27/2020
-ms.locfileid: "48766584"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "49578364"
 ---
 # <a name="faq--upgrading-from-skype-for-business-to-microsoft-teams"></a>Perguntas frequentes ‒ atualização do Skype for Business para o Microsoft Teams
 
@@ -68,7 +68,7 @@ Você tem a flexibilidade de atualizar os usuários — indivíduos, grupos de u
 
 **O que acontecerá depois que meus usuários forem atualizados?**<br>
 
-Depois que seus usuários forem atualizados para o Teams (modo **Apenas Teams** ):
+Depois que seus usuários forem atualizados para o Teams (modo **Apenas Teams**):
 
 - O cliente Skype for Business deles será desabilitado para uso, pois todos os chats e chamadas irão para o Teams. Esse cliente continuará a ser usado para reuniões previamente agendadas nele. Se esse cliente de desktop não estiver instalado, os usuários serão redirecionados para acessar as reuniões previamente agendadas do Skype for Business via Skype for Business Web App.
 
