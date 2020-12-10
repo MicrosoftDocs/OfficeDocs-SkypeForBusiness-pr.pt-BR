@@ -6,7 +6,7 @@
   href: support-remote-work-with-teams.md
 - name: Treinamento
   items:
-    - name: Visão Geral
+    - name: Visão geral
       href: training-microsoft-teams-landing-page.md
     - name: Treinamento para o administrador do Teams
       href: itadmin-readiness.md
@@ -20,7 +20,7 @@
   href: How-to-roll-out-teams.md
 - name: Introdução
   items:
-    - name: Visão Geral
+    - name: Visão geral
       href: get-started-with-teams-quick-start.md
     - name: 'Etapa 1: Criar suas primeiras equipes e canais'
       href: get-started-with-teams-create-your-first-teams-and-channels.md
@@ -166,7 +166,7 @@
           href: teams-scoped-directory-search.md
         - name: Análises e relatórios no centro de administração do Teams
           items:
-            - name: Visão Geral
+            - name: Visão geral
               href: teams-analytics-and-reports/teams-reporting-reference.md
             - name: Relatório de uso do Teams
               href: teams-analytics-and-reports/teams-usage-report.md
@@ -188,7 +188,7 @@
           href: teams-activity-reports.md
 - name: 'Aplicativos, bots e conectores'
   items:
-    - name: Visão Geral
+    - name: Visão geral
       href: deploy-apps-microsoft-teams-landing-page.md
     - name: Integrar com a Power Platform
       href: teams-power-platfom-integration.md
@@ -210,6 +210,8 @@
           href: manage-power-platform-apps.md
         - name: Publicar um aplicativo personalizado carregando um pacote de aplicativos
           href: upload-custom-apps.md
+        - name: Repositório de aplicativos personalizados
+          href: customize-your-app-store.md
     - name: Certificação de aplicativo
       href: /teams-app-certification/all-apps?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
     - name: Exibir permissões do aplicativo e conceder consentimento de administrador no Centro de administração do Microsoft Teams
@@ -238,7 +240,7 @@
       href: deploy-meetings-microsoft-teams-landing-page.md
     - name: Salas do Microsoft Teams
       items:
-        - name: Visão Geral
+        - name: Visão geral
           href: rooms/index.md
         - name: Planejar
           items:
@@ -348,8 +350,6 @@
       href: /SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
     - name: Gerencie o quadro de comunicações no Teams
       href: manage-whiteboard.md
-    - name: Configurar o complemento do teams Meeting para o Google Workspace
-      href: add-gsuite-thru-aad.md
     - name: Audioconferência
       items:
         - name: Planejar sua implantação
@@ -394,7 +394,7 @@
           href: audio-conferencing-pay-per-minute.md
         - name: Gerenciar as configurações de audioconferência para usuários
           items:
-            - name: Visão Geral
+            - name: Visão geral
               href: manage-the-audio-conferencing-settings-for-a-user-in-teams.md
             - name: Ver uma lista de usuários habilitados para audioconferência
               href: see-a-list-of-users-that-are-enabled-for-audio-conferencing-in-teams.md
@@ -532,7 +532,7 @@
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md
     - name: Roteamento Direto do Sistema de Telefonia
       items:
-        - name: Visão Geral
+        - name: Visão geral
           href: direct-routing-landing-page.md
         - name: Planejar o Roteamento Direto
           href: direct-routing-plan.md
@@ -540,7 +540,7 @@
           href: direct-routing-border-controllers.md
         - name: Configurar o Roteamento Direto
           items:
-            - name: Visão Geral
+            - name: Visão geral
               href: direct-routing-configure.md
             - name: 'Etapa 1: Conecte seu SBC'
               href: direct-routing-connect-the-sbc.md
@@ -580,7 +580,7 @@
           href: direct-routing-migrating.md
         - name: Monitorar e solucionar problemas do Roteamento Direto
           items:
-            - name: Visão Geral
+            - name: Visão geral
               href: direct-routing-monitor-and-troubleshoot.md
             - name: Painel de Integridade
               href: direct-routing-health-dashboard.md
@@ -650,7 +650,7 @@
           href: manage-your-network-topology.md
     - name: Chamada de emergência
       items:
-        - name: Visão Geral
+        - name: Visão geral
           href: what-are-emergency-locations-addresses-and-call-routing.md
         - name: Configurar chamadas de emergência dinâmicas
           href: configure-dynamic-emergency-calling.md
@@ -672,7 +672,7 @@
           href: manage-emergency-call-routing-policies.md
     - name: Estudo de caso da migração de voz da contoso
       items:
-        - name: Visão Geral
+        - name: Visão geral
           href: voice-case-study-overview.md
         - name: Atualização Teams
           href: voice-case-study-migration-plan.md
@@ -726,7 +726,7 @@
               href: manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-s.md
         - name: Limitações e restrições de discagem gratuita
           items:
-            - name: Visão Geral
+            - name: Visão geral
               href: toll-free-dialing-limitations-and-restrictions.md
             - name: Argentina
               href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-argentina.md
@@ -875,7 +875,7 @@
               href: 5-envision-plan-my-users-experience.md
 - name: Adotar
   items:
-    - name: Visão Geral
+    - name: Visão geral
       href: adopt-microsoft-teams-landing-page.md
     - name: Introdução
       href: teams-adoption-get-started.md
@@ -925,7 +925,7 @@
       items:
         - name: Planejar seu projeto e os requisitos
           items:
-            - name: Visão Geral
+            - name: Visão geral
               href: upgrade-plan-journey.md
             - name: Listar os participantes em seu projeto
               href: upgrade-enlist-stakeholders.md
@@ -961,7 +961,7 @@
               href: upgrade-user-readiness.md
     - name: Implementar sua atualização
       items:
-        - name: Visão Geral
+        - name: Visão geral
           href: upgrade-to-Teams.md
         - name: Atualizar o Skype for Business Online para o Teams
           href: upgrade-to-Teams-execute-SkypeforBusinessOnline.md
@@ -977,7 +977,7 @@
       items:
         - name: Diretrizes de atualização para os administradores de TI
           items:
-            - name: Visão Geral
+            - name: Visão geral
               href: upgrade-to-teams-on-prem-overview.md
             - name: Métodos de atualização
               href: upgrade-to-teams-on-prem-upgrade-methods.md
@@ -1005,7 +1005,7 @@
       href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/plan-hybrid-connectivity?toc=/SkypeForBusiness/sfbhybridtoc/toc.json'
     - name: Configurar conectividade híbrida
       items:
-        - name: Visão Geral
+        - name: Visão geral
           href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-hybrid-connectivity'
         - name: Configurar o Azure AD Connect para ambientes híbridos
           href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-azure-ad-connect'
@@ -1013,7 +1013,7 @@
           href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-federation-with-skype-for-business-online'
     - name: Mover os usuários entre um ambiente local e a nuvem
       items:
-        - name: Visão Geral
+        - name: Visão geral
           href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-between-on-premises-and-cloud'
         - name: Migrar usuários de um ambiente local para o Teams
           href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-from-on-premises-to-teams'
@@ -1029,7 +1029,7 @@
       href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-a-multi-forest-environment-for-hybrid'
     - name: Consolidação na nuvem para o Teams e Skype for Business
       items:
-        - name: Visão Geral
+        - name: Visão geral
           href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/cloud-consolidation'
         - name: Atualizar o certificado de borda
           href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/cloud-consolidation-edge-certificates'
@@ -1091,7 +1091,7 @@
       href: business-voice/partner-resources.md
 - name: Diretrizes governamentais e de indústrias
   items:
-    - name: Visão Geral
+    - name: Visão geral
       href: expand-teams-across-your-org/expand-teams-across-your-organization-landing-page.md
     - name: Todos os setores
       items:
@@ -1102,7 +1102,7 @@
           items:
             - name: Gerenciar o aplicativo Shifts para sua organização no Teams
               href: expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md
-    - name: Teams para Serviços de Saúde
+    - name: Equipes para Serviços de Saúde
       items:
         - name: Introdução ao Teams para organizações de saúde
           href: expand-teams-across-your-org/healthcare/teams-in-hc.md
@@ -1136,7 +1136,7 @@
               href: expand-teams-across-your-org/shifts-for-teams-landing-page.md
             - name: Gerenciar o aplicativo turnos
               href: expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md
-    - name: Teams para o ensino
+    - name: Equipes para Educação
       href: expand-teams-across-your-org/teams-for-education-landing-page.md
       items:
         - name: Início rápido - Administradores do Teams for Education
@@ -1186,7 +1186,7 @@
           href: retail-teams-templates-in-the-admin-console.md
         - name: Introdução aos modelos de varejo do Teams
           href: get-started-with-retail-teams-templates.md
-    - name: Teams para o governo
+    - name: Equipes para o Governo
       href: expand-teams-across-your-org/teams-for-government-landing-page.md
       items:
         - name: Oferecer suporte aos trabalhadores remotos (WFH)
@@ -1207,7 +1207,7 @@
           href: policy-packages-gov.md
 - name: 'Segurança, privacidade e conformidade'
   items:
-    - name: Visão Geral
+    - name: Visão geral
       href: security-compliance-overview.md
     - name: Segurança
       items:
@@ -1237,7 +1237,7 @@
           href: teams-recording-policy.md
         - name: Prevenção contra Perda de Dados
           href: 'https://docs.microsoft.com/microsoft-365/compliance/dlp-microsoft-teams?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json'
-        - name: Descoberta Eletrônica
+        - name: Descoberta eletrônica
           href: ediscovery-investigation.md
         - name: Retenção legal
           href: legal-hold.md
@@ -1450,7 +1450,7 @@
           href: /SkypeForBusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/deploying-skype-for-business-online-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
     - name: PowerShell do Teams
       items:
-        - name: Visão Geral
+        - name: Visão geral
           href: teams-powershell-overview.md
         - name: Instalar o PowerShell do Teams
           href: teams-powershell-install.md
@@ -1472,7 +1472,7 @@
       href: support-pin.md
     - name: Disponibilidade de Audioconferência e Planos de Chamadas por país e região
       items:
-        - name: Visão Geral
+        - name: Visão geral
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md
         - name: Albânia
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-albania.md
