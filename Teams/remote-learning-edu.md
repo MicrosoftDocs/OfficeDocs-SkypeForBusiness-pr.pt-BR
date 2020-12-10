@@ -18,12 +18,12 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a79e123ca25715fdc33456fa5d566f5a3e8c3e99
-ms.sourcegitcommit: bc471f18e40e37456edc9696e11b175581847617
+ms.openlocfilehash: 391f93ba69cb10cb892b398d213a5ba04e692b32
+ms.sourcegitcommit: 481d18b76304adfa340b5f1b2f1b7965e9ff4993
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "48800614"
+ms.lasthandoff: 12/07/2020
+ms.locfileid: "49586595"
 ---
 # <a name="get-started-with-microsoft-teams-for-remote-learning"></a>Introdução ao Microsoft Teams para aprendizado remoto
 
@@ -65,7 +65,7 @@ Saiba mais sobre os cenários de uso do Microsoft Teams na [série de webinares 
 
 O Microsoft Teams utiliza os recursos do Microsoft 365 para autenticar os usuários e fornecer serviços. Os professores, funcionários e alunos devem ter identidades estabelecidas para facilitar a colaboração. Se as identidades ainda não existirem, siga este processo para estabelecê-las.
 
-[As licenças de equipes devem ser habilitadas para os usuários do](https://docs.microsoft.com/MicrosoftTeams/teams-quick-start-edu?tutorial-step=2) e, em seguida, [licenças devem ser atribuídas aos usuários](teams-edu-licensing.md) antes que possam usar os recursos do Teams. O Teams depende de recursos adicionais do Microsoft 365, como os [grupos do Microsoft 365](Office-365-groups.md), o [Exchange](Exchange-Teams-interact.md), o [SharePoint e o OneDrive](SharePoint-OneDrive-interact.md) para habilitar os cenários de colaboração. Os usuários recebem a melhor experiência do Teams se todos esses serviços também estiverem habilitados. [O Teams têm suporte para usuários com e-mails hospedados pelo Google](https://docs.microsoft.com/microsoft-365/education/deploy/enabling-teams-for-education-for-google-users).
+[As licenças precisam ser atribuídas aos usuários](teams-edu-licensing.md) antes que eles possam usar os recursos do Teams. O Teams depende de recursos adicionais do Microsoft 365, como os [grupos do Microsoft 365](Office-365-groups.md), o [Exchange](Exchange-Teams-interact.md), o [Microsoft Office SharePoint Online e o OneDrive](SharePoint-OneDrive-interact.md) para habilitar os cenários de colaboração. Os usuários recebem a melhor experiência do Teams se todos esses serviços também estiverem habilitados. [O Teams têm suporte para usuários com e-mails hospedados pelo Google](https://docs.microsoft.com/microsoft-365/education/deploy/enabling-teams-for-education-for-google-users).
 
 O Microsoft Teams está incluído no Office 365 A1, que é gratuito para instituições de ensino. Para obter orientação de TI sobre como implantar o Office 365 e iniciar toda a sua escola no Teams, confira [esta página](https://docs.microsoft.com/microsoft-365/education/intune-edu-trial/set-up-office365-edu-tenant). Para obter suporte, você pode enviar um tíquete [aqui](https://signup.microsoft.com/Signup?OfferId=03ee83a5-5cb4-4545-aca9-33ead43f222a,d764709a-7763-45ef-a2a8-db5b8b6ae704&DL=ENTERPRISEPREMIUM_FACULTY&ali=1) e para treinamentos no Teams, visite a Microsoft Store local para falar com um especialista.
 
@@ -78,7 +78,7 @@ Estas são as duas coisas que você precisa fazer para começar a trabalhar com 
 
 ### <a name="1-allow-users-to-create-teams"></a>1. Permitir que os usuários criem equipes
 
-Estudantes e professores aproveitarão ao máximo o Teams ao usá-lo com barreiras mínimas e terão a flexibilidade para adaptá-lo às suas necessidades. Uma forma dos usuários personalizarem a experiência do Teams é ter a capacidade de criar equipes que atendem às suas necessidades. **Por padrão, todos podem criar grupos no Microsoft 365 e no Teams** . Há momentos em que esse recurso pode não ser apropriado; por exemplo, alguns clientes podem querer impedir que os alunos do ensino fundamental criem grupos no Teams. Se necessário, a criação de equipes e grupos do Microsoft 365 pode ser [restrita a determinados grupos de segurança](https://docs.microsoft.com/microsoft-365/admin/create-groups/manage-creation-of-groups) em seu ambiente.
+Estudantes e professores aproveitarão ao máximo o Teams ao usá-lo com barreiras mínimas e terão a flexibilidade para adaptá-lo às suas necessidades. Uma forma dos usuários personalizarem a experiência do Teams é ter a capacidade de criar equipes que atendem às suas necessidades. **Por padrão, todos podem criar grupos no Microsoft 365 e no Teams**. Há momentos em que esse recurso pode não ser apropriado; por exemplo, alguns clientes podem querer impedir que os alunos do ensino fundamental criem grupos no Teams. Se necessário, a criação de equipes e grupos do Microsoft 365 pode ser [restrita a determinados grupos de segurança](https://docs.microsoft.com/microsoft-365/admin/create-groups/manage-creation-of-groups) em seu ambiente.
 
 Os clientes do ensino superior se beneficiam quando você permite que todos, inclusive estudantes, criem equipes para aulas, pesquisas, projetos e grupos de estudo. As escolas de ensino integral podem impedir a criação no Teams para garantir que todas as comunicações entre alunos ocorram em um fórum que inclua um adulto. Nesse caso, a criação de equipes e grupos do Microsoft 365 pode ser restrita a todos os professores e funcionários.
 
@@ -86,17 +86,16 @@ Para obter instruções sobre como criar no Teams, confira: [criar uma equipe de
 
 ### <a name="2-configure-user-experiences-using-policies"></a>2. Configurar experiências de usuário usando políticas
 
-> [!IMPORTANT]
-> Para saber mais sobre as ações que você deve seguir para proteger os alunos, confira o [Mantendo os alunos seguros no aprendizado à distância](https://support.office.com/article/f00fa399-0473-4d31-ab72-644c137e11c8). Se quiser se aprofundar em nossas recomendações de política para Administradores EDU, acesse [Políticas do Teams e Pacotes de Políticas para Educação](policy-packages-edu.md).
+[!INCLUDE [policy-wizard-edu](includes/policy-wizard-edu.md)]
 
-[As políticas do Teams](teams-policies.md) oferecem a capacidade de controlar as opções disponíveis para usuários específicos ou grupos de usuários. As políticas podem ser aplicadas para definir quem deve ter permissão para usar o chat privado, chamadas particulares, agendamento de reuniões, tipos de conteúdo que podem ser compartilhados e muito mais.
+> [!NOTE]
+> Para saber mais sobre as ações que você deve seguir para proteger os alunos, confira o [Mantendo os alunos seguros no aprendizado à distância](https://support.office.com/article/f00fa399-0473-4d31-ab72-644c137e11c8). Se quiser se aprofundar em nossas recomendações de política para Administradores EDU, acesse [Políticas do Teams e pacotes de políticas para Educação](policy-packages-edu.md).
 
-> [!IMPORTANT]
-> Nossas orientações mais atualizadas sobre as políticas para estudantes e professores podem ser encontradas em [Políticas do Teams e Pacotes de Política do Education](policy-packages-edu.md).
+As políticas do Teams oferecem a capacidade de controlar as opções disponíveis para usuários específicos ou grupos de usuários. As políticas podem ser aplicadas para definir quem deve ter permissão para usar o chat privado, chamadas particulares, agendamento de reuniões, tipos de conteúdo que podem ser compartilhados e muito mais.
 
 **A equipe de ensino superior, professores e estudantes** se beneficiam dos recursos incluídos nas políticas padrão (globais). Algumas configurações adicionais de política podem ser habilitadas para adicionar mais funcionalidade ao Microsoft Teams, incluindo o [habilitar recursos de tradução na política de mensagens](messaging-policies-in-teams.md#messaging-policy-settings) e [permitir a transcrição automática da reunião](meeting-policies-in-teams.md#allow-transcription) na política de reunião.
 
-Talvez seja necessário restringir os recursos fornecidos aos **estudantes de ensino básico e fundamental** . As políticas definem os limites do que os alunos podem fazer. Como a população de alunos geralmente é o maior conjunto de usuários e, muitas vezes, eles recebem as configurações mais restritivas, é recomendável que as alterações na política do aluno sejam feitas nas políticas "Globais (padrão da organização)".
+Talvez seja necessário restringir os recursos fornecidos aos **estudantes de ensino básico e fundamental**. As políticas definem os limites do que os alunos podem fazer. Como a população de alunos geralmente é o maior conjunto de usuários e, muitas vezes, eles recebem as configurações mais restritivas, é recomendável que as alterações na política do aluno sejam feitas nas políticas "Globais (padrão da organização)".
 
 > [!IMPORTANT]
 > Para atender às políticas atribuídas a qualquer usuário, recomendamos definir a configuração "Admitir pessoas automaticamente" para "Todos em sua organização". Essa configuração garantirá que usuários não autenticados sejam admitidos do lobby antes que possam participar de reuniões do Teams. Para mais informações, confira [Gerenciar políticas de reunião no Teams](https://docs.microsoft.com/microsoftteams/meeting-policies-in-teams#automatically-admit-people).
@@ -157,7 +156,7 @@ Para começar, acesse [School Data Sync (SDS)](https://docs.microsoft.com/School
 
 A criação da equipe liderada por educadores é uma ótima opção de implantação se você quiser que os educadores possam facilmente criar as classes de que precisam. Também recomendamos que as instituições com mais de 500.000 equipes usem esse método para minimizar o número de equipes criadas despropositadamente.   
 
-Essa abordagem híbrida permite que você use o SDS para criar grupos para cada classe (recomendado) ou use a [API do Graph](https://docs.microsoft.com/graph/api/educationroot-post-classes) para criá-las por conta própria. Depois que os grupos de classe estiverem preparados, os educadores poderão converter os grupos em equipes usando o ícone **Classes sugeridas** .
+Essa abordagem híbrida permite que você use o SDS para criar grupos para cada classe (recomendado) ou use a [API do Graph](https://docs.microsoft.com/graph/api/educationroot-post-classes) para criá-las por conta própria. Depois que os grupos de classe estiverem preparados, os educadores poderão converter os grupos em equipes usando o ícone **Classes sugeridas**.
 
 :::image type="content" source="media/class-teams-edu-suggested-classes.png" alt-text="Captura de tela mostrando o ícone Classes sugeridas":::
 
