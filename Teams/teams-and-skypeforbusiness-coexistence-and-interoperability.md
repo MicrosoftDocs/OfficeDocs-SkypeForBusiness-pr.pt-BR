@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e648c821de3efcf092993bc9daf8503109bfc9fd
-ms.sourcegitcommit: 1e16c6c7112bdde03209c12468b5705ddd116a62
+ms.openlocfilehash: b952d11c5ebe4b2da7620cc6ed8dd650be0d6bc5
+ms.sourcegitcommit: 4386f4b89331112e0d54943dc3133791d5dca3fb
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "49578494"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "49611765"
 ---
 # <a name="understand-microsoft-teams-and-skype-for-business-coexistence-and-interoperability"></a>Entender o Microsoft Teams e a coexistência e interoperabilidade do Skype for Business
 
@@ -82,7 +82,7 @@ Para saber mais sobre como migrar para o modo **somente equipes** , consulte [Co
 
 ### <a name="skype-for-business-only"></a>Somente Skype for Business
 
-Nesse modo de coexistência, os usuários permanecem no Skype for Business, não nas equipes, para recursos de chat, reunião e chamadas, e não usam equipes para equipes e canais. Este modo está disponível hoje; no entanto, na implementação atual, as equipes e os canais não são desativados automaticamente para o usuário. Isso pode ser conseguido com o uso da política de permissão do aplicativo para ocultar equipes e canais.
+Nesse modo de coexistência, os usuários permanecem no Skype for Business, não nas equipes, para recursos de chat, reunião e chamadas, e não usam equipes para equipes e canais. Este modo está disponível hoje; no entanto, na implementação atual, as equipes e os canais não são desativados automaticamente para o usuário. Isso pode ser conseguido usando a política de configuração do aplicativo para ocultar equipes e arquivos.
 
 Esse modo pode ser usado antes de iniciar uma implantação gerenciada do teams para impedir que os usuários comecem a usar o Microsoft Teams antes de ter uma prontidão interna, ou como uma maneira de habilitar a participação autenticada em reuniões de equipe para usuários do Skype for Business, contanto que os usuários sejam licenciados para equipes.
 

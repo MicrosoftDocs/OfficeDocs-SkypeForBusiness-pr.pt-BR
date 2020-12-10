@@ -20,12 +20,12 @@ ms.custom:
 - seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c17768f5d8c67db81f7457122632a6b205827cb5
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 2a9bf3cade5c17a8d3649a29ca999dec1f909624
+ms.sourcegitcommit: 4386f4b89331112e0d54943dc3133791d5dca3fb
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48523418"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "49611845"
 ---
 # <a name="cloud-video-interop-for-microsoft-teams"></a>Interoperabilidade de vídeo na nuvem para o Microsoft Teams
 
@@ -59,7 +59,7 @@ Os parceiros a seguir têm soluções de interoperabilidade de vídeo para Micro
 
 |Sócio|Solução de parceiros|
 |----|---|
-|![O logotipo que representa Polycom RealConnect](media/polycom.png) | <a href="https://aka.ms/PolycomRealConnect" target="_blank">Serviço de RealConnect Polycom</a> |
+|![O logotipo representando a RealConnect](media/polycom.png) | <a href="https://aka.ms/PolycomRealConnect" target="_blank">Serviço de RealConnect de Polyline</a> |
 |![O logotipo que representa o infinito Pexip](media/pexip.png)| <a href="https://aka.ms/PexipInfinity" target="_blank">Pexip infinito para Microsoft Teams</a> | 
 |![O logotipo que representa o gateway BlueJeans](media/bluejeans.png)| <a href="https://aka.ms/BluejeansGateway" target="_blank">BlueJeans gateway para Microsoft Teams</a> |
 |![O logotipo que representa o Cisco CVI](media/cisco.png)|<a href="https://aka.ms/CiscoCVI" target="_blank">Integração com vídeo Cisco WebEx para o Microsoft Teams</a>|
@@ -127,7 +127,7 @@ Se o Microsoft Teams funcionar corretamente nesse segmento, e você também tive
 
 Os cmdlets do PowerShell a seguir estão disponíveis para você (parcialmente) automatizar a implantação de interoperabilidade de vídeo em nuvem.
 
-- **Get-CsTeamsVideoInteropServicepolicy: a**Microsoft fornece políticas pré-projetadas para cada um dos nossos parceiros compatíveis que permitem que você projete quais parceiros usar para interoperabilidade de vídeo em nuvem.<br>Esse cmdlet permite identificar as políticas pré-projetadas que você pode usar em sua organização. Você pode atribuir essa política a um ou mais dos seus usuários aproveitando o cmdlet Grant-CsTeamsVideoInteropServicePolicy.
+- **Get-CsTeamsVideoInteropServicepolicy: a** Microsoft fornece políticas pré-projetadas para cada um dos nossos parceiros compatíveis que permitem que você projete quais parceiros usar para interoperabilidade de vídeo em nuvem.<br>Esse cmdlet permite identificar as políticas pré-projetadas que você pode usar em sua organização. Você pode atribuir essa política a um ou mais dos seus usuários aproveitando o cmdlet Grant-CsTeamsVideoInteropServicePolicy.
 - **Grant-CsTeamsVideoInteropServicePolicy**: Este cmdlet permite atribuir uma política pré-projetada para usar em sua organização ou atribuir a política a usuários específicos.
 - **New-CsVideoInteropServiceProvider**: Use esse cmdlet para especificar informações sobre um parceiro compatível do CVI que a sua organização gostaria de usar.
 - **Set-CsVideoInteropServiceProvider**: Use esse cmdlet para atualizar informações sobre um parceiro de CVI com suporte usado por sua organização.

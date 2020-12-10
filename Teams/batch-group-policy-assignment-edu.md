@@ -1,7 +1,7 @@
 ---
 title: Atribuir políticas a grandes conjuntos de usuários na sua escola
-author: lanachin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.reviewer: karsmith, angch, cebulnes
 ms.topic: article
@@ -17,14 +17,16 @@ localization_priority: Normal
 search.appverid: MET150
 description: Saiba como atribuir políticas a grandes conjuntos de usuários em sua instituição educacional com base em associação a um grupo ou diretamente por meio de uma atribuição em lote para fins de escola remota (teleescolar, tele-School).
 f1keywords: ''
-ms.openlocfilehash: 0b4fd804b51fef9537d30230aed400bb0cb7e0aa
-ms.sourcegitcommit: dc3e8ae454c42981f037f4de2e48005428b6078e
+ms.openlocfilehash: afcaba9df0ff745977b84e34683c1bdfcaca0d01
+ms.sourcegitcommit: 07afc959fec802db583e7111280d0035fdb6e412
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/31/2020
-ms.locfileid: "46534060"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "49616935"
 ---
 # <a name="assign-policies-to-large-sets-of-users-in-your-school"></a>Atribuir políticas a grandes conjuntos de usuários na sua escola
+
+[!INCLUDE [policy-wizard-edu](includes/policy-wizard-edu.md)]
 
 > [!NOTE]
 > Para obter uma história maior sobre como atribuir políticas no Microsoft Teams, consulte [atribuir políticas a seus usuários no Teams](assign-policies.md).
@@ -83,9 +85,9 @@ Se não for possível implantar o SDS em seu ambiente, use [esse script do Power
 > [!NOTE]
 > Atualmente, a atribuição de política a grupos usando o centro de administração do Microsoft Teams está disponível apenas para política de chamada de equipes, política de estacionamento de chamada de equipe, política de equipe, política de eventos do Teams, política de reunião do Teams e política de mensagens de equipe. Para outros tipos de política, use o PowerShell.
 
-1. Na navegação à esquerda do centro de administração do Microsoft Teams, vá para políticas de reunião de **reuniões**  >  **Meeting policies**.
+1. Na navegação à esquerda do centro de administração do Microsoft Teams, vá para políticas de reunião de **reuniões**  >  .
 2. Selecione a guia **atribuição de política de grupo** .
-3. Selecione **Adicionar grupo**e, em seguida, no painel **atribuir política ao grupo** , faça o seguinte:
+3. Selecione **Adicionar grupo** e, em seguida, no painel **atribuir política ao grupo** , faça o seguinte:
 
     ![Captura de tela do painel Editar configurações, mostrando política de reunião](media/batch-group-policy-assignment-edu-group.png)
     1. Na caixa **selecionar um grupo** , procure e adicione o grupo de segurança que contém seus funcionários e educadores.
@@ -147,6 +149,7 @@ Execute o seguinte para se conectar ao Microsoft Teams e iniciar uma sessão.
 ```powershell
 Connect-MicrosoftTeams
 ```
+
 Quando for solicitado, entre usando as mesmas credenciais de administrador usadas para se conectar ao Azure AD.
 
 #### <a name="unassign-a-policy-that-was-directly-assigned-to-users"></a>Cancelar a atribuição de uma política que foi atribuída diretamente aos usuários
@@ -160,7 +163,7 @@ $users_ids = @("reda@contoso.com", "nikica@contoso.com", "jamie@contoso.com")
 New-CsBatchPolicyAssignmentOperation -PolicyType TeamsMeetingPolicy -PolicyName $null -Identity $users_ids -OperationName "Unassign meeting policy"
 ```
 
-Neste exemplo, a política de reunião é removida da lista de usuários em um arquivo de texto chamado user_ids.txt. 
+Neste exemplo, a política de reunião é removida da lista de usuários em um arquivo de texto chamado user_ids.txt.
 
 ```powershell
 $user_ids = Get-Content .\users_ids.txt
@@ -225,6 +228,7 @@ Execute o seguinte para se conectar ao Microsoft Teams e iniciar uma sessão.
 ```powershell
 Connect-MicrosoftTeams
 ```
+
 Quando for solicitado, entre usando as mesmas credenciais de administrador usadas para se conectar ao Azure AD.
 
 #### <a name="identify-your-users"></a>Identifique seus usuários

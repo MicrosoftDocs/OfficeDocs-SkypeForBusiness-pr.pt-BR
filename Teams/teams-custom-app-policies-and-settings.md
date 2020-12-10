@@ -23,12 +23,12 @@ ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.tooltip.allowsideloading
 - ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
 - seo-marvel-mar2020
-ms.openlocfilehash: 454d3b4a057b15ad0f329434f541cd03d2b41a7f
-ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
+ms.openlocfilehash: fef9568843d847e422269f7edfae3b1c761aaefa
+ms.sourcegitcommit: 4386f4b89331112e0d54943dc3133791d5dca3fb
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/30/2020
-ms.locfileid: "44938450"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "49611755"
 ---
 # <a name="manage-custom-app-policies-and-settings-in-microsoft-teams"></a>Gerencie políticas e configurações de aplicativo personalizado no Microsoft Teams
 
@@ -55,7 +55,7 @@ Essas configurações não afetam a capacidade de bloquear aplicativos de tercei
 
 ### <a name="user-custom-app-policy"></a>Política de aplicativo personalizada do usuário
 
-Como parte das [políticas de configuração do aplicativo](teams-app-setup-policies.md), os administradores podem usar uma configuração de política, **carregar aplicativos personalizados**para controlar se um usuário pode carregar aplicativos personalizados para o Microsoft Teams.
+Como parte das [políticas de configuração do aplicativo](teams-app-setup-policies.md), os administradores podem usar uma configuração de política, **carregar aplicativos personalizados** para controlar se um usuário pode carregar aplicativos personalizados para o Microsoft Teams.
  
 Se essa configuração estiver desativada:
 
@@ -72,7 +72,7 @@ Você pode editar as configurações na política de configuração do aplicativ
 
 #### <a name="set-a-user-custom-app-policy"></a>Definir uma política de aplicativo personalizada do usuário
 
-1. Na navegação à esquerda do centro de administração do Microsoft Teams, vá para políticas de configuração de **aplicativos do teams**  >  **Setup policies**.
+1. Na navegação à esquerda do centro de administração do Microsoft Teams, vá para políticas de configuração de **aplicativos do teams**  >  .
 2. Clique em **Adicionar**.
 3. Ative ou desative **carregar aplicativos personalizados**.
 4. Escolha qualquer outra configuração que você queira para a política.
@@ -80,7 +80,7 @@ Você pode editar as configurações na política de configuração do aplicativ
 
 ### <a name="team-custom-app-setting"></a>Configuração do aplicativo personalizado da equipe
 
-Administradores e proprietários de equipe podem controlar se uma equipe permite que aplicativos personalizados sejam adicionados a ele. Essa configuração, **permitir que os membros carreguem aplicativos personalizados**juntamente com a política de aplicativo personalizada de um usuário determina quem pode adicionar aplicativos personalizados a uma equipe específica.
+Administradores e proprietários de equipe podem controlar se uma equipe permite que aplicativos personalizados sejam adicionados a ele. Essa configuração, **permitir que os membros carreguem aplicativos personalizados** juntamente com a política de aplicativo personalizada de um usuário determina quem pode adicionar aplicativos personalizados a uma equipe específica.
  
 Se essa configuração estiver desativada:
 
@@ -95,14 +95,14 @@ Se essa configuração estiver ativada:
 #### <a name="configure-the-team-custom-app-setting"></a>Configurar a configuração do aplicativo personalizado da equipe
 
 1. No Microsoft Teams, vá para a equipe, clique em **mais opções ̇ ̇ ̇**  >  **Gerenciar equipe**.
-2. Clique em **configurações**e, em seguida, expanda **permissões do membro**.
+2. Clique em **configurações** e, em seguida, expanda **permissões do membro**.
 3. Marque ou desmarque a caixa de seleção **permitir que os membros carreguem aplicativos personalizados** .
 
     ![Captura de tela mostrando a configuração do aplicativo personalizado da equipe](media/teams-custom-app-policy-and-settings-team.png)
 
 ### <a name="org-wide-custom-app-setting"></a>Configuração de aplicativo personalizado em toda a organização
 
-A configuração **permitir interação com aplicativos personalizados** em toda a organização do aplicativo personalizado na página [gerenciar aplicativos](manage-apps.md) aplica-se a todos em sua organização e controla se eles podem ou não carregar ou interagir com aplicativos personalizados. Essa configuração substitui a configuração e a política de aplicativos personalizados do usuário e da equipe. Ele tem o objetivo de servir como uma chave mestre liga/desliga durante eventos de segurança.
+A configuração **permitir interação com aplicativos personalizados** em toda a organização do aplicativo personalizado na página [gerenciar aplicativos](manage-apps.md) aplica-se a todos em sua organização e controla se eles podem ou não carregar ou interagir com aplicativos personalizados. Essa configuração age como uma opção de ativar/desativar mestre para as configurações de política de aplicativo personalizadas do usuário e da equipe. Ele tem o objetivo de servir como uma chave mestre liga/desliga durante eventos de segurança. Assim, as configurações de política de aplicativo personalizado do usuário e da equipe não entrarão em vigor, a menos que a configuração de aplicativo personalizada em toda a organização esteja habilitada, mesmo se as configurações de política de aplicativo personalizado do usuário e da equipe estiverem
 
 #### <a name="configure-the-org-wide-custom-app-setting"></a>Configurar a configuração de aplicativo personalizado em toda a organização
 

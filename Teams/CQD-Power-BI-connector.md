@@ -15,12 +15,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: Instalar o conector do Power BI para usar modelos de consulta do painel de qualidade de chamada (CQD)
-ms.openlocfilehash: 04bab862c13652e7a509a96c98bac0eaac699b85
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: c3812032f385a3428feec7f1126663e815af1b52
+ms.sourcegitcommit: 4386f4b89331112e0d54943dc3133791d5dca3fb
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46584050"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "49611575"
 ---
 # <a name="install-power-bi-connector-to-use-cqd-query-templates"></a>Instalar o conector do Power BI para usar modelos de consulta CQD
 
@@ -30,15 +30,18 @@ Leia [use o Power bi para analisar os dados do CQD para](CQD-Power-BI-query-temp
 
 Verifique se você tem a [função de acesso CQD](https://docs.microsoft.com/microsoftteams/turning-on-and-using-call-quality-dashboard#assign-roles-for-accessing-cqd) certa para acessar os relatórios do Power bi.
 
+> [!NOTE]
+> O conector do Power BI CQD só tem suporte para DirectQuery no Power BI; Não há suporte para o modo de importação. 
+
 ## <a name="installation"></a>Instalação
 
 O processo para instalar um conector personalizado e ajustar a segurança para permitir o uso do conector é descrito em detalhes na [documentação do Power bi](https://docs.microsoft.com/power-bi/desktop-connector-extensibility). Para simplificar, veja a seguir uma explicação rápida:
 
-1. Verifique se o seu computador já tem uma pasta de * \[ \] \\ \\ conectores personalizados da área de trabalho do Power bi desktop*   . Caso contrário, crie essa pasta. <sup>1</sup>
+1. Verifique se o seu computador já tem uma pasta de *\[ \] \\ \\ conectores personalizados da área de trabalho do Power bi desktop* . Caso contrário, crie essa pasta. <sup>1</sup>
 
-2. Baixe o arquivo do conector (um arquivo * \* . Mez* ou * \* . pqx* ) e coloque-o no diretório de *conectores personalizados* .
+2. Baixe o arquivo do conector (um arquivo *\* . Mez* ou *\* . pqx* ) e coloque-o no diretório de *conectores personalizados* .
 
-3. **Se o arquivo do conector for um arquivo * \* . Mez* ,** você também precisará ajustar as configurações de segurança conforme descrito na [documentação de instalação do conector personalizado](https://docs.microsoft.com/power-bi/desktop-connector-extensibility#data-extension-security).
+3. **Se o arquivo do conector for um arquivo *\* . Mez* ,** você também precisará ajustar as configurações de segurança conforme descrito na [documentação de instalação do conector personalizado](https://docs.microsoft.com/power-bi/desktop-connector-extensibility#data-extension-security).
 
 Se uma nova versão deste conector do Power BI para Microsoft Teams for lançada, basta substituir o arquivo de conector antigo no diretório de *conectores personalizados* pelo novo arquivo.
 
@@ -50,11 +53,11 @@ Para criar um relatório e executar consultas, primeiro será necessário se con
 
     ![Captura de tela: conector do Power BI](media/CQD-power-bi-connector1-resize.png)
 
-2. A janela *obter dados* deve aparecer neste ponto. Navegue até *serviços online*e, em seguida, selecione *qualidade da chamada do Microsoft (beta)* e clique em *conectar*.
+2. A janela *obter dados* deve aparecer neste ponto. Navegue até *serviços online* e, em seguida, selecione *qualidade da chamada do Microsoft (beta)* e clique em *conectar*.
 
     ![Captura de tela: conector do Power BI](media/CQD-power-bi-connector2-resize.png)
 
-3. Você será solicitado a entrar em Login. Use as mesmas credenciais usadas para o CQD. <sup>2</sup>
+3. Você será solicitado a entrar em seguida. Use as mesmas credenciais usadas para o CQD. <sup>2</sup>
 
 4. O próximo prompt oferecerá a opção entre dois *modos de conectividade de dados*. Selecione *DirectQuery* e clique em *OK*.
 
@@ -62,7 +65,7 @@ Para criar um relatório e executar consultas, primeiro será necessário se con
 
 6. Nesse ponto, o Power BI carregará o modelo de dados no lado direito da janela. A página permanecerá em branco de outra forma, e nenhuma consulta será carregada por padrão. Vá para **criando consultas** abaixo para criar uma consulta e retornar dados.
 
-Se qualquer uma das etapas durante este processo de configuração não fosse completamente clara, uma explicação mais detalhada sobre o processo pode ser encontrada [aqui](https://docs.microsoft.com/power-bi/desktop-quickstart-connect-to-data).
+Se qualquer uma das etapas durante este processo de configuração não fosse completamente desmarcada, uma explicação mais detalhada do processo pode ser encontrada no [início rápido: conectar-se a dados no Power bi desktop](https://docs.microsoft.com/power-bi/desktop-quickstart-connect-to-data).
 
 ## <a name="building-queries"></a>Criando consultas
 
@@ -152,7 +155,7 @@ Se você encontrar erros adicionais fora desse escopo, notifique a equipe do CQD
 
 ## <a name="footnotes"></a>Notas
 
-**<sup>1</sup>** alguns processos e aplicativos (por exemplo, o onedrive) podem fazer com que a pasta raiz dos seus documentos seja alterada; Verifique se o diretório de * \\ conectores personalizados da área de trabalho do Power bi* está colocado dentro da pasta de documentos da pasta raiz atual.
+**<sup>1</sup>** alguns processos e aplicativos (por exemplo, o onedrive) podem fazer com que a pasta raiz dos seus documentos seja alterada; Verifique se o diretório de *\\ conectores personalizados da área de trabalho do Power bi* está colocado dentro da pasta de documentos da pasta raiz atual.
 
 **<sup>2</sup>** as credenciais de logon que você usa para o CQD *não* precisam ter as mesmas credenciais que você usa para fazer logon no próprio aplicativo da área de trabalho do Power bi.
 
@@ -175,7 +178,7 @@ Para obter mais informações, consulte os seguintes artigos:
 
 O limite de linha de 10.000 é realmente especificado no final da API, e ele foi projetado para ajudar a melhorar significativamente o desempenho e reduzir o risco de erros de execução de consulta resultantes de condições de memória insuficiente.
 
-Em vez de tentar aumentar a contagem de linhas do resultado, é melhor reestruturar seus relatórios de acordo com as práticas recomendadas do conector. Os modelos incluídos foram projetados para demonstrar essas práticas recomendadas. Sempre que possível, comece examinando seus KPIs usando dimensões mais amplas e inferiores de cardinalidade, como mês, ano, data, região, país, etc. De lá, você pode fazer uma busca detalhada em dimensões de cardinalidade cada vez mais altos. Os relatórios de helpdesk e local-avançado fornecem bons exemplos de fluxo de trabalho de busca detalhada.
+Em vez de tentar aumentar a contagem de linhas do resultado, é melhor reestruturar seus relatórios de acordo com as práticas recomendadas do conector. Os modelos incluídos foram projetados para demonstrar essas práticas recomendadas. Sempre que possível, comece examinando seus KPIs usando dimensões mais amplas e inferiores de cardinalidade, como mês, ano, data, região, país, etc. De lá, você pode fazer uma busca detalhada em dimensões de cardinalidade cada vez mais altos. Os relatórios do helpdesk e do Location-Enhanced fornecem bons exemplos de fluxo de trabalho de busca detalhada.
 
 
 

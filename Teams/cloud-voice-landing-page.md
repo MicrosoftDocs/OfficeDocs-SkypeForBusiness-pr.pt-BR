@@ -23,12 +23,12 @@ search.appverid: MET150
 description: Saiba mais sobre os recursos de voz do Microsoft Teams Cloud e as decisões de implantação que você fará para sua organização.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 464f3591d86879db5830ca0abbea1bfbff538cec
-ms.sourcegitcommit: 4dd8a326a7284872f0d14e0a61bd4fcbe2297c10
+ms.openlocfilehash: c392e9a1e2944c573ddfa63da3aa27f56b2380d7
+ms.sourcegitcommit: 4386f4b89331112e0d54943dc3133791d5dca3fb
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49071762"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "49611683"
 ---
 # <a name="plan-your-teams-voice-solution"></a>Planejar a solução de voz do teams 
 
@@ -36,7 +36,7 @@ Este artigo ajuda você a decidir qual solução Microsoft Voice é ideal para s
 
 Você pode querer o sistema de telefonia da solução mais simples &mdash; com plano de chamadas. Esta é a solução completa da Microsoft que fornece funcionalidade de PBX (Private Branch Exchange) e chamadas para a rede telefônica pública comutada (PSTN), conforme mostrado no diagrama a seguir. Com esta solução, a Microsoft é a sua operadora PSTN.
 
-![O diagrama 1 mostra o sistema telefônico com plano de chamada](media/msft-voice-solutions-1.png)
+![O diagrama 1 mostra o sistema telefônico com plano de chamada](media/voice-solutions-simple.png)
 
 Se você responder sim para o seguinte, o sistema telefônico com plano de chamadas será a solução certa para você:
 
@@ -62,6 +62,9 @@ No entanto, sua situação pode ser mais complexa. Por exemplo, você pode ter e
 
 **Dependendo dos seus requisitos.** Algumas das seções neste artigo são pertinentes dependendo da implantação e dos requisitos existentes. Por exemplo, Location-Based roteamento só é necessário para os clientes de roteamento direto em locais geográficos que não permitem o bypass de chamada tarifada.
 
+Considere quais dessas configurações adicionais você pode precisar:
+
+![O diagrama 2 mostra outros componentes de voz, como números de telefone da Microsoft, planos de discagem e encaminhamento de chamadas, etc.](media/voice-consider-additional-components.png)
 
 | Dependendo dos seus requisitos | Descrição |
 | :------------|:-------|
@@ -91,6 +94,8 @@ Este artigo apresenta os seguintes recursos e funcionalidades importantes do sis
 - [Atendedores automáticos e filas de chamadas](#auto-attendants-and-call-queues)
 - [Caixa Postal da Nuvem](#cloud-voicemail)
 - [Identidade de chamada](#calling-identity)
+
+![O diagrama 3 mostra o sistema telefônico contém atendedores automáticos e consultas de chamada, correio de voz na nuvem e identidade de chamada](media/phone-system-contains.png)
 
 Para saber mais sobre todos os recursos do sistema telefônico e como configurar o sistema telefônico, confira os seguintes artigos:
 
@@ -145,7 +150,7 @@ Você também pode escolher uma combinação de opções, que permite que você 
 
 Conforme descrito anteriormente neste artigo, sistema telefônico com plano de chamadas é a solução completa de voz da Microsoft para usuários do teams. Esta é a opção mais simples que conecta o sistema telefônico da Microsoft à rede telefônica pública comutada (PSTN) para permitir chamadas para telefones fixos e celulares em todo o mundo. Com essa opção, a Microsoft oferece funcionalidade de PBX (Private Branch Exchange) para sua organização e age como sua operadora PSTN, conforme mostrado no diagrama a seguir:
 
-![O diagrama 1 mostra o sistema telefônico com plano de chamada](media/msft-voice-solutions-1a.png)
+![O diagrama 4 mostra o sistema telefônico com atendedores automáticos, filas de chamadas, identificação de chamadas e muito mais e a Microsoft como a operadora PSTN](media/voice-solution-microsoft-complete.png)
 
 Se você responder sim para o seguinte, o sistema telefônico com plano de chamadas será a solução certa para você:
 
@@ -175,7 +180,7 @@ Para obter mais informações sobre o plano de chamada, consulte os seguintes ar
 
 Esta opção conecta o sistema telefônico da Microsoft à sua rede de telefonia usando o roteamento direto, conforme mostrado no diagrama a seguir: 
 
-![O diagrama 2 mostra o sistema telefônico com roteamento direto](media/msft-voice-solutions-2.png)
+![O diagrama 5 mostra o sistema telefônico com roteamento direto](media/voice-solution-with-direct-routing.png)
 
 Se você responder sim para as seguintes perguntas, o sistema telefônico com roteamento direto é a solução certa para você:
 
@@ -212,7 +217,6 @@ Para obter mais informações sobre o roteamento direto, consulte os seguintes a
 - [Gerenciar políticas de roteamento de voz para uso com roteamento direto](manage-voice-routing-policies.md)
 - [Planejar o Roteamento baseado na localização para o Roteamento direto](location-based-routing-plan.md)
 - [Lista de controladores de borda da sessão certificados para Roteamento Direto](direct-routing-border-controllers.md)
-
 
 ## <a name="phone-numbers-from-microsoft"></a>Números de telefone da Microsoft
 

@@ -1,7 +1,7 @@
 ---
 title: Implantar salas do Microsoft Teams com o Microsoft 365 ou o Office 365
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta
@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 ms.assetid: f09f4c2a-2608-473a-9a27-f94017d6e9dd
 description: Leia este tópico para obter informações sobre como implantar salas do Microsoft Teams com o Microsoft 365 ou o Office 365, em que o Teams ou o Skype for Business e o Exchange estão online.
-ms.openlocfilehash: ee1f4da5cbcb65ab58c032ac651e0b563167a35b
-ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
+ms.openlocfilehash: 4b5bd3967d3a1fcc8859cf4da8b039418819cb4e
+ms.sourcegitcommit: 07afc959fec802db583e7111280d0035fdb6e412
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/15/2020
-ms.locfileid: "47814790"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "49616885"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-microsoft-365-or-office-365"></a>Implantar salas do Microsoft Teams com o Microsoft 365 ou o Office 365
 
@@ -84,7 +84,6 @@ Para obter detalhes sobre os planos do Skype for Business Online, consulte a [De
 
    Para obter informações detalhadas sobre a sintaxe e o parâmetro, consulte [novo-Mailbox](https://docs.microsoft.com/powershell/module/exchange/mailboxes/new-mailbox) e [Set-Mailbox](https://docs.microsoft.com/powershell/module/exchange/mailboxes/set-mailbox).
 
-
 3. No PowerShell do Exchange Online, defina as seguintes configurações na caixa de correio da sala para melhorar a experiência da reunião:
 
    - AutomateProcessing: a aceitação autoaceitar (os organizadores de reunião recebem a decisão de reserva de sala diretamente sem intervenção humana: grátis = aceitar; Busy = recusar.)
@@ -109,16 +108,17 @@ Para obter detalhes sobre os planos do Skype for Business Online, consulte a [De
 
    Para obter informações detalhadas de sintaxe e parâmetro, consulte [Set-CalendarProcessing](https://docs.microsoft.com/powershell/module/exchange/mailboxes/set-calendarprocessing).
 
-4. Conecte-se ao MS online PowerShell para fazer as configurações do Active Directory executando o `Connect-MsolService -Credential $cred` cmdlet do PowerShell.   Para obter detalhes sobre o Active Directory, consulte [Azure ActiveDirectory (MSOnline) 1,0](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-1.0). 
+4. Conecte-se ao MS online PowerShell para fazer as configurações do Active Directory executando o `Connect-MsolService -Credential $cred` cmdlet do PowerShell. Para obter detalhes sobre o Active Directory, consulte [Azure ActiveDirectory (MSOnline) 1,0](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-1.0).
 
    > [!NOTE]
-   > Não há suporte para o [Azure Active Directory PowerShell 2,0](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-2.0) . 
+   > Não há suporte para o [Azure Active Directory PowerShell 2,0](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-2.0) .
 
 5. Se você não quiser que a senha expire, use a seguinte sintaxe:
 
    ```PowerShell
    Set-MsolUser -UserPrincipalName <upn> -PasswordNeverExpires $true
    ```
+
    <!--
    ```PowerShell
    Set-AzureADUserPassword -UserPrincipalName <Account> -EnforceChangePasswordPolicy $false
@@ -127,12 +127,12 @@ Para obter detalhes sobre os planos do Skype for Business Online, consulte a [De
    Este exemplo define a senha da conta Rigel1@contoso.onmicrosoft.com para nunca expirar.
 
    ```PowerShell
-   $acctUpn="Rigel1@contoso.onmicrosoft.com"
-   Set-MsolUser -UserPrincipalName $acctUpn -PasswordNeverExpires $true
+   Set-MsolUser -UserPrincipalName "Rigel1@contoso.onmicrosoft.com" -PasswordNeverExpires $true
    ```
+
    <!-- 
    ```PowerShell
-   Set-AzureADUserPassword -UserPrincipalName Rigel1@contoso.onmicrosoft.com -EnforceChangePasswordPolicy $false
+   Set-AzureADUserPassword -UserPrincipalName "Rigel1@contoso.onmicrosoft.com" -EnforceChangePasswordPolicy $false
    ``` -->
 
    Você também pode definir um número de telefone para a conta executando o seguinte comando:
@@ -140,6 +140,7 @@ Para obter detalhes sobre os planos do Skype for Business Online, consulte a [De
    ```PowerShell
    Set-MsolUser -UserPrincipalName <upn> -PhoneNumber <phone number>
    ```
+
    <!-- 
    ```PowerShell
    Set-AzureADUser -UserPrincipalName <Account> -PhoneNumber "<PhoneNumber>"
@@ -150,32 +151,37 @@ Para obter detalhes sobre os planos do Skype for Business Online, consulte a [De
    ```Powershell
    Get-MsolAccountSku
    ```
+
    <!--
    ```Powershell
    Get-AzureADSubscribedSku | Select -Property Sku*,ConsumedUnits -ExpandProperty PrepaidUnits
    ```  -->
 
-   Em seguida, você pode adicionar uma licença usando o `Set-MsolUserLicense` <!--Set-AzureADUserLicense --> cmdlet. Nesse caso, $strLicense é o código de SKU que você vê (por exemplo, contoso:STANDARDPACK).
+   Em seguida, você pode adicionar uma licença usando o `Set-MsolUserLicense` <!--Set-AzureADUserLicense --> cmdlet. Este exemplo adiciona a licença da sala de reunião à conta:
 
    ```PowerShell
-   $acctUpn="Rigel1@contoso.onmicrosoft.com"
-   Set-MsolUser -UserPrincipalName $acctUpn -UsageLocation "US"
-   Get-MsolAccountSku
-   Set-MsolUserLicense -UserPrincipalName $acctUpn -AddLicenses $strLicense
-   ``` 
+   Set-MsolUser -UserPrincipalName "Rigel1@contoso.onmicrosoft.com" -UsageLocation "US"
+   Set-MsolUserLicense -UserPrincipalName $acctUpn -AddLicenses "Contoso:MEETING_ROOM"
+   ```
+
    <!-- 
    ```Powershell
-   Set-AzureADUserLicense -UserPrincipalName $acctUpn -UsageLocation "US"
-   Get-AzureADSubscribedSku
-   Set-AzureADUserLicense -UserPrincipalName $acctUpn -AddLicenses $strLicense
+   Set-AzureADUser -UserPrincipalName "Rigel1@contoso.onmicrosoft.com" -UsageLocation "US"
+   Set-AzureADUserLicense -UserPrincipalName "Rigel1@contoso.onmicrosoft.com" -AddLicenses "Contoso:MEETING_ROOM"
    ```   -->
 
    Para obter instruções detalhadas, consulte [atribuir licenças a contas de usuário com o Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell#use-the-microsoft-azure-active-directory-module-for-windows-powershell).
 
+   Você também pode adicionar recursos do sistema telefônico a essa conta, mas é preciso configurá-lo primeiro. Veja [o que é o sistema de telefonia?](../what-is-phone-system-in-office-365.md) para obter mais detalhes. Este exemplo adiciona o plano de chamadas PSTN internacionais e domésticas:
+
+   ```PowerShell
+   Set-MsolUserLicense -UserPrincipalName rigel1@contoso.onmicrosoft.com -AddLicenses "Contoso:MCOPSTN2"
+   ```
+
 7. Em seguida, você precisa habilitar a conta do dispositivo com o Skype for Business. Certifique-se de que seu ambiente atenda aos requisitos definidos nos [requisitos de salas do Microsoft Teams](requirements.md).
 
    Inicie uma sessão remota do [Windows PowerShell](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell) da seguinte maneira (certifique [-se de instalar os componentes do PowerShell do Skype for Business online](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/download-and-install-the-skype-for-business-online-connector)):
-   
+
 > [!NOTE]
 > O conector do Skype for Business online atualmente faz parte do módulo do PowerShell mais recente do teams.
 >
@@ -183,78 +189,24 @@ Para obter detalhes sobre os planos do Skype for Business Online, consulte a [De
 
    ``` Powershell
    Import-Module -Name MicrosoftTeams  
-   $cssess=New-CsOnlineSession -Credential $cred  
+   $cssess = New-CsOnlineSession -Credential $cred  
    Import-PSSession $cssess -AllowClobber
+   ```
+
+   Obtenha as informações de RegistrarPool da nova conta de usuário que está sendo configurada, conforme mostrado neste exemplo:
+
+   ``` Powershell
+    Get-CsOnlineUser -Identity "Rigel1@contoso.onmicrosoft.com" | Select -Expand RegistrarPool
    ```
 
    Em seguida, habilite a sua conta de salas do Microsoft Teams para o Skype for Business Server executando o seguinte cmdlet:
 
    ``` Powershell
-   $rm="Rigel1@contoso.onmicrosoft.com"
-   Enable-CsMeetingRoom -Identity $rm -RegistrarPool "sippoolbl20a04.infra.lync.com" -SipAddressType EmailAddress
+   Enable-CsMeetingRoom -Identity "Rigel1@contoso.onmicrosoft.com" -RegistrarPool "sippoolbl20a04.infra.lync.com" -SipAddressType EmailAddress
    ```
 
-   Obtenha as informações de RegistrarPool da nova conta de usuário que está sendo configurada, conforme mostrado neste exemplo:
-
-    ``` Powershell
-    $rm="Rigel1@contoso.onmicrosoft.com"
-    Get-CsOnlineUser -Identity $rm | Select -Expand RegistrarPool
-    ```
-
-    > [!NOTE]
-    > New user accounts might not be created on the same registrar pool as existing user accounts in the tenant. The command above will prevent errors in account setup due to this situation.
-
-### <a name="assign-a-license-to-your-account"></a>Atribuir uma licença à conta
-
-1. Faça logon como administrador de locatários, abra o centro de administração do Microsoft 365 e clique no aplicativo de administração.
-
-2. Clique em **Usuários e Grupos** e clique em **Adicionar usuários, redefinir senhas e muito mais**.
-
-3. Selecione a conta de salas do Microsoft Teams e, em seguida, clique ou toque no ícone de caneta, o que significa editar.
-
-4. Clique na opção **Licenças**.
-
-5. Na seção **atribuir licenças** , você precisa selecionar o Skype for Business online (plano 2) ou o Skype for Business online (plano 3), dependendo do seu licenciamento e do que você decidiu em termos de necessidade do Enterprise Voice. Você terá que usar uma licença do plano 3 se quiser usar o Cloud PBX em salas do Microsoft Teams. O CloudPBX será necessário como requisito mínimo para habilitar a conectividade de voz. Em seguida, configure as chamadas PSTN ou de voz híbridas com base no método de conectividade PSTN. Consulte [licenças de salas do Microsoft Teams](rooms-licensing.md) para obter mais detalhes.
-
-6. Clique em **Salvar** para concluir a tarefa.
-
-## <a name="sample-room-account-setup-in-exchange-online-and-skype-for-business-online"></a>Exemplo: configuração da conta de sala no Exchange Online e no Skype for Business Online
-
-Comandos do PowerShell do Exchange Online:
-
-``` Powershell
-New-Mailbox -MicrosoftOnlineServicesID Rigel1@contoso.onmicrosoft.com -Alias rigel1 -Name "Rigel 1" -Room -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String '<Password>' -AsPlainText -Force)
-
-Set-CalendarProcessing -Identity rigel1 -AutomateProcessing AutoAccept -AddOrganizerToSubject $false -DeleteComments $false -DeleteSubject $false -RemovePrivateProperty $false -AddAdditionalResponse $true
--AdditionalResponse "This is a Rigel room!"
-```
-
-Comandos do PowerShell do Azure Active Directory:
-
-``` PowerShell
-Set-MsolUser -UserPrincipalName rigel1@contoso.onmicrosoft.com -PasswordNeverExpires $true -UsageLocation "US"
-Set-MsolUserLicense -UserPrincipalName rigel1@contoso.onmicrosoft.com -AddLicenses "sfblab:O365_BUSINESS_PREMIUM"
-Set-MsolUserLicense -UserPrincipalName rigel1@contoso.onmicrosoft.com -AddLicenses "sfblab:MCOEV"
-Set-MsolUserLicense -UserPrincipalName rigel1@contoso.onmicrosoft.com -AddLicenses "sfblab:MCOPSTN2"
-```
-
-<!-- 
-``` PowerShell
-Set-AzureADUserLicense -UserPrincipalName rigel1@contoso.onmicrosoft.com -PasswordNeverExpires $true -UsageLocation "US"
-Set-AzureADUserLicense -UserPrincipalName rigel1@contoso.onmicrosoft.com -AddLicenses "sfblab:O365_BUSINESS_PREMIUM"
-Set-AzureADUserLicense -UserPrincipalName rigel1@contoso.onmicrosoft.com -AddLicenses "sfblab:MCOEV"
-Set-AzureADUserLicense -UserPrincipalName rigel1@contoso.onmicrosoft.com -AddLicenses "sfblab:MCOPSTN2"
-```  -->
-
-Comando do PowerShell do Skype for Business:
-
-``` PowerShell
-Enable-CsMeetingRoom -Identity rigel1@contoso.onmicrosoft.com -RegistrarPool sippooldm21a05.infra.lync.com
--SipAddressType EmailAddress
-```
-
-> [!NOTE]
-> Assim, você adiciona CloudPBX e PSTNCallingDomesticAndInternational. Além disso, será necessário usar a interface do administrador para atribuir um número de telefone.
+   > [!NOTE]
+   > Não é possível criar novas contas de usuário no mesmo pool de registradores como contas de usuário existentes no locatário. O comando acima impedirá erros na configuração da conta devido a essa situação.
 
 ## <a name="validate"></a>Válida
 

@@ -1,7 +1,7 @@
 ---
 title: Assistente do teams for Education Policy para aplicar facilmente as políticas de aprendizado seguro
-author: lanachin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.reviewer: shajohri, angch
 ms.topic: article
@@ -18,12 +18,12 @@ search.appverid: MET150
 description: Saiba como usar o assistente de política do teams para educação para aplicar facilmente as políticas para alunos e professores para manter seu ambiente de aprendizagem seguro.
 f1keywords: ''
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: d72ef20a8ae56fba67534944d229d01468531207
-ms.sourcegitcommit: 80c1ec1d5a43b9259a4da6db3e462f6d4257bfa7
+ms.openlocfilehash: 0101248cb5e3fb8cdea30128482e7f9313afc2e0
+ms.sourcegitcommit: 07afc959fec802db583e7111280d0035fdb6e412
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "49564247"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "49616915"
 ---
 # <a name="use-the-teams-for-education-policy-wizard-to-easily-apply-policies-for-a-safe-learning-environment"></a>Usar o assistente de políticas para educação para aplicar facilmente políticas para um ambiente de aprendizagem seguro
 
@@ -68,17 +68,17 @@ Agora, vamos começar!
 
 <a name="polwiz_run"> </a>
 
-Siga estas etapas para executar o assistente. 
+Siga estas etapas para executar o assistente.
 
 1. Se você não tem experiência com o Microsoft Teams, o assistente é iniciado automaticamente. Caso contrário, você pode iniciar o assistente a qualquer momento a partir do painel. Na navegação à esquerda do centro de administração do Microsoft Teams, vá até **painel** e, em seguida, na **configuração de política fácil para um ambiente de aprendizagem seguro** , selecione **configuração rápida**.
 
     :::image type="content" source="media/easy-policy-setup-quick-setup.png" alt-text="Captura de tela do assistente no painel":::
 
-2. Selecione seu tipo de instituição educacional (educação **primária ou secundária** ou **educação superior**) e, em seguida, clique em **Avançar**.
+2. Selecione seu tipo de instituição educacional (educação **primária ou secundária** ou **educação superior**) e, em seguida, selecione **Avançar**.
 
     :::image type="content" source="media/easy-policy-setup-institution-type.png" alt-text="Captura de tela da página no Assistente para selecionar o tipo de instituição":::
 
-3. Procure e selecione um grupo que contenha seus professores e funcionários e clique em **Avançar**. Se você ainda não tiver grupos configurados para seus professores e funcionários, [crie um grupo](https://docs.microsoft.com/microsoft-365/admin/create-groups/create-groups)e execute o assistente novamente. <br/><br/>No momento, você só pode selecionar um grupo. Educadores e funcionários do grupo que você selecionar receberão [um conjunto de políticas personalizadas](#policies-applied-by-the-wizard) adaptado às suas necessidades. Lembre-se de que esse conjunto de políticas é separado das políticas aplicadas aos alunos.
+3. Procure e selecione um grupo que contenha seus professores e funcionários e, em seguida, selecione **Avançar**. Se você ainda não tiver grupos configurados para seus professores e funcionários, [crie um grupo](https://docs.microsoft.com/microsoft-365/admin/create-groups/create-groups)e execute o assistente novamente. <br/><br/>No momento, você só pode selecionar um grupo. Educadores e funcionários do grupo que você selecionar receberão [um conjunto de políticas personalizadas](#policies-applied-by-the-wizard) adaptado às suas necessidades. Lembre-se de que esse conjunto de políticas é separado das políticas aplicadas aos alunos.
 
     :::image type="content" source="media/easy-policy-setup-group.png" alt-text="Captura de tela da página no Assistente para selecionar o grupo professor e equipe":::
 
@@ -130,7 +130,7 @@ Por exemplo, você atribuiu uma política de reunião diretamente a educadores e
 
 ### <a name="step-2-check-for-additional-measures-that-you-can-take-for-student-safety"></a>Etapa 2: verificar medidas adicionais que você pode tomar para a segurança do aluno
 
-O assistente ajusta automaticamente e aplica [essas políticas](#policies-applied-by-the-wizard). Há algumas medidas adicionais que você pode tomar com base nas necessidades da sua instituição para ficar seguro.
+O assistente ajusta automaticamente e aplica [essas políticas](#policies-applied-by-the-wizard). Há poucas medidas adicionais, que você pode tomar com base nas necessidades da sua instituição para ficar seguro.
 
 Veja como [manter os alunos seguros ao usar o Teams for Distance Learning](https://support.microsoft.com/office/keeping-students-safe-while-using-teams-for-distance-learning-f00fa399-0473-4d31-ab72-644c137e11c8#ID0EBBAAA) para obter recomendações de segurança adicional.
 
@@ -140,7 +140,7 @@ Veja como [manter os alunos seguros ao usar o Teams for Distance Learning](https
 
 Atualmente, o assistente aplica nossas políticas recomendadas quando você a executa. É importante saber que, conforme novas políticas são disponibilizadas no Teams, as configurações globais (padrão para toda a organização) para a segurança do aluno não são adicionadas automaticamente pelo assistente. Esta funcionalidade estará disponível em uma versão futura.
 
-Até que essa funcionalidade esteja disponível, marque a [central de mensagens](https://admin.microsoft.com/AdminPortal/Home?#/MessageCenter) (no centro de administração do Microsoft 365) com frequência para manter-se atualizado sobre novas políticas e configurações de política no Teams. À medida que novos recursos ficarem disponíveis, talvez seja necessário atualizar manualmente suas políticas para manter seu ambiente de aprendizagem seguro.
+Até que essa funcionalidade esteja disponível, verifique o [centro de mensagens](https://admin.microsoft.com/AdminPortal/Home?#/MessageCenter) (no centro de administração do Microsoft 365) com frequência para se manter atualizado sobre novas políticas e configurações de política no Teams. À medida que novos recursos ficarem disponíveis, talvez seja necessário atualizar manualmente suas políticas para manter seu ambiente de aprendizagem seguro.
 
 ## <a name="make-changes-in-the-wizard"></a>Fazer alterações no assistente
 

@@ -18,24 +18,21 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Saiba mais sobre o repositório de aplicativos personalizados no Microsoft Teams.
-ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: da1f2fc30157588df034aa5d3da44eae14fc2f2a
-ms.sourcegitcommit: 273f231098799975dc4cf609a68c9944b8072ce1
+ms.openlocfilehash: 9a7652550e34dc40e6e6d315f1c5c3b590067610
+ms.sourcegitcommit: 4386f4b89331112e0d54943dc3133791d5dca3fb
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "48818811"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "49611825"
 ---
 # <a name="custom-apps-store-in-microsoft-teams"></a>Repositório de aplicativos personalizados no Microsoft Teams
 
-[!INCLUDE [template](includes/preview-feature.md)]
-
-Agora você pode personalizar a loja de aplicativos do teams com sua identidade visual da sua organização adicionando seu logotipo, planos de fundo personalizados e cores de texto personalizadas para fazer com que seja mais convidada aos usuários finais.
+Agora você pode personalizar a loja de aplicativos da sua organização no Microsoft Teams com a identidade visual da sua empresa adicionando seu logotipo, planos de fundo personalizados e cores de texto personalizadas para fazer com que seja mais convidada para os usuários finais.
 
 > [!Note]
 > As alterações na identidade visual exigem que 24 horas entrem em vigor.
 
-Você pode acessar a loja Personalizar no centro de administração, selecionando aplicativos de personalização de **aplicativos do teams**  >  **Customize store** .
+Você pode acessar a loja Personalizar no centro de administração, selecionando aplicativos de personalização de **aplicativos do teams**  >  .
 
   ![Recurso Personalizar repositório do console de administração realçado](media/customize-app-store.png)
 
@@ -88,7 +85,7 @@ Suas opções são:
   - . svg
   - . png
   - . jpg
-- Escolha um plano de fundo personalizado. Quando você seleciona **escolher uma cor personalizada** , um seletor de cores é aberto. Selecione a cor desejada ajustando a escala do seletor de cores.
+- Escolha um plano de fundo personalizado. Quando você seleciona **escolher uma cor personalizada**, um seletor de cores é aberto. Selecione a cor desejada ajustando a escala do seletor de cores.
 
 A imagem de plano de fundo ou a cor são usadas como plano de fundo para a faixa superior no catálogo de aplicativos do locatário do teams.
 
@@ -100,7 +97,7 @@ A imagem de plano de fundo ou a cor são usadas como plano de fundo para a faixa
 
 Verifique se a cor do texto tem contraste suficiente com o plano de fundo para que os usuários possam ler claramente o nome de sua organização. O texto será exibido no cliente do teams em **aplicativos**  >  **criados para o cabeçalho do locatário** .
 
-Quando você seleciona **escolher uma cor personalizada** , um seletor de cores é aberto. Selecione a cor desejada ajustando a escala do seletor de cores.
+Quando você seleciona **escolher uma cor personalizada**, um seletor de cores é aberto. Selecione a cor desejada ajustando a escala do seletor de cores.
 
  ![Imagem de um seletor de cores](media/choose-a-custom-color.png)
 
@@ -108,6 +105,8 @@ Quando você seleciona **escolher uma cor personalizada** , um seletor de cores 
 
 Quando terminar de personalizar o repositório de aplicativos, selecione **salvar** para salvar as alterações.
 Para visualizar suas alterações, selecione **Visualizar aplicativos da loja** para ver uma representação de seu armazenamento de aplicativos personalizados.
+
+ ![visualização da loja de aplicativos personalizados](media/app-store1.jpg)
 
 > [!Note]
 > A representação pode variar da versão final do seu armazenamento de aplicativos personalizados porque algumas cores padrão se baseiam na versão do cliente das equipes dos seus usuários.

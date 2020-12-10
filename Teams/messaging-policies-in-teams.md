@@ -20,12 +20,12 @@ ms.custom:
 - ms.teamsadmincenter.messagingpolicies.overview
 - seo-marvel-apr2020
 description: Neste artigo, você aprenderá sobre as políticas de mensagens e como elas podem ser usadas para controlar as mensagens de chat no Microsoft Teams.
-ms.openlocfilehash: 0a548eee32fc196157b6a363dd0427b187e52112
-ms.sourcegitcommit: 34f407a6a40317056005e3bf38ce58f792c04810
+ms.openlocfilehash: 050f072a2148be909dbaabd4ac8ab53c1e5bb298
+ms.sourcegitcommit: 4386f4b89331112e0d54943dc3133791d5dca3fb
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "46814177"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "49611655"
 ---
 # <a name="manage-messaging-policies-in-teams"></a>Gerenciar políticas de mensagens no Teams
 
@@ -85,7 +85,7 @@ Aqui estão as configurações de política de mensagens que você pode configur
 <a name="bkchat"> </a>
 
 - **Chat**  Habilite essa configuração se quiser que os usuários da organização possam usar o aplicativo do Teams para conversar com outras pessoas.
-- **Usar Giphys em conversas**  Se você habilitar essa opção, os usuários poderão incluir Giphys em conversas de chat com outras pessoas. O Giphy é um mecanismo de pesquisa e banco de dados online que permite aos usuários pesquisar e compartilhar arquivos GIF animados. Cada Giphy recebe uma classificação de conteúdo.
+- **Usar Giphys em conversas**  Se você habilitar essa opção, os usuários poderão incluir Giphys em conversas de chat com outras pessoas. O Giphy é um mecanismo de pesquisa e banco de dados online que permite aos usuários pesquisar e compartilhar arquivos GIF animados. Cada Giphy recebe uma classificação de conteúdo. Observe que, além de ativar essa configuração, você também precisa habilitar [experiências conectadas opcionais](https://docs.microsoft.com/deployoffice/privacy/manage-privacy-controls#policy-setting-for-optional-connected-experiences) para permitir o Giphys nas conversas.
 - **Classificação de conteúdo Giphy**
     - **Sem restrições** Isso significa que os usuários poderão inserir qualquer Giphy em chats independentemente da classificação de conteúdo.
     - **Moderado**  Isso significa que seus usuários poderão inserir Giphys em chats, mas o conteúdo adulto será moderadamente restringido.

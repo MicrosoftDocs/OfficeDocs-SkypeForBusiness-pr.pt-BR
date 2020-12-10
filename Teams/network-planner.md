@@ -22,16 +22,16 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 14bdc08656cdce18fc25b38ca8d226ac0e70cf27
-ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
+ms.openlocfilehash: 9351c37c96e4bc11f0e5f93041f7e024158d7564
+ms.sourcegitcommit: 4386f4b89331112e0d54943dc3133791d5dca3fb
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49030617"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "49611795"
 ---
 # <a name="use-the-network-planner-for-microsoft-teams"></a>Usar o planejador de rede para o Microsoft Teams
 
-O planejador de rede é uma nova ferramenta que está disponível no centro de administração do teams. Ele pode ser encontrado **indo para o Planner**  >  **Network Planner**. Em apenas algumas etapas, o planejador de rede pode ajudá-lo a determinar e organizar os requisitos de rede para a conexão de usuários do Microsoft Teams em toda a sua organização. Quando você fornece os detalhes da rede e o uso das equipes, o planejador de rede calcula os requisitos de rede para a implantação de equipes e voz na nuvem nos locais físicos da sua organização.
+O planejador de rede é uma nova ferramenta que está disponível no centro de administração do teams. Ele pode ser encontrado em planejando o   >  **planejador de rede**. Em apenas algumas etapas, o planejador de rede pode ajudá-lo a determinar e organizar os requisitos de rede para a conexão de usuários do Microsoft Teams em toda a sua organização. Quando você fornece os detalhes da rede e o uso das equipes, o planejador de rede calcula os requisitos de rede para a implantação de equipes e voz na nuvem nos locais físicos da sua organização.
 
 ![Captura de tela do planejador de rede](media/network-planner.png)
 
@@ -80,9 +80,9 @@ Siga estas etapas para começar a criar seu plano de rede:
 
     1. Adicione um nome e uma descrição para o seu site.
 
-    2. Em **configurações de rede** , adicione o número de usuários da rede nesse site (obrigatório).
+    2. Em **configurações de rede**, adicione o número de usuários da rede nesse site (obrigatório).
 
-    3. Adicionar detalhes de rede: habilitados para WAN, capacidade WAN, egresso de Internet ( **local** ou **remota** ) e egresso PSTN (nenhum, local ou remota).
+    3. Adicionar detalhes de rede: habilitados para WAN, capacidade WAN, egresso de Internet (**local** ou **remota**) e egresso PSTN (nenhum, local ou remota).
 
       > [!NOTE]
       > Você deve adicionar números de capacidade de Internet e WAN para ver recomendações específicas de largura de banda ao gerar um relatório.

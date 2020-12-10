@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cacdcb89af5d588489028ef306a5a7f24b89f4d4
-ms.sourcegitcommit: e285f55a7e9563a2ab764d44805513d7bf1a3851
+ms.openlocfilehash: ff5a13d6b31527138b71d2ad3b2387f827933eda
+ms.sourcegitcommit: 07afc959fec802db583e7111280d0035fdb6e412
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/02/2020
-ms.locfileid: "49557945"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "49616945"
 ---
 # <a name="user-presence-in-teams"></a>Presença do usuário no Teams
 
@@ -97,7 +97,7 @@ As seguintes configurações de administrador do Skype for Business são diferen
 
 ## <a name="admin-settings-in-teams-compared-to-microsoft-outlook"></a>Configurações de administrador no Teams em comparação com o Microsoft Outlook
 
-A presença do Teams no Outlook é compatível com o aplicativo de área de trabalho do Outlook 2013 e posterior.
+A presença de equipes no Outlook é compatível com o aplicativo da área de trabalho do Outlook 2013 e posterior para contatos na mesma organização.
 
 Se a política do modo de atualização da conta de usuário estiver definida como TeamsOnly, o Outlook conversará com o Microsoft Teams para obter presença. Se a conta de usuário não estiver definida como TeamsOnly, o Outlook conversará com o Skype for Business.
 
