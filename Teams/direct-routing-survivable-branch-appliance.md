@@ -3,7 +3,7 @@ title: Encaminhamento direto SBA
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
-ms.date: 01/28/2019
+ms.date: 12/08/2020
 ms.topic: article
 ms.service: msteams
 audience: admin
@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5b30f8a435f256edc816ebeea075425fddeaf8bb
-ms.sourcegitcommit: 4386f4b89331112e0d54943dc3133791d5dca3fb
+ms.openlocfilehash: 3204bc58b083f62feca3f878d2189558b69af6bd
+ms.sourcegitcommit: 6b24c82837ca2c11f450a162ca4fab3dfa4ac8d4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/09/2020
-ms.locfileid: "49611785"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "49620720"
 ---
 # <a name="survivable-branch-appliance-sba-for-direct-routing---public-preview"></a>Aplicativo de ramificação sobreviventes (SBA) para roteamento direto-visualização pública
 
@@ -42,7 +42,7 @@ Este artigo descreve como usar um aparelho de ramificação sobreviventes (SBA) 
 
 ## <a name="prerequisites"></a>Pré-requisitos
 
-O SBA é um código distribuível fornecido pela Microsoft a fornecedores SBC que, em seguida, insere o código no firmware do seu SBCs. 
+O SBA é um código distribuível fornecido pela Microsoft a fornecedores SBC que, em seguida, insere código em seu firmware ou distribui-lo separadamente para ter o SBA executado em uma VM ou em um hardware separado. 
 
 Para obter o firmware do controlador de borda de sessão mais recente com o aparelho de ramificação sobreviventes incorporado, entre em contato com o fornecedor do SBC. Além disso, é necessário o seguinte:
 

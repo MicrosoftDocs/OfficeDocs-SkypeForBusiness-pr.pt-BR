@@ -23,12 +23,12 @@ ms.custom:
 - Phone System
 - seo-marvel-mar2020
 description: Compartilhamento de chamadas e retirada de chamadas em grupo permitem que os usuários compartilhem chamadas com colegas para que as chamadas possam ser capturadas quando o usuário não estiver disponível.
-ms.openlocfilehash: 6c97c2710e7dd5e9be896e0c79db786f3a4d81b2
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: 825e174a6b6f68adcc7b5aade212689b01309c24
+ms.sourcegitcommit: 6b24c82837ca2c11f450a162ca4fab3dfa4ac8d4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46582638"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "49620716"
 ---
 # <a name="call-sharing-and-group-call-pickup-in-microsoft-teams"></a>Compartilhamento de chamadas e atendimento de chamada em grupo no Microsoft Teams
 
@@ -36,7 +36,7 @@ Os recursos de compartilhamento de chamadas e retirada de chamadas de grupo do M
 
 O recebimento de chamadas em grupo é menos prejudicial aos destinatários do que outras formas de compartilhamento de chamadas (como encaminhamento de chamadas ou toque simultâneo) porque os usuários podem configurar como querem ser notificados sobre uma chamada compartilhada de entrada (via áudio e notificação Visual, somente Visual ou em faixa no aplicativo Teams) e podem decidir se devem atendê-la.
 
-Para compartilhar chamadas com outras pessoas, um usuário cria um grupo de chamada e adiciona os usuários com quem deseja compartilhar suas chamadas. Em seguida, escolha uma configuração de toque ou encaminhamento simultânea. Consulte [encaminhamento de chamadas e toque simultâneo no Teams](https://support.office.com/article/call-forwarding-and-simultaneous-ring-in-teams-a88da9e8-1343-4d3c-9bda-4b9615e4183e) para obter detalhes.
+Para compartilhar chamadas com outras pessoas, um usuário cria um grupo de chamada e adiciona os usuários com quem deseja compartilhar suas chamadas. Em seguida, escolha uma configuração de toque ou encaminhamento simultânea. Consulte [encaminhamento de chamadas e toque simultâneo no Teams](https://support.office.com/article/call-forwarding-and-simultaneous-ring-in-teams-a88da9e8-1343-4d3c-9bda-4b9615e4183e) para obter detalhes. Observe que os dispositivos móveis só serão notificados se estiverem definidos para faixa e toque.
 
 > [!IMPORTANT]
 > Os usuários, o proprietário do grupo de chamadas e os membros do grupo de chamadas devem estar no modo de implantação do teams only. Para obter mais detalhes sobre os modos de implantação do Teams, consulte [entender o Microsoft Teams e a coexistência e interoperabilidade do Skype for Business](teams-and-skypeforbusiness-coexistence-and-interoperability.md)
