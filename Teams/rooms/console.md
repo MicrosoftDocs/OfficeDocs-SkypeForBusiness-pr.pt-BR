@@ -1,7 +1,7 @@
 ---
 title: Configurar um console de Salas do Microsoft Teams
-ms.author: v-lanac
-author: lanachin
+ms.author: dstrome
+author: dstrome
 ms.reviewer: Travis-Snoozy
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 ms.assetid: dae1bfb6-7262-4030-bf53-dc3b3fe971ea
 description: Este artigo descreve como configurar e configurar o console de salas do Microsoft Teams e seus periféricos.
-ms.openlocfilehash: d5c1b7f47769d925f6d67527429971970b555044
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 7a36ed93f370c0aeb302da246b223732383719fb
+ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905443"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "49662056"
 ---
 # <a name="configure-a-microsoft-teams-rooms-console"></a>Configurar um console de Salas do Microsoft Teams
 
@@ -51,15 +51,15 @@ A instalação do aplicativo de console de salas do Microsoft Teams requer um di
 > [!IMPORTANT]
 > A máquina Windows 10 usada para criar a mídia de instalação de salas do Microsoft Teams deve estar na mesma versão ou mais recente do Windows como a mídia de instalação de destino.
   
-1. Baixe o [script CreateSrsMedia. ps1](https://go.microsoft.com/fwlink/?linkid=867842).
+1. Baixe o [ scriptCreateSrsMedia.ps1](https://go.microsoft.com/fwlink/?linkid=867842).
 2. Execute o script CreateSrsMedia.ps1 de um prompt com privilégios elevados em um computador Windows 10.
 3. Siga as instruções do script para criar um disco de instalação USB de salas do Microsoft Teams.
 
 
 > [!TIP]
-> Toda vez que o script CreateSrsMedia. ps1 for iniciado, a saída da tela incluirá o nome de um arquivo de log ou transcrição para a sessão. Se houver problemas com a execução do script, certifique-se de ter uma cópia dessa transcrição disponível ao solicitar suporte. 
+> Sempre que o script do CreateSrsMedia.ps1 for iniciado, a saída da tela incluirá o nome de um arquivo de log ou transcrição para a sessão. Se houver problemas com a execução do script, certifique-se de ter uma cópia dessa transcrição disponível ao solicitar suporte. 
 
-O script CreateSrsMedia. ps1 automatiza as seguintes tarefas:
+O script CreateSrsMedia.ps1 automatiza as seguintes tarefas:
 
 1. Baixe a versão mais recente do MSI Installer para salas do Microsoft Teams.
 2. Determine a compilação do Windows que o usuário deve fornecer. As versões lançadas mais recentemente podem ou não ser testadas e com suporte para uso com dispositivos de salas do Microsoft Teams.
@@ -101,7 +101,7 @@ Após o sistema ser desligado, é seguro remover o disco de instalação USB. Ne
 
 ### <a name="selecting-a-language"></a>Selecionando um idioma 
 
-Na atualização do criador, você precisará usar o script ApplyCurrentRegionAndLanguage. ps1 em cenários em que a seleção de linguagem implícita não forneça ao usuário o idioma real do aplicativo desejado (por exemplo, que eles querem que o aplicativo de console seja exibido em francês, mas está chegando em inglês).
+Na atualização do criador, você precisará usar o script ApplyCurrentRegionAndLanguage.ps1 em cenários em que a seleção de idioma implícita não forneça ao usuário o idioma real do aplicativo desejado (por exemplo, eles querem que o aplicativo de console seja exibido em francês, mas está chegando em inglês).
   
 > [!NOTE]
 > As instruções a seguir funcionam apenas para consoles criados usando a atualização do criador do Windows. Sistemas herdados/no mercado que não foram configurados usando mídia com o novo sistema de provisionamento não poderão usar essas instruções, mas também não devem ser de acordo com o problema inicial que exige essa intervenção manual (a edição de aniversário permite que você escolha o idioma do aplicativo explicitamente como parte da instalação).
@@ -116,7 +116,7 @@ Na atualização do criador, você precisará usar o script ApplyCurrentRegionAn
     
 4. Selecione **o &amp; idioma do tempo**.
     
-5. Selecione **idioma &amp; da região**.
+5. Selecione **&amp; idioma da região**.
     
 6. Selecione **Adicionar um idioma**.
     

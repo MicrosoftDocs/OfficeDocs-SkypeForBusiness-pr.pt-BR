@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 513b83fdab26d73b42bed692b5ea887629fc1851
-ms.sourcegitcommit: bc471f18e40e37456edc9696e11b175581847617
+ms.openlocfilehash: db0d8fa4a2744f0f3c3591918230e3f569727ae7
+ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "48800624"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "49662196"
 ---
 # <a name="use-teams-government-templates-in-the-admin-center"></a>Usar modelos de governo do teams no centro de administração
 
@@ -44,5 +44,5 @@ Centralize a comunicação e os recursos críticos para sua equipe de gerenciame
 
 | Tipo de modelo base |baseTemplateId | Propriedades que vêm com este modelo base |
 |-------------------|-------|---------------------------------------------------------------------------|
-|Coordenar resposta a incidentes|`com.microsoft.teams.template.CoordinateIncidentResponse` |Canais <ul><li>Geral<li>Comunicados</li><li>Logística</li><li>Planejamento</li><li>Automatiza</li><li>Urgente</li></ul> Aplicativo <ul><li>Wiki</li><li>Excel</li><li>OneNote</li><li>SharePoint</li><li>Planner</li></ul>|
+|Coordenar resposta a incidentes|`com.microsoft.teams.template.CoordinateIncidentResponse`|Canais <ul><li>Geral<li>Comunicados</li><li>Logística</li><li>Planejamento</li><li>Automatiza</li><li>Urgente</li></ul> Aplicativo <ul><li>Wiki</li><li>Excel</li><li>OneNote</li><li>SharePoint</li><li>Planner</li></ul>|
 ||||

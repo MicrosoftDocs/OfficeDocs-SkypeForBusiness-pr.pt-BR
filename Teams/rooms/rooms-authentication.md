@@ -1,7 +1,7 @@
 ---
 title: Autenticação em salas do Microsoft Teams
-ms.author: v-lanac
-author: lanachin
+ms.author: dstrome
+author: dstrome
 ms.reviewer: sohailta
 manager: serdars
 audience: ITPro
@@ -14,12 +14,12 @@ ms.assetid: ''
 ms.collection:
 - M365-collaboration
 description: Saiba como configurar a autenticação moderna para salas do Microsoft Teams
-ms.openlocfilehash: ba6259efac5d1e429bbcc33aeaef19759930e345
-ms.sourcegitcommit: 45064a0020a1231e17967c74f082106c68213ea0
+ms.openlocfilehash: 41a65743e5da851dd8e0197e9382deaf696cd9ec
+ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "48308254"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "49662576"
 ---
 # <a name="authentication-in-microsoft-teams-rooms"></a>Autenticação em salas do Microsoft Teams
 
@@ -46,8 +46,8 @@ Para salas do Microsoft Teams usar a autenticação moderna com o Skype for Busi
 
 1. No dispositivo de salas da equipe da Microsoft, vá para **mais** (**..**.).
     
-2. Selecione **configurações**e, em seguida, digite o nome de usuário e a senha do administrador do dispositivo.
-3. Vá para a guia **conta** , ative a **autenticação moderna**e, em seguida, selecione **salvar e sair**.
+2. Selecione **configurações** e, em seguida, digite o nome de usuário e a senha do administrador do dispositivo.
+3. Vá para a guia **conta** , ative a **autenticação moderna** e, em seguida, selecione **salvar e sair**.
 
 ### <a name="using-the-xml-config-file"></a>Usar o arquivo de configuração XML
 

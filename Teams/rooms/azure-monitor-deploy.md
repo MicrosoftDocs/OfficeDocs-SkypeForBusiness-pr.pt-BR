@@ -1,7 +1,7 @@
 ---
 title: Implantar o gerenciamento de salas do Microsoft Teams com o Azure monitor
-ms.author: v-lanac
-author: lanachin
+ms.author: dstrome
+author: dstrome
 ms.reviewer: Turgayo
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.collection:
 ms.assetid: d86ff657-ee92-4b06-aee3-d4c43090bdcb
 description: Este artigo discute como implantar o gerenciamento de dispositivos de salas do Microsoft Teams de maneira integrada e de ponta a ponta usando o Azure monitor.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 3c1ecb3906eec551ddaed9a2c748a66c9da7ac9a
-ms.sourcegitcommit: 67c686810d37bffda72a6e92155d9c8ec86bfae6
+ms.openlocfilehash: b05c490c157c9f6530ca79ecdd8df19f15d94c68
+ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/15/2020
-ms.locfileid: "47766875"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "49662096"
 ---
 # <a name="deploy-no-loc-textmicrosoft-teams-rooms-management-with-no-loc-textazure-monitor"></a>Implantar :::no-loc text="Microsoft Teams Rooms"::: Gerenciamento com :::no-loc text="Azure Monitor":::
 
@@ -68,7 +68,7 @@ Para configurar :::no-loc text="Log Analytics"::: o para coletar :::no-loc text=
 ![Captura de tela das configurações do log de eventos](../media/Deploy-Azure-Monitor-2.png "Configurações do log de eventos")
 
 > [!IMPORTANT]
-> Defina :::no-loc text="Windows"::: as configurações do log de eventos e insira **:::no-loc text="Skype Room System":::** como nome do log de eventos e, em seguida, marque as caixas de seleção **erro**, **aviso**e **informações** .
+> Defina :::no-loc text="Windows"::: as configurações do log de eventos e insira **:::no-loc text="Skype Room System":::** como nome do log de eventos e, em seguida, marque as caixas de seleção **erro**, **aviso** e **informações** .
 
 ## <a name="configure-test-devices-for-azure-monitoring"></a>Configurar dispositivos de teste para o Azure Monitoring
 <a name="configure_test_devices"> </a>
@@ -77,7 +77,7 @@ Você precisa se preparar :::no-loc text="Log Analytics"::: para poder monitorar
 
 ### <a name="install-no-loc-textmicrosoft-monitoring-agents-to-test-devices"></a>Instalar :::no-loc text="Microsoft Monitoring"::: agentes para dispositivos de teste
 
-Implante o :::no-loc text="Microsoft Monitoring"::: agente nos dispositivos de teste usando as instruções fornecidas em [conectar :::no-loc text="Windows"::: computadores ao :::no-loc text="Log Analytics"::: serviço :::no-loc text="Azure"::: ](https://docs.microsoft.com/azure/azure-monitor/platform/agent-windows). Este artigo fornece informações detalhadas sobre as etapas para implantar o :::no-loc text="Microsoft Monitoring"::: agente para :::no-loc text="Windows"::: , instruções para obter a :::no-loc text="Log Analytics"::: ***ID do espaço de trabalho*** e a ***chave primária*** para obter :::no-loc text="Microsoft Teams Rooms"::: dispositivos conectados à sua :::no-loc text="Azure Monitor"::: implantação e etapas para verificar a conectividade do agente para a :::no-loc text="Log Analytics"::: instância.
+Implante o :::no-loc text="Microsoft Monitoring"::: agente nos dispositivos de teste usando as instruções fornecidas em [conectar :::no-loc text="Windows"::: computadores ao :::no-loc text="Log Analytics"::: serviço :::no-loc text="Azure"::: ](https://docs.microsoft.com/azure/azure-monitor/platform/agent-windows). Este artigo fornece informações detalhadas sobre as etapas para implantar o :::no-loc text="Microsoft Monitoring"::: agente para :::no-loc text="Windows"::: , instruções para obter a :::no-loc text="Log Analytics":::  * *_ID do espaço de trabalho_* _ _ e a _*_chave primária_*_ para obter :::no-loc text="Microsoft Teams Rooms"::: dispositivos conectados à sua :::no-loc text="Azure Monitor"::: implantação e etapas para verificar a conectividade do agente para a :::no-loc text="Log Analytics"::: instância.
 
 ### <a name="generate-sample-no-loc-textmicrosoft-teams-rooms-events"></a>Gerar eventos de exemplo :::no-loc text="Microsoft Teams Rooms":::
 
@@ -89,7 +89,7 @@ Depois :::no-loc text="Microsoft Monitoring"::: que o agente for implantado nos 
 1.  Entre no [ :::no-loc text="Microsoft Azure"::: portal](https://portal.azure.com) e vá para :::no-loc text="Log Analytics"::: e selecione seu espaço de trabalho.
 
 2.  Listar os eventos de pulsação gerados por um :::no-loc text="Microsoft Teams Rooms"::: dispositivo:
-    1.  Selecione seu espaço de trabalho e vá para **logs** e use uma consulta para recuperar os registros de pulsação que terão os campos personalizados :::no-loc text="Microsoft Teams Rooms"::: .
+    1.  Selecione seu espaço de trabalho e vá para _ *logs** e use uma consulta para recuperar os registros de pulsação para os quais os campos personalizados serão usados :::no-loc text="Microsoft Teams Rooms"::: .
     2.  Consulta de exemplo: `Event | where Source == "SRS-App" and EventID == 2000`
 
 3.  Certifique-se de que a consulta retorne registros de log que incluam eventos gerados pelo :::no-loc text="Microsoft Teams Rooms"::: aplicativo reuniões.
@@ -122,7 +122,7 @@ Para extrair seus campos personalizados dos logs de eventos capturados, siga est
 
 3. Selecione um dos registros, selecione o botão à esquerda e inicie o assistente de extração de campos.
 4. Realce os dados que você deseja extrair do RenderedDescription e forneça um título de campo. Os nomes de campo que você deve usar são fornecidos na tabela 1.
-5. Use os mapeamentos mostrados na *tabela 1*. :::no-loc text="Log Analytics":::adicionará automaticamente a cadeia de caracteres do ** \_ CF** quando você definir o novo campo.
+5. Use os mapeamentos mostrados na *tabela 1*. :::no-loc text="Log Analytics":::adicionará automaticamente a cadeia de caracteres do **\_ CF** quando você definir o novo campo.
 
 > [!IMPORTANT]
 > Lembre-se de que todos os campos JSON e diferenciam :::no-loc text="Log Analytics"::: maiúsculas de minúsculas.
@@ -138,7 +138,7 @@ Para extrair seus campos personalizados dos logs de eventos capturados, siga est
 | OperationName                    | SRSOperationName            | **2000**     | Evento \| em que Source = = "SRS-app" e EventID = = 2000 |
 | OperationResult                  | SRSOperationResult          | **2000**     | Evento \| em que Source = = "SRS-app" e EventID = = 2000 |
 | Sistema operacional                               | SRSOSVersion                | **2000**     | Evento \| em que Source = = "SRS-app" e EventID = = 2000 |
-| Versão do sistema operacional                        | SRSOSLongVersion            | **2000**     | Evento \| em que Source = = "SRS-app" e EventID = = 2000 |
+| OSVersion                        | SRSOSLongVersion            | **2000**     | Evento \| em que Source = = "SRS-app" e EventID = = 2000 |
 | Alias                            | SRSAlias                    | **2000**     | Evento \| em que Source = = "SRS-app" e EventID = = 2000 |
 | DisplayName                      | SRSDisplayName              | **2000**     | Evento \| em que Source = = "SRS-app" e EventID = = 2000 |
 | AppVersion                       | SRSAppVersion               | **2000**     | Evento \| em que Source = = "SRS-app" e EventID = = 2000 |
@@ -168,8 +168,8 @@ Você pode importar um :::no-loc text="Microsoft Teams Rooms"::: painel e começ
 1.  Obtenha o arquivo de painel [SkypeRoomSystems_v2. omsview](https://go.microsoft.com/fwlink/?linkid=835675) .
 2.  Entre no [ :::no-loc text="Microsoft Azure"::: portal](https://portal.azure.com) e vá para :::no-loc text="Log Analytics"::: e selecione seu espaço de trabalho.
 3.  Abrir o **Designer de exibição**.
-4.  Selecione **importar**e, em seguida, selecione o arquivo **SkypeRoomSystems_v2. omsview** .
-5.  Selecione **salvar**.
+4.  Selecione **importar** e, em seguida, selecione o arquivo **SkypeRoomSystems_v2. omsview** .
+5.  Selecione **Salvar**.
 
 ### <a name="create-a-microsoft-teams-rooms-dashboard-manually"></a>Criar um painel de salas do Microsoft Teams manualmente
 
@@ -178,7 +178,7 @@ Você também pode criar seu próprio painel e adicionar apenas os blocos que de
 #### <a name="configure-the-overview-tile"></a>Configurar o bloco de visão geral
 
 1.  Abrir o **Designer de exibição**.
-2.  Selecione **bloco visão geral**e, em seguida, selecione **dois números** na galeria.
+2.  Selecione **bloco visão geral** e, em seguida, selecione **dois números** na galeria.
 3.  Nomeie o bloco **:::no-loc text="Microsoft Teams Rooms":::** .
 4.  Defina o **primeiro bloco**:<br>
     **Legenda:** Dispositivos que enviaram uma pulsação pelo menos uma vez no mês passado<br>
@@ -197,7 +197,7 @@ Você também pode criar seu próprio painel e adicionar apenas os blocos que de
     **Novo grupo:** Selecionado
 4.  Defina as propriedades do **bloco** :<br>
     **Legenda:** Dispositivos ativos (pulsação enviada nos últimos 20 minutos)<br>
-    **Consulta de bloco: ** ```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" and TimeGenerated > ago(20m) | summarize AggregatedValue = count() by Computer | count```
+    **Consulta de bloco:** ```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" and TimeGenerated > ago(20m) | summarize AggregatedValue = count() by Computer | count```
 5.  Defina as propriedades da **lista** :<br>
     **Consulta de lista:**```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" and TimeGenerated > ago(20m) | summarize TimeGenerated = max(TimeGenerated) by Computer | order by TimeGenerated```
 6.  Definir **títulos de coluna**:<br>
@@ -205,7 +205,7 @@ Você também pode criar seu próprio painel e adicionar apenas os blocos que de
     **Valor:** Última pulsação
 7.  Definir uma **consulta de navegação**.<br>
     ```search {selected item} | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" | summarize arg_max(TimeGenerated, *) by Computer | project TimeGenerated, Computer, SRSAlias_CF, SRSAppVersion_CF, SRSOSVersion_CF, SRSOSLongVersion_CF, SRSIPv4Address_CF, SRSIPv6Address_CF, SRSOperationName_CF, SRSOperationResult_CF, SRSResourceState_CF, SRSEventDescription_CF```
-8.  Selecione **aplicar**e **fechar**.
+8.  Selecione **aplicar** e **fechar**.
 
 ### <a name="create-a-tile-that-displays-devices-that-have-connectivity-issues"></a>Criar um bloco que exiba dispositivos com problemas de conectividade
 
@@ -215,7 +215,7 @@ Você também pode criar seu próprio painel e adicionar apenas os blocos que de
     **Novo grupo:** Não selecionada
 3.  Defina as propriedades do **bloco** :<br>
     **Legenda:** Dispositivos inativos (nenhuma mensagem de pulsação enviada nos últimos 20 minutos)<br>
-    **Consulta de bloco: ** ```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" | summarize LastHB = max(TimeGenerated) by Computer | where LastHB < ago(20m) | count```
+    **Consulta de bloco:** ```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" | summarize LastHB = max(TimeGenerated) by Computer | where LastHB < ago(20m) | count```
 4.  Defina as propriedades da **lista** :<br>
     **Consulta de lista:**```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" | summarize TimeGenerated = max(TimeGenerated) by Computer | where TimeGenerated < ago(20m) | order by TimeGenerated```
 5.  Definir **títulos de coluna**:<br>
@@ -223,7 +223,7 @@ Você também pode criar seu próprio painel e adicionar apenas os blocos que de
     **Valor:** Última pulsação
 6.  Definir **consulta de navegação**:<br>
     ```search {selected item} | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" | summarize arg_max(TimeGenerated, *) by Computer | project TimeGenerated, Computer, SRSAlias_CF, SRSAppVersion_CF, SRSOSVersion_CF, SRSOSLongVersion_CF, SRSIPv4Address_CF, SRSIPv6Address_CF, SRSOperationName_CF, SRSOperationResult_CF, SRSResourceState_CF, SRSEventDescription_CF```
-7.  Selecione **aplicar**e **fechar**.
+7.  Selecione **aplicar** e **fechar**.
 
 ### <a name="create-a-tile-that-displays-devices-that-have-a-hardware-error"></a>Criar um bloco que exiba dispositivos com um erro de hardware
 
@@ -233,7 +233,7 @@ Você também pode criar seu próprio painel e adicionar apenas os blocos que de
     **Novo grupo:** Selecionado
 3.  Defina as propriedades do **bloco** :<br>
     **Legenda:** Dispositivos que tiveram um erro de hardware na última hora<br>
-    **Consulta de bloco: ** ```Event | where EventLog == "Skype Room System" and EventLevelName == "Error" and EventID == "3001" and TimeGenerated > ago(1h) | summarize AggregatedValue = count() by Computer | count```
+    **Consulta de bloco:** ```Event | where EventLog == "Skype Room System" and EventLevelName == "Error" and EventID == "3001" and TimeGenerated > ago(1h) | summarize AggregatedValue = count() by Computer | count```
 4.  Defina as propriedades da **lista** :<br>
     **Consulta de lista:**```Event | where EventLog == "Skype Room System" and EventLevelName == "Error" and EventID == "3001" and TimeGenerated > ago(1h) | summarize TimeGenerated = max(TimeGenerated) by Computer | order by TimeGenerated```
 5.  Definir **títulos de coluna**:<br>
@@ -241,7 +241,7 @@ Você também pode criar seu próprio painel e adicionar apenas os blocos que de
     **Valor:** Último erro
 6.  Definir **consulta de navegação**:<br>
     ```search {selected item} | where EventLog == "Skype Room System" and EventID == 3001 and EventLevelName == "Error" | summarize arg_max(TimeGenerated, *) by Computer | project TimeGenerated, Computer, SRSAlias_CF, SRSAppVersion_CF, SRSOSVersion_CF, SRSOSLongVersion_CF, SRSIPv4Address_CF, SRSIPv6Address_CF, SRSOperationName_CF, SRSOperationResult_CF, SRSResourceState_CF, SRSConfMicrophoneStatus_CF, SRSConfSpeakerStatus_CF, SRSDefaultSpeakerStatus_CF, SRSCameraStatus_CF, SRSFORDStatus_CF, SRSMotionSensorStatus_CF, SRSHDMIIngestStatus_CF, SRSEventDescription_CF | sort by TimeGenerated desc```
-7.  Selecione **aplicar**e **fechar**.
+7.  Selecione **aplicar** e **fechar**.
 
 ### <a name="create-a-tile-that-displays-no-loc-textmicrosoft-teams-rooms-operating-system-versions"></a>Criar um bloco que exiba :::no-loc text="Microsoft Teams Rooms"::: versões do sistema operacional
 
@@ -299,7 +299,7 @@ Você também pode criar seu próprio painel e adicionar apenas os blocos que de
     **Novo grupo:** Não selecionada
 3.  Defina as propriedades do **bloco** .<br>
     **Legenda:** Dispositivos que tiveram um erro de aplicativo na última hora<br>
-    **Consulta de bloco: ** ```Event | where EventLog == "Skype Room System" and EventLevelName == "Error" and EventID == "2001" and TimeGenerated > ago(1h) | summarize AggregatedValue = count() by Computer | count```
+    **Consulta de bloco:** ```Event | where EventLog == "Skype Room System" and EventLevelName == "Error" and EventID == "2001" and TimeGenerated > ago(1h) | summarize AggregatedValue = count() by Computer | count```
 4.  Defina as propriedades da **lista** .<br>
     **Consulta de lista:**```Event | where EventLog == "Skype Room System" and EventLevelName == "Error" and EventID == "2001" and TimeGenerated > ago(1h) | summarize TimeGenerated = max(TimeGenerated) by Computer | order by TimeGenerated```
 5.  Definir **títulos de coluna**.<br>
@@ -317,7 +317,7 @@ Você também pode criar seu próprio painel e adicionar apenas os blocos que de
     **Novo grupo:** Não selecionada
 3.  Defina as propriedades do **bloco** .<br>
     **Legenda:** Dispositivos em que o aplicativo foi reiniciado nas últimas 24 horas e número de reinicializações<br>
-    **Consulta de bloco: ** ```Event | where EventLog == "Skype Room System" and EventID == "4000" and TimeGenerated > ago(24h) | summarize AggregatedValue = count() by Computer | count```
+    **Consulta de bloco:** ```Event | where EventLog == "Skype Room System" and EventID == "4000" and TimeGenerated > ago(24h) | summarize AggregatedValue = count() by Computer | count```
 4.  Defina as propriedades da **lista** .<br>
     **Consulta de lista:**```Event | where EventLog == "Skype Room System" and EventID == "4000" and TimeGenerated > ago(24h) | order by TimeGenerated | summarize AggregatedValue = count(EventID) by Computer```
 5.  Definir **títulos de coluna**.<br>
@@ -377,7 +377,7 @@ Configure uma regra de alerta que verifique :::no-loc text="Microsoft Teams Room
 7. Configurar grupos de ações:
     1.  Selecione **criar novo**
     2.  Forneça nomes adequados para os campos *nome do grupo de ação* e *nome curto* .
-    3.  Especifique um *nome de ação* exclusivo e selecione **email/SMS/Push/voz**e, em seguida, selecione **Editar detalhes**.
+    3.  Especifique um *nome de ação* exclusivo e selecione **email/SMS/Push/voz** e, em seguida, selecione **Editar detalhes**.
     4.  Marque a caixa de seleção **email** e forneça o endereço de email da pessoa ou do grupo que receberá os alertas.
     5.  Você também pode fornecer seu número de telefone para ser notificado com SMS, uma chamada de voz ou ambos.
     6. Selecione **OK**.
@@ -411,7 +411,7 @@ Quando um alerta é gerado, você receberá um email que lista os dispositivos q
 ! [Exemplo :::no-loc text="Azure Monitor"::: de email de alerta] (.. /Media/Deploy-Azure-Monitor-6.png "exemplo de :::no-loc text="Azure Monitor"::: email de alerta")
 
 ## <a name="configure-all-devices-for-no-loc-textazure-monitoring"></a>Configurar todos os dispositivos para :::no-loc text="Azure Monitoring":::
-<a name="configure_all_devices"> </a> Depois que os painéis e alertas estiverem configurados, você poderá configurar e configurar :::no-loc text="Microsoft Monitoring"::: o agente em todos os :::no-loc text="Microsoft Teams Rooms"::: dispositivos para concluir a implantação do monitoramento.
+<a name="configure_all_devices"></a> Depois que os painéis e alertas estiverem configurados, você poderá configurar e configurar :::no-loc text="Microsoft Monitoring"::: o agente em todos os :::no-loc text="Microsoft Teams Rooms"::: dispositivos para concluir a implantação do monitoramento.
 
 Embora você possa instalar e configurar o :::no-loc text="Microsoft Monitoring"::: agente manualmente em cada dispositivo, é altamente recomendável aproveitar ferramentas e métodos de implantação de software existentes.
 
@@ -439,9 +439,9 @@ Se você já implantou seus :::no-loc text="Microsoft Teams Rooms"::: dispositiv
     1.  Copie o script a seguir e salve-o como Install-MMAgent.ps1.
     2.  Modifique os parâmetros Workspaceid, WorkspaceKey e SetupPath para corresponderem à sua configuração.
     3.  Editar o mesmo objeto de política de grupo e navegar para configurações de políticas de configuração do computador \\ \\ :::no-loc text="Windows"::: \\ scripts (inicialização/desligamento)
-    4.  Clique duas vezes para selecionar **inicialização**e, em seguida, selecione **scripts do PowerShell**.
-    5.  Selecione **Mostrar arquivos**e copie o arquivo **Install-MMAgent.ps1** para essa pasta.
-    6.  Selecione **Adicionar**e, em seguida, **procurar**.
+    4.  Clique duas vezes para selecionar **inicialização** e, em seguida, selecione **scripts do PowerShell**.
+    5.  Selecione **Mostrar arquivos** e copie o arquivo **Install-MMAgent.ps1** para essa pasta.
+    6.  Selecione **Adicionar** e, em seguida, **procurar**.
     7.  Selecione o script ps1 que você acabou de copiar.
 
 7.  :::no-loc text="Microsoft Teams Rooms"::: os dispositivos devem instalar e configurar o :::no-loc text="Microsoft Monitoring"::: agente com a segunda reinicialização.

@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9f09da72f12b13b7f3dd1ab4846b320f77c9f32a
-ms.sourcegitcommit: df1eca90090c29eaaf7fd79bd8cc84c556f12b1e
+ms.openlocfilehash: 34a462a38581eec8720bd2184749b842aaa6d06f
+ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/12/2020
-ms.locfileid: "48424601"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "49662506"
 ---
 # <a name="use-teams-financial-templates-in-the-admin-center"></a>Usar modelos financeiros do teams no centro de administração
 
@@ -44,7 +44,7 @@ Centralize a colaboração para sua equipe de crise nas unidades de negócios e 
 
 | Tipo de modelo base|baseTemplateId | Propriedades que vêm com este modelo base |
 | ------------------|-- |----------------------------------------------------- |
-| Colaborar em uma crise global ou em um evento|`com.microsoft.teams.template.CollaborateOnAGlobalCrisisOrEvent` |Canais <ul><li>Geral<li>Comunicados</li><li>Notícias do mundo</li><li>Continuidade de negócios</li><li>Trabalho remoto</li><li>Comms internas</li><li>Comentários externos</li><li>Reclamações do cliente</li><li>Parabéns</li><li>Atualização executiva</li></ul>Aplicativo <ul><li>Elogia</li><li>Wiki</li><li>Site</li></ul>|
+| Colaborar em uma crise global ou em um evento|`com.microsoft.teams.template.CollaborateOnAGlobalCrisisOrEvent` |Canais <ul><li>Geral<li>Comunicados</li><li>Notícias do mundo</li><li>Continuidade de negócios</li><li>Trabalho remoto</li><li>Comms internas</li><li>Comentários externos</li><li>Solicitação de aprovações</li><li>Reclamações do cliente</li><li>Parabéns</li><li>Atualização executiva</li></ul>Aplicativo <ul><li>Elogia</li><li>Wiki</li><li>Site</li><li>Planner</li></ul>|
 ||||
 
 ## <a name="collaborate-within-a-bank-branch"></a>Colaborar dentro de um Branch bancário
@@ -53,6 +53,6 @@ Centralizar a colaboração para os funcionários da sua agência bancária em H
 
 | Tipo de modelo base |baseTemplateId| Propriedades que vêm com este modelo base |
 | ------------------ |--|----------------------------------------------------- |
-|Colaborar dentro de um Branch bancário|`com.microsoft.teams.template.CollaborateWithinABankBranch` |Canais <ul><li>Geral<li>Comunicados</li><li>Huddles</li><li>Reuniões do cliente</li><li>Treina</li><li>Desenvolvimento de habilidades</li><li>Processamento de empréstimos</li><li>Reclamações do cliente</li><li>Parabéns</li><li>Coisas divertidas</li><li>Conformidade</li></ul>|
+|Colaborar dentro de um Branch bancário|`com.microsoft.teams.template.CollaborateWithinABankBranch` |Canais <ul><li>Geral<li>Comunicados</li><li>Huddles</li><li>Reuniões do cliente</li><li>Solicitação de aprovações</li><li>Treina</li><li>Desenvolvimento de habilidades</li><li>Processamento de empréstimos</li><li>Reclamações do cliente</li><li>Parabéns</li><li>Coisas divertidas</li><li>Conformidade</li></ul>Aplicativo<ul><li>Elogia</li></ul>|
 ||||
 

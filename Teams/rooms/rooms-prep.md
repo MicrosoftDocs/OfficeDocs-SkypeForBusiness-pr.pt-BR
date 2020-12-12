@@ -1,7 +1,7 @@
 ---
 title: Preparar seu ambiente
-ms.author: v-lanac
-author: lanachin
+ms.author: dstrome
+author: dstrome
 ms.reviewer: sohailta
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 description: Saiba como preparar sua infraestrutura para a implantação de salas do Microsoft Teams para que você possa aproveitar todos os recursos.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 3e520643d40e78065d4b6a0359a8ca567ba2284c
-ms.sourcegitcommit: bf6521f0bc91a55dcf849506bb757ebfae54fcb1
+ms.openlocfilehash: d0c5d5a1b0333a30b7730d6c8b91d06e67e291b4
+ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/30/2020
-ms.locfileid: "46529174"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "49662426"
 ---
 # <a name="prepare-your-environment"></a>Preparar seu ambiente
 
@@ -41,12 +41,12 @@ Esta seção contém uma visão geral das etapas necessárias para preparar seu 
   
 3. Para aprimorar sua experiência, a Microsoft coleta dados. Para permitir que a Microsoft colete dados, permita estes sites:
 
-   - Ponto de extremidade do cliente de telemetria:https://vortex.data.microsoft.com/
-   - Ponto de extremidade das configurações de telemetria:https://settings.data.microsoft.com/
+   - Ponto de extremidade do cliente de telemetria: https://vortex.data.microsoft.com/
+   - Ponto de extremidade das configurações de telemetria: https://settings.data.microsoft.com/
     
 ### <a name="create-and-test-a-device-account"></a>Criar e testar uma conta de dispositivo
 
-Uma *conta de dispositivo* é uma conta que o cliente de salas do Microsoft Teams usa para acessar recursos do Exchange, como calendário e para habilitar o Skype for Business. Consulte [implantar salas do Microsoft Teams](rooms-deploy.md) para obter detalhes.
+Uma  *conta de dispositivo*  é uma conta que o cliente de salas do Microsoft Teams usa para acessar recursos do Exchange, como calendário e para habilitar o Skype for Business. Consulte [implantar salas do Microsoft Teams](rooms-deploy.md) para obter detalhes.
   
 ### <a name="check-network-availability"></a>Verificar a disponibilidade da rede
 
@@ -86,7 +86,7 @@ As salas do Microsoft Teams foram projetadas para herdar as configurações de p
 
 7. Você será solicitado a fornecer um nome de chave para seu Hive recém-carregado; Digite o Skype (agora você deve ver as configurações do registro para o usuário do Skype).
  
-8. Abra a chave do Skype e navegue até HKEY_USERS configurações do \Skype\SOFTWARE\Microsoft\Windows\CurrentVersion\Internet e verifique se essas configurações foram inseridas: 
+8. Abra a chave do Skype e navegue até HKEY_USERS\Skype\SOFTWARE\Microsoft\Windows\CurrentVersion\Internet Settings Verifique se essas configurações foram inseridas: 
     
     `[HKEY_USERS\Skype\SOFTWARE\Microsoft\Windows\CurrentVersion\Internet Settings]`
     
@@ -157,7 +157,7 @@ A senha do Administrador local não é incluída como opção durante a Instala�
 
 Assim como qualquer dispositivo com Windows, o nome do computador pode ser renomeado clicando com o botão direito do mouse em configurações \> sobre \> renomear computador.
   
- Se você quiser renomear o computador após ingressar em um domínio, use o comando rename-Computer PowerShell seguido pelo novo nome do computador.
+ Se você quiser renomear o computador depois de ingressar em um domínio, use o comando Rename-Computer PowerShell seguido do novo nome do computador.
   
 ## <a name="related-topics"></a>Tópicos relacionados
 

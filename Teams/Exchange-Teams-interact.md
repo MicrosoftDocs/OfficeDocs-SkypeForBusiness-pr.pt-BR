@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ae03611a684f7f596c185873585c844e30d4330b
-ms.sourcegitcommit: 3a577c07b4f399c81d8650a2bba8cfc00b695b49
+ms.openlocfilehash: 6e2e6af198c578279e2af8928e8a6ac299f262a5
+ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48650874"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "49661896"
 ---
 # <a name="how-exchange-and-microsoft-teams-interact"></a>Como o Exchange e o Microsoft Teams interagem
 
@@ -124,6 +124,8 @@ Veja algumas coisas adicionais a serem lembradas ao implementar o Microsoft Team
 - Se a sua organização tiver requisitos de conformidade para garantir que todas as discussões na reunião sejam detectáveis, você deve desabilitar reuniões privadas se o organizador tiver uma caixa de correio local do Exchange. Para obter mais informações, consulte [permitir agendar reuniões particulares](https://docs.microsoft.com/microsoftteams/meeting-policies-in-teams#allow-scheduling-private-meetings).
 
 - Em uma implantação híbrida do Exchange, o conteúdo de mensagens de chat é pesquisável, independentemente de os participantes do chat terem uma caixa de correio ou uma caixa de correio local baseada em nuvem. Para saber mais, leia [pesquisando caixas de correio baseadas em nuvem para usuários locais](https://docs.microsoft.com/office365/securitycompliance/search-cloud-based-mailboxes-for-on-premises-users). Para saber mais sobre como pesquisar conteúdo no Teams, leia [pesquisa de conteúdo no centro de conformidade do Microsoft 365](https://docs.microsoft.com/Office365/SecurityCompliance/content-search#searching-microsoft-teams-and-office-365-groups).
+
+- Para o status de presença, o Microsoft Teams deve verificar se a caixa de correio está hospedada no Exchange Online ou no local. O serviço decide onde acessar a caixa de correio. Para permitir que o serviço Teams Verifique o local da caixa de correio por meio da chamada de API REST para o serviço do Exchange Online, você precisa implantar um ambiente híbrido do Exchange executando o assistente de configuração híbrida do Exchange, conforme descrito em [criar uma implantação híbrida com o assistente de configuração híbrida](https://docs.microsoft.com/exchange/hybrid-deployment/deploy-hybrid).
 
 ## <a name="troubleshooting"></a>Solução de problemas
 

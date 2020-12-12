@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9013bda2f83a63776dfbf9110a0863dcf68c0ddb
-ms.sourcegitcommit: bc471f18e40e37456edc9696e11b175581847617
+ms.openlocfilehash: 51a28e997e5c7c0b36fb49cd0bb46768b7808a29
+ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "48800594"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "49662216"
 ---
 # <a name="use-teams-manufacturing-templates-in-the-admin-center"></a>Usar modelos de fabricação do teams no centro de administração
 
@@ -42,7 +42,7 @@ Para saber mais sobre os modelos de equipe em geral, confira [introdução aos m
 
 Centralize a comunicação, o acesso a recursos e as operações de fábrica com uma equipe de fábrica. Inclua documentos de política e de procedimento, vídeos de treinamento, notificações de segurança, processos entrega de mudança.
 
-| Tipo de modelo base|baseTemplateId | Propriedades que vêm com este modelo base |
+| Tipo de modelo base|baseTemplateId| Propriedades que vêm com este modelo base |
 | ------------------|-- |----------------------------------------------------- |
-|Qualidade e segurança|`com.microsoft.teams.template.QualitySafety` |Canais <ul><li>Geral<li>Comunicados</li><li>Linha 1</li><li>Linha 2</li><li>Linha 3</li><li>Segurança</li><li>Treinamento</li><li>Manutenção</li><li>Coisas divertidas</li></ul> Aplicativo <ul><li>Wiki</li></ul>|
+|Qualidade e segurança|`com.microsoft.teams.template.QualitySafety` |Canais <ul><li>Geral<li>Comunicados</li><li>Linha 1</li><li>Linha 2</li><li>Linha 3</li><li>Segurança</li><li>Treinamento</li><li>Manutenção</li><li>Coisas divertidas</li></ul> Aplicativo <ul><li>Wiki</li><li>Planner</li></ul>|
 ||||

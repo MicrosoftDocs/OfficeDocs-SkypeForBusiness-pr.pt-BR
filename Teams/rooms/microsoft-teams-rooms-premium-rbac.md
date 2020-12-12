@@ -1,7 +1,7 @@
 ---
 title: Controle de acesso baseado em função com o serviço de sala Premium do Microsoft Teams
-author: lanachin
-ms.author: v-lanac
+author: dstrome
+ms.author: dstrome
 manager: serdars
 ms.reviewer: altsou
 ms.topic: article
@@ -16,12 +16,12 @@ localization_priority: Normal
 search.appverid: MET150
 description: Saiba mais sobre o controle de acesso baseado em função com o serviço gerenciado de salas do Microsoft Teams.
 f1keywords: ''
-ms.openlocfilehash: 2f3886d7f7f59521028b87f05ffedfaa1fae9ac2
-ms.sourcegitcommit: 206e01b72218f57e68823dc23b7ca28bce7cb3bb
+ms.openlocfilehash: d673a20b122af876d95bac9d11a1db0433a396e4
+ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/28/2020
-ms.locfileid: "47300285"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "49662596"
 ---
 # <a name="role-based-access-control-with-the-microsoft-teams-rooms-managed-service"></a>Controle de acesso baseado em função com o serviço gerenciado de salas do Microsoft Teams
 
@@ -34,9 +34,9 @@ Para criar, editar ou atribuir funções, sua conta deve ter uma das seguintes p
 
 ## <a name="what-is-a-role"></a>O que é uma função?
 
-Uma função define o conjunto de permissões concedidos aos usuários atribuídos a essa função. Por enquanto, o serviço gerenciado de salas do Microsoft Teams tem três funções internas: **administrador de serviço gerenciado**, **líder do site**e técnico de **site**. Elas abordam alguns cenários comuns para os usuários de sua organização que possam estar envolvidos no gerenciamento de salas.
+Uma função define o conjunto de permissões concedidos aos usuários atribuídos a essa função. Por enquanto, o serviço gerenciado de salas do Microsoft Teams tem três funções internas: **administrador de serviço gerenciado**, **líder do site** e técnico de **site**. Elas abordam alguns cenários comuns para os usuários de sua organização que possam estar envolvidos no gerenciamento de salas.
 
-Para ver as funções, no painel de navegação esquerdo do portal de serviço gerenciado de salas do Microsoft Teams, vá para **funções**e selecione qualquer uma das funções para ver as propriedades, as permissões e as atribuições da função.  
+Para ver as funções, no painel de navegação esquerdo do portal de serviço gerenciado de salas do Microsoft Teams, vá para **funções** e selecione qualquer uma das funções para ver as propriedades, as permissões e as atribuições da função.  
 
 - **Propriedades**: o nome, o tipo de função e a descrição
 - **Permissões**: lista recursos e nível de permissões aos quais a função tem acesso.
@@ -54,36 +54,36 @@ A tabela a seguir resume o que cada função pode fazer.
 
 |Recursos |Permissão |Administrador de serviços gerenciados  |Cliente potencial do site  |Site Tech  |
 |---------|---------|---------|---------|---------|
-|Salas     |View        |&#10004;           |&#10004;           |&#10004;  |
+|Salas     |Exibir        |&#10004;           |&#10004;           |&#10004;  |
 |    |Editar         |&#10004;           |&#10004;           |&#10004; |
 |    |Redefinir chave         |&#10004;           |         ||
 |    |Chave de download         |&#10004;           |&#10004;          |&#10004; |
 |    |Cancelarem         |&#10004;           |&#10004;           |&#10004; |
 |Gerenciamento de grupo   |Criar         |&#10004;           |           ||
-|    |View       |&#10004;          |&#10004;           ||
+|    |Exibir       |&#10004;          |&#10004;           ||
 |    |Editar         |&#10004;           |           ||
 |Atualizar gerenciamento de anel    |Criar         |&#10004;           |           ||
-|    |View         |&#10004;           |           ||
+|    |Exibir         |&#10004;           |           ||
 |    |Editar         |&#10004;           |           ||
-|Gerente   |View        |&#10004;           |&#10004;           ||
+|Gerente   |Exibir        |&#10004;           |&#10004;           ||
 |Gerenciamento de tíquetes   |Criar incidente do cliente         |&#10004;           |&#10004;           |&#10004;  |
-|    |View         |&#10004;           |&#10004;           |&#10004;  |
+|    |Exibir         |&#10004;           |&#10004;           |&#10004;  |
 |    |Atualizar         |&#10004;           |&#10004;           |&#10004;  |
-|Configurações de serviço gerenciado de salas do Microsoft Teams    |View         |&#10004;           |         ||
+|Configurações de serviço gerenciado de salas do Microsoft Teams    |Exibir         |&#10004;           |         ||
 |    |Editar        |&#10004;           |         ||
-|Gerenciamento de funções    |View         |&#10004;           |         ||
+|Gerenciamento de funções    |Exibir         |&#10004;           |         ||
 |    |Editar         |&#10004;           |         ||
 
 ## <a name="assign-a-role"></a>Atribuir uma função
 
 Para atribuir funções, você deve ser um administrador global ou administrador de serviço gerenciado.
 
-1. Na navegação à esquerda do portal de serviço gerenciado de salas do Microsoft Teams **Settings**, vá para  >  **funções**configurações.
+1. Na navegação à esquerda do portal de serviço gerenciado de salas do Microsoft Teams , vá para  >  **funções** configurações.
 
     :::image type="content" source="../media/microsoft-teams-rooms-premium-roles.png" alt-text="Captura de tela da página de controle de acesso mostrando funções":::
 
 2. Selecione a função que você deseja atribuir.
-3. No painel função, selecione Adicionar **tarefas**  >  **Add**.
+3. No painel função, selecione Adicionar **tarefas**  >  .
 
     :::image type="content" source="../media/microsoft-teams-rooms-premium-role-assignments.png" alt-text="Captura de tela da opção Adicionar para adicionar uma função.":::
 

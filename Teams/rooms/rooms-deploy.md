@@ -1,7 +1,7 @@
 ---
 title: Implantar Salas do Microsoft Teams
-ms.author: v-lanac
-author: lanachin
+ms.author: dstrome
+author: dstrome
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta
@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 description: Leia este artigo para saber mais sobre como implantar salas do Microsoft Teams, incluindo as fases de implantação.
-ms.openlocfilehash: ee8ff755674828b4a2635316227f9cc27189a110
-ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
+ms.openlocfilehash: 53c4c94717f10dadbad802cff3f233a3a771d166
+ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "45085957"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "49662246"
 ---
 # <a name="deployment-overview"></a>Visão geral de implantação
 
@@ -90,7 +90,7 @@ _Exemplo de tabela de planejamento de conta do serviço de salas do Microsoft Te
 
 Para permitir que você gerencie e relate o seu computador de salas do Microsoft Teams e contas de serviço, prepare seu Active Directory local ou o Azure Active Directory (Azure AD). 
 
-Defina um Active Directory local ou grupo do Azure AD para adicionar todas as contas do serviço de salas do Microsoft Teams (usuário) e, em seguida, criar relatórios de uso usando o cmdlet Get-CSUserSession do PowerShell em sua implantação de salas do Microsoft Teams. Por exemplo, crie um grupo chamado SkypeRoomSystemsv2-Service-Accounts. 
+Defina um Active Directory local ou um grupo do Azure AD para adicionar todas as contas do serviço de salas do Microsoft Teams (usuário) e, em seguida, criar relatórios de uso usando o cmdlet Get-CSUserSession do PowerShell em sua implantação de salas do Microsoft Teams. Por exemplo, crie um grupo chamado SkypeRoomSystemsv2-Service-Accounts. 
 
 
 Defina uma unidade organizacional no Active Directory local ou na hierarquia do Azure AD para armazenar todas as contas do computador de salas do Microsoft Teams (se elas estiverem associadas ao domínio) e uma unidade organizacional para armazenar todas as contas de usuário das salas do Microsoft Teams. Se você criar uma unidade organizacional para as contas do computador de salas do Microsoft Teams, considere a possibilidade de desabilitar a herança para garantir que você aplique somente as políticas que pretende aplicar às salas do Microsoft Teams associadas a um domínio. 
@@ -99,7 +99,7 @@ Crie um objeto de política de grupo atribuído à unidade organizacional que co
 
 -   [Definir configurações de conta local e de energia](rooms-operations.md#configuring-group-policy-for-microsoft-teams-rooms).
 -   Habilite o Windows Update.
--   Habilitar a comunicação remota do PowerShell. Você pode configurar um script de inicialização para executar um script simples: Enable-PSRemoting-Force
+-   Habilitar a comunicação remota do PowerShell. Você pode configurar um script de inicialização para executar um script simples: Enable-PSRemoting força
 
 Você pode usar o PowerShell para executar várias atividades de gerenciamento remoto, incluindo obter e definir informações de configuração. A comunicação remota do PowerShell deve ser habilitada *antes que* qualquer gerenciamento remoto do PowerShell possa ocorrer e deve ser considerado como parte de seus processos de implantação ou configurado por meio da política de grupo. Para obter mais informações sobre esses recursos e ativá-los, consulte [manutenção e operações](rooms-operations.md#remote-management-using-powershell). 
 
@@ -119,7 +119,7 @@ O planejamento de configuração e implantação abrange as seguintes áreas-cha
 
 Cada dispositivo de salas do Microsoft Teams requer uma conta de recurso dedicada e exclusiva que deve ser habilitada para o Microsoft Teams ou o Skype for Business e o Exchange. Essa conta deve ter uma caixa de correio de sala hospedada no Exchange e estar habilitada como uma sala de reunião na implantação do teams ou do Skype for Business. No lado do Exchange, o processamento do calendário deve ser configurado para que o dispositivo possa aceitar automaticamente as solicitações de reunião recebidas. Para obter mais informações sobre como criar essas contas, consulte [Configurar contas para salas do Microsoft Teams](rooms-configure-accounts.md). 
 
-**Dica de pro** – torne os nomes de exibição para essas contas descritivas e fáceis de entender. Estes são os nomes que os usuários verão ao procurar e adicionar sistemas de salas do Microsoft Teams a reuniões. Algumas organizações usam o nome da sala do *site*da Convenção - *Room Name*(*capacidade máxima da sala*)-RS, portanto, por exemplo Curie — uma sala de conferência de 12 pessoas em Londres — pode ter o nome de exibição Lon-Curie (12)-RS. 
+**Dica de pro** – torne os nomes de exibição para essas contas descritivas e fáceis de entender. Estes são os nomes que os usuários verão ao procurar e adicionar sistemas de salas do Microsoft Teams a reuniões. Algumas organizações usam o nome da sala do *site* da Convenção - (*capacidade máxima da sala*)-RS, portanto, por exemplo Curie — uma sala de conferência de 12 pessoas em Londres — pode ter o nome de exibição Lon-Curie (12)-RS. 
 
 |    |     |
 |-----------|------------|
@@ -138,7 +138,7 @@ Ao planejar a implantação de salas do Microsoft Teams, você tem várias opç�
 | Implantar mais de 50 dispositivos de salas do Microsoft Teams, implantar dispositivos de mais de um fornecedor ou exigir agentes específicos da organização como parte da implantação. | Use uma plataforma de distribuição e desenvolvimento de software baseado em sequenciador de tarefas, como [o Gerenciador de configuração do Microsoft Endpoint](rooms-scale.md).  |
 
 
-**Dica de pro** -cada sala do Microsoft Teams deve ter um nome de máquina válido e exclusivo na sua rede. Muitos sistemas de monitoramento e alerta exibem o nome do computador como um identificador de chave, portanto, é importante desenvolver uma Convenção de nomenclatura para implantações de salas do Microsoft Teams que permitem ao pessoal de suporte localizar facilmente as salas do Microsoft Teams que foram sinalizadas para exigir uma ação. Um exemplo pode estar usando um padrão de MTR para o nome da sala do*site* - *Room Name* (MTR-Lon-Curie). 
+**Dica de pro** -cada sala do Microsoft Teams deve ter um nome de máquina válido e exclusivo na sua rede. Muitos sistemas de monitoramento e alerta exibem o nome do computador como um identificador de chave, portanto, é importante desenvolver uma Convenção de nomenclatura para implantações de salas do Microsoft Teams que permitem ao pessoal de suporte localizar facilmente as salas do Microsoft Teams que foram sinalizadas para exigir uma ação. Um exemplo pode estar usando um padrão de MTR para o nome da sala do *site* -  (MTR-Lon-Curie). 
 
 Como parte da implantação, você também precisará considerar sua estratégia para gerenciar e configurar as [contas locais](https://docs.microsoft.com/skypeforbusiness/plan-your-deployment/clients-and-devices/skype-room-systems-v2-0#local-accounts) que são criadas pelo instalador do aplicativo salas do Microsoft Teams.
 

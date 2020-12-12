@@ -1,7 +1,7 @@
 ---
 title: Implantar salas do Microsoft Teams usando o Gerenciador de configuração do Microsoft Endpoint
-author: lanachin
-ms.author: v-lanac
+author: dstrome
+ms.author: dstrome
 ms.reviewer: Turgayo
 manager: serdars
 audience: ITPro
@@ -34,12 +34,12 @@ no-loc:
 - Azure Monitor
 - Log Analytics
 - Operations Management Suite
-ms.openlocfilehash: f96b970165996cc27308ce616fb4875d741f8869
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 1d8fc0090264a7a39051cfedb9c3584a08e3ebb9
+ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905313"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "49662416"
 ---
 # <a name="deploy-microsoft-teams-rooms-by-using-microsoft-endpoint-configuration-manager"></a>Implantar salas do Microsoft Teams usando o Gerenciador de configuração do Microsoft Endpoint
 
@@ -90,7 +90,7 @@ Use as instruções a seguir para verificar se os recursos de implantação do s
 
 ### <a name="validate-and-upgrade-configuration-manager"></a>Validar e atualizar o Configuration Manager
 
-1.  No console do Configuration Manager, acesse **Administration** \> **atualizações e serviços**de administração.
+1.  No console do Configuration Manager, acesse  \> **atualizações e serviços** de administração.
 
 2.  Verifique a compilação instalada e as atualizações aplicáveis que ainda não foram instaladas.
 
@@ -100,7 +100,7 @@ Use as instruções a seguir para verificar se os recursos de implantação do s
 
 ### <a name="configure-distribution-points-to-support-pxe-and-multicast"></a>Configurar pontos de distribuição para dar suporte a PXE e multicast
 
-1.  No console do Configuration Manager, vá para os **pontos de distribuição**de **Administração** \> .
+1.  No console do Configuration Manager, vá para os pontos de distribuição de **Administração** \> .
 
 2.  Selecione o servidor de ponto de distribuição que servirá a implantação de salas do Microsoft Teams e selecione **Propriedades**.
 
@@ -115,18 +115,18 @@ Use as instruções a seguir para verificar se os recursos de implantação do s
 
 ### <a name="configure-the-network-access-account"></a>Configurar a conta de acesso à rede
 
-1.  No console do Configuration Manager, vá para **sites**de **configuração** \> de site de **Administração** \> e selecione o site.
+1.  No console do Configuration Manager, vá para  \> sites de **configuração de site** de administração \> e selecione o site.
 
-2.  No grupo **configurações** , selecione **Configurar** \> **distribuição de software**dos componentes do site.
+2.  No grupo **configurações** , selecione **Configurar** \> **distribuição de software** dos componentes do site.
 
-3.  Selecione a guia **conta de acesso à rede** . configurar uma ou mais contas e, em seguida, selecione **OK**.
+3.  Selecione a guia **conta de acesso à rede** . Configure uma ou mais contas e, em seguida, selecione **OK**.
 
 > [!NOTE]
 > As contas não precisam de direitos especiais, exceto para o direito **acesso a este computador pela rede** no servidor de ponto de distribuição. Uma conta de usuário de domínio genérico será apropriada. Para obter mais informações, consulte [contas usadas no Configuration Manager](https://docs.microsoft.com/configmgr/core/plan-design/hierarchy/manage-accounts-to-access-content#bkmk_NAA).
 
 ### <a name="configure-a-boot-image"></a>Configurar uma imagem de inicialização
 
-1.  No console do Configuration Manager, vá para **imagens de inicialização**do **sistema** \> operacional da **biblioteca** \> de software.
+1.  No console do Configuration Manager, vá para  \> imagens de inicialização do **sistema operacional** da biblioteca de software \> .
 
 2.  Selecione **imagem de inicialização (x64)** e, em seguida, selecione **Propriedades**.
 
@@ -161,7 +161,7 @@ Você precisa criar e configurar os seguintes pacotes e, em seguida, distribuí-
 | **Nome do pacote**                     | **Tipo**               | **Descrição**                                                                           |
 |--------------------------------------|------------------------|-------------------------------------------------------------------------------------------|
 | SRS v2-pacote de aplicativo SRS     | Pacote de software       | Pacote para o kit de implantação de salas do Microsoft Teams                                      |
-| SRS v2-pacote Sysprep             | Pacote de software       | Pacote para o arquivo Unattended. xml personalizado para configurar as unidades de salas do Microsoft Teams            |
+| SRS v2-pacote Sysprep             | Pacote de software       | Pacote para o Unattended.xml personalizado para configurar as unidades de salas do Microsoft Teams            |
 | Pacote SRS v2-Set-SRSComputerName | Pacote de software       | Pacote para o aplicativo HTML (HTA) atribuir um nome de computador durante a implantação    |
 | SRS v2-configurar a configuração do SRS         | Pacote de software       | Pacote para configurar a implantação do aplicativo salas do Microsoft Teams                          |
 | SRS v2-pacote de atualizações do so          | Pacote de software       | Pacote para implantar atualizações obrigatórias do sistema operacional                                      |
@@ -198,11 +198,11 @@ Crie a seguinte estrutura de pastas no site de administração central do Gerenc
 
 ### <a name="create-the-monitoring-agent-package"></a>Criar o pacote do agente de monitoramento
 
-1. Baixe o agente de monitoramento <https://go.microsoft.com/fwlink/?LinkId=828603>de.
+1. Baixe o agente de monitoramento de <https://go.microsoft.com/fwlink/?LinkId=828603> .
 
-2. Extraia o pacote para o **SRS v2-pasta do pacote do Microsoft Monitoring Agent** abrindo uma janela do prompt de comando e digitando **MMASetup-AMD64. exe/c:** no prompt de comando.
+2. Extraia o pacote para a pasta do **pacote do agente do Microsoft para SRS v2** ao abrir uma janela do prompt de comando e inserindo **MMASetup-AMD64.exe/c:**     no prompt de comando.
 
-3. No console do Configuration Manager, vá para **pacotes**de **Gerenciamento** \> de aplicativos da **biblioteca** \> de software e selecione **criar pacote**.
+3. No console do Configuration Manager, vá para pacotes de gerenciamento de aplicativos da **biblioteca de software** \>  \> e selecione **criar pacote**.
 
 4. Insira as seguintes informações para criar o pacote:
 
@@ -214,7 +214,7 @@ Crie a seguinte estrutura de pastas no site de administração central do Gerenc
 
    - Marque a caixa de seleção **Este pacote contém arquivos de origem** , digite o caminho para a pasta **SRS v2-Microsoft Monitoring Agent** e selecione **Avançar**.
 
-5. Selecione não **criar um programa**e, em seguida, selecione **Avançar**.
+5. Selecione não **criar um programa** e, em seguida, selecione **Avançar**.
 
 6. Examine a página **confirmar as configurações** e, em seguida, selecione **Avançar**.
 
@@ -222,9 +222,9 @@ Crie a seguinte estrutura de pastas no site de administração central do Gerenc
 
 ### <a name="create-the-operating-system-updates-package"></a>Criar o pacote de atualizações do sistema operacional
 
-1. Na pasta do **pacote atualizações do SRS v2-so** , crie um novo script do PowerShell chamado **install-SRSv2-os-updates. ps1**.
+1. Na pasta do **pacote atualizações do SRS v2-so** , crie um novo script do PowerShell chamado **Install-SRSv2-OS-Updates.ps1**.
 
-2. Copie o script a seguir para o script **install-SRSv2-os-updates. ps1** . Você também pode baixar o script Install-SRSv2-OS-Updates. ps1 [aqui](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/Skype-Room-Systems-v2/SRS-v2-Configuration-Manager-Files.zip?raw=true).
+2. Copie o script abaixo para o script **Install-SRSv2-OS-Updates.ps1** . Você também pode baixar o script Install-SRSv2-OS-Updates.ps1 [aqui](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/Skype-Room-Systems-v2/SRS-v2-Configuration-Manager-Files.zip?raw=true).
    ```
    # Install-SRSv2-OS-Updates.ps1
    $strPath = split-path -parent $MyInvocation.MyCommand.Definition
@@ -242,7 +242,7 @@ Crie a seguinte estrutura de pastas no site de administração central do Gerenc
    > [!NOTE]
    > No momento em que este artigo foi publicado, apenas [KB4056892](http://download.windowsupdate.com/c/msdownload/update/software/secu/2018/01/windows10.0-kb4056892-x64_a41a378cf9ae609152b505c40e691ca1228e28ea.msu) era necessário. Marque [configurar um console de salas do Microsoft Teams](console.md)para ver se outras atualizações são necessárias.
 
-4. No console do Configuration Manager, vá para **pacotes**de **Gerenciamento** \> de aplicativos da **biblioteca** \> de software e selecione **criar pacote**.
+4. No console do Configuration Manager, vá para pacotes de gerenciamento de aplicativos da **biblioteca de software** \>  \> e selecione **criar pacote**.
 
 5. Insira as seguintes informações para criar o pacote:
    -   Nome: **SRS v2 – pacote de atualizações do so**
@@ -250,7 +250,7 @@ Crie a seguinte estrutura de pastas no site de administração central do Gerenc
    -   Versão: **1.0.0**
    -   Marque a caixa de seleção **Este pacote contém arquivos de origem** , digite o caminho para a pasta do **pacote de atualizações do SRS v2-os** e selecione **Avançar**.
 
-6. Selecione não **criar um programa**e, em seguida, selecione **Avançar**.
+6. Selecione não **criar um programa** e, em seguida, selecione **Avançar**.
 
 7. Examine a página **confirmar as configurações** e, em seguida, selecione **Avançar**.
 
@@ -264,7 +264,7 @@ Você cria esse pacote para distribuir o certificado raiz para dispositivos que 
 
 1.  Copie o certificado raiz para a pasta **SRS v2 – pacote de certificado raiz** .
 
-2.  No console do Configuration Manager, vá para **pacotes**de **Gerenciamento** \> de aplicativos da **biblioteca** \> de software e selecione **criar pacote**.
+2.  No console do Configuration Manager, vá para pacotes de gerenciamento de aplicativos da **biblioteca de software** \>  \> e selecione **criar pacote**.
 
 3.  Insira as seguintes informações para criar o pacote:
     -   Nome: **SRS v2 – pacote de certificado raiz**
@@ -272,7 +272,7 @@ Você cria esse pacote para distribuir o certificado raiz para dispositivos que 
     -   Versão: **1.0.0**
     -   Marque a caixa de seleção **Este pacote contém arquivos de origem** , digite o caminho para a pasta **SRS v2 – pacote de certificado raiz** e selecione **Avançar**.
 
-4.  Selecione não **criar um programa**e, em seguida, selecione **Avançar**.
+4.  Selecione não **criar um programa** e, em seguida, selecione **Avançar**.
 
 5.  Examine a página **confirmar as configurações** e, em seguida, selecione **Avançar**.
 
@@ -280,18 +280,18 @@ Você cria esse pacote para distribuir o certificado raiz para dispositivos que 
 
 ### <a name="create-the-microsoft-teams-rooms-deployment-kit-package"></a>Criar o pacote do kit de implantação de salas do Microsoft Teams
 
-1.  Baixe a versão mais recente <https://go.microsoft.com/fwlink/?linkid=851168>do **Kit de implantação de salas do Microsoft Teams** e instale-a em uma estação de trabalho.
+1.  Baixe a versão mais recente do **Kit de implantação de salas do Microsoft Teams** <https://go.microsoft.com/fwlink/?linkid=851168> e instale-a em uma estação de trabalho.
 
-2.  Copie o conteúdo de **C:\\arquivos de programas (x86\\) kit de implantação do sistema de sala do Skype** para a pasta do **pacote de aplicativos SRS v2-SRS** .
+2.  Copie o conteúdo de **C: \\ arquivos de programas (x86) \\ Kit de implantação do sistema de sala do Skype** para a pasta do pacote de aplicativos SRS **v2-SRS** .
 
-3.  No console do Configuration Manager, vá para **pacotes**de **Gerenciamento** \> de aplicativos da **biblioteca** \> de software e selecione **criar pacote**.
+3.  No console do Configuration Manager, vá para pacotes de gerenciamento de aplicativos da **biblioteca de software** \>  \> e selecione **criar pacote**.
 
 4.  Insira as seguintes informações para criar o pacote:
     -   Nome: **SRS v2 – pacote do aplicativo SRS**
     -   Fabricante: **Microsoft Corporation**
     -   Versão: **3.1.104.0** (Insira a versão do arquivo de instalação baixado)
     -   Marque a caixa de seleção **Este pacote contém arquivos de origem** , digite o caminho para a pasta do **pacote de aplicativos SRS v2 – SRS** e selecione **Avançar**.
-5.  Selecione não **criar um programa**e, em seguida, selecione **Avançar**.
+5.  Selecione não **criar um programa** e, em seguida, selecione **Avançar**.
 
 6.  Examine a página **confirmar as configurações** e, em seguida, selecione **Avançar**.
 
@@ -299,7 +299,7 @@ Você cria esse pacote para distribuir o certificado raiz para dispositivos que 
 
 ### <a name="create-the-computer-name-assignment-package"></a>Criar o pacote de atribuição de nomes de computador
 
-1.  Na pasta do **pacote SRS v2-Set-SRSComputerName** , crie um novo aplicativo HTML chamado **set-SRSComputerName. hta** .
+1.  Na pasta **SRS v2-Set-SRSComputerName Package Package** , crie um novo aplicativo HTML chamado **set-SRSComputerName. hta** .
 
 2.  Copie o seguinte script para o arquivo **set-SRSComputerName. hta** . Você também pode baixar o arquivo Set-SRSComputerName. hta [aqui](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/Skype-Room-Systems-v2/SRS-v2-Configuration-Manager-Files.zip?raw=true).
     ```HTML
@@ -389,19 +389,19 @@ Você cria esse pacote para distribuir o certificado raiz para dispositivos que 
     </html>
 
     ```
-3.  No console do Configuration Manager, vá para **pacotes**de **Gerenciamento** \> de aplicativos da **biblioteca** \> de software e selecione **criar pacote**.
+3.  No console do Configuration Manager, vá para pacotes de gerenciamento de aplicativos da **biblioteca de software** \>  \> e selecione **criar pacote**.
 
 4.  Insira as seguintes informações para criar o pacote:
 
-    -   Nome: **pacote do set-SRSComputerName do SRS v2**
+    -   Nome: **pacote SRS v2-Set-SRSComputerName**
 
     -   Fabricante: **Microsoft Corporation**
 
     -   Versão: **1.0.0**
 
-    -   Marque a caixa de seleção **Este pacote contém arquivos de origem** , insira o caminho para a pasta do **pacote SRS v2-Set-SRSComputerName** e selecione **Avançar**.
+    -   Marque a caixa de seleção **Este pacote contém arquivos de origem** , digite o caminho para a pasta do **pacote SRS v2-Set-SRSComputerName** e selecione **Avançar**.
 
-5.  Selecione não **criar um programa**e, em seguida, selecione **Avançar**.
+5.  Selecione não **criar um programa** e, em seguida, selecione **Avançar**.
 
 6.  Examine a página **confirmar as configurações** e, em seguida, selecione **Avançar**.
 
@@ -409,9 +409,9 @@ Você cria esse pacote para distribuir o certificado raiz para dispositivos que 
 
 ### <a name="create-the-sysprep-package"></a>Criar o pacote Sysprep
 
-1. Na pasta **SRS v2 – pacote Sysprep** , crie um novo arquivo XML denominado **Unattend. xml** .
+1. Na pasta **SRS v2 – pacote Sysprep** , crie um novo arquivo XML chamado **Unattend.xml** .
 
-2. Copie o seguinte texto para o arquivo **Unattend. xml** . Você também pode baixar o arquivo Unattend. XML [aqui](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/Skype-Room-Systems-v2/SRS-v2-Configuration-Manager-Files.zip?raw=true).
+2. Copie o seguinte texto para o arquivo **Unattend.xml** . Você também pode baixar o arquivo Unattend.xml [aqui](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/Skype-Room-Systems-v2/SRS-v2-Configuration-Manager-Files.zip?raw=true).
    ```XML
    <?xml version="1.0" encoding="utf-8"?>
    <unattend xmlns="urn:schemas-microsoft-com:unattend">
@@ -463,14 +463,14 @@ Você cria esse pacote para distribuir o certificado raiz para dispositivos que 
    <cpi:offlineImage cpi:source="wim:h:/install.wim#Windows 10 Enterprise" xmlns:cpi="urn:schemas-microsoft-com:cpi" />
    </unattend>
    ```
-3. No console do Configuration Manager, vá para **pacotes**de **Gerenciamento** \> de aplicativos da **biblioteca** \> de software e selecione **criar pacote**.
+3. No console do Configuration Manager, vá para pacotes de gerenciamento de aplicativos da **biblioteca de software** \>  \> e selecione **criar pacote**.
 
 4. Insira as seguintes informações para criar o pacote:
    -   Nome: **SRS v2-pacote Sysprep**
    -   Fabricante: **Microsoft Corporation**
    -   Versão: **1.0.0**
    -   Marque a caixa de seleção **Este pacote contém arquivos de origem** , digite o caminho para a pasta **SRS v2 – pacote Sysprep** e, em seguida, selecione **Avançar**.
-5. Selecione não **criar um programa**e, em seguida, selecione **Avançar**.
+5. Selecione não **criar um programa** e, em seguida, selecione **Avançar**.
 
 6. Examine a página **confirmar as configurações** e, em seguida, selecione **Avançar**.
 
@@ -478,9 +478,9 @@ Você cria esse pacote para distribuir o certificado raiz para dispositivos que 
 
 ### <a name="create-the-windows-10-enterprise-package"></a>Criar o pacote do Windows 10 Enterprise
 
-1.  Obtenha uma mídia do Windows 10 Enterprise x64 e copie o arquivo **install. wim** para a pasta **sistemas\\operacionais Windows 10 Enterprise** .
+1.  Obtenha uma mídia do Windows 10 Enterprise x64 e copie o arquivo **install. wim** para a pasta **sistemas operacionais \\ Windows 10 Enterprise** .
 
-2.  No console do Configuration Manager, vá para **imagens do sistema**operacional dos **sistemas** \> operacionais da **biblioteca** \> de software e selecione **Adicionar imagem do sistema operacional**.
+2.  No console do Configuration Manager, vá para imagens do sistema operacional dos sistemas operacionais da **biblioteca de software** \>  \> e selecione **Adicionar imagem do sistema operacional**.
 
 3.  Especifique o caminho para o arquivo **install. wim** que você acabou de copiar e, em seguida, selecione **Avançar**.
 
@@ -500,30 +500,30 @@ As salas do Microsoft Teams são compatíveis com o Surface pro e o Surface Pro 
 > Os drivers devem ser compatíveis com o Windows 10 Enterprise Build e a versão do kit de implantação de salas do Microsoft Teams. Para obter mais informações, consulte [baixar o firmware e os drivers mais recentes para os dispositivos Surface](https://docs.microsoft.com/surface/deploy-the-latest-firmware-and-drivers-for-surface-devices) e [configurar um console](console.md).
 
 1.  Baixe os drivers e firmware mais recentes.
-    -   Para Surface pro:<https://www.microsoft.com/download/details.aspx?id=55484>
-    -   Para Surface Pro 4:<https://www.microsoft.com/download/details.aspx?id=49498>
+    -   Para Surface pro: <https://www.microsoft.com/download/details.aspx?id=55484>
+    -   Para Surface Pro 4: <https://www.microsoft.com/download/details.aspx?id=49498>
 
 2.  Extraia o driver e firmware baixados. Abra uma janela do prompt de comando e, no prompt de comando, insira um dos seguintes comandos:
     -   `msiexec /a C:\SurfacePro_Win10.msi /passive TARGETDIR="C:\_Sources\\Drivers\Surface Pro"`
     -   `msiexec /a C:\SurfacePro4_Win10.msi /passive TARGETDIR="C:\_Sources\\Drivers\Surface Pro 4"`
 
-3.  No console do Configuration Manager, vá para **drivers**de **sistemas** \> operacionais da **biblioteca** \> de software e selecione **Importar Driver**.
+3.  No console do Configuration Manager, vá para drivers de sistemas operacionais da **biblioteca de software** \>  \> e selecione **Importar Driver**.
 
-4.  Selecione **importar todos os drivers no seguinte caminho de rede (UNC)**, selecione a pasta de origem (por exemplo,\\C\\:\\_Sources drivers Surface pro) e, em seguida, selecione **Avançar**.
+4.  Selecione **importar todos os drivers no seguinte caminho de rede (UNC)**, selecione a pasta de origem (por exemplo, C: \\ _Sources \\ drivers \\ Surface pro) e, em seguida, selecione **Avançar**.
 
 5.  Na página **especificar os detalhes da página de drivers importados** , selecione todos os drivers listados e, em seguida, selecione **habilitar esses drivers e permitir que os computadores os instalem**.
 
-6.  Selecione **categorias**, crie uma nova categoria que corresponda ao modelo de superfície, selecione **OK**e, em seguida, selecione **Avançar**.
+6.  Selecione **categorias**, crie uma nova categoria que corresponda ao modelo de superfície, selecione **OK** e, em seguida, selecione **Avançar**.
 
 7.  Selecione **novo pacote**.
 
-8.  Especifique o nome do pacote que corresponde ao modelo do Surface pro, insira um caminho de pasta para armazenar os arquivos do pacote de driver em, selecione **OK**e, em seguida, selecione **Avançar**.
+8.  Especifique o nome do pacote que corresponde ao modelo do Surface pro, insira um caminho de pasta para armazenar os arquivos do pacote de driver em, selecione **OK** e, em seguida, selecione **Avançar**.
 
 9.  Na página de **imagens de inicialização** , certifique-se de que nenhuma imagem de inicialização esteja selecionada e selecione **Avançar**.
 
 10. Selecione **fechar**.
 
-11. Vá para **drivers**de **sistemas** \> operacionais da **biblioteca** \> de software, selecione pasta ** \> criar pasta**e insira um nome de pasta que corresponda ao modelo do Surface pro para o qual você acabou de importar os drivers.
+11. Vá para  \> drivers de **sistemas operacionais** da biblioteca \> de software, selecione pasta **\> criar pasta** e insira um nome de pasta que corresponda ao modelo do Surface pro para o qual você acabou de importar os drivers.
 
 12. Mova todos os drivers importados para a pasta recém criada para facilitar a navegação e a operação.
 
@@ -532,7 +532,7 @@ As salas do Microsoft Teams são compatíveis com o Surface pro e o Surface Pro 
 
 ### <a name="create-microsoft-teams-rooms-configuration-package"></a>Criar pacote de configuração de salas do Microsoft Teams
 
-1.  No console do Configuration Manager, vá para **pacotes**de **Gerenciamento** \> de aplicativos da **biblioteca** \> de software e selecione **criar pacote**.
+1.  No console do Configuration Manager, vá para pacotes de gerenciamento de aplicativos da **biblioteca de software** \>  \> e selecione **criar pacote**.
 
 2.  Insira as seguintes informações para criar o pacote:
 
@@ -544,7 +544,7 @@ As salas do Microsoft Teams são compatíveis com o Surface pro e o Surface Pro 
 
     -   Marque a caixa de seleção **Este pacote contém arquivos de origem** , insira o caminho para a pasta **SRS v2-configure SRS setup** e selecione **Avançar**.
 
-3.  Selecione não **criar um programa**e, em seguida, selecione **Avançar**.
+3.  Selecione não **criar um programa** e, em seguida, selecione **Avançar**.
 
 4.  Examine a página **confirmar as configurações** e, em seguida, selecione **Avançar**.
 
@@ -558,40 +558,40 @@ Todos os pacotes devem ser distribuídos para os servidores que foram atribuído
 
 1.  Distribuir pacotes de software.
 
-    1.  No console do Configuration Manager, vá para **pacotes**de **Gerenciamento** \> de aplicativos da **biblioteca** \> de software. Selecione todos os pacotes de software que você deseja distribuir e, em seguida, selecione **distribuir conteúdo**.
+    1.  No console do Configuration Manager, vá para pacotes de gerenciamento de aplicativos da biblioteca de **software** \>  \> . Selecione todos os pacotes de software que você deseja distribuir e, em seguida, selecione **distribuir conteúdo**.
 
     2.  Examine a lista de pacotes e selecione **Avançar**.
 
     3.  Adicione todos os servidores de ponto de distribuição (ou grupos de pontos de distribuição, dependendo da sua hierarquia do Configuration Manager) à lista e, em seguida, selecione **Avançar**.
 
-    4.  Selecione **Avançar**e, em seguida, selecione **fechar**.
+    4.  Selecione **Avançar** e, em seguida, selecione **fechar**.
 
 2.  Distribuir pacotes de driver.
 
-    1.  No console do Configuration Manager, vá para **pacotes de driver**de **sistemas** \> operacionais de **biblioteca** \> de software. Selecione todos os pacotes de driver que você deseja distribuir e, em seguida, selecione **distribuir conteúdo**.
+    1.  No console do Configuration Manager, vá para  \> pacotes de driver de **sistemas operacionais** de biblioteca de software \> . Selecione todos os pacotes de driver que você deseja distribuir e, em seguida, selecione **distribuir conteúdo**.
 
     2.  Examine a lista de pacotes e selecione **Avançar**.
 
     3.  Adicione todos os servidores de ponto de distribuição (ou grupos de pontos de distribuição, dependendo da sua hierarquia do Configuration Manager) à lista e, em seguida, selecione **Avançar**.
 
-    4.  Selecione **Avançar**e, em seguida, selecione **fechar**.
+    4.  Selecione **Avançar** e, em seguida, selecione **fechar**.
 
 3.  Distribuir pacotes do sistema operacional.
 
-    1.  No console do Configuration Manager, vá para **imagens do sistema operacional**dos **sistemas** \> operacionais da **biblioteca** \> de software. Selecione todas as imagens do sistema operacional que você deseja distribuir e, em seguida, selecione **distribuir conteúdo**.
+    1.  No console do Configuration Manager, vá para  \> imagens do sistema operacional dos **sistemas operacionais** da biblioteca de software \> . Selecione todas as imagens do sistema operacional que você deseja distribuir e, em seguida, selecione **distribuir conteúdo**.
 
     2.  Examine a lista de pacotes e selecione **Avançar**.
 
     3.  Adicione todos os servidores de ponto de distribuição (ou grupos de pontos de distribuição, dependendo da sua hierarquia do Configuration Manager) à lista e, em seguida, selecione **Avançar**.
 
-    4.  Selecione **Avançar**e, em seguida, selecione **fechar**.
+    4.  Selecione **Avançar** e, em seguida, selecione **fechar**.
 
 > [!NOTE]
 > A distribuição de pacote pode levar algum tempo, dependendo do tamanho do pacote, da hierarquia do Configuration Manager, do número de servidores de ponto de distribuição e da largura de banda disponível na rede.
 > 
 > Todos os pacotes devem ser distribuídos para que você possa começar a implantar uma unidade de salas do Microsoft Teams.
 > 
-> Você pode examinar o status da distribuição do pacote no console do Configuration Manager indo **monitorar** \> **Distribution Status** \> **status do conteúdo**do status da distribuição.
+> Você pode examinar o status da distribuição do pacote no console do Configuration Manager indo **monitorar** \> status do conteúdo do **status da distribuição** \> .
 
 ## <a name="configuration-manager-task-sequences"></a>Sequências de tarefas do Configuration Manager
 
@@ -602,11 +602,11 @@ Você usa sequências de tarefas com o Configuration Manager para automatizar as
 Você pode baixar e importar facilmente uma sequência de tarefas de exemplo e personalizá-la para atender às suas necessidades.
 
 1.  [**Baixe**](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/Skype-Room-Systems-v2/SRS-v2-Configuration-Manager-Files.zip?raw=true) a sequência de tarefas de exemplo e copie o arquivo zip baixado para um local compartilhado.
-2.  No console do Configuration Manager, vá para **sequências de tarefas**de **sistemas** \> operacionais da **biblioteca** \> de software e selecione **importar sequência de tarefas**.
+2.  No console do Configuration Manager, vá para sequências de tarefas de sistemas operacionais da **biblioteca de software** \>  \> e selecione **importar sequência de tarefas**.
 
 3.  Selecione **procurar**, vá para o local da pasta compartilhada que você usou na etapa 1, selecione o arquivo **. zip da implantação de salas do Microsoft Teams (en-US)** e, em seguida, selecione **Avançar**.
 
-4.  Defina **ação** para **criar novo**e, em seguida, selecione **Avançar**.
+4.  Defina **ação** para **criar novo** e, em seguida, selecione **Avançar**.
 
 5.  Confirme as configurações e, em seguida, selecione **Avançar**.
 
@@ -630,7 +630,7 @@ Você pode baixar e importar facilmente uma sequência de tarefas de exemplo e p
 
    4. **Aplicar sistema operacional**: esta etapa especifica a imagem do sistema operacional a ser implantada e o arquivo de resposta do Sysprep autônomo a ser usado.
       -  Verifique se o arquivo de imagem correto do sistema operacional Windows 10 Enterprise está selecionado.
-      -  Verifique se o uso de um **arquivo de resposta autônomo ou Sysprep para uma instalação personalizada** está habilitado e se o **pacote SRS v2-Sysprep** está selecionado. Além disso, certifique-se de que o **nome do arquivo** esteja definido como Unattend **. xml**.
+      -  Verifique se o uso de um **arquivo de resposta autônomo ou Sysprep para uma instalação personalizada** está habilitado e se o **pacote SRS v2-Sysprep** está selecionado. Além disso, certifique-se de que o **nome do arquivo** esteja definido como **unattend.xml**.
 
    5. **Aplicar configurações do Windows**: esta etapa coleta informações sobre a instalação do Windows.
       -  Forneça informações de licenciamento e registro, incluindo a chave do produto, a senha da conta de administrador local e o fuso horário (dependendo das suas necessidades).
@@ -730,10 +730,10 @@ Depois de concluir as sequências de tarefas do Microsoft Endpoint Configuration
 
     6.  Siga um destes procedimentos:
 
-        -   Selecione **inicialização PXE**e arraste-o para a parte superior da lista. Você também pode passar o dedo para a esquerda no adaptador de rede para inicializar o dispositivo imediatamente. Isso não afetará a ordem de inicialização.
+        -   Selecione **inicialização PXE** e arraste-o para a parte superior da lista. Você também pode passar o dedo para a esquerda no adaptador de rede para inicializar o dispositivo imediatamente. Isso não afetará a ordem de inicialização.
         -   Selecione a unidade flash USB que contém a mídia de inicialização.
 
-3.  Selecione **sair**e, em seguida, selecione **reiniciar agora**.
+3.  Selecione **sair** e, em seguida, selecione **reiniciar agora**.
 
 4.  Quando solicitado, selecione **Enter** for Network boot Service.
 
@@ -761,11 +761,11 @@ O arquivo SMSTS. log está armazenado em um de vários caminhos, dependendo do e
 
 | **Fase de implantação**                                                            | **Caminho do log da sequência de tarefas**                         |
 |---------------------------------------------------------------------------------|----------------------------------------------------|
-| WinPE, antes do formato do HDD                                                        | X:\\Windows\\temp\\smstslog\\SMSTS. log             |
-| WinPE, após o formato do HDD                                                         | C:\\_SMSTaskSequence\\registra\\-\\se Smstslog SMSTS. log    |
-| Sistema operacional implantado antes da instalação do agente do Configuration Manager | c:\\_SMSTaskSequence\\registra\\-\\se Smstslog SMSTS. log    |
-| Sistema operacional e o agente do Configuration Manager implantado                   | % WINDIR%\\system32\\CCM\\logs\\Smstslog\\SMSTS. log |
-| Execução da sequência de tarefas concluída                                                | % WINDIR%\\system32\\CCM\\registra\\SMSTS. log           |
+| WinPE, antes do formato do HDD                                                        | X: \\ Windows \\ temp \\ smstslog \\ SMSTS. log             |
+| WinPE, após o formato do HDD                                                         | C: \\ _SMSTaskSequence \\ registra-se \\ Smstslog \\ SMSTS. log    |
+| Sistema operacional implantado antes da instalação do agente do Configuration Manager | c: \\ _SMSTaskSequence \\ registra-se \\ Smstslog \\ SMSTS. log    |
+| Sistema operacional e o agente do Configuration Manager implantado                   | % WINDIR% \\ System32 \\ CCM \\ logs \\ Smstslog \\ SMSTS. log |
+| Execução da sequência de tarefas concluída                                                | % WINDIR% \\ System32 \\ CCM \\ registra \\ SMSTS. log           |
 
 > [!TIP]
 > Você pode selecionar **F8** a qualquer momento durante a sequência de tarefas para abrir um console de comando e, em seguida, obter acesso ao arquivo SMSTS. log.

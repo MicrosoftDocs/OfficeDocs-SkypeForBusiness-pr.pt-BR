@@ -1,7 +1,7 @@
 ---
 title: Suporte às Salas do Microsoft Teams
-ms.author: v-lanac
-author: lanachin
+ms.author: dstrome
+author: dstrome
 manager: serdars
 ms.reviewer: sohailta
 ms.topic: article
@@ -22,12 +22,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-apr2020
 description: Saiba mais sobre as licenças disponíveis para diferentes tipos de recursos de chamada e reunião nos quartos do Microsoft Teams.
-ms.openlocfilehash: 581be3b73e951ff4d3409ccf9f4ee10f212c7f23
-ms.sourcegitcommit: 1e7bc16969db01317ee482cabf681febae0ef51f
+ms.openlocfilehash: 37f47e9b89abd87837b02f8a67c3c82eaa9c7a5c
+ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "44416841"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "49662476"
 ---
 # <a name="teams-meeting-room-licensing-update"></a>Atualização do licenciamento da sala de reunião do teams
 
@@ -46,7 +46,7 @@ A Microsoft tem uma SKU dedicada para licenciar reuniões e fazer chamadas em ca
 |Disponibilidade do canal | EA, EAS, CSP, <br/>Web Direct |
 | | | |
 
-&SUP1; A disponibilidade e os minutos incluídos podem variar de acordo com a região. Para verificar a disponibilidade do serviço, confira a [disponibilidade de país e região para videoconferências e planos de chamada](https://docs.microsoft.com/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans). Tarifas de consumo podem ser aplicadas para serviços adicionais, como chamadas grátis, minutos internacionais para planos nacionais, etc. Os clientes podem desabilitar esses recursos para evitar cobrança adicional.  
+&SUP1; A disponibilidade e os minutos incluídos podem variar de acordo com a região. Para verificar a disponibilidade do serviço, confira a  [disponibilidade de país e região para videoconferências e planos de chamada](https://docs.microsoft.com/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans). Tarifas de consumo podem ser aplicadas para serviços adicionais, como chamadas grátis, minutos internacionais para planos nacionais, etc. Os clientes podem desabilitar esses recursos para evitar cobrança adicional.  
 
 &sup2; Não disponível em nuvens soberana  
 

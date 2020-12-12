@@ -22,12 +22,12 @@ appliesto:
 ms.reviewer: ''
 description: Use os modelos do Microsoft Teams no centro de administração para criar equipes rápida e facilmente fornecendo um modelo predefinido de configurações, canais e aplicativos.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: d2f2fcbf2fb66206306e2ae5c6ab14ed6176e612
-ms.sourcegitcommit: bc471f18e40e37456edc9696e11b175581847617
+ms.openlocfilehash: 9c5ee54f9cbade8132d31d8f984c1d85fd8252b3
+ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "48800664"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "49662226"
 ---
 # <a name="use-teams-healthcare-templates-in-the-admin-center"></a>Usar modelos do teams Healthcare no centro de administração
 
@@ -43,7 +43,7 @@ Atualmente, oferecemos dois modelos de saúde de primeira mão que você pode us
 
 | Tipo de modelo base |baseTemplateId| Propriedades que vêm com este modelo base |
 | ------------------ |---|----------------------------------------------------- |
-| Colabore no atendimento ao paciente |`healthcareWard` | Canais<ul><li>Geral</li><li>Comunicados</li><li>Huddles</li><li>Arredonda</li><li>Especificam</li><li>Treinamento</li></ul> Aplicativo <ul><li>Wiki</li>|
+| Colabore no atendimento ao paciente |`healthcareWard` | Canais<ul><li>Geral</li><li>Comunicados</li><li>Huddles</li><li>Arredonda</li><li>Especificam</li><li>Treinamento</li></ul> Aplicativo <ul><li>Wiki</li><li>Relaciona</li></ul>|
 ||||
 
 ## <a name="hospital"></a>Hospital
@@ -52,7 +52,7 @@ Simplifique a comunicação e a colaboração entre vários departamentos, pods 
 
 | Tipo de modelo base |baseTemplateId | Propriedades que vêm com este modelo base |
 | ------------------|-- |----------------------------------------------------- |
-|Hospital|`healthcareHospital`|Canais <ul><li>Geral<li>Comunicados</li><li>Conformidade</li><li>Custodial</li><li>Recursos humanos</li><li>Farmácia</li></ul> Aplicativo <ul><li>Wiki</li></ul>|
+|Hospital|`healthcareHospital`|Canais <ul><li>Geral</li><li>Comunicados</li><li>Conformidade</li><li>Custodial</li><li>Recursos humanos</li><li>Farmácia</li></ul> Aplicativo <ul><li>Wiki</li><li>Relaciona </li></ul>|
 ||||
 
 ## <a name="related-topics"></a>Tópicos relacionados

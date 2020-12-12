@@ -1,7 +1,7 @@
 ---
 title: Serviço gerenciado de salas do Microsoft Teams
-author: lanachin
-ms.author: v-lanac
+author: dstrome
+ms.author: dstrome
 manager: serdars
 ms.reviewer: ''
 ms.topic: article
@@ -17,12 +17,12 @@ localization_priority: Normal
 search.appverid: MET150
 description: Saiba mais sobre o serviço gerenciado de salas do Microsoft Teams.
 f1keywords: ''
-ms.openlocfilehash: 73c23ec114044a1af212cf0ce7a7077531c566c0
-ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
+ms.openlocfilehash: 783c63e6264cb94ae45c5c8c42de7c52e2337931
+ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49031397"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "49662656"
 ---
 # <a name="microsoft-teams-rooms-managed-service"></a>Serviço gerenciado de salas do Microsoft Teams
 
@@ -130,7 +130,7 @@ O serviço de salas do Microsoft Teams gerenciados está disponível nos seguint
 |Investigações iniciais são realizadas para periféricos certificados, como câmeras, microfones e alto-falantes. A entrega ao suporte ao OEM é realizada para o OEM atender à solicitação de substituição ou garantia.    |Compras, envio ou instalação de substituições.         |Suporte a OEM         |
 |**Análise de causa básica**     |         |         |
 |Todas as causas básicas de problemas encontrados na experiência da sala de reunião são fornecidas quando disponíveis, mas são executados de acordo com a ativação.     |A análise de causa básica para problemas de software de terceiros não está incluída.         |Canais de suporte padrão de terceiros         |
-|**Experiência de reunião**   |         |         |
+|**Experiência de compartilhamento**   |         |         |
 |A investigação de problemas dentro das configurações da reunião no aplicativo salas do Microsoft Teams e orientação para configurar corretamente a qualidade de serviço no dispositivo é fornecida na solicitação.      |As investigações ou investigações de causa básica para problemas de qualidade de chamada ou relacionados à rede são excluídas deste escopo.         |Suporte do Microsoft mainstream         |
 |**Correção, integração e contínua**     |         |         |
 |Os clientes recebem orientação para trazer suas salas aos padrões recomendados pelo serviço gerenciado de salas do Microsoft Teams em integração    |Investigações com respeito a imagens de software personalizadas internas ou não compatíveis com a orientação de versão de software recomendada do serviço gerenciado de salas do Microsoft Teams não estão no escopo.          |         |

@@ -21,17 +21,17 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 29b01d7418a194233f3205502134645526351dc4
-ms.sourcegitcommit: 43dc627e9fef31a2508f54acf741000551ff68b5
+ms.openlocfilehash: c17bf12a929f03ae766c57bb7f32da4e62f5a950
+ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "48878485"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "49662496"
 ---
 # <a name="security-and-compliance-in-microsoft-teams"></a>Segurança e conformidade no Microsoft Teams
 
 > [!IMPORTANT]
-> Para saber mais sobre como garantir a **segurança enquanto todos estiverem trabalhando em casa durante a epidemia do COVID-19** , leia estes artigos:
+> Para saber mais sobre como garantir a **segurança enquanto todos estiverem trabalhando em casa durante a epidemia do COVID-19**, leia estes artigos:
 >  - [As 12 principais tarefas para as equipes de segurança dar suporte ao trabalho em casa](https://docs.microsoft.com/microsoft-365/security/top-security-tasks-for-remote-work)
 >  - [Otimize a conectividade do Microsoft 365 ou do Office 365 para usuários remotos usando o tunelamento dividido da VPN](https://docs.microsoft.com/Office365/Enterprise/office-365-vpn-split-tunnel)
 >  - Atualizado em 2 de abril de 2020: [Guia de segurança do teams](teams-security-guide.md)
@@ -181,8 +181,7 @@ A figura a seguir indica o fluxo de inclusão de reuniões e dados de chamadas d
 
 Quando se trata de recursos de proteção de informações, assinaturas do Microsoft 365, assinaturas do Office 365 e das licenças autônomas associadas determinarão o conjunto de recursos disponíveis.
 
-Para obter informações sobre como determinar o licenciamento precisa implementar recursos de segurança e conformidade, consulte o [Licenciamento do Office 365 ou do Microsoft 365](https://download.microsoft.com/download/8/7/7/877B1713-671E-43AA-BB79-AF8478C64AFF/Licensing-Microsoft-365.pdf).
-
+Para obter informações sobre como determinar o licenciamento precisa implementar recursos de segurança e conformidade, consulte os [requisitos de licenciamento](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance) para recursos de segurança e conformidade.
 > [!NOTE]
 > A pesquisa de conteúdo e a descoberta eletrônica não precisam ser habilitadas no centro de conformidade do & de segurança para funcionar.
 
@@ -190,7 +189,7 @@ Para obter informações sobre como determinar o licenciamento precisa implement
 
 No Teams, os dados são armazenados na região geográfica associada à sua organização do Microsoft 365 ou do Office 365. Para ver em quais regiões há suporte no momento, examine a [localização dos dados no Microsoft Teams](location-of-data-in-teams.md).
 
-Se você precisar ver qual região abriga os dados para o seu locatário, vá para o perfil da organização de configurações do [centro de administração do Microsoft 365](https://portal.office.com/adminportal/home)  >  **Settings**  >  **Organization profile**. Role para baixo até **Localização de dados**.
+Se você precisar ver qual região abriga os dados para o seu locatário, vá para o perfil da organização de configurações do [centro de administração do Microsoft 365](https://portal.office.com/adminportal/home)  >    >  . Role para baixo até **Localização de dados**.
 
 ![Captura de tela da tabela de localização de dados, incluindo equipes no centro de administração](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image5.png)
 

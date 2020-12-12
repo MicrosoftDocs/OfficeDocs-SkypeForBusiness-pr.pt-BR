@@ -1,7 +1,7 @@
 ---
 title: Planejar as Salas do Microsoft Teams
-ms.author: v-lanac
-author: lanachin
+ms.author: dstrome
+author: dstrome
 ms.reviewer: sohailta
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 - m365initiative-meetings
 description: Este artigo explica as considerações de planejamento pertinentes para a implantação de salas do Microsoft Teams, a próxima geração de sistemas de sala do Skype.
-ms.openlocfilehash: f91d1ab8eeb3a89207f78fc37b9924f411a1edc1
-ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
+ms.openlocfilehash: ccc24aea1a45d2aa75c3b1a5de668b520483c2bd
+ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49031437"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "49662466"
 ---
 # <a name="plan-microsoft-teams-rooms"></a>Planejar salas do Microsoft Teams
 

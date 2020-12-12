@@ -1,7 +1,7 @@
 ---
 title: Implantar salas do Microsoft Teams com o Exchange local
-ms.author: v-lanac
-author: lanachin
+ms.author: dstrome
+author: dstrome
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta
@@ -17,12 +17,12 @@ ms.assetid: 24860c05-40a4-436b-a44e-f5fcb9129e98
 ms.collection:
 - M365-collaboration
 description: Leia este tópico para obter informações sobre como implantar salas do Microsoft Teams em um ambiente híbrido com o Exchange no local.
-ms.openlocfilehash: 71b1ab2ba641b25764f5c546343a3c7a597f121a
-ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
+ms.openlocfilehash: f9f80f5b993b9be95e35c8178d996973558e2512
+ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/15/2020
-ms.locfileid: "47814530"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "49662316"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-exchange-on-premises"></a>Implantar as Salas do Microsoft Teams com o Exchange no local
 
@@ -58,7 +58,7 @@ Se você estiver implantando salas do Microsoft Teams com o Exchange no local, u
 
 ### <a name="create-an-account-and-synchronize-with-active-directory"></a>Criar uma conta e sincronizá-la com o Active Directory
 
-1. Na ferramenta **usuários e computadores do Active Directory** , clique com o botão direito do mouse na pasta ou unidade organizacional na qual as contas de salas do Microsoft Teams serão criadas, clique em **novo**e, em seguida, clique em **usuário**.
+1. Na ferramenta **usuários e computadores do Active Directory** , clique com o botão direito do mouse na pasta ou unidade organizacional na qual as contas de salas do Microsoft Teams serão criadas, clique em **novo** e, em seguida, clique em **usuário**.
 
 2. Digite o nome de exibição do cmdlet anterior na caixa **Nome completo** e o alias na caixa **Nome de logon do usuário**. Clique em **Avançar**.
 

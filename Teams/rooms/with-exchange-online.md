@@ -1,7 +1,7 @@
 ---
 title: Implantar as Salas do Microsoft Teams com o Exchange Online
-ms.author: v-lanac
-author: lanachin
+ms.author: dstrome
+author: dstrome
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta
@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 ms.assetid: f3ba85b8-442c-4133-963f-76f1c8a1fff9
 description: Leia este tópico para obter informações sobre como implantar salas do Microsoft Teams com o Exchange Online e o Skype for Business Server no local.
-ms.openlocfilehash: e39a7f2cde6aef7bdee59f2052c789783d62f905
-ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
+ms.openlocfilehash: 82fa0b1b521c7dd2feadcca2030869b746a444aa
+ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/15/2020
-ms.locfileid: "47814510"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "49662306"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-exchange-online"></a>Implantar as Salas do Microsoft Teams com o Exchange Online
 
@@ -76,7 +76,7 @@ Se você implantou o AD FS (serviços de Federação do Active Directory), talve
 
 ### <a name="add-an-email-address-for-your-on-premises-domain-account"></a>Adicionar um endereço de e-mail à conta de domínio local
 
-1. Na ferramenta **ad usuários e computadores do Active Directory** , clique com o botão direito do mouse no contêiner ou na unidade organizacional em que suas contas de sala do Microsoft Teams serão criadas, clique em **novo**e clique em **usuário**.
+1. Na ferramenta **ad usuários e computadores do Active Directory** , clique com o botão direito do mouse no contêiner ou na unidade organizacional em que suas contas de sala do Microsoft Teams serão criadas, clique em **novo** e clique em **usuário**.
 2. Digite o nome para exibição (-identidade) do cmdlet anterior (Set-Mailbox ou New-Mailbox) na caixa **nome completo** e o alias para a caixa **nome de logon do usuário** . Clique em **Avançar**.
 3. Digite a senha da conta. Você deverá redigitá-la para verificação. Verifique se a caixa de seleção **A senha nunca expira** é a única opção selecionada.
 

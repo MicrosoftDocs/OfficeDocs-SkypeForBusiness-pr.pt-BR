@@ -1,5 +1,5 @@
 ---
-title: Usar modelos do teams para criar uma nova equipe
+title: Usar modelos do teams no centro de administração
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -18,12 +18,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e195b4d233fe0b23558e29fb4545e4c6b52031e6
-ms.sourcegitcommit: bc471f18e40e37456edc9696e11b175581847617
+ms.openlocfilehash: 7ad35b874f3f11a7e71d61c63cb90a1945c7cc85
+ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "48800554"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "49662646"
 ---
 # <a name="get-started-with-teams-templates-in-the-admin-center"></a>Introdução aos modelos do Microsoft Teams no centro de administração
 
@@ -68,18 +68,18 @@ Depois que um tipo de modelo base é definido, você pode estender ou substituir
 | Tipo de modelo base | baseTemplateId | Propriedades que vêm com este modelo base |
 | ------------------ | -------------- | ----------------------------------------------------- |
 | Adotar o Office 365 |`com.microsoft.teams.template.AdoptOffice365`|  Canais <ul><li>Geral</li> <li>Comunicados</li> <li>Canto dos Campeões</li> <li>Formulários de equipe</li></ul> Aplicativo <ul><li>Wiki</li>  <li>Calendário</li> |
-| Gerenciar um projeto |`com.microsoft.teams.template.ManageAProject`| Canais <ul><li>Geral</li> <li>Comunicados</li> <li>Recursos</li> <li>Planejamento</li></ul> Aplicativo<ul><li>Wiki</li><li>OneNote</li></ul> |
+| Gerenciar um projeto |`com.microsoft.teams.template.ManageAProject`| Canais <ul><li>Geral</li> <li>Comunicados</li> <li>Recursos</li> <li>Planejamento</li></ul> Aplicativo<ul><li>Wiki</li><li>OneNote</li><li>Planner</li><li>Relaciona</li>  </ul> |
 | Gerenciar um evento|`com.microsoft.teams.template.ManageAnEvent` | Canais <ul><li>Geral</li> <li>Comunicados</li> <li>Orçamento</li> <li>Conteúdo</li><li>Logística</li> <li>Planejamento</li> <li> Marketing e PR</li></ul> Aplicativo<ul><li>Wiki</li><li>Site</li> <li>YouTube</li> <li>Planner</li> <li>OneNote</li></ul> |
-|Funcionários onboard|`com.microsoft.teams.template.OnboardEmployees` | Canais <ul><li>Geral</li> <li>Comunicados</li> <li>Chat de funcionários</li> <li>Treinamento</li></ul>Aplicativo<ul><li>Wiki</li><li>Às</li></ul>|
-|Organizar o Help Desk| `com.microsoft.teams.template.OrganizeHelpDesk`|Canais<ul><li>Geral</li><li>Comunicados</li><li>Perguntas frequentes</li></ul>Aplicativo<ul><li>Wiki</li><li>OneNote</li></ul> |
-| Colabore no atendimento ao paciente| `healthcareWard `| Canais<ul><li>Geral</li><li>Comunicados</li><li>Huddles</li><li>Arredonda</li><li>Especificam</li><li>Treinamento</li></ul> Aplicativo <ul><li>Wiki</li>|
-| Colaborar em uma crise global ou em um evento |`com.microsoft.teams.template.CollaborateOnAGlobalCrisisOrEvent`| Canais <ul><li>Geral<li>Comunicados</li><li>Notícias do mundo</li><li>Continuidade de negócios</li><li>Trabalho remoto</li><li>Comms internas</li><li>Comentários externos</li><li>Reclamações do cliente</li><li>Parabéns</li><li>Atualização executiva</li></ul>Aplicativo <ul><li>Elogia</li><li>Wiki</li><li>Site</li></ul>|
-|Colaborar dentro de um Branch bancário| `com.microsoft.teams.template.CollaborateWithinABankBranch `|Canais <ul><li>Geral<li>Comunicados</li><li>Huddles</li><li>Reuniões do cliente</li><li>Treina</li><li>Desenvolvimento de habilidades</li><li>Processamento de empréstimos</li><li>Reclamações do cliente</li><li>Parabéns</li><li>Coisas divertidas</li><li>Conformidade</li></ul>|
+|Funcionários onboard|`com.microsoft.teams.template.OnboardEmployees` | Canais <ul><li>Geral</li> <li>Comunicados</li> <li>Chat de funcionários</li> <li>Treinamento</li></ul>Aplicativo<ul><li>Wiki</li><li>Às</li><li>Planner</li></ul>|
+|Organizar o Help Desk| `com.microsoft.teams.template.OrganizeHelpDesk`|Canais<ul><li>Geral</li><li>Comunicados</li><li>Perguntas frequentes</li></ul>Aplicativo<ul><li>Wiki</li><li>OneNote</li><li>Planner </li><li>Elogia</li></ul> |
+| Colabore no atendimento ao paciente| `healthcareWard`| Canais<ul><li>Geral</li><li>Comunicados</li><li>Huddles</li><li>Arredonda</li><li>Especificam</li><li>Treinamento</li></ul> Aplicativo <ul><li>Wiki</li><li>Relaciona  </li></ul>|
+| Colaborar em uma crise global ou em um evento |`com.microsoft.teams.template.CollaborateOnAGlobalCrisisOrEvent`| Canais <ul><li>Geral<li>Comunicados</li><li>Notícias do mundo</li><li>Continuidade de negócios</li><li>Trabalho remoto</li><li>Comms internas</li><li>Comentários externos</li><li>Solicitação de aprovações</li><li>Reclamações do cliente</li><li>Parabéns</li><li>Atualização executiva</li></ul>Aplicativo <ul><li>Elogia</li><li>Wiki</li><li>Site</li><li>Planner</li></ul>|
+|Colaborar dentro de um Branch bancário| `com.microsoft.teams.template.CollaborateWithinABankBranch`|Canais <ul><li>Geral<li>Comunicados</li><li>Huddles</li><li>Reuniões do cliente</li><li>Solicitação de aprovações </li><li>Treina</li><li>Desenvolvimento de habilidades</li><li>Processamento de empréstimos</li><li>Reclamações do cliente</li><li>Parabéns</li><li>Coisas divertidas</li><li>Conformidade</li></ul>Aplicativo<ul><li>Elogia </li></ul>|
 |Coordenar resposta a incidentes| `com.microsoft.teams.template.CoordinateIncidentResponse`|Canais <ul><li>Geral<li>Comunicados</li><li>Logística</li><li>Planejamento</li><li>Automatiza</li><li>Urgente</li></ul> Aplicativo <ul><li>Wiki</li><li>Excel</li><li>OneNote</li><li>SharePoint</li><li>Planner</li></ul>|
-|Hospital| `healthcareHospita`t |Canais <ul><li>Geral<li>Comunicados</li><li>Conformidade</li><li>Custodial</li><li>Recursos humanos</li><li>Farmácia</li></ul> Aplicativo <ul><li>Wiki</li></ul>|
-|Organizar uma loja| `retailStore` |Canais <ul><li>Geral<li>Deslocar entrega</li><li>Aprendizagem</li></ul> Aplicativo <ul><li>Wiki</li></ul>|
-|Qualidade e segurança |`com.microsoft.teams.template.QualitySafety`|Canais <ul><li>Geral<li>Comunicados</li><li>Linha 1</li><li>Linha 2</li><li>Linha 3</li><li>Segurança</li><li>Treinamento</li><li>Manutenção</li><li>Coisas divertidas</li></ul> Aplicativo <ul><li>Wiki</li></ul>|
-|Colaboração do gerente de varejo| `retailManagerCollaboration` |Canais <ul><li>Geral<li>Operações</li><li>Aprendizagem</li></ul> Aplicativo <ul><li>Wiki</li></ul>|
+|Hospital| `healthcareHospital` |Canais <ul><li>Geral</li><li>Comunicados</li><li>Conformidade</li><li>Custodial</li><li>Recursos humanos</li><li>Farmácia</li></ul> Aplicativo <ul><li>Wiki</li><li>Relaciona  </li></ul>|
+|Organizar uma loja| `retailStore` |Canais <ul><li>Geral<li>Deslocar entrega</li><li>Aprendizagem</li></ul> Aplicativo <ul><li>Wiki</li><li>Planner</li></ul>|
+|Qualidade e segurança |`com.microsoft.teams.template.QualitySafety`|Canais <ul><li>Geral<li>Comunicados</li><li>Linha 1</li><li>Linha 2</li><li>Linha 3</li><li>Segurança</li><li>Treinamento</li><li>Manutenção</li><li>Coisas divertidas</li></ul> Aplicativo <ul><li>Wiki</li><li>Planner</li></ul>|
+|Colaboração do gerente de varejo| `retailManagerCollaboration` |Canais <ul><li>Geral<li>Operações</li><li>Aprendizagem</li></ul> Aplicativo <ul><li>Wiki</li><li>Planner</li></ul>|
 ||||
 
 Para obter mais informações sobre as categorias de modelo, consulte as seguintes categorias:

@@ -13,12 +13,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: Este artigo discute como configurar os dispositivos da sua organização e salas de equipe para dar suporte à reunião de terceiros de acordo com o Cisco WebEx e o zoom.
-ms.openlocfilehash: 708fb7f9d243559a571b2b9016fab1e38aa63114
-ms.sourcegitcommit: 3e5cac88911611c94c0330bf50af9c34db308cdf
+ms.openlocfilehash: 8079b6fc231bf30a654e2513af55a806433eb83f
+ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/22/2020
-ms.locfileid: "45372210"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "49662356"
 ---
 # <a name="enable-teams-room-devices-to-join-third-party-meetings"></a>Habilitar dispositivos da sala de equipe para participar de reuniões de terceiros
 
@@ -55,14 +55,14 @@ Saiba mais sobre o [PowerShell do Exchange Online](https://docs.microsoft.com/po
 
 ## <a name="step-2-configure-office-365-threat-protection-and-link-rewrite"></a>Etapa 2: configurar a proteção contra ameaças e a regravação de links do Office 365
 
-Para habilitar a experiência de junção de toque único, as informações do link de ingresso na reunião de terceiros devem estar presentes e legíveis no convite da reunião. Se a sua organização usa o recurso de [links seguros da proteção avançada contra ameaças do Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-links)   ou se você usa uma solução de terceiros que examina todas as URLs de entrada e saída para ameaças, ela pode alterar as URLs de junção da reunião e torná-la irreconhecível para o dispositivo de salas de equipe. Para verificar se isso não acontece, você precisa adicionar as URLs de um serviço de reunião de terceiros à lista de links de segurança ATP "não reescrever" ou à lista de exceções de regravação de URL de terceiros.
+Para habilitar a experiência de junção de toque único, as informações do link de ingresso na reunião de terceiros devem estar presentes e legíveis no convite da reunião. Se a sua organização usa o recurso de [links seguros da proteção avançada contra ameaças do Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-links) ou se você usa uma solução de terceiros que examina todas as URLs de entrada e saída para ameaças, ela pode alterar as URLs de junção da reunião e torná-la irreconhecível para o dispositivo de salas de equipe. Para verificar se isso não acontece, você precisa adicionar as URLs de um serviço de reunião de terceiros à lista de links de segurança ATP "não reescrever" ou à lista de exceções de regravação de URL de terceiros.
 
 Para adicionar URLs de serviços de reunião de terceiros à lista de links seguros ATP "não reescrever", siga as etapas em [Configurar uma lista de URLs do not Rewrite usando links de segurança ATP](https://docs.microsoft.com/microsoft-365/security/office-365-security/set-up-a-custom-do-not-rewrite-urls-list-with-atp?view=o365-worldwide). Se você usa uma solução de terceiros, consulte as instruções dessa solução para adicionar URLs à sua lista de exceções de regravação de URL.
 
 Aqui estão alguns exemplos de entradas que talvez você precise adicionar à lista de exceções ATP "não reescrever" ou à lista de exceções de regravação de URL de terceiros:
 
 - **Cisco WebEx**`*.webex.com*`
-- **Zoom** `*zoom.us*` , `*zoom.com*` ,`*zoomgov.com*`
+- **Zoom** `*.zoom.us*` , `*.zoom.com*` , `*.zoomgov.com*`
 
 Para obter uma lista completa de URLs a serem adicionadas à lista de exceções ATP "não reescrever" ou à lista de exceções de terceiras URLs, entre em contato com o provedor de serviços de reunião de terceiros do qual você deseja aceitar os convites de reunião. 
 
@@ -77,24 +77,24 @@ A última etapa que você precisa fazer é permitir que cada dispositivo de sala
 
 Para configurar o dispositivo de salas de equipe usando o Touch Touch, faça o seguinte:
 
-1. No dispositivo salas do Microsoft Teams, selecione **mais..** .
-2. Selecione **configurações**e, em seguida, digite o nome de usuário e a senha do administrador do dispositivo
-3. Vá para a guia **reuniões**   e selecione **Cisco WebEx**, **zoom**<sup>1</sup>ou ambos
+1. No dispositivo salas do Microsoft Teams, selecione **mais..** .
+2. Selecione **configurações** e, em seguida, digite o nome de usuário e a senha do administrador do dispositivo
+3. Vá para a guia **reuniões** e selecione **Cisco WebEx**, **zoom**<sup>1</sup>ou ambos
 4. Se você deseja ingressar em reuniões com o nome de usuário e o endereço de email associados à caixa de correio da sala, selecione **ingressar com informações de sala**
 5. Se você quiser ingressar em reuniões com um nome de usuário e um endereço de email alternativos, selecione **ingressar com informações personalizadas** e insira o nome de usuário e o endereço de email que deseja usar
-6. Selecione **salvar e sair**. Seu dispositivo será reiniciado.
+6. Selecione **salvar e sair**. Seu dispositivo será reiniciado.
 
 ### <a name="use-the-skypesettingsxml-configuration-file"></a>Usar o arquivo de configuração SkypeSettings.xml
 
 As configurações a seguir podem ser adicionadas ao `SkypeSettings.xml` arquivo localizado em `C:\Users\Skype\AppData\Local\Packages\Microsoft.SkypeRoomSystem_8wekyb3d8bbwe\LocalState` . Para obter mais informações sobre o `SkypeSettings.xml` arquivo, consulte [gerenciar configurações de console de salas do Microsoft Teams remotamente com um arquivo de configuração XML](xml-config-file.md).
 
-Para habilitar reuniões Cisco WebEx, defina o `WebExMeetingsEnabled` elemento XML como **true**, da seguinte maneira.
+Para habilitar reuniões Cisco WebEx, defina o `WebExMeetingsEnabled` elemento XML como **true**, da seguinte maneira.
 
 ```xml
 <WebExMeetingsEnabled>True</WebExMeetingsEnabled>
 ```
 
-Para habilitar o zoom<sup>1</sup> reuniões, defina o `ZoomMeetingsEnabled` elemento XML como **verdadeiro**, da seguinte maneira.
+Para habilitar o zoom <sup>1</sup> reuniões, defina o `ZoomMeetingsEnabled` elemento XML como **verdadeiro**, da seguinte maneira.
 
 ```xml
 <ZoomMeetingsEnabled>True</ZoomMeetingsEnabled>

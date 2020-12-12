@@ -19,12 +19,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: O acesso de convidados no Microsoft Teams permite que as equipes da sua organização colaborem com pessoas de fora da sua organização, lhes concedendo acesso a equipes e a canais.
-ms.openlocfilehash: 266830f29f98d517450f4062ff23de9a7582a24f
-ms.sourcegitcommit: 207e6aa97867e3fd80734cc839c0c5858bca24c8
-ms.translationtype: HT
+ms.openlocfilehash: 09090cc2061c3d138af2b3092e987293255a1134
+ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "49476990"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "49662036"
 ---
 # <a name="guest-access-in-microsoft-teams"></a>Acesso para convidado no Microsoft Teams
 
@@ -37,7 +37,7 @@ Os convidados no Teams estão cobertos pela mesma proteção de conformidade e a
 A experiência de convidado tem limitações por padrão. Para obter uma lista completa do que um convidado pode ou não fazer no Teams, consulte [comparação de recursos de membros e de convidados da equipe](guest-experience.md#comparison-of-team-member-and-guest-capabilities).
 
 > [!IMPORTANT]
-> Os usuários convidados seguem as configurações em toda a organização do Teams para o modo de atualização de coexistência. Isso não pode ser alterado.
+> Os convidados seguem as configurações de toda a organização do teams para o modo de atualização de coexistência. Isso não pode ser alterado.
 
 Para configurar o acesso de convidado, consulte [Colaborar com convidados em uma equipe](https://docs.microsoft.com/microsoft-365/solutions/collaborate-as-team). 
 
@@ -57,10 +57,10 @@ O acesso de convidados no Teams é uma configuração em toda a organização e 
 1. Um proprietário de equipe ou um administrador do Microsoft 365 [adiciona um convidado a uma equipe.](https://support.office.com/article/add-guests-to-a-team-fccb4fa6-f864-4508-bdde-256e7384a14f).
 2. O convidado recebe um e-mail de boas-vindas do proprietário da equipe com informações sobre a equipe e o que esperar agora que é membro.
 3. O convidado aceita o convite.
-  Os usuários convidados que têm uma conta de trabalho ou de escola no Azure Active Directory podem aceitar o convite e se autenticar diretamente. Outros usuários recebem uma senha de uso único para validar sua identidade ([Autenticação de senha de uso único ](https://docs.microsoft.com/azure/active-directory/external-identities/one-time-passcode) necessária).
+  Os convidados que têm uma conta corporativa ou de estudante no Azure Active Directory podem aceitar o convite e autenticar diretamente. Outros usuários recebem uma senha de uso único para validar sua identidade ([Autenticação de senha de uso único ](https://docs.microsoft.com/azure/active-directory/external-identities/one-time-passcode) necessária).
 4. Depois de aceitar o convite, o convidado pode [participar de equipes e de canais](https://support.office.com/article/df38ae23-8f85-46d3-b071-cb11b9de5499), receber e responder mensagens de canais, [acessar arquivos em canais](https://support.office.com/article/access-files-in-channels-c593c78a-27c4-4661-a598-682baa30ca7e), participar de bate-papos participar de reuniões, colaborar em documentos e muito mais. 
 
-Nas equipes, os convidados são identificados de forma clara. O nome de um usuário convidado inclui o rótulo **(Convidado)** e o canal inclui um ícone para indicar que há convidados na equipe. Para obter mais detalhes, consulte [Como é a experiência do convidado](guest-experience.md)
+Nas equipes, os convidados são identificados de forma clara. O nome de um convidado inclui o rótulo **(convidado)** e um canal inclui um ícone para indicar que há convidados na equipe. Para obter mais detalhes, consulte [Como é a experiência do convidado](guest-experience.md)
   
 Os convidados podem deixar a equipe a qualquer momento no Teams. Para obter detalhes, consulte [Como posso sair de uma equipe?](https://support.office.com/article/leave-a-team-e481005d-3ec6-4694-b300-375472ba4076)
 
@@ -84,7 +84,7 @@ Você mesmo pode realizar uma revisão de acesso de convidado, pedir aos convida
 
 [Colaborar com pessoas fora de sua organização](https://docs.microsoft.com/microsoft-365/solutions/collaborate-with-people-outside-your-organization)
 
-[Bloquear usuários convidados de um grupo específico do Microsoft 365 ou equipe do Microsoft Teams](https://docs.microsoft.com/microsoft-365/solutions/per-group-guest-access)
+[Bloquear convidados de um grupo específico do Microsoft 365 ou da equipe do Microsoft Teams](https://docs.microsoft.com/microsoft-365/solutions/per-group-guest-access)
 
 [Criar um ambiente de compartilhamento de convidados seguro](https://docs.microsoft.com/microsoft-365/solutions/create-secure-guest-sharing-environment)
 

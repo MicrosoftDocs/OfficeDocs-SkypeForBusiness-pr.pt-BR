@@ -1,7 +1,7 @@
 ---
 title: Notas de versão
-ms.author: v-lanac
-author: lanachin
+ms.author: dstrome
+author: dstrome
 ms.reviewer: sohailta
 manager: serdars
 audience: ITPro
@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 description: O administrador pode ler as notas de versão para salas do Microsoft Teams, que lista melhorias cumulativas nas salas do Microsoft Teams.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 7c8f81988525431615f83576f30b6ad809f08806
-ms.sourcegitcommit: 619b68d28b4fbf8b5296d95bbc7ed566f839f1db
+ms.openlocfilehash: e1f64bc6ddb34f2dc8b926e51db6b417fd2547df
+ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "48625117"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "49662396"
 ---
 # <a name="release-notes"></a>Notas de versão
 
@@ -29,6 +29,7 @@ Este artigo discute melhorias cumulativas nas salas do Microsoft Teams.
 
 |Liberação |Publicado em <br/> Microsoft Store |
 |--- |--- |
+|4.7.15.0 |12/11/2020 |
 |4.6.23.0 |10/19/2020 |
 |4.6.20.0 |09/30/2020 |
 |4.5.37.0 |08/14/2020 |
@@ -69,27 +70,37 @@ Este artigo discute melhorias cumulativas nas salas do Microsoft Teams.
 
 ## <a name="microsoft-teams-rooms-feature-introduction-and-issue-resolution"></a>Introdução ao recurso salas do Microsoft Teams e resolução de problemas
 
+### <a name="47150-12112020"></a>4.7.15.0 (12/11/2020)
+
+Apresentado nesta atualização:
+
+- Compartilhar o áudio HDMI para os participantes da reunião na reunião do teams
+- Evite a desativação com base nas permissões de áudio quando a sala da equipe se une como participante. Para obter mais informações, consulte [gerenciar permissões de áudio do participante em reuniões do Microsoft Teams](https://support.microsoft.com/office/manage-attendee-audio-permissions-in-teams-meetings-f9db15e1-f46f-46da-95c6-34f9f39e671a).
+- Vídeo de alguém em destaque no console da sala de equipes e consumir vídeo em destaque em monitores de sala
+
 ### <a name="46230-10192020"></a>4.6.23.0 (10/19/2020)
 
 Apresentado nesta atualização:
+
 - Correção para metade branca da tela ao invocar o teclado virtual na reunião do teams
 
 ### <a name="46200-09302020"></a>4.6.20.0 (09/30/2020)
 
 Apresentado nesta atualização:
+
 - Ver mais vídeos com a Galeria de vídeos 3x3 na frente dos monitores de sala  
-- Iniciar legendas em dinâmicos locais do MTR 
+- Iniciar legendas em dinâmicos locais do MTR
 - Ingressar em relações de zoom de salas de equipe com o convidado direto (visualização)
 
 > [!NOTE]
-> a Galeria de vídeos 3x3 e as legendas de Closed Live locais são fornecidas por meio do Microsoft Teams Service. Esses recursos estão disponíveis para todas as salas de equipe com a versão do aplicativo 4.5.37.0 e versões mais recentes. 
-
+> a Galeria de vídeos 3x3 e as legendas de Closed Live locais são fornecidas por meio do serviço Microsoft Teams. Esses recursos estão disponíveis para todos os dispositivos de salas de equipe com a versão do aplicativo 4.5.37.0 e superior.
 
 ### <a name="45370-08142020"></a>4.5.37.0 (08/14/2020)
 
 Apresentado nesta atualização:
-- Reuniões coordenadas entre o Microsoft Teams e o Surface Hub 2S 
-- Correção da falha de conexão do Skype for Business quando o [Windows 10 Update KB4565351](https://support.microsoft.com/en-us/help/4565351/windows-10-update-kb4565351) ou o [Windows 10 Update KB4571709](https://support.microsoft.com/en-us/help/4571709/windows-10-update-kb4571709) estiver instalado
+
+- Reuniões coordenadas entre o Microsoft Teams e o Surface Hub 2S
+- Correção da falha de conexão do Skype for Business quando o [Windows 10 Update KB4565351](https://support.microsoft.com/help/4565351/windows-10-update-kb4565351) ou o [Windows 10 Update KB4571709](https://support.microsoft.com/help/4571709/windows-10-update-kb4571709) estiver instalado
 
 ### <a name="45350-07232020"></a>4.5.35.0 (07/23/2020)
 
@@ -136,7 +147,7 @@ Apresentado nesta atualização:
 
 Apresentado nesta atualização:
 
-- Atualizações de política para "atualizações do Windows para empresas" 
+- Atualizações de política para "atualizações do Windows para empresas"
 - Correção de relatório de eventos de dispositivo mostrando erro no Azure monitor
 
 ### <a name="43330-1102020"></a>4.3.33.0 (1/10/2020)
@@ -194,15 +205,14 @@ Apresentado nesta atualização:
 
 Apresentado nesta atualização:
 
-- Corrige um problema com o recurso "fornecer comentários" 
+- Corrige um problema com o recurso "fornecer comentários"
 - Otimizações em preparação para a atualização do dispositivo futuras salas do Microsoft Teams para a versão 1809 do Windows 10
 
 ### <a name="40780-03142019"></a>4.0.78.0 (03/14/2019)
 
 Apresentado nesta atualização:
 
-- Correção do bug "paralisar na inicialização do aplicativo" que afetou os dispositivos na compilação herdada do Windows 10 RS2. 
-
+- Correção do bug "paralisar na inicialização do aplicativo" que afetou os dispositivos na compilação herdada do Windows 10 RS2.
 
 ### <a name="40760-03042019"></a>4.0.76.0 (03/04/2019)
 
@@ -213,7 +223,6 @@ Apresentado nesta atualização:
 - Melhorias nas notificações de lobby com a adição da notificação na frente da sala
 - Ícone de transmissão do painel de exibição de sala removido quando o Beacon do Bluetooth não está habilitado no dispositivo de salas do Microsoft Teams
 - Correção de um problema de controle de volume nas reuniões do teams
-
 
 ### <a name="40640-12142018"></a>4.0.64.0 (12/14/2018)
 
@@ -227,7 +236,7 @@ Apresentado nesta atualização:
 
 Apresentado nesta atualização:
 
-- Suporte a duas exibições (na frente da sala) em reuniões do teams 
+- Suporte a duas exibições (na frente da sala) em reuniões do teams
 
 ### <a name="40310-10162018"></a>4.0.31.0 (10/16/2018)
 
@@ -262,6 +271,7 @@ Apresentado nesta atualização:
 ### <a name="4080-07062018"></a>4.0.8.0 (07/06/2018)
 
 Apresentado nesta atualização:
+
 - Esta atualização permite que as reuniões do Skype for Business *e* do teams ofereçam suporte a dispositivos de sistemas de sala. O Teams está desativado por padrão depois que a atualização é aplicada. Os administradores podem habilitar as equipes localmente nas configurações do dispositivo ou por meio de um push de XML remoto.
 
 ### <a name="311150-06182018"></a>3.1.115.0 (06/18/2018)
@@ -293,7 +303,7 @@ Apresentado nesta atualização:
 
 ### <a name="311000-03162018"></a>3.1.100.0 (03/16/2018)
 
-Apresentado nesta atualização: 
+Apresentado nesta atualização:
 
 - Aplicativo atualizado para melhorar a telemetria
 
@@ -311,11 +321,7 @@ Apresentado nesta atualização:
 - Correções de bugs/falhas para melhorar a estabilidade
 - Suporte para console de tamanho variável
 - Descarga de processamento de áudio periférico (lista branca adicional de mídia)
-- Otimizações que permitem que os profissionais de ti criem imagens para você mesmo com a atualização de Janeiro do Windows 10, versão 1709 e posterior. 
-
-<!--### 3.1.97.0 (00/00/0000)
-Introduced in this update: 
-- Support for [Lenovo Hub 500](https://www3.lenovo.com/us/en/hub500) hardware only. -->
+- Otimizações que permitem que os profissionais de ti criem imagens para você mesmo com a atualização de Janeiro do Windows 10, versão 1709 e posterior.
 
 ### <a name="30160-11272017"></a>3.0.16.0 (11/27/2017)
 
@@ -335,7 +341,7 @@ Apresentado nesta atualização:
 
 Apresentado nesta atualização:
 
-- É executado em um Tablet da Surface pro (2017) 
+- É executado em um Tablet da Surface pro (2017)
 - Compatível com a atualização do Windows 10 Enterprise Creator (idioma inglês, Build 1703)
 - Suporte para hardware de encaixe [CRESTRON Sr](https://www.crestron.com/products/line/sr-for-skype-for-business-room-system)
 - Suporte OEM para controles de ambiente (Crestron)
@@ -358,7 +364,6 @@ Apresentado nesta atualização:
 - Telemetria aprimorada em relação à confiabilidade da junção de reunião
 - Relatórios do OMS aprimorados
 - Capacidade para o administrador de ti configurar dispositivos remotamente
- <!-- - Front-of-Room UX shows room details pre-meeting U2 -->
 
 ### <a name="2020-03152017"></a>2.0.2.0 (03/15/2017)
 
@@ -380,7 +385,7 @@ Apresentado nesta atualização:
 - Compatível com os recursos de Conferência e Chamada PSTN do Skype for Business para substituir o telefone de conferência em sua sala
 
  **Transforme qualquer sala de reunião**
- 
+
 - Aplicativo dedicado à Reunião do Skype, otimizado para o controlador de tela touch de centro da mesa e para a grande tela frontal da sala
 - Reutilizar investimentos existentes na sua tela inicial ou projetores
 - Funciona para todos os tipos de espaços de reunião, de espaços pequenos a grandes salas de conferência
@@ -388,7 +393,7 @@ Apresentado nesta atualização:
 - Ingestão interna com fio para projetar o compartilhamento de área de trabalho para a sala e para a Reunião do Skype
 
  **Fácil de implantar, simples de gerenciar**
- 
+
 - Aplicativo sempre ativo que ativa automaticamente as exibições quando detecta pessoas na sala
 - Implantação e atualização simples do aplicativo de Reunião do Skype da UWP (Plataforma Universal do Windows)
 - O Windows AppLocker bloqueia o dispositivo para o aplicativo de Reunião do Skype
@@ -397,7 +402,7 @@ Apresentado nesta atualização:
 - Esforço mínimo para usuários finais devido à semelhança com a interface do usuário do Skype
 - É executado no tablet Surface Pro 4
 
-<a name="See"> </a> 
+<a name="See"> </a>
 ## <a name="see-also"></a>Confira também
 
 [Suporte às Salas do Microsoft Teams](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)

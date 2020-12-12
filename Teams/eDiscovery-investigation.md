@@ -17,12 +17,12 @@ description: Saiba o que fazer quando você precisar executar uma descoberta ele
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 53f3f1f3d8146b06b69a70dbbf7c00bdb979c43c
-ms.sourcegitcommit: b6aeaa3d98c29bdc120db8ccfcb7ff2c11d246af
+ms.openlocfilehash: 25729dea68d2d8ea75fae894387316dfbcd1975a
+ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/04/2020
-ms.locfileid: "49570820"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "49661906"
 ---
 # <a name="conduct-an-ediscovery-investigation-of-content-in-microsoft-teams"></a>Conduzir uma investigação de Descoberta Eletrônica de conteúdo no Microsoft Teams
 
@@ -54,10 +54,10 @@ Nem todo o conteúdo do teams é eDiscoverable. A tabela a seguir mostra os tipo
 | Cota | Sim | Conteúdo entre aspas é pesquisável. No entanto, os resultados da pesquisa não indicam que o conteúdo foi cotado. |
 | Gravações de áudio | Não | |
 
-<sup>1</sup> metadados de reunião incluem o seguinte:
+<sup>1</sup> metadados de reunião (e chamada) incluem o seguinte:
 
-- Reunião ou chamar hora de início e de término e duração
-- Chamada/reunião participe e saia dos eventos de cada participante
+- Hora de início e de término da reunião e duração
+- Ingressar em reuniões e deixar eventos para cada participante
 - Junção/chamadas de VOIP
 - Junção anônima
 - Ingressar no usuário federado
@@ -75,7 +75,7 @@ Aqui está um exemplo de conversa de mensagem instantânea entre participantes d
 > [!div class="mx-imgBorder"]
 > ![Conversa entre participantes nos resultados da pesquisa de descoberta eletrônica.](media/MeetingImConversation2.png)
 
-Para conduzir uma investigação de descoberta eletrônica com o conteúdo do Microsoft Teams, examine a etapa 1 em introdução [à descoberta eletrônica principal](https://docs.microsoft.com/microsoft-365/compliance/get-started-core-ediscovery).
+Para obter mais informações sobre como conduzir uma investigação de descoberta eletrônica, consulte [introdução ao centro de descoberta eletrônica](https://docs.microsoft.com/microsoft-365/compliance/get-started-core-ediscovery).
 
 Os dados do Microsoft Teams serão exibidos como mensagens instantâneas ou conversas na saída de exportação do Excel para descoberta eletrônica. Você pode abrir o `.pst` arquivo no Outlook para exibir essas mensagens após a exportação.
 
@@ -89,7 +89,7 @@ Chats privados na caixa de correio de um usuário são armazenados na pasta de c
 
 Os registros das mensagens enviadas em um canal privado são entregues na caixa de correio de todos os membros do canal privado, e não em uma caixa de correio de grupo. Os títulos dos registros são formatados para indicar de qual canal privado eles foram enviados.
 
-Como cada canal privado tem seu próprio conjunto de sites do SharePoint separado do site de equipe pai, os arquivos em um canal privado são gerenciados independentemente da equipe pai.
+Como cada canal privado tem seu próprio site do SharePoint separado do site de equipe pai, os arquivos em um canal privado são gerenciados independentemente da equipe pai.
 
 O Teams não é compatível com a pesquisa de descoberta eletrônica de um único canal dentro de uma equipe, portanto, a equipe inteira deve ser pesquisada. Para executar uma pesquisa de descoberta eletrônica do conteúdo em um canal privado, pesquise na equipe, no conjunto de sites associado ao canal privado (para incluir arquivos) e caixas de correio de membros do canal privado (para incluir mensagens).
 
@@ -124,19 +124,70 @@ Antes de executar essas etapas, instale o [Shell de gerenciamento do SharePoint 
 
 Antes de executar essas etapas, verifique se você tem a [versão mais recente do módulo Teams PowerShell](teams-powershell-overview.md) instalada.
 
-1. Execute o seguinte para obter uma lista de canais privados na equipe.
+1. Execute o seguinte comando para obter uma lista de canais particulares na equipe.
 
     ```PowerShell
     Get-TeamChannel -GroupId <GroupID> -MembershipType Private
     ```
 
-2. Execute o seguinte para obter uma lista de membros do canal privado.
+2. Execute o seguinte comando para obter uma lista de membros do canal privado.
 
     ```PowerShell
     Get-TeamChannelUser -GroupId <GroupID> -DisplayName "Engineering" -Role Member
     ```
 
-3. Inclua as caixas de correio de todos os membros de cada canal privado da equipe como parte da sua consulta de pesquisa de descoberta eletrônica.
+3. Inclua as caixas de correio de todos os membros de cada canal privado da equipe como parte da sua [consulta de pesquisa de descoberta eletrônica](https://docs.microsoft.com/microsoft-365/compliance/search-for-content-in-core-ediscovery).
+
+## <a name="search-for-content-for-guest-users"></a>Pesquisar conteúdo para usuários convidados
+
+Você pode usar ferramentas de descoberta eletrônica para pesquisar conteúdo de equipes relacionados a usuários convidados em sua organização. O conteúdo de chat do teams que está associado a um usuário convidado é preservado em um local de armazenamento baseado em nuvem e pode ser pesquisado por meio de descoberta eletrônica. Isso inclui a pesquisa de conteúdo no 1:1 e em 1: N conversas de chat em que um usuário convidado é um participante com outros usuários em sua organização. Você também pode pesquisar mensagens de canal privado em que um usuário convidado é um participante e pesquisar conteúdo em *convidado:* conversas de chat de convidado em que os únicos participantes são usuários convidados.
+
+Para pesquisar conteúdo para usuários convidados:
+
+1. Conecte-se ao Azure AD PowerShell. Para obter instruções, consulte a seção "conectar-se com o PowerShell do Azure Active Directory" em [conectar-se ao Microsoft 365 com o PowerShell](https://docs.microsoft.com/microsoft-365/enterprise/connect-to-microsoft-365-powershell#connect-with-the-azure-active-directory-powershell-for-graph-module). Certifique-se de concluir a etapa 1 e a etapa 2 no tópico anterior.
+
+2. Depois de se conectar com êxito ao Azure AD PowerShell, execute o seguinte comando para exibir o nome de usuário principal (UPN) para todos os usuários convidados em sua organização. Você precisa usar o UPN do usuário convidado ao criar a pesquisa na etapa 4.
+
+   ```powershell
+   Get-AzureADUser -Filter "userType eq 'Guest'" -All $true | FL UserPrincipalName
+   ```
+
+   > [!TIP]
+   > Em vez de exibir uma lista de nomes principais de usuário na tela do computador, você pode redirecionar a saída do comando para um arquivo de texto. Você pode fazer isso acrescentando `> filename.txt` ao comando anterior. O arquivo de texto com os nomes principais de usuário será salvo na pasta atual.
+
+3. Em uma janela diferente do Windows PowerShell, conecte-se ao PowerShell do centro de conformidade & segurança. Para obter instruções, consulte [conectar-se ao PowerShell do centro de conformidade & central de segurança](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell). Você pode se conectar com ou sem o uso da autenticação multifator.
+
+4. Crie uma pesquisa de conteúdo que pesquise todo o conteúdo (como mensagens de chat e mensagens de email) em que o usuário convidado especificado era um participante executando o seguinte comando.
+
+   ```powershell
+   New-ComplianceSearch <search name> -ExchangeLocation <guest user UPN>  -AllowNotFoundExchangeLocationsEnabled $true -IncludeUserAppContent $true
+   ```
+
+   Por exemplo, para pesquisar conteúdo associado ao usuário convidado Sara Davis, você deve executar o comando a seguir.
+
+   ```powershell
+   New-ComplianceSearch "Sara Davis Guest User" -ExchangeLocation "sara.davis_hotmail.com#EXT#@contoso.onmicrosoft.com" -AllowNotFoundExchangeLocationsEnabled $true -IncludeUserAppContent $true
+   ```
+
+    Para obter mais informações sobre como usar o PowerShell para criar pesquisas de conteúdo, consulte [New-ComplianceSearch](https://docs.microsoft.com/powershell/module/exchange/new-compliancesearch).
+
+5. Execute o seguinte comando para iniciar a pesquisa de conteúdo que você criou na etapa 4:
+
+   ```powershell
+   Start-ComplianceSearch <search name>
+   ```
+
+6. Vá para [https://compliance.microsoft.com](https://compliance.microsoft.com) e clique em **mostrar toda** a  >  **pesquisa de conteúdo**.
+
+7. Na lista de pesquisas, selecione a pesquisa que você criou na etapa 4 para exibir a página do submenu.
+
+8. Na página do menu, você pode fazer o seguinte:
+
+   - Clique em **exibir resultados** para exibir os resultados da pesquisa e visualizar o conteúdo.
+
+   - Ao lado do campo de **consulta** , clique em **Editar** para editar e, em seguida, execute novamente a pesquisa. Por exemplo, você pode adicionar uma consulta de pesquisa para restringir os resultados.
+
+   - Clique em **Exportar resultados** para exportar e baixar os resultados da pesquisa.
 
 ## <a name="advanced-ediscovery"></a>Advanced eDiscovery
 
@@ -144,13 +195,13 @@ Alguns conteúdos do Microsoft Teams também podem ser pesquisados e preservados
 
 ### <a name="advanced-ediscovery-custodian-workflow-for-teams-content"></a>Fluxo de trabalho de responsáveis pelo descoberta eletrônica avançada para conteúdo de equipes
 
-Os responsáveis podem ser membros de várias equipes. Você pode capturar o conteúdo da equipe que é relevante para esses responsáveis. Para obter informações detalhadas sobre o fluxo de trabalho do responsáveis, consulte [fluxo de trabalho de descoberta eletrônica avançado](https://docs.microsoft.com/microsoft-365/compliance/overview-ediscovery-20).
+Os responsáveis podem ser membros de várias equipes. Você pode capturar o conteúdo da equipe que é relevante para esses responsáveis. Para obter instruções sobre o fluxo de trabalho do responsáveis, consulte [Adicionar responsáveis a um caso de descoberta eletrônica avançada](https://docs.microsoft.com/microsoft-365/compliance/add-custodians-to-case).
 
 Depois de adicionar um novo, clique no botão **Avançar** e, em seguida, no botão **Adicionar** . Em seguida, uma janela exibe isso solicita que você selecione outros locais, que mostrarão todas as associações do responsáveis e os locais de sites correspondentes do SharePoint para seus dados. Em todas essas fontes de dados e equipes, você pode escolher o conteúdo que deseja usar para a descoberta eletrônica e, em seguida, colocar o usuário e todas as fontes de dados que você identificou em espera.
 
 Você pode selecionar se deseja incluir o conteúdo do Exchange, o conteúdo do OneDrive dele ou ambos. O conteúdo do Exchange inclui todo o conteúdo do aplicativo nas caixas de correio do usuário, como o email, o conteúdo da equipe que é armazenado na caixa de correio e assim por diante. O conteúdo do OneDrive inclui não apenas o conteúdo do usuário, mas também todo o conteúdo do teams armazenado no OneDrive, como chats de 1:1, 1: N chats e arquivos compartilhados em chats.
 
-Você também tem a opção de associar qualquer equipe na qual os responsáveis sejam membros, para que as mensagens de chat do canal e os arquivos aos quais os responsáveis tenham acesso sejam incluídos. Além disso, qualquer outra equipe pode ser associada a um ou mais responsáveis. Para obter mais informações, consulte [Adicionar responsáveis a um caso de descoberta eletrônica avançada](https://docs.microsoft.com/microsoft-365/compliance/add-custodians-to-case).
+Você também tem a opção de associar qualquer equipe na qual os responsáveis sejam membros, para que as mensagens de chat do canal e os arquivos aos quais os responsáveis tenham acesso sejam incluídos. Além disso, qualquer outra equipe pode ser associada a um ou mais responsáveis.
 
 > [!NOTE]
 > a descoberta eletrônica de mensagens e arquivos em [canais privados](private-channels.md) funciona de forma diferente em canais padrão. Para saber mais, consulte [descoberta eletrônica de canais privados](#ediscovery-of-private-channels).
@@ -204,7 +255,7 @@ Além de documentos, você pode adicionar emails, mensagens de equipe, mensagens
 
 O botão **gerenciar conjuntos de revisão** fornece opções adicionais, como análises, relatórios resumidos, Quantos conjuntos de carregamento foram adicionados e assim por diante.
 
-Para acessar visualizações e gráficos de seus dados, clique em exibição de perfil de pesquisa de **resultados individuais** \> **Search profile view** no canto superior direito. Você pode clicar em fatias nestes gráficos para selecionar interativamente o tipo de conteúdo que deseja consultar. Por exemplo, você pode optar por consultar somente o conteúdo da equipe. Você também pode salvar essas consultas da mesma forma que salva as consultas que você escreve manualmente.
+Para acessar visualizações e gráficos de seus dados, clique em exibição de perfil de pesquisa de **resultados individuais** \>  no canto superior direito. Você pode clicar em fatias nestes gráficos para selecionar interativamente o tipo de conteúdo que deseja consultar. Por exemplo, você pode optar por consultar somente o conteúdo da equipe. Você também pode salvar essas consultas da mesma forma que salva as consultas que você escreve manualmente.
 
 #### <a name="summary-view-text-view-and-annotate-view"></a>Modo de exibição de resumo, modo de exibição de texto e exibição de anotação
 

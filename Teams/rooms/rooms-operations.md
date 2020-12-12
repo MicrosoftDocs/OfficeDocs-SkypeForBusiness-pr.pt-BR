@@ -1,7 +1,7 @@
 ---
 title: Manutenção e operações de salas do Microsoft Teams
-ms.author: v-lanac
-author: lanachin
+ms.author: dstrome
+author: dstrome
 ms.reviewer: sohailta
 manager: serdars
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: Leia este tópico para saber mais sobre o gerenciamento de salas do Microsoft Teams, a próxima geração de sistemas de sala do Skype.
-ms.openlocfilehash: 6ee238bdc02fbe2ca24c9a370a4d1d871803b8ff
-ms.sourcegitcommit: ab094058e3ffa974527fce8a331dad609ac19609
+ms.openlocfilehash: a6ab68200002035632314ac976cd45a2ee4ff714
+ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/04/2020
-ms.locfileid: "46552289"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "49662456"
 ---
 # <a name="microsoft-teams-rooms-maintenance-and-operations"></a>Manutenção e operações de salas do Microsoft Teams 
  
@@ -105,16 +105,16 @@ Por exemplo, você pode habilitar o PowerShell Remoto da seguinte maneira:
   
 1. Entre como administrador em um dispositivo de salas do Microsoft Teams.
 2. Abra um prompt de comando elevado do PowerShell.
-3. Digite o seguinte comando:`Enable-PSRemoting -SkipNetworkProfileCheck -Force`
-4. Abra a política de segurança local e adicione o grupo de segurança *Administradores* às **configurações de segurança**  >  atribuição de direitos do usuário para**Diretivas locais**  >  **User Rights Assignment**  >  **acesso a este computador pela rede**.
+3. Digite o seguinte comando: `Enable-PSRemoting -SkipNetworkProfileCheck -Force`
+4. Abra a política de segurança local e adicione o grupo de segurança *Administradores* às **configurações de segurança**  >  atribuição de direitos do usuário para **Diretivas locais**  >    >  **acesso a este computador pela rede**.
 
 Para executar uma operação de gerenciamento:
   
 1. Entre em um computador com credenciais de conta que têm permissão para executar comandos do PowerShell em um dispositivo de salas do Microsoft Teams.
 2. Abra um prompt de comando normal do PowerShell no computador.
 3. Copie o texto do comando da tabela abaixo e cole-o no prompt.
-4. Substituir os `<Device fqdn>` campos pelos valores de FQDN apropriados para o seu ambiente.
-5. Substituir *\<path\>* pelo nome do arquivo e caminho local do arquivo de configuração do SkypeSettings.xml mestre (ou imagem do tema).
+4. Substituir os  `<Device fqdn>` campos pelos valores de FQDN apropriados para o seu ambiente.
+5. Substituir  *\<path\>*  pelo nome do arquivo e caminho local do arquivo de configuração do SkypeSettings.xml mestre (ou imagem do tema).
     
 Para obter dispositivos conectados
   
@@ -188,7 +188,7 @@ Algumas funções de gerenciamento, como instalar manualmente um certificado de 
 ### <a name="switching-to-admin-mode-and-back-when-the-microsoft-teams-rooms-app-is-running"></a>Alternar para o modo de administrador e voltar quando o aplicativo salas do Microsoft Teams estiver em execução
 
 1. Desligue as chamadas em andamento e retorne à tela inicial.
-2. Selecione o ícone de engrenagem e exibir o menu (opções são **configurações**, **acessibilidade**e **reinicialização do dispositivo** ).
+2. Selecione o ícone de engrenagem e exibir o menu (opções são **configurações**, **acessibilidade** e **reinicialização do dispositivo** ).
 3. Selecione **Configurações**.
 4. Digite a senha do administrador. A tela Configuração será exibida.  Se o dispositivo não for associado ao domínio, a conta administrativa local (nome de usuário "administrador") será usada por padrão. A senha padrão desta conta é ' SFB ', altere a senha o mais rápido possível. Se o computador for associado a um domínio, você poderá entrar com uma conta de domínio apropriadamente privilegiada. 
 5. Selecione **configurações do Windows** na coluna à esquerda.

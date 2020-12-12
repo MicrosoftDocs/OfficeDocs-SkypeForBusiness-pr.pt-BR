@@ -18,13 +18,13 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-description: Este artigo descreve a funcionalidade do Microsoft Teams disponível para usuários convidados.
-ms.openlocfilehash: a2c4bcf380eb90f7c0a00c8f6f4f9141b80f8460
-ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
+description: Este artigo descreve a funcionalidade do Microsoft Teams disponível para convidados.
+ms.openlocfilehash: 25ea63de9bcdc85e0f7b81e382c2c9bcd057c629
+ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49030287"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "49661886"
 ---
 # <a name="guest-experience-in-teams"></a>Experiência de convidado no Microsoft Teams
 
@@ -44,7 +44,7 @@ Confira estes vídeos sobre a experiência de convidado no Microsoft Teams:
 
 A tabela a seguir compara a funcionalidade do teams disponível para os membros da equipe da organização e seus convidados. Os administradores de equipe controlam os recursos disponíveis para os convidados.
 
-|**Recurso no Teams**|**Usuário do Teams na organização**|**Convidado usuário**|
+| Recurso no Teams | Usuário do Teams na organização | Convite |
 |:-----|:-----|:-----|
 |Criar um canal  <br/>  *Os proprietário de equipes controlam essa configuração.*  <br/> |&#x2713;|&#x2713;|
 |Participar de um bate-papo privado  <br/> |&#x2713;|&#x2713;|
@@ -52,7 +52,7 @@ A tabela a seguir compara a funcionalidade do teams disponível para os membros 
 |Publicar, excluir e editar mensagens  <br/> |&#x2713;|&#x2713;|
 |Compartilhar um arquivo de canal  <br/> |&#x2713;|&#x2713;|
 |Acessar arquivos do SharePoint<br/> |&#x2713;|&#x2713;|
-|Anexar arquivos<br/> |&#x2713;|&#x2713;|
+|Anexar arquivos<br/> |&#x2713;|Somente chats da equipe|
 |Baixar arquivos de chat particulares<br/> |&#x2713;|&#x2713;|
 |Pesquisar em arquivos<br/> |&#x2713;||
 |Compartilhar um arquivo de bate-papo  <br/> |&#x2713;||
@@ -109,4 +109,4 @@ A tabela a seguir mostra os recursos de chamada e reunião disponíveis para con
 
 ## <a name="related-topics"></a>Tópicos relacionados
 
-[Deixar uma organização como um usuário convidado](https://docs.microsoft.com/azure/active-directory/b2b/leave-the-organization)
+[Sair de uma organização como convidado](https://docs.microsoft.com/azure/active-directory/b2b/leave-the-organization)

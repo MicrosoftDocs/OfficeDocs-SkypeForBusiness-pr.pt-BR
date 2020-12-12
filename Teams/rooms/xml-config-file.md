@@ -1,7 +1,7 @@
 ---
 title: Gerenciar remotamente as configurações de dispositivo de salas do Microsoft Teams
-ms.author: v-lanac
-author: lanachin
+ms.author: dstrome
+author: dstrome
 ms.reviewer: sohailta
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-mar2020
 description: Gerenciamento remoto das configurações padrão usadas por um dispositivo de salas do Microsoft Teams, incluindo a aplicação de um tema personalizado e a criação de um arquivo de configurações mestre.
-ms.openlocfilehash: def2076398e54137c125489ef4da1fb84e4f57d2
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 7b34d73f90d1a1bce02d6e2a63891d54a19d2a56
+ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48521598"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "49662266"
 ---
 # <a name="manage-a-microsoft-teams-rooms-console-settings-remotely-with-an-xml-configuration-file"></a>Gerenciar as configurações de um console de salas do Microsoft Teams remotamente com um arquivo de configuração XML
 
@@ -56,6 +56,9 @@ Qualquer editor de texto pode ser usado para criar um arquivo de configurações
     <CustomDisplayEmailForThirdPartyMeetings>RanierConf@contoso.com</CustomDisplayEmailForThirdPartyMeetings> 
     <DualScreenMode>true</DualScreenMode>
     <DuplicateIngestDefault>false</DuplicateIngestDefault>
+    <DisableTeamsAudioSharing>false</DisableTeamsAudioSharing>
+    <CortanaEnabled>false</CortanaEnabled>
+    <CortanaWakewordEnabled>false</CortanaWakewordEnabled>
     <SendLogs>
         <EmailAddressForLogsAndFeedback>RanierConf@contoso.com</EmailAddressForLogsAndFeedback>
         <SendLogsAndFeedback>true</SendLogsAndFeedback>
@@ -115,6 +118,9 @@ Se um valor de variável for do tipo errado, os elementos estiverem fora da orde
 | \<AutoAcceptProximateMeetingInvitations>    | &#x2777; Boolean            | Primeiro &#x2776; | Se verdadeiro, reuniões com base em proximidade são automaticamente aceitas. Desabilitado por padrão.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
 | \<DualScreenMode\>                          | &#x2777; Boolean            | Primeiro &#x2776; | Se verdadeiro, o modo de tela dupla está habilitado. Caso contrário, o dispositivo usa o modo de tela única.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 | \<DuplicateIngestDefault\>                  | &#x2777; Boolean            | Primeiro &#x2776; | Se verdadeiro, o conteúdo é mostrado nas duas telas no modo de tela dupla, quando estiver fora da reunião.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| \<DisableTeamsAudioSharing\>                  | &#x2777; Boolean            | Primeiro &#x2776; | Defina como verdadeiro para desabilitar o compartilhamento de áudio HDMI para participantes da reunião na reunião do teams. O padrão é false.                  |
+| \<CortanaEnabled\>                  | &#x2777; Boolean            | Primeiro &#x2776; | Defina como verdadeiro para habilitar as habilidades de voz da Cortana. Essa configuração não terá efeito, a menos que o serviço da Cortana seja compatível com seu país ou região e seu periférico de áudio conectado ofereça suporte à Cortana. O padrão é false.                |
+| \<CortanaWakewordEnabled\>                  | &#x2777; Boolean            | Primeiro &#x2776; | Defina como verdadeiro para habilitar a palavra-chave de ativação da Cortana "Ei Cortana". Essa configuração não terá efeito, a menos que o serviço da Cortana seja compatível com seu país ou região e seu periférico de áudio conectado ofereça suporte à Cortana. O padrão é false.                |
 | \<DisableTacCommunication\>                 | &#x2777; Boolean            | Primeiro &#x2776; | Se verdadeiro, todas as comunicações com o gerenciamento de dispositivos do centro de administração do Team serão desabilitadas.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 | \<SendLogs\>                                | Contêiner                   | Primeiro &#x2776; |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
 | \<EmailAddressForLogsAndFeedback\>          | Cadeia de caracteres &#x2778;            |                | Define um endereço de email opcional para o qual os logs podem ser enviados quando a janela "fornecer comentários" for exibida.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |

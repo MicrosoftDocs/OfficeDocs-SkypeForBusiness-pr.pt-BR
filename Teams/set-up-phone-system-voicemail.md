@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 'Saiba como configurar o correio de voz na nuvem para seus usuários. '
-ms.openlocfilehash: df8e6d5962e3bff2148165466400e90ee3a4607d
-ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
+ms.openlocfilehash: 81e5f83b251a0bd648cb2ab2afd69f35357fc49f
+ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49031067"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "49662206"
 ---
 # <a name="set-up-cloud-voicemail"></a>Configurar a caixa postal na nuvem
 
@@ -60,18 +60,18 @@ Para configurar usuários do Skype for Business Server para correio de voz na nu
 
 ## <a name="enabling-protected-voicemail-in-your-organization"></a>Habilitar correio de voz protegido em sua organização
 
-Quando alguém deixa uma mensagem de correio de voz para um usuário em sua organização, o correio de voz é entregue à caixa de correio do usuário como um anexo de mensagem de email. Usando regras de fluxo de email para aplicar criptografia de mensagens, você pode impedir que essas mensagens de correio de voz sejam encaminhadas para outros destinatários. Quando você habilita o correio de voz protegido, os usuários podem ouvir mensagens de correio de voz protegidas ligando para a caixa postal ou abrindo a mensagem no Outlook, Outlook na Web ou no Outlook para Android ou iOS. Não é possível abrir mensagens de correio de voz protegidas no Skype for Business.
+Quando alguém deixa uma mensagem de correio de voz para um usuário em sua organização, o correio de voz é entregue à caixa de correio do usuário como um anexo de mensagem de email. Usando regras de fluxo de email para aplicar criptografia de mensagens, você pode impedir que essas mensagens de correio de voz sejam encaminhadas para outros destinatários. Quando você habilita o correio de voz protegido, os usuários podem ouvir mensagens de correio de voz protegidas ligando para a caixa postal ou abrindo a mensagem no Outlook, Outlook na Web ou no Outlook para Android ou iOS. Não é possível abrir mensagens de correio de voz protegidas no Skype for Business ou no Microsoft Teams.
 
 Para obter mais informações sobre criptografia de mensagens, consulte [criptografia de email](https://docs.microsoft.com/microsoft-365/compliance/email-encryption?view=o365-worldwide).
 
 Para configurar o correio de voz protegido, faça o seguinte:
 
 1. Acesse https://admin.microsoft.com e entre usando uma conta com permissões de administrador global.
-2. Selecione **Mostrar tudo** e, em seguida, vá para o Exchange das **centrais de administração**  >  **Exchange**.
-3. No centro de administração do Exchange, selecione regras de **fluxo de email**  >  **Rules**.
+2. Selecione **Mostrar tudo** e, em seguida, vá para o Exchange das **centrais de administração**  >  .
+3. No centro de administração do Exchange, selecione regras de **fluxo de email**  >  .
 4. Selecione **+** **Adicionar** e, em seguida, selecione **aplicar a criptografia de mensagens e a proteção de direitos do Office 365 às mensagens**.
-5. Forneça um nome para a nova regra de fluxo de email e, em **aplicar esta regra se** , selecione **as propriedades da mensagem**  >  **incluem o tipo de mensagem de** caixa  >  **postal**. Selecione **OK**.
-6. Em **faça o seguinte** , selecione **aplicar criptografia de mensagem do Office 365 e proteção de direitos à mensagem com** e selecione **uma opção**. Em **modelo RMS** , selecione **não encaminhar**. Selecione **OK** e, em seguida, **salvar**.
+5. Forneça um nome para a nova regra de fluxo de email e, em **aplicar esta regra se**, selecione **as propriedades da mensagem**  >  **incluem o tipo de mensagem de** caixa  >  **postal**. Selecione **OK**.
+6. Em **faça o seguinte**, selecione **aplicar criptografia de mensagem do Office 365 e proteção de direitos à mensagem com** e selecione **uma opção**. Em **modelo RMS**, selecione **não encaminhar**. Selecione **OK** e, em seguida, **salvar**.
     > [!NOTE]
     > Se a lista de **modelos RMS** estiver vazia, você precisará configurar a criptografia de mensagens. Para obter mais informações sobre a configuração da criptografia de mensagens, consulte os seguintes artigos:
     > - [Configurar novos recursos de criptografia de mensagens](https://docs.microsoft.com/microsoft-365/compliance/set-up-new-message-encryption-capabilities?view=o365-worldwide)

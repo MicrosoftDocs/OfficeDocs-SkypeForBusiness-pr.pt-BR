@@ -1,7 +1,7 @@
 ---
 title: Problemas conhecidos
-ms.author: v-lanac
-author: lanachin
+ms.author: dstrome
+author: dstrome
 ms.reviewer: sohailta
 manager: serdars
 audience: ITPro
@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 description: O administrador pode saber mais sobre uma lista de problemas conhecidos para salas do Microsoft Teams, incluindo atualização, interface do usuário, hardware e limitações e comportamentos esperados.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 73eab767d7b30182efb204fb8cfb8ceb06137c0b
-ms.sourcegitcommit: fb4edc26c566228d74c10cb51a063b5fdc7e11a1
+ms.openlocfilehash: 6c32e35f0ea95d81fcb597c18a12a8f48fe4c7b2
+ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48177360"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "49662626"
 ---
 # <a name="known-issues"></a>Problemas conhecidos 
  
@@ -54,25 +54,23 @@ Este artigo lista os problemas conhecidos das Salas do Microsoft Teams, por áre
 <a name="Limits"> </a>
 ## <a name="limitations-and-expected-behaviors"></a>Limitações e comportamentos esperados
 
-***
+**_
 
 O SkypeRoomSystemv2 não oferece suporte à entrada HDCP, pois foi observado que ela causa conflitos com a funcionalidade de ingestão HDMI (vídeo e áudio). Certifique-se que as chaves conectadas às Salas do Microsoft Teams estejam com as opções HDCP desativadas. 
 
-***
+_*_
 
 Se você quiser uma exibição do lado da sala para alternar automaticamente para uma fonte de vídeo ativa (como um console do MTR) quando a origem é ativada do modo de espera, determinadas condições devem ser atendidas. Esse recurso é opcional, mas suportado pelo software de salas Microsoft Teams, desde que o hardware subjacente seja compatível com o recurso. Uma TV para consumidor usada como uma frontal da exibição de sala precisa dar suporte ao recurso de controle de eletrônicos do consumidor (CEC) de HDMI.  Dependendo do Dock ou console selecionado (que pode não ser compatível com o CEC, confira a documentação de suporte do fabricante), um controlador como um controlador [HD-RX-201-C-E](https://www.crestron.com/Products/Video/HDMI-Solutions/HDMI-Extenders/HD-RX-201-C-E) do Crestron ou [Extron HD CTL 100](https://www.extron.com/article/hdctl100ad) de Extron pode ser necessário para habilitar o comportamento desejado. 
 
-***
+_*_
 
 Use sempre uma conexão de rede de 1-Gbps cabeado para garantir que você tenha a largura de banda necessária. 
 
-***
+_*_
 
 Se o seu dispositivo de salas do Microsoft Teams perder a confiança com o domínio, você não poderá autenticar no dispositivo e abrir as configurações. Por exemplo, se você remover as salas do Microsoft Teams do domínio após o ingresso no domínio, a confiança será perdida. A solução é fazer logon com a conta de Administrador local. 
-***
-Salas do Microsoft Teams é um aplicativo com várias janelas e requer que a exibição da sala seja conectada à porta HDMI do dispositivo para que o aplicativo funcione corretamente. Verifique se você tem uma tela HDMI conectada ou use um plugue HDMI fictício se estiver testando e ainda não tiver uma exibição adquirida.
-***
-<a name="See"> </a>  
+_*_ Salas do Microsoft Teams é um aplicativo com várias janelas e requer que a exibição da sala seja conectada à porta HDMI do dispositivo para que o aplicativo funcione corretamente. Verifique se você tem uma tela HDMI conectada ou use um plugue HDMI fictício se estiver testando e ainda não tiver uma exibição adquirida.
+_** <a name="See"> </a>  
 ## <a name="see-also"></a>Confira também
 
 [Suporte às Salas do Microsoft Teams](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
