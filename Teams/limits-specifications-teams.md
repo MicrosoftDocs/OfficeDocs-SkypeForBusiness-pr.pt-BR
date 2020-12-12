@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 6132f9ec0936a4c076520b8e7a900a7d496f3aec
-ms.sourcegitcommit: 8974cd7a693bc879fed8222f551fd7ce3205dd65
+ms.openlocfilehash: 7b66ce5095d194f937f3bceeef23d2666c51d518
+ms.sourcegitcommit: 4386f4b89331112e0d54943dc3133791d5dca3fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "49420921"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "49611465"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Limites e especificações para o Microsoft Teams
 
@@ -45,6 +45,7 @@ Este artigo descreve alguns dos limites, das especificações e de outros requis
 |Número de canais por equipe    | 200 (inclui canais excluídos)&sup3;         |
 |Número de canais privados por equipe    |30| (inclui canais excluídos)&sup3;
 |Números de membros em um canal privado    |250|
+|Tamanho máximo do grupo de distribuição, grupo de segurança ou grupo do Office 365 que pode ser importado para uma equipe    |3.500|
 |Número máximo de membros em um grupo do Office 365 que pode ser convertido em uma equipe    |10.000<sup>5</sup>     |
 |Tamanho da postagem de conversa do canal | Aproximadamente 28 KB pela postagem <sup>4</sup> |
 
@@ -127,7 +128,7 @@ Os nomes de canal também não podem começar com um caractere de sublinhado (_)
 |Recurso     | Limite máximo |
 |------------|---------------|
 |Número de pessoas em uma reunião (podem conversar e telefonar)  | 350 |
-|O número de pessoas em uma chamada de áudio ou vídeo do chat | 20 |
+|Número de pessoas em uma vídeo ou chamada de áudio iniciada na guia de chat | 20 |
 |Tamanho máximo do arquivo do PowerPoint | 2 GB|
 |As equipes mantêm [gravações de reunião](cloud-recording.md) que não são carregadas no Microsoft Stream, disponíveis para download local | 20 dias |
 
@@ -179,7 +180,7 @@ A presença do Teams no Outlook é compatível com o aplicativo de área de trab
 Cada equipe do Microsoft Teams tem um site de equipe no SharePoint Online e cada canal de uma equipe obtém uma pasta dentro da biblioteca de documentos padrão do site da equipe. Os arquivos compartilhados em uma conversa são adicionados automaticamente à biblioteca de documentos, e as permissões e as opções de segurança do arquivo definidas no SharePoint são refletidas automaticamente dentro do Teams.
 
 > [!NOTE]
-> Cada [canal privado](https://docs.microsoft.com/microsoftteams/private-channels) tem seu próprio conjunto de sites do SharePoint.
+> Cada [canal privado ](https://docs.microsoft.com/microsoftteams/private-channels)tem seu próprio site do Microsoft Office SharePoint Online (anteriormente chamado de "conjunto de sites").
 
 Se o SharePoint Online não está habilitado em seu locatário, os usuários do Microsoft Teams nem sempre poderão compartilhar arquivos em equipes. Os usuários em bate-papo particular também não podem compartilhar arquivos, pois o OneDrive for Business (que é vinculado à licença do SharePoint) é necessário para essa funcionalidade.
 
@@ -193,7 +194,7 @@ Como o Teams é executado em um back-end do SharePoint Online para compartilhame
 |Armazenamento de arquivos do Teams |Até 25 TB por conjunto de sites ou grupo |Até 25 TB por conjunto de sites ou grupo |Até 25 TB por conjunto de sites ou grupo |Até 25 TB por conjunto de sites ou grupo |Até 25 TB por conjunto de sites ou grupo |Até 25 TB por conjunto de sites ou grupo |
 |Limite de upload de arquivos (por arquivo)    |2 GB    |2 GB    |2 GB    |2 GB    |2 GB    |2 GB    |
 
-Os canais são apoiados por pastas dentro do conjunto de sites do Microsoft Office SharePoint Online criado para a equipe, para que as guias de arquivo dentro de Canais compartilhem os limites de armazenamento da equipe a que pertencem.
+Os canais são apoiados por pastas no site do Microsoft Office SharePoint Online (anteriormente chamado de "conjunto de sites") criado para a equipe, portanto, as guias de arquivo em Canais compartilham os limites de armazenamento da equipe a que pertencem.
 
 Para mais informações, confira [Limites do SharePoint Online](https://support.office.com/article/SharePoint-Online-limits-8f34ff47-b749-408b-abc0-b605e1f6d498).
 
