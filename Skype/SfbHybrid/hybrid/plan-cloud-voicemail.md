@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Este artigo descreve os benefícios, as considerações de planejamento e os requisitos para implementar o serviço de caixa postal do Microsoft Cloud. Para obter informações sobre como configurar a caixa postal em nuvem, consulte Configuring Cloud postal.
-ms.openlocfilehash: d95d3674eb9119be07e8b588ec3fe0e619fb5f1c
-ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
+ms.openlocfilehash: 8a75c670448cf69cf6d9d772c670c9451fd94f80
+ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "47359127"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "49662086"
 ---
 # <a name="plan-cloud-voicemail-service-for-on-premises-users"></a>Planejar o serviço de caixa postal na nuvem para usuários locais
 
@@ -96,7 +96,7 @@ A interoperabilidade de versão e as topologias com suporte para a caixa postal 
 | | Exchange Server 2013 | Exchange Server 2016 | Exchange Server 2019 | Exchange Online   |
 |:---    |:--- |:--- |:--- |:---  |
 | Skype for Business Server 2019 | UM do Exchange Server | UM do Exchange Server | Caixa Postal na Nuvem | Caixa Postal na Nuvem |
-| Skype for Business Server 2015 | UM do Exchange Server | UM do Exchange Server | Caixa Postal na Nuvem | Caixa Postal na Nuvem |
+| Skype for Business Server 2015 | UM do Exchange Server | UM do Exchange Server | Sem suporte | Caixa Postal na Nuvem |
 | Lync Server 2013 <br>  | UM do Exchange Server | UM do Exchange Server | Não suportado | Caixa Postal na Nuvem |
 
 A Microsoft recomenda os seguintes caminhos de migração:
