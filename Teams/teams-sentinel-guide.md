@@ -28,7 +28,7 @@ ms.locfileid: "48852142"
 ---
 # <a name="azure-sentinel-and-microsoft-teams"></a>Azure Sentinel e Microsoft Teams
 
-O Teams desempenha um papel central na comunicação e no compartilhamento de dados no Microsoft 365 Cloud. Como o serviço do Teams aborda tantas tecnologias subjacentes na nuvem, ele pode se beneficiar das análises humanas e automatizadas, não apenas no que diz respeito à *busca em logs* , mas também no *monitoramento em tempo real das reuniões*. O Azure Sentinel oferece aos administradores essas soluções.
+O Teams desempenha um papel central na comunicação e no compartilhamento de dados no Microsoft 365 Cloud. Como o serviço do Teams aborda tantas tecnologias subjacentes na nuvem, ele pode se beneficiar das análises humanas e automatizadas, não apenas no que diz respeito à *busca em logs*, mas também no *monitoramento em tempo real das reuniões*. O Azure Sentinel oferece aos administradores essas soluções.
 
 > [!NOTE]
 > Precisa de uma atualização no Azure Sentinel? [Este artigo](https://docs.microsoft.com/azure/sentinel/overview) é ideal para isso.
@@ -61,7 +61,7 @@ Como o Teams registra as atividades de logs no M365, os logs de auditoria não s
 
 Autentique e autorize um aplicativo do Azure AD (Azure Active Directory) para coletar dados de log da API.
 
-1. Navegue até a lâmina *Azure AD* , no portal do Azure.
+1. Navegue até a lâmina *Azure AD*, no portal do Azure.
 2. Clique em *Registros de aplicativos* na barra de início rápido.
 3. Selecione *Novo registro*.
 4. Nomeie o aplicativo de coleta de log do Teams e clique em *Registrar*.
@@ -72,13 +72,13 @@ Autentique e autorize um aplicativo do Azure AD (Azure Active Directory) para co
 9. Na janela Novo segredo do cliente, digite uma descrição para o novo Segredo do Cliente, escolha “Nunca” para Expiração e clique em *Adicionar*.
 
 > [!IMPORTANT]
-> É **essencial** copiar o novo segredo do cliente em uma entrada do gerenciador de senhas que passa pelo nome do aplicativo recém-criado. Não será possível voltar a examinar esse segredo após o fechamento da lâmina do Azure ( *lâmina* sendo o termo do Azure para janela).
+> É **essencial** copiar o novo segredo do cliente em uma entrada do gerenciador de senhas que passa pelo nome do aplicativo recém-criado. Não será possível voltar a examinar esse segredo após o fechamento da lâmina do Azure (*lâmina* sendo o termo do Azure para janela).
 
 ### <a name="register-the-api-with-powershell-to-collect-teams-logs"></a>Registrar a API no PowerShell para coletar logs do Teams
 
 A etapa final da instalação é coletar e registrar a assinatura da API para poder coletar os dados de log. Isso é feito pelas chamadas do PowerShell REST para a API de atividade de gerenciamento do M365.
 
-Esteja pronto para fornecer a **ID do aplicativo (cliente)** , o novo **Segredo do cliente** , seu **domínio de URL para o M365** e os valores de **ID do diretório (locatário)** no cmdlet do PowerShell a seguir.
+Esteja pronto para fornecer a **ID do aplicativo (cliente)**, o novo **Segredo do cliente**, seu **domínio de URL para o M365** e os valores de **ID do diretório (locatário)** no cmdlet do PowerShell a seguir.
 
 ```PowerShell
 $ClientID = "<Application (client) ID>"  
