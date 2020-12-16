@@ -24,31 +24,31 @@ appliesto:
 description: Saiba mais sobre como ativar ou desativar o recurso de acesso de convidado no Microsoft Teams como um administrador do Office 365.
 ms.openlocfilehash: 0920e9d8b8184f7f7ca83a71f0bd97d3a4d78470
 ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 11/13/2020
 ms.locfileid: "49031187"
 ---
 # <a name="turn-on-or-turn-off-guest-access-to-microsoft-teams"></a>Ativar ou desativar o acesso de convidados ao Microsoft Teams
 
-Por padrão, o acesso de convidado está desativado. Você deve habilitar o acesso de convidado para equipes para que administradores ou proprietários de equipe possam adicionar convidados.
+Por padrão, o acesso de convidado está desativado. Você deve ativar o acesso de convidado para o Teams antes que os administradores ou proprietários de equipe possam adicionar convidados.
 
-Depois de ativar o acesso de convidado, pode levar algumas horas para que as alterações entrem em vigor. Se um usuário vir a mensagem "entrar em contato com seu administrador" ao tentar adicionar um convidado à equipe, é provável que o acesso de convidado não tenha sido ativado ou que as configurações ainda não estejam efetivas.
+Depois de ativar o acesso de convidado, pode levar algumas horas para que as alterações entrem em vigor. Se um usuário vir a mensagem "Contate seu administrador" ao tentar adicionar um convidado à equipe, é provável que o acesso de convidado não tenha sido ativado ou as configurações ainda não tenham entrado em vigor.
 
 > [!IMPORTANT]
-> Ativar o acesso de convidado depende das configurações no Azure Active Directory, Microsoft 365, SharePoint e Teams. Para obter mais informações, consulte [colaborar com convidados em uma equipe](https://docs.microsoft.com/microsoft-365/solutions/collaborate-as-team).
+> Ativar o acesso de convidado depende das configurações no Azure Active Directory, Microsoft 365, Microsoft Office SharePoint Online e Teams. Para saber mais, confira [Colabore com os convidados em uma equipe](https://docs.microsoft.com/microsoft-365/solutions/collaborate-as-team).
 
-## <a name="configure-guest-access-in-the-teams-admin-center"></a>Configurar o acesso de convidado no centro de administração do teams
+## <a name="configure-guest-access-in-the-teams-admin-center"></a>Configure o acesso de convidados no centro de administração do Microsoft Teams
 
-1. Entre no centro de [Administração do Microsoft Teams](https://admin.teams.microsoft.com/).
+1. Entre no [Centro de administração do Microsoft Teams](https://admin.teams.microsoft.com/).
 
 2. Selecione **Configurações em toda a organização** > **Acesso de convidados**.
 
-3. Defina **permitir acesso de convidado no Microsoft Teams** como **ativado**.
+3. Defina **Permitir acesso de convidado no Microsoft Teams** como **Ativado**.
 
     ![Permita que a opção de acesso de convidados seja definida como Ativada ](media/set-up-guests-image1.png)
 
-4. Em **chamadas** , **reuniões** e **mensagens** , selecione **Ativar** ou **desativar** para cada recurso, dependendo do que você deseja permitir para usuários convidados.
+4. Em **Chamadas**, **Reunião** e **Mensagens**, selecione **Ativado** ou **Desativado** para cada recurso, dependendo do que você deseja permitir para usuários convidados.
 
       - **Fazer chamadas privadas** – **Ativar** essa função para permitir que os usuários façam chamadas ponto a ponto.
       - **Permitir vídeo IP** - **Ativar** essa configuração para permitir que os convidados usem vídeos em suas chamadas e reuniões.
@@ -80,6 +80,6 @@ Depois de ativar o acesso de convidado, pode levar algumas horas para que as alt
 
 [Configurar a colaboração segura com o Microsoft 365](https://docs.microsoft.com/microsoft-365/solutions/setup-secure-collaboration-with-teams)
 
-[Bloquear usuários convidados de uma equipe específica](https://docs.microsoft.com/microsoft-365/solutions/per-group-guest-access)
+[Bloquear usuários convidados de um grupo específico](https://docs.microsoft.com/microsoft-365/solutions/per-group-guest-access)
 
 [Set-CsTeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration)
