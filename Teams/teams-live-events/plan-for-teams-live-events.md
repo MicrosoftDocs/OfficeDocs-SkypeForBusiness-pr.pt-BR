@@ -1,7 +1,7 @@
 ---
 title: Planejar eventos ao vivo no Microsoft Teams
-author: lanachin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.date: 08/19/2019
 ms.topic: article
@@ -20,12 +20,12 @@ description: Neste artigo, você aprenderá sobre os fatores a serem considerado
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 45f7d629b53a8f20ed9fb072d5dc8812a680d0c4
-ms.sourcegitcommit: 25d14b501c0d62b8b77bbf03dac490f5bc1969bd
+ms.openlocfilehash: c1cfcf52531e5a3a0cecafe5310304a299bf04c5
+ms.sourcegitcommit: db0dc45520503753567e99c0c016f0265d45aa66
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/20/2020
-ms.locfileid: "49372245"
+ms.lasthandoff: 12/15/2020
+ms.locfileid: "49682400"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Planejar eventos ao vivo no Microsoft Teams
 
@@ -105,13 +105,13 @@ A tabela a seguir destaca os principais recursos oferecidos em eventos ao vivo e
 > [!IMPORTANT]
 > **O limite de eventos ao vivo do Microsoft 365 cresce**
 >
-> **Para ajudar a dar suporte aos nossos clientes, a partir de 1º de janeiro de 2021, estenderemos o limite temporário para que os eventos ao vivo sejam hospedados no Teams, Stream e no Yammer, incluindo**:
+> **Para continuar a atender às necessidades de nossos clientes, até 30 de junho de 2021, estenderemos aumentos temporários de limite para eventos ao vivo, incluindo**:
 >
->- Até 20.000 participantes por evento
->- Até 50 eventos simultâneos por locatário do Teams
->- Até 16 horas por transmissão
+>- Suporte a eventos para até 20.000 participantes
+>- 50 eventos podem ser hospedados simultaneamente em um locatário
+>- Duração do evento de 16 horas por transmissão
 >
-> Além disso, eventos ao vivo com até 100.000 participantes podem ser planejados através do programa Microsoft 365 de assistência a eventos ao vivo. A equipe avaliará cada solicitação e trabalhará com você para determinar as opções que possam estar disponíveis. [Saiba mais](https://aka.ms/Stream/Blog/LiveEventOptions). **Depois de 1º de janeiro de 2021, os clientes que precisarem desses aumentos de limite serão obrigados a adquirir o [suplemento de Comunicações avançadas](../teams-add-on-licensing/advanced-communications.md).**
+> Além disso, os eventos ao vivo com até 100.000 participantes podem ser planejados por meio do programa de assistência de eventos ao vivo do Microsoft 365. A equipe avaliará cada solicitação e trabalhará com você para determinar opções que podem estar disponíveis. [Saiba mais](https://aka.ms/Stream/Blog/LiveEventOptions). 
 
 | Recursos | Transmissão de Reunião do Skype | Eventos produzidos no Teams | Eventos produzidos em aplicativos ou dispositivos externos |
 |---------|---------|---------|---------|
