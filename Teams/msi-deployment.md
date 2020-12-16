@@ -1,5 +1,5 @@
 ---
-title: Instalar o Microsoft Teams usando o Gerenciador de configuração do Microsoft Endpoint
+title: Instalar o Microsoft Teams usando o Microsoft Endpoint Configuration Manager
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -7,7 +7,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: rafarhi, jhreddy
 audience: admin
-description: Use o Microsoft Endpoint Configuration Manager para implantar o Microsoft Teams em massa para selecionar usuários ou computadores.
+description: Use o Microsoft Endpoint Configuration Manager para implantar em massa o Microsoft Teams para selecionar usuários ou computadores.
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -20,7 +20,7 @@ appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 61b55a8cd734d4f63db4e3d6e1379c0ed235c038
 ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 11/13/2020
 ms.locfileid: "49030407"
@@ -28,7 +28,7 @@ ms.locfileid: "49030407"
 # <a name="install-microsoft-teams-using-microsoft-endpoint-configuration-manager"></a>Instalar o Microsoft Teams usando o Microsoft Endpoint Configuration Manager
 
 > [!Tip]
-> Assista à sessão a seguir para saber mais sobre os benefícios do cliente da área de trabalho do Windows, como planejar e como implantá-lo: [cliente de área de trabalho do Microsoft Teams](https://aka.ms/teams-clients).
+> Assista à sessão a seguir para aprender sobre os benefícios do Cliente de Área de trabalho Windows, como planejá-lo e como implantá-lo[: o Teams do Cliente de área de trabalho Windows](https://aka.ms/teams-clients).
 
 Para usar o Microsoft Endpoint Configuration Manager, a Política de Grupo ou qualquer mecanismo de distribuição de terceiros para ampla implantação, a Microsoft oferece arquivos MSI (de 32 bits e 64 bits) que os administradores podem usar para a implantação em massa do Teams para usuários ou computadores selecionados. Os administradores podem usar esses arquivos para implantar o Teams remotamente, de modo que os usuários não precisem baixar manualmente o aplicativo Teams. Quando implantado, o Teams iniciará automaticamente para todos os usuários que fizerem logon naquele computador. (Você pode desabilitar o início automático depois de instalar o aplicativo. [Confira abaixo](#disable-auto-launch-for-the-msi-installer).) É recomendável implantar o pacote no computador para que todos os novos usuários dele também se beneficiem com a implantação.
 
@@ -41,15 +41,15 @@ Estes são os links para os arquivos MSI:
 |Governo Federal – GCC High    | [32 bits](https://gov.teams.microsoft.us/downloads/desktopurl?env=production&plat=windows&managedInstaller=true&download=true)         | [64 bits](https://gov.teams.microsoft.us/downloads/desktopurl?env=production&plat=windows&arch=x64&managedInstaller=true&download=true)        |[ARM64](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&arch=arm64&managedInstaller=true&download=true) |
 |Governo Federal – DoD     | [32 bits](https://dod.teams.microsoft.us/downloads/desktopurl?env=production&plat=windows&managedInstaller=true&download=true)        | [64 bits](https://dod.teams.microsoft.us/downloads/desktopurl?env=production&plat=windows&arch=x64&managedInstaller=true&download=true)        | [ARM64](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&arch=arm64&managedInstaller=true&download=true)|
 
-**Para garantir uma implantação bem-sucedida, lembre-se do seguinte:**
+**Para garantir uma implantação bem-sucedida, esteja ciente do seguinte:**
 
-- Instale a versão de 64 bits do teams em sistemas operacionais de 64 bits. Se você tentar instalar a versão de 64 bits do teams em um sistema operacional de 32 bits, a instalação não será bem-sucedida e, no momento, você não receberá uma mensagem de erro.
+- Instale a versão de 64 bits do Teams em sistemas operacionais de 64 bits. Se você tentar instalar a versão de 64 bits do Teams em um sistema operacional de 32 bits, a instalação não terá êxito e você não receberá uma mensagem de erro.
 
-- Se o locatário do cliente estiver nas nuvens GCCH ou DoD, o cliente deve definir o ponto de extremidade inicial no registro adicionando o valor **cloudtype** à chave **HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\16.0\Teams** no registro. O tipo de **cloudtype** é **DWORD** e os valores são (0 = indefinida, 1 = comercial, 2 = gcc, 3 = GCCH, 4 = DoD). Configurar o ponto de extremidade com a chave do registro restringe as equipes para se conectarem ao ponto de extremidade de nuvem correto para conectividade de pré-logon com o Teams.
+- Se o locatário do cliente estiver nas nuvens GCCH ou DoD, o cliente deve definir o ponto de extremidade inicial no registro adicionando o valor **CloudType** à chave **HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\16.0\Teams** no registro. O tipo de **CloudType** é **DWORD** e os valores são (0 = Não definido, 1 = comercial, 2 = GCC, 3 = GCCH, 4 = DOD). Definir o ponto de extremidade com a chave de registro restringe o Teams a se conectar ao ponto de extremidade de nuvem correto para conectividade de pré-login com o Teams.
 
-- As equipes também podem ser incluídas com uma implantação de aplicativos do Microsoft 365 para empresas. Para obter mais informações, consulte [implantar o Microsoft Teams com os aplicativos do microsoft 365 para empresas](https://docs.microsoft.com/deployoffice/teams-install).
+- O Teams também podem ser incluído com uma implantação do Microsoft 365 Apps para Grandes Empresas. Para obter mais informações, confira [Implantar Microsoft Teams com Microsoft 365 Apps para Grandes Empresas](https://docs.microsoft.com/deployoffice/teams-install).
 
-- Para saber mais sobre o Gerenciador de configuração do Microsoft EndPoint, consulte [o que é o Configuration Manager?](https://docs.microsoft.com/configmgr/core/understand/introduction)
+- Para saber mais sobre o Microsoft Endpoint Configuration Manager, confira [O que é o Configuration Manager?](https://docs.microsoft.com/configmgr/core/understand/introduction)
 
 ## <a name="deployment-procedure-recommended"></a>Procedimento de implantação (recomendado)
 
@@ -66,7 +66,7 @@ O Teams MSI colocará um instalador em Arquivos de Programas. Sempre que um usu�
 Não use o MSI para implantar atualizações, pois o cliente atualizará automaticamente quando detectar que há uma nova versão disponível no serviço. Para reimplantar o instalador mais recente, use o processo de reimplantação do MSI descrito abaixo. Se você implantar uma versão mais antiga do pacote MSI, o cliente atualizará automaticamente (exceto em ambientes da VDI) para o usuário quando possível. Se uma versão muito antiga for implantada, o MSI acionará uma atualização do aplicativo antes que o usuário possa usar o Teams.
 
 > [!IMPORTANT]
-> O local padrão é C:\Program Files (x86) \Teams Installer em sistemas operacionais de 64 bits e C:\Arquivos de Files\Teams Installer em sistemas operacionais de 32 bits.
+> O local padrão é C:\Arquivos de Programas (x86)\Instalador do Teams em sistemas operacionais de 64 bits e C:\Arquivos de Programas \Instalador do Teams em sistemas operacionais de 32 bits.
 > Não recomendamos mudar os locais de instalação padrão, pois isso pode interromper o fluxo de atualização. Uma versão muito antiga pode impedir que os usuários acessem o serviço.
 
 #### <a name="target-computer-requirements"></a>Requisitos do computador de destino
@@ -82,18 +82,18 @@ Para obter instruções completas sobre como implantar o aplicativo de área de 
 
 ## <a name="clean-up-and-redeployment-procedure"></a>Procedimento de limpeza e reimplantação
 
-Se um usuário desinstalar o Teams do seu perfil de usuário, o instalador do MSI acompanhará que o usuário desinstalou o aplicativo Teams e não instalará mais equipes para esse perfil de usuário. Para reimplantar o Teams para esse usuário em um determinado computador em que foi desinstalado, faça o seguinte:
+Se um usuário desinstalar o Teams de seu perfil de usuário, o instalador MSI rastreará se o usuário desinstalou o aplicativo do Teams e não instalou mais o Teams para esse perfil de usuário. Para reimplantar o Teams para esse usuário em um determinado computador em que foi desinstalado, faça o seguinte:
 
 > [!IMPORTANT]
-> As etapas a seguir contêm informações sobre como modificar o registro. Certifique-se de fazer backup do registro antes de modificá-lo e de que você sabe como restaurar o registro se ocorrer um problema. Para obter mais informações sobre como fazer backup, restaurar e modificar o registro, consulte [informações do registro do Windows para usuários avançados](https://support.microsoft.com/help/256986).
+> As próximas etapas contêm informações sobre como modificar o registro. Certifique-se de fazer backup do registro antes de modificá-lo e de saber como restaurá-lo se ocorrer um problema. Para obter mais informações sobre como fazer backup, restaurar e modificar o registro, confira [Informações sobre o registro do Windows para usuários avançados](https://support.microsoft.com/help/256986).
 
-1. Desinstale o aplicativo Teams instalado para cada perfil de usuário. Para obter mais informações, consulte [desinstalar o Microsoft Teams](https://support.office.com/article/uninstall-microsoft-teams-3b159754-3c26-4952-abe7-57d27f5f4c81#ID0EAABAAA=Desktop).
-2. Exclua o diretório recursivamente em `%localappdata%\Microsoft\Teams\` .
-3. Exclua o `HKEY_CURRENT_USER\Software\Microsoft\Office\Teams\PreventInstallationFromMsi` valor do registro.
+1. Desinstale o aplicativo Teams instalado para cada perfil de usuário. Para obter mais informações, confira [Desinstalar o Microsoft Teams](https://support.office.com/article/uninstall-microsoft-teams-3b159754-3c26-4952-abe7-57d27f5f4c81#ID0EAABAAA=Desktop).
+2. Exclua o diretório recursivamente em `%localappdata%\Microsoft\Teams\`.
+3. Exclua o valor de registro `HKEY_CURRENT_USER\Software\Microsoft\Office\Teams\PreventInstallationFromMsi`.
 4. Reimplante o pacote MSI no computador específico.
 
 > [!TIP]
-> Você também pode usar o [script de limpeza de implantação do teams](scripts/powershell-script-deployment-cleanup.md) para concluir as etapas 1 e 2.  
+> É possível também usar nosso [Script de limpeza de implantação do Teams para concluir as etapas 1 e 2](scripts/powershell-script-deployment-cleanup.md).  
 
 ## <a name="prevent-teams-from-starting-automatically-after-installation"></a>Impede que o Teams seja iniciado automaticamente após a instalação
 
@@ -128,7 +128,7 @@ msiexec /i Teams_windows_x64.msi OPTIONS="noAutoStart=true" ALLUSERS=1
 
 Quando um usuário faz logon no Windows, o Teams é instalado com o MSI e um atalho para iniciá-lo é adicionado à área de trabalho do usuário. O Teams não será iniciado até que o usuário inicie-o manualmente. Depois que o usuário iniciar o Teams manualmente, ele iniciará automaticamente sempre que o usuário fizer login.
 
-Observe que esses exemplos também usam o parâmetro **AllUsers = 1** . Quando você define esse parâmetro, o instalador do teams Machine-Wide aparece em programas e recursos no painel de controle e em aplicativos & recursos nas configurações do Windows para todos os usuários do computador. Em seguida, todos os usuários podem desinstalar o Microsoft Teams, caso tenham credenciais de administrador no computador.
+Observe que esses exemplos também usam o parâmetro **ALLUSERS = 1**. Quando você define este parâmetro, o Instalador de Todo o Computador do Teams aparece em Programas e recursos no Painel de Controle e em Aplicativos e Recursos nas Configurações do Windows para todos os usuários do computador. Todos os usuários podem desinstalar o Teams se tiverem credenciais de administrador no computador.
 
 > [!Note]
 > Se executar o MSI manualmente, certifique-se de executá-lo com permissões elevadas. Mesmo que você o execute como administrador, se isso não for feito com permissões elevadas, o instalador não poderá configurar a opção para desabilitar o início automático.
