@@ -16,12 +16,12 @@ f1.keywords:
 description: Otimização de mídia local para roteamento direto
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ebf6ca7b8b3c1bd18ffb5c00f124d90f973c4b46
-ms.sourcegitcommit: aec9fcc178c227d9cfe3e2bf57d0f3bf4c318d49
+ms.openlocfilehash: 886dd4d14d8393764f3c939991a8959ed4726aa3
+ms.sourcegitcommit: b816ae9de91f3d01e795a69a00465a70003069b2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "48950785"
+ms.lasthandoff: 12/16/2020
+ms.locfileid: "49686457"
 ---
 # <a name="local-media-optimization-for-direct-routing"></a>Otimização de mídia local para roteamento direto
 
@@ -49,7 +49,7 @@ Este artigo descreve a funcionalidade dos recursos e as soluções e os cenário
 
 Para esta discussão, suponha que a contoso executa várias empresas em todo o mundo da seguinte maneira. (Observe que as regiões Europa e Ásia-oeste são usadas apenas como exemplos. Uma empresa pode ter várias regiões diferentes com requisitos semelhantes.)
  
-- **Na Europa** , a contoso tem escritórios em cerca de 30 países. Cada escritório tem sua própria agência de intercâmbio privada (PBX). 
+- **Na Europa**, a contoso tem escritórios em cerca de 30 países. Cada escritório tem sua própria agência de intercâmbio privada (PBX). 
 
   A contoso ofereceu uma opção para centralizar os troncos em um local--Amsterdã--para todos os 30 escritórios europeus. A contoso implantou o SBC em Amsterdã, desde largura de banda suficiente para executar chamadas por meio do local centralizado, conectar um tronco SIP central ao local centralizado e começar a servir todos os locais europeus do Amsterdã. 
 
@@ -59,13 +59,13 @@ Para esta discussão, suponha que a contoso executa várias empresas em todo o m
 
 Com base em suas necessidades comerciais, a contoso implementou duas soluções com otimização de mídia local para roteamento direto:
 
-- **Na Europa** , todos os troncos são centralizados e os fluxos de mídia entre o SBC central e os usuários, com base no local do usuário. 
+- **Na Europa**, todos os troncos são centralizados e os fluxos de mídia entre o SBC central e os usuários, com base no local do usuário. 
 
   - Se um usuário estiver conectado à sub-rede local de uma rede corporativa (ou seja, o usuário for interno), o fluxo de mídia entre o IP interno do SBC central e o cliente das equipes do usuário. 
   
   - Se um usuário estiver fora dos limites da rede corporativa, por exemplo, se o usuário estiver usando uma conexão de Internet pública sem fio--então o usuário será considerado externo. Nesse caso, a mídia flui entre o IP externo do SBC central e o cliente da equipe.
 
-- **Na região da Ásia** , um SBC de proxy centralizado está emparelhado ao direcionamento direto da Microsoft, que direciona a mídia entre a interface de roteamento direto e a SBCS de downstream em filiais locais. 
+- **Na região da Ásia**, um SBC de proxy centralizado está emparelhado ao direcionamento direto da Microsoft, que direciona a mídia entre a interface de roteamento direto e a SBCS de downstream em filiais locais. 
 
   O SBCs downstream nas filiais locais não está diretamente visível para o roteamento direto na Ásia, mas eles são emparelhados usando o cmdlet Set-CSOnlinePSTNGateway para criar uma topologia de rede virtual no sistema telefônico da Microsoft. A mídia sempre fica local quando possível. Os usuários externos têm fluxo de mídia entre o cliente da equipe e o IP público do SBC do proxy.
 
@@ -74,7 +74,7 @@ Com base em suas necessidades comerciais, a contoso implementou duas soluções 
 
 Para criar uma solução em que os serviços PSTN sejam fornecidos a todas as filiais locais por meio de um único SBC central com um tronco SIP centralizado conectado, o administrador do locatário da Contoso emparelha um SBC (centralsbc.contoso.com) para o serviço; o SBC tem um tronco SIP centralizado conectado a ele. 
 
-- Quando um usuário está na rede interna da empresa, o SBC fornece o IP interno do SBC para mídia.
+- Quando um usuário está na rede interna da empresa, o SBC fornece o IP interno do SBC para mídia. 
 
 - Quando um usuário está fora da rede corporativa, o SBC fornece o IP externo (público) do SBC.
 
@@ -182,16 +182,19 @@ Diagrama 4. Fluxo de tráfego quando o usuário é externo com um SBC de proxy e
 
 A otimização de mídia local dá suporte a dois modos:
 
-- **Modo 1: sempre ignorar**. Nesse caso, se o usuário for interno, a mídia irá fluir pelo endereço IP interno do SBC downstream local, independentemente da localização real do usuário interno; por exemplo, dentro da mesma filial do trabalho em que o SBC downstream está localizado ou em algum outro escritório da filial.
+- **Modo 1: sempre ignorar**. Nesse caso, se o usuário for interno, a mídia irá fluir pelo endereço IP interno do SBC downstream local, independentemente da localização real do usuário interno; por exemplo, dentro da mesma filial do trabalho em que o SBC downstream está localizado ou em algum outro escritório da filial.  
 
 - **Modo 2: somente para usuários locais**. Nesse modo, a mídia fluirá diretamente para o endereço IP interno do SBC do SBC local somente quando gerado pelo usuário interno localizado na mesma filial do trabalho como o SBC downstream. 
 
 Para distinguir entre os modos de otimização de mídia local, o administrador de locatários precisa definir o parâmetro-Bypassmode como "Always" ou "OnlyForLocalUsers" para cada SBC usando o cmdlet Set-CSonlinePSTNGateway. Para obter mais informações, consulte [Configurar otimização de mídia local](direct-routing-media-optimization-configure.md).  
 
+ > [!NOTE]
+  > Quando os usuários são internos, a conectividade de mídia entre o usuário e o SBC sobre o endereço IP interno é **necessária**. Não há nenhum fallback para retransmissões de transporte público para mídia nesse caso, pois o SBC fornecerá um IP interno para a conectividade de mídia. 
+
 ### <a name="mode-1-always-bypass"></a>Modo 1: ignorar sempre
 
 Se você tiver uma boa conexão entre filiais, o modo recomendado será sempre ignorado.
-
+ 
 Por exemplo, suponha que uma empresa tem um tronco SIP centralizado em Amsterdã, que tem 30 países e tem uma boa conectividade entre todos os 30 sites e usuários locais. Também há uma ramificação na Alemanha na qual um SBC local é implantado.
 
 O SBC na Alemanha pode ser configurado no modo "sempre ignorar". Os usuários, independentemente de sua localização, serão conectados ao SBC diretamente por meio do endereço IP interno do SBC (por exemplo, da França para a Alemanha; consulte o diagrama abaixo para obter referência).

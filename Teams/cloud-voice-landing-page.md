@@ -1,5 +1,5 @@
 ---
-title: Voz no Microsoft Teams
+title: Planejar sua solução de voz no Microsoft Teams
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -23,16 +23,19 @@ search.appverid: MET150
 description: Saiba mais sobre os recursos de voz do Microsoft Teams Cloud e as decisões de implantação que você fará para sua organização.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c392e9a1e2944c573ddfa63da3aa27f56b2380d7
-ms.sourcegitcommit: 4386f4b89331112e0d54943dc3133791d5dca3fb
+ms.openlocfilehash: 213950b808d781e8566e1ffae6f6075bb7b3371b
+ms.sourcegitcommit: b816ae9de91f3d01e795a69a00465a70003069b2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/09/2020
-ms.locfileid: "49611683"
+ms.lasthandoff: 12/16/2020
+ms.locfileid: "49686447"
 ---
 # <a name="plan-your-teams-voice-solution"></a>Planejar a solução de voz do teams 
 
-Este artigo ajuda você a decidir qual solução Microsoft Voice é ideal para sua organização. Depois de decidir, o artigo fornece um roteiro para o conteúdo que permitirá implementar a solução escolhida. 
+Este artigo ajuda você a decidir qual solução Microsoft Voice é ideal para sua organização. Depois de decidir, o artigo fornece um roteiro para o conteúdo que permitirá implementar a solução escolhida.
+
+> [!NOTE]
+> Para obter orientação sobre como planejar uma solução de voz do teams como parte do plano geral de atualização para o Teams do Skype for Business Server, consulte [considerações de PSTN para a atualização do Microsoft Teams no Skype for Business local](upgrade-to-Teams-on-prem-pstn-considerations.md).
 
 Você pode querer o sistema de telefonia da solução mais simples &mdash; com plano de chamadas. Esta é a solução completa da Microsoft que fornece funcionalidade de PBX (Private Branch Exchange) e chamadas para a rede telefônica pública comutada (PSTN), conforme mostrado no diagrama a seguir. Com esta solução, a Microsoft é a sua operadora PSTN.
 
