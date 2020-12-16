@@ -13,22 +13,22 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: Este artigo discute como configurar os dispositivos da sua organização e salas de equipe para dar suporte à reunião de terceiros de acordo com o Cisco WebEx e o zoom.
-ms.openlocfilehash: 8079b6fc231bf30a654e2513af55a806433eb83f
-ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
+ms.openlocfilehash: 82369c534a616796382b1de69e37c64f15392f9b
+ms.sourcegitcommit: db0dc45520503753567e99c0c016f0265d45aa66
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "49662356"
+ms.lasthandoff: 12/15/2020
+ms.locfileid: "49682380"
 ---
 # <a name="enable-teams-room-devices-to-join-third-party-meetings"></a>Habilitar dispositivos da sala de equipe para participar de reuniões de terceiros
 
-Os dispositivos de salas do Microsoft Teams dão suporte a uma experiência de toque único para a associação online de reuniões online de terceiros. Quando habilitado, você pode usar um dispositivo de salas de equipe para ingressar em reuniões hospedadas no Cisco WebEx e fazer o zoom de<sup>1</sup> tão facilmente quanto você pode ingressar em reuniões hospedadas no Microsoft Teams.
+Os dispositivos de salas do Microsoft Teams dão suporte a uma experiência de toque único para a associação online de reuniões online de terceiros, também conhecida como associação de convidado direto. Quando habilitado, você pode usar um dispositivo de salas de equipe para ingressar em reuniões hospedadas no Cisco WebEx e fazer o zoom da maneira mais fácil, pois você pode ingressar em reuniões hospedadas no Microsoft Teams.
 
 Antes de poder ingressar em reuniões de terceiros a partir de um dispositivo de salas de equipe, você precisa fazer o seguinte:
 
-1. Configurar a caixa de correio da sala do Exchange Online do dispositivo de salas de equipe para processar convites para reuniões de terceiros
-2. Verifique se a sua organização não tem nenhuma política que impeça você de se conectar a serviços de reunião de terceiros
-3. Configurar dispositivos de salas de equipe para permitir reuniões de terceiros
+1. Configure a caixa de correio da sala do Exchange Online do dispositivo de salas de equipe para processar convites para reuniões de terceiros.
+2. Verifique se a sua organização não tem nenhuma política que impeça você de se conectar a serviços de reunião de terceiros.
+3. Configure seus dispositivos de salas de equipe para permitir reuniões de terceiros.
 
 As seções a seguir mostram como executar cada uma dessas etapas.
 
@@ -43,7 +43,8 @@ A primeira coisa que você precisa fazer para habilitar uma experiência de jun�
     ```powershell
     Get-Mailbox | Where {$_.RoomMailboxAccountEnabled -eq $True} | Format-Table Name, UserPrincipalName
     ```
-3. Localize o nome da caixa de correio da sala associada ao dispositivo de salas de equipe e anote seu UPN
+    
+3. Localize o nome da caixa de correio da sala associada ao dispositivo de salas de equipe e anote seu UPN.
 
 4. Depois de encontrar o UPN da caixa de correio da sala, execute o seguinte comando. Substituir `<UserPrincipalName>` pelo UPN da caixa de correio da sala:
 
@@ -77,11 +78,11 @@ A última etapa que você precisa fazer é permitir que cada dispositivo de sala
 
 Para configurar o dispositivo de salas de equipe usando o Touch Touch, faça o seguinte:
 
-1. No dispositivo salas do Microsoft Teams, selecione **mais..** .
-2. Selecione **configurações** e, em seguida, digite o nome de usuário e a senha do administrador do dispositivo
-3. Vá para a guia **reuniões** e selecione **Cisco WebEx**, **zoom**<sup>1</sup>ou ambos
-4. Se você deseja ingressar em reuniões com o nome de usuário e o endereço de email associados à caixa de correio da sala, selecione **ingressar com informações de sala**
-5. Se você quiser ingressar em reuniões com um nome de usuário e um endereço de email alternativos, selecione **ingressar com informações personalizadas** e insira o nome de usuário e o endereço de email que deseja usar
+1. No dispositivo salas do Microsoft Teams, selecione **mais..**..
+2. Selecione **configurações** e, em seguida, digite o nome de usuário e a senha do administrador do dispositivo.
+3. Vá para a guia **reuniões** e selecione **Cisco WebEx**, **zoom** ou ambos.
+4. Se você quiser ingressar em reuniões com o nome de usuário e o endereço de email associados à caixa de correio da sala, selecione **ingressar com informações de sala**.
+5. Se você quiser ingressar em reuniões com um nome de usuário e um endereço de email alternativos, selecione **ingressar com informações personalizadas** e insira o nome de usuário e o endereço de email que deseja usar.
 6. Selecione **salvar e sair**. Seu dispositivo será reiniciado.
 
 ### <a name="use-the-skypesettingsxml-configuration-file"></a>Usar o arquivo de configuração SkypeSettings.xml
@@ -94,7 +95,7 @@ Para habilitar reuniões Cisco WebEx, defina o `WebExMeetingsEnabled` elemento X
 <WebExMeetingsEnabled>True</WebExMeetingsEnabled>
 ```
 
-Para habilitar o zoom <sup>1</sup> reuniões, defina o `ZoomMeetingsEnabled` elemento XML como **verdadeiro**, da seguinte maneira.
+Para habilitar as reuniões de zoom, defina o `ZoomMeetingsEnabled` elemento XML como **verdadeiro**, da seguinte maneira.
 
 ```xml
 <ZoomMeetingsEnabled>True</ZoomMeetingsEnabled>
@@ -113,4 +114,3 @@ Opcionalmente, você pode especificar um nome de usuário e um endereço de emai
 > [!NOTE]
 > Para ingressar em uma reunião do Cisco WebEx a partir de um dispositivo de salas de equipe, a reunião da Cisco precisa ser hospedada usando a versão WBS 40,7 ou posterior do aplicativo Web Cisco WebEx.
 
-<sup>1</sup> o zoom das reuniões de zoom só está disponível no momento para selecionar clientes de salas do Microsoft Teams com o programa de acesso à tecnologia (toque).

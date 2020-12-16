@@ -32,7 +32,7 @@ ms.locfileid: "49071752"
 ---
 # <a name="how-to-roll-out-microsoft-teams"></a>Como implementar o Microsoft Teams
 
-## <a name="start-here"></a>Iniciar aqui
+## <a name="start-here"></a>Comece aqui
 Não importa se você faz parte de uma pequena empresa ou de uma mulitnacional, o ponto de partida para a implantação do Teams é [Iniciar](get-started-with-teams-quick-start.md). Ele orientará você por meio de uma implantação de pequenas dimensões do Teams, o que pode ser o necessário se você for parte de uma pequena empresa, ou se você estiver implantando rapidamente o Teams como a sua primeira carga de trabalho do Microsoft 365 ou do Office 365 para oferecer suporte a **trabalhadores remotos**. Se você for para de uma grande empresa, use [Iniciar](get-started-with-teams-quick-start.md) para testar o Teams com um pequeno grupo de pioneiros para obter informações sobre o Teams e começar a planejar a implantação de toda a organização. 
 
 ## <a name="recommended-path-to-teams"></a>Caminho recomendado para o Teams
@@ -50,7 +50,7 @@ Não importa se você faz parte de uma pequena empresa ou de uma mulitnacional, 
 ![Diagrama ilustrando os caminhos para implantação do Teams](media/how-to-roll-out-teams-image1.png)
 
 
-## <a name="if-youre-starting-from-skype-for-business-on-premises-or-hybrid-deployments"></a>Se estiver começando por implantações locais ou híbridas do Skype for Business
+## <a name="if-youre-starting-from-skype-for-business-on-premises-or-hybrid-deployments"></a>Se você começar pelas implantações do Skype for Business, no local ou híbrida
 
 Se você chegou ao Teams pelo Skype for Business (online ou no local), ou se precisa de uma configuração híbrida, siga o [caminho recomendado](#recommended-path-to-teams) acima para implantar o Teams, mas antes você precisará fazer algum planejamento extra. Comece revisando as instruções na tabela abaixo que se aplicam ao perfil da sua organização.
 

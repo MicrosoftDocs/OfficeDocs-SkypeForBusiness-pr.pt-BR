@@ -30,7 +30,7 @@ ms.locfileid: "49031807"
 
 Quando você precisa se comunicar e colaborar com pessoas fora do sua organização, o Microsoft Teams lhe oferece duas formas diferentes de fazer isso acontecer. A primeira – **acesso externo** (federação) – permite encontrar, ligar e conversar com usuários em outros domínios (por exemplo, contoso.com). A segunda – **acesso de convidados** – permite adicionar indivíduos às suas equipes, como convidados, usando seu endereço de e-mail. Você pode colaborar com os convidados como colaboraria com qualquer outro usuário da sua organização.
 
-Você pode usar o acesso externo e o acesso de convidados, se quiser - isso não impede a outra pessoa.
+Você pode usar o acesso externo e o acesso para convidados, se desejar - isso não impede a outra pessoa.
 
 Em um nível alto, veja aqui como escolher (para uma comparação detalhada, vá para [Comparar acesso externo e de convidados](#compare-external-and-guest-access)):
 
@@ -40,7 +40,7 @@ Use **acesso externo** (federação) quando você precisa de uma solução que p
 
 O acesso externo é ativado por padrão no Teams, significando que sua organização pode se comunicar com todos os domínios externos. O administrador do Teams pode desativá-lo ou especificar quais domínios devem ser incluídos (ou excluídos). Para obter mais informações, leia [Gerencie o acesso externo](manage-external-access.md). 
 
-Se você quiser que os usuários externos tenham acesso às equipes e aos canais, o [acesso de convidados](#guest-access) poderá ser a melhor opção. 
+Se você desejar que usuários externos tenham acesso a equipes e canais, o [acesso de convidados](#guest-access) poderá ser a melhor opção. 
 
 
 ## <a name="guest-access"></a>Acesso de convidados
@@ -49,7 +49,7 @@ Use **acesso de convidados** para adicionar um usuário individual (independente
 
 - Os convidados são adicionados ao Active Directory da sua organização.
 - Para se comunicar com um convidado, o convidado tem que estar conectado ao Teams usando sua conta de convidado. Isso significa que um convidado pode ter que sair da sua própria conta do Teams para entrar na sua conta do Teams, ou mudar de organização se for a mesma conta.
-- Os usuários convidados possuem acesso a mais recursos no Teams - como arquivos, equipes e canais - do que os usuários de acesso externo (federado).
+- Os usuários convidados têm acesso a mais recursos no Teams - como arquivos, equipes e canais - do que os usuários de acesso externo (federado).
 - A administração do Teams controla tudo o que um convidado pode (ou não) fazer no Centro de administração do Teams. Para obter mais informações, leia [Gerenciar o acesso de convidados](manage-guests.md).
 
 Se estiver pronto para ativar o acesso de convidados em sua organização, comece com o [Colaborar com convidados em uma equipe](https://docs.microsoft.com/microsoft-365/solutions/collaborate-as-team).

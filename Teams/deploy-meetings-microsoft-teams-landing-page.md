@@ -41,9 +41,9 @@ Você concluiu a [Introdução](get-started-with-teams-quick-start.md). Você im
 Para saber mais sobre a experiência de reuniões para seus usuários, confira [Reuniões e chamadas](https://support.office.com/article/meetings-and-calls-d92432d5-dd0f-4d17-8f69-06096b6b48a8). 
 
 
-*Novidades em abril de 2020* : Os organizadores de reuniões podem finalizar uma reunião para todos os participantes da reunião do Teams, clicando em **Encerrar reunião** nos controles de reunião dentro dela.  
+*Novidades em abril de 2020*: Os organizadores de reuniões podem finalizar uma reunião para todos os participantes da reunião do Teams, clicando em **Encerrar reunião** nos controles de reunião dentro dela.  
 
-*Novidades de novembro de 2019* : Agora você pode [usar o Assistente do Teams (visualização) para ajudá-lo na implantação do Microsoft Teams](use-advisor-teams-roll-out.md). O Assistente do Teams (visualização) o orienta na implementação do Microsoft Teams, incluindo reuniões e conferências. Ele avalia o ambiente do Office 365 e identifica as configurações mais comuns que talvez seja necessário atualizar ou modificar antes de poder implantar o Teams com êxito.
+*Novidades de novembro de 2019*: Agora você pode [usar o Assistente do Teams (visualização) para ajudá-lo na implantação do Microsoft Teams](use-advisor-teams-roll-out.md). O Assistente do Teams (visualização) o orienta na implementação do Microsoft Teams, incluindo reuniões e conferências. Ele avalia o ambiente do Office 365 e identifica as configurações mais comuns que talvez seja necessário atualizar ou modificar antes de poder implantar o Teams com êxito.
 
  > [!Note]
 > Para saber mais sobre reuniões e conferências do Teams em diferentes plataformas, confira [recursos do Teams por plataforma](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3).
@@ -78,7 +78,7 @@ Estas são as configurações que a maioria das organizações deseja alterar (s
 
 ### <a name="teams-administrators"></a>Administradores do Teams
 
-O Teams fornece um conjunto personalizado de funções de administrador que pode ser usado para gerenciar o programa na organização. As funções fornecem vários recursos para administradores. 
+O Teams fornece um conjunto de funções de administrador personalizado que pode ser usado para administrar o Teams para sua organização. As funções fornecem vários recursos aos administradores. 
 
 | Pergunte a si mesmo | Ação |
 |--------------|--------|

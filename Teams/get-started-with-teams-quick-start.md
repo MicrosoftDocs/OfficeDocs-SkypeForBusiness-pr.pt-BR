@@ -29,7 +29,7 @@ ms.locfileid: "49030427"
 # <a name="get-started-with-microsoft-teams"></a>Introdução ao Microsoft Teams
 
 > [!IMPORTANT]
-> Se você estiver implantando o Microsoft Teams rapidamente em resposta a uma demanda maior de suporte ao **trabalho remoto** , use estas diretrizes de introdução a fim de distribuir o Teams para toda a organização. Estas orientações se aplicam mesmo quando o Teams é sua primeira carga de trabalho do Microsoft 365 ou Office 365.
+> Se você estiver implantando o Microsoft Teams rapidamente em resposta a uma demanda maior de suporte ao **trabalho remoto**, use estas diretrizes de introdução a fim de distribuir o Teams para toda a organização. Estas orientações se aplicam mesmo quando o Teams é sua primeira carga de trabalho do Microsoft 365 ou Office 365.
 
 Para começar a usar o Teams rapidamente, recomendamos que você crie duas ou três equipes e canais para um grupo selecionado de usuários pioneiros. Ao implementar o Teams em pequena escala inicialmente, você aprenderá a usar o Teams de forma prática e receberá informações úteis sobre como implantar o Teams em toda a organização. Se sua empresa for pequena, este guia de início rápido é tudo o que você precisa para implementar o Teams em toda a organização.
 
@@ -47,13 +47,13 @@ Veja aqui como implementar o primeiro conjunto de equipes e canais para que seus
 
 Se sua organização for de grande porte, realize uma configuração híbrida ou no local do Skype for Business, defina requisitos regulamentares ou de conformidade rigorosos ou, se desejar implementar reuniões ou recursos de voz (como planos de chamadas ou sistema de telefonia), comece pela leitura do arquivo [Como implementar o Teams](how-to-roll-out-teams.md). Recomendamos que você ainda comece pela seção **Introdução** para desenvolver suas habilidades e começar a planejar sua implantação em toda a organização. "Planeje suas equipes com o Teams." Comece por algo mais simples, implementando o Teams com chat, equipes, canais e aplicativos, e se desenvolva a partir daí. Essas experiências iniciais ajudarão você a divulgar o Teams, gerando entusiasmo em toda a organização para a próxima fase de lançamento. 
 
-Se você tiver um pequeno negócio ou se **estiver implantando o Teams rapidamente para dar suporte a uma força de trabalho recentemente remota** , use estas diretrizes de introdução para distribuir o Teams de forma completa em sua organização. Não deixe de conferir os modelos disponíveis especificamente para pequenas empresas para tornar a implantação na sua organização mais simples e fácil. Confira[Introdução aos modelos do Teams para pequenas e médias empresas](https://docs.microsoft.com/microsoftteams/smb-templates).
+Se você tiver um pequeno negócio ou se **estiver implantando o Teams rapidamente para dar suporte a uma força de trabalho recentemente remota**, use estas diretrizes de introdução para distribuir o Teams de forma completa em sua organização. Não deixe de conferir os modelos disponíveis especificamente para pequenas empresas para tornar a implantação na sua organização mais simples e fácil. Confira[Introdução aos modelos do Teams para pequenas e médias empresas](https://docs.microsoft.com/microsoftteams/smb-templates).
 
 ## <a name="before-you-get-started"></a>Antes de começar
 
 Com o intuito de se preparar para a implantação do Teams, confira aqui o que você precisa fazer, seja o Teams sua primeira carga de trabalho ("Teams Primeiro") ou a próxima carga de trabalho em uma implantação existente do Microsoft 365 ou Office 365:
 
-- [Preparo da rede da sua organização para o Teams](prepare-network.md)
+- [Prepare a rede da sua organização para o Teams](prepare-network.md)
     - Isso inclui configurar seu domínio do Microsoft 365 ou Office 365, SharePoint Online, Exchange Online e OneDrive for Business.
 
 - Obtenha licenças do Teams para todos. Confira os [planos do Teams](https://www.microsoft.com/microsoft-365/microsoft-teams/compare-microsoft-teams-options) e a [descrição do serviço do Microsoft Teams](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description).

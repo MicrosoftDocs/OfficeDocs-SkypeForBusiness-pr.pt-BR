@@ -58,7 +58,7 @@ Depois de atender aos Pré-requisitos de Audioconferência, conclua as seguintes
 
 ### <a name="teams-administrators"></a>Administradores do Teams
 
-O Teams fornece um conjunto personalizado de funções de administrador que pode ser usado para gerenciar o programa na organização. As funções fornecem vários recursos para administradores. 
+O Teams fornece um conjunto de funções de administrador personalizado que pode ser usado para administrar o Teams para sua organização. As funções fornecem vários recursos aos administradores. 
 
 | Pergunte a si mesmo | Ação |
 |--------------|--------|

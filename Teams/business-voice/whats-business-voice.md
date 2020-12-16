@@ -32,7 +32,7 @@ O Microsoft 365 Business Voice facilita para as empresas de pequeno e médio por
 
 O Business Voice faz tudo isso agrupando os recursos do Microsoft 365 Phone System em um pacote fácil de gerenciar. Você não precisa se preocupar em escolher o plano ou recurso certo. Eles estão todos lá e configurados para você. Como o sistema de telefonia faz parte do Teams, você pode transformar qualquer computador, Mac ou dispositivo móvel em um telefone que possa usar seu número de telefone do Business Voice.
 
-Assista a um vídeo curto que fornece uma visão geral do Business Voice (2:13 minutos):
+Veja um vídeo curto que fornece uma visão geral do Business Voice (2:13 minutos):
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4C56M]
 
@@ -49,7 +49,7 @@ O Business Voice é ideal para você se sua organização tiver 300 ou menos pes
 - Microsoft 365 e Office 365 para o Governo G1 ou G3
 - Microsoft 365 Basic para entidades sem fins lucrativos
 - Microsoft 365 Standard para entidades sem fins lucrativos
-- Microsoft 365 e Office 365 E1 ou E3 para entidades sem fins lucrativos
+- Microsoft 365 e Office 365 E1 e E3 para entidades sem fins lucrativos
 
 O Business Voice está disponível em mais de 70 países/regiões. A permissão de configurar o Business Voice por conta própria, transferir números de telefone para o Microsoft 365 e gerenciar seus números de telefone no Microsoft 365 depende do país ou região no qual seu locatário Microsoft 365 está localizado. Para saber mais, confira a [Disponibilidade de países e regiões para o Business Voice](country-region-availability.md).
 
@@ -72,7 +72,7 @@ Ao adquirir o Business Voice, você obtém os seguintes recursos e muito mais:
         <td>As chamadas do seu país ou região são gratuitas. Planos internacionais e discagem gratuita também estão disponíveis. </td>
     </tr>
     <tr>
-        <td><b><a href="/microsoftteams/audio-conferencing-in-office-365">Audioconferência</a></b>
+        <td><b><a href="/microsoftteams/audio-conferencing-in-office-365">Conferência de Áudio</a></b>
         </td>
         <td>Permite hospedar chamadas em conferência com pessoas que não têm o Teams ou uma conexão com a Internet.
         </td>

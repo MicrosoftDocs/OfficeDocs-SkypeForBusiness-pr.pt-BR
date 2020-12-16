@@ -1,5 +1,5 @@
 ---
-title: Início rápido do administrador – Reuniões e eventos ao vivo no Microsoft Teams
+title: Início rápido do administrador – reuniões e eventos ao vivo no Microsoft Teams
 ms.reviewer: ''
 description: Um guia de início rápido para administradores obterem licenças, implementar e configurar reuniões online e eventos ao vivo no Microsoft Teams.
 ms.topic: article
@@ -26,12 +26,12 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 11/18/2020
 ms.locfileid: "49130622"
 ---
-# <a name="admin-quick-start---meetings-and-live-events-in-microsoft-teams"></a>Início rápido do administrador – Reuniões e eventos ao vivo no Microsoft Teams
+# <a name="admin-quick-start---meetings-and-live-events-in-microsoft-teams"></a>Início rápido do administrador – reuniões e eventos ao vivo no Microsoft Teams
 
 Há duas maneiras de se reunir no Microsoft Teams - reuniões e eventos ao vivo. Use este artigo para implementar e configurar rapidamente, reuniões e eventos ao vivo para a sua organização.
 
 > [!Note]
-> Para saber mais sobre configuração rápida de reuniões e eventos do Teams em diferentes plataformas, consulte [Recursos do Teams por plataforma](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3).
+> Para saber mais sobre configuração rápida de reuniões e eventos do Teams em diferentes plataformas, confira [recursos do Teams por plataforma](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3).
 
  - **Reuniões** no Teams incluem áudio, vídeo e compartilhamento de tela para até 300 pessoas. Elas são uma das principais maneiras de colaboração no Teams. E não é necessário ser membro de uma organização (ou até mesmo ter uma conta no Teams!) para participar de uma reunião no Teams - basta verificar no convite as instruções sobre como ingressar.
 

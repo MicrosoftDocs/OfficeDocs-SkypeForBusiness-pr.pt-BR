@@ -39,16 +39,16 @@ Veja aqui como obter relatórios para exibir o uso do Teams.
 
 Os relatórios de equipes no centro de administração do Microsoft Teams fornecem informações sobre como o Teams é usado em sua organização. Use os relatórios para obter uma perspectiva sobre o uso do Teams, atividades do usuário e uso de dispositivos em sua organização. 
 
-Para ver esses relatórios, você deve ser um administrador global do Microsoft 365 ou Office 365, administrador de serviço do Teams ou administrador do Skype for Business. Acesse o centro de administração do Microsoft Teams, na navegação à esquerda, selecione **Análises e relatórios** e, em **Relatório** , escolha o relatório que você deseja executar.
+Para ver esses relatórios, você deve ser um administrador global do Microsoft 365 ou Office 365, administrador de serviço do Teams ou administrador do Skype for Business. Acesse o centro de administração do Microsoft Teams, na navegação à esquerda, selecione **Análises e relatórios** e, em **Relatório**, escolha o relatório que você deseja executar.
 
-- **Relatório de uso do Teams** : este relatório fornece uma visão geral da atividade de uso no Teams, inclusive do total de usuários e canais ativos, e do número de usuários e canais ativos, convidados e mensagens em cada equipe. 
+- **Relatório de uso do Teams**: este relatório fornece uma visão geral da atividade de uso no Teams, inclusive do total de usuários e canais ativos, e do número de usuários e canais ativos, convidados e mensagens em cada equipe. 
 
     0![Captura de tela de um relatório de uso de equipes](media/teams-reports-teams-usage.png "Captura de tela do relatório de uso do Teams no centro de administração do Microsoft Teams")     
-- **Relatório de atividades do usuário no Teams** : este relatório fornece informações sobre os tipos de atividades com as quais os usuários se envolvem, como quantas pessoas se comunicam por chamadas particulares, mensagens do canal e mensagens de chat privadas. 
+- **Relatório de atividades do usuário no Teams**: este relatório fornece informações sobre os tipos de atividades com as quais os usuários se envolvem, como quantas pessoas se comunicam por chamadas particulares, mensagens do canal e mensagens de chat privadas. 
 
     ![Relatório de atividades do usuário do Microsoft Team](media/teams-reports-user-activity.png "Captura de tela do relatório de atividade do Teams no centro de administração do Microsoft Teams") 
 `
-- **Relatório de uso de dispositivos do Teams** : este relatório mostra como os usuários se conectam ao Teams, inclusive quantas pessoas usam o Teams em seus dispositivos móveis. 
+- **Relatório de uso de dispositivos do Teams**: este relatório mostra como os usuários se conectam ao Teams, inclusive quantas pessoas usam o Teams em seus dispositivos móveis. 
 
     ![Captura de tela do relatório de uso de dispositivos do Teams](media/teams-reports-device-usage.png "Captura de tela do relatório de uso de dispositivo do Teams no centro de administração do Microsoft Teams")
 
@@ -57,7 +57,7 @@ Para saber mais, confira [Análises e relatórios de equipes](teams-analytics-an
 ### <a name="teams-activity-reports-microsoft-365-admin-center"></a>Relatórios de atividades do Teams (centro de administração do Microsoft 365)
 Você também pode visualizar as atividades do Teams pelos relatórios disponíveis no centro de administração do Office 365. Estes relatórios fazem parte dos relatórios do Microsoft 365 no Centro de administração do Microsoft 365 e fornecem informações sobre a atividade do usuário e o uso do dispositivo. 
 
-Para ver esses relatórios, acesse o centro de administração do Office 365 e clique em **Relatórios** > **Uso**. Em **Selecionar um relatório** , clique em **Microsoft Teams**. Nele, escolha o relatório que você deseja visualizar.
+Para ver esses relatórios, acesse o centro de administração do Office 365 e clique em **Relatórios** > **Uso**. Em **Selecionar um relatório**, clique em **Microsoft Teams**. Nele, escolha o relatório que você deseja visualizar.
 
 Para saber mais, acesse [Usar relatórios de atividades no Teams](teams-activity-reports.md).
 

@@ -83,15 +83,15 @@ Cada equipe é diferente. Não há uma abordagem única para a colaboração. O 
 
 Ao decidir quais aplicativos e serviços do Microsoft 365 ou do  Office 365 usar, pense no trabalho de sua organização e nos tipos de conversas que as equipes precisam ter. 
 
-- O **Teams** , como o hub do trabalho em equipe, em que as pessoas, inclusive pessoas de fora da organização, podem se conectar e colaborar ativamente em tempo real para fazer as coisas. Tenha uma conversa exatamente onde o trabalho está acontecendo, ao criar um documento em coautoria, realizar uma reunião ou trabalhar em conjunto em outros aplicativos e serviços. O Microsoft Teams é o lugar ideal para ter conversas informais, iterar rapidamente em um projeto, trabalhar com arquivos de equipe e colaborar em entregas compartilhadas. 
+- O **Teams**, como o hub do trabalho em equipe, em que as pessoas, inclusive pessoas de fora da organização, podem se conectar e colaborar ativamente em tempo real para fazer as coisas. Tenha uma conversa exatamente onde o trabalho está acontecendo, ao criar um documento em coautoria, realizar uma reunião ou trabalhar em conjunto em outros aplicativos e serviços. O Microsoft Teams é o lugar ideal para ter conversas informais, iterar rapidamente em um projeto, trabalhar com arquivos de equipe e colaborar em entregas compartilhadas. 
 
-- O **Outlook** , para colaborar no ambiente familiar do email e de uma forma mais formal e estruturada ou quando é necessária a comunicação direcionada e direta.
+- O **Outlook**, para colaborar no ambiente familiar do email e de uma forma mais formal e estruturada ou quando é necessária a comunicação direcionada e direta.
 
 - O **SharePoint** para sites e portais, serviços de conteúdo inteligente, automação de processos empresariais e pesquisa empresarial O SharePoint mantém o conteúdo no centro do trabalho em equipe, tornando todos os tipos de conteúdo facilmente compartilháveis e acessíveis entre as equipes. A estreita integração com o Outlook, o Yammer e o Teams permite a colaboração perfeita de conteúdo em todas as experiências de conversa.
 
-- O **OneDrive for Business** , para armazenar arquivos e compartilhá-los com as pessoas que um usuário convidar. O conteúdo que um usuário salva no OneDrive for Business é privado até que o usuário o compartilhe com outras pessoas. Assim, ele é a melhor opção para armazenar documentos pessoais e de rascunho que não devem ser compartilhados ou não estão prontos para serem compartilhados.
+- O **OneDrive for Business**, para armazenar arquivos e compartilhá-los com as pessoas que um usuário convidar. O conteúdo que um usuário salva no OneDrive for Business é privado até que o usuário o compartilhe com outras pessoas. Assim, ele é a melhor opção para armazenar documentos pessoais e de rascunho que não devem ser compartilhados ou não estão prontos para serem compartilhados.
 
-- O **Yammer** , para conectar pessoas em toda a organização. Promova iniciativas em toda a empresa, compartilhe práticas recomendadas e crie comunidades relacionadas a tópicos de interesse ou áreas de prática em comum. Colabore em ideias para promover discussões abertas com pessoas de toda a empresa.
+- O **Yammer**, para conectar pessoas em toda a organização. Promova iniciativas em toda a empresa, compartilhe práticas recomendadas e crie comunidades relacionadas a tópicos de interesse ou áreas de prática em comum. Colabore em ideias para promover discussões abertas com pessoas de toda a empresa.
 
 - Os **aplicativos do Office** são todas as ferramentas familiares que as pessoas conhecem e usam regularmente, como o Word, o Excel, o PowerPoint e o OneNote. 
 
