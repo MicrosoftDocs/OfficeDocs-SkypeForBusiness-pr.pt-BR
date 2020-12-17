@@ -16,12 +16,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Notas de versão para recursos de administração do Microsoft Teams.
-ms.openlocfilehash: eb450d89df9ecf13f262c91db6fde8514448a29b
-ms.sourcegitcommit: 207e6aa97867e3fd80734cc839c0c5858bca24c8
+ms.openlocfilehash: bfb38f71546e4713a18e1bd504efa5ca8da51ad2
+ms.sourcegitcommit: 380a96f1ed2cefb429286854f06546bdb28d7d74
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "49477030"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "49701309"
 ---
 # <a name="release-notes-for-microsoft-teams-admin-features"></a>Notas de versão para recursos de administração do Microsoft Teams
 
@@ -31,7 +31,7 @@ Estas notas de versão fornecem informações sobre novos recursos de administra
 
 ### <a name="set-up-microsoft-teams-meeting-add-on-for-google-workspace"></a>Configurar o complemento de reunião do Microsoft Teams para o Google Workspace
 
-Usar o complemento de reunião do Microsoft Teams permite aos usuários do calendário do Google agendar e ingressar em uma reunião do Microsoft Teams diretamente do Google Workspace. Os usuários receberão acesso a recursos de reuniões de equipes, incluindo videoconferência e videoconferência, compartilhamento de tela, chat de reunião, quadros de comunicações digitais e muito mais. Mantenha-se conectado e organizado para se reunir mais juntos no trabalho, na escola e na vida.
+Usar o complemento de reunião do Microsoft Teams permite aos usuários do calendário do Google agendar e ingressar em uma reunião do Microsoft Teams diretamente do Google Workspace. Os usuários receberão acesso a recursos de reuniões do Teams, incluindo videoconferência e videoconferência, compartilhamento de tela, chat de reunião, quadros de desenho digital e muito mais. Mantenha-se conectado e organizado para se reunir mais juntos no trabalho, na escola e na vida.
 
 O suplemento de reunião do Microsoft Teams para Google Workspace deve ser habilitado por um administrador de equipe antes que os usuários do locatário possam acessar o aplicativo. [Saiba mais](https://docs.microsoft.com/microsoftteams/add-gsuite-thru-aad).
 
@@ -103,7 +103,7 @@ Recentemente, adicionamos suporte ao plano de chamadas para Áustria, Dinamarca,
 
 ## <a name="september-29-2020"></a>29 de setembro de 2020
 
-### <a name="meeting-policy-settings"></a>Configurações da política de reunião
+### <a name="meeting-policy-settings"></a>Configurações de política de reunião
 
 Adicionar duas configurações de política para áudio IP e vídeo IP nas políticas de reuniões do teams: modo para áudio IP e modo para vídeo IP. Agora você pode definir áudio IP de entrada e saída e vídeo IP nas políticas de reunião do teams. [Saiba mais](../meeting-policies-in-teams.md#meeting-policy-settings---audio--video).
 
@@ -363,7 +363,7 @@ Além do Team Analytics, agora você também pode ver as métricas e as ideias d
 
 ### <a name="enable-organizers-to-change-lobby-settings-for-dial-in-participants"></a>Permitir que os organizadores alterem as configurações de lobby para participantes de discagem
 
-Esta configuração controla se as pessoas que discam por telefone entram diretamente na reunião ou esperam no lobby, independentemente da configuração de usuário **admitir pessoas automaticamente** .
+Essa configuração controla se as pessoas que se conectam por telefone ingressam diretamente na reunião ou esperam o lobby, independentemente da configuração **Aceitar pessoas automaticamente**.
 
 ## <a name="april-8-2020"></a>8 de abril de 2020
 

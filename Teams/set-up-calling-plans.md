@@ -11,6 +11,8 @@ ms.service: msteams
 search.appverid: MET150
 ms.collection:
 - M365-voice
+- m365solution-voice
+- m365solution-scenario
 audience: Admin
 appliesto:
 - Skype for Business
@@ -23,12 +25,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-mar2020
 description: Saiba como configurar planos de chamada, incluindo os planos de exibição disponíveis em sua região, comprar & atribuir licenças, obter números de telefone e adicionar endereços de emergência & locais.
-ms.openlocfilehash: 775ebf8d1fae6439b9a2e7249eb0238e48b11a4c
-ms.sourcegitcommit: d1e4e1105d86745009cf0fdf42d1fc5ad545a952
+ms.openlocfilehash: 9e4e48bc2d9efcc0ff4cb1891949de4add6f559d
+ms.sourcegitcommit: 380a96f1ed2cefb429286854f06546bdb28d7d74
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "46788445"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "49701319"
 ---
 # <a name="set-up-calling-plans"></a>Configurar Planos de Chamadas
 
@@ -57,12 +59,12 @@ Há três maneiras de obter novos números de usuário:
 - **Usar um formulário de solicitação para novos números.** Às vezes (dependendo do seu país/região) você não poderá obter seus novos números de telefone usando o centro de administração do teams ou será necessário números de telefone ou códigos de área específicos. Nesse caso, você precisará fazer o download de um formulário e enviá-lo de volta para nós. Para obter mais informações, consulte [Gerenciar os números de telefone de sua organização](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md). 
 
 ## <a name="step-4-add-emergency-addresses-and-locations-for-your-organization"></a>Etapa 4: adicionar endereços e locais de emergência para sua organização
-<a name="bkmk_add_addresses"> </a> Um endereço de emergência deve estar associado a um número de telefone. Quando essa associação acontece pode variar entre país e regiões. Por exemplo, nos Estados Unidos, você precisa associar um endereço de emergência quando atribui o número de telefone para o usuário. No Reino Unido, você precisa associar um endereço de emergência ao número de telefone quando receber os números de telefone do Microsoft 365 ou do Office 365 ou ao transferir números de telefone de seu provedor de serviços atual. 
+<a name="bkmk_add_addresses"></a> Um endereço de emergência deve estar associado a um número de telefone. Quando essa associação acontece pode variar entre país e regiões. Por exemplo, nos Estados Unidos, você precisa associar um endereço de emergência quando atribui o número de telefone para o usuário. No Reino Unido, você precisa associar um endereço de emergência ao número de telefone quando receber os números de telefone do Microsoft 365 ou do Office 365 ou ao transferir números de telefone de seu provedor de serviços atual. 
 
 Para obter informações sobre chamadas de emergência e gerenciamento de endereços de emergência, consulte [gerenciar chamadas de emergência](what-are-emergency-locations-addresses-and-call-routing.md) e [Adicionar, alterar ou remover um local de emergência para sua organização](add-change-remove-emergency-location-organization.md).
     
 ## <a name="step-5-assign-an-emergency-address-and-a-phone-number-to-a-user"></a>Etapa 5: atribuir um endereço de emergência e um número de telefone a um usuário
-<a name="bkmk_add_addresses"> </a> Ao configurar planos de chamada no Office 365, você deve atribuir um número de telefone e um endereço de emergência para cada um dos seus usuários. O endereço de emergência deve ser criado antes de atribuir um número de telefone a um usuário.  Para obter mais informações, consulte [atribuir ou alterar um endereço de emergência](assign-change-emergency-location-user.md).
+<a name="bkmk_add_addresses"></a> Ao configurar planos de chamada no Office 365, você deve atribuir um número de telefone e um endereço de emergência para cada um dos seus usuários. O endereço de emergência deve ser criado antes de atribuir um número de telefone a um usuário.  Para obter mais informações, consulte [atribuir ou alterar um endereço de emergência](assign-change-emergency-location-user.md).
 
 
 > [!TIP]

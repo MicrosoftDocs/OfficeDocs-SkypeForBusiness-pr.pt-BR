@@ -9,6 +9,7 @@ ms.service: msteams
 audience: admin
 ms.collection:
 - M365-voice
+- m365solution-voice
 ms.reviewer: jowrig
 search.appverid: MET150
 f1.keywords:
@@ -16,12 +17,12 @@ f1.keywords:
 description: Estudo de caso de voz do teams para Multi-National Corporation
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 100889bacffdb9de722bd2e1e7295905876dab2e
-ms.sourcegitcommit: af15d99837a389b6b26952211e65cd68c4b7f46e
+ms.openlocfilehash: 3a964075dfae514759309a81a7d7140cddd10220
+ms.sourcegitcommit: 380a96f1ed2cefb429286854f06546bdb28d7d74
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/18/2020
-ms.locfileid: "44785941"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "49701219"
 ---
 # <a name="contoso-case-study-teams-voice-migration-overview"></a>Estudo de caso da Contoso: visão geral da migração de voz do teams
 
@@ -66,7 +67,7 @@ Para migrar seus usuários locais para o Microsoft Teams para comunicação unif
 
 - Roteamento com Base no Local 
 
-  Com os locais do Office em países regulamentados pela telefonia, a contoso precisou recriar o roteamento baseado em localização que estava presente no Skype for Business em sua implantação de sistema telefônico. Para obter mais informações, consulte [estudo de caso da Contoso: roteamento baseado em localização](voice-case-study-location-based-routing.md).
+  Com os locais do Office em países regulamentados pela telefonia, a contoso precisou recriar o roteamento Location-Based que estava presente no Skype for Business em sua implantação de sistema telefônico. Para obter mais informações, consulte [estudo de caso da Contoso: Location-Based roteamento](voice-case-study-location-based-routing.md).
 
 - Chamadas de emergência 
 

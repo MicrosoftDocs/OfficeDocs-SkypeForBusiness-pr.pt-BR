@@ -24,12 +24,12 @@ ms.custom:
 - ms.lync.lac.CpcGettingStarted
 - seo-marvel-mar2020
 description: 'Veja como experimentar ou comprar licenças de conferência PSTN (conferência PSTN) para o Microsoft 365 ou o Office 365 para configurar as chamadas em conferência nas quais as pessoas podem discar. '
-ms.openlocfilehash: 8f2aa7d8fdbf6c3088c483e4d5f941625e2a8da8
-ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
+ms.openlocfilehash: 547e60b828c7baa36b21b8ad63ae08268c33d4dc
+ms.sourcegitcommit: 380a96f1ed2cefb429286854f06546bdb28d7d74
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49031267"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "49701199"
 ---
 # <a name="try-or-purchase-audio-conferencing-in-microsoft-365-for-microsoft-teams"></a>Experimentar ou comprar videoconferências no Microsoft 365 para Microsoft Teams
 
@@ -51,7 +51,7 @@ Você deve ser um [administrador global ou administrador de cobrança](https://s
 
    - **Experimente** antes de comprá-lo: você pode se inscrever para uma avaliação gratuita do Office 365 Enterprise E5 que inclui videoconferência. Confira a [Avaliação do Office 365 Enterprise E5](https://portal.office.com/Signup?OfferId=101bde18-5ffb-4d79-a47b-f5b2c62525b3).
 
-   - **Comprar** : consulte [licenciamento de Complementos do Microsoft Teams] https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing) .
+   - **Comprar**: consulte [Licenciamento do complemento do Microsoft Teams](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing).
 
 3. [Atribua licenças a usuários](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users) em sua organização que agendarão ou conduzirão reuniões.
 
@@ -83,7 +83,7 @@ Se você tiver usuários habilitados com um provedor de serviços de audioconfer
 
 ## <a name="step-3-other-admin-tasks"></a>Etapa 3: Outras tarefas de administração
 
-As etapas a seguir são **opcionais** , mas muitos administradores gostam de segui-las:
+As etapas a seguir são **opcionais**, mas muitos administradores gostam de segui-las:
 
 1. [Personalizar convites de reunião](/skypeforbusiness/set-up-skype-for-business-online/customize-meeting-invitations). Os números de discagem definidos para o usuário serão automaticamente adicionados aos convites de reunião enviados aos participantes. No entanto, você pode adicionar seus próprios links de ajuda e informações jurídicas, uma mensagem de texto e um pequeno gráfico da empresa.
 

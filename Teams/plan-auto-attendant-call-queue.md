@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Saiba mais sobre atendedores automáticos e filas de chamadas e como usá-los para ajudar os chamadores a percorrer um sistema de menu para alcançar pessoas ou departamentos em sua organização.
-ms.openlocfilehash: 4eaad11841007176a1840ea0d789fa1496f10df4
-ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
+ms.openlocfilehash: f53beb7b084a003b1c6ca363708d5df89d73f302
+ms.sourcegitcommit: ce9460934cf469969502298a76a9ce3e7866ceb1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49031557"
+ms.lasthandoff: 12/16/2020
+ms.locfileid: "49697900"
 ---
 # <a name="plan-for-teams-auto-attendants-and-call-queues"></a>Planejar os atendedores automáticos e as filas de chamadas do teams
 
@@ -55,7 +55,7 @@ Os chamadores podem alcançar um atendedor automático por número de telefone d
 
 ## <a name="call-queues"></a>Filas de chamadas
 
-Uma fila de chamadas é análoga a uma sala de espera em um prédio físico. Os chamadores aguardam em espera enquanto as chamadas são roteadas para os agentes na fila à medida que se tornam disponíveis. As filas de chamadas são geralmente usadas para vendas e funções de serviço. No entanto, as filas de chamadas podem ser usadas para qualquer situação em que o número de chamadas excede sua capacidade interna, como uma recepcionista em um recurso ocupado.
+Uma fila de chamadas é análoga a uma sala de espera em um prédio físico. Os chamadores aguardam em espera enquanto as chamadas são roteadas para os agentes na fila. As filas de chamadas são geralmente usadas para vendas e funções de serviço. No entanto, as filas de chamadas podem ser usadas para qualquer situação em que o número de chamadas excede sua capacidade interna, como uma recepcionista em um recurso ocupado.
 
 As filas de chamadas permitem um roteamento específico de chamadas em casos onde o número total de chamadores na fila ou o tempo de espera excede os limites que você especificar. As chamadas podem ser roteadas para pessoas específicas, correio de voz, outras filas de chamadas ou atendedores automáticos.
 
