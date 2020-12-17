@@ -31,5 +31,5 @@
           href: ../hybrid/cloud-consolidation-edge-certificates.md
         - name: Atualizar o AAD Connect para incluir mais de uma floresta
           href: ../hybrid/cloud-consolidation-aad-connect.md
-    - name: Integracão com o Exchange e o SharePoint
+    - name: Integracão com o Exchange e o Microsoft Office SharePoint Online
       href: ../../SfbServer/skype-for-business-hybrid-solutions/integration-with-exchange-and-sharepoint.md
