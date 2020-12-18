@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
 description: Saiba como o roteamento direto do Microsoft Phone System permite conectar um controlador de borda de sessão (SBC) compatível fornecido pelo cliente a um sistema telefônico da Microsoft.
-ms.openlocfilehash: 7fece1a84870360afa12c841a2c6c232cba77bf5
-ms.sourcegitcommit: 7966991c398cd80f6bd0bb21e57a6b2a97c09ea9
+ms.openlocfilehash: 0256078cd641c437d067bea9eb63861abcf5868e
+ms.sourcegitcommit: 28e65b7a11c6afb5f791744b3f9780a024c4dc79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/18/2020
-ms.locfileid: "49130632"
+ms.lasthandoff: 12/18/2020
+ms.locfileid: "49712319"
 ---
 # <a name="plan-direct-routing"></a>Planejar o Roteamento Direto
 
@@ -159,7 +159,7 @@ A Microsoft recomenda que você solicite o certificado do SBC gerando uma solici
   > [!NOTE]
   > A maioria das autoridades de certificação (CAs) exige que o tamanho da chave privada seja de pelo menos 2048. Tenha isso em mente ao gerar o CSR.
 
-O certificado precisa ter o FQDN do SBC como o nome comum (CN) no campo assunto.
+O certificado precisa ter o FQDN do SBC como o nome comum (CN) no campo assunto. O certificado deve ser emitido diretamente de uma autoridade de certificação, não de um provedor intermediário.
 
 Como alternativa, o roteamento direto dá suporte a um caractere curinga na SAN e o caractere curinga precisa estar de acordo com o [http padrão RFC em TLS](https://tools.ietf.org/html/rfc2818#section-3.1). Um exemplo seria usar \* . contoso.com na San, que corresponderia ao FQDN FQDN SBC.contoso.com, mas não corresponde ao SBC.Test.contoso.com.
 

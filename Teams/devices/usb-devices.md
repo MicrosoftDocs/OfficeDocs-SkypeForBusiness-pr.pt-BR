@@ -15,12 +15,12 @@ localization_priority: Normal
 f1.keywords:
 - NOCSH
 description: Veja quais periféricos e dispositivos USB, como fones de ouvido com microfone, telefones-voz, webcams e monitores, são certificados para o Microsoft Teams.
-ms.openlocfilehash: 94cad46104cd3c9c225abeac673d9ad17130b801
-ms.sourcegitcommit: 619b68d28b4fbf8b5296d95bbc7ed566f839f1db
+ms.openlocfilehash: de4d0a071e0a50408c0c391eebde56fdc6f414df
+ms.sourcegitcommit: 28e65b7a11c6afb5f791744b3f9780a024c4dc79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "48625097"
+ms.lasthandoff: 12/18/2020
+ms.locfileid: "49712299"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>Dispositivos de áudio e vídeo USB certificados para o Microsoft Teams
 
@@ -74,10 +74,11 @@ Se você for um fabricante e quiser participar do programa de certificação, co
 
 ## <a name="certified-devices"></a>Dispositivos certificados
 
-*Tabela atualizada em outubro de 2020*
+*Tabela atualizada em dezembro de 2020*
 
 | Fabricante        | Modelo                                                     | Qualificação      | Programa certificado                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
+|Jabra                |Desenvolvimento de fone de ouvido com microfone 65t                                         |10/31/2020      |Skype for Business com atualização para o Microsoft Teams      |
 |EPOS/Sennheiser      |MB pro 1                                                   |10/2/2020       |Skype for Business com atualização para o Microsoft Teams      |
 |EPOS/Sennheiser      |MB Pro 2                                                   |10/2/2020       |Skype for Business com atualização para o Microsoft Teams      |
 |Jabra                |Desenvolvimento de fone de ouvido com microfone 80                                          |8/23/2020       |Skype for Business com atualização para o Microsoft Teams      |

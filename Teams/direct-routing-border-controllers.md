@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: O administrador pode saber qual controlador de borda de sessão (SBCs) foi certificado para roteamento direto.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 1637d71269cdacc4e48de98f210a4c6ce4c56c13
-ms.sourcegitcommit: 3eb5820b279fc904f34ac4259deeb419e02d832a
+ms.openlocfilehash: ef74ecae93602939e0cdd902b1599ef79c5303c9
+ms.sourcegitcommit: 28e65b7a11c6afb5f791744b3f9780a024c4dc79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "49561037"
+ms.lasthandoff: 12/18/2020
+ms.locfileid: "49712289"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>Lista de controladores de borda da sessão certificados para Roteamento Direto
 
@@ -81,6 +81,7 @@ A tabela a seguir lista os dispositivos certificados para Roteamento Direto. (Pa
 |                     [Nokia](https://documentation.nokia.com/aces/cgi-bin/chk_access.cgi/3TB30222GBAAACZZA.zip)|    Controlador de borda de sessão Nokia    |     &#10004;     |           |       19,5 (1908)       |     |    | 
 |                     [Italtel](https://www.italtel.com/)|    Netmatch-S CI     |     &#10004;     |           |       5,0       |     |    | 
 |                     [Ericsson](https://www.ericsson.com/en/portfolio/digital-services/cloud-communication/enterprise-communication/business-communication-services-and-enablers/sip-trunking)|    vSBC 2,16     |     &#10004;     |           |              |     |    | 
+|                     [Cataleya](https://cataleya.com/orchidplatforms/)|    Link orquídea    |     &#10004;     |           |      3,1        |     |    | 
 
 <br/>
 <br/>

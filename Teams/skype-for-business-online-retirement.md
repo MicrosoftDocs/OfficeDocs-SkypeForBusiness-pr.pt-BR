@@ -18,12 +18,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 8ecaae0e179423fdbcdbebcb3da6f6f0a25594b6
-ms.sourcegitcommit: 1e16c6c7112bdde03209c12468b5705ddd116a62
+ms.openlocfilehash: e9d2540fdcd7db51ad982933f9732dab49f8716e
+ms.sourcegitcommit: 28e65b7a11c6afb5f791744b3f9780a024c4dc79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "49578484"
+ms.lasthandoff: 12/18/2020
+ms.locfileid: "49712309"
 ---
 # <a name="skype-for-business-online-retirement"></a>Desativação do Skype for Business Online
 
@@ -48,7 +48,7 @@ O Microsoft Teams está disponível na maioria dos planos para empresas e empres
 
 O serviço de consumidor do Skype e o Skype for Business Server não são afetados pela descontinuação do Skype for Business online.
 
-[Leia as perguntas frequentes](faq-journey.md) sobre o processo de atualização para o Teams e o roteiro de recursos do teams.
+[Leia as perguntas frequentes](FAQ-journey.yml) sobre o processo de atualização para o Teams e o roteiro de recursos do teams.
 
 ## <a name="what-is-microsoft-doing-to-help-customers-transition-to-teams"></a>O que a Microsoft está fazendo para ajudar os clientes a migrar para o Microsoft Teams?
 
