@@ -506,7 +506,7 @@
               href: aa-cq-cqd-historical-reports.md
             - name: Referência de voz e discagem
               href: dial-voice-reference.md
-            - name: Reporting
+            - name: Relatório
               href: aa-cq-cqd-historical-reports.md
         - name: Bloquear chamadas de entrada
           href: block-inbound-calls.md
@@ -974,7 +974,7 @@
     - name: Desativação do Skype for Business Online
       href: skype-for-business-online-retirement.md
     - name: Perguntas frequentes
-      href: FAQ-journey.md
+      href: FAQ-journey.yml
     - name: Biblioteca técnica
       items:
         - name: Diretrizes de atualização para os administradores de TI
@@ -1035,7 +1035,7 @@
           href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/cloud-consolidation-edge-certificates'
         - name: Atualizar o AAD Connect para incluir mais de uma floresta
           href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/cloud-consolidation-aad-connect'
-    - name: Integração com o Exchange e o SharePoint
+    - name: Integracão com o Exchange e o Microsoft Office SharePoint Online
       href: 'https://docs.microsoft.com/SkypeForBusiness/skype-for-business-hybrid-solutions/integration-with-exchange-and-sharepoint'
 - name: Microsoft 365 Business Voice
   items:
@@ -1217,7 +1217,7 @@
           href: teams-sentinel-guide.md
         - name: Modelos de identidade e autenticação
           href: identify-models-authentication.md
-        - name: Entrar no Microsoft Teams
+        - name: Faça logon no Microsoft Teams
           href: sign-in-teams.md
         - name: Links seguros no Teams
           href: 'https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-links-for-teams?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json'
@@ -1379,7 +1379,7 @@
           href: teams-client-update.md
         - name: Solucionar problemas de instalação e atualização
           href: troubleshoot-installation.md
-    - name: Licenças
+    - name: Licenciamento
       items:
         - name: Gerenciamento do acesso de usuários ao Teams
           href: user-access.md
