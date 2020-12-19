@@ -24,12 +24,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: Aprenda a gerenciar as configurações das políticas de reunião no Teams e a usá-las para controlar os recursos disponíveis para os participantes da reunião nas reuniões agendadas pelos usuários.
-ms.openlocfilehash: 406a2e42a73b8bb92f3b6036de63177f4b81a434
-ms.sourcegitcommit: 4386f4b89331112e0d54943dc3133791d5dca3fb
-ms.translationtype: HT
+ms.openlocfilehash: ea10c06229374a7eed5f0427f6f12e9531b038c7
+ms.sourcegitcommit: 9c1f3a72fb166b49a4b68bcdb9a2868bf86ca680
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/09/2020
-ms.locfileid: "49611775"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "49718625"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Gerenciar políticas de reunião no Teams
 
@@ -117,9 +117,9 @@ Ao selecionar uma política existente na página de **Políticas de reunião** o
 
 ### <a name="allow-meet-now-in-channels"></a>Permitir Reunir agora nos canais
 
-Permitir que o **Reunir Agora** seja uma política por usuário e se aplicar antes de começar uma reunião. Essa configuração controla se um usuário pode iniciar uma reunião não planejada em um canal do Teams. Se você habilitar essa configuração, os usuários podem selecionar o botão **Reunir** para iniciar uma reunião não planejada ou agendar uma reunião no canal. O valor padrão é True.
+Permitir que o **Reunir Agora** seja uma política por usuário e se aplicar antes de começar uma reunião. Essa configuração controla se um usuário pode iniciar uma reunião não planejada em um canal do Teams. Se você habilitar essa configuração, os usuários poderão selecionar o botão **reunir** para iniciar uma reunião não planejada ou agendar uma reunião no canal. O valor padrão é True.
 
-![Captura de tela mostrando o ícone Reunir Agora abaixo de uma mensagem](media/meeting-policies-meet-now.png) 
+![Captura de tela mostrando o ícone Reunir Agora abaixo de uma mensagem](media/meeting-policies-meet-now.png)
 
 ### <a name="allow-the-outlook-add-in"></a>Permitir o suplemento do Outlook
 
@@ -359,7 +359,7 @@ Se essa configuração estiver ativada para o usuário, a opção **Atribuir con
 
 ![Captura de tela mostrando a opção Conceder controle](media/meeting-policies-give-control.png)
 
-Se as configurações estiverem desabilitadas para o usuário, a opção **Conceder controle** não estará disponível.
+Se a configuração estiver desativada para o usuário, a opção **conceder controle** não estará disponível.
 
 ![Captura de tela mostrando que a opção Conceder controle não está disponível](media/meeting-policies-give-control-not-available.png)
 
@@ -455,7 +455,7 @@ Esta é uma política por organizador. Essa configuração controla se as pessoa
 
 ![Captura de tela mostrando uma reunião com um usuário no lobby](media/meeting-policies-lobby.png)
 
- Os organizadores de reuniões podem clicar em **Opções de reunião** no convite da reunião para alterar essa configuração para todas as reuniões agendadas.
+ Os organizadores da reunião podem selecionar **Opções de reunião** no convite da reunião para alterar essa configuração para cada reunião agendada.
 
 > [!NOTE]
 > Nas opções de reunião, a configuração é rotulada como "Quem pode ignorar o lobby". Se você alterar a configuração padrão para qualquer usuário, ela será aplicada a todas as novas reuniões organizadas por esse usuário e a qualquer reunião anterior em que o usuário não tiver modificado as Opções de reunião.
@@ -469,7 +469,7 @@ Esta é uma política por organizador. Essa configuração controla se as pessoa
 
 ### <a name="allow-dial-in-users-to-bypass-the-lobby"></a>Permitir que os usuários de acesso telefônico ignorem o lobby
 
-Esta é uma política por organizador. Essa configuração controla se as pessoas que se conectam por telefone ingressam diretamente na reunião ou esperam o lobby, independentemente da configuração **Aceitar pessoas automaticamente**. Por padrão, essa configuração é desabilitada. Quando essa configuração estiver desativada, os usuários de acesso telefônico aguardarão no lobby até que um usuário da organização ingresse na reunião com um cliente do Teams e os admita. Quando essa configuração é ativada, os usuários de acesso telefônico ingressam automaticamente na reunião quando um usuário da organização ingressa na reunião.
+Esta é uma política por organizador. Essa configuração controla se as pessoas que se conectam por telefone ingressam diretamente na reunião ou esperam o lobby, independentemente da configuração **Aceitar pessoas automaticamente**. Por padrão, essa configuração é desabilitada. Quando essa configuração estiver desativada, os usuários de discagem aguardarão no lobby até que o usuário da organização ingresse na reunião com um cliente do Teams e os admite. Quando essa configuração é ativada, os usuários de acesso telefônico ingressam automaticamente na reunião quando um usuário da organização ingressa na reunião.
 
 > [!NOTE]
 > Se um usuário de acesso telefônico participar de uma reunião antes de um usuário da organização ingressar na reunião, ele será colocado no lobby até que um usuário da organização ingresse na reunião usando um cliente de equipes e o admita. Se você alterar a configuração padrão para qualquer usuário, ela será aplicada a todas as novas reuniões organizadas por esse usuário e a qualquer reunião anterior em que o usuário não tiver modificado as Opções de reunião.

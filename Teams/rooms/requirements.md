@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 description: Saiba mais sobre os requisitos de suporte a salas do Microsoft Teams, incluindo a escolha do dispositivo apropriado, microfones, alto-falantes, câmeras e monitores.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 1a8835a2e644e491be2e271a5c60612c3c29b1e0
-ms.sourcegitcommit: 07afc959fec802db583e7111280d0035fdb6e412
+ms.openlocfilehash: 125c53690e8793ed48a66ffb8f4b3842541997e6
+ms.sourcegitcommit: 9c1f3a72fb166b49a4b68bcdb9a2868bf86ca680
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "49616895"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "49718615"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Requisitos das Salas Microsoft Teams
 
@@ -121,6 +121,7 @@ Esses dispositivos estão disponíveis na [Mostruário de produtos de acessório
 |[Logitech Group ](https://www.logitech.com/product/conferencecam-group)   |8.5.778   |
 |[Logitech PTZ pro](https://www.logitech.com/product/conferencecam-ptz-pro)   | 1.1.219   |
 |[Logitech PTZ Pro 2](https://www.logitech.com/product/conferencecam-ptz-pro2)   |
+|[Nureva HDL300](https://www.nureva.com/audio-conferencing/hdl300) |2.3.6|
 |[Câmera Poly Eagle Eye Cube](https://www.polycom.com/products-services/hd-telepresence-video-conferencing/realpresence-accessories/eagleeye-cameras.html)  |1.2.0 |
 |[Polycom EagleEye IV](https://www.poly.com/us/en/products/video-conferencing/eagleeye/eagleeye-iv)   |1.0.0   |
 |[Polycom CX5100](https://www.polycom.com/products-services/products-for-microsoft/lync-optimized/cx5100-unified-conference-station.mdl)   | 1.2.0.70232   |
@@ -131,7 +132,7 @@ Esses dispositivos estão disponíveis na [Mostruário de produtos de acessório
 |[EPOS SP20](https://www.eposaudio.com/en/us/enterprise/products/sp-20-ml-142ee5ca-speakerphone-1000226)   |1.2.15   |
 |[EPOS SP30](https://www.eposaudio.com/en/us/enterprise/products/sp-30-78c0cecc-bluetooth-speakerphone-1000223)   |2.1.52  |
 |[EPOS SP30T](https://www.eposaudio.com/en/us/enterprise/products/sp-30t-b949fe9a-bluetooth-speakerphone-1000225)  |3.2.63  |
-|[EPOS expandir 80T](https://www.avnetwork.com/news/epos-expand-speakerphone-certified-for-microsoft-teams) |4.4.6|
+|[EPOS expande 80T + 2 extensão duais](https://www.eposaudio.com/en/us/enterprise/products/expand-80t-bluetooth-speakerphone-1000203) |Viva-voz — 4.6.55 <br/> MIC de extensão — 0.2.314|
 |[Jabra 510](http://www.jabra.com/support/Jabra-SPEAK&trade;-510_7510-209)   |2.10.0   |
 |[Jabra 710](http://www.jabra.com/business/speakerphones/jabra-speak-series/jabra-speak-710)   |1.8.0   |
 |[Jabra 810](http://www.jabra.com/supportpages/jabra-speak-810)   |1.2.23   |
@@ -149,8 +150,8 @@ Esses dispositivos estão disponíveis na [Mostruário de produtos de acessório
 |[Bose ControlSpace EX-440C DSP + </br> Bose P2600A AmpLink amplificador + Sennheiser TCC2 teto microfone + </br> Bose DesignMax DM2C-P alto-falante teto](https://pro.bose.com/en_us/solutions/bose-work/es1-ceiling-audio-solution.html)|  Bose DSP: 2,290  </br> P2600A: 1,160  </br> TCC2:1.4.2  |  |
 |[DSP Bose ControlSpace EX-1280C](https://pro.bose.com/en_us/products/signal_processing_and_networking/controlspace_ex/cs_ex_1280c.html#v=cs_ex_1280c_black) +</br>Bose P2600A AmpLink amplificador +</br> [Microfone Sennheiser TCC2 teto](https://pro.bose.com/en_us/solutions/bose-work/es1-ceiling-audio-solution.html) +</br> [Alto-falante teto DesignMax DM2C-LP](https://pro.bose.com/en_us/products/loudspeakers/background_foreground/designmax/designmax_dm2c_lp.html#v=designmax_dm2c_lp_black) | Bose DSP: 2,290  </br> P2600A: 1,160  </br> TCC2:1.4.2  | 
 |[DSP Bose ControlSpace EX-1280C](https://pro.bose.com/en_us/products/signal_processing_and_networking/controlspace_ex/cs_ex_1280c.html#v=cs_ex_1280c_black) +</br>Bose P2600A AmpLink amplificador +</br> [Microfone Sennheiser TCC2 teto](https://pro.bose.com/en_us/solutions/bose-work/es1-ceiling-audio-solution.html) +</br> [Alto-falante teto EM180 EdgeMax](https://pro.bose.com/en_us/products/loudspeakers/background_foreground/edgemax/edgemax_em180.html#v=edgemax_em180_white) | Bose DSP: 2,290  </br> P2600A: 1,160  </br> TCC2:1.4.2  |
-|[QSC Q-SYS Core 110F](https://www.qsc.com/systems/products/q-sys-ecosystem/products-peripherals-accessories/q-sys-cores/core-110f/) +</br> [Microfone Sennheiser TCC2 teto]() +</br> [Amplificador de QSC EnergyStar de SPA2-60](https://www.qsc.com/systems/products/power-amplifiers/energystar-amplifiers/spa-series/spa2-60/) +</br> [Switch de rede série c-SYS NS-1108P](https://www.qsc.com/systems/products/q-sys-ecosystem/products-peripherals-accessories/network-switches/q-sys-ns-series-network-switches/) + </br> [Alto-falantes de montagem de superfície de coluna QSC de S402T](https://www.qsc.com/systems/products/loudspeakers/column-surface-mount-loudspeakers/acousticdesigntm-series-column-surface-mount/ad-s402t/) |Designer de Q-sys: 8.4.0 </br> <br> TCC2 : 1.5.1 Dante 1.2.0 </br>  <br> Não disponível </br>  <br>N1100v6.4.2.8 </br> Não disponível|
-|[QSC Q-SYS Core 110F](https://www.qsc.com/systems/products/q-sys-ecosystem/products-peripherals-accessories/q-sys-cores/core-110f/) +</br> [Microfone Sennheiser TCC2 teto]() +</br> [Amplificador de QSC EnergyStar de SPA2-60](https://www.qsc.com/systems/products/power-amplifiers/energystar-amplifiers/spa-series/spa2-60/) +</br> [Switch de rede série c-SYS NS-1108P](https://www.qsc.com/systems/products/q-sys-ecosystem/products-peripherals-accessories/network-switches/q-sys-ns-series-network-switches/) + </br> [Alto-falantes de montagem de superfície de coluna QSC AD-C6T-LP](https://www.qsc.com/systems/products/loudspeakers/ceiling-mount-loudspeakers/acousticdesigntm-series-ceiling-mount/ad-c6t-lp/?L=) |Designer de Q-sys: 8.4.0 </br> <br> TCC2 : 1.5.1 Dante 1.2.0 </br>  <br> Não disponível </br>  <br>N1100v6.4.2.8 </br> Não disponível|
+|[QSC Q-SYS Core 110F](https://www.qsc.com/systems/products/q-sys-ecosystem/products-peripherals-accessories/q-sys-cores/core-110f/) +</br> [Microfone Sennheiser TCC2 teto]() +</br> [Amplificador de QSC EnergyStar de SPA2-60](https://www.qsc.com/systems/products/power-amplifiers/energystar-amplifiers/spa-series/spa2-60/) +</br> [Switch de rede série c-SYS NS-1108P](https://www.qsc.com/systems/products/q-sys-ecosystem/products-peripherals-accessories/network-switches/q-sys-ns-series-network-switches/) + </br> [Alto-falantes de montagem de superfície de coluna QSC de S402T](https://www.qsc.com/systems/products/loudspeakers/column-surface-mount-loudspeakers/acousticdesigntm-series-column-surface-mount/ad-s402t/) |Designer de Q-sys: 8.4.0 </br> <br> TCC2 : 1.5.1 Dante 1.2.0 </br>  <br> N/D </br>  <br>N1100v6.4.2.8 </br> N/D|
+|[QSC Q-SYS Core 110F](https://www.qsc.com/systems/products/q-sys-ecosystem/products-peripherals-accessories/q-sys-cores/core-110f/) +</br> [Microfone Sennheiser TCC2 teto]() +</br> [Amplificador de QSC EnergyStar de SPA2-60](https://www.qsc.com/systems/products/power-amplifiers/energystar-amplifiers/spa-series/spa2-60/) +</br> [Switch de rede série c-SYS NS-1108P](https://www.qsc.com/systems/products/q-sys-ecosystem/products-peripherals-accessories/network-switches/q-sys-ns-series-network-switches/) + </br> [Alto-falantes de montagem de superfície de coluna QSC AD-C6T-LP](https://www.qsc.com/systems/products/loudspeakers/ceiling-mount-loudspeakers/acousticdesigntm-series-ceiling-mount/ad-c6t-lp/?L=) |Designer de Q-sys: 8.4.0 </br> <br> TCC2 : 1.5.1 Dante 1.2.0 </br>  <br> N/D </br>  <br>N1100v6.4.2.8 </br> N/D|
 
 
 &Dagger; Os clientes podem escolher a interface Dante ou a opção de rede recomendada por Biamp/Sennheiser para esse pacote.

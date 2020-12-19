@@ -15,12 +15,12 @@ localization_priority: Normal
 f1.keywords:
 - NOCSH
 description: Veja quais periféricos e dispositivos USB, como fones de ouvido com microfone, telefones-voz, webcams e monitores, são certificados para o Microsoft Teams.
-ms.openlocfilehash: de4d0a071e0a50408c0c391eebde56fdc6f414df
-ms.sourcegitcommit: 28e65b7a11c6afb5f791744b3f9780a024c4dc79
+ms.openlocfilehash: 75e9b8e901114d41d3e10bd00b0b81a4b4a2a2e8
+ms.sourcegitcommit: 9c1f3a72fb166b49a4b68bcdb9a2868bf86ca680
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/18/2020
-ms.locfileid: "49712299"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "49718575"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>Dispositivos de áudio e vídeo USB certificados para o Microsoft Teams
 
@@ -78,6 +78,13 @@ Se você for um fabricante e quiser participar do programa de certificação, co
 
 | Fabricante        | Modelo                                                     | Qualificação      | Programa certificado                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
+|Jabra                |Desenvolvimento de fone de ouvido com microfone 75E                                         |12/16/2020      |Skype for Business com atualização para o Microsoft Teams      |
+|Jabra                |Desenvolvimento de fone de ouvido com microfone 65e                                         |12/16/2020      |Skype for Business com atualização para o Microsoft Teams      |
+|Pela                 |Monitor C3422WE                                            |12/11/2020      |Certificado para o Microsoft Teams                           |
+|Pela                 |Monitor C2722DE                                            |12/11/2020      |Certificado para o Microsoft Teams                           |
+|Pela                 |Monitor C2422HE                                            |12/11/2020      |Certificado para o Microsoft Teams                           |
+|Polyline                 |Sincronizar 20 + viva-voz com um dongle USB BT600          |11/9/2020       |Certificado para o Microsoft Teams                           |
+|Polyline                 |Sincronizar 20 viva-voz                                       |11/9/2020       |Certificado para o Microsoft Teams                           |
 |Jabra                |Desenvolvimento de fone de ouvido com microfone 65t                                         |10/31/2020      |Skype for Business com atualização para o Microsoft Teams      |
 |EPOS/Sennheiser      |MB pro 1                                                   |10/2/2020       |Skype for Business com atualização para o Microsoft Teams      |
 |EPOS/Sennheiser      |MB Pro 2                                                   |10/2/2020       |Skype for Business com atualização para o Microsoft Teams      |

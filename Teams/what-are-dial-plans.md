@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.voice.dialplans.overview
 - Calling Plans
 description: 'Saiba quais tipos de planos de chamada de discagem (planos de discagem de chamada PSTN) estão disponíveis com o Teams e como escolher um para a sua organização.  '
-ms.openlocfilehash: 932440e0d94072da7ce3ef304438400963e17d2d
-ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
+ms.openlocfilehash: 9e6b9930c5106ec143563e0f69dd61ccb30d550c
+ms.sourcegitcommit: 9c1f3a72fb166b49a4b68bcdb9a2868bf86ca680
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49031367"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "49718585"
 ---
 # <a name="what-are-dial-plans"></a>O que são planos de discagem?
 
@@ -116,6 +116,10 @@ Regras de normalização use expressões regulares do .NET Framework para especi
 Para obter detalhes sobre como usar expressões regulares do .NET Framework, consulte [expressões regulares do .NET Framework](https://go.microsoft.com/fwlink/p/?linkId=140927).
 
 Consulte [criar e gerenciar planos de discagem](create-and-manage-dial-plans.md) para criar e gerenciar regras de normalização para seus planos de discagem de locatário.
+
+> [!NOTE]
+> Atualmente, as regras de normalização com o primeiro token como opcional não são suportadas em dispositivos 3pip (por exemplo, Polycom VVX 601 modelo). Se você deseja aplicar as regras de normalização com a opcionalidade em dispositivos 3pip, deve criar duas regras de normalização em vez de uma. Por exemplo, a regra ^ 0? (999) $ deve ser substituído pelas duas regras a seguir: (999) $ (tradução: $1) e ^ 0 (999) $ (tradução: $1).
+
 
 ### <a name="sample-normalization-rules"></a>Regras de normalização de exemplo
 

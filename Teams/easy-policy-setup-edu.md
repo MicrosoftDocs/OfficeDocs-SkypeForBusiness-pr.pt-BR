@@ -18,18 +18,18 @@ search.appverid: MET150
 description: Saiba como usar o assistente de política do teams para educação para aplicar facilmente as políticas para alunos e professores para manter seu ambiente de aprendizagem seguro.
 f1keywords: ''
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 0101248cb5e3fb8cdea30128482e7f9313afc2e0
-ms.sourcegitcommit: 07afc959fec802db583e7111280d0035fdb6e412
+ms.openlocfilehash: 6480eb0ea698a783bbd231bacf2d6d1c23c7b2be
+ms.sourcegitcommit: 9c1f3a72fb166b49a4b68bcdb9a2868bf86ca680
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "49616915"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "49718605"
 ---
 # <a name="use-the-teams-for-education-policy-wizard-to-easily-apply-policies-for-a-safe-learning-environment"></a>Usar o assistente de políticas para educação para aplicar facilmente políticas para um ambiente de aprendizagem seguro
 
 [!INCLUDE [preview-feature](includes/preview-feature.md)]
 
-## <a name="overview"></a>Visão geral
+## <a name="overview"></a>Visão Geral
 
 O assistente de política do Microsoft Teams para educação simplifica o gerenciamento de políticas para alunos e professores. Use-o para aplicar com facilidade e rapidez o conjunto mais importante de políticas relevante para criar uma experiência de aprendizagem segura e produtiva.
 
@@ -86,7 +86,7 @@ Siga estas etapas para executar o assistente.
 
     :::image type="content" source="media/easy-policy-setup-review-selections.png" alt-text="Captura de tela da página no Assistente para revisar seleções":::
 
-5. Selecione **aplicar** para aplicar as alterações. Isso pode levar alguns minutos para ser concluído.<br/><br/>As definições globais da política (padrão para toda a organização) são aplicadas imediatamente aos alunos. Para seus professores e funcionários, pode levar até 48 horas para que as políticas personalizadas sejam atribuídas a cada membro do grupo selecionado, dependendo do tamanho do grupo. Isso acontece em segundo plano depois que você concluir esta etapa com êxito.
+5. Selecione **aplicar** para aplicar as alterações. Isso pode levar alguns minutos para ser concluído.<br/><br/>As definições globais da política (padrão para toda a organização) são aplicadas imediatamente aos alunos. Para seus professores e funcionários, pode levar algumas horas para que as políticas personalizadas sejam atribuídas a cada membro do grupo selecionado, dependendo do tamanho do grupo. Isso acontece em segundo plano depois que você concluir esta etapa com êxito.
 6. Você está de acordo com o seu jeito, mas ainda não está pronto! Há mais alguns pontos a serem considerados. Em seguida, Confira as etapas na seção o [que fazer depois de executar o assistente](#what-to-do-after-running-the-wizard) deste artigo.
 
     :::image type="content" source="media/easy-policy-setup-on-way.png" alt-text="Captura de tela da página no Assistente para as próximas etapas":::
@@ -201,70 +201,67 @@ Aqui está uma lista das definições de política global (padrão para toda a o
 
 |Área da política |Subárea  |Configuração de política  |Primário ou secundário |Ensino mais alto |
 |---------|---------|---------|---------|---------|
-|Políticas do Teams   |         |Criar canais privados         |Desativado       |Ativado|
-|Política de reuniões    |Geral         |Permitir reunir agora em canais         |Desativado      |Ativado|
-|  |        |Permitir o suplemento do Outlook         |Desativado       |Ativado|
-|  |        |Permitir agendamento de reunião de canal        |Desativado      |Ativado|
-|  |        |Permitir agendamento de reuniões particulares       |Desativado      |Ativado|
-|  |Áudio & vídeo        |Permitir transcrição        |Ativado       |Ativado|
-|  |        |Permitir gravação na nuvem         |Desativado      |Ativado|
-|  |        |Modo para áudio IP       |Áudio de saída e entrada habilitado        |Áudio de saída e entrada habilitado|
-|  |        |Modo para vídeo de IP         |Vídeo de saída e de entrada habilitado     |Vídeo de saída e de entrada habilitado|
-|  |       |Permitir vídeo IP         |Ativado         |Ativado|
-|  |       |Permitir streaming NDI         |Desativado         |Desativado|
-|  |       |Taxa de bits de mídia (KBS)         |50.000         |50.000|
+|Políticas do Teams   |         |Criar canais privados         |Desabilitado       |Habilitado|
+|Política de reuniões    |Geral         |Permitir Reunir agora nos canais         |Desabilitado      |Habilitado|
+|  |        |Permitir o suplemento do Outlook         |Desabilitado       |Habilitado|
+|  |        |Permitir o agendamento de reunião do canal        |Desabilitado      |Habilitado|
+|  |        |Permitir o agendamento de reuniões particulares       |Desabilitado      |Habilitado|
+|  |Áudio & vídeo        |Permitir transcrição        |Habilitado       |Habilitado|
+|  |        |Permitir gravação na nuvem         |Desabilitado      |Habilitado|
+|  |        |Modo de áudio IP       |Áudio de saída e entrada habilitado        |Áudio de saída e entrada habilitado|
+|  |        |Modo de vídeo IP         |Vídeo de saída e entrada habilitado     |Vídeo de saída e entrada habilitado|
+|  |       |Permitir vídeo IP         |Habilitado         |Habilitado|
+|  |       |Permitir streaming NDI         |Desabilitado         |Desabilitado|
+|  |       |Taxa de bits de mídia (Kbs)         |50.000         |50.000|
 |  |Compartilhamento de conteúdo       |Modo de compartilhamento de tela         |Tela inteira         |Tela inteira|
-|  |       |Permitir que um participante conceda ou solicite o controle         |Ativado         |Ativado|
-|  |       |Permitir que um participante externo conceda ou solicite controle         |Ativado         |Ativado|
-|  |       |Permitir compartilhamento do PowerPoint        |Ativado         |Ativado|
-|  |       |Permitir quadro de comunicações         |Ativado         |Ativado|
-|  |       |Permitir anotações compartilhadas         |Ativado        |Ativado|
-|  |Participantes & convidados       |Permitir que as pessoas anônimas iniciem uma reunião       |Desativado         |Ativado|
+|  |       |Permitir que um participante conceda ou solicite o controle         |Habilitado         |Habilitado|
+|  |       |Permitir que um participante externo conceda ou solicite o controle         |Habilitado         |Habilitado|
+|  |       |Permitir compartilhamento do PowerPoint        |Habilitado         |Habilitado|
+|  |       |Permitir o quadro de comunicações         |Habilitado         |Habilitado|
+|  |       |Permitir notas compartilhadas         |Habilitado        |Habilitado|
+|  |Participantes & convidados       |Permitir que pessoas anônimas iniciem uma reunião       |Desabilitado         |Habilitado|
 |  |       |Funções que têm direitos de apresentador em reuniões        |EveryoneUserOverride         |EveryoneUserOverride|
-|  |       |Admitir pessoas automaticamente        |EveryoneInCompany|EveryoneInCompany|
-|  |       |Permitir que os usuários de discagem ignorem o lobby        |Desativado         |Desativado|
-|  |       |Permitir reunião agora em reuniões privadas        |Desativado         |Ativado|
-|  |       |Habilitar legendas dinâmicas       |Desabilitado, mas o usuário pode substituir         |Desabilitado, mas o usuário pode substituir|
-|  |       |Permitir chat em reuniões         |Ativado         |Ativado|
-|  |Modo de filtros de vídeo       |VideoFiltersMode         |BlurandDefaultBackgrounds|Filtros|
-|  |Relatório de presença de reunião       |AllowEngagementReport         |Desativado         |Ativado|
-|Políticas de eventos ao vivo  |       |Permitir agendamento         |Desativado         |Desativado|
-|  |       |Permitir transcrição para participantes          |Ativado       |Ativado|
+|  |       |Aceitar pessoas automaticamente        |EveryoneInCompany|EveryoneInCompany|
+|  |       |Permitir que os usuários de acesso telefônico ignorem o lobby        |Desabilitado         |Desabilitado|
+|  |       |Permitir Reunir Agora em reuniões particulares        |Desabilitado         |Habilitado|
+|  |       |Habilitar legendas ao vivo       |Desabilitado, mas o usuário pode substituir         |Desabilitado, mas o usuário pode substituir|
+|  |       |Permitir chat em reuniões         |Habilitado         |Habilitado|
+|Políticas de eventos ao vivo  |       |Permitir agendamento         |Desabilitado         |Desabilitado|
+|  |       |Permitir transcrição para participantes          |Habilitado       |Habilitado|
 |  |       |Quem pode ingressar eventos ao vivo agendados        |Todos na organização        |Todos na organização|
 |  |       |Quem pode gravar um evento         |Ativa         |Ativa|
-|Políticas de mensagens  |       |Os proprietários podem excluir as mensagens enviadas         |Desativado|Ativado|
-|  |       |Excluir mensagens enviadas         |Desativado         |Ativado|
-|  |       |Editar mensagens enviadas         |Desativado         |Ativado|
+|Políticas de mensagens  |       |Os proprietários podem excluir as mensagens enviadas         |Desabilitado|Habilitado|
+|  |       |Excluir mensagens enviadas         |Desabilitado         |Habilitado|
+|  |       |Editar mensagens enviadas         |Desabilitado         |Habilitado|
 |  |       |Confirmações de leitura         |Controlado pelo usuário         |Controlado pelo usuário|
-|  |       |Chat         |Desativado         |Ativado|
-|  |       |Usar o Giphys em conversas         |Desativado         |Ativado|
+|  |       |Chat         |Desabilitado         |Habilitado|
+|  |       |Usar o Giphys em conversas         |Desabilitado         |Habilitado|
 |  |       |Classificação de conteúdo Giphy         |Estrito        |Estrito|
-|  |       |Usar o memes em conversas         |Ativado         |Ativado|
-|  |       |Usar adesivos nas conversas         |Ativado         |Ativado|
-|  |       |Permitir visualizações de URL        |Ativado         |Ativado|
-|  |       |Traduzir mensagens         |Ativado         |Ativado|
-|  |       |Permitir leitura avançada para exibição de mensagens        |Ativado      |Ativado|
-|  |       |Enviar mensagens urgentes usando as notificações de prioridade  |Desativado         |Ativado|
+|  |       |Usar o memes em conversas         |Habilitado         |Habilitado|
+|  |       |Usar adesivos nas conversas         |Habilitado         |Habilitado|
+|  |       |Permitir visualizações de URL        |Habilitado         |Habilitado|
+|  |       |Traduzir mensagens         |Habilitado         |Habilitado|
+|  |       |Permitir leitura avançada para exibição de mensagens        |Habilitado      |Habilitado|
+|  |       |Enviar mensagens urgentes usando as notificações de prioridade  |Desabilitado         |Habilitado|
 |  |       |Criar mensagens de voz         |Permitido em chats e canais         |Permitido em chats e canais|
 |  |       |Em dispositivos móveis, exiba os canais favoritos acima dos chats recentes     |Habilitado         |Habilitado|
-|  |       |Remover usuários de chats em grupo         |Desativado         |Ativado|
-|  |       |Respostas sugeridas         |Ativado         |Ativado|
+|  |       |Remover usuários de chats em grupo         |Desabilitado         |Habilitado|
 |Política de permissão do aplicativo  |       |Aplicativos da Microsoft         |Bloquear aplicativos específicos e permitir que todos os outros > faça a conversa bloqueada         |Permitir todos os aplicativos|
 |  |       |Aplicativos de terceiros         |Permitir todos os aplicativos         |Permitir todos os aplicativos|
 |  |       |Aplicativos personalizados         |Permitir todos os aplicativos         |Permitir todos os aplicativos|
-|Política de configuração do aplicativo  |           |Carregar aplicativos personalizados           |Desativado         |Desativado|
-|  |       |Permitir fixação do usuário |Ativado         |Ativado|
+|Política de configuração do aplicativo  |           |Carregar aplicativos personalizados           |Desabilitado         |Desabilitado|
+|  |       |Permitir fixação do usuário |Habilitado         |Habilitado|
 |  |       |Aplicativos instalados         |Nenhum         |Nenhum|
 |  |       |Aplicativos fixos         |Atividade, calendário, equipes         |Atividade, chats, equipes, calendário, chamadas, arquivo
-|Políticas de chamada  |       |Fazer chamadas privadas         |Desativado        |Ativado|
-|  |       |Encaminhamento de chamadas e toque simultâneo para as pessoas em sua organização         |Desativado         |Ativado|
-|  |       |Encaminhamento de chamadas e toque simultâneo para números de telefone externos         |Desativado         |Ativado|
+|Políticas de chamada  |       |Fazer chamadas privadas         |Desabilitado        |Habilitado|
+|  |       |Encaminhamento de chamadas e toque simultâneo para as pessoas em sua organização         |Desabilitado         |Habilitado|
+|  |       |Encaminhamento de chamadas e toque simultâneo para números de telefone externos         |Desabilitado         |Habilitado|
 |  |       |O correio de voz está disponível para fazer roteamento de chamadas de entrada         |Controlado pelo usuário         |Controlado pelo usuário|
-|  |       |As chamadas recebidas podem ser roteadas para grupos de chamadas         |Desativado        |Ativado|
-|  |       |Permitir Delegação para chamadas de entrada e de saída         |Desativado         |Ativado|
-|  |       |Impedir que a chamada seja ignorada e enviar chamadas por meio da PSTN        |Desativado         |Desativado|
-|  |       |Ocupado em ocupado está disponível durante uma chamada         |Desativado         |Desativado|
-|  |       |Permitir chamada PSTN na Web         |Desativado         |Ativado|
+|  |       |As chamadas recebidas podem ser roteadas para grupos de chamadas         |Desabilitado        |Habilitado|
+|  |       |Permitir Delegação para chamadas de entrada e de saída         |Desabilitado         |Habilitado|
+|  |       |Impedir que a chamada seja ignorada e enviar chamadas por meio da PSTN        |Desabilitado         |Desabilitado|
+|  |       |Ocupado em ocupado está disponível durante uma chamada         |Desabilitado         |Desabilitado|
+|  |       |Permitir chamada PSTN na Web         |Desabilitado         |Habilitado|
 
 #### <a name="educators-and-staff"></a>[**Educadores e funcionários**](#tab/educator-settings/)
 
@@ -272,63 +269,60 @@ Aqui está uma lista das definições de política personalizadas atribuídas ao
 
 |Área da política |Subárea  |Configuração de política  |Primário ou secundário |Ensino mais alto |
 |---------|---------|---------|---------|---------|
-|Políticas do Teams   |         |Criar canais privados         |Ativado       |Ativado|
-|Política de reuniões    |Geral         |Permitir reunir agora em canais         |Ativado      |Ativado|
-|  |        |Permitir o suplemento do Outlook         |Ativado       |Ativado|
-|  |        |Permitir agendamento de reunião de canal        |Ativado      |Ativado|
-|  |        |Permitir agendamento de reuniões particulares       |Ativado      |Ativado|
-|  |Áudio & vídeo        |Permitir transcrição        |Ativado       |Ativado|
-|  |        |Permitir gravação na nuvem         |Ativado      |Ativado|
-|  |        |Modo para áudio IP       |Áudio de saída e entrada habilitado        |Áudio de saída e entrada habilitado|
-|  |        |Modo para vídeo de IP         |Vídeo de saída e de entrada habilitado     |Vídeo de saída e de entrada habilitado|
-|  |       |Permitir vídeo IP         |Ativado         |Ativado|
-|  |       |Permitir streaming NDI         |Desativado         |Desativado|
-|  |       |Taxa de bits de mídia (KBS)         |50.000         |50.000|
+|Políticas do Teams   |         |Criar canais privados         |Habilitado       |Habilitado|
+|Política de reuniões    |Geral         |Permitir Reunir agora nos canais         |Habilitado      |Habilitado|
+|  |        |Permitir o suplemento do Outlook         |Habilitado       |Habilitado|
+|  |        |Permitir o agendamento de reunião do canal        |Habilitado      |Habilitado|
+|  |        |Permitir o agendamento de reuniões particulares       |Habilitado      |Habilitado|
+|  |Áudio & vídeo        |Permitir transcrição        |Habilitado       |Habilitado|
+|  |        |Permitir gravação na nuvem         |Habilitado      |Habilitado|
+|  |        |Modo de áudio IP       |Áudio de saída e entrada habilitado        |Áudio de saída e entrada habilitado|
+|  |        |Modo de vídeo IP         |Vídeo de saída e entrada habilitado     |Vídeo de saída e entrada habilitado|
+|  |       |Permitir vídeo IP         |Habilitado         |Habilitado|
+|  |       |Permitir streaming NDI         |Desabilitado         |Desabilitado|
+|  |       |Taxa de bits de mídia (Kbs)         |50.000         |50.000|
 |  |Compartilhamento de conteúdo       |Modo de compartilhamento de tela         |Tela inteira         |Tela inteira|
-|  |       |Permitir que um participante conceda ou solicite o controle         |Ativado         |Ativado|
-|  |       |Permitir que um participante externo conceda ou solicite controle         |Ativado         |Ativado|
-|  |       |Permitir compartilhamento do PowerPoint        |Ativado         |Ativado|
-|  |       |Permitir quadro de comunicações         |Ativado         |Ativado|
-|  |       |Permitir anotações compartilhadas         |Ativado        |Ativado|
-|  |Participantes & convidados       |Permitir que as pessoas anônimas iniciem uma reunião       |Ativado        |Ativado|
+|  |       |Permitir que um participante conceda ou solicite o controle         |Habilitado         |Habilitado|
+|  |       |Permitir que um participante externo conceda ou solicite o controle         |Habilitado         |Habilitado|
+|  |       |Permitir compartilhamento do PowerPoint        |Habilitado         |Habilitado|
+|  |       |Permitir o quadro de comunicações         |Habilitado         |Habilitado|
+|  |       |Permitir notas compartilhadas         |Habilitado        |Habilitado|
+|  |Participantes & convidados       |Permitir que pessoas anônimas iniciem uma reunião       |Habilitado        |Habilitado|
 |  |       |Funções que têm direitos de apresentador em reuniões        |OrganizerOnlyUserOverride         |OrganizerOnlyUserOverride|
-|  |       |Admitir pessoas automaticamente        |Organizadorsó|Organizadorsó|
-|  |       |Permitir que os usuários de discagem ignorem o lobby        |Desativado         |Desativado|
-|  |       |Permitir reunião agora em reuniões privadas        |Ativado         |Ativado|
-|  |       |Habilitar legendas dinâmicas       |Desabilitado, mas o usuário pode substituir         |Desabilitado, mas o usuário pode substituir|
-|  |       |Permitir chat em reuniões         |Ativado         |Ativado|
-|  |Modo de filtros de vídeo       |VideoFiltersMode         |Filtros|Filtros|
-|  |Relatório de presença de reunião       |AllowEngagementReport         |Ativado         |Ativado|
-|Políticas de eventos ao vivo  |       |Permitir agendamento         |Ativado         |Ativado|
-|  |       |Permitir transcrição para participantes          |Ativado       |Ativado|
+|  |       |Aceitar pessoas automaticamente        |Organizadorsó|Organizadorsó|
+|  |       |Permitir que os usuários de acesso telefônico ignorem o lobby        |Desabilitado         |Desabilitado|
+|  |       |Permitir Reunir Agora em reuniões particulares        |Habilitado         |Habilitado|
+|  |       |Habilitar legendas ao vivo       |Desabilitado, mas o usuário pode substituir         |Desabilitado, mas o usuário pode substituir|
+|  |       |Permitir chat em reuniões         |Habilitado         |Habilitado|
+|Políticas de eventos ao vivo  |       |Permitir agendamento         |Habilitado         |Habilitado|
+|  |       |Permitir transcrição para participantes          |Habilitado       |Habilitado|
 |  |       |Quem pode ingressar eventos ao vivo agendados        |Todos na organização        |Todos na organização|
 |  |       |Quem pode gravar um evento         |Sempre gravar         |Sempre gravar|
-|Políticas de mensagens  |       |Os proprietários podem excluir as mensagens enviadas         |Ativado|Ativado|
-|  |       |Excluir mensagens enviadas         |Ativado         |Ativado|
-|  |       |Editar mensagens enviadas         |Ativado         |Ativado|
+|Políticas de mensagens  |       |Os proprietários podem excluir as mensagens enviadas         |Habilitado|Habilitado|
+|  |       |Excluir mensagens enviadas         |Habilitado         |Habilitado|
+|  |       |Editar mensagens enviadas         |Habilitado         |Habilitado|
 |  |       |Confirmações de leitura         |Controlado pelo usuário         |Controlado pelo usuário|
-|  |       |Chat         |Ativado         |Ativado
-|  |       |Usar o Giphys em conversas         |Ativado        |Ativado|
+|  |       |Chat         |Habilitado         |Habilitado
+|  |       |Usar o Giphys em conversas         |Habilitado        |Habilitado|
 |  |       |Classificação de conteúdo Giphy         |Estrito        |Estrito|
-|  |       |Usar o memes em conversas         |Ativado         |Ativado|
-|  |       |Usar adesivos nas conversas         |Ativado         |Ativado|
-|  |       |Permitir visualizações de URL        |Ativado         |Ativado|
-|  |       |Traduzir mensagens         |Ativado         |Ativado|
-|  |       |Permitir leitura avançada para exibição de mensagens        |Ativado      |Ativado|
-|  |       |Enviar mensagens urgentes usando as notificações de prioridade  |Ativado         |Ativado|
+|  |       |Usar o memes em conversas         |Habilitado         |Habilitado|
+|  |       |Usar adesivos nas conversas         |Habilitado         |Habilitado|
+|  |       |Permitir visualizações de URL        |Habilitado         |Habilitado|
+|  |       |Traduzir mensagens         |Habilitado         |Habilitado|
+|  |       |Permitir leitura avançada para exibição de mensagens        |Habilitado      |Habilitado|
+|  |       |Enviar mensagens urgentes usando as notificações de prioridade  |Habilitado         |Habilitado|
 |  |       |Criar mensagens de voz         |Permitido em chats e canais         |Permitido em chats e canais|
 |  |       |Em dispositivos móveis, exiba os canais favoritos acima dos chats recentes     |Habilitado         |Habilitado|
-|  |       |Remover usuários de chats em grupo         |Ativado        |Ativado|
-|  |       |Respostas sugeridas         |Ativado         |Ativado|
-|Políticas de chamada  |       |Fazer chamadas privadas         |Ativado       |Ativado|
-|  |       |Encaminhamento de chamadas e toque simultâneo para as pessoas em sua organização         |Ativado        |Ativado|
-|  |       |Encaminhamento de chamadas e toque simultâneo para números de telefone externos         |Ativado        |Ativado|
+|  |       |Remover usuários de chats em grupo         |Habilitado        |Habilitado|
+|Políticas de chamada  |       |Fazer chamadas privadas         |Habilitado       |Habilitado|
+|  |       |Encaminhamento de chamadas e toque simultâneo para as pessoas em sua organização         |Habilitado        |Habilitado|
+|  |       |Encaminhamento de chamadas e toque simultâneo para números de telefone externos         |Habilitado        |Habilitado|
 |  |       |O correio de voz está disponível para fazer roteamento de chamadas de entrada         |Controlado pelo usuário         |Controlado pelo usuário|
-|  |       |As chamadas recebidas podem ser roteadas para grupos de chamadas         |Ativado        |Ativado|
-|  |       |Permitir Delegação para chamadas de entrada e de saída         |Ativado         |Ativado|
-|  |       |Impedir que a chamada seja ignorada e enviar chamadas por meio da PSTN        |Desativado         |Desativado|
-|  |       |Ocupado em ocupado está disponível durante uma chamada         |Desativado         |Desativado|
-|  |       |Permitir chamada PSTN na Web         |Ativado      |Ativado|
+|  |       |As chamadas recebidas podem ser roteadas para grupos de chamadas         |Habilitado        |Habilitado|
+|  |       |Permitir Delegação para chamadas de entrada e de saída         |Habilitado         |Habilitado|
+|  |       |Impedir que a chamada seja ignorada e enviar chamadas por meio da PSTN        |Desabilitado         |Desabilitado|
+|  |       |Ocupado em ocupado está disponível durante uma chamada         |Desabilitado         |Desabilitado|
+|  |       |Permitir chamada PSTN na Web         |Habilitado      |Habilitado|
 
 * * *
 
