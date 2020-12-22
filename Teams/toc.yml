@@ -1,12 +1,12 @@
 - name: Bem-vindo ao Teams
   href: teams-overview.md
-- name: Cartazes de soluções de & de arquitetura de telefonia
+- name: Cartazes de soluções de arquitetura e telefonia
   href: teams-architecture-solutions-posters.md
-- name: Oferecer suporte a trabalhadores remotos (WFH)
+- name: Oferecer suporte aos trabalhadores remotos (WFH)
   href: support-remote-work-with-teams.md
 - name: Treinamento
   items:
-    - name: Visão geral
+    - name: Visão Geral
       href: training-microsoft-teams-landing-page.md
     - name: Treinamento para o administrador do Teams
       href: itadmin-readiness.md
@@ -22,13 +22,13 @@
   items:
     - name: Visão geral
       href: get-started-with-teams-quick-start.md
-    - name: 'Etapa 1: Criar suas primeiras equipes e canais'
+    - name: 'Etapa 1: criar suas primeiras equipes e canais'
       href: get-started-with-teams-create-your-first-teams-and-channels.md
-    - name: 'Etapa 2: Integração de usuários pioneiros'
+    - name: 'Etapa 2: integração de usuários pioneiros'
       href: get-started-with-teams-onboard-early-adopters.md
-    - name: 'Etapa 3: Monitorar o uso e os comentários'
+    - name: 'Etapa 3: monitorar o uso e os comentários'
       href: get-started-with-teams-monitor-usage-and-feedback.md
-    - name: 'Etapa 4: Planejar a implantação em toda a organização'
+    - name: 'Etapa 4:planejar a implantação em toda a organização'
       href: get-started-with-teams-resources-for-org-wide-rollout.md
 - name: 'Bate-papo, equipes e canais'
   items:
@@ -48,9 +48,9 @@
       href: dynamic-memberships.md
     - name: Práticas recomendadas para organizar equipes no Teams
       href: best-practices-organizing.md
-    - name: Gerenciar grandes Equipes
+    - name: Gerenciar grandes Equipes no Teams
       href: best-practices-large-groups.md
-    - name: Crie uma equipe englobando toda a organização no Teams
+    - name: Criar uma equipe englobando toda a organização no Teams
       href: create-an-org-wide-team.md
     - name: Criar equipes de gerentes de pessoas
       href: create-manager-directs-teams.md
@@ -64,7 +64,7 @@
       href: sharing-files-in-teams.md
     - name: Integração de emails do Teams e Outlook
       href: teams-outlook-email-integration.md
-    - name: Gerencie as políticas de mensagens
+    - name: Gerenciar as políticas de mensagens
       href: messaging-policies-in-teams.md
     - name: Presença do usuário no Teams
       href: presence-admins.md
@@ -80,9 +80,9 @@
       href: migrate-slack-to-teams.md
     - name: Trabalhar com modelos do Teams
       items:
-        - name: Usar modelos do Microsoft Teams no centro de administração
+        - name: Usar modelos do Teams no centro de administração
           href: get-started-with-teams-templates-in-the-admin-console.md
-        - name: Modelos do Teams com gráfico integrado para pequenas e médias empresas
+        - name: Modelos do Teams com Gráfico integrado para Pequenas e Médias Empresas
           href: smb-templates.md
         - name: Criar um modelo do Teams personalizado
           href: create-a-team-template.md
@@ -102,11 +102,11 @@
           href: communicate-with-users-from-other-organizations.md
         - name: Acesso externo (federação)
           items:
-            - name: Gerencie o acesso externo
+            - name: Gerenciar o acesso externo
               href: manage-external-access.md
             - name: Chat nativo do Teams para usuários externos
               href: native-chat-for-external-users.md
-            - name: As equipes e a interoperabilidade do Skype
+            - name: As interoperabilidade do Skype e do Teams
               href: teams-skype-interop.md
         - name: Acesso de convidados
           items:
@@ -114,7 +114,7 @@
               href: guest-access.md
             - name: Lista de verificação de acesso de convidados
               href: 'https://docs.microsoft.com/microsoft-365/solutions/collaborate-as-team'
-            - name: Experiência dos convidados
+            - name: Experiência do convidado
               href: guest-experience.md
             - name: Autorizar acesso de convidados
               href: teams-dependencies.md
@@ -124,7 +124,7 @@
               href: add-guests.md
             - name: Exibir usuários convidados em uma equipe
               href: view-guests.md
-            - name: Editar informações de usuários convidados
+            - name: Editar informações de usuário convidado
               href: edit-guests-information.md
             - name: Solucionar problemas de acesso de convidados
               href: troubleshoot-guest-access.md
@@ -136,13 +136,13 @@
           href: using-admin-roles.md
         - name: Gerenciar as configurações do Teams da sua organização
           href: enable-features-office-365.md
-        - name: Gerenciar equipes durante a transição para o novo centro de administração do Microsoft Teams
+        - name: Gerenciar as Equipes durante a transição para o novo Centro de Administração do Microsoft Teams
           href: manage-teams-skypeforbusiness-admin-center.md
         - name: Gerenciar o Teams no Centro de administração do Microsoft Teams
           href: manage-teams-in-modern-portal.md
         - name: Atribuir proprietários e membros da equipe no Teams
           href: assign-roles-permissions.md
-        - name: Atribuir políticas a seus usuários
+        - name: Atribuir políticas aos seus usuários
           href: assign-policies.md
         - name: Exibir suas tarefas de política no log de Atividades
           href: activity-log.md
@@ -154,11 +154,11 @@
           href: teams-custom-app-policies-and-settings.md
         - name: Gerenciar políticas de comentários no Teams
           href: manage-feedback-policies-in-teams.md
-        - name: Gerenciar pacotes de política em equipes
+        - name: Gerenciar pacotes de política no Teams
           href: manage-policy-packages.md
-        - name: Configurar o aplicativo de Reuniões do Skype para trabalhar com o Teams
+        - name: Configurar o Aplicativos de Reuniões do Skype para trabalhar com o Teams
           href: configure-skype-meetings-app-to-work-with-teams.md
-        - name: Gerencie o acesso externo
+        - name: Gerenciar o acesso externo
           href: manage-external-access.md
         - name: Usar a tradução de mensagens embutida
           href: inline-message-translation-teams.md
@@ -166,13 +166,13 @@
           href: teams-scoped-directory-search.md
         - name: Análises e relatórios no centro de administração do Teams
           items:
-            - name: Visão geral
+            - name: Visão Geral
               href: teams-analytics-and-reports/teams-reporting-reference.md
             - name: Relatório de uso do Teams
               href: teams-analytics-and-reports/teams-usage-report.md
             - name: Relatório de atividades do usuário do Teams
               href: teams-analytics-and-reports/user-activity-report.md
-            - name: Relatório de uso do Teams
+            - name: Relatório de uso do aplicativo
               href: teams-analytics-and-reports/app-usage-report.md
             - name: Relatório de uso de dispositivos do Teams
               href: teams-analytics-and-reports/device-usage-report.md
@@ -180,15 +180,15 @@
               href: teams-analytics-and-reports/pstn-blocked-users-report.md
             - name: Relatório de pools de minutos PSTN
               href: teams-analytics-and-reports/pstn-minute-pools-report.md
-            - name: Relatório de uso de PSTN
+            - name: Relatório de uso da PSTN
               href: teams-analytics-and-reports/pstn-usage-report.md
             - name: Relatório de uso de evento ao vivo do Teams
               href: teams-analytics-and-reports/teams-live-event-usage-report.md
-        - name: Relatórios de atividades do Teams no centro de administração do Microsoft 365
+        - name: Relatórios de atividades do Teams no Centro de administração do Microsoft 365
           href: teams-activity-reports.md
 - name: 'Aplicativos, bots e conectores'
   items:
-    - name: Visão geral
+    - name: Visão Geral
       href: deploy-apps-microsoft-teams-landing-page.md
     - name: Integrar com a Power Platform
       href: teams-power-platfom-integration.md
@@ -210,7 +210,7 @@
           href: manage-power-platform-apps.md
         - name: Publicar um aplicativo personalizado carregando um pacote de aplicativos
           href: upload-custom-apps.md
-        - name: Repositório de aplicativos personalizados
+        - name: Loja de aplicativos personalizados
           href: customize-your-app-store.md
     - name: Certificação de aplicativo
       href: /teams-app-certification/all-apps?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
@@ -230,9 +230,9 @@
       href: set-up-your-team-hierarchy.md
     - name: Gerenciar o aplicativo Elogiar no centro de administração do Teams
       href: manage-praise-app.md
-    - name: Configurar o aplicativo de Reuniões do Skype para trabalhar com o Teams
+    - name: Configurar o Aplicativos de Reuniões do Skype para trabalhar com o Teams
       href: configure-skype-meetings-app-to-work-with-teams.md
-    - name: Disponibilidade de aplicativos de aprovações de equipes
+    - name: Disponibilidade dos aplicativos de aprovação do Teams
       href: approval-admin.md
 - name: Reuniões e conferências
   items:
@@ -258,7 +258,7 @@
               href: rooms/requirements.md
             - name: Licenciamento online
               href: rooms/rooms-licensing.md
-            - name: Planejar o gerenciamento com o Monitor do Azure
+            - name: Planejar o gerenciamento com o Azure Monitor
               href: rooms/azure-monitor-plan.md
             - name: Serviços gerenciados de Salas do Microsoft Teams
               items:
@@ -274,7 +274,7 @@
               href: rooms/rooms-configure-accounts.md
             - name: Surface Hub
               items:
-                - name: Configurar Reuniões Coordenadas
+                - name: Configurar Otimização de Reuniões
                   href: rooms/coordinated-meetings.md
                 - name: Gerenciar as configurações do Microsoft Teams
                   href: rooms/surface-hub-manage-config.md
@@ -282,17 +282,17 @@
               href: rooms/with-office-365.md
             - name: Com o Skype for Business Server
               href: rooms/with-skype-for-business-server-2015.md
-            - name: Com o Exchange Online (híbrido)
+            - name: Com o Exchange Online (Híbrido)
               href: rooms/with-exchange-online.md
-            - name: Com o Exchange Local (híbrido)
+            - name: Com o Exchange Local (Híbrido)
               href: rooms/with-exchange-on-premises.md
             - name: Configurar um console
               href: rooms/console.md
-            - name: Configurar a autenticação
+            - name: Configurar autenticação
               href: rooms/rooms-authentication.md
-            - name: Participe de reuniões de terceiros
+            - name: Ingresse em reuniões de terceiros
               href: rooms/third-party-join.md
-            - name: Usando o Gerenciador de Configuração do Microsoft Endpoint
+            - name: Usando o Microsoft Endpoint Configuration Manager
               href: rooms/rooms-scale.md
             - name: Gerenciamento com o Azure Monitor
               href: rooms/azure-monitor-deploy.md
@@ -308,7 +308,7 @@
               href: rooms/rooms-operations.md
             - name: Suporte do Teams na sua organização
               href: rooms/known-issues.md
-            - name: Dispositivos com o Monitor do Azure
+            - name: Dispositivos com o Azure Monitor
               href: rooms/azure-monitor-manage.md
             - name: Configurações com um arquivo XML
               href: rooms/xml-config-file.md
@@ -324,13 +324,13 @@
       href: meeting-settings-in-teams.md
     - name: Emails enviados para os usuários quando suas configurações são alteradas
       href: emails-sent-to-users-when-their-settings-change-in-teams.md
-    - name: Permitir que os usuários gravem seus nomes ao ingressar em uma reunião
+    - name: Permitir que os usuários gravem seus nomes ao ingressar de uma reunião
       href: enable-users-to-record-their-name-when-they-join-a-meeting-in-teams.md
     - name: Ativar ou desativar anúncios de entrada e de saída em reuniões
       href: turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md
     - name: Usar a tecnologia de NDI® no Teams
       href: use-NDI-in-meetings.md
-    - name: Opção levantar sua mão em reuniões no Teams
+    - name: Opção para levantar sua mão em reuniões no Teams
       href: raise-hand-meetings.md
     - name: Reuniões do Teams em navegadores sem suporte
       href: unsupported-browsers.md
@@ -338,7 +338,7 @@
       href: configure-desktop-sharing.md
     - name: Gravação de reuniões na nuvem do Microsoft Teams
       href: cloud-recording.md
-    - name: Usar o OneDrive for Business e o SharePoint ou o Stream para gravações de reunião
+    - name: Usar o OneDrive for Business e o Microsoft Office SharePoint Online ou o Stream para gravações de reunião
       href: tmr-meeting-recording-change.md
     - name: Integração com o Central de Contatos
       href: teams-contact-center.md
@@ -348,7 +348,7 @@
       href: set-up-the-call-me-feature-for-your-users.md
     - name: Obter um relatório de participação na reunião
       href: teams-analytics-and-reports/meeting-attendance-report.md
-    - name: Configurando o Meeting Migration Service (MMS)
+    - name: Configurando o Serviço de Migração de Reunião (MMS)
       href: /SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
     - name: Gerencie o quadro de comunicações no Teams
       href: manage-whiteboard.md
@@ -366,83 +366,83 @@
           href: Tutorial-Audio-Conferencing.yml
         - name: Experimente ou compre a Audioconferência do Microsoft 365
           href: try-or-purchase-audio-conferencing-in-office-365-for-teams.md
-        - name: Minutos de chamada de saída estendidos para EUA e Canadá
+        - name: Minutos de chamada de saída estendidos para os EUA e Canadá
           href: dial-out-minutes-canada-us.md
-        - name: Período de discagem gratuita da audioconferência
+        - name: Período de Discagem Gratuita da Audioconferência
           href: complimentary-dial-out-period.md
-        - name: Benefício da assinatura de Audioconferência “Discar”/”Ligar para mim”
+        - name: Benefício da assinatura de Audioconferência “Chamada de saída”/”Ligar para mim”
           href: audio-conferencing-subscription-dial-out.md
-        - name: Configurar a Audioconferência
+        - name: Configurar Audioconferência
           href: set-up-audio-conferencing-in-teams.md
         - name: Configurar audioconferência - início rápido para pequenas e médias empresas
           href: audio-conferencing-smb.md
-        - name: Atribuir a Microsoft como provedor de audioconferência
+        - name: Atribuir a Microsoft como provedor de Audioconferência
           href: /SkypeForBusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
         - name: Gerenciar sua ponte de audioconferência
           items:
             - name: Alterar os números de telefone em sua ponte de Audioconferência
               href: change-the-phone-numbers-on-your-audio-conferencing-bridge.md
-            - name: Alterar as configurações de uma ponte de audioconferência
+            - name: Alterar as configurações de uma ponte de Audioconferência
               href: change-the-settings-for-an-audio-conferencing-bridge.md
-            - name: Ver uma lista de números de audioconferência
+            - name: Ver uma lista de números de Audioconferência
               href: see-a-list-of-audio-conferencing-numbers-in-teams.md
             - name: Definir idiomas do atendedor automático para audioconferência
               href: set-auto-attendant-languages-for-audio-conferencing-in-teams.md
-            - name: Configurar confirmação de discagem de reunião para seus usuários
+            - name: Configurar confirmação de chamada de saída de reunião para seus usuários
               href: set-up-meeting-dial-out-confirmation.md
-        - name: Gerenciar as configurações de audioconferência para minha organização
+        - name: Gerenciar as configurações de Audioconferência para minha organização
           href: manage-the-audio-conferencing-settings-for-my-organization-in-teams.md
-        - name: Audioconferência Pagar por Minuto
+        - name: Audioconferência pagar por minuto
           href: audio-conferencing-pay-per-minute.md
         - name: Gerenciar as configurações de audioconferência para usuários
           items:
-            - name: Visão geral
+            - name: Visão Geral
               href: manage-the-audio-conferencing-settings-for-a-user-in-teams.md
-            - name: Ver uma lista de usuários habilitados para audioconferência
+            - name: Ver uma lista de usuários habilitados para Audioconferência
               href: see-a-list-of-users-that-are-enabled-for-audio-conferencing-in-teams.md
-            - name: Permitir que os usuários gravem seus nomes ao ingressar em uma reunião
+            - name: Permitir que os usuários gravem seus nomes ao ingressar de uma reunião
               href: enable-users-to-record-their-name-when-they-join-a-meeting-in-teams.md
-            - name: Redefinir a ID de conferência de um usuário
+            - name: Redefinir uma ID de conferência para um usuário
               href: reset-a-conference-id-for-a-user-in-teams.md
-            - name: Redefinir o PIN de audioconferência de um usuário
+            - name: Redefinir o PIN de Audioconferência de um usuário
               href: reset-the-audio-conferencing-pin-in-teams.md
-            - name: E-mails enviados automaticamente para os usuários quando as configurações são alteradas
+            - name: Emails enviados automaticamente para os usuários quando as configurações são alteradas
               href: emails-sent-to-users-when-their-settings-change-in-teams.md
-            - name: Ativar ou desativar o envio de e-mails quando alterar configurações de audioconferência
+            - name: Habilitar ou desabilitar o envio de emails quando alterar configurações de Audioconferência
               href: enable-or-disable-sending-emails-when-their-settings-change-in-teams.md
-            - name: Desativar números gratuitos para usuários específicos
+            - name: Desabilitando números gratuitos para usuários específicos
               href: disabling-toll-free-numbers-for-specific-teams-users.md
-            - name: Políticas de restrição de chamadas de saída para audioconferência e chamadas PSTN do usuário
+            - name: Políticas de restrição de chamadas externas para Audioconferência e chamadas PSTN do usuário
               href: outbound-calling-restriction-policies.md
             - name: Exibir e redefinir uma ID de conferência atribuída a um usuário
               href: see-change-and-reset-a-conference-id-assigned-to-a-user-in-teams.md
-            - name: Enviar um email para um usuário com suas informações de audioconferência
+            - name: Enviar um email para um usuário com suas informações de Audioconferência
               href: send-an-email-to-a-user-with-their-dial-in-information-in-teams.md
         - name: Gerenciar as configurações de reuniões para audioconferência
           items:
-            - name: Discar de uma reunião para que outras pessoas possam ingressar
+            - name: Discando de uma reunião para que outras pessoas possam participar
               href: dialing-out-from-a-teams-meeting-so-other-people-can-join-it.md
             - name: Ativar ou desativar anúncios de entrada e de saída em reuniões
               href: turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md
-            - name: Definir o tamanho do PIN para reuniões de Audioconferência
+            - name: Definir a duração do PIN para reuniões de Audioconferência
               href: set-the-pin-length-for-audio-conferencing-meetings-in-teams.md
-            - name: Definir os números de telefone incluídos em convites
+            - name: Definir os números de telefone incluídos nos convites
               href: set-the-phone-numbers-included-on-invites-in-teams.md
-            - name: Iniciar uma audioconferência por telefone sem um PIN
+            - name: Iniciar uma Audioconferência por telefone sem um PIN
               href: start-an-audio-conference-over-the-phone-without-a-pin-in-teams.md
         - name: Disponibilidade de países e regiões para Audioconferência
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md
         - name: Referência
           items:
-            - name: Idiomas suportados na audioconferência
+            - name: Idiomas suportados para Audioconferência
               href: audio-conferencing-supported-languages.md
             - name: Números de telefone para audioconferência
               href: phone-numbers-for-audio-conferencing-in-teams.md
-            - name: Zonas de país e região para audioconferência
+            - name: Zonas de países e regiões para Audioconferências
               href: audio-conferencing-zones.md
             - name: Vídeos - Audioconferência no Teams
               href: audio-conferencing-videos.md
-    - name: Interoperabilidade de vídeo em nuvem
+    - name: Interoperabilidade de Vídeo em Nuvem
       href: cloud-video-interop.md
     - name: Eventos ao vivo
       items:
@@ -452,7 +452,7 @@
           href: teams-live-events/plan-for-teams-live-events.md
         - name: Configurar eventos ao vivo do Teams
           href: teams-live-events/set-up-for-teams-live-events.md
-        - name: Usar o PowerShell para definir políticas de eventos ao vivo do Teams
+        - name: Usar o Windows PowerShell para definir políticas de eventos ao vivo do Teams
           href: teams-live-events/set-teams-live-events-policies-using-powershell.md
         - name: Definir configurações de eventos ao vivo do Teams
           href: teams-live-events/configure-teams-live-events.md
@@ -460,13 +460,13 @@
   items:
     - name: Planejar sua solução de voz do Teams
       href: cloud-voice-landing-page.md
-    - name: Sistema Telefônico
+    - name: Sistema de Telefonia
       items:
         - name: O que é o Sistema de Telefonia
           href: what-is-phone-system-in-office-365.md
         - name: Veja o que você obtém com o Sistema de Telefonia
           href: here-s-what-you-get-with-phone-system.md
-        - name: Configurar o Sistema de Telefonia
+        - name: '- Configurar o Sistema de Telefonia'
           href: setting-up-your-phone-system.md
         - name: Configurar telefones de área comuns
           href: set-up-common-area-phones.md
@@ -478,11 +478,11 @@
               href: change-the-default-language-for-greetings-and-emails.md
             - name: Idiomas de mensagens e saudações da caixa postal
               href: languages-for-voicemail-greetings-and-messages.md
-        - name: ID do chamador
+        - name: Identificação de chamadas
           items:
             - name: Como a identificação de chamada pode ser usada em sua organização
               href: how-can-caller-id-be-used-in-your-organization.md
-            - name: Gerenciar políticas de ID do chamador
+            - name: Gerenciar políticas da Identificação de chamadas
               href: caller-id-policies.md
             - name: Definir a identificação de chamada de um usuário
               href: set-the-caller-id-for-a-user.md
@@ -514,37 +514,37 @@
           href: call-park-and-retrieve.md
         - name: Atendimento de chamada de grupo e compartilhamento de chamada
           href: call-sharing-and-group-call-pickup.md
-        - name: Política de chamada
+        - name: Políticas de chamada
           href: teams-calling-policy.md
-        - name: Aparência da linha compartilhada
+        - name: Aparência de linha compartilhada
           href: shared-line-appearance.md
         - name: Configuração do teclado de discagem
           href: dial-pad-configuration.md
     - name: Planos de Chamadas
       items:
-        - name: Qual plano de chamadas é ideal para você?
+        - name: Qual Plano de Chamadas é ideal para você?
           href: calling-plan-landing-page.md
-        - name: Como comprar um plano de chamadas
+        - name: Como comprar um Plano de Chamadas
           href: calling-plans-for-office-365.md
-        - name: Configurar Planos de chamada para sua organização
+        - name: Configurar Planos de Chamada para sua organização
           href: set-up-calling-plans.md
-        - name: 'Guia de início rápido: Configurar Planos de chamadas'
+        - name: 'Guia de início rápido: Configurar Planos de Chamadas'
           href: configuring-teams-calling-quickstartguide.md
         - name: Disponibilidade de países e regiões para Planos de Chamadas
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md
     - name: Roteamento Direto do Sistema de Telefonia
       items:
-        - name: Visão geral
+        - name: Visão Geral
           href: direct-routing-landing-page.md
         - name: Planejar o Roteamento Direto
           href: direct-routing-plan.md
-        - name: Lista de Controladores de Borda da Sessão certificados para Roteamento Direto
+        - name: Lista de controladores de borda da sessão certificados para Roteamento Direto
           href: direct-routing-border-controllers.md
         - name: Configurar o Roteamento Direto
           items:
-            - name: Visão geral
+            - name: Visão Geral
               href: direct-routing-configure.md
-            - name: 'Etapa 1: Conecte seu SBC'
+            - name: 'Etapa 1: Conectar seu SBC'
               href: direct-routing-connect-the-sbc.md
             - name: 'Etapa 2: Habilitar usuários'
               href: direct-routing-enable-users.md
@@ -558,11 +558,11 @@
               href: direct-routing-analog-devices.md
         - name: Roteamento com Base no Local
           items:
-            - name: Planejar o Roteamento baseado na localização para o Roteamento direto
+            - name: Planejar o Roteamento Baseado na Localização para o Roteamento Direto
               href: location-based-routing-plan.md
             - name: Configurar definições de rede para o Roteamento baseado na localização
               href: location-based-routing-configure-network-settings.md
-            - name: Habilitar o Roteamento baseado na localização para o Roteamento direto
+            - name: Habilitar o Roteamento Baseado na Localização para o Roteamento Direto
               href: location-based-routing-enable.md
         - name: Bypass de mídia para Roteamento Direto
           items:
@@ -572,27 +572,27 @@
               href: direct-routing-configure-media-bypass.md
         - name: Otimização de mídia local do roteamento direto
           items:
-            - name: Planejar a otimização da mídia local
+            - name: Planejar a Otimização da Mídia Local
               href: direct-routing-media-optimization.md
-            - name: Configurar a otimização da mídia local
+            - name: Configurar a Otimização da Mídia Local
               href: direct-routing-media-optimization-configure.md
         - name: Contas de usuário em um ambiente híbrido com conectividade PSTN
           href: direct-routing-user-accounts-in-a-hybrid-environment.md
-        - name: Migrar para o roteamento direto
+        - name: Migrar para o Roteamento Direto
           href: direct-routing-migrating.md
         - name: Monitorar e solucionar problemas do Roteamento Direto
           items:
-            - name: Visão geral
+            - name: Visão Geral
               href: direct-routing-monitor-and-troubleshoot.md
             - name: Painel de Integridade
               href: direct-routing-health-dashboard.md
-        - name: Referência técnica do Roteamento direto
+        - name: Referência técnica do Roteamento Direto
           items:
             - name: Failover de tronco em chamadas de saída
               href: direct-routing-trunk-failover-on-outbound-call.md
-            - name: Códigos do país do caminho da mídia
+            - name: Códigos do país/região do caminho da mídia
               href: direct-routing-country-codes.md
-            - name: Script do PowerShell para testar conexões de controlador de borda da sessão
+            - name: Script do Windows PowerShell para testar conexões de Controlador de Borda da Sessão
               href: sip-tester-powershell-script.md
             - name: Gerenciar notificações de chamadas
               href: direct-routing-call-notifications.md
@@ -606,13 +606,13 @@
                   href: direct-routing-protocols-media.md
             - name: Gerenciar uma política de roteamento de voz
               href: manage-voice-routing-policies.md
-            - name: Aparelho de filial persistente de roteamento direto
+            - name: Dispositivo de Ramificação de Roteamento Direto Sobrevivente
               href: direct-routing-survivable-branch-appliance.md
     - name: Telefones
       items:
         - name: Gerenciar números de telefone para sua organização
           href: manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md
-        - name: Diferentes tipos de números de telefone utilizados no Plano de chamadas
+        - name: Diferentes tipos de números de telefone utilizados no Plano de Chamadas
           href: different-kinds-of-phone-numbers-used-for-calling-plans.md
         - name: Obter números de telefone para seus usuários
           href: getting-phone-numbers-for-your-users.md
@@ -652,7 +652,7 @@
           href: manage-your-network-topology.md
     - name: Chamada de emergência
       items:
-        - name: Visão geral
+        - name: Visão Geral
           href: what-are-emergency-locations-addresses-and-call-routing.md
         - name: Configurar chamadas de emergência dinâmicas
           href: configure-dynamic-emergency-calling.md
@@ -672,19 +672,19 @@
           href: manage-emergency-calling-policies.md
         - name: Gerenciar políticas de roteamento de chamada
           href: manage-emergency-call-routing-policies.md
-    - name: Estudo de caso da migração de voz da contoso
+    - name: Estudo de caso da migração de voz da Contoso
       items:
-        - name: Visão geral
+        - name: Visão Geral
           href: voice-case-study-overview.md
-        - name: Atualização Teams
+        - name: Plano de atualização Teams
           href: voice-case-study-migration-plan.md
-        - name: Sistema Telefônico
+        - name: Sistema de Telefonia
           href: voice-case-study-phone-system.md
-        - name: Roteamento baseado em local
+        - name: Roteamento com Base na Localização
           href: voice-case-study-location-based-routing.md
         - name: Chamada de emergência
           href: voice-case-study-emergency-calling.md
-        - name: Conferência por Áudio
+        - name: Audioconferência
           href: voice-case-study-audio-conferencing.md
         - name: Atendedores automáticos e filas de chamadas
           href: voice-case-study-call-queues.md
@@ -692,43 +692,43 @@
       items:
         - name: Gerenciamento de número de telefone de país
           items:
-            - name: Gerenciamento de números de telefone para a Austrália
+            - name: Gerenciamento de número de telefone para a Austrália
               href: manage-phone-numbers-for-your-organization/phone-number-management-for-australia.md
-            - name: Gerenciamento de números de telefone para a Austrália
+            - name: Gerenciamento de número de telefone para a Áustria
               href: manage-phone-numbers-for-your-organization/phone-number-management-for-austria.md
-            - name: Gerenciamento de números de telefone para a Bélgica
+            - name: Gerenciamento de número de telefone para a Bélgica
               href: manage-phone-numbers-for-your-organization/phone-number-management-for-belgium.md
-            - name: Gerenciamento de números de telefone para o Canadá
+            - name: Gerenciamento de número de telefone para o Canadá
               href: manage-phone-numbers-for-your-organization/phone-number-management-for-canada.md
-            - name: Gerenciamento de números de telefone para a Dinamarca
+            - name: Gerenciamento de número de telefone para a Dinamarca
               href: manage-phone-numbers-for-your-organization/phone-number-management-for-denmark.md
-            - name: Gerenciamento de números de telefone para a França
+            - name: Gerenciamento de número de telefone para a França
               href: manage-phone-numbers-for-your-organization/phone-number-management-for-france.md
-            - name: Gerenciamento de números de telefone para a Alemanha
+            - name: Gerenciamento de número de telefone para a Alemanha
               href: manage-phone-numbers-for-your-organization/phone-number-management-for-germany.md
-            - name: Gerenciamento de números de telefone para a Irlanda
+            - name: Gerenciamento de número de telefone para a Irlanda
               href: manage-phone-numbers-for-your-organization/phone-number-management-for-ireland.md
-            - name: Gerenciamento de números de telefone para a Itália
+            - name: Gerenciamento de número de telefone para a Itália
               href: manage-phone-numbers-for-your-organization/phone-number-management-for-italy.md
-            - name: Gerenciamento de números de telefone para o Japão
+            - name: Gerenciamento de número de telefone para o Japão
               href: manage-phone-numbers-for-your-organization/phone-number-management-for-japan.md
-            - name: Gerenciamento de números de telefone para Portugal
+            - name: Gerenciamento de número de telefone para Portugal
               href: manage-phone-numbers-for-your-organization/phone-number-management-for-portugal.md
-            - name: Gerenciamento de números de telefone para a Espanha
+            - name: Gerenciamento de número de telefone para a Espanha
               href: manage-phone-numbers-for-your-organization/phone-number-management-for-spain.md
-            - name: Gerenciamento de números de telefone para os Países Baixos
+            - name: Gerenciamento de número de telefone para os Países Baixos
               href: manage-phone-numbers-for-your-organization/phone-number-management-for-the-netherlands.md
-            - name: Gerenciamento de números de telefone para a Suécia
+            - name: Gerenciamento de número de telefone para a Suécia
               href: manage-phone-numbers-for-your-organization/phone-number-management-for-sweden.md
-            - name: Gerenciamento de números de telefone para a Suíça
+            - name: Gerenciamento de número de telefone para a Suíça
               href: manage-phone-numbers-for-your-organization/phone-number-management-for-switzerland.md
-            - name: Gerenciamento de números de telefone para o Reino Unido
+            - name: Gerenciamento de número de telefone para o Reino Unido
               href: manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-k.md
-            - name: Gerenciamento de números de telefone para os Estados Unidos
+            - name: Gerenciamento de número de telefone para os Estados Unidos
               href: manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-s.md
         - name: Limitações e restrições de discagem gratuita
           items:
-            - name: Visão geral
+            - name: Visão Geral
               href: toll-free-dialing-limitations-and-restrictions.md
             - name: Argentina
               href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-argentina.md
@@ -736,13 +736,13 @@
               href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-australia.md
             - name: Áustria
               href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-austria.md
-            - name: Belarus
+            - name: República de Belarus
               href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-belarus.md
             - name: Bélgica
               href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-belgium.md
             - name: Belize
               href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-belize.md
-            - name: Bósnia & Herzegovina
+            - name: Bósnia e Herzegovina
               href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-bosnia-and-herzegovina.md
             - name: Brasil
               href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-brazil.md
@@ -750,11 +750,11 @@
               href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-brunei.md
             - name: Bulgária
               href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-bulgaria.md
-            - name: Chile
+            - name: 'Chile '
               href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-chile.md
-            - name: China (norte)
+            - name: China (Norte)
               href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-chinanorth-10-800-714-xxxx-range.md
-            - name: China (sul)
+            - name: China (Sul)
               href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-chinasouth-10-800-140-xxxx-range.md
             - name: Colômbia
               href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-columbia.md
@@ -778,9 +778,9 @@
               href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-germany.md
             - name: Honduras
               href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-honduras.md
-            - name: Hong Kong
+            - name: Hong-Kong
               href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-hong-kong.md
-            - name: Hungria
+            - name: 'Hungria '
               href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-hungary.md
             - name: Índia
               href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-india.md
@@ -820,7 +820,7 @@
               href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-poland.md
             - name: Portugal
               href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-portugal.md
-            - name: Catar
+            - name: 'Catar '
               href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-qatar.md
             - name: Romênia
               href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-romania.md
@@ -860,9 +860,9 @@
               href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-venezuela.md
             - name: Vietnã
               href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-vietnam.md
-        - name: Gerenciar créditos de comunicação
+        - name: Gerenciar Créditos de Comunicações
           items:
-            - name: O que são Créditos de Comunicação?
+            - name: O que são Créditos de Comunicações?
               href: what-are-communications-credits.md
             - name: Configurar Créditos de Comunicação para sua organização
               href: set-up-communications-credits-for-your-organization.md
@@ -927,9 +927,9 @@
       items:
         - name: Planejar seu projeto e os requisitos
           items:
-            - name: Visão geral
+            - name: Visão Geral
               href: upgrade-plan-journey.md
-            - name: Listar os participantes em seu projeto
+            - name: Recrutar as partes interessadas do projeto
               href: upgrade-enlist-stakeholders.md
             - name: Definir o escopo de seu projeto
               href: upgrade-define-project-scope.md
@@ -955,7 +955,7 @@
               href: upgrade-prepare-environment-prepare-service.md
         - name: Preparar sua organização para o Teams
           items:
-            - name: Visão geral de preparação Organizacional
+            - name: Visão geral de prontidão organizacional
               href: upgrade-prepare-organization.md
             - name: Avaliar prontidão da mudança organizacional
               href: upgrade-org-change-readiness.md
@@ -963,11 +963,11 @@
               href: upgrade-user-readiness.md
     - name: Implementar sua atualização
       items:
-        - name: Visão geral
+        - name: Visão Geral
           href: upgrade-to-Teams.md
         - name: Atualizar o Skype for Business Online para o Teams
           href: upgrade-to-Teams-execute-SkypeforBusinessOnline.md
-        - name: Atualizar do Skype for Business local para o Teams
+        - name: Atualizar Skype for Business local para o Teams
           href: upgrade-to-Teams-execute-SkypeforBusinessHybridOnPrem.md
     - name: 'Operar, adotar e otimizar'
       href: continue-journey.md
@@ -979,7 +979,7 @@
       items:
         - name: Diretrizes de atualização para os administradores de TI
           items:
-            - name: Visão geral
+            - name: Visão Geral
               href: upgrade-to-teams-on-prem-overview.md
             - name: Métodos de atualização
               href: upgrade-to-teams-on-prem-upgrade-methods.md
@@ -1005,7 +1005,7 @@
       href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/plan-hybrid-connectivity?toc=/SkypeForBusiness/sfbhybridtoc/toc.json'
     - name: Configurar conectividade híbrida
       items:
-        - name: Visão geral
+        - name: Visão Geral
           href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-hybrid-connectivity'
         - name: Configurar o Azure AD Connect para ambientes híbridos
           href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-azure-ad-connect'
@@ -1013,7 +1013,7 @@
           href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-federation-with-skype-for-business-online'
     - name: Mover os usuários entre um ambiente local e a nuvem
       items:
-        - name: Visão geral
+        - name: Visão Geral
           href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-between-on-premises-and-cloud'
         - name: Migrar usuários de um ambiente local para o Teams
           href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-from-on-premises-to-teams'
@@ -1029,7 +1029,7 @@
       href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-a-multi-forest-environment-for-hybrid'
     - name: Consolidação na nuvem para o Teams e Skype for Business
       items:
-        - name: Visão geral
+        - name: Visão Geral
           href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/cloud-consolidation'
         - name: Atualizar o certificado de borda
           href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/cloud-consolidation-edge-certificates'
@@ -1047,7 +1047,7 @@
       items:
         - name: O que comprar para obter o Business Voice
           href: business-voice/what-to-buy.md
-        - name: Obtenha ajuda de um revendedor ou parceiro
+        - name: Obter ajuda de um revendedor ou parceiro
           href: business-voice/reseller-partner-support.md
         - name: Verificar sua conexão com a Internet
           href: business-voice/get-ready-internet.md
@@ -1055,7 +1055,7 @@
           href: business-voice/prepare-users.md
     - name: Executar o Assistente de Introdução
       href: business-voice/use-getting-started-wizard.md
-    - name: Coisas a experimentar
+    - name: Tarefas a fazer
       href: business-voice/things-to-try.md
     - name: Personalizar sua configuração
       items:
@@ -1069,11 +1069,11 @@
           href: business-voice/policy-packages.md
         - name: Criar usuários adicionais
           href: business-voice/create-users.md
-        - name: 'Exemplo: configurar uma fila de chamadas'
+        - name: Exemplo – configurar uma fila de chamadas
           href: /SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-cq?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
         - name: Configurar filas de chamadas
           href: business-voice/set-up-call-queues.md
-        - name: 'Exemplo: configurar um atendedor automático'
+        - name: Como eu configuro um atendedor automático?
           href: tutorial-org-aa.yml
         - name: Configurar atendedores automáticos
           href: business-voice/set-up-auto-attendants.md
@@ -1091,7 +1091,7 @@
       href: business-voice/partner-resources.md
 - name: Diretrizes governamentais e de indústrias
   items:
-    - name: Visão geral
+    - name: Visão Geral
       href: expand-teams-across-your-org/expand-teams-across-your-organization-landing-page.md
     - name: Todos os setores
       items:
@@ -1100,46 +1100,46 @@
         - name: Turnos do Teams
           href: expand-teams-across-your-org/shifts-for-teams-landing-page.md
           items:
-            - name: Gerenciar o aplicativo Shifts para sua organização no Teams
+            - name: Gerenciar o aplicativo Turnos para sua organização no Teams
               href: expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md
-    - name: Equipes para Serviços de Saúde
+    - name: Teams para Serviços de Saúde
       items:
-        - name: Introdução ao Teams para organizações de saúde
+        - name: Começar com o Teams para organizações de saúde
           href: expand-teams-across-your-org/healthcare/teams-in-hc.md
         - name: Visitas virtuais
           items:
-            - name: Visitas virtuais com o Teams-integração ao EHR
+            - name: Visitas virtuais com o Teams - Integração com EHR
               href: expand-teams-across-your-org/healthcare/ehr-admin.md
-            - name: Visitas virtuais com livros e equipes
+            - name: Visitas virtuais com o Bookings e o Teams
               href: bookings-app-admin.md
         - name: Exibir e atribuir pacotes de política
           href: policy-packages-healthcare.md
         - name: Mensagens seguras
           items:
-            - name: Mensagens seguras
+            - name: Mensagens Seguras
               href: expand-teams-across-your-org/healthcare/messaging-policies-hc.md
             - name: Delegação de mensagem
               href: expand-teams-across-your-org/healthcare/hc-delegates.md
-        - name: Modelos de equipes
+        - name: Modelos do Teams
           items:
-            - name: Usar modelos de assistência médica do teams
+            - name: Usar os modelos de saúde do Teams
               href: expand-teams-across-your-org/healthcare/healthcare-templates-admin-console.md
-            - name: Modelos de equipe para assistência médica
+            - name: Modelos do Teams para saúde
               href: expand-teams-across-your-org/healthcare/healthcare-templates.md
-        - name: Gerenciar o aplicativo listas
+        - name: Gerenciar o aplicativo Listas
           href: manage-lists-app.md
-        - name: Gerenciar o aplicativo tarefas
+        - name: Gerenciar o aplicativo Tarefas
           href: manage-tasks-app.md
         - name: Turnos do Teams
           items:
             - name: Turnos do Teams
               href: expand-teams-across-your-org/shifts-for-teams-landing-page.md
-            - name: Gerenciar o aplicativo turnos
+            - name: Gerenciar o aplicativo Turnos
               href: expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md
-    - name: Equipes para Educação
+    - name: Microsoft Teams para Educação
       href: expand-teams-across-your-org/teams-for-education-landing-page.md
       items:
-        - name: Início rápido - Administradores do Teams for Education
+        - name: Início rápido - Administradores do Teams para Educação
           href: teams-quick-start-edu.yml
         - name: Começar a usar o aprendizado remoto
           href: remote-learning-edu.md
@@ -1147,46 +1147,46 @@
           href: policy-packages-edu.md
         - name: Atribuir políticas a grandes conjuntos de usuários
           href: batch-group-policy-assignment-edu.md
-        - name: Script do PowerShell para criar grupos de segurança para educadores e alunos
+        - name: Script do Windows PowerShell para criar grupos de segurança para educadores e alunos
           href: scripts/powershell-script-security-groups-edu.md
         - name: Diretriz de baixa largura de banda para administradores do Education
           href: edu-remote-low-bandwidth.md
         - name: Introdução ao Insights
           href: class-insights.md
-        - name: Tarefas do Teams for Education
+        - name: Tarefas do Teams para Educação
           href: expand-teams-across-your-org/assignments-in-teams.md
         - name: Recursos do Teams para administradores de Educação
           href: resources-teams-edu.md
         - name: Perguntas frequentes sobre governança do Microsoft Education para administradores
           href: plan-teams-governance-edu.md
-        - name: Instale a integração do Moodle
+        - name: Instalar a Integração do Moodle
           href: install-moodle-integration.md
         - name: Licenciamento do Teams para Educação
           href: teams-edu-licensing.md
-        - name: Referência de SKU Education
+        - name: Referência de SKU Educação
           href: sku-reference-edu.md
-    - name: Teams para trabalhadores de linha de frente
+    - name: Teams para Firstline Workers
       items:
         - name: Início rápido para Firstline Workers
           href: firstline-workers-quickstart.yml
-        - name: Implantação programada de trabalhadores de primeira linha
+        - name: Implantação programada de Firstline Workers
           href: flw-scripted-deployment.md
-        - name: Gerenciar o acesso baseado em turnos para trabalhadores de primeira
+        - name: Gerenciar o acesso baseado em turnos para FirstLine Workers
           href: expand-teams-across-your-org/shifts/manage-shift-based-access-flw.md
         - name: RealWear para Microsoft Teams
           href: flw-realwear.md
         - name: Walkie Talkie
           href: walkie-talkie.md
-        - name: Criar um aplicativo do portal de intranet do Teams a partir de um site ou página do SPO
+        - name: Criar um aplicativo do Portal de Intranet do Teams a partir de um site ou página do SPO
           href: teams-standalone-static-tabs-using-spo-sites.md
     - name: Teams para o Varejo
       href: expand-teams-across-your-org/teams-for-retail-landing-page.md
       items:
-        - name: Introdução aos modelos de equipes de varejo no centro de administração
+        - name: Introdução aos modelos de Varejo do Teams no centro de administração
           href: retail-teams-templates-in-the-admin-console.md
-        - name: Introdução aos modelos de varejo do Teams
+        - name: Introdução aos modelos de Varejo do Teams
           href: get-started-with-retail-teams-templates.md
-    - name: Equipes para o Governo
+    - name: Teams para o Governo
       href: expand-teams-across-your-org/teams-for-government-landing-page.md
       items:
         - name: Oferecer suporte aos trabalhadores remotos (WFH)
@@ -1195,7 +1195,7 @@
           href: government-teams-templates-in-the-admin-console.md
         - name: Gerenciar a oferta de Avaliação do Office 365 G1
           href: g1-trial-license.md
-        - name: Plano para o Microsoft 365 Government - GCC
+        - name: Plano para o Microsoft 365 Governo - GCC
           href: plan-for-government-gcc.md
         - name: Plano para o Microsoft 365 Government - GCC Alto
           href: plan-for-government-gcc-high.md
@@ -1207,23 +1207,23 @@
           href: policy-packages-gov.md
 - name: 'Segurança, privacidade e conformidade'
   items:
-    - name: Visão geral
+    - name: Visão Geral
       href: security-compliance-overview.md
     - name: Segurança
       items:
         - name: Guia de segurança
           href: teams-security-guide.md
-        - name: Azure Sentinel e Teams
+        - name: Microsoft Azure Sentinel e Teams
           href: teams-sentinel-guide.md
         - name: Modelos de identidade e autenticação
           href: identify-models-authentication.md
-        - name: Faça logon no Microsoft Teams
+        - name: Entrar no Microsoft Teams
           href: sign-in-teams.md
-        - name: Links seguros no Teams
+        - name: Links Seguros no Teams
           href: 'https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-links-for-teams?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json'
         - name: Políticas de controle de aplicativo do AppLocker
           href: applocker-in-teams.md
-        - name: Bloquear acesso ao Sharepoint
+        - name: Bloquear acesso ao Microsoft Office SharePoint Online
           href: block-access-sharepoint.md
     - name: Conformidade
       items:
@@ -1233,7 +1233,7 @@
           href: retention-policies.md
         - name: Conformidade de comunicações
           href: communication-compliance.md
-        - name: Gravação baseada em políticas para chamadas & reuniões
+        - name: Gravação baseada em políticas para chamadas e reuniões
           href: teams-recording-policy.md
         - name: Prevenção contra Perda de Dados
           href: 'https://docs.microsoft.com/microsoft-365/compliance/dlp-microsoft-teams?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json'
@@ -1247,13 +1247,13 @@
           href: audit-log-events.md
     - name: Privacidade
       items:
-        - name: Privacidade e Microsoft Teams
+        - name: Privacidade e o Microsoft Teams
           href: teams-privacy.md
         - name: Práticas de coleta de dados
           href: data-collection-practices.md
         - name: Localização dos dados no Teams
           href: location-of-data-in-teams.md
-        - name: Bloquear o acesso ao SharePoint Online para usuários específicos
+        - name: Bloquear o acesso ao Microsoft Office SharePoint Online para usuários específicos
           href: block-access-sharepoint.md
         - name: Visão geral do controle de políticas
           href: policy-control-overview.md
@@ -1271,7 +1271,7 @@
       href: upgrade-enhance-my-service.md
     - name: Monitorar e gerenciar a qualidade da chamada
       items:
-        - name: Monitorar e gerenciar a qualidade da chamada
+        - name: Monitorar e melhorar a qualidade da chamada
           href: monitor-call-quality-qos.md
         - name: Painel de Qualidade da Chamada (CQD)
           items:
@@ -1305,7 +1305,7 @@
                   href: CQD-PSTN-report.md
         - name: Análise de Chamada
           items:
-            - name: Configurar Análise de Chamada
+            - name: Configurar análise de chamada
               href: set-up-call-analytics.md
             - name: Usar a análise de chamada para solucionar problemas de baixa qualidade da chamada
               href: use-call-analytics-to-troubleshoot-poor-call-quality.md
@@ -1349,15 +1349,15 @@
           href: proxy-servers-for-skype-for-business-online.md
         - name: Planejar o Grupos do Microsoft 365 ao criar equipes no Teams
           href: plan-office-365-groups.md
-        - name: Planejar o gerenciamento do ciclo de vida no Teams
+        - name: Planejar o gerenciamento de ciclo de vida no Teams
           href: plan-teams-lifecycle.md
         - name: Plano de governança no Teams
           href: plan-teams-governance.md
     - name: Instalar o Teams
       items:
-        - name: Obter clientes para o Teams
+        - name: Obter clientes para o Microsoft Teams
           href: get-clients.md
-        - name: Obtenha o Teams para Android na China
+        - name: Obter o Teams para Android na China
           href: get-teams-android-in-china.md
         - name: Requisitos de hardware para o aplicativo Teams
           href: hardware-requirements-for-the-teams-app.md
@@ -1365,7 +1365,7 @@
           href: hardware-decoders-and-encoders.md
         - name: Instalar o Teams usando MSI
           href: msi-deployment.md
-        - name: Habilitar o Teams em sua organização
+        - name: Ativar o Teams na sua organização
           href: Office-365-set-up.md
         - name: Como o Microsoft Teams usa a memória
           href: teams-memory-usage-perf.md
@@ -1407,7 +1407,7 @@
       items:
         - name: Grupos do Microsoft 365 e o Teams
           href: office-365-groups.md
-        - name: Criar uma conta de recursos do Microsoft 365 usando o centro de administração do Microsoft 365
+        - name: Criar uma conta de recursos do Microsoft 365 usando o Centro de administração do Microsoft 365
           href: devices/resource-account-ui.md
         - name: Aprimorar os grupos existentes do Microsoft 365 com o Teams
           href: enhance-office-365-groups.md
@@ -1418,7 +1418,7 @@
               href: exchange-hybrid-organization.md
             - name: Usar regras de fluxo de email com o Exchange
               href: 'https://docs.microsoft.com/microsoft-365/security/office-365-security/create-safe-sender-lists-in-office-365'
-        - name: Como o SharePoint Online e o OneDrive for Business interagem com o Teams
+        - name: Como o Microsoft Office SharePoint Online e o Microsoft OneDrive for Business for Business interagem com o Teams
           href: sharepoint-onedrive-interact.md
         - name: Experiência do Teams em um locatário habilitado para Multi-Geo do Microsoft 365 ou Office 365
           href: teams-experience-o365odb-spo-multi-geo.md
@@ -1432,33 +1432,33 @@
           href: devices/manage-device-tags.md
         - name: Telefones para o Teams
           href: devices/phones-for-teams.md
-        - name: O Microsoft Teams exibe
+        - name: Telas do Teams
           href: devices/teams-displays.md
-        - name: Atualizar telefones de equipes para o Microsoft Teams
+        - name: Atualizar telefones do Teams às telas do Teams
           href: devices/upgrade-phones-to-displays.md
-        - name: Implantar o Microsoft Teams e os monitores de equipes usando o Intune
+        - name: Implantar telefones e telas do Teams usando o Intune
           href: devices/phones-displays-deploy.md
         - name: Dispositivos de áudio e vídeo USB
           href: devices/usb-devices.md
         - name: Implantar barras de colaboração do Microsoft Teams
           href: devices/collab-bar-deploy.md
-        - name: Soluções e dispositivos com sala de reunião
+        - name: Dispositivos e soluções para salas de reunião
           href: /skypeforbusiness/certification/devices-meeting-rooms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
         - name: Telefones IP certificados para o Microsoft Teams
           href: devices/teams-ip-phones.md
         - name: Telefones para o Skype for Business Online
           href: /SkypeForBusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/deploying-skype-for-business-online-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
-    - name: PowerShell do Teams
+    - name: Windows PowerShell do Teams
       items:
-        - name: Visão geral
+        - name: Visão Geral
           href: teams-powershell-overview.md
-        - name: Instalar o PowerShell do Teams
+        - name: Instalar o Windows PowerShell do Teams
           href: teams-powershell-install.md
-        - name: Gerenciar Teams com o PowerShell do Teams
+        - name: Gerenciar Teams com o Windows PowerShell do Teams
           href: teams-powershell-managing-teams.md
         - name: Notas de versão do Windows PowerShell do Teams
           href: teams-powershell-release-notes.md
-        - name: Mover do conector do Skype for Business online para o módulo do PowerShell do teams
+        - name: Mover do Conector do Skype for Business Online para o módulo Windows PowerShell do Teams
           href: teams-powershell-move-from-sfbo.md
         - name: Referência de Cmdlet para o Teams
           href: 'https://docs.microsoft.com/powershell/module/teams/?view=teams-ps'
@@ -1470,9 +1470,9 @@
       href: teams-updates.md
     - name: Como pesquisar o PIN de suporte
       href: support-pin.md
-    - name: Disponibilidade de Audioconferência e Planos de Chamadas por país e região
+    - name: Disponibilidade de país e região para planos de Audioconferência e Chamadas
       items:
-        - name: Visão geral
+        - name: Visão Geral
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md
         - name: Albânia
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-albania.md
@@ -1488,13 +1488,13 @@
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-austria.md
         - name: Bahamas
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-bahamas.md
-        - name: Bahrein
+        - name: Bahrain
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-bahrain.md
         - name: Bangladesh
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-bangladesh.md
         - name: Barbados
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-barbados.md
-        - name: Belarus
+        - name: Bielorrússia
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-belarus.md
         - name: Bélgica
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-belgium.md
@@ -1504,7 +1504,7 @@
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-benin.md
         - name: Bermuda
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-bermuda.md
-        - name: Bósnia & Herzegovina
+        - name: Bósnia e Herzegovina
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-bosniaherzegovina.md
         - name: Brasil
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-brazil.md
@@ -1520,7 +1520,7 @@
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-canada.md
         - name: Ilhas Cayman
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-cayman-islands.md
-        - name: Chile
+        - name: 'Chile '
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-chile.md
         - name: China
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-china.md
@@ -1568,9 +1568,9 @@
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-guatemala.md
         - name: Honduras
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-honduras.md
-        - name: Hong Kong
+        - name: Hong-Kong
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-hong-kong.md
-        - name: Hungria
+        - name: 'Hungria '
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-hungary.md
         - name: Índia
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-india.md
@@ -1676,7 +1676,7 @@
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-taiwan.md
         - name: Tailândia
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-thailand.md
-        - name: Trinidad & Tobago
+        - name: Trinidad e Tobago
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-trinidad-and-tobago.md
         - name: Tunísia
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-tunisia.md
