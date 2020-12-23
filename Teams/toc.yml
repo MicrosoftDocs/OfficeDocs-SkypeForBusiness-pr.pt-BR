@@ -636,6 +636,8 @@
               href: phone-number-calling-plans/manually-submit-port-order.md
             - name: Qual é o status dos seus pedidos de portabilidade?
               href: phone-number-calling-plans/port-order-status.md
+        - name: Centros de taxas e cobertura com suporte
+          href: phone-number-calling-plans/supported-rate-centers-coverage-matrix.md
     - name: Roteamento de chamadas
       items:
         - name: O que são planos de discagem?
