@@ -16,24 +16,36 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Notas de versão para recursos de administração do Microsoft Teams.
-ms.openlocfilehash: bfb38f71546e4713a18e1bd504efa5ca8da51ad2
-ms.sourcegitcommit: 380a96f1ed2cefb429286854f06546bdb28d7d74
+ms.openlocfilehash: f81ba33f75a7b94618b0344ce2136009b42e8402
+ms.sourcegitcommit: ef88694f6015ed2ff840ae78657b84700ce16815
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "49701309"
+ms.lasthandoff: 12/23/2020
+ms.locfileid: "49728161"
 ---
 # <a name="release-notes-for-microsoft-teams-admin-features"></a>Notas de versão para recursos de administração do Microsoft Teams
 
 Estas notas de versão fornecem informações sobre novos recursos de administração do Microsoft Teams.
 
-## <a name="november-25-2020"></a>25 de novembro de 2020
+## <a name="december-21-2020"></a>21 de dezembro de 2020
 
-### <a name="set-up-microsoft-teams-meeting-add-on-for-google-workspace"></a>Configurar o complemento de reunião do Microsoft Teams para o Google Workspace
+### <a name="supported-rate-centers-and-coverage-for-calling-plans"></a>Centros e coberturas de taxa com suporte para planos de chamada
 
-Usar o complemento de reunião do Microsoft Teams permite aos usuários do calendário do Google agendar e ingressar em uma reunião do Microsoft Teams diretamente do Google Workspace. Os usuários receberão acesso a recursos de reuniões do Teams, incluindo videoconferência e videoconferência, compartilhamento de tela, chat de reunião, quadros de desenho digital e muito mais. Mantenha-se conectado e organizado para se reunir mais juntos no trabalho, na escola e na vida.
+Uma central de taxas é o termo do setor para uma área geográfica que define tradicionalmente os limites de chamadas locais, taxas de cobrança e atribuição de número de telefone para a rede telefônica pública comutada (PSTN). [Saiba mais](https://docs.microsoft.com/microsoftteams/phone-number-calling-plans/supported-rate-centers-coverage-matrix).
 
-O suplemento de reunião do Microsoft Teams para Google Workspace deve ser habilitado por um administrador de equipe antes que os usuários do locatário possam acessar o aplicativo. [Saiba mais](https://docs.microsoft.com/microsoftteams/add-gsuite-thru-aad).
+## <a name="december-18-2020"></a>18 de dezembro de 2020
+
+### <a name="updated-meeting-settings-policies-for-breakout-rooms"></a>Políticas de configurações de reunião atualizadas para salas de debates
+
+ As salas de sessões de grupo no Teams são usadas para dividir as reuniões em salas de reunião diferentes e menores. Essa configuração controla se o organizador de reuniões tem a opção de criar e gerenciar salas de sessões em grupo em reuniões que eles agendam ou iniciam. Essa configuração de política afeta todas as reuniões, incluindo reuniões Reunir Agora. [Saiba mais](https://docs.microsoft.com/microsoftteams/meeting-policies-in-teams#meeting-policy-settings---allow-breakout-rooms).
+
+## <a name="december-9-2020"></a>9 de dezembro de 2020
+
+### <a name="advisor-for-teams-with-microsoft-365-learning-pathways"></a>Advisor para Teams com caminhos de aprendizagem do Microsoft 365
+
+Os roteiros de aprendizagem do Microsoft 365 são uma solução de aprendizado sob demanda que você pode personalizar para treinar seus usuários e aumentar o uso e a adoção do Teams em sua organização. Use os roteiros de aprendizagem junto com o Assistente do Teams para fazer com que os usuários trabalhem rapidamente e aumentem a adoção.
+
+Os roteiros de aprendizagem fornecem a você um modelo de site do SharePoint Online e a habilidade para criar facilmente um site de aprendizagem para os seus usuários. Você pode personalizar o portal de treinamento dos roteiros de aprendizagem para incluir conteúdo de suporte e treinamento específico às necessidades dos usuários. Use as playlists do Teams do catálogo online da Microsoft e adicione a sua. [Saiba mais](https://docs.microsoft.com/microsoftteams/use-advisor-teams-roll-out#advisor-for-teams-and-microsoft-365-learning-pathways).
 
 ## <a name="october-28-2020"></a>28 de outubro de 2020
 
@@ -129,7 +141,7 @@ Como administrador, você pode controlar se os usuários podem ver e instalar os
 
 ### <a name="sharing-files-in-microsoft-teams"></a>Compartilhando arquivos no Microsoft Teams
 
-No Microsoft Teams, os usuários podem compartilhar conteúdo com outros usuários de equipes dentro e fora de sua organização. O compartilhamento no Teams é baseado nas configurações definidas no SharePoint e no OneDrive, portanto, o que você configurou para o SharePoint e o OneDrive também controlará o compartilhamento no Teams. [Saiba mais](https://docs.microsoft.com/MicrosoftTeams/sharing-files-in-teams).
+No Microsoft Teams os usuários podem compartilhar conteúdo com outros usuários do Microsoft Teams dentro e fora de sua organização. O compartilhamento no Microsoft Teams é baseado nas definições configuradas no Microsoft Office SharePoint Online e no OneDrive e o que você configurar para o Microsoft Office SharePoint Online e o OneDrive também controlará o compartilhamento no Microsoft Teams. [Saiba mais](https://docs.microsoft.com/MicrosoftTeams/sharing-files-in-teams).
 
 ## <a name="september-16-2020"></a>16 de setembro de 2020
 
