@@ -1,6 +1,6 @@
 ---
 title: Criar um 'aplicativo Portal da Intranet' do Teams a partir de um site ou página do SharePoint Online
-author: LanaChin
+author: cichur
 ms.author: heidip
 manager: serdars
 ms.topic: article
@@ -14,12 +14,12 @@ ms.reviewer: vinbel
 search.appverid: MET150
 description: Use um site ou uma página existente do SharePoint Online e crie uma guia estática independente que possa ser usada como um portal da Intranet para a sua organização.
 localization_priority: Priority
-ms.openlocfilehash: 09ff3fd57eee23c5eec9dfac118b68938c1c9f36
-ms.sourcegitcommit: a22a7b7e4bf556ee3e5e2e51c6f9f1c865a0724a
+ms.openlocfilehash: 1b89a17f81024fba05a1be9fb1dc4d59b1aceafd
+ms.sourcegitcommit: 67782296062528bbeade5cb9074143fee0536646
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/08/2020
-ms.locfileid: "45083161"
+ms.lasthandoff: 12/24/2020
+ms.locfileid: "49731109"
 ---
 # <a name="create-a-teams-intranet-portal-app-from-a-sharepoint-online-site-or-page"></a>Criar um 'aplicativo Portal da Intranet' do Teams a partir de um site ou página do SharePoint Online
 
@@ -42,7 +42,8 @@ Antes de começar:
 2. Você precisará conhecer o subdomínio de seu locatário, que será usado no espaço reservado **{{subdomínio}}**.
 
 3. Este artigo usará **{{siteUrl}}** como um espaço reservado para a *URL* do site ou da página que você escolheu.
-    - *URLs* de exemplo:   https://contoso.sharepoint.com/teams/Contoso   *ou* https://contoso.sharepoint.com/sites/Contoso
+    - Exemplo *URLs*: `https://contoso.sharepoint.com/teams/Contoso`
+        *ou* `https://contoso.sharepoint.com/sites/Contoso`
 4. Além disso, o **{{sitePath}}** será usado para indicar o *caminho* da URL (ex:/teams/Contoso).
     - Exemplos de *caminhos*: /teams/Contoso *ou* /sites/Contoso
 
@@ -71,11 +72,11 @@ Comece seguindo as etapas abaixo:
 - **contentUrl**: {{siteUrl}}/_layouts/15/teamslogon.aspx?SPFX=true&dest={{sitePath}}  
 - **websiteUrl**: {{siteUrl}}
 
-    Exemplo de **contentURL**: https://contoso.sharepoint.com/sites/ContosoHub/_layouts/15/teamslogon.aspx?SPFX=true&dest=/sites/ContosoHub
+    Exemplo de **contentURL**: `https://contoso.sharepoint.com/sites/ContosoHub/_layouts/15/teamslogon.aspx?SPFX=true&dest=/sites/ContosoHub`
 
 11. Navegue para **Domínios e permissões**. Verifique se a seção de domínios válidos contém o nome do seu domínio do SharePoint Online.
 
-    Exemplo: contoso.sharepoint.com
+    Exemplo: `contoso.sharepoint.com`
 
 12. Adicione as seguintes propriedades de **logon único** do aplicativo Web:
 
