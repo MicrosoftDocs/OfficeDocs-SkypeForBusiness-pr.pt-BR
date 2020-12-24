@@ -1,7 +1,7 @@
 ---
 title: Usar a API de envio de aplicativo Teams para enviar e aprovar seus aplicativos personalizados
-author: lanachin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.reviewer: joglocke, vaibhava
 ms.topic: article
@@ -17,20 +17,20 @@ f1.keywords:
 localization_priority: Normal
 search.appverid: MET150
 description: Saiba como aprovar seus aplicativos personalizados que são enviados usando a API de envio do aplicativo Teams no Microsoft Teams.
-ms.openlocfilehash: bdd13dbe4db46110250ea380eebd0ea1d011a322
-ms.sourcegitcommit: bb5229c9f7999358dcf0ba185ecfd7c881627a38
+ms.openlocfilehash: 5b6c8512943527a82b3477579e535bcc151331c0
+ms.sourcegitcommit: 67782296062528bbeade5cb9074143fee0536646
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "46824912"
+ms.lasthandoff: 12/24/2020
+ms.locfileid: "49731089"
 ---
 # <a name="publish-a-custom-app-submitted-through-the-teams-app-submission-api"></a>Publicar um aplicativo personalizado enviado por meio da API de envio do aplicativo Teams
 
-## <a name="overview"></a>Visão geral
+## <a name="overview"></a>Visão Geral
 
 > [!NOTE]
 > Quando você publica um aplicativo personalizado do Teams, ele está disponível para os usuários na loja de aplicativos da sua organização. Há duas maneiras de publicar um aplicativo personalizado e a maneira como você pode usar depende de como você obtém o aplicativo. **Este artigo se concentra em como aprovar e publicar um aplicativo personalizado que um desenvolvedor envia por meio da API de envio do aplicativo Teams**. O outro método, upload de um aplicativo personalizado, é usado quando um desenvolvedor envia um pacote de aplicativo em formato. zip. Para saber mais sobre esse método, consulte <a href="https://docs.microsoft.com/microsoftteams/upload-custom-apps" target="_blank">publicar um aplicativo personalizado carregando um pacote de aplicativo</a>.
- 
+
 Este artigo fornece uma orientação de ponta a ponta para como levar o aplicativo Teams do desenvolvimento à implantação para descoberta. Você terá uma visão geral das experiências conectadas que o Microsoft Teams oferece em todo o ciclo de vida do aplicativo para simplificar o desenvolvimento, a implantação e o gerenciamento de aplicativos personalizados na loja de aplicativos da sua organização.
 
 Abordaremos cada etapa do ciclo de vida, incluindo como os desenvolvedores podem usar a API de envio de aplicativos do teams para enviar aplicativos personalizados diretamente para o centro de administração do Microsoft Teams para que você possa revisar e aprovar, como definir políticas para gerenciar aplicativos para os usuários de sua organização e como os usuários os descobrirão no Teams.
@@ -47,13 +47,13 @@ A plataforma de desenvolvedor do Microsoft Teams facilita para os desenvolvedore
 
 ### <a name="submit-the-app"></a>Enviar o aplicativo
 
-Quando o aplicativo está pronto para uso na produção, o desenvolvedor pode enviar o aplicativo usando a API de envio do aplicativo Teams, que pode ser chamada a partir da <a href="https://docs.microsoft.com/graph/api/teamsapp-publish?view=graph-rest-1.0&tabs=http#example-2-upload-a-new-application-for-review-to-an-organizations-app-catalog" target="_blank">API do Graph</a>, um IDE (ambiente de desenvolvimento integrado), como o código do Visual Studio ou uma plataforma como aplicativos de energia e agentes de energia virtual. Isso torna o aplicativo disponível na página <a href="https://docs.microsoft.com/microsoftteams/manage-apps" target="_blank">gerenciar aplicativos</a> do centro de administração do Microsoft Teams, no qual você, o administrador pode revisar e aprová-lo. isso 
+Quando o aplicativo está pronto para uso na produção, o desenvolvedor pode enviar o aplicativo usando a API de envio do aplicativo Teams, que pode ser chamada a partir da <a href="https://docs.microsoft.com/azure/virtual-desktop/teams-on-wvd" target="_blank">API do Graph</a>, um IDE (ambiente de desenvolvimento integrado), como o código do Visual Studio ou uma plataforma como aplicativos de energia e agentes de energia virtual. Isso torna o aplicativo disponível na página <a href="https://docs.microsoft.com/microsoftteams/manage-apps" target="_blank">gerenciar aplicativos</a> do centro de administração do Microsoft Teams, no qual você, o administrador pode revisar e aprová-lo. isso
 
 A API de envio do aplicativo Teams, <a href="https://docs.microsoft.com/graph/api/teamsapp-publish?view=graph-rest-1.0&tabs=http#example-2-upload-a-new-application-for-review-to-an-organizations-app-catalog" target="_blank">criada no Microsoft Graph</a>, permite que sua organização se desenvolva na plataforma de sua escolha e automatiza o processo de envio para aprovação para aplicativos personalizados no Teams.
 
 Veja um exemplo de como essa etapa de envio de aplicativo parece no código do Visual Studio:
 
-![Captura de tela do envio de um aplicativo no código do Visual Studio](media/custom-app-lifecycle-submit-app.png)
+![enviando um aplicativo no código do Visual Studio](media/custom-app-lifecycle-submit-app.png)
 
 Lembre-se de que isso ainda não publica o aplicativo na loja de aplicativos da sua organização. Esta etapa envia o aplicativo para o centro de administração do Microsoft Teams, onde você pode aprová-lo para publicação na loja de aplicativos da sua organização.
 
@@ -65,11 +65,11 @@ A página <a href="https://docs.microsoft.com/microsoftteams/manage-apps" target
 
 Na tabela, um aplicativo recém enviado mostra automaticamente um **status de publicação** de **enviado** e **status** de **bloqueado**. Você pode classificar a coluna **status da publicação** em ordem decrescente para localizar rapidamente o aplicativo.
 
-![Captura de tela da página Gerenciar aplicativos mostrando solicitações pendentes e status do aplicativo ](media/custom-app-lifecycle-validate-app.png)
+![status da publicação ](media/custom-app-lifecycle-validate-app.png)
 
 Clique no nome do aplicativo para ir para a página de detalhes do aplicativo. Na guia **sobre** , você pode exibir detalhes sobre o aplicativo, incluindo descrição, status, emissor e ID do aplicativo.
 
-![Captura de tela da página de detalhes do aplicativo para um aplicativo enviado](media/custom-app-lifecycle-app-details.png)
+! página de detalhes do aplicativo para um aplicativo enviado] (mídia/custom-app-lifecycle-app-details.png)
 
 Para obter mais informações sobre como usar a API de gráfico para verificar o **status de publicação**, consulte <a href="https://docs.microsoft.com/graph/api/teamsapp-list?view=graph-rest-1.0&tabs=http#example-3-list-applications-with-a-given-id-and-return-the-submission-review-state" target="_blank">aqui</a>.
 
@@ -100,9 +100,9 @@ Para que você possa Pesquisar no log de auditoria, primeiro ative a auditoria n
 
 ## <a name="discover-and-adopt"></a>Descubra e adote
 
-Os usuários que têm permissões para o aplicativo podem encontrá-lo na loja de aplicativos da sua organização. Vá para ** *o nome da sua organização* específico** na página aplicativos para localizar os aplicativos personalizados da sua organização.
+Os usuários que têm permissões para o aplicativo podem encontrá-lo na loja de aplicativos da sua organização. Vá para ***o nome da sua organização* específico** na página aplicativos para localizar os aplicativos personalizados da sua organização.
 
-![Captura de tela da página de aplicativos mostrando o aplicativo publicado ](media/custom-app-lifecycle-discovery.png)
+![Página de aplicativos mostrando o aplicativo publicado ](media/custom-app-lifecycle-discovery.png)
 
 Se você criou e atribuiu uma política de configuração de aplicativo, o aplicativo é fixado à barra de aplicativos no Teams para facilitar o acesso para os usuários que receberam a política.
 
@@ -112,14 +112,14 @@ Para atualizar um aplicativo, os desenvolvedores devem continuar a seguir as eta
 
 Quando o desenvolvedor envia uma atualização para um aplicativo personalizado publicado, você receberá uma notificação no widget **aprovação pendente** da página <a href="https://docs.microsoft.com/microsoftteams/manage-apps" target="_blank">gerenciar aplicativos</a> . Na tabela, o **status de publicação** do aplicativo será definido como **atualização enviada**.
 
-![Captura de tela da página Gerenciar aplicativos mostrando solicitações pendentes e status do aplicativo ](media/custom-app-lifecycle-update-submitted.png)
+![Página Gerenciar aplicativos mostrando solicitações pendentes e status do aplicativo ](media/custom-app-lifecycle-update-submitted.png)
 
 Para revisar e publicar uma atualização de aplicativo:
 
 1. Na navegação à esquerda do centro de administração do Microsoft Teams, vá até **Team apps**  >  **gerenciar aplicativos**.
 2. Clique no nome do aplicativo para acessar a página de detalhes do aplicativo e selecione **Atualizar disponível** para revisar os detalhes da atualização.
 
-    ![Captura de tela da página Gerenciar aplicativos mostrando solicitações pendentes e status do aplicativo ](media/custom-app-lifecycle-update-app.png)
+    ![página de detalhes do aplicativo](media/custom-app-lifecycle-update-app.png)
 3. Quando estiver pronto, selecione **publicar** para publicar a atualização. Isso substitui o aplicativo existente, atualiza o número da versão e altera o **status de publicação** para **publicado**. Todas as políticas de permissão do aplicativo e políticas de configuração do aplicativo permanecem impostas para o aplicativo atualizado.
 
     Se você rejeitar a atualização, a versão anterior do aplicativo permanecerá publicada.
@@ -145,9 +145,9 @@ Na maioria dos casos, após a publicação de uma atualização de aplicativo, a
 * Uma nova guia configurável foi adicionada
 * As propriedades dentro de "webApplicationInfo" foram alteradas
 
-![Captura de tela mostrando os aplicativos que têm uma nova versão disponível](media/manage-your-custom-apps-update1.png)
+![nova versão disponível](media/manage-your-custom-apps-update1.png)
 
-![Captura de tela da opção de atualização para um aplicativo](media/manage-your-custom-apps-update2.png)
+![opção de atualização para um aplicativo](media/manage-your-custom-apps-update2.png)
 
 ## <a name="related-topics"></a>Tópicos relacionados
 

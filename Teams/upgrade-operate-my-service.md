@@ -1,7 +1,7 @@
 ---
 title: Operações para Microsoft Teams | Gerenciamento de serviços | Qualidade
-author: lanachin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c23d5d3967e681b0b30d69c5977672063f4e648e
-ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
+ms.openlocfilehash: fc6c39d03912f8a708eea91ce34b2a7f61a47828
+ms.sourcegitcommit: 67782296062528bbeade5cb9074143fee0536646
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "45085907"
+ms.lasthandoff: 12/24/2020
+ms.locfileid: "49731159"
 ---
 # <a name="operate-your-service"></a>Operar seu serviço
 
@@ -50,7 +50,7 @@ As tarefas e atividades neste guia são agrupadas em oito categorias, conforme m
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Pontos de decisão</td><td><ul><li>Decida como as operações serão implementadas para equipes.</li></ul></td></tr>
 
-<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Próximas etapas</td><td><ul><li>Examine o guia de operações totalmente.</li><li>Implemente uma estratégia de operações que se alinhe às metas da sua organização para fornecer a qualidade e a confiabilidade das cargas de trabalho de equipes.</li><li>Examine o guia de revisão da qualidade da experiência.</li><li> Implemente uma estratégia de operações para executar regularmente análises de qualidade de experiência para garantir que a implantação de suas equipes esteja operando em seus recursos de pico.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Próximos passos</td><td><ul><li>Examine o guia de operações totalmente.</li><li>Implemente uma estratégia de operações que se alinhe às metas da sua organização para fornecer a qualidade e a confiabilidade das cargas de trabalho de equipes.</li><li>Examine o guia de revisão da qualidade da experiência.</li><li> Implemente uma estratégia de operações para executar regularmente análises de qualidade de experiência para garantir que a implantação de suas equipes esteja operando em seus recursos de pico.</li></ul></td></tr>
 
 </table>
 
@@ -69,7 +69,7 @@ Certifique-se de que cada equipe que você tem uma boa compreensão das atividad
 Depois que um contrato estiver em vigor, as equipes correspondentes deverão começar a realizar a operação.
 
 <table>
-<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Próximas etapas</td>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Próximos passos</td>
 <td><ul><li>Use este documento para facilitar o exercício de mapeamento de funções operacionais.</li><li>Reúna-se com as respectivas equipes de suporte para atribuir nomes a cada item na lista de atividades necessárias.</li><li>Ganhe aceitação ou aprovação nas funções atribuídas.</li><li>Certifique-se de que as equipes correspondentes tenham o treinamento, preparação e recursos adequados para concluir as atividades necessárias delas.</li></ul></td></table>
 
 ### <a name="teams-service-dependencies"></a>Dependências do serviço Teams
@@ -94,7 +94,7 @@ Este guia abrange as principais áreas de foco para gerenciar o serviço do Micr
 
 [Como o Exchange e o Microsoft Teams interagem](exchange-teams-interact.md)
 
-[Como o SharePoint Online e o OneDrive for Business interagem com o Microsoft Teams](sharepoint-onedrive-interact.md)
+[Como o Microsoft Office SharePoint Online e o OneDrive for Business interagem com o Microsoft Teams](sharepoint-onedrive-interact.md)
 
 [A coexistência e interoperabilidade do Microsoft Teams e do Skype for Business](teams-and-skypeforbusiness-coexistence-and-interoperability.md)
 
@@ -145,7 +145,7 @@ Esses grupos podem incluir proprietários de serviços, helpdesks, grupos de sup
 
 ### <a name="monitoring-for-advanced-scenarios"></a>Monitorando cenários avançados
 
-Você pode monitorar a integridade do serviço e as alterações futuras aproveitando a API de comunicações do serviço para acessar a integridade do serviço e as alterações de forma programática. Use essa API para criar sua própria ferramenta de monitoramento ou conecte suas ferramentas de monitoramento existentes às comunicações do serviço do Microsoft 365 ou do Office 365, o que pode simplificar o modo como você monitora o ambiente. Para obter mais informações, consulte [Microsoft 365 ou Office 365 para desenvolvedores corporativos](https://msdn.microsoft.com/library/jj984343(v=office.15).aspx).
+Você pode monitorar a integridade do serviço e as alterações futuras aproveitando a API de comunicações do serviço para acessar a integridade do serviço e as alterações de forma programática. Use essa API para criar sua própria ferramenta de monitoramento ou conecte suas ferramentas de monitoramento existentes às comunicações do serviço do Microsoft 365 ou do Office 365, o que pode simplificar o modo como você monitora o ambiente. Para obter mais informações, consulte [Microsoft 365 ou Office 365 para desenvolvedores corporativos](https://docs.microsoft.com/office/developer-program/microsoft-365-developer-program-faq).
 
 ### <a name="dailyweeklymonthlyas-needed-tasks"></a>Tarefas diárias/semanais/mensais/necessárias
 
@@ -421,7 +421,7 @@ Os firewalls do lado do cliente podem afetar a qualidade das chamadas e até mes
 
 ### <a name="wi-fi-drivers"></a>Drivers de Wi-Fi
 
-Os drivers de Wi-Fi podem ser problemáticos. Como exemplo, um driver pode ter comportamentos de roaming muito agressivos entre pontos de acesso que podem induzir comutação de ponto de acesso desnecessária, que leva a uma qualidade de chamada ruim. Um driver de Wi-Fi com mau desempenho pode ser descoberto por meio de uma análise da qualidade da experiência (consulte [melhorar e monitorar a qualidade da chamada para o Microsoft Teams](monitor-call-quality-qos.md) para obter mais detalhes). É essencial implementar um processo orientado por qualidade que monitora novos drivers Wi-Fi e garante que eles sejam testados antes de serem implantados na população geral do usuário.
+Wi-Fi drivers podem ser problemáticos. Como exemplo, um driver pode ter comportamentos de roaming muito agressivos entre pontos de acesso que podem induzir comutação de ponto de acesso desnecessária, que leva a uma qualidade de chamada ruim. Um driver insatisfatório Wi-Fi pode ser descoberto por meio de uma análise da qualidade da experiência (consulte [melhorar e monitorar a qualidade da chamada para o Microsoft Teams](monitor-call-quality-qos.md) para obter mais detalhes). É essencial implementar um processo orientado por qualidade que monitora novos drivers de Wi-Fi e garante que eles sejam testados antes de serem implantados na população geral do usuário.
 
 ### <a name="endpoint-management"></a>Gerenciamento de ponto de extremidade
 
@@ -463,7 +463,7 @@ Mesmo que você tenha seguido a orientação anterior, os usuários da sua organ
 
 [Verificar a integridade do serviço do Microsoft Teams](service-health.md)
 
-[Entre em contato com o suporte para produtos para empresas - ajuda para administradores](https://support.office.com/article/Contact-support-for-business-products-Admin-Help-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)
+[Entre em contato com o suporte de produtos para empresas - Ajuda da Administração](https://support.office.com/article/Contact-support-for-business-products-Admin-Help-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)
 
 [Contatar o suporte Premier](https://support.microsoft.com/premier/contacts)
 

@@ -1,7 +1,7 @@
 ---
 title: Licenças de Complementos do Microsoft Teams
-ms.author: v-lanac
-author: LanaChin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.reviewer: mikedav
 ms.topic: conceptual
@@ -20,12 +20,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-mar2020
 description: Saiba mais sobre as licenças de complemento do Microsoft Teams e os recursos que você obtém com cada licença.
-ms.openlocfilehash: 2706f66259adb3bf6689eecd287331e899a89be1
-ms.sourcegitcommit: 739ffd5893abf6d181877d1110f9dc8230b3bfd2
+ms.openlocfilehash: fdd9a85cb2856606c5083fcc8f6f7b89a23a2b67
+ms.sourcegitcommit: 67782296062528bbeade5cb9074143fee0536646
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "48328260"
+ms.lasthandoff: 12/24/2020
+ms.locfileid: "49731139"
 ---
 # <a name="microsoft-teams-add-on-licenses"></a>Licenças de Complementos do Microsoft Teams
 
@@ -115,7 +115,7 @@ Aqui está um resumo, com base no plano de licenciamento.
 
   <sup>1</sup> só está disponível para organizações com menos de 300 usuários.
 
-Para saber mais, confira planos [do Microsoft 365 Education](https://www.microsoft.com/education/buy-license/microsoft365) e [do Office 365 Education](https://www.microsoft.com/microsoft-365/academic/compare-office-365-education-plan).
+Para saber mais, confira planos [do Microsoft 365 Education](https://www.microsoft.com/education/buy-license/microsoft365) e [do Office 365 Education](https://www.microsoft.com/education/products/office).
 
 > [!NOTE]
 > Se você precisar usar um serviço de telefonia de terceiros, o [Roteamento direto](../direct-routing-landing-page.md) será implantado em sua organização ou, se os planos de chamada não estiverem disponíveis em seu país ou região, você precisará usar o roteamento direto para recursos de voz.
@@ -177,7 +177,7 @@ Veja um resumo das ofertas de avaliação de recursos de voz.
 
   ![Opções baseadas em avaliação](../media/licensing-trial-offers.png)
 
- Seu plano básico não precisa ser uma oferta de avaliação para usar qualquer um desses testes para recursos de voz. Você pode usar um plano de negócios do Microsoft 365 ou uma empresa, governo, educação ou plano sem fins lucrativos com qualquer uma das ofertas de avaliação para recursos de voz. Para ver as ofertas de avaliação e Complementos disponíveis, no centro de administração do Microsoft 365, vá **Billing**para  >  **serviços de compra**de cobrança, selecione **outras categorias que podem ser de seu interesse**e selecione **Complementos**.
+ Seu plano básico não precisa ser uma oferta de avaliação para usar qualquer um desses testes para recursos de voz. Você pode usar um plano de negócios do Microsoft 365 ou uma empresa, governo, educação ou plano sem fins lucrativos com qualquer uma das ofertas de avaliação para recursos de voz. Para ver as ofertas de avaliação e Complementos disponíveis, no centro de administração do Microsoft 365, vá para  >  **serviços de compra** de cobrança, selecione **outras categorias que podem ser de seu interesse** e selecione **Complementos**.
 
   Para cada uma dessas opções de voz e conferência, os [créditos de comunicações](../set-up-communications-credits-for-your-organization.md) serão necessários se você tiver números de chamada gratuita ou se precisar adicionar mais minutos aos usuários para discar de reuniões ou para que os usuários façam chamadas PSTN domésticas e internacionais.
 

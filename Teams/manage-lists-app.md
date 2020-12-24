@@ -1,7 +1,7 @@
 ---
 title: Gerenciar o aplicativo listas para a sua organização
-author: LanaChin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 ms.reviewer: anach,v-jasuk
 manager: serdars
 ms.topic: article
@@ -21,12 +21,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: ''
-ms.openlocfilehash: 56197394d4b4edbe714b5edab62f905e1c520ede
-ms.sourcegitcommit: 62d5ccf10202a50755166e3b8de0bd31d1f94fef
+ms.openlocfilehash: 8ba05b4922b25cc6294fc85f1264a44bdb031660
+ms.sourcegitcommit: 67782296062528bbeade5cb9074143fee0536646
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "48790473"
+ms.lasthandoff: 12/24/2020
+ms.locfileid: "49731119"
 ---
 # <a name="manage-the-lists-app-for-your-organization-in-microsoft-teams"></a>Gerenciar o aplicativo listas para sua organização no Microsoft Teams
 
@@ -34,13 +34,13 @@ ms.locfileid: "48790473"
 
 O aplicativo listas no Microsoft Teams ajuda os usuários em sua organização a acompanhar informações, organizar o trabalho e gerenciar fluxos de trabalho. Com listas, os usuários podem controlar dados como problemas, ativos, rotinas, contatos, inventário, incidentes, empréstimos, pacientes e muito mais usando modos de exibição, regras e alertas personalizáveis para manter todos os membros da equipe em sincronia.
 
-No Teams, os usuários acessam listas como uma guia em um canal. Clique **+** para abrir a Galeria de guias e adicionar uma nova instância da guia do aplicativo de listas a um canal para começar. 
+No Teams, os usuários acessam listas como uma guia em um canal. Clique **+** para abrir a Galeria de guias e adicionar uma nova instância da guia do aplicativo de listas a um canal para começar.
 
-![Captura de tela da lista de aplicativos na Galeria de guias](media/lists-tab.png)
+![Aplicativo listas na Galeria de guias](media/lists-tab.png)
 
 Os usuários podem criar novas listas ou fixar listas existentes dentro da mesma equipe ou de outro site do SharePoint ao qual tenham acesso. Novas listas podem ser criadas do zero, de modelos internos, com base na estrutura de uma lista existente ou pela importação de dados de uma pasta de trabalho do Excel. O aplicativo listas está disponível em Teams desktop, Web e clientes móveis.
 
-![Captura de tela de como criar uma lista no aplicativo listas](media/lists-create-list.png)
+![como criar uma lista no aplicativo listas](media/lists-create-list.png)
 
 ## <a name="templates"></a>Modelos
 
@@ -95,8 +95,8 @@ Listas é habilitado por padrão para todos os usuários do teams em sua organiz
 1. Na navegação à esquerda do centro de administração do Microsoft Teams, vá até **Team apps**  >  **gerenciar aplicativos** .
 2. Siga um destes procedimentos:
 
-    - Para desativar listas para a sua organização, procure o aplicativo listas, selecione-o e clique em **Bloquear** .
-    - Para ativar listas para a sua organização, procure o aplicativo listas, selecione-o e clique em **permitir** .
+    - Para desativar listas para a sua organização, procure o aplicativo listas, selecione-o e clique em **Bloquear**.
+    - Para ativar listas para a sua organização, procure o aplicativo listas, selecione-o e clique em **permitir**.
 
 ### <a name="enable-or-disable-lists-for-specific-users-in-your-organization"></a>Habilitar ou desabilitar listas para usuários específicos em sua organização
 
@@ -112,11 +112,11 @@ Para que você possa Pesquisar no log de auditoria, primeiro ative a auditoria n
 
 ## <a name="power-automate-power-apps-and-graph-api"></a>Automação de energia, aplicativos de energia e API de gráfico
 
-As listas dão suporte à [automatização de energia](https://preview.flow.microsoft.comconnectors/shared_sharepointonline/?slug=sharepoint) para fluxos de trabalho e [aplicativos de energia](https://docs.microsoft.com/powerapps/maker/canvas-apps/customize-list-form) para formulários de lista. Os desenvolvedores podem usar a [API Lists](https://docs.microsoft.com/sharepoint/dev/sp-add-ins/working-with-lists-and-list-items-with-rest) para conectar os dados da lista como uma fonte por meio do Microsoft Graph.
+As listas dão suporte à [automatização de energia](https://docs.microsoft.com/power-automate/flow-types) para fluxos de trabalho e [aplicativos de energia](https://docs.microsoft.com/powerapps/maker/canvas-apps/customize-list-form) para formulários de lista. Os desenvolvedores podem usar a [API Lists](https://docs.microsoft.com/sharepoint/dev/sp-add-ins/working-with-lists-and-list-items-with-rest) para conectar os dados da lista como uma fonte por meio do Microsoft Graph.
 
 ## <a name="give-feedback-or-report-an-issue"></a>Enviar comentários ou relatar um problema
   
-Para nos enviar comentários ou reportar um problema, clique em **ajuda** próximo à parte inferior do painel de navegação esquerdo no Teams e selecione **relatar um problema** . Selecione **listas** e, em seguida, insira seus comentários ou detalhes sobre o problema que está ocorrendo.
+Para nos enviar comentários ou reportar um problema, clique em **ajuda** próximo à parte inferior do painel de navegação esquerdo no Teams e selecione **relatar um problema**. Selecione **listas** e, em seguida, insira seus comentários ou detalhes sobre o problema que está ocorrendo.
 
 ## <a name="related-topics"></a>Tópicos relacionados
 

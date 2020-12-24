@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.deploymentadvisor.overview
 description: Utilize o Advisor for Teams para ajudá-lo a planejar e concluir a implementação do Microsoft Teams.
-ms.openlocfilehash: ab8aef809f46b412d065f5dd96de97151e026f1a
-ms.sourcegitcommit: 07afc959fec802db583e7111280d0035fdb6e412
+ms.openlocfilehash: e6c2fc2ee1eb08839817d3b8c1627582bb239bd8
+ms.sourcegitcommit: 67782296062528bbeade5cb9074143fee0536646
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "49616925"
+ms.lasthandoff: 12/24/2020
+ms.locfileid: "49731129"
 ---
 # <a name="use-advisor-for-teams-to-help-you-roll-out-microsoft-teams"></a>Use o Assistente do Teams para ajudá-lo na implantação do Microsoft Teams
 
@@ -200,7 +200,7 @@ Use os recursos em seu site de roteiros de aprendizagem para integrar seu suport
 
 Para obter orientação e recursos sobre como preparar seu suporte técnico e Campeões no Teams, consulte [Treinar sua organização](https://adoption.microsoft.com/microsoft-teams/#train-your-org) e [Construir Campeões](https://adoption.microsoft.com/microsoft-teams/#build-champions).
 
-Como o contato principal para seus usuários para perguntas “como fazer”, seu suporte técnico e Campeões podem usar o site de roteiros de aprendizagem para treinar usuários e como uma alternativa para a criação de tíquetes de suporte. Incentive o suporte técnico e Campeões para [personalizar seu site de roteiros de aprendizagem](https://docs.microsoft.comoffice365/customlearning/custom_overview) criando uma página de treinamento e suporte, e, em seguida, [adicione-a como uma guia a um canal ](#add-your-site-to-teams) em uma equipe de usuários para autoatendimento.
+Como o contato principal para seus usuários para perguntas “como fazer”, seu suporte técnico e Campeões podem usar o site de roteiros de aprendizagem para treinar usuários e como uma alternativa para a criação de tíquetes de suporte. Incentive o suporte técnico e Campeões para [personalizar seu site de roteiros de aprendizagem](https://docs.microsoft.com/office365/customlearning/) criando uma página de treinamento e suporte, e, em seguida, [adicione-a como uma guia a um canal ](#add-your-site-to-teams) em uma equipe de usuários para autoatendimento.
 
 ### <a name="drive-adoption"></a>Aumentar a adoção
 
