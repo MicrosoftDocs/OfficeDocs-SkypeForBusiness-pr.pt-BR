@@ -20,31 +20,31 @@ appliesto:
 - Microsoft Teams
 ms.custom:
 - seo-marvel-apr2020
-ms.openlocfilehash: e7036a8ba15719df50d609e7b1ca499cf5edf328
-ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
+ms.openlocfilehash: feffdb827c33628749e16083c858b03c9837efd1
+ms.sourcegitcommit: 4143ce9bd62e67ba09f89cedadfd65803bda5361
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49030587"
+ms.lasthandoff: 12/28/2020
+ms.locfileid: "49734259"
 ---
-# <a name="edit-guest-user-information"></a><span data-ttu-id="9dd9c-103">Editar informações do usuários convidados</span><span class="sxs-lookup"><span data-stu-id="9dd9c-103">Edit guest user information</span></span>
+# <a name="edit-guest-user-information"></a><span data-ttu-id="99a78-103">Editar informações do usuários convidados</span><span class="sxs-lookup"><span data-stu-id="99a78-103">Edit guest user information</span></span>
 
-<span data-ttu-id="9dd9c-104">Você pode editar as informações de convidado a partir do centro de administração do Microsoft 365 ou do portal do Azure Directory.</span><span class="sxs-lookup"><span data-stu-id="9dd9c-104">You can edit guest information from the Microsoft 365 admin center or the Azure Directory portal.</span></span>
+<span data-ttu-id="99a78-104">Você pode editar as informações de convidado a partir do centro de administração do Microsoft 365 ou do portal do Azure Active Directory.</span><span class="sxs-lookup"><span data-stu-id="99a78-104">You can edit guest information from the Microsoft 365 admin center or the Azure Active Directory portal.</span></span>
 
-## <a name="guest-users-in-the-microsoft-365-admin"></a><span data-ttu-id="9dd9c-105">Usuários convidados no administrador do Microsoft 365</span><span class="sxs-lookup"><span data-stu-id="9dd9c-105">Guest users in the Microsoft 365 admin</span></span>
+## <a name="guest-users-in-the-microsoft-365-admin"></a><span data-ttu-id="99a78-105">Usuários convidados no administrador do Microsoft 365</span><span class="sxs-lookup"><span data-stu-id="99a78-105">Guest users in the Microsoft 365 admin</span></span>
 
-1. <span data-ttu-id="9dd9c-106">Para editar as informações de convidado no [centro de administração do Microsoft 365](https://admin.microsoft.com), selecione **usuários**  >  **convidados** usuários.</span><span class="sxs-lookup"><span data-stu-id="9dd9c-106">To edit the guest information in the [Microsoft 365 admin center](https://admin.microsoft.com), select **Users** > **Guest Users**.</span></span>
+1. <span data-ttu-id="99a78-106">Para editar as informações de convidado no [centro de administração do Microsoft 365](https://admin.microsoft.com), selecione **usuários**  >  **convidados** usuários.</span><span class="sxs-lookup"><span data-stu-id="99a78-106">To edit the guest information in the [Microsoft 365 admin center](https://admin.microsoft.com), select **Users** > **Guest Users**.</span></span>
 
    ![As informações do usuário convidado sendo editadas](media/access-guest-user.png)
 
-2. <span data-ttu-id="9dd9c-108">Selecione um usuário de **usuários convidados**.</span><span class="sxs-lookup"><span data-stu-id="9dd9c-108">Select a user from **Guest users**.</span></span>
+2. <span data-ttu-id="99a78-108">Selecione um usuário de **usuários convidados**.</span><span class="sxs-lookup"><span data-stu-id="99a78-108">Select a user from **Guest users**.</span></span>
 
-3. <span data-ttu-id="9dd9c-109">Em informações do usuário convidado, selecione **gerenciar informações de contato**.</span><span class="sxs-lookup"><span data-stu-id="9dd9c-109">In guest user information, select **Manage contact information**.</span></span>
+3. <span data-ttu-id="99a78-109">Em informações do usuário convidado, selecione **gerenciar informações de contato**.</span><span class="sxs-lookup"><span data-stu-id="99a78-109">In guest user information, select **Manage contact information**.</span></span>
 
-   ![<span data-ttu-id="9dd9c-110">Gerenciar informações de contato</span><span class="sxs-lookup"><span data-stu-id="9dd9c-110">Manage contact information</span></span> ](media/guest-user-data1.png)
+   ![<span data-ttu-id="99a78-110">Gerenciar informações de contato</span><span class="sxs-lookup"><span data-stu-id="99a78-110">Manage contact information</span></span> ](media/guest-user-data1.png)
 
-4. <span data-ttu-id="9dd9c-111">Edite os campos que você escolher, exceto para **Exibir o nome** em **gerenciar informações de contato** e selecione **salvar alterações**.</span><span class="sxs-lookup"><span data-stu-id="9dd9c-111">Edit any fields that you choose except for **Display name** in **Manage contact information** , and then select **Save changes**.</span></span>
+4. <span data-ttu-id="99a78-111">Edite os campos que você escolher, exceto para **Exibir o nome** em **gerenciar informações de contato** e selecione **salvar alterações**.</span><span class="sxs-lookup"><span data-stu-id="99a78-111">Edit any fields that you choose except for **Display name** in **Manage contact information**, and then select **Save changes**.</span></span>
 
    ![Editar as informações de contato do usuário convidado](media/manage-guest-contact.png)
 
-<span data-ttu-id="9dd9c-113">Você também pode editar o usuário convidado a partir do [portal do Azure Active Directory](https://aad.portal.azure.com/#blade/Microsoft_AAD_IAM/UsersManagementMenuBlade/MsGraphUsers).</span><span class="sxs-lookup"><span data-stu-id="9dd9c-113">You can also edit the guest user from the [Azure Active Directory portal](https://aad.portal.azure.com/#blade/Microsoft_AAD_IAM/UsersManagementMenuBlade/MsGraphUsers).</span></span>
+<span data-ttu-id="99a78-113">Você também pode editar o usuário convidado a partir do [portal do Azure Active Directory](https://aad.portal.azure.com/#blade/Microsoft_AAD_IAM/UsersManagementMenuBlade/MsGraphUsers).</span><span class="sxs-lookup"><span data-stu-id="99a78-113">You can also edit the guest user from the [Azure Active Directory portal](https://aad.portal.azure.com/#blade/Microsoft_AAD_IAM/UsersManagementMenuBlade/MsGraphUsers).</span></span>
