@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: Saiba como configurar um SBC (controlador de borda de sessão) para atender a vários locatários para parceiros da Microsoft e/ou operadoras PSTN.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 64647330104735c92ebac8439fc264e1411a60a1
-ms.sourcegitcommit: 0a9c5c01b37a93eecc369ca0ed49ae18f6a5065b
+ms.openlocfilehash: fb7e89bab49bf92f505c2ca50950e78492186c24
+ms.sourcegitcommit: 11e0b8bfb960fb726880c80ce9339e864bcb074a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/22/2020
-ms.locfileid: "48655518"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "49750581"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>Configurar um controlador de borda da sessão para vários locatários
 
@@ -87,7 +87,7 @@ O diagrama a seguir resume os requisitos para o domínio base, subdomínios e ca
 
 ![Diagrama mostrando os requisitos para domínios e cabeçalho de contato](media/direct-routing-1-sbc-requirements.png)
 
-O SBC exige um certificado para autenticar as conexões. Para o cenário de hospedagem SBC, a transportadora precisa solicitar um certificado com o * \* .base_domain San (por exemplo, \* . Customers.adatum.biz)*. Esse certificado pode ser usado para autenticar conexões para vários locatários servidos a partir de um único SBC.
+O SBC exige um certificado para autenticar as conexões. Para o cenário de hospedagem SBC, a transportadora precisa solicitar um certificado com o *\* .base_domain San (por exemplo, \* . Customers.adatum.biz)*. Esse certificado pode ser usado para autenticar conexões para vários locatários servidos a partir de um único SBC.
 
 
 A tabela a seguir é um exemplo de uma configuração.
@@ -114,7 +114,7 @@ Para configurar a base e subdomínios, siga as etapas descritas abaixo. No exemp
 
 Você só poderá adicionar novos domínios se tiver entrado no centro de administração do Microsoft 365 como administrador global. 
 
-Para validar a função que você tem, entre no centro de administração do Microsoft 365 ( https://portal.office.com) , vá para **usuários**  >  **ativos**do Microsoft e verifique se você tem uma função de administrador global. 
+Para validar a função que você tem, entre no centro de administração do Microsoft 365 ( https://portal.office.com) , vá para **usuários**  >  **ativos** do Microsoft e verifique se você tem uma função de administrador global. 
 
 Para obter mais informações sobre funções de administrador e como atribuir uma função no Microsoft 365 ou no Office 365, consulte [sobre funções de administrador](https://support.office.com/article/About-Office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d).
 
@@ -130,8 +130,8 @@ Para obter mais informações sobre funções de administrador e como atribuir u
 
     ![Captura de tela mostrando a confirmação de um nome de domínio verificado](media/direct-routing-3-sbc-verify-domain.png)
 
-5. Clique em **Avançar**e, na página **Atualizar configurações de DNS** , selecione **eu mesmo adiciono os registros DNS** e clique em **Avançar**.
-6. Na próxima página, desmarque todos os valores (a menos que você queira usar o nome do domínio do Exchange, do SharePoint ou do teams/Skype for Business), clique em **Avançar**e, em seguida, clique em **concluir**. Verifique se o novo domínio está no status de configuração concluída.
+5. Clique em **Avançar** e, na página **Atualizar configurações de DNS** , selecione **eu mesmo adiciono os registros DNS** e clique em **Avançar**.
+6. Na próxima página, desmarque todos os valores (a menos que você queira usar o nome do domínio do Exchange, do SharePoint ou do teams/Skype for Business), clique em **Avançar** e, em seguida, clique em **concluir**. Verifique se o novo domínio está no status de configuração concluída.
 
     ![Captura de tela mostrando domínios com status de configuração concluída](media/direct-routing-14-sbc-setup-complete.png)
 
@@ -155,7 +155,7 @@ Será necessário criar um nome de subdomínio exclusivo para cada cliente. Nest
 
 Você só poderá adicionar novos domínios se tiver entrado no centro de administração do Microsoft 365 como administrador global. 
 
-Para validar a função que você tem, entre no centro de administração do Microsoft 365 ( https://portal.office.com) , vá para **usuários**  >  **ativos**do Microsoft e verifique se você tem uma função de administrador global. 
+Para validar a função que você tem, entre no centro de administração do Microsoft 365 ( https://portal.office.com) , vá para **usuários**  >  **ativos** do Microsoft e verifique se você tem uma função de administrador global. 
 
 Para obter mais informações sobre funções de administrador e como atribuir uma função no Microsoft 365 ou no Office 365, consulte [sobre funções de administrador](https://support.office.com/article/About-Office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d).
 
@@ -170,7 +170,7 @@ Para obter mais informações sobre funções de administrador e como atribuir u
 
     ![Captura de tela da página verificar domínio](media/direct-routing-6-sbc-verify-customer-domain.png)
 
-5. Clique em **Avançar**e observe o valor txt gerado para verificar o nome do domínio.
+5. Clique em **Avançar** e observe o valor txt gerado para verificar o nome do domínio.
 
     ![Captura de tela dos registros de texto na página verificar domínio](media/direct-routing-7-sbc-verify-domain-txt.png)
 
@@ -196,6 +196,9 @@ Para obter mais informações sobre funções de administrador e como atribuir u
 11. Certifique-se de que o status seja **configuração concluído**. 
     
     ![Captura de tela da página mostrando o status da configuração concluída](media/direct-routing-12-sbc-setup-complete.png)
+    
+> [!NOTE]
+> A URL base e o subdomínio para o cliente individual precisam estar no mesmo locatário para permitir que você adicione um tronco de _rota direta_ .
 
 ### <a name="activate-the-subdomain-name"></a>Ativar o nome do subdomínio
 
@@ -264,4 +267,3 @@ Para configurar o failover para um ambiente de vários locatários, você precis
 [Planejar o Roteamento Direto](direct-routing-plan.md)
 
 [Configurar o Roteamento Direto](direct-routing-configure.md)
-

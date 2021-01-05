@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Saiba como configurar e testar atendedores automáticos do Microsoft Teams.
-ms.openlocfilehash: 203a05e19ffce4154c123cbb700ca59e0b75a63a
-ms.sourcegitcommit: 660d0d65892408d0bb4ac1a870c88b11a7c6841e
+ms.openlocfilehash: 361122f4411f6aa3621d030a7a0569b438a86c27
+ms.sourcegitcommit: 7c6a9e851d2fbf055d15e681e367d9dceee0b917
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "49530584"
+ms.lasthandoff: 01/04/2021
+ms.locfileid: "49751792"
 ---
 # <a name="set-up-an-auto-attendant"></a>Configurar um atendedor automático
 
@@ -107,9 +107,9 @@ Se você atribuir chaves de discagem aos destinos, recomendamos que você escolh
 
 Se você não atribuiu teclas de discagem, selecione uma opção para **pesquisa de diretório**.
 
-**Discar por nome** -se você habilitar essa opção, os chamadores poderão dizer o nome do usuário ou digitá-lo no teclado do telefone. Qualquer usuário online com uma licença de sistema telefônico ou qualquer usuário hospedado no local usando o Skype for Business Server é um usuário elegível e pode ser encontrado com o nome discado. (Você pode definir quem é e não está incluído no diretório na página de [escopo de discagem](#dial-scope) ).
+**Discar por nome** -se você habilitar essa opção, os chamadores poderão dizer o nome do usuário ou digitá-lo no teclado do telefone. Qualquer usuário online ou qualquer usuário hospedado no local usando o Skype for Business Server, é um usuário elegível e pode ser encontrado com a discagem por nome. (Você pode definir quem é e não está incluído no diretório na página de [escopo de discagem](#dial-scope) ).
 
-**Discar por extensão** -se você habilitar essa opção, os chamadores poderão se conectar aos usuários na sua organização discando a extensão do telefone. Qualquer usuário online com uma licença do sistema telefônico ou qualquer usuário hospedado no local usando o Skype for Business Server é um usuário elegível e pode ser encontrado com a **extensão dial**-to. (Você pode definir quem é e não está incluído no diretório na página de [escopo de discagem](#dial-scope) ).
+**Discar por extensão** -se você habilitar essa opção, os chamadores poderão se conectar aos usuários na sua organização discando a extensão do telefone. Qualquer usuário online ou qualquer usuário hospedado no local usando o Skype for Business Server, é um usuário elegível e pode ser encontrado com a **extensão de discagem**. (Você pode definir quem é e não está incluído no diretório na página de [escopo de discagem](#dial-scope) ).
 
 Os usuários que você deseja disponibilizar por ramal devem ter uma extensão especificada como parte de um dos seguintes atributos de telefone definidos no Active Directory ou Active Directory do Azure (consulte [Adicionar usuários individualmente ou em massa](https://docs.microsoft.com/microsoft-365/admin/add-users/add-users) para obter mais informações.)
 
@@ -119,8 +119,15 @@ Os usuários que você deseja disponibilizar por ramal devem ter uma extensão e
 - TelephoneNumber/intervalo
 - OtherTelephone
 
-O formato obrigatório para inserir a extensão no campo de número de telefone do usuário é *+ \<phone number> : ext \<extension> =* ou *+ \<phone number> ; \<extension> x*.
-Exemplo: Set-MsolUser-UserPrincipalName usern@domain.com-intervalo "+ 15555555678; ext = 5678".
+O formato obrigatório para inserir a extensão no campo de número de telefone do usuário é:
+
+- *+\<phone number>; ext =\<extension>*
+- *+\<phone number>ActiveX\<extension>*
+- *ActiveX\<extension>*
+
+- Exemplo 1: Set-MsolUser-UserPrincipalName usern@domain.com-intervalo "+ 15555555678; ext = 5678"
+- Exemplo 2: Set-MsolUser-UserPrincipalName usern@domain.com-intervalo "+ 15555555678x5678"
+- Exemplo 3: Set-MsolUser-UserPrincipalName usern@domain.com-intervalo "x5678"
 
 Você pode definir a extensão no [centro de administração do Microsoft 365](https://admin.microsoft.com/) ou no [centro de administração do Azure Active Directory](https://aad.portal.azure.com). Pode levar até 12 horas antes que as alterações sejam disponibilizadas para atendedores automáticos e filas de chamadas.
 
@@ -175,7 +182,7 @@ Depois de adicionar todos os seus feriados, clique em **Avançar**.
 
 ![Captura de tela das opções incluir e excluir do escopo de discagem](media/auto-attendant-dial-scope.png)
 
-O *escopo de discagem* define quais usuários estão disponíveis no diretório quando um chamador usa discar por nome ou discagem por extensão. O padrão de **todos os usuários online** inclui todos os usuários em sua organização que são usuários online com uma licença do sistema telefônico ou hospedada no local usando o Skype for Business Server.
+O *escopo de discagem* define quais usuários estão disponíveis no diretório quando um chamador usa discar por nome ou discagem por extensão. O padrão de **todos os usuários online** inclui todos os usuários de sua organização que são usuários online ou hospedados no local usando o Skype for Business Server.
 
 Você pode incluir ou excluir usuários específicos selecionando **grupo de usuários personalizado** em **incluir** ou **excluir** e escolhendo um ou mais grupos do Microsoft 365, listas de distribuição ou grupos de segurança. Por exemplo, talvez você queira excluir executivos de sua organização do diretório de discagem. (Se um usuário estiver em ambas as listas, eles serão excluídos do diretório.)
 
