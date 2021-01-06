@@ -16,17 +16,17 @@ search.appverid: MET150
 description: Saiba mais sobre registros de depuração, mídia e desktop produzidos pelo Microsoft Teams, onde podem ser encontrados e como eles podem ajudar na resolução de problemas.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2ff24ddb8aaf63b539959119138aebf2f5d4e81f
-ms.sourcegitcommit: 3a577c07b4f399c81d8650a2bba8cfc00b695b49
+ms.openlocfilehash: 295886e7a5c50107672d17dcfa06067ba1b0ac9b
+ms.sourcegitcommit: 48b8801b86a6c900c224853590daa3cb3c8d4ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48650824"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "49761089"
 ---
 <a name="use-log-files-in-troubleshooting-microsoft-teams"></a>Usar arquivos de registro para solucionar problemas no Microsoft Teams
 =================================================
 
-Existem três tipos de arquivos de registro produzidos automaticamente pelo cliente que podem ser aproveitados para ajudar na solução de problemas no Microsoft Teams.
+Há três tipos de arquivos de log produzidos automaticamente pelo cliente, que podem ser aproveitados para ajudar na solução de problemas do Microsoft Teams:
 
 -   Registros de depuração
 
@@ -34,9 +34,12 @@ Existem três tipos de arquivos de registro produzidos automaticamente pelo clie
 
 -   Registros de desktop
 
-Ao criar uma solicitação de suporte com o Suporte da Microsoft, o engenheiro de suporte precisará dos registros de depuração. Ter esses registros em mãos antes de criar a solicitação de suporte permitirá que a Microsoft comece a solucionar o problema rapidamente. Os registros de mídia ou de desktop só são necessários se forem solicitados pela Microsoft.
+Ao criar uma solicitação de suporte com o Suporte da Microsoft, o engenheiro de suporte precisará dos registros de depuração. Ter os logs de depuração à mão antes de criar a solicitação de suporte permitirá à Microsoft começar a solucionar o problema rapidamente. Os logs de **mídia** ou **da área de trabalho** são necessários apenas se solicitado pela Microsoft.
 
-A tabela a seguir descreve os diversos clientes e seus registros associados. Os arquivos de registro são armazenados os locais específicos do cliente e do sistema operacional.
+> [!NOTE]
+> Neste artigo, o termo **logs de depuração** refere-se aos logs que são usados para solução de problemas. No entanto, os arquivos gerados para esses logs conterão os **logs de diagnóstico** de termo em seus nomes.  
+
+A tabela a seguir descreve os vários clientes e seus registros associados. Os arquivos de registro são armazenados os locais específicos do cliente e do sistema operacional.
 
 
 |Cliente |Depuração|Desktop|Mídia|
@@ -53,7 +56,7 @@ Para obter uma lista completa dos sistemas operacionais e navegadores compatíve
 <a name="debug-logs"></a>Registros de depuração
 ---------------------------
 
-Estes são os registros mais comuns e são necessários para todos os casos de suporte da Microsoft. Os logs de depuração são produzidos pelos clientes de área de trabalho do Windows e do Mac, bem como clientes baseados em navegador. Os registros são baseados em texto e são lidos de baixo para cima. Eles podem ser lidos usando qualquer editor baseado em texto, e novos registros são criados ao acessar o cliente.
+Estes são os registros mais comuns e são necessários para todos os casos de suporte da Microsoft. Os logs de depuração são produzidos pelos clientes de área de trabalho do Windows e do Mac, bem como por clientes baseados em navegador. Os logs são baseados em texto e são lidos de baixo para cima. Eles podem ser lidos usando qualquer editor baseado em texto, e novos logs são criados ao fazer logon no cliente.
 
 Os registros de depuração mostram os seguintes fluxos de dados:
 
@@ -63,7 +66,7 @@ Os registros de depuração mostram os seguintes fluxos de dados:
 
 -   Chamada/conversa
 
-Os registros de depuração são produzidos usando os seguintes métodos para o sistema operacional específico:
+Os logs de depuração são produzidos usando os seguintes métodos específicos do sistema operacional:
 
 -   Windows:
 
@@ -77,7 +80,7 @@ Os registros de depuração são produzidos usando os seguintes métodos para o 
 
       Atalho do teclado: Ctrl + Alt + Shift + 1
 
-Os registros de depuração serão baixados automaticamente nas seguintes pastas.
+Os logs de depuração são baixados automaticamente para as seguintes pastas:
 
 -   Windows: %userprofile%\\Downloads
 
@@ -92,7 +95,7 @@ Os registros de depuração serão baixados automaticamente nas seguintes pastas
 
 Os logs de mídia contêm dados de diagnóstico sobre áudio, vídeo e compartilhamento de tela em reuniões do teams. Elas são necessárias para casos de suporte vinculados a problemas relacionados a chamadas.
 
-O log de mídia está desativado por padrão. Para registrar dados de diagnóstico para reuniões do Teams, os usuários devem ativar a opção no cliente do teams. Vá para **configurações**  >  **geral**, marque a caixa de seleção **habilitar o registro em log para diagnóstico de reunião (requer a reinicialização de equipes**) e reinicie o Microsoft Teams e reproduza o problema. 
+O log de mídia está desativado por padrão. Para registrar dados de diagnóstico para reuniões do Teams, os usuários devem ativar a opção no cliente do teams. Vá para **configurações**  >  **geral**, marque a caixa de seleção **habilitar o registro em log para diagnóstico de reunião (requer a reinicialização de equipes**), reinicie o Microsoft Teams e reproduza o problema. 
 
 A tabela a seguir descreve os locais do log de mídia. Ao enviar os arquivos de log para o suporte da Microsoft, verifique o carimbo de data/hora dos arquivos de log para garantir que os logs cubram o intervalo de tempo quando você reproduziu o problema.
 
@@ -119,19 +122,19 @@ Aqui está uma lista dos arquivos de log que são gerados e as informações que
 <a name="desktop-logs"></a>Registros de desktop
 ---------------------
 
-Os registros de desktop, também conhecidos como registros de bootstrapper, contém dados de registro que ocorrem entre o clientes desktop e o navegador. Assim como os registros de mídia, esses registros só são necessários se forem solicitados pela Microsoft. Os registros são baseados em texto e podem ser lidos usando qualquer editor baseado em texto no formato de cima para baixo.
+Logs de área de trabalho, também conhecidos como logs de bootstrapper, contêm dados de log que ocorrem entre o cliente da área de trabalho e o navegador. Assim como os registros de mídia, esses registros só são necessários se forem solicitados pela Microsoft. Os logs são baseados em texto e podem ser lidos usando qualquer editor baseado em texto em um formato de cima para baixo.
 
 Windows:
 
-1.  Clique com o botão direito do mouse no ícone do **Microsoft Teams** na bandeja do sistema, selecione **obter logs**
+ - Clique com o botão direito do mouse no ícone do **Microsoft Teams** na bandeja do sistema e selecione **obter logs**.
 
 Mac OsX:
 
-1.  Escolher **Obter registros** no menu suspenso de **Ajuda**
+ - Escolha **obter logs** no menu suspenso **ajuda** .
 
 Linux
 
-1.  Clique no ícone do **Microsoft Teams** na bandeja do sistema, selecione **obter logs**
+ - Clique no ícone do **Microsoft Teams** na bandeja do sistema e selecione **obter logs**.
 
 |Cliente |Localização |
 |---------|---------|

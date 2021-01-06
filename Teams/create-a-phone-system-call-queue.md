@@ -24,16 +24,16 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Saiba como configurar o sistema telefônico para filas de chamadas com o Microsoft Teams, que fornecem uma mensagem de saudação, suspender música, redirecionamento de chamada e outros recursos.
-ms.openlocfilehash: 57ef565a333f89772f5c9d35d664785c2e166679
-ms.sourcegitcommit: 7966991c398cd80f6bd0bb21e57a6b2a97c09ea9
+ms.openlocfilehash: d696b37f95d06c529aa330bd77e2ec91e1ffc9ad
+ms.sourcegitcommit: 7575fb476a594d70084c603e508dd311ef1d7edb
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/18/2020
-ms.locfileid: "49135939"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "49765336"
 ---
 # <a name="create-a-call-queue"></a>Criar uma fila de chamadas
 
-As filas de chamadas fornecem um método de roteamento de chamadores para as pessoas em sua organização que podem ajudá-lo com um problema ou uma pergunta específica. As chamadas são distribuídas uma de cada vez para as pessoas na fila (que são conhecidas como *agentes*). 
+As filas de chamadas fornecem um método de roteamento de chamadores para as pessoas em sua organização que podem ajudá-lo com um problema ou dúvida específico. As chamadas são distribuídas uma de cada vez para as pessoas na fila (que são conhecidas como *agentes*). 
 
 As filas de chamadas fornecem:
 

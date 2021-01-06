@@ -1,8 +1,8 @@
 ---
 title: Aprimorar os grupos existentes do Microsoft 365
 ms.reviewer: ''
-author: SerdarSoysal
-ms.author: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.date: 09/25/2017
 ms.topic: article
@@ -18,19 +18,19 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: d845dff067f23bc923b53a0dcf7ee6351a5d24c7
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: 6983a828ccb2a59aad4e12c46db0fe873d3bfef3
+ms.sourcegitcommit: 7575fb476a594d70084c603e508dd311ef1d7edb
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46582298"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "49757686"
 ---
 <a name="enhance-existing-microsoft-365-groups-with-microsoft-teams"></a>Aprimorar os grupos existentes do Microsoft 365 com o Microsoft Teams
 =======================================================
 
 Os usuários do Microsoft Teams podem aprimorar um grupo existente do Microsoft 365 com a funcionalidade do teams. Ao examinar o aperfeiçoamento de um grupo público do Microsoft 365, os usuários podem fazer isso se o número de membros for igual ou menor do que 5.000.
 
-Para isso, os usuários deverão seguir o fluxo de criar uma nova equipe a partir do cliente do Microsoft Teams. Selecione **criar do**  >  **grupo do Microsoft 365**e, em seguida, escolha o grupo existente que você deseja aprimorar com o Microsoft Teams. Os membros do grupo existente serão adicionados como membros da equipe automaticamente.
+Para isso, os usuários deverão seguir o fluxo de criar uma nova equipe a partir do cliente do Microsoft Teams. Selecione **criar do**  >  **grupo do Microsoft 365** e, em seguida, escolha o grupo existente que você deseja aprimorar com o Microsoft Teams. Os membros do grupo existente serão adicionados como membros da equipe automaticamente.
 
 > [!IMPORTANT]
 > Somente os proprietários do grupo do Microsoft 365 têm permissão para aprimorar um grupo existente com o Teams e esse grupo deve conter menos de 5.000 usuários. As equipes que já foram aprimoradas não aparecerão na lista.
