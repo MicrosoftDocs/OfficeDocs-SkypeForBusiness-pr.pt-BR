@@ -17,12 +17,12 @@ f1.keywords:
 localization_priority: Normal
 search.appverid: MET150
 description: Saiba como aprovar seus aplicativos personalizados que são enviados usando a API de envio do aplicativo Teams no Microsoft Teams.
-ms.openlocfilehash: 5b6c8512943527a82b3477579e535bcc151331c0
-ms.sourcegitcommit: 67782296062528bbeade5cb9074143fee0536646
+ms.openlocfilehash: 058911d2d84d71ca6175e2bdeb6866807c218631
+ms.sourcegitcommit: f1f3b5220c4b411f2001fbdcbe25ae7c14b94df6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/24/2020
-ms.locfileid: "49731089"
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "49776882"
 ---
 # <a name="publish-a-custom-app-submitted-through-the-teams-app-submission-api"></a>Publicar um aplicativo personalizado enviado por meio da API de envio do aplicativo Teams
 
@@ -47,7 +47,7 @@ A plataforma de desenvolvedor do Microsoft Teams facilita para os desenvolvedore
 
 ### <a name="submit-the-app"></a>Enviar o aplicativo
 
-Quando o aplicativo está pronto para uso na produção, o desenvolvedor pode enviar o aplicativo usando a API de envio do aplicativo Teams, que pode ser chamada a partir da <a href="https://docs.microsoft.com/azure/virtual-desktop/teams-on-wvd" target="_blank">API do Graph</a>, um IDE (ambiente de desenvolvimento integrado), como o código do Visual Studio ou uma plataforma como aplicativos de energia e agentes de energia virtual. Isso torna o aplicativo disponível na página <a href="https://docs.microsoft.com/microsoftteams/manage-apps" target="_blank">gerenciar aplicativos</a> do centro de administração do Microsoft Teams, no qual você, o administrador pode revisar e aprová-lo. isso
+Quando o aplicativo está pronto para uso na produção, o desenvolvedor pode enviar o aplicativo usando a API de envio do aplicativo Teams, que pode ser chamada a partir da <a href="https://docs.microsoft.com/graph/api/teamsapp-publish?view=graph-rest-1.0&tabs=http#example-2-upload-a-new-application-for-review-to-an-organizations-app-catalog" target="_blank" target="_blank">API do Graph</a>, um IDE (ambiente de desenvolvimento integrado), como o código do Visual Studio ou uma plataforma como aplicativos de energia e agentes de energia virtual. Isso torna o aplicativo disponível na página <a href="https://docs.microsoft.com/microsoftteams/manage-apps" target="_blank">gerenciar aplicativos</a> do centro de administração do Microsoft Teams, no qual você, o administrador pode revisar e aprová-lo. isso
 
 A API de envio do aplicativo Teams, <a href="https://docs.microsoft.com/graph/api/teamsapp-publish?view=graph-rest-1.0&tabs=http#example-2-upload-a-new-application-for-review-to-an-organizations-app-catalog" target="_blank">criada no Microsoft Graph</a>, permite que sua organização se desenvolva na plataforma de sua escolha e automatiza o processo de envio para aprovação para aplicativos personalizados no Teams.
 

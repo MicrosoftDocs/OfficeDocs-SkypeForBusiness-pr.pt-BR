@@ -14,7 +14,6 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
-description: Saiba como usar e gerenciar políticas de equipe em sua organização para controlar o que os usuários podem fazer em equipes e canais.
 f1.keywords:
 - CSH
 ms.custom:
@@ -24,12 +23,13 @@ ms.custom:
 - ms.teamsadmincenter.teamsandchannelpolicies.overview
 - ms.teamsadmincenter.teams.teamspolicies.new.tooltip.discover
 - ms.teamsadmincenter.teams.teamspolicies.new.tooltip.create
-ms.openlocfilehash: ad7dadc60b1fb53a518ec5cab340739a89f6b044
-ms.sourcegitcommit: 6f4928e9e7e67fe65320131ae9e7348b948d86ea
+description: Saiba como usar e gerenciar políticas de equipe em sua organização para controlar o que os usuários podem fazer em equipes e canais.
+ms.openlocfilehash: 0b4664c36f24a057a7c8237823b7eafaad8ea6ba
+ms.sourcegitcommit: 44bd56f67b1ad85ef8c21bb30d5b0d47e5a80339
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "48297366"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "49772015"
 ---
 # <a name="manage-teams-policies-in-microsoft-teams"></a>Gerenciar políticas do teams no Microsoft Teams
 
@@ -46,7 +46,7 @@ Você pode editar a política global ou criar e atribuir uma política personali
 3. Insira um nome e uma descrição para a política.
 
     ![Captura de tela das configurações de política de equipes](media/teams-policies.png)
-4. Ative ou desative **criar canais privados**, <a name="createchannels"> </a> dependendo se você deseja permitir que os usuários criem canais privados.
+4. Ative ou desative **criar canais privados**, <a name="createchannels"></a> dependendo se você deseja permitir que os usuários criem canais privados.
 
 5. Clique em **Salvar**.
 
@@ -66,4 +66,6 @@ Você pode editar a política global ou qualquer política personalizada criada.
 
 [Canais privados no Teams](private-channels.md)
 
-[Atribuir políticas a seus usuários no Teams](assign-policies.md)
+[Atribuir políticas aos usuários no Microsoft Teams](assign-policies.md)
+
+[New-CsTeamsChannelsPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamschannelspolicy?view=skype-ps)
