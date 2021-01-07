@@ -6,7 +6,7 @@ manager: serdars
 ms.topic: reference
 ms.service: msteams
 audience: admin
-ms.reviewer: ''
+ms.reviewer: siunies
 description: Este artigo descreve os limites, especificações e outros requisitos que se aplicam ao Microsoft Teams.
 localization_priority: Priority
 f1.keywords:
@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 786ec8d911ae21f3cb379eceefb1b7c202890a3d
-ms.sourcegitcommit: db0dc45520503753567e99c0c016f0265d45aa66
+ms.openlocfilehash: b64042a318e6967523e80e62d1cca429bc7f7e88
+ms.sourcegitcommit: f1f3b5220c4b411f2001fbdcbe25ae7c14b94df6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/15/2020
-ms.locfileid: "49682350"
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "49776842"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Limites e especificações para o Microsoft Teams
 
@@ -69,16 +69,18 @@ O bate-papo do Teams funciona em um back-end do Microsoft Exchange, para que os 
 
 |Recurso  | Limite máximo  |
 |---------|---------|
-|Número de pessoas em um bate-papo particular <sup>1</sup>  | 250 |
+|Número de pessoas em um bate-papo particular <sup>1</sup>  | 250<sup>2</sup> |
 |O número de pessoas em uma chamada de áudio ou vídeo do chat | 20 |
-|Número de anexos de arquivo<sup>2</sup>  |10     |
-|Tamanho do chat | Aproximadamente 28 KB pela postagem <sup>3</sup> |
+|Número de anexos de arquivo<sup>3</sup>  |10     |
+|Tamanho do chat | Aproximadamente 28 KB por postagem <sup>4</sup> |
 
 <sup>1</sup> Se você tiver mais de 20 pessoais em um bate-papo, os seguintes recursos do bate-papo serão desabilitados: respostas automáticas do Outlook e mensagens de status do Teams; indicador de digitação; chamadas de áudio e vídeo; compartilhamento; confirmação de leitura. O botão "Configurar opções de entrega" (!) também é removido quando os chats de grupo privado contêm mais de 20 membros.
 
-<sup>2</sup> Se o número de anexos exceder esse limite, você verá uma mensagem de erro.
+<sup>2</sup> Apenas 200 membros de cada vez podem ser adicionados a um chat em grupo. [Confira este artigo para saber mais](https://docs.microsoft.com/microsoftteams/troubleshoot/teams-administration/unable-send-message-group-chat).
 
-<sup>3</sup> 28 KB é um limite aproximado porque inclui a própria mensagem (texto, links de imagens, etc.), @-menções e reações.
+<sup>3</sup> Se o número de anexos exceder esse limite, você verá uma mensagem de erro.
+
+<sup>4</sup> 28 KB é um limite aproximado porque inclui a própria mensagem (texto, links de imagens, etc.), menções com @ e reações.
 
 ### <a name="emailing-a-channel"></a>Enviar um email para um canal
 
@@ -127,7 +129,7 @@ Os nomes de canal também não podem começar com um caractere de sublinhado (_)
 
 |Recurso     | Limite máximo |
 |------------|---------------|
-|Número de pessoas em uma reunião (podem conversar e telefonar)  | 350 |
+|Número de pessoas em uma reunião (podem conversar e telefonar)  | 300 |
 |Número de pessoas em uma vídeo ou chamada de áudio iniciada na guia de chat | 20 |
 |Tamanho máximo do arquivo do PowerPoint | 2 GB|
 |As equipes mantêm [gravações de reunião](cloud-recording.md) que não são carregadas no Microsoft Stream, disponíveis para download local | 20 dias |
@@ -169,7 +171,7 @@ Para obter mais informações sobre eventos ao vivo do Teams e uma comparação 
 >- 50 eventos podem ser hospedados simultaneamente em um locatário
 >- Duração do evento de 16 horas por transmissão
 >
-> Além disso, os Eventos Ao vivo com até 100.000 participantes podem ser planejados por meio do programa de assistência do Microsoft 365. A equipe avaliará cada solicitação e trabalhará com você para determinar opções que podem estar disponíveis. [Saiba mais](https://aka.ms/Stream/Blog/LiveEventOptions). 
+> Além disso, os Eventos ao Vivo com até 100.000 participantes podem ser planejados por meio do programa de assistência do Microsoft 365. A equipe avaliará cada solicitação e trabalhará com você para determinar opções que podem estar disponíveis. [Saiba Mais](https://aka.ms/Stream/Blog/LiveEventOptions). 
 
 ## <a name="presence-in-outlook"></a>Presença no Outlook
 
