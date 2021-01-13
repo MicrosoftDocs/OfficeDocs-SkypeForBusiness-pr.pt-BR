@@ -1,8 +1,8 @@
 ---
 title: Modelos de usuário no Skype for Business Server
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -12,17 +12,17 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: c551371c-d740-4372-bada-f0d713ec0d33
-description: Os modelos de usuário descritos aqui fornecem a base das medidas e das recomendações de planejamento de capacidade descritas no uso do modelo de usuário de planejamento de capacidade para o Skype for Business Server.
-ms.openlocfilehash: f1bf079fa425d98b3619eb4ccd975253784f4fbe
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Os modelos de usuário descritos aqui fornecem a base para as medições e recomendações de planejamento de capacidade descritas no Planejamento de capacidade do uso do modelo de usuário para o Skype for Business Server.
+ms.openlocfilehash: 65ff967c64f569d73d15de1493aa4d3667dbf7e2
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41816030"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49827601"
 ---
 # <a name="user-models-in-skype-for-business-server"></a>Modelos de usuário no Skype for Business Server
  
-Os modelos de usuário descritos aqui fornecem a base das medidas e das recomendações de planejamento de capacidade descritas no [uso do modelo de usuário de planejamento de capacidade para o Skype for Business Server](user-model.md).
+Os modelos de usuário descritos aqui fornecem a base para as medições e recomendações de planejamento de capacidade descritas no Planejamento de capacidade do uso do modelo de usuário para [o Skype for Business Server.](user-model.md)
   
 ## <a name="skype-for-business-server-user-models"></a>Modelos de usuário do Skype for Business Server
 
@@ -33,12 +33,12 @@ A tabela a seguir descreve o modelo de usuário para registro, contatos, mensage
 |**Categoria**|**Descrição**|
 |:-----|:-----|
 |Tamanho da implantação e distribuição  <br/> |Modelamos uma grande implantação com três locais centrais, com um pool de Front-end por local.  <br/> |
-|Porcentagem de usuários do Active Directory  <br/> |Presumimos que 70% de todos os usuários do Active Directory na organização estão habilitados para o Skype for Business Server. 80% desses usuários habilitados estão conectados ao Skype for Business Server todos os dias (80% de simultaneidade). Os usuários simultâneos são a base para os números no restante desta seção.  <br/> |
-|Alterações do Active Directory  <br/> |Presumimos que 0,5% do total de usuários são criados e habilitados para o Skype for Business no Active Directory a cada semana, e que 0,5% do total de usuários são desativados do Active Directory e do Skype for Business toda semana. 5% dos usuários têm pelo menos um atributo do Active Directory alterado a cada semana.  <br/> |
-|Grupos de distribuição do Active Directory  <br/> |Presumimos que o número de grupos de distribuição do Active Directory na organização é igual a três vezes o número de todos os usuários no Active Directory. Os grupos de distribuição têm os seguintes tamanhos:  <br/> • 64% têm 2-30 usuários  <br/> • 13% têm usuários do 31-50  <br/> • 10% têm usuários do 51-100  <br/> • 13% têm usuários do 101-500  <br/> |
-|Usuários de VoIP (Voz sobre IP)  <br/> |60% dos usuários do Skype for Business Server são habilitados para comunicação unificada (ou seja, os números de telefone deles são pertencentes ao Skype for Business Server).  <br/> |
-|Distribuição dos cliente registrados  <br/> |65% dos clientes executam o software Skype for Business, incluindo o Skype for Business e o Lync Phone Edition.  <br/> 30% dos clientes que executam o software cliente a partir de uma versão anterior do Lync.  <br/> 5% de clientes que usam o Skype for Business Web App.  <br/> Se a mobilidade está habilitada, assumimos que 40% dos usuários utilizam simultaneamente mobilidade e outras opções de cliente registrado citadas anteriormente. Nesse caso, a taxa do o ponto de presença múltiplo de cliente (MPOP) é de 1:1.9. Se a mobilidade está desabilitada, a taxa MPOP é de 1:1.5.  <br/> |
-|Distribuição dos usuários remotos  <br/> |70% os usuários se conectam internamente.  <br/> 30% dos usuários se conectam por meio de um servidor de borda (você também pode ter um diretor aqui, mas isso não é necessário).  <br/> |
+|Porcentagem de usuários do Active Directory  <br/> |Assumimos que 70% de todos os usuários do Active Directory na organização estão habilitados para o Skype for Business Server. 80% desses usuários habilitados estão conectados ao Skype for Business Server todos os dias (80% de competência). Os usuários simultâneos são a base para os números no restante desta seção.  <br/> |
+|Mudanças do Active Directory  <br/> |Assumimos que 0,5% do total de usuários são criados e habilitados para o Skype for Business no Active Directory a cada semana, e que 0,5% do total de usuários são desabilitados do Active Directory e do Skype for Business toda semana. 5% dos usuários possuem pelo menos um atributo do Active Directory alterado cada semana.  <br/> |
+|Grupos de distribuição do Active Directory  <br/> |Supomos que o número de grupos de distribuição do Active Directory na organização seja igual a três vezes o número de todos os usuários no Active Directory. Os grupos de distribuição têm os seguintes tamanhos:  <br/> • 64% têm de 2 a 30 usuários  <br/> • 13% têm de 31 a 50 usuários  <br/> • 10% têm de 51 a 100 usuários  <br/> • 13% têm de 101 a 500 usuários  <br/> |
+|Usuários de VoIP (Voz sobre IP)  <br/> |60% dos usuários do Skype for Business Server estão habilitados para comunicações unificadas (UC) (ou seja, seus números de telefone pertencem ao Skype for Business Server).  <br/> |
+|Distribuição dos cliente registrados  <br/> |65% dos clientes podem executar o software Skype for Business, incluindo o Skype for Business e o Lync Phone Edition.  <br/> 30% dos clientes executando software cliente de uma versão anterior do Lync.  <br/> 5% dos clientes que usam o Skype for Business Web App.  <br/> Se a mobilidade estiver habilitada, assumimos que 40% dos usuários estão usando mobilidade simultaneamente com as outras opções de cliente registradas citadas anteriormente. Nesse caso, a taxa MPOP é de 1:1,9. Se a mobilidade está desabilitada, a taxa MPOP é de 1:1.5.  <br/> |
+|Distribuição dos usuários remotos  <br/> |70% os usuários se conectam internamente.  <br/> 30% dos usuários se conectam por meio de um Servidor de Borda (você também pode ter um Diretor aqui, mas isso não é necessário).  <br/> |
 |Distribuição dos contatos  <br/> |O número máximo de contatos de um usuário é 1.000. Menos de um 1% dos usuários tem 1.000 contatos. Menos de 25% dos usuários têm 100 ou mais contatos.  <br/> Média de 80 contatos para usuários com conectividade pública na nuvem. Desses usuários:  <br/> • 50% dos contatos estão dentro da organização. 10% desses usuários são usuários remotos, se conectando de fora do firewall.  <br/> • 40% dos contatos são usuários do Skype.  <br/> • 10% dos contatos são de parceiros federados.  <br/> Média de 50 contatos para usuários sem conectividade pública na nuvem. Desses usuários:  <br/> • 80% dos contatos estão dentro da organização. 10% desses usuários são usuários remotos, se conectando de fora do firewall.  <br/> • 20% dos contatos são de parceiros federados.  <br/> Cada usuário possui 1 grupo de distribuição em sua lista de contatos. Para testar o desempenho, assumimos que os grupos de distribuição são sempre expandidos.  <br/> |
 |Tempo de sessão  <br/> |A sessão média de logon do usuário dura 12 horas. Todos os usuários fazem logon em até 120 minutos após o início da sessão.  <br/> |
    
@@ -46,10 +46,10 @@ A tabela a seguir descreve o modelo de usuário para registro, contatos, mensage
 
 |**Categoria**|**Descrição**|
 |:-----|:-----|
-|Sessões de IM ponto a ponto  <br/> |Cada usuário tem em média seis sessões de IM ponto a ponto por dia.  <br/> 10 mensagens instantâneas por sessão.  <br/> Cada mensagem é correspondida por duas mensagens SIP INFO e duas mensagens SIP 200 OK (para os indicadores de status, como\<"\> nome está digitando")  <br/> |
-|Sessões IM de Grupo  <br/> |O número médio de mensagens enviadas em um grupo somente de IM é de 5 sessão por usuário.  <br/> O número médio de mensagens enviadas em uma parcela de IM é de 2 conferências de AV por usuário.  <br/> |
-|Sondagem de presença  <br/> |Em geral, supomos o pool de presença com uma média de 60 pools por usuário, por hora. Para cada usuário, suponha uma média de:  <br/> • Uma votação por dia da presença de usuários na guia organização do usuário (mas não na lista de contatos). Número médio de não contatos na guia organização do usuário é de 15 usuários. Dois cartões de visita visualizando operações por dia.  <br/> • Uma votação de presença toda vez que o usuário clica em outro usuário para iniciar uma conversa, estimada de uma vez por hora.  <br/> • Seis pesquisas de usuários por hora. Cada vez que uma pesquisa é realizada, um pool de lote é enviado para todos na lista de resultados da pesquisa. Suponha que o tamanho médio dos resultados da pesquisa é 20. Se os resultados da pesquisa permanecem na tela, o pool de lote é atualizado a cada 5 minutos; assumimos que haverá duas atualizações por hora.  <br/> • Quando o usuário abre ou visualiza um email no Outlook, uma votação da presença de usuários nos campos para: e CC: do e-mail, estimada em cinco emails por hora e quatro usuários por e-mail.  <br/> |
-|Assinaturas de presença  <br/> |Quando um usuário adiciona outro como contato, o primeiro usuário está se inscrevendo em cinco categorias de informação sobre o segundo usuário. As atualizações dessas categorias de informação são automaticamente enviadas ao primeiro usuário. <br/> Para cada cliente, uma única solicitação de inscrição em lote é enviada para obter o estado de presença em uma média de 40 contatos, com 40 diálogos adicionais para obter presença de contatos federados.  <br/> A presença de membros de um grupo de distribuição expandido é encontrada através de inscrições de presença persistente, não pool, e é modelada como 1 expansão por usuário para cada 2 horas.  <br/> Assinaturas curtas acontecem quando um usuário faz logon, há uma assinatura em lotes para todos os contatos do usuário e, em breve, o usuário efetua logoff. Assumimos 6 inscrições curtas por usuário, por hora, onde cada inscrição dura 10 minutos. <br/> |
+|Sessões de IM ponto a ponto  <br/> |Cada usuário tem em média seis sessões de IM ponto a ponto por dia.  <br/> 10 mensagens instantâneas por sessão.  <br/> Cada mensagem é a mesma de duas mensagens SIP INFO e 2 mensagens SIP 200 OK (para os indicadores de status como " \<Name\> está digitando")  <br/> |
+|Sessões de IM de grupo  <br/> |O número médio de mensagens enviadas em uma sessão somente de IM de grupo é de 5 por usuário.  <br/> O número médio de mensagens enviadas na parte de IM de uma conferência AV é de 2 por usuário.  <br/> |
+|Sondagem de presença  <br/> |Em geral, supomos o pool de presença com uma média de 60 pools por usuário, por hora. Para cada usuário, suponha uma média de:  <br/> • Um votação por dia da presença de usuários na guia organização do usuário (mas não na lista de contatos). O número médio de não contatos na guia organização do usuário é de 15 usuários. Dois cartões de visita visualizando operações por dia.  <br/> • Um votação de presença sempre que o usuário clica em outro usuário para iniciar uma conversa, estimada de uma vez por hora.  <br/> • Seis pesquisas de usuário por hora. Cada vez que uma pesquisa é realizada, um pool de lote é enviado para todos na lista de resultados da pesquisa. Suponha que o tamanho médio dos resultados da pesquisa é 20. Se os resultados da pesquisa permanecem na tela, o pool de lote é atualizado a cada 5 minutos; assumimos que haverá duas atualizações por hora.  <br/> • Quando o usuário abre ou visualiza um email no Outlook, uma sondagem da presença de usuários nos campos Para: e CC: do email, estimado em cinco emails por hora e quatro usuários por email.  <br/> |
+|Assinaturas de presença  <br/> |Quando um usuário adiciona outro como contato, o primeiro usuário está se inscrevendo em cinco categorias de informação sobre o segundo usuário. As atualizações dessas categorias de informação são automaticamente enviadas ao primeiro usuário. <br/> Para cada cliente, uma única solicitação de inscrição em lote é enviada para obter o estado de presença em uma média de 40 contatos, com 40 diálogos adicionais para obter presença de contatos federados.  <br/> A presença de membros de um grupo de distribuição expandido é encontrada através de inscrições de presença persistente, não pool, e é modelada como 1 expansão por usuário para cada 2 horas.  <br/> Assinaturas curtas ocorrem quando um usuário faz logo in, há uma assinatura em lote para todos os contatos do usuário e, em seguida, o usuário faz logo off em breve. Assumimos 6 inscrições curtas por usuário, por hora, onde cada inscrição dura 10 minutos. <br/> |
 |Publicação de Presença  <br/> |O estado de presença é publicado em uma média de 4 publicações por usuário, por hora, com um máximo de 6 por usuário, por hora.  <br/> |
 |Tamanho do Documento de Presença  <br/> |O tamanho médio de um documento de presença completo é assumido como 4K, com um máximo de 25K.  <br/> |
    
@@ -57,7 +57,7 @@ A tabela a seguir descreve o modelo de usuário para uso do catálogo de endere�
   
 **Modelo de usuário para uso do catálogo de endereços**
 
-|**Modo de pesquisa do Catálogo de endereços**|**Uso**|
+|**Modo de pesquisa do Catálogo de endereços**|**Usage**|
 |:-----|:-----|
 |Consulta da web do Catálogo de endereços somente (todas as consultas realizadas pelo serviço Consulta da web do Catálogo de endereços)  <br/> |Quatro consultas de prefixo por usuário, por dia.  <br/> 60 consultas de pesquisa exatas por usuário, por dia. 40% delas são em lote, com uma média de 20 contatos por consulta. Os outros 60% das consultas servem para um único contato.  <br/> 25 consultas de foto por usuário, por dia. 24 para uma única foto, o restante é uma consulta em lote com uma média de 20 contatos.  <br/> Uma consulta de pesquisa de organização por usuário, por dia.  <br/> |
 |Modo misto, arquivo do catálogo de endereços e consultas da web usadas. Esse é o modo padrão.  <br/> |Somente dois tipos de consulta vão para a rede, as consultas de pesquisa de foto e organizacional total.  <br/> 25 consultas de foto por usuário, por dia. 24 para uma única foto, o restante é uma consulta em lote com uma média de 20 contatos.  <br/> Uma consulta de pesquisa de organização por usuário, por dia.  <br/> |
@@ -68,15 +68,15 @@ A tabela a seguir descreve o modelo de conferência.
 
 |**Categoria**|**Descrição**|
 |:-----|:-----|
-|Reuniões agendadas versus reuniões do tipo "Reunir Agora"  <br/> |60% agendadas, 40% não agendadas.  <br/> Das reuniões programadas, assumimos que 80% são conferências atribuídas, que são ocorrências de conferências recorrentes; 10% são reuniões abertas uma vez; 8% são reuniões anônimas únicas, e 2% são reuniões fechadas uma vez.  <br/> |
+|Reuniões agendadas versus reuniões do tipo "Reunir Agora"  <br/> |60% agendadas, 40% não agendadas.  <br/> Das reuniões agendadas, assumimos que 80% das conferências são atribuídas, que são ocorrências de conferências recorrentes; 10% são reuniões abertas uma única vez; 8% são reuniões anônimas única e 2% são reuniões fechadas uma vez.  <br/> |
 |Distribuição de cliente de conferência  <br/> |Para reuniões agendadas:  <br/> • 65% dos usuários de conferência usam o Skype for Business 2016.  <br/> • 5% dos usuários de conferência usam o Skype for Business Web App.  <br/> • 30% dos usuários de conferência usam clientes anteriores, incluindo o Lync 2013 e o Microsoft Lync 2010.  <br/> Para reuniões não agendadas:  <br/> • 70% dos usuários de conferência usam o Skype for Business.  <br/> • 30% dos usuários de conferência usam clientes anteriores, incluindo o Lync 2013 e o Microsoft Lync 2010.  <br/> |
 |Simultaneidade de reunião  <br/> |5% dos usuários estarão em conferências durante as horas de trabalho. Dessa forma, em um pool de 80.000 usuários, 4.000 usuários poderão estar em conferências a qualquer momento.  <br/> |
 |Distribuição do áudio de reunião  <br/> |40% de combinação entre conferência de áudio VoIP e discada, com uma proporção de 3:1 de usuários VoIP para usuários discados.  <br/> 35% somente de áudio VoIP.  <br/> 15% somente de áudio de conferência discada.  <br/> 10% sem áudio (conferências somente de IM, com uma média de cinco mensagens enviadas por usuário).  <br/> |
-|Combinação de mídias para conferências  <br/> |75% das conferências são conferências da Web, com áudio mais alguma outra modalidade de colaboração.  <br/> Para essas conferências, os outros métodos de colaboração são os seguintes:  <br/> **Observação:** Esses números somam-se a mais de 100% porque uma conferência pode ter vários métodos de colaboração. <br/> • 50% adicionar compartilhamento de aplicativos. Assumimos que um usuário envia dados a um pico de 1,1 MB por segundo.  <br/> • 50% adicionar mensagens instantâneas (com uma média de 2 mensagens por usuário).  <br/> • 20% adicione colaboração de dados, incluindo o PowerPoint ou o whiteboard, a média de 2 arquivos do PowerPoint apresentados por conferência, com um tamanho médio de arquivo do PowerPoint de 10 MB (sem vídeo incorporado) ou 30 MB (com vídeo embutido). Média de 20 anotações por quadro de comunicações.  <br/> • 20% de adicionar vídeo. Destes usuários, 70% estão em conferências habilitadas para vídeo multivisualização, onde cada usuário recebe 2-3 fluxos de vídeo.  <br/> • 15% adicionar anotações compartilhadas.  <br/> |
+|Combinação de mídias para conferências  <br/> |75% das conferências são conferências da Web, com áudio mais alguma outra modalidade de colaboração.  <br/> Para essas conferências, os outros métodos de colaboração são os seguintes:  <br/> **Observação:** Esses números adicionam até mais de 100% porque uma conferência pode ter vários métodos de colaboração. <br/> • 50% de compartilhamento de aplicativos. Assumimos que um usuário envia dados a um pico de 1,1 MB por segundo.  <br/> • 50% adicionam mensagens instantâneas (com uma média de 2 mensagens por usuário).  <br/> • 20% adicionam colaboração de dados, incluindo PowerPoint ou quadro de controle. Nesses, uma média de 2 arquivos do PowerPoint apresentados por conferência, com um tamanho médio de arquivo do PowerPoint de 10 MB (sem vídeo incorporado) ou 30 MB (com vídeo incorporado). Média de 20 anotações por quadro de anotações.  <br/> • 20% de vídeo. Destes usuários, 70% estão em conferências habilitadas para vídeo multivisualização, onde cada usuário recebe 2-3 fluxos de vídeo.  <br/> • 15% adicionam anotações compartilhadas.  <br/> |
 |Distribuição dos participantes da reunião  <br/> |50% de usuários internos autenticados.  <br/> 25% de usuários de acesso remoto autenticados.  <br/> 15% de usuários anônimos.  <br/> 10% de usuários federados.  <br/> |
 |Distribuição de ingresso na reunião  <br/> |Os usuários são simulados como participação da reunião dentro dos primeiros 5 minutos.  <br/> |
    
-Em pools de front-end regulares, o Skype for Business Server tem um tamanho máximo de reunião compatível com 250 usuários. Cada pool pode hospedar uma reunião de 250 usuários por vez. Enquanto esta grande reunião está ocorrendo, o pool também pode hospedar outras conferências menores. Além disso, é possível suportar reuniões de até 1000 usuários configurando um pool exclusivo para hospedar estas reuniões. Para obter detalhes, consulte [planejar reuniões grandes no Skype for Business Server](../../plan-your-deployment/conferencing/large-meetings.md).
+Em pools de Front-End regulares, o Skype for Business Server tem um tamanho máximo de reunião com suporte de 250 usuários. Cada pool pode hospedar uma reunião de 250 usuários por vez. Enquanto esta grande reunião está ocorrendo, o pool também pode hospedar outras conferências menores. Além disso, é possível suportar reuniões de até 1000 usuários configurando um pool exclusivo para hospedar estas reuniões. Para obter detalhes, [consulte Planejar grandes reuniões no Skype for Business Server.](../../plan-your-deployment/conferencing/large-meetings.md)
   
 Conferências foram simuladas como a seguir:
   
@@ -115,7 +115,7 @@ A tabela a seguir descreve o modelo de usuário para outras sessões ponto a pon
 |**Categoria**|**Descrição**|
 |:-----|:-----|
 |Compartilhamento de aplicativos  <br/> |Cada usuário participa de 5 sessões de compartilhamento de aplicativo ponto a ponto por mês, uma média de 0,25 sessões por dia.  <br/> |
-|Transferência de arquivos  <br/> |Cada usuário participa de uma sessão de transferência de arquivo ponto a ponto por mês (como parte de uma sessão de IM), para uma média de 0,05 sessões por dia. O tamanho de arquivo médio da sessão transferido é de 1 MB.  <br/> |
+|Transferência de arquivo  <br/> |Cada usuário participa de uma sessão de transferência de arquivo ponto a ponto por mês (como parte de uma sessão de IM), para uma média de 0,05 sessões por dia. O tamanho de arquivo médio da sessão transferido é de 1 MB.  <br/> |
    
 A tabela a seguir descreve o modelo de usuário para políticas.
   
@@ -136,11 +136,11 @@ O teste de desempenho simulou o horário de pico executando sessões VoIP e outr
   
 A carga de pico de conferência supõe que 75% de todas as conferências para um dia de oito horas ocorre em 4 horários de pico. Esses horários de pico têm 1,5 vezes a carga média de conferência.
   
-## <a name="enterprise-voice-to-pstn-calls"></a>Chamadas Enterprise Voice para PSTN
+## <a name="enterprise-voice-to-pstn-calls"></a>Chamadas PSTN do Enterprise Voice
 
-As seguintes pressuposições se aplicam às chamadas do Enterprise Voice:
+As seguintes suposições se aplicam às chamadas do Enterprise Voice:
   
-- 60% dos usuários estão habilitados para o Enterprise Voice e 60% desses usuários estão habilitados para chamadas PSTN.
+- 60% dos usuários estão habilitados para o Enterprise Voice e 60% desses usuários estão habilitados para chamada PSTN.
     
 - Cada um destes usuários habilitados para chamada PSTN faz 4 chamadas PSTN durante a hora ocupada. Cada duração de chamada é de 3 minutos.
     

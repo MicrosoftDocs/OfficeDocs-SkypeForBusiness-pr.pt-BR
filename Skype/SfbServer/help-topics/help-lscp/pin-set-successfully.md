@@ -1,8 +1,8 @@
 ---
 title: PIN Definido com Sucesso
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -14,18 +14,18 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c6e210d1-bcac-4527-adc6-691a5723270c
-description: Para usar o email para enviar o PIN ao usuário, clique em abrir meu aplicativo de email para enviar o novo PIN ao usuário. Para copiar o PIN para a mensagem de email, selecione Mostrar PIN.
-ms.openlocfilehash: dd26740ddeaa61198798cf2edcb1b308f2fbe66f
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Para usar email para enviar o PIN para o usuário, clique em Abrir meu aplicativo de email para enviar o novo PIN ao usuário. Para copiar o PIN para a mensagem de email, selecione Mostrar PIN.
+ms.openlocfilehash: 76a91ddd0dd9f71e5059b3e1be333181eeb691d8
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41822474"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49829341"
 ---
 # <a name="pin-set-successfully"></a>PIN Definido com Sucesso
  
-Para usar o email para enviar o PIN ao usuário, clique em **abrir meu aplicativo de email para enviar o novo PIN ao usuário**. Para copiar o PIN para a mensagem de email, selecione **Mostrar PIN**. 
+Para usar email para enviar o PIN para o usuário, clique em **Abrir meu aplicativo de email para enviar o novo PIN ao usuário**. Para copiar o PIN para a mensagem de email, selecione **Mostrar PIN**. 
   
-Para obter detalhes sobre os diferentes procedimentos que você pode executar usando o painel de controle do Skype for Business Server, consulte [gerenciar o Skype for Business server 2015](../../manage/manage.md).
+Para obter detalhes sobre os diferentes procedimentos que você pode executar usando o Painel de Controle do Skype for Business Server, consulte [Gerenciar o Skype for Business Server 2015.](../../manage/manage.md)
   
 

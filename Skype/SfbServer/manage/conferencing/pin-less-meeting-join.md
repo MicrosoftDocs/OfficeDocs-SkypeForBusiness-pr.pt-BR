@@ -1,8 +1,8 @@
 ---
-title: Configurar ingresso em reunião sem PIN no Skype for Business Server
+title: Configurar o ingressar em reunião sem PIN no Skype for Business Server
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,58 +11,58 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: c21e8861-bb75-45e8-8485-38daa3b8121c
-description: 'Resumo: saiba como configurar a opção de junção de reunião sem PIN no Skype for Business Server.'
-ms.openlocfilehash: a52738f2ca679838ab7687cde2c017e3364542a7
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 'Resumo: Saiba como configurar a opção de ingressar em reunião sem PIN no Skype for Business Server.'
+ms.openlocfilehash: 794bf13d92857a18254f903a1c5dcca98d0a1ec0
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41818482"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49827981"
 ---
-# <a name="configure-pin-less-meeting-join-in-skype-for-business-server"></a>Configurar ingresso em reunião sem PIN no Skype for Business Server
+# <a name="configure-pin-less-meeting-join-in-skype-for-business-server"></a>Configurar o ingressar em reunião sem PIN no Skype for Business Server
  
-**Resumo:** Saiba como configurar a opção de junção de reunião sem PIN no Skype for Business Server.
+**Resumo:** Saiba como configurar a opção de ingressar em reunião sem PIN no Skype for Business Server.
   
-Quando um chamador de discagem tenta ingressar em uma reunião, o serviço de atendedor automático da conferência (CAA) coloca o chamador em uma caneta segurando diferente da &#x2014; de lobby se um apresentador ainda não estiver em uma chamada, e o chamador de discagem não inseriu um pino principal. A opção de ingresso na reunião sem o PIN permite a participação na reunião discada dos chamadores sem inserir PIN de líder, mesmo se eles forem a primeira pessoa que da chamada. 
+Quando um chamador de discagem tenta ingressar em uma reunião, o serviço de CaA (Atendente Automático de Conferência) coloca o chamador em uma caneta de espera diferente do lobby &#x2014; se um apresentador ainda não estiver em uma chamada e o chamador de discagem não tiver inserido um PIN de líder. A opção de ingresso em reunião sem PIN permite que os chamadores de discagem ingressem em uma reunião sem inserir um PIN de líder, mesmo que sejam a primeira pessoa em uma chamada. 
   
 Lembre-se do seguinte ao configurar esse recurso:
   
-- Aplica-se somente a reuniões particulares.
+- Aplica-se somente a reuniões privadas.
     
-- Permite que os chamadores PSTN permaneçam na reuniões particulares sem a presença de usuários autenticados.
+- Permite que chamadores PSTN permaneçam em reuniões privadas sem a presença de usuários autenticados.
     
-- Depois que a configuração for alterada, aplica-se a todas as reuniões privadas existentes e novas.
+- Depois que a configuração for alterada, ela se aplicará a todas as reuniões privadas novas e existentes.
     
-- Pode ser ativada no site do organizador ou em nível global.
+- Pode ser habilitada no site do organizador ou no nível global.
     
-- Opções para quem pode ignorar o lobby podem ser definidas para qualquer um dos seguintes itens: 
+- As opções para quem pode ignorar o lobby podem ser definidas para um dos seguintes: 
     
-  - **Qualquer pessoa de minha empresa com Chamadores entram diretamente**
+  - **Qualquer pessoa da minha organização com chamadores entrar diretamente**
     
-  - **Qualquer pessoa (sem restrições) com Chamadores entram diretamente** (Esta é a configuração padrão).
+  - **Qualquer pessoa (sem restrições) com chamadores entrar diretamente** (essa é a configuração padrão).)
     
-- Quando configurado para habilitar o ingresso sem PIN, o serviço CAA ainda avisa o PIN do líder. Os usuários podem participar da reunião se um PIN for ou não inserido. No entanto, manter a capacidade de digitar um PIN de líderes permite que um chamador de discagem seja autenticado como líder e gerenciar a reunião, se necessário.
+- Quando configurado para habilitar o pin sem junção, o serviço CAA ainda solicita um PIN de líder. Os usuários podem ingressar na reunião independentemente de um PIN ser inserido ou não. No entanto, manter a capacidade de inserir um PIN de líder permite que um chamador de discagem se autentcie como um líder e gerencie a reunião, se necessário.
     
-## <a name="configure-pin-less-meeting-join"></a>Configurar o ingresso à reunião sem PIN
+## <a name="configure-pin-less-meeting-join"></a>Configurar o ingressar em reunião sem PIN
 
-Para habilitar a junção de reunião sem PIN para seus usuários, use o cmdlet [set-CsDialInConferencingConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csdialinconferencingconfiguration?view=skype-ps) com o parâmetro AllowAnonymousPstnActivation da seguinte maneira:
+Para habilitar o ingressar na reunião sem PIN para seus usuários, use o cmdlet [Set-CsDialInConferencingConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csdialinconferencingconfiguration?view=skype-ps) com o parâmetro AllowAnonymousPstnActivation da seguinte forma:
   
 ```PowerShell
 Set-CsDialInConferencingConfiguration -Identity  < global or site:sitename>  -AllowAnonymousPstnActivation $True
 ```
 
-Por exemplo, o seguinte comando habilita o ingresso à reunião sem PIN para o site Redmond:
+Por exemplo, o seguinte comando habilita o ingressar na reunião sem PIN para o site Redmond:
   
 ```PowerShell
 Set-CsDialInConferencingConfiguration -Identity site:Redmond -AllowAnonymousPstnActivation $True
 ```
 
-Para fins de segurança, quando o ingresso à reunião sem PIN estiver ativado, você pode querer restringir usuários anônimos de discagem externa, assegurando que ConferencingPolicy seja definida da seguinte maneira:
+Para fins de segurança, quando o ingressar em uma reunião sem PIN estiver ligado, você pode querer restringir a discagem de usuários anônimos, garantindo que ConferencingPolicy seja definida da seguinte maneira:
   
 ```PowerShell
 Set-CsConferencingPolicy [-Identity <XdsIdentity>] -AllowAnonymousUsersToDialOut $False
 ```
 
-Para obter mais informações, consulte [set-CsConferencingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csconferencingpolicy?view=skype-ps).
+Para obter mais informações, [consulte Set-CsConferencingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csconferencingpolicy?view=skype-ps).
   
 

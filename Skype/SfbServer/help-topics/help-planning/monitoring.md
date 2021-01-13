@@ -1,8 +1,8 @@
 ---
 title: Monitoring (Planning Tool)
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 4/6/2016
 audience: ITPro
@@ -15,18 +15,18 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9bbe86d0-b51a-4787-9029-d59e73c7906a
-description: No Skype for Business Server 2015, o monitoramento é usado para coletar dados de uso e dados de qualidade da experiência (QoE) sobre as sessões de comunicação nas quais seus usuários participam.
-ms.openlocfilehash: baf24091cb2c50914eb413dde142c92fb5d1d20e
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: No Skype for Business Server 2015, o monitoramento é usado para coletar informações de uso e dados de QoE (Qualidade da Experiência) sobre as sessões de comunicação em que seus usuários estão envolvidos.
+ms.openlocfilehash: 85398b80d982fdd443e920af9c50b212afe4cb90
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41821383"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49828931"
 ---
 # <a name="monitoring-planning-tool"></a>Monitoring (Planning Tool)
 
-No Skype for Business Server 2015, o monitoramento é usado para coletar dados de uso e dados de qualidade da experiência (QoE) sobre as sessões de comunicação nas quais seus usuários participam.
+No Skype for Business Server 2015, o monitoramento é usado para coletar informações de uso e dados de QoE (Qualidade da Experiência) sobre as sessões de comunicação em que seus usuários estão envolvidos.
 
-Para obter mais detalhes sobre o planejamento para o Monitoring Server, consulte [planejando o monitoramento](https://technet.microsoft.com/library/26cead5a-183c-42f1-a4b0-0e8d61c6159d.aspx).
+Para obter mais detalhes sobre o planejamento do Monitoring Server, consulte [Planning for Monitoring](https://technet.microsoft.com/library/26cead5a-183c-42f1-a4b0-0e8d61c6159d.aspx).
 
 

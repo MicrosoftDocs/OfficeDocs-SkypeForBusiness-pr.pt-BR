@@ -1,8 +1,8 @@
 ---
 title: Número de Telefone Não Atribuído
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,24 +15,24 @@ localization_priority: Normal
 ms.assetid: 24eca749-a9f3-40e7-839b-d21c3ef7d533
 ROBOTS: NOINDEX, NOFOLLOW
 description: Números não atribuídos são números de telefone válidos para sua organização, mas que não são atribuídos a um usuário ou telefone. A tabela de números não atribuídos identifica como você deseja lidar com chamadas para números não atribuídos.
-ms.openlocfilehash: 622651aa623cba3c7eb5e2a4d9566009dd361e46
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+ms.openlocfilehash: 2b2c8637e1fa44d8852465b21d2cf494442978b4
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41792149"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49830131"
 ---
 # <a name="unassigned-phone-number"></a>Número de Telefone Não Atribuído
 
 > [!NOTE]
-> O Exchange UM permanecerá disponível no Skype for Business Server 2019 quando você integrar o Skype for Business 2019 com o Exchange 2013 ou o Exchange 2016. Devido a alterações no suporte ao Exchange 2019, a integração de UM Exchange está sendo realçada em favor do recurso de correio de voz e do atendedor automático na nuvem.
+> A UM do Exchange permanece disponível no Skype for Business Server 2019 quando você integra o Skype for Business 2019 com o Exchange 2013 ou o Exchange 2016. Devido às alterações no suporte no Exchange 2019, a integração de UM do Exchange está sendo enfatizada em favor dos recursos de Caixa Postal na Nuvem e Atendedor Automático na Nuvem.
 
 Números não atribuídos são números de telefone válidos para sua organização, mas que não são atribuídos a um usuário ou telefone. A tabela de números não atribuídos identifica como você deseja lidar com chamadas para números não atribuídos.
 
-Como configurar a tabela de números não atribuídos dependerá de como você deseja usá-la. Você pode configurar a tabela com todas as extensões válidas para a sua organização, somente com extensões não atribuídas ou com uma combinação de ambos os tipos de números. A tabela de números não atribuídos pode incluir ambos, números atribuídos e não atribuídos, mas será invocada somente quando um chamador discar um número que não esteja atribuído atualmente. Se você incluir todas as extensões válidas na tabela de números não atribuídos, pode especificar a ação que ocorre sempre que alguém sair da sua organização, sem a necessidade de reconfigurar a tabela. Se você incluir extensões não atribuídas na tabela, pode ajustar a ação que ocorre para números específicos. Por exemplo, se você alterar a extensão para seu serviço de atendimento ao cliente, poderá incluir o número do atendimento ao cliente antigo na tabela e atribuí-lo a um comunicado que fornece o novo número.
+O modo como você configura a tabela de números não atribuídos depende de como você deseja usá-la. É possível configurar a tabela com todas as extensões válidas para sua organização, com apenas extensões não atribuídas ou com uma combinação dos dois tipos de números. A tabela de números não atribuídos pode incluir números atribuídos e não atribuídos, mas é invocada somente quando um chamador disca um número que não está atribuído no momento. Se você incluir todas as extensões válidas na tabela de números não atribuídos, será possível especificar a ação que ocorre quando alguém deixa sua organização, sem precisar reconfigurar a tabela. Se você incluir extensões não atribuídas na tabela, poderá personalizar a ação que ocorre para números específicos. Por exemplo, se você alterar a extensão para seu serviço de atendimento ao consumidor, poderá incluir o número antigo do serviço de atendimento ao consumidor na tabela e atribuí-lo a um anúncio que fornece o novo número.
 
 > [!IMPORTANT]
-> Antes de configurar a tabela de números atribuídos, você já precisa ter definido um ou mais anúncios ou configurado um Atendedor Automático do UM do Exchange.
+> Antes de configurar a tabela de números atribuídos, você já precisa ter definido um ou mais anúncios ou configurar um Atendedor Automático do UM do Exchange.
 
 A página **Número Não Atribuído** exibe uma lista de números não atribuídos definidos para sua organização.
 
@@ -52,38 +52,38 @@ A página **Número Não Atribuído** exibe uma lista de números não atribuíd
 
 A lista a seguir descreve os comandos na página.
 
-- **Novo** Inicia um novo intervalo de número não atribuído.
+- **Novo** Inicia um novo intervalo de números não atribuídos.
 
-- **Editar** Abre o intervalo de número não atribuído selecionado para edição, seleciona todos os intervalos de números não atribuídos na lista ou exclui o intervalo de números não atribuídos.
+- **Editar** Abre o intervalo de números não atribuídos selecionado para edição, seleciona todos os intervalos de números não atribuídos na lista ou exclui o intervalo de números não atribuídos selecionado.
 
-- **Mover para cima** Move o intervalo de números não atribuídos selecionado para cima na lista de modo que o Skype for Business Server encontre-o antes e aplique a ação especificada antes de aplicar ações especificadas para outros intervalos na lista.
+- **Mover para cima** Move o intervalo de números não atribuídos selecionado para cima na lista para que o Skype for Business Server encontre-o mais cedo e aplica a ação especificada antes de aplicar ações especificadas para outros intervalos na lista.
 
     > [!NOTE]
-    > O Skype for Business Server pesquisa na tabela de números não atribuídos do início ao fim e usa o primeiro intervalo que corresponde ao número não atribuído. Por exemplo, se você tiver um intervalo que especifica uma ação de última instância, certifique-se de que o intervalo esteja no final da lista.
+    > O Skype for Business Server pesquisa a tabela de números não atribuídos de cima para baixo e usa o primeiro intervalo que corresponde ao número não atribuído. Por exemplo, se você tiver um intervalo que especifica uma ação de última instância, certifique-se de que o intervalo esteja no final da lista.
 
-- **Mover para baixo** Move o intervalo de números não atribuídos selecionado para baixo na lista.
+- **Mover para baixo** Move o intervalo de números não atribuídos selecionado para baixo na lista.
 
-- **Confirmar tudo** Salva todas as alterações feitas a intervalos de números não atribuídos.
+- **Comprometer tudo** Salva todas as alterações feitas em intervalos de números não atribuídos.
 
     > [!IMPORTANT]
-    > Esse comando salva todas as alterações feitas na página**Novo Número Não Atribuído** e a página **Editar Número Não Atribuído**.
+    > Esse comando salva todas as alterações feitas na página **Novo Número Não Atribuído** e na página **Editar Número Não Atribuído**.
 
-- **Atualizar** Atualiza a lista de intervalos de números não atribuídos.
+- **Atualizar** Atualiza a lista de intervalos de números não atribuídos.
 
 A lista a seguir descreve os campos na página.
 
-- **Nome** O nome exclusivo que identifica o intervalo de números não atribuídos.
+- **Nome** O nome exclusivo que identifica o intervalo de números não atribuídos.
 
-- **Estado** Mostra quais intervalos de números foram salvos no banco de dados e quais não foram.
+- **Estado** Mostra quais intervalos de números foram salvos no banco de dados e quais não foram.
 
-- **Intervalo Inicial** O número inicial do intervalo de números não atribuídos.
+- **Intervalo inicial** O número inicial do intervalo de números não atribuídos.
 
-- **Intervalo final** O número final do intervalo de números não atribuídos.
+- **Intervalo final** O número final do intervalo de números não atribuídos.
 
-- **Destino** O ID do serviço Aplicativo que hospeda o aplicativo Comunicado que lidará com as chamadas recebidas para esse intervalo de números não atribuídos.
+- **Destino** A ID de serviço do serviço de Aplicativo que hospeda o aplicativo Comunicado que lidará com chamadas de entrada para esse intervalo de números não atribuídos.
 
-- **Comunicado** O comunicado que será reproduzido para esse intervalo de números não atribuídos.
+- **Comunicado** O comunicado que será tocado para esse intervalo de números não atribuídos.
 
-Para obter detalhes sobre recursos e recursos do lançamento, consulte [planejar o aplicativo de anúncio no Skype for Business](../../../plan-your-deployment/enterprise-voice-solution/announcement.md) na documentação de planejamento. Para obter detalhes sobre como trabalhar com intervalos de números não atribuídos, consulte  [Configure Routing of Unassigned Phone Numbers](https://technet.microsoft.com/library/a0650659-dce7-455f-8977-02454bbfa400.aspx) na documentação Operações.
+Para obter detalhes sobre os recursos de Comunicado, [consulte Plan for the Announcement application in Skype for Business](../../../plan-your-deployment/enterprise-voice-solution/announcement.md) na documentação planejamento. Para obter detalhes sobre como trabalhar com intervalos de números não atribuídos, consulte [Configure Routing of Unassigned Phone Numbers](https://technet.microsoft.com/library/a0650659-dce7-455f-8977-02454bbfa400.aspx) na documentação Operações.
 
 

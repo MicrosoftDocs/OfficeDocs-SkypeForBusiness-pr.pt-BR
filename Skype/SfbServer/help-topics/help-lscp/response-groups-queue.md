@@ -1,8 +1,8 @@
 ---
 title: Fila de Grupos de Resposta
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -14,23 +14,23 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 29bde940-6107-494f-9bee-b6ebfa135e41
-description: Grupos de resposta consistem em grupos de agente, filas e fluxos de trabalho. As filas do grupo de resposta mantêm chamadas para um grupo de resposta até que um agente atenda a chamada.
-ms.openlocfilehash: 20d696c640e02f5861c6621230c94d55a38116c3
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Os grupos de resposta são compostos por grupos de agente, filas e fluxos de trabalho. As filas de espera do Grupo de Resposta rementem chamadas para um grupo de resposta até que um agente responda à chamada.
+ms.openlocfilehash: 13d680236f646e7aec3e0b0a39b3b827a34ce46f
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41822364"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49829301"
 ---
 # <a name="response-groups-queue"></a>Fila de Grupos de Resposta
 
-Grupos de resposta consistem em grupos de agente, filas e fluxos de trabalho. As filas do grupo de resposta mantêm chamadas para um grupo de resposta até que um agente atenda a chamada.
+Os grupos de resposta são compostos por grupos de agente, filas e fluxos de trabalho. As filas de espera do Grupo de Resposta rementem chamadas para um grupo de resposta até que um agente responda à chamada.
 
-A página da**fila** **grupos** - de resposta exibe uma lista de todas as filas do grupo de resposta definidas para a sua organização.
+A **página Fila de** Grupos de Resposta exibe uma lista de todas as filas de espera do Grupo de Resposta  -   definidas para sua organização.
 
 ## <a name="tasks-you-can-perform"></a>Tarefas que podem ser executadas
 
-Você pode executar as seguintes tarefas na página **** - **fila** de grupos de resposta:
+Você pode executar as seguintes tarefas na página **Fila de Grupos**  -  **de** Resposta:
 
 - Criar uma nova fila
 
@@ -46,16 +46,16 @@ A lista a seguir descreve os comandos na página.
 
 - **Editar** Abre a fila selecionada para editá-la, seleciona toda a fila na lista ou exclui a fila selecionada.
 
-- **Atualização** Atualiza a lista de filas.
+- **Atualizar** Atualiza a lista de filas.
 
 A lista a seguir descreve os campos na página.
 
 - **Nome** O nome exclusivo que identifica a fila.
 
-- **Serviço** de O serviço **ApplicationServer** que hospeda a fila.
+- **Serviço** O **serviço ApplicationServer** que hospeda a fila.
 
 - **Descrição** A descrição da fila.
 
-Para obter detalhes sobre recursos e recursos do grupo de resposta, consulte [planejar o aplicativo do grupo de resposta no Skype for Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/response-group.md) na documentação de planejamento. Para obter detalhes sobre como trabalhar com filas de grupo de resposta, consulte [Gerenciando filas de grupo de resposta](https://technet.microsoft.com/library/1e91720c-ab67-4dfb-b30c-0ef2a8012310.aspx) na documentação de operações.
+Para obter detalhes sobre recursos e recursos do Grupo de Resposta, consulte [Plan for the Response Group application in Skype for Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/response-group.md) na documentação planejamento. Para obter detalhes sobre como trabalhar com filas do Grupo de Resposta, consulte [Managing Response Group Queues](https://technet.microsoft.com/library/1e91720c-ab67-4dfb-b30c-0ef2a8012310.aspx) na documentação Operações.
 
 

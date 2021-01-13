@@ -1,8 +1,8 @@
 ---
-title: O relatório de distribuição de métricas de qualidade de mídia no Skype for Business Server
+title: O Relatório de Distribuição da Métrica de Qualidade de Mídia no Skype for Business Server
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,38 +11,38 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: d07996e6-b0a5-4ff8-9512-ab707762b4e2
-description: 'Resumo: Saiba mais sobre o relatório de distribuição de métricas de qualidade de mídia no Skype for Business Server.'
-ms.openlocfilehash: f656a44ac1437a9c57cb5efe757757e7d695c2a5
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 'Resumo: saiba mais sobre o Relatório de Distribuição de Métricas de Qualidade de Mídia no Skype for Business Server.'
+ms.openlocfilehash: c39282ab2d5d6ce903affd807d22116a98de3620
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41817850"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49827801"
 ---
-# <a name="the-media-quality-metrics-distribution-report-in-skype-for-business-server"></a>O relatório de distribuição de métricas de qualidade de mídia no Skype for Business Server 
+# <a name="the-media-quality-metrics-distribution-report-in-skype-for-business-server"></a>O Relatório de Distribuição da Métrica de Qualidade de Mídia no Skype for Business Server 
  
-**Resumo:** Saiba mais sobre o relatório de distribuição de métricas de qualidade de mídia no Skype for Business Server.
+**Resumo:** Saiba mais sobre o Relatório de Distribuição de Métricas de Qualidade de Mídia no Skype for Business Server.
   
-O Relatório de Distribuição da Métrica de Qualidade de Mídia permite ver um gráfico que mostra os valores de distribuição para a métrica Qualidade da Experiência, como tremulação ou perda de pacotes. Por exemplo, suponha que seus usuários fazem um total de 10 ligações telefônicas; essas 10 chamadas relatam os seguintes tempos de ida e volta:
+O Relatório de Distribuição da Métrica de Qualidade de Mídia permite ver um gráfico que mostra os valores de distribuição para a métrica Qualidade da Experiência como jitter ou perda do pacote. Por exemplo, suponha que seus usuários fazem um total de 10 ligações telefônicas; estas 10 chamadas relatam os seguintes tempos de ida e volta:
   
 |**Número da chamada**|**Tempo de viagem de ida e volta (milissegundos)**|
 |:-----|:-----|
-|1  <br/> |50  <br/> |
-|2  <br/> |50  <br/> |
-|3  <br/> |50  <br/> |
-|4  <br/> |50  <br/> |
-|5  <br/> |50  <br/> |
-|6  <br/> |50  <br/> |
-|7  <br/> |50  <br/> |
-|8  <br/> |4550  <br/> |
-|9  <br/> |50  <br/> |
-|254  <br/> |50  <br/> |
+|1   <br/> |50  <br/> |
+|2   <br/> |50  <br/> |
+|3   <br/> |50  <br/> |
+|4   <br/> |50  <br/> |
+|5   <br/> |50  <br/> |
+|6   <br/> |50  <br/> |
+|7   <br/> |50  <br/> |
+|8   <br/> |4550  <br/> |
+|9   <br/> |50  <br/> |
+|10   <br/> |50  <br/> |
    
-A média para esses tempos de ida e volta é de 500 milissegundos (5000 dividido por 10). Quinhentos milissegundos é um tempo de ida e volta extremamente grande; como resultado, você pode achar que tem um grave problema com congestionamento de rede. (Tempo de ida e volta longo geralmente é resultado de redes sobrecarregadas.)
+A média para esses tempos de ida e volta é de 500 milissegundos (5000 dividido por 10). Cinco milissegundos é um tempo de ida e volta extremamente grande; como resultado, você pode acreditar que tem um sério problema com congestionamento de rede. (Tempos de ida e volta longos geralmente são o resultado de redes sobrecarregadas.)
   
-Na realidade, claro, 90% das suas chamadas têm excelentes tempos de ida e volta; você teve uma única chamada ruim que distorceu os resultados gerais. Se procurar pelo tempo de ida e volta médio, pode chegar a uma conclusão errada.
+Na realidade, claro,, 90% das suas chamadas possuem excelentes tempos de ida e volta; você mal tinha uma chamada em seus resultados gerais. Se você olhar apenas para o tempo médio de viagem de ida e volta, pode chegar a uma conclusão errada.
   
-O Relatório de Distribuição da Métrica de Qualidade de Mídia ajuda a evitar conclusões incorretas mostrando uma distribuição gráfica de uma métrica especificada (como o tempo de ida e volta). Estes gráficos ajudam a deixar claro que você teve nove chamadas muito boas e uma muito ruim. Você ainda pode desejar investigar melhor essa chamada. No entanto, o fato de 9 entre 10 chamadas terem sido muito boas sugere que não há motivo para fazer qualquer mudança radical em sua rede, pelo menos não neste momento.
+O Relatório de Distribuição da Métrica de Qualidade de Mídia ajuda a evitar conclusões incorretas mostrando uma distribuição gráfica de uma métrica especificada (como o tempo de ida e volta). Estes gráficos ajudam a tornar claro que você possui nova chamadas muito boas e uma muito ruim. Você ainda pode desejar investigar mais que uma chamada. No entanto, o fato que 9 de 10 chamadas foram muito boas sugere que não há motivo para fazer qualquer mudança radical em sua rede, pelo menos não neste momento.
   
 ## <a name="filters"></a>Filtros
 
@@ -52,12 +52,12 @@ Os filtros fornecem uma maneira de retornar um conjunto de dados mais direcionad
 
 |**Nome**|**Descrição**|
 |:-----|:-----|
-|**De** <br/> |Data/hora de início para o intervalo de tempo. Para ver os dados por horas, insira a data e hora de início conforme segue:  <br/> 7/7/2015 13:00  <br/> Se você não inserir a hora de início, o relatório começará automaticamente à meia-noite do dia especificado. Para ver os dados por dia, insira somente a data:  <br/> 7/7/2015  <br/> Para exibir por semana ou mês, insira uma data dentro da semana ou mês que deseja exibir (não é necessário inserir o primeiro dia da semana ou mês):  <br/> 3/7/2015  <br/> As semanas sempre vão de domingo a sábado.  <br/> |
-|**Até** <br/> |Data/hora final de intervalo de tempo. Para ver os dados por horas, insira a data e hora final conforme segue:  <br/> 7/7/2015 13:00  <br/> Se você não inserir a hora final, o relatório terminará automaticamente à meia-noite do dia especificado. Para ver os dados por dia, insira somente a data:  <br/> 7/7/2015  <br/> Para exibir por semana ou mês, insira uma data dentro da semana ou mês que deseja exibir (não é necessário inserir o primeiro dia da semana ou mês):  <br/> 3/7/2015  <br/> As semanas sempre vão de domingo a sábado.  <br/> |
+|**De** <br/> |Data/hora inicial para o intervalo de tempo. Para exibir os dados por hora, insira a data e hora inicial como a seguir:  <br/> 7/7/2015 13:00  <br/> Se você não inserir uma hora inicial, o relatório começa automaticamente as 12:00 AM no dia especificado. Para exibir os dados por dia, insira apenas a data:  <br/> 7/7/2015  <br/> Para exibir por semana ou mês, insira uma data que está dentro da semana ou mês que deseja exibir (não é necessário inserir o primeiro dia da semana ou mês):  <br/> 7/3/2015  <br/> As semanas são sempre de domingo a sábado.  <br/> |
+|**To** <br/> |Data/hora final para o intervalo de tempo. Para exibir os dados por hora, insira a data e hora final como a seguir:  <br/> 7/7/2015 13:00  <br/> Se você não inserir uma hora final, o relatório termina automaticamente as 12:00 AM no dia especificado. Para exibir os dados por dia, insira apenas a data:  <br/> 7/7/2015  <br/> Para exibir por semana ou mês, insira uma data que está dentro da semana ou mês que deseja exibir (não é necessário inserir o primeiro dia da semana ou mês):  <br/> 7/3/2015  <br/> As semanas são sempre de domingo a sábado.  <br/> |
 |**Mínimo no eixo x** <br/> |Menor valor para ser exibido no eixo X do gráfico.  <br/> |
 |**Máximo no eixo x** <br/> |Maior valor para ser exibido no eixo X do gráfico.  <br/> |
-|**Tipo de acesso** <br/> | Indica se um cliente estava conectado na rede interna ou na rede externa quando a chamada foi realizada. Selecione um dos seguintes: <br/>  [Todos] <br/>  Interno <br/>  Externo <br/> |
-|**VPN** <br/> | Indica se um cliente externo estava usando uma conexão de rede privada virtual (VPN) quando a chamada foi realizada. Selecione um dos seguintes: <br/>  [Todos] <br/>  VPN <br/>  Não VPN <br/> |
-|**Tipo de rede** <br/> | Indica o tipo de rede que o cliente estava conectado quando a chamada foi realizada. Selecione um dos seguintes: <br/>  [Todos] <br/>  Com fio <br/>  Sem fio <br/> |
+|**Tipo de acesso** <br/> | Indica se um cliente estava conectado na rede interna ou na rede externa quando a chamada foi realizada. Selecione um dos seguintes: <br/>  [Tudo] <br/>  Interno <br/>  Externo <br/> |
+|**VPN** <br/> | Indica se um cliente externo estava usando uma conexão de rede privada virtual (VPN) quando a chamada foi realizada. Selecione um dos seguintes: <br/>  [Tudo] <br/>  VPN <br/>  Não VPN <br/> |
+|**Tipo de rede** <br/> | Indica o tipo de rede que o cliente estava conectado quando a chamada foi realizada. Selecione um dos seguintes: <br/>  [Tudo] <br/>  Com fio <br/>  Sem fio <br/> |
    
 

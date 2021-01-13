@@ -1,8 +1,8 @@
 ---
 title: Configurar políticas de voz, registros de uso de PSTN e rotas de voz no Skype for Business
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 1e5a15f9-6f42-4dc6-baaa-24daf54afc4d
 description: 'Resumo: saiba como configurar políticas de voz, registros de uso de PSTN e rotas de voz no Skype for Business Server.'
-ms.openlocfilehash: faeb3b0eedead117f36b48e69e000350b4a04710
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+ms.openlocfilehash: f8c9f75f24a06b210a1c17ed11a1485ab5158f3d
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41766894"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49830441"
 ---
 # <a name="configure-voice-policies-pstn-usage-records-and-voice-routes-in-skype-for-business"></a>Configurar políticas de voz, registros de uso de PSTN e rotas de voz no Skype for Business
  
@@ -32,7 +32,7 @@ Políticas de voz, registros de uso PSTN e rotas de voz estão totalmente relaci
 O fluxo de trabalho recomendado para uma nova implantação Enterprise Voice é de começar configurando uma política de voz que inclua os registros de uso PSTN adequados e, então, associar as rotas apropriadas à cada registro de uso PSTN. 
   
 > [!NOTE]
-> Você também pode criar políticas de voz com o escopo do *usuário* e atribuí-las a usuários ou grupos individuais.
+> Você também pode criar políticas de voz com  *escopo de*  usuário e atribuí-las a usuários ou grupos individuais.
   
 Para as etapas detalhas para realizar cada uma destas tarefas, consulte os procedimentos nesta seção.
   
@@ -40,7 +40,7 @@ Para as etapas detalhas para realizar cada uma destas tarefas, consulte os proce
 
 - [Criar ou modificar uma política de voz e configurar registros de uso de PSTN no Skype for Business](voice-policy-and-pstn-usage-records.md)
     
-- [Configurar o recurso de mensagem de voz no Skype for Business](configure-voice-mail-escape.md)
+- [Configurar escape de caixa postal no Skype for Business](configure-voice-mail-escape.md)
     
 - [Exibir registros de uso de PSTN no Skype for Business](view-pstn-usage-records.md)
     

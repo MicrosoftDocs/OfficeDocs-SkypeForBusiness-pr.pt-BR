@@ -1,8 +1,8 @@
 ---
 title: SQL Server Reporting Services (Grupos)
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -14,18 +14,18 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f3cda686-6301-419c-af68-b49cc785e5fc
-description: Cada pool de front-ends e um aparelho de ramificação sobreviventes podem ter apenas um servidor de monitoração associado a ele. Quando o monitoramento estiver habilitado para o site, o Monitoring Server fornece a coleta de detalhes de chamadas (CDR) e a coleta de dados de qualidade da experiência (QoE) e a geração de relatórios.
-ms.openlocfilehash: a62ac4310cebcea131760075bfc74174cfaa7e6a
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Cada pool de Front-Ends e Aparelho de Filial Persistente pode ter apenas um Servidor de Monitoramento associado a ele. Quando o monitoramento é habilitado para o site, o Servidor de Monitoramento fornece conjunto de dados e relatórios do registro de detalhe da chamada (CDR) e de Qualidade da experiência (QoE).
+ms.openlocfilehash: 6a45508c3f95da02df966e4d9905020af1b9f9b4
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41823455"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49829571"
 ---
-# <a name="sql-server-reporting-services-intro"></a>SQL Server Reporting Services (Grupos)
+# <a name="sql-server-reporting-services-intro"></a>SQL Server Reporting Services (Introdução)
  
-Cada pool de front-ends e um aparelho de ramificação sobreviventes podem ter apenas um servidor de monitoração associado a ele. Quando o monitoramento estiver habilitado para o site, o Monitoring Server fornece a coleta de detalhes de chamadas (CDR) e a coleta de dados de qualidade da experiência (QoE) e a geração de relatórios.
+Cada pool de Front-Ends e Aparelho de Filial Persistente pode ter apenas um Servidor de Monitoramento associado a ele. Quando o monitoramento é habilitado para o site, o Servidor de Monitoramento fornece conjunto de dados e relatórios do registro de detalhe da chamada (CDR) e de Qualidade da experiência (QoE).
   
-Todos os pools em um site e os pools de vários sites centrais podem usar o mesmo servidor de monitoramento, se o uso não exceder a capacidade do servidor de monitoramento. Para obter detalhes sobre como projetar uma topologia para dar suporte ao monitoramento, consulte [associar um repositório de monitoramento a um pool de front-end no Skype for Business Server 2015](../../deploy/deploy-monitoring/associate-a-monitoring-store.md) na documentação de implantação.
+Todos os pools em um site e os pools de múltiplos sites centrais podem usar o mesmo Servidor de Monitoramento, se o uso não exceder a capacidade do Servidor de Monitoramento. Para obter detalhes sobre como projetar uma topologia para suportar o monitoramento, consulte [Associate a monitoring store with a Front End pool in Skype for Business Server 2015](../../deploy/deploy-monitoring/associate-a-monitoring-store.md) in the Deployment documentation.
   
 

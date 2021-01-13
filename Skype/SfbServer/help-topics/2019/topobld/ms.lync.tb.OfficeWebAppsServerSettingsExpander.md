@@ -1,8 +1,8 @@
 ---
 title: Editar Configurações do Servidor do Office Web Apps
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,26 +14,26 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7a4b91ff-ca11-4dde-852d-ec51d143968a
 ROBOTS: NOINDEX, NOFOLLOW
-description: 'Edite as propriedades do servidor do Office Web Apps configurado. Estas propriedades estão disponíveis para edição:'
-ms.openlocfilehash: a1daf223be19e713a3c8c9848d65391b16baa22f
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: 'Edite as propriedades do Servidor do Office Web Apps configurado. As propriedades a seguir estão disponíveis para edição:'
+ms.openlocfilehash: 97435749a5eb6aa818ff4bb49d7a9142f6834c1e
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41797262"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49829921"
 ---
 # <a name="edit-office-web-apps-server-settings"></a>Editar Configurações do Servidor do Office Web Apps
 
-Edite as propriedades do servidor do Office Web Apps configurado. Estas propriedades estão disponíveis para edição:
+Edite as propriedades do Servidor do Office Web Apps configurado. As propriedades a seguir estão disponíveis para edição:
 
- **Office Web Apps Server FQDN**: essa propriedade define o nome de domínio totalmente qualificado do Office Web Apps Server e deve corresponder a um registro de host a ou AAAA (se IPv6 estiver sendo usado).
+ **FQDN** do Servidor do Office Web Apps : essa propriedade define o nome de domínio totalmente qualificado do Servidor do Office Web Apps e deve corresponder a um registro A ou AAAA de host do sistema de nomes de domínio (DNS) (se IPv6 estiver sendo usado).
 
- **URL de descoberta do servidor do Office Web Apps**: o Uniform Resource Locator (URL) para o acesso do cliente ao servidor do Office Web Apps, talvez você precise editar esse endereço a partir do padrão se o servidor for colocado em outra zona de rede diferente da rede interna da sua implantação.
+ **URL** de descoberta do Servidor do Office Web Apps : A URL (uniform resource locator) para acesso do cliente ao Servidor do Office Web Apps, talvez seja necessário editar esse endereço a partir de seu padrão se o servidor for colocado em outra zona de rede diferente da rede interna para sua implantação.
 
-Marque a caixa de seleção **O Servidor Office Web Apps é implantado em uma rede externa**, se esse servidor estiver implantado em sua rede de perímetro ou em outra zona de rede externa ao seu firewall interno, que separa a rede de perímetro, redes menos confiáveis e a Internet de sua implantação interna.
+Marque a caixa de seleção **Office Web Apps Server é implantado em uma rede externa** se esse servidor for implantado em sua rede de perímetro ou em outra zona de rede que esteja fora de seu firewall interno, separando a rede de perímetro, redes menos confiáveis e a Internet de sua implantação interna.
 
-![Expansor de configurações dos Office Web Apps](../../../media/OfficeWebApps_Settings_Expander.jpg)
+![Expansador de Configurações do Office Web Apps](../../../media/OfficeWebApps_Settings_Expander.jpg)
 
 ## <a name="see-also"></a>Confira também
 
-[Components and Topologies for Conferencing](https://technet.microsoft.com/library/eb83052a-3360-4ba1-a6a0-6ee419942809.aspx)
+[Componentes e topologias para conferência](https://technet.microsoft.com/library/eb83052a-3360-4ba1-a6a0-6ee419942809.aspx)

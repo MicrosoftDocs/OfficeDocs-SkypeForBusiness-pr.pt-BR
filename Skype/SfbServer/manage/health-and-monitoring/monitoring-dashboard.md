@@ -1,8 +1,8 @@
 ---
-title: Usar o painel de monitoramento no Skype for Business Server
+title: Usando o Painel de Monitoramento no Skype for Business Server
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,27 +11,27 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: e00e5783-116f-481f-ad17-3af847d6769a
-description: 'Resumo: Saiba mais sobre o painel de monitoramento no Skype for Business Server.'
-ms.openlocfilehash: c2c86d5d5ede9581a2b41f32594118ab2605d63a
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 'Resumo: saiba mais sobre o Painel de Monitoramento no Skype for Business Server.'
+ms.openlocfilehash: 98a96b8a513bad485a25aff76a69d787fb3079b0
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41817820"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49827781"
 ---
-# <a name="using-the-monitoring-dashboard-in-skype-for-business-server"></a>Usar o painel de monitoramento no Skype for Business Server
+# <a name="using-the-monitoring-dashboard-in-skype-for-business-server"></a>Usando o Painel de Monitoramento no Skype for Business Server
  
-**Resumo:** Saiba mais sobre o painel de monitoramento no Skype for Business Server.
+**Resumo:** Saiba mais sobre o Painel de Monitoramento no Skype for Business Server.
   
-O painel Monitoramento fornece aos administradores uma rápida visão geral da integridade do sistema e do uso do sistema do Skype for Business Server. O Painel foi projetado para fornecer uma exibição agregada das principais métricas do sistema e para fazer isso exibindo:
+O Painel de Monitoramento fornece aos administradores uma visão geral rápida da saúde e do uso do sistema do Skype for Business Server. O Painel foi projetado para mostrar uma visão agregada das principais métricas do sistema e para fazer isso exibindo:
   
-- Os totais para o dia atual. Observe que os valores mostrados para o dia atual representam dados que foram gravados da meia-noite até a hora atual (com base na hora local do servidor de relatório). Isso significa que você geralmente estará vendo dados referentes a um dia parcial, não a um período de 24 horas. Por exemplo, se a hora local do servidor for 8:00 AM, você verá a importância de oito horas de dados porque há oito horas entre a meia-noite e a hora atual do 8:00 AM.
+- Totais do dia atual. Observe que os valores mostrados para o dia atual representam dados que foram gravados da meia-noite até a hora atual (com base na hora local do servidor de relatórios). Isso significa que você geralmente exibirá dados para um dia parcial e não para um período de 24 horas. Por exemplo, se a hora local do servidor for 8:00, você verá oito horas de dados porque há oito horas entre meia-noite e a hora atual de 8:00 AM.
     
-- Totais para a semana e totais de tendência das últimas seis semanas.
+- Totais da semana e totais de tendência das últimas seis semanas.
     
-- Totais para o mês e os totais de tendência dos últimos seis meses (apenas para uso do sistema).
+- Totais do mês e totais de tendência dos últimos seis meses (somente para uso do sistema).
     
-Observe que você pode usar o cmdlet [Get-CsReportingConfiguration](https://docs.microsoft.com/powershell/module/skype/get-csreportingconfiguration?view=skype-ps) para retornar a URL usada para acessar os relatórios de monitoramento do Skype for Business Server:
+Observe que você pode usar o cmdlet [Get-CsReportingConfiguration](https://docs.microsoft.com/powershell/module/skype/get-csreportingconfiguration?view=skype-ps) para retornar a URL usada para acessar os Relatórios de Monitoramento do Skype for Business Server:
   
 ```PowerShell
 Get-CsReportingConfiguration
@@ -49,7 +49,7 @@ Por padrão, o Painel de Monitoramento mostra dados para as seguintes métricas 
   
 - Total de sessões
     
-- Sessões de mensagens instantâneas
+- Sessões de IM
     
 - Sessões de áudio
     
@@ -57,49 +57,49 @@ Por padrão, o Painel de Monitoramento mostra dados para as seguintes métricas 
     
 - Compartilhamento de aplicativos
     
-- Total de minutos da sessão de áudio
+- Total de minutos de sessão de áudio
     
-- Média de minutos da sessão de áudio
+- Avg. minutos de sessão de áudio
     
   **Conferência**
   
 - Total de conferências
     
-- Conferências de mensagens instantâneas
+- Conferências de IM
     
 - Conferências A/V
     
 - Conferências de compartilhamento de aplicativos
     
-- Webconferências
+- Webconferência
     
 - Total de organizadores
     
 - Total de minutos da conferência A/V
     
-- Média de minutos da conferência A/V
+- Avg. Minutos de conferência A/V
     
 - Total de conferências PSTN
     
 - Total de participantes PSTN
     
-- Total de minutos dos participantes PSTN
+- Total de minutos de participantes PSTN
     
-Além das métricas de Uso do Sistema, as seguintes métricas exibem o total para o dia atual e os seis dias anteriores (se você selecionar **Exibição Semanal**) ou para a semana atual e as últimas seis semanas se você selecionar **Exibição Mensal**.
+Além das métricas de Uso do Sistema, as métricas a seguir exibem o total do dia atual e dos seis dias anteriores (se você selecionar Exibição **Semanal)** ou para a semana atual e as últimas seis semanas se você selecionar Exibição Mensal **.**
   
-## <a name="per-user-call-diagnostics"></a>Diagnóstico de chamada por usuário
+## <a name="per-user-call-diagnostics"></a>Per-User Diagnóstico de Chamada
 
- **Usuários com falhas na chamada**
+ **Usuários com falhas de chamada**
   
 - Total de usuários com falhas de chamada
     
 - Organizadores de conferência com falhas de chamada
     
-  **Usuários com chamadas com qualidade ruim**
+  **Usuários com chamadas de baixa qualidade**
   
 - Total de usuários com chamadas de baixa qualidade
     
-## <a name="call-diagnostics"></a>Diagnóstico de Chamadas
+## <a name="call-diagnostics"></a>Diagnóstico de Chamada
 
 Ponto a ponto
   
@@ -107,7 +107,7 @@ Ponto a ponto
     
 - Taxa de falha geral
     
-- Taxa de falha de mensagens instantâneas
+- Taxa de falha de IM
     
 - Taxa de falha de áudio
     
@@ -119,59 +119,59 @@ Conferência
     
 - Taxa de falha geral
     
-- Taxa de falha de mensagens instantâneas
+- Taxa de falha de IM
     
 - Taxa de falha de A/V
     
 - Taxa de falha de compartilhamento de aplicativos
     
-Principais cinco servidores por sessões de falha
+Cinco principais servidores por sessões com falha
   
 ## <a name="media-quality-diagnostics"></a>Diagnóstico de Qualidade de Mídia
 
 Ponto a ponto
   
-- Total de chamadas com qualidade ruim
+- Total de chamadas de baixa qualidade
     
-- Percentual de chamadas com qualidade ruim
+- Percentual de chamada de baixa qualidade
     
 - Chamadas PSTN com qualidade ruim
     
 Conferência
   
-- Total de chamadas com qualidade ruim
+- Total de chamadas de baixa qualidade
     
-- Percentual de chamadas com qualidade ruim
+- Percentual de chamada de baixa qualidade
     
 - Chamadas PSTN com qualidade ruim
     
-Piores servidores por percentual de chamadas com qualidade ruim
+Principais servidores por percentual de chamada de baixa qualidade
   
 ## <a name="working-with-the-monitoring-dashboard"></a>Trabalhando com o Painel de Monitoramento
 
-Conforme observado, os totais padrões são mostrados para a semana atual e os valores de tendência são mostrados para as últimas seis semanas. Se você prefere ver os totais para o mês atual (assim como os valores de tendência para os últimos seis meses), clique no link **Exibição Mensal** no canto superior direito do painel. Se você decidir exibir os totais mensais, o texto do link irá mudar para **Exibição Semanal**. É possível voltar para a exibição semanal clicando neste link.
+Conforme indicado, os totais padrão são mostrados para a semana atual e os valores de tendência são mostrados nas últimas seis semanas. Se você preferir ver os totais do mês atual (bem como os valores de tendência dos últimos seis meses), clique no **link** Exibição Mensal no canto superior direito do painel. Se você decidir exibir totais mensais, o texto do link mudará para **Exibição Semanal.** Você pode voltar para a exibição semanal clicando nesse link.
   
 > [!TIP]
-> O Painel de Monitoramento restringe a exibição dos totais para a semana (ou mês) atual e os valores de tendência das últimas seis semanas (ou meses). Não é possível alterar essas datas e horas. Por exemplo, não é possível usar o Painel para ver os totais do relatório para o período que inicia nove meses atrás. 
+> O Painel de Monitoramento restringe a análise dos totais da semana (ou mês) atual e dos valores de tendência das últimas seis semanas (ou meses). Você não pode alterar essas datas e horas. Por exemplo, você não pode usar o Painel para exibir os totais de relatório para o período de tempo que começa há nove meses. 
   
-Os valores mostrados nas colunas **Esta semana**, **Este mês** ou **Hoje** vinculam você às informações mais detalhadas sobre o item. Lembre-se de que o nome da coluna e os valores exibidos nesta coluna frequentemente são diferentes dependendo da métrica escolhida e dependendo se você selecionou exibição semanal ou mensal. Por exemplo, se você clicar nos totais exibidos para a métrica **Logons de usuário exclusivos**, você verá o **Relatório de Registro do Usuário** para o período especificado. É possível retornar para o Painel de Monitoramento a qualquer momento clicando em **Painel**.
+Os valores mostrados nas **colunas Esta semana**, **Este mês** ou **Hoje** vinculam você a informações mais detalhadas sobre o item. Tenha em mente que o nome da coluna e os valores exibidos nessa coluna geralmente serão diferentes dependendo da métrica escolhida e dependendo se você selecionou a exibição semanal ou a exibição mensal. Por exemplo, se você clicar nos totais mostrados para  a métrica de **logons** de usuário exclusivos, você verá o Relatório de Registro de Usuário para o período de tempo especificado. Você pode retornar ao Painel de Monitoramento a qualquer momento clicando no **Painel.**
   
 > [!TIP]
-> Você também pode acessar a Home Page de relatórios do Monitoring Server clicando no link **relatórios** no canto superior direito do painel.
+> Você também pode acessar a home page Relatórios do Monitoring Server clicando no link **Relatórios** no canto superior direito do Painel.
   
-A coluna **Tendência** exibe um gráfico de linha simples que mostra os totais das últimas seis semanas (ou, dependendo da métrica e do intervalo de tempo, os últimos seis dias ou últimos seis meses). Esses gráficos de linha simples mostram um ponto de dados não rotulado para cada período (por exemplo, um ponto de dados não rotulado para cada uma das últimas seis semanas). No entanto, é possível recuperar os valores reais desses gráficos mantendo o ponteiro do mouse sobre o gráfico. Nesse caso, uma dica de tela mostra os valores máximos e mínimo no gráfico.
+A **coluna Tendência** exibe um gráfico de linha simples que mostra os totais das últimas seis semanas (ou, dependendo da métrica e do intervalo de tempo, dos últimos seis dias ou dos últimos seis meses). Esses gráficos de linha simples exibem um ponto de dados sem rótulo para cada período de tempo (por exemplo, um ponto de dados sem rótulo para cada uma das últimas seis semanas). No entanto, você pode recuperar valores reais para esses gráficos segurando o ponteiro do mouse sobre o gráfico. Nesse caso, uma dica de ferramenta mostra os valores máximo e mínimo no gráfico.
   
 ## <a name="exporting-data-from-the-monitoring-dashboard"></a>Exportando dados do Painel de Monitoramento
 
-O Painel de Monitoramento oferece várias formas de exportar a exibição do painel atual. Na barra de ferramentas do Painel, você verá um ícone semelhante a um disquete com uma seta verde anexada. Se você clicar nesse ícone, uma lista suspensa aparecerá oferecendo os seguintes formatos de exportação de dados:
+O Painel de Monitoramento oferece várias maneiras de exportar o modo de exibição de painel atual. Na barra de ferramentas Painel, você verá um ícone que se parece com um disquete com uma seta verde anexada a ele. Se você clicar nesse ícone, uma listada será exibida, dando a você os seguintes formatos de exportação de dados:
   
-- Arquivo XML com dados do relatório
+- Arquivo XML com dados de relatório
     
 - CSV (delimitado por vírgula)
     
 - PDF
     
-- MHTML (arquivo Web)
+- MHTML (arquivo da web)
     
 - Excel
     
@@ -179,22 +179,22 @@ O Painel de Monitoramento oferece várias formas de exportar a exibição do pai
     
 - Word
     
-Para exportar a exibição do painel atual (e seus valores), clique na opção de exportação desejada. O Skype for Business Server gera um relatório no formato especificado e oferece a opção de abrir esse relatório ou salvá-lo. Observe que, por padrão, o Skype for Business Server títulos o **painel Monitoramento** de relatório e salva-o na pasta downloads. Para dar um nome diferente ou armazená-lo em uma pasta diferente, clique na seta ao lado do botão **Salvar** e clique em **Salvar Como**. Se você concorda com o nome **Painel de Monitoramento** e em salvar na pasta Downloads, basta clicar no botão **Salvar**.
+Para exportar a exibição do painel atual (e seus valores), clique na opção de exportação desejada. O Skype for Business Server gera um relatório no formato especificado e dá a você a opção de abrir ou salvar o relatório. Observe que, por padrão, o Skype  for Business Server chama o Painel de Monitoramento do relatório e o salva na pasta Downloads. Para dar ao relatório um nome diferente ou armazená-lo em  uma pasta diferente, clique na seta ao lado do botão Salvar e clique em **Salvar como**. Se você não tiver problemas com o nome **Painel** de Monitoramento e se o relatório for salvo na pasta Downloads, basta clicar no **botão** Salvar.
   
-É possível que, ao tentar exportar os dados do painel, uma caixa de diálogo **Alerta de Segurança** seja exibida junto com a mensagem "Suas configurações atuais não permitem que este arquivo seja baixado". Se isso ocorrer, faça o seguinte:
+É possível que, ao tentar exportar dados do painel, uma caixa de diálogo Alerta de Segurança apareça junto com **a** mensagem "Suas configurações atuais não permitem que este arquivo seja baixado". Se isso ocorrer, faça o seguinte:
   
-- No Internet Explorer, selecione **Opções de Internet**.
+- No Internet Explorer, selecione **Opções da Internet.**
     
-- Na caixa de diálogo **Opções de Internet**, na guia **Segurança**, clique em **Sites confiáveis** e em **Sites**.
+- Na caixa de diálogo Opções da **Internet,** **na** guia Segurança, clique em **Sites** Confiáveis e em **Sites.**
     
-- Na caixa de diálogo **sites confiáveis** , clique em **Adicionar** para adicionar o Skype for Business Server que está executando os relatórios do Skype for Business Server às coleções de sites confiáveis.
+- Na caixa **de diálogo**  Sites confiáveis, clique em Adicionar para adicionar o Skype for Business Server que está executando os Relatórios do Skype for Business Server aos conjunto de sites confiáveis.
     
-- Clique em **Fechar** e em **OK**.
+- Clique **em Fechar** e em **OK.**
     
-Você precisará atualizar o Painel de Monitoramento para que as alterações tenham efeito. Para fazer isso, pressione F5 ou clique no ícone **Atualizar** na barra de ferramentas do Painel. (O ícone **Atualizar** é um círculo com um par de setas verdes.)
+Em seguida, você precisará atualizar o Painel de Monitoramento antes que as alterações entre em vigor. Para fazer isso, pressione F5 ou clique **no** ícone Atualizar na barra de ferramentas Painel. (O **ícone Atualizar** é um círculo com um par de setas verdes.)
   
-Também é possível criar uma planilha do Excel que inclui feeds de dados ao vivo, incluindo links para os dados do Painel de Monitoramento. Para criar um arquivo de feed de dados ao vivo, clique no ícone laranja **Exportar para Feed de Dados** na barra de ferramentas.
+Você também pode criar uma planilha do Excel que inclua feeds de dados ao vivo, que inclui links para os dados mais recentes do Painel de Monitoramento. Para criar um arquivo de feed de dados ao vivo, clique no ícone laranja Exportar para **Feed de** Dados na barra de ferramentas.
   
-Se você prefere imprimir o Painel atual, clique no ícone da impressora na barra de ferramentas.
+Se você preferir imprimir o Painel atual, clique no ícone da impressora na barra de ferramentas.
   
 
