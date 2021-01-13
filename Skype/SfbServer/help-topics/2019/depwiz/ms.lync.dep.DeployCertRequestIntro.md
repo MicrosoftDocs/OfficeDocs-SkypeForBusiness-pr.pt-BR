@@ -1,8 +1,8 @@
 ---
 title: Solicitação de Certificado (Introdução)
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,16 +14,16 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: e1d0844b-168e-4474-a432-ce83925a4fe1
 ROBOTS: NOINDEX, NOFOLLOW
-description: Para continuar com o processo de solicitação de certificado, clique em Avançar. Para sair do processo sem alterações no sistema, clique em cancelar.
-ms.openlocfilehash: d0458533ae46092ccf5bd1b8799018ade260c983
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: Para continuar com o processo de solicitação de certificado, clique em Avançar. Para sair do processo sem fazer alterações no sistema, clique em Cancelar.
+ms.openlocfilehash: 5d0b00810065d138ce25caeebc0f23400831064a
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41796702"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49808791"
 ---
-# <a name="certificate-request-intro"></a><span data-ttu-id="86932-104">Solicitação de Certificado (Introdução)</span><span class="sxs-lookup"><span data-stu-id="86932-104">Certificate Request (Intro)</span></span>
+# <a name="certificate-request-intro"></a><span data-ttu-id="cb2e8-104">Solicitação de Certificado (Introdução)</span><span class="sxs-lookup"><span data-stu-id="cb2e8-104">Certificate Request (Intro)</span></span>
  
-<span data-ttu-id="86932-105">Para continuar com o processo de solicitação de certificado, clique em **Avançar**.</span><span class="sxs-lookup"><span data-stu-id="86932-105">To continue with the certificate request process, click **Next**.</span></span> <span data-ttu-id="86932-106">Para sair do processo sem alterações no sistema, clique em **Cancelar**.</span><span class="sxs-lookup"><span data-stu-id="86932-106">To exit the process with no changes to the system, click **Cancel**.</span></span>
+<span data-ttu-id="cb2e8-p102">Para continuar com o processo de solicitação de certificado, clique em **Avançar**. Para sair do processo sem fazer alterações no sistema, clique em **Cancelar**.</span><span class="sxs-lookup"><span data-stu-id="cb2e8-p102">To continue with the certificate request process, click **Next**. To exit the process with no changes to the system, click **Cancel**.</span></span>
   
 

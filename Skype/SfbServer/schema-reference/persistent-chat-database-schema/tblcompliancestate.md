@@ -1,8 +1,8 @@
 ---
 title: tblComplianceState
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -12,24 +12,24 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: ea82e56c-3cca-4d89-b4e6-6bcaeb1f2830
-description: tblComplianceState contém informações de estado de conformidade em todo o pool.
-ms.openlocfilehash: 6f3a7b1b7744260d0630a5328021b1752137a797
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: tblComplianceState contém informações sobre o estado de conformidade de todo o pool.
+ms.openlocfilehash: 82c775b315976b0e5b112c476a41a8f5adc6a24c
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41814629"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49809721"
 ---
-# <a name="tblcompliancestate"></a><span data-ttu-id="d4e08-103">tblComplianceState</span><span class="sxs-lookup"><span data-stu-id="d4e08-103">tblComplianceState</span></span>
+# <a name="tblcompliancestate"></a><span data-ttu-id="1c80f-103">tblComplianceState</span><span class="sxs-lookup"><span data-stu-id="1c80f-103">tblComplianceState</span></span>
  
-<span data-ttu-id="d4e08-104">tblComplianceState contém informações de estado de conformidade em todo o pool.</span><span class="sxs-lookup"><span data-stu-id="d4e08-104">tblComplianceState contains pool-wide compliance state information.</span></span>
+<span data-ttu-id="1c80f-104">tblComplianceState contém informações sobre o estado de conformidade de todo o pool.</span><span class="sxs-lookup"><span data-stu-id="1c80f-104">tblComplianceState contains pool-wide compliance state information.</span></span>
   
-<span data-ttu-id="d4e08-105">**Colunas**</span><span class="sxs-lookup"><span data-stu-id="d4e08-105">**Columns**</span></span>
+<span data-ttu-id="1c80f-105">**Columns**</span><span class="sxs-lookup"><span data-stu-id="1c80f-105">**Columns**</span></span>
 
-|<span data-ttu-id="d4e08-106">**Coluna**</span><span class="sxs-lookup"><span data-stu-id="d4e08-106">**Column**</span></span>|<span data-ttu-id="d4e08-107">**Tipo**</span><span class="sxs-lookup"><span data-stu-id="d4e08-107">**Type**</span></span>|<span data-ttu-id="d4e08-108">**Descrição**</span><span class="sxs-lookup"><span data-stu-id="d4e08-108">**Description**</span></span>|
+|<span data-ttu-id="1c80f-106">**Coluna**</span><span class="sxs-lookup"><span data-stu-id="1c80f-106">**Column**</span></span>|<span data-ttu-id="1c80f-107">**Tipo**</span><span class="sxs-lookup"><span data-stu-id="1c80f-107">**Type**</span></span>|<span data-ttu-id="1c80f-108">**Descrição**</span><span class="sxs-lookup"><span data-stu-id="1c80f-108">**Description**</span></span>|
 |:-----|:-----|:-----|
-|<span data-ttu-id="d4e08-109">lastProcessedEntryID</span><span class="sxs-lookup"><span data-stu-id="d4e08-109">lastProcessedEntryID</span></span>  <br/> |<span data-ttu-id="d4e08-110">bigint, e não nulo</span><span class="sxs-lookup"><span data-stu-id="d4e08-110">bigint, not null</span></span>  <br/> |<span data-ttu-id="d4e08-111">ID do evento de conformidade processado mais recente.</span><span class="sxs-lookup"><span data-stu-id="d4e08-111">ID of the latest processed compliance event.</span></span>  <br/> |
-|<span data-ttu-id="d4e08-112">activeServerID</span><span class="sxs-lookup"><span data-stu-id="d4e08-112">activeServerID</span></span>  <br/> |<span data-ttu-id="d4e08-113">int, não nulo</span><span class="sxs-lookup"><span data-stu-id="d4e08-113">int, not null</span></span>  <br/> |<span data-ttu-id="d4e08-114">ID do servidor de conformidade que mantém o bloqueio exclusivo no banco de dados ou-1 se nenhum.</span><span class="sxs-lookup"><span data-stu-id="d4e08-114">ID of the Compliance server holding the exclusive lock on the database, or -1 if none.</span></span>  <br/> |
-|<span data-ttu-id="d4e08-115">lockExpirationTime</span><span class="sxs-lookup"><span data-stu-id="d4e08-115">lockExpirationTime</span></span>  <br/> |<span data-ttu-id="d4e08-116">datetime2, não nulo</span><span class="sxs-lookup"><span data-stu-id="d4e08-116">datetime2, not null</span></span>  <br/> |<span data-ttu-id="d4e08-117">Bloquear o tempo de expiração (se activeServerID não for-1).</span><span class="sxs-lookup"><span data-stu-id="d4e08-117">Lock expiration time (if activeServerID is not -1).</span></span>  <br/> |
+|<span data-ttu-id="1c80f-109">lastProcessedEntryID</span><span class="sxs-lookup"><span data-stu-id="1c80f-109">lastProcessedEntryID</span></span>  <br/> |<span data-ttu-id="1c80f-110">bigint, não nulo</span><span class="sxs-lookup"><span data-stu-id="1c80f-110">bigint, not null</span></span>  <br/> |<span data-ttu-id="1c80f-111">ID do último evento de conformidade processado.</span><span class="sxs-lookup"><span data-stu-id="1c80f-111">ID of the latest processed compliance event.</span></span>  <br/> |
+|<span data-ttu-id="1c80f-112">activeServerID</span><span class="sxs-lookup"><span data-stu-id="1c80f-112">activeServerID</span></span>  <br/> |<span data-ttu-id="1c80f-113">int, não nulo</span><span class="sxs-lookup"><span data-stu-id="1c80f-113">int, not null</span></span>  <br/> |<span data-ttu-id="1c80f-114">ID do servidor de conformidade que possui o bloqueio exclusivo no banco de dados, ou -1 se nenhum.</span><span class="sxs-lookup"><span data-stu-id="1c80f-114">ID of the Compliance server holding the exclusive lock on the database, or -1 if none.</span></span>  <br/> |
+|<span data-ttu-id="1c80f-115">lockExpirationTime</span><span class="sxs-lookup"><span data-stu-id="1c80f-115">lockExpirationTime</span></span>  <br/> |<span data-ttu-id="1c80f-116">datetime2, não nulo</span><span class="sxs-lookup"><span data-stu-id="1c80f-116">datetime2, not null</span></span>  <br/> |<span data-ttu-id="1c80f-117">Hora de expiração do bloqueio (se activeServerID não for igual a -1).</span><span class="sxs-lookup"><span data-stu-id="1c80f-117">Lock expiration time (if activeServerID is not -1).</span></span>  <br/> |
    
 

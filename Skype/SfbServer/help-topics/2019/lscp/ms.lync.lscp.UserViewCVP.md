@@ -1,8 +1,8 @@
 ---
-title: Usuários exibir ou configurar a política de versão do cliente
+title: Exibir ou Configurar Política de Versão de Cliente
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,19 +14,19 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 446915b6-462e-4cc1-8584-9f59f7eb8cc8
 ROBOTS: NOINDEX, NOFOLLOW
-description: O que você deseja fazer? Clique no link da tarefa que você deseja executar.
-ms.openlocfilehash: 8e0f71a104d2c9bdb30b5278271bb13942198020
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: O que você deseja fazer? Clique no link para a tarefa que você deseja executar.
+ms.openlocfilehash: a126622b407a38b6cac5157e71fb08330c70eff8
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41797978"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49808151"
 ---
-# <a name="users-view-or-configure-client-version-policy"></a><span data-ttu-id="322dd-104">Usuários: Exibir ou Configurar Política de Versão de Cliente</span><span class="sxs-lookup"><span data-stu-id="322dd-104">Users: View or Configure Client Version Policy</span></span>
+# <a name="users-view-or-configure-client-version-policy"></a><span data-ttu-id="5196e-104">Usuários: Exibir ou Configurar Política de Versão de Cliente</span><span class="sxs-lookup"><span data-stu-id="5196e-104">Users: View or Configure Client Version Policy</span></span>
 
-<span data-ttu-id="322dd-105">O que você deseja fazer?</span><span class="sxs-lookup"><span data-stu-id="322dd-105">What do you want to do?</span></span> <span data-ttu-id="322dd-106">Clique no link da tarefa que você deseja executar.</span><span class="sxs-lookup"><span data-stu-id="322dd-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="5196e-105">O que você deseja fazer?</span><span class="sxs-lookup"><span data-stu-id="5196e-105">What do you want to do?</span></span> <span data-ttu-id="5196e-106">Clique no link para a tarefa que você deseja executar.</span><span class="sxs-lookup"><span data-stu-id="5196e-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="322dd-107">Especifique as versões de cliente com suporte para entrar por um usuário</span><span class="sxs-lookup"><span data-stu-id="322dd-107">Specify Client Versions Supported for Sign-in by a User</span></span>](https://technet.microsoft.com/library/f7e8ba2f-62dc-4e7d-8b63-682986f10240.aspx)
+- [<span data-ttu-id="5196e-107">Especificar versões de cliente com suporte para entrada por um usuário</span><span class="sxs-lookup"><span data-stu-id="5196e-107">Specify Client Versions Supported for Sign-in by a User</span></span>](https://technet.microsoft.com/library/f7e8ba2f-62dc-4e7d-8b63-682986f10240.aspx)
 
 
 

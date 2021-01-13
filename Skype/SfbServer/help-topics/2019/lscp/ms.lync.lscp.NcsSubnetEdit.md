@@ -1,8 +1,8 @@
 ---
-title: Associar uma sub-rede Adicionar nova ou editar existente
+title: Associar uma Sub-rede Adicionar Nova ou Editar Existente
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,19 +14,19 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: e08a6a2d-1f88-4a84-b6e5-b84dcded4a86
 ROBOTS: NOINDEX, NOFOLLOW
-description: O que você deseja fazer? Clique no link da tarefa que você deseja executar.
-ms.openlocfilehash: fb6685d7586d00897bee51ceaf7941852063303f
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: O que você deseja fazer? Clique no link para a tarefa que você deseja executar.
+ms.openlocfilehash: 785d927ad8eafc361dc32efb1d44155801b91b52
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41793499"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49808471"
 ---
-# <a name="associate-a-subnet-add-new-or-edit-existing"></a><span data-ttu-id="4a189-104">Associar uma Sub-rede: Adicionar Nova ou Editar Existente</span><span class="sxs-lookup"><span data-stu-id="4a189-104">Associate a Subnet: Add New or Edit Existing</span></span>
+# <a name="associate-a-subnet-add-new-or-edit-existing"></a><span data-ttu-id="a91ff-104">Associar uma Sub-rede: Adicionar Nova ou Editar Existente</span><span class="sxs-lookup"><span data-stu-id="a91ff-104">Associate a Subnet: Add New or Edit Existing</span></span>
 
-<span data-ttu-id="4a189-105">O que você deseja fazer?</span><span class="sxs-lookup"><span data-stu-id="4a189-105">What do you want to do?</span></span> <span data-ttu-id="4a189-106">Clique no link da tarefa que você deseja executar.</span><span class="sxs-lookup"><span data-stu-id="4a189-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="a91ff-105">O que você deseja fazer?</span><span class="sxs-lookup"><span data-stu-id="a91ff-105">What do you want to do?</span></span> <span data-ttu-id="a91ff-106">Clique no link para a tarefa que você deseja executar.</span><span class="sxs-lookup"><span data-stu-id="a91ff-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="4a189-107">Configurar sub-redes de rede</span><span class="sxs-lookup"><span data-stu-id="4a189-107">Configuring Network Subnets</span></span>](https://technet.microsoft.com/library/1ba8c4e3-fbc7-4758-88ac-d651fef17bed.aspx)
+- [<span data-ttu-id="a91ff-107">Configurando sub-redes de rede</span><span class="sxs-lookup"><span data-stu-id="a91ff-107">Configuring Network Subnets</span></span>](https://technet.microsoft.com/library/1ba8c4e3-fbc7-4758-88ac-d651fef17bed.aspx)
 
 
 

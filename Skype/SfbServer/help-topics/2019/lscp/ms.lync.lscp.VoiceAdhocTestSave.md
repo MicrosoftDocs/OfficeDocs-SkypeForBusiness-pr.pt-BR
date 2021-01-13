@@ -1,8 +1,8 @@
 ---
 title: Salvar Informações de Caso de Teste de Roteamento de Voz
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,20 +14,20 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 7874119d-d92b-484e-bbda-62f65241debd
 ROBOTS: NOINDEX, NOFOLLOW
-description: Você pode usar a caixa de diálogo Salvar informações do caso de teste de roteamento de voz para salvar um caso de teste de roteamento de voz temporário. Em salvar informações do caso de teste de roteamento de voz, digite o nome que você deseja dar a este caso de teste no nome e clique em OK.
-ms.openlocfilehash: 46c70c426a27b598c3048543cfb6e7a9f764dd01
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: Você pode usar a caixa de diálogo Salvar Informações de Caso de Teste de Roteamento de Voz para salvar um caso de teste de roteamento de voz temporário. Em Salvar Informações do Caso de Teste de Roteamento de Voz, digite o nome que você deseja dar a esse caso de teste em Nome e clique em OK.
+ms.openlocfilehash: 428b1f761b3918968ee40877bd201114a0c4d174
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41797878"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49807951"
 ---
-# <a name="save-voice-routing-test-case-information"></a><span data-ttu-id="633d9-104">Salvar Informações de Caso de Teste de Roteamento de Voz</span><span class="sxs-lookup"><span data-stu-id="633d9-104">Save Voice Routing Test Case Information</span></span>
+# <a name="save-voice-routing-test-case-information"></a><span data-ttu-id="dbd6f-104">Salvar Informações de Caso de Teste de Roteamento de Voz</span><span class="sxs-lookup"><span data-stu-id="dbd6f-104">Save Voice Routing Test Case Information</span></span>
  
-<span data-ttu-id="633d9-105">Você pode usar a caixa de diálogo **salvar informações do caso de teste de roteamento de voz** para salvar atemporary casos de teste de roteamento de voz.</span><span class="sxs-lookup"><span data-stu-id="633d9-105">You can use the **Save Voice Routing Test Case Information** dialog box to save atemporary voice routing test case.</span></span> <span data-ttu-id="633d9-106">Em **salvar informações do caso de teste de roteamento de voz**, digite o nome que você deseja dar a este caso de teste no **nome** e clique em **OK**.</span><span class="sxs-lookup"><span data-stu-id="633d9-106">In **Save Voice Routing Test Case Information**, type the name you want to give this test case in **Name** and then click **OK**.</span></span> 
+<span data-ttu-id="dbd6f-105">Você pode usar a caixa **de diálogo Salvar Informações de Caso** de Teste de Roteamento de Voz para salvar um caso de teste de roteamento de voztemporário.</span><span class="sxs-lookup"><span data-stu-id="dbd6f-105">You can use the **Save Voice Routing Test Case Information** dialog box to save atemporary voice routing test case.</span></span> <span data-ttu-id="dbd6f-106">Em **Salvar Informações do Caso de Teste de Roteamento de Voz**, digite o nome que você deseja dar a esse caso de teste em **Nome** e clique em **OK**.</span><span class="sxs-lookup"><span data-stu-id="dbd6f-106">In **Save Voice Routing Test Case Information**, type the name you want to give this test case in **Name** and then click **OK**.</span></span> 
   
 > [!NOTE]
-> <span data-ttu-id="633d9-107">Quando você salva um caso de teste temporário, não o está salvando no repositório de gerenciamento central.</span><span class="sxs-lookup"><span data-stu-id="633d9-107">When you save a temporary test case, you are not saving it to the Central Management store.</span></span> <span data-ttu-id="633d9-108">Em vez disso, ele torna o caso de teste disponível na guia **Roteamento de voz de teste** da página de roteamento de **voz** .</span><span class="sxs-lookup"><span data-stu-id="633d9-108">Instead, it makes the test case available from the **Test Voice Routing** tab of the **Voice Routing** page.</span></span> <span data-ttu-id="633d9-109">O caso de teste será exibido com um estado de não **confirmado**.</span><span class="sxs-lookup"><span data-stu-id="633d9-109">The test case will appear with a state of **Uncommitted**.</span></span> <span data-ttu-id="633d9-110">Para salvar o caso de teste no repositório de gerenciamento central, você deve confirmar a configuração de voz clicando em **confirmar tudo** em qualquer menu de **ação** na página de **Roteamento de voz** .</span><span class="sxs-lookup"><span data-stu-id="633d9-110">To save the test case to the Central Management store, you must commit the voice configuration by clicking **Commit All** from any **Action** menu within the **Voice Routing** page.</span></span>
+> <span data-ttu-id="dbd6f-107">Quando você salva um caso de teste temporário, não está salvando-o no armazenamento de Gerenciamento Central.</span><span class="sxs-lookup"><span data-stu-id="dbd6f-107">When you save a temporary test case, you are not saving it to the Central Management store.</span></span> <span data-ttu-id="dbd6f-108">O caso de teste fica disponível, ao invés disso, na guia **Testar Roteamento de Voz** da página **Roteamento de Voz**.</span><span class="sxs-lookup"><span data-stu-id="dbd6f-108">Instead, it makes the test case available from the **Test Voice Routing** tab of the **Voice Routing** page.</span></span> <span data-ttu-id="dbd6f-109">O caso de teste aparecerá com o estado de **Não Confirmado**.</span><span class="sxs-lookup"><span data-stu-id="dbd6f-109">The test case will appear with a state of **Uncommitted**.</span></span> <span data-ttu-id="dbd6f-110">Para salvar o caso de teste no armazenamento de Gerenciamento  Central, você deve comprometer a configuração de voz clicando em Confirmação De todos do **menu** Ação na página **Roteamento de** Voz.</span><span class="sxs-lookup"><span data-stu-id="dbd6f-110">To save the test case to the Central Management store, you must commit the voice configuration by clicking **Commit All** from any **Action** menu within the **Voice Routing** page.</span></span>
   
  
   
