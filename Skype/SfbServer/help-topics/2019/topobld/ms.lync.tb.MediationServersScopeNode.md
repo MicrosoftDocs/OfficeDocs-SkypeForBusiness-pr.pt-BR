@@ -1,8 +1,8 @@
 ---
 title: Nó de Escopo de Servidores de Mediação
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,26 +14,26 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e6da97ad-1546-4af8-b8e8-5a0053a1abea
 ROBOTS: NOINDEX, NOFOLLOW
-description: 'O nó de Pools de Mediação lista os pools de Mediação na sua topologia. Você pode executar as seguintes ações:'
-ms.openlocfilehash: 19a52e1e228de4c9d7e24fec9d3f09a06d285bb0
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: 'O nó pools de Mediação lista os pools de Mediação na sua topologia. Você pode executar as seguintes ações:'
+ms.openlocfilehash: f806cb62f4e56b3676e0e379ea619da4a627af60
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41796200"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49804231"
 ---
 # <a name="mediation-servers-scope-node"></a>Nó de Escopo de Servidores de Mediação
  
-O nó de **Pools de Mediação** lista os pools de Mediação na sua topologia. Você pode executar as seguintes ações:
+O nó **pools de Mediação** lista os pools de Mediação na sua topologia. Você pode executar as seguintes ações:
   
 - **Novo Pool de Mediação**. Inicia o assistente **Definir Novo Pool de Mediação** que você utilizará para adicionar um novo pool de mediação à topologia..
     
 Além das opções de pool de Mediação, você pode executar as seguintes tarefas gerais:
   
-- **Topologia**. Você pode usar essa opção para definir uma nova topologia, abrir uma topologia existente, baixar a topologia atual, salvar uma cópia ou publicar a topologia, instalar um banco de dados, mesclar componentes de versões anteriores ou remover a implantação.
+- **Topologia**. Você pode usar essa opção para definir uma nova topologia, abrir uma topologia existente, baixar a topologia atual, salvar uma cópia da topologia, publicar a topologia, instalar um banco de dados, mesclar componentes de versões anteriores ou remover a implantação.
     
-- **Exibir**. Você pode usar essa opção para personalizar o modo de exibição no Construtor de Topologias selecionando os itens para mostrar ou ocultar nos modos de exibição da árvore de console.
+- **Visualização**. Você pode usar esta opção para personalizar a visualização no Construtor de Topologia selecionando os itens que serão exibidos ou escondidos na visão de árvore de comando..
     
-- **Ajuda**. Você pode usar essa opção para acessar a Ajuda do nó ativo.
+- **Ajuda**. Você pode usar esta opção para acessar a Ajuda para o nó ativo.
     
 

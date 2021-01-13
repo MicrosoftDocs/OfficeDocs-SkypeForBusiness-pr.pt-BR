@@ -1,8 +1,8 @@
 ---
-title: Filtro de arquivo criar novo ou editar existente
+title: Filtro de Arquivo Criar Novo ou Editar Existente
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,21 +14,21 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 2f6e54ef-2ff5-4cac-a3d4-80a101e8d177
 ROBOTS: NOINDEX, NOFOLLOW
-description: O que você deseja fazer? Clique no link da tarefa que você deseja executar.
-ms.openlocfilehash: 0fd722cf2fb78c3d8281cc7705cee9ed315754a4
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: O que você deseja fazer? Clique no link para a tarefa que você deseja executar.
+ms.openlocfilehash: b7a80beb9105adf7a416d3730db78be1220d2318
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41796430"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49801451"
 ---
 # <a name="file-filter-create-new-or-edit-existing"></a>Filtro de Arquivo: Criar Novo ou Editar Existente
 
-O que você deseja fazer? Clique no link da tarefa que você deseja executar.
+O que você deseja fazer? Clique no link para a tarefa que você deseja executar.
 
-- [Modificar o filtro padrão de transferência de arquivos](https://technet.microsoft.com/library/791774a2-0bb6-4b5b-aeb0-ff69abb170f4.aspx)
+- [Modificar o filtro de transferência de arquivo padrão](https://technet.microsoft.com/library/791774a2-0bb6-4b5b-aeb0-ff69abb170f4.aspx)
 
-- [Criar um novo filtro de transferência de arquivo para um site específico](https://technet.microsoft.com/library/d0006487-5217-491c-b730-e6c551cd9825.aspx)
+- [Criar um novo filtro de transferência de arquivos para um local específico](https://technet.microsoft.com/library/d0006487-5217-491c-b730-e6c551cd9825.aspx)
 
 
 

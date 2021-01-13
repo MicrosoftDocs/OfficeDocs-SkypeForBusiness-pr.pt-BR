@@ -1,8 +1,8 @@
 ---
 title: Exibição NetworkConfigurationSettings
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -12,22 +12,22 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 279ea5d1-5d07-44d4-8133-2557446914ca
-description: A exibição NetworkConfigurationSettings armazena informações sobre a configuração de rede. Este modo de exibição foi apresentado no Microsoft Lync Server 2013.
-ms.openlocfilehash: d33111ec8d9be155e8189cf7876b6d9d293eb678
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: A Exibição NetworkConfigurationSettings armazena informações sobre a configuração de Rede. Esta exibição foi introduzida no Microsoft Lync Server 2013.
+ms.openlocfilehash: f3c03c286b9593d004f0849669a6c089be5111b0
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41807709"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49806311"
 ---
 # <a name="networkconfigurationsettings-view"></a>Exibição NetworkConfigurationSettings
  
-A exibição NetworkConfigurationSettings armazena informações sobre a configuração de rede. Este modo de exibição foi apresentado no Microsoft Lync Server 2013.
+A Exibição NetworkConfigurationSettings armazena informações sobre a configuração de Rede. Esta exibição foi introduzida no Microsoft Lync Server 2013.
   
 |**Coluna**|**Tipo de dados**|**Detalhes**|
 |:-----|:-----|:-----|
-|SubnetIP  <br/> |int  <br/> |Endereço IP de sub-rede (somente endereços IPv4 têm suporte).  <br/> |
-|Usersitename  <br/> |nvarchar(128  <br/> |Nome do site do usuário.  <br/> |
-|RegionName  <br/> |nvarchar(128  <br/> |Nome do país/região do usuário.  <br/> |
+|SubnetIP  <br/> |int  <br/> |Endereço IP da subrede (apenas endereços IPv4 são suportados).  <br/> |
+|UserSiteName  <br/> |nvarchar(128)  <br/> |Nome do site do usuário.  <br/> |
+|RegionName  <br/> |nvarchar(128)  <br/> |Nome do país/região do usuário.  <br/> |
    
 

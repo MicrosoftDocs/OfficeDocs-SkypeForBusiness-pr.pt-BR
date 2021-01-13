@@ -1,8 +1,8 @@
 ---
-title: Nó de Escopo do Servidor de Mediação
+title: Nód e Escopo do Servidor de Mediação
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,28 +14,28 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3bad9844-2d3c-4ac7-adde-5b382f02d18d
 ROBOTS: NOINDEX, NOFOLLOW
-description: 'Esse nó mostra as portas de escuta e os gateways PSTN (rede telefônica pública comutada) desse pool de Mediação. É possível executar as seguintes ações:'
-ms.openlocfilehash: cfc0e973aa56d7260acd45170ec538d6520d346c
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: 'Esse nó mostra as portas de escuta e os gateways PSTN (rede telefônica pública comutada) para esse pool de Mediação. É possível executar as seguintes ações:'
+ms.openlocfilehash: f122494fd05aba2bfd101180eea5e26856c82c5f
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41796210"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49804241"
 ---
 # <a name="mediation-server-scope-node"></a>Nó de Escopo do Servidor de Mediação
  
-Esse nó mostra as portas de escuta e os gateways PSTN (rede telefônica pública comutada) desse pool de Mediação. É possível executar as seguintes ações:
+Esse nó mostra as portas de escuta e os gateways PSTN (rede telefônica pública comutada) para esse pool de Mediação. É possível executar as seguintes ações:
   
-- **Editar Propriedades**. Abre a página **Editar Propriedades** deste servidor, na qual é possível habilitar ou desabilitar a porta de escuta do protocolo TCP, alterar os números de porta e especificar quais gateways PSTN estão associados a esse pool de Mediação.
+- **Editar Propriedades**. Abre a página **Editar Propriedades** para este servidor, na qual é possível habilitar ou desabilitar a porta de escuta TCP (Transmission Control Protocol), alterar os números de porta e especificar quais gateways PSTN estão associados a esse pool de Mediação.
     
 - **Excluir**. Exclui o pool da topologia.
     
-Além dessas opções, você pode realizar as seguintes tarefas gerais:
+Além das opções, é possível executar as seguintes tarefas gerais:
   
-- **Topologia**. É possível usar essa opção para definir uma nova topologia, abrir uma topologia existente, baixar a topologia atual, salvar uma cópia da topologia, publicar a topologia, instalar um banco de dados, mesclar os componentes ou remover a implantação.
+- **Topologia**. Você pode usar essa opção para definir uma nova topologia, abrir uma topologia existente, baixar a topologia atual, salvar uma cópia da topologia, publicar a topologia, instalar um banco de dados, mesclar componentes ou remover a implantação.
     
-- **Exibir**. Você pode usar essa opção para personalizar o modo de exibição no Construtor de Topologias selecionando os itens para mostrar ou ocultar nos modos de exibição da árvore de console.
+- **Visualização**. Você pode usar esta opção para personalizar a visualização no Construtor de Topologia selecionando os itens que serão exibidos ou escondidos na visão de árvore de comando..
     
-- **Ajuda**. Você pode usar essa opção para acessar a Ajuda do nó ativo.
+- **Ajuda**. Você pode usar esta opção para acessar a Ajuda para o nó ativo.
     
 

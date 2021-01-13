@@ -1,8 +1,8 @@
 ---
-title: Solicitação de Certificado (Nomes de Entidade Alternativos Adicionais)
+title: Solicitação de Certificado (Nomes Alternativos de Assunto Adicionais)
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/26/2015
 audience: ITPro
@@ -14,19 +14,19 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 99ef9628-72a5-463d-8dd6-4b783dcc8360
-description: A opção Configurar Nomes Alternativos da Entidade Adicionais fornece a oportunidade de adicionar outros nomes alternativos da entidade (SANs) ao certificado antes de finalizar e solicitar o certificado. Para adicionar o SAN, digite o nome de domínio totalmente qualificado (FQDN) do SAN e clique em Adicionar. Se você tiver adicionado um SAN que precise ser excluído, destaque a entrada do SAN e clique em Remover. Para remover todas as entradas de SAN adicionadas, clique em Desmarcar Tudo.
-ms.openlocfilehash: 25616b4bd29bcd2ce6aa6aa6f752db61c36899a0
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: A opção Configurar Nomes Alternativos de Assunto Adicionais oferece a oportunidade de adicionar outros SANs (nomes alternativos de assunto) ao certificado antes de finalizar e solicitar o certificado. Para adicionar o SAN, digite o FQDN (nome de domínio totalmente qualificado) do SAN e clique em Adicionar. Se você adicionou um SAN que deve excluir, realça a entrada san e clique em Remover. Para remover todas as entradas SAN que você adicionou, clique em Limpar Tudo.
+ms.openlocfilehash: f71276c320d0f4759c773e7aa8a7822bed07a7fe
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41823915"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49805351"
 ---
-# <a name="certificate-request-additional-subject-alternate-names"></a>Solicitação de Certificado (Nomes de Entidade Alternativos Adicionais)
+# <a name="certificate-request-additional-subject-alternate-names"></a>Solicitação de Certificado (Nomes Alternativos de Assunto Adicionais)
  
-A opção **Configurar Nomes Alternativos da Entidade Adicionais** fornece a oportunidade de adicionar outros nomes alternativos da entidade (SANs) ao certificado antes de finalizar e solicitar o certificado. Para adicionar o SAN, digite o nome de domínio totalmente qualificado (FQDN) do SAN e clique em **Adicionar**. Se você tiver adicionado um SAN que precise ser excluído, destaque a entrada do SAN e clique em **Remover**. Para remover todas as entradas de SAN adicionadas, clique em **Desmarcar Tudo**.
+A **opção Configurar Nomes** Alternativos de Assunto Adicionais oferece a oportunidade de adicionar outros SANs (nomes alternativos de assunto) ao certificado antes de finalizar e solicitar o certificado. Para adicionar o SAN, digite o FQDN (nome de domínio totalmente qualificado) do SAN e clique em **Adicionar.** Se você tiver adicionado um SAN que você deve excluir, realça a entrada SAN e clique em **Remover**. Para remover todas as entradas SAN que você adicionou, clique em **Limpar Tudo.**
   
 > [!NOTE]
-> Os botões **Remover** ou **Desmarcar Tudo** funcionam somente em entradas SAN adicionadas nessa página. Os botões não afetarão as entradas SAN que já estão no certificado.
+> Os **botões Remover** ou Limpar **Tudo** funcionam apenas em entradas SAN adicionadas nesta página. Os botões não afetarão as entradas SAN que estão atualmente no certificado.
   
 

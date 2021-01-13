@@ -1,8 +1,8 @@
 ---
 title: Implantar a função de servidor VIS no Skype for Business Server
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -12,29 +12,29 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: b6401e67-59fe-4419-a0ab-ffac88e67632
-description: 'Resumo: implante a função servidor de interoperabilidade de vídeo (VIS) no Skype for Business Server.'
-ms.openlocfilehash: 1fadab718a37dba2ffee5338d4dc898316b4d24d
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: 'Resumo: Implantar a função de Servidor de Interop de Vídeo (VIS) no Skype for Business Server.'
+ms.openlocfilehash: 773e2ddf790aa1b6c36ff6926d8bc4d16ea613f5
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41798038"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49801961"
 ---
 # <a name="deploy-the-vis-server-role-in-skype-for-business-server"></a>Implantar a função de servidor VIS no Skype for Business Server
  
-**Resumo:** Implante a função servidor de interoperabilidade de vídeo (VIS) no Skype for Business Server.
+**Resumo:** Implantar a função de Servidor de Interop de Vídeo (VIS) no Skype for Business Server.
   
-Para configurar o serviço de VIS no servidor recém-criado no construtor de topologias, inicie o assistente de implantação do Skype for Business Server, pressione **instalar ou atualizar o sistema do Skype for Business Server** e siga estas etapas no assistente:
+Para configurar o serviço VIS no servidor que acabou de ser criado no Construtor de Topologias, inicie o assistente de implantação do Skype for Business Server, pressione **Install ou Update Skype for Business Server System** e siga estas etapas no assistente:
   
-1.  Selecione **Instalar Repositório de Configuração Local**.
+1.  Selecione **Instalar Armazenamento de Configuração Local.**
     
-2. Selecione **Configurar ou remover componentes do Skype for Business Server**.
+2. Selecione **Configurar ou Remover Componentes do Skype for Business Server.**
     
-3. Selecione **Solicitar, Instalar ou Atribuir Certificados**.
+3. Selecione **Solicitar, Instalar ou Atribuir Certificados.**
     
 4. Selecione **Iniciar serviços**.
     
-The software for this service is now installed and running. Você pode abrir a ferramenta MMC de serviços para ver se o serviço do **servidor de interoperabilidade de vídeo do Skype for Business Server** está em execução juntamente com outros serviços do Skype for Business Server. Next, you must configure the VIS server or pool.
+O software para esse serviço agora está instalado e em execução. Você pode abrir a ferramenta mmc Serviços para ver se o serviço **Skype for Business Server Video Interop Server** está em execução juntamente com outros serviços do Skype for Business Server. Em seguida, você deve configurar o servidor ou pool do VIS.
 ## <a name="see-also"></a>Confira também
 
-[Configurar o servidor de interoperabilidade de vídeo no Skype for Business Server](configure-the-vis.md)
+[Configurar o Servidor de Interop de Vídeo no Skype for Business Server](configure-the-vis.md)

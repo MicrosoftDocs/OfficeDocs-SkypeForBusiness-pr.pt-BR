@@ -1,8 +1,8 @@
 ---
 title: Solicitação de Certificado (Informações da Organização)
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -14,19 +14,19 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 1ca030ad-82bd-40b2-9b2a-67d80e516f9c
-description: O painel de informações da organização permite que você especifique o nome da organização e uma unidade organizacional (OU) (geralmente a divisão ou o departamento) que solicita o certificado. As informações que você digita nas caixas de texto organização e unidade organizacional são exibidas no certificado e são usadas para identificar quem solicitou o certificado, quando o certificado é exibido por outras pessoas.
-ms.openlocfilehash: 4df368d7138a4613ebb7a6032103b714bc6f9b86
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: O painel Informações de Organização permite que você especifique o nome de sua organização e uma unidade organizacional (UO) (normalmente a divisão ou departamento) que solicita o certificado. As informações digitadas nas caixas de texto Organização e Unidade Organizacional aparecem no certificado e são usadas para identificar quem solicitou o certificado, quando o certificado é exibido por outros.
+ms.openlocfilehash: 8156466c46affff59d07f4418eb2af11676a820f
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41823815"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49805151"
 ---
 # <a name="certificate-request-organization-information"></a>Solicitação de Certificado (Informações da Organização)
  
-O painel de **informações da organização** permite que você especifique o nome da organização e uma unidade organizacional (ou) (geralmente a divisão ou o departamento) que solicita o certificado. As informações que você digita nas caixas de texto **organização** e **unidade organizacional** são exibidas no certificado e são usadas para identificar quem solicitou o certificado, quando o certificado é exibido por outras pessoas.
+O painel **Informações de Organização** permite que você especifique o nome de sua organização e uma unidade organizacional (UO) (normalmente a divisão ou departamento) que solicita o certificado. As informações digitadas nas caixas de texto **Organização** e **Unidade Organizacional** aparecem no certificado e são usadas para identificar quem solicitou o certificado, quando o certificado é exibido por outros.
   
 > [!NOTE]
-> O nome da UO em um certificado não é necessariamente o mesmo que uma OU nos serviços de domínio do Active Directory. Dependendo de como você configurou o Active Directory, o nome que você usa pode ou não ser o mesmo. 
+> O nome da UO em um certificado não é necessariamente o mesmo que uma UO nos Serviços de Domínio do Active Directory. Dependendo de como você configurou o Active Directory, o nome usado pode ou não ser o mesmo. 
   
 

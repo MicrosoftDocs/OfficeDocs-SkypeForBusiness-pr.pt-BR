@@ -1,8 +1,8 @@
 ---
 title: Nó do Escopo de Monitoramento
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,26 +14,26 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 05867db5-ad62-41e3-b1ac-f21f43d1e90b
 ROBOTS: NOINDEX, NOFOLLOW
-description: 'No construtor de topologia, você pode executar tarefas relacionadas a um servidor individual que executa o monitoramento clicando com o botão direito do mouse no servidor executando o monitoramento na árvore de console, clicando em ação na barra de ferramentas ou clicando em uma tarefa no painel Ações e, em seguida, clicando em um dos as opções a seguir para o servidor que está executando o monitoramento:'
-ms.openlocfilehash: 291ab9e8a0fef76ea80044c6495765a21b0e5b54
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: 'No Construtor de Topologias, você pode executar tarefas relacionadas a um Monitoramento em execução em um servidor individual clicando com o botão direito do mouse no servidor que está executando o Monitoramento na árvore de console, clicando em Ação na barra de ferramentas ou clicando em uma tarefa no painel Ações e clicando em uma das seguintes opções para o Monitoramento em execução no servidor:'
+ms.openlocfilehash: 6e0d26c38e865ae4e2b7b5622c5cddd5c6803cbe
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41796170"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49804141"
 ---
 # <a name="monitoring-scope-node"></a>Nó do Escopo de Monitoramento
  
-No construtor de topologia, você pode executar tarefas relacionadas a um servidor individual com monitoramento, clicando com o botão direito do mouse no servidor que está executando o monitoramento na árvore de console, clicando em **ação** na barra de ferramentas ou clicando em uma tarefa no painel Ações e, em seguida, clicando em uma das seguintes opções para o servidor que executa o monitoramento:
+No Construtor de Topologias, você pode executar tarefas relacionadas a um Monitoramento em execução em um  servidor individual clicando com o botão direito do mouse no servidor que está executando o Monitoramento na árvore de console, clicando em Ação na barra de ferramentas ou clicando em uma tarefa no painel Ações e clicando em uma das seguintes opções para o Monitoramento em execução no servidor:
   
-- **Editar Propriedades**. Abre a página **Editar propriedades** do servidor que executa o monitoramento, onde você pode alterar o nome de domínio totalmente qualificado (FQDN) do servidor que está executando o monitoramento ou o banco de dados do SQL Server de monitoramento.
+- **Editar Propriedades**. Abre  a página Editar Propriedades para o Monitoramento em execução no servidor, onde você pode alterar o FQDN (nome de domínio totalmente qualificado) do servidor que está executando o Monitoramento ou o banco de dados do SQL Server de monitoramento.
     
-- **Excluir**. Exclui o servidor que executa o monitoramento da topologia e do banco de dados do SQL Server de monitoramento.
+- **Delete**. Exclui o servidor que está executando o Monitoramento da topologia e o banco de dados do SQL Server de monitoramento.
     
-Além das opções para o Monitoramento em execução no servidor descritas anteriormente neste tópico, você tem opções gerais do nó de Monitoramento que também estão disponíveis em outros nós na árvore do console. Isso inclui as seguintes opções:
+Além das opções para o Monitoramento em execução no servidor descritas anteriormente neste tópico, você tem opções gerais do nó Monitoramento que também estão disponíveis em outros nós na árvore de console. Isso inclui as seguintes opções:
   
-- **Topologia**. É possível usar essa opção para definir uma nova topologia, abrir uma topologia existente, baixar a topologia atual, salvar uma cópia da topologia, publicar a topologia, instalar um banco de dados ou remover a implantação.
+- **Topologia**. Você pode usar essa opção para definir uma nova topologia, abrir uma topologia existente, baixar a topologia atual, salvar uma cópia da topologia, publicar a topologia, instalar um banco de dados ou remover a implantação.
     
-- **Ajuda**. Você pode usar essa opção para acessar a Ajuda do nó ativo.
+- **Ajuda**. Você pode usar esta opção para acessar a Ajuda para o nó ativo.
     
 

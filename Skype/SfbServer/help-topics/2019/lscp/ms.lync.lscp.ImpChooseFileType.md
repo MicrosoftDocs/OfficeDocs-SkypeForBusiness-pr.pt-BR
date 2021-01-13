@@ -1,8 +1,8 @@
 ---
 title: Selecionar Extensões de Tipo de Arquivo
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,21 +14,21 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 3638cdc8-71dd-4a22-8613-83859af97387
 ROBOTS: NOINDEX, NOFOLLOW
-description: Use a caixa de diálogo Selecionar extensões de tipo de arquivo para selecionar as extensões de tipo de arquivo que você deseja bloquear ou permitir selecionando (para bloquear) ou desmarcando (para permitir) as caixas de seleção ao lado das extensões em extensões de tipo de arquivo. Clique na seta para expandir uma categoria e exibir todas as extensões de tipo de arquivo para essa categoria. Se você quiser selecionar todas as extensões de tipo de arquivo para uma categoria, selecione o nome da categoria.
-ms.openlocfilehash: 4b15ddf1ed4786ae279d36848398b82814f153f8
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: Use a caixa de diálogo Selecionar Extensões de Tipo de Arquivo para selecionar as extensões de tipo de arquivo que deseja bloquear ou permitir, marcando (para bloquear) ou desmarcando (para permitir) as caixas de seleção ao lado das extensões em Extensões de tipo de arquivo. Clique na seta para expandir uma categoria e exibir todas as suas extensões de tipo de arquivo. Para selecionar todas as extensões de tipo de arquivo de uma categoria, selecione o nome da categoria.
+ms.openlocfilehash: 08709a2ff2504081ccf0172d3c6d559d6e2693b8
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41796440"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49801481"
 ---
 # <a name="select-file-type-extensions"></a>Selecionar Extensões de Tipo de Arquivo
  
-Use a caixa de diálogo **selecionar extensões de tipo de arquivo** para selecionar as extensões de tipo de arquivo que você deseja bloquear ou permitir selecionando (para bloquear) ou desmarcando (para permitir) as caixas de seleção ao lado das extensões em **extensões de tipo de arquivo**. Clique na seta para expandir uma categoria e exibir todas as extensões de tipo de arquivo para essa categoria. Se você quiser selecionar todas as extensões de tipo de arquivo para uma categoria, selecione o nome da categoria. 
+Use a caixa de diálogo **Selecionar Extensões de Tipo de Arquivo** para selecionar as extensões de tipo de arquivo que deseja bloquear ou permitir, marcando (para bloquear) ou desmarcando (para permitir) as caixas de seleção ao lado das extensões em **Extensões de tipo de arquivo**. Clique na seta para expandir uma categoria e exibir todas as suas extensões de tipo de arquivo. Para selecionar todas as extensões de tipo de arquivo de uma categoria, selecione o nome da categoria. 
   
-Se você não vir a extensão para um tipo de arquivo que você deseja selecionar listado em **extensões de tipo de arquivo**, digite a extensão na caixa de texto em **adicionar novas extensões de arquivo à lista**e, em seguida, clique em **Adicionar**. 
+Caso não veja uma extensão para um tipo de arquivo que deseja selecionar listado em **Extensões de tipo de arquivo**, insira a extensão na caixa de texto em **Adicionar novas extensões de arquivo à lista**, então clique em **Adicionar**. 
   
-Depois de adicionar todas as extensões de tipo de arquivo que você deseja para a lista **extensões de tipo de arquivo selecionadas** , clique em **OK**.
+Após ter adicionar todas as extensões de tipo de arquivos desejadas à lista **Extensões de tipos de arquivos selecionados** clique em **OK**.
   
  
   

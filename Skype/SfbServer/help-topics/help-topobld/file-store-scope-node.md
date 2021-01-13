@@ -1,8 +1,8 @@
 ---
 title: Nó de Escopo de Repositório de Arquivos
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/25/2015
 audience: ITPro
@@ -14,17 +14,17 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3d723fd8-9c83-4b96-abb6-15b3dc7ce30a
-description: 'Este nó mostra o FQDN (nome de domínio totalmente qualificado) e os pools dependentes desse repositório de arquivos. É possível executar as seguintes ações:'
-ms.openlocfilehash: f3eee42baa87c2307a79a5d19de55f798aa264aa
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+description: 'Este nó mostra o FQDN (nome de domínio totalmente qualificado) e pools dependentes para esse armazenamento de arquivos. É possível executar as seguintes ações:'
+ms.openlocfilehash: 4fd675b972e1bcbd4e6543773bb2c142a018d560
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48215542"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49804751"
 ---
 # <a name="file-store-scope-node"></a>Nó de Escopo de Repositório de Arquivos
  
-Este nó mostra o FQDN (nome de domínio totalmente qualificado) e os pools dependentes desse repositório de arquivos. É possível executar as seguintes ações:
+Este nó mostra o FQDN (nome de domínio totalmente qualificado) e pools dependentes para esse armazenamento de arquivos. É possível executar as seguintes ações:
   
 - **Editar Propriedades**. Abre a página **Editar Propriedades** para esse servidor, na qual é possível alterar o FQDN e o nome do repositório de arquivos.
     

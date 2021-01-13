@@ -1,8 +1,8 @@
 ---
-title: Confirmação de definições de configuração de voz não confirmadas
+title: Compromisso de definições de configuração de voz não confirmados
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,20 +14,20 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: cb51f2ef-0235-4b77-8b2c-e2b0d3ff3608
 ROBOTS: NOINDEX, NOFOLLOW
-description: Você pode usar a caixa de diálogo Definições de Configuração de Voz Não Autorizadas para revisar todas as alterações feitas. Role pela caixa de diálogo para revisar todas as alterações não autorizadas ou clique nas setas para expandir ou recolher as várias seções. Quando terminar, clique em  Confirmar para confirmar todas as alterações ou em  Cancelar para voltar e modificar as alterações.
-ms.openlocfilehash: f87c5f19df93f5676b3b0bb28a57264b27db262b
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: Você pode usar a caixa de diálogo Definições de Configuração de Voz Não Confirmados para revisar todas as alterações feitas. Role pela caixa de diálogo para revisar todas as alterações não autorizadas ou clique nas setas para expandir ou recolher as várias seções. Quando terminar, clique em Confirmar para confirmar todas as alterações ou em Cancelar para voltar e modificar as alterações.
+ms.openlocfilehash: 93dc420a3fddee657174bccdad8087d8b2f3fcaf
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41796130"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49801191"
 ---
 # <a name="uncommitted-voice-configuration-settings-commit"></a>Definições de Configuração de Voz Não Confirmadas: Confirmar
  
-Você pode usar a caixa de diálogo **Definições de Configuração de Voz Não Autorizadas** para revisar todas as alterações feitas. Role pela caixa de diálogo para revisar todas as alterações não autorizadas ou clique nas setas para expandir ou recolher as várias seções. Quando terminar, clique em  **Confirmar** para confirmar todas as alterações ou em  **Cancelar** para voltar e modificar as alterações.
+Você pode usar a caixa de diálogo Definições de Configuração de Voz Não **Confirmados** para revisar todas as alterações feitas. Role pela caixa de diálogo para revisar todas as alterações não autorizadas ou clique nas setas para expandir ou recolher as várias seções. Quando terminar, clique em **Confirmar** para confirmar todas as alterações ou em **Cancelar** para voltar e modificar as alterações.
   
 > [!IMPORTANT]
-> Caso clique em  **Confirmar**, você confirmará  **todas** as alterações listadas na caixa de diálogo  **Definições de Configuração de Voz Não Autorizadas**.
+> Caso clique em **Confirmar**, você confirmará **todas** as mudanças listadas na caixa de diálogo **Definições de Configuração de Voz Não Autorizadas**.
   
  
   

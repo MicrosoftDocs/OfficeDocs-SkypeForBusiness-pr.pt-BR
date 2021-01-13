@@ -1,8 +1,8 @@
 ---
 title: Nó de Escopo de Repositórios de Arquivos
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/25/2015
 audience: ITPro
@@ -15,18 +15,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9d88f69d-8641-4405-a26d-99414af679a5
 description: 'O nó  Repositórios de Arquivos  lista os Repositórios de Arquivos em sua topologia. Você pode executar as seguintes ações:'
-ms.openlocfilehash: e981659b585cf340128eceb7b0c17b03169a2129
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+ms.openlocfilehash: 9e85ca7477cc9eb81319747211422aaffb707142
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48216572"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49804731"
 ---
 # <a name="file-stores-scope-node"></a>Nó de Escopo de Repositórios de Arquivos
  
-O nó  **Repositórios de Arquivos ** lista os Repositórios de Arquivos em sua topologia. Você pode executar a seguinte ação:
+O nó  **Repositórios de Arquivos** lista os Repositórios de Arquivos em sua topologia. Você pode executar a seguinte ação:
   
-- **Novo Repositório de Arquivos **. Inicia a página  **Definir Novo Repositório de Arquivos ** que você usa para adicionar um novo Repositório de Arquivos à topologia.
+- **Novo Repositório de Arquivos**. Inicia a página  **Definir Novo Repositório de Arquivos** que você usa para adicionar um novo Repositório de Arquivos à topologia.
     
 Além das opções do Repositório de Arquivos, você pode executar as tarefas a seguir:
   

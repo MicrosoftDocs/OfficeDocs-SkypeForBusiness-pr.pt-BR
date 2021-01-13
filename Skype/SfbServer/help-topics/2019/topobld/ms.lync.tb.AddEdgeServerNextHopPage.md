@@ -1,8 +1,8 @@
 ---
 title: Adicionar Próximo Salto de Servidor de Borda
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,18 +14,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8ef7235d-626c-4cc9-b6ec-9dfeab495cc0
 ROBOTS: NOINDEX, NOFOLLOW
-description: O próximo nó do pool de bordas é um pool de front-end (que pode ser um pool corporativo ou um servidor Standard Edition) ou, se a sua implantação incluir um diretor, o próximo nó será o diretor.
-ms.openlocfilehash: 500e867402fd5dbe91feeaa04fef389048c382dd
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: O próximo salto para o pool de Borda é um pool de Front-End (que pode ser um pool Enterprise ou um servidor Standard Edition) ou, se sua implantação incluir um Diretor, o próximo salto será o Diretor.
+ms.openlocfilehash: 366ca9ffa090f59943752519607db0437e747ad5
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41798158"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49800971"
 ---
 # <a name="add-edge-server-next-hop"></a>Adicionar Próximo Salto de Servidor de Borda
 
-O próximo nó do pool de bordas é um pool de front-end (que pode ser um pool corporativo ou um servidor Standard Edition) ou, se a sua implantação incluir um diretor, o próximo nó será o diretor.
+O próximo salto para o pool de Borda é um pool de Front-End (que pode ser um pool Enterprise ou um servidor Standard Edition) ou, se sua implantação incluir um Diretor, o próximo salto será o Diretor.
 
-É possível incluir suporte ao acesso de usuários externos durante a implantação da sua topologia inicial ou em uma fase posterior. Para obter detalhes sobre como incluir Servidores de Borda na topologia existente, consulte [Define Your Edge Topology](https://technet.microsoft.com/library/787b23f1-8fa0-4c37-abf2-c516c5dd66f0.aspx) na documentação de Implantação do Servidor de Borda.
+É possível incluir suporte ao acesso de usuários externos durante a implantação da sua topologia inicial ou em uma fase posterior. Para obter detalhes sobre como adicionar Servidores de Borda a uma topologia existente, consulte [Define Your Edge Topology](https://technet.microsoft.com/library/787b23f1-8fa0-4c37-abf2-c516c5dd66f0.aspx) na documentação Implantação do Servidor de Borda.
 
 

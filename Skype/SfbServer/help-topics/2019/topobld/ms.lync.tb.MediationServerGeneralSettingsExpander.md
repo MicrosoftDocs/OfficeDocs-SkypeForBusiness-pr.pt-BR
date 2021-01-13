@@ -1,8 +1,8 @@
 ---
 title: Expansor de Configurações Gerais de Servidor de Mediação
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,12 +14,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0e0ad9f0-27d5-4975-ae88-0b8ff8a4c514
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: be969f1dc3c860ccae3cd12b4e86d4b9e97788f2
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+ms.openlocfilehash: a78fa8c12f2eb0db4cedd97a765e6445788c3382
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41796220"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49804261"
 ---
 # <a name="mediation-server-general-settings-expander"></a>Expansor de Configurações Gerais de Servidor de Mediação
  
@@ -27,22 +27,22 @@ ms.locfileid: "41796220"
 
 ## <a name="general-settings"></a>Configurações gerais
 
-Nome de domínio totalmente qualificado (FQDN) do pool do servidor de mediação ou do servidor de mediação. Edite o FQDN do servidor para alterar o valor. É necessário ter um registro (A) de host de Sistema de Nomes de Domínio (DNS) que coincida com o novo valor.
+FQDN (nome de domínio totalmente qualificado) do Servidor de Mediação ou pool de Servidor de Mediação. Edite o FQDN do servidor para alterar o valor. Você deve ter um registro de hospedeiro (A) DNS (Domain Name System) coincidente com o novo valor.
   
-Na seção **associações** , selecione um servidor de borda ou um pool de servidores de borda para associar ao pool do servidor de mediação ou ao servidor de mediação. Você seleciona a borda que os componentes de mídia do servidor de mediação usarão para o usuário externo de voz empresarial.
+Na seção **Associações** , você seleciona um pool de Servidor de Borda ou Servidor de Borda para associar ao pool de Servidor de Mediação ou Servidor de Mediação. Selecione a Borda que os componentes de mídia do Servidor de Mediação usarão para o Enterprise Voice do usuário externo.
   
-Se você não tiver um servidor de borda atualmente definido e precisar associar o servidor de mediação a um servidor de borda, clique em **novo** e defina o novo servidor de borda ou o pool de servidor de borda no assistente definir o novo pool de borda.
+Caso você não possua um Servidor de Borda atualmente definido e precise associar o Servidor de Mediação com um Servidor de Borda, clique em **Novo** e defina o novo pool de Servidor de Borda ou Servidor de Borda no assistente Definir Novo pool de Borda.
   
 ## <a name="next-hop-settings"></a>Configurações de próximo salto
 
-Você especifica o pool do servidor de mediação ou o servidor de mediação próximo nó, selecionando o pool de front-end Enterprise Edition definido ou o servidor front-end Standard Edition na lista suspensa. Um diretor ou um pool de diretor não é uma seleção válida para um pool do servidor de mediação ou servidor de mediação próximo salto e não aparecerá na lista. Clique em **OK** para aceitar e salvar as alterações. Clique em **Cancelar** para descartar suas alterações e sair da página de propriedades.
+Você especifica o próximo salto do pool de Servidor de Mediação ou Servidor de Mediação selecionando o pool de Front-Ends Enterprise Edition, ou Servidor Front-Ends Standard Edition, definido a partir da lista suspensa. Um Diretor ou pool de Diretores não é uma seleção válida para um próximo salto de pool de Servidores de Mediação ou de Servidor de Mediação e não aparecerá na lista. Clique **em OK** para aceitar e salvar suas alterações. Clique em **Cancelar** para descartar suas alterações e sair da página de propriedades.
   
 ## <a name="pstn-gateway-settings"></a>Configurações de gateway PSTN
 
-1. Você define os gateways PSTN associados ao pool do servidor de mediação ou ao servidor de mediação. Se você já definiu gateways, eles estarão disponíveis para serem associados ao servidor de mediação. Se você habilitar a colocação do Servidor de Mediação, defina o intervalo de porta de escuta nos servidores do pool para TLS. Por padrão, essa porta é a 5067. Se você selecionar **Habilitar porta TCP**, será necessário definir uma porta TCP para o Servidor de Mediação colocado. Essa é uma configuração opcional, e você deverá verificar seus requisitos de gateway ou PSTN a fim de determinar se isso é necessário. Por padrão, o valor da porta TCP é 5068.
+1. Defina os gateways PSTN associados ao pool de Servidores de Mediação ou ao Servidor de Mediação. Se você já tiver definido gateways, eles estarão disponíveis para associação com o Servidor de Mediação. Se você habilitar a colocação do Servidor de Mediação, defina o intervalo de porta de escuta nos servidores do pool para Transport Layer Security (TLS). Por padrão, essa porta é 5067. Se você selecionar **Habilitar porta TCP**, será necessário definir uma porta TCP (Transmission Control Protocol) para o Servidor de Mediação colocado. Essa é uma configuração opcional, e você deve consultar os requisitos de seu gateway ou requisitos PSTN a fim de determinar se precisa disso. Por padrão, o valor de porta TCP é 5068.
     
-2. Troncos associados ao Servidor de Mediação colocado. Se você já tiver definido os troncos, eles estarão disponíveis para associação com o Servidor de Mediação. 
+2. Troncos associados ao Servidor de Mediação posicionado. Se você já tiver definido os troncos, eles estarão disponíveis para associação com o Servidor de Mediação. 
     
-3. Se você tiver mais de um tronco associado a um servidor de mediação, poderá especificar um tronco padrão selecionando o tronco e, em seguida, clicando em **tornar padrão**. Para desmarcar um gateway como padrão, clique em **Desfazer Padrão**. 
+3. Se você tiver mais de um tronco associado a um Servidor de Mediação, poderá especificar um tronco padrão selecionando o tronco e clicando em **Tornar Padrão**. Para desmarcar um gateway como padrão, clique em **Desfazer Padrão**. 
     
 

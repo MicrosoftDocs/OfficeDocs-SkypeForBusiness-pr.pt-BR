@@ -1,8 +1,8 @@
 ---
 title: Verificar a Replicação da Preparação da Floresta
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,27 +14,27 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 94e87632-7c28-43df-9238-f5a47c1c43c0
 ROBOTS: NOINDEX, NOFOLLOW
-description: 'Para confirmar se a replicação do catálogo global e a criação de objetos durante a preparação da floresta foram bem-sucedidas, faça o seguinte:'
-ms.openlocfilehash: 371846c77c2a41278edaddd753906b46668e7699
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: 'Para confirmar se a replicação do Catálogo Global e a criação de objetos durante a Preparação da Floresta foi bem-sucedida, faça o seguinte:'
+ms.openlocfilehash: 299b738bbfa14ad13825e5c08e87c03167c9f4cc
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41794750"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49801591"
 ---
 # <a name="verify-replication-of-forest-preparation"></a>Verificar a Replicação da Preparação da Floresta
  
-Para confirmar se a replicação do catálogo global e a criação de objetos durante a preparação da floresta foram bem-sucedidas, faça o seguinte:
+Para confirmar se a replicação do Catálogo Global e a criação de objetos durante a Preparação da Floresta foi bem-sucedida, faça o seguinte:
   
-1. Em um controlador de domínio (preferencialmente em um local remoto de outros controladores de domínio), na floresta na qual a Preparação da floresta foi executada, abra **Usuários e Computadores do Active Directory**.
+1. Em um controlador de domínio (preferencialmente em um site remoto de outros controladores de domínio), na floresta na qual a Preparação da Floresta foi executada, abra **Usuários e Computadores do Active Directory**.
     
-2. Em **Usuários e Computadores do Active Directory**, expanda o nome de domínio da sua floresta ou um domínio filho.
+2. Em **Usuários e Computadores do Active Directory**, expanda o nome do domínio de sua floresta ou domínio filho.
     
-3. Clique no contêiner **usuários** no painel esquerdo e procure o grupo universal CsAdministrator no painel do lado direito. Se CsAdministrator (entre oito outros novos grupos universais que comecem com o CS) estiver presente, a replicação da preparação da floresta foi bem-sucedida.
+3. Clique no **contêiner** Usuários no painel esquerdo e procure o grupo Universal CsAdministrator no painel direito. Se CsAdministrator (entre oito outros novos grupos Universais que começam com Cs) estiver presente, a replicação da Preparação da Floresta foi bem-sucedida.
     
-4. Se o (s) grupo (s) ainda não estiver presente, você pode forçar a replicação ou aguardar 15 minutos e atualizar o painel do lado direito. Quando os grupos estiverem presentes, a replicação será concluída.
+4. Caso o(s) grupo(s) ainda não estejam presentes, você pode forçar a replicação ou aguardar 15 minutos e atualizar o painel do lado direito. A replicação está completa quando os grupos estiverem presentes.
     
 > [!TIP]
-> Se desejar examinar os arquivos de log criados pelo assistente de implantação do Skype for Business Server, você poderá encontrá-los no computador em que o assistente de implantação foi executado, no diretório usuários do usuário dos serviços de domínio Active Directory que executou a etapa. Por exemplo, se o usuário tiver entrado como administrador do domínio no domínio Contoso.net, os arquivos de log serão localizados em: C:\Users\Administrator.Contoso\AppData\Local\Temp 
+> Se você quiser revisar os arquivos de log criados pelo Assistente de Implantação do Skype for Business Server, poderá encontrá-los no computador no qual o Assistente de Implantação foi executado, no diretório Usuários do usuário dos Serviços de Domínio Active Directory que executaram a etapa. Por exemplo, se o usuário fez logon como administrador de domínio no domínio Contoso.net, os arquivos de log estão localizados em: C:\Users\Administrator.Contoso\AppData\Local\Temp 
   
 

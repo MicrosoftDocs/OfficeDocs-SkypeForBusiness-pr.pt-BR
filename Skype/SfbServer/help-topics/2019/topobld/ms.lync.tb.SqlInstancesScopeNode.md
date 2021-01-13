@@ -1,8 +1,8 @@
 ---
 title: Nó de Escopo de Instâncias do SQL
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,26 +14,26 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 399dce5b-bd51-4693-89d9-3463c1d73ded
 ROBOTS: NOINDEX, NOFOLLOW
-description: 'O nó repositórios SQL lista os bancos de dados do SQL Server na sua topologia. Você pode executar as seguintes ações:'
-ms.openlocfilehash: 4c138cb24f7b6c213da41f67563dce4863347b69
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: 'O nó de armazenamento SQL lista os bancos de dados do SQL Server em sua topologia. Você pode executar as seguintes ações:'
+ms.openlocfilehash: d443e08339c416f6b00208b4ecbd6e64eecf697d
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41794300"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49805521"
 ---
-# <a name="sql-instances-scope-node"></a>Nó de Escopo de Instâncias do SQL
+# <a name="sql-instances-scope-node"></a>Nó de Escopo de Instâncias SQL
  
-O nó **repositórios SQL** lista os bancos de dados do SQL Server na sua topologia. É possível executar a seguinte ação:
+O **nó de armazenamento SQL** lista os bancos de dados do SQL Server em sua topologia. É possível executar a seguinte ação:
   
-- **Novo SQL Store**. Inicia o assistente para **definir nova repositório do SQL** , que você usa para adicionar um novo banco de dados do SQL Server à topologia.
+- **Novo SQL Store**. Inicia o **assistente Definir Novo Sql Store,** que você usa para adicionar um novo banco de dados do SQL Server à topologia.
     
 Além das opções de banco de dados do SQL Server, você pode executar as seguintes tarefas gerais:
   
-- **Topologia**. Você pode usar essa opção para definir uma nova topologia, abrir uma topologia existente, baixar a topologia atual, salvar uma cópia ou publicar a topologia, instalar um banco de dados, mesclar componentes de versões anteriores ou remover a implantação.
+- **Topologia**. Você pode usar essa opção para definir uma nova topologia, abrir uma topologia existente, baixar a topologia atual, salvar uma cópia da topologia, publicar a topologia, instalar um banco de dados, mesclar componentes de versões anteriores ou remover a implantação.
     
-- **Exibir**. Você pode usar essa opção para personalizar o modo de exibição no Construtor de Topologias selecionando os itens para mostrar ou ocultar nos modos de exibição da árvore de console.
+- **Visualização**. Você pode usar esta opção para personalizar a visualização no Construtor de Topologia selecionando os itens que serão exibidos ou escondidos na visão de árvore de comando..
     
-- **Ajuda**. Você pode usar essa opção para acessar a Ajuda do nó ativo.
+- **Ajuda**. Você pode usar esta opção para acessar a Ajuda para o nó ativo.
     
 

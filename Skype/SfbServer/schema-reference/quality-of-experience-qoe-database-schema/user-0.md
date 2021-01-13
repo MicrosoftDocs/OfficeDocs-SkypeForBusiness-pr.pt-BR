@@ -1,8 +1,8 @@
 ---
 title: Tabela User
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 2/1/2018
 audience: ITPro
@@ -12,25 +12,25 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 6b52047e-286d-47ab-b7bc-a9b266f62d82
-description: A tabela do usuário é uma tabela de suporte que armazena uma lista de vários usuários que participaram de sessões registradas no banco de dados. Cada registro na tabela representa um usuário.
-ms.openlocfilehash: fcb6c4d45f1392c31ba87637d6e3a1a697f7be9e
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: A tabela de Usuário é uma tabela de suporte que armazena uma lista de vários usuários que participaram das sessões registradas no banco de dados. Cada registro da tabela representa um usuário.
+ms.openlocfilehash: 5c84f0b947199fa497964cb1689dccc571a98d14
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41805089"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49800071"
 ---
 # <a name="user-table"></a>Tabela User
  
-A tabela do usuário é uma tabela de suporte que armazena uma lista de vários usuários que participaram de sessões registradas no banco de dados. Cada registro na tabela representa um usuário.
+A tabela de Usuário é uma tabela de suporte que armazena uma lista de vários usuários que participaram das sessões registradas no banco de dados. Cada registro da tabela representa um usuário.
   
-|**Coluna**|**Tipo de dados**|**Chave/índice**|**Detalhes**|
+|**Coluna**|**Tipo de dados**|**Chave/Índice**|**Detalhes**|
 |:-----|:-----|:-----|:-----|
-|**UserKey** <br/> |int  <br/> |Primária  <br/> |Número exclusivo que identifica esse usuário.  <br/> |
-|**SOLICITAÇÃO** <br/> |nvarchar (450)  <br/> |Exclusividade  <br/> |Cadeia de caracteres de URI.  <br/> |
-|**URIType** <br/> |int  <br/> ||1 é um tipo de URI desconhecido.  <br/> 2 é o URI do usuário.  <br/> 4 é o URI da conferência.  <br/> 8 é o URI do telefone.  <br/> |
-|**TenantKey** <br/> |int  <br/> |Exterior  <br/> |Locatário do usuário, referenciado da tabela de locatários.  <br/> |
-|**LastPoorCallTime** <br/> |datetime  <br/> ||Carimbo de data/hora mais recente quando o usuário tiver uma chamada de áudio ruim.  <br/> |
-|**NextUpdateTS** <br/> |datetime  <br/> ||Somente para uso interno.  <br/> |
+|**UserKey** <br/> |int  <br/> |Primário  <br/> |Número exclusivo identificando este usuário.  <br/> |
+|**URI** <br/> |nvarchar(450)  <br/> |Exclusivo  <br/> |Cadeia de caracteres URI.  <br/> |
+|**URIType** <br/> |int  <br/> ||1 é o tipo de URI desconhecido.  <br/> 2 é o URI do usuário.  <br/> 4 é o URI de conferência.  <br/> 8 é o URI do telefone.  <br/> |
+|**TenantKey** <br/> |int  <br/> |Externo  <br/> |Locatário do usuário, referenciado da tabela do locatário.  <br/> |
+|**LastPoorCallTime** <br/> |datetime  <br/> ||Carimbo de data e hora da última vez em que o usuário teve uma chamada de áudio ruim.  <br/> |
+|**NextUpdateTS** <br/> |datetime  <br/> ||Apenas para uso interno.  <br/> |
    
 

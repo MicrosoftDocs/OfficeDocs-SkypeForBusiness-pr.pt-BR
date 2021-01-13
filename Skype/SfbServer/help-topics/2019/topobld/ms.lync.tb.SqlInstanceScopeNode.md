@@ -1,8 +1,8 @@
 ---
 title: Nó de Escopo de Instância SQL
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,28 +14,28 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: bd270488-ceb9-4920-bef3-ed9fe8eff36c
 ROBOTS: NOINDEX, NOFOLLOW
-description: 'Esse nó mostra o nome de domínio totalmente qualificado (FQDN) deste Microsoft SQL Server e a instância do SQL Server nesse servidor e os pools ou servidores que usam esse SQL Server. Você pode executar as seguintes ações:'
-ms.openlocfilehash: a801383a1388c1af98bd014849bd32fe8291592f
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: 'Este nó mostra o FQDN (nome de domínio totalmente qualificado) deste Microsoft SQL Server e a instância do SQL Server nesse servidor e os pools ou servidores que usam esse SQL Server. É possível executar as seguintes ações:'
+ms.openlocfilehash: 5e9363c90f9b9b06b06fe5845c60ba77416a5c15
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41795170"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49805541"
 ---
 # <a name="sql-instance-scope-node"></a>Nó de Escopo de Instância SQL
  
-Esse nó mostra o nome de domínio totalmente qualificado (FQDN) deste Microsoft SQL Server e a instância do SQL Server nesse servidor e os pools ou servidores que usam esse SQL Server. Você pode executar as seguintes ações:
+Este nó mostra o FQDN (nome de domínio totalmente qualificado) deste Microsoft SQL Server e a instância do SQL Server nesse servidor e os pools ou servidores que usam esse SQL Server. É possível executar as seguintes ações:
   
-- **Editar Propriedades**. Abre a página **Editar propriedades** deste servidor, onde você pode alterar o FQDN do servidor (se a topologia ainda não tiver sido publicada) e a instância do SQL Server para ser usada.
+- **Editar Propriedades**. Abre  a página Editar Propriedades deste servidor, onde você pode alterar o FQDN do servidor (se a topologia ainda não tiver sido publicada) e a instância do SQL Server a ser usada.
     
 - **Excluir**. Exclui o servidor da topologia.
     
-Além dessas opções, você pode realizar as seguintes tarefas gerais:
+Além das opções, é possível executar as seguintes tarefas gerais:
   
-- **Topologia**. É possível usar essa opção para definir uma nova topologia, abrir uma topologia existente, baixar a topologia atual, salvar uma cópia da topologia, publicar a topologia, instalar um banco de dados ou remover a implantação.
+- **Topologia**. Você pode usar essa opção para definir uma nova topologia, abrir uma topologia existente, baixar a topologia atual, salvar uma cópia da topologia, publicar a topologia, instalar um banco de dados ou remover a implantação.
     
-- **Exibir**. Você pode usar essa opção para personalizar o modo de exibição no Construtor de Topologias selecionando os itens que os modos de exibição da árvore de console deve mostrar ou ocultar.
+- **Visualização**. Você pode usar esta opção para personalizar a visualização no Construtor de Topologia selecionando os itens que serão exibidos ou escondidos na visão de árvore de comando..
     
-- **Ajuda**. Você pode usar essa opção para acessar a Ajuda do nó ativo.
+- **Ajuda**. Você pode usar esta opção para acessar a Ajuda para o nó ativo.
     
 

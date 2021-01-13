@@ -1,8 +1,8 @@
 ---
 title: Selecionar Contatos no Active Directory
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,17 +14,17 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 8732867c-4f78-454a-a4cc-49c3e76ce40c
 ROBOTS: NOINDEX, NOFOLLOW
-description: Use a caixa de diálogo Selecionar do Active Directory para localizar os contatos que você deseja habilitar no Skype for Business. Na caixa de pesquisa, digite o endereço SIP ou o nome para exibição do contato que deseja localizar. Para recuperar todos os contatos disponíveis, deixe a caixa de pesquisa vazia.
-ms.openlocfilehash: f92d9edcc54b020e0e6908ea4a26c9bed1739d23
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: Use a caixa de diálogo Selecionar do Active Directory para encontrar contatos que você deseja habilitar para o Skype for Business. Na caixa de pesquisa, digite o endereço SIP ou o nome para exibição do contato que deseja localizar. Para recuperar todos os contatos disponíveis, deixe a caixa de pesquisa vazia.
+ms.openlocfilehash: 20b3c4355f773c0eaad0a6053bf460128dcbe03c
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41794920"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49801351"
 ---
 # <a name="select-contacts-from-active-directory"></a>Selecionar Contatos no Active Directory
  
-Use a caixa **de diálogo Selecionar do Active Directory** para localizar os contatos que você deseja habilitar no Skype for Business. Na caixa de pesquisa, digite o endereço SIP ou o nome para exibição do contato que deseja localizar. Para recuperar todos os contatos disponíveis, deixe a caixa de pesquisa vazia.
+Use a **caixa de diálogo Selecionar** do Active Directory para encontrar contatos que você deseja habilitar para o Skype for Business. Na caixa de pesquisa, digite o endereço SIP ou o nome para exibição do contato que deseja localizar. Para recuperar todos os contatos disponíveis, deixe a caixa de pesquisa vazia.
   
  
   

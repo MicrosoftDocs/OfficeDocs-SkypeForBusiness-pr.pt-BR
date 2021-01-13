@@ -1,8 +1,8 @@
 ---
 title: Instalar o Skype for Business Server em servidores na topologia
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 2/15/2018
 audience: ITPro
@@ -16,186 +16,186 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: defd6b2c-f267-4f8c-bc94-8894e2a429b6
-description: 'Resumo: saiba como instalar os componentes do sistema do Skype for Business Server em cada servidor na topologia. Baixe uma avaliação gratuita do Skype for Business Server no centro de avaliação da Microsoft em https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server:.'
-ms.openlocfilehash: 0fe1c7b6088732932457d25c68a8fd6476a1bfbd
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+description: 'Resumo: saiba como instalar os componentes do sistema do Skype for Business Server em cada servidor da topologia. Baixe uma avaliação gratuita do Skype for Business Server no Centro de Avaliação da Microsoft em: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server .'
+ms.openlocfilehash: e6aa1dde01f7f91b7d1c18b1664a3658911cf50b
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42018242"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49801681"
 ---
 # <a name="install-skype-for-business-server-on-servers-in-the-topology"></a>Instalar o Skype for Business Server em servidores na topologia
  
-**Resumo:** Saiba como instalar os componentes do sistema do Skype for Business Server em cada servidor na topologia. Baixe uma avaliação gratuita do Skype for Business Server no [centro de avaliação da Microsoft](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server).
+**Resumo:** Saiba como instalar os componentes do sistema do Skype for Business Server em cada servidor da topologia. Baixe uma avaliação gratuita do Skype for Business Server no Centro [de Avaliação da Microsoft.](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server)
   
-Depois que a topologia é carregada no repositório de gerenciamento central e o Active Directory sabe quais servidores executarão quais funções, será necessário instalar o sistema do Skype for Business Server em cada um dos servidores da topologia. Você pode executar as etapas 1 a 5 em qualquer ordem. No entanto, você deve executar as etapas 6, 7 e 8 em ordem e depois das etapas 1 a 5, conforme descrito no diagrama. A instalação do sistema Skype for Business Server é a etapa 7 de 8.
+Depois que a topologia for carregada no Armazenamento de Gerenciamento Central e o Active Directory souber quais servidores executarão quais funções, você precisará instalar o sistema Skype for Business Server em cada um dos servidores na topologia. Você pode realizar as etapas 1 a 5 em qualquer ordem. No entanto, você deve realizar as etapas 6, 7 e 8 na ordem e após as etapas 1 a 5, conforme descrito no diagrama. A instalação do sistema Skype for Business Server é a etapa 7 de 8.
   
 ![Diagrama de visão geral.](../../media/6855713d-a5b4-4e5b-8f83-fef3d7a5ec5d.png)
   
 ## <a name="install-skype-for-business-server-system"></a>Instalar o sistema Skype for Business Server
 
-Após publicar uma topologia, você pode instalar os componentes do Skype for Business Server em cada servidor na topologia. Esta seção orienta você durante a instalação do Skype for Business Server e a configuração das funções de servidor para o pool de front-ends e qualquer função de servidor posicionada com os servidores front-end. Para instalar e configurar funções de servidor, execute o assistente de implantação do Skype for Business Server em cada computador em que você está instalando uma função de servidor. Você usa o assistente de implantação para concluir todas as quatro etapas de implantação, incluindo a instalação do repositório de configuração local, instalação dos servidores front-end, configuração de certificados e início de serviços.
+Depois de publicar uma topologia, você pode instalar os componentes do Skype for Business Server em cada servidor da topologia. Esta seção orienta você durante a instalação do Skype for Business Server e a configuração das funções de servidor para o pool de Front-End e quaisquer funções de servidor que sejam locadas com os servidores front-end. Para instalar e configurar funções de servidor, execute o Assistente de Implantação do Skype for Business Server em cada computador no qual você está instalando uma função de servidor. Use o Assistente de Implantação para concluir todas as quatro etapas de implantação, incluindo a instalação do armazenamento de Configuração Local, a instalação dos Servidores Front-End, a configuração de certificados e a iniciação de serviços.
   
 > [!IMPORTANT]
-> Você deve usar o construtor de topologias para concluir e publicar a topologia antes de poder instalar o Skype for Business Server em servidores. 
+> Você deve usar o Construtor de Topologias para concluir e publicar a topologia antes de instalar o Skype for Business Server nos servidores. 
   
 > [!NOTE]
 > Este procedimento deve ser concluído para todos os servidores na topologia. 
   
 > [!CAUTION]
-> Após instalar o Skype for Business Server em um servidor front-end, na primeira vez que você iniciar os serviços, você deve verificar se o serviço Firewall do Windows está em execução no servidor. 
+> Depois de instalar o Skype for Business Server em um Servidor Front-End, na primeira vez em que iniciar os serviços, você deverá certificar-se de que o Serviço de Firewall do Windows está em execução no servidor. 
   
 > [!CAUTION]
-> Antes de seguir estas etapas, verifique se você está conectado ao servidor com uma conta de usuário de domínio que seja um administrador local e membro do grupo RTCUniversalServerAdmins. 
+> Antes de seguir essas etapas, certifique-se de estar conectado ao servidor com uma conta de usuário de domínio que seja um administrador local e membro do grupo RTCUniversalServerAdmins. 
   
 > [!NOTE]
-> Se você não tiver executado a instalação do Skype for Business Server nesse servidor antes, você será solicitado a fornecer uma unidade e um caminho para a instalação. Isso fornece a capacidade de instalar em uma unidade diferente da unidade do sistema, se sua organização exigir, ou se você tiver problemas de espaço. Você pode alterar o caminho do local de instalação dos arquivos do Skype for Business Server na caixa de diálogo **Configurar** para uma nova unidade disponível. Se você instalar os arquivos de instalação nesse caminho, incluindo o OCSCore. msi, o restante dos arquivos do Skype for Business Server também serão implantados.
+> Se você ainda não tiver executado a configuração do Skype for Business Server neste servidor antes, será solicitado uma unidade e um caminho para a instalação. Isso oferece a capacidade de instalar em uma unidade diferente da unidade do sistema, se sua organização exigir ou se você tiver problemas de espaço. Você pode alterar o caminho do local de  instalação dos arquivos do Skype for Business Server na caixa de diálogo Configuração para uma unidade nova e disponível. Se você instalar os arquivos de Instalação nesse caminho, incluindo o OCSCore.msi, o restante dos arquivos do Skype for Business Server também será implantado lá.
   
 > [!IMPORTANT]
-> Antes de começar a instalação, verifique se o Windows Server está atualizado usando o Windows Update. 
+> Antes de começar a instalação, certifique-se de que o Windows Server está atualizado usando o Windows Update. 
   
-![O Windows Server está atualizado.](../../media/a8d57a97-a55e-443b-b304-c534ae9a71b2.png)
+![Windows Server atualizado.](../../media/a8d57a97-a55e-443b-b304-c534ae9a71b2.png)
   
 ### <a name="install-skype-for-business-server-system"></a>Instalar o sistema Skype for Business Server
 
-1. Insira a mídia de instalação do Skype for Business Server. Se a instalação não começar automaticamente, clique duas vezes em **configuração**.
+1. Insira a mídia de instalação do Skype for Business Server. Se a instalação não começar automaticamente, clique duas vezes em **Setup**.
     
-2. A mídia de instalação requer que o Microsoft Visual C++ seja executado. Uma caixa de diálogo será exibida perguntando se você deseja instalá-lo. Clique em **Sim.**
+2. A mídia de instalação requer o Microsoft Visual C++ para ser executado. Uma caixa de diálogo será exibida perguntando se você deseja instalá-la. Clique **em Sim.**
     
-3. Revise cuidadosamente o contrato de licença e, se concordar, selecione **aceito os termos do contrato de licença**e clique em **OK**. 
+3. Revise cuidadosamente o Contrato de Licença e, se você concordar, selecione **Eu aceito** os termos do contrato de licença e clique em **OK.** 
     
-4. A configuração inteligente é um recurso no Skype for Business Server em que você pode se conectar à Internet para verificar se há atualizações do Microsoft Update (MU) durante o processo de instalação, conforme mostrado na figura. Isso oferece uma melhor experiência ao garantir que você tenha as atualizações mais recentes para o produto. Clique em **Instalar** para iniciar a instalação.
+4. O Smart Setup é um recurso no Skype for Business Server no qual você pode se conectar à Internet para verificar se há atualizações do Microsoft Update (MU) durante o processo de instalação, conforme mostrado na figura. Isso proporciona uma experiência melhor ao garantir que você tenha as atualizações mais recentes para o produto. Clique em **Instalar** para iniciar a instalação.
     
     > [!NOTE]
-    > Muitas organizações têm o WSUS (Windows Server Update Services) implantado em seus ambientes corporativos. O WSUS permite que os administradores gerenciem totalmente a distribuição de atualizações lançadas por meio do Microsoft Update para computadores em sua rede. Como parte da versão cumulativa 1 do Skype for Business Server introduziu suporte para a instalação inteligente funcionar com o WSUS. Os clientes com WSUS que estão implantando o Skype for Business Server pela primeira vez ou atualizando do ambiente do Lync Server 2013 usando o recurso de atualização in-loco terão a configuração inteligente buscando as atualizações do Skype for Windows do WSUS em vez de buscar atualizações do MU. Os clientes que desejam usar a instalação inteligente precisam executar o SmartSetupWithWSUS. PSQ em todos os computadores antes de executar o setup. exe. 
+    > Muitas organizações têm o Windows Server Update Services (WSUS) implantado em seus ambientes corporativos. O WSUS permite que os administradores gerenciem totalmente a distribuição de atualizações lançadas por meio do Microsoft Update para computadores em sua rede. Como parte da versão da Atualização Cumulativa 1, o Skype for Business Server introduziu o suporte para a Instalação Inteligente funcionar com o WSUS. Os clientes com wSUS que estão implantando o Skype for Business Server pela primeira vez ou atualizando do ambiente do Lync Server 2013 usando o recurso de atualização do In-Place terão a Instalação Inteligente buscando atualizações do Skype for Windows do WSUS em vez de buscar atualizações do MU. Os clientes que desejarem usar a Instalação Inteligente precisam executar o SmartSetupWithWSUS.psq em todos os máquinas antes de executar Setup.exe. 
   
-     ![Captura de tela da instalação inteligente.](../../media/d35c6cd9-3b8d-4510-871c-30ad07b1f4f2.png)
+     ![Captura de tela da Instalação Inteligente.](../../media/d35c6cd9-3b8d-4510-871c-30ad07b1f4f2.png)
   
-5. Na página Assistente de implantação, clique em **instalar ou atualizar o sistema do Skype for Business Server**.
+5. Na página Assistente de Implantação, clique **em Instalar ou Atualizar o Sistema do Skype for Business Server.**
     
-6. Execute os procedimentos nos procedimentos a seguir, quando tiver concluído, clique em **sair** para fechar o assistente de implantação. Repita os procedimentos para cada servidor de front-end no pool.
+6. Execute os procedimentos nos procedimentos a seguir, quando os concluir, clique em **Sair** para fechar o Assistente de Implantação. Repita os procedimentos para cada servidor front-end no pool.
     
-### <a name="step-1-install-local-configuration-store"></a>Etapa 1: instalar o repositório de configuração local
+### <a name="step-1-install-local-configuration-store"></a>Etapa 1: Instalar o Armazenamento de Configuração Local
 
-1. Examine os pré-requisitos e clique em **executar** próximo a **etapa 1: instalar o repositório de configuração local**.
+1. Revise os pré-requisitos e clique em **Executar** ao lado da **Etapa 1: Instalar o Armazenamento de Configuração Local.**
     
     > [!NOTE]
-    > O repositório de configuração local é uma cópia somente leitura do repositório de gerenciamento central. Em uma implantação do Standard Edition, o repositório de gerenciamento central é criado usando uma cópia local do SQL Server Express Edition no servidor front-end. Isso acontece quando você executa o primeiro procedimento de preparação do servidor Standard Edition. Em uma implantação Enterprise Edition, o repositório de gerenciamento central é criado quando você publica a topologia que inclui um pool de front-ends Enterprise Edition. 
+    > O Armazenamento de Configuração Local é uma cópia somente leitura do Armazenamento de Gerenciamento Central. Em uma implantação Standard Edition, o Armazenamento de Gerenciamento Central é criado usando uma cópia local do SQL Server Express Edition no servidor front-end. Isso acontece quando você executar o procedimento Preparar Primeiro Servidor Standard Edition. Em uma implantação do Enterprise Edition, o armazenamento de Gerenciamento Central é criado quando você publica a topologia que inclui um pool de Front-End Enterprise Edition. 
   
-2. Na página **instalar o repositório de configuração local** , verifique se a opção **recuperar diretamente do repositório de gerenciamento central** está selecionada e clique em **Avançar**.
+2. Na página **Instalar Armazenamento de Configuração Local,** certifique-se de que a opção Recuperar diretamente do armazenamento de Gerenciamento **Central** está selecionada e clique em **Próximo.**
     
-    O SQL Server Express Edition é instalado no servidor local. O SQL Server Express Edition é necessário para o repositório de configuração local.
+    O SQL Server Express Edition está instalado no servidor local. O SQL Server Express Edition é necessário para o armazenamento de configuração local.
     
 3. Quando a instalação da configuração do servidor local estiver concluída, clique em **Concluir**.
     
-### <a name="step-2-setup-or-remove-skype-for-business-server-components"></a>Etapa 2: configurar ou remover componentes do Skype for Business Server
+### <a name="step-2-setup-or-remove-skype-for-business-server-components"></a>Etapa 2: Configurar ou remover componentes do Skype for Business Server
 
-1. Examine os pré-requisitos e clique em **executar** ao lado de **etapa 2: configurar ou remover os componentes do Skype for Business Server**.
+1. Revise os pré-requisitos e  clique em Executar ao lado da Etapa **2:** Configurar ou Remover Componentes do Skype for Business Server.
     
-2. Na página **configurar componentes do Skype for Business Server** , clique em **Avançar** para configurar os componentes conforme definido na topologia publicada.
+2. Na página **Configurar Componentes do Skype for Business Server,** clique em Próximo **para** configurar componentes conforme definido em sua topologia publicada.
     
-3. A página **executando comandos** exibe um resumo dos comandos e informações de instalação à medida que a configuração ocorre. Quando terminar, você poderá usar a lista para selecionar um log a ser exibido e, em seguida, clique em **Exibir log**.
+3. A **página Comandos em Execução** exibe um resumo dos comandos e informações de instalação à medida que a configuração ocorre. Quando terminar, você pode usar a lista para selecionar um log a ser visualizado e clicar em **Exibir Log.**
     
-4. Quando a instalação dos componentes do Skype for Business Server é concluída e você analisou os logs conforme necessário, clique em **concluir** para concluir esta etapa na instalação.
+4. Quando a configuração dos componentes do Skype for Business Server  estiver concluída e você revisar os logs conforme necessário, clique em Concluir para concluir esta etapa na instalação.
     
     > [!NOTE]
-    > Reinicie o servidor se for solicitado (o que pode acontecer se a experiência da área de trabalho do Windows precisar ser instalada). Quando o computador fizer o backup e a execução, você precisará executar o procedimento (etapa 2: instalar ou remover componentes do Skype for Business Server) novamente. 
+    > Reinicie o servidor se solicitado (o que pode acontecer se a Experiência Desktop do Windows precisar ser instalada). Quando o computador estiver funcionando novamente, você precisará executar este procedimento (Etapa 2: Configurar ou Remover Componentes do Skype for Business Server). 
   
     > [!NOTE]
-    > Se o instalador encontrar algum pré-requisito que não tenha sido satisfeito, você será notificado com uma mensagem de "pré-requisito não atendida", conforme mostrado na figura. Satisfaça o pré-requisito necessário e, em seguida, inicie o procedimento (etapa 2: instalar ou remover componentes do Skype for Business Server) novamente. 
+    > Se o instalador encontrar quaisquer pré-requisitos que não foram satisfeitos, você será notificado com uma mensagem de "Pré-requisito não atendido", conforme mostrado na figura. Atenda aos pré-requisitos necessários e inicie este procedimento (Etapa 2: Configurar ou Remover Componentes do Skype for Business Server) novamente. 
   
      ![Pré-requisito necessário.](../../media/21a84dfe-70ff-4f76-bd7e-41032660200a.png)
   
-5. Verifique se as duas primeiras etapas foram concluídas conforme o esperado. Verifique se há uma marca de exclusão verde com a palavra **concluído**, conforme mostrado na figura.
+5. Verifique se as duas primeiras etapas foram concluídas conforme o esperado. Confirme se há uma marca de seleção verde com a palavra **Complete**, conforme mostrado na figura.
     
-     ![Duas primeiras etapas concluídas na instalação de componentes.](../../media/59851804-d805-4fa8-854b-60c3de2d109f.png)
+     ![Duas primeiras etapas concluídas da instalação de componentes.](../../media/59851804-d805-4fa8-854b-60c3de2d109f.png)
   
-6. Execute o **Windows Update** novamente para verificar se há alguma atualização após a instalação dos componentes do Skype for Business Server.
+6. Execute **o Windows Update** novamente para verificar se há alguma atualização depois de instalar os componentes do Skype for Business Server.
     
-### <a name="step-3-request-install-or-assign-certificates"></a>Etapa 3: solicitar, instalar ou atribuir certificados
+### <a name="step-3-request-install-or-assign-certificates"></a>Etapa 3: Solicitar, instalar ou atribuir certificados
 
-1. Examine os pré-requisitos e clique em **executar** ao lado de **etapa 3: solicitar, instalar ou atribuir certificados**.
+1. Revise os pré-requisitos e clique em **Executar** ao lado da Etapa **3: Solicitar, Instalar ou Atribuir Certificados.**
     
     > [!NOTE]
-    > O Skype for Business Server inclui suporte para o pacote SHA-2 (SHA-2 usa comprimentos de Resumo de 224, 256, 384 ou 512) de algoritmos de hash e de assinatura de resumo para conexões de clientes que executam o Windows 10, Windows 8, Windows 7, Windows Server 2012 R2, Windows Server 2012 ou Windows Server 2008 R2 Operating Systems. Para dar suporte ao acesso externo usando o pacote SHA-2, o certificado externo é emitido por uma AC pública que também pode emitir um certificado com o mesmo comprimento de bit Digest. 
+    > O Skype for Business Server inclui suporte para o pacote SHA-2 (SHA-2 usa tamanhos digest de 224, 256, 384 ou 512 bits) de algoritmos de hash digest e assinatura para conexões de clientes que executam os sistemas operacionais Windows 10, Windows 8, Windows 7, Windows Server 2012 R2, Windows Server 2012 ou Windows Server 2008 R2. Para dar suporte ao acesso externo usando o pacote SHA-2, o certificado externo é emitido por uma CA pública que também pode emitir um certificado com o mesmo resumo de comprimento de bit. 
   
     > [!IMPORTANT]
-    > A seleção do qual o resumo de hash e o algoritmo de assinatura dependem dos clientes e dos servidores que usarão o certificado e outros computadores e dispositivos que os clientes e servidores irão se comunicar com quem também deve saber como usar os algoritmos usados no Certifica. Para obter informações sobre quais tamanhos de resumo são suportados no sistema operacional e em alguns aplicativos cliente, consulte [Windows PKI blog-SHA2 e Windows](https://go.microsoft.com/fwlink/p/?LinkId=287002). 
+    > A seleção de qual resumo de hash e algoritmo de assinatura depende dos clientes e servidores que usarão o certificado e de outros computadores e dispositivos que os clientes e servidores irão se comunicar com quem também deve saber como usar os algoritmos usados no certificado. Para obter informações sobre quais tamanhos de resumo são suportados no sistema operacional e em alguns aplicativos cliente, consulte o blog PKI do [Windows - SHA2 e Windows](https://go.microsoft.com/fwlink/p/?LinkId=287002). 
   
-    Cada servidor de front-end ou Standard Edition requer até quatro certificados: o certificado oAuthTokenIssuer, um certificado padrão, um certificado interno da Web e um certificado externo da Web. No entanto, você pode solicitar e atribuir um único certificado padrão com entradas de nome alternativo de assunto apropriado, bem como o certificado oAuthTokenIssuer. Para obter detalhes sobre os requisitos de certificado, consulte [Environmental Requirements for Skype for Business Server](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md) or [Server Requirements for Skype for Business Server 2019](../../../SfBServer2019/plan/system-requirements.md).
+    Cada servidor Standard Edition ou Front End requer até quatro certificados: o certificado oAuthTokenIssuer, um certificado padrão, um certificado interno da Web e um certificado externo da Web. No entanto, você pode solicitar e atribuir um único certificado padrão com entradas de nome alternativo de assunto apropriadas, bem como o certificado oAuthTokenIssuer. Para obter detalhes sobre os requisitos de certificado, consulte [Environmental requirements for Skype for Business Server](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md) or Server requirements for Skype for Business Server [2019.](../../../SfBServer2019/plan/system-requirements.md)
     
     > [!IMPORTANT]
-    > O procedimento a seguir descreve como configurar certificados de uma autoridade de certificação interna de serviços de certificados do Active Directory. 
+    > O procedimento a seguir descreve como configurar certificados de uma autoridade de certificação interna baseada nos Serviços de Certificados do Active Directory. 
   
 2. Na página **Assistente de Certificados**, clique em **Solicitar**.
     
-3. Na página **solicitação de certificado** , preencha os dados relevantes, incluindo selecionar o domínio SIP e clique em **Avançar**.
+3. Na página **Solicitação de** Certificado, preencha os dados relevantes, incluindo a seleção do domínio SIP e clique em **Próximo.**
     
-4. Na página **solicitações atrasadas ou imediatas** , você pode aceitar a opção padrão **enviar a solicitação imediatamente para uma autoridade de certificação online** clicando em **Avançar**. A autoridade de certificação interna com registro online automático deve estar disponível se você selecionar essa opção. Se você escolher a opção para atrasar a solicitação, você será solicitado a fornecer um nome e um local para salvar o arquivo de solicitação de certificado. A solicitação de certificado deve ser apresentada e processada por uma autoridade de certificação dentro da sua organização ou por uma autoridade de certificação pública. Você precisará importar a resposta do certificado e atribuí-la à função de certificado adequada.
+4. Na página **Solicitações Atrasadas** ou Imediatas, você pode aceitar o padrão Enviar a solicitação imediatamente para uma opção de autoridade de certificação **online** clicando em **Próximo**. A AC interna com registro online automático deve estar disponível se você selecionar essa opção. Se você escolher a opção para atrasar a solicitação, será solicitado um nome e local para salvar o arquivo de solicitação de certificado. A solicitação de certificado deve ser apresentada e processada por uma AC dentro da sua organização ou por uma CA pública. Em seguida, você precisará importar a resposta do certificado e atribuí-la à função de certificado adequada.
     
-5. Na página **escolher uma autoridade de certificação (CA)** , selecione a opção **selecionar uma autoridade de certificação na lista detectada em seu ambiente** e, em seguida, selecione uma autoridade de certificação conhecida (através de registro no Active Directory Domain Services) na lista. Ou selecione a opção **especificar outra autoridade de certificação** , digite o nome de outra autoridade de certificação na caixa e clique em **Avançar**.
+5. Na página Escolher uma Autoridade de Certificação **(CA),** selecione a opção Selecionar uma AUTORIDADE de Certificação na lista detectada em seu ambiente e selecione uma CA conhecida (por meio de registro nos Serviços de Domínio Active Directory) na lista.  Ou selecione a **opção Especificar outra autoridade de** certificação, insira o nome de outra AC na caixa e clique em **Próximo.**
     
-6. Na página **Conta da Autoridade de Certificação**, são solicitadas credenciais para solicitar e processar a solicitação de certificado na AC. Você deve ter determinado se um nome de usuário e senha são necessários para solicitar um certificado antecipadamente. O administrador da autoridade de certificação terá as informações necessárias e poderá ajudá-lo nesta etapa. Se for necessário fornecer credenciais alternativas, selecione a opção, forneça um nome de usuário e senha nas caixas de texto e clique em **Avançar**.
+6. Na página **Conta da Autoridade de Certificação**, são solicitadas credenciais para solicitar e processar a solicitação de certificado na AC. Você deve ter determinado se um nome de usuário e senha são necessários para solicitar um certificado antecipadamente. O administrador da AC terá as informações necessárias e poderá ajudá-lo nesta etapa. Se for necessário fornecer credenciais alternativas, selecione a opção, forneça um nome de usuário e senha nas caixas de texto e clique em **Avançar**.
     
 7. Na página **Especificar Modelo de Certificado Alternativo**, para usar o modelo do Servidor Web padrão, clique em **Avançar**.
     
     > [!NOTE]
     > Se sua organização criou um modelo para uso como uma alternativa para o modelo padrão da AC do servidor Web, marque a caixa de seleção e insira o nome do modelo alternativo. Você precisará no nome de modelo conforme definido pelo administrador da AC. 
   
-8. Na página **nome e configurações de segurança** , especifique um **nome amigável**. Usando um nome amigável, você pode identificar rapidamente o certificado e a finalidade. Se deixá-lo em branco, um nome será gerado automaticamente. Defina o **Comprimento de bit** da chave ou aceite o padrão de 2048 bits. Selecione a **caixa de seleção marcar a chave privada do certificado como exportável** se você determinar que o certificado e a chave privada precisam ser movidos ou copiados para outros sistemas e clique em **Avançar**.
+8. Na página **Nome e Configurações de Segurança,** especifique um **Nome Amigável.** Usando um nome amigável, você pode identificar rapidamente o certificado e a finalidade. Se deixá-lo em branco, um nome será gerado automaticamente. Defina o **Comprimento de bit** da chave ou aceite o padrão de 2048 bits. Selecione Marcar a chave privada do certificado como **exportável** se você determinar que o certificado e a chave privada precisam ser movidos ou copiados para outros sistemas e clique em **Avançar.**
     
     > [!NOTE]
     > O Skype for Business Server tem requisitos mínimos para uma chave privada exportável. Um local está nos Servidores de Borda em um pool, onde o Serviço de Autenticação de Media Relay usa cópias do certificado, em vez dos certificados individuais para cada instância no pool. 
   
-9. Na página **informações da organização** , forneça, opcionalmente, as informações da organização e clique em **Avançar**.
+9. Na página **Informações da Organização,** forneça opcionalmente informações da organização e clique em **Próximo.**
     
-10. Na página **informações geográficas** , forneça, opcionalmente, informações geográficas e clique em **Avançar**.
+10. Na página **Informações Geográficas,** opcionalmente, forneça informações geográficas e clique em **Próximo.**
     
 11. Na página **Nome da Entidade / Nomes Alternativos de Entidade**, veja os nomes alternativos de entidade que serão adicionados e clique em **Avançar**.
     
-12. Na página **configuração do domínio SIP** , selecione o **domínio SIP**e clique em **Avançar**.
+12. Na página **de configuração do Domínio SIP,** selecione o **Domínio SIP** e clique em **Próximo.**
     
-13. Na página **configurar nomes alternativos da entidade adicionais** , adicione quaisquer nomes alternativos de entidade adicionais necessários, incluindo qualquer um que possa ser necessário para domínios SIP adicionais no futuro e clique em **Avançar**.
+13. Na página **Configurar** Nomes Alternativos de Assunto Adicionais, adicione outros nomes alternativos de assunto necessários, incluindo qualquer um que possa ser necessário para domínios SIP adicionais no futuro e clique em **Próximo.**
     
-14. Na página **Resumo da solicitação de certificado** , revise as informações no resumo. Se as informações estiverem corretas, clique em **Avançar**. Se você precisar corrigir ou modificar uma configuração, clique em **voltar** à página adequada para fazer a correção ou modificação.
+14. Na página **Resumo da Solicitação de** Certificado, revise as informações do resumo. Se as informações estão corretas, clique em **Próximo.** Se você precisar corrigir ou modificar uma configuração, clique em **Voltar** para a página adequada para fazer a correção ou modificação.
     
 15. Na página **Executando Comandos**, clique em **Avançar**.
     
-16. Na página **status da solicitação de certificado online** , revise as informações retornadas. Você deve observar que o certificado foi emitido e instalado no repositório de certificados local. Se ele for relatado como tendo sido emitido e instalado, mas não for válido, verifique se o certificado raiz da autoridade de certificação foi instalado no repositório da autoridade de certificação raiz confiável do servidor. Consulte a documentação da autoridade de certificação sobre como recuperar um certificado de autoridade de certificação raiz confiável. Se você precisar exibir o certificado recuperado, clique em **Exibir detalhes do certificado**. Por padrão, a caixa de seleção para **atribuir o certificado aos usos de certificado do Skype for Business Server** é selecionada. Se você deseja atribuir manualmente o certificado, desmarque a caixa de seleção e clique em **concluir**.
+16. Na página **Status da Solicitação de Certificado Online,** revise as informações retornadas. Você deve observar que o certificado foi emitido e instalado no armazenamento de certificados local. Se for relatado como tendo sido emitido e instalado, mas não for válido, certifique-se de que o certificado raiz da AC foi instalado no armazenamento de CA raiz confiável do servidor. Consulte a documentação da AC sobre como recuperar um certificado de AC raiz confiável. Se você precisar exibir o certificado recuperado, clique em **Exibir Detalhes do Certificado.** Por padrão, a caixa de seleção Atribuir o certificado a usos de **certificados do Skype for Business Server** está marcada. Se você deseja atribuir manualmente o certificado, des marque e clique em **Concluir.**
     
-17. Se você desmarcou a caixa de seleção para **atribuir o certificado aos usos de certificado do Skype for Business Server** na página anterior, será exibida a página **atribuição de certificado** . Clique em **Avançar**.
+17. Se tiver desajustado a caixa de seleção Atribuir o certificado aos usos de **certificados** do Skype for Business Server na página anterior, a página Atribuição **de** Certificado será apresentada. Clique em **Avançar**.
     
-18. Na página **repositório de certificados** , selecione o certificado que você solicitou. Se quiser exibir o certificado, clique em **Exibir detalhes do certificado**e clique em **Avançar** para continuar.
+18. Na página **Armazenamento de** Certificados, selecione o certificado solicitado. Se você quiser exibir o certificado, clique em **Exibir** Detalhes do Certificado e clique em **Próximo** para continuar.
     
     > [!NOTE]
-    > Se a página **status da solicitação de certificado online** relatou um problema com o certificado, como o certificado não é válido, exiba o certificado real para obter ajuda na resolução do problema. Dois problemas específicos que podem fazer com que um certificado não seja válido é o certificado de autoridade de certificação raiz confiável ausente mencionado anteriormente e uma chave privada ausente associada ao certificado. Consulte a documentação da autoridade de certificação para resolver esses dois problemas.
+    > Se a **página Status** da Solicitação de Certificado Online relatou um problema com o certificado, como se o certificado não fosse válido, veja o certificado real para ajudar a resolver o problema. Dois problemas específicos que podem fazer com que um certificado não seja válido é o certificado AC raiz confiável mencionado anteriormente e uma chave privada ausente associada ao certificado. Consulte a documentação da AC para resolver esses dois problemas.
   
-19. Na página **Resumo de atribuição de certificado** , revise as informações apresentadas para certificar-se de que esse é o certificado que deve ser atribuído e clique em **Avançar**.
+19. Na página **Resumo da Atribuição de** Certificado, revise as informações apresentadas para garantir que este seja o certificado que deve ser atribuído e clique em **Próximo.**
     
-20. Na página **executando comandos** , revise a saída do comando. Clique em **Exibir log** se quiser revisar o processo de atribuição ou se houve um erro ou aviso emitido. Após concluir a revisão, clique em **concluir**.
+20. Na página **Executando Comandos,** revise a saída do comando. Clique **em Exibir Log** se quiser revisar o processo de atribuição ou se houver um erro ou aviso emitido. Quando terminar a revisão, clique em **Concluir.**
     
-21. Na página **Assistente de certificado** , confirme se todos os serviços têm um cheque verde para indicar que todos foram atribuídos a um certificado, incluindo o OAuthTokenIssuer, conforme mostrado na figura e clique em **fechar**.
+21. Na  página Assistente de Certificado, confirme se todos os serviços têm uma verificação verde para indicar que todos foram atribuídos a um certificado, incluindo o OAuthTokenIssuer, conforme mostrado na figura e clique em **Fechar.**
     
      ![Certificados instalados e atribuídos corretamente.](../../media/d8e1911c-d096-4f88-97a9-d2a704defa17.png)
   
     > [!TIP]
-    > Se você estiver instalando em um ambiente de laboratório e apenas configurou a autoridade de certificação usando os serviços de certificados do Active Directory, será necessário reinicializar o servidor que executa os serviços de certificados e também o servidor front-end antes do certificado a atribuição pode ser feita com êxito. 
+    > Se você estiver instalando em um ambiente de laboratório e tiver acabado de configurar a Autoridade de Certificação usando os Serviços de Certificado do Active Directory, será necessário reiniciar o servidor que está executando os Serviços de Certificado e também o servidor front-end para que a atribuição de certificado possa ser realizada com êxito. 
   
     > [!TIP]
-    >  Para obter mais informações sobre certificados nos serviços de certificados do Active Directory, consulte [serviços de certificados do Active Directory](https://technet.microsoft.com/windowsserver/dd448615.aspx). 
+    >  Para obter mais informações sobre certificados nos Serviços de Certificados do Active Directory, consulte [Serviços de Certificados do Active Directory.](https://technet.microsoft.com/windowsserver/dd448615.aspx) 
   
 ### <a name="step-4-start-services"></a>Etapa 4: Iniciar serviços
 
-1. Examine os pré-requisitos para a **etapa 4: Iniciar serviços**.
+1. Revise os pré-requisitos para a **Etapa 4: Iniciar Serviços.**
     
-2. Se este for um pool de front-ends Enterprise Edition com pelo menos três servidores, o Windows Fabric será usado e você deverá usar o cmdlet **Start-CsPool** . Se for usado um único servidor, que é sempre o caso com Standard Edition, você deve usar o cmdlet **Start-CsWindowsService** . Neste exemplo, estamos usando o Enterprise Edition com três servidores front-end no pool, abra o **Shell de gerenciamento do Skype for Business Server** e execute o cmdlet **Start-CsPool** conforme mostrado na figura. Para todas as outras funções, incluindo o servidor Standard Edition, você deve usar **Start-CsWindowsService**. Para implantar funções diferentes da função de front end, consulte a documentação para essas funções específicas.
+2. Se for um pool de Front-End Enterprise Edition com pelo menos três servidores, o Windows Fabric será usado e você deverá usar o cmdlet **Start-CsPool.** Se um único servidor for usado, o que sempre acontece com o Standard Edition, use o cmdlet **Start-CsWindowsService.** Neste exemplo, estamos usando o Enterprise Edition com três servidores front-end no pool, abra o Shell de Gerenciamento do **Skype for Business Server** e execute o cmdlet **Start-CsPool,** conforme mostrado na figura. Para todas as outras funções, incluindo o servidor Standard Edition, você deve usar **Start-CsWindowsService**. Para implantar funções diferentes da função front-end, consulte a documentação dessas funções específicas.
     
-     ![Inicie o Skype for Business Services.](../../media/f52ec719-9476-419f-9a78-df08368395f7.png)
+     ![Inicie os serviços do Skype for Business.](../../media/f52ec719-9476-419f-9a78-df08368395f7.png)
   
 3. Na página **Executando comandos**, após todos os serviços serem iniciados com sucesso, clique em **Finalizar**.
     
     > [!IMPORTANT]
-    > O comando para iniciar os serviços no servidor é um método de melhor esforço para relatar que os serviços foram, na verdade, iniciados. Ele pode não refletir o estado real do serviço. Recomendamos que você use o status do serviço de etapa **(opcional)** para abrir o console de gerenciamento Microsoft (MMC) e confirmar que os serviços foram iniciados com êxito, conforme mostrado na figura. Se algum serviço do Skype for Business Server não tiver começado, clique com o botão direito do mouse no serviço no MMC e, em seguida, clique em **Iniciar**. 
+    > O comando para iniciar os serviços no servidor é um método de melhor esforço para relatar que os serviços foram iniciados, de fato. Ele pode não refletir o estado real do serviço. Recomendamos que você use a etapa Status do Serviço **(Opcional)** para abrir o Console de Gerenciamento Microsoft (MMC) e confirmar se os serviços foram iniciados com êxito, conforme mostrado na figura. Se algum serviço do Skype for Business Server não tiver sido iniciado, você poderá clicar com o botão direito do mouse no serviço no MMC e clicar em **Iniciar.** 
   
      ![Verifique se os serviços foram iniciados.](../../media/47906fb7-9d37-4d55-8d8d-e5a4a2366510.png)
   
