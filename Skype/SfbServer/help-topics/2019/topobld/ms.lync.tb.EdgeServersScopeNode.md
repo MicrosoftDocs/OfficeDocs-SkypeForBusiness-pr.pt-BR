@@ -1,8 +1,8 @@
 ---
 title: Nó de Escopo de Servidores de Borda
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,26 +14,26 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0d49587e-5079-4fe0-a9b9-fb0853811fca
 ROBOTS: NOINDEX, NOFOLLOW
-description: 'O nó de Pools de Borda lista os pools de Borda de sua topologia. Você pode executar as seguintes ações:'
-ms.openlocfilehash: 6c16abadc47f5655b55c6e8766f987f27fe12a3e
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: 'O nó Pools de Borda lista os pools de Borda da sua topologia. Você pode executar as seguintes ações:'
+ms.openlocfilehash: 3f83bd4ed82a89d053b26181dda61855661c9ab2
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41793759"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49822501"
 ---
-# <a name="edge-servers-scope-node"></a><span data-ttu-id="c057e-104">Nó de Escopo de Servidores de Borda</span><span class="sxs-lookup"><span data-stu-id="c057e-104">Edge Servers Scope Node</span></span>
+# <a name="edge-servers-scope-node"></a><span data-ttu-id="0449e-104">Nó de Escopo de Servidores de Borda</span><span class="sxs-lookup"><span data-stu-id="0449e-104">Edge Servers Scope Node</span></span>
  
-<span data-ttu-id="c057e-p102">O nó de **Pools de Borda** lista os pools de Borda de sua topologia. É possível executar a seguinte ação:</span><span class="sxs-lookup"><span data-stu-id="c057e-p102">The **Edge pools** node lists the Edge pools in your topology. You can perform the following action:</span></span>
+<span data-ttu-id="0449e-p102">O nó **Pools de Borda** lista os pools de Borda da sua topologia. É possível realizar a seguinte ação:</span><span class="sxs-lookup"><span data-stu-id="0449e-p102">The **Edge pools** node lists the Edge pools in your topology. You can perform the following action:</span></span>
   
-- <span data-ttu-id="c057e-p103">**Novo Pool de Borda**. Inicia o assistente **Definir Novo Pool de Borda**, usado para adicionar um novo pool de Borda à topologia.</span><span class="sxs-lookup"><span data-stu-id="c057e-p103">**New Edge Pool**. Starts the **Define New Edge Pool** wizard, which you use to add a new Edge pool to the topology.</span></span>
+- <span data-ttu-id="0449e-p103">**Novo Pool de Borda**. Inicia o assistente para **Definir Novo Pool de Borda** que você pode usar para adicionar um novo pool de Borda à topologia.</span><span class="sxs-lookup"><span data-stu-id="0449e-p103">**New Edge Pool**. Starts the **Define New Edge Pool** wizard, which you use to add a new Edge pool to the topology.</span></span>
     
-<span data-ttu-id="c057e-109">Além das opções do pool de Borda, é possível executar as seguintes tarefas gerais:</span><span class="sxs-lookup"><span data-stu-id="c057e-109">In addition to the Edge pool options, you can perform the following general tasks:</span></span>
+<span data-ttu-id="0449e-109">Além das opções de pool de Borda, você pode executar as seguintes tarefas gerais:</span><span class="sxs-lookup"><span data-stu-id="0449e-109">In addition to the Edge pool options, you can perform the following general tasks:</span></span>
   
-- <span data-ttu-id="c057e-p104">**Topologia**. Você pode usar essa opção para definir uma nova topologia, abrir uma topologia existente, baixar a topologia atual, salvar uma cópia ou publicar a topologia, instalar um banco de dados, mesclar componentes de versões anteriores ou remover a implantação.</span><span class="sxs-lookup"><span data-stu-id="c057e-p104">**Topology**. You can use this option to define a new topology, open an existing topology, download the current topology, save a copy of the topology, publish the topology, install a database, merge components from previous versions, or remove the deployment.</span></span>
+- <span data-ttu-id="0449e-110">**Topologia**.</span><span class="sxs-lookup"><span data-stu-id="0449e-110">**Topology**.</span></span> <span data-ttu-id="0449e-111">Você pode usar essa opção para definir uma nova topologia, abrir uma topologia existente, baixar a topologia atual, salvar uma cópia da topologia, publicar a topologia, instalar um banco de dados, mesclar componentes de versões anteriores ou remover a implantação.</span><span class="sxs-lookup"><span data-stu-id="0449e-111">You can use this option to define a new topology, open an existing topology, download the current topology, save a copy of the topology, publish the topology, install a database, merge components from previous versions, or remove the deployment.</span></span>
     
-- <span data-ttu-id="c057e-p105">**Exibir**. Você pode usar essa opção para personalizar o modo de exibição no Construtor de Topologias selecionando os itens para mostrar ou ocultar nos modos de exibição da árvore de console.</span><span class="sxs-lookup"><span data-stu-id="c057e-p105">**View**. You can use this option to customize the view of in Topology Builder by selecting the items to show and hide in the console tree views.</span></span>
+- <span data-ttu-id="0449e-p105">**Visualização**. Você pode usar esta opção para personalizar a visualização no Construtor de Topologia selecionando os itens que serão exibidos ou escondidos na visão de árvore de comando..</span><span class="sxs-lookup"><span data-stu-id="0449e-p105">**View**. You can use this option to customize the view of in Topology Builder by selecting the items to show and hide in the console tree views.</span></span>
     
-- <span data-ttu-id="c057e-p106">**Ajuda**. Você pode usar essa opção para acessar a Ajuda do nó ativo.</span><span class="sxs-lookup"><span data-stu-id="c057e-p106">**Help**. You can use this option to access Help for the active node.</span></span>
+- <span data-ttu-id="0449e-p106">**Ajuda**. Você pode usar esta opção para acessar a Ajuda para o nó ativo.</span><span class="sxs-lookup"><span data-stu-id="0449e-p106">**Help**. You can use this option to access Help for the active node.</span></span>
     
 

@@ -1,8 +1,8 @@
 ---
 title: Exibir Certificado
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,16 +14,16 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: bfc6db2d-141e-4395-819a-65ba4629ccca
 ROBOTS: NOINDEX, NOFOLLOW
-description: Na página Exibir certificado, há um painel que permite que você selecione qualquer certificado válido no repositório de certificados local. Você pode selecionar um certificado e, em seguida, clicar em Exibir detalhes do certificado. O certificado será exibido em um novo painel. No painel certificado, você pode ver as informações gerais do certificado. Clique na guia detalhes para exibir informações detalhadas sobre o certificado, como nome do assunto e nome alternativo do assunto. O caminho de certificação exibirá o caminho da cadeia de trustfor do certificado. Quando terminar de revisar as informações do certificado, clique em OK.
-ms.openlocfilehash: 4820252bb979ffe8daf94d4e2985b8c1c0d4862a
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: Na página Exibir Certificado, há um painel  que permite a seleção de qualquer certificado válido no repositório de certificados locais. É possível selecionar um certificado e clicar em Exibir Detalhes do Certificado. O certificado será exibido em um novo painel. No painel Certificado, é possível exibir as informações de certificado Gerais. Clique na guia Detalhes para exibir informações detalhadas sobre o certificado, como nome de entidade e nome de entidade alternativo. O Caminho de Certificação exibirá o caminho dachain de confiançapara o certificado. Depois de concluir a revisão das informações do certificado, clique em OK.
+ms.openlocfilehash: 8ca79694c6d4b46b407012102d9af2dd977b15d7
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41796932"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49820541"
 ---
-# <a name="view-certificate"></a><span data-ttu-id="5c9c9-109">Exibir Certificado</span><span class="sxs-lookup"><span data-stu-id="5c9c9-109">View Certificate</span></span>
+# <a name="view-certificate"></a><span data-ttu-id="a745b-109">Exibir Certificado</span><span class="sxs-lookup"><span data-stu-id="a745b-109">View Certificate</span></span>
  
-<span data-ttu-id="5c9c9-110">Na página **Exibir certificado** , há um painel que permite que você selecione qualquer certificado válido no repositório de certificados local.</span><span class="sxs-lookup"><span data-stu-id="5c9c9-110">On the **View Certificate** page, there is a pane that enables you to select any valid certificate in the local certificate store.</span></span> <span data-ttu-id="5c9c9-111">Você pode selecionar um certificado e, em seguida, clicar em **Exibir detalhes do certificado**.</span><span class="sxs-lookup"><span data-stu-id="5c9c9-111">You can select a certificate, and then click **View Certificate Details**.</span></span> <span data-ttu-id="5c9c9-112">O certificado será exibido em um novo painel.</span><span class="sxs-lookup"><span data-stu-id="5c9c9-112">The certificate will be displayed in a new pane.</span></span> <span data-ttu-id="5c9c9-113">No painel **certificado** , você pode ver as informações gerais do certificado.</span><span class="sxs-lookup"><span data-stu-id="5c9c9-113">In the **Certificate** pane, you can view the General certificate information.</span></span> <span data-ttu-id="5c9c9-114">Clique na guia **detalhes** para exibir informações detalhadas sobre o certificado, como nome do assunto e nome alternativo do assunto.</span><span class="sxs-lookup"><span data-stu-id="5c9c9-114">Click the **Details** tab to display detailed information about the certificate, such as subject name and subject alternative name.</span></span> <span data-ttu-id="5c9c9-115">O caminho de certificação mostrará o caminho da "cadeia de confiança" do certificado.</span><span class="sxs-lookup"><span data-stu-id="5c9c9-115">The Certification Path will display the path of the "chain of trust" for the certificate.</span></span> <span data-ttu-id="5c9c9-116">Quando terminar de revisar as informações do certificado, clique em **OK**.</span><span class="sxs-lookup"><span data-stu-id="5c9c9-116">When you are finished reviewing the certificate information, click **OK**.</span></span>
+<span data-ttu-id="a745b-p102">Na página **Exibir Certificado**, há um painel  que permite a seleção de qualquer certificado válido no repositório de certificados locais. É possível selecionar um certificado e clicar em **Exibir Detalhes do Certificado**. O certificado será exibido em um novo painel. No painel **Certificado**, é possível exibir as informações de certificado Gerais. Clique na guia **Detalhes** para exibir informações detalhadas sobre o certificado, como nome de entidade e nome de entidade alternativo. O Caminho de Certificação exibirá o caminho da "cadeia de confiança" para o certificado. Depois de concluir a revisão das informações do certificado, clique em **OK**.</span><span class="sxs-lookup"><span data-stu-id="a745b-p102">On the **View Certificate** page, there is a pane that enables you to select any valid certificate in the local certificate store. You can select a certificate, and then click **View Certificate Details**. The certificate will be displayed in a new pane. In the **Certificate** pane, you can view the General certificate information. Click the **Details** tab to display detailed information about the certificate, such as subject name and subject alternative name. The Certification Path will display the path of the "chain of trust" for the certificate. When you are finished reviewing the certificate information, click **OK**.</span></span>
   
 
