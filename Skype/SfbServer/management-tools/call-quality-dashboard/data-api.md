@@ -1,8 +1,8 @@
 ---
-title: API de dados para o painel de qualidade de chamada (CQD) no Skype for Business Server
+title: API de Dados para Painel de Qualidade de Chamadas (CQD) no Skype for Business Server
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,23 +12,23 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 25c2450a-f7b3-4dd2-987d-64f4246dd019
-description: 'Resumo: Saiba mais sobre a API de dados para o painel de qualidade da chamada. O painel de qualidade de chamada é uma ferramenta para o Skype for Business Server.'
-ms.openlocfilehash: b8ff4823fad320ae57b8f06104afbb354c09b4eb
-ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
+description: 'Resumo: Saiba mais sobre a API de Dados para Painel de Qualidade de Chamada. O Painel de Qualidade da Chamada é uma ferramenta do Skype for Business Server.'
+ms.openlocfilehash: 367aa1bf1103863fff37fbcd4f8d9fa379de7c1d
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "41888430"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49832691"
 ---
-# <a name="data-api-for-call-quality-dashboard-cqd-in-skype-for-business-server"></a>API de dados para o painel de qualidade de chamada (CQD) no Skype for Business Server
+# <a name="data-api-for-call-quality-dashboard-cqd-in-skype-for-business-server"></a>API de Dados para Painel de Qualidade de Chamadas (CQD) no Skype for Business Server
  
-**Resumo:** Saiba mais sobre a API de dados para o painel de qualidade da chamada. O painel de qualidade de chamada é uma ferramenta para o Skype for Business Server.
+**Resumo:** Saiba mais sobre a API de Dados para o Painel de Qualidade da Chamada. O Painel de Qualidade da Chamada é uma ferramenta do Skype for Business Server.
   
-A API de dados fornece acesso programático para o painel de qualidade de chamada para o Skype for Business Server.
+A API de Dados fornece acesso programático para o Painel de Qualidade de Chamadas do Skype for Business Server.
   
-## <a name="data-api-for-call-quality-dashboard"></a>API de dados para o painel de qualidade da chamada
+## <a name="data-api-for-call-quality-dashboard"></a>API de Dados para Painel de Qualidade da Chamada
 
-A API de dados oferece uma interface de consulta para o cubo de QoE. A API de dados é uma API REST para trabalhar com um banco de dados multidimensional que fornece métricas de QoE agregadas com base em dimensões e filtros especificados.
+A API de Dados oferece uma interface de consulta para o cubo QoE. A API de Dados é uma API REST para trabalhar com banco de dados multidimensional que fornece métricas de QoE agregadas com base em dimensões e filtros especificados.
   
 As operações REST estão incluídas na tabela a seguir.
   
@@ -36,21 +36,21 @@ As operações REST estão incluídas na tabela a seguir.
 |**Operação**|**Descrição**|
 |:-----|:-----|
 |[Obter o cubo](get-cube.md) <br/> |Obter a lista de dimensões e medidas disponíveis.  <br/> |
-|[Obtenha os Membros da Dimensão](get-dimension-members.md) <br/> |A operação obter membros da dimensão retorna a lista de membros de uma dimensão específica. Ele também permite filtrar a lista de membros e obter um subconjunto para reduzir o custo de transferência de fio.  <br/> |
-|[Executar Consulta](run-query.md) <br/> |Executar a operação de consulta fornece a capacidade de executar uma consulta no cubo com base em dimensões, medidas e filtros especificados e retornar os dados.  <br/> |
-|[Limpar Cache](clear-cache.md) <br/> |Limpar operação de cache exclui o cache no servidor para consultas e dados. Isso redefinirá o cache e obteremos dados atualizados do cubo de QoE posteriormente para novas solicitações.  <br/> |
-|[Obter o Log de integração](get-integration-log.md) <br/> |A operação obter log de integração retorna uma lista de entradas de log que descrevem as atividades em processamento de cubo QoE.  <br/> |
+|[Obtenha os Membros da Dimensão](get-dimension-members.md) <br/> |A operação Obter Membros da Dimensão retorna a lista de membros de uma dimensão específica. Ele também dá a capacidade de filtrar a lista de membros e obter um subconjunto, para reduzir o custo de transferência eletrônica.  <br/> |
+|[Executar Consulta](run-query.md) <br/> |A operação Executar Consulta oferece a capacidade de executar uma consulta no cubo com base em dimensões, medidas e filtros especificados e retornar os dados.  <br/> |
+|[Limpar Cache](clear-cache.md) <br/> |A operação Limpar Cache exclui o cache no servidor para consultas e dados. Isso redefini o cache e obteremos dados atualizados do Cubo QoE posteriormente para novas solicitações.  <br/> |
+|[Obter o Log de integração](get-integration-log.md) <br/> |A operação Obter Log de Integração retorna uma lista de entradas de log que descrevem as atividades no processamento do cubo de QoE.  <br/> |
 |[Obter Últimos Dados de Integração](get-last-integration-data.md) <br/> |Obter os últimos dados de integração do cubo.  <br/> |
    
- **Suporte ao compartilhamento de recursos entre origens (CORS) para a API de dados**
+ **Suporte ao CORS (Compartilhamento de Recursos entre Origens) para API de Dados**
   
-A API de dados dá suporte ao compartilhamento de recursos entre origens (CORS). O CORS é um recurso HTTP que permite que um aplicativo Web em execução em um domínio acesse recursos em outro domínio. Os navegadores da Web implementam uma restrição de segurança conhecida como política [da mesma origem](https://www.w3.org/Security/wiki/Same_Origin_Policy) que impede que uma página da Web chame APIs em um domínio diferente. O CORS fornece uma maneira segura de permitir que um domínio (o domínio de origem) chame APIs em outro domínio. Consulte a [especificação CORS](https://www.w3.org/TR/cors/) para obter detalhes sobre o CORS.
+A API de Dados dá suporte ao CORS (Compartilhamento de Recursos entre Origens). CORS é um recurso HTTP que permite que um aplicativo Web em execução em um domínio acesse recursos em outro domínio. Os navegadores da Web [](https://www.w3.org/Security/wiki/Same_Origin_Policy) implementam uma restrição de segurança conhecida como política de mesma origem que impede que uma página da Web chamar APIs em um domínio diferente. O CORS oferece uma maneira segura de permitir que um domínio (o domínio de origem) chame APIs em outro domínio. Consulte a [especificação CORS](https://www.w3.org/TR/cors/) para obter detalhes sobre CORS.
   
- **Habilitando o CORS para a API de dados**
+ **Habilitando CORS para API de Dados**
   
- Veja a seguir um trecho do Web API Web. config, mostrando dois domínios listados em configurações do aplicativo corsTrustedOrigin. Todas as solicitações feitas pelos scripts carregados desses servidores são confiáveis para a API de dados.
+ Veja a seguir um trecho da API de dados web.config, mostrando dois domínios listados nas configurações do aplicativo corsTrustedOrigin. Todas as solicitações feitas pelos scripts carregados desses servidores são confiáveis para a API de Dados.
   
-Lembre-se de incluir o protocolo exato, o nome do host e a porta (se houver). Não coloque nenhum caractere de barra (/) no final. Várias entradas podem ser especificadas separando-se com vírgulas.
+Lembre-se de incluir o protocolo exato, o nome do host e a porta (se algum). Não coloque nenhum caractere de barra (/) no final. Várias entradas podem ser especificadas separando-as por vírgulas.
   
 ```xml
 <configuration>

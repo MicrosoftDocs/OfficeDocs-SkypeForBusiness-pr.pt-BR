@@ -1,8 +1,8 @@
 ---
 title: tblServerIdentity
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -12,25 +12,25 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 5411c9bc-b0b3-41fc-8b7e-fa71cccd770b
-description: tblServerIdentity contém os servidores de chat ativos no pool do servidor de chat persistente.
-ms.openlocfilehash: 4f6389f21c35da914b4943a279d8d485b6ec1eae
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: TblServerIdentity contém os servidores de chat ativos no pool do Servidor de Chat Persistente.
+ms.openlocfilehash: 7fa8c1b804432b3a9368785682f45e9ce8d7898e
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41812269"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49831491"
 ---
 # <a name="tblserveridentity"></a>tblServerIdentity
  
-tblServerIdentity contém os servidores de chat ativos no pool do servidor de chat persistente.
+TblServerIdentity contém os servidores de chat ativos no pool do Servidor de Chat Persistente.
   
-**Colunas**
+**Columns**
 
 |**Coluna**|**Tipo**|**Descrição**|
 |:-----|:-----|:-----|
-|serverID  <br/> |int, não nulo  <br/> |ID do servidor. Corresponde à ID da instância do repositório de gerenciamento central.  <br/> |
-|a  <br/> |nvarchar (256), NOT NULL  <br/> |Endereço do servidor usando o endereço do Windows Communication Foundation.  <br/> |
-|serverLastPingTime  <br/> |datetime  <br/> |A última vez em que o servidor de canal atualizou essa linha para dar evidências de que esteja em execução.  <br/> |
+|serverID  <br/> |int, não nulo  <br/> |Identificação do Servidor. Corresponde à ID da instância do armazenamento de Gerenciamento Central.  <br/> |
+|serverAddress  <br/> |nvarchar (256), não nulo  <br/> |Endereço do Servidor utilizando o endereço do Windows Communication Foundation.  <br/> |
+|serverLastPingTime  <br/> |datetime  <br/> |A última vez em que o Servidor de Canal atualizou esta linha para fornecer evidências de que está sendo executado.  <br/> |
    
 **Chave**
 

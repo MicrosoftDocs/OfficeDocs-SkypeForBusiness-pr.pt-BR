@@ -1,8 +1,8 @@
 ---
 title: Adicionar Repositóriod e Arquivos
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,20 +14,20 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4e144ad2-6d28-4fad-8f01-2758f23e79db
 ROBOTS: NOINDEX, NOFOLLOW
-description: 'Para definir um novo armazenamento de arquivos, especifique o seguinte:'
-ms.openlocfilehash: 5dbd01dd767e9815811c13487c233f5bae38d839
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: 'Para definir um novo repositório de arquivos, especifique o seguinte:'
+ms.openlocfilehash: 413885ffb60e1308fef2984252edc8690917019d
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41798568"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49833541"
 ---
-# <a name="add-file-store"></a>Adicionar Repositóriod e Arquivos
+# <a name="add-file-store"></a>Adicionar Repositório e Arquivos
  
-Para definir um novo armazenamento de arquivos, especifique o seguinte:
+Para definir um novo repositório de arquivos, especifique o seguinte:
   
-- O nome de domínio totalmente qualificado (FQDN) do servidor que hospedará o novo repositório de arquivos. O FQDN do servidor deve existir no sistema de nomes de domínio (DNS) antes de você publicar a topologia.
+- O FQDN (nome de domínio totalmente qualificado) do servidor que hospedará o novo repositório de arquivo. O FQDN do servidor deve existir no DNS (Sistema de Nomes de Domínio) antes de publicar a topologia.
     
-- O nome do compartilhamento de arquivos no servidor host. O compartilhamento de arquivos deve existir antes da publicação da topologia. 
+- O nome do compartilhamento de arquivo no servidor hospedeiro. O compartilhamento de arquivos deve existir antes da publicação da topologia. 
     
 

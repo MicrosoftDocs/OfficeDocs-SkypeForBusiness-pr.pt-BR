@@ -1,8 +1,8 @@
 ---
-title: Adicionais Definir o horário comercial do grupo de resposta no Skype for Business
+title: (Opcional) Definir o horário comercial do Grupo de Resposta no Skype for Business
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -12,36 +12,36 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: d62551b2-1847-4e1b-abe8-683b72aa94d5
-description: Criar ou modificar o horário comercial do grupo de resposta no Skype for Business Server Enterprise Voice.
-ms.openlocfilehash: f6a7d6bb8154d3113282a603ab39b45cf92d5556
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+description: Criar ou modificar o horário comercial do Grupo de Resposta, no Skype for Business Server Enterprise Voice.
+ms.openlocfilehash: dcd2f7174a75eb68ef8d35759a1e454ede976bde
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41767294"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49830991"
 ---
-# <a name="optional-define-response-group-business-hours-in-skype-for-business"></a>Adicionais Definir o horário comercial do grupo de resposta no Skype for Business 
+# <a name="optional-define-response-group-business-hours-in-skype-for-business"></a>(Opcional) Definir o horário comercial do Grupo de Resposta no Skype for Business 
  
-Criar ou modificar o horário comercial do grupo de resposta no Skype for Business Server Enterprise Voice.
+Criar ou modificar o horário comercial do Grupo de Resposta, no Skype for Business Server Enterprise Voice.
   
 ## <a name="defining-business-hours"></a>Definir o horário comercial
 
-As configurações de horário comercial definem quando o fluxo de trabalho está disponível para atender a chamadas e especificar as ações a serem executadas para chamadas fora do horário comercial. Os administradores do Grupo de Resposta podem usar o cmdlet  **New-CsRgsHoursOfBusiness** para criar programações predefinidas que você pode usar para vários grupos de resposta.
+As configurações de horário comercial definem quando o fluxo de trabalho está disponível para atender a chamadas e especificar as ações a serem executadas para chamadas fora do horário comercial. Os administradores do Grupo de Resposta podem usar o cmdlet **New-CsRgsHoursOfBusiness** para criar programações predefinidas que você pode usar para vários grupos de resposta.
   
 > [!TIP]
-> Ao criar ou modificar um fluxo de trabalho, é possível especificar uma programação personalizada aplicada apenas a este fluxo de trabalho. Para obter detalhes, consulte [projetando e criando fluxos de trabalho de grupo de resposta no Skype for Business](designing-and-creating-response-group-workflows.md). 
+> Ao criar ou modificar um fluxo de trabalho, é possível especificar uma programação personalizada aplicada apenas a este fluxo de trabalho. Para obter detalhes, consulte [Designing and creating response group workflows in Skype for Business](designing-and-creating-response-group-workflows.md). 
   
 > [!NOTE]
-> Se um fluxo de trabalho é definido como o Fluxo de Trabalho Gerenciado, qualquer usuário com a função CsResponseGroupManager atribuída pode definir e modificar o horário comercial personalizado para fluxos de trabalho que gerenciam. 
+> Se um fluxo de trabalho é definido como o Fluxo de trabalho gerenciado, qualquer usuário com a função CsResponseGroupManager atribuída pode definir e modificar o horário comercial personalizado para fluxos de trabalho que gerenciam. 
   
 > [!IMPORTANT]
-> Use a notação 24 horas para os parâmetros nos seguintes cmdlets (por exemplo, 20:00=8:00 P.M.). 
+> Use a notação 24 horas para os parâmetros nos seguintes cmdlets (por exemplo, 20:00=20:00 horas). 
   
 ### <a name="to-create-a-predefined-business-hours-collection"></a>Para criar um conjunto de horário comercial predefinido
 
-1. Faça logon como um membro do grupo RTCUniversalServerAdmins ou como um membro de uma das funções administrativas predefinidas que oferecem suporte ao Grupo de Resposta.
+1. Faça logoff como membro do grupo RTCUniversalServerAdmins ou como membro de uma das funções administrativas predefinidos que suportam o Grupo de Resposta.
     
-2. Inicie o Shell de Gerenciamento do Skype for Business Server: clique em **Iniciar**, em **Todos os Programas**, em **Skype for Business 2015** e em **Shell de Gerenciamento do Skype for Business Server**.
+2. Inicie o Shell de Gerenciamento do Skype for Business Server: clique em **Iniciar,** em Todos os **Programas,** no **Skype for Business 2015** e, em seguida, clique no Shell de Gerenciamento do **Skype for Business Server.**
     
 3. Para cada intervalo de horas exclusivo que você deseja definir, execute:
     
@@ -55,7 +55,7 @@ As configurações de horário comercial definem quando o fluxo de trabalho est�
    New-CsRgsHoursOfBusiness -Parent <service where the workflow is hosted> -Name <unique name for collection> [-MondayHours1 <first set of opening and closing times for Monday>] [-MondayHours2 <second set of opening and closing times for Monday>] [-TuesdayHours1 <first set of opening and closing times for Tuesday>] [-TuesdayHours2 <second set of opening and closing times for Tuesday>] [-WednesdayHours1 <first set of opening and closing times for Wednesday>] [-WednesdayHours2 <second set of opening and closing times for Wednesday>] [-ThursdayHours1 <first set of opening and closing times for Thursday>] [-ThursdayHours2 <second set of opening and closing times for Thursday>] [-FridayHours1 <first set of opening and closing times for Friday>] [-FridayHours2 <second set of opening and closing times for Friday>] [-SaturdayHours1 <first set of opening and closing times for Saturday>] [-SaturdayHours2 <second set of opening and closing times for Saturday>] [-SundayHours1 <first set of opening and closing times for Sunday>] [-SundayHours2 <second set of opening and closing times for Sunday>]
    ```
 
-    O exemplo a seguir especifica o horário comercial de 9:00 às 17:00 para dias úteis, de 8:00 às 10:00 e novamente a partir de 14:00 às 18:00 aos sábados e horário não comercial nos domingos:
+    O exemplo a seguir especifica o horário comercial de 9:00: 00 às 17:00 para dias úteis, de 8: 00 a 10:00: 00 e novamente a partir de 14: 00. às 18:00 nos sábados e horário não comercial nos domingos:
     
    ```powershell
    $a = New-CSRgsTimeRange -Name "Weekday Hours" -OpenTime "9:00" -CloseTime "17:00"

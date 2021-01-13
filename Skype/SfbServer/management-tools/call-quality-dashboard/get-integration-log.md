@@ -1,8 +1,8 @@
 ---
 title: Obter o Log de integração
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,44 +12,44 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 8856f6bc-5460-4f35-acf2-f7662f01579b
-description: 'Resumo: Saiba mais sobre a operação obter log de integração, que faz parte da API de dados para o painel de qualidade de chamada. O painel de qualidade de chamada é uma ferramenta para o Skype for Business Server.'
-ms.openlocfilehash: e1d790f4723eaaf716482143f08c78624db47433
-ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
+description: 'Resumo: saiba mais sobre a operação Obter Log de Integração, que faz parte da API de Dados do Painel de Qualidade da Chamada. O Painel de Qualidade da Chamada é uma ferramenta do Skype for Business Server.'
+ms.openlocfilehash: 69827fa9f3fd3f56843a41867b029a071799ba66
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "41888800"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49832591"
 ---
 # <a name="get-integration-log"></a>Obter o Log de integração
  
-**Resumo:** Saiba mais sobre a operação obter log de integração, que faz parte da API de dados para o painel de qualidade da chamada. O painel de qualidade de chamada é uma ferramenta para o Skype for Business Server.
+**Resumo:** Saiba mais sobre a operação Obter Log de Integração, que faz parte da API de Dados do Painel de Qualidade de Chamada. O Painel de Qualidade da Chamada é uma ferramenta do Skype for Business Server.
   
-A operação obter log de integração faz parte da API de dados para o painel de qualidade da chamada
+A operação Obter Log de Integração faz parte da API de Dados do Painel de Qualidade da Chamada
   
 ## <a name="get-integration-log"></a>Obter o Log de integração
 
-A operação obter log de integração retorna uma lista de entradas de log que descrevem as atividades em processamento de cubo QoE.
+A operação Obter Log de Integração retorna uma lista de entradas de log que descrevem as atividades no processamento do cubo de QoE.
   
-Esta operação é desativada por padrão por motivos de segurança. Quando desabilitado, ele retorna uma cadeia de caracteres vazia. Para habilitar essa operação, os administradores precisam configurar o Web. config do aplicativo Web host da API de dados.
+Essa operação está desabilitada por padrão por motivos de segurança. Quando desabilitado, retorna uma cadeia de caracteres vazia. Para habilitar essa operação, os administradores precisam configurar o web.config para o aplicativo Web host da API de Dados.
   
 
-|Forma|**URI de solicitação**|**Versão HTTP**|
+|Method|**URI de solicitação**|**Versão HTTP**|
 |:-----|:-----|:-----|
-|Obter  <br/> |https://\<do\>portal de/QoEDataService/IntegrationLog  <br/> |HTTP/1.1  <br/> |
+|OBTER  <br/> |https:// \<portal\> /QoEDataService/IntegrationLog  <br/> |HTTP/1.1  <br/> |
    
- **Parâmetros de URI** -nenhum.
+ **Parâmetros de URI** - Nenhum.
   
- **Solicitar cabeçalhos** -sem cabeçalhos adicionais.
+ **Solicitação de headers** - nenhum outro.
   
- **Corpo da solicitação** -nenhum.
+ **Corpo da Solicitação** - Nenhum.
   
- **Resposta** -a resposta inclui um código de status HTTP e um conjunto de cabeçalhos de resposta.
+ **Resposta** - A resposta inclui um código de status HTTP e um conjunto de cabeçalhos de resposta.
   
- **Código de status** -uma operação bem-sucedida retorna o código de status 200 (OK).
+ **Código de Status** - Uma operação bem-sucedida retorna o código de status 200 (OK).
   
- **Cabeçalhos de resposta** -sem cabeçalhos adicionais.
+ **Response Headers** - Sem outros headers.
   
- **Corpo da resposta** -abaixo está uma estrutura de exemplo das entradas do log.
+ **Corpo de** Resposta - Abaixo está uma estrutura de exemplo de entradas de log.
   
 ```json
 [

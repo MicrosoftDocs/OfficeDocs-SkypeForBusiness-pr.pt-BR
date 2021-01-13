@@ -1,8 +1,8 @@
 ---
-title: Iniciar serviços
+title: Iniciar Serviços
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,19 +14,19 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: efaf7b2a-257f-4aef-9c25-40ea93b03ef4
 ROBOTS: NOINDEX, NOFOLLOW
-description: 'Para iniciar os serviços na função de servidor implantada, clique em executar na etapa 4: Iniciar serviços. Você deve estar conectado como um membro do grupo Administradores local ou um equivalente.'
-ms.openlocfilehash: 2f80e613d79613fb3e03837a9059306196638b84
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: 'Para iniciar os serviços na função de servidor implantada, clique em Executar na Etapa 4: Iniciar Serviços. Você deve estar conectado como membro do grupo Administradores local ou equivalente.'
+ms.openlocfilehash: 73dd906ff5cc86a5c3606d82ca665bb6c689a928
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41794780"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49833761"
 ---
-# <a name="start-services"></a>Iniciar serviços
+# <a name="start-services"></a>Iniciar Serviços
  
-Para iniciar os serviços na função de servidor implantada, clique em **executar** na **etapa 4: Iniciar serviços**. Você deve estar conectado como um membro do grupo Administradores local ou um equivalente. 
+Para iniciar os serviços na função de servidor implantada, clique em **Executar** na **Etapa 4: Iniciar Serviços.** Você deve estar conectado como membro do grupo Administradores local ou equivalente. 
   
 > [!NOTE]
-> Se a **inicialização de serviços** tiver sido executada, você pode executar o comando **novamente clicando novamente em executar**. 
+> Se **start Services** tiver sido executado, você pode executar novamente o comando clicando em Executar **novamente**. 
   
 

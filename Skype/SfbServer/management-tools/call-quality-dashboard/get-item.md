@@ -1,8 +1,8 @@
 ---
 title: Obter item
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,41 +12,41 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: e77bf649-d62a-4d94-80de-066ba47730cd
-description: 'Resumo: Saiba mais sobre a operação de obtenção de itens, que faz parte do serviço de item. O serviço de item faz parte da API do repositório para o painel de qualidade da chamada. O painel de qualidade de chamada é uma ferramenta para o Skype for Business Server.'
-ms.openlocfilehash: 295276e6f3b0f577dae9a43c4c0f62e23b8582f4
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 'Resumo: saiba mais sobre a operação Obter Item, que faz parte do Serviço de Item. O Serviço de Item faz parte da API de Repositório para o Painel de Qualidade da Chamada. O Painel de Qualidade da Chamada é uma ferramenta do Skype for Business Server.'
+ms.openlocfilehash: 896540c4572fb3991356ce055f01690ed702c6f2
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41816790"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49832561"
 ---
 # <a name="get-item"></a>Obter item
  
-**Resumo:** Saiba mais sobre a operação obter item, que faz parte do serviço de item. O serviço de item faz parte da API do repositório para o painel de qualidade da chamada. O painel de qualidade de chamada é uma ferramenta para o Skype for Business Server.
+**Resumo:** Saiba mais sobre a operação Obter Item, que faz parte do Serviço de Item. O Serviço de Item faz parte da API de Repositório para o Painel de Qualidade da Chamada. O Painel de Qualidade da Chamada é uma ferramenta do Skype for Business Server.
   
-A operação obter item faz parte do serviço de itens na API do repositório para o painel de qualidade da chamada.
+A operação Obter Item faz parte do Serviço de Item na API de Repositório para Painel de Qualidade de Chamada.
   
 ## <a name="get-item"></a>Obter item
 
-Obter item retorna um item específico no repositório.
+Get Item retorna um item específico no repositório.
   
-|**Forma**|**URI de solicitação**|**Versão HTTP**|
+|**Method**|**URI de solicitação**|**Versão HTTP**|
 |:-----|:-----|:-----|
-|Obter  <br/> |https://\<do\>portal de/QoERepositoryService/Repository/item/{itemid}  <br/> |HTTP/1.1  <br/> |
+|OBTER  <br/> |https:// \<portal\> /QoERepositoryService/repository/item/{itemId}  <br/> |HTTP/1.1  <br/> |
    
- **Parâmetros de URI** -nenhum.
+ **Parâmetros de URI** - Nenhum.
   
- **Solicitar cabeçalhos** -sem cabeçalhos adicionais.
+ **Solicitação de headers** - nenhum outro.
   
- **Corpo da solicitação** -nenhum.
+ **Corpo da Solicitação** - Nenhum.
   
- **Resposta** -a resposta inclui um código de status HTTP e um conjunto de cabeçalhos de resposta.
+ **Resposta** - A resposta inclui um código de status HTTP e um conjunto de cabeçalhos de resposta.
   
- **Código de status** -uma operação bem-sucedida retorna o código de status 200 (OK). Se uma ID de item especificada não for encontrada, será retornado o código de status 404 (não encontrado).
+ **Código de Status** - Uma operação bem-sucedida retorna o código de status 200 (OK). Se uma ID de item especificada não for encontrada, retornará o código de status 404 (Não Encontrado).
   
- **Cabeçalhos de resposta** -sem cabeçalhos adicionais.
+ **Response Headers** - Sem outros headers.
   
- **Corpo da resposta** -abaixo está uma carga de resposta de exemplo em JSON.
+ **Corpo de** Resposta - Abaixo está um exemplo de carga de resposta em JSON.
   
 ```json
 {
@@ -58,14 +58,14 @@ Obter item retorna um item específico no repositório.
 }
 ```
 
- *ItemId* -ID do item.
+ *itemId*  - ID do item.
   
- *userid* -ID do usuário que é proprietário deste item.
+ *userId*  - ID do usuário que possui esse item.
   
- *conteúdo* -o conteúdo específico do aplicativo.
+ *content*  - O conteúdo específico do aplicativo.
   
- *tipo* – o tipo do conteúdo. Este campo é definido pelos aplicativos.
+ *tipo*  - O tipo do conteúdo. Esse campo é definido pelos aplicativos.
   
- *Subitemids* – as IDs de subitens, se houver. Trata-se de um curto circuito para obter a operação de subitens para salvar uma chamada. Os aplicativos também podem obter as mesmas informações usando a operação obter subitens.
+ *subItemIds*  - as IDs de subsistros, se necessário. Este é um curto circuito da operação Obter Sub-Items para salvar uma chamada. Como alternativa, os aplicativos podem obter as mesmas informações usando a Sub-Items obter.
   
 

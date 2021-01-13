@@ -1,12 +1,12 @@
 ---
-title: Configurando intervalos de porta e uma qualidade de serviço para seus servidores Edge
+title: Configurando intervalos de porta e uma Qualidade de Serviço para seus Servidores de Borda
 ms.reviewer: ''
 ms:assetid: 6f0ae442-6624-4e3f-849a-5b9e387fb8cf
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204996(v=OCS.15)
 ms:contentKeyID: 48184469
 mtps_version: v=OCS.15
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,23 +14,23 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: Este artigo descreve como configurar intervalos de porta para servidores de borda e como configurar uma política de qualidade de serviço para seus servidores de borda A/V.
-ms.openlocfilehash: 5762cb6861552696f160dfe69459c357f6b63452
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Este artigo descreve como configurar intervalos de porta para Servidores de Borda e como configurar uma política de Qualidade de Serviço para seus Servidores de Borda A/V.
+ms.openlocfilehash: c88f784fe1956fa16b8464caa4f9f26e5c61005e
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41817430"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49832901"
 ---
-# <a name="configuring-port-ranges-and-a-quality-of-service-policy-for-your-edge-servers-in-skype-for-business-server"></a>Configurando intervalos de porta e uma política de qualidade de serviço para seus servidores de borda no Skype for Business Server
+# <a name="configuring-port-ranges-and-a-quality-of-service-policy-for-your-edge-servers-in-skype-for-business-server"></a>Configurando intervalos de portas e uma política de Qualidade de Serviço para seus Servidores de Borda no Skype for Business Server
 
-Este artigo descreve como configurar intervalos de porta para servidores de borda e como configurar uma política de qualidade de serviço para seus servidores de borda A/V.
+Este artigo descreve como configurar intervalos de porta para Servidores de Borda e como configurar uma política de Qualidade de Serviço para seus Servidores de Borda A/V.
 
-## <a name="configure-port-ranges"></a>Configurar intervalos de porta
+## <a name="configure-port-ranges"></a>Configurar intervalos de portas
 
-Com os servidores de borda, você não precisa configurar intervalos de porta separados para compartilhamento de áudio, vídeo e aplicativos; da mesma forma, os intervalos de porta usados para servidores de borda não precisam corresponder aos intervalos de porta usados com os servidores de conferência, aplicativo e mediação. Antes de continuarmos com o nosso exemplo, é importante enfatizar que, enquanto essa opção existe, recomendamos que você não altere os intervalos de porta, pois isso pode afetar negativamente alguns cenários se você sair do intervalo de porta 50000.
+Com os servidores de Borda, você não precisa configurar intervalos de porta separados para compartilhamento de áudio, vídeo e aplicativos; Da mesma forma, os intervalos de porta usados para servidores de Borda não têm que corresponder aos intervalos de porta usados com seus servidores de Conferência, Aplicativo e Mediação. Antes de prosseguirmos com nosso exemplo, é importante enfatizar que, embora essa opção exista, recomendamos que você não altere os intervalos de porta, pois isso pode afetar adversamente alguns cenários se você sair do intervalo de 50000 portas.
 
-Por exemplo, suponha que você tenha configurado seus servidores de conferência, aplicativo e mediação para usar estes intervalos de porta:
+Por exemplo, suponha que você tenha configurado seus servidores de Conferência, Aplicativo e Mediação para usar estes intervalos de porta:
 
 
 <table>
@@ -71,88 +71,88 @@ Por exemplo, suponha que você tenha configurado seus servidores de conferência
 </table>
 
 
-Como você pode ver, os intervalos de portabilidade de áudio, vídeo e compartilhamento de aplicativos começam na porta 40803 e englobam um total de 24732 portas. Se preferir, você pode configurar um determinado servidor de borda para usar esses valores de porta gerais executando um comando semelhante a este de dentro do Shell de gerenciamento do Skype for Business Server:
+Como você pode ver, os intervalos de porta para áudio, vídeo e compartilhamento de aplicativos começam na porta 40803 e englobam um total de 24732 portas. Se preferir, você pode configurar um determinado Servidor de Borda para usar esses valores gerais de porta executando um comando semelhante a este no Shell de Gerenciamento do Skype for Business Server:
 
     Set-CsEdgeServer -Identity EdgeServer:atl-edge-001.litwareinc.com -MediaCommunicationPortStart 40803 -MediaCommunicationPortCount 24730
 
-Ou use o seguinte comando para configurar simultaneamente todos os servidores de borda em sua organização:
+Ou use o comando a seguir para configurar simultaneamente todos os servidores de borda na organização:
 
     Get-CsService -EdgeServer | ForEach-Object {Set-CsEdgeServer -Identity $_.Identity -MediaCommunicationPortStart 40803 -MediaCommunicationPortCount 24730}
 
-Você pode verificar as configurações de porta atuais para seus servidores de borda usando este comando do Shell de gerenciamento do Skype for Business Server:
+Você pode verificar as configurações de porta atuais para seus Servidores de Borda usando este comando do Shell de Gerenciamento do Skype for Business Server:
 
     Get-CsService -EdgeServer | Select-Object Identity, MediaCommunicationPortStart, MediaCommunicationPortCount
 
-Novamente, enquanto fornecemos essas opções, recomendamos que você deixe as coisas como elas são para a configuração de portabilidade.
+Novamente, embora forneçamos essas opções, recomendamos que você deixe tudo como estão para a configuração de porta.
 
-## <a name="configure-a-qos-policy-for-your-av-edge-servers"></a>Configurar uma política de QoS para seus servidores de borda A/V
+## <a name="configure-a-qos-policy-for-your-av-edge-servers"></a>Configurar uma política de QoS para seus Servidores de Borda A/V
 
-Além de criar políticas de QoS para seus servidores de conferência, aplicativo e mediação, você também deve criar políticas de áudio e de vídeo para o lado interno dos seus servidores de borda A/V. No entanto, as políticas usadas em seus servidores de borda são diferentes das políticas usadas em seus servidores de conferência, aplicativo e mediação. Para os servidores de conferência, aplicativo e mediação, você especificou um intervalo de porta de origem; com os servidores de borda, você precisa especificar um intervalo de porta de destino. Por isso, você não pode simplesmente aplicar as políticas de QoS de servidor de conferência, aplicativo e mediação aos seus servidores de borda: essas políticas simplesmente não funcionarão. Em vez disso, você deve criar novas políticas e aplicar essas políticas somente a seus servidores de borda.
+Além de criar políticas de QoS para seus servidores de Conferências, Aplicativos e Mediação, você também deve criar políticas de áudio e vídeo para o lado interno dos seus servidores de borda de A/V. No entanto, as políticas usadas em seus servidores de Borda são diferentes das políticas usadas em seus servidores de Conferências, Aplicativos e Mediação. Para os servidores de Conferência, Aplicativo e Mediação, você especificou um intervalo de porta de origem; com servidores de Borda, você precisa especificar um intervalo de portas de destino. Por isso, você não pode simplesmente aplicar as políticas de QoS de servidor de Conferência, Aplicativo e Mediação aos seus servidores de Borda: essas políticas simplesmente não funcionarão. Em vez disso, você deve criar novas políticas e aplicá-las somente aos seus servidores de Borda.
 
-O procedimento a seguir descreve o processo de criação de objetos de política de grupo do Active Directory que podem ser usados para gerenciar a qualidade do serviço em servidores Edge. É claro que é possível que seus servidores de borda sejam servidores autônomos que não tenham contas do Active Directory. Se esse for o caso, você pode usar a política de grupo local em vez da política de grupo do Active Directory: a única diferença é que você deve criar essas políticas locais usando o editor de política de grupo local e deve criar individualmente o mesmo conjunto de políticas em cada servidor de borda. Para iniciar o editor de política de grupo local em um servidor de borda, faça o seguinte:
+O procedimento a seguir descreve o processo para criar objetos de Política de Grupo do Active Directory que podem ser usados para gerenciar a Qualidade de Serviço em Servidores de Borda. É possível, é claro, que seus servidores de Borda sejam servidores autônomos que não possuem contas do Active Directory. Neste caso, você pode usar uma Política de Grupo local em vez da Política de Grupo do Active Directory: a única diferença é que você deve criar essas políticas locais usando o Editor de Políticas de Grupo Local e deve criar individualmente o mesmo conjunto de políticas em cada Servidor de Borda. Para iniciar o Editor de Política de Grupo Local em um servidor de Borda, faça o seguinte:
 
-1.  Clique em  **Iniciar ** e em  **Executar **.
+1.  Clique em **Iniciar** e em **Executar**.
 
-2.  Na caixa de diálogo **executar** , digite **gpedit. msc**e pressione Enter.
+2.  Na caixa **de** diálogo Executar, digite **gpedit.msc** e pressione ENTER.
 
-Se você estiver criando políticas baseadas no Active Directory, faça logon em um computador onde o gerenciamento de política de grupo foi instalado. Nesse caso, abra gerenciamento de política de grupo (clique em **Iniciar**, aponte para **Ferramentas administrativas**e clique em **Gerenciamento de política de grupo**) e conclua as seguintes etapas:
+Se estiver criando políticas com base no Active Directory, você deve fazer logon em um computador em que o Gerenciamento de Política de Grupo tenha sido instalado. Nesse caso, abra o Gerenciamento de Política de Grupo (clique em **Iniciar,** aponte para Ferramentas Administrativas e clique em Gerenciamento de Política de **Grupo)** e conclua as seguintes etapas:
 
-1.  No gerenciamento de política de grupo, localize o contêiner em que a nova política deve ser criada. Por exemplo, se todos os seus computadores do Skype for Business Server estiverem localizados em uma UO chamada Skype for Business Server, a nova política deve ser criada na OU Skype for Business Server.
+1.  No Gerenciamento de Política de Grupo, localize o contêiner em que a nova política deve ser criada. Por exemplo, se todos os computadores do Skype for Business Server estão localizados em uma UO chamada Skype for Business Server, a nova política deve ser criada na UO do Skype for Business Server.
 
-2.  Clique com o botão direito do mouse no contêiner apropriado e, em seguida, clique em **criar um GPO neste domínio e vincule-o aqui**.
+2.  Clique com o botão direito do mouse no contêiner apropriado e clique em **Criar um GPO neste domínio e vincule-o aqui.**
 
-3.  Na caixa de diálogo **novo GPO** , digite um nome para o novo objeto de política de grupo na caixa **nome** (por exemplo, o **áudio do Skype for Business Server**) e clique em **OK**.
+3.  Na caixa de diálogo Novo **GPO,** digite um nome  para o novo objeto de Política de Grupo na caixa Nome (por exemplo, Áudio do **Skype for Business Server)** e clique em **OK.**
 
-4.  Clique com o botão direito do mouse na política recém-criada e clique em **Editar**.
+4.  Clique com o botão direito do mouse na política recém-criada e clique em **Editar.**
 
-Aqui, o processo é idêntico independentemente de você estar criando uma política do Active Directory ou uma política local:
+A partir daqui o processo é idêntico, independente de você estar criando uma política do Active Directory ou uma política local:
 
-1.  No editor de gerenciamento de política de grupo ou no editor de política de grupo local, expanda **configuração do computador**, expanda **políticas**, expanda **configurações do Windows**, clique com o botão direito do mouse em **QoS baseada em política**e clique em **criar nova política**.
+1.  No Editor do Gerenciamento de Política de Grupo ou no Editor de Política de Grupo Local, expanda **Configuração do Computador**, **Políticas**, **Configurações do Windows**, clique com o botão direito em **QoS baseada em política** e clique em **Criar nova política**.
 
-2.  Na caixa de diálogo **QoS baseada em política** , na página de abertura, digite um nome para a nova política (por exemplo, o **áudio do Skype for Business Server**) na caixa **nome** . Selecione **especificar valor DSCP** e defina o valor como **46**. Deixe **especificar a taxa de aceleração de saída** desmarcada e clique em **Avançar**.
+2.  Na caixa de diálogo **QoS** baseada em política, na página de abertura, digite um nome para a nova política (por exemplo, Áudio do **Skype for Business Server**) na caixa Nome.  Selecione **Especificar valor de DSCP** e defina o valor como **46**. Deixe a opção **Especificar Taxa de Aceleração de Saída** desmarcada e clique em **Avançar**.
 
-3.  Na página seguinte, verifique se a opção **todos os aplicativos** está selecionada e clique em **Avançar**. Essa configuração instrui a rede a procurar todos os pacotes com uma marcação DSCP de 46, não apenas pacotes criados por um aplicativo específico.
+3.  Na próxima página, certifique-se de que **todos os aplicativos** estão selecionados e clique em **Próximo.** Esta configuração instrui a rede a procurar todos os pacotes com uma marcação de DSCP igual a 46, não somente pacotes criados por um aplicativo específico.
 
-4.  Na terceira página, verifique se **qualquer endereço IP de origem** e **qualquer endereço IP de destino** estão selecionados e clique em **Avançar**. Essas duas configurações garantem que os pacotes serão gerenciados independentemente de qual computador (endereço IP) enviou esses pacotes e qual computador (endereço IP) receberá esses pacotes.
+4.  Na terceira página, certifique-se de que ambos os **endereços IP** de origem e Qualquer endereço **IP** de destino estão selecionados e clique em **Próximo**. Essas duas configurações garantem que os pacotes serão gerenciados independente de qual computador (endereço IP) tenha os enviado e de qual computador (endereço IP) os receberá.
 
-5.  Na página quatro, selecione **TCP e UDP** na lista **Selecione o protocolo que esta política de QoS se aplica à** lista suspensa. TCP (Transmission Control Protocol) e UDP (User Datagram Protocol) são os dois protocolos de rede mais comumente usados pelo Skype for Business Server e seus aplicativos cliente.
+5.  Na página quatro, selecione **TCP e UDP** na lista suspensa **Selecione o protocolo ao qual esta política de QoS se aplica**. TCP (Transmission Control Protocol) e UDP (User Datagram Protocol) são os dois protocolos de rede mais comumente usados pelo Skype for Business Server e seus aplicativos clientes.
 
-6.  Em título **especifique o número da porta de destino**, selecione uma **destas portas de destino ou intervalo**. Na caixa de texto acompanhada, digite o intervalo de porta reservado para transmissões de áudio. Por exemplo, se você reservou portas 49152 pelas portas 57500 para tráfego de áudio, insira o intervalo de porta usando este formato: **49152:57500**. Clique em **Concluir**.
+6.  Sob o cabeçalho **Especifique o número da porta de destino**, selecione **A partir desta porta de destino ou intervalo**. Na caixa de texto que acompanha, digite o intervalo de portas reservado para transmissões de áudio. Por exemplo, se você reservou as portas 49152 a 57500 para tráfego de áudio, insira o intervalo de portas usando este formato: **49152:57500.** Clique em **Concluir**.
 
-Depois de criar a política de QoS para o tráfego de áudio, você deve criar uma segunda política para o tráfego de vídeo. Para criar uma política de vídeo, siga o mesmo procedimento básico que você seguiu ao criar a política de áudio, como fazer essas substituições:
+Depois de criar a política de QoS para tráfego de áudio, você deve criar uma segunda política para o tráfego de vídeo. Para criar uma política para vídeo, siga o mesmo procedimento básico da criação da política de áudio, fazendo as seguintes substituições:
 
-  - Use um nome de política diferente (e exclusivo) (por exemplo, **vídeo do Skype for Business Server**).
+  - Use um nome de política diferente (e exclusivo) (por exemplo, **Vídeo do Skype for Business Server).**
 
-  - Defina o valor de DSCP para **34** em vez de 46. (Observe que você não precisa usar um valor de DSCP de 34. O único requisito é que você use um valor DSCP diferente para vídeo do que o usado para áudio.)
+  - Defina o valor do DSCP como **34** em vez de 46 (observe que você não precisa usar o valor 34 para o DSCP. O único requisito é usar para o vídeo um valor de DSCP diferente do valor usado para o áudio).
 
-  - Use o intervalo de porta configurado anteriormente para o tráfego de vídeo. Por exemplo, se você reservou portas de 57501 a 65535 para vídeo, defina o intervalo de porta para isso: **57501:65535**. Novamente, isso deve ser configurado como o intervalo de porta de destino.
+  - Use o intervalo de portas configurado anteriormente para o tráfego de vídeo. Por exemplo, se você reservou as portas 57501 a 65535 para vídeo, de acordo com o intervalo de portas: **57501:65535**. Novamente, isso deve ser configurado como intervalo de portas de destino.
 
-Se você decidir criar uma política para gerenciar o tráfego de compartilhamento de aplicativos, deverá criar uma terceira política, fazer as seguintes substituições:
+Se você decidir criar uma política para gerenciar o tráfego de compartilhamento de aplicativos, deverá criar uma terceira política, fazendo as seguintes substituições:
 
-  - Use um nome de política diferente (e exclusivo) (por exemplo, **compartilhamento de aplicativos do Skype for Business Server**).
+  - Use um nome de política diferente (e exclusivo) (por exemplo, **compartilhamento de aplicativos do Skype for Business Server).**
 
-  - Defina o valor de DSCP para **24** em vez de 46. (Novamente, você não precisa usar um valor de DSCP de 24. O único requisito é que você use um valor DSCP diferente para compartilhamento de aplicativos do que usou para áudio ou vídeo.)
+  - Defina o valor do DSCP como **24** em vez de 46 (novamente, não é necessário usar o valor 24 para o DSCP. O único requisito é usar para o compartilhamento de aplicativos um valor de DSCP diferente do valor usado para áudio e vídeo).
 
-  - Use o intervalo de porta configurado anteriormente para o tráfego de vídeo. Por exemplo, se você reservou portas de 40803 a 49151 para compartilhamento de aplicativos, defina o intervalo de porta como: **40803:49151**.
+  - Use o intervalo de portas configurado anteriormente para o tráfego de vídeo. Por exemplo, se você reservou as portas 40803 a 49151 para compartilhamento de aplicativos, de definir o intervalo de portas como: **40803:49151**.
 
-As novas políticas que você criou não entrarão em vigor até que a política de grupo seja atualizada em seus servidores de borda. Embora a Política de Grupo seja periodicamente atualizada por si só, você pode forçar a atualização imediata executando o comando a seguir em cada computador em que a Política de Grupo deve ser atualizada:
+As novas políticas criadas não terão efeito até que a Política de Grupo tenha sido atualizada nos servidores de Borda. Embora a Política de Grupo seja atualizada periodicamente sozinha, você pode forçar uma atualização imediata executando o comando a seguir em cada computador em que for necessário atualizar a Política de Grupo:
 
     Gpudate.exe /force
 
-Esse comando pode ser executado no Skype for Business Server ou em qualquer janela de comando que esteja em execução em credenciais de administrador. Para executar uma janela de comando com credenciais de administrador, clique em **Iniciar**, clique com o botão direito do mouse em **Prompt de Comando** e clique em **Executar como administrador**. Observe que talvez seja necessário reiniciar o servidor de borda, mesmo depois de executar o GPUDATE. exe.
+Esse comando pode ser executado de dentro do Skype for Business Server ou de qualquer janela de comando que está sendo executado sob credenciais de administrador. Para executar uma janela de comando sob credenciais de administrador, clique em **Iniciar**, clique com o botão direito em **Prompt de Comando** e clique em **Executar como administrador**. Observe que pode ser necessário reiniciar o servidor de Borda mesmo depois de executar o arquivo Gpudate.exe.
 
-Para ajudar a garantir que os pacotes de rede sejam marcados com o valor DSCP apropriado, você também deve criar uma nova entrada de registro em cada computador completando o seguinte procedimento:
+Para ajudar a garantir que os pacotes de rede sejam marcados com o valore DSCP correto, você também deve criar uma nova entrada de registro em cada computador, concluindo o procedimento a seguir:
 
-1.  Clique em  **Iniciar ** e em  **Executar **.
+1.  Clique em **Iniciar** e em **Executar**.
 
-2.  Na caixa de diálogo **executar** , digite **regedit**e pressione Enter.
+2.  Na caixa **de** diálogo Executar, digite **regedit** e pressione ENTER.
 
-3.  No editor do registro, expanda **\_hKey\_local Machine**, expanda **System**, expanda **CurrentControlSet**, expanda **Services**e, em seguida, expanda **tcpip**.
+3.  No Editor do Registro, **expanda HKEY \_ LOCAL \_ MACHINE**, expand **SYSTEM**, expand **CurrentControlSet**, expand **services**, and then expand **Tcpip**.
 
-4.  Clique com o botão direito do mouse em **tcpip**, aponte para **novo**e, em seguida, clique em **tecla**. Após a criação da nova chave do registro, digite **QoS**e pressione ENTER para renomear a chave.
+4.  Clique com o botão direito em **Tcpip**, aponte para **Novo** e clique em **Chave**. Depois que a nova chave do Registro for criada, digite **QoS** e pressione ENTER para renomear a chave.
 
-5.  Clique com o botão direito do mouse em **QoS**, aponte para **novo**e clique em **valor da cadeia de caracteres**. Depois que o novo valor do registro for criado, digite não **use NLA**e pressione ENTER para renomear o valor.
+5.  Clique com o botão direito em **QoS**, aponte para **Novo** e clique em **Valor da Sequência**. Depois que o novo valor do Registro for criado, digite **Não usar NLA** e pressione ENTER para renomear o valor.
 
-6.  Clique duas vezes em **não usar NLA**. Na caixa de diálogo **Editar Cadeia de caracteres** , digite **1** na caixa **dados do valor** e clique em **OK**.
+6.  Dê um duplo clique em **Não usar NLA**. Na caixa **de diálogo Editar Cadeia** de Caracteres, digite **1** na caixa **de** dados Valor e clique em **OK.**
 
-7.  Feche o editor do registro e reinicie o computador.
+7.  Feche o Editor do Registro e reinicie o computador.

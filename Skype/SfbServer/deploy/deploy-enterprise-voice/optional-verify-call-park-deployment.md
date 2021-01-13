@@ -1,8 +1,8 @@
 ---
-title: Adicionais Verificar a implantação do estacionamento de chamadas no Skype for Business
+title: (Opcional) Verificar a implantação do Estacionamento de Chamada no Skype for Business
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -12,24 +12,24 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: fcfe0962-1a9c-4cbd-847c-fed40e3b1480
-description: Como verificar sua implantação do parque de chamadas no Skype for Business Server Enterprise Voice.
-ms.openlocfilehash: 7dfaf916e94db18c3b53fc7e9c9e3b136fa445b8
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+description: Verificando a implantação do Estacionamento de Chamada no Skype for Business Server Enterprise Voice.
+ms.openlocfilehash: a7edb9f47610bf7cdae068ca789670ab4048bb9c
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41767334"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49830891"
 ---
-# <a name="optional-verify-call-park-deployment-in-skype-for-business"></a>Adicionais Verificar a implantação do estacionamento de chamadas no Skype for Business
+# <a name="optional-verify-call-park-deployment-in-skype-for-business"></a>(Opcional) Verificar a implantação do Estacionamento de Chamada no Skype for Business
  
-Como verificar sua implantação do parque de chamadas no Skype for Business Server Enterprise Voice. 
+Verificando a implantação do Estacionamento de Chamada no Skype for Business Server Enterprise Voice. 
   
-Depois de instalar e configurar o parque de chamadas, você precisa verificar a configuração para garantir que o estacionamento e a recuperação de chamadas funcionarão como esperado. No mínimo, verifique o seguinte:
+Depois de instalar e configurar o Estacionamento de Chamadas, você precisa verificar a configuração para garantir que o estacionamento e a recuperação de chamadas funcionem conforme o esperado. No mínimo, verifique o seguinte:
   
-- Ligue para um usuário que tenha o estacionamento de chamadas habilitado e tenha o usuário que estaciona a chamada.
+- Ligue para um usuário que tenha o Estacionamento de Chamada habilitado e que tenha o usuário estando a chamada.
     
     > [!NOTE]
-    > Se você ativou o estacionamento de chamadas na política de voz antes de realizar esse teste, o usuário que está estacionando a chamada precisa sair do Skype for Business e, em seguida, entrar novamente para poder ver a opção parque de chamadas na lista transferir chamadas. 
+    > Se você habilitar o Estacionamento de Chamada na política de voz antes de executar esse teste, o usuário que está estacionando a chamada precisará sair do Skype for Business e entrar novamente para poder ver a opção Estacionamento de Chamada na lista de chamadas de transferência. 
   
 - Disque o número de órbita para recuperar a chamada.
     

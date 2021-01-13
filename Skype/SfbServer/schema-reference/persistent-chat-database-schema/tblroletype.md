@@ -1,8 +1,8 @@
 ---
 title: tblRoleType
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -12,25 +12,25 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 1eac3a54-656a-40ac-b771-edfc64d6e34b
-description: tblRoleType é uma tabela de pesquisa estática com tipos de função e seus conjuntos de permissões associados.
-ms.openlocfilehash: 888628c1aca01e90694ed946569a81b1b7394b95
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: tblRoleType é uma tabela de pesquisa estática com tipos de funções e seus conjuntos de permissões associados.
+ms.openlocfilehash: c440463d822b908a89c84eb9c85b70e9daf442be
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41812899"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49831521"
 ---
 # <a name="tblroletype"></a>tblRoleType
  
-tblRoleType é uma tabela de pesquisa estática com tipos de função e seus conjuntos de permissões associados.
+tblRoleType é uma tabela de pesquisa estática com tipos de funções e seus conjuntos de permissões associados.
   
-**Colunas**
+**Columns**
 
 |**Coluna**|**Tipo**|**Descrição**|
 |:-----|:-----|:-----|
-|rtypeID  <br/> |int, não nulo  <br/> |ID do tipo de função.  <br/> |
-|rtypeDesc  <br/> |nvarchar (256), NOT NULL  <br/> | Descrição do tipo de função. Há quatro funções disponíveis: <br/>  Membro: membro da sala de chat <br/>  Manager: gerente da sala de chat <br/>  Encaixado: apresentador para uma sala de chat do Auditorium <br/>  Creator: pode criar salas de chat <br/> |
-|rtypeAllowedPermSet  <br/> |bigint, e não nulo  <br/> | Conjunto de permissões para a função. Os bits usados são: <br/>  2: verdadeiro se a função puder gerenciar nós. <br/>  4: verdadeiro se a função puder criar nós filhos. <br/>  7: verdadeiro se a função puder ingressar em uma sala de chat (ou salas de chat dos filhos de uma categoria). <br/>  8: verdadeiro se a função puder conversar em uma sala de chat (ou nas salas de chat dos filhos de uma categoria). <br/>  10: verdadeiro se a função puder ler o histórico de chats mesmo quando não estiver associado a uma sala de chat. <br/>  11: verdadeiro se a função puder ver a sala de chat. (Isso é ainda mais refinado por fatores como escopo e visibilidade.) <br/>  12: verdadeiro se a função puder conversar em uma sala de chat do Auditorium. <br/>  13: verdadeiro se a função puder ignorar as regras de visibilidade ao exibir nós. <br/> |
+|rtypeID  <br/> |int, not null  <br/> |ID do tipo de função.  <br/> |
+|rtypeDesc  <br/> |nvarchar (256), not null  <br/> | Descrição do tipo de função. Existem quatro funções disponíveis: <br/>  Membro: Membro da sala de chat <br/>  Gerente: Gerente da sala de chat <br/>  Com voz: Apresentador para uma sala de chat de auditório <br/>  Criador: Pode criar salas de bate-papo <br/> |
+|rtypeAllowedPermSet  <br/> |bigint, not null  <br/> | Permissão configurada para a função. Os bits usados são: <br/>  2: True se a função puder gerenciar nós. <br/>  4: True se a função puder criar nós filhos. <br/>  7: True se a função puder entrar em uma sala de chat (ou nas salas filhos de uma categoria). <br/>  8: True se a função puder conversar em uma sala de chat (ou nas salas filhos de uma categoria). <br/>  10: True se a função puder ler o histórico do chat mesmo quando não tiver entrado na sala de chat. <br/>  11: True se a função puder ver a sala de chat (refinado por fatores como escopo e visibilidade). <br/>  12: True se a função puder conversar em uma sala de chat de auditório. <br/>  13: True se a função puder ignorar as regras de visibilidade ao exibir nós. <br/> |
    
 **Chave**
 

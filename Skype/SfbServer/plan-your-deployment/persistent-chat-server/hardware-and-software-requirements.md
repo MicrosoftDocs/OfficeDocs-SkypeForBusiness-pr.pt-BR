@@ -1,8 +1,8 @@
 ---
-title: Requisitos de hardware e software para o servidor de chat persistente no Skype for Business Server 2015
+title: Requisitos de hardware e software para o Servidor de Chat Persistente no Skype for Business Server 2015
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 7/19/2018
 audience: ITPro
@@ -12,79 +12,79 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 692b7d99-1bc9-4c99-a050-2bc2be8688b2
-description: 'Resumo: Leia este tópico para saber mais sobre os requisitos de hardware e software para o servidor de chat persistente no Skype for Business Server 2015.'
-ms.openlocfilehash: 39204b675feff78fef56ee02e1c7e381eb36f65f
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+description: 'Resumo: Leia este tópico para saber mais sobre os requisitos de hardware e software para o Servidor de Chat Persistente no Skype for Business Server 2015.'
+ms.openlocfilehash: 32ba0d94679e6f326fa1821cbe3401d031854037
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213227"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49834531"
 ---
-# <a name="hardware-and-software-requirements-for-persistent-chat-server-in-skype-for-business-server-2015"></a>Requisitos de hardware e software para o servidor de chat persistente no Skype for Business Server 2015
+# <a name="hardware-and-software-requirements-for-persistent-chat-server-in-skype-for-business-server-2015"></a>Requisitos de hardware e software para o Servidor de Chat Persistente no Skype for Business Server 2015
  
-**Resumo:** Leia este tópico para saber mais sobre os requisitos de hardware e software para o servidor de chat persistente no Skype for Business Server 2015.
+**Resumo:** Leia este tópico para saber mais sobre os requisitos de hardware e software para o Servidor de Chat Persistente no Skype for Business Server 2015.
   
-O servidor de chat persistente pode ser instalado com o Skype for Business Server 2015 Enterprise Edition ou Standard Edition. Os requisitos dependem de qual edição do Skype for Business Server 2015 você instalou e dos requisitos de desempenho de sua empresa. Enterprise Edition pode suportar até 80.000 usuários simultâneos; A Standard Edition pode suportar até 20.000 usuários simultâneos. O chat persistente consiste em um componente front-end, bem como um componente de banco de dados SQL de back-end.
+O Servidor de Chat Persistente pode ser instalado com o Skype for Business Server 2015 Enterprise Edition ou Standard Edition. Os requisitos dependem de qual edição do Skype for Business Server 2015 você instalou e dos requisitos de desempenho da sua empresa. O Enterprise Edition pode dar suporte a até 80.000 usuários simultâneos; O Standard Edition pode dar suporte a até 20.000 usuários simultâneos. O Chat Persistente consiste em um componente front-end, bem como um componente de banco de dados SQL back-end.
   
-Antes de implantar o servidor de chat persistente, você deve garantir que os seguintes requisitos de hardware e software sejam atendidos:
+Antes de implantar o Servidor de Chat Persistente, você deve garantir que os seguintes requisitos de hardware e software sejam atendidos:
   
-- Hardware que atende aos requisitos mínimos para oferecer suporte ao Skype for Business Server 2015, servidor de chat persistente, servidores de banco de dados e servidores de arquivos. Para obter mais informações, consulte [Server Requirements for Skype for Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md).
+- Hardware que atenda aos requisitos mínimos para dar suporte ao Skype for Business Server 2015, Servidor de Chat Persistente, servidores de banco de dados e servidores de arquivos. Para obter mais informações, [consulte Requisitos de servidor para o Skype for Business Server 2015.](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md)
     
-- Sistema operacional e software de banco de dados suportados.
+- Software de sistema operacional e banco de dados com suporte.
     
-    Para obter detalhes sobre os sistemas operacionais e o software de banco de dados com suporte e os requisitos do Windows Update, consulte [Server Requirements for Skype for Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md).
+    Para obter detalhes sobre sistemas operacionais suportados e software de banco de dados e requisitos de atualização do Windows, consulte Requisitos de servidor para [o Skype for Business Server 2015.](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md)
     
-- Servidor front-end do Skype for Business Server 2015. O servidor front-end é a base para o roteamento do protocolo SIP, que faz a comunicação entre os computadores que executam o servidor de chat persistente e a funcionalidade de chat persistente possível. 
+- Servidor front-end do Skype for Business Server 2015. O Servidor front-end é a base para o roteamento SIP (Session Initiation Protocol), que possibilita a comunicação entre computadores que executam o Servidor de Chat Persistente e a funcionalidade de Chat Persistente. 
     
-- Software de enfileiramento de mensagens. Usado pelo servidor de chat persistente e pelo serviço de conformidade de chat persistente, se implantado.
+- Software de en fila de mensagens. Usado pelo Servidor de Chat Persistente e serviço de Conformidade de Chat Persistente, se implantado.
     
-As seções a seguir descrevem os requisitos específicos para o servidor de chat persistente e o banco de dados que armazena os dados de chat persistente.
+As seções a seguir descrevem os requisitos específicos para o Servidor de Chat Persistente e o banco de dados que armazena os dados de Chat Persistente.
 
 > [!NOTE] 
-> O chat persistente está disponível no Skype for Business Server 2015, mas não tem mais suporte no Skype for Business Server 2019. A mesma funcionalidade está disponível no Teams. Para obter mais informações, consulte [introdução à atualização do Microsoft Teams](/microsoftteams/upgrade-start-here). Se você precisar usar o chat persistente, suas escolhas serão migrar usuários que exijam essa funcionalidade para o Microsoft Teams ou para continuar usando o Skype for Business Server 2015. 
+> O chat persistente está disponível no Skype for Business Server 2015, mas não é mais suportado no Skype for Business Server 2019. A mesma funcionalidade está disponível no Teams. Para saber mais, confira [Como começar a atualizar o Microsoft Teams.](/microsoftteams/upgrade-start-here) Se você precisar usar o chat persistente, suas opções são migrar os usuários que exigem essa funcionalidade para o Teams ou continuar usando o Skype for Business Server 2015. 
   
-## <a name="front-end-server-requirements"></a>Requisitos do servidor front-end
+## <a name="front-end-server-requirements"></a>Requisitos do Servidor front-end
 
-Os requisitos do servidor de front-end dependem se você está implantando o servidor de chat persistente com o Skype for Business Server 2015 Enterprise Edition ou Standard Edition.
+Os requisitos do Servidor front-end dependem se você está implantando o Servidor de Chat Persistente com o Skype for Business Server 2015 Enterprise Edition ou Standard Edition.
   
-- Se você estiver implantando o servidor de chat persistente com o Skype for Business Server 2015 Enterprise Edition, poderá implantar o servidor front-end do servidor de chat persistente em um ou mais computadores autônomos no pool Enterprise Edition. Não é possível colocar os servidores front-end de chat persistente no servidor front-end do Skype for Business Server 2015. 
+- Se você estiver implantando o Servidor de Chat Persistente com o Skype for Business Server 2015 Enterprise Edition, poderá implantar o Servidor front-end do Servidor de Chat Persistente em um ou mais computadores autônomos no pool Enterprise Edition. Você não pode sobressalto os Servidores front-end de Chat Persistente no Servidor front-end do Skype for Business Server 2015. 
     
-    Um servidor front-end único de servidor de chat persistente pode oferecer suporte A 20.000 usuários ativos. Você pode ter um pool de servidores de chat persistente com até 4 front-ends ativos, suportando um total de 80.000 usuários simultâneos. 
+    Um único Servidor Front-End de Servidor de Chat Persistente pode suportar 20.000 usuários ativos. Você pode ter um pool de Servidor de Chat Persistente com até 4 front-ends ativos, suportando um total de 80.000 usuários simultâneos. 
     
-- Se você estiver implantando o servidor de chat persistente com o Skype for Business Server 2015 Standard Edition, poderá colocar o chat persistente com o servidor front-end. Esta implantação de servidor único pode suportar até 20.000 usuários. 
+- Se você estiver implantando o Servidor de Chat Persistente com o Skype for Business Server 2015 Standard Edition, poderá colocar o Chat Persistente com o Servidor Front-End. Essa implantação de servidor único pode dar suporte a até 20.000 usuários. 
     
-## <a name="persistent-chat-server-database-requirements"></a>Requisitos de banco de dados do servidor de chat persistente
+## <a name="persistent-chat-server-database-requirements"></a>Requisitos de banco de dados do Servidor de Chat Persistente
 
-O servidor de chat persistente requer o software de banco de dados do SQL Server para armazenar o histórico de salas de chat e o conteúdo, dados de configuração, dados de provisionamento do usuário e outros metadados relevantes. Opcionalmente, ele usa o banco de dados de conformidade de chat persistente para armazenar dados de conformidade. Os bancos de dados de chat persistente podem ser colocados no mesmo SQL Server, ou até na mesma instância SQL, como os bancos de dados de back-end. 
+O Servidor de Chat Persistente requer o software de banco de dados do SQL Server para armazenar o histórico e o conteúdo da sala de chat, os dados de configuração, os dados de provisionamento do usuário e outros metadados relevantes. Opcionalmente, ele usa o banco de dados de Conformidade de Chat Persistente para armazenar dados de conformidade. Os bancos de dados de Chat Persistente podem ser alocados no mesmo SQL Server ou até mesmo na mesma instância do SQL, como os bancos de dados back-end. 
   
-- Se você estiver instalando o servidor de chat persistente com o Skype for Business Server 2015 Enterprise Edition, para garantir o desempenho ideal, é recomendável instalar o repositório de arquivos de chat persistente.
+- Se você estiver instalando o Servidor de Chat Persistente com o Skype for Business Server 2015 Enterprise Edition, para garantir o melhor desempenho, é recomendável instalar o armazenamento de arquivos de Chat Persistente.
     
-- Se você estiver instalando o servidor de chat persistente com o Skype for Business Server 2015 Standard Edition, poderá implantar o servidor back-end do repositório de chat persistente na instância local do SQL Server Express.
+- Se você estiver instalando o Servidor de Chat Persistente com o Skype for Business Server 2015 Standard Edition, poderá implantar o Servidor #A0 do Armazenamento de Chat Persistente na instância local do SQL Server Express.
     
-- O banco de dados de chat persistente (MGC) e o banco de dados de conformidade (mgccomp) podem estar localizados na mesma instância do SQL Server ou em servidores SQL diferentes.
+- O banco de dados de Chat Persistente (mgc) e o banco de dados de conformidade (mgccomp) podem estar localizados na mesma instância do SQL Server ou em diferentes SQL Servers.
     
-Para preparar uma plataforma de servidor de banco de dados, certifique-se de que cada computador atende aos requisitos de hardware e instale o software de pré-requisito. A plataforma de servidor para os servidores de banco de dados de chat persistente requer o mesmo hardware que o servidor de banco de dados back-end do Skype for Business Server 2015. Para obter detalhes, consulte [Server Requirements for Skype for Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md).
+Para preparar uma plataforma de servidor de banco de dados, certifique-se de que cada computador atenda aos requisitos de hardware e instale o software de pré-requisito. A plataforma de servidor para os servidores de banco de dados de Chat Persistente exige o mesmo hardware que o servidor de banco de dados back-end do Skype for Business Server 2015. Para obter detalhes, [consulte Server requirements for Skype for Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md).
   
 No servidor de banco de dados, certifique-se de que um dos seguintes aplicativos de software está instalado:
 
-- Microsoft SQL Server 2017 com o Service Pack mais recente.
+- Microsoft SQL Server 2017 com o service pack mais recente.
 
-- Microsoft SQL Server 2016 com Service Pack 1 e você deve executar a atualização cumulativa 7 ou posterior do Skype for Business Server. Recomendamos a execução do SQL Server 2016 com o Service Pack mais recente. Para obter detalhes sobre como instalar o Microsoft SQL Server 2016, consulte [install SQL server 2016](https://docs.microsoft.com/sql/database-engine/install-windows/install-sql-server?view=sql-server-2016).
+- Microsoft SQL Server 2016 com Service Pack 1 e você deve executar com a Atualização Cumulativa 7 ou posterior do Skype for Business Server. Recomendamos executar o SQL Server 2016 com o service pack mais recente. Para obter detalhes sobre como instalar o Microsoft SQL Server 2016, consulte [Instalar o SQL Server 2016.](https://docs.microsoft.com/sql/database-engine/install-windows/install-sql-server?view=sql-server-2016)
 
-- Microsoft SQL Server 2014, e você deve executar a atualização cumulativa 6 ou posterior do Skype for Business Server. Recomendamos a execução do SQL Server 2014 com o Service Pack mais recente. Para obter detalhes sobre como instalar o Microsoft SQL Server 2014, consulte [install SQL server 2014](https://docs.microsoft.com/sql/database-engine/install-windows/install-sql-server?view=sql-server-2014).
+- Microsoft SQL Server 2014, e você deve executar com a Atualização Cumulativa 6 ou posterior do Skype for Business Server. Recomendamos executar o SQL Server 2014 com o service pack mais recente. Para obter detalhes sobre como instalar o Microsoft SQL Server 2014, consulte [Instalar o SQL Server 2014.](https://docs.microsoft.com/sql/database-engine/install-windows/install-sql-server?view=sql-server-2014)
 
-- Microsoft SQL Server 2012 (64-bit Edition) e recomendamos a execução com o Service Pack mais recente. Para obter detalhes sobre como instalar o Microsoft SQL Server 2012, consulte [install SQL server 2012](https://go.microsoft.com/fwlink/p/?LinkID=248559).
+- Microsoft SQL Server 2012 (edição de 64 bits), e recomendamos a execução com o service pack mais recente. Para obter detalhes sobre como instalar o Microsoft SQL Server 2012, consulte [Instalar o SQL Server 2012.](https://go.microsoft.com/fwlink/p/?LinkID=248559)
 
-## <a name="persistent-chat-server-certificate-requirements"></a>Requisitos de certificado do servidor de chat persistente
+## <a name="persistent-chat-server-certificate-requirements"></a>Requisitos de certificado do Servidor de Chat Persistente
 
-Para obter detalhes sobre a aquisição de certificados, criação do banco de dados do SQL Server e criação de repositórios de arquivos, consulte [Deploy Skype for Business server 2015](../../deploy/deploy.md). 
+Para obter detalhes sobre como adquirir certificados, criar o banco de dados do SQL Server e criar armazenamentos de arquivos, consulte [Implantar o Skype for Business Server 2015.](../../deploy/deploy.md) 
   
 ## <a name="for-more-information"></a>Para obter mais informações
 
-Para obter mais informações sobre requisitos de hardware e software, consulte os seguintes tópicos:
+Para obter mais informações sobre os requisitos de hardware e software, consulte os seguintes tópicos:
   
 - [Requisitos de servidor para o Skype for Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md)
     
-- [Requisitos ambientais para o Skype for Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md)
+- [Requisitos ambientais do Skype for Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md)
     
 

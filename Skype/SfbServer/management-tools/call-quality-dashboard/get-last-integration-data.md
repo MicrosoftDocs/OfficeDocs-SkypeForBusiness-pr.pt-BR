@@ -1,8 +1,8 @@
 ---
-title: Obter Últimos Dados de Integração
+title: Obter os Últimos Dados de Integração
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,44 +12,44 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: e7967dd9-0d6a-4a80-8b59-b8fc2e5615f8
-description: 'Resumo: Saiba mais sobre a operação obter a última data de integração, que faz parte da API de dados para o painel de qualidade da chamada. O painel de qualidade de chamada é uma ferramenta para o Skype for Business Server.'
-ms.openlocfilehash: a4b455a543dd77f0edce223f43d64fe5c03e4bcb
-ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
+description: 'Resumo: saiba mais sobre a operação Obter Últimos Dados de Integração, que faz parte da API de Dados para o Painel de Qualidade da Chamada. O Painel de Qualidade da Chamada é uma ferramenta do Skype for Business Server.'
+ms.openlocfilehash: c40041e41e04d2bdc62a9eb9fa1eb699697a5b3d
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "41888790"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49832511"
 ---
-# <a name="get-last-integration-data"></a>Obter Últimos Dados de Integração
+# <a name="get-last-integration-data"></a>Obter os Últimos Dados de Integração
  
-**Resumo:** Saiba mais sobre a operação obter a última data de integração, que faz parte da API de dados para o painel de qualidade da chamada. O painel de qualidade de chamada é uma ferramenta para o Skype for Business Server.
+**Resumo:** Saiba mais sobre a operação Obter Últimos Dados de Integração, que faz parte da API de Dados para Painel de Qualidade de Chamada. O Painel de Qualidade da Chamada é uma ferramenta do Skype for Business Server.
   
-A operação obter a última integração de dados faz parte da API de dados para o painel de qualidade da chamada.
+A operação Obter Últimos Dados de Integração faz parte da API de Dados do Painel de Qualidade da Chamada.
   
-## <a name="get-last-integration-data"></a>Obter Últimos Dados de Integração
+## <a name="get-last-integration-data"></a>Obter os Últimos Dados de Integração
 
-Obter a última operação de dados de integração retorna a lista de cinco recentes sucessos/falhas de arquivamento e processamento de cubo.
+A operação Obter Dados da Última Integração retorna a lista dos últimos 5 êxitos/falhas de arquivamento e processamento de cubos.
   
-Esse recurso está desabilitado por padrão e precisa ser habilitado Configurando a API de dados.
+Esse recurso está desabilitado por padrão e precisa ser habilitado configurando a API de Dados.
   
 
-|**Forma**|**URI de solicitação**|**Versão HTTP**|
+|**Method**|**URI de solicitação**|**Versão HTTP**|
 |:-----|:-----|:-----|
-|Obter  <br/> |https://\<do\>portal de/QoEDataService/IntegrationLog/status  <br/> |HTTP/1.1  <br/> |
+|OBTER  <br/> |https:// \<portal\> /QoEDataService/IntegrationLog/Status  <br/> |HTTP/1.1  <br/> |
    
- **Parâmetros de URI** -nenhum.
+ **Parâmetros de URI** - Nenhum.
   
- **Solicitar cabeçalhos** -sem cabeçalhos adicionais.
+ **Solicitação de headers** - nenhum outro.
   
- **Corpo da solicitação** -nenhum.
+ **Corpo da Solicitação** - Nenhum.
   
- **Resposta** -a resposta inclui um código de status HTTP e um conjunto de cabeçalhos de resposta.
+ **Resposta** - A resposta inclui um código de status HTTP e um conjunto de cabeçalhos de resposta.
   
- **Código de status** -uma operação bem-sucedida retorna o código de status 200 (OK).
+ **Código de Status** - Uma operação bem-sucedida retorna o código de status 200 (OK).
   
- **Cabeçalhos de resposta** -sem cabeçalhos adicionais.
+ **Response Headers** - Sem outros headers.
   
- **Corpo da resposta** -abaixo está um exemplo de status do log.
+ **Corpo de Resposta** - Abaixo está um exemplo de status do log.
   
 ```json
 {

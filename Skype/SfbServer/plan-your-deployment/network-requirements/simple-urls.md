@@ -1,8 +1,8 @@
 ---
 title: Requisitos de DNS para URLs simples no Skype for Business Server
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,95 +12,95 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 3a3c9b22-892f-45a7-b05c-539d358a1a86
 description: 'Resumo: revise as considerações de URL simples neste tópico antes de implementar registros DNS para o Skype for Business Server.'
-ms.openlocfilehash: 3296e3678d1d38f021b792a2362f61de66796d0f
-ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
+ms.openlocfilehash: d1c4213e1fe28c6f42cd4fa14f48bc8ce9b7bdf1
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "41888470"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49834581"
 ---
 # <a name="dns-requirements-for-simple-urls-in-skype-for-business-server"></a>Requisitos de DNS para URLs simples no Skype for Business Server
 
-**Resumo:** Examine as considerações de URL simples neste tópico antes de implementar registros de DNS para o Skype for Business Server.
+**Resumo:** Revise as considerações de URL simples neste tópico antes de implementar registros DNS para o Skype for Business Server.
 
-URLs simples facilitam a União de reuniões para seus usuários e facilitam a obtenção de ferramentas administrativas do Skype for Business Server. URLs simples usam seu próprio domínio, que não deve corresponder a qualquer um dos domínios SIP que você definir. 
+UrLs simples facilitam o acesso a reuniões para seus usuários e facilitam o acesso às ferramentas administrativas do Skype for Business Server para os administradores. As URLs simples usam seu próprio domínio, que não deve corresponder a nenhum dos domínios SIP definidos. 
 
-O Skype for Business Server dá suporte a estas três URLs simples: atender, discagem e administrador. Você é obrigado a configurar URLs simples para atender e discagem, e a URL simples de administrador é opcional. Os registros de sistema de nome de domínio (DNS) que você precisa para dar suporte a URLs simples dependem de como você definiu essas URLs simples e se deseja dar suporte à recuperação de desastres para URLs simples. 
+O Skype for Business Server dá suporte às três URLs simples a seguir: Meet, Dial-In e Admin. Você precisa configurar URLs simples para Reunir e Discar, e a URL simples Admin é opcional. Os registros de DNS (Sistema de Nomes de Domínio) necessários para dar suporte às URLs simples dependem de como elas foram definidas e de você deseja dar suporte à recuperação de desastre para URLs simples. 
 
 ## <a name="simple-url-scope"></a>Escopo de URL simples
 
-Você pode configurar suas URLs simples para ter escopo global ou pode especificar diferentes URLs simples para cada site central em sua organização. Se tanto uma URL simples global quanto uma URL simples do site forem especificadas, a URL simples do site terá precedência. 
+Você pode configurar seus URLs simples para que tenham um escopo global ou você pode especificar URLs simples diferentes para cada site central na sua organização. Se tanto o URL simples global como o URL simples de site forem especificados, a preferência é do URL simples de site. 
 
-Na maioria dos casos, recomendamos que você defina URLs simples somente no nível global, de modo que a URL simples de um usuário não seja alterada se passar de um site para outro. A exceção seria organizações que precisam usar números de telefone diferentes para usuários de discagem em sites diferentes. Observe que, se você definir uma URL simples (como a URL simples de discagem) em um site para ser uma URL simples no nível do site, também deverá definir que outras URLs simples nesse site também sejam no nível do site.
+Na maioria dos casos, recomendamos que você defina URLs simples apenas no nível global, para que a URL simples Reunir de um usuário não mude se ele mudar de um site para outro. A exceção seria para organizações que precisam usar números de telefone diferentes para os usuários de discagem em locais diferentes. Observe que se você definir um URL simples (como o URL simples Discar) em um site para que ele seja um site de nível de URL simples, você deve definir também outros URLs simples para que eles também estejam no nível de site de URL simples.
 
-Você pode definir URLs simples globais no construtor de topologias. Para definir uma URL simples no nível do site, use o cmdlet Set-CsSimpleURLConfiguration.
+Você pode definir URLs globais simples no Construtor de Topologias. Para definir uma URL simples no nível do site, use o Set-CsSimpleURLConfiguration cmdlet.
 
-Definir uma URL simples também exigirá a configuração de um registro A e/ou AAAA na configuração do DNS.
+Definir uma URL simples também exigirá a definição de um registro A e/ou AAAA em sua configuração dns.
 
-## <a name="simple-url-naming-and-validation-rules"></a>Regras de nomenclatura e validação de URL simples
+## <a name="simple-url-naming-and-validation-rules"></a>Regras simples de nomeação e validação de URL
 <a name="BK_Valid"> </a>
 
-O construtor de topologias e os cmdlets do Shell de gerenciamento do Skype for Business Server aplicam várias regras de validação para suas URLs simples. Você precisa definir URLs simples para atender e fazer chamadas, mas a configuração de um para administrador é opcional. Cada domínio SIP deve ter uma URL simples de reunião separada, mas você precisa apenas de uma URL simples de discagem e uma URL simples de administrador para toda a sua organização.
+O Construtor de Topologias e os cmdlets do Shell de Gerenciamento do Skype for Business Server impõem várias regras de validação para suas URLs simples. Será solicitado que você defina URLs simples para Reunir e Discar, mas para Admin será opcional. Cada domínio SIP deve ter um URL Reunir simples, mas você precisa somente de um URL Discar simples e um URL Admin simples para toda sua organização.
 
-Cada URL simples em sua organização deve ter um nome exclusivo e não pode ser um prefixo de outra URL simples (por exemplo, não foi possível definir SfB2015.contoso.com/Meet como o seu URL simples e o SfB2015.contoso.com/Meet/Dialin como sua URL simples de discagem). Nomes de URL simples não podem conter o FQDN de qualquer um dos seus pools ou de qualquer informação de https://FQDN:88/meet porta (por exemplo, não é permitido). Todas as URLs simples devem começar com o prefixo https://. 
+Cada URL simples em sua organização deve ter um nome exclusivo e não pode ser um prefixo de outra URL simples (por exemplo, você não pode definir o SfB2015.contoso.com/Meet como a URL simples Reunir e SfB2015.contoso.com/Meet/Dialin como sua URL de Discagem simples). Nomes de URL simples não podem conter o FQDN de nenhum de seus pools ou qualquer informação de porta (por exemplo, https://FQDN:88/meet não é permitido). Todas as URLs simples devem começar com o prefixo https://. 
 
-As URLs simples podem conter apenas caracteres alfanuméricos (ou seja, a-z, A-Z, 0-9 e ponto final (.). Se você usar outros caracteres, as URLs simples podem não funcionar como esperado.
+URLs simples podem conter somente caracteres alfanuméricos (ou seja, a-z, A-Z, 0-9 e o ponto (.). Se você utilizar outros caracteres, o URL simples pode não funcionar como esperado.
 
-## <a name="changing-simple-urls-after-deployment"></a>Alterar URLs simples após a implantação
+## <a name="changing-simple-urls-after-deployment"></a>Alterando URLs simples após a implantação
 <a name="BK_Valid"> </a>
 
-Se você alterar uma URL simples após a implantação inicial, deve estar ciente de como a alteração afeta seus registros DNS e certificados para URLs simples. Se a base de uma URL simples for alterada, você deverá alterar também os registros DNS e os certificados. Por exemplo, mudar de https://SfB2015.contoso.com/Meet para https://meet.contoso.com altera a URL base de SfB2015.contoso.com para Meet.contoso.com, portanto, você precisaria alterar os registros DNS e os certificados para se referirem ao Meet.contoso.com. Se você alterou a URL simples https://SfB2015.contoso.com/Meet de https://SfB2015.contoso.com/Meetingspara, a URL base de SfB2015.contoso.com permanece a mesma, portanto, não é necessária nenhuma alteração de DNS ou certificado.
+Se você alterar uma URL simples após a implantação inicial, esteja ciente de quais alterações impactarão nos seus registros DNS e certificados para as URLs simples. Se a alteração impactar a base de uma URL simples, você precisará alterar os registros de DNS e certificados também. Por exemplo, mudar de para altera a URL base de SfB2015.contoso.com para meet.contoso.com, portanto, você precisaria alterar os registros DNS e certificados para se referir https://SfB2015.contoso.com/Meet https://meet.contoso.com meet.contoso.com. Se você alterou a URL simples de para , a URL base do SfB2015.contoso.com permanece a mesma, portanto, nenhuma alteração de DNS ou certificado https://SfB2015.contoso.com/Meet https://SfB2015.contoso.com/Meetings é necessária.
 
-No entanto, sempre que você alterar um nome de URL simples, você deve executar **Enable-CsComputer** em cada director e servidor front-end para registrar a alteração.
+Sempre que alterar um nome de URL simples, no entanto, você deve executar **Enable-CsComputer** em cada Diretor e Servidor front-end para registrar a alteração.
 
-## <a name="naming-examples-for-simple-urls"></a>Exemplos de nomenclatura para URLs simples
+## <a name="naming-examples-for-simple-urls"></a>Exemplos de nomen por URLs simples
 <a name="BK_Valid"> </a>
 
-Há três opções recomendadas para nomear suas URLs simples. Qual opção você escolhe tem implicações para a maneira como configurar seus registros DNS A e certificados que dão suporte a URLs simples. Em cada opção, você deve configurar uma URL simples de reunião para cada domínio SIP em sua organização. 
+Existem três opções recomendadas para nomear seus URLs simples. A opção escolhida implica em como configurar seus registros A de DNS e os certificados que suportam URLs simples. Em cada opção, você deve configurar um URL de Reunião simples para cada domínio SIP na sua organização. 
 
-Você sempre precisa de apenas uma URL simples em toda a sua organização para discagem e outra para o administrador, independentemente de quantos domínios SIP você tem.
+Você sempre precisa de um URL simples para toda sua organização para Discar e um para Administração, não importa quantos domínios SIP você tenha.
 
-Na opção 1, crie um novo nome de domínio SIP para cada URL simples.
+Na Opção 1, você cria um novo nome de domínio SIP para cada URL simples.
 
-Se você usar essa opção, precisará de um registro DNS A separado para cada URL simples, e cada uma delas atenderá à URL simples deve ser nomeada em seus certificados.
+Se usar esta opção, você precisará de um registro A de DNS separado para cada URL simples e cada URL Reunir simples deve ser nomeado em seus certificados.
 
-**Opção de nomeação de URL simples 1**
+**Opção 1 de nome de URL simples**
 
 
 | **URL simples** <br/> | **Exemplo** <br/>                                                                                                    |
 |:---------------------|:---------------------------------------------------------------------------------------------------------------------|
-| Atendimento  <br/>          | https://meet.contoso.com, https://meet.fabrikam.come assim por diante (um para cada domínio SIP em sua organização)  <br/> |
+| Meet  <br/>          | https://meet.contoso.com, https://meet.fabrikam.com e assim por diante (um para cada domínio SIP em sua organização)  <br/> |
 | Discagem  <br/>       | <https://dialin.contoso.com>  <br/>                                                                                  |
-| Locatário  <br/>         | <https://admin.contoso.com>  <br/>                                                                                   |
+| Administrador  <br/>         | <https://admin.contoso.com>  <br/>                                                                                   |
 
-Com a opção 2, as URLs simples são baseadas no nome de domínio SfB2015.contoso.com. Portanto, você precisa apenas de um registro de DNS que habilite todos os três tipos de URLs simples. Esse registro DNS faz referência a SfB2015.contoso.com. Além disso, você ainda precisa de registros DNS A separados para outros domínios SIP em sua organização. 
+Com a Opção 2, as URLs simples se baseiam no nome de domínio SfB2015.contoso.com. Por isso, você precisará somente de um registro A de DNS que permita todos os três tipos de URL simples. Esse registro DNS A faz referência SfB2015.contoso.com. além disso, você ainda precisa separar os registros A de DNS para os outros domínios SIP da sua organização. 
 
-**Opção de nomeação de URL simples 2**
+**Opção 2 de nome de URL simples**
 
 
 | **URL simples** <br/> | **Exemplo** <br/>                                                                                                                    |
 |:---------------------|:-------------------------------------------------------------------------------------------------------------------------------------|
-| Atendimento  <br/>          | https://SfB2015.contoso.com/Meet, https://SfB2015.fabrikam.com/Meete assim por diante (um para cada domínio SIP em sua organização)  <br/> |
+| Meet  <br/>          | https://SfB2015.contoso.com/Meet, https://SfB2015.fabrikam.com/Meet e assim por diante (um para cada domínio SIP em sua organização)  <br/> |
 | Discagem  <br/>       | <https://SfB2015.contoso.com/Dialin>  <br/>                                                                                          |
-| Locatário  <br/>         | <https://SfB2015.contoso.com/Admin>  <br/>                                                                                           |
+| Administrador  <br/>         | <https://SfB2015.contoso.com/Admin>  <br/>                                                                                           |
 
-A opção 3 será mais útil se você tiver muitos domínios SIP e quiser que eles tenham URLs simples de reunião e desejem minimizar o registro DNS e os requisitos de certificado para essas URLs simples. 
+A opção 3 é mais útil se você tiver muitos domínios SIP e desejar que eles tenham URLs Reunir separadas, mas desejar minimizar o registro de DNS e os requisitos de certificação para esses URLs simples. 
 
-**Opção de nomeação de URL simples 3**
+**Opção 3 de nome de URL simples**
 
 
 | **URL simples** <br/> | **Exemplo** <br/>                                                                                                      |
 |:---------------------|:-----------------------------------------------------------------------------------------------------------------------|
-| Atendimento  <br/>          | <https://SfB2015.contoso.com/contosoSIPdomain/Meet>  <br/> <https://SfB2015.contoso.com/fabrikamSIPdomain/Meet>  <br/> |
+| Meet  <br/>          | <https://SfB2015.contoso.com/contosoSIPdomain/Meet>  <br/> <https://SfB2015.contoso.com/fabrikamSIPdomain/Meet>  <br/> |
 | Discagem  <br/>       | <https://SfB2015.contoso.com/Dialin>  <br/>                                                                            |
-| Locatário  <br/>         | <https://SfB2015.contoso.com/Admin>  <br/>                                                                             |
+| Administrador  <br/>         | <https://SfB2015.contoso.com/Admin>  <br/>                                                                             |
 
 ## <a name="disaster-recovery-option-for-simple-urls"></a>Opção de recuperação de desastres para URLs simples
 <a name="BK_Valid"> </a>
 
-Se você tiver vários sites que contenham pools de front-end e o seu provedor de DNS oferecer suporte a GeoDNS, você poderá configurar seus registros DNS para URLs simples para dar suporte à recuperação de desastres, para que a funcionalidade de URL simples continue mesmo que um pool de front-end inteiro seja desligado. Este recurso de recuperação de desastres dá suporte a URLs simples e de reunião discada.
+Se você tiver vários sites que contêm pools de Front-End e seu provedor DNS der suporte a GeoDNS, poderá configurar seus registros DNS para URLs simples para dar suporte à recuperação de desastres, para que a funcionalidade de URL simples continue mesmo se um pool de Front End inteiro ficar inotrado. Este recurso de recuperação de desastres dá suporte às URLs simples Meet e Dial-In.
 
-Para configurar isso, crie dois endereços do GeoDNS. Cada endereço tem dois registros DNS A ou CNAME que são resolvidos para dois pools que são emparelhados para fins de recuperação de desastres. Um endereço GeoDNS é usado para acesso interno e é resolvido para o FQDN da Web interna ou o endereço IP do balanceador de carga para os dois pools. O outro endereço GeoDNS é usado para acesso externo e resolve para o FQDN da Web externo ou o endereço IP do balanceador de carga para os dois pools. Veja a seguir um exemplo de URL simples de reunião, usando os FQDNs dos grupos. 
+Para fazer essa configuração, crie dois endereços de GeoDNS. Cada endereço contém dois registros DNS A ou CNAME que são decompostos em dois pools que são unidos para fins de recuperação de desastres. Um endereço de GeoDNS é usado para acesso interno e é decomposto no FQDN da Web interno ou endereço IP do balanceador de carga dos dois pools. O outro endereço GeoDNS é usado para acesso externo e é decomposto no FQDN da Web externo ou endereço IP do balanceador de carga dos dois pools. Veja a seguir um exemplo da URL simples Meet, usando os FQDNs dos pools: 
 
 ```console
 Meet-int.geolb.contoso.com
@@ -114,22 +114,22 @@ Meet-ext.geolb.contoso.com
      Pool2ExternalWebFQDN.contoso.com
 ```
 
-Em seguida, crie registros CNAME que resolvem sua URL simples de reunião (como meet.contoso.com) para os dois endereços GeoDNS.
+Em seguida, crie registros CNAME que decomponham sua URL simples Meet (como meet.contoso.com) nos dois endereços de GeoDNS.
 
 > [!NOTE]
-> Se a sua rede usa hairpinning (direcionar todo o tráfego de URL simples por meio do link externo, incluindo o tráfego que vem de dentro da sua organização), você pode apenas configurar o endereço de GeoDNS externo e resolver o seu encontro URL simples para apenas isso Endereço externo.
+> Se sua rede usar grampeamento (roteamento de todo o tráfego de URLs simples pelos links externos, inclusive o tráfego que vem de dentro de sua organização), será possível simplesmente configurar os endereços de GeoDNS externos e decompor sua URL simples Meet apenas nesses endereços externos.
 
-Ao usar esse método, você pode configurar cada endereço do GeoDNS para usar um método de rodízio para distribuir solicitações para os dois pools ou para se conectar principalmente a um pool (como o pool localizado geograficamente) e usar o outro pool somente em caso de falha na conectividade. 
+Quando esse método é usado, é possível configurar cada endereço de GeoDNS para usar um método de round robin e distribuir solicitações nos dois pools ou para fazer a conexão principalmente com um pool (como o pool localizado geograficamente mais perto) e usar o outro pool apenas em caso de falhas de conectividade. 
 
-Você pode configurar a mesma configuração para a URL simples de discagem. Para fazer isso, crie registros adicionais como os do exemplo anterior, substituindo `dialin` para `meet` os registros DNS. Para a URL simples do administrador, use uma das três opções listadas anteriormente nesta seção.
+Você pode definir a mesma configuração para a URL simples Dial-In. Para fazer isso, crie registros adicionais como os do exemplo anterior,  `dialin` `meet` substituindo-os nos registros DNS. Para a URL simples Admin, use uma das três opções listadas anteriormente nesta seção.
 
-Depois que essa configuração é configurada, você deve usar um aplicativo de monitoramento para configurar o monitoramento HTTP para observar falhas. Para acesso externo, monitor para ter certeza de que HTTPS Obtém lyncdiscover.<sipdomain> as solicitações para o FQDN da Web externa ou o endereço IP do balanceador de carga para os dois pools são bem-sucedidas. Por exemplo, as seguintes solicitações não devem conter cabeçalho **Accept** e devem retornar **200 OK**.
+Depois que esta configuração é definida, é preciso usar um aplicativo de monitoramento para definir que o monitoramento de HTTP rastreie as falhas. Para acesso externo, monitore para garantir que HTTPS GET lyncdiscover.<sipdomain> as solicitações para o FQDN da Web externo ou endereço IP do balanceador de carga para os dois pools são bem-sucedidas. Por exemplo, as solicitações a seguir não devem conter nenhum cabeçalho **ACCEPT** e devem retornar **200 OK**.
 
 ```console
 HTTPS GET Pool1ExternalWebFQDN.contoso.com/autodiscover/autodiscoverservice.svc/root
 HTTPS GET Pool2ExternalWebFQDN.contoso.com/autodiscover/autodiscoverservice.svc/root
 ```
 
-Para acesso interno, você deve monitorar a porta 5061 no FQDN da Web interno ou o endereço IP do balanceador de carga para os dois pools. Se alguma falha de conectividade for detectada, o VIP para esses pools deverá fechar as portas 80, 443 e 4443.
+Para acesso interno, é preciso monitorar a porta 5061 no FQDN da Web interno ou endereço IP do balanceador de carga dos dois pools. Se alguma falha de conectividade for detectada, o VIP desses pools deverá fechar as portas 80, 443 e 4443.
 
 

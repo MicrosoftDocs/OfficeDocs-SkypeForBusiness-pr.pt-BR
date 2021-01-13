@@ -1,8 +1,8 @@
 ---
-title: Obter usuário
+title: Obter os Usuário
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,41 +12,41 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 52b89a4b-a0bd-493d-bb5e-e21904eb8e48
-description: 'Resumo: Saiba mais sobre a operação obter usuário, que faz parte do serviço de usuário. O serviço de usuário faz parte da API do repositório para o painel de qualidade da chamada. O painel de qualidade de chamada é uma ferramenta para o Skype for Business Server.'
-ms.openlocfilehash: e07a232b61e5ef0bb7462b3fff58d642a14496ec
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 'Resumo: saiba mais sobre a operação Obter Usuário, que faz parte do Serviço de Usuário. O Serviço de Usuário faz parte da API de Repositório para Painel de Qualidade de Chamada. O Painel de Qualidade da Chamada é uma ferramenta do Skype for Business Server.'
+ms.openlocfilehash: dd2bb5e46ddbe3e65faf441a11e39cbc5429e473
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41816730"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49832411"
 ---
-# <a name="get-user"></a>Obter usuário
+# <a name="get-user"></a>Obter os Usuário
  
-**Resumo:** Saiba mais sobre a operação obter usuário, que faz parte do serviço de usuário. O serviço de usuário faz parte da API do repositório para o painel de qualidade da chamada. O painel de qualidade de chamada é uma ferramenta para o Skype for Business Server.
+**Resumo:** Saiba mais sobre a operação Obter Usuário, que faz parte do Serviço de Usuário. O Serviço de Usuário faz parte da API de Repositório para Painel de Qualidade de Chamada. O Painel de Qualidade da Chamada é uma ferramenta do Skype for Business Server.
   
-A operação obter usuários faz parte do serviço de usuário na API do repositório para o painel de qualidade da chamada.
+A operação Obter Usuários faz parte do Serviço de Usuário na API de Repositório para Painel de Qualidade de Chamada.
   
-## <a name="get-user"></a>Obter usuário
+## <a name="get-user"></a>Obter os Usuário
 
-Obter usuário retorna um registro de usuário do repositório.
+Obter Usuário retorna um registro de usuário do repositório.
   
-|**Forma**|**URI de solicitação**|**Versão HTTP**|
+|**Method**|**URI de solicitação**|**Versão HTTP**|
 |:-----|:-----|:-----|
-|Obter  <br/> |https://\<do\>portal de/QoERepositoryService/Repository/User/{userid}  <br/> |HTTP/1.1  <br/> |
+|OBTER  <br/> |https:// \<portal\> /QoERepositoryService/repository/user/{userId}  <br/> |HTTP/1.1  <br/> |
    
- **Parâmetros de URI** -nenhum.
+ **Parâmetros de URI** - Nenhum.
   
- **Solicitar cabeçalhos** -sem cabeçalhos adicionais.
+ **Solicitação de headers** - nenhum outro.
   
- **Corpo da solicitação** -nenhum.
+ **Corpo da Solicitação** - Nenhum.
   
- **Resposta** -a resposta inclui um código de status HTTP e um conjunto de cabeçalhos de resposta.
+ **Resposta** - A resposta inclui um código de status HTTP e um conjunto de cabeçalhos de resposta.
   
- **Código de status** -uma operação bem-sucedida retorna o código de status 200 (OK). Se um ID de usuário especificado não for encontrado, ele retornará o código de status 404 (não encontrado).
+ **Código de Status** - Uma operação bem-sucedida retorna o código de status 200 (OK). Se uma ID de usuário especificada não for encontrada, ela retornará o código de status 404 (Não Encontrado).
   
- **Cabeçalhos de resposta** -sem cabeçalhos adicionais.
+ **Response Headers** - Sem outros headers.
   
- **Corpo da resposta** -abaixo está uma carga de resposta de exemplo em JSON.
+ **Corpo de** Resposta - Abaixo está um exemplo de carga de resposta em JSON.
   
 ```json
 {
@@ -56,13 +56,13 @@ Obter usuário retorna um registro de usuário do repositório.
 }
 ```
 
- *userid* -ID do usuário.
+ *userId*  - ID do usuário.
   
- *LoginName* -identificação de usuário externo para usuários normais. Se a autenticação do Windows for usada para autenticar usuários, isso pode ser um FQDN do usuário.
+ *loginName*  - Identificação de usuário externo para usuários regulares. Se a Autenticação do Windows for usada para autenticar usuários, esse pode ser um FQDN do usuário.
   
- defaultidid *-ID* do item padrão para este usuário. O item padrão é o item mais alto que está associado ao usuário. Todos os outros itens que este usuário tem podem ser acessados a partir do item padrão.
+ *defaultItemId*  - ID do Item padrão para este usuário. O Item padrão é o item mais alto que está associado ao usuário. Todos os outros itens que este usuário possui podem ser navegados a partir do Item padrão.
   
 > [!NOTE]
-> Forneça o `defaultItemId` valor para obter a operação do item para recuperar os detalhes do item padrão.
+> Fornece o  `defaultItemId` valor da operação Obter Item para recuperar os detalhes do Item padrão.
   
 

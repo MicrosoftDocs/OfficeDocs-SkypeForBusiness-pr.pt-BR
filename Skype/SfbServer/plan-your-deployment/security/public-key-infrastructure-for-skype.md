@@ -1,8 +1,8 @@
 ---
 title: Infraestrutura de chave pública para o Skype for Business Server
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -12,33 +12,33 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 737c8a25-23e9-4494-ab76-5a7b729b44ca
-description: O Skype for Business Server depende de certificados para autenticação de servidor e de estabelecer uma cadeia de confiança entre clientes e servidores e entre as diferentes funções de servidor. A infraestrutura de chave pública (PKI) do Windows Server 2012 R2, Windows Server 2012, do Windows Server 2008 R2 e do Windows Server 2008 fornece a infraestrutura para o estabelecimento e a validação da cadeia de confiança.
-ms.openlocfilehash: ec2ae6e94d9cf00a6193c45d6cefd7db6d5a5b62
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: O Skype for Business Server depende de certificados para autenticação de servidor e para estabelecer uma cadeia de confiança entre clientes e servidores e entre as diferentes funções de servidor. A PKI (Infraestrutura de Chave Pública) do Windows Server 2012 R2, do Windows Server 2012, do Windows Server 2008 R2 e do Windows Server 2008 fornece a infraestrutura para estabelecer e validar essa cadeia de confiança.
+ms.openlocfilehash: 3ee9411b5a9259ba7c66c46bf657bb5ee43ab52e
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41815629"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49832141"
 ---
 # <a name="public-key-infrastructure-for-skype-for-business-server"></a>Infraestrutura de chave pública para o Skype for Business Server
  
-O Skype for Business Server depende de certificados para autenticação de servidor e de estabelecer uma cadeia de confiança entre clientes e servidores e entre as diferentes funções de servidor. A infraestrutura de chave pública (PKI) do Windows Server 2012 R2, Windows Server 2012, do Windows Server 2008 R2 e do Windows Server 2008 fornece a infraestrutura para o estabelecimento e a validação da cadeia de confiança.
+O Skype for Business Server depende de certificados para autenticação de servidor e para estabelecer uma cadeia de confiança entre clientes e servidores e entre as diferentes funções de servidor. A PKI (Infraestrutura de Chave Pública) do Windows Server 2012 R2, do Windows Server 2012, do Windows Server 2008 R2 e do Windows Server 2008 fornece a infraestrutura para estabelecer e validar essa cadeia de confiança.
   
-Certificados são identificações digitais. Eles identificam um servidor por nome e especificam suas propriedades. Para garantir que as informações em um certificado sejam válidas, o certificado deve ser emitido por uma AC confiável pelos clientes ou outros servidores que se conectam ao servidor. Se o servidor se conectar apenas com outros clientes e servidores de rede privada, a AC pode ser uma AC corporativa. Se o servidor interagir com entidades fora da rede privada, uma AC pública pode ser necessária.
+Os certificados são IDs digitais. Eles identificam um servidor por nome e especificam suas propriedades. Para garantir que as informações em um certificado sejam válidas, o certificado deve ser emitido por uma AC confiável por clientes ou outros servidores que se conectam ao servidor. Se o servidor se conectar somente com outros clientes e servidores em uma rede privada, a CA poderá ser uma CA empresarial. Se o servidor interagir com entidades fora da rede privada, uma CA pública poderá ser necessária.
   
-Mesmo se as informações no certificado forem válidas, deve haver uma forma de verificar se o servidor que apresenta o certificado é de fato aquele representado pelo certificado. É nessa etapa que o PKI do Windows entrará.
+Mesmo que as informações de um certificado sejam válidas, deve haver alguma forma de verificar se o servidor que está apresentando o certificado é realmente o representado pelo certificado. É aqui que a PKI do Windows entra em ação.
   
-Cada certificado é vinculado a uma chave pública. O servidor nomeado no certificado mantém uma chave privada correspondente que somente ele conhece. Um cliente ou servidor de conexão usa a chave pública para criptografar partes aleatórias das informações e as envia ao servidor. Se o servidor descriptografar as informações e retorná-las como texto sem formatação, a entidade de conexão pode se assegurar de que o servidor vincula a chave privada ao certificado e, portanto, o servidor é nomeado no certificado
+Cada certificado é vinculado a uma chave pública. O servidor nomeado no certificado retém uma chave privada correspondente que somente ele conhece. Um cliente ou servidor de conexão usa a chave pública para criptografar uma parte aleatória das informações e enviá-la ao servidor. Se o servidor descriptografar as informações e retorná-las como texto sem formatação, a entidade de conexão poderá ter a certeza de que o servidor retém a chave privada para o certificado e, portanto, é o servidor nomeado no certificado.
   
 > [!NOTE]
-> Nem todas as CAs públicas estão em conformidade com os requisitos dos certificados do Skype for Business Server. Recomendamos que consulte a lista de fornecedores certificados de AC pública para suas necessidades de certificados públicos. Para obter detalhes, consulte [parceiros de certificado de comunicação unificada](https://go.microsoft.com/fwlink/p/?LinkId=140898). 
+> Nem todas as CAs públicas estão em conformidade com os requisitos de certificados do Skype for Business Server. Recomendamos a consulta à lista de fornecedores certificados de CA pública para suas necessidades de certificado público. Para obter detalhes, consulte [Unified Communications Certificate Partners](https://go.microsoft.com/fwlink/p/?LinkId=140898). 
   
-## <a name="crl-distribution-points"></a>Pontos de distribuição das listas de certificados revogados (CRLs)
+## <a name="crl-distribution-points"></a>Pontos de distribuição de CRL
 
-O Skype for Business Server exige que todos os certificados do servidor contenham um ou mais pontos de distribuição da lista de certificados revogados (CRL). Os pontos de distribuição (CDP) de CRL são locais dos quais as CRLs podem ser baixadas para verificar se o certificado não foi revogado desde sua emissão e se o certificado continua dentro do período de validade. Um ponto de distribuição de CRL pode ser encontrado nas propriedades do certificado como uma URL e é normalmente uma HTTP segura.
+O Skype for Business Server exige que todos os certificados de servidor contenham um ou mais pontos de distribuição da Lista de Certificados Revogados (CRL). CDPs (Pontos de distribuição de CRL) são locais a partir dos quais os CRLs podem ser baixados para verificar se o certifico não foi revogado desde que foi emitido e se ainda está dentro do período de validade. Um ponto de distribuição da lista de certificados revogados é especificado nas propriedades do certificado como uma URL e, geralmente, é um HTTP seguro.
   
-## <a name="enhanced-key-usage"></a>Uso avançado da chave
+## <a name="enhanced-key-usage"></a>Uso avançado de chave
 
-O Skype for Business Server exige que todos os certificados do servidor sejam compatíveis com o uso avançado da chave (EKU) para a finalidade da autenticação do servidor. A configuração do campo do EKU para autenticação do servidor significa que o certificado é válido para fins de autenticação de servidores. Esse EKU é essencial para MTLS. É possível ter mais de uma entrada no EKU, permitindo o uso do certificado para mais de uma finalidade.
+O Skype for Business Server requer todos os certificados de servidor para dar suporte ao Uso Aprimorado de Chave (EKU) para fins de autenticação de servidor. A configuração do campo de EKU para autenticação de servidor significa que o certificado é válido para fins de autenticação de servidores. Esse EKU é essencial para o MTLS. É possível ter mais de uma entrada no EKU, o que habilitará o certificado a mais de uma finalidade.
   
 

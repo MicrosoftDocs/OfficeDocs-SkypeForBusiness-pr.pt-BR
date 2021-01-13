@@ -1,8 +1,8 @@
 ---
 title: tblSkippedAffiliations
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -12,31 +12,31 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 0b129b54-a7a8-42a6-9279-0e08410c06ec
-description: tblSkippedAffiliations contém as afiliações que não puderam ser lidas (geralmente devido a erros de acesso aos serviços de domínio Active Directory).
-ms.openlocfilehash: 8a138993e12a49f72842808d720a5f778195c6ff
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: TblSkippedAffiliations contém as afiliações que não puderam ser lidas (geralmente devido a erros de acesso aos Serviços de Domínio Active Directory).
+ms.openlocfilehash: 3061a399de804898d3dc2c616fb3766206c2d624
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41812009"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49831421"
 ---
 # <a name="tblskippedaffiliations"></a>tblSkippedAffiliations
  
-tblSkippedAffiliations contém as afiliações que não puderam ser lidas (geralmente devido a erros de acesso aos serviços de domínio Active Directory).
+TblSkippedAffiliations contém as afiliações que não puderam ser lidas (geralmente devido a erros de acesso aos Serviços de Domínio Active Directory).
   
-**Colunas**
+**Columns**
 
 |**Coluna**|**Tipo**|**Descrição**|
 |:-----|:-----|:-----|
-|multiimprimir  <br/> |int, não nulo  <br/> |ID da entidade de segurança.  <br/> |
-|affDescription  <br/> |nvarchar (256), NOT NULL  <br/> |Uma cadeia de caracteres que identifica a afiliação.  <br/> O formato é: GUID: _{0}_ URI: _{1}_ ID do>:_{2}_ <br/> |
-|updatedBy  <br/> |int, não nulo  <br/> |ID da entidade de segurança que atualizou esta linha. É sempre 1 (usuário do sistema) porque a sincronização do Active Directory é a única fonte dessas entradas.  <br/> |
+|prinID  <br/> |int, não nulo  <br/> |ID principal.  <br/> |
+|affDescription  <br/> |nvarchar (256), não nulo  <br/> |Uma cadeia identificando a afiliação.  <br/> O formato é: guid:  _{0}_ uri: _{1}_> id:  _{2}_ <br/> |
+|updatedBy  <br/> |int, não nulo  <br/> |ID da principal que atualizou essa linha. É sempre 1 (usuário do sistema) porque a Sincronização do Active Directory é a única origem dessas entradas.  <br/> |
    
-**As**
+**Teclas**
 
-|**Coluna (s)**|**Descrição**|
+|**Colunas**|**Descrição**|
 |:-----|:-----|
-|\<affDescription\>  <br/> |Chave primária.  <br/> |
-|multiimprimir  <br/> |Chave estrangeira com Lookup na tabela tblPrincipal. retoid.  <br/> |
+|\<prinID, affDescription\>  <br/> |Chave primária.  <br/> |
+|prinID  <br/> |Chave estrangeira com pesquisa na tabela tblPrincipal.prinID.  <br/> |
    
 

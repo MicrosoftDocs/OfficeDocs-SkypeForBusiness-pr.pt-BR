@@ -1,8 +1,8 @@
 ---
-title: Habilitar o estacionamento de chamadas para usuários no Skype for Business
+title: Habilitar Estacionamento de Chamada para usuários no Skype for Business
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -15,43 +15,43 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 9430763f-3394-467c-9c6d-426bf761604e
-description: Habilite os usuários para o parque de chamadas no Skype for Business Server Enterprise Voice.
-ms.openlocfilehash: 6642af2a7af698a1127ff2a9bb4e45df73d18c50
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+description: Habilitar usuários para Estacionamento de Chamada no Skype for Business Server Enterprise Voice.
+ms.openlocfilehash: e9bbc42f5940af0cfc94ab83eae981dd023c9fcd
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41767274"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49830951"
 ---
-# <a name="enable-call-park-for-users-in-skype-for-business"></a>Habilitar o estacionamento de chamadas para usuários no Skype for Business
+# <a name="enable-call-park-for-users-in-skype-for-business"></a>Habilitar Estacionamento de Chamada para usuários no Skype for Business
  
-Habilite os usuários para o parque de chamadas no Skype for Business Server Enterprise Voice.
+Habilitar usuários para Estacionamento de Chamada no Skype for Business Server Enterprise Voice.
   
-Por padrão, o estacionamento de chamadas está desabilitado para todos os usuários. Os usuários não podem estacionar chamadas nem recuperar chamadas estacionadas até que elas sejam habilitadas para estacionamento de chamadas na política de voz.
+Por padrão, o Estacionamento de Chamada está desabilitado para todos os usuários. Os usuários não podem estacionar chamadas ou recuperar chamadas estacionadas até que sejam habilitadas para Estacionamento de Chamada na política de voz.
   
-Você pode habilitar o estacionamento de chamadas no escopo global ou no escopo do site ou no escopo do usuário. O escopo do usuário tem precedência sobre o escopo do site e o escopo do site tem precedência sobre o escopo global. Se você tiver várias políticas de voz, examine todas as políticas para habilitar o estacionamento de chamadas, não apenas a política global.
+Você pode habilitar o Estacionamento de Chamada no escopo global ou no escopo do site ou do usuário. O escopo do usuário tem precedência sobre o escopo do site e o escopo do site tem precedência sobre o escopo global. Se você tiver várias políticas de voz, revise todas as políticas para habilitar o Estacionamento de Chamadas, não apenas a política global.
   
-### <a name="to-use-skype-for-business-server-control-panel-to-enable-call-park-for-users"></a>Para usar o painel de controle do Skype for Business Server para habilitar o estacionamento de chamadas para usuários
+### <a name="to-use-skype-for-business-server-control-panel-to-enable-call-park-for-users"></a>Para usar o Painel de Controle do Skype for Business Server para habilitar o Estacionamento de Chamadas para Usuários
 
 1. Faça logon no computador como membro do grupo **RTCUniversalServerAdmins** ou como membro da função administrativa **CsVoiceAdministrator**, **CsServerAdministrator**, ou **CsAdministrator**.
     
-2. Abra o painel de controle do Skype for Business Server.
+2. Abra o Painel de Controle do Skype for Business Server.
     
-3. Na barra de navegação esquerdo, clique em **Roteamento de voz**.
+3. Na barra de navegação à esquerda, clique em **Roteamento de Voz**.
     
 4. Clique na guia **Política de Voz**.
     
 5. Dê um duplo clique sobre uma política de voz existente para abrir a caixa de diálogo **Editar Política de Voz**.
     
-6. Em **Recursos de Chamadas**, selecione **Habilitar o estacionamento de chamadas**.
+6. Sob **Recursos de Chamadas**, selecione **Habilitar o estacionamento de chamadas**.
     
 7. Clique em **OK** para salvar a política de voz
     
-### <a name="to-use-cmdlets-to-enable-call-park-for-users"></a>Para usar cmdlets para habilitar o estacionamento de chamadas para usuários
+### <a name="to-use-cmdlets-to-enable-call-park-for-users"></a>Para usar cmdlets para habilitar o estacionamento de chamada para usuários
 
 1. Faça logon no computador como um membro do grupo RTCUniversalServerAdmins ou como um membro da função administrativa CsVoiceAdministrator, CsServerAdministrator ou CsAdministrator.
     
-2. Inicie o Shell de Gerenciamento do Skype for Business Server: clique em **Iniciar**, em **Todos os Programas**, em **Skype for Business 2015** e em **Shell de Gerenciamento do Skype for Business Server**.
+2. Inicie o Shell de Gerenciamento do Skype for Business Server: clique em **Iniciar,** em Todos os **Programas,** no **Skype for Business 2015** e, em seguida, clique no Shell de Gerenciamento do **Skype for Business Server.**
     
 3. Execute:
     
@@ -59,7 +59,7 @@ Você pode habilitar o estacionamento de chamadas no escopo global ou no escopo 
    Set-CsVoicePolicy -Identity <VoicePolicy> -EnableCallPark $true
    ```
 
-    Por exemplo, para habilitar o estacionamento de chamadas para a política de voz global padrão:
+    Por exemplo, para habilitar o Estacionamento de Chamada para a política de voz global padrão:
     
    ```powershell
    Set-CsVoicePolicy -EnableCallPark $true

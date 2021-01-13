@@ -1,8 +1,8 @@
 ---
-title: Pré-requisitos de configuração e segurança do Enterprise Voice no Skype for Business Server
+title: Pré-requisitos de segurança e configuração para o Enterprise Voice no Skype for Business Server
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -15,25 +15,25 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 15354abe-733e-466b-bcd4-a6cfbf58caf8
-description: 'Resumo: Saiba mais sobre os pré-requisitos de segurança e configuração para o Enterprise Voice no Skype for Business Server.'
-ms.openlocfilehash: 314c25429dbf346a5f62705afa4f19a5b518452a
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+description: 'Resumo: saiba mais sobre os pré-requisitos de segurança e configuração para o Enterprise Voice no Skype for Business Server.'
+ms.openlocfilehash: 77efbf231f83c6d3c31254c9ab742de7e2b226e9
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41767234"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49830841"
 ---
-# <a name="security-and-configuration-prerequisites-for-enterprise-voice-in-skype-for-business-server"></a>Pré-requisitos de configuração e segurança do Enterprise Voice no Skype for Business Server
+# <a name="security-and-configuration-prerequisites-for-enterprise-voice-in-skype-for-business-server"></a>Pré-requisitos de segurança e configuração para o Enterprise Voice no Skype for Business Server
  
-**Resumo:** Saiba mais sobre os pré-requisitos de segurança e configuração para o Enterprise Voice no Skype for Business Server.
+**Resumo:** Saiba mais sobre os pré-requisitos de segurança e configuração do Enterprise Voice no Skype for Business Server.
   
-Antes de implantar o Enterprise Voice, verifique se a sua infraestrutura atende aos seguintes pré-requisitos de segurança, configuração do usuário e hardware específico do cenário. 
+Antes de implantar o Enterprise Voice, verifique se sua infraestrutura atende aos seguintes pré-requisitos de segurança, configuração do usuário e hardware específico do cenário. 
   
-## <a name="administrative-rights-and-certificate-infrastructure"></a>Direitos Administrativos e Infraestrutura do Certificado
+## <a name="administrative-rights-and-certificate-infrastructure"></a>Direitos administrativos e infraestrutura de certificado
 
 Antes de implantar, verifique o seguinte:
   
-- Os administradores que implantam o Enterprise Voice devem ser membros do grupo RTCUniversalServerAdmins.
+- Os administradores responsáveis pela implantação do Enterprise Voice devem ser membros do grupo RTCUniversalServerAdmins.
     
 - Administradores realizando as tarefas de configuração devem ter direitos adequados:
     
@@ -46,23 +46,23 @@ Antes de implantar, verifique o seguinte:
 - A infraestrutura de chave gerenciada (MKI) é implantada e configurada, usando uma infraestrutura de autoridade de certificação (CA) da Microsoft ou de um terceiro.
     
     > [!NOTE]
-    > Para obter detalhes sobre os requisitos de certificado no Skype for Business Server, consulte [requisitos ambientais para requisitos de servidor do Skype for Business server 2015](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md) ou [do Skype for Business Server 2019](../../../SfBServer2019/plan/system-requirements.md). 
+    > Para obter detalhes sobre os requisitos de certificado no Skype for Business Server, consulte [Environmental requirements for Skype for Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md) or Server requirements for Skype for Business Server [2019.](../../../SfBServer2019/plan/system-requirements.md) 
   
 ## <a name="user-configuration"></a>Configuração do usuário
 
-Se você colocar o servidor de mediação em cada pool de front-end ou servidor Standard Edition durante a implantação de front-end, as configurações de usuário necessárias para o Enterprise Voice foram configuradas automaticamente durante a instalação dos arquivos para essas funções de servidor.
+Se você colocar o Servidor de Mediação com cada pool de Front-End ou servidor Standard Edition durante a implantação do Front End, as configurações de usuário necessárias para o Enterprise Voice foram configuradas automaticamente durante a instalação dos arquivos para essas funções de servidor.
   
-Se você estiver implantando a carga de trabalho de Enterprise Voice no momento, antes de começar o processo de implantação, designe um número de telefone principal para cada usuário que você planeja habilitar para o Enterprise Voice. Como administrador, você é responsável por certificar-se que esse número seja exclusivo. Antes da implementação, todos os números de telefone primários devem ser normalizados (formatados corretamente) e copiados para cada propriedade de **URI de linha** do usuário usando o painel de controle do Skype for Business Server.
+Se você estiver recém implantando a carga de trabalho do Enterprise Voice, antes de iniciar o processo de implantação, designe um número de telefone principal para cada usuário que você planeja habilitar para o Enterprise Voice. Como administrador, você é responsável por certificar-se que esse número seja exclusivo. Antes da implementação, todos os números de telefone principais devem ser normalizados (formatados corretamente) e copiados para a propriedade **URI** de Linha de cada usuário usando o Painel de Controle do Skype for Business Server.
   
 > [!NOTE]
-> Para obter exemplos dos números de telefone principais necessários para a implantação do Enterprise Voice, consulte [Sample Normalization Rules](../../plan-your-deployment/enterprise-voice-solution/outbound-voice-routing.md#BKMK_SampleNormalizationRules). 
+> Para exemplos de números de telefone principais necessários para a implantação do Enterprise Voice, consulte [Sample Normalization Rules](../../plan-your-deployment/enterprise-voice-solution/outbound-voice-routing.md#BKMK_SampleNormalizationRules). 
   
-## <a name="next-steps-install-files-or-configure-pstn-connectivity"></a>Próximas etapas: Instalar arquivos ou configurar a conectividade da PSTN
+## <a name="next-steps-install-files-or-configure-pstn-connectivity"></a>Próximas etapas: Instalar arquivos ou configurar a conectividade PSTN
 
-Depois de verificar o software e os pré-requisitos ambientais do Enterprise Voice, você pode:
+Depois de verificar os pré-requisitos de software e ambiente para o Enterprise Voice, você pode:
   
-- Instale o servidor de mediação, conforme descrito em [implantar um servidor de mediação no construtor de topologias no servidor do Skype for Business](deploy-a-mediation-server.md), mas somente se você quiser implantar um servidor ou pool autônomo de mediação, pois os servidores de mediação são instalados como parte do processo de implantação do servidor do front-end ou da edição padrão quando posicionado.
+- Instale o Servidor de Mediação, conforme descrito em Implantar um Servidor de Mediação no Construtor de Topologias no [Skype for Business Server,](deploy-a-mediation-server.md)mas somente se você quiser implantar um Servidor de Mediação autônomo ou pool porque os Servidores de Mediação são instalados como parte do pool de front-end ou do processo de implantação do servidor Standard Edition quando colocalização.
     
-- Ou comece a definir as configurações para direcionar as chamadas para usuários do Enterprise Voice, conforme descrito em [Configurar troncos no Skype for Business Server](configure-trunks.md).
+- Ou comece a definir configurações para rotear chamadas para usuários do Enterprise Voice, conforme descrito em [Configurar troncos no Skype for Business Server.](configure-trunks.md)
     
 

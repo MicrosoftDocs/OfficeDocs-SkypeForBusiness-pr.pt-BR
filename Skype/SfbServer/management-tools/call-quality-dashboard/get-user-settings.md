@@ -1,8 +1,8 @@
 ---
-title: Obter configurações de usuário
+title: Obter Configurações de Usuário
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,44 +12,44 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: bdfe063b-e808-4f3c-884a-acbbabb9be0a
-description: 'Resumo: Saiba mais sobre a operação obter configurações de usuário, que faz parte do serviço de configurações do usuário. O serviço configurações do usuário faz parte da API do repositório para o painel de qualidade da chamada. O painel de qualidade de chamada é uma ferramenta para o Skype for Business Server.'
-ms.openlocfilehash: 5b5ad679387866ba6562e031b6d3a42cc68851a0
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 'Resumo: saiba mais sobre a operação Obter Configurações do Usuário, que faz parte do Serviço de Configurações do Usuário. O Serviço de Configurações do Usuário faz parte da API de Repositório para o Painel de Qualidade da Chamada. O Painel de Qualidade da Chamada é uma ferramenta do Skype for Business Server.'
+ms.openlocfilehash: e2ebf39ba5a7de5d36a8b1ea0441808b6e71f97b
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41816740"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49832471"
 ---
-# <a name="get-user-settings"></a>Obter configurações de usuário
+# <a name="get-user-settings"></a>Obter Configurações de Usuário
  
-**Resumo:** Saiba mais sobre a operação obter configurações de usuário, que faz parte do serviço de configurações do usuário. O serviço configurações do usuário faz parte da API do repositório para o painel de qualidade da chamada. O painel de qualidade de chamada é uma ferramenta para o Skype for Business Server.
+**Resumo:** Saiba mais sobre a operação Obter Configurações do Usuário, que faz parte do Serviço de Configurações do Usuário. O Serviço de Configurações do Usuário faz parte da API de Repositório para o Painel de Qualidade da Chamada. O Painel de Qualidade da Chamada é uma ferramenta do Skype for Business Server.
   
-A operação obter configurações do usuário faz parte do serviço configurações do usuário na API do repositório para o painel de qualidade da chamada.
+A operação Obter Configurações do Usuário faz parte do Serviço de Configurações do Usuário na API de Repositório do Painel de Qualidade da Chamada.
   
-## <a name="get-user-settings"></a>Obter configurações de usuário
+## <a name="get-user-settings"></a>Obter Configurações de Usuário
 
 Obter configurações do usuário retorna uma lista de configurações para um usuário especificado.
   
 
-|**Forma**|**URI de solicitação**|**Versão HTTP**|
+|**Method**|**URI de solicitação**|**Versão HTTP**|
 |:-----|:-----|:-----|
-|Obter  <br/> |https://\<do\>portal de/QoERepositoryService/Repository/User/{userid}/Setting  <br/> |HTTP/1.1  <br/> |
+|OBTER  <br/> |https:// \<portal\> /QoERepositoryService/repository/user/{userId}/setting  <br/> |HTTP/1.1  <br/> |
    
  **Parâmetros de URI**
   
-- *efetivo* -opcional. Esse parâmetro só se aplica quando o padrão de ID de usuário especial é usado. Em outros casos, ele será ignorado. `True`Retorna as configurações de usuário `false` efetivas e retorna apenas as configurações do usuário (padrão).
+- *efetivo*  - Opcional. Esse parâmetro só se aplica quando o padrão de ID de usuário especial é usado. Em outros casos, ele será ignorado. `True` retorna configurações efetivas do usuário `false` e retorna apenas as configurações do usuário (padrão).
     
-  **Solicitar cabeçalhos** -sem cabeçalhos adicionais.
+  **Solicitação de headers** - nenhum outro.
   
-  **Corpo da solicitação** -nenhum.
+  **Corpo da Solicitação** - Nenhum.
   
-  **Resposta** -a resposta inclui um código de status HTTP e um conjunto de cabeçalhos de resposta.
+  **Resposta** - A resposta inclui um código de status HTTP e um conjunto de cabeçalhos de resposta.
   
-  **Código de status** -uma operação bem-sucedida retorna o código de status 200 (OK).
+  **Código de Status** - Uma operação bem-sucedida retorna o código de status 200 (OK).
   
-  **Cabeçalhos de resposta** -sem cabeçalhos adicionais.
+  **Response Headers** - Sem outros headers.
   
-  **Corpo da resposta** -abaixo está uma carga de resposta de exemplo em JSON.
+  **Corpo de** Resposta - Abaixo está um exemplo de carga de resposta em JSON.
   
 ```json
 [{

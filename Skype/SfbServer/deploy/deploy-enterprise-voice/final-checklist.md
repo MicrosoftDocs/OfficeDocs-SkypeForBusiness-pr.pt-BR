@@ -1,8 +1,8 @@
 ---
-title: Lista de verificação final da implantação do controle de admissão de chamadas do Skype for Business Server
+title: Lista de verificação final da implantação do controle de admissão de chamadas para o Skype for Business Server
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -15,31 +15,31 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: d56a525f-3da5-4ac0-a311-0c5efd98c9df
-description: Lista de verificação final para implantar o controle de admissão de chamadas (CAC) no Skype for Business Server Enterprise Voice.
-ms.openlocfilehash: 5d5e4f6f40143bfec2a215e6bc9a54817d53da1b
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+description: Lista de verificação final para implantar o CAC (Controle de Admissão de Chamadas) no Skype for Business Server Enterprise Voice.
+ms.openlocfilehash: d3a6484e35225627c8f22002823eff7fd5939694
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41767224"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49830831"
 ---
-# <a name="call-admission-control-deployment-final-checklist-for-skype-for-business-server"></a>Implantação de controle de admissão de chamadas: lista de verificação final do Skype for Business Server
+# <a name="call-admission-control-deployment-final-checklist-for-skype-for-business-server"></a>Implantação do controle de admissão de chamadas: lista de verificação final do Skype for Business Server
  
-Lista de verificação final para implantar o controle de admissão de chamadas (CAC) no Skype for Business Server Enterprise Voice. 
+Lista de verificação final para implantar o CAC (Controle de Admissão de Chamadas) no Skype for Business Server Enterprise Voice. 
   
-Consulte a lista de verificação para confirmar se você concluiu todas as tarefas de configuração necessárias para a implantação do serviço de Controle de Admissão de Chamadas (CAC).
+Use a lista de verificação a seguir para verificar se você concluiu todas as tarefas de configuração necessárias para implantar o Controle de Admissão de Chamada (CAC).
   
-- Se um ou mais servidores Edge estiverem implantados, cada endereço IP de interface externa precisará ser adicionado à lista de sub-rede nas configurações de configuração de rede, com uma máscara de bits de 32. Associe também essa sub-rede (endereço IP) ao ID do site da rede para o local geográfico onde o serviço de Borda A/V está implantado.
+- Se um ou mais Servidores de Borda for implantado, cada endereço IP de interface externa precisa ser adicionado à lista de subredes nas configurações de rede, com uma bitmask de 32. Associe também essa sub-rede (endereço IP) ao ID do site de rede para o local geográfico onde o serviço Borda A/V está implantado.
     
     > [!NOTE]
-    > Os servidores de borda não precisam implementar o CAC. 
+    > Os Servidores de Borda não são necessários para implementar o CAC. 
   
-- Verifique se o CAC está habilitado, conforme especificado em [habilitar controle de admissão de chamadas no Skype for Business Server](enable-call-admission-control.md).
+- Certifique-se de que o CAC está habilitado, conforme especificado em [Habilitar](enable-call-admission-control.md)controle de admissão de chamadas no Skype for Business Server.
     
-- Certifique-se de que o CAC está habilitado em todos os sites centrais. Isso pode ser feito por meio do construtor de topologias. Se um aviso for gerado durante a publicação, *não* o ignore.
+- Certifique-se de que o CAC está habilitado em todos os sites centrais. Isso pode ser feito por meio do Construtor de Topologias. Se um aviso for gerado quando você publicar,  *não o*  ignore.
     
-- Certifique-se de que todas as subredes gerenciadas na rede corporativa estão definidas nas configurações de rede. Também é essencial que cada sub-rede seja associada a um site de rede, conforme explicado em [implantar regiões de rede, sites e sub-redes no Skype for Business](deploy-network.md).
+- Certifique-se de que todas as subredes gerenciadas na rede empresarial estão definidas nas configurações de rede. Também é essencial que todas as sub-redes sejam associadas a um site de rede, conforme explicado em Implantar regiões de rede, sites e [sub-redes](deploy-network.md)no Skype for Business.
     
-- Certifique-se de que a subrede ou os endereços IP de todos os Servidores Front-End, Aparelhos de Filial Persistentes (SBAs), Servidores de Conferência de Áudio/Vídeo (se estiverem em um pool separado) e Servidores de Mediação estejam definidos nas configurações de rede.
+- Certifique-se de que a subrede ou os endereços IP de todos os Servidores de Front-End, Aparelhos de Filial Persistentes (SBAs), Servidores de Conferência de Áudio/Vídeo (se estiverem em um pool separado) e Servidores de Mediação estejam definidos nas configurações de rede.
     
 

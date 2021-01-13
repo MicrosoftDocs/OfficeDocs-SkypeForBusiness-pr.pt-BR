@@ -1,8 +1,8 @@
 ---
 title: Expansor de Configurações de Site do Servidor Lync
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 940bd9c0-bfcf-4d15-a5c1-a09f1cd692b6
 description: 'Para editar as propriedades de um local existente, faça o seguinte:'
-ms.openlocfilehash: 69555a04be4125e213ba2eca7afd7255100c0444
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+ms.openlocfilehash: acfd7e312dbde97e847a9b97d9730a6d0b3488da
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48217562"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49832911"
 ---
 # <a name="lync-server-site-settings-expander"></a>Expansor de Configurações de Site do Servidor Lync
 
@@ -38,7 +38,7 @@ Para maiores detalhes sobre propriedades do site, consulte  [Add Branch Sites to
 
 Para definir uma atribuição de rota de federação, você deve primeiro ter a federação ativada em um Servidor de Borda ou um pool de Servidor de Borda. Caso a federação não esteja ativada em um pool ou Servidor de Borda, as configurações de atribuição de rota de federação para o site não estarão disponíveis para alterações.
 
-Caso a configuração de federação no pool ou Servidor de Borda tenha sido configurada, selecione **Ativar ** no nível do site. Em seguida, selecione uma Borda ou Diretor a partir da lista suspensa para definir como rota de federação.
+Caso a configuração de federação no pool ou Servidor de Borda tenha sido configurada, selecione **Ativar** no nível do site. Em seguida, selecione uma Borda ou Diretor a partir da lista suspensa para definir como rota de federação.
 
 > [!CAUTION]
 > Essa definição afetará todos os sites. Assegure-se de que a definição que você está configurando neste site é apropriada para todos os sites.

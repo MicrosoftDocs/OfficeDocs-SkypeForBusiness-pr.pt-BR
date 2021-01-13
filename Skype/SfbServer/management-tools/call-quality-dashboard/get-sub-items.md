@@ -1,8 +1,8 @@
 ---
-title: Obter subitens
+title: Obter os Subitens
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,45 +12,45 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 0542eba9-3dda-40de-bba8-095d22825e4e
-description: 'Resumo: Saiba mais sobre a operação obter subitens, que faz parte do serviço de item. O serviço de item faz parte da API do repositório para o painel de qualidade da chamada. O painel de qualidade de chamada é uma ferramenta para o Skype for Business Server.'
-ms.openlocfilehash: 523a6050065680550685337dabfec72c87f30bf7
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 'Resumo: saiba mais sobre a operação Sub-Items obter, que faz parte do Serviço de Item. O Serviço de Item faz parte da API de Repositório para o Painel de Qualidade da Chamada. O Painel de Qualidade da Chamada é uma ferramenta do Skype for Business Server.'
+ms.openlocfilehash: defb0b898c5101513cbb4f6da4382a8bb43bce6e
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41816760"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49832501"
 ---
-# <a name="get-sub-items"></a>Obter subitens
+# <a name="get-sub-items"></a>Obter os Subitens
  
-**Resumo:** Saiba mais sobre a operação obter subitens, que faz parte do serviço de item. O serviço de item faz parte da API do repositório para o painel de qualidade da chamada. O painel de qualidade de chamada é uma ferramenta para o Skype for Business Server.
+**Resumo:** Saiba mais sobre a operação Sub-Items obter, que faz parte do Serviço de Item. O Serviço de Item faz parte da API de Repositório para o Painel de Qualidade da Chamada. O Painel de Qualidade da Chamada é uma ferramenta do Skype for Business Server.
   
-A operação obter subitens é parte do serviço de item na API do repositório para o painel de qualidade da chamada.
+A operação Obter Sub-Items é parte do Serviço de Item na API de Repositório para Painel de Qualidade de Chamada.
   
-## <a name="get-sub-items"></a>Obter subitens
+## <a name="get-sub-items"></a>Obter os Subitens
 
-Obter subitens retorna os subitens de um item específico.
+Get Sub-Items retorna sub-itens de um Item específico.
   
 
-|**Forma**|**URI de solicitação**|**Versão HTTP**|
+|**Method**|**URI de solicitação**|**Versão HTTP**|
 |:-----|:-----|:-----|
-|Obter  <br/> |https://\<do\>portal de/QoERepositoryService/Repository/item/{itemid}/subitem  <br/> |HTTP/1.1  <br/> |
+|OBTER  <br/> |https:// \<portal\> /QoERepositoryService/repository/item/{itemId}/subtentem  <br/> |HTTP/1.1  <br/> |
    
- **Parâmetros de URI** -nenhum.
+ **Parâmetros de URI** - Nenhum.
   
- **Solicitar cabeçalhos** -sem cabeçalhos adicionais.
+ **Solicitação de headers** - nenhum outro.
   
- **Corpo da solicitação** -nenhum.
+ **Corpo da Solicitação** - Nenhum.
   
- **Resposta** -a resposta inclui um código de status HTTP e um conjunto de cabeçalhos de resposta.
+ **Resposta** - A resposta inclui um código de status HTTP e um conjunto de cabeçalhos de resposta.
   
- **Código de status** -uma operação bem-sucedida retorna o código de status 200 (OK). Se um ID de usuário especificado não for encontrado, ele retornará o código de status 404 (não encontrado).
+ **Código de Status** - Uma operação bem-sucedida retorna o código de status 200 (OK). Se uma ID de usuário especificada não for encontrada, ela retornará o código de status 404 (Não Encontrado).
   
- **Cabeçalhos de resposta** -sem cabeçalhos adicionais.
+ **Response Headers** - Sem outros headers.
   
- **Corpo da resposta** -abaixo está uma carga de resposta de exemplo em JSON.
+ **Corpo de** Resposta - Abaixo está um exemplo de carga de resposta em JSON.
   
 > [!NOTE]
-> Uma matriz de objeto de item é retornada. 
+> Uma matriz do objeto Item é retornada. 
   
 ```json
 [{
@@ -65,15 +65,15 @@ Obter subitens retorna os subitens de um item específico.
 }]
 ```
 
-O objeto de item retornado pela operação de subitens contém somente os três campos a seguir. 
+O objeto Item retornado pela Sub-Items contém apenas os três campos a seguir. 
   
- *ItemId* -ID do item.
+ *itemId*  - ID do item.
   
- *userid* -ID do usuário que é proprietário deste item.
+ *userId*  - ID do usuário que possui este Item.
   
- *tipo* – o tipo do conteúdo. Este campo é definido pelos aplicativos.
+ *tipo*  - O tipo do conteúdo. Esse campo é definido pelos aplicativos.
   
 > [!NOTE]
->  `Content`os `subItems` campos não são incluídos na resposta para reduzir a quantidade de dados transmitidos pela rede.
+>  `Content` e `subItems` os campos não são incluídos na resposta para reduzir a quantidade de dados transmitidos pela rede.
   
 

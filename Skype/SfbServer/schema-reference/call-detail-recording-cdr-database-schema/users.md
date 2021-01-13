@@ -1,8 +1,8 @@
 ---
 title: Tabela Users
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -12,24 +12,24 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: a8d71373-4b57-4245-9f02-f7fc0d9fcd3c
-description: A tabela usuários é uma tabela de suporte. Cada registro na tabela armazena informações sobre um usuário envolvido em chamadas ou sessões que têm registros no banco de dados.
-ms.openlocfilehash: 21d03dc2214ac74188094c10a7b53ec84b8a51a9
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: A tabela Usuários é uma tabela de suporte. Cada registro na tabela armazena informações sobre um usuário envolvido em chamadas ou sessões que tenham registros no banco de dados.
+ms.openlocfilehash: 1905efa9b87b0b94c55e3a72e8be86e9ab191661
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41814799"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49831611"
 ---
 # <a name="users-table"></a>Tabela Users
  
-A tabela usuários é uma tabela de suporte. Cada registro na tabela armazena informações sobre um usuário envolvido em chamadas ou sessões que têm registros no banco de dados.
+A tabela Usuários é uma tabela de suporte. Cada registro na tabela armazena informações sobre um usuário envolvido em chamadas ou sessões que tenham registros no banco de dados.
   
-|**Coluna**|**Tipo de dados**|**Chave/índice**|**Detalhes**|
+|**Coluna**|**Tipo de dados**|**Chave/Índice**|**Detalhes**|
 |:-----|:-----|:-----|:-----|
 |**NextUpdateTS** <br/> |datetime  <br/> ||Carimbo de data/hora para uso interno.  <br/> |
-|**ID** <br/> |int  <br/> |Primária  <br/> |Número exclusivo que identifica esse usuário.  <br/> |
-|**UserUri** <br/> |nvarchar (450)  <br/> | <br/> |URI de usuário.  <br/> |
-|**Tenantid** <br/> |int  <br/> |Exterior  <br/> |A ID de locatário deste usuário. Consulte a [tabela locatários](tenants.md) para obter mais informações. <br/> |
-|**UriTypeId** <br/> |int  <br/> |Exterior  <br/> |O tipo de URI deste usuário. Consulte a [tabela UriTypes](uritypes.md) para obter mais informações. <br/> |
+|**UserId** <br/> |int  <br/> |Primário  <br/> |Número exclusivo identificando este usuário.  <br/> |
+|**UserUri** <br/> |nvarchar(450)  <br/> | <br/> |URI do Usuário.  <br/> |
+|**TenantId** <br/> |int  <br/> |Externo  <br/> |A ID de locatário do usuário. Consulte a [tabela Tenants para](tenants.md) obter mais informações. <br/> |
+|**UriTypeId** <br/> |int  <br/> |Externo  <br/> |Tipo de URI do usuário. Consulte a [tabela UriTypes para](uritypes.md) obter mais informações. <br/> |
    
 

@@ -1,8 +1,8 @@
 ---
-title: Tabela Subnet
+title: Tabela Sub-rede
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 2/1/2018
 audience: ITPro
@@ -12,23 +12,23 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 76f5c995-96c8-4aa3-bc30-1d74991d7c42
-description: A tabela de sub-rede é uma tabela de suporte. Cada registro representa uma sub-rede definida na configuração de rede.
-ms.openlocfilehash: 562684fdb4df9ac90216489c209754309885fa98
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: A tabela Subnet é uma tabela de suporte. Cada registro representa uma subrede definida em uma configuração de rede.
+ms.openlocfilehash: b4683c654d5d188d2f5096dd7ec9da124001f68b
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41805199"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49831331"
 ---
-# <a name="subnet-table"></a>Tabela Subnet
+# <a name="subnet-table"></a>Tabela Sub-rede
  
-A tabela de sub-rede é uma tabela de suporte. Cada registro representa uma sub-rede definida na configuração de rede.
+A tabela Subnet é uma tabela de suporte. Cada registro representa uma subrede definida em uma configuração de rede.
   
-|**Coluna**|**Tipo de dados**|**Chave/índice**|**Detalhes**|
+|**Coluna**|**Tipo de dados**|**Chave/Índice**|**Detalhes**|
 |:-----|:-----|:-----|:-----|
-|**SubnetIP** <br/> |int  <br/> |Primário, estrangeiro  <br/> |Representação do inteiro para o IP da sub-rede.  <br/> |
-|**Máscara_de_Sub-rede** <br/> |int  <br/> ||Máscara de sub-rede.  <br/> |
-|**UserSiteKey** <br/> |int  <br/> |Exterior  <br/> |Referenciado da [tabela usersite](usersite.md).  <br/> |
-|**SubnetDescription** <br/> |nvarchar (512)  <br/> ||A descrição da sub-rede.  <br/> |
+|**SubnetIP** <br/> |int  <br/> |Primária, estrangeira  <br/> |Representação de inteiro para o IP da sub-rede.  <br/> |
+|**SubnetMask** <br/> |int  <br/> ||Máscara de sub-rede.  <br/> |
+|**UserSiteKey** <br/> |int  <br/> |Externo  <br/> |Referenciado na tabela [UserSite](usersite.md).  <br/> |
+|**SubnetDescription** <br/> |nvarchar(512)  <br/> ||A descrição para a sub-rede.  <br/> |
    
 

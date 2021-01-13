@@ -1,8 +1,8 @@
 ---
-title: Tabela de regiões
+title: Tabela de região
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 2/1/2018
 audience: ITPro
@@ -12,21 +12,21 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 1751a6aa-a6e8-4f16-8eb7-ae731c2e3ee3
-description: A tabela Region é uma tabela de suporte. Cada registro representa um país/região definido na configuração de rede.
-ms.openlocfilehash: 8e3a0bbe37b1197bae1f35b8fc2ac05f54c5846d
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: A tabela Regions é uma tabela de suporte. Cada registro representa um país ou uma região definida na configuração de rede.
+ms.openlocfilehash: fe38d71c433e540a381e87d7952a8eb6d57ecb5b
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41806219"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49834401"
 ---
-# <a name="region-table"></a>Tabela de regiões
+# <a name="region-table"></a>Tabela de região
  
-A tabela Region é uma tabela de suporte. Cada registro representa um país/região definido na configuração de rede.
+A tabela Regions é uma tabela de suporte. Cada registro representa um país ou uma região definida na configuração de rede.
   
-|**Coluna**|**Tipo de dados**|**Chave/índice**|**Detalhes**|
+|**Coluna**|**Tipo de dados**|**Chave/Índice**|**Detalhes**|
 |:-----|:-----|:-----|:-----|
-|**RegionKey** <br/> |int  <br/> |Primária  <br/> |Número exclusivo que identifica o país/região.  <br/> |
-|**RegionName** <br/> |nvarchar(128  <br/> |Exclusividade  <br/> |O nome do país/região.  <br/> |
+|**RegionKey** <br/> |int  <br/> |Primário  <br/> |Número exclusivo de identificação de país/região.  <br/> |
+|**RegionName** <br/> |nvarchar(128)  <br/> |Exclusivo  <br/> |O nome do país/região.  <br/> |
    
 

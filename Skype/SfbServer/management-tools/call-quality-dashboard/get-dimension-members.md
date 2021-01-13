@@ -1,8 +1,8 @@
 ---
-title: Obtenha os Membros da Dimensão
+title: Obter os Membros da Dimensão
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,34 +12,34 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: bd89bbf7-cb98-4cd8-bbfa-0484663d14db
-description: 'Resumo: Saiba mais sobre a operação obter membros da dimensão. A operação obter membros da dimensão faz parte da API de dados para o painel de qualidade da chamada. O painel de qualidade de chamada é uma ferramenta para o Skype for Business Server.'
-ms.openlocfilehash: 40e5ac8b95c24c3a8cb759da99f7d7aeaa391576
-ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
+description: 'Resumo: saiba mais sobre a operação Obter Membros da Dimensão. A operação Obter Membros da Dimensão faz parte da API de Dados do Painel de Qualidade da Chamada. O Painel de Qualidade da Chamada é uma ferramenta do Skype for Business Server.'
+ms.openlocfilehash: ffec3b02a3c876a003adb679a28b0e8f2edb91c2
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "41888810"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49832631"
 ---
-# <a name="get-dimension-members"></a>Obtenha os Membros da Dimensão
+# <a name="get-dimension-members"></a>Obter os Membros da Dimensão
  
-**Resumo:** Saiba mais sobre a operação obter membros da dimensão. A operação obter membros da dimensão faz parte da API de dados para o painel de qualidade da chamada. O painel de qualidade de chamada é uma ferramenta para o Skype for Business Server.
+**Resumo:** Saiba mais sobre a operação Obter Membros da Dimensão. A operação Obter Membros da Dimensão faz parte da API de Dados do Painel de Qualidade da Chamada. O Painel de Qualidade da Chamada é uma ferramenta do Skype for Business Server.
   
-A operação obter membros da dimensão faz parte da API de dados para o painel de qualidade da chamada.
+A operação Obter Membros da Dimensão faz parte da API de Dados do Painel de Qualidade da Chamada.
   
-## <a name="get-dimension-members"></a>Obtenha os Membros da Dimensão
+## <a name="get-dimension-members"></a>Obter os Membros da Dimensão
 
-A operação obter membros da dimensão retorna a lista de membros de uma dimensão específica. Ele também permite filtrar a lista de membros e obter um subconjunto para reduzir o custo de transferência de fio.
+A operação Obter Membros da Dimensão retorna a lista de membros de uma dimensão específica. Ele também dá a capacidade de filtrar a lista de membros e obter um subconjunto, para reduzir o custo de transferência eletrônica.
   
 
-|**Forma**|**URI de solicitação**|**Versão HTTP**|
+|**Method**|**URI de solicitação**|**Versão HTTP**|
 |:-----|:-----|:-----|
-|Postar  <br/> |https://\<do\>portal de/QoEDataService/DimensionMembers  <br/> |HTTP/1.1  <br/> |
+|POSTAR  <br/> |https:// \<portal\> /QoEDataService/DimensionMembers  <br/> |HTTP/1.1  <br/> |
    
- **Parâmetros de URI** -nenhum.
+ **Parâmetros de URI** - Nenhum.
   
- **Solicitar cabeçalhos** -sem cabeçalhos adicionais.
+ **Solicitação de headers** - nenhum outro.
   
- **Corpo da solicitação** -contém o nome da dimensão para a qual queremos os membros. Também número máximo de membros retornados, ao lado de você pode especificar alguns filtros para limitar os membros retornados.
+ **Corpo da** Solicitação - Contém o nome da dimensão para a que queremos os membros. Além disso, o número máximo de membros retornados, ao lado de você pode especificar algumas filtragem para limitar os membros retornados.
   
 ```json
 {
@@ -52,13 +52,13 @@ A operação obter membros da dimensão retorna a lista de membros de uma dimens
 }
 ```
 
- **Resposta** -a resposta inclui um código de status HTTP e um conjunto de cabeçalhos de resposta.
+ **Resposta** - A resposta inclui um código de status HTTP e um conjunto de cabeçalhos de resposta.
   
- **Código de status** -uma operação bem-sucedida retorna o código de status 200 (OK).
+ **Código de Status** - Uma operação bem-sucedida retorna o código de status 200 (OK).
   
- **Cabeçalhos de resposta** -sem cabeçalhos adicionais.
+ **Response Headers** - Sem outros headers.
   
- **Corpo da resposta** -abaixo está uma carga de resposta de exemplo em JSON em resposta a uma solicitação de "[StartDate]. [Mês] "dimensão.
+ **Corpo de** Resposta - Abaixo está um exemplo de carga de resposta em JSON em resposta a uma solicitação de "[StartDate]. [Month]".
   
 > [!NOTE]
 > A lista está mostrando apenas uma pequena parte da lista. 

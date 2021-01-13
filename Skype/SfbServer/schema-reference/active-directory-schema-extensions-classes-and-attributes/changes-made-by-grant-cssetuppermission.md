@@ -1,8 +1,8 @@
 ---
-title: Alterações feitas pelo Grant-CsSetupPermission no Skype for Business Server
+title: Alterações feitas pela Grant-CsSetupPermission no Skype for Business Server
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 10/20/2015
 audience: ITPro
@@ -12,32 +12,32 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: c5801f48-14e3-4fdd-8f14-d52e7af07a57
-description: Para delegar a instalação, você pode conceder permissões ao grupo universal RTCUniversalServerAdmins para uma unidade organizacional (OU) específica do Active Directory, permitindo que os membros do grupo RTCUniversalServerAdmins dessa UO instalem o Skype for Business Server na domínio especificado sem ser membro do grupo Domain admins.
-ms.openlocfilehash: 844cfa586523750b804564482146c0e76b39fc38
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Para delegar a instalação, você pode conceder permissões ao grupo universal RTCUniversalServerAdmins para uma unidade organizacional (OU) específica do Active Directory, permitindo que os membros do grupo RTCUniversalServerAdmins nessa UO instalem o Skype for Business Server no domínio especificado sem serem membros do grupo Administradores de Domínio.
+ms.openlocfilehash: 3f6de30e7068f9f44ca6d958f8ca30af866b536a
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41815509"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49831831"
 ---
-# <a name="changes-made-by-grant-cssetuppermission-in-skype-for-business-server"></a>Alterações feitas pelo Grant-CsSetupPermission no Skype for Business Server
+# <a name="changes-made-by-grant-cssetuppermission-in-skype-for-business-server"></a>Alterações feitas pela Grant-CsSetupPermission no Skype for Business Server
  
-Para delegar a instalação, você pode conceder permissões ao grupo universal RTCUniversalServerAdmins para uma unidade organizacional (OU) específica do Active Directory, permitindo que os membros do grupo RTCUniversalServerAdmins dessa UO instalem o Skype for Business Server na domínio especificado sem ser membro do grupo Domain admins. 
+Para delegar a instalação, você pode conceder permissões ao grupo universal RTCUniversalServerAdmins para uma unidade organizacional (OU) específica do Active Directory, permitindo que os membros do grupo RTCUniversalServerAdmins nessa UO instalem o Skype for Business Server no domínio especificado sem serem membros do grupo Administradores de Domínio. 
   
-O cmdlet **Grant-CsSetupPermission** concede as permissões do grupo RTCUniversalServerAdmins em uma UO, conforme especificado na tabela a seguir:
+O cmdlet **Grant-CsSetupPermission** concede permissões do grupo RTCUniversalServerAdmins em um OU, conforme especificado na tabela a seguir:
   
-**Permissões concedidas a objetos na OU**
+**Permissões concedidas para Objetos no OU**
 
-|**As permissões se aplicam a:**|**Permissões concedidas são:**|
+|**As permissões aplicam-se:**|**As permissões concedidas são:**|
 |:-----|:-----|
-|RTCUniversalServerAdmins  <br/> | Acesso especial: <br/>  Leia servicePrincipalName <br/>  Gravar servicePrincipalName <br/>  Excluir árvore <br/>  Replicando alterações de diretório <br/> |
-|Objetos serviceConnectionPoint do descendant  <br/> | Acesso especial: <br/>  Permissões de leitura <br/>  Permissões de gravação <br/>  Criar filho <br/>  Excluir filho <br/>  Conteúdo da lista <br/>  Propriedade de gravação <br/>  Propriedade ler <br/>  Excluir árvore <br/> |
-|Objetos msRTCSIP-Server descendentes  <br/> | Acesso especial: <br/>  Propriedade de gravação <br/>  Propriedade ler <br/>  Excluir árvore <br/> |
-|Objetos msRTCSIP descendentes-WebComponents  <br/> | Acesso especial: <br/>  Propriedade de gravação <br/>  Propriedade ler <br/>  Excluir árvore <br/> |
-|Objetos descendentes msRTCSIP-MCU  <br/> | Acesso especial: <br/>  Propriedade de gravação <br/>  Propriedade ler <br/>  Excluir árvore <br/> |
-|Objetos msRTCSIP-MediationServer descendentes  <br/> | Acesso especial: <br/>  Propriedade de gravação <br/>  Propriedade ler <br/>  Excluir árvore <br/> |
-|Objetos msRTCSIP-ApplicationServer descendentes  <br/> | Acesso especial: <br/>  Propriedade de gravação <br/>  Propriedade ler <br/>  Excluir árvore <br/> |
-|Objetos descendentes msRTCSIP-ConnectionPoint  <br/> | Acesso especial: <br/>  Propriedade de gravação <br/>  Propriedade ler <br/>  Excluir árvore <br/> |
-|Objetos de computador descendentes  <br/> | Acesso especial para serviceConnectionPoint: <br/>  Criar objetos filho <br/>  Excluir objetos filho <br/>  Excluir árvore <br/>  Acesso especial para informações públicas: <br/>  Propriedade ler <br/>  Acesso especial para o nome do host DNS: <br/>  Propriedade ler <br/> |
+|RTCUniversalServerAdmins  <br/> | Acesso especial: <br/>  Ler servicePrincipalName <br/>  Gravar servicePrincipalName <br/>  Excluir árvore <br/>  Replicando mudanças de diretório <br/> |
+|Objetos do serviceConnectionPoint descendente  <br/> | Acesso especial: <br/>  Permissões de leitura <br/>  Permissões de gravação <br/>  Criar filho <br/>  Excluir filho <br/>  Conteúdo da lista <br/>  Gravar propriedade <br/>  Ler propriedade <br/>  Excluir árvore <br/> |
+|Objetos msRTCSIP-Server descendentes  <br/> | Acesso especial: <br/>  Gravar propriedade <br/>  Ler propriedade <br/>  Excluir árvore <br/> |
+|Objetos msRTCSIP-WebComponents descendentes  <br/> | Acesso especial: <br/>  Gravar propriedade <br/>  Ler propriedade <br/>  Excluir árvore <br/> |
+|Objetos msRTCSIP-MCU descendentes  <br/> | Acesso especial: <br/>  Gravar propriedade <br/>  Ler propriedade <br/>  Excluir árvore <br/> |
+|Objetos msRTCSIP-MediationServer descendentes  <br/> | Acesso especial: <br/>  Gravar propriedade <br/>  Ler propriedade <br/>  Excluir árvore <br/> |
+|Objetos msRTCSIP-ApplicationServer descendentes  <br/> | Acesso especial: <br/>  Gravar propriedade <br/>  Ler propriedade <br/>  Excluir árvore <br/> |
+|Objetos msRTCSIP-ConnectionPoint descendentes  <br/> | Acesso especial: <br/>  Gravar propriedade <br/>  Ler propriedade <br/>  Excluir árvore <br/> |
+|Objetos do computador descendentes  <br/> | Acesso especial para serviceConnectionPoint: <br/>  Criar objetos filhos <br/>  Excluir objetos filhos <br/>  Excluir árvore <br/>  Acesso especial para informação pública: <br/>  Ler propriedade <br/>  Acesso especial para nome de host DNS: <br/>  Ler propriedade <br/> |
    
 
