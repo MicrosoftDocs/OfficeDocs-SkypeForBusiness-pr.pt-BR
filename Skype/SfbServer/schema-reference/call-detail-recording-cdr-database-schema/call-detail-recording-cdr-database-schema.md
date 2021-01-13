@@ -1,8 +1,8 @@
 ---
-title: Esquema de banco de dados de registro de detalhes de chamadas (CDR) no Skype for Business Server 2015
+title: Esquema de banco de dados de registro de detalhes das chamadas (CDR) no Skype for Business Server 2015
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 10/20/2015
 audience: ITPro
@@ -12,24 +12,24 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 754642cd-051a-47da-bb08-27800dae39d1
-description: Isso documenta o esquema do banco de dados de registros de detalhes de chamadas (CDR) no Skype for Business Server 2015.
-ms.openlocfilehash: 058856f22760b9a8e1db2f8824bd9bd43d29c029
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Isso documenta o esquema do banco de dados de registro de detalhes das chamadas (CDR) no Skype for Business Server 2015.
+ms.openlocfilehash: a028a93b471a39d299a2f5c2e017560034f5222f
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41815449"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49813441"
 ---
-# <a name="call-detail-recording-cdr-database-schema-in-skype-for-business-server-2015"></a><span data-ttu-id="eb6e9-103">Esquema de banco de dados de registro de detalhes de chamadas (CDR) no Skype for Business Server 2015</span><span class="sxs-lookup"><span data-stu-id="eb6e9-103">Call detail recording (CDR) database schema in Skype for Business Server 2015</span></span>
+# <a name="call-detail-recording-cdr-database-schema-in-skype-for-business-server-2015"></a><span data-ttu-id="9fa40-103">Esquema de banco de dados de registro de detalhes das chamadas (CDR) no Skype for Business Server 2015</span><span class="sxs-lookup"><span data-stu-id="9fa40-103">Call detail recording (CDR) database schema in Skype for Business Server 2015</span></span>
  
-<span data-ttu-id="eb6e9-104">Isso documenta o esquema do banco de dados de registros de detalhes de chamadas (CDR) no Skype for Business Server 2015.</span><span class="sxs-lookup"><span data-stu-id="eb6e9-104">This documents the schema of the call detail recording (CDR) database in Skype for Business Server 2015 .</span></span>
+<span data-ttu-id="9fa40-104">Isso documenta o esquema do banco de dados de registro de detalhes das chamadas (CDR) no Skype for Business Server 2015.</span><span class="sxs-lookup"><span data-stu-id="9fa40-104">This documents the schema of the call detail recording (CDR) database in Skype for Business Server 2015 .</span></span>
   
-## <a name="in-this-section"></a><span data-ttu-id="eb6e9-105">Nesta seção</span><span class="sxs-lookup"><span data-stu-id="eb6e9-105">In this section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="9fa40-105">Nesta seção</span><span class="sxs-lookup"><span data-stu-id="9fa40-105">In this section</span></span>
 
-- [<span data-ttu-id="eb6e9-106">Lista de tabelas CDR no Skype for Business Server 2015</span><span class="sxs-lookup"><span data-stu-id="eb6e9-106">List of CDR tables in Skype for Business Server 2015</span></span>](list-of-cdr-tables.md)
+- [<span data-ttu-id="9fa40-106">Lista de tabelas de CDR no Skype for Business Server 2015</span><span class="sxs-lookup"><span data-stu-id="9fa40-106">List of CDR tables in Skype for Business Server 2015</span></span>](list-of-cdr-tables.md)
     
-- [<span data-ttu-id="eb6e9-107">Detalhes da tabela CDR no Skype for Business Server 2015</span><span class="sxs-lookup"><span data-stu-id="eb6e9-107">CDR table details in Skype for Business Server 2015</span></span>](cdr-table-details.md)
+- [<span data-ttu-id="9fa40-107">Detalhes da tabela CDR no Skype for Business Server 2015</span><span class="sxs-lookup"><span data-stu-id="9fa40-107">CDR table details in Skype for Business Server 2015</span></span>](cdr-table-details.md)
     
-- [<span data-ttu-id="eb6e9-108">Lista de Exibições de CDR</span><span class="sxs-lookup"><span data-stu-id="eb6e9-108">List of CDR views</span></span>](list-of-cdr-views.md)
+- [<span data-ttu-id="9fa40-108">Lista de Exibições de CDR</span><span class="sxs-lookup"><span data-stu-id="9fa40-108">List of CDR views</span></span>](list-of-cdr-views.md)
     
 
