@@ -1,8 +1,8 @@
 ---
 title: Nó de Escopo de Instâncias do SQL
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/25/2015
 audience: ITPro
@@ -14,19 +14,19 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 399dce5b-bd51-4693-89d9-3463c1d73ded
-description: 'O nó repositórios SQL lista os bancos de dados do SQL Server em sua topologia. Você pode executar as seguintes ações:'
-ms.openlocfilehash: 1491a45bcf39160f7a5d4fe0bf83cbd130724560
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+description: 'O nó de armazenamento SQL lista os bancos de dados do SQL Server em sua topologia. Você pode executar as seguintes ações:'
+ms.openlocfilehash: 38d11c4074fea1df299e8394e7a7fc93f88ace15
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48219626"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49818121"
 ---
-# <a name="sql-instances-scope-node"></a>Nó de Escopo de Instâncias do SQL
+# <a name="sql-instances-scope-node"></a>Nó de Escopo de Instâncias SQL
  
-O nó **repositórios SQL** lista os bancos de dados do SQL Server em sua topologia. É possível executar a seguinte ação:
+O **nó de armazenamento SQL** lista os bancos de dados do SQL Server em sua topologia. É possível executar a seguinte ação:
   
-- **Novo SQL Store**. Inicia o assistente **definir novo repositório do SQL** , que você usa para adicionar um novo banco de dados do SQL Server à topologia.
+- **Novo SQL Store**. Inicia o **assistente Definir Novo Sql Store,** que você usa para adicionar um novo banco de dados do SQL Server à topologia.
     
 Além das opções de banco de dados do SQL Server, você pode executar as seguintes tarefas gerais:
   

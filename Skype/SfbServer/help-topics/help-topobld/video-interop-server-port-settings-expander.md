@@ -1,8 +1,8 @@
 ---
-title: Expansor das configurações de porta do Servidor de interoperabilidade de vídeo
+title: Expansor das Configurações de Porta do Servidor de Interoperabilidade de Vídeo
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 2/8/2018
 audience: ITPro
@@ -14,26 +14,26 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 416ba609-5a32-4c60-b346-ef3119932c91
-description: As etapas necessárias para definir um novo VIS ou gateway de vídeo no construtor de topologias são descritas online em Create a VIS pool in Skype for Business Server 2015.
-ms.openlocfilehash: a43e7babfc7eb3361c57e490bd1a5fb0b9c677d1
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+description: As etapas necessárias para definir um novo VIS ou Gateway de Vídeo no Construtor de Topologias são descritas online em Create a VIS pool in Skype for Business Server 2015.
+ms.openlocfilehash: 08de1bc6911e58c31fcba1ee18a96e8483bacdd2
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48215732"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49817851"
 ---
-# <a name="video-interop-server-port-settings-expander"></a>Expansor das configurações de porta do Servidor de interoperabilidade de vídeo
+# <a name="video-interop-server-port-settings-expander"></a>Expansor das Configurações de Porta do Servidor de Interoperabilidade de Vídeo
  
-As etapas necessárias para definir um novo VIS ou gateway de vídeo no construtor de topologias são descritas online em [Create a vis pool in Skype for Business Server 2015](../../deploy/deploy-video-interop-server/create-a-vis-pool.md).
+As etapas necessárias para definir um novo VIS ou Gateway de Vídeo no Construtor de Topologias são descritas online em [Create a VIS pool in Skype for Business Server 2015.](../../deploy/deploy-video-interop-server/create-a-vis-pool.md)
   
-As etapas necessárias para atribuir uma função de servidor de interoperabilidade de vídeo em um servidor usando o Windows PowerShell estão descritas online em [Deploy The vis Server Role in Skype for Business Server 2015](../../deploy/deploy-video-interop-server/deploy-the-vis-server-role.md)
+As etapas necessárias para atribuir uma função de Servidor de Interop de Vídeo em um servidor usando o Windows PowerShell são descritas online em [Deploy the VIS server role in Skype for Business Server 2015](../../deploy/deploy-video-interop-server/deploy-the-vis-server-role.md)
   
-As etapas de configuração para um novo servidor de interoperabilidade de vídeo usando o Windows PowerShell estão descritas online em [Configurar o servidor de interoperabilidade de vídeo no Skype for Business Server 2015](../../deploy/deploy-video-interop-server/configure-the-vis.md).
+As etapas de configuração para um novo Servidor de Interop de Vídeo usando o Windows PowerShell são descritas online em [Configure the Video Interop Server in Skype for Business Server 2015.](../../deploy/deploy-video-interop-server/configure-the-vis.md)
   
- As configurações para um gateway de vídeo que precisam ser definidas na GUI Cisco para interoperabilidade com um VIS são descritas online em [Configure CUCM for Interoperating with Skype for Business Server 2015](../../deploy/deploy-video-interop-server/configure-cucm-for-interoperation.md).
+ As configurações para um gateway de vídeo que precisam ser definidas na GUI da Cisco para interoperação com um VIS são descritas online em [Configure CUCM for Interoperation with Skype for Business Server 2015.](../../deploy/deploy-video-interop-server/configure-cucm-for-interoperation.md)
   
- As configurações para um VTC que precisam ser definidas na GUI Cisco para interoperabilidade com um gateway de vídeo e um VIS são descritas online em [Configure a VTC para interoperação com o Skype for Business Server 2015](../../deploy/deploy-video-interop-server/configure-a-vtc-for-interoperation.md).
+ As configurações para um VTC que precisam ser definidas na GUI da Cisco para interoperação com um Gateway de Vídeo e um VIS são descritas online em [Configure a VTC for Interoperation with Skype for Business Server 2015.](../../deploy/deploy-video-interop-server/configure-a-vtc-for-interoperation.md)
   
 ## <a name="see-also"></a>Confira também
 
-[Planejar o servidor de interoperabilidade de vídeo no Skype for Business Server 2015](../../plan-your-deployment/video-interop-server.md)
+[Plan for Video Interop Server in Skype for Business Server 2015](../../plan-your-deployment/video-interop-server.md)

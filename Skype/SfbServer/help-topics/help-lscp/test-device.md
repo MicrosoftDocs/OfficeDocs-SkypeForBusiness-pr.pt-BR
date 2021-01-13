@@ -1,8 +1,8 @@
 ---
 title: Dispositivo de Teste
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/23/2015
 audience: ITPro
@@ -14,25 +14,25 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a1ea564c-f403-4f61-a36b-5a429708e7ca
-description: É possível adicionar um dispositivo de teste à página Dispositivo de Teste e usar esse dispositivo para verificar a funcionalidade de novas atualizações antes de implantar as atualizações a dispositivos de produção. É possível testar um dispositivo globalmente (em todo seu ambiente) ou dentro de um único site. Você identifica um dispositivo de teste por seu endereço MAC (Controle de acesso à mídia) ou número de série. Quando você adiciona um dispositivo, ele é exibido na lista da página do dispositivo de teste do painel de controle do Skype for Business Server.
-ms.openlocfilehash: ea6d0e74bf72a8887b3c6cd0f9c46e503af316fe
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: É possível adicionar um dispositivo de teste à página Dispositivo de Teste e usar esse dispositivo para verificar a funcionalidade de novas atualizações antes de implantar as atualizações nos dispositivos de produção. Você pode testar um dispositivo globalmente (em todo o seu ambiente) ou em um único site. Identifique um dispositivo de teste pelo seu endereço MAC (Controle de Acesso de Mídia) ou pelo número de série. Quando você adiciona um dispositivo, ele aparece na lista na página Dispositivo de Teste do Painel de Controle do Skype for Business Server.
+ms.openlocfilehash: fd32fafd3b334344fe90c28e130e016dfbcf5043
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41822043"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49819041"
 ---
 # <a name="test-device"></a>Dispositivo de Teste
 
-É possível adicionar um dispositivo de teste à página **Dispositivo de Teste** e usar esse dispositivo para verificar a funcionalidade de novas atualizações antes de implantar as atualizações a dispositivos de produção. É possível testar um dispositivo globalmente (em todo seu ambiente) ou dentro de um único site. Você identifica um dispositivo de teste por seu endereço MAC (Controle de acesso à mídia) ou número de série. Quando você adiciona um dispositivo, ele é exibido na lista da página do **dispositivo de teste** do painel de controle do Skype for Business Server.
+É possível adicionar um dispositivo de teste à página **Dispositivo de Teste** e usar esse dispositivo para verificar a funcionalidade de novas atualizações antes de implantar as atualizações nos dispositivos de produção. Você pode testar um dispositivo globalmente (em todo o seu ambiente) ou em um único site. Identifique um dispositivo de teste pelo seu endereço MAC (Controle de Acesso de Mídia) ou pelo número de série. Quando você adiciona um dispositivo, ele  aparece na lista na página Dispositivo de Teste do Painel de Controle do Skype for Business Server.
 
 ## <a name="tasks-you-can-perform"></a>Tarefas que podem ser executadas
 
-Você pode executar as seguintes tarefas na página **testar dispositivo** :
+É possível executar as seguintes tarefas na página **Dispositivo de Teste**:
 
-- Adicione um dispositivo de teste globalmente ou para um site específico.
+- Adicionar um dispositivo de teste globalmente ou para um site específico.
 
-- Modifique as opções de um dispositivo de teste existente.
+- Modificar as opções de um dispositivo de teste existente.
 
 ## <a name="ui-reference"></a>Referência de UI
 
@@ -48,11 +48,11 @@ As listas a seguir descrevem os menus, comandos, campos e propriedades na págin
 
   - **Mostrar detalhes** Essa opção abre uma caixa de diálogo na qual você pode alterar as opções de um dispositivo de teste.
 
-  - **Selecionar tudo** Essa opção seleciona todos os dispositivos de teste na lista.
+  - **Selecionar Tudo** Essa opção seleciona todos os dispositivos de teste na lista.
 
-  - **Excluir** Esta opção exclui todos os dispositivos de teste selecionados.
+  - **Excluir** Essa opção exclui todos os dispositivos de teste selecionados.
 
-- **Atualização** Você pode atualizar a lista de dispositivos de teste para verificar o status das opções de todos os dispositivos de teste.
+- **Atualizar** Você pode atualizar a lista de dispositivos de teste para verificar o status das opções de todos os dispositivos de teste.
 
 Para obter detalhes sobre como testar os dispositivos, consulte [Add a Device to Test Update Functionality](https://technet.microsoft.com/library/ce509fd1-17b3-4b78-b269-fe5d06fe2e1d.aspx) na documentação Operações.
 ## <a name="see-also"></a>Confira também
@@ -63,4 +63,4 @@ Para obter detalhes sobre como testar os dispositivos, consulte [Add a Device to
 
 [Set-CsTestDevice](https://docs.microsoft.com/powershell/module/skype/set-cstestdevice?view=skype-ps)
 
-[Exibir atualizações de software para dispositivos em sua organização](https://technet.microsoft.com/library/d2cca12b-ed43-4e1f-90ab-d14bca8b482c.aspx)
+[Exibir atualizações de software para dispositivos na sua organização](https://technet.microsoft.com/library/d2cca12b-ed43-4e1f-90ab-d14bca8b482c.aspx)

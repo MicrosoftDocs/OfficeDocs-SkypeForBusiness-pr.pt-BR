@@ -1,8 +1,8 @@
 ---
 title: Adicionar Servidor
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 61647eac-9062-4381-9c80-3cbf70b7db33
 description: 'Para adicionar um novo servidor a um pool de servidores existente, no qual o pool é um dos seguintes:'
-ms.openlocfilehash: 5e6d1772b1cb18fe8c392e3ad9fa4f131415e522
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+ms.openlocfilehash: e40cf71b0ab52e66a3a28e0362de4f9106ddd831
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48216402"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49818621"
 ---
 # <a name="add-server"></a>Adicionar Servidor
  
@@ -44,15 +44,15 @@ Cada um dos novos servidores de pool possuem requisitos diferentes. Localize, na
     
 - Selecione **Usar todos os endereços IP configurados**, que significa que qualquer endereço IP definido no computador pode ser usado. Alternativamente, você pode selecionar **Limitar utilização de serviço aos endereços IP selecionados** e inserir um endereço específico no novo servidor. O endereço IP inserido é o único endereço IP que responderá aos serviços hospedados.
     
-- Definir um  **Endereço IP PSTN ** quando um Servidor de Mediação é colocado no Servidor Front-Ends.
+- Definir um  **Endereço IP PSTN** quando um Servidor de Mediação é colocado no Servidor Front-Ends.
     
 - Select **Enable IPv6** to enable IPv6 for this server.
     
-  **Servidor de Diretor **
+  **Servidor de Diretor**
   
 - O FQDN do novo servidor como definido no DNS.
     
-- Selecione  **Usar todos os endereços de IP configurados **,  que significa que qualquer endereço IP definido no computador será usado.  Alternativamente, você pode selecionar  **Limitar utilização de serviço aos endereços IP selecionados ** e inserir um endereço IP específico no novo servidor. O endereço IP inserido é o único endereço IP que responderá aos serviços hospedados.
+- Selecione  **Usar todos os endereços de IP configurados**,  que significa que qualquer endereço IP definido no computador será usado.  Alternativamente, você pode selecionar  **Limitar utilização de serviço aos endereços IP selecionados** e inserir um endereço IP específico no novo servidor. O endereço IP inserido é o único endereço IP que responderá aos serviços hospedados.
     
   **Servidor de Mediação**
   
@@ -63,13 +63,13 @@ Cada um dos novos servidores de pool possuem requisitos diferentes. Localize, na
     > [!NOTE]
     > Para o Servidor de Mediação, o endereço IP inserido para o endereço IP Primário e o endereço IP PSTN são os mesmos, por padrão. Os endereços IP podem ser definidos separadamente caso você esteja usando interfaces de rede dedicadas ou endereços IP separados na mesma interface de rede. Caso você tenha duas interfaces de rede, uma para a conexão de rede local e outra para a conexão PSTN, você deve atribuir endereços IP diferentes. 
   
-  **Servidor de Conferência de Áudio/Vídeo **
+  **Servidor de Conferência de Áudio/Vídeo**
   
 - O FQDN do novo servidor como definido no DNS.
     
-- Selecione  **Usar todos os endereços IP configurados **, que significa que qualquer endereço IP definido no computador pode ser usado. Alternativamente, você pode selecionar  **Limitar utilização de serviço aos endereços IP selecionados ** e inserir um endereço específico no novo servidor. O endereço IP inserido é o único endereço IP que responderá aos serviços hospedados.
+- Selecione  **Usar todos os endereços IP configurados**, que significa que qualquer endereço IP definido no computador pode ser usado. Alternativamente, você pode selecionar  **Limitar utilização de serviço aos endereços IP selecionados** e inserir um endereço específico no novo servidor. O endereço IP inserido é o único endereço IP que responderá aos serviços hospedados.
     
-  **Servidor de Aplicativos Confiáveis **
+  **Servidor de Aplicativos Confiáveis**
   
 - O FQDN do novo servidor como definido no DNS.
     

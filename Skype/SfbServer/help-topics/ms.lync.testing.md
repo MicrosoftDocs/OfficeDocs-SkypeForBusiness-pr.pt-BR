@@ -1,8 +1,8 @@
 ---
-title: testá
+title: test
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 ms.date: 1/1/2010
 manager: serdars
 audience: ITPro
@@ -12,16 +12,16 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: ''
-description: Inserir a introdução aqui.
-ms.openlocfilehash: f98e0c40a9c0d3f9a2f087bd1dc3a214a8895bfb
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Insira a introdução aqui.
+ms.openlocfilehash: afc20fda33d92ac58ae77154d6890d7354dfbed6
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41819013"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49817791"
 ---
-# <a name="testing-sfb-csh"></a>Testando SfB CSH
+# <a name="testing-sfb-csh"></a>Testando O CSH SfB
 
-Isso seria um tópico CSH oculto da pesquisa.
+Este seria um tópico CSH que está oculto na pesquisa.
 
 
