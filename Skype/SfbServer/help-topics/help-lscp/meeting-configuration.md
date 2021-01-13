@@ -1,8 +1,8 @@
 ---
 title: Configuração de Reunião
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/24/2015
 audience: ITPro
@@ -14,27 +14,27 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 24e8f749-d54c-4315-a8fe-bb9303b356ef
-description: As configurações de reunião definem o tipo de conferências (também calledmeetings) que os usuários podem criar e controlam como (ou se) os usuários anônimos e os usuários de conferência discada podem participar dessas conferências. Essas configurações se aplicam apenas às reuniões agendadas. Elas não se aplicam à reuniões ad-hoc criadas clicando na opção Reunir Agora no cliente.
-ms.openlocfilehash: e237e9c5122547338f9ea33848a22b87fabce368
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: As definições de configuração de reunião definem o tipo de conferência (também chamadas de reuniões) que os usuários podem criar e controlam como (ou se) usuários anônimos e usuários de conferência discada podem ingressar nessas conferências. Essas configurações se aplicam apenas às reuniões agendadas. Elas não se aplicam a reuniões ad-hoc criadas clicando na opção Reunir Agora no cliente.
+ms.openlocfilehash: 804aa22f750c86aacacb9bd4d938d364967b86f9
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41822674"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49810891"
 ---
 # <a name="meeting-configuration"></a>Configuração de Reunião
 
-As definições de configuração de reunião definem os tipos de conferências (também chamadas de "reuniões") criados pelos usuários e controlam como (ou se) os usuários anônimos e os usuários de conferência discada podem ingressar nessas conferências. Essas configurações se aplicam apenas às reuniões agendadas. Elas não se aplicam à reuniões ad-hoc criadas clicando na opção Reunir Agora no cliente.
+As definições de configuração de reunião definem os tipos de conferências (também chamadas de "reuniões") criados pelos usuários e controlam como (ou se) os usuários anônimos e os usuários de conferência discada podem ingressar nessas conferências. Essas configurações se aplicam apenas às reuniões agendadas. Elas não se aplicam a reuniões ad-hoc criadas clicando na opção Reunir Agora no cliente.
 
 As configurações de reunião se aplicam no nível global, do site ou do pool:
 
 - **Configuração de reunião global:** A configuração de reunião global é criada por padrão. É possível editar a configuração de reunião global, mas não é possível excluí-la. Se você tentar remover a configuração de reunião global, todas as configurações serão redefinidas para os valores padrão.
 
-- **Configuração de reunião do site (opcional):** Você pode criar uma ou mais configurações de reunião de site, cada uma delas se aplica a um site específico. As configurações de site substituem a configuração global.
+- **Configuração de reunião de site (opcional):** Você pode criar uma ou mais configurações de reunião de site, cada uma delas se aplicando a um site específico. As configurações de site substituem a configuração global.
 
-- **Configuração de reunião em pool (opcional):** Você pode criar uma ou mais configurações de reunião de pool, cada uma delas se aplica a um pool específico. As configurações de pool substituem a configuração global e as configurações de site.
+- **Configuração de reunião de pool (opcional):** Você pode criar uma ou mais configurações de reunião de pool, cada uma delas se aplicando a um pool específico. As configurações de pool substituem a configuração global e as configurações de site.
 
-A página  **Configuração de Reunião** exibe uma lista de todas as configurações de reunião definidas para sua organização.
+A página **Configuração de Reunião** exibe uma lista de todas as configurações de reunião definidas para sua organização.
 
 ## <a name="tasks-you-can-perform"></a>Tarefas que podem ser executadas
 
@@ -52,12 +52,12 @@ A lista a seguir descreve os comandos na página.
 
 - **Novo** Inicia uma nova configuração de reunião de site ou configuração de reunião de pool.
 
-- **Editar** Abre a configuração de reunião selecionada para editá-la, seleciona todas as configurações de reunião na lista ou exclui a configuração de site ou a configuração de pool selecionada.
+- **Editar** Abre a configuração de reunião selecionada para editá-la, seleciona todas as configurações de reunião na lista ou exclui a configuração de site ou configuração de pool selecionada.
 
     > [!NOTE]
-    > Para a configuração de reunião global,  **Excluir** redefine as configurações para os valores padrão.
+    > Para a configuração de reunião global, **Excluir** redefine as configurações para os valores padrão.
 
-- **Atualização** Atualiza a lista de configurações de reunião.
+- **Atualizar** Atualiza a lista de configurações de reunião.
 
 A lista a seguir descreve os campos na página.
 
@@ -65,6 +65,6 @@ A lista a seguir descreve os campos na página.
 
 - **Escopo** Identifica o escopo da configuração de reunião: global, site ou pool.
 
-Para obter detalhes sobre como trabalhar com configurações de reunião, consulte  [Create a or modify a Collection of Meeting Configuration Settings](https://technet.microsoft.com/library/ce6773c1-a0d5-4405-8e32-33a6f3a46a1a.aspx) na documentação Operações.
+Para obter detalhes sobre como trabalhar com configurações de reunião, consulte [Create a or modify a Collection of Meeting Configuration Settings](https://technet.microsoft.com/library/ce6773c1-a0d5-4405-8e32-33a6f3a46a1a.aspx) na documentação Operações.
 
 

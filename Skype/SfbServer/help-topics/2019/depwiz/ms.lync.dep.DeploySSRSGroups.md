@@ -1,8 +1,8 @@
 ---
 title: SQL Server Reporting Services (Grupos)
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,18 +14,18 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 412d46cf-7b60-4b7f-a2e6-73b447d909df
 ROBOTS: NOINDEX, NOFOLLOW
-description: No grupo especificar somente leitura, especifique o grupo para quem você deseja conceder acesso somente leitura para monitorar relatórios.
-ms.openlocfilehash: cb27c04927f078e2f20c7b7ec996c2eab5086db1
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: No Especificar Grupo Somente Leitura, especifique o grupo para quem você deseja conceder acesso somente leitura aos relatórios de Monitoramento.
+ms.openlocfilehash: d1fc8ffb268ea9c850ec1a7b6a78efff6b76506f
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41794690"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49812421"
 ---
 # <a name="sql-server-reporting-services-groups"></a>SQL Server Reporting Services (Grupos)
 
-No **grupo especificar somente leitura**, especifique o grupo para quem você deseja conceder acesso somente leitura para monitorar relatórios. Use o grupo &lt;&gt;Formatar&gt;\\&lt;acesso do domínio. Por exemplo: contoso\RTCUniversalReadOnlyAdmins.
+No **Especificar Grupo Somente Leitura**, especifique o grupo para quem você deseja conceder acesso somente leitura aos relatórios de Monitoramento. Use o grupo de &lt; acesso de domínio de &gt; \\ &lt; &gt; formato. Por exemplo: contoso\RTCUniversalReadOnlyAdmins.
   
-Atribuir um grupo o acesso somente leitura é opcional. Se você não quiser conceder acesso somente leitura agora, você pode configurá-lo mais tarde diretamente no SQL Server Reporting Services.
+A atribuição de um grupo acesso somente leitura é opcional. Se você não quiser conceder acesso somente leitura agora, poderá configurá-lo mais tarde diretamente nos SQL Server Reporting Services.
   
 

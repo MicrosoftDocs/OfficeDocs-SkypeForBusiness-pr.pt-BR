@@ -1,8 +1,8 @@
 ---
 title: tblChat
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -12,34 +12,34 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: b7fcf1b4-7a3f-4585-a6d9-95e7f030c7dc
-description: tblChat contém todas as mensagens de chat.
-ms.openlocfilehash: 7221136c435c1d4af836174ddfde5cbd02f4c5f6
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: A tabela tblChat contém todas as mensagens de chat.
+ms.openlocfilehash: b375c8c5dcd626a02f59aa9a916d3ca883e4767d
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41814669"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49809891"
 ---
 # <a name="tblchat"></a>tblChat
  
-tblChat contém todas as mensagens de chat.
+A tabela tblChat contém todas as mensagens de chat.
   
-**Colunas**
+**Columns**
 
 |**Coluna**|**Tipo**|**Descrição**|
 |:-----|:-----|:-----|
 |channelId  <br/> |int, não nulo  <br/> |ID do nó.  <br/> |
-|chats  <br/> |bigint, e não nulo  <br/> |Número seqüencial exclusivo (por ID do nó) que define o pedido de sala de chat, gerado pela tabela tblLastChatId.  <br/> |
-|chatDate  <br/> |bigint, e não nulo  <br/> |Carimbo de data/hora para a mensagem de chat.  <br/> |
-|ID  <br/> |int, não nulo  <br/> |ID da entidade de segurança do pôster.  <br/> |
-|isalert  <br/> |bit, e não nulo  <br/> |Verdadeiro se a mensagem for uma mensagem de alerta. Falso se não for.  <br/> |
-|disputa  <br/> |nvarchar (max), NOT NULL  <br/> | Conteúdo de chat (a versão de texto sem formatação). O conteúdo geralmente está em texto sem formatação com as seguintes exceções: <br/>  Os arquivos são representados como links ma-filelink: links. <br/>  Os links são representados como um elemento HTML (embora o tipo de conteúdo não possa ser considerado HTML). <br/>  As matérias são codificadas como um formato "[história]..."-como. <br/> |
-|me  <br/> |varchar (max)  <br/> |Conteúdo de chat (a versão RTF). Pode ser NULL se o cliente não fornecê-lo.  <br/> |
+|chatId  <br/> |bigint, não nulo  <br/> |Número sequencial exclusivo (por ID do nó) que define a ordem da sala de chat, gerado pela tabela tblLastChatId.  <br/> |
+|chatDate  <br/> |bigint, não nulo  <br/> |Carimbo de hora para a mensagem de chat.  <br/> |
+|userId  <br/> |int, não nulo  <br/> |ID principal do pôster.  <br/> |
+|isAlert  <br/> |bit, não nulo  <br/> |True se a mensagem for uma mensagem de alerta.False se não for.  <br/> |
+|conteúdo  <br/> |nvarchar (max), não nulo  <br/> | Conteúdo de chat (a versão de texto). O conteúdo está normalmente em texto sem formatação com as seguintes exceções: <br/>  Os arquivos são representados como links ma-filelink:. <br/>  Links são representados como um elemento HTML (embora o tipo de conteúdo não possa ser considerado HTML). <br/>  Histórias são codificadas como um formato "[STORY]....". <br/> |
+|rtf  <br/> |varchar(max)  <br/> |Conteúdo do chat (a versão RTF). Pode ser Nulo se o cliente não o fornecer.  <br/> |
    
 **Chave**
 
 |**Coluna**|**Descrição**|
 |:-----|:-----|
-|\<channelId, em chat\>  <br/> |Chave primária.  <br/> |
+|\<channelID, chatD\>  <br/> |Chave primária.  <br/> |
    
 

@@ -1,8 +1,8 @@
 ---
-title: Adicionar Recursos de Front End
+title: Adicionar Recursos de Front-end
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,31 +14,31 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 97441ec2-573a-4ba4-ab4c-df4cf6baf321
 ROBOTS: NOINDEX, NOFOLLOW
-description: Selecione cada recurso que você deseja habilitar para o pool de front-ends. No mínimo, você deve implantar o sistema de mensagens instantâneas (IM), que sempre está habilitado e não pode ser desmarcado. Você também tem a opção de implantar outros recursos, como conferência, Enterprise Voice e controle de admissão de chamadas (CAC). Alguns recursos dependem da topologia.
-ms.openlocfilehash: 6debbfe324abf626918768e1a3cae6f0b4b112ff
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: Selecione cada recurso que deseja habilitar para o pool de Front-Ends. Implante, no mínimo, o IM (sistema de mensagens instantâneas), que sempre fica habilitado e não pode ser desmarcado. Você também tem a opção de implantar outros recursos, como conferência, Enterprise Voice e o controle de admissão de chamadas. Alguns recursos dependem da sua topologia.
+ms.openlocfilehash: 140837ad8a8f9272341da597677a8f8dfb8e8a02
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41798558"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49811701"
 ---
-# <a name="add-front-end-features"></a>Adicionar Recursos de Front End
+# <a name="add-front-end-features"></a>Adicionar Recursos de Front-end
 
-Selecione cada recurso que você deseja habilitar para o pool de front-ends. No mínimo, você deve implantar o sistema de mensagens instantâneas (IM), que sempre está habilitado e não pode ser desmarcado. Você também tem a opção de implantar outros recursos, como conferência, Enterprise Voice e controle de admissão de chamadas (CAC). Alguns recursos dependem da topologia.
+Selecione cada recurso que deseja habilitar para o pool de Front-Ends. Implante, no mínimo, o IM (sistema de mensagens instantâneas), que sempre fica habilitado e não pode ser desmarcado. Você também tem a opção de implantar outros recursos, como conferência, Enterprise Voice e o controle de admissão de chamadas. Alguns recursos dependem da sua topologia.
 
 - Conferência
 
 - Enterprise Voice
 
-- Controle de admissão de chamadas (CAC)
+- Controle de Admissão de Chamada (CAC)
 
-- Archiving
+- Arquivamento
 
 - Monitoramento
 
 > [!NOTE]
-> Para habilitar o CAC em sua implantação, você deve habilitar o CAC em exatamente um pool por site central. Recomendamos o CAC se você estiver implantando recursos de voz ou conferência A/V.
+> Se você quiser habilitar o CAC em sua implantação, deverá habilitar o CAC em exatamente um pool por site central. Recomendamos CAC se você estiver implantando recursos de voz ou Conferência A/V.
 
-Para obter detalhes sobre como especificar recursos para um pool da edição Enterprise, consulte [definir e configurar um pool de front-end](https://technet.microsoft.com/library/713fc263-23dd-414a-b001-82932e4fe966.aspx) na documentação de implantação.
+Para maiores detalhes sobre como especificar recursos para um pool Enterprise Edition, consulte [Define and Configure a Front End Pool](https://technet.microsoft.com/library/713fc263-23dd-414a-b001-82932e4fe966.aspx) na documentação de Implantação.
 
 

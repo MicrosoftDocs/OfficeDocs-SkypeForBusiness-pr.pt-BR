@@ -1,8 +1,8 @@
 ---
-title: Processo de implantação para retirada de chamadas em grupo no Skype for Business
+title: Processo de implantação do Atendimento de Chamadas em Grupo no Skype for Business
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -15,30 +15,30 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 082daeac-e667-4e2d-b78d-8e0901f9f0e9
-description: Processo de implantação e etapas para o recebimento de chamadas em grupo no Skype for Business Server Enterprise Voice.
-ms.openlocfilehash: 6f46303316bceaae28802ec27fcaea67a8ccaa08
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+description: Processo de implantação e etapas para o Atendimento de Chamadas em Grupo no Skype for Business Server Enterprise Voice.
+ms.openlocfilehash: 5c89522828e5e5a0dc04ffccb0907c0a2cb8a008
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41767464"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49812341"
 ---
-# <a name="deployment-process-for-group-call-pickup-in-skype-for-business"></a>Processo de implantação para retirada de chamadas em grupo no Skype for Business
+# <a name="deployment-process-for-group-call-pickup-in-skype-for-business"></a>Processo de implantação do Atendimento de Chamadas em Grupo no Skype for Business
  
-Processo de implantação e etapas para o recebimento de chamadas em grupo no Skype for Business Server Enterprise Voice.
+Processo de implantação e etapas para o Atendimento de Chamadas em Grupo no Skype for Business Server Enterprise Voice.
   
-O recurso de recebimento de chamadas em grupo permite que os usuários atendam às chamadas de entrada para seus colegas a partir dos próprios telefones. 
+O Recebimento de Chamadas em Grupo permite que os usuários atendam a chamadas de entrada para seus colegas em seus próprios telefones. 
   
- Os componentes que o recurso de retirada de chamadas em grupo usam são instalados e habilitados automaticamente no servidor front-end ou no servidor Standard Edition quando você implanta Enterprise Voice. No entanto, você deve usar as etapas a seguir para configurar o recebimento de chamadas em grupo antes de estar disponível para os usuários.
+ Os componentes que o Atendimento de Chamadas em Grupo usa são instalados e habilitados automaticamente no Servidor front-end ou no servidor Standard Edition quando você implanta o Enterprise Voice. No entanto, você deve usar as etapas a seguir para configurar o Atendimento de Chamada em Grupo antes que ele seja disponibilizado para os usuários.
   
-**Processo de implantação do Recebimento de chamada de grupo**
+**Processo de implantação de atendimento de chamada de grupo**
 
-|**Fase**|**Etapas**|**Grupos e funções necessários**|**Documentação de Implantação**|
+|**Fase**|**Etapas**|**Grupos e funções exigidos**|**Documentação de Implantação**|
 |:-----|:-----|:-----|:-----|
-|Habilitar a ferramenta SEFAUtil em sua topologia|Use o cmdlet New-CsTrustedApplicationPool para criar um novo pool de aplicativos confiáveis. Use o cmdlet New-CsTrustedApplication para especificar a ferramenta SEFAUtil como aplicativo confiável. Execute o cmdlet Enable-CsTopology para habilitar a topologia. Se ainda não o tiver, baixe a versão do Skype for Business Server da ferramenta SEFAUtil deste local e instale-a no pool de aplicativos confiável que você criou na etapa 1. Verifique se o SEFAUtil está executando corretamente ao executá-lo para exibir as configurações de encaminhamento de chamada de um usuário na implantação. |RTCUniversalServerAdmins  <br/> |[Implantar a ferramenta SEFAUtil no Skype for Business](deploy-the-sefautil-tool.md) <br/> [New-CsTrustedApplicationPool](https://docs.microsoft.com/powershell/module/skype/new-cstrustedapplicationpool?view=skype-ps) </br>[New-CsTrustedApplication](https://docs.microsoft.com/powershell/module/skype/new-cstrustedapplication?view=skype-ps)</br>[Enable-CsTopology](https://docs.microsoft.com/powershell/module/skype/enable-cstopology?view=skype-ps) <br/> [Documentação do recurso ferramentas do kit de recursos do Skype for Business Server 2015](../../management-tools/resource-kit-tools.md). (Para o Skype for Business Server, você deve usar a versão atual da ferramenta, mas esta documentação do Lync Server 2013 ainda se aplica.)  <br/> |
-|Configure os intervalos de número para recebimento de chamada na tabela de órbita de estacionamento de chamada  <br/> |Use o cmdlet **New-CSCallParkOrbit** para criar faixas de número de recebimento de chamada na tabela de órbita de estacionamento de chamada e atribua as intervalos de recebimento de chamada ao tipo **GroupPickup**.  <br/> Para uma integração perfeita aos planos de discagem existentes, os intervalos de número são normalmente configurados como um bloco de ramais virtuais. A atribuição dos números de Discagem Direta de Entrada (DID) como números de intervalos  na tabela de órbita de estacionamento de chamada não é suportada.<br/> |RTCUniversalServerAdmins  <br/> CsVoiceAdministrator  <br/> CsServerAdministrator  <br/> CsAdministrator  <br/> |[Criar ou modificar um intervalo de números de tira de chamada em grupo no Skype for Business](create-or-modify-a-group-call-pickup-number-range.md) <br/> |
-|Atribuir um número de recebimento de chamadas aos usuários e habilitar o recebimento de chamadas em grupo para os usuários  <br/> |Use o parâmetro/enablegrouppickup na ferramenta do kit de recursos do SEFAUtil para habilitar o recebimento de chamadas em grupo e atribuir um número de recebimento de chamadas para os usuários.  <br/> |-  <br/> |[Habilitar o recebimento de chamadas em grupo para usuários e atribuir um número de grupo no Skype for Business](enable-group-call-pickup-for-users-and-assign-a-group-number.md) <br/> |
-|Notifique os usuários do número de recebimento de chamada atribuído e qualquer outro número de interesse  <br/> |Depois de habilitar o recebimento de chamadas em grupo para os usuários, use o email ou algum outro mecanismo para notificá-los do número do grupo de recebimento de chamada. Faça isso para qualquer grupo que os usuários queiram monitorar. Visto que os usuários podem recuperar chamadas de outros usuários mesmo que não estejam no mesmo grupo, é provável que eles precisem do número de vários grupos de recebimento de chamada.  <br/> |-  <br/> ||
-|Verificar sua implantação de retirada de chamadas em grupo  <br/> | Teste fazer e receber chamadas para garantir que a configuração funcione conforme o esperado. No mínimo, verifique o seguinte: <br/>  Ligue para um usuário que esteja com o recebimento de chamadas de grupo ativado e tenha outro usuário para recuperar a chamada. O outro usuário pode estar no mesmo grupo, em um grupo diferente ou não estar com o recebimento de chamadas de grupo ativado. <br/>  Ligue para um usuário que esteja com o recebimento de chamadas de grupo ativado e não atende a chamada. <br/> |-  <br/> ||
+|Habilitar a ferramenta SEFAUtil em sua topologia|Use o New-CsTrustedApplicationPool cmdlet para criar um novo pool de aplicativos confiáveis. Use o New-CsTrustedApplication cmdlet para especificar a ferramenta SEFAUtil como um aplicativo confiável. Execute o Enable-CsTopology cmdlet para habilitar a topologia. Se você ainda não a tiver, baixe a versão do Skype for Business Server da ferramenta SEFAUtil deste local e instale-a no pool de aplicativos confiáveis criado na etapa 1. Verifique se SEFAUtil está sendo executado corretamente executando-o para exibir as configurações de encaminhamento de chamada de um usuário na implantação. |RTCUniversalServerAdmins  <br/> |[Implantar a ferramenta SEFAUtil no Skype for Business](deploy-the-sefautil-tool.md) <br/> [New-CsTrustedApplicationPool](https://docs.microsoft.com/powershell/module/skype/new-cstrustedapplicationpool?view=skype-ps) </br>[New-CsTrustedApplication](https://docs.microsoft.com/powershell/module/skype/new-cstrustedapplication?view=skype-ps)</br>[Enable-CsTopology](https://docs.microsoft.com/powershell/module/skype/enable-cstopology?view=skype-ps) <br/> Documentação das Ferramentas do Kit de Recursos do [Skype for Business Server 2015.](../../management-tools/resource-kit-tools.md) (Para o Skype for Business Server, você deve usar a versão atual da ferramenta, mas esta documentação do Lync Server 2013 ainda se aplica.)  <br/> |
+|Configurar intervalos de números de atendimento de chamada na tabela de órbita de estacionamento de chamada  <br/> |Use o cmdlet **New-CSCallParkOrbit** para criar intervalos de números de atendimento de chamadas na tabela de órbita de estacionamento de chamada e atribuir aos intervalos de atendimento de chamadas o tipo **GroupPickup**.  <br/> Para uma integração perfeita com planos de discagem existentes, os intervalos de números são normalmente configurados como um bloco de ramais virtuais. Não há suporte para a atribuição de números DID (Discagem Direta interna) como números de intervalo na tabela de órbita de estacionamento de chamada.  <br/> |RTCUniversalServerAdmins  <br/> CsVoiceAdministrator  <br/> CsServerAdministrator  <br/> CsAdministrator  <br/> |[Criar ou modificar um intervalo de números de Atendimento de Chamadas em Grupo no Skype for Business](create-or-modify-a-group-call-pickup-number-range.md) <br/> |
+|Atribuir um número de atendimento de chamada aos usuários e habilitar o Atendimento de Chamada em Grupo para os usuários  <br/> |Use o parâmetro /enablegrouppickup na ferramenta de kit de recursos SEFAUtil para habilitar o Atendimento de Chamada em Grupo e atribuir um número de atendimento de chamada para os usuários.  <br/> |-  <br/> |[Habilitar o Atendimento de Chamadas em Grupo para usuários e atribuir um número de grupo no Skype for Business](enable-group-call-pickup-for-users-and-assign-a-group-number.md) <br/> |
+|Notificar os usuários sobre o número de atendimento de chamada atribuído e qualquer outro número de interesse  <br/> |Depois de habilitar o Atendimento de Chamada em Grupo para os usuários, use o email ou algum outro mecanismo para notificar os usuários sobre o número do grupo de atendimento de chamada. Notifique os usuários sobre o número do grupo de atendimento de chamada para qualquer grupo que eles possam querer monitorar. Como os usuários podem recuperar chamadas para outros usuários mesmo se não estão no mesmo grupo, os usuários podem precisar do número do grupo de atendimento de chamadas para vários grupos.  <br/> |-  <br/> ||
+|Verificar sua implantação de Atendimento de Chamada em Grupo  <br/> | Teste fazer e recuperar chamadas para garantir que sua configuração funcione conforme o esperado. No mínimo, verifique o seguinte: <br/>  Ligue para um usuário que está habilitado para o Atendimento de Chamada em Grupo e que tenha outro usuário para recuperar a chamada. O outro usuário pode estar no mesmo grupo, em um grupo diferente ou não ter o Atendimento de Chamada em Grupo habilitado. <br/>  Ligue para um usuário que está habilitado para o Atendimento de Chamada em Grupo e não atende a chamada. <br/> |-  <br/> ||
    
 

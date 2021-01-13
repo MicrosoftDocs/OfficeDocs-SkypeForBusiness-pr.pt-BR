@@ -1,8 +1,8 @@
 ---
 title: Exibição VoIPDetails
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -12,32 +12,32 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 14c44736-71ba-4fc5-82c7-1df65bf6261c
-description: A exibição VoIPDetails armazena informações sobre sessões ponto a ponto, onde pelo menos um usuário é um usuário de VoIP. Este modo de exibição foi apresentado no Microsoft Lync Server 2013.
-ms.openlocfilehash: 4d3aec4c58c2cb11f21ec6403f7532bcde46b05e
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: O modo de exibição VoIPDetails armazena informações sobre sessões ponto a ponto, onde no mínimo um usuário é um usuário VoIP. Essa exibição foi introduzida no Microsoft Lync Server 2013.
+ms.openlocfilehash: b42fecc7a0f43f86dba2439a373c7013c605a5e0
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41814769"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49813071"
 ---
 # <a name="voipdetails-view"></a>Exibição VoIPDetails
  
-A exibição VoIPDetails armazena informações sobre sessões ponto a ponto, onde pelo menos um usuário é um usuário de VoIP. Este modo de exibição foi apresentado no Microsoft Lync Server 2013.
+O modo de exibição VoIPDetails armazena informações sobre sessões ponto a ponto, onde no mínimo um usuário é um usuário VoIP. Essa exibição foi introduzida no Microsoft Lync Server 2013.
   
 > [!NOTE]
-> A exibição VoIPDetails contém todas as colunas na [exibição SessionDetails](sessiondetails-0.md) , além das colunas listadas abaixo.
+> O visualização VoIPDetails contém todas as colunas no [exibição SessionDetails,](sessiondetails-0.md) além das colunas listadas abaixo.
   
 |**Coluna**|**Tipo de dados**|**Detalhes**|
 |:-----|:-----|:-----|
-|**FromPhone** <br/> |nvarchar (450)  <br/> |URI do telefone do usuário que iniciou a sessão.  <br/> |
-|**Por telefone** <br/> |nvarchar (450)  <br/> |URI do telefone do usuário que ingressou na sessão.  <br/> |
-|**DisconnectedByUri** <br/> |nvarchar (450)  <br/> |URL do usuário que desconectou a sessão.  <br/> |
-|**DisconnectedByUriType** <br/> |nvarchar(256)  <br/> |Tipo de URI do usuário que desconectou a sessão. Consulte a [tabela UriTypes](uritypes.md) para obter mais informações. <br/> |
-|**DisconnectedByTenant** <br/> |nvarchar(256)  <br/> |Locatário do usuário que desconectou a sessão.  <br/> |
-|**DisconnectedByPhone** <br/> |nvarchar (450)  <br/> |URI do telefone do usuário que desconectou a sessão.  <br/> |
-|**FromMediationServer** <br/> |nvarchar(256)  <br/> |Servidor de mediação usado pelo usuário que iniciou a sessão.  <br/> |
-|**ToMediationServer** <br/> |nvarchar(256)  <br/> |Servidor de mediação usado pelo usuário que ingressou na sessão.  <br/> |
-|**FromGateway** <br/> |nvarchar(256)  <br/> |O gateway usado pelo usuário que iniciou a sessão.  <br/> |
-|**Togateway** <br/> |nvarchar(256)  <br/> |O gateway usado pelo usuário que ingressou na sessão.  <br/> |
+|**FromPhone** <br/> |nvarchar(450)  <br/> |URI do telefone do usuário que iniciou a sessão.  <br/> |
+|**ToPhone** <br/> |nvarchar(450)  <br/> |URI do telefone do usuário que entrou na sessão.  <br/> |
+|**DisconnectedByUri** <br/> |nvarchar(450)  <br/> |URI do usuário que desconectou da sessão.  <br/> |
+|**DisconnectedByUriType** <br/> |nvarchar(256)  <br/> |Tipo da URI do usuário que desconectou da sessão. Consulte a [tabela UriTypes para](uritypes.md) obter mais informações. <br/> |
+|**DisconnectedByTenant** <br/> |nvarchar(256)  <br/> |Locatário do usuário que desconectou da sessão.  <br/> |
+|**DisconnectedByPhone** <br/> |nvarchar(450)  <br/> |URI do telefone do usuário que desconectou da sessão.  <br/> |
+|**FromMediationServer** <br/> |nvarchar(256)  <br/> |Servidor de Mediação usado pelo usuário que iniciou a sessão.  <br/> |
+|**ToMediationServer** <br/> |nvarchar(256)  <br/> |Servidor de Mediação usado pelo usuário que entrou na sessão.  <br/> |
+|**FromGateway** <br/> |nvarchar(256)  <br/> |Gateway usado pelo usuário que iniciou a sessão.  <br/> |
+|**ToGateway** <br/> |nvarchar(256)  <br/> |Gateway usado pelo usuário que entrou na sessão.  <br/> |
    
 

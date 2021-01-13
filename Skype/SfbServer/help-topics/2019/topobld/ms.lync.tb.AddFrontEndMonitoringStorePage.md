@@ -1,8 +1,8 @@
 ---
-title: Adicionar Página de Repositório de Monitoramento do Front End
+title: Adicionar Página de Repositório de Monitoramento de Front-end
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,40 +14,40 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 48e8587d-a9d2-4fc5-acc5-2bf0abf133c6
 ROBOTS: NOINDEX, NOFOLLOW
-description: 'Defina o monitoramento do SQL Server Store configurando as seguintes propriedades:'
-ms.openlocfilehash: 1d6e9d4bbc795707105a6282ac004dde5c264171
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: 'Defina o armazenamento do SQL Server de monitoramento configurando as seguintes propriedades:'
+ms.openlocfilehash: e867ec998e1380e70125d0ad743f83b06737758e
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41798528"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49811661"
 ---
-# <a name="add-front-end-monitoring-store-page"></a>Adicionar Página de Repositório de Monitoramento do Front End
+# <a name="add-front-end-monitoring-store-page"></a>Adicionar Página de Repositório de Monitoramento de Front-end
  
-**Defina o monitoramento do SQL Server Store** configurando as seguintes propriedades:
+Defina **o armazenamento do SQL Server de monitoramento** configurando as seguintes propriedades:
   
-- **Monitorando a loja do SQL Server**: selecione um nome de domínio totalmente qualificado do SQL Server (e, opcionalmente, uma instância) na lista.
+- **Monitoramento do armazenamento do SQL Server:** selecione um nome de domínio totalmente qualificado do SQL Server (e, opcionalmente, uma instância) na lista.
     
-    Clique em **novo** para criar uma nova definição de FQDN do SQL Server e, opcionalmente, um nome de instância para a loja do servidor de monitoramento.
+    Clique **em** Novo para criar uma nova definição FQDN do SQL Server e, opcionalmente, um nome de instância para o armazenamento do Monitoring Server.
     
-- Marque a caixa de seleção **habilitar o espelhamento da loja do SQL Server** se desejar adicionar o espelhamento de banco de dados para o servidor de monitoramento.
+- Marque a **caixa de seleção Habilitar** espelhamento do armazenamento do SQL Server se quiser adicionar espelhamento de banco de dados para o Monitoring Server.
     
-    Selecione um espelho existente do **SQL Server Store de monitoramento** na lista.
+    Selecione um espelho existente **do armazenamento do SQL Server de monitoramento** na lista.
     
-    Clique em **novo** para criar uma nova definição de FQDN do SQL Server e, opcionalmente, um nome de instância para o armazenamento de espelho.
+    Clique **em Novo** para criar uma nova definição de FQDN do SQL Server e, opcionalmente, um nome de instância para o armazenamento espelho.
     
-- Se você selecionou **habilitar o espelhamento da loja do SQL Server**, selecione **usar a testemunha de espelhamento do SQL Server para habilitar o failover automático** para selecionar um repositório de testemunha de espelhamento do SQL Server na lista.
+- Se você selecionou Habilitar espelhamento do armazenamento do **SQL Server,** selecione Usar testemunha de espelhamento do SQL Server para habilitar o **failover** automático para selecionar um armazenamento testemunha de espelhamento do SQL Server na lista.
     
-    Clique em **novo** para criar uma nova definição de FQDN do SQL Server e, opcionalmente, um nome de instância para o armazenamento de testemunha de espelhamento.
+    Clique **em Novo** para criar uma nova definição FQDN do SQL Server e, opcionalmente, um nome de instância para o armazenamento de testemunha de espelhamento.
     
 Clique em **Voltar** para voltar à caixa de diálogo de definição anterior.
   
-Clique em **Avançar** depois de concluir a inserção das opções para esta caixa de diálogo para continuar com a configuração.
+Clique **em Avançar** depois de terminar de inserir as opções dessa caixa de diálogo para prosseguir com a configuração.
   
-Clique em **Cancelar** para descartar todas as alterações e encerrar o assistente.
+Clique **em Cancelar** para descartar todas as alterações e encerrar o assistente.
   
-Clique em **Ajuda** para acessar a ajuda contextual, como esta página.
+Clique em **Ajuda** para acessar a ajuda sensível ao contexto, como esta página.
   
 ## <a name="see-also"></a>Confira também
 
-[Associar um repositório de monitoramento a um pool de front-end no Skype for Business Server](../../../deploy/deploy-monitoring/associate-a-monitoring-store.md)
+[Associar um armazenamento de monitoramento a um pool de Front-End no Skype for Business Server](../../../deploy/deploy-monitoring/associate-a-monitoring-store.md)

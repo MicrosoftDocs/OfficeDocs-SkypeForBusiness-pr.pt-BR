@@ -1,8 +1,8 @@
 ---
 title: Expansor de Configurações Gerais de Aparelho de Filial
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,66 +14,66 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 86860416-7c9b-49af-b9d2-658c172852de
 ROBOTS: NOINDEX, NOFOLLOW
-description: 'Para editar as configurações de um aparelho de ramificação sobreviventes existente ou um servidor de ramificação sobreviventes, você receberá as seguintes seções:'
-ms.openlocfilehash: 262a4c54b571d0b0232a66d0f996af96931515b1
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: 'Para editar as configurações para um Aparelho de Filial Persistente ou um Servidor de Borda Persistente, veja as seções a seguir:'
+ms.openlocfilehash: a191c89fc41bc5a4fc7f33c2e6802c87455259f5
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41793899"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49811271"
 ---
 # <a name="branch-office-appliance-general-settings-expander"></a>Expansor de Configurações Gerais de Aparelho de Filial
 
-Para editar as configurações de um aparelho de ramificação sobreviventes existente ou um servidor de ramificação sobreviventes, você receberá as seguintes seções:
+Para editar as configurações para um Aparelho de Filial Persistente ou um Servidor de Borda Persistente, veja as seções a seguir:
 
 - Configurações gerais
 
 - Configurações de resiliência
 
-- Configurações do Servidor de Mediação
+- Configurações de Servidor de Mediação
 
 
-Para um aparelho de ramificação sobreviventes ou um servidor de filiais sobreviventes, você recebe o seguinte:
+Para um Aparelho de Filial Persistente ou Servidor de Filial Persistente, você encontrará:
 
 ### <a name="general-settings"></a>Configurações gerais
 
-O nome de domínio totalmente qualificado (FQDN) do aparelho de ramificação sobreviventes ou do servidor de ramificação sobreviventes. Edite o FQDN do servidor para alterar o valor. É necessário ter um registro (A) de host DNS (Sistema de Nome de Domínio) que coincida com o novo valor.
+O FQDN (nome de domínio totalmente qualificado) do Aparelho de Filial Persistente ou Servidor de Filial Persistente. Edite o FQDN do servidor para alterar o valor. Você deve ter um registro de hospedeiro (A) DNS (Domain Name System) coincidente com o novo valor.
 
-Você pode selecionar **Usar todos os endereços IP configurados** ou **Limitar o uso do serviço para os endereços IP selecionados**. Caso escolha **Limitar o uso do serviço para os endereços IP selecionados**, você definirá o endereço IP principal que o servidor utilizará para todas as comunicações, exceto para o gateway PSTN (rede telefônica pública comutada). Você define um endereço IP separado para uso do PSTN.
+Você pode escolher  **Usar todos os endereços IP configurados** ou  **Limitar uso do serviço aos endereços IP selecionados**. Caso escolha  **Limitar uso do serviço aos endereços IP selecionados**, você definirá o endereço IP primário que o servidor utilizará para todas as comunicações, exceto para o gateway PSTN (rede telefônica pública comutada). Você define um endereço IP separado para utilização de PSTN.
 
-Em **Associações**, é possível editar ou especificar o seguinte:
+In **Associations**, you can edit or specify the following:
 
-- Associar o servidor de arquivamento permite que você selecione para associar um servidor de arquivamento com o aparelho de ramificação sobreviventes ou servidor de ramificação sobreviventes. Você pode selecionar em um servidor de arquivamento já definido, selecionando o servidor na lista suspensa ou clicar em **novo** para especificar um novo servidor de arquivamento.
+- Associar Servidor de Arquivamento permite que você escolha associar um Servidor de Arquivamento ao Aparelho de Filial Survivável ou Servidor de Filial Survivável. Você pode selecionar a partir de um Servidor de Arquivamento já definido  selecionando o servidor na lista drop-down ou clicando em Novo para especificar um novo Servidor de Arquivamento.
 
     > [!IMPORTANT]
-    > Antes de publicar a topologia recém-definida, o servidor que você especificar já deverá existir e fazer parte do domínio .
+    > O servidor especificado por você deve existir e fazer parte do domínio antes de a publicação da nova topologia recentemente definida.
 
-- Associar o Monitoring Server permite que você selecione associar um servidor de monitoramento com o aparelho de ramificação sobreviventes ou servidor de ramificação sobreviventes. Você pode selecionar em um servidor de monitoramento já definido, selecionando o servidor na lista suspensa ou clicar em **novo** para especificar um novo servidor de monitoramento.
+- Associar o Monitoring Server permite que você escolha associar um Monitoring Server ao Aparelho de Filial Survivável ou Servidor de Filial Survivable. Você pode selecionar a partir de um Monitoring Server já definido selecionando o servidor na lista drop-down, ou clicar em **Novo** para especificar um novo Monitoring Server.
 
-- Associar o pool de bordas permite que você selecione a associação de um servidor de borda ou pool com o aparelho de ramificação sobreviventes ou o servidor de ramificação sobreviventes. Você pode escolher entre um Servidor de Borda ou pool já definido, selecionando o servidor na lista suspensa, ou clicar em **Novo** para especificar um novo Servidor de Borda ou pool.
+- O pool de Borda Associado permite que você selecione associar um Servidor de Borda ou pool ao Aparelho de Filial Survivável ou Servidor de Filial Survivável. Você pode selecionar a partir de um pool ou Servidor de Borda já definido, selecionando o servidor a partir da lista suspensa, ou clicar em **Novo** para especificar um novo pool ou Servidor de Borda.
 
 ### <a name="resiliency"></a>Resiliência
 
-A resiliência oferece alta disponibilidade ao pool de Registradores. Ao providenciar um Registrador de backup, se o Registrador principal falhar, o Registrador de backup poderá assumir suas funções e permitir que os usuários se conectem e se comuniquem. Dependendo dos sistemas que falharam com o Registrador principal, os usuários poderão enfrentar uma redução de funcionalidades.
+A resiliência oferece alta disponibilidade para o pool de Registradores. Ao providenciar um Registrador de backup, se o Registrador primário falhar, o Registrador de backup poderá assumir as funções do Registrador com falha, permitindo que usuários se conectem e comuniquem. Talvez ocorra uma redução de funcionalidades para os usuários, dependendo em quais sistemas tenham falhado com o Registrador primário.
 
-Na lista suspensa, selecione o pool de front-end do Enterprise Edition ou o servidor front-end Standard Edition que atuará como registrador de backup para o aparelho de ramificação sobreviventes ou o servidor de ramificação sobreviventes. Você também pode habilitar os intervalos de tempo de Failover e Fallback. Habilitar as configurações de tempo de failover e fallback (especificadas em segundos) permite detectar automaticamente as falhas de um Registrador, enquanto o tempo de fallback permite determinar automaticamente que o principal voltou a funcionar e pode reassumir o processo de Registrador.
+Na lista drop-down, selecione o pool de Front-End Enterprise Edition ou o Servidor de Front End Standard Edition que atuará como Registrador de backup para o Aparelho de Filial Survivável ou Servidor de FilialVivível. Você também pode escolher habilitar os intervalos de tempo de Failover e Fallback. Habilitar as definições de tempo de failover e fallback (especificadas em segundos) permite a detecção automática da falha de um Registrador, enquanto o tempo de fallback permite a determinação automática de que o primário está funcionando novamente e pode assumir o processo de Registrador.
 
 > [!IMPORTANT]
-> Quando definir o intervalo de detecção de falha e de fallback, cuidado para não inserir um intervalo que provoque o failover e o fallback se o Registrador não responder por um curto período. É possível que o Registrador principal não responda por curtos períodos, baseado no carregamento do pool ou servidores. Os valores padrão para um aparelho de ramificação sobreviventes ou um servidor de ramificação sobreviventes em um site para um pool ou um servidor front-end da edição padrão são 120 segundos para failover e 240 segundos para fallback.
+> Tome cuidado, quando definir o intervalo de detecção de falha e de fallback, para não inserir um intervalo que causará com que o failover e fallback ocorram se o Registrador falhar em responder por um curto período de tempo. É possível que o Registrador primário não responda por curtos períodos de tempo, baseado no carregamento do pool ou servidores. Os valores padrão para um Aparelho de FilialVivível ou Um Servidor de FilialVivível em um site para um pool ou Servidor front-end Standard Edition são 120 segundos para failover e 240 segundos para fallback.
 
 ### <a name="mediation-server"></a>Servidor de Mediação
 
-No caso do **Servidor de Mediação**, você pode especificar o seguinte:
+Para **Servidor de Mediação**, você pode especificar o seguinte:
 
-A caixa de seleção do **servidor de mediação posicionado habilitada** não está disponível em um aparelho de ramificação sobreviventes ou em um servidor de ramificação sobreviventes porque o servidor de mediação está posicionado.
+A caixa de seleção para **Servidor de Mediação Colocado ativado** não está disponível em um Aparelho de Filial Persistente ou Servidor de Filial Persistente pois o Servidor de Mediação está colocado.
 
-Você define a porta de escuta nos servidores de pool para o protocolo TLS. Por padrão, essa porta é a 5067. Se você selecionar **Habilitar porta TCP**, será necessário definir uma porta TCP para o Servidor de Mediação colocado. Essa é uma configuração opcional, e você deverá verificar seus requisitos de gateway ou PSTN a fim de determinar se isso é necessário. Por padrão, o valor de porta TCP é 5068.
+Você define a porta de escuta nos servidores de pool para TLS (Transport Layer Security). Por padrão é a porta 5067. Caso escolha **Ativar porta TCP**, você deve definir uma porta TCP para o Servidor de Mediação colocado. Esta é uma definição opcional e você deve consultar os requisitos de seu gateway ou requisitos PSTN para determinar a necessidade disso. Por padrão, o valor da porta TCP é 5068.
 
-Você define os gateways PSTN associados ao servidor de mediação posicionado. Se você já definiu gateways, eles estarão disponíveis para serem associados ao servidor de mediação. Caso não tenha definido nenhum gateway, mas eles estejam disponíveis para tal, selecione **Novo**. Você também pode remover gateways que já estão configurados para este servidor de mediação. Selecione o gateway e clique em **Remover**.
+Você define gateways PSTN que estão associados ao Servidor de Mediação colocado. Caso já tenha definido gateways, eles estarão disponíveis para associação com o Servidor de Mediação. Caso não tenha definido qualquer gateway, mas estejam disponíveis para definir, você pode selecionar **Novo**. Você também pode remover gateways que já estejam configurados para este Servidor de Mediação, selecionando o gateway e clicando em  **Remover**.
 
-Se você tiver mais de um gateway associado a um servidor de mediação, o primeiro gateway associado será o gateway padrão. Caso precise escolher outro gateway como gateway padrão, selecione o gateway para tornar padrão e clique em **Tornar Padrão**.
+Caso tenha mais de um gateway associado a um Servidor de Mediação, o primeiro gateway associado será o gateway padrão. Caso você deva escolher outro gateway como gateway padrão, selecione o gateway que deseja tornar padrão e clique em **Tornar Padrão**.
 
 
-Para obter detalhes sobre como definir e definir as configurações para o aparelho de ramificação sobreviventes ou o servidor de ramificação sobreviventes, consulte [soluções de resiliência de site de filial](https://technet.microsoft.com/library/1700f99b-709c-4e47-88eb-c0a5490e26e2.aspx).
+Para maiores detalhes sobre como definir e configurar as configurações para o Aparelho de Filial Persistente ou Servidor de Filial Persistente, consulte[Branch-Site Resiliency Solutions](https://technet.microsoft.com/library/1700f99b-709c-4e47-88eb-c0a5490e26e2.aspx).
 
 

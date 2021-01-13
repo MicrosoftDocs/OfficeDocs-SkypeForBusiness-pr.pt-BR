@@ -1,8 +1,8 @@
 ---
 title: tblActivePeers
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -12,31 +12,31 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: b50c3f4a-bab6-4cb9-b40e-016cf1a9c607
-description: o tblActivePeers contém as conexões ponto-a-ponto atuais entre os serviços de chat.
-ms.openlocfilehash: 4604c13dbff9565748dd59e5917a5c133bd71947
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: A tblActivePeers contém as conexões ponto a ponto atuais entre Servidores de Canal.
+ms.openlocfilehash: befba4086a78281fbfbec1e270b7c8e3f8174752
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41814709"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49812931"
 ---
 # <a name="tblactivepeers"></a>tblActivePeers
  
-o tblActivePeers contém as conexões ponto-a-ponto atuais entre os serviços de chat.
+A tblActivePeers contém as conexões ponto a ponto atuais entre Servidores de Canal.
   
-**Colunas**
+**Columns**
 
 |**Coluna**|**Tipo**|**Descrição**|
 |:-----|:-----|:-----|
 |aplServerID  <br/> |int, não nulo  <br/> |ID do servidor que postou a entrada.  <br/> |
-|aplPeerID  <br/> |int, não nulo  <br/> |ID do par ao qual o servidor de postagem está conectado.  <br/> |
+|aplPeerID  <br/> |int, não nulo  <br/> |ID do ponto ao qual o servidor de postagem está conectado.  <br/> |
    
-**As**
+**Teclas**
 
 |**Coluna**|**Descrição**|
 |:-----|:-----|
 |\<aplServerID, aplPeerID\>  <br/> |Chave primária.  <br/> |
-|aplServerID  <br/> |Chave estrangeira com Lookup na tabela tblServerIdentity. serverID.  <br/> |
-|aplPeerID  <br/> |Chave estrangeira com Lookup na tabela tblServerIdentity. serverID.  <br/> |
+|aplServerID  <br/> |Chave estrangeira com pesquisa na tabela tblServerIdentity.serverID.  <br/> |
+|aplPeerID  <br/> |Chave estrangeira com pesquisa na tabela tblServerIdentity.serverID.  <br/> |
    
 

@@ -1,8 +1,8 @@
 ---
 title: Selecionar Prefixo de Hiperlink
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -14,22 +14,22 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: bfa55f83-70b4-4790-9b9f-8d849dd94909
-description: Use a caixa de diálogo Selecionar prefixo do hiperlink para selecionar os tipos de hiperlinks que você deseja bloquear, enviar uma mensagem de aviso ou permitir selecionando (para bloquear ou enviar uma mensagem de aviso) ou desmarcando (permitir) as caixas de seleção das extensões das categorias em Prefixos de hiperlink. Clique na seta para expandir uma categoria e exibir todos os prefixos de hiperlink para essa categoria. Se você quiser selecionar todos os prefixos de hiperlink para uma categoria, selecione o nome da categoria.
-ms.openlocfilehash: 87ee86a94d91b16e8f103efc0ca469fb39c4edb6
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Utilize a caixa de diálogo Selecionar Prefixo de Hiperlinkpara selecionar os tipos de hiperlinks que deseja bloquear, enviar uma mensagem de aviso, ou permitir selecionando (bloquear ou enviar uma mensagem de aviso) ou anulando a seleção (para permitir) das caixas de diálogo para suas extensões das categorias sob Prefixos de Hiperlink. Clique na seta para expandir uma categoria e exibir todos os seus prefixos de hiperlink. Para selecionar todos os prefixos de hiperlink de uma categoria, selecione o nome da categoria.
+ms.openlocfilehash: 69f0a9aba703b4e41b7ba99482a4f42814a18e1a
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41822184"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49810801"
 ---
 # <a name="select-hyperlink-prefix"></a>Selecionar Prefixo de Hiperlink
  
-Use a caixa de diálogo **selecionar prefixo do hiperlink** para selecionar os tipos de hiperlinks que você deseja bloquear, enviar uma mensagem de aviso ou permitir selecionando (para bloquear ou enviar uma mensagem de aviso) ou desmarcando (permitir) as caixas de seleção das extensões das categorias em **prefixos de hiperlink**. Clique na seta para expandir uma categoria e exibir todos os prefixos de hiperlink para essa categoria. Se você quiser selecionar todos os prefixos de hiperlink para uma categoria, selecione o nome da categoria. 
+Utilize a caixa de diálogo **Selecionar Prefixo de Hiperlink** para selecionar os tipos de hiperlinks que deseja bloquear, enviar uma mensagem de aviso, ou permitir selecionando (bloquear ou enviar uma mensagem de aviso) ou anulando a seleção (para permitir) das caixas de diálogo para suas extensões das categorias sob **Prefixos de Hiperlink**. Clique na seta para expandir uma categoria e exibir todos os seus prefixos de hiperlink. Para selecionar todos os prefixos de hiperlink de uma categoria, selecione o nome da categoria. 
   
-Se você não vir um prefixo de hiperlink que você deseja selecionar listado nos **prefixos de hiperlink**, digite a extensão na caixa de texto em **Adicionar novos prefixos de hiperlink à lista**e, em seguida, clique em **Adicionar**. 
+Caso não veja um prefixo de hiperlink que queira selecionar listado em **Prefixos de hiperlink**, insira a extensão na caixa de texto abaixo de **Adicionar novos prefixos de hiperlink à lista**, então clique em **Adicionar**. 
   
-Depois de adicionar todos os prefixos de hiperlink desejados à lista de **prefixos de hiperlink selecionada** , clique em **OK**.
+Após ter adicionado todos os prefixos de hiperlink desejados à lista **Prefixos de hiperlink selecionados** clique em **OK**.
   
-Para obter detalhes sobre os diferentes procedimentos que você pode executar usando o painel de controle do Skype for Business Server, consulte [gerenciar o Skype for Business server 2015](../../manage/manage.md).
+Para obter detalhes sobre os diferentes procedimentos que você pode executar usando o Painel de Controle do Skype for Business Server, consulte [Gerenciar o Skype for Business Server 2015.](../../manage/manage.md)
   
 

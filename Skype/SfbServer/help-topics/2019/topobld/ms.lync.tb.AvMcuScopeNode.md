@@ -1,8 +1,8 @@
 ---
-title: Nó de Escopo de MCU de A/V
+title: Nó de Escopo AV MCU
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,30 +14,30 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 45e90203-2da3-44c3-beaf-02456fa970a1
 ROBOTS: NOINDEX, NOFOLLOW
-description: 'Este nó mostra a configuração do nome de domínio totalmente qualificado do pool (FQDN) e pools de Front-End associados para esse pool de Conferência A/V. É possível executar as seguintes ações:'
-ms.openlocfilehash: 8bd760582919ce9ff9c056b30a47c73148e5d030
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: 'Este nó mostra o FQDN (nome de domínio totalmente qualificado) do pool e os pools de Front-Ends associados neste pool de Conferência A/V. Você pode realizar as seguintes ações:'
+ms.openlocfilehash: b2eb645c89c3b95c41c680d396fdd1c0bf990614
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41793919"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49811281"
 ---
-# <a name="av-mcu-scope-node"></a>Nó de Escopo de MCU de A/V
+# <a name="av-mcu-scope-node"></a>Nó de Escopo AV MCU
  
-Este nó mostra a configuração do nome de domínio totalmente qualificado do pool (FQDN) e pools de Front-End associados para esse pool de Conferência A/V. É possível executar as seguintes ações:
+Este nó mostra o FQDN (nome de domínio totalmente qualificado) do pool e os pools de Front-Ends associados neste pool de Conferência A/V. Você pode realizar as seguintes ações:
   
-- **Novo Servidor**. Inicia o assistente  **Definir Novo Servidor**, que pode ser usado para adicionar outro Servidor de Borda a esse pool.
+- **Novo Servidor**. Inicia o assistente **Definir Novo Servidor**, que pode ser usado para adicionar outro Servidor de Borda a esse pool.
     
-- **Editar Propriedades**. Abre a página **Editar Propriedades** para esse servidor, na qual é possível alterar o FQDN do pool e os pools de Front-End associados.
+- **Editar Propriedades**. Abre a página **Editar Propriedades** para este servidor, onde você pode mudar o pool FQDN e os pools Front-Ends associados.
     
 - **Excluir**. Exclui o pool da topologia.
     
-Além dessas opções, você pode realizar as seguintes tarefas gerais:
+Além das opções, é possível executar as seguintes tarefas gerais:
   
-- **Topologia**. É possível usar essa opção para definir uma nova topologia, abrir uma topologia existente, baixar a topologia atual, salvar uma cópia da topologia, publicar a topologia, instalar um banco de dados, mesclar os componentes ou remover a implantação.
+- **Topologia**. Você pode usar essa opção para definir uma nova topologia, abrir uma topologia existente, baixar a topologia atual, salvar uma cópia da topologia, publicar a topologia, instalar um banco de dados, mesclar componentes ou remover a implantação.
     
-- **Exibir**. É possível usar essa opção para personalizar a exibição no Construtor de Topologias, selecionando os itens para mostrar e ocultar nos modos de exibição da árvore do console.
+- **Modo exibição**. É possível usar essa opção para personalizar a exibição no Construtor de Topologia, selecionando os itens para mostrar e ocultar nos modos exibição da árvore do console.
     
-- **Ajuda**. Você pode usar esta opção para acessar a Ajuda do nó ativo.
+- **Ajuda**. É possível usar essa opção para acessar a Ajuda do nó ativo.
     
 

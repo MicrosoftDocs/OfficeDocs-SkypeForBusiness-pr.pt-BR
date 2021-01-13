@@ -1,8 +1,8 @@
 ---
-title: Dados de qualidade da experiência (QoE) criar novo ou editar existente
+title: Dados de QoE (Qualidade da Experiência) criam novos ou editam existentes
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,25 +14,25 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 19d34703-be01-4969-9eae-9d107d7b3408
 ROBOTS: NOINDEX, NOFOLLOW
-description: O que você deseja fazer? Clique no link da tarefa que você deseja executar.
-ms.openlocfilehash: 3b7656b02c1b322fe1c8d8a11e01a371b71954ac
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: O que você deseja fazer? Clique no link para a tarefa que você deseja executar.
+ms.openlocfilehash: bcda542dce245b0a69e6b751790befe8a67f5518
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41795040"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49812291"
 ---
-# <a name="quality-of-experience-qoe-data-create-new-or-edit-existing"></a>Dados de QoE (Qualidade da Experiência): Criar Novos ou Editar Existentes
+# <a name="quality-of-experience-qoe-data-create-new-or-edit-existing"></a>Dados de Qualidade de Experiência (QoE): Criar Novos ou Editar Existentes
  
-O que você deseja fazer? Clique no link da tarefa que você deseja executar.
+O que você deseja fazer? Clique no link para a tarefa que você deseja executar.
   
-- [Habilite a qualidade de experiência no Skype for Business Server](../../../manage/health-and-monitoring/enable-qoe.md)
+- [Habilitar a Qualidade da Experiência no Skype for Business Server](../../../manage/health-and-monitoring/enable-qoe.md)
     
-- [Modificar as configurações de qualidade da experiência no Skype for Business Server](../../../manage/health-and-monitoring/modify-qoe-settings.md)
+- [Modificar as configurações de Qualidade da Experiência no Skype for Business Server](../../../manage/health-and-monitoring/modify-qoe-settings.md)
     
-- [Criar definições de configuração de qualidade de experiência no Skype for Business Server](../../../manage/health-and-monitoring/create-qoe-configuration-settings.md)
+- [Criar definições de configuração de Qualidade da Experiência no Skype for Business Server](../../../manage/health-and-monitoring/create-qoe-configuration-settings.md)
     
-- [Excluir configurações de qualidade de experiência no Skype for Business Server](../../../manage/health-and-monitoring/delete-qoe-configuration-settings.md)
+- [Excluir definições de configuração de Qualidade da Experiência no Skype for Business Server](../../../manage/health-and-monitoring/delete-qoe-configuration-settings.md)
     
  
 

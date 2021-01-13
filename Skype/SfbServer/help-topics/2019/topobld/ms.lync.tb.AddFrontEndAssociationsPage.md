@@ -1,8 +1,8 @@
 ---
-title: Adicionar Associações de Front-End
+title: Adicionar Associações de Front End
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,21 +14,21 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 95620425-defd-47fd-a5c0-e4a283d812a5
 ROBOTS: NOINDEX, NOFOLLOW
-description: 'Agora você pode habilitar o suporte para recursos específicos que exigem a implantação de outros servidores, associando as funções de servidor ao pool de Front-Ends. Também é possível associar funções de servidor ao pool de Front-Ends posteriormente. As funções de servidor que podem ser associadas ao pool de Front-Ends incluem:'
-ms.openlocfilehash: d305cc6b251646e52c2351188572b05f6f6d28c8
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: 'Agora você pode habilitar o suporte para recursos específicos que exigem a implantação de outros servidores, associando as funções de servidor ao pool de Front-Ends. Também pode associar funções de servidor ao pool de Front-Ends posteriormente. As funções de servidor que podem ser associadas ao pool de Front-Ends incluem:'
+ms.openlocfilehash: ef3cec601355f433ad760be4edcc0ea573b53010
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41794890"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49811731"
 ---
-# <a name="add-front-end-associations"></a>Adicionar Associações de Front-End
+# <a name="add-front-end-associations"></a>Adicionar Associações de Front-end
 
-Agora você pode habilitar o suporte para recursos específicos que exigem a implantação de outros servidores, associando as funções de servidor ao pool de Front-Ends. Também é possível associar funções de servidor ao pool de Front-Ends posteriormente. As funções de servidor que podem ser associadas ao pool de Front-Ends incluem:
+Agora você pode habilitar o suporte para recursos específicos que exigem a implantação de outros servidores, associando as funções de servidor ao pool de Front-Ends. Também pode associar funções de servidor ao pool de Front-Ends posteriormente. As funções de servidor que podem ser associadas ao pool de Front-Ends incluem:
 
-- Servidor de Borda A/V. Para obter detalhes sobre a implantação de um Servidor de Borda A/V, consulte  [Planning for Conferencing](https://technet.microsoft.com/library/983a272a-e1b3-4d70-8f84-836b092fe526.aspx) na documentação Planejamento.
+- Servidor de Borda A/V. Para obter detalhes sobre a implantação de um Servidor de Borda A/V, consulte [Planning for Conferencing](https://technet.microsoft.com/library/983a272a-e1b3-4d70-8f84-836b092fe526.aspx) na documentação Planejamento.
 
 > [!IMPORTANT]
-> Caso você habilite o suporte para qualquer um destes recursos agora, o projeto de topologia que você publicar incluirá os componentes de servidor necessários para implementar cada recurso escolhido. Para que a publicação da topologia seja bem-sucedida, os computadores físicos devem estar ingressados ao domínio. Por exemplo, caso você habilite o suporte para arquivamento agora, implante um Servidor de Arquivamento e configure as opções de arquivamento adequadas antes de começar a arquivar as comunicações de sua organização.
+> Caso você habilite suporte para qualquer um destes recursos agora, o projeto de topologia publicado por você incluirá os componentes de servidor necessários para implementar cada recurso escolhido. Para que a publicação da topologia seja bem sucedida, os computadores físicos devem estar ingressados ao domínio. Por exemplo, se você habilitar o suporte para arquivamento agora, deverá implantar um Servidor de Arquivamento e configurar as opções de arquivamento apropriadas antes de iniciar as comunicações de arquivamento para sua organização.
 
 
