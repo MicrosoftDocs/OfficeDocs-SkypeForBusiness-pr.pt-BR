@@ -1,8 +1,8 @@
 ---
-title: Implantar chamada por meio do trabalho no Skype for Business Server
+title: Implantar Telefonar via Trabalho no Skype for Business Server
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -14,85 +14,85 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 4802d733-14ef-4509-92b9-07173614e45f
-description: 'Resumo: saiba como implantar a chamada por meio do trabalho no Skype for Business Server para alguns ou todos os seus usuários.'
-ms.openlocfilehash: 9b77207d6618e4a869ae369697bc8395aba81673
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: 'Resumo: saiba como implantar o Telefonar via Trabalho no Skype for Business Server para alguns ou todos os seus usuários.'
+ms.openlocfilehash: 41a0ae8462b12cabf735a2501e5b22eac64abe42
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41791079"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49825001"
 ---
-# <a name="deploy-call-via-work-in-skype-for-business-server"></a>Implantar chamada por meio do trabalho no Skype for Business Server
+# <a name="deploy-call-via-work-in-skype-for-business-server"></a>Implantar Telefonar via Trabalho no Skype for Business Server
  
-**Resumo:** Saiba como implantar a chamada por meio do trabalho no Skype for Business Server para alguns ou todos os seus usuários.
+**Resumo:** Saiba como implantar o Telefonar via Trabalho no Skype for Business Server para alguns ou todos os seus usuários.
   
-Use estas etapas para implantar a chamada por meio do trabalho para seus usuários. As considerações de planejamento são discutidas no [plano de chamada por meio do trabalho no Skype for Business Server](../plan-your-deployment/enterprise-voice-solution/call-via-work.md). Em versões anteriores do controle de chamada remota do Lync Server era um recurso que permitia aos usuários controlar os telefones PBX com o Lync Server. No Skype for Business Server, este recurso foi substituído por meio da chamada por meio do trabalho. 
+Use estas etapas para implantar o Telefonar via Trabalho para seus usuários. Considerações de planejamento são discutidas no [Plano para Telefonar via Trabalho no Skype for Business Server.](../plan-your-deployment/enterprise-voice-solution/call-via-work.md) Em versões anteriores do Lync Server, o controle de chamada remota era um recurso que permitia que os usuários controlas seus telefones PBX com o Lync Server. No Skype for Business Server, esse recurso foi substituído pelo Telefonar via Trabalho. 
   
-## <a name="prerequisites-for-call-via-work"></a>Pré-requisitos para ligar pelo trabalho
+## <a name="prerequisites-for-call-via-work"></a>Pré-requisitos para Telefonar via Trabalho
 
-A chamada via trabalho usa a API da Web de comunicação unificada (UCWA), que é instalada automaticamente em todos os servidores de front-end do Skype for Business Server. Para permitir que os usuários liguem por meio do trabalho, você também deve ter os seguintes pré-requisitos em vigor: 
+O Telefonar via Trabalho usa o Unified Communications Web API (UCWA), que é instalado automaticamente em todos os Servidores Front-End do Skype for Business Server. Para habilitar os usuários para Telefonar via Trabalho, você também deve ter os seguintes pré-requisitos no local: 
   
-- Você deve ter um servidor de mediação implantado, seja como parte de um servidor front-end ou como uma função autônoma. Um gateway IP-PBX também deve ser implantado.
+- Você deve ter um Servidor de Mediação implantado, como parte de um Servidor Front-End ou como uma função autônoma. Você também deve implantar um gateway IP-PBX.
     
-- Todos os usuários que serão habilitados para a chamada por meio do trabalho deverão ter uma discagem direta (DID) no sistema de telefonia PBX. 
+- Todos os usuários que serão habilitados para Telefonar via Trabalho devem ter um DID (Discagem Direta interna) no sistema de telefonia PBX. 
     
-- Você deve habilitar toda a chamada por meio de usuários de trabalho do Enterprise Voice. Ao fazer isso, você deve configurar o Skype for Business para que cada usuário tenha o número DID correspondente para o sistema telefônico PBX correspondente. 
+- Você deve habilitar todos os usuários telefonar via trabalho para o Enterprise Voice. Ao fazer isso, você deve configurar o número DID do Skype for Business para cada usuário para o número DID correspondente para o sistema de telefonia PBX correspondente. 
     
-- Todos os usuários que usarão a chamada por meio do trabalho deverão ter a **configuração automática** selecionada na opção **conexões avançadas** no cliente Skype for Business. Isso permite que o cliente descubra as URLs do UCWA. **Configuração automática** é a seleção padrão.
+- Todos os usuários que usarão  o Telefonar via Trabalho devem ter a Configuração Automática selecionada na opção **Conexões** Avançadas no cliente Skype for Business. Isso permite que o cliente descubra as URLs do UCWA. **A Configuração** Automática é a seleção padrão.
     
-- Para cada chamada por usuário de trabalho, ative o encaminhamento de chamadas e o toque simultâneo. 
+- Para cada usuário do Telefonar via Trabalho, habilita o encaminhamento de chamada e o toque simultâneo. 
     
-- Para cada chamada por usuário do trabalho, verifique se a conferência discada e a conferência discada está habilitada. Isso permite que esses usuários entrem e entrem em conferências do Skype for Business.
+- Para cada usuário da Chamada via Trabalho, verifique se a conferência discada e a discagem estão habilitadas. Isso permite que esses usuários entre e saim de conferências do Skype for Business.
     
-- Verifique se a delegação, a chamada de equipe e o grupo de resposta estão desabilitados para cada chamada por meio de um usuário de trabalho.
+- Verifique se a delegação, a chamada de equipe e o grupo de resposta estão desabilitados para cada usuário do Telefonar via Trabalho.
     
-## <a name="deploy-call-via-work"></a>Implantar Telefonar via Trabalho
+## <a name="deploy-call-via-work"></a>Implantar Chamada via Trabalho
 
-Depois que todos os pré-requisitos forem implantados, execute as seguintes ações:
+Após os pré-requisitos, faça o seguinte:
   
-- Crie um número de telefone global para sua implantação do qual o Skype for Business é exibido na identificação de chamadas do PBX de usuários que estão chamando via chamadas de trabalho. 
+- Crie um número de telefone global para sua implantação que o Skype for Business exibe na ID de chamadas PBX dos usuários que estão fazendo chamadas Telefonar via Trabalho. 
     
-- Criar uma ou mais chamadas via políticas de trabalho
+- Criar uma ou mais políticas telefonar via trabalho
     
-- Atribuir uma chamada via política de trabalho a cada usuário que será habilitado para fazer uma chamada via trabalho
+- Atribuir uma política telefonar via trabalho a cada usuário que será habilitado para Telefonar via Trabalho
     
 ### <a name="create-the-call-via-work-global-phone-number"></a>Criar o número de telefone global Telefonar via Trabalho
 
-- Digite o seguinte cmdlet
+- Digite o cmdlet a seguir
     
   ```powershell
   Set-CsRoutingConfiguration -CallViaWorkCallerId +<PhoneNumber>
   ```
 
-    Por exemplo, o seguinte cmdlet configura o número de telefone global para 1-555-123-4567.
+    Por exemplo, o cmdlet a seguir define o número de telefone global como 1-555-123-4567.
     
   ```powershell
   Set-CsRoutingConfiguration -CallViaWorkCallerId +15551234567
   ```
 
-### <a name="create-a-call-via-work-policy"></a>Criar uma política Telefonar via Trabalho
+### <a name="create-a-call-via-work-policy"></a>Criar uma política telefonar via trabalho
 
-- Digite o seguinte cmdlet
+- Digite o cmdlet a seguir
     
   ```powershell
   New-CsCallViaWorkPolicy [-Identity] <XdsIdentity> [-Tenant <guid>] [-Enabled <bool>] [-UseAdminCallbackNumber  <bool>] [-AdminCallbackNumber <string>] [-InMemory] [-Force] [-WhatIf] [-Confirm]  [<CommonParameters>]
   ```
 
-    Por exemplo, o cmdlet a seguir cria uma chamada via política de trabalho chamada ContosoUser1CvWP, requer que o usuário use um número de retorno de chamada de administrador e define esse número de retorno de chamada para 1-555-789-1234.
+    Por exemplo, o cmdlet a seguir cria uma política Telefonar via Trabalho chamada ContosoUser1CvWP, exige que o usuário use um número de retorno de chamada de administrador e define esse número de retorno de chamada como 1-555-789-1234.
     
   ```powershell
   New-CsCallViaWorkPolicy -Identity Tag:ContosoUser1CvWP -Enabled $true -UseAdminCallbackNumber $true -AdminCallbackNumber +15557891234
   ```
 
-### <a name="assign-a-call-via-work-policy-to-a-user"></a>Atribuir uma chamada via política de trabalho a um usuário
+### <a name="assign-a-call-via-work-policy-to-a-user"></a>Atribuir uma política telefonar via trabalho a um usuário
 
-- Digite o seguinte cmdlet
+- Digite o cmdlet a seguir
     
   ```powershell
   Grant-CsCallViaWorkPolicy -Identity <UserName> -PolicyName Tag:<PolicyName>
   ```
 
-    Por exemplo, o cmdlet a seguir atribui a chamada via política de trabalho "ContosoUser1CvWP" ao usuário chamado **ContosoUser1**.
+    Por exemplo, o cmdlet a seguir atribui a política Telefonar via Trabalho "ContosoUser1CvWP" ao usuário chamado **ContosoUser1**.
     
   ```powershell
   Grant-CsCallViaWorkPolicy -Identity ContosoUser1 -PolicyName Tag:ContosoUser1CvWP
@@ -100,5 +100,5 @@ Depois que todos os pré-requisitos forem implantados, execute as seguintes aç�
 
 ## <a name="see-also"></a>Confira também
 
-[Planejar a chamada por meio do trabalho no Skype for Business Server](../plan-your-deployment/enterprise-voice-solution/call-via-work.md)
+[Planejar o Telefonar via Trabalho no Skype for Business Server](../plan-your-deployment/enterprise-voice-solution/call-via-work.md)
 

@@ -1,8 +1,8 @@
 ---
-title: Plan for Enterprise Voice resiliency in Skype for Business Server
+title: Planejar a resiliência do Enterprise Voice no Skype for Business Server
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -15,35 +15,35 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: b3671dcb-6a8b-4a06-84da-0c8837b35099
-description: Saiba como dar suporte à resiliência de voz no Skype for Business Server Enterprise Voice, em sites centrais e em sites de filiais. As opções de site de filiais incluem a implantação de aparelhos de ramificação sobreviventes ou servidores de ramificação sobreviventes.
-ms.openlocfilehash: e64ac79ef49339401c5b2d0bbb7d27140eca4296
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Saiba como dar suporte à resiliência de voz no Skype for Business Server Enterprise Voice, em sites centrais e filiais. As opções de site de filial incluem a implantação de Aparelhos de FilialVivíveis ou Servidores de Filial Sobrevivência.
+ms.openlocfilehash: d2b3efe36470e11d901b9b298cf955a04dd40766
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41802941"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49825751"
 ---
-# <a name="plan-for-enterprise-voice-resiliency-in-skype-for-business-server"></a>Plan for Enterprise Voice resiliency in Skype for Business Server
+# <a name="plan-for-enterprise-voice-resiliency-in-skype-for-business-server"></a>Planejar a resiliência do Enterprise Voice no Skype for Business Server
 
-Saiba como dar suporte à resiliência de voz no Skype for Business Server Enterprise Voice, em sites centrais e em sites de filiais. As opções de site de filiais incluem a implantação de aparelhos de ramificação sobreviventes ou servidores de ramificação sobreviventes.
+Saiba como dar suporte à resiliência de voz no Skype for Business Server Enterprise Voice, em sites centrais e filiais. As opções de site de filial incluem a implantação de Aparelhos de FilialVivíveis ou Servidores de Filial Sobrevivência.
 
-A resiliência de voz refere-se à capacidade de os usuários continuarem a fazer e receber chamadas se um site central que hospeda o Skype for Business Server ficar indisponível, seja por meio de uma falha de rede de longa distância (WAN) ou outra causa. Se um local central falhar, o serviço do Enterprise Voice deverá continuar sem interrupções por meio de failover direto para um local de backup. No caso de uma falha de WAN, as chamadas do local de filial deverão ser redirecionadas para um gateway PSTN local. Esta seção discute o planejamento de resiliência de voz no caso de uma falha do local central ou de WAN.
+A resiliência de voz se refere à capacidade dos usuários de continuar a fazer e receber chamadas se um site central que hospeda o Skype for Business Server ficar indisponível, seja por uma falha de rede de área ampla (WAN) ou por outra causa. Se um site central falhar, o serviço do Enterprise Voice deverá continuar sem interrupções por meio de failover contínuo para um site de backup. Em caso de falha da WAN, as chamadas de site de filial devem ser redirecionadas para um gateway PSTN local. Esta seção discute o planejamento de resiliência de voz no caso de falha de WAN ou de site central.
 
-## <a name="central-site-resiliency"></a>Resiliência do local central
+## <a name="central-site-resiliency"></a>Resiliência do site central
 
-Cada vez mais, as empresas possuem vários sites espalhados por todo o mundo. A manutenção de serviços de emergência, o acesso ao suporte técnico e a capacidade de conduzir tarefas essenciais para empresas quando um site central está fora do serviço é essencial para qualquer solução de resiliência de voz corporativa. Quando um site central torna-se indisponível, as seguintes condições devem ser atendidas:
+Cada vez mais, as empresas têm vários sites espalhados pelo mundo. Manter os serviços de emergência, o acesso ao help desk e a capacidade de realizar tarefas críticas de negócios quando um site central está fora de serviço é essencial para qualquer solução de resiliência do Enterprise Voice. Quando um site central fica indisponível, as seguintes condições devem ser atendidas:
 
 - O failover de voz deve ser fornecido.
 
-- Os usuários que normalmente se registram com o pool de front-end no site central devem ser capazes de se registrar com um pool de front-end alternativo. Isso pode ser feito criando vários registros SRV DNS, cada um deles resolve para um pool de directors ou um pool de front-end em cada um dos seus sites centrais. Você pode ajustar a prioridade e os pesos dos registros SRV para que os usuários que são servidos por esse site central obtenham o diretor e o pool de front-end correspondentes à frente daqueles em outros Registros SRV.
+- Os usuários que normalmente se registram no pool de Front-End no site central devem ser capazes de se registrar em um pool de Front-End alternativo. Isso pode ser feito criando vários registros SRV DNS, cada um deles resolvido para um pool de Diretores ou pool de Front-End em cada um dos seus sites centrais. Você pode ajustar a prioridade e os pesos dos registros SRV para que os usuários atendidos por esse site central recebam o Diretor e o pool de Front-End correspondentes antes daqueles em outros registros SRV.
 
-- As chamadas para/de usuários localizados em outros sites devem ser reencaminhadas para a PSTN.
+- As chamadas de e para usuários localizados em outros sites devem ser redirecionadas para a PSTN.
 
 Este tópico descreve a solução recomendada para proteger a resiliência de voz do site central.
 
 ### <a name="architecture-and-topology"></a>Arquitetura e topologia
 
-Planejar a resiliência de voz em um site central requer uma compreensão básica da função central executada pelo registrador do Skype for Business Server para habilitar o failover de voz. O registrador do Skype for Business Server é um serviço que permite registro e autenticação do cliente e fornece serviços de roteamento. Ele é executado em todos os aplicativos Standard Edition, servidor front-end, diretor ou em filiais sobreviventes. Um pool de registrador consiste em serviços de registrador em execução no pool de front-ends e no mesmo site. Um cliente Skype for Business descobre o pool de front-end por meio do seguinte mecanismo de descoberta:
+O planejamento da resiliência de voz em um site central requer uma compreensão básica da função central desempenhada pelo Registrador do Skype for Business Server na habilitação do failover de voz. O Registrador do Skype for Business Server é um serviço que habilita o registro e a autenticação do cliente e fornece serviços de roteamento. Ele é executado em todos os servidores Standard Edition, Servidor Front End, Diretor ou Aparelho de FilialVivível. Um pool de Registrador consiste em Serviços do Registrador em execução no pool de Front-End e residindo no mesmo site. Um cliente do Skype for Business descobre o pool de Front-End por meio do seguinte mecanismo de descoberta:
 
 1. Registro SRV de DNS
 
@@ -51,321 +51,322 @@ Planejar a resiliência de voz em um site central requer uma compreensão básic
 
 3. Opção 120 do DHCP
 
-Depois que o cliente Skype for Business se conecta ao pool de front-end, ele é direcionado pelo balanceador de carga para um dos servidores de front-end do pool. Esse servidor front-end, por sua vez, redireciona o cliente para um registrador preferencial no pool.
+Depois que o cliente do Skype for Business se conecta ao pool de Front-End, ele é direcionado pelo balanceador de carga para um dos Servidores front-end no pool. Esse Servidor Front End, por sua vez, redireciona o cliente para um Registrador preferencial no pool.
 
-Cada usuário habilitado para o Enterprise Voice é atribuído a um pool de registrador específico, que se torna o pool de registradores primários do usuário. Em um determinado site, centenas ou milhares de usuários normalmente compartilham um único pool de Registradores Avançados primário. Para calcular o consumo de recursos do site central pelos usuários do site de filial que dependem do site central para presença, conferência ou failover, recomendamos considerar cada usuário do site de filial como se fosse um usuário registrado no site central. No momento, não há limites quanto ao número de usuários de sites de filiais, incluindo usuários registrados em um aparelho de ramificação sobreviventes.
+Cada usuário habilitado para o Enterprise Voice é atribuído a um determinado pool de Registradores, que se torna o pool de Registradores Registradores primário desse usuário. Em um determinado site, centenas ou milhares de usuários normalmente compartilham um único pool de Registradores Primários. Para levar em conta o consumo de recursos do site central por qualquer usuário do site de filial que dependa do site central para presença, conferência ou failover, recomendamos que você considere cada usuário do site de filial como se fosse um usuário registrado no site central. Atualmente, não há limites para o número de usuários do site de filial, incluindo usuários registrados em um Aparelho de FilialVivível.
 
-Para garantir a resiliência de voz em caso de uma falha do site central, o pool de Registradores Avançados primário deve ter um único pool de Registradores Avançados de backup designado localizado em outro site. O backup pode ser configurado usando as configurações de resiliência do construtor de topologia. Supondo que haja um link WAN resiliente entre os dois sites, os usuários cujo pool de Registradores Avançados primário não está mais disponível serão direcionados automaticamente para pool de backup.
+Para garantir a resiliência de voz em caso de falha do site central, o pool de Registradores Registradores primário deve ter um único pool de Registrador de backup designado localizado em outro site. O backup pode ser configurado usando as configurações de resiliência do Construtor de Topologias. Supondo um link WAN resiliente entre os dois sites, os usuários cujo pool de Registrador principal não está mais disponível serão direcionados automaticamente para o pool de registradores de backup.
 
-As etapas a seguir descrevem o processo de descoberta e registro de clientes:
+As etapas a seguir descrevem o processo de descoberta e registro do cliente:
 
-1. Um cliente descobre o Skype for Business Server por meio de registros SRV DNS. No Skype for Business Server, os registros SRV DNS podem ser configurados para retornar mais de um FQDN para a consulta SRV DNS. Por exemplo, se a empresa Contoso tiver três sites centrais (América do Norte, Europa e Ásia-Pacífico) e um pool de Diretores em cada um desses sites, os registros DNS SRV poderão apontar para os FQDNs do pool de Diretores em cada um dos três locais. Desde que o pool do diretor de um dos locais esteja disponível, o cliente pode se conectar ao primeiro nó do Skype for Business Server.
+1. Um cliente descobre o Skype for Business Server por meio de registros SRV DNS. No Skype for Business Server, os registros SRV DNS podem ser configurados para retornar mais de um FQDN para a consulta SRV dns. Por exemplo, se a empresa Contoso tiver três sites centrais (América do Norte, Europa e Ásia-Pacífico) e um pool de Diretores em cada site central, os registros SRV DNS poderão apontar para os FQDNs do pool de Diretores em cada um dos três locais. Enquanto o pool de Diretores em um dos locais está disponível, o cliente pode se conectar ao Skype for Business Server de primeiro salto.
 
     > [!NOTE]
-    > Usar um pool de diretor é opcional. Um pool de front-ends pode ser usado em vez disso.
+    > Usar um pool de Diretores é opcional. Um pool de Front-End pode ser usado em vez disso.
 
-2. O pool de directors informa ao cliente do Skype for Business sobre o pool de registradores primários do usuário e o pool de registrador de backup.
+2. O pool de Diretores informa ao cliente Skype for Business sobre o pool de Registradores Registradores primário do usuário e o pool de Registradores De backup.
 
-3. O cliente Skype for Business tenta se conectar ao pool de registradores primários do usuário primeiro. Se esse pool estiver disponível, o Registrador Avançado aceitará o registro. Se o pool de registrador primário estiver indisponível, o cliente Skype for Business tentará se conectar ao pool de registradores de backup. Se o pool de registrador de backup estiver disponível e tiver determinado que o pool de registradores primários do usuário não está disponível (detectando a falta de pulsação para um intervalo de failover especificado), o pool de registrador de backup aceita o registro do usuário. Depois que o Registrador Avançado de backup detectar que o Registrador Avançado primário está novamente disponível, o pool de backup redirecionará os clientes de failover para seu pool primário.
+3. O cliente Skype for Business tenta se conectar ao pool de Registradores Registradores primário do usuário primeiro. Se o pool de Registradores Primários estiver disponível, o Registrador aceitará o registro. Se o pool de Registradores Primários estiver indisponível, o cliente skype for Business tentará se conectar ao pool de registradores de backup. Se o pool de Registradores De backup estiver disponível e tiver determinado que o pool de Registradores Registradores primário do usuário não está disponível (detectando uma falta de pulsação para um intervalo de failover especificado), o pool de registradores de backup aceitará o registro do usuário. Depois que o Registrador de backup detectar que o Registrador primário está novamente disponível, o pool de registradores de backup redireciona os clientes de failover para seu pool primário.
 
 ### <a name="requirements-and-recommendations"></a>Requisitos e recomendações
 
-Os seguintes requisitos e recomendações para a implementação da resiliência de voz do site central são apropriados para a maioria das organizações:
+Os seguintes requisitos e recomendações para implementar a resiliência de voz do site central são apropriados para a maioria das organizações:
 
-- Os sites nos quais residem os pools de Registradores Avançados primário e de backup devem estar conectados por um link WAN resiliente.
+- Os sites nos quais residem os pools de Registradores Registradores primários e de backup devem ser conectados por um link WAN resiliente.
 
-- Cada site central deve conter um pool de Registradores Avançados que consiste em um ou mais Registradores Avançados.
+- Cada site central deve conter um pool de Registrador consistindo em um ou mais Registradores.
 
-- Cada pool de Registradores Avançados deve ter sua carga balanceada por meio do balanceamento de carga DNS, do balanceamento de carga de hardware ou de ambos. Para obter informações detalhadas sobre como planejar a configuração de balanceamento de carga, consulte [requisitos de balanceamento de carga para o Skype for Business](../../plan-your-deployment/network-requirements/load-balancing.md).
+- Cada pool do Registrador deve ter balanceamento de carga usando balanceamento de carga DNS, balanceamento de carga de hardware ou ambos. Para obter informações detalhadas sobre como planejar sua configuração de balanceamento de carga, consulte Requisitos de balanceamento de [carga do Skype for Business.](../../plan-your-deployment/network-requirements/load-balancing.md)
 
-- Cada usuário deve ser atribuído a um pool principal de registradores usando o cmdlet **set-CsUser** do Shell de gerenciamento do Skype for Business Server ou o painel de controle do Skype for Business Server.
+- Cada usuário deve ser atribuído a um pool de Registradores Primário usando o cmdlet **set-CsUser** do Shell de Gerenciamento do Skype for Business Server ou o Painel de Controle do Skype for Business Server.
 
-- O pool primário deve ter um único pool de backup localizado em um site central diferente.
+- O pool de Registradores Registradores primário deve ter um único pool de registradores de backup localizado em um site central diferente.
 
-- O pool de Registradores Avançados primário deve ser configurado de modo que seja feito o seu failover para o pool de Registradores Avançados de backup. Por padrão, o Registrador primário é definido para que esse failover ocorra após um intervalo de 300 segundos. Você pode alterar esse intervalo usando o construtor de topologias do Skype for Business Server.
+- O pool de Registradores Registradores primário deve ser configurado para fazer fail over para o pool de registradores de backup. Por padrão, o Registrador primário é definido para fazer fail over para o pool de registradores de backup após um intervalo de 300 segundos. Você pode alterar esse intervalo usando o Construtor de Topologias do Skype for Business Server.
 
-- Configure uma rota de failover. Ao configurar a rota, especifique um gateway que está localizado em um site diferente do gateway especificado na rota primária.
+- Configurar uma rota de failover. Ao configurar a rota, especifique um gateway que está localizado em um site diferente do gateway especificado na rota primária.
 
-- Se o site central continha seu servidor de gerenciamento principal e se o site estiver inoperante por um período prolongado, será necessário reinstalar as ferramentas de gerenciamento no local de backup; caso contrário, você não poderá alterar nenhuma configuração de gerenciamento.
+- Se o site central contiver seu servidor de gerenciamento principal e o site provavelmente ficar ino mesmo por um longo período, você precisará reinstalar suas ferramentas de gerenciamento no site de backup; caso contrário, você não poderá alterar as configurações de gerenciamento.
 
 ### <a name="dependencies"></a>Dependências
 
-O Skype for Business Server depende dos seguintes componentes de infraestrutura e software para garantir a resiliência de voz:
+O Skype for Business Server depende dos seguintes componentes de software e infraestrutura para garantir a resiliência de voz:
 
 |**Componente** <br/> |**Funcional** <br/> |
 |:-----|:-----|
-|DNS  <br/> |Resolver registros SRV e registros A para conectividade de servidor-servidor e servidor-cliente  <br/> |
-|Exchange e Serviços Web do Exchange (EWS)  <br/> |Armazenamento de contatos; dados do calendário  <br/> |
-|Unificação de Mensagens do Exchange e Serviços Web do Exchange  <br/> |Logs de chamada, lista de caixas postais, caixa postal  <br/> |
-|Opções 120 do DHCP  <br/> |Se o DNS SRV não estiver disponível, o cliente tentará usar a Opção 120 do DHCP para descobrir o Registrador Avançado. Para que isso funcione, um servidor DHCP deve ser configurado ou o DHCP do Skype for Business Server deve estar habilitado.  <br/> |
+|DNS  <br/> |Resolvendo registros SRV e registros A para conectividade servidor-servidor e servidor-cliente  <br/> |
+|Exchange e Serviços Web do Exchange (EWS)  <br/> |Armazenamento de contatos; dados de calendário  <br/> |
+|Unificação de Mensagens do Exchange e Serviços Web do Exchange  <br/> |Logs de chamadas, lista de caixa postal, caixa postal  <br/> |
+|Opções 120 do DHCP  <br/> |Se o DNS SRV não estiver disponível, o cliente tentará usar a Opção 120 do DHCP para descobrir o Registrador. Para que isso funcione, um servidor DHCP deve ser configurado ou o DHCP do Skype for Business Server deve estar habilitado.  <br/> |
 
-### <a name="survivable-voice-features"></a>Recursos de voz persistente
+### <a name="survivable-voice-features"></a>Recursos de voz que sãovivíveis
 
-Se os requisitos e as recomendações anteriores tiverem sido implementados, os seguintes recursos de voz serão fornecidos pelo pool de Registradores Avançados de backup:
+Se os requisitos e recomendações anteriores foram implementados, os seguintes recursos de voz serão fornecidos pelo pool de registradores de backup:
 
 - Chamadas PSTN de saída
 
-- Chamadas PSTN de entrada, se o provedor de serviços de telefonia oferecer suporte ao failover para um site de backup
+- Chamadas PSTN de entrada, se o provedor de serviços de telefonia suportar a capacidade de fazer fail over para um site de backup
 
 - Chamadas corporativas entre usuários no mesmo site e entre dois sites diferentes
 
-- Administração básica de chamadas, incluindo espera, recuperação e transferência de chamadas
+- Manipulação de chamada básica, incluindo chamada em espera, recuperação e transferência
 
-- Mensagens instantâneas entre dois participantes e compartilhamento de áudio e vídeo entre usuários no mesmo site
+- Mensagens instantâneas de duas partes e compartilhamento de áudio e vídeo entre usuários no mesmo site
 
-- Encaminhamento de chamadas, toque simultâneo de pontos de extremidade, delegação de chamadas e serviços de chamada de equipe, mas somente se as duas partes da delegação de chamadas, ou todos os membros da equipe, estiverem configurados no mesmo site.
+- Encaminhamento de chamada, toque simultâneo de pontos de extremidade, delegação de chamada e serviços de chamada de equipe, mas somente se ambas as partes da delegação de chamada, ou todos os membros da equipe, estão configuradas no mesmo site.
 
-- Os clientes e telefones existentes continuam funcionando.
+- Os telefones e clientes existentes continuam a funcionar.
 
-- Registro de detalhes das chamadas (CDR)
+- CDR (registro de detalhes das chamadas)
 
 - Autenticação e autorização
 
-Dependendo de como são configurados, os seguintes recursos de voz podem ou não funcionar quando um site central primário está fora de serviço:
+Dependendo de como eles estão configurados, os seguintes recursos de voz podem ou não funcionar quando um site central primário está fora de serviço:
 
 - Depósito e recuperação de caixa postal
 
-    Se você desejar disponibilizar o UM do Exchange quando o site central primário estiver fora de serviço, deverá fazer o seguinte:
+    Se você quiser disponibilizar a UM do Exchange quando o site central principal estiver fora de serviço, faça o seguinte:
 
-  - Altere os registros DNS SRV para que os servidores do UM do Exchange no site central apontem para os servidores de backup do UM do Exchange em outro site.
+  - Altere os registros DNS SRV para que os servidores um do Exchange no site central apontem para os servidores de UM do Exchange em outro local.
 
-  - Configure o plano de discagem do Exchange UM de cada usuário para incluir servidores do Exchange UM no site central e no site de backup, mas designe os servidores de backup UM do Exchange como desabilitado. Se o site primário ficar indisponível, o administrador do Exchange precisará marcar os servidores do Exchange UM no site de backup como habilitado.
+  - Configure o plano de discagem de UM do Exchange de cada usuário para incluir servidores um do Exchange no site central e no site de backup, mas designe os servidores um do Exchange de backup como desabilitados. Se o site primário ficar indisponível, o administrador do Exchange terá que marcar os servidores UM do Exchange no site de backup como habilitados.
 
-    Se nenhuma das soluções anteriores for possível, o Exchange UM não estará disponível em caso de o site central ficar indisponível.
+    Se nenhuma das soluções anteriores for possível, a UM do Exchange não estará disponível caso o site central fique indisponível.
 
 - Conferência de todos os tipos
 
-    Um usuário que fez failover para um site de backup pode ingressar em uma conferência criada ou hospedada por um organizador cujo pool está disponível, mas não pode criar nem hospedar uma conferência no seu próprio pool primário, que não está mais disponível. Da mesma forma, outros usuários não conseguem ingressar em conferências hospedadas no pool primário do usuário afetado.
+    Um usuário que fez o failed over para um site de backup pode ingressar em uma conferência criada ou hospedada por um organizador cujo pool está disponível, mas não pode criar ou hospedar uma conferência em seu próprio pool principal, que não está mais disponível. Da mesma forma, outros usuários não podem ingressar em conferências hospedadas no pool primário do usuário afetado.
 
 Os seguintes recursos de voz não funcionam quando um site central primário está fora de serviço:
 
-- Atendedor Automático de Conferência
+- Atendente Automático de Conferência
 
 - Roteamento baseado em DND e presença
 
-- Atualização de configurações de encaminhamento de chamadas
+- Atualizando as configurações de encaminhamento de chamada
 
 - Serviço de Grupo de Resposta e Estacionamento de Chamada
 
-- Provisionamento de novos telefones e clientes
+- Provisionando novos telefones e clientes
 
-- Pesquisa do Catálogo de Endereços na Web
+- Pesquisa da Web do Address Book
 
-## <a name="branch-site-resiliency"></a>Resiliência do site de filial
+## <a name="branch-site-resiliency"></a>Resiliência de site de filial
 
-Se você quiser fornecer resiliência de filial do site, ou seja, serviço Enterprise Voice de alta disponibilidade, terá três opções para fazer isso:
+Se você quiser fornecer resiliência de site de filial, ou seja, o serviço enterprise Voice de alta disponibilidade, você tem três opções para fazer isso:
 
-- Aparelho de Filial Persistente
+- Aplicativo de Filial Persistente
 
-- Servidor de Filial Persistente
+- Survivable Branch Server
 
-- Uma implantação completa do Skype for Business Server no site da filial
+- Uma implantação completa do Skype for Business Server no site de filial
 
 Este guia ajudará você a avaliar qual solução de resiliência é melhor para a organização e, com base em sua solução de resiliência, a solução de conectividade PSTN a ser usada. Ele também o ajuda a se preparar para implantar a solução escolhida, descrevendo os pré-requisitos e outras considerações de planejamento.
 
 ### <a name="branch-site-resiliency-features"></a>Recursos de resiliência do site de filial
 
-Se você fornecer resiliência de filial do site, se a conexão de WAN de um site de filial com um site central falhar ou se o site central estiver inacessível, os seguintes recursos de voz devem continuar disponíveis:
+Se você fornecer resiliência de site de filial, se a conexão WAN de um site de filial a um site central falhar ou se o site central estiver inacessível, os seguintes recursos de voz deverão continuar disponíveis:
 
-- Chamadas de rede de telefonia pública comutada (PSTN) de entrada e saída
+- Chamadas PSTN (rede telefônica pública comutado) de entrada e saída
 
 - Chamadas corporativas entre usuários no mesmo site e entre dois sites diferentes
 
-- Administração básica de chamadas, incluindo espera, recuperação e transferência de chamadas
+- Manipulação de chamada básica, incluindo chamada em espera, recuperação e transferência
 
-- Mensagens instantâneas de dois participantes
+- Mensagens instantâneas de duas partes
 
-- Encaminhamento de chamadas, toque simultâneo de pontos de extremidade, delegação de chamadas e serviços de chamada de equipe, mas somente se o delegante e representante (por exemplo, um gerente e o administrador do gerente) ou todos os membros da equipe, estiverem configurados no mesmo site
+- Encaminhamento de chamada, toque simultâneo de pontos de extremidade, delegação de chamada e serviços de chamada de equipe, mas somente se o delegante e o representante (por exemplo, um gerente e o administrador do gerente) ou todos os membros da equipe estão configurados no mesmo site
 
-- Registros de detalhes de chamadas (CDRs)
+- Registros de detalhes das chamada (CDRs)
 
 - Conferência de discagem PSTN com Atendedor Automático de Conferência
 
-- Recursos de caixa postal, se forem configuradas definições de reroteamento de caixa postal.
+- Recursos de caixa postal, se você definir as configurações de rerotinação de caixa postal.
 
 - Autenticação e autorização de usuário
 
-Os recursos a seguir estarão disponíveis apenas se a sua solução de resiliência for uma implantação do Skype for Business Server de dimensionamento completo no site da filial:
+Os seguintes recursos estarão disponíveis somente se sua solução de resiliência for uma implantação completa do Skype for Business Server no site de filial:
 
-- Conferências de IM, webconferências e conferências de A/V
+- Conferência de IM, Web e A/V
 
-- Presença e roteamento baseado em Não Incomodar (DND), onde as chamadas não tocam em extensões com o DND ativado
+- Roteamento baseado em Presença e Não Incomodar (DND) (onde as chamadas são impedidas de tocar em ramais que têm o DND ativado)
 
-- Atualização de configurações de encaminhamento de chamadas
+- Atualizando as configurações de encaminhamento de chamada
 
-- Aplicativo grupo de resposta e aplicativo de estacionamento de chamada
+- Aplicativo Grupo de Resposta e aplicativo Estacionamento de Chamada
 
-- Provisionar novos telefones e clientes, mas somente se os serviços de domínio Active Directory estiverem presentes no site de filial.
+- Provisionamento de novos telefones e clientes, mas somente se o Active Directory Domain Services estiver presente no site de filial.
 
-- 9-1-1 Avançado (E9-1-1)
+- Enhanced 9-1-1 (E9-1-1)
 
-    Se o E9-1-1 estiver implantado e o tronco SIP no site central não estiver disponível porque o link de WAN está indisponível, então o aparelho de ramificação sobreviventes roteará chamadas E9-1-1 para o gateway de filial local. Para habilitar esse recurso, as políticas de voz dos usuários do site de filial devem direcionar chamadas para o gateway local em caso de falha de WAN.
+    Se o E9-1-1 estiver implantado e o tronco SIP no local central não estiver disponível porque o link WAN está inocável, o Aparelho de FilialVivível encaminhará as chamadas E9-1-1 para o gateway de filial local. Para habilitar esse recurso, as políticas de voz dos usuários do site de filial devem rotear chamadas para o gateway local em caso de falha da WAN.
 
 > [!NOTE]
-> O SBA (aparelho de filial persistente) não tem suporte no XMPP. Os usuários hospedados em uma configuração do SBA não poderão enviar mensagens de chat nem ver a presença com os contatos do XMPP.
+> O SBA (escritório de filial sobrevivência) não é suportado para XMPP. Os usuários que estão em uma configuração do SBA não poderão enviar mensagens IMs ou ver a Presença com contatos XMPP.
 
-### <a name="branch-site-resiliency-solutions"></a>Soluções de resiliência do site de filial
+### <a name="branch-site-resiliency-solutions"></a>Soluções de resiliência de site de filial
 
-A resiliência de sites de filial proporciona vantagens evidentes à sua organização. Especificamente, se você perder a conexão com o site central, os usuários do site de filial continuarão a ter serviço Enterprise Voice e correio de voz (se você definir as configurações de redirecionamento de caixa postal). Entretanto, em sites com menos de 25 usuários, a solução de resiliência poderá não gerar um retorno adequado sobre o investimento.
+Há vantagens óbvias em fornecer resiliência de site de filial à sua organização. Especificamente, se você perder a conexão com o site central, os usuários do site de filial continuarão a ter o serviço do Enterprise Voice e a caixa postal (se você definir as configurações de redirecionamento de caixa postal). No entanto, para sites com menos de 25 usuários, uma solução de resiliência pode não fornecer um retorno suficiente sobre o investimento.
 
-Há três opções para fornecer a resiliência do site de filial. A tabela a seguir o ajudará a determinar qual opção é a melhor para sua organização.
+Se decidir fornecer a resiliência do site de filial, você tem três opções. Use a tabela a seguir para ajudá-lo a determinar qual opção é a melhor para sua organização.
 
 |**Se você…**|**Recomendamos que você use um(a)…**|
 |:-----|:-----|
-|Hospedar entre 25 e 1.000 usuários no seu site de filial e se o retorno sobre o investimento não permitir uma implantação completa ou quando não houver suporte administrativo local disponível  <br/> |Aparelho de Filial Persistente  <br/> O appliance de ramificação sobreviventes é um servidor blade padrão do setor com um servidor de registrador e mediação do Skype for Business Server executado no Windows Server 2008 R2. O aparelho de ramificação sobreviventes também contém um gateway PSTN (rede telefônica pública comutada). Dispositivos qualificados de terceiros (desenvolvidos por parceiros da Microsoft no programa de qualificação/certificação SBA [Aparelho de Filial Persistente]) fornecem uma conexão PSTN contínua em caso de falha da WAN, mas essa abordagem não oferece presença e conferência resilientes porque esses recursos dependem dos Servidores Front-End do site central.  <br/> Para obter detalhes sobre os aparelhos de ramificação sobreviventes, consulte "detalhes do aplicativo da ramificação sobreviventes", posteriormente neste tópico.  <br/> **Observação:** Se você decidir usar também um tronco SIP com o seu aparelho de ramificação sobreviventes, entre em contato com o fornecedor da sua agência para saber mais sobre qual provedor de serviços é melhor para a sua organização. <br/> |
-|Host entre os usuários do 1000 e do 2000 no seu site da sua filial, sem conexão de WAN resistente e com os administradores do Skype for Business Server treinados disponíveis  <br/> |Servidor de ramificação sobreviventes ou dois aparelhos de ramificação sobreviventes.  <br/> O servidor de ramificação sobreviventes é uma reunião do Windows Server que especifica requisitos de hardware que têm o software servidor de mediação e servidor de mediação do Skype for Business Server instalado. Ele deve estar conectado a um provedor de serviços telefônicos por meio de um gateway PSTN ou de um tronco SIP.  <br/> Para obter detalhes sobre os servidores de ramificação sobreviventes, consulte "detalhes do servidor de ramificação sobreviventes", posteriormente neste tópico.  <br/> |
-|Se você precisar de recursos de presença e conferência, além de recursos de voz para até 5000 usuários, e tiver treinado os administradores do Skype for Business Server disponíveis  <br/> |Implante como um site central com um servidor Standard Edition e não como um site de filial.  <br/> Uma implantação completa do Skype for Business Server oferece uma conexão PSTN contínua e presença e presença resilientes e conferência em caso de falha de WAN.  <br/> |
+|Hospede entre 25 e 1.000 usuários no seu site de filial se o retorno sobre o investimento não suportar uma implantação completa ou em um local em que o suporte administrativo não estiver disponível  <br/> |Aplicativo de Filial Persistente  <br/> O Aparelho de Filial Resistente é um servidor blade padrão do setor com um Registrador e Servidor de Mediação do Skype for Business Server em execução no Windows Server 2008 R2. O Aparelho de Filial Survivível também contém um gateway PSTN (rede telefônica pública comutado). Dispositivos qualificados de terceiros (desenvolvidos pelos parceiros da Microsoft no programa de qualificação/certificação SBA [aparelho de filial persistente]) fornece uma conexão PSTN contínua caso uma WAN falhe, mas essa abordagem não fornece a presença e a conferência resilientes porque esses recursos dependem do servidores Front-End no site central.  <br/> Para obter detalhes sobre Aparelhos de FilialVivíveis, consulte "Detalhes do Aparelho de FilialVivível", posteriormente neste tópico.  <br/> **Observação:** Se você também decidir usar um tronco SIP com seu Aparelho de Filial Confiável, entre em contato com seu fornecedor de Aparelho de Filial Confiável para saber qual é o melhor provedor de serviços para sua organização. <br/> |
+|Hospedar entre 1.000 e 2.000 usuários em seu site de filial, não ter uma conexão WAN resiliente e ter administradores treinados do Skype for Business Server disponíveis  <br/> |Servidor de FilialVivível ou dois Aparelhos de FilialVivível.  <br/> O Servidor de Filial Survivable é um Windows Server que está a fim de atender aos requisitos de hardware especificados que têm o Registrador do Skype for Business Server e o software do Servidor de Mediação instalados nele. Ele deve ser conectado a um gateway PSTN ou a um tronco SIP a um provedor de serviço telefônico.  <br/> Para obter detalhes sobre Os Servidores de FilialVivíveis, consulte "Detalhes do Servidor de FilialVivível", posteriormente neste tópico.  <br/> |
+|Se você precisar de recursos de presença e conferência além de recursos de voz para até 5.000 usuários e tiver treinado administradores do Skype for Business Server disponíveis  <br/> |Implante como um site central com um servidor Standard Edition e não como um site de filial.  <br/> Uma implantação completa do Skype for Business Server oferece uma conexão PSTN contínua e presença e conferência resilientes em caso de falha de WAN.  <br/> |
 
-#### <a name="resiliency-topologies"></a>Topologias de resiliência
+#### <a name="resiliency-topologies"></a>Topologia de resiliência
 
 A figura a seguir mostra as topologias recomendadas para a resiliência do site de filial.
 
 **Opções de resiliência do site de filial**
 
-![Opções de resiliência de ramificação de voz](../../media/Plan_OCS_Voice_BranchResiliencyOptions.jpg)
+![Opções de Resiliência de Filial de Voz](../../media/Plan_OCS_Voice_BranchResiliencyOptions.jpg)
 
-#### <a name="survivable-branch-appliance-details"></a>Detalhes do Aparelho de Filial Persistente
+#### <a name="survivable-branch-appliance-details"></a>Detalhes do aparelho de filial persistente
 
-O aplicativo de ramificação do Skype for Business Server para filiais sobreviventes inclui os seguintes componentes:
+O Aparelho de FilialVivível do Skype for Business Server inclui os seguintes componentes:
 
-- Um Registrador Avançado para autenticação do usuário, registro e roteamento de chamadas
+- Um Registrador para a autenticação do usuário, registro e roteamento de chamada
 
-- Um Servidor de Mediação para tratar a sinalização entre o Registrador Avançado e o gateway PSTN
+- Um Servidor de Mediação para a manipulação de sinalização entre o Registrador e o gateway PSTN
 
-- Um gateway PSTN para o roteamento de chamadas para a PSTN como um transporte fallback no caso de uma interrupção da WAN
+- Um gateway PSTN para o roteamento de chamadas ao PSTN como um transporte fallback no caso de uma interrupção da WAN
 
-- O SQL Server Express para armazenamento de dados local do usuário
+- SQL Server Express para armazenamento de dados do usuário local
 
-O aparelho de ramificação sobreviventes também inclui troncos PSTN, portas analógicas e adaptador Ethernet.
+O Aparelho de Filial Survivable também inclui troncos PSTN, portas analógicas e um adaptador Ethernet.
 
-Se a conexão de WAN do site de filial com um site central ficar indisponível, os usuários da ramificação interna continuarão a ser registrados com o registrador de appliances da ramificação sobreviventes e obter serviço de voz ininterrupto usando a conexão de aparelho de ramificação sobreviventes para a PSTN. Os usuários do site de filial que se conectarem de casa ou de outros locais remotos serão capazes de se registrar em um servidor do Registrador Avançado em um site central quando um link WAN com o site de filial não estiver disponível. Esses usuários contarão com total funcionalidade de comunicações unificadas, sendo a única exceção as chamadas de entrada para o site de filial, que irão para a caixa postal. Quando a conexão WAN voltar a ficar disponível, a funcionalidade total deverá ser restabelecida para os usuários do site de filial. Nem o failover para o aparelho de ramificação sobreviventes nem a restauração do serviço exige a presença de um administrador de ti.
+Se a conexão WAN do site de filial a um site central ficar indisponível, os usuários internos de filial continuarão a ser registrados com o Registrador de Aparelho de Filial Contínua e obterão o serviço de voz ininterrupto usando a conexão do Aparelho de Filial Survivível com a PSTN. Os usuários do site de filial que se conectam de casa ou de outro locais remotos serão capazes de se registrar com um servidor Registrador em um site central quando um link de WAN ao site de filial estiver indisponível. Esses usuários terão a funcionalidade de comunicações completamente unificadas com única exceção de que as chamadas de entrada ao site de filial irão para a caixa postal. Quando a conexão WAN voltar a ficar disponível, a funcionalidade total deve ser restabelecida aos usuários do site de filial. Nem o failover para o Aparelho de FilialVivível nem a restauração do serviço exigem a presença de um administrador de IT.
 
-O Skype for Business Server tem suporte para até dois appliances para filiais sobreviventes em um site de filiais.
+O Skype for Business Server dá suporte a até dois Aparelho de FilialVivível em um site de filial.
 
-#### <a name="survivable-branch-appliance-deployment-overview"></a>Visão geral da implantação do aparelho de filial persistente
+#### <a name="survivable-branch-appliance-deployment-overview"></a>Visão geral de implantação de aparelho de filial persistente
 
-O aparelho para filiais sobreviventes é fabricado por fabricantes de equipamento original em parceria com a Microsoft e implantado em nome de revendedores de valor agregado. Essa implantação deve ocorrer somente após a implantação do Skype for Business Server no site central, uma conexão de WAN com o site de filial e os usuários do site da filial serem habilitados para o Enterprise Voice.
+O Aparelho de Filial Survivable é fabricado por fabricantes de equipamento original em parceria com a Microsoft e implantado em nome deles por varejistas de valor agregado. Essa implantação deve ocorrer somente depois que o Skype for Business Server tiver sido implantado no site central, uma conexão WAN com o site de filial está no local e os usuários do site de filial estão habilitados para o Enterprise Voice.
 
 Para obter detalhes sobre essas fases, consulte [Deploying a Survivable Branch Appliance or Server](https://technet.microsoft.com/library/cb780c14-dc5f-41ba-8092-f20ae905bd16.aspx) na documentação de Implantação.
 
 |**Fase**|**Etapas**|**Direitos do usuário**|
 |:-----|:-----|:-----|
-|Configurar os serviços de domínio do Active Directory para o aparelho de ramificação sobreviventes  <br/> |**No site central:** <br/>  Crie uma conta de usuário de domínio (ou identidade empresarial) para o técnico que instalará e ativará o aparelho de ramificação sobreviventes no site da filial. <br/>  Crie uma conta de computador (com o nome de domínio totalmente qualificado (FQDN) aplicável) para o aparelho de ramificação sobreviventes nos serviços de domínio Active Directory. <br/>  Em Construtor de topologia, crie e publique o aparelho de ramificação sobreviventes. <br/> |A conta de usuário do técnico deve ser membro do grupo RTCUniversalSBATechnicians. O aparelho de ramificação sobreviventes deve pertencer ao grupo RTCSBAUniversalServices, que acontece automaticamente quando você usa o construtor de topologias.  <br/> |
-|Instale e ative o aparelho de ramificação sobreviventes.  <br/> |**No site de filial:** <br/>  Conecte o aparelho de ramificação sobreviventes a uma porta Ethernet e a uma porta PSTN. <br/>  Inicie o aparelho de ramificação sobreviventes. <br/>  Ingresse na ramificação da ramificação sobreviventes para o domínio usando a conta de usuário do domínio criada para o aparelho de ramificação sobreviventes no site central. Defina o FQDN e o endereço IP para corresponderem ao FQDN criado na conta do computador. <br/>  Configure o aparelho de ramificação sobreviventes usando a interface de usuário do OEM. <br/>  Teste a conectividade PSTN. <br/> |A conta de usuário do técnico deve ser membro do grupo RTCUniversalSBATechnicians.  <br/> |
+|Configurar os Serviços de Domínio do Active Directory para o Aparelho de FilialVivível  <br/> |**No site central:** <br/>  Crie uma conta de usuário de domínio (ou identidade corporativa) para o técnico que instalará e ativará o Aparelho de Filial Sobrevivência no site de filial. <br/>  Crie uma conta de computador (com o FQDN (nome de domínio totalmente qualificado) aplicável) para o Aparelho de Filial Survivable nos Serviços de Domínio do Active Directory. <br/>  No Construtor de Topologias, crie e publique o Aparelho de FilialVivível. <br/> |O usuário técnico deve ser um membro do RTCUniversalSBATechnicians. O Aparelho de Filial Remanescente deve pertencer ao grupo RTCSBAUniversalServices, que acontece automaticamente quando você usa o Construtor de Topologias.  <br/> |
+|Instale e ative o Aparelho de Filial Sobrevivência.  <br/> |**No site de filial:** <br/>  Conecte o Aparelho de Filial Survivível a uma porta Ethernet e porta PSTN. <br/>  Inicie o Aparelho de FilialVivível. <br/>  In join the Survivable Branch Appliance to the domain, using the domain user account created for the Survivable Branch Appliance at the central site. Defina o FQDN e o endereço IP para corresponderem ao FQDN criado na conta do computador. <br/>  Configure o Aparelho de Filial Survivível usando a interface do usuário OEM. <br/>  Teste a conectividade do PSTN. <br/> |O usuário técnico deve ser um membro do RTCUniversalSBATechnicians.  <br/> |
 
-#### <a name="survivable-branch-server-details"></a>Detalhes do Servidor de Filial Persistente
+#### <a name="survivable-branch-server-details"></a>Detalhes do servidor de filial persistente
 
-Em Construtor de topologias, crie o site de ramificação, adicione o servidor de ramificação sobreviventes a esse site e execute o assistente de implantação do Skype for Business Server no computador onde você deseja instalar a função.
+No Construtor de Topologias, crie o site de filial, adicione o Servidor de Filial Survivable a esse site e execute o Assistente de Implantação do Skype for Business Server no computador em que você deseja instalar a função.
 
-### <a name="branch-site-resiliency-requirements"></a>Requisitos de resiliência do site da filial
+### <a name="branch-site-resiliency-requirements"></a>Requisitos de resiliência do site de filial
 
-Este tópico ajudará você a preparar os usuários para resiliência do site de filial e persistência da caixa postal. Ele também especifica os requisitos importantes de hardware e software.
+Este tópico ajudará a você preparar usuários para resiliência de site de filial e persistência da caixa postal, e também especifica os requisitos de hardware e software importantes.
 
-#### <a name="preparing-branch-users-for-branch-site-resiliency"></a>Preparação de usuários da filial para resiliência do site de filial
 
-Prepare os usuários para a resiliência de site de filial definindo o pool registrador como o aparelho de ramificação sobreviventes (SBA) ou o servidor de ramificação sobreviventes.
+#### <a name="preparing-branch-users-for-branch-site-resiliency"></a>Preparação de usuários da filial para resiliência de site de filial
 
-#### <a name="registrar-assignments-for-branch-users"></a>Atribuições do Registrador Avançado para usuários da filial
+Prepare os usuários para resiliência do site de filial definindo seu pool de Registrador como o Aparelho de Filial Survivável (SBA) ou Servidor de Filial Survivable.
 
-Independentemente da solução de resiliência de site de filial escolhida, será necessário atribuir um Registrador Avançado primário a cada usuário. Os usuários do site de ramificação sempre devem se registrar no registrador de site, independentemente de o registrador residir na ramificação da ramificação sobreviventes, no servidor de ramificação sobreviventes ou no aplicativo autônomo do Skype for Business Server ou Enterprise Edition servidor. Um registro DNS (Sistema de Nomes de Domínio) de recurso de serviços (SRV) é necessário para que o cliente possa descobrir o seu pool de Registradores Avançados. Se o aparelho de ramificação sobreviventes ficar indisponível, é como os clientes do site de filiais detectam automaticamente o registrador de backup.
+#### <a name="registrar-assignments-for-branch-users"></a>Atribuições do registrador avançado para usuários da filial
 
-Se um site de filial não tiver um servidor DNS, existem duas maneiras alternativas para configurar a descoberta do aparelho de ramificação sobreviventes ou do servidor de ramificação sobreviventes:
+Independentemente da solução de resiliência do site de filial escolhida, você precisará atribuir um Registrador primário a cada usuário. Os usuários do site de filial devem sempre se registrar com o Registrador no site de filial, independentemente de o Registrador residir no Aparelho de Filial Survivível, no Servidor de Filial Autônomo ou no Skype for Business Server Standard ou no servidor Enterprise Edition. Um registro de recurso de serviço (SRV) de sistema de nome de domínio (DNS) é necessário para que o cliente possa descobrir seu pool de Registrador. Se o Aparelho de Filial Survivível ficar indisponível, é assim que os clientes do site de filial descobrirão automaticamente o Registrador de backup.
 
-- Configure a opção de DHCP 120 no servidor DHCP (Dynamic Host Configuration Protocol) para apontar para o nome de domínio totalmente qualificado (FQDN) do aparelho de ramificação sobreviventes ou do servidor de ramificação sobreviventes.
+Se um site de filial não tiver um servidor DNS, há duas maneiras alternativas de configurar a descoberta do Aparelho de FilialVivível ou do Servidor de Filial Survivável:
 
-- Configure o aparelho de ramificação sobreviventes ou o servidor de ramificação sobreviventes para responder às consultas de DHCP 120.
+- Configure a opção 120 do DHCP no servidor DHCP (Dynamic Host Configuration Protocol) do site de filial para apontar para o FQDN (nome de domínio totalmente qualificado) do Aparelho de FilialVivível ou Servidor de FilialVivível.
+
+- Configure o Aparelho de Filial Survivável ou Servidor de Filial Survivável para responder a consultas DHCP 120.
 
 #### <a name="voice-routing-for-branch-users"></a>Roteamento de voz para usuários de filial
 
-É recomendável criar uma política VoIP separada em nível de usuário para os usuários de um site de filial. Essa política deve incluir uma rota primária que usa o aplicativo de ramificação ou o gateway de servidor de ramificação sobreviventes e uma ou mais rotas de backup que usam um tronco com um gateway PSTN (rede telefônica pública comutada) no site central. Se a rota principal não estiver disponível, a rota de backup que usa um ou mais gateways do site central será utilizada. Dessa forma, independentemente de onde um usuário estiver registrado, no registrador de site de filial ou no pool de registradores de backup no site central, a política de VoIP do usuário estará sempre em vigor. Essa é uma consideração importante para cenários de failover. Por exemplo, se precisar renomear o aparelho de ramificação sobreviventes ou reconfigurar o aparelho de ramificação sobreviventes para se conectar a um pool de registradores de backup no site central, você deverá mover os usuários do site para o site central durante a duração. (Para obter detalhes sobre como renomear ou reconfigurar um aparelho de ramificação sobreviventes, consulte [Apêndice B: gerenciar um aparelho de ramificação sobreviventes](https://technet.microsoft.com/library/2ec9d505-6d39-491c-9524-8cf36866b855.aspx) na documentação de implantação.) Se esses usuários não tiverem políticas de VoIP em nível de usuário ou planos de discagem em nível de usuário, quando os usuários forem movidos para outro site, as políticas de VoIP no nível do site e os planos de discagem no nível do site central se aplicam aos usuários por padrão, em vez de políticas de VoIP no nível de site e de planos de discagem Nesse cenário, a menos que as políticas VoIP e os planos de discagem em nível de site usados pelo pool de Registradores Avançados de backup também possam ser aplicados aos usuários do site de filial, suas chamadas falharão. Por exemplo, se os usuários de um site de filial localizado no Japão forem movidos para um site central em Redmond, um plano de discagem com regras de normalização que acrescentem o prefixo +1425 a todas as chamadas de 7 dígitos provavelmente não converterá as chamadas de forma apropriada para esses usuários.
+É recomendável criar uma política separada de VoIP (Voice over Internet Protocol ) no nível do usuário para usuários em um site de filial. Essa política deve incluir uma rota principal que usa o Aparelho de Filial Existente ou gateway de servidor de filial e uma ou mais rotas de backup que usam um tronco com um gateway PSTN (rede telefônica pública comutado) no local central. Se a rota principal estiver indisponível, a rota de backup que usa um ou mais gateways do site central será utilizada. Dessa forma, independentemente de onde um usuário está registrado — no Registrador de site de filial ou no pool de registradores de backup no site central — a política voIP do usuário está sempre em vigor. Esta é uma consideração importante para cenários de failover. Por exemplo, se você precisar renomear o Aparelho de Filial Sustentável ou reconfigurar o Aparelho de Filial Sustentável para se conectar a um pool de Registradores De backup no site central, deverá mover os usuários do site de filial para o site central durante esse período. (Para obter detalhes sobre como renomear ou reconfigurar um Aparelho de FilialVivível, consulte o Apêndice [B: Gerenciando](https://technet.microsoft.com/library/2ec9d505-6d39-491c-9524-8cf36866b855.aspx) um Aparelho de FilialVivível na documentação de Implantação.) Se esses usuários não possuem políticas VoIP no nível do usuário ou planos de discagem no nível do usuário, quando os usuários são movidos para outro site, as políticas VoIP em nível de site e os planos de discagem de nível de site do site central se aplicam aos usuários por padrão, em vez das políticas VoIP e planos de discagem no nível do site de filial. Neste cenário, a menos que as políticas de VoIP e planos de discagem de nível de site usados pelo pool de registradores de backup também possam ser aplicadas aos usuários do site de filial, suas chamadas falharão. Por exemplo, se os usuários de um site de filial localizado no Japão forem movidos para um site central em Redmund, um plano de discagem com regras de normalização que precedam +1425 a todas as chamadas de 7 dígitos provavelmente não traduzirá chamadas de forma apropriada para estes usuários.
 
 > [!IMPORTANT]
-> Ao criar uma rota de backup do escritório da filial, é recomendável adicionar dois registros de uso do telefone PSTN à política do usuário do escritório da filial e atribuir rotas separadas a cada um deles. A rota inicial ou primária faria chamadas para o gateway associado à ferramenta de ramificação (SBA) ou ao servidor de ramificação sobreviventes. a rota de segundo, ou backup, direcionaria chamadas para o gateway no site central. Ao direcionar as chamadas, o SBA ou o servidor da filial tentará todas as rotas atribuídas ao primeiro registro de uso PSTN, antes de tentar o segundo registro.
+> Ao criar uma rota de backup do escritório da filial, é recomendável adicionar dois registros de utilização de telefone do PSTN à política do usuário do escritório da filial e atribuir rotas separadas para cada uma. A primeira rota, ou principal, direcionaria chamadas para o gateway associado ao Aparelho de Filial Survivável (SBA) ou servidor de filial; a segunda rota, ou backup, direcionaria chamadas para o gateway no site central. Ao direcionar chamadas, o SBA ou servidor da filial tentará todas as rotas atribuídas ao primeiro registro de uso do PSTN antes de tentar o segundo registro de uso.
 
-Para ajudar a garantir que as chamadas recebidas para os usuários do site de ramificação cheguem a esses usuários quando o gateway da ramificação ou o componente do Windows do site do aparelho de ramificação sobreviventes estiver indisponível (o que aconteceria, por exemplo, se a ramificação ou ramificação sobreviventes pode ser retentada o gateway foi desativado para manutenção), crie uma rota de failover no gateway (ou trabalhe com o seu provedor de discagem direta) para redirecionar as chamadas de entrada para o pool de registradores de backup no site central. A partir desse local, as chamadas serão encaminhadas através do link WAN para os usuários da filial. Certifique-se de que a rota traduz números para obedecer ao gateway PSTN ou a outros formatos de número de telefone aceitos de par de tronco. Para obter detalhes sobre como criar uma rota de failover, consulte [Configuring a Failover Route](https://technet.microsoft.com/library/76e48df4-3b78-4fb7-b1f7-c1e604b81bad.aspx). Além disso, crie planos de discagem de nível de serviço para o tronco associado ao gateway no site de filial a fim de normalizar as chamadas de entrada. Se você tiver dois aparelhos de ramificação sobreviventes em um site de filial, poderá criar um plano de discagem em nível de site para ambos, a menos que seja necessário um plano de nível de serviço separado para cada um.
+Para ajudar a garantir que as chamadas de entrada para usuários do site de filial cheguem a esses usuários quando o gateway de filial ou o componente do Windows do site de Aparelho de FilialVivível não estiver disponível (o que ocorreria, por exemplo, se o Aparelho de Filial ESuperativa ou o gateway de filial não estivesse disponível para manutenção), crie uma rota de failover no gateway (ou trabalhe com seu provedor DID (Discagem Direta interna) para redirecionar chamadas de entrada para o pool do Registrador de backup no site central. Daí, as chamadas serão roteadas sobre o link WAN para os usuários da filial. Certifique-se de que a rota traduz números para estar em conformidade com o gateway PSTN ou outros formatos de número de telefone aceitos pelo par de tronco. Para detalhes sobre a criação de uma rota de failover, consulte [Configuring a Failover Route](https://technet.microsoft.com/library/76e48df4-3b78-4fb7-b1f7-c1e604b81bad.aspx). Crie também planos de discagem de nível de serviço para o tronco associado ao gateway no site de filial para normalizar chamadas de entrada. Se você tiver dois Aparelhos de Filial Sobrevivência em um site de filial, poderá criar um plano de discagem de nível de site para ambos, a menos que seja necessário um plano de nível de serviço separado para cada um.
 
 > [!NOTE]
-> Para contabilizar o consumo de recursos do site central pelos usuários de um site de filial que dependam do site central para fins de presença, conferência ou failover, é recomendável considerar cada usuário do site de filial como se estivesse registrado no site central. No momento, não há limites quanto ao número de usuários de sites de filiais, incluindo usuários registrados em um aparelho de ramificação sobreviventes.
+> Para suportar o consumo dos recursos do site central pelos usuários de qualquer site de filial que se apoiem no site central para presença, conferência ou failover, é recomendável considerar cada usuário de site de filial como se estivesse registrado no site central. Atualmente, não há limites para o número de usuários do site de filial, incluindo usuários registrados em um Aparelho de FilialVivível.
 
-Também é recomendável criar um plano de discagem e uma política de voz em nível de usuário, e atribuí-los aos usuários do site de filial. Para obter detalhes, consulte [criar ou modificar um plano de discagem no Skype for Business Server](../../deploy/deploy-enterprise-voice/dial-plans.md) e [criar a política de roteamento de VoIP para usuários da ramificação](https://technet.microsoft.com/library/10deca9f-f870-4a42-b25d-e4fc53108658.aspx) na documentação de implantação.
+Também é recomendável criar um plano de discagem de nível de usuário e uma política de voz e atribuí-los a usuários do site de filial. Para obter detalhes, [consulte Create or modify a dial plan in Skype for Business Server](../../deploy/deploy-enterprise-voice/dial-plans.md) and Create the [VoIP Routing Policy for Branch Users](https://technet.microsoft.com/library/10deca9f-f870-4a42-b25d-e4fc53108658.aspx) in the Deployment documentation.
 
-#### <a name="routing-extension-numbers"></a>Roteamento de números de ramal
+#### <a name="routing-extension-numbers"></a>Números de extensão de roteamento
 
-Ao preparar planos de discagem e políticas de voz para usuários de site de ramificação, certifique-se de incluir regras de normalização e regras de tradução que correspondam às cadeias de caracteres e o formato de número usados no atributo msRTCSIP-linha (ou URI de linha) para que as chamadas do Skype for Business sejam habilitadas entre os usuários do site da filial e os usuários do site central serão roteados corretamente, principalmente quando as chamadas devem ser redirecionadas pelo PSTN porque o link de rede de longa distância não está disponível. Além disso, há considerações especiais para números discados que contêm números de ramal, e não apenas números de telefone.
+Ao preparar planos de discagem e políticas de voz para usuários do site de filial, certifique-se de incluir regras de normalização e regras de conversão que corresponderem às cadeias de caracteres e ao formato de número usados no atributo de linha msRTCSIP (ou URI de Linha), para que as chamadas do Skype for Business habilitadas entre usuários do site de filial e usuários do site central sejam roteados corretamente, especialmente quando as chamadas devem ser redirecionadas pela PSTN porque o link WAN não está disponível. Existem considerações especiais adicionais para números discados que contêm números de extensão, em vez de apenas números de telefone.
 
-As regras de normalização e de conversão que fazem a correspondência das URIs de Linha que contêm um número de ramal, exclusivamente ou além de um número de telefone E.164 completo, têm requisitos adicionais. Esta seção descreve vários cenários de exemplo para encaminhar chamadas para URIs de Linha com um número de ramal.
+Regras de normalização e de tradução que correspondam a URIs de Linha que contêm um número de extensão, seja de forma exclusiva ou além de um número de telefone totalmente E.164, possuem requisitos adicionais. Esta seção descreve vários cenários de exemplo para rotear chamadas para URIs de Linha com um número de extensão.
 
-Se a sua organização não tiver números de telefone de Discagem Direta Interna (DDI) configurados para usuários individuais, e a URI da Linha de cada usuário estiver configurada apenas com um número de ramal, os usuários internos poderão ligar uns para os outros discando apenas um número de ramal. No entanto, é necessário configurar regras de normalização aplicáveis às chamadas de um usuário do site de filial para outro do site central, que façam a correspondência dos números de ramal.
+Se sua organização não possui Números Fixos Virtuais (DID) configurados para usuários individuais e a URI de Linha de cada usuário está configurada apenas com um número de extensão, usuários internos podem ligar uns para os outros discando apenas um número de extensão. No entanto, é necessário configurar regras de normalização que possam se aplicar a chamadas a partir de um site de filial para um usuário do site central que correspondam a números de extensão.
 
-Em um cenário em que o link WAN entre um site de filial e um site central esteja disponível, as chamadas de usuários do site de filial para os do site central não exigirão que a regra de normalização de correspondência converta o número porque a chamada não é encaminhada através da PSTN. Por exemplo:
+Em um cenário onde o link WAN entre um site de filial e um site central esteja disponível, chamadas de usuários do site de filial para usuários do site central não exigem que a regra de normalização correspondente traduza o número porque a chamada não é roteada sobre o PSTN. Por exemplo:
 
-|**Nome da regra**|**Descrição**|**Padrão de número**|**Conversão**|**Exemplo**|
+|**Nome da regra**|**Descrição**|**Padrão de número**|**Tradução**|**Exemplo**|
 |:-----|:-----|:-----|:-----|:-----|
-|5digitExtensions  <br/> |Não converte números de 5 dígitos  <br/> |^ (\d{5}) $  <br/> |$1  <br/> |10001 não é convertido  <br/> |
+|5digitExtensions  <br/> |Não traduz números de 5 dígitos  <br/> |^(\d {5} )$  <br/> |$1  <br/> |10001 não é traduzido  <br/> |
 
-Você também deve acomodar números de ramal para cenários específicos, como, por exemplo, quando o link WAN entre um site de filial e o site central não está disponível, e uma chamada de um site de filial deve ser encaminhada através da PSTN. Durante uma falha de WAN, se um site de filial chamar um usuário do site central apenas discando a extensão do usuário do site central, você deve ter uma regra de tradução de saída que adiciona o número de telefone completo do usuário do site central. Se o URI de linha de um usuário contiver o número de telefone completo da sua organização e o número de ramal exclusivo do usuário, em vez de um número de telefone completo exclusivo para o usuário, você deve ter uma regra de tradução de saída que adiciona o número de telefone completo da sua organização. em vez disso . Por exemplo:
+Você também deve acomodar números de extensão para cenários específicos, como quando o link WAN entre um site de filial e o site central está indisponível e um chamada de um site de filial deve ser roteada através do PSTN. Durante uma paralisação WAN, se um usuário do site de filial ligar para um usuário do site central apenas discando o ramal do usuário do site central, você deverá ter uma regra de conversão de saída que adiciona o número de telefone completo do usuário do site central. Se o URI de Linha de um usuário contiver o número de telefone completo da sua organização e o número de ramal exclusivo do usuário em vez de um número de telefone completo exclusivo para o usuário, você deverá ter uma regra de conversão de saída que, em vez disso, você deverá ter uma regra de conversão de saída que adiciona o número de telefone completo da sua organização. Por exemplo:
 
-|**Descrição**|**Padrão correspondente**|**Conversão**|**Exemplo**|
+|**Descrição**|**Padrão de correspondência**|**Tradução**|**Exemplo**|
 |:-----|:-----|:-----|:-----|
-|Converte números de 5 dígitos no número de telefone e na extensão de um usuário  <br/> |^ (\d{5}) $  <br/> |+14255550123;ext=$1  <br/> |10001 é convertido em +14255550123;ext=10001  <br/> |
-|Converte números de 5 dígitos para o número de telefone da sua organização e a extensão de um usuário  <br/> |^ (\d{5}) $  <br/> |+14255550100;ext=$1  <br/> |10001 é convertido em +14255550100;ext=10001  <br/> |
+|Converte números de 5 dígitos para o número de telefone e ramal de um usuário  <br/> |^(\d {5} )$  <br/> |+14255550123;ext=$1  <br/> |10001 é traduzido como +14255550123;ext=10001  <br/> |
+|Converte números de 5 dígitos no número de telefone da sua organização e no ramal de um usuário  <br/> |^(\d {5} )$  <br/> |+14255550100;ext=$1  <br/> |10001 é traduzido como +14255550100;ext=10001  <br/> |
 
-Neste cenário, se o par do tronco que trata do reencaminhamento para a PSTN não aceitar números de ramal, a regra de conversão de saída também deverá remover o número do ramal. Por exemplo:
+Neste cenário, se o ponto do tronco que trata o re-roteamento para o PSTN não suportar os números de extensão, a regra de tradução de saída também deve remover o número de extensão. Por exemplo:
 
-|**Descrição**|**Padrão correspondente**|**Conversão**|**Exemplo**|
+|**Descrição**|**Padrão de correspondência**|**Tradução**|**Exemplo**|
 |:-----|:-----|:-----|:-----|
-|Remove o ramal dos números de telefone com ramais  <br/> |^\+(\d\*); ext = (\d\*) $  <br/> |+$1  <br/> |+14255550123;ext=10001 é convertido em +14255550123  <br/> |
+|Remove a extensão dos números de telefone com extensões  <br/> |^\+(\d \* ); ext=(\d \* )$  <br/> |+$1  <br/> |+14255550123;ext=10001 é traduzido como +14255550123  <br/> |
 
-Se uma conexão de rede de longa distância estiver disponível, se sua organização não tiver números definidos para usuários individuais e o URI de linha para um usuário contiver o número de telefone da sua organização e o número de ramal exclusivo do usuário, você deverá configurar o URI da linha do número de telefone da organização com um número alcançável pelo par de troncos ou pelo gateway PSTN no site da filial. Você também deve configurar o URI da linha do número de telefone da sua organização para incluir sua própria extensão exclusiva para que as chamadas sejam roteadas para esse número.
+Se um link WAN estiver disponível ou não, se sua organização não tiver números DID configurados para usuários individuais e o URI de Linha de um usuário contiver o número de telefone da sua organização e o número de ramal exclusivo do usuário, você deverá configurar o URI da Linha do número de telefone da sua organização com um número que seja acessível pelo par de tronco ou gateway PSTN no site de filial. Você também deve configurar o URI de Linha do número de telefone da sua organização para incluir seu próprio ramal exclusivo para que as chamadas sejam roteados para esse número.
 
-#### <a name="preparing-for-voice-mail-survivability"></a>Preparação para persistência da caixa postal
+#### <a name="preparing-for-voice-mail-survivability"></a>Preparação para persistência de caixa postal
 
-A UM (Unificação de mensagens) do Exchange geralmente é instalada apenas em um site central e não em sites de filiais. Um chamador deve ser capaz de deixar uma mensagem de caixa postal, mesmo que o link WAN entre o site de filial e o central não esteja disponível. Como resultado, a configuração do URI de linha do número de telefone do atendedor automático do Exchange UM que forneça a caixa postal para os usuários do site de ramificação exige considerações especiais, além da política de voz, do plano de discagem e das regras de normalização aplicáveis a essa caixa postal tempo.
+A Unificação de Mensagens (UM) do Exchange normalmente é instalada apenas em um site central e não em sites de filiais. Um chamador deve ser capaz de deixar uma mensagem de caixa postal, mesmo se o link WAN entre o site da filial e o site central estiver indisponível. Como resultado, a configuração do URI de Linha para o número de telefone do Atendente Automático da UM do Exchange que fornece caixa postal para usuários do site de filial exige considerações especiais, além da política de voz, do plano de discagem e das regras de normalização aplicáveis a esse número de caixa postal.
 
-Os appliances de ramificação sobreviventes (SBAs) e os servidores de filiais sobreviventes fornecem sustentabilidade da caixa postal para usuários de filiais durante uma falha de WAN. Especificamente, se você estiver usando um aparelho de ramificação sobreviventes ou um servidor de ramificação sobreviventes e a WAN ficar indisponível, o servidor de ramificação SBA ou sobreviver redirecionará chamadas não atendidas pela PSTN para o Exchange UM no site central. Com um servidor de ramificação SBA ou sobreviventes, os usuários também podem recuperar mensagens de caixa postal por meio da PSTN durante uma falha de WAN. Por fim, durante uma falha de WAN, o aparelho de ramificação sobreviventes ou o servidor de ramificação sobreviventes enfileira notificações de chamada perdida e, em seguida, carrega-as para o servidor do Exchange UM quando a WAN é restaurada. Para ajudar a garantir que o redirecionamento de caixa postal seja resistente, certifique-se de adicionar uma entrada para o FQDN do pool de site central e uma entrada para o FQDN do servidor de borda ao arquivo hosts no servidor de ramificação sobreviventes. Caso contrário, o tempo limite da resolução DNS poderá expirar se não houver um servidor DNS no site de filial.
+Os SBAs (Aparelhos de Filial Sustentáveis) e os Servidores de Filial Sustentáveis fornecem a sobrevivência da caixa postal para usuários de filiais durante uma paralisação wan. Especificamente, se você estiver usando um Aparelho de Filial Survivable ou Servidor de Filial Survivable e a WAN ficar indisponível, o SBA ou o Servidor de Filial Survivable redireciona chamadas não respondidas sobre o PSTN para a UM do Exchange no site central. Com um SBA ou Servidor de FilialVivível, os usuários também podem recuperar mensagens de caixa postal por meio da PSTN durante uma paralisação wan. Por fim, durante uma inativação da WAN, o Aparelho de Filial Survivable ou Servidor de Filial Survivível enfileia notificações de chamada perdida e as carrega no servidor um do Exchange quando a WAN é restaurada. Para ajudar a garantir que o reroque da caixa postal seja resiliente, certifique-se de adicionar uma entrada para o FQDN do pool de site central e uma entrada para o FQDN do Servidor de Borda para o arquivo de hosts no Servidor de Filial Persistente. Do contrário, a resolução do DNS pode ultrapassar o tempo se não houver um servidor DNS no site da filial.
 
-Recomendamos definir as configurações a seguir para a persistência da caixa postal dos usuários do site de filial:
+Recomendamos seguir as configurações a seguir para a persistência de caixa postal para usuários de filiais:
 
-- Um administrador do Microsoft Exchange deve configurar o atendedor automático do Exchange UM para aceitar somente mensagens. Essa configuração desabilita todas as outras funcionalidades genéricas, como a transferência para um usuário ou a transferência para um operador, e limita o AA a aceitar apenas mensagens. Como alternativa, o administrador do Exchange pode usar um AA genérico ou um AA personalizado a fim de encaminhar a chamada para um operador.
+- Um administrador do Microsoft Exchange deve configurar o AA (Exchange UM Auto Attendant) para aceitar apenas mensagens. Esta configuração desabilita todas as outras funcionalidades genéricas, como transferência para um usuário ou transferência para um operador e limita o AA a aceitar apenas mensagens. Como alternativa, o administrador do Exchange pode usar um AA genérico ou um AA personalizado para rotear a chamada para um operador.
 
-- O administrador do Skype for Business Server deve levar o número de telefone AA e usar esse número de telefone como o número de **atendedor automático de um do Exchange** nas configurações de redirecionamento de caixa postal para o aparelho de ramificação ou servidor de ramificação sobreviventes.
+- O administrador do Skype for Business Server deve usar o número de telefone do AA e usá-lo como o número de atendimento automático do UM do **Exchange** nas configurações de rerotinação de caixa postal para o Aparelho de Filial Survivável ou servidor de filial.
 
-- O administrador do Skype for Business Server deve obter o número de telefone de acesso do assinante do Exchange UM e usar esse número como o número de **acesso do assinante** nas configurações de redirecionamento de caixa postal para o aparelho de ramificação sobreviventes ou o servidor de ramificação sobreviventes.
+- O administrador do Skype for Business Server deve obter o número  de telefone de acesso do assinante da UM do Exchange e usar esse número como o número de acesso do assinante nas configurações de rerotação de caixa postal para o Aparelho de Filial Survivável ou Servidor de FilialVivível.
 
-- O administrador do Skype for Business Server deve configurar o UM do Exchange para que apenas um plano de discagem esteja associado a todos os usuários da ramificação que precisam acessar a caixa postal durante uma falha de WAN.
+- O administrador do Skype for Business Server deve configurar a UM do Exchange para que apenas um plano de discagem seja associado a todos os usuários de filial que precisam acessar a caixa postal durante uma paralisação wan.
 
-- Quando o link de rede de longa distância não está disponível, as chamadas para os usuários do site de ramificação podem ser roteadas para a caixa de correio de voz do Exchange Unified Messaging (UM) do Exchange, mas somente se a política de voz aplicada à chamada especifica um número de telefone de correio de voz que é exclusivo e não inclui uma extensão tempo.
+- Quando o link WAN não estiver disponível, as chamadas para usuários do site de filial poderão ser roteadas para a caixa de correio de voz da UM (Unificação de Mensagens) do Exchange do usuário, mas somente se a política de voz aplicada à chamada especificar um número de telefone de caixa postal exclusivo e que não inclua um número de ramal.
 
-#### <a name="hardware-and-software-requirements-for-branch-site-resiliency"></a>Requisitos de hardware e software para resiliência de sites de filial
+#### <a name="hardware-and-software-requirements-for-branch-site-resiliency"></a>Requisitos de hardware e software para resiliência de site de filial
 
-Os requisitos de hardware e software variam, dependendo da solução de resiliência.
+Os requisitos de hardware e software variam, dependendo da sua solução de resiliência.
 
 #### <a name="requirements-for-survivable-branch-appliances"></a>Requisitos para Aparelhos de Filial Persistente
 
-O hardware e o software necessários estão integrados ao aparelho de ramificação sobreviventes. No entanto, também recomendamos que cada site de filial implante um servidor DHCP para obter os endereços IP de clientes; caso contrário, quando a concessão de DHCP expirar, os clientes não terão conectividade IP.
+O hardware e o software necessários são integrados ao Aparelho de Filial Survivável. No entanto, também recomendamos que cada site de filial implante um servidor DHCP para obter endereços IP clientes; do contrário, quando a concessão do DHCP expirar, os clientes não terão conectividade IP.
 
-Se os servidores DNS da empresa estiverem localizados somente em sites centrais, os usuários do site de filial não poderão se conectar a eles durante uma falha de WAN e, portanto, a descoberta do Skype for Business Server que usa o SRV (registro de recurso de serviço) DNS falhará. Para garantir o redirecionamento de prompt durante uma falha de WAN, os registros DNS devem ser armazenados em cache no site da filial. Se o roteador de ramificação oferecer suporte, ative o cache de DNS. Ou você pode implantar um servidor DNS na ramificação. Isso pode ser um servidor autônomo ou uma versão do aparelho de ramificação sobreviventes que ofereça suporte a recursos de DNS. Para obter detalhes, entre em contato com seu provedor de aparelho de ramificação sobreviventes.
+Se os servidores DNS corporativos estão localizados apenas em sites centrais, os usuários do site de filial não poderão se conectar a eles durante uma paralisação wan e, portanto, a descoberta do Skype for Business Server que usa o registro de recurso DNS SRV (serviço )) falhará. Para garantir o re-roteamento imediato durante uma interrupção da WAN, registros DNS devem ser armazenados em cache no site da filial. Se o roteador da filial for compatível, ative o cache do DNS. Ou você pode implantar um servidor DNS na filial. Pode ser um servidor autônomo ou uma versão do Aparelho de FilialVivível que oferece suporte a recursos dns. Para obter detalhes, entre em contato com seu provedor de Aparelho de FilialVivível.
 
 > [!NOTE]
-> Não é necessário ter um controlador de domínio em um site de filial. O aparelho de ramificação sobreviventes autentica clientes usando um certificado especial que envia o cliente em resposta à solicitação de certificado do cliente quando ele entra.
+> Não é necessário ter um controlador de domínio no site da filial. O Aparelho de Filial Survivível autentica clientes usando um certificado especial que envia ao cliente em resposta à solicitação de certificado do cliente ao entrar.
 
-Os clientes do Skype for Business podem descobrir o Skype for Business Server usando a opção de DHCP 120 (opção de registrador de SIP). Essa opção pode ser configurada de uma de destas duas maneiras:
+Os clientes do Skype for Business podem descobrir o Skype for Business Server usando a Opção 120 do DHCP (Opção registrador SIP). Ela pode ser configurada em uma de duas formas:
 
-- Configure o servidor DHCP no site de filial para responder a consultas DHCP 120, que retornam o FQDN do registrador na ramificação da ramificação sobreviventes ou do servidor de ramificação sobreviventes.
+- Configure o servidor DHCP no site de filial para responder a consultas do DHCP 120, que retornam o FQDN do Registrador no Aparelho de Filial Survivável ou Servidor de FilialVivível.
 
-- Ative o DHCP do Skype for Business Server. Quando está ativado, o registrador do Skype for Business Server responde às consultas de opção de DHCP 120. Observe que o Registrador Avançado não responde a nenhuma consulta do DHCP diferente das Opções 120 do DHCP.
+- Ativar o DHCP do Skype for Business Server. Quando isso está ligado, o Registrador do Skype for Business Server responde às consultas da Opção 120 do DHCP. Observe que o Registrador Avançado não responde a nenhuma consulta do DHCP diferente da Opção 120 do DHCP.
 
-Além disso, para sites de filial maiores, com várias sub-redes, agentes de retransmissão DHCP devem ser habilitados para encaminhar consultas da Opção 120 do DHCP para o Servidor DHCP (configuração 1) ou para o Registrador Avançado (configuração 2).
+Além disso, para sites de filial maiores, que possuem várias sub-redes, agentes de retransmissão DHCP devem estar habilitados para encaminhar consultas da Opção 120 do DHCP para o Servidor DHCP (configuração 1) ou para o Registrador Avançado (configuração 2).
 
-Por fim, os usuários do site de filiais devem ser configurados para Enterprise Voice e provisionados com um ponto de extremidade de comunicação unificado apropriado.
+Por fim, os usuários do site de filial devem ser configurados para o Enterprise Voice e provisionados com um ponto de extremidade de comunicações unificadas apropriado.
 
 #### <a name="requirements-for-survivable-branch-servers"></a>Requisitos para Servidores de Filial Persistente
 
-Os requisitos para servidores de filiais sobreviventes são os mesmos dos requisitos para um servidor front-end. Para obter mais detalhes, consulte [Server requirements for Skype for Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md).
+Os requisitos para Servidores de FilialVivíveis são os mesmos dos requisitos para um Servidor Front-End. Para obter detalhes, [consulte Requisitos de servidor para o Skype for Business Server 2015.](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md)
 
-#### <a name="requirements-for-full-scale-skype-for-business-server-branch-site-deployments"></a>Requisitos para implantações em todo o site do Skype for Business Server para toda a escala
+#### <a name="requirements-for-full-scale-skype-for-business-server-branch-site-deployments"></a>Requisitos para Full-Scale implantações de Branch-Site Skype for Business Server
 
-Para obter detalhes, consulte [requisitos do servidor para o Skype for Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md) na documentação de planejamento.
+Para obter detalhes, [consulte Server requirements for Skype for Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md) in the Planning documentation.
 
 ### <a name="example-configuring-a-failover-route"></a>Exemplo: configurando uma rota de failover
 
@@ -384,10 +385,10 @@ Para obter detalhes, consulte [requisitos do servidor para o Skype for Business 
 
 | **Nome da rota**             | **Padrão de número** | **Uso do telefone**         | **Tronco**                                 | **Gateway**                                     |
 |:---------------------------|:-------------------|:------------------------|:------------------------------------------|:------------------------------------------------|
-| Rota Local de Redmond  <br/> | ^\+1 (425           | 206                     | 253) (\d{7}) $  <br/>                       | Local  <br/> RedmondLocal  <br/>                |
-| Rota Local de Dallas  <br/>  | ^\+1 (972           | 214                     | 469) (\d{7}) $  <br/>                       | Local  <br/>                                    |
-| Rota Universal  <br/>     | ^\+? (\d\*) $  <br/> | GlobalPSTNHopoff  <br/> | Tronco 1  <br/> Tronco 2  <br/> Tronco 3  <br/> | Red-GW1  <br/> Red-GW2  <br/> Dallas-GW1  <br/> |
-| Rota de Usuários de Dallas  <br/>  | ^\+? (\d\*) $  <br/> | DallasUsers  <br/>      | Tronco 3  <br/>                             | Dallas-GW1  <br/>                               |
+| Rota Local de Redmond  <br/> | ^\+1(425           | 206                     | 253)(\d {7} )$  <br/>                       | Local  <br/> RedmondLocal  <br/>                |
+| Rota Local de Dallas  <br/>  | ^\+1(972           | 214                     | 469)(\d {7} )$  <br/>                       | Local  <br/>                                    |
+| Rota Universal  <br/>     | ^\+? \*(\d) $  <br/> | GlobalPSTNHopoff  <br/> | Trunk1  <br/> Trunk2  <br/> Trunk3  <br/> | Red-GW1  <br/> Red-GW2  <br/> Dallas-GW1  <br/> |
+| Rota de Usuários de Dallas  <br/>  | ^\+? \*(\d) $  <br/> | DallasUsers  <br/>      | Trunk3  <br/>                             | Dallas-GW1  <br/>                               |
 
 Na tabela 1, um uso de telefone de GlobalPSTNHopoff é adicionado após o uso de telefone DallasUsers na Política de Chamada de Dallas. Isso permite que as chamadas com a política de chamada de Dallas usem rotas configuradas para o uso de telefone GlobalPSTNHopoff, caso uma rota para o uso do telefone DallasUsers não esteja disponível.
 

@@ -1,8 +1,8 @@
 ---
-title: Planejamento para IPv6 no Skype for Business
+title: Plano para IPv6 no Skype for Business
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -15,105 +15,105 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 01f77196-38f4-4292-9480-2e2fbd57eabe
-description: 'Resumo: implemente o IPv6 antes de instalar o Skype for Business Server.'
-ms.openlocfilehash: 5fe8cd186d152d368ac89c1d6bc9c07cebb7bfe7
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 'Resumo: Implemente o IPv6 antes de instalar o Skype for Business Server.'
+ms.openlocfilehash: dbb9977d8d11b130387eca9e87213c2760226142
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41802071"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49825241"
 ---
-# <a name="plan-for-ipv6-in-skype-for-business"></a>Planejamento para IPv6 no Skype for Business
+# <a name="plan-for-ipv6-in-skype-for-business"></a>Plano para IPv6 no Skype for Business
  
 **Resumo:** Implemente o IPv6 antes de instalar o Skype for Business Server.
   
-O Skype for Business Server inclui suporte para endereços IP versão 6 (IPv6), além do suporte contínuo a endereços IP versão 4 (IPv4). 
+O Skype for Business Server inclui suporte para endereços IP versão 6 (IPv6), juntamente com suporte contínuo a endereços IP versão 4 (IPv4). 
 
-Os endereços IPv4 são endereços 32 bits que permitem a um computador se comunicar pela Internet. Devido ao número cada vez maior de dispositivos em todo o mundo, os endereços IPv4 disponíveis têm sido executados. Por isso, muitos dispositivos novos estão migrando para o uso de endereços IPv6. Os endereços IPv6 executam a mesma função que os endereços IPv4 (com alguns recursos adicionais), mas em vez de usar somente 32-bits, os endereços IPv6 usam 128 bits. Isso fornece não apenas um novo conjunto de endereços, mas também um número muito maior deles. 
+Os endereços IPv4 são endereços 32 bits que permitem a um computador se comunicar pela Internet. Devido ao crescente número de dispositivos em todo o mundo, os endereços IPv4 disponíveis estão sem saída. Por isso, muitos dispositivos novos estão passando a usar endereços IPv6. Os endereços IPv6 executam a mesma função que os endereços IPv4 (com alguns recursos adicionais), mas em vez de usar somente 32-bits, os endereços IPv6 usam 128 bits. Isso fornece não apenas um novo conjunto de endereços, mas também um número muito maior deles. 
 
-Um endereço IPv4 típico parece com o seguinte: 192.0.2.235, enquanto um endereço IPv6 parece com o seguinte: 2001:0db8:85a3:0000:0000:8a2e:0370:7334. A alteração na formatação e na funcionalidade para dispositivos que usam endereços IPv6 requer várias considerações de implantação e configuração na instalação do Skype for Business Server. 
+Um endereço IPv4 típico parece com o seguinte: 192.0.2.235, enquanto um endereço IPv6 parece com o seguinte: 2001:0db8:85a3:0000:0000:8a2e:0370:7334. A alteração na formatação e na funcionalidade para dispositivos que usam endereços IPv6 requer várias considerações sobre implantação e configuração na instalação do Skype for Business Server. 
 
 Este tópico inclui as seguintes seções:
   
-- [Overview of IP address types](ipv6.md#over)
+- [Visão geral dos tipos de endereço IP](ipv6.md#over)
     
-- [Technical requirements for IPv6](ipv6.md#tech)
+- [Requisitos técnicos para IPv6](ipv6.md#tech)
     
-- [Migration and coexistence considerations for IPv6](ipv6.md#migration)
+- [Considerações sobre migração e coexistência para IPv6](ipv6.md#migration)
     
-Se você determinar que usará endereços IPv6, confira o artigo [Configurar tipos de endereços IP no Skype for Business](ip-address-types.md) .
+Se você determinar que vai usar endereços IPv6, consulte o artigo Configurar tipos de endereço [IP no Skype for Business.](ip-address-types.md)
   
 ## <a name="overview-of-ip-address-types"></a>Visão geral dos tipos de endereço IP
 <a name="over"> </a>
 
-Você tem três opções ao configurar endereços IP no Skype for Business Server. Você pode configurar o Skype for Business Server para dar suporte somente para IP versão 4 (IPv4), somente para IP versão 6 (IPv6) ou uma combinação de ambas (conhecida como pilha dupla). Vários problemas devem ser considerados para cada tipo de configuração:
+Você tem três opções ao configurar endereços IP no Skype for Business Server. Você pode configurar o Skype for Business Server para dar suporte somente a IP versão 4 (IPv4), somente IP versão 6 (IPv6) ou uma combinação de ambos (conhecido como pilha dupla). Há vários problemas a considerar em cada tipo de configuração:
   
-- **Somente IPv4** O IPv6 foi criado porque o mundo está ficando sem endereços IPv4. No fim das contas, o IPv6 será completamente suportado em todo o mundo, mas no momento, várias empresas e dispositivos aos quais sua empresa pode precisar se comunicar ainda não oferecem suporte ao IPv6, e poderão não oferecer por algum tempo. Uma configuração somente IPv4 ajudará a garantir que a implementação do Skype for Business Server possa se comunicar com a maioria dos dispositivos existentes.
+- **Somente IPv4** O IPv6 foi criado porque o mundo está ficando sem endereços IPv4. Por fim, o IPv6 terá suporte total em todo o mundo, mas, no momento, muitas empresas e dispositivos com os que sua empresa talvez precisem se comunicar ainda não suportam IPv6 e podem não ter suporte por algum tempo. Uma configuração somente IPv4 ajudará a garantir que a implementação do Skype for Business Server possa se comunicar com a maioria dos dispositivos existentes.
     
 - **Somente IPv6** Por outro lado, uma implementação de IPv6 completa excluirá a comunicação com muitos dispositivos existentes.
     
-- **Pilha dupla** Pilha dupla é uma rede onde ambos os endereços IPv4 e IPv6 estão habilitados. Essa configuração tem suporte no Skype for Business Server porque, na maioria dos casos, a transição de Full-IPv4 para Full-IPv6 levará vários anos.
+- **Pilha Dual** Pilha dupla é uma rede em que os endereços IPv4 e IPv6 estão habilitados. Essa configuração é suportada no Skype for Business Server porque, na maioria dos casos, a transição de IPv4 completo para IPv6 completo levará vários anos.
     
-As seções a seguir descrevem a compatibilidade entre essas três configurações para vários recursos do Skype for Business Server.
+As seções a seguir destacam a compatibilidade entre essas três configurações para vários recursos do Skype for Business Server.
   
 > [!NOTE]
-> Configuração de cliente ou servidor com somente IPv6 é suportada apenas para fins de validação ou utilização em laboratório. A configuração somente IPv6 não é suportada na implantação de produção. 
+> A configuração de cliente ou servidor com IPv6 só tem suporte para fins de laboratório ou validação. A configuração somente IPv6 não é suportada na implantação de produção. 
   
-### <a name="client-registration"></a>Registro de cliente
+### <a name="client-registration"></a>Registro do cliente
 <a name="client"> </a>
 
-|**Extremidade de rede de cliente**|**Rede de servidor**|
+|**Rede de ponto de extremidade do cliente**|**Rede do servidor**|
 |:-----|:-----|
 |IPv4  <br/> |IPv4  <br/> |
-|IPv4  <br/> |Pilha dual  <br/> |
-|Pilha dual  <br/> |IPv4  <br/> |
-|Pilha dual  <br/> |Pilha dual  <br/> |
-|Pilha dual  <br/> |IPv6  <br/> |
-|IPv6  <br/> |Pilha dual  <br/> |
+|IPv4  <br/> |Pilha dupla  <br/> |
+|Pilha dupla  <br/> |IPv4  <br/> |
+|Pilha dupla  <br/> |Pilha dupla  <br/> |
+|Pilha dupla  <br/> |IPv6  <br/> |
+|IPv6  <br/> |Pilha dupla  <br/> |
 |IPv6  <br/> |IPv6  <br/> |
    
-### <a name="peer-to-peer-client"></a>Cliente ponto a ponto
+### <a name="peer-to-peer-client"></a>Cliente Ponto a Ponto
 <a name="peer"> </a>
 
-As comunicações ponto a ponto incluem áudio, áudio/vídeo, compartilhamento de aplicativos e transferência de arquivos. Após o registro bem sucedido de ambos os clientes, as combinações a seguir são suportadas.
+As comunicações ponto a ponto incluem áudio, áudio/vídeo, compartilhamento de aplicativos e transferência de arquivos. Após o registro bem-sucedido de ambos os clientes, as combinações a seguir são suportadas.
   
-|**Extremidade de cliente 1**|**Extremidade de cliente 2**|
+|**Ponto de extremidade 1 do cliente**|**Ponto de extremidade 2 do cliente**|
 |:-----|:-----|
 |IPv4  <br/> |IPv4  <br/> |
-|IPv4  <br/> |Pilha dual  <br/> |
-|Pilha dual  <br/> |Pilha dual  <br/> |
-|IPv6  <br/> |Pilha dual  <br/> |
+|IPv4  <br/> |Pilha dupla  <br/> |
+|Pilha dupla  <br/> |Pilha dupla  <br/> |
+|IPv6  <br/> |Pilha dupla  <br/> |
 |IPv6  <br/> |IPv6  <br/> |
    
 ### <a name="conferencing"></a>Conferência
 <a name="conf"> </a>
 
-As conferências incluem áudio/vídeo, compartilhamento de aplicativos e colaboração de dados, como uso de quadro de comunicações e compartilhamento de arquivos.
+A conferência inclui áudio/vídeo, compartilhamento de aplicativos e aplicativos de colaboração de dados, como quadro de comunicação e compartilhamento de arquivos.
   
-|**Extremidade de rede de cliente**|**Rede de servidor**|
+|**Rede de ponto de extremidade do cliente**|**Rede do servidor**|
 |:-----|:-----|
 |IPv4  <br/> |IPv4  <br/> |
-|IPv4  <br/> |Pilha dual  <br/> |
-|Pilha dual  <br/> |IPv4  <br/> |
-|Pilha dual  <br/> |Pilha dual  <br/> |
-|Pilha dual  <br/> |IPv6  <br/> |
-|IPv6  <br/> |Pilha dual  <br/> |
+|IPv4  <br/> |Pilha dupla  <br/> |
+|Pilha dupla  <br/> |IPv4  <br/> |
+|Pilha dupla  <br/> |Pilha dupla  <br/> |
+|Pilha dupla  <br/> |IPv6  <br/> |
+|IPv6  <br/> |Pilha dupla  <br/> |
 |IPv6  <br/> |IPv6  <br/> |
    
 ### <a name="mediation-serverpstn"></a>Servidor de Mediação/PSTN
 <a name="med"> </a>
 
-O Skype for Business Server não oferece suporte a bypass de mídia para chamadas PSTN (rede telefônica pública comutada) se o tráfego for por meio de uma interface IPv6. Se o desvio de mídia é necessário, recomendamos que o gateway PSTN seja configurado para IPv4. 
+O Skype for Business Server não suporta bypass de mídia para chamadas PSTN se o tráfego for por meio de uma interface IPv6. Se o bypass de mídia for necessário, recomendamos que o gateway PSTN seja configurado para IPv4. 
   
 |**Interface primária 1**|**Interface PSTN (no Servidor de Mediação)**|**Configuração do gateway PSTN**|
 |:-----|:-----|:-----|
-|IPv4  <br/> |Pilha dual  <br/> |IPv4  <br/> |
-|Pilha dual  <br/> |Pilha dual  <br/> |IPv4  <br/> |
-|Pilha dual  <br/> |Pilha dual  <br/> |IPv6  <br/> |
+|IPv4  <br/> |Pilha dupla  <br/> |IPv4  <br/> |
+|Pilha dupla  <br/> |Pilha dupla  <br/> |IPv4  <br/> |
+|Pilha dupla  <br/> |Pilha dupla  <br/> |IPv6  <br/> |
    
 1. A interface principal é a interface que se comunica com os componentes do Skype for Business Server.
   
-### <a name="remote-user-peer-to-peer-communications"></a>Comunicações ponto a ponto de usuário remoto
+### <a name="remote-user-peer-to-peer-communications"></a>Comunicações ponto a ponto do usuário remoto
 <a name="remote"> </a>
 
 As comunicações ponto a ponto com usuários remotos incluem mensagens instantâneas, áudio/vídeo, compartilhamento de aplicativos e transferência de arquivos.
@@ -121,95 +121,95 @@ As comunicações ponto a ponto com usuários remotos incluem mensagens instant�
 |**Rede de usuários remotos**|**Servidor de borda (Borda externa)**|
 |:-----|:-----|
 |IPv4  <br/> |IPv4  <br/> |
-|Pilha dual  <br/> |IPv4  <br/> |
-|Pilha dual  <br/> |Pilha dual  <br/> |
-|IPv6  <br/> |Pilha dual  <br/> |
+|Pilha dupla  <br/> |IPv4  <br/> |
+|Pilha dupla  <br/> |Pilha dupla  <br/> |
+|IPv6  <br/> |Pilha dupla  <br/> |
 |IPv6  <br/> |IPv6  <br/> |
    
-### <a name="front-end-pool-and-edge-pool-configuration"></a>Configuração do pool de Front-Ends e do pool do Servidor de Borda
+### <a name="front-end-pool-and-edge-pool-configuration"></a>Configuração do Pool de Front-End e do Pool de Borda
 <a name="FE_pool"> </a>
 
-A tabela a seguir mostra a matriz de suporte entre o pool do servidor front-end e o pool do servidor de borda interna.
+A tabela a seguir mostra a matriz de suporte entre o pool do Servidor Front-End e o pool do Servidor de Borda interno.
   
-**Matriz do Pool de Front-Ends e do Pool de Borda (Borda interna)**
+**Matriz de Pool de Front-End e Pool de Borda (Borda Interna)**
 
-||**Pool de borda: IPv4** <br/> |**Pool de borda: Pilha dual** <br/> |**Pool de borda: IPv6** <br/> |
+||**Pool de Borda: IPv4** <br/> |**Pool de Borda: Pilha Dual** <br/> |**Pool de Borda: IPv6** <br/> |
 |:-----|:-----|:-----|:-----|
-|**Pool de Front-Ends: IPv4** <br/> |Sim  <br/> |Sim  <br/> |Não  <br/> |
-|**Pool de Front-Ends: Pilha dual** <br/> |Sim  <br/> |Sim  <br/> |Não  <br/> |
-|**Pool de Front-Ends: IPv6** <br/> |Não  <br/> |Não  <br/> |Sim\*  <br/> |
+|**Pool de Front-End: IPv4** <br/> |Sim  <br/> |Sim  <br/> |Não  <br/> |
+|**Pool de Front-End: Pilha Dual** <br/> |Sim  <br/> |Sim  <br/> |Não  <br/> |
+|**Pool de Front-End: IPv6** <br/> |Não  <br/> |Não  <br/> |Sim\*  <br/> |
    
-\*Use essa combinação apenas em um ambiente de laboratório.
+\* Use essa combinação somente em um ambiente de laboratório.
   
-A tabela a seguir descreve a matriz de combinações suportadas das interfaces de borda interna e externa.
+A tabela a seguir é uma matriz das combinações com suporte de interfaces de borda internas e externas.
   
-**Matriz do Pool de borda (Borda interna) e do Pool de borda (Borda externa)**
+**Matriz de Pool de Borda (Borda Interna) e Pool de Borda (Borda Externa)**
 
-||**Pool de borda (Borda externa): IPv4** <br/> |**Pool de borda (Borda externa): Pilha dual** <br/> |**Pool de borda (Borda externa): IPv6** <br/> |
+||**Pool de Borda (Borda Externa) : IPv4** <br/> |**Pool de Borda (Borda Externa): Pilha Dual** <br/> |**Pool de Borda (Borda Externa): IPv6** <br/> |
 |:-----|:-----|:-----|:-----|
-|**Pool de borda (Borda interna): IPv4** <br/> |Sim  <br/> |Sim  <br/> |Não  <br/> |
-|**Pool de borda (Borda interna): Pilha dual** <br/> |Não  <br/> |Sim  <br/> |Não  <br/> |
-|**Pool de borda (Borda interna): IPv6** <br/> |Não  <br/> |Não  <br/> |Sim\*  <br/> |
+|**Pool de Borda (Borda Interna): IPv4** <br/> |Sim  <br/> |Sim  <br/> |Não  <br/> |
+|**Pool de Borda (Borda Interna): Pilha Dual** <br/> |Não  <br/> |Sim  <br/> |Não  <br/> |
+|**Pool de Borda (Borda Interna): IPv6** <br/> |Não  <br/> |Não  <br/> |Sim\*  <br/> |
    
-\*Use essa combinação apenas em um ambiente de laboratório.
+\* Use essa combinação somente em um ambiente de laboratório.
   
 ### <a name="advanced-enterprise-voice-support-for-ipv6"></a>Suporte avançado do Enterprise Voice para IPv6
 <a name="Ent_V"> </a>
 
-Implantações que incluem controle de admissão de chamadas (CAC), Enhanced 9-1-1 (E9-1-1) ou passagem livre de mídia devem ser configurados como implementações somente IPv4 ou de pilha dual. Pontos de extremidade usando apenas IPv6 não podem usar nenhum desses recursos.
+As implantações que incluem controle de admissão de chamada (CAC), Enhanced 9-1-1 (E9-1-1) ou bypass de mídia devem ser configuradas como somente IPv4 ou como uma implementação de pilha dual. Os pontos de extremidade que usam somente IPv6 não podem usar nenhum desses recursos.
   
 > [!NOTE]
-> Em uma implantação de pilha dupla, mesmo que um cliente do Skype for Business Server se conecte a um servidor do Skype for Business usando o IPv6, o Skype for Business Server fará um melhor esforço para mapear um endereço IPv4 apropriado para dar suporte a E9-1-1. 
+> Em uma implantação de pilha dupla, mesmo que um cliente do Skype for Business Server se conecte a um Skype for Business Server usando IPv6, o Skype for Business Server fará o melhor esforço para mapear um endereço IPv4 apropriado para dar suporte ao E9-1-1. 
   
-Não há suporte para o serviço de informações de localização com endereços IPv6.
+Não há suporte para o serviço de Informações de Local com endereços IPv6.
   
-O Unified Messaging (UM) do Exchange não suporta IPv6. Para o UM do Exchange, certifique-se de que a resolução do DNS não retorna um endereço IPv6. A utilização de IPv6 pode provocar falhas ao enviar chamadas para correios de voz. 
+A Unificação de Mensagens (UM) do Exchange não dá suporte a IPv6. Para a UM do Exchange, certifique-se de que a resolução dns não retorna um endereço IPv6. O uso de IPv6 pode causar falha quando as chamadas são enviadas para a caixa postal. 
   
-### <a name="other-skype-for-business-server-feature-support-for-ipv6"></a>Outro recurso de suporte do Skype for Business Server para IPv6
+### <a name="other-skype-for-business-server-feature-support-for-ipv6"></a>Suporte a outros recursos do Skype for Business Server para IPv6
 <a name="Ent_V"> </a>
 
-Além dos recursos e componentes mencionados anteriormente, o Skype for Business Server oferece suporte ao IPv6 para os seguintes recursos:
+Além dos recursos e componentes mencionados anteriormente, o Skype for Business Server dá suporte a IPv6 para os seguintes recursos:
   
 - **Chat Persistente**
     
-    Você configura o IPv6 para chats persistentes usando o construtor de topologias. Para obter detalhes sobre como configurar o chat persistente, consulte a documentação implantando o servidor de chat persistente.
+    Configure o IPv6 para Chat Persistente usando o Construtor de Topologias. Para obter detalhes sobre como configurar o Chat Persistente, consulte a documentação implantando o Servidor de Chat Persistente.
     
-- **Relatórios de CDR (registro de detalhes de chamada) e QoE (Qualidade de experiência)**
+- **Relatórios de QoE (Qualidade da Experiência) e cdr (registro de detalhes das chamada)**
     
-    Os relatórios de monitoramento incluem o endereço IP conforme é armazenado no banco de dados do Servidor de Monitoramento, independente de ser do tipo IPv4 ou IPv6.
+    Os relatórios de monitoramento incluem o endereço IP conforme ele é armazenado no banco de dados do Monitoring Server, seja do tipo IPv4 ou IPv6.
     
 ## <a name="technical-requirements-for-ipv6"></a>Requisitos técnicos para IPv6
 <a name="tech"> </a>
 
-Se você planeja configurar o Skype for Business Server para IPv6, tenha em mente os seguintes requisitos:
+Se você planeja configurar o Skype for Business Server para IPv6, lembre-se dos seguintes requisitos:
   
-- Para usar endereços IPv6 com o Skype for Business Server, você precisa criar registros de sistema de nomes de domínio (DNS) para registros que devem ser descobertos e resolvidos para um endereço IPv6. O DNS IPv6 usa um registros de host AAAA (quad-A). Se você usar o IPv4 e o IPv6 na sua implantação, é melhor configurar e manter os registros de host A para IPv4 e registros de host AAAA para IPv6. Mesmo quando passar totalmente sua implantação para o IPv6, você ainda pode precisar de registros de host DNS IPv4 para usuários externos que ainda usam IPv4.
+- Para usar endereços IPv6 com o Skype for Business Server, você precisa criar registros DNS (sistema de nomes de domínio) para registros que devem ser descobertos e resolvidos para um endereço IPv6. O DNS IPv6 usa um registros de host AAAA (quad-A). Se você usar o IPv4 e o IPv6 na sua implantação, é melhor configurar e manter os registros de host A para IPv4 e registros de host AAAA para IPv6. Mesmo quando passar totalmente sua implantação para o IPv6, você ainda pode precisar de registros de host DNS IPv4 para usuários externos que ainda usam IPv4.
     
     É possível implantar registros de host DNS IPv6 antes de iniciar a usar o IPv6. Se o cliente ou servidor não usar IPv6, o registro não será referenciado. As tecnologias transicionais tomarão a decisão sobre qual registro usar, com base na configuração de tecnologia de transição e políticas.
     
-- Cada endereço IPv6 possui um escopo. Os três escopos que você pode usar para endereçamento IPv6 são endereços globais IPv6 (semelhantes aos endereços IPv4 públicos), endereços locais exclusivos do IPv6 (semelhantes aos intervalos de endereços IPv4 particulares) e endereços de conexão local IPv6 (semelhantes a endereços IP privados particulares no Windows Server para IPv4). Todos os servidores em um pool devem ter endereços IPv6 com o mesmo escopo. 
+- Cada endereço IPv6 possui um escopo. Os três escopos que você pode usar para endereçamento IPv6 são endereços globais IPv6 (semelhantes a endereços IPv4 públicos), endereços locais exclusivos IPv6 (semelhantes aos intervalos de endereços IPv4 privados) e endereços locais de link IPv6 (semelhante a endereços IP privados automáticos no Windows Server para IPv4). Todos os servidores em um pool devem ter endereços IPv6 com o mesmo escopo. 
     
 > [!IMPORTANT]
-> O IPv6 é um tópico complexo e requer planejamento cuidadoso com sua equipe de rede e seu provedor de Internet para ajudar a garantir que os endereços que você atribuir no nível do servidor do Windows e no nível do servidor do Skype for Business funcionem conforme o esperado. Consulte os links no final deste tópico para obter recursos adicionais sobre o endereço IPv6 e planejamento. 
+> O IPv6 é um tópico complexo e requer um planejamento cuidadoso com sua equipe de rede e seu provedor de Internet para ajudar a garantir que os endereços atribuídos no nível do Windows Server e no nível do Skype for Business Server funcionem conforme o esperado. Consulte os links no final deste tópico para obter recursos adicionais sobre o endereço IPv6 e planejamento. 
   
-## <a name="migration-and-coexistence-considerations-for-ipv6"></a>Considerações de migração e de coexistência para IPv6
+## <a name="migration-and-coexistence-considerations-for-ipv6"></a>Considerações sobre migração e coexistência para IPv6
 <a name="migration"> </a>
 
-Não há suporte para IP versão 6 (IPv6) no Lync Server 2010 ou no Office Communications Server. Para fins de piloto, você pode testar o Lync Server 2010 e o Skype for Business Server de coexistência de duas pilhas. Recomendamos que todos os pools de um determinado site central sejam atualizados para o Skype for Business Server antes de habilitar o IPv6 (rede de pilha dupla) para qualquer um dos pools. Se for necessário configurar um pool apenas para IPv6, recomendamos que você defina um pool somente de IPv6 em seu ambiente de laboratório para testes.
+O IP versão 6 (IPv6) não é suportado no Lync Server 2010 ou no Office Communications Server. Para fins de piloto, você pode testar a coexistência de pilha dupla do Lync Server 2010 e do Skype for Business Server. Recomendamos que todos os pools de um determinado site central sejam atualizados para o Skype for Business Server antes de habilitar o IPv6 (rede de pilha dupla) para qualquer um dos pools. Se for necessário configurar um pool apenas para IPv6, recomendamos que você defina um pool somente de IPv6 em seu ambiente de laboratório para testes.
   
 Os cenários a seguir são suportados durante a migração e coexistência:
   
-- O Skype for Business Server, o Lync Server 2013 e o Lync Server 2010 pools no modo IPv4, coexistente com o Skype for Business Server no modo de pilha dupla.
+- Pools do Skype for Business Server, do Lync Server 2013 e do Lync Server 2010 no modo IPv4, coexistindo com o Skype for Business Server no modo de pilha dupla.
     
 - Pool do Skype for Business Server no modo somente IPv6, se o pool somente IPv6 estiver em silo.
     
 ## <a name="see-also"></a>Confira também
 <a name="migration"> </a>
 
-[Configure IP address types in Skype for Business](ip-address-types.md)
+[Configurar tipos de endereço IP no Skype for Business](ip-address-types.md)
 
-[Arquitetura de endereçamento de IP versão 6](https://tools.ietf.org/html/rfc4291)
+[Arquitetura de endereçamento ip versão 6](https://tools.ietf.org/html/rfc4291)
   
-[Formato de endereço de difusão ponto a ponto global IPv6](https://tools.ietf.org/html/rfc3587)
+[Formato de endereço Unicast global IPv6](https://tools.ietf.org/html/rfc3587)
   
-[Endereços exclusivos de unicast IPv6 locais](https://tools.ietf.org/html/rfc4193)
+[Endereços unicast IPv6 locais exclusivos](https://tools.ietf.org/html/rfc4193)

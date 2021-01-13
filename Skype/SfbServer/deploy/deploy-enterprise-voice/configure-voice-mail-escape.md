@@ -1,8 +1,8 @@
 ---
-title: Configurar o recurso de mensagem de voz no Skype for Business
+title: Configurar escape de caixa postal no Skype for Business
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -15,29 +15,29 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: a1d19e6c-82ff-4768-8ae5-da981368ce40
-description: 'Resumo: saiba como configurar o recurso de mensagem de voz no Skype for Business Server usando o Shell de gerenciamento do Skype for Business Server.'
-ms.openlocfilehash: e372b43a0a580cd1a7b95fc3db8130a65c8398ca
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+description: 'Resumo: saiba como configurar o escape de caixa postal no Skype for Business Server usando o Shell de Gerenciamento do Skype for Business Server.'
+ms.openlocfilehash: c6326360a0e49715feb7e9f9c3c123ec42b9c330
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41768004"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49824921"
 ---
-# <a name="configure-voice-mail-escape-in-skype-for-business"></a>Configurar o recurso de mensagem de voz no Skype for Business
+# <a name="configure-voice-mail-escape-in-skype-for-business"></a>Configurar escape de caixa postal no Skype for Business
 
-**Resumo:** Saiba como configurar o recurso de mensagem de voz no Skype for Business Server usando o Shell de gerenciamento do Skype for Business Server.
+**Resumo:** Saiba como configurar o escape de caixa postal no Skype for Business Server usando o Shell de Gerenciamento do Skype for Business Server.
 
-Quando um usuário configura o toque simultâneo para um celular, um chamador geralmente será roteado para a caixa postal pessoal do usuário se o celular estiver desligado, sem bateria ou estiver fora do alcance da energia. Com o Skype for Business Server, os usuários podem optar por fazer chamadas relacionadas a negócios roteadas para o sistema de caixa postal da empresa. Especificamente, um temporizador pode ser configurado e, se a chamada for atendida pela caixa postal da operadora dentro do intervalo de tempo definido, o Skype for Business Server será desconectado do sistema de caixa postal da operadora (e da caixa postal pessoal do usuário), enquanto o botão do usuário os pontos de extremidade restantes no sistema corporativo continuam a tocar. Dessa forma, o chamador será encaminhado automaticamente para a caixa postal corporativa do usuário.
+Quando um usuário configura toque simultâneo para um telefone celular, um chamador normalmente é roteado para a caixa postal pessoal do usuário se o telefone celular estiver desligado, sem bateria ou fora de alcance. Com o Skype for Business Server, os usuários podem optar por ter chamadas relacionadas aos negócios roteados para seu sistema de caixa postal corporativa. Especificamente, um temporizador pode ser configurado e, se a chamada for atendida pela caixa postal da operadora dentro do intervalo de tempo definido, o Skype for Business Server se desconecta do sistema de caixa postal da operadora (e da caixa postal pessoal do usuário), enquanto os pontos de extremidade restantes do usuário no sistema corporativo continuam a tocar. Dessa forma, o chamador é automaticamente roteado para a caixa postal corporativa do usuário.
 
-Essa configuração é realizada usando o cmdlet do Shell de gerenciamento do Skype for Business Server, **set-CsVoicePolicy**, no nível da política de voz, com os parâmetros a seguir.
+Essa configuração é realizada usando-se o cmdlet Do Shell de Gerenciamento do Skype for Business Server, **Set-CsVoicePolicy**, no nível da política de voz, com os parâmetros a seguir.
 
 ### <a name="to-configure-voice-mail-escape"></a>Para configurar o escape da caixa postal
 
-1. Inicie o Shell de Gerenciamento do Skype for Business Server: clique em **Iniciar**, em **Todos os Programas**, em **Skype for Business 2015** e em **Shell de Gerenciamento do Skype for Business Server**.
+1. Inicie o Shell de Gerenciamento do Skype for Business Server: Clique em **Iniciar,** Em Todos os **Programas,** no **Skype for Business 2015** e, em seguida, clique no Shell de Gerenciamento do **Skype for Business Server.**
 
 2. Especifique os parâmetros a seguir para **Set-CsVoicePolicy**:
 
-   - **EnableVoicemailEscapeTimer** - Ativa ou desativa o timer de escape.
+   - **EnableVoicemailEscapeTimer** - Ativa ou desativa o timer de escape
 
    - **PSTNVoicemailEscapeTimer** - Especifica o valor do tempo limite em milissegundos. O valor padrão é 1500 milissegundos e o valor pode ir de 0 a 8000 milissegundos.
 
@@ -50,5 +50,5 @@ Set-CsVoicePolicy -Identity site:SitePolicy -EnableVoiceMailEscapeTimer $true -P
 
 ## <a name="see-also"></a>Confira também
 
-[Configuring Voice Policies and PSTN Usage Records to Authorize Calling Features and Privileges](https://technet.microsoft.com/library/63f22010-a3d7-4cbd-86e8-6fc0e13c2b84.aspx)
+[Configurando políticas de voz e registros de uso PSTN para autorizar privilégios e recursos de chamada](https://technet.microsoft.com/library/63f22010-a3d7-4cbd-86e8-6fc0e13c2b84.aspx)
 

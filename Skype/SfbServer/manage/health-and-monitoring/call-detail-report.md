@@ -1,8 +1,8 @@
 ---
-title: Relatório de detalhes da chamada no Skype for Business Server
+title: Relatório detalhado de chamadas no Skype for Business Server
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,19 +11,19 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 38862e35-3fec-41b9-a035-0b301942d446
-description: 'Resumo: Saiba mais sobre o relatório de detalhes de chamadas usado no Skype for Business Server.'
-ms.openlocfilehash: a700bf9969c921db2d36a816579ee36ff59cb3b3
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 'Resumo: saiba mais sobre o Relatório Detalhado de Chamadas usado no Skype for Business Server.'
+ms.openlocfilehash: 9b02722c8dd872b5703d6b459c2cd48568e39f94
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41818142"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49826511"
 ---
-# <a name="call-detail-report-in-skype-for-business-server"></a>Relatório de detalhes da chamada no Skype for Business Server
+# <a name="call-detail-report-in-skype-for-business-server"></a>Relatório detalhado de chamadas no Skype for Business Server
  
-**Resumo:** Saiba mais sobre o relatório de detalhes de chamadas usado no Skype for Business Server.
+**Resumo:** Saiba mais sobre o Relatório Detalhado de Chamadas usado no Skype for Business Server.
   
-O relatório de detalhes da chamada fornece uma visão detalhada de uma chamada individual; o relatório inclui praticamente todas as métricas de experiência de experiência e estatísticas coletadas pelo Skype for Business Server, divididas em seções de relatório, como:
+O Relatório Detalhado de Chamada fornece uma análise detalhada de uma chamada individual; o relatório inclui quase todas as métricas e estatísticas de Qualidade da Experiência coletadas pelo Skype for Business Server, divididas em seções de relatório como:
   
 - Informações da chamada 
     
@@ -43,7 +43,7 @@ O relatório de detalhes da chamada fornece uma visão detalhada de uma chamada 
     
 - Fluxo de vídeo (de quem é chamado para o chamador)
     
-Lembre-se de que as categorias e métricas de um determinado relatório dependem de duas coisas: o tipo de sessão e o tipo de ponto de extremidade usados na sessão. Por exemplo, uma chamada com apenas áudio não reportará métricas de fluxo de vídeo; isso se deve ao fato de a chamada não ter um fluxo de vídeo. Da mesma forma, é possível ter um relatório que liste estatísticas do chamador, mas não de quem é chamado. Normalmente, isso ocorre quando quem foi chamado não usa um dispositivo compatível com SIP. Os pontos de extremidade são responsáveis por reportar estatísticas no final de uma chamada; no entanto, um telefone celular (que desconhece SIP ou as estatísticas de SIP) não pode reportar esse tipo de informação. Se você ligar para alguém e essa pessoa atender em um telefone celular, você não obterá um relatório desse telefone celular quando a chamada terminar.
+Lembre-se de que as categorias e medidas de um determinado relatório dependem de duas coisas: o tipo de sessão e o tipo de ponto de extremidade usados na sessão. Por exemplo, uma chamada com apenas áudio não reportará medidas de fluxo de vídeo; isso se deve ao fato de a chamada não ter um fluxo de vídeo. Da mesma forma, é possível ter um relatório que liste estatísticas do chamador, mas não de quem é chamado. Normalmente, isso ocorre quando quem foi chamado não usa um dispositivo compatível com SIP. Os pontos de extremidade são responsáveis por reportar estatísticas no final de uma chamada; no entanto, um telefone celular (que desconhece SIP ou as estatísticas de SIP) não pode reportar esse tipo de informação. Se você ligar para alguém e essa pessoa atender em um telefone celular, você não obterá um relatório desse telefone celular quando a chamada terminar.
   
 O Relatório Detalhado de Chamadas é especialmente útil quando você está tentando determinar exatamente porque determinada chamada enfrentou problemas de qualidade de mídia.
   
@@ -51,43 +51,43 @@ O Relatório Detalhado de Chamadas é especialmente útil quando você está ten
 
 O Relatório Detalhado de Chamadas pode ser acessado a partir de qualquer um dos seguintes relatórios:
   
-- O relatório [local no Skype for Business Server (location-report.md) (clicando no volume da chamada ou na métrica de porcentagem de chamada baixa)
+- The [Location Report in Skype for Business Server (location-report.md) (by clicking either the Call volume or the Poor call percentage metric)
     
-- O [relatório de Resumo de qualidade da mídia no Skype for Business Server (summary.md) (clicando no volume da chamada ou em uma métrica de porcentagem baixa de chamada)
+- The [Media Quality Summary Report in Skype for Business Server (summary.md) (by clicking either the Call volume or Poor call percentage metric)
     
-- O [relatório de comparação de qualidade de mídia no Skype for Business Server](comparison.md) (clicando no [relatório lista de chamadas no Skype for Business Server](call-list-report-0.md) e, em seguida, clicando na métrica detalhe).
+- O [Relatório de Comparação de Qualidade](comparison.md) de Mídia no Skype for Business Server (clicando no Relatório de Lista de Chamadas no Skype for Business [Server](call-list-report-0.md) e clicando na métrica Detalhes).
     
-- O [relatório de desempenho do servidor no Skype for Business Server](server-performance.md) (clicando no volume da chamada ou na métrica de porcentagem baixa de chamada)
+- O [Relatório de Desempenho do Servidor no Skype for Business Server](server-performance.md) (clicando na métrica Volume da chamada ou Percentual de chamadas ruins)
     
-- O [relatório de lista de chamadas no Skype for Business Server](call-list-report-0.md) (clicando na métrica de detalhes)
+- O [Relatório de Lista de Chamadas no Skype for Business Server](call-list-report-0.md) (clicando na métrica Detalhe)
     
-No relatório de detalhes da chamada, você pode acessar o [relatório de dispositivos no Skype for Business Server](device-report.md) clicando em uma das seguintes métricas:
+No Relatório Detalhado de Chamadas, você pode acessar o Relatório de Dispositivos no [Skype for Business Server](device-report.md) clicando em uma das seguintes métricas:
   
 - Dispositivo de captura
     
-- Dispositivos de renderização
+- Dispositivo de renderização
     
-Também é possível acessar o Relatório de Tendências de Qualidade de Mídia clicando na métrica Servidor de borda de áudio/vídeo.
+Também é possível acessar o Relatório de Tendências de Qualidade de Mídia clicando na medida Servidor de borda de áudio/vídeo.
   
 ## <a name="making-the-best-use-of-the-call-detail-report"></a>Fazendo o melhor uso do Relatório Detalhado de Chamadas
 
-O Relatório Detalhado de Chamadas normalmente contém 250 métricas diferentes, inclusive itens como Descompasso do carimbo de data/hora do microfone, Tempo de SNR baixo e Extremidade próxima ao tempo de eco. Se não conseguir se lembrar o que exatamente todas essas métricas avaliam, tente pousar o mouse sobre o rótulo da métrica; na maioria das vezes, uma dica de ferramenta será exibida descrevendo a métrica.
+O Relatório Detalhado de Chamadas normalmente contém 250 medidas diferentes, inclusive itens como Descompasso do carimbo de data/hora do microfone, Tempo de SNR baixo e Extremidade próxima ao tempo de eco. Se não conseguir se lembrar o que exatamente todas essas medidas avaliam, tente pousar o mouse sobre o nome da medida; na maioria das vezes, uma dica de ferramenta será exibida descrevendo a medida.
   
-Se tiver problemas para localizar uma métrica, digite parte do nome da métrica na caixa de pesquisa e clique em **Localizar**. Por exemplo, se não puder localizar a métrica Tempo de SNR baixo, digite SNR na caixa de pesquisa e clique em **Localizar**.
+Se você tiver problemas para localizar uma métrica, digite parte do rótulo de métrica na caixa de pesquisa e clique em **Localizar.** Por exemplo, se você não encontrar a métrica tempo de SNR baixo, digite SNR na caixa de pesquisa e clique em **Encontrar**.
   
-Observe que o relatório rastreia apenas as informações sobre uma chamada. A chamada em si não é gravada.
+Observe que o relatório rastreia apenas informações sobre uma chamada. A chamada em si não é gravada.
   
 ## <a name="filters"></a>Filtros
 
 Nenhum. Você não pode filtrar o Relatório Detalhado de Chamadas.
   
-## <a name="metrics"></a>Métricas
+## <a name="metrics"></a>Métrica
 
 A tabela a seguir lista as informações fornecidas no Relatório Detalhado de Chamadas para cada chamada.
   
 **Métricas do Relatório Detalhado de Chamadas**
 
-|**Nome**|**Você pode classificar este item?**|**Descrição**|
+|**Nome**|**É possível classificar este item?**|**Descrição**|
 |:-----|:-----|:-----|
 |**PAI do chamador** <br/> |Não  <br/> |O P-Asserted-Identity do usuário que iniciou a chamada. Essa identidade é usada para transportar a identidade comprovada de um usuário dentro de uma rede confiável.  <br/> |
 |**URI do chamador** <br/> |Não  <br/> |Endereço SIP do usuário que iniciou a chamada.  <br/> |
@@ -103,8 +103,8 @@ A tabela a seguir lista as informações fornecidas no Relatório Detalhado de C
 |**PAI do receptor da chamada** <br/> |Não  <br/> |O P-Asserted-Identity do usuário convidado a entrar na chamada. Essa identidade é usada para transportar a identidade comprovada de um usuário dentro de uma rede confiável.  <br/> |
 |**URI do receptor da chamada** <br/> |Não  <br/> |Endereço SIP do usuário que foi chamado.  <br/> |
 |**Ponto de extremidade do receptor da chamada** <br/> |Não  <br/> |Dispositivo usado para receber a chamada.  <br/> |
-|**Agente do usuário do receptor** <br/> |Não  <br/> |Software usado no dispositivo que recebeu a chamada.  <br/> |
-|**Duração** <br/> |Não  <br/> |Tempo da chamada.  <br/> |
+|**Agente do usuário do receptor da chamada** <br/> |Não  <br/> |Software usado no dispositivo que recebeu a chamada.  <br/> |
+|**Duration** <br/> |Não  <br/> |Tempo da chamada.  <br/> |
 |**Sinalizador de aviso do desvio de mídia** <br/> |Não  <br/> |Aviso emitido quando o Servidor de Mediação foi desviado.  <br/> |
 |**OS do receptor da chamada** <br/> |Não  <br/> |Sistema operacional do computador do usuário que foi chamado.  <br/> |
 |**CPU do receptor da chamada** <br/> |Não  <br/> |CPU instalado no computador do usuário que foi chamado.  <br/> |

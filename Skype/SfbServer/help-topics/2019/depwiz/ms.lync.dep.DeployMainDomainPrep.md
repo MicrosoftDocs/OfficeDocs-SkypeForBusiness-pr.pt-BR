@@ -1,8 +1,8 @@
 ---
 title: Preparar Domínio Atual
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,29 +14,29 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: bfcb37ca-34eb-4d0d-9694-6edd2e7fe0f3
 ROBOTS: NOINDEX, NOFOLLOW
-description: 'Para preparar um domínio para servidores host que executam o Skype for Business Server ou usuários do Skype for Business Server, você deve concluir a etapa 5: preparar o domínio atual, conforme descrito no tópico usando a configuração para executar a preparação do domínio. Para completar a etapa, é necessário estar conectado como membro do grupo Administradores de Domínio no domínio que você está preparando ou como membro do grupo Administradores de Empresa da floresta a qual o domínio pertence. Para preparar o domínio:'
-ms.openlocfilehash: 2902e92f2b785e43208d46b714d069f382bb24f7
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: 'Para preparar um domínio para hospedar servidores que executam os usuários do Skype for Business Server ou do Skype for Business Server, você deve concluir a Etapa 5: Preparar o Domínio Atual, conforme descrito no tópico Using Setup to Run Domain Preparation. Para concluir a etapa, você deve estar conectado como membro do grupo Administradores de Domínio no domínio que você está preparando ou como membro do grupo Administradores de Empresa da floresta à que o domínio pertence. Para preparar o domínio:'
+ms.openlocfilehash: d6e2efb774d7cad653c0a95e0e2863b97efe55ff
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41798318"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49824931"
 ---
 # <a name="prepare-current-domain"></a>Preparar Domínio Atual
 
-Para preparar um domínio para servidores host que executam o Skype for Business Server ou usuários do Skype for Business Server, você deve concluir a **etapa 5: preparar o domínio atual**, conforme descrito no tópico [usando a configuração para executar a preparação do domínio](https://technet.microsoft.com/library/95dab800-1f2c-4506-b36c-99986643b149.aspx). Para completar a etapa, é necessário estar conectado como membro do grupo Administradores de Domínio no domínio que você está preparando ou como membro do grupo Administradores de Empresa da floresta a qual o domínio pertence. Para preparar o domínio:
+Para preparar um domínio para hospedar servidores que executam os usuários do Skype for Business Server ou do Skype for Business Server, você deve concluir a Etapa **5:** Preparar o Domínio Atual, conforme descrito no tópico Using [Setup to Run Domain Preparation](https://technet.microsoft.com/library/95dab800-1f2c-4506-b36c-99986643b149.aspx). Para concluir a etapa, você deve estar conectado como membro do grupo Administradores de Domínio no domínio que você está preparando ou como membro do grupo Administradores de Empresa da floresta à que o domínio pertence. Para preparar o domínio:
 
-1. Na pasta de instalação ou mídia do Skype for Business Server, execute Setup. exe para iniciar o assistente de implantação do Skype for Business Server.
+1. Na pasta ou mídia de instalação do Skype for Business Server, execute o Setup.exe para iniciar o Assistente de Implantação do Skype for Business Server.
 
-2. Clique em **Preparar o Active Directory** e espere que o estado da implantação seja determinado.
+2. Clique em **Preparar Active Directory** e aguarde o estado de implantação ser determinado.
 
-3. Na **Etapa 5: preparar o domínio atual**, clique em **Executar**.
+3. Na **Etapa 5: Preparar o Domínio Atual**, clique em **Executar**.
 
-4. Na página **Executando Comandos**, procure **Status da tarefa: Concluída** e clique em **Exibir Log**.
+4. Na página **Executando Comandos**, procure por **Status da tarefa: concluída** e clique em **Exibir Log**.
 
-5. Na coluna **ação** , expanda o **domínio Prep**, procure um ** \<resultado\> ** de execução de sucesso no final de cada tarefa para verificar se a preparação do domínio foi concluída com êxito, feche o log e clique em **concluir**.
+5. Na coluna **Ação,** expanda **Preparação** do Domínio, procure um Resultado de Execução no final de cada tarefa para verificar se a preparação do domínio foi concluída com êxito, feche o log e clique em **\<Success\>** **Concluir.**
 
 > [!TIP]
-> Se precisar examinar os arquivos de log criados pelo assistente de implantação do Skype for Business Server, você poderá encontrá-los no computador em que o assistente de implantação foi executado no diretório de usuários do usuário dos serviços de domínio Active Directory que executou a etapa. Por exemplo, se o usuário tiver entrado como administrador do domínio no domínio Contoso.net, os arquivos de log serão localizados em: C:\Users\Administrator.Contoso\AppData\Local\Temp.
+> Se precisar revisar os arquivos de log criados pelo Assistente de Implantação do Skype for Business Server, você poderá encontrá-los no computador onde o Assistente de Implantação foi executado no diretório Usuários do usuário dos Serviços de Domínio Active Directory que executaram a etapa. Por exemplo, se o usuário fez logon como administrador de domínio no domínio Contoso.net, os arquivos de log estão localizados em: C:\Users\Administrator.Contoso\AppData\Local\Temp.
 
 

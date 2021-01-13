@@ -1,8 +1,8 @@
 ---
-title: Modo de exibição registro
+title: Exibição de registro
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -12,45 +12,45 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 8a42bc7d-3d4f-43c1-9e15-89b2ee419ade
-description: O modo de exibição de registro armazena informações sobre o registro de usuário. Este modo de exibição foi apresentado no Lync Server 2013.
-ms.openlocfilehash: 0ee19d4addae9ee7318828c4ab294dc15bd72f86
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: A visualização "Registro" armazena informações sobre o registro do usuário. Esta exibição foi introduzida no Lync Server 2013.
+ms.openlocfilehash: 12508e7efcd96bdb9e3956b4e62c1065235a3f60
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41814949"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49823121"
 ---
-# <a name="registration-view"></a>Modo de exibição registro
+# <a name="registration-view"></a>Exibição de registro
  
-O modo de exibição de registro armazena informações sobre o registro de usuário. Este modo de exibição foi apresentado no Lync Server 2013.
+A visualização "Registro" armazena informações sobre o registro do usuário. Esta exibição foi introduzida no Lync Server 2013.
   
 |**Coluna**|**Tipo de dados**|**Detalhes**|
 |:-----|:-----|:-----|
-|**Id_da_sessãotime** <br/> |datetime  <br/> |Tempo de solicitação de sessão. Usado em conjunto com o SessionIdSeq para identificar exclusivamente uma sessão. Consulte a [tabela de diálogos no Skype for Business Server 2015](dialogs.md) para obter mais informações. <br/> |
-|**SessionIdSeq** <br/> |int  <br/> |Número de identificação para identificar a sessão. Usado em conjunto com a Identificação_da_sessãotime para identificar exclusivamente uma sessão. Consulte a [tabela de diálogos no Skype for Business Server 2015](dialogs.md) para obter mais informações. <br/> |
-|**Registertime** <br/> |datetime  <br/> |Hora em que ocorreu o registro.  <br/> |
-|**UserUri** <br/> |nvarchar (450)  <br/> |URL do usuário que se cadastrou.  <br/> |
-|**UserUriType** <br/> |nvarchar(256)  <br/> |Tipo de URI do usuário que se cadastrou. Consulte a [tabela UriTypes](uritypes.md) para obter mais informações. <br/> |
-|**Userlocatário** <br/> |nvarchar(256)  <br/> |Locatário do usuário que se cadastrou. Consulte a [tabela locatários](tenants.md) para obter mais informações. <br/> |
-|**Endpointid** <br/> |identificador  <br/> |Identificador exclusivo do ponto de extremidade do usuário registrado.  <br/> |
-|**Ponteiro de fim** <br/> |identificador  <br/> |Identificador exclusivo usado para diferenciar os registros que envolvem o mesmo usuário e o mesmo ponto de extremidade.  <br/> |
-|**DeRegisterType** <br/> |datetime  <br/> |Tempo em que o cancelamento ocorreu.  <br/> |
-|**DeRegisterReason** <br/> |nvarchar(256)  <br/> |Motivo do cancelamento de registro.  <br/> |
-|**ClientVersion** <br/> |nvarchar(256)  <br/> |Versão do cliente usada pelo usuário que se cadastrou.  <br/> |
-|**ClientType** <br/> |int  <br/> |Cliente usado pelo usuário que se cadastrou. Consulte a [tabela UserAgentDef](useragentdef.md) para obter mais detalhes. <br/> |
-|**ClientCategory** <br/> |nvarchar (64)  <br/> |Categoria do cliente usada pelo usuário que se cadastrou.  <br/> |
-|**IP** <br/> |nvarchar(256)  <br/> |Endereço IP com o qual o usuário se cadastrou. Pode ser um endereço IPv4 ou IPv6.  <br/> |
-|**Caixa de diálogo** <br/> |VARSTRING (775)  <br/> |ID da caixa de diálogo SIP. O formato do é:  <br/> caixa de diálogo; de-marca; até-marca  <br/> |
-|**ResponseCode** <br/> |int  <br/> |Código de resposta SIP para o convite da sessão. Geralmente, esse campo é preenchido por dados gerados da mensagem de convite inicial na sessão. Se não houver nenhuma mensagem de convite, o campo será preenchido com a data e a hora da primeira mensagem SIP relevante (até mais, cancelamento, mensagem ou informações).  <br/> |
-|**Diagnosticid** <br/> |int  <br/> |ID de diagnóstico capturada do cabeçalho SIP.  <br/> |
+|**SessionIdTime** <br/> |datetime  <br/> |Hora da solicitação da sessão. Utilizada em conjunto com o SessionIdSeq para identificar de forma exclusiva uma sessão. Consulte a [tabela Dialogs no Skype for Business Server 2015](dialogs.md) para obter mais informações. <br/> |
+|**SessionIdSeq** <br/> |int  <br/> |Número de identificação para identificar a sessão. Utilizado em conjunto com o SessionIdTime para identificar de forma exclusiva uma sessão. Consulte a [tabela Dialogs no Skype for Business Server 2015](dialogs.md) para obter mais informações. <br/> |
+|**RegisterTime** <br/> |datetime  <br/> |Hora do registro.  <br/> |
+|**UserUri** <br/> |nvarchar(450)  <br/> |URI do usuário registrado.  <br/> |
+|**UserUriType** <br/> |nvarchar(256)  <br/> |Tipo de  URI do usuário registrado. Consulte a [tabela UriTypes para](uritypes.md) obter mais informações. <br/> |
+|**UserTenant** <br/> |nvarchar(256)  <br/> |Locatário do usuário registrado. Consulte a [tabela Tenants para](tenants.md) obter mais informações. <br/> |
+|**EndpointId** <br/> |uniqueidentifier  <br/> |Identificador exclusivo do ponto de extremidade em que o usuário se registrou.  <br/> |
+|**EndpointEra** <br/> |uniqueidentifier  <br/> |Identificador exclusivo usado para diferenciar registros que envolvam o mesmo usuário e o mesmo ponto de extremidade.  <br/> |
+|**DeRegisterType** <br/> |datetime  <br/> |Hora do cancelamento do registro.  <br/> |
+|**DeRegisterReason** <br/> |nvarchar(256)  <br/> |Motivo para o cancelamento do registro.  <br/> |
+|**ClientVersion** <br/> |nvarchar(256)  <br/> |Versão do cliente usada no registro.  <br/> |
+|**ClientType** <br/> |int  <br/> |Cliente usado pelo usuário no registro. Consulte a [tabela UserAgentDef para](useragentdef.md) obter mais detalhes. <br/> |
+|**ClientCategory** <br/> |nvarchar(64)  <br/> |Categoria do cliente do usuário no registro.  <br/> |
+|**IpAddress** <br/> |nvarchar(256)  <br/> |Endereço IP com o qual o usuário se registrou. Pode ser um endereço IPv4 ou IPv6.  <br/> |
+|**DialogId** <br/> |varstring(775)  <br/> |ID do diálogo de SIP. O formato é:  <br/> dialog;from-tag;to-tag  <br/> |
+|**ResponseCode** <br/> |int  <br/> |Código de resposta SIP para convite de sessão. Este campo é normalmente preenchido por dados gerados na mensagem CONVIDAR inicial na sessão. Caso não haja nenhuma mensagem CONVIDAR, o campo é preenchidos com a data e horário da primeira mensagem de SIP relevante (ATÉ LOGO, CANCELAR, MENSAGEM ou INFO).  <br/> |
+|**DiagnosticId** <br/> |int  <br/> |ID de diagnóstico registrado do cabeçalho do SIP.  <br/> |
 |**Registrador** <br/> |nvarchar(256)  <br/> |FQDN do registrador.  <br/> |
-|**Pool** <br/> |nvarchar(256)  <br/> |FQDN do pool que capturou os dados da sessão.  <br/> |
-|**EdgeServer** <br/> |nvarchar(256)  <br/> |FQDN do servidor de borda usado pelo usuário que se cadastrou.  <br/> |
-|**IsInternal** <br/> |bit  <br/> |Indica se o usuário está conectado à rede interna.  <br/> |
+|**Pool** <br/> |nvarchar(256)  <br/> |FQDN do pool que registrou os dados da sessão.  <br/> |
+|**EdgeServer** <br/> |nvarchar(256)  <br/> |FQDN do servidor de borda usado pelo usuário que se registrou.  <br/> |
+|**IsInternal** <br/> |bit  <br/> |Indica se o usuário fez logon a partir da rede interna.  <br/> |
 |**IsUserServiceAvailable** <br/> |bit  <br/> |Indica se o UserService estava disponível no momento do registro.  <br/> |
-|**IsPrimaryRegistrar** <br/> |bit  <br/> |Indica se o registro foi com o registrador principal.  <br/> |
+|**IsPrimaryRegistrar** <br/> |bit  <br/> |Indica se o registro foi feito com o registrador principal.  <br/> |
 |**DeviceMacAddress** <br/> |bigint  <br/> |Endereço MAC do dispositivo registrado.  <br/> |
-|**DeviceManufacturer** <br/> |nvarchar(256)  <br/> |Fabricante do dispositivo registrado. Consulte a [tabela fabricantes no Skype for Business Server 2015](manufacturers.md) para obter mais informações. <br/> |
-|**DeviceHardwareVersion** <br/> |nvarchar(256)  <br/> |Versão de hardware do dispositivo registrada. Consulte a [tabela HardwareVersions no Skype for Business Server 2015](hardwareversions.md) para obter mais informações. <br/> |
+|**DeviceManufacturer** <br/> |nvarchar(256)  <br/> |Fabricante do dispositivo registrado. Consulte a [tabela Manufacturers no Skype for Business Server 2015](manufacturers.md) para obter mais informações. <br/> |
+|**DeviceHardwareVersion** <br/> |nvarchar(256)  <br/> |Versão do hardware do dispositivo registrado. Consulte a [tabela HardwareVersions no Skype for Business Server 2015](hardwareversions.md) para obter mais informações. <br/> |
    
 

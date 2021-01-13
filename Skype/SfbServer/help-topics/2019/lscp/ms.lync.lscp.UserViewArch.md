@@ -1,8 +1,8 @@
 ---
-title: Usuários exibir ou configurar política de arquivamento
+title: Exibir ou Configurar Política de Arquivamento de Usuários
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,17 +14,17 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: b1d6ec29-178e-4325-8901-ee6cf0e91759
 ROBOTS: NOINDEX, NOFOLLOW
-description: O que você deseja fazer? Clique no link da tarefa que você deseja executar.
-ms.openlocfilehash: ccfd43030bb896b271e8bcb493b4235a320b6e61
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: O que você deseja fazer? Clique no link para a tarefa que você deseja executar.
+ms.openlocfilehash: e680c805f08fa8e5ef40952ec5ee4d0727186760
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41797988"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49824561"
 ---
 # <a name="users-view-or-configure-archiving-policy"></a>Usuários: Exibir ou Configurar Política de Arquivamento
 
-O que você deseja fazer? Clique no link da tarefa que você deseja executar.
+O que você deseja fazer? Clique no link para a tarefa que você deseja executar.
 
 - [Atribuir uma política de arquivamento por usuário](https://technet.microsoft.com/library/a12ca483-b235-460f-b3fe-130fb3087264.aspx)
 

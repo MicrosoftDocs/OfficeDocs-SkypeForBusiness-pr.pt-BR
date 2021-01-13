@@ -1,8 +1,8 @@
 ---
 title: Criar perfis de política de largura de banda no Skype for Business Server
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -15,21 +15,21 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: a71881ef-b04a-465e-9abb-0577bfd182f3
-description: Crie ou modifique as políticas de largura de banda, que são usadas pelo controle de admissão de chamadas do Enterprise Voice no Skype for Business Server.
-ms.openlocfilehash: e54fc20c142e0eacc2758d97bdeba8043511b3fe
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+description: Criar ou modificar políticas de largura de banda, que são usadas pelo controle de admissão de chamadas do Enterprise Voice no Skype for Business Server.
+ms.openlocfilehash: ac80ebb8b61a763efc0077f267a024a21a359b5d
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41767944"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49824841"
 ---
 # <a name="create-bandwidth-policy-profiles-in-skype-for-business-server"></a>Criar perfis de política de largura de banda no Skype for Business Server 
  
-Crie ou modifique as políticas de largura de banda, que são usadas pelo controle de admissão de chamadas do Enterprise Voice no Skype for Business Server. 
+Criar ou modificar políticas de largura de banda, que são usadas pelo controle de admissão de chamadas do Enterprise Voice no Skype for Business Server. 
   
-Políticas de largura de banda definem limitações de uso de largura de banda para modalidades de áudio e vídeo em tempo real. Políticas de largura de banda são aplicadas a todos os perfis de política de largura de banda, que podem ser aplicados a vários sites de rede para controle de admissão de chamadas.
+Políticas de largura de banda definem limitações de uso de largura de banda para modalidades de áudio e vídeo em tempo real. As políticas de largura de banda são aplicadas aos perfis de política de largura de banda, que podem ser aplicados a vários sites de rede para controle de admissão de chamada.
   
-Para obter diretrizes sobre quais limites de largura de banda você deve definir na sua implantação do CAC, consulte [planejar o controle de admissão de chamadas no Skype for Business Server](../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md).
+Para diretrizes sobre quais limites de largura de banda você deve definir em sua implantação do CAC, consulte Planejar o controle de admissão de chamadas [no Skype for Business Server.](../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md)
   
 As políticas de exemplo criadas no procedimento a seguir definem limites para o tráfego de áudio geral, sessões de áudio individuais, tráfego de vídeo geral e sessões de vídeo individuais. Por exemplo, o perfil de política de largura de banda 5Mb_Link define os seguintes limites: 
   
@@ -44,9 +44,9 @@ As políticas de exemplo criadas no procedimento a seguir definem limites para o
 > [!NOTE]
 > O valor mínio para o Limite de Sessão de Áudio é 40 kbps. O valor mínimo para o Limite de Sessão de Vídeo é 100 kbps. 
   
-### <a name="to-create-bandwidth-policy-profiles-by-using-skype-for-business-server-management-shell"></a>Para criar perfis de política de largura de banda usando o Shell de gerenciamento do Skype for Business Server
+### <a name="to-create-bandwidth-policy-profiles-by-using-skype-for-business-server-management-shell"></a>Para criar perfis de política de largura de banda usando o Shell de Gerenciamento do Skype for Business Server
 
-1. Inicie o Shell de Gerenciamento do Skype for Business Server: clique em **Iniciar**, em **Todos os Programas**, em **Skype for Business 2015** e em **Shell de Gerenciamento do Skype for Business Server**.
+1. Inicie o Shell de Gerenciamento do Skype for Business Server: Clique em **Iniciar,** Em Todos os **Programas,** no **Skype for Business 2015** e, em seguida, clique no Shell de Gerenciamento do **Skype for Business Server.**
     
 2. Para cada perfil de política de largura de banda que desejar criar, execute o cmdlet New-CsNetworkBandwidthPolicyProfile. Por exemplo, execute:
     
@@ -66,11 +66,11 @@ As políticas de exemplo criadas no procedimento a seguir definem limites para o
    New-CsNetworkBandwidthPolicyProfile -Identity 25Mb_Link -Description "BW profile for 25Mb links" -AudioBWLimit 10000 -AudioBWSessionLimit 200 -VideoBWLimit 7000 -VideoBWSessionLimit 700
    ```
 
-### <a name="to-create-bandwidth-policy-profiles-by-using-skype-for-business-server-control-panel"></a>Para criar perfis de política de largura de banda usando o painel de controle do Skype for Business Server
+### <a name="to-create-bandwidth-policy-profiles-by-using-skype-for-business-server-control-panel"></a>Para criar perfis de política de largura de banda usando o Painel de Controle do Skype for Business Server
 
-1. Abra o painel de controle do Skype for Business Server.
+1. Abra o Painel de Controle do Skype for Business Server.
     
-2. Na barra de navegação esquerda, clique em **Configuração de rede**.
+2. Na barra de navegação à esquerda, clique em **Configuração da Rede**.
     
 3. Clique no botão de navegação **Perfil da Política**.
     

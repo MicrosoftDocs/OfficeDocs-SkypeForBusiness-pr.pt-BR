@@ -1,8 +1,8 @@
 ---
-title: Relatório de distribuição de falha no Skype for Business Server
+title: Relatório de Distribuição de Falhas no Skype for Business Server
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,17 +11,17 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 365c7beb-24d4-40f5-92e7-4978b9688916
-description: 'Resumo: Saiba mais sobre o relatório de distribuição de falha no Skype for Business Server.'
-ms.openlocfilehash: cc5f0747a5e1f1dd3be913c43fbc286bf95778a6
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 'Resumo: saiba mais sobre o Relatório de Distribuição de Falhas no Skype for Business Server.'
+ms.openlocfilehash: 251cf8e2017312d9e42e0d1aebcfe5d1d9bd3568
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41817951"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49823521"
 ---
-# <a name="failure-distribution-report-in-skype-for-business-server"></a>Relatório de distribuição de falha no Skype for Business Server
+# <a name="failure-distribution-report-in-skype-for-business-server"></a>Relatório de Distribuição de Falhas no Skype for Business Server
  
-**Resumo:** Saiba mais sobre o relatório de distribuição de falha no Skype for Business Server.
+**Resumo:** Saiba mais sobre o Relatório de Distribuição de Falhas no Skype for Business Server.
   
 O Relatório de Distribuição de Falhas classifica sessões com falha nas seguintes categorias:
   
@@ -35,11 +35,11 @@ O Relatório de Distribuição de Falhas classifica sessões com falha nas segui
     
 - Principais componentes
     
-- Principais usuários "De"
+- Principais usuários de origem
     
-- Principais usuários "Para"
+- Principais usuários de destino
     
-- Principais agentes do usuário "De"
+- Principal usuário de origem
     
 É possível usar essas categorias para determinar exatamente onde está ocorrendo um problema e, em alguns casos, porque o problema está ocorrendo. Por exemplo, suponha que você tenha registrado 242 sessões de áudio/vídeo com falha durante um determinado dia. Se você observar o Relatório de Distribuição de Falhas, ele poderá mostrar que 237 das sessões com falha ocorreram no pool de Dublin. Isso fornece um ótimo ponto inicial para rastrear e diagnosticar as causas por trás dessas falhas. Se você clicar no pool de Dublin na categoria **Principais pools**, você verá um Relatório de Distribuição de Falhas exclusivo desse pool. Será possível então começar a analisar por que o pool de Dublin enfrentou tantas dificuldades.
   
@@ -47,13 +47,13 @@ O Relatório de Distribuição de Falhas classifica sessões com falha nas segui
 
 É possível acessar o Relatório de Distribuição de Falhas a partir de qualquer um dos seguintes relatórios clicando nas medidas **Volume de falhas esperado** ou **Volume de falhas não esperado**:
   
-- [Relatório de falhas principais no Skype for Business Server](top-failures-report.md)
+- [Relatório das principais falhas no Skype for Business Server](top-failures-report.md)
     
-- [Relatório de diagnóstico de conferência no Skype for Business Server](conference-diagnostic-report.md)
+- [Relatório de Diagnóstico de Conferência no Skype for Business Server](conference-diagnostic-report.md)
     
-- [Relatório de diagnóstico de atividade ponto a ponto no Skype for Business Server](peer-to-peer-activity-diagnostic-report.md)
+- [Relatório de Diagnóstico de Atividades Ponto a Ponto no Skype for Business Server](peer-to-peer-activity-diagnostic-report.md)
     
-No relatório de distribuição de falha, você pode clicar em qualquer uma das seguintes métricas para exibir o [relatório de lista de falhas no Skype for Business Server](failure-list-report.md):
+No Relatório de Distribuição de Falhas, você pode clicar em qualquer uma das seguintes métricas para exibir o Relatório de Lista de [Falhas no Skype for Business Server:](failure-list-report.md)
   
 - Principais motivos diagnósticos (sessões)
     
@@ -65,11 +65,11 @@ No relatório de distribuição de falha, você pode clicar em qualquer uma das 
     
 - Principais componentes (sessões)
     
-- Principais usuários "De" (sessões)
+- Principais usuários de origem (sessões)
     
-- Principais usuários "Para" (sessões)
+- Principais usuários de destino (sessões)
     
-- Principais agentes do usuários "De" (sessões)
+- Principais agentes de usuários de origem (sessões)
     
 ## <a name="using-the-failure-distribution-report"></a>Usando o Relatório de Distribuição de Falhas
 
@@ -87,16 +87,16 @@ O filtro é uma maneira de retornar um conjunto de dados mais refinado e direcio
   
 A tabela a seguir lista os filtros que você pode usar com o Relatório de Falha na Distribuição.
   
-**Filtros do Relatório de Falha na Distribuição**
+**Filtros do Relatório de Falha na Distribuição.**
 
 |**Nome**|**Descrição**|
 |:-----|:-----|
-|**De** <br/> |Data/hora de início para o intervalo de tempo. Para ver os dados por horas, insira a data e hora de início conforme segue:  <br/> 7/7/2015 13:00  <br/> Se você não inserir a hora de início, o relatório começará automaticamente à meia-noite do dia especificado. Para ver os dados por dia, insira somente a data:  <br/> 7/7/2015  <br/> Para exibir por semana ou mês, insira uma data dentro da semana ou mês que deseja exibir (não é necessário inserir o primeiro dia da semana ou mês):  <br/> 3/7/2015  <br/> As semanas sempre vão de domingo a sábado.  <br/> |
-|**Até** <br/> |Data/hora final de intervalo de tempo. Para ver os dados por horas, insira a data e hora final conforme segue:  <br/> 7/7/2015 13:00  <br/> Se você não inserir a hora final, o relatório terminará automaticamente à meia-noite do dia especificado. Para ver os dados por dia, insira somente a data:  <br/> 7/7/2015  <br/> Para exibir por semana ou mês, insira uma data dentro da semana ou mês que deseja exibir (não é necessário inserir o primeiro dia da semana ou mês):  <br/> 3/7/2015  <br/> As semanas sempre vão de domingo a sábado.  <br/> |
-|**Pool** <br/> |FQDN (Nome de domínio totalmente qualificado) do Pool de registradores ou Servidor de Borda. Você pode selecionar um pool individual ou clicar em **[Todos]** para ver os dados de todos os pools. Essa lista suspensa é automaticamente preenchida para você com base nos registros no banco de dados.<br/> |
-|**Tipo de atividade** <br/> | Tipo de atividade para filtrar. Selecione uma das seguintes opções: <br/>  [Todos] <br/>  Ponto a ponto <br/>  Conferência <br/> |
-|**Categoria da sessão** <br/> | Indica se a atividade em questão teve sucesso ou falhou. Selecione uma das seguintes opções: <br/>  [Todos] <br/>  Sucesso <br/>  Falha esperada <br/>  Falha inesperada <br/>  Uma "falha esperada" é aquela que se espera que ocorra. Por exemplo, se um usuário tiver definido seu status como Não incomodar, é esperado que toda chamada encaminhada para esse usuário falhe. "Falha inesperada" é uma falha que ocorre em um sistema que parece estar em bom estado.Por exemplo, uma chamada não deve ser finalizada se o chamador é colocado em espera. Se isso ocorrer, a situação será sinalizada como falha inesperada. <br/> |
-|**ID do Diagnóstico** <br/> |Identificador exclusivo (na forma de um cabeçalho de diagnóstico-ms) anexado a uma mensagem SIP que fornece informações úteis sobre os erros de solução de problemas. Os cabeçalhos diagnósticos são opcionais (é possível ter sessões SIP que não os incluem), e os IDs diagnósticos são relatados somente para as sessões com algum tipo de problema.  <br/> |
+|**De** <br/> |Data/hora inicial para o intervalo de tempo. Para exibir os dados por hora, insira a data e hora inicial como a seguir:  <br/> 7/7/2015 13:00  <br/> Se você não inserir uma hora inicial, o relatório começa automaticamente as 12:00 AM no dia especificado. Para exibir os dados por dia, insira apenas a data:  <br/> 7/7/2015  <br/> Para exibir por semana ou mês, insira uma data que está dentro da semana ou mês que deseja exibir (não é necessário inserir o primeiro dia da semana ou mês):  <br/> 7/3/2015  <br/> As semanas são sempre de domingo a sábado.  <br/> |
+|**To** <br/> |Data/hora final para o intervalo de tempo. Para exibir os dados por hora, insira a data e hora final como a seguir:  <br/> 7/7/2015 13:00  <br/> Se você não inserir uma hora final, o relatório termina automaticamente as 12:00 AM no dia especificado. Para exibir os dados por dia, insira apenas a data:  <br/> 7/7/2015  <br/> Para exibir por semana ou mês, insira uma data que está dentro da semana ou mês que deseja exibir (não é necessário inserir o primeiro dia da semana ou mês):  <br/> 7/3/2015  <br/> As semanas sempre correm do domingo até sábado.  <br/> |
+|**Pool** <br/> |FQDN (Nome de domínio totalmente qualificado) do pool de Registradores ou Servidor de Borda. Você pode selecionar um pool individual ou clicar em **[Tudo]** para ver os dados de todos os pools. Essa lista suspensa é automaticamente preenchida para você com base nos registros no banco de dados.<br/> |
+|**Tipo de atividade** <br/> | Tipo de atividade para filtrar. Selecione uma das seguintes opções: <br/>  [Tudo] <br/>  Ponto a ponto <br/>  Conferência <br/> |
+|**Categoria da sessão** <br/> | Indica se a atividade em questão teve sucesso ou falhou. Selecione uma das seguintes opções: <br/>  [Tudo] <br/>  Sucesso <br/>  Falha esperada <br/>  Falha inesperada <br/>  Uma "falha esperada" é uma falha prevista. Por exemplo, se um usuário configurou seu status para Não Perturbe, é previsto que qualquer chamada para ele irá falhar. Uma "falha inesperada" ocorre em um sistema que parecia saudável. Por exemplo, uma chamada não deveria ser terminada se o chamador for colocado em espera. Se isso ocorrer, será sinalizado como uma falha inesperada. <br/> |
+|**ID diagnóstico** <br/> |Identificador exclusivo (na forma de um cabeçalho de diagnóstico-ms) anexado a uma mensagem SIP que fornece informações úteis sobre os erros de solução de problemas. Os cabeçalhos diagnósticos são opcionais (é possível ter sessões SIP que não os incluem), e os IDs diagnósticos são relatados somente para as sessões com algum tipo de problema.  <br/> |
    
 ## <a name="metrics-for-top-diagnostic-reasons"></a>Métricas para os principais motivos diagnósticos
 
@@ -104,9 +104,9 @@ A tabela a seguir lista as informações fornecidas no Relatório de Falha de Di
   
 **Métricas para os principais motivos diagnósticos**
 
-|**Nome**|**Você pode classificar este item?**|**Descrição**|
+|**Nome**|**É possível classificar este item?**|**Descrição**|
 |:-----|:-----|:-----|
-|**Classificação** <br/> |Não  <br/> |Classificação relativa das sessões com falha, com base no ID diagnóstico, que é um identificador exclusivo (na forma de um cabeçalho de diagnóstico-ms) anexado a uma mensagem SIP que fornece informações úteis sobre os erros de solução de problemas.  <br/> |
+|**Rank** <br/> |Não  <br/> |Classificação relativa das sessões com falha, com base no ID diagnóstico, que é um identificador exclusivo (na forma de um cabeçalho de diagnóstico-ms) anexado a uma mensagem SIP que fornece informações úteis sobre os erros de solução de problemas.  <br/> |
 |**Principais motivos diagnósticos** <br/> |Não  <br/> |ID diagnóstico gerado em uma sessão.  <br/> |
 |**Sessões** <br/> |Não  <br/> |Número total de sessões com falha em que ID diagnóstico especificado foi gerado.  <br/> |
    
@@ -116,9 +116,9 @@ A tabela a seguir lista as informações fornecidas no Relatório de Falha de Di
   
 **Métricas para as principais modalidades**
 
-|**Nome**|**Você pode classificar este item?**|**Descrição**|
+|**Nome**|**É possível classificar este item?**|**Descrição**|
 |:-----|:-----|:-----|
-|**Classificação** <br/> |Não  <br/> |Classificação relativa com base na sessão com falha baseada no tipo de sessão (por exemplo, conferência de áudio/vídeo ou sessão de transferência de arquivo ponto a ponto).  <br/> |
+|**Rank** <br/> |Não  <br/> |Classificação relativa com base na sessão com falha baseada no tipo de sessão (por exemplo, conferência de áudio/vídeo ou sessão de transferência de arquivo ponto a ponto).  <br/> |
 |**Principais modalidades** <br/> |Não  <br/> |Tipo de sessão.  <br/> |
 |**Sessões** <br/> |Não  <br/> |Número total de sessões com falha envolvendo a modalidade especificada.  <br/> |
    
@@ -128,11 +128,11 @@ A tabela a seguir lista as informações fornecidas no Relatório de Falha de Di
   
 **Métricas para os principais pools**
 
-|**Nome**|**Você pode classificar este item?**|**Descrição**|
+|**Nome**|**É possível classificar este item?**|**Descrição**|
 |:-----|:-----|:-----|
-|**Classificação** <br/> |Não  <br/> |Classificação relativa de sessões com falha com base no pool de registradores ou no servidor de borda em que a sessão foi conduzida.  <br/> |
-|**Principais pools** <br/> |Não  <br/> |Nome do pool de registradores ou servidor de borda.  <br/> |
-|**Sessões** <br/> |Não  <br/> |Número total de sessões com falha por pool de registradores ou servidor de borda.  <br/> |
+|**Rank** <br/> |Não  <br/> |Classificação relativa das sessões com falha com base no pool do Registrador ou servidor de borda onde a sessão foi conduzida.  <br/> |
+|**Principais pools** <br/> |Não  <br/> |Nome do pool de Registrador ou Servidor de Borda.  <br/> |
+|**Sessões** <br/> |Não  <br/> |Número total de sessões com falha por pool de Registrador ou Servidor de Borda.  <br/> |
    
 ## <a name="metrics-for-top-sources"></a>Métricas para as principais fontes
 
@@ -140,43 +140,43 @@ A tabela a seguir lista as informações fornecidas no Relatório de Falha de Di
   
 **Métricas para as principais fontes**
 
-|**Nome**|**Você pode classificar este item?**|**Descrição**|
+|**Nome**|**É possível classificar este item?**|**Descrição**|
 |:-----|:-----|:-----|
-|**Classificação** <br/> |Não  <br/> |Classificação relativa das sessões com falha por computador.  <br/> |
+|**Rank** <br/> |Não  <br/> |Classificação relativa das sessões com falha por computador.  <br/> |
 |**Principais fontes** <br/> |Não  <br/> |Nome do computador envolvido na sessão com falha.  <br/> |
 |**Sessões** <br/> |Não  <br/> |Número total de sessões com falha por computador.  <br/> |
    
 ## <a name="metrics-for-top-components"></a>Métricas para os principais componentes
 
-A tabela a seguir lista as informações fornecidas no Relatório de Falha de Distribuição, com base nos componentes do que apresentaram mais falhas.
+A tabela a seguir lista as informações fornecidas no Relatório de Falha de Distribuição com base nos componentes que apresentaram mais falhas.
   
 **Métricas para os principais componentes**
 
-|**Nome**|**Você pode classificar este item?**|**Descrição**|
+|**Nome**|**É possível classificar este item?**|**Descrição**|
 |:-----|:-----|:-----|
-|**Classificação** <br/> |Não  <br/> |Classificação relativa de sessões com falha com base no componente (por exemplo, ExumRouting, GroupChat ou MediationServer).  <br/> |
+|**Rank** <br/> |Não  <br/> |Classificação relativa das sessões com falha com base no componente (por exemplo, ExumRouting, GroupChat ou MediationServer).  <br/> |
 |**Principais componentes** <br/> |Não  <br/> |Nome do componente envolvido na sessão com falha.  <br/> |
 |**Sessões** <br/> |Não  <br/> |Número total de sessões com falha por componente.  <br/> |
    
-## <a name="metrics-for-top-from-users"></a>Métricas para os principais usuários "Para"
+## <a name="metrics-for-top-from-users"></a>Métricas para os principais usuários "De"
 
 A tabela a seguir lista as informações fornecidas no Relatório de Falha de Distribuição, com base nos usuários que apresentaram mais falhas quando tentaram chamar alguém (conhecidos como usuários "De").
   
 **Métricas para os principais usuários "Para"**
 
-|**Nome**|**Você pode classificar este item?**|**Descrição**|
+|**Nome**|**É possível classificar este item?**|**Descrição**|
 |:-----|:-----|:-----|
-|**Classificação** <br/> |Não  <br/> |Classificação relativa das sessões com falha, com base no usuário convidado a entrar na sessão.  <br/> |
-|**Principais usuários "De"** <br/> |Não  <br/> |Endereço SIP do usuário convidado para entrar na sessão.  <br/> |
+|**Rank** <br/> |Não  <br/> |Classificação relativa das sessões com falha, com base no usuário convidado a entrar na sessão.  <br/> |
+|**Principais usuários "Para"** <br/> |Não  <br/> |Endereço SIP do usuário convidado para entrar na sessão.  <br/> |
 |**Sessões** <br/> |Não  <br/> |Número total de sessões com falha por usuário.  <br/> |
    
 ## <a name="metrics-for-top-to-users"></a>Métricas para os principais usuários
 
 A tabela a seguir lista as informações fornecidas no Relatório de Falha de Distribuição, com base nos usuários que apresentaram mais falhas quando o outro usuário tentou chamá-los (conhecidos como usuários "Para").
   
-|**Nome**|**Você pode classificar este item?**|**Descrição**|
+|**Nome**|**É possível classificar este item?**|**Descrição**|
 |:-----|:-----|:-----|
-|**Classificação** <br/> |Não  <br/> |Classificação relativa das sessões com falha, com base no usuário que iniciou a sessão.  <br/> |
+|**Rank** <br/> |Não  <br/> |Classificação relativa das sessões com falha, com base no usuário que iniciou a sessão.  <br/> |
 |**Principais usuários "Para"** <br/> |Não  <br/> |Endereço SIP do usuário que iniciou a sessão.  <br/> |
 |**Sessões** <br/> |Não  <br/> |Número total de sessões com falha por usuário.  <br/> |
    
@@ -186,9 +186,9 @@ A tabela a seguir lista as informações fornecidas no Relatório de Falha de Di
   
 **Métricas para os principais agentes do usuário**
 
-|**Nome**|**Você pode classificar este item?**|**Descrição**|
+|**Nome**|**É possível classificar este item?**|**Descrição**|
 |:-----|:-----|:-----|
-|**Classificação** <br/> |Não  <br/> |Classificação relativa de sessões com falha, com base no agente do usuário (software) envolvido na sessão. Por exemplo: RTCC/4.0.0.0 Inbound Routing/4.0.0.0.  <br/> |
+|**Rank** <br/> |Não  <br/> |Classificação relativa de sessões com falha, com base no agente do usuário (software) envolvido na sessão. Por exemplo: RTCC/4.0.0.0 Inbound Routing/4.0.0.0.  <br/> |
 |**Principais agentes do usuário** <br/> |Não  <br/> |Nome do agente do usuário envolvido na sessão com falha.  <br/> |
 |**Sessões** <br/> |Não  <br/> |Número total de sessões com falha por agente do usuário.  <br/> |
    

@@ -1,8 +1,8 @@
 ---
-title: Relatório de dispositivo no Skype for Business Server
+title: Relatório de dispositivos no Skype for Business Server
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,23 +11,23 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: f42e4d60-699b-4870-8bb5-13b51bb6eb2b
-description: 'Resumo: Saiba mais sobre o relatório de dispositivos no Skype for Business Server.'
-ms.openlocfilehash: cb3dcf506d7853136b1cddf7f6b7848891cb77e7
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 'Resumo: saiba mais sobre o Relatório de Dispositivos no Skype for Business Server.'
+ms.openlocfilehash: 2471f232256e4715f271cd310f0b1415555ca4c5
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41817991"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49826411"
 ---
-# <a name="device-report-in-skype-for-business-server"></a>Relatório de dispositivo no Skype for Business Server
+# <a name="device-report-in-skype-for-business-server"></a>Relatório de dispositivos no Skype for Business Server
  
-**Resumo:** Saiba mais sobre o relatório de dispositivos no Skype for Business Server.
+**Resumo:** Saiba mais sobre o Relatório de Dispositivos no Skype for Business Server.
   
-O Relatório de Dispositivos poderia trocar de nome para Relatório de Microfones e Alto-Falantes; isso porque o Relatório de Dispositivos recupera métricas relacionadas às chamadas (como o percentual de chamadas ruins, eco e tempo de troca de voz) agrupadas por microfone e alto-falante usados na chamada. Se você estiver interessado em telefones IP (também chamados de "dispositivos"), use o relatório de [inventário de telefone IP no Skype for Business Server](ip-phone-inventory-report.md) em vez disso.
+O Relatório de Dispositivos pode ser melhor chamado de Relatório de Microfones e Alto-Falantes; isso porque o Relatório de Dispositivos recupera métricas relacionadas às chamadas (tais como o percentual de chamadas ruins, eco e tempo de troca de voz) agrupadas por microfone e alto-falante usados na chamada. Se você estiver interessado em telefones IP (também comumente chamados de "dispositivos"), use o Relatório de Inventário de Telefones IP no [Skype for Business Server.](ip-phone-inventory-report.md)
   
-O Relatório de Dispositivos é extremamente útil para os administradores ao determinar se um tipo específico de dispositivo está apresentando mais chamadas de baixa qualidade que outros. Por outro lado, pode influenciar decisões relacionadas à compra de novos dispositivos ou à substituição de dispositivos existentes.
+O Relatório de Dispositivos é extremamente útil para os administradores ao determinar se um tipo específico de dispositivo está experienciando mais chamadas de baixa qualidade do que outros. Por outro lado, pode influenciar decisões relacionadas à compra de novos dispositivos ou à substituição de dispositivos existentes.
   
-Por padrão, as informações exibidas no Relatório de Dispositivos também se baseiam no microfone (o dispositivo de captura) e alto-falantes/headset (o dispositivo de renderização) usados na chamada. Por exemplo, vamos supor que você tenha vários usuários que utilizam os seguintes dispositivos de captura e renderização: por padrão, as informações exibidas no Relatório de Dispositivos também se baseiam no microfone (o dispositivo de captura) e alto-falantes/headset (o dispositivo de renderização) usados na chamada. Por exemplo, vamos supor que você tenha vários usuários que utilizam os seguintes dispositivos de captura e renderização:
+Por padrão, as informações exibidas no Relatório de Dispositivos também se baseiam no microfone (o dispositivo de captura) e alto-falantes/headset (o dispositivo de renderização) usados na chamada. Por exemplo, suponha que você tem vários usuários que utilizam os seguintes dispositivos de captura e renderização: por padrão, as informações exibidas no Relatório de Dispositivos também se baseiam no microfone (o dispositivo de captura) e alto-falantes/headset (o dispositivo de renderização) usados na chamada. Por exemplo, suponha que você tem vários usuários que utilizam os seguintes dispositivos de captura e renderização:
   
 - Dispositivo de captura -- Microfone (SoundMAX Integrated Digital HD Audio)
     
@@ -35,13 +35,13 @@ Por padrão, as informações exibidas no Relatório de Dispositivos também se 
     
 Se esses usuários fizerem um total de 254 chamadas, você verá uma entrada como esta no relatório:
   
-|**Dispositivo de captura**|**Dispositivo de renderização**|**Volume da chamada**|
+|**Dispositivo de captura**|**Dispositivos de renderização**|**Volume da chamada**|
 |:-----|:-----|:-----|
 |Microfone (SoundMAX Integrated Digital HD Audio)  <br/> |Fone de ouvido com headset (Microsoft LifeChat LX-3000)  <br/> |254  <br/> |
    
-Agora, suponha que você tem um número de usuários que usam esse mesmo dispositivo de captura, mas que usam um dispositivo de renderização diferente. Neste caso, você terá uma segunda linha no relatório, uma para essa combinação exclusiva de dispositivo de captura e dispositivo de renderização:
+Agora, suponha que você tem um número de usuários que usam esse mesmo dispositivo de captura, mas usam um dispositivo de renderização diferente. Neste caso, você terá uma segunda linha no relatório, uma para uma para essa combinação única de dispositivo de captura e dispositivo de renderização:
   
-|**Dispositivo de captura**|**Dispositivo de renderização**|**Volume da chamada**|
+|**Dispositivo de captura**|**Dispositivos de renderização**|**Volume da chamada**|
 |:-----|:-----|:-----|
 |Microfone (SoundMAX Integrated Digital HD Audio)  <br/> |Fone de ouvido com headset (Microsoft LifeChat LX-3000)  <br/> |254  <br/> |
 |Microfone (SoundMAX Integrated Digital HD Audio)  <br/> |Alto-falantes (SoundMAX Integrated Digital HD Audio)  <br/> |319  <br/> |
@@ -54,17 +54,17 @@ Se você preferir ver os totais combinados para um determinado dispositivo (por 
    
 ## <a name="accessing-the-device-report"></a>Acessando o relatório de dispositivos
 
-O Relatório de Dispositivos é geralmente acessado na página inicial dos Relatórios de Monitoramento. No entanto, se você estiver exibindo o [relatório de detalhes da chamada no Skype for Business Server](call-detail-report.md) , poderá fazer uma busca detalhada no relatório de dispositivo para um dispositivo específico clicando em uma das seguintes métricas:
+O Relatório de Dispositivos é geralmente acessado na página inicial dos Relatórios de Monitoramento. No entanto, se você estiver exibindo o Relatório Detalhado de Chamadas no [Skype for Business Server,](call-detail-report.md) poderá detalhar o Relatório de Dispositivos para um dispositivo específico clicando em uma das seguintes métricas:
   
 - Dispositivo de captura
     
 - Dispositivo de renderização
     
-No relatório do dispositivo, você pode fazer drill down até o [relatório da lista de chamadas no Skype for Business Server](call-list-report-0.md) clicando em uma das seguintes métricas:
+No Relatório de Dispositivos, você pode detalhar o Relatório de Lista de Chamadas no [Skype for Business Server](call-list-report-0.md) clicando em uma das seguintes métricas:
   
 - Volume da chamada
     
-- Porcentagem de chamadas ruins
+- Percentual de chamadas ruins
     
 ## <a name="making-the-best-use-of-the-device-report"></a>Como usar melhor o Relatório de Dispositivos
 
@@ -107,9 +107,9 @@ Tratando-se de nomes de dispositivos, o Relatório de Dispositivos é extremamen
 - Microfone Aastra 6725ip (Dispositivo de áudio USB)-V0
     
 > [!NOTE]
-> Lembre-se de que capturar nomes de dispositivos podem não ser iguais se você estiver executando versões localizadas do Skype for Business Server. Um dispositivo denominado Microfone Aastra 6725ip (Aastra 6725ip)-V0 em português pode ter um nome diferente em francês ou espanhol. 
+> Lembre-se de que os nomes de dispositivos de captura podem não ser os mesmos se você estiver executando versões localizadas do Skype for Business Server. Um dispositivo denominado Microfone Aastra 6725ip (Aastra 6725ip)-V0 em português pode ter um nome diferente em francês ou espanhol. 
   
-Muitas vezes você precisará desse nível de detalhe; mas, em outros momentos, você só estará interessado na quantidade de chamadas que usam um microfone Aastra, independente do número do modelo. Uma forma de obter informações deste tipo é exportar os dados do Relatório de Dispositivos para o Microsoft Excel e salvar esses dados em um arquivo de valores separados por vírgulas (por exemplo, C:\Data\Devices_Report.csv). É possível usar um conjunto de comandos parecidos com esses para importar o arquivo .CSV no Windows PowerShell e relatar o número total de chamadas feitas usando um dispositivo de captura Aastra:
+Muitas vezes você desejará este nível de detalhe; mas em outros momentos, você só estará interessado na quantidade de chamadas que usam um microfone Aastra, independente do número do modelo. Uma forma de obter informações deste tipo é exportar os dados do Relatório de Dispositivos para o Microsoft Excel e salvar esses dados em um arquivo de valores separados por vírgulas (por exemplo, C:\Data\Devices_Report.csv). É possível usar um conjunto de comandos parecidos com esses para importar o arquivo .CSV no Windows PowerShell e relatar o número total de chamadas feitas usando um dispositivo de captura Aastra:
   
 ```PowerShell
 $devices = Import-Csv "C:\Data\Device_Report.csv
@@ -122,43 +122,43 @@ Esse procedimento retornará um único valor que representa o número total de c
 
 ## <a name="filters"></a>Filtros
 
-Os filtros oferecem uma forma de retornar um conjunto de dados mais direcionado ou exibir os dados devolvidos em formas diferentes. Por exemplo, o Relatório de Dispositivos permite filtrar coisas como o tipo de chamada (isto é, a chamada foi realizada pelo cliente), uma chamada de conferência ou chamada PSTN. É possível também escolher como os dados devem ser agrupados. Neste caso, os dispositivos são agrupados por hora, dia, semana ou mês.
+Os filtros oferecem uma forma de retornar um conjunto de dados mais direcionado ou exibir os dados devolvidos em formas diferentes. Por exemplo, o Relatório de Dispositivo permite filtrar coisas como o tipo de chamada (isto é, a chamada foi realizada pelo cliente), uma chamada de conferência ou chamada PSTN. Também é possível escolher como os dados devem ser agrupados. Neste caso, os dispositivos são agrupados por hora, dia, semana ou mês.
   
-A tabela a seguir lista os filtros que podem ser usados com o Relatório de Dispositivos.
+A tabela a seguir lista os filtros que podem ser usados com o Relatório de Dispositivo.
   
-**Filtros do Relatório de Dispositivos**
+**Filtros do Relatório de Dispositivo**
 
 |**Nome**|**Descrição**|
 |:-----|:-----|
-|**De** <br/> |Data/hora de início para o intervalo de tempo. Para ver os dados por horas, insira a data e hora de início conforme segue:  <br/> 7/7/2015 13:00  <br/> Se você não inserir a hora de início, o relatório começará automaticamente à meia-noite do dia especificado. Para ver os dados por dia, insira somente a data:  <br/> 7/7/2015  <br/> Para exibir por semana ou mês, insira uma data dentro da semana ou mês que deseja exibir (não é necessário inserir o primeiro dia da semana ou mês):  <br/> 3/7/2015  <br/> As semanas sempre vão de domingo a sábado.  <br/> |
-|**Até** <br/> |Data/hora final de intervalo de tempo. Para ver os dados por horas, insira a data e hora final conforme segue:  <br/> 7/7/2015 13:00  <br/> Se você não inserir a hora final, o relatório terminará automaticamente à meia-noite do dia especificado. Para ver os dados por dia, insira somente a data:  <br/> 7/7/2015  <br/> Para exibir por semana ou mês, insira uma data dentro da semana ou mês que deseja exibir (não é necessário inserir o primeiro dia da semana ou mês):  <br/> 3/7/2015  <br/> As semanas sempre vão de domingo a sábado.  <br/> |
-|**Causa de troca de voz** <br/> |Motivo pelo qual uma chamada precisou ser colocada no modo half duplex para evitar o eco. No modo half duplex, a comunicação pode passar apenas em uma direção por vez, semelhante a forma que os usuários revezam ao se comunicar com um walkie-talkie. Selecione um dos seguintes:  <br/> Todo Nenhum carimbo de data/hora danificado DNLP (processador dinâmico não linear) baixa complexidade estado do dispositivo ruim eco pós-AEC (cancelamento de eco acústico) |
-|**Causa do eco** <br/> |Motivo pelo qual o eco acima do aceitável foi detectado em uma chamada. (Em telecomunicações, o eco é um reflexo do som, o mesmo fenômeno que você ouvirá se gritar em um poço). Selecione um dos seguintes:  <br/> Todo Nenhum carimbo de data/hora com eco pós-AEC Echo (cancelamento de eco acústico) ANLP (processador não linear adaptável) DNLP (processador dinâmico não linear) recorte de microfone |
-|**Tipo de chamada** <br/> |Indica o tipo de chamada realizada. Selecione um dos seguintes:  <br/> Todo Chamada em conferência em chamada PSTN do cliente |
-|**Tipo de acesso** <br/> |Indica se um cliente estava conectado na rede interna ou na rede externa quando a chamada foi realizada. Selecione um dos seguintes:  <br/> Todo Externa interna |
-|**Tipo de rede** <br/> |Indica o tipo de rede que o cliente estava conectado quando a chamada foi realizada. Selecione um dos seguintes:  <br/> Todo Sem fio com fio |
-|**VPN** <br/> |Indica se um cliente externo estava usando uma conexão de rede privada virtual (VPN) quando a chamada foi realizada. Selecione um dos seguintes:  <br/> Todo VPN não VPN |
-|**Tipo de dispositivo** <br/> |Indica o tipo de dispositivo. Selecione um dos seguintes:  <br/> Dispositivo de captura processamento de dispositivo de captura/renderização de dispositivo |
-|**Nome do dispositivo** <br/> |Nome do dispositivo de captura ou renderização. É possível inserir o nome completo do dispositivo ou qualquer parte do nome. Por exemplo para encontrar o dispositivo Microfone (Microsoft LifeCam VX-1000.), é possível inserir o nome completo do dispositivo, como a seguir:  <br/> Microfone (Microsoft LifeCam VX-1000.)  <br/> Como alternativa, é possível inserir apenas uma parte do nome. Por exemplo:  <br/> LifeCam  <br/> Observe que o filtro anterior retorna qualquer dispositivo que contém a cadeia de caracteres "LifeCam" em qualquer local do seu nome.  <br/> |
+|**De** <br/> |Data/hora inicial para o intervalo de tempo. Para exibir os dados por hora, insira a data e hora inicial como a seguir:  <br/> 7/7/2015 13:00  <br/> Se você não inserir uma hora inicial, o relatório começa automaticamente as 12:00 AM no dia especificado. Para exibir os dados por dia, insira apenas a data:  <br/> 7/7/2015  <br/> Para exibir por semana ou mês, insira uma data que está dentro da semana ou mês que deseja exibir (não é necessário inserir o primeiro dia da semana ou mês):  <br/> 7/3/2015  <br/> As semanas são sempre de domingo a sábado.  <br/> |
+|**To** <br/> |Data/hora final para o intervalo de tempo. Para exibir os dados por hora, insira a data e hora final como a seguir:  <br/> 7/7/2015 13:00  <br/> Se você não inserir uma hora final, o relatório termina automaticamente as 12:00 AM no dia especificado. Para exibir os dados por dia, insira apenas a data:  <br/> 7/7/2015  <br/> Para exibir por semana ou mês, insira uma data que está dentro da semana ou mês que deseja exibir (não é necessário inserir o primeiro dia da semana ou mês):  <br/> 7/3/2015  <br/> As semanas são sempre de domingo a sábado.  <br/> |
+|**Causa de troca de voz** <br/> |Motivo pelo qual uma chamada precisou ser colocada no modo half duplex para evitar o eco. No modo half duplex, a comunicação pode passar apenas em uma direção por vez, semelhante a forma que os usuários revezam ao se comunicar com um walkie-talkie. Selecione um dos seguintes:  <br/> [Tudo] Nenhum DNLP de eco de data/hora ruim (processador dinâmico não-linha) Estado de dispositivo com baixa complexidade Estado do dispositivo Pós-AEC (cancelamento de eco acústico) |
+|**Causa do eco** <br/> |Motivo pelo qual o eco acima do aceitável foi detectado em uma chamada. (Em telecomunicações, o eco é um reflexo do som, o mesmo fenômeno que você ouvirá se gritar em um poço). Selecione um dos seguintes:  <br/> [Tudo] Nenhum eco Pós-AEC de data/hora ruim (cancelamento de eco acústico) DNLP (processador não-linha adaptável) DNLP (processador dinâmico nãolinear) Recorte do microfone |
+|**Tipo de chamada** <br/> |Indica o tipo de chamada realizada. Selecione um dos seguintes:  <br/> [Tudo] Chamada de cliente chamada PSTN Chamada conferência |
+|**Tipo de acesso** <br/> |Indica se um cliente estava conectado na rede interna ou na rede externa quando a chamada foi realizada. Selecione um dos seguintes:  <br/> [Tudo] Externo Interno |
+|**Tipo de rede** <br/> |Indica o tipo de rede que o cliente estava conectado quando a chamada foi realizada. Selecione um dos seguintes:  <br/> [Tudo] Sem fio com fio |
+|**VPN** <br/> |Indica se um cliente externo estava usando uma conexão de rede privada virtual (VPN) quando a chamada foi realizada. Selecione um dos seguintes:  <br/> [Tudo] VPN não VPN |
+|**Tipo de dispositivo** <br/> |Indica o tipo de dispositivo. Selecione um dos seguintes:  <br/> Capturar o dispositivo renderizar o par de dispositivos de captura/renderização |
+|**Nome do dispositivo** <br/> |Nome do dispositivo de captura ou renderização. É possível inserir o nome completo do dispositivo ou qualquer parte do nome. Por exemplo para encontrar o dispositivo Microfone (Microsoft LifeCam VX-1000.), é possível inserir o nome completo do dispositivo, como a seguir:  <br/> Microfone (Microsoft LifeCam VX-1000.)  <br/> Em alternativa, é possível inserir apenas uma parte do nome. Por exemplo:  <br/> LifeCam  <br/> Observe que o filtro anterior retorna qualquer dispositivo que contém a cadeia de caracteres "LifeCam" em qualquer local do seu nome.  <br/> |
    
-## <a name="metrics"></a>Métricas
+## <a name="metrics"></a>Métrica
 
-A tabela a seguir lista a informação apresentada no Relatório de Dispositivos.
+A tabela a seguir lista a informação oferecida no Relatório do Dispositivo.
   
-**Métricas do Relatório de Dispositivos**
+**Métricas do Relatório do Dispositivo**
 
-|**Nome**|**Você pode classificar este item?**|**Descrição**|
+|**Nome**|**É possível classificar este item?**|**Descrição**|
 |:-----|:-----|:-----|
 |**Dispositivo de captura** <br/> |Sim  <br/> |Dispositivo (por exemplo, um microfone ou webcam) usado para transmitir áudio.  <br/> |
-|**Dispositivo de renderização** <br/> |Sim  <br/> |Dispositivo (por exemplo, um fone de ouvido ou alto falantes) usados para receber áudio.  <br/> |
+|**Dispositivos de renderização** <br/> |Sim  <br/> |Dispositivo (por exemplo, um fone de ouvido ou alto falantes) usados para receber áudio.  <br/> |
 |**Volume da chamada** <br/> |Sim  <br/> |Número total de chamadas realizadas.  <br/> |
-|**Porcentagem de chamadas ruins** <br/> |Sim  <br/> |Porcentagem de chamadas classificadas como "inválidas". Uma chamada inválida é qualquer chamada na qual pelo menos uma métrica medida excede o valor permitido (por exemplo, uma chamada com tremulação excessiva).  <br/> |
-|**Usuários únicos** <br/> |Sim  <br/> |Usuários exclusivos que utilizaram o dispositivo. Se um usuário utilizou o dispositivo 13 vezes, ele ou ela deve contar como um usuário exclusivo, o mesmo que um usuário que utilizou o dispositivo uma única vez.  <br/> |
+|**Percentual de chamadas ruins** <br/> |Sim  <br/> |Porcentagem de chamadas classificadas como "inválidas". Uma chamada inválida é qualquer chamada na qual pelo menos uma métrica medida excede o valor permitido (por exemplo, uma chamada com jitter excessivo).  <br/> |
+|**Usuários exclusivos** <br/> |Sim  <br/> |Usuários exclusivos que utilizaram o dispositivo. Se um usuário utilizou o dispositivo 13 vezes, ele ou ela deve contar como um usuário exclusivo, o mesmo que um usuário que utilizou o dispositivo uma única vez.  <br/> |
 |**Tempo de troca da taxa de voz** <br/> |Sim  <br/> |Porcentagem da chamada que precisou ser conduzida no modo half duplex para evitar o eco. No modo half duplex, a comunicação pode passar apenas em uma direção por vez, semelhante a forma que os usuários revezam ao se comunicar com um walkie-talkie.  <br/> |
-|**Taxa de microfones não funcionando** <br/> |Sim  <br/> |Porcentagem da chamada na qual o dispositivo de captura não estava funcionando em um nível aceitável. Um valor alto sugere que os problemas de qualidade da chamada ocorreram devido principalmente ao dispositivo de captura não estar funcionando conforme esperado.  <br/> |
-|**Taxa de alto falantes não funcionando** <br/> |Sim  <br/> |Porcentagem da chamada na qual o dispositivo de renderização não estava funcionando em um nível aceitável. Um valor alto sugere que os problemas de qualidade da chamada ocorreram devido principalmente ao dispositivo de renderização não estar funcionando conforme esperado.  <br/> |
-|**Chamadas com troca de voz (%)** <br/> |Sim  <br/> |Porcentagem do total de chamadas que precisaram ser colocadas no modo half duplex. No modo half duplex, a comunicação pode passar apenas em uma direção por vez, semelhante a forma que os usuários revezam ao se comunicar com um walkie-talkie.  <br/> |
-|**Microfone com eco em (%)** <br/> |Sim  <br/> |Porcentagem de tempo em que o eco foi detectado no fluxo de captura do microfone. Normalmente, os valores são baixos para fones de ouvido ou celulares e mais altos para viva voz e auto falante. Para dispositivos que suportam cancelamento de eco acústico na placa, os altos níveis indicam vazamento de eco. Para outros dispositivos, essa métrica não deve ser utilizada para avaliar a qualidade do dispositivo.  <br/> |
+|**Taxa de microfone não funcionando** <br/> |Sim  <br/> |Porcentagem da chamada na qual o dispositivo de captura não estava funcionando em um nível aceitável. Um valor alto sugere que os problemas de qualidade da chamada ocorreram devido principalmente ao dispositivo de captura não estar funcionando conforme esperado.  <br/> |
+|**Taxa de alto falante não funcionando** <br/> |Sim  <br/> |Porcentagem da chamada na qual o dispositivo de renderização não estava funcionando em um nível aceitável. Um valor alto sugere que os problemas de qualidade da chamada ocorreram devido principalmente ao dispositivo de renderização não estar funcionando conforme esperado.  <br/> |
+|**Chamadas com opção de voz (%)** <br/> |Sim  <br/> |Porcentagem do total de chamadas que precisaram ser colocadas no modo half duplex. No modo half duplex, a comunicação pode passar apenas em uma direção por vez, semelhante a forma que os usuários revezam ao se comunicar com um walkie-talkie.  <br/> |
+|**Eco do microfone em (%)** <br/> |Sim  <br/> |Porcentagem de tempo em que o eco foi detectado no fluxo de captura do microfone. Normalmente, os valores são baixos para fones de ouvido ou fones de ouvido e maiores para alto-falantes ou alto-falantes autônomos. Para dispositivos que suportam cancelamento de eco acústico na placa, valores altos indicam vazamento de eco. Para outros dispositivos, essa métrica não deve ser usada para avaliar a qualidade do dispositivo.  <br/> |
 |**Envio de eco (%)** <br/> |Sim  <br/> |Porcentagem de eco transmitido para outros usuários.  <br/> |
 |**Chamadas com eco (%)** <br/> |Sim  <br/> |Porcentagem do total de chamadas que tiveram eco excedendo o nível aceitável.  <br/> |
    

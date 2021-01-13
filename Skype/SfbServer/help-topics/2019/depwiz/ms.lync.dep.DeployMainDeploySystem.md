@@ -1,8 +1,8 @@
 ---
 title: Instalar ou Atualizar o Sistema Skype for Business Server
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,21 +14,21 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: d6ea5158-aaa0-4c2f-aeac-c0dfa1718d7c
 ROBOTS: NOINDEX, NOFOLLOW
-description: Para começar a instalação ou atualizar uma implantação existente do Skype for Business Server, clique em instalar ou atualizar o Skype for Business Server. As etapas nesta seção instalarão os componentes específicos de uma determinada função de servidor, com base no documento do construtor de topologias. Antes de iniciar esta série de etapas, você deve definir a implantação no construtor de topologias. Você deve estar conectado ao computador que está sendo implantado como administrador local e como membro do grupo Domain admins no domínio onde o servidor está localizado. O computador deve estar associado ao domínio antes de concluir esta etapa.
-ms.openlocfilehash: df7f5342ad1d0d6a6b80f782e431acf99c3d68ee
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: Para iniciar a instalação ou atualizar uma implantação existente do Skype for Business Server, clique em Instalar ou Atualizar o Skype for Business Server. As etapas nesta seção instalarão componentes específicos de uma determinada função de servidor, com base no documento do Construtor de Topologias. Antes de começar esta série de etapas, você deve definir a implantação no Construtor de Topologias. Você deve estar conectado ao computador que está implantando como administrador local e como membro do grupo Administradores de Domínio no domínio onde o servidor está localizado. O computador deve ser ingressado no domínio antes de concluir esta etapa.
+ms.openlocfilehash: 55d6805382aac5f43e66011f79e9fc9154ab9028
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41798328"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49824941"
 ---
 # <a name="install-or-update-skype-for-business-server-system"></a>Instalar ou Atualizar o Sistema Skype for Business Server
 
-Para começar a instalação ou atualizar uma implantação existente do Skype for Business Server, clique em **instalar ou atualizar o Skype for Business Server**. As etapas nesta seção instalarão os componentes específicos de uma determinada função de servidor, com base no documento do construtor de topologias. Antes de iniciar esta série de etapas, você deve definir a implantação no construtor de topologias. Você deve estar conectado ao computador que está sendo implantado como administrador local e como membro do grupo Domain admins no domínio onde o servidor está localizado. O computador deve estar associado ao domínio antes de concluir esta etapa.
+Para iniciar a instalação ou atualizar uma implantação existente do Skype for Business Server, clique em **Instalar ou Atualizar o Skype for Business Server.** As etapas nesta seção instalarão componentes específicos de uma determinada função de servidor, com base no documento do Construtor de Topologias. Antes de começar esta série de etapas, você deve definir a implantação no Construtor de Topologias. Você deve estar conectado ao computador que está implantando como administrador local e como membro do grupo Administradores de Domínio no domínio onde o servidor está localizado. O computador deve ser ingressado no domínio antes de concluir esta etapa.
 
-Se você estiver atualizando um servidor atualmente implantado, será necessário fazer as alterações que você pretende fazer no construtor de topologias.
+Se você estiver atualizando um servidor implantado no momento, deverá fazer as alterações que pretende fazer no Construtor de Topologias.
 
 ## <a name="see-also"></a>Confira também
 
-[Deployment](https://technet.microsoft.com/library/83bd43ee-c1fe-4b38-bfa7-3eb382817bf9.aspx)
+[Implantação](https://technet.microsoft.com/library/83bd43ee-c1fe-4b38-bfa7-3eb382817bf9.aspx)
 

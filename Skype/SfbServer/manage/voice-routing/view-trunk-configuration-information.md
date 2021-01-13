@@ -1,8 +1,8 @@
 ---
 title: Exibir informações de configuração de tronco no Skype for Business Server
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -10,43 +10,43 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: As configurações de tronco SIP definem a relação e os recursos entre um servidor de mediação e o gateway PSTN (rede telefônica pública comutada), um PBX (PBX IP-Public Branch Exchange) ou um SBC (controlador de borda de sessão) no provedor de serviços.
-ms.openlocfilehash: 40820729727ec02e5494e69c773d7fbd3d7b1154
-ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
+description: As definições de configuração de tronco SIP definem o relacionamento e as capacidades entre um Servidor de Mediação e gateway PSTN, um PBX-IP ou um SBC no provedor de serviços.
+ms.openlocfilehash: c473c3fc19138ac91b44dff8552555418d36533f
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "41888478"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49826161"
 ---
 # <a name="view-trunk-configuration-information-in-skype-for-business-server"></a>Exibir informações de configuração de tronco no Skype for Business Server
 
-As configurações de tronco SIP definem a relação e os recursos entre um servidor de mediação e o gateway PSTN (rede telefônica pública comutada), um PBX (PBX IP-Public Branch Exchange) ou um SBC (controlador de borda de sessão) no provedor de serviços.
+As definições de configuração de tronco SIP definem o relacionamento e as capacidades entre um Servidor de Mediação e gateway PSTN, um PBX-IP ou um SBC no provedor de serviços.
 
-- Se o desvio de mídia deve ser ativado nos troncos.
-- As condições em que os pacotes de protocolo de controle de transporte em tempo real (RTCP) são enviados.
-- Se a criptografia SRTP (Secure Real-Time Protocol) é necessária ou não em cada tronco.
+- Se o bypass de mídia deve ser habilitado nos troncos.
+- As condições nas quais os pacotes RTCP são enviados.
+- Se a criptografia SRTP é obrigatória em cada tronco.
 
-Quando você instala o Skype for Business Server, uma coleção global de configurações de tronco SIP é criada para você. Além disso, os administradores podem criar coleções de configurações personalizadas no escopo do site ou no escopo do serviço (somente para o serviço de gateway PSTN).
+Quando você instala o Skype for Business Server, um conjunto global de definições de configuração de tronco SIP é criado para você. Além disso, os administradores podem criar conjuntos de configurações personalizadas no escopo local ou de serviço (apenas para o serviço de gateway PSTN).
 
-**Para ver as informações de configuração do tronco SIP usando o painel de controle do Skype for Business Server**
+**Para exibir informações de configuração de tronco SIP usando o Painel de Controle do Skype for Business Server**
 
-1. No painel de controle do Skype for Business Server, clique em **Roteamento de voz**e, em seguida, clique em **configuração de tronco**.
-2. Na guia **configuração de tronco** , você verá uma lista de todas as suas coleções de definições de configuração de tronco; para cada coleção, você verá os valores para as propriedades **nome**, **escopo**, **estado**e **ignorar mídia** , juntamente com o número de **usos de PSTN**, **as regras de número de chamada**e **as regras de número chamadas** associadas à coleção. Para ver detalhes adicionais sobre uma coleção de definições de configuração de tronco, clique na coleção de interesse, clique em **Editar**e, em seguida, clique em **Mostrar detalhes**. Observe que você pode exibir informações detalhadas apenas para um conjunto de configurações de tronco de configuração de tronco de cada vez.
+1. No Painel de Controle do Skype for Business Server, clique em **Roteamento** de Voz e em **Configuração de Tronco.**
+2. Na guia **Configuração do** Tronco, você verá uma lista de todas as coleções de definições de configuração de tronco; para cada coleção, você verá valores para as propriedades **Name**, **Scope**, **State** e **Media bypass,** juntamente com o número de usos de **PSTN** **,** regras de número de chamada e regras de número **chamado** associadas à coleção. Para exibir informações adicionais sobre um coleção de configurações de tronco, clique na coleção de interesse, clique em **Editar** e depois clique em **Exibir detalhes**. Observe que você pode exibir informações detalhadas somente de uma coleção de configurações de tronco por vez.
 
-## <a name="viewing-sip-trunk-configuration-information-by-using-windows-powershell-cmdlets"></a>Exibindo informações de configuração de tronco SIP usando cmdlets do Windows PowerShell
+## <a name="viewing-sip-trunk-configuration-information-by-using-windows-powershell-cmdlets"></a>Exibindo informações de configuração do tronco SIP usando cmdlets do Windows PowerShell
 
-As configurações de tronco SIP podem ser exibidas usando o Skype for Business Server PowerShell e o cmdlet Get-CsTrunkConfiguration. Esse cmdlet pode ser executado do Shell de gerenciamento do Skype for Business Server ou de uma sessão remota do Windows PowerShell. Para obter detalhes sobre como usar o Windows PowerShell remoto para se conectar ao Skype for Business Server, consulte o artigo sobre o blog do Windows PowerShell do Lync Server "início rápido: gerenciar o https://go.microsoft.com/fwlink/p/?linkId=255876Microsoft Lync Server 2010 usando o PowerShell remoto" em. SUBSTITUIR OU REMOVER ESTE LINK.
+As definições de configuração do tronco SIP podem ser visualizadas usando o PowerShell do Skype for Business Server e o Get-CsTrunkConfiguration cmdlet. Esse cmdlet pode ser executado a partir do Shell de Gerenciamento do Skype for Business Server ou de uma sessão remota do Windows PowerShell. Para obter detalhes sobre como usar o Windows PowerShell remoto para se conectar ao Skype for Business Server, consulte o artigo do blog do Lync Server Windows PowerShell "Início Rápido: Gerenciando o Microsoft Lync Server 2010 usando o PowerShell Remoto" em https://go.microsoft.com/fwlink/p/?linkId=255876 . SUBSTITUA OU REMOVA ESTE LINK.
 
 
-**Para ver as informações de configuração do tronco SIP**
+**Para exibir informações de configuração do tronco SIP**
 
-Para ver as informações sobre todas as suas configurações de tronco SIP, digite o seguinte comando no Shell de gerenciamento do Skype for Business Server e pressione ENTER:
+Para exibir informações sobre todas as suas definições de configuração de tronco SIP, digite o seguinte comando no Shell de Gerenciamento do Skype for Business Server e pressione ENTER:
 
 ```powershell
 Get-CsTrunkConfiguration
 ```
 
-Isso retornará informações parecidas com:
+Isto retorna informações semelhantes à seguinte:
 
 ```console
 Identity                                  : Global
@@ -74,7 +74,7 @@ Enable3pccRefer                           : False
 ForwardPAI                                : False
 EnableFastFailoverTimer                   : True
 ```
-Para obter mais informações, consulte o tópico da ajuda para o cmdlet [Get-CsTrunkConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsTrunkConfiguration) .
+Para obter mais informações, consulte o tópico de ajuda para o cmdlet [Get-CsTrunkConfiguration.](https://docs.microsoft.com/powershell/module/skype/Get-CsTrunkConfiguration)
 
 
 

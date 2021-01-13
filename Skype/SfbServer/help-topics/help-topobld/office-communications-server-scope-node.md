@@ -1,8 +1,8 @@
 ---
 title: Nó de Escopo de Servidor de Comunicações do Office
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,18 +15,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ec5088ec-71b5-42cb-9f04-242716877178
 description: Esta é uma documentação preliminar e está sujeita a alterações. Tópicos em branco são incluídos como espaços reservados.
-ms.openlocfilehash: feed152cb42bece0abffd62d781a10836109475e
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+ms.openlocfilehash: 3b3d25559e280187a2b6931323434485436abaa0
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48215572"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49823911"
 ---
 # <a name="office-communications-server-scope-node"></a>Nó de Escopo de Servidor de Comunicações do Office
 
 Esta é uma documentação preliminar e está sujeita a alterações. Tópicos em branco são incluídos como espaços reservados.
 
-Clique em **Office Communications Server 2007 R2** para expandir as seções no nó, ou clique com o botão direito do mouse para acessar opções de **topologia** , ou para acessar essa página de **ajuda** .
+Clique em **Office Communications Server 2007 R2** para expandir as seções sob o nó ou clique com o botão direito do mouse para acessar as opções de **Topologia** ou para acessar esta página **de** Ajuda.
 
 ## <a name="see-also"></a>Confira também
 

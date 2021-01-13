@@ -1,8 +1,8 @@
 ---
 title: Criar um novo conjunto de definições de configuração de tronco no Skype for Business Server
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: As definições de configuração de tronco SIP definem o relacionamento e as capacidades entre um Servidor de Mediação e gateway PSTN, um PBX-IP ou um SBC no provedor de serviços.
-ms.openlocfilehash: 849258197c6ce5485126934e60e50d906be1c1b3
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 1dff6eaf5c3c9b0d7ea2378dc5499568b0bd65a3
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42028852"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49823411"
 ---
 # <a name="create-a-new-collection-of-trunk-configuration-settings-in-skype-for-business-server"></a>Criar um novo conjunto de definições de configuração de tronco no Skype for Business Server
 
@@ -25,16 +25,16 @@ As definições de configuração de tronco SIP definem o relacionamento e as ca
 - As condições nas quais os pacotes RTCP são enviados.
 - Se a criptografia SRTP é obrigatória em cada tronco.
 
-Quando você instala o Skype for Business Server, uma coleção global de definições de configuração do tronco SIP é criada para você. Além disso, os administradores podem criar conjuntos de configurações personalizadas no escopo local ou de serviço (apenas para o serviço de gateway PSTN).
+Quando você instala o Skype for Business Server, um conjunto global de definições de configuração de tronco SIP é criado para você. Além disso, os administradores podem criar conjuntos de configurações personalizadas no escopo local ou de serviço (apenas para o serviço de gateway PSTN).
 
-Ao criar definições de configuração do tronco SIP usingSkype para o painel de controle do Business Server, as seguintes opções estão disponíveis:
+Ao criar definições de configuração de tronco SIP usando o Painel de Controle doSkype para Business Server, as seguintes opções estão disponíveis:
 
 |Configuração de UI | Parâmetro do PowerShell | Descrição |
 |--|--|--|
 |Nome|Identidade|Identificador exclusivo para a coleção. Esta propriedade é somente leitura; não é possível modificar a Identidade de uma coleção de configurações do tronco.|
 |Descrição|Descrição|Fornece uma forma para os administradores armazenarem informações sobre as configurações (por exemplo, o motivo da configuração do tronco).|
 |Máximo de diálogos iniciais suportados|MaxEarlyDialogs|O número máximo de respostas bifurcadas que um Gateway PSTN, IP-PBX ou SBC no Provedor de serviços pode receber em resposta a um convite que ele enviou ao Servidor de mediação.|
-|Nível de suporte de criptografia|SRTPMode|Indica o nível de suporte para proteção do tráfego de mídia entre o Servidor de Medicação e o Gateway de PSTN, IP-PBX ou SBC no provedor de serviços. Para casos de bypass de mídia, esse valor deve ser compatível com a configuração EncryptionLevel na configuração de mídia. A configuração de mídia é definida usando os cmdlets [New-CsMediaConfiguration](https://docs.microsoft.com/powershell/module/skype/New-CsMediaConfiguration) e [set-CsMediaConfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsMediaConfiguration) .<br/>Os valores permitidos são:<br/><br/>**Obrigatório**: a criptografia SRTP deve ser usada.<br/>**Opcional**: o SRTP será usado se o gateway oferecer suporte a ele.<br/>**Sem suporte**: a criptografia SRTP não é suportada e, portanto, não será usada.<br/><br/>SRTPMode é usado apenas se o gateway estiver configurado para usar a Segurança da Camada de Transporte (TLS). Se o gateway estiver configurado com o Protocolo de Controle de Transmissão (TCP) como transporte, SRTPMode será internamente definido como NotSupported.|
+|Nível de suporte de criptografia|SRTPMode|Indica o nível de suporte para proteção do tráfego de mídia entre o Servidor de Medicação e o Gateway de PSTN, IP-PBX ou SBC no provedor de serviços. Para casos de bypass de mídia, esse valor deve ser compatível com a configuração EncryptionLevel na configuração de mídia. A configuração de mídia é definida usando-se os cmdlets [New-CsMediaConfiguration](https://docs.microsoft.com/powershell/module/skype/New-CsMediaConfiguration) e [Set-CsMediaConfiguration.](https://docs.microsoft.com/powershell/module/skype/Set-CsMediaConfiguration)<br/>Os valores permitidos são:<br/><br/>**Obrigatório:** a criptografia SRTP deve ser usada.<br/>**Opcional:** o SRTP será usado se o gateway oferece suporte a ele.<br/>**Sem suporte:** a criptografia SRTP não é suportada e, portanto, não será usada.<br/><br/>SRTPMode é usado apenas se o gateway estiver configurado para usar a Segurança da Camada de Transporte (TLS). Se o gateway estiver configurado com o Protocolo de Controle de Transmissão (TCP) como transporte, SRTPMode será internamente definido como NotSupported.|
 |Suporte|Enable3pccRefer<br/>EnableReferSupport|Se definido como **Habilitar endio ao gateway**, indica que o tronco suporta receber solicitações de Refer do Servidor de Mediação.<br/>Se definido como **Habilitar refer usando controle de chamada terceirizado**, indica que o protocolo 3pcc pode ser usado para permitir que chamadas transferidas pulem o local host. 3pcc também é conhecido como "controle terceirizado" e ocorre quando um terceiro é usado para conectar dois chamadores (por exemplo, um operados conectando a chamada da pessoa A à pessoa B).|
 |Habilitar bypass de mídia|EnableBypass|Selecione a opção **Habilitar bypass de mídia** se você deseja que que a mídia desvie do Servidor de Mediação para processamento pelo ponto do tronco.|
 |Processamento centralizado de mídia|ConcentratedTopology|Indica se é um ponto conhecido de término de mídia (Um exemplo de ponto de terminação de mídia conhecido seria um Gateway PSTN, em que a terminação de mídia possui o mesmo IP que a terminação de sinalização.)|
@@ -43,23 +43,23 @@ Ao criar definições de configuração do tronco SIP usingSkype para o painel d
 |Habilitar dados de encaminhamento P-Asserted-Identity|ForwardPAI|Indica se o header de P-Asserted-Identity (PAI) será encaminhado junto com a chamada. O header PAI oferece uma forma de verificar a identidade do chamador.|
 |Habilitar timer de failover do roteamento de saída|EnableFastFailoverTimer|Indica se chamadas de saída não atendidas pelo gateway em 10 segundos serão roteadas ao próximo tronco disponível; se não houver troncos adicionais, a chamada cairá automaticamente. Em uma empresa com redes e respostas de gateway lentas, que poderia resultar em chamadas desligadas desnecessariamente.|
 |Uso associado de PSTNsages|PSTNUsages|Coleção de usos de PSTN atribuídos ao tronco.|
-|Número convertido para testar|Não disponível|Número de telefone que pode ser usado para um teste ad hoc de configurações do tronco.|
+|Número convertido para testar|N/D|Número de telefone que pode ser usado para um teste ad hoc de configurações do tronco.|
 |Regras de conversão associadas|OutboundTranslationRulesList|Coleção de regras de conversão de números de telefone que se aplicam a chamadas tratadas pelo Roteamento de saída (chamadas roteadas para destinos de PBX ou PSTN).|
 |Regras de conversão do número chamado|OutboundCallingNumberTranslationRulesList|Coleção de regras de conversão do número de chamada de saída atribuído ao tronco.|
-|Número de telefone a ser de testado.|Não disponível|Número de telefone que pode ser usado para um teste ad hoc das regras de conversão.|
-|Número de chamada|Não disponível|Número de telefone que pode ser usado para um teste ad hoc das regras de conversão.|
-|Número chamado|Não disponível|Indica que o número de telefone a ser testado é o número da pessoa sendo chamada.|
+|Número de telefone a ser de testado.|N/D|Número de telefone que pode ser usado para um teste ad hoc das regras de conversão.|
+|Número de chamada|N/D|Número de telefone que pode ser usado para um teste ad hoc das regras de conversão.|
+|Número chamado|N/D|Indica que o número de telefone a ser testado é o número da pessoa sendo chamada.|
 ||||
 
 > [!Note]
-> Os cmdlets do Skype for Business Server CsTrunkConfiguration suportam propriedades adicionais não mostradas no painel de controle do Skype for Business Server. Para obter mais informações, consulte o tópico de ajuda para o cmdlet [New-CsTrunkConfiguration](https://docs.microsoft.com/powershell/module/skype/New-CsTrunkConfiguration) . 
+> Os cmdlets CsTrunkConfiguration do Skype for Business Server suportam propriedades adicionais não mostradas no Painel de Controle do Skype for Business Server. Para obter mais informações, consulte o tópico de ajuda para o cmdlet [New-CsTrunkConfiguration.](https://docs.microsoft.com/powershell/module/skype/New-CsTrunkConfiguration) 
 
-**Para criar novas definições de configuração de tronco usando o painel de controle do Skype for Business Server**
+**Para criar novas definições de configuração de tronco usando o Painel de Controle do Skype for Business Server**
 
-1. No painel de controle do Skype for Business Server, clique em **Roteamento de voz**e em **configuração de tronco**.
-2. Na guia **Configuração de Tronco **, clique em **Novo** e, em seguida, clique em **Tronco do site** para criar a nova definição no escopo do site, ou **Tronco do pool** para criar as novas definições no escopo do serviço.
-3. Na caixa de diálogo **selecionar um site** ou **selecionar um serviço** (a caixa de diálogo exibida dependerá da criação de configurações com escopo de site ou de escopo de serviço), selecione o local para as novas definições de configuração e clique em **OK**. Se a caixa de diálogo estiver em branco, isso significa que não há local para criar as novas configurações; por exemplo, se a caixa de diálogo **selecionar um site** estiver em branco, isso significa que todos os sites já foram atribuídos a uma coleção de sites de configuração de tronco e cada site (e cada serviço) pode hospedar apenas uma dessas coleções. Nesse caso, você pode tanto excluir o conjunto existente e criar um novo conjunto ou simplesmente modificar o conjunto existente.
+1. No Painel de Controle do Skype for Business Server, clique em **Roteamento** de Voz e em **Configuração de Tronco.**
+2. Na guia **Configuração de Tronco**, clique em **Novo** e, em seguida, clique em **Tronco do site** para criar a nova definição no escopo do site, ou **Tronco do pool** para criar as novas definições no escopo do serviço.
+3. Na caixa de diálogo Selecionar um **Site** ou Selecionar um Serviço **(a** caixa de diálogo exibida dependerá se você está criando configurações com escopo de site ou escopo de serviço), selecione o local das novas definições de configuração e clique em **OK.** Se a caixa de diálogo estiver em branco, isso significa que não há lugar para criar as novas configurações; por exemplo, se a caixa de diálogo Selecionar um **Site** estiver em branco, isso significa que todos os seus sites já foram atribuídos a um conjunto de sites de configuração de tronco, e cada site (e cada serviço) pode hospedar apenas um conjunto. Nesse caso, você pode tanto excluir o conjunto existente e criar um novo conjunto ou simplesmente modificar o conjunto existente.
 4. Na caixa de diálogo **Nova configuração de tronco**, faça as seleções apropriadas e clique em **OK**.
 5. A propriedade **Estado** do conjunto será atualizada para **Não confirmado**. Para confirmar as alterações e para excluir o conjunto, clique em **Confirmar** e, em seguida, clique em **Confirmar tudo**.
 6. Na caixa de diálogo **Configurações de Voz Não Vinculadas**, clique em **OK**.
-7. Na caixa de diálogo **painel de controle do Skype for Business** , clique em **OK**.
+7. Na caixa de diálogo Painel de **Controle do Skype for Business,** clique em **OK.**

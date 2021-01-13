@@ -1,8 +1,8 @@
 ---
-title: Relatório de controle de admissão de chamadas no Skype for Business Server
+title: Relatório de Controle de Admissão de Chamadas no Skype for Business Server
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,97 +11,97 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: ea4b0c9f-7f93-4b8a-b901-01e1636c44fb
-description: 'Resumo: Saiba mais sobre os relatórios de controle de admissão de chamadas usados no Skype for Business Server.'
-ms.openlocfilehash: 5a8df542e666975e207bd5a105cb4c1d7261b51f
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 'Resumo: saiba mais sobre os Relatórios de Controle de Admissão de Chamadas usados no Skype for Business Server.'
+ms.openlocfilehash: ce7f8e622ece066d58cbc2c23a6423e19b084622
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41818162"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49826521"
 ---
-# <a name="call-admission-control-report-in-skype-for-business-server"></a>Relatório de controle de admissão de chamadas no Skype for Business Server
+# <a name="call-admission-control-report-in-skype-for-business-server"></a>Relatório de Controle de Admissão de Chamadas no Skype for Business Server
  
-**Resumo:** Saiba mais sobre os relatórios de controle de admissão de chamadas usados no Skype for Business Server.
+**Resumo:** Saiba mais sobre os Relatórios de Controle de Admissão de Chamadas usados no Skype for Business Server.
   
-O Relatório de Controle de Admissão de Chamadas fornece informações sobre sessões de conferência e ponto a ponto que eram conduzidas sob restrições impostas pelo Controle de Admissão de Chamadas. O Controle de Admissão de Chamadas fornece uma maneira para que os administradores permitam (ou não) sessões de comunicação baseadas em limites de largura de banda. Por exemplo, os administradores podem criar políticas que imponham um limite na quantidade de banda disponível para chamadas de voz e vídeo. Caso o limite de banda seja alcançado, novas chamadas de voz ou vídeo não poderão ser feitas até que uma das chamadas atuais termine e libere os recursos de rede necessários.
+O Relatório de Controle de Admissão de Chamadas fornece informações sobre sessões de conferência e ponto a ponto que eram conduzidas sob restrições impostas pelo Controle de Admissão de Chamadas. O Controle de Admissão de Chamada oferece uma maneira para os administradores permitirem (ou não) sessões de comunicação com base nas restrições de largura de banda. Por exemplo, os administradores podem criar políticas que impõe um limite na quantidade de banda disponível para chamadas de voz e vídeo. Caso o limite de banda tenha sido alcançado, novas chamadas de voz ou vídeo não poderão ser feitas até que uma das chamadas atuais termine e libere os recursos de rede necessários.
   
 ## <a name="accessing-the-call-admission-control-report"></a>Acessando o Relatório de Controle de Admissão de Chamadas
 
 O Relatório de Controle de Admissão de Chamadas é acessado através da página de Relatórios de Monitoramento. A partir do Relatório de Controle de Admissão de Chamadas você pode buscar mais detalhes em um dos seguintes relatórios:
   
-- Relatório de detalhes da conferência – para acessar esse relatório, clique na métrica detalhes de uma sessão de conferência. 
+- Relatório Detalhado de Conferências - Para acessar esse relatório, clique na métrica Detalhes de uma sessão de conferência. 
     
-- Relatório detalhado da sessão ponto a ponto-para acessar esse relatório, clique na métrica de detalhes de uma sessão ponto a ponto.
+- Relatório Detalhado de Sessão Ponto a Ponto - Para acessar esse relatório, clique na métrica Detalhes de uma sessão ponto a ponto.
     
-## <a name="making-the-best-use-of-the-call-admission-control-report"></a>Como usar o Relatório de Controle de Admissão de Chamadas da melhor maneira possível
+## <a name="making-the-best-use-of-the-call-admission-control-report"></a>Usando o Relatório de Controle de Admissão de Chamadas da melhor maneira possível
 
-Para obter uma lista de chamadas que falharam por causa de largura de banda insuficiente, selecione Chamadas rejeitadas devido ao controle de admissão de chamadas, na lista suspensa Categoria da chamada. A maioria das chamadas retornadas provavelmente terá a ID de diagnóstico 5:
+Para obter uma lista de chamadas que falharam por causa de largura de banda insuficiente, selecione Chamadas rejeitadas por causa do controle de admisssão de chamadas, na lista suspensa de categoria de Chamadas. A maioria das chamadas retornadas provavelmente terão a ID de diagnóstico 5:
   
-Largura de banda insuficiente para estabelecer sessão. Tente reencaminhamento por PSTN.
+Largura de banda insuficiente para estabelecer sessão. Tente reencaminhamento PSTN.
   
-Isso indica que as limitações do Controle de Admissão de Chamadas estavam impedindo a chamada de ser efetuada na rede VoIP.
+Isso indica que as limitações do Controle de Admissão de Chamadas estavam impedidndo a chamada de ser feita na rede VoIP.
   
 ## <a name="filters"></a>Filtros
 
-Os filtros fornecem uma maneira de retornar um conjunto de dados mais direcionado ou de exibir os dados retornados de maneiras diferentes. Por exemplo, o Relatório de Controle de Admissão de Chamadas permite que você filtre as chamadas de acordo com o usuário que iniciou a chamada ou com o usuário que está sendo chamado. Também é possível escolher como os dados devem ser agrupados. Nesse caso, as chamadas são agrupadas por hora, dia, semana ou mês.
+Os filtros fornecem uma maneira de retornar um conjunto de dados mais direcionado ou de exibir os dados retornados de maneiras diferentes. Por exemplo, o Relatório de Controle de Admissão de Chamada permite que você filtre as chamadas de acordo com o usuário que iniciou a chamada ou com o usuário que está sendo chamado. Também é possível escolher como os dados devem ser agrupados. Nesse caso, as chamadas são agrupadas por hora, dia, semana ou mês.
   
-A tabela a seguir lista os filtros que podem ser usados com o Relatório de Controle de Admissão de Chamadas.
+A tabela a seguir lista os filtros que podem ser usados com o Relatório de Controle de Admissão de Chamada.
   
 **Filtros do Relatório de Controle de Admissão de Chamadas**
 
 |**Nome**|**Descrição**|
 |:-----|:-----|
-|**De** <br/> |Data/hora de início do intervalo de tempo. Para ver os dados por horas, insira a data e hora de início desta forma:  <br/> 17/7/12015 13:00  <br/> Se você não inserir a hora de início, o relatório começará automaticamente à meia-noite do dia especificado. Para ver os dados por dia, insira somente a data:  <br/> 17/7/2015  <br/> Para exibir por semana ou mês, insira uma data dentro da semana ou mês que deseja exibir (não é necessário inserir o primeiro dia da semana ou mês):  <br/> 13/7/2015  <br/> As semanas sempre vão de domingo a sábado.  <br/> |
-|**Até** <br/> |Data/hora de término do intervalo de tempo. Para ver os dados por horas, insira a data e hora de término desta forma:  <br/> 17/7/12015 13:00  <br/> Se você não inserir a hora final, o relatório terminará automaticamente à meia-noite do dia especificado. Para ver os dados por dia, insira somente a data:  <br/> 17/7/2015  <br/> Para exibir por semana ou mês, insira uma data dentro da semana ou mês que deseja exibir (não é necessário inserir o primeiro dia da semana ou mês):  <br/> 13/7/2015  <br/> As semanas sempre vão de domingo a sábado.  <br/> |
-|**Pool** <br/> |FQDN (Nome de domínio totalmente qualificado) do Pool de registradores ou Servidor de Borda. Você pode selecionar um pool individual ou clicar em **[Todos]** para ver os dados de todos os pools. Essa lista suspensa é automaticamente preenchida para você com base nos registros no banco de dados.<br/> |
-|**Tipo de atividade** <br/> | Tipo de atividade. Selecione uma das seguintes atividades: <br/>  [Todos] <br/>  Ponto a Ponto <br/>  Conferência <br/> |
-|**Categoria da chamada** <br/> | Indica o motivo de o CAC ter sido usado para a chamada. Selecione uma das seguintes opções: <br/>  [Todos] <br/>  Chamada rejeitada devido ao controle de admissão de chamadas <br/>  Chamadas roteadas novamente por PSTN devido ao controle de admissão de chamadas <br/> |
+|**De** <br/> |Data/hora inicial para o intervalo de tempo. Para exibir os dados por hora, insira a data e hora inicial como a seguir:  <br/> 17/07/12015 13:00  <br/> Se você não inserir uma hora inicial, o relatório começa automaticamente as 12:00 AM no dia especificado. Para exibir os dados por dia, insira apenas a data:  <br/> 7/17/12015  <br/> Para exibir por semana ou mês, insira uma data que está dentro da semana ou mês que deseja exibir (não é necessário inserir o primeiro dia da semana ou mês):  <br/> 7/13/2015  <br/> As semanas são sempre de domingo a sábado.  <br/> |
+|**To** <br/> |Data/hora final para o intervalo de tempo. Para exibir os dados por hora, insira a data e hora final como a seguir:  <br/> 17/07/12015 13:00  <br/> Se você não inserir uma hora final, o relatório termina automaticamente as 12:00 AM no dia especificado. Para exibir os dados por dia, insira apenas a data:  <br/> 7/17/12015  <br/> Para exibir por semana ou mês, insira uma data que está dentro da semana ou mês que deseja exibir (não é necessário inserir o primeiro dia da semana ou mês):  <br/> 7/13/2015  <br/> As semanas sempre correm do domingo até sábado.  <br/> |
+|**Pool** <br/> |FQDN (Nome de domínio totalmente qualificado) do pool de Registradores ou Servidor de Borda. Você pode selecionar um pool individual ou clicar em **[Tudo]** para ver os dados de todos os pools. Essa lista suspensa é automaticamente preenchida para você com base nos registros no banco de dados.<br/> |
+|**Tipo de atividade** <br/> | Tipo de atividade. Selecione uma das seguintes atividades: <br/>  [Tudo] <br/>  Ponto a ponto <br/>  Conferência <br/> |
+|**Categoria da chamada** <br/> | Indica o motivo de o CAC ter sido usado para a chamada. Selecione uma das seguintes opções: <br/>  [Tudo] <br/>  Chamada rejeitada devido ao controle de admissão de chamada <br/>  Chamadas reencaminhadas por PSTN devido ao controle de admissão de chamada <br/> |
    
 ## <a name="metrics-for-peer-to-peer-sessions"></a>Métricas para sessões ponto a ponto
 
-A tabela a seguir lista as informações fornecidas no Relatório de Controle de Admissão de Chamadas para sessões ponto a ponto (ou seja, sessões que envolvem apenas dois participantes).
+A tabela a seguir lista as informações fornecidas no Relatório de Controle de Admissão de Chamada para sessões ponto a ponto (ou seja, sessões que envolvem apenas dois participantes).
   
 **Métricas para sessões ponto a ponto**
 
-|**Nome**|**Você pode classificar este item?**|**Descrição**|
+|**Nome**|**É possível classificar este item?**|**Descrição**|
 |:-----|:-----|:-----|
-|**Detalhe** <br/> |Não  <br/> |Quando você clica nesse item, o relatório mostra o Relatório Detalhado de Sessão Ponto a Ponto para a sessão especificada.  <br/> |
-|**De usuário** <br/> |Sim  <br/> |Endereço SIP do usuário que iniciou a sessão.  <br/> |
+|**Ver os detalhes** <br/> |Não  <br/> |Quando você clica nesse item, o relatório mostra o Relatório de Detalhes da Sessão Ponto a Ponto para a sessão especificada.  <br/> |
+|**Do usuário** <br/> |Sim  <br/> |Endereço SIP do usuário que iniciou a sessão.  <br/> |
 |**Para usuário** <br/> |Sim  <br/> |Endereço SIP do usuário convidado para ingressar na sessão.  <br/> |
 |**Modalidades** <br/> |Sim  <br/> |Modalidades de comunicação (como áudio e vídeo) usadas durante a sessão.  <br/> |
-|**Hora do convite** <br/> |Sim  <br/> |Data e hora de envio do convite inicial da sessão para o usuário remetente.  <br/> |
+|**Hora do convite** <br/> |Sim  <br/> |Data e hora de envio do convite inicial da sessão para o usuário De.  <br/> |
 |**Hora da resposta** <br/> |Sim  <br/> |Data e hora de recebimento da aceitação do convite.  <br/> |
 |**Hora de término** <br/> |Sim  <br/> |Data e hora de encerramento da sessão.  <br/> |
-|**ID do Diagnóstico** <br/> |Sim  <br/> |Identificador exclusivo (na forma de um cabeçalho ms-diagnostics) anexado a uma mensagem SIP que fornece informações úteis para resolução de erros. Os cabeçalhos de diagnóstico são opcionais (é possível ter sessões SIP que não os incluem), e as IDs de diagnóstico são relatadas somente em sessões com algum tipo de problema.  <br/> |
+|**ID do Diagnóstico** <br/> |Sim  <br/> |Identificador exclusivo (na forma de um cabeçalho ms-diagnostics) anexado a uma mensagem SIP que frequentemente fornece informações úteis para solução de erros. Os cabeçalhos de diagnóstico são opcionais (é possível ter sessões SIP que não incluem esses cabeçalhos) e os IDs de diagnóstico são reportadas somente para sessões que enfrentaram problemas de algum tipo.  <br/> |
    
 ## <a name="metrics-for-conferencing-sessions"></a>Métricas para sessões de conferência
 
-A tabela a seguir lista as informações fornecidas no Relatório de Controle de Admissão de Chamadas para sessões de conferência (ou seja, sessões que envolvem três ou mais participantes).
+A tabela a seguir lista as informações fornecidas no Relatório de Controle de Admissão de Chamada para sessões de conferência (ou seja, sessões que envolvem três ou mais participantes).
   
 **Métricas para sessões de conferência**
 
-|**Nome**|**Você pode classificar este item?**|**Descrição**|
+|**Nome**|**É possível classificar este item?**|**Descrição**|
 |:-----|:-----|:-----|
 |**URI de conferência** <br/> |Sim  <br/> |Identificador exclusivo para a conferência. Quando você clica nesse item, o relatório mostra os participantes individuais da conferência.  <br/> |
 |**Organizador** <br/> |Sim  <br/> |Endereço SIP do usuário que organizou a conferência.  <br/> |
 |**Pool** <br/> |Sim  <br/> |Servidor de Borda usado na conferência.  <br/> |
 |**Hora de início** <br/> |Sim  <br/> |Data e hora de início da sessão.  <br/> |
-|**Hora de término** <br/> |Sim  <br/> |Data e hora em que a conferência terminou.  <br/> |
+|**Hora de término** <br/> |Sim  <br/> |Data e hora de encerramento da conferência.  <br/> |
    
-## <a name="metrics-for-individual-conference-participants"></a>Métricas para participantes individuais da conferência
+## <a name="metrics-for-individual-conference-participants"></a>Métricas para participantes individuais de conferência
 
-A tabela a seguir lista as informações fornecidas no Relatório de Controle de Admissão de Chamadas para participantes individuais da conferência.
+A tabela a seguir lista as informações fornecidas no Relatório de Controle de Admissão de Chamada para participantes individuais da conferência.
   
-**Métricas para participantes individuais da conferência**
+**Métricas para participantes individuais de conferência**
 
-|**Nome**|**Você pode classificar este item?**|**Descrição**|
+|**Nome**|**É possível classificar este item?**|**Descrição**|
 |:-----|:-----|:-----|
 |**Função** <br/> |Não  <br/> |Função (por exemplo, Apresentador) desempenhada pelo participante da conferência.  <br/> |
 |**Participante** <br/> |Não  <br/> |Endereço SIP do participante de conferência.  <br/> |
 |**Conectividade** <br/> |Não  <br/> |Conectividade de rede (normalmente Interna ou Externa) para o participante.  <br/> |
-|**Modalidade** <br/> |Não  <br/> |Tipo de conferência (por exemplo, conferência de A/V).  <br/> |
+|**Modalidade** <br/> |Não  <br/> |Tipo de conferência (por exemplo, conferência A/V).  <br/> |
 |**Hora de ingresso** <br/> |Não  <br/> |Data e hora de ingresso do participante na conferência.  <br/> |
-|**Hora da saída** <br/> |Não  <br/> |Data e hora de saída do participante da conferência.  <br/> |
-|**ID do Diagnóstico** <br/> |Não  <br/> |Identificador exclusivo (na forma de um cabeçalho de diagnóstico-ms) anexado a uma mensagem SIP que fornece informações úteis sobre os erros de solução de problemas. Os cabeçalhos diagnósticos são opcionais (é possível ter sessões SIP que não os incluem), e os IDs diagnósticos são relatados somente para as sessões com algum tipo de problema.  <br/> |
+|**Hora de saída** <br/> |Não  <br/> |Data e hora de saída do participante da conferência.  <br/> |
+|**ID do Diagnóstico** <br/> |Não  <br/> |Identificador exclusivo (na forma de um cabeçalho ms-diagnostics) anexado a uma mensagem SIP que frequentemente fornece informações úteis para solução de erros. Os cabeçalhos de diagnóstico são opcionais (é possível ter sessões SIP que não incluem esses cabeçalhos) e os IDs de diagnóstico são reportadas somente para sessões que enfrentaram problemas de algum tipo.  <br/> |
    
 

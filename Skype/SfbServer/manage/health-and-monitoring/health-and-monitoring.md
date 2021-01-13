@@ -1,8 +1,8 @@
 ---
-title: Gerenciar a integridade e o monitoramento no Skype for Business Server
+title: Gerenciar a saúde e o monitoramento no Skype for Business Server
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,25 +11,25 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 0b9b44c4-06ad-4b89-b87d-62448f936ab8
-description: 'Resumo: Saiba mais sobre as tarefas de monitoramento e configuração de integridade no Skype for Business Server.'
-ms.openlocfilehash: 52f342fca5ccf6cc66e5d857118e5b18f3be0706
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 'Resumo: saiba mais sobre as tarefas de monitoramento e configuração de saúde no Skype for Business Server.'
+ms.openlocfilehash: 443f3a959832c471142912a9f9fb36496a3432c4
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41817931"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49823511"
 ---
-# <a name="manage-health-and-monitoring-in-skype-for-business-server"></a>Gerenciar a integridade e o monitoramento no Skype for Business Server
+# <a name="manage-health-and-monitoring-in-skype-for-business-server"></a>Gerenciar a saúde e o monitoramento no Skype for Business Server
 
-**Resumo:** Saiba mais sobre as tarefas de monitoramento e configuração de integridade no Skype for Business Server.
+**Resumo:** Saiba mais sobre as tarefas de configuração de monitoramento e de saúde no Skype for Business Server.
 
-Os tópicos desta seção fornecem procedimentos passo a passo para monitoramento e tarefas de configuração de integridade que você pode executar no painel de controle do Skype for Business Server e no Shell de gerenciamento do Skype for Business Server.
+Os tópicos desta seção fornecem procedimentos passo a passo para tarefas de configuração de monitoramento e de saúde que você pode executar no Painel de Controle do Skype for Business Server e no Shell de Gerenciamento do Skype for Business Server.
 
 ## <a name="in-this-section"></a>Nesta seção
 
-- [Registro de detalhes de chamadas (CDR) no Skype for Business Server](call-detail-recording-cdr.md)
+- [Registro de detalhes das chamadas (CDR) no Skype for Business Server](call-detail-recording-cdr.md)
 
-- [Qualidade da experiência (QoE) no Skype for Business Server](quality-of-experience.md)
+- [QoE (Qualidade da Experiência) no Skype for Business Server](quality-of-experience.md)
 
 - [Monitorar a mobilidade para desempenho no Skype for Business Server](monitor-mobility-performance.md)
 

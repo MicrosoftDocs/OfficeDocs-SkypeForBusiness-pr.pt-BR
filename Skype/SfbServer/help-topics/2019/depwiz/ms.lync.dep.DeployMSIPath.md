@@ -1,8 +1,8 @@
 ---
-title: Caminho do assistente de implantação para o instalador MSI
+title: Deployment Wizard Path to MSI installer
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,16 +14,16 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 81aaa294-aca1-4ff6-894e-de8098b6eb17
 ROBOTS: NOINDEX, NOFOLLOW
-description: Para obter detalhes sobre como usar o assistente para implantação para instalar o Skype for Business Server, confira instalar o Skype for Business Server.
-ms.openlocfilehash: 3b4684f4c93d591abc52090dafafe4a2cc387aae
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: Para obter detalhes sobre como usar o Assistente de Implantação para instalar o Skype for Business Server, consulte Instalar o Skype for Business Server.
+ms.openlocfilehash: c63b3bc1dde6fb156c06d84fa9f90a083bf7e052
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41798378"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49825081"
 ---
 # <a name="deployment-wizard-path-to-msi-installer"></a>Assistente de Implantação: Caminho para o instalador MSI
  
-Para obter detalhes sobre como usar o assistente para implantação para instalar o Skype for Business Server, confira [instalar o Skype for Business Server](../../../deploy/install/install.md).
+Para obter detalhes sobre como usar o Assistente de Implantação para instalar o Skype for Business Server, consulte [Instalar o Skype for Business Server.](../../../deploy/install/install.md)
   
 

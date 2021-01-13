@@ -1,8 +1,8 @@
 ---
-title: Adicionar um servidor de chat persistente à sua topologia do Skype for Business Server 2015
+title: Adicionar Servidor de Chat Persistente à sua topologia do Skype for Business Server 2015
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/28/2016
 audience: ITPro
@@ -12,108 +12,108 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 6b4f4d69-3c9d-4bc7-bc9b-46427a095de2
-description: 'Resumo: Leia este tópico para saber como adicionar um servidor de chat persistente à sua topologia do Skype for Business Server 2015.'
-ms.openlocfilehash: 733d75e954c75cecfab38e0a2f1294c6e20984c1
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: 'Resumo: Leia este tópico para saber como adicionar o Servidor de Chat Persistente à sua topologia do Skype for Business Server 2015.'
+ms.openlocfilehash: 3b0f3ca57af4b9bf53125e38e1aa3005099b5b70
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41794109"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49825101"
 ---
-# <a name="add-persistent-chat-server-to-your-skype-for-business-server-2015-topology"></a>Adicionar um servidor de chat persistente à sua topologia do Skype for Business Server 2015
+# <a name="add-persistent-chat-server-to-your-skype-for-business-server-2015-topology"></a>Adicionar Servidor de Chat Persistente à sua topologia do Skype for Business Server 2015
  
-**Resumo:** Leia este tópico para saber como adicionar um servidor de chat persistente à sua topologia do Skype for Business Server 2015.
+**Resumo:** Leia este tópico para saber como adicionar o Servidor de Chat Persistente à sua topologia do Skype for Business Server 2015.
   
-Depois de instalar o software de pré-requisito em cada servidor em que você planeja implantar o servidor de chat persistente, use o construtor de topologias para: 
+Depois de instalar o software de pré-requisito em cada servidor no qual você planeja implantar o Servidor de Chat Persistente, use o Construtor de Topologias para: 
   
 - Atualizar sua topologia para incluir o Servidor de Chat Persistente
     
-- Postar a topologia atualizada
+- Publicar a topologia atualizada
     
 > [!NOTE] 
-> O chat persistente está disponível no Skype for Business Server 2015, mas não é mais compatível com o Skype for Business Server 2019. A mesma funcionalidade está disponível no Microsoft Teams. Para obter mais informações, consulte [introdução à atualização do Microsoft Teams](/microsoftteams/upgrade-start-here). Se você precisar usar chats persistentes, suas opções serão migrar os usuários que exigem essa funcionalidade para o Microsoft Teams ou para continuar usando o Skype for Business Server 2015. 
+> O chat persistente está disponível no Skype for Business Server 2015, mas não é mais suportado no Skype for Business Server 2019. A mesma funcionalidade está disponível no Teams. Para saber mais, confira [Como começar a atualizar o Microsoft Teams.](/microsoftteams/upgrade-start-here) Se você precisar usar o chat persistente, suas opções são migrar os usuários que exigem essa funcionalidade para o Teams ou continuar usando o Skype for Business Server 2015. 
 
 ## <a name="update-your-topology-to-include-persistent-chat-server"></a>Atualizar sua topologia para incluir o Servidor de Chat Persistente
 
-Execute as etapas a seguir para instalar um único pool de servidores de chat persistente sem uma configuração de recuperação de desastres. Para configurar um pool de servidor de chat persistente ampliado para alta disponibilidade e recuperação de desastre, consulte [Configurar alta disponibilidade e recuperação de desastres para servidor de chat persistente no Skype for Business Server 2015](../../deploy/deploy-high-availability-and-disaster-recovery/configure-hadr-for-persistent-chat.md).
+Execute as etapas a seguir para instalar um único pool de Servidor de Chat Persistente sem uma configuração de recuperação de desastres. Para configurar um pool estendido de Servidor de Chat Persistente para alta disponibilidade e recuperação de desastre, consulte Configurar alta disponibilidade e recuperação de desastre para o Servidor de Chat Persistente no [Skype for Business Server 2015.](../../deploy/deploy-high-availability-and-disaster-recovery/configure-hadr-for-persistent-chat.md)
   
-Para implantar vários pools de servidores de chat persistentes, repita o mesmo processo para cada pool.
+Para implantar vários pools de Servidor de Chat Persistente, repita o mesmo processo para cada pool.
   
-1. Em um computador que esteja executando o Skype for Business Server ou em que as ferramentas administrativas do Skype for Business Server estão instaladas, faça logon usando uma conta que seja membro do grupo usuários local (ou uma conta com direitos de usuário equivalentes).
+1. Em um computador que está executando o Skype for Business Server ou no qual as ferramentas administrativas do Skype for Business Server estão instaladas, faça logoff usando uma conta que seja membro do grupo usuários local (ou uma conta com direitos de usuário equivalentes).
     
     > [!NOTE]
-    > Você pode definir uma topologia usando uma conta que seja membro do grupo usuários local, mas para publicar uma topologia o que é necessário para instalar o Skype for Business Server, você deve usar uma conta que seja membro do grupo **Domain admins** e do grupo **RTCUniversalServerAdmins** e que tenha permissões de controle total (ler, gravar e modificar) no repositório de arquivos que você usará para o repositório de arquivos do servidor de chat persistente (para que o construtor de topologias possa configurar as DACLs necessárias) ou uma conta com direitos.
+    > Você pode definir uma topologia usando uma conta que seja membro do grupo local Usuários, mas para publicar uma topologia, necessária para instalar  o Skype for Business Server, você deve usar uma conta que seja membro do grupo Administradores de Domínio e do grupo **RTCUniversalServerAdmins** e que tenha permissões de controle total (ler, gravar e modificar) no armazenamento de arquivos que você usará para o armazenamento de arquivos do Servidor de Chat Persistente (para que o Construtor de Topologias possa configurar os DACLs necessários) ou uma conta com direitos equivalentes.
   
-2. Iniciar o construtor de topologias.
+2. Inicie o Construtor de topologia.
     
-3. Na árvore de console, navegue até o nó de **pools de chat persistente** e expanda-o para selecionar um pool do Skype for Business Server, ou clique com o botão direito do mouse no nó e selecione **novo pool de chat persistente**. Você deve definir o nome de domínio totalmente qualificado (FQDN) do pool e indicar se o pool será um pool de servidor único ou uma implantação de pool de vários servidores.
+3. Na árvore de console, navegue até o nó **Pools** de Chat Persistente e expanda-o para selecionar um pool do Skype for Business Server ou clique com o botão direito do mouse no nó e selecione Novo Pool de **Chat Persistente.** Você deve definir o FQDN (nome de domínio totalmente qualificado) do pool e indicar se o pool será um pool de servidor único ou implantação de pool de vários servidores.
     
-    Você pode escolher entre um **Pool de múltiplos computadores** ou um **Pool de computador único**. Escolha o primeiro se estiver planejando ter mais de um servidor front-end em seu pool de servidores de chat persistente. É possível escolher agora ou depois, já que após a criação do pool de computador único não é possível adicionar outros servidores. Se você escolher um pool de vários computadores, insira os nomes dos servidores front-end individuais que compõem o pool.
+    Você pode escolher um **pool de vários computadores** ou **um pool de computador único.** Escolha o primeiro se estiver planejando ter mais de um Servidor front-end em seu pool de Servidor de Chat Persistente. Faça essa escolha agora ou em um momento posterior, porque depois de criar um único pool de computadores, você não poderá adicionar mais servidores a ele posteriormente. Se você escolher um pool de vários computadores, insira os nomes dos Servidores Front End individuais que compõem o pool.
     
     > [!IMPORTANT]
-    > Se a função de servidor de chat persistente estiver sendo instalada em um servidor Standard Edition, o FQDN precisará corresponder ao FQDN do servidor Standard Edition. 
+    > Se a função de Servidor de Chat Persistente estiver sendo instalada em um servidor Standard Edition, o FQDN precisará corresponder ao FQDN do servidor Standard Edition. 
   
-4. Defina um **nome de exibição** simples para o pool do servidor de chat persistente. O nome de exibição pode ser usado por clientes personalizados, especialmente quando há vários pools de servidores de chat persistentes para diferenciar os quartos.
+4. Defina um Nome **de Exibição simples** para o pool de Servidor de Chat Persistente. O nome de exibição pode ser usado por clientes personalizados, especialmente quando há vários pools de Servidor de Chat Persistente para diferenciar salas.
     
-5. Defina a porta usada pelo servidor de chat persistente para se comunicar com os servidores front-end do Skype for Business Server. A porta padrão é 5041.
+5. Defina a porta usada pelo Servidor de Chat Persistente para se comunicar com os Servidores Front-End do Skype for Business Server. A porta padrão é 5041.
     
-6. Se sua organização requerer suporte à conformidade, marque a caixa de seleção **Habilitar conformidade**. Se escolhido, o serviço de conformidade do servidor de chat persistente é instalado no mesmo computador que o servidor front-end persistente do servidor de chat. Você será solicitado a selecionar um servidor back-end do SQL Server para conformidade com o servidor de chat persistente mais tarde.
+6. Se sua organização exigir suporte de conformidade, marque a caixa de seleção **Habilitar** conformidade. Se escolhido, o serviço de Conformidade do Servidor de Chat Persistente será instalado no mesmo computador que o Servidor Front-End do Servidor de Chat Persistente. Você será solicitado a selecionar um Servidor #A0 do SQL Server para Conformidade do Servidor de Chat Persistente posteriormente.
     
-7. Atribua afinidade de site ao pool de servidores de chat persistente. Marque a caixa de seleção **usar este pool como \<padrão\> para o site SiteName** ou **Use este pool como padrão para todos os sites** para designar este pool de servidores de chat persistente como o pool padrão para o site atual ou todos os sites. Quando o cliente Skype for Business é usado para criar e gerenciar salas, o pool padrão associado ao site do usuário é usado pela criação e pela experiência de gerenciamento da sala para que possa direcionar as operações de criação e gerenciamento da sala para esse pool. Isso só se aplica quando você tem vários pools de servidores de chat persistentes implantados e deseja usar os recursos de criação e gerenciamento de salas do servidor de chat persistente.
+7. Atribuir afinidade de site para o pool de Servidor de Chat Persistente. Marque a caixa de seleção Usar este pool como padrão para **o site \<SiteName\>** ou Use este pool como padrão para todos os **sites** para designar esse pool de Servidor de Chat Persistente como o pool padrão para o site atual ou todos os sites. Quando o cliente Skype for Business é usado para criar e gerenciar salas, o pool padrão associado ao site do usuário é usado pela experiência de criação e gerenciamento da sala para que ele possa encaminhar operações de criação e gerenciamento de sala para esse pool. Isso só se aplica quando você tem vários pools de Servidor de Chat Persistente implantados e deseja usar os recursos de criação e gerenciamento de sala do Servidor de Chat Persistente.
     
     > [!IMPORTANT]
-    > Você pode personalizar os recursos de criação e gerenciamento de sala usando o SDK (Kit de desenvolvimento de software) do servidor de chat persistente. 
+    > Você pode personalizar os recursos de criação e gerenciamento de salas usando o SDK (Kit de Desenvolvimento de Software) do Servidor de Chat Persistente. 
   
-8. Defina o **repositório SQL para o back-end persistente do servidor de chat (onde o conteúdo da sala de chat está armazenado)** seguindo um destes procedimentos:
+8. Defina **o armazenamento SQL para o Back-End** do Servidor de Chat Persistente (onde o conteúdo da sala de chat está armazenado) fazendo um dos seguintes:
     
-   - Para usar um repositório existente do SQL Server, na lista suspensa, clique no nome da loja do SQL Server que você deseja usar.
+   - Para usar um armazenamento existente do SQL Server, na lista drop-down, clique no nome do armazenamento do SQL Server que você deseja usar.
     
-   - Para especificar um novo banco de dados do SQL Server, clique em **novo**e, em **definir novo SQL Store**, execute o seguinte procedimento:
+   - Para especificar um novo banco de dados do SQL Server, clique em **Novo** e, em **Definir Novo Sql Store,** execute o seguinte:
     
-   - No **FQDN do SQL Server**, ESPECIFIQUE o FQDN do SQL Server no qual você deseja criar o novo banco de dados do SQL Server.
+   - No **FQDN do SQL Server,** especifique o FQDN do SQL Server no qual você deseja criar o novo banco de dados do SQL Server.
     
-   - Selecione **Instância padrão** para usar a instância padrão ou **Instância nomeada** para especificar uma instância diferente e especifique a instância que deseja usar.
+   - Selecione **Instância Padrão para** usar a instância padrão ou, para especificar uma instância diferente, selecione **Instância** Nomeada e especifique a instância que você deseja usar.
     
      > [!NOTE]
-     > Para obter detalhes sobre como configurar bancos de dados de backup do SQL Server para recuperação de desastres, consulte [Configurar alta disponibilidade e recuperação de desastres para servidor de chat persistente no Skype for Business Server 2015](../../deploy/deploy-high-availability-and-disaster-recovery/configure-hadr-for-persistent-chat.md). 
+     > Para obter detalhes sobre como configurar bancos de dados de backup do SQL Server para recuperação de desastres, consulte [Configure high availability and disaster recovery for Persistent Chat Server in Skype for Business Server 2015.](../../deploy/deploy-high-availability-and-disaster-recovery/configure-hadr-for-persistent-chat.md) 
   
-9. Defina a loja de conformidade do SQL Server se tiver habilitado a conformidade.
+9. Defina o armazenamento de conformidade do SQL Server se você tiver habilitado a Conformidade.
     
     > [!IMPORTANT]
-    > Para obter detalhes sobre como configurar os espelhos do SQL Server para alta disponibilidade para o banco de dados persistente do servidor de chat e o banco de dados de conformidade do servidor de chat persistente, consulte [Configurar alta disponibilidade e recuperação de desastres para servidor de chat persistente no Skype for Business Server 2015](../../deploy/deploy-high-availability-and-disaster-recovery/configure-hadr-for-persistent-chat.md). 
+    > Para obter detalhes sobre como configurar espelhos do SQL Server para alta disponibilidade para o banco de dados do Servidor de Chat Persistente e o banco de dados de conformidade do Servidor de Chat Persistente, consulte Configurar alta disponibilidade e recuperação de desastres para o Servidor de Chat Persistente no [Skype for Business Server 2015.](../../deploy/deploy-high-availability-and-disaster-recovery/configure-hadr-for-persistent-chat.md) 
   
-10. Defina o repositório de arquivos. Os repositórios de arquivos são pastas em que são armazenadas cópias de todos os arquivos enviados para o repositório de arquivos (por exemplo, para armazenar anexos de arquivos publicados em salas de chat). No caso de uma topologia de servidor de chat persistente de vários servidores, isso deve ser um caminho UNC (Convenção Universal de nomenclatura); e para uma topologia de servidor de chat persistente de servidor único, pode ser um caminho de arquivo local.
+10. Defina o armazenamento de arquivos. Um repositório de arquivos é uma pasta onde uma cópia de qualquer arquivo carregado no repositório de arquivos é armazenada (por exemplo, armazenar anexos de arquivo postados em uma sala de chat). No caso de uma topologia de Servidor de Chat Persistente com vários servidores, deve ser um caminho UNC; e para uma topologia de servidor único do Servidor de Chat Persistente, ela pode ser um caminho de arquivo local.
     
-    Para usar um repositório de arquivos existente, execute as etapas a seguir:
+    Para usar um armazenamento de arquivos existente, execute as seguintes etapas:
     
-    - No **FQDN do servidor de arquivos**, especifique o FQDN do computador no qual deseja criar um novo repositório de arquivos.
+    - No **FQDN do Servidor** de Arquivos, especifique o FQDN do computador no qual você deseja criar o novo armazenamento de arquivos.
     
-    - Em **Compartilhamento de arquivos**, especifique o repositório de arquivos que deseja usar.
+    - Em **Compartilhamento de** Arquivos, especifique o armazenamento de arquivos que você deseja usar.
     
       > [!IMPORTANT]
-      > Você pode definir o repositório de arquivos no construtor de topologias antes de criar o repositório de arquivos, mas deve criar o repositório de arquivos no local definido que você define antes de publicar a topologia. Se o repositório de arquivos não existir, as tentativas de publicar a topologia irão falhar. 
+      > Você pode definir o armazenamento de arquivos no Construtor de Topologias antes de criar o armazenamento de arquivos, mas deve criar o armazenamento de arquivos no local definido antes de publicar a topologia. Se o armazenamento de arquivos ainda não existir, as tentativas de publicar a topologia falharão. 
   
-11. Selecione o pool de servidores front-end a ser usado como um próximo nó para este pool de servidores de chat persistente. Este é o pool de servidores front-ends que poderá rotear solicitações persistentes do servidor de chat para esse pool.
+11. Selecione o pool do Servidor Front End a ser usado como próximo salto para esse pool de Servidor de Chat Persistente. Este é o pool do Servidor front-end que será capaz de encaminhar solicitações do Servidor de Chat Persistente para esse pool.
     
-12. Para salvar a configuração, clique em **Concluir**. O pool de servidores de chat persistente aparece no construtor de topologia acompanhado por suas configurações de pool específicas.
+12. Para salvar a configuração, clique em **Concluir.** O pool de Servidor de Chat Persistente aparece no Construtor de Topologias acompanhado pelas configurações específicas do pool.
     
-    Para publicar sua topologia atualizada à qual você adicionou o servidor de chat persistente, consulte publicar a topologia atualizada.
+    Para publicar sua topologia atualizada à qual você adicionou o Servidor de Chat Persistente, consulte Publicar a topologia atualizada.
     
     > [!NOTE]
-    > Com o construtor de topologias já aberto, você pode passar para a etapa 3 em publicar a topologia atualizada para começar a publicar sua topologia atualizada. 
+    > Com o Construtor de Topologias já aberto, você pode prosseguir para a etapa 3 em Publicar a topologia atualizada para começar a publicar sua topologia atualizada. 
   
-## <a name="publish-the-updated-topology"></a>Postar a topologia atualizada
+## <a name="publish-the-updated-topology"></a>Publicar a topologia atualizada
 <a name="BKMK_PublishTopology"> </a>
 
-Depois de atualizar sua topologia no construtor de topologias, você deve publicar a topologia no repositório de gerenciamento central antes de poder configurar e usar o Skype for Business Server. Cópias somente leitura dos dados são replicadas para todos os servidores da topologia para mantê-los em sincronia com as alterações da topologia e de outras configurações.
+Depois de atualizar sua topologia no Construtor de Topologias, você deve publicar a topologia no armazenamento de Gerenciamento Central antes de configurar e usar o Skype for Business Server. Cópias somente leitura dos dados são replicadas para todos os servidores da topologia para mantê-los em sincronia com as alterações da topologia e de outras configurações.
   
-Antes de publicar sua topologia, instale os bancos de dados do servidor de chat persistente. Use o construtor de topologias para instalar bancos de dados selecionando **ação** e **instalar banco de dados**.
+Antes de publicar sua topologia, instale os bancos de dados para o Servidor de Chat Persistente. Use o Construtor de Topologias para instalar bancos de dados selecionando **Ação** e **Instalar Banco de Dados.**
   
-1. Em um computador que esteja executando o Skype for Business Server ou em que as ferramentas administrativas do Skype for Business Server estão instaladas, faça logon usando uma conta que seja membro do grupo **Domain admins** e do grupo **RTCUniversalServerAdmins** , e que tenha permissões de controle total (ler, gravar e modificar) no repositório de arquivos a ser usado para o repositório de arquivos do servidor de chat persistente (de forma que o construtor de topologias possa configurar as DACLs (listas de controle de acesso discricional) necessárias ou uma conta com um usuário equivalente direitos.
+1. Em um computador que está executando o Skype for Business Server ou no qual as ferramentas administrativas do Skype for Business Server estão instaladas, Faça logon usando uma conta que seja membro do grupo **Admins.** do Domínio e do grupo **RTCUniversalServerAdmins** e que tenha permissões de controle total (ler, gravar e modificar) no armazenamento de arquivos a ser usado para o armazenamento de arquivos do Servidor de Chat Persistente (para que o Construtor de Topologias possa configurar as listas de controle de acesso discricionário (DACLs) necessárias) ou uma conta com direitos de usuário equivalentes.
     
-2. Iniciar o construtor de topologias. Selecione **Abrir Topologia de um arquivo local**, se salvar localmente.
+2. Inicie o Construtor de topologia. Selecione **Abrir Topologia em um arquivo local se** você a tiver salvo localmente.
     
-3. Na árvore de console, clique com o botão direito do mouse em **Skype for Business Server 2015**e, em seguida, clique em **publicar topologia**.
+3. Na árvore do console, clique com o botão direito do mouse **no Skype for Business Server 2015** e clique em Publicar **Topologia.**
     
 4. Na página **Publicar a topologia**, clique em **Avançar**.
     

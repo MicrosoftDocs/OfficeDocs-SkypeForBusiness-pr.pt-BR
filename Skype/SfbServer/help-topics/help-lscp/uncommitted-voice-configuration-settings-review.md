@@ -1,8 +1,8 @@
 ---
-title: Revisão das configurações de voz não confirmadas
+title: Revisão de configurações de voz não confirmados
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -14,18 +14,18 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: fa2bc914-dfe0-4a1f-b827-41092a715a5d
-description: Use a caixa de diálogo Definições de configuração de voz não confirmadas para revisar todas as alterações feitas. Role pela caixa de diálogo para revisar todas as alterações não autorizadas ou clique nas setas para expandir ou recolher as várias seções. Quando terminar, clique em fechar. Após fechar essa caixa de diálogo, você pode modificar as alterações ou confirmá-las.
-ms.openlocfilehash: 7b9b8bd766be74ddcf71702720f3cd9f2b4d86a1
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Use a caixa de diálogo Definições de Configuração de Voz Não Autorizadas para revisar todas as alterações feitas. Role pela caixa de diálogo para revisar todas as alterações não autorizadas ou clique nas setas para expandir ou recolher as várias seções. Quando terminar, clique em Fechar. Depois de fechar essa caixa de diálogo, você poderá modificar suas alterações ou confirmá-las.
+ms.openlocfilehash: 14f9e2304ea6aa9fd6a4682050e4ef8d52f33fc6
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41821873"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49826851"
 ---
 # <a name="uncommitted-voice-configuration-settings-review"></a>Definições de Configuração de Voz Não Confirmadas: Revisar
  
-Use a caixa de diálogo **definições de configuração de voz não confirmadas** para revisar todas as alterações feitas. Role pela caixa de diálogo para revisar todas as alterações não autorizadas ou clique nas setas para expandir ou recolher as várias seções. Quando terminar, clique em **fechar**. Após fechar essa caixa de diálogo, você pode modificar as alterações ou confirmá-las.
+Use a caixa de diálogo **Definições de Configuração de Voz Não Confirmadas** para examinar todas as alterações que você fez. Role pela caixa de diálogo para examinar todas as alterações não confirmadas ou clique nas setas para expandir ou recolher as diferentes seções. Quando terminar, clique em **Fechar**. Depois de fechar essa caixa de diálogo, você poderá modificar suas alterações ou confirmá-las.
   
-Para obter detalhes sobre os diferentes procedimentos que você pode executar usando o painel de controle do Skype for Business Server, consulte [gerenciar o Skype for Business server 2015](../../manage/manage.md).
+Para obter detalhes sobre os diferentes procedimentos que você pode executar usando o Painel de Controle do Skype for Business Server, consulte [Gerenciar o Skype for Business Server 2015.](../../manage/manage.md)
   
 
