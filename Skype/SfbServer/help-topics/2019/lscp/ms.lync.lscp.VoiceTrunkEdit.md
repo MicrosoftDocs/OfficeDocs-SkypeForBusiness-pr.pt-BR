@@ -1,8 +1,8 @@
 ---
-title: Configuração de tronco criar novo ou editar existente
+title: Configuração de Tronco Criar Nova ou Editar Existente
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,25 +14,25 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 9591e691-63de-4c19-96a4-3bb394d1d4e2
 ROBOTS: NOINDEX, NOFOLLOW
-description: O que você deseja fazer? Clique no link da tarefa que você deseja executar.
-ms.openlocfilehash: 74ff6ee7430c4b61dafa041e7396b4ebfcab63ed
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: O que você deseja fazer? Clique no link para a tarefa que você deseja executar.
+ms.openlocfilehash: 6846491f073542c3a70015d05ea75a77e51db934
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41796090"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49833561"
 ---
-# <a name="trunk-configuration-create-new-or-edit-existing"></a><span data-ttu-id="90eb1-104">Configuração de Tronco: Criar Novo ou Editar Existente</span><span class="sxs-lookup"><span data-stu-id="90eb1-104">Trunk Configuration: Create New or Edit Existing</span></span>
+# <a name="trunk-configuration-create-new-or-edit-existing"></a><span data-ttu-id="f0e72-104">Configuração de Tronco: Criar Novo ou Editar Existente</span><span class="sxs-lookup"><span data-stu-id="f0e72-104">Trunk Configuration: Create New or Edit Existing</span></span>
 
-<span data-ttu-id="90eb1-105">O que você deseja fazer?</span><span class="sxs-lookup"><span data-stu-id="90eb1-105">What do you want to do?</span></span> <span data-ttu-id="90eb1-106">Clique no link da tarefa que você deseja executar.</span><span class="sxs-lookup"><span data-stu-id="90eb1-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="f0e72-105">O que você deseja fazer?</span><span class="sxs-lookup"><span data-stu-id="f0e72-105">What do you want to do?</span></span> <span data-ttu-id="f0e72-106">Clique no link para a tarefa que você deseja executar.</span><span class="sxs-lookup"><span data-stu-id="f0e72-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="90eb1-107">Configurar um tronco com bypass de mídia no Skype for Business Server</span><span class="sxs-lookup"><span data-stu-id="90eb1-107">Configure a trunk with media bypass in Skype for Business Server</span></span>](../../../deploy/deploy-enterprise-voice/configure-trunk-with-media-bypass.md)
+- [<span data-ttu-id="f0e72-107">Configurar um tronco com bypass de mídia no Skype for Business Server</span><span class="sxs-lookup"><span data-stu-id="f0e72-107">Configure a trunk with media bypass in Skype for Business Server</span></span>](../../../deploy/deploy-enterprise-voice/configure-trunk-with-media-bypass.md)
 
-- [<span data-ttu-id="90eb1-108">Configurar um tronco sem bypass de mídia no Skype for Business Server</span><span class="sxs-lookup"><span data-stu-id="90eb1-108">Configure a trunk without media bypass in Skype for Business Server</span></span>](../../../deploy/deploy-enterprise-voice/configure-trunk-without-media-bypass.md)
+- [<span data-ttu-id="f0e72-108">Configurar um tronco sem bypass de mídia no Skype for Business Server</span><span class="sxs-lookup"><span data-stu-id="f0e72-108">Configure a trunk without media bypass in Skype for Business Server</span></span>](../../../deploy/deploy-enterprise-voice/configure-trunk-without-media-bypass.md)
 
-- [<span data-ttu-id="90eb1-109">Criar ou modificar uma regra de tradução para a apresentação de ID chamada no Skype for Business Server</span><span class="sxs-lookup"><span data-stu-id="90eb1-109">Create or modify a translation rule for called ID presentation in Skype for Business Server</span></span>](../../../deploy/deploy-enterprise-voice/called-id-presentation-rules.md)
+- [<span data-ttu-id="f0e72-109">Criar ou modificar uma regra de conversão para apresentação de ID chamada no Skype for Business Server</span><span class="sxs-lookup"><span data-stu-id="f0e72-109">Create or modify a translation rule for called ID presentation in Skype for Business Server</span></span>](../../../deploy/deploy-enterprise-voice/called-id-presentation-rules.md)
 
-- [<span data-ttu-id="90eb1-110">Criar ou modificar manualmente uma regra de tradução</span><span class="sxs-lookup"><span data-stu-id="90eb1-110">Create or Modify a Translation Rule Manually</span></span>](https://technet.microsoft.com/library/049d1db3-af58-48c5-be89-52e1d068a4bd.aspx)
+- [<span data-ttu-id="f0e72-110">Criar ou modificar uma regra de conversão manualmente</span><span class="sxs-lookup"><span data-stu-id="f0e72-110">Create or Modify a Translation Rule Manually</span></span>](https://technet.microsoft.com/library/049d1db3-af58-48c5-be89-52e1d068a4bd.aspx)
 
 
 

@@ -1,8 +1,8 @@
 ---
 title: Adicionar Servidor de Mediação
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,16 +14,16 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 965eda6f-5d11-4b94-8cc4-5968bc4e7018
 ROBOTS: NOINDEX, NOFOLLOW
-description: Para definir o servidor de mediação, especifique um FQDN (nome de domínio totalmente qualificado) para o pool do servidor de mediação. Se você estiver criando um pool de servidores de mediação, especificará o nome do pool para os servidores de mediação que está implantando. Você irá definir os FQDNs dos servidores individuais em outra etapa. Se você estiver implantando um servidor de mediação único, o FQDN especificado será o FQDN do servidor de mediação único. Para obter detalhes, consulte Implantar um servidor de mediação no construtor de topologias no Skype for Business Server.
-ms.openlocfilehash: 3f6ffb4021918de73a33d9c08ee3f3397b4490eb
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: Para definir o Servidor de Mediação, especifique um FQDN (nome de domínio totalmente qualificado) para o pool do Servidor de Mediação. Se estiver criando um pool de Servidores de Mediação, especifique o nome do pool para os Servidores de Mediação que estiver implantando. Defina os FQDNs dos servidores individuais em outra etapa. Se estiver implantando um único Servidor de Mediação, o FQDN que especificar será o FQDN do Servidor de Mediação único. Para obter detalhes, consulte Deploy a Mediation Server in Topology Builder in Skype for Business Server.
+ms.openlocfilehash: f38b132e68c2e9a9b83a9a42b98d25cc515eed50
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41798488"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49833501"
 ---
-# <a name="add-mediation-server"></a><span data-ttu-id="a6ce6-107">Adicionar Servidor de Mediação</span><span class="sxs-lookup"><span data-stu-id="a6ce6-107">Add Mediation Server</span></span>
+# <a name="add-mediation-server"></a><span data-ttu-id="fabf4-107">Adicionar Servidor de Mediação</span><span class="sxs-lookup"><span data-stu-id="fabf4-107">Add Mediation Server</span></span>
  
-<span data-ttu-id="a6ce6-108">Para definir o servidor de mediação, especifique um FQDN (nome de domínio totalmente qualificado) para o pool do servidor de mediação.</span><span class="sxs-lookup"><span data-stu-id="a6ce6-108">To define the Mediation Server, specify a fully qualified domain name (FQDN) for the Mediation Server pool.</span></span> <span data-ttu-id="a6ce6-109">Se você estiver criando um pool de servidores de mediação, especificará o nome do pool para os servidores de mediação que está implantando.</span><span class="sxs-lookup"><span data-stu-id="a6ce6-109">If you are creating a pool of Mediation Servers, you will specify the name of the pool for the Mediation Servers you are deploying.</span></span> <span data-ttu-id="a6ce6-110">Você irá definir os FQDNs dos servidores individuais em outra etapa.</span><span class="sxs-lookup"><span data-stu-id="a6ce6-110">You will define the FQDNs of the individual servers in another step.</span></span> <span data-ttu-id="a6ce6-111">Se você estiver implantando um servidor de mediação único, o FQDN especificado será o FQDN do servidor de mediação único.</span><span class="sxs-lookup"><span data-stu-id="a6ce6-111">If you are deploying a single Mediation Server, the FQDN you specify will be the FQDN of the single Mediation Server.</span></span> <span data-ttu-id="a6ce6-112">Para obter detalhes, consulte [implantar um servidor de mediação no construtor de topologias no Skype for Business Server](../../../deploy/deploy-enterprise-voice/deploy-a-mediation-server.md).</span><span class="sxs-lookup"><span data-stu-id="a6ce6-112">For details, see [Deploy a Mediation Server in Topology Builder in Skype for Business Server](../../../deploy/deploy-enterprise-voice/deploy-a-mediation-server.md).</span></span>
+<span data-ttu-id="fabf4-108">Para definir o Servidor de Mediação, especifique um FQDN (nome de domínio totalmente qualificado) para o pool do Servidor de Mediação.</span><span class="sxs-lookup"><span data-stu-id="fabf4-108">To define the Mediation Server, specify a fully qualified domain name (FQDN) for the Mediation Server pool.</span></span> <span data-ttu-id="fabf4-109">Se estiver criando um pool de Servidores de Mediação, especifique o nome do pool para os Servidores de Mediação que estiver implantando.</span><span class="sxs-lookup"><span data-stu-id="fabf4-109">If you are creating a pool of Mediation Servers, you will specify the name of the pool for the Mediation Servers you are deploying.</span></span> <span data-ttu-id="fabf4-110">Defina os FQDNs dos servidores individuais em outra etapa.</span><span class="sxs-lookup"><span data-stu-id="fabf4-110">You will define the FQDNs of the individual servers in another step.</span></span> <span data-ttu-id="fabf4-111">Se estiver implantando um único Servidor de Mediação, o FQDN que especificar será o FQDN do Servidor de Mediação único.</span><span class="sxs-lookup"><span data-stu-id="fabf4-111">If you are deploying a single Mediation Server, the FQDN you specify will be the FQDN of the single Mediation Server.</span></span> <span data-ttu-id="fabf4-112">Para obter detalhes, [consulte Deploy a Mediation Server in Topology Builder in Skype for Business Server](../../../deploy/deploy-enterprise-voice/deploy-a-mediation-server.md).</span><span class="sxs-lookup"><span data-stu-id="fabf4-112">For details, see [Deploy a Mediation Server in Topology Builder in Skype for Business Server](../../../deploy/deploy-enterprise-voice/deploy-a-mediation-server.md).</span></span>
   
 

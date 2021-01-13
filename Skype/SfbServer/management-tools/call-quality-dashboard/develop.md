@@ -1,8 +1,8 @@
 ---
-title: Desenvolva o painel de qualidade de chamada para o Skype for Business Server
+title: Desenvolver o Painel de Qualidade da Chamada para o Skype for Business Server
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,30 +12,30 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 664917b4-c954-40b6-864e-f72db94c6180
-description: 'Resumo: saiba como desenvolver soluções para o painel de qualidade de chamada. O painel de qualidade de chamada é uma ferramenta para o Skype for Business Server.'
-ms.openlocfilehash: 02504c129f566ee98c8dfc0a49f6ab65be3d366f
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 'Resumo: saiba como desenvolver soluções para o Painel de Qualidade de Chamada. O Painel de Qualidade da Chamada é uma ferramenta do Skype for Business Server.'
+ms.openlocfilehash: 246a88654438ce4f4fd6138d17b9c53f9fdedf32
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41816840"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49832671"
 ---
-# <a name="develop-call-quality-dashboard-for-skype-for-business-server"></a><span data-ttu-id="970a5-104">Desenvolva o painel de qualidade de chamada para o Skype for Business Server</span><span class="sxs-lookup"><span data-stu-id="970a5-104">Develop Call Quality Dashboard for Skype for Business Server</span></span>
+# <a name="develop-call-quality-dashboard-for-skype-for-business-server"></a><span data-ttu-id="5fcc2-104">Desenvolver o Painel de Qualidade da Chamada para o Skype for Business Server</span><span class="sxs-lookup"><span data-stu-id="5fcc2-104">Develop Call Quality Dashboard for Skype for Business Server</span></span>
  
-<span data-ttu-id="970a5-105">**Resumo:** Saiba como desenvolver soluções para o painel de qualidade da chamada.</span><span class="sxs-lookup"><span data-stu-id="970a5-105">**Summary:** Learn how to develop solutions for Call Quality Dashboard.</span></span> <span data-ttu-id="970a5-106">O painel de qualidade de chamada é uma ferramenta para o Skype for Business Server.</span><span class="sxs-lookup"><span data-stu-id="970a5-106">Call Quality Dashboard is a tool for Skype for Business Server.</span></span>
+<span data-ttu-id="5fcc2-105">**Resumo:** Saiba como desenvolver soluções para o Painel de Qualidade da Chamada.</span><span class="sxs-lookup"><span data-stu-id="5fcc2-105">**Summary:** Learn how to develop solutions for Call Quality Dashboard.</span></span> <span data-ttu-id="5fcc2-106">O Painel de Qualidade da Chamada é uma ferramenta do Skype for Business Server.</span><span class="sxs-lookup"><span data-stu-id="5fcc2-106">Call Quality Dashboard is a tool for Skype for Business Server.</span></span>
   
-<span data-ttu-id="970a5-107">Este tópico fornece documentação de desenvolvimento para o painel de qualidade de chamada (CQD) para o Skype for Business Server.</span><span class="sxs-lookup"><span data-stu-id="970a5-107">This topic provides development documentation for Call Quality Dashboard (CQD) for Skype for Business Server.</span></span>
+<span data-ttu-id="5fcc2-107">Este tópico fornece documentação de desenvolvimento para o Painel de Qualidade de Chamadas (CQD) do Skype for Business Server.</span><span class="sxs-lookup"><span data-stu-id="5fcc2-107">This topic provides development documentation for Call Quality Dashboard (CQD) for Skype for Business Server.</span></span>
   
-## <a name="develop-call-quality-dashboard-for-skype-for-business-server"></a><span data-ttu-id="970a5-108">Desenvolva o painel de qualidade de chamada para o Skype for Business Server</span><span class="sxs-lookup"><span data-stu-id="970a5-108">Develop Call Quality Dashboard for Skype for Business Server</span></span>
+## <a name="develop-call-quality-dashboard-for-skype-for-business-server"></a><span data-ttu-id="5fcc2-108">Desenvolver o Painel de Qualidade da Chamada para o Skype for Business Server</span><span class="sxs-lookup"><span data-stu-id="5fcc2-108">Develop Call Quality Dashboard for Skype for Business Server</span></span>
 
-<span data-ttu-id="970a5-109">O CQD pode ser estendido e integrado ao seu ambiente de geração de relatórios usando desenvolvimento personalizado.</span><span class="sxs-lookup"><span data-stu-id="970a5-109">CQD can be extended and integrated to your reporting environment using custom development.</span></span> 
+<span data-ttu-id="5fcc2-109">O CQD pode ser estendido e integrado ao seu ambiente de relatórios usando desenvolvimento personalizado.</span><span class="sxs-lookup"><span data-stu-id="5fcc2-109">CQD can be extended and integrated to your reporting environment using custom development.</span></span> 
   
-<span data-ttu-id="970a5-110">Dois conjuntos de APIs da Web estão disponíveis, um para acessar dados no cubo (por meio de APIs de dados) e outro para acessar os metadados do relatório (por meio da API do repositório).</span><span class="sxs-lookup"><span data-stu-id="970a5-110">Two sets of web APIs are available, one for accessing data in the cube (through Data APIs), and one for accessing the report metadata (through Repository API).</span></span> 
+<span data-ttu-id="5fcc2-110">Dois conjuntos de APIs da Web estão disponíveis, um para acessar dados no cubo (por meio de APIs de Dados) e outro para acessar os metadados do relatório (por meio da API de Repositório).</span><span class="sxs-lookup"><span data-stu-id="5fcc2-110">Two sets of web APIs are available, one for accessing data in the cube (through Data APIs), and one for accessing the report metadata (through Repository API).</span></span> 
   
-- [<span data-ttu-id="970a5-111">API de dados para o painel de qualidade de chamada (CQD) no Skype for Business Server</span><span class="sxs-lookup"><span data-stu-id="970a5-111">Data API for Call Quality Dashboard (CQD) in Skype for Business Server</span></span>](data-api.md)
+- [<span data-ttu-id="5fcc2-111">API de Dados para Painel de Qualidade de Chamadas (CQD) no Skype for Business Server</span><span class="sxs-lookup"><span data-stu-id="5fcc2-111">Data API for Call Quality Dashboard (CQD) in Skype for Business Server</span></span>](data-api.md)
     
-- [<span data-ttu-id="970a5-112">API do repositório para o painel de qualidade da chamada (CQD) no Skype for Business Server</span><span class="sxs-lookup"><span data-stu-id="970a5-112">Repository API for Call Quality Dashboard (CQD) in Skype for Business Server</span></span>](repository-api.md)
+- [<span data-ttu-id="5fcc2-112">REPOSITÓRIO API para Painel de Qualidade de Chamadas (CQD) no Skype for Business Server</span><span class="sxs-lookup"><span data-stu-id="5fcc2-112">Repository API for Call Quality Dashboard (CQD) in Skype for Business Server</span></span>](repository-api.md)
     
-- [<span data-ttu-id="970a5-113">Amostras de Desenvolvimento para o CQD</span><span class="sxs-lookup"><span data-stu-id="970a5-113">CQD Development Samples</span></span>](cqd-development-samples.md)
+- [<span data-ttu-id="5fcc2-113">Amostras de Desenvolvimento para o CQD</span><span class="sxs-lookup"><span data-stu-id="5fcc2-113">CQD Development Samples</span></span>](cqd-development-samples.md)
     
 

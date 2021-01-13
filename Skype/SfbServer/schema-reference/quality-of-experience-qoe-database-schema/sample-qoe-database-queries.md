@@ -1,8 +1,8 @@
 ---
-title: Exemplo de consultas ao banco de dados de QoE
+title: Amostra de consultas ao banco de dados QoE
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -12,25 +12,25 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 04e6bdd3-bbd1-47ca-8114-94a3db6beeeb
-description: Esta seção contém exemplos de consultas para o banco de dados de qualidade da experiência (QoE).
-ms.openlocfilehash: 099e0ed179ab22e3610aaf8b00d3745a315bb734
-ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
+description: Esta seção contém exemplos de consultas do banco de dados da Qualidade da Experiência (QoE).
+ms.openlocfilehash: efc26064e52464ffc2e92e24d5af8dd848368b56
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "41888650"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49834361"
 ---
-# <a name="sample-qoe-database-queries"></a><span data-ttu-id="6a8e9-103">Exemplo de consultas ao banco de dados de QoE</span><span class="sxs-lookup"><span data-stu-id="6a8e9-103">Sample QoE database queries</span></span>
+# <a name="sample-qoe-database-queries"></a><span data-ttu-id="52f54-103">Amostra de consultas ao banco de dados QoE</span><span class="sxs-lookup"><span data-stu-id="52f54-103">Sample QoE database queries</span></span>
  
-<span data-ttu-id="6a8e9-104">Esta seção contém exemplos de consultas para o banco de dados de qualidade da experiência (QoE).</span><span class="sxs-lookup"><span data-stu-id="6a8e9-104">This section contains sample queries for the Quality of Experience (QoE) database.</span></span> 
+<span data-ttu-id="52f54-104">Esta seção contém exemplos de consultas do banco de dados da Qualidade da Experiência (QoE).</span><span class="sxs-lookup"><span data-stu-id="52f54-104">This section contains sample queries for the Quality of Experience (QoE) database.</span></span> 
   
-<span data-ttu-id="6a8e9-105">Use o exemplo a seguir para obter a média de tremulação e perda de pacote para todos os fluxos de áudio.</span><span class="sxs-lookup"><span data-stu-id="6a8e9-105">Use the following example to get the jitter and packet loss average for all audio streams.</span></span>
+<span data-ttu-id="52f54-105">Use o exemplo a seguir para obter a média de tremulação e perda de pacote para todos os fluxos de áudio.</span><span class="sxs-lookup"><span data-stu-id="52f54-105">Use the following example to get the jitter and packet loss average for all audio streams.</span></span>
   
 ```SQL
 select avg(cast(JitterInterArrival as bigint)) as JitterAvg, avg(PacketLossRate) as PacketLossRateAvg from AudioStream
 ```
 
-<span data-ttu-id="6a8e9-106">Use o exemplo a seguir para localizar o número total de conferências que usaram o console de reunião.</span><span class="sxs-lookup"><span data-stu-id="6a8e9-106">Use the following example to find the total numbers of conferences that used Meeting Console.</span></span>
+<span data-ttu-id="52f54-106">Use o exemplo a seguir para descobrir o número total de conferências que usaram o Console de Reunião.</span><span class="sxs-lookup"><span data-stu-id="52f54-106">Use the following example to find the total numbers of conferences that used Meeting Console.</span></span>
   
 ```SQL
 select avg(ConversationalMOS)
@@ -43,7 +43,7 @@ on s.ConferenceDateTime = m.ConferenceDateTime
    and s.CalleeUserAgentType = 4 -- Lync
 ```
 
-<span data-ttu-id="6a8e9-107">Use o exemplo a seguir para obter o ConversstionalMOS, o SendingMOS e o ListendingMOS por dispositivo de captura.</span><span class="sxs-lookup"><span data-stu-id="6a8e9-107">Use the following example to get ConversstionalMOS, SendingMOS and ListendingMOS per capture device.</span></span>
+<span data-ttu-id="52f54-107">Use o exemplo a seguir para obter ConversstionalMOS, SendingMOS e ListendingMOS por dispositivo de captura.</span><span class="sxs-lookup"><span data-stu-id="52f54-107">Use the following example to get ConversstionalMOS, SendingMOS and ListendingMOS per capture device.</span></span>
   
 ```SQL
 select t.DeviceName as Device, count(*) as SampleNum, avg(ConversationalMOS) as ConversationalMOS, avg(SendListenMOS) SendingMOS, avg(RecvListenMOS) as ListendingMOS
