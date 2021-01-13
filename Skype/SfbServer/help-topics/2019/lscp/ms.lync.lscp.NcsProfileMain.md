@@ -1,8 +1,8 @@
 ---
 title: Perfil de Política de Largura de Banda
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,19 +14,19 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 6a7ad229-31f3-477e-b254-f45858213fa8
 ROBOTS: NOINDEX, NOFOLLOW
-description: O que você deseja fazer? Clique no link da tarefa que você deseja executar.
-ms.openlocfilehash: 8e4b6672195c6ae82247a618e1ae53f409ee5092
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: O que você deseja fazer? Clique no link para a tarefa que você deseja executar.
+ms.openlocfilehash: e52af88aefb4201fa5ae3fe58e2b7eec5ed7eff4
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41798588"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49824741"
 ---
-# <a name="bandwidth-policy-profile"></a><span data-ttu-id="a7ebf-104">Perfil de Política de Largura de Banda</span><span class="sxs-lookup"><span data-stu-id="a7ebf-104">Bandwidth Policy Profile</span></span>
+# <a name="bandwidth-policy-profile"></a><span data-ttu-id="eabe6-104">Perfil de Política de Largura de Banda</span><span class="sxs-lookup"><span data-stu-id="eabe6-104">Bandwidth Policy Profile</span></span>
 
-<span data-ttu-id="a7ebf-105">O que você deseja fazer?</span><span class="sxs-lookup"><span data-stu-id="a7ebf-105">What do you want to do?</span></span> <span data-ttu-id="a7ebf-106">Clique no link da tarefa que você deseja executar.</span><span class="sxs-lookup"><span data-stu-id="a7ebf-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="eabe6-105">O que você deseja fazer?</span><span class="sxs-lookup"><span data-stu-id="eabe6-105">What do you want to do?</span></span> <span data-ttu-id="eabe6-106">Clique no link para a tarefa que você deseja executar.</span><span class="sxs-lookup"><span data-stu-id="eabe6-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="a7ebf-107">Configuração do perfil da política de largura de banda</span><span class="sxs-lookup"><span data-stu-id="a7ebf-107">Configuring Bandwidth Policy Profile</span></span>](https://technet.microsoft.com/library/08a2e18f-9b0d-4a2f-aa14-13bbf79ec745.aspx)
+- [<span data-ttu-id="eabe6-107">Configurando o perfil da política de largura de banda</span><span class="sxs-lookup"><span data-stu-id="eabe6-107">Configuring Bandwidth Policy Profile</span></span>](https://technet.microsoft.com/library/08a2e18f-9b0d-4a2f-aa14-13bbf79ec745.aspx)
 
 
 
