@@ -1,8 +1,8 @@
 ---
 title: Expansor de Configurações Gerais de Servidor de Mediação
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 4/14/2015
 audience: ITPro
@@ -14,12 +14,12 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0e0ad9f0-27d5-4975-ae88-0b8ff8a4c514
-ms.openlocfilehash: bd3047832b23604f87a1e298a42798b13bb6822a
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+ms.openlocfilehash: a00573b06c1900718fd670c96a21ffab069b491e
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48215162"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49806721"
 ---
 # <a name="mediation-server-general-settings-expander"></a>Expansor de Configurações Gerais de Servidor de Mediação
  
@@ -29,13 +29,13 @@ ms.locfileid: "48215162"
 
 FQDN (nome de domínio totalmente qualificado) do Servidor de Mediação ou pool de Servidor de Mediação. Edite o FQDN do servidor para alterar o valor. Você deve ter um registro de hospedeiro (A) DNS (Domain Name System) coincidente com o novo valor.
   
-Na seção **Associações** , você seleciona um pool de Servidor de Borda ou Servidor de Borda para associar ao pool de Servidor de Mediação ou Servidor de Mediação. Você seleciona a borda que os componentes de mídia do servidor de mediação usarão para o usuário externo Enterprise Voice.
+Na seção **Associações** , você seleciona um pool de Servidor de Borda ou Servidor de Borda para associar ao pool de Servidor de Mediação ou Servidor de Mediação. Selecione a Borda que os componentes de mídia do Servidor de Mediação usarão para o Enterprise Voice do usuário externo.
   
 Caso você não possua um Servidor de Borda atualmente definido e precise associar o Servidor de Mediação com um Servidor de Borda, clique em **Novo** e defina o novo pool de Servidor de Borda ou Servidor de Borda no assistente Definir Novo pool de Borda.
   
 ## <a name="next-hop-settings"></a>Configurações de próximo salto
 
-Você especifica o próximo salto do pool de Servidor de Mediação ou Servidor de Mediação selecionando o pool de Front-Ends Enterprise Edition, ou Servidor Front-Ends Standard Edition, definido a partir da lista suspensa. Um Diretor ou pool de Diretores não é uma seleção válida para um próximo salto de pool de Servidores de Mediação ou de Servidor de Mediação e não aparecerá na lista. Clique em **OK** para aceitar e salvar suas alterações. Clique em **Cancelar** para descartar suas alterações e sair da página de propriedades.
+Você especifica o próximo salto do pool de Servidor de Mediação ou Servidor de Mediação selecionando o pool de Front-Ends Enterprise Edition, ou Servidor Front-Ends Standard Edition, definido a partir da lista suspensa. Um Diretor ou pool de Diretores não é uma seleção válida para um próximo salto de pool de Servidores de Mediação ou de Servidor de Mediação e não aparecerá na lista. Clique **em OK** para aceitar e salvar suas alterações. Clique em **Cancelar** para descartar suas alterações e sair da página de propriedades.
   
 ## <a name="pstn-gateway-settings"></a>Configurações de gateway PSTN
 

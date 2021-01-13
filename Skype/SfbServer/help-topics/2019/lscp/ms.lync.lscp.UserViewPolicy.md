@@ -1,8 +1,8 @@
 ---
 title: Os usuários visualizam a política de voz
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,17 +14,17 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: f259a753-cfdc-4fa7-ba35-6fb812e1552a
 ROBOTS: NOINDEX, NOFOLLOW
-description: O que você deseja fazer? Clique no link da tarefa que você deseja executar.
-ms.openlocfilehash: 72069a54674666863a6aed4b21ee4172cf09e826
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: O que você deseja fazer? Clique no link para a tarefa que você deseja executar.
+ms.openlocfilehash: 0130ce241337f62a6790266dd51a255146528c3f
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41797898"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49808051"
 ---
 # <a name="users-view-voice-policy"></a>Usuários: Exibir Política de Voz
 
-O que você deseja fazer? Clique no link da tarefa que você deseja executar.
+O que você deseja fazer? Clique no link para a tarefa que você deseja executar.
 
 - [Criar ou modificar uma política de voz e configurar registros de uso de PSTN no Skype for Business](../../../deploy/deploy-enterprise-voice/voice-policy-and-pstn-usage-records.md)
 

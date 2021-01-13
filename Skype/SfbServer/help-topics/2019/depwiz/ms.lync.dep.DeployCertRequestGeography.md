@@ -1,8 +1,8 @@
 ---
 title: Solicitação de Certificado (Geografia)
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,16 +14,16 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: aef0110c-b4b0-453c-a2dd-602372e64952
 ROBOTS: NOINDEX, NOFOLLOW
-description: A página informações geográficas solicita informações adicionais para a solicitação de certificado. Nesta página, selecione país e, em seguida, digite estado/província e cidade/localidade em uma caixa de texto. Observe que você não deve usar abreviações e deve soletrar o nome completo do estado/província e cidade/localidade.
-ms.openlocfilehash: a23a7398479378d8289f139795c1e6cc5bec1047
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: A página Informações Geográficas solicita informações adicionais para a solicitação de certificado. Nessa página, selecione País e digite Estado/Província e Cidade/Localidade em uma caixa de texto. Observe que você não deve usar abreviações e deve soletrar o nome completo do estado/província e cidade/localidade.
+ms.openlocfilehash: 64e110126cac5a5e192f5d04383f3a85fcac58e6
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41796712"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49808831"
 ---
 # <a name="certificate-request-geography"></a>Solicitação de Certificado (Geografia)
  
-A página **informações geográficas** solicita informações adicionais para a solicitação de certificado. Nesta página, selecione **país**e, em seguida, digite **estado/província** e **cidade/localidade** em uma caixa de texto. Observe que você não deve usar abreviações e deve soletrar o nome completo do estado/província e cidade/localidade.
+A página **Informações Geográficas** solicita informações adicionais para a solicitação de certificado. Nessa página, selecione **País** e digite **Estado/Província** e **Cidade/Localidade** em uma caixa de texto. Observe que você não deve usar abreviações e deve soletrar o nome completo do estado/província e cidade/localidade.
   
 

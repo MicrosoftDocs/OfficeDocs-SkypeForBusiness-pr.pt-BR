@@ -1,8 +1,8 @@
 ---
 title: tblComplianceData
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -12,31 +12,31 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 05b28f9b-4aba-4b69-ba8d-2ceeb6cbfaac
-description: tblComplianceData contém os eventos de conformidade que ainda não foram processados pelo adaptador de conformidade.
-ms.openlocfilehash: f09acd44e803c629e45afa18683ac7bc863564a9
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: A tabela ComplianceData inclui eventos de conformidade que ainda não foram processados pelo adaptador de conformidade
+ms.openlocfilehash: e4ceda662b2f601660c144319a4231cebeea39ad
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41814659"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49809851"
 ---
 # <a name="tblcompliancedata"></a>tblComplianceData
  
-tblComplianceData contém os eventos de conformidade que ainda não foram processados pelo adaptador de conformidade.
+A tabela ComplianceData inclui eventos de conformidade que ainda não foram processados pelo adaptador de conformidade
   
-**Colunas**
+**Columns**
 
 |**Coluna**|**Tipo**|**Descrição**|
 |:-----|:-----|:-----|
-|cmplEventID  <br/> |bigint, e não nulo  <br/> |ID do evento.  <br/> |
-|entryDate  <br/> |smalldatetime, não nulo  <br/> |Tempo de inserção (pode estar muito no futuro para cmplType = 9 porque a entrada é apenas um espaço reservado nesse caso).  <br/> |
-|cmplType  <br/> |int, não nulo  <br/> | Tipo de evento de conformidade: <br/>  1: chat <br/>  2: backchat <br/>  3: download de arquivo <br/>  4: carregamento de arquivo <br/>  9: transferência de arquivo provisório <br/>  10: exclusão de chat (com replace) <br/>  11: limpeza de chat <br/> |
-|cmplTime  <br/> |bigint, e não nulo  <br/> |Carimbo de data/hora do evento.  <br/> |
-|cmplChannelUri  <br/> |nvarchar (255), NOT NULL  <br/> |URI (Uniform Resource Identifier) do canal.  <br/> |
-|cmplChatID  <br/> |bigint  <br/> |ID de chat (correspondente à tabela tblChat. chatid).  <br/> |
-|cmplUserID  <br/> |int, não nulo  <br/> |ID da entidade de segurança do pôster (correspondente à tabela tblPrincipal. retoid).  <br/> |
-|cmplUserUri  <br/> |nvarchar (255), NOT NULL  <br/> |URI de usuário.  <br/> |
-|cmplMessage  <br/> |nvarchar (max)  <br/> |Mensagem (a codificação depende do cmplType).  <br/> |
+|cmplEventID  <br/> |bigint, não nulo  <br/> |ID do evento.  <br/> |
+|entryDate  <br/> |smalldatetime, não nulo  <br/> |Hora de inserção (pode está longe no futuro para cmplType=9, pois a entrada é apenas um espaço reservado neste caso).  <br/> |
+|cmplType  <br/> |int, não nulo  <br/> | Tipo de evento de conformidade: <br/>  1: Chat <br/>  2: Backchat <br/>  3: Download de arquivo <br/>  4: Carregamento de arquivo <br/>  9: Transferência de arquivo provisional <br/>  10: Exclusão de chat (com substituição) <br/>  11: Limpeza de chat <br/> |
+|cmplTime  <br/> |bigint, não nulo  <br/> |Carimbo de data/hora para o evento.  <br/> |
+|cmplChannelUri  <br/> |nvarchar (255), não nulo  <br/> |Canal do Identificador de Recurso Uniforme (URI).  <br/> |
+|cmplChatID  <br/> |bigint  <br/> |ID do chat (correspondendo à tabela do Chat.chatId).  <br/> |
+|cmplUserID  <br/> |int, não nulo  <br/> |ID principal do pôster (correspondendo à tabela do Principal.prinID).  <br/> |
+|cmplUserUri  <br/> |nvarchar (255), não nulo  <br/> |URI do usuário.  <br/> |
+|cmplMessage  <br/> |nvarchar (máx)  <br/> |Mensagem (codificação depende de cmplType).  <br/> |
    
 **Chave**
 

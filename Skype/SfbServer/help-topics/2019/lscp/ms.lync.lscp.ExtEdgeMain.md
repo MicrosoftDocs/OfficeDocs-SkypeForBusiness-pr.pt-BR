@@ -1,8 +1,8 @@
 ---
 title: Configuração de Borda de Acesso
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,28 +14,28 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 1bd49911-df70-4f96-85bc-1f005ea65163
 ROBOTS: NOINDEX, NOFOLLOW
-description: O que você deseja fazer? Clique no link da tarefa que você deseja executar.
-ms.openlocfilehash: cdf97b935245991ec79184c7d9c7981783f562ba
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: O que você deseja fazer? Clique no link para a tarefa que você deseja executar.
+ms.openlocfilehash: ca97aad16c141623df305ceffd6e13781c1779af
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41797702"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49808551"
 ---
 # <a name="access-edge-configuration"></a>Configuração de Borda de Acesso
 
-O que você deseja fazer? Clique no link da tarefa que você deseja executar.
+O que você deseja fazer? Clique no link para a tarefa que você deseja executar.
 
-- [Enable or Disable Remote User Access for Your Organization](https://technet.microsoft.com/library/8ec58f4b-9f6d-47b4-a187-d18a83fe4577.aspx)
+- [Habilitar ou desabilitar o acesso de usuário remoto para sua organização](https://technet.microsoft.com/library/8ec58f4b-9f6d-47b4-a187-d18a83fe4577.aspx)
 
-- [Enable or Disable Federation for Your Organization](https://technet.microsoft.com/library/090aea0f-ef0b-49da-9c80-02d9279f2fa6.aspx)
+- [Habilitar ou desabilitar a federação para sua organização](https://technet.microsoft.com/library/090aea0f-ef0b-49da-9c80-02d9279f2fa6.aspx)
 
-- [Enable or Disable Discovery of Federation Partners](https://technet.microsoft.com/library/91fd036b-b1af-47cf-b1cf-0aa0a783c2aa.aspx)
+- [Habilitar ou desabilitar a descoberta de parceiros de federação](https://technet.microsoft.com/library/91fd036b-b1af-47cf-b1cf-0aa0a783c2aa.aspx)
 
-- [Enable or Disable Sending an Archiving Disclaimer to Federated Partners](https://technet.microsoft.com/library/c8e9a2fa-9dc1-4e4d-919f-56ece8004864.aspx)
+- [Habilitar ou desabilitar o envio de um aviso de isenção de responsabilidade de arquivamento para parceiros federados](https://technet.microsoft.com/library/c8e9a2fa-9dc1-4e4d-919f-56ece8004864.aspx)
 
-- [Enable or Disable Anonymous User Access for Your Organization](https://technet.microsoft.com/library/090aea0f-ef0b-49da-9c80-02d9279f2fa6.aspx)
+- [Habilitar ou desabilitar o acesso de usuário anônimo para sua organização](https://technet.microsoft.com/library/090aea0f-ef0b-49da-9c80-02d9279f2fa6.aspx)
 
-- [Create or Modify a Conferencing Policy](https://technet.microsoft.com/library/e2974030-2c0a-4634-91e8-93f4e2d674d9.aspx)
+- [Criar ou modificar uma política de conferência](https://technet.microsoft.com/library/e2974030-2c0a-4634-91e8-93f4e2d674d9.aspx)
 
 

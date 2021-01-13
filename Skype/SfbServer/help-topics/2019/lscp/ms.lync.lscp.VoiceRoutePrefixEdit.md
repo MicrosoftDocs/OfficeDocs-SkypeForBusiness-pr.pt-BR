@@ -1,8 +1,8 @@
 ---
 title: Edição de Prefixo
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,17 +14,17 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: a6e63c33-7927-4813-81cc-9624c2098177
 ROBOTS: NOINDEX, NOFOLLOW
-description: Para definir prefixos ou iniciar dígitos, adicione prefixos de números que essa rota deve manipular, incluindo + se necessário. Por exemplo, você pode fazer a correspondência de todos os números que começam com + 123.
-ms.openlocfilehash: 7b404fed1dd7b5c13e6685a73eb0c4fb8b8bd380
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: Para definir prefixos ou dígitos iniciais, adicione os prefixos de número que esta rota deverá manipular, incluindo o +, se necessário. Por exemplo, você pode fazer a correspondência de todos os números iniciados por +123.
+ms.openlocfilehash: a78596a9185ebddccdf20ec91b566bedee3df06f
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41793539"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49807871"
 ---
 # <a name="prefix-edit"></a>Edição de Prefixo
  
-Para definir prefixos ou iniciar dígitos, adicione prefixos de números que essa rota deve manipular, incluindo + se necessário. Por exemplo, você pode fazer a correspondência de todos os números que começam com + 123.
+Para definir prefixos ou dígitos iniciais, adicione os prefixos de número que esta rota deverá manipular, incluindo o +, se necessário. Por exemplo, você pode fazer a correspondência de todos os números iniciados por +123.
   
  
   

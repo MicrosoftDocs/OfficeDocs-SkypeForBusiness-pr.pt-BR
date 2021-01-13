@@ -1,8 +1,8 @@
 ---
-title: Grupo de grupos de resposta
+title: Grupo de Grupos de Resposta
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,48 +14,48 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: b8bd4c3f-3d32-42b2-9712-2d0f159577d8
 ROBOTS: NOINDEX, NOFOLLOW
-description: Grupos de resposta consistem em grupos de agente, filas e fluxos de trabalho. Um grupo de agente é um grupo de pessoas designado para atender chamadas em grupo de resposta.
-ms.openlocfilehash: 1c42f34028d944a7390925df6157c8ef8fd0509d
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: Os grupos de resposta são compostos por grupos de agente, filas e fluxos de trabalho. Um grupo de agentes é um grupo de pessoas designadas para atender às chamadas do Grupo de Resposta.
+ms.openlocfilehash: 687263d9d5778239c78038b39edc3da59f444a5a
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41797512"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49808251"
 ---
 # <a name="response-groups-group"></a>Grupos de Resposta: Grupo
 
-Grupos de resposta consistem em grupos de agente, filas e fluxos de trabalho. Um grupo de agente é um grupo de pessoas designado para atender chamadas em grupo de resposta.
+Os grupos de resposta são compostos por grupos de agente, filas e fluxos de trabalho. Um grupo de agentes é um grupo de pessoas designadas para atender às chamadas do Grupo de Resposta.
 
-A página**grupo** de **grupos** - de resposta exibe uma lista de todos os grupos de agente definidos para a sua organização.
+A **página Grupo de** Grupos de Resposta exibe uma lista de todos os grupos de agentes  -   definidos para sua organização.
 
 ## <a name="tasks-you-can-perform"></a>Tarefas que podem ser executadas
 
-Você pode executar as seguintes tarefas na página **** - **grupo** de grupos de resposta:
+Você pode executar as seguintes tarefas na página **Grupo de Grupos**  -  **de** Resposta:
 
-- Criar um novo grupo de agente
+- Criar um novo grupo de agentes
 
-- Alterar um grupo de agente existente
+- Alterar um grupo de agentes existente
 
-- Excluir um grupo de agente
+- Excluir um grupo de agentes
 
 ## <a name="ui-reference"></a>Referência de UI
 
 A lista a seguir descreve os comandos na página.
 
-- **Novo** Inicia um novo grupo de agente.
+- **Novo** Inicia um novo grupo de agentes.
 
-- **Editar** Abre o grupo de agente selecionado para editá-lo, seleciona todos os grupos de agente na lista ou exclui os grupos de agente selecionados.
+- **Editar** Abre o grupo de agentes selecionado para editá-lo, seleciona todos os grupos de agentes na lista ou exclui os grupos de agentes selecionados.
 
-- **Atualização** Atualiza a lista de grupos de agente.
+- **Atualizar** Atualiza a lista de grupos de agentes.
 
 A lista a seguir descreve os campos na página.
 
-- **Nome** O nome exclusivo que identifica o grupo de agente.
+- **Nome** O nome exclusivo que identifica o grupo de agentes.
 
-- **Serviço** de O serviço **ApplicationServer** que hospeda o grupo de agente.
+- **Serviço** O **serviço ApplicationServer** que hospeda o grupo de agentes.
 
-- **Descrição** A descrição do grupo de agente.
+- **Descrição** A descrição do grupo de agentes.
 
-Para obter detalhes sobre recursos e recursos do grupo de resposta, consulte [planejar o aplicativo do grupo de resposta no Skype for Business Server](../../../plan-your-deployment/enterprise-voice-solution/response-group.md) na documentação de planejamento. Para obter detalhes sobre como trabalhar com grupos de agente, consulte [Managing Agent Groups](https://technet.microsoft.com/library/36084cdc-38f1-4c45-922f-f81c7e86210c.aspx) na documentação Operações.
+Para obter detalhes sobre os recursos e capacidades do Grupo de Resposta, consulte [Plan for the Response Group application in Skype for Business Server](../../../plan-your-deployment/enterprise-voice-solution/response-group.md) na documentação planejamento. Para obter detalhes sobre como trabalhar com grupos de agente, consulte [Managing Agent Groups](https://technet.microsoft.com/library/36084cdc-38f1-4c45-922f-f81c7e86210c.aspx) na documentação Operações.
 
 

@@ -1,8 +1,8 @@
 ---
-title: Cliente móvel criar ou editar configuração de notificação por push
+title: Mobile Client Create or Edit Push Notification Configuration
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,34 +14,34 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: fb39af60-c999-42fb-9538-0bd87098f508
 ROBOTS: NOINDEX, NOFOLLOW
-description: Notificação por Push e Push Notification Clearing House (PNCH) são duas partes importantes do recurso de mobilidade. Notificação por Push é o processo no qual uma mensagem é enviada ao PNCH. A mensagem é mantida aqui até que possa ser entregue ao cliente móvel ou até esgotar o tempo limite.
-ms.openlocfilehash: 803bc61d12263e98efe5e74764f9f60f392af95f
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: A Notificação por Push e o Push Notification Clearing House (PNCH) são duas partes importantes do recurso de mobilidade. Notificação por push é o processo em que uma mensagem é enviada para o PNCH. A mensagem é mantida aqui até que possa ser entregue ao cliente móvel ou o período de tempo de expiração.
+ms.openlocfilehash: 3c72c5b123a906d74cfeb0a1fef5c1e765fe030c
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41796480"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49808741"
 ---
-# <a name="mobile-client-create-or-edit-push-notification-configuration"></a>Cliente móvel: Crie ou edite a Configuração de Notificação por Push
+# <a name="mobile-client-create-or-edit-push-notification-configuration"></a>Cliente Móvel: Crie ou Edite a Configuração de Notificação por Push
  
-Notificação por Push e Push Notification Clearing House (PNCH) são duas partes importantes do recurso de mobilidade. Notificação por Push é o processo no qual uma mensagem é enviada ao PNCH. A mensagem é mantida aqui até que possa ser entregue ao cliente móvel ou até esgotar o tempo limite. 
+A Notificação por Push e o Push Notification Clearing House (PNCH) são duas partes importantes do recurso de mobilidade. Notificação por push é o processo em que uma mensagem é enviada para o PNCH. A mensagem é mantida aqui até que possa ser entregue ao cliente móvel ou o período de tempo de expiração. 
   
 > [!NOTE]
-> O período é definido na Push Notification Clearing House e não pode ser configurado pelo usuário ou pelo administrador de sua implantação. 
+> O período de tempo é definido na Push Notification Clearing House e não é configurável pelo usuário ou pelo administrador da sua implantação. 
   
 Para habilitar a Notificação por Push, faça o seguinte:
   
-1. **Escopo:** observe o escopo dessa política. Pode ser **Global**, que se aplica a todos os usuários nessa implantação, ou **Site**, que são apenas usuários atribuídos a servidores domésticos no site especificado.
+1. **Escopo:** Observe o escopo dessa política. Pode ser **Global**, que se aplica a todos os usuários nesta implantação, ou **Site**, que é apenas usuários atribuídos aos servidores home no site especificado.
     
     > [!IMPORTANT]
-    > As definições de política que são aplicadas em determinado nível de política podem substituir definições que são aplicadas em outro nível. A precedência de política é: política de Usuário (maior influência) substitui uma política de Site e esta substitui uma política Global (menor influência). Isso significa que, quanto mais perto a definição de política estiver do objeto que ela está afetando, maior será sua influência sobre o objeto. 
+    > As configurações de política aplicadas em um nível de política podem substituir as configurações aplicadas em outro nível de política. A precedência da política é: a política de usuário (mais influência) substitui uma política de Site e, em seguida, uma política de Site substitui uma política Global (menos influência). Isso significa que quanto mais próxima a configuração da política estiver do objeto que a política estiver afetando, maior será a influência sobre o objeto. 
   
 2. Selecione quais serviços de notificação por push você deseja habilitar clicando na caixa de seleção para:
     
-   - **Habilitar a notificação por push da Microsoft** habilitará a notificação por push para o PNCH baseado em nuvem para Windows Phone com o aplicativo Skype for Business
+   - **Habilitar a notificação por push** da Microsoft habilita a notificação por push para o PNCH baseado em nuvem para Windows Phone com o aplicativo Skype for Business
     
-   - **Habilitar a notificação por push da Apple** habilitará a notificação por push para o Apple PNCH para dispositivos que executam o Ios da Apple (por exemplo, iPhone, iPad) e usando o aplicativo Skype for Business
+   - **Habilitar** a notificação por push da Apple habilita a notificação por push para o Apple PNCH para dispositivos que executam o iOS da Apple (por exemplo, iPhone, iPad) e usando o aplicativo Skype for Business
     
-3. Após concluir as edições da política, clique em  **Confirmar** para salvar suas alterações. Se for necessário excluir as alterações feitas, selecione **Cancelar**. Nenhuma alteração será salva na política.
+3. Depois de concluir as edições da política, clique em **Confirmação** para salvar suas alterações. Se você precisar excluir as alterações feitas, selecione **Cancelar.** Nenhuma alteração será salva na política.
     
 

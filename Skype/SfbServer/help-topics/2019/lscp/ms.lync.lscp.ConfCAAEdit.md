@@ -1,8 +1,8 @@
 ---
-title: Número de acesso discado criar novo ou editar existente
+title: Número de Acesso de Discagem Criar Novo ou Editar Existente
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,20 +14,20 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 97a2b794-77da-40c0-9f9a-3c5fe6cc683d
 ROBOTS: NOINDEX, NOFOLLOW
-description: O que você deseja fazer? Clique no link da tarefa que você deseja executar.
-ms.openlocfilehash: f4c7882e637fa351fb31da858429512233baf3f9
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: O que você deseja fazer? Clique no link para a tarefa que você deseja executar.
+ms.openlocfilehash: 8811af52bdc2ada0db8153397a498715aa48c410
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41798008"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49808701"
 ---
-# <a name="dial-in-access-number-create-new-or-edit-existing"></a>Número de Acesso de Discagem: Criar Novo ou Editar Existente
+# <a name="dial-in-access-number-create-new-or-edit-existing"></a>Número de Acesso Discado: Criar Novo ou Editar Existente
 
-O que você deseja fazer? Clique no link da tarefa que você deseja executar.
+O que você deseja fazer? Clique no link para a tarefa que você deseja executar.
 
-- [Create or Modify a Dial-in Conferencing Access Number](https://technet.microsoft.com/library/06f55c28-57f8-4d4e-8313-9740846796d9.aspx)
+- [Criar ou modificar um número de acesso conferência discada](https://technet.microsoft.com/library/06f55c28-57f8-4d4e-8313-9740846796d9.aspx)
 
-- [Delete a Dial-in Conferencing Access Number](https://technet.microsoft.com/library/199c5d9c-0489-4ad5-a7f1-ca59fe0e6ac7.aspx)
+- [Excluir um número de acesso conferência discada](https://technet.microsoft.com/library/199c5d9c-0489-4ad5-a7f1-ca59fe0e6ac7.aspx)
 
 

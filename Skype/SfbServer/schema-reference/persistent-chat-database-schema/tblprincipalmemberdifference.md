@@ -1,8 +1,8 @@
 ---
 title: tblPrincipalMemberDifference
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -12,25 +12,25 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 0b94f555-6888-4fe0-a048-4660a2513276
-description: tblPrincipalMemberDifference contém alterações de associação de grupo (membros adicionados e removidos) que ainda não foram processados pelas etapas de sincronização dos serviços de domínio Active Directory mais recentes.
-ms.openlocfilehash: c7e965658c9e351a7a2d079921b7abe8166b48ad
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: TblPrincipalMemberDifference contém alterações de associação de grupo (membros adicionados e removidos) que ainda não foram processadas pelas etapas posteriores de Sincronização dos Serviços de Domínio Active Directory.
+ms.openlocfilehash: 8fac76f1abfbd55d13d89c96bb23a6953d38edf9
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41814069"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49809701"
 ---
 # <a name="tblprincipalmemberdifference"></a>tblPrincipalMemberDifference
  
-tblPrincipalMemberDifference contém alterações de associação de grupo (membros adicionados e removidos) que ainda não foram processados pelas etapas de sincronização dos serviços de domínio Active Directory mais recentes.
+TblPrincipalMemberDifference contém alterações de associação de grupo (membros adicionados e removidos) que ainda não foram processadas pelas etapas posteriores de Sincronização dos Serviços de Domínio Active Directory.
   
-**Colunas**
+**Columns**
 
 |**Coluna**|**Tipo**|**Descrição**|
 |:-----|:-----|:-----|
-|prinGuid  <br/> |GUID, não nulo  <br/> |O principal GUID do grupo que foi alterado.  <br/> |
-|memberADPath  <br/> |nvarchar (256)  <br/> |Nome diferenciado do membro.  <br/> |
-|memberRemoved  <br/> |bit, e não nulo  <br/> |Falso se o membro tiver sido adicionado. Verdadeiro se o membro tiver sido removido.  <br/> |
+|prinGuid  <br/> |GUID, não nulo  <br/> |GUID principal do grupo que mudou.  <br/> |
+|memberADPath  <br/> |nvarchar (256)  <br/> |Nome distinto do membro.  <br/> |
+|memberRemoved  <br/> |bit, não nulo  <br/> |Falso se o membro tiver sido adicionado. Verdadeiro se o membro tiver sido removido.  <br/> |
    
 **Chave**
 

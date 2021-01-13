@@ -1,8 +1,8 @@
 ---
 title: Limpar Cache
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,41 +12,41 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 08648b16-7a64-41d8-9577-5000a20fce46
-description: 'Resumo: Saiba mais sobre a operação de limpeza de cache, que faz parte da API de dados para o painel de qualidade da chamada. O painel de qualidade de chamada é uma ferramenta para o Skype for Business Server.'
-ms.openlocfilehash: 821b02f204c98f5acefe69df1c848c31cd2205b7
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 'Resumo: saiba mais sobre a operação Limpar Cache, que faz parte da API de Dados do Painel de Qualidade de Chamada. O Painel de Qualidade da Chamada é uma ferramenta do Skype for Business Server.'
+ms.openlocfilehash: c9b966bb1e35a5a6255cd75ea6c685daaf220a09
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41816880"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49806411"
 ---
 # <a name="clear-cache"></a>Limpar Cache
  
-**Resumo:** Saiba mais sobre a operação de limpeza de cache, que faz parte da API de dados para o painel de qualidade da chamada. O painel de qualidade de chamada é uma ferramenta para o Skype for Business Server.
+**Resumo:** Saiba mais sobre a operação Limpar Cache, que faz parte da API de Dados do Painel de Qualidade da Chamada. O Painel de Qualidade da Chamada é uma ferramenta do Skype for Business Server.
   
-A operação de cache limpar faz parte da API de dados para o painel de qualidade da chamada.
+A operação Limpar Cache faz parte da API de Dados do Painel de Qualidade da Chamada.
   
 ## <a name="clear-cache"></a>Limpar Cache
 
-Limpar operação de cache exclui o cache no servidor para consultas e dados. Isso redefinirá o cache e obteremos dados atualizados do cubo de QoE posteriormente para novas solicitações.
+A operação Limpar Cache exclui o cache no servidor para consultas e dados. Isso redefini o cache e obteremos dados atualizados do Cubo QoE posteriormente para novas solicitações.
   
 
-|**Forma**|**URI de solicitação**|**Versão HTTP**|
+|**Method**|**URI de solicitação**|**Versão HTTP**|
 |:-----|:-----|:-----|
-|Postar  <br/> |https://\<do\>portal de/QoEDataService/ClearCache  <br/> |HTTP/1.1  <br/> |
+|POSTAR  <br/> |https:// \<portal\> /QoEDataService/ClearCache  <br/> |HTTP/1.1  <br/> |
    
- **Parâmetros de URI** -nenhum.
+ **Parâmetros de URI** - Nenhum.
   
- **Solicitar cabeçalhos** -sem cabeçalhos adicionais.
+ **Solicitação de headers** - nenhum outro.
   
- **Corpo da solicitação** -nenhum.
+ **Corpo da Solicitação** - Nenhum.
   
- **Resposta** -a resposta inclui um código de status HTTP e um conjunto de cabeçalhos de resposta.
+ **Resposta** - A resposta inclui um código de status HTTP e um conjunto de cabeçalhos de resposta.
   
- **Código de status** -uma operação bem-sucedida retorna o código de status 200 (OK).
+ **Código de Status** - Uma operação bem-sucedida retorna o código de status 200 (OK).
   
- **Cabeçalhos de resposta** -sem cabeçalhos adicionais.
+ **Response Headers** - Sem outros headers.
   
- **Corpo da resposta** -nenhum.
+ **Corpo de Resposta** - Nenhum.
   
 

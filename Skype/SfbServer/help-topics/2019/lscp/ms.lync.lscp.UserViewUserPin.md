@@ -1,8 +1,8 @@
 ---
-title: Usuários exibir ou configurar política de PIN
+title: Exibição ou Configuração de Política de PIN de Usuários
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,19 +14,19 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 4a68227c-f559-442f-955b-5c4ccc06b7f4
 ROBOTS: NOINDEX, NOFOLLOW
-description: O que você deseja fazer? Clique no link da tarefa que você deseja executar.
-ms.openlocfilehash: 31ed8052cf89717e89b3a4cc6ff9cbd2844e7ed7
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: O que você deseja fazer? Clique no link para a tarefa que você deseja executar.
+ms.openlocfilehash: 5b71f396a448904b40a5428c2ad5b499857d0690
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41797888"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49807991"
 ---
-# <a name="users-view-or-configure-pin-policy"></a>Usuários: Exibir ou Configurar Política PIN
+# <a name="users-view-or-configure-pin-policy"></a>Usuários: Exibir ou Configurar Política de PIN
  
-O que você deseja fazer? Clique no link da tarefa que você deseja executar.
+O que você deseja fazer? Clique no link para a tarefa que você deseja executar.
   
-- [Definir o PIN de conferência discada de um usuário no Skype for Business Server](../../../manage/authentication/set-a-user-s-dial-in-conferencing-pin.md)
+- [Definir PIN de conferência discada de um usuário no Skype for Business Server](../../../manage/authentication/set-a-user-s-dial-in-conferencing-pin.md)
     
  
 

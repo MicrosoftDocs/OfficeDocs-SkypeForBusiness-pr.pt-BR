@@ -1,8 +1,8 @@
 ---
-title: Configurar uma rota de região de rede criar nova ou editar existente
+title: Configurar uma Rota de Região de Rede Criar Nova ou Editar Existente
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,19 +14,19 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 694b3260-770f-489e-b2dd-cb8e026afdbe
 ROBOTS: NOINDEX, NOFOLLOW
-description: O que você deseja fazer? Clique no link da tarefa que você deseja executar.
-ms.openlocfilehash: ca91f22f10dd75161b2aa70d60a15591ac32df17
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: O que você deseja fazer? Clique no link para a tarefa que você deseja executar.
+ms.openlocfilehash: 9d4bbf15bc090c6ad7926dbb470be6b600266885
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41795482"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49808511"
 ---
 # <a name="configure-a-network-region-route-create-new-or-edit-existing"></a>Configurar uma Rota de Região de Rede: Criar Nova ou Editar Existente
 
-O que você deseja fazer? Clique no link da tarefa que você deseja executar.
+O que você deseja fazer? Clique no link para a tarefa que você deseja executar.
 
-- [Configurar rotas de região de rede](https://technet.microsoft.com/library/76993daa-76c2-4cec-8363-de8aebef0145.aspx)
+- [Configurando rotas de região de rede](https://technet.microsoft.com/library/76993daa-76c2-4cec-8363-de8aebef0145.aspx)
 
 
 

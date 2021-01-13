@@ -1,8 +1,8 @@
 ---
 title: Expansor de Configurações FQDN de Servidor de Borda para Lync Server 2010
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: eb57268c-2419-4655-ace1-91cf871f25c7
 description: 'Para definir as propriedades em Configurações externas, configure o seguinte:'
-ms.openlocfilehash: 2de4b562d5b6a8b8ef9707d603fe5f4667893ba4
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+ms.openlocfilehash: 6075fab9dbc820b725beec8be4a674a828b4c7d1
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48218242"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49807091"
 ---
 # <a name="edge-server-fqdn-settings-expander-for-lync-server-2010"></a>Expansor de Configurações FQDN de Servidor de Borda para Lync Server 2010
  
@@ -29,9 +29,9 @@ Para definir as propriedades em **Configurações externas**, configure o seguin
 Marque a caixa de seleção **Habilitar FQDN e endereço IP separados para webconferência e A/V** se quiser definir FQDN de Pool e endereços IP distintos para webconferência e áudio/vídeo.
   
 > [!NOTE]
-> Se você optar por não marcar a caixa de seleção para endereços IP e FQDN separados, deverá fornecer portas distintas para cada um dos três serviços fornecidos pelo servidor de borda. O único nome de domínio totalmente qualificado que é configurado é o FQDN associado ao serviço de borda de acesso. 
+> Se você optar por não marcar a caixa de seleção para FQDN e endereços IP separados, deverá fornecer portas distintas para cada um dos três serviços fornecidos pelo Servidor de Borda. O único nome de domínio totalmente qualificado que deve ser configurada é o FQDN associado ao serviço de Borda de Acesso. 
   
-Marque a caixa de seleção **serviço de borda a/v habilitado para NAT** se quiser que o serviço de borda a/v Use um endereço IP de conversão de endereços de rede (NAT) e configuração.
+Marque a caixa de seleção serviço de Borda **A/V** é habilitada para NAT se você quiser que o serviço de Borda A/V use um endereço IP nat (conversão de endereço de rede) e configuração.
   
 Para os serviços de Borda habilitados, digite um **FQDN de Pool** e uma porta em **Portas**
   

@@ -1,8 +1,8 @@
 ---
 title: Expansor de Configurações de Tronco
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 3d00e8f4-e599-4094-a4a1-34fd6e8a5580
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Para editar ou modificar as configurações de um tronco SIP, faça o seguinte:'
-ms.openlocfilehash: 97c1578418fdf46ad39256312d7aa15abd44ff84
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+ms.openlocfilehash: 43cce7d0e61cf2e2c4f5fa6e4bcb845fd63fbc03
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41797402"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49807531"
 ---
 # <a name="trunk-settings-expander"></a>Expansor de Configurações de Tronco
 
@@ -30,21 +30,21 @@ Para editar ou modificar as configurações de um tronco SIP, faça o seguinte:
 
  **Gateway PSTN associado**: selecione um gateway PSTN existente definido na implantação.
 
- **Porta de escuta para gateway IP/PSTN**: indica em qual porta TCP/IP o gateway escutará as solicitações. O valor necessário pode variar com base no fornecedor do gateway, mas o padrão é a porta 5067.
+ **Porta de escuta para o gateway IP/PSTN**: Indica em qual porta TCP/IP o gateway escutará as solicitações. O valor necessário pode variar com base no fornecedor do gateway, mas o padrão é a porta 5067.
 
- **Protocolo de Transporte SIP**: protocolo usado pode ser TCP ou TLS. TLS é o padrão. Consulte a documentação do fornecedor do gateway para saber o suporte incluído no seu gateway. Como o padrão é TLS, ele deve ser considerado a seleção mais segura, caso o gateway ofereça suporte para TLS.
+ **Protocolo de Transporte SIP**: o protocolo usado pode ser TCP ou TLS. TLS é o padrão. Consulte a documentação do fornecedor do gateway para saber o que seu gateway suporta. O padrão é TLS, e deve ser considerado a seleção mais segura, se o gateway suportar TLS.
 
- **Servidor de mediação associado**: selecione um servidor de mediação existente na implantação para associá-lo ao tronco SIP.
+ **Servidor de Mediação Associado:** selecione um Servidor de Mediação existente na implantação para associar ao tronco SIP.
 
 > [!NOTE]
-> Somente o tronco raiz podem ser associados a um servidor de mediação.
+> Somente o tronco raiz pode ser associado a um Servidor de Mediação.
 
- **Porta do servidor de mediação associada**: um valor obrigatório; isso é definido como o valor que o servidor de mediação está configurado para escuta.
+ **Porta do Servidor de Mediação** Associada: um valor obrigatório, é definido como o valor que o Servidor de Mediação está configurado para escutar.
 
 ![Expansor de Configurações de Tronco](../../../media/Trunk_Settings_Expander.jpg)
 
 ## <a name="see-also"></a>Confira também
 
-[Lista de verificação de implantação de entroncamento SIP](https://technet.microsoft.com/library/94f4f03e-19d5-4198-92be-e4076dbb959a.aspx)
+[Lista de verificação de implantação de tronco SIP](https://technet.microsoft.com/library/94f4f03e-19d5-4198-92be-e4076dbb959a.aspx)
 
-[Componentes e topologias para entroncamento SIP](https://technet.microsoft.com/library/8ed9a9d0-517e-4f36-a131-22cdafa257fa.aspx)
+[Componentes e topologias para tronco SIP](https://technet.microsoft.com/library/8ed9a9d0-517e-4f36-a131-22cdafa257fa.aspx)

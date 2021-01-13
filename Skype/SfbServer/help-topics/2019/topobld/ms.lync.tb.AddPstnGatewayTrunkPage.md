@@ -1,8 +1,8 @@
 ---
 title: Definir a árvore raiz para um novo IP ou gateway PSTN
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,27 +14,27 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 22203d9a-4612-45c7-9375-69ae9964ce1e
 ROBOTS: NOINDEX, NOFOLLOW
-description: 'Você define o tronco raiz para a rede telefônica pública comutada (PSTN) por IP, configurando o seguinte:'
-ms.openlocfilehash: 7920335c4d29b883be8d2076223425db103b605c
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: 'Defina o tronco raiz para o IP ou PSTN (rede telefônica pública comutada) configurando o seguinte:'
+ms.openlocfilehash: dae2078aea093f14e4cfd2642a98e73ec7eb4293
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41794350"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49807651"
 ---
-# <a name="define-the-root-trunk-for-a-new-ip-or-pstn-gateway"></a>Definir a árvore raiz para um novo IP ou gateway PSTN
+# <a name="define-the-root-trunk-for-a-new-ip-or-pstn-gateway"></a>Definir a Árvore Raiz para um Novo IP ou Gateway PSTN
 
-Você define o tronco raiz para a rede telefônica pública comutada (PSTN) por IP, configurando o seguinte:
+Defina o tronco raiz para o IP ou PSTN (rede telefônica pública comutada) configurando o seguinte:
 
-- **Nome do tronco**: definir o nome de domínio totalmente qualificado associado ao tronco
+- **Nome do tronco**: defina o nome de domínio totalmente qualificado associado ao tronco
 
-- **Porta de escuta do gateway IP/PSTN**: definir a porta na qual este tronco escutará
+- **Porta de escuta para gateway IP/PSTN:** defina a porta na qual este tronco escutará
 
-- **Protocolo de transporte SIP**: selecione na lista o **TCP** ou o **TLS**com base nos requisitos de tronco
+- **Protocolo de Transporte SIP**: selecione na lista **TCP** ou **TLS** com base nos requisitos de tronco
 
-- **Servidor de mediação associado**: selecione na lista de servidores de mediação disponíveis na sua implantação
+- **Servidor de Mediação Associado:** selecione na lista de Servidores de Mediação disponíveis em sua implantação
 
-- **Porta do servidor de mediação associada**: definir a porta na qual o servidor de mediação selecionado está ouvindo
+- **Porta do Servidor de Mediação** Associada: defina a porta na qual o Servidor de Mediação selecionado está escutando
 
 ## <a name="see-also"></a>Confira também
 
@@ -42,4 +42,4 @@ Você define o tronco raiz para a rede telefônica pública comutada (PSTN) por 
 
 [Configurar um tronco sem bypass de mídia no Skype for Business Server](../../../deploy/deploy-enterprise-voice/configure-trunk-without-media-bypass.md)
 
-[Suporte a entroncamento SIP](https://technet.microsoft.com/library/e3042831-e8d8-4ea2-baa2-1a697401ffa0.aspx)
+[Suporte a tronco SIP](https://technet.microsoft.com/library/e3042831-e8d8-4ea2-baa2-1a697401ffa0.aspx)

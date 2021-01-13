@@ -1,8 +1,8 @@
 ---
 title: Atribuir políticas de conferência no Skype for Business Server
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,20 +12,20 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: f384d19b-0950-4ec6-9d93-2c5958b83e71
 description: 'Resumo: saiba como atribuir políticas de conferência no Skype for Business Server.'
-ms.openlocfilehash: c5dfb9c2aa186bf199a066c82e3687aade564905
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.openlocfilehash: d13710d2cc4f6edf1cee16cbc9aa77799ceec8a4
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41818653"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49806471"
 ---
 # <a name="assign-conferencing-policies-in-skype-for-business-server"></a>Atribuir políticas de conferência no Skype for Business Server
  
 **Resumo:** Saiba como atribuir políticas de conferência no Skype for Business Server.
   
-Você pode atribuir políticas de conferência aos usuários usando o Shell de gerenciamento do Skype for Business Server e o cmdlet **Grant-CsConferencingPolicy** .
+É possível atribuir políticas de conferência aos usuários usando o Shell de Gerenciamento do Skype for Business Server e o cmdlet **Grant-CsConferencingPolicy.**
   
-## <a name="assign-conferencing-policies-by-using-skype-for-business-server-management-shell"></a>Atribuir políticas de conferência usando o Shell de gerenciamento do Skype for Business Server
+## <a name="assign-conferencing-policies-by-using-skype-for-business-server-management-shell"></a>Atribuir políticas de conferência usando o Shell de Gerenciamento do Skype for Business Server
 
 No exemplo a seguir, a política SalesConferencingPolicy é atribuída ao usuário com a Identidade "Ken Myer":
   
@@ -33,12 +33,12 @@ No exemplo a seguir, a política SalesConferencingPolicy é atribuída ao usuár
 Grant-CsConferencingPolicy -identity "Ken Myer" -PolicyName SalesConferencingPolicy
 ```
 
-Neste exemplo, a política de conferência FinanceConferencingPolicy é atribuída a todos os usuários que tenham contas na unidade organizacional Finance. Para atribuir a mesma política a todos os usuários em uma OU (unidade organizacional) específica, o cmdlet Get-CsUser é usado para recuperar todas as contas dessa OU. Depois que todas as contas de usuário são recuperadas, essas informações são canalizadas para o cmdlet Grant-CsConferencingPolicy, que atribui a política FinanceConferencingPolicy a todos os usuários da coleção.
+No próximo exemplo, a política de conferência FinanceConferencingPolicy é atribuída a todos os usuários que têm contas na unidade organizacional Finance. Para atribuir a mesma diretiva a todos os usuários em uma OU (unidade organizacional) específica, o cmdlet Get-CsUser é usado para recuperar todas as contas dessa OU. Depois que as contas de usuário são recuperadas, essas informações são canalizar para o cmdlet Grant-CsConferencingPolicy, que atribui a política FinanceConferencingPolicy a cada usuário no conjunto:
   
 ```PowerShell
 Get-CsUser -OU "ou=Finance,dc=litwareinc,dc=com" | Grant-CsConferencingPolicy -PolicyName FinanceConferencingPolicy
 ```
 
-Para obter mais informações, incluindo a sintaxe completa e uma lista de parâmetros, veja [Grant-CsConferencingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csconferencingpolicy?view=skype-ps).
+Para obter mais informações, incluindo sintaxe completa e uma lista de parâmetros, consulte [Grant-CsConferencingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csconferencingpolicy?view=skype-ps).
   
 

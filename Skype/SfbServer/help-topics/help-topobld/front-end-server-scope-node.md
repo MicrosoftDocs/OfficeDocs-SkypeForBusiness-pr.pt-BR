@@ -1,8 +1,8 @@
 ---
 title: Nó de Escopo de Servidor Front End
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/25/2015
 audience: ITPro
@@ -15,14 +15,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 16f6382d-1cbd-4656-b9cb-1adda13b97ae
 description: 'Este nó mostra as informações de configuração para este pool de Front-Ends ou servidor Standard Edition. É possível executar as seguintes ações:'
-ms.openlocfilehash: 44317a7d7afe4010e323dfb35fd29ac568abf01f
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+ms.openlocfilehash: 6068588800765ac3f1352655cbdb8d342d07aa85
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48215342"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49807001"
 ---
-# <a name="front-end-server-scope-node"></a>Nó de Escopo de Servidor Front End
+# <a name="front-end-server-scope-node"></a>Nó de Escopo de Servidor Front-end
  
 Este nó mostra as informações de configuração para este pool de Front-Ends ou servidor Standard Edition. Você pode realizar as seguintes ações:
   

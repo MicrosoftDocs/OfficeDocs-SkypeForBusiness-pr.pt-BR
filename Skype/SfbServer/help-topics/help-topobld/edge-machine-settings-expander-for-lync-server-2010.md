@@ -1,8 +1,8 @@
 ---
 title: Expansor de Configurações de Máquina de Borda para Lync Server 2010
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -14,35 +14,35 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: fb72a5b5-70f4-44af-8dfd-c5d32e563882
-description: 'Para editar as propriedades dos computadores do servidor de borda como um único servidor de borda ou como computadores membro em um pool de borda, você define o nome do servidor e as definições de configuração do endereço IP:'
-ms.openlocfilehash: eb2135391791fdb915578fe9938329b56c85908c
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+description: 'Para editar as propriedades dos computadores do Servidor de Borda como um único Servidor de Borda ou como computadores membros em um pool de Borda, você define as definições de configuração do nome do servidor e do endereço IP:'
+ms.openlocfilehash: e25f68ec510cf15cd58872a8c584dc71aa939f48
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48218922"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49807131"
 ---
 # <a name="edge-machine-settings-expander-for-lync-server-2010"></a>Expansor de Configurações de Máquina de Borda para Lync Server 2010
  
-Para editar as propriedades dos computadores do servidor de borda como um único servidor de borda ou como computadores membro em um pool de borda, você define o **nome do servidor e** as definições de configuração do endereço IP:
+Para editar as propriedades dos computadores do Servidor de Borda como um único Servidor de Borda ou como computadores membros em um pool de Borda, você define as definições de configuração do nome do servidor e **do endereço IP:**
   
 - **Nome interno ou FQDN**: digite o nome do computador da forma como ele é chamado pelo DNS. 
     
 - **Endereço IPv4 interno**: digite o endereço IPv4 da placa de interface de rede (NIC) interna desse computador.
     
-- Você configura o **Access Edge service** **endereço IPv4 externo** do serviço de borda de acesso associado a este computador
+- Configure o endereço **IPv4** **externo do** serviço de Borda de Acesso associado a este computador
     
     > [!IMPORTANT]
-    > Se você optou por usar um único endereço IP para a configuração do servidor de borda, só poderá editar o endereço IPv4 externo do serviço de borda de acesso. Os outros serviços de borda compartilharão o mesmo endereço IPv4 que o serviço de borda de acesso. 
+    > Se você selecionou usar um único endereço IP para a configuração do Servidor de Borda, só poderá editar o endereço IPv4 externo para o serviço de Borda de Acesso. Os outros serviços de Borda compartilharão o mesmo endereço IPv4 que o serviço de Borda de Acesso. 
   
-- Se estiver disponível para edição, configure o **serviço de Webconferência** do **endereço IPv4 externo** associado a este computador
+- Se disponível para edição, configure o endereço **IPv4** externo do serviço de **Webconferência** associado a este computador
     
-- Se estiver disponível para edição, configure o **endereço IPv4 externo** do **serviço de borda a/V** associado a este computador
+- Se estiver disponível para edição, configure o endereço **IPv4** externo do serviço de Borda **A/V** associado a este computador
     
 - Se estiver disponível para editar, configure o **Endereço IPv4 público habilitado por NAT** associado a esse computador.
     
     > [!IMPORTANT]
-    > A propriedade de configuração para o **endereço IPv4 público habilitado para NAT** só estará disponível para edição se você optar por fornecer conversão de endereço de rede (NAT) para o serviço de borda a/V
+    > A propriedade de configuração do endereço **IPv4** público habilitado para NAT só estará disponível para edição se você optar por fornecer NAT (conversão de endereço de rede) para o serviço de Borda A/V
   
   **OK** aceita e confirma as alterações na caixa de diálogo.
   

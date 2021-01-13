@@ -1,8 +1,8 @@
 ---
 title: Configurar o banco de dados de localização no Skype for Business Server
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -15,33 +15,33 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: fb84f5b6-c991-4893-bdbf-f195b4b7d28e
-description: Configurar, preencher e publicar o banco de dados de local E9-1-1 no Skype for Business Server Enterprise Voice.
-ms.openlocfilehash: 4b8848637130886250d08847c45df3c2dc080f5b
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+description: Configure, preencha e publique o banco de dados de localização do E9-1-1 no Skype for Business Server Enterprise Voice.
+ms.openlocfilehash: 70158864446c12b2e7636a2962aced05d87c49a0
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41768104"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49804081"
 ---
 # <a name="configure-the-location-database-in-skype-for-business-server"></a>Configurar o banco de dados de localização no Skype for Business Server
  
-Configurar, preencher e publicar o banco de dados de local E9-1-1 no Skype for Business Server Enterprise Voice. 
+Configure, preencha e publique o banco de dados de localização do E9-1-1 no Skype for Business Server Enterprise Voice. 
   
 Para que os clientes possam detectar automaticamente seu local na rede, primeiro configure o banco de dados de localização. 
   
-Para configurar o banco de dados local, execute as seguintes tarefas:
+Para configurar o banco de dados de localização, execute as seguintes tarefas:
   
-- Preencha o banco de dados com um mapeamento dos locais para os elementos de rede. Se você usar um gateway de número de identificação de localização de emergência (ELIN), precisará incluir o \<Elin\> no campo CompanyName.
+- Preencha o banco de dados com um mapeamento de elementos de rede para os locais. Se você usar um gateway ELIN (Número de Identificação de Local de Emergência), será necessário incluir o ELIN no \<CompanyName\> campo.
     
     Se você não preencher o banco de dados local e o **Local necessário** na Política de Localização está definido para **Sim** ou **Isenção de Responsabilidade**, o cliente solicitará que o usuário insira um local manualmente.
     
 - Valide os endereços em relação ao MSAG (catálogo de endereços principal) mantido pelo provedor de serviços de emergência.
     
-- Publique o banco de dados atualizado.
+- Publicar o banco de dados atualizado.
     
-## <a name="populate-the-location-database"></a>Preencher o banco de dados de local
+## <a name="populate-the-location-database"></a>Preencher o banco de dados de localização
 
-Para localizar clientes automaticamente em uma rede, primeiro você precisa preencher o banco de dados de localização com um mapa de conexões de rede, que mapeia os elementos de rede para endereços residenciais (ou seja, ruas). Você pode usar sub-redes, pontos de acesso sem fio, opções e portas para definir o mapa de conexões.
+Para localizar clientes automaticamente em uma rede, primeiro você precisa preencher o banco de dados de localização com um mapa de conexões de rede, que mapeia os elementos de rede para endereços residenciais (ou seja, ruas). Você pode usar subredes, pontos de acesso sem fio, opções e portas para definir o mapa de conexões.
   
 É possível adicionar endereços ao banco de dados local individualmente ou em massa usando um arquivo CSV contendo os formatos de coluna descritos na tabela a seguir.
   
@@ -49,14 +49,14 @@ Se você usa um gateway de número da chamada de emergência (Emergency Location
   
 |**Elemento de rede**|**Colunas obrigatórias**|
 |:-----|:-----|
-|**Ponto de acesso sem fio** <br/> |\<BSSID\>,\<Descrição\>,\<local\>,\<CompanyName\>,\<HouseNumber\>,\<HouseNumberSuffix\>,\<predirectional\>,...  <br/> ... \<Streetname\>,\<StreetSuffix\>,\<monodirecional\>,\<cidade\>,\<estado\>,\<CEP\>,\<país\>  <br/> |
-|**Sub-rede** <br/> |\<Sub-rede\>,\<Descrição\>,\<local\>,\<CompanyName\>,\<HouseNumber\>,\<HouseNumberSuffix\>,\<predirectional\>,...  <br/> ... \<Streetname\>,\<StreetSuffix\>,\<monodirecional\>,\<cidade\>,\<estado\>,\<CEP\>,\<país\>  <br/> |
-|**Porta** <br/> |\<ChassisID\>,\<PortIDSubType\>,\<portid\>,\<Description\>,\<Location\>,\<CompanyName\>,\<HouseNumber\>,\<HouseNumberSuffix\>,...  <br/> ... \<Predirectional\>,\<streetname\>,\<StreetSuffix\>,\<monodirecional\>,\<cidade\>,\<estado\>,\<CEP\>,\<país\>  <br/> |
-|**Opção** <br/> |\<ChassisID\>,\<Descrição\>,\<local\>,\<CompanyName\>,\<HouseNumber\>,\<HouseNumberSuffix\>,\<predirectional\>,...  <br/> ... \<Streetname\>,\<StreetSuffix\>,\<monodirecional\>,\<cidade\>,\<estado\>,\<CEP\>,\<país\>  <br/> |
+|**Ponto de acesso sem fio** <br/> |\<BSSID\>,\<Description\>,\<Location\>,\<CompanyName\>,\<HouseNumber\>,\<HouseNumberSuffix\>,\<PreDirectional\>,…  <br/> …\<StreetName\>,\<StreetSuffix\>,\<PostDirectional\>,\<City\>,\<State\>,\<PostalCode\>,\<Country\>  <br/> |
+|**Sub-rede** <br/> |\<Subnet\>,\<Description\>,\<Location\>,\<CompanyName\>,\<HouseNumber\>,\<HouseNumberSuffix\>,\<PreDirectional\>,…  <br/> …\<StreetName\>,\<StreetSuffix\>,\<PostDirectional\>,\<City\>,\<State\>,\<PostalCode\>,\<Country\>  <br/> |
+|**Port** <br/> |\<ChassisID\>,\<PortIDSubType\>,\<PortID\>,\<Description\>,\<Location\>,\<CompanyName\>,\<HouseNumber\>,\<HouseNumberSuffix\>,…  <br/> …\<PreDirectional\>,\<StreetName\>,\<StreetSuffix\>,\<PostDirectional\>,\<City\>,\<State\>,\<PostalCode\>,\<Country\>  <br/> |
+|**Switch** <br/> |\<ChassisID\>,\<Description\>,\<Location\>,\<CompanyName\>,\<HouseNumber\>,\<HouseNumberSuffix\>,\<PreDirectional\>,…  <br/> …\<StreetName\>,\<StreetSuffix\>,\<PostDirectional\>,\<City\>,\<State\>,\<PostalCode\>,\<Country\>  <br/> |
    
 ### <a name="to-add-network-elements-to-the-location-database"></a>Para adicionar elementos de rede no banco de dados de localização
 
-1. Execute o seguinte cmdlet para adicionar um local de sub-rede ao banco de dados de localização.
+1. Execute o seguinte cmdlet para adicionar um local de subrede ao banco de dados de localização.
     
    ```powershell
    Set-CsLisSubnet -Subnet 157.56.66.0 -Description "Subnet 1" -Location Location1 -CompanyName "Litware" -HouseNumber 1234 -HouseNumberSuffix "" -PreDirectional "" -StreetName 163rd -StreetSuffix Ave -PostDirectional NE -City Redmond -State WA -PostalCode 99123 -Country US
@@ -68,7 +68,7 @@ Se você usa um gateway de número da chamada de emergência (Emergency Location
    Set-CsLisSubnet -Subnet 157.56.66.0 -Description "Subnet 1" -Location Location1 -CompanyName 425-555-0100; 425-555-0200; 425-555-0300 -HouseNumber 1234 -HouseNumberSuffix "" -PreDirectional "" -StreetName 163rd -StreetSuffix Ave -PostDirectional NE -City Redmond -State WA -PostalCode 99123 -Country US
    ```
 
-    Alternativamente, é possível executar os cmdlets a seguir e usar um arquivo denominado "subnets.csv" para atualização em massa de locais de sub-rede.
+    Alternativamente, é possível executar os cmdlets a seguir e usar um arquivo denominado "subnets.csv" para atualização em massa de locais de subrede.
     
    ```powershell
    $g = Import-Csv subnets.csv
@@ -120,7 +120,7 @@ Se você usa um gateway de número da chamada de emergência (Emergency Location
 
 ### <a name="to-validate-addresses-located-in-the-location-database"></a>Para validar endereços localizados no banco de dados de localização
 
-1.  Inicie o Shell de Gerenciamento do Skype for Business Server: clique em **Iniciar**, em **Todos os Programas**, em **Skype for Business 2015** e em **Shell de Gerenciamento do Skype for Business Server**.
+1.  Inicie o Shell de Gerenciamento do Skype for Business Server: Clique em **Iniciar,** Em Todos os **Programas,** no **Skype for Business 2015** e, em seguida, clique no Shell de Gerenciamento do **Skype for Business Server.**
     
 2. Execute os cmdlets a seguir para configurar a conexão com o provedor de serviços de emergência.
     
@@ -137,17 +137,17 @@ Se você usa um gateway de número da chamada de emergência (Emergency Location
 
    Você também pode usar o cmdlet **Test-CsLisCivicAddress** para validar endereços individuais.
     
-## <a name="publish-the-location-database"></a>Publicar o banco de dados de local
+## <a name="publish-the-location-database"></a>Publicar o banco de dados de localização
 
-Os novos locais adicionados ao banco de dados de local não serão disponibilizados para o cliente até que sejam publicados.
+Os novos locais adicionados ao banco de dados de localização não serão disponibilizados para o cliente até que sejam publicados.
   
-Se você usar gateways ELIN, também é necessário carregar os ELINs para o banco de dados ALI da transportadora PSTN. Sua transportadora PSTN pode exigir que você use um formato específico para os registros ELIN. Entre em contato com sua transportadora PSTN para obter detalhes. Você pode exportar os registros do banco de dados do serviço de informações de localização e formatá-los conforme necessário.
+Se você usar gateways ELIN (Número de Identificação de Local de Emergência), também precisará carregar os ELINs no banco de dados ALI (Identificação de Local Automática) da operadora PSTN. Sua operadora PSTN pode exigir que você use um formato específico para os registros ELIN. Entre em contato com sua operadora PSTN para obter detalhes. Você pode exportar os registros do banco de dados do serviço de Informações de Local e formatá-los conforme necessário.
   
-### <a name="to-publish-the-location-database"></a>Para publicar o banco de dados local
+### <a name="to-publish-the-location-database"></a>Para publicar o banco de dados de localização
 
--  Inicie o Shell de Gerenciamento do Skype for Business Server: clique em **Iniciar**, em **Todos os Programas**, em **Skype for Business 2015** e em **Shell de Gerenciamento do Skype for Business Server**.
+-  Inicie o Shell de Gerenciamento do Skype for Business Server: Clique em **Iniciar,** Em Todos os **Programas,** no **Skype for Business 2015** e, em seguida, clique no Shell de Gerenciamento do **Skype for Business Server.**
     
-- Execute o seguinte cmdlet para publicar o banco de dados local.
+- Execute o cmdlet a seguir para publicar o banco de dados de localização.
     
   ```powershell
   Publish-CsLisConfiguration

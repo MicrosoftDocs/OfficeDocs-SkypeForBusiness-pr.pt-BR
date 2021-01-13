@@ -1,8 +1,8 @@
 ---
 title: Nó de Escopo de Tronco
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,26 +14,26 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6561236d-fe30-451d-ac74-7545eb98267a
 ROBOTS: NOINDEX, NOFOLLOW
-description: 'Você clica com o botão direito do mouse em um tronco SIP existente no construtor de topologias para executar o seguinte:'
-ms.openlocfilehash: cae913dadf25a9931c626be6d15b839eb4520c3c
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: 'Clique com o botão direito do mouse em um tronco SIP existente no Construtor de Topologias para executar o seguinte:'
+ms.openlocfilehash: 3b1d27e08c947d8558c888f2dd0ee5d2b59f1a66
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41795080"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49807521"
 ---
 # <a name="trunk-scope-node"></a>Nó de Escopo de Tronco
  
-Você clica com o botão direito do mouse em um tronco SIP existente no construtor de topologias para executar o seguinte:
+Clique com o botão direito do mouse em um tronco SIP existente no Construtor de Topologias para executar o seguinte:
   
-- **Editar Propriedades**: inicia o assistente **Editar Propriedades** usado para editar ou redefinir a configuração de um tronco SIP existente
+- **Editar Propriedades:** inicia o assistente **Editar Propriedades** usado para editar ou redefinir a configuração de um tronco SIP existente
     
 Além da opção Editar Propriedades, você pode executar as seguintes tarefas gerais:
   
-- **Topologia**. É possível usar essa opção para definir uma nova topologia, abrir uma topologia existente, baixar a topologia atual, salvar uma cópia da topologia, publicar a topologia, instalar um banco de dados, mesclar os componentes de versões anteriores do Lync Server ou remover a implantação.
+- **Topologia**. Você pode usar essa opção para definir uma nova topologia, abrir uma topologia existente, baixar a topologia atual, salvar uma cópia da topologia, publicar a topologia, instalar um banco de dados, mesclar componentes de versões anteriores do Lync Server ou remover a implantação.
     
-- **Excluir** Use essa seleção para remover o item selecionado no momento. Outras dependências podem impedir a exclusão. Uma caixa de diálogo indicará quais serviços e dependências precisarão ser resolvidos antes de o item pode ser removido.
+- **Excluir** Use essa seleção para remover o item selecionado no momento. Outras dependências podem impedir a exclusão. Uma caixa de diálogo indicará quais serviços e dependências precisam ser resolvidos antes que o item possa ser removido.
     
-- **Ajuda**. Você pode usar essa opção para acessar a Ajuda do nó ativo.
+- **Ajuda**. Você pode usar esta opção para acessar a Ajuda para o nó ativo.
     
 

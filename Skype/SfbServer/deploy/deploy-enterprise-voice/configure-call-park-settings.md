@@ -1,8 +1,8 @@
 ---
-title: Configurar as definições do parque de chamadas no Skype for Business
+title: Definir configurações de Estacionamento de Chamada no Skype for Business
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -15,19 +15,19 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 3bed9d09-8363-4fff-a220-f0f6d3a81241
-description: Modifique as configurações do parque de chamadas no Skype for Business Server Enterprise Voice.
-ms.openlocfilehash: e9410d3b088e5978588de991aeaa9da73327f50a
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+description: Modificar as configurações de Estacionamento de Chamada no Skype for Business Server Enterprise Voice.
+ms.openlocfilehash: 2380c9b505ceef6ac5f4bbe04996bfdf611de39c
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41768124"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49804111"
 ---
-# <a name="configure-call-park-settings-in-skype-for-business"></a>Configurar as definições do parque de chamadas no Skype for Business
+# <a name="configure-call-park-settings-in-skype-for-business"></a>Definir configurações de Estacionamento de Chamada no Skype for Business
 
-Modifique as configurações do parque de chamadas no Skype for Business Server Enterprise Voice.
+Modificar as configurações de Estacionamento de Chamada no Skype for Business Server Enterprise Voice.
 
-Se não quiser usar as configurações padrão de estacionamento de chamadas, você poderá personalizá-las. Quando você instala o aplicativo de estacionamento de chamada, as configurações globais são configuradas por padrão. É possível modificar as configurações globais e também especificar configurações específicas do site. Use o cmdlet **New-CsCpsConfiguration** para criar configurações específicas do site. Use o cmdlet **Set-CsCpsConfiguration** para modificar as configurações existentes.
+Se você não quiser usar as configurações padrão de Estacionamento de Chamada, poderá personalizá-las. Quando você instala o aplicativo Estacionamento de Chamada, as configurações globais são configuradas por padrão. É possível modificar as configurações globais e também especificar configurações específicas do site. Use o cmdlet **New-CsCpsConfiguration** para criar configurações específicas do site. Use o cmdlet **Set-CsCpsConfiguration** para modificar as configurações existentes.
 
 > [!NOTE]
 > No mínimo, recomendamos configurar a opção **OnTimeoutURI** para o destino de fallback a ser usado quando uma chamada estacionada excede o tempo limite e o retorno de toque falha.
@@ -42,9 +42,9 @@ Use os cmdets **New-CsCpsConfiguration** ou **Set-CsCpsConfiguration** para defi
 | **MaxCallPickupAttempts** <br/>      | O número de vezes que uma chamada estacionada retorna o toque para o telefone de resposta antes de ser encaminhada para o URI (Uniform Resource Identifier) de fallback que é especificado para **OnTimeoutURI**. O padrão é 1.<br/>                                                                                                                         |
 | **OnTimeoutURI** <br/>               | O endereço SIP do usuário ou grupo de resposta para o qual uma chamada estacionada não atendida é roteada quando **MaxCallPickupAttempts** é excedido. <br/> O valor deve ser um URI do SIP que começa com a cadeia de caracteres sip:. Por exemplo, sip:bob@contoso.com. O padrão é nenhum endereço de encaminhamento.<br/>                                                   |
 
-### <a name="to-configure-call-park-settings"></a>Para configurar as configurações do estacionamento de chamadas
+### <a name="to-configure-call-park-settings"></a>Para definir as configurações de Estacionamento de Chamada
 
-1. Inicie o Shell de Gerenciamento do Skype for Business Server: clique em **Iniciar**, em **Todos os Programas**, em **Skype for Business 2015** e em **Shell de Gerenciamento do Skype for Business Server**.
+1. Inicie o Shell de Gerenciamento do Skype for Business Server: clique em **Iniciar,** em Todos os **Programas,** no **Skype for Business 2015** e, em seguida, clique no Shell de Gerenciamento do **Skype for Business Server.**
 
 2. Execute:
 
@@ -53,7 +53,7 @@ Use os cmdets **New-CsCpsConfiguration** ou **Set-CsCpsConfiguration** para defi
    ```
 
    > [!TIP]
-   > Use o cmdlet **Get-CsSite** para identificar o site. Para obter detalhes, consulte a documentação do Shell de gerenciamento do Skype for Business Server.
+   > Use o cmdlet **Get-CsSite** para identificar o site. Para obter detalhes, consulte a documentação do Shell de Gerenciamento do Skype for Business Server.
 
     Por exemplo:
 
@@ -63,7 +63,7 @@ Use os cmdets **New-CsCpsConfiguration** ou **Set-CsCpsConfiguration** para defi
 
 ## <a name="see-also"></a>Confira também
 
-[Personalizar a música de espera do estacionamento de chamadas no Skype for Business 2015](customize-call-park-music-on-hold.md)
+[Personalizar a música de espera do Estacionamento de Chamada noSkype for Business 2015](customize-call-park-music-on-hold.md)
 
 [New-CsCpsConfiguration](https://docs.microsoft.com/powershell/module/skype/new-cscpsconfiguration?view=skype-ps)
 

@@ -1,8 +1,8 @@
 ---
-title: Política de conferência
+title: Política de Conferência
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -14,33 +14,33 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 90eaa64e-369e-448d-bac4-2574c7c598b8
-description: A política de conferência define os recursos e as funcionalidades que os usuários disponibilizam durante uma conferência (também conhecida como reunião).
-ms.openlocfilehash: 7ff058057300dfa21013f3f6bf3784ab64d5032f
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: A política de conferência define os recursos e capacidades disponíveis aos usuários durante uma conferência (também conhecida como reunião).
+ms.openlocfilehash: a7b85fc8aa4365f3431e9aa3a7a9849c5d9e22c2
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41823024"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49807391"
 ---
-# <a name="conferencing-policy"></a>Política de conferência
+# <a name="conferencing-policy"></a>Política de Conferência
 
-A política de conferência define os recursos e as funcionalidades que os usuários disponibilizam durante uma conferência (também conhecida como reunião).
+A política de conferência define os recursos disponibilizados aos usuários durante uma conferência (também conhecida como reunião).
 
-As políticas de conferência incluem a política global e, opcionalmente, uma ou mais políticas de site e de usuário:
+As políticas de conferência incluem a política global e, como opção, uma ou mais políticas de site e de usuário:
 
-- **Política global:** A política global é criada por padrão. É possível editar a política global, mas não é possível excluí-la. Se você tentar remover a política global, todas as configurações serão redefinidas para os valores padrão.
+- **Política global:** A política global é criada por padrão. É possível editar a política global, mas não é possível exclui-la. Se você tentar remover a política global, todas as configurações serão redefinidas para os valores padrão.
 
-- **Políticas de site (opcional):** Você pode criar uma ou mais políticas de webconferência, cada uma se aplica a um site específico. As políticas de site substituem a política global.
+- **Políticas de site (opcional):** Você pode criar uma ou mais políticas de conferência de site, cada uma delas se aplicando a um site específico. As políticas de site substituem a política global.
 
-- **Políticas de usuário (opcional):** Você pode criar uma ou mais políticas de conferência do usuário, cada uma se aplica a um usuário ou grupo de usuários específico. As políticas de usuário substituem a política global e as políticas de site.
+- **Políticas de usuário (opcional):** Você pode criar uma ou mais políticas de conferência de usuário, cada uma delas se aplicando a um usuário ou grupo de usuários específico. As políticas de usuário substituem a política global e as políticas de site.
 
-A página **política de conferência** exibe uma lista de todas as políticas de conferência definidas para a sua organização.
+A página **Política de Conferência** exibe uma lista de todas as políticas de conferência definidas para sua organização.
 
 ## <a name="tasks-you-can-perform"></a>Tarefas que podem ser executadas
 
-É possível executar as seguintes tarefas na página  **Política de Local**:
+É possível executar as seguintes tarefas na página **Política de Local**:
 
-- Criar uma nova política de conferência de site ou política de conferência do usuário
+- Criar uma nova política de conferência de site ou uma política de conferência de usuário
 
 - Alterar a política global ou uma política de site existente ou política de usuário
 
@@ -50,14 +50,14 @@ A página **política de conferência** exibe uma lista de todas as políticas d
 
 A lista a seguir descreve os comandos na página.
 
-- **Novo** Inicia uma nova política de conferência de site ou política de conferência do usuário.
+- **Novo** Inicia uma nova política de conferência de site ou política de conferência de usuário.
 
-- **Editar** Abre a política de conferência selecionada para editá-la, seleciona todas as políticas de conferência na lista ou exclui a política de site ou a política de usuário selecionada.
+- **Editar** Abre a política de conferência selecionada para editá-la, seleciona todas as políticas de conferência na lista ou exclui a política de site ou política de usuário selecionada.
 
     > [!NOTE]
     > Para a política global, **Excluir** redefine as configurações para os valores padrão.
 
-- **Atualização** Atualiza a lista de políticas de conferência.
+- **Atualizar** Atualiza a lista de políticas de conferência.
 
 A lista a seguir descreve os campos na página.
 
@@ -65,18 +65,18 @@ A lista a seguir descreve os campos na página.
 
 - **Escopo** Identifica o escopo da política de conferência: global, site ou usuário.
 
-- **Colaboração de dados** Marcada se a política de conferência especifica que a colaboração de dados é permitida em conferências.
+- **Colaboração de dados** Verifica se a política de conferência especifica se a colaboração de dados é permitida em conferências.
 
-- **Compartilhamento de aplicativos** Marcada se a política de conferência especifica que o compartilhamento de aplicativos é permitido em conferências.
+- **Compartilhamento de aplicativos** Verifica se a política de conferência especifica se o compartilhamento de aplicativos é permitido em conferências.
 
-- **Áudio** Marcada se a política de conferência especifica que o áudio é permitido em conferências.
+- **Áudio** Verifica se a política de conferência especifica se o áudio é permitido em conferências.
 
-- **Vídeo** Marcada se a política de conferência especifica que o vídeo é permitido em conferências.
+- **Vídeo** Verifica se a política de conferência especifica se o vídeo é permitido em conferências.
 
-- **PSTN** Verificado se a política de conferência especifica que a conferência discada PSTN é permitida.
+- **PSTN** Verifica se a política de conferência especifica se a conferência discado PSTN é permitida.
 
-- **Gravação** Marcada se a política de conferência especifica que a gravação é permitida em conferências.
+- **Gravação** Verifica se a política de conferência especifica se a gravação é permitida em conferências.
 
-Para obter detalhes sobre recursos de conferência, consulte [Overview of Conferencing](https://technet.microsoft.com/library/5bb90e69-3d4f-4d59-a1ee-2550de84439f.aspx) na documentação Planejamento. Para obter detalhes sobre como trabalhar com políticas de conferência, consulte  [Conferencing Policies](https://technet.microsoft.com/library/8f92eb7c-ee66-4df6-a726-4bff93b122cb.aspx) na documentação Operações.
+Para obter detalhes sobre recursos de conferência, consulte [Overview of Conferencing](https://technet.microsoft.com/library/5bb90e69-3d4f-4d59-a1ee-2550de84439f.aspx) na documentação Planejamento. Para obter detalhes sobre como trabalhar com políticas de conferência, consulte [Conferencing Policies](https://technet.microsoft.com/library/8f92eb7c-ee66-4df6-a726-4bff93b122cb.aspx) na documentação Operações.
 
 
