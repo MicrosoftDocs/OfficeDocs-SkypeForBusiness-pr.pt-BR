@@ -1,8 +1,8 @@
 ---
 title: tblPrincipalInvites
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -12,33 +12,33 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 548ec156-4d1a-469d-a804-62cff226e5c2
-description: tblPrincipalInvites contém convites para todos os usuários provisionados para todos os nós com convite automático ativado.
-ms.openlocfilehash: dfa41ec5715c7c5255b26fcdb32561e74c4f08df
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: O tblPrincipalInvites inclui convites para todos os usuários provisionados de todos os nós com a opção de convite automático ativada.
+ms.openlocfilehash: 5bbccd582442001bd2122dcbacdbe3634fcfd649
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41814179"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49815851"
 ---
-# <a name="tblprincipalinvites"></a><span data-ttu-id="d2df9-103">tblPrincipalInvites</span><span class="sxs-lookup"><span data-stu-id="d2df9-103">tblPrincipalInvites</span></span>
+# <a name="tblprincipalinvites"></a><span data-ttu-id="228d8-103">tblPrincipalInvites</span><span class="sxs-lookup"><span data-stu-id="228d8-103">tblPrincipalInvites</span></span>
  
-<span data-ttu-id="d2df9-104">tblPrincipalInvites contém convites para todos os usuários provisionados para todos os nós com convite automático ativado.</span><span class="sxs-lookup"><span data-stu-id="d2df9-104">tblPrincipalInvites contains invitations for all provisioned users for all nodes with auto-invite on.</span></span>
+<span data-ttu-id="228d8-104">O tblPrincipalInvites inclui convites para todos os usuários provisionados de todos os nós com a opção de convite automático ativada.</span><span class="sxs-lookup"><span data-stu-id="228d8-104">tblPrincipalInvites contains invitations for all provisioned users for all nodes with auto-invite on.</span></span>
   
-<span data-ttu-id="d2df9-105">**Colunas**</span><span class="sxs-lookup"><span data-stu-id="d2df9-105">**Columns**</span></span>
+<span data-ttu-id="228d8-105">**Columns**</span><span class="sxs-lookup"><span data-stu-id="228d8-105">**Columns**</span></span>
 
-|<span data-ttu-id="d2df9-106">**Coluna**</span><span class="sxs-lookup"><span data-stu-id="d2df9-106">**Column**</span></span>|<span data-ttu-id="d2df9-107">**Tipo**</span><span class="sxs-lookup"><span data-stu-id="d2df9-107">**Type**</span></span>|<span data-ttu-id="d2df9-108">**Descrição**</span><span class="sxs-lookup"><span data-stu-id="d2df9-108">**Description**</span></span>|
+|<span data-ttu-id="228d8-106">**Coluna**</span><span class="sxs-lookup"><span data-stu-id="228d8-106">**Column**</span></span>|<span data-ttu-id="228d8-107">**Tipo**</span><span class="sxs-lookup"><span data-stu-id="228d8-107">**Type**</span></span>|<span data-ttu-id="228d8-108">**Descrição**</span><span class="sxs-lookup"><span data-stu-id="228d8-108">**Description**</span></span>|
 |:-----|:-----|:-----|
-|<span data-ttu-id="d2df9-109">multiimprimir</span><span class="sxs-lookup"><span data-stu-id="d2df9-109">prinID</span></span>  <br/> |<span data-ttu-id="d2df9-110">int, não nulo</span><span class="sxs-lookup"><span data-stu-id="d2df9-110">int, not null</span></span>  <br/> |<span data-ttu-id="d2df9-111">ID da entidade de segurança.</span><span class="sxs-lookup"><span data-stu-id="d2df9-111">Principal ID.</span></span>  <br/> |
-|<span data-ttu-id="d2df9-112">invID</span><span class="sxs-lookup"><span data-stu-id="d2df9-112">invID</span></span>  <br/> |<span data-ttu-id="d2df9-113">int, não nulo</span><span class="sxs-lookup"><span data-stu-id="d2df9-113">int, not null</span></span>  <br/> |<span data-ttu-id="d2df9-114">Número seqüencial exclusivo (por ID da entidade) gerado pela tabela tblLastInviteId.</span><span class="sxs-lookup"><span data-stu-id="d2df9-114">Unique sequential number (per principal ID) generated from tblLastInviteId table.</span></span>  <br/> |
-|<span data-ttu-id="d2df9-115">NodeId</span><span class="sxs-lookup"><span data-stu-id="d2df9-115">nodeID</span></span>  <br/> |<span data-ttu-id="d2df9-116">int, não nulo</span><span class="sxs-lookup"><span data-stu-id="d2df9-116">int, not null</span></span>  <br/> |<span data-ttu-id="d2df9-117">ID do nó (somente sala de chat).</span><span class="sxs-lookup"><span data-stu-id="d2df9-117">Node ID (chat room only).</span></span>  <br/> |
-|<span data-ttu-id="d2df9-118">criar</span><span class="sxs-lookup"><span data-stu-id="d2df9-118">createdOn</span></span>  <br/> |<span data-ttu-id="d2df9-119">DateTime, não nulo</span><span class="sxs-lookup"><span data-stu-id="d2df9-119">datetime, not null</span></span>  <br/> |<span data-ttu-id="d2df9-120">Hora da criação.</span><span class="sxs-lookup"><span data-stu-id="d2df9-120">Time of creation.</span></span>  <br/> |
+|<span data-ttu-id="228d8-109">prinID</span><span class="sxs-lookup"><span data-stu-id="228d8-109">prinID</span></span>  <br/> |<span data-ttu-id="228d8-110">int, não nulo</span><span class="sxs-lookup"><span data-stu-id="228d8-110">int, not null</span></span>  <br/> |<span data-ttu-id="228d8-111">ID principal.</span><span class="sxs-lookup"><span data-stu-id="228d8-111">Principal ID.</span></span>  <br/> |
+|<span data-ttu-id="228d8-112">invID</span><span class="sxs-lookup"><span data-stu-id="228d8-112">invID</span></span>  <br/> |<span data-ttu-id="228d8-113">int, não nulo</span><span class="sxs-lookup"><span data-stu-id="228d8-113">int, not null</span></span>  <br/> |<span data-ttu-id="228d8-114">Número sequencial exclusivo (por ID de entidade) gerado a partir da tabela tblLastInviteId.</span><span class="sxs-lookup"><span data-stu-id="228d8-114">Unique sequential number (per principal ID) generated from tblLastInviteId table.</span></span>  <br/> |
+|<span data-ttu-id="228d8-115">nodeID</span><span class="sxs-lookup"><span data-stu-id="228d8-115">nodeID</span></span>  <br/> |<span data-ttu-id="228d8-116">int, não nulo</span><span class="sxs-lookup"><span data-stu-id="228d8-116">int, not null</span></span>  <br/> |<span data-ttu-id="228d8-117">ID de nó (somente sala de chat).</span><span class="sxs-lookup"><span data-stu-id="228d8-117">Node ID (chat room only).</span></span>  <br/> |
+|<span data-ttu-id="228d8-118">createdOn</span><span class="sxs-lookup"><span data-stu-id="228d8-118">createdOn</span></span>  <br/> |<span data-ttu-id="228d8-119">datetime, não nulo</span><span class="sxs-lookup"><span data-stu-id="228d8-119">datetime, not null</span></span>  <br/> |<span data-ttu-id="228d8-120">Hora da criação.</span><span class="sxs-lookup"><span data-stu-id="228d8-120">Time of creation.</span></span>  <br/> |
    
-<span data-ttu-id="d2df9-121">**As**</span><span class="sxs-lookup"><span data-stu-id="d2df9-121">**Keys**</span></span>
+<span data-ttu-id="228d8-121">**Teclas**</span><span class="sxs-lookup"><span data-stu-id="228d8-121">**Keys**</span></span>
 
-|<span data-ttu-id="d2df9-122">**Coluna**</span><span class="sxs-lookup"><span data-stu-id="d2df9-122">**Column**</span></span>|<span data-ttu-id="d2df9-123">**Descrição**</span><span class="sxs-lookup"><span data-stu-id="d2df9-123">**Description**</span></span>|
+|<span data-ttu-id="228d8-122">**Coluna**</span><span class="sxs-lookup"><span data-stu-id="228d8-122">**Column**</span></span>|<span data-ttu-id="228d8-123">**Descrição**</span><span class="sxs-lookup"><span data-stu-id="228d8-123">**Description**</span></span>|
 |:-----|:-----|
-|<span data-ttu-id="d2df9-124">\<, NodeId\></span><span class="sxs-lookup"><span data-stu-id="d2df9-124">\<prinID, nodeID\></span></span>  <br/> |<span data-ttu-id="d2df9-125">Chave primária.</span><span class="sxs-lookup"><span data-stu-id="d2df9-125">Primary key.</span></span>  <br/> |
-|<span data-ttu-id="d2df9-126">multiimprimir</span><span class="sxs-lookup"><span data-stu-id="d2df9-126">prinID</span></span>  <br/> |<span data-ttu-id="d2df9-127">Chave estrangeira com Lookup na tabela tblPrincipal. retoid.</span><span class="sxs-lookup"><span data-stu-id="d2df9-127">Foreign key with lookup in tblPrincipal.prinID table.</span></span>  <br/> |
-|<span data-ttu-id="d2df9-128">NodeId</span><span class="sxs-lookup"><span data-stu-id="d2df9-128">nodeID</span></span>  <br/> |<span data-ttu-id="d2df9-129">Chave estrangeira com Lookup na tabela tblNode. NodeId.</span><span class="sxs-lookup"><span data-stu-id="d2df9-129">Foreign key with lookup in tblNode.nodeID table.</span></span>  <br/> |
+|\<prinID, nodeID\>  <br/> |<span data-ttu-id="228d8-124">Chave primária.</span><span class="sxs-lookup"><span data-stu-id="228d8-124">Primary key.</span></span>  <br/> |
+|<span data-ttu-id="228d8-125">prinID</span><span class="sxs-lookup"><span data-stu-id="228d8-125">prinID</span></span>  <br/> |<span data-ttu-id="228d8-126">Chave estrangeira com pesquisa na tabela tblPrincipal.prinID.</span><span class="sxs-lookup"><span data-stu-id="228d8-126">Foreign key with lookup in tblPrincipal.prinID table.</span></span>  <br/> |
+|<span data-ttu-id="228d8-127">nodeID</span><span class="sxs-lookup"><span data-stu-id="228d8-127">nodeID</span></span>  <br/> |<span data-ttu-id="228d8-128">Chave estrangeira com pesquisa na tabela tblNode.nodeID.</span><span class="sxs-lookup"><span data-stu-id="228d8-128">Foreign key with lookup in tblNode.nodeID table.</span></span>  <br/> |
    
 
