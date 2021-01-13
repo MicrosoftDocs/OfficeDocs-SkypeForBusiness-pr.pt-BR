@@ -1,8 +1,8 @@
 ---
 title: Início da Mesclagem Herdada
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,16 +14,16 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 04f160cf-13c3-4d9d-80ab-78908fe86abe
 ROBOTS: NOINDEX, NOFOLLOW
-description: Para começar a mesclar uma implantação herdada com o Skype for Business Server, clique em Avançar.
-ms.openlocfilehash: a22a54aed078ff9327ec21c4d8f28e0ed6e20b82
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: Para começar a mesclar uma implantação herdada com o Skype for Business Server, clique em Próximo.
+ms.openlocfilehash: 0518b045fc5b7333fc092391a03e53f1854e535d
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41796280"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49835641"
 ---
-# <a name="legacy-merge-start"></a>Início da Mesclagem Herdada
+# <a name="legacy-merge-start"></a>Início da Mesclagem de Legado
  
-Para começar a mesclar uma implantação herdada com o Skype for Business Server, clique em **Avançar**. 
+Para começar a mesclar uma implantação herdada com o Skype for Business Server, clique em **Próximo.** 
   
 

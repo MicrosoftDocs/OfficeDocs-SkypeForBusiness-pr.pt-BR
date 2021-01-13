@@ -1,8 +1,8 @@
 ---
 title: Expansor de Configurações Gerais de Diretor
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2026d0dd-6745-4e53-8b44-acdc378b47d1
 description: 'Para editar as configurações de um Diretor existente, é possível usar as seguintes seções:'
-ms.openlocfilehash: 261593cd7b1f8f79588462cb57eb8ecc517dd4a3
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+ms.openlocfilehash: b7478779e54a7860726ae967eb1e203625c8b17b
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48218982"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49835331"
 ---
 # <a name="director-general-settings-expander"></a>Expansor de Configurações Gerais de Diretor
  
@@ -38,7 +38,7 @@ Nome de domínio totalmente qualificado (FQDN) do Diretor. Edite o FQDN do servi
   
 Em **Associações** você pode editar ou especificar:
   
-Compartilhamento de arquivo para o pool de Diretores a ser usado. Selecione um compartilhamento de arquivo existente que já tenha sido definido no construtor de topologias ou clique em **novo** para criar uma nova definição de compartilhamento de arquivos.
+Compartilhamento de arquivo para o pool de Diretores a ser usado. Selecione um compartilhamento de arquivos existente que já tenha sido definido no Construtor de Topologias ou clique em **Novo** para criar uma nova definição de compartilhamento de arquivo.
   
 Monitorando o SQL Server Store.
   
@@ -52,7 +52,7 @@ Para editar ou especificar configurações adicionais para os Serviços Web no p
 Para **Serviços Web internos**, é possível especificar o seguinte:
   
 > [!CAUTION]
-> Se você tiver mais de um pool de front-ends ou servidor front-end, o FQDN de serviços Web externos deverá ser exclusivo. Por exemplo, se você definir o FQDN de serviços Web externos de um servidor front-end como **pool01.contoso.com**, não será possível usar o **pool01.contoso.com** para outro pool de front-ends ou servidor front-end. Se você também estiver implantando diretores, o FQDN de serviços Web externos definido para qualquer diretor ou pool de diretores deverá ser exclusivo de qualquer outro diretor ou pool de diretores, bem como de qualquer pool de front-ends ou servidor front-end. Se você decidir substituir os serviços Web internos por um FQDN autodefinido, cada FQDN deverá ser exclusivo de qualquer outro pool de front-ends, diretor ou um pool de diretores.
+> Se você tiver mais de um pool de Front-End ou Servidor Front End, o FQDN dos serviços Web externos deverá ser exclusivo. Por exemplo, se você definir o FQDN de serviços Web externos de um Servidor front-end como **pool01.contoso.com**, não poderá usar o **pool01.contoso.com** para outro pool de front-end ou servidor front-end. Se você também estiver implantando Diretores, o FQDN de serviços Web externos definido para qualquer Diretor ou pool de Diretores deverá ser exclusivo de qualquer outro Diretor ou pool de Diretores, bem como de qualquer pool de Front-End ou Servidor Front-End. Se você decidir substituir os serviços Web internos por um FQDN autodefina, cada FQDN deverá ser exclusivo de qualquer outro pool de Front-End, Diretor ou pool de Diretores.
   
 Se você selecionou Substituir FQDN, poderá especificar um FQDN diferente para a identidade dos Serviços Web internos no pool. Por padrão, a configuração é o nome do pool atual, conforme definido para o pool de Diretores.
   

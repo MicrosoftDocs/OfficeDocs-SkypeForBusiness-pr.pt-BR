@@ -1,8 +1,8 @@
 ---
 title: Configurações de Segurança de Serviços Web
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,19 +14,19 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 4ea30583-e5bd-4498-9bd8-38604c61e658
 ROBOTS: NOINDEX, NOFOLLOW
-description: O que você deseja fazer? Clique no link da tarefa que você deseja executar.
-ms.openlocfilehash: 828b58b1ff4b4dcc1a442ca4ecc14b986e9412aa
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: O que você deseja fazer? Clique no link para a tarefa que você deseja executar.
+ms.openlocfilehash: 94dd2d539d0feaff5de8a7f4307462412af517cb
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41797472"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49836361"
 ---
 # <a name="web-service-security-settings"></a>Configurações de Segurança de Serviços Web
 
-O que você deseja fazer? Clique no link da tarefa que você deseja executar.
+O que você deseja fazer? Clique no link para a tarefa que você deseja executar.
 
-- [Gerenciar configurações de serviço Web no Skype for Business Server](../../../manage/authentication/web-service-configuration-settings.md)
+- [Gerenciar definições de configuração do Serviço Web no Skype for Business Server](../../../manage/authentication/web-service-configuration-settings.md)
 
 - [Modificar um serviço Web existente](https://technet.microsoft.com/library/bd9c7aa5-d31c-4fab-b31d-8baae26b1296.aspx)
 

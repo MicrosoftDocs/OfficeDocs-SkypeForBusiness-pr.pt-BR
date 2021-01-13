@@ -1,8 +1,8 @@
 ---
 title: Expansor de Configurações de Implantação
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/25/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7220ec1f-38cb-4297-870e-591a832cd2f2
 description: 'Você pode editar as propriedades de uma implantação existente com as seguintes seções:'
-ms.openlocfilehash: 87aa6546ea6e536454a6fae79c1bd5c2287ff398
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+ms.openlocfilehash: c7a360146f91c2e411ff48f52d92a3c69b0a2e11
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48219062"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49835361"
 ---
 # <a name="deployment-settings-expander"></a>Expansor de Configurações de Implantação
 
@@ -34,15 +34,15 @@ Você pode editar as propriedades de uma implantação existente com as seguinte
 
 ## <a name="sip-domain"></a>Domínio SIP
 
-Para editar o  **Domínio SIP padrão **, insira o nome de domínio novo.
+Para editar o  **Domínio SIP padrão**, insira o nome de domínio novo.
 
-Para adicionar  **Domínios SIP adicionais com suporte **, digite o nome do nome de domínio que você precisa adicionar. Clique em  **Adicionar ** para aceitá-lo como o novo nome de domínio SIP (Session Initiation Protocol).
+Para adicionar  **Domínios SIP adicionais com suporte**, digite o nome do nome de domínio que você precisa adicionar. Clique em  **Adicionar** para aceitá-lo como o novo nome de domínio SIP (Session Initiation Protocol).
 
-Para atualizar um nome de domínio SIP adicional existente, selecione o nome de domínio e faça alterações na caixa de texto. Clique em  **Atualizar ** para aceitar a alteração.
+Para atualizar um nome de domínio SIP adicional existente, selecione o nome de domínio e faça alterações na caixa de texto. Clique em  **Atualizar** para aceitar a alteração.
 
-Para remover um nome de domínio SIP adicional definido, selecione o nome de domínio e clique em  **Remover **.
+Para remover um nome de domínio SIP adicional definido, selecione o nome de domínio e clique em  **Remover**.
 
-Quando concluir todas as mudanças na página Editar Propriedades, clique em **OK ** para salvar as mudanças. Clique em  **Cancelar ** para descartar as mudanças.
+Quando concluir todas as mudanças na página Editar Propriedades, clique em **OK** para salvar as mudanças. Clique em  **Cancelar** para descartar as mudanças.
 
 ## <a name="simple-urls"></a>URLs simples
 
@@ -50,30 +50,30 @@ Para definir ou modificar URLs simples, você decide qual das três URLs simples
 
 Para modificar a URL de acesso ao Telefone ou a URL de Reunião, selecione a URL que você deseja alterar. Clique em **Editar URL**. Em seguida, edite a URL e clique em **OK** para salvar a URL. Clique em **Cancelar** para descartar quaisquer alterações.
 
-Para adicionar uma nova URL, clique em  **Adicionar **. Na caixa de diálogo  **Adicionar URL simples ** especifique a URL e clique em  **OK ** para salvar a URL. Selecione  **Tornar esta URL ativa para o domínio selecionado ** caso necessite definir a nova URL como URL ativa. Clique em  **Cancelar ** para descartar quaisquer mudanças.
+Para adicionar uma nova URL, clique em  **Adicionar**. Na caixa de diálogo  **Adicionar URL simples** especifique a URL e clique em  **OK** para salvar a URL. Selecione  **Tornar esta URL ativa para o domínio selecionado** caso necessite definir a nova URL como URL ativa. Clique em  **Cancelar** para descartar quaisquer mudanças.
 
 Para tornar uma URL diferente a URL ativa (conforme indicado pela marca de seleção verde ao lado da URL), selecione a URL e clique em **Tornar Ativa**.
 
 > [!NOTE]
 > Só pode haver uma URL ativa para cada domínio SIP.
 
-Caso precise remover a URL, selecione-a e clique em  **Remover **.
+Caso precise remover a URL, selecione-a e clique em  **Remover**.
 
 > [!CAUTION]
 > Leia com atenção as informações na página de diálogo de configurações de URLs simples. Remover uma URL de reunião pode fazer com que as reuniões agendadas por usuários não possam mais ser acessadas. Considere deixar a URL antiga após ativar a nova URL de reunião. Quando estiver certo de que os usuários não estão mais usando a URL de reunião antiga, você poderá removê-la com segurança.
 
 Para editar ou alterar a URL de acesso administrativo, edite a entrada.
 
-Quando concluir todas as mudanças na página Editar Propriedades, clique em **OK ** para salvar as mudanças. Clique em  **Cancelar ** para descartar as mudanças.
+Quando concluir todas as mudanças na página Editar Propriedades, clique em **OK** para salvar as mudanças. Clique em  **Cancelar** para descartar as mudanças.
 
 ## <a name="central-management-server"></a>Servidor de Gerenciamento Central
 
-O Servidor Central de Gerenciamento pode ser alterado de um pool de Front-Ends definido para outro pool de Front-Ends definido. Para alterar o local do Servidor Central de Gerenciamento, selecione na lista suspensa o pool de Front-Ends em  **Servidor Front-End no qual instalar o Servidor Central de Gerenciamento **. Um Servidor Front-End pode ser um pool de Front-Ends Enterprise Edition ou um Servidor Front-End Standard Edition.
+O Servidor Central de Gerenciamento pode ser alterado de um pool de Front-Ends definido para outro pool de Front-Ends definido. Para alterar o local do Servidor Central de Gerenciamento, selecione na lista suspensa o pool de Front-Ends em  **Servidor Front-End no qual instalar o Servidor Central de Gerenciamento**. Um Servidor Front-End pode ser um pool de Front-Ends Enterprise Edition ou um Servidor Front-End Standard Edition.
 
 > [!IMPORTANT]
 > Depois de definir, publicar e implantar o repositório de Gerenciamento Central para a infraestrutura, você não pode mudar o local do repositório de Gerenciamento Central sem realocar o repositório de Gerenciamento Central para outro Front-End via um processo externo.
 
-Para obter detalhes sobre como mover o repositório de gerenciamento central, consulte [move-CsManagementServer](https://docs.microsoft.com/powershell/module/skype/move-csmanagementserver?view=skype-ps) na referência do cmdlet do Windows PowerShell.
+Para obter detalhes sobre como mover o armazenamento de Gerenciamento Central, consulte [Move-CsManagementServer](https://docs.microsoft.com/powershell/module/skype/move-csmanagementserver?view=skype-ps) na referência de cmdlet do Windows PowerShell.
 
 ## <a name="see-also"></a>Confira também
 

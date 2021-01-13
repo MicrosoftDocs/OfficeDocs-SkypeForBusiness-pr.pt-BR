@@ -1,8 +1,8 @@
 ---
 title: Atribuição de Certificado (Resumo)
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,16 +14,16 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: e9478bf4-4e1a-46a2-bf76-3ff08a193523
 ROBOTS: NOINDEX, NOFOLLOW
-description: Antes de concluir a atribuição do certificado, você recebe um resumo de atribuição de certificado que lista os detalhes do certificado que será atribuído. Revise as informações para ter certeza de que o nome da entidade e os nomes alternativos da entidade estão corretos. Quando terminar de revisar o resumo do certificado, clique em Avançar.
-ms.openlocfilehash: 5a785fa9868dc5508e8a77fdb08b8ba2dd0bfaaa
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: Antes de a atribuição de certificado ser concluída, você recebe um Resumo de Atribuição de Certificado que lista os detalhes do certificado que será atribuído. Revise as informações para se certificar de que o nome da entidade e os nomes de entidade alternativos estejam corretos. Depois de concluir a revisão das informações do resumo, clique em Avançar.
+ms.openlocfilehash: 416f9fb16c986b5e695e17b789588b8c27201e1a
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41796872"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49837121"
 ---
 # <a name="certificate-assignment-summary"></a>Atribuição de Certificado (Resumo)
  
-Antes de concluir a atribuição do certificado, você recebe um **Resumo de atribuição de certificado** que lista os detalhes do certificado que será atribuído. Revise as informações para ter certeza de que o nome da entidade e os nomes alternativos da entidade estão corretos. Quando terminar de revisar o resumo do certificado, clique em **Avançar**.
+Antes de a atribuição de certificado ser concluída, você recebe um **Resumo de Atribuição de Certificado** que lista os detalhes do certificado que será atribuído. Revise as informações para se certificar de que o nome da entidade e os nomes de entidade alternativos estejam corretos. Depois de concluir a revisão das informações do resumo, clique em **Avançar**.
   
 

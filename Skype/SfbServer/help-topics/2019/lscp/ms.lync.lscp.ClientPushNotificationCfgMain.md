@@ -1,8 +1,8 @@
 ---
-title: Configuração de notificação por push de cliente móvel
+title: Configuração de notificação por push do cliente móvel
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,44 +14,44 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: b7a85d75-9d36-4980-b669-2a009799d905
 ROBOTS: NOINDEX, NOFOLLOW
-description: Para configurar as notificações por push da Microsoft e as notificações por push da Apple, você deve criar uma política para definir quais tipos de notificação por push são necessárias.
-ms.openlocfilehash: 57c86185601616bb691a176e86b3a2696c8c8463
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: Para configurar as Notificações por push da Microsoft e asNotificações por push da Apple, é necessário criar uma política para definir quais tipos de notificação por push você precisa.
+ms.openlocfilehash: 693b954fffbbce56a2d95ce29128482937b6fa05
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41798018"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49836671"
 ---
 # <a name="mobile-client-push-notification-configuration"></a>Cliente Móvel: Configuração de Notificação por Push
  
-Para configurar as notificações por push da **Microsoft** e as **notificações por push da Apple**, você deve criar uma política para definir quais tipos de notificação por push são necessárias.
+Para configurar as **Notificações por push da Microsoft** e as **Notificações por push da Apple**, é necessário criar uma política para definir quais tipos de notificação por push você precisa.
   
-Na tela principal de configuração, você pode clicar em **Atualizar** para atualizar e preencher novamente a lista de políticas. Uma caixa de pesquisa é fornecida para restringir a lista de políticas exibidas. À medida que você digita o nome que está procurando, a lista de políticas é limitada automaticamente.
+Na tela de configuração principal, é possível clicar em **Atualizar** para atualizar e preencher novamente a lista de políticas. Uma caixa de pesquisa é fornecida para reduzir a lista de políticas exibidas. À medida que você digita o nome que está procurando, a lista de políticas é reduzida automaticamente.
   
 > [!IMPORTANT]
-> As definições de política que são aplicadas em determinado nível de política podem substituir definições que são aplicadas em outro nível. A precedência de política é: política de Usuário (maior influência) substitui uma política de Site e esta substitui uma política Global (menor influência). Isso significa que, quanto mais perto a definição de política estiver do objeto que ela está afetando, maior será sua influência sobre o objeto. 
+> As configurações de política aplicadas em um nível de política podem substituir as configurações aplicadas em outro nível de política. A precedência da política é: a política de usuário (mais influência) substitui uma política de Site e, em seguida, uma política de Site substitui uma política Global (menos influência). Isso significa que quanto mais próxima a configuração da política estiver do objeto que a política estiver afetando, maior será a influência sobre o objeto. 
   
-Duas seleções estão disponíveis para criação e edição de políticas:
+Há duas seleções disponíveis para criação e edição de política:
   
-1. **Novo**: clique para criar uma nova política. Você deve fornecer um site ao qual a política se aplica. Em seguida, defina as configurações para a notificação por push. Para a **configuração de notificação por push**, você só pode criar políticas para sites que já criou.
+1. **Novo**: clique para criar uma nova política. É necessário fornecer um site ao qual aplicar a política. Em seguida, você define as configurações para a notificação por push. Para **Configuração da Notificação por Push**, é possível apenas criar políticas para Sites que você já criou.
     
-2. **Editar**: selecione uma política e clique em Editar para selecionar uma ação de uma lista suspensa. Você só pode editar sites que já criou ou editar a política global:
+2. **Editar**: selecione uma política e clique em Editar para selecionar uma ação de um menu suspenso. Você pode apenas editar sites que já criou ou editar a Política Global:
     
-   - **Mostrar detalhes...**: exibe informações sobre a política selecionada no momento. Você poderá fazer alterações na política existente.
+   - **Mostrar detalhes…**: exibe informações sobre a política atualmente selecionada. Você poderá fazer alterações na política existente.
     
-   - **Selecionar tudo**: se você tiver uma quantidade de políticas e precisar selecionar todas as políticas, clique em selecionar tudo
+   - **Selecionar tudo**: se você tiver algumas políticas e precisar selecionar todas elas, clique em Selecionar tudo
     
-   - **Excluir**: a política selecionada será removida. Usar **selecionar tudo** e **excluir** irá remover todas as políticas
+   - **Excluir**: removerá a política selecionada. Usar **Selecionar tudo** e **Excluir** removerá todas as políticas
     
      > [!NOTE]
-     > Não é possível excluir a política **global** padrão. Se você tentar excluí-lo, você será notificado de que a política global foi retornada para os valores padrão (ou seja, todas as configurações são desmarcadas), mas a política não pode ser removida.
+     > Não é possível excluir a política **Global** padrão. Se você tentar exclui-la, receberá uma notificação de que a política Global retomou seus valores padrão (ou seja, todas as configurações foram desmarcadas), mas a política não pode ser removida.
   
-A criação de uma nova política ou edição de uma política existente é associada a duas ações:
+A criação de uma nova política ou edição de uma política existente está associada a duas ações:
   
-- **Confirmar** A ação confirmar cria ou atualiza a política e salva as alterações
+- **Commit** A ação de confirmação cria ou atualiza a política e salva as alterações
     
-- **Cancelar** A ação cancelar descarta todas as alterações feitas desde a última ação de confirmação. Se você cancelar, todas as alterações feitas serão perdidas.
+- **Cancelar** A ação cancela todas as alterações feitas desde a última ação de confirmação. Se você cancelar, quaisquer alterações feitas serão perdidas.
     
-Duas configurações são possíveis para a **configuração de notificação por push**. As configurações são associadas aos serviços de notificação por push para a Microsoft e para a Apple. Para habilitar a notificação por push para qualquer um dos serviços, marque a caixa de seleção ao lado do nome do serviço. Você pode desmarcar a caixa de seleção selecionando-a para desmarcá-la. Depois de fazer suas seleções, você pode confirmar ou cancelar. Clicar em confirmar irá salvar as alterações na política.
+Duas configurações são possíveis para a **Configuração de Notificação por Push**. As configurações são associadas aos serviços de notificação por push da Microsoft e da Apple. Habilite a notificação por push para qualquer um desses serviços marcando a caixa de seleção ao lado do nome do serviço. É possível desmarcar a caixa de seleção clicando nela. Depois de fazer suas seleções, confirme ou cancele. Clicar em confirmar salvará as alterações na política.
   
 

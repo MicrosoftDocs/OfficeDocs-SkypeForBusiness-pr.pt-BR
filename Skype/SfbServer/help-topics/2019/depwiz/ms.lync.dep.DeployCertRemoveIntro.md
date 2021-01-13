@@ -1,8 +1,8 @@
 ---
 title: Remover Certificado (Introdução)
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,16 +14,16 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: ba7a948c-304d-4dce-ac97-7fdfcccd09d1
 ROBOTS: NOINDEX, NOFOLLOW
-description: Na página remover a introdução do certificado, leia as informações com atenção sobre as implicações da remoção de um certificado. Depois de ler essas informações, clique em avançar para continuar.
-ms.openlocfilehash: 4317019d08596b1f082fecf7f99544b9f4f7e29c
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: Na página de introdução Remover Certificado, leia com atenção as informações sobre as implicações da remoção de um certificado. Depois de ler essas informações, clique em Avançar para continuar.
+ms.openlocfilehash: d712da951469fad46efe55f08526872c99e6b563
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41796782"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49836961"
 ---
 # <a name="remove-certificate-intro"></a>Remover Certificado (Introdução)
  
-Na página **remover** a introdução do certificado, leia as informações com atenção sobre as implicações da remoção de um certificado. Depois de ler essas informações, clique em **Avançar** para continuar.
+Na página de introdução **Remover Certificado**, leia com atenção as informações sobre as implicações da remoção de um certificado. Depois de ler essas informações, clique em **Avançar** para continuar.
   
 

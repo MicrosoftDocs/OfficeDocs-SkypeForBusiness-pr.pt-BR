@@ -1,8 +1,8 @@
 ---
 title: Preparar Domínio Atual (Invocar)
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,16 +14,16 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 27553998-2adf-4727-a6e8-841679603ff2
 ROBOTS: NOINDEX, NOFOLLOW
-description: 'A página comandos em execução exibe um resumo das tarefas à medida que elas são executadas. Examine a tela Resumo e verifique se as tarefas foram bem-sucedidas e se não há erros. Revise os avisos para ter certeza de que eles são esperados. Abaixo do painel Resumo, você deve ver status da tarefa: concluído. Na lista suspensa, o domínio preparar o domínio do arquivo de log deve estar visível. Se não estiver, selecione o arquivo de registro e, em seguida, clique em Exibir log para examinar as ações detalhadas e o resultado das tarefas. Clique em concluir para concluir a preparação do domínio.'
-ms.openlocfilehash: 06f2228a4397e71a08c896b8f8e79c5c140f8568
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: 'A página Executando Comandos exibe um resumo de tarefas à medida que elas são executadas. Revise a tela de resumo e certifique-se de que as tarefas foram bem-sucedidas e de que não existam erros. Revise os avisos para se certificar de são esperados. Abaixo do painel do resumo, você deve ver o status da Tarefa: Concluído. Na lista suspensa, o arquivo de log Preparar Domínio deve estar visível. Se não estiver, selecione o arquivo de log e depois clique em Exibir Log para revisar as ações detalhadas e os resultados das tarefas. Clique em Concluir para terminar de preparar o domínio.'
+ms.openlocfilehash: 72230d426bf087280faf7e7521d7859681fc873f
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41798418"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49836761"
 ---
 # <a name="prepare-current-domain-invoke"></a>Preparar Domínio Atual (Invocar)
  
-A página **comandos em execução** exibe um resumo das tarefas à medida que elas são executadas. Examine a tela Resumo e verifique se as tarefas foram bem-sucedidas e se não há erros. Revise os avisos para ter certeza de que eles são esperados. Abaixo do painel Resumo, você deve ver **status da tarefa: concluído**. Na lista suspensa, o **domínio preparar o domínio** do arquivo de log deve estar visível. Se não estiver, selecione o arquivo de registro e, em seguida, clique em **Exibir log** para examinar as ações detalhadas e o resultado das tarefas. Clique em **concluir** para concluir a preparação do domínio.
+A página **Executando Comandos** exibe um resumo de tarefas à medida que elas são executadas. Revise a tela de resumo e certifique-se de que as tarefas foram bem-sucedidas e de que não existam erros. Revise os avisos para se certificar de são esperados. Abaixo do painel de resumo, consulte **Status da tarefa: concluído**. Na lista suspensa, o arquivo de log **Preparar Domínio** deve estar visível. Se não estiver, selecione o arquivo de log e clique em **Exibir Log** para revisar as ações detalhadas e o resultado das tarefas. Clique em **Concluir** para completar a preparação do domínio.
   
 

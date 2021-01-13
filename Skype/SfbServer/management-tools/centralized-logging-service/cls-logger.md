@@ -1,8 +1,8 @@
 ---
-title: Agente CLS do Skype for Business Server 2015
+title: Agente CLS para Skype for Business Server 2015
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 2/25/2017
 audience: ITPro
@@ -13,132 +13,132 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 1eaf8cdf-3dcd-4d6e-ae68-b6f6f9431ad8
-description: 'Resumo: saiba como usar o agente de log central do serviço de log (CLS) no Skype for Business Server 2015.'
-ms.openlocfilehash: d57afe991756f1bb6a7bf23917af207bc25ff32c
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 'Resumo: saiba como usar o Agente de Log Centralizado (CLS) no Skype for Business Server 2015.'
+ms.openlocfilehash: a24cdbffc4b7601d325cd132afb5a7cf137b54f4
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41816610"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49835231"
 ---
-# <a name="cls-logger-for-skype-for-business-server-2015"></a>Agente CLS do Skype for Business Server 2015
+# <a name="cls-logger-for-skype-for-business-server-2015"></a>Agente CLS para Skype for Business Server 2015
  
-**Resumo:** Saiba como usar o agente de log central do serviço de log (CLS) no Skype for Business Server 2015.
+**Resumo:** Saiba como usar o Agente de Log Centralizado (CLS) no Skype for Business Server 2015.
   
-O Agente CLS é uma ferramenta que ajuda você a gerenciar os logs gerados pelo Centralized Logging Service.
+O Agente CLS é uma ferramenta que ajuda você a gerenciar logs gerados pelo Serviço de Log Centralizado.
   
 ## <a name="prerequisites"></a>Pré-requisitos
 
-Para usar o Agente CLS com êxito, você precisará garantir que o seguinte seja verdadeiro:
+Para usar o Agente CLS com êxito, você precisará se certificar de que o seguinte seja verdadeiro:
   
-- Você está usando a ferramenta em um computador que é membro do domínio no qual o Centralized Logging Service (CLS) está sendo executado. Atualmente a ferramenta não é compatível com as sessões do Remote PowerShell.
+- Você está usando a ferramenta em um computador que é membro do domínio no qual o Serviço de Log Centralizado (CLS) está sendo executado. No momento, a ferramenta não tem suporte em sessões do PowerShell Remoto.
     
-- O arquivo Default.tmx da pasta de rastreamento (a pasta para a qual são capturados os dados de rastreamento do CLS) e o Snooper devem ser copiados para a mesma pasta em que a ferramenta Agente CLS está instalada.
+- O arquivo Default.tmx da pasta de rastreamento (a pasta onde os dados de rastreamento são capturados para o CLS) e o Snooper devem ser copiados para a mesma pasta em que a ferramenta Agente CLS está instalada.
     
-## <a name="check-the-logging-status-of-a-set-of-poolscomputers"></a>Verificar o status do registro no log de diversos pools/computadores
+## <a name="check-the-logging-status-of-a-set-of-poolscomputers"></a>Verificar o status do registro em log de um conjunto de pools/computadores
 
-Use os comandos a seguir para verificar o status do registro em log:
+Use os seguintes comandos para verificar o status do log:
   
-1. Na guia "iniciar/parar cenários", selecione um agrupamento de pools e/ou computadores no modo de exibição de árvore de topologia.
+1. Na guia "Iniciar/Parar Cenários", selecione um grupo de Pools e/ou Computadores na exibição de árvore de Topologia.
     
-2. Clique no botão Status do registro em log.
+2. Clique no botão Status do Log.
     
-3. Veja o resultado do comando na área Resultado do comando de PowerShell para obter dados específicos sobre o status do registro em log dos pools e/ou computadores selecionados.
+3. Exibir a saída do comando na área de Saída de Comando do PowerShell para informações específicas sobre o status de log dos Pools e/ou Computadores selecionados.
     
 ## <a name="start-an-existing-scenario"></a>Iniciar um cenário existente
 
 Para iniciar um cenário existente:
   
-1. Na guia "iniciar/parar cenários", selecione um cenário existente no menu suspenso cenários.
+1. Na guia "Iniciar/Parar Cenários", selecione um Cenário existente no menu suspenso Cenários.
     
-2. Selecione um agrupamento de Pools e/ou Computadores no modo de exibição de árvore Topologia.
+2. Selecione um grupo de Pools e/ou Computadores na exibição de árvore de Topologia.
     
-3. Clique no botão Iniciar cenário. A interface do usuário ficará desativada até que a operação seja concluída. Pode haver lentidão em grandes implantações.
+3. Clique no botão Iniciar Cenário. A interface do usuário será desabilitada até que a operação seja concluída. Isso pode ser lento em grandes implantações.
     
-4. A interface do usuário será habilitada novamente quando o cenário tiver sido iniciado com êxito, e os detalhes da ação também serão exibidos na área de Resultados do Comando do PowerShell.
+4. A interface do usuário será habilitada novamente assim que o Cenário for iniciado com êxito, os detalhes da ação também serão mostrados na área de Saída de Comando do PowerShell.
     
-5. A tarefa pode levar alguns momentos antes de o registro em log ser pego pelo CLS antes de qualquer dado novo deste cenário.
+5. A tarefa pode levar algum tempo antes de o registro em log ser coletado pelo CLS antes de quaisquer novos dados desse cenário.
     
-## <a name="stop-an-existing-scenario"></a>Interromper um cenário existente
+## <a name="stop-an-existing-scenario"></a>Parar um cenário existente
 
 Para interromper um cenário existente:
   
-1. Na guia "iniciar/parar cenários", selecione um cenário existente no menu suspenso cenários.
+1. Na guia "Iniciar/Parar Cenários", selecione um Cenário existente no menu suspenso Cenários.
     
-2. Selecione um agrupamento de Pools e/ou Computadores no modo de exibição de árvore Topologia.
+2. Selecione um grupo de Pools e/ou Computadores na exibição de árvore de Topologia.
     
-3. Clique no botão Iniciar cenário. A interface do usuário ficará desativada até que a operação seja concluída. Pode haver lentidão em grandes implantações.
+3. Clique no botão Parar Cenário. A interface do usuário será desabilitada até que a operação seja concluída. Isso pode ser lento em grandes implantações.
     
-4. A interface do usuário será habilitada novamente quando o cenário tiver sido interrompido, e os detalhes da ação também serão exibidos na área de Resultados do Comando do PowerShell.
+4. A interface do usuário será habilitada novamente depois que o Cenário parar, os detalhes da ação também serão mostrados na área de Saída de Comando do PowerShell.
     
-![Início e término do agente CLS](../../media/2c4a36c2-b5db-4550-a3b3-41f18e0e2f0c.png)
+![Início e parada do Agente CLS](../../media/2c4a36c2-b5db-4550-a3b3-41f18e0e2f0c.png)
   
 ## <a name="search-for-logs"></a>Pesquisar logs
 
-Para pesquisar logs, selecione a guia "pesquisar logs CLS" e clique no botão "pesquisar logs" Após preencher os campos exibidos, conforme descrito abaixo:
+Para pesquisar logs, selecione a guia "Pesquisar Logs CLS" e clique no botão "Logs de Pesquisa" depois de preencher os campos exibidos conforme descrito abaixo:
   
-> **Pasta do arquivo de log** A pasta na qual os resultados da pesquisa do log são salvos. (Obrigatório)
+> **Pasta do Arquivo de Log** A pasta para salvar os resultados da pesquisa de log. (Obrigatório)
 > 
-> **Nível do log** Determina o nível mais baixo que será exibido nos resultados. Por exemplo: se for selecionado Aviso, serão exibidos somente Aviso, Erro e Fatal. O padrão é Depuração.
+> **Nível de log** Isso determina o nível mais baixo que será aparecer nos resultados. Por exemplo, se Aviso estiver selecionado, somente Aviso, Erro e Fatal serão mostrados. O padrão é Depurar.
 > 
-> **Pools** Pools de computador para executar a pesquisa de logs. Tratam-se dos nós pais no modo de exibição de árvore. (Obrigatório)
+> **Pools** Pools de computadores para realizar a pesquisa de log, esses são os nós pai do ponto de vista de árvore. (Obrigatório)
 > 
-> **Computadores** Cada computador para a execução da pesquisa de logs. Todos são nós filhos no modo de exibição de árvore. (Obrigatório)
+> **Computadores** Computadores individuais para realizar a pesquisa de log, esses são todos os nós filhos na exibição de árvore. (Obrigatório)
 > 
-> **Hora de início** O período no qual o CLS consultará os logs. (Obrigatório)
+> **Hora de Início** O período em que o CLS consultará os logs. (Obrigatório)
 > 
-> **Hora de fim** O período no qual o CLS interromperá a consulta dos logs. (Obrigatório)
+> **Hora de Término** O período em que o CLS interromperá a consulta dos logs. (Obrigatório)
 > 
-> **Componentes** Usados para selecionar quais componentes adicionar à consulta. (Opcional)
+> **Componentes** Usado para selecionar quais componentes adicionar à consulta. (Opcional)
 > 
-> **ID da chamada** O ID da chamada de qualquer diálogo do SIP pelo qual ser filtrado. Observe que esse campo usa correspondência exata. (Opcional)
+> **ID da chamada** A ID de chamada de qualquer caixa de diálogo SIP a ser filtrada. Observe que esse campo usa correspondência exata. (Opcional)
 > 
-> **ID de conferência** O ID de conferência de todas as conferências a serem filtradas. Observe que esse campo usa correspondência exata. (Opcional)
+> **ID de conferência** A ID de conferência de qualquer conferência pela a ser filtrada. Observe que esse campo usa correspondência exata. (Opcional)
 > 
-> **Endereço IP** O endereço IP para ser filtrado. Observe que esse campo usa correspondência exata. (Opcional)
+> **Endereço IP** O endereço IP que será filtrado. Observe que esse campo usa correspondência exata. (Opcional)
 > 
 > **IDs de correlação** Instruções de rastreamento que são vinculadas logicamente por essa ID. (Opcional)
 > 
-> **Número de telefone** Filtrar por número de telefone. (Opcional)
+> **Número de Telefone** Filtrar por número de telefone. (Opcional)
 > 
 > **URI do SIP** Filtrar por URI do SIP. (Opcional)
 > 
-> **Conteúdo da mensagem do SIP contém** Filtrar por conteúdo da mensagem do SIP; será uma pesquisa de substring dentro desse campo. (Opcional)
+> **Conteúdo da mensagem SIP contém** Filtrar por conteúdo de mensagem SIP, isso substring pesquisa dentro desse campo. (Opcional)
 > 
-> **Corresponder qualquer** Pesquisa utilizando um OU lógico, se estiver marcado. O padrão é a correspondência exata de todos os parâmetros.
+> **Corresponder a qualquer** Pesquisa usando um OR lógico se estiver marcado. O padrão é a exact match de todos os parâmetros.
 > 
-> **Ignorar logs de rede** Ignora a pesquisa pelos logs de rede, se estiver marcado.
+> **Ignorar logs de rede** Ignora a pesquisa de todos os logs de rede, se estiver marcado.
     
-![Logs de pesquisa do logger do CLS](../../media/5793ea3c-6f5f-40ef-8b53-100da831eedf.png)
+![Logs de pesquisa do Agente cls](../../media/5793ea3c-6f5f-40ef-8b53-100da831eedf.png)
   
 ## <a name="create-a-scenario"></a>Criar um cenário
 
-1. Na guia **editar cenários** , clique no botão **criar cenário** .
+1. Na guia **Editar Cenários,** clique no **botão Criar Cenário.**
     
     > [!NOTE]
-    > Criar um novo cenário clonará a configuração do cenário que está selecionado. Se você clicar em **Limpar Configurações** antes de criar um novo cenário, ele começará sem nenhum componente ou sinalizador selecionado.
+    > Criar um novo cenário clona a configuração do cenário atualmente selecionado. Se você clicar em **Limpar Configurações** antes de criar um novo cenário, ele começará sem componentes e Sinalizadores selecionados.
   
-2. Insira o nome do cenário que você deseja criar e pressione a tecla Enter ou clique no botão OK.
+2. Insira o nome do cenário que você criará e pressione a tecla Enter ou clique no botão Ok.
     
-3. O novo cenário será criado. Quando a criação for bem-sucedida, a lista suspensa Cenários será selecionada com o novo cenário.
+3. O novo cenário agora será criado. Após a criação bem-sucedida, o drop-down Cenários será selecionado com o Cenário recém-criado.
     
 ## <a name="modify-a-scenario"></a>Modificar um cenário
 
-![Captura de tela do agente CLS, editar cenários](../../media/abbbcac0-8a2e-48af-a22f-4fee0283a29f.png)
+![Captura de tela do Agente CLS, editar cenários](../../media/abbbcac0-8a2e-48af-a22f-4fee0283a29f.png)
   
-1. Na guia **Editar Cenários**, encontre o cenário que você deseja modificar.
+1. Na guia **Editar Cenários,** encontre o cenário desejado a ser modificado.
     
-2. Faça as mudanças desejadas nos componentes, níveis e sinalizadores.
+2. Faça as alterações desejadas nos componentes, níveis e sinalizadores.
     
-3. Clique no botão **Salvar Cenário**.
+3. Clique no **botão Salvar Cenário.**
     
-4. Quando o cenário for salvo, o painel de informações será atualizado com as novas configurações.
+4. Ao salvar o cenário com êxito, ele atualizará o painel de informações do cenário com a configuração atualizada.
     
 ## <a name="delete-a-scenario"></a>Excluir um cenário
 
-1. Na guia **Editar Cenários**, selecione um cenário existente do menu suspenso Cenários.
+1. Na guia **Editar Cenários,** selecione um Cenário existente no menu suspenso Cenários.
     
-2. Clique em **Excluir Cenário** para excluir o cenário.
+2. Clique **em Excluir Cenário** para excluir o cenário.
     
 3. Depois de confirmar a ação, o cenário será excluído.
     

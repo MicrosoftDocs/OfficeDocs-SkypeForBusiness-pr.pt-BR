@@ -1,8 +1,8 @@
 ---
 title: Adicionar Opções de Servidor de Borda para o Lync Server 2010
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -14,17 +14,17 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0b059af5-e83f-4564-90b2-d7ebb9e551c2
-description: 'Você define um novo servidor de borda ou um pool de borda e é apresentado à oportunidade de definir recursos para o novo servidor ou pool. As opções possíveis são:'
-ms.openlocfilehash: 273b2543fc3eea1373817ab38eab39379ec59132
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+description: 'Você define um novo Servidor de Borda ou pool de Borda e tem a oportunidade de definir recursos para o novo servidor ou pool. As opções possíveis são:'
+ms.openlocfilehash: b6f6e07c3555101103aeaad7f1c45f4449c25078
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48216592"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49835511"
 ---
 # <a name="add-edge-server-options-for-lync-server-2010"></a>Adicionar Opções de Servidor de Borda para o Lync Server 2010
 
-Você define um novo servidor de borda ou um pool de borda e é apresentado à oportunidade de definir recursos para o novo servidor ou pool. As opções possíveis são:
+Você define um novo Servidor de Borda ou pool de Borda e tem a oportunidade de definir recursos para o novo servidor ou pool. As opções possíveis são:
 
 - **Usar um único FQDN e endereço IP**: marque a caixa de seleção para usar um único endereço IPv4 ou IPv6 (se você escolher usar IPv4 e IPv6, será necessário definir um de cada tipo de endereço IP) e nome de domínio totalmente qualificado (FQDN) para as interfaces de Borda externas.
 
@@ -33,7 +33,7 @@ Você define um novo servidor de borda ou um pool de borda e é apresentado à o
 
 - **Habilitar federação (porta 5061)**: marque essa caixa de seleção se for federar com outras federações SIP, provedores ou ofertas hospedadas que usam o protocolo de início de sessão (SIP).
 
-- **O endereço IP externo deste pool de borda é convertido pelo NAT**: Marque essa caixa de seleção se você usar endereços IP privados para as interfaces externas de borda e fornecerá um dispositivo NAT (conversão de endereço de rede) para colocar o servidor de borda ou o pool de borda logicamente atrás.
+- O endereço IP externo deste pool de Borda é convertido por **NAT:** marque essa caixa de seleção se você usar endereços IP privados para as interfaces externas de Borda e fornecerá um dispositivo NAT (conversão de endereço de rede) para colocar o Servidor de Borda ou pool de Borda logicamente atrás.
 
 ## <a name="see-also"></a>Confira também
 

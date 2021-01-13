@@ -1,8 +1,8 @@
 ---
-title: Nó de Escopo de Servidor Front-End
+title: Nó de Escopo de Servidor Front End
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,30 +14,30 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 16f6382d-1cbd-4656-b9cb-1adda13b97ae
 ROBOTS: NOINDEX, NOFOLLOW
-description: 'Este nó mostra as informações de configuração para esse pool de Front-Ends ou servidor Standard Edition. É possível executar as seguintes ações:'
-ms.openlocfilehash: ddd0cfbb80284f8f8a19162b1ae32e0f45d0857a
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: 'Este nó mostra as informações de configuração para este pool de Front-Ends ou servidor Standard Edition. É possível executar as seguintes ações:'
+ms.openlocfilehash: 707bdbdf963d632b2ca646e2a8f48f6b4f80e5e9
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41793639"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49835751"
 ---
-# <a name="front-end-server-scope-node"></a>Nó de Escopo de Servidor Front-End
+# <a name="front-end-server-scope-node"></a>Nó de Escopo de Servidor Front-end
  
-Este nó mostra as informações de configuração para esse pool de Front-Ends ou servidor Standard Edition. É possível executar as seguintes ações:
+Este nó mostra as informações de configuração para este pool de Front-Ends ou servidor Standard Edition. Você pode realizar as seguintes ações:
   
-- **Novo Servidor**. Se for um pool de Front-Ends, você poderá selecionar isso para iniciar o assistente **Definir Novo Servidor**, que pode ser usado para adicionar outro Servidor Front-End a esse pool.
+- **Novo Servidor**. Se esse for um pool de Front-Ends, você poderá selecionar isso para iniciar o assistente **Definir Novo Servidor**, que pode ser usado para adicionar outro Servidor Front-End a esse pool.
     
-- **Editar Propriedades**. Abre a página **Editar Propriedades** desse pool ou servidor, na qual é possível habilitar e desabilitar recursos, especificar associações com os repositórios de arquivo, bancos de dados SQL Server e outros servidores e definir as informações do servidor da Web e do Servidor de Mediação.
+- **Editar Propriedades**. Abre a página **Editar Propriedades** para esse pool ou servidor, na qual é possível habilitar e desabilitar recursos, especificar associações com os repositórios de arquivo, bancos de dados SQL Server e outros servidores e definir as informações do servidor da Web e do Servidor de Mediação.
     
 - **Excluir**. Excluir o pool de Front-Ends ou servidor Standard Edition da topologia.
     
-Além dessas opções, você pode realizar as seguintes tarefas gerais:
+Além das opções, é possível executar as seguintes tarefas gerais:
   
-- **Topologia**. É possível usar essa opção para definir uma nova topologia, abrir uma topologia existente, baixar a topologia atual, salvar uma cópia da topologia, publicar a topologia, instalar um banco de dados, mesclar os componentes ou remover a implantação.
+- **Topologia**. Você pode usar essa opção para definir uma nova topologia, abrir uma topologia existente, baixar a topologia atual, salvar uma cópia da topologia, publicar a topologia, instalar um banco de dados, mesclar componentes ou remover a implantação.
     
-- **Exibir**. Você pode usar essa opção para personalizar o modo de exibição no Construtor de Topologias selecionando os itens para mostrar ou ocultar nos modos de exibição da árvore de console.
+- **Visualização**. Você pode usar esta opção para personalizar a visualização no Construtor de Topologia selecionando os itens que serão exibidos ou escondidos na visão de árvore de comando..
     
-- **Ajuda**. Você pode usar essa opção para acessar a Ajuda do nó ativo.
+- **Ajuda**. Você pode usar esta opção para acessar a Ajuda para o nó ativo.
     
 

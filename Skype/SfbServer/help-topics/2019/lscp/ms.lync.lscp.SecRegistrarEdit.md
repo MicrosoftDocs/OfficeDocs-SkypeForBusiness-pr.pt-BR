@@ -1,8 +1,8 @@
 ---
-title: Registrar configurações de segurança criar novo ou editar existente
+title: Configurações de Segurança do Registrador Criar Nova ou Editar Existente
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,23 +14,23 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: be480209-e0f4-4c2a-9f95-b0345ee01135
 ROBOTS: NOINDEX, NOFOLLOW
-description: O que você deseja fazer? Clique no link da tarefa que você deseja executar.
-ms.openlocfilehash: 3d03bbd6d23644cb4b3e8c18fd1f7d33e568e7a7
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: O que você deseja fazer? Clique no link para a tarefa que você deseja executar.
+ms.openlocfilehash: 32a93a182af51935918a20d696efa575f30eca61
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41794139"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49836411"
 ---
 # <a name="registrar-security-settings-create-new-or-edit-existing"></a>Definições de Segurança de Registrador: Criar Novas ou Editar Existentes
 
-O que você deseja fazer? Clique no link da tarefa que você deseja executar.
+O que você deseja fazer? Clique no link para a tarefa que você deseja executar.
 
-- [Gerenciar definições de configuração do registrador no Skype for Business Server](../../../manage/authentication/registrar-configuration-settings.md)
+- [Gerenciar definições de configuração do Registrador no Skype for Business Server](../../../manage/authentication/registrar-configuration-settings.md)
 
-- [Modificar um registrador existente](https://technet.microsoft.com/library/a8931511-3e66-49ed-a3ec-03bcd61ce1f0.aspx)
+- [Modificar um Registrador Existente](https://technet.microsoft.com/library/a8931511-3e66-49ed-a3ec-03bcd61ce1f0.aspx)
 
-- [Excluir um registrador](https://technet.microsoft.com/library/ae43cd75-cae4-4f78-b037-779a2cdb583b.aspx)
+- [Excluir um Registrador](https://technet.microsoft.com/library/ae43cd75-cae4-4f78-b037-779a2cdb583b.aspx)
 
 
 

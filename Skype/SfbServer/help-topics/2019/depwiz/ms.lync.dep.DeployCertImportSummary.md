@@ -1,8 +1,8 @@
 ---
 title: Importar Certificado (Resumo)
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,16 +14,16 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 81072ae1-6a20-4695-aba7-c05b91f81799
 ROBOTS: NOINDEX, NOFOLLOW
-description: Na página Importar Resumo do certificado, você recebe um resumo do nome do arquivo, caminho e presença de uma chave privada. Depois de revisar o resumo, clique em avançar para continuar.
-ms.openlocfilehash: 74166ed709a3e8dd0a5b5ebaf5a4e0df3ab2564b
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: Na página  Importar Resumo do Certificado , é apresentado um resumo do Nome do Arquivo, o caminho e a presença de uma chave privada. Após examinar o resumo, clique em  Avançar  para continuar.
+ms.openlocfilehash: f2300d19f68fcf4f9b5c3cc6d0e376ebe7d769e0
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41796842"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49837011"
 ---
 # <a name="import-certificate-summary"></a>Importar Certificado (Resumo)
  
-Na página **importar Resumo do certificado** , você recebe um resumo do nome do arquivo, caminho e presença de uma chave privada. Depois de revisar o resumo, clique em **Avançar** para continuar.
+Na página  **Importar Resumo do Certificado**, é apresentado um resumo do Nome do Arquivo, o caminho e a presença de uma chave privada. Após examinar o resumo, clique em  **Avançar** para continuar.
   
 

@@ -1,8 +1,8 @@
 ---
 title: Porta SIP de Mesclagem de Legado
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,18 +14,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 19bf6b9b-d111-4285-9735-62fd9a04dc3b
 ROBOTS: NOINDEX, NOFOLLOW
-description: 'A porta SIP do protocolo TCP padrão para comunicação com clientes, pools de Front-End herdado e servidores é a 5061. Se o valor padrão não tiver sido usado, selecione  Porta SIP para todos os pools e servidores: e digite o novo valor.'
-ms.openlocfilehash: 1a3035e25b5eb716bf955a1bfd9ca9c11e770071
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: 'A porta SIP TCP (Transmission Control Protocol) padrão para comunicação com clientes, pools de Front-End herdado e servidores é de 5061. Se o valor padrão não tiver sido usado, selecione Porta SIP para todos os pools e servidores: e digite o novo valor.'
+ms.openlocfilehash: e9bab801a5cf5df3e7aa38d1214f9aa0b6fce053
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41795332"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49835671"
 ---
 # <a name="legacy-merge-sip-port"></a>Porta SIP de Mesclagem de Legado
  
-A porta SIP do protocolo TCP padrão para comunicação com clientes, pools de Front-End herdado e servidores é a 5061. Se o valor padrão não tiver sido usado, selecione  **Porta SIP para todos os pools e servidores:** e digite o novo valor.
+A porta SIP TCP (Transmission Control Protocol) padrão para comunicação com clientes, pools de Front-End herdado e servidores é de 5061. Se o valor padrão não tiver sido usado, selecione **Porta SIP para todos os pools e servidores:** e digite o novo valor.
   
-Se a sua implantação herdada estiver configurada para conexão automática do cliente, selecione **Descoberta automática da configuração da porta SIP para cada pool** e clique em **Avançar** para continuar.
+Se sua implantação herdada estiver configurada para entrada automática do cliente, selecione Descoberta automática da configuração de porta SIP para cada **pool** e clique em **Próximo** para continuar.
   
 

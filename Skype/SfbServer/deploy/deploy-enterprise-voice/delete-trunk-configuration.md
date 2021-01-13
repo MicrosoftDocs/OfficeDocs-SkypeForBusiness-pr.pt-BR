@@ -1,8 +1,8 @@
 ---
 title: Excluir uma coleção existente de definições de configuração de tronco SIP no Skype for Business Server
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -15,76 +15,76 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 3b25f14d-884b-42dd-a866-460d276d3e43
-description: 'Resumo: saiba como excluir uma coleção de definições de configuração de tronco usando o painel de controle do Skype for Business Server.'
-ms.openlocfilehash: 1cd46f855a92f4b1b975f565b12ff07c3af24111
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+description: 'Resumo: Saiba como excluir um conjunto de definições de configuração de tronco usando o Painel de Controle do Skype for Business Server.'
+ms.openlocfilehash: a9065304860a257a7787c557e59da38d03abfef0
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41767704"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49836971"
 ---
 # <a name="delete-an-existing-collection-of-sip-trunk-configuration-settings-in-skype-for-business-server"></a>Excluir uma coleção existente de definições de configuração de tronco SIP no Skype for Business Server
  
-**Resumo:** Saiba como excluir uma coleção de definições de configuração de tronco usando o painel de controle do Skype for Business Server.
+**Resumo:** Saiba como excluir um conjunto de definições de configuração de tronco usando o Painel de Controle do Skype for Business Server.
   
-As configurações do tronco SIP definem o relacionamento e as capacidades entre um Servidor de Mediação e o gateway da Rede Telefônica Pública Comutada (PSTN), uma Central Privada de Comutação de IP (PBX) ou um Controlador de Borda de Sessão (SBC) no provedor de serviço. Essas configurações realizam atividades como especificar:
+As definições de configuração do tronco SIP definem o relacionamento e as capacidades entre um Servidor de Mediação e o gateway PSTN (Rede Telefônica Pública Comutado), um PBX (Branch eXchange) da IP-Public ou um Controlador de Borda de Sessão (SBC) no provedor de serviços. Estas configurações fazem coisas como especificar:
   
-- Se o desvio de mídia deve ser ativado nos troncos.
+- Se o bypass de mídia deve ser habilitado nos troncos.
     
-- As condições em que os pacotes do Protocolo de Controle de Transporte em Tempo Real (RTCP) são enviados.
+- As condições sob as quais pacotes RTCP (Protocolo de Controle de Transporte em Tempo Real) são enviados.
     
-- Se é necessário criptografia de Protocolo de Transporte Seguro em Tempo Real (SRTP) em cada tronco.
+- Se a criptografia SRTP (Secure Realtime Transport Protocol) é necessária ou não em cada tronco.
     
-Quando você instala o Skype for Business Server, uma coleção global de configurações de tronco SIP é criada para você. Este conjunto global de configurações não pode ser excluído. No entanto, você pode usar o painel de controle do Skype for Business Server ou o cmdlet [Remove-CsTrunkConfiguration](https://docs.microsoft.com/powershell/module/skype/remove-cstrunkconfiguration?view=skype-ps) para "redefinir" as propriedades na coleção global para os valores padrão. Por exemplo, se a propriedade Enable3pccRefer foi definida como Verdadeira, quando o conjunto global for redefinido, a propriedade Enable3pccRefer será revertida para o valor padrão Falso.
+Quando você instala o Skype for Business Server, um conjunto global de definições de configuração de tronco SIP é criado para você. Este conjunto global de configurações não pode ser excluído. No entanto, você pode usar o Painel de Controle do Skype for Business Server ou o cmdlet [Remove-CsTrunkConfiguration](https://docs.microsoft.com/powershell/module/skype/remove-cstrunkconfiguration?view=skype-ps) para "redefinir" as propriedades na coleção global com seus valores padrão. Por exemplo, se você tiver definido a propriedade Enable3pccRefer como True, quando você redefinir a coleção global, a propriedade Enable3pccRefer será revertida para seu valor padrão de False.
   
-Os administradores também podem criar definições personalizadas de configuração de tronco no escopo do site ou escopo do serviço (para um gateway PSDN individual); essas configurações padrão podem ser removidas. Ao remover essas configurações padrão, lembre-se do seguinte:
+Os administradores também podem criar definições de configuração de tronco personalizadas no escopo do site ou no escopo de serviço (para um gateway PSTN individual); essas configurações personalizadas podem ser removidas. Ao remover essas configurações personalizadas, lembre-se do seguinte:
   
-- Se você remover as configurações do escopo do serviço, o tronco SIP gerenciado por essas configurações será gerenciado pelas configurações aplicadas ao site, caso existam. Se as configurações não existirem, esses troncos serão então gerenciados pelo conjunto global de definições de configuração do tronco.
+- Se você remover as configurações de escopo do serviço, o tronco SIP gerenciado por essas configurações será gerenciado pelas configurações aplicadas ao site, caso existam. Se as configurações de site não existirem, esses troncos serão gerenciados pelo conjunto global de definições de configuração de tronco.
     
-- Se você remover as configurações pertencentes ao escopo do site, todos os troncos SIP gerenciados por essas configurações serão então gerenciados pelo conjunto global de definições de configuração do tronco.
+- Se você remover as definições de escopo do site, todos os troncos SIP gerenciados por essas definições agora serão gerenciados pelo conjunto global de definições de configuração do tronco.
     
-### <a name="to-remove-trunk-configuration-settings-with-skype-for-business-server-control-panel"></a>Para remover as definições de configuração de tronco com o painel de controle do Skype for Business Server
+### <a name="to-remove-trunk-configuration-settings-with-skype-for-business-server-control-panel"></a>Para remover as definições de configuração de tronco com o Painel de Controle do Skype for Business Server
 
-1. No painel de controle do Skype for Business Server, clique em **Roteamento de voz** e, em seguida, clique em **configuração de tronco**.
+1. No Painel de Controle do Skype for Business Server, clique em **Roteamento** de Voz e em **Configuração de Tronco.**
     
-2. Na guia **Configuração do Tronco**, selecione o conjunto de definições de configuração do tronco SIP a ser excluído, clique em **Editar** e, então, clique em **Excluir**. Para excluir vários conjuntos na mesma operação, clique no primeiro conjunto a ser excluído, mantenha pressionada a tecla Ctrl e clique em todos os outros conjuntos que deseja remover.
+2. Na guia **Configuração do** Tronco, selecione o conjunto de definições de configuração do tronco SIP a ser excluído, clique em **Editar** e em **Excluir.** Para excluir várias coleções na mesma operação, clique na primeira coleção a ser excluída, mantenha a tecla Ctrl e clique nas coleções adicionais que deseja remover.
     
 3. A propriedade **Estado** da coleção será atualizada para **Não vinculado**. Para vincular as alterações e excluir a coleção, clique em **Vincular** e em **Vincular tudo**.
     
 4. Na caixa de diálogo **Configurações de Voz Não Vinculadas**, clique em **OK**.
     
-5. Na caixa de diálogo **painel de controle do Skype for Business Server** , clique em **OK**.
+5. Na caixa **de diálogo Painel de Controle do Skype for Business Server,** clique em **OK.**
     
-6. If you change your mind and decide not to delete the collection, click **Commit** and then click **Cancel All Uncommitted Changes**. Quando a caixa de diálogo **painel de controle do Skype for Business Server** for exibida, clique em **OK**.
+6. Se você mudar de ideia e decidir  não excluir a coleção, clique em Confirmação e em Cancelar Todas as Alterações **Não Confirmados.** Quando a caixa de diálogo Painel de Controle do **Skype for Business Server** for exibida, clique em **OK.**
     
-## <a name="removing-trunk-configuration-settings-by-using-skype-for-business-server-management-shell-cmdlets"></a>Como remover as configurações de tronco usando cmdlets do Shell de gerenciamento do Skype for Business Server
+## <a name="removing-trunk-configuration-settings-by-using-skype-for-business-server-management-shell-cmdlets"></a>Removendo definições de configuração de tronco usando cmdlets do Shell de Gerenciamento do Skype for Business Server
 
-Você pode excluir as definições de configuração de tronco usando o Shell de gerenciamento do Skype for Business Server e o cmdlet **Remove-CsTrunkConfiguration** . Você pode executar esse cmdlet a partir do Shell de gerenciamento do Skype for Business Server ou de uma sessão remota do Shell de gerenciamento do Skype for Business Server.
+Você pode excluir definições de configuração de tronco usando o Shell de Gerenciamento do Skype for Business Server e o cmdlet **Remove-CsTrunkConfiguration.** Você pode executar esse cmdlet a partir do Shell de Gerenciamento do Skype for Business Server ou de uma sessão remota do Shell de Gerenciamento do Skype for Business Server.
   
-### <a name="to-remove-a-specified-collection-of-settings"></a>Para remover uma coleção especificada das definições
+### <a name="to-remove-a-specified-collection-of-settings"></a>Para remover um conjunto especificado de configurações
 
-- O seguinte comando remove as definições de configuração do tronco aplicadas ao site Redmond:
+- O comando a seguir remove as definições de configuração de tronco aplicadas ao site Redmond:
     
   ```powershell
   Remove-CsTrunkConfiguration -Identity site:Redmond
   ```
 
-### <a name="to-remove-all-the-collections-applied-to-the-site-scope"></a>Para remover todos os conjuntos aplicados ao escopo do site
+### <a name="to-remove-all-the-collections-applied-to-the-site-scope"></a>Para remover todos os coleções aplicados ao escopo do site
 
-- Este comando remove todas as definições de configuração do tronco aplicadas ao escopo do serviço:
+- Este comando remove todas as definições de configuração de tronco aplicadas ao escopo de serviço:
     
   ```powershell
   Get-CsTrunkConfiguration -Filter "service:*" | Remove-CsTrunkConfiguration
   ```
 
-### <a name="to-remove-all-the-collections-where-media-bypass-is-enabled"></a>Para remover todos os conjuntos em que o bypass de mídia está habilitado
+### <a name="to-remove-all-the-collections-where-media-bypass-is-enabled"></a>Para remover todas as coleções onde o bypass de mídia está habilitado
 
-- O seguinte comando remove todas as definições de configuração do tronco em que o desvio de mídia está habilitado:
+- O comando a seguir remove todas as definições de configuração de tronco onde o bypass de mídia foi habilitado:
     
   ```powershell
   Get-CsTrunkConfiguration | Where-Object {$_.EnableBypass -eq $True} | Remove-CsTrunkConfiguration
   ```
 
-Para obter mais informações, consulte o tópico da ajuda para o cmdlet [Remove-CsTrunkConfiguration](https://docs.microsoft.com/powershell/module/skype/remove-cstrunkconfiguration?view=skype-ps) .
+Para obter mais informações, consulte o tópico de ajuda para o cmdlet [Remove-CsTrunkConfiguration.](https://docs.microsoft.com/powershell/module/skype/remove-cstrunkconfiguration?view=skype-ps)
   
 

@@ -1,8 +1,8 @@
 ---
 title: Definir FQDN de Chat Persistente
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,15 +14,15 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e0123fa6-008b-430e-a68b-61f0cc3fb12e
 ROBOTS: NOINDEX, NOFOLLOW
-description: Você cria um novo servidor de chat persistente ou um pool de servidores de chat persistentes usando o assistente para definir novo pool de chat persistente. Selecione um  Pool de vários computadores ou um Pool com um único computador. Se você selecionar um pool com um único computador e precisar mais tarde de um pool com vários computadores, será necessário remover o pool com um único computador e definir um pool com vários computadores.
-ms.openlocfilehash: b868c3f9f0af07dc438480516854a723171f21cf
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: Você cria um novo Servidor de Chat Persistente ou pool de Servidor de Chat Persistente usando o assistente Definir Novo Pool de Chat Persistente. Selecione um pool de vários computadores ou um pool de computador único. Se você selecionar um único pool de computadores e depois precisar de um pool de vários computadores, será necessário remover o pool de computador único e definir um pool de vários computadores.
+ms.openlocfilehash: 06aee6194a91bff0ecb4f29c4952fd692d533a1f
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41787711"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49835901"
 ---
 # <a name="define-persistent-chat-fqdn"></a>Definir FQDN de Chat Persistente
 
 > [!NOTE] 
-> O chat persistente está disponível no Skype for Business Server 2015, mas não é mais compatível com o Skype for Business Server 2019. A mesma funcionalidade está disponível no Microsoft Teams. Para obter mais informações, consulte [atualização do Skype for Business para o Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/upgrade-start-here). Se você precisar usar chats persistentes, suas opções serão migrar usuários que exigem essa funcionalidade para o Microsoft Teams ou continuar usando o Skype for Business Server 2015.
+> O chat persistente está disponível no Skype for Business Server 2015, mas não é mais suportado no Skype for Business Server 2019. A mesma funcionalidade está disponível no Teams. Para saber mais, confira [a atualização do Skype for Business para o Microsoft Teams.](https://docs.microsoft.com/MicrosoftTeams/upgrade-start-here) Se você precisar usar o chat persistente, suas opções são migrar os usuários que exigem essa funcionalidade para o Teams ou continuar usando o Skype for Business Server 2015.
