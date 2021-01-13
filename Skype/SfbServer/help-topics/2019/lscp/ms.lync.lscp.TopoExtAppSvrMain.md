@@ -1,8 +1,8 @@
 ---
-title: Aplicativo de confiança de topologia
+title: Aplicativo Confiável de Topologia
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,19 +14,19 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: eb6185c3-c162-4250-9ec3-11cdd8191287
 ROBOTS: NOINDEX, NOFOLLOW
-description: O que você deseja fazer? Clique no link da tarefa que você deseja executar.
-ms.openlocfilehash: 215fb18ae894b0f8aa5da42b5c11ef9e143035e3
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: O que você deseja fazer? Clique no link para a tarefa que você deseja executar.
+ms.openlocfilehash: f383e997ddb0d4370d4d6ba8982e7d5d70c6fd8f
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41794239"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49836221"
 ---
-# <a name="topology-trusted-application"></a><span data-ttu-id="0b3b1-104">Topologia: Aplicativo Confiável</span><span class="sxs-lookup"><span data-stu-id="0b3b1-104">Topology: Trusted Application</span></span>
+# <a name="topology-trusted-application"></a><span data-ttu-id="b85e9-104">Topologia: Aplicativo Confiável</span><span class="sxs-lookup"><span data-stu-id="b85e9-104">Topology: Trusted Application</span></span>
 
-<span data-ttu-id="0b3b1-105">O que você deseja fazer?</span><span class="sxs-lookup"><span data-stu-id="0b3b1-105">What do you want to do?</span></span> <span data-ttu-id="0b3b1-106">Clique no link da tarefa que você deseja executar.</span><span class="sxs-lookup"><span data-stu-id="0b3b1-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="b85e9-105">O que você deseja fazer?</span><span class="sxs-lookup"><span data-stu-id="b85e9-105">What do you want to do?</span></span> <span data-ttu-id="b85e9-106">Clique no link para a tarefa que você deseja executar.</span><span class="sxs-lookup"><span data-stu-id="b85e9-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="0b3b1-107">Exibir uma lista de aplicativos confiáveis</span><span class="sxs-lookup"><span data-stu-id="0b3b1-107">View a List of Trusted Applications</span></span>](https://technet.microsoft.com/library/f09300b3-67cf-4e70-a51a-23d62479b913.aspx)
+- [<span data-ttu-id="b85e9-107">Exibir uma lista de aplicativos confiáveis</span><span class="sxs-lookup"><span data-stu-id="b85e9-107">View a List of Trusted Applications</span></span>](https://technet.microsoft.com/library/f09300b3-67cf-4e70-a51a-23d62479b913.aspx)
 
 
 
