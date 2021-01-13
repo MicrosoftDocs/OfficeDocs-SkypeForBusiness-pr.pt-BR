@@ -1,8 +1,8 @@
 ---
-title: Testar as configurações de tronco SIP no Skype for Business Server
+title: Testar as definições de configuração do tronco SIP no Skype for Business Server
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -15,33 +15,33 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: c8712308-0e2d-4e39-8f90-d1a250487a94
-description: 'Resumo: saiba como testar as configurações de configuração de tronco SIP usando o Shell de gerenciamento do Skype for Business Server.'
-ms.openlocfilehash: a85af538f5729310c75e57313b049dcb14d09542
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+description: 'Resumo: Saiba como testar as definições de configuração do tronco SIP usando o Shell de Gerenciamento do Skype for Business Server.'
+ms.openlocfilehash: 8b3a98d54fd0d2dc8bb69e553e0c0a3a7b98b1ca
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41766904"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49830631"
 ---
-# <a name="test-sip-trunk-configuration-settings-in-skype-for-business-server"></a><span data-ttu-id="bf196-103">Testar as configurações de tronco SIP no Skype for Business Server</span><span class="sxs-lookup"><span data-stu-id="bf196-103">Test SIP trunk configuration settings in Skype for Business Server</span></span>
+# <a name="test-sip-trunk-configuration-settings-in-skype-for-business-server"></a><span data-ttu-id="b32e2-103">Testar as definições de configuração do tronco SIP no Skype for Business Server</span><span class="sxs-lookup"><span data-stu-id="b32e2-103">Test SIP trunk configuration settings in Skype for Business Server</span></span>
  
-<span data-ttu-id="bf196-104">**Resumo:** Saiba como testar as definições de configuração de tronco SIP usando o Shell de gerenciamento do Skype for Business Server.</span><span class="sxs-lookup"><span data-stu-id="bf196-104">**Summary:** Learn how to test SIP trunk configuration settings by using the Skype for Business Server Management Shell.</span></span>
+<span data-ttu-id="b32e2-104">**Resumo:** Saiba como testar as definições de configuração do tronco SIP usando o Shell de Gerenciamento do Skype for Business Server.</span><span class="sxs-lookup"><span data-stu-id="b32e2-104">**Summary:** Learn how to test SIP trunk configuration settings by using the Skype for Business Server Management Shell.</span></span>
   
-<span data-ttu-id="bf196-p101">As configurações do tronco SIP definem o relacionamento e as capacidades entre um Servidor de Mediação e o gateway da Rede Telefônica Pública Comutada (PSTN), uma Central Privada de Comutação de IP (PBX) ou um Controlador de Borda de Sessão (SBC) no provedor de serviço. Essas configurações realizam atividades como especificar:</span><span class="sxs-lookup"><span data-stu-id="bf196-p101">SIP trunk configuration settings define the relationship and capabilities between a Mediation Server and the Public Switched Telephone Network (PSTN) gateway, an IP-Public Branch eXchange (PBX), or a Session Border Controller (SBC) at the service provider. These settings do such things as specify:</span></span>
+<span data-ttu-id="b32e2-105">As definições de configuração do tronco SIP definem o relacionamento e as capacidades entre um Servidor de Mediação e o gateway PSTN (Rede Telefônica Pública Comutado), um PBX (Branch eXchange) da IP-Public ou um Controlador de Borda de Sessão (SBC) no provedor de serviços.</span><span class="sxs-lookup"><span data-stu-id="b32e2-105">SIP trunk configuration settings define the relationship and capabilities between a Mediation Server and the Public Switched Telephone Network (PSTN) gateway, an IP-Public Branch eXchange (PBX), or a Session Border Controller (SBC) at the service provider.</span></span> <span data-ttu-id="b32e2-106">Estas configurações fazem coisas como especificar:</span><span class="sxs-lookup"><span data-stu-id="b32e2-106">These settings do such things as specify:</span></span>
   
-- <span data-ttu-id="bf196-107">Se o desvio de mídia deve ser ativado nos troncos.</span><span class="sxs-lookup"><span data-stu-id="bf196-107">Whether media bypass should be enabled on the trunks.</span></span>
+- <span data-ttu-id="b32e2-107">Se o bypass de mídia deve ser habilitado nos troncos.</span><span class="sxs-lookup"><span data-stu-id="b32e2-107">Whether media bypass should be enabled on the trunks.</span></span>
     
-- <span data-ttu-id="bf196-108">As condições em que os pacotes do Protocolo de Controle de Transporte em Tempo Real (RTCP) são enviados.</span><span class="sxs-lookup"><span data-stu-id="bf196-108">The conditions under which Realtime Transport Control Protocol (RTCP) packets are sent.</span></span>
+- <span data-ttu-id="b32e2-108">As condições sob as quais pacotes RTCP (Protocolo de Controle de Transporte em Tempo Real) são enviados.</span><span class="sxs-lookup"><span data-stu-id="b32e2-108">The conditions under which Realtime Transport Control Protocol (RTCP) packets are sent.</span></span>
     
-- <span data-ttu-id="bf196-109">Se é necessário criptografia de Protocolo de Transporte Seguro em Tempo Real (SRTP) em cada tronco.</span><span class="sxs-lookup"><span data-stu-id="bf196-109">Whether or not Secure Realtime Transport Protocol (SRTP) encryption is required on each trunk.</span></span>
+- <span data-ttu-id="b32e2-109">Se a criptografia SRTP (Secure Realtime Transport Protocol) é necessária ou não em cada tronco.</span><span class="sxs-lookup"><span data-stu-id="b32e2-109">Whether or not Secure Realtime Transport Protocol (SRTP) encryption is required on each trunk.</span></span>
     
-<span data-ttu-id="bf196-110">Quando você instala o Skype for Business Server, uma coleção global de configurações de tronco SIP é criada para você.</span><span class="sxs-lookup"><span data-stu-id="bf196-110">When you install Skype for Business Server, a global collection of SIP trunk configuration settings is created for you.</span></span> <span data-ttu-id="bf196-111">Além disso, os administradores podem criar conjuntos de configurações personalizadas no escopo local ou de serviço (apenas para o serviço de gateway PSTN).</span><span class="sxs-lookup"><span data-stu-id="bf196-111">In addition, administrators can create custom setting collections at the site scope or at the service scope (for the PSTN gateway service, only).</span></span> <span data-ttu-id="bf196-112">Os administradores também podem usar o cmdlet Test-CsTrunkConfiguration para verificar se um tronco pode converter um número conforme discado por um usuário para um número que pode ser tratado pelo gateway.</span><span class="sxs-lookup"><span data-stu-id="bf196-112">Administrators can also use the Test-CsTrunkConfiguration cmdlet to verify that a trunk can convert a number as dialed by a user to a number that can be handled by the gateway.</span></span>
+<span data-ttu-id="b32e2-110">Quando você instala o Skype for Business Server, um conjunto global de definições de configuração de tronco SIP é criado para você.</span><span class="sxs-lookup"><span data-stu-id="b32e2-110">When you install Skype for Business Server, a global collection of SIP trunk configuration settings is created for you.</span></span> <span data-ttu-id="b32e2-111">Além disso, os administradores podem criar conjuntos de configurações personalizadas no escopo local ou de serviço (apenas para o serviço de gateway PSTN).</span><span class="sxs-lookup"><span data-stu-id="b32e2-111">In addition, administrators can create custom setting collections at the site scope or at the service scope (for the PSTN gateway service, only).</span></span> <span data-ttu-id="b32e2-112">Os administradores também podem usar o cmdlet Test-CsTrunkConfiguration para verificar que um tronco pode converter um número conforme discado por um usuário para um número que pode ser tratado pelo gateway.</span><span class="sxs-lookup"><span data-stu-id="b32e2-112">Administrators can also use the Test-CsTrunkConfiguration cmdlet to verify that a trunk can convert a number as dialed by a user to a number that can be handled by the gateway.</span></span>
   
-<span data-ttu-id="bf196-113">As definições de configuração de tronco podem ser testadas apenas usando o Windows PowerShell e o cmdlet  [Test-CsTrunkConfiguration](https://docs.microsoft.com/powershell/module/skype/test-cstrunkconfiguration?view=skype-ps).</span><span class="sxs-lookup"><span data-stu-id="bf196-113">Trunk configuration settings can only be tested by using Windows PowerShell and the [Test-CsTrunkConfiguration](https://docs.microsoft.com/powershell/module/skype/test-cstrunkconfiguration?view=skype-ps) cmdlet.</span></span> <span data-ttu-id="bf196-114">Esse cmdlet pode ser executado no Shell de gerenciamento do Skype for Business Server ou em uma sessão remota do Shell de gerenciamento do Skype for Business Server.</span><span class="sxs-lookup"><span data-stu-id="bf196-114">This cmdlet can be run either from the Skype for Business Server Management Shell or from a remote session of Skype for Business Server Management Shell.</span></span>
+<span data-ttu-id="b32e2-113">As definições de configuração de tronco podem ser testadas apenas usando o Windows PowerShell e o cmdlet [Test-CsTrunkConfiguration](https://docs.microsoft.com/powershell/module/skype/test-cstrunkconfiguration?view=skype-ps).</span><span class="sxs-lookup"><span data-stu-id="b32e2-113">Trunk configuration settings can only be tested by using Windows PowerShell and the [Test-CsTrunkConfiguration](https://docs.microsoft.com/powershell/module/skype/test-cstrunkconfiguration?view=skype-ps) cmdlet.</span></span> <span data-ttu-id="b32e2-114">Esse cmdlet pode ser executado a partir do Shell de Gerenciamento do Skype for Business Server ou de uma sessão remota do Shell de Gerenciamento do Skype for Business Server.</span><span class="sxs-lookup"><span data-stu-id="b32e2-114">This cmdlet can be run either from the Skype for Business Server Management Shell or from a remote session of Skype for Business Server Management Shell.</span></span>
   
-### <a name="to-test-sip-trunk-configuration-settings"></a><span data-ttu-id="bf196-115">Testar as definições da configuração do Tronco SIP</span><span class="sxs-lookup"><span data-stu-id="bf196-115">To test SIP trunk configuration settings</span></span>
+### <a name="to-test-sip-trunk-configuration-settings"></a><span data-ttu-id="b32e2-115">Para testar as definições de configuração do tronco SIP</span><span class="sxs-lookup"><span data-stu-id="b32e2-115">To test SIP trunk configuration settings</span></span>
 
-- <span data-ttu-id="bf196-116">Este comando verifica se as definições de configuração para o local Redmond podem converter corretamente o número discado 4255551212.</span><span class="sxs-lookup"><span data-stu-id="bf196-116">This command verifies that the trunk configuration settings for the Redmond site can correctly convert the dialed number 4255551212.</span></span>
+- <span data-ttu-id="b32e2-116">Este comando verifica se as definições de configuração para o local Redmond podem converter corretamente o número discado 4255551212.</span><span class="sxs-lookup"><span data-stu-id="b32e2-116">This command verifies that the trunk configuration settings for the Redmond site can correctly convert the dialed number 4255551212.</span></span>
     
   ```powershell
   $trunk = Get-CsTrunkConfiguration -Identity "site:Redmond"

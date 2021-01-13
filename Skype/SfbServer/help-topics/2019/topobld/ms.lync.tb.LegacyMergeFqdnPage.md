@@ -1,8 +1,8 @@
 ---
 title: FQDN de Mesclagem de Legado
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,18 +14,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d72841ff-3c4d-4233-a933-f3a95d75d89b
 ROBOTS: NOINDEX, NOFOLLOW
-description: O FQDN interno do pool de bordas do Access é usado para vários cenários em que os usuários internos se comunicam com usuários externos para Federação, acesso de usuário remoto e conectividade de IM pública. Se um servidor de borda com balanceamento de carga foi implantado em seu ambiente herdado, insira o nome de domínio totalmente qualificado (FQDN) do balanceador de carga interno.
-ms.openlocfilehash: 40af6b5ffa57df56f1b41760435b3d8b9f13715e
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: O FQDN interno do Pool de Borda de Acesso é usado para uma variedade de cenários em que os usuários internos se comunicam com usuários externos para federação, acesso de usuário remoto e conectividade de IM pública. Se um Servidor de Borda com balanceamento de carga tiver sido implantado no seu ambiente herdado, insira o FQDN (nome de domínio totalmente qualificado) do balanceador de carga interno.
+ms.openlocfilehash: 9e4446a89b1f8976db4d325175c3e760865ac118
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41787701"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49827441"
 ---
-# <a name="legacy-merge-fqdn"></a><span data-ttu-id="29e20-104">FQDN de Mesclagem de Legado</span><span class="sxs-lookup"><span data-stu-id="29e20-104">Legacy Merge FQDN</span></span>
+# <a name="legacy-merge-fqdn"></a><span data-ttu-id="59d87-104">FQDN de Mesclagem de Legado</span><span class="sxs-lookup"><span data-stu-id="59d87-104">Legacy Merge FQDN</span></span>
  
-<span data-ttu-id="29e20-105">O **FQDN interno do pool de bordas do Access** é usado para vários cenários em que os usuários internos se comunicam com usuários externos para Federação, acesso de usuário remoto e conectividade de im pública.</span><span class="sxs-lookup"><span data-stu-id="29e20-105">The **Access Edge Pool internal FQDN** is used for a variety of scenarios where internal users communicate with external users for federation, remote user access, and public IM connectivity.</span></span> <span data-ttu-id="29e20-106">Se um servidor de borda com balanceamento de carga foi implantado em seu ambiente herdado, insira o nome de domínio totalmente qualificado (FQDN) do balanceador de carga interno.</span><span class="sxs-lookup"><span data-stu-id="29e20-106">If a load-balanced Edge Server was deployed in your legacy environment, enter the fully qualified domain name (FQDN) of the internal load balancer.</span></span>
+<span data-ttu-id="59d87-p102">O **FQDN interno do Pool de Borda de Acesso** é usado para uma variedade de cenários onde os usuários internos se comunicam com usuários externos para federação, acesso de usuários remotos e conectividade de IM Pública. Se um Servidor de Borda com balanceamento de carga tiver sido implantado no seu ambiente herdado, insira o FQDN (nome de domínio totalmente qualificado) do balanceador de carga interno.</span><span class="sxs-lookup"><span data-stu-id="59d87-p102">The **Access Edge Pool internal FQDN** is used for a variety of scenarios where internal users communicate with external users for federation, remote user access, and public IM connectivity. If a load-balanced Edge Server was deployed in your legacy environment, enter the fully qualified domain name (FQDN) of the internal load balancer.</span></span>
   
-<span data-ttu-id="29e20-107">O valor da **porta de acesso SIP interna** do **5061** é a porta SIP do protocolo TCP (Transmission Control Protocol) padrão para comunicação com clientes, pools e servidores de front-end herdados.</span><span class="sxs-lookup"><span data-stu-id="29e20-107">The **Internal SIP access port** value of **5061** is the default Transmission Control Protocol (TCP) SIP port for communicating with clients, legacy Front End pools and servers.</span></span> <span data-ttu-id="29e20-108">Se o valor padrão não for usado, atualize a **porta de acesso SIP:** valor.</span><span class="sxs-lookup"><span data-stu-id="29e20-108">If the default value was not used, update the **Internal SIP access port:** value.</span></span>
+<span data-ttu-id="59d87-p103">O valor de **porta de acesso SIP interno** de **5061** é a porta padrão TCP (Transmission Control Protocol) SIP para se comunicar com clientes, servidores e pools de Front-End herdadas. Caso o valor padrão não tenha sido usado, atualize a **porta de acesso SIP interno:** valor.</span><span class="sxs-lookup"><span data-stu-id="59d87-p103">The **Internal SIP access port** value of **5061** is the default Transmission Control Protocol (TCP) SIP port for communicating with clients, legacy Front End pools and servers. If the default value was not used, update the **Internal SIP access port:** value.</span></span>
   
 

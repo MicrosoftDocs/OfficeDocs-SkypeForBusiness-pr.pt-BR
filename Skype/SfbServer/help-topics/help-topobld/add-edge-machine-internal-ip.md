@@ -1,8 +1,8 @@
 ---
 title: Adicionar IP Interno de Máquina de Borda
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,17 +15,17 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 34717d03-5ece-4be3-9d05-25497250dc16
 description: Use esta página para especificar o endereço IP interno e o nome de domínio totalmente qualificado (FQDN) interno do Servidor de Borda.
-ms.openlocfilehash: ac84f2e1c74a4ae8f01895da0ba1b1ec75e63211
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+ms.openlocfilehash: 32ff1a6a409f2714cd6b971f5e0cd0cdccdcbc1f
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48219352"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49828741"
 ---
-# <a name="add-edge-machine-internal-ip"></a><span data-ttu-id="9da0f-103">Adicionar IP Interno de Máquina de Borda</span><span class="sxs-lookup"><span data-stu-id="9da0f-103">Add Edge Machine Internal IP</span></span>
+# <a name="add-edge-machine-internal-ip"></a><span data-ttu-id="99cbf-103">Adicionar IP Interno de Máquina de Borda</span><span class="sxs-lookup"><span data-stu-id="99cbf-103">Add Edge Machine Internal IP</span></span>
 
-<span data-ttu-id="9da0f-104">Use esta página para especificar o endereço IP interno e o nome de domínio totalmente qualificado (FQDN) interno do Servidor de Borda.</span><span class="sxs-lookup"><span data-stu-id="9da0f-104">Use this page to specify the internal IP address and internal fully qualified domain name (FQDN) for the Edge Server.</span></span>
+<span data-ttu-id="99cbf-104">Use esta página para especificar o endereço IP interno e o nome de domínio totalmente qualificado (FQDN) interno do Servidor de Borda.</span><span class="sxs-lookup"><span data-stu-id="99cbf-104">Use this page to specify the internal IP address and internal fully qualified domain name (FQDN) for the Edge Server.</span></span>
 
-<span data-ttu-id="9da0f-105">O FQDN especificado precisa ser idêntico ao nome do computador configurado no servidor.</span><span class="sxs-lookup"><span data-stu-id="9da0f-105">The FQDN that you specify must be identical to the computer name configured on the server.</span></span> <span data-ttu-id="9da0f-106">Por padrão, o nome de computador de um computador que não faz parte de um domínio é um nome curto, não um FQDN.</span><span class="sxs-lookup"><span data-stu-id="9da0f-106">By default, the computer name of a computer that is not joined to a domain is a short name, not an FQDN.</span></span> <span data-ttu-id="9da0f-107">O Construtor de Topologia utiliza FQDNs, não nomes curtos.</span><span class="sxs-lookup"><span data-stu-id="9da0f-107">Topology Builder uses FQDNs, not short names.</span></span> <span data-ttu-id="9da0f-108">Portanto, é necessário configurar um sufixo DNS (Domain Name System) no nome do computador a ser implantado como um Servidor de Borda que não faz parte de um domínio.</span><span class="sxs-lookup"><span data-stu-id="9da0f-108">So, you must configure a Domain Name System (DNS) suffix on the name of the computer to be deployed as an Edge Server that is not joined to a domain.</span></span> <span data-ttu-id="9da0f-109">Para obter detalhes sobre como adicionar um sufixo DNS ao nome de um computador, consulte [Configure DNS for Edge Support](https://technet.microsoft.com/library/955493e6-aa29-424d-bb81-1ef87b3b15e3.aspx).</span><span class="sxs-lookup"><span data-stu-id="9da0f-109">For details about adding a DNS suffix to a computer name, see [Configure DNS for Edge Support](https://technet.microsoft.com/library/955493e6-aa29-424d-bb81-1ef87b3b15e3.aspx)</span></span>
+<span data-ttu-id="99cbf-105">O FQDN especificado precisa ser idêntico ao nome do computador configurado no servidor.</span><span class="sxs-lookup"><span data-stu-id="99cbf-105">The FQDN that you specify must be identical to the computer name configured on the server.</span></span> <span data-ttu-id="99cbf-106">Por padrão, o nome de computador de um computador que não faz parte de um domínio é um nome curto, não um FQDN.</span><span class="sxs-lookup"><span data-stu-id="99cbf-106">By default, the computer name of a computer that is not joined to a domain is a short name, not an FQDN.</span></span> <span data-ttu-id="99cbf-107">O Construtor de Topologia utiliza FQDNs, não nomes curtos.</span><span class="sxs-lookup"><span data-stu-id="99cbf-107">Topology Builder uses FQDNs, not short names.</span></span> <span data-ttu-id="99cbf-108">Portanto, é necessário configurar um sufixo DNS (Domain Name System) no nome do computador a ser implantado como um Servidor de Borda que não faz parte de um domínio.</span><span class="sxs-lookup"><span data-stu-id="99cbf-108">So, you must configure a Domain Name System (DNS) suffix on the name of the computer to be deployed as an Edge Server that is not joined to a domain.</span></span> <span data-ttu-id="99cbf-109">Para obter detalhes sobre como adicionar um sufixo DNS ao nome de um computador, consulte [Configure DNS for Edge Support](https://technet.microsoft.com/library/955493e6-aa29-424d-bb81-1ef87b3b15e3.aspx).</span><span class="sxs-lookup"><span data-stu-id="99cbf-109">For details about adding a DNS suffix to a computer name, see [Configure DNS for Edge Support](https://technet.microsoft.com/library/955493e6-aa29-424d-bb81-1ef87b3b15e3.aspx)</span></span>
 
 
