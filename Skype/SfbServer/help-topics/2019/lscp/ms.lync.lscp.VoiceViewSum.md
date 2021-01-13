@@ -1,8 +1,8 @@
 ---
-title: Revisão das configurações de voz não confirmadas
+title: Revisão de configurações de voz não confirmados
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,17 +14,17 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: fa2bc914-dfe0-4a1f-b827-41092a715a5d
 ROBOTS: NOINDEX, NOFOLLOW
-description: Use a caixa de diálogo Definições de configuração de voz não confirmadas para revisar todas as alterações feitas. Role pela caixa de diálogo para revisar todas as alterações não autorizadas ou clique nas setas para expandir ou recolher as várias seções. Quando terminar, clique em fechar. Após fechar essa caixa de diálogo, você pode modificar as alterações ou confirmá-las.
-ms.openlocfilehash: d15e836e469d466c185ed6912b2fb6e566aae7d1
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: Use a caixa de diálogo Definições de Configuração de Voz Não Autorizadas para revisar todas as alterações feitas. Role pela caixa de diálogo para revisar todas as alterações não autorizadas ou clique nas setas para expandir ou recolher as várias seções. Quando terminar, clique em Fechar. Depois de fechar essa caixa de diálogo, você poderá modificar suas alterações ou confirmá-las.
+ms.openlocfilehash: 9f7f7f3e084b4c054a761ed83e0b796da25b7e79
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41794189"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49801251"
 ---
-# <a name="uncommitted-voice-configuration-settings-review"></a><span data-ttu-id="3a1f2-106">Definições de Configuração de Voz Não Confirmadas: Revisar</span><span class="sxs-lookup"><span data-stu-id="3a1f2-106">Uncommitted Voice Configuration Settings: Review</span></span>
+# <a name="uncommitted-voice-configuration-settings-review"></a><span data-ttu-id="3c481-106">Definições de Configuração de Voz Não Confirmadas: Revisar</span><span class="sxs-lookup"><span data-stu-id="3c481-106">Uncommitted Voice Configuration Settings: Review</span></span>
  
-<span data-ttu-id="3a1f2-107">Use a caixa de diálogo **definições de configuração de voz não confirmadas** para revisar todas as alterações feitas.</span><span class="sxs-lookup"><span data-stu-id="3a1f2-107">Use the **Uncommitted Voice Configuration Settings** dialog box to review all of the changes that you have made.</span></span> <span data-ttu-id="3a1f2-108">Role pela caixa de diálogo para revisar todas as alterações não autorizadas ou clique nas setas para expandir ou recolher as várias seções.</span><span class="sxs-lookup"><span data-stu-id="3a1f2-108">Scroll through the dialog box to review all of the uncommitted changes, or click the arrows to expand or collapse the different sections.</span></span> <span data-ttu-id="3a1f2-109">Quando terminar, clique em **fechar**.</span><span class="sxs-lookup"><span data-stu-id="3a1f2-109">When you are finished, click **Close**.</span></span> <span data-ttu-id="3a1f2-110">Após fechar essa caixa de diálogo, você pode modificar as alterações ou confirmá-las.</span><span class="sxs-lookup"><span data-stu-id="3a1f2-110">After you close this dialog box, you can modify your changes or commit them.</span></span>
+<span data-ttu-id="3c481-p102">Use a caixa de diálogo **Definições de Configuração de Voz Não Confirmadas** para examinar todas as alterações que você fez. Role pela caixa de diálogo para examinar todas as alterações não confirmadas ou clique nas setas para expandir ou recolher as diferentes seções. Quando terminar, clique em **Fechar**. Depois de fechar essa caixa de diálogo, você poderá modificar suas alterações ou confirmá-las.</span><span class="sxs-lookup"><span data-stu-id="3c481-p102">Use the **Uncommitted Voice Configuration Settings** dialog box to review all of the changes that you have made. Scroll through the dialog box to review all of the uncommitted changes, or click the arrows to expand or collapse the different sections. When you are finished, click **Close**. After you close this dialog box, you can modify your changes or commit them.</span></span>
   
  
   

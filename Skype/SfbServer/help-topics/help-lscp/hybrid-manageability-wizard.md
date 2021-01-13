@@ -1,8 +1,8 @@
 ---
-title: Assistente de capacidade de gerenciamento de implantação híbrida
+title: Assistente de Capacidade de gerenciamento Híbrida
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 2/8/2018
 audience: ITPro
@@ -14,16 +14,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c8600c4e-dc54-4af2-a72e-c1b997d83443
-description: Você pode usar o assistente de gerenciamento híbrido para executar algumas das tarefas de configuração necessárias para configurar uma implantação híbrida com o Skype for Business online. Para obter mais informações sobre como configurar sua implantação para híbrido, consulte Configurar seu ambiente com o assistente de gerenciamento híbrido.
-ms.openlocfilehash: 3d377a9e3928e62eaf8ab88281ca6e533cfeca9f
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Você pode usar o assistente de Capacidade de Gerenciamento Híbrida para executar algumas das tarefas de configuração necessárias para configurar uma implantação híbrida com o Skype for Business Online. Para obter mais informações sobre como configurar sua implantação para a implantação híbrida, consulte Configurar seu ambiente com o assistente de Gerenciabilidade Híbrida.
+ms.openlocfilehash: ca10abaf9f5249b3265ada08024f91c755d72712
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41822744"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49804071"
 ---
-# <a name="hybrid-manageability-wizard"></a><span data-ttu-id="9b5a7-104">Assistente de capacidade de gerenciamento de implantação híbrida</span><span class="sxs-lookup"><span data-stu-id="9b5a7-104">Hybrid Manageability wizard</span></span>
+# <a name="hybrid-manageability-wizard"></a><span data-ttu-id="58b86-104">Assistente de Capacidade de gerenciamento Híbrida</span><span class="sxs-lookup"><span data-stu-id="58b86-104">Hybrid Manageability wizard</span></span>
 
-<span data-ttu-id="9b5a7-105">Você pode usar o assistente de gerenciamento híbrido para executar algumas das tarefas de configuração necessárias para configurar uma implantação híbrida com o Skype for Business online.</span><span class="sxs-lookup"><span data-stu-id="9b5a7-105">You can use the Hybrid Manageability wizard to perform some of the configuration tasks necessary to set up a hybrid deployment with Skype for Business Online.</span></span> <span data-ttu-id="9b5a7-106">Para obter mais informações sobre como configurar sua implantação para híbrido, consulte [configurar seu ambiente com o assistente de gerenciamento híbrido](https://technet.microsoft.com/library/d777f79b-a740-4aba-a9e2-c91f0315b6f8.aspx).</span><span class="sxs-lookup"><span data-stu-id="9b5a7-106">For more information about how to configure your deployment for hybrid, see [Configure your environment with the Hybrid Manageability wizard](https://technet.microsoft.com/library/d777f79b-a740-4aba-a9e2-c91f0315b6f8.aspx).</span></span>
+<span data-ttu-id="58b86-105">Você pode usar o assistente de Capacidade de Gerenciamento Híbrida para executar algumas das tarefas de configuração necessárias para configurar uma implantação híbrida com o Skype for Business Online.</span><span class="sxs-lookup"><span data-stu-id="58b86-105">You can use the Hybrid Manageability wizard to perform some of the configuration tasks necessary to set up a hybrid deployment with Skype for Business Online.</span></span> <span data-ttu-id="58b86-106">Para obter mais informações sobre como configurar sua implantação para a implantação híbrida, consulte Configurar seu ambiente com o [assistente de Gerenciabilidade Híbrida.](https://technet.microsoft.com/library/d777f79b-a740-4aba-a9e2-c91f0315b6f8.aspx)</span><span class="sxs-lookup"><span data-stu-id="58b86-106">For more information about how to configure your deployment for hybrid, see [Configure your environment with the Hybrid Manageability wizard](https://technet.microsoft.com/library/d777f79b-a740-4aba-a9e2-c91f0315b6f8.aspx).</span></span>
 
 

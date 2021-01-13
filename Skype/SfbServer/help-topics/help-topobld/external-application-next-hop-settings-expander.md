@@ -1,8 +1,8 @@
 ---
 title: Expansor de Configurações de Próximo Salto de Aplicativo Externo
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -14,16 +14,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: be7857e4-9a75-4de5-91b0-bcb241930a0c
-description: Você pode especificar o servidor de próximo salto do pool de servidores de aplicativos confiáveis, selecionando o pool de front-ends Enterprise Edition ou o servidor front-end Standard Edition na lista suspensa. Um Diretor ou pool de Diretores não é uma seleção válida para o servidor do próximo salto do Aplicativo Confiável e não aparecerá na lista. Clique em OK para aceitar e salvar suas alterações. Clique em  Cancelar  para descartar suas alterações e sair da página de propriedades.
-ms.openlocfilehash: 6cbe7f2b07effd416d33d681179df5ed1f8be23b
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+description: Você pode especificar o servidor do próximo salto do pool de servidores de Aplicativos Confiáveis selecionando o pool de front-end enterprise edition ou o servidor de front-end Standard Edition definido na lista drop-down. Um Diretor ou pool de Diretores não é uma seleção válida para o servidor do próximo salto do Aplicativo Confiável e não aparecerá na lista. Clique em OK para aceitar e salvar suas alterações. Clique em  Cancelar  para descartar suas alterações e sair da página de propriedades.
+ms.openlocfilehash: 373797fc5108f1c302670fb2a22d0314e83b9d0b
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48218562"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49800161"
 ---
-# <a name="external-application-next-hop-settings-expander"></a><span data-ttu-id="f2fc5-106">Expansor de Configurações de Próximo Salto de Aplicativo Externo</span><span class="sxs-lookup"><span data-stu-id="f2fc5-106">External Application Next Hop Settings Expander</span></span>
+# <a name="external-application-next-hop-settings-expander"></a><span data-ttu-id="337ad-106">Expansor de Configurações de Próximo Salto de Aplicativo Externo</span><span class="sxs-lookup"><span data-stu-id="337ad-106">External Application Next Hop Settings Expander</span></span>
  
-<span data-ttu-id="f2fc5-107">Você pode especificar o servidor de próximo salto do pool de servidores de aplicativos confiáveis, selecionando o pool de front-ends Enterprise Edition ou o servidor front-end Standard Edition na lista suspensa.</span><span class="sxs-lookup"><span data-stu-id="f2fc5-107">You can specify the Trusted Application server pool's next hop server by selecting the defined Enterprise Edition Front End pool or Standard Edition Front End Server from the drop-down list.</span></span> <span data-ttu-id="f2fc5-108">Um Diretor ou pool de Diretores não é uma seleção válida para o servidor do próximo salto do Aplicativo Confiável e não aparecerá na lista.</span><span class="sxs-lookup"><span data-stu-id="f2fc5-108">A Director or Director pool is not a valid selection for a Trusted Application server next hop, and it will not appear in the list.</span></span> <span data-ttu-id="f2fc5-109">Clique em **OK** para aceitar e salvar suas alterações.</span><span class="sxs-lookup"><span data-stu-id="f2fc5-109">Click **OK** to accept and save your changes.</span></span> <span data-ttu-id="f2fc5-110">Clique em  \*\*Cancelar \*\* para descartar suas alterações e sair da página de propriedades.</span><span class="sxs-lookup"><span data-stu-id="f2fc5-110">Click **Cancel** to discard your changes and exit the properties page.</span></span>
+<span data-ttu-id="337ad-107">Você pode especificar o servidor do próximo salto do pool de servidores de Aplicativos Confiáveis selecionando o pool de front-end enterprise edition ou o servidor de front-end Standard Edition definido na lista drop-down.</span><span class="sxs-lookup"><span data-stu-id="337ad-107">You can specify the Trusted Application server pool's next hop server by selecting the defined Enterprise Edition Front End pool or Standard Edition Front End Server from the drop-down list.</span></span> <span data-ttu-id="337ad-108">Um Diretor ou pool de Diretores não é uma seleção válida para o servidor do próximo salto do Aplicativo Confiável e não aparecerá na lista.</span><span class="sxs-lookup"><span data-stu-id="337ad-108">A Director or Director pool is not a valid selection for a Trusted Application server next hop, and it will not appear in the list.</span></span> <span data-ttu-id="337ad-109">Clique **em OK** para aceitar e salvar suas alterações.</span><span class="sxs-lookup"><span data-stu-id="337ad-109">Click **OK** to accept and save your changes.</span></span> <span data-ttu-id="337ad-110">Clique em  **Cancelar** para descartar suas alterações e sair da página de propriedades.</span><span class="sxs-lookup"><span data-stu-id="337ad-110">Click **Cancel** to discard your changes and exit the properties page.</span></span>
   
 

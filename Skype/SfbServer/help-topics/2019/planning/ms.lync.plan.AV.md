@@ -1,8 +1,8 @@
 ---
 title: Audio Video Conferencing (Planning Tool)
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -16,19 +16,19 @@ localization_priority: Normal
 ms.assetid: 466f5d2e-0e70-434c-8318-dfdefe679a31
 ROBOTS: NOINDEX, NOFOLLOW
 description: A conferência de áudio/vídeo (A/V) do Skype for Business Server permite que os usuários participem de conferências de áudio ou vídeo em tempo real.
-ms.openlocfilehash: ad0934ff8f2467dac2df3ec80d596624208fd675
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+ms.openlocfilehash: c2d491308a3886a172ba800ba39ca9a5f637be02
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41796120"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49801161"
 ---
-# <a name="audio-video-conferencing-planning-tool"></a><span data-ttu-id="7a3bc-103">Audio Video Conferencing (Planning Tool)</span><span class="sxs-lookup"><span data-stu-id="7a3bc-103">Audio Video Conferencing (Planning Tool)</span></span>
+# <a name="audio-video-conferencing-planning-tool"></a><span data-ttu-id="b28c2-103">Audio Video Conferencing (Planning Tool)</span><span class="sxs-lookup"><span data-stu-id="b28c2-103">Audio Video Conferencing (Planning Tool)</span></span>
  
-<span data-ttu-id="7a3bc-104">A conferência de áudio/vídeo (A/V) do Skype for Business Server permite que os usuários participem de conferências de áudio ou vídeo em tempo real.</span><span class="sxs-lookup"><span data-stu-id="7a3bc-104">Skype for Business Server Audio/video (A/V) conferencing enables users to participate in real-time audio or video conferences.</span></span>
+<span data-ttu-id="b28c2-104">A conferência de áudio/vídeo (A/V) do Skype for Business Server permite que os usuários participem de conferências de áudio ou vídeo em tempo real.</span><span class="sxs-lookup"><span data-stu-id="b28c2-104">Skype for Business Server Audio/video (A/V) conferencing enables users to participate in real-time audio or video conferences.</span></span>
   
-<span data-ttu-id="7a3bc-105">Para obter detalhes de planejamento sobre a ativação da conferência de A/V na sua empresa, consulte o seguinte tópico e seus subtópicos:</span><span class="sxs-lookup"><span data-stu-id="7a3bc-105">For planning details about enabling A/V conferencing in your organization, see the following topic and its subtopics:</span></span> 
+<span data-ttu-id="b28c2-105">Para detalhes de planejamento sobre como habilite a conferência A/V em sua organização, consulte o tópico a seguir e seus subtópicos:</span><span class="sxs-lookup"><span data-stu-id="b28c2-105">For planning details about enabling A/V conferencing in your organization, see the following topic and its subtopics:</span></span> 
   
-- [<span data-ttu-id="7a3bc-106">Planejar a conferência no Skype for Business Server</span><span class="sxs-lookup"><span data-stu-id="7a3bc-106">Plan for conferencing in Skype for Business Server</span></span>](../../../plan-your-deployment/conferencing/conferencing.md)
+- [<span data-ttu-id="b28c2-106">Planejar a conferência no Skype for Business Server</span><span class="sxs-lookup"><span data-stu-id="b28c2-106">Plan for conferencing in Skype for Business Server</span></span>](../../../plan-your-deployment/conferencing/conferencing.md)
     
 

@@ -1,8 +1,8 @@
 ---
 title: Selecionar Rotas
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -14,21 +14,21 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d136adcd-6659-4113-941c-cca75033318e
-description: Use a caixa de diálogo Selecionar rotas para localizar as rotas de voz existentes que você pode usar.
-ms.openlocfilehash: ace250fab09bf6d4ada34d94bdd531a10a12ae74
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Use a caixa de diálogo Selecionar Rotas para localizar rotas de voz existentes que você possa usar.
+ms.openlocfilehash: 76a7927ec4e73ab8462f307e42477ab53030e399
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41822124"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49803731"
 ---
-# <a name="select-routes"></a><span data-ttu-id="d14f8-103">Selecionar Rotas</span><span class="sxs-lookup"><span data-stu-id="d14f8-103">Select Routes</span></span>
+# <a name="select-routes"></a><span data-ttu-id="a62af-103">Selecionar Rotas</span><span class="sxs-lookup"><span data-stu-id="a62af-103">Select Routes</span></span>
  
-<span data-ttu-id="d14f8-104">Use a caixa de diálogo **selecionar rotas** para localizar as rotas de voz existentes que você pode usar.</span><span class="sxs-lookup"><span data-stu-id="d14f8-104">Use the **Select Routes** dialog box to find existing voice routes that you can use.</span></span>
+<span data-ttu-id="a62af-104">Use a caixa de diálogo **Selecionar Rotas** para localizar rotas de voz existentes que você possa usar.</span><span class="sxs-lookup"><span data-stu-id="a62af-104">Use the **Select Routes** dialog box to find existing voice routes that you can use.</span></span>
   
 > [!NOTE]
-> <span data-ttu-id="d14f8-105">Para recuperar todas as rotas de voz disponíveis, não digite nada na caixa de pesquisa e, em seguida, clique no ícone de pesquisa.</span><span class="sxs-lookup"><span data-stu-id="d14f8-105">To retrieve all available voice routes, do not type anything in the search box and then click the search icon.</span></span> 
+> <span data-ttu-id="a62af-105">Clique no ícone de busca na caixa de busca sem digitar nada para obter todas as rotas de voz disponíveis.</span><span class="sxs-lookup"><span data-stu-id="a62af-105">To retrieve all available voice routes, do not type anything in the search box and then click the search icon.</span></span> 
   
-<span data-ttu-id="d14f8-106">Para obter detalhes sobre os diferentes procedimentos que você pode executar usando o painel de controle do Skype for Business Server, consulte [gerenciar o Skype for Business server 2015](../../manage/manage.md).</span><span class="sxs-lookup"><span data-stu-id="d14f8-106">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
+<span data-ttu-id="a62af-106">Para obter detalhes sobre os diferentes procedimentos que você pode executar usando o Painel de Controle do Skype for Business Server, consulte [Gerenciar o Skype for Business Server 2015.](../../manage/manage.md)</span><span class="sxs-lookup"><span data-stu-id="a62af-106">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
   
 
