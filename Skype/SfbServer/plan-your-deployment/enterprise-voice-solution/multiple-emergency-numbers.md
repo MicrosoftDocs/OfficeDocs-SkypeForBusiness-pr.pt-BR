@@ -1,8 +1,8 @@
 ---
 title: Planejar vários números de emergência no Skype for Business Server
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,97 +16,97 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 5ed45a22-ddf0-419f-84da-895a73df855f
 description: Leia este tópico para saber como planejar vários números de emergência no Skype for Business Server.
-ms.openlocfilehash: 10b6d02391fbf1ac7af1ae5233261c36fd2fd6ab
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: eb5fbc55bc7f2e783fbfa98c7bc7fb6db67ff748
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "41983016"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49813861"
 ---
 # <a name="plan-for-multiple-emergency-numbers-in-skype-for-business-server"></a>Planejar vários números de emergência no Skype for Business Server
  
 Leia este tópico para saber como planejar vários números de emergência no Skype for Business Server.
   
-O Skype for Business Server agora oferece suporte à configuração de vários números de emergência para um cliente. Vários números de emergência são um novo recurso introduzido na atualização cumulativa de junho de 2016. Enquanto os Estados Unidos têm um único número de emergência, 911, muitos países suportam vários números de emergência. O Reino Unido, por exemplo, oferece suporte a ambos os 999, o número de emergência específico para o Reino Unido e 112, o número de emergência da União Européia. 
+O Skype for Business Server agora dá suporte à configuração de vários números de emergência para um cliente. Vários números de emergência são um novo recurso introduzido na Atualização Cumulativa de junho de 2016. Embora os Estados Unidos tenha um único número de emergência, 911, muitos países/reções suportam vários números de emergência. O Reino Unido, por exemplo, dá suporte a 999, o número de emergência específico do Reino Unido, e 112, o número de emergência da União Europeia. 
   
-Esse recurso também é útil para os provedores de assistência médica nos Estados Unidos que desejam ter suporte de roaming para vários números de emergência azuis de código.
+Esse recurso também é útil para provedores de serviços de saúde nos Estados Unidos que querem ter suporte móvel para vários números de emergência de código azul.
   
 ## <a name="multiple-emergency-numbers-and-location-policies"></a>Vários números de emergência e políticas de local
 
-Você configura a chamada de emergência criando políticas de local que definem como a chamada de emergência será implementada. Use a política de local para definir o número que constitui uma chamada de emergência — por exemplo, 911 nos Estados Unidos; 999 e 112 no Reino Unido. A política de local determina se um usuário está habilitado para chamadas de emergência e, em caso afirmativo, qual é o comportamento de uma chamada de emergência. Você também pode definir se a segurança corporativa deve ser notificada automaticamente e como a chamada deve ser encaminhada.
+Configure as chamada de emergência criando políticas de local que definem como as chamada de emergência serão implementadas. Use a política de local para definir qual número constitui uma chamada de emergência— por exemplo, 911 nos Estados Unidos; 999 e 112 no Reino Unido. A política de local determina se um usuário está habilitado para chamada de emergência e, em caso afirmativo, qual é o comportamento de uma chamada de emergência. Você também pode definir se a segurança corporativa deve ser notificada automaticamente e como a chamada deve ser roteada.
   
-Para obter mais informações sobre como definir e modificar uma política de local, consulte [Plan Location Policies for Skype for Business Server](location-policies.md) e [Create Location Policies in Skype for Business Server](../../deploy/deploy-enterprise-voice/create-location-policies.md). Estes tópicos descrevem conceitos sobre políticas de local; no entanto, você deve seguir as instruções em [configurar vários números de emergência no Skype for Business](../../deploy/deploy-enterprise-voice/configure-multiple-emergency-numbers.md) para configurar vários números de emergência.
+Para obter mais informações sobre como definir e modificar uma política de local, consulte Planejar políticas de local para [o Skype for Business Server](location-policies.md) e criar políticas de local no Skype for Business [Server.](../../deploy/deploy-enterprise-voice/create-location-policies.md) Estes tópicos descrevem conceitos sobre políticas de local; No entanto, você deve seguir as instruções em [Configurar vários números de emergência no Skype for Business](../../deploy/deploy-enterprise-voice/configure-multiple-emergency-numbers.md) para configurar vários números de emergência.
   
 Ao planejar vários números de emergência, lembre-se do seguinte:
   
-- Com a atualização cumulativa de junho de 2016, você pode definir até 5 números de emergência para uma determinada política de local. Com a atualização cumulativa de novembro de 2016, esse número aumenta para 100.
+- Com a Atualização Cumulativa de junho de 2016, você pode definir até 5 números de emergência para uma determinada política de local. Com a Atualização Cumulativa de novembro de 2016, esse número aumenta para 100.
     
     > [!NOTE]
-    > Se você ainda não tiver atualizado para a atualização cumulativa de novembro de 2016, consulte [atualizações para o Skype for Business Server 2015](https://support.microsoft.com/help/3061064/updates-for-skype-for-business-server-2015). 
+    > Se você ainda não tiver atualizado para a Atualização Cumulativa de novembro de 2016, consulte Atualizações para [o Skype for Business Server 2015.](https://support.microsoft.com/help/3061064/updates-for-skype-for-business-server-2015) 
   
 - Para cada número de emergência, você pode especificar zero ou mais máscaras de discagem de emergência, que são exclusivas de uma determinada política de local.
     
-    Uma máscara de discagem é um número que você deseja converter no valor do valor do número de discagem de emergência quando for discado. Por exemplo, suponha que você insira um valor de 212 neste campo e o campo número de discagem de emergência tenha um valor de 911. Quando um usuário disca 212, o número será convertido em 911. Isso permite que números de emergência alternativos sejam discados e ainda tenham o serviço de emergência de atendimento de chamada (por exemplo, se alguém de um país ou região com um número de emergência diferente tentar discar o número do país ou da região, em vez do número da país ou região em que estão no momento). É possível definir múltiplas máscaras de discagem de emergência separando os valores com ponto e vírgulas. Por exemplo, 212;414. O limite de cadeia de caracteres para uma máscara de discagem é de 100 caracteres. Cada caractere deve ser um dígito entre 0 e 9.
+    Uma máscara de discagem é um número que você deseja converter no valor do número de discagem de emergência quando discado. Por exemplo, suponha que você insira um valor 212 nesse campo e que o campo de número de discagem de emergência tenha o valor 911. Quando um usuário discar 212, o número será convertido em 911. Isso permite que números de emergência alternativos sejam discados e ainda assim a chamada chegue aos serviços de emergência (por exemplo, se alguém de um país ou região com um número de emergência diferente tentar discar o número desse país ou região em vez do número do país ou região em que está no momento). É possível definir múltiplas máscaras de discagem de emergência separando os valores com ponto e vírgulas. Por exemplo, 212;414. O limite de cadeia de caracteres para uma máscara de discagem é de 100 caracteres. Cada caractere deve ser um dígito entre 0 e 9.
     
-- Cada política de local tem um único uso de rede telefônica pública comutada (PSTN), que é usada para determinar qual rota de voz é usada para rotear chamadas de emergência de clientes usando esta política. O uso pode ter uma rota exclusiva por número de emergência.
+- Cada política de local tem um único uso de PSTN (rede telefônica pública comutado) usado para determinar qual rota de voz é usada para encaminhar chamadas de emergência de clientes que usam essa política. O uso pode ter uma rota exclusiva por número de emergência.
     
-- Se uma política de local tiver os parâmetros EmergencyNumbers e dialstring definidos e o cliente oferecer suporte a vários números de emergência, o número de emergência terá prioridade. Se o cliente não oferecer suporte a vários números de emergência, a cadeia de caracteres de discagem de emergência será usada.
+- Se uma política de local tiver os parâmetros EmergencyNumbers e DialString definidos e o cliente suportar vários números de emergência, o número de emergência terá precedência. Se o cliente não suportar vários números de emergência, a cadeia de caracteres de discagem de emergência será usada.
     
-- Para obter informações sobre quais clientes do Skype for Business e Lync dão suporte ao recebimento de vários números de emergência, máscaras de discagem e usos de PSTN (rede telefônica pública comutada), consulte [suporte ao cliente](multiple-emergency-numbers.md#BKMK_Clients).
+- Para obter informações sobre quais clientes do Skype for Business e do Lync suportam o recebimento de vários números de emergência, máscaras de discagem e usos de PSTN (rede telefônica pública comutado), consulte Suporte ao [cliente.](multiple-emergency-numbers.md#BKMK_Clients)
     
 > [!NOTE]
-> Você não pode configurar vários números de emergência usando o painel de controle do Skype for Business. Você deve usar o PowerShell para configurar vários números de emergência. 
+> Você não pode configurar vários números de emergência usando o Painel de Controle do Skype for Business. Você deve usar o PowerShell para configurar vários números de emergência. 
   
 Antes de configurar vários números de emergência, lembre-se do seguinte:
   
-- Para configurar vários números de emergência, você deve usar o cmdlet New-CsEmergencyNumber e deve definir as políticas de local que dão suporte a mais de um número de emergência especificando o parâmetro EmergencyNumbers com os cmdlets [New-CsLocationPolicy](https://docs.microsoft.com/powershell/module/skype/new-cslocationpolicy?view=skype-ps) e [set-CsLocationPolicy](https://docs.microsoft.com/powershell/module/skype/set-cslocationpolicy?view=skype-ps) .
+- Para configurar vários números de emergência, você deve usar o cmdlet New-CsEmergencyNumber e definir políticas de local que suportam mais de um número de emergência especificando o parâmetro EmergencyNumbers com os cmdlets [New-CsLocationPolicy](https://docs.microsoft.com/powershell/module/skype/new-cslocationpolicy?view=skype-ps) e [Set-CsLocationPolicy.](https://docs.microsoft.com/powershell/module/skype/set-cslocationpolicy?view=skype-ps)
     
-- Se você tiver números existentes definidos usando o cmdlet Set-CsLocationPolicy ou New-CsLocationPolicy com os parâmetros EmergencyDialString e EmergencyDialMask, os valores especificados com o parâmetro EmergencyNumbers terão precedência sobre o antigo valores. Ou seja, os valores dos parâmetros EmergencyDialString e EmergencyDialMask serão ignorados.
+- Se você tiver números existentes definidos usando o cmdlet Set-CsLocationPolicy ou New-CsLocationPolicy com os parâmetros EmergencyDialString e EmergencyDialMask, os valores especificados com o parâmetro EmergencyNumbers terão precedência sobre os valores antigos. Ou seja, os valores dos parâmetros EmergencyDialString e EmergencyDialMask serão ignorados.
     
-- Se você tiver números existentes definidos usando o cmdlet Set-CsLocationPolicy ou New-CsLocationPolicy com os parâmetros EmergencyDialString e EmergencyDialMask *e não configurar novos números de emergência* , os números existentes continuarão a ser usados.
+- Se você tiver números existentes definidos usando o cmdlet Set-CsLocationPolicy ou New-CsLocationPolicy com os parâmetros EmergencyDialString e EmergencyDialMask e não configurar novos números de  *emergência,*  os números existentes continuarão a ser usados.
     
-- Para que o recurso vários números de emergência funcione, as versões do cliente que você está executando devem ser capazes de dar suporte ao novo recurso. Os clientes mais antigos continuarão a usar os valores antigos especificados pelos cmdlets Set-CsLocationPolicy ou New-CsLocationPolicy com os parâmetros EmergencyDialString e EmergencyDialMask. 
+- Para que o recurso de vários números de emergência funcione, as versões do cliente que você está executando devem ser capazes de dar suporte ao novo recurso. Os clientes mais antigos continuarão a usar os valores antigos especificados pelos cmdlets Set-CsLocationPolicy ou New-CsLocationPolicy com os parâmetros EmergencyDialString e EmergencyDialMask. 
     
-- Se os usuários forem discar um número que corresponda à cadeia de caracteres de discagem, não será necessária uma máscara de discagem. Por exemplo, se o número que um usuário disca for 911, a cadeia de caracteres de discagem será 911 e nenhuma máscara será necessária. 
+- Se os usuários discarem um número que corresponde à cadeia de caracteres de discagem, nenhuma máscara de discagem será necessária. Por exemplo, se o número que um usuário disca for 911, a cadeia de caracteres de discagem será 911 e nenhuma máscara será necessária. 
     
-Para obter mais informações sobre como configurar vários números de emergência, consulte [Configure Multiple Emergency numbers in Skype for Business](../../deploy/deploy-enterprise-voice/configure-multiple-emergency-numbers.md).
+Para obter mais informações sobre como configurar vários números de emergência, consulte [Configurar vários números de emergência no Skype for Business.](../../deploy/deploy-enterprise-voice/configure-multiple-emergency-numbers.md)
   
-A tabela a seguir mostra exemplos de diretivas de local (para fins do exemplo, nem todos os atributos são mostrados):
+A tabela a seguir mostra exemplos de políticas de local (para fins do exemplo, nem todos os atributos são mostrados):
   
 
-|**Nome da política de local**|**E911 habilitado**|**Cadeia de discagem de emergência**|**Máscara de discagem**|**Números de emergência**|**Uso de PSTN**|**Local necessário**|
+|**Nome da política de local**|**E911 habilitado**|**Sequência de discagem de emergência**|**Máscara de discagem**|**Números de emergência**|**Uso de PSTN**|**Local necessário**|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-|Estados Unidos  <br/> |Sim  <br/> |911  <br/> | 112; 999 <br/> ||USEmergency  <br/> |Sim  <br/> |
-|EUA-hospital  <br/> |Sim  <br/> |911  <br/> |450  <br/> |911  <br/> 450  <br/> |SeattleEmergency  <br/> |Sim  <br/> |
-|Londres  <br/> |Sim  <br/> |999  <br/> |144  <br/> |999-144  <br/> 112-911; 117; 118  <br/> |GBEmergency  <br/> |Não  <br/> |
+|Estados Unidos  <br/> |Sim  <br/> |911  <br/> | 112;999 <br/> ||USEmergency  <br/> |Sim  <br/> |
+|US-Hospital  <br/> |Sim  <br/> |911  <br/> |450  <br/> |911  <br/> 450  <br/> |SeattleEmergency  <br/> |Sim  <br/> |
+|Londres  <br/> |Sim  <br/> |999  <br/> |144  <br/> |999-144  <br/> 112-911;117;118  <br/> |GBEmergency  <br/> |Não  <br/> |
 |Índia  <br/> |Sim  <br/> |||100-911  <br/> 101  <br/> 102  <br/> |IndiaEmergency  <br/> |Não  <br/> |
    
- **Estados Unidos** — não há requisitos para vários números de emergência. Nos Estados Unidos, você usa a cadeia de caracteres de discagem de emergência antiga e as configurações de máscara de discagem.
+ **Estados Unidos** — Não há necessidade de vários números de emergência. Nos Estados Unidos, você usa as configurações antigas de Cadeia de Discagem de Emergência e Máscara de Discagem.
   
- **US-hospital** — há um requisito para não mascarar "450". Para clientes que ainda não dão suporte a vários números de emergência, você pode usar a cadeia de caracteres de discagem de emergência e as configurações de máscara de discagem antigas. Para clientes que dão suporte a vários números de emergência, você pode definir um número de emergência para "911" e "450", em vez de mascarar 450.
+ **US-Hospital** — Há um requisito para não mascarar "450". Para clientes que ainda não suportam vários números de emergência, você pode usar as configurações antigas de Sequência de Discagem de Emergência e Máscara de Discagem. Para clientes que suportam vários números de emergência, você pode definir um número de emergência para "911" e "450" em vez de mascarar 450.
   
- **London** — para clientes que ainda não dão suporte a vários números de emergência, você pode usar a cadeia de caracteres de discagem de emergência e configurações de máscara de discagem antigas. Para clientes que dão suporte a vários números de emergência, você pode definir um número de emergência para "999" e "112" com máscaras para cada.
+ **Londres** — Para clientes que ainda não suportam vários números de emergência, você pode usar as configurações antigas de Sequência de Discagem de Emergência e Máscara de Discagem. Para clientes que suportam vários números de emergência, você pode definir um número de emergência para "999" e "112" com máscaras para cada um.
   
- **Índia** – todos os clientes implantados dão suporte a vários números de emergência. Na Índia, você só precisa configurar vários números de emergência.
+ **Índia** — Todos os clientes implantados suportam vários números de emergência. Na Índia, você só precisa configurar vários números de emergência.
   
 ## <a name="client-support"></a>Suporte ao cliente
 <a name="BKMK_Clients"> </a>
 
-A tabela a seguir mostra o suporte ao cliente para vários números de emergência. A Microsoft continuará a testar e a liberar suporte para clientes adicionais. Verifique novamente com frequência.
+A tabela a seguir mostra o suporte do cliente para vários números de emergência. A Microsoft continuará a testar e liberar suporte para clientes adicionais. Verifique novamente com frequência.
 
 |**Windows**|**Versão**|
 |:-----|:-----|
-|**Clique para Executar** <br/> |CC (canal atual) lançado em 10 de maio de 2016-versão 1604 (Build 6868,2062)  <br/> |
-||FRDC (primeiro lançamento do canal atual) lançado em 14 de junho de 2016-versão 1605 (Build 6965,2058)  <br/> |
-||DC (canal adiado) lançado em 11 de outubro de 2016-versão 1605 (Build 6965,2092)  <br/> |
-|**MSI** <br/> |Atualização de junho de 7-[https://support.microsoft.com/kb/3115087](https://support.microsoft.com/kb/3115087) <br/> |
+|**Clique para Executar** <br/> |CC (Canal Atual) lançado em 10 de maio de 2016 - Versão 1604 (build 6868.2062)  <br/> |
+||FRDC (Primeiro Lançamento do Canal Atual) lançado em 14 de junho de 2016 - Versão 1605 (Build 6965.2058)  <br/> |
+||DC (Canal Adiado) lançado em 11 de outubro de 2016 - Versão 1605 (build 6965.2092)  <br/> |
+|**MSI** <br/> |Atualização de 7 de junho - [https://support.microsoft.com/kb/3115087](https://support.microsoft.com/kb/3115087) <br/> |
 |**Mac e iOS** <br/> |**Versão** <br/> |
-||Cliente Mac do Skype for Business versão 16,9  <br/> Skype for Business iOS Client versão 6,16  <br/> |
+||Skype for Business Mac client version 16.9  <br/> Skype for Business iOS client version 6.16  <br/> |
 |**Android** <br/> |**Versão** <br/> |
-||Skype for Business cliente Android versão 6,17  <br/> |
+||Skype for Business Android client version 6.17  <br/> |
 |**Lync Phone Edition** <br/> |**Versão** <br/> |
-|| Aastra 6721ip e Aastra 6725ip telefones-atualização cumulativa de setembro de 2016 (Build 7577,4512)-[https://support.microsoft.com/kb/3194831](https://support.microsoft.com/kb/3194831) <br/> |
-|| HP 4110 e HP 4120 telefones-atualização cumulativa de setembro de 2016 (Build 7577,4512)-[https://support.microsoft.com/kb/3194832](https://support.microsoft.com/kb/3194832) <br/> |
-||Polycom CX500, Polycom CX600 e Polycom CX3000 de telefones-atualização cumulativa de setembro de 2016 (Build 7577,4512)-[https://support.microsoft.com/kb/3194833](https://support.microsoft.com/kb/3194833) <br/> |
+|| Telefones Aastra 6721ip e Aastra 6725ip - atualização cumulativa de setembro de 2016 (build 7577.4512) -[https://support.microsoft.com/kb/3194831](https://support.microsoft.com/kb/3194831) <br/> |
+|| Telefones HP 4110 e HP 4120 - atualização cumulativa de setembro de 2016 (build 7577.4512) -[https://support.microsoft.com/kb/3194832](https://support.microsoft.com/kb/3194832) <br/> |
+||Telefones Polycom CX500, Polycom CX600 e Polycom CX3000 - atualização cumulativa de setembro de 2016 (build 7577.4512) - [https://support.microsoft.com/kb/3194833](https://support.microsoft.com/kb/3194833) <br/> |
    
 

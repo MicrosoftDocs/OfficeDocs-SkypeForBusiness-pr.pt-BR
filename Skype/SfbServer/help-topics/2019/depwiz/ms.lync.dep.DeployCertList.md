@@ -1,8 +1,8 @@
 ---
 title: Lista de Certificados
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,21 +14,21 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: aaa6b123-b8cd-4b22-846b-8e02beb428b9
 ROBOTS: NOINDEX, NOFOLLOW
-description: Para atribuir um certificado, selecione o certificado no repositório de certificado local. Clique em Avançar para continuar.
-ms.openlocfilehash: 23c1da1554b05e04c1491ea43f759b0918ce9d74
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: Para atribuir um certificado, selecione um certificado no armazenamento de certificados local. Clique em Avançar para continuar.
+ms.openlocfilehash: 0165afc7a90983855dab8f5a0a2d1c7e44385318
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41796832"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49808911"
 ---
 # <a name="certificate-list"></a>Lista de Certificados
  
-Para atribuir um certificado, selecione o certificado no repositório de certificado local. Clique em **Avançar** para continuar.
+Para atribuir um certificado, selecione um certificado no armazenamento de certificados local. Clique em **Avançar** para continuar.
   
 O certificado ou certificados disponíveis para seleção no painel **Selecionar um certificado no Armazenamento local de certificados** são certificados válidos que podem ser atribuídos ao uso do certificado necessário. É possível confirmar se o certificado selecionado é o correto clicando no botão **Exibir Detalhes do Certificado**. Na guia **Detalhes**, é possível exibir o nome da entidade e os nomes de entidade alternativos designados como configurados no certificado.
   
 > [!IMPORTANT]
-> É possível que nenhum certificado esteja listado no painel de seleção. Quando isso ocorre, a causa típica é que não há certificado raiz confiável ou certificados intermediários de autoridade de certificação instalados no servidor pretendido para verificar o certificado e, dessa forma, manter a cadeia de confiança criada pelo certificado para a autoridade de certificação. Para resolver esse problema, solicite e importe uma cadeia de certificados, que normalmente inclui o certificado de autoridade de certificação (AC) raiz e quaisquer certificados de AC intermediária e AC emissora. 
+> É possível que nenhum certificado esteja listado no painel de seleção. Quando isso ocorre, a causa típica é que não há certificado raiz confiável ou certificados de autoridade de certificação intermediárias instalados no servidor pretendido para verificar o certificado e, dessa forma, manter a cadeia de confiança criada pelo certificado para a autoridade de certificação. Para resolver esse problema, solicite e importe uma cadeia de certificados, que normalmente inclui o certificado de autoridade de certificação raiz (CA) e quaisquer certificados CA intermediários e certificados CA emissores. 
   
 

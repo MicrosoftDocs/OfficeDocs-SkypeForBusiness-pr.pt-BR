@@ -1,8 +1,8 @@
 ---
 title: Tabela SIPResponseMetaData
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 10/20/2015
 audience: ITPro
@@ -12,24 +12,24 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: cf723737-4a75-4352-829b-f4954aa59716
-description: O SIPResponseMetaDataTable contém uma lista de códigos de resposta SIP e a classificação e definição de cada um desses códigos. Esses códigos são gerados em resposta a eventos que afetam dispositivos SIP e sessões de comunicação SIP; por exemplo, o código de resposta 403 é gerado quando um dispositivo SIP faz uma solicitação, mas o servidor recusa para honrar essa solicitação.
-ms.openlocfilehash: 2c302793dc9f9c53d445d231a261bf43a0c385df
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: O SIPResponseMetaDataTable contém uma lista de códigos de resposta SIP e a classificação e definição de cada um destes códigos. Estes códigos são gerados em resposta aos eventos que afetam dispositivos SIP e sessões de comunicação SIP. Por exemplo, o código de resposta 403 é gerado quando um dispositivo SIP faz uma solicitação, mas o servidor declina esta solicitação.
+ms.openlocfilehash: 3d6714e9c5b5c154d19381fad33821b02ec8a73e
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41814889"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49809921"
 ---
 # <a name="sipresponsemetadata-table"></a>Tabela SIPResponseMetaData
  
-O SIPResponseMetaDataTable contém uma lista de códigos de resposta SIP e a classificação e definição de cada um desses códigos. Esses códigos são gerados em resposta a eventos que afetam dispositivos SIP e sessões de comunicação SIP; por exemplo, o código de resposta 403 é gerado quando um dispositivo SIP faz uma solicitação, mas o servidor recusa para honrar essa solicitação.
+O SIPResponseMetaDataTable contém uma lista de códigos de resposta SIP e a classificação e definição de cada um destes códigos. Estes códigos são gerados em resposta aos eventos que afetam dispositivos SIP e sessões de comunicação SIP. Por exemplo, o código de resposta 403 é gerado quando um dispositivo SIP faz uma solicitação, mas o servidor declina esta solicitação.
   
 Esta tabela foi introduzida no Skype for Business Server 2015.
   
-|**Coluna**|**Tipo de dados**|**Chave/índice**|**Detalhes**|
+|**Coluna**|**Tipo de dados**|**Chave/Índice**|**Detalhes**|
 |:-----|:-----|:-----|:-----|
-|**ResponseCode** <br/> |int  <br/> |Primária  <br/> |Valor numérico que representa o código de resposta SIP.  <br/> |
-|**Classe** <br/> |int  <br/> || Classificação geral do código de resposta. As classificações incluem: <br/>  1-respostas informativas <br/>  2-respostas bem-sucedidas <br/>  3-respostas de redirecionamento <br/>  4-respostas de falha do cliente <br/>  5--respostas de falha do servidor <br/>  6-resposta de falha global <br/> |
-|**Descrição** <br/> |nvarchar(256)  <br/> ||Descrição do código de resposta SIP. Por exemplo, o código de resposta 181 tem a seguinte descrição:  <br/> A chamada está sendo encaminhada  <br/> |
+|**ResponseCode** <br/> |int  <br/> |Primário  <br/> |Valor numérico que representa o código de resposta SIP.  <br/> |
+|**Classe** <br/> |int  <br/> || Classificação geral do código de resposta. As classificações incluem: <br/>  1 - Respostas Informativas <br/>  2 - Respostas bem-sucedidas <br/>  3 - Respostas de redirecionamento <br/>  4 - Respostas de falha do cliente <br/>  5 -- Respostas de falha do servidor <br/>  6 - Resposta a Falhas Globais <br/> |
+|**Descrição** <br/> |nvarchar(256)  <br/> ||Descrição do código de resposta SIP. Por exemplo, o código de resposta 181 possui a seguinte descrição:  <br/> A chamada está sendo encaminhada  <br/> |
    
 

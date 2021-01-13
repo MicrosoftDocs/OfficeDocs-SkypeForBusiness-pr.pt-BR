@@ -1,8 +1,8 @@
 ---
 title: Tabela Roles
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -12,21 +12,21 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: e8eb8a10-26b5-488b-bc8c-f9ef93f98bdb
-description: A tabela de funções é uma tabela estática que armazena a lista de possíveis funções de conferência, como participante e apresentador.
-ms.openlocfilehash: 8ebd01bc9cc51b33d28f87aa85be1473a6397201
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: A tabela Roles é uma tabela estática que armazena a lista de possíveis funções de conferência, como participante e apresentador.
+ms.openlocfilehash: 6c5e28ccd2d186b0122d70f91621a3365e6d2b07
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41814929"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49809971"
 ---
 # <a name="roles-table"></a>Tabela Roles
  
-A tabela de funções é uma tabela estática que armazena a lista de possíveis funções de conferência, como participante e apresentador.
+A tabela Roles é uma tabela estática que armazena a lista de possíveis funções de conferência, como participante e apresentador.
   
-|**Coluna**|**Tipo de dados**|**Chave/índice**|**Detalhes**|
+|**Coluna**|**Tipo de dados**|**Chave/Índice**|**Detalhes**|
 |:-----|:-----|:-----|:-----|
-|**RoleID** <br/> |tinyint  <br/> |Primária  <br/> ||
-|**Função** <br/> |nvarchar(256)  <br/> || Valores permitidos: <br/>  0-desconhecido <br/>  1-apresentador <br/>  2 participantes <br/> |
+|**RoleId** <br/> |tinyint  <br/> |Primário  <br/> ||
+|**Função** <br/> |nvarchar(256)  <br/> || Valores permitidos: <br/>  0 - Desconhecido <br/>  1 - Apresentador <br/>  2 - Participante <br/> |
    
 

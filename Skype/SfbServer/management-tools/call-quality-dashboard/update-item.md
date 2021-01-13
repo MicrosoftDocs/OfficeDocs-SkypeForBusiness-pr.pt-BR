@@ -1,8 +1,8 @@
 ---
 title: Atualizar Item
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,36 +11,36 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: b1c15c56-cdae-4f3e-838a-52f0940cf729
-description: 'Resumo: Saiba mais sobre a operação atualizar item, que faz parte do serviço de item. O serviço de item faz parte da API do repositório para o painel de qualidade da chamada. O painel de qualidade de chamada é uma ferramenta para o Skype for Business Server.'
-ms.openlocfilehash: 460e6b26375bba28887d170c9827864bfc600138
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 'Resumo: saiba mais sobre a operação Atualizar Item, que faz parte do Serviço de Item. O Serviço de Item faz parte da API de Repositório para o Painel de Qualidade da Chamada. O Painel de Qualidade da Chamada é uma ferramenta do Skype for Business Server.'
+ms.openlocfilehash: 78da2fa414b4ba266f9e6aba4feac5ff73150062
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41816670"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49803081"
 ---
 # <a name="update-item"></a>Atualizar Item
  
-**Resumo:** Saiba mais sobre a operação atualizar item, que faz parte do serviço de item. O serviço de item faz parte da API do repositório para o painel de qualidade da chamada. O painel de qualidade de chamada é uma ferramenta para o Skype for Business Server.
+**Resumo:** Saiba mais sobre a operação Atualizar Item, que faz parte do Serviço de Item. O Serviço de Item faz parte da API de Repositório para o Painel de Qualidade da Chamada. O Painel de Qualidade da Chamada é uma ferramenta do Skype for Business Server.
   
-A operação atualizar item faz parte do serviço de itens na API do repositório para o painel de qualidade da chamada.
+A operação Atualizar Item faz parte do Serviço de Item na API de Repositório para Painel de Qualidade de Chamada.
   
 ## <a name="update-item"></a>Atualizar Item
 
-Atualizar item atualiza um item específico no repositório.
+Atualizar Item atualiza um item específico no repositório.
   
 
-|**Forma**|**URI de solicitação**|**Versão HTTP**|
+|**Method**|**URI de solicitação**|**Versão HTTP**|
 |:-----|:-----|:-----|
-|SUSPENDE  <br/> |https://\<do\>portal de/QoERepositoryService/Repository/item/{itemid}  <br/> |HTTP/1.1  <br/> |
+|PUT  <br/> |https:// \<portal\> /QoERepositoryService/repository/item/{itemId}  <br/> |HTTP/1.1  <br/> |
    
- **Parâmetros de URI** -nenhum.
+ **Parâmetros de URI** - Nenhum.
   
- **Cabeçalhos de solicitação** -Content-Type: Application/JSON.
+ **Request Headers** -Content-Type: application/json.
   
- **Corpo da solicitação** -JSON.
+ **Corpo da Solicitação** - JSON.
   
-Exemplo de carga de solicitação:
+Carga de solicitação de exemplo:
   
 ```json
 {
@@ -49,17 +49,17 @@ Exemplo de carga de solicitação:
 }
 ```
 
- *conteúdo* do  Dados formatados como JSON a serem armazenados como o novo conteúdo de um subitem existente. Tecnicamente, um repositório pode armazenar qualquer conteúdo de qualquer esquema, mas quando usado para o painel de qualidade da chamada, deve ser um relatório ou uma consulta. *digite*  Sempre especifique "Application/JSON" para o painel de qualidade da chamada.
+ *content*  Dados formatados JSON a serem armazenados como o novo conteúdo de um sub-item existente. Tecnicamente, um repositório pode armazenar qualquer conteúdo de qualquer esquema, mas quando usado para o Painel de Qualidade da Chamada, ele deve ser um relatório ou uma consulta. *type*  Sempre especifique "application/json" para o Painel de Qualidade da Chamada.
   
- **Resposta** -a resposta inclui um código de status HTTP e um conjunto de cabeçalhos de resposta.
+ **Resposta** - A resposta inclui um código de status HTTP e um conjunto de cabeçalhos de resposta.
   
- **Código de status** -uma operação bem-sucedida retorna o código de status 204 (sem conteúdo). Se uma ID de item especificada não for encontrada, será retornado o código de status 404 (não encontrado).
+ **Código de Status** - Uma operação bem-sucedida retorna o código de status 204 (Sem Conteúdo). Se uma ID de item especificada não for encontrada, retornará o código de status 404 (Não Encontrado).
   
 > [!IMPORTANT]
-> "Sem conteúdo" não é um status de erro. Significa que uma resposta não retornou nada no corpo (em contraste, 200 OK retorna o conteúdo do corpo). Isso indica que o item foi atualizado com êxito. 
+> "Nenhum Conteúdo" não é um status de erro. Isso significa que uma resposta não retornou nada no corpo (por outro lado, 200 OK retorna conteúdo no corpo). Indica que o Item foi atualizado com êxito. 
   
- **Cabeçalhos de resposta** -nenhum.
+ **Response Headers** - None.
   
- **Corpo da resposta** -nenhum.
+ **Corpo de Resposta** - Nenhum.
   
 

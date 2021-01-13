@@ -1,8 +1,8 @@
 ---
-title: Compartilhamento de arquivos com alta disponibilidade no Skype for Business Server
+title: Alta disponibilidade de compartilhamento de arquivos no Skype for Business Server
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -12,24 +12,24 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: b8c8d5ec-9397-4128-8d1e-8ec6c30fade7
-description: Saiba como garantir alta disponibilidade de seus compartilhamentos de arquivos no Skype for Business Server usando o DFS.
-ms.openlocfilehash: c04c3acd009dd59a3894a62d08395db19c6d2368
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Saiba como garantir a alta disponibilidade dos compartilhamentos de arquivos no Skype for Business Server usando DFS.
+ms.openlocfilehash: 4d443425f453d63694511d13c6d3a84893058daa
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41815929"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49802891"
 ---
-# <a name="file-sharing-high-availability-in-skype-for-business-server"></a>Compartilhamento de arquivos com alta disponibilidade no Skype for Business Server
+# <a name="file-sharing-high-availability-in-skype-for-business-server"></a>Alta disponibilidade de compartilhamento de arquivos no Skype for Business Server
  
-Saiba como garantir alta disponibilidade de seus compartilhamentos de arquivos no Skype for Business Server usando o DFS.
+Saiba como garantir a alta disponibilidade dos compartilhamentos de arquivos no Skype for Business Server usando DFS.
   
-Para garantir alta disponibilidade para o compartilhamento de arquivos na implantação do Skype for Business Server, você pode usar o sistema de arquivos distribuídos (DFS). O DFS suporta failover de um servidor de arquivos para outro dentro do mesmo data center. Para uma implantação de larga escala, recomendamos usar servidores de arquivos dedicados, emparelhados com o uso do DFS. Para obter mais informações sobre o DFS no Windows Server 2012 [https://go.microsoft.com/fwlink/?LinkId=524384](https://go.microsoft.com/fwlink/?LinkId=524384), consulte. Para obter informações sobre o DFS no Windows Server 2008 [https://go.microsoft.com/fwlink/p/?LinkId=524385](https://go.microsoft.com/fwlink/p/?LinkId=524385), consulte.
+Para garantir a alta disponibilidade do compartilhamento de arquivos em sua implantação do Skype for Business Server, você pode usar o Sistema de Arquivos Distribuídos (DFS). O DAS oferece suporte a failover de um servidor de arquivos para outro no mesmo data Center. Para uma implantação em grande escala, nós recomendamos que você use servidores de arquivos dedicados emparelhados usando DAS. Para obter mais informações sobre DFS no Windows Server 2012, consulte [https://go.microsoft.com/fwlink/?LinkId=524384](https://go.microsoft.com/fwlink/?LinkId=524384) . Para obter informações sobre DFS no Windows Server 2008, consulte [https://go.microsoft.com/fwlink/p/?LinkId=524385](https://go.microsoft.com/fwlink/p/?LinkId=524385) .
   
-Dependendo do tamanho da sua rede e da quantidade de resiliência desejada, você pode usar um par de servidores para hospedar todos os compartilhamentos de arquivos em um site ou usar um par por pool de front-end.
+Dependendo do tamanho da rede e da quantidade de resiliência desejada, você pode usar um par de servidores para hospedar todos os compartilhamentos de arquivos em um site ou usar um par por pool de front-end.
   
-O DFSS é o melhor mecanismo de replicação de arquivos, sem objetivo de tempo recuperado (RTO) publicado ou compromisso de objetivo de ponto de recuperação (RPO). Um failover entre servidores DFS deve ser concluído rapidamente, mas o atraso da replicação de dados pode impedir que os usuários possam continuar trabalhando em andamento quando o failover ocorrer.
+O DAS é o melhor mecanismo de replicação de arquivos, sem objetivo de tempo recuperado (RTO) publicado ou compromisso de objetivo de ponto de recuperação (RPO). Um failover entre servidores DFS deve ser concluído rapidamente, mas o atraso na replicação de dados pode impedir que os usuários continuem o trabalho em andamento quando o failover acontece.
   
-Se você usa o DFS e o armazenamento de dados no compartilhamento de arquivos for importante, você deve efetuar o backup de compartilhamentos de arquivos frequentemente, como a cada 4 a 8 horas. Quando um compartilhamento de arquivos cai e a replicação não está atualizada, é possível usar o backup para recuperar o conteúdo no servidor com falha para o outro servidor emparelhado com o que está indisponível.
+Se você usar o DFS e o armazenamento de dados no compartilhamento de arquivos for fundamental, você deve fazer o back up dos compartilhamentos de arquivos com frequência, como a cada 4 a 8 horas. Quando um compartilhamento de arquivos cai e a replicação não está atualizada, é possível usar o backup para recuperar o conteúdo no servidor com falha para o outro servidor emparelhado com o que está indisponível.
   
 

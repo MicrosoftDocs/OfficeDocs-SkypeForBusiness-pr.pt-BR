@@ -1,8 +1,8 @@
 ---
 title: Recuperação de desastre do pool de front-end no Skype for Business Server
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -12,93 +12,93 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 142caf34-0f20-47f3-9d32-ce25ab622fad
-description: Para recuperação de desastres, o Skype for Business Server oferece emparelhamento de pool com failover em caso de um pool ficar inativo.
-ms.openlocfilehash: cacc1609094cba06c311a40f2502b4453013941e
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Para recuperação de desastres, o Skype for Business Server oferece emparelhamento de pool com failover caso um pool falhe.
+ms.openlocfilehash: d77a0d56c7a3e3d80c6e735fd6eff178606f667a
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41815939"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49802911"
 ---
 # <a name="front-end-pool-disaster-recovery-in-skype-for-business-server"></a>Recuperação de desastre do pool de front-end no Skype for Business Server
  
-Para recuperação de desastres, o Skype for Business Server oferece emparelhamento de pool com failover em caso de um pool ficar inativo.
+Para recuperação de desastres, o Skype for Business Server oferece emparelhamento de pool com failover caso um pool falhe.
   
-Para obter as opções de recuperação de desastre mais robustas no Skype for Business Server, implante pares de pools front-ends em dois locais geograficamente dispersos. Cada site tem um Pool de Front-Ends emparelhado com um Pool de Front-Ends correspondente no outro site. Os dois sites estão ativos, e o Serviço de Backup oferece replicação de dados em tempo real para manter os pools sincronizados. Consulte [implantar pools de front-end emparelhados para recuperação de desastres no Skype for Business Server](../../deploy/deploy-high-availability-and-disaster-recovery/front-end-pools-for-disaster-recovery.md) , se você quiser implementar o emparelhamento do pool de front-ends.
+Para as opções de recuperação de desastre mais robustas no Skype for Business Server, implante pares de pools de Front-End em dois sites geograficamente dispersos. Cada site tem um pool de Front-End que é emparelhado com um pool de Front-End correspondente no outro site. Ambos os sites estão ativos, e o Serviço de Backup fornece replicação de dados em tempo real para manter os pools sincronizados. Consulte [Implantar pools de front-end emparelhados](../../deploy/deploy-high-availability-and-disaster-recovery/front-end-pools-for-disaster-recovery.md) para recuperação de desastre no Skype for Business Server se quiser implementar o emparelhamento de pool de Front-End.
   
-![Mostra os pools de front-end em dois sites diferentes, emparelhados uns com os outros](../../media/f74533c0-a10e-4f18-85a8-b9a008497573.jpg)
+![Mostra pools de front-end em dois sites diferentes, emparelhados entre si](../../media/f74533c0-a10e-4f18-85a8-b9a008497573.jpg)
   
-Se o pool em um local falhar, é possível fazer failover dos usuários desse pool para o pool no outro local, que atende a todos os usuários em ambos os pools. Para fins de planejamento de capacidade, você deve projetar cada pool para lidar com a carga de trabalho de todos os usuários em ambos os pools em caso de desastre.
+Se o pool em um site falhar, você poderá fazer fail over dos usuários desse pool para o pool no outro site, que atende a todos os usuários em ambos os pools. Para planejamento de capacidade, você deve projetar cada pool para poder lidar com a carga de trabalho de todos os usuários em ambos os pools em caso de desastre.
   
-Dois data centers que incluem Pools de Front-Ends emparelhados podem estar a qualquer distância um do outro. Recomendamos que os dois data centers sejam emparelhados na mesma região do mundo, com links de alta velocidade entre eles. 
+Dois data centers que incluem pools de Front End emparelhados entre si podem estar a qualquer distância. Recomendamos que você emparelhe dois data centers na mesma região do mundo, com links de alta velocidade entre eles. 
   
-Ter dois data centers em regiões geográficas distintas é possível, mas pode incorrer em maior perda de dados caso ocorra algum desastre devido à latência na replicação dos dados.
+Ter dois data centers em regiões do mundo é possível, mas pode incorrer em maior perda de dados se houver um desastre, devido à latência na replicação de dados.
   
-Ao planejar quais pools emparelhar, você deve ter em mente que somente os emparelhamentos a seguir são aceitos:
+Ao planejar quais pools emparelhar, você deve ter em mente que apenas os seguintes emparelhamentos são suportados:
   
-- Os pools Enterprise Edition podem ser emparelhados somente com outros pools Enterprise Edition. Da mesma forma, pools Standard Edition podem ser emparelhados somente com outros pools Standard Edition.
+- Pools do Enterprise Edition só podem ser emparelhados com outros pools do Enterprise Edition. Da mesma forma, pools do Standard Edition podem ser emparelhados somente com outros pools do Standard Edition.
     
-- Os pools físicos somente podem ser emparelhados com outros pools físicos. Da mesma forma, os pools virtuais somente podem ser emparelhados com outros pools virtuais.
+- Pools físicos só podem ser emparelhados com outros pools físicos. Da mesma forma, pools virtuais só podem ser emparelhados com outros pools virtuais.
     
-- Pools que são pareados juntos devem estar executando o mesmo sistema operacional de base.
+- Os pools emparelhados devem estar executando o mesmo sistema operacional base.
     
-Nem o Construtor de Topologias nem a validação da topologia proibirão o emparelhamento de dois pools de uma forma que estas recomendações não sejam seguidas. Por exemplo, o Construtor de Topologias permite o emparelhamento de um pool Enterprise Edition com um pool Standard Edition. No entanto, estes tipos de emparelhamentos não são aceitos.
+Nem o Construtor de Topologias nem a validação da topologia proibirão o emparelhamento de dois pools de uma forma que estas recomendações não sejam seguidas. Por exemplo, o Construtor de Topologias permite o emparelhamento de um pool do Enterprise Edition com um pool do Standard Edition. No entanto, esses tipos de emparelhamento não são suportados.
   
-## <a name="backup-registrar-relationships-and-survivable-branch-appliances"></a>Relações de registrador de backup e aparelhos de ramificação sobreviventes
+## <a name="backup-registrar-relationships-and-survivable-branch-appliances"></a>Relacionamentos de Registrador de Backup e Aparelhos de FilialVivível
 
-Além de permitir a recuperação de desastre, dois pools emparelhados atuam como os Registradores de backup entre si. Cada pool pode ser o backup de apenas um outro pool de front-end.
+Além de oferecer capacidade para recuperação de desastre, dois pools pareados servem como backup de Registrars. Cada pool pode ser o backup de apenas um outro pool de Front-End.
   
-Ainda que as relações de backup entre dois Pools de Front-Ends devam ser 1:1 e simétricas, cada Pool de Front-Ends ainda pode ser o registrador de backup de qualquer quantidade de Aparelhos de Filial Persistente.
+Embora as relações de backup entre dois pools de Front-End deverão ser 1:1 e simétricas, cada pool de Front End ainda poderá ser o registrador de backup para qualquer número de Aparelhos de FilialVivíveis.
   
-Observe que o Skype for Business não estende o suporte de recuperação de desastre a usuários hospedados em um Aparelho de Filial Persistente. Se um Pool de Front-Ends que atua como o backup para um Aparelho de Filial Persistente sair do ar, os usuários conectados ao Aparelho de Filial Resistente entrarão no modo de resiliência mesmo que seja feito o failover dos usuários hospedados no Pool de Front-Ends para o backup do Pool de Front-End.
+Observe que o Skype for Business não estende o suporte à recuperação de desastre para usuários que estão em um Aparelho de FilialVivível. Se um pool de Front-End que serve como backup para um Aparelho de Filial Survivível ficar inocável, os usuários que entraram no Aparelho de Filial Sobrevivência entrarão no modo de resiliência, mesmo que os usuários que estão no pool de Front-End sejam baixados para o pool de front-end de backup.
   
-## <a name="recovery-time-for-pool-failover-and-pool-failback"></a>Tempo de recuperação para failover e failback de pool
+## <a name="recovery-time-for-pool-failover-and-pool-failback"></a>Tempo de recuperação para failover de pool e failback de pool
 
-Para failover e failback de pool, o destino projetado para objetivo de tempo de recuperação (RTO) é de 15 a 20 minutos. Este é o tempo necessário para o failover acontecer, após os administradores terem determinado que houve um desastre e iniciarem os procedimentos de failover. Isso não inclui o tempo para os administradores avaliarem a situação e tomarem uma decisão, nem inclui o tempo dos usuários entrarem novamente após o failover ser concluído.
+Para failover de pool e failback de pool, o destino de engenharia para objetivo de tempo de recuperação (RTO) é de 15 a 20 minutos. Esse é o tempo necessário para que o failover aconteça, depois que os administradores determinarem que houve um desastre e iniciar os procedimentos de failover. Isso não inclui o tempo para os administradores avaliarem a situação e tomar uma decisão, nem inclui o tempo dos usuários entrarem novamente após o failover ser concluído.
   
-Para failover e failback de pool, o destino projetado para objetivo de ponto de recuperação (RPO) é de 5 minutos. Isso representa o tempo medido dos dados que pode ser perdido devido ao desastre, devido à latência de replicação do serviço de backup. Por exemplo, se um pool ficar inoperante em 10:00, e o RPO for de 5 minutos, dados gravados no pool entre 9:55 A.M. e 10:00 A. M. talvez não tenham sido replicados para o pool de backup e seriam perdidos.
+Para failover de pool e failback de pool, o destino de engenharia para objetivo de ponto de recuperação (RPO) é de 5 minutos. Isso representa o tempo medido dos dados que pode ser perdido devido ao desastre, devido à latência de replicação do serviço de backup. Por exemplo, se um pool cair às 10:00 e o RPO for de 5 minutos, os dados gravados no pool entre 09:55 e 10:00 A.M.pode não ter replicado para o pool de backup e seria perdido.
   
-Todos os números de RTO e RPO neste documento supõem que os dois data centers estão localizados na mesma região do mundo com alta velocidade e transporte de baixa latência entre os dois locais. Esses números são medidos para um pool com usuários do 40.000 simultaneamente ativos e 200.000 usuários habilitados para o Skype for Business com respeito a um modelo de usuário predefinido onde não há uma lista de pendências na replicação de dados. Eles estão sujeitos a alteração baseado no teste e na validação de desempenho.
+Todos os números de RTO e RPO neste documento supõem que os dois data centers estão localizados na mesma região com alta velocidade e trasporte de baixa latência entre os dois locais. Esses números são medidos para um pool com 40.000 usuários ativos ao mesmo tempo e 200.000 usuários habilitados para o Skype for Business em relação a um modelo de usuário pré-definido onde não há backlog na replicação de dados. Eles estão sujeitos à alteração baseado no teste e validação de desempenho.
   
-## <a name="central-management-store-failover"></a>Failover do Repositório de Gerenciamento Central
+## <a name="central-management-store-failover"></a>Failover do armazenamento de Gerenciamento Central
 
-O Repositório de Gerenciamento Central contém dados de configuração sobre os servidores e serviços de sua implantação. Cada implantação do Skype for Business Server inclui um repositório central de gerenciamento, que é hospedado pelo servidor back-end de um pool de front-ends.
+O armazenamento de Gerenciamento Central contém dados de configuração sobre os servidores e serviços em sua implantação. Cada implantação do Skype for Business Server inclui um armazenamento de Gerenciamento Central, que é hospedado pelo Servidor back-end de um pool de Front-End.
   
-Se você emparelhar o pool que hospeda o Repositório de Gerenciamento Central, um banco de dados de backup do Repositório de Gerenciamento Central será configurado no pool de backup. A qualquer momento, um dos dois bancos de dados do Repositório de Gerenciamento Central está ativo e o outro está em espera. O conteúdo é replicado pelo Serviço de Backup do banco de dados ativo para aquele em espera.
+Se você emparelhar o pool que hospeda o armazenamento de Gerenciamento Central, um banco de dados de backup do Armazenamento Central será definido no pool de backup. A qualquer momento, um dos dois bancos de dados do Armazenamento Central está ativo e o outro está em espera. O conteúdo é replicado pelo Serviço de Backup do banco de dados ativo para o modo de espera.
   
-![Mostra dois pools front-ends, um com o repositório CMS ativo e outro com o repositório de CMS de backup passivo](../../media/aa479398-eb56-4854-8d50-1eff39c58a56.jpg)
+![Mostra dois Pools de Front-End, um com o armazenamento CMS ativo e outro com o armazenamento de CMS de backup passivo](../../media/aa479398-eb56-4854-8d50-1eff39c58a56.jpg)
   
-Durante um failover do pool que envolve o pool que está hospedando o Repositório de Gerenciamento Central, você tem que fazer failover do Repositório de Gerenciamento Central antes de fazer failover do Pool de Front-Ends.
+Durante um failover de pool que envolve o pool que hospeda o armazenamento de Gerenciamento Central, você deve fazer failover do armazenamento de Gerenciamento Central antes de fazer failover do pool de Front-End.
   
-Depois que o desastre for resolvido, não será necessário fazer failback do Repositório de Gerenciamento Central. Ele poderá permanecer no pool para o qual você fez failover.
+Após a reparação do desastre, não é necessário fazer fail back do armazenamento de Gerenciamento Central. O armazenamento de Gerenciamento Central pode permanecer no pool em que você fez o failed over.
   
-Os destinos projetados para failover do Repositório de Gerenciamento Central para o objetivo de tempo de recuperação (RTO) e para o objetivo de ponto de recuperação (RPO) são de 5 minutos.
+As metas de engenharia para failover do armazenamento de Gerenciamento Central são 5 minutos para objetivo de tempo de recuperação (RTO) e 5 minutos para objetivo de ponto de recuperação (RPO).
   
-## <a name="front-end-pool-pairing-data-security"></a>Segurança de dados de emparelhamento do Pool de Front-Ends
+## <a name="front-end-pool-pairing-data-security"></a>Segurança de dados de emparelhamento do pool de front-end
 
-O Serviço de Backup transfere dados do usuário e conteúdo de conferência entre dois Pools de Front-Ends emparelhados de forma contínua. Os dados do usuário contêm URIs SIP de usuário, bem como programações de conferência, listas de contatos e configurações. O conteúdo de conferência inclui uploads do Microsoft PowerPoint e quadros de comunicações usados em conferências.
+O Serviço de Backup transfere dados do usuário e conteúdo de conferência entre dois pools de Front End emparelhados continuamente. Os dados do usuário contêm URIs SIP do usuário, bem como agendamentos de conferências, listas de contatos e configurações. O conteúdo da conferência inclui carregamentos do Microsoft PowerPoint, bem como whiteboards usados em conferências.
   
-A partir do pool de origem, esses dados são exportados do armazenamento local, compactados e depois transferidos ao Pool de destino, onde são descompactados e importados para o armazenamento local. O Serviço de Backup pressupõe que o link de comunicações entre os dois data centers está dentro da rede corporativa que está protegida a partir da Internet. Ela não criptografa os dados transferidos entre os dois data centers, nem os dados são originariamente encapsulados dentro de um protocolo protegido, como HTTPS. Portanto, é possível um ataque man-in-Middle do pessoal interno na rede da empresa.
+A partir do pool de origem, esses dados são exportados do armazenamento local, recortados e transferidos para o Pool de destino, onde são descortados e importados para o armazenamento local. O Serviço de Backup pressupõe que o link de comunicação entre os dois data centers está dentro da rede da empresa, protegida da Internet. Ele não criptografa os dados transferidos entre os dois data centers, nem os dados são encapsulados de forma nativa dentro de um protocolo seguro, como HTTPS. Portanto, é possível um ataque man-in-the-middle de funcionários internos dentro da rede corporativa.
   
-Qualquer empresa que implante o Skype for Business Server em vários data centers e use o recurso de recuperação de desastres deve garantir que o tráfego entre os data centers seja protegido pela intranet corporativa. As empresas que se preocupam com a proteção a ataques internos devem proteger os links de comunicação entre os data centers. Este é um requisito padrão que também ajuda a proteger vários outros tipos de dados confidenciais corporativos que são transferidos entre data centers.
+Qualquer empresa que implanta o Skype for Business Server em vários data centers e usa o recurso de recuperação de desastres deve garantir que o tráfego entre data centers seja protegido por sua Intranet corporativa. As empresas que se preocupam com a proteção contra ataques internos devem proteger os links de comunicação entre os data centers. Esse é um requisito padrão que também ajuda a manter muitos outros tipos de dados confidenciais corporativos transferidos entre data centers.
   
-Embora exista o risco de ataques de "intrusos" na rede corporativa, ele é relativamente limitado em comparação a expor o tráfego à Internet. Especificamente, os dados dos usuários expostos pelo Serviço de Backup (como URIs SIP) estão geralmente disponíveis para todos os funcionários da empresa através de outros meios, como o Catálogo de Endereços Global ou outro software de diretório. Portanto, o foco deve estar em proteger a WAN entre os dois data centers quando o Serviço de Backup é usado para copiar dados entre os dois pools emparelhados.
+Embora exista o risco de ataques de "intrusos" na rede da empresa, ele é relativamente limitado em comparação a expor o tráfego à Internet. Especificamente, os dados do usuário expostos pelo Serviço de Backup (como URIs SIP) geralmente estão disponíveis para todos os funcionários dentro da empresa por outros meios, como o Livro de Endereços Global ou outro software de diretório. Portanto, seu foco deve estar em proteger a WAN entre os dois data centers quando o Serviço de Backup for usado para copiar dados entre os dois pools emparelhados.
   
-### <a name="mitigating-security-risks"></a>Mitigação dos riscos à segurança
+### <a name="mitigating-security-risks"></a>Mitigando os riscos de segurança
 
-Você tem várias formas de melhorar a proteção à segurança do tráfego do Serviço de Backup. Isto abrange desde restringir o acesso aos data centers a proteger o transporte de WAN entre os dois data centers. Na maioria dos casos, as empresas que implantam o Skype for Business Server podem já ter a infraestrutura de segurança necessária. No caso de empresas que buscam orientação, a Microsoft oferece uma solução como um exemplo de como estabelecer uma infraestrutura de TI segura. Para obter detalhes, [https://go.microsoft.com/fwlink/p/?LinkId=268544](https://go.microsoft.com/fwlink/p/?LinkId=268544)consulte. 
+Você tem várias maneiras de aprimorar a proteção de segurança para o tráfego do Serviço de Backup. Isso vai desde restringir o acesso aos data centers até proteger o transporte wan entre os dois data centers. Na maioria dos casos, as empresas que implantam o Skype for Business Server podem já ter a infraestrutura de segurança necessária. Para empresas que procuram orientação, a Microsoft fornece uma solução como um exemplo de como criar uma infraestrutura de TI segura. Para obter detalhes, consulte [https://go.microsoft.com/fwlink/p/?LinkId=268544](https://go.microsoft.com/fwlink/p/?LinkId=268544) . 
   
-Não queremos dizer que é a única solução, nem que isso é a solução preferida para o Skype for Business Server. Recomendamos que os clientes corporativos escolham a solução mais adequada às suas necessidades específicas, com base em sua infraestrutura e requisitos de segurança de TI. A solução exemplo da Microsoft emprega o IPSec e a Política de Grupo para o Isolamento de Servidor e Domínio.
+Não implicamos que esta é a única solução, nem implicamos que ela é a solução preferida para o Skype for Business Server. Recomendamos que os clientes corporativos escolham a solução adequada às suas necessidades específicas, com base em sua infraestrutura e requisitos de segurança de TI. A solução da Microsoft de exemplo emprega IPSec e Política de Grupo para Isolamento de Servidor e Domínio.
   
-Outra solução possível é usar o IPSec apenas para ajudar a proteger os dados enviados pelo próprio Serviço de Backup. Se você escolher este método, deverá configurar as regras do IPSec para o protocolo SMB nos seguintes servidores, onde Pool A e Pool B são dois Pools de Front-Ends emparelhados.
+Outra solução possível é usar IPSec apenas para ajudar a proteger os dados enviados pelo próprio Serviço de Backup. Se você escolher esse método, deverá configurar as regras IPSec para o protocolo SMB para os seguintes servidores, onde Pool A e Pool B são dois pools de Front-End emparelhados.
   
-- O Serviço SMB (TCP/445) de cada Servidor Front-End no Pool A para o Repositório de Arquivos usado pelo Pool B.
+- O serviço SMB (TCP/445) de cada Servidor Front End no Pool A para o Armazenamento de Arquivos usado pelo Pool B.
     
-- O Serviço SMB (TCP/445) de cada Servidor Front-End no Pool B para o Repositório de Arquivos usado pelo Pool A.
+- O Serviço SMB (TCP/445) de cada Servidor Front End no Pool B até o Armazenamento de Arquivos usado pelo Pool A.
     
 > [!CAUTION]
->  O IPsec não deve ser usado para substituir a segurança no nível de aplicativo, como SSL/TLS. Uma vantagem de usar o IPsec é que ele pode fornecer segurança ao tráfego da rede para os aplicativos existentes sem ter de alterá-los. As empresas que desejam apenas proteger o transporte entre os dois data centers devem consultar seus respectivos fornecedores de hardware de rede sobre as maneiras de configurar conexões WAN seguras usando o equipamento do fornecedor.
+>  O IPsec não se destina a substituir a segurança no nível do aplicativo, como SSL/TLS. Uma vantagem de usar o IPsec é que ele pode fornecer segurança de tráfego de rede para aplicativos existentes sem precisar alterá-los. As empresas que querem apenas proteger o transporte entre os dois data centers devem consultar seus respectivos fornecedores de hardware de rede sobre maneiras de configurar conexões WAN seguras usando o equipamento do fornecedor.
   
 ## <a name="see-also"></a>Confira também
 
-[Implantar pools de front-end emparelhados para recuperação de desastres no Skype for Business Server](../../deploy/deploy-high-availability-and-disaster-recovery/front-end-pools-for-disaster-recovery.md)
+[Implantar pools de front-end emparelhados para recuperação de desastre no Skype for Business Server](../../deploy/deploy-high-availability-and-disaster-recovery/front-end-pools-for-disaster-recovery.md)

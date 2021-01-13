@@ -1,8 +1,8 @@
 ---
-title: Planejar Aparência de linha compartilhada no Skype for Business Server 2015
+title: Planejar aparência de linha compartilhada no Skype for Business Server 2015
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/21/2016
 audience: ITPro
@@ -16,21 +16,21 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 6356aad4-700d-495c-8fc8-58eb1d4f6f18
-description: Leia este tópico para aprender a planejar a aparência de uma linha compartilhada (SLA) no Skype for Business Server 2015, atualização cumulativa de novembro de 2015.
-ms.openlocfilehash: 14f0f6cbd163ecff42543d3ad57bed0020434cfb
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Leia este tópico para saber como planejar a Aparência de Linha Compartilhada (SLA) no Skype for Business Server 2015, atualização cumulativa de novembro de 2015.
+ms.openlocfilehash: d7fa13b36c232e37c79e8509de71b4ac29ceff72
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41802431"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49813341"
 ---
-# <a name="plan-for-shared-line-appearance-in-skype-for-business-server-2015"></a>Planejar Aparência de linha compartilhada no Skype for Business Server 2015
+# <a name="plan-for-shared-line-appearance-in-skype-for-business-server-2015"></a>Planejar aparência de linha compartilhada no Skype for Business Server 2015
  
-Leia este tópico para aprender a planejar a aparência de uma linha compartilhada (SLA) no Skype for Business Server 2015, atualização cumulativa de novembro de 2015. 
+Leia este tópico para saber como planejar a Aparência de Linha Compartilhada (SLA) no Skype for Business Server 2015, atualização cumulativa de novembro de 2015. 
   
-A aparência da linha compartilhada é um recurso do Skype for Business para manipular várias chamadas em um número específico chamado número compartilhado. O SLA pode configurar qualquer Enterprise Voice habilitada para o usuário do Skype for Business como um número compartilhado com várias linhas para responder a várias chamadas. As chamadas não serão realmente recebidas no número compartilhado, em vez disso, elas serão encaminhadas para os usuários que atuam como representantes para o número compartilhado. Qualquer um dos representantes pode atender a chamada enquanto o restante dos representantes recebe uma notificação no telefone sobre quem obteve o convite e que linha ficou ocupada como resultado. Tanto o número de linhas quanto os representantes são configuráveis para um número compartilhado no SLA. Além disso, as opções avançadas, como BusyOption (o que acontece em uma situação quando todas as linhas estão ocupadas) e MissedCallOption (caso em que nenhum dos representantes atende uma chamada), também podem ser configuradas para um número compartilhado.
+A Aparência de Linha Compartilhada é um recurso do Skype for Business para lidar com várias chamadas em um número específico chamado número compartilhado. O SLA pode configurar qualquer usuário do Skype for Business habilitado para enterprise voice como um número compartilhado com várias linhas para responder a várias chamadas. As chamadas não são realmente recebidas no número compartilhado, em vez disso, são encaminhadas aos usuários que atuam como representantes do número compartilhado. Qualquer um dos representantes pode atender a chamada enquanto o restante dos representantes recebe uma notificação no telefone sobre quem a atende e qual linha está ocupada como resultado. Tanto o número de linhas quanto os representantes são configuráveis para um número compartilhado no SLA. Além disso, opções avançadas, como BusyOption (o que acontece em uma situação quando todas as linhas estão ocupadas) e MissedCallOption (o caso em que nenhum dos representantes atende uma chamada), também podem ser configuradas para um número compartilhado.
   
-Só há suporte para o SLA nos seguintes dispositivos telefônicos (não há suporte para os clientes do Skype for Business em computadores, telefones celulares ou outros dispositivos): 
+O SLA só tem suporte nos seguintes dispositivos telefônicos (não há suporte para clientes do Skype for Business em computadores, telefones celulares ou outros dispositivos): 
   
 - Polycom VVX300 com atualização de firmware 5.4.1
     
@@ -42,22 +42,22 @@ Só há suporte para o SLA nos seguintes dispositivos telefônicos (não há sup
     
 O SLA é um novo recurso do Skype for Business Server, atualização cumulativa de novembro de 2015. 
   
-Para obter informações sobre como implantar o SLA, consulte [Deploy Shared Line Appearance in Skype for Business Server 2015](../../deploy/deploy-enterprise-voice/deploy-shared-line-appearance.md).
+Para obter informações sobre como implantar o SLA, consulte [Deploy Shared Line Appearance in Skype for Business Server 2015.](../../deploy/deploy-enterprise-voice/deploy-shared-line-appearance.md)
   
-## <a name="feature-list"></a>Lista de recursos
+## <a name="feature-list"></a>Lista de Recursos
 
-Configuração de um grupo de SLA permite o seguinte:
+A configuração de um grupo SLA permite o seguinte:
   
-- Todos os representantes do grupo podem atender chamadas de entrada para o mesmo número compartilhado. As chamadas podem ser baseadas em PSTN ou em SIP.
+- Todos os representantes do grupo podem atender chamadas de entrada para o mesmo número compartilhado. As chamadas podem ser baseadas em PSTN ou SIP.
     
-- Os representantes podem reter e atender chamadas.
+- Os representantes podem segurar e atender chamadas.
     
-- Os representantes podem transferir chamadas para um número externo do grupo SLA.
+- Os representantes podem transferir chamadas para um número fora do grupo SLA.
     
-- Os representantes podem ver quantas chamadas estão atualmente no número compartilhado e ver o estado de cada uma delas.
+- Os representantes podem ver quantas chamadas estão atualmente no número compartilhado e exibir o status de cada uma dessas chamadas.
     
-- Você pode configurar um número máximo de chamadas simultâneas para o número compartilhado. Você também pode definir como deseja que as chamadas adicionais sejam manipuladas depois que esse máximo for atingido. As chamadas em excesso podem ser rejeitadas com um sinal de ocupado, encaminhadas para um número alternativo ou encaminhadas para o correio de voz.
+- Você pode configurar um número máximo de chamadas simultâneas para o número compartilhado. Você também pode definir como deseja que as chamadas adicionais sejam tratadas depois que esse máximo for atingido. Chamadas em excesso podem ser rejeitadas com um sinal de ocupado, encaminhadas para um número alternativo ou encaminhadas para a caixa postal.
     
-- Você pode configurar como você deseja que as chamadas não atendidas (chamadas não atendidas após um determinado período de tempo) sejam tratadas. Se você ativar o correio de voz para a identidade do grupo, as chamadas não atendidas automaticamente irão para o correio de voz. Se você não tiver correio de voz habilitado para a identidade do grupo (número compartilhado), você poderá escolher que as chamadas perdidas sejam rejeitadas com um sinal de ocupado, encaminhadas para um número alternativo ou desconectadas.
+- Você pode configurar como deseja que as chamadas perdidas (chamadas não a escolhidas após um determinado tempo) sejam tratadas. Se você habilitar a caixa postal para a identidade do grupo, as chamadas perdidas serão automaticamente para a caixa postal. Se você não tiver uma caixa postal habilitada para a identidade do grupo (número compartilhado), poderá optar por que as chamadas perdidas sejam rejeitadas com um sinal de ocupado, encaminhadas para um número alternativo ou desconectadas.
     
 

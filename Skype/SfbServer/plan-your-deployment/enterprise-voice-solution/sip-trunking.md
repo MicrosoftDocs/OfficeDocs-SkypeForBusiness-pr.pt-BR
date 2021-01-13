@@ -1,8 +1,8 @@
 ---
-title: Entroncamento SIP no Skype for Business Server
+title: Tronco SIP no Skype for Business Server
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -15,25 +15,25 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 7c586401-d0e5-4017-b3e1-fe5e7f8fc6db
-description: Saiba mais sobre o entroncamento SIP no Skype for Business Server Enterprise Voice
-ms.openlocfilehash: 229774ef976a08031da7892dec0088d78b954b24
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Saiba mais sobre o tronco SIP no Skype for Business Server Enterprise Voice
+ms.openlocfilehash: dcfcf6d08b16f79c0985f337db68124442026bb1
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41802411"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49802711"
 ---
-# <a name="sip-trunking-in-skype-for-business-server"></a>Entroncamento SIP no Skype for Business Server
+# <a name="sip-trunking-in-skype-for-business-server"></a>Tronco SIP no Skype for Business Server
 
-Saiba mais sobre o entroncamento SIP no Skype for Business Server Enterprise Voice
+Saiba mais sobre o tronco SIP no Skype for Business Server Enterprise Voice
 
-O SIP é usado para iniciar e gerenciar sessões de comunicações de VoIP para o serviço telefônico básico e para vários serviços de comunicação em tempo real adicionais, como sistema de mensagens instantâneas, conferência, detecção de presença e multimídia. Esta seção apresenta informações de planejamento para a implementação de troncos SIP, um tipo de conexão SIP que se estende além do limite da rede local.
+O SIP é usado para iniciar e gerenciar sessões de comunicações de VoIP (voz sobre IP) para o serviço telefônico básico e para vários serviços de comunicação em tempo real adicionais, como serviços de mensagens instantâneas, conferência, detecção de presença e multimídia. Esta seção oferece informações de planejamento para a implementação de troncos SIP, um tipo de conexão SIP que se estende além do limite da rede local.
 
 ## <a name="what-is-sip-trunking"></a>O que é o tronco SIP?
 
-Um tronco SIP é uma conexão do IP estabelece um vínculo de comunicações SIP entre sua organização e um provedor de serviços de telefonia de Internet (ITSP), além do firewall. Geralmente, um tronco SIP é usado para conectar o site central da sua organização a um ITSP. Em alguns casos, você também pode optar por usar um tronco SIP para conectar a filial a um ITSP.
+Um tronco SIP é uma conexão do IP estabelece um vínculo de comunicações SIP entre sua organização e um provedor de serviços de telefonia de Internet (ITSP), além do firewall. Normalmente, um tronco SIP é usado para conectar o site central da sua organização a um ITSP. Em alguns casos, você também pode optar por usar um tronco SIP para conectar o site da filial a um ITSP.
 
-Implantar o entroncamento SIP pode ser um grande passo para simplificar as telecomunicações da sua organização e se preparar para melhorar a comunicação em tempo real com comunicações em tempo real. Uma das principais vantagens do entroncamento SIP é que você pode consolidar as conexões da sua organização com o PSTN (rede telefônica pública comutada) em um site central, em oposição à sua predecessora, o entroncamento de multiplexação de divisão de tempo (TDM), que normalmente requer um tronco separado de cada site de filial.
+A implantação de troncos SIP pode ser um grande passo para simplificar as telecomunicações da sua organização e preparar-se para melhorias atualizadas para comunicações em tempo real. Uma das principais vantagens do tronco SIP é que você pode consolidar as conexões da sua organização com a PSTN (rede telefônica pública comutado) em um local central, ao contrário de seu predecessor, o tronco TDM ( multiplexação de divisão de tempo), que normalmente requer um tronco separado de cada filial.
 
 ### <a name="cost-savings"></a>Redução de custo
 
@@ -45,69 +45,69 @@ As reduções de custo associadas ao tronco SIP podem ser substanciais:
 
 - A interface de tarifa básica (BRI) e a interface de tarifa primária (PRI) podem ser eliminadas se você conectar um tronco SIP diretamente ao ITSP, por um custo significativamente inferior. Nos troncos TDM, os provedores de serviço cobram as chamadas por minuto. O custo do tronco SIP pode ser baseado no uso da largura de banda, e você pode comprar incrementos menores e mais econômicos. (O custo real depende do modelo de serviço do que você escolhe).
 
-#### <a name="sip-trunking-vs-hosting-a-pstn-gateway-or-ip-pbx"></a>Tronco SIP vs. hospedagem de um gateway PSTN ou IP-PBX
+#### <a name="sip-trunking-vs-hosting-a-pstn-gateway-or-ip-pbx"></a>Tronco SIP versus hospedagem de um gateway PSTN ou IP-PBX
 
 Uma vez que os troncos SIP se conectam diretamente ao provedor de serviço, você pode eliminar os seus gateways PSTN e seu custo de gerenciamento e complexidade. O uso de um tronco SIP pode levar a cortes substanciais no custo, através da manutenção e administração reduzida.
 
 ### <a name="expanded-voip-services"></a>Serviços de VoIP expandidos
 
-Os recursos de voz são frequentemente a principal motivação para implantar o tronco SIP, mas o suporte de voz é apenas a primeira etapa. Com o entroncamento SIP, você pode estender os recursos de VoIP e habilitar o Skype for Business Server para oferecer um conjunto mais rico de serviços. Por exemplo:
+Os recursos de voz são frequentemente o principal motivo para implantar o tronco SIP, mas o suporte de voz é apenas a primeira etapa. Com o tronco SIP, você pode estender os recursos de VoIP e habilitar o Skype for Business Server para fornecer um conjunto mais rico de serviços. Por exemplo:
 
-- A detecção de presença avançada para dispositivos que não executam o Skype for Business Server pode oferecer uma melhor integração com telefones celulares, permitindo que você veja quando um usuário está em uma chamada de celular.
+- A detecção de presença aprimorada para dispositivos que não estão executando o Skype for Business Server pode oferecer melhor integração com telefones celulares, permitindo que você veja quando um usuário está em uma chamada de celular.
 
-- E9-1-1 o recurso de chamadas de emergência habilita as autoridades que atendem às chamadas do 911 a fim de determinar a localização do autor do seu número de telefone.
+- As chamadas de emergência E9-1-1 permitem que as autoridades que atenderem às chamadas 911 determinem a localização do chamador a partir de seu número de telefone.
 
 > [!NOTE]
 > Consulte o ITSP para obter uma lista de serviços que eles suportam e podem habilitar para sua organização.
 
-### <a name="sip-trunks-vs-direct-sip-connections"></a>Troncos SIP vs. conexões SIP diretas
+### <a name="sip-trunks-vs-direct-sip-connections"></a>Troncos SIP vs. Conexões diretas do cabo SIP
 
-O termo tronco deriva da tecnologia de circuitos comutados. Ele se refere a uma linha física dedicada que conecta o equipamento de comutação telefônica. Assim como os troncos de TDM, a multiplexação de divisão por tempo (TDM), os troncos SIP são conexões entre duas redes SIP separadas, o Skype for Business Server Enterprise e o ITSP. Diferentemente dos troncos em circuitos comutados, os troncos SIP são conexões virtuais que podem ser estabelecidas em qualquer tipo de conexão de tronco SIP compatível.
+O termo tronco  deriva da tecnologia de comutação de circuitos. Refere-se a uma linha física dedicada que conecta o equipamento de comutação telefônica. Assim como seu predecessor, os troncos TDM (multiplexação de divisão de tempo), os troncos SIP são conexões entre duas redes SIP separadas: a empresa do Skype for Business Server e o ITSP. Diferentemente dos troncos de comutação de circuitos, os troncos SIP são conexões virtuais que podem ser estabelecidas sobre qualquer tipo de conexão de troncos SIP compatíveis.
 
-As conexões SIP diretas, por outro lado, são conexões SIP que não cruzam o limite de rede local (ou seja, elas se conectam a um gateway PSTN (Rede Telefônica Pública Comutada) ou PBX dentro de sua rede interna). Para obter detalhes sobre como você pode usar as conexões SIP diretas com o Skype for Business Server, consulte [conexões SIP diretas no Skype for Business Server](direct-sip.md).
+As conexões SIP diretas, por outro lado, são conexões de SIP que não atravessam o limite de rede local (ou seja, elas se conectam a um gateway PSTN ou PBX dentro de sua rede interna). Para obter detalhes sobre como você pode usar conexões SIP diretas com o Skype for Business Server, consulte [conexões SIP diretas no Skype for Business Server.](direct-sip.md)
 
-## <a name="how-do-i-implement-sip-trunking"></a>Como implemento o tronco SIP?
+## <a name="how-do-i-implement-sip-trunking"></a>Como implementar o tronco SIP?
 
-Para implementar o entroncamento SIP, você deve direcionar a conexão por meio de um servidor de mediação, que atua como um proxy para as sessões de comunicação entre os clientes do Skype for Business Server e o provedor de serviços e transformam mídias quando necessário.
+Para implementar o tronco SIP, você deve rotear a conexão por meio de um Servidor de Mediação, que atua como um proxy para sessões de comunicação entre clientes do Skype for Business Server e o provedor de serviços e transcodifica mídia, quando necessário.
 
-Cada servidor de mediação tem uma interface de rede interna e uma interface de rede externa. A interface interna se conecta aos servidores front-end. A interface externa geralmente é chamada de interface do gateway porque tem sido usada tradicionalmente para conectar o servidor de mediação a um gateway PSTN (rede telefônica pública comutada) ou a um IP-PBX. Para implementar um tronco SIP, conecte a interface externa do servidor de mediação ao componente Edge externo da ITSP. O componente de borda externa do ITSP pode ser um SBC (Controlador de Borda da Sessão), um roteador ou um gateway.
+Cada Servidor de Mediação tem uma interface de rede interna e uma interface de rede externa. A interface interna se conecta aos Servidores Front-End. A interface externa normalmente é chamada de interface de gateway porque tradicionalmente é usada para conectar o Servidor de Mediação a um gateway PSTN (rede telefônica pública comutado) ou a um IP-PBX. Para implementar um tronco SIP, conecte a interface externa do Servidor de Mediação ao componente de borda externa do ITSP. O componente de borda externa do ITSP pode ser um SBC (controlador de borda da sessão), um roteador ou um gateway.
 
-Para obter detalhes sobre os servidores de mediação, consulte [componente do servidor de mediação no Skype for Business Server](mediation-server.md).
+Para obter detalhes sobre os Servidores de Mediação, consulte [o componente do Servidor de Mediação no Skype for Business Server.](mediation-server.md)
 
 ### <a name="centralized-vs-distributed-sip-trunking"></a>Tronco SIP centralizado versus distribuído
 
-O entroncamento SIP centralizado roteia todo o tráfego de VoIP, incluindo o tráfego de sites de filiais, por meio de seu site central. O modelo de implantação centralizado é simples, econômico e geralmente é a abordagem recomendada para a implementação de troncos SIP com o Skype for Business Server.
+O tronco SIP centralizado encaminha todo o tráfego VoIP, incluindo o tráfego do site de filial, através do seu site central. O modelo de implantação centralizado é simples, econômico e é geralmente a abordagem recomendada para implementar troncos SIP com o Skype for Business Server.
 
-O entroncamento SIP distribuído é um modelo de implantação no qual você implementa troncos SIP locais em um ou mais sites de filiais. O tráfego de VoIP é então encaminhado do site de filial diretamente para um provedor de serviços sem passar pelo site central.
+O tronco SIP distribuído é um modelo de implantação no qual você implementa troncos SIP locais em um ou mais locais de filial. Em seguida, o tráfego VoIP é roteado do site de filial diretamente para um provedor de serviços sem passar pelo site central.
 
-O tronco SIP distribuído é necessário somente nos seguintes casos:
+O tronco SIP distribuído é exigido somente nos seguintes casos:
 
-- O site da filial requer conectividade de telefone para o telefone cofuncional (por exemplo, se a WAN ficar inoperante). Esse requisito deve ser analisado para cada site de filiais; algumas das suas filiais podem exigir redundância e failover, enquanto outras não podem.
+- O site de filial requer conectividade de telefone que pode servivível (por exemplo, se a WAN cair). Esse requisito deve ser analisado para cada site de filial; algumas de suas filiais podem exigir redundância e failover, enquanto outras podem não.
 
-- A resiliência é necessária entre dois sites centrais. Você precisa ter certeza de que um tronco SIP termina em cada site central. Por exemplo, se você tiver sites centrais de Dublin e Tukwila e ambos usarem apenas um tronco SIP do site, se o tronco ficar inativo, os usuários do outro site não poderão fazer chamadas PSTN.
+- A resiliência é necessária entre dois sites centrais. Você precisa garantir que um tronco SIP termine em cada local central. Por exemplo, se você tiver sites centrais Dublin e Tukwila e ambos usarem apenas o tronco SIP de um local, se o tronco cair, os usuários do outro local não poderão fazer chamadas PSTN.
 
-- O site de ramificação e o site central estão em países/regiões diferentes. Por motivos legais e de compatibilidade, você precisa de pelo menos um tronco SIP por país/região. Por exemplo, na União Europeia, as comunicações não podem deixar um país/região sem terminarem localmente em um ponto centralizado.
+- O site de filial e o site central estão em diferentes países/regiões. Por motivos legais e de compatibilidade, você precisa de pelo menos um tronco SIP por país/região. Por exemplo, na União Europeia, as comunicações não podem deixar um país/região sem serem terminarem localmente em um ponto centralizado.
 
-Dependendo da localização geográfica dos sites e da quantidade de tráfego que você prevê na sua empresa, talvez você não queira direcionar todos os usuários por meio do tronco SIP central ou pode optar por direcionar alguns usuários por meio de um tronco SIP em seu site de filiais. Para analisar suas necessidades, responda às seguintes perguntas:
+Dependendo da localização geográfica dos sites e da grande parte do tráfego antecipado em sua empresa, talvez você não queira rotear todos os usuários pelo tronco SIP central ou pode optar por encaminhar alguns usuários por meio de um tronco SIP no site de filial. Para analisar suas necessidades, responda às seguintes perguntas:
 
 - Qual é o tamanho de cada site (ou seja, quantos usuários estão habilitados para o Enterprise Voice)?
 
-- Quais números DID (discagem direta interna) em cada local recebem a maioria das chamadas?
+- Quais números DID (discagem direta interna) em cada site recebem a maioria das chamadas?
 
-A decisão de implantar um tronco SIP centralizado ou distribuído exige uma análise de custo-benefício. Em alguns casos, pode ser vantajoso optar pelo modelo de implantação distribuído mesmo se ele não for necessário. Em uma implantação completamente centralizada, todo o tráfego do site da filial é roteado através de links WAN. Em vez de pagar pela largura de banda necessária ao link de WAN, convém usar o tronco SIP distribuído. Por exemplo, você pode querer implantar um servidor Standard Edition em um site de filial com Federação para o site central ou pode querer implantar um aparelho de ramificação sobreviventes ou um servidor de ramificação sobreviventes com um pequeno gateway.
+A decisão sobre implantar um tronco SIP centralizado ou distribuído exige uma análise com bom custo benefício. Em alguns casos, pode ser vantajoso optar pelo modelo de implantação distribuído mesmo se não for necessário. Em uma implantação completamente centralizada, todo o tráfego do site de filial é roteado por links wan. Em vez de pagar pela largura de banda exigida pelo link de WAN, convém usar o tronco SIP distribuído. Por exemplo, talvez você queira implantar um servidor Standard Edition em um site de filial com federação para o site central ou pode implantar um Aparelho de FilialVivável ou um Servidor de Filial Survivable com um gateway pequeno.
 
 > [!NOTE]
-> Para obter detalhes sobre o entroncamento SIP distribuído, consulte [entroncamento do site do Branch SIP no Skype for Business Server](branch-site.md).
+> Para obter detalhes sobre o tronco SIP distribuído, consulte Tronco SIP do site de [filial no Skype for Business Server.](branch-site.md)
 
 ### <a name="supported-sip-trunking-connection-types"></a>Tipos de conexão de tronco SIP suportadas
 
-O Skype for Business Server é compatível com os seguintes tipos de conexão para entroncamento SIP:
+O Skype for Business Server oferece suporte aos seguintes tipos de conexão para tronco SIP:
 
-- O MPLS é uma rede privada que direciona e transporta dados de um nó de rede para o próximo. A largura de banda em uma rede MPLS é compartilhada com outros assinantes, e cada pacote de dados recebe um rótulo para distinguir os dados de um assinante de outro. Esse tipo de conexão não exige VPN (rede virtual privada). Uma possível desvantagem é que o tráfego IP excessivo pode interferir na operação de VoIP, a menos que o tráfego VoIP tenha prioridade.
+- MPLS (Multiprotocol Label Switching) é uma rede privada que direciona e transporta dados de um nó de rede para o próximo. A largura de banda em uma rede MPLS é compartilhada com outros assinantes, e cada pacote de dados recebe um rótulo para distinguir os dados de um assinante dos dados de outro assinante. Esse tipo de conexão não exige VPN. Uma possível desvantagem é que o tráfego IP excessivo pode interferir com a operação VoIP, a menos que o tráfego VoIP tenha prioridade.
 
-- Uma conexão privada sem outro tráfego, por exemplo, uma conexão de fibra ótica concedida ou uma linha T1, é normalmente o tipo de conexão mais confiável e seguro. Esse tipo de conexão oferece a maior capacidade de realização de chamadas, mas é geralmente o mais caro. Não é necessário VPN. As conexões privadas são adequadas para organizações com alto volume de chamadas ou com requisitos de segurança e disponibilidade rígidos.
+- Uma conexão privada sem outro tráfego—por exemplo, uma conexão de fibra ótica arrendada ou linha T1—é normalmente o tipo de conexão mais confiável e segura (por exemplo, uma conexão de fibra óptica. Este tipo de conexão oferece a maior capacidade de realização de chamadas, mas é geralmente o mais caro. VPN não é necessário. Conexões privadas são adequadas para organizações com alto volume de chamadas ou com requisitos de segurança e disponibilidade rígidos.
 
-- A Internet é o tipo de conexão menos caro, mas também o menos confiável. Conexão à Internet é o único tipo de conexão de entroncamento do Skype for Business Server SIP que requer VPN.
+- A Internet é o tipo de conexão menos caro, mas também o menos confiável. A conexão com a Internet é o único tipo de conexão de tronco SIP do Skype for Business Server que requer VPN.
 
 #### <a name="selecting-a-connection-type"></a>Selecionando um tipo de conexão
 
@@ -115,9 +115,9 @@ O tipo de conexão de tronco SIP mais apropriado para sua empresa depende de sua
 
 - Para uma empresa de médio ou grande porte, uma rede MPLS normalmente fornece o maior valor. Ela pode fornecer a largura de banda necessária por uma taxa mais barata do que uma rede privada especializada.
 
-- Empresas de grande porte podem exigir uma conexão de fibra ótica, T1, T3 ou superior privada (E1, E3 ou superior na União Europeia).
+- Empresas de grande porte podem exigir uma conexão de fibra ótica T1, T3 ou superior (E1, E3 ou superior na União Europeia).
 
-- Para uma pequena empresa ou site de filial com baixo volume de chamadas, o entroncamento SIP pela Internet pode ser a melhor opção. Esse tipo de conexão não é recomendado para locais de médio ou grande porte.
+- Para uma pequena empresa ou site de filial com baixo volume de chamada, o tronco SIP pela Internet pode ser a melhor opção. Esse tipo de conexão não é recomendado para sites de médio ou grande porte.
 
 ### <a name="bandwidth-requirements"></a>Requisitos de largura de banda
 
@@ -130,7 +130,7 @@ Largura de banda de pico do tronco SIP = máximo de chamadas simultâneas x (64 
 
 ### <a name="codec-support"></a>Suporte ao codec
 
-O Skype for Business Server só oferece suporte aos seguintes codecs:
+O Skype for Business Server dá suporte apenas aos seguintes codecs:
 
 - G.711 a-law (usado principalmente fora da América do Norte)
 
@@ -138,52 +138,52 @@ O Skype for Business Server só oferece suporte aos seguintes codecs:
 
 ### <a name="internet-telephony-service-provider"></a>Provedor de Serviço de Telefonia pela Internet
 
-O modo de implementação do lado do provedor de serviços de uma conexão de tronco SIP varia de um ITSP para outro. Para obter informações de implantação, contate seu provedor de serviços. Para obter uma lista de provedores de serviços de entroncamento SIP certificados, consulte [website Microsoft Unified Communication Open Interoperability Program](https://go.microsoft.com/fwlink/p/?LinkId=287029).
+Como você implementa o lado do provedor de serviço de uma conexão de tronco SIP varia de um ITSP para outro. Para obter informações de implantação, entre em contato com o seu provedor de serviços. Para uma lista de provedores certificados de serviços de tronco SIP, consulte o site do Programa de Interoperabilidade Aberta de Comunicações [Unificadas da Microsoft.](https://go.microsoft.com/fwlink/p/?LinkId=287029)
 
 Para obter detalhes sobre os provedores de tronco SIP certificado pela Microsoft, entre em contato com seu representante da Microsoft.
 
 > [!IMPORTANT]
 > Você deve usar um provedor de serviço certificado pela Microsoft para garantir que seu ITSP suporte todas as funcionalidades que atravessam o tronco SIP (por exemplo, configurar e gerenciar sessões e suportar todos os serviços de VoIP estendido). O suporte técnico da Microsoft não estender as configurações que usam provedores não certificados. Se você atualmente usa um provedor de serviço Internet não certificado para tronco SIP, é possível optar por continuar usando este provedor como seu ISP e usar um provedor certificado pela Microsoft para tronco SIP.
 
-### <a name="topologies-and-components-for-sip-trunking"></a>Topologias e componentes do tronco SIP
+### <a name="topologies-and-components-for-sip-trunking"></a>Topologias e componentes para tronco SIP
 
-A figura a seguir descreve a topologia de entroncamento SIP no Skype for Business Server.
+A figura a seguir ilustra a topologia de tronco SIP no Skype for Business Server.
 
-**Topologia de troncos SIP**
+**Topologia de tronco SIP**
 
-![Topologia de entroncamento SIP](../../media/669fb55d-7c81-4e21-9421-fabc43d6e064.jpg)
+![Topologia de tronco SIP](../../media/669fb55d-7c81-4e21-9421-fabc43d6e064.jpg)
 
-Conforme mostra o diagrama, uma VPN (rede virtual privada) IP é usada para a conectividade entre a rede corporativa e o provedor de serviços da rede de telefonia pública comutada (PSTN). O objetivo desta rede privada é fornecer conectividade IP, aprimorar a segurança e (opcionalmente) obter garantias de qualidade de serviços (QoS). Devido à natureza de uma VPN, não é necessário usar protocolo TLS para o tráfego de sinalização SIP ou SRTP para tráfego de mídia.  As conexões entre a empresa e o provedor de serviços consistem, portanto, em conexões TCP básicas para SIP e RTP básico (via protocolo UDP) em mídia encapsulada através de uma VPN IP. Certifique-se de que todos os firewalls entre os roteadores VPN possuem portas abertas para permitir a comunicação e que os endereços IP nas bordas externas dos roteadores VPN sejam roteáveis publicamente.
+Conforme mostrado no diagrama, uma VPN (rede privada virtual) IP é usada para conectividade entre a rede corporativa e o provedor de serviços PSTN (rede telefônica pública comutado). O objetivo dessa rede privada é fornecer conectividade IP, aumentar a segurança e (opcionalmente) obter garantias de QoS (Qualidade de Serviço). Devido à natureza de uma VPN, você não precisa usar o protocolo TLS para tráfego de sinalização SIP ou SRTP (protocolo de transporte em tempo real seguro) para o tráfego de mídia. As conexões entre a empresa e o provedor de serviços consistem, portanto, em conexões TCP simples para SIP e RTP (protocolo de transporte em tempo real) simples (sobre UDP) para mídia túnelada por meio de uma VPN IP. Verifique se todos os firewalls entre os roteadores VPN têm portas abertas para permitir que os roteadores VPN se comuniquem e que os endereços IP nas bordas externas dos roteadores VPN sejam publicamente rouáveis.
 
 > [!IMPORTANT]
-> Contate seu provedor de serviços para determinar se ele oferece suporte para alta disponibilidade, incluindo failover. Em caso positivo, você precisará determinar os procedimentos para configurá-lo. Por exemplo, você precisa configurar apenas um endereço IP e um tronco SIP em cada servidor de mediação ou precisa configurar vários troncos SIP em cada servidor de mediação? > se você tiver vários sites centrais, verifique também se o provedor de serviço tem a capacidade de habilitar conexões para e de outro site central.
+> Entre em contato com seu provedor de serviços para determinar se ele oferece suporte para alta disponibilidade, incluindo failover. Em caso afirmativos, você precisará determinar os procedimentos para defini-lo. Por exemplo, você precisa configurar apenas um endereço IP e um tronco SIP em cada Servidor de Mediação ou é necessário configurar vários troncos SIP em cada Servidor de Mediação? > Se você tiver vários sites centrais, pergunte também se o provedor de serviços tem a capacidade de habilitar conexões de e para outro site central.
 
 > [!NOTE]
-> Para o entroncamento SIP, é altamente recomendável implantar servidores de mediação autônomos. Para obter detalhes, consulte [Deploying Mediation Servers and Defining Peers](https://technet.microsoft.com/library/a684f1da-6671-4011-adf6-2db49e2528e2.aspx) na documentação de implantação.
+> Para tronco SIP, é recomendável implantar Servidores de Mediação autônomos. Para obter detalhes, [consulte Deploying Mediation Servers and Defining Peers](https://technet.microsoft.com/library/a684f1da-6671-4011-adf6-2db49e2528e2.aspx) in the Deployment documentation.
 
-### <a name="securing-the-mediation-server-for-sip-trunking"></a>Como proteger o Servidor de Mediação para troncos SIP
+### <a name="securing-the-mediation-server-for-sip-trunking"></a>Proteger o Servidor de Mediação para Tronco SIP
 
-Para fins de segurança, você deve configurar uma LAN virtual (VLAN) para cada conexão entre os dois roteadores VPN. O processo real para configurar uma VLAN varia de um fabricante de roteador para outro. Para detalhes, entre em contato com o fornecedor do seu roteador.
+Para fins de segurança, você deve configurar uma LAN virtual (VLAN) para cada conexão entre os dois roteadores VPN. O processo real para configurar uma VLAN varia de um fabricante de roteador para outro. Para obter detalhes, entre em contato com o fornecedor do roteador.
 
-É recomendável seguir estas diretrizes:
+Recomendamos que você siga estas diretrizes:
 
-- Configure uma VLAN (LAN virtual) entre o servidor de mediação e o roteador VPN na rede de perímetro (também conhecido como DMZ, zona desmilitarizada e sub-rede filtrada).
+- Configurar uma LAN virtual (VLAN) entre o Servidor de Mediação e o roteador VPN na rede de perímetro (também conhecida como DMZ, zona desmilitarizada e sub-rede triada).
 
 - Não permita que pacotes de transmissão ou multicast sejam transferidos do roteador para a VLAN.
 
-- Bloqueie todas as regras de roteamento que roteiam o tráfego do roteador para qualquer lugar, mas o servidor de mediação.
+- Bloqueie quaisquer regras de roteamento que roteiem o tráfego do roteador para qualquer lugar, menos o Servidor de Mediação.
 
-Se você usa um servidor VPN, é recomendável seguir as seguintes diretrizes:
+Se você usar um servidor VPN, recomendamos seguir estas diretrizes:
 
-- Configurar uma VLAN entre o servidor VPN e o servidor de mediação.
+- Configurar uma VLAN entre o servidor VPN e o Servidor de Mediação.
 
-- Não permita que pacotes de transmissão ou multicast sejam transferidos do servidor VPN para a VLAN.
+- Não permita que pacotes de transmissão ou multicast sejam transmitidos do servidor VPN para a VLAN.
 
-- Bloqueie qualquer regra de roteamento que roteia o tráfego do servidor VPN para qualquer lugar, mas o servidor de mediação.
+- Bloqueie qualquer regra de roteamento que roteie o tráfego do servidor VPN para qualquer lugar, menos o Servidor de Mediação.
 
-- Criptografe dados na VPN usando GRE (encapsulamento de roteamento genérico).
+- Criptografar dados na VPN usando o encapsulamento de roteamento genérico (GRE).
 
 ## <a name="see-also"></a>Confira também
 
-[Entroncamento do site de filial do SIP no Skype for Business Server](branch-site.md)
+[Tronco SIP do site de filial no Skype for Business Server](branch-site.md)
 

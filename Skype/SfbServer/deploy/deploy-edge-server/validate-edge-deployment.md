@@ -1,8 +1,8 @@
 ---
-title: Validar a implantação do seu Edge no Skype for Business Server
+title: Validar sua implantação de Borda no Skype for Business Server
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 audience: ITPro
 manager: serdars
 ms.topic: quickstart
@@ -14,50 +14,50 @@ ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: 69837f86-d141-4884-a4ca-c7e7463afaad
-description: 'Resumo: saiba como verificar se sua implantação do servidor de borda ou do pool do servidor de borda está funcionando no Skype for Business Server.'
-ms.openlocfilehash: c73b77fd0171afe20f9e40b48c47ef4304df4c66
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+description: 'Resumo: Saiba como verificar se a implantação do Servidor de Borda ou pool de Servidores de Borda está funcionando no Skype for Business Server.'
+ms.openlocfilehash: 1da2bed1bc9df7cb118d47c2b27e190546838e1b
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41768294"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49804351"
 ---
-# <a name="validate-your-edge-deployment-in-skype-for-business-server"></a>Validar a implantação do seu Edge no Skype for Business Server
+# <a name="validate-your-edge-deployment-in-skype-for-business-server"></a>Validar sua implantação de Borda no Skype for Business Server
  
-**Resumo:** Saiba como verificar se sua implantação do servidor de borda ou do pool do servidor de borda está funcionando no Skype for Business Server.
+**Resumo:** Saiba como verificar se a implantação do Servidor de Borda ou pool de Servidores de Borda está funcionando no Skype for Business Server.
   
-Depois de implantar o servidor de borda ou o pool do servidor de borda, você precisa saber se ele está funcionando corretamente. Veja a seguir algumas coisas que podem ajudar a confirmar se o ambiente de borda está conectado a seus servidores internos e também que seus usuários externos podem se conectar ao ambiente do Skype for Business Server por meio de sua borda.
+Depois de ter implantado seu Servidor de Borda ou pool de Servidores de Borda, você precisará saber se ele está funcionando corretamente. Aqui estão algumas coisas que podem ajudar na confirmação de que seu ambiente de Borda está conectado aos seus servidores internos e também que seus usuários externos podem se conectar ao seu ambiente do Skype for Business Server por meio de sua Borda.
   
-## <a name="verify-connectivity-between-your-internal-servers-and-your-edge-servers"></a>Verificar conectividade entre seus servidores internos e seus servidores de Borda
+## <a name="verify-connectivity-between-your-internal-servers-and-your-edge-servers"></a>Verificar a conectividade entre os servidores internos e os servidores de Borda
 
-Enquanto a validação de conectividade é feita automaticamente no servidor de borda ou no pool do servidor de borda quando os servidores de borda são instalados, você ainda pode confirmar isso por conta própria com o Windows PowerShell. Execute o cmdlet Get-CsManagementStoreReplicationStatus no servidor interno que tem o repositório de gerenciamento central ou qualquer computador associado a domínio no qual os componentes principais do Skype for Business Server (OcsCore. msi) estão instalados.
+Embora a validação da conectividade seja feita automaticamente no Servidor de Borda ou no pool do Servidor de Borda quando os Servidores de Borda são instalados, você ainda pode confirmar isso por conta própria com o Windows PowerShell. Execute o cmdlet Get-CsManagementStoreReplicationStatus no servidor interno que tem o armazenamento de Gerenciamento Central ou em qualquer computador ingressado no domínio no qual os Componentes Principais do Skype for Business Server (OcsCore.msi) estão instalados.
   
-O resultado inicial da execução deste comando pode mostrar um status Falso, em vez de Verdadeiro, para a replicação. Caso isso ocorra, execute o cmdlet Invoke-CsManagementStoreReplication. Aguarde até ele concluir a replicação e depois execute o cmdlet Get-CsManagementStoreReplicationStatus novamente.
+O resultado inicial da execução deste comando pode dar um status False, em vez de True, para replicação. Se isso acontecer, execute o Invoke-CsManagementStoreReplication cmdlet. Dê algum tempo para concluir a replicação e execute o cmdlet Get-CsManagementStoreReplicationStatus novamente.
   
-## <a name="verify-connectivity-for-your-external-users"></a>Verificar conectividade de seus usuários externos
+## <a name="verify-connectivity-for-your-external-users"></a>Verificar a conectividade de seus usuários externos
 
-Temos uma ótima ferramenta para confirmar a configuração do servidor de borda e a capacidade de se conectar, enviar e receber as mensagens corretas para cenários do servidor de borda. É o [site de Anaylzer de conectividade remota](https://testconnectivity.microsoft.com/). Este é um site gerenciado e mantido pelo Suporte da Microsoft. Para utilizar esta ferramenta, navegue até o site e siga as instruções para escolher o cenário correto para você.
+Temos uma ótima ferramenta para confirmar sua configuração do Servidor de Borda e a capacidade de se conectar, enviar e receber as mensagens corretas para cenários do Servidor de Borda. É o site [De análogo de Conectividade Remota.](https://testconnectivity.microsoft.com/) Este é um site gerenciado e mantido pelo Suporte da Microsoft. Para usar essa ferramenta, navegue até o site e siga as instruções para escolher o cenário certo para você.
   
-### <a name="things-to-consider-when-testing-external-user-connectivity"></a>Elementos a serem levados em consideração ao testar a conectividade de usuários externos
+### <a name="things-to-consider-when-testing-external-user-connectivity"></a>Itens a considerar ao testar a conectividade do usuário externo
 
-Os testes de acesso de usuários externos devem incluir qualquer tipo de usuário interno suportado pela sua organização, incluindo qualquer um ou todos os seguintes:
+Qualquer teste de acesso de usuário externo precisa incluir cada tipo de usuário interno compatível com sua organização, o que pode incluir qualquer um ou todos os seguintes:
   
-- Usuários de pelo menos um domínio federado (porém, recomendamos testar todos).
+- Os usuários de pelo menos um domínio federado (recomendamos testá-los todos).
     
 - Usuários anônimos.
     
-- Os usuários em sua organização que estão conectados ao Skype for Business remotamente, mas não estão usando a VPN.
+- Usuários em sua organização que estão conectados ao Skype for Business remotamente, mas não estão usando VPN.
     
-Esses testes determinarão se o servidor de borda é:
+Esses testes determinarão se o Servidor de Borda é:
   
 - Escuta as portas necessárias usando um cliente telnet de fora da rede.
     
   - Por exemplo: telnet sip.contoso.com 443
     
-  - Você deve executar o teste anterior nas portas que você está usando em seu servidor de borda ou em um pool de servidor de borda, dependendo da sua implantação.
+  - Você deve realizar o teste anterior nas portas que está usando no seu Servidor de Borda ou pool de Servidores de Borda, dependendo da sua implantação.
     
 - Executa a resolução DNS externa precisa.
     
-  - De fora da sua rede, execute ping em cada um dos FQDNs externos do seu servidor de borda ou de um pool de servidor de borda. Mesmo que o ping falhe, você verá os endereços IP, para os quais você pode comparar os endereços IP que você atribuiu anteriormente.
+  - De fora da rede, ping em cada um dos FQDNs externos do seu Servidor de Borda ou pool de Servidores de Borda. Mesmo que o ping falhe, você verá os endereços IP, que podem ser comparados aos endereços IP atribuídos anteriormente.
     
 

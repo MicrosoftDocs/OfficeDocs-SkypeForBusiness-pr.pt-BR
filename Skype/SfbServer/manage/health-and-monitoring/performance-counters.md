@@ -1,8 +1,8 @@
 ---
 title: Contadores de desempenho de mobilidade no Skype for Business Server
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,84 +11,84 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: d18ed85a-673d-4695-aa3f-ac83a38ab90a
-description: 'Resumo: Saiba mais sobre os contadores de desempenho que você pode usar para monitorar servidores que executam a API da Web de comunicação unificada (UCWA) e o serviço de mobilidade do Skype for Business Server MCX.'
-ms.openlocfilehash: e9a3ade40694ef18e1022388d48838822d409625
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 'Resumo: saiba mais sobre os contadores de desempenho que você pode usar para monitorar servidores que executam a Unified Communications Web API (UCWA) e o Serviço de Mobilidade Mcx do Skype for Business Server.'
+ms.openlocfilehash: d711ada11cee9cb12a5cde25cab583f8b174ac50
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41817760"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49814401"
 ---
 # <a name="mobility-performance-counters-in-skype-for-business-server"></a>Contadores de desempenho de mobilidade no Skype for Business Server
  
-**Resumo:** Saiba mais sobre os contadores de desempenho que você pode usar para monitorar servidores que executam a API da Web de comunicação unificada (UCWA) e o serviço de mobilidade do Skype for Business Server MCX.
+**Resumo:** Saiba mais sobre os contadores de desempenho que você pode usar para monitorar servidores que executam a Unified Communications Web API (UCWA) e o Serviço de Mobilidade Mcx do Skype for Business Server.
   
-As tabelas a seguir listam os nomes e as descrições dos contadores de desempenho que você pode usar para monitorar servidores que executam a API da Web de comunicação unificada (UCWA) e o serviço de mobilidade do Skype for Business Server MCX. 
+As tabelas a seguir listam os nomes e descrições dos contadores de desempenho que você pode usar para monitorar servidores que executam a Unified Communications Web API (UCWA) e o Serviço de Mobilidade Mcx do Skype for Business Server. 
   
-O nome da categoria para os contadores na tabela UCWA é **ls: Web-UCWA**.
+O nome da categoria para os contadores na tabela UCWA é **LS:WEB - UCWA**.
   
-O nome da categoria para os contadores na tabela do Serviço de Mobilidade Mcx é **LS:WEB – Mobile Communication Service**.
+O nome da categoria para os contadores na tabela Mcx Mobility Service é **LS:WEB - Mobile Communication Service**.
 
 > [!NOTE]
-> O suporte do MCX (serviço de mobilidade) para clientes móveis herdados não está mais disponível no Skype for Business Server 2019. Todos os clientes móveis atuais do Skype for Business já usam a API da Web de comunicação unificada (UCWA) para dar suporte a mensagens instantâneas (IM), presença e contatos. Os usuários com clientes herdados que usam o MCX precisarão atualizar para um cliente atual.
+> O suporte a MCX (Mobility Service) para clientes móveis herdado não está mais disponível no Skype for Business Server 2019. Todos os clientes móveis atuais do Skype for Business já usam o Unified Communications Web API (UCWA) para dar suporte a mensagens instantâneas (IM), presença e contatos. Os usuários com clientes herddos usando o MCX precisarão atualizar para um cliente atual.
   
 ## <a name="performance-counters-for-ucwa"></a>Contadores de desempenho para UCWA
 
 |Contador|Descrição|
 |:-----|:-----|
 |Contagem de aplicativos ativos  <br/> |O número atual de aplicativos  <br/> |
-|Contagem da modalidade de compartilhamento do aplicativo ativa  <br/> |O número atual da modalidade de compartilhamento do aplicativo  <br/> |
-|Contagem da modalidade de áudio ativa  <br/> |O número atual da modalidade de áudio  <br/> |
-|Contagem da modalidade de colaboração de dados ativa  <br/> |O número atual da modalidade de colaboração de dados  <br/> |
-|Latência para baixar fotos do diretório ativo (ms)  <br/> |Esse contador mostra o tempo médio (em milissegundos) para obter uma foto do diretório ativo  <br/> |
-|Contagem da modalidade de tráfego de mensagens ativa  <br/> |O número atual da modalidade de tráfego de mensagens  <br/> |
-|Contagem da modalidade de vídeo panorâmico ativa  <br/> |O número atual da modalidade de vídeo panorâmico  <br/> |
-|Contagem de downloads pendentes ativos  <br/> |O número de downloads pendentes atualmente ativos; conexões de longa duração com o servidor  <br/> |
-|Contagem de sessões ativas  <br/> |O número atual de pontos de extremidade registrados no UCWA por aplicativo e no total  <br/> |
-|Contagem de instâncias de usuário ativas  <br/> |O número atual de instâncias de usuário ativas  <br/> |
+|Contagem de modalidades de compartilhamento de aplicativos ativos  <br/> |O número atual da modalidade de Compartilhamento de Aplicativos  <br/> |
+|Contagem de modalidades de áudio ativas  <br/> |O número atual da modalidade de áudio  <br/> |
+|Contagem de modalidades de colaboração de dados ativos  <br/> |O número atual da modalidade de Colaboração de Dados  <br/> |
+|Latência de Obter Fotos do Active Directory (ms)  <br/> |Esse contador mostra o tempo médio (em milissegundos) para recuperar uma foto do Active Directory  <br/> |
+|Contagem de modalidades de mensagens ativas  <br/> |O número atual de modalidade de mensagens  <br/> |
+|Contagem ativa da modalidade de vídeo panorâmico  <br/> |O número atual da modalidade de Vídeo Panorâmico  <br/> |
+|Contagem de get pendentes ativos  <br/> |O número de obtém pendentes ativos no momento; conexões de longa duração com o servidor  <br/> |
+|Contagem de sessão ativa  <br/> |O número atual de pontos de extremidade registrados no UCWA por aplicativo e no total  <br/> |
+|Contagem de instâncias de usuário ativas  <br/> |O número atual de instâncias de usuário  <br/> |
 |Instâncias de usuário ativas sem aplicativo  <br/> |O número atual de instâncias de usuário sem aplicativo  <br/> |
 |Contagem da modalidade de vídeo ativa  <br/> |O número atual da modalidade de vídeo  <br/> |
-|Solicitações de criação de aplicativo recebidas por segundo  <br/> |A taxa de solicitações de criação de aplicativo recebidas por segundo  <br/> |
-|Falhas de entrada em MCU de AS  <br/> |O número de falhas de entrada em MCU de AS  <br/> |
+|Solicitações de criação de aplicativo recebidas/segundo  <br/> |A taxa de solicitações de criação de aplicativo recebidas por segundo  <br/> |
+|Falhas de ingressar em MCU de AS  <br/> |O número de falhas de ingressar em MCU de AS  <br/> |
 |Falhas de entrada em MCU de AV  <br/> |O número de falhas de entrada em MCU de AV  <br/> |
-|Tempo médio para inicialização do aplicativo (ms)  <br/> |O tempo médio para inicialização do aplicativo em milissegundos  <br/> |
-|Tempo médio de duração por sessão (ms)  <br/> |O tempo médio de vida de uma sessão em milissegundos  <br/> |
-|Falhas de entrada em MCU de dados  <br/> |O número de falhas de entrada em MCU de dados  <br/> |
-|Latência para pesquisa de contatos no Exchange (ms)  <br/> |Esse contador mostra o tempo médio (em milissegundos) para se pesquisar contatos no Exchange  <br/> |
-|Latência para baixar fotos em HD no Exchange (ms)  <br/> |Esse contador mostra o tempo médio (em milissegundos) para se baixar uma foto no Exchange  <br/> |
-|Respostas/segundo do HTTP 4xx  <br/> |A taxa de respostas por segundo com o código HTTP 4xx  <br/> |
-|Respostas/segundo do HTTP 5xx  <br/> |A taxa de respostas por segundo com o código HTTP 5xx  <br/> |
-|Falhas de entrada em MCU de IM  <br/> |O número de falhas de entrada em MCU de IM  <br/> |
-|Número de falhas ao baixar fotos do Active Directory  <br/> |O número total de falhas ao baixar fotos do Active Directory  <br/> |
-|Número de falhas ao pesquisar contatos  <br/> |O número total de falhas ao pesquisar contatos no Exchange  <br/> |
+|Tempo Médio de Inicialização do Aplicativo (ms)  <br/> |O tempo médio de inicialização do aplicativo em milissegundos  <br/> |
+|Tempo médio de vida da sessão (ms)  <br/> |O tempo médio de vida de uma sessão em milissegundos  <br/> |
+|Falhas de junção de MCU de dados  <br/> |O número de falhas de junção de MCU de dados  <br/> |
+|Latência da Pesquisa de Contatos do Exchange (ms)  <br/> |Esse contador mostra o tempo médio (em milissegundos) para pesquisar contato no Exchange  <br/> |
+|Latência de Get de Fotos HD do Exchange (ms)  <br/> |Esse contador mostra o tempo médio (em milissegundos) para recuperar uma foto do Exchange  <br/> |
+|Respostas HTTP 4xx/Segundo  <br/> |A taxa de respostas por segundo com código HTTP 4xx  <br/> |
+|Respostas HTTP 5xx/Segundo  <br/> |A taxa de respostas por segundo com código HTTP 5xx  <br/> |
+|Falhas de junção de MCU de IM  <br/> |O número de falhas de junção de MCU de IM  <br/> |
+|Número de falhas de obter fotos do Active Directory  <br/> |O número total de falhas para recuperar fotos do Active Directory  <br/> |
+|Número de falhas de Pesquisa de Contato  <br/> |O número total de falhas na pesquisa de contatos no Exchange  <br/> |
 |Número de falhas de desserialização  <br/> |O número total de falhas de desserialização  <br/> |
-|Número de falhas de obtenção de foto HD  <br/> |O número total de falhas ao baixar fotos em HD do Exchange  <br/> |
-|Excesso de inscrições por aplicativo  <br/> |O número de solicitações de inscrição além do máximo permitido por aplicativo  <br/> |
-|Excesso de inscrições por lote  <br/> |O número de solicitações de inscrição além do máximo permitido por lote  <br/> |
-|Falhas de inscrição de presença  <br/> |O número de falhas ao realizar inscrições de presença  <br/> |
-|Falhas ao se registrar pontos de extremidade  <br/> |O número de falhas ao se registrar pontos de extremidade  <br/> |
+|Número de falhas ao obter fotos HD  <br/> |O número total de falhas ao recuperar fotos HD do Exchange  <br/> |
+|Acima do máximo de assinaturas por aplicativo  <br/> |O número de solicitações de Assinatura acima do máximo permitido por aplicativo  <br/> |
+|Acima do máximo de assinaturas por lote  <br/> |O número de solicitações de Assinatura acima do máximo permitido por lote  <br/> |
+|Falhas de Assinatura de Presença  <br/> |O número de falhas na assinatura da presença  <br/> |
+|Registrando falhas de ponto de extremidade  <br/> |O número de falhas ao registrar pontos de extremidade  <br/> |
 |Solicitações recebidas/segundo  <br/> |A taxa de solicitações recebidas por segundo  <br/> |
-|Solicitações bem-sucedidas/segundo  <br/> |A taxa por segundo de solicitações bem-sucedidas (códigos de resposta HTTP 2xx/3xx)  <br/> |
+|Solicitações bem-sucedidas/segundo  <br/> |A taxa de solicitações bem-sucedidas por segundo (códigos de resposta HTTP 2xx/3xx)  <br/> |
 |Solicitações de criação de aplicativo bem-sucedidas/segundo  <br/> |A taxa de solicitações de criação de aplicativo bem-sucedidas por segundo  <br/> |
-|Contagem de downloads pendentes com tempo limite ultrapassado  <br/> |O número de downloads pendentes que ultrapassaram o tempo limite  <br/> |
+|Contagem de get pendentes com tempo out  <br/> |O número de pendentes obtém o tempo de espera  <br/> |
 |Total de solicitações de criação de aplicativo recebidas  <br/> |O número total de solicitações de criação de aplicativo recebidas desde que o serviço foi iniciado  <br/> |
-|Total de respostas de HTTP 4xx  <br/> |O número total de respostas de HTTP 4xx  <br/> |
-|Total de respostas de HTTP 5xx  <br/> |O número total de respostas de HTTP 5xx  <br/> |
-|Total de solicitações recebidas no Canal de Comando  <br/> |O número total de solicitações recebidas no canal do comando  <br/> |
-|Total de solicitações bem-sucedidas  <br/> |O número total de solicitações que tiveram êxito  <br/> |
-|Total de sessões iniciadas  <br/> |O número total de sessões iniciadas desde a inicialização do serviço  <br/> |
-|Total de sessões encerradas devido ao tempo limite de ociosidade  <br/> |O número total de sessões encerradas devido ao tempo limite de usuário ocioso  <br/> |
-|Total de aplicativos limitados  <br/> |O número de aplicativos limitados  <br/> |
+|Total de respostas HTTP 4xx  <br/> |O número total de respostas HTTP 4xx  <br/> |
+|Total de respostas HTTP 5xx  <br/> |O número total de respostas HTTP 5xx  <br/> |
+|Total de solicitações recebidas no canal de comando  <br/> |O número total de solicitações recebidas no canal do comando  <br/> |
+|Total de solicitações bem-sucedidas  <br/> |O número total de solicitações bem-sucedidas  <br/> |
+|Total de sessões iniciadas  <br/> |O número total de sessões iniciadas desde que o serviço foi iniciado  <br/> |
+|Total de sessões encerradas devido ao tempo de ociosidade  <br/> |O número total de sessões encerradas devido ao tempo limite de usuário ocioso  <br/> |
+|Total de aplicativos com aceleração  <br/> |O número de aplicativos aceleradores  <br/> |
    
-**Contadores de desempenho para Mobility Service (Mcx)**
+**Contadores de desempenho para o Mcx Mobility Service**
 
 |**Contador**|**Descrição**|
 |:-----|:-----|
-|Tempo médio de vida de uma sessão em milissegundos  <br/> |O tempo médio de vida de uma sessão em milissegundos  <br/> |
-|Assinaturas atuais de notificação por push  <br/> |O número atual de assinaturas de notificação por push. Esse número, em conjunto com a Contagem de sessões atualmente ativas, representam o subconjunto de sessões atualmente ativas registradas para dispositivos Windows Mobile ou iPhone.  <br/> |
+|Tempo média de vida de uma sessão em milissegundos  <br/> |O tempo médio de vida de uma sessão em milissegundos  <br/> |
+|Assinaturas atuais de notificação por push  <br/> |O número atual de assinaturas de notificação por push. Esse número, em conjunto com a Contagem atual de sessão ativa, representa o subconjunto de sessões atualmente ativas registradas para dispositivos Windows Mobile ou iPhone.  <br/> |
 |Contagem de polls de tempo limite de rede ativos no momento  <br/> |O número de pools de rede que ultrapassaram o tempo limite  <br/> |
 |Contagem de pools ativos no momento  <br/> |O número de polls atualmente ativos (conexões de longa duração com o servidor)  <br/> |
-|Contagem de sessão ativa no momento  <br/> |Número atual de pontos de extremidade registrados no Mobility Service  <br/> |
+|Contagem de sessão ativa no momento  <br/> |Número atual de pontos de extremidade registrados no Serviço de Mobilidade  <br/> |
 |Contagem de sessão ativa no momento com assinaturas de presença ativa  <br/> |O número de sessões ativas no momento com assinaturas de presença ativa  <br/> |
 |Solicitações de notificação por push sem êxito/segundo  <br/> |A taxa de notificações por push sem êxito por segundo  <br/> |
 |Solicitações de notificação por push bem-sucedidas/segundo  <br/> |A taxa de notificações por push bem-sucedidas por segundo  <br/> |
@@ -110,11 +110,11 @@ O nome da categoria para os contadores na tabela do Serviço de Mobilidade Mcx �
 |Total de solicitações sem êxito  <br/> |O número total de solicitações que não tiveram êxito  <br/> |
 |Total de solicitações recebidas no Canal de Comando  <br/> |O número total de solicitações recebidas no canal do comando  <br/> |
 |Total de solicitações rejeitadas  <br/> |O número total de solicitações rejeitadas  <br/> |
-|Total de solicitações bem-sucedidas  <br/> |O número total de solicitações feitas ao Mobility Service que tiveram êxito  <br/> |
-|Contagem total de sessões iniciadas  <br/> |O número total de sessões iniciadas desde a inicialização do Mobility Service  <br/> |
+|Total de solicitações bem-sucedidas  <br/> |O número total de solicitações feitas ao Serviço de Mobilidade que tiveram êxito  <br/> |
+|Contagem total de sessões iniciadas  <br/> |O número total de sessões iniciadas desde a inicialização do Serviço de Mobilidade  <br/> |
 |Total de sessões encerradas devido ao tempo limite de usuário ocioso  <br/> |O número total de sessões encerradas devido ao tempo limite de usuário ocioso  <br/> |
 |Total de chamadas de voz de entrada bem-sucedidas  <br/> |O número total de chamadas de voz de entrada que tiveram êxito  <br/> |
 |Total de chamadas de voz de saída bem-sucedidas  <br/> |O número total de chamadas de voz de saída que tiveram êxito  <br/> |
    
 > [!NOTE]
-> O suporte do MCX (serviço de mobilidade) para clientes móveis herdados não está mais disponível no Skype for Business Server 2019. Todos os clientes móveis atuais do Skype for Business já usam a API da Web de comunicação unificada (UCWA) para dar suporte a mensagens instantâneas (IM), presença e contatos. Os usuários com clientes herdados que usam o MCX precisarão atualizar para um cliente atual.
+> O suporte a MCX (Mobility Service) para clientes móveis herdado não está mais disponível no Skype for Business Server 2019. Todos os clientes móveis atuais do Skype for Business já usam o Unified Communications Web API (UCWA) para dar suporte a mensagens instantâneas (IM), presença e contatos. Os usuários com clientes herddos usando o MCX precisarão atualizar para um cliente atual.

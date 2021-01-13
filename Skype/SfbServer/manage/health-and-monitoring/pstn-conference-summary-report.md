@@ -1,8 +1,8 @@
 ---
-title: Relatório de Resumo de conferência PSTN no Skype for Business Server
+title: Relatório de Resumo de Conferência PSTN no Skype for Business Server
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,37 +11,37 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 8e2f0862-4dfa-4c2b-bf8d-ad71419f15d2
-description: 'Resumo: Saiba mais sobre o relatório de Resumo de conferências PSTN no Skype for Business Server.'
-ms.openlocfilehash: 1b45ab5c58f9796d2019c96731d40cf3f567a8ae
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 'Resumo: saiba mais sobre o Relatório de Resumo de ConferênciaS PSTN no Skype for Business Server.'
+ms.openlocfilehash: aab91995a2c987e1a6e3a10d1f6fc8791b19a4b1
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41817750"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49814371"
 ---
-# <a name="pstn-conference-summary-report-in-skype-for-business-server"></a>Relatório de Resumo de conferência PSTN no Skype for Business Server
+# <a name="pstn-conference-summary-report-in-skype-for-business-server"></a>Relatório de Resumo de Conferência PSTN no Skype for Business Server
  
-**Resumo:** Saiba mais sobre o relatório de Resumo de conferências PSTN no Skype for Business Server.
+**Resumo:** Saiba mais sobre o Relatório de Resumo de ConferênciaS PSTN no Skype for Business Server.
   
-No Skype for Business Server, uma conferência PSTN é qualquer conferência na qual pelo menos um participante disca para a parte de áudio por meio de um telefone PSTN (rede telefônica pública comutada). (Um telefone PSTN é um "telefone fixo", um telefone celular ou qualquer outro telefone que não usa voz sobre IP.) Ainda que sejam chamadas de conferências PSTN nos relatórios de monitoramento, essas conferências talvez sejam mais conhecidas como conferências discadas.
+No Skype for Business Server, uma conferência PSTN é qualquer conferência na qual pelo menos um participante disca para a parte de áudio usando um telefone PSTN (rede telefônica pública comutado). (Um telefone PSTN é uma "linha fixa", um telefone celular ou qualquer outro telefone que não use o Voice over IP.) Embora referidas como conferências PSTN nos Relatórios de Monitoramento, essas conferências são talvez mais comumente conhecidas como conferências discadas.
   
-O Relatório de resumo de conferência fornece informações sobre todas as conferências PSTN feitas em sua organização (isto é, todas as conferências que tenham pelo menos um usuário discado). O relatório contém informações sobre o número total de conferências PSTN, total de número de pessoas que participaram nessas conferências e, talvez, o mais importante, o número total de usuários discados (a métrica de Total de participantes PSTN).
+O Relatório de Resumo de Conferências PSTN fornece informações sobre todas as conferências PSTN realizadas em sua organização (ou seja, todas as conferências que tinham pelo menos um usuário discado). O relatório inclui informações sobre o número total de conferências PSTN, o número total de pessoas que participaram dessas conferências e, talvez, o mais importante, o número total de usuários discados (a métrica total de participantes da PSTN).
   
-## <a name="accessing-the-pstn-conference-summary-report"></a>Como acessar o Relatório de resumo de conferência PSTN
+## <a name="accessing-the-pstn-conference-summary-report"></a>Acessando o Relatório de Resumo de Conferências PSTN
 
-O Relatório de resumo de conferência PSTN pode ser acessado apenas da página inicial dos Relatórios de Monitoramento. Este relatório não está vinculado a nenhum outro. Observe que você não pode recuperar informações de chamadas detalhadas para uma conferência PSTN, em parte porque os pontos de extremidade individuais são responsáveis por enviar essas informações. Os telefones PSTN não são capazes de rastrear ou enviar informações de detalhes de chamada.
+O Relatório de Resumo de ConferênciaS PSTN só pode ser acessado a partir da página inicial dos Relatórios de Monitoramento. Este relatório não está vinculado a nenhum outro relatório. Observe que não é possível recuperar informações de chamada detalhadas para uma conferência PSTN, em parte porque os pontos de extremidade individuais são responsáveis por enviar essas informações. Os telefones PSTN não são capazes de rastrear ou enviar informações de detalhes de chamada.
   
-## <a name="making-the-best-use-of-the-pstn-conference-summary-report"></a>Como usar melhor o Relatório de resumo de conferência PSTN
+## <a name="making-the-best-use-of-the-pstn-conference-summary-report"></a>Fazendo o melhor uso do Relatório de Resumo de Conferências PSTN
 
-Para determinar a porcentagem de todas as suas conferências que incluem usuários de discagem, compare o valor da métrica total de conferências PSTN com a métrica de conferências total encontrada no [relatório de Resumo de conferências no Skype for Business Server](conference-summary-report.md).
+Para determinar a porcentagem de todas as conferências que incluem usuários discados, compare o valor da métrica Total de conferências PSTN com a métrica Total de conferências encontrada no Relatório de Resumo de Conferências no [Skype for Business Server.](conference-summary-report.md)
   
-Se você não vir o número de conferências PSTN que esperava ver, saiba que a capacidade de organizar uma conferência que permita usuários discados depende da política de conferência que foi atribuída a um usuário: se poucos usuários tiverem permissão para hospedar conferências PSTN, você obviamente verá poucas conferências PSTN. Você pode verificar rapidamente quais políticas de conferência (se houver) permitem que os usuários agendem conferências PSTN executando o seguinte comando no Shell de gerenciamento do Skype for Business Server:
+Se você não vir tantas conferências PSTN que espera ver, tenha em mente que a capacidade de organizar uma conferência que permite usuários de discagem depende da política de conferência que foi atribuída a um usuário: se poucos usuários têm permissão para realizar conferências PSTN, você obviamente verá poucas conferências PSTN. Você pode verificar rapidamente quais das suas políticas de conferência (se alguma) permitem que os usuários agendem conferências PSTN executando o seguinte comando no Shell de Gerenciamento do Skype for Business Server:
   
 ```PowerShell
 Get-CsConferencingPolicy | Select-Object Identity, EnableDialInConferencing
 ```
 
-Serão retornados dados semelhantes a estes:
+That will return data similar to this:
   
 <pre>
 Identity                                EnableDialInConferencing
@@ -55,33 +55,33 @@ Tag:DublinDialInUsers                                       True
 
 ## <a name="filters"></a>Filtros
 
-Filtros fornecem uma forma de retornar um conjunto de dados mais focado ou exibir os dados retornados de diferentes formas. Por exemplo, o Relatório de Resumo de Conferências PSTN permite escolher como os dados devem ser agrupados. Neste caso, as conferências são agrupadas por hora, dia, semana ou mês.
+Os filtros fornecem uma maneira de retornar um conjunto de dados mais direcionado ou de exibir os dados retornados de maneiras diferentes. Por exemplo, o Relatório de Resumo de Conferências PSTN permite escolher como os dados devem ser agrupados. Nesse caso, as conferências são agrupadas por hora, dia, semana ou mês.
   
-A tabela a seguir lista os filtros que podem ser usados com o Relatório de Resumo de Conferências PSTN.
+A tabela a seguir lista os filtros que você pode usar com o Relatório de Resumo de Conferências PSTN.
   
-**Filtros do Relatório de Resumo de Conferências PSTN**
+**Filtros do Relatório de Resumo de ConferênciaS PSTN**
 
 |**Nome**|**Descrição**|
 |:-----|:-----|
-|**De** <br/> |Data/hora de início para o intervalo de tempo. Para ver os dados por horas, insira a data e hora de início conforme segue:  <br/> 7/7/2015 13:00  <br/> Se você não inserir a hora de início, o relatório começará automaticamente à meia-noite do dia especificado. Para ver os dados por dia, insira somente a data:  <br/> 7/7/2015  <br/> Para exibir por semana ou mês, insira uma data dentro da semana ou mês que deseja exibir (não é necessário inserir o primeiro dia da semana ou mês):  <br/> 3/7/2015  <br/> As semanas sempre vão de domingo a sábado.  <br/> |
-|**Até** <br/> |Data/hora final de intervalo de tempo. Para ver os dados por horas, insira a data e hora final conforme segue:  <br/> 7/7/2015 13:00  <br/> Se você não inserir a hora final, o relatório terminará automaticamente à meia-noite do dia especificado. Para ver os dados por dia, insira somente a data:  <br/> 7/7/2015  <br/> Para exibir por semana ou mês, insira uma data dentro da semana ou mês que deseja exibir (não é necessário inserir o primeiro dia da semana ou mês):  <br/> 3/7/2015  <br/> As semanas sempre vão de domingo a sábado.  <br/> |
-|**Intervalo** <br/> | Intervalo de tempo. Selecione uma das seguintes opções: <br/>  Por hora (é possível exibir no máximo 25 horas) <br/>  Diariamente (é possível exibir no máximo 31 dias) <br/>  Semanalmente (é possível exibir no máximo 12 semanas) <br/>  Mensalmente (é possível exibir no máximo 12 meses) <br/>  Se as datas de início e término excederem o número máximo de valores permitidos para o intervalo selecionado, somente o número máximo de valores (a partir da data de início) será exibido. Por exemplo, se você selecionar o intervalo Diário com a data de início 7/7/2015 e a data de término 28/2/2015, os dados serão exibidos para os dias de 7/8/2015, meia-noite, a 7/9/2015, meia-noite, (ou seja, um total de 31 dias de dados). <br/> |
+|**De** <br/> |Data/hora inicial para o intervalo de tempo. Para exibir os dados por hora, insira a data e hora inicial como a seguir:  <br/> 7/7/2015 13:00  <br/> Se você não inserir uma hora inicial, o relatório começa automaticamente as 12:00 AM no dia especificado. Para exibir os dados por dia, insira apenas a data:  <br/> 7/7/2015  <br/> Para exibir por semana ou mês, insira uma data que está dentro da semana ou mês que deseja exibir (não é necessário inserir o primeiro dia da semana ou mês):  <br/> 7/3/2015  <br/> As semanas são sempre de domingo a sábado.  <br/> |
+|**To** <br/> |Data/hora final para o intervalo de tempo. Para exibir os dados por hora, insira a data e hora final como a seguir:  <br/> 7/7/2015 13:00  <br/> Se você não inserir uma hora final, o relatório termina automaticamente as 12:00 AM no dia especificado. Para exibir os dados por dia, insira apenas a data:  <br/> 7/7/2015  <br/> Para exibir por semana ou mês, insira uma data que está dentro da semana ou mês que deseja exibir (não é necessário inserir o primeiro dia da semana ou mês):  <br/> 7/3/2015  <br/> As semanas são sempre de domingo a sábado.  <br/> |
+|**Intervalo** <br/> | Intervalo de tempo. Selecione uma das seguintes opções: <br/>  Por hora (é possível exibir no máximo 25 horas) <br/>  Diariamente (é possível exibir no máximo 31 dias) <br/>  Semanalmente (é possível exibir no máximo 12 semanas) <br/>  Mensalmente (é possível exibir no máximo 12 meses) <br/>  Se as datas de início e término excederem o número máximo de valores permitidos para o intervalo selecionado, somente o número máximo de valores (a partir da data de início) será exibido. Por exemplo, se você selecionar o intervalo Diário com uma data de início de 7/7/2015 e uma data de término de 28/02/2015, os dados serão exibidos para os dias 7/8/2015 12:00 a 7/9/2015 00:00 (ou seja, um total de 31 dias de dados). <br/> |
    
-## <a name="metrics"></a>Métricas
+## <a name="metrics"></a>Métrica
 
-A tabela a seguir lista as informações no Relatório de Resumo de Conferências PSTN.
+A tabela a seguir lista as informações do Relatório de Resumo de Conferências PSTN.
   
-**Métricas do Relatório de Resumo de Conferências PSTN**
+**Métricas do Relatório de Resumo de ConferênciaS PSTN**
 
-|**Nome**|**Você pode classificar este item?**|**Descrição**|
+|**Nome**|**É possível classificar este item?**|**Descrição**|
 |:-----|:-----|:-----|
-|**Por hora** <br/> **Diário** <br/> **Semanal** <br/> **Mensal** <br/> |Não  <br/> |Indica o intervalo de tempo selecionado. Quando aplicável, você pode clicar em um dado intervalo de tempo para exibir informações detalhadas para aquele intervalo. Por exemplo, se estiver usando um intervalo por dia e clicar em 07/07/2015, você verá uma divisão por hora das atividades de registro do usuário para aquela data.  <br/> |
+|**A cada hora** <br/> **Diariamente** <br/> **Semanalmente** <br/> **Mensal** <br/> |Não  <br/> |Indica o intervalo de tempo selecionado. Quando aplicável, é possível clicar em um determinado intervalo de tempo para exibir informações detalhadas desse intervalo. Por exemplo, se você estiver usando o intervalo Diário e clicar em 7/7/2015, verá uma divisão por hora da atividade de registro do usuário para essa data.  <br/> |
 |**Total de conferências PSTN** <br/> |Não  <br/> |Número total de conferências que permitiram acesso discado.  <br/> |
 |**Total de participantes** <br/> |Não  <br/> |Número total de pessoas que participaram de conferências que permitiram acesso discado.  <br/> |
-|**Total de minutos de conferências de A/V** <br/> |Não  <br/> |Quantidade total do tempo de conferências audiovisuais.  <br/> |
-|**Total de minutos de participantes de conferências de A/V** <br/> |Não  <br/> |Quantidade total do tempo de participantes audiovisuais. Por exemplo, se um participante passou cinco minutos em uma conferência de A/V e outro passou três minutos na mesma conferência, o tempo de participantes de conferência de A/V total seria oito minutos.  <br/> |
-|**Total de participantes PSTN** <br/> |Não  <br/> |Número total de usuários que discaram para conferências que permitiram acesso discado.  <br/> |
-|**Total de minutos de participantes PSTN** <br/> |Não  <br/> |Quantidade total de tempo de conferência gasto por usuários discados. Por exemplo, se um participante discado passou cinco minutos em uma conferência e outro passou três minutos na mesma conferência, o tempo de participantes PSTN total seria oito minutos.  <br/> |
-|**Organizadores de conferência exclusivas** <br/> |Não  <br/> |Número total de usuários que organizaram no mínimo uma conferência que permitia acesso discado. Usuários que organizaram mais de uma conferência são contados como um organizador exclusivo, assim como usuários que organizaram somente uma única conferência.  <br/> |
+|**Total de minutos da conferência A/V** <br/> |Não  <br/> |Quantidade total de tempo de conferência de áudio/visual.  <br/> |
+|**Total de minutos do participante da conferência A/V** <br/> |Não  <br/> |Quantidade total de tempo do participante áudio/visual. Por exemplo, se um participante passou cinco minutos em uma conferência A/V e outro passou três minutos na mesma conferência, o tempo total de participantes da conferência A/V seria oito minutos.  <br/> |
+|**Total de participantes PSTN** <br/> |Não  <br/> |Número total de usuários que discam para conferências que permitiram acesso discado.  <br/> |
+|**Total de minutos de participantes PSTN** <br/> |Não  <br/> |Quantidade total de tempo de conferência gasto por usuários discados. Por exemplo, se um participante discado passou cinco minutos em uma conferência e outro passou três minutos na mesma conferência, o tempo total de participantes PSTN seria oito minutos.  <br/> |
+|**Organizadores exclusivos da conferência** <br/> |Não  <br/> |Número total de usuários que organizaram pelo menos uma conferência que permitiu acesso discado. Os usuários que organizaram mais de uma conferência são contados como um organizador exclusivo, assim como os usuários que só organizaram uma única conferência.  <br/> |
    
 

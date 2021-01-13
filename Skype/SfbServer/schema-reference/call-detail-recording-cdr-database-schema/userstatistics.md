@@ -1,8 +1,8 @@
 ---
-title: Tabela userstatistics
+title: Tabela UserStatistics
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -12,24 +12,24 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: cfaf803b-1679-4169-92d3-533fad3e56ed
-description: A tabela userstatistics é uma tabela de suporte. Cada registro na tabela armazena informações sobre o uso de um usuário individual do sistema. Esta tabela foi introduzida no Microsoft Lync Server 2013.
-ms.openlocfilehash: 048c26279deb6f89e69784d754567dfde84d9983
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: A tabela UserStatistics é uma tabela de suporte. Cada registro na tabela armazena informações sobre o uso do sistema por um usuário individual. Esta tabela foi introduzida no Microsoft Lync Server 2013.
+ms.openlocfilehash: 65017c9f807b272097b39bac88c80cc81e617ff4
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41814789"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49813101"
 ---
-# <a name="userstatistics-table"></a>Tabela userstatistics
+# <a name="userstatistics-table"></a>Tabela UserStatistics
  
-A tabela userstatistics é uma tabela de suporte. Cada registro na tabela armazena informações sobre o uso de um usuário individual do sistema. Esta tabela foi introduzida no Microsoft Lync Server 2013.
+A tabela UserStatistics é uma tabela de suporte. Cada registro na tabela armazena informações sobre o uso do sistema por um usuário individual. Esta tabela foi introduzida no Microsoft Lync Server 2013.
   
-|**Coluna**|**Tipo de dados**|**Chave/índice**|**Detalhes**|
+|**Coluna**|**Tipo de dados**|**Chave/Índice**|**Detalhes**|
 |:-----|:-----|:-----|:-----|
-|**ID** <br/> |int  <br/> |Primária  <br/> |Número exclusivo que identifica esse usuário.  <br/> |
-|**LastLogInTime** <br/> |datetime  <br/> ||Última vez em que o usuário se conectou.  <br/> |
-|**LastConfOrganizedTime** <br/> |datetime  <br/> ||Última vez em que o usuário organizou uma conferência.  <br/> |
-|**LastCallOrganizerCallFailureTime** <br/> |datetime  <br/> ||Última vez que o usuário experimentou uma falha na chamada.  <br/> |
-|**LastConfOrganizerCallFailureTime** <br/> |datetime  <br/> ||Última vez que o usuário experimentou uma falha na chamada como um organizador de conferências.  <br/> |
+|**UserId** <br/> |int  <br/> |Primário  <br/> |Número único que identifica este usuário.  <br/> |
+|**LastLogInTime** <br/> |datetime  <br/> ||Última vez que o usuário fez o login.  <br/> |
+|**LastConfOrganizedTime** <br/> |datetime  <br/> ||Última vez que o usuário organizou uma conferência.  <br/> |
+|**LastCallOrganizerCallFailureTime** <br/> |datetime  <br/> ||Última vez que o usuário enfrentou uma falha de ligação.  <br/> |
+|**LastConfOrganizerCallFailureTime** <br/> |datetime  <br/> ||Última vez que o usuário enfrentou uma falha de ligação como um organização da conferência.  <br/> |
    
 

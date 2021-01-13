@@ -1,8 +1,8 @@
 ---
 title: Tabela VoipDetails
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 7/15/2015
 audience: ITPro
@@ -12,30 +12,30 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 74ffbb71-569b-4018-be1f-4db2bbafcf36
-description: Cada registro representa uma chamada de 1 2 a terceiros na qual pelo menos um usuário é um usuário de VoIP.
-ms.openlocfilehash: 65bf3b4d7a815434b21b761030a7ac514d9bd803
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Cada registro representa uma chamada de dois participantes na qual pelo menos um usuário utiliza VoIP.
+ms.openlocfilehash: 900598c99965292e7d349520cc2dfa55443bb5a9
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41814779"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49813091"
 ---
 # <a name="voipdetails-table"></a>Tabela VoipDetails
  
-Cada registro representa uma chamada de 1 2 a terceiros na qual pelo menos um usuário é um usuário de VoIP.
+Cada registro representa uma chamada de dois participantes na qual pelo menos um usuário utiliza VoIP.
   
-|**Coluna**|**Tipo de dados**|**Chave/índice**|**Detalhes**|
+|**Coluna**|**Tipo de dados**|**Chave/Índice**|**Detalhes**|
 |:-----|:-----|:-----|:-----|
-|**Id_da_sessãotime** <br/> |datetime  <br/> |Primária  <br/> |Tempo de solicitação de sessão. Usado em conjunto com o **SessionIdSeq** para identificar exclusivamente uma sessão. Consulte a [tabela de diálogos no Skype for Business Server 2015](dialogs.md) para obter mais informações. <br/> |
-|**SessionIdSeq** <br/> |int  <br/> |Primária  <br/> |Número de identificação para identificar a sessão. Usado em conjunto com a **identificação_da_sessãotime** para identificar exclusivamente uma sessão. Consulte a [tabela de diálogos no Skype for Business Server 2015](dialogs.md) para obter mais informações. <br/> |
-|**FromNumberId** <br/> |int  <br/> |Exterior  <br/> |Identificação de **telefone** do chamador. Consulte a [tabela de telefones](phones.md) para obter mais informações. Se não for nulo e **FromGatewayId** não for nulo, o chamador será um usuário PSTN. <br/> |
-|**ConnectedNumberId** <br/> |int  <br/> |Exterior  <br/> |**Número de telefoneid** do receptor da chamada. Consulte a [tabela de telefones](phones.md) para obter mais informações. Se não for nulo e **Togatewayid** não for nulo, o receptor da chamada será um usuário PSTN. <br/> |
-|**FromMediationServerId** <br/> |int  <br/> |Exterior  <br/> |O servidor de mediação do qual a chamada está vindo. Consulte a [tabela MediationServers](mediationservers.md) para obter mais informações. <br/> |
-|**ToMediationServerId** <br/> |int  <br/> |Exterior  <br/> |O servidor de mediação chamado está indo para. Consulte a [tabela MediationServers](mediationservers.md) para obter mais informações. <br/> |
-|**FromGatewayId** <br/> |int  <br/> |Exterior  <br/> |Gateway do qual a chamada está vindo. Consulte a [tabela gateways no Skype for Business Server 2015](gateways.md) para obter mais informações. <br/> |
-|**Togatewayid** <br/> |int  <br/> |Exterior  <br/> |Gateway em que a chamada vai. Consulte a [tabela gateways no Skype for Business Server 2015](gateways.md) para obter mais informações. <br/> |
-|**DisconnectedbyURIId** <br/> |int  <br/> |Exterior  <br/> |URI do usuário que desconectou a chamada, se o usuário tiver um URI. Para obter mais informações, consulte a [tabela usuários](users.md) . <br/> |
-|**DisconnectedbyPhoneId** <br/> |int  <br/> |Exterior  <br/> |ID do telefone que desconectou a chamada foi desconectado de um telefone. Consulte a [tabela de telefones](phones.md) para obter mais informações. <br/> |
-|**LastModifiedtime** <br/> |DateTime  <br/> ||Para uso interno pelo serviço de monitoramento.  <br/> Este campo foi apresentado no Skype for Business Server 2015.  <br/> |
+|**SessionIdTime** <br/> |datetime  <br/> |Primário  <br/> |Tempo da solicitação de sessão. Usado em conjunto com **SessionIdSeq** para identificar exclusivamente uma sessão. Consulte a [tabela Dialogs no Skype for Business Server 2015](dialogs.md) para obter mais informações. <br/> |
+|**SessionIdSeq** <br/> |int  <br/> |Primário  <br/> |O número de ID para identificar a sessão. Usado em conjunto com **SessionIdTime** para identificar exclusivamente uma sessão. Consulte a [tabela Dialogs no Skype for Business Server 2015](dialogs.md) para obter mais informações. <br/> |
+|**FromNumberId** <br/> |int  <br/> |Externo  <br/> |**PhoneId** do chamador. Consulte a [tabela Telefones para](phones.md) obter mais informações. Se não é NULL e **FromGatewayId** não é nulo, o chamador era um usuário PSTN. <br/> |
+|**ConnectedNumberId** <br/> |int  <br/> |Externo  <br/> |**PhoneId** do receptor de chamada. Consulte a [tabela Telefones para](phones.md) obter mais informações. Se não é NULL e **ToGatewayId** não é nulo, o receptor de chamada era um usuário PSTN. <br/> |
+|**FromMediationServerId** <br/> |int  <br/> |Externo  <br/> |O Servidor de Mediação de onde a chamada está vindo. Consulte a [tabela MediationServers para](mediationservers.md) obter mais informações. <br/> |
+|**ToMediationServerId** <br/> |int  <br/> |Externo  <br/> |O Servidor de Mediação para onde vai a chamada. Consulte a [tabela MediationServers para](mediationservers.md) obter mais informações. <br/> |
+|**FromGatewayId** <br/> |int  <br/> |Externo  <br/> |O Gateway de onde a chamada é feita. Consulte a [tabela Gateways no Skype for Business Server 2015](gateways.md) para obter mais informações. <br/> |
+|**ToGatewayId** <br/> |int  <br/> |Externo  <br/> |O Gateway para onde a chamada vai. Consulte a [tabela Gateways no Skype for Business Server 2015](gateways.md) para obter mais informações. <br/> |
+|**DisconnectedbyURIId** <br/> |int  <br/> |Externo  <br/> |URI do usuário que desconectou a chamada, se o usuário tem um URI. Consulte a [tabela Usuários para](users.md) obter mais informações. <br/> |
+|**DisconnectedbyPhoneId** <br/> |int  <br/> |Externo  <br/> |A ID do telefone que desconectou a chamada foi desconectada de um telefone. Consulte a [tabela Telefones para](phones.md) obter mais informações. <br/> |
+|**LastModifiedTime** <br/> |Datetime  <br/> ||Para uso interno pelo serviço de Monitoramento.  <br/> Esse campo foi introduzido no Skype for Business Server 2015.  <br/> |
    
 

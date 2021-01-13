@@ -1,8 +1,8 @@
 ---
-title: Planejar Opções de Disponibilidade no Skype for Business Server
+title: Planejar opções de ocupado para o Skype for Business Server
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -14,102 +14,102 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 5f85c6bc-a962-4283-971c-4380d83b3a66
-description: Leia sobre o recurso opções ocupadas no Skype for Business Server.
-ms.openlocfilehash: cf9ee9dbb3785804b1bb63f4118a29d29cf7715c
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Leia sobre o recurso Opções de Ocupado no Skype for Business Server.
+ms.openlocfilehash: 558d7486ca7aaa794c3114f5c210702a54e02fc4
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41803241"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49813691"
 ---
-# <a name="plan-for-busy-options-for-skype-for-business-server"></a>Planejar Opções de Disponibilidade no Skype for Business Server
+# <a name="plan-for-busy-options-for-skype-for-business-server"></a>Planejar opções de ocupado para o Skype for Business Server
  
-Leia sobre o recurso opções ocupadas no Skype for Business Server.
+Leia sobre o recurso Opções de Ocupado no Skype for Business Server.
   
-O recurso Opções de Disponibilidade é uma nova política de voz introduzida na Atualização Cumulativa de julho de 2016 que permite configurar como as chamadas de entrada serão tratadas quando o usuário já estiver em uma chamada ou em conferência ou tiver colocado uma chamada em espera. As chamadas novas ou de entrada poderão ser rejeitadas com um sinal de ocupado ou encaminhadas para a caixa postal. 
+Opções de Ocupado é uma nova política de voz introduzida na Atualização Cumulativa de julho de 2016 que permite configurar como as chamadas de entrada são tratadas quando um usuário já está em uma chamada ou conferência ou tem uma chamada colocada em espera. Chamadas novas ou de entrada podem ser rejeitadas com um sinal de ocupado ou encaminhadas para a caixa postal. 
   
-Essa política tem suporte para failover e recuperação de desastre em Pools de Front-Ends e em SBSs (Servidores de Ramificação Persistente) emparelhados.
+A política de Opções de Ocupado é suportada para failover e recuperação de desastre em Pools de Front-End emparelhados e Servidores de Filial Survivable (SBS).
   
-Este tópico descreve as configurações de Opções de Disponibilidade. Para obter informações sobre como instalar e configurar o recurso Opções de Disponibilidade, veja [Install and configure Busy Options for Skype for Business Server](../../deploy/deploy-enterprise-voice/install-and-configure-busy-options.md).
+Este tópico descreve os recursos das Opções de Ocupado. Para obter informações sobre como instalar e configurar Opções de Ocupado, consulte Instalar e configurar Opções de Ocupado [para o Skype for Business Server.](../../deploy/deploy-enterprise-voice/install-and-configure-busy-options.md)
   
 ## <a name="configuration-options"></a>Opções de configuração
 
-Se o recurso Opções de Disponibilidade estiver habilitado para a organização, todos os usuários da empresa, tanto os usuários Enterprise Voice quanto os não Enterprise Voice, poderão usar os seguintes recursos:
+Se as Opções de Ocupado estiver habilitada para a organização, todos os usuários da sua organização, tanto os usuários do Enterprise Voice quanto os que não são do Enterprise Voice, poderão usar os seguintes recursos:
   
-- Sinal de Ocupado quando Ocupado - Se o usuário estiver ocupado, as novas chamadas de entrada serão rejeitadas com um sinal de ocupado.
+- Ocupado quando ocupado - Em que novas chamadas de entrada serão rejeitadas com um sinal de ocupado se o usuário estiver ocupado.
     
-- Caixa Postal quando Ocupado - Se o usuário estiver ocupado, as novas chamadas de entrada serão encaminhadas para a caixa postal.
+- Caixa Postal quando Ocupado - Em que novas chamadas de entrada serão encaminhadas para a caixa postal se o usuário estiver ocupado.
     
-O recurso Opções de Disponibilidade fornece a capacidade de failover. Se ocorrer um problema e os usuários executarem failover em outro servidor front-end ou em outro pool no Skype for Business Server, as configurações de opções de ocupação serão preservadas.
+O recurso Opções de Ocupado fornece o recurso de failover. Se ocorrer um problema e os usuários efetuarem fail over para outro Servidor front-end ou para outro pool no Skype for Business Server, suas configurações de Opções de Ocupado serão preservadas.
   
-Qualquer que seja a maneira de configurar as opções de disponibilidade, os usuários em uma chamada ou em conferência (ou aqueles com uma chamada em espera) não serão impedidos de iniciar novas chamadas ou conferências.   
+Independentemente de como suas opções de ocupado estão configuradas, os usuários em uma chamada ou conferência ou aqueles com uma chamada em espera não são impedidos de iniciar novas chamadas ou conferências. 
   
-Após a configuração, a configuração de opções de ocupado estará em vigor para todos os dispositivos e clientes de chamadas do Skype for Business do usuário. Com base nas configurações de Opções de Disponibilidade do usuário, a chamada que é rejeitada ou enviada para a caixa postal não tocará em nenhum dos dispositivos de chamada do usuário (incluindo Macintosh, Área de Trabalho do Windows, clientes móveis ou telefones IP) nos quais ele esteja conectado. 
+Após a configuração, a configuração Opções de Ocupado está em vigor para todos os clientes e dispositivos de chamada do Skype for Business do usuário. Com base nas configurações de Opções de Ocupado do usuário, a chamada que é rejeitada ou enviada para a caixa postal não tocaria em nenhum dos dispositivos de chamada do usuário, incluindo Macintosh, Área de Trabalho do Windows, clientes móveis ou telefones IP, nos quais o usuário está conectado. 
   
-Os usuários verão notificações de chamada perdida em seus clientes e dispositivos do Skype for Business, e eles serão notificados por e-mail também. Os chamadores cuja chamada foi rejeitada devido ao ocupado em ocupado verão uma notificação no cliente do Skype for Business, informando que o usuário que ele tentou alcançar está ocupado em outra chamada.
+Os usuários verão notificações de chamada perdida em seus clientes e dispositivos do Skype for Business e também serão notificados por email. Os chamadores cuja chamada foi rejeitada devido a Ocupado quando Ocupado verão uma notificação em seu cliente do Skype for Business informando que o usuário que tentou acessar está ocupado em outra chamada.
   
-Você pode configurar o recurso de opções de ocupado usando cmdlets do PowerShell do Skype for Business para:
+Você pode configurar o recurso Opções de Ocupado usando os cmdlets do PowerShell do Skype for Business para:
   
-- Habilitar ou desabilitar a política de voz do recurso Opções de Disponibilidade para a empresa.
+- Habilitar ou desabilitar a política de Voz de Opções de Ocupado para a empresa.
     
-- Administrar a opção Sinal de Ocupado quando Ocupado ou Caixa Postal quando Ocupado para todos os usuários da empresa.
+- Administrar a caixa postal quando ocupado ou quando ocupado para todos os usuários na empresa.
     
-- Administrar a opção Sinal de Ocupado quando Ocupado ou Caixa Postal quando Ocupado para todos os usuários residentes em um Pool de Front-Ends específico.
+- Administrar a caixa postal quando ocupado ou quando ocupado para todos os usuários que estão em um pool de Front-End específico.
     
-- Administrar a opção Sinal de Ocupado quando Ocupado ou Caixa Postal quando Ocupado para uma lista de usuários.
+- Administrar a caixa postal quando ocupado ou ocupado para uma lista de usuários.
     
-- Administrar a opção Sinal de Ocupado quando Ocupado ou Caixa Postal quando Ocupado para um único usuário.
+- Administrar a caixa postal quando ocupado ou quando ocupado para um único usuário.
     
 ## <a name="interoperability-with-voice-applications"></a>Interoperabilidade com aplicativos de voz
 
-Opções ocupadas fornecem interoperabilidade com os seguintes aplicativos de voz no Skype for Business:
+Opções de ocupado fornece interoperabilidade com os seguintes aplicativos de voz no Skype for Business:
   
 - Grupos de Resposta (RGS)
     
-  - As configurações de Opções de Disponibilidade definidas nos números de Grupo de Resposta serão ignoradas pelo sistema; várias chamadas simultâneas serão permitidas.  
+  - Opções de Ocupado definidas nos números do Grupo de Resposta serão ignoradas pelo sistema; várias chamadas simultâneas serão permitidas. 
     
-  - A experiência de encaminhamento do Atendedor atual em Grupos de Resposta permanecerá inalterada para os Agentes com configurações de Opções de Disponibilidade.
+  - A experiência de roteamento do Attendant atual nos Grupos de Resposta permanecerá inalterada para os Agentes com as configurações de Opções de Ocupado.
     
-  - As chamadas de Grupos de Resposta para usuários que são Agentes de Grupos de Resposta não serão controladas pelas configurações de Opções de Disponibilidade. Além disso, a experiência de RGS atual será mantida.
+  - As chamadas provenientes dos Grupos de Resposta para os usuários que são Agentes de Grupos de Resposta não serão aceleradas pelas configurações de Opções de Ocupado e a experiência atual do RGS será mantida.
     
-  - As chamadas para os Agentes, que não estiverem relacionadas a RGS, serão tratadas de acordo com as configurações de Opções de Disponibilidade.
+  - As chamadas não relacionadas a RGS para os Agentes serão aprinciadas pelas configurações de Opções de Ocupado.
     
 - Chamada de Equipe
     
-  - As chamadas recebidas para os usuários configurados para uma chamada de equipe serão priorizadas para ignorar o ocupado em configurações de correio de voz ocupada e em ocupado.
+  - As chamadas de entrada para usuários que estão configuradas para uma Chamada de Equipe serão priorizadas para ignorar as configurações de Ocupado quando Ocupado e Caixa Postal quando Ocupado.
     
-  - A experiência de Chamada de Equipe atual permanecerá inalterada com as configurações de Opções de Disponibilidade definidas para os usuários.
+  - A experiência atual da Chamada de Equipe permanecerá inalterada com as Opções de Ocupado definidas para os usuários.
     
-  - As chamadas que não estiverem relacionadas à Chamada de Equipe serão tratadas conforme as configurações de Opções de Disponibilidade.
+  - As chamadas não relacionadas à Chamada de Equipe para esses usuários serão aprididas pelas configurações de Opções de Ocupado.
     
-- Delegação de chefe/administrador  
+- Delegação de chefe/administrador 
     
-  - As chamadas recebidas para os usuários configurados para um chefe/delegação de administrador, seja como chefe ou administrador, serão priorizadas para ignorar as configurações de correio de voz ocupada e de correio de voz em ocupado.
+  - As chamadas de entrada para usuários que estão configuradas para delegação de chefe/administrador como chefe ou administrador serão priorizadas para ignorar as configurações de Ocupado quando Ocupado e Caixa Postal quando Ocupado.
     
-  - A experiência de Delegação de Chefe/Administrador atual permanecerá inalterada com as configurações de Opções de Disponibilidade definidas para administradores ou chefe.
+  - A experiência atual de Delegação de Chefe/Administrador permanecerá inalterada com as Opções de Ocupado definidas para Administradores ou Chefe.
     
-  - As chamadas para administradores, que não estiverem relacionadas à Delegação de Chefe/Administrador, serão tratadas conforme as configurações de Opções de Disponibilidade.
+  - As chamadas não relacionadas à Delegação de Chefe/Administrador para Administradores serão acodidas pelas configurações de Opções de Ocupado.
     
-- Aparência de linha compartilhada    
+- Aparência de linha compartilhada 
     
-  - As configurações de Opções de Disponibilidade nas contas de usuário configuradas para Aparência de Linha Compartilhada serão ignoradas.  
+  - As configurações de Opções de Ocupado em contas de usuário configuradas para Aparência de Linha Compartilhada serão ignoradas. 
     
-  - A aparência nativa da aparência da linha compartilhada em opções ocupadas e correio de voz em ocupado será aceita em vez disso.
+  - Em vez disso, as opções de Ocupado Ocupado quando Ocupado e Caixa Postal quando Ocupado da Aparência de Linha Compartilhada serão adefadas.
     
-- Serviço de estacionamento de chamada  
+- Serviço de Estacionamento de Chamada 
     
-  - As chamadas estacionadas que não foram atendidas e que retornam a tocar após determinado período poderão serão atendidas pelo usuário que as estacionou utilizando as configurações de Opções de Disponibilidade.  
+  - As chamadas estacionadas que não foram recuperadas e estão tocando de volta devido ao tempo final poderão tocar para o usuário que estacionou a chamada pelas Opções de Ocupado. 
     
-- Chamada em conferência
+- Conferência de Chamada
     
-  - Os usuários que estiverem em chamadas em conferência terão o status Ocupado, e as novas chamadas de entrada serão rejeitadas com um sinal de ocupado ou encaminhadas para a caixa postal conforme as configurações de Opções de Disponibilidade.
+  - Os usuários em chamadas em conferência são considerados Ocupados e novas chamadas de entrada serão rejeitadas com um sinal de ocupado ou encaminhadas para a caixa postal de acordo com as configurações de Opções de Ocupado.
     
-  - Os usuários em conferência não são impedidos de iniciar novas chamadas ou conferências conforme as configurações de Opções de Disponibilidade.
+  - Os usuários em conferências não são impedidos de iniciar novas chamadas ou conferências por opções de ocupado.
     
-  - Os usuários em conferência ainda podem receber novos convites de conferência, mas novas chamadas ponto a ponto serão rejeitadas conforme as configurações de Opções de Disponibilidade.
+  - Os usuários em conferências ainda podem receber novos convites de conferência, mas novas chamadas ponto a ponto serão rejeitadas de acordo com as configurações de Opções de Ocupado.
     
-- Toque Simultâneo e Encaminhamento de Chamadas
+- Toque simultâneo e encaminhamento de chamada
     
-    O recurso Busy on Busy não é projetado para funcionar com Toque Simultâneo e Encaminhamento de Chamadas.
+    O recurso Ocupado quando Ocupado não foi projetado para funcionar com Toque Simultâneo e Encaminhamento de Chamada.
     
 

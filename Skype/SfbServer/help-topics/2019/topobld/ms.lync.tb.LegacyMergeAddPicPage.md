@@ -1,8 +1,8 @@
 ---
 title: Mesclagem Herdada
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,20 +14,20 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 085fde15-e33a-4d95-8d06-4da1d5d7c770
 ROBOTS: NOINDEX, NOFOLLOW
-description: O FQDN externo da webconferência permite que usuários externos ingressem em reuniões locais. Digite o nome de domínio totalmente qualificado (FQDN) da interface externa da webconferência do servidor de borda herdado.
-ms.openlocfilehash: 8572436ac1f72b5aed611dbaee53e93b68e98e81
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: O FQDN externo de Webconferência permite que usuários externos ingressem em reuniões locais. Digite o FQDN (nome de domínio totalmente qualificado) da interface externa de Webconferência do Servidor de Borda herdado.
+ms.openlocfilehash: bd259179ea61e20efec2fca81bddd40b0c53f97f
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41795362"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49805701"
 ---
 # <a name="legacy-merge"></a>Mesclagem Herdada
 
-O **FQDN externo da webconferência** permite que usuários externos ingressem em reuniões locais. Digite o nome de domínio totalmente qualificado (FQDN) da interface externa da webconferência do servidor de borda herdado.
+O **FQDN externo de Webconferência** permite que usuários externos ingressem em reuniões locais. Digite o FQDN (nome de domínio totalmente qualificado) da interface externa de Webconferência do Servidor de Borda herdado.
 
-O valor da **porta externa da conferência da Web externa** do **443** é a porta do protocolo de controle de transmissão (TCP) de protocolo de controle de transmissão (SIP) padrão configurada para clientes de conferência. Se o valor padrão não for usado, atualize o valor de **porta externa da webconferência externa** .
+O valor de **Porta externa de Webconferência Externa** de **443** é a porta SIP (Session Initiation Protocol) TCP (Transmission Control Protocol) configurada para clientes de conferência. Caso o valor padrão não tenha sido usado, atualize o valor **Porta externa de Webconferência Externa**.
 
-Marque a caixa de seleção **este pool de bordas é usado para a Federação e conectividade de im pública** se você planeja usar esse servidor de borda para Federação. Se você tiver vários servidores de Borda implantados, apenas um deles será habilitado para Federação. Se você não marcar esta caixa e decidir mais tarde de que deseja habilitar a Federação, você deve executar o assistente de mesclagem do construtor de topologia novamente, bem como publicar sua topologia. Para obter detalhes, consulte [fase 4: mesclar topologias](https://technet.microsoft.com/library/81eb5bb2-1fd7-4611-a2aa-eb2393c8abc9.aspx).
+Marque a caixa de seleção **Este pool de Borda é usado para conectividade de IM pública e de federação** se você planeja usar este Servidor de Borda para federação. Caso você tenha múltiplos Servidores de Borda implantados, apenas um deles será habilitado para federação. Caso você não marque essa caixa e decida mais tarde que você deseja habilitar federação, você deve executar o assistente para Mescla de Construtor de Topologia e também publicar sua topologia novamente. Para maiores detalhes, consulte [Phase 4: Merge Topologies](https://technet.microsoft.com/library/81eb5bb2-1fd7-4611-a2aa-eb2393c8abc9.aspx).
 
 
