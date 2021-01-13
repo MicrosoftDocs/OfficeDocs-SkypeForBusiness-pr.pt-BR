@@ -1,8 +1,8 @@
 ---
 title: Atribuição de Certificado (Invocar)
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,16 +14,16 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 3b7cf7d2-90e1-4c73-bda8-33bdcf19725c
 ROBOTS: NOINDEX, NOFOLLOW
-description: A página comandos em execução exibe as ações executadas pelas tarefas para atribuir o certificado ao servidor. Quando as tarefas estiverem concluídas, você poderá exibir o log que detalha o processo de atribuição de certificado. Para exibir o arquivo de log, clique em Exibir Log.
-ms.openlocfilehash: b4e31eefc09039b0250c68595b401edd3ad604e4
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: A página Comandos em Execução exibe as ações realizadas pelas tarefas para atribuir o certificado ao servidor. Quando as tarefas são concluídas, é possível exibir o log com os detalhes do processo de atribuição do certificado. Para exibir o arquivo de log, clique em Exibir Log.
+ms.openlocfilehash: cb9857162541c10d941b2539b99d855ff34ba7d7
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41796882"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49820431"
 ---
 # <a name="certificate-assignment-invoke"></a>Atribuição de Certificado (Invocar)
  
-A página **comandos em execução** exibe as ações executadas pelas tarefas para atribuir o certificado ao servidor. Quando as tarefas estiverem concluídas, você poderá exibir o log que detalha o processo de atribuição de certificado. Para exibir o arquivo de log, clique em **Exibir Log**.
+A página **Comandos em Execução** exibe as ações realizadas pelas tarefas para atribuir o certificado ao servidor. Quando as tarefas são concluídas, é possível exibir o log com os detalhes do processo de atribuição do certificado. Para exibir o arquivo de log, clique em **Exibir Log**.
   
 

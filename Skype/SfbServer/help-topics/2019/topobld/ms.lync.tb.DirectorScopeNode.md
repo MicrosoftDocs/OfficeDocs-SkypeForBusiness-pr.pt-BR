@@ -1,8 +1,8 @@
 ---
 title: Nó de Escopo de Diretor
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,29 +15,29 @@ localization_priority: Normal
 ms.assetid: 790396f1-9821-45cd-906d-80c1f170f5ef
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Este nó mostra o FQDN (nome de domínio totalmente qualificado), as portas e o repositório de arquivos associado a este pool de Diretores. Você pode realizar as seguintes ações:'
-ms.openlocfilehash: 4f86767d92552f2651a44c9e439b6d7efdceadfe
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+ms.openlocfilehash: 20a806a22d941f1cc6e2f2199e9198fbddeb450c
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41793839"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49822631"
 ---
 # <a name="director-scope-node"></a>Nó de Escopo de Diretor
  
 Este nó mostra o FQDN (nome de domínio totalmente qualificado), as portas e o repositório de arquivos associado a este pool de Diretores. Você pode realizar as seguintes ações:
   
-- **Novo Servidor**. Carrega a página **Definir Novo Servidor** que você pode usar para adicionar outro Diretor a esse pool.
+- **Novo Servidor**. Carrega a página  **Definir Novo Servidor** que você pode usar para adicionar outro Diretor para este pool.
     
-- **Editar Propriedades**. Abre a página **Editar Propriedades** deste servidor, onde você pode mudar o FQDN, portas e repositório de arquivos associado a esse pool de Diretores.
+- **Editar Propriedades**. Abre a página  **Editar Propriedades** para este servidor, onde você pode mudar o FQDN, portas e repositório associado de arquivos para este pool de Diretores.
     
-- **Excluir**. Exclui o pool da topologia.
+- **Excluir**. Remove o pool da topologia.
     
-Além dessas opções, você pode realizar as seguintes tarefas gerais:
+Além das opções, é possível executar as seguintes tarefas gerais:
   
-- **Topologia**. É possível usar essa opção para definir uma nova topologia, abrir uma topologia existente, baixar a topologia atual, salvar uma cópia da topologia, publicar a topologia, instalar um banco de dados, mesclar os componentes ou remover a implantação.
+- **Topologia**. Você pode usar essa opção para definir uma nova topologia, abrir uma topologia existente, baixar a topologia atual, salvar uma cópia da topologia, publicar a topologia, instalar um banco de dados, mesclar componentes ou remover a implantação.
     
-- **Exibir**. Você pode usar essa opção para personalizar o modo de exibição no Construtor de Topologias selecionando os itens para mostrar ou ocultar nos modos de exibição da árvore de console.
+- **Visualização**. Você pode usar esta opção para personalizar a visualização no Construtor de Topologia selecionando os itens que serão exibidos ou escondidos na visão de árvore de comando..
     
-- **Ajuda**. Você pode usar essa opção para acessar a Ajuda do nó ativo.
+- **Ajuda**. Você pode usar esta opção para acessar a Ajuda para o nó ativo.
     
 

@@ -1,8 +1,8 @@
 ---
-title: Tabela MCUs no Skype for Business Server 2015
+title: Tabela Mcus no Skype for Business Server 2015
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -12,22 +12,22 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 271b7963-8fd8-4d92-a701-1a62aaf895ee
-description: A tabela MCUs é uma tabela de suporte. Cada registro armazena informações sobre um serviço de conferência. Eles podem incluir o serviço de conferência de mensagem instantânea e o serviço de conferência de telefonia (que são executados como processos em servidores front-end) e o serviço de conferência via Web e o serviço de conferência A/V.
-ms.openlocfilehash: 1e5141ee2a103e540d3ac50e99de0036f31262d7
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: A tabela Mcus é uma tabela de suporte. Cada registro armazena informações sobre um serviço de conferência. Eles podem incluir o serviço de Conferência de IM e o serviço de Conferência de Telefonia (que é executado como processos em servidores front-end), o serviço de Webconferência e o serviço de Conferência A/V.
+ms.openlocfilehash: fe43bfc747cd08febe00a68925ad520b6add5846
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41815059"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49821421"
 ---
-# <a name="mcus-table-in-skype-for-business-server-2015"></a>Tabela MCUs no Skype for Business Server 2015
+# <a name="mcus-table-in-skype-for-business-server-2015"></a>Tabela Mcus no Skype for Business Server 2015
  
-A tabela MCUs é uma tabela de suporte. Cada registro armazena informações sobre um serviço de conferência. Eles podem incluir o serviço de conferência de mensagem instantânea e o serviço de conferência de telefonia (que são executados como processos em servidores front-end) e o serviço de conferência via Web e o serviço de conferência A/V. 
+A tabela Mcus é uma tabela de suporte. Cada registro armazena informações sobre um serviço de conferência. Eles podem incluir o serviço de Conferência de IM e o serviço de Conferência de Telefonia (que é executado como processos em servidores front-end), o serviço de Webconferência e o serviço de Conferência A/V. 
   
-|**Coluna**|**Tipo de dados**|**Chave/índice**|**Detalhes**|
+|**Coluna**|**Tipo de dados**|**Chave/Índice**|**Detalhes**|
 |:-----|:-----|:-----|:-----|
-|**McuId** <br/> |int  <br/> |Primária  <br/> |Número exclusivo que identifica esse servidor de conferência.  <br/> |
-|**McuUri** <br/> |nvarchar (450)  <br/> | <br/> | <br/> |
-|**McuTypeId** <br/> |inyint  <br/> | Exterior <br/> |Tipo de servidor de conferência, como conf: Chat (para IMs) ou conf: Audio-Video. Consulte a [tabela UriTypes](uritypes.md) para obter mais informações. <br/> |
+|**McuId** <br/> |int  <br/> |Primário  <br/> |Número exclusivo que identifica este servidor de conferência.  <br/> |
+|**McuUri** <br/> |nvarchar(450)  <br/> | <br/> | <br/> |
+|**McuTypeId** <br/> |inyint  <br/> | Externo <br/> |Tipo de servidor de conferência, como conf:chat (para IMs) ou conf:audio-video. Consulte a [tabela UriTypes para](uritypes.md) obter mais informações. <br/> |
    
 

@@ -1,8 +1,8 @@
 ---
 title: Expansor de Configurações de Máquina de Borda
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,37 +14,37 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 747456dd-d237-44e6-9e64-63b0e7212a08
 ROBOTS: NOINDEX, NOFOLLOW
-description: 'Para editar as propriedades de um servidor em um pool de servidores de borda, faça o seguinte:'
-ms.openlocfilehash: 1b2fce33b65e744c8ba2f18107d4f6bc5369b8de
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: 'Para editar propriedades para um servidor em um pool de Servidores de Borda, faça o seguinte:'
+ms.openlocfilehash: a1737303f0c1c6a6f9c9912104b28200eecdc205
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41793799"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49822561"
 ---
 # <a name="edge-machine-settings-expander"></a>Expansor de Configurações de Máquina de Borda
  
-Para editar as propriedades de um servidor em um pool de servidores de borda, faça o seguinte:
+Para editar propriedades para um servidor em um pool de Servidores de Borda, faça o seguinte:
   
-O **nome interno ou FQDN** pode ser alterado editando o nome de domínio totalmente qualificado (FQDN). O FQDN deve coincidir com o registro do host (A) do sistema de nomes de domínio (DNS) e o nome do requerente atribuído ao servidor para a interface de rede interna de borda. O valor do **endereço IP interno** define o endereço IP que é atribuído à interface de rede que é definida como uma rede interna, em relação ao design da rede do perímetro.
+O  **Nome interno ou FQDN** pode ser alterado editando o FQDN (nome de domínio totalmente qualificado). O FQDN deve ser correspondente ao registro de hospedeiro (A) DNS (Domain Name System) e o nome de entidade do certificado atribuído ao servidor para a interface de rede de Borda interna. O valor do  **Endereço IP interno** define o endereço IP que está atribuído à interface de rede que está definida como rede interna, relativa ao projeto de rede de perímetro.
   
-As próximas três seções da caixa de diálogo definem os endereços IP para a configuração externa deste servidor de borda. A capacidade de alterar os endereços IP é afetada pela configuração **habilitar FQDN e endereço IP separados para Webconferência e a/V** nas configurações de propriedades no nível do pool do servidor de borda.
+As três próximas seções do diálogo definem os endereços IP para as configurações externas deste Servidor de Borda. A capacidade de alterar os endereços IP é afetada pela definição  **Habilitar FQDN e endereço IP separados para webconferência e A/V** nas configurações de Propriedades no nível de pool de Servidor de Borda.
   
 ## <a name="sip-access"></a>Acesso SIP
 
-Edite o endereço IP externo atribuído à interface de rede para acesso a SIP (protocolo de inicialização de sessão). Esse endereço IP pode ser um endereço IP público ou um endereço no intervalo de endereços IP privados.
+Edite o endereço IP externo que foi atribuído à interface de rede para o acesso SIP (Session Initiation Protocol). Este endereço IP pode ser um endereço IP público ou um endereço em intervalo de endereço IP privado.
   
 > [!NOTE]
-> Se a configuração **habilitar FQDN e endereço IP separados para Webconferência e a/V** na página de configurações do pool estiver habilitada, somente o endereço IP do acesso SIP estará disponível para edição.
+> Caso a definição **Habilitar FQDN e endereço IP separados para webconferência e A/V** na página de definições do pool esteja ativa, apenas o endereço IP para o acesso SIP estará disponível para edição.
   
 ## <a name="web-conferencing"></a>Webconferência
 
-Edite o endereço IP externo atribuído à interface de rede para conferência via Web. Esse endereço IP pode ser um endereço IP público ou um endereço no intervalo de endereços IP privados.
+Edite o endereço IP externo que está atribuído à interface de rede para webconferência. Este endereço IP pode ser um endereço IP público ou um endereço em intervalo de endereço IP privado.
   
 ## <a name="audiovideo"></a>Áudio/vídeo
 
-Edite o endereço IP externo atribuído à interface de rede para áudio/vídeo (A/V). Esse endereço IP pode ser um endereço IP público ou um endereço no intervalo de endereços IP privados.
+Edite o endereço IP externo que está atribuído à interface de rede para A/V (áudio/vídeo). Este endereço IP pode ser um endereço IP público ou um endereço em intervalo de endereço IP privado.
   
-A configuração para o **endereço IP público habilitado para NAT usado** é o endereço público usado pela interface externa para a interface de rede a/V ou o servidor de borda em geral. Se a configuração **habilitar FQDN e o endereço IP separados para Webconferência e A/V** estiver habilitado, o endereço IP público será usado para todas as três interfaces externas.
+A definição para  **Endereço IP público habilitado para NAT usado** é o endereço público usado pela interface externa para a interface de rede A/V ou o Servidor de Borda em geral. Caso a definição  **Habilitar FQDN e endereço IP separados para webconferência e A/V** esteja ativada, este endereço IP público é usado para todas as três interfaces externas.
   
 

@@ -1,8 +1,8 @@
 ---
-title: Configurar sua implantação local para Transmissão de Reunião do Skype
+title: Configurar sua implantação local para a Transmissão de Reunião do Skype
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,60 +16,60 @@ ms.collection:
 - IT_Skype16
 - IT_Skype4B_Hybrid
 ms.assetid: 2979802e-fc6b-4555-bc43-7cd48f6a1d88
-description: 'Resumo: Saiba mais sobre as etapas que você precisa executar para configurar a transmissão de reunião do Skype para sua implantação híbrida do Skype for Business Server local.'
-ms.openlocfilehash: 8bdbb163f5ef867711ce109bc923ba0ec8401ffa
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: 'Resumo: saiba mais sobre as etapas que você precisa executar para configurar a Transmissão de Reunião do Skype para sua implantação híbrida local do Skype for Business Server.'
+ms.openlocfilehash: c016d60b416c7b6d935b15718f3f1a10f439b9ab
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41790939"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49820701"
 ---
-# <a name="configure-your-on-premises-deployment-for-skype-meeting-broadcast"></a>Configure your on-premises deployment for Skype Meeting Broadcast
+# <a name="configure-your-on-premises-deployment-for-skype-meeting-broadcast"></a>Configurar sua implantação local para a Transmissão de Reunião do Skype
  
-**Resumo:** Saiba mais sobre as etapas que você precisa executar para configurar a transmissão de reunião do Skype para sua implantação híbrida local do Skype for Business Server.
+**Resumo:** Saiba mais sobre as etapas que você precisa realizar para configurar a Transmissão de Reunião do Skype para sua implantação híbrida local do Skype for Business Server.
   
-A transmissão de reunião do Skype é um serviço online que faz parte do Office 365. Se você estiver executando o Skype for Business Server no local e quiser usar a transmissão de reunião do Skype no seu ambiente, será necessário seguir as etapas de configuração deste tópico. Antes de começar, o ambiente precisa estar configurado para híbrido com o Skype for Business online. Para obter mais informações, consulte [Plan hybrid connectivity between Skype for Business Server and Skype for Business Online](../skype-for-business-hybrid-solutions/plan-hybrid-connectivity.md?toc=/SkypeForBusiness/sfbhybridtoc/toc.json) e [Deploy hybrid connectivity between Skype for Business Server and Skype for Business Online](../skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/deploy-hybrid-connectivity.md).
+A Transmissão de Reunião do Skype é um serviço online que faz parte do Office 365. Se você estiver executando o Skype for Business Server local e quiser usar a Transmissão de Reunião do Skype em seu ambiente, será necessário seguir as etapas de configuração neste tópico. Antes de começar, seu ambiente precisa ser configurado para híbrido com o Skype for Business Online. Para obter mais informações, consulte Planejar a conectividade híbrida entre o Skype for Business Server e o [Skype for Business Online](../skype-for-business-hybrid-solutions/plan-hybrid-connectivity.md?toc=/SkypeForBusiness/sfbhybridtoc/toc.json) e implantar a conectividade híbrida entre o Skype for Business Server e o Skype for Business [Online.](../skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/deploy-hybrid-connectivity.md)
   
-## <a name="configure-your-hybrid-environment-for-skype-meeting-broadcast"></a>Configurar seu ambiente híbrido para a transmissão de reunião do Skype
+## <a name="configure-your-hybrid-environment-for-skype-meeting-broadcast"></a>Configurar seu ambiente híbrido para a Transmissão de Reunião do Skype
 
-Você precisará fazer o seguinte para preparar seu ambiente para a transmissão de reunião do Skype:
+Você precisará fazer o seguinte para preparar seu ambiente para a Transmissão de Reunião do Skype:
   
-- Configurar a Federação com os recursos do Skype for Business Online
+- Configurar federação com recursos do Skype for Business Online
     
-- Configurar domínios federados SIP
+- Configurar domínios sip federados
     
-### <a name="configure-federation-with-skype-for-business-online-resources"></a>Configurar a Federação com os recursos do Skype for Business Online
+### <a name="configure-federation-with-skype-for-business-online-resources"></a>Configurar federação com recursos do Skype for Business Online
 
-Para habilitar a Federação com os recursos do Skype for Business Online, você precisa configurar o acesso externo para um provedor de federado SIP. Para fazer isso usando o painel de controle do Skype for Business Server, siga estas etapas:
+Para habilitar a federação com os recursos do Skype for Business Online, você precisa configurar o Acesso Externo para um Provedor Federado SIP. Para fazer isso usando o Painel de Controle do Skype for Business Server, siga estas etapas:
   
-1. Inicie o painel de controle do Skype for Business Server e selecione **acesso externo** à esquerda.
+1. Inicie o Painel de Controle do Skype for Business Server e selecione **Acesso Externo** à esquerda.
     
-2. Selecione **Provedores federados SIP** e clique em **Novo**.
+2. Selecione **Provedores Federados SIP e** clique em **Novo.**
     
-3. Configure o novo provedor da seguinte forma:
+3. Configure o novo provedor com as seguintes configurações:
     
 |||
 |:-----|:-----|
-|**Habilitar comunicações com este provedor:** <br/> |Selecionado  <br/> |
+|**Habilita as comunicações com este provedor:** <br/> |Selecionado  <br/> |
 |**Nome do provedor:** <br/> |LyncOnlineResources  <br/> |
 |**Serviço de Borda de Acesso (FQDN):** <br/> |sipfed.resources.lync.com  <br/> |
-|**Nível de verificação padrão:** <br/> |Permitir que os usuários se comuniquem com todos que usam este provedor.  <br/> |
+|**Nível de verificação padrão:** <br/> |Permitir que os usuários se comuniquem com todos que usam esse provedor.  <br/> |
    
-Você também pode habilitar a Federação com os recursos do Skype for Business online executando o seguinte cmdlet no Shell de gerenciamento do Skype for Business Server:
+Você também pode habilitar a federação com recursos do Skype for Business Online executando o seguinte cmdlet no Shell de Gerenciamento do Skype for Business Server:
   
 ```powershell
 New-CsHostingProvider -Identity LyncOnlineResources -ProxyFqdn sipfed.resources.lync.com -VerificationLevel AlwaysVerifiable -Enabled $True -EnabledSharedAddressSpace $True -HostsOCSUsers $True -IsLocal $False
 ```
 
-### <a name="configure-sip-federated-domains"></a>Configurar domínios federados SIP
+### <a name="configure-sip-federated-domains"></a>Configurar domínios sip federados
 
-Em seguida, você precisa adicionar domínios federados do SIP à lista de domínios permitidos. Repita essas etapas para cada um dos quatro domínios listados, criando quatro novos domínios SIP federados. Esses domínios são para os centros de dados regionais usados no Skype for Business online.
+Em seguida, você precisa adicionar domínios federados SIP à lista de domínios permitidos. Repita essas etapas para cada um dos domínios listados, criando 4 novos domínios SIP federados. Esses domínios incluem os data centers regionais usados no Skype for Business Online.
   
-1. Inicie o painel de controle do Skype for Business Server e selecione **acesso externo** à esquerda.
+1. Inicie o Painel de Controle do Skype for Business Server e selecione **Acesso Externo** à esquerda.
     
-2. Selecione **Domínios Federados SIP** e clique em **Novo**.
+2. Selecione **Domínios Federados SIP e** clique em **Novo.**
     
-3. Para o **Nome de domínio (ou FQDN):**, insira o domínio, repetindo este procedimento para cada um dos seguintes domínios:
+3. Para o **nome de domínio (ou FQDN):**, insira o domínio, repetindo este procedimento para cada um dos seguintes domínios:
     
    - noammeetings.lync.com
     
@@ -79,7 +79,7 @@ Em seguida, você precisa adicionar domínios federados do SIP à lista de domí
     
    - resources.lync.com
     
-Você também pode configurar o acesso externo para domínios federados SIP executando os seguintes cmdlets no Shell de gerenciamento do Skype for Business Server:
+Você também pode configurar o acesso externo para domínios federados SIP executando os seguintes cmdlets no Shell de Gerenciamento do Skype for Business Server:
   
 ```powershell
 New-CsAllowedDomain -Identity "noammeetings.lync.com"
@@ -88,6 +88,6 @@ New-CsAllowedDomain -Identity "apacmeetings.lync.com"
 New-CsAllowedDomain -Identity "resources.lync.com"
 ```
 
-Depois de concluir essas etapas de configuração, você pode começar a usar a transmissão de reunião do Skype na sua implantação. Para obter mais informações sobre a transmissão de reunião do Skype, consulte [o que é uma transmissão de reunião do Skype?](https://go.microsoft.com/fwlink/?LinkId=617071) e [Guia de administração de transmissão de reunião do Skype](https://go.microsoft.com/fwlink/?LinkId=617075).
+Depois de concluir essas etapas de configuração, você poderá começar a usar a Transmissão de Reunião do Skype em sua implantação. Para obter mais informações sobre a Transmissão de Reunião do Skype, consulte O que é uma Transmissão de Reunião do [Skype?](https://go.microsoft.com/fwlink/?LinkId=617071) e o Guia de Administração de Transmissão de Reunião [do Skype.](https://go.microsoft.com/fwlink/?LinkId=617075)
   
 

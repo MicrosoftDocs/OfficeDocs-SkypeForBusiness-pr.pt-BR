@@ -1,8 +1,8 @@
 ---
 title: Introdução de Remoção de Implantação
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,19 +14,19 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8659fefa-97f1-4d4a-9628-5c6dae86b244
 ROBOTS: NOINDEX, NOFOLLOW
-description: Execute o assistente para remover implantação apenas se desejar descomissionar toda a implantação. Este assistente cria uma topologia vazia que consiste em um único servidor front-end. Depois de executar esse assistente e publicar a topologia vazia, você não poderá reverter para a sua topologia original.
-ms.openlocfilehash: d5724dacfb4ec1f13b7e2a2f5a5350e9d6f87366
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: Só execute o  Assistente para Remover Implantação  se quiser desprogramar toda a implantação. Esse assistente cria uma topologia vazia que consiste em um único Servidor Front-End. Depois de executar esse assistente e de publicar a topologia vazia, não será possível reverter para a topologia original.
+ms.openlocfilehash: 3aaba62ae445cb0be9f674cdba21dfc14d9b61be
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41797212"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49822081"
 ---
 # <a name="remove-deployment-introduction"></a>Introdução de Remoção de Implantação
  
-Execute o **Assistente para remover implantação** apenas se desejar descomissionar toda a implantação. Este assistente cria uma topologia vazia que consiste em um único servidor front-end. Depois de executar esse assistente e publicar a topologia vazia, você não poderá reverter para a sua topologia original.
+Só execute o  **Assistente para Remover Implantação** se quiser desprogramar toda a implantação. Esse assistente cria uma topologia vazia que consiste em um único Servidor Front-End. Depois de executar esse assistente e de publicar a topologia vazia, não será possível reverter para a topologia original.
   
 > [!IMPORTANT]
-> Antes de clicar em **Avançar**, certifique-se de remover todos os computadores inativos, desabilitar todos os usuários e pontos de extremidade da comunicação unificada e remover todos os diretórios de conferência conforme especificado na primeira página do assistente. 
+> Antes de clicar em  **Próximo** remova quaisquer computadores inativos, desative todos os usuários e pontos de extremidades de comunicações unificas e remova todos os diretórios de conferências, como especificado na primeira página do assistente. 
   
 

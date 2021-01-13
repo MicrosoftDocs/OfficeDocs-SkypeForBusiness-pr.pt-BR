@@ -1,8 +1,8 @@
 ---
 title: Expansor de Configurações Gerais de Diretor
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,17 +14,17 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2026d0dd-6745-4e53-8b44-acdc378b47d1
 ROBOTS: NOINDEX, NOFOLLOW
-description: 'Para editar as configurações de um director existente, você verá as seguintes seções:'
-ms.openlocfilehash: ffdfd169095175346a89eb6d6d001161bec0f465
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: 'Para editar as configurações de um Diretor existente, é possível usar as seguintes seções:'
+ms.openlocfilehash: 62dc9b855937d360a975e5e4035d662da276ce02
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41793849"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49822621"
 ---
 # <a name="director-general-settings-expander"></a>Expansor de Configurações Gerais de Diretor
  
-Para editar as configurações de um director existente, você verá as seguintes seções:
+Para editar as configurações de um Diretor existente, é possível usar as seguintes seções:
   
 - Configurações gerais
     
@@ -33,34 +33,34 @@ Para editar as configurações de um director existente, você verá as seguinte
 
 ## <a name="general-settings"></a>Configurações gerais
 
-FQDN (nome de domínio totalmente qualificado) do pool do diretor. Edite o FQDN do servidor para alterar o valor. É necessário ter um registro (A) de host de Sistema de Nomes de Domínio (DNS) que coincida com o novo valor.
+Nome de domínio totalmente qualificado (FQDN) do Diretor. Edite o FQDN do servidor para alterar o valor. É necessário ter um registro (A) de host DNS (Sistema de Nome de Domínio) que coincida com o novo valor.
   
-Em **Associações**, você pode editar ou especificar o seguinte:
+Em **Associações** você pode editar ou especificar:
   
-Compartilhamento de arquivos para uso do pool de diretor. Selecione um compartilhamento de arquivo existente que já foi definido no construtor de topologias ou clique em **novo** para criar uma nova definição de compartilhamento de arquivos.
+Compartilhamento de arquivo para o pool de Diretores a ser usado. Selecione um compartilhamento de arquivos existente que já tenha sido definido no Construtor de Topologias ou clique em **Novo** para criar uma nova definição de compartilhamento de arquivo.
   
-Monitorar a loja do SQL Server.
+Monitorando o SQL Server Store.
   
 > [!IMPORTANT]
-> Antes da publicação da topologia recém-definida, o servidor especificado precisa existir e ter ingressado no domínio. Se você criou um novo compartilhamento de arquivos, o compartilhamento de arquivos deve ser criado no servidor que você designar. 
+> Antes de publicar a topologia recém-definida, o servidor especificado precisa existir e fazer parte do domínio. Se você tiver criado um novo compartilhamento de arquivo, ele deverá ter sido no servidor designado por você. 
   
 ## <a name="web-services"></a>Serviços Web
 
-Para editar ou especificar configurações adicionais para os serviços Web no pool de diretor, você modifica ou especifica as configurações nos serviços Web internos e nos serviços Web externos.
+Para editar ou especificar configurações adicionais para os Serviços Web no pool de Diretores, modifique ou especifique as configurações nos Serviços Web Internos e nos Serviços Web Externos.
   
-Para **Serviços Web internos** , você pode especificar o seguinte:
+Para **Serviços Web internos**, é possível especificar o seguinte:
   
 > [!CAUTION]
-> Se você tiver mais de um servidor front-end ou servidor front-end, os serviços Web externos FQDN deverão ser exclusivos. Por exemplo, se você definir o FQDN de serviços Web externos de um servidor front-end como **pool01.contoso.com**, não será possível usar o **pool01.contoso.com** para outro pool de front-end ou servidor front-end. Se você também estiver implantando diretores, os serviços Web externos FQDN definidos para qualquer diretor de director ou diretor devem ser exclusivos de qualquer outro diretor ou pool de director, bem como qualquer pool de front-end ou servidor front-end. Se você decidir substituir os serviços internos da Web por um FQDN autodefinido, cada FQDN deve ser exclusivo de qualquer outro pool de front-end, diretor ou um pool de diretor.
+> Se você tiver mais de um pool de Front-End ou Servidor Front End, o FQDN dos serviços Web externos deverá ser exclusivo. Por exemplo, se você definir o FQDN de serviços Web externos de um Servidor front-end como **pool01.contoso.com**, não poderá usar o **pool01.contoso.com** para outro pool de front-end ou servidor front-end. Se você também estiver implantando Diretores, o FQDN de serviços Web externos definido para qualquer Diretor ou pool de Diretores deverá ser exclusivo de qualquer outro Diretor ou pool de Diretores, bem como de qualquer pool de Front-End ou Servidor Front-End. Se você decidir substituir os serviços Web internos por um FQDN autodefina, cada FQDN deverá ser exclusivo de qualquer outro pool de Front-End, Diretor ou pool de Diretores.
   
-Se você selecionar Substituir FQDN, poderá especificar um FQDN diferente para a identidade dos serviços Web internos no pool. Por padrão, a configuração é o nome do pool atual conforme definido para o pool do diretor.
+Se você selecionou Substituir FQDN, poderá especificar um FQDN diferente para a identidade dos Serviços Web internos no pool. Por padrão, a configuração é o nome do pool atual, conforme definido para o pool de Diretores.
   
-Você pode especificar portas de escuta e publicadas para HTTP e HTTPS que a implantação requer. A configuração padrão da porta 80 para HTTP e porta 443 para HTTPS são as configurações mais comuns e normalmente não precisa ser alterada, a menos que você tenha requisitos específicos dentro de sua organização e design de infraestrutura.
+É possível especificar portas de escuta e de publicação para HTTP e HTTPS exigidas pela sua implantação. As configurações padrão da porta 80 para HTTP e da porta 443 para HTTPS são as configurações mais comuns e normalmente não precisam ser alteradas, a menos que você tenha requisitos específicos dentro de sua organização e design de infraestrutura.
   
-Para **Serviços Web externos**, você pode especificar o seguinte:
+Para **Serviços Web externos**, é possível especificar o seguinte:
   
-Você pode definir o FQDN dos serviços Web externos. O FQDN especificado aqui será normalmente definido pelos seus requisitos de conexão externa, como o proxy reverso.
+É possível definir o FQDN dos Serviços Web externos. O FQDN especificado aqui será normalmente definido pelos requisitos de seus requisitos de conexão externa, como o proxy reverso.
   
-Você pode especificar portas de escuta e publicadas para HTTP e HTTPS que a implantação requer. As configurações padrão da porta 8080 para HTTP e da porta 4443 para HTTPS são definidas inicialmente. Você poderá alterar essas configurações para as portas de escuta com base nos requisitos de proxy reverso e de rede externa. As portas publicadas são definidas como padrão de porta 80 para HTTP e porta 443 para HTTPS. Esses valores determinam quais portas o pool do diretor ou o servidor diretor escutará solicitações de entrada. Geralmente, eles não precisam ser alterados, a menos que haja conflito de requisitos de porta no pool. Portas publicadas internas e externas que usam os mesmos valores de porta são esperadas. Isso não é um conflito.
+É possível especificar portas de escuta e de publicação para HTTP e HTTPS exigidas pela sua implantação. As configurações padrão da porta 8080 para HTTP e da porta 4443 para HTTPS são definidas inicialmente. Altere essas configurações para as portas de escuta com base nos requisitos de proxy reverso e de rede externa. As portas publicadas são definidas por padrão como porta 80 para HTTP e porta 443 para HTTPS. Esses valores determinam quais portas o pool de Diretores ou servidor de Diretor escutará para solicitações de entrada. Normalmente, elas não precisam ser alteradas, a menos que haja conflito de requisitos de porta no pool. Espera-se portas de publicação internas e externas que usam os mesmos valores de porta. Isso não é um conflito.
   
 

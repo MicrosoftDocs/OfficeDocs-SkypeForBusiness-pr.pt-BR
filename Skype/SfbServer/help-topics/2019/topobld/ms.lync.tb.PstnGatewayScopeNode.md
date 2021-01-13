@@ -1,8 +1,8 @@
 ---
 title: Nó de Escopo de Gateway PSTN
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,28 +14,28 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 85a52bf7-98cb-4dd4-892e-2d1ba5669593
 ROBOTS: NOINDEX, NOFOLLOW
-description: 'Esse nó mostra o nome de domínio totalmente qualificado (FQDN), o servidor de mediação associado e outras informações básicas sobre esse gateway PSTN (rede telefônica pública comutada). Você pode executar as seguintes ações:'
-ms.openlocfilehash: d7f868eda63cb48aa4703479a29cc906f61de8f3
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: 'Este nó mostra o FQDN (nome de domínio totalmente qualificado), o Servidor de Mediação associado e outras informações básicas sobre este gateway PSTN (rede telefônica pública comutada). Você pode executar as seguintes ações:'
+ms.openlocfilehash: 9b9a9b54a52a78aa0f1262dc2c045785304b104c
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41794179"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49822311"
 ---
 # <a name="pstn-gateway-scope-node"></a>Nó de Escopo de Gateway PSTN
  
-Esse nó mostra o nome de domínio totalmente qualificado (FQDN), o servidor de mediação associado e outras informações básicas sobre esse gateway PSTN (rede telefônica pública comutada). Você pode executar as seguintes ações:
+Este nó mostra o FQDN (nome de domínio totalmente qualificado), o Servidor de Mediação associado e outras informações básicas sobre este gateway PSTN (rede telefônica pública comutada). Você pode executar as seguintes ações:
   
-- **Editar Propriedades**. Abre a página **Editar Propriedades** deste gateway, onde você pode alterar o FQDN (se a topologia ainda não tiver sido publicada), porta de escuta, protocolo de transporte e endereço IP de mídia alternativo do gateway.
+- **Editar Propriedades**. Abre a página **Editar Propriedades** para este gateway, onde você pode alterar o FQDN (se a topologia ainda não foi publicada), porta de escuta, protocolo de transporte e endereço IP de mídia alternativo do gateway.
     
 - **Excluir**. Exclui o servidor da topologia.
     
-Além dessas opções, você pode realizar as seguintes tarefas gerais:
+Além das opções, é possível executar as seguintes tarefas gerais:
   
-- **Topologia**. É possível usar essa opção para definir uma nova topologia, abrir uma topologia existente, baixar a topologia atual, salvar uma cópia da topologia, publicar a topologia, instalar um banco de dados, mesclar os componentes ou remover a implantação.
+- **Topologia**. Você pode usar essa opção para definir uma nova topologia, abrir uma topologia existente, baixar a topologia atual, salvar uma cópia da topologia, publicar a topologia, instalar um banco de dados, mesclar componentes ou remover a implantação.
     
-- **Exibir**. Você pode usar essa opção para personalizar o modo de exibição no Construtor de Topologias selecionando os itens para mostrar ou ocultar nos modos de exibição da árvore de console.
+- **Visualização**. Você pode usar esta opção para personalizar a visualização no Construtor de Topologia selecionando os itens que serão exibidos ou escondidos na visão de árvore de comando..
     
-- **Ajuda**. Você pode usar essa opção para acessar a Ajuda do nó ativo.
+- **Ajuda**. Você pode usar esta opção para acessar a Ajuda para o nó ativo.
     
 

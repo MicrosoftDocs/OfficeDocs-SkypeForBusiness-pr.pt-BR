@@ -1,8 +1,8 @@
 ---
-title: Solução de problemas do Gerenciador de estatísticas do Skype for Business Server
+title: Solução de problemas do Gerenciador de Estatísticas do Skype for Business Server
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,168 +12,168 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 946189fa-521f-455c-9762-904e7e41b791
-description: 'Resumo: Leia este tópico para solucionar problemas de implantação do Gerenciador de estatísticas do Skype for Business Server.'
-ms.openlocfilehash: 12b6176e64d034d94e8a6ad86e748c1906f9c0c5
-ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
+description: 'Resumo: Leia este tópico para solucionar problemas de implantação do Gerenciador de Estatísticas do Skype for Business Server.'
+ms.openlocfilehash: ea3d6f66003841e893ebe2dcc5d3fe02d0da125b
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "41888870"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49821771"
 ---
-# <a name="troubleshoot-statistics-manager-for-skype-for-business-server"></a>Solução de problemas do Gerenciador de estatísticas do Skype for Business Server
+# <a name="troubleshoot-statistics-manager-for-skype-for-business-server"></a>Solução de problemas do Gerenciador de Estatísticas do Skype for Business Server
  
-**Resumo:** Leia este tópico para solucionar problemas de implantação do Gerenciador de estatísticas do Skype for Business Server.
+**Resumo:** Leia este tópico para solucionar problemas de implantação do Gerenciador de Estatísticas do Skype for Business Server.
   
-Este tópico descreve como solucionar problemas de implantação do Gerenciador de estatísticas descrevendo os eventos que podem ser exibidos no log de eventos do aplicativo e as ações adequadas que você pode tomar para retificar o evento. Este tópico contém as seguintes seções:
+Este tópico descreve como solucionar problemas de implantação do Gerenciador de Estatísticas descrevendo os eventos que você pode ver no log de eventos do aplicativo e as ações apropriadas que você pode tomar para corrigir o evento. Este tópico contém as seguintes seções:
   
-- [Eventos do Agente](troubleshoot.md#BKMK_Agent)
+- [Eventos de agente](troubleshoot.md#BKMK_Agent)
     
-- [Eventos do Ouvinte](troubleshoot.md#BKMK_Listener)
+- [Eventos de ouvinte](troubleshoot.md#BKMK_Listener)
     
-- [Problemas de site da Web](troubleshoot.md#BKMK_Website)
+- [Problemas do site](troubleshoot.md#BKMK_Website)
     
-## <a name="agent-events"></a>Eventos do Agente
+## <a name="agent-events"></a>Eventos de agente
 <a name="BKMK_Agent"> </a>
 
-- **1000** - Não é possível instalar o limitador do processador (Objeto de trabalho) - Motivo desconhecido
+- **1000** — Não é possível configurar o limitador de processador (Objeto de Trabalho) — Motivo desconhecido
     
-- **1001** – a limitação de processo não é permitida no processo (provavelmente já dentro de um objeto de trabalho)
+- **1001** — A limitação do processo não é permitida no processo (provavelmente já está dentro de um Objeto de Trabalho)
     
-    O Agente é executado dentro de um Objeto de trabalho do Windows que limita automaticamente seu volume de memória. Se o agente não for iniciado e essas entradas de evento estiverem presentes no log de eventos, o Objeto de trabalho não consegue ser instanciado no servidor. Para contornar o problema, o limite de memória superior pode ser removido com a alteração de um valor no arquivo de configurações:
+    O Agente é executado dentro de um Objeto de Trabalho do Windows para limitar automaticamente seu espaço de memória. Se o agente não for iniciar e essas entradas de evento estão presentes no log de eventos, o Objeto de Trabalho não pode ser instanciado no servidor. Para resolver esse problema, o limite de memória superior pode ser removido alterando um valor no arquivo de configuração:
     
   ```console
   C:\Program Files\Skype for Business Server StatsMan Agent\PerfAgent.exe.config
   ```
 
-    Procure por "MaxProcessMemoryMB" e altere o valor para "0" conforme mostrado:
+    Procure "MaxProcessMemoryMB" e altere o valor para "0", conforme mostrado:
     
   ```xml
   <setting name="MaxProcessMemoryMB" serializeAs="String"> <value>300</value> </setting>
   ```
 
     > [!NOTE]
-    > Se essa alteração for feita, o agente geralmente ainda consumirá \< 100 MB de memória, mas ele não se limitará à força a 300 MB, como é o padrão. Se essa alteração for feita, recomendamos monitorar de perto uso de memória para garantir que o Agente não consuma uma grande quantidade de memória na máquina do host. 
+    > Se essa alteração for feita, o Agente geralmente ainda consumirá 100 MB de memória, no entanto, ele não será limitado a 300 MB como é o \< padrão. Se essa alteração for feita, recomendamos monitorar de perto o uso da memória para garantir que o Agente não consuma uma grande quantidade de memória em seu computador host. 
   
-- **2000** - Falha na inicialização do cliente
+- **2000** — Falha de inicialização do cliente
     
-- **2001** - Não foi possível se conectar com o serviço em qualquer IP de origem
+- **2001**— Nenhuma conexão pode ser feita com o serviço em qualquer IP de origem
     
     Se o Agente não puder se conectar ao computador Ouvinte, verifique o seguinte:
     
-    1. Certifique-se de que o serviço Ouvinte está em execução no computador Ouvinte. Se não estiver, certifique-se de que o Redis está sendo executado no servidor e reinicie o serviço Ouvinte.
+    1. Certifique-se de que o serviço ouvinte está em execução no computador ouvinte. Se não estiver, verifique se o Redis está em execução no servidor e reinicie o serviço ouvinte.
         
-        Verifique o log de eventos do Gerenciador de estatísticas no computador ouvinte para garantir que não haja problemas com o serviço de escuta do Gerenciador de estatísticas propriamente dito.
+        Verifique o log de eventos do Gerenciador de Estatísticas no computador Ouvinte para garantir que não haja problemas com o serviço Ouvinte do Gerenciador de Estatísticas em si.
         
-    2. Use uma ferramenta de conectividade, como telnet, para verificar a conectividade do computador do Agente ao do Ouvinte na porta correta.
+    2. Use uma ferramenta de conectividade, como telnet, para verificar a conectividade do computador do Agente com o Ouvinte na porta correta.
         
-        Caso contrário, verifique se a regra de firewall de entrada está habilitada no computador Ouvinte para o tipo de rede ao qual esse computador está conectado (público/privado/domínio). Se o computador ouvinte não estiver associado a um domínio, a rede poderá estar listada como pública e, nesse caso, as regras de firewall instaladas com o Gerenciador de estatísticas não serão aplicadas por padrão.
+        Caso não esteja, certifique-se de que a regra de firewall de entrada esteja habilitada no computador Ouvinte para o tipo de rede ao qual o computador Ouvinte está conectado (privado/público/domínio). Se o computador Ouvinte não for ingressado em um domínio, a rede poderá ser listada como pública e, nesse caso, as regras de firewall instaladas com o Gerenciador de Estatísticas não serão aplicadas por padrão.
     
-- **4000** - Falha para no download das Informações do servidor do Ouvinte (Motivo desconhecido)
+- **4000** — Falha ao baixar informações do servidor do Ouvinte (motivo desconhecido)
     
-  - **4001** - Servidor não encontrado na topologia do Ouvinte
+  - **4001** — Servidor não encontrado na topologia do ouvinte
     
-    Esse erro ocorrerá se o servidor se conectar com êxito ao ouvinte, mas o servidor não tiver sido adicionado à topologia no cache do ouvinte. Opções de solução:
+    Esse erro ocorrerá se o servidor estiver se conectando com êxito ao Ouvinte, mas o servidor não foi adicionado à topologia no cache do Ouvinte. Opções de resolução:
     
-  - 	Certifique-se de seguir as instruções para importar a topologia. Veja [Importar a topologia](deploy.md#BKMK_ImportTopology).   
+  - Certifique-se de seguir as instruções para importar a topologia. Consulte [Importar a topologia.](deploy.md#BKMK_ImportTopology) 
     
-  - Se o Agente estiver em um servidor que não está listado na topologia (por exemplo, os nós de um cluster SQL AlwaysOn), você precisará adicionar o Agente manualmente seguindo as instruções contidas em [Importar a topologia](deploy.md#BKMK_ImportTopology).
+  - Se o Agente estiver em um servidor que não está listado na topologia (por exemplo, os nós em um cluster SQL AlwaysOn), você precisará adicionar o Agente manualmente seguindo as instruções em Importar a [topologia.](deploy.md#BKMK_ImportTopology)
     
-  - **4002** - Senha do Ouvinte inválida
+  - **4002** — Senha de Ouvinte Inválida
     
-    A senha codificada que o agente esteja tentando usar não corresponde à senha de serviço no Ouvinte. Desinstale o Agente e volte a instalá-lo usando a senha de serviço correta.
+    A senha criptografada que o agente está tentando usar não combina com a senha de serviço no Ouvinte em si. Desinstale o Agente e reinstale-o usando a senha de serviço correta.
     
-  - **4003** - Incompatibilidade de impressão digital do certificado
+  - **4003** — Incompatibilidade de impressão digital do certificado
     
-    A impressão digital do certificado dada ao Agente durante a instalação não corresponde à impressão digital no certificado que o Ouvinte está usando no momento e, portanto, a conexão será recusada. Desinstale o Agente e volte a instalá-lo usando a impressão digital do certificado correta.
+    A impressão digital do certificado dada ao Agente no momento da instalação não combina com a impressão digital no certificado que o Ouvinte está usando no momento e, portanto, a conexão será recusada. Desinstale o Agente e reinstale-o usando a impressão digital correta do certificado.
     
-  - **4004** - Resposta inválida ou HttpStatusCode
+  - **4004** — Resposta inválida ou HttpStatusCode
     
-    O Ouvinte não está respondendo com um status esperado.   
+    O Ouvinte não está respondendo com um status esperado. 
     
-  - Se a conexão for em proxy, marque a configuração de proxy.
+  - Se a conexão for proxy, verifique a configuração do proxy.
     
-  - Verifique se há problemas com a configuração no log do estado do estado do ouvinte do computador.
+  - Verifique o log statsMan do computador ouvinte em busca de problemas com sua configuração.
     
-  - **4005** - Não foi possível desserializar o XML
+  - **4005** — Não foi preciso des serializar o XML
     
-    As informações no servidor do Ouvinte estão corrompidas ou pode haver uma incompatibilidade de versões entre os computadores do Agente e do Ouvinte. Certifique-se de que as versões são as mesmas e verifique o log de eventos do Ouvinte em busca de problemas.
+    As informações do servidor no servidor Ouvinte estão corrompidas ou pode haver uma incompatibilidade de versão entre o Agente e os computadores ouvintes. Verifique se as versões corresponderam e verifique se há problemas no log de eventos do Ouvinte.
     
-## <a name="listener-events"></a>Eventos do Ouvinte
+## <a name="listener-events"></a>Eventos de ouvinte
 <a name="BKMK_Listener"> </a>
 
-- **10000** - Falha na inicialização Motivo desconhecido (são irrecuperáveis, e o serviço será interrompido/falhará como resultado)
+- **10000** — Falha de inicialização Motivo desconhecido (eles são irrecuperáveis e o serviço irá parar/falhar como resultado)
     
-  - **10001** - Problema de configuração
+  - **10001** — Problema de configuração
     
-    Isso geralmente ocorre quando o arquivo [listener_install_location]\PerfAgentListener.exe.config foi modificado manualmente e não pode ser lido pelo aplicativo.
+    Geralmente, isso ocorrerá quando o arquivo [listener_install_location]\PerfAgentListener.exe.config tiver sido modificado manualmente e não puder ser lido pelo aplicativo.
     
-  - **10002** - Erro de inicialização do Ouvinte do HTTP
+  - **10002** — Erro de inicialização do Ouvinte HTTP
     
-    Esse evento geralmente será registrado quando a ACL da URL não tiver sido definida adequadamente durante a instalação ou o certificado SSL é inválido. Verifique se o certificado em sua configuração é válido. Se for, reinstale o Ouvinte seguindo as instruções contidas em [Implantar o Gerenciador de Estatísticas](deploy.md#BKMK_Deploy).
+    Esse evento geralmente será registrado quando a ACL da URL não tiver sido definida corretamente durante a instalação ou o Certificado SSL for inválido. Verifique se o certificado em sua configuração é válido. Se estiver, reinstale o Ouvinte de acordo com as instruções em [Implantar o Gerenciador de Estatísticas.](deploy.md#BKMK_Deploy)
     
-  - **10003** - Falha de Redis
+  - **10003** — Falha do Redis
     
-  - **10004** - Falha na infraestrutura do cache
+  - **10004** — Falha na infraestrutura de cache
     
-  - **10007** - Configurações (armazenadas em Redis)
+  - **10007** – Configurações (armazenadas em redis)
     
-    O Ouvinte não conseguiu contatar o Redis ou recuperar dados bem formados do cache, e não foi possível iniciar. Certifique-se de que o serviço Redis foi iniciado e configurado adequadamente no servidor.
+    O Ouvinte não pôde contatar o Redis ou recuperar dados bem formados do cache e não pôde iniciar. Verifique se o serviço Redis foi iniciado e configurado corretamente no servidor.
     
-  - **10005** - Recuperação/análise das informações do servidor
+  - **10005** — Recuperação/análise de informações do servidor
     
-    As informações de topologia no cache Redis são inválidas. Primeiro, tente reiniciar Redis e o Ouvinte. Se o erro persistir, veja [Importar a topologia](deploy.md#BKMK_ImportTopology) para recriar os dados da topologia.
+    As informações de topologia no cache redis são inválidas. Primeiro, tente reiniciar o Redis e o Ouvinte. Se o erro persistir, consulte [Importar a topologia para](deploy.md#BKMK_ImportTopology) recriar os dados de topologia.
     
-- **10100** - Interrupção de PING do Redis
+- **10100** - Paralisação de PING do Redis
     
-  - **10101** - Interrupção continuada de PING do Redis (a cada 60 segundos)
+  - **10101** - Continuação da paralisação do PING do Redis (a cada 60 segundos)
     
-  - **30100** - Interrupção de PING do Redis restaurada
+  - **30100** — Paralisação de PING do Redis restaurada
     
-    Esses eventos serão registrados quando o Ouvinte não puder se conectar ao Redis. Verifique se o Redis foi iniciado e a conectividade de rede entre o Ouvinte e o Redis está disponível.
+    Eles serão registrados quando o Ouvinte não puder se conectar ao Redis. Verifique se o Redis foi iniciado e se a conectividade de rede entre o Ouvinte e o Redis está disponível.
     
-- **10200** - Interrupção de gravação do Redis
+- **10200** - Redis Write outage
     
-  - **10201** - Interrupção continuada de gravação do Redis (a cada 60 segundos)
+  - **10201** — Continuação da indisistção de gravação do Redis (a cada 60 segundos)
     
-  - **30100** - Interrupção de gravação do Redis resolvida
+  - **30100** — Redis Write outage resolved
     
-    Esses eventos serão registrados quando o Ouvinte não puder gravar no cache do Redis. Verifique se o Redis foi iniciado e a conectividade de rede entre o Ouvinte e o Redis está disponível.
+    Eles serão registrados quando o Ouvinte não puder gravar no cache do Redis. Verifique se o Redis foi iniciado e se a conectividade de rede entre o Ouvinte e o Redis está disponível.
     
-- **30000** - Iniciado com êxito
+- **30000** – Iniciado com êxito
     
-    Registrado toda vez que o Ouvinte é iniciado.
+    Registrado sempre que o Ouvinte é iniciado.
     
-- **22000** – inicialização do agente do Gerenciador de estatísticas bem-sucedida.
+- **22000** – Inicialização bem-sucedida do Agente do Gerenciador de Estatísticas.
     
-- **23000** - Inicialização bem-sucedida do EventLogQueryManager (primeira vez ou após uma falha)
+- **23000** — Inicialização bem-sucedida do EventLogQueryManager (primeira vez ou após falha)
     
-- **24000** - Inicialização bem-sucedida de serverinfo (primeira vez ou após uma falha)
+- **24000** — Inicialização bem-sucedida de serverinfo (primeira vez ou após falha)
     
-- **25000** - O Ouvinte está online novamente após uma falha ao postar (ou primeira postagem bem-sucedida)
+- **25000** — O Ouvinte está novamente online após uma falha ao postar (ou primeira postagem bem-sucedida)
     
-- **5000** - Início do ouvinte offline para postagem de dados
+- **5000** — Início do ouvinte offline para postar dados
     
-- **5001** - O Ouvinte continua offline durante um período extenso
+- **5001** — O Ouvinte ainda está offline por um longo período
     
-    Esses eventos podem ser úteis para monitorar/alertar sobre/resolver problemas.
+    Esses eventos podem ser úteis para monitorar/alertar/limpar problemas.
     
-## <a name="website-issues"></a>Problemas de site da Web
+## <a name="website-issues"></a>Problemas do site
 <a name="BKMK_Website"> </a>
 
-- Prompts de login repetitivo no Chrome-foi um bug que foi resolvido na versão 1,1. Verifique se você atualizou para a versão mais recente do Gerenciador de estatísticas se estiver vendo solicitações de login repetidas no navegador Chrome. Para conferir a versão do site executada:
+- Prompts de logon repetitivos no Chrome – um bug que foi resolvido na versão 1.1. Certifique-se de ter atualizado para a versão mais recente do Gerenciador de Estatísticas se estiver vendo prompts de logon repetidos no navegador Chrome. Para verificar a versão do site que você está executando:
     
-  - 	No Explorador de Arquivos, abra (default directory)
+  - No Explorador de Arquivos, abra (diretório padrão)
     
-  - Clique com o botão direito do mouse em StatsManHubWebSite.dll e veja as propriedades.
+  - Clique com o botão direito do StatsManHubWebSite.dll e veja suas propriedades.
     
-  - Caso um computador não possa ser encontrado no modo de exibição Paisagem do KHI ou no modo de exibição Detalhes do Contador, verifique se ele é membro de um Site e de um Pool. Se não for, ele não aparecerá nesses modos de exibição. Para obter informações sobre como definir um site e um pool para um servidor na topologia, veja [Importar a topologia](deploy.md#BKMK_ImportTopology).
+  - Se não for possível encontrar um computador na exibição Paisagem de KHI ou no de Detalhes do Contador, certifique-se de que ele seja membro de um Site e de um Pool. Se não estiver, ele não aparecerá nesses exibições. Para obter informações sobre como definir um site e pool para um servidor na topologia, consulte [Importar a topologia.](deploy.md#BKMK_ImportTopology)
     
   - A versão do produto será mostrada nos detalhes de Descrição.
     
 ## <a name="for-more-information"></a>Para obter mais informações
 <a name="BKMK_Website"> </a>
 
-Para obter mais informações, consulte o seguinte:
+Para obter mais informações, confira o seguinte:
   
 - [Planejar o Gerenciador de estatísticas do Skype for Business Server](plan.md)
     

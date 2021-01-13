@@ -1,7 +1,7 @@
 ---
-title: Parceiros federados do Sistema de Salas do Skype e Skype for Business
-ms.author: v-lanac
-author: lanachin
+title: Parceiros federados do Skype Room System e Skype for Business
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta
@@ -11,27 +11,27 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 1cc20323-ecba-4e87-a861-e54193e64cf0
-description: Leia este tópico para saber como configurar o Sistema de Salas do Skype para parceiros federados do Skype for Business.
-ms.openlocfilehash: d5ee83857aa439791e2a31ef201e0f365dbb8408
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+description: Leia este tópico para saber como configurar o Sistema de Sala do Skype para parceiros federados do Skype for Business.
+ms.openlocfilehash: ac0203479907f830f1bc6cec6831f8804906e669
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41768714"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49820801"
 ---
-# <a name="skype-room-system-and-skype-for-business-federated-partners"></a>Parceiros federados do Sistema de Salas do Skype e Skype for Business
+# <a name="skype-room-system-and-skype-for-business-federated-partners"></a>Parceiros federados do Skype Room System e Skype for Business
  
-Leia este tópico para saber como configurar o Sistema de Salas do Skype para parceiros federados do Skype for Business.
+Leia este tópico para saber como configurar o Sistema de Sala do Skype para parceiros federados do Skype for Business.
   
-## <a name="skype-room-system-and-skype-for-business-federated-partners"></a>Parceiros federados do Sistema de Salas do Skype e Skype for Business
+## <a name="skype-room-system-and-skype-for-business-federated-partners"></a>Parceiros federados do Skype Room System e Skype for Business
 
-O sistema de sala do Skype depende do link ingressar na reunião do Skype for Business na solicitação de reunião do calendário. O link de ingresso normalmente é encontrado no corpo de uma solicitação de reunião. No entanto, o sistema de sala do Skype depende desse link para estar presente nas propriedades MAPI da mensagem. Quando esta solicitação de reunião for enviada a organizações remotas (parceiros federados do Skype for Business), por padrão, o sistema de salas da organização remota não mostrará o link de ingresso na reunião no calendário. Na verdade, os usuários do Outlook na organização remota não poderão participar da reunião do Skype for Business com um clique com o botão direito do mouse no item do calendário ou no lembrete da reunião. Eles devem abrir o convite de reunião e clicar em ingressar na reunião do Skype for Business no corpo da mensagem. 
+O Sistema de Sala do Skype depende do link Ingressar na Reunião do Skype for Business na solicitação de reunião do calendário. O link de junção geralmente é encontrado no corpo de uma solicitação de reunião. No entanto, o Sistema de Sala do Skype depende desse link para estar presente nas propriedades MAPI da mensagem. Quando essa solicitação de reunião é enviada a organizações remotas (parceiros federados do Skype for Business), por padrão, o Sistema de Sala do Skype da organização remota não mostrará o link de ingressar na reunião no calendário. Na verdade, os usuários do Outlook na organização remota não poderão participar da reunião do Skype for Business com um clique direito do item de calendário ou no lembrete da reunião. Eles devem abrir o convite da reunião e clicar em Ingressar na Reunião do Skype for Business no corpo da mensagem. 
   
-O motivo para esta limitação é que o Outlook e o Microsoft Exchange não usam um método especial para organizar informações para enviar mensagens pela Internet. Esse método, conhecido como Formato de Encapsulamento Neutro de Transporte (TNEF), está desabilitado por padrão para mensagens enviadas externamente de uma organização do Exchange. Para que o link de ingresso na reunião apareça em um sistema de sala remoto do Skype, a organização de envio deve habilitar o TNEF usando o seguinte comando:
+O motivo para essa limitação é que o Outlook e o Microsoft Exchange não usam um método especial para empacotar informações para enviar mensagens pela Internet. Esse método, conhecido como TNEF (Transport Neutral Encapsulation Format), é desabilitado por padrão para mensagens enviadas externamente de uma organização do Exchange. Para que um link de ingressar em uma reunião apareça em um Sistema de Sala skype remoto, a organização de envio deve habilitar o TNEF usando o seguinte comando:
   
 ```powershell
 New-RemoteDomain -DomainName Contoso.com -Name Contoso
 Set-RemoteDomain -Identity Contoso -TNEFEnabled $true
 ```
 
-Depois que o TNEF estiver habilitado para a organização remota, qualquer mensagem enviada através da Internet para a organização será enviada como um anexo no formato TNEF. Com o TNEF habilitado, quando uma solicitação de reunião do Skype for Business for enviada para o parceiro federado do Skype for Business, o sistema de salas da Skype poderá renderizar a reunião do Skype for Business e os usuários remotos poderão participar de reuniões do Skype for Business. 
+Depois que o TNEF é habilitado para a organização remota, qualquer mensagem enviada pela Internet para a organização é enviada como um anexo no formato TNEF. Com o TNEF habilitado, quando uma solicitação de reunião do Skype for Business for enviada para o parceiro federado do Skype for Business, o Sistema de Sala do Skype poderá renderizar a Reunião do Skype for Business e os usuários remotos poderão ingressar em reuniões do Skype for Business. 

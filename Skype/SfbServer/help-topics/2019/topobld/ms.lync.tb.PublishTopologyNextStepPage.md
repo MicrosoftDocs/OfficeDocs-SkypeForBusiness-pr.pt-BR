@@ -1,8 +1,8 @@
 ---
 title: Próxima etapa de publicação de topologia
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,27 +14,27 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 29e4a215-80f9-4ac8-8069-b220f3ac251d
 ROBOTS: NOINDEX, NOFOLLOW
-description: Na conclusão da publicação da topologia, a página Assistente de publicação concluído será exibida.
-ms.openlocfilehash: 0e837b2962446ce2d80e5589db737018f6a4cf1e
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: Na conclusão da publicação da topologia, a página Assistente de publicação concluído é exibida.
+ms.openlocfilehash: 6fd650f5020507f3739576e7ef0db346c71aa739
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41795432"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49822221"
 ---
-# <a name="publish-topology-next-step"></a>Próxima etapa de publicação de topologia
+# <a name="publish-topology-next-step"></a>Próxima etapa da publicação de topologia
 
-Na conclusão da publicação da topologia, a página Assistente de **publicação concluído** será exibida.
+Na conclusão da publicação da topologia, a página **Assistente de publicação concluído** é exibida.
 
-À medida que você concluir as etapas durante o processo de topologia de publicação, os logs serão criados contendo informações sobre as tarefas que foram executadas. Para exibir um arquivo de log relacionado a uma determinada etapa, selecione a etapa necessária para analisar o arquivo de log e clique em **Exibir logs**.
+À medida que você conclui as etapas durante o processo de Publicação de Topologia, os logs são criados contendo informações sobre as tarefas realizadas. Para exibir um arquivo de log relacionado a uma determinada etapa, selecione a etapa da qual que você deseja revisar o arquivo de log e clique em **Exibir Logs**.
 
 > [!NOTE]
-> Nem todas as etapas durante o processo de topologia de publicação terão arquivos de log associados. Se você selecionar uma etapa e **os logs de exibição** estiverem disponíveis, esta etapa cria um arquivo de log. Se o botão **Exibir logs** não estiver disponível (esmaecido), nenhum arquivo de log será criado para esta etapa.
+> Nem todas as  etapas durante o processo de Publicação de Topologia terão arquivos de log associados. Se você selecionar uma etapa e **Exibir Logs** estiver disponível, essa etapa terá criado um arquivo de log. Se o botão **Exibir Logs** não estiver disponível (esmaecido), nenhum arquivo de log terá sido criado para essa etapa.
 
-Para revisar as próximas etapas sugeridas para concluir sua topologia, clique no link **clique aqui para abrir a lista de tarefas pendentes**. O arquivo de texto que é aberto clicando nesse link indicará os servidores que você precisará para executar a configuração local e as etapas adicionais necessárias para concluir a implantação. Para cada uma das tarefas listadas, consulte a seção apropriada na documentação de implantação.
+Para revisar as Próximas Etapas sugeridas para completar sua topologia, clique no link **Clique aqui para abrir a lista de tarefas**. O arquivo de texto aberto clicando nesse link indicará os servidores para os quais será necessário executar a configuração local, e quaisquer etapas adicionais que precisam ser executadas para completar sua implantação. Para cada uma das tarefas listadas, consulte a seção apropriada na documentação Implantação.
 
-Clique em **concluir**
+Clique em **Concluir**
 
-Para obter detalhes, consulte [publicar a topologia](https://technet.microsoft.com/library/3b5a744b-b3a8-4538-a55e-e2e4f72dff47.aspx).
+Para obter detalhes, consulte [Publish the Topology](https://technet.microsoft.com/library/3b5a744b-b3a8-4538-a55e-e2e4f72dff47.aspx).
 
 

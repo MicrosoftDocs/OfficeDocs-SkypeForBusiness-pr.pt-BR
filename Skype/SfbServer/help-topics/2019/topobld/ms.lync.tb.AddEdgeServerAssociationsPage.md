@@ -1,8 +1,8 @@
 ---
 title: Adicionar Associações de Servidor de Borda
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,20 +14,20 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a58b6ba8-f491-4c37-ad45-aa46206fac51
 ROBOTS: NOINDEX, NOFOLLOW
-description: Use esta página para selecionar quais pools de front-end e servidores de edição padrão usarão este pool de bordas para tráfego A/V.
-ms.openlocfilehash: 5a67829de4cc56cf8512513e040b5427b676ca8a
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: Use esta página para selecionar quais pools de Front-Ends e servidores Standard Edition vão usar este pool de Borda para o tráfego A/V.
+ms.openlocfilehash: 6e2274b706df06bb82ff1d96ccf30a000725003d
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41794069"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49819491"
 ---
 # <a name="add-edge-server-associations"></a>Adicionar Associações de Servidor de Borda
  
-Use esta página para selecionar quais pools de front-end e servidores de edição padrão usarão este pool de bordas para tráfego A/V. 
+Use esta página para selecionar quais pools de Front-Ends e servidores Standard Edition vão usar este pool de Borda para o tráfego A/V. 
   
-Cada pool de front-ends pode ser associado a apenas um pool de bordas. Se você selecionar um pool que já esteja associado a outro pool de bordas, ele vai mudar a associação para longe do pool de bordas anterior.
+Cada pool de Front-Ends pode ser associado apenas com um pool de Borda. Caso você selecione um pool que já está associado com outro pool de Borda, a associação com o pool anterior será alterada em favor da nova.
   
-Você também pode optar por associar este servidor de borda ou o pool de bordas a servidores de mediação ou pools do servidor de mediação para configurar e habilitar o Enterprise Voice para usuários externos.
+Você também pode optar por associar esse Servidor de Borda ou pool de Borda a Servidores de Mediação ou pools de Servidor de Mediação para configurar e habilitar o Enterprise Voice para usuários externos.
   
 

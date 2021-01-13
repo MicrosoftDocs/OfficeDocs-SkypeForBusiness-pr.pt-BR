@@ -1,8 +1,8 @@
 ---
 title: Exibir Gateways (Importar Configuração)
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,17 +14,17 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 0cdb0a42-c682-42f7-907e-667f934cb7e0
 ROBOTS: NOINDEX, NOFOLLOW
-description: Em gateway implantado, clique no gateway em que você deseja importar o arquivo de configuração de voz selecionado.
-ms.openlocfilehash: 4d667ab0b22e8aa63f6f88dd2aa3f56ce87ee35f
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: Em Gateway implantado, clique no gateway para o qual deseja importar o arquivo de configuração de voz que você selecionou.
+ms.openlocfilehash: fa62448fa1e4a718989128702fb010515e36cf18
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41792139"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49820081"
 ---
 # <a name="view-gateways-import-configuration"></a>Exibir Gateways (Importar Configuração)
  
-Em **Gateway implantado**, clique no gateway em que você deseja importar o arquivo de configuração de voz selecionado.
+Em **Gateway implantado**, clique no gateway para o qual deseja importar o arquivo de configuração de voz que você selecionou.
   
  
   

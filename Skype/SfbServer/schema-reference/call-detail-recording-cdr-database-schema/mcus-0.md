@@ -1,8 +1,8 @@
 ---
-title: Exibição MCUs
+title: Mcus view
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -12,22 +12,22 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 8e8bbb1b-993b-4b66-862b-7e7654777203
-description: A exibição MCUs armazena informações sobre o MCUs que participou em sessões de conferência. Este modo de exibição foi apresentado no Microsoft Lync Server 2013.
-ms.openlocfilehash: eee2438e9a4c6b222f2c9b77e3b02a1a733acbb0
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: O mcus view armazena informações sobre as MCUs que participaram de sessões de conferência. Essa exibição foi introduzida no Microsoft Lync Server 2013.
+ms.openlocfilehash: 3b16505337c241f08b1da99ca2e9e7f8a17a4eaa
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41815069"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49821461"
 ---
-# <a name="mcus-view"></a>Exibição MCUs
+# <a name="mcus-view"></a>Mcus view
  
-A exibição MCUs armazena informações sobre o MCUs que participou em sessões de conferência. Este modo de exibição foi apresentado no Microsoft Lync Server 2013.
+O mcus view armazena informações sobre as MCUs que participaram de sessões de conferência. Essa exibição foi introduzida no Microsoft Lync Server 2013.
   
 |**Coluna**|**Tipo de dados**|**Detalhes**|
 |:-----|:-----|:-----|
 |**McuId** <br/> |int  <br/> |Número exclusivo que identifica a MCU.  <br/> |
-|**McuUri** <br/> |nvarchar (450)  <br/> |URL da MCU.  <br/> |
-|**McuUriType** <br/> |nvarchar(256)  <br/> |Tipo de URI de MCU. Consulte a [tabela UriTypes](uritypes.md) para obter mais informações. <br/> |
+|**McuUri** <br/> |nvarchar(450)  <br/> |URI da MCU.  <br/> |
+|**McuUriType** <br/> |nvarchar(256)  <br/> |Tipo de URI MCU. Consulte a [tabela UriTypes para](uritypes.md) obter mais informações. <br/> |
    
 

@@ -1,8 +1,8 @@
 ---
 title: Configurar políticas de arquivamento para o Skype for Business Server
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -11,105 +11,105 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: e8e48087-d4f0-4fe1-9e7e-f2b3e07f815f
-description: 'Resumo: Leia este tópico para saber como configurar as políticas de arquivamento iniciais para usuários do Skype for Business Server.'
-ms.openlocfilehash: ff946fe2fde2fcd8aae842e809a89bffb7852bca
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+description: 'Resumo: Leia este tópico para saber como configurar as políticas iniciais de arquivamento para usuários do Skype for Business Server.'
+ms.openlocfilehash: ab737305561aa20c873bbce6e0f075d17fedd0d6
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41769204"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49820851"
 ---
 # <a name="configure-archiving-policies-for-skype-for-business-server"></a>Configurar políticas de arquivamento para o Skype for Business Server
  
-**Resumo:** Leia este tópico para saber como configurar as políticas de arquivamento iniciais para usuários do Skype for Business Server.
+**Resumo:** Leia este tópico para saber como configurar as políticas iniciais de arquivamento para usuários do Skype for Business Server.
   
-No Skype for Business Server, você usa políticas para habilitar e desabilitar o arquivamento para comunicações internas e comunicações externas para usuários que são hospedados no Skype for Business Server. Isso inclui o seguinte:
+No Skype for Business Server, você usa políticas para habilitar e desabilitar o arquivamento de comunicações internas e externas para usuários que estão no Skype for Business Server. Isso inclui:
   
-- Uma política global criada por padrão quando você implanta o Skype for Business Server
+- Uma política global que é criada por padrão quando você implanta o Skype for Business Server
     
-- Políticas opcionais no nível do local que especificam como o arquivamento é implementado para um local específico
+- Políticas opcionais no nível do site que especificam como o arquivamento é implementado para um site específico
     
-- Políticas de nível de usuário opcionais que especificam como o arquivamento é implementado para usuários específicos
+- Políticas opcionais no nível do usuário que especificam como o arquivamento é implementado para usuários específicos
     
-As políticas de arquivamento são configuradas inicialmente ao implantar o arquivamento, mas você pode alterar, adicionar e excluir políticas após a implantação. No painel de controle do Skype for Business Server, você pode usar a página **política de arquivamento** do grupo **arquivamento e monitoramento** para gerenciar políticas nos níveis global, de site e de usuário.
+Inicialmente, você configura políticas de arquivamento ao implantar o arquivamento, mas pode alterar, adicionar e excluir políticas após a implantação. No Painel de Controle do Skype  for Business Server,  você pode usar a página Política de Arquivamento do grupo Arquivamento e Monitoramento para gerenciar políticas nos níveis global, de site e de usuário.
   
 > [!NOTE]
-> Para controlar a implementação do arquivamento, você deve especificar opções, como se é necessário arquivar IM ou conferências, o uso do modo crítico e as opções de limpeza. Por padrão, nenhuma opção está habilitada na configuração de arquivamento global ou em qualquer configuração de arquivamento de local ou pool. É necessário especificar todas as opções apropriadas antes de habilitar o arquivamento para comunicações internas ou externas. Para obter detalhes, consulte [Configurar opções de arquivamento para o Skype for Business Server](configure-archiving-options.md). 
+> Para controlar a implementação do arquivamento, você deve especificar opções, como arquivar IM ou conferências, o uso de modo crítico e opções de purgação. Por padrão, nenhuma opção está habilitada na configuração de arquivamento global ou em qualquer configuração de arquivamento de site ou pool. Você deve especificar todas as opções apropriadas antes de ativar o arquivamento para comunicações internas ou externas. Para obter detalhes, [consulte Configurar opções de arquivamento para o Skype for Business Server.](configure-archiving-options.md) 
   
 > [!NOTE]
-> Se você habilitar a integração do Microsoft Exchange para a implantação, as políticas de bloqueio do Exchange in-loco controlarão se o arquivamento está habilitado para os usuários que estão hospedados no Exchange e que suas caixas de correio colocam no bloqueio in-loco. 
+> Se você habilitar a integração com o Microsoft Exchange para sua implantação, as políticas de In-Place de Espera do Exchange controlarão se o arquivamento está habilitado para os usuários que estão no Exchange e têm suas caixas de correio colocadas em In-Place Espera. 
   
-Para obter detalhes sobre como as políticas de arquivamento funcionam, incluindo a hierarquia para políticas globais, de site e de usuário, consulte [planejar o arquivamento no Skype for Business Server](../../plan-your-deployment/archiving/archiving.md). Para obter detalhes sobre como gerenciar políticas após a implantação, consulte [gerenciar políticas de arquivamento no Skype for Business Server](../../manage/archiving/policies.md).
+Para obter detalhes sobre como as políticas de arquivamento funcionam, incluindo a hierarquia para políticas globais, de site e de usuário, consulte Plano para arquivamento no [Skype for Business Server.](../../plan-your-deployment/archiving/archiving.md) Para obter detalhes sobre como gerenciar políticas após a implantação, consulte Gerenciar políticas de arquivamento [no Skype for Business Server.](../../manage/archiving/policies.md)
   
 ## <a name="global-policy"></a>Política global
 
-Quando você implanta seus servidores front-end, o Skype for Business Server cria uma política global para arquivar. Por padrão, o arquivamento está desabilitado na política global. A política global controla se o arquivamento está habilitado para comunicações internas e externas para toda a sua implantação, a menos que você tenha configurado políticas de site ou de usuário, o que substitui a política global, ou se você usa a integração do Microsoft Exchange para alguns ou todos os seus usuários. Se você usar a integração do Microsoft Exchange, a política global não se aplicará a nenhum usuário que estiver hospedado no Exchange e ter as caixas de correio colocadas no bloqueio in-loco.
+Quando você implanta seus Servidores Front-End, o Skype for Business Server cria uma política global para arquivamento. Por padrão, o arquivamento está desabilitado na política global. A política global controla se o arquivamento está habilitado para comunicações internas e externas para toda a sua implantação, a menos que você tenha definido políticas de site ou de usuário, o que substitui a política global ou se você usa a integração com o Microsoft Exchange para alguns ou todos os seus usuários. Se você usar a integração com o Microsoft Exchange, a política global não se aplicará a todos os usuários que estão no Exchange e que tenham as caixas de correio colocadas em In-Place Espera.
   
-### <a name="configure-the-global-policy-for-archiving-for-skype-for-business-server-archiving-databases"></a>Configurar a política global para arquivamento para bancos de dados de arquivamento do Skype for Business Server
+### <a name="configure-the-global-policy-for-archiving-for-skype-for-business-server-archiving-databases"></a>Configurar a política global para arquivamento de bancos de dados de arquivamento do Skype for Business Server
 
-1. Usando uma conta de usuário atribuída à função CsArchivingAdministrator ou CsAdministrator, faça logon em qualquer computador de sua implantação interna.
+1. A partir da conta do usuário que foi atribuída à função CsArchivingAdministrator ou CsAdministrator, faça o logon em qualquer computador na sua implantação interna.
     
-2. Abra uma janela do navegador e, em seguida, insira a URL de administração para abrir o painel de controle do Skype for Business Server. 
+2. Abra uma janela do navegador e insira a URL do Administrador para abrir o Painel de Controle do Skype for Business Server. 
     
-3. Na barra de navegação da esquerda, clique em **Monitoramento e Arquivamento**, e depois, clique em **Política de Arquivamento**.
+3. Na barra de navegação esquerda, clique em **Monitoramento e Arquivamento** e em **Política de Arquivamento**.
     
 4. Na página **Política de Arquivamento**, clique em **Global**, clique em **Editar** e, em seguida, clique em **Mostrar detalhes**.
     
 5. Em **Editar Política de Arquivamento - Global**, faça o seguinte:
     
-   - Em **Nome**, se não desejar usar o nome padrão da opção Global, especifique um novo nome para a política global. 
+   - Em **Nome**, se não desejar usar o nome padrão de global, especifique um novo nome para a política global. 
     
-   - Em **Descrição**, forneça informações sobre o que é a política (por exemplo, política global para *subvisionname* .
+   - In **Description**, provide information about what the policy is (for example, Global policy for  *divisionName*  .
     
-   - Para controlar o arquivamento de comunicações internas para todos os locais e usuários que não estivem sendo controlados especificamente por meio de uma política de local ou de usuário, marque ou desmarque a caixa de seleção **Arquivar comunicações internas**.
+   - Para controlar o arquivamento de comunicações internas para todos os sites e usuários que não estivem sendo controlados especificamente por meio de uma política de site ou de usuário, marque ou desmarque a caixa de seleção **Arquivar comunicações internas**.
     
-   - Para controlar o arquivamento de comunicações externas para todos os locais e usuários que não estivem sendo controlados especificamente por meio de uma política de local ou de usuário, marque ou desmarque a caixa de seleção **Arquivar comunicações externas**.
+   - Para controlar o arquivamento de comunicações externas para todos os sites e usuários que não estivem sendo controlados especificamente por meio de uma política de site ou de usuário, marque ou desmarque a caixa de seleção **Arquivar comunicações externas**.
     
 6. Clique em **Confirmar**.
     
-## <a name="site-policies"></a>Políticas de local
+## <a name="site-policies"></a>Políticas de site
 
-É possível habilitar ou desabilitar o arquivamento para locais específicos criando uma política de arquivamento para cada um destes locais. Uma política de local substitui a política global, mas as políticas de usuário substituem as políticas de local. As políticas de arquivamento só se aplicam se você não usar a integração com o Microsoft Exchange ou se usar a integração com o Microsoft Exchange, mas tiver alguns usuários que não são hospedados no Exchange e ter suas caixas de correio colocadas no bloqueio in-loco.
+Você pode habilitar ou desabilitar o arquivamento para sites específicos criando uma política de arquivamento para cada um desses sites. Uma política de site substitui a política global, mas as políticas de usuário substituem as políticas de site. As políticas de arquivamento só se aplicarão se você não usar a integração do Microsoft Exchange ou se você usar a integração com o Microsoft Exchange, mas tiver alguns usuários que não estão no Exchange e têm suas caixas de correio colocadas em In-Place Espera.
   
-### <a name="create-an-archiving-policy-for-a-site"></a>Para criar uma política de arquivamento para um local
+### <a name="create-an-archiving-policy-for-a-site"></a>Criar uma política de arquivamento para um site
 
-1. Usando uma conta de usuário atribuída à função CsArchivingAdministrator ou CsAdministrator, faça logon em qualquer computador de sua implantação interna.
+1. A partir da conta do usuário que foi atribuída à função CsArchivingAdministrator ou CsAdministrator, faça o logon em qualquer computador na sua implantação interna.
     
-2. Abra uma janela do navegador e, em seguida, insira a URL de administração para abrir o painel de controle do Skype for Business Server.
+2. Abra uma janela do navegador e insira a URL do Administrador para abrir o Painel de Controle do Skype for Business Server.
     
-3. Na barra de navegação da esquerda, clique em **Monitoramento e Arquivamento**, e depois, clique em **Política de Arquivamento**.
+3. Na barra de navegação esquerda, clique em **Monitoramento e Arquivamento** e em **Política de Arquivamento**.
     
-    Para obter detalhes sobre como as políticas de arquivamento funcionam, incluindo a hierarquia para políticas globais, de site e de usuário, consulte [planejar o arquivamento no Skype for Business Server](../../plan-your-deployment/archiving/archiving.md).
+    Para obter detalhes sobre como as políticas de arquivamento funcionam, incluindo a hierarquia para políticas globais, de site e de usuário, consulte Plano para arquivamento no [Skype for Business Server.](../../plan-your-deployment/archiving/archiving.md)
     
-4. Clique em **Nova** e em **Política de local**.
+4. Clique em **Novo** e, em seguida, em **Política de site**.
     
-5. Em **Selecionar um local**, clique no local ao qual a política deve ser aplicada.
+5. Em **Selecionar um site,** clique no site ao qual a política deve ser aplicada.
     
 6. Em **Nova Política de Arquivamento**, faça o seguinte:
     
-   - Em **Nome**, especifique um nome para a política do local. 
+   - Em **Nome,** especifique o nome da política de site. 
     
-   - Em **Descrição**, forneça as informações sobre a política de local (por exemplo, a política de local para Redmond).
+   - Em **Descrição,** forneça informações sobre a política de site (por exemplo, política de site para Redmond).
     
-   - Para controlar o arquivamento das comunicações internas do local especificado, marque ou desmarque a caixa de seleção **Arquivar comunicações internas**.
+   - Para controlar o arquivamento de comunicações internas para o site especificado, marque ou des marque a caixa de seleção **Arquivar comunicações** internas.
     
-   - Para controlar o arquivamento das comunicações externas do local especificado, marque ou desmarque a caixa de seleção **Arquivar comunicações externas**.
+   - Para controlar o arquivamento de comunicações externas para o site especificado, marque ou des des limpe a caixa de seleção **Arquivar comunicações externas.**
     
 7. Clique em **Confirmar**.
     
 ## <a name="user-policies"></a>Políticas de usuário
 
-É possível habilitar ou desabilitar o arquivamento para usuários específicos criando e configurando uma política de arquivamento para usuários e aplicando a política para usuários ou grupos de usuários específicos. As políticas de usuário substituem qualquer política global ou local. As políticas de arquivamento só se aplicam se você não usar a integração com o Microsoft Exchange ou se usar a integração com o Microsoft Exchange, mas tiver alguns usuários que não são hospedados no Exchange e ter suas caixas de correio colocadas no bloqueio in-loco.
+Você pode habilitar ou desabilitar o arquivamento para usuários específicos criando e configurando uma política de arquivamento para usuários e aplicando a política a usuários ou grupos de usuários específicos. As políticas de usuário substituem qualquer política global ou locais. As políticas de arquivamento só se aplicarão se você não usar a integração do Microsoft Exchange ou se você usar a integração com o Microsoft Exchange, mas tiver alguns usuários que não estão no Exchange e têm suas caixas de correio colocadas em In-Place Espera.
   
-### <a name="configure-an-archiving-policy-for-users-homed-on-skype-for-business-server"></a>Configurar uma política de arquivamento para usuários hospedados no Skype for Business Server
+### <a name="configure-an-archiving-policy-for-users-homed-on-skype-for-business-server"></a>Configurar uma política de arquivamento para usuários que estão no Skype for Business Server
 
-1. Usando uma conta de usuário atribuída à função CsArchivingAdministrator ou CsAdministrator, faça logon em qualquer computador de sua implantação interna.
+1. A partir da conta do usuário que foi atribuída à função CsArchivingAdministrator ou CsAdministrator, faça o logon em qualquer computador na sua implantação interna.
     
-2. Abra uma janela do navegador e, em seguida, insira a URL de administração para abrir o painel de controle do Skype for Business Server. 
+2. Abra uma janela do navegador e insira a URL do Administrador para abrir o Painel de Controle do Skype for Business Server. 
     
-3. Na barra de navegação da esquerda, clique em **Monitoramento e Arquivamento**, e depois, clique em **Política de Arquivamento**.
+3. Na barra de navegação esquerda, clique em **Monitoração e Arquivamento** e em **Política de Arquivamento**.
     
-4. Clique em **Nova** e em **Política do usuário**.
+4. Clique em **Novo** e em **Política do usuário**.
     
 5. Em **Nova Política de Arquivamento**, faça o seguinte:
     
@@ -126,18 +126,18 @@ Quando você implanta seus servidores front-end, o Skype for Business Server cri
 Uma política de usuário aplica-se somente aos usuários aos quais você a atribui.
 ### <a name="apply-a-skype-for-business-server-archiving-policy-to-a-user"></a>Aplicar uma política de arquivamento do Skype for Business Server a um usuário
 
-1. Usando uma conta de usuário atribuída à função CsArchivingAdministrator ou CsAdministrator, faça logon em qualquer computador de sua implantação interna.
+1. A partir da conta do usuário que foi atribuída à função CsArchivingAdministrator ou CsAdministrator, faça o logon em qualquer computador na sua implantação interna.
     
-2. Abra uma janela do navegador e, em seguida, insira a URL de administração para abrir o painel de controle do Skype for Business Server. 
+2. Abra uma janela do navegador e insira a URL do Administrador para abrir o Painel de Controle do Skype for Business Server. 
     
-3. Na barra de navegação à esquerda, clique em **Usuários** e procure a conta de usuário que deseja configurar.
+3. Na barra de navegação esquerda, clique em **Usuários** e pesquise a conta de usuário que deseja configurar.
     
-4. Na tabela que lista os resultados da pesquisa, clique em conta de usuário, em **Editar** e em **Mostrar detalhes**.
+4. Na tabela que lista os resultados da pesquisa, clique na conta do usuário, em **Editar** e em **Exibir detalhes**.
     
-5. Em **Editar o usuário do Skype for Business Server** em **política de arquivamento**, selecione a política de usuário de arquivamento que você deseja aplicar.
+5. Em **Editar usuário do Skype for Business Server** em **Política** de Arquivamento, selecione a política de usuário de arquivamento que você deseja aplicar.
     
     > [!NOTE]
-    > As ** \<configurações\> automáticas** aplicam as configurações de instalação do servidor padrão. Essas configurações são aplicadas automaticamente pelo servidor.
+    > As **\<Automatic\>** configurações aplicam as configurações de instalação do servidor padrão. Essas configurações são aplicadas automaticamente pelo servidor.
   
 6. Clique em **Confirmar**.
     

@@ -1,8 +1,8 @@
 ---
 title: Nó de Escopo de Repositório de Arquivos
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,28 +14,28 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3d723fd8-9c83-4b96-abb6-15b3dc7ce30a
 ROBOTS: NOINDEX, NOFOLLOW
-description: 'Este nó mostra o nome de domínio totalmente qualificado (FQDN) e os pools dependentes para esse repositório de arquivos. É possível executar as seguintes ações:'
-ms.openlocfilehash: 4b4631786d7639da6077b25eb98b2db70e7b2967
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: 'Este nó mostra o FQDN (nome de domínio totalmente qualificado) e pools dependentes para esse armazenamento de arquivos. É possível executar as seguintes ações:'
+ms.openlocfilehash: 2ddd0a9a3ba3ec5dcacd8f3fbd13a46a3e74479f
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41793679"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49819431"
 ---
 # <a name="file-store-scope-node"></a>Nó de Escopo de Repositório de Arquivos
  
-Este nó mostra o nome de domínio totalmente qualificado (FQDN) e os pools dependentes para esse repositório de arquivos. É possível executar as seguintes ações:
+Este nó mostra o FQDN (nome de domínio totalmente qualificado) e pools dependentes para esse armazenamento de arquivos. É possível executar as seguintes ações:
   
 - **Editar Propriedades**. Abre a página **Editar Propriedades** para esse servidor, na qual é possível alterar o FQDN e o nome do repositório de arquivos.
     
 - **Excluir**. Exclui o repositório de arquivos da topologia.
     
-Além dessas opções, você pode realizar as seguintes tarefas gerais:
+Além das opções, é possível executar as seguintes tarefas gerais:
   
-- **Topologia**. É possível usar essa opção para definir uma nova topologia, abrir uma topologia existente, baixar a topologia atual, salvar uma cópia da topologia, publicar a topologia, instalar um banco de dados, mesclar os componentes ou remover a implantação.
+- **Topologia**. Você pode usar essa opção para definir uma nova topologia, abrir uma topologia existente, baixar a topologia atual, salvar uma cópia da topologia, publicar a topologia, instalar um banco de dados, mesclar componentes ou remover a implantação.
     
-- **Exibir**. Você pode usar essa opção para personalizar o modo de exibição no Construtor de Topologias selecionando os itens para mostrar ou ocultar nos modos de exibição da árvore de console.
+- **Visualização**. Você pode usar esta opção para personalizar a visualização no Construtor de Topologia selecionando os itens que serão exibidos ou escondidos na visão de árvore de comando..
     
-- **Ajuda**. Você pode usar essa opção para acessar a Ajuda do nó ativo.
+- **Ajuda**. Você pode usar esta opção para acessar a Ajuda para o nó ativo.
     
 

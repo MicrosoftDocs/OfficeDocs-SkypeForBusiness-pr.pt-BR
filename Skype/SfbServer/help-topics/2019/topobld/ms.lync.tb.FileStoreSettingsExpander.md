@@ -1,8 +1,8 @@
 ---
 title: Expansor de Configurações de Repositório de Arquivo
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,21 +14,21 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4d316ae0-2a37-48b0-a3dc-468616ab4135
 ROBOTS: NOINDEX, NOFOLLOW
-description: 'Para editar as propriedades dos repositórios de arquivos definidos:'
-ms.openlocfilehash: f4c88d7010876f9f71135dffe126a74883957948
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: 'Para editar as propriedades dos repositório de arquivo definidos:'
+ms.openlocfilehash: 87ba595ff15b6864ea162c4155fa84937aa13ed7
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41793669"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49819421"
 ---
 # <a name="file-store-settings-expander"></a>Expansor de Configurações de Repositório de Arquivo
  
-Para editar as propriedades dos repositórios de arquivos definidos:
+Para editar as propriedades dos repositório de arquivo definidos:
   
-Para o nome do compartilhamento de arquivos, você pode definir o nome de um novo compartilhamento. Em seguida, você deve criar o compartilhamento no servidor que é nomeado na propriedade FQDN (nome de domínio totalmente qualificado) do servidor de arquivos.
+Para o nome do Compartilhamento de Arquivo, é possível definir o nome de um novo compartilhamento. Em seguida, é preciso criar o compartilhamento no servidor nomeado na propriedade FQDN (nome de domínio totalmente qualificado) do Servidor de Arquivo.
   
 > [!NOTE]
-> Você não pode alterar o FQDN do servidor especificado na propriedade FQDN do servidor de arquivos. Se você precisar colocar o compartilhamento de arquivos do armazenamento de arquivos em um servidor diferente, crie uma nova entrada de repositório de arquivos. 
+> Não é possível alterar o FQDN do servidor especificado na propriedade FQDN do Servidor de Arquivo. Se for necessário colocar o compartilhamento de arquivo do repositório de arquivos em um servidor diferente, crie uma nova entrada de repositório de arquivo. 
   
 

@@ -1,8 +1,8 @@
 ---
 title: Adicionar Domínios SIP Adicionais
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,16 +14,16 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ece37fc3-365a-439e-ad03-800f8e7a33eb
 ROBOTS: NOINDEX, NOFOLLOW
-description: Especifique o nome de domínio de cada domínio adicional para o qual você deseja dar suporte na sua implantação. Por exemplo, se você especificou contoso.net como o domínio de protocolo de início de sessão principal (SIP) e também deseja dar suporte a fabrikam.net para tráfego SIP na sua implantação, especifique fabrikam.net como um domínio adicional com suporte.
-ms.openlocfilehash: d92d20cf3df2aa54c169028708d00a1e438c5f4c
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: Especifique o nome de domínio de cada domínio adicional ao qual você deseja dar suporte em sua implantação. Por exemplo, se você especificou o contoso.net como o domínio sip primário e também deseja dar suporte ao fabrikam.net para tráfego SIP em sua implantação, especifique fabrikam.net como um domínio com suporte adicional.
+ms.openlocfilehash: 3df82f2a870d57aa6f6a0b5ada5391f649536dad
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41794440"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49819591"
 ---
 # <a name="add-additional-sip-domains"></a>Adicionar Domínios SIP Adicionais
  
-Especifique o nome de domínio de cada domínio adicional para o qual você deseja dar suporte na sua implantação. Por exemplo, se você especificou contoso.net como o domínio de protocolo de início de sessão principal (SIP) e também deseja dar suporte a fabrikam.net para tráfego SIP na sua implantação, especifique fabrikam.net como um domínio adicional com suporte.
+Especifique o nome de domínio de cada domínio adicional ao qual você deseja dar suporte em sua implantação. Por exemplo, se você especificou o contoso.net como o domínio sip primário e também deseja dar suporte ao fabrikam.net para tráfego SIP em sua implantação, especifique fabrikam.net como um domínio com suporte adicional.
   
 

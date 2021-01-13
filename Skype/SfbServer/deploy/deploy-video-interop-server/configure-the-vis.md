@@ -1,8 +1,8 @@
 ---
-title: Configurar o servidor de interoperabilidade de vídeo no Skype for Business Server
+title: Configurar o Servidor de Interop de Vídeo no Skype for Business Server
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -12,53 +12,53 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 0fde142b-70b1-46c6-b1f9-f9d70115371d
-description: 'Resumo: Configure a função do servidor de interoperabilidade de vídeo (VIS) no Skype for Business Server.'
-ms.openlocfilehash: 2618a7829fde79bd63eb2c3c91dbe921530e3b04
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: 'Resumo: Configure a função de Servidor de Interop de Vídeo (VIS) no Skype for Business Server.'
+ms.openlocfilehash: 84ab821249ae388bc1ba0dc41cb980c90d4f0853
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41798058"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49820691"
 ---
-# <a name="configure-the-video-interop-server-in-skype-for-business-server"></a>Configurar o servidor de interoperabilidade de vídeo no Skype for Business Server
+# <a name="configure-the-video-interop-server-in-skype-for-business-server"></a>Configurar o Servidor de Interop de Vídeo no Skype for Business Server
  
-**Resumo:** Configurar a função servidor de interoperabilidade de vídeo (VIS) no Skype for Business Server.
+**Resumo:** Configure a função de Servidor de Interop de Vídeo (VIS) no Skype for Business Server.
   
- Defina as configurações que o VIS associará aos troncos de vídeo usando o Windows PowerShell. Uma configuração de tronco de vídeo com escopo global é criada assim que o serviço VIS é instalado. Esta configuração de vídeo é aplicada pelo VIS a todos os troncos que não têm uma configuração de tronco com um escopo mais específico. Observe que a configuração do tronco de vídeo é uma coleção de configurações que pode ser aplicada a troncos de vídeo.
+ Definir as configurações que o VIS associará aos troncos de vídeo usando o Windows PowerShell. Uma configuração de tronco de vídeo com escopo global é criada depois que o serviço VIS é instalado. Essa configuração de tronco de vídeo é aplicada pelo VIS a todos os troncos que não têm configuração de tronco de vídeo com um escopo mais específico. Observe que a configuração do tronco de vídeo é uma coleção de configurações aplicáveis a troncos de vídeo.
   
 ## <a name="configure-video-trunk-and-dial-plan"></a>Configurar tronco de vídeo e plano de discagem
 
-Use os seguintes comandos do Windows PowerShell para especificar a configuração de tronco de vídeo e o plano de discagem a serem associados ao (s) tronco (s) recém-definido (s) definidos no documento de topologia entre o VIS e todos os gateways de vídeo. Todas essas configurações podem ser definidas nos níveis de serviço (Gateway de Vídeo), de site ou global. 
+Use os seguintes comandos do Windows PowerShell para especificar a configuração do tronco de vídeo e o plano de discagem a serem associados aos troncos recentemente definidos no Documento de Topologia entre o VIS e todos os Gateways de Vídeo. Todas essas configurações podem ser definidas nos níveis global, de site ou de serviço (Gateway de Vídeo). 
   
-Um plano de discagem com escopo global é criado pela implantação do Skype for Business Server. Esse plano de discagem é aplicado pelo VIS a todos os troncos que não têm nenhum plano de discagem com escopo mais específico. 
+Um plano de discagem com escopo global é criado por implantação do Skype for Business Server. Esse plano de discagem é aplicado pelo VIS a todos os troncos que não têm nenhum plano de discagem com escopo mais específico. 
   
 ### <a name="configure-the-vis-using-windows-powershell"></a>Configurar o VIS usando o Windows PowerShell
 
-1. Crie uma nova configuração de tronco de vídeo (um conjunto de configurações) para usar no tronco entre o VIS e o Gerenciador de comunicações unificadas da Cisco (CallManager ou CUCM), usando o seguinte cmdlet do Windows PowerShell:
+1. Crie uma nova configuração de tronco de vídeo (uma coleção de configurações) a ser usada no tronco entre o VIS e o Cisco Unified Communications Manager (CallManager ou CUCM), usando o seguinte cmdlet do Windows PowerShell:
     
    ```powershell
    New-CsVideoTrunkConfiguration -Identity "Service:VideoGateway:CUCMVIS1.CUCMInterop.contoso.com" -GatewaySendsRtcpForActiveCalls $false -GatewaySendsRtcpForCallsOnHold $false -EnableMediaEncryptionForSipOverTls $true(or $false)
    ```
 
-    Se houver um tronco de vídeo existente que precisa ser modificado, use o seguinte cmdlet do Windows PowerShell:
+    Se houver um tronco de vídeo existente que precise ser modificado, use o seguinte cmdlet do Windows PowerShell:
     
    ```powershell
    Set-CsVideoTrunkConfiguration -Identity "Service:VideoGateway:CUCMVIS1.CUCMInterop.contoso.com" -GatewaySendsRtcpForActiveCalls $false -GatewaySendsRtcpForCallsOnHold $false -EnableMediaEncryptionForSipOverTls  $true(or $false)
    ```
 
-    Para exibir as configurações associadas a uma configuração de tronco de vídeo específica, use o seguinte cmdlet do Windows PowerShell:
+    Para exibir as configurações associadas a uma determinada configuração de tronco de vídeo, use o seguinte cmdlet do Windows PowerShell:
     
    ```powershell
    Get-CsVideoTrunkConfiguration -Identity "Service:VideoGateway:CUCMVIS1.CUCMInterop.contoso.com"
    ```
 
-    Para remover uma configuração de tronco de vídeo específica, use o seguinte cmdlet do Windows PowerShell (Observe que a configuração de troncos de vídeo globalmente em escopo será aplicada se não houver uma configuração de tronco de vídeo com o escopo mais especificamente para um tronco específico):
+    Para remover uma determinada configuração de tronco de vídeo, use o seguinte cmdlet do Windows PowerShell (observe que a configuração de tronco de vídeo com escopo global será aplicada se não houver uma configuração de tronco de vídeo com escopo mais especificamente para um tronco específico):
     
    ```powershell
    Remove-CsVideoTrunkConfiguration -Identity "Service:VideoGateway:CUCMVIS1.CUCMInterop.contoso.com"
    ```
 
-2. Estabeleça um plano de discagem para associar ao tronco usando os seguintes cmdlets do Windows PowerShell:
+2. Estabeleça um plano de discagem para associar ao tronco, usando os seguintes cmdlets do Windows PowerShell:
     
    ```powershell
    New-CsDialPlan -Identity "Service:VideoGateway:CUCMVIS1.CUCMInterop.contoso.com" -SimpleName "TrunkTestDialPlan" 
@@ -67,24 +67,24 @@ Um plano de discagem com escopo global é criado pela implantação do Skype for
    Remove-CsVoiceNormalizationRule -Identity  "Service:VideoGateway:CUCMVIS1.CUCMInterop.contoso.com/Keep All"
    ```
 
-O comando **Remove-CsVoiceNormalizationRule** é necessário para substituir uma regra padrão que interfira com a interação esperada entre VIS e CUCM.
+O **comando Remove-CsVoiceNormalizationRule** é necessário para substituir uma regra padrão que interferirá na interação esperada do VIS e do CUCM.
 > [!NOTE]
 > [Remove-CsDialPlan](https://docs.microsoft.com/powershell/module/skype/remove-csdialplan?view=skype-ps) pode ser usado para remover um plano de discagem.
   
-Para uma chamada de tronco SIP de vídeo de um gateway de vídeo cujo URI de solicitação contém um número que não seja E. 164, VIS lerá o nome do plano de discagem associado ao tronco associado e incluirá o nome do plano de discagem na parte de contexto do telefone do URI de solicitação no convite que o VI S envia para o front-end. O Aplicativo de Conversão no Front-End extrai e aplica as regras de normalização associadas ao plano plano de discagem ao URI de Solicitação.
+Para uma chamada de Tronco SIP de vídeo de um Gateway de Vídeo cujo URI de Solicitação contém um número não E.164, o VIS lerá o nome do plano de discagem associado ao tronco associado e incluirá o nome do plano de discagem na parte de contexto de telefone do URI da Solicitação no Convite que o VIS envia para o Front-End. O Aplicativo de Tradução no Front End, em seguida, extrai e aplica as regras de normalização associadas ao plano de discagem para o URI de Solicitação.
 ## <a name="trunk-configuration-options"></a>Opções de configuração de tronco
 
-Os cmdlets do Windows PowerShell para configuração de troncos de vídeo mencionados anteriormente eram novos no Skype for Business Server 2015. As configurações associadas ao tronco de vídeo demandam uma breve explicação.
+Os cmdlets do Windows PowerShell para configuração de tronco de vídeo mencionados anteriormente eram novos no Skype for Business Server 2015. As configurações associadas à configuração do tronco de vídeo exigem uma breve explicação.
   
- **GatewaySendsRtcpForActiveCalls** Esse parâmetro determina se os pacotes RTCP são enviados do VTC para o VIS para chamadas ativas. Nesse contexto, uma chamada ativa é aquela na qual a mídia tem permissão para fluir em pelo menos uma direção. Se GatewaySendsRtcpForActiveCalls estiver configurado como Verdadeiro, o VIS poderá encerrar uma chamada se não receber pacotes RTCP dento de um intervalo acima de 30 segundos. O padrão é **Verdadeiro**.
+ **GatewaySendsRtcpForActiveCalls** Este parâmetro determina se os pacotes RTCP são enviados do VTC para o VIS para chamadas ativas. Nesse contexto, uma chamada ativa é uma chamada na qual a mídia pode partir em pelo menos uma direção. Se GatewaySendsRtcpForActiveCalls for definido como True, o VIS poderá encerrar uma chamada se não receber pacotes RTCP por um período superior a 30 segundos. O padrão é **True**.
   
- **GatewaySendsRtcpForCallsOnHold** Esse parâmetro determina se os pacotes RTCP continuam a ser enviados pelo tronco para chamadas que foram colocadas em espera, e que nenhum pacote de mídia deve fluir em qualquer direção. O VIS poderá encerrar a chamada se não houver nenhum pacote RTCP fluindo do VTC para o VIS enquanto a chamada está em espera. O padrão é **Verdadeiro**. Quando o protocolo SIPTransport é configurado para TCP, essa configuração é ignorada.
+ **GatewaySendsRtcpForCallsOnHold** Este parâmetro determina se os pacotes RTCP continuarão a ser enviados através do tronco para chamadas que foram colocadas em espera e nenhum pacote de mídia deverá fluir em qualquer direção. O VIS pode encerrar a chamada se não houver nenhum pacote RTCP fluindo do VTC para o VIS enquanto a chamada está em espera. O padrão é **True**. Quando o protocolo SIPTransport é definido como TCP, essa configuração é ignorada.
   
- **EnableMediaEncryptionForSipOverTls** Esse parâmetro habilita ou desabilita o SRTP para mídia quando o protocolo SIPTransport é definido como TLS. O padrão é **Verdadeiro**. Quando o protocolo SIPTransport é configurado para TCP, essa configuração é ignorada.
+ **EnableMediaEncryptionForSipOverTls** Esse parâmetro habilita ou desabilita o SRTP para mídia quando o protocolo SIPTransport é definido como TLS. O padrão é **True**. Quando o protocolo SIPTransport é definido como TCP, essa configuração é ignorada.
   
- **EnableSessionTimer** Esse parâmetro habilita ou desabilita os temporizadores de sessão no lado VIS para cada caixa de diálogo SIP associada ao tronco SIP de vídeo. A padrão é **Falso**.
+ **EnableSessionTimer** Esse parâmetro habilita ou desabilita temporizadores de sessão no lado do VIS para cada caixa de diálogo SIP associada ao tronco SIP de vídeo. O padrão é **False**.
   
- **ForwardErrorCorrectionType** Esse parâmetro é usado para determinar se a aplicação de correção de erros de encaminhamento (FEC) para fluxos de vídeo deve ser aplicada no trecho entre o servidor de interoperabilidade de vídeo e um gateway de vídeo. A configuração de ForwardErrorCorrectionType como "nenhum" desativa o FEC entre VIS e o gateway de vídeo/VTC. A configuração de ForwardErrorCorrectionType para "Cisco" habilita a FEC compatível com gateways de vídeo pela Cisco, como o Gerenciador de comunicações unificadas da Cisco (CUCM). O padrão é **Nenhum**.
+ **ForwardErrorCorrectionType** Esse parâmetro é usado para determinar se a Correção de Erro de Encaminhamento (FEC) para fluxos de vídeo deve ser aplicada no trecho entre o Servidor de Interop de Vídeo e um Gateway de Vídeo. A definição de ForwardErrorCorrectionType como "None" desliga o FEC entre o VIS e o Gateway de Vídeo/VTC. A definição de ForwardErrorCorrectionType como "Cisco" habilita o FEC compatível com gateways de vídeo pela Cisco, como o Cisco Unified Communications Manager (CUCM). O padrão é **Nenhum**.
   
 ## <a name="see-also"></a>Confira também
 
