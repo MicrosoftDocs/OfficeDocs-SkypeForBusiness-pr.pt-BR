@@ -1,8 +1,8 @@
 ---
 title: tblEnumValue
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -12,42 +12,42 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: a33df20c-d19d-4f5c-b012-29dab8fb9200
-description: tblEnumValue é uma tabela codificada que contém os valores de visibilidade e comportamento dos atributos usados na tabela de nós.
-ms.openlocfilehash: accb9cb4801984bd4b3839cd44e5b7feb8d06baa
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: A tabela tblEnumValue é uma tabela embutida em código que contém os valores de Visibilidade e Comportamento dos atributos usados na tabela Nó.
+ms.openlocfilehash: a13bfbe79d1eb118f0727f390816a26d35a508d0
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41814599"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49816021"
 ---
 # <a name="tblenumvalue"></a>tblEnumValue
  
-tblEnumValue é uma tabela codificada que contém os valores de visibilidade e comportamento dos atributos usados na tabela de nós.
+A tabela tblEnumValue é uma tabela embutida em código que contém os valores de Visibilidade e Comportamento dos atributos usados na tabela Nó.
   
-**Colunas**
+**Columns**
 
 |**Coluna**|**Tipo**|**Descrição**|
 |:-----|:-----|:-----|
-|valueid  <br/> |smallint, não nulo  <br/> |ID do valor.  <br/> |
+|valueID  <br/> |smallint, não nulo  <br/> |ID do valor.  <br/> |
 |attributeID  <br/> |smallint, não nulo  <br/> |ID do atributo.  <br/> |
-|atributovalue  <br/> |nvarchar (256), NOT NULL  <br/> |Nome do valor.  <br/> |
+|attributeValue  <br/> |nvarchar (256), não nulo  <br/> |Nome do valor.  <br/> |
    
-**As**
+**Teclas**
 
 |**Coluna**|**Descrição**|
 |:-----|:-----|
-|valueid  <br/> |Chave primária.  <br/> |
-|attributeID  <br/> |Chave estrangeira com pesquisa na tabela tblEnumAttribute. attributeID.  <br/> |
+|valueID  <br/> |Chave primária.  <br/> |
+|attributeID  <br/> |Chave estrangeira com pesquisa na tabela tblEnumAttribute.attributeID.  <br/> |
    
 **Valores da tabela**
 
-|**valueid**|**attributeID**|**atributovalue**|
+|**valueID**|**attributeID**|**attributeValue**|
 |:-----|:-----|:-----|
-|2  <br/> |1  <br/> |private  <br/> |
-|3  <br/> |1  <br/> |com  <br/> |
-|4  <br/> |2  <br/> |Normalmente  <br/> |
-|5  <br/> |2  <br/> |auditorium  <br/> |
-|6  <br/> |1  <br/> |abriu  <br/> |
+|2   <br/> |1   <br/> |private  <br/> |
+|3   <br/> |1   <br/> |escopo  <br/> |
+|4   <br/> |2   <br/> |normal  <br/> |
+|5   <br/> |2   <br/> |auditório  <br/> |
+|6   <br/> |1   <br/> |abrir  <br/> |
    
 ## <a name="see-also"></a>Confira também
 

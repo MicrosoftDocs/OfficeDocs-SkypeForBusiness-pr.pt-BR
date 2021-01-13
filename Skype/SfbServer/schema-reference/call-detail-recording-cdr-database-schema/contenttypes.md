@@ -1,8 +1,8 @@
 ---
 title: Tabela ContentTypes no Skype for Business Server 2015
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -12,21 +12,21 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: e3e38035-457c-4173-bdb9-d53a7420eba2
-description: A tabela ContentTypes é uma tabela de suporte que armazena uma lista dos tipos de conteúdo usados em sessões ponto a ponto e em sessões de conferência. Cada registro na tabela representa um tipo de conteúdo.
-ms.openlocfilehash: 6dadf7de0107005cca751e27f0c0250bc8f9f03a
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: A tabela ContentTypes é uma tabela de suporte que armazena uma lista dos tipos de conteúdo usados em sessões ponto a ponto e sessões de conferência. Cada registro na tabela representa um tipo de conteúdo.
+ms.openlocfilehash: 461631c8fc824a23f0e4b22b65a3cbc8cf6a2c73
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41815299"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49816081"
 ---
 # <a name="contenttypes-table-in-skype-for-business-server-2015"></a>Tabela ContentTypes no Skype for Business Server 2015
  
-A tabela ContentTypes é uma tabela de suporte que armazena uma lista dos tipos de conteúdo usados em sessões ponto a ponto e em sessões de conferência. Cada registro na tabela representa um tipo de conteúdo.
+A tabela ContentTypes é uma tabela de suporte que armazena uma lista dos tipos de conteúdo usados em sessões ponto a ponto e sessões de conferência. Cada registro na tabela representa um tipo de conteúdo.
   
-|**Coluna**|**Tipo de dados**|**Chave/índice**|**Detalhes**|
+|**Coluna**|**Tipo de dados**|**Chave/Índice**|**Detalhes**|
 |:-----|:-----|:-----|:-----|
-|**ContentTypeid** <br/> |int  <br/> |Primária  <br/> |Número exclusivo que identifica o tipo de conteúdo.  <br/> |
+|**ContentTypeId** <br/> |int  <br/> |Primário  <br/> |Número exclusivo que identifica o tipo de conteúdo.  <br/> |
 |**ContentType** <br/> |nvarchar(256)  <br/> ||Nome do tipo de conteúdo.  <br/> |
    
 

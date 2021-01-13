@@ -1,8 +1,8 @@
 ---
-title: Gerenciando o controle de admissão de chamadas para sites
+title: Gerenciando o controle de admissão de chamada para sites
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -10,93 +10,93 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: Sites de rede são os escritórios ou locais em cada região de rede do controle de admissão de chamadas (CAC), E9-1-1 e implantações de bypass de mídia.
-ms.openlocfilehash: ec2a3dda70bdd4b952169ca663ca271b76f98481
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Os sites de rede são os escritórios ou locais em cada região de rede do controle de admissão de chamadas (CAC), E9-1-1 e implantações de bypass de mídia.
+ms.openlocfilehash: dbe02c78c40cab48a79d7c63d3c6239b4ae59458
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41817510"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49816451"
 ---
-# <a name="managing-call-admission-control-for-sites-in-skype-for-business-server"></a>Gerenciar o controle de admissão de chamadas para sites no Skype for Business Server
+# <a name="managing-call-admission-control-for-sites-in-skype-for-business-server"></a>Gerenciando o controle de admissão de chamadas para sites no Skype for Business Server
 
-Sites de rede são os escritórios ou locais em cada região de rede do controle de admissão de chamadas (CAC), E9-1-1 e implantações de bypass de mídia. Use os procedimentos deste artigo para configurar o controle de admissão de chamadas para sites de rede.
+Os sites de rede são os escritórios ou locais em cada região de rede do controle de admissão de chamadas (CAC), E9-1-1 e implantações de bypass de mídia. Use os procedimentos neste artigo para configurar o controle de admissão de chamada para sites de rede.
 
-## <a name="configure-network-site-links"></a>Configurar links de sites de rede
+## <a name="configure-network-site-links"></a>Configurar links de site de rede
 
-Em uma configuração de controle de admissão de chamadas (CAC), você pode criar políticas entre sites de rede que definem as limitações de largura de banda entre sites vinculados diretamente. Quando os sites de rede compartilham um link direto, as limitações de largura de banda para conexões de áudio e vídeo podem ser definidas entre esses dois sites. Você não pode usar o painel de controle do Skype for Business Server para configurar políticas de site de rede, isso pode ser feito somente usando cmdlets do Shell de gerenciamento do Skype for Business Server. Você pode criar, modificar e remover um link de site de rede (também conhecido como política entre sites de rede) do Shell de gerenciamento do Skype for Business Server.
+Em uma configuração de controle de admissão de chamada, você pode criar políticas entre locais de rede que definem as limitações de largura de banda entre os locais que estejam diretamente vinculados. Quando os locais de uma rede compartilham um link direto, é possível definir limitações de largura de banda às conexões audiovisuais entre esses dois locais. Não é possível usar o Painel de Controle do Skype for Business Server para configurar políticas de site de rede, isso só pode ser feito usando cmdlets do Shell de Gerenciamento do Skype for Business Server. Você pode criar, modificar e remover um link de site de rede (também conhecido como política entre sites de rede) do Shell de Gerenciamento do Skype for Business Server.
 
 ### <a name="to-create-a-network-site-link"></a>Para criar um link de site de rede
 
-1.  Faça logon no computador em que o Shell de gerenciamento do Skype for Business Server está instalado como membro do grupo RTCUniversalServerAdmins ou com os direitos de usuário necessários.
+1.  Faça logoff no computador em que o Shell de Gerenciamento do Skype for Business Server está instalado como membro do grupo RTCUniversalServerAdmins ou com os direitos de usuário necessários.
 
-2.  Inicie o Shell de gerenciamento do Skype for Business Server: clique em **Iniciar**, clique em **todos os programas**, clique em **Skype for Business Server**e, em seguida, clique em **Shell de gerenciamento do Skype for Business Server**.
+2.  Inicie o Shell de Gerenciamento do Skype for Business Server: Clique em **Iniciar,** Em Todos os **Programas,** no **Skype for Business Server** e, em seguida, clique no Shell de Gerenciamento do Skype for Business **Server.**
 
-3.  No prompt de comando, digite o comando a seguir, substituindo os valores válidos para a sua configuração:
+3.  No prompt de comando, digite o seguinte comando, substituindo os valores que são válidos para a sua configuração:
     
         New-CsNetworkInterSitePolicy -Identity Reno_Portland -NetworkSiteID1 Reno -NetworkSiteID2 Portland -BWPolicyProfileID LowBWLimits
     
-    Este exemplo cria um novo link de site de rede\_chamado Reno Portland que define as limitações de largura de banda entre os sites de rede Reno e Portland. Os sites de rede e o perfil da política de largura de banda já devem existir antes de executar este comando.
+    Este exemplo cria um novo link de site de rede chamado Reno Portland que define limitações de largura de banda entre os sites de rede Reno e \_ Portland. Os sites de rede e o perfil da política de largura de banda já devem existir antes de executar este comando.
 
-Para obter descrições de parâmetros detalhadas, consulte [New-CsNetworkInterSitePolicy](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkInterSitePolicy). Para recuperar uma lista de perfis de política de largura de banda que podem ser aplicados ao link de site de rede, chame o cmdlet **Get-CsNetworkBandwidthPolicyProfile** . Para obter detalhes, consulte [Get-CsNetworkBandwidthPolicyProfile](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkBandwidthPolicyProfile).
+Para descrições detalhadas dos parâmetros, consulte [New-CsNetworkInterSitePolicy](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkInterSitePolicy). Para recuperar uma lista de perfis de políticas de largura de banda que podem ser aplicada ao link de site de rede, chame o cmdlet de **Get-CsNetworkBandwidthPolicyProfile**. Para obter detalhes, [consulte Get-CsNetworkBandwidthPolicyProfile](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkBandwidthPolicyProfile).
 
 ### <a name="to-modify-a-network-site-link"></a>Para modificar um link de site de rede
 
-1.  Faça logon no computador em que o Shell de gerenciamento do Skype for Business Server está instalado como membro do grupo RTCUniversalServerAdmins ou com os direitos de usuário necessários.
+1.  Faça logoff no computador em que o Shell de Gerenciamento do Skype for Business Server está instalado como membro do grupo RTCUniversalServerAdmins ou com os direitos de usuário necessários.
 
-2.  Inicie o Shell de gerenciamento do Skype for Business Server: clique em **Iniciar**, clique em **todos os programas**, clique em **Skype for Business Server**e, em seguida, clique em **Shell de gerenciamento do Skype for Business Server**.
+2.  Inicie o Shell de Gerenciamento do Skype for Business Server: Clique em **Iniciar,** Em Todos os **Programas,** no **Skype for Business Server** e, em seguida, clique no Shell de Gerenciamento do Skype for Business **Server.**
 
-3.  Use o cmdlet **set-CsNetworkInterSitePolicy** para modificar as propriedades de um determinado link de site de rede. Você pode modificar um (ou ambos) ou os sites conectados, e pode modificar o perfil da política de largura de banda associado ao link. Aqui está um exemplo de modificação do perfil da política de largura de banda de um\_link de site chamado Reno Portland:
+3.  Use o cmdlet **Set-CsNetworkInterSitePolicy** para modificar as propriedades de um link de site de rede fornecido. Você pode modificar um (ou ambos) dos sites conectados e modificar o perfil da política de largura de banda associado ao link. Aqui está um exemplo de modificação do perfil de política de largura de banda de um link de site chamado Reno \_ Portland:
     
         Set-CsNetworkInterSitePolicy -Identity Reno_Portland -BWPolicyProfileID HighBWLimits
 
-Para obter descrições de parâmetros detalhadas, consulte [set-CsNetworkInterSitePolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsNetworkInterSitePolicy).
+Para descrições detalhadas de parâmetros, consulte [Set-CsNetworkInterSitePolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsNetworkInterSitePolicy).
 
 
 ### <a name="to-delete-a-network-site-link"></a>Para excluir um link de site de rede
 
-1.  Faça logon no computador em que o Shell de gerenciamento do Skype for Business Server está instalado como membro do grupo RTCUniversalServerAdmins ou com os direitos de usuário necessários.
+1.  Faça logoff no computador em que o Shell de Gerenciamento do Skype for Business Server está instalado como membro do grupo RTCUniversalServerAdmins ou com os direitos de usuário necessários.
 
-2.  Inicie o Shell de gerenciamento do Skype for Business Server: clique em **Iniciar**, clique em **todos os programas**, clique em **Skype for Business Server**e, em seguida, clique em **Shell de gerenciamento do Skype for Business Server**.
+2.  Inicie o Shell de Gerenciamento do Skype for Business Server: Clique em **Iniciar,** Em Todos os **Programas,** no **Skype for Business Server** e, em seguida, clique no Shell de Gerenciamento do Skype for Business **Server.**
 
-3.  Use o cmdlet **Remove-CsNetworkInterSitePolicy** para remover um link de site de rede. O exemplo a seguir exclui o\_link de site de rede de Portland Reno:
+3.  Use o cmdlet **Remove-CsNetworkInterSitePolicy** para remover um link de site de rede. O exemplo a seguir exclui o link de site de rede Reno \_ Portland:
     
         Remove-CsNetworkInterSitePolicy -Identity Reno_Portland
 
-Para obter descrições de parâmetros detalhadas, consulte [Remove-CsNetworkInterSitePolicy](https://docs.microsoft.com/powershell/module/skype/Remove-CsNetworkInterSitePolicy).
+Para descrições detalhadas de parâmetros, [consulte Remove-CsNetworkInterSitePolicy](https://docs.microsoft.com/powershell/module/skype/Remove-CsNetworkInterSitePolicy).
 
 
-## <a name="view-network-site-information"></a>Exibir informações do site de rede
+## <a name="view-network-site-information"></a>Exibir informações de site de rede
 
-Sites de rede são os escritórios ou locais configurados em cada região de um controle de admissão de chamadas (CAC) ou implantação 9-1-1 aprimorada. Você pode exibir as informações do site de rede no painel de controle do Skype for Business Server ou no Shell de gerenciamento do Skype for Business Server. 
+Sites da rede são os escritórios ou locais configurados em cada região de um CAC (controle de admissão de chamadas) ou implantação do 9-1-1 Avançado. Você pode exibir informações do site de rede no Painel de Controle do Skype for Business Server ou no Shell de Gerenciamento do Skype for Business Server. 
 
-### <a name="to-view-network-site-information-in-skype-for-business-server-control-panel"></a>Para ver as informações do site de rede no painel de controle do Skype for Business Server
+### <a name="to-view-network-site-information-in-skype-for-business-server-control-panel"></a>Para exibir informações do site de rede no Painel de Controle do Skype for Business Server
 
-1.  Usando uma conta de usuário que é membro do grupo RTCUniversalServerAdmins (ou tem direitos de usuário equivalentes), ou está atribuída à função CsAdministrator, faça logon em qualquer computador de sua implantação interna.
+1.  Em uma conta de usuário que seja membro do grupo RTCUniversalServerAdmins (ou que tenha direitos de usuário equivalentes) ou que tenha a função CsAdministrator atribuída, faça logon em qualquer computador em sua implantação interna.
 
-2.  Abra uma janela do navegador e, em seguida, insira a URL de administração para abrir o painel de controle do Skype for Business Server. 
+2.  Abra uma janela do navegador e insira a URL do Administrador para abrir o Painel de Controle do Skype for Business Server. 
 
-3.  Na barra de navegação à esquerda, clique em **configuração de rede**e, em seguida, clique em **site**.
+3.  Na barra de navegação esquerda, clique em **Configuração de** Rede e em **Site.**
 
-4.  Na página do **site** , clique no site que você deseja exibir.
+4.  Na página **Local**, clique no local que deseja exibir.
  
     > [!NOTE]  
-    > Você só pode exibir informações de um site de cada vez.
+    > É possível exibir apenas informações de um local por vez.
 
 5.  No menu **Editar**, clique em **Exibir detalhes**.
 
 
-### <a name="viewing-network-site-information-by-using-windows-powershell-cmdlets"></a>Exibir informações do site de rede usando cmdlets do Windows PowerShell
+### <a name="viewing-network-site-information-by-using-windows-powershell-cmdlets"></a>Exibindo informações de site de rede usando cmdlets do Windows PowerShell
 
-Você pode exibir informações do site de rede usando o Windows PowerShell e o cmdlet Get-CsNetworkSite. Esse cmdlet pode ser executado no Shell de gerenciamento do Skype for Business Server ou em uma sessão remota do Windows PowerShell. 
+Você pode exibir informações do site de rede usando o Windows PowerShell e o Get-CsNetworkSite cmdlet. Esse cmdlet pode ser executado a partir do Shell de Gerenciamento do Skype for Business Server ou de uma sessão remota do Windows PowerShell. 
 
-### <a name="to-view-network-site-information"></a>Para ver as informações do site de rede
+### <a name="to-view-network-site-information"></a>Para exibir a informação do local de rede
 
-  - Para ver informações sobre todos os seus sites de rede, digite o seguinte comando no Shell de gerenciamento do Skype for Business Server e pressione ENTER:
+  - Para exibir informações sobre todos os seus sites de rede, digite o seguinte comando no Shell de Gerenciamento do Skype for Business Server e pressione ENTER:
     
         Get-CsNetworkSite
     
-    Isso retornará informações parecidas com:
+    Isto retorna informações semelhantes à seguinte:
     
         Identity          : Redmond
         NetworkSiteID     : Redmond
@@ -106,91 +106,91 @@ Você pode exibir informações do site de rede usando o Windows PowerShell e o 
         BWPolicyProfileID :
         LocationPolicy    :
 
-Para obter mais informações, consulte o tópico da ajuda para o cmdlet [Get-CsNetworkSite](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkSite) .
+Para obter mais informações, consulte o tópico de ajuda para o cmdlet [Get-CsNetworkSite](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkSite).
 
 
 ## <a name="create-or-modify-network-sites"></a>Criar ou modificar sites de rede 
 
-Sites de rede são os escritórios ou locais configurados em cada região de um controle de admissão de chamadas (CAC) ou implantação 9-1-1 aprimorada. Você pode usar o painel de controle do Skype for Business Server para configurar sites e associá-los a regiões. Por exemplo, uma região de rede para a América do Norte pode estar associada a sites de redes como Chicago, Redmond e Vancouver. Um site de rede do CAC deve ser criado para cada site dentro de uma organização, mesmo que esse site não tenha limitações de largura de banda. No painel de controle do Skype for Business Server, você pode criar, modificar e excluir sites de rede. Use os procedimentos a seguir para criar ou modificar um site de rede. 
+Sites da rede são os escritórios ou locais configurados em cada região de um CAC (controle de admissão de chamadas) ou implantação do 9-1-1 Avançado. Você pode usar o Painel de Controle do Skype for Business Server para configurar sites e associá-los a regiões. Por exemplo, uma região de rede da América do Norte pode ser associada a sites da rede, como Chicago, Redmond e Vancouver. Um site da rede do CAC deve ser criado para cada site da organização, mesmo que esse site não tenha limitações de largura de banda. No Painel de Controle do Skype for Business Server, você pode criar, modificar e excluir sites de rede. Use os procedimentos a seguir para criar ou modificar um site da rede. 
 
-### <a name="to-create-a-network-site"></a>Para criar um site de rede
+### <a name="to-create-a-network-site"></a>Para criar um local de rede
 
-1.  Usando uma conta de usuário que é membro do grupo RTCUniversalServerAdmins (ou tem direitos de usuário equivalentes), ou está atribuída à função CsAdministrator, faça logon em qualquer computador de sua implantação interna.
+1.  Em uma conta de usuário que seja membro do grupo RTCUniversalServerAdmins (ou que tenha direitos de usuário equivalentes) ou que tenha a função CsAdministrator atribuída, faça logon em qualquer computador em sua implantação interna.
 
-2.  Abra uma janela do navegador e, em seguida, insira a URL de administração para abrir o painel de controle do Skype for Business Server. 
+2.  Abra uma janela do navegador e insira a URL do Administrador para abrir o Painel de Controle do Skype for Business Server. 
 
-3.  Na barra de navegação à esquerda, clique em **configuração de rede**e, em seguida, clique em **site**.
+3.  Na barra de navegação esquerda, clique em **Configuração de** Rede e em **Site.**
 
-4.  Na página do **site** , clique em **novo**.
+4.  Na página **Local**, clique em **Novo**.
 
-5.  Em **novo site**, digite um nome para este site no campo **nome** .
+5.  Em **Novo Local**, digite um nome para este local no campo **Nome**.
 
     > [!NOTE]  
-    > Os nomes dos sites devem ser exclusivos na implantação do Skype for Business Server.
+    > Os nomes de site devem ser exclusivos na implantação do Skype for Business Server.
 
-6.  Na lista suspensa **região** , selecione uma região de rede para associar a este site.
+6.  Na lista suspensa **Região**, selecione uma região da rede para associar a este local.
 
-7.  Adicionais Se você quiser colocar as limitações de largura de banda em chamadas de áudio ou vídeo para este site, selecione o perfil da política de largura de banda com as configurações apropriadas na lista suspensa **política de largura de banda** .
+7.  (Opcional) Se deseja impor limitações de largura de banda em chamadas de áudio ou vídeo para este local, selecione o perfil da política da largura de banda com as configurações apropriadas na lista suspensa **Política da largura de banda**.
  
     > [!NOTE]  
-    > Você pode exibir os detalhes dos perfis da política de largura de banda disponíveis ou criar um novo perfil de política de largura de banda na página **Profil da política** do grupo **configuração de rede** . Para obter detalhes, consulte [Gerenciando perfis da política de largura de banda de rede](managing-network-bandwidth-policy-profiles.md).
+    > Você pode exibir os detalhes dos perfis de política de largura de banda disponíveis ou criar um novo perfil de política de largura de banda na página **Profil** de Política do grupo **Configuração de** Rede. Para obter detalhes, consulte [Gerenciando perfis de política de largura de banda de rede.](managing-network-bandwidth-policy-profiles.md)
 
-8.  Adicionais Se você quiser fornecer configurações de localização para este site, selecione uma política de localização na lista suspensa **política de localização** .
-
-    > [!NOTE]  
-    > A política de localização atribui configurações de localização avançada de 9-1-1 (E9-1-1) e de cliente de cliente (-1-1) específicas ao site. Você pode exibir os detalhes das políticas de localização disponíveis ou criar uma nova política de localização, na página **política de localização** do grupo de **configuração de rede** . 
-
-9.  Adicionais Digite um valor no campo **Descrição** para fornecer mais informações sobre esse site que não pode ser expresso apenas pelo nome.
-
-10. Clique em **Confirmar**.
+8.  (Opcional) Se deseja fornecer configurações de localização para esse local, selecione uma política de localização na lista suspensa **Política de localização**.
 
     > [!NOTE]  
-    > Você não usa a tabela de **sub-redes associadas** quando cria um novo site de rede. Você associa uma sub-rede a um site quando cria ou modifica a sub-rede. Para obter detalhes, consulte [Gerenciando sub-redes de rede](managing-network-subnets.md).
+    > A política de localização atribui configurações específicas de 9-1-1 Aprimorado (E9-1-1) e de localização do cliente ao local. Você pode ver os detalhes das políticas de localização disponíveis ou criar uma política nova na página **Política de localização** do grupo **Configuração de Rede**. 
 
-### <a name="to-modify-a-network-site"></a>Para modificar um site de rede
+9.  (Opcional) Digite um valor no campo **Descrição** para fornecer mais informações sobre esse local, que não podem ser expressadas apenas pelo nome.
 
-1.  Usando uma conta de usuário que é membro do grupo RTCUniversalServerAdmins (ou tem direitos de usuário equivalentes), ou está atribuída à função CsAdministrator, faça logon em qualquer computador de sua implantação interna.
+10. Clique em **Comprometer**.
 
-2.  Abra uma janela do navegador e, em seguida, insira a URL de administração para abrir o painel de controle do Skype for Business Server. 
+    > [!NOTE]  
+    > Você não usa a tabela **Sub-redes Associadas** ao criar um novo local de rede. Você associa a sub-rede ao local quando criá-la ou modificá-la. Para obter detalhes, consulte [Gerenciando sub-redes de rede.](managing-network-subnets.md)
 
-3.  Na barra de navegação à esquerda, clique em **configuração de rede**e, em seguida, clique em **site**.
+### <a name="to-modify-a-network-site"></a>Para modificar um local de rede
 
-4.  Na página do **site** , clique no site que você deseja modificar.
+1.  Em uma conta de usuário que seja membro do grupo RTCUniversalServerAdmins (ou que tenha direitos de usuário equivalentes) ou que tenha a função CsAdministrator atribuída, faça logon em qualquer computador em sua implantação interna.
 
-5.  No menu **Editar**, clique em **Exibir detalhes**.
+2.  Abra uma janela do navegador e insira a URL do Administrador para abrir o Painel de Controle do Skype for Business Server. 
 
-6.  Na página **Editar site** , você pode modificar a descrição, a região, o perfil da política de largura de banda e a política de localização associada ao site. Para obter detalhes, consulte [criar um site de rede](#to-create-a-network-site) acima.
+3.  Na barra de navegação esquerda, clique em **Configuração de** Rede e em **Site.**
 
-7.  Clique em **Confirmar**.
+4.  Na página **Local**, clique no local que deseja modificar.
 
-Não é possível modificar a tabela de **sub-redes associadas** nesta página. A lista de sub-redes associadas é fornecida para referência para que você saiba quais são as sub-redes que serão afetadas quando você modificar as configurações do site.
+5.  No painel **Ações**, clique em **Mostrar detalhes**.
+
+6.  Na página **Editar Local**, você pode modificar a descrição, região, perfil da política da largura de banda e política de localização associados ao novo local. Para obter detalhes, [consulte Para criar um site de rede](#to-create-a-network-site) acima.
+
+7.  Clique em **Comprometer**.
+
+Você não pode modificar a tabela **Sub-redes Associadas** nesta página. A lista de sub-redes associadas é fornecida para referência, para que você saiba quais sub-redes serão afetadas quando você modificar as configurações do local.
 
 
 ## <a name="delete-an-existing-network-site"></a>Excluir um site de rede existente
 
-Sites de rede são os escritórios ou locais configurados em cada região de um controle de admissão de chamadas (CAC) ou implantação 9-1-1 aprimorada. Você pode usar o painel de controle do Skype for Business Server para configurar sites e associá-los a regiões. Por exemplo, uma região de rede para a América do Norte pode estar associada a sites de redes como Chicago, Redmond e Vancouver. Um site de rede do CAC deve ser criado para cada site dentro de uma organização, mesmo que esse site não tenha limitações de largura de banda. No painel de controle do Skype for Business Server, você pode criar, modificar e excluir sites de rede. Use o procedimento a seguir para excluir um site de rede existente. Para obter detalhes sobre como criar ou modificar sites de rede, consulte [Gerenciando o controle de admissão de chamadas para sites](managing-call-admission-control-for-sites.md).
+Sites da rede são os escritórios ou locais configurados em cada região de um CAC (controle de admissão de chamadas) ou implantação do 9-1-1 Avançado. Você pode usar o Painel de Controle do Skype for Business Server para configurar sites e associá-los a regiões. Por exemplo, uma região de rede da América do Norte pode ser associada a sites da rede, como Chicago, Redmond e Vancouver. Um site da rede do CAC deve ser criado para cada site da organização, mesmo que esse site não tenha limitações de largura de banda. No Painel de Controle do Skype for Business Server, você pode criar, modificar e excluir sites de rede. Use o seguinte procedimento para excluir um local de rede existente. Para obter detalhes sobre como criar ou modificar sites de rede, consulte [Gerenciando o controle de admissão de chamada para sites.](managing-call-admission-control-for-sites.md)
 
 
-### <a name="to-delete-a-network-site"></a>Para excluir um site de rede
+### <a name="to-delete-a-network-site"></a>Para excluir um local de rede
 
-1.  Usando uma conta de usuário que é membro do grupo RTCUniversalServerAdmins (ou tem direitos de usuário equivalentes), ou está atribuída à função CsAdministrator, faça logon em qualquer computador de sua implantação interna.
+1.  Em uma conta de usuário que seja membro do grupo RTCUniversalServerAdmins (ou que tenha direitos de usuário equivalentes) ou que tenha a função CsAdministrator atribuída, faça logon em qualquer computador em sua implantação interna.
 
-2.  Abra uma janela do navegador e, em seguida, insira a URL de administração para abrir o painel de controle do Skype for Business Server. 
+2.  Abra uma janela do navegador e insira a URL do Administrador para abrir o Painel de Controle do Skype for Business Server. 
 
-3.  Na barra de navegação à esquerda, clique em **configuração de rede**e, em seguida, clique em **site**.
+3.  Na barra de navegação esquerda, clique em **Configuração de** Rede e em **Site.**
 
-4.  Na página do **site** , clique no site que você deseja excluir.
+4.  Na página **Local**, clique no local que deseja excluir.
 
     > [!NOTE]  
-    > Você pode excluir mais de um site de cada vez. Para fazer isso, pressione CTRL e selecione vários sites enquanto mantém a tecla CTRL pressionada. Ou, para selecionar todos os sites, clique em **selecionar tudo** no menu **Editar** .
+    > Você pode excluir mais de um local de cada vez. Para fazer isso, pressione CTRL e selecione diversos locais mantendo a tecla pressionada. Ou então, para selecionar todos os locais, clique em **Selecionar Tudo** no menu **Editar**.
 
-5.  No menu **Editar** , clique em **excluir**.
+5.  No menu **Editar**, clique em **Excluir**.
 
 6.  Clique em **OK**.
     
 
     > [!WARNING]  
-    > Você não pode remover um site de rede se ele estiver associado a uma sub-rede de rede. Se você tentar remover um site associado a uma sub-rede, receberá uma mensagem de erro. Para ver se um site está associado a qualquer sub-rede, clique no site e, em seguida, clique em **Mostrar detalhes** no menu **Editar** .
+    > Você não poderá remover um local de rede se ele estiver associado a uma sub-rede. Se você tentar fazer isso, receberá uma mensagem de erro. Para ver se o local está associado a alguma sub-rede, clique no local e em **Mostrar detalhes** no menu **Editar**.
 
 
 ## <a name="see-also"></a>Confira também

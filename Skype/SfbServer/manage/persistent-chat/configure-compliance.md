@@ -1,8 +1,8 @@
 ---
-title: Configurar o serviço de Conformidade para o Servidor de Chat Persistente no Skype for Business Server 2015
+title: Configurar o serviço de Conformidade para Servidor de Chat Persistente no Skype for Business Server 2015
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 1/31/2018
 audience: ITPro
@@ -12,21 +12,21 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 24e36ea3-fb8a-45a4-b6b7-38c2e256b218
-description: 'Resumo: saiba como configurar o serviço de conformidade do servidor de chat persistente no Skype for Business Server 2015.'
-ms.openlocfilehash: f25df3e85112f91c1286c0be49c428c364acf018
-ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
+description: 'Resumo: Saiba como configurar o serviço de Conformidade do Servidor de Chat Persistente no Skype for Business Server 2015.'
+ms.openlocfilehash: ee7dbc3ad8e7eedcadcc60850e35b753c5fadb43
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "41887840"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49815061"
 ---
-# <a name="configure-the-compliance-service-for-persistent-chat-server-in-skype-for-business-server-2015"></a>Configurar o serviço de Conformidade para o Servidor de Chat Persistente no Skype for Business Server 2015
+# <a name="configure-the-compliance-service-for-persistent-chat-server-in-skype-for-business-server-2015"></a>Configurar o serviço de Conformidade para Servidor de Chat Persistente no Skype for Business Server 2015
 
-**Resumo:** Saiba como configurar o serviço de conformidade do servidor de chat persistente no Skype for Business Server 2015.
+**Resumo:** Saiba como configurar o serviço de Conformidade do Servidor de Chat Persistente no Skype for Business Server 2015.
 
-A conformidade de Chat Persistente permite que os administradores mantenham um um arquivo de mensagens de Chat Persistente, bem como de atividades. O serviço de conformidade registra e arquiva dados relacionados a cada conversa persistente do servidor de chat, incluindo quando um participante:
+A conformidade de Chat Persistente permite que os administradores mantenham um arquivo de mensagens de Chat Persistente, bem como atividades. O serviço de Conformidade registra e arquiva dados relacionados a cada conversa do Servidor de Chat Persistente, incluindo quando um participante:
 
-- Ingressa em uma sala de chat persistente
+- Entra em uma sala de Chat Persistente
 
 - Sai de uma sala de chat
 
@@ -38,14 +38,14 @@ A conformidade de Chat Persistente permite que os administradores mantenham um u
 
 - Baixa um arquivo
 
-Essas informações podem ser recuperadas do banco de dados SQL de Conformidade, se necessário. 
+Essas informações podem ser recuperadas do banco de dados SQL de Conformidade conforme necessário. 
 
 > [!NOTE]
-> O chat persistente está disponível no Skype for Business Server 2015, mas não é mais compatível com o Skype for Business Server 2019. A mesma funcionalidade está disponível no Microsoft Teams. Para obter mais informações, consulte [introdução à atualização do Microsoft Teams](/microsoftteams/upgrade-start-here). Se você precisar usar chats persistentes, suas opções serão migrar os usuários que exigem essa funcionalidade para o Microsoft Teams ou para continuar usando o Skype for Business Server 2015. 
+> O chat persistente está disponível no Skype for Business Server 2015, mas não é mais suportado no Skype for Business Server 2019. A mesma funcionalidade está disponível no Teams. Para saber mais, confira [Como começar a atualizar o Microsoft Teams.](/microsoftteams/upgrade-start-here) Se você precisar usar o chat persistente, suas opções são migrar os usuários que exigem essa funcionalidade para o Teams ou continuar usando o Skype for Business Server 2015. 
 
-## <a name="configure-the-compliance-service-by-using-windows-powershell"></a>Configure o serviço de Conformidade usando o Windows PowerShell
+## <a name="configure-the-compliance-service-by-using-windows-powershell"></a>Configurar o serviço de Conformidade usando o Windows PowerShell
 
-Depois que o serviço de Conformidade tiver sido habilitado usando o Construtor de Topologias, você pode configurar o serviço usando o cmdlet **Set-CsPersistenChatComplianceConfiguration**:
+Depois que o serviço de Conformidade tiver sido habilitado usando o Construtor de Topologias, você poderá configurar o serviço usando o cmdlet **Set-CsPersistenChatComplianceConfiguration:**
 
 ```PowerShell
 Set-CsPersistentChatComplianceConfiguration [-Identity <XdsIdentity>] <COMMON PARAMETERS>
@@ -59,45 +59,45 @@ Set-CsPersistentChatComplianceConfiguration [-Instance <PSObject>] <COMMON PARAM
 
 Você pode definir os seguintes parâmetros:
 
-- AdapterType - Permite que você especifique o tipo de adaptador. Um adaptador é um produto de terceiros que converte os dados no banco de dados de conformidade para um formato específico. XML é o padrão.
+- AdapterType - permite especificar o tipo de adaptador. Um adaptador é um produto de terceiros que converte os dados no banco de dados de conformidade para um formato específico. XML é o padrão.
 
-- OneChatRoomPerOutputFile-esse parâmetro permite especificar a criação de relatórios separados para cada sala de chat.
+- OneChatRoomPerOutputFile - Esse parâmetro permite especificar que relatórios separados sejam criados para cada sala de chat.
 
-- AddChatRoomDetails - Quanto habilitado, este parâmetro registra detalhes adicionais sobre cada sala de chat no banco de dados. Como esta configuração pode aumentar consideravelmente o tamanho do banco de dados, ela é desabilitada por padrão.
+- AddChatRoomDetails - Quando habilitado, esse parâmetro registra detalhes adicionais sobre cada sala de chat no banco de dados. Como essa configuração pode aumentar muito o tamanho do banco de dados, ela é desabilitada por padrão.
 
-- AddUserDetails - Quanto habilitado, este parâmetro registra detalhes adicionais sobre cada usuário na sala de chat no banco de dados. Como esta configuração pode aumentar consideravelmente o tamanho do banco de dados, ela é desabilitada por padrão.
+- AddUserDetails - Quando habilitado, esse parâmetro registra detalhes adicionais sobre cada usuário da sala de chat no banco de dados. Como essa configuração pode aumentar muito o tamanho do banco de dados, ela é desabilitada por padrão.
 
-- Identity - Este parâmetro permite que configurações de conformidade estejam dentro do escopo de uma coleção específica, incluindo níveis de serviço, de site e global. O padrão é o nível global. 
+- Identidade - Este parâmetro permite que as configurações de conformidade sejam escopos para uma coleção específica, incluindo os níveis global, de site e de serviço. O padrão é o nível global. 
 
-- RunInterval - Este parâmetro dita o intervalo de tempo antes de o servidor criar o próximo arquivo de saída de conformidade (o padrão é 15 minutos).
+- RunInterval - Esse parâmetro determina o período de tempo antes que o servidor crie o próximo arquivo de saída de conformidade (o padrão é 15 minutos).
 
-## <a name="use-a-customized-compliance-adapter"></a>Use um adaptador de conformidade personalizado
+## <a name="use-a-customized-compliance-adapter"></a>Usar um adaptador de conformidade personalizado
 
-Você pode escrever um adaptador personalizado em vez de usar o xmladapter que está instalado com o servidor de chat persistente. Para fazer isso, você deve fornecer um assembly do .NET Framework que contenha uma classe pública que implemente a interface do **IComplianceAdapter**. Você deve colocar esse assembly na pasta de instalação do servidor de chat persistente de cada servidor em seu pool de servidores de chat persistente. Qualquer um dos servidores de Conformidade podem fornecer dados de conformidade para seu adaptador, mas os servidores de conformidade não fornecerão dados de conformidade duplicados para várias instâncias do seu adaptador.
+Você pode escrever um adaptador personalizado em vez de usar o XmlAdapter instalado com o Servidor de Chat Persistente. Para realizar isso, você deve oferecer um assembly .NET Framework que contém uma classe pública que implementa a interface do **IComplianceAdapter**. Você deve colocar esse assembly na pasta de instalação do Servidor de Chat Persistente de cada servidor em seu pool de Servidor de Chat Persistente. Qualquer um dos servidores de Conformidade podem oferecer dados de conformidade para seu adaptador, mas os servidores de conformidade não oferecerão dados de conformidade duplicados para várias instâncias do seu adaptador.
 
-A interface é definida no assembly Compliance. dll no namespace `Microsoft.Rtc.Internal.Chat.Server.Compliance`. A interface define dois métodos que seu adaptador personalizado deve implementar.
+A interface é definida no Compliance.dll assembly no  `Microsoft.Rtc.Internal.Chat.Server.Compliance` namespace. A interface define dois métodos que seu adaptador personalizado deve implementar.
 
-O servidor de conformidade de chat persistente chamará o método a seguir quando o adaptador for carregado pela primeira vez. O `AdapterConfig` contém a configuração de conformidade de chat persistente que é relevante para o adaptador de conformidade:
+O servidor de Conformidade de Chat Persistente chamará o método a seguir quando o adaptador for carregado pela primeira vez. Contém  `AdapterConfig` a configuração de conformidade de Chat Persistente que é relevante para o adaptador de conformidade:
 
 ```cpp
 void SetConfig(AdapterConfig config)
 ```
 
-O servidor de conformidade de chat persistente chama o método a seguir em intervalos periódicos desde que haja novos dados a serem traduzidos. Esse intervalo de tempo é igual ao `RunInterval` definido na configuração de conformidade de chat persistente:
+O servidor de Conformidade de Chat Persistente chama o método a seguir em intervalos periódicos, desde que haja novos dados a traduzir. Esse intervalo de tempo é igual ao definido na configuração de  `RunInterval` Conformidade do Chat Persistente:
 
 ```cpp
 void Translate(ConversationCollection conversations)
 ```
 
-`ConversationCollection` Contém as informações de conversa que foram coletadas da última vez em que esse método foi chamado.
+Contém  `ConversationCollection` as informações de conversa que foram coletadas da última vez em que esse método foi chamado.
 
-## <a name="customize-the-xslt-definition-file"></a>Personalize o arquivo de definição do XSLT
+## <a name="customize-the-xslt-definition-file"></a>Personalizar o arquivo de definição XSLT
 
-Os dados de conformidade são entregues como XML, que você pode transformar no formato mais adequado para a sua organização usando um arquivo de definição XSLT. Este tópico descreve o arquivo XML que o serviço de Conformidade cria. Ele também fornece exemplos de arquivos de saída e definição XSLT.
+Os dados de conformidade são entregues como XML, que você pode transformar no formato que melhor se adapta à sua organização, usando um arquivo de definição XSLT. Este tópico descreve o arquivo XML que o serviço de Conformidade cria. Ele também fornece exemplos de arquivos de saída e definição XSLT.
 
 ### <a name="output-format"></a>Formato de saída
 
-A saída do serviço de Conformidade é categorizada por conversa (o elemento Conversation) e depois por mensagem (o elemento Messages), conforme mostrado no exemplo de código a seguir:
+A saída do serviço de Conformidade é categorizada por conversa (o elemento Conversation) e, em seguida, por mensagem (o elemento Messages), conforme mostrado no exemplo de código a seguir:
 
 ```XML
 <?xml version="1.0" encoding="utf-8" ?> 
@@ -114,7 +114,7 @@ A saída do serviço de Conformidade é categorizada por conversa (o elemento Co
 </Conversations>
 ```
 
-Um elemento Conversation contém quatro elementos (Channel, FirstMessage, StartTimeUTC e EndTimeUTC). O elemento Channel contém o Uniform Resource Identifier (URI) da sala de chat, e o elemento FirstMessage descreve a primeira mensagem no elemento Messages. Os elementos StartTimeUTC e EndTimeUTC fornecem os horários de início e término da conversa, conforme mostrado no exemplo de código a seguir:
+Um elemento Conversation contém quatro elementos (Channel, FirstMessage, StartTimeUTC e EndTimeUTC). O elemento Channel contém o URI (Uniform Resource Identifier) da sala de chat, e o elemento FirstMessage descreve a primeira mensagem no elemento Messages. Os elementos StartTimeUTC e EndTimeUTC fornecem os horários de início e término da conversa, conforme mostrado no exemplo de código a seguir:
 
 ```xml
 <FirstMessage type="JOIN" content="" id="0">
@@ -123,7 +123,7 @@ Um elemento Conversation contém quatro elementos (Channel, FirstMessage, StartT
 </FirstMessage>
 ```
 
-Um elemento Message contém dois elementos (Sender e DateTimeUTC) e três atributos (Type, Content e ID). O elemento Sender representa o usuário que envia a mensagem e o elemento DateTimeUTC representa quando ocorre um evento, conforme mostrado no exemplo de código a seguir:
+Um elemento Message contém dois elementos (Sender e DateTimeUTC) e três atributos (Type, Content e ID). O elemento Sender representa o usuário que envia a mensagem, e o elemento DateTimeUTC representa quando ocorre um evento, conforme mostrado no exemplo de código a seguir:
 
 ```xml
 <Message type="JOIN" content="" id="0">
@@ -148,15 +148,15 @@ Cada elemento Sender contém cinco atributos: nome de usuário, identificação,
 
 |**Atributo**|**Descrição**|**Opcional/Obrigatório**|
 |:-----|:-----|:-----|
-|Username  <br/> |O nome do remetente.  <br/> |Opcional  <br/> |
+|Nome de usuário  <br/> |O nome do remetente.  <br/> |Opcional  <br/> |
 |ID  <br/> |A ID exclusiva do remetente.  <br/> |Obrigatório  <br/> |
 |Email  <br/> |O endereço de email do remetente.  <br/> |Opcional  <br/> |
 |Interno  <br/> |Determina se o usuário é um usuário interno ou um usuário federado. Se o valor for definido como true, o usuário será interno.  <br/> |Opcional  <br/> |
-|Uri  <br/> |O URI SIP do usuário.  <br/> |Obrigatório  <br/> |
+|Uri  <br/> |O URI do SIP do usuário.  <br/> |Obrigatório  <br/> |
 
-Os exemplos a seguir mostram os tipos de mensagem que o elemento messages pode conter. Ela também fornece exemplos de como cada elemento é usado.
+Os exemplos a seguir mostram os tipos de mensagem que o elemento Messages pode conter. Ela também fornece exemplos de como cada elemento é usado.
 
-Ingressar-um usuário ingressa em uma sala de chat.
+Ingressar - Um usuário entra em uma sala de chat.
 
 ```xml
 <Message type="JOIN" content="" id="0">
@@ -165,7 +165,7 @@ Ingressar-um usuário ingressa em uma sala de chat.
 </Message
 ```
 
-Parte-um usuário deixa uma sala de chat.
+Parte - Um usuário sai de uma sala de chat.
 
 ```xml
 <Message type="PART" content="" id="0">
@@ -174,7 +174,7 @@ Parte-um usuário deixa uma sala de chat.
 </Message>
 ```
 
-Chat-o endereço de e-mail do remetente.
+Chat - O endereço de email do remetente.
 
 ```xml
 <Message type="CHAT" content="hello" id="1">
@@ -183,7 +183,7 @@ Chat-o endereço de e-mail do remetente.
 </Message>
 ```
 
-Backchat-um usuário solicita o conteúdo do histórico de chats.
+Backchat - Um usuário solicita conteúdo do histórico do chat.
 
 ```xml
 <Message type="BACKCHAT" content="backchatcontent" id="0">
@@ -192,7 +192,7 @@ Backchat-um usuário solicita o conteúdo do histórico de chats.
 </Message>
 ```
 
-Carregamento de arquivo – um usuário carrega um arquivo.
+Carregamento de arquivo - Um usuário carrega um arquivo.
 
 ```xml
 <Message type="FILEUPLOAD" content="0988239a-bb66-4616-90a4-b07771a2097c.txt" id="0">
@@ -201,7 +201,7 @@ Carregamento de arquivo – um usuário carrega um arquivo.
 </Message>
 ```
 
-Download de arquivo – um usuário baixa um arquivo.
+Download de arquivo - Um usuário baixa um arquivo.
 
 ```xml
 <Message type="FILEDOWNLOAD" content="006074ca-24f0-4b35-8bd8-98006a2d1aa8.txt" id="0">
@@ -210,7 +210,7 @@ Download de arquivo – um usuário baixa um arquivo.
 </Message>
 ```
 
-### <a name="default-persistent-chat-output-xsd-and-example-xsl-transform"></a>Saída do chat persistente padrão XSD e exemplo de transformação XSL
+### <a name="default-persistent-chat-output-xsd-and-example-xsl-transform"></a>XSD de saída de chat persistente padrão e exemplo de transformação XSL
 
 O exemplo de código a seguir contém a saída padrão do Servidor de Conformidade:
 
@@ -311,7 +311,7 @@ O exemplo de código a seguir contém a saída padrão do Servidor de Conformida
 </xs:schema>
 ```
 
-O exemplo de código a seguir contém um exemplo de transformação em XSL:
+O exemplo de código a seguir contém um exemplo de transformação XSL:
 
 ```xml
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" exclude-result-prefixes="xs">

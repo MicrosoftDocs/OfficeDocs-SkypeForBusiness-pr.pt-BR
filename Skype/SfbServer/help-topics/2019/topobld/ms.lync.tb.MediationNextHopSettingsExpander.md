@@ -1,8 +1,8 @@
 ---
 title: Expansor de Configurações de Próximo Salto de Mediação
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,18 +14,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 814f5b06-3e5a-4a39-804d-7f7d3fbee54d
 ROBOTS: NOINDEX, NOFOLLOW
-description: Você especifica o pool do servidor de mediação ou o servidor de mediação próximo nó, selecionando o pool de front-end Enterprise Edition definido ou o servidor front-end Standard Edition na lista suspensa. Um diretor ou um pool de diretor não é uma seleção válida para um pool do servidor de mediação ou servidor de mediação próximo salto e não aparecerá na lista. Clique em OK para aceitar e salvar as alterações. Clique em Cancelar para descartar suas alterações e sair da página de propriedades.
-ms.openlocfilehash: da8c5b3ffd3fe96f770539207595e28b52fa51aa
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: Você especifica o próximo salto do pool de Servidor de Mediação ou Servidor de Mediação selecionando o pool de Front-Ends Enterprise Edition, ou Servidor Front-Ends Standard Edition, definido a partir da lista suspensa. Um Diretor ou pool de Diretores não é uma seleção válida para um próximo salto de pool de Servidores de Mediação ou de Servidor de Mediação e não aparecerá na lista. Clique em OK para aceitar e salvar suas alterações. Clique em  Cancelar  para descartar suas alterações e sair da página de propriedades.
+ms.openlocfilehash: 4b6a219249ec8bea82a82999cc3cf14ce7f27d83
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41796230"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49815461"
 ---
 # <a name="mediation-next-hop-settings-expander"></a>Expansor de Configurações de Próximo Salto de Mediação
  
-Você especifica o pool do servidor de mediação ou o servidor de mediação próximo nó, selecionando o pool de front-end Enterprise Edition definido ou o servidor front-end Standard Edition na lista suspensa. Um diretor ou um pool de diretor não é uma seleção válida para um pool do servidor de mediação ou servidor de mediação próximo salto e não aparecerá na lista. Clique em **OK** para aceitar e salvar as alterações. Clique em **Cancelar** para descartar suas alterações e sair da página de propriedades.
+Você especifica o próximo salto do pool de Servidor de Mediação ou Servidor de Mediação selecionando o pool de Front-Ends Enterprise Edition, ou Servidor Front-Ends Standard Edition, definido a partir da lista suspensa. Um Diretor ou pool de Diretores não é uma seleção válida para um próximo salto de pool de Servidores de Mediação ou de Servidor de Mediação e não aparecerá na lista. Clique **em OK** para aceitar e salvar suas alterações. Clique em  **Cancelar** para descartar suas alterações e sair da página de propriedades.
   
-Para obter detalhes sobre as configurações do pool do servidor de mediação ou do servidor de mediação, consulte [implantar um servidor de mediação no construtor de topologias no Skype for Business Server](../../../deploy/deploy-enterprise-voice/deploy-a-mediation-server.md) na documentação de implantação.
+Para obter detalhes sobre as configurações para o pool de Servidor de Mediação ou Servidor de Mediação, consulte [Deploy a Mediation Server in Topology Builder in Skype for Business Server](../../../deploy/deploy-enterprise-voice/deploy-a-mediation-server.md) in the Deployment documentation.
   
 

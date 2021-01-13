@@ -1,8 +1,8 @@
 ---
 title: tblLastChatId
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -12,31 +12,31 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 17a4ffbe-cca9-4ec5-ae46-38a15274889a
-description: tblLastChatId contém a última ID de chat que foi gerada (e usada na tabela tblChat) para cada usuário.
-ms.openlocfilehash: 95498f077948e1b400d0a370762c121def703e8c
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: tblLastChatId inclui a última ID de chat que foi gerada (e usada na tabela tblChat) para cada usuário.
+ms.openlocfilehash: 80664d6b296fce9b4909674f9d21b1aa13285826
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41814579"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49816001"
 ---
 # <a name="tbllastchatid"></a>tblLastChatId
  
-tblLastChatId contém a última ID de chat que foi gerada (e usada na tabela tblChat) para cada usuário.
+tblLastChatId inclui a última ID de chat que foi gerada (e usada na tabela tblChat) para cada usuário.
   
-**Colunas**
+**Columns**
 
 |**Coluna**|**Tipo**|**Descrição**|
 |:-----|:-----|:-----|
-|NodeId  <br/> |int, não nulo  <br/> |ID do nó (somente sala de chat-tipo).  <br/> |
-|lastChatID  <br/> |bigint, e não nulo  <br/> |ID do Chat usado pela última vez.  <br/> |
+|nodeID  <br/> |int, não nulo  <br/> |ID de nó (apenas para tipo de sala de chat).  <br/> |
+|lastChatID  <br/> |bigint, não nulo  <br/> |Último ID de chat usado.  <br/> |
    
-**As**
+**Teclas**
 
 |**Coluna**|**Descrição**|
 |:-----|:-----|
-|\<NodeId, lastChatID\>  <br/> |Chave primária (apenas NodeId é suficiente para processamento).  <br/> |
-|NodeId  <br/> |Chave estrangeira com Lookup na tabela tblNode. NodeId.  <br/> |
+|\<nodeID, lastChatID\>  <br/> |Chave primária (apenas o nodeID é suficiente para o processamento).  <br/> |
+|nodeID  <br/> |Chave estrangeira com pesquisa na tabela tblNode.nodeID.  <br/> |
    
 ## <a name="see-also"></a>Confira também
 

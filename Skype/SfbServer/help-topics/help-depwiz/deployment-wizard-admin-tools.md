@@ -1,8 +1,8 @@
 ---
-title: Ferramentas de administração do assistente de implantação
+title: Ferramentas administrativas do Assistente de Implantação
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 2/8/2018
 audience: ITPro
@@ -14,16 +14,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ec6b9b09-2be0-45e7-b23c-f94b64839e65
-description: Para obter detalhes sobre como usar o assistente para implantação para instalar o Skype for Business Server 2015, confira instalar o Skype for Business Server 2015.
-ms.openlocfilehash: c99936a4ab9dbef0c8da5b079337f8323d6a18ef
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Para obter detalhes sobre como usar o Assistente de Implantação para instalar o Skype for Business Server 2015, consulte Install Skype for Business Server 2015.
+ms.openlocfilehash: 41b8130b3d49e7175b361495d170bab644304c13
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41823735"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49815451"
 ---
 # <a name="deployment-wizard-admin-tools"></a>Assistente de Implantação: Ferramentas de Administração
  
-Para obter detalhes sobre como usar o assistente para implantação para instalar o Skype for Business Server 2015, confira [instalar o Skype for Business server 2015](../../deploy/install/install.md).
+Para obter detalhes sobre como usar o Assistente de Implantação para instalar o Skype for Business Server 2015, consulte [Instalar o Skype for Business Server 2015.](../../deploy/install/install.md)
   
 

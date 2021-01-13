@@ -1,8 +1,8 @@
 ---
 title: Detalhes da tabela de QoE
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -12,17 +12,17 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: f10f0796-3c09-4cb8-bd0d-15f783835f03
-description: Essas seções detalham as colunas em cada uma das tabelas de esquema de banco de dados de qualidade da experiência (QoE).
-ms.openlocfilehash: a09e39bc0e942b68a0b53d6c8718ab8973d7ba7f
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Estas seções detalham as colunas em cada tabelas de esquema do banco de dados do QoE (Quality of Experience).
+ms.openlocfilehash: a7bb3324e1e2143f06a3f8c6bd910de55b9e202c
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41807189"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49815751"
 ---
 # <a name="qoe-table-details"></a>Detalhes da tabela de QoE
  
-Essas seções detalham as colunas em cada uma das tabelas de esquema de banco de dados de qualidade da experiência (QoE).
+Estas seções detalham as colunas em cada tabelas de esquema do banco de dados do QoE (Quality of Experience).
   
 - [Tabela AppliedBandwidthSource](appliedbandwidthsource.md)
     
@@ -38,15 +38,15 @@ Essas seções detalham as colunas em cada uma das tabelas de esquema de banco d
     
 - [Tabela CodecDescription](codecdescription.md)
     
-- [Tabela Conference](conference.md)
+- [Tabela conference](conference.md)
     
-- [Tabela Device](device.md)
+- [Tabela device](device.md)
     
 - [Tabela DeviceDriver](devicedriver.md)
     
 - [Tabela Dialog](dialog.md)
     
-- [Tabela Endpoint](endpoint.md)
+- [Tabela endpoint](endpoint.md)
     
 - [Tabela EndpointSubnet](endpointsubnet.md)
     
@@ -68,7 +68,7 @@ Essas seções detalham as colunas em cada uma das tabelas de esquema de banco d
     
 - [Tabela PurgeSettings (QoE)](purgesettings-qoe.md)
     
-- [Tabela de regiões](region.md)
+- [Tabela de região](region.md)
     
 - [Tabela Server](server.md)
     
@@ -76,9 +76,9 @@ Essas seções detalham as colunas em cada uma das tabelas de esquema de banco d
     
 - [Tabela SessionCorrelation](sessioncorrelation.md)
     
-- [Tabela Subnet](subnet.md)
+- [Tabela Sub-rede](subnet.md)
     
-- [Tabela de TraceRoute](traceroute.md)
+- [Tabela TraceRoute](traceroute.md)
     
 - [Tabela User](user-0.md)
     

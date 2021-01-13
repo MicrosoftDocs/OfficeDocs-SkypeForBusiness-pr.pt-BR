@@ -1,8 +1,8 @@
 ---
-title: Gerenciamento de recuperação de desastres, alta disponibilidade e serviço de backup
+title: Gerenciando recuperação de desastre, alta disponibilidade e Serviço de Backup
 ms.reviewer: ''
-author: lanachin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -10,35 +10,35 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: Saiba mais sobre os procedimentos para operações de recuperação de desastres, bem como para manter o serviço de backup, que sincroniza os dados em pools front-ends emparelhados.
-ms.openlocfilehash: bb8178b98d355159a92d7187884e5502912f4436
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Saiba mais sobre os procedimentos para operações de recuperação de desastres, bem como para manter o Serviço de Backup, que sincroniza os dados em pools de Front-End emparelhados.
+ms.openlocfilehash: e486a71203b64b4fc351888869ac64a24689ba7b
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41818332"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49817151"
 ---
-# <a name="managing-skype-for-business-server-disaster-recovery-high-availability-and-backup-service"></a>Gerenciamento de recuperação de desastres do Skype for Business Server, alta disponibilidade e serviço de backup
+# <a name="managing-skype-for-business-server-disaster-recovery-high-availability-and-backup-service"></a>Gerenciamento de recuperação de desastre, alta disponibilidade e Serviço de Backup do Skype for Business Server
 
-Esta seção contém procedimentos para operações de recuperação de desastres, bem como para manter o serviço de backup, que sincroniza os dados em pools front-ends emparelhados.
+Esta seção contém procedimentos para operações de recuperação de desastres, bem como para manter o Serviço de Backup, que sincroniza os dados em pools de Front-End emparelhados.
 
-Procedimentos de recuperação de desastre, failover e failback, são manuais. Se houver um desastre, o administrador deve invocar manualmente os procedimentos de failover. O mesmo se aplica a failback após o rereparo do pool.
+Os procedimentos de recuperação de desastres, o failover e o failback, são manuais. Se ocorrer um desastre, o administrador deve chamar manualmente os procedimentos de failover. O mesmo se aplica ao failback após a reparação do pool.
 
-Os procedimentos de recuperação de desastres nesta seção pressupõem o seguinte:
+Os procedimentos de recuperação de desastres nesta seção pressupom o seguinte:
 
-  - Você tem uma implantação com pools front-end emparelhados, localizada em sites diferentes, conforme descrito em [planejar a alta disponibilidade e a recuperação de desastres](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md). O serviço de backup está em execução nesses pools emparelhados para mantê-los sincronizados.
+  - Você tem uma implantação com pools de front-end emparelhados, localizados em sites diferentes, conforme descrito em Planejar alta [disponibilidade e recuperação de desastres.](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md) O Serviço de Backup é executado nestes pools emparelhados para mantê-los sincronizados.
 
-  - Se o repositório de gerenciamento central estiver hospedado em qualquer um dos pools, ele será instalado e executado em ambos os pools emparelhados, com um desses pools que hospeda o mestre ativo e o outro pool que hospeda o modo de espera.
+  - Se o armazenamento de Gerenciamento Central estiver hospedado em qualquer pool, ele será instalado e executado em ambos os pools emparelhados, com um desses pools hospedando o mestre ativo e o outro pool hospedando o modo de espera.
 
 > [!IMPORTANT]
-> Nos procedimentos a seguir, o parâmetro *PoolFQDN* refere-se ao FQDN do pool afetado pelo desastre, e não ao pool em que os usuários afetados estão sendo redirecionados. Para o mesmo conjunto de usuários afetados, ele se refere ao mesmo pool em cmdlets de failover e failback (ou seja, o pool que primeiro hospeda os usuários antes do failover).<BR><br>Por exemplo, suponha que um caso em que todos os usuários hospedados em um pool P1 tivessem falhado para o pool de backup, P2. Se o administrador quiser mover todos os usuários atualmente atendidos pelo P2 a serem atendidos pelo P1, o administrador deve executar as seguintes etapas: 
+> Nos procedimentos a seguir, o parâmetro *PoolFQDN* se refere ao FQDN do pool afetado pelo desastre, e não o pool para o qual os usuários afetados foram redirecionados. Para o mesmo conjunto de usuários afetados, ele se refere ao mesmo pool em ambos os cmdlets de failover e failback (ou seja, o pool que primeiramente hospedou os usuários antes do failover).<BR><br>Por exemplo, pressuponha um caso em que todos os usuários hospedados no pool P1 foram transferidos para o pool de backup, o P2. Se o administrador deseja mover todos os usuários que utilizam os serviços de P2 para utilizarem os serviços de P1, o administrador deve executar as seguintes etapas: 
 > <OL>
 > <LI>
-> <P>Faça o failback de todos os usuários originalmente hospedados no P1 do P2 para P1 usando o cmdlet failback. Nesse caso, o *PoolFQDN* é P1's FQDN.</P>
+> <P>Retorne do P2 para o P1 todos os usuários originalmente hospedados em P1 utilizando o cmdlet de failback. Nesse caso, *PoolFQDN* é o FQDN de P1.</P>
 > <LI>
-> <P>Fazer failover de todos os usuários originalmente hospedados no P2 do P1 usando o cmdlet de failover. Nesse caso, o PoolFQDN é P2's FQDN.</P>
+> <P>Transfira todos os usuários originalmente hospedados em P2 para o P1 utilizando o cmdlet de failover. Nesse caso, a propriedade PoolFQDN é o FQDN de P2.</P>
 > <LI>
-> <P>Se o administrador mais tarde quiser fazer failback desses usuários de P2 de volta para P2, o PoolFQDN será P2's FQDN.</P></LI></OL><br>Observe que a etapa 1 acima deve ser realizada antes da etapa 2 para preservar a integridade do pool. Se você tentar a etapa 2 antes da etapa 1, o cmdlet etapa 2 falhará.
+> <P>Se o administrador desejar retornar posteriormente os usuários para o P2, o PoolFQDN é o FQDN do P2.</P></LI></OL><br>Observe que a etapa 1 acima deve ser realizada antes da etapa 2 para preservar a integridade do pool. Se você executar a etapa 2 antes da etapa 1, o cmdlet da etapa 2 falhará.
 
 
 ## <a name="see-also"></a>Confira também

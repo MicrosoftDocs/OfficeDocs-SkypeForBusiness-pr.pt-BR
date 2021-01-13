@@ -1,8 +1,8 @@
 ---
-title: Relatório lista de falhas no Skype for Business Server
+title: Relatório de lista de falhas no Skype for Business Server
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,23 +11,23 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: b6f3a605-e0c6-461e-b17a-41d8039ace9d
-description: 'Resumo: Saiba mais sobre o relatório de lista de falhas no Skype for Business Server.'
-ms.openlocfilehash: 8d0ca503f1a7883ab9ec1dd4ded8556b2ee3ab0f
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 'Resumo: saiba mais sobre o Relatório de Lista de Falhas no Skype for Business Server.'
+ms.openlocfilehash: 48654ee827f0d7efcb50bcccc4e1d2f3fdb5422e
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41817941"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49816841"
 ---
-# <a name="failure-list-report-in-skype-for-business-server"></a>Relatório lista de falhas no Skype for Business Server 
+# <a name="failure-list-report-in-skype-for-business-server"></a>Relatório de lista de falhas no Skype for Business Server 
  
-**Resumo:** Saiba mais sobre o relatório lista de falhas no Skype for Business Server.
+**Resumo:** Saiba mais sobre o Relatório de Lista de Falhas no Skype for Business Server.
   
-O Relatório da lista de falhas fornece informações sobre os participantes individuais de uma sessão de conferência ou ponto a ponto com falha. Essas informações incluem o URI do usuário que teve o problema, bem como o código de resposta SIP e o ID de diagnóstico associado à falha.
+The Failure List report provides information about the individual participants who took part in a failed peer-to-peer or conferencing session. This information includes the URI of the user who experienced the problem, as well as the SIP Response code and Diagnostic ID associated with the failure.
   
-## <a name="accessing-the-failure-list-report"></a>Acessando o Relatório da lista de falhas
+## <a name="accessing-the-failure-list-report"></a>Accessing the Failure List Report
 
-O relatório lista de falhas é acessado clicando em qualquer uma das seguintes métricas no [relatório de distribuição de falha no Skype for Business Server](failure-distribution-report.md):
+O Relatório de Lista de Falhas é acessado clicando em qualquer uma das seguintes métricas no Relatório de Distribuição de [Falhas no Skype for Business Server:](failure-distribution-report.md)
   
 - Principais motivos diagnósticos (sessões)
     
@@ -39,28 +39,28 @@ O relatório lista de falhas é acessado clicando em qualquer uma das seguintes 
     
 - Principais componentes (sessões)
     
-- Principais usuários "De" (sessões)
+- Principais usuários de origem (sessões)
     
-- Principais usuários "Para" (sessões)
+- Principais usuários de destino (sessões)
     
-- Principais agentes do usuários "De" (sessões)
+- Principais agentes de usuários de origem (sessões)
     
-No relatório lista de falhas, você pode acessar o [relatório de detalhes da sessão ponto a ponto no Skype for Business Server](peer-to-peer-session-detail-report.md) clicando na métrica de detalhes da sessão de uma sessão ponto a ponto. Você também pode acessar o Relatório de detalhes da conferência clicando na métrica Conferência de uma conferência.
+No Relatório de Lista de Falhas, você pode acessar o Relatório Detalhado de Sessão Ponto a Ponto no [Skype for Business Server](peer-to-peer-session-detail-report.md) clicando na métrica De detalhe da sessão para uma sessão ponto a ponto. You can also access the Conference Detail Report by clicking the Conference metric for a conference.
   
-## <a name="making-the-best-use-of-the-failure-list-report"></a>Aprimorando o uso do Relatório da lista de falhas
+## <a name="making-the-best-use-of-the-failure-list-report"></a>Making the Best Use of the Failure List Report
 
-No Relatório da lista de falhas, é possível visualizar uma descrição para cada código de resposta ou cada ID de diagnóstico simplesmente passando o mouse sobre o valor em questão. Por exemplo, se você passar o mouse sobre o ID de diagnóstico 7025, verá a seguinte mensagem em uma dica de ferramenta:
+In the Failure List Report, you can view a description for each Response code or each Diagnostic ID simply by holding your mouse over that value. For example, if you hold your mouse over Diagnostic ID 7025 you'll see the following displayed in a tooltip:
   
 Internal server error creating media for user.
   
-É importante notar que o Relatório da lista de falhas não fornece uma maneira simples de recuperar diretamente uma lista de todos os usuários que participaram de pelo menos uma sessão com falha, nem fornece uma maneira de determinar quais usuários geralmente estavam envolvidos em uma sessão com falha. (Por um motivo, o relatório lista de falhas não tem funcionalidades de filtragem.) No entanto, se exportar os dados e convertê-los em um arquivo de valores separados por vírgula, você poderá usar o Windows PowerShell para encontrar as respostas a perguntas como essas. Por exemplo, suponha que você salve os dados em um arquivo .CSV chamado C:\Data\Failure_List.csv. Com base nos dados salvos nesse arquivo, esse comando lista os usuários que estavam envolvidos em pelo menos uma sessão com falha: 
+It's important to note that the Failure List Report does not provide a straightforward way to directly retrieve a list of all the users who participated in at least one failed session, nor does it provide a way to determine which users were most-often involved in a failed session. (For one thing, the Failure List Report has no filtering capabilities.) However, if you export the data and then convert it to a comma-separated values file, you can use Windows PowerShell to find the answers to questions like those. For example, suppose you save the data to a .CSV file named C:\Data\Failure_List.csv. Based on the data saved in that file, this command lists all the users who were involved in at least one failed session: 
   
 ```PowerShell
 $failures = Import-Csv -Path " C:\Data\Failure_List.csv"
 $failure |Sort-Object "From user" | Select-Object "From user" -Unique
 ```
 
-Esse comando retornará uma lista semelhante a esta:
+That command will return a list similar to this:
   
 <pre>
     From user
@@ -72,14 +72,14 @@ Esse comando retornará uma lista semelhante a esta:
     Ken.Myer@litwareinc.com
 </pre>
 
-Esses dois comandos relatam o número total de sessões com falha em que cada usuário estava envolvido:
+These two commands report back the total number of failed sessions that each user was involved in:
   
 ```PowerShell
 $failures = Import-Csv -Path "C:\Data\Failure_List.csv"
 $failures | Group-Object "From user" | Select-Object Count, Name | Sort-Object -Property Count -Descending
 ```
 
-Serão retornados dados semelhantes a estes:
+That will return data similar to this:
   
 <pre>
 Count    Name
@@ -95,21 +95,21 @@ Count    Name
 
 Nenhum. Não é possível filtrar o Relatório de Lista de Falhas.
   
-## <a name="metrics"></a>Métricas
+## <a name="metrics"></a>Métrica
 
 A tabela a seguir lista as informações fornecidas no Relatório de Lista de Falhas para cada chamada mal-sucedida.
   
 **Métricas do Relatório de Lista de Falhas**
 
-|**Nome**|**Você pode classificar este item?**|**Descrição**|
+|**Nome**|**É possível classificar este item?**|**Descrição**|
 |:-----|:-----|:-----|
-|**Hora de relatório** <br/> |Não  <br/> |Data e hora do registro do relatório.  <br/> |
+|**Hora de relatório** <br/> |Não  <br/> |Data e hora em que o relatório foi gravado.  <br/> |
 |**Solicitação** <br/> |Não  <br/> |Tipo de solicitação SIP que falhou. Por exemplo, CONVIDAR ou ATÉ LOGO.  <br/> |
 |**Código da resposta** <br/> |Não  <br/> |Código da resposta SIP enviado quando a conferência falhou.  <br/> |
-|**ID do Diagnóstico** <br/> |Não  <br/> |Identificador exclusivo (na forma de um cabeçalho de diagnóstico-ms) anexado a uma mensagem SIP que fornece informações úteis sobre os erros de solução de problemas.  <br/> |
-|**Join cost time (ms)** <br/> |Não  <br/> |Tempo (em milissegundos) necessário para o usuário participar da conferência.  <br/> |
-|**Usuário "De"** <br/> |Não  <br/> |Endereço SIP do usuário que iniciou a chamada.  <br/> |
-|**Agente do usuário de origem** <br/> |Não  <br/> |Software usado pelo ponto de extremidade do usuário que iniciou a chamada.  <br/> |
-|**Usuário "Para"** <br/> |Não  <br/> |Endereço SIP do usuário que estava recebendo a chamada.  <br/> |
+|**ID do Diagnóstico** <br/> |Não  <br/> |Identificador exclusivo (na forma de um cabeçalho ms-diagnostics) anexado a uma mensagem SIP que frequentemente fornece informações úteis para solução de erros.  <br/> |
+|**Join cost time (ms)** <br/> |Não  <br/> |Amount of time (in milliseconds) required for the user to join the conference.  <br/> |
+|**Do usuário** <br/> |Não  <br/> |Endereço SIP do usuário que iniciou a chamada.  <br/> |
+|**Representante do usuário de origem** <br/> |Não  <br/> |Software usado pelo ponto de extremidade do usuário que iniciou a chamada.  <br/> |
+|**Para usuário** <br/> |Não  <br/> |Endereço SIP do usuário que estava recebendo a chamada.  <br/> |
    
 

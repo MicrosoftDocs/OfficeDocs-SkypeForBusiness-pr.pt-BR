@@ -1,8 +1,8 @@
 ---
-title: Relatório de diagnóstico no Skype for Business Server
+title: Relatório de Diagnóstico no Skype for Business Server
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,17 +11,17 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: b389dbd9-f2e8-4184-93d0-2e504796ac16
-description: 'Resumo: Saiba mais sobre o relatório de diagnóstico no Skype for Business Server.'
-ms.openlocfilehash: f1a8d9a0c027019708f2be75fec14634197c4e2b
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+description: 'Resumo: saiba mais sobre o Relatório de Diagnóstico no Skype for Business Server.'
+ms.openlocfilehash: 89639c0c00081fa4dd01211cc33074585061ff57
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42041988"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49816891"
 ---
-# <a name="diagnostic-report-in-skype-for-business-server"></a>Relatório de diagnóstico no Skype for Business Server
+# <a name="diagnostic-report-in-skype-for-business-server"></a>Relatório de Diagnóstico no Skype for Business Server
  
-**Resumo:** Saiba mais sobre o relatório de diagnóstico no Skype for Business Server.
+**Resumo:** Saiba mais sobre o Relatório de Diagnóstico no Skype for Business Server.
   
 O Relatório de diagnóstico fornece diagnósticos e informações para a solução de problemas de uma sessão com falha. Essas informações incluem a ID de diagnóstico e o cabeçalho de Diagnóstico que foram importados quando a sessão falhou. A ID de diagnóstico é um identificador exclusivo (na forma de um cabeçalho ms-diagnostics) que é anexado a uma mensagem SIP, enquanto a cabeçalho de Diagnóstico fornece uma descrição da ID de diagnóstico. O relatório também pode conter detalhes importantes para a solução de problemas e que são conhecidos pelo componente de relatório. Por exemplo:
   
@@ -33,13 +33,13 @@ O Relatório de diagnóstico fornece diagnósticos e informações para a soluç
     
 ## <a name="accessing-the-diagnostic-report"></a>Acessando o relatório de diagnósticos
 
-O relatório de diagnóstico pode ser acessado clicando na métrica relatório de diagnóstico (detalhe) no [relatório de detalhes de sessão ponto a ponto no Skype for Business Server](peer-to-peer-session-detail-report.md) ou no relatório de detalhes da conferência.
+O Relatório de Diagnóstico pode ser acessado clicando na métrica Relatório de Diagnóstico (Detalhe) no Relatório de Detalhes de Sessão Ponto a Ponto no [Skype for Business Server](peer-to-peer-session-detail-report.md) ou no Relatório detalhado de conferências.
   
 ## <a name="filters"></a>Filtros
 
 Nenhum. Não é possível filtrar o Relatório de Diagnóstico.
   
-## <a name="metrics"></a>Métricas
+## <a name="metrics"></a>Métrica
 
 A tabela a seguir lista as informações fornecidas no Relatório de Diagnóstico para cada sessão.
   
@@ -55,11 +55,11 @@ A tabela a seguir lista as informações fornecidas no Relatório de Diagnóstic
 |**Representante do usuário de origem** <br/> |Não  <br/> |Software usado pelo ponto de extremidade do usuário que iniciou a sessão.  <br/> |
 |**ID do Diagnóstico** <br/> |Não  <br/> |Identificador exclusivo (no formato de um cabeçalho ms-diagnostics) anexado a uma mensagem SIP que frequentemente oferece informações úteis para resolução de erros.  <br/> |
 |**Tipo de conteúdo** <br/> |Não  <br/> |Tipo de conteúdo de mídia que falhou. Por exemplo, um tipo de conteúdo comum é Application/sdp. SDP (Protocolo de descrição de sessão) é um protocolo padrão de Internet usado para anúncios de sessão, convites de sessão e outras formas de início de sessão multimídia.  <br/> |
-|**Application** <br/> |Não  <br/> |Aplicativo envolvido no erro.  <br/> |
+|**Aplicativo** <br/> |Não  <br/> |Aplicativo envolvido no erro.  <br/> |
 |**URI do usuário de destino** <br/> |Não  <br/> |Endereço SIP do usuário convidado para a sessão.  <br/> |
 |**Hora de ingresso de conferência (ms)** <br/> |Não  <br/> |Tempo (em milissegundos) que o usuário precisou para ingressar na conferência.  <br/> |
 |**Cabeçalho do diagnóstico** <br/> |Não  <br/> |Descrição do ID de diagnóstico.  <br/> |
    
-Uma lista de erros de diagnóstico pode ser encontrada na [página de cabeçalho MS-Diagnostics](https://msdn.microsoft.com/library/gg132446%28v=office.12%29.aspx).
+Uma lista de erros de diagnóstico pode ser encontrada na [página Ms-Diagnostics Header](https://msdn.microsoft.com/library/gg132446%28v=office.12%29.aspx).
   
 

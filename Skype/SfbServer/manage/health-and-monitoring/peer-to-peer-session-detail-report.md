@@ -1,8 +1,8 @@
 ---
 title: Relatório detalhado de sessão ponto a ponto no Skype for Business Server
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,17 +11,17 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 6be1d676-68f7-4a53-a72a-de73296c5571
-description: 'Resumo: Saiba mais sobre o relatório de detalhes da sessão ponto a ponto no Skype for Business Server.'
-ms.openlocfilehash: 4c6b05e6e4e4110a43c21dbdbbc7f190ecae98ac
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 'Resumo: saiba mais sobre o Relatório Detalhado de Sessão Ponto a Ponto no Skype for Business Server.'
+ms.openlocfilehash: 4dfa2b87b1fbba72282b52fa2ca58ca0f1e70630
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41817770"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49816761"
 ---
 # <a name="peer-to-peer-session-detail-report-in-skype-for-business-server"></a>Relatório detalhado de sessão ponto a ponto no Skype for Business Server
  
-**Resumo:** Saiba mais sobre o relatório detalhe da sessão ponto a ponto no Skype for Business Server.
+**Resumo:** Saiba mais sobre o Relatório Detalhado de Sessão Ponto a Ponto no Skype for Business Server.
   
 O Relatório Detalhado de Sessão Ponto a Ponto retorna informações detalhadas sobre uma sessão ponto a ponto. Por exemplo, se você selecionar uma sessão de mensagens instantâneas, o relatório informará o número de mensagens enviadas por cada um dos dois usuários na seção.
   
@@ -35,13 +35,13 @@ O Relatório Detalhado de Sessão Ponto a Ponto pode ser acessado a partir de qu
     
 - Relatório de Controle de Admissão de Chamadas
     
-- Relatório de lista de falhas 
+- Relatório de Lista de Falhas 
     
-No relatório de detalhes da sessão ponto a ponto, você pode acessar o [relatório de diagnóstico no Skype for Business Server](diagnostic-report.md) clicando na métrica relatório de diagnóstico (detalhes). Você também pode acessar o Relatório das Principais Falhas clicando em uma destas duas métricas:
+No Relatório Detalhado de Sessão Ponto a Ponto, você pode acessar o Relatório de Diagnóstico no [Skype for Business Server](diagnostic-report.md) clicando na métrica Relatório de Diagnóstico (Detalhes). Você também pode acessar o Relatório das Principais Falhas clicando em uma destas duas métricas:
   
 - Resposta
     
-- ID do Diagnóstico
+- ID de diagnóstico
     
 ## <a name="making-the-best-use-of-the-peer-to-peer-session-detail-report"></a>Usando o Relatório Detalhado de Sessão Ponto a Ponto da melhor maneira possível
 
@@ -65,22 +65,22 @@ A tabela a seguir lista as informações fornecidas no relatório de Detalhes de
 |:-----|:-----|
 |**FQDN do pool** <br/> |Nome de domínio totalmente qualificado (FQDN) do pool de Registradores ou Servidor de Borda envolvido na sessão.  <br/> |
 |**Hora do convite** <br/> |Data e hora em que o convite de sessão foi originalmente enviado.  <br/> |
-|**Hora da resposta** <br/> |Data e hora de recebimento da aceitação do convite.  <br/> |
-|**Usuário "De"** <br/> |Endereço SIP do usuário que iniciou a sessão.  <br/> |
-|**Agente do usuário "De"** <br/> |Software usado pelo ponto de extremidade do usuário que iniciou a sessão.  <br/> |
-|**É usuário "De" interno** <br/> |Indica se o usuário que iniciou a sessão estava conectado à rede interna.  <br/> |
-|**É usuário "De" integrado com telefone de mesa** <br/> |Indica se o ponto de extremidade usado pelo usuário que iniciou a sessão está integrado ao seu telefone de mesa.  <br/> |
+|**Hora da resposta** <br/> |Data e hora em que a aceitação do convite foi recebida.  <br/> |
+|**Do usuário** <br/> |Endereço SIP do usuário que iniciou a sessão.  <br/> |
+|**Do agente usuário** <br/> |Software usado pelo ponto de extremidade do usuário que iniciou a sessão.  <br/> |
+|**É Usuário interno de origem** <br/> |Indica se o usuário que iniciou a sessão estava conectado à rede interna.  <br/> |
+|**É Usuário de origem integrado ao telefone de mesa** <br/> |Indica se o ponto de extremidade usado pelo usuário que iniciou a sessão está integrado ao seu telefone de mesa.  <br/> |
 |**Prioridade da Sessão** <br/> |Prioridade atribuída à sessão. As prioridades válidas são: Desconhecida; Não Urgente; Normal; Urgente; e Emergência.  <br/> |
-|**Código da resposta** <br/> |Código da resposta SIP enviado quando a sessão falhou.  <br/> |
-|**Front-End** <br/> |Nome do Servidor Front-End usado na conferência.  <br/> |
+|**Código de resposta** <br/> |Código de resposta SIP enviado quando a sessão falhou.  <br/> |
+|**Front-End**. <br/> |Nome do Servidor Front-End usado na conferência.  <br/> |
 |**Hora da captura** <br/> |Data e hora em que a sessão de informações foi gravada.  <br/> |
 |**Hora final** <br/> |Data e hora em que a sessão foi encerrada.  <br/> |
-|**Usuário "Para"** <br/> |Endereço SIP do usuário convidado para a sessão.  <br/> |
-|**Agente do usuário "Para"** <br/> |Software usado pelo ponto de extremidade do usuário que foi convidado para a sessão.  <br/> |
-|**É usuário "Para" interno** <br/> |Indica se o usuário que foi convidado para a sessão estava conectado à rede interna.  <br/> |
-|**É usuário "Para" integrado com telefone de mesa** <br/> |Indica se o ponto de extremidade usado pelo usuário que foi convidado para a sessão está integrado ao seu telefone de mesa.  <br/> |
+|**Para o usuário** <br/> |Endereço SIP do usuário que foi convidado para a sessão.  <br/> |
+|**Para o agente do usuário** <br/> |Software usado pelo ponto de extremidade do usuário que foi convidado para a sessão.  <br/> |
+|**É Usuário interno de destino** <br/> |Indica se o usuário que foi convidado para a sessão estava conectado à rede interna.  <br/> |
+|**É Usuário de destino integrado ao telefone de mesa** <br/> |Indica se o ponto de extremidade usado pelo usuário que foi convidado para a sessão está integrado ao seu telefone de mesa.  <br/> |
 |**É sessão repetida** <br/> |Indica se a sessão é uma tentativa para repetir uma sessão que falhou anteriormente.  <br/> |
-|**ID do Diagnóstico** <br/> |Identificador exclusivo (no formato de um cabeçalho ms-diagnostics) anexado a uma mensagem SIP que frequentemente oferece informações úteis para resolução de erros. Mantenha o mouse sobre o número de identificação para exibir informações adicionais sobre essa identificação.  <br/> |
+|**ID de diagnóstico** <br/> |Identificador exclusivo (no formato de um cabeçalho ms-diagnostics) anexado a uma mensagem SIP que frequentemente oferece informações úteis para resolução de erros. Mantenha o mouse sobre o número de identificação para exibir informações adicionais sobre essa identificação.  <br/> |
    
 ## <a name="metrics-for-modalities"></a>Métricas para modalidades
 
@@ -88,25 +88,25 @@ A tabela a seguir lista as informações fornecidas no relatório de Detalhes de
   
 **Métricas para modalidades**
 
-|**Nome**|**Você pode classificar este item?**|**Descrição**|
+|**Nome**|**É possível classificar este item?**|**Descrição**|
 |:-----|:-----|:-----|
 |**Modalidades** <br/> |Não  <br/> |Modalidades usadas na sessão. Por exemplo, mensagens instantâneas ou transferência de arquivo.  <br/> |
-|**Mensagens do usuário "De"** <br/> |Não  <br/> |Número de mensagens enviadas pelo usuário que iniciou a sessão.  <br/> |
-|**Mensagens do usuário "Para"** <br/> |Não  <br/> |Número de mensagens enviadas pelo usuário que foi convidado para a sessão.  <br/> |
+|**Mensagens do usuário de origem** <br/> |Não  <br/> |Número de mensagens enviadas pelo usuário que iniciou a sessão.  <br/> |
+|**Mensagens do usuário de destino** <br/> |Não  <br/> |Número de mensagens enviadas pelo usuário que foi convidado para a sessão.  <br/> |
    
 ## <a name="metrics-for-diagnostic-reports"></a>Métricas para relatórios de diagnóstico
 
 A tabela a seguir lista as informações fornecidas no relatório de Detalhes de Sessão Ponto a Ponto para cada relatório de diagnóstico.
   
-**Métricas para Relatórios de Diagnóstico**
+**Métricas para relatórios de diagnóstico**
 
-|**Nome**|**Você pode classificar este item?**|**Descrição**|
+|**Nome**|**É possível classificar este item?**|**Descrição**|
 |:-----|:-----|:-----|
-|**Detalhe** <br/> |Não  <br/> |Quando você clica nesse item, o relatório mostra o Relatório de Diagnóstico da sessão.  <br/> |
-|**Hora do relatório** <br/> |Não  <br/> |Data e hora do registro do relatório.  <br/> |
+|**Ver os detalhes** <br/> |Não  <br/> |Quando você clica nesse item, o relatório mostra o Relatório de Diagnóstico da sessão.  <br/> |
+|**Hora do relatório** <br/> |Não  <br/> |Data e hora em que o relatório foi gravado.  <br/> |
 |**Solicitação** <br/> |Não  <br/> |Tipo de solicitação SIP. Por exemplo, INVITE ou BYE.  <br/> |
-|**ID do Diagnóstico** <br/> |Não  <br/> |Identificador exclusivo (na forma de um cabeçalho de diagnóstico-ms) anexado a uma mensagem SIP que fornece informações úteis sobre os erros de solução de problemas.  <br/> |
-|**Tipo de conteúdo** <br/> |Não  <br/> |Tipo de conteúdo de mídia usado na conferência. Por exemplo, um tipo de conteúdo comum é Application/sdp. O protocolo SDP é um protocolo padrão de Internet usado para comunicados de sessão, convites de sessão e outras formas de início de sessão multimídia.  <br/> |
+|**ID de diagnóstico** <br/> |Não  <br/> |Identificador exclusivo (no formato de um cabeçalho ms-diagnostics) anexado a uma mensagem SIP que frequentemente oferece informações úteis para resolução de erros.  <br/> |
+|**Tipo de conteúdo** <br/> |Não  <br/> |Tipo de conteúdo de mídia usado na conferência. Por exemplo, um tipo de conteúdo comum é Application/sdp. O protocolo SDP  é um protocolo padrão de Internet usado para comunicados de sessão, convites de sessão e outras formas de início de sessão multimídia.  <br/> |
 |**Relatado por** <br/> |Não  <br/> |Computador (isso é, o cliente ou servidor) que relatou o problema.  <br/> |
    
 

@@ -1,8 +1,8 @@
 ---
 title: tblPrincipalInvites
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -12,33 +12,33 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 548ec156-4d1a-469d-a804-62cff226e5c2
-description: tblPrincipalInvites contém convites para todos os usuários provisionados para todos os nós com convite automático ativado.
-ms.openlocfilehash: dfa41ec5715c7c5255b26fcdb32561e74c4f08df
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: O tblPrincipalInvites inclui convites para todos os usuários provisionados de todos os nós com a opção de convite automático ativada.
+ms.openlocfilehash: 5bbccd582442001bd2122dcbacdbe3634fcfd649
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41814179"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49815851"
 ---
 # <a name="tblprincipalinvites"></a>tblPrincipalInvites
  
-tblPrincipalInvites contém convites para todos os usuários provisionados para todos os nós com convite automático ativado.
+O tblPrincipalInvites inclui convites para todos os usuários provisionados de todos os nós com a opção de convite automático ativada.
   
-**Colunas**
+**Columns**
 
 |**Coluna**|**Tipo**|**Descrição**|
 |:-----|:-----|:-----|
-|multiimprimir  <br/> |int, não nulo  <br/> |ID da entidade de segurança.  <br/> |
-|invID  <br/> |int, não nulo  <br/> |Número seqüencial exclusivo (por ID da entidade) gerado pela tabela tblLastInviteId.  <br/> |
-|NodeId  <br/> |int, não nulo  <br/> |ID do nó (somente sala de chat).  <br/> |
-|criar  <br/> |DateTime, não nulo  <br/> |Hora da criação.  <br/> |
+|prinID  <br/> |int, não nulo  <br/> |ID principal.  <br/> |
+|invID  <br/> |int, não nulo  <br/> |Número sequencial exclusivo (por ID de entidade) gerado a partir da tabela tblLastInviteId.  <br/> |
+|nodeID  <br/> |int, não nulo  <br/> |ID de nó (somente sala de chat).  <br/> |
+|createdOn  <br/> |datetime, não nulo  <br/> |Hora da criação.  <br/> |
    
-**As**
+**Teclas**
 
 |**Coluna**|**Descrição**|
 |:-----|:-----|
-|\<, NodeId\>  <br/> |Chave primária.  <br/> |
-|multiimprimir  <br/> |Chave estrangeira com Lookup na tabela tblPrincipal. retoid.  <br/> |
-|NodeId  <br/> |Chave estrangeira com Lookup na tabela tblNode. NodeId.  <br/> |
+|\<prinID, nodeID\>  <br/> |Chave primária.  <br/> |
+|prinID  <br/> |Chave estrangeira com pesquisa na tabela tblPrincipal.prinID.  <br/> |
+|nodeID  <br/> |Chave estrangeira com pesquisa na tabela tblNode.nodeID.  <br/> |
    
 

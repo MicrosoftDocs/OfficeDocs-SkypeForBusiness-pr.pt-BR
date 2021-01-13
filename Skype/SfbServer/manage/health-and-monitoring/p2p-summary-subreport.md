@@ -1,8 +1,8 @@
 ---
-title: Sub-relatório de resumo ponto a ponto no Skype for Business Server
+title: Sub-relatório de resumo P2P no Skype for Business Server
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,43 +11,43 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: fc36185a-3cc5-4167-8c93-8a755fa75ac7
-description: 'Resumo: Saiba mais sobre o sub-relatório de Resumo de P2P no Skype for Business Server.'
-ms.openlocfilehash: 31e17aaff8d449c49a7c51d3dba484e7fab48d55
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 'Resumo: saiba mais sobre o Sub-relatório de resumo P2P no Skype for Business Server.'
+ms.openlocfilehash: 518047fbca3c46cdc9b99299b8222d4f4fbd48ff
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41817790"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49816811"
 ---
-# <a name="p2p-summary-subreport-in-skype-for-business-server"></a>Sub-relatório de resumo ponto a ponto no Skype for Business Server
+# <a name="p2p-summary-subreport-in-skype-for-business-server"></a>Sub-relatório de resumo P2P no Skype for Business Server
  
-**Resumo:** Saiba mais sobre o sub-relatório de resumo ponto a ponto no Skype for Business Server.
+**Resumo:** Saiba mais sobre o Sub-relatório de Resumo P2P no Skype for Business Server.
   
-O sub-relatório de resumo P2P oferece uma visão geral das sessões de comunicação ponto a ponto que falharam.
+O Sub-relatório de Resumo P2P fornece uma visão geral de suas sessões de comunicação ponto a ponto com falhas.
   
 ## <a name="filters"></a>Filtros
 
-Os filtros fornecem uma maneira de retornar um conjunto de dados mais direcionadas ou para exibir os dados retornados de diferentes maneiras. A tabela a seguir lista os filtros que você pode usar com o sub-relatório de resumo P2P.
+Os filtros fornecem uma maneira de retornar um conjunto de dados mais direcionado ou de exibir os dados retornados de maneiras diferentes. A tabela a seguir lista os filtros que você pode usar com o Sub-relatório de Resumo P2P.
   
-**Filtros de sub-relatório de resumo P2P**
+**Filtros do sub-relatório de resumo P2P**
 
 |**Nome**|**Descrição**|
 |:-----|:-----|
-|**De** <br/> |Data e hora de início do intervalo de tempo. Para ver os dados por hora, insira a data e hora de início desta forma:  <br/> 7/7/2015 13:00  <br/> Se você não inserir a hora de início, o relatório começará automaticamente à meia-noite do dia especificado. Para ver os dados por dia, insira somente a data:  <br/> 7/7/2015  <br/> Para exibir por semana ou mês, insira uma data dentro da semana ou mês que deseja exibir (não é necessário inserir o primeiro dia da semana ou mês):  <br/> 3/7/2015  <br/> As semanas sempre vão de domingo a sábado.  <br/> |
-|**Até** <br/> |Data e hora final para o intervalo de tempo. Para exibir os dados por hora, insira a data e hora final como a seguir:  <br/> 7/7/2015 13:00  <br/> Se você não inserir a hora final, o relatório terminará automaticamente à meia-noite do dia especificado. Para ver os dados por dia, insira somente a data:  <br/> 7/7/2015  <br/> Para exibir por semana ou mês, insira uma data dentro da semana ou mês que deseja exibir (não é necessário inserir o primeiro dia da semana ou mês):  <br/> 3/7/2015  <br/> As semanas sempre vão de domingo a sábado.  <br/> |
-|**Pool** <br/> |O FQDN (nome de domínio totalmente qualificado) do pool Registrador Avançado ou Servidor de Borda. Você pode selecionar um pool individual ou clicar em **[Todos]** para ver os dados de todos os pools. Essa lista suspensa é preenchida automaticamente com base nos registros no banco de dados.<br/> |
+|**De** <br/> |Data e hora de início para o intervalo de tempo. Para exibir os dados por horas, digite a data e a hora de início da seguinte maneira:  <br/> 7/7/2015 13:00  <br/> Se você não inserir uma hora inicial, o relatório começa automaticamente as 12:00 AM no dia especificado. Para exibir os dados por dia, insira apenas a data:  <br/> 7/7/2015  <br/> Para exibir por semana ou mês, insira uma data que está dentro da semana ou mês que deseja exibir (não é necessário inserir o primeiro dia da semana ou mês):  <br/> 7/3/2015  <br/> As semanas são sempre de domingo a sábado.  <br/> |
+|**To** <br/> |Data e hora final para o intervalo de tempo. Para exibir os dados por hora, insira a data e hora final como a seguir:  <br/> 7/7/2015 13:00  <br/> Se você não inserir uma hora final, o relatório termina automaticamente as 12:00 AM no dia especificado. Para exibir os dados por dia, insira apenas a data:  <br/> 7/7/2015  <br/> Para exibir por semana ou mês, insira uma data que está dentro da semana ou mês que deseja exibir (não é necessário inserir o primeiro dia da semana ou mês):  <br/> 7/3/2015  <br/> As semanas sempre correm do domingo até sábado.  <br/> |
+|**Pool** <br/> |FQDN do pool do Registrador ou Servidor de Borda. É possível selecionar um pool individual ou clicar em **[Todos]** para exibir os dados de todos os pools. Esta lista suspensa é preenchida automaticamente para você com base nos registros do banco de dados.<br/> |
    
-## <a name="metrics"></a>Métricas
+## <a name="metrics"></a>Métrica
 
-A tabela a seguir apresenta as informações oferecidas no sub-relatório de resumo P2P.
+A tabela a seguir lista as informações fornecidas no Sub-relatório de Resumo P2P.
   
-**Métricas de sub-relatório de resumo P2P**
+**Métricas do sub-relatório de resumo P2P**
 
-|**Nome**|**Você pode classificar este item?**|**Descrição**|
+|**Nome**|**É possível classificar este item?**|**Descrição**|
 |:-----|:-----|:-----|
 |**Total de sessões** <br/> |Não  <br/> |Número total de sessões, incluindo sessões bem-sucedidas, com falha (tanto falhas esperadas quanto inesperadas) e sessões não categorizadas.  <br/> |
 |**Taxa de falha** <br/> |Não  <br/> |Percentual de sessões ponto a ponto que falharam.  <br/> |
 |**Sessões por modalidade** <br/> |Não  <br/> |Número total de sessões agrupadas por modalidade (por exemplo, mensagens instantâneas).  <br/> |
-|**Taxa de falha por modalidade** <br/> |Não  <br/> |Número total de sessões que falharam agrupadas por modalidade (por exemplo, mensagens instantâneas).  <br/> |
+|**Taxa de falha por modalidade** <br/> |Não  <br/> |Número total de sessões com falha agrupadas por modalidade (por exemplo, mensagens instantâneas).  <br/> |
    
 

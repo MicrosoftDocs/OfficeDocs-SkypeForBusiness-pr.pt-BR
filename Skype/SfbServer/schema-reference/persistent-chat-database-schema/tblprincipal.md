@@ -1,8 +1,8 @@
 ---
 title: tblPrincipal
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 10/20/2015
 audience: ITPro
@@ -13,45 +13,45 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 79a24502-b4ce-41f0-8979-8caddf535338
 description: tblPrincipal contém todas as entidades, incluindo usuários, pastas e grupos.
-ms.openlocfilehash: 7924c65745e29cce6dd71dc14b1ecfe7b41fe8b3
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.openlocfilehash: ee9e16d0fcd5d7206bb73ff8b13cdc9d930b6b97
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41814499"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49815891"
 ---
 # <a name="tblprincipal"></a>tblPrincipal
  
 tblPrincipal contém todas as entidades, incluindo usuários, pastas e grupos.
   
-**Colunas**
+**Columns**
 
 |**Coluna**|**Tipo**|**Descrição**|
 |:-----|:-----|:-----|
-|multiimprimir  <br/> |int, não nulo  <br/> |ID da entidade de segurança.  <br/> |
-|prinGuid  <br/> |GUID, não nulo  <br/> |GUID principal. Isso é amplamente usado como uma chave primária alternativa porque o significado é cruzado para o espaço dos serviços de domínio Active Directory. (O GUID de uma entidade do cache é igual à GUID do objeto do Active Directory correspondente.)  <br/> |
-|prinUri  <br/> |nvarchar (256), NOT NULL  <br/> |URI principal. O esquema SIP é usado para os usuários, e o ma-GRP é usado para praticamente tudo o mais.  <br/> |
-|imprimir  <br/> |nvarchar (256)  <br/> |Nome comum. Usado apenas por tipos de usuário.  <br/> |
-|prinDisplayName  <br/> |Nvarchar (256)  <br/> |Nome para exibição. Usado apenas por tipos de usuário.  <br/> |
-|prinCompanyName  <br/> |nvarchar (256)  <br/> |Nome da empresa. Usado apenas por tipos de usuário.  <br/> |
-|prinEmail  <br/> |nvarchar (256)  <br/> |Email. Usado apenas por tipos de usuário.  <br/> |
-|prinADPath  <br/> |nvarchar (384)  <br/> |Nome do domínio do objeto do Active Directory que a entidade de segurança é uma versão em cache de. Pode ser NULL para tipos que não sejam objetos do Active Directory (como usuários do sistema).  <br/> |
-|prinADUserPrincipalName  <br/> |nvarchar (256)  <br/> |Nome UPN do usuário. Usado apenas por tipos de usuário regulares.  <br/> |
-|prinDisabled  <br/> |smallint, não nulo  <br/> | 0: a entidade de segurança está ativa. <br/>  1: o principal está desabilitado porque as funcionalidades SIP do usuário estão desabilitadas. <br/>  2: o principal é excluído porque o objeto do anúncio associado foi excluído. <br/> |
-|prinTypeID  <br/> |smallint, não nulo  <br/> |Tipo de entidade de segurança (da tabela tblPrincipalType).  <br/> |
-|prinPoolID  <br/> |Núm  <br/> |Atribuição de pool do cliente Skype for Business para o principal.  <br/> |
-|prinPolicyID  <br/> |Núm  <br/> |Valor da política do servidor de chat persistente para o usuário, se a política de tipo de marca estiver presente.  <br/> |
-|prinAddedBy  <br/> |int  <br/> |ID da entidade de segurança do criador.  <br/> |
-|prinAddedOn  <br/> |bigint, e não nulo  <br/> |Carimbo de data/hora para a hora da criação.  <br/> |
-|prinUpdatedBy  <br/> |int  <br/> |ID da entidade de segurança que atualizou pela última vez.  <br/> |
-|prinUpdatedOn  <br/> |bigint, e não nulo  <br/> |Carimbo de data/hora para a última atualização.  <br/> |
-|prinVerifiedOn  <br/> |DateTime, não nulo  <br/> |Data e hora da última atualização de sincronização do Active Directory para a entidade de segurança.  <br/> |
+|prinID  <br/> |int, não nulo  <br/> |ID principal.  <br/> |
+|prinGuid  <br/> |GUID, não nulo  <br/> |GUID da entidade. Isso é amplamente usado como uma chave primária alternativa porque seu significado cruza o espaço dos Serviços de Domínio Active Directory. (O GUID de uma entidade em cache é igual ao GUID de objeto correspondente no Active Directory).  <br/> |
+|prinUri  <br/> |nvarchar (256), não nulo  <br/> |URI de entidade. O esquema do SIP é usado para usuários e o ma-grp é usado para quase tudo.  <br/> |
+|prinName  <br/> |nvarchar (256)  <br/> |Nome comum. Usado apenas por tipos de usuário.  <br/> |
+|prinDisplayName  <br/> |Nvarchar (256)  <br/> |Nome de exibição. Usado somente pelos tipos de usuário.  <br/> |
+|prinCompanyName  <br/> |nvarchar (256)  <br/> |Nome da empresa. Usado somente pelos tipos de usuário.  <br/> |
+|prinEmail  <br/> |nvarchar (256)  <br/> |Email. Usado apenas pelos tipos de usuários.  <br/> |
+|prinADPath  <br/> |nvarchar (384)  <br/> |Nome de domínio do objeto do Active Directory do qual a entidade é uma versão em cache. Pode ser nulo para tipos que não são objetos do Active Directory (como os usuários do sistema).  <br/> |
+|prinADUserPrincipalName  <br/> |nvarchar (256)  <br/> |Nome UPN do usuário. Usado somente pelos tipos de usuário regular.  <br/> |
+|prinDisabled  <br/> |smallint, não nulo  <br/> | 0: a entidade está ativa. <br/>  1: a entidade de segurança está desabilitada porque os recursos SIP do usuário estão desabilitados. <br/>  2: a entidade é excluída porque o objeto associado do AD foi excluído. <br/> |
+|prinTypeID  <br/> |smallint, não nulo  <br/> |Tipo de entidade (da tabela tblPrincipalType).  <br/> |
+|prinPoolID  <br/> |Int  <br/> |Atribuição do pool de clientes do Skype for Business para a entidade de serviço.  <br/> |
+|prinPolicyID  <br/> |Int  <br/> |Valor da política do Servidor de Chat Persistente para o usuário, se a política de tipo de marca estiver presente.  <br/> |
+|prinAddedBy  <br/> |int  <br/> |ID da entidade do criador.  <br/> |
+|prinAddedOn  <br/> |bigint, não nulo  <br/> |Carimbo de data/hora para a hora da criação.  <br/> |
+|prinUpdatedBy  <br/> |int  <br/> |ID da entidade que atualizou esta entrada pela última vez.  <br/> |
+|prinUpdatedOn  <br/> |bigint, não nulo  <br/> |Carimbo de data/hora da última atualização.  <br/> |
+|prinVerifiedOn  <br/> |datetime, não nulo  <br/> |Data e hora da última atualização de Sincronização do Active Directory para a entidade.  <br/> |
    
-**As**
+**Teclas**
 
 |**Coluna**|**Descrição**|
 |:-----|:-----|
-|multiimprimir  <br/> |Chave primária.  <br/> |
-|prinTypeID  <br/> |Chave estrangeira com Lookup na tabela tblPrincipalType. ptypeID.  <br/> |
+|prinID  <br/> |Chave primária.  <br/> |
+|prinTypeID  <br/> |Chave estrangeira com pesquisa na tabela tblPrincipalType.ptypeID.  <br/> |
    
 

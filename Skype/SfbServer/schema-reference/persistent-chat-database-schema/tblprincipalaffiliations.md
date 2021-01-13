@@ -1,8 +1,8 @@
 ---
 title: tblPrincipalAffiliations
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -12,33 +12,33 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 45fd8484-5837-44d2-85bb-45c83546607c
-description: tblPrincipalAffiliations contém as afiliações principais que descrevem associações em locais, incluindo grupos de segurança dos serviços de domínio Active Directory, em contêineres do Active Directory, em domínios.
-ms.openlocfilehash: 542bcc333d815b0577aec1fb11d4070540150d3c
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: TblPrincipalAffiliations contém as afiliações principais que descrevem associações em locais, incluindo grupos de segurança dos Serviços de Domínio Active Directory, em contêineres do Active Directory, em domínios.
+ms.openlocfilehash: 149bb1b4603fa0f0e1909298659b881000464275
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41814469"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49815861"
 ---
 # <a name="tblprincipalaffiliations"></a>tblPrincipalAffiliations
  
-tblPrincipalAffiliations contém as afiliações principais que descrevem associações em locais, incluindo grupos de segurança dos serviços de domínio Active Directory, em contêineres do Active Directory, em domínios.
+TblPrincipalAffiliations contém as afiliações principais que descrevem associações em locais, incluindo grupos de segurança dos Serviços de Domínio Active Directory, em contêineres do Active Directory, em domínios.
   
-**Colunas**
+**Columns**
 
 |**Coluna**|**Tipo**|**Descrição**|
 |:-----|:-----|:-----|
-|entidade de segurança  <br/> |int, não nulo  <br/> |ID do objeto associado.  <br/> |
-|afiliaid  <br/> |int, não nulo  <br/> |ID da entidade de segurança que representa a afiliada. Cada entidade de segurança (exceto tipos de usuário do sistema) também tem uma afiliada.  <br/> |
-|dedo  <br/> |int, não nulo  <br/> |Dedo. O valor para autoafiliações é-1 e para as outras afiliações que ele aumenta sequencialmente de 1 dentro de cada \<objeto de entidade de segurança\> , o BucketID.  <br/> |
-|updatedBy  <br/> |int, não nulo  <br/> |Entidade de segurança que fez a atualização mais recente. Geralmente, isso é 1, o que significa sincronização do Active Directory.  <br/> |
+|principalID  <br/> |int, não nulo  <br/> |ID da entidade de segurança afiliada.  <br/> |
+|affiliationID  <br/> |int, não nulo  <br/> |ID da entidade de segurança que representa a afiliação. Cada entidade (exceto system-user-types) tem também uma autoafiliação.  <br/> |
+|index  <br/> |int, not null  <br/> |Índice. O valor para autoafiliações é -1 e, para as outras afiliações, aumenta sequencialmente de 1 dentro de cada \<principalID, affiliationId\> bucket.  <br/> |
+|updatedBy  <br/> |int, not null  <br/> |Entidade de segurança que fez a atualização mais recente. Isso geralmente é 1, o que significa Sincronização do Active Directory.  <br/> |
    
-**As**
+**Teclas**
 
-|**Colunas**|**Descrição**|
+|**Columns**|**Descrição**|
 |:-----|:-----|
-|\<entidade de segurança, índice, afiliaid\>  <br/> |Chave primária.  <br/> |
-|entidade de segurança  <br/> |Chave estrangeira com Lookup na tabela tblPrincipal. retoid.  <br/> |
-|afiliaid  <br/> |Chave estrangeira com Lookup na tabela tblPrincipal. retoid.  <br/> |
+|\<principalID, index, affiliationID\>  <br/> |Chave primária.  <br/> |
+|principalID  <br/> |Chave estrangeira com pesquisa na tabela tblPrincipal.prinID.  <br/> |
+|affiliationID  <br/> |Chave estrangeira com pesquisa na tabela tblPrincipal.prinID.  <br/> |
    
 
