@@ -1,7 +1,7 @@
 ---
-title: Gerenciar políticas do teams no Microsoft Teams
-author: lanachin
-ms.author: v-lanac
+title: Gerenciar políticas de equipes no Microsoft Teams
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.reviewer: jastark
 ms.topic: article
@@ -23,42 +23,42 @@ ms.custom:
 - ms.teamsadmincenter.teamsandchannelpolicies.overview
 - ms.teamsadmincenter.teams.teamspolicies.new.tooltip.discover
 - ms.teamsadmincenter.teams.teamspolicies.new.tooltip.create
-description: Saiba como usar e gerenciar políticas de equipe em sua organização para controlar o que os usuários podem fazer em equipes e canais.
-ms.openlocfilehash: 0b4664c36f24a057a7c8237823b7eafaad8ea6ba
-ms.sourcegitcommit: 44bd56f67b1ad85ef8c21bb30d5b0d47e5a80339
+description: Saiba como usar e gerenciar políticas de equipes em sua organização para controlar o que os usuários podem fazer em equipes e canais.
+ms.openlocfilehash: a05aaf65418e46f7b631bac6f7d88d8bbdf4c806
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "49772015"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49802361"
 ---
-# <a name="manage-teams-policies-in-microsoft-teams"></a>Gerenciar políticas do teams no Microsoft Teams
+# <a name="manage-teams-policies-in-microsoft-teams"></a>Gerenciar políticas de equipes no Microsoft Teams
 
-Como administrador, você pode usar políticas do teams no Microsoft Teams para controlar o que os usuários em sua organização podem fazer em equipes e canais. Por exemplo, você pode definir se os usuários podem criar canais privados.
+Como administrador, você pode usar as políticas do Teams no Microsoft Teams para controlar o que os usuários em sua organização podem fazer em equipes e canais. Por exemplo, você pode definir se os usuários têm permissão para criar canais privados.
 
-Você gerencia políticas do teams acessando políticas **do teams**  >  **Team** no centro de administração do Microsoft Teams. Você pode usar a política global (padrão para toda a organização) ou criar e atribuir políticas personalizadas. Os usuários da sua organização terão automaticamente a política global, a menos que você crie e atribua uma política personalizada.
+Você gerencia as políticas de equipes indo para as **políticas**  >  **do Teams** no centro de administração do Microsoft Teams. Você pode usar a política global (padrão em toda a organização) ou criar e atribuir políticas personalizadas. Os usuários da sua organização terão automaticamente a política global, a menos que você crie e atribua uma política personalizada.
 
-Você pode editar a política global ou criar e atribuir uma política personalizada. Depois de editar a política global ou atribuir uma política, pode demorar algumas horas para que as alterações entrem em vigor.
+Você pode editar a política global ou criar e atribuir uma política personalizada. Depois de editar a política global ou atribuir uma política, pode levar algumas horas para que as alterações entrem em vigor.
 
-## <a name="create-a-custom-teams-policy"></a>Criar uma política personalizada do Microsoft Teams
+## <a name="create-a-custom-teams-policy"></a>Criar uma política personalizada de equipes
 
-1. Na navegação à esquerda do centro de administração do Microsoft Teams, **vá para políticas do teams**  >  **Teams**.
+1. Na navegação à esquerda do centro de administração do Microsoft Teams, acesse as políticas **do**  >  **Teams.**
 2. Clique em **Adicionar**.
 3. Insira um nome e uma descrição para a política.
 
-    ![Captura de tela das configurações de política de equipes](media/teams-policies.png)
-4. Ative ou desative **criar canais privados**, <a name="createchannels"></a> dependendo se você deseja permitir que os usuários criem canais privados.
+    ![Captura de tela das configurações de política do Teams](media/teams-policies.png)
+4. A turn on or turn <a name="createchannels"></a> off Create private **channels**, depending on whether you want to allow users to create private channels.
 
 5. Clique em **Salvar**.
 
-## <a name="edit-a-teams-policy"></a>Editar uma política de equipe
+## <a name="edit-a-teams-policy"></a>Editar uma política de equipes
 
-Você pode editar a política global ou qualquer política personalizada criada.
+Você pode editar a política global ou quaisquer políticas personalizadas que criar.
 
-1. Na navegação à esquerda do centro de administração do Microsoft Teams, **vá para políticas do teams**  >  **Teams**.
-2. Selecione a política clicando à esquerda do nome da política e, em seguida, clique em **Editar**.
-3. Ative ou desative as configurações desejadas e clique em **salvar**.
+1. Na navegação à esquerda do centro de administração do Microsoft Teams, acesse as políticas **do**  >  **Teams.**
+2. Selecione a política clicando à esquerda do nome da política e clique em **Editar**.
+3. A turn on or turn off the settings that you want, and then click **Save**.
 
-## <a name="assign-a-custom-teams-policy-to-users"></a>Atribuir uma política personalizada do teams aos usuários
+## <a name="assign-a-custom-teams-policy-to-users"></a>Atribuir uma política personalizada de equipes aos usuários
 
 [!INCLUDE [assign-policy](includes/assign-policy.md)]
 

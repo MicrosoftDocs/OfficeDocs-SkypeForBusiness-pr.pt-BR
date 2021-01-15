@@ -18,45 +18,48 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - SMB
-description: Infelizmente, há certas licenças de usuário bloqueadas quando o usuário acesse https://broadcast.skype.com e deseja usar a transmissão de reunião do Skype. Se um usuário vir esta mensagem, ela terá uma das licenças bloqueadas atribuídas a ele. Se você ainda quiser usá-la, atribua a elas outra licença do Office 365.
-ms.openlocfilehash: a1284cbb6126a0a6d31ab64942f04f9e40c04fe6
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+description: Infelizmente, há determinadas licenças de usuário bloqueadas quando o usuário vai e https://broadcast.skype.com deseja usar a Transmissão de Reunião do Skype. Se um usuário vir essa mensagem, ele terá uma das licenças bloqueadas atribuídas a ele. Se você ainda quiser que eles usem, atribua outra licença do Office 365 a eles.
+ms.openlocfilehash: 0b2791f0f3d04de7e1383516b0c44cf392233761
+ms.sourcegitcommit: ab566ddab9d26440bac1716a975f30e075d0c7b5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41706136"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "49865145"
 ---
-# <a name="blocked-user-licenses-for-hosting-skype-meeting-broadcast"></a>Licenças de usuário bloqueadas para hospedagem de transmissão de reunião do Skype
+# <a name="blocked-user-licenses-for-hosting-skype-meeting-broadcast"></a>Licenças de usuário bloqueadas para hospedar a Transmissão de Reunião do Skype
 
-Infelizmente, há certas licenças de usuário que são bloqueadas quando os usuários https://broadcast.skype.com acessam e querem hospedar uma transmissão de reunião do Skype. Se um usuário vir esta mensagem, ela terá uma das licenças bloqueadas atribuídas a ele. Se você ainda quiser usá-la, atribua a elas outra licença do Office 365.
+> [!IMPORTANT]
+> O Skype for Business Online está se retirando em 31 de julho de 2021, quando o acesso ao serviço terminará. Incentivamos os clientes a iniciar a atualização para o Microsoft Teams, o cliente principal para comunicações e trabalho em equipe no Microsoft 365.
+
+Infelizmente, há determinadas licenças de usuário bloqueadas quando os usuários vão e querem https://broadcast.skype.com hospedar uma Transmissão de Reunião do Skype. Se um usuário vir essa mensagem, ele terá uma das licenças bloqueadas atribuídas a ele. Se você ainda quiser que eles usem, atribua outra licença do Office 365 a eles.
   
- *"A política da sua empresa não permite que você use a transmissão de reunião do Skype. Consulte o administrador do sistema para verificar se o serviço está habilitado e se você tem a licença correta. "* 
+ *"Sua política de empresa não permite que você use a Transmissão de Reunião do Skype. Verifique com o administrador do sistema se o serviço está habilitado e se você tem a licença correta."* 
   
 ## <a name="blocked-user-licenses"></a>Licenças de usuário bloqueadas 
 
-A hospedagem de eventos de transmissão de reunião do Skype será bloqueada se qualquer uma das seguintes licenças de usuário for atribuída a um usuário. Os participantes que são eventos de transmissão de streaming não exigem licenças de usuário.
+Os eventos de Transmissão de Reunião do Skype serão bloqueados se qualquer uma das licenças de usuário a seguir for atribuída a um usuário. Os participantes que estão transmitindo eventos de transmissão não exigem nenhuma licença de usuário.
   
-- Office 365 Education fac/staff
+- Office 365 Education Fac/Staff
     
-- Aluno educacional do Office 365
+- Office 365 Education Student
     
-- Office 365 Education Plus fac/staff
+- Office 365 Education Plus Fac/Staff
     
 - Office 365 Education Plus Student
     
-- Office 365 Education E1 fac/staff
+- Office 365 Education E1 Fac/Staff
     
-- Aluno do Office 365 Education E1
+- Office 365 Education E1 Student
     
-- Office 365 Education E3 fac/staff
+- Office 365 Education E3 Fac/Staff
     
-- Office 365 Education E3 fac/staff Large
+- Office 365 Education E3 Fac/Staff Large
     
-- Office 365 Education para estudantes
+- Office 365 Education E3 Student
     
-- Office 365 o benefício do uso do aluno a1
+- Benefício de uso do aluno do Office 365 A1
     
-- Benefícios do uso do aluno a1 da Microsoft 365
+- Os alunos do Microsoft 365 A1 usam benefícios
 
     
 ## <a name="related-topics"></a>Tópicos relacionados

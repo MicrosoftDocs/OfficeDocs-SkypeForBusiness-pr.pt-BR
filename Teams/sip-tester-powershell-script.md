@@ -1,13 +1,13 @@
 ---
-title: Script do PowerShell para testar conexões do controlador de borda de sessão de roteamento direto
-author: LanaChin
-ms.author: v-lanac
+title: Script do PowerShell para testar conexões do Controlador de Borda da Sessão de Roteamento Direto
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.topic: article
 ms.reviewer: filippse
 ms.service: msteams
 audience: admin
-description: Use este exemplo de script do PowerShell para testar as conexões de controlador de borda de sessão de roteamento direto no Microsoft Teams.
+description: Use este exemplo de script do PowerShell para testar as conexões do Controlador de Borda da Sessão de Roteamento Direto no Microsoft Teams.
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
@@ -16,29 +16,29 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 43d1514eff811461ac8b6ad73f7c2a215205f4e3
-ms.sourcegitcommit: 69ff557c79d6b1a3d1089fe5c8f5c8ed8ff7431e
+ms.openlocfilehash: c52febae3d734af49d1b23c7c65ceb0c2f746f7a
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/30/2020
-ms.locfileid: "43951256"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49834271"
 ---
-# <a name="powershell-script-to-test-direct-routing-session-border-controller-connections"></a>Script do PowerShell para testar conexões do controlador de borda de sessão de roteamento direto
+# <a name="powershell-script-to-test-direct-routing-session-border-controller-connections"></a>Script do PowerShell para testar conexões do Controlador de Borda da Sessão de Roteamento Direto
 
-O cliente testador SIP é um exemplo de script do PowerShell que você pode usar para testar as conexões de SBC (controlador de borda de sessão de roteamento direto) no Microsoft Teams. Este script testa a funcionalidade básica de um tronco SIP (protocolo de iniciação de sessão) emparelhado ao cliente com roteamento direto.
+O cliente do Testador SIP é um script do PowerShell de exemplo que você pode usar para testar conexões SBC (Direct Routing Session Border Controller) no Microsoft Teams. Esse script testa a funcionalidade básica de um tronco SIP (Session Initiation Protocol) emparelhado ao cliente com Roteamento Direto.
 
-O script envia um teste SIP para o executor do teste, aguarda o resultado e o apresenta em um formato legível por pessoas. Você pode usar esse script para testar os seguintes cenários:
+O script envia um teste SIP para o testador, aguarda o resultado e o apresenta em um formato acessível para humanos. Você pode usar esse script para testar os seguintes cenários:
 
-- Chamadas de entrada e de saída
+- Chamadas de saída e de entrada
 - Toque simultâneo
 - Escalonamento de mídia
 - Transferência consultiva
 
 ## <a name="download-the-script-and-documentation"></a>Baixar o script e a documentação
 
-Baixe o [script e a documentação do cliente de teste SIP](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/sip-tester-client/siptesterclient.zip?raw=true).
+Baixe o [script e a documentação do cliente do Testador SIP.](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/sip-tester-client/siptesterclient.zip?raw=true)
 
   > [!NOTE]
-  > O script do cliente testador SIP suporta apenas a versão adal.ps do 3.19.8.1. Um erro será retornado se uma versão mais recente do adal.ps for usada.
+  > O script do cliente do Testador SIP só adal.ps versão 3.19.8.1. Um erro será retornado se uma versão posterior do adal.ps for usada.
   
   

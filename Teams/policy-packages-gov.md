@@ -1,7 +1,7 @@
 ---
-title: Pacotes de política de equipe para o governo
-author: lanachin
-ms.author: v-lanac
+title: Pacotes de política do Teams para o governo
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.reviewer: aaglick
 ms.topic: article
@@ -16,24 +16,24 @@ f1.keywords: ''
 ms.custom: ''
 localization_priority: Normal
 search.appverid: MET150
-description: Saiba como usar e gerenciar pacotes de política de equipe para sua organização governamental.
-ms.openlocfilehash: 8ef632689cb52180e8fd18cf4047fb9a25150885
-ms.sourcegitcommit: ee217e1d7188842c7becd19387fd421b485c3575
+description: Saiba como usar e gerenciar pacotes de política do Teams para sua organização governamental.
+ms.openlocfilehash: 19e2c692f2b5109e3ef0915ced9fd2b68c56e482
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "48908590"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49812881"
 ---
-# <a name="teams-policy-packages-for-government"></a>Pacotes de política de equipe para o governo
+# <a name="teams-policy-packages-for-government"></a>Pacotes de política do Teams para o governo
 
 > [!NOTE]
-> Atualmente, os pacotes de política não estão disponíveis nas implantações do Microsoft 365 governo GCC High ou DoD.
+> Atualmente, os pacotes de política não estão disponíveis nas implantações do Microsoft 365 Government GCC High ou DoD.
 
-## <a name="overview"></a>Visão geral
+## <a name="overview"></a>Visão Geral
 
-Um [pacote de política](manage-policy-packages.md) no Microsoft Teams é uma coleção de políticas predefinidas e configurações de política que você pode atribuir aos usuários que têm funções semelhantes em sua organização. Os pacotes de políticas simplificam, otimizam e ajudam a fornecer consistência ao gerenciar políticas. Você pode personalizar as configurações das políticas do pacote para atender às necessidades dos seus usuários. Quando você altera as configurações de políticas em um pacote de política, todos os usuários atribuídos a esse pacote obtêm as configurações atualizadas. Você pode gerenciar pacotes de política usando o centro de administração do Microsoft Teams ou o PowerShell.
+Um [pacote de política](manage-policy-packages.md) no Microsoft Teams é um conjunto de políticas e configurações de política predefinidas que você pode atribuir a usuários que têm funções semelhantes em sua organização. Os pacotes de políticas simplificam, otimizam e ajudam a fornecer consistência ao gerenciar políticas. Você pode personalizar as configurações das políticas no pacote para atender às necessidades dos usuários. Quando você altera as configurações de políticas em um pacote de política, todos os usuários atribuídos a esse pacote obterão as configurações atualizadas. Você pode gerenciar pacotes de política usando o centro de administração do Microsoft Teams ou o PowerShell.
 
-Pacotes de política pré-defina políticas para o seguinte, dependendo do pacote:
+Pacotes de política pré-definem políticas para o seguinte, dependendo do pacote:
 
 - Mensagens
 - Reuniões
@@ -45,60 +45,60 @@ Atualmente, o Teams inclui os seguintes pacotes de política para o governo.
 
 |Nome do pacote no centro de administração do Microsoft Teams|Melhor usado para|Descrição |
 |---------|---------|---------|
-|Diretor de segurança pública  |Diretores de segurança públicos em sua organização governamental  |Cria um conjunto de políticas e configurações de política que se aplicam a órgãos públicos de segurança em sua organização. |
-|Gerente da primeira mão  |Gerentes de primeira mão em sua organização governamental |Cria um conjunto de políticas e aplica essas configurações aos gerentes de primeira empresa.|
-|Trabalho da primeira  |Trabalhadores de primeira mão em sua organização governamental |Cria um conjunto de políticas e aplica essas configurações aos trabalhos iniciais em sua organização.|
+|Diretor de segurança pública  |Agentes de segurança pública em sua organização governamental  |Cria um conjunto de políticas e configurações de política que se aplicam a agentes de segurança pública em sua organização. |
+|Gerenciador da linha de frente  |Gerentes de linha de frente em sua organização governamental |Cria um conjunto de políticas e aplica essas configurações aos Gerentes de Linha de Frente em sua organização.|
+|Trabalhador da linha de frente  |Trabalhadores da linha de frente em sua organização governamental |Cria um conjunto de políticas e aplica essas configurações aos Trabalhadores da Linha de Frente em sua organização.|
 
-![Captura de tela dos pacotes de política da assistência médica](media/policy-packages-gov.png)
+![Captura de tela de pacotes de políticas de saúde](media/policy-packages-gov.png)
 
-Cada política individual recebe o nome do pacote de política para que você possa facilmente identificar as políticas que estão vinculadas a um pacote de política. Por exemplo, quando você atribui o pacote de política do diretor de segurança pública aos usuários em sua organização, uma política chamada PublicSafety_Officer é criada para cada política no pacote.
+Cada política individual recebe o nome do pacote de política para que você possa identificar facilmente as políticas vinculadas a um pacote de política. Por exemplo, quando você atribui o pacote de política de oficial de segurança pública aos usuários em sua organização, uma política chamada PublicSafety_Officer é criada para cada política no pacote.
 
-![Captura de tela de políticas no pacote de trabalho clínico da assistência médica](media/policy-packages-public-safety-officer.png)
+![Captura de tela de políticas no pacote de trabalho médicos médicos](media/policy-packages-public-safety-officer.png)
 
 ## <a name="manage-policy-packages"></a>Gerenciar pacotes de política
 
-### <a name="view"></a>View
+### <a name="view"></a>Exibir
 
-Exiba as configurações de cada política em um pacote de política antes de atribuir um pacote. Na navegação à esquerda do centro de administração do Microsoft Teams, selecione **pacotes de política** , selecione o nome do pacote e, em seguida, selecione o nome da política.
+Exibir as configurações de cada política em um pacote de política antes de atribuir um pacote. Na barra de navegação à esquerda do centro de administração do Microsoft Teams, selecione **Pacotes de Política**, selecione o nome do pacote e, em seguida, selecione o nome da política.
 
-Decida se os valores predefinidos são adequados para sua organização ou se você precisa personalizá-los para serem mais restritivos ou lenient com base nas necessidades da sua organização.
+Decida se os valores predefinidos são apropriados para a sua organização ou se você precisa personalizá-los para serem mais restritivos ou leniente com base nas necessidades da sua organização.
 
 ### <a name="customize"></a>Personalizar
 
-Personalize as configurações das políticas no pacote de política, conforme necessário, para atender às necessidades da sua organização. Todas as alterações feitas nas configurações de política são automaticamente aplicadas a usuários atribuídos ao pacote. Para editar as configurações de uma política em um pacote de política, no centro de administração do Microsoft Teams, selecione o pacote de política, selecione o nome da política que você deseja editar e, em seguida, selecione **Editar**.
+Personalize as configurações das políticas no pacote de política, conforme necessário, para atender às necessidades da sua organização. As alterações que você fizer nas configurações da política serão automaticamente aplicadas aos usuários que recebem o pacote. Para editar as configurações de uma política em um pacote de política, no centro de administração do Microsoft Teams, selecione o pacote de política, selecione o nome da política que você deseja editar e, em seguida, selecione **Editar**.
 
-Lembre-se de que você também pode alterar as configurações de políticas em um pacote após atribuir o pacote de política. Para saber mais, consulte [Personalizar políticas em um pacote de política](manage-policy-packages.md#customize-policies-in-a-policy-package). 
+Lembre-se de que você também pode alterar as configurações das políticas em um pacote após atribuir o pacote de política. Para saber mais, confira [Personalizar políticas em um pacote de política](manage-policy-packages.md#customize-policies-in-a-policy-package). 
 
-### <a name="assign"></a>Atribuição
+### <a name="assign"></a>Atribuir
 
-Atribua o pacote de política aos usuários. Se um usuário tiver uma política atribuída e depois você atribuir uma política diferente, a atribuição mais recente terá prioridade.
+Atribua o pacote de política aos usuários. Se um usuário tiver uma política atribuída e, em seguida, você atribuir uma política diferente, a atribuição mais recente terá prioridade.
 
 #### <a name="assign-a-policy-package-to-one-or-several-users"></a>Atribuir um pacote de política a um ou vários usuários
 
-Para atribuir um pacote de política a um ou vários usuários, no painel de navegação esquerdo do centro de administração do Microsoft Teams, vá para **pacotes de política** e selecione **gerenciar usuários**.  
+Para atribuir um pacote de política a um ou vários usuários, na barra de navegação à esquerda do centro de administração do Microsoft Teams, vá para **Pacotes de política** e, em seguida, selecione **Gerenciar usuários**.  
 
 ![Captura de tela de como atribuir um pacote de política no centro de administração](media/policy-packages-healthcare-assign.png)
 
-Para saber mais, consulte [atribuir um pacote de política](manage-policy-packages.md#assign-a-policy-package).
+Para saber mais, confira [Atribuir um pacote de política](manage-policy-packages.md#assign-a-policy-package).
 
-Se um usuário tiver uma política atribuída e depois você atribuir uma política diferente, a atribuição mais recente terá prioridade.
+Se um usuário tiver uma política atribuída e, em seguida, você atribuir uma política diferente, a atribuição mais recente terá prioridade.
 
-#### <a name="assign-a-policy-package-to-a-group"></a>Atribuir um pacote de política a um grupo
+#### <a name="assign-a-policy-package-to-a-group"></a>Atribua o pacote de política a um grupo.
 
-**Este recurso está em visualização particular**
+**Este recurso está na visualização particular**
 
-A atribuição de pacote de política para grupos permite que você atribua várias políticas a um grupo de usuários, como um grupo de segurança ou lista de distribuição. A atribuição de política é propagada para os membros do grupo de acordo com as regras de precedência. Conforme os membros são adicionados ou removidos de um grupo, suas atribuições de política herdadas são atualizadas de acordo. Esse método é recomendado para grupos de até 50.000 usuários, mas também funcionará com grupos maiores.
+As atribuições de pacote de política aos grupos permitem atribuir várias políticas a um grupo de usuários, como uma lista de distribuição ou grupo de segurança. As atribuições de política serão propagadas para os membros do grupo, de acordo com as regras de precedência. À medida que os membros forem adicionados ou removidos de um grupo, as atribuições de política herdadas serão atualizadas. Esse método é recomendado para grupos de até 50.000 usuários, mas também funcionará com grupos maiores.
 
-Para saber mais, consulte [atribuir um pacote de política a um grupo](assign-policies.md#assign-a-policy-package-to-a-group).
+Para saber mais, confira [Atribuir um pacote de política a um grupo](assign-policies.md#assign-a-policy-package-to-a-group).
 
-#### <a name="assign-a-policy-package-to-a-large-set-batch-of-users"></a>Atribuir um pacote de política a um grande conjunto (lote) de usuários
+#### <a name="assign-a-policy-package-to-a-large-set-batch-of-users"></a>Atribuir um pacote de política a um conjunto grande (lote) de usuários
 
-Use a atribuição de pacote de política em lotes para atribuir um pacote de política a grandes conjuntos de usuários por vez. Use o cmdlet [New-CsBatchPolicyPackageAssignmentOperation](https://docs.microsoft.com/powershell/module/teams/new-csbatchpolicypackageassignmentoperation) para enviar um lote de usuários e o pacote de política que você deseja atribuir. As atribuições são processadas como uma operação em segundo plano e uma ID de operação é gerada para cada lote.
+Use a tarefa de pacote de política de lote para atribuir um pacote de política a grandes conjuntos de usuários por vez. Use o cmdlet [New-CsBatchPolicyPackageAssignmentOperation](https://docs.microsoft.com/powershell/module/teams/new-csbatchpolicypackageassignmentoperation) para enviar um lote de usuários e o pacote de política que você deseja atribuir. As atribuições são processadas como uma operação de plano de fundo e uma ID de operação é gerada para cada lote.
 
-Um lote pode conter até 5.000 usuários. Você pode especificar os usuários por sua ID de objeto, UPN, endereço SIP ou endereço de email. Para saber mais, consulte [atribuir um pacote de política a um lote de usuários](assign-policies.md#assign-a-policy-package-to-a-batch-of-users).
+Um lote pode conter até 5.000 usuários. Você pode especificar os usuários por ID do objeto, UPN, endereço SIP ou endereço de email. Para saber mais, confira [Atribuir um pacote de política a um lote de usuários](assign-policies.md#assign-a-policy-package-to-a-batch-of-users).
 
 ## <a name="related-topics"></a>Tópicos relacionados
 
 [Gerenciar pacotes de política em equipes](manage-policy-packages.md)
 
-[Atribuir políticas a seus usuários no Teams](assign-policies.md) 
+[Atribuir políticas aos usuários no Microsoft Teams](assign-policies.md) 

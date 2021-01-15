@@ -1,7 +1,7 @@
 ---
 title: Atribuir, alterar locais para locais de emergência para usuários
-author: lanachin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.reviewer: jastark, roykuntz
 ms.topic: article
@@ -16,46 +16,46 @@ appliesto:
 localization_priority: Normal
 f1.keywords:
 - NOCSH
-description: Neste artigo, você aprenderá a atribuir ou alterar o local de um local de emergência para os usuários da sua organização.
+description: Neste artigo, você aprenderá a atribuir ou alterar o local para um local de emergência para os usuários em sua organização.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 35f7dfe6572b7ef3dc76b6c224d206e2ee4f23a2
-ms.sourcegitcommit: d8e05e66311725f8ff6d28011355129baeb305b3
+ms.openlocfilehash: 385855c456d3a4e5c2de53fb2605e4d5d30d84a4
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44539508"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49809521"
 ---
-# <a name="assign-or-change-the-place-for-an-emergency-location-for-a-user"></a>Atribuir ou alterar o local de um local de emergência de um usuário
+# <a name="assign-or-change-the-place-for-an-emergency-location-for-a-user"></a>Atribuir ou alterar o local de um local de emergência para um usuário
 
-Cada número de telefone ativo deve ter um local de emergência associado ao atribuir o número de telefone a um usuário. (Você associa o endereço quando recebe um número de telefone no Office 365 ou quando transfere um número de telefone.) Ao associar o número a um local de emergência, você também pode adicionar um local para fornecer um local mais exato em um local físico. Um local pode ser o andar, o asa do prédio ou o número do escritório onde o usuário está localizado. Você pode ter um número ilimitado de locais para um determinado local de emergência, e você pode alterar o local se o usuário se mover para um escritório ou prédio diferente. Por exemplo, se o usuário se move do andar 34 para o andar 35.
+Cada número de telefone ativo deve ter um local de emergência associado ao atribuir o número de telefone a um usuário. (Você associa o endereço quando tem um número de telefone no Office 365 ou quando transfere um número de telefone.) Ao associar o número a um local de emergência, você também pode adicionar um local para fornecer um local mais exato em um local físico. Um lugar pode ser o andar, a asa de construção ou o número do escritório onde o usuário está localizado. Você pode ter um número ilimitado de locais para um determinado local de emergência e pode alterar o local se o usuário mudar para um escritório ou edifício diferente. Por exemplo, se o usuário se mover do 34º ao 35º andar.
   
-Para saber como obter planos de chamada e quanto eles custam, consulte [Licenciamento de Complementos do Microsoft Teams](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
+Para saber como obter Planos de Chamada e quanto eles custam, consulte o licenciamento [de complementos do Teams.](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
   
-Você pode atribuir ou alterar o local de uma localização de emergência para um usuário no centro de administração do Microsoft Teams ou usando o PowerShell.
+Você pode atribuir ou alterar o local de um local de emergência para um usuário no centro de administração do Microsoft Teams ou usando o PowerShell.
 
 ## <a name="using-the-microsoft-teams-admin-center"></a>Usando o centro de administração do Microsoft Teams
 
-1. Na navegação à esquerda do centro de administração do Microsoft Teams, clique em números de telefone de **voz**  >  **Phone numbers**.
+1. Na navegação à esquerda do centro de administração do Microsoft Teams, clique em **Números de Telefone** de  >  **Voz.**
 
-2. Na página **números de telefone** , clique na guia **números** , selecione um número de usuário na lista e, em seguida, clique em **Editar**.
+2. Na página **Números de** Telefone, clique na guia **Números,** selecione um número de usuário na lista e clique em **Editar**.
 
-3. No painel **Editar** , em **local de emergência**, siga um destes procedimentos:
+3. No painel **Editar,** em **Local de Emergência,** faça um dos seguintes procedimentos:
 
-    - Para atribuir um local, procure o local ou o local e selecione o local nos resultados da pesquisa.
+    - Para atribuir um local, pesquise o local ou o local e selecione o local nos resultados da pesquisa.
 
-    - Para alterar o local que já está atribuído ao usuário, clique em **X** para remover o local e o local existentes, procure e selecione o local que você deseja atribuir.
+    - Para alterar o local já atribuído ao usuário, clique em **X** para remover o local e o local existentes, procure e selecione o local que você deseja atribuir.
 
-4. Dependendo se você deseja enviar um email para o usuário com as informações do número de telefone, desative ou ative o **usuário de email com informações de número de telefone**. Por padrão, ele está ativado.
+4. Dependendo se você deseja enviar um email para o usuário com suas informações de número de telefone, desligue ou a ligue o usuário de email com informações **de número de telefone.** Por padrão, isso está em.
 
 5. Clique em **Aplicar**.
 
-## <a name="using-powershell"></a>Usando o PowerShell
+## <a name="using-powershell"></a>Usando o Windows PowerShell
 
-Consulte [set-CsOnlineLisLocation](https://docs.microsoft.com/powershell/module/skype/set-csonlinelislocation).
+Consulte [Set-CsOnlineLisLocation](https://docs.microsoft.com/powershell/module/skype/set-csonlinelislocation).
     
 ## <a name="related-topics"></a>Tópicos relacionados
 
-- [Gerenciar chamadas de emergência](what-are-emergency-locations-addresses-and-call-routing.md)
+- [Gerenciar chamada de emergência](what-are-emergency-locations-addresses-and-call-routing.md)
 - [Adicionar, alterar ou remover um local de emergência para sua organização](add-change-remove-emergency-location-organization.md)
 - [Adicionar, alterar ou remover um endereço de um local de emergência para sua organização](add-change-remove-emergency-place-organization.md)
 - [Atribuir ou alterar um local de emergência para um usuário](assign-change-emergency-location-user.md)

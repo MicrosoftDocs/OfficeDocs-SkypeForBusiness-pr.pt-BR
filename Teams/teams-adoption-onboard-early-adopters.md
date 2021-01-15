@@ -1,7 +1,7 @@
 ---
 title: Integração de usuários pioneiros e coleta de comentários
-author: lanachin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.date: 11/01/2018
 audience: Admin
@@ -10,7 +10,7 @@ ms.service: msteams
 ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
-description: Escolha os pioneiros na fase de experimento da adoção de suas equipes e, em seguida, Reúna comentários sobre o seu projeto.
+description: Escolha os usuários inserdos para a fase de experimento da adoção do Teams e, em seguida, reúna comentários para seu projeto.
 f1.keywords:
 - CSH
 ms.custom:
@@ -21,32 +21,32 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2c71cc945c3de6b6a4446ab44db4fbc2a4e43520
-ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
+ms.openlocfilehash: ba82d305d48471e414c8da18aadf598d42445d6d
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44350235"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49821071"
 ---
 # <a name="onboard-early-adopters-and-gather-feedback-for-microsoft-teams"></a>Integração de usuários pioneiros e coleta de comentários do Microsoft Teams
 
-Retorne à lista de funcionários que expressou interesse em seu programa pioneiro. Decida quais dessas pessoas devem participar de seus experimentos iniciais com o Teams. Pode ser toda ou parte das pessoas interessadas. Mesmo que você não os selecione para estes projetos iniciais, continue comunicando-os com eles para que eles permaneçam interessados e queira participar no futuro. Ele fará parte do processo de integração dos projetos que você selecionou com base em suas discussões com stakeholders corporativos, sua equipe técnica e o exercício de priorização mostrado acima. 
+Retorne à lista de funcionários que expressaram interesse em seu programa de adoção antecipado. Decida quais dessas pessoas devem participar de seus experimentos iniciais com o Teams. Pode ser toda ou uma parte das pessoas que estão interessadas. Mesmo que você não os selecione para esses projetos iniciais, continue se comunicando com eles para que permaneçam interessados e estarão dispostos a participar no futuro. Eles serão uma parte do processo de integração dos projetos selecionados com base em suas discussões com os participantes da empresa, sua equipe técnica e seu exercício de priorização mostrado acima. 
 
-Conclua as etapas a seguir com estes primeiros adeptos:
+Conclua as seguintes etapas com estes primeiros adotantes:
 
-1. Enviar um email de convite a ele para convidá-lo para a Comunidade
-2. Hospede uma chamada de início para compartilhar com elas as metas e os resultados do programa pioneiro,
-3. Garanta o acesso ao canal de feedback da equipe de campeões de trabalho em equipe e qualquer outra ferramenta de rede social interna que você possa usar. 
-4. Considere a criação de pesquisas periódicas para que elas sejam concluídas, que coletarão informações direcionadas.
+1. Envie um email de convite para eles para convidá-los para a comunidade,
+2. Hospedar uma chamada inicial para compartilhar com eles as metas e os resultados do programa de adoção antecipado,
+3. Garanta acesso ao canal de comentários da sua equipe de campeões de trabalho em equipe e quaisquer outras ferramentas de redes sociais internas que você possa usar. 
+4. Considere a criação de pesquisas periódicas para que elas concluam que coletarão informações direcionadas.
 
 ## <a name="gather-feedback"></a>Coletar comentários
 
-Use os componentes do Microsoft 365 ou do Office 365 para reunir comentários para o seu projeto.
+Use os componentes do Microsoft 365 ou do Office 365 para coletar comentários sobre seu projeto.
   
-![Um ícone representando um ponto de decisão](media/teams-adoption-decision-icon.png) Decisão: se sua organização já tem um investimento em uma rede do Yammer, você pode usá-la como um fórum de comentários para o seu programa pioneiro. Caso contrário, e seu programa pioneiro tiver menos de 5000 membros, crie uma equipe no Teams para coletar comentários e fornecer treinamento.
+![Um ícone representando um ponto de decisão](media/teams-adoption-decision-icon.png) Decisão: se sua organização já tiver um investimento em uma rede do Yammer, você poderá usá-la como um fórum de comentários para seu programa de adoção antecipado. Caso não tenha, e seu programa de adoção antecipado tiver menos de 5.000 membros, crie uma equipe no Teams para coletar comentários e fornecer treinamento.
   
 > [!Note]
-> Algumas organizações combinarão os canais para o feedback mais cedo para a equipe do programa de campeões do trabalho em equipe. Trata-se de uma boa abordagem, pois muitos dos pioneiros podem se tornar especialistas no futuro, e criar uma comunidade mais forte. 
+> Algumas organizações combinarão os canais para comentários dos usuários in loco na equipe do programa de campeões do trabalho em equipe. Essa é uma boa abordagem porque muitos usuários inserdos podem se tornar campeões no futuro e criar uma comunidade mais forte. 
 
 
-![Um ícone que representa a próxima etapa ](media/teams-adoption-next-icon.png) seguinte: [suporte onboard](teams-adoption-onboard-support.md).
+![Um ícone representando a próxima etapa ](media/teams-adoption-next-icon.png) Next: [Suporte à integração.](teams-adoption-onboard-support.md)

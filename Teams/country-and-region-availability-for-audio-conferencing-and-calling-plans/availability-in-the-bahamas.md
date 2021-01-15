@@ -1,7 +1,7 @@
 ---
 title: Disponibilidade nas Bahamas
-author: LanaChin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole, fafan
 ms.topic: reference
@@ -23,29 +23,29 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Estes são os serviços do Microsoft 365 e do Office 365 para o Skype for Business e o Microsoft Teams disponíveis para as Bahamas.
-ms.openlocfilehash: d051b9e7148225b9745db3784ec00ac69cc93350
-ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
+description: Aqui estão os serviços do Microsoft 365 e office 365 para Skype for Business e Microsoft Teams disponíveis para as Bahamas.
+ms.openlocfilehash: f04d92fc66bed6be30d23171a765511023d7b3c8
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/14/2020
-ms.locfileid: "44230749"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49831311"
 ---
 # <a name="availability-in-the-bahamas"></a>Disponibilidade nas Bahamas
 
 [Encontre outro país ou região](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) ou saiba mais sobre a disponibilidade de Audioconferência e planos de chamadas por país e região.
 
-Estes são os serviços do Microsoft 365 e do Office 365 para o Skype for Business e o Microsoft Teams disponíveis para as Bahamas.
+Aqui estão os serviços do Microsoft 365 e office 365 para Skype for Business e Microsoft Teams disponíveis para as Bahamas.
   
 ## <a name="audio-conferencing"></a>Audioconferência
 
 |**Recurso**|**Detalhes**|
 |:-----|:-----|
-|A Audioconferência está disponível para compra?  <br/> |Sim, somente [pagamento por minuto](../audio-conferencing-pay-per-minute.md)  <br/> |
+|A Audioconferência está disponível para compra?  <br/> |Sim, [somente pagamento por](../audio-conferencing-pay-per-minute.md) minuto  <br/> |
 |Os números de telefone são atribuídos automaticamente para a Audioconferência?  <br/> | Não |
 |Funcionalidade de discagem usando o recurso Telefonar para Mim  <br/> | Requer créditos de comunicação <br/> |
    
-## <a name="phone-system"></a>Sistema Telefônico
+## <a name="phone-system"></a>Sistema de Telefonia
 
 |**Recurso**|**Detalhes**|
 |:-----|:-----|
@@ -62,17 +62,17 @@ Estes são os serviços do Microsoft 365 e do Office 365 para o Skype for Busine
 |Minutos disponíveis para Planos de Chamadas  <br/> |Não aplicável  <br/> |
 |É possível fazer chamadas de saída?  <br/> |Não aplicável  <br/> |
 
-Se os planos de chamada não estiverem disponíveis para compra, considere o uso do [Roteamento direto](../direct-routing-landing-page.md). Com o Roteamento Direto, você pode usar o Sistema de Telefonia praticamente com qualquer portadora de telefonia.
+Se os Planos de Chamadas não estão disponíveis para compra, considere usar o [Roteamento Direto.](../direct-routing-landing-page.md) Com o Roteamento Direto, você pode usar o Sistema de Telefonia praticamente com qualquer portadora de telefonia.
    
-## <a name="toll-and-toll-free-numbers-for-services"></a>Números de chamada tarifada e gratuita para serviços
+## <a name="toll-and-toll-free-numbers-for-services"></a>Números gratuitos e gratuitos para serviços
 
 |**Recurso**|**Detalhes**|
 |:-----|:-----|
 |Para quais capitais ou cidades importantes é possível obter números de chamadas tarifadas?   | Não aplicável <br/> |
 |Há números de chamada tarifada disponíveis?  <br/> |Não <br/> |
-|Números de chamada gratuita estão disponíveis? <br/> | Sim  <br/> |
+|Os números gratuitos estão disponíveis? <br/> | Sim  <br/> |
    
- Se quiser obter números de telefone de chamada tarifada e gratuita para videoconferências, atendedores automáticos e filas de chamadas, consulte [obtendo números de telefone de serviço para o Skype for Business e o Microsoft Teams](/microsoftteams/getting-service-phone-numbers).
+ Se você quiser obter números de telefone de chamada tarifada e gratuita para Audioconferência, atendimento automático e filas de chamadas, consulte Obter números de telefone de serviço para o Skype for Business e o [Microsoft Teams.](/microsoftteams/getting-service-phone-numbers)
   
 ## <a name="communications-credits"></a>Créditos de Comunicação
 

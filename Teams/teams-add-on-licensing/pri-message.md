@@ -1,7 +1,7 @@
 ---
-title: Notificações de prioridade em mensagens do Microsoft Teams
-ms.author: v-lanac
-author: LanaChin
+title: Notificações de prioridade em mensagens do Teams
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.reviewer: salu
 ms.topic: reference
@@ -19,18 +19,18 @@ ms.custom:
 - Licensing
 - LIL_Placement
 - seo-marvel-apr2020
-description: Saiba mais sobre notificações de prioridade em mensagens do Microsoft Teams.
-ms.openlocfilehash: 4d4476840d61711e9f05361ff7d4635d8170360a
-ms.sourcegitcommit: 18b5e3487ba1350c5d2e6d676a4ab582b5b638d4
+description: Saiba mais sobre as notificações de prioridade nas mensagens do Microsoft Teams.
+ms.openlocfilehash: 19eaec4d724dced16d8ca67c5ce0bfb0d03e1b53
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/27/2020
-ms.locfileid: "48772282"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49799861"
 ---
 # <a name="messaging-policies-licensing"></a>Licenciamento de políticas de mensagens
 
-Estamos ouvindo os clientes em todo o mundo como o Pandemic-19 (coronavirus) criou novos desafios enquanto eles trabalham para lidar com mudanças drásticas nas operações do dia a dia. A capacidade de conexão direta e rápida com colegas de equipe durante condições de alteração rápida é essencial para manter a continuidade de negócios durante a reação à crise e à medida que muitos de nós retornam ao local de trabalho.
+Estamos ouvindo de clientes em todo o mundo como a pandmic covid-19 (Coronavirus) criou novos desafios à medida que trabalham para lidar com mudanças drásticas em suas operações diárias. Ser capaz de se conectar diretamente e rapidamente com colegas de equipe durante condições de mudança rápida é essencial para manter a continuidade dos negócios durante a resposta de crise e à medida que muitos de nós retornam para o local de trabalho.
 
-Anunciado originalmente em junho de 2019, as [notificações de prioridade](https://support.microsoft.com/article/mark-a-message-as-important-or-urgent-in-teams-ea99d5b6-1317-4550-8d75-86ff14cd4462) para o Microsoft Teams concede aos usuários a capacidade de enviar continuamente notificações que se repetem a cada dois minutos por até 20 minutos em todas as mensagens marcadas como urgentes. As notificações de prioridade foram disponibilizadas como uma promoção para todos os clientes de equipes até o segundo semestre de 2020.
+Originalmente anunciada em junho de [](https://support.microsoft.com/article/mark-a-message-as-important-or-urgent-in-teams-ea99d5b6-1317-4550-8d75-86ff14cd4462) 2019, as notificações de prioridade para o Microsoft Teams concede aos usuários a capacidade de enviar continuamente notificações que se repetem a cada dois minutos por até 20 minutos em todas as mensagens marcadas como urgentes. As notificações de prioridade foram disponibilizadas como uma promoção para todos os clientes do Teams até o segundo semestre de 2020.
 
-Em vigor imediatamente, encerramos essa promoção e tornamos as notificações de prioridade disponíveis para todos os clientes do teams como um recurso básico. Agora, os usuários poderão enviar e receber mensagens urgentes ilimitadas com notificação por prioridade. [Saiba mais sobre o gerenciamento de notificações de prioridade](../messaging-policies-in-teams.md).
+Em vigor imediatamente, encerramos essa promoção e disponibilizamos notificações de prioridade para todos os clientes do Teams como um recurso básico. Os usuários agora poderão enviar e receber mensagens urgentes ilimitadas com notificação de prioridade. [Saiba mais sobre como gerenciar notificações de prioridade.](../messaging-policies-in-teams.md)

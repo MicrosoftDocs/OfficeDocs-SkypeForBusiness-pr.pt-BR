@@ -1,7 +1,7 @@
 ---
-title: Disponibilidade em Marrocos
-author: LanaChin
-ms.author: v-lanac
+title: Disponibilidade no Marrocos
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole, fafan
 ms.topic: reference
@@ -23,29 +23,29 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Estes são os serviços do Microsoft 365 e do Office 365 para o Skype for Business e o Microsoft Teams disponíveis para o Marrocos.
-ms.openlocfilehash: af7c23039571f072b9c5a030d02eabe76c990f02
-ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
+description: Aqui estão os serviços do Microsoft 365 e office 365 para Skype for Business e Microsoft Teams disponíveis para Marrocos.
+ms.openlocfilehash: c35db0e95e53b441d07af6397d1ec0dd765f73e4
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/14/2020
-ms.locfileid: "44230369"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49814641"
 ---
-# <a name="availability-in-morocco"></a>Disponibilidade em Marrocos
+# <a name="availability-in-morocco"></a>Disponibilidade no Marrocos
 
 [Encontre outro país ou região](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) ou saiba mais sobre a disponibilidade de Audioconferência e planos de chamadas por país e região.
 
-Estes são os serviços do Microsoft 365 e do Office 365 para o Skype for Business e o Microsoft Teams disponíveis para o Marrocos.
+Aqui estão os serviços do Microsoft 365 e office 365 para Skype for Business e Microsoft Teams disponíveis para Marrocos.
   
 ## <a name="audio-conferencing"></a>Audioconferência
 
 |**Recurso**|**Detalhes**|
 |:-----|:-----|
-|A Audioconferência está disponível para compra?  <br/> |Sim, somente [pagamento por minuto](../audio-conferencing-pay-per-minute.md)  <br/> |
+|A Audioconferência está disponível para compra?  <br/> |Sim, [somente pagamento por](../audio-conferencing-pay-per-minute.md) minuto  <br/> |
 |Os números de telefone são atribuídos automaticamente para a Audioconferência?  <br/> |Não <br/> |
 |Funcionalidade de discagem usando o recurso Telefonar para Mim  <br/> | Requer créditos de comunicação <br/> |
    
-## <a name="phone-system"></a>Sistema Telefônico
+## <a name="phone-system"></a>Sistema de Telefonia
 
 |**Recurso**|**Detalhes**|
 |:-----|:-----|
@@ -59,20 +59,20 @@ Estes são os serviços do Microsoft 365 e do Office 365 para o Skype for Busine
 |**Recurso**|**Detalhes**|
 |:-----|:-----|
 |Os Planos de Chamadas estão disponíveis para compra?  <br/> |Não  <br/> |
-|Minutos disponíveis para Planos de Chamadas  <br/> |Não se aplica  <br/> |
+|Minutos disponíveis para Planos de Chamadas  <br/> |Não aplicável  <br/> |
 |É possível fazer chamadas de saída?  <br/> |Não aplicável  <br/> |
 
 Se os Planos de Chamada não estiverem disponíveis para compra, considere a possibilidade de usar o [Roteamento Direto do Sistema de Telefonia](../direct-routing-landing-page.md). Com o Roteamento Direto, você pode usar o Sistema de Telefonia praticamente com qualquer portadora de telefonia.
    
-## <a name="toll-and-toll-free-numbers-for-services"></a>Números de chamada tarifada e gratuita para serviços
+## <a name="toll-and-toll-free-numbers-for-services"></a>Números gratuitos e gratuitos para serviços
 
 |**Recurso**|**Detalhes**|
 |:-----|:-----|
-|Para quais capitais ou cidades importantes é possível obter números de chamadas tarifadas?   | Casablanca  <br/> |
+|Para quais capitais ou cidades importantes é possível obter números de chamadas tarifadas?   | Ltda.  <br/> |
 |Há números de chamada tarifada disponíveis?  <br/> |Sim <br/> |
-|Números de chamada gratuita estão disponíveis?  <br/> |Não  <br/> |
+|Os números gratuitos estão disponíveis?  <br/> |Não  <br/> |
    
- Se quiser obter números de telefone de chamada tarifada e gratuita para videoconferências, atendedores automáticos e filas de chamadas, consulte [obtendo números de telefone de serviço para o Skype for Business e o Microsoft Teams](/microsoftteams/getting-service-phone-numbers).
+ Se você quiser obter números de telefone de chamada tarifada e gratuita para Audioconferência, atendimento automático e filas de chamadas, consulte Obter números de telefone de serviço para o Skype for Business e o [Microsoft Teams.](/microsoftteams/getting-service-phone-numbers)
   
 ## <a name="communications-credits"></a>Créditos de Comunicação
 

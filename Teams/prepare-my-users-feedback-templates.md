@@ -1,14 +1,14 @@
 ---
 title: Pesquisas de comentários no Teams ou no Skype for Business
-author: lanachin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.date: 03/31/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
 audience: admin
-description: Coletar comentários dos usuários para melhorar a implementação de voz em nuvem no Microsoft Teams ou no Skype for Business.
+description: Reúna comentários dos usuários para melhorar a implementação de voz na nuvem no Microsoft Teams ou no Skype for Business.
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -16,57 +16,57 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: dff5fc154d55dac208f451e4ddec392167c08975
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 379455f036876a36944bc4fc9c762f5ed98b6ec3
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43137441"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49812611"
 ---
 # <a name="user-feedback-surveys"></a>Pesquisas de comentários do usuário 
 
-Use pesquisas de comentários para capturar a experiência e as ideias dos usuários após a implantação. As perguntas devem extrair comentários sobre a reportabilidade dos usuários para mudar, a eficácia dos recursos de treinamento, como o plano de suporte foi preparado e a experiência geral dos usuários. Avaliar as respostas das pesquisas para mensurar as metas inteligentes (específicas, mensuráveis, atingível, atingível, pertinentes e temporais) que você definiu durante o planejamento do projeto e determinar qualquer ação adicional necessária.
+Use pesquisas de comentários para capturar a experiência e as ideias dos usuários após a implantação. As perguntas devem emitir comentários sobre a receptividade dos usuários à alteração, a eficácia dos recursos de treinamento, o quão pronto estava o plano de suporte e a experiência geral dos usuários. Avalie as respostas da pesquisa para medir as metas SMART (específicas, mensuráveis, relevantes, com limite de tempo) definidas durante o planejamento do projeto e determine qualquer ação adicional necessária.
 
 Personalize as perguntas abaixo e transfira-as para uma ferramenta de pesquisa, como o SharePoint, para facilitar a distribuição e a análise.
 
-Para a finalidade dessas pesquisas, um *novo sistema telefônico* refere-se ao uso de recursos de chamada no Microsoft Teams ou do Skype for Business, além de dispositivos como um telefone de mídia ou um celular. Todas as referências ao Microsoft Teams nestas pesquisas também se aplicam ao Skype for Business.
+Para fins dessas *pesquisas,* o novo sistema de telefonia se refere ao uso de recursos de chamada no Microsoft Teams ou no Skype for Business, além de dispositivos como um telefone de mídia ou celular. Todas as referências ao Microsoft Teams nessas pesquisas também se aplicam ao Skype for Business.
 
-Indique o nível de acordo com as instruções a seguir, conforme se relaciona ao uso do teams como seu telefone. 
+Indique seu nível de acordo com as instruções a seguir, como ele se refere ao uso do Teams como seu telefone. 
 
-|     &nbsp;                              | Concordo completamente | Um pouco de acordo | Neutra | Um pouco discordo | Discordo completamente | N/d ou não usou |
+|     &nbsp;                              | Concordar completamente | Um pouco de acordo | Neutro | Um pouco em desacordo | Completamente desacordo | N/A ou não usou |
 |--------------------------------------------------------------------------------------------------------------------------|----------------------|--------------------|-------------|-----------------------|-------------------------|------------------------|
-| Posso fazer e receber facilmente chamadas telefônicas usando meu computador.                                                             |                      |                    |             |                       |                         |                        |
-| Posso fazer e receber facilmente chamadas telefônicas usando meu novo telefone de mesa.                                              |                      |                    |             |                       |                         |                        |
-| Consegui entrar facilmente no meu novo telefone de mesa.                                                                              |                      |                    |             |                       |                         |                        |
-| Consegui fazer e receber chamadas com êxito no meu dispositivo móvel.                                                   |                      |                    |             |                       |                         |                        |
-| O novo sistema telefônico atende a todas as minhas necessidades de chamadas (transferir, reter, correio de voz e assim por diante)                                      |                      |                    |             |                       |                         |                        |
-| Vejo o valor de integração de nosso sistema telefônico com o Teams.                                                 |                      |                    |             |                       |                         |                        |
-| Usar o Microsoft Teams como meu telefone torna mais fácil para mim fazer o meu trabalho.                                          |                      |                    |             |                       |                         |                        |
-| Minha experiência de áudio com o Microsoft Teams é tão boa ou melhor do que com o nosso sistema telefônico antigo.                   |                      |                    |             |                       |                         |                        |
+| Posso facilmente fazer e receber chamadas telefônicas usando meu computador.                                                             |                      |                    |             |                       |                         |                        |
+| Posso facilmente fazer e receber chamadas telefônicas usando meu novo telefone de mesa.                                              |                      |                    |             |                       |                         |                        |
+| Eu era capaz de entrar facilmente no meu novo telefone de mesa.                                                                              |                      |                    |             |                       |                         |                        |
+| Eu era capaz de fazer e receber chamadas com êxito em meu dispositivo móvel.                                                   |                      |                    |             |                       |                         |                        |
+| O novo sistema telefônico atende a todas as minhas necessidades de chamada (transferência, espera, caixa postal e assim por diante)                                      |                      |                    |             |                       |                         |                        |
+| Vejo o valor de integrar nosso sistema de telefonia com o Teams.                                                 |                      |                    |             |                       |                         |                        |
+| Usar o Teams como meu telefone torna mais fácil para mim fazer meu trabalho.                                          |                      |                    |             |                       |                         |                        |
+| Minha experiência de áudio com o Teams é tão boa quanto ou melhor do que era com nosso sistema de telefonia antigo.                   |                      |                    |             |                       |                         |                        |
 
-Se você escolheu **um pouco discordo** ou **discordo completamente** para qualquer uma das instruções acima, explique. (Abrir texto)
+Se você escolher **Um pouco desagrade** **ou** completamente não concordar com qualquer uma das instruções acima, explique. (Texto aberto)
 
-Indique seu nível de acordo com as instruções a seguir, conforme se relaciona à experiência de integração com o seu novo telefone.  
+Indique seu nível de acordo com as instruções a seguir, pois ele está relacionado à sua experiência de integração com seu novo telefone.  
 
-|          &nbsp;                  | Concordo completamente | Um pouco de acordo | Neutra | Um pouco discordo | Discordo completamente | N/d ou não usou |
+|          &nbsp;                  | Concordar completamente | Um pouco de acordo | Neutro | Um pouco em desacordo | Completamente desacordo | N/A ou não usou |
 |----|----------------------|--------------------|-------------|-----------------------|-------------------------|------------------------|
-| Minha organização forneceu informações suficientes (comunicação, recursos e chamadas para ação) para mim começar a usar o novo sistema telefônico. |                      |                    |             |                       |                         |                        |
-| Eu tinha recursos de treinamento adequados para se integrar rapidamente ao novo sistema telefônico.                                                          |                      |                    |             |                       |                         |                        |
-| Nossa assistência técnica pode responder a todas as minhas perguntas sobre o novo sistema telefônico.                                                           |                      |                    |             |                       |                         |                        |
+| Minha organização forneceu informações suficientes (comunicação, recursos e chamadas para ação) para que eu comece a usar o novo sistema de telefonia. |                      |                    |             |                       |                         |                        |
+| Eu tinha recursos de treinamento adequados para fazer a integração rápida ao novo sistema de telefonia.                                                          |                      |                    |             |                       |                         |                        |
+| Nosso helpdesk pode responder a todas as minhas perguntas sobre o novo sistema telefônico.                                                           |                      |                    |             |                       |                         |                        |
 
-Se você escolheu **um pouco discordo** ou **discordo completamente** para qualquer uma das instruções acima, explique. (Abrir texto)
+Se você escolher **Um pouco desagrade** **ou** completamente não concordar com qualquer uma das instruções acima, explique. (Texto aberto)
 
-Qual é a probabilidade de você recomendar o uso do teams como um telefone para um amigo ou colega? (0 = nada provável... 10 = extremamente provável)
+Qual é a probabilidade de você recomendar o uso do Teams como um telefone para um amigo ou colega? (0=Não é nada provável... 10=Extremamente provável)
 
-| 0      | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 254 |
+| 0      | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 |
 |--------|---|---|---|---|---|---|---|---|---|---|----|
 |&nbsp; |&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|
 
-Qual é a probabilidade de você recomendar o seu dispositivo de telefone para um amigo ou colega? (0 = nada provável... 10 = extremamente provável)  
+Qual é a probabilidade de você recomendar seu dispositivo de telefone para um amigo ou colega? (0=Não é nada provável... 10=Extremamente provável)  
 
-| 0      | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 254 |
+| 0      | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 |
 |--------|---|---|---|---|---|---|---|---|---|---|----|
 |&nbsp; |&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|
 
 
-Compartilhe comentários adicionais sobre a sua experiência de telefone. (Abrir texto)
+Compartilhe comentários adicionais sobre sua experiência de telefone. (Texto aberto)

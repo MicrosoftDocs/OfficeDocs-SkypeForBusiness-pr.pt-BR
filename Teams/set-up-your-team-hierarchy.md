@@ -15,16 +15,16 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 06244553c051677533d275ad6cd47052775d01f7
-ms.sourcegitcommit: ab566ddab9d26440bac1716a975f30e075d0c7b5
+ms.openlocfilehash: 0c5a0fcdce1218bc32eac8b28e7a8c1f41e87cb0
+ms.sourcegitcommit: 9787b84ab15ee2e14890151e966c81b4a4d43e62
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 01/14/2021
-ms.locfileid: "49865245"
+ms.locfileid: "49868336"
 ---
 # <a name="set-up-your-team-targeting-hierarchy"></a>Configurar sua hierarquia de direcionamento de equipe
 
-Configurar uma hierarquia de direcionamento de equipe permitirá que sua organização publique conteúdo em um grande conjunto de equipes. A hierarquia de direcionamento de equipe define como todas as equipes em sua hierarquia estão relacionadas umas às outras, quais usuários podem publicar tarefas e em quais equipes os usuários têm permissões para publicar. Os recursos de publicação estão desabilitados para todos os usuários, a menos que uma hierarquia de direcionamento de equipe esteja configurada para sua organização. Para configurar uma hierarquia de direcionamento de equipe, você precisará criar um arquivo que defina a hierarquia e, em seguida, carregue-o no Teams para aplicá-lo à sua organização. Depois que o esquema é carregado, os aplicativos no Teams podem usá-lo. Você pode praticar a configuração de uma hierarquia e o carregamento para o locatário do Teams usando um script [aqui.](https://docs.microsoft.com/microsoftteams/set-up-your-team-hierarchy#Create-a-sample-hierarchy)
+Configurar uma hierarquia de direcionamento de equipe permitirá que sua organização publique conteúdo em um grande conjunto de equipes. A hierarquia de direcionamento de equipe define como todas as equipes em sua hierarquia estão relacionadas umas às outras, quais usuários podem publicar tarefas e em quais equipes os usuários têm permissões para publicar. Os recursos de publicação estão desabilitados para todos os usuários, a menos que uma hierarquia de direcionamento de equipe esteja configurada para sua organização. Para configurar uma hierarquia de direcionamento de equipe, você precisará criar um arquivo que defina a hierarquia e, em seguida, carregue-o no Teams para aplicá-lo à sua organização. Depois que o esquema é carregado, os aplicativos no Teams podem usá-lo.
 
 > [!IMPORTANT]
 > Para a versão inicial, somente o aplicativo Tarefas dá suporte a equipes hierárquicas.  A aplicação de uma hierarquia de direcionamento de equipe à sua organização habilita a publicação [de](https://support.microsoft.com/office/publish-task-lists-to-create-and-track-work-in-your-organization-095409b3-f5af-40aa-9f9e-339b54e705df) tarefas no aplicativo Tarefas. Você não verá uma hierarquia de equipes em outras áreas do Microsoft Teams.

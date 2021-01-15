@@ -1,7 +1,7 @@
 ---
 title: Criar uma equipe englobando toda a organização no Microsoft Teams
-author: LanaChin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 ms.reviewer: phlouie
 manager: serdars
 ms.topic: article
@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 3d0534d4c0a62573bd3ac649c39b3d0f17a235f6
-ms.sourcegitcommit: 3b54a56ec1fe4366580621e19cdbb6a833a01161
+ms.openlocfilehash: b5f96d120d30f723f55299325dca9bb1b3126ac0
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "48361431"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49809551"
 ---
 # <a name="create-an-org-wide-team-in-microsoft-teams"></a>Criar uma equipe englobando toda a organização no Microsoft Teams
 
@@ -32,13 +32,13 @@ Com as equipes de toda a organização, os administradores globais podem criar f
 
 ![Captura de tela da opção Toda a organização para criar uma equipe de toda a organização](media/create-org-wide-team.png "Captura de tela da opção Toda a organização para criar uma equipe de toda a organização")
 
-Quando uma equipe de toda a organização é criada, todos os administradores globais de serviços e administradores são adicionados como proprietários de equipes, e todos os usuários ativos são adicionados como membros da equipe. Os usuários não licenciados também são adicionados à equipe. Na primeira vez que um usuário não licenciado entra no Teams, o usuário recebe uma licença do Microsoft Teams Exploratory. Para saber mais sobre a licença Exploratory, confira [gerenciar a licença do Microsoft Teams Exploratory](teams-exploratory.md). 
+Quando uma equipe de toda a organização é criada, todos os administradores globais e administradores de serviço do Teams são adicionados como proprietários de equipe e todos os usuários ativos são adicionados como membros da equipe. Os usuários não licenciados também são adicionados à equipe. Na primeira vez que um usuário não licenciado entra no Teams, o usuário recebe uma licença do Microsoft Teams Exploratory. Para saber mais sobre a licença Exploratory, confira [gerenciar a licença do Microsoft Teams Exploratory](teams-exploratory.md). 
 
 Estes tipos de contas não serão adicionados à sua equipe de toda a organização:
 
 - Contas impedidas de entrar
 - Usuários convidados
-- Contas de recursos ou serviços (por exemplo, contas associadas a atendedores automáticos e filas de chamadas)
+- Contas de recurso ou de serviço (por exemplo, contas associadas a atendentes automáticos e filas de chamada)
 - Contas de sala ou equipamento
 - Contas com caixa de correio compartilhada
 
@@ -56,7 +56,7 @@ Para aproveitar ao máximo a equipe de toda a organização, recomendamos que os
 
 ### <a name="allow-only-team-owners-to-post-to-the-general-channel"></a>Permitir que somente proprietários de equipe publiquem no canal Geral
 
-Reduza o ruído do canal fazendo com que somente os proprietários da equipe publiquem no canal Geral. Vá para a equipe, localize o canal geral e, em seguida, selecione **̇ ̇ ̇ mais opções**  >  **gerenciar canal**. Na guia **configurações do canal** , clique em **permissões**e selecione **somente os proprietários podem publicar mensagens**.
+Reduza o ruído do canal fazendo com que somente os proprietários da equipe publiquem no canal Geral. Vá para a equipe, localize o canal Geral e selecione **̇ ̇ ̇ Mais opções Gerenciar**  >  **canal**. Na guia **Configurações do** Canal, clique **em Permissões** e selecione **Somente proprietários podem postar mensagens.**
 
 ### <a name="turn-off-team-and-team-name-mentions"></a>Desativar as menções à @equipe e @[nome da equipe]
 
@@ -88,8 +88,8 @@ Os administradores globais podem converter uma equipe existente em uma equipe de
 
 ### <a name="can-i-create-an-org-wide-team-using-a-team-template"></a>Posso criar uma equipe de toda a organização usando um modelo de equipe?
 
-Os modelos de equipe não podem ser usados para criar uma equipe de toda a organização. O trabalho para esse recurso está atualmente em andamento. 
+Modelos de equipe não podem ser usados para criar uma equipe de toda a organização. O trabalho para esse recurso está em andamento no momento. 
 
 ## <a name="see-also"></a>Confira também
 
-Assista a um vídeo sobre como [criar uma equipe de toda a empresa no Microsoft Teams](https://support.office.com/article/037bb27a-bcc9-48fe-8d72-44d9482420a3).
+Assista a um vídeo sobre [como criar uma equipe de toda a empresa no Microsoft Teams.](https://support.office.com/article/037bb27a-bcc9-48fe-8d72-44d9482420a3)

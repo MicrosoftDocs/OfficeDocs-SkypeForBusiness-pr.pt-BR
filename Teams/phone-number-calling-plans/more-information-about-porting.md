@@ -1,7 +1,7 @@
 ---
-title: Mais informações sobre portabilidade
-author: lanachin
-ms.author: v-lanac
+title: Mais informações sobre portação
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.reviewer: tonysmit,jastark
 ms.topic: article
@@ -18,97 +18,97 @@ ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - CSH
 ms.custom: ms.teamsadmincenter.voice.phonenumbers.porting.moreinfo
-description: Obtenha as diretrizes necessárias para portar seus números de telefone para o Microsoft Teams.
-ms.openlocfilehash: 2c84b8bcba4b41488db64cbda42c9162daaf268d
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+description: Receba as orientações de que você precisa para por seus números de telefone para o Microsoft Teams.
+ms.openlocfilehash: bb63e22b7cc3aa787ddb984f82180937c5aaf9fc
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41827959"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49802511"
 ---
-# <a name="more-information-about-porting"></a>Mais informações sobre portabilidade
+# <a name="more-information-about-porting"></a>Mais informações sobre portação
 
-Aqui você encontrará mais informações sobre como fazer a portabilidade de seus números de telefone para o Microsoft Teams.
+Aqui você encontrará mais informações sobre como portar seus números de telefone para o Microsoft Teams.
 
-Para obter instruções passo a passo completas, consulte [transferir números de telefone para o Microsoft Teams](transfer-phone-numbers-to-teams.md).
+Para obter instruções passo a passo completas, consulte [Transferir números de telefone para o Teams.](transfer-phone-numbers-to-teams.md)
 
-Se precisar de ajuda ou se precisar de mais números de telefone, entre em contato com a [ajuda da PSTN Desk do serviço](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md).
+Se precisar de ajuda ou se precisar obter mais números de telefone, entre em contato com a ajuda do [serviço PSTN.](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)
 
-## <a name="port-order-account-information"></a>Informações da conta do pedido de portabilidade
+## <a name="port-order-account-information"></a>Informações da conta de pedido de portabilidade
 
-Quando estiver na página **adicionar informações de conta** do assistente de portabilidade para enviar um pedido de portabilidade, você digitará quase todas as mesmas informações que você forneceria no loa, incluindo:
+Quando estiver na  página Adicionar informações da conta do assistente de portabilidade para enviar um pedido de portabilidade, você inserirá quase todas as mesmas informações que forneceria na LOA, incluindo:
   
-- Número da conta para o provedor de serviços ou operadora
+- Número da conta do provedor de serviços ou da operadora
     
 - Número de telefone de cobrança (BTN)
     
-- PIN-se necessário para o seu provedor de serviços ou operadora atual
+- PIN - se necessário pelo provedor de serviços ou operadora atual
     
 - Nome da organização
     
     > [!NOTE]
-    > Isso só aceita 25 caracteres, incluindo os espaços. Se o nome da organização tiver mais de 25 caracteres, serão enviados os 25 primeiros caracteres do nome e o pedido de portabilidade ainda será processado.
+    > Isso aceitará apenas 25 caracteres, incluindo espaços. Se o nome da organização tiver mais de 25 caracteres, os primeiros 25 caracteres do nome serão enviados e a ordem de portabilidade ainda será processada.
   
 - Nome da pessoa autorizada a fazer alterações na conta
     
     > [!NOTE]
-    > Isso só aceitará 15 caracteres, incluindo espaços. Se o nome da pessoa tiver mais de 15 caracteres, os 15 primeiros caracteres do nome serão enviados e o pedido de portabilidade ainda será processado. 
+    > Isso aceitará apenas 15 caracteres, incluindo espaços. Se o nome da pessoa tiver mais de 15 caracteres, os 15 primeiros caracteres do nome serão enviados e o pedido de portabilidade ainda será processado. 
   
 - Endereço do serviço
   
-Para que o envio do pedido de portabilidade seja fácil e evitar erros, faça o seguinte:
+Para facilitar o envio da ordem de portabilidade e evitar erros, certifique-se de fazer o seguinte:
   
-- Remova todos os recursos (como grupos de buscas) associados a seus números. Certifique-se de que não haja recursos de controle de chamada avançados, como chamadas de caça ou toques distintos, habilitados nestes números de telefone.
+- Remova todos os recursos (como Grupos de Busca) associados aos seus números. Certifique-se de que não haja recursos avançados de controle de chamada, como a Busca de Chamadas ou o Anel Distinto, habilitados nesses números de telefone.
     
-- Certifique-se de que você não tenha feito nenhuma nova encomenda de serviço ou se desconectará com seu provedor de serviços atual.
+- Certifique-se de que você não fez novos pedidos de serviço ou se desconecta com seu provedor de serviços atual.
     
 - Verifique se todos os números são da mesma operadora e da mesma conta.
     
-- Verifique se as informações da conta que você forneceu correspondem exatamente às que a operadora de telefonia possui. As informações incompatíveis são a causa mais comum de erros e podem atrasar seu pedido de portabilidade.
+- Verifique se as informações da conta que você forneceu correspondem exatamente às que a operadora de telefonia possui. Informações incompatibilidades são a causa mais comum de erros e podem atrasar o pedido de portabilidade.
     
 > [!CAUTION]
-> Não desconecte seus serviços com o seu provedor de serviços ou operadora. Você deve manter o serviço anterior ativo para portar seus números de telefone para o Microsoft Teams. Não congele sua conta com seu provedor de serviços ou operadora. O congelamento da conta impede a alteração de operadoras nela. O usuário autorizado precisará enviar uma solicitação à operadora atual para cancelar o congelamento. Esse processo pode levar de uma a três semanas, dependendo da operadora.
+> Não desconecte seus serviços com seu provedor de serviços ou operadora. Você deve manter seu serviço anterior ativo para por os números de telefone para o Teams. Não congele sua conta com seu provedor de serviços ou operadora. O congelamento da conta impede a alteração de operadoras nela. O usuário autorizado precisará enviar uma solicitação à operadora atual para cancelar o congelamento. Esse processo pode levar de uma a três semanas, dependendo da operadora.
 
 ## <a name="authorized-person-on-the-account"></a>Pessoa autorizada na conta
 
-No assistente de portabilidade, você deve digitar o nome da pessoa que está autorizada a fazer alterações na conta com o provedor de serviços ou operadora. O nome não é usado para processar a ordem da portabilidade, mas é usado no caso de uma contestação, ou se algo estiver incorreto quando os números forem portados. Essa pessoa é responsável pela autorização da carta de autorização (LOA) para um pedido de portabilidade.
+No assistente de portação, você deve inserir o nome da pessoa que está autorizada a fazer alterações na conta com o provedor de serviços ou a operadora. O nome não é usado para processar a ordem de portabilidade, mas é usado no caso de uma disputa ou se algo estiver incorreto quando os números são portados. Essa pessoa é responsável pela Carta de Autorização (LOA) para um pedido de portabilidade.
   
 > [!NOTE]
-> A caixa está limitada a 15 caracteres (incluindo espaços). Não ter o nome completo na caixa não atrasa ou cancela o pedido de portabilidade.
+> A caixa está limitada a 15 caracteres (incluindo espaços). Não ter o nome completo na caixa não atrasará ou cancelará o pedido de portabilidade.
   
-## <a name="whats-my-billing-telephone-number"></a>Qual é o meu número de telefone de cobrança?
+## <a name="whats-my-billing-telephone-number"></a>Qual é meu número de telefone de cobrança?
 
-O número de telefone de cobrança (BTN) é o número de telefone principal que está incluído em sua fatura e cobrado pelo seu provedor de serviços ou operadora. Se você estiver transferindo um número de telefone de uma conta que tem apenas um número de telefone, será necessário digitar este número de telefone. Se você estiver transferindo números de telefone de uma conta que tenha mais de um, examine sua fatura ou entre em contato com seu provedor de serviços ou operadora para determinar o que o BTN é para a sua conta.
+O número de telefone de cobrança (BTN) é o número de telefone principal incluído na sua fatura e cobrado pelo seu provedor de serviços ou operadora. Se você estiver transferindo um número de telefone de uma conta que tenha apenas um número de telefone, será necessário inserir esse número de telefone. Se você estiver transferindo números de telefone de uma conta que tenha mais de um, poderá olhar sua conta ou entrar em contato com seu provedor de serviços ou operadora para determinar qual é o BTN para sua conta.
 
-## <a name="what-should-i-put-in-for-the-account-number"></a>O que devo colocar no número da conta?
+## <a name="what-should-i-put-in-for-the-account-number"></a>O que devo colocar para o número da conta?
 
-Em geral, você pode encontrar o número da conta em qualquer cobrança ou fatura que você tiver do seu provedor de serviços ou operadora ou pode fazer logon no site da sua operadora. Se ainda não souber o número da conta, você pode entrar em contato com o provedor de serviços ou operadora para obtê-lo.
+Normalmente, você pode encontrar o número da conta em qualquer conta ou fatura que tiver do provedor de serviços ou da operadora ou pode fazer logoff no site da operadora. Se você ainda não sabe o número da conta, entre em contato com o provedor de serviços ou a operadora para obter o número.
   
 > [!CAUTION]
->  É importante que você não use espaços, traços ou hifens ao digitar seu provedor de serviço ou número de conta da operadora.
+>  É importante que você certifique-se de não usar espaços, traços ou hífens ao inserir o número da conta do provedor de serviços ou da operadora.
 
-## <a name="what-should-i-put-in-for-the-organization-name"></a>O que devo colocar no nome da organização?
+## <a name="what-should-i-put-in-for-the-organization-name"></a>O que devo colocar para o nome da organização?
 
-Este é o nome da sua organização. O nome da organização é limitado a 25 caracteres, que inclui espaços. O nome da empresa não é usado para processar a solicitação de pedido de portabilidade. Ele é usado no caso de uma contestação ou se algo estiver incorreto quando os números de telefone estiverem sendo portados. Se não for possível ajustar o nome inteiro da empresa na caixa, não será possível atrasar ou cancelar o pedido de portabilidade.
+Esse é o nome da sua organização. O nome da organização é limitado a 25 caracteres, o que inclui espaços. O nome da empresa não é usado para processar a solicitação de pedido de portabilidade. Ele é usado no caso de uma disputa ou se algo está incorreto quando os números de telefone estão sendo portados. Se você não conseguir encaixar o nome inteiro da empresa na caixa, ele não atrasará ou cancelará o pedido de portabilidade.
   
-## <a name="what-should-i-put-in-for-the-service-address"></a>O que devo colocar no endereço do serviço?
+## <a name="what-should-i-put-in-for-the-service-address"></a>O que devo colocar no endereço de serviço?
 
-O endereço do serviço é diferente do endereço de cobrança ou de emergência que você registrou com o seu provedor de serviços de telefonia ou operadora. Se você não souber isso, entre em contato com seu provedor de serviços ou operadora para saber qual é o endereço de serviço listado na sua conta.
+O endereço de serviço é diferente do endereço de cobrança ou de emergência que você registrou com seu provedor de serviços telefônicos ou operadora. Se você não sabe disso, entre em contato com seu provedor de serviços ou operadora para descobrir o endereço de serviço listado em sua conta.
 
-## <a name="how-should-i-enter-the-phone-numbers"></a>Como devo inserir os números de telefone?
+## <a name="how-should-i-enter-the-phone-numbers"></a>Como inserir os números de telefone?
 <a name="bkadding"> </a>
 
-Ao enviar um pedido de portabilidade, você deve usar um arquivo CSV formatado corretamente para enviar seus números de telefone. Estes são os requisitos para o arquivo CSV:
+Ao enviar um pedido de portabilidade, você deve usar um arquivo CSV formatado corretamente para enviar seus números de telefone. Aqui estão os requisitos para o arquivo CSV:
 
- - Você pode fornecer o nome do arquivo desejado.
- - O arquivo só deve ter uma coluna com um cabeçalho chamado intervalo.
+ - Você pode dar ao arquivo o nome que quiser.
+ - O arquivo deve ter apenas uma coluna com um header chamado PhoneNumber.
  - Cada número de telefone deve estar em uma linha separada.
- - Os números de telefone podem ser apenas dígitos ou no formato E. 164.
- - O formato do número de telefone deve corresponder ao país ou região selecionado. Por exemplo, se você escolher o Reino Unido no assistente de portabilidade, use 44, que é o código do país, seguido do número de telefone com o número correto de dígitos. Por exemplo, 4420812341234.
+ - Os números de telefone podem ser apenas dígitos ou no formato E.164.
+ - O formato do número de telefone deve corresponder ao país ou região que você selecionou. Por exemplo, se você escolher o Reino Unido no assistente de portação, use 44, que é o código do país, seguido do número de telefone com o número correto de dígitos. Por exemplo, 4420812341234.
 
-## <a name="how-do-i-see-the-status-of-my-port-order"></a>Como posso ver o status do meu pedido de portabilidade?
+## <a name="how-do-i-see-the-status-of-my-port-order"></a>Como vejo o status do meu pedido de portabilidade?
 
-Veja [qual é o status dos seus pedidos de portabilidade?](port-order-status.md)
+Veja [qual é o status de seus pedidos de portabilidade?](port-order-status.md)
 
 ## <a name="related-topics"></a>Tópicos relacionados
 
@@ -116,4 +116,4 @@ Veja [qual é o status dos seus pedidos de portabilidade?](port-order-status.md)
 - [Diferentes tipos de números de telefone usados para Planos de Chamadas](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
 - [Gerenciar os números de telefone de sua organização](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 - [Termos e condições das Chamadas de Emergência](../emergency-calling-terms-and-conditions.md)
-- [Rótulo de isenção de isenção de emergência](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
+- [Rótulo de aviso de isenção de responsabilidade de chamada de emergência](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)

@@ -1,14 +1,14 @@
 ---
-title: Definir configurações de rede-roteamento baseado em local
-author: LanaChin
-ms.author: v-lanac
+title: Definir configurações de rede - Roteamento baseado em local
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.topic: article
 ms.reviewer: roykuntz
 audience: admin
 ms.service: msteams
 search.appverid: MET150
-description: Saiba como criar e configurar regiões de rede, sites e sub-redes para roteamento baseado em local para roteamento direto.
+description: Saiba como criar e configurar regiões de rede, sites e sub-redes para roteamento Location-Based roteamento direto.
 localization_priority: Normal
 f1.keywords:
 - NOCSH
@@ -17,44 +17,44 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 8025467a0581c95a40551244948a8e6b7c0ecbc8
-ms.sourcegitcommit: 3e5cac88911611c94c0330bf50af9c34db308cdf
+ms.openlocfilehash: a7dd707a6066cfe9a8dfcbcc9b3ae36d450d1dd1
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/22/2020
-ms.locfileid: "45372050"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49822941"
 ---
 # <a name="configure-network-settings-for-location-based-routing"></a>Configurar definições de rede para o Roteamento baseado na localização
 
-Se ainda não tiver feito isso, leia [roteamento baseado em local de plano para roteamento direto](location-based-routing-plan.md) para revisar outras etapas que você precisará tomar antes de definir as configurações de rede para roteamento baseado em local.
+Se você ainda não tiver feito isso, leia Plan [Location-Based Routing for Direct Routing](location-based-routing-plan.md) para revisar outras etapas que você precisará seguir antes de definir as configurações de rede para roteamento Location-Based.
 
-Este artigo descreve como definir as configurações de rede para roteamento baseado em local. Depois de implantar o roteamento direto do sistema telefônico em sua organização, as próximas etapas são criar e configurar regiões de rede, sites de rede e sub-redes de rede.
+Este artigo descreve como definir as configurações de rede para Location-Based Roteamento. Depois de implantar o Roteamento Direto do Sistema de Telefonia em sua organização, as próximas etapas são criar e configurar regiões de rede, sites de rede e sub-redes de rede.
 
 ## <a name="define-network-regions"></a>Definir regiões de rede
 
-Uma região de rede contém um conjunto de sites de rede e interconecta várias partes de uma rede em várias áreas geográficas. Para ver as etapas sobre como configurar regiões de rede, vá para [gerenciar a topologia de rede para recursos de nuvem no Teams](manage-your-network-topology.md).
+Uma região de rede contém um conjunto de sites de rede e interconecta várias partes de uma rede em várias áreas geográficas. Para etapas sobre como configurar regiões de rede, vá para Gerenciar sua topologia de rede [para recursos de nuvem no Teams.](manage-your-network-topology.md)
 
 ## <a name="define-network-sites"></a>Definir sites de rede
 
-Um site de rede representa um local onde a sua organização tem um local físico, como um escritório, um conjunto de prédios ou um campus. Você deve associar cada site de rede na sua topologia a uma região de rede. Para ver as etapas sobre como configurar sites de rede, consulte [gerenciar a topologia de rede para recursos de nuvem no Teams](manage-your-network-topology.md).
+Um site de rede representa um local onde sua organização tem um local físico, como um escritório, um conjunto de edifícios ou um campus. Você deve associar cada site de rede em sua topologia a uma região de rede. Para etapas sobre como configurar sites de rede, consulte Gerenciar sua topologia de rede [para recursos de nuvem no Teams.](manage-your-network-topology.md)
 
-Uma prática recomendada para o roteamento baseado em localização é criar um site separado para cada local que tenha conectividade PSTN exclusiva. Você pode criar um site que está habilitado para roteamento baseado em localização ou um site que não está habilitado para roteamento baseado em local. Por exemplo, talvez você queira criar um site que não esteja habilitado para roteamento baseado em local para permitir que os usuários habilitados para roteamento baseado em localização façam chamadas PSTN quando estiverem em roaming para esse site.
+Uma prática Location-Based roteamento é criar um site separado para cada local que tenha conectividade PSTN exclusiva. Você pode criar um site habilitado para roteamento Location-Based ou um site que não está habilitado para roteamento Location-Based local. Por exemplo, talvez você queira criar um site que não está habilitado para o Roteamento do Location-Based para permitir que os usuários habilitados para Roteamento Location-Based façam chamadas PSTN quando eles transitam para esse site.
 
 ## <a name="define-network-subnets"></a>Definir sub-redes de rede
 
-Cada sub-rede deve estar associada a um site de rede específico. Você pode associar várias sub-redes com o mesmo site de rede, mas não pode associar vários sites com a mesma sub-rede. Para ver as etapas sobre como configurar sub-redes de rede, vá para [gerenciar a topologia de rede para recursos de nuvem no Teams](manage-your-network-topology.md).
+Cada sub-rede deve ser associada a um site de rede específico. Você pode associar várias sub-redes ao mesmo site de rede, mas não pode associar vários sites à mesma sub-rede. Para etapas sobre como configurar sub-redes de rede, vá para Gerenciar sua topologia de rede [para recursos de nuvem no Teams.](manage-your-network-topology.md)
 
-Para roteamento baseado em local, as sub-redes IP no local onde os pontos de extremidade da equipe podem se conectar à rede devem ser definidas e associadas a uma rede definida para aplicar a chamada em tarifas. Essa associação de sub-redes habilita o roteamento baseado em localização para localizar os pontos de extremidade geograficamente para determinar se uma determinada chamada PSTN deve ser permitida. As sub-redes IPv6 e IPv4 são aceitas. Ao determinar se um ponto de extremidade do teams está localizado em um site, o roteamento baseado em local verifica primeiro se há um endereço IPv6 correspondente. Se um endereço IPv6 não estiver presente, o roteamento baseado em local verificará se há um endereço IPv4.
+Para Location-Based roteamento, as sub-redes IP no local onde os pontos de extremidade do Teams podem se conectar à rede devem ser definidas e associadas a uma rede definida para impor o desvio de tarifa. Essa associação de sub-redes permite que Location-Based roteamento localize geograficamente os pontos de extremidade para determinar se uma determinada chamada PSTN deve ser permitida. As sub-redes IPv6 e IPv4 são suportadas. Ao determinar se um ponto de extremidade do Teams está localizado em um site, Location-Based roteamento primeiro verifica se há um endereço IPv6 correspondente. Se um endereço IPv6 não estiver presente, Location-Based roteamento verifica se há um endereço IPv4.
 
 ## <a name="define-trusted-ip-addresses-external-subnets"></a>Definir endereços IP confiáveis (sub-redes externas)
 
-Os endereços IP confiáveis são endereços IP externos da Internet da rede corporativa e são usados para determinar se o ponto de extremidade do usuário está dentro da rede corporativa. Para ver as etapas sobre como configurar endereços IP confiáveis, vá para [gerenciar a topologia de rede para recursos de nuvem no Teams](manage-your-network-topology.md).
+Os endereços IP confiáveis são os endereços IP externos da Internet da rede corporativa e são usados para determinar se o ponto de extremidade do usuário está dentro da rede corporativa. Para etapas sobre como configurar endereços IP confiáveis, vá para Gerenciar sua topologia de rede [para recursos de nuvem no Teams.](manage-your-network-topology.md)
 
-Se o endereço IP externo do usuário corresponder a um endereço IP que está na lista de endereços IP confiáveis, o roteamento baseado em local fará uma verificação para determinar a sub-rede interna na qual o ponto de extremidade do usuário está localizado. Se o endereço IP externo do usuário não corresponder a qualquer endereço IP definido na lista de endereços IP confiáveis, o ponto de extremidade será classificado como sendo de um local desconhecido e as chamadas PSTNs de ou para um usuário habilitado para roteamento baseado em local serão bloqueadas.
+Se o endereço IP externo do usuário corresponde a um endereço IP que está na lista de endereços IP confiáveis, o roteamento Location-Based verifica para determinar a sub-rede interna onde o ponto de extremidade do usuário está localizado. Se o endereço IP externo do usuário não corresponder a nenhum endereço IP definido na lista de endereços IP confiáveis, o ponto de extremidade será classificado como sendo em um local desconhecido e quaisquer chamadas PSTN para ou de um usuário habilitado para Roteamento de Location-Based serão bloqueadas.
 
 ## <a name="next-steps"></a>Próximas etapas
 
-Vá para [habilitar o roteamento baseado em local para roteamento direto](location-based-routing-enable.md).
+Vá para [Habilitar Location-Based roteamento direto.](location-based-routing-enable.md)
 
 ## <a name="related-topics"></a>Tópicos relacionados
 

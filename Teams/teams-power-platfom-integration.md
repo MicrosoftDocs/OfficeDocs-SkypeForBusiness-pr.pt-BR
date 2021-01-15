@@ -1,7 +1,7 @@
 ---
-title: Integração do Microsoft Teams com o Microsoft Power Platform
-author: lanachin
-ms.author: v-lanac
+title: Integração do Teams com o Microsoft Power Platform
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.reviewer: kvivek
 ms.topic: article
@@ -16,41 +16,41 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 search.appverid: MET150
-description: Saiba mais sobre a integração do Microsoft Teams com as ferramentas de plataforma de energia da Microsoft, incluindo o Power BI, aplicativos de energia, automatização de energia e agentes de energia virtual.
-ms.openlocfilehash: 81d673069e972f4627a8bfab18095e81803dd4b1
-ms.sourcegitcommit: b282acc1633c2d62bbff0ea77b6b647775ae6dfe
+description: Saiba mais sobre a integração do Teams com as ferramentas do Microsoft Power Platform, incluindo Power BI, aplicativos Do Power, Power Automate e Agentes Virtuais do Power.
+ms.openlocfilehash: 0fb05596fb5fa87ab4e209325cc35b7a3eae56d9
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "49085665"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49804561"
 ---
-# <a name="teams-integration-with-microsoft-power-platform"></a>Integração do Microsoft Teams com o Microsoft Power Platform
+# <a name="teams-integration-with-microsoft-power-platform"></a>Integração do Teams com o Microsoft Power Platform
 
-A plataforma de alimentação da Microsoft ajuda os usuários a acelerar o desenvolvimento com ferramentas de código baixo para analisar dados usando o **Power bi**, criar aplicativos personalizados usando **aplicativos de energia**, automatizar processos usando o **Power** bi e criar bots inteligentes usando **agentes de energia virtual** mais rápido do que nunca. Com o turno para trabalho remoto e híbrido, o Microsoft Teams permitiu às pessoas em todo o mundo continuar a criar, colaborar e se comunicar. Com mais de 75 milhões usuários ativos diariamente, o Teams é como as pessoas estão realizando o trabalho.
+O Microsoft Power Platform ajuda os usuários a acelerar o desenvolvimento com ferramentas de baixo código para analisar dados usando o **Power BI,** criar aplicativos personalizados usando o **Power Apps,** automatizar processos usando o **Power Automate** e criar bots inteligentes usando Agentes Virtuais Do **Power** mais rapidamente do que nunca. Com a mudança para o trabalho remoto e híbrido, o Microsoft Teams permitiu que pessoas em todo o mundo continuasse a criar, colaborar e se comunicar. Com mais de 75 milhões de usuários ativos diários, o Teams é como as pessoas estão trabalhando.
 
-:::image type="content" source="media/teams-power-platform-integration.png" alt-text="Resumindo a imagem do Teams e da plataforma de alimentação da Microsoft":::
+:::image type="content" source="media/teams-power-platform-integration.png" alt-text="Imagem resumindo o Teams e o Microsoft Power Platform":::
 
-A plataforma de alimentação da Microsoft oferece muitos recursos de integração com o Microsoft Teams em que você pode inserir relatórios do **Power bi** no espaço de trabalho do Teams, inserir aplicativos criados **usando os** **aplicativos de energia** como uma guia ou um aplicativo pessoal, disparar um fluxo **automatizado de energia** de qualquer mensagem ou usar cartões adaptáveis e adicionar o bot para interagir com o Microsoft Teams.
+O Microsoft Power Platform oferece muitos recursos de integração com o Teams, onde você pode inserir relatórios do **Power BI** no espaço de trabalho do Teams, inserir aplicativos criados usando o **Power Apps** como uma guia ou um aplicativo pessoal, disparar um fluxo do **Power Automate** de qualquer mensagem ou usar cartões adaptáveis e adicionar seu bot criado usando Agentes Virtuais do **Power** ao Teams para outros membros da sua organização interagirem.
 
-A partir de setembro de 2020, a integração com o Microsoft Power Platform foi aprimorada para permitir que os usuários façam o seguinte, *sem precisar sair da interface do teams*:
+A partir de setembro de 2020, a integração com o Microsoft Power Platform melhorou para permitir que os usuários façam o seguinte sem sair da *interface do Teams:*
 
-- Crie e compartilhe painéis, relatórios e aplicativos usando o **Power bi** para fazer decisões direcionadas a dados.
-- Crie e compartilhe aplicativos de uso baixo e de código específico usando um **Power apps** Studio, conectando-se aos seus dados corporativos armazenados na nova plataforma de dados subjacentes (Microsoft dataverso para Teams for Teams), Microsoft 365 ou em outras fontes de dados por meio de conectores.
-- Crie fluxos de trabalho automatizados entre seus aplicativos e serviços para sincronizar arquivos, obter notificações, coletar dados e muito mais usando a **automatização de energia**.
-- Crie bots usando uma interface gráfica sem código e orientada usando **os agentes virtuais de força** para criar facilmente assistentes digitais no Teams e disponibilizá-los para seus colegas de chat.
+- Criar e compartilhar painéis, relatórios e aplicativos usando o **Power BI** para tomar decisões orientadas por dados.
+- Crie e compartilhe aplicativos de baixo código e de finalidade usando um estúdio integrado do **Power Apps** conectando-se aos seus dados de negócios armazenados na nova plataforma de dados subjacente (Microsoft Dataverse para Teams), No Microsoft 365 ou em outras fontes de dados por meio de conectores.
+- Crie fluxos de trabalho automatizados entre seus aplicativos e serviços para sincronizar arquivos, receber notificações, coletar dados e muito mais usando **o Power Automate**.
+- Crie bots usando uma interface gráfica guiada sem código usando Agentes Virtuais Do **Power** para criar facilmente assistentes digitais no Teams e torná-los disponíveis para seus colegas conversarem.
 
-As novas funcionalidades para criar aplicativos, bots e fluxos de trabalho são apoiadas pela nova plataforma interna de dados de código baixo para Teams, [dataverso para Teams](https://go.microsoft.com/fwlink/?linkid=2143541), que fornece armazenamento de dados relacional, tipos de dados avançados, controle de empresa e implantação de solução com um único clique. O dataverso do teams é baseado no início do [Microsoft dataverso](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro). Com o dataverso para Teams, os usuários do teams podem localizar e instalar soluções personalizadas e prontas para uso da App Store do teams que demonstram cenários comuns em todos os setores. Você pode personalizar e estender essas soluções personalizadas para se adaptar aos requisitos e à identidade visual da sua organização.
+Os novos recursos para criar aplicativos, bots e fluxos de trabalho são respaldados pela nova plataforma de dados integrada e de baixo código para o Teams, [Dataverse para Teams](https://go.microsoft.com/fwlink/?linkid=2143541), que fornece armazenamento de dados relacionais, tipos de dados avançados, governança de nível empresarial e implantação de solução de um clique. O dataverso do Teams é criado com base no [Microsoft Dataverse](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro). Com o Dataverse para o Teams, os usuários do Teams podem encontrar e instalar soluções personalizadas e prontas para uso na loja de aplicativos do Teams que mostram cenários comuns em todos os setores. Você pode personalizar e estender essas soluções personalizadas para se adaptar à identidade visual e aos requisitos da sua organização.
 
 ## <a name="licensing"></a>Licenças
 
-Os novos recursos estão disponíveis para as assinaturas Select Microsoft 365.
+Os novos recursos estão disponíveis para as assinaturas selecionadas do Microsoft 365.
 
-- Para obter mais informações sobre os requisitos de licenciamento para aplicativos de energia, autoautomatizar, agentes de energia virtual e dataverso para equipes, consulte [Licenciamento](https://go.microsoft.com/fwlink/?linkid=2143647).
-- Para obter mais informações sobre os requisitos de licenciamento do Power BI, consulte [requisitos](https://go.microsoft.com/fwlink/?linkid=2143490).
+- Para obter mais informações sobre os requisitos de licenciamento para Power Apps, Power Automate, Power Virtual Agents e Dataverse para Teams, consulte [Licenciamento.](https://go.microsoft.com/fwlink/?linkid=2143647)
+- Para obter mais informações sobre os requisitos de licenciamento do Power BI, consulte [Requisitos.](https://go.microsoft.com/fwlink/?linkid=2143490)
  
-## <a name="how-do-i-get-started"></a>Como posso começar?
+## <a name="how-do-i-get-started"></a>Como faço para começar?
 
 - [Power BI e Teams](https://aka.ms/pbi-teams-docs)
-- [Aplicativos avançados e equipes](https://aka.ms/pa-teams-docs)
-- [Automatizar e equipes de energia](https://aka.ms/pauto-teams-docs)
-- [Agentes e agentes de energia virtual](https://aka.ms/pva-teams-docs)
+- [Power Apps e Teams](https://aka.ms/pa-teams-docs)
+- [Power Automate e Teams](https://aka.ms/pauto-teams-docs)
+- [Power Virtual Agents and Teams](https://aka.ms/pva-teams-docs)

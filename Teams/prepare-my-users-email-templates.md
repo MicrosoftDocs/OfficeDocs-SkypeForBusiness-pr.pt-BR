@@ -1,14 +1,14 @@
 ---
-title: Modelos de email de notificação do usuário para distribuição de sistema telefônico online
-author: lanachin
-ms.author: v-lanac
+title: Modelos de email de notificação do usuário para a lançamento do sistema de telefonia online
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.date: 03/31/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
 audience: admin
-description: Use modelos para enviar emails aos usuários à medida que você implementar recursos de voz na nuvem no Teams ou no Skype for Business.
+description: Use modelos para enviar emails aos usuários ao implementar recursos de voz na nuvem no Teams ou no Skype for Business.
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -16,28 +16,28 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 0382f8033d9faf925d5d5cd4023bf43e543b7b86
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: e224f12a2c2aa7f41ee772980ffea24a907197c5
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43137511"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49812641"
 ---
-# <a name="facilitate-user-adoption-of-your-new-online-phone-system"></a>Facilitar a adoção pelo usuário do seu novo sistema telefônico online
+# <a name="facilitate-user-adoption-of-your-new-online-phone-system"></a>Facilitar a adoção do usuário do novo sistema de telefonia online
 
-Um telefone pode ser a linha da vida do usuário. Alternar de um sistema telefônico tradicional para um sistema telefônico online representa uma mudança significativa na maneira como os usuários trabalham e podem afetar negativamente a produtividade. Levar tempo para informar, orientar e dar suporte a usuários por meio dessa alteração pode ajudar a garantir uma experiência de usuário positiva e maximizar o retorno sobre o investimento.
+Um telefone pode ser a linha de vida de um usuário. Alternar de um sistema de telefonia tradicional para um sistema de telefonia online representa uma alteração significativa na maneira como os usuários trabalham e pode afetar negativamente a produtividade. O tempo necessário para informar, orientar e dar suporte aos usuários por meio dessa alteração pode ajudar a garantir uma experiência positiva do usuário e maximizar o retorno sobre o investimento.
 
-Este artigo contém modelos de email personalizáveis para ajudar a informar os usuários sobre seu novo sistema telefônico. Personalize e envie os e-mails apropriados para alinhar-se com a sua implantação de voz específica. Usamos colchetes para indicar seções para facilitar a personalização, mas recomendamos que você adicione mensagens específicas da organização para que o anúncio seja mais relevante para seus usuários. Se aplicável à sua implantação, substitua todas as referências a "Teams" por "Skype for Business".
+Este artigo contém modelos de email personalizáveis para ajudar a informar os usuários sobre seu novo sistema de telefonia. Personalize e envie os emails apropriados para alinhar com sua implantação de voz específica. Nós utilizamos colchetes para indicar seções de personalização fácil, mas recomendamos que você adicione mensagens específicas da organização para tornar o comunicado mais relevante para seus usuários. Se aplicável à sua implantação, substitua todas as referências ao "Teams" por "Skype for Business".
 
-## <a name="email-number-1-send-three-weeks-before-launch"></a>Email número 1: enviar três semanas antes do lançamento
+## <a name="email-number-1-send-three-weeks-before-launch"></a>Número de email 1: Enviar três semanas antes do início
 
-Linha de assunto:
+Linha do assunto:
 
 ```
 IMPORTANT ANNOUNCEMENT about your office desk phone
 ```
 
-Corpo do e-mail:
+Corpo do email:
 
 ```
 Instant messaging and online meetings have become a common way to communicate
@@ -94,15 +94,15 @@ If you have questions concerning this change, contact <INSERT NAME/EMAIL>.
 <INSERT NAME OF EXECUTIVE SPONSOR>
 ```
 
-## <a name="email-number-2-send-one-week-before-launch"></a>Email número 2: Enviar uma semana antes do lançamento
+## <a name="email-number-2-send-one-week-before-launch"></a>Número de email 2: Enviar uma semana antes do início
 
-Linha de assunto:
+Linha do assunto:
 
 ```
 ACTION REQUESTED: Are you ready for your new phone system?
 ```
 
-Corpo do e-mail:
+Corpo do email:
 
 ```
 Your new phone calling capabilities are almost here. As explained in our initial
@@ -138,15 +138,15 @@ Regards,
 <INSERT NAME OF DEPARTMENT MANAGER>
 ```
 
-## <a name="email-number-3-send-on-launch-day"></a>Email número 3: enviar no dia do lançamento
+## <a name="email-number-3-send-on-launch-day"></a>Número de email 3: Enviar no dia de lançamento
 
-Linha de assunto:
+Linha do assunto:
 
 ```
 IMPORTANT NOTICE: Your new phone system is live
 ```
 
-Corpo do e-mail:
+Corpo do email:
 
 ```
 Welcome to your new phone system. Your Microsoft Teams application
@@ -175,15 +175,15 @@ Regards,
 <INSERT NAME OF DEPARTMENT MANAGER OR EXECUTIVE SPONSOR>
 ```
 
-## <a name="email-number-4-send-two-weeks-after-launch"></a>Email número 4: enviar duas semanas após a inicialização
+## <a name="email-number-4-send-two-weeks-after-launch"></a>Número de email 4: Enviar duas semanas após o lançamento
 
-Linha de assunto:
+Linha do assunto:
 
 ```
 FEEDBACK REQUESTED: Your new phone system
 ```
 
-Corpo do e-mail:
+Corpo do email:
 
 ```
 It's been a few weeks since you started using Microsoft Teams to
