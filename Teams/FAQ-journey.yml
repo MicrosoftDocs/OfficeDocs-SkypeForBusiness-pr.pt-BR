@@ -21,20 +21,22 @@ metadata:
   - M365-collaboration
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: 35f947233e9b6cdc713b05e6bc9ebe78d404e1a4
-  ms.sourcegitcommit: 28e65b7a11c6afb5f791744b3f9780a024c4dc79
+  ms.openlocfilehash: 44c73bc597acb8dfed7f090db35d4c278854ee14
+  ms.sourcegitcommit: 1889ca28b9cb952b13c84efa3588957a327f9702
   ms.translationtype: MT
   ms.contentlocale: pt-BR
-  ms.lasthandoff: 12/18/2020
-  ms.locfileid: "49712616"
+  ms.lasthandoff: 01/13/2021
+  ms.locfileid: "49841472"
 title: Perguntas frequentes ‒ atualização do Skype for Business para o Microsoft Teams
 summary: ''
 sections:
-- name: Aceita
+- name: Ignorado
   questions:
   - question: Há um prazo rígido segundo o qual os clientes precisam passar do Skype for Business Online para o Teams?
     answer: >
       Sim. [O Skype for Business Online será desativado](skype-for-business-online-retirement.md) em 31 de julho de 2021 e, em seguida, não estará mais acessível ou com suporte. Incentivamos os clientes do Skype for Business Online a começar a usar o Teams e que iniciem agora o planejamento das atualizações para terem tempo suficiente para concluir a atualização antes da data de desativação.
+  - question: A Transmissão de Reunião do Skype vai se retirar ao mesmo tempo que o Skype for Business online?
+    answer: "Sim. Os Eventos Ao Vivo do Teams são a solução sucessora da Transmissão de Reunião do Skype.    \n"
   - question: Quanto tempo levará a atualização de minha organização para o Microsoft Teams?
     answer: >
       A jornada de sua organização do Skype for Business para o Teams pode ser definida por você. Para ajudar no planejamento e na execução, desenvolvemos diretrizes abrangentes de atualização com base em uma estrutura comprovada e projetada para ajudá-lo a navegar pelos elementos técnicos e organizacionais de alteração. Comece sua jornada familiarizando-se com nossa [estrutura de sucesso de atualização](upgrade-framework.md) e recursos associados que servem como a base para navegar em sua jornada do Skype for Business para o Teams.
@@ -44,7 +46,7 @@ sections:
   - question: Onde posso saber mais sobre os modos de coexistência no centro de administração do Microsoft Teams?
     answer: >
       No centro de administração do Microsoft Teams, você verá opções de modos de coexistência, permitindo que a sua organização gerencie da maneira certa a jornada do Skype for Business para o Teams na sua organização. Saiba mais sobre a [coexistência e os modos de atualização](teams-and-skypeforbusiness-coexistence-and-interoperability.md).
-  - question: O que devo fazer para se preparar para a atualização?
+  - question: O que devo fazer para me preparar para a atualização?
     answer: >
       Uma atualização bem-sucedida incluirá a validação da prontidão técnica, além da prontidão da aceitação do usuário. Mesmo que você determine que sua organização não está pronta para atualizar para o Teams, você pode começar o processo de planejamento hoje. Além disso, você pode começar a perceber o valor do Teams, habilitando o Teams junto com o Skype for Business. Comece sua jornada com o [Skype para Teams[(https://aka.ms/skypetoteams-home) hoje.
 

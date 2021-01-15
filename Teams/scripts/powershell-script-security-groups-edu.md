@@ -1,13 +1,13 @@
 ---
-title: Exemplo de script do PowerShell-crie grupos de segurança para professores e alunos da sua escola
-author: LanaChin
-ms.author: v-lanac
+title: Exemplo de script do PowerShell - Criar grupos de segurança para educadores e alunos em sua escola
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.topic: article
 ms.reviewer: angch
 ms.service: msteams
 audience: admin
-description: Use este script do PowerShell para criar os grupos de segurança dos quais você precisa para gerenciar as políticas do teams para educadores e alunos na sua escola.
+description: Use este script do PowerShell para criar os grupos de segurança necessários para gerenciar as políticas do Teams para educadores e alunos em sua escola.
 f1.keywords:
 - NOCSH
 localization_priority: Normal
@@ -17,38 +17,38 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 4b468ae05139571f395962b96f2963c7bb77b2e6
-ms.sourcegitcommit: dc3e8ae454c42981f037f4de2e48005428b6078e
+ms.openlocfilehash: 4eb7e482552b5013b6b220c4244ee4ecf114780c
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/31/2020
-ms.locfileid: "46534057"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49809461"
 ---
-# <a name="powershell-script-sample---create-security-groups-for-educators-and-students-in-your-school"></a><span data-ttu-id="8834d-103">Exemplo de script do PowerShell-crie grupos de segurança para professores e alunos da sua escola</span><span class="sxs-lookup"><span data-stu-id="8834d-103">PowerShell script sample - Create security groups for educators and students in your school</span></span>
+# <a name="powershell-script-sample---create-security-groups-for-educators-and-students-in-your-school"></a><span data-ttu-id="c6f75-103">Exemplo de script do PowerShell - Criar grupos de segurança para educadores e alunos em sua escola</span><span class="sxs-lookup"><span data-stu-id="c6f75-103">PowerShell script sample - Create security groups for educators and students in your school</span></span>
 
-<span data-ttu-id="8834d-104">Use este script do PowerShell para criar os grupos de segurança para os quais você precisa gerenciar políticas do Microsoft Teams na sua escola.</span><span class="sxs-lookup"><span data-stu-id="8834d-104">Use this PowerShell script to create the security groups that you need to manage Microsoft Teams policies in your school.</span></span> <span data-ttu-id="8834d-105">O recurso [atribuição de política a grupos](../assign-policies.md#assign-a-policy-to-a-group) no Teams permite atribuir uma política a um grupo de usuários, como um grupo de segurança.</span><span class="sxs-lookup"><span data-stu-id="8834d-105">The [policy assignment to groups](../assign-policies.md#assign-a-policy-to-a-group) feature in Teams lets you assign a policy to a group of users, such as a security group.</span></span> <span data-ttu-id="8834d-106">A atribuição de política é propagada para os membros do grupo de acordo com as regras de precedência.</span><span class="sxs-lookup"><span data-stu-id="8834d-106">The policy assignment is propagated to members of the group according to precedence rules.</span></span> <span data-ttu-id="8834d-107">Conforme os membros são adicionados ou removidos de um grupo, suas atribuições de política herdadas são atualizadas de acordo.</span><span class="sxs-lookup"><span data-stu-id="8834d-107">As members are added to or removed from a group, their inherited policy assignments are updated accordingly.</span></span>
+<span data-ttu-id="c6f75-104">Use este script do PowerShell para criar os grupos de segurança necessários para gerenciar as políticas do Microsoft Teams em sua escola.</span><span class="sxs-lookup"><span data-stu-id="c6f75-104">Use this PowerShell script to create the security groups that you need to manage Microsoft Teams policies in your school.</span></span> <span data-ttu-id="c6f75-105">O [recurso de atribuição de](../assign-policies.md#assign-a-policy-to-a-group) política a grupos no Teams permite atribuir uma política a um grupo de usuários, como um grupo de segurança.</span><span class="sxs-lookup"><span data-stu-id="c6f75-105">The [policy assignment to groups](../assign-policies.md#assign-a-policy-to-a-group) feature in Teams lets you assign a policy to a group of users, such as a security group.</span></span> <span data-ttu-id="c6f75-106">As atribuições de política serão propagadas para os membros do grupo, de acordo com as regras de precedência.</span><span class="sxs-lookup"><span data-stu-id="c6f75-106">The policy assignment is propagated to members of the group according to precedence rules.</span></span> <span data-ttu-id="c6f75-107">À medida que os membros forem adicionados ou removidos de um grupo, as atribuições de política herdadas serão atualizadas.</span><span class="sxs-lookup"><span data-stu-id="c6f75-107">As members are added to or removed from a group, their inherited policy assignments are updated accordingly.</span></span>
 
-<span data-ttu-id="8834d-108">Esse script do PowerShell cria dois grupos de segurança, um para funcionários e professores e outro para os alunos da sua escola, com base no tipo de licença.</span><span class="sxs-lookup"><span data-stu-id="8834d-108">This PowerShell script creates two security groups, one for staff and educators and another for students in your school, based on license type.</span></span> <span data-ttu-id="8834d-109">Em seguida, você pode atribuir políticas aos grupos de segurança que você criou.</span><span class="sxs-lookup"><span data-stu-id="8834d-109">You can then assign policies to the security groups that you created.</span></span> <span data-ttu-id="8834d-110">Para obter mais informações sobre como usar esse script, consulte [atribuir políticas a grandes conjuntos de usuários na sua escola](../batch-group-policy-assignment-edu.md).</span><span class="sxs-lookup"><span data-stu-id="8834d-110">For more information about using this script, see [Assign policies to large sets of users in your school](../batch-group-policy-assignment-edu.md).</span></span>
+<span data-ttu-id="c6f75-108">Esse script do PowerShell cria dois grupos de segurança, um para funcionários e educadores e outro para alunos em sua escola, com base no tipo de licença.</span><span class="sxs-lookup"><span data-stu-id="c6f75-108">This PowerShell script creates two security groups, one for staff and educators and another for students in your school, based on license type.</span></span> <span data-ttu-id="c6f75-109">Em seguida, você pode atribuir políticas aos grupos de segurança criados.</span><span class="sxs-lookup"><span data-stu-id="c6f75-109">You can then assign policies to the security groups that you created.</span></span> <span data-ttu-id="c6f75-110">Para obter mais informações sobre como usar esse script, consulte [Atribuir políticas a grandes conjuntos de usuários em sua escola.](../batch-group-policy-assignment-edu.md)</span><span class="sxs-lookup"><span data-stu-id="c6f75-110">For more information about using this script, see [Assign policies to large sets of users in your school](../batch-group-policy-assignment-edu.md).</span></span>
 
-<span data-ttu-id="8834d-111">Este script faz o seguinte:</span><span class="sxs-lookup"><span data-stu-id="8834d-111">This script does the following:</span></span>
+<span data-ttu-id="c6f75-111">Este script faz o seguinte:</span><span class="sxs-lookup"><span data-stu-id="c6f75-111">This script does the following:</span></span>
 
-- <span data-ttu-id="8834d-112">Identifica a equipe e os professores que recebem um SKU docente, cria um grupo de segurança e adiciona funcionários e educadores ao grupo.</span><span class="sxs-lookup"><span data-stu-id="8834d-112">Identifies staff and educators who are assigned a Faculty SKU, creates a security group, and then adds staff and educators  to the group.</span></span>
-- <span data-ttu-id="8834d-113">Identifica os alunos que receberam o SKU do aluno, cria um grupo de segurança e, em seguida, adiciona os alunos ao grupo.</span><span class="sxs-lookup"><span data-stu-id="8834d-113">Identifies students who are assigned a Student SKU, creates a security group, and then adds the students to the group.</span></span>
-- <span data-ttu-id="8834d-114">Atualiza a participação de cada grupo de segurança para adicionar ou remover funcionários, professores e alunos com base na existência de licenças.</span><span class="sxs-lookup"><span data-stu-id="8834d-114">Updates the membership of each security group to add or remove staff, educators, and students based on whether they have a license.</span></span>
+- <span data-ttu-id="c6f75-112">Identifica funcionários e educadores que são atribuídos a uma SKU do corpo docente, cria um grupo de segurança e adiciona funcionários e educadores ao grupo.</span><span class="sxs-lookup"><span data-stu-id="c6f75-112">Identifies staff and educators who are assigned a Faculty SKU, creates a security group, and then adds staff and educators  to the group.</span></span>
+- <span data-ttu-id="c6f75-113">Identifica os alunos que têm uma SKU de aluno atribuída, cria um grupo de segurança e adiciona os alunos ao grupo.</span><span class="sxs-lookup"><span data-stu-id="c6f75-113">Identifies students who are assigned a Student SKU, creates a security group, and then adds the students to the group.</span></span>
+- <span data-ttu-id="c6f75-114">Atualiza a associação de cada grupo de segurança para adicionar ou remover funcionários, educadores e alunos com base em se eles têm uma licença.</span><span class="sxs-lookup"><span data-stu-id="c6f75-114">Updates the membership of each security group to add or remove staff, educators, and students based on whether they have a license.</span></span>
 
-<span data-ttu-id="8834d-115">Você precisará executar esse script regularmente para manter atualizados os grupos de segurança e até o momento.</span><span class="sxs-lookup"><span data-stu-id="8834d-115">You'll need to run this script regularly to keep the security groups fresh and up to date.</span></span>
+<span data-ttu-id="c6f75-115">Você precisará executar esse script regularmente para manter os grupos de segurança atualizados.</span><span class="sxs-lookup"><span data-stu-id="c6f75-115">You'll need to run this script regularly to keep the security groups fresh and up to date.</span></span>
 
 > [!IMPORTANT]
-> <span data-ttu-id="8834d-116">É importante entender [as regras de precedência](../assign-policies.md#precedence-rules) e a [classificação de atribuição de grupo](../assign-policies.md#group-assignment-ranking) ao atribuir políticas a grupos.</span><span class="sxs-lookup"><span data-stu-id="8834d-116">It's important to understand [precedence rules](../assign-policies.md#precedence-rules) and [group assignment ranking](../assign-policies.md#group-assignment-ranking) when assigning policies to groups.</span></span> <span data-ttu-id="8834d-117">Certifique-se de ler e entender os conceitos do [que você precisa saber sobre a atribuição de política a grupos](../assign-policies.md#what-you-need-to-know-about-policy-assignment-to-groups).</span><span class="sxs-lookup"><span data-stu-id="8834d-117">Make sure that you read and understand the concepts in [What you need to know about policy assignment to groups](../assign-policies.md#what-you-need-to-know-about-policy-assignment-to-groups).</span></span>
+> <span data-ttu-id="c6f75-116">É importante entender as regras de [precedência](../assign-policies.md#precedence-rules) e a classificação de atribuição [de grupo](../assign-policies.md#group-assignment-ranking) ao atribuir políticas a grupos.</span><span class="sxs-lookup"><span data-stu-id="c6f75-116">It's important to understand [precedence rules](../assign-policies.md#precedence-rules) and [group assignment ranking](../assign-policies.md#group-assignment-ranking) when assigning policies to groups.</span></span> <span data-ttu-id="c6f75-117">Leia e entenda os conceitos no que você precisa saber sobre a atribuição de [política a grupos.](../assign-policies.md#what-you-need-to-know-about-policy-assignment-to-groups)</span><span class="sxs-lookup"><span data-stu-id="c6f75-117">Make sure that you read and understand the concepts in [What you need to know about policy assignment to groups](../assign-policies.md#what-you-need-to-know-about-policy-assignment-to-groups).</span></span>
 
-## <a name="before-you-start"></a><span data-ttu-id="8834d-118">Antes de começar</span><span class="sxs-lookup"><span data-stu-id="8834d-118">Before you start</span></span>
+## <a name="before-you-start"></a><span data-ttu-id="c6f75-118">Antes de começar</span><span class="sxs-lookup"><span data-stu-id="c6f75-118">Before you start</span></span>
 
-<span data-ttu-id="8834d-119">Baixe e instale o [módulo do PowerShell do Skype for Business online](https://www.microsoft.com/download/details.aspx?id=39366)e, em seguida, reinicie o computador, se solicitado.</span><span class="sxs-lookup"><span data-stu-id="8834d-119">Download and install the [Skype for Business Online PowerShell module](https://www.microsoft.com/download/details.aspx?id=39366), and then restart your computer if prompted.</span></span>
+<span data-ttu-id="c6f75-119">Baixe e instale o [módulo do PowerShell](https://www.microsoft.com/download/details.aspx?id=39366)do Skype for Business Online e reinicie o computador, se solicitado.</span><span class="sxs-lookup"><span data-stu-id="c6f75-119">Download and install the [Skype for Business Online PowerShell module](https://www.microsoft.com/download/details.aspx?id=39366), and then restart your computer if prompted.</span></span>
 
-<span data-ttu-id="8834d-120">Para obter mais informações, consulte [gerenciar o Skype for Business online com o Office 365 a](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell) visão geral do PowerShell e do [Teams PowerShell](../teams-powershell-overview.md).</span><span class="sxs-lookup"><span data-stu-id="8834d-120">To lean more, see [Manage Skype for Business Online with Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell) and [Teams PowerShell overview](../teams-powershell-overview.md).</span></span>
+<span data-ttu-id="c6f75-120">Para saber mais, confira [a visão geral gerenciar o Skype for Business Online com o Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell) e [o Teams PowerShell.](../teams-powershell-overview.md)</span><span class="sxs-lookup"><span data-stu-id="c6f75-120">To lean more, see [Manage Skype for Business Online with Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell) and [Teams PowerShell overview](../teams-powershell-overview.md).</span></span>
 
 
-## <a name="sample-script"></a><span data-ttu-id="8834d-121">Script de exemplo</span><span class="sxs-lookup"><span data-stu-id="8834d-121">Sample script</span></span>
+## <a name="sample-script"></a><span data-ttu-id="c6f75-121">Script de exemplo</span><span class="sxs-lookup"><span data-stu-id="c6f75-121">Sample script</span></span>
 
 ```powershell
 <#
@@ -273,6 +273,6 @@ else {
 Stop-Transcript
 ```
 
-## <a name="related-topics"></a><span data-ttu-id="8834d-122">Tópicos relacionados</span><span class="sxs-lookup"><span data-stu-id="8834d-122">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="c6f75-122">Tópicos relacionados</span><span class="sxs-lookup"><span data-stu-id="c6f75-122">Related topics</span></span>
 
-[<span data-ttu-id="8834d-123">Atribuir políticas a seus usuários no Teams</span><span class="sxs-lookup"><span data-stu-id="8834d-123">Assign policies to your users in Teams</span></span>](../assign-policies.md)
+[<span data-ttu-id="c6f75-123">Atribuir políticas aos usuários no Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="c6f75-123">Assign policies to your users in Teams</span></span>](../assign-policies.md)

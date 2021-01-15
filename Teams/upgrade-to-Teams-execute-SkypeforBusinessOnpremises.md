@@ -1,13 +1,13 @@
 ---
 title: Atualizar do Skype for Business local para o Teams
-author: lanachin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.topic: article
 ms.service: msteams
 audience: admin
 ms.reviewer: landerl
-description: Saiba como migrar sua organização para o Microsoft Teams a partir de uma implantação local do Skype for Business.
+description: Saiba como fazer a transição da sua organização para o Microsoft Teams a partir de uma implantação local do Skype for Business.
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -20,52 +20,52 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f88d3ee5fb4d953fb1516fc19d559d2ad9c5e36a
-ms.sourcegitcommit: b07938c0b6edafacaeaaef205a1be00c4c1693ba
+ms.openlocfilehash: 90542f680c1d3992f5f318bfedad8a12470d282b
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "47940471"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49820941"
 ---
-# <a name="upgrade-from-a-skype-for-business-on-premises-deployment-to-teams"></a><span data-ttu-id="37aef-103">Atualizar de uma implantação local do Skype for Business para o Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="37aef-103">Upgrade from a Skype for Business on-premises deployment to Teams</span></span>
+# <a name="upgrade-from-a-skype-for-business-on-premises-deployment-to-teams"></a><span data-ttu-id="7195f-103">Atualizar de uma implantação local do Skype for Business para o Teams</span><span class="sxs-lookup"><span data-stu-id="7195f-103">Upgrade from a Skype for Business on-premises deployment to Teams</span></span>
 
-<span data-ttu-id="37aef-104">![Estágios da jornada da atualização, com ênfase no estágio de implantação e implementação](media/upgrade-banner-deployment.png "Estágios da jornada da atualização, com ênfase no estágio de implantação e implementação")</span><span class="sxs-lookup"><span data-stu-id="37aef-104">![Stages of the upgrade journey, with emphasis on the Deployment and Implementation stage](media/upgrade-banner-deployment.png "Stages of the upgrade journey, with emphasis on the Deployment and Implementation stage")</span></span>
+<span data-ttu-id="7195f-104">![Estágios da jornada de atualização, com ênfase no estágio implantação e implementação](media/upgrade-banner-deployment.png "Estágios da jornada de atualização, com ênfase no estágio implantação e implementação")</span><span class="sxs-lookup"><span data-stu-id="7195f-104">![Stages of the upgrade journey, with emphasis on the Deployment and Implementation stage](media/upgrade-banner-deployment.png "Stages of the upgrade journey, with emphasis on the Deployment and Implementation stage")</span></span>
 
-<span data-ttu-id="37aef-105">Este artigo faz parte do estágio de implantação e implementação de sua jornada de atualização.</span><span class="sxs-lookup"><span data-stu-id="37aef-105">This article is part of the Deployment and Implementation stage of your upgrade journey.</span></span> <span data-ttu-id="37aef-106">Antes de prosseguir, confirme que você concluiu as seguintes atividades:</span><span class="sxs-lookup"><span data-stu-id="37aef-106">Before proceeding, confirm that you've completed the following activities:</span></span>
+<span data-ttu-id="7195f-105">Este artigo faz parte do estágio implantação e implementação da sua jornada de atualização.</span><span class="sxs-lookup"><span data-stu-id="7195f-105">This article is part of the Deployment and Implementation stage of your upgrade journey.</span></span> <span data-ttu-id="7195f-106">Antes de prosseguir, confirme se você concluiu as seguintes atividades:</span><span class="sxs-lookup"><span data-stu-id="7195f-106">Before proceeding, confirm that you've completed the following activities:</span></span>
 
-- [<span data-ttu-id="37aef-107">Alistou as partes envolvidas no seu projeto</span><span class="sxs-lookup"><span data-stu-id="37aef-107">Enlisted your project stakeholders</span></span>](upgrade-enlist-stakeholders.md)
-- [<span data-ttu-id="37aef-108">Definiu o escopo do seu projeto</span><span class="sxs-lookup"><span data-stu-id="37aef-108">Defined your project scope</span></span>](https://aka.ms/SkypetoTeams-Scope)
-- [<span data-ttu-id="37aef-109">Compreendeu a coexistência e interoperabilidade do Skype for Business e do Teams</span><span class="sxs-lookup"><span data-stu-id="37aef-109">Understood coexistence and interoperability of Skype for Business and Teams</span></span>](https://aka.ms/SkypeToTeams-Coexist)
-- [<span data-ttu-id="37aef-110">Escolheu sua jornada de atualização</span><span class="sxs-lookup"><span data-stu-id="37aef-110">Chosen your upgrade journey</span></span>](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
-- [<span data-ttu-id="37aef-111">Seu ambiente foi preparado</span><span class="sxs-lookup"><span data-stu-id="37aef-111">Prepared your environment</span></span>](https://aka.ms/SkypeToTeams-TechnicalReadiness)
-- [<span data-ttu-id="37aef-112">Preparou sua organização</span><span class="sxs-lookup"><span data-stu-id="37aef-112">Prepared your organization</span></span>](https://aka.ms/SkypeToTeams-UserReadiness)
-- [<span data-ttu-id="37aef-113">Conduziu um piloto</span><span class="sxs-lookup"><span data-stu-id="37aef-113">Conducted a pilot</span></span>](https://aka.ms/SkypeToTeams-Pilot)
+- [<span data-ttu-id="7195f-107">Alistou as partes envolvidas no seu projeto</span><span class="sxs-lookup"><span data-stu-id="7195f-107">Enlisted your project stakeholders</span></span>](upgrade-enlist-stakeholders.md)
+- [<span data-ttu-id="7195f-108">Definiu o escopo do seu projeto</span><span class="sxs-lookup"><span data-stu-id="7195f-108">Defined your project scope</span></span>](https://aka.ms/SkypetoTeams-Scope)
+- [<span data-ttu-id="7195f-109">Compreendeu a coexistência e interoperabilidade do Skype for Business e do Teams</span><span class="sxs-lookup"><span data-stu-id="7195f-109">Understood coexistence and interoperability of Skype for Business and Teams</span></span>](https://aka.ms/SkypeToTeams-Coexist)
+- [<span data-ttu-id="7195f-110">Escolheu sua jornada de atualização</span><span class="sxs-lookup"><span data-stu-id="7195f-110">Chosen your upgrade journey</span></span>](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
+- [<span data-ttu-id="7195f-111">Preparou seu ambiente</span><span class="sxs-lookup"><span data-stu-id="7195f-111">Prepared your environment</span></span>](https://aka.ms/SkypeToTeams-TechnicalReadiness)
+- [<span data-ttu-id="7195f-112">Preparou sua organização</span><span class="sxs-lookup"><span data-stu-id="7195f-112">Prepared your organization</span></span>](https://aka.ms/SkypeToTeams-UserReadiness)
+- [<span data-ttu-id="7195f-113">Conduz um piloto</span><span class="sxs-lookup"><span data-stu-id="7195f-113">Conducted a pilot</span></span>](https://aka.ms/SkypeToTeams-Pilot)
 
-<span data-ttu-id="37aef-114">Siga as orientações neste artigo se você tiver implantado o Skype for Business ou o Microsoft Lync local e sua organização quiser atualizar para o Microsoft Teams seletivamente — usando vários modos de coexistência ou todos.</span><span class="sxs-lookup"><span data-stu-id="37aef-114">Follow the guidance in this article if you've deployed Skype for Business or Microsoft Lync on-premises and your organization wants to upgrade to Microsoft Teams either selectively—by using multiple coexistence modes—or all-in.</span></span> 
+<span data-ttu-id="7195f-114">Siga as orientações neste artigo se você implantou o Skype for Business ou o Microsoft Lync local e sua organização deseja atualizar para o Microsoft Teams seletivamente, usando vários modos de coexistência, ou todo o pacote.</span><span class="sxs-lookup"><span data-stu-id="7195f-114">Follow the guidance in this article if you've deployed Skype for Business or Microsoft Lync on-premises and your organization wants to upgrade to Microsoft Teams either selectively—by using multiple coexistence modes—or all-in.</span></span> 
 
 > [!IMPORTANT]
 > [!INCLUDE [upgrade-disclaimer](includes/upgrade-disclaimer.md)]
 
-## <a name="step-1-deploy-hybrid-connectivity"></a><span data-ttu-id="37aef-115">Etapa 1: implantar a conectividade híbrida</span><span class="sxs-lookup"><span data-stu-id="37aef-115">Step 1: Deploy hybrid connectivity</span></span>
+## <a name="step-1-deploy-hybrid-connectivity"></a><span data-ttu-id="7195f-115">Etapa 1: Implantar conectividade híbrida</span><span class="sxs-lookup"><span data-stu-id="7195f-115">Step 1: Deploy hybrid connectivity</span></span>
 
-<span data-ttu-id="37aef-116">O principal pré-requisito para atualizar os usuários para o Microsoft Teams é implantar a conectividade híbrida.</span><span class="sxs-lookup"><span data-stu-id="37aef-116">The key prerequisite for upgrading your users to Teams is to deploy hybrid connectivity.</span></span>
+<span data-ttu-id="7195f-116">O principal pré-requisito para atualizar seus usuários para o Teams é implantar a conectividade híbrida.</span><span class="sxs-lookup"><span data-stu-id="7195f-116">The key prerequisite for upgrading your users to Teams is to deploy hybrid connectivity.</span></span>
 
-<span data-ttu-id="37aef-117">Para obter mais informações, consulte [implantar conectividade híbrida entre o Skype for Business Server e o Skype for Business online](/skypeforbusiness/skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/deploy-hybrid-connectivity)</span><span class="sxs-lookup"><span data-stu-id="37aef-117">For more information, see [Deploy hybrid connectivity between Skype for Business Server and Skype for Business Online](/skypeforbusiness/skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/deploy-hybrid-connectivity)</span></span>
+<span data-ttu-id="7195f-117">Para obter mais informações, [consulte Implantar conectividade híbrida entre o Skype for Business Server e o Skype for Business Online](/skypeforbusiness/skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/deploy-hybrid-connectivity)</span><span class="sxs-lookup"><span data-stu-id="7195f-117">For more information, see [Deploy hybrid connectivity between Skype for Business Server and Skype for Business Online](/skypeforbusiness/skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/deploy-hybrid-connectivity)</span></span>
 
-## <a name="step-2-implement-your-chosen-upgrade-journey-for-your-organization"></a><span data-ttu-id="37aef-118">Etapa 2: implementar a viagem de atualização escolhida para a sua organização</span><span class="sxs-lookup"><span data-stu-id="37aef-118">Step 2: Implement your chosen upgrade journey for your organization</span></span>
+## <a name="step-2-implement-your-chosen-upgrade-journey-for-your-organization"></a><span data-ttu-id="7195f-118">Etapa 2: Implementar sua jornada de atualização escolhida para sua organização</span><span class="sxs-lookup"><span data-stu-id="7195f-118">Step 2: Implement your chosen upgrade journey for your organization</span></span>
 
-<span data-ttu-id="37aef-119">Depois de concluir a configuração híbrida, você poderá planejar a transferência dos usuários para o Microsoft 365 ou o Office 365.</span><span class="sxs-lookup"><span data-stu-id="37aef-119">After you've completed your hybrid setup, you can plan to move your users to Microsoft 365 or Office 365.</span></span>
+<span data-ttu-id="7195f-119">Depois de concluir a configuração híbrida, você pode planejar mover seus usuários para o Microsoft 365 ou o Office 365.</span><span class="sxs-lookup"><span data-stu-id="7195f-119">After you've completed your hybrid setup, you can plan to move your users to Microsoft 365 or Office 365.</span></span>
 
-<span data-ttu-id="37aef-120">Para obter mais informações, consulte:</span><span class="sxs-lookup"><span data-stu-id="37aef-120">For more information, see:</span></span>
+<span data-ttu-id="7195f-120">Para obter mais informações, consulte:</span><span class="sxs-lookup"><span data-stu-id="7195f-120">For more information, see:</span></span>
 
-- <span data-ttu-id="37aef-121">[TeamsUpgradePolicy: Gerenciando a migração e a coexistência](upgrade-to-teams-on-prem-tools.md).</span><span class="sxs-lookup"><span data-stu-id="37aef-121">[TeamsUpgradePolicy: managing migration and coexistence](upgrade-to-teams-on-prem-tools.md).</span></span>
+- <span data-ttu-id="7195f-121">[TeamsUpgradePolicy: gerenciando a migração e a coexistência.](upgrade-to-teams-on-prem-tools.md)</span><span class="sxs-lookup"><span data-stu-id="7195f-121">[TeamsUpgradePolicy: managing migration and coexistence](upgrade-to-teams-on-prem-tools.md).</span></span>
 
-- <span data-ttu-id="37aef-122">[Mover usuários do local para o Skype for Business online](/skypeforbusiness/skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/move-users-from-on-premises-to-skype-for-business-online).</span><span class="sxs-lookup"><span data-stu-id="37aef-122">[Move users from on premises to Skype for Business Online](/skypeforbusiness/skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/move-users-from-on-premises-to-skype-for-business-online).</span></span>
+- <span data-ttu-id="7195f-122">[Mova os usuários do local para o Skype for Business Online.](/skypeforbusiness/skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/move-users-from-on-premises-to-skype-for-business-online)</span><span class="sxs-lookup"><span data-stu-id="7195f-122">[Move users from on premises to Skype for Business Online](/skypeforbusiness/skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/move-users-from-on-premises-to-skype-for-business-online).</span></span>
 
-## <a name="phone-system-and-teams-upgrade"></a><span data-ttu-id="37aef-123">Atualização do sistema de telefonia e do teams</span><span class="sxs-lookup"><span data-stu-id="37aef-123">Phone System and Teams upgrade</span></span>
+## <a name="phone-system-and-teams-upgrade"></a><span data-ttu-id="7195f-123">Atualização do Sistema de Telefonia e do Teams</span><span class="sxs-lookup"><span data-stu-id="7195f-123">Phone System and Teams upgrade</span></span>
 
-<span data-ttu-id="37aef-124">A transição de sistemas telefônicos locais para o Microsoft Teams permitirá que você aproveite o roteamento direto do sistema de telefonia ("roteamento direto") ou os planos de chamada fornecidos pela Microsoft para o Microsoft 365 ou o Office 365.</span><span class="sxs-lookup"><span data-stu-id="37aef-124">Transitioning from on-premises phone systems to Teams will allow you to take advantage of Phone System Direct Routing ("Direct Routing") or the Microsoft-provided Calling Plans for Microsoft 365 or Office 365.</span></span>
+<span data-ttu-id="7195f-124">A transição de sistemas telefônicos locais para o Teams permitirá que você aproveite o Roteamento Direto do Sistema de Telefonia ("Roteamento Direto") ou os Planos de Chamadas fornecidos pela Microsoft para o Microsoft 365 ou o Office 365.</span><span class="sxs-lookup"><span data-stu-id="7195f-124">Transitioning from on-premises phone systems to Teams will allow you to take advantage of Phone System Direct Routing ("Direct Routing") or the Microsoft-provided Calling Plans for Microsoft 365 or Office 365.</span></span>
 
-<span data-ttu-id="37aef-125">Se você não estiver usando planos de chamada, será necessário fazer a transição de sua implantação do Enterprise Voice para o roteamento direto do sistema telefônico como parte de sua atualização para o Microsoft Teams.</span><span class="sxs-lookup"><span data-stu-id="37aef-125">If you're not using Calling Plans, you need to transition your enterprise voice deployment to Phone System Direct Routing as part of your upgrade to Teams.</span></span>
+<span data-ttu-id="7195f-125">Se você não estiver usando Planos de Chamadas, precisará fazer a transição da implantação de voz corporativa para o Roteamento Direto do Sistema de Telefonia como parte da atualização para o Teams.</span><span class="sxs-lookup"><span data-stu-id="7195f-125">If you're not using Calling Plans, you need to transition your enterprise voice deployment to Phone System Direct Routing as part of your upgrade to Teams.</span></span>
 
-<span data-ttu-id="37aef-126">Para obter mais informações, consulte [considerações adicionais sobre o roteamento direto do sistema telefônico](https://docs.microsoft.com/MicrosoftTeams/2-envision-make-my-service-decisions-direct-routing).</span><span class="sxs-lookup"><span data-stu-id="37aef-126">For more information, see [additional considerations for Phone System Direct Routing](https://docs.microsoft.com/MicrosoftTeams/2-envision-make-my-service-decisions-direct-routing).</span></span> <span data-ttu-id="37aef-127">Se estiver planejando usar planos de chamada, consulte nossas diretrizes para [transferir seus números de telefone para o Microsoft Teams](phone-number-calling-plans/transfer-phone-numbers-to-teams.md).</span><span class="sxs-lookup"><span data-stu-id="37aef-127">If you are planning to use Calling Plans, please refer to our guidance for [transferring your phone numbers to Teams](phone-number-calling-plans/transfer-phone-numbers-to-teams.md).</span></span>
+<span data-ttu-id="7195f-126">Para obter mais informações, consulte [considerações adicionais sobre o Roteamento Direto do Sistema de Telefonia.](https://docs.microsoft.com/MicrosoftTeams/2-envision-make-my-service-decisions-direct-routing)</span><span class="sxs-lookup"><span data-stu-id="7195f-126">For more information, see [additional considerations for Phone System Direct Routing](https://docs.microsoft.com/MicrosoftTeams/2-envision-make-my-service-decisions-direct-routing).</span></span> <span data-ttu-id="7195f-127">Se você estiver planejando usar Planos de Chamadas, consulte nossa orientação para transferir seus números [de telefone para o Teams.](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)</span><span class="sxs-lookup"><span data-stu-id="7195f-127">If you are planning to use Calling Plans, please refer to our guidance for [transferring your phone numbers to Teams](phone-number-calling-plans/transfer-phone-numbers-to-teams.md).</span></span>

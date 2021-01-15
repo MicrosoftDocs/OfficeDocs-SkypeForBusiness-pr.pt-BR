@@ -1,7 +1,7 @@
 ---
 title: Suporte à integração do Microsoft Teams
-author: lanachin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.date: 11/01/2018
 audience: Admin
@@ -10,7 +10,7 @@ ms.service: msteams
 ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
-description: Use recursos de treinamento online para colocar a equipe de suporte na fase de experimentos da adoção da sua equipe.
+description: Use recursos de treinamento online para integração da equipe de suporte para a fase de experimento da adoção do Teams.
 f1.keywords:
 - CSH
 ms.custom:
@@ -21,20 +21,20 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 76f7cdc48fdea339bfbef81f56eba629e8937abf
-ms.sourcegitcommit: 4b01e4091d22d925d22a2e921963843175a4180b
+ms.openlocfilehash: d61c407e8f969084c1f3775ddd9ede9070a61dc1
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/06/2020
-ms.locfileid: "48929512"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49806131"
 ---
-# <a name="onboard-support-for-microsoft-teams"></a><span data-ttu-id="246bd-103">Suporte à integração do Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="246bd-103">Onboard support for Microsoft Teams</span></span>
+# <a name="onboard-support-for-microsoft-teams"></a><span data-ttu-id="d5049-103">Suporte à integração do Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="d5049-103">Onboard support for Microsoft Teams</span></span>
 
-<span data-ttu-id="246bd-104">Para garantir que as equipes pioneiras e pioneiras tenham o suporte adequado à medida que começarem a usar o Teams, reúna-se com sua equipe de suporte e examine os recursos do teams.</span><span class="sxs-lookup"><span data-stu-id="246bd-104">To ensure that the early adopter and champions teams will have the appropriate support as they start using Teams, meet with your support staff and review the capabilities of Teams.</span></span> <span data-ttu-id="246bd-105">Os principais membros da organização de suporte podem querer participar do programa pioneiro.</span><span class="sxs-lookup"><span data-stu-id="246bd-105">Key members of the support organization may want to join your early adopter program.</span></span> <span data-ttu-id="246bd-106">Incentive o uso do Microsoft Teams em seus próprios cenários.</span><span class="sxs-lookup"><span data-stu-id="246bd-106">Encourage their use of Teams in their own scenarios.</span></span> <span data-ttu-id="246bd-107">Leve-os por meio do produto básico ao usar nossos recursos de treinamento online.</span><span class="sxs-lookup"><span data-stu-id="246bd-107">Take them through the basic onboarding of the product by using our online training resources.</span></span>  
+<span data-ttu-id="d5049-104">Para garantir que as equipes de usuários e campeões mais cedo tenham o suporte apropriado à medida que começarem a usar o Teams, encontre-se com sua equipe de suporte e revise os recursos do Teams.</span><span class="sxs-lookup"><span data-stu-id="d5049-104">To ensure that the early adopter and champions teams will have the appropriate support as they start using Teams, meet with your support staff and review the capabilities of Teams.</span></span> <span data-ttu-id="d5049-105">Os principais membros da organização de suporte podem querer ingressar em seu programa de adoção antecipado.</span><span class="sxs-lookup"><span data-stu-id="d5049-105">Key members of the support organization may want to join your early adopter program.</span></span> <span data-ttu-id="d5049-106">Incentive o uso do Teams em seus próprios cenários.</span><span class="sxs-lookup"><span data-stu-id="d5049-106">Encourage their use of Teams in their own scenarios.</span></span> <span data-ttu-id="d5049-107">Leve-os através da integração básica do produto usando nossos recursos de treinamento online.</span><span class="sxs-lookup"><span data-stu-id="d5049-107">Take them through the basic onboarding of the product by using our online training resources.</span></span>  
 
-- [<span data-ttu-id="246bd-108">Fundamentos-componentes principais do Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="246bd-108">Foundations - Core Components of Microsoft Teams</span></span>](https://youtu.be/V6B4KraD-FM)
-- [<span data-ttu-id="246bd-109">Equipe de solução de problemas</span><span class="sxs-lookup"><span data-stu-id="246bd-109">Troubleshooting Teams</span></span>](https://youtu.be/0KNh9KNpXcA)
-- [<span data-ttu-id="246bd-110">Problemas conhecidos e solução de problemas</span><span class="sxs-lookup"><span data-stu-id="246bd-110">Known issues and troubleshooting</span></span>](https://aka.ms/TeamsKnownIssues)
-- [<span data-ttu-id="246bd-111">Treinamento para o Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="246bd-111">Microsoft Teams training</span></span>](https://docs.microsoft.com/microsoftteams/training-microsoft-teams-landing-page)
+- [<span data-ttu-id="d5049-108">Foundations - Principais componentes do Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="d5049-108">Foundations - Core Components of Microsoft Teams</span></span>](https://youtu.be/V6B4KraD-FM)
+- [<span data-ttu-id="d5049-109">Solução de problemas do Teams</span><span class="sxs-lookup"><span data-stu-id="d5049-109">Troubleshooting Teams</span></span>](https://youtu.be/0KNh9KNpXcA)
+- [<span data-ttu-id="d5049-110">Problemas conhecidos e solução de problemas</span><span class="sxs-lookup"><span data-stu-id="d5049-110">Known issues and troubleshooting</span></span>](https://aka.ms/TeamsKnownIssues)
+- [<span data-ttu-id="d5049-111">Treinamento para o Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="d5049-111">Microsoft Teams training</span></span>](https://docs.microsoft.com/microsoftteams/training-microsoft-teams-landing-page)
 
-<span data-ttu-id="246bd-112">![Um ícone que representa a próxima etapa ](media/teams-adoption-next-icon.png) próxima: [adoção 3: do Microsoft Teams. fase 3: escala](teams-adoption-phase3-enable.md).</span><span class="sxs-lookup"><span data-stu-id="246bd-112">![An icon representing the next step](media/teams-adoption-next-icon.png) Next: [Microsoft Teams adoption phase 3: Scale](teams-adoption-phase3-enable.md).</span></span>
+<span data-ttu-id="d5049-112">![Um ícone que representa a próxima etapa ](media/teams-adoption-next-icon.png) Next: [Fase 3 de adoção do Microsoft Teams: Escala.](teams-adoption-phase3-enable.md)</span><span class="sxs-lookup"><span data-stu-id="d5049-112">![An icon representing the next step](media/teams-adoption-next-icon.png) Next: [Microsoft Teams adoption phase 3: Scale](teams-adoption-phase3-enable.md).</span></span>
