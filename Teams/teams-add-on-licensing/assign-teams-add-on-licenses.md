@@ -1,7 +1,7 @@
 ---
-title: Atribuir licenças de Complementos do teams aos usuários
-author: LanaChin
-ms.author: v-lanac
+title: Atribuir licenças de complemento do Teams aos usuários
+author: cichur
+ms.author: v-cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -13,67 +13,67 @@ search.appverid: MET150
 f1.keywords:
 - NOCSH
 ms.reviewer: mikedav
-description: Saiba como atribuir licenças de Complementos do teams a usuários para recursos como videoconferência, sistema telefônico e planos de chamada.
+description: Saiba como atribuir licenças de complemento do Teams aos usuários para recursos como Audioconferência, Sistema de Telefonia e Planos de Chamadas.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5dd09ae11104aa0297a12417d4c267edfc17cf3f
-ms.sourcegitcommit: d1e4e1105d86745009cf0fdf42d1fc5ad545a952
+ms.openlocfilehash: 5f19060245a54012de1dbc1f38edd43365e4aaa6
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "46788735"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49809321"
 ---
-# <a name="assign-teams-add-on-licenses-to-users"></a>Atribuir licenças de Complementos do teams aos usuários
+# <a name="assign-teams-add-on-licenses-to-users"></a>Atribuir licenças de complemento do Teams aos usuários
 
-As licenças de complemento são licenças para recursos específicos do Teams, como videoconferência, sistema telefônico e planos de chamada. Este artigo descreve como atribuir licenças de Complementos a usuários individuais e a grandes conjuntos de usuários em massa.
+Licenças de complemento são licenças para recursos específicos do Teams, como Audioconferência, Sistema de Telefonia e Planos de Chamadas. Este artigo descreve como atribuir licenças de complemento a usuários individuais e a grandes conjuntos de usuários em massa.
 
 > [!NOTE]
-> Consulte [Licenciamento do complemento do teams](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing) para recursos do teams que estão disponíveis com licenças complementares. Você também encontrará informações sobre quais licenças precisa comprar e como comprá-las (dependendo do seu plano), para que os usuários possam obter recursos como videoconferências, números de chamada gratuita e a capacidade de fazer chamadas para números de telefone fora da sua organização. Depois de decidir quais recursos você deseja para seus usuários, atribua as licenças a eles.
+> Consulte [o licenciamento de complementos do](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing) Teams para recursos do Teams que estão disponíveis com licenças de complemento. Você também encontrará informações sobre quais licenças você precisa comprar e como comprá-las (dependendo do seu plano), para que os usuários possam obter recursos como Audioconferência, números gratuitos e a capacidade de ligar para números de telefone fora da sua organização. Depois de decidir quais recursos você deseja para seus usuários, atribua as licenças a eles.
 
-Você pode usar o centro de administração do Microsoft 365 ou o PowerShell para atribuir licenças aos usuários em sua organização. Você deve ser um administrador global ou administrador de gerenciamento de usuários para gerenciar licenças.
+Você pode usar o Centro de administração do Microsoft 365 ou o PowerShell para atribuir licenças aos usuários em sua organização. Você deve ser um administrador global ou administrador de gerenciamento de usuários para gerenciar licenças.
 
-## <a name="what-you-need-to-know-before-you-assign-phone-system-calling-plan-and-communication-credits-licenses"></a>O que você precisa saber antes de atribuir licenças de um sistema telefônico, plano de chamada e créditos de comunicação
+## <a name="what-you-need-to-know-before-you-assign-phone-system-calling-plan-and-communication-credits-licenses"></a>O que você precisa saber antes de atribuir licenças de Sistema de Telefonia, Plano de Chamadas e Créditos de Comunicação
 
 Antes de começar, revise o seguinte:
 
-- Se você estiver usando a conectividade PSTN (rede telefônica pública comutada) para usuários híbridos, só precisará atribuir uma licença do sistema telefônico. Não atribua uma licença de plano de chamada.
+- Se você estiver usando a conectividade PSTN (Rede Telefônica Pública Comucionária) local para usuários híbridos, só precisará atribuir uma licença do Sistema de Telefonia. Não atribua uma licença de Plano de Chamada.
 
-- Devido à latência entre o Microsoft 365 e o Microsoft Teams, pode levar até 24 horas para que um usuário receba um plano de chamada após a atribuição de uma licença. Se o usuário não estiver atribuído a um plano de chamadas depois de 24 horas, [entre em contato com o suporte para produtos empresariais-ajuda para administradores](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
+- Devido à latência entre o Microsoft 365 e o Microsoft Teams, pode levar até 24 horas para que um usuário seja atribuído a um Plano de Chamada depois de atribuir uma licença. Se o usuário não tiver um Plano de Chamada após 24 horas, entre em contato com o suporte para produtos comerciais [- ajuda do administrador.](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)
 
-- Você receberá uma mensagem de erro se não tiver comprado o número correto de licenças. Se precisar comprar mais licenças do plano de chamadas, escolha a opção de comprar mais.
+- Você obterá uma mensagem de erro se não tiver comprado o número correto de licenças. Se você precisar comprar mais licenças do Plano de Chamada, escolha a opção para comprar mais.
 
-- Mesmo que seus usuários tenham licenças Enterprise E5 atribuídas, você ainda precisa atribuir licenças de [créditos de comunicações](../what-are-communications-credits.md) a eles se quiser fazer ou receber chamadas da PSTN.
+- Mesmo que seus usuários recebam licenças enterprise E5, você ainda precisará atribuir licenças de [Créditos](../what-are-communications-credits.md) de Comunicação a eles se eles quiserem fazer ou receber chamadas da PSTN.
 
-- Depois de atribuir licenças de plano de chamada ou de crédito de comunicação aos usuários, você precisará obter números de telefone para sua organização e atribuir esses números aos usuários. Para obter instruções passo a passo, consulte [configurar planos de chamada](../set-up-calling-plans.md).
+- Depois de atribuir licenças de Plano de Chamadas ou Créditos de Comunicação aos usuários, você precisará obter números de telefone para sua organização e atribuir esses números aos usuários. Para obter instruções passo a passo, consulte [Configurar Planos de Chamada.](../set-up-calling-plans.md)
 
-## <a name="using-the-microsoft-365-admin-center"></a>Usar o centro de administração do Microsoft 365
+## <a name="using-the-microsoft-365-admin-center"></a>Usando o Centro de administração do Microsoft 365
 
-Use o centro de administração do Microsoft 365 para atribuir licenças para usuários individuais ou pequenos conjuntos de usuários de uma só vez. Você pode atribuir licenças na página **licenças** (para até 20 usuários de uma vez) ou para a página **usuários ativos** . O método escolhido depende se você deseja gerenciar licenças de produto para usuários específicos ou gerenciar licenças de usuário para produtos específicos.
+Use o Centro de administração do Microsoft 365 para atribuir licenças a usuários individuais ou pequenos conjuntos de usuários por vez. Você pode atribuir licenças na página **Licenças** (para até 20 usuários por vez) ou na **página Usuários ativos.** O método escolhido depende se você deseja gerenciar licenças de produtos para usuários específicos ou gerenciar licenças de usuário para produtos específicos.
 
-Para obter instruções passo a passo, consulte [atribuir licenças aos usuários](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users).
+Para obter instruções passo a passo, consulte [Atribuir licenças aos usuários.](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users)
 
-Se você precisar atribuir licenças para um grande número de usuários, como centenas ou milhares de usuários, use o PowerShell ou o [Licenciamento baseado em grupo no Azure Active Directory (Azure AD)](https://docs.microsoft.com/azure/active-directory/users-groups-roles/licensing-groups-assign).  
+Se você precisar atribuir licenças para um grande número de usuários, como centenas ou milhares de usuários, use o Powershell ou licenciamento baseado em grupo no [Azure Active Directory (Azure AD).](https://docs.microsoft.com/azure/active-directory/users-groups-roles/licensing-groups-assign)  
 
-## <a name="using-powershell"></a>Usando o PowerShell
+## <a name="using-powershell"></a>Usando o Windows PowerShell
 
-Use o PowerShell para atribuir licenças a usuários em massa.  Para saber mais, confira [atribuir licenças a contas de usuário com o PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell).
+Use o PowerShell para atribuir licenças a usuários em massa.  Para saber mais, confira [Atribuir licenças a contas de usuário com o PowerShell.](https://docs.microsoft.com/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell)
 
 ### <a name="example-script"></a>Script de exemplo
 
 Veja um exemplo de como usar um script para atribuir licenças aos seus usuários.
 
-1. Instale a versão de 64 bits do [Assistente de conexão do Microsoft Online Services para profissionais de ti RTW](https://go.microsoft.com/fwlink/p/?LinkId=286152).
-2. Instale o módulo do Microsoft Azure Active Directory para Windows PowerShell:
-    1. Abra um prompt de comando do Windows PowerShell elevado (execute o Windows PowerShell como um administrador).
+1. Instale a versão de 64 bits do assistente Microsoft Online Services de entrada para [profissionais de TI RTW](https://go.microsoft.com/fwlink/p/?LinkId=286152).
+2. Instale o Módulo Microsoft Azure Active Directory para Windows PowerShell:
+    1. Abra um prompt de Windows PowerShell de comando com privilégios elevados (execute Windows PowerShell como administrador).
     2. Execute o seguinte comando:
         ```powershell
         Install-Module MSOnline
         ```
-    3. Se você for solicitado a instalar o provedor de NuGet, digite **Y**e pressione Enter.
-    4. Se for solicitado a instalar o módulo do PSGallery, digite **Y**e pressione Enter.
-3. No prompt de comando do Windows PowerShell, execute o seguinte script para atribuir licenças aos seus usuários, onde \<CompanyName:License> é o nome da sua organização e o identificador da licença que você deseja atribuir. Por exemplo, litwareinc: MCOMEETADV.
+    3. Se você for solicitado a instalar o provedor NuGet, digite **Y** e pressione Enter.
+    4. Se você for solicitado a instalar o módulo a partir de PSGallery, digite **Y** e pressione Enter.
+3. No prompt Windows PowerShell de comando, execute o seguinte script para atribuir licenças aos usuários, onde está o nome da sua organização e o identificador da licença que você \<CompanyName:License> deseja atribuir. Por exemplo, litwareinc:MCOMEETADV.
 
-    O identificador é diferente do nome amigável da licença. Por exemplo, o identificador do áudio videoconferência é MCOMEETADV. Para saber mais, consulte [nomes de produtos e identificadores de SKU para licenciamento](#product-names-and-sku-identifiers-for-licensing).
+    O identificador é diferente do nome amigável da licença. Por exemplo, o identificador para Audioconferência é MCOMEETADV. Para saber mais, consulte [Nomes de produto e identificadores de SKU para licenciamento.](#product-names-and-sku-identifiers-for-licensing)
 
     ```powershell
     #Create a text file with a single column that lists the user principal names (UPNs) of users to assign licenses to. The MSOL service uses the UPN to license user accounts.
@@ -110,14 +110,14 @@ Veja um exemplo de como usar um script para atribuir licenças aos seus usuário
         }
     ```
 
-    Por exemplo, para atribuir licenças do Microsoft 365 Enterprise 1 e do áudio referencing, use a seguinte sintaxe no script:
+    Por exemplo, para atribuir licenças do Microsoft 365 Enterprise 1 e audioconferência, use a seguinte sintaxe no script:
 
       ```powershell
       Set-MsolUserLicense -UserPrincipalName $user -AddLicenses "litwareinc:ENTERPRISEPACK" -ErrorAction SilentlyContinue
       Set-MsolUserLicense -UserPrincipalName $user -AddLicenses "litwareinc:MCOMEETADV" -ErrorAction SilentlyContinue
       ```
 
-    Para atribuir uma licença do Microsoft Business Voice (sem plano de chamada), use a seguinte sintaxe no script:
+    Para atribuir uma licença do Microsoft Business Voice (sem Plano de Chamadas), use a seguinte sintaxe no script:
 
       ```powershell
       Set-MsolUserLicense -UserPrincipalName $user -AddLicenses "litwareinc:BUSINESS_VOICE_DIRECTROUTING" -ErrorAction SilentlyContinue
@@ -125,32 +125,32 @@ Veja um exemplo de como usar um script para atribuir licenças aos seus usuário
 
 ## <a name="product-names-and-sku-identifiers-for-licensing"></a>Nomes de produtos e identificadores de SKU para licenciamento
 
-Aqui está uma lista parcial de nomes de produto e seus nomes de partes de SKU correspondentes que você pode usar como referência ao usar o PowerShell para gerenciar licenças no Microsoft Teams.
+Aqui está uma lista parcial de nomes de produtos e seus nomes de partes de SKU correspondentes que você pode usar como referência ao usar o PowerShell para gerenciar licenças no Teams.
 
-Para saber mais, consulte [Exibir licenças e serviços com o PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/view-licenses-and-services-with-office-365-powershell), [nomes de produto e identificadores de plano de serviço para licenciamento](https://docs.microsoft.com/azure/active-directory/users-groups-roles/licensing-service-plan-reference)e [referência de SKU educacional](../sku-reference-edu.md).
+Para saber mais, consulte Exibir licenças e serviços com [o PowerShell,](https://docs.microsoft.com/office365/enterprise/powershell/view-licenses-and-services-with-office-365-powershell)nomes de produtos e [identificadores](https://docs.microsoft.com/azure/active-directory/users-groups-roles/licensing-service-plan-reference)de plano de serviço para licenciamento e referência [de SKU do Education.](../sku-reference-edu.md)
 
 | Nome do produto| Nome de parte da SKU |
 |--------------|---------------|
-| Microsoft Enterprise E5 (com sistema telefônico) | ENTERPRISEPREMIUM |
-| Microsoft Enterprise E5 (sem conferência de áudio) | ENTERPRISEPREMIUM_NOPSTNCONF |
-| Microsoft Enterprise E5 (com conferência de áudio) | ENTERPRISEPREMIUM |
+| Microsoft Enterprise E5 (com Sistema de Telefonia) | ENTERPRISEPREMIUM |
+| Microsoft Enterprise E5 (sem audioconferência) | ENTERPRISEPREMIUM_NOPSTNCONF |
+| Microsoft Enterprise E5 (com audioconferência) | ENTERPRISEPREMIUM |
 | Microsoft Enterprise E3 | ENTERPRISEPACK |
 | Microsoft Enterprise E1 | STANDARDPACK |
 | Microsoft 365 Business Basic | O365_BUSINESS_ESSENTIALS|
 | Microsoft 365 Business Standard | O365_BUSINESS_PREMIUM|
-| Microsoft 365 Business | SP|
+| Microsoft 365 Business | SPB|
 | Microsoft Business Voice (Canadá)| BUSINESS_VOICE_MED  |
 | Microsoft Business Voice (Reino Unido) | BUSINESS_VOICE  |
 | Microsoft Business Voice (Estados Unidos) | BUSINESS_VOICE_MED2  |
-| Microsoft Business Voice (sem plano de chamada) | BUSINESS_VOICE_DIRECTROUTING  |
-| Microsoft Business Voice (sem plano de chamada) para os Estados Unidos| BUSINESS_VOICE_DIRECTROUTING _MED |
+| Microsoft Business Voice (sem Plano de Chamadas) | BUSINESS_VOICE_DIRECTROUTING  |
+| Microsoft Business Voice (sem Plano de Chamadas) para os Estados Unidos| BUSINESS_VOICE_DIRECTROUTING _MED |
 | Audioconferência | MCOMEETADV | 
-| Áudio conferência paga por minuto (pré-pago)</br>*Requer que os créditos de comunicações sejam configurados e habilitados.* | MCOMEETACPEA |
-| Sistema Telefônico | MCOEV |
-| Plano de chamadas domésticas e internacionais | MCOPSTN2 |
-| Plano de chamadas domésticas (3000 minutos por usuário/mês para EUA/PR/CA, 1200 minutos por usuário/mês para países da UE) | MCOPSTN1 |
-| Plano de chamadas domésticas (120 minutos por usuário/mês para cada país) </br>*Este plano não está disponível nos Estados Unidos.* | MCOPSTN5 |
-| Plano de chamadas domésticas (240 minutos por usuário/mês para cada país) </br>*Este plano não está disponível nos Estados Unidos.* | MCOPSTN6 |
+| Audioconferência paga por minuto (paga conforme você vai)</br>*Requer que os Créditos de Comunicação sejam definidos e habilitados.* | MCOMEETACPEA |
+| Sistema de Telefonia | MCOEV |
+| Plano de Chamada Doméstica e Internacional | MCOPSTN2 |
+| Plano de Chamada Doméstica (3000 minutos por usuário/mês para US/PR/CA, 1200 minutos por usuário/mês para países da UE) | MCOPSTN1 |
+| Plano de Chamada Doméstica (120 minutos por usuário/mês para cada país) </br>*Este plano não está disponível nos Estados Unidos.* | MCOPSTN5 |
+| Plano de Chamada Doméstica (240 minutos por usuário/mês para cada país) </br>*Este plano não está disponível nos Estados Unidos.* | MCOPSTN6 |
 | Créditos de Comunicação | MCOPSTNPP |
 
 ## <a name="related-topics"></a>Tópicos relacionados
@@ -159,4 +159,4 @@ Para saber mais, consulte [Exibir licenças e serviços com o PowerShell](https:
 - [Gerenciamento do acesso de usuários ao Teams](../user-access.md)
 - [Exibir licenças e serviços com o PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/view-licenses-and-services-with-office-365-powershell)
 - [Nomes de produtos e identificadores de plano de serviço para licenciamento](https://docs.microsoft.com/azure/active-directory/users-groups-roles/licensing-service-plan-reference)
-- [Referência de SKU do Education](../sku-reference-edu.md)
+- [Referência da SKU do Education](../sku-reference-edu.md)

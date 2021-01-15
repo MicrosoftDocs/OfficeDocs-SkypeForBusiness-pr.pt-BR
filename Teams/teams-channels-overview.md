@@ -1,7 +1,7 @@
 ---
 title: Visão geral de equipes e canais no Microsoft Teams
-author: SerdarSoysal
-ms.author: serdars
+author: MikePlumleyMSFT
+ms.author: mikeplum
 ms.reviewer: ''
 manager: serdars
 ms.topic: conceptual
@@ -22,12 +22,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a6c4e8f37a00ddfb464630eeb644db3d550781d1
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: c6f6b3cbb80fb209c519593c28077b03e4a13ed9
+ms.sourcegitcommit: ab566ddab9d26440bac1716a975f30e075d0c7b5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48534948"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "49865165"
 ---
 # <a name="overview-of-teams-and-channels-in-microsoft-teams"></a>Visão geral de equipes e canais no Microsoft Teams
 
@@ -39,7 +39,7 @@ Vamos começar pensando em como o Microsoft Teams permite que equipes individuai
 - As **equipes** são uma coleção de pessoas, conteúdo e ferramentas que envolvem diferentes projetos e resultados dentro de uma organização.
 
     - As equipes podem ser criadas para serem particulares e apenas para usuários convidados.
-    - As equipes também podem ser criadas para serem públicas e abertas, e qualquer pessoa dentro da organização pode participar (até 10.000 membros).
+    - As equipes também podem ser criadas para serem públicas e abertas e qualquer pessoa dentro da organização pode ingressar (até 10.000 membros).
     
     As equipes são projetadas para reunir um grupo de pessoas que trabalham unidas para realizar tarefas. O Teams pode ser dinâmico para um trabalho baseado em um projeto (por exemplo, lançamento de um produto, criação de uma sala de guerra digital), assim como para trabalhos contínuos a fim de refletir a estrutura interna da empresa (por exemplo, localizações de departamentos e escritórios). Conversas, arquivos e notas nos canais de equipe são visíveis apenas para os membros da equipe.
 
@@ -61,7 +61,7 @@ Veja este pequeno vídeo para saber mais sobre as práticas recomendadas para cr
 
 Quando o Microsoft Teams é ativado para toda a organização, os proprietários da equipe designada podem convidar qualquer funcionário com quem trabalham para ingressar na equipe. O Microsoft Teams torna fácil para os proprietários de equipe adicionarem pessoas na empresa baseado nos seus nomes. Dependendo das configurações usadas pela empresa, convidados que são membros da equipe, mas não pertencem à empresa também podem sem adicionados às suas equipes. Veja [Acesso de Convidado no Microsoft Teams](guest-access.md) para obter mais detalhes. 
 
-Os proprietários da equipe também podem criar uma equipe com base em um grupo existente do Microsoft 365. Quaisquer alterações feitas no grupo serão sincronizadas com o Microsoft Teams automaticamente. A criação de uma equipe com base em um grupo existente do Microsoft 365 não apenas simplifica o processo de convite e gerenciamento de membros, mas também sincroniza arquivos de grupo dentro do Microsoft Teams.
+Os proprietários da equipe também podem criar uma equipe com base em um grupo existente do Microsoft 365. Quaisquer alterações feitas no grupo serão sincronizadas com o Microsoft Teams automaticamente. Criar uma equipe com base em um grupo existente do Microsoft 365 não apenas simplifica o processo de convidar e gerenciar membros, mas também sincroniza arquivos de grupo dentro do Microsoft Teams.
 
 **Funções da equipe**
 
@@ -80,9 +80,9 @@ Reserve três minutos para conferir este vídeo de guia para proprietários de e
 
    > [!VIDEO https://www.youtube.com/embed/kalV4dG-oFo]
 
-Se você for um administrador do Microsoft Teams no Microsoft 365 ou o Office 365, terá acesso às configurações de todo o sistema no centro de administração do Microsoft Teams. Essas configurações podem impactar as opções e padrões que os proprietários de equipe veem nas configurações de equipe. Por exemplo, você pode ativar um canal padrão, "Geral", para anúncios, discussões e recursos em toda a equipe, que será exibido em todas as equipes.
+Se você for um administrador do Microsoft Teams no Microsoft 365 ou no Office 365, terá acesso às configurações de todo o sistema no centro de administração do Microsoft Teams. Essas configurações podem impactar as opções e padrões que os proprietários de equipe veem nas configurações de equipe. Por exemplo, você pode ativar um canal padrão, "Geral", para anúncios, discussões e recursos em toda a equipe, que será exibido em todas as equipes.
 
-Por padrão, todos os usuários têm permissões para criar uma equipe no Microsoft Teams (para modificar isso, consulte [Atribuir funções e permissões no Teams)](assign-roles-permissions.md). Os usuários de um grupo existente do Microsoft 365 também podem melhorar suas permissões com a funcionalidade do Microsoft Teams.
+Por padrão, todos os usuários têm permissões para criar uma equipe no Microsoft Teams (para modificar isso, consulte [Atribuir funções e permissões no Teams)](assign-roles-permissions.md). Os usuários de um grupo existente do Microsoft 365 também podem aprimorar suas permissões com a funcionalidade do Teams.
 
 Uma atividade importante de planejamento inicial para envolver os usuários com o Microsoft Teams é ajudar as pessoas a pensarem sobre e entenderem como o Teams pode aprimorar a colaboração no dia a dia. Converse com as pessoas e ajude-as a selecionar cenários de negócios em que elas estejam colaborando atualmente de maneira fragmentada. Reúna-os em um canal com as guias relevantes que os ajudarão a realizar seu trabalho. Um dos casos de uso mais eficientes do Microsoft Teams é em qualquer processo multiorganizacional. 
 

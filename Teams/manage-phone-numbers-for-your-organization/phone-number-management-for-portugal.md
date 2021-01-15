@@ -1,7 +1,7 @@
 ---
-title: Gerenciamento de número de telefone para Portugal
-author: LanaChin
-ms.author: v-lanac
+title: Gerenciamento de números de telefone para Portugal
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.reviewer: davlick,krkilaru
 ms.topic: reference
@@ -18,27 +18,27 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
-description: Use esta tabela para encontrar informações sobre como obter e gerenciar números de telefone em Portugal para Microsoft Teams.
-ms.openlocfilehash: b4eb40383d4714d544c7148fa7e8f963ca8c4d92
-ms.sourcegitcommit: 3b54a56ec1fe4366580621e19cdbb6a833a01161
+description: Use esta tabela para encontrar informações sobre como obter e gerenciar números de telefone em Portugal para o Microsoft Teams.
+ms.openlocfilehash: 709d527b810e745c96fc41fee106678a1bb6af90
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "48361711"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49822771"
 ---
-# <a name="phone-number-management-for-portugal"></a>Gerenciamento de número de telefone para Portugal
+# <a name="phone-number-management-for-portugal"></a>Gerenciamento de números de telefone para Portugal
 
-Use esta tabela para encontrar informações sobre como obter e gerenciar números de telefone em Portugal para Microsoft Teams. 
+Use esta tabela para encontrar informações sobre como obter e gerenciar números de telefone em Portugal para o Microsoft Teams. 
   
 Para obter mais informações, consulte [Gerenciar os números de telefone de sua organização](manage-phone-numbers-for-your-organization.md).
   
 |**O que você deseja fazer?**|**Baixe os formulários corretos e os envie para nós**|
 |:-----|:-----|
-|Obter novos números de telefone de usuário ou serviço que não estão listados no centro de administração do Microsoft Teams.   <br/> |Baixe um desses formulários. <br/>  [Nova solicitação de número de telefone para Portugal (v. 5.0) (pt-pt)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-portugal-(v.5.0)-(pt-pt).pdf?raw=true) <br/>  [Nova solicitação de número de telefone para Portugal (v. 5.0) (en-US)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-portugal-(v.5.0)-(en-us).pdf?raw=true)<br/>  <br/>Preencha o formulário e [o envie para nós](mailto:ptneu@microsoft.com).<br/><br/> Você também deve preencher um contrato de três participantes, assiná-lo e [enviá-lo para nós](mailto:ptneu@microsoft.com). Este formulário será enviado a você pela nossa equipe de suporte PSTN depois que você fizer um pedido para obter novos números de telefone. <br/><br/>|
-|Obter números de telefone transferidos para nós.  <br/> | Baixar este formulário. <br/>[Carta de autorização (LOA) para Portugal (todos os números) (v. 5.0) (pt-pt)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-portugal-(all-numbers)-(v.5.0)-(pt-pt).pdf?raw=true) <br/> <br/>Preencha o formulário e [o envie para nós](mailto:ptneu@microsoft.com). <br/><br/> Você também deve preencher um contrato de três participantes, assiná-lo e [enviá-lo para nós](mailto:ptneu@microsoft.com). Este formulário será enviado a você pela nossa equipe de suporte PSTN depois que você fizer um pedido para transferir números de telefone.<br/><br/>|
-|Publicar/cancelar a publicação de número (s) de telefone no diretório de telefones nacional.  <br/> |[Nos envie](mailto:ptneu@microsoft.com) a lista de números de telefone que você deseja publicar/cancelar a publicação.      <br/> |
+|Obter novos números de telefone de usuário ou serviço que não estão listados no centro de administração do Microsoft Teams.   <br/> |Baixe um desses formulários. <br/>  [Solicitação de novo número de telefone para Portugal (v.5.0) (pt-pt)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-portugal-(v.5.0)-(pt-pt).pdf?raw=true) <br/>  [Solicitação de novo número de telefone para Portugal (v.5.0) (en-us)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-portugal-(v.5.0)-(en-us).pdf?raw=true)<br/>  <br/>Preencha o formulário e [o envie para nós](mailto:ptneu@microsoft.com).<br/><br/> Você também deve preencher um contrato de três partes, assinar e [enviá-lo para nós.](mailto:ptneu@microsoft.com) Esse formulário será enviado para você por nossa equipe de serviço PSTN depois de fazer um pedido para obter novos números de telefone. <br/><br/>|
+|Obter números de telefone transferidos para nós.  <br/> | Baixe este formulário. <br/>[Carta de Autorização (LOA) para Portugal (todos os números) (v.5.0) (pt-pt)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-portugal-(all-numbers)-(v.5.0)-(pt-pt).pdf?raw=true) <br/> <br/>Preencha o formulário e [o envie para nós](mailto:ptneu@microsoft.com). <br/><br/> Você também deve preencher um contrato de três partes, assinar e [enviá-lo para nós.](mailto:ptneu@microsoft.com) Esse formulário será enviado para você por nossa equipe de serviço PSTN depois de fazer um pedido para transferir números de telefone.<br/><br/>|
+|Publicar/não publicar números de telefone no diretório telefônico nacional.  <br/> |[Nos envie](mailto:ptneu@microsoft.com) a lista de números de telefone que você deseja publicar/cancelar a publicação.      <br/> |
 |Altere o número de um usuário para um número de serviço.  <br/> |[Nos envie](mailto:ptneu@microsoft.com) a lista de números de usuário que você deseja converter em números de serviço. <br/> |
-|Fazer atualizações de serviço de diretório para números de fila de chamadas ou atendedor automático|Para adicionar ou alterar os números da fila de chamadas ou do atendedor automático, entre em contato com [o serviço de suporte PSTN](contact-pstn-service-desk.md). |
+|Fazer atualizações de serviço de diretório para números de fila de chamada ou de atendimento automático|Para adicionar ou alterar números de fila de chamada ou de atendimento automático, entre em contato com o [service desk PSTN.](contact-pstn-service-desk.md) |
 
 
 ## <a name="related-topics"></a>Tópicos relacionados
@@ -49,5 +49,5 @@ Para obter mais informações, consulte [Gerenciar os números de telefone de su
 
 [Termos e condições das Chamadas de Emergência](../emergency-calling-terms-and-conditions.md)
   
-[Rótulo de isenção de isenção de emergência](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true) 
+[Rótulo de aviso de isenção de responsabilidade de chamada de emergência](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true) 
  

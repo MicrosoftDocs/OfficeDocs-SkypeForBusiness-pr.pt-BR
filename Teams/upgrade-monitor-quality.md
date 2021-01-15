@@ -1,13 +1,13 @@
 ---
 title: Qualidade da experiência do usuário | Microsoft Teams | QoS | Qualidade da chamada
-author: lanachin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 audience: admin
 ms.reviewer: landerl
-description: O administrador pode saber mais sobre as tarefas e atividades necessárias para monitorar a qualidade e o uso do Microsoft Teams.
+description: O administrador pode aprender sobre as tarefas e atividades necessárias para monitorar a qualidade e o uso do Microsoft Teams.
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -20,26 +20,26 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 843acff0dafc7cd5ad2b3fd63ccc009c64716b03
-ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
+ms.openlocfilehash: d57f01887961ad0c458b13db20ba79023272bcdf
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "45085917"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49808991"
 ---
 # <a name="quality-of-experience-review-guide"></a>Guia de revisão da experiência de qualidade
 
-![Diagrama realçando a excelência operacional estágio da viagem de atualização](media/upgrade-banner-op-excellence.png "Estágios da jornada da atualização, com ênfase no estágio Operational de excelência")
+![Diagrama que realça o estágio de Excelência Operacional da jornada de atualização](media/upgrade-banner-op-excellence.png "Estágios da jornada de atualização, com ênfase no estágio de Excelência Operacional")
 
-Este artigo faz parte do estágio operacional de excelência da sua jornada de atualização, que começa assim que você concluiu a atualização do Skype for Business para o Teams.
+Este artigo faz parte do estágio de Excelência Operacional da sua jornada de atualização, que começa assim que você concluir a atualização do Skype for Business para o Teams.
 
-## <a name="improve-and-monitor-call-quality"></a>Melhorar e monitorar a qualidade das chamadas
+## <a name="improve-and-monitor-call-quality"></a>Melhorar e monitorar a qualidade da chamada
 
-[Melhorar e monitorar a qualidade da chamada para o Teams](monitor-call-quality-qos.md) inclui um conjunto de atividades que avaliam e fornecem orientação de correção em áreas importantes que têm o maior impacto na melhoria da experiência do usuário, conforme ilustrado a seguir.
+[Melhorar e monitorar](monitor-call-quality-qos.md) a qualidade das chamada para o Teams inclui um conjunto de atividades que avaliam e fornecem orientações de correção em áreas-chave que têm o maior impacto na melhoria da experiência do usuário, conforme ilustrado abaixo.
 
-![Ilustração das principais áreas a serem examinadas durante uma crítica.](media/plan-my-service-management-image2.png "As principais áreas a serem examinadas durante uma revisão de qualidade da experiência: áudio, confiabilidade e resultados da pesquisa de usuários.")
+![Ilustração das principais áreas a examinar durante uma revisão.](media/plan-my-service-management-image2.png "As principais áreas a examinar durante uma Revisão de Qualidade da Experiência: resultados da pesquisa de áudio, confiabilidade e usuário.")
 
-Ao avaliar continuamente e corrigir as áreas descritas no guia, você pode reduzir o potencial de afetar negativamente a experiência do usuário. A maioria dos problemas de experiência do usuário encontrada em uma implantação pode ser agrupada nas seguintes categorias:
+Ao avaliar continuamente e remediar as áreas descritas no guia, você pode reduzir seu potencial para afetar negativamente a experiência do usuário. A maioria dos problemas de experiência do usuário encontrada em uma implantação pode ser agrupada nas seguintes categorias:
 
 - Configuração incompleta do firewall ou proxy
 
@@ -53,8 +53,8 @@ Ao avaliar continuamente e corrigir as áreas descritas no guia, você pode redu
 
 - Dispositivos de rede ou sub-redes com problemas
 
-As diretrizes fornecidas em [melhorar e monitorar a qualidade da chamada para o Teams](monitor-call-quality-qos.md) concentram-se em usar o painel de qualidade de chamada (CQD) online como a principal ferramenta para denunciar e investigar cada área descrita, com foco no áudio para melhorar a adoção e o impacto. Todas as otimizações feitas à rede para melhorar a experiência de área também se converterão diretamente em aprimoramentos no vídeo e no compartilhamento da área de trabalho.
+As diretrizes fornecidas em Melhorar e monitorar a qualidade das chamada do [Teams](monitor-call-quality-qos.md) se concentram no uso do Painel de Qualidade de Chamada (CQD) Online como a principal ferramenta para relatar e investigar cada área descrita, com foco no áudio para maximizar a adoção e o impacto. Todas as otimizações feitas à rede para melhorar a experiência de área também se converterão diretamente em aprimoramentos no vídeo e no compartilhamento da área de trabalho.
 
-É altamente recomendável que você innomeado o especialista em qualidade no início. Depois de serem nomeados, eles devem começar a se familiarizar com o conteúdo [para melhorar e monitorar a qualidade da chamada para equipes](monitor-call-quality-qos.md).
+É altamente recomendável nomear o defensor da qualidade no início. Depois de serem indicados, eles devem começar a se familiarizar com o conteúdo em Melhorar e monitorar a qualidade da chamada [para o Teams.](monitor-call-quality-qos.md)
 
 <!--ENDOFSECTION-->
