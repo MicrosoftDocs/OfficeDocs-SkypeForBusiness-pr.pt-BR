@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d2e334269dd31b876dd18b62a9b61ae1b583c504
-ms.sourcegitcommit: 62d5ccf10202a50755166e3b8de0bd31d1f94fef
+ms.openlocfilehash: a5eb43301dc86fce6ef4e1f383c54d5c6902e871
+ms.sourcegitcommit: 4e648c3dd71d9c38cbcb81fab9e8cb9d241fe79c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "48790523"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "49871082"
 ---
 # <a name="manage-microsoft-teams-settings-for-your-organization"></a>Gerencie as configurações do Microsoft Teams para sua organização 
 
@@ -38,7 +38,7 @@ Para saber mais, veja [Configurações de administração para aplicativos no Te
 
 ## <a name="teams-org-wide-settings-in-the-microsoft-teams-admin-center"></a>Configurações da organização do Teams no centro de administração do Microsoft Teams.
 
-Você pode controlar as configurações de usuário em toda a organização no centro de administração do Microsoft Teams. Para editar as configurações de toda a organização, vá até o centro de administração do Microsoft Teams e escolha **Configurações gerais da organização** . Você pode definir as seguintes configurações.
+Você pode controlar as configurações de usuário em toda a organização no centro de administração do Microsoft Teams. Para editar as configurações de toda a organização, vá até o centro de administração do Microsoft Teams e escolha **Configurações gerais da organização**. Você pode definir as seguintes configurações.
 
 ### <a name="external-access"></a>Acesso externo
 
@@ -46,9 +46,9 @@ O **acesso externo** permite que os usuários do Microsoft Teams e do Skype for 
 
 Para adicionar ou bloquear um domínio:
 
-1. Selecione **Adicionar um domínio** .
+1. Selecione **Adicionar um domínio**.
 2. Em Adicionar um painel de domínio, insira o nome de domínio e clique na barra de espaços para salvar o nome.
-3. Selecione **Permitido** ou **Bloqueado** .
+3. Selecione **Permitido** ou **Bloqueado**.
 4. Selecione **Concluído** para salvar as alterações. 
 
 ### <a name="guest-access"></a>Acesso de convidados
@@ -57,7 +57,7 @@ O **Acesso de Convidado** no Microsoft Teams permite que as equipes em sua organ
 
 ### <a name="teams-settings"></a>Configurações de equipes
 
-Nas **Configurações do Teams** , você pode configurar recursos para equipes, incluindo notificações e feeds, integração de email, opções de armazenamento em nuvem e dispositivos.
+Nas **Configurações do Teams**, você pode configurar recursos para equipes, incluindo notificações e feeds, integração de email, opções de armazenamento em nuvem e dispositivos.
 
 #### <a name="notifications-and-feeds"></a>Notificações e feeds
 
@@ -69,7 +69,7 @@ As marcações permitem que os usuários se comuniquem com um subconjunto de pes
 
 #### <a name="email-integration"></a>Integração de email
 
-Ative esse recurso para que os usuários possam enviar emails para um canal no Microsoft Teams usando o endereço de email do canal. Os usuários podem fazer isso para qualquer canal pertencente a uma equipe que possuem. Os usuários também podem enviar emails a qualquer canal de uma equipe que tenha conectores adicionais ativados para os membros da equipe. Para ativar a integração de email, verifique se **Allow users to send emails to a channel email address** (Permitir que os usuários enviem emails para um endereço de email do canal) está **Ativado** .
+Ative esse recurso para que os usuários possam enviar emails para um canal no Microsoft Teams usando o endereço de email do canal. Os usuários podem fazer isso para qualquer canal pertencente a uma equipe que possuem. Os usuários também podem enviar emails para qualquer canal de uma equipe que tenha conectores adicionais ativados para membros da equipe. Para ativar a integração de email, certifique-se de que **Permitir que usuários enviem emails para um canal de endereço de email** esteja **Ativado**. Em seguida, certifique-se de que o domínio do endereço de email do remetente não esteja bloqueado em Centro de Administração no Teams> Configurações em Toda a Organização > Configurações do Teams>Integração de email>**Aceitar email do canal desses domínios SMTP**. Deve estar em branco ou incluir todos os domínios dos quais você espera receber emails. Em seguida, você precisa ter certeza de que possui as regras necessárias para garantir que [ o email para o endereço de email do canal Teams não seja bloqueado](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-protection-service-description/anti-spam-and-anti-malware-protection-eop#customize-anti-spam-policies).
 
 #### <a name="files"></a>Arquivos
 
@@ -79,7 +79,7 @@ Os usuários podem carregar e compartilhar arquivos de serviços de armazenament
 
 #### <a name="organization"></a>Organização
 
-Aqui você pode ativar a guia **Organização** , que mostra o organograma detalhado da organização do usuário. Para saber mais, confira [usar a guia organização no Teams](https://support.office.com/article/use-the-organization-tab-in-teams-ff02568b-290a-46d6-ae7a-cda22f723894).
+Aqui você pode ativar a guia **Organização**, que mostra o organograma detalhado da organização do usuário. Para saber mais, confira [usar a guia organização no Teams](https://support.office.com/article/use-the-organization-tab-in-teams-ff02568b-290a-46d6-ae7a-cda22f723894).
 
 #### <a name="devices"></a>Dispositivos
 
