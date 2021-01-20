@@ -16,12 +16,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Notas de versão para recursos de administração do Microsoft Teams.
-ms.openlocfilehash: f81ba33f75a7b94618b0344ce2136009b42e8402
-ms.sourcegitcommit: ef88694f6015ed2ff840ae78657b84700ce16815
+ms.openlocfilehash: e2b21a7f96162493fbee7b37ec2dcd57ac8c3a1f
+ms.sourcegitcommit: fdef9b52247097e5cae64f01b6b2b710c5b203cf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/23/2020
-ms.locfileid: "49728161"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "49909375"
 ---
 # <a name="release-notes-for-microsoft-teams-admin-features"></a>Notas de versão para recursos de administração do Microsoft Teams
 
@@ -79,9 +79,9 @@ Você pode gerenciar os recursos do Skype for Business para usuários do Skype f
 
 ## <a name="october-16-2020"></a>16 de outubro de 2020
 
-### <a name="manage-shift-based-access-for-firstline-workers"></a>Gerenciar o acesso baseado em Shift para trabalhadores iniciais
+### <a name="manage-shift-based-access-for-frontline-workers"></a>Gerenciar o acesso baseado em Shift para trabalhadores do Frontline
 
-Como administrador, você pode configurar o Microsoft Teams para mostrar um conjunto de Estados de presença baseada em Shift para que os primeiros funcionários de sua organização indiquem quando eles estão ativados e desligados. Com o acesso baseado em Shift, você pode gerenciar o acesso às equipes quando os trabalhadores de primeira mão estiverem fora do turno. Por exemplo, você pode definir o Teams para exibir uma mensagem que os funcionários da primeira pessoa devem confirmar antes de poderem usar o Teams quando não estiverem em um turno programado. [Saiba mais](https://docs.microsoft.com/microsoftteams/expand-teams-across-your-org/shifts/manage-shift-based-access-flw).
+Como administrador, você pode configurar o Microsoft Teams para mostrar um conjunto de Estados de presença baseada em Shift para que os trabalhadores do Frontline em sua organização indiquem quando eles estão ativados e desligados. Com o acesso baseado em Shift, você pode gerenciar o acesso às equipes quando os funcionários do Frontline estiverem fora do turno. Por exemplo, você pode definir o Teams para exibir uma mensagem que os funcionários do Frontline devem confirmar antes de poderem usar o Microsoft Teams quando não estiverem em um turno programado. [Saiba mais](https://docs.microsoft.com/microsoftteams/expand-teams-across-your-org/shifts/manage-shift-based-access-flw).
 
 ## <a name="october-15-2020"></a>15 de outubro de 2020
 
@@ -181,7 +181,7 @@ Agora adicionamos a capacidade de ter 250 participantes em um chat em grupo. [Sa
 
 ### <a name="manage-the-praise-app"></a>Gerenciar o aplicativo elogio
 
-O aplicativo elogios no Microsoft Teams ajuda os usuários a mostrarem reconhecimento de seus membros da organização ou da sala de aula. O aplicativo elogio tem uma seleção de conjuntos de emblemas para escolher e fornece a opção de criar seus próprios selos. O elogio foi projetado para ajudar a reconhecer o esforço que vai para a ampla gama de trabalho que os usuários do teams fazem, dos educados aos funcionários iniciantes. [Saiba mais](../manage-praise-app.md).
+O aplicativo elogios no Microsoft Teams ajuda os usuários a mostrarem reconhecimento de seus membros da organização ou da sala de aula. O aplicativo elogio tem uma seleção de conjuntos de emblemas para escolher e fornece a opção de criar seus próprios selos. O elogio foi projetado para ajudar a reconhecer o esforço que vai para a ampla gama de trabalho que os usuários do teams fazem, desde educados a trabalhadores Frontline. [Saiba mais](../manage-praise-app.md).
 
 ### <a name="set-up-coordinated-meetings-with-microsoft-teams-rooms-and-surface-hub"></a>Configurar reuniões coordenadas com salas e Surface Hub do Microsoft Teams
 
@@ -387,7 +387,7 @@ Ao fazer reuniões com vídeo, agora você tem a opção de imagens de plano de 
 
 ### <a name="teams-for-realwear"></a>Teams para RealWear
 
-O cliente do Microsoft Teams para RealWear permite que os funcionários de primeira mão que usam o wearables montado na cabeça de RealWear operem o Teams 100 por cento de mão livre e buscam assistência remota de especialistas em chamadas com vídeo em equipe. [Saiba mais](../flw-realwear.md).
+O cliente do Microsoft Teams para RealWear permite que os funcionários do Frontline usando o wearables com base em rumo da RealWear operem o Teams 100 por cento sem intervenção e buscam assistência remota de especialistas em chamadas com vídeo em equipe. [Saiba mais](../flw-realwear.md).
 
 ## <a name="march-31-2020"></a>31 de março de 2020
 

@@ -25,12 +25,12 @@ ms.custom:
 - seo-marvel-apr2020
 ROBOTS: NOINDEX, NOFOLLOW
 description: Saiba mais sobre atendedores automáticos da nuvem e como usá-los para permitir que os chamadores se movimentem por meio de um sistema de menus para localizar e fazer ou transferir chamadas para usuários ou departamentos.
-ms.openlocfilehash: c4bfbd8e56a64105fe1ee00409cf016976c8bb81
-ms.sourcegitcommit: 22e2f51abf879b34701064839d0e410758b6a3dd
+ms.openlocfilehash: 82d815eb4eb3c9a9e490f47dc3de492df7d0b6fb
+ms.sourcegitcommit: fdef9b52247097e5cae64f01b6b2b710c5b203cf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48209490"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "49909545"
 ---
 # <a name="what-are-cloud-auto-attendants"></a>O que são atendedores automáticos da nuvem?
 
@@ -145,7 +145,7 @@ Os chamadores podem dizer nomes nos seguintes formatos:
 
 Os seguintes idiomas estão disponíveis para conversão de texto em fala usadas com prompts de saída:
   
-||||
+|A-E|E-J|K A Z|
 |:-----|:-----|:-----|
 |Árabe (EG)  |Inglês (NZ)  |Coreano (KO)  |
 |Chinês (HK)  |Inglês (Reino Unido) |Noruega (NO)  |
@@ -159,7 +159,7 @@ Os seguintes idiomas estão disponíveis para conversão de texto em fala usadas
 
 A entrada de reconhecimento de fala dos atendedores automáticos está disponível nos seguintes idiomas:
   
-|||
+|A-F|F A Z|
 |:-----|:-----|
 |Chinês (ZH)  |Francês (FR)  |
 |Inglês (AU)  |Alemão (DE)  |
@@ -236,7 +236,7 @@ Para configurar um atendedor automático e as opções de menu, vá [configurar 
 
 Você pode atribuir um número de serviço da Microsoft, um número de roteamento direto ou um número híbrido à conta de recurso vinculado do atendente automático (ou a várias contas de recursos se for necessário mais de um número de telefone). Consulte [planejar o roteamento direto](direct-routing-plan.md) para obter mais detalhes.
 
-Para atribuir um número de serviço, você precisará adquirir ou portar seus números de serviço de chamada tarifada ou gratuitas existentes. Depois de obter os números de telefone de serviço de chamada tarifada ou gratuita, eles aparecem nos números de telefone de voz do **centro de administração do Skype for Business**  >  **Voice**  >  **Phone numbers**. **Tipo de número** é listado como **serviço-chamada gratuita**. Para obter seus números de serviço, consulte [obtendo números de telefone de serviço para o Skype for Business e o Microsoft Teams](/microsoftteams/getting-service-phone-numbers) ou, se você quiser transferir e número de serviço existente, consulte [transferir números de telefone para o Teams](phone-number-calling-plans/transfer-phone-numbers-to-teams.md).
+Para atribuir um número de serviço, você precisará adquirir ou portar seus números de serviço de chamada tarifada ou gratuitas existentes. Depois de obter os números de telefone de serviço de chamada tarifada ou gratuita, eles aparecem nos números de telefone de voz do **centro de administração do Skype for Business**  >    >  . **Tipo de número** é listado como **serviço-chamada gratuita**. Para obter seus números de serviço, consulte [obtendo números de telefone de serviço para o Skype for Business e o Microsoft Teams](/microsoftteams/getting-service-phone-numbers) ou, se você quiser transferir e número de serviço existente, consulte [transferir números de telefone para o Teams](phone-number-calling-plans/transfer-phone-numbers-to-teams.md).
   
 > [!NOTE]
 > Se você estiver fora dos Estados Unidos, não poderá usar o centro de administração do Microsoft Teams para obter números de serviço. Em seguida, [gerencie os números de telefone de sua organização](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) para ver como fazê-lo.

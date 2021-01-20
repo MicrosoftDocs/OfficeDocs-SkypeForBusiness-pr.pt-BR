@@ -15,12 +15,12 @@ description: Use esta orientação para implementar o Microsoft Teams como sua p
 ROBOTS: NOINDEX, NOFOLLOW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2f7acdfb092e74ae5e10e818b4007c4e22762a36
-ms.sourcegitcommit: e773823a3f71efb6eee3bcbc928f1fee24c9381c
+ms.openlocfilehash: a30d5bed9443df3077ab7384cd8266d2f049148d
+ms.sourcegitcommit: fdef9b52247097e5cae64f01b6b2b710c5b203cf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "47950857"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "49909475"
 ---
 # <a name="roll-out-microsoft-teams-first"></a>Implantar o Microsoft Teams primeiro
 
@@ -253,7 +253,7 @@ Saiba mais aqui: <a href="https://docs.microsoft.com/microsoftteams/admin-settin
 
 ## <a name="closing-statement"></a>Instrução de fechamento
 
-O Microsoft Teams pode ser um habilitador para sua organização reunir todos os funcionários, operadores de informações e trabalhadores de primeira mão, juntos em uma única plataforma. Você pode [começar](https://products.office.com/microsoft-teams/group-chat-software) hoje mesmo. Você pode manter contato com todos os nossos comunicados mais recentes e atualizações de produtos mensais [aqui](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/bg-p/MicrosoftTeamsBlog).
+O Microsoft Teams pode ser um habilitador para sua organização reunir todos os funcionários, operadores de informações e trabalhadores Frontline juntos em uma única plataforma. Você pode [começar](https://products.office.com/microsoft-teams/group-chat-software) hoje mesmo. Você pode manter contato com todos os nossos comunicados mais recentes e atualizações de produtos mensais [aqui](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/bg-p/MicrosoftTeamsBlog).
 
 Além disso, como as empresas de todo o mundo estão gerenciando a situação COVID-19 atual, criamos uma série de conteúdo que ajudará você a usar o Microsoft Teams para obter o máximo de impacto em sua organização.
 
@@ -284,7 +284,7 @@ Para ver especificações sobre cada um dos serviços listados acima, siga os li
   - O Exchange Online é usado para recursos de calendário e armazenamento de mensagens ponto a ponto no Teams. Para saber mais, leia [como o Exchange e as equipes interagem](exchange-teams-interact.md)
 
 > [!IMPORTANT]
-> Para a interoperabilidade do teams com o Exchange no local, você deve configurar o novo protocolo de autenticação OAuth do Exchange, conforme descrito em [Configurar a autenticação OAuth entre organizações Exchange e Exchange Online](https://docs.microsoft.com/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help).
+> Para a interoperabilidade do teams com o Exchange no local, você deve configurar o novo protocolo de autenticação OAuth do Exchange, conforme descrito em [Configurar a autenticação OAuth entre organizações Exchange e Exchange Online](https://docs.microsoft.com/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help).
 
   - O SharePoint é usado para compartilhamento de arquivos em canais, enquanto o/OneDrive for Business é usado para compartilhamento de arquivos no 1:1 ou em um chat em grupo. Para saber mais, leia [como o SharePoint Online e o onedrive for Business interagem com o Microsoft Teams](sharepoint-onedrive-interact.md).
 

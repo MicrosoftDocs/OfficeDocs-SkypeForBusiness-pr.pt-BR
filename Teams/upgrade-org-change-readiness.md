@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b422fc9542f989cd335bfb3064fbdecb7f59bfe7
-ms.sourcegitcommit: 1e16c6c7112bdde03209c12468b5705ddd116a62
+ms.openlocfilehash: a65b3f163995feb2a82d18261ebc374d6252783e
+ms.sourcegitcommit: fdef9b52247097e5cae64f01b6b2b710c5b203cf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "49578284"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "49909175"
 ---
 # <a name="assess-organizational-change-readiness"></a>Avaliar preparação da mudança organizacional
 
@@ -147,7 +147,7 @@ Pode ser fácil obter uma estratégia de trabalho em equipe para cada usuário, 
 
   - Equipes/regiões de vendas – estrada guerreiros, recursos de fácil acesso, respostas de rápida atendimento ao longo do mundo
   - HR – processos padronizados em todas as divisões, abordagem consistente para contratação
-  - Trabalhadores iniciantes – conexão com seus colegas/gerenciamento, acesso aos procedimentos, NEO
+  - Frontline trabalhadores – conexão com seus colegas/gerenciamento, acesso aos procedimentos, NEO
 
 - Tenha estas considerações em mente:
 

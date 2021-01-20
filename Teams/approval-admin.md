@@ -18,16 +18,14 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4326408b7e27aa19af8e6c404d7275d26ba90969
-ms.sourcegitcommit: d73d732591944b899a9366f79b4ea97f4a7f2260
+ms.openlocfilehash: f916b4e794c862a05a42f075ca2f210a079ff42a
+ms.sourcegitcommit: fdef9b52247097e5cae64f01b6b2b710c5b203cf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/15/2020
-ms.locfileid: "49675164"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "49909515"
 ---
 # <a name="teams-approvals-app-availability"></a>Aprovação do aplicativo aprovações de equipe
-
-[!INCLUDE [preview-feature](includes/preview-feature.md)]
 
 O aplicativo aprovações está disponível como um aplicativo pessoal para todos os usuários do Microsoft Teams.
 O aplicativo aprovações fornece uma maneira simples de trazer auditoria, conformidade, responsabilidade e fluxos de trabalho para aprovações estruturadas e não estruturadas no Teams.
@@ -109,7 +107,7 @@ As aprovações criadas do aplicativo aprovações são armazenadas no ambiente 
 
 O aplicativo aprovações registra eventos de auditoria no centro de conformidade e segurança do Microsoft 365. Você pode exibir o log de auditoria.
 
-1. Vá para o site de conformidade do M365.
+1. Vá para o site de conformidade do Microsoft 365.
 
 2. Selecione a seção **auditoria** .
 
@@ -139,7 +137,7 @@ Para ter acesso a mais aprovações de auditoria dentro do fluxo, habilite e con
 
 A auditoria pode ser personalizada ainda mais no [centro de conformidade e segurança do Microsoft 365](https://support.office.com/article/go-to-the-office-365-security-compliance-center-7e696a40-b86b-4a20-afcc-559218b7b1b8?ui=en-US&rs=en-US&ad=US).
 
-1. Para usar os relatórios pré-configurados, entre no Office 365 segurança e conformidade.
+1. Para usar os relatórios pré-configurados, entre em segurança e conformidade do Microsoft 365.
 
 2. Selecione **pesquisar & investigação**.
 
@@ -149,7 +147,7 @@ Saiba mais sobre [o Microsoft dataverso e os aplicativos controlados por modelo-
 
 ## <a name="security"></a>Segurança
 
-No aplicativo de aprovação do Teams, os usuários têm acesso para criar novas aprovações e exibir aprovações que enviaram e receberam. Os usuários não terão acesso às aprovações criadas por outras pessoas, a menos que elas sejam um Respondente ou um visualizador da solicitação.
+No aplicativo aprovações do Teams, os usuários têm acesso para criar novas aprovações e exibir aprovações que enviaram e receberam. Os usuários não terão acesso às aprovações criadas por outras pessoas, a menos que elas sejam um Respondente ou um visualizador da solicitação.
 
 > [!Note]
 > Um usuário receberá uma função de visualizador de uma solicitação se eles fizerem parte do chat ou do canal em que a aprovação foi criada. Elas não terão a capacidade de atuar na solicitação se não estivessem dadas essa função quando a aprovação foi criada.

@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 04b0833f453ffac96e9fe2c9cef1b0f2a0797ca2
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: 954eb24cd0d6c79ab3fd30e22521660d2afeb08e
+ms.sourcegitcommit: fdef9b52247097e5cae64f01b6b2b710c5b203cf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46581252"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "49909155"
 ---
 # <a name="plan-for-office-365-government---dod-deployments"></a>Plano para implantações do Office 365 governo-DoD
 
@@ -91,3 +91,6 @@ Determine suas necessidades de governança e como você pode atendê-las. Vá pa
 Depois de ter sido integrado ao Office 365 governo – DoD, siga o caminho de implantação recomendado descrito em [como implantar o Microsoft Teams](How-to-roll-out-teams.md). Não deixe de entrar em contato com sua equipe de adoção e gerenciamento de mudanças e especialistas do teams.
 
 Você também pode trabalhar com o [FastTrack](https://www.microsoft.com/fasttrack) ou o parceiro escolhido para onboard do serviço.
+
+> [!NOTE]
+> O cliente das equipes do Mac para ambientes DOD ainda não tem suporte.

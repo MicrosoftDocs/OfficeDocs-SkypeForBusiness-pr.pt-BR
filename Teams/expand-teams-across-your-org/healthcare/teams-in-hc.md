@@ -20,16 +20,16 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.reviewer: ''
-description: Saiba mais sobre os recursos de assistência médica, como o Microsoft Teams telehealth, a integração do EHR, a integração do sistema do primeiro trabalhador e o aplicativo pacientes.
+description: Saiba mais sobre os recursos de assistência médica, como o Microsoft Teams telehealth, a integração do EHR, a integração do sistema do Frontline Worker e o aplicativo pacientes.
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
-ms.openlocfilehash: 7cd05039797f26cd2a6fb3fb93e9b90cc3059651
-ms.sourcegitcommit: 43dc627e9fef31a2508f54acf741000551ff68b5
+ms.openlocfilehash: 623958e8d2b3185e2e46fe1fe50330d7d084a6cb
+ms.sourcegitcommit: fdef9b52247097e5cae64f01b6b2b710c5b203cf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "48878705"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "49909245"
 ---
 # <a name="get-started-with-teams-for-healthcare-organizations"></a>Comece a usar o Microsoft Teams para organizações de assistência médica
 
@@ -135,8 +135,8 @@ Use [aprovações](https://support.microsoft.com/office/what-is-approvals-a9a01c
 
 Você pode permitir o aplicativo aprovações para sua organização e adicioná-lo às suas equipes. Para saber mais sobre como gerenciar aplicativos, consulte [gerenciar seus aplicativos no centro de administração do Microsoft Teams](../../manage-apps.md).
 
-### <a name="create-manage-and-share-schedules-with-the-shifts-app-and-firstline-worker-integration"></a>Criar, gerenciar e compartilhar cronogramas com o aplicativo turnos e a integração do trabalho do primeiro trabalhador
+### <a name="create-manage-and-share-schedules-with-the-shifts-app-and-frontline-worker-integration"></a>Criar, gerenciar e compartilhar cronogramas com o aplicativo turnos e a integração com o trabalhador do Frontline
 
-O Microsoft Teams integra-se ao aplicativo turnos e ao funcionário de primeira mão, que pode ser usado para coordenar os recursos de pessoal de mudança e muito mais. Por exemplo, em turnos, os gerentes de enfermeira podem configurar e coordenar os cronogramas de seus funcionários, e às permutações podem verificar agendas e trocar de turno. O Teams inclui uma política interna de configuração de aplicativo de trabalho do trabalho que você pode atribuir a trabalhadores de primeira mão em sua organização. Por padrão, a política inclui os aplicativos atividade, turnos, chat e chamadas. Essa política controla o comportamento desses aplicativos, por exemplo, fixar o aplicativo turnos na barra de aplicativos para que a equipe possa acessá-lo rapidamente.
+O Microsoft Teams integra-se ao aplicativo turnos e ao Frontline Worker, que pode ser usado para coordenar os recursos de pessoal de mudança e muito mais. Por exemplo, em turnos, os gerentes de enfermeira podem configurar e coordenar os cronogramas de seus funcionários, e às permutações podem verificar agendas e trocar de turno. O Microsoft Teams inclui uma política interna de configuração de aplicativo de trabalho do Frontline que você pode atribuir a trabalhadores do Frontline em sua organização. Por padrão, a política inclui os aplicativos atividade, turnos, chat e chamadas. Essa política controla o comportamento desses aplicativos, por exemplo, fixar o aplicativo turnos na barra de aplicativos para que a equipe possa acessá-lo rapidamente.
 
 Para saber mais, consulte [gerenciar o aplicativo turnos para sua organização no Microsoft Teams](../shifts/manage-the-shifts-app-for-your-organization-in-teams.md).

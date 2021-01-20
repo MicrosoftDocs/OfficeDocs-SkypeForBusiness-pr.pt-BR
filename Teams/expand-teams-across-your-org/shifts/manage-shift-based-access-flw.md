@@ -1,5 +1,5 @@
 ---
-title: Gerenciar o acesso baseado em turnos para trabalhadores da linha de frente no Teams
+title: Gerenciar o acesso baseado em Shift para trabalhadores do Frontline no Microsoft Teams
 author: cichur
 ms.author: v-cichur
 ms.reviewer: aaku
@@ -8,117 +8,117 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 search.appverid: MET150
-description: Saiba como gerenciar o acesso baseado em turnos no Teams para trabalhadores da linha de frente em sua organização.
+description: Saiba como gerenciar o acesso baseado em Shift no Teams para trabalhadores do Frontline em sua organização.
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1b73fe9b3c4b39e7d3fa7b31427f563c47e5a737
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 437902136bf72685dabf5bd6359dd6221c7467de
+ms.sourcegitcommit: fdef9b52247097e5cae64f01b6b2b710c5b203cf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49823011"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "49909465"
 ---
-# <a name="manage-shift-based-access-for-firstline-workers-in-teams"></a>Gerenciar o acesso baseado em turnos para trabalhadores da linha de frente no Teams
+# <a name="manage-shift-based-access-for-frontline-workers-in-teams"></a>Gerenciar o acesso baseado em Shift para trabalhadores do Frontline no Microsoft Teams
 
 > [!IMPORTANT]
-> A partir de 30 de junho de 2020, o Microsoft StaffHub foi retirado. Estamos criando recursos do StaffHub no Microsoft Teams. Hoje, o Teams inclui o aplicativo Turnos para gerenciamento de agendamento e recursos adicionais serão incluídos ao longo do tempo. O StaffHub parou de funcionar para todos os usuários em 30 de junho de 2020. Qualquer pessoa que tentar abrir o StaffHub é exibida uma mensagem direcionando-a para baixar o Teams. Para saber mais, confira [o Microsoft StaffHub foi retirado.](microsoft-staffhub-to-be-retired.md)  
+> A partir de 30 de junho de 2020, o Microsoft StaffHub foi desativado. Estamos criando recursos de StaffHub no Microsoft Teams. Hoje, o Teams inclui o aplicativo turnos para gerenciamento de agendamento e recursos adicionais se acumularão ao longo do tempo. StaffHub parou de funcionar para todos os usuários em 30 de junho de 2020. Qualquer pessoa que tentar abrir o StaffHub será exibida uma mensagem direcionando-o para o download do teams. Para saber mais, confira [o Microsoft StaffHub foi desativado](microsoft-staffhub-to-be-retired.md).  
 
 ## <a name="overview"></a>Visão Geral
 
 [!INCLUDE [preview-feature](../../includes/preview-feature.md)]
 
-A presença no Microsoft Teams indica a disponibilidade e o status atuais do usuário para outros usuários. A presença de Trabalhadores de Linha de Frente geralmente é menos previsível do que outras equipes, pois suas horas de trabalho normalmente não são as mesmas a cada dia. Como administrador, você pode configurar o Teams para mostrar um conjunto de estados de presença baseados em turnos para os Trabalhadores da Linha de Frente em sua organização para indicar quando eles estão no turno de folga.
+A presença no Microsoft Teams indica a disponibilidade e o status do usuário atual para outros usuários. A presença de funcionários do Frontline geralmente é menos previsível do que a outra equipe, pois as horas de trabalho normalmente não são iguais todos os dias. Como administrador, você pode configurar o Microsoft Teams para mostrar um conjunto de Estados de presença baseada em Shift para que os trabalhadores do Frontline em sua organização indiquem quando eles estão ativados e desligados.
 
-Esses estados de presença baseados em turnos indicam marca de seleção verde sólido, indica No turno no turno , Círculo cinza com x, indica Fora do turno fora do turno , círculo vermelho sólido, indica Ocupado Ocupado são separados do conjunto padrão de estados de presença no &mdash; ![ ](../../media/flw-presence-on-shift.png)  ![ ](../../media/flw-presence-off-shift.png)  ![ ](../../media/flw-presence-busy.png)  &mdash; Teams. [](../../presence-admins.md) Com esses dois conjuntos de estados de presença, você pode configurar experiências diferentes para as pessoas em sua organização com base em sua função.
+Esses Estados de presença com base em Shift indicam a &mdash; ![ marca de seleção verde estável, indica que, em Shift, ](../../media/flw-presence-on-shift.png) **em Shift**, ![ círculo cinza com x, indica o deslocamento de SHIFT ](../../media/flw-presence-off-shift.png) **desligado**, ![ círculo vermelho sólido, indica ocupado ocupado ](../../media/flw-presence-busy.png)  &mdash; são separados do [conjunto padrão de Estados de presença](../../presence-admins.md) no Microsoft Teams. Com esses dois conjuntos de Estados de presença, você pode configurar experiências diferentes para as pessoas em sua organização com base em suas funções.
 
-Com o acesso baseado em turnos, você pode gerenciar o acesso ao Teams quando os Trabalhadores da Linha de Frente estão fora do turno. Por exemplo, você pode definir o Teams para exibir uma mensagem que os Trabalhadores da Linha de Frente devem confirmar antes de poder usar o Teams quando não estão em um turno agendado.  
+Com o acesso baseado em Shift, você pode gerenciar o acesso às equipes quando os funcionários do Frontline estiverem fora do turno. Por exemplo, você pode definir o Teams para exibir uma mensagem que os funcionários do Frontline devem confirmar antes de poderem usar o Microsoft Teams quando não estiverem em um turno programado.  
 
 ## <a name="scenario"></a>Cenário
 
-Veja um exemplo de como sua organização pode gerenciar o acesso baseado em turnos.
+Veja um exemplo de como sua organização pode gerenciar o acesso baseado em Shift.
 
-Você tem trabalhadores da linha de frente em sua organização que só devem ser pagos por horas em que trabalham em um turno agendado e aprovado pelo gerente. Eles não devem ser pagos pelo tempo gasto trabalhando fora de um turno agendado, o que inclui o uso do aplicativo Teams. Você configura uma mensagem personalizada que diz "Seu tempo no Teams quando está fora do turno não contará para as horas de pagamento", que é exibida quando os funcionários da linha de frente tentam acessar o Teams quando estão fora do turno. Se eles optarem por usar o Teams, eles clicarão em **Aceitar** com o entendimento de que não serão pagos por esse tempo.
+Você tem funcionários do Frontline em sua organização que devem ser pagos apenas por horas em que eles trabalham em um turno que seus gerentes agendados e aprovados. Eles não devem ser pagos por tempo gasto trabalhando fora de um turno agendado, que inclui o uso do aplicativo Teams. Você configura uma mensagem personalizada que diz "seu tempo na equipe quando o turno está desligado não conta em relação a contas a pagar", que é exibido quando os funcionários do Frontline tentam acessar o Microsoft Teams quando estão fora do turno. Se eles escolherem usar o Microsoft Teams, clique em **aceito** com o entendimento de que eles não serão pagos durante esse período.
 
-Você também tem funcionários de informações em sua organização com salários e que não trabalham em turnos. Você configura seus funcionários de informações para usar os estados de presença padrão no Teams, ao mesmo tempo em que dá a seus trabalhadores de linha de frente a presença baseada em turnos.
+Você também tem operadores de informações em sua organização que estão salários e quem não funcionam turnos. Você configura seus operadores de informações para usar os Estados de presença padrão no Teams e, ao mesmo tempo, oferecer aos trabalhadores do Frontline a presença baseada em turno.
 
-## <a name="shift-based-presence-states"></a>Estados de presença baseados em turnos
+## <a name="shift-based-presence-states"></a>Estados de presença baseados em Shift
 
-Aqui estão os estados de presença baseados em turnos.
+Estes são os Estados de presença baseados em Shift.
 
 |Aplicativo configurado |Usuário configurado  |Mais informações  |
 |---------|---------|---------|
-|![Marca de seleção verde sólido, indica No turno](../../media/flw-presence-on-shift.png) No turno     |         |Definido automaticamente no início de um turno         |
-|![Círculo cinza com x, indica Off shift](../../media/flw-presence-off-shift.png) Fora do turno     |         |Definido automaticamente no final de um turno         |
-|![Círculo vermelho, indica Ocupado](../../media/flw-presence-busy.png) Ocupado      | ![Círculo vermelho, indica Ocupado](../../media/flw-presence-busy.png) Ocupado         |Definido automaticamente. Também pode ser definido manualmente quando o Firstline Worker está no turno.|
+|![Marca de seleção verde estável, indica no turno](../../media/flw-presence-on-shift.png) No turno     |         |Definido automaticamente no início de um turno         |
+|![Círculo cinza com x, indica o turno](../../media/flw-presence-off-shift.png) Desativar Shift     |         |Definido automaticamente no fim de um turno         |
+|![Círculo vermelho, indica Ocupado](../../media/flw-presence-busy.png) Ocupado      | ![Círculo vermelho, indica Ocupado](../../media/flw-presence-busy.png) Ocupado         |Definido automaticamente. Também pode ser definido manualmente quando o trabalhador do Frontline está em turno.|
 
-## <a name="off-shift-access-to-teams"></a>Acesso fora do turno ao Teams
+## <a name="off-shift-access-to-teams"></a>Desativar o acesso ao Microsoft Teams
 
-Esse recurso permite que você gerencie o acesso ao Teams quando os Funcionários da Linha de Frente estão fora do turno. Você pode definir o Teams para exibir uma mensagem para Os Trabalhadores da Linha de Frente se eles acessarem o Teams quando estão fora do turno. Os trabalhadores da linha de frente **devem clicar em Aceitar** para confirmar a mensagem antes que possam usar o Teams.
+Esse recurso permite que você gerencie o acesso ao Teams quando os funcionários do Frontline estão fora do turno. Você pode definir o Microsoft Teams para exibir uma mensagem para trabalhadores do Frontline se eles acessarem equipes quando estiverem fora do turno. Os funcionários do Frontline devem clicar em **aceito** para confirmar a mensagem antes de poderem usar o Microsoft Teams.
 
-Você pode usar a mensagem padrão, escolher entre um conjunto de mensagens pré-definidas ou personalizar a mensagem para exibir qualquer texto que você quiser. Esta é a mensagem padrão:
+Você pode usar a mensagem padrão, escolher entre um conjunto de mensagens predefinidas ou personalizar a mensagem para exibir qualquer texto desejado. Aqui está a mensagem padrão:
 
 ![Captura de tela da mensagem padrão](../../media/shifts-presence-message.png)
 
-Você também pode definir a frequência quando a mensagem é exibida e definir um período de carência entre o início do primeiro turno ou o fim do último turno e quando o acesso ao Teams é restrito.
+Você também pode definir a frequência quando a mensagem for exibida e definir um período de cortesia entre quando o primeiro turno começar ou o último turno terminar e quando o acesso às equipes for restrito.
 
-## <a name="manage-shift-based-access"></a>Gerenciar acesso baseado em turnos
+## <a name="manage-shift-based-access"></a>Gerenciar o acesso baseado em Shift
 
-Como administrador, você usa políticas para controlar a presença baseada em turnos para trabalhadores da linha de frente em sua organização. Você gerencia essas políticas usando os seguintes cmdlets do PowerShell:
+Como administrador, você usa políticas para controlar a presença baseada em Shift para trabalhadores do Frontline em sua organização. Para gerenciar essas políticas, use os seguintes cmdlets do PowerShell:
 
 - [New-CsTeamsShiftsPolicy](https://docs.microsoft.com/powershell/module/teams/new-csteamsshiftspolicy)
 - [Get-CsTeamsShiftsPolicy](https://docs.microsoft.com/powershell/module/teams/get-csteamsshiftspolicy)
 - [Set-CsTeamsShiftsPolicy](https://docs.microsoft.com/powershell/module/teams/set-csteamsshiftspolicy)
-- [Grant-CsTeamsShiftsPolicy](https://docs.microsoft.com/powershell/module/teams/grant-csteamsshiftspolicy)
+- [Grant CsTeamsShiftsPolicy](https://docs.microsoft.com/powershell/module/teams/grant-csteamsshiftspolicy)
 - [Remove-CsTeamsShiftsPolicy](https://docs.microsoft.com/powershell/module/teams/remove-csteamsshiftspolicy)
 
-Use o cmdlet New-CsTeamsShiftsPolicy para criar uma nova política, definir as configurações de política que você deseja e, em seguida, use o cmdlet Grant-CsTeamsShiftsPolicy para atribuir a política aos usuários.
+Use o cmdlet New-CsTeamsShiftsPolicy para criar uma nova política, definir as configurações de política desejadas e usar o cmdlet Grant-CsTeamsShiftsPolicy para atribuir a política a usuários.
 
-Aqui estão alguns exemplos. Para obter informações detalhadas sobre cada configuração de política e parâmetro, incluindo a lista de mensagens de deslocamento predefinidos que você pode escolher, consulte [New-CsTeamsShiftsPolicy](https://docs.microsoft.com/powershell/module/teams/new-csteamsshiftspolicy).
+Aqui estão alguns exemplos. Para obter informações detalhadas sobre cada configuração de política e parâmetro, incluindo a lista de mensagens de turno predefinidas que você pode escolher, consulte [New-CsTeamsShiftsPolicy](https://docs.microsoft.com/powershell/module/teams/new-csteamsshiftspolicy).
 
 ### <a name="example-1"></a>Exemplo 1
 
-Neste exemplo, criamos uma nova política chamada Mensagem Padrão de Acesso ao Off Shift Teams. Nesta política, a presença baseada em turnos é 2013 e a mensagem padrão é exibida sempre que um usuário atribuído a essa política acessa o Teams quando está fora do turno. O usuário pode usar o Teams fora do turno se aceitar a mensagem e o período de carência entre o início do primeiro turno ou o fim do último turno e quando o acesso é restrito é de 10 minutos.  
+Neste exemplo, criamos uma nova política chamada desativar a mensagem padrão do Access Teams Access. Nesta política, a presença baseada em Shift está ativada e a mensagem padrão é exibida sempre que um usuário atribuído essa política acessa as equipes quando está fora do turno. O usuário poderá usar o Microsoft Teams quando ele aceitar a mensagem e o período de cortesia entre quando o primeiro turno começar ou o último turno terminar e quando o acesso for restrito é de 10 minutos.  
 
 ```powershell
 New-CsTeamsShiftsPolicy -Identity "Off Shift Teams Access Default Message" -EnableShiftPresence $true -ShiftNoticeFrequency always -ShiftNoticeMessageType DefaultMessage -AccessType UnrestrictedAccess_TeamsApp -AccessGracePeriodMinutes 10
 ```
 
 > [!NOTE]
-> Use o **parâmetro ShiftNoticeMessageType** para definir a mensagem que você deseja exibir. Para ver uma lista das mensagens pré-definidas que você pode escolher para esse parâmetro, consulte [New-CsTeamsShiftsPolicy](https://docs.microsoft.com/powershell/module/teams/new-csteamsshiftspolicy).
+> Use o parâmetro **ShiftNoticeMessageType** para definir a mensagem que você deseja exibir. Para ver uma lista das mensagens predefinidas que você pode escolher para esse parâmetro, consulte [New-CsTeamsShiftsPolicy](https://docs.microsoft.com/powershell/module/teams/new-csteamsshiftspolicy).
 
 ### <a name="example-2"></a>Exemplo 2 
 
-Neste exemplo, criamos uma nova política chamada Mensagem Personalizada de Acesso ao Off Shift Teams. Nesta política, a presença baseada em turnos é 2013 e uma mensagem personalizada é exibida sempre que um usuário atribuído a essa política acessa o Teams quando está fora do turno. O usuário poderá usar o Teams quando estiver fora do turno se aceitar a mensagem e o período de carência entre o início do primeiro turno ou o fim do último turno e quando o acesso for restrito for de 15 minutos.  
+Neste exemplo, criamos uma nova política chamada desativar a mensagem personalizada do Access Teams Access. Nesta política, a presença baseada em Shift está ativada e uma mensagem personalizada é exibida sempre que um usuário atribuído essa política acessa o Microsoft Teams quando está fora do turno. O usuário poderá usar o Microsoft Teams quando ele aceitar a mensagem, e o período de cortesia entre quando o primeiro turno começar ou o último turno terminar e quando o acesso for restrito for de 15 minutos.  
 
 ```powershell
 New-CsTeamsShiftsPolicy -Identity "Off Shift Teams Access Custom Message" -EnableShiftPresence $true -ShiftNoticeFrequency always -ShiftNoticeMessageType CustomMessage -ShiftNoticeMessageCustom "Your time on Teams when on off shift won't count toward payable hours" -AccessType UnrestrictedAccess_TeamsApp -AccessGracePeriodMinutes 15
 ```
 
 > [!NOTE]
-> Use o **parâmetro ShiftNoticeMessageType** para definir a mensagem que você deseja exibir. Para saber mais, consulte [New-CsTeamsShiftsPolicy](https://docs.microsoft.com/powershell/module/teams/new-csteamsshiftspolicy).
+> Use o parâmetro **ShiftNoticeMessageType** para definir a mensagem que você deseja exibir. Para saber mais, confira [novo – CsTeamsShiftsPolicy](https://docs.microsoft.com/powershell/module/teams/new-csteamsshiftspolicy).
 
 ### <a name="example-3"></a>Exemplo 3
 
-Neste exemplo, criamos uma nova política chamada Mensagem de Acesso do Off Shift Teams1. Nesta política, a presença baseada em turnos é ativa e a seguinte mensagem predefinida é exibida sempre que um usuário atribuído a essa política acessa o Teams quando está fora do turno.
+Neste exemplo, criamos uma nova política chamada desligada do Access Teams Access message1. Nesta política, a presença baseada em Shift está ativada e a seguinte mensagem predefinida é exibida toda vez que um usuário atribuído essa política acessa as equipes quando está fora do turno.
 
-  "Seu empregador não autoriza ou aprova o uso de sua rede, aplicativos, sistemas ou ferramentas por funcionários não isentos ou por hora durante suas horas de não trabalho. Ao aceitar, você reconhece que o uso do Teams fora do turno não está autorizado e não será compensado." 
+  "Seu empregador não autoriza ou aprova o uso da rede, dos aplicativos, dos sistemas ou das ferramentas por funcionários não isentos ou por hora, durante suas horas de folga. Ao aceitar, você reconhece que o uso do Microsoft Teams fora do turno não é autorizado e não será remunerado. " 
 
-O usuário pode usar o Teams fora do turno se aceitar a mensagem, e o período de carência entre o início do primeiro turno ou o fim do último turno e quando o acesso é restrito é de três minutos.  
+O usuário poderá usar o Microsoft Teams quando ele aceitar a mensagem, e o período de cortesia entre quando o primeiro turno começar ou o último turno terminar e quando o acesso for restrito é de três minutos.  
 
 ```powershell
 New-CsTeamsShiftsPolicy -Identity "Off Shift Teams Access Message1" -EnableShiftPresence $true -ShiftNoticeFrequency always -ShiftNoticeMessageType Message1 -AccessType  UnrestrictedAccess_TeamsApp -AccessGracePeriodMinutes 3
 ```
 
 > [!NOTE]
-> Use o **parâmetro ShiftNoticeMessageType** para definir a mensagem que você deseja exibir. Para ver uma lista das mensagens pré-definidas que você pode escolher para esse parâmetro, consulte [New-CsTeamsShiftsPolicy](https://docs.microsoft.com/powershell/module/teams/new-csteamsshiftspolicy).
+> Use o parâmetro **ShiftNoticeMessageType** para definir a mensagem que você deseja exibir. Para ver uma lista das mensagens predefinidas que você pode escolher para esse parâmetro, consulte [New-CsTeamsShiftsPolicy](https://docs.microsoft.com/powershell/module/teams/new-csteamsshiftspolicy).
 
 ### <a name="example-4"></a>Exemplo 4
 
-Neste exemplo, atribuímos uma política chamada Desatribuição de Mensagem Personalizada de Acesso do Teams a um usuário chamado remy@contoso.com.
+Neste exemplo, atribuímos uma política chamada desativar mensagem personalizada do Access Teams para um usuário chamado remy@contoso.com.
 
 ```powershell
 Grant-CsTeamsShiftsPolicy -Identity remy@contoso.com -PolicyName "Off Shift Teams Access Custom Message"

@@ -8,19 +8,19 @@ ms.topic: article
 ms.service: msteams
 localization_priority: Normal
 description: Saiba mais sobre as configurações de administrador no aplicativo elogios no centro de administração do Microsoft Teams
-ms.openlocfilehash: 4e96355a3b05af2c9df484a2451014fbbaf0e926
-ms.sourcegitcommit: 4b01e4091d22d925d22a2e921963843175a4180b
+ms.openlocfilehash: 122e7f0ffad914e62ede56ebd1811d1504f3fcd7
+ms.sourcegitcommit: fdef9b52247097e5cae64f01b6b2b710c5b203cf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/06/2020
-ms.locfileid: "48929522"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "49909185"
 ---
 # <a name="manage-the-praise-app-in-the-microsoft-teams-admin-center"></a>Gerenciar o aplicativo elogios no centro de administração do Microsoft Teams
 
 > [!NOTE]
 > Os administradores devem ter uma licença do teams para acessar esse recurso. Se você tentar acessar esse recurso sem uma licença do Teams, receberá uma mensagem de erro.
 
-O aplicativo elogios no Microsoft Teams ajuda os usuários a mostrarem reconhecimento de seus membros da organização ou da sala de aula. Com uma seleção de conjuntos de emblemas para escolher e a opção para criar seus próprios selos, elogios é projetado para ajudar a reconhecer o esforço que entra na ampla gama de trabalho que os usuários do teams fazem, dos educados para funcionários iniciantes. Para saber mais, confira [Enviar elogios para as pessoas](https://support.microsoft.com/office/send-praise-to-people-50f26b47-565f-40fe-8642-5ca2a5ed261e).
+O aplicativo elogios no Microsoft Teams ajuda os usuários a mostrarem reconhecimento de seus membros da organização ou da sala de aula. Com uma seleção de conjuntos de emblemas a serem escolhidos e a opção de criar seus próprios selos, o elogio é projetado para ajudar a reconhecer o esforço que entra na ampla gama de trabalho que os usuários do teams fazem, desde educado a trabalhadores Frontline. Para saber mais, confira [Enviar elogios para as pessoas](https://support.microsoft.com/office/send-praise-to-people-50f26b47-565f-40fe-8642-5ca2a5ed261e).
 
 Os administradores podem controlar quais selos estão disponíveis para sua organização a partir do centro de administração do Microsoft Teams. No painel de navegação esquerdo, vá para **aplicativos do teams > gerenciar aplicativos**. Na lista de aplicativos, clique em **elogios** e, em seguida, selecione **configurações**.  Aqui, você pode optar por habilitar os conjuntos de emblemas padrão e internos e criar selos personalizados.
 
@@ -67,9 +67,9 @@ Selecione **criar um emblema personalizado**. Aqui, você pode criar um emblema 
 3. Carregar uma imagem de selo. O tipo de arquivo aceito é. Formato. O arquivo de imagem deve ter menos de 40 KB com dimensões máximas de 216 X 216 pixels.
 ![Selo com campos de plano de fundo, texto e imagem rotulados](media/praise-app-badge-fields.png)
 
-4. Localize o nome do seu selo: em **nomes de selo localizados** , selecione **Adicionar**. Selecione o local desejado na lista suspensa. Em seguida, digite o nome do selo no idioma designado.
+4. Localize o nome do seu selo: em **nomes de selo localizados**, selecione **Adicionar**. Selecione o local desejado na lista suspensa. Em seguida, digite o nome do selo no idioma designado.
 
-5. Exclua seu selo de localidades específicas: em **excluir selo destas localidades** , selecione **Adicionar**. Selecione as localidades que você deseja excluir na lista suspensa.
+5. Exclua seu selo de localidades específicas: em **excluir selo destas localidades**, selecione **Adicionar**. Selecione as localidades que você deseja excluir na lista suspensa.
 
 6. Selecione **aplicar**. Seu novo emblema aparecerá na tabela de selos personalizados.
 

@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Optimization
 description: Saiba como a qualidade do fluxo é classificada no painel de qualidade da chamada (CQD) para Microsoft Teams e Skype for Business online.
-ms.openlocfilehash: b27de2bb3dc62e8344b51d564f2c295a08f45932
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 400dcd953805595b4457b4ca9443c31b66f7425d
+ms.sourcegitcommit: fdef9b52247097e5cae64f01b6b2b710c5b203cf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48526348"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "49909035"
 ---
 # <a name="stream-classification-in-call-quality-dashboard-cqd"></a>Classificação de fluxo no painel de qualidade de chamada (CQD)
 
@@ -33,19 +33,19 @@ O painel de qualidade de chamada (CQD) para Microsoft Teams e o Skype for Busine
 
 ## <a name="classifier-definitions"></a>Definições do classificador
 
-Fluxos no CQD são classificados como _satisfatórios_, _ruins_ou não _classificados_ com base nos valores das métricas de qualidade de tecla disponíveis. As métricas e condições usadas para classificar o fluxo são mostradas nas tabelas a seguir. As dimensões "ruim devido a" de CQD podem ser usadas para compreender qual medida é responsável por uma classificação _deficiente_ . Para obter mais informações sobre essas dimensões, consulte [dimensões e medidas disponíveis no painel de qualidade da chamada](dimensions-and-measures-available-in-call-quality-dashboard.md).
+Fluxos no CQD são classificados como _satisfatórios_, _ruins_ ou não _classificados_ com base nos valores das métricas de qualidade de tecla disponíveis. As métricas e condições usadas para classificar o fluxo são mostradas nas tabelas a seguir. As dimensões "ruim devido a" de CQD podem ser usadas para compreender qual medida é responsável por uma classificação _deficiente_ . Para obter mais informações sobre essas dimensões, consulte [dimensões e medidas disponíveis no painel de qualidade da chamada](dimensions-and-measures-available-in-call-quality-dashboard.md).
 
 ### <a name="audio-classifier"></a>Classificador de áudio
 
 Se uma ou mais das seguintes condições forem atendidas, um fluxo de áudio será marcado como _ruim_:
 
-|Indicador|Condição|Explicação|
-|:-----|:-----|:-----|
-|Média de degradação de áudio|> 1,0|Média de pontuação média média média de Pontuação do Stream. Quanta perda de rede e Tremulação afetaram a qualidade do áudio recebido.|
-|Viagem de ida e volta|> 500|Tempo médio de propagação da rede de ida e volta, calculado em milissegundos. Detalhes disponíveis em [RFC3550](https://tools.ietf.org/html/rfc3550).|
-|Taxa de perda de pacotes|> 0,1|Taxa média de perda de pacotes do Stream.|
-|Tremulação|> 30|Variação média do fluxo em milissegundos.|
-|Índice médio de amostras ocultas|> 0,07|Razão média do número de quadros de áudio com amostras ocultas geradas pelo reparo de perda de pacotes para o número total de quadros de áudio.|
+|Indicador|Cenário|Condição|Explicação|
+|:-----|:-----|:-----|:-----|
+|Média de degradação de áudio|A descrição da carga não é ACETINAda|> 1,0|Média de pontuação média média média de Pontuação do Stream. Quanta perda de rede e Tremulação afetaram a qualidade do áudio recebido.|
+|Viagem de ida e volta|TODO|> 500|Tempo médio de propagação da rede de ida e volta, calculado em milissegundos. Detalhes disponíveis em [RFC3550](https://tools.ietf.org/html/rfc3550).|
+|Taxa de perda de pacotes|TODO|> 0,1|Taxa média de perda de pacotes do Stream.|
+|Tremulação|TODO|> 30|Variação média do fluxo em milissegundos.|
+|Índice médio de amostras ocultas|A descrição da carga não é ACETINAda|> 0,07|Razão média do número de quadros de áudio com amostras ocultas geradas pelo reparo de perda de pacotes para o número total de quadros de áudio.|
 ||||
 
 ### <a name="video-classifier-due-to-freeze"></a>Classificador de vídeo devido ao congelamento
@@ -100,19 +100,19 @@ Se a conectividade do ICE for bem-sucedida para um fluxo não _classificado_ , �
 
 - Os **relatórios de QoE não foram recebidos** — as métricas usadas para classificação são relatadas em um relatório de QoE enviado ao fim de uma chamada. Se esse relatório não for produzido (por exemplo, porque alguns pontos de extremidade de terceiros não podem enviar QoE) ou não puderem ser enviados (por exemplo, devido a uma falha de rede), CQD não poderá classificar o fluxo.
 
-> [!TIP]
-> A dimensão "Registro de QoE disponível" pode ser usada para determinar se um relatório de QoE foi recebido para um fluxo. Observe que essa dimensão terá um valor "Verdadeiro" se um relatório de QoE for recebido de um dos pontos de extremidade. Um relatório de QoE de ambos os pontos de extremidade é necessário para o relatório de métricas mais preciso.
+  > [!TIP]
+  > A dimensão "Registro de QoE disponível" pode ser usada para determinar se um relatório de QoE foi recebido para um fluxo. Observe que essa dimensão terá um valor "Verdadeiro" se um relatório de QoE for recebido de um dos pontos de extremidade. Um relatório de QoE de ambos os pontos de extremidade é necessário para o relatório de métricas mais preciso.
 
 - **Chamadas curtas** – chamadas curtas podem não ter atividade de mídia suficiente para calcular as métricas de fluxo de chave. Sem essas métricas, o CQD não consegue classificar o fluxo.
 
-> [!TIP]
-> As dimensões "Duração (Segundos)", "Duração (Minutos)", "Duração 5 segundos ou menos" e "Duração 60 segundos ou mais" podem ser usadas para determinar a duração de um fluxo. A medida "Duração média da chamada" também pode ser usada para calcular a duração média de um conjunto de fluxos.
+  > [!TIP]
+  > As dimensões "Duração (Segundos)", "Duração (Minutos)", "Duração 5 segundos ou menos" e "Duração 60 segundos ou mais" podem ser usadas para determinar a duração de um fluxo. A medida "Duração média da chamada" também pode ser usada para calcular a duração média de um conjunto de fluxos.
 
 - **Baixa utilização de pacotes** , como o cenário "chamada curta", a utilização de pacotes suficiente é necessária para o cálculo das principais métricas de fluxo. Sem essas métricas, o CQD não consegue classificar o fluxo.
   - Um cenário comum de pouca utilização de pacotes ocorre quando um participante ingressa em uma reunião para ouvir o apresentador, mas nunca fala (o microfone está mudo para a maioria da chamada). Aqui, o fluxo de áudio de entrada do cliente tem alta utilização de pacote enquanto o fluxo de áudio de saída do cliente não tem pouca utilização de pacote. A duração do fluxo pode ser uma hora ou mais, mas a utilização do pacote no fluxo do cliente para o servidor está baixa desde que o microfone foi desativado, e os resultados de fluxo não _classificados_ .
 
-> [!TIP]
-> A dimensão "Utilização de pacote" e a medida "Utilização média de pacote" podem ser usadas para determinar a atividade de pacote de um fluxo.
+  > [!TIP]
+  > A dimensão "Utilização de pacote" e a medida "Utilização média de pacote" podem ser usadas para determinar a atividade de pacote de um fluxo.
 
 ## <a name="related-topics"></a>Tópicos Relacionados
 [Melhorar e monitorar a qualidade da chamada para equipes](monitor-call-quality-qos.md)

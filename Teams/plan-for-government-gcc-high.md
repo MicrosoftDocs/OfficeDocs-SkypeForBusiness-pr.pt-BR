@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 890d0c1a7419109e4fe29a1742e84b25ea5e222c
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: ced9f5cc68ce18bc7e1670db4031ff85b7c76ff2
+ms.sourcegitcommit: fdef9b52247097e5cae64f01b6b2b710c5b203cf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46581222"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "49909265"
 ---
 # <a name="plan-for-office-365-government---gcc-high-deployments"></a>Plano para implantações altas do Office 365-GCC
 
@@ -91,4 +91,7 @@ Determine suas necessidades de governança e como você pode atendê-las. Vá pa
 Depois de ter sido integrado ao Office 365 governo – GCC High, siga o caminho de implantação recomendado descrito em [como implantar o Microsoft Teams](How-to-roll-out-teams.md). Não deixe de entrar em contato com sua equipe de adoção e gerenciamento de mudanças e especialistas do teams.
 
 Você também pode trabalhar com o [FastTrack](https://www.microsoft.com/fasttrack) ou o parceiro escolhido para onboard do serviço.
+
+> [!NOTE]
+> Ainda não há suporte para o cliente das equipes do Mac para ambientes GCCH.
 
