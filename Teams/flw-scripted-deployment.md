@@ -18,14 +18,14 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7a57de3528ac9ef0f950c7034b3c6ee3860b53ea
-ms.sourcegitcommit: ad82786076cc965e75b1ec5ffd4bc9bf75437340
+ms.openlocfilehash: b4a6f59223103527b9a2ad95101a2a8ab5044caf
+ms.sourcegitcommit: fdef9b52247097e5cae64f01b6b2b710c5b203cf
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "45028167"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "49909365"
 ---
-# <a name="how-to-provision-teams-at-scale-for-firstline-workers"></a>Como provisionar o Teams em escala para os Trabalhadores da Linha de Frente
+# <a name="how-to-provision-teams-at-scale-for-frontline-workers"></a>Como provisionar o Teams em escala para os Trabalhadores da Linha de Frente
 
 Precisa integrar rapidamente um grande número de usuários ao Microsoft Teams e configurar uma experiência simplificada para eles? Você pode rapidamente provisionar identidades e equipes, além de atribuir todas as políticas relevantes para controlar a experiência do usuário final, através das instruções a seguir.
 
@@ -179,7 +179,7 @@ Os canais são seções dedicadas dentro de uma equipe para manter as conversas 
 
 Como administrador, você pode usar as políticas de equipes no Microsoft Teams para controlar o que os usuários em sua organização podem ver. Por exemplo, você pode controlar quais aplicativos estão fixados na barra esquerda da área de trabalho ou do navegador da Web, ou a barra inferior em dispositivos móveis, a fim de simplificar a experiência do usuário final ao integrar uma grande quantidade de usuários. Algumas dessas políticas podem ser criadas com o PowerShell, e outras têm de ser criadas manualmente no console de administração do Teams.
 
-*Discussão de prática recomendada*: para cada uma das seguintes políticas, optamos por criar realmente duas políticas: uma para os trabalhadores da linha de frente e outra para os gerentes da linha de frente. Você pode optar por criar quantos forem necessários. Para a maioria dos clientes, duas é uma quantidade boa para começar, mesmo que você atribua as mesmas configurações para cada grupo inicialmente. À medida que sua experiência com o Teams aumentar, você poderá optar por diferenciar ainda mais sua experiência e ter as duas políticas separadas já criadas, poderá tornar isso mais simples.
+*Discussão de prática recomendada*: para cada uma das seguintes políticas, optamos por criar duas políticas: uma para os trabalhadores da linha de frente e outra para os gerentes da linha de frente. Você pode optar por criar quantos forem necessários. Para a maioria dos clientes, duas é uma quantidade boa para começar, mesmo que você atribua as mesmas configurações para cada grupo inicialmente. À medida que sua experiência com o Teams aumentar, você poderá optar por diferenciar ainda mais sua experiência e ter as duas políticas separadas já criadas, poderá tornar isso mais simples.
 
 ### <a name="create-teams-message-policies"></a>Criar políticas de mensagens do Teams
 
@@ -209,7 +209,7 @@ Os aplicativos do são fixados na barra do aplicativo. Esta é a barra do lado d
 
 *Discussão de prática recomendada*: gerencie as políticas de configuração de aplicativos no centro administrativo do Microsoft Teams. Eles não podem ser criados com o PowerShell. Você pode usar a política global (padrão para toda a organização) ou criar políticas personalizadas e atribuí-las aos usuários. Os usuários em sua organização terão automaticamente a política global atribuída, a menos que você crie e atribua uma política personalizada. Para nossos propósitos, criaremos duas novas políticas para os trabalhadores e gerentes da linha de frente, a fim de proporcioná-los uma experiência mais simples e aperfeiçoada, facilitando a integração de um grande número de usuários simultaneamente. Você pode optar por personalizar a experiência conforme as necessidades da empresa.
 
-#### <a name="create-the-firstline-manager-app-setup-policy"></a>Criar a política de configuração do aplicativo de gerente da linha de frente
+#### <a name="create-the-frontline-manager-app-setup-policy"></a>Criar a política de configuração do aplicativo de gerente da linha de frente
 
 As seguintes configurações podem ser personalizadas para atender às suas necessidades de negócios. Escolhemos algumas das opções recomendadas com base nas práticas recomendadas e para melhorar a facilidade de integrar novos usuários em escala. Para saber mais, clique [aqui](https://docs.microsoft.com/MicrosoftTeams/teams-app-setup-policies#create-a-custom-app-setup-policy).
 
@@ -233,7 +233,7 @@ As seguintes configurações podem ser personalizadas para atender às suas nece
     1. Calendário
     1. Turnos ![Captura de tela da lista de aplicativos do gerente na ordem.](media/FLW-Manager-Pinned-Apps.png)
 
-#### <a name="create-the-firstline-worker-app-setup-policy"></a>Criar a política de configuração do aplicativo de trabalhador da linha de frente
+#### <a name="create-the-frontline-worker-app-setup-policy"></a>Criar a política de configuração do aplicativo de trabalhador da linha de frente
 
 As seguintes configurações podem ser personalizadas para atender às suas necessidades de negócios. Escolhemos algumas das opções recomendadas com base nas práticas recomendadas e para melhorar a facilidade de integrar novos usuários em escala. Para saber mais, clique [aqui](https://docs.microsoft.com/MicrosoftTeams/teams-app-setup-policies#create-a-custom-app-setup-policy).
 
@@ -260,9 +260,9 @@ As seguintes configurações podem ser personalizadas para atender às suas nece
 
 Como administrador, você pode usar as políticas de permissão do aplicativo para controlar quais aplicativos estarão disponíveis para os usuários do Microsoft Teams em sua organização. Você pode permitir ou bloquear todos os aplicativos, ou aplicativos específicos publicados pela Microsoft, por terceiros e pela sua organização. Ao bloquear um aplicativo, os usuários que têm a política não conseguem instalá-lo da loja de aplicativos do Teams. Você deve ser um administrador global ou administrador de serviços do Teams para gerenciar essas políticas.
 
-*Discussão de prática recomendada*: gerencie as políticas de configuração de aplicativos no centro administrativo do Microsoft Teams. Eles não podem ser criados com o PowerShell. Você pode usar a política global (padrão para toda a organização) ou criar políticas personalizadas e atribuí-las aos usuários. Os usuários da sua organização terão automaticamente a política global, a menos que você crie e atribua uma política personalizada. Para nossos propósitos, criaremos duas novas políticas para os trabalhadores e gerentes da linha de frente, a fim de proporcionar uma experiência mais simples e aperfeiçoada, facilitando a integração de um grande número de usuários simultaneamente. Claro que você pode optar por personalizar a experiência conforme as necessidades da empresa.
+*Discussão de prática recomendada*: gerencie as políticas de configuração de aplicativos no centro administrativo do Microsoft Teams. Eles não podem ser criados com o PowerShell. Você pode usar a política global (padrão para toda a organização) ou criar políticas personalizadas e atribuí-las aos usuários. Os usuários da sua organização terão automaticamente a política global, a menos que você crie e atribua uma política personalizada. Para nossos propósitos, criaremos duas novas políticas para os trabalhadores e gerentes da linha de frente, a fim de proporcionar uma experiência mais simples e segura, facilitando a integração de um grande número de usuários simultaneamente. Claro que você pode optar por personalizar a experiência conforme as necessidades da empresa.
 
-#### <a name="create-the-firstline-manager-app-permission-policy"></a>Criar a política de permissão do aplicativo de gerente da linha de frente
+#### <a name="create-the-frontline-manager-app-permission-policy"></a>Criar a política de permissão do aplicativo de gerente da linha de frente
 
 As seguintes configurações podem ser personalizadas para atender às suas necessidades de negócios. Estas são algumas das opções com base nas práticas recomendadas que podem melhorar a facilidade de integração de novos usuários em escala. Para saber mais, clique [aqui](teams-app-permission-policies.md).
 
@@ -276,7 +276,7 @@ As seguintes configurações podem ser personalizadas para atender às suas nece
 6. Em aplicativos do locatário, escolha **Permitir todos os aplicativos**.
 7. Clique em **Salvar**.
 
-#### <a name="create-the-firstline-worker-app-permission-policy"></a>Criar a política de permissão do aplicativo de trabalhador da linha de frente
+#### <a name="create-the-frontline-worker-app-permission-policy"></a>Criar a política de permissão do aplicativo de trabalhador da linha de frente
 
 As seguintes configurações podem ser personalizadas para atender às suas necessidades de negócios. Estas são algumas das opções com base nas práticas recomendadas que podem melhorar a facilidade de integração de novos usuários em escala. Para saber mais, clique [aqui](teams-app-permission-policies.md).
 
@@ -363,7 +363,7 @@ Agora que você completou todas as etapas, é hora de verificar o trabalho concl
 1. Verifique se o usuário está na equipe correta. Caso contrário, reveja as seções **Criar e configurar usuários** e **Atribuir usuários ao Teams**.
 
 > [!NOTE]
-> Se o provisionamento de funcionários de contato direto for gerenciado por meio da sua equipe de Gerenciamento de Acesso, você precisará seguir o processo da equipe para fornecer as credenciais ao funcionário.
+> Se o provisionamento de funcionários da linha de frente for gerenciado por meio da sua equipe de Gerenciamento de Acesso, você precisará seguir o processo da equipe para fornecer as credenciais ao funcionário.
 
 ### <a name="check-for-errors"></a>Verificar se há erros
 

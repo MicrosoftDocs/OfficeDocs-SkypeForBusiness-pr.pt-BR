@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9171ffa0b2750d053afa76c5dc788b24cf8ec2d4
-ms.sourcegitcommit: cb50f1fde4913c5a61e521c77fb554b883beb451
+ms.openlocfilehash: f6183471d8266ff004e1028ec3102e21f73fff77
+ms.sourcegitcommit: fdef9b52247097e5cae64f01b6b2b710c5b203cf
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/21/2020
-ms.locfileid: "49376014"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "49909115"
 ---
 <a name="sign-in-to-microsoft-teams"></a>Entrar no Microsoft Teams
 ==========================
@@ -150,7 +150,7 @@ Os usuários de dispositivos móveis podem sair do Teams acessando o menu, selec
 
 ### <a name="global-sign-in-and-sign-out"></a>Login e logout globais
 
-O aplicativo do Microsoft Teams para Android agora oferece suporte para entrada e saída global, para fornecer uma experiência de entrada e saída sem complicações para funcionários de primeira linha. Os funcionários podem escolher um dispositivo do grupo de dispositivos compartilhados e fazer uma única entrada para "torná-la deles" durante todo o período do turno. No final do turno, eles devem ser capazes de fazer o logoff para fazer o logoff globalmente no dispositivo. Isto removerá do dispositivo todas as informações pessoais e da empresa para que eles possam devolver o dispositivo ao grupo de dispositivos. Para obter esse recurso, o dispositivo deve estar no modo compartilhado. Para saber como configurar um dispositivo compartilhado, consulte [Como usar um modo de dispositivo compartilhado no Android](https://docs.microsoft.com/azure/active-directory/develop/tutorial-v2-shared-device-mode#set-up-an-android-device-in-shared-mode).
+O aplicativo do Microsoft Teams para Android agora oferece suporte para entrada e saída global, para fornecer uma experiência de entrada e saída sem complicações para funcionários da linha de frente. Os funcionários podem escolher um dispositivo do grupo de dispositivos compartilhados e fazer uma única entrada para "torná-la deles" durante todo o período do turno. No final do turno, eles devem ser capazes de fazer o logoff para fazer o logoff globalmente no dispositivo. Isto removerá do dispositivo todas as informações pessoais e da empresa para que eles possam devolver o dispositivo ao grupo de dispositivos. Para obter esse recurso, o dispositivo deve estar no modo compartilhado. Para saber como configurar um dispositivo compartilhado, consulte [Como usar um modo de dispositivo compartilhado no Android](https://docs.microsoft.com/azure/active-directory/develop/tutorial-v2-shared-device-mode#set-up-an-android-device-in-shared-mode).
 
 A experiência de login é semelhante à nossa experiência de assinatura do MIcrosoft Teams padrão, enquanto o logout se parece com as duas imagens a seguir:
 
