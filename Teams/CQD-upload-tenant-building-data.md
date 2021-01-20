@@ -21,12 +21,12 @@ ms.custom:
 - Reporting
 - seo-marvel-apr2020
 description: Saiba como carregar locatários e compilar dados no painel de qualidade de chamada (CQD).
-ms.openlocfilehash: 1ee722e63a8699e1447ffc0c2bc859a6a080d220
-ms.sourcegitcommit: bac9aa29074ef32387dc05b3918e87d4c38d195d
+ms.openlocfilehash: a7f8b4a8d84429b752692cf05013dfba7321fd5e
+ms.sourcegitcommit: fdef9b52247097e5cae64f01b6b2b710c5b203cf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/23/2020
-ms.locfileid: "49385628"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "49909345"
 ---
 # <a name="upload-tenant-and-building-data-in-call-quality-dashboard-cqd"></a>Carregar o locatário e compilar dados no painel de qualidade de chamada (CQD)
 
@@ -178,7 +178,6 @@ O outro tipo de arquivo de dados locatário CQD é o arquivo de dados do **ponto
   **Linha de amostra:**
 
   `1409W3534, Fabrikam, Model 123, Laptop, IT designated 2018 Laptop, Asset Tag 5678, Purchase 2018`
-
 
 ## <a name="update-a-building-file"></a>Atualizar um arquivo de construção
 
