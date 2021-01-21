@@ -1077,14 +1077,10 @@
           href: business-voice/policy-packages.md
         - name: Criar usuários adicionais
           href: business-voice/create-users.md
-        - name: Exemplo – configurar uma fila de chamadas
-          href: /SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-cq?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
-        - name: Configurar filas de chamadas
-          href: business-voice/set-up-call-queues.md
-        - name: Como eu configuro um atendedor automático?
-          href: tutorial-org-aa.yml
-        - name: Configurar atendedores automáticos
-          href: business-voice/set-up-auto-attendants.md
+        - name: Configurar uma fila de chamadas
+          href: business-voice/create-a-phone-system-call-queue-smb.md
+        - name: Configurar um atendedor automático
+          href: business-voice/create-a-phone-system-auto-attendant-smb.md
     - name: Gerenciar suas configurações
       items:
         - name: Criar um ou mais usuários
@@ -1175,13 +1171,13 @@
           href: teams-edu-licensing.md
         - name: Referência de SKU Educação
           href: sku-reference-edu.md
-    - name: Teams para Firstline Workers
+    - name: Teams para Trabalhadores de linha de frente
       items:
-        - name: Início rápido para Firstline Workers
-          href: firstline-workers-quickstart.yml
-        - name: Implantação programada de Firstline Workers
+        - name: Início rápido para Trabalhadores de linha de frente
+          href: flw-quickstart.yml
+        - name: Implementação com script de trabalhadores da linha de frente
           href: flw-scripted-deployment.md
-        - name: Gerenciar o acesso baseado em turnos para FirstLine Workers
+        - name: Gerenciar acesso baseado em turno para trabalhadores de linha de frente
           href: expand-teams-across-your-org/shifts/manage-shift-based-access-flw.md
         - name: RealWear para Microsoft Teams
           href: flw-realwear.md
