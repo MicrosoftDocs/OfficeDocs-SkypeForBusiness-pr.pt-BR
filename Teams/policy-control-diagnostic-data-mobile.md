@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: de3a4e827016622910aad0ee46318ba19c44aac0
-ms.sourcegitcommit: 448606977ee67befbdc91060363cf90dd346a528
+ms.openlocfilehash: 200e3c34c5c7136a441f492d0228c6af6f551a94
+ms.sourcegitcommit: fdef9b52247097e5cae64f01b6b2b710c5b203cf
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/19/2020
-ms.locfileid: "48135981"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "49909145"
 ---
 # <a name="required-mobile-diagnostic-data-for-microsoft-teams"></a>Dados de diagnóstico móvel necessários para o Microsoft Teams
 
@@ -77,7 +77,7 @@ O artigo a seguir contém uma lista de eventos do Microsoft Teams para dispositi
 - **anonymousMeetingToggleMuted** - o número de vezes que o botão de alternância de mudo foi selecionado.
 - **anonymousMeetingToggleVideo** - o número de vezes que o botão de alternância de vídeo foi selecionado.
 - **appKilled** - o aplicativo foi encerrado.
-- **approveTimeOffRequest** - quando um gerente do trabalhador de linha de frente (FLW) aprova uma solicitação de folga do trabalhador de linha de frente.
+- **approveTimeOffRequest** -  Quando um gerente do Trabalhador na Linha de frente (FLW) aprova uma solicitação do Trabalhador na Linha de frente para tirar uma folga.
 - **assigneeChange** - acionado quando um novo destinatário é adicionado a um item de tarefa.
 - **assignmentPickerClicked** - o botão **Atribuir à** é selecionado, abrindo uma página seletor de destinatário.
 - **assignmentRemoved** - acionado quando um destinatário é removido de um item de tarefa selecionando o **x** (que é a única maneira de remover um destinatário).
@@ -133,7 +133,7 @@ O artigo a seguir contém uma lista de eventos do Microsoft Teams para dispositi
 - **callControlsManualInvoke** - controles de chamada são invocados manualmente.
 - **callHistoryItemExpand** - item do histórico de chamadas expandido.
 - **callHistoryTab** - **guia** CallHistory é selecionada em chamadas.
-- **callInProgressShown** - uma faixa ***Chamada em andamento** é exibida.
+- **callInProgressShown** - Um * banner de *_chamada em andamento_* é mostrado.
 - **callMePSTNConnected** - **Telefonar-me** é bem-sucedida.
 - **callOrMeetUpAddParticipants** - acionado quando:
   - O botão Adicionar participante é tocado em uma tela de chamada 1:1.
@@ -188,18 +188,18 @@ O artigo a seguir contém uma lista de eventos do Microsoft Teams para dispositi
   - Chamada em espera na PSTN.
 - **callOrMeetUpIncomingVideoSwitch** - desative o IncomingVideo enquanto estiver em uma reunião ao vivo ou uma chamada.
 - **callOrMeetUpInvitedParticipants** - acionado quando:
-  - Clicar em **Ver todos** na parte inferior de um grupo de participantes**Outras pessoas convidadas** durante uma reunião particular ao vivo.
-  - Clicar em **Ver todos** na parte inferior de um grupo de participantes**Outros convidados** durante uma reunião particular ao vivo no canal.
+  - Clicar em **Ver todos** na parte inferior de um grupo de participantes **Outras pessoas convidadas** durante uma reunião particular ao vivo.
+  - Clicar em **Ver todos** na parte inferior de um grupo de participantes **Outros convidados** durante uma reunião particular ao vivo no canal.
 - **callOrMeetUpJoinedParticipants** - acionado quando:
   - Clicar em **Ver todos** na parte inferior de um grupo de participantes **Na reunião** durante uma reunião particular ao vivo.
-  - Clicar em **Ver todos** na parte inferior de um grupo de participantes**Na reunião** durante uma reunião ao vivo no canal.
+  - Clicar em **Ver todos** na parte inferior de um grupo de participantes **Na reunião** durante uma reunião ao vivo no canal.
 - **callOrMeetUpLobbyParticipants** - acionado quando:
   - Clicar em **Ver todos** na parte inferior do **Lobby** de um grupo de participantes durante uma reunião particular ao vivo.
   - Clicar em **Ver todos** na parte inferior do **Lobby** de um grupo de participantes durante uma reunião ao vivo no canal.
 - **callOrMeetUpMicrophoneSwitch** - acionado quando:
   - Ativar microfone.
   - Desativar microfone.
-  - O botão do**Microfone** é selecionado durante uma reunião ao vivo ou uma chamada.
+  - O botão do **Microfone** é selecionado durante uma reunião ao vivo ou uma chamada.
   - Alternância do microfone durante PSTN.
 - **callOrMeetUpMuteParticipant** - um participante remoto está mudo.
 - **callOrMeetUpMuteParticipants** - ativar o mudo para todos os participantes durante uma reunião ao vivo ou uma chamada.
@@ -223,7 +223,7 @@ O artigo a seguir contém uma lista de eventos do Microsoft Teams para dispositi
   - Botão do vídeo selecionado durante uma reunião ao vivo ou uma chamada.
 - **callPark** - acionado quando:
   - **Estacionar chamada** é selecionado no **...** menu.
-  - O botão**Recuperar** está selecionado.
+  - O botão **Recuperar** está selecionado.
   - **Atender** está selecionado na caixa de diálogo recuperar.
   - **Cancelar** está selecionado na caixa de diálogo recuperar.
 - **callPreferenceSetting** - a configuração do aplicativo de preferência de chamada.
@@ -258,7 +258,7 @@ O artigo a seguir contém uma lista de eventos do Microsoft Teams para dispositi
 - **center_on_team_clicked** - um usuário centraliza o mapa em grupos com êxito.
 - **channelFollow** - ativar as notificações de um canal.
 - **channelUnfollow** - desativar as notificações de um canal.
-- **channelsActiveSetting** - a configuração de notificação**notifique-me quando estiver ativo na área de trabalho** é alterada.
+- **channelsActiveSetting** - a configuração de notificação **notifique-me quando estiver ativo na área de trabalho** é alterada.
 - **chatCreation** - criação bem-sucedida de chat.
 - **changeIsActiveSetting** - alterar a notificação baseada na atividade da área de trabalho.
 - **canal** - botão de nova mensagem ou caixa de texto no chat.
@@ -444,8 +444,8 @@ O artigo a seguir contém uma lista de eventos do Microsoft Teams para dispositi
   - Seleciona **Chamada** na janela pop-up **Telefonar-me novamente**.
 - **dialOutCallAAD** - quando um número é selecionado do **Meus números** na folha de ações.
 - **dialOutCallRecent** - quando um número é selecionado dos números recentes anteriores na folha de ações.
-- **dialOutCancel** - **Cancelar** está selecionado na janela pop-up**Telefonar-me novamente**.
-- **dialOutDialog** - **Novo número** selecionado na folha de ações.
+- **dialOutCancel** - **Cancelar** está selecionado na janela pop-up **Telefonar-me novamente**.
+- **dialOutDialog** - **Novo número** é selecionado na folha de ação.
 - **dialOutFailRetry** - **Repetir** é selecionado a partir de uma faixa de falha.
 - **DialPad** - o botão de **Teclado de discagem** é selecionado na lista de chamadas.
 - **disableCategory** - desabilita um tipo de notificação ou desabilita as notificações de chamadas de entrada.
@@ -479,7 +479,7 @@ O artigo a seguir contém uma lista de eventos do Microsoft Teams para dispositi
 - **dragDatePickerHandle**
 - **dtmfPSTNCall** - o botão DTMF no teclado discagem é tocado.
 - **dueDateChanged** - acionado quando um usuário atribui uma duedate a uma tarefa.
-- **dueDatePickerClicked** - acionado quando o botão**Data de conclusão** é selecionado nos detalhes da tarefa, abrindo a página do seletor duedate.
+- **dueDatePickerClicked** - acionado quando o botão **Data de conclusão** é selecionado nos detalhes da tarefa, abrindo a página do seletor duedate.
 - **dueDateSelected** - acionado quando um usuário aplica um filtro por duedate enquanto exibe uma lista de tarefas.
 - **dueDateUnselected** - acionado quando um usuário desaplica um filtro por dueddate enquanto exibe uma lista de tarefas.
 - **edit** - **botão Editar** em uma mensagem de chat.
@@ -514,7 +514,7 @@ O artigo a seguir contém uma lista de eventos do Microsoft Teams para dispositi
 - **endFileShare** - **Voltar** é selecionada em um diálogo compartilhamento de arquivos.
 - **endMyShift** - número de dispositivos no modo compartilhado ou número de vezes desconectado.
 - **endPhotoShare** - **x** fora do compartilhamento de fotos.
-- **entryPointClicked** - selecionar **Solicitações** na guia **Agenda**. As solicitações são para quando um Trabalhador de Linha de Frente (FLW) está solicitando um tempo de turno, etc.
+- **entryPointClicked** - Selecionando **Solicitações** na guia **Agenda**. As solicitações são para quando um funcionário da linha de frente (FLW) está solicitando um turno de trabalho, etc.
 - **endPSTNCallSelected** - um usuário termina uma PSTN e uma chamada de conteúdo.
 - **endPSTNCallShown** - um usuário é instruído a finalizar uma chamada PSTN ou uma chamada de conteúdo.
 - **endVideoShare** - **x** fora do compartilhamento de vídeo.
@@ -576,7 +576,7 @@ O artigo a seguir contém uma lista de eventos do Microsoft Teams para dispositi
 - **image** - imagem.
 - **immediateCallForward** - o destino de encaminhamento imediato de chamadas está definido ou permite o encaminhamento imediato de chamadas (chamadas de toque estão desabilitadas).
 - **importanceToggleClicked** - acionado quando o **!** campo é alternado nos detalhes dos itens de tarefa.
-- **importantMessage_select** - um usuário seleciona uma mensagem importante no menu de contexto de prioridade.
+- **importantMessage_select** - Um usuário seleciona uma mensagem importante no menu de contexto de prioridade.
 - **importantMessageSend** - um usuário envia uma mensagem importante.
 - **inCallDialOut** - um usuário seleciona o botão **Telefonar-me novamente** no botão mais opções.
 - **initiatePhotoShare** - iniciar o compartilhamento de fotos.
@@ -584,7 +584,7 @@ O artigo a seguir contém uma lista de eventos do Microsoft Teams para dispositi
 - **install** - Instalação ou Evento de instalação.
 - **installReferrer** - registro dos parâmetros referenciais de instalação do aplicativo após a primeira instalação bem-sucedida.
 - **invisionWhiteboardClicked** - o quadro de comunicações Invision está selecionado:
-  - O guia**Arquivos de canal**.
+  - O guia **Arquivos de canal**.
   - O guia de reunião **Arquivos de chat**.
 - **inviteFreemium** - tocar no botão **+** na tela Convidar.
 - **inviteGuest** - tocar no botão **+** na tela Convidar.
@@ -597,7 +597,7 @@ O artigo a seguir contém uma lista de eventos do Microsoft Teams para dispositi
   - Ingressar na reunião por meio do Participar por telefone.
   - Ingressar na reunião por meio do Telefonar-me novamente.
   - Ingressar somente no conteúdo da reunião.
-  - Marcar o botão**Ingressar reunião** no modo de exibição da agenda.
+  - Marcar o botão **Ingressar reunião** no modo de exibição da agenda.
 - **joinOptionsEdu** - um usuário EDU seleciona opções para ingressar em uma reunião agendada e mostra as opções adequadas.
 - **joinTeam** - o botão **Ingressar** é pressionado.
 - **joinViaCode** - um usuário participa de uma reunião por meio de um código.
@@ -712,7 +712,7 @@ O artigo a seguir contém uma lista de eventos do Microsoft Teams para dispositi
 - **muteParticipant** - ativar o mudo para o participante (mover para a folha de ação).
 - **my_location_button_clicked** - o usuário centraliza o mapa em sua localização selecionando o botão **Meu local**.
 - **my_location_clicked** - o usuário centraliza o mapa em sua localização selecionando o **ponto azul** no mapa.
-- **myShiftPickerClicked** - registrado somente se a solicitação sendo enviada é uma troca ou oferta. O seletor**Meu turno** é selecionado.
+- **myShiftPickerClicked** - registrado somente se a solicitação sendo enviada é uma troca ou oferta. O seletor **Meu turno** é selecionado.
 - **nameGroupChat** - nome do chat em grupo.
 - **nativeTimeClockBreak** - uma interrupção no relógio de ponto.
 - **nativeChatLink** - um link para o chat nativo é selecionado.
@@ -729,7 +729,7 @@ O artigo a seguir contém uma lista de eventos do Microsoft Teams para dispositi
 - **navDynamics365** - acionado quando o aplicativo Dynamics365 é aberto.
 - **navFiles** - o aplicativo Arquivos é selecionado, controla se um usuário pode iniciar o aplicativo Arquivos na bandeja de aplicativos (iOS).
 - **navFilesTab** - o aplicativo Arquivos é selecionado, controla se um usuário pode iniciar o aplicativo Arquivos na barra de navegação inferior (iOS).
-- **navMeetings** - **a guia Calendário**é tocada.
+- **navMeetings** - **a guia Calendário** é tocada.
 - **navNotes** - acionado quando o aplicativo Anotações é aberto.
 - **navOrganization** - acionado quando o aplicativo Organização é aberto.
 - **navOrgChart** - acionado quando o aplicativo OrgChart é aberto.
@@ -795,7 +795,7 @@ O artigo a seguir contém uma lista de eventos do Microsoft Teams para dispositi
 - **openContactCard** - um usuário toca em um ícone de **Contato** ou um contato no aplicativo Pessoas para iniciar o cartão de perfil desse contato.
 - **openContactCard_ReactionSummary** - navegar até o cartão de visita da página de resumo da reação.
 - **openFileInApp** - ajuda a identificar se o usuário optou por abrir arquivos fora do Teams versus dentro do Teams.
-- **openHamburgerMenu**- o ícone de**Hamburger** (topo à esquerda) é selecionado para abrir o menu lateral para o acesso às configurações, presença e seletor de locatário.
+- **openHamburgerMenu**- o ícone de **Hamburger** (topo à esquerda) é selecionado para abrir o menu lateral para o acesso às configurações, presença e seletor de locatário.
 - **openInStream** - abrir um vídeo no Stream.
 - **openMeetingDetails** - abrir a página de detalhes da reunião ou Abrir reunião de uma reunião em particular.
 - **openModalityPicker** - X = ChatsAndChannels para chats e canais.
@@ -832,7 +832,7 @@ O artigo a seguir contém uma lista de eventos do Microsoft Teams para dispositi
 - **plusButtonClicked** - selecionar o **botão de adição** (**+**).
 - **pptNextSlide** - próximo slide como um apresentador ou na exibição particular.
 - **pptPreviousSlide** - slide anterior como um apresentador ou na exibição particular.
-- **pptReturnToPresenter** - vá para o slide**Ao vivo** slide (aquele em que o apresentador e todos os outros se encontram).
+- **pptReturnToPresenter** - vá para o slide **Ao vivo** slide (aquele em que o apresentador e todos os outros se encontram).
 - **pptStopPresenting** - parar a apresentação.
 - **pptTakeControl** - assumir o controle.
 - **preJoinAddRoom** - o botão **Adicionar sala** é selecionado na lista suspensa de pré-logon, **Ingressar** é selecionado no cenário **Adicionar sala**.
@@ -842,11 +842,11 @@ O artigo a seguir contém uma lista de eventos do Microsoft Teams para dispositi
 - **preJoinDenied** - um usuário não consegue ingressar em uma reunião.
 - **preJoinDeviceAudio** - **Ingressar com o áudio do dispositivo** é selecionado na lista suspensa.
 - **preJoinDialIn** - o botão **participar por telefone** é selecionado na lista suspensa de pré-logon.
-- **preJoinDialInCall** - um usuário confirma a solicitação**participar por telefone** no pré-logon.
-- **preJoinDialInCancel** - um usuário cancela a solicitação**participar por telefone** no pré-logon.
+- **preJoinDialInCall** - um usuário confirma a solicitação **participar por telefone** no pré-logon.
+- **preJoinDialInCancel** - um usuário cancela a solicitação **participar por telefone** no pré-logon.
 - **preJoinDialOut** - o botão **Telefonar-me novamente** é selecionado na lista suspensa de pré-logon.
-- **preJoinDialOutCall** - um usuário confirma a solicitação**Telefonar-me novamente** no pré-logon.
-- **preJoinDialOutCancel** - um usuário cancela a solicitação**Telefonar-me novamente** no pré-logon.
+- **preJoinDialOutCall** - um usuário confirma a solicitação **Telefonar-me novamente** no pré-logon.
+- **preJoinDialOutCancel** - um usuário cancela a solicitação **Telefonar-me novamente** no pré-logon.
 - **preJoinPSTNOptions** - um usuário seleciona uma lista suspensa para outras opções de ingresso.
 - **priorityChange** - acionado quando o filtro de prioridade é aplicado ao exibir uma lista de tarefas.
 - **priorityPickerClicked** - acionado quando um usuário navega para um seletor de filtro de prioridade na tela de filtro de lista de tarefas.
@@ -904,17 +904,17 @@ O artigo a seguir contém uma lista de eventos do Microsoft Teams para dispositi
 - **removeUserSwipe** - um usuário removeu um participante via deslize.
 - **reorderChannelItem** - um usuário reordena os canais fixados.
 - **reportAbuseConfirmation** - quando um usuário seleciona o botão **Concluído** na tela de confirmação.
-- **reportAbuseOpen** o número de vezes que o botão**Relatar um problema** é selecionado no menu de contexto.
+- **reportAbuseOpen** o número de vezes que o botão **Relatar um problema** é selecionado no menu de contexto.
 - **reportAbuseSend** - quando um usuário seleciona o botão **Relatar**, a telemetria deve armazenar o tipo de relatório selecionado.
 - **replyChain** - botão **Nova mensagem** ou caixa de texto na cadeia de respostas (thread) selecionado.
-- **replyChannel** - botão**Responder** selecionado nos canais.
+- **replyChannel** - botão **Responder** selecionado nos canais.
 - **replyNavigation** - objeto Responder foi selecionado para navegar até a postagem referenciada.
 - **replySendMessage** - enviar resposta do canal.
 - **replyViaMsgOptions** - o usuário começou a responder por meio do menu de contexto.
 - **replyViaSwipe** - o usuário começou a responder via deslize.
 - **requestActedOn** - acionado quando um gerente atua em solicitações de turno aberto.
-- **requestActionClicked** - quando um usuário solicita uma ação, como quando a solicitação de um turno é selecionada (seja uma visualização do gerente do Trabalhador de Linha de Frente (FLW) ou um trabalhador de linha de frente).
-- **requestDetailsClicked** - quando a solicitação de um turno é selecionada (seja uma visualização do gerente do Trabalhador de Linha de Frente (FLW)) ou um trabalhador de linha de frente.
+- **requestActionClicked** - Quando um usuário solicita uma ação, como quando a solicitação de um turno é selecionada (visualização de gerente do Trabalhador na linha de frente (FLW) ou Trabalhador na linha de frente.
+- **requestDetailsClicked** - Quando a solicitação de um turno é selecionada (visualização do gerente do Trabalhador na linha de frente (FLW) ou Trabalhador na linha de frente).
 - **requestJoinTeam** - **botão Solicitar** pressionado.
 - **requestSent** - registra caso tenha sido enviada uma solicitação.
 - **requestToJoinTeam** - solicitar ingresso na equipe (pública ou privada).
