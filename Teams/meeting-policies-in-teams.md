@@ -24,12 +24,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: Aprenda a gerenciar as configurações das políticas de reunião no Teams e a usá-las para controlar os recursos disponíveis para os participantes da reunião nas reuniões agendadas pelos usuários.
-ms.openlocfilehash: ea10c06229374a7eed5f0427f6f12e9531b038c7
-ms.sourcegitcommit: 9c1f3a72fb166b49a4b68bcdb9a2868bf86ca680
+ms.openlocfilehash: 2eef5969ea054b8c8ca6d702189f05b1eaa46c65
+ms.sourcegitcommit: 212b2985591ca1109eb3643fbb49d8b18ab07a70
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "49718625"
+ms.lasthandoff: 01/21/2021
+ms.locfileid: "49918907"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Gerenciar políticas de reunião no Teams
 
@@ -45,7 +45,7 @@ Você pode implementar políticas das seguintes maneiras, o que afeta a experiê
 |---------|---------|
 |Por organizador    |Ao implementar uma política por organizador, todos os participantes da reunião herdam a política do organizador. Por exemplo, **Admitir pessoas automaticamente** é uma política por organizador e controla se os usuários entram na reunião diretamente ou se esperam o lobby das reuniões agendadas pelo usuário que recebeu a política.          |
 |Por usuário    |Ao implementar uma política por usuário, somente a política por usuário se aplica à restrições de certos recursos para o organizador e/ou os participantes da reunião. Por exemplo, **Permitir Reunir agora nos canais** é uma política por usuário.     |
-|Por organizador e por usuário     |Ao implementar uma combinação de uma política por organizador e por usuário, alguns recursos são restritos para os participantes da reunião com base em sua política e a política do organizador. Por exemplo, **Permitir gravação na nuvem** é uma política por organizador e por usuário. Ative essa configuração para permitir que o organizador da reunião e os participantes iniciem e interrompam uma gravação.
+|Por organizador e por usuário     |Ao implementar uma combinação de uma política por organizador e por usuário, alguns recursos são restritos para os participantes da reunião com base em sua política e a política do organizador. Por exemplo, **Permitir gravação na nuvem** é uma política por organizador e por usuário. Ative essa configuração para permitir que os usuários iniciem e interrompam uma gravação.
 
 Você pode editar as configurações na política global ou criar e atribuir uma ou mais políticas personalizadas. Os usuários terão a política global, a menos que você crie e atribua uma política personalizada.
 
@@ -197,7 +197,7 @@ Observe que, no momento, só há suporte para transcrição para reuniões grava
 
 ### <a name="allow-cloud-recording"></a>Permitir gravação na nuvem
 
-Esta é uma combinação de uma política por usuário e por organizador. Essa configuração controla se as reuniões desse usuário podem ser gravadas. A gravação poderá ser iniciada pelo organizador da reunião ou por outro participante se a configuração de política estiver ativada para o participante e se for um usuário autenticado da mesma organização.
+Isso é controlado por meio de uma política por usuário. Esta configuração controla se um usuário pode gravar. A gravação poderá ser iniciada pelo organizador da reunião ou por outro participante da reunião se a configuração de política específica estiver ativada e se eles forem um usuário autenticado da mesma organização que o organizador.
 
 Pessoas de fora da sua organização, como usuários federados e anônimos, não conseguem iniciar a gravação. Os usuários convidados não podem iniciar ou interromper a gravação.
 
@@ -211,7 +211,7 @@ Observe o exemplo a seguir.
 |Amanda | Location1MeetingPolicy | Habilitado|
 |João (usuário externo) | Não aplicável | Não aplicável|
 
-As reuniões organizadas por Daniela não podem ser gravadas e Amanda, que tem a configuração de política habilitada, não pode gravar reuniões organizadas por Daniela. As reuniões organizadas por Amanda podem ser registradas, no entanto, Daniela, que tem a configuração de política desabilitada e João que é um usuário externo, não podem gravar reuniões organizadas por Amanda.
+Daniela, mesmo se ela fosse o organizador não conseguir gravar porque a política está definida como desativada. Amanda, que tem a configuração de política habilitada, pode gravar reuniões até mesmo aquelas organizadas por Daniela. Se Amanda for organizar uma reunião, ela poderá gravar essa reunião, no entanto, Daniela, que tem a configuração de política desabilitada e John que é um usuário externo, não pode gravar essa reunião.
 
 Para saber mais sobre a gravação de reunião na nuvem, confira [Gravação de reunião na nuvem do Teams](cloud-recording.md).
 
@@ -329,8 +329,8 @@ Para reuniões que precisem da experiência de qualidade de vídeo mais alta, co
 
 ### <a name="screen-sharing-mode"></a>Modo de compartilhamento de tela
 
-> [!Note]
-> Esse recurso ainda está em desenvolvimento. O compartilhamento de tela é uma política por participante.
+> [!NOTE]
+> Esse recurso ainda está em desenvolvimento. Compartilhamento de tela é uma política por participante, no entanto, ele pode ser afetado pelas configurações de compartilhamento de tela do organizador, conforme descrito nesta seção.
 
 Essa configuração controla se a área de trabalho e/ou o compartilhamento de janela é permitido na reunião do usuário. Os participantes da reunião que não possuem políticas atribuídas (por exemplo, participantes anônimos e federados, convidado, B2B) herdam a política do organizador da reunião.
 
@@ -418,7 +418,7 @@ Amanda não pode compartilhar o quadro de comunicações em uma reunião, mesmo 
 
 ### <a name="allow-shared-notes"></a>Permitir notas compartilhadas
 
-Essa é uma política por usuário. Essa configuração controla se um usuário pode criar e compartilhar anotações em uma reunião. Os usuários externos, incluindo usuários anônimos, B2B e federados, herdam a política do organizador da reunião. No momento, só há suporte para a guia **Anotações de reunião** com reuniões com menos de 20 participantes.
+Essa é uma política por usuário. Essa configuração controla se um usuário pode criar e compartilhar anotações em uma reunião. Os usuários externos, incluindo usuários anônimos, B2B e federados, herdam a política do organizador da reunião. A guia **anotações da reunião** tem suporte em reuniões com até 100 participantes.
 
 Observe o exemplo a seguir.
 
@@ -547,20 +547,13 @@ Para especificar se os usuários podem personalizar o plano de fundo do vídeo e
 |**NoFilters**     |O usuário não pode personalizar o plano de fundo do vídeo.|
 |**BlurOnly**     |O usuário tem a opção de borrar o plano de fundo do vídeo. |
 |**BlurandDefaultBackgrounds**     |O usuário tem a opção de borrar o plano de fundo do vídeo ou escolher entre o conjunto padrão de imagens a ser usado como plano de fundo. |
-|**AllFilters**     |O usuário tem a opção de borrar o plano de fundo do vídeo, escolher entre o conjunto padrão de imagens, ou fazer o upload de imagens personalizadas a serem usadas como plano de fundo. |
+|**AllFilters**     |O usuário tem a opção de desfocar a tela de fundo do vídeo, escolher do conjunto de imagens padrão ou carregar imagens personalizadas para usar como plano de fundo. |
 
-> [!NOTE]
+> [!IMPORTANT]
 > As imagens carregadas pelos usuários não são filtradas pelo Teams. Quando você usa a configuração **AllFilters**, você deve ter políticas internas da organização para impedir que os usuários façam o upload de imagens ofensivas ou inadequadas, ou imagens que sua organização não tem direitos de uso para os planos de fundo de reunião do Teams.
 
-## <a name="meeting-policy-settings---allow-breakout-rooms"></a>Configurações de política de reunião - permitir salas para sessões de grupo
-
-Essa é uma política por usuário. [As salas de sessões de grupo](https://support.microsoft.com/office/create-and-manage-breakout-rooms-during-class-meetings-preview-18b340cd-1106-4fa5-a852-5676614f7e7d) no Teams são usadas para dividir as reuniões em salas de reunião diferentes e menores. Essa configuração controla se o organizador de reuniões tem a opção de criar e gerenciar salas de sessões em grupo em reuniões que eles agendam ou iniciam. Essa configuração de política afeta todas as reuniões, incluindo reuniões Reunir Agora.
-
-No momento, você só pode usar o PowerShell para definir essa configuração de política. Você pode editar uma política de reunião do Teams existente usando o cmdlet [Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy). Ou crie uma nova política de reunião do Teams usando o cmdlet [New-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamsmeetingpolicy) e atribua-a aos usuários.
-
-Por padrão, o parâmetro **AllowBreakOutRooms** está definido como **True** e os usuários que recebem essa política têm a opção de criar e gerenciar salas de sessões em grupo em reuniões que eles agendam ou iniciam. Os usuários também podem atribuir participantes às salas e mover os participantes entre as salas. Lembre-se de que a criação e o gerenciamento de salas de sessões de grupo, no momento, só está disponível no cliente desktop do Teams. Para saber mais, confira [Criar e gerenciar salas de sessões em grupo durante as reuniões de classe](https://support.microsoft.com/office/create-and-manage-breakout-rooms-during-class-meetings-preview-18b340cd-1106-4fa5-a852-5676614f7e7d).
-
-Para impedir que os usuários criem salas de sessões em grupo, defina o parâmetro **AllowBreakOutRooms** como **False**. Os usuários que recebem essa política não têm a opção de criar ou gerenciar salas de sessões em grupo.
+> [!NOTE]
+> Esses recursos não estão disponíveis para todos os clientes do teams. Para obter mais informações, consulte o título _vídeo e planos de fundo_ em [reuniões e eventos ao vivo](https://support.microsoft.com/office/meetings-and-live-events-5c3e0646-dc37-45ad-84a4-1666fac62d4e).
 
 ## <a name="related-topics"></a>Tópicos relacionados
 

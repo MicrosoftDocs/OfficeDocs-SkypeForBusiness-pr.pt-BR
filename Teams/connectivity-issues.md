@@ -4,7 +4,6 @@ ms.reviewer: ''
 author: SerdarSoysal
 ms.author: serdars
 manager: serdars
-ms.date: 08/21/2018
 ms.topic: troubleshooting
 ms.service: msteams
 audience: admin
@@ -17,34 +16,37 @@ description: Solucione problemas de conectividade do cliente Microsoft Teams cau
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 52097d78a3eae14bcaba98fb1613092af97d302e
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: 59041734887a667eca325a3d2650425d6d336b78
+ms.sourcegitcommit: 212b2985591ca1109eb3643fbb49d8b18ab07a70
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46581132"
+ms.lasthandoff: 01/21/2021
+ms.locfileid: "49918537"
 ---
 <a name="troubleshoot-connectivity-issues-with-the-microsoft-teams-client"></a>Solucionar problemas de conectividade do cliente Microsoft Teams
 ==============================================================
 
 A maioria dos problemas descobertos com o cliente Microsoft Teams pode ser remetida para o firewall ou para a conectividade do proxy. Verificar se as URLs, os endereços IP e as portas necessárias estão abertas no seu firewall ou no seu proxy minimizará uma resolução de problemas desnecessária. Para obter informações específicas sobre URLs e IPs necessários para o Microsoft Teams, consulte o artigo [microsoft 365 and Office 365 URLs and IP address](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2) support. Os cenários a seguir exigem que portas e URLs específicas sejam abertas no firewall.
 
--   Autenticação
+- Autenticação
 
--   Conectividade do cliente Microsoft Teams
+- Conectividade do cliente Microsoft Teams
 
--   Colaboração
+- Colaboração
 
--   Mídia
+- Mídia
 
--   Serviços Compartilhados
+- Serviços Compartilhados
 
--   Integração de terceiros
+- Integração de terceiros
 
--   Interoperabilidade do Skype for Business
+- Interoperabilidade do Skype for Business
 
--   Interoperabilidade do cliente Skype for Business
+- Interoperabilidade do cliente Skype for Business
 
+## <a name="when-teams-is-offline-or-in-low-bandwidth-conditions"></a>Quando o Microsoft Teams está offline ou em condições de baixa largura de banda
+
+A boa notícia é que as equipes continuam sendo executadas mesmo quando você estiver offline ou em condições de pouca largura de banda. O Teams salva todas as suas mensagens não enviadas para chats existentes (até 24 horas) e as envia assim que você estiver online novamente. Se você estiver offline por mais de 24 horas, o Microsoft Teams permite que você escolha reenviar ou excluir mensagens não enviadas. Estamos nos empenhando para adicionar essa funcionalidade a novos chats e atualizar essa documentação quando isso estiver disponível.
 
 ## <a name="related-topics"></a>Tópicos relacionados
 

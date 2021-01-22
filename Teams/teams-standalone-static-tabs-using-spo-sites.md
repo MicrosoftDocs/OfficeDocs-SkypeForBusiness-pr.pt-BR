@@ -14,12 +14,12 @@ ms.reviewer: vinbel
 search.appverid: MET150
 description: Use um site ou uma página existente do SharePoint Online e crie uma guia estática independente que possa ser usada como um portal da Intranet para a sua organização.
 localization_priority: Priority
-ms.openlocfilehash: 1b89a17f81024fba05a1be9fb1dc4d59b1aceafd
-ms.sourcegitcommit: 67782296062528bbeade5cb9074143fee0536646
+ms.openlocfilehash: 080adc58059a88e585f5c975972399e552640e3d
+ms.sourcegitcommit: b12ec4703b164c545d17b02815edd6ee28d40bed
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/24/2020
-ms.locfileid: "49731109"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49923803"
 ---
 # <a name="create-a-teams-intranet-portal-app-from-a-sharepoint-online-site-or-page"></a>Criar um 'aplicativo Portal da Intranet' do Teams a partir de um site ou página do SharePoint Online
 
@@ -100,9 +100,6 @@ Para exibir a nova guia no Teams para área de trabalho, navegue até as reticê
 Se você deseja disponibilizar o novo aplicativo no menu esquerdo em uma posição superior, você deve usar uma configuração de política de aplicativo. Essa configuração pode ser encontrada na seção Administrador da equipe > Política do aplicativo > Adicionar um aplicativo afixado. Quando você atribui a política a um usuário para teste, a alteração será exibida algumas horas depois. Com isso em mente, decida onde o aplicativo deve aparecer o quanto antes para evitar atrasos.
 
 Para exibir e testar o novo aplicativo em um dispositivo móvel, abra a gaveta de aplicativos tocando na divisa (**^**) acima da barra de guias, na parte inferior da tela. Encontre seu aplicativo e navegue até ele no seu dispositivo móvel.
-
-> [!CAUTION]
-> No momento, o suporte para dispositivos móveis está em Visualização de desenvolvedor. Para habilitar a Visualização de desenvolvedor, navegue até Configurações > Sobre e habilite o modo de Visualização de desenvolvedor.
 
 ## <a name="a-sample-manifestjson-file"></a>Um arquivo Manifest.JSON de amostra
 

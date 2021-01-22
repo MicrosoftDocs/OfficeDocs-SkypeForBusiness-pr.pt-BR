@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: Saiba como configurar um SBC (controlador de borda de sessão) para atender a vários locatários para parceiros da Microsoft e/ou operadoras PSTN.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: fb7e89bab49bf92f505c2ca50950e78492186c24
-ms.sourcegitcommit: 11e0b8bfb960fb726880c80ce9339e864bcb074a
+ms.openlocfilehash: 343e2d1aedefd34de452df8da6ce9a5ad1a726ba
+ms.sourcegitcommit: b12ec4703b164c545d17b02815edd6ee28d40bed
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "49750581"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49923843"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>Configurar um controlador de borda da sessão para vários locatários
 
@@ -87,13 +87,13 @@ O diagrama a seguir resume os requisitos para o domínio base, subdomínios e ca
 
 ![Diagrama mostrando os requisitos para domínios e cabeçalho de contato](media/direct-routing-1-sbc-requirements.png)
 
-O SBC exige um certificado para autenticar as conexões. Para o cenário de hospedagem SBC, a transportadora precisa solicitar um certificado com o *\* .base_domain San (por exemplo, \* . Customers.adatum.biz)*. Esse certificado pode ser usado para autenticar conexões para vários locatários servidos a partir de um único SBC.
+O SBC exige um certificado para autenticar as conexões. Para o cenário de hospedagem SBC, a transportadora precisa solicitar um certificado com CN e/ou *\* .base_domain San (por exemplo, \* . Customers.adatum.biz)*. Esse certificado pode ser usado para autenticar conexões para vários locatários servidos a partir de um único SBC.
 
 
 A tabela a seguir é um exemplo de uma configuração.
 
 
-|Novo nome de domínio |Tipo|Removido  |SAN de certificado para SBC  |Domínio padrão do locatário no exemplo  |Nome FQDN que o SBC deve apresentar no cabeçalho do contato ao enviar chamadas para usuários|
+|Novo nome de domínio |Tipo|Removido  |CN/SAN do certificado para SBC  |Domínio padrão do locatário no exemplo  |Nome FQDN que o SBC deve apresentar no cabeçalho do contato ao enviar chamadas para usuários|
 |---------|---------|---------|---------|---------|---------|
 |customers.adatum.biz|    Polybase     |     No locatário da operadora  |    \*. customers.adatum.biz  |   adatum.biz      |No, este é um locatário de serviço, nenhum usuário |
 |sbc1.customers.adatum.biz|    Subdomínio  |    Em um locatário do cliente  |    \*. customers.adatum.biz  | woodgrovebank.us  |  sbc1.customers.adatum.biz|
@@ -138,6 +138,9 @@ Para obter mais informações sobre funções de administrador e como atribuir u
 ### <a name="activate-the-domain-name"></a>Ativar o nome de domínio
 
 Depois de registrar um nome de domínio, você precisa ativá-lo adicionando pelo menos um usuário licenciado E1, E3 ou E5 e atribuindo um endereço SIP à parte FQDN do endereço SIP correspondente ao domínio base criado. A licença pode ser revogada após a ativação do domínio (pode levar até 24 horas).
+
+> [!NOTE]
+> O locatário da operadora deve manter pelo menos uma licença de negócios E1/E3/E5/M365 atribuída ao locatário para evitar a remoção da configuração do Skype for Business. 
 
 *Consulte [obter ajuda com os domínios do microsoft 365 ou do office 365](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef) para obter mais informações sobre como adicionar usuários nas organizações do Microsoft 365 ou do Office 365.*
 

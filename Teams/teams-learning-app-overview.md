@@ -17,12 +17,12 @@ appliesto:
 - Microsoft Teams
 ms.custom: ''
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: a8fe0d3b4f86de34accb1519c80a391a9e395fbe
-ms.sourcegitcommit: 380a96f1ed2cefb429286854f06546bdb28d7d74
+ms.openlocfilehash: 6d4cb45334edb9307663eb1ffcab5e7c1085b149
+ms.sourcegitcommit: b12ec4703b164c545d17b02815edd6ee28d40bed
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "49703395"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49923833"
 ---
 # <a name="install-manage-and-assign-permissions-for-the-teams-learning-app-private-preview"></a>Instalar, gerenciar e atribuir permissões para o aplicativo Teams Learning (visualização particular)
 
@@ -34,7 +34,6 @@ Para configurar o aplicativo Teams Learning (visualização particular), você p
 
 -   Administrador do centro de administração do teams
 -   Administrador do centro de administração do Microsoft 365 (ou seja, um administrador global)
--   Administrador de conhecimento (uma nova função no centro de administração do Microsoft 365 que um administrador global (também conhecido como administrador de ti ou administrador do Microsoft 365) pode atribuir a qualquer pessoa na organização. Esta função gerencia as fontes de conteúdo de aprendizagem da organização por meio do centro de administração do Microsoft 365.) 
 
 ## <a name="manage-the-teams-learning-app-private-preview-in-the-teams-admin-center"></a>Gerenciar o aplicativo Teams Learning (visualização particular) no centro de administração do teams
 
@@ -69,26 +68,13 @@ Como parte da visualização particular, o aplicativo Teams Learning (visualiza�
 
 ## <a name="configure-learning-content-sources-in-the-microsoft-365-admin-center"></a>Configurar fontes de conteúdo de aprendizagem no centro de administração do Microsoft 365
 
-Os administradores do centro de administração do Microsoft 365, por si só, ou atribuindo a função de administrador de conhecimento às pessoas selecionadas em sua organização, podem gerenciar as configurações relacionadas ao aplicativo Teams Learning (visualização particular) e pode configurar as fontes de conteúdo de aprendizagem.
+Os administradores do centro de administração do Microsoft 365 podem gerenciar as configurações relacionadas ao aplicativo Teams Learning (visualização particular) e podem configurar as fontes de conteúdo de aprendizagem.
 
-> [!TIP]
-> O administrador de conhecimento deve ser moderado de forma moderada e ter credenciais de administrador existentes do SharePoint, de preferência a alguém que tenha uma boa conversa na educação, aprendizagem, treinamento ou experiência do funcionário da organização.
- 
 O administrador seleciona quais fontes de conteúdo de aprendizagem (como o LinkedIn Learning ou o SharePoint) estará disponível no aplicativo. Em seguida, o administrador configura essas fontes para garantir que o conteúdo esteja disponível para pesquisa e descoberta e possa ser acessado pelos funcionários que usam o aplicativo.
-
-### <a name="assign-the-knowledge-admin-role-optional"></a>Atribuir a função de administrador de conhecimento [opcional]
-
-Essas etapas devem ser executadas pelo administrador do centro de administração do Microsoft 365.
-
-1.  Na navegação à esquerda do centro de administração do Microsoft 365, vá para **funções**.
-
-2.  Na página **funções** , na guia **Azure ad** , selecione administrador de **conhecimento**.
- 
-3.  Na página **administrador de conhecimento** , na seção **Administradores atribuídos** , selecione **Adicionar** e adicione a pessoa que você escolher para a função.
 
 ### <a name="configure-settings-for-the-learning-content-sources-for-the-app"></a>Definir configurações para as fontes de conteúdo de aprendizagem do aplicativo
 
-Essas etapas devem ser realizadas pelo administrador do Microsoft 365 ou pelo administrador de conhecimento.
+Essas etapas devem ser executadas pelo administrador do Microsoft 365.
 
 1.  Na navegação à esquerda do centro de administração do Microsoft 365, vá para **configurações**  >  **organização** de configurações.
 
@@ -113,13 +99,13 @@ Outras fontes podem precisar ser habilitadas ou configuradas manualmente. As fon
 
 Para habilitar ou desabilitar uma fonte de conteúdo de aprendizagem, marque a caixa de seleção ao lado da fonte. Se uma fonte estiver habilitada, uma marca de seleção estará visível.
 
-## <a name="configure-sharepoint-as-a-learning-content-source"></a>Configurar o SharePoint como uma fonte de conteúdo de aprendizagem
+## <a name="configure-sharepoint-as-a-learning-content-source-coming-soon"></a>Configurar o SharePoint como uma fonte de conteúdo de aprendizagem (disponível em breve)
 
 Você configura o SharePoint como uma fonte de conteúdo de aprendizagem para o aplicativo Teams Learning (visualização particular) no centro de administração do Microsoft 365.
 
-### <a name="overview"></a>Visão geral
+### <a name="overview"></a>Visão Geral
 
-O administrador de conhecimento fornece uma URL de site onde o serviço de aprendizagem pode criar um repositório de conteúdo de aprendizagem centralizado vazio na forma de uma lista estruturada do SharePoint. Esta lista pode ser usada pela organização para armazenar links para pastas interempresariais do SharePoint que contenham conteúdo de aprendizagem. Os administradores são responsáveis por coletar e selecionar uma lista de URLs para pastas. Essas pastas só devem incluir conteúdo que possa ser disponibilizado no aplicativo Teams Learning (visualização particular).
+O administrador fornece uma URL de site onde o serviço de aprendizagem pode criar um repositório de conteúdo de aprendizagem centralizado vazio na forma de uma lista estruturada do SharePoint. Esta lista pode ser usada pela organização para armazenar links para pastas interempresariais do SharePoint que contenham conteúdo de aprendizagem. Os administradores são responsáveis por coletar e selecionar uma lista de URLs para pastas. Essas pastas só devem incluir conteúdo que possa ser disponibilizado no aplicativo Teams Learning (visualização particular).
 
 ### <a name="permissions"></a>Permissões
 
@@ -131,7 +117,7 @@ O serviço de aprendizagem usa as URLs de pastas fornecidas para obter metadados
 
 ### <a name="configure-sharepoint-as-a-source"></a>Configurar o SharePoint como uma origem
 
-Essas etapas devem ser realizadas pelo administrador do Microsoft 365 ou pelo administrador de conhecimento.
+Essas etapas devem ser executadas pelo administrador do Microsoft 365.
 
 1.  Na navegação à esquerda do centro de administração do Microsoft 365, vá para **configurações**.
  

@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Saiba como configurar e testar atendedores automáticos do Microsoft Teams.
-ms.openlocfilehash: 361122f4411f6aa3621d030a7a0569b438a86c27
-ms.sourcegitcommit: 7c6a9e851d2fbf055d15e681e367d9dceee0b917
+ms.openlocfilehash: 4809965eaad0f8cd81b59823d3890bd895998906
+ms.sourcegitcommit: 212b2985591ca1109eb3643fbb49d8b18ab07a70
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/04/2021
-ms.locfileid: "49751792"
+ms.lasthandoff: 01/21/2021
+ms.locfileid: "49919021"
 ---
 # <a name="set-up-an-auto-attendant"></a>Configurar um atendedor automático
 
@@ -249,7 +249,5 @@ Você também pode usar o PowerShell para criar e configurar atendedores automá
 [Obter números de telefone de serviço](/microsoftteams/getting-service-phone-numbers)
 
 [Disponibilidade de audioconferência e Planos de Chamadas por país e região](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)
-
-[Exemplo de pequena empresa – configurar um atendedor automático](/microsoftteams/tutorial-org-aa)
 
 [Uma introdução ao Windows PowerShell e ao Skype for Business Online](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)

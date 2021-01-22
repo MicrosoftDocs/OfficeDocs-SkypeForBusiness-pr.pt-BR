@@ -25,12 +25,12 @@ ms.custom:
 - seo-marvel-apr2020
 ROBOTS: NOINDEX, NOFOLLOW
 description: Saiba mais sobre atendedores automáticos da nuvem e como usá-los para permitir que os chamadores se movimentem por meio de um sistema de menus para localizar e fazer ou transferir chamadas para usuários ou departamentos.
-ms.openlocfilehash: 82d815eb4eb3c9a9e490f47dc3de492df7d0b6fb
-ms.sourcegitcommit: fdef9b52247097e5cae64f01b6b2b710c5b203cf
+ms.openlocfilehash: 862272ffe0cb42edc092c513823f421ab1c5bd95
+ms.sourcegitcommit: 212b2985591ca1109eb3643fbb49d8b18ab07a70
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/20/2021
-ms.locfileid: "49909545"
+ms.lasthandoff: 01/21/2021
+ms.locfileid: "49918937"
 ---
 # <a name="what-are-cloud-auto-attendants"></a>O que são atendedores automáticos da nuvem?
 
@@ -97,6 +97,7 @@ Não há limite quanto ao número de usuários do Active Directory discados por 
 > Se você estiver usando discar por nome com reconhecimento de fala, mas o Active Directory da sua organização for maior do que o 80.000 usuários e você não tiver limitado o escopo de discagem por nome usando o recurso de escopo de discagem, a discagem por nome ainda funcionará para seus chamadores usando um teclado de telefone, e as entradas de voz estarão disponíveis para todos os outros cenários. Você pode usar o recurso Escopo de Discagem para restringir os nomes que são acessíveis mudando o escopo da Discagem por Nome para um atendedor automático específico.
   
 ### <a name="dial-by-name---keypad-dtmf-entry"></a>Discar por Nome - entrada de teclado (DTMF)
+
 As pessoas que fazem chamadas podem usar o recurso discar por nome para acessar os usuários especificando o nome completo ou parcial da pessoa que estão tentando acessar. Há vários formatos que podem ser usados quando o nome é inserido.
 
 Ao pesquisar o diretório de sua organização, as pessoas podem usar a tecla '0' (zero) para indicar um espaço entre o nome e o sobrenome ou sobrenome e nome. Quando eles estiverem inserindo o nome, será solicitado que ele encerre a entrada do teclado com a tecla #. Por exemplo, "Depois que você inserir o nome da pessoa que está tentando contatar, pressione #". Se vários nomes forem localizados, a pessoa que liga receberá uma lista de nomes para escolher.
@@ -248,5 +249,3 @@ Para atribuir um número de serviço, você precisará adquirir ou portar seus n
 [Obtendo números de telefone de serviço do Skype for Business e do Microsoft Teams](/microsoftteams/getting-service-phone-numbers)
 
 [Disponibilidade de Audioconferência e Planos de Chamadas por país e região](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
-
-[Exemplo de pequenas empresas - Configurar um atendedor automático](/microsoftteams/tutorial-org-aa)

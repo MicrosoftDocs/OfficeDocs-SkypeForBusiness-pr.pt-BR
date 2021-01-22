@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Saiba mais sobre atendedores automáticos e filas de chamadas e como usá-los para ajudar os chamadores a percorrer um sistema de menu para alcançar pessoas ou departamentos em sua organização.
-ms.openlocfilehash: f53beb7b084a003b1c6ca363708d5df89d73f302
-ms.sourcegitcommit: ce9460934cf469969502298a76a9ce3e7866ceb1
+ms.openlocfilehash: 9ba8ccf08793e352e225340aeab33d7b95204cd9
+ms.sourcegitcommit: 212b2985591ca1109eb3643fbb49d8b18ab07a70
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/16/2020
-ms.locfileid: "49697900"
+ms.lasthandoff: 01/21/2021
+ms.locfileid: "49918887"
 ---
 # <a name="plan-for-teams-auto-attendants-and-call-queues"></a>Planejar os atendedores automáticos e as filas de chamadas do teams
 
@@ -74,7 +74,10 @@ Para configurar atendedores automáticos e filas de chamadas, você precisa dos 
 - Pelo menos um [número de serviço da Microsoft](getting-service-phone-numbers.md), um número de roteamento direto ou um número híbrido para cada conta de recurso que você deseja que seja diretamente discável
  - O número do serviço pode ser um número de chamada tarifada ou gratuita
 
-Os agentes que recebem chamadas das filas de chamadas devem ser habilitados para o Enterprise Voice online ou usuários locais. 
+Os agentes que recebem chamadas das filas de chamadas devem ser habilitados para o Enterprise Voice online ou usuários locais. Além disso, se as filas de chamadas estiverem usando números de roteamento direto, os agentes que precisarem fazer uma conferência ou transferir chamadas também exigem:
+
+- Uma política de roteamento de voz online atribuída se a fila de chamadas usar o modo de transferência
+- Uma licença de audioconferência ou uma política de roteamento de voz online atribuída se a fila de chamadas usa o modo de conferência
 
 Se seus agentes estiverem usando o aplicativo Microsoft Teams para chamadas da fila de chamadas, eles precisarão estar no modo TeamsOnly.
 
@@ -223,4 +226,6 @@ Consulte os artigos a seguir para obter informações sobre como criar atendedor
 
 [Disponibilidade de audioconferência e Planos de Chamadas por país e região](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
-[Exemplo de pequenas empresas - Configurar um atendedor automático](/microsoftteams/tutorial-org-aa)
+[Criar uma fila de chamadas-tutorial para empresas de pequeno porte](business-voice/create-a-phone-system-call-queue-smb.md)
+
+[Configurar um atendedor automático-tutorial para empresas de pequeno porte](business-voice/create-a-phone-system-auto-attendant-smb.md)

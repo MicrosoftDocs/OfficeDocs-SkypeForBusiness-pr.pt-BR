@@ -23,12 +23,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
 description: Saiba como usar o centro de administração do Microsoft Teams para ver uma lista de todos os números de telefone em sua organização e todos os números atribuídos a usuários ou desatribuídos.
-ms.openlocfilehash: 8ad4e0ce2949e2aa72d387aff167a433ec7c8150
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 61e1fb59ba5b68aeb2ab2af51b2ef91202e43678
+ms.sourcegitcommit: 212b2985591ca1109eb3643fbb49d8b18ab07a70
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44691167"
+ms.lasthandoff: 01/21/2021
+ms.locfileid: "49918897"
 ---
 # <a name="see-a-list-of-phone-numbers-in-your-organization"></a>Ver uma lista de números de telefone em sua organização
 
@@ -40,7 +40,7 @@ Existem diferentes tipos de números de telefone que você pode atribuir a usuá
 
 1. Vá para o **centro de administração do Microsoft Teams**.
 
-2. Na navegação à esquerda, vá para **Voice**  >  **números de telefone**de voz.
+2. Na navegação à esquerda, vá para   >  **números de telefone** de voz.
 
     > [!IMPORTANT]
     > Para ver a opção de **voz** no painel de navegação à esquerda no centro de administração do Skype for Business, primeiro você deve comprar pelo menos uma **licença do Enterprise E5**, uma licença complementar do **sistema de telefonia** ou uma licença do suplemento de conferência de **áudio** .
@@ -53,11 +53,11 @@ Existem diferentes tipos de números de telefone que você pode atribuir a usuá
 
    - Números que começam com um número especificado por você.
 
-   - **Estado de ativação**de número.
+   - **Estado de ativação** de número.
 
-   - **Tipo**de número.
+   - **Tipo** de número.
 
-   - **Status**do número de telefone.
+   - **Status** do número de telefone.
 
 ## <a name="to-see-all-of-the-phone-numbers-that-are-assigned-to-users"></a>Para ver todos os números de telefone que estão atribuídos a usuários
 
@@ -67,7 +67,7 @@ Ao configurar usuários, talvez você queira apenas ver a lista de números de t
 
 1. Vá para o **centro de administração do Microsoft Teams**.
 
-2. Na navegação à esquerda, vá para **Voice**  >  **números de telefone**de voz.
+2. Na navegação à esquerda, vá para   >  **números de telefone** de voz.
 
     > [!IMPORTANT]
     > Para ver a opção de **voz** no painel de navegação à esquerda no centro de administração do Microsoft Teams, primeiro você deve comprar pelo menos uma **licença Enterprise E5**, uma licença complementar do **sistema de telefonia** ou uma licença do suplemento de **conferência de áudio** .
@@ -88,7 +88,7 @@ Ao configurar usuários em sua organização para fazer e receber chamadas, prim
   
 1. Vá para o **centro de administração do Microsoft Teams**.
 
-2. Na navegação à esquerda, vá para **Voice**  >  **números de telefone**de voz.
+2. Na navegação à esquerda, vá para   >  **números de telefone** de voz.
 
     > [!IMPORTANT]
     > Para ver a opção de **voz** no painel de navegação à esquerda no centro de administração do Microsoft Teams, primeiro você deve comprar pelo menos uma **licença Enterprise E5**, uma licença complementar do **sistema de telefonia** ou uma licença do suplemento de **conferência de áudio** .
@@ -105,6 +105,22 @@ Ao configurar usuários em sua organização para fazer e receber chamadas, prim
 
    - **Falha na atualização**
 
+## <a name="using-the-teams-powershell-module"></a>Usando o módulo Teams PowerShell
+
+Você pode usar o módulo do teams PowerShell para obter as mesmas informações das seções anteriores, mas a versão 1.1.6 ou posterior é necessária, o que inclui a integração do conector do Skype for Business online. Para obter mais informações sobre o módulo, consulte [visão geral do Microsoft Teams PowerShell](teams-powershell-overview.md).
+
+Você pode ver uma lista de todos os números de telefone que você tem para a sua organização usando o cmdlet [Get-CsOnlineTelephoneNumber](https://docs.microsoft.com/powershell/module/skype/get-csonlinetelephonenumber) . Por exemplo, você pode executar o seguinte comando para ver cada número de telefone e seu estado:
+
+```PowerShell
+Get-CsOnlineTelephoneNumber | ft Id,ActivationState
+```
+
+Você pode ver todos os números de telefone atribuídos aos usuários usando o cmdlet [Get-CsOnlineUser](https://docs.microsoft.com/powershell/module/skype/get-csonlineuser) . Por exemplo, você pode executar o seguinte comando para ver todos os usuários com um número de telefone atribuído:
+
+```PowerShell
+Get-CsOnlineUser | Where-Object  { $_.LineURI -notlike $null } | ft DisplayName,UserPrincipalName,LineURI
+```
+
 ## <a name="related-topics"></a>Tópicos relacionados
 [Perguntas comuns sobre a transferência de números de telefone](/microsoftteams/transferring-phone-numbers-common-questions)
 
@@ -118,4 +134,4 @@ Ao configurar usuários em sua organização para fazer e receber chamadas, prim
 
 [Get-CsOnlineTelephoneNumber](https://docs.microsoft.com/powershell/module/skype/get-csonlinetelephonenumber)
   
- 
+[Get-CsOnlineUser](https://docs.microsoft.com/powershell/module/skype/get-csonlineuser)

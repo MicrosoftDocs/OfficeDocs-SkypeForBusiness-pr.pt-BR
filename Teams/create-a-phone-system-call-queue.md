@@ -25,11 +25,11 @@ ms.custom:
 - seo-marvel-apr2020
 description: Saiba como configurar o sistema telefônico para filas de chamadas com o Microsoft Teams, que fornecem uma mensagem de saudação, suspender música, redirecionamento de chamada e outros recursos.
 ms.openlocfilehash: d696b37f95d06c529aa330bd77e2ec91e1ffc9ad
-ms.sourcegitcommit: 7575fb476a594d70084c603e508dd311ef1d7edb
+ms.sourcegitcommit: 212b2985591ca1109eb3643fbb49d8b18ab07a70
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "49765336"
+ms.lasthandoff: 01/21/2021
+ms.locfileid: "49919017"
 ---
 # <a name="create-a-call-queue"></a>Criar uma fila de chamadas
 

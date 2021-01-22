@@ -16,16 +16,16 @@ f1.keywords:
 description: Estudo de caso de voz do teams para Multi-National Corporation
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 780d812b4e6e56b28b867ace14dbf1d5f6170302
-ms.sourcegitcommit: af15d99837a389b6b26952211e65cd68c4b7f46e
+ms.openlocfilehash: a6ee08fa7bdeb1ded6bda384115a08048021cb67
+ms.sourcegitcommit: 212b2985591ca1109eb3643fbb49d8b18ab07a70
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/18/2020
-ms.locfileid: "44785943"
+ms.lasthandoff: 01/21/2021
+ms.locfileid: "49918727"
 ---
 # <a name="contoso-case-study-auto-attendants-and-call-queues"></a>Estudo de caso da Contoso: atendedores automáticos e filas de chamadas
 
-A contoso já está familiarizada com atendedores automáticos e filas de chamadas na implantação do Skype for Business local. Para entender como configurar atendedores automáticos na nuvem, eles revisaram [o que são atendedores automáticos da nuvem? e o](what-are-phone-system-auto-attendants.md) [exemplo de pequena empresa – configurar o tutorial do atendedor automático](tutorial-org-aa.yml). Para saber mais sobre as opções disponíveis para configurar filas de chamadas, a contoso analisou [a criação de uma fila de chamadas em nuvem](create-a-phone-system-call-queue.md).  
+A contoso já está familiarizada com atendedores automáticos e filas de chamadas na implantação do Skype for Business local. Para compreender como configurar atendedores automáticos na nuvem e filas de chamadas, eles revisaram o [plano para atendedores automáticos e filas de chamadas do teams](plan-auto-attendant-call-queue.md).
 
 ## <a name="requirements-depending-on-site-type"></a>Requisitos dependendo do tipo de site
 

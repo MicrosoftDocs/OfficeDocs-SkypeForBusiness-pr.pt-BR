@@ -22,12 +22,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Saiba mais sobre as opções atendedor automático e discagem da fila de chamadas e reconhecimento de voz no Teams.
-ms.openlocfilehash: 4ff2e60a1d785a035ee20c6547108f1b8916bcfb
-ms.sourcegitcommit: 7c6a9e851d2fbf055d15e681e367d9dceee0b917
+ms.openlocfilehash: 1cb8da2d2e6625de5a1471d1051c1ca51f11bbae
+ms.sourcegitcommit: 212b2985591ca1109eb3643fbb49d8b18ab07a70
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/04/2021
-ms.locfileid: "49749440"
+ms.lasthandoff: 01/21/2021
+ms.locfileid: "49918957"
 ---
 # <a name="auto-attendant-and-call-queue-dialing-and-voice-recognition-reference"></a>Atendedor automático e discagem da fila de chamadas e referência do reconhecimento de voz
 
@@ -154,5 +154,3 @@ Os comandos de voz a seguir estão disponíveis nos 14 idiomas com suporte para 
 [Obtendo números de telefone de serviço do Skype for Business e do Microsoft Teams](/microsoftteams/getting-service-phone-numbers)
 
 [Disponibilidade de Audioconferência e Planos de Chamadas por país e região](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
-
-[Exemplo de pequenas empresas - Configurar um atendedor automático](/microsoftteams/tutorial-org-aa)

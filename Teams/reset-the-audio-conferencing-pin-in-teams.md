@@ -22,24 +22,24 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-apr2020
 description: Saiba como redefinir o PIN de conferência de áudio de um usuário no Microsoft Teams e aprenda fatos importantes sobre PINs.
-ms.openlocfilehash: 8926218c72c888edb00480ff8382672a3730cf15
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: cf660331bebfe32fe1809067570e316449c12a22
+ms.sourcegitcommit: 212b2985591ca1109eb3643fbb49d8b18ab07a70
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44666183"
+ms.lasthandoff: 01/21/2021
+ms.locfileid: "49918977"
 ---
 # <a name="reset-the-audio-conferencing-pin-in-microsoft-teams"></a>Redefinir o PIN de audioconferência no Microsoft Teams
 
 Um PIN é um código composto de números que é criado para cada usuário do Microsoft Teams habilitado para audioconferência. Os PINs de audioconferência são usados pelos organizadores da reunião para identificá-los e permitir que iniciem uma reunião por telefone. Se usarem o aplicativo Microsoft Teams para iniciar a reunião, o PIN não será necessário. Se o usuário esquecer o PIN e não conseguir encontrá-lo no e-mail enviado quando ele foi habilitado para a audioconferência, um administrador precisará redefinir o PIN ou ele poderá redefinir o próprio PIN.
   
-As reuniões podem ser iniciadas quando um usuário autenticado entra usando o aplicativo Microsoft Teams ou quando o organizador entra com o PIN por telefone. Se a reunião exigir um PIN para ser iniciada, os usuários que entrarem por telefone serão colocados no lobby e esperarão ouvindo música até que a reunião seja iniciada. Se o organizador de uma reunião não exigir um PIN para iniciar a reunião por telefone, os chamadores não precisarão fornecer um PIN para participar.
+As reuniões podem ser iniciadas quando um usuário autenticado se une usando o aplicativo Microsoft Teams ou quando o organizador se une ao seu PIN pelo telefone. Se a reunião exigir um PIN para ser iniciada, os usuários que entrarem por telefone serão colocados no lobby e esperarão ouvindo música até que a reunião seja iniciada. Se o organizador de uma reunião não exigir um PIN para iniciar a reunião por telefone, os chamadores não precisarão fornecer um PIN para participar.
 
 ## <a name="reset-a-users-pin"></a>Redefinir o PIN de um usuário
 
 ![Um ícone mostrando o logotipo do Microsoft Teams](media/teams-logo-30x30.png) **Usando o centro de administração do Microsoft Teams**
 
-1. Na navegação à esquerda, clique em **usuários**e selecione o usuário na lista de usuários disponíveis.
+1. Na navegação à esquerda, clique em **usuários** e selecione o usuário na lista de usuários disponíveis.
 
 2. Clique em **Editar**.
 
@@ -50,7 +50,7 @@ As reuniões podem ser iniciadas quando um usuário autenticado entra usando o a
 > [!Note]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
    
-## <a name="have-a-user-reset-his-or-her-own-pin"></a>Faça com que um usuário redefina seu próprio PIN
+## <a name="have-a-user-reset-their-own-pin"></a>Fazer com que um usuário redefina o próprio PIN
 
 1. Acesse o usuário [https://admin0m.online.lync.com/lscp/usp/pstnconferencing](https://admin0m.online.lync.com/lscp/usp/pstnconferencing) .
 2. Clique em **Redefinir PIN**. 
@@ -62,7 +62,7 @@ As reuniões podem ser iniciadas quando um usuário autenticado entra usando o a
     
 - O envio de emails automaticamente aos usuários é habilitado por padrão, e os usuários receberão um email com o PIN quando estiverem habilitados para a conferência de áudio ou quando o PIN for redefinido. Mas se você tiver desabilitado o envio de emails automaticamente, um email de redefinição de PIN não será enviado a um usuário, e você precisará enviar manualmente as informações de PIN para o usuário.
     
-- Quando uma reunião for iniciada, todos os usuários do lobby serão conectados automaticamente. Por exemplo, se dois participantes tentarem participar de uma reunião antes que ela seja iniciada, eles serão colocados no lobby e esperarão ouvindo música. Quando o organizador da reunião participar usando o PIN por telefone, a reunião será iniciada e os participantes do lobby entrarão na reunião.
+- Quando uma reunião iniciar, todos os usuários no lobby ingressarão automaticamente. Por exemplo, se dois participantes tentarem ingressar em uma reunião antes de ser iniciado, eles serão colocados no lobby e escutarão música em espera e, quando o organizador se associar usando o PIN por telefone, a reunião será iniciada e os participantes do lobby ingressarão na reunião.
     
 - A configuração padrão é não permitir que uma reunião seja iniciada por chamadores anônimos.
     

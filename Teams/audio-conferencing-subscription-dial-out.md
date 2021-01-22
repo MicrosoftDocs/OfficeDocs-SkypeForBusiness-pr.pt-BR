@@ -22,22 +22,25 @@ ms.custom:
 - Licensing
 - seo-marvel-mar2020
 description: Disque e ligue para mim em minutos. A partir de 1 ° de dezembro de 2019 cada assinatura de audioconferência fornece 60 minutos por usuário para zoneamento de um país/região.
-ms.openlocfilehash: 0f5b4ea3dd59e4a6a9c957f4ec397c9ceb5cc660
-ms.sourcegitcommit: 247b2587a60b1609947310ec82d51f47cf829703
+ms.openlocfilehash: ee309bc579ae1360763ff0d77fad7eb3c22b3c5a
+ms.sourcegitcommit: 212b2985591ca1109eb3643fbb49d8b18ab07a70
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/11/2020
-ms.locfileid: "48993457"
+ms.lasthandoff: 01/21/2021
+ms.locfileid: "49918927"
 ---
 # <a name="audio-conferencing-subscription-dial-outcall-me-at-minutes-benefit"></a>Benefícios da assinatura "discagem"/"ligar para mim por" minutos da assinatura de áudio audioconferência
 
 ## <a name="microsoft-teams-and-skype-for-business-pstn-audio-conferencing"></a>Conferência de áudio PSTN do Microsoft Teams e do Skype for Business
 
-Os clientes receberam um [recurso de discagem gratuita](complimentary-dial-out-period.md) que terminará em 30 de novembro de 2019. A partir de 1 ° de dezembro de 2019, cada assinatura de audioconferência fornece 60 minutos por mês que pode ser usada para discar para números não-Premium em qualquer [uma das zonas de países e regiões](audio-conferencing-zones.md). Seu tamanho do pool de minutos de discagem de locatário é baseado em licenças *atribuídas* e não em licenças adquiridas. Esse benefício se aplica às licenças de *assinatura mensal* da conferência de áudio e não se estende às licenças de pagamento por minuto de audioconferência. 
+Cada assinatura de audioconferência fornece 60 minutos por usuário por mês que podem ser usados para discar para números não Premium em qualquer uma das zonas de um país, conforme descrito neste documento. Seu tamanho de pool de minutos de discagem de locatário é baseado em licenças *adquiridas* . Esse benefício se aplica às licenças de *assinatura mensal* da conferência de áudio e não se estende às licenças de pagamento por minuto de audioconferência. 
 
 > [!NOTE]
-> O final do período de discagem gratuita não ocorrerá em 30 de novembro de 2019, para os países onde a assinatura de audioconferência está disponível, mas não oferecemos a capacidade de configurar créditos de comunicações. Esses países específicos são Rússia, Coréia do Sul e Taiwan.
+> A partir de 22 de outubro de 2020, o tamanho do pool de minutos de discagem de o nosso locatário é baseado no número de licenças de assinatura *adquiridas* de conferência de áudio. Antes, o tamanho do pool de minutos de discagem era baseado no número de licenças *atribuídas* aos usuários.
 
+
+> [!NOTE]
+> O final do [período de discagem gratuita](complimentary-dial-out-period.md) não ocorreu em 30 de novembro de 2019, para os países onde a assinatura de audioconferência está disponível, mas não oferecemos a capacidade de configurar créditos de comunicações. Esses países específicos são Rússia, Coréia do Sul e Taiwan.
 
 ## <a name="audio-conferencing-dial-out-from-a-meeting--call-me-at-details"></a>Detalhes da "discagem" de conferência de áudio "&" ligar para mim em "
 

@@ -21,12 +21,13 @@ ms.custom:
 - ms.teamsadmincenter.liveevents.policies
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7133c5a1a0cf9fd67ec23b51f8e177aeb80532fa
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+localization_priority: Normal
+ms.openlocfilehash: 78e2fdb6b205316dfd8a715c12613be1486302f5
+ms.sourcegitcommit: 212b2985591ca1109eb3643fbb49d8b18ab07a70
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49802421"
+ms.lasthandoff: 01/21/2021
+ms.locfileid: "49918987"
 ---
 # <a name="what-are-microsoft-teams-live-events"></a>O que são os eventos ao vivo do Microsoft Teams?
 
@@ -60,6 +61,9 @@ Você pode ver da figura acima que existem cinco componentes principais usados c
 O Microsoft Teams permite que os organizadores criem um evento com as permissões apropriadas dos participantes, designem os membros da equipe de eventos, selecionem um método de produção e convidem participantes. Se o evento ao vivo tiver sido criado de um grupo do Yammer, os participantes do evento ao vivo poderão usar a conversa do Yammer para interagir com as pessoas no evento.
 
 ![a Nova tela de eventos ao vivo](../media/teams-live-events-schedule.png "Captura de tela mostrando a tela do Novo evento ao vivo para criar e agendar um novo evento ao vivo")
+
+> [!IMPORTANT]
+> O Teams não permitirá que os usuários agendem reuniões ou eventos dinâmicos quando estiverem offline ou em execução com largura de banda limitada.
 
 ### <a name="production"></a>Produção
 

@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: O administrador pode saber qual controlador de borda de sessão (SBCs) foi certificado para roteamento direto.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 8d5d94a2e15ea9e792cd9c8efbfacc53b9f47f92
-ms.sourcegitcommit: fdef9b52247097e5cae64f01b6b2b710c5b203cf
+ms.openlocfilehash: d0617c975b95bdb39c020e57456490621125f459
+ms.sourcegitcommit: 212b2985591ca1109eb3643fbb49d8b18ab07a70
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/20/2021
-ms.locfileid: "49909535"
+ms.lasthandoff: 01/21/2021
+ms.locfileid: "49918917"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>Lista de controladores de borda da sessão certificados para Roteamento Direto
 
@@ -79,6 +79,7 @@ A tabela a seguir lista os dispositivos certificados para Roteamento Direto. (Pa
 |                                 |     Elemento de borda unificada da Cisco (cubo) para roteadores de serviços de agregação da série 1000      |     &#10004;   |  |      IOS XE de Amsterdã 17.2.1 r      |    <ul> <li> [Roteamento de localização dinâmica da largura de banda](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>[Serviço de roteamento de emergência inentrada (ERS)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/) </li> <li>[Inentrada do gateway de emergência (EGW)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)</li>  </ul>    |    |
 |                     [Avaya](https://support.avaya.com/products/P0997/avaya-session-border-controller-for-enterprise/8.1.x)|    Controlador de borda de sessão do Avaya para Enterprise (ASBCE)    |     &#10004;     |           |       Versão 8.1.1       |     |    | 
 |                     [Nokia](https://documentation.nokia.com/aces/cgi-bin/chk_access.cgi/3TB30222GBAAACZZA.zip)|    Controlador de borda de sessão Nokia    |     &#10004;     |           |       19,5 (1908)       |     |    | 
+|                     |    Controlador de borda de sessão Nokia    |     &#10004;     |           |       20,8       |      <ul> <li> [Roteamento de localização dinâmica da largura de banda](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>[Serviço de roteamento de emergência inentrada (ERS)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/) </li> <li>[Inentrada do gateway de emergência (EGW)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)</li>  </ul>       |    | 
 |                     [Italtel](https://www.italtel.com/italtel-provides-direct-routing-sbc-for-microsoft-teams/)|    Netmatch-S CI     |     &#10004;     |           |       5,0       |     |    | 
 |                     [Ericsson](https://www.ericsson.com/en/portfolio/digital-services/cloud-communication/enterprise-communication/business-communication-services-and-enablers/sip-trunking)|    vSBC 2,16     |     &#10004;     |           |              |     |    | 
 |                     [Cataleya](https://cataleya.com/orchidplatforms/)|    Link orquídea    |     &#10004;     |           |      3,1        |     |    | 
