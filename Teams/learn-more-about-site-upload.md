@@ -22,12 +22,12 @@ ms.custom:
 - seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1b32e9db020b3498e8185b4d38e25d1d9a1feca5
-ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
+ms.openlocfilehash: 4a1af7f14695d1f933a9c3902b373eb668044e24
+ms.sourcegitcommit: 212b2985591ca1109eb3643fbb49d8b18ab07a70
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "45085287"
+ms.lasthandoff: 01/21/2021
+ms.locfileid: "49918637"
 ---
 <a name="add-and-update-reporting-labels"></a>Adicionar e atualizar rótulos de relatórios
 ============================
@@ -43,7 +43,7 @@ Os dados de rótulos e locais de relatório que você fornece são uma estrutura
 
 1. Na navegação à esquerda do centro de administração do Microsoft Teams, clique em **locais**  >  **relatório de rótulos**.
 2. Clique em **substituir dados de localização**.
-3. No painel **substituir dados de locais** , clique em **selecionar um arquivo**e, em seguida, navegue até o arquivo. csv ou. tsv editado e carregue-o.
+3. No painel **substituir dados de locais** , clique em **selecionar um arquivo** e, em seguida, navegue até o arquivo. csv ou. tsv editado e carregue-o.
 4. Clique em **carregar**.
 
 Você pode baixar um modelo de exemplo [aqui](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/locations-template.zip?raw=true).
@@ -65,3 +65,5 @@ Para obter mais informações sobre como formatar seu arquivo de dados, consulte
 ## <a name="related-topics"></a>Tópicos relacionados
 
 [Configurar Análise de Chamada](set-up-call-analytics.md)
+
+[Usar a análise de chamadas para solucionar problemas de qualidade de chamadas ruins](use-call-analytics-to-troubleshoot-poor-call-quality.md)
