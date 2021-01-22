@@ -20,12 +20,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: c6019c72d54ad48406060178389a66f8cdd9cee7
-ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
+ms.openlocfilehash: 48ec728921f545f4e8c383b16a9bc4e82c22b363
+ms.sourcegitcommit: 212b2985591ca1109eb3643fbb49d8b18ab07a70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49030797"
+ms.lasthandoff: 01/21/2021
+ms.locfileid: "49918677"
 ---
 # <a name="meetings-and-conferencing-in-microsoft-teams"></a>Conferências e reuniões no Microsoft Teams
 
@@ -56,7 +56,7 @@ O Teams oferece uma excelente experiência pronta para uso na organização. A m
 > Para saber mais sobre reuniões, assista ao vídeo [Introdução às reuniões no Microsoft Teams para profissionais de TI](https://aka.ms/teams-meetings-intro).
 
 
-## <a name="meetings-and-conferencing-prerequisites"></a>Pré-requisitos de conferências e reuniões 
+## <a name="meetings-and-conferencing-prerequisites"></a>Pré-requisitos de conferências e reuniões
 
 Antes de dimensionar a implantação de reuniões na organização, reserve um tempo para verificar e confirmar se o ambiente está pronto, a fim de fornecer a melhor experiência possível aos usuários. Examine as informações a seguir e faça as alterações necessárias no ambiente, quando for o caso.
 
@@ -139,7 +139,10 @@ Convém alterar essas configurações, com base nas necessidades da organizaçã
 
 ### <a name="bandwidth-planning"></a>Planejamento de largura de banda 
 
-Com o planejamento de largura de banda, as organizações podem calcular a largura de banda necessária para dar suporte às reuniões nas redes de longa distância e aos links da Internet. Dessa forma, elas podem confirmar se a rede foi provisionada corretamente para fornecer suporte à expansão do serviço de reunião. 
+Com o planejamento de largura de banda, as organizações podem calcular a largura de banda necessária para dar suporte às reuniões nas redes de longa distância e aos links da Internet. Dessa forma, elas podem confirmar se a rede foi provisionada corretamente para fornecer suporte à expansão do serviço de reunião.
+
+> [!IMPORTANT]
+> O Teams não permite que os usuários agendem reuniões ou eventos ao vivo quando estiverem offline ou executando com largura de banda limitada. 
 
 | Pergunte a si mesmo | Ação |
 |--------------|--------|
@@ -157,7 +160,7 @@ Para saber mais, confira [Gravação de reuniões na nuvem do Microsoft Teams](c
 
 | Pergunte a si mesmo | Ação |
 |--------------|--------|
-| Ativarei o serviço de transcrição de reunião?|Confira [Ativar ou desativar a transcrição de gravações](cloud-recording.md#turn-on-or-turn-off-recording-transcription)|
+| Ativarei o serviço de transcrição de reunião?|Confira [Ativar ou desativar a transcrição de gravações](cloud-recording.md#turn-on-or-turn-off-cloud-recording)|
 |||
 
 
