@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c17bf12a929f03ae766c57bb7f32da4e62f5a950
-ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
+ms.openlocfilehash: a9ee7d3d4cd7d877925b649bb3f3b6a8da72ddf0
+ms.sourcegitcommit: 5473b9fcd2bfe8adeb05a4a8d23e4350c7970fb6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "49662496"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49937433"
 ---
 # <a name="security-and-compliance-in-microsoft-teams"></a>Segurança e conformidade no Microsoft Teams
 
@@ -101,19 +101,23 @@ A conformidade de comunicação no Microsoft 365 permite que você adicione usu�
 
 As políticas de retenção no Microsoft Teams permitem manter os dados importantes para sua organização manter, para fins regulatórios, legais, de negócios ou outros motivos e também para remover conteúdo e comunicações que não sejam relevantes para serem retidos. Você também pode usar as políticas de retenção para manter os dados por um período de tempo e, em seguida, excluí-los. Para obter mais informações, consulte o artigo sobre as [políticas de retenção no Microsoft Teams](retention-policies.md) .
 
+## <a name="sensitivity-labels"></a>Rótulos de sensibilidade
+
+Aplique [Rótulos de sensibilidade](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels) para proteger e regular o acesso a conteúdos organizacionais confidenciais criados durante a colaboração dentro do teams. Por exemplo, aplique rótulos que configuram a privacidade (pública ou privada) de equipes, controle o acesso de convidados e o compartilhamento externo e gerenciem o acesso de dispositivos não gerenciados. Para obter mais informações, consulte os [Rótulos de sensibilidade no artigo do Microsoft Teams](sensitivity-labels.md) .
+
 ### <a name="data-loss-prevention-dlp"></a>Prevenção contra perda de dados (DLP)
 
 A prevenção contra perda de dados (DLP) no Microsoft Teams, bem como a história de DLP maior para o Microsoft 365 ou o Office 365, gira em torno da preparação para empresas quando se trata de proteger dados e documentos confidenciais. Se você tiver dúvidas quanto às informações confidenciais em mensagens ou documentos, as políticas DLP poderão ajudar a garantir que os usuários não compartilhem esses dados confidenciais com as pessoas erradas.
 
 Para obter informações sobre a prevenção contra perda de dados no Teams, consulte [DLP para Microsoft Teams](https://docs.microsoft.com/microsoft-365/compliance/dlp-microsoft-teams). Um bom artigo para as preocupações com o O365 DLP é a [visão geral da prevenção contra perda de dados](https://docs.microsoft.com/microsoft-365/compliance/data-loss-prevention-policies).
 
-### <a name="ediscovery"></a>eDiscovery
+### <a name="ediscovery"></a>Descoberta eletrônica
 
 Descoberta eletrônica, ou descoberta eletrônica, é o aspecto eletrônico de identificar, coletar e produzir informações armazenadas eletronicamente (ESI) em resposta a uma solicitação de produção em um naipe ou uma investigação legal. Recursos incluem gerenciamento de casos, preservação, pesquisa, análise e exportação de dados do teams. Isso inclui chats, mensagens e arquivos, reuniões e resumos de chamadas. Para reuniões e chamadas do Teams, um resumo dos eventos que aconteceram na reunião e na chamada são criados e disponibilizados na descoberta eletrônica.
 
 Para obter mais detalhes sobre como fazer o Microsoft 365 ou o Office 365 eDiscovery na central de segurança e no centro de conformidade e executar pesquisa de conteúdo de conformidade para conteúdo do Teams, acesse os links abaixo:
 
-[eDiscovery](https://docs.microsoft.com/microsoft-365/compliance/manage-legal-investigations)
+[Descoberta eletrônica](https://docs.microsoft.com/microsoft-365/compliance/manage-legal-investigations)
 
 [Pesquisa de conteúdo](https://docs.microsoft.com/microsoft-365/compliance/search-for-content)
 
@@ -121,7 +125,7 @@ Temos um artigo específico do teams para obter mais informações, [descoberta 
 
 Os clientes podem aproveitar o eDiscovery ou o [eDiscovery avançado](https://docs.microsoft.com/microsoft-365/compliance/office-365-advanced-ediscovery) de acordo com os requisitos. As diferenças entre os dois estão destacadas na tabela a seguir:
 
-| |eDiscovery  |Advanced eDiscovery  |
+| |Descoberta eletrônica  |Advanced eDiscovery  |
 |---------|---------|---------|
 |Gestão de casos     |X        |X         |
 |Controle de acesso  |X         |X         |

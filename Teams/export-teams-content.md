@@ -18,21 +18,21 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 896e60e8de6e01208a07c40e757a79a12192383a
-ms.sourcegitcommit: 4386f4b89331112e0d54943dc3133791d5dca3fb
+ms.openlocfilehash: f4ea2d747d40c221d9e99b51fc7b15da8e2cdd12
+ms.sourcegitcommit: 04eba352d9e203aa9cd1282c4f4c7158a0469678
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/09/2020
-ms.locfileid: "49611815"
+ms.lasthandoff: 01/23/2021
+ms.locfileid: "49944596"
 ---
 # <a name="export-content-with-the-microsoft-teams-export-apis"></a>Exportar conteúdo com as APIs de exportação do Microsoft Teams
 
-As APIs de exportação do teams permitem que você exporte o 1:1 e mensagens de chat em grupo do Microsoft Teams. Se a sua organização precisar exportar mensagens do Microsoft Teams, você poderá extraí-las usando as APIs de exportação do teams. *Mensagem de chat* representa uma mensagem de chat individual em um [canal](https://docs.microsoft.com/graph/api/resources/channel?view=graph-rest-beta) ou [chat](https://docs.microsoft.com/graph/api/resources/chat?view=graph-rest-beta). A mensagem de chat pode ser uma mensagem de chat raiz ou parte de um thread de resposta que é definido pela propriedade **replyToId** na mensagem de chat.
+As APIs de exportação do teams permitem que você exporte o 1:1, o chat em grupo e mensagens de canal do Microsoft Teams. Se a sua organização precisar exportar mensagens do Microsoft Teams, você poderá extraí-las usando as APIs de exportação do teams. *Mensagem de chat* representa uma mensagem de chat individual em um [canal](https://docs.microsoft.com/graph/api/resources/channel?view=graph-rest-beta) ou [chat](https://docs.microsoft.com/graph/api/resources/chat?view=graph-rest-beta). A mensagem de chat pode ser uma mensagem de chat raiz ou parte de um thread de resposta que é definido pela propriedade **replyToId** na mensagem de chat.
 
 Veja a seguir alguns exemplos de como você pode usar essas APIs de exportação:
 
-- **Exemplo 1**: se você tiver habilitado o Microsoft Teams em sua organização e quiser exportar todas as mensagens do Microsoft Teams para a data de forma programática passando o intervalo de datas para um determinado usuário.
-- **Exemplo 2**: se você quiser exportar programaticamente todas as mensagens de usuário diariamente fornecendo um intervalo de datas. APIs de exportação podem recuperar todas as mensagens criadas ou atualizadas durante um determinado intervalo de datas.
+- **Exemplo 1**: se você tiver habilitado o Microsoft Teams em sua organização e quiser exportar todas as mensagens do Microsoft Teams para a data de forma programática passando o intervalo de datas para um determinado usuário ou equipe.
+- **Exemplo 2**: se você quiser exportar de forma programática todas as mensagens de usuário ou de equipe diariamente fornecendo um intervalo de datas. APIs de exportação podem recuperar todas as mensagens criadas ou atualizadas durante um determinado intervalo de datas.
 
 ## <a name="what-is-supported-by-the-teams-export-apis"></a>O que é compatível com as APIs de exportação do teams?
 
@@ -47,35 +47,40 @@ Veja a seguir alguns exemplos de como você pode usar essas APIs de exportação
 
 ## <a name="how-to-access-teams-export-apis"></a>Como acessar as APIs de exportação do teams
 
-- O **exemplo 1** é uma consulta simples para recuperar todas as mensagens de um usuário sem filtros:
+- O **exemplo 1** é uma consulta simples para recuperar todas as mensagens de um usuário ou equipe sem filtros:
 
     ```HTTP
     GET https://graph.microsoft.com/beta/users/{id}/chats/allMessages
     ```
+     ```HTTP
+    GET https://graph.microsoft.com/beta/teams/{id}/channels/allMessages
+    ```
 
-- O **exemplo 2** é uma consulta de exemplo para recuperar todas as mensagens de um usuário especificando filtros de data e hora e as principais mensagens de 50:
+- O **exemplo 2** é uma consulta de exemplo para recuperar todas as mensagens de um usuário ou equipe especificando filtros de data/hora e as principais mensagens de 50:
 
     ```HTTP
     GET https://graph.microsoft.com/beta/users/{id}/chats/allMessages?$top=50&$filter=lastModifiedDateTime gt 2020-06-04T18:03:11.591Z and lastModifiedDateTime lt 2020-06-05T21:00:09.413Z
     ```
-
+```HTTP
+    GET https://graph.microsoft.com/beta/teams/{id}/channels/allMessages?$top=50&$filter=lastModifiedDateTime gt 2020-06-04T18:03:11.591Z and lastModifiedDateTime lt 2020-06-05T21:00:09.413Z
+    ```
 >[!NOTE]
->A API retorna a resposta com o link próxima página em caso de vários resultados. Para obter o próximo conjunto de resultados, basta chamar obter a URL de @odata. Nextlink. Se @odata. Nextlink não estiver presente ou for NULL, todas as mensagens serão recuperadas.
+>The API returns response with next page link in case of multiple results. For getting next set of results, simply call GET on the url from @odata.nextlink. If @odata.nextlink is not present or null then all messages are retrieved.
 
-## <a name="prerequisites-to-access-teams-export-apis"></a>Pré-requisitos para acessar as APIs de exportação do teams 
+## Prerequisites to access Teams Export APIs 
 
-- As APIs de exportação do teams estão atualmente em visualização. Ele só estará disponível para usuários e locatários que tenham as [licenças necessárias](https://aka.ms/teams-changenotification-licenses) para APIs. No futuro, a Microsoft pode exigir que você ou seus clientes paguem taxas adicionais com base na quantidade de dados acessados por meio da API.
-- As APIs do Microsoft Teams no Microsoft Graph que acessam dados confidenciais são consideradas APIs protegidas. As APIs de exportação exigem validação adicional, além de permissões e consentimento, para que você possa usá-las. Para solicitar acesso a essas APIs protegidas, preencha o [formulário de solicitação](https://aka.ms/teamsgraph/requestaccess).
-- As permissões de aplicativo são usadas por aplicativos que são executados sem um usuário conectado presente; as permissões do aplicativo só podem ser consentidas por um administrador. As seguintes permissões são necessárias:
+- Teams Export APIs are currently in preview. It will only be available to users and tenants that have the [required licenses](https://aka.ms/teams-changenotification-licenses) for APIs. In the future, Microsoft may require you or your customers to pay additional fees based on the amount of data accessed through the API.
+- Microsoft Teams APIs in Microsoft Graph that access sensitive data are considered protected APIs. Export APIs require that you have additional validation, beyond permissions and consent, before you can use them. To request access to these protected APIs, complete the [request form](https://aka.ms/teamsgraph/requestaccess).
+- Application permissions are used by apps that run without a signed-in user present; application permissions can only be consented by an administrator. The following permissions are needed:
 
-    - *Chat. Read. All*: permite o acesso a todas as 1:1 e mensagens de chat em grupo 
-    - *User. Read. All*: permite o acesso à lista de usuários para um locatário 
+    - *Chat.Read.All*: enables access to all 1:1 and Group chat messages 
+    - *User.Read.All*: enables access to the list of users for a tenant 
 
-## <a name="json-representation"></a>Representação JSON
+## JSON representation
 
-O exemplo a seguir é uma representação JSON do recurso:
+The following example is a JSON representation of the resource:
 
-Namespace: Microsoft. Graph
+Namespace: microsoft.graph
 
 ```JSON
 {

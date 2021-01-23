@@ -18,18 +18,18 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 605ba58582210c71561cd60442aa66f97be0be0d
-ms.sourcegitcommit: 8924cd77923ca321de72edc3fed04425a4b13044
+ms.openlocfilehash: 63cd853b8a068e7acfc5752e3cd94b5d0102bc2f
+ms.sourcegitcommit: 04eba352d9e203aa9cd1282c4f4c7158a0469678
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/24/2020
-ms.locfileid: "48262498"
+ms.lasthandoff: 01/23/2021
+ms.locfileid: "49944586"
 ---
 # <a name="walkie-talkie-app-in-microsoft-teams"></a>Aplicativo faça de conversas no Microsoft Teams
 
 O aplicativo faça talkie no Teams oferece comunicação instantânea Push-to-Talk (PTT) para sua equipe e agora está disponível no Android. O faça talkie permite que os usuários se conectem com sua equipe usando os mesmos canais subjacentes dos quais são membros. Somente os usuários que se conectam ao faça talkie em um canal tornam-se participantes e podem se comunicar uns com os outros usando o push para conversar, um por vez.
 
-Com o faça de trabalho no Microsoft Teams, os trabalhadores de primeira mão podem se comunicar com uma experiência PTT conhecida sem precisar ter rádios em massa, e o faça de fala funciona em qualquer lugar com conexão WiFi ou celular à Internet.
+Com o faça Talkse no Microsoft Teams, os funcionários do Frontline agora podem se comunicar com uma experiência PTT conhecida sem precisar ter rádios em massa, e o faça a minha fala funciona em qualquer lugar com conexão WiFi ou celular à Internet.
 
 ## <a name="getting-started"></a>Introdução
 
@@ -41,7 +41,7 @@ Uma vez habilitada, o faça talkie estará disponível no aplicativo Android em 
 
 ### <a name="adding-walkie-talkie-to-your-app-list"></a>Adicionando o faça Talkse à sua lista de aplicativos
 
-No centro de administração do Microsoft Teams, em políticas de configuração do **aplicativo do teams**  >  **Setup policies**, você deve **permitir a fixação do usuário** definida como **ativado**. Em seguida, na seção aplicativos fixos, clique em **+ adicionar aplicativos**.
+No centro de administração do Microsoft Teams, em políticas de configuração do **aplicativo do teams**  >  , você deve **permitir a fixação do usuário** definida como **ativado**. Em seguida, na seção aplicativos fixos, clique em **+ adicionar aplicativos**.
 
 :::image type="content" source="media/deploy-walkie-talkie-1.png" alt-text="Mostra a seção de aplicativos fixos e o botão adicionar aplicativos a ser selecionado.":::
 
@@ -73,7 +73,7 @@ O uso de dados esperado do faça talkie é cerca de 20KB/s ao enviar ou receber 
 
 ### <a name="walkie-talkie-devices"></a>Dispositivos faça de fala
 
-Em geral, os funcionários de primeira mão precisam falar e receber chamadas do faça Talk, mesmo quando seus telefones estiverem bloqueados. Essa experiência é possível por meio de dispositivos especializados com um botão PTT dedicado.
+Em geral, os funcionários do Frontline precisam falar e receber faça chamadas de conversas, mesmo quando seus telefones estiverem bloqueados. Essa experiência é possível por meio de dispositivos especializados com um botão PTT dedicado.
 
 - Fones
   - Fone de ouvido com microfone com fio ([Klein eletrônicos](https://www.kleinelectronics.com/poc-accessories/mtwt/))
@@ -96,7 +96,7 @@ O aplicativo faça talkie está incluído em todas as licenças pagas do teams n
 ## <a name="further-information"></a>Mais informações
 
 - ITAdmins pode manter o controle sobre quem está usando o faça Talkse através de políticas de aplicativo.
-- Se o trabalhador da primeira mão estiver usando dados móveis para se comunicar por meio do Teams, o faça Talkse usará o mesmo método.
+- Se o seu trabalhador do Frontline estiver usando dados móveis para se comunicar por meio do Teams, o faça Talkse usará o mesmo método.
 - O faça Talkment deve funcionar bem em situações de pouca largura de banda ou em situações em que seu smartphone está conectado e funcionando. Façaa a fala não funcionará quando não houver conectividade alguma.
 
 Para ler mais sobre a experiência do usuário final, consulte:
