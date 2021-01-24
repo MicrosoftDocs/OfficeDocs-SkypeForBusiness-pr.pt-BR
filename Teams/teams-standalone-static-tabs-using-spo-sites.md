@@ -12,14 +12,14 @@ ms.collection:
 - remotework
 ms.reviewer: vinbel
 search.appverid: MET150
-description: Use um site ou uma página existente do SharePoint Online e crie uma guia estática independente que possa ser usada como um portal da Intranet para a sua organização.
+description: Use um site ou uma página existente do SharePoint Online e crie uma guia pessoal autônoma que pode ser usada como um portal da Intranet para a sua organização.
 localization_priority: Priority
-ms.openlocfilehash: 080adc58059a88e585f5c975972399e552640e3d
-ms.sourcegitcommit: b12ec4703b164c545d17b02815edd6ee28d40bed
+ms.openlocfilehash: 7989478bf7fb81abdbd6ad9e553845302953c8cd
+ms.sourcegitcommit: 5473b9fcd2bfe8adeb05a4a8d23e4350c7970fb6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 01/22/2021
-ms.locfileid: "49923803"
+ms.locfileid: "49937503"
 ---
 # <a name="create-a-teams-intranet-portal-app-from-a-sharepoint-online-site-or-page"></a>Criar um 'aplicativo Portal da Intranet' do Teams a partir de um site ou página do SharePoint Online
 
@@ -37,15 +37,26 @@ Lembre-se de que o processo mostrado **deve usar** um site ou página do SharePo
 Antes de começar:
 
 1. Você precisará saber a URL de um site ou página moderna de Comunicação ou de Equipe do SharePoint Online.
-    - Esses sites sempre terão */teams/* ou */sites/* em seus caminhos.
+
+   Esses sites sempre terão */teams/* ou */sites/* em seus caminhos.
 
 2. Você precisará conhecer o subdomínio de seu locatário, que será usado no espaço reservado **{{subdomínio}}**.
 
 3. Este artigo usará **{{siteUrl}}** como um espaço reservado para a *URL* do site ou da página que você escolheu.
-    - Exemplo *URLs*: `https://contoso.sharepoint.com/teams/Contoso`
-        *ou* `https://contoso.sharepoint.com/sites/Contoso`
+
+   Exemplo *URLs*: 
+   
+   - `https://contoso.sharepoint.com/teams/Contoso`
+      <br/>*ou*
+   - `https://contoso.sharepoint.com/sites/Contoso`
+        
 4. Além disso, o **{{sitePath}}** será usado para indicar o *caminho* da URL (ex:/teams/Contoso).
-    - Exemplos de *caminhos*: /teams/Contoso *ou* /sites/Contoso
+
+   Exemplo *caminhos*:
+   
+   - /teams/Contoso
+     <br/>*ou*
+   - /sites/Contoso
 
 Comece seguindo as etapas abaixo:
 
@@ -69,10 +80,13 @@ Comece seguindo as etapas abaixo:
 
 10. Preencha a **contentURL e URL do site**.
 
-- **contentUrl**: {{siteUrl}}/_layouts/15/teamslogon.aspx?SPFX=true&dest={{sitePath}}  
-- **websiteUrl**: {{siteUrl}}
+    - **contentUrl**: {{siteUrl}}/_layouts/15/teamslogon.aspx?SPFX=true&dest={{sitePath}}  
+    
+    - **websiteUrl**: {{siteUrl}}
 
-    Exemplo de **contentURL**: `https://contoso.sharepoint.com/sites/ContosoHub/_layouts/15/teamslogon.aspx?SPFX=true&dest=/sites/ContosoHub`
+      Exemplo **contentURL**: 
+      
+      `https://contoso.sharepoint.com/sites/ContosoHub/_layouts/15/teamslogon.aspx?SPFX=true&dest=/sites/ContosoHub`
 
 11. Navegue para **Domínios e permissões**. Verifique se a seção de domínios válidos contém o nome do seu domínio do SharePoint Online.
 
@@ -80,20 +94,24 @@ Comece seguindo as etapas abaixo:
 
 12. Adicione as seguintes propriedades de **logon único** do aplicativo Web:
 
-     Exemplo:  **ID de aplicativo AAD**: 00000003-0000-0ff1-ce00-000000000000  **URL do recurso**: {{subdomain}}.sharepoint.com
+    Exemplo:
+    
+    - **A ID do aplicativo AAD**: 00000003-0000-0ff1-ce00-000000000000
+    
+    - **Url do Recurso**: {{subdomain}}.sharepoint.com
 
-    ![Logon único de aplicativo Web, com ID e URL.](media/personal-app.png)
+      ![Logon único de aplicativo Web, com ID e URL.](media/personal-app.png)
 
 13. **Salve** essas propriedades e navegue para **Testar e distribuir**.
 
 14. Instale o aplicativo para testá-lo pessoalmente.
 
-> [!IMPORTANT]
-> Se você não estiver usando o Teams App Studio, será necessário compactar o arquivo manifest.JSON que você acabou de criar, navegar até a App Store no Teams e clicar no link **carregar aplicativo personalizado** (na parte inferior direita da App Store). Isso tornará o aplicativo disponível para você.
+    > [!IMPORTANT]
+    > Se você não estiver usando o Teams App Studio, será necessário compactar o arquivo manifest.JSON que você acabou de criar, navegar até a App Store no Teams e clicar no link **carregar aplicativo personalizado** (na parte inferior direita da App Store). Isso tornará o aplicativo disponível para você.
 
-15. Agora o aplicativo está disponível como uma guia estática para você carregar e visualizar no Teams.
+15. Agora o aplicativo está disponível como uma guia pessoal para você carregar e exibir no Teams.
 
-## <a name="test-and-view-your-new-static-tab"></a>Testar e exibir sua nova guia estática
+## <a name="test-and-view-your-new-personal-tab"></a>Testar e exibir sua nova guia pessoal
 
 Para exibir a nova guia no Teams para área de trabalho, navegue até as reticências (**…**) no lado esquerdo da barra de aplicativos. Encontre seu novo aplicativo, carregue-o e teste seu aplicativo autônomo no Teams.
 
@@ -105,7 +123,7 @@ Para exibir e testar o novo aplicativo em um dispositivo móvel, abra a gaveta d
 
 O arquivo JSON que você gerar se parecerá com o mostrado abaixo.
 
-```JSON'
+```json
 {
 
     "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.5/MicrosoftTeams.schema.json",
