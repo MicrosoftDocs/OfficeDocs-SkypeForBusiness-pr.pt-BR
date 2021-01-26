@@ -24,30 +24,22 @@ metadata:
   search.appverid: MET150
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: 855fc39ea6694cf6fc1741fd64cc4ba3d07eb098
-  ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+  ms.openlocfilehash: 7909d77e2c8d6a99bdeb501172f528aeb78c142f
+  ms.sourcegitcommit: d6e97621b1bfe9c3fbd8bc41b30a94bafd17b28f
   ms.translationtype: MT
   ms.contentlocale: pt-BR
-  ms.lasthandoff: 08/06/2020
-  ms.locfileid: "46583278"
+  ms.lasthandoff: 01/25/2021
+  ms.locfileid: "49973155"
 productDirectory:
   items:
   - title: Planeje a atualização (Comece aqui!)
     imageSrc: https://docs.microsoft.com/office/media/icons/get-started-teams.svg
-    summary: Descubra tudo o que você precisa para facilitar uma atualização bem-sucedida do Teams. Público-todos (patrocinadores do negócio, administradores de ti, preparação do usuário/gerente de alterações, líder do projeto)
+    summary: Não importa se você está fazendo a atualização do Skype for Business online (31 de julho de 2021) ou de mover cenários do seu ambiente local do Skype for Business para o Teams, uma transição bem-sucedida resolve a prontidão técnica e do usuário. Descubra nossa estrutura comprovada, práticas recomendadas e recursos projetados para ajudá-lo a facilitar uma transição bem-sucedida para o Microsoft Teams do Skype for Business Online, do Skype for Business Server ou de um ambiente híbrido. Público-alvo – tudo (patrocinadores empresariais, administradores de ti, preparação do usuário/gerente de alterações, líder do projeto)
     url: https://microsoftteams.eventbuilder.com/PlanYourUpgrade
-  - title: Preparar seus usuários finais
-    imageSrc: https://docs.microsoft.com/office/media/icons/education-tutorial-teams.svg
-    summary: Projete uma estratégia de preparação do usuário para ajudar os usuários a adorar e adotar o Teams. Audiência-preparação do usuário/Gerenciador de alterações
-    url: https://microsoftteams.eventbuilder.com/UpgradeReadyUsers
-  - title: Identificar sua abordagem de atualização
+  - title: Implementar a atualização do Microsoft Teams
     imageSrc: https://docs.microsoft.com/office/media/icons/hybrid-teams.svg
-    summary: Determine a abordagem mais adequada com base nas suas metas de implementação e atualização do Skype for Business. Audiência-administradores de ti
-    url: https://microsoftteams.eventbuilder.com/UpgradeApproach
-  - title: Implementar sua abordagem de atualização
-    imageSrc: https://docs.microsoft.com/office/media/icons/usage-report-teams.svg
-    summary: Execute sua abordagem de atualização definida como parte do seu plano de atualização formal. Audiência-administradores de ti
-    url: https://microsoftteams.eventbuilder.com/UpgradeImplement
+    summary: Junte-se a nós para identificar e preparar-se para executar a melhor abordagem técnica para mover todas as cargas de trabalho para o Teams, com base em seus objetivos e no seu ambiente atual do Skype for Business. A maioria dos clientes que concluíram transições bem-sucedidas têm equipes com o Skype for Business Online, o Skype for Business Server ou a implementação híbrida atual. Esta sessão compartilhará as principais considerações e recursos valiosos para ajudá-lo a definir a melhor estratégia de migração para a sua organização. Audiência-administradores de ti
+    url: https://microsoftteams.eventbuilder.com/ImplementTeamsUpgrade
 additionalContent:
   sections:
   - items:
