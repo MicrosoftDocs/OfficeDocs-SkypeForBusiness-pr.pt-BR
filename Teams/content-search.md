@@ -14,15 +14,15 @@ search.appverid: MET150
 f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
-description: Saiba como usar a pesquisa de conteúdo no Microsoft Teams para consultar informações do Microsoft Teams do Exchange, do SharePoint Online, do OneDrive for Business e do OneNote.
+description: Saiba como usar a pesquisa de conteúdo no centro de conformidade do Microsoft 365 para pesquisar o conteúdo do Microsoft Teams armazenado no Exchange Online, no SharePoint Online, no OneDrive for Business e no OneNote.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d05d815a74fc395c06763920014b7de453847bec
-ms.sourcegitcommit: 113e3a7314505cf78da57917ff62642125fb11fd
+ms.openlocfilehash: f91e630b6f0666def3e64e40e68a6a3f18097152
+ms.sourcegitcommit: 0b584d40e95cbde33cee3691edadb12156d72fb5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/14/2020
-ms.locfileid: "45121521"
+ms.lasthandoff: 01/26/2021
+ms.locfileid: "49980435"
 ---
 <a name="use-content-search-in-microsoft-teams"></a>Usar a pesquisa de conteúdo no Microsoft Teams
 =====================================
@@ -32,14 +32,14 @@ ms.locfileid: "45121521"
 
 A pesquisa de conteúdo fornece uma maneira de consultar as informações do Microsoft Teams estendido o Exchange, o SharePoint Online e o OneDrive for Business.
 
-Para saber mais, leia [pesquisa de conteúdo no Microsoft 365 ou no Office 365](https://support.office.com/article/Run-a-Content-Search-in-the-Office-365-Security-Compliance-Center-61852fd9-fe8a-4880-a339-cb19ed3bff4a).
+Para saber mais, consulte [pesquisa de conteúdo no Microsoft 365](https://docs.microsoft.com/microsoft-365/compliance/content-search).
 
 Por exemplo, ao usar a **pesquisa de conteúdo** em sua caixa de correio de especificações de fabricação e especificações de fabricação do site do SharePoint, você pode pesquisar as conversas de canal padrão do teams do Exchange, uploads e alterações de arquivos do SharePoint Online e alterações do OneNote.
 
 Você também pode adicionar critérios de consulta à **pesquisa de conteúdo** para restringir os resultados retornados. No exemplo acima, você pode procurar por conteúdo em que as palavras-chave "**novas especificações de fábrica"** foram usadas.
 
 > [!TIP]
-> Depois de adicionar critérios de pesquisa, você pode exportar um relatório ou os dados para o seu computador para análise.
+> Depois de adicionar critérios de pesquisa, você pode exportar um relatório ou o conteúdo real para o seu computador para análise.
 
 ## <a name="content-search-of-private-channels"></a>Pesquisa de conteúdo em canais privados
 

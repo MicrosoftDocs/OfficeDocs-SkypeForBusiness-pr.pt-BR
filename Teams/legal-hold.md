@@ -15,12 +15,12 @@ f1.keywords:
 description: Saiba como colocar um usuário ou uma equipe do Microsoft Teams em retenção legal usando o Centro de Segurança e Conformidade, e saiba o que necessita de uma retenção legal com base nas exigências de dados.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 63d862cbdf8d31fc00a48849c85994bd878f0bbc
-ms.sourcegitcommit: b6aeaa3d98c29bdc120db8ccfcb7ff2c11d246af
+ms.openlocfilehash: c04f3584aa7207d9d9ee1126df992657f84aa213
+ms.sourcegitcommit: 0b584d40e95cbde33cee3691edadb12156d72fb5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/04/2020
-ms.locfileid: "49570830"
+ms.lasthandoff: 01/26/2021
+ms.locfileid: "49980445"
 ---
 <a name="place-a-microsoft-teams-user-or-team-on-legal-hold"></a>Colocar um usuário ou uma equipe do Microsoft Teams em retenção legal
 ==================================================
@@ -28,7 +28,7 @@ ms.locfileid: "49570830"
 Quando há uma expectativa razoável de litígio, as organizações precisam preservar as ESI (informações armazenadas eletronicamente), incluindo mensagens de chat de equipes que são relevantes para o caso. As organizações podem precisar preservar todas as mensagens relacionadas a um tópico específico ou a determinadas pessoas. Este artigo abordará o controle legal no Microsoft Teams (para abordar a implementação de controle em todo o espaço M365, consulte [gerenciar casos de descoberta eletrônica: colocar locais de conteúdo em espera](https://docs.microsoft.com/microsoft-365/compliance/ediscovery-cases#step-4-place-content-locations-on-hold).).
 
 > [!NOTE]
-> Em fevereiro de 2020, ativamos o controle legal ou retenção de maiúsculas e minúsculas (os chats de canal privado são armazenados nas caixas de correio do usuário, os chats de canal normais são armazenados nas caixas de correio do grupo da equipe). Se já houver um bloqueio legal para uma caixa de correio de usuário, a política de retenção será aplicada automaticamente às mensagens de canal privado armazenadas nessa caixa de correio. Não há nenhuma ação adicional necessária para que um administrador ative isso. Também há suporte para o controle legal de arquivos compartilhados em canais privados.
+> Em fevereiro de 2020, habilitamos o controle legal ou retenção de caso em canais privados (os chats de canal privado são armazenados nas caixas de correio do usuário, os chats de canal normais são armazenados na caixa de correio do grupo de uma equipe). Se já houver um bloqueio legal para uma caixa de correio de usuário, a política de retenção será aplicada automaticamente às mensagens de canal privado armazenadas nessa caixa de correio. Não há nenhuma ação adicional necessária para que um administrador ative isso. Também há suporte para o controle legal de arquivos compartilhados em canais privados.
 
 No Microsoft Teams, uma equipe inteira ou selecione os usuários podem ser colocados em espera ou em retenção legal. Fazer isso garantirá que todas as mensagens que foram trocadas nessas equipes (incluindo canais particulares) ou mensagens trocadas por esses indivíduos sejam detectáveis pelos gerentes de conformidade da organização ou pelos administradores de equipe.
 
@@ -68,18 +68,21 @@ Depois que o controle legal tiver sido definido, você poderá descobrir todo o 
 > [!IMPORTANT]
 > Quando um usuário ou grupo é colocado em espera, todas as cópias da mensagem serão mantidas. Por exemplo, se um usuário tiver postado uma mensagem em um canal e, em seguida, modificasse a mensagem, em um cenário de espera, ambas as cópias da mensagem serão mantidas. Sem o controle legal in-loco, apenas a mensagem mais recente é mantida.
 
-Como um guia útil, você pode usar a tabela a seguir para entender o que precisa ser colocado em retenção legal com base em requisitos de dados:
+## <a name="content-locations-to-place-on-legal-hold-to-preserve-teams-content"></a>Locais de conteúdo para colocar em retenção legal para preservar o conteúdo das equipes
 
-|Cenário  |O que colocar em retenção  |
+Como um guia útil, você pode usar a tabela a seguir para compreender qual local de conteúdo (como uma caixa de correio ou um site) deve ser colocado em controle legal para preservar diferentes tipos de conteúdo do teams.
+
+|Cenário  |Localização do conteúdo  |
 |---------|---------|
-|**Conteúdo de chat do Microsoft Teams por um usuário (em 1:1 chats, 1: muitos ou chats em grupo, conversas de canal privado etc.)**     |Caixa de correio do usuário         |
-|**Chats de canal do Microsoft Teams (excluindo canais privados)**    |Caixa de correio do grupo usada para a equipe         |
-|**Conteúdo do Microsoft Teams (por exemplo, wiki, arquivos)**     |Site SharePoint usado pela equipe         |
-|**Arquivos de canal privado do Microsoft Teams**     |Site do SharePoint dedicado para privado     |
-|**Conteúdo particular do usuário**     |Site OneDrive for Business do usuário         |
+|Chats de equipe para um usuário (por exemplo, 1:1 chats, 1: N chats em grupo e conversas de canal privado)     |Caixa de correio do usuário.         |
+|Chats de canal de equipe (excluindo canais privados)    |Caixa de correio do grupo usada para a equipe.         |
+|Conteúdo do arquivo do Teams (por exemplo, conteúdo e arquivos wiki)     |Site do SharePoint usado pela equipe.         |
+|Arquivos de canal privado do teams     |Site do SharePoint dedicado para canais privados.     |
+|Conteúdo particular do usuário     |A conta do OneDrive for Business do usuário.         |
+|Conteúdo do cartão em chats|Caixa de correio do usuário para 1:1 chats, 1: N chats em grupo e conversas de canal privado ou caixa de correio de grupo para conteúdo de cartão em mensagens de canal. Para obter mais informações, consulte a seção "preservar conteúdo do cartão" em [criar um controle de descoberta eletrônica](https://docs.microsoft.com/microsoft-365/compliance/create-ediscovery-holds#preserve-card-content).
 ||||
 
 > [!NOTE]
 > Para manter a comunicação em canais privados, você precisa colocar as caixas de correio do usuário (usuários do canal privado) em espera e usar a ferramenta de descoberta eletrônica para pesquisar, Pesquisar na caixa de correio do usuário. Como foi declarado anteriormente, os chats do canal privado são armazenados nas caixas de correio do usuário, não na caixa de correio de grupo de uma equipe.
 
-Se quiser ler mais sobre este tópico para áreas não relacionadas ao Teams no M365, você deve revisar [gerenciar casos de descoberta eletrônica: colocar locais de conteúdo em espera](https://docs.microsoft.com/microsoft-365/compliance/ediscovery-cases#step-4-place-content-locations-on-hold).
+Se você quiser ler mais sobre este tópico para áreas não relacionadas ao Teams no Microsoft 365, deve revisar [gerenciar casos de descoberta eletrônica: colocar locais de conteúdo em espera](https://docs.microsoft.com/microsoft-365/compliance/ediscovery-cases#step-4-place-content-locations-on-hold).

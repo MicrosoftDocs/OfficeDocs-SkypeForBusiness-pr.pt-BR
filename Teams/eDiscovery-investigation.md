@@ -17,42 +17,44 @@ description: Saiba o que fazer quando você precisar executar uma descoberta ele
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 25729dea68d2d8ea75fae894387316dfbcd1975a
-ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
+ms.openlocfilehash: aa6b1212fda3983cc612885e41aa1131bb6f496d
+ms.sourcegitcommit: 0b584d40e95cbde33cee3691edadb12156d72fb5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "49661906"
+ms.lasthandoff: 01/26/2021
+ms.locfileid: "49980455"
 ---
 # <a name="conduct-an-ediscovery-investigation-of-content-in-microsoft-teams"></a>Conduzir uma investigação de Descoberta Eletrônica de conteúdo no Microsoft Teams
 
 Grandes empresas muitas vezes são expostas a grandes procedimentos legais de penalidade que exigem o envio de todas as ESI (informações armazenadas eletronicamente). O conteúdo do Microsoft Teams pode ser pesquisado e usado durante investigações de descoberta eletrônica.
 
-## <a name="overview"></a>Visão geral
+## <a name="overview"></a>Visão Geral
 
 Todas as caixas de correio do Microsoft Teams 1:1 ou de grupo são registradas em um diário para as caixas de correio dos respectivos usuários. Todas as mensagens de canal padrão são registradas na caixa de correio do grupo que representa a equipe. Os arquivos carregados em canais padrão são cobertos pela funcionalidade de descoberta eletrônica do SharePoint Online e do OneDrive for Business.
 
 a descoberta eletrônica de mensagens e arquivos em [canais privados](private-channels.md) funciona de forma diferente em canais padrão. Para saber mais, consulte [descoberta eletrônica de canais privados](#ediscovery-of-private-channels).
 
-Nem todo o conteúdo do teams é eDiscoverable. A tabela a seguir mostra os tipos de conteúdo que podem ser localizados por meio de descoberta eletrônica.
+Nem todo o conteúdo do teams é eDiscoverable. A tabela a seguir mostra os tipos de conteúdo que você pode pesquisar usando as ferramentas do Microsoft eDiscovery:
 
 | Tipo de conteúdo | eDiscoverable | Observações |
-|:--- | --- |:--- |
-| Mensagens de chat do teams | Sim |  |
-| Mensagens de canal privado | Sim | |
-| Nome do canal | Não | |
-| Conversas de mensagens instantâneas de reunião | Sim | |
-| Metadados de reunião<sup>1</sup> | Sim |  |
-| Mensagens editadas | Sim | Se o usuário estiver em espera, as versões anteriores das mensagens editadas serão preservadas. |
-| Emojis, GIFs, adesivos | Sim | |
-| Trechos de código | Não | |
-| Links de chat | Sim | |
-| Reações (curtidas, corações e assim por diante) | Não | |
-| Imagens embutidas | Sim | |
-| Tabelas | Sim | |
-| Assunto | Sim | |
-| Cota | Sim | Conteúdo entre aspas é pesquisável. No entanto, os resultados da pesquisa não indicam que o conteúdo foi cotado. |
-| Gravações de áudio | Não | |
+|:--- | :--- |:--- |
+|Gravações de áudio | Não | |
+|Conteúdo do cartão|Sim|Para obter mais informações, consulte [Procurar conteúdo do cartão](#search-for-card-content) .|
+|Links de chat | Sim | |
+|Mensagens de chat | Sim |Isso inclui conteúdo em canais de equipe, 1:1 chats, 1: N chats em grupo e chats com participantes de usuários convidados.  |
+|Trechos de código | Não | |
+|Mensagens editadas | Sim | Se o usuário estiver em espera, as versões anteriores das mensagens editadas também serão preservadas. |
+|Emojis, GIFs e adesivos | Sim | |
+|Imagens embutidas | Sim | |
+|Conversas de mensagens instantâneas de reunião | Sim | |
+|Metadados de reunião<sup>1</sup> | Sim |  |
+|Nome do canal | Não | |
+|Mensagens de canal privado | Sim | |
+|Cota | Sim | Conteúdo entre aspas é pesquisável. No entanto, os resultados da pesquisa não indicam que o conteúdo foi cotado. |
+|Reações (como curtir, copas e outras reações) | Não | |
+|Assunto | Sim | |
+|Tabelas | Sim | |
+|||
 
 <sup>1</sup> metadados de reunião (e chamada) incluem o seguinte:
 
@@ -63,12 +65,12 @@ Nem todo o conteúdo do teams é eDiscoverable. A tabela a seguir mostra os tipo
 - Ingressar no usuário federado
 - Ingressar no usuário convidado
 
-A imagem mostra um exemplo dos metadados.
+  A imagem mostra um exemplo dos metadados da reunião.
 
-> [!div class="mx-imgBorder"]
-> ![Image é da CVR registros da reunião.](media/conversationOption3.png)
+  > [!div class="mx-imgBorder"]
+  > ![Image é da CVR registros da reunião.](media/conversationOption3.png)
 
-Aqui está um exemplo de conversa de mensagem instantânea entre participantes durante a reunião.
+Aqui está um exemplo de uma conversa de mensagem instantânea entre participantes durante a reunião.
 
 ![Conversa entre participantes do teams.](media/MeetingIMConversations.png)
 
@@ -77,7 +79,7 @@ Aqui está um exemplo de conversa de mensagem instantânea entre participantes d
 
 Para obter mais informações sobre como conduzir uma investigação de descoberta eletrônica, consulte [introdução ao centro de descoberta eletrônica](https://docs.microsoft.com/microsoft-365/compliance/get-started-core-ediscovery).
 
-Os dados do Microsoft Teams serão exibidos como mensagens instantâneas ou conversas na saída de exportação do Excel para descoberta eletrônica. Você pode abrir o `.pst` arquivo no Outlook para exibir essas mensagens após a exportação.
+Os dados do Microsoft Teams serão exibidos como mensagens instantâneas ou conversas na saída de exportação do Excel para descoberta eletrônica. Você pode abrir o `.pst` arquivo no Outlook para exibir essas mensagens depois de exportá-las.
 
 Ao exibir o arquivo. pst para a equipe, todas as conversas são mantidas na pasta de chat da equipe em histórico de conversas. O título da mensagem contém o nome da equipe e o nome do canal. Por exemplo, a imagem abaixo mostra uma mensagem de Bob que encontrava o canal padrão do Project 7 da equipe de especificações de fabricação.
 
@@ -188,6 +190,27 @@ Para pesquisar conteúdo para usuários convidados:
    - Ao lado do campo de **consulta** , clique em **Editar** para editar e, em seguida, execute novamente a pesquisa. Por exemplo, você pode adicionar uma consulta de pesquisa para restringir os resultados.
 
    - Clique em **Exportar resultados** para exportar e baixar os resultados da pesquisa.
+
+## <a name="search-for-card-content"></a>Pesquisar o conteúdo do cartão
+
+Conteúdo do cartão gerado por aplicativos em canais de equipe, chats de 1:1 e chats 1xN são armazenados em caixas de correio e podem ser pesquisados. Um *cartão* é um contêiner de interface do usuário para pedaços curtos de conteúdo. Os cartões podem ter várias propriedades e anexos e podem incluir botões que podem disparar ações de cartão. Para obter mais informações, consulte [cartões](https://docs.microsoft.com/microsoftteams/platform/task-modules-and-cards/what-are-cards)
+
+Como outro conteúdo de equipes, em que o conteúdo do cartão é armazenado, baseia-se no local em que o cartão foi usado. O conteúdo dos cartões usados em um canal de equipe é armazenado na caixa de correio do grupo Teams. O conteúdo do cartão para 1:1 e chats 1xN são armazenados nas caixas de correio dos participantes do chat.
+
+Para pesquisar o conteúdo do cartão, você pode usar `kind:microsoftteams` os `itemclass:IPM.SkypeTeams.Message` critérios de pesquisa ou de pesquisa. Ao revisar os resultados da pesquisa, o conteúdo do cartão gerado por bots em um canal de equipe tem a propriedade email do **remetente/autor** como `<appname>@teams.microsoft.com` , onde `appname` é o nome do aplicativo que gerou o conteúdo do cartão. Se o conteúdo do cartão foi gerado por um usuário, o valor de **remetente/autor** identifica o usuário.
+
+Ao exibir o conteúdo do cartão nos resultados da pesquisa de conteúdo, o conteúdo aparece como um anexo para a mensagem. O anexo é nomeado `appname.html` , onde `appname` é o nome do aplicativo que gerou o conteúdo do cartão. As capturas de tela a seguir mostram como o conteúdo do cartão (para um aplicativo chamado Asana) é exibido no Teams e nos resultados de uma pesquisa.
+
+**Conteúdo do cartão no Teams**
+
+![Conteúdo do cartão na mensagem do canal de equipe](media/CardContentTeams.png)
+
+**Conteúdo do cartão nos resultados da pesquisa**
+  
+![Mesmo conteúdo de cartão nos resultados de uma pesquisa de conteúdo](media/CardContentEdiscoverySearchResults.png)
+
+> [!NOTE]
+> Para exibir imagens do conteúdo do cartão nos resultados da pesquisa no momento (como as marcas de tela na captura de tela anterior), você precisa estar conectado ao Microsoft Teams (em https://teams.microsoft.com) uma guia diferente na mesma sessão do navegador que você usa para exibir os resultados da pesquisa. Caso contrário, os espaços reservados para imagem são exibidos.
 
 ## <a name="advanced-ediscovery"></a>Advanced eDiscovery
 

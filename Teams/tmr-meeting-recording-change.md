@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 51046148620c804dfadb4296d718a1759b618b44
-ms.sourcegitcommit: c6b999226294aeea98dafa9ef5f0bd256fcb6a0c
+ms.openlocfilehash: a3b7a3917f47bd07bd5d66ce5fdb524b91b0299e
+ms.sourcegitcommit: d5732f043b7b5aa9b889aae185a7bc7e6ffad409
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/19/2021
-ms.locfileid: "49903552"
+ms.lasthandoff: 01/26/2021
+ms.locfileid: "49979748"
 ---
 # <a name="use-onedrive-for-business-and-sharepoint-or-stream-for-meeting-recordings"></a>Usar o OneDrive for Business e o SharePoint ou o Stream para gravações de reunião
 
@@ -134,13 +134,17 @@ Set-CsTeamsMeetingPolicy -Identity Global -RecordingStorageMode "Stream"
 
 **Onde a gravação da reunião será armazenada?**
 
-- Para reuniões não relacionadas ao canal, a gravação é armazenada em uma pasta chamada **gravações** que está no nível superior do onedrive for Business que pertence à pessoa que iniciou a gravação da reunião. Exemplo
+- Para reuniões não relacionadas ao canal, a gravação é armazenada em uma pasta chamada **gravações** que está no nível superior do onedrive for Business que pertence à pessoa que iniciou a gravação da reunião. Exemplo:
 
   <i>onedrive for Business</i> / do gravador **Gravações**
 
-- Para reuniões de canal, a gravação é armazenada na biblioteca de documentação do site do teams em uma pasta chamada **gravações**. Exemplo
+- Para reuniões de canal, a gravação é armazenada na biblioteca de documentação do site do teams em uma pasta chamada **gravações**. Exemplo:
 
   <i>Nome do Team-nome</i> / do canal **Documentos** / do **Gravações**
+
+**Quando os arquivos de fluxo (como gravações) são armazenados no SharePoint/OneDrive, como eles são decididos para onde vão? O administrador tem a capacidade de mudar para onde vai?**
+
+Por padrão, todos os arquivos de gravação vão para a conta do OneDrive do usuário que selecionou **registro**. Para reuniões de canal, a gravação sempre vai para o site do SharePoint do canal. O administrador não pode alterar o local em que a gravação está armazenada.
 
 **Como faço para lidar com gravações de ex-funcionários?**
 
