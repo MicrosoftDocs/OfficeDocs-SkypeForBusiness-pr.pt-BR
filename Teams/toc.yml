@@ -400,7 +400,7 @@
           href: audio-conferencing-pay-per-minute.md
         - name: Gerenciar as configurações de audioconferência para usuários
           items:
-            - name: Visão geral
+            - name: Visão Geral
               href: manage-the-audio-conferencing-settings-for-a-user-in-teams.md
             - name: Ver uma lista de usuários habilitados para Audioconferência
               href: see-a-list-of-users-that-are-enabled-for-audio-conferencing-in-teams.md
@@ -1155,8 +1155,12 @@
           href: edu-remote-low-bandwidth.md
         - name: Assistente de políticas do Teams para Educação
           href: easy-policy-setup-edu.md
-        - name: Introdução ao Insights
-          href: class-insights.md
+        - name: Insights de Educação
+          items:
+            - name: Introdução ao Insights
+              href: class-insights.md
+            - name: Sincronizar os dados SIS com Insights
+              href: education-insights-sis-data-sync.md
         - name: Tarefas do Teams para Educação
           href: expand-teams-across-your-org/assignments-in-teams.md
         - name: Recursos do Teams para administradores de Educação
