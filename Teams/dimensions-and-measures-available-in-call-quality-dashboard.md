@@ -22,12 +22,12 @@ ms.custom:
 - Reporting
 - seo-marvel-mar2020
 description: Obtenha informações detalhadas sobre as dimensões e medidas usadas pelo painel de qualidade da chamada (CQD) para Microsoft Teams e Skype for Business online.
-ms.openlocfilehash: 5c12e5c72d81f2302d0462f9943e17eee3e0a13a
-ms.sourcegitcommit: 380a96f1ed2cefb429286854f06546bdb28d7d74
+ms.openlocfilehash: 5903f9006e4e4980e92b3a14119674af4b50d80a
+ms.sourcegitcommit: bf4dde013689bc3e76ffb03fe763cd9ff90e0add
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "49701299"
+ms.lasthandoff: 01/27/2021
+ms.locfileid: "49990606"
 ---
 # <a name="dimensions-and-measurements-available-in-call-quality-dashboard-cqd"></a>Dimensões e medidas disponíveis no painel de qualidade de chamada (CQD)
 
@@ -256,7 +256,7 @@ As informações de dimensões são baseadas em parte em dados carregados no por
 | Tremulação  | Intervalo (milissegundos)  | Variação média do fluxo em milissegundos. Valores agrupados por intervalo. <br/> **Valor de exemplo:** 065: [2-3)  | &bull; Nenhum dado de tremulação foi reportado pelo ponto de extremidade que recebe o fluxo |
 | Número de tremulação máx.  | Intervalo (milissegundos)  | Variação máxima do fluxo em milissegundos. Valores agrupados por intervalo. <br/> **Valor de exemplo:** 065: [2-3) | &bull; Nenhum dado de tremulação foi reportado pelo ponto de extremidade que recebe o fluxo   |
 | Taxa de perda de pacotes  | Intervalo (índice)  | Taxa média de perda de pacotes do Stream. Valores agrupados por intervalo. 0,1 indica 10% de perda de pacote. <br/> **Valor de exemplo:** 015: [0, 1-0, 2)  | &bull; Nenhum dado de perda de pacote foi reportado pelo ponto de extremidade que recebe o fluxo |
-| Taxa máxima de perda de pacotes  | Intervalo (índice)  | Taxa máxima de perda de pacotes do Stream. Valores agrupados por intervalo. 0,1 indica 10% de perda de pacote. <br/> **Valor de exemplo:** 023: [0, 9-0,1)  | &bull; Nenhum dado de perda de pacote foi reportado pelo ponto de extremidade que recebe o fluxo |
+| Taxa máxima de perda de pacotes  | Intervalo (índice)  | Taxa máxima de perda de pacotes do Stream. Valores agrupados por intervalo. 0,1 indica 10% de perda de pacote. <br/> **Valor de exemplo:** 023: [0, 9-0,1)  | &bull; Nenhum dado de perda de pacote foi reportado pelo ponto de extremidade que recebe o fluxo  <br/>&bull; A utilização de pacotes para um determinado fluxo é menor do que 100 pacotes |
 | Média geral de MOS de rede  | Intervalo (MOS)  | MOS média da rede para o Stream. Valores agrupados por intervalo. <br/> **Valor de exemplo:** 076: [4,4-4,5) | &bull; Nenhuma degradação de MOS de rede foi reportada pelo ponto de extremidade que recebe o fluxo <br/>&bull; O fluxo não é um fluxo de áudio  |
 | Índice médio de amostras ocultas  | Intervalo (índice)  | Razão do número de quadros de áudio com amostras geradas pela ocultação da perda de pacotes para o número total de quadros de áudio. Valores agrupados por intervalo. 0,1 indica que 10% dos quadros continham exemplos ocultos. <br/> **Valor de exemplo:** 015: [0, 1-0, 2) | &bull; Esse valor não foi reportado pelo destinatário do fluxo <br/>&bull; O fluxo não era um fluxo de áudio  |
 |Índice de ocultar máx. |Intervalo (índice) | O número máximo de quadros de áudio visto por exemplos gerados pela ocultação da perda de pacotes para o número total de quadros de áudio. Valores agrupados por intervalo. 0,1 indica que 10% dos quadros continham exemplos ocultos. <br/> **Valor de exemplo:** 015: [0, 1-0, 2)| |
