@@ -22,12 +22,12 @@ ms.custom:
 - Reporting
 - seo-marvel-mar2020
 description: Obtenha informações detalhadas sobre as dimensões e medidas usadas pelo painel de qualidade da chamada (CQD) para Microsoft Teams e Skype for Business online.
-ms.openlocfilehash: 5903f9006e4e4980e92b3a14119674af4b50d80a
-ms.sourcegitcommit: bf4dde013689bc3e76ffb03fe763cd9ff90e0add
+ms.openlocfilehash: fc5515b0eea9df234a1f4439b1db61a93ba19713
+ms.sourcegitcommit: 654199b413d1c0ab3feffbb9b7d7ddfa021ec273
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/27/2021
-ms.locfileid: "49990606"
+ms.lasthandoff: 01/28/2021
+ms.locfileid: "50032430"
 ---
 # <a name="dimensions-and-measurements-available-in-call-quality-dashboard-cqd"></a>Dimensões e medidas disponíveis no painel de qualidade de chamada (CQD)
 
@@ -409,7 +409,7 @@ As informações de dimensões são baseadas em parte em dados carregados no por
 | Primeiro número de telefone|Cadeia de caracteres|O número de telefone do usuário do primeiro ponto de extremidade. Preenchida somente para pontos de extremidade PSTN. Disponível somente para os últimos 28 dias de dados e visíveis somente para os usuários com funções que permitam acesso EUII.|
 | Segundo número de telefone|Cadeia de caracteres|O número de telefone do usuário do segundo ponto de extremidade. Preenchida somente para pontos de extremidade PSTN. Disponível somente para os últimos 28 dias de dados e visíveis somente para os usuários com funções que permitam acesso EUII.|
 | Primeiro UPN|Cadeia de caracteres|O nome de usuário principal (UPN) do usuário do primeiro ponto de extremidade. Disponível somente para os últimos 28 dias de dados e visíveis somente para os usuários com funções que permitam acesso EUII.|
-| Segundo UPN|Cadeia de caracteres|O UPN (nome de usuário principal) do usuário do segundo ponto de extremidade. Disponível somente para os últimos 28 dias de dados e visíveis somente para os usuários com funções que permitam acesso EUII.|
+| Segundo UPN|Cadeia de caracteres|O UPN (nome de usuário principal) do usuário do segundo ponto de extremidade. Disponível somente para os últimos 28 dias de dados e visíveis somente para os usuários com funções que permitam acesso EUII.| <br/>&bull; Nem todos os usertypes têm UPNs; inclua as dimensões do segundo UserType ou do segundo ObjectId do usuário para saber mais sobre esses pontos de extremidade |
 | Texto do primeiro comentário|Cadeia de caracteres|Texto de comentário textual, se houver, fornecido pelo usuário do primeiro ponto de extremidade no final de uma chamada. Disponível somente para os últimos 28 dias de dados e visíveis somente para os usuários com funções que permitam acesso EUII. | |
 | Texto do segundo comentário|Cadeia de caracteres| Texto de comentário textual, se houver, fornecido pelo segundo usuário do segundo ponto de extremidade no final de uma chamada. Disponível somente para os últimos 28 dias de dados e visíveis somente para os usuários com funções que permitam acesso EUII.|
 | Nome do primeiro ponto de extremidade do cliente|Cadeia de caracteres|O nome da máquina do primeiro ponto de extremidade. Disponível somente para os últimos 28 dias de dados e visíveis somente para os usuários com funções que permitam acesso EUII.|
