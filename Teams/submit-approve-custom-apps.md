@@ -17,12 +17,12 @@ f1.keywords:
 localization_priority: Normal
 search.appverid: MET150
 description: Saiba como aprovar seus aplicativos personalizados que são enviados usando a API de envio do aplicativo Teams no Microsoft Teams.
-ms.openlocfilehash: 058911d2d84d71ca6175e2bdeb6866807c218631
-ms.sourcegitcommit: f1f3b5220c4b411f2001fbdcbe25ae7c14b94df6
+ms.openlocfilehash: 6b9304cf2af9e45dd9fd2955cda6498ce1dbc3ae
+ms.sourcegitcommit: 6262deaede6f25b17624d7468eff7a2863eeacf7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "49776882"
+ms.lasthandoff: 01/29/2021
+ms.locfileid: "50043965"
 ---
 # <a name="publish-a-custom-app-submitted-through-the-teams-app-submission-api"></a>Publicar um aplicativo personalizado enviado por meio da API de envio do aplicativo Teams
 
@@ -69,9 +69,9 @@ Na tabela, um aplicativo recém enviado mostra automaticamente um **status de pu
 
 Clique no nome do aplicativo para ir para a página de detalhes do aplicativo. Na guia **sobre** , você pode exibir detalhes sobre o aplicativo, incluindo descrição, status, emissor e ID do aplicativo.
 
-! página de detalhes do aplicativo para um aplicativo enviado] (mídia/custom-app-lifecycle-app-details.png)
+![página de detalhes do aplicativo para um aplicativo enviado](media/custom-app-lifecycle-app-details.png)
 
-Para obter mais informações sobre como usar a API de gráfico para verificar o **status de publicação**, consulte <a href="https://docs.microsoft.com/graph/api/teamsapp-list?view=graph-rest-1.0&tabs=http#example-3-list-applications-with-a-given-id-and-return-the-submission-review-state" target="_blank">aqui</a>.
+Para obter mais informações sobre como usar a API de gráfico para verificar o **status de publicação**, consulte <a href="https://docs.microsoft.com/graph/api/appcatalogs-list-teamsapps?view=graph-rest-1.0&tabs=http#example-3-find-application-based-on-the-teams-app-manifest-id" target="_blank">aqui</a>.
 
 ## <a name="publish"></a>Publicado
 

@@ -17,12 +17,12 @@ localization_priority: Normal
 search.appverid: MET150
 description: Saiba mais sobre o serviço gerenciado de salas do Microsoft Teams.
 f1keywords: ''
-ms.openlocfilehash: 783c63e6264cb94ae45c5c8c42de7c52e2337931
-ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
+ms.openlocfilehash: a70a07d4f17e4eb956c005ff4296a8f1b69f4d37
+ms.sourcegitcommit: 6262deaede6f25b17624d7468eff7a2863eeacf7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "49662656"
+ms.lasthandoff: 01/29/2021
+ms.locfileid: "50043945"
 ---
 # <a name="microsoft-teams-rooms-managed-service"></a>Serviço gerenciado de salas do Microsoft Teams
 
@@ -44,7 +44,7 @@ Veja uma visão geral dos recursos do serviço gerenciado de salas do Microsoft 
 |**Ideias e recomendações**     |Ideias sobre a integridade do cliente, o uso, a utilização e a confiabilidade do equipamento.         |
 |**Conformidade e certificações**   |Atende a todos os padrões aplicáveis para serviços online da Microsoft.         |
 |**Suporte ao cliente**   |suporte a tíquete 24x7x365 por meio do Data Center do serviço gerenciado de salas do Microsoft Teams (SOC) dedicado. Escalonamento em seu nome para outros fornecedores principais quando aplicável. Para saber mais, consulte [suporte ao cliente](#customer-support).|
-|**Dispositivos suportados**    |Sistemas de salas Microsoft Teams certificados e seus periféricos.         |
+|**Dispositivos suportados**    |Sistemas de salas Microsoft Teams certificados e seus periféricos.<br>*Suporte do Surface Hub chegando no segundo semestre de 2021*        |
 |**Regiões com suporte**    |Consulte [regiões com suporte](#supported-regions).        |
 |**Integração**    |Integração disponível com o serviço hospedado pelo cliente agora.         |
 
@@ -91,29 +91,86 @@ Para obter mais detalhes sobre a cobertura de suporte ao serviço gerenciado de 
 
 ## <a name="supported-regions"></a>Regiões com suporte
 
-O serviço de salas do Microsoft Teams gerenciados está disponível nos seguintes países e regiões.
+O serviço de salas do Microsoft Teams gerenciados está disponível nos seguintes países e regiões. 
 
+- Andorra
 - Austrália
 - Áustria
 - Bélgica
-- Canadá (excluindo Quebec)
+- Ilha Bouvet
+- Brasil
+- Bulgária
+- Canadá
+- Ilha Christmas
+- Ilhas Cocos (Keeling)
+- Ilhas Cook
+- Croácia
+- Chipre
+- República Tcheca
 - Dinamarca
-- Finlândia
+- Estônia
+- Ilhas Faroe
+- Fiji
+- França
 - Alemanha
+- Gibraltar
 - Grécia
+- Groenlândia
+- Ilha Heard e Ilhas McDonald
+- RAE de Hong Kong
+- Hungria
+- Islândia
+- Índia
 - Irlanda
 - Itália
+- Japão
+- Kiribati
+- Letônia
+- Lesoto
+- Liechtenstein
+- Lituânia
 - Luxemburgo
+- Rae de Macau
+- Malta
+- Ilhas Marshall
+- México
+- Micronésia
 - Mônaco
+- Nauru
 - Países Baixos
 - Nova Zelândia
+- Niue
+- Ilha Norfolk
+- Ilhas Marianas do Norte
 - Noruega
+- Palau
+- Papua Nova Guiné
+- Ilhas Pitcairn
+- Polônia
 - Portugal
+- Romênia
+- Rússia
+- São Pedro e Miquelon
+- Ocidental
+- San Marino
+- Singapura
+- Eslováquia
+- Eslovênia
+- Ilhas Salomão
+- África do Sul
 - Espanha
+- Suazilândia
 - Suécia
 - Suíça
+- Taiwan
+- Toquelau
+- Tonga
+- Tuvalu
 - Reino Unido
 - Estados Unidos
+- Vanuatu
+- Cidade do Vaticano
+- Ilhas Wallis e Futuna
 
 ## <a name="support-inclusions-and-exclusions"></a>Suporte a inclusões e exclusões
 
