@@ -21,12 +21,12 @@ ms.custom:
 - Reporting
 - seo-marvel-apr2020
 description: Saiba como carregar locatários e compilar dados no painel de qualidade de chamada (CQD).
-ms.openlocfilehash: a7f8b4a8d84429b752692cf05013dfba7321fd5e
-ms.sourcegitcommit: fdef9b52247097e5cae64f01b6b2b710c5b203cf
+ms.openlocfilehash: 7a1f6de78e01a8988317aa99aae917aa0018e19a
+ms.sourcegitcommit: 7e673b88346e07f7c777710437b19d257ccecb1b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/20/2021
-ms.locfileid: "49909345"
+ms.lasthandoff: 02/01/2021
+ms.locfileid: "50067136"
 ---
 # <a name="upload-tenant-and-building-data-in-call-quality-dashboard-cqd"></a>Carregar o locatário e compilar dados no painel de qualidade de chamada (CQD)
 
@@ -71,6 +71,8 @@ O primeiro tipo de arquivo de dados locatário no CQD é o arquivo de dados de *
 
 - Se uma coluna usa o tipo de dados de cadeia de caracteres, um campo de dados pode estar vazio, mas ainda deve ser separado por uma Tabulação ou vírgula. Um campo de dados vazio apenas atribui um valor de cadeia de caracteres vazia.
 
+- Há um 1 milhão limite de linha expandida por arquivo de dados de locatário.
+
 - Deve haver 15 colunas para cada linha, cada coluna deve ter o tipo de dados apropriado, e as colunas devem estar na ordem listada na tabela a seguir (vírgula ou delimitada por tabulação):
 
   **Criando um formato de arquivo de dados**
@@ -106,7 +108,7 @@ O primeiro tipo de arquivo de dados locatário no CQD é o arquivo de dados de *
 > [!IMPORTANT]
 > O intervalo de rede pode ser usado para representar um Supernet (combinação de várias sub-redes com um único prefixo de roteamento). Todos os novos carregamentos de construção serão verificados em busca de intervalos sobrepostos. Se você já carregou um arquivo de construção, baixe o arquivo atual e carregue-o novamente para identificar se há sobreposições e corrigir o problema antes de carregá-lo novamente. Qualquer sobreposição em arquivos carregados anteriormente pode resultar em mapeamentos errados de sub-redes para prédios nos relatórios. Algumas implementações de VPN não reportam precisamente as informações de sub-rede. 
 >
-> A coluna VPN é opcional e será definida como padrão 0. Se o valor da coluna VPN estiver definido como 1, a sub-rede representada por essa linha será totalmente expandida para corresponder a todos os endereços IP dentro da sub-rede.  Use isso de maneira moderada e somente para sub-redes VPN, já que expandir totalmente essas sub-redes terá um impacto negativo nos tempos de consulta para consultas que envolvem a construção de dados.
+> A coluna VPN é opcional e será definida como padrão 0. Se o valor da coluna VPN estiver definido como 1, a sub-rede representada por essa linha será totalmente expandida para corresponder a todos os endereços IP dentro da sub-rede. Use isso de maneira moderada e somente para sub-redes VPN, já que expandir totalmente essas sub-redes terá um impacto negativo nos tempos de consulta para consultas que envolvem a construção de dados. Se a expansão da sub-rede resultar no limite de linha de expansão de 1 milhão sendo excedido, o arquivo de construção não será aceito.
 
 
 ### <a name="supernetting"></a>Combinação de sub-redes

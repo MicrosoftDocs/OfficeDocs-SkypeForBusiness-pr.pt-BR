@@ -3,6 +3,43 @@
 
 
 
+## <a name="week-of-january-25-2021"></a>Semana de 25 de janeiro de 2021
+
+
+| Publicado em |Título do tópico | Alteração |
+|------|------------|--------|
+| 1/25/2021 | [Criar uma equipe englobando toda a organização no Microsoft Teams](/MicrosoftTeams/create-an-org-wide-team) | modificado |
+| 1/25/2021 | [Limites e especificações para o Microsoft Teams](/MicrosoftTeams/limits-specifications-teams) | modificado |
+| 1/25/2021 | [Gerenciar políticas de chamadas de emergência no Microsoft Teams](/MicrosoftTeams/manage-emergency-calling-policies) | modificado |
+| 1/25/2021 | [Visão geral da segurança e conformidade](/MicrosoftTeams/security-compliance-overview) | modificado |
+| 1/25/2021 | [Workshop de atualização de equipe do Teams](/MicrosoftTeams/upgrade-workshops-landing-page) | modificado |
+| 1/25/2021 | [Usar o OneDrive for Business e o SharePoint para gravações de reunião](/MicrosoftTeams/tmr-meeting-recording-change) | modificado |
+| 1/25/2021 | [Usar a pesquisa de conteúdo no Microsoft Teams](/MicrosoftTeams/content-search) | modificado |
+| 1/25/2021 | [Conduzir uma investigação de conteúdo de descoberta eletrônica do conteúdo](/MicrosoftTeams/ediscovery-investigation) | modificado |
+| 1/25/2021 | [Colocar um usuário ou uma equipe do Microsoft Teams em retenção legal](/MicrosoftTeams/legal-hold) | modificado |
+| 1/26/2021 | [Sincronizar dados do SIS (Sistema de Informações do Aluno) com o Education Insights](/MicrosoftTeams/education-insights-sis-data-sync) | adicionado |
+| 1/26/2021 | [Requisitos das Salas Microsoft Teams](/MicrosoftTeams/rooms/requirements) | modificado |
+| 1/26/2021 | [Dimensões e medições-painel de qualidade de chamada (CQD)](/MicrosoftTeams/dimensions-and-measures-available-in-call-quality-dashboard) | modificado |
+| 1/26/2021 | [Controladores de borda de sessão certificados para roteamento direto](/MicrosoftTeams/direct-routing-border-controllers) | modificado |
+| 1/27/2021 | [Complemento avançado de comunicação do Microsoft Teams](/MicrosoftTeams/teams-add-on-licensing/advanced-communications) | modificado |
+| 1/27/2021 | [Licenças de Complementos do Microsoft Teams](/MicrosoftTeams/teams-add-on-licensing/microsoft-teams-add-on-licensing) | modificado |
+| 1/27/2021 | [Dimensões e medições-painel de qualidade de chamada (CQD)](/MicrosoftTeams/dimensions-and-measures-available-in-call-quality-dashboard) | modificado |
+| 1/27/2021 | [Planejar o Grupos do Microsoft 365 quando criar equipes](/MicrosoftTeams/plan-office-365-groups) | modificado |
+| 1/27/2021 | [Telefones e dispositivos do Microsoft Teams](/MicrosoftTeams/devices/usb-devices) | modificado |
+| 1/28/2021 | [Usar o suplemento de Reunião do Microsoft Teams no Outlook](/MicrosoftTeams/teams-add-in-for-outlook) | modificado |
+| 1/28/2021 | [Gerenciar o aplicativo elogio no centro de administração do teams](/MicrosoftTeams/manage-praise-app) | modificado |
+| 1/28/2021 | [Visualização pública no Microsoft Teams](/MicrosoftTeams/public-preview-doc-updates) | modificado |
+| 1/28/2021 | [Serviço gerenciado de salas do Microsoft Teams](/MicrosoftTeams/rooms/microsoft-teams-rooms-premium) | modificado |
+| 1/28/2021 | [Usar a API de envio de aplicativo Teams para enviar e aprovar seus aplicativos personalizados](/MicrosoftTeams/submit-approve-custom-apps) | modificado |
+| 1/29/2021 | [Gravação de reuniões na nuvem do Microsoft Teams](/MicrosoftTeams/cloud-recording) | modificado |
+| 1/29/2021 | [Controladores de borda de sessão certificados para roteamento direto](/MicrosoftTeams/direct-routing-border-controllers) | modificado |
+| 1/29/2021 | [Teams para visitas virtuais](/MicrosoftTeams/expand-teams-across-your-org/healthcare/ehr-admin) | modificado |
+| 1/29/2021 | [Gerenciar o acesso externo (Federação)](/MicrosoftTeams/manage-external-access) | modificado |
+| 1/29/2021 | [Experiência de chat nativo para usuários externos (federados) no Microsoft Teams](/MicrosoftTeams/native-chat-for-external-users) | modificado |
+| 1/29/2021 | [Problemas conhecidos](/MicrosoftTeams/rooms/known-issues) | modificado |
+| 1/29/2021 | [Teams e interoperabilidade do Skype](/MicrosoftTeams/teams-skype-interop) | modificado |
+
+
 ## <a name="week-of-january-18-2021"></a>Semana de 18 de janeiro de 2021
 
 

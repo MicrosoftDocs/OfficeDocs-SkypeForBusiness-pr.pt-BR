@@ -16,16 +16,52 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Notas de versão para recursos de administração do Microsoft Teams.
-ms.openlocfilehash: e2b21a7f96162493fbee7b37ec2dcd57ac8c3a1f
-ms.sourcegitcommit: fdef9b52247097e5cae64f01b6b2b710c5b203cf
+ms.openlocfilehash: 3dd48c9f2da10d4238d05d9de610867b5d94b873
+ms.sourcegitcommit: 3500faff11f76fdff7c645931e6704f2d33f36a3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/20/2021
-ms.locfileid: "49909375"
+ms.lasthandoff: 02/02/2021
+ms.locfileid: "50070926"
 ---
 # <a name="release-notes-for-microsoft-teams-admin-features"></a>Notas de versão para recursos de administração do Microsoft Teams
 
 Estas notas de versão fornecem informações sobre novos recursos de administração do Microsoft Teams.
+
+## <a name="january-27-2021"></a>27 de janeiro de 2021
+
+### <a name="virtual-visits-with-teams---integration-into-ehr"></a>Visitas virtuais com o Teams-integração ao EHR
+
+Atualizamos a interface do conector EHR (Microsoft Teams Electronic Health Record) e o conector que torna mais fácil para os clínicos iniciar uma visita ou consultoria virtual de pacientes com outro provedor no Teams diretamente do sistema EHR. [Saiba mais](https://docs.microsoft.com/microsoftteams/expand-teams-across-your-org/healthcare/ehr-admin).
+
+## <a name="january-22-2021"></a>22 de janeiro de 2021
+
+### <a name="firstline-workers-are-now-called-frontline-workers"></a>Os primeiros trabalhadores agora são chamados de Frontline funcionários
+
+Alteramos o título dos funcionários iniciantes para trabalhadores do Frontline.
+
+## <a name="january-21-2021"></a>21 de janeiro de 2021
+
+### <a name="offline-documentation"></a>Documentação offline
+
+O Microsoft Teams continua em execução mesmo quando você estiver offline ou em condições de pouca largura de banda. O Teams salva todas as suas mensagens não enviadas para chats existentes (até 24 horas) e as envia assim que você estiver online novamente. [Saiba mais](https://docs.microsoft.com/MicrosoftTeams/connectivity-issues).
+
+## <a name="january-19-2021"></a>19 de janeiro de 2021
+
+### <a name="teams-approvals-app-availability"></a>Aprovação do aplicativo aprovações de equipe
+
+O aplicativo aprovações está disponível como um aplicativo pessoal para todos os usuários do Microsoft Teams. O aplicativo aprovações fornece uma maneira simples de trazer auditoria, conformidade, responsabilidade e fluxos de trabalho para aprovações estruturadas e não estruturadas no Teams. [Saiba mais](https://docs.microsoft.com/MicrosoftTeams/approval-admin).
+
+## <a name="january-15-2021"></a>15 de janeiro de 2021
+
+### <a name="set-up-microsoft-teams-meeting-add-on-for-google-workspace"></a>Configurar o complemento de reunião do Microsoft Teams para o Google Workspace
+
+O suplemento de reunião do Microsoft Teams para Google Workspace deve ser habilitado por um administrador de equipe antes que os usuários do locatário possam acessar o aplicativo. [Saiba mais](https://docs.microsoft.com/microsoftteams/google-workspace-addon-teams).
+
+## <a name="january-4-2021"></a>4 de janeiro de 2021
+
+### <a name="calendar-sharing"></a>Compartilhamento de calendário
+
+Adicionamos a capacidade de adicionar um canal a uma guia de calendário.
 
 ## <a name="december-21-2020"></a>21 de dezembro de 2020
 
