@@ -17,12 +17,12 @@ description: Os conectores mantêm a sua equipe atualizada ao entregar conteúdo
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 3b7847ce2aba9a155622e83a6c0449cc1b6b1a39
-ms.sourcegitcommit: fb4edc26c566228d74c10cb51a063b5fdc7e11a1
+ms.openlocfilehash: 908469913944aea2a27feb8a35b0e5e5620aae3f
+ms.sourcegitcommit: 44de1da5617f57f8c37780ad3451c0128f60b1f8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48177211"
+ms.lasthandoff: 02/02/2021
+ms.locfileid: "50076413"
 ---
 <a name="use-microsoft-365-and-custom-connectors-in-microsoft-teams"></a>Usar o Microsoft 365 e conectores personalizados no Microsoft Teams
 =======================================================
@@ -57,6 +57,20 @@ No momento, você pode adicionar conectores usando clientes da Web e de área de
 
     > [!div class="mx-imgBorder"]
     > ![Captura de tela da interface do Teams mostrando uma conversa em um canal.](media/Use_Office_365_and_custom_connectors_in_Microsoft_Teams_image4.png)
+
+<!---Delete this section after customer migration to new Webhook URL is complete--->
+> [!IMPORTANT]
+> **Notificação de atualização de URL do conector**
+>
+> Os conectores do teams estão migrando para uma nova URL para melhorar a segurança. Durante o curso dessa transição, você receberá determinadas notificações para atualizar seu conector configurado para usar a nova URL. É altamente recomendável que você atualize seu conector imediatamente para evitar qualquer interrupção nos serviços de conector. As etapas a seguir devem ser seguidas para atualizar a URL:
+> 1. Na página de configuração de conectores, será exibida uma mensagem de "atenção necessária" no botão "gerenciar" das conexões que precisam ser atualizadas.
+> ![Captura de tela da mensagem "atenção necessária".](media/Teams_Attention_Required_message.png)
+> 2. Para conectores de webhook de entrada, os usuários podem recriar a conexão simplesmente selecionando **Atualizar URL** e usando a URL do webhook recém gerada.
+> ![Captura de tela do botão "atualizar URL".](media/Teams_update_URL_button.png)
+> 3. Para outros tipos de conector, o usuário precisaria remover o conector e recriar a configuração do conector.
+> 4. Você verá uma mensagem "URL está atualizada" depois que a URL for atualizada com êxito.
+> ![Captura de tela da mensagem "URL atualizada".](media/Teams_URL_up_to_date.png)
+
 
 <a name="develop-custom-connectors"></a>Desenvolvimento de conectores personalizados
 ----------------------------

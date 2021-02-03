@@ -13,12 +13,12 @@ f1.keywords:
 description: Uma visão geral da solução integrada do centro de contatos como serviço (CCaaS) para o Microsoft Teams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d34a1790a082e1defab399828cceb5c0082dc70d
-ms.sourcegitcommit: fdef9b52247097e5cae64f01b6b2b710c5b203cf
+ms.openlocfilehash: 0913bef8a77e66ae3b82905a8d154940f32c2392
+ms.sourcegitcommit: de7d0807186a64dfe1cca15d34c39bdbad6af836
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/20/2021
-ms.locfileid: "49909485"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "50084744"
 ---
 # <a name="contact-center-integrations-for-microsoft-teams"></a>Integrações do centro de contato do Microsoft Teams
 
@@ -62,29 +62,9 @@ Os parceiros a seguir estão no processo de certificação da solução para o M
 
 Esta lista será atualizada à medida que mais parceiros entrarem e atenderem aos critérios de certificação.
 
-## <a name="how-do-contact-center-solutions-work-in-microsoft-teams"></a>Como as soluções do centro de contato funcionam no Microsoft Teams?
-
-O Microsoft Teams oferece uma gama de recursos para dar suporte ao desenvolvimento de soluções de voz de terceiros, incluindo:
-
-1. [Conectividade de roteamento direto](https://docs.microsoft.com/MicrosoftTeams/direct-routing-landing-page)
-
-2. [APIs de comunicação na nuvem do Microsoft Graph](https://docs.microsoft.com/graph/cloud-communications-get-started)
-
-3. Plataforma e extensibilidade do teams
-
-4. SDKs do Microsoft Teams
-
-Juntos, esses recursos permitem três modelos de integração:
-
-  - **Conectar** (via roteamento direto)
-
-  - **Conectar e estender** (direcionamento direto, APIs de gráfico e plataforma de aplicativos do Teams)
-
-  - **Estender e poder** (inserir SDKs do teams em aplicativos do 3P para interações de equipes nativas)
-
 ### <a name="connect"></a>Conectado
 
-Esse modelo conecta CCaaS parceiros à infra-estrutura do sistema telefônico do Microsoft Teams, permitindo roteamento avançado, configuração e informações do sistema. Nesse modelo, a solução de parceiro da central de contatos também pode fornecer serviços de telefonia para números e usuários selecionados.
+Esse modelo conecta CCaaS parceiros à infra-estrutura do sistema telefônico do Microsoft Teams, permitindo roteamento avançado, configuração e informações do sistema. 
 
 Os agentes que usam soluções criadas no modelo de conexão podem coletar informações & ideias e, se necessário, transferir chamadas diretamente para especialistas do assunto, usando a presença do SME no Teams para garantir a disponibilidade.
 
@@ -98,15 +78,13 @@ Embora a seguinte não seja uma lista abrangente de recursos de recursos para es
 
   - Indicação de presença de usuários do teams 
 
-  - Fluxos de chamadas via roteamento direto (conforme indicado em planos de teste) 
-
   - Suporte a transferências e chamadas em grupo com usuários do teams 
 
   - APIs do teams Graph e APIs de comunicação na nuvem para integração com o Microsoft Teams 
 
   - Capaz de dar suporte ao entroncamento SIP multilocatário para dar suporte a vários clientes no SBC do parceiro.  
 
-  - Parceiros para implementar [ <span class="underline">o Microsoft Certified Session Border Controller (SBC)</span>](https://docs.microsoft.com/MicrosoftTeams/direct-routing-border-controllers) 
+  - Parceiros usem [ <span class="underline">o Microsoft Certified Session Border Controller (SBC)</span>](https://docs.microsoft.com/MicrosoftTeams/direct-routing-border-controllers) 
 
 ### <a name="connect-and-extend"></a>Conectar e estender
 
