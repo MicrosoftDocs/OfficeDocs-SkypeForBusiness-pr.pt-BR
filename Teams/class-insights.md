@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cd60e20d4218c9deaca84974b890280f942fe1be
-ms.sourcegitcommit: 086d27c9381fc1f1c6523d4c48dea275dea917b7
+ms.openlocfilehash: 89e98c53a3005cb503b98d44db761e620bcf49da
+ms.sourcegitcommit: 7e673b88346e07f7c777710437b19d257ccecb1b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/26/2021
-ms.locfileid: "49986387"
+ms.lasthandoff: 02/01/2021
+ms.locfileid: "50067126"
 ---
 # <a name="it-admin-guide-to-education-insights-in-microsoft-teams"></a>Guia para o Administrador de TI sobre o Insights no Microsoft Teams para Educação
 
@@ -174,7 +174,7 @@ Para fornecer o Insights no nível da organização, devemos usar o [School Data
 
 A visualização do Insights no nível de classe como o educador de classe *não* requer isto porque usamos as permissões e a estrutura de classe do Teams.
 
-Para saber mais, leia [Dados do Sistema de Informações do Aluno (SIS) com o Insights para Educação](education-insights-sis-data-sync.md).
+Para saber mais, leia [**Sincronizar dados do Sistema de Informações do Aluno (SIS) com Insights para Educação**](education-insights-sis-data-sync.md).
 
 ## <a name="manage-permissions"></a>Gerenciar permissões
 Você precisa fornecer permissões para gestores escolares, inspetores, diretores de escola, professores-gestores, conselheiros, coordenadores pedagógicos, diretores de programas, assistentes sociais e psicólogos. Os educadores automaticamente recebem permissão quando possuem uma equipe de classe.
@@ -208,19 +208,51 @@ O material para **gestores escolares** será publicado em breve.
 ## <a name="turn-insights-off-or-on"></a>Ativar ou desativar o Insights
 Por padrão, o Insights está ativado. Quando você optar por não participar, *apagamos todos os dados coletados* para o Insights. Ative novamente o Insights e começamos a coletar dados a partir do momento em que ele é reativado.
 
-### <a name="turn-insights-off-using-school-data-sync-sds"></a>Desative o Insights usando o School Data Sync (SDS)
+### <a name="turn-off-insights-using-school-data-sync-sds"></a>Desativar o Insights usando o School Data Sync (SDS)
 O School Data Sync (SDS) ajuda a automatizar a importação e sincronização de dados do Sistema de Informações do Aluno (SIS) com o Teams.
 
-A utilização do Insights *não* requer o uso do SDS. No entanto, você pode optar por não participar do Insights a qualquer momento. Abra o Centro de Administração do SDS e vá para **Configurações** > **Gerenciar o Insights para Educação**. Desativar '**Coletar dados para o Insights**' para desabilitar o Insights. 
+A utilização do Insights *não* requer o uso do SDS. No entanto, você pode optar por não participar do Insights a qualquer momento. Abra o [Centro de Administração do SDS](https://sds.microsoft.com) e vá para **Configurações** > **Gerenciar Insights para Educação**. Desativar '**Coletar dados para o Insights**' para desabilitar o Insights. 
 
 :::image type="content" source="media/insights-sds-settings.png" alt-text="A opção liga/desliga para ativar ou desativar o Insights.":::
 
-### <a name="turn-insights-on"></a>Ativar o Insights
-Se você desativou o Insights, você pode ativá-lo rapidamente. Abra o Centro de Administração do SDS e vá para **Configurações** > **Gerenciar o Insights para Educação**. Ativar '**Coletar dados para o Insights**' para habilitar o Insights.
+### <a name="turn-on-insights"></a>Ativar o Insights
+Se você desativou o Insights, você pode ativá-lo rapidamente. Abra o [Centro de Administração do SDS](https://sds.microsoft.com) e vá para **Configurações** > **Gerenciar Insights para Educação**. Ativar '**Coletar dados para o Insights**' para habilitar o Insights.
 
 ### <a name="how-to-delete-your-data"></a>Como excluir seus dados
-O Insights armazena as ações de alunos e educadores realizadas no contexto de uma equipe de classe. Esses dados são considerados um conjunto de dados combinados e, portanto, não são excluídos automaticamente do serviço depois que as contas de usuário de aluno ou educador são excluídas da sua organização.
+O Insights armazena as ações de alunos e educadores realizadas no contexto de uma equipe de classe. Esses dados são considerados um conjunto de dados combinados e, portanto, não são excluídos automaticamente do serviço depois que as contas de usuários dos alunos ou educadores são excluídas da sua organização.
 Nota: A exclusão de dados prejudica a capacidade do Insights de analisar o envolvimento da equipe de classe ao longo do tempo.
-* [Criar um tíquete de suporte](https://edusupport.microsoft.com/support). O tíquete de suporte deve declarar claramente a solicitação de uma operação GDPR Delete DSR e conter a ID de objeto de usuário a ser excluída. Não é possível limitar o conjunto de dados ou a janela de tempo da exclusão.
+* [Criar um tíquete de suporte](https://aka.ms/edusupport). O tíquete de suporte deve declarar claramente a solicitação de uma operação GDPR Delete DSR e conter a ID de objeto de usuário a ser excluída. Não é possível limitar o conjunto de dados ou a janela de tempo da exclusão.
 *   Uma vez arquivado, o tíquete de suporte aguarda na fila por uma semana para atender à política de retenção mínima de conformidade. Você tem a oportunidade de cancelar a operação durante esse período.
 *   Após uma semana, a equipe do Insights para Educação assegura que todos os dados relacionados à ID do usuário sejam excluídos do serviço. O suporte da Microsoft monitora o tíquete e o notificará assim que o processo de exclusão estiver concluído, no máximo em 28 dias.
+
+## <a name="troubleshooting"></a>Solução de problemas
+### <a name="why-doesnt-my-institution-see-any-data-in-insights"></a>Por que minha instituição não vê nenhum dado no Insights?
+Se for um *novo* locatário e você *nunca* viu dados no Insights, verifique se o seu locatário foi **verificado como um locatário educacional** para acessar o Insights. Entre em contato com seu gerente da conta Microsoft e peça-lhe para verificar se o locatário está configurado corretamente.
+
+Se você não tem um gerente de conta, abra um tíquete. Vá para o [Centro de administração do Office 365](https://admin.microsoft.com/AdminPortal/) > **Suporte** > **Nova Solicitação de Serviço**.  No título do tíquete, escreva: "Preciso de ajuda com a verificação educacional".
+ 
+Além disso, verifique se a coleta de dados para Insights está ativada. Embora esteja ativado por padrão, o administrador de TI pode tê-lo desativado e, portanto, excluído todos os dados mantidos pelo Insights.
+
+Para verificar isso, abra o [Centro de Administração do SDS](https://sds.microsoft.com) e vá para **Configurações** > **Gerenciar Insights para Educação**. Verifique o status de 'Coletar dados para insights'.
+
+Se estiver desligado, ligue-o novamente.  O Insights começa a coletar dados, mas pode levar até 24 horas para vê-los nos relatórios. 
+
+
+### <a name="why-do-i-see-data-for-some-students-or-classes-not-all"></a>Por que vejo os dados de alguns alunos ou turmas, mas não de todos?
+Coletamos dados apenas de alunos *licenciados*, então o motivo mais provável é que você tenha alunos convidados participando das aulas e os dados deles não são coletados. Você pode ver o nome deles, mas sem quaisquer dados.
+
+Verifique o status dos seus alunos para garantir que todos tenham licenças de estudante. 
+
+### <a name="why-dont-educators-see-meeting-data"></a>Por que os educadores não conseguem ver os dados da reunião?
+Demora até 24 horas para ver os dados da reunião nos relatórios do Insights. Portanto, verifique se passou tempo suficiente.
+
+Além disso, verifique se os alunos *não* [participaram da reunião de classe sem uma conta do Teams ](https://support.microsoft.com/office/c6efc38f-4e03-4e79-b28f-e65a4c039508). Em tal cenário, a atividade do aluno não é coletada.
+
+> [!TIP]
+> Para os educadores que desejam rastrear a frequência dos alunos, você pode recomendar o envio de uma mensagem durante a reunião pedindo aos alunos que respondam. Isso registra sua presença em poucos minutos.
+
+> [!NOTE]
+> Se a sua pergunta ainda não foi respondida, [abra um tíquete de suporte](https://aka.ms/edusupport). Inclua as capturas de tela relevantes que representam o problema e a data em que ocorreu. Adicione quaisquer novos dados que você acha que podem nos ajudar a resolver o problema.
+
+
+
