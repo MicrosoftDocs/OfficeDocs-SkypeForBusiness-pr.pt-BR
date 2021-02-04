@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 description: O administrador pode ler as notas de versão para salas do Microsoft Teams, que lista melhorias cumulativas nas salas do Microsoft Teams.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: c8efc437b36748768807a11d392bddcd41b0eb12
-ms.sourcegitcommit: 413aa915f74b997358b54f39842b60fe757094f3
+ms.openlocfilehash: 8c88912330fd8bed6beaa4b55c4747785feb7b4e
+ms.sourcegitcommit: 4bf85d91befb56566130731198518c103a53ebc4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "49670745"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "50101319"
 ---
 # <a name="release-notes"></a>Notas de versão
 
@@ -29,6 +29,7 @@ Este artigo discute melhorias cumulativas nas salas do Microsoft Teams.
 
 |Liberação |Publicado em <br/> Microsoft Store |
 |--- |--- |
+|4.7.19.0 |02/03/2021 |
 |4.7.15.0 |12/11/2020 |
 |4.6.23.0 |10/19/2020 |
 |4.6.20.0 |09/30/2020 |
@@ -69,6 +70,11 @@ Este artigo discute melhorias cumulativas nas salas do Microsoft Teams.
 |RTM (1.0.8) |12/7/2016 |
 
 ## <a name="microsoft-teams-rooms-feature-introduction-and-issue-resolution"></a>Introdução ao recurso salas do Microsoft Teams e resolução de problemas
+
+### <a name="47190-02032021"></a>4.7.19.0 (02/03/2021)
+
+Apresentado nesta atualização:
+- Correções de qualidade e confiabilidade
 
 ### <a name="47150-12112020"></a>4.7.15.0 (12/11/2020)
 

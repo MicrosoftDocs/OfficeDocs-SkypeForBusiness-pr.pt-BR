@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: Saiba como configurar e conectar seu SBC ao encaminhamento direto do sistema telefônico.
-ms.openlocfilehash: 900c8c50f60842465ae6a636d5953be81c83af84
-ms.sourcegitcommit: c8b5d4dd70d183f7ca480fb735a19290a3457b30
+ms.openlocfilehash: e20ab921e8f01d8beea15f0b1dd8a50e229f4e91
+ms.sourcegitcommit: 5c33ca450a3215b9bf3c5da8bb3c9ef1a715a1a2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/08/2020
-ms.locfileid: "45077616"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "50099441"
 ---
 # <a name="connect-your-session-border-controller-sbc-to-direct-routing"></a>Conectar o seu controlador de borda de sessão (SBC) ao roteamento direto
 
@@ -38,16 +38,16 @@ Você pode usar o [centro de administração do Microsoft Teams](#using-the-micr
 
 ## <a name="using-the-microsoft-teams-admin-center"></a>Usando o centro de administração do Microsoft Teams
 
-1. No painel de navegação esquerdo, vá **Voice**para  >  **Roteamento direto**de voz e clique na guia **SBCS** .
+1. No painel de navegação esquerdo, vá para  >  **Roteamento direto** de voz e clique na guia **SBCS** .
 2. Clique em **Adicionar**.
-3. Digite um FQDN para o SBC. <br><br>Verifique se a parte do nome do domínio do FQDN corresponde a um domínio registrado em seu locatário e lembre-se de que o nome de `*.onmicrosoft.com` domínio não tem suporte para o nome de domínio do FQDN do SBC. Por exemplo, se você tiver dois nomes de domínio `contoso.com` e `contoso.onmicrosoft.com` usar `sbc.contoso.com` como o nome SBC.
+3. Digite um FQDN para o SBC. <br><br>Verifique se a parte do nome do domínio do FQDN corresponde a um domínio registrado em seu locatário e lembre-se de que o nome de `*.onmicrosoft.com` domínio não tem suporte para o nome de domínio do FQDN do SBC. Por exemplo, se você tiver dois nomes de domínio `contoso.com` e `contoso.onmicrosoft.com` usar `sbc.contoso.com` como o nome SBC. Se estiver usando um subdomínio, certifique-se de que esse subdomínio também esteja registrado em seu locatário. Por exemplo, se você quiser usar `sbc.service.contoso.com` , `service.contoso.com` será necessário registrá-lo.
 4. Defina as configurações a seguir para o SBC, com base nas necessidades da sua organização. Para obter detalhes sobre cada uma dessas configurações, consulte [configurações de SBC](#sbc-settings).
 
     ![Captura de tela da página Adicionar SBC no centro de administração do Microsoft Teams](media/direct-routing-add-sbc.png)
 
 5. Quando terminar, clique em **Salvar**.
 
-## <a name="using-powershell"></a>Usando o PowerShell
+## <a name="using-powershell"></a>Usando o Windows PowerShell
 
 Para conectar o SBC ao encaminhamento direto, você precisará:
 
