@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: Saiba como configurar um SBC (controlador de borda de sessão) para atender a vários locatários para parceiros da Microsoft e/ou operadoras PSTN.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 343e2d1aedefd34de452df8da6ce9a5ad1a726ba
-ms.sourcegitcommit: b12ec4703b164c545d17b02815edd6ee28d40bed
+ms.openlocfilehash: b81709b46774762036ba9465444d066a0adf019c
+ms.sourcegitcommit: ac73536f790f83a61eeb2eb8c6b71662f7bd26fc
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49923843"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "50110234"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>Configurar um controlador de borda da sessão para vários locatários
 
@@ -137,10 +137,10 @@ Para obter mais informações sobre funções de administrador e como atribuir u
 
 ### <a name="activate-the-domain-name"></a>Ativar o nome de domínio
 
-Depois de registrar um nome de domínio, você precisa ativá-lo adicionando pelo menos um usuário licenciado E1, E3 ou E5 e atribuindo um endereço SIP à parte FQDN do endereço SIP correspondente ao domínio base criado. A licença pode ser revogada após a ativação do domínio (pode levar até 24 horas).
+Depois de registrar um nome de domínio, você precisa ativá-lo adicionando pelo menos um usuário com licença do sistema de telefonia e atribuindo um endereço SIP à parte FQDN do endereço SIP correspondente ao domínio base criado. A licença pode ser revogada após a ativação do domínio (pode levar até 24 horas).
 
 > [!NOTE]
-> O locatário da operadora deve manter pelo menos uma licença de negócios E1/E3/E5/M365 atribuída ao locatário para evitar a remoção da configuração do Skype for Business. 
+> O locatário da operadora deve manter pelo menos uma licença do sistema telefônico atribuída ao locatário para evitar a remoção da configuração do Skype for Business. 
 
 *Consulte [obter ajuda com os domínios do microsoft 365 ou do office 365](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef) para obter mais informações sobre como adicionar usuários nas organizações do Microsoft 365 ou do Office 365.*
 

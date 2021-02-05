@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: Veja a seguir algumas das principais perguntas que obtemos de nossos clientes que desejam usar a conferência de áudio.
-ms.openlocfilehash: ff6b7d195c2ecd47eb47a924129422a2154f70c4
-ms.sourcegitcommit: 26dc4ca6aacf4634b1dbe1bfbd97aa17f8cb7dd5
+ms.openlocfilehash: 7bc540969222badd245180361405c58ed0ebf9b1
+ms.sourcegitcommit: ac73536f790f83a61eeb2eb8c6b71662f7bd26fc
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48235799"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "50110264"
 ---
 # <a name="audio-conferencing-common-questions"></a>Perguntas comuns sobre a Audioconferência
 
@@ -123,7 +123,7 @@ Estamos trabalhando em uma solução para permitir que o usuário acesse e redef
 Os usuários do Skype for Business ou do Microsoft Teams podem encontrar o PIN em um email que será enviado a ele assim que eles estiverem configurados.
   
 > [!NOTE]
-> Um usuário do Skype for Business ou do Microsoft Teams não poderá redefinir o PIN. O PIN só pode ser redefinido por você, o administrador. Quando um PIN é redefinido, um email é enviado para o usuário. 
+> Os usuários do teams podem alterar seu PIN. Há um link na parte inferior do convite para reunião para redefinir o PIN. 
   
 Estamos trabalhando em uma solução para permitir que o usuário acesse e Redefina um PIN sem a ajuda do administrador da organização.
   

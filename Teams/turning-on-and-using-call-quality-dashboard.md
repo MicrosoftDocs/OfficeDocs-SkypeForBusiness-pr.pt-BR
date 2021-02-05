@@ -23,12 +23,12 @@ ms.custom:
 - ms.lync.lac.ToolsCallQualityDashboard
 - seo-marvel-apr2020
 description: Saiba mais sobre como ativar e usar o painel de qualidade de chamada e obter relatórios resumidos de qualidade das chamadas.
-ms.openlocfilehash: 9a864b0ad0f48e3a0bd8665b8dfeb917e67f4062
-ms.sourcegitcommit: ee217e1d7188842c7becd19387fd421b485c3575
+ms.openlocfilehash: 60363ed86e4e073b7ca5a752261ac806188900b1
+ms.sourcegitcommit: ac73536f790f83a61eeb2eb8c6b71662f7bd26fc
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "48918659"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "50112841"
 ---
 # <a name="set-up-call-quality-dashboard-cqd"></a>Configurar o painel de qualidade da chamada (CQD)
 
@@ -53,16 +53,16 @@ Se quiser que usuários não administradores (como engenheiros de suporte e agen
 
 |  |Exibir relatórios  |Exibir campos EUII  |Criar relatórios  |Carregar dados de construção  |
 |---------|:-------:|:-------:|:-------:|:-------:|
-|Administrador global do Office 365     |Sim         |Sim         |Sim         |Sim         |
+|Administrador global     |Sim         |Sim         |Sim         |Sim         |
 |Administrador de Serviço do Teams     |Sim         |Sim         |Sim         |Sim         |
 |Administrador de Comunicações de Equipes     |Sim         |Sim         |Sim         |Sim         |
 |Engenheiro de Suporte de Comunicações de Equipes     |Sim         |Sim         |Sim         |Não         |
 |Especialista em suporte do teams Communications     |Sim         |Não         |Sim         |Não         |
 |Administrador do Skype for Business     |Sim         |Sim         |Sim         |Sim         |
-|Leitor global do Azure AD |Sim         |Sim         |Sim         |Não         |
-|Leitor de relatórios<sup>1</sup> do Office 365     |Sim         |Não         |Sim         |Não         |
+|Leitor global |Sim         |Sim         |Sim         |Não         |
+|Leitor de relatórios<sup>1</sup>     |Sim         |Não         |Sim         |Não         |
 
-<sup>1</sup> além de ler relatórios do CQD, o leitor de relatórios do Office 365 pode exibir todos os [relatórios de atividades](https://support.office.com/article/activity-reports-0d6dfb17-8582-4172-a9a9-aed798150263) no centro de administração e todos os relatórios do pacote de conteúdo de [adoção do Microsoft 365](https://support.office.com/article/Office-365-Adoption-content-pack-77ff780d-ab19-4553-adea-09cb65ad0f1f).
+<sup>1</sup> além de ler relatórios do CQD, o leitor de relatórios pode exibir todos os [relatórios de atividades](https://support.office.com/article/activity-reports-0d6dfb17-8582-4172-a9a9-aed798150263) no centro de administração e todos os relatórios do pacote de conteúdo de adoção do [365](https://support.office.com/article/Office-365-Adoption-content-pack-77ff780d-ab19-4553-adea-09cb65ad0f1f).
 
 > [!NOTE]
 > Se você não estiver vendo [EUII (informações identificáveis pelo usuário final)](CQD-data-and-reports.md#euii-data) e tiver uma das funções que tem permissão para ver essas informações, lembre-se de que CQD só mantém EUII por 28 dias. Qualquer item mais antigo que 28 dias é excluído.

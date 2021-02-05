@@ -21,12 +21,12 @@ ms.custom:
 - Reporting
 - seo-marvel-apr2020
 description: Leia perguntas frequentes (FAQ) e respostas sobre o Microsoft Teams Call Quality Dashboard (CQD).
-ms.openlocfilehash: 8ad0a1745799194ec11284f8f7aaabd76bd30d05
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: f622d197900faf632d94d659dae0a5b6eeaee2db
+ms.sourcegitcommit: ac73536f790f83a61eeb2eb8c6b71662f7bd26fc
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46584020"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "50110254"
 ---
 # <a name="call-quality-dashboard-cqd-frequently-asked-questions-faq"></a>Perguntas frequentes (FAQ) sobre o painel de qualidade de chamada (CQD)
 
@@ -34,13 +34,15 @@ ms.locfileid: "46584020"
 
 [Por que o CQD marca uma chamada como "boa" se um ou mais participantes da reunião tivessem uma experiência ruim?](#why-does-cqd-mark-a-call-as-good-if-one-or-more-meeting-participants-had-a-poor-experience)
 
-[Por que vejo até 0,2% diferença de valores de contagem de usuários e chamada em medidas e como obter os volumes mais precisos?](#why-do-i-see-up-to-02-difference-in-call-and-user-count-values-on-measures-and-how-to-get-most-accurate-volumes)
+[Por que vejo até 0,2% diferença de valores de contagem de usuários e chamada em medidas e como obter os volumes mais precisos? ](#why-do-i-see-up-to-02-difference-in-call-and-user-count-values-on-measures-and-how-to-get-most-accurate-volumes)
 
-[Por que os dados do CQD do Skype for Business são diferentes dos dados do CQD do teams?](#why-is-cqd-data-from-skype-for-business-different-than-cqd-data-from-teams)
+[Por que os dados do CQD do Skype for Business são diferentes dos dados do CQD do teams? ](#why-is-cqd-data-from-skype-for-business-different-than-cqd-data-from-teams)
 
 [Por que não consigo ver o EUII no CQD?](#why-cant-i-see-euii-in-cqd)
 
 [Por que estou vendo as informações do Skype for Business no CQD quando já filtro para o Microsoft Teams?](#why-am-i-seeing-skype-for-business-information-in-cqd-when-ive-filtered-for-teams-only)
+
+[Por que meus relatórios personalizados retornam apenas um máximo de 10.000 linhas quando sei que deve haver mais entradas?](#why-do-my-custom-reports-only-return-a-maximum-of-10000-rows-when-i-know-there-should-be-more-entries)
 
 ### <a name="why-does-cqd-mark-a-call-as-good-if-one-or-more-meeting-participants-had-a-poor-experience"></a>Por que o CQD marca uma chamada como "boa" se um ou mais participantes da reunião tivessem uma experiência ruim?
 
@@ -103,6 +105,9 @@ Por exemplo, espera-se que seus clientes vejam os fluxos de áudio do 200.000 co
 
 Para determinar se há diferenças inesperadas, você deve observar várias divisões dos dados gerais.  Comparar com objetivo.  A divisão dos dados pelo par de categorias de agente do usuário é uma das primeiras coisas que recomendamos.  O *primeiro produto* e o *segundo produto* também são bons slicers.  
 
+### <a name="why-do-my-custom-reports-only-return-a-maximum-of-10000-rows-when-i-know-there-should-be-more-entries"></a>Por que meus relatórios personalizados retornam apenas um máximo de 10.000 linhas quando sei que deve haver mais entradas?
+
+O CQD foi projetado para consultas de dados resumidas e não foi projetado para exportação de dados. Recomendamos reestruturar seus relatórios, quando possível, para evitar que o limite de linha do 10.000 seja excedido. Comece examinando seus KPIs usando dimensões mais amplas e inferiores de cardinalidade, como mês, ano, data, região, país etc. De lá, você pode fazer uma busca detalhada em dimensões de cardinalidade cada vez mais altos. Os relatórios do helpdesk e do Location-Enhanced fornecem bons exemplos de fluxo de trabalho de busca detalhada.
 
 ## <a name="related-topics"></a>Tópicos relacionados
 

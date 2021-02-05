@@ -30,18 +30,24 @@ f1.keywords:
 - CSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ed91a5bc6df8836e19f602facccce704cad65876
-ms.sourcegitcommit: 1e16c6c7112bdde03209c12468b5705ddd116a62
+ms.openlocfilehash: abb88c42de7858a80ade93953f08a168feb533e2
+ms.sourcegitcommit: ac73536f790f83a61eeb2eb8c6b71662f7bd26fc
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "49578174"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "50110314"
 ---
 # <a name="get-started-on-your-upgrade-from-skype-for-business-to-microsoft-teams"></a>Comece a usar a atualização do Skype for Business para o Microsoft Teams
 
 Parabéns pela atualização pendente do Skype for Business para o Microsoft Teams. Quer você esteja começando a usar o Teams, usando o Teams em conjunto com o Skype for Business ou pronto para atualizar, queremos garantir que você tenha tudo o que precisa para realizar uma migração tranquila para o Teams.
 
 Se você estiver atualizando do Skype for Business Online para o Teams ou de um ambiente local do Skype for Business para o Teams, a estrutura de atualização orientará você pelo processo de acordo com o seu cenário de negócios.
+
+| Ícone | Descrição |
+| --- | --- |
+|![Símbolo passo a passo](https://docs.microsoft.com/office/media/icons/walkthrough-map-teams.png) | **Hub de atualização**: encontre uma visão geral de todas as orientações, treinamento e recursos que você precisará para implementar uma atualização bem-sucedida do Skype for Business para [o Microsoft Teams em planejar a sua atualização do Skype for Business para o Microsoft Teams](upgrade-skype-teams.yml).|
+
+Continue lendo para ver as perguntas frequentes sobre atualização.
 
 ## <a name="why-upgrade-to-microsoft-teams"></a>Por que atualizar para o Microsoft Teams?
 
