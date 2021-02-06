@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Saiba mais sobre atendedores automáticos e filas de chamadas e como usá-los para ajudar os chamadores a percorrer um sistema de menu para alcançar pessoas ou departamentos em sua organização.
-ms.openlocfilehash: 9ba8ccf08793e352e225340aeab33d7b95204cd9
-ms.sourcegitcommit: 212b2985591ca1109eb3643fbb49d8b18ab07a70
+ms.openlocfilehash: 65dac48267379d17b76443e42eb70e2e866f6e8f
+ms.sourcegitcommit: 1b11a2b74b8db6ed9e5da9b04cf3ed9c02a1d892
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/21/2021
-ms.locfileid: "49918887"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "50125663"
 ---
 # <a name="plan-for-teams-auto-attendants-and-call-queues"></a>Planejar os atendedores automáticos e as filas de chamadas do teams
 
@@ -129,9 +129,6 @@ O *modo de conferência* é uma opção em filas de chamadas que reduz significa
 Definir contas de equipe dos agentes para o modo somente do teams. Os agentes que não atendem aos requisitos não são incluídos na lista de circulação de chamadas.
 
 Recomendamos habilitar o modo de conferência para suas filas de chamadas se os seus agentes estiverem usando clientes compatíveis.
-
-> [!NOTE]
-> Ocupado em ocupado não é compatível com o modo de conferência. Os agentes em chamadas de fila de não chamada ainda poderão ser apresentados com uma chamada na fila de chamadas se o roteamento baseado em presença não estiver habilitado.
 
 ## <a name="plan-your-call-routing-flow"></a>Planejar o fluxo de roteamento de chamadas
 

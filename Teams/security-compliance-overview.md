@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cfbf0ededcb1a5f3037bfb896242902daaa2a79b
-ms.sourcegitcommit: d6e97621b1bfe9c3fbd8bc41b30a94bafd17b28f
+ms.openlocfilehash: 0c400f6f3fdb0c0cf5abce3a34f05c8488909aab
+ms.sourcegitcommit: 93d84e172cb4b19acde4b8bae9b77efe96c44c00
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/25/2021
-ms.locfileid: "49973075"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "50122201"
 ---
 # <a name="security-and-compliance-in-microsoft-teams"></a>Segurança e conformidade no Microsoft Teams
 
@@ -170,6 +170,18 @@ Se você quiser informações específicas de outras equipes sobre a configuraç
 
 A pesquisa de log de auditoria é conectada diretamente ao centro de conformidade do Microsoft 365 e oferece a capacidade de definir alertas, bem como relatar eventos de auditoria, permitindo a exportação de conjuntos de eventos genéricos ou de carga de trabalho para uso e investigação de administração em uma linha do tempo de auditoria ilimitada. Você pode configurar alertas para todos os dados de log de auditoria no centro de conformidade do Microsoft 365, além de filtrar e exportar esses dados para análise adicional. Consulte [Pesquisar no log de auditoria](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance) para saber mais sobre como conduzir uma pesquisa de log de auditoria para o Microsoft 365 ou o Office 365. Para saber mais sobre como Pesquisar eventos do Microsoft Teams no centro de conformidade do Microsoft 365, também [ativamos a auditoria no Teams](audit-log-events.md) para revisão.
 
+## <a name="customer-key"></a>Chave do cliente
+
+O Microsoft 365 oferece uma camada adicional de criptografia na parte superior da criptografia do serviço para o seu conteúdo. Usando as chaves fornecidas, a chave do cliente criptografa vários tipos diferentes de dados no Microsoft Teams. Usando a chave do cliente no nível do aplicativo, a chave do cliente criptografa os arquivos da equipe armazenados no SharePoint Online. Para obter informações, consulte [criptografia de serviço com a chave do cliente](https://docs.microsoft.com/microsoft-365/compliance/customer-key-overview). 
+
+Usando a chave do cliente no nível do locatário, a chave do cliente criptografa:
+- Mensagens de chat do Teams (chats de 1:1, chats em grupo, chats de reunião e conversas de canal)
+- Mensagens de mídia do Teams (imagens, trechos de código, vídeos e imagens wiki)
+- Chamadas de equipe e gravações de reunião armazenadas no armazenamento de equipes
+- Notificações de chat do teams
+- Sugestões de chat de equipes pela Cortana
+- Mensagens de status do teams para obter mais informações, consulte [visão geral da chave do cliente para o microsoft 365 no nível do locatário](https://docs.microsoft.com/microsoft-365/compliance/customer-key-tenant-level) e leia o blog do Microsoft Teams que aborda o [suporte de chave do cliente para Microsoft Teams agora na visualização pública](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/customer-key-support-for-microsoft-teams-now-in-public-preview/ba-p/1999893). Para obter informações sobre o lançamento do Microsoft Information Protection que incluiu a chave do cliente no nível do locatário, leia [lançamento dos novos recursos de proteção de informações da Microsoft para conhecer e proteger seus dados confidenciais](https://techcommunity.microsoft.com/t5/microsoft-security-and/announcing-new-microsoft-information-protection-capabilities-to/ba-p/1999692).
+
 ## <a name="privacy"></a>Privacidade
 
 Na Microsoft, a proteção dos seus dados é nossa prioridade mais alta. Para saber mais sobre nossas práticas de privacidade, leia:  
@@ -193,7 +205,7 @@ A figura a seguir indica o fluxo de inclusão de reuniões e dados de chamadas d
 > [!IMPORTANT]
 > Pode haver um atraso de 24 horas para descobrir o conteúdo das equipes.
 
-## <a name="licensing"></a>Licenças
+## <a name="licensing"></a>Licenciamento
 
 Quando se trata de recursos de proteção de informações, assinaturas do Microsoft 365, assinaturas do Office 365 e das licenças autônomas associadas determinarão o conjunto de recursos disponíveis.
 

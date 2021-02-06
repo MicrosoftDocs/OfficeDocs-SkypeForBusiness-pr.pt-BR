@@ -15,14 +15,16 @@ f1.keywords:
 localization_priority: Normal
 ms.collection:
 - microsoftcloud-healthcare
+- m365solution-healthcare
+- m365solution-scenario
 ms.reviewer: ''
 description: Microsoft Teams e visitas virtuais com o aplicativo bookings
-ms.openlocfilehash: 684c442765b868ca96e9d1bf243817f9378f0b5d
-ms.sourcegitcommit: 62d5ccf10202a50755166e3b8de0bd31d1f94fef
+ms.openlocfilehash: 582c59b4c389d687c529a7db9d9f1825d488f9f3
+ms.sourcegitcommit: 1b11a2b74b8db6ed9e5da9b04cf3ed9c02a1d892
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "48790613"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "50125744"
 ---
 # <a name="virtual-visits-with-microsoft-teams-and-the-bookings-app"></a>Visitas virtuais com o Microsoft Teams e o aplicativo de reservas
 
@@ -55,13 +57,13 @@ Há várias maneiras de controlar quem tem acesso ao aplicativo de reservas e a 
 
 ## <a name="recommended-meeting-policy-settings"></a>Configurações de política de reunião recomendadas
 
-Para habilitar a melhor experiência para reservas, crie uma política de reunião de equipe para admitir automaticamente **todos em sua organização** . Isso permitirá que a equipe ingresse no compromisso automaticamente e habilite a experiência de lobby para participantes externos. Você pode saber mais sobre como [admitting automaticamente as pessoas para reuniões](meeting-policies-in-teams.md#automatically-admit-people).
+Para habilitar a melhor experiência para reservas, crie uma política de reunião de equipe para admitir automaticamente **todos em sua organização**. Isso permitirá que a equipe ingresse no compromisso automaticamente e habilite a experiência de lobby para participantes externos. Você pode saber mais sobre como [admitting automaticamente as pessoas para reuniões](meeting-policies-in-teams.md#automatically-admit-people).
 
 ### <a name="optional-staff-approvals-setting"></a>Configuração de aprovações de equipe opcionais
 
 Como uma configuração de privacidade adicional, você pode optar por exigir que a equipe opte antes de as informações de disponibilidade do cronograma sejam compartilhadas por meio de reservas e antes de serem reservadas para um compromisso.  
 
-Para habilitar essa configuração, vá para configurações de configurações **do centro de administração do Microsoft 365** \> **Settings** \> **Settings** e, em seguida, selecione **reservas** .
+Para habilitar essa configuração, vá para configurações de configurações **do centro de administração do Microsoft 365** \>  \> e, em seguida, selecione **reservas**.
 
 Com essa configuração ativada, a equipe receberá um email em que será solicitado a aprovar a associação a um calendário de reservas.  
 
