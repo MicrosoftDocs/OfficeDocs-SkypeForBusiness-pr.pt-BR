@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 103cee02138cbfef4c4e19b5c75a1741d1bf62ed
-ms.sourcegitcommit: ac73536f790f83a61eeb2eb8c6b71662f7bd26fc
+ms.openlocfilehash: 7063fc09ab7ba93a050d6fe1fd0ec9ae74888b27
+ms.sourcegitcommit: 1b11a2b74b8db6ed9e5da9b04cf3ed9c02a1d892
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "50110204"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "50125623"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Limites e especificações para o Microsoft Teams
 
@@ -36,28 +36,30 @@ Este artigo descreve alguns dos limites, das especificações e de outros requis
 |-----------|---------------|
 |Números de equipes que um usuário pode criar | Sujeito a um limite de objeto de 250&sup1;         |
 |Número de equipes das quais um usuário pode ser membro|1.000&sup2;|
-|Número de membros em uma equipe | 10.000<sup>5</sup>     |
+|Número de membros em uma equipe | 10,000<sup>6</sup>     |
 |Número de proprietários por equipe | 100   |
 |Número de equipes de toda a organização permitidas em um locatário | 5     |
 |Número de membros em uma [equipe de toda a organização](create-an-org-wide-team.md) | 10.000       |
 |Número de equipes que um administrador global pode criar        |  500.000   |
-|Número de equipes que uma organização do Microsoft 365 ou Office 365 pode ter    | 500.000&sup2;     |
-|Número de canais por equipe    | 200 (inclui canais excluídos)&sup3;         |
-|Número de canais privados por equipe    |30| (inclui canais excluídos)&sup3;
+|Número de equipes que uma organização do Microsoft 365 ou Office 365 pode ter    | 500,000&sup3;     |
+|Número de canais por equipe    | 200 (inclui canais excluidos)&sup4         |
+|Número de canais privados por equipe    |30| (inclui canais excluídos)&sup4;
 |Números de membros em um canal privado    |250|
 |Tamanho máximo do grupo de distribuição, grupo de segurança ou grupo do Office 365 que pode ser importado para uma equipe    |3.500|
-|Número máximo de membros em um grupo do Office 365 que pode ser convertido em uma equipe    |10.000<sup>5</sup>     |
-|Tamanho da postagem de conversa do canal | Aproximadamente 28 KB pela postagem <sup>4</sup> |
+|Número máximo de membros em um grupo do Office 365 que pode ser convertido em uma equipe    |10,000<sup>6</sup>     |
+|Tamanho da postagem de conversa do canal | Aproximadamente 28 KB por postagem<sup>5</sup> |
 
 <sup>1</sup> Qualquer objeto de diretório no Azure Active Directory conta para este limite. Os administradores globais estão isentos desse limite, assim como os aplicativos que chamam o Microsoft Graph usando [permissões de aplicativo](https://docs.microsoft.com/graph/permissions-reference).
 
-<sup>2</sup> Esse limite inclui equipes arquivadas. Para ir além do número máximo de equipes que uma organização do Microsoft 365 ou Office 365 pode ter, você deve entrar em contato com o suporte da Microsoft e solicitar um aumento adicional no número de objetos do Azure Active Directory em seu locatário.
+<sup>2</sup> Esse limite inclui equipes arquivadas. 
 
-<sup>3</sup> Os canais excluídos podem ser restaurados dentro de 30 dias. Durante esses 30 dias, um canal excluído continua a ser contado no limite de 200 canais ou 30 canais privados por equipe. Depois de 30 dias, um canal e seus conteúdos excluídos serão permanentemente excluídos e o canal deixará de contar com o limite por equipe.
+<sup>3</sup> Para aumentar ainda mais o número de equipes, você deve entrar em contato com o suporte da Microsoft e solicitar um aumento adicional no número de objetos do Azure Active Directory em seu locatário. O aumento só é realizado para cenários reais de produção.
 
-<sup>4</sup> 28 KB é um limite aproximado porque inclui a própria mensagem (texto, links de imagens, etc.), @-menções, número de conectores e reações.
+<sup>4</sup> Os canais excluídos podem ser restaurados dentro de 30 dias. Durante esses 30 dias, um canal excluído continua a ser contado no limite de 200 canais ou 30 canais privados por equipe. Depois de 30 dias, um canal e seu conteúdo excluídos serão permanentemente excluídos e o canal deixará de contar com o limite por equipe.
 
-<sup>5</sup> Equipes no GCC só acomodam 5.000 membros e as equipes do GCCH/DoD só acomodam 2.500 membros.
+<sup>5</sup> 28 KB é um limite aproximado porque inclui a própria mensagem (texto, links de imagens, etc.), @-menções, número de conectores e reações.
+
+<sup>6</sup> Equipes no GCC só acomodam 5.000 membros e as equipes do GCCH/DoD só acomodam 2.500 membros.
 
 ## <a name="messaging"></a>Mensagens
 
