@@ -19,12 +19,12 @@ localization_priority: Normal
 search.appverid: MET150
 description: Saiba como gerenciar modelos de equipe no centro de administração
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: ef765013541ae740211cc5666da3544f1cd5b528
-ms.sourcegitcommit: 1b11a2b74b8db6ed9e5da9b04cf3ed9c02a1d892
+ms.openlocfilehash: 9704fdb92689031d44fa692383c701ec47877fc6
+ms.sourcegitcommit: 27bfa015413bc7742bca4ea227e0324da0c740d7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2021
-ms.locfileid: "50125858"
+ms.lasthandoff: 02/08/2021
+ms.locfileid: "50145878"
 ---
 # <a name="create-and-manage-teams-templates-in-the-admin-center"></a>Criar e gerenciar modelos de equipe no centro de administração
 
@@ -143,4 +143,4 @@ R: não, isso não tem suporte.
 
 - [Atribuir políticas a seus usuários no Microsoft Teams-Microsoft Teams \| Microsoft docs](https://docs.microsoft.com/microsoftteams/assign-policies)
 
-- [TeamsTemplatePermissionPolicy](https://docs.microsoft.com/powershell/module/teams/new-csbatchpolicyassignmentoperation?view=teams-ps)
+- [Atribuir usuários a uma política em lote](https://docs.microsoft.com/powershell/module/teams/new-csbatchpolicyassignmentoperation?view=teams-ps)

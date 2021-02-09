@@ -17,12 +17,12 @@ f1.keywords:
 localization_priority: Normal
 search.appverid: MET150
 description: Saiba como aprovar seus aplicativos personalizados que são enviados usando a API de envio do aplicativo Teams no Microsoft Teams.
-ms.openlocfilehash: 146d8aaa7ec49d5a760e6b4fdcb700f161f62376
-ms.sourcegitcommit: ac73536f790f83a61eeb2eb8c6b71662f7bd26fc
+ms.openlocfilehash: 0003bc218b425383ba117296ba847a637d76ac43
+ms.sourcegitcommit: 27bfa015413bc7742bca4ea227e0324da0c740d7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "50110224"
+ms.lasthandoff: 02/08/2021
+ms.locfileid: "50145798"
 ---
 # <a name="publish-a-custom-app-submitted-through-the-teams-app-submission-api"></a>Publicar um aplicativo personalizado enviado por meio da API de envio do aplicativo Teams
 
@@ -30,6 +30,9 @@ ms.locfileid: "50110224"
 
 > [!NOTE]
 > Quando você publica um aplicativo personalizado do Teams, ele está disponível para os usuários na loja de aplicativos da sua organização. Há duas maneiras de publicar um aplicativo personalizado e a maneira como você pode usar depende de como você obtém o aplicativo. **Este artigo se concentra em como aprovar e publicar um aplicativo personalizado que um desenvolvedor envia por meio da API de envio do aplicativo Teams**. O outro método, upload de um aplicativo personalizado, é usado quando um desenvolvedor envia um pacote de aplicativo em formato. zip. Para saber mais sobre esse método, consulte <a href="https://docs.microsoft.com/microsoftteams/upload-custom-apps" target="_blank">publicar um aplicativo personalizado carregando um pacote de aplicativo</a>. O widget aprovar aplicativo não está disponível em locatários GCC. 
+
+> [!IMPORTANT]
+> Este método não está disponível no momento para ambientes GCC. Você deve usar o método de *carregamento de um aplicativo personalizado* .
 
 Este artigo fornece uma orientação de ponta a ponta para como levar o aplicativo Teams do desenvolvimento à implantação para descoberta. Você terá uma visão geral das experiências conectadas que o Microsoft Teams oferece em todo o ciclo de vida do aplicativo para simplificar o desenvolvimento, a implantação e o gerenciamento de aplicativos personalizados na loja de aplicativos da sua organização.
 

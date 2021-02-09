@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Saiba como configurar o sistema telefônico para filas de chamadas com o Microsoft Teams, que fornecem uma mensagem de saudação, suspender música, redirecionamento de chamada e outros recursos.
-ms.openlocfilehash: 17e15e270492c4105f79ead6b2ce34ca37165ec3
-ms.sourcegitcommit: 1b11a2b74b8db6ed9e5da9b04cf3ed9c02a1d892
+ms.openlocfilehash: 0253fb15a8672d83e672e3e3e18f8455d292214c
+ms.sourcegitcommit: 27bfa015413bc7742bca4ea227e0324da0c740d7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2021
-ms.locfileid: "50125784"
+ms.lasthandoff: 02/08/2021
+ms.locfileid: "50145888"
 ---
 # <a name="create-a-call-queue"></a>Criar uma fila de chamadas
 
@@ -119,12 +119,15 @@ Se um agente optar por não receber chamadas, ele não será incluído na lista 
 
 **Tempo de alerta do agente** especifica quanto tempo o telefone do agente tocará antes de a fila redirecionar a chamada para o próximo agente.
 
-Para filas de alto volume, recomendamos as seguintes configurações:
+As configurações a seguir são recomendadas:
 
 - **Modo de conferência** para **automático**
-- **Método de roteamento** para o **Roteamento do atendente**
+- **Método de roteamento** para **Round Robin** ou **Idle mais longo**
 - **Roteamento baseado em presença** para **ativado**
 - **Tempo de alerta do agente:** para **20 segundos**
+
+> [!NOTE]
+> Se o roteamento baseado em presença não estiver habilitado e houver várias chamadas na fila, o sistema apresentará essas chamadas simultaneamente para os agentes, independentemente do status de presença. Isso resultará em várias notificações de chamada para agentes, principalmente se alguns agentes não atenderem à chamada inicial apresentada a eles.
 
 ## <a name="call-overflow-handling"></a>Tratamento de estouro de chamadas
 

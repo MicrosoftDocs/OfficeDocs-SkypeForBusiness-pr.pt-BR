@@ -3,6 +3,52 @@
 
 
 
+## <a name="week-of-february-01-2021"></a>Semana de 1º de fevereiro de 2021
+
+
+| Publicado em |Título do tópico | Alteração |
+|------|------------|--------|
+| 2/1/2021 | [Carregar o locatário e compilar dados no painel de qualidade de chamada (CQD)](/MicrosoftTeams/cqd-upload-tenant-building-data) | modificado |
+| 2/1/2021 | [Guia para o Administrador de TI sobre o Insights no Microsoft Teams para Educação](/MicrosoftTeams/class-insights) | modificado |
+| 2/1/2021 | [Sincronizar dados do SIS (Sistema de Informações do Aluno) com o Education Insights](/MicrosoftTeams/education-insights-sis-data-sync) | modificado |
+| 2/1/2021 | [Barreiras de informação no Microsoft Teams](/MicrosoftTeams/information-barriers-in-teams) | modificado |
+| 2/1/2021 | [Gerenciar e monitorar equipes](/MicrosoftTeams/manage-teams-overview) | adicionado |
+| 2/1/2021 | [Notas de versão do Microsoft Teams](/MicrosoftTeams/release-notes/release-notes) | modificado |
+| 2/2/2021 | [Usar o Microsoft 365 e conectores personalizados](/MicrosoftTeams/office-365-custom-connectors) | modificado |
+| 2/2/2021 | [Gerenciar pacotes de política no Microsoft Teams](/MicrosoftTeams/manage-policy-packages) | modificado |
+| 2/2/2021 | [Central de contatos do teams](/MicrosoftTeams/teams-contact-center) | modificado |
+| 2/3/2021 | [Exportar conteúdo com as APIs de exportação do Microsoft Teams](/MicrosoftTeams/export-teams-content) | modificado |
+| 2/3/2021 | [Gerenciamento de número de telefone para Suíça](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-switzerland) | modificado |
+| 2/3/2021 | [Conectar o seu controlador de borda de sessão (SBC) ao roteamento direto](/MicrosoftTeams/direct-routing-connect-the-sbc) | modificado |
+| 2/3/2021 | Adoção de preparação do ambiente do Microsoft Teams \| \| , descoberta | removido |
+| 2/3/2021 | [Teams para visitas virtuais](/MicrosoftTeams/expand-teams-across-your-org/healthcare/ehr-admin) | modificado |
+| 2/3/2021 | [Notas de versão](/MicrosoftTeams/rooms/rooms-release-note) | modificado |
+| 2/4/2021 | [Central de contatos do teams](/MicrosoftTeams/teams-contact-center) | modificado |
+| 2/4/2021 | [Perguntas frequentes (FAQ) sobre o painel de qualidade de chamada (CQD)](/MicrosoftTeams/cqd-frequently-asked-questions) | modificado |
+| 2/4/2021 | [Perguntas frequentes sobre a atualização do Skype for Business para o Teams](/MicrosoftTeams/faq-journey) | modificado |
+| 2/4/2021 | [Perguntas comuns sobre a Audioconferência](/MicrosoftTeams/audio-conferencing-common-questions) | modificado |
+| 2/4/2021 | [Dimensões e medições-painel de qualidade de chamada (CQD)](/MicrosoftTeams/dimensions-and-measures-available-in-call-quality-dashboard) | modificado |
+| 2/4/2021 | [Configurar controlador de borda de sessão – vários locatários](/MicrosoftTeams/direct-routing-sbc-multiple-tenants) | modificado |
+| 2/4/2021 | [Documentação do administrador do Microsoft Teams # < caracteres do 60](/MicrosoftTeams/index) | modificado |
+| 2/4/2021 | [Limites e especificações para o Microsoft Teams](/MicrosoftTeams/limits-specifications-teams) | modificado |
+| 2/4/2021 | [Usar a API de envio de aplicativo Teams para enviar e aprovar seus aplicativos personalizados](/MicrosoftTeams/submit-approve-custom-apps) | modificado |
+| 2/4/2021 | [Teams para Infraestrutura de Área de Trabalho Virtualizada](/MicrosoftTeams/teams-for-vdi) | modificado |
+| 2/4/2021 | [Introdução à gravação baseada em políticas de equipe para fazer chamadas & reuniões](/MicrosoftTeams/teams-recording-policy) | modificado |
+| 2/4/2021 | [Configurar o painel de qualidade da chamada (CQD)](/MicrosoftTeams/turning-on-and-using-call-quality-dashboard) | modificado |
+| 2/4/2021 | [Comece a atualizar o Skype for Business para o Microsoft Teams](/MicrosoftTeams/upgrade-start-here) | modificado |
+| 2/5/2021 | [Visão geral da segurança e conformidade](/MicrosoftTeams/security-compliance-overview) | modificado |
+| 2/5/2021 | [Relatório de uso do Microsoft Teams](/MicrosoftTeams/teams-analytics-and-reports/teams-usage-report) | modificado |
+| 2/5/2021 | [Experiência do teams em um ambiente compatível com várias regiões do Microsoft 365](/MicrosoftTeams/teams-experience-o365odb-spo-multi-geo) | modificado |
+| 2/5/2021 | [Gerenciar modelos de equipe no centro de administração](/MicrosoftTeams/templates-policies) | adicionado |
+| 2/5/2021 | [Criar uma fila de chamadas no Microsoft Teams](/MicrosoftTeams/create-a-phone-system-call-queue) | modificado |
+| 2/5/2021 | [Teams para visitas virtuais](/MicrosoftTeams/expand-teams-across-your-org/healthcare/ehr-admin) | modificado |
+| 2/5/2021 | [Comece a usar o Microsoft Teams para organizações de assistência médica](/MicrosoftTeams/expand-teams-across-your-org/healthcare/teams-in-hc) | modificado |
+| 2/5/2021 | [Limites e especificações para o Microsoft Teams](/MicrosoftTeams/limits-specifications-teams) | modificado |
+| 2/5/2021 | [Gerenciar políticas de reunião](/MicrosoftTeams/meeting-policies-in-teams) | modificado |
+| 2/5/2021 | [Instalar o Microsoft Teams usando o Microsoft Endpoint Configuration Manager](/MicrosoftTeams/msi-deployment) | modificado |
+| 2/5/2021 | [Planejar os atendedores automáticos e as filas de chamadas do teams](/MicrosoftTeams/plan-auto-attendant-call-queue) | modificado |
+
+
 ## <a name="week-of-january-25-2021"></a>Semana de 25 de janeiro de 2021
 
 

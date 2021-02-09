@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 description: O administrador pode ler as notas de versão para salas do Microsoft Teams, que lista melhorias cumulativas nas salas do Microsoft Teams.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 8c88912330fd8bed6beaa4b55c4747785feb7b4e
-ms.sourcegitcommit: 4bf85d91befb56566130731198518c103a53ebc4
+ms.openlocfilehash: 274a83925a47519dba174a75bd92582670dab1d6
+ms.sourcegitcommit: d9b95da1f4a2b7460fc67daf4011382ffa40c05e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "50101319"
+ms.lasthandoff: 02/09/2021
+ms.locfileid: "50150877"
 ---
 # <a name="release-notes"></a>Notas de versão
 
@@ -330,7 +330,7 @@ Apresentado nesta atualização:
 
 - Correções de bugs/falhas para melhorar a estabilidade
 - Suporte para console de tamanho variável
-- Descarga de processamento de áudio periférico (lista branca adicional de mídia)
+- Descarga de processamento de áudio periférico (List adicional de permissão de mídia)
 - Otimizações que permitem que os profissionais de ti criem imagens para você mesmo com a atualização de Janeiro do Windows 10, versão 1709 e posterior.
 
 ### <a name="30160-11272017"></a>3.0.16.0 (11/27/2017)
