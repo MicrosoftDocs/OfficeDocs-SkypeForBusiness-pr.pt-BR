@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 138f85c77f3dd6046c97e7ed3049b86b9a1a2745
-ms.sourcegitcommit: bc471f18e40e37456edc9696e11b175581847617
+ms.openlocfilehash: e017ac0795d2fdd65d89c0532469e8e269ee0e58
+ms.sourcegitcommit: e9f8e1a085cbcd2592d3386fdbcfca8a6e032b10
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "48800634"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "50173087"
 ---
 # <a name="create-a-custom-team-template-in-microsoft-teams"></a>Criar um modelo de equipe personalizado no Microsoft Teams
 
@@ -33,15 +33,15 @@ Para começar:
 
 1. Faça logon no centro de administração do Microsoft Teams.
 
-2. Na navegação à esquerda **, expanda**  >  **modelos de equipe do teams** .
+2. Na navegação à esquerda **, expanda**  >  **modelos de equipe do teams**.
 
-3. Clique em **Adicionar** .
+3. Clique em **Adicionar**.
 
 ![Uma imagem da caixa de diálogo modelos de equipe com a caixa de diálogo Adicionar realçada.](media/team-templates-new.png)
 
-4. Na seção **modelos de equipe** , selecione **criar um modelo de marca novo** .
+4. Na seção **modelos de equipe** , selecione **criar um modelo de marca novo**.
 
-5. Na seção **configurações de modelo** , preencha os campos a seguir e clique em **Avançar** :
+5. Na seção **configurações de modelo** , preencha os campos a seguir e clique em **Avançar**:
     - Nome do modelo
     - Descrições de modelo curto e longo
     - Visibilidade de localidade  
@@ -50,7 +50,7 @@ Para começar:
 
 6. Na seção **canais, guias e aplicativos** , adicione os canais e aplicativos de que sua equipe precisa.
 
-    1. Na seção **canais** , clique em **Adicionar** .
+    1. Na seção **canais** , clique em **Adicionar**.
     2. Na caixa de diálogo **Adicionar** , nomeie o canal.
     3. Adicione uma descrição.
     4. Decida se o canal deve ser mostrado por padrão.
@@ -65,6 +65,12 @@ Seu novo modelo é exibido na lista **modelos de equipe** . O modelo pode ser us
 
 > [!Note]
 > Pode levar até 24 horas para que os usuários do teams vejam um modelo personalizado na galeria.
+
+## <a name="known-issues"></a>Problemas conhecidos 
+
+**Problema**: se você tiver criado uma equipe a partir de um modelo personalizado que continha guias personalizadas adicionais, talvez veja guias em branco no lugar dos seus aplicativos de guia personalizados. Suas guias padrão (por exemplo, **postagens**, **arquivos** e **wiki**) aparecerão como esperado.
+
+**Solução**: para corrigir esse problema, remova a guia personalizada e adicione uma nova guia com o mesmo aplicativo. No momento, estamos trabalhando em uma correção para todos os modelos personalizados futuros a partir do 02/08/2021.
 
 ## <a name="related-topics"></a>Tópicos relacionados
 

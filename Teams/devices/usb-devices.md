@@ -15,12 +15,12 @@ localization_priority: Normal
 f1.keywords:
 - NOCSH
 description: Veja quais periféricos USB e dispositivos (como fones de ouvido com microfone, telefones viva-voz, webcams e monitores) são certificados para o Microsoft Teams.
-ms.openlocfilehash: 5a5777b0ee32cce1986e6b8a07e6d4940f2dc617
-ms.sourcegitcommit: f3ab9437759db8d3ab67b57111cb7bf47eb9c18e
+ms.openlocfilehash: 21c74ce59830f9cac63200e8e7f4f99cfc54235f
+ms.sourcegitcommit: e9f8e1a085cbcd2592d3386fdbcfca8a6e032b10
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/28/2021
-ms.locfileid: "50033332"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "50173097"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>Dispositivos de áudio e vídeo USB certificados para o Microsoft Teams
 
@@ -78,6 +78,7 @@ Se você for um fabricante e quiser participar do programa de certificação, co
 
 | Fabricante        | Modelo                                                     | Qualificação      | Programa certificado                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
+|Polyline                 |Sincronização do 40 viva-voz                                       |1/19/2021       |Certificado para o Microsoft Teams                           |
 |Polyline                 |Sincronizar 40 + viva-voz com dongle USB BT600           |1/19/2021       |Certificado para o Microsoft Teams                           |
 |Yealink              |UH34 duplo/fone de ouvido com microfone mono                                     |12/23/2020      |Certificado para o Microsoft Teams                           |
 |Yealink              |Telefone USB MP50                                             |12/23/2020      |Certificado para o Microsoft Teams                           |
