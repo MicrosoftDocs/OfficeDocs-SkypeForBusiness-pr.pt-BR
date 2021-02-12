@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 89e98c53a3005cb503b98d44db761e620bcf49da
-ms.sourcegitcommit: 7e673b88346e07f7c777710437b19d257ccecb1b
+ms.openlocfilehash: 0d3975ac177af7717dbfbcbd3bc8e027b5d8ea11
+ms.sourcegitcommit: 27bfa015413bc7742bca4ea227e0324da0c740d7
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/01/2021
-ms.locfileid: "50067126"
+ms.lasthandoff: 02/08/2021
+ms.locfileid: "50145898"
 ---
 # <a name="it-admin-guide-to-education-insights-in-microsoft-teams"></a>Guia para o Administrador de TI sobre o Insights no Microsoft Teams para Educação
 
@@ -102,6 +102,9 @@ Por exemplo, um diretor vê apenas as classes na sua escola ou o chefe de um dep
 
 :::image type="content" source="media/insights-pin-app.png" alt-text="Fixar o aplicativo Insights":::
 
+> [!TIP]
+> Você também pode localizar o aplicativo Insights por meio deste link: [https://aka.ms/addInsights](https://aka.ms/addInsights)
+
 ## <a name="when-is-insights-used"></a>Quando o Insights é utilizado? 
 O Insights oferece suporte às comunidades de aprendizagem durante **o ciclo de aprendizagem**. Com métricas em tempo real em múltiplas dimensões, o Insights oferece suporte a um ciclo contínuo de identificação, reflexão, discussão e tomada de ação entre os membros da comunidade escolar.
 *   **Identificar** como e quando os alunos interagem com educadores, materiais didáticos e seus colegas, e como eles realizam as tarefas. 
@@ -177,10 +180,9 @@ A visualização do Insights no nível de classe como o educador de classe *não
 Para saber mais, leia [**Sincronizar dados do Sistema de Informações do Aluno (SIS) com Insights para Educação**](education-insights-sis-data-sync.md).
 
 ## <a name="manage-permissions"></a>Gerenciar permissões
-Você precisa fornecer permissões para gestores escolares, inspetores, diretores de escola, professores-gestores, conselheiros, coordenadores pedagógicos, diretores de programas, assistentes sociais e psicólogos. Os educadores automaticamente recebem permissão quando possuem uma equipe de classe.
+Você precisa fornecer permissões para gestores escolares, inspetores, diretores de escola, professores-gestores, conselheiros, coordenadores pedagógicos, diretores de programas, assistentes sociais e psicólogos. Os educadores *automaticamente* recebem permissão quando possuem uma equipe de classe.
 
-> [!NOTE]
-> Somente dê permissão aos gestores escolares que precisam delas e somente às equipes pelas quais são responsáveis. Se você não tiver certeza se é necessária a permissão do usuário para uma organização específica, consulte os especialistas em assuntos de privacidade de sua instituição, tais como o pessoal do departamento jurídico ou do RH.
+Para saber mais, leia [**Gerenciar acesso do usuário ao Education Insights**](education-insights-manage-access.md).
 
 ## <a name="manage-the-setup-policy"></a>Gerenciar a política de instalação
 Como Administrador de TI, você pode usar a política de instalação do aplicativo para instalar o Insights por padrão para seus educadores e gestores quando eles iniciam o Teams. Com a política de instalação, você pode personalizar o Teams para destacar o Insights e fixá-lo na barra de aplicativos.
@@ -246,7 +248,7 @@ Verifique o status dos seus alunos para garantir que todos tenham licenças de e
 ### <a name="why-dont-educators-see-meeting-data"></a>Por que os educadores não conseguem ver os dados da reunião?
 Demora até 24 horas para ver os dados da reunião nos relatórios do Insights. Portanto, verifique se passou tempo suficiente.
 
-Além disso, verifique se os alunos *não* [participaram da reunião de classe sem uma conta do Teams ](https://support.microsoft.com/office/c6efc38f-4e03-4e79-b28f-e65a4c039508). Em tal cenário, a atividade do aluno não é coletada.
+Além disso, verifique se os alunos *não* [participaram da reunião de classe sem uma conta do Teams](https://support.microsoft.com/office/c6efc38f-4e03-4e79-b28f-e65a4c039508). Em tal cenário, a atividade do aluno não é coletada.
 
 > [!TIP]
 > Para os educadores que desejam rastrear a frequência dos alunos, você pode recomendar o envio de uma mensagem durante a reunião pedindo aos alunos que respondam. Isso registra sua presença em poucos minutos.

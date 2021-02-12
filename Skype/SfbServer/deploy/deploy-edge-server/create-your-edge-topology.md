@@ -28,7 +28,7 @@ ms.locfileid: "49804391"
   
 O Construtor de Topologias é a ferramenta que você precisa usar para criar sua topologia do Servidor de Borda, assim como é usado para qualquer componente de topologia do Skype for Business Server. Antes de seguir as etapas abaixo, você precisará configurar pelo menos um pool de Front-End ou um servidor Standard Edition.
   
-Nós abrangemos os seguintes tópicos neste artigo:
+Abrangemos os seguintes tópicos neste artigo:
   
 - Criar sua topologia de Servidor de Borda
     

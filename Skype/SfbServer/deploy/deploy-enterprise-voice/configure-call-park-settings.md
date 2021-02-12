@@ -1,5 +1,5 @@
 ---
-title: Definir configurações de Estacionamento de Chamada no Skype for Business
+title: Definir configurações de Estacionamento de Chamadas no Skype for Business
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -23,7 +23,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49804111"
 ---
-# <a name="configure-call-park-settings-in-skype-for-business"></a>Definir configurações de Estacionamento de Chamada no Skype for Business
+# <a name="configure-call-park-settings-in-skype-for-business"></a>Definir configurações de Estacionamento de Chamadas no Skype for Business
 
 Modificar as configurações de Estacionamento de Chamada no Skype for Business Server Enterprise Voice.
 

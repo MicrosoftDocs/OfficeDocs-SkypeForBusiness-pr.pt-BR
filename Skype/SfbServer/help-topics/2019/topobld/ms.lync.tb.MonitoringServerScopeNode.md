@@ -28,7 +28,7 @@ No Construtor de Topologias, você pode executar tarefas relacionadas a um Monit
   
 - **Editar Propriedades**. Abre  a página Editar Propriedades para o Monitoramento em execução no servidor, onde você pode alterar o FQDN (nome de domínio totalmente qualificado) do servidor que está executando o Monitoramento ou o banco de dados do SQL Server de monitoramento.
     
-- **Delete**. Exclui o servidor que está executando o Monitoramento da topologia e o banco de dados do SQL Server de monitoramento.
+- **Delete**. Exclui da topologia o Monitoramento em execução no servidor e o banco de dados de monitoramento do SQL Server.
     
 Além das opções para o Monitoramento em execução no servidor descritas anteriormente neste tópico, você tem opções gerais do nó Monitoramento que também estão disponíveis em outros nós na árvore de console. Isso inclui as seguintes opções:
   

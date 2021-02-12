@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b6d8e00bb7dd4ff39bae434f13cdb814d9a40fa7
-ms.sourcegitcommit: 7e673b88346e07f7c777710437b19d257ccecb1b
+ms.openlocfilehash: 70cef1893b0260e690f5470bff0111dda5e7e7fe
+ms.sourcegitcommit: 27bfa015413bc7742bca4ea227e0324da0c740d7
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/01/2021
-ms.locfileid: "50067116"
+ms.lasthandoff: 02/08/2021
+ms.locfileid: "50145818"
 ---
 # <a name="sync-student-information-system-sis-data-with-education-insights"></a>Sincronizar dados do SIS (Sistema de Informações do Aluno) com o Education Insights
 Quanto mais dados são alimentadas no [Education Insights](class-insights.md), os melhores professores podem dar suporte a seus alunos e os líderes de educação podem dar suporte aos professores.
@@ -56,10 +56,10 @@ A tabela a seguir fornece o tipo de dados necessário para obter o melhor de Ide
 > Durante o processo de implantação, você pode decidir se deseja usar o SDS para provisionar usuários e classes em Equipes ou usá-lo somente para fornecer dados para informações.
 
 ## <a name="best-practices"></a>Práticas recomendadas
-O mapeamento preciso da hierarquia e onde todos pertencem nessa hierarquia permite que as Ideias forneçam dados precisos e informações mais precisas e relevantes para os diferentes tipos de líderes de educação.
+O mapeamento preciso da hierarquia e onde todos pertencem nessa hierarquia permite que o Insights forneça dados corretos e informações mais precisas e relevantes para os diferentes tipos de líderes de educação.
 
 Quanto mais detalhes você fornecer aqui, melhores e mais relevantes serão os relatórios e destaques.
-Aqui estão algumas práticas recomendadas baseadas em garantir a implantação tranquila do SDS para que seus usuários possam tirar o máximo uso de Ideias.
+Aqui estão algumas práticas recomendadas para garantir a implantação tranquila do SDS para que seus usuários façam o melhor uso do Insights.
 
 ### <a name="users"></a>Usuários
 *   Certifique *que todos os usuários* estão listados nos arquivos que você fornece e sincroniza. Isso inclui todos os alunos e funcionários que precisam ver dados das unidades organizacionais que abrangem.

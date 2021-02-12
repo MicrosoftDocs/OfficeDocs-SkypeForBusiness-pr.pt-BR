@@ -20,12 +20,12 @@ description: Neste artigo, você aprenderá sobre os fatores a serem considerado
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: bd66cd0f8f73ec6a52466965a5ab227e9f4b5122
-ms.sourcegitcommit: 7575fb476a594d70084c603e508dd311ef1d7edb
+ms.openlocfilehash: af2915d1e86fbfe1c3dc2bd804511a8e7ca6865a
+ms.sourcegitcommit: 27bfa015413bc7742bca4ea227e0324da0c740d7
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "49757756"
+ms.lasthandoff: 02/08/2021
+ms.locfileid: "50145908"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Planejar eventos ao vivo no Microsoft Teams
 
@@ -40,10 +40,11 @@ Todos podem participar de um evento ao vivo sem uma licença. Leia [Início ráp
 
 Os pré-requisitos a seguir são necessários para o usuário agendar um evento ao vivo do Teams.
 
-Estas são as licenças que devem ser atribuídas para produzir ou apresentar um evento ao vivo no Teamse:  
+Estas são as licenças que devem ser atribuídas para organizar, produzir ou apresentar um evento ao vivo no Teams:  
 
-- Uma licença do Microsoft ou Office 365 Enterprise E1, E3 ou E5 ou uma licença do Office 365 para Educação A3 ou A5. A exceção a esse requisito é que os usuários convidados podem apresentar sem licença se os outros critérios para [usuários convidados](plan-for-teams-live-events.md#guest-to-present) forem atendidos.
-- Uma licença do Microsoft Teams - está incluída nas licenças listadas no primeiro marcador.
+- **Para organizar:** Uma licença E1, E3, ou E5 da Microsoft ou do Office 365 Enterprise, **[ou]** uma licença A3 ou A5 da Microsoft ou do Office 365 Education. 
+- **Para produzir ou apresentar:** Uma licença E1, E3, ou E5 da Microsoft ou do Office 365 Enterprise, **[ou]** ou uma licença A1, A3 ou A5 da Microsoft ou do Office 365 Education. A exceção a esse requisito é que os usuários convidados podem apresentar sem licença se os outros critérios para [usuários convidados](plan-for-teams-live-events.md#guest-to-present) forem atendidos.
+- Uma licença do Microsoft Teams - está incluída nas licenças listadas no primeiro e segundo marcadores.
 - Uma licença do Microsoft Stream-será necessária se você estiver planejando compartilhar o conteúdo para um aplicativo ou dispositivo externo; Confira [licenciamento do Microsoft Stream](https://docs.microsoft.com/stream/license-overview).
 
   Os usuários não precisarão de uma licença do Microsoft Stream atribuída se você quiser que apenas gravem e baixem as gravações. Isso significa que as gravações não são armazenadas no Microsoft Stream, mas sim no Serviços de Mídia do Microsoft Azure (SMA) com um limite de 180 dias antes de serem excluídas. Não é algo neste momento que um administrador pode controlar ou gerenciar para incluir a capacidade de excluí-lo.

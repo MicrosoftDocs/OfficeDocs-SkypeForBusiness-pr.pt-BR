@@ -26,7 +26,7 @@ ms.locfileid: "49825001"
  
 **Resumo:** Saiba como implantar o Telefonar via Trabalho no Skype for Business Server para alguns ou todos os seus usuários.
   
-Use estas etapas para implantar o Telefonar via Trabalho para seus usuários. Considerações de planejamento são discutidas no [Plano para Telefonar via Trabalho no Skype for Business Server.](../plan-your-deployment/enterprise-voice-solution/call-via-work.md) Em versões anteriores do Lync Server, o controle de chamada remota era um recurso que permitia que os usuários controlas seus telefones PBX com o Lync Server. No Skype for Business Server, esse recurso foi substituído pelo Telefonar via Trabalho. 
+Use estas etapas para implantar o Telefonar via Trabalho para seus usuários. As considerações de planejamento são discutidas em [Plan for Call Via Work no Skype for Business Server.](../plan-your-deployment/enterprise-voice-solution/call-via-work.md) Em versões anteriores do controle de chamada remota do Lync Server, era um recurso que permitia que os usuários controlas seus telefones PBX com o Lync Server. No Skype for Business Server, esse recurso foi substituído pelo Telefonar via Trabalho. 
   
 ## <a name="prerequisites-for-call-via-work"></a>Pré-requisitos para Telefonar via Trabalho
 
@@ -36,13 +36,13 @@ O Telefonar via Trabalho usa o Unified Communications Web API (UCWA), que é ins
     
 - Todos os usuários que serão habilitados para Telefonar via Trabalho devem ter um DID (Discagem Direta interna) no sistema de telefonia PBX. 
     
-- Você deve habilitar todos os usuários telefonar via trabalho para o Enterprise Voice. Ao fazer isso, você deve configurar o número DID do Skype for Business para cada usuário para o número DID correspondente para o sistema de telefonia PBX correspondente. 
+- Você deve habilitar todos os usuários telefonar via trabalho para o Enterprise Voice. Ao fazer isso, você deve configurar o número DID do Skype for Business para cada usuário com o número DID correspondente para o sistema de telefonia PBX correspondente. 
     
 - Todos os usuários que usarão  o Telefonar via Trabalho devem ter a Configuração Automática selecionada na opção **Conexões** Avançadas no cliente Skype for Business. Isso permite que o cliente descubra as URLs do UCWA. **A Configuração** Automática é a seleção padrão.
     
 - Para cada usuário do Telefonar via Trabalho, habilita o encaminhamento de chamada e o toque simultâneo. 
     
-- Para cada usuário da Chamada via Trabalho, verifique se a conferência discada e a discagem estão habilitadas. Isso permite que esses usuários entre e saim de conferências do Skype for Business.
+- Para cada usuário do Telefonar via Trabalho, certifique-se de que a conferência discada e a discagem de conferência estão habilitadas. Isso permite que esses usuários entre e saim de conferências do Skype for Business.
     
 - Verifique se a delegação, a chamada de equipe e o grupo de resposta estão desabilitados para cada usuário do Telefonar via Trabalho.
     

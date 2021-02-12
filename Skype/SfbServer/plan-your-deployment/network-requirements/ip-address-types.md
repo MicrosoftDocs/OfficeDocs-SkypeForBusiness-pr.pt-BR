@@ -61,7 +61,7 @@ Usando o Construtor de Topologias, execute as etapas do procedimento a seguir pa
 
 ### <a name="to-deploy-ip-address-types-on-a-mediation-server"></a>Para implantar os tipos de endereço IP em um Servidor de Mediação
 
-- No Construtor de Topologias, em **Pools de** Mediação, clique com o botão direito do mouse no servidor dentro de um pool e selecione **Editar Propriedades.** (Como alternativa, selecione o servidor e clique em **Editar propriedades** no menu **Ação**).
+- No Construtor de Topologias, em **Pools de** Mediação, clique com o botão direito do mouse no servidor em um pool e selecione **Editar Propriedades.** (Como alternativa, selecione o servidor e clique em **Editar propriedades** no menu **Ação**).
 
 - Na caixa de diálogo **Editar propriedades**, selecione o tipo de endereço IP que você deseja configurar. Para uma configuração de pilha dual, selecione **Habilitar IPv4** e **Habilitar IPv6**, como mostrado na seguinte imagem.
 
@@ -82,7 +82,7 @@ Usando o Construtor de Topologias, execute as etapas do procedimento a seguir pa
 
 > [!NOTE]
 > - Para obter mais informações sobre as configurações NIC suportadas para o Skype for Business Server 2015, consulte [Hardware for Skype for Business Server 2015](../requirements-for-your-environment/server-requirements.md#hardware-for-skype-for-business-server-2015)
-> - Para obter mais informações sobre configurações de NIC com suporte para o Skype for Business Server 2019, consulte [Hardware for Skype for Business Server 2019](../../../SfBServer2019/plan/system-requirements.md#hardware-for-skype-for-business-server-2019)
+> - Para obter mais informações sobre as configurações NIC suportadas para o Skype for Business Server 2019, consulte [Hardware for Skype for Business Server 2019](../../../SfBServer2019/plan/system-requirements.md#hardware-for-skype-for-business-server-2019)
 
 
 

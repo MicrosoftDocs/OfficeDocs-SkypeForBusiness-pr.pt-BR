@@ -23,7 +23,7 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
-description: Saiba mais sobre números de chamada gratuita nos Países Baixos, incluindo disponibilidade, disponibilidade com fio/linha fixa e disponibilidade da rede móvel e restrições.
+description: Saiba mais sobre como discar números de gratuitamente na Holanda, incluindo disponibilidade, disponibilidade de rede com fio/fixo e rede móvel e restrições.
 ms.openlocfilehash: 534130f2897ee3f35349404dcc00609e93548f27
 ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
@@ -33,17 +33,17 @@ ms.locfileid: "43139760"
 ---
 # <a name="toll-free-dialing-restrictions-in-the-netherlands"></a>Restrições de discagem de chamada gratuita nos Países Baixos
 
-[Encontre outro país ou região](../toll-free-dialing-limitations-and-restrictions.md)ou saiba mais sobre limitações e restrições de discagem gratuitas.
+[Encontre outro país ou região](../toll-free-dialing-limitations-and-restrictions.md)ou saiba mais sobre limitações e restrições de discagem gratuita.
 
 
 |**Detalhes**|**Descrição**|
 |:-----|:-----|
-|A chamada gratuita está disponível?  <br/> |Sim  <br/> |
-|Formato (s) de discagem  <br/> |0 800 XXX XXXX  <br/> |
-|Código ISO de país/região  <br/> |NL  <br/> |
-|Ilha/território abrangido  <br/> |Não aplicável  <br/> |
+|As chamada gratuitas estão disponíveis?  <br/> |Sim  <br/> |
+|Formato(s) de discagem  <br/> |0 800 XXX XXXX  <br/> |
+|Código ISO do país/região  <br/> |NL  <br/> |
+|Ilha/território coberto  <br/> |Não aplicável  <br/> |
 |Ilha/território não coberto  <br/> |Não aplicável  <br/> |
-|Disponibilidade de linha fixa/com fio  <br/> |Sim  <br/> |
+|Disponibilidade de linhas com fio/fixo  <br/> |Sim  <br/> |
 |Disponibilidade com a rede móvel  <br/> | Sim. Disponível com tarifa premium. <br/> |
 |Comentários, restrições e problemas de acesso  <br/> | Acesso móvel: O horário da transmissão é cobrado <br/> |
    

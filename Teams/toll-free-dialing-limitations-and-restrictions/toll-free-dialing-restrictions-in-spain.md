@@ -23,7 +23,7 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
-description: Saiba mais sobre números de chamada gratuita na Espanha, incluindo a disponibilidade, a disponibilidade de rede com fio/linha fixa e a rede móvel e restrições.
+description: Saiba mais sobre como discar números de gratuitamente na Espanha, incluindo disponibilidade, disponibilidade de rede com fio/fixo e rede móvel e restrições.
 ms.openlocfilehash: 25e3877ae472d2fb037876713dca054f54d7ac77
 ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
@@ -33,17 +33,17 @@ ms.locfileid: "43139790"
 ---
 # <a name="toll-free-dialing-restrictions-in-spain"></a>Restrições de discagem de chamada gratuita na Espanha
 
-[Encontre outro país ou região](../toll-free-dialing-limitations-and-restrictions.md)ou saiba mais sobre limitações e restrições de discagem gratuitas.
+[Encontre outro país ou região](../toll-free-dialing-limitations-and-restrictions.md)ou saiba mais sobre limitações e restrições de discagem gratuita.
 
 
 |**Detalhes**|**Descrição**|
 |:-----|:-----|
-|A chamada gratuita está disponível?  <br/> |Sim  <br/> |
-|Formato (s) de discagem  <br/> |900 XXX XXX  <br/> |
-|Código ISO de país/região  <br/> |ES  <br/> |
-|Ilha/território abrangido  <br/> |Ilhas Baleares e Ilhas Canárias  <br/> |
+|As chamada gratuitas estão disponíveis?  <br/> |Sim  <br/> |
+|Formato(s) de discagem  <br/> |900 XXX XXX  <br/> |
+|Código ISO do país/região  <br/> |ES  <br/> |
+|Ilha/território coberto  <br/> |Ilhas Baleares e Ilhas Canárias  <br/> |
 |Ilha/território não coberto  <br/> |Não aplicável  <br/> |
-|Disponibilidade de linha fixa/com fio  <br/> |Sim  <br/> |
+|Disponibilidade de linhas com fio/fixo  <br/> |Sim  <br/> |
 |Disponibilidade com a rede móvel  <br/> |Sim. Disponível com tarifa premium.  <br/> |
 |Comentários, restrições e problemas de acesso  <br/> |A identificação de celular usando pulsos de saída diferentes está disponível.  <br/> |
    

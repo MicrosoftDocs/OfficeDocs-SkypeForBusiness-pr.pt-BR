@@ -23,7 +23,7 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
-description: Saiba mais sobre números de chamada gratuita na Polônia, incluindo disponibilidade, disponibilidade de linha fixa e de linha fixa e restrições da rede móvel e restrições.
+description: Saiba mais sobre como discar números de gratuitamente na Polônia, incluindo disponibilidade, disponibilidade de rede com fio/fixo e rede móvel e restrições.
 ms.openlocfilehash: 7e467fc5b62b94c31a3e3859c94520c1a23982cd
 ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
@@ -33,17 +33,17 @@ ms.locfileid: "43140300"
 ---
 # <a name="toll-free-dialing-restrictions-in-poland"></a>Restrições de discagem de chamada gratuita na Polônia
 
-[Encontre outro país ou região](../toll-free-dialing-limitations-and-restrictions.md)ou saiba mais sobre limitações e restrições de discagem gratuitas.
+[Encontre outro país ou região](../toll-free-dialing-limitations-and-restrictions.md)ou saiba mais sobre limitações e restrições de discagem gratuita.
 
 
 |**Detalhes**|**Descrição**|
 |:-----|:-----|
-|A chamada gratuita está disponível?  <br/> |Sim  <br/> |
-|Formato (s) de discagem  <br/> |00 800 XXX XX XX  <br/> |
-|Código ISO de país/região  <br/> |PL  <br/> |
-|Ilha/território abrangido  <br/> |Não aplicável  <br/> |
+|As chamada gratuitas estão disponíveis?  <br/> |Sim  <br/> |
+|Formato(s) de discagem  <br/> |00 800 XXX XX XX  <br/> |
+|Código ISO do país/região  <br/> |PL  <br/> |
+|Ilha/território coberto  <br/> |Não aplicável  <br/> |
 |Ilha/território não coberto  <br/> |Não aplicável  <br/> |
-|Disponibilidade de linha fixa/com fio  <br/> |Sim  <br/> |
+|Disponibilidade de linhas com fio/fixo  <br/> |Sim  <br/> |
 |Disponibilidade com a rede móvel  <br/> |Sim  <br/> |
 |Comentários, restrições e problemas de acesso  <br/> |Acesso móvel: O horário da transmissão é cobrado.  <br/> |
    

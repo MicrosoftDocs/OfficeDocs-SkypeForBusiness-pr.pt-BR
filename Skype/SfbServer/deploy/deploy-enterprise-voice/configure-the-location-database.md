@@ -120,7 +120,7 @@ Se você usa um gateway de número da chamada de emergência (Emergency Location
 
 ### <a name="to-validate-addresses-located-in-the-location-database"></a>Para validar endereços localizados no banco de dados de localização
 
-1.  Inicie o Shell de Gerenciamento do Skype for Business Server: Clique em **Iniciar,** Em Todos os **Programas,** no **Skype for Business 2015** e, em seguida, clique no Shell de Gerenciamento do **Skype for Business Server.**
+1.  Inicie o Shell de Gerenciamento do Skype for Business Server: clique em **Iniciar,** em Todos os **Programas,** no **Skype for Business 2015** e, em seguida, clique no Shell de Gerenciamento do **Skype for Business Server.**
     
 2. Execute os cmdlets a seguir para configurar a conexão com o provedor de serviços de emergência.
     
@@ -145,7 +145,7 @@ Se você usar gateways ELIN (Número de Identificação de Local de Emergência)
   
 ### <a name="to-publish-the-location-database"></a>Para publicar o banco de dados de localização
 
--  Inicie o Shell de Gerenciamento do Skype for Business Server: Clique em **Iniciar,** Em Todos os **Programas,** no **Skype for Business 2015** e, em seguida, clique no Shell de Gerenciamento do **Skype for Business Server.**
+-  Inicie o Shell de Gerenciamento do Skype for Business Server: clique em **Iniciar,** em Todos os **Programas,** no **Skype for Business 2015** e, em seguida, clique no Shell de Gerenciamento do **Skype for Business Server.**
     
 - Execute o cmdlet a seguir para publicar o banco de dados de localização.
     

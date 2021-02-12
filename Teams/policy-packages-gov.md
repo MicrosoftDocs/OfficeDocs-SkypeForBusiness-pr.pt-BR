@@ -1,5 +1,5 @@
 ---
-title: Pacotes de política de equipe para o governo
+title: Pacotes de política do Teams para o governo
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -16,7 +16,7 @@ f1.keywords: ''
 ms.custom: ''
 localization_priority: Normal
 search.appverid: MET150
-description: Saiba como usar e gerenciar pacotes de política de equipe para sua organização governamental.
+description: Saiba como usar e gerenciar pacotes de política do Teams para sua organização governamental.
 ms.openlocfilehash: 2841fbf523f49c5784045cc6cf960e846b45aa9b
 ms.sourcegitcommit: fdef9b52247097e5cae64f01b6b2b710c5b203cf
 ms.translationtype: MT
@@ -24,36 +24,36 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 01/20/2021
 ms.locfileid: "49909075"
 ---
-# <a name="teams-policy-packages-for-government"></a>Pacotes de política de equipe para o governo
+# <a name="teams-policy-packages-for-government"></a>Pacotes de política do Teams para o governo
 
 > [!NOTE]
-> Atualmente, os pacotes de política não estão disponíveis nas implantações do Microsoft 365 governo GCC High ou DoD.
+> No momento, os pacotes de política não estão disponíveis nas implantações do Microsoft 365 Government GCC High ou DoD.
 
 ## <a name="overview"></a>Visão Geral
 
-Um [pacote de política](manage-policy-packages.md) no Microsoft Teams é uma coleção de políticas predefinidas e configurações de política que você pode atribuir aos usuários que têm funções semelhantes em sua organização. Os pacotes de políticas simplificam, otimizam e ajudam a fornecer consistência ao gerenciar políticas. Você pode personalizar as configurações das políticas do pacote para atender às necessidades dos seus usuários. Quando você altera as configurações de políticas em um pacote de política, todos os usuários atribuídos a esse pacote obtêm as configurações atualizadas. Você pode gerenciar pacotes de política usando o centro de administração do Microsoft Teams ou o PowerShell.
+Um [pacote de política](manage-policy-packages.md) no Microsoft Teams é um conjunto de políticas e configurações de política predefinidas que você pode atribuir aos usuários que têm funções semelhantes em sua organização. Os pacotes de políticas simplificam, otimizam e ajudam a fornecer consistência ao gerenciar políticas. Você pode personalizar as configurações das políticas no pacote para atender às necessidades dos usuários. Quando você altera as configurações de políticas em um pacote de política, todos os usuários atribuídos a esse pacote têm as configurações atualizadas. Você pode gerenciar pacotes de política usando o Centro de administração do Microsoft Teams ou o PowerShell.
 
-Pacotes de política pré-defina políticas para o seguinte, dependendo do pacote:
+Pacotes de política pré-definidos para as seguintes políticas, dependendo do pacote:
 
 - Mensagens
 - Reuniões
 - Chamadas
-- Configuração do aplicativo
+- Configuração de aplicativo
 - Eventos ao vivo
 
 Atualmente, o Teams inclui os seguintes pacotes de política para o governo.
 
-|Nome do pacote no centro de administração do Microsoft Teams|Melhor usado para|Descrição |
+|Nome do pacote no Centro de administração do Microsoft Teams|Melhor usado para|Descrição |
 |---------|---------|---------|
-|Diretor de segurança pública  |Diretores de segurança públicos em sua organização governamental  |Cria um conjunto de políticas e configurações de política que se aplicam a órgãos públicos de segurança em sua organização. |
-|Frontline Manager  |Gerentes de Frontline na sua organização governamental |Cria um conjunto de políticas e aplica essas configurações aos gerentes de Frontline em sua organização.|
-|Trabalhador Frontline  |Frontline trabalhadores em sua organização governamental |Cria um conjunto de políticas e aplica essas configurações a trabalhadores Frontline em sua organização.|
+|Agente de segurança pública  |Agentes de segurança pública em sua organização governamental  |Cria um conjunto de políticas e configurações de política que se aplicam aos agentes de segurança pública em sua organização. |
+|Gerenciador de linha de frente  |Gerentes de linha de frente em sua organização governamental |Cria um conjunto de políticas e aplica essas configurações aos Gerentes de Linha de Frente em sua organização.|
+|Trabalhador da linha de frente  |Trabalhadores de linha de frente em sua organização do governo |Cria um conjunto de políticas e aplica essas configurações aos Frontline Workers em sua organização.|
 
-![Captura de tela dos pacotes de política da assistência médica](media/policy-packages-gov.png)
+![Captura de tela dos pacotes de política de saúde](media/policy-packages-gov.png)
 
-Cada política individual recebe o nome do pacote de política para que você possa facilmente identificar as políticas que estão vinculadas a um pacote de política. Por exemplo, quando você atribui o pacote de política do diretor de segurança pública aos usuários em sua organização, uma política chamada PublicSafety_Officer é criada para cada política no pacote.
+Cada política individual recebe o nome do pacote de política para que você possa identificar facilmente as políticas vinculadas a um pacote de política. Por exemplo, quando você atribui o pacote de política de segurança pública aos usuários em sua organização, uma política chamada PublicSafety_Officer é criada para cada política no pacote.
 
-![Captura de tela de políticas no pacote de trabalho clínico da assistência médica](media/policy-packages-public-safety-officer.png)
+![Captura de tela das políticas no pacote de profissionais da saúde](media/policy-packages-public-safety-officer.png)
 
 ## <a name="manage-policy-packages"></a>Gerenciar pacotes de política
 
@@ -101,4 +101,4 @@ Um lote pode conter até 5.000 usuários. Você pode especificar os usuários po
 
 [Gerenciar pacotes de política em equipes](manage-policy-packages.md)
 
-[Atribuir políticas aos usuários no Microsoft Teams](assign-policies.md) 
+[Atribua políticas a seus usuários no Teams](assign-policies.md) 

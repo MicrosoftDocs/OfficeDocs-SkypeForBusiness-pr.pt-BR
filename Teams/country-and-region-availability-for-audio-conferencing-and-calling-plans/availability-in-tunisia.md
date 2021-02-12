@@ -23,7 +23,7 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Aqui estão os serviços do Microsoft 365 e office 365 para Skype for Business e Microsoft Teams disponíveis para a Tunísia.
+description: Aqui estão os serviços do Microsoft 365 e do Office 365 para o Skype for Business e o Microsoft Teams disponíveis para a Tunísia.
 ms.openlocfilehash: 69e3359a56367a14429953dadb50639e497673fc
 ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
@@ -35,7 +35,7 @@ ms.locfileid: "49825451"
 
 [Encontre outro país ou região](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) ou saiba mais sobre a disponibilidade de Audioconferência e planos de chamadas por país e região.
 
-Aqui estão os serviços do Microsoft 365 e office 365 para Skype for Business e Microsoft Teams disponíveis para a Tunísia.
+Aqui estão os serviços do Microsoft 365 e do Office 365 para o Skype for Business e o Microsoft Teams disponíveis para a Tunísia.
   
 ## <a name="audio-conferencing"></a>Audioconferência
 
@@ -64,15 +64,15 @@ Aqui estão os serviços do Microsoft 365 e office 365 para Skype for Business e
 
 Se os Planos de Chamada não estiverem disponíveis para compra, considere a possibilidade de usar o [Roteamento Direto do Sistema de Telefonia](../direct-routing-landing-page.md). Com o Roteamento Direto, você pode usar o Sistema de Telefonia praticamente com qualquer portadora de telefonia.
    
-## <a name="toll-and-toll-free-numbers-for-services"></a>Números gratuitos e gratuitos para serviços
+## <a name="toll-and-toll-free-numbers-for-services"></a>Números de tarifa tarifada e gratuita para serviços
 
 |**Recurso**|**Detalhes**|
 |:-----|:-----|
-|Para quais capitais ou cidades importantes é possível obter números de chamadas tarifadas?   | Não geográfico. Os números de telefone não são vinculados a uma cidade ou local específico. <br/> |
+|Para quais capitais ou cidades importantes é possível obter números de chamadas tarifadas?   | Não geográfico. Os números de telefone não estão vinculados a uma cidade ou local específico. <br/> |
 |Há números de chamada tarifada disponíveis?  <br/> |Sim  <br/> |
-|Os números gratuitos estão disponíveis?  <br/> |Não  <br/> |
+|Os números de tarifa gratuita estão disponíveis?  <br/> |Não  <br/> |
    
- Se você quiser obter números de telefone de chamada tarifada e gratuita para Audioconferência, atendimento automático e filas de chamadas, consulte Obter números de telefone de serviço para o Skype for Business e o [Microsoft Teams.](/microsoftteams/getting-service-phone-numbers)
+ Se você quiser obter números de telefone de chamada tarifada e gratuita para audioconferência, atendimento automático e filas de chamadas, consulte Como obter números de telefone de serviço para o Skype for Business e [o Microsoft Teams.](/microsoftteams/getting-service-phone-numbers)
   
 ## <a name="communications-credits"></a>Créditos de Comunicação
 

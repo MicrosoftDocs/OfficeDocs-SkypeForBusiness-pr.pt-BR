@@ -67,13 +67,13 @@ Para criar uma nova categoria, consulte [Gerenciar categorias no Servidor de Cha
      > [!IMPORTANT]
      > Essa configuração é imposta no servidor porque aplicativos personalizados ou clientes de Chat de Grupo anteriores que usam o Servidor de Chat de Grupo do Office Communications Server 2007 R2 ou o Lync Server 2010, o Chat de Grupo pode postar arquivos em uma sala. O cliente do Lync 2013 não tem capacidade de upload/download de arquivos, portanto, se você tiver uma implantação pura do Lync 2013 ou cliente do Lync 2013, não será possível postar arquivos em uma sala de chat do Servidor de Chat Persistente. 
   
-11. Para controlar o histórico de chat, marque ou des marque a **caixa de seleção Habilitar histórico** de chat. Se for marcada, as salas de chats se tornarão persistentes; caso contrário, as mensagens de chat não serão persistentes. Se a conformidade for habilitada, salas de chats serão salvas em conformidade, mas os usuários não poderão acessar mensagens mais antigas. Essa opção pode ser usada para salas designadas para colaborações ad hoc em tempo real que não precisam persistir no histórico do chat.
+11. Para controlar o histórico de chat, marque ou des limpe a **caixa de seleção Habilitar histórico** de chat. Se for marcada, as salas de chats se tornarão persistentes; caso contrário, as mensagens de chat não serão persistentes. Se a conformidade for habilitada, salas de chats serão salvas em conformidade, mas os usuários não poderão acessar mensagens mais antigas. Essa opção pode ser usada para salas designadas para colaborações ad hoc em tempo real que não precisam persistir no histórico do chat.
     
 12. Em **Editar Categoria**, faça o seguinte:
     
     - In **Membership**, in the **Allowed members section,** add or remove users and other Active Directory Domain Services principals (users, distribution groups, organizational units, and so on) that are allowed to be added as members of chat rooms belonging to the category. As entidades permitidas por uma categoria podem pesquisar por salas na categoria (a menos que uma sala esteja oculta, caso o qual apenas membros da sala podem pesquisar por ela no diretório).
     
-    - Em **Associação,** na seção **Membros** Negados, adicione ou remova usuários e outras entidades do Active Directory associadas aos membros que estão sendo negados da sala.
+    - Em **Associação,** na **seção Membros** Negados, adicione ou remova usuários e outras entidades do Active Directory associadas aos membros que estão sendo negados da sala.
     
     - Em **Associação,** na seção **Criadores,** adicione ou remova usuários e outras entidades do Active Directory associadas aos criadores da categoria. Um criador é um usuário com permissões para criar salas de chat e atribuir gerentes e membros de sala de chat.
     

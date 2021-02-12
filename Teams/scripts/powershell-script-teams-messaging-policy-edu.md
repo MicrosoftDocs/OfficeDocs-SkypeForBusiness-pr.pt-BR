@@ -28,16 +28,16 @@ ms.locfileid: "49804651"
 
 Use este script do PowerShell para criar uma política de mensagens no Microsoft Teams e atribuí-la aos usuários. 
 
-Para obter mais informações sobre como usar esse script do PowerShell, consulte [Início rápido - Teams para Educação.](https://docs.microsoft.com/microsoftteams/teams-quick-start-edu)
+Para obter mais informações sobre como usar este script do PowerShell, consulte [Início rápido – Teams for Education.](https://docs.microsoft.com/microsoftteams/teams-quick-start-edu)
 
-Esse script usa o cmdlet [Grant-CsTeamsMessagingPolicy,](https://docs.microsoft.com/powershell/module/skype/grant-csteamsmessagingpolicy) que está no módulo PowerShell do Skype for Business Online. Consulte [a visão geral do PowerShell do Teams](../teams-powershell-overview.md) para saber mais sobre como gerenciar o Teams usando o PowerShell.
+Este script usa o cmdlet [Grant-CsTeamsMessagingPolicy,](https://docs.microsoft.com/powershell/module/skype/grant-csteamsmessagingpolicy) que está no módulo PowerShell do Skype for Business Online. Confira [a visão geral do Teams PowerShell](../teams-powershell-overview.md) para saber mais sobre como gerenciar o Teams usando o PowerShell.
 
 
 ## <a name="before-you-start"></a>Antes de começar
 
-Baixe e instale o [módulo do PowerShell](https://www.microsoft.com/download/details.aspx?id=39366)do Skype for Business Online e reinicie o computador, se solicitado.
+Baixe e instale o módulo [do PowerShell](https://www.microsoft.com/download/details.aspx?id=39366)do Skype for Business Online e reinicie o computador, se solicitado.
 
-Para se inclinar mais, [consulte Gerenciar o Skype for Business Online com o Office 365 PowerShell.](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)
+Para se inclinar mais, [consulte Gerenciar o Skype for Business Online com o PowerShell do Office 365.](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)
 
 ## <a name="sample-script"></a>Script de exemplo
 
@@ -61,4 +61,4 @@ $dataSetFilePath = "<csv file with user ids for newly provisioned students> "
 ```
 
 > [!NOTE]
-> Você também pode atribuir uma política de mensagens diretamente aos usuários em escala por meio de uma atribuição de política de lote ou a um grupo do que os usuários são membros. Para obter mais informações, [consulte Atribuir políticas a grandes conjuntos de usuários](../batch-group-policy-assignment-edu.md) em sua escola e atribuir políticas aos seus usuários no [Teams.](../assign-policies.md)
+> Você também pode atribuir uma política de mensagens diretamente aos usuários em escala por meio de uma atribuição de política em lote ou a um grupo do que os usuários são membros. Para saber mais, [confira Atribuir políticas a grandes conjuntos](../batch-group-policy-assignment-edu.md) de usuários em sua escola e Atribuir políticas aos usuários no [Teams.](../assign-policies.md)

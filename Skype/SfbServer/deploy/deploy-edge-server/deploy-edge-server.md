@@ -30,9 +30,9 @@ Por que implantar um Servidor de Borda ou um pool de Borda em seu ambiente do Sk
   
 ## <a name="deployment-checklist-for-the-edge-for-skype-for-business-server"></a>Lista de verificação de implantação para o Edge, para o Skype for Business Server
 
-Conforme mencionado acima, muitas coisas vão para uma implantação do Servidor de Borda para o Skype for Business Server. Esta lista de verificação fornece uma visão geral das tarefas que você precisará executar e links para etapas mais detalhadas.
+Conforme mencionado acima, muito entra em uma implantação do Servidor de Borda para o Skype for Business Server. Esta lista de verificação fornece uma visão geral das tarefas que você precisará executar e links para etapas mais detalhadas.
   
-Esperamos que você tenha começado na seção Planejar implantações do Servidor de Borda [no Skype for Business Server.](../../plan-your-deployment/edge-server-deployments/edge-server-deployments.md) Caso não, muitos dos aspectos a que nos referimos estão detalhados lá. A seção de implantação contém apenas procedimentos, portanto, se você quiser saber o raciocínio por trás dessas etapas, o planejamento é o local para começar.
+Esperamos que você tenha começado na seção Planejar implantações do Servidor de Borda [no Skype for Business Server.](../../plan-your-deployment/edge-server-deployments/edge-server-deployments.md) Caso não seja, muitos dos aspectos a que nos referimos estão detalhados lá. A seção de implantação contém apenas procedimentos, portanto, se você quiser saber o raciocínio por trás dessas etapas, o planejamento é o local para começar.
   
 Esta documentação também presume que você já concluiu a Implantação Básica do Skype for Business Server. Você pode estar fazendo essa implantação lado a lado com a Borda, mas precisa seguir essas etapas primeiro e, em seguida, poderá fazer as alterações de topologia para a Borda documentadas aqui.
   

@@ -40,7 +40,7 @@ Selecione  **Habilite a replicação dos dados de configuração para este pool*
   
 ## <a name="next-hop-settings"></a>Configurações de Próximo Salto
 
-Você pode especificar o servidor do próximo salto do pool de servidores de aplicativos confiáveis selecionando o pool de Front-End Enterprise Edition definido ou o Servidor de Front End Standard Edition na lista drop-down. Um Diretor ou pool de Diretores não é uma escolha válida para um próximo salto de servidor de aplicativos confiáveis e não aparecerão na lista.
+Você pode especificar o servidor do próximo salto do pool de servidores de aplicativos confiáveis selecionando o pool de Front-End Enterprise Edition definido ou o Servidor de Front End Standard Edition na lista lista drop-down. Um Diretor ou pool de Diretores não é uma escolha válida para um próximo salto de servidor de aplicativos confiáveis e não aparecerão na lista.
   
 
 

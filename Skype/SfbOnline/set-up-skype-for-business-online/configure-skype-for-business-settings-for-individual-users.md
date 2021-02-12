@@ -33,15 +33,15 @@ ms.locfileid: "48753416"
 # <a name="admins-configure-skype-for-business-settings-for-individual-users"></a>Administradores: Definir as configurações do Skype for Business para usuários individuais
 
 > [!IMPORTANT]
-> O centro de administração do Microsoft Teams substituiu o centro de administração do Skype for Business (Portal herdado). Todas as configurações para gerenciar o Skype for Business agora estão no centro de administração do teams. Você deve receber a função de administrador global do [Azure ad](https://docs.microsoft.com/azure/active-directory/roles/permissions-reference) ou administrador do Skype for Business para gerenciar os recursos do Skype for Business no centro de administração do teams. Para obter mais informações, confira [Gerenciar as configurações do Skype for Business do centro de Administração do Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/skype-for-business-settings?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json).
+> O Centro de administração do Microsoft Teams substituiu o Centro de administração do Skype for Business (portal herdado). Todas as configurações para gerenciar o Skype for Business agora estão no Centro de administração do Teams. Você deve ter a função de administrador do [Azure AD](https://docs.microsoft.com/azure/active-directory/roles/permissions-reference) de Administrador global ou administrador do Skype for Business para gerenciar os recursos do Skype for Business no Centro de administração do Teams. Para obter mais informações, confira [Gerenciar as configurações do Skype for Business do centro de Administração do Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/skype-for-business-settings?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json).
 
-Este artigo explica como os administradores configuram o Skype for Business para um pequeno número de usuários. Para executar essas etapas em massa, incluímos links para os cmdlets do Windows PowerShell que você pode usar.
+Este artigo explica como os administradores configuram o Skype for Business para um pequeno número de usuários. Para fazer essas etapas em massa, incluímos links para os cmdlets do Windows PowerShell que você pode usar.
   
 Para permitir (ou impedir) que todos na empresa se comuniquem com pessoas externas, veja:
   
-- [Permitir que os usuários entrem em contato com usuários externos do Skype for Business](allow-users-to-contact-external-skype-for-business-users.md): você pode permitir que sua organização use recursos avançados do Skype for Business (Compartilhe áreas de trabalho, procure quem está online etc.) para se comunicar com as pessoas de uma empresa confiável (federada) específica. O artigo também explica como bloquear a comunicação com domínios específicos.
+- Permitir que os usuários contatem usuários externos do [Skype for Business:](allow-users-to-contact-external-skype-for-business-users.md)você pode permitir que sua organização use recursos avançados do Skype for Business (compartilhar áreas de trabalho, procurar quem está online, etc.) para se comunicar com pessoas em uma empresa confiável (federada) específica. O artigo também explica como bloquear a comunicação com domínios específicos.
     
-- [Deixe que os usuários do Skype for Business adicionem contatos do Skype](let-skype-for-business-users-add-skype-contacts.md). Você pode permitir que sua organização use o Skype for Business para procurar usuários do aplicativo gratuito Skype e enviar mensagens instantâneas para eles.
+- [Permitir que os usuários do Skype for Business adicionem contatos do Skype.](let-skype-for-business-users-add-skype-contacts.md) Você pode permitir que sua organização use o Skype for Business para procurar usuários do aplicativo gratuito Skype e enviar mensagens instantâneas para eles.
     
 ## <a name="configure-general-settings-for-one-user"></a>Definir configurações gerais para um usuário
 <a name="__toc325019204"> </a>
@@ -50,7 +50,7 @@ Você deve ter [permissões de administrador](https://support.office.com/article
 
 ![Um ícone mostrando o logotipo do Skype for Business](../images/sfb-logo-30x30.png) **Usando o centro de administração do Skype for Business**
   
-1. Entre com sua conta corporativa ou de estudante.
+1. Entre com sua conta do trabalho ou da escola.
     
 2. Escolha **Centros de administração** > **Skype for Business**.
     
@@ -68,18 +68,18 @@ Você deve ter [permissões de administrador](https://support.office.com/article
     
 |**Opção**|**Detalhes**|
 |:-----|:-----|
-|Áudio e vídeo em HD  <br/> |Permita que esta pessoa grave reuniões de áudio, reuniões de áudio e vídeo ou não permita que elas agendem reuniões (nenhuma).  <br/> |
+|Áudio e vídeo em HD  <br/> |Permita que essa pessoa grave reuniões de áudio, reuniões de áudio e vídeo ou não permita que ela agende reuniões (nenhuma).  <br/> |
 |Gravar conversas e reuniões  <br/> |Escolha o que esta pessoa tem permissão para gravar.  <br/> Essa opção não está disponível com o Skype for Business Basic.  <br/> |
-|Para fins de conformidade, desligue os recursos não arquivados  <br/> | Selecione esta opção se você for obrigado legalmente a preservar informações armazenadas eletronicamente. <br/>  Selecionar essa opção desativa os recursos que não são capturados quando você tem um [bloqueio in-loco](https://technet.microsoft.com/library/ff637980%28v=exchg.150%29.aspx) configurado no centro de administração do Exchange. Ele desativa os seguintes recursos: <br/>  Transferência de arquivos usando mensagens de chat <br/>  Páginas do OneNote compartilhadas <br/>  Anotações do PowerPoint <br/> |
+|Para fins de conformidade, desligue os recursos não arquivados  <br/> | Selecione esta opção se você for obrigado legalmente a preservar informações armazenadas eletronicamente. <br/>  A seleção dessa opção desabilita os recursos que não são capturados quando você tem um Hold [In-Place](https://technet.microsoft.com/library/ff637980%28v=exchg.150%29.aspx) definido no Centro de administração do Exchange. Ele desativa os seguintes recursos: <br/>  Transferência de arquivos usando mensagens de chat <br/>  Páginas do OneNote compartilhadas <br/>  Anotações do PowerPoint <br/> |
    
-Para definir essas configurações em massa, use o PowerShell. Consulte [configurar seu computador para Windows PowerShell](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md).
+Para configurar essas configurações em massa, use o PowerShell. Consulte [Configurar seu computador para Windows PowerShell.](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
   
 ## <a name="block-external-communications"></a>Bloquear comunicações externas
 <a name="__toc325019206"> </a>
 
 Depois de [Permitir que os usuários do Skype for Business adicionem contatos do Skype](let-skype-for-business-users-add-skype-contacts.md) para todos na sua empresa, você pode bloquear seletivamente as comunicações externas de indivíduos específicos usando estas etapas.
   
-1. Escolha **usuários**, selecione os usuários cujas configurações você deseja desabilitar e escolha **Editar** ![ Editar ](../images/2f8948c1-e4f3-4022-b9cd-37fed066056e.png) .
+1. Escolha **Usuários,** selecione os usuários cujas configurações você deseja desabilitar e escolha **Editar** ![ ](../images/2f8948c1-e4f3-4022-b9cd-37fed066056e.png) Editar.
     
 2. Escolha **Comunicações externas** e desmarque as opções conforme apropriado:
     
@@ -89,23 +89,23 @@ Depois de [Permitir que os usuários do Skype for Business adicionem contatos do
     
 3. Clique em **Salvar**.
     
-Para definir essas configurações em massa, use o PowerShell. Consulte [configurar seu computador para Windows PowerShell](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md).
+Para configurar essas configurações em massa, use o PowerShell. Consulte [Configurar seu computador para Windows PowerShell.](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
   
-## <a name="edit-audio-conferencing-settings-for-one-user"></a>Editar as configurações de audioconferência de áudio para um usuário
+## <a name="edit-audio-conferencing-settings-for-one-user"></a>Editar configurações de audioconferência para um usuário
 <a name="__toc314837483"> </a>
 
-1. Escolha **usuários**, selecione o usuário cujas configurações de audioconferência você deseja editar e escolha **Editar** ![ Editar ](../images/2f8948c1-e4f3-4022-b9cd-37fed066056e.png) .
+1. Escolha **Usuários,** selecione o usuário cujas configurações de audioconferência você quer editar e escolha  ![ ](../images/2f8948c1-e4f3-4022-b9cd-37fed066056e.png) Editar.
     
-2. Escolha **videoconferência**, selecione seu provedor de serviços de audioconferência, digite ou altere as informações solicitadas e clique em **salvar**.
+2. Escolha **Audioconferência,** selecione seu provedor de audioconferência, digite ou altere as informações solicitadas e clique em **Salvar.**
     
 |**Configuração da audioconferência**|**Descrição**|
 |:-----|:-----|
 |**Nome do provedor** <br/> |Escolha seu provedor na lista.  <br/> |
-|**Número de chamada tarifada** (obrigatório) <br/> |Para um ACP terceirizado, esses números de telefone são aqueles que você recebeu do provedor de serviços de audioconferência. Se o usuário estiver usando o Microsoft como um provedor de audioconferência, estes serão os números definidos na ponte de audioconferência. Formate os números como deseja que eles apareçam nas solicitações de reunião do Skype for Business e do Microsoft Teams.  <br/> |
-|**Número de chamada gratuita** <br/> |Para um ACP terceirizado, esses números de telefone são aqueles que você recebeu do provedor de serviços de audioconferência. Se o usuário estiver usando o Microsoft como um provedor de audioconferência, estes serão os números definidos na ponte de audioconferência. Formate os números como deseja que eles apareçam nas solicitações de reunião do Skype for Business e do Microsoft Teams.  <br/> |
-|**ID de conferência e PIN** (obrigatório) <br/> |O PIN do participante ou o código de conferência usado para ingressar em reuniões agendadas por esse usuário e são fornecidas por um provedor de serviços de audioconferência de terceiros. Se o usuário estiver usando a Microsoft como provedor de serviços de audioconferência, isso não será necessário.  <br/> |
+|**Número de chamada tarifada** (obrigatório) <br/> |Para um ACP de terceiros, esses números de telefone são os que você recebeu do provedor de audioconferência. Se o usuário estiver usando o Microsoft como um provedor de audioconferência, estes serão os números definidos na ponte de audioconferência. For formato os números como você deseja que eles apareçam nas solicitações de reunião do Skype for Business e do Microsoft Teams.  <br/> |
+|**Número de chamada gratuita** <br/> |Para um ACP de terceiros, esses números de telefone são os que você recebeu do provedor de audioconferência. Se o usuário estiver usando o Microsoft como um provedor de audioconferência, estes serão os números definidos na ponte de audioconferência. For formato os números como você deseja que eles apareçam nas solicitações de reunião do Skype for Business e do Microsoft Teams.  <br/> |
+|**ID de conferência e PIN** (obrigatório) <br/> |O PIN do participante, ou código de conferência, usado para ingressar em reuniões agendadas por esse usuário e fornecidos por um provedor de serviços de audioconferência de terceiros. Se o usuário estiver usando a Microsoft como provedor de audioconferência, isso não será necessário.  <br/> |
    
-Para definir essas configurações em massa, use o PowerShell. Consulte [definir os números de telefone incluídos nos convites](../audio-conferencing-in-office-365/set-the-phone-numbers-included-on-invites.md) [configurar seu computador para Windows PowerShell](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md).
+Para configurar essas configurações em massa, use o PowerShell. Consulte [Definir os números de telefone incluídos nos convites](../audio-conferencing-in-office-365/set-the-phone-numbers-included-on-invites.md) Configurar seu computador para Windows [PowerShell.](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
 
 
 [!INCLUDE [LinkedIn Learning Info](../../common/office/linkedin-learning-info.md)]

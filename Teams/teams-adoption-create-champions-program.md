@@ -30,35 +30,35 @@ ms.locfileid: "49825301"
 ---
 # <a name="create-your-champions-program-for-microsoft-teams"></a>Criar seu programa de defensores do Microsoft Teams
 
-Os campeões são essenciais para impulsionar a conscientização, adoção e a educação em sua organização. Um defensor é uma pessoa, principalmente motivada por ajudar outras pessoas, que está interessada em novas tecnologias (especificamente no Teams) e ajudando outros funcionários a usá-la em alinhamento com suas práticas recomendadas. Dependendo do tamanho da sua organização, você pode ter isso como parte formal da função da pessoa, mas geralmente os funcionários assumirão essa função por conta própria devido à motivação principal para ajudar outras pessoas.
+Os campeões são essenciais para impulsionar a conscientização, a adoção e a educação em sua organização. Um campeão é uma pessoa, principalmente motivada por ajudar outras pessoas, que está interessado em novas tecnologias (especificamente o Teams) e ajudar outros funcionários a usá-la em alinhamento com suas práticas recomendadas. Dependendo do tamanho da sua organização, você pode ter essa função como parte formal da função da pessoa, mas muitas vezes os funcionários assumirão essa função por conta própria devido à motivação principal para ajudar outras pessoas.
 
 Os campeões se ajustarão ao seu planejamento geral de lançamento de várias maneiras, conforme mostrado abaixo.
 
-![Ilustração do planejamento de lançamento de campeões](media/teams-adoption-champions.png)
+![Ilustração do planejamento de lançamento dos Campeões](media/teams-adoption-champions.png)
 
 Os campeões devem:
 
-- Ser formalmente treinado para aumentar sua profundidade e amplitude de conhecimento
-- Ser incentivado e capacitado para orientar, ensinar e treinar seus pares
-- Ter uma consistência consistente e positiva que afirme o impacto de seus esforços
+- Ser formalmente treinados para aumentar sua profundidade e largura de conhecimento
+- Ser incentivado e capacitado a orientar, ensinar e treinar seus colegas
+- Tenha um esforço consistente e positivo que afirma o impacto de seus esforços
 - Ter um plano claro para executar
 
-Use nosso [Guia do Programa de](https://go.microsoft.com/fwlink/?linkid=854665) Campeões para criar esse programa em sua organização. Nossas práticas recomendadas para essa comunidade são:
+Use nosso [Guia do Programa de Campeões](https://go.microsoft.com/fwlink/?linkid=854665) para criar este programa em sua organização. Nossas práticas recomendadas para esta comunidade são:
 
-- In join the [Champions Program](https://aka.ms/O365Champions). Certifique-se de que, no mínimo, os líderes do programa Campeões (e potencialmente todos os campeões da empresa) sejam membros do programa. Essa chamada gratuita e mensal da comunidade fornecerá informações valiosas para executar seu próprio programa e obter o máximo do Teams e de outros serviços do Microsoft 365 ou Office 365. Os materiais do programa podem ser reutilizados em seu próprio programa interno.
+- Participe do [Programa de Campeões.](https://aka.ms/O365Champions) Certifique-se de que, no mínimo, os líderes do programa Champions (e potencialmente todos os campeões da empresa) sejam membros do programa. Esta chamada gratuita e mensal da comunidade fornecerá informações valiosas para executar seu próprio programa e obter o máximo do Teams e de outros serviços do Microsoft 365 ou do Office 365. Os materiais do programa podem ser reutilizados em seu próprio programa interno.
 
-- Use a equipe Defensor do Trabalho em Equipe: os defensores devem usar a equipe que você tem configurada para todos os programas de comunicação, comentários e para encontrar recursos.  Ao fazer isso, eles se familiarizarão cada vez mais com o produto e seus benefícios.
+- Use a equipe Campeão do Trabalho em Equipe: seus campeões devem usar a equipe que você tem configurada para todos os programas de comunicação, comentários e para encontrar recursos.  Ao fazer isso, eles se familiarizarão cada vez mais com o produto e seus benefícios.
 
-- Realizar reuniões mensais regulares: promova o entusiasmo e a coesão da sua comunidade realizando reuniões mensais regulares. Elas podem ser uma combinação de reuniões virtuais e pessoalmente, mas sua consistência é fundamental para ter uma comunidade de campeões sem sucesso.
+- Realizar reuniões mensais regulares: Promova o entusiasmo e a coesão da sua comunidade, realizando reuniões mensais regulares. Elas podem ser uma combinação de reuniões presenciais e virtuais, mas sua consistência é fundamental para ter uma comunidade de campeões inconsidores.
 
     > [!TIP]
     > Para ajudar a criar suas agendas, agende suas reuniões para a semana após a chamada da comunidade pública. 
 
-- Seja claro sobre os requisitos de programa: alguns programas defensores exigem que os membros participem das reuniões mensais, mantenha o horário de escritório para o grupo de usuários que eles suportam e forneçam treinamento para novos usuários. Independentemente dos seus requisitos, certifique-se de que os campeões sejam claros sobre como participar com êxito do programa.
+- Seja claro sobre os requisitos do programa: Alguns programas importantes exigem que os membros participem das reuniões mensais, mantenha o horário de trabalho para o grupo de usuários que eles dão suporte e forneça treinamento para novos usuários. Quaisquer que sejam seus requisitos, certifique-se de que os campeões sejam claros sobre como participar com êxito do programa.
 
-- Visibly reward your champions: Your champions will give you important insights into the progress and potential pitfalls of your project. Recompensá-los frequentemente por sua participação. Gestos pequenos são muito longos e, muitas vezes, os funcionários não estão procurando ganho monetário, mas agradecem o reconhecimento de suas contribuições. Encontre maneiras apropriadas e divertidas de agradece à sua comunidade. 
+- Recompensa visivelmente seus campeões: Seus campeões lhe darão informações importantes sobre o progresso e possíveis armadilhas do seu projeto. Recompatribua-os com frequência por sua participação. Gestos pequenos são muito longos e, muitas vezes, os funcionários não estão procurando ganho monetário, mas apreciam o reconhecimento de suas contribuições. Encontre maneiras apropriadas e divertidas de agradecer à sua comunidade. 
 
-- Treinar campeões com frequência e com frequência: seu programa inicia e reuniões mensais podem ser usadas para desenvolver habilidades em sua comunidade de defensores. Use essas oportunidades para dar suporte a eles, conduzir seu treinamento inicial, incentive-os a participar de nossos cursos e certifique-se de que eles estão prontos para dar suporte a seus funcionários à medida que avançam na fase de experimentação.  
+- Treinar os campeões com frequência: seu programa começa e as reuniões mensais podem ser usadas para desenvolver habilidades em sua comunidade de líderes. Use essas oportunidades para trazê-los de volta ao quadro, realizar seu treinamento inicial, incentivá-los a participar de nossos cursos e garantir que eles estão prontos para dar suporte aos funcionários à medida que avançam na fase de experimentos.  
 
-![Um ícone representando a próxima etapa ](media/teams-adoption-next-icon.png) Next: [Concluir o início rápido de governança](teams-adoption-governance-quick-start.md)
+![Um ícone que representa a próxima ](media/teams-adoption-next-icon.png) etapa: [Concluir o início rápido da gestão](teams-adoption-governance-quick-start.md)
 

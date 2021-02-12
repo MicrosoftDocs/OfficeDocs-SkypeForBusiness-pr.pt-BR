@@ -29,54 +29,54 @@ ms.locfileid: "48308094"
 
 **Os modelos personalizados ainda não têm suporte para clientes EDU.**
 
-O Microsoft Teams oferece modelos pré-criados que podem ser salvos e modificados para atender às suas necessidades organizacionais específicas.
+O Microsoft Teams fornece modelos predefinido que podem ser salvos e modificados para atender às suas necessidades organizacionais específicas.
 
-1. Entre no centro de administração do Microsoft Teams.
+1. Entre no Centro de administração do Teams.
 
-2. Na navegação à esquerda **, expanda**  >  **modelos de equipe do teams**.
+2. No painel de navegação esquerdo, **expanda** modelos  >  **de Equipe do** Teams.
 
-3. Na seção **modelos de equipe** , selecione ao lado de um modelo que você deseja duplicar para realçá-lo.
+3. Na seção **Modelos de Equipe,** selecione ao lado de um modelo que você deseja duplicar para realça-lo.
 
-4. Selecione **duplicar**.
+4. Selecione **Duplicar.**
 
-![Uma imagem da caixa de diálogo modelos de equipe com a caixa de diálogo Adicionar realçada.](media/template-duplicate.png)
+![Uma imagem da caixa de diálogo Modelos de Equipe com Adicionar realçada.](media/template-duplicate.png)
 
-(Se preferir, você pode selecionar **Adicionar**  >  **Comece com um modelo existente** para abrir **Selecione o modelo a ser usado como ponto de partida**.)
+(Como alternativa, você pode selecionar **Adicionar**  >  **Comece com um modelo existente para** abrir Selecione o modelo a ser usado como ponto de **partida.**
 
-![Uma imagem da tela de ponto inicial dos modelos de equipe com iniciar com um modelo existente realçado.](media/template-start-existing-template.png)
+![Uma imagem da tela de ponto de partida dos modelos de equipe com Iniciar com um modelo existente realçada.](media/template-start-existing-template.png)
 
-5. Na tela **selecionar o modelo a ser usado como ponto de partida** , selecione **Avançar**.
+5. Na tela **Selecionar o modelo a ser usado como ponto de** partida, selecione **Próximo.**
 
-    O modelo duplicado será aberto e a **cópia** da palavra será acrescentada ao nome.
+    O modelo duplicado é aberto, e a **palavra** Copiar é anexada ao nome.
 
-6. Preencha os campos a seguir e selecione **Avançar**:
+6. Conclua os seguintes campos e selecione **Próximo:**
     - Nome do modelo
-    - Descrições de modelo curto e longo
-    - Visibilidade de localidade  
+    - Descrições breves e longas do modelo
+    - Visibilidade da localidade  
 
-7. Na seção **canais, guias e aplicativos** , modifique os canais existentes e os aplicativos de que sua equipe precisa.
+7. Na seção canais, guias e **aplicativos,** modifique todos os canais e aplicativos existentes de que sua equipe precisa.
 
-    1. Selecione um canal para editar e selecione **Editar**.
-    2. **Aplique** as alterações quando concluir.
+    1. Selecione um canal para editar e selecione **Editar.**
+    2. **Aplique** suas alterações quando terminar.
 
-8. Adicione os canais ou aplicativos de que sua equipe precisa.
+8. Adicione canais ou aplicativos que sua equipe precise.
 
-    1. Na seção **canais** , selecione **Adicionar**.
-    2. Na caixa de diálogo **Adicionar** , nomeie o canal.
+    1. Na seção **Canais,** selecione **Adicionar.**
+    2. Na caixa **de diálogo** Adicionar, nomeia o canal.
     3. Adicione uma descrição.
     4. Decida se o canal deve ser mostrado por padrão.
-    5. Procure o nome de um aplicativo que você deseja adicionar ao canal.
-    6. Selecione **aplicar** quando concluído.
+    5. Pesquise um nome de aplicativo que você deseja adicionar ao canal.
+    6. Selecione **Aplicar** quando terminar.
 
 7. Selecione **Enviar** quando terminar de adicionar canais e aplicativos.
 
     O novo modelo é salvo na biblioteca de modelos.
 
 > [!Note]
-> Pode levar até 24 horas para que os usuários do teams vejam um modelo personalizado na galeria.
+> Pode levar até 24 horas para que os usuários de equipes vejam um modelo personalizado na galeria.
 
 ## <a name="related-articles"></a>Artigos relacionados
 
-- [Introdução aos modelos de equipe no centro de administração](get-started-with-teams-templates-in-the-admin-console.md)
+- [Começar a usar modelos de equipe no centro de administração](get-started-with-teams-templates-in-the-admin-console.md)
 - [Criar um modelo a partir de uma equipe existente](create-template-from-existing-team.md)
 - [Criar um modelo de equipe](create-a-team-template.md)

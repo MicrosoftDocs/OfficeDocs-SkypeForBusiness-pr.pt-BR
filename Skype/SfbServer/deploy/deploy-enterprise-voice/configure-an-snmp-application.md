@@ -15,7 +15,7 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: c4b4a736-3b2e-45b9-a965-19d22161ad57
-description: Configure um aplicativo SNMP para trabalhar com o E9-1-1 no Skype for Business Server Enterprise Voice.
+description: Configure um aplicativo SNMP para funcionar com o E9-1-1 no Skype for Business Server Enterprise Voice.
 ms.openlocfilehash: eb1947f24968dccc6f45b6d8ea3a7df42282a58f
 ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
@@ -25,7 +25,7 @@ ms.locfileid: "49804151"
 ---
 # <a name="configure-an-snmp-application-in-skype-for-business-server"></a>Configurar um aplicativo SNMP no Skype for Business Server
  
-Configure um aplicativo SNMP para trabalhar com o E9-1-1 no Skype for Business Server Enterprise Voice. 
+Configure um aplicativo SNMP para funcionar com o E9-1-1 no Skype for Business Server Enterprise Voice. 
   
 O Skype for Business Server inclui uma interface de serviço Web padrão que você pode usar para conectar o serviço de Informações de Local a aplicativos SNMP (Simple Network Management Protocol) que combinam endereços MAC com informações de porta e de comutamento. 
   

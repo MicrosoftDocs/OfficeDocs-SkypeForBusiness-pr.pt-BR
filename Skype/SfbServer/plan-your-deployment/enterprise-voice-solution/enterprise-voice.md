@@ -33,7 +33,7 @@ Em geral, considere o tipo e o número de sites que você deseja implantar e sua
   
 ## <a name="sites-and-regions"></a>Sites e regiões
 
-Primeiro, identifique os sites em sua topologia onde você implantará o Enterprise Voice e as regiões de rede às quais esses sites pertencem. Especificamente, considere como será fornecida a conectividade PSTN (rede telefônica pública comutada) a cada site. Para motivos de gerenciamento e logística, as regiões às quais esses sites pertencem podem ser um fator decisivo. Decida onde os gateways serão implantados localmente, onde os SBAs (Aparelhos de FilialVivable) serão implantados e onde você poderá configurar os troncos SIP (localmente ou no local central) para um ITSP (provedor de serviços de telefonia pela Internet).
+Primeiro, identifique os sites em sua topologia onde você implantará o Enterprise Voice e as regiões de rede às quais esses sites pertencem. Especificamente, considere como será fornecida a conectividade PSTN (rede telefônica pública comutada) a cada site. Para motivos de gerenciamento e logística, as regiões às quais esses sites pertencem podem ser um fator decisivo. Decida onde os gateways serão implantados localmente, onde serão implantados os Aparelhos de Filial (SBAs) e onde você poderá configurar os troncos SIP (localmente ou no local central) para um PROVEDOR de serviços de telefonia pela Internet (ITSP).
   
 ## <a name="network-links-between-sites"></a>Links de rede entre sites
 

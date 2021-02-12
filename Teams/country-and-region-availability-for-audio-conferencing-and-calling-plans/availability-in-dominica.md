@@ -1,5 +1,5 @@
 ---
-title: Disponibilidade no Dominica
+title: Disponibilidade no site Desa
 ms.author: v-cichur
 author: cichur
 manager: serdars
@@ -24,7 +24,7 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Aqui estão os serviços do Microsoft 365 e office 365 para Skype for Business e Microsoft Teams disponíveis para Dominica.
+description: Aqui estão os serviços do Microsoft 365 e do Office 365 para o Skype for Business e o Microsoft Teams disponíveis para Ela.
 ms.openlocfilehash: 11b2f5fe51629fdac22425f9c045dcdb02252f50
 ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
@@ -32,11 +32,11 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49804711"
 ---
-# <a name="availability-in-dominica"></a>Disponibilidade em Dominica
+# <a name="availability-in-dominica"></a>Disponibilidade em Ltda
 
 [Encontre outro país ou região](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) ou saiba mais sobre a disponibilidade de Audioconferência e planos de chamadas por país e região.
 
-Aqui estão os serviços do Microsoft 365 e office 365 para Skype for Business e Microsoft Teams disponíveis para Dominica.
+Aqui estão os serviços do Microsoft 365 e do Office 365 para o Skype for Business e o Microsoft Teams disponíveis para Ela.
   
 ## <a name="audio-conferencing"></a>Audioconferência
 

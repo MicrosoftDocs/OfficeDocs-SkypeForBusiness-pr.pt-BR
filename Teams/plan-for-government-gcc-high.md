@@ -1,5 +1,5 @@
 ---
-title: Implantações altas do Microsoft 365 governo-GCC
+title: Implantações do Microsoft 365 Government - GCC High
 author: SerdarSoysal
 ms.author: heidip
 manager: serdars
@@ -7,7 +7,7 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.reviewer: daro
-description: Orientação para profissionais de ti para conduzir implantações do Office 365 em entidades que lidam com os dados sujeitos a normas do governo dos EUA.
+description: Diretrizes para profissionais de IT para impulsionar implantações do Office 365 em entidades que lidam com dados sujeitos à regulamentação do governo dos EUA.
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -26,72 +26,72 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 01/20/2021
 ms.locfileid: "49909265"
 ---
-# <a name="plan-for-office-365-government---gcc-high-deployments"></a>Plano para implantações altas do Office 365-GCC
+# <a name="plan-for-office-365-government---gcc-high-deployments"></a>Plano para implantações do Office 365 Government - GCC High
 
-Esta orientação é para os profissionais de ti que estão conduzindo implantações do Office 365 em entidades governamentais federais dos EUA ou outras entidades que lidam com os dados sujeitos a normas e requisitos governamentais, em que o uso do governo 365 do Office – GCC alto é adequado para atender a esses requisitos.
+Essa orientação é para profissionais de IT que conduzem implantações do Office 365 em entidades do governo federal dos EUA ou outras entidades que lidam com dados sujeitos a regulamentações e requisitos governamentais, em que o uso do Office 365 Government – GCC High é apropriado para atender a esses requisitos.
 
 > [!NOTE]
-> Se a sua organização já tiver atendido ao Office 365 governo-os requisitos de elegibilidade de alta qualificação e se foram aceitos para o programa, você poderá ignorar as etapas 1 e 2 e ir direto para a etapa 3.
+> Se sua organização já tiver atendido aos requisitos de alta qualificação do Office 365 Government – GCC High e aplicado e aceito no programa, você pode ignorar as etapas 1 e 2 e ir diretamente para a etapa 3.
 
-## <a name="step-1-determine-whether-your-organization-needs-office-365-government---gcc-high-and-meets-eligibility-requirements"></a>Etapa 1. Determine se a sua organização precisa do Office 365 governo-GCC alto e atenda aos requisitos de qualificação. 
+## <a name="step-1-determine-whether-your-organization-needs-office-365-government---gcc-high-and-meets-eligibility-requirements"></a>Etapa 1. Determine se sua organização precisa do Office 365 Government - GCC High e atende aos requisitos de qualificação. 
 
-O ambiente High do Office 365-GCC High fornece conformidade com os requisitos governamentais dos EUA para serviços de nuvem. Além de desfrutar dos recursos e funcionalidades do Office 365, as organizações se beneficiam dos seguintes recursos exclusivos do Office 365 governo – GCC High:
+O ambiente Office 365 Government - GCC High fornece conformidade com os requisitos do governo dos EUA para serviços de nuvem. Além de aproveitar os recursos e recursos do Office 365, as organizações se beneficiam dos seguintes recursos exclusivos do Office 365 Government – GCC High:
 
-- O conteúdo do cliente da sua organização é logicamente segregado do conteúdo do cliente nos serviços comerciais do Office 365 da Microsoft.
+- O conteúdo do cliente da sua organização é logicamente separado do conteúdo do cliente nos serviços comerciais do Office 365 da Microsoft.
 - O conteúdo do cliente da sua organização é armazenado nos Estados Unidos.
-- O acesso ao conteúdo do cliente da sua organização está restrito ao pessoal da Microsoft em tela.
-- O governo do Office 365 – GCC alta atende a certificações e certificações necessárias para clientes do setor público dos EUA.
+- O acesso ao conteúdo do cliente da sua organização está restrito ao pessoal da Microsoft com tela.
+- Office 365 Government – GCC High atende às certificações e aos credenciamentos necessários para clientes do Setor Público dos EUA.
 
-Você pode encontrar mais informações sobre o governo do Office 365 – melhor oferta para clientes do governo dos EUA em [planos do governo do office 365](https://products.office.com/government/compare-office-365-government-plans), incluindo [requisitos de qualificação](https://products.office.com/government/compare-office-365-government-plans#EligibilityRequirements).
+Você pode encontrar mais informações sobre a oferta do Office 365 Government – GCC High para clientes do governo dos EUA em planos do [Office 365 Government,](https://products.office.com/government/compare-office-365-government-plans)incluindo requisitos [de qualificação.](https://products.office.com/government/compare-office-365-government-plans#EligibilityRequirements)
 
-A [Descrição do serviço governo dos EUA do Office 365](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government) descreve as vantagens da plataforma, que são centralizadas em requisitos de conformidade de reunião nos Estados Unidos.
+A descrição do serviço do Governo dos EUA do [Office 365](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government) descreve os benefícios da plataforma, que são centralizados em atender aos requisitos de conformidade nos Estados Unidos.
 
 
 > [!Tip]
-> Talvez você queira transferir as tabelas de informações na descrição do serviço para uma pasta de trabalho do Excel e adicionar duas colunas: **pertinentes para minha organização y/n** e **atender às necessidades da minha organização y/n**. Em seguida, você pode revisar essa lista com seus colegas para confirmar que esse serviço atende às necessidades da sua organização.
+> Talvez você queira transferir as tabelas de informações na descrição do serviço para uma planilha do Excel e adicionar duas colunas: Relevantes para minha organização **Y/N** e atender às necessidades da minha organização **Y/N.** Em seguida, você pode revisar essa lista com seus colegas para confirmar que esse serviço atende às necessidades da sua organização.
 
 
 |    |     |
 |-----------|------------|
-| ![Um ícone representando pontos de decisão](media/audio_conferencing_image7.png) <br/>Pontos de decisão|<ul><li>Decida se o Office 365 governo-GCC alto é apropriado para sua organização.</li><li>Confirme se a sua organização atende aos requisitos de qualificação.</li></ul> |
+| ![Um ícone representando pontos de decisão](media/audio_conferencing_image7.png) <br/>Pontos de decisão|<ul><li>Decida se o Office 365 Government - GCC High é apropriado para sua organização.</li><li>Confirme se sua organização atende aos requisitos de qualificação.</li></ul> |
 
 > [!Note]
-> O Office 365 governo-GCC High só está disponível nos Estados Unidos. Os clientes do governo dos EUA podem escolher entre vários [planos governamentais do Office 365](https://products.office.com/en/government/compare-office-365-government-plans).
+> O Office 365 Government - GCC High só está disponível nos Estados Unidos. Clientes do governo dos EUA podem escolher entre vários planos [do Office 365 Government.](https://products.office.com/en/government/compare-office-365-government-plans)
 
-## <a name="step-2-apply-for-office-365-government---gcc-high"></a>Etapa 2. Aplicar para o Office 365 governo-GCC alto
+## <a name="step-2-apply-for-office-365-government---gcc-high"></a>Etapa 2. Aplicar ao Office 365 Government – GCC High
 
-Decidisse que esse serviço é ideal para sua organização, inicie o processo de [aplicação para este serviço](https://products.office.com/government/eligibility-validation).
+Tendo decidido que esse serviço é o certo para sua organização, inicie o processo [de aplicação desse serviço.](https://products.office.com/government/eligibility-validation)
 
 
-## <a name="step-3-understand-office-365-government---gcc-high-default-security-settings"></a>Etapa 3. Compreenda as configurações de segurança padrão do governo do Office 365-GCC alto.
+## <a name="step-3-understand-office-365-government---gcc-high-default-security-settings"></a>Etapa 3. Entenda as configurações de segurança padrão do Office 365 Government - GCC High.
 
-Recomendamos que você leve tempo para revisar cuidadosamente suas [configurações de administrador e de segurança](enable-features-office-365.md) antes de modificá-las e considerar o impacto sobre a conformidade antes de fazer qualquer alteração nas configurações de segurança padrão.
+Recomendamos que você tenha tempo [](enable-features-office-365.md) para revisar cuidadosamente as configurações de segurança e administrador antes de modificá-las e considerar os impactos na conformidade antes de fazer alterações nas configurações de segurança padrão.
 
 |    |     |
 |-----------|------------|
-| ![Um ícone representando um ponto de decisão](media/audio_conferencing_image7.png) <br/>Ponto de decisão|<ul><li>Decida se você precisará modificar qualquer uma das configurações padrão de alta segurança do governo do Office 365-GCC, resolvendo para entender primeiro o impacto de qualquer alteração que você possa fazer.</li></ul> |
+| ![Um ícone representando um ponto de decisão](media/audio_conferencing_image7.png) <br/>Ponto de decisão|<ul><li>Decida se você precisará modificar qualquer uma das configurações padrão do Office 365 Government - GCC High security settings, resolvendo primeiro entender o impacto de quaisquer alterações que você possa fazer.</li></ul> |
 
 
-## <a name="step-4-understand-which-teams-capabilities-are-currently-available-in-office-365-government---gcc-high"></a>Etapa 4. Entender quais recursos do teams estão disponíveis no momento no Office 365 governo-GCC alto
+## <a name="step-4-understand-which-teams-capabilities-are-currently-available-in-office-365-government---gcc-high"></a>Etapa 4. Compreender quais recursos do Teams estão disponíveis no Momento no Office 365 Government – GCC High
 
-Para acomodar os requisitos de nossos clientes de nuvem governamental, há algumas diferenças entre as equipes do Office 365 do governo-GCC alta e as equipes nos planos empresariais. Consulte a tabela a seguir para ver os recursos disponíveis.
+Para acomodar os requisitos de nossos clientes de nuvem do governo, existem algumas diferenças entre o Teams no Office 365 Government – GCC High e o Teams nos planos Enterprise. Confira a tabela a seguir para ver quais recursos estão disponíveis.
 
-[Descrição do serviço do Microsoft Teams](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)
+[Descrição do serviço microsoft teams](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)
 
-## <a name="step-5-plan-for-governance"></a>Etapa 5. Plano de governança
+## <a name="step-5-plan-for-governance"></a>Etapa 5. Plano de gestão
 
-Determine suas necessidades de governança e como você pode atendê-las. Vá para [plano de governança no Teams](plan-teams-governance.md) para obter mais informações.
+Determine seus requisitos de governança e como você pode atender a eles. Vá para [Plano de governança no Teams](plan-teams-governance.md) para obter mais informações.
 
 |         |         |         |
 |---------|---------|---------|
-|<img src="media/audio_conferencing_image7.png" alt="An icon depicting a decision point"/>|Ponto de decisão |<ul><li>Determine e documente seus requisitos de governança, seguindo as diretrizes de [plano de controle no Teams](plan-teams-governance.md). </li></ul>|
+|<img src="media/audio_conferencing_image7.png" alt="An icon depicting a decision point"/>|Ponto de decisão |<ul><li>Determine e documente seus requisitos de gestão, seguindo as diretrizes no [Plano de governança no Teams.](plan-teams-governance.md) </li></ul>|
 
-## <a name="step-6-deploy-teams-for-collaboration"></a>Etapa 6. Implantar equipes para colaboração
+## <a name="step-6-deploy-teams-for-collaboration"></a>Etapa 6. Implantar o Teams para colaboração
 
-Depois de ter sido integrado ao Office 365 governo – GCC High, siga o caminho de implantação recomendado descrito em [como implantar o Microsoft Teams](How-to-roll-out-teams.md). Não deixe de entrar em contato com sua equipe de adoção e gerenciamento de mudanças e especialistas do teams.
+Depois de integração com o Office 365 Government – GCC High, siga o caminho de implantação recomendado descrito em Como lançar [o Microsoft Teams.](How-to-roll-out-teams.md) Certifique-se de interagir com sua equipe de Adoção e Gerenciamento de Alterações e os campeões do Teams.
 
-Você também pode trabalhar com o [FastTrack](https://www.microsoft.com/fasttrack) ou o parceiro escolhido para onboard do serviço.
+Você também pode trabalhar com [o FastTrack ou](https://www.microsoft.com/fasttrack) seu parceiro escolhido para integrar o serviço.
 
 > [!NOTE]
-> Ainda não há suporte para o cliente das equipes do Mac para ambientes GCCH.
+> O cliente do Mac Teams para ambientes GCCH ainda não tem suporte.
 

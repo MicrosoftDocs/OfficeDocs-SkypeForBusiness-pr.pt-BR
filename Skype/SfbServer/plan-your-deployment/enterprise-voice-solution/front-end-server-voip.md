@@ -15,7 +15,7 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 310e81a7-da45-47d4-95d0-92837e386502
-description: Saiba mais sobre os componentes do Enterprise Voice localizados nos Servidores front-end no Skype for Business Server, incluindo o serviço de tradução e vários componentes de roteamento.
+description: Saiba mais sobre os componentes do Enterprise Voice localizados nos Servidores Front-End no Skype for Business Server, incluindo o serviço de tradução e vários componentes de roteamento.
 ms.openlocfilehash: fcf1e30c0f6bbe0a292de54e4cc4b264774f9c7f
 ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
@@ -25,7 +25,7 @@ ms.locfileid: "49825651"
 ---
 # <a name="front-end-server-voip-components-for-skype-for-business-server"></a>Componentes VoIP do Servidor Front End para o Skype for Business Server
 
-Saiba mais sobre os componentes do Enterprise Voice localizados nos Servidores front-end no Skype for Business Server, incluindo o serviço de tradução e vários componentes de roteamento.
+Saiba mais sobre os componentes do Enterprise Voice localizados nos Servidores Front-End no Skype for Business Server, incluindo o serviço de tradução e vários componentes de roteamento.
 
 Os componentes VoIP localizados em Servidores Front-End são os seguinte:
 
@@ -81,7 +81,7 @@ Outros componentes que residem no Servidor de Front End ou diretor que oferecem 
 
 - **Serviços do Usuário.** Realiza a pesquisa de número inverso no telefone de destino para cada chamada de entrada e corresponde esse número ao URI SIP do usuário de destino. Usando essas informações, o componente de Roteamento de Entrada distribui a chamada para os pontos de extremidade SIP registrados desse usuário. Os Serviços do Usuário são um componente principal em todos os Servidores e Diretores front-end.
 
-- **Replicador do Usuário.** Extrai os números de telefone do usuário dos Serviços de Domínio Active Directory e grava-os em tabelas no banco de dados RTC, onde eles estão disponíveis para os Serviços do Usuário e o Servidor do Address Book. O Replicador de usuários é um componente principal em todos os Servidores Front-End.
+- **Replicador do Usuário.** Extrai os números de telefone do usuário dos Serviços de Domínio Active Directory e os grava em tabelas no banco de dados RTC, onde eles estão disponíveis para os Serviços do Usuário e o Servidor do Address Book. O Replicador de usuários é um componente principal em todos os Servidores Front-End.
 
 - **Servidor do Catálogo de Endereço.** Fornece informações da lista de endereços global dos Serviços de Domínio Active Directory para clientes do Skype for Business Server. Ele também recupera informações de usuário e contato do banco de dados RTC, grava as informações nos arquivos do Address Book e armazena os arquivos em uma pasta compartilhada onde eles são baixados pelos clientes do Skype for Business. O Servidor de Agenda grava as informações no banco de dados RTCAb, que é usado pelo serviço de Consulta à Web do Address Book para responder às consultas de pesquisa do usuário do Skype for Business Mobile. Opcionalmente, normaliza os números de telefone de usuários corporativos gravados no banco de dados RTC para fins de provisionamento de contatos do usuário no Skype for Business. O serviço de Agendamento de Endereços é instalado por padrão em todos os Servidores Front-End. O serviço de Consulta à Web do Address Book é instalado por padrão com os serviços Web em cada Servidor Front-End.
 

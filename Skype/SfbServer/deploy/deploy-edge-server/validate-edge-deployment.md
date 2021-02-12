@@ -24,7 +24,7 @@ ms.locfileid: "49804351"
 ---
 # <a name="validate-your-edge-deployment-in-skype-for-business-server"></a>Validar sua implantação de Borda no Skype for Business Server
  
-**Resumo:** Saiba como verificar se a implantação do Servidor de Borda ou pool de Servidores de Borda está funcionando no Skype for Business Server.
+**Resumo:** Saiba como verificar se a implantação do Servidor de Borda ou do pool de Servidores de Borda está funcionando no Skype for Business Server.
   
 Depois de ter implantado seu Servidor de Borda ou pool de Servidores de Borda, você precisará saber se ele está funcionando corretamente. Aqui estão algumas coisas que podem ajudar na confirmação de que seu ambiente de Borda está conectado aos seus servidores internos e também que seus usuários externos podem se conectar ao seu ambiente do Skype for Business Server por meio de sua Borda.
   
@@ -32,7 +32,7 @@ Depois de ter implantado seu Servidor de Borda ou pool de Servidores de Borda, v
 
 Embora a validação da conectividade seja feita automaticamente no Servidor de Borda ou no pool do Servidor de Borda quando os Servidores de Borda são instalados, você ainda pode confirmar isso por conta própria com o Windows PowerShell. Execute o cmdlet Get-CsManagementStoreReplicationStatus no servidor interno que tem o armazenamento de Gerenciamento Central ou em qualquer computador ingressado no domínio no qual os Componentes Principais do Skype for Business Server (OcsCore.msi) estão instalados.
   
-O resultado inicial da execução deste comando pode dar um status False, em vez de True, para replicação. Se isso acontecer, execute o Invoke-CsManagementStoreReplication cmdlet. Dê algum tempo para concluir a replicação e execute o cmdlet Get-CsManagementStoreReplicationStatus novamente.
+O resultado inicial da execução desse comando pode dar um status False, em vez de True, para replicação. Se isso acontecer, execute o Invoke-CsManagementStoreReplication cmdlet. Dê a ele algum tempo para concluir a replicação e, em seguida, execute o cmdlet Get-CsManagementStoreReplicationStatus novamente.
   
 ## <a name="verify-connectivity-for-your-external-users"></a>Verificar a conectividade de seus usuários externos
 
@@ -42,7 +42,7 @@ Temos uma ótima ferramenta para confirmar sua configuração do Servidor de Bor
 
 Qualquer teste de acesso de usuário externo precisa incluir cada tipo de usuário interno compatível com sua organização, o que pode incluir qualquer um ou todos os seguintes:
   
-- Os usuários de pelo menos um domínio federado (recomendamos testá-los todos).
+- No entanto, os usuários de pelo menos um domínio federado (recomendamos testá-los todos).
     
 - Usuários anônimos.
     

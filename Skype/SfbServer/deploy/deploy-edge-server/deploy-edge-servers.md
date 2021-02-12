@@ -51,7 +51,7 @@ Conforme anotou no Planejamento, você configurará sua interface de rede com DN
     
    a. Três endereços IP estáticos na sub-rede da rede de perímetro externa e apontam o gateway padrão para a interface interna do firewall externo. Configure as configurações DNS do adaptador para apontar para um par de servidores DNS de perímetro.
     
-   b. Um endereço IP estático na sub-rede da rede de perímetro externa e aponte o gateway padrão para a interface interna do firewall externo. Configure as configurações DNS do adaptador para apontar para um par de servidores DNS de perímetro. Essa configuração só será aceitável se você tiver configurado anteriormente sua topologia para ter valores não padrão nas atribuições de porta, o que é abordado no artigo Criar sua topologia de Borda para [o Skype for Business Server.](create-your-edge-topology.md)
+   b. Um endereço IP estático na sub-rede da rede de perímetro externa e aponte o gateway padrão para a interface interna do firewall externo. Configure as configurações dns do adaptador para apontar para um par de servidores DNS de perímetro. Essa configuração só será aceitável se você tiver configurado anteriormente sua topologia para ter valores não padrão nas atribuições de porta, o que é abordado no artigo Criar sua topologia de Borda para [o Skype for Business Server.](create-your-edge-topology.md)
     
 3. Em sua interface interna, configure um IP estático na sub-rede da rede de perímetro e não configure um gateway padrão. Configure as configurações de DNS do adaptador para apontar para pelo menos um servidor DNS, mas preferencialmente um par de servidores DNS de perímetro.
     
@@ -82,11 +82,11 @@ Para concluir essas etapas com êxito, você precisará ter seguido as etapas no
   
 1. Faça logoff no servidor que você configurou para a função de Servidor de Borda com uma conta que está no grupo do Administrador local.
     
-2. Você precisará do arquivo de configuração de topologia copiado no final da documentação de Topologia do Servidor de Borda neste computador. Acesse a mídia externa em que você colocou o arquivo de configuração (como uma unidade USB ou compartilhamento).
+2. Você precisará do arquivo de configuração de topologia copiado no final da documentação da Topologia do Servidor de Borda neste computador. Acesse a mídia externa em que você colocou o arquivo de configuração (como uma unidade USB ou compartilhamento).
     
 3. Inicie o **Assistente de Implantação.**
     
-4. Depois que o assistente abrir, clique **em Instalar ou Atualizar o Sistema do Skype for Business Server.**
+4. Depois que o assistente abrir, **clique em Instalar ou Atualizar o Sistema do Skype for Business Server.**
     
 5. O assistente executará verificações para ver se algo já está instalado. Como esta é a primeira vez que o assistente é executado, você vai querer começar na **Etapa 1. Instale o Armazenamento de Configuração Local.**
     
@@ -109,7 +109,7 @@ Os requisitos de certificado para o Servidor de Borda podem ser encontrados na d
 > [!NOTE]
 > Ao executar o Assistente de Certificado, você precisa estar conectado como uma conta com as permissões corretas para o tipo de modelo de certificado que você vai usar. Por padrão, uma solicitação de certificado do Skype for Business Server usará o modelo de certificado do Servidor Web. Se você estiver conectado com uma conta que seja membro do grupo RTCUniversalServerAdmins para solicitar um certificado por meio desse modelo, verifique se o grupo recebeu as permissões de Registro para usar esse modelo. 
   
-### <a name="internal-edge-interface-certificates"></a>Certificados da interface de Borda Interna
+### <a name="internal-edge-interface-certificates"></a>Certificados de interface de Borda Interna
 
  
 ### <a name="1-download-or-export-the-ca-certification-chain"></a>1. Baixar ou exportar a cadeia de certificação da AC
@@ -131,7 +131,7 @@ Os requisitos de certificado para o Servidor de Borda podem ser encontrados na d
   https://ca01/contoso.com/certsrv
   ```
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;iii. Na página web certsrv da CA de emissão, em Selecionar uma **tarefa,** clique em Baixar um certificado de autoridade de certificação, cadeia de certificados **ou CRL**.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;iii. Na página web certsrv da CA de emissão, em Selecionar uma **tarefa,** clique em Baixar um certificado de autoridade de certificação, cadeia de certificados **ou CRL.**
     
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;iv. Em **Baixar um certificado de AC, cadeia de certificados ou CRL,** clique em Baixar cadeia de **certificados da AC.**
     
@@ -163,7 +163,7 @@ Os requisitos de certificado para o Servidor de Borda podem ser encontrados na d
     
 ### <a name="2-import-the-ca-certification-chain"></a>2. Importar a cadeia de certificação da AC
 
-&nbsp;&nbsp;&nbsp;a. Em cada Servidor de Borda, abra o MMC **(escolha** Iniciar e Executar **ou** Pesquisar **e** digite **MMC** para abrir).
+&nbsp;&nbsp;&nbsp;a. Em cada Servidor de Borda, abra o MMC **(escolha** Iniciar e **Executar** **ou** Pesquisar e digite **MMC** para abrir).
     
 &nbsp;&nbsp;&nbsp;b. No menu **Arquivo,** clique **em Adicionar/Remover Snap-in** e escolha **Adicionar**.
     
@@ -173,7 +173,7 @@ Os requisitos de certificado para o Servidor de Borda podem ser encontrados na d
     
 &nbsp;&nbsp;&nbsp;e. Na caixa **de diálogo** Selecionar Computador, verifique se a caixa de seleção Computador **Local: (o** computador em que este console está sendo executado) está marcada e clique em **Concluir.**
     
-&nbsp;&nbsp;&nbsp;f. Clique **em Fechar** e em **OK.**
+&nbsp;&nbsp;&nbsp;f. Clique **em Fechar** e EM **OK.**
     
 &nbsp;&nbsp;&nbsp;g. Na árvore de console, expanda **Certificados (Computador Local),** clique com o botão direito do mouse em **Autoridades** de Certificação Raiz Confiáveis, vá para Todas as Tarefas e clique em **Importar.**
     
@@ -292,7 +292,7 @@ Os requisitos de certificado para o Servidor de Borda podem ser encontrados na d
     
 &nbsp;&nbsp;&nbsp;f. Na página de conclusão do assistente, clique em **Concluir**.
     
-&nbsp;&nbsp;&nbsp;g. Depois de concluir este procedimento, é uma boa ideia abrir o snap-in MMC de Certificados em cada Servidor de Borda, expandir **Certificados (Computador Local),** expandir **Pessoal,** clicar em **Certificados** e confirmar se o certificado de Borda interno está listado no painel de detalhes.
+&nbsp;&nbsp;&nbsp;g. Depois de concluir este procedimento, é uma boa ideia abrir o snap-in MMC de Certificados em cada Servidor de Borda, expandir **Certificados (computador local),** expandir **Pessoal,** clicar em **Certificados** e confirmar se o certificado de Borda interno está listado no painel de detalhes.
     
 ### <a name="external-edge-interface-certificates"></a>Certificados da interface de Borda Externa
 

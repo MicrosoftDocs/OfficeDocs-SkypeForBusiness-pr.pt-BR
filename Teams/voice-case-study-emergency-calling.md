@@ -1,5 +1,5 @@
 ---
-title: Estudo de caso da Contoso Voice Teams
+title: Estudo de caso do Teams voice Contoso
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -13,7 +13,7 @@ ms.reviewer: jowrig
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Estudo de caso de voz do teams para Multi-National Corporation
+description: Estudo de caso de voz do Teams para corporação multinacional
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: e4503576df8d8e9f3d332cda45eb235d8162cf53
@@ -23,92 +23,92 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/18/2020
 ms.locfileid: "44785945"
 ---
-# <a name="contoso-case-study-emergency-calling"></a>Estudo de caso da Contoso: chamadas de emergência
+# <a name="contoso-case-study-emergency-calling"></a>Estudo de caso da Contoso: Chamada de emergência
 
-Para entender a disponibilidade de chamadas de emergência e terminologia relacionada ao endereço de emergência de chamada de emergência &mdash; , lugar, local de emergência e endereço cadastrado, a &mdash; contoso revisou [gerenciar chamadas de emergência](what-are-emergency-locations-addresses-and-call-routing.md) e [planejar e configurar chamadas de emergência dinâmicas](configure-dynamic-emergency-calling.md).
+Para entender a disponibilidade de chamada de emergência e terminologia relacionadas a chamada de emergência, Endereço, Local, Localização de Emergência e Endereço Registrado, a Contoso revisou Gerenciar chamada e plano de emergência e configurou uma chamada de emergência &mdash; &mdash; [dinâmica.](configure-dynamic-emergency-calling.md) [](what-are-emergency-locations-addresses-and-call-routing.md)
 
-No Office 365, um usuário do plano de chamada é habilitado automaticamente para chamadas de emergência. Mas somente os usuários de plano de chamada nos Estados Unidos podem usar locais dinâmicos para direcionar as chamadas de emergência. 
+No Office 365, um usuário do Plano de Chamada é habilitado automaticamente para chamada de emergência. Mas somente usuários do Plano de Chamada nos Estados Unidos podem usar locais dinâmicos para rotear chamadas de emergência. 
 
-Para direcionamento direto, a contoso aprendeu que uma configuração adicional é necessária para roteamento de chamadas de emergência e possivelmente para conectividade de parceiros. O administrador deve configurar a conexão para um provedor de serviços de roteamento de emergência (ERSP) (Estados Unidos) ou configurar o controlador de borda de sessão (SBC) para um aplicativo de número de identificação de localização de emergência (ELIN).
+Para o Roteamento Direto, a Contoso aprendeu que é necessária uma configuração adicional para o roteamento de chamadas de emergência e possivelmente para a conectividade do parceiro. O administrador deve configurar a conexão com um ERSP (Provedor de Serviços de Roteamento de Emergência) (Estados Unidos) OU configurar o Controlador de Borda de Sessão (SBC) para um aplicativo ELIN (Número de Identificação de Localização de Emergência).
 
-A contoso tem escritórios nos Estados Unidos e fora dos Estados Unidos:
+A Contoso tem escritórios nos Estados Unidos e fora dos Estados Unidos:
 
-- Nos Estados Unidos, os usuários do plano de chamadas da Contoso podem usar locais dinâmicos para direcionar as chamadas de emergência. 
+- Nos Estados Unidos, os usuários do Plano de Chamada da Contoso podem usar locais dinâmicos para rotear chamadas de emergência. 
 
-- Fora dos Estados Unidos, a contoso tem alguns sites que usam planos de chamadas e alguns sites conectados ao sistema telefônico por meio de roteamento direto.
+- Fora dos Estados Unidos, a Contoso tem alguns sites que usam Planos de Chamada e alguns sites conectados ao Sistema de Telefonia por meio do Roteamento Direto.
 
-## <a name="emergency-calling-use-cases"></a>Casos de uso de chamadas de emergência
+## <a name="emergency-calling-use-cases"></a>Casos de uso de chamada de emergência
 
-Depois de decidir como a contoso se conectará ao sistema telefônico, a contoso identificou os seguintes casos de uso de chamadas de emergência: 
+Depois de decidir como a Contoso se conectará ao sistema telefônico, a Contoso identificou os seguintes casos de uso de chamadas de emergência: 
 
-- [Usuário do plano de chamada nos Estados Unidos](#calling-plan-user-in-the-united-states) 
+- [Usuário do Plano de Chamada nos Estados Unidos](#calling-plan-user-in-the-united-states) 
 
-- [Plano de chamada usuário fora dos Estados Unidos](#calling-plan-user-outside-of-the-united-states)
+- [Usuário do Plano de Chamada fora dos Estados Unidos](#calling-plan-user-outside-of-the-united-states)
 
-- [Usuário que se conecta ao sistema telefônico por meio do roteamento direto](#user-who-connects-to-phone-system-through-direct-routing )
+- [Usuário que se conecta ao Sistema telefônico por meio de Roteamento Direto](#user-who-connects-to-phone-system-through-direct-routing )
 
 
-### <a name="calling-plan-user-in-the-united-states"></a>Usuário do plano de chamada nos Estados Unidos  
+### <a name="calling-plan-user-in-the-united-states"></a>Usuário do Plano de Chamada nos Estados Unidos  
 
-Há requisitos para quando o número de telefone precisa estar associado a um local de emergência. Para compreender esses requisitos, a contoso revisou as [considerações para planos de chamada](what-are-emergency-locations-addresses-and-call-routing.md#considerations-for-calling-plans). 
+Há requisitos para quando o número de telefone precisa estar associado a um local de emergência. Para entender esses requisitos, a Contoso [reviu Considerações sobre Planos de Chamada.](what-are-emergency-locations-addresses-and-call-routing.md#considerations-for-calling-plans) 
 
 Com base nesses requisitos, a Contoso decidiu associar o local ao número de telefone quando um número é atribuído a um usuário nos Estados Unidos.
 
-### <a name="calling-plan-user-outside-of-the-united-states"></a>Plano de chamada usuário fora dos Estados Unidos 
+### <a name="calling-plan-user-outside-of-the-united-states"></a>Usuário do Plano de Chamada fora dos Estados Unidos 
 
-Para entender quando um número de telefone precisa estar associado a um local de emergência, a contoso revisou as [considerações para planos de chamada](what-are-emergency-locations-addresses-and-call-routing.md#considerations-for-calling-plans). Com base nos requisitos, a Contoso decidiu o seguinte:  
+Para entender quando um número de telefone precisa ser associado a um local de emergência, a Contoso revisões considerações [sobre planos de chamada.](what-are-emergency-locations-addresses-and-call-routing.md#considerations-for-calling-plans) Com base nos requisitos, a Contoso decidiu o seguinte:  
 
--  A contoso associará o local ao número de telefone quando um número for atribuído a um usuário no Canadá. 
+-  A Contoso associará o local ao número de telefone quando um número for atribuído a um usuário no Canadá. 
 
-- A contoso atribuirá um local de emergência quando o número de telefone for adquirido do Office 365 ou quando um número for transferido de outro provedor de serviços ou operadora. 
+- A Contoso atribuirá um local de emergência quando o número de telefone for adquirido do Office 365 ou quando um número for transferido de outro provedor de serviços ou operadora. 
 
-### <a name="user-who-connects-to-phone-system-through-direct-routing"></a>Usuário que se conecta ao sistema telefônico por meio do roteamento direto 
+### <a name="user-who-connects-to-phone-system-through-direct-routing"></a>Usuário que se conecta ao Sistema telefônico por meio de Roteamento Direto 
 
-Para planejar o roteamento de emergência para esse caso de uso, a contoso revisou as [considerações para roteamento direto](what-are-emergency-locations-addresses-and-call-routing.md#considerations-for-direct-routing). Como os usuários de roteamento direto não recebem chamadas de emergência da mesma maneira que os usuários do plano de chamadas, a Contoso tinha que decidir como fazer chamadas de emergência. O roteamento direto pode ser conectado a um provedor de serviços de roteamento de emergência (ERSP). O roteamento direto também pode ter um SBC que inclui um número de identificação de localização de emergência (ELIN).   
+Para planejar o roteamento de emergência para esse caso de uso, a Contoso [revisou Considerações sobre Roteamento Direto.](what-are-emergency-locations-addresses-and-call-routing.md#considerations-for-direct-routing) Como os usuários do Roteamento Direto não recebem chamadas de emergência da mesma maneira que os usuários do Plano de Chamada, a Contoso teve que decidir como fazer chamadas de emergência. O Roteamento Direto pode ser conectado a um ERSP (Provedor de Serviços de Roteamento de Emergência). O Roteamento Direto também pode ter um SBC que inclui um ELIN (Número de Identificação de Localização de Emergência).   
 
-#### <a name="emergency-routing-service-provider-ersp-considerations"></a>Considerações sobre o provedor de serviços de roteamento de emergência (ERSP)
+#### <a name="emergency-routing-service-provider-ersp-considerations"></a>Considerações sobre o PROVEDOR de Serviços de Roteamento de Emergência (ERSP)
 
-Os provedores de serviços de roteamento de emergência (ERSPs) podem rotear automaticamente as chamadas de emergência com base na localização do chamador.  
+Os ERSPs (Provedores de Serviços de Roteamento de Emergência) podem rotear automaticamente chamadas de emergência com base na localização do chamador.  
 
-- Se um provedor de serviços de roteamento de emergência estiver integrado a uma implantação de roteamento direto, as chamadas de emergência com um local adquirido dinamicamente serão automaticamente roteadas para o ponto de resposta de segurança pública (PSAP) que está servindo essa localização. 
+- Se um Provedor de Serviços de Roteamento de Emergência estiver integrado a uma implantação de Roteamento Direto, as chamadas de emergência com um local adquirido dinamicamente serão automaticamente roteada para o PSAP (Ponto de Atendimento de Segurança Pública) que atende a esse local. 
 
-- As chamadas de emergência sem um local adquirido dinamicamente são organizadas em primeiro lugar para determinar a localização atual do usuário antes de conectar a chamada ao centro de expedição apropriado com base no local atualizado. 
+- As chamadas de emergência sem um local adquirido dinamicamente são primeiramente teladas para determinar a localização atual do usuário antes de conectar a chamada ao centro de expedição apropriado com base no local atualizado. 
 
 
-#### <a name="elin-considerations"></a>Considerações sobre o ELIN
+#### <a name="elin-considerations"></a>Considerações sobre OLIN
 
-Se um aplicativo ELIN do SBC estiver integrado a uma implantação de roteamento direto, etapas de configuração adicionais precisarão ocorrer para associar os endereços de emergência a números de telefone.  
+Se um aplicativo ELIN SBC estiver integrado a uma implantação de Roteamento Direto, etapas de configuração adicionais precisarão ocorrer para associar os endereços de emergência aos números de telefone.  
 
-A Contoso decidiu usar os controladores de borda de sessão que incluem aplicativos de número de identificação de local de emergência (ELIN).  
+A Contoso decidiu usar controladores de borda de sessão que incluem aplicativos ELIN (Número de Identificação de Localização de Emergência).  
 
-## <a name="security-desk-notification"></a>Notificação de segurança técnica
+## <a name="security-desk-notification"></a>Notificação de segurança
 
-A capacidade de notificar a mesa de segurança quando uma chamada de emergência é feita está disponível para planos de chamadas da Microsoft e roteamento direto do sistema telefônico. A contoso revisou os detalhes na notificação de segurança para determinar se isso deve ser configurado em seus escritórios  
+A capacidade de notificar a central de segurança quando uma chamada de emergência é feita está disponível para os Planos de Chamada da Microsoft e o Roteamento Direto do Sistema de Telefonia. A Contoso revisou os detalhes na notificação de Segurança para determinar se isso deve ser configurado em seus escritórios  
 
-A Contoso decidiu usar a notificação de segurança técnica.
+A Contoso decidiu usar a notificação de segurança.
 
 ## <a name="configuration"></a>Configuração 
 
-A contoso seguiu as etapas em [Configurar chamadas de emergência dinâmicas](configure-dynamic-emergency-calling.md) para: 
+A Contoso seguiu as etapas em [Configurar chamada de emergência dinâmica](configure-dynamic-emergency-calling.md) para: 
 
 - Atribuir endereços de emergência 
 
 - Definir configurações de rede 
 
-- Configurar o serviço de informações de localização 
+- Configurar o Serviço de Informações de Localização 
 
 - Configurar políticas de emergência 
 
 - Habilitar usuários e sites 
 
-- Testar chamadas de emergência 
+- Testar chamada de emergência 
 
-Após a configuração da chamada de emergência dinâmica, a contoso precisava atribuir o local ao usuário adequado.  
+Após a configuração de chamada de emergência dinâmica, a Contoso precisa atribuir o local ao usuário apropriado.  
 
-- Para adicionar, alterar ou remover um local de emergência de sua organização, a contoso seguiu as etapas em [Adicionar, alterar ou remover um local de emergência para sua organização](add-change-remove-emergency-location-organization.md)
+- Para adicionar, alterar ou remover um local de emergência para sua organização, a Contoso seguiu as etapas em [Adicionar,](add-change-remove-emergency-location-organization.md) alterar ou remover um local de emergência para sua organização
 
-- Para criar locais para edifícios, andares e escritórios, a contoso seguiu as etapas em [Adicionar, alterar ou remover um local para um local de emergência](add-change-remove-emergency-place-organization.md) . 
+- Para criar locais para edifícios, andares e escritórios, a Contoso seguiu as etapas em Adicionar, alterar ou remover um local para um local [de emergência.](add-change-remove-emergency-place-organization.md) 
 
-- Para atribuir um local de emergência, a contoso seguiu as etapas em [atribuir ou alterar um local de emergência para um usuário](assign-change-emergency-location-user.md). 
+- Para atribuir um local de emergência, a Contoso seguiu as etapas em [Atribuir ou alterar um local de emergência para um usuário.](assign-change-emergency-location-user.md) 
 
  

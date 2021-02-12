@@ -15,7 +15,7 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 3dc0eca8-c773-463c-96bb-9cd6afa2a840
-description: Planejamento do Atendimento de Chamadas em Grupo no Skype for Business Server Enterprise Voice, que permite aos usuários atender chamadas originalmente destinadas a outras pessoas.
+description: Planejamento do Atendimento de Chamadas em Grupo no Skype for Business Server Enterprise Voice, que permite que os usuários atendam a chamadas originalmente destinadas a outras pessoas.
 ms.openlocfilehash: 874b9385352a8c51d9c9a356dd0ccc2ca3070601
 ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
@@ -25,7 +25,7 @@ ms.locfileid: "49825611"
 ---
 # <a name="plan-for-group-call-pickup-in-skype-for-business"></a>Planejar o Atendimento de Chamadas em Grupo no Skype for Business
  
-Planejamento do Atendimento de Chamadas em Grupo no Skype for Business Server Enterprise Voice, que permite aos usuários atender chamadas originalmente destinadas a outras pessoas.
+Planejamento do Atendimento de Chamadas em Grupo no Skype for Business Server Enterprise Voice, que permite que os usuários atendam a chamadas originalmente destinadas a outras pessoas.
   
 O Recebimento de Chamadas em Grupo permite que os usuários atendam a chamadas de entrada para seus colegas em seus próprios telefones. Isso aumenta a disponibilidade da linha de um usuário, permitindo que outros usuários atendam a uma chamada de entrada discando um número de grupo de atendimento de chamadas. Quando o Recebimento de Chamadas em Grupo é implantado, o número de chamadas de entrada roteadas para a caixa postal pode ser reduzido significativamente, o que é particularmente útil para chamadas de clientes externos à sua organização.
   
@@ -38,7 +38,7 @@ O Atendimento de Chamada em Grupo é criado no aplicativo Estacionamento de Cham
 > [!NOTE]
 > Os intervalos de números designados como números de Atendimento de Chamadas em Grupo na tabela de órbita de estacionamento de chamadas não podem ser gerenciados ou exibidos usando o Painel de Controle do Skype for Business Server. A única maneira de ver todos os intervalos de números na tabela de órbita de estacionamento de chamadas é usar o Shell de Gerenciamento do Skype for Business Server. Da mesma forma, a única maneira de adicionar, modificar ou remover números de Atendimento de Chamadas em Grupo é usar o Shell de Gerenciamento do Skype for Business Server. 
   
-Depois de configurar os números do grupo de atendimento de chamada, você atribui usuários a um grupo de atendimento de chamada. Qualquer usuário atribuído a um grupo de atendimento de chamadas pode ter suas chamadas atendidas por outros usuários. Quando uma chamada chega para um usuário que está atribuído a um grupo de atendimento de chamada, qualquer outro usuário que perceba a chamada pode atender a ela discando manualmente o número do grupo de atendimento de chamada. O usuário que atende a chamada não precisa ser membro do grupo. Quando uma chamada é a escolhida por outro usuário, uma notificação é enviada para o número originalmente chamado.
+Depois de configurar os números do grupo de atendimento de chamada, você atribui usuários a um grupo de atendimento de chamada. Qualquer usuário atribuído a um grupo de atendimento de chamadas pode ter suas chamadas atendidas por outros usuários. Quando uma chamada é feita para um usuário atribuído a um grupo de atendimento de chamada, qualquer outro usuário que perceba a chamada pode atender a chamada discando manualmente o número do grupo de atendimento de chamada. O usuário que atende a chamada não precisa ser membro do grupo. Quando uma chamada é a escolhida por outro usuário, uma notificação é enviada para o número originalmente chamado.
   
 > [!NOTE]
 > Um usuário pode ser membro de apenas um grupo de atendimento de chamada. 

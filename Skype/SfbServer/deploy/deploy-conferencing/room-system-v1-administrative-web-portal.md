@@ -73,7 +73,7 @@ Para usar o Portal da Web Administrativo do SRS v1, você precisará instalar ou
 
      ![Página Membros das Propriedades LRSSupportAdminGroup](../../media/LRS_Add_LRSSupportAdminGroup.png)
 
-7. Crie um usuário do Active Directory habilitado para SIP com o nome LRSSupport. Adicione este usuário a LRSSupportAdminGroup.
+7. Crie um usuário do Active Directory habilitado para SIP com o nome LRSSupport. Adicione esse usuário a LRSSupportAdminGroup.
 
      ![Página Membros das Propriedades LRSSupportAdminGroup](../../media/LRS_Add_LRS_SIP_SupportUser.png)
 
@@ -190,7 +190,7 @@ A seção Solução de Problemas pode ser usada remotamente para coletar logs e 
 
 #### <a name="health"></a>Integridade
 
-A seção Health fornece uma indicação visual da saúde da conexão do Skype for Business Server, dispositivo de áudio, dispositivo de vídeo, estado de resiliência e dispositivo de tela.
+A seção Health fornece uma indicação visual da saúde da conexão do Skype for Business Server, do dispositivo de áudio, do dispositivo de vídeo, do estado de resiliência e do dispositivo de tela.
 
 ![Lync Room System Admin Portal Room Health](../../media/LRS_AdminPortal_RoomInfoHealth.png)
 

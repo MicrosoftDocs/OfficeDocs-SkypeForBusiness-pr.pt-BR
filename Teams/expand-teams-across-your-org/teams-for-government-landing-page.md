@@ -22,11 +22,11 @@ ms.locfileid: "49825311"
 ---
 # <a name="teams-for-government"></a>Teams para a Administração Pública
 
-Use esses recursos para saber mais sobre considerações específicas para implantar o Teams em ambientes do Microsoft 365 Government. Quando estiver pronto, siga o mesmo caminho de implantação recomendado para o Teams, conforme descrito em [Como lançar o Microsoft Teams.](../How-to-roll-out-teams.md)
+Use esses recursos para saber mais sobre considerações específicas sobre a implantação do Teams em ambientes do Microsoft 365 Government. Quando estiver pronto, siga o mesmo caminho de implantação recomendado para o Teams conforme descrito em [Como lançar o Microsoft Teams.](../How-to-roll-out-teams.md)
 
 |               |               |
 | ------------- | ------------- |
 | ![list-123-teams](../media/list-123-teams.svg)  |  [Planejar implantações do Microsoft 365 Government - GCC](https://docs.microsoft.com/MicrosoftTeams/plan-for-government-gcc) |
-| ![tasks-teams](../media/tasks-teams.svg) | [Plano para o Microsoft 365 Government - GCC Alto](https://docs.microsoft.com/microsoftteams/plan-for-government-gcc-high) |
-| ![task-list-planning-teams](../media/task-list-planning-teams.svg)  |  [Planejar implantações do Microsoft 365 Government - DOD](https://docs.microsoft.com/microsoftteams/plan-for-government-dod) |
-| ![seta-direita-2-equipes](../media/arrow-right-2-teams.svg)  |  [Conferências de Áudio com Roteamento Direto para GCC Alto e DoD](https://docs.microsoft.com/microsoftteams/audio-conferencing-with-direct-routing-for-gcch-and-dod) |
+| ![tarefas-equipes](../media/tasks-teams.svg) | [Plano para o Microsoft 365 Government - GCC Alto](https://docs.microsoft.com/microsoftteams/plan-for-government-gcc-high) |
+| ![equipes de planejamento de lista de tarefas](../media/task-list-planning-teams.svg)  |  [Planejar implantações do Microsoft 365 Government - DOD](https://docs.microsoft.com/microsoftteams/plan-for-government-dod) |
+| ![seta para a direita-2-equipes](../media/arrow-right-2-teams.svg)  |  [Conferências de Áudio com Roteamento Direto para GCC Alto e DoD](https://docs.microsoft.com/microsoftteams/audio-conferencing-with-direct-routing-for-gcch-and-dod) |

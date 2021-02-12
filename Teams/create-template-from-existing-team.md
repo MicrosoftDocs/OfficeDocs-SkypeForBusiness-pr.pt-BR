@@ -1,5 +1,5 @@
 ---
-title: Criar um modelo a partir de uma equipe existente no Microsoft Teams
+title: Criar um modelo de uma equipe existente no Microsoft Teams
 author: cichur
 ms.author: v-cichur
 ms.reviewer: aaglick
@@ -23,51 +23,51 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 09/30/2020
 ms.locfileid: "48308114"
 ---
-# <a name="create-a-template-from-an-existing-team-in-microsoft-teams"></a>Criar um modelo a partir de uma equipe existente no Microsoft Teams
+# <a name="create-a-template-from-an-existing-team-in-microsoft-teams"></a>Criar um modelo de uma equipe existente no Microsoft Teams
 
 [!INCLUDE [preview-feature](includes/preview-feature.md)]
 
 **Os modelos personalizados ainda não têm suporte para clientes EDU.**
 
-O Microsoft Teams permite que você crie um modelo a partir de uma equipe existente que pode ser salva e modificada para atender às suas necessidades organizacionais específicas.
+O Microsoft Teams permite criar um modelo de uma equipe existente que pode ser salva e modificada para atender às suas necessidades organizacionais específicas.
 
-1. Entre no centro de administração do Microsoft Teams.
+1. Entre no Centro de administração do Teams.
 
-2. Na navegação à esquerda **, expanda**  >  **modelos de equipe do teams**.
+2. No painel de navegação esquerdo, **expanda** modelos  >  **de Equipe do** Teams.
 
 3. Selecione **Adicionar**.
 
-4. Selecione **usar uma equipe existente como um modelo**e selecione **Avançar**.
+4. Selecione **Usar uma equipe existente como modelo e** selecione **Próxima.**
 
- ![Uma imagem da tela de ponto inicial dos modelos de equipe com o uso de uma equipe existente como um modelo realçado.](media/team-existing-team-as-template.png)
+ ![Uma imagem da tela inicial dos modelos de equipe com o uso de uma equipe existente como modelo realçada.](media/team-existing-team-as-template.png)
 
-5. Selecione uma equipe para usar como ponto de partida, selecionando ao lado do nome da equipe e, em seguida, selecione **Avançar**.
+5. Selecione uma equipe a ser usada como ponto de partida selecionando ao lado do nome da equipe e, em seguida, selecione **Próxima.**
 
 ![Uma imagem da lista de equipes com uma equipe realçada.](media/team-existing-team-selection.png)
 
-6. Na seção **configurações de modelo** , preencha os campos a seguir e selecione **Avançar**:
+6. Na seção **Configurações do modelo,** preencha os seguintes campos e selecione **Próxima:**
     - Nome do modelo
-    - Descrições de modelo curto e longo
-    - Visibilidade de localidade  
+    - Descrições breves e longas do modelo
+    - Visibilidade da localidade  
   
-7. Na seção **canais, guias e aplicativos** , adicione os canais e aplicativos de que sua equipe precisa.
+7. Na seção canais, guias e **aplicativos,** adicione todos os canais e aplicativos de que sua equipe precisa.
 
-    1. Na seção **canais** , selecione **Adicionar**.
-    2. Na caixa de diálogo **Adicionar** , nomeie o canal.
+    1. Na seção **Canais,** selecione **Adicionar.**
+    2. Na caixa **de diálogo** Adicionar, nomeia o canal.
     3. Adicione uma descrição.
     4. Decida se o canal deve ser mostrado por padrão.
-    5. Procure o nome de um aplicativo que você deseja adicionar ao canal.
-    6. Selecione **aplicar** quando concluído.
+    5. Pesquise um nome de aplicativo que você deseja adicionar ao canal.
+    6. Selecione **Aplicar** quando terminar.
 
 8. Selecione **Enviar** para salvar suas alterações.
 
-Seu novo modelo é exibido na lista **modelos de equipe** . O modelo pode ser usado para criar uma equipe no Microsoft Teams.
+Seu novo modelo é exibido na lista **de modelos da** equipe. O modelo pode ser usado para criar uma equipe no Teams.
 
 > [!Note]
-> Pode levar até 24 horas para que os usuários do teams vejam um modelo personalizado na galeria.
+> Pode levar até 24 horas para que os usuários de equipes vejam um modelo personalizado na galeria.
 
 ## <a name="related-articles"></a>Artigos relacionados
 
-- [Introdução aos modelos de equipe no centro de administração](get-started-with-teams-templates-in-the-admin-console.md)
+- [Começar a usar modelos de equipe no centro de administração](get-started-with-teams-templates-in-the-admin-console.md)
 - [Criar um modelo a partir de um modelo de equipe existente](create-template-from-existing-template.md)
 - [Criar um modelo de equipe](create-a-team-template.md)

@@ -1,1 +1,1 @@
-Este recurso ainda não foi lançado. Ele foi anunciado e estará disponível em breve.Se você for um administrador, poderá descobrir quando este recurso será lançado no centro de mensagens (no centro de administração do [Microsoft 365](https://portal.office.com/adminportal/home)).
+Este recurso ainda não foi lançado. Ele foi anunciado e estará em breve.Se você for um administrador, poderá descobrir quando esse recurso será lançado no Centro de Mensagens (no Centro de administração do [Microsoft 365).](https://portal.office.com/adminportal/home)

@@ -24,7 +24,7 @@ ms.locfileid: "49825501"
  
 **Resumo:** Leia este tópico para saber mais sobre componentes e topologias do Servidor de Chat Persistente no Skype for Business Server 2015.
   
-O Servidor de Chat Persistente dá suporte a configurações de servidor único e de vários servidores. Você pode instalar o Servidor de Chat Persistente em um Skype for Business Server 2015 Enterprise Edition ou Standard Edition Server. 
+O Servidor de Chat Persistente dá suporte a configurações de servidor único e de vários servidores. Você pode instalar o Servidor de Chat Persistente em um Skype for Business Server 2015 Enterprise Edition ou servidor Standard Edition. 
 
 > [!NOTE] 
 > O chat persistente está disponível no Skype for Business Server 2015, mas não é mais suportado no Skype for Business Server 2019. A mesma funcionalidade está disponível no Teams. Para saber mais, confira [Como começar a atualizar o Microsoft Teams.](/microsoftteams/upgrade-start-here) Se você precisar usar o chat persistente, suas opções são migrar os usuários que exigem essa funcionalidade para o Teams ou continuar usando o Skype for Business Server 2015. 
@@ -60,7 +60,7 @@ Você pode implantar o Servidor de Chat Persistente em pools de servidor único 
     
 -  Servidor Enterprise Edition com mais de um Servidor de Chat Persistente em servidores separados
     
-Embora você possa implantar o Servidor de Chat Persistente em um Servidor Standard Edition, esteja ciente de que o desempenho e a escala serão afetados e alta disponibilidade não é uma opção. Portanto, é recomendável que você implante o Chat Persistente em um Servidor Standard Edition principalmente para fins de prova de conceito e avaliação. 
+Embora você possa implantar o Servidor de Chat Persistente em um Servidor Standard Edition, esteja ciente de que o desempenho e a escala serão afetados, e a alta disponibilidade não é uma opção. Portanto, é recomendável que você implante o Chat Persistente em um Servidor Standard Edition principalmente para fins de prova de conceito e avaliação. 
   
 O Skype for Business Server 2015 oferece suporte a uma variedade de cenários de localização, fornecendo a flexibilidade para economizar custos de hardware executando vários componentes em um servidor (se você tiver uma organização pequena) ou executando componentes individuais em servidores diferentes (se você tiver uma organização maior que precise de escalabilidade e desempenho). Você deve considerar fatores de escalabilidade antes de decidir se deve ou não sobrecarr os componentes. Os cenários de localização são diferentes para os servidores Do Skype for Business Server 2015 Enterprise Edition e Standard Edition. 
   

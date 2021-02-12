@@ -46,7 +46,7 @@ Se você determinar que vai usar endereços IPv6, consulte o artigo Configurar t
 ## <a name="overview-of-ip-address-types"></a>Visão geral dos tipos de endereço IP
 <a name="over"> </a>
 
-Você tem três opções ao configurar endereços IP no Skype for Business Server. Você pode configurar o Skype for Business Server para dar suporte somente a IP versão 4 (IPv4), somente IP versão 6 (IPv6) ou uma combinação de ambos (conhecido como pilha dupla). Há vários problemas a considerar em cada tipo de configuração:
+Você tem três opções ao configurar endereços IP no Skype for Business Server. Você pode configurar o Skype for Business Server para dar suporte somente a IP versão 4 (IPv4), somente IP versão 6 (IPv6) ou uma combinação de ambos (conhecido como pilha dupla). Há vários problemas a considerar com cada tipo de configuração:
   
 - **Somente IPv4** O IPv6 foi criado porque o mundo está ficando sem endereços IPv4. Por fim, o IPv6 terá suporte total em todo o mundo, mas, no momento, muitas empresas e dispositivos com os que sua empresa talvez precisem se comunicar ainda não suportam IPv6 e podem não ter suporte por algum tempo. Uma configuração somente IPv4 ajudará a garantir que a implementação do Skype for Business Server possa se comunicar com a maioria dos dispositivos existentes.
     
@@ -113,7 +113,7 @@ O Skype for Business Server não suporta bypass de mídia para chamadas PSTN se 
    
 1. A interface principal é a interface que se comunica com os componentes do Skype for Business Server.
   
-### <a name="remote-user-peer-to-peer-communications"></a>Comunicações ponto a ponto do usuário remoto
+### <a name="remote-user-peer-to-peer-communications"></a>Comunicações ponto a ponto de usuário remoto
 <a name="remote"> </a>
 
 As comunicações ponto a ponto com usuários remotos incluem mensagens instantâneas, áudio/vídeo, compartilhamento de aplicativos e transferência de arquivos.
@@ -131,7 +131,7 @@ As comunicações ponto a ponto com usuários remotos incluem mensagens instant�
 
 A tabela a seguir mostra a matriz de suporte entre o pool do Servidor Front-End e o pool do Servidor de Borda interno.
   
-**Matriz de Pool de Front-End e Pool de Borda (Borda Interna)**
+**Matriz de pool de front-end e pool de borda (borda interna)**
 
 ||**Pool de Borda: IPv4** <br/> |**Pool de Borda: Pilha Dual** <br/> |**Pool de Borda: IPv6** <br/> |
 |:-----|:-----|:-----|:-----|
@@ -210,6 +210,6 @@ Os cenários a seguir são suportados durante a migração e coexistência:
 
 [Arquitetura de endereçamento ip versão 6](https://tools.ietf.org/html/rfc4291)
   
-[Formato de endereço Unicast global IPv6](https://tools.ietf.org/html/rfc3587)
+[Formato de endereço unicast global IPv6](https://tools.ietf.org/html/rfc3587)
   
-[Endereços unicast IPv6 locais exclusivos](https://tools.ietf.org/html/rfc4193)
+[Endereços unicast locais exclusivos](https://tools.ietf.org/html/rfc4193)

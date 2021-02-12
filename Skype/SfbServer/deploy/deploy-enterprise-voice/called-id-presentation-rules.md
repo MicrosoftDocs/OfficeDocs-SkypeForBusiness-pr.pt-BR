@@ -37,7 +37,7 @@ Siga estas etapas se quiser definir uma regra de conversão inserindo um conjunt
 
 3. Em **Nome** na página **Nova Regra de Conversão** ou **Editar Regra de Conversão**, digite um nome que descreve o padrão numérico que está convertido.
 
-4. (Opcional) Em **Descrição,** digite uma descrição da regra de conversão, por exemplo, discagem de longa distância internacional dos EUA.
+4. (Opcional) Em **Descrição,** digite uma descrição da regra de conversão, por exemplo, discagem internacional de longa distância dos EUA.
 
 5. Na seção **Compilar uma Regra de Conversão** da caixa de diálogo, insira valores nos seguintes campos:
 

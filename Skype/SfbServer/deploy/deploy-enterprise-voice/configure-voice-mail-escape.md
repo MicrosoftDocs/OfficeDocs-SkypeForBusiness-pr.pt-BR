@@ -33,7 +33,7 @@ Essa configuração é realizada usando-se o cmdlet Do Shell de Gerenciamento do
 
 ### <a name="to-configure-voice-mail-escape"></a>Para configurar o escape da caixa postal
 
-1. Inicie o Shell de Gerenciamento do Skype for Business Server: Clique em **Iniciar,** Em Todos os **Programas,** no **Skype for Business 2015** e, em seguida, clique no Shell de Gerenciamento do **Skype for Business Server.**
+1. Inicie o Shell de Gerenciamento do Skype for Business Server: clique em **Iniciar,** em Todos os **Programas,** no **Skype for Business 2015** e, em seguida, clique no Shell de Gerenciamento do **Skype for Business Server.**
 
 2. Especifique os parâmetros a seguir para **Set-CsVoicePolicy**:
 

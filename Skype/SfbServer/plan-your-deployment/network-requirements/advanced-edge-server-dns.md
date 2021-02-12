@@ -151,7 +151,7 @@ Para levar o exemplo adiante, isso não funcionaria:
     
      *Um usuário que entrar como tim@litwareinc.com não funcionará para a configuração automática, pois seu domínio SIP (litwareinc.com) não combina com o domínio no pool (fabrikam.com).* 
     
-Agora que sabemos tudo isso, se você precisar de requisitos automáticos para seus clientes do Skype for Business sem DNS split-brain, terá estas opções:
+Agora que sabemos tudo isso, se você precisar de requisitos automáticos para seus clientes do Skype for Business sem DNS split-brain, você tem estas opções:
   
 - **Objetos de Política de Grupo**
     
@@ -203,7 +203,7 @@ Agora que sabemos tudo isso, se você precisar de requisitos automáticos para s
 ## <a name="dns-disaster-recovery"></a>Recuperação de desastre de DNS
 <a name="DNSDR"> </a>
 
-Para configurar o DNS para redirecionar o tráfego Web do Skype for Business Server para os sites de recuperação de desastres (DR) e failover, você precisa usar um provedor DNS que suporte GeoDNS. Você pode configurar seus registros DNS para dar suporte à recuperação de desastre, para que os recursos que usam serviços Web continuem mesmo se um pool de Front End inteiro ficar inonte. Esse recurso dr dá suporte a URLs simples de Descoberta Automática, Reunião e Discagem.
+Para configurar o DNS para redirecionar o tráfego Web do Skype for Business Server para os sites de recuperação de desastres (DR) e failover, você precisa usar um provedor DNS que suporte GeoDNS. Você pode configurar seus registros DNS para suportar a recuperação de desastre, para que os recursos que usam serviços Web continuem mesmo se um pool de Front End inteiro cair. Esse recurso dr dá suporte a URLs simples de Descoberta Automática, Reunião e Discagem.
   
 Defina e configure registros A (AAAA) de host DNS adicionais se estiver usando IPv6 para resolução interna e externa de serviços Web em seu provedor GeoDNS. Os detalhes a seguir pressupom pools emparelhados, geograficamente dispersos, e que o GeoDNS suportado por seu provedor tem **DNS** round robin ou está configurado para usar Pool1 como primário e faz o fails over para Pool2 em caso de perda de comunicações ou falha de energia. 
   
@@ -235,7 +235,7 @@ Por exemplo, se houver três Servidores front-end em um pool chamado pool01.cont
    |pool01.contoso.com  <br/> |192.168.10.91  <br/> |
    |pool01.contoso.com  <br/> |192.168.10.92  <br/> |
    
-- O cliente tenta estabelecer uma conexão TCP com um dos endereços IP. Se isso falhar, ele tentará o próximo endereço IP armazenado em cache dessa lista.
+- O cliente tenta estabelecer uma conexão TCP com um dos endereços IP. Se isso falhar, ele tentará o próximo endereço IP em cache dessa lista.
     
 - Se a conexão TCP for bem-sucedida, o cliente negocia o TLS para se conectar ao registrador principal no pool01.contoso.com.
     

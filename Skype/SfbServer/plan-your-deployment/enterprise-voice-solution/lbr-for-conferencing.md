@@ -25,31 +25,31 @@ ms.locfileid: "49825571"
 ---
 # <a name="location-based-routing-for-conferencing-in-skype-for-business-server"></a>Location-Based roteamento para conferência no Skype for Business Server
 
-Planejamento de roteamento baseado em local para conferência no Skype for Business Server Enterprise Voice, incluindo transferências de chamada consultiva.
+Planejamento de roteamento baseado em local para conferência no Skype for Business Server Enterprise Voice, incluindo transferências de chamadas consultivas.
 
 Location-Based roteamento possibilita restringir o roteamento de chamadas entre pontos de extremidade VoIP e pontos de extremidade PSTN com base no local das partes na chamada. Location-Based roteamento para conferência permite impor regras de Roteamento Location-Based em reuniões (ou seja, conferências) para impedir bypass de chamadas tarifadas PSTN. O aplicativo monitora uma conferência ativa e impõe restrições Location-Based roteamento com base no local dos usuários participantes. O Location-Based roteamento para conferência adicionalmente permite a imposição de restrições de roteamento Location-Based para transferências de consulta envolvendo pontos de extremidade PSTN.
 
-O Location-Based conferência de roteamento fornece às Conferências do Skype for Business um mecanismo para a prevenção de bypass de chamada tarifada PSTN. O aplicativo monitora conferências ativas e impõe restrições Location-Based roteamento com base no local dos usuários do Skype for Business que participam.
+O Location-Based conferência de roteamento fornece às Conferências do Skype for Business um mecanismo para a prevenção de bypass de chamada tarifada PSTN. O aplicativo monitora conferências ativas e impõe Location-Based roteamento baseado no local dos usuários do Skype for Business que participam.
 
 O Location-Based de Conferência de Roteamento de Location-Based determina se o Roteamento Location-Based deve ser imposto em uma reunião do Skype for Business se os seguintes critérios são atendidos:
 
-- O organizador da reunião está habilitado para o Roteamento Location-Based Local. Location-Based de roteamento serão aplicadas somente a conferências organizadas por usuários habilitados para o Roteamento Location-Based Usuário.
+- O organizador da reunião está habilitado para o Roteamento Location-Based Local. Location-Based de roteamento serão aplicadas apenas a conferências organizadas por usuários habilitados para o Roteamento Location-Based Usuário.
 
-- Pelo menos um participante da reunião é um ponto de extremidade PSTN. Location-Based roteamento são aplicáveis apenas a conferências que incluem pontos de extremidade PSTN.
+- Pelo menos um participante da reunião é um ponto de extremidade PSTN. Location-Based de roteamento são aplicáveis apenas a conferências que incluem pontos de extremidade PSTN.
 
 - O local de rede onde o gateway PSTN usado para fazer a ponte da conferência para a PSTN está localizado, bem como os sites de rede de onde os organizadores e participantes estão se conectando.
 
 O Location-Based roteamento para conferência impede a participação de usuários do Skype for Business e pontos de extremidade PSTN de diferentes locais de rede para a mesma conferência. Se o organizador de uma reunião estiver habilitado para o Roteamento Location-Based, o aplicativo de Conferência aplicará as seguintes restrições:
 
-- Os pontos de extremidade que podem ingressar em uma reunião do Skype for Business dependem dos pontos de extremidade que já ingressaram na conferência, e essa restrição se ajusta à medida que pontos de extremidade ingressam e novos pontos de extremidade ingressam na conferência. Se os organizadores e participantes ingressarem em uma reunião do Skype for Business a partir do mesmo local de rede, um ponto de extremidade PSTN, outro participante do mesmo local de rede, outro participante de um local de rede diferente ou um participante de um local de rede desconhecido poderão participar.
+- Os pontos de extremidade que podem ingressar em uma reunião do Skype for Business dependem dos pontos de extremidade que já ingressaram na conferência, e essa restrição se ajusta à medida que pontos de extremidade ingressam na saída e novos pontos de extremidade ingressam na conferência. Se os organizadores e participantes ingressarem em uma reunião do Skype for Business a partir do mesmo local de rede, um ponto de extremidade PSTN, outro participante do mesmo local de rede, outro participante de um local de rede diferente ou um participante de um local de rede desconhecido poderão participar.
 
-- Se os organizadores e participantes ingressarem na reunião de locais de rede diferentes ou desconhecidos, um ponto de extremidade PSTN não poderá ingressar na reunião se a chamada PSTN entrar em um tronco SIP habilitado para Roteamento Location-Based.
+- Se organizadores e participantes ingressarem na reunião de locais de rede diferentes ou desconhecidos, um ponto de extremidade PSTN não poderá ingressar na reunião se a chamada PSTN entrar em um tronco SIP habilitado para Roteamento Location-Based.
 
 - Se os organizadores e participantes ingressarem na reunião a partir do mesmo local de rede e houver participantes participando da mesma reunião da PSTN, um ponto de extremidade do Skype for Business de um local de rede diferente não poderá participar da reunião.
 
 Essas restrições de Location-Based roteamento estão resumidas na tabela a seguir.
 
-|Usuários em uma conferência em um determinado ponto|Usuários com permissão para ingressar na conferência|Usuários não autorizados a ingressar na conferência|
+|Usuários em uma conferência em um determinado ponto|Usuários com permissão para ingressar na conferência|Os usuários não podem ingressar na conferência|
 |:-----|:-----|:-----|
 |Skype for Business VoIP client user(s) from a single network site  <br/> |Usuário cliente VoIP do Skype for Business do mesmo local de rede  <br/> Usuário cliente VoIP do Skype for Business de um local de rede diferente  <br/> Usuário cliente VoIP do Skype for Business de um local de rede desconhecido  <br/> Usuário federado do cliente VoIP do Skype for Business  <br/> Usuário participando de um ponto de extremidade PSTN  <br/> |Nenhum  <br/> |
 |Usuários de cliente VoIP do Skype for Business de um local de rede desconhecido  <br/> |Usuário cliente VoIP do Skype for Business de qualquer site  <br/> Usuário cliente VoIP do Skype for Business de um site desconhecido  <br/> Usuário federado do cliente VoIP do Skype for Business  <br/> |Usuário participando por meio de um ponto de extremidade PSTN  <br/> |
@@ -58,19 +58,19 @@ Essas restrições de Location-Based roteamento estão resumidas na tabela a seg
 
 A seguir estão as características adicionais do aplicativo Location-Based roteamento para conferência:
 
-- Quando um usuário não tem permissão para ingressar em uma conferência determinadas restrições de Roteamento Location-Based, a chamada para a conferência será rejeitada e o cliente Skype for Business relatará que a chamada não foi concluída ou terminou.
+- Quando um usuário não tem permissão para ingressar em uma conferência devido a restrições de Roteamento Location-Based, a chamada para a conferência será rejeitada e o cliente Skype for Business relatará que a chamada não foi concluída ou terminou.
 
 - Um ponto de extremidade PSTN que ingressar em uma conferência com imposições de Roteamento do Location-Based não será restrito a ingressar na conferência independentemente de seu estado se o ponto de extremidade ingressar por meio de um tronco que não está habilitado para o Roteamento Location-Based.
 
-- Um sistema PBX conectado a um Servidor de Mediação sobre um tronco SIP que não egressa chamadas para a PSTN terá as mesmas imposições que os usuários do Skype for Business localizados no mesmo local de rede onde o tronco SIP está definido. Por exemplo, um ponto de extremidade PSTN poderá ingressar em uma conferência com um usuário de PBX e um usuário do Skype for Business se ele estiver localizado no mesmo local de rede; Caso contrário, o ponto de extremidade PSTN não poderá ingressar na conferência se o usuário pbx estiver em um local de rede diferente do usuário do Skype for Business.
+- Um sistema PBX conectado a um Servidor de Mediação sobre um tronco SIP que não egressa chamadas para a PSTN terá as mesmas imposições que os usuários do Skype for Business localizados no mesmo local de rede onde o tronco SIP está definido. Por exemplo, um ponto de extremidade PSTN poderá ingressar em uma conferência com um usuário pbx e um usuário do Skype for Business se ele estiver localizado no mesmo local de rede; Caso contrário, o ponto de extremidade PSTN não poderá ingressar na conferência se o usuário do PBX estiver em um local de rede diferente do usuário do Skype for Business.
 
 > [!NOTE]
 > Com a Atualização Cumulativa 4 do Skype for Business, o comportamento na tabela a seguir deve ser observado:
 
-|Usuário|Outra parte|Action|Resultado|
+|Usuário|Outra parte|Ação|Resultado|
 |:-----|:-----|:-----|:-----|
 |Skype for Business Mobile  <br/> |PSTN  <br/> |O Skype for Business Mobile está em uma chamada PSTN. Em seguida, o Skype for Business Mobile escalona a chamada para um CaA (Atendimento Automático de Conferência).  <br/> |A chamada é bloqueada, com uma mensagem de erro apropriada.  <br/> |
-|Skype for Business Mobile  <br/> |Cliente do Skype for Business ou Usuário Federado  <br/> |O Cliente ou Usuário Federado está em uma chamada VoIP para um usuário de Roteamento de Location-Based Do Skype for Business Mobile e uma das partes escalona para um CAA.  <br/> |A chamada de escalonamento é bloqueada, com uma mensagem de erro apropriada.  <br/> |
+|Skype for Business Mobile  <br/> |Cliente skype for business ou usuário federado  <br/> |O Cliente ou Usuário Federado está em uma chamada VoIP para um usuário de Roteamento de Location-Based Do Skype for Business Mobile e uma das partes escalona para um CAA.  <br/> |A chamada de escalonamento é bloqueada, com uma mensagem de erro apropriada.  <br/> |
 
 ## <a name="consultative-call-transfers"></a>Transferências de chamada consultiva
 
@@ -89,7 +89,7 @@ Quando um usuário habilitado para o Roteamento do Location-Based inicia uma tra
 A tabela a seguir descreve como Location-Based roteamento são aplicadas pelo aplicativo Location-Based roteamento para conferência para transferências de chamada consultiva. Embora os pontos de extremidade PBX não sejam associados diretamente a um local de rede, o tronco SIP ao que o PBX está conectado pode ser atribuído a um local de rede. Portanto, o ponto de extremidade PBX pode ser indiretamente associado a um local de rede.
 
 
-|Local de rede da parte transferida da chamada|Local de rede de destino de transferência de chamada|Comportamento|
+|Local de rede da parte transferida da chamada|Local de rede do destino da transferência de chamada|Comportamento|
 |:-----|:-----|:-----|
 |Ponto de extremidade PSTN  <br/> |Usuário do Skype for Business no mesmo local de rede (ou seja, local 1)  <br/> |A transferência consultiva será permitida  <br/> |
 |Ponto de extremidade PSTN  <br/> |Usuário do Skype for Business em diferentes locais de rede (ou seja, local 2)  <br/> |A transferência consultiva não será permitido  <br/> |
@@ -104,9 +104,9 @@ A tabela a seguir descreve como Location-Based roteamento são aplicadas pelo ap
 |Ponto de extremidade PBX em qualquer site  <br/> |Usuário do Skype for Business em um local de rede desconhecido  <br/> |A transferência consultiva será permitida  <br/> |
 |Ponto de extremidade PBX em qualquer site  <br/> |Usuário federado do Skype for Business  <br/> |A transferência consultiva será permitida  <br/> |
 
-## <a name="requirements"></a>Requirements
+## <a name="requirements"></a>Requisitos
 
-O aplicativo de Roteamento Location-Based para Conferência exige que o Skype for Business Server ou a Atualização Cumulativa 2 do Lync Server 2013 seja implantado em todos os pools do Front-End e Servidores Standard Edition em sua topologia. Se essas versões de servidor não são instaladas em alguns servidores em sua topologia, as restrições de roteamento Location-Based não podem ser totalmente impostas em reuniões e transferências de chamadas de consulta.
+O aplicativo Location-Based roteamento para conferência exige que o Skype for Business Server ou a Atualização Cumulativa 2 do Lync Server 2013 seja implantado em todos os pools do Front-End e Servidores Standard Edition em sua topologia. Se essas versões de servidor não são instaladas em alguns servidores em sua topologia, as restrições de roteamento Location-Based não podem ser totalmente impostas em reuniões e transferências de chamadas de consulta.
 
 A tabela a seguir identifica a combinação de funções de servidor e versões que suportam o Location-Based Routing.
 
@@ -139,11 +139,11 @@ O Location-Based roteamento para aplicativo de conferência está desabilitado p
 Get-CsServerApplication -Identity Service:Registrar:<Pool FQDN>
 ```
 
-Neste cmdlet, é o pool no qual o aplicativo Location-Based roteamento para conferência deve \<Pool FQDN\> ser habilitado.
+Neste cmdlet, é o pool no qual o Location-Based roteamento para conferência \<Pool FQDN\> deve ser habilitado.
 
-Este cmdlet retornará a lista de aplicativos hospedados pelo Skype for Business Server e o valor de prioridade para cada um deles. O aplicativo Location-Based roteamento para conferência precisa ter um valor de prioridade maior do que o aplicativo "UdcAgent" e menor do que os aplicativos "DefaultRouting", "ExumRouting" e "OutboundRouting". Recomendamos que você atribua ao aplicativo Location-Based roteamento para conferência um valor de prioridade um ponto maior do que o valor de prioridade do aplicativo "UdcAgent".
+Este cmdlet retornará a lista de aplicativos hospedados pelo Skype for Business Server e o valor de prioridade para cada um deles. O aplicativo Location-Based roteamento para conferência precisa ter um valor de prioridade maior do que o aplicativo "UdcAgent" e menor que os aplicativos "DefaultRouting", "ExumRouting" e "OutboundRouting". Recomendamos que você atribua ao aplicativo Location-Based roteamento para conferência um valor de prioridade um ponto maior do que o valor de prioridade do aplicativo "UdcAgent".
 
-Por exemplo, se o aplicativo "UdcAgent" tiver um valor de prioridade "2", o aplicativo "DefaultRouting" tiver um valor de prioridade "8", o aplicativo "ExumRouting" tiver um valor de prioridade "9" e o aplicativo "OutboundRouting" tiver um valor de prioridade "10", você deverá atribuir ao aplicativo Location-Based Routing for Conferencing um valor de prioridade "3". Isso colocaria a prioridade dos aplicativos na seguinte ordem: Outros aplicativos (Prioridades: 0 a 1), "UdcAgent" (Prioridade: 2), aplicativo de Conferência de Roteamento do Location-Based (Prioridade: 3), outros aplicativos (Prioridades: 4 a 8), "DefaultRouting" (Prioridade: 9), "ExumRouting" (Prioridade: 10) e "OutboundRouting" (Prioridade: 11).
+Por exemplo, se o aplicativo "UdcAgent" tiver um valor de prioridade "2", o aplicativo "DefaultRouting" tiver um valor de prioridade "8", o aplicativo "ExumRouting" tiver um valor de prioridade "9" e o aplicativo "OutboundRouting" tiver um valor de prioridade "10", você deverá atribuir ao aplicativo Location-Based Routing for Conferencing um valor de prioridade "3". Isso colocaria a prioridade dos aplicativos na seguinte ordem: Outros aplicativos (Prioridades: 0 a 1), "UdcAgent" (Prioridade: 2), aplicativo de Conferência de Roteamento Location-Based (Prioridade: 3), outros aplicativos (Prioridades: 4 a 8), "DefaultRouting" (Prioridade: 9), "ExumRouting" (Prioridade: 10) e "OutboundRouting" (Prioridade: 11).
 
 Depois de encontrar o valor de prioridade correto para o aplicativo de Roteamento Location-Based para Conferência, digite o seguinte cmdlet para cada pool do Front-End ou Servidor Standard Edition que ative os usuários habilitados para o Roteamento Location-Based:
 

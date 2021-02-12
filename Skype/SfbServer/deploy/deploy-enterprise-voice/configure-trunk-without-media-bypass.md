@@ -45,7 +45,7 @@ Uma configuração de tronco, como descrito abaixo, agrupa um conjunto de parâm
 
    - **Tronco do** site: escolha o site para essa configuração de tronco em **Selecionar um Site** e clique em **OK.** Observe que se uma configuração de tronco já tiver sido criada para um site, o site não aparecerá em **Selecionar um Site**. Essa configuração de tronco será aplicada a todos os troncos do site.
 
-   - **Tronco do pool**: escolha um nome para o tronco ao qual essa configuração de tronco se aplica em **Selecionar um Serviço** e clique em **OK**. Esse tronco pode ser o tronco raiz ou qualquer tronco adicional definido no Construtor de Topologias. Observe que se uma configuração de tronco já tiver sido criada para um tronco específico, esse tronco não será exibido em **Selecionar um Serviço**.
+   - **Tronco do pool**: escolha um nome para o tronco ao qual essa configuração de tronco se aplica em **Selecionar um Serviço** e clique em **OK**. Esse tronco pode ser o tronco raiz ou quaisquer troncos adicionais definidos no Construtor de Topologias. Observe que se uma configuração de tronco já tiver sido criada para um tronco específico, esse tronco não será exibido em **Selecionar um Serviço**.
 
      > [!NOTE]
      > Depois de selecionar o escopo da configuração do tronco, não será possível alterá-lo. > O **campo** Nome é pré-preenchido com o nome do site ou serviço associado à configuração do tronco e não pode ser alterado.
@@ -108,7 +108,7 @@ Uma configuração de tronco, como descrito abaixo, agrupa um conjunto de parâm
      c. Clique em **OK**.
 
      > [!IMPORTANT]
-     > É importante associar registros de uso de PSTN de acordo com o par do Servidor de Mediação associado ao tronco que está sendo configurado. Se o par do Servidor de Mediação for um gateway PSTN ou um SBC (Controlador de Borda de Sessão), é altamente recomendável que a configuração do tronco não esteja associada a um registro de uso de PSTN que encaminhe para um destino PSTN ou qualquer outro sistema downstream conectado via Skype for Business Server.
+     > É importante associar registros de uso de PSTN de acordo com o par do Servidor de Mediação associado ao tronco que está sendo configurado. Se o par do Servidor de Mediação for um gateway PSTN ou um SBC (Controlador de Borda de Sessão), é altamente recomendável que a configuração de tronco não esteja associada a um registro de uso de PSTN que encaminhe para um destino PSTN ou qualquer outro sistema downstream conectado via Skype for Business Server.
 
 9. Organize os registros de uso do PSTN para obter o melhor desempenho. Para alterar a posição de um registro na lista, selecione o registro de uso de PSTN e clique nas setas para cima ou para baixo.
 
@@ -127,7 +127,7 @@ Uma configuração de tronco, como descrito abaixo, agrupa um conjunto de parâm
 
     - Para escolher uma ou mais regras de uma lista de todas as regras de conversão disponíveis em sua implantação do Enterprise Voice, clique em **Selecionar**. Em **Selecionar Regras de Conversão**, clique nas regras que deseja associar ao tronco e clique em **OK**.
 
-    - Para definir uma nova regra de conversão e associá-la ao tronco, clique em **Novo**. Para obter detalhes sobre regras de conversão, [consulte Regras de conversão no Skype for Business Server](../../plan-your-deployment/enterprise-voice-solution/translation-rules.md).
+    - Para definir uma nova regra de conversão e associá-la ao tronco, clique em **Novo**. Para obter detalhes sobre regras de conversão, [consulte Regras de tradução no Skype for Business Server](../../plan-your-deployment/enterprise-voice-solution/translation-rules.md).
 
     - Para editar uma regra de conversão que já está associada ao tronco, clique no nome da regra e, depois, em **Mostrar detalhes**.
 

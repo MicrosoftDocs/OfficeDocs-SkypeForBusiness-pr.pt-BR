@@ -19,7 +19,7 @@ ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: ce323f4b-24e4-4ddf-84a3-67da82bb0c87
-description: Saiba como configurar o Skype for Business Cloud Connector Edition, uma topologia local mínima para permitir a integração de sua infraestrutura de voz local com os serviços de voz do sistema de telefonia (Cloud PBX) no Skype for Business online.
+description: Saiba como configurar o Skype for Business Cloud Connector Edition, uma topologia local mínima para habilitar a integração de sua infraestrutura de voz local com serviços de voz do Sistema de Telefonia (Cloud PBX) no Skype for Business Online.
 ms.openlocfilehash: e30fcb4cad44bffed495f1191e5e5cae73bb18cc
 ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
 ms.translationtype: MT
@@ -30,14 +30,14 @@ ms.locfileid: "47358787"
 # <a name="configure-and-manage-skype-for-business-cloud-connector-edition"></a>Configurar e gerenciar o Skype for Business Cloud Connector Edition
  
 > [!Important]
-> O Cloud Connector Edition vai retirar 31 de julho de 2021 junto com o Skype for Business online. Depois que sua organização tiver atualizado para o Microsoft Teams, saiba como conectar sua rede de telefonia local ao Microsoft Teams usando o [Roteamento direto](https://docs.microsoft.com/MicrosoftTeams/direct-routing-landing-page).
+> O Cloud Connector Edition será destivado em 31 de julho de 2021 junto com o Skype for Business Online. Depois que sua organização tiver atualizado para o Teams, saiba como conectar sua rede de telefonia local ao Teams usando o [Roteamento Direto.](https://docs.microsoft.com/MicrosoftTeams/direct-routing-landing-page)
 
-Saiba como configurar o Skype for Business Cloud Connector Edition, uma topologia local mínima para permitir a integração de sua infraestrutura de voz local com os serviços de voz do sistema de telefonia (Cloud PBX) no Skype for Business online. 
+Saiba como configurar o Skype for Business Cloud Connector Edition, uma topologia local mínima para habilitar a integração de sua infraestrutura de voz local com serviços de voz do Sistema de Telefonia (Cloud PBX) no Skype for Business Online. 
   
-Antes de começar, examine os pré-requisitos em [Plan for Skype for Business Cloud Connector Edition](plan-skype-for-business-cloud-connector-edition.md).
+Antes de começar, você deve revisar os pré-requisitos em [Plan for Skype for Business Cloud Connector Edition](plan-skype-for-business-cloud-connector-edition.md).
   
 > [!IMPORTANT]
-> As etapas neste tópico se aplicam apenas ao Cloud Connector Edition 1.4.1 e posterior. Se você ainda não tiver atualizado para o Cloud Connector Edition 2,1, consulte [upgrade to a new version of Cloud Connector](upgrade-to-a-new-version-of-cloud-connector.md). Você pode baixar o arquivo de instalação do [https://aka.ms/CloudConnectorInstaller](https://aka.ms/CloudConnectorInstaller) . 
+> As etapas neste tópico se aplicam somente ao Cloud Connector Edition 1.4.1 e posterior. Se você ainda não tiver atualizado para o Cloud Connector Edition 2.1, consulte Atualizar para uma nova [versão do Cloud Connector.](upgrade-to-a-new-version-of-cloud-connector.md) Você pode baixar o arquivo de instalação de [https://aka.ms/CloudConnectorInstaller](https://aka.ms/CloudConnectorInstaller) . 
   
 ## <a name="steps-to-configure-skype-for-business-cloud-connector-edition"></a>Etapas para configurar o Skype for Business Cloud Connector Edition
 
@@ -45,13 +45,13 @@ A tabela a seguir lista as etapas necessárias para instalar e configurar o Clou
   
 |**Etapa**|**Descrição**|
 |:-----|:-----|
-|[Preparar o dispositivo do Cloud Connector](prepare-your-cloud-connector-appliance.md) <br/> |Baixar o arquivo de instalação, preparar certificados, configurar o Hyper-V e preparar seu ambiente para a implantação do Cloud Connector.  <br/> |
-|[Implantar um único site no Cloud Connector](deploy-a-single-site-in-cloud-connector.md) <br/> |Criar um site em sua implantação do Cloud Connector.  <br/> |
-|[Implantar vários sites no Cloud Connector](deploy-multiple-sites-in-cloud-connector.md) <br/> |Adicione sites à sua implantação e saiba mais sobre as diferenças entre implantações de um ou vários sites.  <br/> |
-|[Configurar a integração do Cloud Connector com sua organização do Microsoft 365 ou do Office 365](configure-cloud-connector-integration-with-your-office-365-tenant.md) <br/> |Adicione registros DNS, configure híbrido, configure gateways PSTN e habilite usuários para a caixa postal do sistema de telefonia.  <br/> |
+|[Preparar o dispositivo do Cloud Connector](prepare-your-cloud-connector-appliance.md) <br/> |Baixe o arquivo de instalação, prepare certificados, configure o Hyper-V e prepare seu ambiente para a implantação do Cloud Connector.  <br/> |
+|[Implantar um único site no Cloud Connector](deploy-a-single-site-in-cloud-connector.md) <br/> |Crie um site em sua implantação do Cloud Connector.  <br/> |
+|[Implantar vários sites no Cloud Connector](deploy-multiple-sites-in-cloud-connector.md) <br/> |Adicione sites à sua implantação e saiba mais sobre as diferenças entre implantações individuais e de vários sites.  <br/> |
+|[Configurar a integração do Cloud Connector com sua organização do Microsoft 365 ou Office 365](configure-cloud-connector-integration-with-your-office-365-tenant.md) <br/> |Adicionar registros DNS, configurar híbridos, configurar gateways PSTN e habilitar usuários para caixa postal do Sistema de Telefonia.  <br/> |
 |[Validar a implantação do Cloud Connector](validate-your-cloud-connector-deployment.md) <br/> |Certifique-se de que sua implantação está funcionando corretamente.  <br/> |
-|[Atualizar para uma nova versão do Cloud Connector](upgrade-to-a-new-version-of-cloud-connector.md) <br/> |Atualize sua implantação do Cloud Connector existente para a versão 2,1.  <br/> |
-|[Modificar a configuração de uma implantação do Cloud Connector existente](modify-the-configuration-of-an-existing-cloud-connector-deployment.md) <br/> |Altere as configurações no Cloud Connector depois que ele já estiver implantado.  <br/> |
+|[Atualizar para uma nova versão do Cloud Connector](upgrade-to-a-new-version-of-cloud-connector.md) <br/> |Atualize sua implantação existente do Cloud Connector para a versão 2.1.  <br/> |
+|[Modificar a configuração de uma implantação do Cloud Connector existente](modify-the-configuration-of-an-existing-cloud-connector-deployment.md) <br/> |Altere as configurações no Cloud Connector depois que ele já for implantado.  <br/> |
 |[Implantar bypass de mídia no Cloud Connector Edition](deploy-media-bypass-in-cloud-connector.md) <br/> |Saiba como implantar o bypass de mídia no Cloud Connector.  <br/> |
 |[Referência de cmdlet do Cloud Connector](cloud-connector-cmdlet-reference.md) <br/> |Saiba mais sobre os cmdlets do PowerShell usados no Cloud Connector.  <br/> |
 |[Solução de problemas de implantação do Cloud Connector](troubleshoot-your-cloud-connector-deployment.md) <br/> |Soluções para problemas comuns encontrados com uma implantação do Cloud Connector.  <br/> |

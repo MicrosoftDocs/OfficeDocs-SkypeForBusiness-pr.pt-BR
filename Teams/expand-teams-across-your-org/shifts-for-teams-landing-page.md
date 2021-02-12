@@ -1,6 +1,6 @@
 ---
 title: Turnos do Teams
-description: Obtenha as diretrizes de administração necessárias para configurar e gerenciar turnos, a ferramenta de gerenciamento de agendamento no Teams.
+description: Receba as orientações de administrador que você precisa para configurar e gerenciar o Shifts, a ferramenta de gerenciamento de cronograma, no Teams.
 ms.topic: conceptual
 author: cichur
 ms.author: v-cichur
@@ -30,24 +30,24 @@ ms.locfileid: "49909215"
 ---
 # <a name="shifts-for-teams"></a>Turnos do Teams
 
-O Microsoft Teams oferece aos Frontline funcionários de sua organização as ferramentas de que precisam para se comunicar e colaborar de maneira eficaz. Este artigo mostra como configurar e gerenciar. Alternar e usar a ferramenta de gerenciamento de agendamento no Teams.
+O Teams oferece aos Trabalhadores da Linha de Frente em sua organização as ferramentas necessárias para se comunicar e colaborar de forma eficaz. Este artigo mostra como configurar e gerenciar. Shifts e use a ferramenta de gerenciamento de cronograma no Teams.
 
-### <a name="set-up-and-manage-shifts-for-your-organization"></a>Configurar e gerenciar turnos para sua organização
+### <a name="set-up-and-manage-shifts-for-your-organization"></a>Configurar e gerenciar Turnos para sua organização
 
 |               |               |               |               |
 | ------------- | ------------- | ------------- | ------------- |
-|![lista de verificação de tarefas-planejamento-equipes](../media/task-checklist-planning-teams-small.svg) | **[Gerenciar turnos em sua organização](/microsoftteams/expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams)** |![Formula](../media/Help-small.svg)  | **[Ajuda de turnos para trabalhadores do Frontline](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b#PickTab=Specific_apps)** |
+|![equipes de planejamento de lista de tarefas](../media/task-checklist-planning-teams-small.svg) | **[Gerenciar Turnos em sua organização](/microsoftteams/expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams)** |![Design](../media/Help-small.svg)  | **[Ajuda do Turnos para Trabalhadores da Linha de Frente](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b#PickTab=Specific_apps)** |
 
 ### <a name="shifts-extensions"></a>Extensões de turnos
 
 |               |               |
 | ------------- | ------------- |
-| ![API](../media/api-small.svg) | **[APIs de gráfico de deslocamento](/graph/api/resources/shift?view=graph-rest-1.0)** As APIs de gráfico de turnos permitem que você integre dados de turnos a sistemas de gerenciamento de força de equipe externos. Você terá a flexibilidade para criar experiências de turnos personalizados no back-end, ao mesmo tempo que permite aos usuários uma experiência rica e de front-end no Microsoft Teams.             |
-| ![API](../media/api-small.svg) | **[Integrações de gerenciamento da força de obra](https://github.com/OfficeDev/Microsoft-Teams-Shifts-WFM-Connectors)** Se você estiver usando sistemas de gerenciamento de força de equipe de terceiros, como o Kronos e o JDA, para agendamento, tempo e presença, você pode se integrar diretamente com as APIs de gráficos de turnos e o SDK com integrações de fonte aberta. |
-| ![API](../media/process-flow-teams-small.svg) | **[Turnos + energia automatizada](https://github.com/OfficeDev/Microsoft-Teams-Shifts-Power-Automate-Templates)** Shift + Power Automate permite que você tire informações de turnos e crie fluxos de trabalho personalizados com outros aplicativos e realize operações em escala. Automatize os principais processos com pouco ou nenhum código. Os disparadores e os modelos dão suporte a uma variedade de cenários, como habilitar aprovações automáticas para pedidos de turno quando a aprovação de um gerente não é necessária. |
+| ![Api](../media/api-small.svg) | **[APIs do Shift Graph](/graph/api/resources/shift?view=graph-rest-1.0)** As APIs do Shifts Graph permitem integrar dados do Shifts com sistemas de gerenciamento de força de trabalho externos. Você terá a flexibilidade de criar experiências personalizadas do Shifts no back-end, ao mesmo tempo que oferece aos usuários uma experiência completa e completa no Teams.             |
+| ![Api](../media/api-small.svg) | **[Integrações de gerenciamento de força de trabalho](https://github.com/OfficeDev/Microsoft-Teams-Shifts-WFM-Connectors)** Se você estiver usando sistemas de gerenciamento de força de trabalho de terceiros, como Kronos e JDA, para agendamento, tempo e presença, você pode integrar diretamente com o Shifts por meio de APIs e SDK do Shifts Graph com integrações de open source. |
+| ![Api](../media/process-flow-teams-small.svg) | **[Shifts+Power Automate](https://github.com/OfficeDev/Microsoft-Teams-Shifts-Power-Automate-Templates)** Shifts + Power Automate permite que você pegue informações do Shifts e crie fluxos de trabalho personalizados com outros aplicativos e execute operações em escala. Automatize os principais processos com pouco ou nenhum código. Os gatilhos e modelos suportam uma variedade de cenários, como a habilitação de aprovações automáticas para solicitações de turno quando não for necessária a aprovação de um gerente. |
 
 ## <a name="featured-training"></a>Treinamento em destaque
 
 |               |               |               |               |               |               |
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
-| ![seta-direita-2-equipes](../media/arrow-right-2-teams-small.svg)  |  [Vídeo: o que é turnos?](https://support.office.com/article/what-is-shifts-f8efe6e4-ddb3-4d23-b81b-bb812296b821) |![relógio-equipes](../media/clock-teams-small.svg)  |  [Vídeo: o que é turnos?](https://support.office.com/article/create-a-shifts-schedule-2b94ca38-36db-4a1c-8fee-f8f0fec9a984) |![blocos-equipes](../media/blocks-teams-small.svg)  |  [Vídeo: gerenciar um cronograma de turnos](https://support.office.com/article/manage-a-shifts-schedule-63acda7b-ea39-441a-b1c6-c404a72e79f7) |
+| ![seta para a direita-2-equipes](../media/arrow-right-2-teams-small.svg)  |  [Vídeo: O que é o Shifts?](https://support.office.com/article/what-is-shifts-f8efe6e4-ddb3-4d23-b81b-bb812296b821) |![time-teams de relógio](../media/clock-teams-small.svg)  |  [Vídeo: O que é o Shifts?](https://support.office.com/article/create-a-shifts-schedule-2b94ca38-36db-4a1c-8fee-f8f0fec9a984) |![blocos de equipes](../media/blocks-teams-small.svg)  |  [Vídeo: Gerenciar um cronograma do Turnos](https://support.office.com/article/manage-a-shifts-schedule-63acda7b-ea39-441a-b1c6-c404a72e79f7) |

@@ -23,7 +23,7 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
-description: Saiba mais sobre números de chamada gratuita nos Emirados Árabes Unidos, incluindo disponibilidade, disponibilidade de linha fixa e de linha fixa e restrições de rede móvel e restrições.
+description: Saiba mais sobre como discar números de discagem gratuita nos Emirados Árabes Unidos, incluindo disponibilidade, disponibilidade de rede com fio/fixo e celular e restrições.
 ms.openlocfilehash: 7da543192b6e0fd0e3e4b710fd31ced50695813e
 ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
@@ -33,17 +33,17 @@ ms.locfileid: "43139740"
 ---
 # <a name="toll-free-dialing-restrictions-in-the-united-arab-emirates"></a>Restrições de discagem de chamada gratuita nos Emirados Árabes Unidos
 
-[Encontre outro país ou região](../toll-free-dialing-limitations-and-restrictions.md)ou saiba mais sobre limitações e restrições de discagem gratuitas.
+[Encontre outro país ou região](../toll-free-dialing-limitations-and-restrictions.md)ou saiba mais sobre limitações e restrições de discagem gratuita.
 
 
 |**Detalhes**|**Descrição**|
 |:-----|:-----|
-|A chamada gratuita está disponível?  <br/> |Sim  <br/> |
-|Formato (s) de discagem  <br/> | 800 014 XXXX <br/>  800 017 XXXX <br/>  800 XX XXX <br/>  800 X XXXX XXXX <br/> |
-|Código ISO de país/região  <br/> |AE  <br/> |
-|Ilha/território abrangido  <br/> |Não aplicável  <br/> |
+|As chamada gratuitas estão disponíveis?  <br/> |Sim  <br/> |
+|Formato(s) de discagem  <br/> | 800 014 XXXX <br/>  800 017 XXXX <br/>  800 XX XXX <br/>  800 X XXXX XXXX <br/> |
+|Código ISO do país/região  <br/> |AE  <br/> |
+|Ilha/território coberto  <br/> |Não aplicável  <br/> |
 |Ilha/território não coberto  <br/> |Não aplicável  <br/> |
-|Disponibilidade de linha fixa/com fio  <br/> |Sim  <br/> |
+|Disponibilidade de linhas com fio/fixo  <br/> |Sim  <br/> |
 |Disponibilidade com a rede móvel  <br/> |Sim  <br/> |
 |Comentários, restrições e problemas de acesso  <br/> |Nenhum  <br/> |
    

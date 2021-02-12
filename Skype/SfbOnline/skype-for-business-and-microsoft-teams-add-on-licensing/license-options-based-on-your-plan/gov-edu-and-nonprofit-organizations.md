@@ -1,5 +1,5 @@
 ---
-title: Organizações GOV, EDU e sem fins lucrativos
+title: GOV, EDU e instituições sem fins lucrativos
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -28,7 +28,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 02/03/2020
 ms.locfileid: "41692496"
 ---
-# <a name="gov-edu-and-non-profit-organizations"></a>Organizações GOV, EDU e sem fins lucrativos
+# <a name="gov-edu-and-non-profit-organizations"></a>GOV, EDU e instituições sem fins lucrativos
 
 Most Skype for Business features are available to .gov, .edu, and nonprofit organizations. See the following table for details.
 

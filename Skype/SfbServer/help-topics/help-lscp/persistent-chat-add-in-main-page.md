@@ -24,7 +24,7 @@ ms.locfileid: "49803791"
 ---
 # <a name="persistent-chat-add-in-main-page"></a>Página Principal do Suplemento de Chat Persistente
 
-Você pode usar a **seção Desassociação** da página **Chat Persistente** para associar URLs a salas de Chat Persistente. Essas URLs aparecem no cliente na sala de chat no painel de extensibilidade da conversa. Um administrador deve adicionar os Complementos à lista de complementos registrados, e os gerentes/Criadores de sala de chat devem associar salas a um dos complementos registrados para que os usuários possam ver essa atualização em seus clientes.
+Você pode usar a **seção Add-in** da página **chat persistente** para associar URLs com salas de Chat Persistente. Essas URLs aparecem no cliente na sala de chat no painel de extensibilidade da conversa. Um administrador deve adicionar os Complementos à lista de complementos registrados, e os gerentes/Criadores de sala de chat devem associar salas a um dos complementos registrados para que os usuários possam ver essa atualização em seus clientes.
 
 Os suplementos são usados para estender a experiência na sala. Um complemento típico pode incluir uma URL apontando para um aplicativo Silverlight que intercepta quando uma cotação das ações é postada em uma sala de chat e mostra o histórico de ações no painel de extensibilidade. Outros exemplos incluem o URL do OneNote 2013 na sala de chat como um suplemento para incluir algum contexto compartilhado, como o "Mais lembrado" ou "Assunto do dia."
 

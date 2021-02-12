@@ -23,7 +23,7 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
-description: Saiba mais sobre números de chamada gratuita nas Filipinas, incluindo a disponibilidade, a disponibilidade de rede com fio/linha fixa e a disponibilidade da rede móvel e restrições.
+description: Saiba mais sobre como discar números de discagem gratuita nas Filipinas, incluindo disponibilidade, disponibilidade de rede com fio/fixo e rede móvel e restrições.
 ms.openlocfilehash: 4d38c75a002733fda1874a7aba3a5a1d08a85ba0
 ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
@@ -33,17 +33,17 @@ ms.locfileid: "43139750"
 ---
 # <a name="toll-free-dialing-restrictions-in-philippines"></a>Restrições de discagem de chamada gratuita nas Filipinas
 
-[Encontre outro país ou região](../toll-free-dialing-limitations-and-restrictions.md)ou saiba mais sobre limitações e restrições de discagem gratuitas.
+[Encontre outro país ou região](../toll-free-dialing-limitations-and-restrictions.md)ou saiba mais sobre limitações e restrições de discagem gratuita.
 
 
 |**Detalhes**|**Descrição**|
 |:-----|:-----|
-|A chamada gratuita está disponível?  <br/> |Sim  <br/> |
-|Formato (s) de discagem  <br/> |1 800 XXXX XXXX  <br/> |
-|Código ISO de país/região  <br/> |PH  <br/> |
-|Ilha/território abrangido  <br/> |Não aplicável  <br/> |
+|As chamada gratuitas estão disponíveis?  <br/> |Sim  <br/> |
+|Formato(s) de discagem  <br/> |1 800 XXXX XXXX  <br/> |
+|Código ISO do país/região  <br/> |PH  <br/> |
+|Ilha/território coberto  <br/> |Não aplicável  <br/> |
 |Ilha/território não coberto  <br/> |Não aplicável  <br/> |
-|Disponibilidade de linha fixa/com fio  <br/> | Somente pela PLDT. <br/> |
+|Disponibilidade de linhas com fio/fixo  <br/> | Somente pela PLDT. <br/> |
 |Disponibilidade com a rede móvel  <br/> |Parcial, mas com tarifa premium. Veja os comentários.  <br/> |
 |Comentários, restrições e problemas de acesso  <br/> |Disponível pelas redes da Sun Cellular e da Smart Mobile.  <br/> |
    

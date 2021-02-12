@@ -43,7 +43,7 @@ Se você usar a integração com o Microsoft Exchange para todos os usuários em
     
 ## <a name="when-skype-for-business-server-and-microsoft-exchange-are-deployed-in-different-forests"></a>Quando o Skype for Business Server e o Microsoft Exchange são implantados em florestas diferentes
 
-Se você usar a integração com o Microsoft Exchange e o Microsoft Exchange Server não for implantado na mesma floresta que o Skype for Business Server, deverá garantir que os seguintes atributos do Exchange Active Directory estejam sincronizados com a floresta onde o Skype for Business Server está implantado:
+Se você usar a integração com o Microsoft Exchange e o Microsoft Exchange Server não for implantado na mesma floresta que o Skype for Business Server, deverá garantir que os seguintes atributos do Exchange Active Directory estejam sincronizados com a floresta em que o Skype for Business Server está implantado:
   
 - msExchUserHoldPolicies
     
