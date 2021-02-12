@@ -22,14 +22,14 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49803881"
 ---
-# <a name="new-calling-number-translation-rule"></a><span data-ttu-id="18565-104">Nova Regra de Conversão de Número de Chamada</span><span class="sxs-lookup"><span data-stu-id="18565-104">New Calling Number Translation Rule</span></span>
+# <a name="new-calling-number-translation-rule"></a><span data-ttu-id="c9305-104">Nova Regra de Conversão de Número de Chamada</span><span class="sxs-lookup"><span data-stu-id="c9305-104">New Calling Number Translation Rule</span></span>
 
-<span data-ttu-id="18565-p102">É possível usar a **Nova Configuração de Tronco**: **Nova Regra de Conversão de Número de Chamada** para criar uma nova regra de conversão. Para obter detalhes sobre as regras de transição, consulte os seguintes tópicos:</span><span class="sxs-lookup"><span data-stu-id="18565-p102">You can use the **New Trunk Configuration**: **New Calling Number Translation Rule** to create a new translation rule. For details about translation rules, see the following topics:</span></span>
+<span data-ttu-id="c9305-p102">É possível usar a **Nova Configuração de Tronco**: **Nova Regra de Conversão de Número de Chamada** para criar uma nova regra de conversão. Para obter detalhes sobre as regras de transição, consulte os seguintes tópicos:</span><span class="sxs-lookup"><span data-stu-id="c9305-p102">You can use the **New Trunk Configuration**: **New Calling Number Translation Rule** to create a new translation rule. For details about translation rules, see the following topics:</span></span>
 
-1. [<span data-ttu-id="18565-107">Criar ou modificar uma regra de conversão para apresentação de ID chamada no Skype for Business Server 2015</span><span class="sxs-lookup"><span data-stu-id="18565-107">Create or modify a translation rule for called ID presentation in Skype for Business Server 2015</span></span>](../../deploy/deploy-enterprise-voice/called-id-presentation-rules.md)
+1. [<span data-ttu-id="c9305-107">Criar ou modificar uma regra de conversão para apresentação de ID chamada no Skype for Business Server 2015</span><span class="sxs-lookup"><span data-stu-id="c9305-107">Create or modify a translation rule for called ID presentation in Skype for Business Server 2015</span></span>](../../deploy/deploy-enterprise-voice/called-id-presentation-rules.md)
 
-2. [<span data-ttu-id="18565-108">Configuração de Tronco e Regras de Conversão</span><span class="sxs-lookup"><span data-stu-id="18565-108">Trunk Configuration and Translation Rules</span></span>](https://technet.microsoft.com/library/0c339511-a185-484e-94f0-dbe918b7e48a.aspx)
+2. [<span data-ttu-id="c9305-108">Configuração de Tronco e Regras de Conversão</span><span class="sxs-lookup"><span data-stu-id="c9305-108">Trunk Configuration and Translation Rules</span></span>](https://technet.microsoft.com/library/0c339511-a185-484e-94f0-dbe918b7e48a.aspx)
 
-3. [<span data-ttu-id="18565-109">Definindo regras de conversão</span><span class="sxs-lookup"><span data-stu-id="18565-109">Defining Translation Rules</span></span>](https://technet.microsoft.com/library/4f6b975a-77e6-474c-9171-b139d84138c2.aspx)
+3. [<span data-ttu-id="c9305-109">Definindo regras de conversão</span><span class="sxs-lookup"><span data-stu-id="c9305-109">Defining Translation Rules</span></span>](https://technet.microsoft.com/library/4f6b975a-77e6-474c-9171-b139d84138c2.aspx)
 
 

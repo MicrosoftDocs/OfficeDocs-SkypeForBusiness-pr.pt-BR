@@ -22,13 +22,13 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49803891"
 ---
-# <a name="network-configuration-global-setting"></a><span data-ttu-id="fe86a-104">Configuração de Rede: Definição Global</span><span class="sxs-lookup"><span data-stu-id="fe86a-104">Network Configuration: Global Setting</span></span>
+# <a name="network-configuration-global-setting"></a><span data-ttu-id="1a43d-104">Configuração de Rede: Definição Global</span><span class="sxs-lookup"><span data-stu-id="1a43d-104">Network Configuration: Global Setting</span></span>
 
-<span data-ttu-id="fe86a-105">O que você deseja fazer?</span><span class="sxs-lookup"><span data-stu-id="fe86a-105">What do you want to do?</span></span> <span data-ttu-id="fe86a-106">Clique no link para a tarefa que você deseja executar.</span><span class="sxs-lookup"><span data-stu-id="fe86a-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="1a43d-105">O que você deseja fazer?</span><span class="sxs-lookup"><span data-stu-id="1a43d-105">What do you want to do?</span></span> <span data-ttu-id="1a43d-106">Clique no link para a tarefa que você deseja executar.</span><span class="sxs-lookup"><span data-stu-id="1a43d-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="fe86a-107">Habilitando o controle de admissão de chamada</span><span class="sxs-lookup"><span data-stu-id="fe86a-107">Enabling Call Admission Control</span></span>](https://technet.microsoft.com/library/015f5c8f-2f90-4b9e-8149-b33767e90582.aspx)
+- [<span data-ttu-id="1a43d-107">Habilitando o controle de admissão de chamada</span><span class="sxs-lookup"><span data-stu-id="1a43d-107">Enabling Call Admission Control</span></span>](https://technet.microsoft.com/library/015f5c8f-2f90-4b9e-8149-b33767e90582.aspx)
 
-- [<span data-ttu-id="fe86a-108">Habilitando o bypass de mídia</span><span class="sxs-lookup"><span data-stu-id="fe86a-108">Enabling Media Bypass</span></span>](https://technet.microsoft.com/library/95c4fa06-49d3-41ac-acdc-7dcda66e5508.aspx)
+- [<span data-ttu-id="1a43d-108">Habilitando o bypass de mídia</span><span class="sxs-lookup"><span data-stu-id="1a43d-108">Enabling Media Bypass</span></span>](https://technet.microsoft.com/library/95c4fa06-49d3-41ac-acdc-7dcda66e5508.aspx)
 
-<span data-ttu-id="fe86a-109">Para obter detalhes sobre os diferentes procedimentos que você pode executar usando o Painel de Controle do Skype for Business Server, consulte [Gerenciar o Skype for Business Server 2015.](../../manage/manage.md)</span><span class="sxs-lookup"><span data-stu-id="fe86a-109">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
+<span data-ttu-id="1a43d-109">Para obter detalhes sobre os diferentes procedimentos que você pode executar usando o Painel de Controle do Skype for Business Server, consulte [Gerenciar o Skype for Business Server 2015.](../../manage/manage.md)</span><span class="sxs-lookup"><span data-stu-id="1a43d-109">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
 

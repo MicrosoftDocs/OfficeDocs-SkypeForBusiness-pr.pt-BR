@@ -22,10 +22,10 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49803851"
 ---
-# <a name="normalization-rule-type-a-regular-expression"></a><span data-ttu-id="a2069-103">Regra de Normalização: Digite uma Expressão Regular</span><span class="sxs-lookup"><span data-stu-id="a2069-103">Normalization Rule: Type a Regular Expression</span></span>
+# <a name="normalization-rule-type-a-regular-expression"></a><span data-ttu-id="d5923-103">Regra de Normalização: Digite uma Expressão Regular</span><span class="sxs-lookup"><span data-stu-id="d5923-103">Normalization Rule: Type a Regular Expression</span></span>
  
-<span data-ttu-id="a2069-104">Digite uma expressão regular do .NET Framework para especificar o padrão correspondente dos números de telefone de destino aos quais a rota é aplicada.</span><span class="sxs-lookup"><span data-stu-id="a2069-104">Type a .NET Framework regular expression to specify the matching pattern for destination phone numbers to which the route is applied.</span></span> 
+<span data-ttu-id="d5923-104">Digite uma expressão regular do .NET Framework para especificar o padrão correspondente dos números de telefone de destino aos quais a rota é aplicada.</span><span class="sxs-lookup"><span data-stu-id="d5923-104">Type a .NET Framework regular expression to specify the matching pattern for destination phone numbers to which the route is applied.</span></span> 
   
-<span data-ttu-id="a2069-105">Para obter detalhes sobre os diferentes procedimentos que você pode executar usando o Painel de Controle do Skype for Business Server, consulte [Gerenciar o Skype for Business Server 2015.](../../manage/manage.md)</span><span class="sxs-lookup"><span data-stu-id="a2069-105">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
+<span data-ttu-id="d5923-105">Para obter detalhes sobre os diferentes procedimentos que você pode executar usando o Painel de Controle do Skype for Business Server, consulte [Gerenciar o Skype for Business Server 2015.](../../manage/manage.md)</span><span class="sxs-lookup"><span data-stu-id="d5923-105">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
   
 

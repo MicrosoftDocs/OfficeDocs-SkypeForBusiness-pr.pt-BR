@@ -27,4 +27,4 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 02/03/2020
 ms.locfileid: "41693096"
 ---
-# <a name="legal-and-regulatory"></a><span data-ttu-id="67438-103">Jurídico e regulatório</span><span class="sxs-lookup"><span data-stu-id="67438-103">Legal and regulatory</span></span>
+# <a name="legal-and-regulatory"></a><span data-ttu-id="ba4c7-103">Jurídico e regulatório</span><span class="sxs-lookup"><span data-stu-id="ba4c7-103">Legal and regulatory</span></span>
