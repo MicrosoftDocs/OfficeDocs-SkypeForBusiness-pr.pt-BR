@@ -11,7 +11,7 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: fed12cb5-2c80-476a-af3b-d55b450c5fbc
-description: 'Resumo: saiba como excluir uma configuração de arquivamento no Skype for Business Server.'
+description: 'Resumo: Saiba como excluir uma configuração de arquivamento no Skype for Business Server.'
 ms.openlocfilehash: a9d24a17ec769f5686502beb325e021c8b0f39c3
 ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT

@@ -56,7 +56,7 @@ Os seguintes recursos sobre como planejar o Skype for Business Server estão dis
 ||**Conteúdo**|**Descrição**|
 |:-----|:-----|:-----|
 |![Ícone para documentos](../media/4eff581b-890b-46cb-8224-a4122137d27e.png)|[Skype for Business Server para profissionais de IT](https://go.microsoft.com/fwlink/p/?LinkId=527960) <br/> |Visite a central de recursos para acessar vídeos, sites da comunidade, documentação, downloads e muito mais. |
-|![Ícone para conteúdo do desenvolvedor](../media/3626138a-2778-407e-911f-a0dcbdc36684.png)|Skype for Business Server para desenvolvedores  <br/> |Encontre recursos de desenvolvedor para o Skype for Business Server, incluindo exemplos de código, treinamento e SDKs. |
+|![Ícone para conteúdo de desenvolvedor](../media/3626138a-2778-407e-911f-a0dcbdc36684.png)|Skype for Business Server para desenvolvedores  <br/> |Encontre recursos de desenvolvedor para o Skype for Business Server, incluindo exemplos de código, treinamento e SDKs. |
 |![Ícone para notícias, blogs e assim por diante](../media/ac692cb8-7db8-4810-b53f-1bc88b1e4cac.png)|[Gerenciamento de mudanças e adoção](https://go.microsoft.com/fwlink/p/?LinkId=532796) <br/> [Blogs do Office](https://go.microsoft.com/fwlink/p/?LinkId=528899) <br/> [Blog da equipe do Skype](https://go.microsoft.com/fwlink/p/?LinkId=532818) <br/> |Acompanhe as notícias das equipes que criam e documentam o Skype for Business Server.  |
    
 

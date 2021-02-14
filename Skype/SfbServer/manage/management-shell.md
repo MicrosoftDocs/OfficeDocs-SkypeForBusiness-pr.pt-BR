@@ -12,7 +12,7 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 674b523b-c0b7-4ed6-9e67-afa6e8ac7e12
-description: O Shell de Gerenciamento do Skype for Business Server fornece a interface de linha de comando para administração e gerenciamento do servidor. Ele foi criado com base no Windows PowerShell e inclui um conjunto abrangente de cmdlets de gerenciamento e administração específicos do Skype e dos produtos de servidor herdados do Lync.
+description: O Shell de Gerenciamento do Skype for Business Server fornece a interface de linha de comando para administração e gerenciamento do servidor. Ele foi criado com base no Windows PowerShell e inclui um conjunto abrangente de cmdlets de gerenciamento e administração específicos do Skype e produtos de servidor herdados do Lync.
 ms.openlocfilehash: 0653faa542bc9bc579bd7617e40d3efed030569f
 ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
@@ -22,7 +22,7 @@ ms.locfileid: "49816531"
 ---
 # <a name="skype-for-business-server-management-shell"></a>Shell de Gerenciamento do Skype for Business Server
  
-O Shell de Gerenciamento do Skype for Business Server fornece a interface de linha de comando para administração e gerenciamento do servidor. Ele foi criado com base no Windows PowerShell e inclui um conjunto abrangente de cmdlets de gerenciamento e administração específicos do Skype e dos produtos de servidor herdados do Lync.
+O Shell de Gerenciamento do Skype for Business Server fornece a interface de linha de comando para administração e gerenciamento do servidor. Ele foi criado com base no Windows PowerShell e inclui um conjunto abrangente de cmdlets de gerenciamento e administração específicos do Skype e produtos de servidor herdados do Lync.
   
 O Windows PowerShell permite que você gerencie aplicativos da Microsoft a partir da linha de comando. Ele inclui um ambiente de linha de comando, comandos específicos do produto e uma linguagem de script completa. O Windows PowerShell foi introduzido pela primeira vez como uma versão baixável para o sistema operacional Windows no final de 2006 e foi incorporado como a interface de linha de comando para capacidade de gerenciamento do Microsoft Exchange Server 2007. Ele foi incorporado à maioria dos produtos do Microsoft Server, incluindo os servidores do Lync e do Skype a partir do Lync Server 2010. Há mais de 700 cmdlets específicos do Lync e do Skype disponíveis no Shell de Gerenciamento do Skype for Business Server.
   
@@ -50,7 +50,7 @@ Informações sobre o Windows PowerShell no Skype for Business Server:
 - Para executar os cmdlets do Skype for Business Server, abra o Shell de Gerenciamento do Skype for Business Server.
     
     > [!CAUTION]
-    > Se você abrir uma janela do Windows PowerShell em vez do Shell de Gerenciamento do Skype for Business Server, por padrão, talvez não consiga executar os cmdlets do Skype. Para executar os cmdlets do Skype for Business Server no Windows PowerShell, digite o seguinte no prompt de comando do Windows PowerShell: >  `Import-Module SkypeforBusiness`
+    > Se você abrir uma janela do Windows PowerShell em vez do Shell de Gerenciamento do Skype for Business Server, por padrão, talvez não consiga executar os cmdlets do Skype. Para executar cmdlets do Skype for Business Server no Windows PowerShell, digite o seguinte no prompt de comando do Windows PowerShell: >  `Import-Module SkypeforBusiness`
   
 - O Shell de Gerenciamento do Skype for Business Server é instalado automaticamente em cada servidor front-end do Skype for Business Server Enterprise Edition ou servidor Standard Edition.
     

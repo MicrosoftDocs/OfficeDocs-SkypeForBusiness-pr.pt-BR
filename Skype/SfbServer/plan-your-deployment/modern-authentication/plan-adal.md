@@ -25,7 +25,7 @@ Este artigo apresenta a Autenticação Moderna (que se baseia na ADAL (Bibliotec
   
 ## <a name="what-is-adal"></a>O que é a ADAL?
 
-A ADAL é o acrônimo da "Biblioteca de Autenticação do Active Directory" e, juntamente com o OAuth 2.0, é um dos princípios da Autenticação Moderna. Essa biblioteca de códigos foi projetada para disponibilizar recursos seguros em seu diretório para aplicativos cliente (como o Skype for Business) por meio de tokens de segurança. A ADAL trabalha com o OAuth 2.0 para habilitar mais cenários de autenticação e autorização, como a MFA (Autenticação Multifatória) e mais formas de Autenticação SAML.
+A ADAL é o acrônimo para a "Biblioteca de Autenticação do Active Directory" e, juntamente com o OAuth 2.0, é um dos princípios da Autenticação Moderna. Essa biblioteca de códigos foi projetada para disponibilizar recursos seguros em seu diretório para aplicativos cliente (como o Skype for Business) por meio de tokens de segurança. A ADAL trabalha com o OAuth 2.0 para habilitar mais cenários de autenticação e autorização, como a MFA (Autenticação Multifatória) e mais formas de Autenticação SAML.
   
 Uma variedade de aplicativos que atuam como clientes pode aproveitar a Autenticação Moderna para obter recursos seguros. No Skype for Business Server, essa tecnologia é usada entre clientes locais e servidores locais para dar aos usuários um nível adequado de autorização aos recursos.
   
@@ -33,7 +33,7 @@ As conversas de Autenticação Moderna (que são baseadas na ADAL e no OAuth 2.0
   
 - Há um cliente fazendo uma solicitação para um recurso, nesse caso, o cliente é o Skype for Business.
     
-- Há um recurso para o qual o cliente precisa de um nível específico de acesso, e esse recurso é protegido por um serviço de diretório, neste caso, o recurso é o Skype for Business Server.
+- Há um recurso para o qual o cliente precisa de um nível específico de acesso, e esse recurso é protegido por um serviço de diretório, neste caso o recurso é o Skype for Business Server.
     
 - Há uma conexão OAuth, em outras palavras, uma conexão dedicada  *a*  autorizar um usuário a acessar um recurso. (OAuth também é conhecido pelo nome mais descritivo, auth 'Servidor para Servidor' e é frequentemente abreviado como S2S.)
     

@@ -41,7 +41,7 @@ Os Relatórios de Uso do Sistema fornecem informações de uso do sistema com ba
     
 - [Relatório de Resumo de Conferência PSTN no Skype for Business Server](pstn-conference-summary-report.md)
     
-    Fornece um resumo de todas as conferências PSTN. São conferências em que pelo menos um usuário disca usando a PSTN (Rede Telefônica Pública Comuada), também conhecida como conferência discada.
+    Fornece um resumo de todas as conferências PSTN. São conferências em que pelo menos um usuário disca usando a PSTN (Rede Telefônica Pública Comuada), que também é conhecida como conferência discada.
     
 - [Relatório de Uso do Grupo de Resposta no Skype for Business Server](response-group-usage-report.md)
     

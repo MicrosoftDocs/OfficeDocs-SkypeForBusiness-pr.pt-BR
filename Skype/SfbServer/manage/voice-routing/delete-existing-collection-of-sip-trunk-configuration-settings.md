@@ -31,7 +31,7 @@ Quando você instala o Skype for Business Server, um conjunto global de definiç
 Os administradores também podem criar definições de configuração de tronco personalizadas no escopo do site ou no escopo de serviço (para um gateway PSTN individual); essas configurações personalizadas podem ser removidas. Ao remover essas configurações personalizadas, lembre-se do seguinte:
 
 - Se você remover as configurações de escopo do serviço, o tronco SIP gerenciado por essas configurações será gerenciado pelas configurações aplicadas ao site, caso existam. Se as configurações de site não existirem, esses troncos serão gerenciados pelo conjunto global de definições de configuração de tronco.
-- Se você remover as definições de escopo do site, todos os troncos SIP gerenciados por essas configurações agora serão gerenciados pelo conjunto global de definições de configuração de tronco.
+- Se você remover as definições de escopo do site, todos os troncos SIP gerenciados por essas definições agora serão gerenciados pelo conjunto global de definições de configuração do tronco.
 
 **Para remover as definições de configuração de tronco com o Painel de Controle do Skype for Business Server** 
 
@@ -39,7 +39,7 @@ Os administradores também podem criar definições de configuração de tronco 
 2. Na guia **Configuração do** Tronco, selecione o conjunto de definições de configuração do tronco SIP a ser excluído, clique em **Editar** e em **Excluir.** Para excluir várias coleções na mesma operação, clique na primeira coleção a ser excluída, mantenha a tecla Ctrl e clique nas coleções adicionais que deseja remover.
 3. A propriedade **Estado** da coleção será atualizada para **Não vinculado**. Para vincular as alterações e excluir a coleção, clique em **Vincular** e em **Vincular tudo**.
 4. Na caixa de diálogo **Configurações de Voz Não Vinculadas**, clique em **OK**.
-5. Na caixa de diálogo Painel de **Controle do Skype for Business Server,** clique em **OK.**
+5. Na caixa de diálogo Painel de Controle do **Skype for Business Server,** clique em **OK.**
 6. If you change your mind and decide not to delete the collection, click **Commit**, and then click **Cancel All Uncommitted Changes**. Quando a caixa de diálogo Painel de Controle do **Skype for Business Server** for exibida, clique em **OK.**
 
 ## <a name="removing-trunk-configuration-settings-by-using-windows-powershell-cmdlets"></a>Removendo definições de configuração de tronco usando cmdlets do Windows PowerShell

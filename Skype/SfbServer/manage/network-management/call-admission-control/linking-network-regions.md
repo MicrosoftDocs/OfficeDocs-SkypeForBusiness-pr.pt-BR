@@ -86,7 +86,7 @@ Você pode configurar links entre duas regiões de rede como parte do controle d
 
 6.  Na lista **drop-down da Região de rede \# 1,** selecione uma das duas regiões a serem vinculadas.
 
-7.  Na lista drop-down da Região de rede **\# 2,** selecione a outra região a ser vinculada. Essa região deve ser diferente da região selecionada para a Região \# de rede 1.
+7.  Na lista **da região de rede \# 2,** selecione a outra região a ser vinculada. Essa região deve ser diferente da região selecionada para a Região \# de rede 1.
 
 8.  (Opcional) Se você desejar colocar limites de largura de banda em chamadas de áudio e vídeo entre essas regiões, selecione um perfil de política de largura de banda na lista suspensa **Política de largura de banda**.
 

@@ -25,7 +25,7 @@ Se você precisar remover o servidor de arquivos que está atuando atualmente co
 
 1. Desligue os serviços do Skype for Business Server que usam o armazenamento de arquivos que você planeja remover.
 
-2. Defina o armazenamento de arquivos no Construtor de Topologias e publique as alterações para disponibilizar o novo armazenamento de arquivos em sua implantação.
+2. Defina o armazenamento de arquivos no Construtor de Topologias e publique as alterações para disponibilizar o novo armazenamento de arquivos para sua implantação.
 
 3. Mova os dados para o novo armazenamento de arquivos.
 
@@ -41,7 +41,7 @@ Se você precisar remover o servidor de arquivos que está atuando atualmente co
 
 3. Na barra de navegação à esquerda, clique em **Topologia** e em **Status**.
 
-4. Para cada pool de Diretores, Diretor, servidor Standard Edition e pool de Front-End que usa o armazenamento de arquivos que você planeja remover, selecione o servidor ou pool, clique em Ação e clique em Parar todos os **serviços.**
+4. Para cada pool de Diretores, Diretor, servidor Standard Edition e pool de Front-End que usa o armazenamento de arquivos que você planeja remover, selecione o servidor ou pool, clique em Ação e em Parar todos os **serviços.**
 
 5. Faça logon no computador no qual o Construtor de Topologias está instalado como um membro do grupo Admins. do Domínio ou do grupo RTCUniversalServerAdmins.
 
@@ -79,7 +79,7 @@ Se você precisar remover o servidor de arquivos que está atuando atualmente co
 
 12. Quando a cópia de dados estiver concluída, no Painel de Controle do Lync Server, clique em **Topologia** e em **Status.**
 
-13. Para cada servidor ou pool em que você interrompeu serviços, selecione o servidor ou pool, clique em Ação **e** em **Iniciar todos os serviços.**
+13. Para cada servidor ou pool onde você interrompeu serviços, selecione o servidor ou pool, clique em Ação **e** clique em Iniciar todos **os serviços.**
 
 14. Remova o repositório de arquivos antigo da topologia e publique-a. Para detalhes, consulte [Remove a file store](https://technet.microsoft.com/library/1ba7eb15-5c87-4357-b4d8-f59409ac7f71.aspx).
 

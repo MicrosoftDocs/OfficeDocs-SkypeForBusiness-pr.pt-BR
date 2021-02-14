@@ -1,6 +1,6 @@
 ---
 title: Teams para Serviços de Saúde
-description: Saiba mais sobre os recursos de administrador disponíveis para gerenciar o Teams para equipes de saúde em sua organização.
+description: Saiba mais sobre os recursos de administração disponíveis para você gerenciar o Teams para equipes de saúde em sua organização.
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -25,10 +25,10 @@ ms.locfileid: "49815701"
 ---
 # <a name="teams-for-healthcare"></a>Teams para Serviços de Saúde
 
-O Teams oferece às equipes de saúde e aos profissionais de saúde uma maneira segura de se comunicar, coordenar o atendimento aos pacientes e melhorar a eficiência operacional. Aqui você encontrará os recursos de administrador necessários para gerenciar o Teams para equipes de saúde em sua organização.
+O Teams oferece às equipes de saúde e profissionais de saúde uma maneira segura de se comunicar, coordenar o atendimento ao paciente e melhorar a eficiência operacional. Aqui você encontrará os recursos de administração necessários para gerenciar o Teams para equipes de saúde em sua organização.
 
 |               |               |
 | ------------- | ------------- |
 | ![get-started-teams](../media/get-started-teams.svg)  |  [Introdução ao Teams para Organizações de Saúde](https://docs.microsoft.com/microsoftteams/expand-teams-across-your-org/healthcare/teams-in-hc) |
 | ![walkthrough-map-teams](../media/walkthrough-map-teams.svg) | [Introdução aos modelos do Teams para Organizações de Saúde](https://docs.microsoft.com/microsoftteams/expand-teams-across-your-org/healthcare/healthcare-templates) |
-| ![chat](../media/chat.svg)  |  [Introdução às Mensagens Seguras para Organizações de Saúde](https://docs.microsoft.com/MicrosoftTeams/expand-teams-across-your-org/healthcare/messaging-policies-hc) |
+| ![Chat](../media/chat.svg)  |  [Introdução às Mensagens Seguras para Organizações de Saúde](https://docs.microsoft.com/MicrosoftTeams/expand-teams-across-your-org/healthcare/messaging-policies-hc) |

@@ -1,5 +1,5 @@
 ---
-title: Status do Roteamento de Voz de Alterações de Confirmações para Configuração de Roteamento de Voz
+title: Status de Roteamento de Voz de Alterações de Confirmações para Configuração de Roteamento de Voz
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur

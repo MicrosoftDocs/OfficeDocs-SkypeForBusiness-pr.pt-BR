@@ -43,7 +43,7 @@ As informações listadas aqui são um subconjunto de URLs e intervalos de ender
 ## <a name="see-also"></a>Confira também
 <a name="BKMK_Conferencing"> </a>
 
-[Planejar-se para clientes de reuniões (aplicativo Web App e reuniões)](meetings-clients.md)
+[Planejar-se para clientes de reuniões (aplicativo Web App e Reuniões)](meetings-clients.md)
 
 [Implantar clientes para download da Web no Skype for Business Server](../../deploy/deploy-clients/deploy-web-downloadable-clients.md)
 

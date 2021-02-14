@@ -30,7 +30,7 @@ Você pode usar o Painel de Controle do Skype for Business Server para exibir um
   
 ### <a name="to-view-a-list-of-computers-running-skype-for-business-server"></a>Para exibir uma lista de computadores que executam o Skype for Business Server
 
-1. Em uma conta de usuário atribuída a qualquer uma das funções administrativas predefinidos do Skype for Business Server, faça logoff em qualquer computador em sua implantação interna. Para obter detalhes sobre as funções administrativas predefinidos disponíveis no Skype for Business Server, consulte **Planning for Role-Based Access Control**.   
+1. Em uma conta de usuário atribuída a qualquer uma das funções administrativas predefinidos do Skype for Business Server, faça logoff em qualquer computador da sua implantação interna. Para obter detalhes sobre as funções administrativas predefinidos disponíveis no Skype for Business Server, consulte **Planning for Role-Based Access Control**.   
 2. Abra uma janela do navegador e insira a URL do Administrador para abrir o Painel de Controle do Skype for Business Server.   
 3. Na barra de navegação esquerda, clique em **Topologia** e em **Status**.   
 4. Na página **Status**, execute um dos seguintes procedimentos conforme necessário:
@@ -86,7 +86,7 @@ Você pode usar o Painel de Controle do Skype for Business Server para exibir de
   
 ### <a name="to-view-details-for-a-service"></a>Para exibir detalhes de um serviço
 
-1. Em uma conta de usuário atribuída a qualquer uma das funções administrativas predefinidos do Skype for Business Server, faça logoff em qualquer computador em sua implantação interna. Para obter detalhes sobre as funções administrativas predefinidos disponíveis no Skype for Business Server, consulte **Planning for Role-Based Access Control**.
+1. Em uma conta de usuário atribuída a qualquer uma das funções administrativas predefinidos do Skype for Business Server, faça logoff em qualquer computador da sua implantação interna. Para obter detalhes sobre as funções administrativas predefinidos disponíveis no Skype for Business Server, consulte **Planning for Role-Based Access Control**.
 2. Abra uma janela do navegador e insira a URL do Administrador para abrir o Painel de Controle do Skype for Business Server. 
 3. Na barra de navegação esquerda, clique em **Topologia** e em **Status**.
 4. Na página **Status**, classifique ou pesquisa na lista e clique no computador que deseja exibir.
@@ -97,7 +97,7 @@ Você pode usar o Painel de Controle do Skype for Business Server para exibir de
    - Para ver detalhes desse serviço específico, clique em **Propriedades** e em **Fechar**.
    - Para retornar à lista com todos os computadores em sua topologia, clique **Fechar**.
     
-## <a name="start-or-stop-skype-for-business-server-services"></a>Iniciar ou interromper os serviços do Skype for Business Server
+## <a name="start-or-stop-skype-for-business-server-services"></a>Iniciar ou parar os serviços do Skype for Business Server
 <a name="StartStop"> </a>
 
 Você pode usar o Painel de Controle do Skype for Business Server para iniciar ou parar todos os serviços do Skype for Business Server em execução em um computador específico ou para iniciar ou parar um serviço específico.

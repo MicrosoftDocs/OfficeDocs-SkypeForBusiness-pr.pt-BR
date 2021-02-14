@@ -12,7 +12,7 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 9a3cdcea-426e-4b6b-9876-ba746a8de706
-description: A exibição ConfernceUris armazena informações sobre os URIs que participaram de sessões de conferência. Esta exibição foi introduzida no Microsoft Lync Server 2013.
+description: A exibição ConfernceUris armazena informações sobre os URIs que participaram de sessões de conferência. Essa exibição foi introduzida no Microsoft Lync Server 2013.
 ms.openlocfilehash: 0c3ab5d72c8058ea7d13d2e54df8cae25bf239c1
 ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
@@ -22,7 +22,7 @@ ms.locfileid: "49816121"
 ---
 # <a name="conferenceuris-view"></a>Exibição ConferenceUris
  
-A exibição ConfernceUris armazena informações sobre os URIs que participaram de sessões de conferência. Esta exibição foi introduzida no Microsoft Lync Server 2013.
+A exibição ConfernceUris armazena informações sobre os URIs que participaram de sessões de conferência. Essa exibição foi introduzida no Microsoft Lync Server 2013.
   
 |**Coluna**|**Tipo de dados**|**Detalhes**|
 |:-----|:-----|:-----|

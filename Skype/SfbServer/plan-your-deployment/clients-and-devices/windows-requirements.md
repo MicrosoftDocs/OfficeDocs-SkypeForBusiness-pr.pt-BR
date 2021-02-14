@@ -37,7 +37,7 @@ Esta seção resume o software necessário para dar suporte aos clientes Do Wind
 
 |**Componente do sistema**|**Versões com suporte**|
 |:-----|:-----|
-|Sistema operacional Windows  <br/> |Windows 10  <br/> Windows 8.1  <br/> Windows 8 <br/> Windows Server 2008 R2 ou posterior com o service pack mais recente  <br/> **Observação:** O Skype for Business e o Complemento de Reunião Online do Skype for Business não são suportados no Windows Vista ou no Windows XP (qualquer versão). <br/> |
+|Sistema operacional Windows  <br/> |Windows 10  <br/> Windows 8.1  <br/> Windows 8 <br/> Windows Server 2008 R2 ou posterior com service pack mais recente  <br/> **Observação:** O Skype for Business e o Complemento de Reunião Online do Skype for Business não são suportados no Windows Vista ou no Windows XP (qualquer versão). <br/> |
 |Instalação e atualizações  <br/> |Direitos e permissões de administrador  <br/> |
 |Navegador  <br/> |Microsoft Edge  <br/> Navegador Internet Internet Explorer 11  <br/>  Navegador Internet Internet Explorer 10 <br/> Navegador Internet Internet Explorer 9  <br/> Navegador Internet Internet Explorer 8  <br/> Navegador Internet Internet Explorer 7  <br/> Navegador da Web Mozilla Firefox  <br/>  Navegador da Web Google Chrome  <br/>**Observação:** Se você estiver usando o Skype for Business com o Microsoft Exchange Online e sua organização tiver implantado um proxy HTTP de autenticação, o Internet Explorer 8 ou posterior será necessário.           |
 |Integração com o Microsoft Office  <br/> | Outlook 2010 ou posterior |
@@ -55,7 +55,7 @@ O aplicativo Reuniões do Skype e o Skype for Business Web App suportam combina�
 
 Se você planeja usar os recursos de conferência do Skype for Business, evite usar perfis obrigatórios dos Serviços de Domínio Active Directory para entrar no cliente Skype for Business. Como os perfis obrigatórios são perfis de usuário somente leitura, as chaves PKI (infraestrutura de chave pública) necessárias para a conferência do Skype for Business não podem ser salvas no perfil. 
   
-## <a name="system-requirements-for-skype-for-business-for-windows-phone"></a>Requisitos do sistema do Skype for Business para Windows Phone
+## <a name="system-requirements-for-skype-for-business-for-windows-phone"></a>Requisitos de sistema do Skype for Business para Windows Phone
  
  
 O Microsoft Skype for Business para Windows Phone fornece mensagens instantâneas, presença aprimorada e telefonia para usuários em sua organização que estão se conectando de um smartphone ou dispositivo móvel Windows Professional. Os dispositivos móveis permitem que os usuários estendam o alcance do Skype for Business. Este tópico descreve considerações de planejamento para o Skype for Business para Windows Phone que incluem a identificação de pré-requisitos e requisitos técnicos, componentes necessários e diretrizes de implantação.

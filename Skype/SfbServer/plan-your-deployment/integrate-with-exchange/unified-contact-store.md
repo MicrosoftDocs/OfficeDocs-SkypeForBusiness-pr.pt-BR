@@ -25,7 +25,7 @@ ms.locfileid: "49816251"
  
 **Resumo:** Revise este tópico ao planejar a integração do Skype for Business Server com o Exchange 2013 ou 2016.
   
-O armazenamento unificado de contatos oferece uma experiência de contato consistente em produtos do Microsoft Office e permite que os usuários armazenem todas as informações de contato no Exchange 2013, mas permite que as informações sejam disponibilizadas globalmente no Skype for Business, Exchange, Outlook e Outlook Web Access.
+O armazenamento unificado de contatos fornece uma experiência de contato consistente em produtos do Microsoft Office e permite que os usuários armazenem todas as informações de contato no Exchange 2013, mas permite que as informações sejam disponibilizadas globalmente no Skype for Business, Exchange, Outlook e Outlook Web Access.
   
 ## <a name="requirements-for-unified-contact-store"></a>Requisitos para o armazenamento unificado de contatos
 

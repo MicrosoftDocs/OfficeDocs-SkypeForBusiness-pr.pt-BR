@@ -33,7 +33,7 @@ Para configurar as configurações iniciais de arquivamento, use o Painel de Con
     
 Você precisará configurar opções para o seguinte:
   
-- Se é para habilitar ou desabilitar o arquivamento
+- Se o arquivamento será habilitado ou desabilitado
     
 - Arquivar sessões de IM
     

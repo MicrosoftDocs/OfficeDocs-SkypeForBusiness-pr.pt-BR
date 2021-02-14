@@ -23,7 +23,7 @@ ms.locfileid: "49817131"
  
 **Resumo:** Saiba mais sobre o Relatório de Atividade de Conferência usado no Skype for Business Server.
   
-O Relatório de Atividades de Conferência facilita a resposta a perguntas como estas: quantas conferências estão sendo realizadas todos os dias e quando essas conferências estão sendo realizadas? Informações como essas são úteis não apenas em seu próprio direito, mas também como uma ferramenta de solução de problemas. Por exemplo, suponha que os usuários estão reclamando que a rede parece particularmente lenta no meio do dia. Uma rápida olhada nos relatórios de Atividade de Conferência pode sugerir um motivo possível: muito mais conferências estão sendo agendadas entre as 10:00 e 14:00 horas em qualquer outro momento.
+O Relatório de Atividades de Conferência facilita a resposta a perguntas como estas: quantas conferências estão sendo realizadas todos os dias e quando essas conferências estão sendo realizadas? Informações como essas são úteis não apenas em seu próprio direito, mas também como uma ferramenta de solução de problemas. Por exemplo, suponha que os usuários estão reclamando que a rede parece particularmente lenta no meio do dia. Uma rápida olhada nos relatórios de Atividade de Conferência pode sugerir um motivo possível: muito mais conferências estão sendo agendadas entre as 10:00 e 14:00 pm em qualquer outro momento.
   
 Se a rede lenta estiver causando problemas, você poderá incentivar os usuários a reagendar algumas de suas conferências durante os horários menos intensos de tráfego do dia.
   
@@ -60,7 +60,7 @@ Os filtros fornecem uma maneira de retornar um conjunto de dados mais direcionad
    
 ## <a name="metrics-for-conferences-by-pool"></a>Métricas para conferências por pool
 
-A tabela a seguir lista as informações do Relatório de Atividades de Conferência para cada pool.
+A tabela a seguir lista as informações do Relatório de Atividade de Conferência para cada pool.
   
 **Métricas para conferências por pool**
 

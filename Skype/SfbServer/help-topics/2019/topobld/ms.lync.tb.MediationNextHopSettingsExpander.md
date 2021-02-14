@@ -26,6 +26,6 @@ ms.locfileid: "49815461"
  
 Você especifica o próximo salto do pool de Servidor de Mediação ou Servidor de Mediação selecionando o pool de Front-Ends Enterprise Edition, ou Servidor Front-Ends Standard Edition, definido a partir da lista suspensa. Um Diretor ou pool de Diretores não é uma seleção válida para um próximo salto de pool de Servidores de Mediação ou de Servidor de Mediação e não aparecerá na lista. Clique **em OK** para aceitar e salvar suas alterações. Clique em  **Cancelar** para descartar suas alterações e sair da página de propriedades.
   
-Para obter detalhes sobre as configurações para o pool de Servidor de Mediação ou Servidor de Mediação, consulte [Deploy a Mediation Server in Topology Builder in Skype for Business Server](../../../deploy/deploy-enterprise-voice/deploy-a-mediation-server.md) in the Deployment documentation.
+Para obter detalhes sobre as configurações do pool do Servidor de Mediação ou servidor de mediação, consulte [Deploy a Mediation Server in Topology Builder in Skype for Business Server](../../../deploy/deploy-enterprise-voice/deploy-a-mediation-server.md) in the Deployment documentation.
   
 

@@ -26,6 +26,6 @@ ms.locfileid: "49815251"
  
 Especifique um FQDN (nome de domínio totalmente qualificado) para o serviço de Borda de Acesso. Se você não selecionou a opção Usar um  único endereço **&amp; IP FQDN** na página Selecionar recursos, também deverá especificar um FQDN para o serviço de Borda de Webconferência e para o serviço de Borda A/V.
   
-Além disso, se você selecionou a opção Usar um único endereço **&amp; IP FQDN,** deverá especificar um número de porta diferente para cada um dos serviços de Borda (configurações de porta recomendadas: 444 para serviço de Borda de Acesso, 8057 para serviço de Borda de Webconferência e 443 para serviço de Borda A/V). Se você não selecionou a opção, você pode usar o mesmo número de porta (por exemplo 443) para todos os três serviços.
+Além disso, se você selecionou a opção Usar um único endereço **&amp; IP FQDN,** deverá especificar um número de porta diferente para cada um dos serviços de Borda (configurações de porta recomendadas: 444 para serviço de Borda de Acesso, 8057 para Serviço de Borda de Webconferência e 443 para serviço de Borda A/V). Se você não selecionou a opção, você pode usar o mesmo número de porta (por exemplo 443) para todos os três serviços.
   
 

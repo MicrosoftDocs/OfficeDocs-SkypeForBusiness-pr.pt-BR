@@ -37,7 +37,7 @@ Você pode criar um script que executa o script **Set-CsPinSendCAWelcomeMail** i
 
 1. Faça logoff como membro do grupo RTCUniversalServerAdmins.
     
-2. Inicie o Shell de Gerenciamento do Skype for Business Server: Clique em **Iniciar,** Em Todos os **Programas,** no **Skype for Business 2015** e, em seguida, clique no Shell de Gerenciamento do **Skype for Business Server.**
+2. Inicie o Shell de Gerenciamento do Skype for Business Server: clique em **Iniciar,** em Todos os **Programas,** no **Skype for Business 2015** e, em seguida, clique no Shell de Gerenciamento do **Skype for Business Server.**
     
 3. Execute o seguinte no prompt de comando:
     
