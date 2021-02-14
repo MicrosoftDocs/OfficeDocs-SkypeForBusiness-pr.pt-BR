@@ -22,13 +22,13 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49807881"
 ---
-# <a name="voice-route"></a><span data-ttu-id="d7e61-104">Rota de voz</span><span class="sxs-lookup"><span data-stu-id="d7e61-104">Voice Route</span></span>
+# <a name="voice-route"></a><span data-ttu-id="3a0ce-104">Rota de voz</span><span class="sxs-lookup"><span data-stu-id="3a0ce-104">Voice Route</span></span>
 
-<span data-ttu-id="d7e61-105">O que você deseja fazer?</span><span class="sxs-lookup"><span data-stu-id="d7e61-105">What do you want to do?</span></span> <span data-ttu-id="d7e61-106">Clique no link para a tarefa que você deseja executar.</span><span class="sxs-lookup"><span data-stu-id="d7e61-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="3a0ce-105">O que você deseja fazer?</span><span class="sxs-lookup"><span data-stu-id="3a0ce-105">What do you want to do?</span></span> <span data-ttu-id="3a0ce-106">Clique no link para a tarefa que você deseja executar.</span><span class="sxs-lookup"><span data-stu-id="3a0ce-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="d7e61-107">Criar ou modificar uma rota de voz no Skype for Business</span><span class="sxs-lookup"><span data-stu-id="d7e61-107">Create or modify a voice route in Skype for Business</span></span>](../../../deploy/deploy-enterprise-voice/create-or-modify-a-voice-route.md)
+- [<span data-ttu-id="3a0ce-107">Criar ou modificar uma rota de voz no Skype for Business</span><span class="sxs-lookup"><span data-stu-id="3a0ce-107">Create or modify a voice route in Skype for Business</span></span>](../../../deploy/deploy-enterprise-voice/create-or-modify-a-voice-route.md)
 
-- [<span data-ttu-id="d7e61-108">Modificar um roteamento de voz</span><span class="sxs-lookup"><span data-stu-id="d7e61-108">Modify a Voice Route</span></span>](https://technet.microsoft.com/library/afc562cc-8807-489b-8850-dbbe1c1ab9f5.aspx)
+- [<span data-ttu-id="3a0ce-108">Modificar um roteamento de voz</span><span class="sxs-lookup"><span data-stu-id="3a0ce-108">Modify a Voice Route</span></span>](https://technet.microsoft.com/library/afc562cc-8807-489b-8850-dbbe1c1ab9f5.aspx)
 
 
 

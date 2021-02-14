@@ -22,17 +22,17 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49807931"
 ---
-# <a name="dial-plan"></a><span data-ttu-id="686da-104">Plano de Discagem</span><span class="sxs-lookup"><span data-stu-id="686da-104">Dial Plan</span></span>
+# <a name="dial-plan"></a><span data-ttu-id="04e4d-104">Plano de Discagem</span><span class="sxs-lookup"><span data-stu-id="04e4d-104">Dial Plan</span></span>
 
-<span data-ttu-id="686da-105">O que você deseja fazer?</span><span class="sxs-lookup"><span data-stu-id="686da-105">What do you want to do?</span></span> <span data-ttu-id="686da-106">Clique no link para a tarefa que você deseja executar.</span><span class="sxs-lookup"><span data-stu-id="686da-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="04e4d-105">O que você deseja fazer?</span><span class="sxs-lookup"><span data-stu-id="04e4d-105">What do you want to do?</span></span> <span data-ttu-id="04e4d-106">Clique no link para a tarefa que você deseja executar.</span><span class="sxs-lookup"><span data-stu-id="04e4d-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="686da-107">Criar ou modificar um plano de discagem no Skype for Business Server</span><span class="sxs-lookup"><span data-stu-id="686da-107">Create or modify a dial plan in Skype for Business Server</span></span>](../../../deploy/deploy-enterprise-voice/dial-plans.md)
+- [<span data-ttu-id="04e4d-107">Criar ou modificar um plano de discagem no Skype for Business Server</span><span class="sxs-lookup"><span data-stu-id="04e4d-107">Create or modify a dial plan in Skype for Business Server</span></span>](../../../deploy/deploy-enterprise-voice/dial-plans.md)
 
-- [<span data-ttu-id="686da-108">Modificar um plano de discagem</span><span class="sxs-lookup"><span data-stu-id="686da-108">Modify a Dial Plan</span></span>](https://technet.microsoft.com/library/a91f02df-cf60-40cf-82fe-e0342c118b91.aspx)
+- [<span data-ttu-id="04e4d-108">Modificar um plano de discagem</span><span class="sxs-lookup"><span data-stu-id="04e4d-108">Modify a Dial Plan</span></span>](https://technet.microsoft.com/library/a91f02df-cf60-40cf-82fe-e0342c118b91.aspx)
 
-- [<span data-ttu-id="686da-109">Criar ou modificar uma regra de normalização no Skype for Business</span><span class="sxs-lookup"><span data-stu-id="686da-109">Create or modify a normalization rule in Skype for Business</span></span>](../../../deploy/deploy-enterprise-voice/normalization-rules.md)
+- [<span data-ttu-id="04e4d-109">Criar ou modificar uma regra de normalização no Skype for Business</span><span class="sxs-lookup"><span data-stu-id="04e4d-109">Create or modify a normalization rule in Skype for Business</span></span>](../../../deploy/deploy-enterprise-voice/normalization-rules.md)
 
-- [<span data-ttu-id="686da-110">Criar ou modificar uma regra de normalização manualmente</span><span class="sxs-lookup"><span data-stu-id="686da-110">Create or Modify a Normalization Rule Manually</span></span>](https://technet.microsoft.com/library/fc0335e6-8830-4cfb-8c64-6aeb98c0a992.aspx)
+- [<span data-ttu-id="04e4d-110">Criar ou modificar uma regra de normalização manualmente</span><span class="sxs-lookup"><span data-stu-id="04e4d-110">Create or Modify a Normalization Rule Manually</span></span>](https://technet.microsoft.com/library/fc0335e6-8830-4cfb-8c64-6aeb98c0a992.aspx)
 
 
 

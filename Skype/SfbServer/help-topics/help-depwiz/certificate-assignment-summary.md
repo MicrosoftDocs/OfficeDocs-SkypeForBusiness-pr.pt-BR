@@ -22,8 +22,8 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49807481"
 ---
-# <a name="certificate-assignment-summary"></a><span data-ttu-id="f40f4-105">Atribuição de Certificado (Resumo)</span><span class="sxs-lookup"><span data-stu-id="f40f4-105">Certificate Assignment (Summary)</span></span>
+# <a name="certificate-assignment-summary"></a><span data-ttu-id="9f697-105">Atribuição de Certificado (Resumo)</span><span class="sxs-lookup"><span data-stu-id="9f697-105">Certificate Assignment (Summary)</span></span>
  
-<span data-ttu-id="f40f4-p102">Antes de a atribuição de certificado ser concluída, você recebe um **Resumo de Atribuição de Certificado** que lista os detalhes do certificado que será atribuído. Revise as informações para se certificar de que o nome da entidade e os nomes de entidade alternativos estejam corretos. Depois de concluir a revisão das informações do resumo, clique em **Avançar**.</span><span class="sxs-lookup"><span data-stu-id="f40f4-p102">Before the certificate assignment is finished, you are presented with a **Certificate Assignment Summary** that lists the details of the certificate that will be assigned. Review the information to be sure that the subject name and the subject alternative names are correct. When you have finished reviewing the certificate summary, click **Next**.</span></span>
+<span data-ttu-id="9f697-p102">Antes de a atribuição de certificado ser concluída, você recebe um **Resumo de Atribuição de Certificado** que lista os detalhes do certificado que será atribuído. Revise as informações para se certificar de que o nome da entidade e os nomes de entidade alternativos estejam corretos. Depois de concluir a revisão das informações do resumo, clique em **Avançar**.</span><span class="sxs-lookup"><span data-stu-id="9f697-p102">Before the certificate assignment is finished, you are presented with a **Certificate Assignment Summary** that lists the details of the certificate that will be assigned. Review the information to be sure that the subject name and the subject alternative names are correct. When you have finished reviewing the certificate summary, click **Next**.</span></span>
   
 

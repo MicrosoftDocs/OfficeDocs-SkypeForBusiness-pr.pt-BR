@@ -22,11 +22,11 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49808111"
 ---
-# <a name="users-view-or-configure-location-policy"></a><span data-ttu-id="3e360-104">Usuários: Exibir ou Configurar Política de Local</span><span class="sxs-lookup"><span data-stu-id="3e360-104">Users: View or Configure Location Policy</span></span>
+# <a name="users-view-or-configure-location-policy"></a><span data-ttu-id="99d1a-104">Usuários: Exibir ou Configurar Política de Local</span><span class="sxs-lookup"><span data-stu-id="99d1a-104">Users: View or Configure Location Policy</span></span>
 
-<span data-ttu-id="3e360-105">O que você deseja fazer?</span><span class="sxs-lookup"><span data-stu-id="3e360-105">What do you want to do?</span></span> <span data-ttu-id="3e360-106">Clique no link para a tarefa que você deseja executar.</span><span class="sxs-lookup"><span data-stu-id="3e360-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="99d1a-105">O que você deseja fazer?</span><span class="sxs-lookup"><span data-stu-id="99d1a-105">What do you want to do?</span></span> <span data-ttu-id="99d1a-106">Clique no link para a tarefa que você deseja executar.</span><span class="sxs-lookup"><span data-stu-id="99d1a-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="3e360-107">Atribuir uma política de local a um usuário</span><span class="sxs-lookup"><span data-stu-id="3e360-107">Assign a Location Policy to a User</span></span>](https://technet.microsoft.com/library/343f2de3-a0ae-4403-8456-6e520b579d32.aspx)
+- [<span data-ttu-id="99d1a-107">Atribuir uma política de local a um usuário</span><span class="sxs-lookup"><span data-stu-id="99d1a-107">Assign a Location Policy to a User</span></span>](https://technet.microsoft.com/library/343f2de3-a0ae-4403-8456-6e520b579d32.aspx)
 
 
 

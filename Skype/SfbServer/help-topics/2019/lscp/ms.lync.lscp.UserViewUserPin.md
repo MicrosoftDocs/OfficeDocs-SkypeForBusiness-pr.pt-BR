@@ -22,11 +22,11 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49807991"
 ---
-# <a name="users-view-or-configure-pin-policy"></a><span data-ttu-id="901ac-104">Usuários: Exibir ou Configurar Política de PIN</span><span class="sxs-lookup"><span data-stu-id="901ac-104">Users: View or Configure PIN Policy</span></span>
+# <a name="users-view-or-configure-pin-policy"></a><span data-ttu-id="84780-104">Usuários: Exibir ou Configurar Política de PIN</span><span class="sxs-lookup"><span data-stu-id="84780-104">Users: View or Configure PIN Policy</span></span>
  
-<span data-ttu-id="901ac-105">O que você deseja fazer?</span><span class="sxs-lookup"><span data-stu-id="901ac-105">What do you want to do?</span></span> <span data-ttu-id="901ac-106">Clique no link para a tarefa que você deseja executar.</span><span class="sxs-lookup"><span data-stu-id="901ac-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="84780-105">O que você deseja fazer?</span><span class="sxs-lookup"><span data-stu-id="84780-105">What do you want to do?</span></span> <span data-ttu-id="84780-106">Clique no link para a tarefa que você deseja executar.</span><span class="sxs-lookup"><span data-stu-id="84780-106">Click the link to the task that you want to perform.</span></span>
   
-- [<span data-ttu-id="901ac-107">Definir PIN de conferência discada de um usuário no Skype for Business Server</span><span class="sxs-lookup"><span data-stu-id="901ac-107">Set a user's dial-in conferencing PIN in Skype for Business Server</span></span>](../../../manage/authentication/set-a-user-s-dial-in-conferencing-pin.md)
+- [<span data-ttu-id="84780-107">Definir PIN de conferência discada de um usuário no Skype for Business Server</span><span class="sxs-lookup"><span data-stu-id="84780-107">Set a user's dial-in conferencing PIN in Skype for Business Server</span></span>](../../../manage/authentication/set-a-user-s-dial-in-conferencing-pin.md)
     
  
 

@@ -22,8 +22,8 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49806871"
 ---
-# <a name="legacy-merge-add-machine"></a><span data-ttu-id="ff6ae-103">Máquina de Adição de Mesclagem de Legado</span><span class="sxs-lookup"><span data-stu-id="ff6ae-103">Legacy Merge Add Machine</span></span>
+# <a name="legacy-merge-add-machine"></a><span data-ttu-id="af078-103">Máquina de Adição de Mesclagem de Legado</span><span class="sxs-lookup"><span data-stu-id="af078-103">Legacy Merge Add Machine</span></span>
  
-<span data-ttu-id="ff6ae-104">Para definir os computadores que com o pool de Servidores de Borda, insira o FQDN (nome de domínio totalmente qualificado) de pelo menos um computador que faça parte do pool de Borda consolidado e com balanceação de carga herdada.</span><span class="sxs-lookup"><span data-stu-id="ff6ae-104">To define the computers that make up the Edge Server pool, enter the fully qualified domain name (FQDN) of at least one computer that is part of the legacy load-balanced, consolidated Edge pool.</span></span> 
+<span data-ttu-id="af078-104">Para definir os computadores que com o pool de Servidores de Borda, insira o FQDN (nome de domínio totalmente qualificado) de pelo menos um computador que faça parte do pool de Borda consolidado e com balanceação de carga herdada.</span><span class="sxs-lookup"><span data-stu-id="af078-104">To define the computers that make up the Edge Server pool, enter the fully qualified domain name (FQDN) of at least one computer that is part of the legacy load-balanced, consolidated Edge pool.</span></span> 
   
 

@@ -22,12 +22,12 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49807851"
 ---
-# <a name="select-trunk"></a><span data-ttu-id="92300-103">Selecionar Tronco</span><span class="sxs-lookup"><span data-stu-id="92300-103">Select Trunk</span></span>
+# <a name="select-trunk"></a><span data-ttu-id="9b12b-103">Selecionar Tronco</span><span class="sxs-lookup"><span data-stu-id="9b12b-103">Select Trunk</span></span>
  
-<span data-ttu-id="92300-104">Use a **caixa de diálogo** Selecionar Tronco para encontrar um tronco existente que você possa usar.</span><span class="sxs-lookup"><span data-stu-id="92300-104">Use the **Select Trunk** dialog box to find an existing trunk that you can use.</span></span>
+<span data-ttu-id="9b12b-104">Use a **caixa de** diálogo Selecionar Tronco para encontrar um tronco existente que você possa usar.</span><span class="sxs-lookup"><span data-stu-id="9b12b-104">Use the **Select Trunk** dialog box to find an existing trunk that you can use.</span></span>
   
 > [!NOTE]
-> <span data-ttu-id="92300-105">Para recuperar todos os troncos disponíveis, não digite nada na caixa de pesquisa e clique no ícone de pesquisa.</span><span class="sxs-lookup"><span data-stu-id="92300-105">To retrieve all available trunks, do not type anything in the search box, and then click the search icon.</span></span> 
+> <span data-ttu-id="9b12b-105">Para recuperar todos os troncos disponíveis, não digite nada na caixa de pesquisa e clique no ícone de pesquisa.</span><span class="sxs-lookup"><span data-stu-id="9b12b-105">To retrieve all available trunks, do not type anything in the search box, and then click the search icon.</span></span> 
   
  
   
