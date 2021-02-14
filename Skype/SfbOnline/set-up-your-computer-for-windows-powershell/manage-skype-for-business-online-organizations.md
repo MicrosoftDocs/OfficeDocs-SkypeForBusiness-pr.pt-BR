@@ -18,7 +18,7 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - PowerShell
-description: Use o Windows PowerShell e os cmdlets Get-CsTenant e Get-CsTenantLicensingConfiguration para obter informações sobre seu locatário do Skype for Business online.
+description: Use o Windows PowerShell e os cmdlets Get-CsTenant e Get-CsTenantLicensingConfiguration para obter informações sobre seu locatário do Skype for Business Online.
 ms.openlocfilehash: 06597447edaf095be3df26b58e6210bb919ee0bd
 ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
 ms.translationtype: MT
@@ -28,30 +28,30 @@ ms.locfileid: "45085687"
 ---
 # <a name="manage-skype-for-business-online-organizations"></a>Gerenciar organizações do Skype for Business Online
 > [!NOTE]
-> A versão mais recente do [Teams PowerShell Public Preview](https://www.powershellgallery.com/packages/MicrosoftTeams/) está integrada ao conector do Skype for Business Online, fornecendo um único módulo para gerenciamento do teams PowerShell.
+> A versão [de visualização pública mais recente](https://www.powershellgallery.com/packages/MicrosoftTeams/) do Teams PowerShell é integrada ao Skype for Business Online Connector, fornecendo um único módulo para o gerenciamento do PowerShell do Teams.
 
-Você pode encontrar informações sobre o locatário do Skype for Business online usando os cmdlets **Get-CsTenant** e **Get-CsTenantLicensingConfiguration** .
+Você pode encontrar informações sobre seu locatário do Skype for Business Online usando os **cmdlets Get-CsTenant** e **Get-CsTenantLicensingConfiguration.**
   
 ## <a name="manage-skype-for-business-online-tenants"></a>Gerenciar locatários do Skype for Business Online
 
-Para retornar informações sobre o seu locatário do Skype for Business Online, chame o cmdlet [Get-CsTenant](https://go.microsoft.com/fwlink/p/?linkid=849599) sem parâmetros adicionais.
+Para retornar informações sobre seu locatário do Skype for Business Online, ligue para o cmdlet [Get-CsTenant](https://go.microsoft.com/fwlink/p/?linkid=849599) sem parâmetros adicionais.
   
 ```PowerShell
 Get-CsTenant
 ```
 
-Para retornar apenas o nome e a ID do locatário, use este comando.
+Para retornar apenas o nome do locatário e a ID, use este comando.
   
 ```PowerShell
 Get-CsTenant | Select-Object Name, TenantID
 ```
 
-O valor do parâmetro _tenantid_ é necessário ao executar cmdlets como [set-CsTenantPublicProvider](https://go.microsoft.com/fwlink/p/?linkid=849602) e [set-CsTenantFederationConfiguration](https://technet.microsoft.com/library/jj994080.aspx).
+O valor do parâmetro _TenantID_ é necessário ao executar cmdlets como [Set-CsTenantPublicProvider](https://go.microsoft.com/fwlink/p/?linkid=849602) e [Set-CsTenantFederationConfiguration.](https://technet.microsoft.com/library/jj994080.aspx)
   
-Para localizar informações sobre se as informações de licenciamento do locatário especificado estão disponíveis no centro de administração do Skype for Business Online, use o cmdlet [Get-CsTenantLicensingConfiguration](https://go.microsoft.com/fwlink/p/?linkid=849606) .
+Para saber mais sobre se as informações de licenciamento do locatário especificado estão disponíveis no Centro de administração do Skype for Business Online, use o cmdlet [Get-CsTenantLicensingConfiguration.](https://go.microsoft.com/fwlink/p/?linkid=849606)
   
 ## <a name="related-topics"></a>Tópicos relacionados
-[Configurar seu computador para o gerenciamento do Skype for Business online usando o Windows PowerShell](set-up-your-computer-for-windows-powershell.md)
+[Configurar seu computador para gerenciamento do Skype for Business Online usando o Windows PowerShell](set-up-your-computer-for-windows-powershell.md)
 
   
  

@@ -1,5 +1,5 @@
 ---
-title: Sistema telefônico Microsoft 365 – licenças de usuário virtual
+title: Microsoft 365 Phone System – Licenças de Usuário Virtual
 ms.author: dstrome
 author: dstrome
 manager: serdars
@@ -19,7 +19,7 @@ ms.custom:
 - Licensing
 - LIL_Placement
 - seo-marvel-apr2020
-description: Saiba mais sobre como atribuir um sistema de telefonia gratuito – licença de usuário virtual ou uma licença de usuário do sistema de telefonia paga para contas de recursos em sua organização.
+description: Saiba mais sobre como atribuir uma licença gratuita do Sistema de Telefonia –Usuário Virtual ou uma licença de usuário paga do Sistema de Telefonia às contas de recursos em sua organização.
 ms.openlocfilehash: 00c3463aa933b4d91308fee85d362c4c4807cf69
 ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
 ms.translationtype: MT
@@ -27,51 +27,51 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/24/2020
 ms.locfileid: "44868648"
 ---
-# <a name="microsoft-365-phone-system--virtual-user-license"></a>Sistema telefônico Microsoft 365 – licença de usuário virtual
+# <a name="microsoft-365-phone-system--virtual-user-license"></a>Microsoft 365 Phone System – Licença de Usuário Virtual
 
-Organizações com o sistema telefônico usuários licenciados podem atribuir um sistema telefônico gratuito Microsoft 365 – licença de usuário virtual ou uma licença de usuário do sistema de telefonia paga para contas de recursos. Um plano de chamada não é necessário. Todos os atendedores automáticos ou filas de chamadas exigem uma conta de recurso associada. As contas de recursos que exigem um número de telefone precisam de um sistema telefônico gratuito da Microsoft 365 – licença de usuário virtual ou uma licença de usuário paga do sistema de telefonia antes que um número de telefone possa ser aplicado à conta do recurso.
+As organizações com usuários licenciados pelo Sistema telefônico podem atribuir uma licença gratuita do Microsoft 365 Phone System – licença de Usuário Virtual ou uma licença de usuário paga do Sistema de Telefonia a contas de recursos. Um Plano de Chamada não é necessário. Todos os participantes automáticos ou filas de chamada exigem uma conta de recurso associada. Contas de recursos que exigem um número de telefone precisam de uma licença gratuita do Microsoft 365 Phone System – licença de Usuário Virtual ou de um sistema telefônico pago para que um número de telefone possa ser aplicado à conta de recurso.
 
 > [!TIP]
-> Nenhuma licença é necessária para contas de recursos que serão usadas com atendedores automáticos aninhados ou filas de chamadas que não tenham um número de telefone atribuído. Consulte o diagrama a seguir para referência: 
+> Nenhuma licença é necessária para contas de recurso que serão usadas com os atenderes automáticos aninhados ou filas de chamadas que não têm um número de telefone atribuído. Consulte o diagrama a seguir para referência: 
 
-![Licenças de usuário virtual](../media/resource-account.png)
+![Licenças do Usuário Virtual](../media/resource-account.png)
 
-## <a name="virtual-user-license-allocation"></a>Atribuição de licença de usuário virtual
+## <a name="virtual-user-license-allocation"></a>Alocação de licenças do Usuário Virtual
 
-Sua organização é reservada Microsoft 365 Phone System – licenças de usuário virtual, dependendo do seu tamanho geral. Qualquer organização que tenha pelo menos uma licença incluindo o sistema de telefonia ou um sistema de telefonia adicionado tem 25 licenças de usuário virtual disponíveis sem custo. Quando você adiciona 10 licenças de usuário do sistema telefônico em sua organização, mais um sistema telefônico Microsoft 365 – licença de usuário virtual torna-se disponível.
+Sua organização tem licenças alocadas do Microsoft 365 Phone System – Licenças de Usuário Virtual, dependendo do tamanho geral. Qualquer organização que tenha pelo menos uma licença, incluindo o Sistema telefônico ou que tenha o Sistema telefônico adicionado, tem 25 licenças de Usuário Virtual disponíveis sem custo algum. Quando você adiciona 10 licenças de usuário do Sistema telefônico em sua organização, mais uma licença do Microsoft 365 Phone System – a licença de Usuário Virtual fica disponível.
 
 > [!NOTE]
-> O sistema telefônico é uma licença complementar disponível com o Microsoft 365 e o Office 365 E1 e E3. O sistema de telefonia também está incluído como parte do Microsoft 365 e5, do Office 365 E5 e das licenças de voz do Microsoft 365 Business.
+> O Sistema telefônico é uma licença de complemento disponível com o Microsoft 365, o Office 365 E1 e o E3. O Sistema telefônico também está incluído como parte das licenças do Microsoft 365 E5, do Office 365 E5 e do Microsoft 365 Business Voice.
 
-Se a sua organização usa o sistema telefônico gratuito Microsoft 365, licenças de usuário virtual na criação de atendedor automático ou nós da fila de chamada, você ainda pode usar as licenças do sistema telefônico pago com uma conta de recurso. A maioria das organizações terá licenças de usuário virtual suficientes com base no plano de dimensionamento. 
+Se sua organização usa o Microsoft 365 Phone System gratuito – licenças de Usuário Virtual na criação de nós de atendimento automático ou fila de chamadas, você ainda pode usar as licenças de sistema de telefone pago com uma conta de recurso. A maioria das organizações terá licenças de Usuário Virtual suficientes com base no plano de dimensionamento. 
 
-### <a name="license-allocation-example"></a>Exemplo de alocação de licença
+### <a name="license-allocation-example"></a>Exemplo de alocação de licenças
 
-Contoso, Inc. adquiriu licenças do 600 que incluíam o sistema telefônico (um para cada funcionário). A contoso foi atribuída a um sistema telefônico inicial de 25 mais 60 Microsoft 365-licenças de usuário virtual, o total de 85. Sua organização tem 90 filas de chamadas e atendedores automáticos que têm números de telefone. Eles precisam atribuir o sistema telefônico Microsoft 365 – licenças de usuário virtual e obter cinco licenças de sistema telefônico com preço regular.
+A Contoso, Inc. comprou 600 licenças que incluíam o Sistema telefônico (uma para cada funcionário). A Contoso tem um número inicial de 25 mais 60 do Sistema Telefônico microsoft 365 – licenças de Usuário Virtual, 85 no total. Sua organização tem 90 filas de chamadas e atender automaticamente que têm números de telefone. Eles precisam atribuir todas as licenças do Microsoft 365 Phone System – Usuário Virtual e obter cinco licenças do Sistema telefônico de preços regulares.
 
-A Contoso deve considerar a reformulação do atendedor automático e o sistema da fila de chamadas. Se eles usarem menos números de telefone e nós aninhados que não precisam de um número de telefone, eles simplificarão a implementação e reduzirão os custos.
+A Contoso deve considerar a reformulação do sistema de fila de chamada e do atendimento automático. Se eles usarem menos números de telefone e mais nós aninhados que não precisam de um número de telefone, simplificarão a implementação e reduzirão os custos.
 
-## <a name="how-to-buy-microsoft-365-phone-system--virtual-user-licenses"></a>Como comprar o Microsoft 365 Phone System – licenças de usuário virtual
+## <a name="how-to-buy-microsoft-365-phone-system--virtual-user-licenses"></a>Como comprar licenças do Microsoft 365 Phone System – Usuário Virtual
 
 1. Acesse o Centro de administração do Microsoft 365.
-2. Ir para **Billing**Complementos  >  **Purchase services**  >  **de serviços de compra de** cobrança
-3. Role até o fim para localizar o **Microsoft 365 Phone System – licença de usuário virtual** . Selecione **comprar agora**.
+2. Vá para **Complementos de** Serviços de  >  **Compra**  >  **de Cobrança**
+3. Role até o final para encontrar a licença do **Microsoft 365 Phone System – Usuário Virtual.** Selecione **Comprar agora.**
 
 > [!NOTE]
-> Lembre-se que você ainda deve **comprar** a licença, mesmo que tenha um custo de zero.
+> Lembre-se de que você ainda deve  **Comprar** a licença, embora ela tenha um custo zero.
 
-## <a name="change-an-existing-resource-account-to-use-a-microsoft-365-phone-system--virtual-user-license"></a>Alterar uma conta de recurso existente para usar um sistema telefônico Microsoft 365 – licença de usuário virtual
+## <a name="change-an-existing-resource-account-to-use-a-microsoft-365-phone-system--virtual-user-license"></a>Alterar uma conta de recurso existente para usar um Sistema Telefônico microsoft 365 – licença de usuário virtual
 
-Se você decidir mudar a licença da sua conta de recurso a partir de uma licença do sistema telefônico para um sistema telefônico Microsoft 365 – licença de usuário virtual:
+Se você decidir mudar a licença da sua conta de recurso de uma licença do Sistema Telefônico para um Sistema Telefônico do Microsoft 365 – Licença de Usuário Virtual:
 
-1. Obtenha o novo sistema telefônico Microsoft 365 – licença de usuário virtual.
-2. Siga as etapas vinculadas no centro de administração do Microsoft 365 para [mover os usuários para uma assinatura diferente](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users#move-users-to-a-different-subscription).
+1. Obter a nova licença do Microsoft 365 Phone System – Usuário Virtual.
+2. Siga as etapas vinculadas no Centro de administração do Microsoft 365 para [mover usuários para uma assinatura diferente.](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users#move-users-to-a-different-subscription)
 
 > [!WARNING]
-> Sempre remova uma licença completa do sistema de telefonia e atribua o Microsoft 365 Phone System – licença de usuário virtual na mesma atividade de licença. Se você remover a antiga licença, salvar as alterações da conta, adicionar a nova licença e salvar as configurações da conta novamente, a conta do recurso talvez não funcione mais como esperado. Se isso acontecer, recomendamos que você crie uma nova conta de recurso para o Microsoft 365 Phone System – licença de usuário virtual e remova a conta de recurso quebrada. 
+> Sempre remova uma Licença completa do Sistema de Telefone e atribua o Sistema Telefônico microsoft 365 – licença de Usuário Virtual na mesma atividade de licença. Se você remover a licença antiga, salvar as alterações da conta, adicionar a nova licença e salvar as configurações da conta novamente, a conta de recurso poderá não funcionar mais conforme o esperado. Se isso acontecer, recomendamos que você crie uma nova conta de recurso para o Microsoft 365 Phone System – licença de Usuário Virtual e remova a conta de recurso quebrada. 
 
 ## <a name="related-information"></a>Informações relacionadas
 
-[Atualização do serviço de atendedor automático e filas de chamadas](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Auto-Attendant-and-Call-Queues-Service-Update/ba-p/564521)
+[Atualização do Serviço De Atendimento Automático e Filas de Chamada](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Auto-Attendant-and-Call-Queues-Service-Update/ba-p/564521)
 
 [Gerenciar contas de recursos no Microsoft Teams](../manage-resource-accounts.md)

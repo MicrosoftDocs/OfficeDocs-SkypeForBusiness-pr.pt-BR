@@ -1,5 +1,5 @@
 ---
-title: Verificar o ambiente herdado
+title: Verificar o ambiente herddo
 ms.reviewer: ''
 ms.author: serdars
 author: serdarsoysal
@@ -10,7 +10,7 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: Antes de implantar o Skype for Business Server 2019 em um estado de coexistência, você precisa verificar se os serviços herdados foram configurados e iniciados. É importante identificar os principais serviços e recursos existentes no seu ambiente herdado antes de implantar um pool piloto do Skype for Business Server 2019. Antes de implantar o Microsoft Skype for Business Server 2019 XMPP em um estado de coexistência com uma implantação herdada do XMPP, você precisa verificar se os serviços herdados do XMPP foram configurados e iniciados e identificar que parceiro federado a configuração XMPP herdada oferece suporte.
+description: Antes de implantar o Skype for Business Server 2019 em um estado de coexistência, você precisa verificar se os serviços herdados foram configurados e iniciados. É importante identificar os principais serviços e recursos existentes em seu ambiente herdado, antes de implantar um pool piloto do Skype for Business Server 2019. Antes de implantar o Microsoft Skype for Business Server 2019 XMPP em um estado de coexistência com uma implantação XMPP herdada, você precisa verificar se os serviços XMPP herdados foram configurados e iniciados e identificar a qual parceiro federado a configuração XMPP herdada é suportada.
 ms.openlocfilehash: 2600cc2e6f4fac258431bcf505af10d1f8c212fe
 ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
@@ -18,69 +18,69 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/16/2020
 ms.locfileid: "44751673"
 ---
-# <a name="verify-the-legacy-environment"></a>Verificar o ambiente herdado
+# <a name="verify-the-legacy-environment"></a>Verificar o ambiente herddo
 
-Antes de implantar o Skype for Business Server 2019 em um estado de coexistência, você precisa verificar se os serviços herdados foram configurados e iniciados. É importante identificar os principais serviços e recursos existentes no seu ambiente herdado antes de implantar um pool piloto do Skype for Business Server 2019. Antes de implantar o Microsoft Skype for Business Server 2019 XMPP em um estado de coexistência com uma implantação herdada do XMPP, você precisa verificar se os serviços herdados do XMPP foram configurados e iniciados e identificar o parceiro federado onde a configuração XMPP herdada oferece suporte. Verificar sua implantação herdada envolve o seguinte:
+Antes de implantar o Skype for Business Server 2019 em um estado de coexistência, você precisa verificar se os serviços herdados foram configurados e iniciados. É importante identificar os principais serviços e recursos existentes em seu ambiente herdado antes de implantar um pool piloto do Skype for Business Server 2019. Antes de implantar o XMPP do Microsoft Skype for Business Server 2019 em um estado de coexistência com uma implantação XMPP herdada, você precisa verificar se os serviços XMPP herdados foram configurados e iniciados e identificar a qual parceiro federado a configuração XMPP herdada é suportada. A verificação da implantação herdda envolve o seguinte:
   
-- Verificando se os serviços herdados foram iniciados
+- Verificando se os serviços herddos foram iniciados
     
-- Examinando a topologia e os usuários
+- Revendo a topologia e os usuários
     
-- Verificar as configurações de Federação e servidor de borda
+- Verificando as configurações do servidor de borda e federação
     
-- Verificando os serviços XMPP e parceiros federados
+- Verificando serviços XMPP e parceiros federados
     
-## <a name="verify-that-legacy-services-are-started"></a>Verificar se os serviços herdados foram iniciados
+## <a name="verify-that-legacy-services-are-started"></a>Verificar se os serviços herddos foram iniciados
 
-1. No servidor de front-end herdado, navegue até o mini-aplicativo applet administrativo.
+1. No Servidor front-end herddo, navegue até o applet Ferramentas Administrativas\Serviços.
     
 2. Verifique se os serviços a seguir estão sendo executados no servidor Front End:
     
-     ![Lista de serviços em execução no servidor front-end](../media/migration_lyncserver_config_w14_services.jpg)
+     ![Lista de serviços em execução no Servidor front-end](../media/migration_lyncserver_config_w14_services.jpg)
   
-## <a name="review-the-legacy-topology-in-skype-for-business-server-control-panel"></a>Examinar a topologia herdada no painel de controle do Skype for Business Server
+## <a name="review-the-legacy-topology-in-skype-for-business-server-control-panel"></a>Revisar a topologia herdada no Painel de Controle do Skype for Business Server
 
 1. Faça o logon no Servidor Front-End com uma conta que seja membro do grupo RTCUniversalServerAdmins ou que tenha a função administrativa CsAdministrator ou CsUserAdministrator.
     
-2. Abra o painel de controle do Skype for Business Server.
+2. Abra o Painel de Controle do Skype for Business Server.
     
 3. Selecione **Topologia**. Verifique se os vários servidores em sua implantação herdada estão listados.
     
-     ![Página de topologia do painel de controle](../media/migration_lyncserver_2010_topology.JPG)
+     ![Página de topologia do Painel de Controle](../media/migration_lyncserver_2010_topology.JPG)
   
-## <a name="review-legacy-users-in-skype-for-business-server-control-panel"></a>Revisar usuários herdados no painel de controle do Skype for Business Server
+## <a name="review-legacy-users-in-skype-for-business-server-control-panel"></a>Revisar usuários herdado no Painel de Controle do Skype for Business Server
 
-1. Abra o painel de controle do Skype for Business Server.
+1. Abra o Painel de Controle do Skype for Business Server.
     
-2. Selecione **usuários**e clique em **Localizar**.
+2. Selecione **Usuários** e clique em **Encontrar.**
     
-3. Verifique se a coluna **pool do registrador** aponta para o pool herdado para cada usuário listado. 
+3. Verifique se a coluna **Pool do Registrador** aponta para o pool herdado de cada usuário listado. 
     
-     ![Painel de controle listando usuários](../media/migration_lyncserver_2010_allusers.JPG)
+     ![Painel de Controle listando usuários](../media/migration_lyncserver_2010_allusers.JPG)
   
-## <a name="verify-legacy-edge-and-federation-settings"></a>Verificar configurações de Federação e borda herdadas
+## <a name="verify-legacy-edge-and-federation-settings"></a>Verificar configurações de federação e borda herddas
 
 1. Inicie o Construtor de topologia.
     
 2. Selecione **Download da topologia de uma implantação existente**.
     
-3. Escolha um nome de arquivo e salve a topologia com o tipo de arquivo default. tbxml.
+3. Escolha um nome de arquivo e salve a topologia com o tipo de arquivo .tbxml padrão.
     
-4. Expanda o nó instalações herdadas para revelar as várias funções de servidor na implantação.
+4. Expanda o nó de instalação herdados para revelar as várias funções de servidor na implantação.
     
-5. Selecione o nó do site e verifique se um valor de **atribuição da rota de Federação do site** está definido. 
+5. Selecione o nó do site e verifique se um valor de atribuição **de rota de federação** do site está definido. 
     
-     ![Construtor de topologias, rota de Federação do site](../media/migration_lyncserver_w14_federation.jpg)
+     ![Construtor de Topologias, Rota de Federação do Site](../media/migration_lyncserver_w14_federation.jpg)
   
-6. Selecione o servidor Standard Edition ou o pool de front-ends Enterprise Edition. Determinar se um pool de borda foi configurado para a mídia abaixo de **associações**. 
+6. Selecione o pool de front-end do Servidor Standard Edition ou Enterprise Edition. Determine se um pool de Borda foi configurado para mídia abaixo **de Associações**. 
     
-     ![Construtor de topologia mostrando servidores e pools](../media/migration_lyncserver_w14_edgepool_media.jpg)
+     ![Construtor de Topologia mostrando servidores e pools](../media/migration_lyncserver_w14_edgepool_media.jpg)
   
-7. Selecione o pool de borda e identifique se um pool de próximo salto está configurado abaixo da **seleção do próximo salto**.
+7. Selecione o pool de Borda e identifique se um pool de próximo salto está configurado abaixo da **seleção de próximo salto.**
     
-     ![Construtor de topologias, seleção de próximo salto](../media/migration_lyncserver_w14_nexthop.jpg)
+     ![Construtor de Topologias, Seleção do próximo salto](../media/migration_lyncserver_w14_nexthop.jpg)
   
-## <a name="verify-legacy-xmpp-federated-partner-configuration"></a>Verificar a configuração de parceiro federado XMPP herdado
+## <a name="verify-legacy-xmpp-federated-partner-configuration"></a>Verificar configuração de parceiro federado XMPP herdado
 
 1. No servidor XMPP legado, navegue até o applet Ferramentas administrativas\Serviços.
     

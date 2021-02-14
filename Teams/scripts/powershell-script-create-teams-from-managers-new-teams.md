@@ -1,5 +1,5 @@
 ---
-title: Exemplo de script do PowerShell-criar novas equipes do Gerenciador de pessoas
+title: Exemplo de script do PowerShell - Criar novas equipes de gerente de pessoas
 author: SerdarSoysal
 ms.author: serdars
 manager: serdars
@@ -7,7 +7,7 @@ ms.topic: article
 ms.reviewer: brandber
 ms.service: msteams
 audience: admin
-description: Use este script do PowerShell para criar uma equipe para cada gerente com seus direcionamentos como membros da equipe.
+description: Use este script do PowerShell para criar uma equipe para cada gerente com seus diretos como membros da equipe.
 f1.keywords:
 - NOCSH
 localization_priority: Normal
@@ -23,16 +23,16 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 08/06/2020
 ms.locfileid: "46583108"
 ---
-# <a name="powershell-script-sample---create-new-people-manager-teams"></a>Exemplo de script do PowerShell-criar novas equipes do Gerenciador de pessoas
+# <a name="powershell-script-sample---create-new-people-manager-teams"></a>Exemplo de script do PowerShell - Criar novas equipes de gerente de pessoas
 
-Use este script do PowerShell para criar uma equipe para cada gerente com seus direcionamentos como membros da equipe. Antes de executar esse script, execute o script de [gerenciadores de exportação](powershell-script-create-teams-from-managers-export-managers.md) para exportar (do seu Active Directory) uma lista de gerentes e seus direcionadores para a sua organização.
+Use este script do PowerShell para criar uma equipe para cada gerente com seus diretos como membros da equipe. Antes de executar esse script, execute o [script](powershell-script-create-teams-from-managers-export-managers.md) de gerentes de exportação para exportar (de seu Active Directory) uma lista de gerentes e seus diretos para sua organização.
 
-Para saber mais sobre esse script do PowerShell, leia [criar equipes do Gerenciador de pessoas](../create-manager-directs-teams.md).
+Para saber mais sobre esse script do PowerShell, leia [Criar equipes do Gerenciador de Pessoas.](../create-manager-directs-teams.md)
 
 Se você é novato no PowerShell e precisa de ajuda para começar, consulte [Visão geral do Azure PowerShell](https://docs.microsoft.com/powershell/azure/overview?view=azurermps-5.1.1).
 
 
-## <a name="create-new-people-manager-teams"></a>Criar novas equipes do Gerenciador de pessoas 
+## <a name="create-new-people-manager-teams"></a>Criar novas equipes de gerente de pessoas 
 
 ```powershell
 <# 

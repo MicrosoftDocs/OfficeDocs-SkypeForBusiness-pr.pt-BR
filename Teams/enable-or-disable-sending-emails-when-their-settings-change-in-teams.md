@@ -1,5 +1,5 @@
 ---
-title: Opções de email quando as configurações de conferência de áudio mudam
+title: Opções de email quando as configurações de Audioconferência mudarem
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -36,7 +36,7 @@ Se você desabilitar o envio de e-mails, nenhum e-mail de audioconferência ser�
   
 Aqui está um exemplo de e-mail enviado aos usuários habilitados para audioconferência:
   
-![Exemplo de mensagem de email de conferência de áudio](media/teams-emails-sent-to-users-when-settings-change-image1.png)
+![Exemplo de uma mensagem de email de Audioconferência](media/teams-emails-sent-to-users-when-settings-change-image1.png)
   
 ## <a name="when-are-emails-being-sent-to-your-users"></a>Quando os e-mails são enviados aos seus usuários?
 
@@ -80,7 +80,7 @@ Consulte a [referência do Microsoft Teams PowerShell](https://docs.microsoft.co
     
 ## <a name="want-to-know-more-about-windows-powershell"></a>Deseja saber mais sobre o Windows PowerShell?
 
-O Windows PowerShell é tudo sobre o gerenciamento de usuários e o que os usuários podem fazer ou não podem fazer. Com o Windows PowerShell, você pode gerenciar o Microsoft 365 ou o Office 365 usando um único ponto de administração que pode simplificar seu trabalho diário quando você tiver várias tarefas para fazer. Para começar a usar o Windows PowerShell, consulte estes tópicos:
+O Windows PowerShell gerencia os usuários e o que os usuários podem ou não fazer. Com o Windows PowerShell, você pode gerenciar o Microsoft 365 ou o Office 365 usando um ponto único de administração que pode simplificar seu trabalho diário quando você tiver várias tarefas a fazer. Para começar a trabalhar com o Windows PowerShell, consulte estes tópicos:
     
   - [Por que você precisa usar o PowerShell do Office 365](https://go.microsoft.com/fwlink/?LinkId=525041)
     

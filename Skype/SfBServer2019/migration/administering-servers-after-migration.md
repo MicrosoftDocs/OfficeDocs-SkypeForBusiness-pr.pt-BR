@@ -23,5 +23,5 @@ ms.locfileid: "44752473"
 Em geral, você deve usar a ferramenta administrativa que corresponde à versão do servidor que você quer gerenciar. Você não pode instalar ferramentas administrativas de versões diferentes no mesmo computador.
   
 > [!IMPORTANT]
-> Depois que um pool piloto do Skype for Business Server é implantado, você não pode usar o construtor de topologias ou o painel de controle para gerenciar qualquer recurso 2019. Você deve usar as ferramentas 2019 para gerenciar todos os recursos atuais e anteriores da versão. 
+> Após a implantação de um pool piloto do Skype for Business Server, você não poderá usar o Construtor de Topologias ou o Painel de Controle para gerenciar recursos de 2019. Você deve usar as ferramentas de 2019 para gerenciar todos os recursos de versão atuais e anteriores. 
   

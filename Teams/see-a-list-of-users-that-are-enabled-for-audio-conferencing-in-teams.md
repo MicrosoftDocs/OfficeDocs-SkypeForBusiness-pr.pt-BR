@@ -1,5 +1,5 @@
 ---
-title: Ver uma lista de usuários habilitados para conferência de áudio
+title: Ver uma lista de usuários habilitados para Audioconferência
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -31,28 +31,28 @@ ms.locfileid: "44691157"
 ---
 # <a name="see-a-list-of-users-that-are-enabled-for-audio-conferencing-in-microsoft-teams"></a>Ver uma lista de usuários habilitados para audioconferência no Microsoft Teams
 
-Depois de habilitar os usuários do Microsoft Teams em sua organização para conferências de áudio, você pode exibir a lista dos usuários que foram habilitados. 
+Depois de habilitar os usuários do Microsoft Teams em sua organização para Audioconferência, você poderá exibir a lista dos usuários que foram habilitados. 
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
   
 ## <a name="viewing-a-list-of-users"></a>Exibir uma lista de usuários
 
-- No centro de administração do Microsoft Teams, no painel de navegação esquerdo, clique em **usuários**.
+- No Centro de administração do Microsoft Teams, na navegação à esquerda, clique em **Usuários.**
 
 
 ## <a name="what-else-should-i-know"></a>O que mais devo saber?
 
-- Ao exibir a lista de usuários habilitados, você pode selecionar um usuário na lista para editar as configurações de videoconferência para esse usuário.
+- Ao exibir a lista de usuários habilitados, você pode selecionar um usuário na lista para editar as configurações de audioconferência desse usuário.
     
-- Ao selecionar um único usuário, você pode visualizar o número de telefone padrão atribuído ao usuário e qualquer outra configuração de audioconferência relevante.    
+- Ao selecionar um único usuário, você pode exibir o número de telefone padrão atribuído ao usuário e quaisquer outras configurações relevantes de audioconferência.    
    
 - Você pode usar o botão de pesquisa para procurar um usuário individual na lista
     
     
 ## <a name="want-to-know-more-about-windows-powershell"></a>Deseja saber mais sobre o Windows PowerShell?
 
-O Windows PowerShell gerencia os usuários e o que eles podem ou não fazer. Com o Windows PowerShell, você pode gerenciar o Microsoft 365 ou o Office 365 usando um único ponto de administração que pode simplificar seu trabalho diário quando você tiver várias tarefas para fazer. Para começar a trabalhar com o Windows PowerShell, confira estes tópicos:
+O Windows PowerShell gerencia os usuários e o que eles podem ou não fazer. Com o Windows PowerShell, você pode gerenciar o Microsoft 365 ou o Office 365 usando um ponto único de administração que pode simplificar seu trabalho diário quando você tiver várias tarefas a fazer. Para começar a trabalhar com o Windows PowerShell, confira estes tópicos:
     
   - [Por que você precisa usar o PowerShell do Office 365](https://go.microsoft.com/fwlink/?LinkId=525041)
     
@@ -62,4 +62,4 @@ Para obter mais informações sobre o Windows PowerShell, consulte a [referênci
     
 ## <a name="related-topics"></a>Tópicos relacionados
 
-[Experimentar ou comprar videoconferências no Microsoft 365 ou no Office 365](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
+[Experimentar ou comprar Audioconferência no Microsoft 365 ou no Office 365](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)

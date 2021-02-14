@@ -1,5 +1,5 @@
 ---
-title: Antes de começar a migração
+title: Antes de você começar a migração
 ms.reviewer: ''
 ms.author: serdars
 author: serdarsoysal
@@ -18,7 +18,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/16/2020
 ms.locfileid: "44753063"
 ---
-# <a name="before-you-begin-the-migration"></a>Antes de começar a migração
+# <a name="before-you-begin-the-migration"></a>Antes de você começar a migração
 
 Antes de começar, recomendamos que você leia os artigos a seguir para se familiarizar com a implantação das funções correspondentes.
     

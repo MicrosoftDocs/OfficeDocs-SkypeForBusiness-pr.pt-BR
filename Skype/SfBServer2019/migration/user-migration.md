@@ -22,7 +22,7 @@ ms.locfileid: "44753273"
 
 Uma prática recomendada normalmente aceita para migração é criar vários usuários de teste e utilizá-los para conduzir testes de sistema. Após mover e testar com êxito essas contas, identifique um grupo de usuários de produção piloto e mova suas contas e realize testes de validação nelas. Quando os resultados estiverem satisfatórios, você poderá mover o restante dos usuários para a nova implantação.
   
-Para obter informações adicionais sobre como habilitar usuários para o Skype for Business Server 2019, consulte a documentação sobre implantação do Skype for Business Server 2019. 
+Para obter informações adicionais sobre como habilenciar usuários para o Skype for Business Server 2019, consulte a documentação implantando o Skype for Business Server 2019. 
   
   <!-- the topic [Disable or re-enable user account for Skype for Business Server 2019](../../operations/managing-users-in-lync-server-2013/disable-or-re-enable-user-account-for-lync-server.md) in  -->
 

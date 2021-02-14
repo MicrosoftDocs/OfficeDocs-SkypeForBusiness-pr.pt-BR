@@ -1,5 +1,5 @@
 ---
-title: Permitir que os usuários registrem o nome de uma reunião
+title: Permitir que os usuários gravem o nome de uma reunião
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -31,7 +31,7 @@ ms.locfileid: "44691577"
 ---
 # <a name="enable-users-to-record-their-name-when-they-join-a-meeting-in-microsoft-teams"></a>Permitir que usuários gravem o nome ao entrar em uma reunião no Microsoft Teams
 
-Ao configurar a conferência de áudio no Microsoft 365 ou no Office 365, você receberá números de telefone e o que é chamado de ponte de audioconferência. Uma ponte de conferência pode conter um ou mais números de telefone, que podem ser um número de telefone exclusivo ou compartilhado.
+Ao configurar a Audioconferência no Microsoft 365 ou no Office 365, você receberá números de telefone e uma ponte de audioconferência. Uma ponte de conferência pode conter um ou mais números de telefone, que podem ser um número de telefone exclusivo ou compartilhado.
   
 A ponte de conferência atende uma chamada feita por um usuário que discou para a reunião utilizando um telefone. A ponte de conferência atende o chamador com solicitações de voz de um atendedor automático e, dependendo das configurações dele, pode reproduzir notificações, pedir para o chamador gravar o nome dele e configurar a segurança do PIN para os organizadores da reunião. Os organizadores de reunião recebem PINs que os permitem iniciar uma reunião. Entretanto, você pode configurar a reunião sem a necessidade de um PIN para começar.
 
@@ -42,11 +42,11 @@ A ponte de conferência atende uma chamada feita por um usuário que discou para
 
 1. Na navegação à esquerda, vá para **Reuniões** > **Pontes de conferência**. 
 
-2. Na parte superior da página **pontes de conferência** , clique em **configurações de ponte**. 
+2. Na parte superior da página **Pontes de Conferência,** clique em **Configurações da Ponte.** 
 
-3. Habilite ou desabilite as **notificações de entrada e saída da reunião**.
+3. Habilitar ou desabilitar notificações de **entrada e saída de reunião.**
 
-4. Se habilitar notificações, escolha **nomes ou números de telefone** em **tipo de anúncio de entrada/saída**e ative **solicitar aos chamadores gravarem o nome antes de ingressar em uma reunião.**
+4. Se estiver habilitando notificações, escolha Nomes ou números de telefone no tipo de anúncio de **entrada/saída** e ative Solicitar que os chamadores gravem o nome antes de ingressar **em uma reunião.** 
 
 6. Clique em **Salvar**.
     
@@ -55,7 +55,7 @@ A ponte de conferência atende uma chamada feita por um usuário que discou para
 
 ## <a name="want-to-know-more-about-windows-powershell"></a>Deseja saber mais sobre o Windows PowerShell?
 
-O Windows PowerShell gerencia os usuários e o que eles podem ou não fazer. Com o Windows PowerShell, você pode gerenciar o Microsoft 365 ou o Office 365 usando um único ponto de administração que pode simplificar seu trabalho diário quando você tiver várias tarefas para fazer. Para começar a trabalhar com o Windows PowerShell, confira estes tópicos:
+O Windows PowerShell gerencia os usuários e o que eles podem ou não fazer. Com o Windows PowerShell, você pode gerenciar o Microsoft 365 ou o Office 365 usando um ponto único de administração que pode simplificar seu trabalho diário quando você tiver várias tarefas a fazer. Para começar a trabalhar com o Windows PowerShell, confira estes tópicos:
     
   - [Por que você precisa usar o PowerShell do Office 365](https://go.microsoft.com/fwlink/?LinkId=525041)
     
@@ -65,4 +65,4 @@ Para obter mais informações sobre o Windows PowerShell, consulte a [referênci
   
 ## <a name="related-topics"></a>Tópicos relacionados
 
-[Experimentar ou comprar videoconferência](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
+[Experimentar ou comprar Audioconferência](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)

@@ -21,7 +21,7 @@ ms.custom:
 - Phone System
 - ms.teamsadmincenter.users.voice.calldelegation.tooltip
 - seo-marvel-apr2020
-description: Saiba como enviar um email aos seus usuários com as informações de audioconferência no Microsoft Teams.
+description: Saiba como enviar um email aos usuários com suas informações de audioconferência no Microsoft Teams.
 ms.openlocfilehash: 7750f85e959f332832c24b60b4efafd784218f61
 ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
@@ -31,48 +31,48 @@ ms.locfileid: "46583830"
 ---
 # <a name="shared-line-appearance-in-microsoft-teams"></a>Aparência de linha compartilhada no Microsoft Teams
 
-A aparência da linha compartilhada faz parte do recurso de delegação que permite que um usuário escolha um representante para atender ou manipular chamadas em seu nome. Esse recurso é útil se um usuário tiver um assistente administrativo que manipula regularmente as chamadas do usuário. No contexto de aparência de linha compartilhada, um gerente é alguém que autoriza um representante a fazer ou receber chamadas em seu nome, e um representante pode fazer e receber chamadas em nome de outra pessoa.
+A aparência de linha compartilhada faz parte do recurso de delegação que permite que um usuário escolha um representante para atender ou lidar com chamadas em seu nome. Esse recurso será útil se um usuário tiver um assistente administrativo que lida regularmente com as chamadas do usuário. No contexto de aparência de linha compartilhada, um gerente é alguém que autoriza um representante a fazer ou receber chamadas em seu nome, e um representante pode fazer e receber chamadas em nome de outra pessoa.
 
 > [!IMPORTANT]
-> Esse recurso só está disponível no modo de implantação do teams. Para obter mais detalhes sobre os modos de implantação do Teams, consulte [entender o Microsoft Teams e a coexistência e interoperabilidade do Skype for Business](teams-and-skypeforbusiness-coexistence-and-interoperability.md)
+> Esse recurso só está disponível no modo de implantação somente do Teams. Para obter mais detalhes sobre os modos de implantação do Teams, consulte [Entender a coexistência](teams-and-skypeforbusiness-coexistence-and-interoperability.md) e a interoperabilidade do Microsoft Teams e do Skype for Business
 
 ## <a name="license-required"></a>Licença necessária
 
-Um usuário deve ter o sistema telefônico com conectividade PSTN (uma licença de plano de chamada ou um OnlineVoiceRoutingPolicy de roteamento direto) para ser um representante ou configurar a delegação e permitir que outras pessoas façam ou recebam chamadas em seu nome.
+Um usuário deve ter o Sistema telefônico com conectividade PSTN (uma licença de Plano de Chamada ou Roteamento Direto OnlineVoiceRoutingPolicy) para ser representante ou configurar delegação e permitir que outras pessoas façam ou recebam chamadas em nome delas.
 
-Os gerentes e representantes precisam ter um sistema telefônico com conectividade PSTN (uma licença de plano de chamada ou um OnlineVoiceRoutingPolicy de roteamento direto). A experiência de linha compartilhada faz parte da delegação e está incluída com o sistema telefônico. Para obter detalhes adicionais sobre o modelo de licenciamento, consulte [Descrição do serviço Microsoft Teams](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description).
+Os gerentes e os representantes precisam ter o Sistema telefônico com conectividade PSTN (uma licença de Plano de Chamada ou Roteamento Direto OnlineVoiceRoutingPolicy). A experiência de linha compartilhada faz parte da delegação e está incluída no Sistema telefônico. Para obter detalhes adicionais sobre o modelo de licenciamento, consulte a [descrição do serviço microsoft teams.](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)
 
-## <a name="configuring-delegation-and-shared-line-appearance"></a>Configurar a aparência da delegação e da linha compartilhada
+## <a name="configuring-delegation-and-shared-line-appearance"></a>Configurando a delegação e a aparência da linha compartilhada
 
-A aparência da delegação e da linha compartilhada são recursos orientados pelo usuário: não há configurações de administração a serem definidas. Para obter informações sobre como usar o recurso, consulte [compartilhar uma linha telefônica com um representante](https://support.office.com/article/share-a-phone-line-with-a-delegate-16307929-a51f-43fc-8323-3b1bf115e5a8)
+Delegação e aparência de linha compartilhada são recursos orientados pelo usuário: não há configurações de administrador para configurar. Para obter informações sobre como usar o recurso, consulte [Compartilhar uma linha telefônica com um representante](https://support.office.com/article/share-a-phone-line-with-a-delegate-16307929-a51f-43fc-8323-3b1bf115e5a8)
 
-O administrador de locatários pode habilitar a delegação por meio da configuração **TeamsCallingPolicy AllowDelegation** ou por meio do portal de administração do teams para que esse recurso funcione. 
+O administrador de locatários pode habilitar a delegação por meio da **configuração de AllowDelegation do TeamsCallingPolicy** ou do Portal de Administração do Teams para que esse recurso funcione. 
 
-O administrador de locatários também pode configurar relações de delegação para um usuário no centro de administração do teams. Além disso, o usuário final também pode configurar as relações de delegação diretamente no Teams. O administrador de locatários ou o usuário não pode bloquear a configuração entre si, mas o centro de administração do Teams e o cliente das equipes devem mostrar essa relação com precisão em ambos os locais. 
+O administrador de locatários também pode configurar relações de delegação para um usuário no Centro de administração do Teams. Além disso, o usuário final também pode configurar suas relações de delegação diretamente no Teams. O administrador locatário ou o usuário não pode bloquear a configuração entre si, mas o centro de administração do Teams e o cliente do Teams devem mostrar essa relação com precisão em ambos os locais. 
 
 > [!IMPORTANT]
-> Quando o administrador de locatário desativa a delegação para um usuário (depois que ele é ativado), ele também precisa limpar as relações de delegação desse usuário no centro de administração do teams para evitar roteamento de chamadas incorreto.
+> Quando o administrador de locatários desabilita a delegação de um usuário (depois de ter sido ligado), ele também precisa limpar as relações de delegação desse usuário no Centro de administração do Teams para evitar o roteamento de chamadas incorreto.
 
-## <a name="shared-line-appearance-feature-availability"></a>Disponibilidade do recurso de aparência da linha compartilhada
+## <a name="shared-line-appearance-feature-availability"></a>Disponibilidade de recursos de aparência de linha compartilhada
 
-A aparência da linha compartilhada tem suporte no momento pelos seguintes aplicativos e dispositivos.
+No momento, a aparência de linha compartilhada tem suporte nos seguintes aplicativos e dispositivos.
 
-| Funcionalidade | Teams desktop | Aplicativo Teams Mac | Aplicativo Web do Teams (Edge) |Aplicativo móvel do teams para iOS/Android | Telefone IP do teams |
+| Recursos | Área de Trabalho do Teams | Aplicativo Teams Para Mac | Teams Web App (Edge) |Aplicativo móvel do Teams para iOS/Android | Telefone IP do Teams |
 |------------|---------------|---------------|----------------------|-----------------------------|----------------|
-| Configurar a delegação | Sim | Sim | Sim | Não | Sim |
-| Receber chamadas em nome de outra | Sim | Sim | Sim | Sim | Sim |
+| Configurar delegação | Sim | Sim | Sim | Não | Sim |
+| Receber chamadas em nome de outra pessoa | Sim | Sim | Sim | Sim | Sim |
 | Ligar para um número de telefone em nome de outro | Sim | Sim | Sim | Sim | Sim |
-| Chamar um usuário do teams em nome de outro | Sim | Sim | Sim | Sim | Sim |
-| Ver o modo de exibição de administração de linhas compartilhadas | Sim | Sim | Sim | Não | Não |
-| Consulte o modo de exibição administrador das atividades de chamada do gerente | Sim | Sim | Sim | Não | Não |
-| Ver o modo de exibição do Gerenciador de representantes | Sim | Sim | Sim | Não | Não |
-| O administrador ou o gerente pode reter ou retomar | Sim | Sim | Sim | Não | Não |
+| Ligar para um usuário do Teams em nome de outro | Sim | Sim | Sim | Sim | Sim |
+| Ver a exibição de administrador de linhas compartilhadas | Sim | Sim | Sim | Não | Não |
+| Ver a exibição de administração das atividades de chamada do gerente | Sim | Sim | Sim | Não | Não |
+| Ver a exibição gerente dos representantes | Sim | Sim | Sim | Não | Não |
+| O administrador ou gerente pode segurar ou retomar | Sim | Sim | Sim | Não | Não |
 
-## <a name="limitations"></a>Relacionadas
+## <a name="limitations"></a>Limitações
 
-Os gerentes podem adicionar até 25 representantes, e os representantes podem ter até 25 gerentes. Não há limite quanto ao número de relações de delegação que podem ser criadas em um locatário. 
+Os gerentes podem adicionar até 25 representantes, e os representantes podem ter até 25 gerentes. Não há limite para o número de relações de delegação que podem ser criadas em um locatário. 
  
-Se o representante e o representante não estiverem na mesma localização geográfica, o provedor PSTN será atualizado para permitir que a identificação de chamadas apareça em uma localização geográfica diferente para uma chamada delegada (em nome de). 
+Se o delegador e o representante não estão no mesmo local geográfico, é responsabilidade do provedor de PSTN permitir que a ID de chamador seja a partir de um local geográfico diferente para uma chamada delegada (em nome de) delegada. 
  
 ## <a name="more-information"></a>Mais informações
 

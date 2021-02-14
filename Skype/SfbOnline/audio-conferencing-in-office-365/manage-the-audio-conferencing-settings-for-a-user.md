@@ -20,7 +20,7 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Audio Conferencing
-description: 'Como um administrador do Microsoft 365 ou do Office 365, você pode editar as configurações de videoconferência do Skype for Business Online, como o provedor, o número de chamada tarifada ou número de chamada gratuita padrão, ID de conferência ou PIN para um usuário individual em sua organização. '
+description: 'Como administrador do Microsoft 365 ou do Office 365, você pode editar as configurações de Audioconferência do Skype for Business Online, como o provedor, número de chamada tarifada ou gratuita padrão, ID de conferência ou PIN, para um usuário individual em sua organização. '
 ms.openlocfilehash: 47ad2b0d6b5684d2a897055ad43e253e55c67109
 ms.sourcegitcommit: 9b1c138b39fd87e239a7b1c5051f30c633e7d813
 ms.translationtype: MT
@@ -33,14 +33,14 @@ ms.locfileid: "44943844"
 > [!Note]
 > Se você deseja gerenciar a configurações de usuário no Microsoft Teams, consulte [Gerenciar as configurações de audioconferência para um usuário no Microsoft Teams](/MicrosoftTeams/manage-the-audio-conferencing-settings-for-a-user-in-teams).
 
-Como um administrador do Microsoft 365 ou do Office 365, você pode editar as configurações de audioconferência (por exemplo, o provedor, o número de chamada tarifada ou chamada gratuita padrão, a ID de conferência ou o PIN) para um usuário individual em sua organização. Se você quiser editar as configurações de sua organização, consulte [gerenciar as configurações de audioconferência para minha organização](manage-the-audio-conferencing-settings-for-my-organization.md).
+Como administrador do Microsoft 365 ou do Office 365, você pode editar as configurações de Audioconferência , como o provedor, número de tarifa padrão ou gratuita, ID de conferência ou PIN, para um usuário individual em sua organização. Se você quiser editar as configurações da sua organização, consulte Gerenciar as configurações de [Audioconferência da minha organização.](manage-the-audio-conferencing-settings-for-my-organization.md)
 
  
-1. Entre com sua conta corporativa ou de estudante.
+1. Entre com sua conta do trabalho ou da escola.
     
 2. Escolha **Centros de administração** > **Skype for Business**.
     
-3. No centro de administração do Skype for Business, escolha **usuários**.
+3. No Centro de administração do Skype for Business, escolha **Usuários.**
     
 4. Selecione o usuário para o qual você deseja gerenciar as configurações e, em seguida, no painel de ações, clique em **Editar**![Exibe o ícone Editar](../images/4d8bea48-be68-4e0e-a54c-73decf7ea4ec.png).
     
@@ -54,7 +54,7 @@ Como um administrador do Microsoft 365 ou do Office 365, você pode editar as co
 |**Permita o uso de números de chamada gratuita na ponte do Microsoft de sua organização para ingressar em reuniões deste usuário** <br/> |Selecione essa opção se desejar permitir que o usuário de números de chamada gratuita participe de reuniões.  <br/> |
 |**Enviar informações de conferência por email** <br/> |Click this link only if you want to immediately send an email to the user with his or her conference ID and phone number. (This email does not include the PIN.) See [Send an email to a user with their Audio Conferencing information](send-an-email-to-a-user-with-their-dial-in-information.md).  <br/> |
 |**ID de conferência** <br/> |Select **Reset** if you need to reset the conference ID for the user. For more information, see [Reset a conference ID for a user](reset-a-conference-id-for-a-user.md).  <br/> |
-|**PIN** <br/> |Select **Reset** if you need to reset the PIN for the user. For more information, see [Reset the Audio Conferencing PIN](reset-the-audio-conferencing-pin.md).  <br/> |
+|**Pino** <br/> |Select **Reset** if you need to reset the PIN for the user. For more information, see [Reset the Audio Conferencing PIN](reset-the-audio-conferencing-pin.md).  <br/> |
 |**Permitir que os chamadores não autenticados sejam as primeira pessoas em uma reunião** <br/> |Selecione essa opção para permitir que os chamadores não autenticados sejam os primeiros a ingressarem em reuniões.  <br/> |
 |**Restrições para chamadas de reuniões deste usuário** <br/> |Selecione uma opção nessa lista se desejar restringir as chamadas apenas para domésticas ou se desejar impedir todas as chamadas de reuniões.  <br/> |
   

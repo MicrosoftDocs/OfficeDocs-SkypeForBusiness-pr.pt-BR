@@ -1,5 +1,5 @@
 ---
-title: Fase 8 encerrar pools herdados
+title: Fase 8 Descomissionar pools herddos
 ms.reviewer: ''
 ms.author: serdars
 author: serdarsoysal
@@ -11,7 +11,7 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.custom: httpsfix
-description: O tópico a seguir fornece orientações para atualizar entradas DNS, mover o servidor de gerenciamento de conteúdo, encerrar pools e desativar e remover servidores e pools de uma implantação herdada. Nem todos os procedimentos listados nesta seção são obrigatórios. Leia a documentação e determine qual procedimento de descomissionamento usar.
+description: O tópico a seguir fornece orientações para atualizar entradas DNS, mover o Servidor de Gerenciamento de Conteúdo, desativar pools e desativar e remover servidores e pools de uma implantação herdados. Nem todos os procedimentos listados nesta seção são obrigatórios. Leia a documentação e determine qual procedimento de descomissionamento usar.
 ms.openlocfilehash: 2406b25436bc13cafca8b09c92220a96e0635ae3
 ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
@@ -21,18 +21,18 @@ ms.locfileid: "44753689"
 ---
 # <a name="phase-8-decommission-legacy-pools"></a>Fase 8: Encerrar os pools herdados
 
-O tópico a seguir fornece orientações para atualizar entradas DNS, mover o servidor de gerenciamento de conteúdo, encerrar pools e desativar e remover servidores e pools de uma implantação herdada. Nem todos os procedimentos listados nesta seção são obrigatórios. Leia a documentação e determine qual procedimento de descomissionamento usar. 
+O tópico a seguir fornece orientações para atualizar entradas DNS, mover o Servidor de Gerenciamento de Conteúdo, desativar pools e desativar e remover servidores e pools de uma implantação herdados. Nem todos os procedimentos listados nesta seção são obrigatórios. Leia a documentação e determine qual procedimento de descomissionamento usar. 
   
-Para um artigo com data e mais exaustivo sobre a remoção de servidores e funções de servidor, e um guia passo a passo para encerrar uma implantação, baixe a [desinstalação do Microsoft Lync Server e a remoção de funções de servidor](https://go.microsoft.com/fwlink/p/?linkId=246227). 
+Para um artigo completo sobre como remover servidores e funções de servidor e um guia passo a passo para descomissionar uma implantação, baixe a desinstalação do [Microsoft Lync Server](https://go.microsoft.com/fwlink/p/?linkId=246227)e a remoção de funções de servidor. 
   
 > [!IMPORTANT]
-> Para obter informações sobre a migração e atualização de aplicativos do Microsoft Unified Communications Managed API (UCMA), antes de encerrar seu ambiente herdado, consulte [UCMA Applications: coexistência, migração e cenários de atualização](https://go.microsoft.com/fwlink/p/?LinkId=269555).
+> Para obter informações sobre como migrar e atualizar aplicativos UCMA (Unified Communications Managed API), antes de desprogramar seu ambiente herdado, consulte [aplicativos UCMA: cenários de coexistência,](https://go.microsoft.com/fwlink/p/?LinkId=269555)migração e atualização.
   
 ## <a name="in-this-section"></a>Nesta seção
 
 > [Atualizar registros de DNS SRV](update-dns-srv-records.md)
 > 
-> [Mover o servidor de gerenciamento central de instalação herdado para o Skype for Business Server 2019](move-the-central-management-server.md)
+> [Mover o Servidor de Gerenciamento Central de instalação herdada para o Skype for Business Server 2019](move-the-central-management-server.md)
 > 
 > [Mover diretórios de conferência](move-conference-directories.md)
 > 
@@ -40,7 +40,7 @@ Para um artigo com data e mais exaustivo sobre a remoção de servidores e funç
 > 
 > [Remover a associação do Servidor de Monitoramento](remove-the-monitoring-server-association.md)
 > 
-> [Remover o servidor front-end Enterprise Edition ou o servidor front-end Standard Edition](remove-the-front-end-server.md)
+> [Remover o Servidor de Front End Enterprise Edition ou o Servidor front-end Standard Edition](remove-the-front-end-server.md)
 > 
 > [Remover instâncias SQL Server e bancos de dados no Servidor Back-End](remove-sql-server-instances-and-databases-on-the-back-end-server.md)
     

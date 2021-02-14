@@ -8,7 +8,7 @@ ms.service: msteams
 audience: admin
 ms.date: 05/16/2019
 ms.reviewer: LolaJ
-description: Este tópico é uma lista de tópicos da ajuda do Microsoft Teams que foram atualizados recentemente, incluindo links para os tópicos atualizados.
+description: Este tópico é uma lista de tópicos de ajuda do Microsoft Teams que foram atualizados recentemente, incluindo links para os tópicos atualizados.
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:

@@ -33,15 +33,15 @@ ms.locfileid: "46662121"
 Esse ID de conferência dinâmico é incluído no final dos convites de reunião, juntamente com os números de telefone que podem ser discados para que os chamadores participem de uma reunião. Quando o usuário discar para o número de telefone, um atendedor automático da reunião solicitará que ele insira esse ID de conferência para que possam participar da reunião.
   
 > [!NOTE]
-> As IDs de conferência são geradas automaticamente, serão entre 7-9 dígitos e são definidas quando você habilita a videoconferência para um usuário. **Não há suporte para IDs de conferência estática.** 
+> As IDs de conferência são geradas automaticamente, terão de 7 a 9 dígitos e serão definidas quando você habilitar a Audioconferência para um usuário. **Não há suporte para IDs de conferência estáticas.** 
 
-## <a name="resetting-the-conference-id-for-a-user"></a>Redefinir a ID de conferência de um usuário
+## <a name="resetting-the-conference-id-for-a-user"></a>Redefinindo a ID de conferência de um usuário
 
 ![Um ícone mostrando o logotipo do Microsoft Teams](media/teams-logo-30x30.png) **Usando o centro de administração do Microsoft Teams**
 
 1. No painel de navegação à esquerda, clique em **Usuários** e selecione o usuário na lista de usuários disponíveis.
 
-2. Clique em **Editar**.
+2. Clique **em Editar.**
 
 3. Em **Audioconferência** clique em **Redefinir ID de conferência**.
 
@@ -49,7 +49,7 @@ Esse ID de conferência dinâmico é incluído no final dos convites de reunião
 
     
 > [!NOTE]
-> Depois de redefinir o ID de conferência, um e-mail com o novo ID de conferência será enviado ao usuário. Este e-mail será enviado ao endereço de email principal, em muitos casos, à sua caixa de correio do Microsoft 365 ou do Office 365. O e-mail contém o novo ID de conferência, o(s) número(s) de telefone de discagem padrão e instruções para atualizar as reuniões existentes. 
+> Depois de redefinir o ID de conferência, um e-mail com o novo ID de conferência será enviado ao usuário. Esse email será enviado para o endereço de email principal, em muitos casos, para a caixa de correio do Microsoft 365 ou do Office 365. O e-mail contém o novo ID de conferência, o(s) número(s) de telefone de discagem padrão e instruções para atualizar as reuniões existentes. 
   
 > [!Note]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
@@ -58,7 +58,7 @@ Esse ID de conferência dinâmico é incluído no final dos convites de reunião
 
 - Você pode enviar todas as informações da conferência para o usuário em um único e-mail, que inclui o ID de conferência e os números de telefone de discagem, clicando em **Enviar informações de conferência por e-mail** para o usuário na seção **Audioconferência**. O e-mail não envia o PIN.
     
-- Uma ID de conferência de dígito de 7-9 é criada pelo serviço Teams. Não é possível alterar seu tamanho.
+- Uma ID de conferência de 7 a 9 dígitos é criada pelo serviço do Teams. Não é possível alterar seu tamanho.
     
 - Depois que for redefinido, o novo ID de conferência será listado em **ID de Conferência**.
     
@@ -66,7 +66,7 @@ Esse ID de conferência dinâmico é incluído no final dos convites de reunião
 
 ## <a name="want-to-know-more-about-windows-powershell"></a>Deseja saber mais sobre o Windows PowerShell?
 
-O Windows PowerShell gerencia os usuários e o que eles podem ou não fazer. Com o Windows PowerShell, você pode gerenciar o Microsoft 365 ou o Office 365 usando um único ponto de administração que pode simplificar seu trabalho diário quando você tiver várias tarefas para fazer. Para começar a trabalhar com o Windows PowerShell, confira estes tópicos:
+O Windows PowerShell gerencia os usuários e o que eles podem ou não fazer. Com o Windows PowerShell, você pode gerenciar o Microsoft 365 ou o Office 365 usando um ponto único de administração que pode simplificar seu trabalho diário quando você tiver várias tarefas a fazer. Para começar a trabalhar com o Windows PowerShell, confira estes tópicos:
     
   - [Por que você precisa usar o PowerShell do Office 365](https://go.microsoft.com/fwlink/?LinkId=525041)
     

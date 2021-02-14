@@ -1,5 +1,5 @@
 ---
-title: Fase 7 concluir tarefas de migração
+title: Fase 7 Concluir tarefas pós-migração
 ms.reviewer: ''
 ms.author: serdars
 author: serdarsoysal
@@ -10,7 +10,7 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: Os tópicos desta seção descrevem as tarefas que você precisará realizar após a conclusão da migração para o Skype for Business Server 2019.
+description: Os tópicos desta seção descrevem as tarefas que você precisará executar depois de concluir a migração para o Skype for Business Server 2019.
 ms.openlocfilehash: c0c5c73212ab6f5ecb85383032ea9bdc97703eee
 ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
@@ -18,9 +18,9 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/16/2020
 ms.locfileid: "44752293"
 ---
-# <a name="phase-7-complete-post-migration-tasks"></a>Fase 7: Concluir tarefas pós-migração
+# <a name="phase-7-complete-post-migration-tasks"></a>Fase 7: Tarefas completas pós-migração
 
-Os tópicos desta seção descrevem as tarefas que você precisará realizar após a conclusão da migração para o Skype for Business Server 2019.
+Os tópicos desta seção descrevem as tarefas que você precisará executar depois de concluir a migração para o Skype for Business Server 2019.
   
 ## <a name="in-this-section"></a>Nesta seção
 

@@ -1,5 +1,5 @@
 ---
-title: Usando o relatório de roteamento direto do CQD PSTN
+title: Usando o relatório de Roteamento Direto PSTN do CQD
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -14,7 +14,7 @@ audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-description: Use o relatório de roteamento direto do Microsoft Teams Call (CQD)) PSTN para monitorar e solucionar problemas de chamadas PSTN no Microsoft Teams.
+description: Use o relatório CQD (Painel de Qualidade de Chamada) PSTN do Microsoft Teams para monitorar e solucionar problemas de chamadas PSTN no Microsoft Teams.
 ms.openlocfilehash: e4662d80dbba88c1049c7ef98569dae408ca9ba0
 ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
@@ -22,129 +22,129 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 08/06/2020
 ms.locfileid: "46583098"
 ---
-# <a name="using-the-cqd-pstn-direct-routing-report"></a>Usando o relatório de roteamento direto do CQD PSTN
+# <a name="using-the-cqd-pstn-direct-routing-report"></a>Usando o relatório de Roteamento Direto PSTN do CQD
 
-Novidades de março de 2020, adicionamos um relatório de roteamento direto PSTN do Microsoft Teams CQD (Microsoft Teams Call Quality) a nossos [modelos de consulta para download do Power bi para CQD](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true). 
-
-
-O CQD PSTN Direct Routing Report (CQD PSTN Direct Routing Report. PBit) ajuda você a entender os padrões de uso e a qualidade dos seus serviços PSTN. Use esse relatório para monitorar o uso do serviço, informações sobre o seu controlador de borda de sessão (SBC), o serviço de telefonia, os parâmetros de rede e os detalhes da taxa de eficácia da rede. Essas informações podem ajudá-lo a identificar problemas, incluindo o motivo para as chamadas descartadas. Por exemplo, você poderá ver quando o volume cai ou quantas chamadas são afetadas e por qual motivo.
+Novo em março de 2020, adicionamos um relatório de Roteamento Direto do CQD (Painel de Qualidade de Chamada do Microsoft Teams) aos nossos modelos de consulta do Power BI para download para [CQD.](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true) 
 
 
-O relatório de roteamento direto PSTN CQD tem quatro seções:
+O relatório de Roteamento Direto PSTN do CQD (CQD PSTN Direct Routing Report.pbit) ajuda você a entender os padrões de uso e a qualidade dos seus serviços PSTN. Use este relatório para monitorar o uso do serviço, informações sobre o controlador de borda de sessão (SBC), o serviço de telefonia, os parâmetros de rede e os detalhes da Taxa de Eficácia da Rede. Essas informações podem ajudá-lo a identificar problemas, incluindo o motivo das chamadas não a atender. Por exemplo, você poderá ver quando o volume cair ou quantas chamadas serão afetadas e por qual motivo.
 
-  - [Visão geral da PSTN](#pstn-overview)
 
-  - [Detalhes do serviço](#service-details)
+O Relatório de Roteamento Direto PSTN do CQD tem quatro seções:
 
-  - [Taxa de eficácia da rede](#network-effectiveness-ratio)
+  - [Visão geral do PSTN](#pstn-overview)
 
-  - [Parâmetros de rede](#network-parameters)
+  - [Detalhes do Serviço](#service-details)
 
-## <a name="highlights"></a>Alça
+  - [Taxa de Eficácia da Rede](#network-effectiveness-ratio)
 
-1. Analisar por tipo de chamada, SBC, chamador e chamado Country
+  - [Parâmetros de Rede](#network-parameters)
 
-   O CQD PSTN Direct Routing Report agrega as métricas de confiabilidade e uso de todos os SBCs em seu locatário para os últimos 7, 30 ou 180 dias (6 meses). Você pode analisar dados por tipo de chamada, SBC, chamador e chamado país. Se estiver interessado em um determinado SBC ou país, você poderá identificar as alterações nas tendências ao longo do intervalo de tempo selecionado.
-   :::image type="content" source="media/CQD-PSTN-report8.png" alt-text="Captura de tela de filtros disponíveis no relatório de roteamento direto PSTN CQD":::
+## <a name="highlights"></a>Destaques
+
+1. Analisar por tipo de chamada, SBC, país de chamador e destinatário
+
+   O relatório roteamento direto PSTN do CQD agrega métricas de uso e confiabilidade para todos os SBCs em seu locatário nos últimos 7, 30 ou 180 dias (6 meses). Você pode analisar dados por tipo de chamada, SBC, país de chamador e destinatário da chamada. Se estiver interessado em um SBC ou país específico, você poderá identificar alterações nas tendências ao longo do intervalo de tempo selecionado.
+   :::image type="content" source="media/CQD-PSTN-report8.png" alt-text="Captura de tela dos filtros disponíveis no relatório de Roteamento Direto PSTN do CQD":::
    
 2. Controlar tendências
 
-    A análise de tendências é essencial ao tentar entender o uso e a confiabilidade do serviço. As tendências horárias fornecem uma visão detalhada do desempenho diário, o que ajuda a identificar incidentes em tempo real. As tendências diárias permitem que você veja a integridade do seu serviço a partir de uma perspectiva de longo prazo. É importante poder alternar entre esses dois modos com a granularidade de dados adequada. O CQD PSTN Direct Routing Report fornece uma visão geral de tendências de 6 meses, tendências diárias de 7 e 30 dias e tendências horárias, para que você possa analisar o desempenho em cada nível.
-    :::image type="content" source="media/CQD-PSTN-report9.png" alt-text="Captura de tela de gráficos de tendências no CQD PSTN Direct Routing Report":::
+    A análise de tendências é essencial ao tentar entender o uso e a confiabilidade do serviço. As tendências de hora em hora fornecem uma olhada de perto no desempenho diário, o que ajuda a identificar incidentes em tempo real. As tendências diárias permitem que você veja a saúde do serviço de uma perspectiva de longo prazo. É importante poder se deslocar entre esses dois modos com granularidade de dados apropriada. O relatório roteamento direto PSTN do CQD fornece uma visão geral de tendências de 6 meses, tendências diárias de 7 e 30 dias e tendências por hora para que você possa analisar o desempenho em cada nível.
+    :::image type="content" source="media/CQD-PSTN-report9.png" alt-text="Captura de tela dos gráficos de tendências no relatório de Roteamento Direto PSTN do CQD":::
 
-3. Fazer drill-through para SBC ou em nível de usuário
+3. Fazer drill through até o SBC ou nível do usuário
 
-   Criamos recursos de Drill-through em muitas categorias de dados no CQD, que permite que você entenda rapidamente o uso ou a distribuição de confiabilidade no SBC ou no nível do usuário. Ao usar Drill through, você pode poinpoint rapidamente problemas e entender o impacto real dos usuários. Os recursos do relatório de roteamento direto PSTN CQD analisam as métricas de detalhes do serviço e de eficácia da rede. Clique no ponto de dados em que você está interessado para analisar detalhes do nível do usuário ou do SBC.
-   :::image type="content" source="media/CQD-PSTN-report10.png" alt-text="Captura de tela mostrando a funcionalidade de Drill-through em um ponto de dados":::
+   Estamos criando recursos de drill-through em várias categorias de dados no CQD, o que permite entender rapidamente a distribuição de uso ou confiabilidade no nível SBC ou do usuário. Ao usar o drill through, você pode rapidamente resolver problemas e entender o impacto real do usuário. O relatório de Roteamento Direto PSTN do CQD apresenta uma análise das métricas de Detalhes do Serviço e Taxa de Eficácia da Rede. Clique no ponto de dados em que você está interessado para fazer uma análise de detalhes em nível de usuário ou SBC.
+   :::image type="content" source="media/CQD-PSTN-report10.png" alt-text="Captura de tela mostrando o recurso de drill-through em um ponto de dados":::
 
 
-## <a name="pstn-overview"></a>Visão geral da PSTN
+## <a name="pstn-overview"></a>Visão geral do PSTN
 
-O CQD PSTN Direct Routing Report fornece as informações a seguir relacionadas à integridade geral do serviço dos últimos 180 dias.
-![Captura de tela: relatório PSTN CQD](media/CQD-PSTN-report1.png)
+O Relatório de Roteamento Direto PSTN do CQD fornece as seguintes informações relacionadas à saúde geral do serviço dos últimos 180 dias.
+![Captura de tela: relatório CQD PSTN](media/CQD-PSTN-report1.png)
 
-Por exemplo, se você estiver interessado no uso geral e na integridade de todas as chamadas recebidas por meio do SBC abc.bca.adatum.biz conosco como o país interno:
+Por exemplo, se você estiver interessado no uso geral e na saúde de todas as chamadas de entrada que passam por SBC abc.bca.adatum.biz com os EUA como país interno:
 
-| **Chame para fora** | **Descrição**                                                                                                                                                 |
+| **Ligar para fora** | **Descrição**                                                                                                                                                 |
 | ------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1            | Você pode usar os filtros na parte superior para fazer drill down e selecionar ByotIn como tipo de chamada, abc.bca.contoso.com como controlador de placa de sessão e EUA como país interno. |
-| 2            | Tendência de uso dos últimos 180 dias. Você pode encontrar o relatório de detalhes de uso na página de detalhes do serviço.                                                                     |
-| 3            | Atraso de discagem, latência, tremulação e tendência de perda de pacote nos últimos 180 dias. Você pode encontrar um relatório detalhado na página parâmetros de rede.                           |
-| 4            | Chamada simultânea e tendência de usuário ativo diário para os últimos 180 dias. Este gráfico pode ajudá-lo a entender o volume máximo do serviço.                            |
-| 5            | Melhor motivo de término de chamada afetado qualidade do serviço dos últimos 180 dias. Você pode encontrar detalhes de integridade do serviço na página de índice efetivo de rede (NER).                    |
+| 1            | Você pode usar os filtros na parte superior para fazer drill down e selecionar ByotIn como tipo de chamada, abc.bca.contoso.com como Controlador de Quadro de Sessão e EUA como país interno. |
+| 2            | Tendência de uso dos últimos 180 dias. Você pode encontrar o relatório de detalhes de uso na página Detalhes do Serviço.                                                                     |
+| 3            | Tendência pós-Atraso de Discagem, Latência, Tremida e Perda de Pacote dos últimos 180 dias. Você pode encontrar um relatório de detalhes na página Parâmetros de Rede.                           |
+| 4            | Tendência de Chamada Simultânea e Usuário Ativo Diário dos últimos 180 dias. Este gráfico pode ajudá-lo a entender o volume máximo do serviço.                            |
+| 5            | O Principal Motivo de Término da Chamada afetou a qualidade do serviço dos últimos 180 dias. Você pode encontrar detalhes de saúde do serviço na página Network Effective Ratio(NER).                    |
 
-## <a name="service-details"></a>Detalhes do serviço
+## <a name="service-details"></a>Detalhes do Serviço
 
-Esta página fornece as tendências de uso de serviço por dia e a divisão de comentários do usuário por meio do meio geográfico.
+Esta página fornece tendências de uso do serviço por dia e detalhamento dos comentários dos usuários por geografia.
 
-  - **Total de chamadas de tentativa –** Total de chamadas de tentativa nesse intervalo de tempo, incluindo tanto êxito como chamadas com falha
+  - **Total de Chamadas de Tentativa –** Total de chamadas de tentativa nesse intervalo de tempo, incluindo chamadas bem-sucedidas e com falha
 
-  - **Total de chamadas conectadas-** Total de chamadas conectadas nesse intervalo de tempo
+  - **Total de Chamadas Conectadas -** Total de chamadas conectadas nesse intervalo de tempo
 
-  - **Total de minutos –** Uso total de minutos nesse intervalo de tempo
+  - **Total de Minutos –** Uso total de minutos nesse intervalo de tempo
 
-  - **Usuários ativos diariamente (DAU) –** Contagem de usuários ativos diários que fizeram pelo menos uma chamada conectada nesse dia
+  - **Usuários Ativos Diários (DAU) –** Contagem de usuários ativos diários que fizeram pelo menos uma chamada conectada naquele dia
 
-  - **Chamadas simultâneas –** Máximo de chamadas ativas simultâneas em um minuto
+  - **Chamadas Simultâneas –** Máximo de chamadas ativas simultâneas em um minuto
 
-  - **Comentários do usuário –** A pontuação "classificar minha chamada" vem do usuário. 3-5 é considerado uma boa chamada. 1-2 é considerado como uma chamada incorreta.
+  - **Comentários do Usuário –** A pontuação "Classificação minha chamada" vem do usuário. 3 a 5 é considerado uma boa chamada. 1 a 2 é considerado uma chamada ruim.
 
-![Captura de tela: relatório PSTN CQD](media/CQD-PSTN-report2.png)
+![Captura de tela: relatório CQD PSTN](media/CQD-PSTN-report2.png)
 
 Por exemplo:
 
-1.  Se você vir as quedas médias de duração da chamada para 0 no 02/14/2020, você pode primeiro verificar se o volume da chamada está normal e ver se há uma grande discrepância entre o total de chamadas do Connect e as chamadas de tentativas totais. Em seguida, acesse a página de razão da eficácia da rede para investir em motivos de falha na chamada.
+1.  Se você vir que a duração média da chamada cai para 0 em 14/02/2020, primeiro é possível verificar se o volume da chamada parece normal e ver se há uma grande discrepância entre o total de chamadas conectadas e as chamadas de tentativa totais. Em seguida, vá para a página Network Effectiveness Ratio para investir em motivos de falha de chamada.
 
-2.  Se vir o aumento dos pontos vermelhos no mapa de comentários do usuário, você poderá acessar a página de índice de eficácia da rede e o parâmetro de rede para ver se há anomalias e se você pode disparar um bilhete usando o MS Service Desk.
+2.  Se você vir o aumento de pontos vermelhos no mapa de comentários do usuário, pode ir para a página Network Effectiveness Ratio e o Parâmetro de Rede para ver se há alguma anômala e você pode levantar um tíquete usando o MS Service Desk.
 
-## <a name="network-effectiveness-ratio"></a>Taxa de eficácia da rede
+## <a name="network-effectiveness-ratio"></a>Taxa de Eficácia da Rede
 
-Esta é a mesma métrica que aparece no painel de integridade geral. Você pode verificar o número de NER por hora com os detalhes das chamadas afetadas para as direções da chamada (de entrada/saída) na taxa de eficácia horária da rede e no gráfico de motivo de término da chamada abaixo.
+Essa é a mesma métrica que aparece no painel Saúde Geral. Você pode verificar o número de NER por hora com detalhes de chamadas afetadas para as duas direções de chamada (entrada/saída) na taxa de eficácia de rede por hora e o gráfico de motivos de término da chamada abaixo.
 
-  - **Ner** – a capacidade (%) de uma rede para entregar chamadas medindo o número de chamadas enviadas versus o número de chamadas entregues a um destinatário.
+  - **NER** – A capacidade (%) de uma rede para fazer chamadas medindo o número de chamadas enviadas versus o número de chamadas entregues a um destinatário.
 
-  - **Código de resposta SIP**-um código de resposta de inteiro de três dígitos mostra o status da chamada.
+  - **Código de resposta SIP**- Um código de resposta inteiro de três dígitos mostra o status da chamada.
 
-  - **Código de resposta da Microsoft**-um código de resposta enviado do componente da Microsoft.
+  - **Código de resposta da Microsoft**- Um código de resposta enviado do componente da Microsoft.
 
-  - **Descrição** – a fase de motivo correspondente ao código de resposta SIP e ao código de resposta da Microsoft.
+  - **Descrição** : a fase do motivo correspondente ao código de resposta SIP e ao código de resposta da Microsoft.
 
-  - **Número de chamadas afetadas** – o número total de chamadas que você tem afetado durante o intervalo de tempo selecionado.
+  - **Número de chamadas afetadas** – o número total de chamadas foi afetado durante o intervalo de tempo selecionado.
 
-> ![Captura de tela: relatório PSTN CQD](media/CQD-PSTN-report3.png)
+> ![Captura de tela: relatório CQD PSTN](media/CQD-PSTN-report3.png)
 > 
 Por exemplo:
 
-![Captura de tela: relatório PSTN CQD](media/CQD-PSTN-report4.png)
+![Captura de tela: relatório CQD PSTN](media/CQD-PSTN-report4.png)
 
-Se o NER diário tiver um DIP no 02/05/2020, você poderá clicar na data e outros gráficos serão ampliados para essa data específica.
+Se o NER Diário tiver um mergulho em 05/02/2020, você poderá clicar na data e outros gráficos ampliarão para essa data específica.
 
-![Captura de tela: relatório PSTN CQD](media/CQD-PSTN-report5.png)
+![Captura de tela: relatório CQD PSTN](media/CQD-PSTN-report5.png)
 
-Na NER boa porcentagem de tendência horária, você pode encontrar o DIP em torno de 21:00. Em seguida, clique novamente para aplicar zoom à hora 21 e verificar detalhes de chamadas afetadas para ver quantas chamadas falharam nessa hora e quais são os motivos de término da chamada. Você pode começar com a solução de problemas do SBC em qualquer problema de SBC ou relatório para o serviço de suporte se o problema não estiver relacionado ao SBC.
+No NER Good Percentage Hourly Trend, você pode descobrir que o mergulho acontece por volta das 21:00. Em seguida, clique novamente para ampliar até a hora 21 e verifique Detalhes da Chamada Efetiva para ver quantas chamadas falharam nessa hora e quais são os motivos de término da chamada. Você pode começar com problemas pessoais para resolver qualquer problema SBC ou relatar ao Service Desk se o problema não estiver relacionado ao SBC.
 
-## <a name="network-parameters"></a>Parâmetros de rede
+## <a name="network-parameters"></a>Parâmetros de Rede
 
-Todos os parâmetros de rede são medidos da interface de roteamento direto para o controlador de borda de sessão. Para obter informações sobre os valores recomendados, consulte [preparar a rede da sua organização para o Microsoft Teams](prepare-network.md)e verificar os valores recomendados de borda do cliente para o Microsoft Edge.
+Todos os parâmetros de rede são medidos da interface roteamento direto para o Controlador de Borda de Sessão. Para obter informações sobre os valores recomendados, consulte Preparar a rede da sua organização para o [Microsoft Teams](prepare-network.md)e veja a borda do cliente para os valores recomendados pelo Microsoft Edge.
 
-  - **Tremulação** – é a medida de milissegundos da variação no tempo de atraso de propagação de rede calculado entre dois pontos de extremidade usando RTCP (o protocolo de controle RTP).
+  - **Jitter** – é a medida milissegunda de variação no tempo de atraso de propagação da rede calculado entre dois pontos de extremidade usando RTCP (O Protocolo de Controle RTP).
 
-  - **Perda de pacotes** – é uma medida do pacote que falhou ao chegar; Ele é calculado entre dois pontos de extremidade.
+  - **Perda de pacote** – é uma medida de pacote que não conseguiu chegar; ele é calculado entre dois pontos de extremidade.
 
-  - **Latência** -(também conhecido como tempo de viagem de ida e volta) é o período de tempo que leva para o envio de um sinal mais o tempo necessário para que a confirmação daquele sinal seja recebida. Esse atraso de tempo consiste nos tempos de propagação entre os dois pontos de um sinal.
+  - **Latência** - (também conhecido como tempo de viagem de ida e volta) é o tempo necessário para que um sinal seja enviado, além do tempo necessário para que o sinal seja recebido. Esse atraso consiste nos tempos de propagação entre os dois pontos de um sinal.
 
-> ![Captura de tela: relatório PSTN CQD](media/CQD-PSTN-report6.png)
+> ![Captura de tela: relatório CQD PSTN](media/CQD-PSTN-report6.png)
 
 Por exemplo:
 
-Se você vir um pico em qualquer um dos quatro gráficos (latência, tremulação, taxa de perda de pacote, atraso de discagem automática) para uma data específica, por exemplo, latência em 02/14/2020, clique no ponto de data. O gráfico de tendências horárias na parte inferior será atualizado para mostrar o número por hora. Você pode verificar o SBCs ou disparar um bilhete com o MS Service Desk.
+Se você vir um pico em qualquer um dos quatro gráficos (Latência, Tremência, Taxa de Perda de Pacote, Atraso Pós-Discagem) para uma data específica, por exemplo, Latência em 14/02/2020, clique no ponto de data. E o gráfico de tendências por hora na parte inferior será atualizado para mostrar o número por hora. Você pode verificar os SBCs ou levantar um tíquete com o MS Service Desk.
 
-![Captura de tela: relatório PSTN CQD](media/CQD-PSTN-report7.png)
+![Captura de tela: relatório CQD PSTN](media/CQD-PSTN-report7.png)
 
 
 
 ## <a name="related-topics"></a>Tópicos relacionados
 
-[Usar o Power BI para analisar dados do CQD para o Microsoft Teams](CQD-PSTN-report.md)
+[Usar o Power BI para analisar dados CQD para o Microsoft Teams](CQD-PSTN-report.md)
 
 [Solução de problemas do Teams](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)

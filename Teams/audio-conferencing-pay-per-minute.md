@@ -22,7 +22,7 @@ f1.keywords:
 ms.custom:
 - Licensing
 - seo-marvel-mar2020
-description: Saiba mais sobre a opção pagar por minuto para habilitar os recursos de audioconferência para organizações que usam o licenciamento por volume da Microsoft.
+description: Saiba mais sobre a opção de pagamento por minuto para habilitar os recursos de Audioconferência para organizações que usam o Licenciamento por Volume da Microsoft.
 ms.openlocfilehash: 858b0f34075e2aa81e4c34794c96f37a2d5c9d36
 ms.sourcegitcommit: d1e4e1105d86745009cf0fdf42d1fc5ad545a952
 ms.translationtype: MT
@@ -32,49 +32,49 @@ ms.locfileid: "46788675"
 ---
 # <a name="audio-conferencing-pay-per-minute"></a>Audioconferência Pagar por Minuto
 
-Além da licença padrão de videoconferência por usuário, as organizações de volume e licenciamento também podem escolher uma oferta de pagamento por minuto para habilitar os recursos de audioconferência para suas organizações.
+Além da licença padrão de Audioconferência por usuário, as organizações de Volume e Licenciamento também podem escolher uma oferta paga por minuto para habilitar os recursos de Audioconferência para suas organizações.
   
 
-Você pode descobrir se o seu [país/região tem suporte](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md) para videoconferências.
+Você pode descobrir se seu [país/região tem suporte](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md) para Audioconferência.
 
   
 > [!NOTE]
-> Como essa oferta só está disponível para clientes de volume e licenciamento, você precisará trabalhar com o representante da sua conta para adquirir essas licenças. 
+> Como esta oferta só está disponível para clientes de Volume e Licenciamento, você precisará trabalhar com seu representante de conta para adquirir essas licenças. 
   
 ## <a name="need-some-details"></a>Precisa de alguns detalhes?
 
-Enquanto a oferta de licença por usuário por conferência de áudio inclui o uso de discagem e algum uso de discagem, a conferência de áudio paga por minuto **permite que você pague por todo o seu uso de audioconferência por minuto sem pagar por uma licença mensal por usuário**. Com isso, todas as chamadas discadas e discada serão cobradas por minuto, incluindo:
+Enquanto a oferta de licença de Audioconferência por usuário inclui uso de discagem e algum uso discado, a Audioconferência paga por minuto permite que você pague por todo o uso da **AudioConferência** por minuto sem pagar por uma licença mensal por usuário. Com isso, todas as chamadas discada e discada serão cobradas por minuto, incluindo:
   
-- Chamadas recebidas para números de conferência de áudio tarifada da sua organização.
+- Chamadas de entrada para números de audioconferência de chamada tarifada de sua organização.
     
-- Chamadas recebidas para números de conferência de áudio de chamadas gratuitas da sua organização.
+- Chamadas de entrada para números de AudioConferência gratuitas de sua organização.
     
-- Chamadas feitas para números de telefone externos dentro de uma reunião da sua organização.
+- Chamadas de saída feitas para números de telefone externos de dentro de uma reunião da sua organização.
     
 > [!NOTE]
-> Você pode encontrar as tarifas discadas e de discagem associadas a esses tipos de chamadas, analisando a **seção ver tarifas para as quais deseja ligar** em [videoconferências](https://products.office.com/microsoft-teams/online-meeting-solutions#Rates).
+> Para encontrar as taxas de discagem e discagem associadas a  esses tipos de chamadas, revise as taxas ver para onde você deseja ligar na seção [Audioconferência.](https://products.office.com/microsoft-teams/online-meeting-solutions#Rates)
   
-O pay-per-minute exige que a sua organização tenha [créditos de comunicações](what-are-communications-credits.md) configurados. Também requer que uma licença de pagamento por minuto e uma licença de créditos de comunicação sejam atribuídas a cada usuário para que a conferência de áudio funcione. Se quiser mais detalhes, consulte [Configurar créditos de comunicações para a sua organização](set-up-communications-credits-for-your-organization.md) e/ou [Licenciamento do complemento do Microsoft Teams](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing).
+O pagamento por minuto exige que sua organização tenha [Créditos de Comunicações](what-are-communications-credits.md) configurada. Também requer que uma licença de Pagamento por minuto e uma licença de Créditos de Comunicação devem ser atribuídas a cada usuário para que a Audioconferência funcione. Se quiser mais detalhes, consulte [Configurar Créditos de Comunicação](set-up-communications-credits-for-your-organization.md) para sua organização e/ou licenciamento de [complementos do Microsoft Teams.](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)
   
-Para habilitar o pagamento por minuto da conferência de áudio para os usuários de sua organização, consulte [experimentar ou comprar videoconferências no Microsoft Office 365 ou no Office 365](try-or-purchase-audio-conferencing-in-office-365-for-teams.md).
+Para habilitar a audioconferência paga por minuto para os usuários em sua organização, consulte Experimentar ou comprar Audioconferência no [Microsoft Office 365 ou no Office 365.](try-or-purchase-audio-conferencing-in-office-365-for-teams.md)
 
 ## <a name="why-is-it-best-for-you"></a>Por que é melhor para você?
 
-- O pagamento por minuto só será cobrado por minuto para cada chamada de entrada ou de saída feita por cada participante durante uma reunião agendada (as tarifas variam de acordo com chamada tarifada ou chamada gratuita e destino) em vez de usar o aplicativo Skype for Business ou Teams em um dispositivo móvel ou computador.
+- O pagamento por minuto só será cobrado por minuto para cada chamada de entrada ou saída feita por cada participante durante uma reunião agendada (as taxas variam para chamada tarifada ou gratuita e por destino) em vez de usar o aplicativo Skype for Business ou Teams em um dispositivo móvel ou pc.
 
-- Capacidade de gerenciar custos, pois os administradores podem controlar para restringir os tipos de chamadas discadas (internacionais e nacionais) que podem ser feitas a partir das reuniões de um organizador. Consulte [políticas de restrição de chamadas de saída para conferências de áudio e chamadas PSTN do usuário](/microsoftteams/outbound-calling-restriction-policies)
+- Capacidade de gerenciar custos, uma vez que os administradores podem controlar a restrição dos tipos de discagem (internacionais e domésticas) que podem ser feitos a partir das reuniões de um organizador. Ver [políticas de restrição de chamadas de saída para Audioconferência e chamadas PSTN do usuário](/microsoftteams/outbound-calling-restriction-policies)
 
 - Se você tiver licenças de Audioconferência Pagar por Minuto, não precisa atribuir licenças de Créditos de Comunicação separadamente para cada usuário especificamente para uso de Audioconferência (você ainda precisará atribuí-las para outros serviços).
 
-- Controlar e monitorar encargos de pagamento por minuto usando créditos de comunicações.
+- Controle e monitore cobranças por minuto usando Créditos de Comunicação.
 
-- Mais flexibilidade em preços para clientes que não precisam de todos os usuários na base de assinatura. 
+- Mais flexibilidade no preço para clientes que não precisam de todos os usuários por assinatura. 
 
-- Habilite o pagamento por minuto da conferência de áudio juntamente com uma assinatura mensal de uma assinatura de conferência de áudio de E5 ou autônoma, os dois serviços continuarão funcionando da mesma maneira. As alterações não terão efeito nas operações de crédito de videoconferência ou de comunicações de áudio.
+- Habilitar a audioconferência paga por minuto juntamente com uma assinatura mensal do E5 ou uma assinatura autônoma de Audioconferência, os dois serviços continuarão a funcionar da mesma maneira. As alterações não terão efeito nas operações de Audioconferência ou Créditos de Comunicação.
   
-## <a name="want-to-find-out-more-about-pricing"></a>Deseja saber mais sobre preços?
+## <a name="want-to-find-out-more-about-pricing"></a>Quer saber mais sobre preços?
 
- **Quer saber os preços?** Consulte o seguinte:
+ **Quer saber os preços?** Veja o seguinte:
   
 - [Preços de Audioconferência](https://products.office.com/skype-for-business/audio-conferencing#Requirements)
     

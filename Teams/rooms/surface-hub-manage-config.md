@@ -12,7 +12,7 @@ ms.collection:
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: Gerenciar as configurações do Microsoft Teams no Surface Hub usando o Microsoft Intune e o designer de configuração do Windows
+description: Gerenciar as configurações do Microsoft Teams no Surface Hub usando o Microsoft Intune e o Windows Configuration Designer
 ms.openlocfilehash: 3e254d7f7afbd918e8279d2dc7b100ebbfdc3daf
 ms.sourcegitcommit: 20258b691ffc559b1656fd1e57f67f5c3a9e29e1
 ms.translationtype: MT
@@ -22,16 +22,16 @@ ms.locfileid: "46761424"
 ---
 # <a name="manage-microsoft-teams-settings-on-surface-hub"></a>Gerenciar as configurações do Microsoft Teams no Surface Hub
 
-Você pode gerenciar as configurações do Microsoft Teams em um Surface Hub usando o designer de configuração do Windows ou o Microsoft Intune no Microsoft Endpoint Manager. O conhecimento do designer de configuração do Windows ou do Microsoft Intune é necessário para fazer alterações nas configurações do teams. Para obter mais informações sobre essas opções, consulte os seguintes artigos:
+Você pode gerenciar as configurações do Microsoft Teams em um Surface Hub usando o Windows Configuration Designer ou o Microsoft Intune no Microsoft Endpoint Manager. O conhecimento do Windows Configuration Designer ou do Microsoft Intune é necessário para fazer alterações nas configurações do Teams. Para obter mais informações sobre essas opções, consulte os seguintes artigos:
 
-- [Criar um pacote de provisionamento para Windows 10](https://docs.microsoft.com/windows/configuration/provisioning-packages/provisioning-create-package)
+- [Criar um pacote de provisionamento para o Windows 10](https://docs.microsoft.com/windows/configuration/provisioning-packages/provisioning-create-package)
 - [O que é o gerenciamento de dispositivos do Microsoft Intune?](https://docs.microsoft.com/mem/intune/remote-actions/device-management)
 
-O designer de configuração do Windows é uma boa opção se você tiver apenas alguns dispositivos Surface Hub e poderá acessá-los facilmente. Se você tiver muitos hubs de Surface ou se eles estiverem em locais remotos, use o Microsoft Intune no Microsoft Endpoint Manager, caso ele tenha sido implantado em sua organização. Independentemente do método escolhido, você precisará criar um arquivo de configuração XML para fazer alterações nas configurações do teams no Surface Hub.
+O Designer de Configuração do Windows é uma boa opção se você tiver apenas alguns dispositivos Surface Hub e puder acessá-los facilmente. Se você tiver muitos Surface Hubs ou se eles estão em locais remotos, use o Microsoft Intune no Microsoft Endpoint Manager se estiver implantado em sua organização. Independentemente do método escolhido, você precisa criar um arquivo de configuração XML para fazer alterações nas configurações do Teams no Surface Hub.
 
-## <a name="teams-configuration-file-syntax"></a>Sintaxe do arquivo de configuração do teams
+## <a name="teams-configuration-file-syntax"></a>Sintaxe do arquivo de configuração do Teams
 
-A configuração do teams em um Surface Hub é definida usando um arquivo XML. O arquivo XML contém todas as configurações que podem ser usadas para controlar a forma como o Microsoft Teams funciona. O designer de configuração do Windows e o Microsoft Intune usam a mesma sintaxe XML. Veja um exemplo do arquivo XML de configuração do teams:
+A configuração do Teams em um Surface Hub é definida usando um arquivo XML. O arquivo XML contém todas as configurações que podem ser usadas para controlar como o Teams funciona. O Designer de Configuração do Windows e o Microsoft Intune usam a mesma sintaxe XML. Veja um exemplo do arquivo XML de configuração do Teams:
 
 ```xml
 <SurfaceHubSettings>
@@ -47,112 +47,112 @@ A configuração do teams em um Surface Hub é definida usando um arquivo XML. O
 </SurfaceHubSettings>
 ```
 
-A tabela a seguir descreve todas as definições de configuração disponíveis no arquivo de configuração:
+A tabela a seguir descreve todas as configurações disponíveis no arquivo de configuração:
 
-| Mãe                  | Elemento                                   | Atributo | Descrição                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| Pai                  | Elemento                                   | Atributo | Descrição                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
 |-------------------------|-------------------------------------------|-----------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Nenhum                    | `<SurfaceHubSettings>`                    |           | Contém todos os elementos de configuração para a configuração do teams em um Surface Hub.                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| Nenhum                    | `<SurfaceHubSettings>`                    |           | Contém todos os elementos de configuração para a configuração do Teams em um Surface Hub.                                                                                                                                                                                                                                                                                                                                                                                                                                        |
 | `<SurfaceHubSettings>`  | `<BluetoothAdvertisementEnabled>`         |           | Determina se o Surface Hub anuncia que ele está disponível para conexões Bluetooth.<br>Valores aceitos: `true` , `false`                                                                                                                                                                                                                                                                                                                                                                                         |
-| `<SurfaceHubSettings>`  | `<AutoAcceptProximateMeetingInvitations>` |           | Determina se as equipes aceitarão automaticamente reuniões com base em proximidade.<br>Valores aceitos: `true` , `false`                                                                                                                                                                                                                                                                                                                                                                                                     |
-| `<SurfaceHubSettings>`  | `<CoordinatedMeetings>`                   |           | Contém todos os elementos de configuração para reuniões coordenadas.                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
-|                         |                                           | `enabled` | Determina se o Microsoft Teams está configurado para participar de reuniões coordenadas com outros dispositivos.<br>Valores aceitos: `true` , `false`                                                                                                                                                                                                                                                                                                                                                                                |
-| `<CoordinatedMeetings>` | `<TrustedAccounts>`                       |           | Esta é uma lista separada por vírgulas de UPNs para cada dispositivo de sala de equipes ou Surface Hub para o qual o dispositivo deve aceitar solicitações de junção de reunião ou para as quais as solicitações de ingresso em reunião devem ser enviadas.<br>Valores aceitos: cadeia de caracteres                                                                                                                                                                                                                                                                                                                         |
-| `<CoordinatedMeetings>` | `<Settings>`                              |           | Contém elementos de configuração de áudio e vídeo para reuniões coordenadas                                                                                                                                                                                                                                                                                                                                                                                                                               |
-| `<Settings>`            | `<Audio>`                                 |           | Controla a configuração de áudio para equipes em um Surface Hub.                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
-|                         |                                           | `default` | Determina em qual dispositivo o microfone estará ativo quando uma reunião iniciar. Somente um dispositivo (geralmente um dispositivo de salas de equipe) pode ter esse campo definido como `true` enquanto o restante dos dispositivos deve ter esse campo definido para `false` evitar eco e retorno de áudio.<br>Valores aceitos: `true` , `false`                                                                                                                                                                                                           |
-|                         |                                           | `enabled` | Determina se os participantes de uma reunião podem ligar ou desligar o microfone. Os dispositivos nos quais o **áudio padrão** está definido `false` devem ter essa configuração definida como para `false` que os participantes não possam ligar acidentalmente um microfone e causar eco de áudio ou comentários.<p>Se o **padrão de áudio** estiver definido como `true` , essa configuração será ignorada e os participantes poderão ativar ou desativar o mudo do microfone.<br>Valores aceitos: `true` , `false`                                                                               |
-| `<Settings>`            | `<Video>`                                 |           | Controla a configuração de vídeo para equipes em um Surface Hub.                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
-|                         |                                           | `default` | Determina em qual dispositivo a câmera estará ativa quando uma reunião iniciar. Para obter a melhor experiência, recomendamos que apenas o dispositivo de salas de equipe seja definido `true` enquanto todos os outros dispositivos são definidos como `false` .<br>Valores aceitos: `true` , `false`                                                                                                                                                                                                                                                                  |
-|                         |                                           | `enabled` | Determina se os participantes de uma reunião podem ativar ou desativar a câmera. Você pode definir isso como `true` em qualquer outro dispositivo nos participantes do evento querem compartilhar perspectivas de vídeo diferentes (como se um participante usar o quadro de comunicações do Surface Hub). Se você não quiser que os participantes ativem ou desativem uma câmera em um dispositivo, defina-o como `false` .<p> Se o **padrão de vídeo** estiver definido como `true` , essa configuração será ignorada e os participantes poderão ativar ou desativar a câmera.<br>Valores aceitos: `true` , `false` |
+| `<SurfaceHubSettings>`  | `<AutoAcceptProximateMeetingInvitations>` |           | Determina se o Teams aceitará automaticamente reuniões baseadas em proximidade.<br>Valores aceitos: `true` , `false`                                                                                                                                                                                                                                                                                                                                                                                                     |
+| `<SurfaceHubSettings>`  | `<CoordinatedMeetings>`                   |           | Contém todos os elementos de configuração para Reuniões Coordenadas.                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+|                         |                                           | `enabled` | Determina se o Teams está configurado para participar de Reuniões Coordenadas com outros dispositivos.<br>Valores aceitos: `true` , `false`                                                                                                                                                                                                                                                                                                                                                                                |
+| `<CoordinatedMeetings>` | `<TrustedAccounts>`                       |           | Esta é uma lista separada por vírgula de UPNs para cada dispositivo da Sala do Teams ou Surface Hub a partir do qual o dispositivo deve aceitar solicitações de ingressar na reunião ou para quais solicitações de junção de reunião devem ser enviadas.<br>Valores aceitos: cadeia de caracteres                                                                                                                                                                                                                                                                                                                         |
+| `<CoordinatedMeetings>` | `<Settings>`                              |           | Contém elementos de configuração de áudio e vídeo de configuração de configuração para Reuniões Coordenadas                                                                                                                                                                                                                                                                                                                                                                                                                               |
+| `<Settings>`            | `<Audio>`                                 |           | Controla a configuração de áudio do Teams em um Surface Hub.                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+|                         |                                           | `default` | Determina em qual dispositivo o microfone estará ativo quando uma reunião for iniciada. Somente um dispositivo (normalmente um dispositivo salas do Teams) pode ter esse campo definido enquanto o restante dos dispositivos deve ter esse campo definido para evitar o eco de áudio `true` `false` e os comentários.<br>Valores aceitos: `true` , `false`                                                                                                                                                                                                           |
+|                         |                                           | `enabled` | Determina se os participantes de uma reunião podem alternar ou desligar o microfone. Os dispositivos **em** que o padrão de áudio está definido devem ter essa configuração definida para que os participantes não possam ativar acidentalmente um microfone e causar eco `false` de áudio ou `false` comentários.<p>Se **o padrão de** áudio estiver definido como, essa configuração será ignorada e os participantes poderão silenciar ou `true` desativar mudo do microfone.<br>Valores aceitos: `true` , `false`                                                                               |
+| `<Settings>`            | `<Video>`                                 |           | Controla a configuração de vídeo do Teams em um Surface Hub.                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+|                         |                                           | `default` | Determina em qual dispositivo a câmera estará ativa quando uma reunião for iniciada. Para ter a melhor experiência, recomendamos que somente o dispositivo Salas do Teams seja definido enquanto todos os outros `true` dispositivos estão definidos `false` como.<br>Valores aceitos: `true` , `false`                                                                                                                                                                                                                                                                  |
+|                         |                                           | `enabled` | Determina se os participantes de uma reunião podem alternar ou desligar a câmera. Você pode definir isso como em qualquer outro dispositivo no evento em que os participantes do evento quiserem compartilhar perspectivas de vídeo diferentes (por exemplo, se um participante estiver usando o quadro de comunicação `true` do Surface Hub). Se você não quiser que os participantes a liguem ou desliguem uma câmera em um dispositivo, de definida como `false` .<p> Se **o padrão do** vídeo estiver definido `true` como, essa configuração será ignorada e os participantes poderão ligar ou desativar a câmera.<br>Valores aceitos: `true` , `false` |
 
-## <a name="apply-teams-settings-to-surface-hub"></a>Aplicar configurações de equipe ao Surface Hub
+## <a name="apply-teams-settings-to-surface-hub"></a>Aplicar configurações do Teams ao Surface Hub
 
-Aplique ou atualize as configurações do teams no Surface Hub usando o Windows Configuration designer ou o Microsoft Intune no Microsoft Endpoint Manager.
+Aplique ou atualize as configurações de configuração do Teams no Surface Hub usando o Designer de Configuração do Windows ou o Microsoft Intune no Microsoft Endpoint Manager.
 
-### <a name="use-windows-configuration-designer"></a>Usar o designer de configuração do Windows
+### <a name="use-windows-configuration-designer"></a>Usar o Designer de Configuração do Windows
 
-Você pode usar o designer de configuração do Windows para criar um pacote de provisionamento que você pode usar para aplicar as configurações do Team em seus hubs Surface. Você colará o arquivo XML criado acima no designer de configuração do Windows para criar o pacote de provisionamento.
+Você pode usar o Designer de Configuração do Windows para criar um pacote de provisionamento que pode ser usado para aplicar as configurações do Teams aos seus Surface Hubs. Você colará o arquivo XML criado acima no Designer de Configuração do Windows para criar o pacote de provisionamento.
 
 > [!IMPORTANT]
-> Se você já aplicou a configuração do Microsoft Teams ao seu Surface Hub usando um pacote de provisionamento e deseja alterá-lo, será necessário remover primeiro o pacote de provisionamento existente. Para obter mais informações, consulte [remover um pacote de provisionamento criado pelo designer de configuração do Windows](#remove-a-provisioning-package-created-by-windows-configuration-designer).
+> Se você já aplicou a configuração do Teams ao surface hub usando um pacote de provisionamento e deseja alterá-lo, primeiro é necessário remover o pacote de provisionamento existente. Para obter mais informações, [consulte Remover um pacote de provisionamento criado pelo Windows Configuration Designer.](#remove-a-provisioning-package-created-by-windows-configuration-designer)
 
-Faça o seguinte para criar o pacote de provisionamento no designer de configuração do Windows:
+Faça o seguinte para criar o pacote de provisionamento no Windows Configuration Designer:
 
-1. Instalar o designer de configuração do Windows na Windows Store em seu computador local e abri-lo
-2. Selecione **provisionar dispositivos Surface Hub** e, em seguida, **alternar para o editor avançado**
-3. Na tela seguinte, expanda **WindowsTeamSettings**  >  **Teams** WindowsTeamSettings e selecione **configurações**
-4. No campo ao lado de **configurações** no painel do meio, Cole a única linha do XML que você criou acima
-5. Selecionar **Export**  >  **pacote de provisionamento** de exportação
-6. Forneça um nome para o pacote de provisionamento em **nome** e selecione **próximo**  >  **próximo**
-7. Especifique um local para salvar o pacote de provisionamento e selecione **Avançar**
-8. Selecione **Compilar** para criar o pacote de provisionamento e, em seguida, **concluir**
+1. Instalar o Designer de Configuração do Windows a partir da Windows Store em seu computador local e abri-lo
+2. Selecione **Provisionar dispositivos surface hub** e **alternar para o editor avançado**
+3. Na tela seguinte, expanda **o WindowsTeamSettings**  >  **Teams** e selecione **Configurações**
+4. No campo ao lado **de Configurações** no painel intermediário, colar a única linha de XML que você criou acima
+5. Selecionar **pacote de**  >  **Provisionamento de Exportação**
+6. Forneça um nome para o pacote de provisionamento em **Nome** e selecione **Próximo**  >  **Próximo**
+7. Especifique um local para salvar o pacote de provisionamento e selecione **Próximo**
+8. Selecione **Construir** para criar o pacote de provisionamento e, em seguida, **Concluir**
 
-Por fim, depois de criar o pacote de provisionamento, siga este procedimento para aplicar o pacote de provisionamento ao seu Surface Hub:
+Por fim, depois de criar o pacote de provisionamento, faça o seguinte para aplicar o pacote de provisionamento ao seu Surface Hub:
 
 1. Salvar o pacote de provisionamento que você criou acima em uma unidade USB
-2. Insira a unidade USB no seu Surface Hub
-3. No Surface Hub, abra o menu Iniciar, selecione **todos os aplicativos**e, em seguida, selecione **configurações**
-4. Forneça o nome de usuário e a senha do administrador e, em seguida, selecione **Sim**
-5. Vá para **Surface Hub**, **Gerenciamento de dispositivo**, **adicione ou remova um pacote de provisionamento**e, em seguida, **adicione um pacote**
-6. Em **selecionar um pacote**, selecione **Adicionar** ao lado do pacote de provisionamento e reinicie o Surface Hub
+2. Inserir a unidade USB em seu Surface Hub
+3. No Surface Hub, abra o menu Iniciar, selecione **Todos os aplicativos** e, em seguida, selecione **Configurações**
+4. Forneça o nome de usuário e a senha do administrador e selecione **Sim**
+5. Vá para **o Surface Hub,** **gerenciamento de dispositivos,** adicionar ou remover um pacote **de** provisionamento e, em seguida, adicionar **um pacote**
+6. Em **Selecionar um pacote,** selecione **Adicionar** ao lado do pacote de provisionamento e reinicie o Surface Hub
 
 ### <a name="use-microsoft-intune"></a>Usar o Microsoft Intune
 
-Se seus hubs de Surface forem gerenciados usando o Microsoft Intune no Microsoft Endpoint Management, você poderá usá-lo para aplicar configurações de equipe aos hubs Surface. Você criará um novo perfil de configuração e, em seguida, colará o arquivo XML criado acima nele.
+Se os Surface Hubs são gerenciados usando o Microsoft Intune no Gerenciamento de Pontos de Extremidade da Microsoft, você pode usá-lo para aplicar as configurações do Teams aos seus Surface Hubs. Você criará um novo perfil de configuração e colará o arquivo XML criado acima nele.
 
 > [!IMPORTANT]
-> Seus hubs de superfície precisam estar em um grupo de dispositivos para que o Microsoft Intune possa identificar para quais dispositivos aplicar o perfil de configuração. Para obter informações sobre como criar um grupo de dispositivos, consulte [Adicionar grupos para organizar usuários e dispositivos](https://docs.microsoft.com/mem/intune/fundamentals/groups-add).
+> Seus Surface Hubs precisam estar em um grupo de dispositivos para que o Microsoft Intune possa identificar a quais dispositivos aplicar o perfil de configuração. Para obter informações sobre como criar um grupo de dispositivos, consulte [Adicionar grupos para organizar usuários e dispositivos.](https://docs.microsoft.com/mem/intune/fundamentals/groups-add)
 
-Siga este procedimento para criar um perfil de configuração para aplicar as configurações do teams a seus hubs de superfície:
+Faça o seguinte para criar um perfil de configuração para aplicar as configurações do Teams aos seus Surface Hubs:
 
-1. Acesse o Microsoft Endpoint Manager visitando https://endpoint.microsoft.com/
-2. Navegar para **Devices**  >  **perfis de configuração** de dispositivos e selecionar **Criar perfil**
-3. Em **plataforma**, selecione **Windows 10 e posterior**
-4. Em **perfil**, selecione **personalizado**e, em seguida, clique em **criar**
-5. Na guia **noções básicas** , em **nome**, forneça um nome descritivo para seu perfil de configuração e selecione **Avançar**
-6. Na guia **configurações de configuração** , selecione **Adicionar**
-7. No painel **Adicionar linha** , faça o seguinte:
-    1. Forneça um nome descritivo e, opcionalmente, uma descrição da configuração do teams que você está adicionando
-    2. Em **OMA-URI**, digite `./Vendor/MSFT/SurfaceHub/InBoxApps/Teams/Configurations`
-    3. Em **tipo de dados**, selecione **cadeia de caracteres (arquivo XML)**
-    4. Abra o navegador de arquivos, selecione o arquivo XML que você criou acima e **abra**
-8. Selecione **Adicionar** e, em seguida, **Avançar**
-9. Na guia **tarefas** , certifique-se de que **atribuir a** está definido como **grupos selecionados**
-10. Em **grupos selecionados**, selecione **Selecionar grupos para incluir** e escolha o grupo que contém os hubs de superfície e selecione **selecionar**
-11. Selecionar **próximo**, **próximo**
-12. Na guia **revisar + criar**, selecione **criar**
+1. Entre no Microsoft Endpoint Manager visitando https://endpoint.microsoft.com/
+2. Navegue até **perfis**  >  **de Configuração de Dispositivos** e selecione **Criar perfil**
+3. Em **Plataforma,** selecione **Windows 10 e posterior**
+4. Em **Perfil,** selecione **Personalizado** e clique em **Criar**
+5. Na guia **Noções Básicas,** em **Nome,** forneça um nome descritivo para seu perfil de configuração e selecione **Próximo**
+6. Na guia **Configurações,** selecione **Adicionar**
+7. No painel **Adicionar** linha, faça o seguinte:
+    1. Forneça um nome descritivo e, opcionalmente, uma descrição da configuração do Teams que você está adicionando
+    2. No **OMA-URI,** insira `./Vendor/MSFT/SurfaceHub/InBoxApps/Teams/Configurations`
+    3. Em **Tipo de dados,** selecione **Cadeia de Caracteres (arquivo XML)**
+    4. Abra o navegador de arquivos, selecione o arquivo XML que você criou acima e **Abra**
+8. Selecione **Adicionar** e, em seguida, **Próximo**
+9. Na guia **Tarefas,** certifique-se de **que** Atribuir está definido como **grupos selecionados**
+10. Em **Grupos Selecionados,** selecione **Selecionar grupos para** incluir e escolha o grupo que contém seus Surface Hubs e selecione **Selecionar**
+11. Selecionar **Próximo,** **Próximo**
+12. Na opção **Revisar+ criar,** selecione **Criar**
 
-## <a name="remove-teams-settings-from-a-surface-hub"></a>Remover as configurações do teams de um Surface Hub
+## <a name="remove-teams-settings-from-a-surface-hub"></a>Remover configurações do Teams de um Surface Hub
 
-Remova as configurações do teams no Surface Hub usando o Windows Configuration designer ou o Microsoft Intune no Microsoft Endpoint Manager.
+Remova as configurações do Teams no Surface Hub usando o Designer de Configuração do Windows ou o Microsoft Intune no Microsoft Endpoint Manager.
 
-### <a name="remove-a-provisioning-package-created-by-windows-configuration-designer"></a>Remover um pacote de provisionamento criado pelo designer de configuração do Windows
+### <a name="remove-a-provisioning-package-created-by-windows-configuration-designer"></a>Remover um pacote de provisionamento criado pelo Designer de Configuração do Windows
 
-Se você aplicou configurações do teams a um Surface Hub usando um pacote de provisionamento criado pelo Windows Configuration designer, use as etapas a seguir para remover o pacote e suas configurações:
+Se você aplicou as configurações do Teams a um Surface Hub usando um pacote de provisionamento criado pelo Windows Configuration Designer, use as seguintes etapas para remover o pacote e suas configurações:
 
-1. No Surface Hub, abra o menu Iniciar, selecione **todos os aplicativos**e, em seguida, selecione **configurações**
-2. Forneça o nome de usuário e a senha do administrador e, em seguida, selecione **Sim**
-3. Vá para **Surface Hub**, **Gerenciamento de dispositivo** e, em seguida, **Adicionar ou remover um pacote de provisionamento**
-4. Ao lado do pacote de provisionamento que você deseja remover, selecione **remover**
-5. Vá para o **Surface Hub** e, em seguida, **aplicativos & recursos**
-6. Encontre **o Microsoft Teams para Surface Hub** e selecione **Opções avançadas**
-7. Selecione **Redefinir**e **Redefinir** novamente
-8. Reiniciar o Surface Hub
+1. No Surface Hub, abra o menu Iniciar, selecione **Todos os aplicativos** e, em seguida, selecione **Configurações**
+2. Forneça o nome de usuário e a senha do administrador e selecione **Sim**
+3. Vá para **o Surface Hub,** **gerenciamento de dispositivos** **e adicione ou remova um pacote de provisionamento**
+4. Ao lado do pacote de provisionamento que você deseja remover, selecione **Remover**
+5. Vá para **o Surface Hub** e, em seguida, **aplicativos & recursos**
+6. Encontre **o Microsoft Teams para Surface Hub** e selecione Opções **Avançadas**
+7. Selecione **Redefinir** e **Redefinir** novamente
+8. Reinicie o Surface Hub
 
-### <a name="remove-settings-applied-by-microsoft-intune"></a>Remover as configurações aplicadas pelo Microsoft Intune
+### <a name="remove-settings-applied-by-microsoft-intune"></a>Remover configurações aplicadas pelo Microsoft Intune
 
-Se você aplicou configurações do teams a um Surface Hub usando o Microsoft Intune no Microsoft Endpoint Management, use as etapas a seguir para remover o perfil de configuração e suas configurações:
+Se você aplicou as configurações do Teams a um Surface Hub usando o Microsoft Intune no Gerenciamento de Pontos de Extremidade da Microsoft, use as etapas a seguir para remover o perfil de configuração e suas configurações:
 
-1. Acesse o Microsoft Endpoint Manager visitando https://endpoint.microsoft.com/
-2. Navegar para **Devices**  >  **perfis de configuração** de dispositivos
-3. Selecione o perfil de configuração que contém as configurações de reunião coordenada que você deseja remover
-4. Na página detalhes do perfil de configuração, selecione **excluir** e **OK**
+1. Entre no Microsoft Endpoint Manager visitando https://endpoint.microsoft.com/
+2. Navegar até **perfis de**  >  **configuração de dispositivos**
+3. Selecione o perfil de configuração que contém as configurações de Reunião Coordenada que você deseja remover
+4. Na página de detalhes do perfil de configuração, selecione **Excluir** **e,** em seguida, OK
 
-Depois de remover o perfil de configuração que continha as configurações de reunião coordenada para seu Surface Hub, use as etapas a seguir para redefinir o aplicativo Teams no Surface Hub:
+Depois de remover o perfil de configuração que continha as configurações de Reunião Coordenada do Surface Hub, use as seguintes etapas para redefinir o aplicativo Teams no Surface Hub:
 
-1. No Surface Hub, abra o menu Iniciar, selecione **todos os aplicativos**e, em seguida, selecione **configurações**
-2. Forneça o nome de usuário e a senha do administrador e, em seguida, selecione **Sim**
-3. Vá para o **Surface Hub** e, em seguida, **aplicativos & recursos**
-4. Encontre **o Microsoft Teams para Surface Hub** e selecione **Opções avançadas**
-5. Selecione **Redefinir**e **Redefinir** novamente
-6. Reiniciar o Surface Hub
+1. No Surface Hub, abra o menu Iniciar, selecione **Todos os aplicativos** e, em seguida, selecione **Configurações**
+2. Forneça o nome de usuário e a senha do administrador e selecione **Sim**
+3. Vá para **o Surface Hub** e, em seguida, **aplicativos & recursos**
+4. Encontre **o Microsoft Teams para Surface Hub** e selecione Opções **Avançadas**
+5. Selecione **Redefinir** e **Redefinir** novamente
+6. Reinicie o Surface Hub

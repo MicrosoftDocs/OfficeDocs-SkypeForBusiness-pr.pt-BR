@@ -22,19 +22,19 @@ ms.locfileid: "44753263"
 
 Para concluir com êxito este procedimento, você deverá estar conectado no servidor ou domínio como um membro do grupo de Administradores de Domínio ou membro do grupo DnsAdmins.
   
-Este tópico descreve como atualizar os registros DNS (sistema de nomes de domínio) após a migração para o Skype for Business Server 2019. Após todos os usuários terem sido movidos para o Skype for Business Server 2019, mas antes de o pool ou diretor herdado ser encerrado, você deve atualizar os registros SRV DNS no seu DNS interno para cada domínio SIP. Este procedimento supõe que o DNS interno tem zonas para os domínios de usuário do SIP.
+Este tópico descreve como atualizar os registros dns após migrar para o Skype for Business Server 2019. Depois que todos os usuários tiverem sido movidos para o Skype for Business Server 2019, mas antes que o pool ou Diretor herdado seja desativado, você deve atualizar os registros SRV dns em seu DNS interno para cada domínio SIP. Este procedimento supõe que o DNS interno tem zonas para os domínios de usuário do SIP.
   
 ## <a name="to-configure-a-dns-srv-record"></a>Para configurar um registro SRV de DNS
 
 1. No servidor DNS, clique em **Iniciar**, clique em **Ferramentas Administrativas** e em **DNS**.
     
-2. Na árvore de console para seu domínio SIP, expanda **zonas de pesquisa direta**, expanda o domínio SIP no qual o Skype for Business Server 2019 está instalado e navegue até a configuração de **_tcp** . 
+2. Na árvore de console do seu domínio SIP, expanda **Zonas** de Busca Encaminhar, expanda o domínio SIP no qual o Skype for Business Server 2019 está instalado e navegue até a configuração **de** _tcp. 
     
-3. No painel direito, clique com o botão direito do mouse em **_sipinternaltls** e selecione **Propriedades**.
+3. No painel direito, clique com o botão direito do mouse **_sipinternaltls** e selecione **Propriedades.**
     
-4. Em **host que oferece esse serviço**, atualize o FQDN do host para apontar para o pool do Skype for Business Server 2019.
+4. No **Host que oferece esse serviço,** atualize o FQDN do host para apontar para o pool do Skype for Business Server 2019.
     
-5. Clique em**OK**.
+5. Clique em **OK**.
     
 ## <a name="to-verify-that-the-fqdn-of-the-front-end-pool-or-standard-edition-server-can-be-resolved"></a>Para verificar se o FQDN do servidor Standard Edition ou pool de Front-Ends pode ser resolvido
 
@@ -42,9 +42,9 @@ Este tópico descreve como atualizar os registros DNS (sistema de nomes de domí
     
 2. Clique em **Iniciar** e em **Executar**.
     
-3. Na caixa **abrir** , digite cmd e clique em **OK**.
+3. Na caixa **Abrir,** digite cmd e clique em **OK.**
     
-4. No prompt de comando, digite nslookup _\<FQDN of the Front End pool\>_ ou _\<FQDN of the Standard Edition server\>_ e pressione Enter.
+4. No prompt de comando, digite nslookup _\<FQDN of the Front End pool\>_ ou  _\<FQDN of the Standard Edition server\>_ e pressione ENTER.
     
 5. Verifique se recebeu uma resposta que resolve para o endereço IP apropriado para o FQDN.
     

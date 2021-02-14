@@ -24,50 +24,50 @@ ms.locfileid: "44751653"
   
 [Verificar se os serviços do Skype for Business Server 2019 foram iniciados](#sectionSection0)
   
-[Abrir o painel de controle do Skype for Business Server 2019](#sectionSection1)
+[Abrir o Painel de Controle do Skype for Business Server 2019](#sectionSection1)
   
-[Não tente abrir a topologia no construtor de topologias herdadas](#sectionSection2)
+[Não tente abrir a topologia no Construtor de Topologias herdada](#sectionSection2)
   
-Depois de implantar o pool piloto, você deve verificar a coexistência de dois pools usando ferramentas administrativas para exibir as informações dos pools. Para os pools do Skype for Business Server 2019 e pools herdados, você deve usar o painel de controle do Skype for Business Server 2019 e as ferramentas do construtor de topologia. 
+Depois de implantar o pool piloto, você deve verificar a coexistência de dois pools usando ferramentas administrativas para exibir as informações dos pools. Para os pools e pools herdado do Skype for Business Server 2019, você deve usar o Painel de Controle do Skype for Business Server 2019 e as ferramentas do Construtor de Topologias. 
   
 ## <a name="verify-that-skype-for-business-server-2019-services-have-started"></a>Verificar se os serviços do Skype for Business Server 2019 foram iniciados
 <a name="sectionSection0"> </a>
 
-1. No servidor front-end do Skype for Business Server 2019, navegue até o mini-aplicativo applet administrativo.
+1. No Servidor front-end do Skype for Business Server 2019, navegue até o applet Ferramentas Administrativas\Serviços.
     
 2. Verifique se os serviços a seguir estão sendo executados no servidor Front End:
 
-    - Agente de serviço de registro em log centralizado
+    - Agente de Serviço de Registro em Log Centralizado
     - Compartilhamento de aplicativo
-    - Serviço de teste de áudio
+    - Serviço de Teste de Áudio
     - Audioconferências/Videoconferências
-    - Estacionamento de chamada
-    - Comunicado de conferência
-    - Atendedor de conferência
+    - Estacionamento de Chamada
+    - Comunicado de Conferência
+    - Atendente de Conferência
     - Front-end
     - Conferência de IM
     - Mediação
-    - Agente replicador de réplica
+    - Agente Replicador de Réplica
     - Grupo de Resposta
-    - Webconferência
-    - Gateway de conversão XMPP
+    - Conferência pela Web
+    - Gateway de tradução XMPP
 
   
-## <a name="open-the-skype-for-business-server-2019-control-panel"></a>Abrir o painel de controle do Skype for Business Server 2019
+## <a name="open-the-skype-for-business-server-2019-control-panel"></a>Abrir o Painel de Controle do Skype for Business Server 2019
 <a name="sectionSection1"> </a>
 
-A partir do servidor front-end na sua implantação do Skype for Business Server 2019, abra o painel de controle do Skype for Business Server 2019 e selecione o pool herdado. Repita o procedimento para abrir o pool do Skype for Business Server 2019.
+No Servidor front-end em sua implantação do Skype for Business Server 2019, abra o Painel de Controle do Skype for Business Server 2019 e selecione o pool herdado. Repita o procedimento para abrir o pool do Skype for Business Server 2019.
   
 > [!IMPORTANT]
-> No Skype for Business Server 2019, você deve atualizar o Silverlight para o Silverlight versão 5 antes de usar o painel de controle do Skype for Business Server. 
+> No Skype for Business Server 2019, você deve atualizar o Silverlight para o Silverlight versão 5 antes de usar o Painel de Controle do Skype for Business Server. 
   
-Essa topologia agora inclui funções de servidor herdadas e do Skype for Business Server 2019. 
+Essa topologia agora inclui funções de servidor herdada e do Skype for Business Server 2019. 
 
   
-## <a name="dont-attempt-to-open-the-topology-in-the-legacy-topology-builder"></a>Não tente abrir a topologia no construtor de topologias herdadas
+## <a name="dont-attempt-to-open-the-topology-in-the-legacy-topology-builder"></a>Não tente abrir a topologia no Construtor de Topologias herdada
 <a name="sectionSection2"> </a>
 
-A topologia só pode ser exibida usando o construtor de topologias do Skype for Business Server 2019. O construtor de topologias do Skype for Business Server 2019 deve ser usado para criar pools para o Skype for Business Server 2019 e a instalação herdada.
+A topologia só pode ser visualizada usando o Construtor de Topologias do Skype for Business Server 2019. O Construtor de Topologias do Skype for Business Server 2019 deve ser usado para criar pools para o Skype for Business Server 2019 e a instalação herdada.
 
   
 

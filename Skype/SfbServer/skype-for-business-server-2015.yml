@@ -22,7 +22,7 @@ landingContent:
   linkLists:
   - linkListType: overview
     links:
-    - text: Requisitos de ambiente
+    - text: Requisitos ambientais
       url: /SkypeForBusiness/plan-your-deployment/requirements-for-your-environment/requirements-for-your-environment
     - text: Requisitos de rede
       url: /SkypeForBusiness/plan-your-deployment/network-requirements/network-requirements
@@ -54,11 +54,11 @@ landingContent:
       url: /SkypeForBusiness/deploy/deploy
     - text: Instalar o Skype for Business Server
       url: /SkypeForBusiness/deploy/install/install
-    - text: Atualização para o Skype for Business Server
+    - text: Atualizar para o Skype for Business Server
       url: /SkypeForBusiness/deploy/upgrade-to-skype-for-business-server
     - text: Implantar o Enterprise Voice
       url: /SkypeForBusiness/deploy/deploy-enterprise-voice/deploy-enterprise-voice
-    - text: Configurar sua implantação local para transmissão de reunião do Skype
+    - text: Configurar sua implantação local para a Transmissão de Reunião do Skype
       url: /SkypeForBusiness/deploy/configure-skype-meeting-broadcast
   - linkListType: how-to-guide
     links:
@@ -68,7 +68,7 @@ landingContent:
   linkLists:
   - linkListType: overview
     links:
-    - text: Série de preparação para Skype for Business
+    - text: Série de preparação do Skype for Business
       url: https://infopedia.eventbuilder.com/?landingpageid=7p1c8p
     - text: Documentação do Skype for Business Server 2019
       url: /SkypeForBusiness/skype-for-business-server-2019

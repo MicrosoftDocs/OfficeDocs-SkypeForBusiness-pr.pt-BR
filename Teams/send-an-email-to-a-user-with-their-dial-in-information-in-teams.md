@@ -1,5 +1,5 @@
 ---
-title: Enviar um usuário para as informações da conferência de áudio de um usuário
+title: Enviar suas informações de Audioconferência por email a um usuário
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,7 +21,7 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 - seo-marvel-apr2020
-description: Saiba como enviar um email aos seus usuários com as informações de audioconferência no Microsoft Teams.
+description: Saiba como enviar um email aos usuários com suas informações de audioconferência no Microsoft Teams.
 ms.openlocfilehash: 5f281071dd4ae9a21f9148ac86943d4ab4ce36b8
 ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
@@ -40,7 +40,7 @@ ms.locfileid: "44691137"
    
 Aqui está um exemplo do e-mail que é enviado:
   
-![Exemplo de uma mensagem de email de conferência discada](media/teams-send-email-to-user-with-audio-conferencing-image1.png)
+![Exemplo de uma mensagem de email de conferência discda](media/teams-send-email-to-user-with-audio-conferencing-image1.png)
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
@@ -49,32 +49,32 @@ Aqui está um exemplo do e-mail que é enviado:
 
 ### <a name="an-icon-showing-the-microsoft-teams-logo-using-the-microsoft-teams-admin-center"></a>![Um ícone mostrando o logotipo do Microsoft Teams](media/teams-logo-30x30.png) Usando o centro de administração do Microsoft Teams
 
-1. Na navegação à esquerda, clique em **usuários**e selecione o usuário na lista de usuários disponíveis.
+1. Na navegação à esquerda, clique em **Usuários** e selecione o usuário na lista de usuários disponíveis.
 
-2. Na parte superior da página, clique em **Editar**.
+2. Na parte superior da página, clique em **Editar.**
 
-3. Em **conferência de áudio**, clique em **enviar informações de conferência por email**.
+3. Em **Audioconferência,** clique **em Enviar informações da conferência por email.**
 
 
 ## <a name="what-else-should-you-know-about-this-email"></a>O que mais devo saber sobre esse email?
 
-- Há vários emails enviados para os usuários em sua organização após serem habilitados para conferências de áudio:
+- Há vários emails enviados para os usuários em sua organização depois que eles são habilitados para audioconferência:
     
-  - Quando uma licença de **conferência de áudio** é atribuída a ele.
+  - Quando uma **licença de Audioconferência** é atribuída a eles.
     
-  - Quando você redefine manualmente o PIN de audioconferência de áudio do usuário.
+  - Quando você redefine manualmente o PIN de audioconferência do usuário.
     
   - Quando você redefine manualmente o ID de conferência do usuário.
     
-  - Quando uma licença de **conferência de áudio** é removida.
+  - Quando uma **licença de Audioconferência** é removida dela.
     
-  - Quando o provedor de serviços de audioconferência de um usuário for alterado da Microsoft para outro provedor ou **nenhum**.
+  - Quando o provedor de audioconferência de um usuário é alterado da Microsoft para outro provedor ou **Nenhum.**
     
-  - Quando o provedor de serviços de audioconferência de um usuário for alterado para a Microsoft.
+  - Quando o provedor de audioconferência de um usuário é alterado para a Microsoft.
   
 ## <a name="want-to-know-more-about-windows-powershell"></a>Deseja saber mais sobre o Windows PowerShell?
 
-O Windows PowerShell gerencia os usuários e o que eles podem ou não fazer. Com o Windows PowerShell, você pode gerenciar o Microsoft 365 ou o Office 365 usando um único ponto de administração que pode simplificar seu trabalho diário quando você tiver várias tarefas para fazer. Para começar a trabalhar com o Windows PowerShell, confira estes tópicos:
+O Windows PowerShell gerencia os usuários e o que eles podem ou não fazer. Com o Windows PowerShell, você pode gerenciar o Microsoft 365 ou o Office 365 usando um ponto único de administração que pode simplificar seu trabalho diário quando você tiver várias tarefas a fazer. Para começar a trabalhar com o Windows PowerShell, confira estes tópicos:
     
   - [Por que você precisa usar o PowerShell do Office 365](https://go.microsoft.com/fwlink/?LinkId=525041)
     
@@ -85,4 +85,4 @@ Para obter mais informações sobre o Windows PowerShell, consulte a [referênci
   
 ## <a name="related-topics"></a>Tópicos relacionados
 
-[Experimentar ou comprar videoconferências no Microsoft 365 ou no Office 365](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
+[Experimentar ou comprar Audioconferência no Microsoft 365 ou no Office 365](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)

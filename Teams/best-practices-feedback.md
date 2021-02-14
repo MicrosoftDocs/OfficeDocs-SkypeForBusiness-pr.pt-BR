@@ -30,7 +30,7 @@ ms.locfileid: "46581382"
 
 A adoção de uma nova experiência de colaboração gira em torno de mudar o comportamento dos seus usuários. As pessoas precisam de treinamento, incentivo e exemplos positivos. É também fundamental que se sintam ouvidas durante a transição. Caso já tenha estabelecido anteriormente métodos de feedback bem-sucedidos na sua organização, considere ampliá-los para incluir a implementação do seu Teams. Se ainda não tiver feito isso antes, considere uma das seguintes abordagens:
 
--   Criar uma equipe pública no Microsoft Teams que qualquer usuário pode participar para fornecer comentários sobre sua experiência (Lembre-se de que os grupos públicos estão limitados a usuários do 5000).
+-   Criar uma equipe pública no Microsoft Teams que qualquer usuário possa ingressar para fornecer comentários sobre sua experiência (tendo em mente que os grupos públicos estão limitados a 5.000 usuários).
 
 -   Uso do Yammer para oferecer uma comunidade aberta para boas práticas e suporte para a experiência.
 
@@ -39,4 +39,4 @@ Os métodos de feedback conduzidos pela comunidade exige o envolvimento dos defe
 <a name="showcases"></a>Exemplos
 ---------
 
-Ao continuar essa jornada, você encontrará exemplos no seu próprio ambiente de funcionários, cuja criatividade com o Microsoft Teams o surpreenderão e o encantarão. Recomendamos que você compartilhe esses exemplos ao máximo. Isso incentivará outras pessoas a serem inovadoras, educar os usuários que podem estar em uma curva de adoção e recompensarão os que tomaram o tempo de pensar na melhor utilização do Microsoft Teams em seu ambiente. Estabelecer uma meta mensurável ou identificar um número específico de exemplos a cada trimestre pode ser útil para manter a sua dinâmica de adoção.
+Ao continuar essa jornada, você encontrará exemplos no seu próprio ambiente de funcionários, cuja criatividade com o Microsoft Teams o surpreenderão e o encantarão. Recomendamos que você compartilhe esses exemplos ao máximo. Isso incentivará outras pessoas a serem inovadoras, instruir os usuários que podem estar anteriormente na curva de adoção e recompensar aqueles que aproveitaram o tempo para pensar sobre como usar melhor o Microsoft Teams em seu ambiente. Estabelecer uma meta mensurável ou identificar um número específico de exemplos a cada trimestre pode ser útil para manter a sua dinâmica de adoção.

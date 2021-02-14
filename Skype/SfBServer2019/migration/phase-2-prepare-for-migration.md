@@ -1,5 +1,5 @@
 ---
-title: Fase 2 preparar para a migração
+title: Fase 2 Preparar a migração
 ms.reviewer: ''
 ms.author: serdars
 author: serdarsoysal
@@ -33,6 +33,6 @@ Antes de começar a migração para o Skype for Business Server 2019, siga as et
     
 - [Configurar clientes para migração](configure-clients-for-migration.md)
     
-- [Verificar o ambiente herdado](verify-environment.md)
+- [Verificar o ambiente herddo](verify-environment.md)
     
 

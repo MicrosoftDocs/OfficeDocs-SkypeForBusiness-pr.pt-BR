@@ -10,7 +10,7 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: Os tópicos desta seção orientam você durante o processo de migração para o Skype for Business Server 2019.
+description: Os tópicos desta seção o orientarão durante o processo de migração para o Skype for Business Server 2019.
 ms.openlocfilehash: 860fce550de33ed726bbbe723c8c7677ff09fc1c
 ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
@@ -20,25 +20,25 @@ ms.locfileid: "44752613"
 ---
 # <a name="migration-to-skype-for-business-server-2019"></a>Migração para o Skype for Business Server 2019
 
-Os tópicos desta seção orientam você durante o processo de migração para o Skype for Business Server 2019. Este artigo aborda a migração do Lync Server 2013 ou do Skype for Business Server 2015 para o Skype for Business Server 2019.
+Os tópicos desta seção o orientarão durante o processo de migração para o Skype for Business Server 2019. Este artigo aborda a migração do Lync Server 2013 ou do Skype for Business Server 2015 para o Skype for Business Server 2019.
 
 > [!IMPORTANT]
-> Ao longo do conteúdo, usamos o termo *herdado* para consultar o Lync Server 2013 ou o Skype for Business Server herdado 2015 que você está migrando para o Skype for business Server 2019.
+> Em todo o conteúdo,  usamos o termo herdado para se referir ao Lync Server 2013 ou Skype for Business Server 2015 herdado que você está migrando para o Skype for Business Server 2019.
   
 > [!IMPORTANT]
 > Este guia descreve as etapas geralmente necessárias para realizar cada fase da migração. Ele não atende todas as topologias de implantação herdada possíveis ou todos os cenários de migração possíveis. Portanto, talvez não seja necessário executar cada etapa descrita, ou talvez seja necessário executar etapas adicionais, dependendo de sua implantação. Este guia também fornece exemplos de etapas de verificação. Essas etapas de verificação são fornecidas para ajudá-lo a entender o que você precisa procurar para garantir que cada fase seja concluída com êxito à medida que você progride em sua migração. Personalize estas etapas de verificação para seu processo de migração específico. 
   
-Este guia oferece informações específicas para atualizar sua implantação existente. Ele não explica como alterar sua topologia existente. O documento também não aborda a implementação de novos recursos. Quando um procedimento detalhado é documentado em outro lugar, este guia direciona você para a seção artigo ou artigo. 
+Este guia oferece informações específicas para atualizar sua implantação existente. Ele não explica como alterar sua topologia existente. O documento também não aborda a implementação de novos recursos. Quando um procedimento detalhado é documentado em outro lugar, este guia direciona você para a seção de artigo ou artigo. 
   
-Este artigo define termos conforme especificado na lista a seguir.
+Este artigo define os termos conforme especificado na lista a seguir.
   
-**migração:** Mover sua implantação de produção do Lync Server 2013 ou do Skype for Business Server 2015 para o Skype for Business Server 2019.
+**migração:** Mover sua implantação de produção do Lync Server 2013 ou Skype for Business Server 2015 para o Skype for Business Server 2019.
     
-**coexistência:** O ambiente temporário que existe durante a migração quando algumas funcionalidades foram migradas para o Skype for Business Server 2019 e outras funcionalidades ainda permanecem em uma versão anterior.
+**coexistência:** O ambiente temporário que existe durante a migração quando alguma funcionalidade foi migrada para o Skype for Business Server 2019 e outras funcionalidades ainda permanecem em uma versão anterior.
     
 **interoperabilidade:** A capacidade de sua implantação operar com êxito durante o período de coexistência.
 
-**herdado:** O sistema para o qual você está migrando, que é o Lync Server 2013 ou o Skype for Business Server 2015.
+**herdados:** O sistema do qual você está migrando, que é o Lync Server 2013 ou o Skype for Business Server 2015.
     
 ## <a name="in-this-section"></a>Nesta seção
 
@@ -50,7 +50,7 @@ Este artigo define termos conforme especificado na lista a seguir.
     
 - [Fase 3: Implantar pool piloto](phase-3-deploy-pilot-pool.md)
     
-- [Fase 4: mover usuários de teste para o pool piloto](phase-4-move-test-users-to-the-pilot-pool.md)
+- [Fase 4: Mover usuários de teste para o pool piloto](phase-4-move-test-users-to-the-pilot-pool.md)
     
 - [Etapa 5: Adicionar Servidor de Borda ao pool piloto](phase-5-add-edge-server-to-pilot-pool.md)
     

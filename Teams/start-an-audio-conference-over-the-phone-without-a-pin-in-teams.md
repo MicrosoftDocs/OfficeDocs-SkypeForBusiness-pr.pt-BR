@@ -1,5 +1,5 @@
 ---
-title: Iniciar a conferência de áudio por telefone sem um PIN no Teams
+title: Iniciar audioconferência por telefone sem um PIN no Teams
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -50,7 +50,7 @@ Não é obrigatório um PIN para o organizador da reunião se alguém tiver inic
 
 3. Próximo a **Audioconferência**, clique em **Editar**.
 
-4. No painel **conferência de áudio** , habilite ou desabilite **chamadores de discagem podem ser a primeira pessoa em uma reunião**.
+4. No painel **audioconferência,** habilitar ou desabilitar chamadores de discagem podem ser **a primeira pessoa em uma reunião.**
     
 4. Clique em **Aplicar**. 
 
@@ -62,13 +62,13 @@ Consulte a [referência do Microsoft Teams PowerShell](https://docs.microsoft.co
 
 - Se desejar redefinir o PIN, veja [Redefinir o PIN de audioconferência](reset-the-audio-conferencing-pin-in-teams.md).
     
-- Se o acesso anônimo ou não exigir um PIN para iniciar uma reunião estiver desabilitado:
+- Se o acesso anônimo, ou não exigir um PIN para iniciar uma reunião, será desabilitado:
     
   - Se a reunião não tiver sido iniciada (ainda não tem ninguém na reunião): será perguntado ao chamador se ele é o organizador; se responder que sim, ele será solicitado a inserir o PIN. Depois que o PIN for inserido, a reunião será iniciada e o usuário entrará na reunião.
     
   - Se a reunião já iniciou (alguém já está na reunião): Não será perguntado a um chamador se ele é o organizador e nunca lhe será solicitado o PIN; a reunião já estará iniciada, e o chamador ingressará.
     
-- Se o acesso anônimo ou não exigir um PIN para iniciar uma reunião estiver habilitado:
+- Se o acesso anônimo, ou não exigir um PIN para iniciar uma reunião, estiver habilitado:
     
   - Se a reunião ainda não iniciou (não há ninguém na reunião ainda): Não será perguntado a uma chamadora se ela é a organizadora e nunca lhe será solicitado o PIN. Como a configuração do organizador está definida como desativada, a reunião será iniciada e os chamadores anônimos poderão entrar na reunião.
     
@@ -76,7 +76,7 @@ Consulte a [referência do Microsoft Teams PowerShell](https://docs.microsoft.co
     
 ## <a name="want-to-know-more-about-windows-powershell"></a>Deseja saber mais sobre o Windows PowerShell?
 
-O Windows PowerShell é tudo sobre o gerenciamento de usuários e o que os usuários podem fazer ou não podem fazer. Com o Windows PowerShell, você pode gerenciar o Microsoft 365 ou o Office 365 usando um único ponto de administração que pode simplificar seu trabalho diário quando você tiver várias tarefas para fazer. Para começar a usar o Windows PowerShell, consulte estes tópicos:
+O Windows PowerShell gerencia os usuários e o que os usuários podem ou não fazer. Com o Windows PowerShell, você pode gerenciar o Microsoft 365 ou o Office 365 usando um ponto único de administração que pode simplificar seu trabalho diário quando você tiver várias tarefas a fazer. Para começar a trabalhar com o Windows PowerShell, consulte estes tópicos:
     
   - [Por que você precisa usar o PowerShell do Office 365](https://go.microsoft.com/fwlink/?LinkId=525041)
     
@@ -86,4 +86,4 @@ Para obter mais informações sobre o Windows PowerShell, consulte a [referênci
   
 ## <a name="related-topics"></a>Tópicos relacionados
 
-[Experimentar ou comprar videoconferências no Microsoft 365 ou no Office 365](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
+[Experimentar ou comprar Audioconferência no Microsoft 365 ou no Office 365](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)

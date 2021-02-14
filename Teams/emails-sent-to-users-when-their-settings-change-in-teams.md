@@ -32,11 +32,11 @@ ms.locfileid: "46788685"
 
 Serão enviados e-mails automaticamente para usuários que estão [habilitados para audioconferência](set-up-audio-conferencing-in-teams.md) e usam a Microsoft como provedor de audioconferência.
 
-Por padrão, existem quatro tipos de e-mail que são enviados aos usuários habilitados para audioconferência. No entanto, se você deseja limitar o número de e-mails enviados aos usuários, é possível desativá-los. Conferências de áudio no Microsoft 365 ou no Office 365 enviarão emails ao email dos usuários quando:
+Por padrão, existem quatro tipos de e-mail que são enviados aos usuários habilitados para audioconferência. No entanto, se você deseja limitar o número de e-mails enviados aos usuários, é possível desativá-los. A audioconferência no Microsoft 365 ou no Office 365 enviará emails para os emails dos usuários quando:
 
 - **Uma licença de Audioconferência PSTN for atribuída a eles ou quando você alterar o provedor de audioconferência para a Microsoft.**
 
-     Esse e-mail inclui o ID de conferência, o número de telefone de conferência padrão para as reuniões, o PIN de audioconferência do usuário, além das instruções e do link para usar a Ferramenta de atualização de reunião do Skype for Business Online usada para atualizar reuniões existentes do usuário. Consulte [atribuir licenças de Complementos do Microsoft Teams](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing) ou [atribuir a Microsoft como o provedor de serviços de audioconferência](/SkypeForBusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider).
+     Esse e-mail inclui o ID de conferência, o número de telefone de conferência padrão para as reuniões, o PIN de audioconferência do usuário, além das instruções e do link para usar a Ferramenta de atualização de reunião do Skype for Business Online usada para atualizar reuniões existentes do usuário. Consulte [Atribuir licenças de](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing) complemento do Microsoft Teams ou [Atribuir a Microsoft como provedor de serviços de audioconferência.](/SkypeForBusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider)
 
     > [!NOTE]
     > Se a sua organização estiver habilitada para IDs de conferência dinâmicos, todas as reuniões agendadas de um usuário terão IDs de conferência exclusivos. Você pode configurar [IDs dinâmicos de audioconferência na sua organização](/skypeforbusiness/audio-conferencing-in-office-365/reset-a-conference-id-for-a-user). 
@@ -45,7 +45,7 @@ Por padrão, existem quatro tipos de e-mail que são enviados aos usuários habi
 
      ![Verificar licença do Skype for Business](media/teams-emails-sent-to-users-when-settings-change-image1.png)
 
-    Para saber mais sobre licenciamento, consulte [Licenciamento de Complementos do Microsoft Teams](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing).
+    Para saber mais sobre licenciamento, consulte o licenciamento [de complementos do Microsoft Teams.](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)
 
 - **O ID de conferência ou número de telefone de conferência padrão de um usuário é alterado.**
 
@@ -65,9 +65,9 @@ Por padrão, existem quatro tipos de e-mail que são enviados aos usuários habi
   
 - **A licença do usuário for removida ou quando o provedor de audioconferência é alterado da Microsoft para outro provedor ou Nenhum.**
 
-    Isso acontece quando a licença de **conferência de áudio** é removida de um usuário ou ao configurar o provedor de serviços de audioconferência para **nenhum**.
+    Isso acontece quando a **licença de Audioconferência** é removida de um usuário ou ao definir o provedor de audioconferência como **Nenhum.**
 
-    Consulte [atribuir ou remover licenças para o Microsoft 365 para empresas](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc).
+    Consulte [Atribuir ou remover licenças do Microsoft 365 para empresas.](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc)
 
     Aqui está um exemplo desse email:
 
@@ -78,21 +78,21 @@ Por padrão, existem quatro tipos de e-mail que são enviados aos usuários habi
 
 ## <a name="make-changes-to-the-email-messages-that-are-sent-to-them"></a>Alterar as mensagens de email enviadas a eles
 
-Você pode fazer alterações ao email que será enviado automaticamente aos usuários. Por padrão, o remetente dos emails será do Microsoft 365 ou do Office 365, mas você pode alterar o nome de exibição usando o Windows PowerShell. Consulte a [referência do Microsoft Teams PowerShell](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) para obter mais informações.
+Você pode fazer alterações no email que é enviado automaticamente aos usuários. Por padrão, o remetente dos emails será do Microsoft 365 ou do Office 365, mas você pode alterar o nome de exibição usando o Windows PowerShell. Consulte a [referência do Microsoft Teams PowerShell](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) para obter mais informações.
 
 ## <a name="what-if-you-dont-want-email-to-be-sent-to-them"></a>E se você não quiser que eles recebam emails?
 
-Ao desativar o envio de emails para os usuários, o email não será enviado mesmo quando o usuário receber uma licença. Nesse caso, a ID de conferência, o número de telefone de conferência padrão e, o mais importante, o PIN de audioconferência não será enviado ao usuário. Quando isso acontecer, você deve informar ao usuário, enviando um email separado ou ligando para eles.
+Ao desativar o envio de emails para os usuários, o email não será enviado mesmo quando o usuário receber uma licença. Nesse caso, a ID de conferência, o número de telefone de conferência padrão e, o mais importante, o PIN de audioconferência não serão enviados ao usuário. Quando isso acontecer, você deve informar ao usuário, enviando um email separado ou ligando para eles.
 
-Por padrão, os emails serão enviados aos seus usuários, mas se você quiser impedir que eles recebam emails para videoconferências, você pode usar o Microsoft Teams ou o Windows PowerShell. 
+Por padrão, os emails serão enviados aos usuários, mas se você quiser impedir que eles recebam emails para audioconferência, você pode usar o Microsoft Teams ou o Windows PowerShell. 
 
 ![Um ícone mostrando o logotipo do Microsoft Teams](media/teams-logo-30x30.png) **Usando o centro de administração do Microsoft Teams**
 
 1. Na navegação à esquerda, vá para **Reuniões** > **Pontes de conferência**. 
 
-2. Na parte superior da página **pontes de conferência** , clique em **configurações de ponte**. 
+2. Na parte superior da página **Pontes de Conferência,** clique em **Configurações da Ponte.** 
 
-3. No painel **configurações de ponte** , habilite ou desabilite **enviar emails automaticamente aos usuários se as configurações de discagem forem alteradas**.
+3. No painel **de configurações da** Ponte, habilita ou desabilite o envio automático de emails para os usuários se as configurações de discagem **mudarem.**
 
 4. Clique em **Salvar**.
 
@@ -108,7 +108,7 @@ Consulte a [referência do Microsoft Teams PowerShell](https://docs.microsoft.co
 
 Por padrão, o remetente dos emails será do Microsoft 365 ou do Office 365, mas você pode alterar o endereço de email e o nome de exibição usando o Windows PowerShell. 
 
-O Windows PowerShell gerencia os usuários e o que eles podem ou não fazer. Com o Windows PowerShell, você pode gerenciar o Microsoft 365 ou o Office 365 usando um único ponto de administração que pode simplificar seu trabalho diário quando você tiver várias tarefas para fazer. Para começar a trabalhar com o Windows PowerShell, confira estes tópicos:
+O Windows PowerShell gerencia os usuários e o que eles podem ou não fazer. Com o Windows PowerShell, você pode gerenciar o Microsoft 365 ou o Office 365 usando um ponto único de administração que pode simplificar seu trabalho diário quando você tiver várias tarefas a fazer. Para começar a trabalhar com o Windows PowerShell, confira estes tópicos:
 
   - [Por que você precisa usar o PowerShell do Office 365](https://go.microsoft.com/fwlink/?LinkId=525041)
 
