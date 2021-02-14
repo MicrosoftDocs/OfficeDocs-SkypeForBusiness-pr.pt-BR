@@ -16,13 +16,13 @@ metadata:
   ms.locfileid: "48878475"
 highlightedContent:
   items:
-  - title: Verificação de conhecimento do teams
+  - title: Verificação de conhecimento do Teams
     itemType: learn
     url: https://aka.ms/TeamsKnowledgeCheck
-  - title: Treinamento de usuário final sob demanda
+  - title: Treinamento do usuário final sob demanda
     itemType: video
     url: https://aka.ms/TeamsOnDemand
-  - title: Ferramentas de adoção do Microsoft 365
+  - title: Ferramentas de Adoção do Microsoft 365
     itemType: deploy
     url: https://adoption.microsoft.com
 productDirectory:
@@ -57,9 +57,9 @@ productDirectory:
     url: https://aka.ms/TeamsEduWebinars
   - title: Domine o trabalho em casa com o Teams
     imageSrc: https://docs.microsoft.com/office/media/icons/headset-teams.svg
-    summary: " NOVO! Conheça as práticas recomendadas para permanecer conectado à sua equipe e manter a produtividade. (Audiência: usuários finais, gerentes de equipe e departamento)"
+    summary: " NOVO! Conheça as práticas recomendadas para permanecer conectado à sua equipe e manter a produtividade. (Audiência: Usuários finais, gerentes de equipe e departamento)"
     url: https://aka.ms/WorkathomewithTeams
   - title: Workshop de planejamento de atualização
     imageSrc: https://docs.microsoft.com/office/media/icons/migration-teams.svg
-    summary: 'Planeje e implemente uma atualização bem-sucedida para o Teams. (Audiência: profissionais de ti, gerentes de mudança de adoção)'
+    summary: 'Planeje e implemente uma atualização bem-sucedida para o Teams. (Audiência: profissionais de TI, gerentes de mudança de adoção)'
     url: /MicrosoftTeams/upgrade-workshops-landing-page
