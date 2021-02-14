@@ -22,8 +22,8 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49801691"
 ---
-# <a name="deployment-wizard-unified-communications-api"></a><span data-ttu-id="91a15-103">Assistente de Implantação: API de Comunicações Unificadas</span><span class="sxs-lookup"><span data-stu-id="91a15-103">Deployment Wizard: Unified Communications API</span></span>
+# <a name="deployment-wizard-unified-communications-api"></a><span data-ttu-id="d18c7-103">Assistente de Implantação: API de Comunicações Unificadas</span><span class="sxs-lookup"><span data-stu-id="d18c7-103">Deployment Wizard: Unified Communications API</span></span>
  
-<span data-ttu-id="91a15-104">Para obter detalhes sobre como usar o Assistente de Implantação para instalar o Skype for Business Server, consulte [Instalar o Skype for Business Server.](../../../deploy/install/install.md)</span><span class="sxs-lookup"><span data-stu-id="91a15-104">For details about using Deployment Wizard to install Skype for Business Server, see [Install Skype for Business Server](../../../deploy/install/install.md).</span></span>
+<span data-ttu-id="d18c7-104">Para obter detalhes sobre como usar o Assistente de Implantação para instalar o Skype for Business Server, consulte [Instalar o Skype for Business Server.](../../../deploy/install/install.md)</span><span class="sxs-lookup"><span data-stu-id="d18c7-104">For details about using Deployment Wizard to install Skype for Business Server, see [Install Skype for Business Server](../../../deploy/install/install.md).</span></span>
   
 

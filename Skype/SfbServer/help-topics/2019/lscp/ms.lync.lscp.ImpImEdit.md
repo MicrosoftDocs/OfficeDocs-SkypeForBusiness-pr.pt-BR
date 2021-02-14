@@ -22,13 +22,13 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49801361"
 ---
-# <a name="url-filter-create-new-or-edit-existing"></a><span data-ttu-id="f8fd9-104">Filtro URL: Criar Novo ou Editar Existente</span><span class="sxs-lookup"><span data-stu-id="f8fd9-104">URL Filter: Create New or Edit Existing</span></span>
+# <a name="url-filter-create-new-or-edit-existing"></a><span data-ttu-id="08c87-104">Filtro URL: Criar Novo ou Editar Existente</span><span class="sxs-lookup"><span data-stu-id="08c87-104">URL Filter: Create New or Edit Existing</span></span>
 
-<span data-ttu-id="f8fd9-105">O que você deseja fazer?</span><span class="sxs-lookup"><span data-stu-id="f8fd9-105">What do you want to do?</span></span> <span data-ttu-id="f8fd9-106">Clique no link para a tarefa que você deseja executar.</span><span class="sxs-lookup"><span data-stu-id="f8fd9-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="08c87-105">O que você deseja fazer?</span><span class="sxs-lookup"><span data-stu-id="08c87-105">What do you want to do?</span></span> <span data-ttu-id="08c87-106">Clique no link para a tarefa que você deseja executar.</span><span class="sxs-lookup"><span data-stu-id="08c87-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="f8fd9-107">Modificar o filtro de URL padrão</span><span class="sxs-lookup"><span data-stu-id="f8fd9-107">Modify the Default URL Filter</span></span>](https://technet.microsoft.com/library/80a472b3-054e-45a6-80fc-9ee2bda28ee6.aspx)
+- [<span data-ttu-id="08c87-107">Modificar o filtro de URL padrão</span><span class="sxs-lookup"><span data-stu-id="08c87-107">Modify the Default URL Filter</span></span>](https://technet.microsoft.com/library/80a472b3-054e-45a6-80fc-9ee2bda28ee6.aspx)
 
-- [<span data-ttu-id="f8fd9-108">Criar um novo filtro de URL para tratar hiperlinks em conversas de IM</span><span class="sxs-lookup"><span data-stu-id="f8fd9-108">Create a New URL Filter to Handle Hyperlinks in IM Conversations</span></span>](https://technet.microsoft.com/library/d0ee01e5-f039-4a34-ac9d-659fe4e9e879.aspx)
+- [<span data-ttu-id="08c87-108">Criar um novo filtro de URL para tratar hiperlinks em conversas de IM</span><span class="sxs-lookup"><span data-stu-id="08c87-108">Create a New URL Filter to Handle Hyperlinks in IM Conversations</span></span>](https://technet.microsoft.com/library/d0ee01e5-f039-4a34-ac9d-659fe4e9e879.aspx)
 
 
 

@@ -22,12 +22,12 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49801271"
 ---
-# <a name="select-routes"></a><span data-ttu-id="1a49c-103">Selecionar Rotas</span><span class="sxs-lookup"><span data-stu-id="1a49c-103">Select Routes</span></span>
+# <a name="select-routes"></a><span data-ttu-id="b02bd-103">Selecionar Rotas</span><span class="sxs-lookup"><span data-stu-id="b02bd-103">Select Routes</span></span>
  
-<span data-ttu-id="1a49c-104">Use a caixa de diálogo **Selecionar Rotas** para localizar rotas de voz existentes que você possa usar.</span><span class="sxs-lookup"><span data-stu-id="1a49c-104">Use the **Select Routes** dialog box to find existing voice routes that you can use.</span></span>
+<span data-ttu-id="b02bd-104">Use a caixa de diálogo **Selecionar Rotas** para localizar rotas de voz existentes que você possa usar.</span><span class="sxs-lookup"><span data-stu-id="b02bd-104">Use the **Select Routes** dialog box to find existing voice routes that you can use.</span></span>
   
 > [!NOTE]
-> <span data-ttu-id="1a49c-105">Clique no ícone de busca na caixa de busca sem digitar nada para obter todas as rotas de voz disponíveis.</span><span class="sxs-lookup"><span data-stu-id="1a49c-105">To retrieve all available voice routes, do not type anything in the search box and then click the search icon.</span></span> 
+> <span data-ttu-id="b02bd-105">Clique no ícone de busca na caixa de busca sem digitar nada para obter todas as rotas de voz disponíveis.</span><span class="sxs-lookup"><span data-stu-id="b02bd-105">To retrieve all available voice routes, do not type anything in the search box and then click the search icon.</span></span> 
   
  
   

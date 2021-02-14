@@ -22,8 +22,8 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49801701"
 ---
-# <a name="prepare-current-domain-intro"></a><span data-ttu-id="25d9a-104">Preparar Domínio Atual (Intro)</span><span class="sxs-lookup"><span data-stu-id="25d9a-104">Prepare Current Domain (Intro)</span></span>
+# <a name="prepare-current-domain-intro"></a><span data-ttu-id="fc51b-104">Preparar Domínio Atual (Intro)</span><span class="sxs-lookup"><span data-stu-id="fc51b-104">Prepare Current Domain (Intro)</span></span>
  
-<span data-ttu-id="25d9a-105">A **página Preparar** Domínio inicia o processo de preparação do domínio para o Skype for Business Server.</span><span class="sxs-lookup"><span data-stu-id="25d9a-105">The **Prepare Domain** page begins the process of preparing the domain for Skype for Business Server.</span></span> <span data-ttu-id="25d9a-106">Clique em **Avançar** para começar a preparar o domínio.</span><span class="sxs-lookup"><span data-stu-id="25d9a-106">Click **Next** to begin preparing the domain.</span></span>
+<span data-ttu-id="fc51b-105">A **página Preparar** Domínio inicia o processo de preparação do domínio para o Skype for Business Server.</span><span class="sxs-lookup"><span data-stu-id="fc51b-105">The **Prepare Domain** page begins the process of preparing the domain for Skype for Business Server.</span></span> <span data-ttu-id="fc51b-106">Clique em **Avançar** para começar a preparar o domínio.</span><span class="sxs-lookup"><span data-stu-id="fc51b-106">Click **Next** to begin preparing the domain.</span></span>
   
 

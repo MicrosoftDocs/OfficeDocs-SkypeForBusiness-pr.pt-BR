@@ -22,10 +22,10 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49800991"
 ---
-# <a name="add-edge-server-with-single-fqdn-page"></a><span data-ttu-id="d3c43-103">Adicionar Servidor de Borda com Página FQDN Única</span><span class="sxs-lookup"><span data-stu-id="d3c43-103">Add Edge Server With Single FQDN Page</span></span>
+# <a name="add-edge-server-with-single-fqdn-page"></a><span data-ttu-id="ed089-103">Adicionar Servidor de Borda com Página FQDN Única</span><span class="sxs-lookup"><span data-stu-id="ed089-103">Add Edge Server With Single FQDN Page</span></span>
  
-<span data-ttu-id="d3c43-104">Informações sobre a Página FQDN Única do Servidor de Borda.</span><span class="sxs-lookup"><span data-stu-id="d3c43-104">Information on Edge Server Single FQDN Page.</span></span>
+<span data-ttu-id="ed089-104">Informações sobre a Página FQDN Única do Servidor de Borda.</span><span class="sxs-lookup"><span data-stu-id="ed089-104">Information on Edge Server Single FQDN Page.</span></span>
   
-<span data-ttu-id="d3c43-105">Para obter informações sobre a Implantação de Borda, [consulte Implantar o Servidor de Borda no Skype for Business Server](../../../deploy/deploy-edge-server/deploy-edge-server.md)</span><span class="sxs-lookup"><span data-stu-id="d3c43-105">For information on the Edge Deployment, see [Deploy Edge Server in Skype for Business Server](../../../deploy/deploy-edge-server/deploy-edge-server.md)</span></span>
+<span data-ttu-id="ed089-105">Para obter informações sobre a Implantação de Borda, [consulte Implantar o Servidor de Borda no Skype for Business Server](../../../deploy/deploy-edge-server/deploy-edge-server.md)</span><span class="sxs-lookup"><span data-stu-id="ed089-105">For information on the Edge Deployment, see [Deploy Edge Server in Skype for Business Server](../../../deploy/deploy-edge-server/deploy-edge-server.md)</span></span>
   
 

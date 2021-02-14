@@ -22,12 +22,12 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49804861"
 ---
-# <a name="define-the-pstn-gateway-fqdn"></a><span data-ttu-id="a86d7-103">Definir o Gateway PSTN do FQDN</span><span class="sxs-lookup"><span data-stu-id="a86d7-103">Define the PSTN Gateway FQDN</span></span>
+# <a name="define-the-pstn-gateway-fqdn"></a><span data-ttu-id="c52e1-103">Definir o Gateway PSTN do FQDN</span><span class="sxs-lookup"><span data-stu-id="c52e1-103">Define the PSTN Gateway FQDN</span></span>
 
-<span data-ttu-id="a86d7-104">Especifique o FQDN (nome de domínio totalmente qualificado) do gateway PSTN (rede telefônica pública comutado) que conectará seus componentes do Enterprise Voice a uma PSTN ou PBX (central privada de comução).</span><span class="sxs-lookup"><span data-stu-id="a86d7-104">You specify the fully qualified domain name (FQDN) of the public switched telephone network (PSTN) gateway that will connect your Enterprise Voice components to a PSTN or private branch exchange (PBX).</span></span>
+<span data-ttu-id="c52e1-104">Especifique o FQDN (nome de domínio totalmente qualificado) do gateway PSTN (rede telefônica pública comutado) que conectará seus componentes do Enterprise Voice a uma PSTN ou PBX (central privada de comução).</span><span class="sxs-lookup"><span data-stu-id="c52e1-104">You specify the fully qualified domain name (FQDN) of the public switched telephone network (PSTN) gateway that will connect your Enterprise Voice components to a PSTN or private branch exchange (PBX).</span></span>
 
-<span data-ttu-id="a86d7-105">Para obter detalhes, consulte [PSTN connectivity components in Skype for Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/pstn-connectivity.md)</span><span class="sxs-lookup"><span data-stu-id="a86d7-105">For details, see [PSTN connectivity components in Skype for Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/pstn-connectivity.md)</span></span>
+<span data-ttu-id="c52e1-105">Para obter detalhes, consulte [PSTN connectivity components in Skype for Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/pstn-connectivity.md)</span><span class="sxs-lookup"><span data-stu-id="c52e1-105">For details, see [PSTN connectivity components in Skype for Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/pstn-connectivity.md)</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="a86d7-106">Confira também</span><span class="sxs-lookup"><span data-stu-id="a86d7-106">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="c52e1-106">Confira também</span><span class="sxs-lookup"><span data-stu-id="c52e1-106">See also</span></span>
 
-[<span data-ttu-id="a86d7-107">Opções de implantação do gateways PSTN</span><span class="sxs-lookup"><span data-stu-id="a86d7-107">PSTN Gateway Deployment Options</span></span>](https://technet.microsoft.com/library/d1ab4f74-18aa-40c7-a8cf-ec806cf6e28a.aspx)
+[<span data-ttu-id="c52e1-107">Opções de implantação do gateways PSTN</span><span class="sxs-lookup"><span data-stu-id="c52e1-107">PSTN Gateway Deployment Options</span></span>](https://technet.microsoft.com/library/d1ab4f74-18aa-40c7-a8cf-ec806cf6e28a.aspx)

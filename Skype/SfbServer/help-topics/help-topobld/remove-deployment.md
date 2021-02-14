@@ -22,11 +22,11 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49803131"
 ---
-# <a name="remove-deployment"></a><span data-ttu-id="bc5be-103">Remover Implantação</span><span class="sxs-lookup"><span data-stu-id="bc5be-103">Remove Deployment</span></span>
+# <a name="remove-deployment"></a><span data-ttu-id="0bac2-103">Remover Implantação</span><span class="sxs-lookup"><span data-stu-id="0bac2-103">Remove Deployment</span></span>
  
-<span data-ttu-id="bc5be-104">Clique **em Concluir** para criar uma topologia vazia como a primeira etapa no descomissionamento de toda a sua implantação.</span><span class="sxs-lookup"><span data-stu-id="bc5be-104">Click **Finish** to create an empty topology as the first step in decommissioning your entire deployment.</span></span>
+<span data-ttu-id="0bac2-104">Clique **em Concluir** para criar uma topologia vazia como a primeira etapa no descomissionamento de toda a sua implantação.</span><span class="sxs-lookup"><span data-stu-id="0bac2-104">Click **Finish** to create an empty topology as the first step in decommissioning your entire deployment.</span></span>
   
 > [!CAUTION]
-> <span data-ttu-id="bc5be-105">Não é possível desfazer essa etapa.</span><span class="sxs-lookup"><span data-stu-id="bc5be-105">You cannot undo this step.</span></span> 
+> <span data-ttu-id="0bac2-105">Não é possível desfazer essa etapa.</span><span class="sxs-lookup"><span data-stu-id="0bac2-105">You cannot undo this step.</span></span> 
   
 
