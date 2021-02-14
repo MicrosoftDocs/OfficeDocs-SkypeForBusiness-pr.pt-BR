@@ -68,7 +68,7 @@ As seguintes ferramentas não estarão disponíveis para uso na versão inicial 
 
 As seguintes ferramentas não são suportadas com o Skype for Business Server 2019:
 
-- Metodologia de Qualidade de Chamada (mas não Painel de Qualidade de Chamada)
+- Metodologia de qualidade de chamada (mas não painel de qualidade de chamada)
 - Scorecard da Metodologia de Qualidade de Chamada da Microsoft, v1.5
 - Ferramenta de Planejamento do Skype for Business Server 2015
 - Ferramenta de Stress and Performance do Skype for Business Server 2015

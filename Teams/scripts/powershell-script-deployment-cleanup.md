@@ -7,7 +7,7 @@ ms.topic: article
 ms.reviewer: amitsri
 ms.service: msteams
 audience: admin
-description: Use esse script do PowerShell para desinstalar o Teams e remover a pasta do Teams para os usuários.
+description: Use este script do PowerShell para desinstalar o Teams e remover a pasta do Teams para os usuários.
 f1.keywords:
 - NOCSH
 localization_priority: Normal
@@ -24,9 +24,9 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49809481"
 ---
-# <a name="powershell-script-sample---teams-deployment-clean-up"></a>Exemplo de script do PowerShell - Limpeza da implantação do Teams
+# <a name="powershell-script-sample---teams-deployment-clean-up"></a>Exemplo de script do PowerShell – Limpeza da implantação do Teams
 
-Use este script para remover o Teams. Esse script desinstala o Teams e remove a pasta do Teams para um usuário. Execute esse script para cada perfil de usuário no qual o Teams foi instalado em um computador.
+Use este script para remover o Teams. Este script desinstala o Teams e remove a pasta do Teams de um usuário. Execute esse script para cada perfil de usuário no qual o Teams foi instalado em um computador.
 
 
 ## <a name="sample-script"></a>Script de exemplo

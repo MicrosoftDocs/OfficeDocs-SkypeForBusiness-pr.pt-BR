@@ -27,18 +27,18 @@ ms.locfileid: "49808711"
 
 **Resumo:** Os administradores do Skype for Business Server 2019 ou do Skype for Business Online podem usar essas tabelas para entender quais recursos são suportados em quais clientes.
 
- Antes de implantar ou atualizar para o Skype for Business Server, verifique quais clientes já estão em uso em sua organização. Use as tabelas abaixo para entender o impacto do suporte ao recurso nesses clientes. Isso pode ajudá-lo a comunicar alterações aos usuários, acompanhar o processo de lançamento e compreender totalmente os benefícios da atualização para o cliente mais recente.
+ Antes de implantar ou atualizar para o Skype for Business Server, verifique quais clientes já estão em uso em sua organização. Use as tabelas abaixo para entender o impacto do suporte ao recurso nesses clientes. Isso pode ajudá-lo a comunicar alterações aos usuários, acompanhar o processo de lançamento e entender totalmente os benefícios da atualização para o cliente mais recente.
 
 Alguns recursos disponíveis com o Skype for Business Server 2019 não estão disponíveis no Skype for Business Online; consulte Limitações de conta de usuário online ou [híbrida](feature-comparison.md#Online-Hybrid) para informações específicas. Os administradores do Skype for Business Online podem consultar a Descrição do Serviço do [Skype for Business Online](https://technet.microsoft.com/library/skype-for-business-online-service-description.aspx) para obter informações sobre os diferentes planos disponíveis para eles.
 
-As tabelas a seguir mostram os recursos que estão disponíveis com cada cliente que trabalha com o Skype for Business Server 2019 ou o Skype for Business Online. Você também pode querer consultar a comparação de recursos do cliente móvel para comparações de recursos do [cliente Skype for Business](../../SfbServer/plan-your-deployment/clients-and-devices/mobile-feature-comparison.md) para smartphones e tablets. A Licença de Acesso para Cliente ou a Licença de Assinatura de Usuário que sua organização compra também terá um impacto sobre quais recursos estão disponíveis para seus usuários. A implantação do cliente Completo ou Básico para os usuários depende da licença ou do plano que sua organização opta por comprar. Consulte o [Guia de Licenciamento](https://products.office.com/skype-for-business/it-pros) para obter mais detalhes.
+As tabelas a seguir mostram os recursos que estão disponíveis com cada cliente que trabalha com o Skype for Business Server 2019 ou o Skype for Business Online. Você também pode querer consultar a comparação de recursos do cliente móvel para [comparações](../../SfbServer/plan-your-deployment/clients-and-devices/mobile-feature-comparison.md) de recursos do cliente Skype for Business para smartphones e tablets. A Licença de Acesso para Cliente ou a Licença de Assinatura de Usuário que sua organização compra também terá um impacto sobre quais recursos estão disponíveis para seus usuários. A implantação do cliente Completo ou Básico para os usuários depende da licença ou do plano que sua organização opta por comprar. Consulte o [Guia de Licenciamento](https://products.office.com/skype-for-business/it-pros) para obter mais detalhes.
 
 > [!IMPORTANT]
-> O Skype for Business Server 2019 e o Skype for Business Online suportam os seguintes clientes lançados anteriormente: Lync 2013, Skype for Business 2015 e Skype for Business 2016, bem como o cliente Skype for Business 2019. For information about these clients when used with other servers, see the [Client comparison tables for Lync Server 2013](https://technet.microsoft.com/library/gg425836%28v=ocs.15%29.aspx) and Desktop client feature comparison for Skype for Business [2015](../../SfbServer/plan-your-deployment/clients-and-devices/desktop-feature-comparison.md). 
+> O Skype for Business Server 2019 e o Skype for Business Online suportam os seguintes clientes lançados anteriormente: Lync 2013, Skype for Business 2015 e Skype for Business 2016, bem como o cliente Skype for Business 2019. Para obter informações sobre esses clientes quando usados com outros servidores, consulte as tabelas de comparação de clientes do [Lync Server 2013](https://technet.microsoft.com/library/gg425836%28v=ocs.15%29.aspx) e da comparação de recursos do cliente de área de trabalho para [o Skype for Business 2015.](../../SfbServer/plan-your-deployment/clients-and-devices/desktop-feature-comparison.md) 
 
 
 > [!NOTE]
-> O cliente do navegador Skype for Business Web App e o aplicativo Skype Meetings App Windows 10 oferecem suporte [apenas a reuniões.](feature-comparison.md#BKMK_Conferencing) Consulte o [Plan for Meetings clients (Web App and Meetings App)](../../SfbServer/plan-your-deployment/clients-and-devices/meetings-clients.md) para obter mais informações sobre esses clientes.
+> O cliente do navegador Skype for Business Web App e o aplicativo Reuniões do Skype Windows 10 oferecem suporte [apenas a reuniões.](feature-comparison.md#BKMK_Conferencing) Consulte o [Plan for Meetings clients (Web App and Meetings App)](../../SfbServer/plan-your-deployment/clients-and-devices/meetings-clients.md) para obter mais informações sobre esses clientes.
 
 ## <a name="enhanced-presence-support"></a>Suporte a presença aprimorada
 <a name="BKMK_EnhancedPresence"> </a>
@@ -88,8 +88,8 @@ Esta tabela abrange os recursos relacionados ao suporte a IM.
 
 |Recurso/funcionalidade | Cliente Skype for Business 2015, 2016 ou 2019 | Skype for Business no Mac | Cliente Lync 2013 | 
 |:-----|:-----|:-----|:-----|  
-|Iniciar IM com ou enviar email para um contato  |&#x2714;|&#x2714;|&#x2714;|  
-|Navegar entre várias conversas de IM/Acompanhar várias conversas em uma única janela com guias   |&#x2714;|&#x2714;|&#x2714;| 
+|Iniciar mensagens IM com ou enviar emails para um contato  |&#x2714;|&#x2714;|&#x2714;|  
+|Navegar entre várias conversas de IM/Controlar várias conversas em uma única janela com guias   |&#x2714;|&#x2714;|&#x2714;| 
 |Registre as conversas de IM no Outlook  |&#x2714;|&#x2714; se o histórico de conversas do lado do servidor estiver ligado   |&#x2714;|   
 |Verificar ortografia |&#x2714;|&#x2714;||   
 |Pesquisa de habilidades (com integração com o SharePoint Server)  <br/> (O Skype for Business Server local e o SharePoint 2013 local são necessários para pesquisa de habilidades.)  |&#x2714;||&#x2714;|
@@ -173,14 +173,14 @@ Esta tabela abrange recursos relacionados ao suporte a serviços de voz.
 |Suporte a serviços de emergência (E-911) |&#x2714;|&#x2714; |&#x2714; &#x2776; |
 |Notificação de IM para URI(s) sip para chamada E-911 |&#x2714;|&#x2714;|&#x2714;|
 |Notificação de IM para lista de distribuição para chamada E-911|&#x2714;|&#x2714;|&#x2714;|
-|Conectar-se à caixa postal, configurar ou alterar saudação |&#x2714;|&#x2714;|&#x2714; &#x2776; | 
+|Conectar-se à caixa postal, configurar ou alterar a saudação |&#x2714;|&#x2714;|&#x2714; &#x2776; | 
 |Notificação de chamada perdida |&#x2714;|&#x2714;|&#x2714; &#x2776; | 
 |Realização de chamadas em nome de outro contato (cenário gerente/delegado) |&#x2714;|&#x2714;|&#x2714; &#x2776; |
 |Administração de chamadas de terceiros quando configurado como delegado |&#x2714;|&#x2714;|&#x2714; &#x2776; | 
 |Estacionamento de chamada |&#x2714;||&#x2714; &#x2776; |
 |Atendimento de chamadas de grupo |&#x2714;||&#x2714; &#x2776; |
 |Roteamento com base no local |&#x2714;|&#x2714;|&#x2714;| 
-|Gerenciar Grupo de Resposta/Grupo de Chamada de Equipe |&#x2714;||&#x2714;|
+|Gerenciar grupo de resposta/grupo de chamada de equipe |&#x2714;||&#x2714;|
 
  &#x2776; Esse recurso não está disponível no Skype for Business Online.
 
@@ -276,7 +276,7 @@ As contas de usuário podem existir online ou no local e isso afetará os recurs
 
 - Contatos: Pesquisar Grupos de Resposta
 
-- Suporte a mensagens im: integração com Chat Persistente (Chat em Grupo)
+- Suporte a mensagens im: integração de Chat Persistente (Chat em Grupo)
 
 - Suporte a mensagens im: Escalonar uma sala de Chat Persistente para uma Reunião do Skype for Business com um clique
 

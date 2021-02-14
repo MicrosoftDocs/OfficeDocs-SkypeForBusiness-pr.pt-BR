@@ -294,7 +294,7 @@ Para cada rota, você deve especificar:
     
 - Os registros de uso do PSTN que os usuários devem ter para fazer chamadas para números que correspondam à expressão regular do número de telefone de destino.
     
-Você pode especificar rotas de chamada no Painel de Controle do Skype for Business Server. Essas rotas de chamada preenchem a tabela de roteamento do servidor, que o Skype for Business Server usa para rotear chamadas destinadas à PSTN.
+Você pode especificar rotas de chamadas no Painel de Controle do Skype for Business Server. Essas rotas de chamada preenchem a tabela de roteamento do servidor, que o Skype for Business Server usa para rotear chamadas destinadas à PSTN.
   
 ### <a name="mn-trunk-support"></a>Suporte de Tronco M:N
 

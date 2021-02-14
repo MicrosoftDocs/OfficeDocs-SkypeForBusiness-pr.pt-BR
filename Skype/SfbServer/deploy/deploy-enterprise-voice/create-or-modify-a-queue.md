@@ -89,7 +89,7 @@ Use um dos seguintes procedimentos para criar ou modificar uma fila.
     
    - Para desconectar a chamada após o tempo limite, clique em **Desconectar**.
     
-   - Para encaminhar a chamada para a caixa postal, clique em Encaminhar para caixa postal e, no campo endereço **SIP,** digite um endereço de caixa postal no formato sip: *\<username\>* @  *\<domainname\>* (por exemplo, sip:bob@contoso.com).
+   - Para encaminhar a chamada para a caixa postal, clique em Encaminhar para caixa postal e, no campo de endereço **SIP,** digite um endereço de caixa postal no formato sip: *\<username\>* @  *\<domainname\>* (por exemplo, sip:bob@contoso.com).
     
    - Para encaminhar a chamada para outro número de telefone, clique em Encaminhar para número de telefone e, no campo de endereço **SIP,** digite o número de telefone no formato sip: *\<number\>* @  *\<domainname\>* (por exemplo, sip:+14255550121@contoso.com).
     

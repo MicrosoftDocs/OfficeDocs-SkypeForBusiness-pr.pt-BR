@@ -24,7 +24,7 @@ ms.locfileid: "49809901"
  
 Saiba mais sobre o que os usuários experimentam quando um pool de Front-End falha ou falha durante a recuperação de desastre no Skype for Business Server.
   
-Se um pool for failed over, todos os usuários no pool afetado serão forçados a sair e entrar no pool de backup. Por um breve período, os usuários que entrarem no pool de backup poderão estar no modo de resiliência. No modo resiliência, os usuários não conseguem executar tarefas que causaiam uma alteração persistente no Skype for Business Server, como adicionar um contato. Depois que o failover for concluído, todos os usuários poderão obter todos os serviços do pool de backup.
+Se um pool for failed over, todos os usuários no pool afetado serão forçados a sair e entrar no pool de backup. Por um breve período, os usuários que entrarem no pool de backup poderão estar no modo de resiliência. No modo de resiliência, os usuários não conseguem realizar tarefas que causaiam uma alteração persistente no Skype for Business Server, como adicionar um contato. Depois que o failover for concluído, todos os usuários poderão obter todos os serviços do pool de backup.
   
 Todas as chamadas, reuniões ou conversas que um usuário tem quando o pool falha são interrompidas e o usuário deve restabelecer essas sessões após o failover para continuar.
   

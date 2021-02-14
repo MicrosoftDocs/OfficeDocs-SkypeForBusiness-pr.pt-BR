@@ -31,7 +31,7 @@ A Notificação por Push e o Push Notification Clearing House (PNCH) são duas p
   
 Para habilitar a Notificação por Push, faça o seguinte:
   
-1. **Escopo:** Observe o escopo dessa política. Pode ser **Global**, que se aplica a todos os usuários nesta implantação, ou **Site**, que é apenas usuários atribuídos aos servidores home no site especificado.
+1. **Escopo:** Observe o escopo dessa política. Pode ser **Global**, que se aplica a todos os usuários nesta implantação, ou **Site**, que é apenas os usuários atribuídos aos servidores home no site especificado.
     
     > [!IMPORTANT]
     > As configurações de política aplicadas em um nível de política podem substituir as configurações aplicadas em outro nível de política. A precedência da política é: a política de usuário (mais influência) substitui uma política de Site e, em seguida, uma política de Site substitui uma política Global (menos influência). Isso significa que quanto mais próxima a configuração da política estiver do objeto que a política estiver afetando, maior será a influência sobre o objeto. 

@@ -48,7 +48,7 @@ Para implementar o arquivamento, você precisa decidir como atender aos requisit
     
 - **Quando implantar o arquivamento.** Você pode implantar o arquivamento como parte da implantação inicial do Skype for Business Server ou pode adicioná-lo a uma implantação existente. Para usar o armazenamento de arquivamento do Skype for Business Server (bancos de dados do SQL Server), use o Construtor de Topologias para adicionar os bancos de dados à sua topologia e publique a topologia novamente. Se todos os seus usuários estão no Exchange e têm suas caixas de correio colocadas em In-Place, você não precisa atualizar sua topologia, mas só precisa habilitar a integração com o Microsoft Exchange para armazenar dados arquivados no Exchange. 
     
-- **Quais sites e usuários na organização exigem arquivamento.** Você pode definir configurações de arquivamento para toda a organização e, opcionalmente, para sites, pools, usuários e grupos de usuários específicos.
+- **Quais sites e usuários na organização exigem arquivamento.** Você pode definir configurações de arquivamento para toda a sua organização e, opcionalmente, para sites, pools, usuários e grupos de usuários específicos.
     
 - **Qual conteúdo deve ser arquivado.** Se você especificar o arquivamento no nível global ou para sites e usuários específicos, em cada um desses níveis, especifique se deve habilitar os seguintes tipos de conteúdo: 
     

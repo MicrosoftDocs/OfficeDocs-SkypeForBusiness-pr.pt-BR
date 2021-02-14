@@ -24,7 +24,7 @@ ms.locfileid: "49808781"
 ---
 # <a name="sql-server-reporting-services-invoke"></a>SQL Server Reporting Services (Invocar)
  
-Depois de fornecer as informações necessárias para a implantação dos relatórios do Monitoring Server para o Microsoft SQL Server Report Services, a página Executar Comandos exibirá um resumo dos comandos emitidos para instalar os relatórios no SQL Server Reporting Services.
+Depois de fornecer as informações necessárias para a implantação dos relatórios do Monitoring Server para o Microsoft SQL Server Report Services, a página Executar Comandos exibe um resumo dos comandos emitidos para instalar os relatórios no SQL Server Reporting Services.
   
 Revise o resumo de comandos e anote qualquer erro ou mensagem de aviso exibido pelos comandos. Se um arquivo de log for gerado, selecione o arquivo de log na lista suspensa na janela de resumo e clique em **Exibir Log** para exibir o arquivo de log.
   

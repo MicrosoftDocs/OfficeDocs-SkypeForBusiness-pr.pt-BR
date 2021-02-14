@@ -7,7 +7,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: landerl
 audience: admin
-description: Exemplos de emails e pesquisas para usar em conjunção com o plano de ação acelerada de dez etapas para atualizar do Skype for Business para o Teams
+description: Exemplo de emails e pesquisas para usar em conjunção com o plano de ação de dez etapas acelerada para a atualização do Skype for Business para o Teams
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -25,7 +25,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49809071"
 ---
-# <a name="sample-emails-and-surveys-for-upgrade-basic-communications"></a>Exemplos de emails e pesquisas para comunicações do Upgrade Basic
+# <a name="sample-emails-and-surveys-for-upgrade-basic-communications"></a>Exemplo de emails e pesquisas para atualizar comunicações básicas
 
 ## <a name="sample-emails"></a>Exemplo de emails
 
@@ -33,7 +33,7 @@ ms.locfileid: "49809071"
 
 ### <a name="stakeholder-email-for-step-1"></a>Email do stakeholder, para a etapa 1
 
-Linha do assunto:
+Linha de assunto:
 
 ```
 IMPORTANT ANNOUNCEMENT Regarding Skype for Business
@@ -49,13 +49,13 @@ Microsoft has indicated that Teams now has key capabilities that meet our commun
 Microsoft has provided an upgrade checklist outlining the essential tasks we should take to facilitate this transition. If you’re listed on the To line, you’re a key stakeholder in executing a successful transition to Teams and I may be reaching out for assistance. In the interim, let me know if you have any questions.
 ````
 
-[Retornar à etapa 1](upgrade-basic.md#step-1)
+[Retornar para a etapa 1](upgrade-basic.md#step-1)
 
 <a name="step-4-email"></a>
 
-### <a name="notify-users-email-for-step-4"></a>Notificar o email dos usuários, para a etapa 4
+### <a name="notify-users-email-for-step-4"></a>Notificar o email dos usuários para a etapa 4
 
-Linha do assunto:
+Linha de assunto:
 
 ```
 IMPORTANT ANNOUNCEMENT Regarding Skype for Business
@@ -78,11 +78,11 @@ CALL TO ACTION: Get started with Teams today
 If you have questions or need help, please reach out to <<insert company support information>>.
 ````
 
-[Retornar à etapa 4](upgrade-basic.md#step-4)
+[Retornar para a etapa 4](upgrade-basic.md#step-4)
 
 <a name="step-6-email"></a>
 
-### <a name="remind-users-email-for-step-6"></a>Lembrar o email dos usuários, na etapa 6
+### <a name="remind-users-email-for-step-6"></a>Lembrar o email dos usuários, para a etapa 6
 
 Linha do assunto: LEMBRETE: Prepare-se para a atualização para o Teams
 
@@ -109,13 +109,13 @@ Tip: If you need assistance with scheduling meetings, T-Bot can help! In the Tea
 Should you have questions about this upgrade, contact <<insert alias or contact info>>.
 ````
 
-[Retornar à etapa 6](upgrade-basic.md#step-6)
+[Retornar para a etapa 6](upgrade-basic.md#step-6)
 
 <a name="step-7-email"></a>
 
-### <a name="welcome-users-email-from-the-executive-sponsor-for-step-7"></a>Emails de boas-vindas dos usuários do patrocinador executivo, para a etapa 7
+### <a name="welcome-users-email-from-the-executive-sponsor-for-step-7"></a>Bem-vindo ao email dos usuários do patrocinador executivo, para a etapa 7
 
-Linha do assunto:
+Linha de assunto:
 
 ```
 PLEASE READ: Skype for Business is now Microsoft Teams
@@ -144,13 +144,13 @@ Regards,
 <<insert executive sponsor name>>
 ````
 
-[Retornar à etapa 7](upgrade-basic.md#step-7)
+[Retornar para a etapa 7](upgrade-basic.md#step-7)
 
 <a name="step-9-email"></a>
 
 ### <a name="check-in-email-for-step-9"></a>Email de check-in, para a etapa 9
 
-Linha do assunto:
+Linha de assunto:
 
 ```
 ACTION REQUESTED: Tell us about your Microsoft Teams experience
@@ -166,13 +166,13 @@ Share your feedback (see sample below) and transition experience with us. Your i
 Should you have questions, contact <<insert alias or contact info>>.
 ````
 
-[Retornar à etapa 9](upgrade-basic.md#step-9)
+[Retornar para a etapa 9](upgrade-basic.md#step-9)
 
 <a name="step-10-email"></a>
 
-### <a name="email-to-ask-users-to-give-teams-and-channels-a-try-for-step-10"></a>Email para solicitar que os usuários experimentem equipes e canais, na etapa 10
+### <a name="email-to-ask-users-to-give-teams-and-channels-a-try-for-step-10"></a>Envie um email para pedir aos usuários para experimentarem equipes e canais, para a etapa 10
 
-Linha do assunto:
+Linha de assunto:
 
 ```
 CALL TO ACTION: Give teams and channels a try
@@ -193,19 +193,19 @@ Tip: The best use of the Teams workspace comes when the right people join the ri
 Should you have questions, contact <<insert alias or contact info>>.
 ````
 
-[Retornar à etapa 10](upgrade-basic.md#step-10)
+[Retornar para a etapa 10](upgrade-basic.md#step-10)
 
 <!--ENDOFSECTION-->
 
 <a name="step-9-surveys"></a>
 
-## <a name="sample-surveys"></a>Pesquisas de exemplo
+## <a name="sample-surveys"></a>Exemplos de pesquisas
 
-Indique como você é qualificado para executar as seguintes atividades no Teams e se há uma ou mais atividades sobre as quais você gostaria de saber mais.
+Indique o nível de qualificação que você tem para realizar as seguintes atividades no Teams e se há uma ou mais atividades sobre as quais você gostaria de saber mais.
 
-| &nbsp; | Muito qualificado | Um pouco qualificado | Não há habilidades | Deseja saber mais | Não disponível | Inseguro/não familiar | | | | |
+| &nbsp; | Muito habilidoso | Um pouco habilidoso | Não tem qualificação | Quer saber mais | Não disponível | Não familiarizado/não familiar | | | | |
 |---|---|---|---|---|---|---|---|---|---|---|
-| Usar o Teams para IM/conversas com outras pessoas | | | | | | | | | | |
+| Usar o Teams para IM/chat com outras pessoas | | | | | | | | | | |
 | Usar o Teams para reuniões online | | | | | | | | | | |
 | Usar o Teams para colaboração (equipes e canais) | | | | | | | | | | |
 | Usar o Teams em meu dispositivo móvel | | | | | | | | | | |
@@ -213,22 +213,22 @@ Indique como você é qualificado para executar as seguintes atividades no Teams
 | **O que, em caso algum, está impedindo você de usar o Microsoft Teams?** | **Selecionar tudo o que se aplica** |
 |---|---|
 | Nunca ouvi falar sobre isso | &#9744; |
-| Não o tenho instalado em meu computador | &#9744; |
-| Não consigo entender como isso beneficiaria a mim ou às pessoas com quem trabalho | &#9744; |
-| Não tenho tempo para avaliá-lo de acordo com minhas necessidades | &#9744; |
+| Não o tenho instalado no meu computador | &#9744; |
+| Não entendo como isso beneficiaria a mim ou às pessoas com quem trabalho | &#9744; |
+| Não tive tempo para avaliá-lo para minhas necessidades | &#9744; |
 | Já uso outros aplicativos que atendem às minhas necessidades de comunicação e colaboração | &#9744; |
 | Eu precisaria de treinamento antes de usá-lo | &#9744; |
-| Eu tenho tentado usá-lo, mas teve problemas técnicos ou uma experiência ruim | &#9744; |
-| Nossa equipe de suporte não pôde me ajudar com minhas perguntas | &#9744; |
-| Nothing, atualmente o uso | &#9744; |
+| Tentei usá-lo, mas teve problemas técnicos ou uma experiência ruim | &#9744; |
+| Nosso suporte não pôde me ajudar com minhas perguntas | &#9744; |
+| Nada, atualmente o uso | &#9744; |
 | Outros (especifique) | &#9744; |
 
-**Qual é a probabilidade de você recomendar o Microsoft Teams a um amigo/colega? (0=Não é nada provável... 10=Extremamente provável)**
+**Qual é a probabilidade de você recomendar o Microsoft Teams para um amigo/colega? (0=Não é nada provável... 10=Extremamente provável)**
 
 | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 |
 | ---| --- | ---|---|---|---|---|---|---|---|---|
 |&nbsp;&nbsp;&nbsp; |&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; |&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; |&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; |
 
-[Retornar à etapa 9](upgrade-basic.md#step-9)
+[Retornar para a etapa 9](upgrade-basic.md#step-9)
 
 <!--ENDOFSECTION-->

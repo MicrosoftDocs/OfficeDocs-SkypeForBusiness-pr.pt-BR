@@ -1,5 +1,5 @@
 ---
-title: Lista de verificação de atualização| Atualização do Skype Business para o Teams | Etapas básicas
+title: Lista de verificação de atualização| Atualização do Skype Business para Teams | Etapas básicas
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -7,7 +7,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: landerl
 audience: admin
-description: Siga este plano de ação acelerada de dez etapas para fazer a transição de uma configuração básica do Skype for Business para a configuração do Microsoft Teams.
+description: Siga este plano de ação de dez etapas acelerada para transição de uma configuração básica do Skype for Business para a configuração do Microsoft Teams.
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -30,41 +30,41 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49809081"
 ---
-# <a name="upgrade-basic"></a>Upgrade Basic
+# <a name="upgrade-basic"></a>Atualizar Básico
 
 <a name="about-upgrade-basic"></a>
 
-Projetado apenas para organizações menores ou aquelas que usam o Skype for Business Online para IM (chat) e reuniões, a lista de verificação Upgrade Basic é um plano de ação acelerada que inclui atividades básicas, recomendadas e recursos associados para implementar uma mudança bem-sucedida do Skype for Business para o Teams.
+Projetado apenas para organizações menores ou pessoas que usam o Skype for Business Online para IM (chat) e reuniões, a lista de verificação do Upgrade Basic é um plano de ação acelerada que inclui atividades essenciais, atividades recomendadas e recursos associados para implementar uma mudança bem-sucedida do Skype for Business para o Teams.
 
 Essas dez etapas fáceis fornecem tudo o que você precisa para uma atualização bem-sucedida. Elas foram projetadas para serem concluídas em cerca de 30 a 45 dias, mas você deve ajustar as datas de conclusão das tarefas com base no cronograma de atualização da sua organização.
 
 > [!IMPORTANT]
-> O Skype for Business Online será retirado em 31 de julho de 2021. Após esse período, o serviço do Skype for Business Online não estará mais acessível ou terá suporte. Para maximizar a realização dos benefícios e garantir que sua organização tenha tempo adequado para implementar a atualização, recomendamos que você comece hoje sua jornada para o Microsoft Teams.
+> O Skype for Business Online será retirado em 31 de julho de 2021. Após esse período, o serviço Skype for Business Online não será mais acessível ou terá suporte. Para maximizar a realização dos benefícios e garantir que sua organização tenha tempo adequado para implementar a atualização, recomendamos que você comece hoje sua jornada para o Microsoft Teams.
 
 O que acontece com o Skype for Business após a atualização? Depois que seus usuários forem atualizados para o Teams (modo **Apenas Teams**):
 
-- O cliente Skype for Business está desabilitado, e todas as chamadas e chats vão para o Teams. Observe que isso não desinstalará o cliente em suas áreas de trabalho.
-- Todas as reuniões do Skype for Business agendadas antes da atualização funcionam conforme projetado, mas todas as novas reuniões são agendadas no Teams. O plug-in do Skype for Business não estará mais disponível no Outlook. 
-- Se os usuários tentarem entrar no Skype for Business, eles receberão uma notificação do cliente de que foram atualizados para o Teams.
+- O cliente Skype for Business está desabilitado, e todos os chats e chamadas vão para o Teams. Observe que isso não desinstalará o cliente em suas áreas de trabalho.
+- Todas as reuniões do Skype for Business que foram agendadas antes da atualização funcionam conforme projetado, mas todas as novas reuniões são agendadas no Teams. O plug-in do Skype for Business não estará mais disponível no Outlook. 
+- Se os usuários tentarem entrar no Skype for Business, receberão uma notificação do cliente de que foram atualizados para o Teams.
 - Os usuários precisam desinstalar manualmente o cliente Skype for Business em seus dispositivos móveis.
 
-Consulte nossas [perguntas frequentes](https://aka.ms/SkypeToTeams-FAQ) sobre a atualização.
+Confira nossas [perguntas frequentes](https://aka.ms/SkypeToTeams-FAQ) sobre a atualização.
 
-Não está familiarizado com o Teams? [Leia](https://products.office.com/microsoft-teams/group-chat-software) sobre como o Teams reúne conversas, reuniões, arquivos, aplicativos do Office e integrações de terceiros, fornecendo um único hub para o trabalho em equipe no Microsoft 365 e no Office 365.
+Não está familiarizado com o Teams? [Leia sobre](https://products.office.com/microsoft-teams/group-chat-software) como o Teams reúne conversas, reuniões, arquivos, aplicativos do Office e integrações de terceiros, fornecendo um único hub para o trabalho em equipe no Microsoft 365 e no Office 365.
 
 <!--ENDOFSECTION-->
 
 <a name="step-1"></a>
 
-## <a name="step-1-notify-your-key-stakeholders"></a>Etapa 1. Notificar seus principais participantes
+## <a name="step-1-notify-your-key-stakeholders"></a>Etapa 1. Notifique seus principais participantes
 
 *(Cerca de quatro a seis semanas antes da atualização)*
 
-Os líderes sênior são responsáveis pelo sucesso da empresa; certifique-se de mantê-los no saber sobre as alterações de tecnologia. Como é possível que nem todas as pessoas receberam ou lerem a notificação de qualificação de atualização, você precisa informar seus stakeholders (por exemplo, CEO, profissionais de TI, Marketing e líder de helpdesk) antes de começar a planejar a atualização.
+Os líderes sênior são responsáveis pelo sucesso da empresa; lembre-se de mantê-los por dentro das alterações de tecnologia. Como é possível que nem todos receberam ou leram a notificação de qualificação para atualização, você precisa informar seus participantes (por exemplo, CEO, profissionais de TI, Marketing e auxiliares) antes de começar a planejar sua atualização.
 
 **Recursos:**
 
-- [Exemplo de email: comunicação do stakeholder](upgrade-emails-surveys.md#step-1-email)
+- [Exemplo de email: comunicação entre participantes](upgrade-emails-surveys.md#step-1-email)
 
 [Retornar ao topo](#about-upgrade-basic)
 
@@ -76,10 +76,10 @@ Os líderes sênior são responsáveis pelo sucesso da empresa; certifique-se de
 
 *(Cerca de quatro a seis semanas antes da atualização)*
 
-O Teams oferece funcionalidade compatível com o Skype for Business, como IM (chat) e reuniões, mas também pode fazer muito mais. Como um verdadeiro hub para o trabalho em equipe, o Teams permite que grupos de trabalho gerenciem projetos, arquivos, conversas e aplicativos em um único local. Por padrão, o Microsoft Teams é ativado para todas as organizações. Decida como sua organização usará o Teams e configurará seu ambiente para sucesso. 
+O Teams oferece funcionalidade compatível com o Skype for Business, como mensagens de chat e reuniões, mas também pode fazer muito mais. Como um verdadeiro hub para o trabalho em equipe, o Teams permite que grupos de trabalho gerenciem projetos, arquivos, conversas e aplicativos em um único local. Por padrão, o Microsoft Teams é ativado para todas as organizações. Decida como sua organização usará o Teams e configure seu ambiente para o sucesso. 
 
 > [!Note]
-> Como um cliente existente do Skype for Business, sua infraestrutura de rede atual provavelmente já está configurada para o Teams. Para confirmar isso, você pode seguir as diretrizes de "Planejamento técnico completo" vinculadas a seguir (isso é opcional).
+> Como cliente existente do Skype for Business, sua infraestrutura de rede atual provavelmente já está configurada para o Teams. Para confirmar isso, você pode seguir as diretrizes de "Planejamento técnico completo" vinculadas abaixo (isso é opcional).
 
 **Recursos:**
 
@@ -96,7 +96,7 @@ O Teams oferece funcionalidade compatível com o Skype for Business, como IM (ch
 
 *(Cerca de quatro semanas antes da atualização)*
 
-Os usuários profundamente adotados no Skype for Business podem precisar de um pouco mais de tempo ou assistência para fazer a transição para o Teams. Aproveite para revisar o uso atual do Skype for Business para identificar os principais usuários que precisam de suporte adicional e estabelecer uma linha de base de uso que você pode acompanhar em relação aos seus números pós-atualização.
+Os usuários que são profundamente adotados no Skype for Business podem precisar de um pouco mais de tempo ou assistência para fazer a transição para o Teams. Leve algum tempo para revisar seu uso atual do Skype for Business para identificar os principais usuários que precisam de suporte adicional e estabelecer uma linha de base de uso que você pode acompanhar em relação aos números pós-atualização.
 
 **Recursos:**
 
@@ -108,14 +108,14 @@ Os usuários profundamente adotados no Skype for Business podem precisar de um p
 
 <!--ENDOFSECTION-->
 
-## <a name="step-4-notify-your-users-that-theyll-be-upgrading-from-skype-for-business-to-teams"></a>Etapa 4. Notificar os usuários de que eles atualizarão do Skype for Business para o Teams
+## <a name="step-4-notify-your-users-that-theyll-be-upgrading-from-skype-for-business-to-teams"></a>Etapa 4. Notifique os usuários de que eles atualizarão do Skype for Business para o Teams
 
 *(Cerca de duas a três semanas antes da atualização)*
 
-Fornecer um aviso amplo aos seus usuários dará tempo para que eles se familiarizarem com o Teams sem afetar negativamente sua produtividade, resultando em uma experiência de usuário mais positiva. Envie uma comunicação para dizer a eles o que está mudando, por que está mudando e como eles podem se preparar para isso.
+Fornecer uma ampla notificação aos usuários dará tempo para que eles se familiarizarem com o Teams sem afetar negativamente sua produtividade, resultando em uma experiência do usuário mais positiva. Envie uma comunicação para dizer a eles o que está mudando, por que ela está mudando e como eles podem se preparar para isso.
 
 > [!Note]
-> Se necessário, você pode habilitar o Teams para seus usuários por meio do Centro de administração do Microsoft 365 neste momento.
+> Se necessário, você pode habilitar o Teams para seus usuários por meio do Centro de administração do Microsoft 365 no momento.
 
 **Recursos:**
 
@@ -132,7 +132,7 @@ Fornecer um aviso amplo aos seus usuários dará tempo para que eles se familiar
 
 *(Cerca de uma semana antes da atualização)*
 
-Mantenha a dinâmica de atualização habilitando a notificação de atualização do usuário por meio do portal de administração, fornecendo um alerta visual no cliente Skype for Business de que os usuários estão sendo atualizados do Skype for Business para o Teams.
+Mantenha o momento de atualização habilitando a notificação de atualização do usuário por meio do portal de administração, fornecendo um alerta visual no cliente Skype for Business de que os usuários estão sendo atualizados do Skype for Business para o Teams.
 
 **Recursos:**
 
@@ -144,11 +144,11 @@ Mantenha a dinâmica de atualização habilitando a notificação de atualizaç�
 
 <a name="step-6"></a>
 
-## <a name="step-6-remind-your-users-that-theyll-be-upgrading-from-skype-for-business-to-teams"></a>Etapa 6. Lembre os usuários de que eles atualizarão do Skype for Business para o Teams
+## <a name="step-6-remind-your-users-that-theyll-be-upgrading-from-skype-for-business-to-teams"></a>Etapa 6. Lembre os usuários de que eles estão atualizando do Skype for Business para o Teams
 
 *(Cerca de cinco dias antes da atualização)*
 
-Os usuários estão ocupados com suas responsabilidades diárias. Lembrar-lhes da atualização pendente ajudará a garantir que eles se lembre de seguir as etapas necessárias para se preparar para o Teams. Esse é o momento perfeito para lembrar os usuários sobre o treinamento disponível e como começar a usar o Teams.
+Os usuários estão ocupados com suas responsabilidades diárias. Lembrá-los da atualização pendente ajudará a garantir que eles se lembrem de seguir as etapas necessárias para se preparar para o Teams. Este é o momento perfeito para lembrar os usuários sobre o treinamento disponível e como começar a usar o Teams.
 
 **Recursos:**
 
@@ -162,16 +162,16 @@ Os usuários estão ocupados com suas responsabilidades diárias. Lembrar-lhes d
 
 ## <a name="step-7-upgrade-users-to-teams"></a>Etapa 7. Atualize os usuários para o Teams!
 
-*(Dia da Atualização)*
+*(Dia de Atualização)*
 
-Hoje é o dia em que sua organização atualiza oficialmente para o Teams como sua solução de comunicação e colaboração. No centro de administração do Microsoft Teams, ative a opção de atualização definindo o modo de coexistência como **Somente Teams.** (No centro de administração, vá para **Configurações de toda a organização**  >  **Atualização do Teams**.) Os usuários receberão uma notificação no cliente Skype for Business de que foram atualizados para o Teams.
+Hoje é o dia em que sua organização atualiza o Teams como sua solução de comunicação e colaboração. No Centro de administração do Microsoft Teams, ative a opção de atualização definindo o modo de coexistência como **Somente equipes.** (No centro de administração, vá para **Configurações de toda a organização**  >  **Atualização do Teams**.) Os usuários receberão uma notificação no cliente Skype for Business de que foram atualizados para o Teams.
 
-Recomendamos que, depois que todos foram atualizados, você envie um email enviando-os para o Teams.
+Recomendamos que, após a atualização de todos, você envie um email dando boas-vindas ao Teams.
 
 **Recursos:**
 
 - [Definir suas configurações de coexistência e atualização](setting-your-coexistence-and-upgrade-settings.md)
-- [Exemplo de email: bem-vindo aos usuários do Teams](upgrade-emails-surveys.md#step-7-email)
+- [Exemplo de email: usuários bem-vindo ao Teams](upgrade-emails-surveys.md#step-7-email)
 
 [Retornar ao topo](#about-upgrade-basic)
 
@@ -183,7 +183,7 @@ Recomendamos que, depois que todos foram atualizados, você envie um email envia
 
 *(Cerca de uma ou duas semanas após a atualização)*
 
-O ajuste a uma nova tecnologia pode levar algum tempo. Verifique o uso para verificar se os usuários estão usando o Teams no mesmo nível — ou superior — como fizeram com o Skype for Business. Entre com usuários que não estão usando o Teams nos níveis esperados.
+O ajuste a uma nova tecnologia pode levar algum tempo. Verifique o uso para verificar se os usuários estão usando o Teams no mesmo nível (ou superior) como no Skype for Business. Entre em contato com usuários que não estão usando o Teams nos níveis esperados.
 
 **Recursos:**
 
@@ -199,11 +199,11 @@ O ajuste a uma nova tecnologia pode levar algum tempo. Verifique o uso para veri
 
 *(Cerca de uma ou duas semanas após a atualização)*
 
-A satisfação do funcionário pode influenciar a produtividade, a retenção e, por fim, os resultados de negócios. Entre em contato com seus usuários para avaliar o sentimento do usuário sobre a atualização e sua satisfação com o Teams.
+A satisfação dos funcionários pode influenciar a produtividade, a retenção e, em última análise, os resultados comerciais. Entre em contato com seus usuários para avaliar os sentimentos dos usuários sobre a atualização e sua satisfação com o Teams.
 
 **Recursos:**
 
-- [Exemplo de email: fazer check-in com usuários](upgrade-emails-surveys.md#step-9-email), além [de pesquisas de usuário](upgrade-emails-surveys.md#step-9-surveys)
+- [Exemplo de email: fazer check-in com usuários,](upgrade-emails-surveys.md#step-9-email)além [de pesquisas de usuários](upgrade-emails-surveys.md#step-9-surveys)
 
 [Retornar ao topo](#about-upgrade-basic)
 
@@ -213,9 +213,9 @@ A satisfação do funcionário pode influenciar a produtividade, a retenção e,
 
 ## <a name="step-10-maximize-your-roi-with-teams"></a>Etapa 10. Maximizar seu ROI com o Teams
 
-*(Contínuo)*
+*(Em andamento)*
 
-Depois que os usuários se familiarizarem com mensagens de IM (chat) e reuniões no Teams, incentive-os a estender seu caso de uso usando a colaboração do Teams e a integração de aplicativos, otimizando realmente a nova solução e maximizando um retorno sobre seu investimento.
+Depois que os usuários se sentirem à vontade com mensagens de chat (chat) e reuniões no Teams, incentive-os a estender seu caso de uso usando a colaboração do Teams e a integração com aplicativos, otimizando realmente sua nova solução e maximizando um retorno sobre seu investimento.
 
 **Recursos:**
 
