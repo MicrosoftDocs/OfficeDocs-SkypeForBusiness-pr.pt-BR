@@ -18,17 +18,17 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49815131"
 ---
-# <a name="viewing-network-interface-information-in-skype-for-business-server"></a><span data-ttu-id="15ae0-104">Exibindo informações da interface de rede no Skype for Business Server</span><span class="sxs-lookup"><span data-stu-id="15ae0-104">Viewing network interface information in Skype for Business Server</span></span>
+# <a name="viewing-network-interface-information-in-skype-for-business-server"></a><span data-ttu-id="a3495-104">Exibindo informações da interface de rede no Skype for Business Server</span><span class="sxs-lookup"><span data-stu-id="a3495-104">Viewing network interface information in Skype for Business Server</span></span>
 
-<span data-ttu-id="15ae0-105">Você pode exibir informações da interface de rede usando o Windows PowerShell e o cmdlet **Get-CsNetworkInterface.**</span><span class="sxs-lookup"><span data-stu-id="15ae0-105">You can view network interface information by using Windows PowerShell and the **Get-CsNetworkInterface** cmdlet.</span></span> <span data-ttu-id="15ae0-106">Você pode executar este cmdlet usando o Shell de gerenciamento do Skype for Business Server ou uma sessão remota do Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="15ae0-106">You can run this cmdlet from the Skype for Business Server Management Shell or from a remote session of Windows PowerShell.</span></span> 
+<span data-ttu-id="a3495-105">Você pode exibir informações da interface de rede usando o Windows PowerShell e o cmdlet **Get-CsNetworkInterface.**</span><span class="sxs-lookup"><span data-stu-id="a3495-105">You can view network interface information by using Windows PowerShell and the **Get-CsNetworkInterface** cmdlet.</span></span> <span data-ttu-id="a3495-106">Você pode executar este cmdlet usando o Shell de gerenciamento do Skype for Business Server ou uma sessão remota do Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="a3495-106">You can run this cmdlet from the Skype for Business Server Management Shell or from a remote session of Windows PowerShell.</span></span> 
 
-## <a name="to-view-network-interface-information"></a><span data-ttu-id="15ae0-107">Para exibir informações da interface de rede</span><span class="sxs-lookup"><span data-stu-id="15ae0-107">To view network interface information</span></span>
+## <a name="to-view-network-interface-information"></a><span data-ttu-id="a3495-107">Para exibir informações da interface de rede</span><span class="sxs-lookup"><span data-stu-id="a3495-107">To view network interface information</span></span>
 
-  - <span data-ttu-id="15ae0-108">Para exibir as informações da interface de rede, digite o seguinte comando no Shell de Gerenciamento do Skype for Business Server e pressione ENTER:</span><span class="sxs-lookup"><span data-stu-id="15ae0-108">To view network interface information, type the following command in the Skype for Business Server Management Shell, and then press ENTER:</span></span>
+  - <span data-ttu-id="a3495-108">Para exibir as informações da interface de rede, digite o seguinte comando no Shell de Gerenciamento do Skype for Business Server e pressione ENTER:</span><span class="sxs-lookup"><span data-stu-id="a3495-108">To view network interface information, type the following command in the Skype for Business Server Management Shell, and then press ENTER:</span></span>
     
         Get-CsNetworkInterface
     
-    <span data-ttu-id="15ae0-109">Este comando retorna informações semelhantes às seguintes para cada interface de rede:</span><span class="sxs-lookup"><span data-stu-id="15ae0-109">This command returns information similar to the following for each network interface:</span></span>
+    <span data-ttu-id="a3495-109">Este comando retorna informações semelhantes às seguintes para cada interface de rede:</span><span class="sxs-lookup"><span data-stu-id="a3495-109">This command returns information similar to the following for each network interface:</span></span>
     
         Identity              : dc.vdomain.com/Primary/1
         ComputerFqdn          : dc.vdomain.com
@@ -40,6 +40,6 @@ ms.locfileid: "49815131"
         ConfiguredIPAddress   :
         ConfiguredIPv6Address :
     
-    <span data-ttu-id="15ae0-110">Para obter detalhes, [consulte Get-CsNetworkInterface](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkInterface).</span><span class="sxs-lookup"><span data-stu-id="15ae0-110">For details, see [Get-CsNetworkInterface](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkInterface).</span></span>
+    <span data-ttu-id="a3495-110">Para obter detalhes, [consulte Get-CsNetworkInterface](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkInterface).</span><span class="sxs-lookup"><span data-stu-id="a3495-110">For details, see [Get-CsNetworkInterface](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkInterface).</span></span>
 
 

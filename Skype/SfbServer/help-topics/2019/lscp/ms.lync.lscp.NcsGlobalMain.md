@@ -22,13 +22,13 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49812171"
 ---
-# <a name="network-configuration-global-setting"></a><span data-ttu-id="d828b-104">Configuração de Rede: Definição Global</span><span class="sxs-lookup"><span data-stu-id="d828b-104">Network Configuration: Global Setting</span></span>
+# <a name="network-configuration-global-setting"></a><span data-ttu-id="6ccfa-104">Configuração de Rede: Definição Global</span><span class="sxs-lookup"><span data-stu-id="6ccfa-104">Network Configuration: Global Setting</span></span>
 
-<span data-ttu-id="d828b-105">O que você deseja fazer?</span><span class="sxs-lookup"><span data-stu-id="d828b-105">What do you want to do?</span></span> <span data-ttu-id="d828b-106">Clique no link para a tarefa que você deseja executar.</span><span class="sxs-lookup"><span data-stu-id="d828b-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="6ccfa-105">O que você deseja fazer?</span><span class="sxs-lookup"><span data-stu-id="6ccfa-105">What do you want to do?</span></span> <span data-ttu-id="6ccfa-106">Clique no link para a tarefa que você deseja executar.</span><span class="sxs-lookup"><span data-stu-id="6ccfa-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="d828b-107">Habilitando o controle de admissão de chamada</span><span class="sxs-lookup"><span data-stu-id="d828b-107">Enabling Call Admission Control</span></span>](https://technet.microsoft.com/library/015f5c8f-2f90-4b9e-8149-b33767e90582.aspx)
+- [<span data-ttu-id="6ccfa-107">Habilitando o controle de admissão de chamada</span><span class="sxs-lookup"><span data-stu-id="6ccfa-107">Enabling Call Admission Control</span></span>](https://technet.microsoft.com/library/015f5c8f-2f90-4b9e-8149-b33767e90582.aspx)
 
-- [<span data-ttu-id="d828b-108">Habilitando o bypass de mídia</span><span class="sxs-lookup"><span data-stu-id="d828b-108">Enabling Media Bypass</span></span>](https://technet.microsoft.com/library/95c4fa06-49d3-41ac-acdc-7dcda66e5508.aspx)
+- [<span data-ttu-id="6ccfa-108">Habilitando o bypass de mídia</span><span class="sxs-lookup"><span data-stu-id="6ccfa-108">Enabling Media Bypass</span></span>](https://technet.microsoft.com/library/95c4fa06-49d3-41ac-acdc-7dcda66e5508.aspx)
 
 
 

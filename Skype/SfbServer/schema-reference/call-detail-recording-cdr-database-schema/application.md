@@ -1,5 +1,5 @@
 ---
-title: Tabela Application no Skype for Business Server 2015
+title: Tabela application in Skype for Business Server 2015
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -20,13 +20,13 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49813501"
 ---
-# <a name="application-table-in-skype-for-business-server-2015"></a><span data-ttu-id="2bc57-103">Tabela application in Skype for Business Server 2015</span><span class="sxs-lookup"><span data-stu-id="2bc57-103">Application table in Skype for Business Server 2015</span></span>
+# <a name="application-table-in-skype-for-business-server-2015"></a><span data-ttu-id="96911-103">Tabela application in Skype for Business Server 2015</span><span class="sxs-lookup"><span data-stu-id="96911-103">Application table in Skype for Business Server 2015</span></span>
  
-<span data-ttu-id="2bc57-104">Esta tabela armazena informações sobre os vários processos no Skype for Business Server 2015 envolvidos no roteamento e conexões.</span><span class="sxs-lookup"><span data-stu-id="2bc57-104">This table stores information about the various processes within Skype for Business Server 2015 involved in routing and connections.</span></span>
+<span data-ttu-id="96911-104">Esta tabela armazena informações sobre os vários processos no Skype for Business Server 2015 envolvidos no roteamento e conexões.</span><span class="sxs-lookup"><span data-stu-id="96911-104">This table stores information about the various processes within Skype for Business Server 2015 involved in routing and connections.</span></span>
   
-|<span data-ttu-id="2bc57-105">**Coluna**</span><span class="sxs-lookup"><span data-stu-id="2bc57-105">**Column**</span></span>|<span data-ttu-id="2bc57-106">**Tipo de dados**</span><span class="sxs-lookup"><span data-stu-id="2bc57-106">**Data Type**</span></span>|<span data-ttu-id="2bc57-107">**Chave/Índice**</span><span class="sxs-lookup"><span data-stu-id="2bc57-107">**Key/Index**</span></span>|<span data-ttu-id="2bc57-108">**Detalhes**</span><span class="sxs-lookup"><span data-stu-id="2bc57-108">**Details**</span></span>|
+|<span data-ttu-id="96911-105">**Coluna**</span><span class="sxs-lookup"><span data-stu-id="96911-105">**Column**</span></span>|<span data-ttu-id="96911-106">**Tipo de dados**</span><span class="sxs-lookup"><span data-stu-id="96911-106">**Data Type**</span></span>|<span data-ttu-id="96911-107">**Chave/Índice**</span><span class="sxs-lookup"><span data-stu-id="96911-107">**Key/Index**</span></span>|<span data-ttu-id="96911-108">**Detalhes**</span><span class="sxs-lookup"><span data-stu-id="96911-108">**Details**</span></span>|
 |:-----|:-----|:-----|:-----|
-|<span data-ttu-id="2bc57-109">**ApplicationId**</span><span class="sxs-lookup"><span data-stu-id="2bc57-109">**ApplicationId**</span></span> <br/> |<span data-ttu-id="2bc57-110">int</span><span class="sxs-lookup"><span data-stu-id="2bc57-110">int</span></span>  <br/> |<span data-ttu-id="2bc57-111">Primário</span><span class="sxs-lookup"><span data-stu-id="2bc57-111">Primary</span></span>  <br/> |<span data-ttu-id="2bc57-112">Número exclusivo que identifica este aplicativo.</span><span class="sxs-lookup"><span data-stu-id="2bc57-112">Unique number identifying this application.</span></span>  <br/> |
-|<span data-ttu-id="2bc57-113">**Nome**</span><span class="sxs-lookup"><span data-stu-id="2bc57-113">**Name**</span></span> <br/> |<span data-ttu-id="2bc57-114">nvarchar(256)</span><span class="sxs-lookup"><span data-stu-id="2bc57-114">nvarchar(256)</span></span>  <br/> | <br/> |<span data-ttu-id="2bc57-115">Nome do componente de servidor.</span><span class="sxs-lookup"><span data-stu-id="2bc57-115">Name of the server component.</span></span>  <br/> |
+|<span data-ttu-id="96911-109">**ApplicationId**</span><span class="sxs-lookup"><span data-stu-id="96911-109">**ApplicationId**</span></span> <br/> |<span data-ttu-id="96911-110">int</span><span class="sxs-lookup"><span data-stu-id="96911-110">int</span></span>  <br/> |<span data-ttu-id="96911-111">Primário</span><span class="sxs-lookup"><span data-stu-id="96911-111">Primary</span></span>  <br/> |<span data-ttu-id="96911-112">Número exclusivo que identifica este aplicativo.</span><span class="sxs-lookup"><span data-stu-id="96911-112">Unique number identifying this application.</span></span>  <br/> |
+|<span data-ttu-id="96911-113">**Nome**</span><span class="sxs-lookup"><span data-stu-id="96911-113">**Name**</span></span> <br/> |<span data-ttu-id="96911-114">nvarchar(256)</span><span class="sxs-lookup"><span data-stu-id="96911-114">nvarchar(256)</span></span>  <br/> | <br/> |<span data-ttu-id="96911-115">Nome do componente de servidor.</span><span class="sxs-lookup"><span data-stu-id="96911-115">Name of the server component.</span></span>  <br/> |
    
 

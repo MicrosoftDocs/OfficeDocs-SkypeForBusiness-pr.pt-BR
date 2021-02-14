@@ -22,10 +22,10 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49811891"
 ---
-# <a name="add-director-features"></a><span data-ttu-id="1582a-103">Adicionar Recursos de Diretor</span><span class="sxs-lookup"><span data-stu-id="1582a-103">Add Director Features</span></span>
+# <a name="add-director-features"></a><span data-ttu-id="15f36-103">Adicionar Recursos de Diretor</span><span class="sxs-lookup"><span data-stu-id="15f36-103">Add Director Features</span></span>
 
-<span data-ttu-id="1582a-104">Se quiser que o pool de Diretores inclua o Monitoring Server, selecione **Monitoring (CDR e Métricas de QoE).**</span><span class="sxs-lookup"><span data-stu-id="1582a-104">If you want the Director pool to include Monitoring Server, select **Monitoring (CDR and QoE Metrics)**.</span></span>
+<span data-ttu-id="15f36-104">Se quiser que o pool de Diretores inclua o Monitoring Server, selecione **Monitoring (CDR e Métricas de QoE).**</span><span class="sxs-lookup"><span data-stu-id="15f36-104">If you want the Director pool to include Monitoring Server, select **Monitoring (CDR and QoE Metrics)**.</span></span>
 
-<span data-ttu-id="1582a-105">Para obter mais detalhes sobre como adicionar um pool de Diretores, consulte [Cenários](https://technet.microsoft.com/library/d2cf384a-0860-4779-80ce-cba2543be322.aspx) para o Diretor [e Configurando o Diretor.](https://technet.microsoft.com/library/408b76f7-6fdd-4e50-8a3e-e87db12c1394.aspx)</span><span class="sxs-lookup"><span data-stu-id="1582a-105">For more details about adding a Director pool, see [Scenarios for the Director](https://technet.microsoft.com/library/d2cf384a-0860-4779-80ce-cba2543be322.aspx) and [Setting Up the Director](https://technet.microsoft.com/library/408b76f7-6fdd-4e50-8a3e-e87db12c1394.aspx).</span></span>
+<span data-ttu-id="15f36-105">Para obter mais detalhes sobre como adicionar um pool de Diretores, consulte [Cenários](https://technet.microsoft.com/library/d2cf384a-0860-4779-80ce-cba2543be322.aspx) para o Diretor [e Configurando o Diretor.](https://technet.microsoft.com/library/408b76f7-6fdd-4e50-8a3e-e87db12c1394.aspx)</span><span class="sxs-lookup"><span data-stu-id="15f36-105">For more details about adding a Director pool, see [Scenarios for the Director](https://technet.microsoft.com/library/d2cf384a-0860-4779-80ce-cba2543be322.aspx) and [Setting Up the Director](https://technet.microsoft.com/library/408b76f7-6fdd-4e50-8a3e-e87db12c1394.aspx).</span></span>
 
 
