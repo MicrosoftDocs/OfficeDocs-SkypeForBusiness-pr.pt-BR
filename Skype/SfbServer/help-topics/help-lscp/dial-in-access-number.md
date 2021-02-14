@@ -22,12 +22,12 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49810941"
 ---
-# <a name="dial-in-access-number"></a><span data-ttu-id="9df87-104">Número de Acesso Discado</span><span class="sxs-lookup"><span data-stu-id="9df87-104">Dial-in Access Number</span></span>
+# <a name="dial-in-access-number"></a><span data-ttu-id="eb123-104">Número de Acesso Discado</span><span class="sxs-lookup"><span data-stu-id="eb123-104">Dial-in Access Number</span></span>
 
-<span data-ttu-id="9df87-105">O que você deseja fazer?</span><span class="sxs-lookup"><span data-stu-id="9df87-105">What do you want to do?</span></span> <span data-ttu-id="9df87-106">Clique no link para a tarefa que você deseja executar.</span><span class="sxs-lookup"><span data-stu-id="9df87-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="eb123-105">O que você deseja fazer?</span><span class="sxs-lookup"><span data-stu-id="eb123-105">What do you want to do?</span></span> <span data-ttu-id="eb123-106">Clique no link para a tarefa que você deseja executar.</span><span class="sxs-lookup"><span data-stu-id="eb123-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="9df87-107">Criar ou modificar um número de acesso conferência discada</span><span class="sxs-lookup"><span data-stu-id="9df87-107">Create or Modify a Dial-in Conferencing Access Number</span></span>](https://technet.microsoft.com/library/06f55c28-57f8-4d4e-8313-9740846796d9.aspx)
+- [<span data-ttu-id="eb123-107">Criar ou modificar um número de acesso conferência discada</span><span class="sxs-lookup"><span data-stu-id="eb123-107">Create or Modify a Dial-in Conferencing Access Number</span></span>](https://technet.microsoft.com/library/06f55c28-57f8-4d4e-8313-9740846796d9.aspx)
 
-- [<span data-ttu-id="9df87-108">Excluir um número de acesso conferência discada</span><span class="sxs-lookup"><span data-stu-id="9df87-108">Delete a Dial-in Conferencing Access Number</span></span>](https://technet.microsoft.com/library/199c5d9c-0489-4ad5-a7f1-ca59fe0e6ac7.aspx)
+- [<span data-ttu-id="eb123-108">Excluir um número de acesso conferência discada</span><span class="sxs-lookup"><span data-stu-id="eb123-108">Delete a Dial-in Conferencing Access Number</span></span>](https://technet.microsoft.com/library/199c5d9c-0489-4ad5-a7f1-ca59fe0e6ac7.aspx)
 
 

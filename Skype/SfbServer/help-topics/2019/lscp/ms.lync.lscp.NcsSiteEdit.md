@@ -22,11 +22,11 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49808491"
 ---
-# <a name="configure-a-network-site-create-new-or-edit-existing"></a><span data-ttu-id="72ac7-104">Configurar um Site de Rede: Criar Novo ou Editar Existente</span><span class="sxs-lookup"><span data-stu-id="72ac7-104">Configure a Network Site: Create New or Edit Existing</span></span>
+# <a name="configure-a-network-site-create-new-or-edit-existing"></a><span data-ttu-id="0e1fe-104">Configurar um Site de Rede: Criar Novo ou Editar Existente</span><span class="sxs-lookup"><span data-stu-id="0e1fe-104">Configure a Network Site: Create New or Edit Existing</span></span>
 
-<span data-ttu-id="72ac7-105">O que você deseja fazer?</span><span class="sxs-lookup"><span data-stu-id="72ac7-105">What do you want to do?</span></span> <span data-ttu-id="72ac7-106">Clique no link para a tarefa que você deseja executar.</span><span class="sxs-lookup"><span data-stu-id="72ac7-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="0e1fe-105">O que você deseja fazer?</span><span class="sxs-lookup"><span data-stu-id="0e1fe-105">What do you want to do?</span></span> <span data-ttu-id="0e1fe-106">Clique no link para a tarefa que você deseja executar.</span><span class="sxs-lookup"><span data-stu-id="0e1fe-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="72ac7-107">Configurando sites de rede</span><span class="sxs-lookup"><span data-stu-id="72ac7-107">Configuring Network Sites</span></span>](https://technet.microsoft.com/library/358aa08a-c5bc-45fc-8017-19e6202f88c5.aspx)
+- [<span data-ttu-id="0e1fe-107">Configurando sites de rede</span><span class="sxs-lookup"><span data-stu-id="0e1fe-107">Configuring Network Sites</span></span>](https://technet.microsoft.com/library/358aa08a-c5bc-45fc-8017-19e6202f88c5.aspx)
 
 
 

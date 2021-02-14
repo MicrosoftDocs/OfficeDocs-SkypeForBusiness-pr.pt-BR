@@ -22,12 +22,12 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49810991"
 ---
-# <a name="dial-in-access-number-create-new-or-edit-existing"></a><span data-ttu-id="08896-104">Número de Acesso Discado: Criar Novo ou Editar Existente</span><span class="sxs-lookup"><span data-stu-id="08896-104">Dial-in Access Number: Create New or Edit Existing</span></span>
+# <a name="dial-in-access-number-create-new-or-edit-existing"></a><span data-ttu-id="ab596-104">Número de Acesso Discado: Criar Novo ou Editar Existente</span><span class="sxs-lookup"><span data-stu-id="ab596-104">Dial-in Access Number: Create New or Edit Existing</span></span>
 
-<span data-ttu-id="08896-105">O que você deseja fazer?</span><span class="sxs-lookup"><span data-stu-id="08896-105">What do you want to do?</span></span> <span data-ttu-id="08896-106">Clique no link para a tarefa que você deseja executar.</span><span class="sxs-lookup"><span data-stu-id="08896-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="ab596-105">O que você deseja fazer?</span><span class="sxs-lookup"><span data-stu-id="ab596-105">What do you want to do?</span></span> <span data-ttu-id="ab596-106">Clique no link para a tarefa que você deseja executar.</span><span class="sxs-lookup"><span data-stu-id="ab596-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="08896-107">Criar ou modificar um número de acesso conferência discada</span><span class="sxs-lookup"><span data-stu-id="08896-107">Create or Modify a Dial-in Conferencing Access Number</span></span>](https://technet.microsoft.com/library/06f55c28-57f8-4d4e-8313-9740846796d9.aspx)
+- [<span data-ttu-id="ab596-107">Criar ou modificar um número de acesso conferência discada</span><span class="sxs-lookup"><span data-stu-id="ab596-107">Create or Modify a Dial-in Conferencing Access Number</span></span>](https://technet.microsoft.com/library/06f55c28-57f8-4d4e-8313-9740846796d9.aspx)
 
-- [<span data-ttu-id="08896-108">Excluir um número de acesso conferência discada</span><span class="sxs-lookup"><span data-stu-id="08896-108">Delete a Dial-in Conferencing Access Number</span></span>](https://technet.microsoft.com/library/199c5d9c-0489-4ad5-a7f1-ca59fe0e6ac7.aspx)
+- [<span data-ttu-id="ab596-108">Excluir um número de acesso conferência discada</span><span class="sxs-lookup"><span data-stu-id="ab596-108">Delete a Dial-in Conferencing Access Number</span></span>](https://technet.microsoft.com/library/199c5d9c-0489-4ad5-a7f1-ca59fe0e6ac7.aspx)
 
 

@@ -20,30 +20,30 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49809711"
 ---
-# <a name="tblenumattribute"></a><span data-ttu-id="8dd33-103">tblEnumAttribute</span><span class="sxs-lookup"><span data-stu-id="8dd33-103">tblEnumAttribute</span></span>
+# <a name="tblenumattribute"></a><span data-ttu-id="d434b-103">tblEnumAttribute</span><span class="sxs-lookup"><span data-stu-id="d434b-103">tblEnumAttribute</span></span>
  
-<span data-ttu-id="8dd33-104">tblEnumAttribute é uma tabela embutida em código que inclui os atributos de Visibilidade e Comportamento usados na tabela Node.</span><span class="sxs-lookup"><span data-stu-id="8dd33-104">tblEnumAttribute is a hardcoded table that contains the Visibility and Behavior attributes that are used in the Node table.</span></span>
+<span data-ttu-id="d434b-104">tblEnumAttribute é uma tabela embutida em código que inclui os atributos de Visibilidade e Comportamento usados na tabela Node.</span><span class="sxs-lookup"><span data-stu-id="d434b-104">tblEnumAttribute is a hardcoded table that contains the Visibility and Behavior attributes that are used in the Node table.</span></span>
   
-<span data-ttu-id="8dd33-105">**Columns**</span><span class="sxs-lookup"><span data-stu-id="8dd33-105">**Columns**</span></span>
+<span data-ttu-id="d434b-105">**Columns**</span><span class="sxs-lookup"><span data-stu-id="d434b-105">**Columns**</span></span>
 
-|<span data-ttu-id="8dd33-106">**Coluna**</span><span class="sxs-lookup"><span data-stu-id="8dd33-106">**Column**</span></span>|<span data-ttu-id="8dd33-107">**Tipo**</span><span class="sxs-lookup"><span data-stu-id="8dd33-107">**Type**</span></span>|<span data-ttu-id="8dd33-108">**Descrição**</span><span class="sxs-lookup"><span data-stu-id="8dd33-108">**Description**</span></span>|
+|<span data-ttu-id="d434b-106">**Coluna**</span><span class="sxs-lookup"><span data-stu-id="d434b-106">**Column**</span></span>|<span data-ttu-id="d434b-107">**Tipo**</span><span class="sxs-lookup"><span data-stu-id="d434b-107">**Type**</span></span>|<span data-ttu-id="d434b-108">**Descrição**</span><span class="sxs-lookup"><span data-stu-id="d434b-108">**Description**</span></span>|
 |:-----|:-----|:-----|
-|<span data-ttu-id="8dd33-109">attributeID</span><span class="sxs-lookup"><span data-stu-id="8dd33-109">attributeID</span></span>  <br/> |<span data-ttu-id="8dd33-110">smallint, não nulo</span><span class="sxs-lookup"><span data-stu-id="8dd33-110">smallint, not null</span></span>  <br/> |<span data-ttu-id="8dd33-111">ID do atributo.</span><span class="sxs-lookup"><span data-stu-id="8dd33-111">ID of the attribute.</span></span>  <br/> |
-|<span data-ttu-id="8dd33-112">attributeName</span><span class="sxs-lookup"><span data-stu-id="8dd33-112">attributeName</span></span>  <br/> |<span data-ttu-id="8dd33-113">nvarchar (256), não nulo</span><span class="sxs-lookup"><span data-stu-id="8dd33-113">nvarchar (256), not null</span></span>  <br/> |<span data-ttu-id="8dd33-114">Nome do atributo.</span><span class="sxs-lookup"><span data-stu-id="8dd33-114">Name of the attribute.</span></span>  <br/> |
+|<span data-ttu-id="d434b-109">attributeID</span><span class="sxs-lookup"><span data-stu-id="d434b-109">attributeID</span></span>  <br/> |<span data-ttu-id="d434b-110">smallint, não nulo</span><span class="sxs-lookup"><span data-stu-id="d434b-110">smallint, not null</span></span>  <br/> |<span data-ttu-id="d434b-111">ID do atributo.</span><span class="sxs-lookup"><span data-stu-id="d434b-111">ID of the attribute.</span></span>  <br/> |
+|<span data-ttu-id="d434b-112">attributeName</span><span class="sxs-lookup"><span data-stu-id="d434b-112">attributeName</span></span>  <br/> |<span data-ttu-id="d434b-113">nvarchar (256), não nulo</span><span class="sxs-lookup"><span data-stu-id="d434b-113">nvarchar (256), not null</span></span>  <br/> |<span data-ttu-id="d434b-114">Nome do atributo.</span><span class="sxs-lookup"><span data-stu-id="d434b-114">Name of the attribute.</span></span>  <br/> |
    
-<span data-ttu-id="8dd33-115">**Chave**</span><span class="sxs-lookup"><span data-stu-id="8dd33-115">**Key**</span></span>
+<span data-ttu-id="d434b-115">**Chave**</span><span class="sxs-lookup"><span data-stu-id="d434b-115">**Key**</span></span>
 
-|<span data-ttu-id="8dd33-116">**Coluna**</span><span class="sxs-lookup"><span data-stu-id="8dd33-116">**Column**</span></span>|<span data-ttu-id="8dd33-117">**Descrição**</span><span class="sxs-lookup"><span data-stu-id="8dd33-117">**Description**</span></span>|
+|<span data-ttu-id="d434b-116">**Coluna**</span><span class="sxs-lookup"><span data-stu-id="d434b-116">**Column**</span></span>|<span data-ttu-id="d434b-117">**Descrição**</span><span class="sxs-lookup"><span data-stu-id="d434b-117">**Description**</span></span>|
 |:-----|:-----|
-|<span data-ttu-id="8dd33-118">attributeID</span><span class="sxs-lookup"><span data-stu-id="8dd33-118">attributeID</span></span>  <br/> |<span data-ttu-id="8dd33-119">Chave primária.</span><span class="sxs-lookup"><span data-stu-id="8dd33-119">Primary key.</span></span>  <br/> |
+|<span data-ttu-id="d434b-118">attributeID</span><span class="sxs-lookup"><span data-stu-id="d434b-118">attributeID</span></span>  <br/> |<span data-ttu-id="d434b-119">Chave primária.</span><span class="sxs-lookup"><span data-stu-id="d434b-119">Primary key.</span></span>  <br/> |
    
-<span data-ttu-id="8dd33-120">**Valores de Tablea**</span><span class="sxs-lookup"><span data-stu-id="8dd33-120">**Table Values**</span></span>
+<span data-ttu-id="d434b-120">**Valores de Tablea**</span><span class="sxs-lookup"><span data-stu-id="d434b-120">**Table Values**</span></span>
 
-|<span data-ttu-id="8dd33-121">**attributeID**</span><span class="sxs-lookup"><span data-stu-id="8dd33-121">**attributeID**</span></span>|<span data-ttu-id="8dd33-122">**attributeName**</span><span class="sxs-lookup"><span data-stu-id="8dd33-122">**attributeName**</span></span>|
+|<span data-ttu-id="d434b-121">**attributeID**</span><span class="sxs-lookup"><span data-stu-id="d434b-121">**attributeID**</span></span>|<span data-ttu-id="d434b-122">**attributeName**</span><span class="sxs-lookup"><span data-stu-id="d434b-122">**attributeName**</span></span>|
 |:-----|:-----|
-|<span data-ttu-id="8dd33-123">1 </span><span class="sxs-lookup"><span data-stu-id="8dd33-123">1</span></span>  <br/> |<span data-ttu-id="8dd33-124">Visibilidade.</span><span class="sxs-lookup"><span data-stu-id="8dd33-124">Visibility.</span></span>  <br/> |
-|<span data-ttu-id="8dd33-125">2 </span><span class="sxs-lookup"><span data-stu-id="8dd33-125">2</span></span>  <br/> |<span data-ttu-id="8dd33-126">Comportamento.</span><span class="sxs-lookup"><span data-stu-id="8dd33-126">Behavior.</span></span>  <br/> |
+|<span data-ttu-id="d434b-123">1 </span><span class="sxs-lookup"><span data-stu-id="d434b-123">1</span></span>  <br/> |<span data-ttu-id="d434b-124">Visibilidade.</span><span class="sxs-lookup"><span data-stu-id="d434b-124">Visibility.</span></span>  <br/> |
+|<span data-ttu-id="d434b-125">2 </span><span class="sxs-lookup"><span data-stu-id="d434b-125">2</span></span>  <br/> |<span data-ttu-id="d434b-126">Comportamento.</span><span class="sxs-lookup"><span data-stu-id="d434b-126">Behavior.</span></span>  <br/> |
    
-## <a name="see-also"></a><span data-ttu-id="8dd33-127">Confira também</span><span class="sxs-lookup"><span data-stu-id="8dd33-127">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="d434b-127">Confira também</span><span class="sxs-lookup"><span data-stu-id="d434b-127">See also</span></span>
 
-[<span data-ttu-id="8dd33-128">tblNode</span><span class="sxs-lookup"><span data-stu-id="8dd33-128">tblNode</span></span>](tblnode.md)
+[<span data-ttu-id="d434b-128">tblNode</span><span class="sxs-lookup"><span data-stu-id="d434b-128">tblNode</span></span>](tblnode.md)

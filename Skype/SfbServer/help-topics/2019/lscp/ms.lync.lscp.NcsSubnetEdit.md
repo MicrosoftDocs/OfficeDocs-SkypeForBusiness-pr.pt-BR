@@ -22,11 +22,11 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49808471"
 ---
-# <a name="associate-a-subnet-add-new-or-edit-existing"></a><span data-ttu-id="a91ff-104">Associar uma Sub-rede: Adicionar Nova ou Editar Existente</span><span class="sxs-lookup"><span data-stu-id="a91ff-104">Associate a Subnet: Add New or Edit Existing</span></span>
+# <a name="associate-a-subnet-add-new-or-edit-existing"></a><span data-ttu-id="26b6a-104">Associar uma Sub-rede: Adicionar Nova ou Editar Existente</span><span class="sxs-lookup"><span data-stu-id="26b6a-104">Associate a Subnet: Add New or Edit Existing</span></span>
 
-<span data-ttu-id="a91ff-105">O que você deseja fazer?</span><span class="sxs-lookup"><span data-stu-id="a91ff-105">What do you want to do?</span></span> <span data-ttu-id="a91ff-106">Clique no link para a tarefa que você deseja executar.</span><span class="sxs-lookup"><span data-stu-id="a91ff-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="26b6a-105">O que você deseja fazer?</span><span class="sxs-lookup"><span data-stu-id="26b6a-105">What do you want to do?</span></span> <span data-ttu-id="26b6a-106">Clique no link para a tarefa que você deseja executar.</span><span class="sxs-lookup"><span data-stu-id="26b6a-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="a91ff-107">Configurando sub-redes de rede</span><span class="sxs-lookup"><span data-stu-id="a91ff-107">Configuring Network Subnets</span></span>](https://technet.microsoft.com/library/1ba8c4e3-fbc7-4758-88ac-d651fef17bed.aspx)
+- [<span data-ttu-id="26b6a-107">Configurando sub-redes de rede</span><span class="sxs-lookup"><span data-stu-id="26b6a-107">Configuring Network Subnets</span></span>](https://technet.microsoft.com/library/1ba8c4e3-fbc7-4758-88ac-d651fef17bed.aspx)
 
 
 

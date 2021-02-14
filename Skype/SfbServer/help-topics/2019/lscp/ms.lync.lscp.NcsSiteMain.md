@@ -22,11 +22,11 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49808481"
 ---
-# <a name="configure-a-network-site"></a><span data-ttu-id="a8336-104">Configurar um Site de Rede</span><span class="sxs-lookup"><span data-stu-id="a8336-104">Configure a Network Site</span></span>
+# <a name="configure-a-network-site"></a><span data-ttu-id="368d0-104">Configurar um Site de Rede</span><span class="sxs-lookup"><span data-stu-id="368d0-104">Configure a Network Site</span></span>
 
-<span data-ttu-id="a8336-105">O que você deseja fazer?</span><span class="sxs-lookup"><span data-stu-id="a8336-105">What do you want to do?</span></span> <span data-ttu-id="a8336-106">Clique no link para a tarefa que você deseja executar.</span><span class="sxs-lookup"><span data-stu-id="a8336-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="368d0-105">O que você deseja fazer?</span><span class="sxs-lookup"><span data-stu-id="368d0-105">What do you want to do?</span></span> <span data-ttu-id="368d0-106">Clique no link para a tarefa que você deseja executar.</span><span class="sxs-lookup"><span data-stu-id="368d0-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="a8336-107">Configurando sites de rede</span><span class="sxs-lookup"><span data-stu-id="a8336-107">Configuring Network Sites</span></span>](https://technet.microsoft.com/library/358aa08a-c5bc-45fc-8017-19e6202f88c5.aspx)
+- [<span data-ttu-id="368d0-107">Configurando sites de rede</span><span class="sxs-lookup"><span data-stu-id="368d0-107">Configuring Network Sites</span></span>](https://technet.microsoft.com/library/358aa08a-c5bc-45fc-8017-19e6202f88c5.aspx)
 
 
 

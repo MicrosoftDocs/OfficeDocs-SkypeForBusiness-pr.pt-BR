@@ -23,10 +23,10 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49810521"
 ---
-# <a name="disaster-recovery-planning-tool"></a><span data-ttu-id="5a74e-103">Disaster Recovery (Planning Tool)</span><span class="sxs-lookup"><span data-stu-id="5a74e-103">Disaster Recovery (Planning Tool)</span></span>
+# <a name="disaster-recovery-planning-tool"></a><span data-ttu-id="8b9f8-103">Disaster Recovery (Planning Tool)</span><span class="sxs-lookup"><span data-stu-id="8b9f8-103">Disaster Recovery (Planning Tool)</span></span>
  
-<span data-ttu-id="5a74e-104">O Skype for Business Server 2015 inclui medidas de recuperação de desastres, permitindo que você emparelhe pools de Front-End localizados em dois data centers.</span><span class="sxs-lookup"><span data-stu-id="5a74e-104">Skype for Business Server 2015 includes disaster recovery measures by enabling you to pair Front End pools located in two data centers.</span></span>
+<span data-ttu-id="8b9f8-104">O Skype for Business Server 2015 inclui medidas de recuperação de desastres, permitindo que você emparelhe pools de Front-End localizados em dois data centers.</span><span class="sxs-lookup"><span data-stu-id="8b9f8-104">Skype for Business Server 2015 includes disaster recovery measures by enabling you to pair Front End pools located in two data centers.</span></span>
   
-<span data-ttu-id="5a74e-105">Para obter detalhes sobre como preparar seu ambiente para recuperação de desastres, consulte [Plan for high availability and disaster recovery in Skype for Business Server 2015.](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md)</span><span class="sxs-lookup"><span data-stu-id="5a74e-105">For details about preparing your environment for disaster recovery, see [Plan for high availability and disaster recovery in Skype for Business Server 2015](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md).</span></span>
+<span data-ttu-id="8b9f8-105">Para obter detalhes sobre como preparar seu ambiente para recuperação de desastres, consulte [Plan for high availability and disaster recovery in Skype for Business Server 2015.](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md)</span><span class="sxs-lookup"><span data-stu-id="8b9f8-105">For details about preparing your environment for disaster recovery, see [Plan for high availability and disaster recovery in Skype for Business Server 2015](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md).</span></span>
   
 

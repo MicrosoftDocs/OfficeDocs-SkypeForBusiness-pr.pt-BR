@@ -22,11 +22,11 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49808536"
 ---
-# <a name="configure-a-network-region"></a><span data-ttu-id="86480-104">Configurar uma Região de Rede</span><span class="sxs-lookup"><span data-stu-id="86480-104">Configure a Network Region</span></span>
+# <a name="configure-a-network-region"></a><span data-ttu-id="816fa-104">Configurar uma Região de Rede</span><span class="sxs-lookup"><span data-stu-id="816fa-104">Configure a Network Region</span></span>
 
-<span data-ttu-id="86480-105">O que você deseja fazer?</span><span class="sxs-lookup"><span data-stu-id="86480-105">What do you want to do?</span></span> <span data-ttu-id="86480-106">Clique no link para a tarefa que você deseja executar.</span><span class="sxs-lookup"><span data-stu-id="86480-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="816fa-105">O que você deseja fazer?</span><span class="sxs-lookup"><span data-stu-id="816fa-105">What do you want to do?</span></span> <span data-ttu-id="816fa-106">Clique no link para a tarefa que você deseja executar.</span><span class="sxs-lookup"><span data-stu-id="816fa-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="86480-107">Configurando regiões de rede</span><span class="sxs-lookup"><span data-stu-id="86480-107">Configuring Network Regions</span></span>](https://technet.microsoft.com/library/bd08bb66-5976-4ece-b45c-7de19569f814.aspx)
+- [<span data-ttu-id="816fa-107">Configurando regiões de rede</span><span class="sxs-lookup"><span data-stu-id="816fa-107">Configuring Network Regions</span></span>](https://technet.microsoft.com/library/bd08bb66-5976-4ece-b45c-7de19569f814.aspx)
 
 
 
