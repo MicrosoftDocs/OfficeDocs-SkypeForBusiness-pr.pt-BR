@@ -22,8 +22,8 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49824481"
 ---
-# <a name="legacy-merge-next-hop"></a><span data-ttu-id="71954-104">Próximo Salto de Mesclagem de Legado</span><span class="sxs-lookup"><span data-stu-id="71954-104">Legacy Merge Next Hop</span></span>
+# <a name="legacy-merge-next-hop"></a><span data-ttu-id="0ba8e-104">Próximo Salto de Mesclagem de Legado</span><span class="sxs-lookup"><span data-stu-id="0ba8e-104">Legacy Merge Next Hop</span></span>
  
-<span data-ttu-id="71954-p102">O **FQDN de Próximo Salto** identifica o servidor de próximo salto para o qual o Servidor de Borda herdado encaminha o tráfego interno. Digite o nome de domínio totalmente qualificado (FQDN) do servidor de próximo salto para o qual esse Servidor de Borda encaminha o tráfego interno e selecione se é um **Pool de Front-Ends** ou um **Diretor**.</span><span class="sxs-lookup"><span data-stu-id="71954-p102">The **Next Hop FQDN** identifies the next hop server to which the legacy Edge Server routes internal traffic. Type the fully qualified domain name (FQDN) of the next hop server to which this Edge Server routes internal traffic, and then select whether it is a **Front End pool** or a **Director**.</span></span> 
+<span data-ttu-id="0ba8e-p102">O **FQDN de Próximo Salto** identifica o servidor de próximo salto para o qual o Servidor de Borda herdado encaminha o tráfego interno. Digite o nome de domínio totalmente qualificado (FQDN) do servidor de próximo salto para o qual esse Servidor de Borda encaminha o tráfego interno e selecione se é um **Pool de Front-Ends** ou um **Diretor**.</span><span class="sxs-lookup"><span data-stu-id="0ba8e-p102">The **Next Hop FQDN** identifies the next hop server to which the legacy Edge Server routes internal traffic. Type the fully qualified domain name (FQDN) of the next hop server to which this Edge Server routes internal traffic, and then select whether it is a **Front End pool** or a **Director**.</span></span> 
   
 

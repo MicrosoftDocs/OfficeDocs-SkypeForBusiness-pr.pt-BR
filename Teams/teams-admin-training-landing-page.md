@@ -43,7 +43,7 @@ Saiba como gerenciar o Teams para sua organização.
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>NOVO: treinamento ministrados por instrutor para o Teams</h3>
+                        <h3>NOVO: treinamento ministrdo por instrutor para o Teams</h3>
                     </div>
                 </div>
             </div>

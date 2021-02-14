@@ -22,13 +22,13 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49824521"
 ---
-# <a name="translation-rule-create-new-or-edit-existing"></a><span data-ttu-id="622b1-104">Regra de Conversão: Criar Nova ou Editar Existente</span><span class="sxs-lookup"><span data-stu-id="622b1-104">Translation Rule: Create New or Edit Existing</span></span>
+# <a name="translation-rule-create-new-or-edit-existing"></a><span data-ttu-id="a2938-104">Regra de Conversão: Criar Nova ou Editar Existente</span><span class="sxs-lookup"><span data-stu-id="a2938-104">Translation Rule: Create New or Edit Existing</span></span>
 
-<span data-ttu-id="622b1-105">O que você deseja fazer?</span><span class="sxs-lookup"><span data-stu-id="622b1-105">What do you want to do?</span></span> <span data-ttu-id="622b1-106">Clique no link para a tarefa que você deseja executar.</span><span class="sxs-lookup"><span data-stu-id="622b1-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="a2938-105">O que você deseja fazer?</span><span class="sxs-lookup"><span data-stu-id="a2938-105">What do you want to do?</span></span> <span data-ttu-id="a2938-106">Clique no link para a tarefa que você deseja executar.</span><span class="sxs-lookup"><span data-stu-id="a2938-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="622b1-107">Criar ou modificar uma regra de conversão para apresentação de ID chamada no Skype for Business Server</span><span class="sxs-lookup"><span data-stu-id="622b1-107">Create or modify a translation rule for called ID presentation in Skype for Business Server</span></span>](../../../deploy/deploy-enterprise-voice/called-id-presentation-rules.md)
+- [<span data-ttu-id="a2938-107">Criar ou modificar uma regra de conversão para apresentação de ID chamada no Skype for Business Server</span><span class="sxs-lookup"><span data-stu-id="a2938-107">Create or modify a translation rule for called ID presentation in Skype for Business Server</span></span>](../../../deploy/deploy-enterprise-voice/called-id-presentation-rules.md)
 
-- [<span data-ttu-id="622b1-108">Criar ou modificar uma regra de conversão manualmente</span><span class="sxs-lookup"><span data-stu-id="622b1-108">Create or Modify a Translation Rule Manually</span></span>](https://technet.microsoft.com/library/049d1db3-af58-48c5-be89-52e1d068a4bd.aspx)
+- [<span data-ttu-id="a2938-108">Criar ou modificar uma regra de conversão manualmente</span><span class="sxs-lookup"><span data-stu-id="a2938-108">Create or Modify a Translation Rule Manually</span></span>](https://technet.microsoft.com/library/049d1db3-af58-48c5-be89-52e1d068a4bd.aspx)
 
 
 
