@@ -22,11 +22,11 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49800321"
 ---
-# <a name="users-view-or-configure-client-version-policy"></a><span data-ttu-id="ba120-104">Usuários: Exibir ou Configurar Política de Versão de Cliente</span><span class="sxs-lookup"><span data-stu-id="ba120-104">Users: View or Configure Client Version Policy</span></span>
+# <a name="users-view-or-configure-client-version-policy"></a><span data-ttu-id="e5798-104">Usuários: Exibir ou Configurar Política de Versão de Cliente</span><span class="sxs-lookup"><span data-stu-id="e5798-104">Users: View or Configure Client Version Policy</span></span>
 
-<span data-ttu-id="ba120-105">O que você deseja fazer?</span><span class="sxs-lookup"><span data-stu-id="ba120-105">What do you want to do?</span></span> <span data-ttu-id="ba120-106">Clique no link para a tarefa que você deseja executar.</span><span class="sxs-lookup"><span data-stu-id="ba120-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="e5798-105">O que você deseja fazer?</span><span class="sxs-lookup"><span data-stu-id="e5798-105">What do you want to do?</span></span> <span data-ttu-id="e5798-106">Clique no link para a tarefa que você deseja executar.</span><span class="sxs-lookup"><span data-stu-id="e5798-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="ba120-107">Especificar versões de cliente com suporte para entrada por um usuário</span><span class="sxs-lookup"><span data-stu-id="ba120-107">Specify Client Versions Supported for Sign-in by a User</span></span>](https://technet.microsoft.com/library/f7e8ba2f-62dc-4e7d-8b63-682986f10240.aspx)
+- [<span data-ttu-id="e5798-107">Especificar versões de cliente com suporte para entrada por um usuário</span><span class="sxs-lookup"><span data-stu-id="e5798-107">Specify Client Versions Supported for Sign-in by a User</span></span>](https://technet.microsoft.com/library/f7e8ba2f-62dc-4e7d-8b63-682986f10240.aspx)
 
-<span data-ttu-id="ba120-108">Para obter detalhes sobre os diferentes procedimentos que você pode executar usando o Painel de Controle do Skype for Business Server, consulte [Gerenciar o Skype for Business Server 2015.](../../manage/manage.md)</span><span class="sxs-lookup"><span data-stu-id="ba120-108">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
+<span data-ttu-id="e5798-108">Para obter detalhes sobre os diferentes procedimentos que você pode executar usando o Painel de Controle do Skype for Business Server, consulte [Gerenciar o Skype for Business Server 2015.](../../manage/manage.md)</span><span class="sxs-lookup"><span data-stu-id="e5798-108">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
 
