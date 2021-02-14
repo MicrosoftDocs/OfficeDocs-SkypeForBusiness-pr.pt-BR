@@ -78,7 +78,7 @@ Em geral, a configuração do espelhamento SQL entre os dois servidores back-end
     
 - Que o principal e o espelho tenham a mesma edição do SQL Server. A testemunha pode ter uma edição diferente.
     
-Para práticas recomendadas do SQL em termos de quais versões SQL são suportadas para uma função testemunha, consulte "Testemunha de espelhamento de banco de  [dados"](https://go.microsoft.com/fwlink/p/?LinkId=247345) na Biblioteca MSDN.
+Para práticas recomendadas do SQL em termos de quais versões SQL são suportadas para uma função Testemunha, consulte "Testemunha de espelhamento de banco de  [dados"](https://go.microsoft.com/fwlink/p/?LinkId=247345) na Biblioteca MSDN.
   
 Antes de configurar o espelhamento do servidor, você deve primeiro configurar as permissões do banco de dados SQL corretamente. Para obter detalhes, consulte "Configurar contas de logon para espelhamento de banco de dados ou grupos de disponibilidade  [AlwaysOn (SQL Server)"](https://go.microsoft.com/fwlink/p/?LinkId=268454).
   
@@ -158,7 +158,7 @@ Para usar o cluster de failover sql, você deve primeiro configurar e configurar
 > [!NOTE]
 > O SQL Server 2019, 2017 e o SQL Server 2016 são as únicas versões com suporte do Skype for Business Server 2019.
     
-Para usar o cluster de failover do SQL, você deve primeiro configurar o cluster do SQL Server antes de implantar seu pool de Front-End. Para obter as práticas recomendadas e as instruções de configuração para clustering de failover no SQL Server 2014 e 2016, confira [https://technet.microsoft.com/library/hh231721.aspx](https://technet.microsoft.com/library/hh231721.aspx) . Para clustering de failover no SQL Server 2008, consulte [https://technet.microsoft.com/library/ms189134(v=sql.105).aspx](https://technet.microsoft.com/library/ms189134%28v=sql.105%29.aspx) .
+Para usar o cluster de failover sql, você deve primeiro configurar e configurar o cluster do SQL Server antes de implantar seu pool de Front-End. Para obter as práticas recomendadas e as instruções de configuração para clustering de failover no SQL Server 2014 e 2016, confira [https://technet.microsoft.com/library/hh231721.aspx](https://technet.microsoft.com/library/hh231721.aspx) . Para clustering de failover no SQL Server 2008, consulte [https://technet.microsoft.com/library/ms189134(v=sql.105).aspx](https://technet.microsoft.com/library/ms189134%28v=sql.105%29.aspx) .
   
 Ao instalar o SQL Server, você deve instalar o SQL Server Management Studio para gerenciar os locais para o banco de daods e os locais para o arquivo de log. O SQL Server Management Studio é instalado como um componente opcional ao instalar o SQL Server.
   

@@ -32,7 +32,7 @@ Você pode especificar várias opções para o Servidor de Chat Persistente que 
     
 - Limite de atualização do participante. O número máximo de participantes em uma determinada sala de chat para a qual o Chat Persistente enviará atualizações da lista. O padrão global é 75.
     
-- URL de Gerenciamento de Sala. A URL usada para gerenciamento de sala de chat personalizado. A configuração permite o uso de uma solução de gerenciamento de sala personalizada. 
+- URL de Gerenciamento de Sala. A URL usada para o gerenciamento de sala de chat personalizado. A configuração permite o uso de uma solução de gerenciamento de sala personalizada. 
    
 > [!NOTE] 
 > O chat persistente está disponível no Skype for Business Server 2015, mas não é mais suportado no Skype for Business Server 2019. A mesma funcionalidade está disponível no Teams. Para saber mais, confira [Como começar a atualizar o Microsoft Teams.](/microsoftteams/upgrade-start-here) Se você precisar usar o chat persistente, suas opções são migrar os usuários que exigem essa funcionalidade para o Teams ou continuar usando o Skype for Business Server 2015.
@@ -65,7 +65,7 @@ Para configurar opções globais do Servidor de Chat Persistente:
   
    - Em **Tamanho máximo do arquivo (KB)**, selecione o tamanho máximo do arquivo de cada histórico de chat. Por padrão, o número é 20 MB (20.000 KB). Esse é o tamanho máximo para um arquivo que pode ser carregado em qualquer sala de chat no sistema (para a qual o carregamento de arquivos é habilitado por sua configuração correspondente de **Categoria**).
     
-   - Em **Limite de atualização de participantes**, selecione o limite de atualizações de participantes. O Servidor de Chat Persistente envia informações da lista de participação (que está conectado a uma sala de chat) para todos os participantes até que o número de usuários conectados atinja esse número. Por padrão, o número é 75. Esse limite indica o número máximo de participantes em uma determinada sala além da qual o Servidor de Chat Persistente para de enviar atualizações da lista de participantes para clientes conectados sobre quem está presente na sala.
+   - Em **Limite de atualização de participantes**, selecione o limite de atualizações de participantes. O Servidor de Chat Persistente envia informações da lista de participação (que está conectado a uma sala de chat) para todos os participantes até que o número de usuários conectados atinja esse número. Por padrão, o número é 75. Esse limite indica o número máximo de participantes em uma determinada sala além da qual o Servidor de Chat Persistente para de enviar atualizações de lista para clientes conectados sobre quem está presente na sala.
     
    - (Opcional.) Na **URL de gerenciamento de sala,** selecione a URL de gerenciamento de sala. Essa é a URL para um gerenciamento de sala personalizada baseada na Web. Se você não precisar personalizar o gerenciamento de sala e simplesmente usar a configuração padrão, deixe essa opção em branco. Após a URL ser definida, ela é aplicada como URL de gerenciamento de sala interna e externa.
     
@@ -98,7 +98,7 @@ Para configurar opções para um pool de Servidor de Chat Persistente específic
   
    - Em **Tamanho máximo do arquivo (KB)**, selecione o tamanho máximo do arquivo de cada histórico de chat. Por padrão, o número é 20 MB (20.000 KB). Esse é o tamanho máximo para um arquivo que pode ser carregado em qualquer sala de chat no sistema (para a qual o carregamento de arquivos é habilitado por sua configuração correspondente de **Categoria**).
     
-   - Em **Limite de atualização de participantes**, selecione o limite de atualizações de participantes. O Servidor de Chat Persistente envia informações da lista de participação (que está conectado a uma sala de chat) para todos os participantes até que o número de usuários conectados atinja esse número. Por padrão, o número é 75. Esse limite indica o número máximo de participantes em uma determinada sala além da qual o Servidor de Chat Persistente para de enviar atualizações da lista de participantes para clientes conectados sobre quem está presente na sala.
+   - Em **Limite de atualização de participantes**, selecione o limite de atualizações de participantes. O Servidor de Chat Persistente envia informações da lista de participação (que está conectado a uma sala de chat) para todos os participantes até que o número de usuários conectados atinja esse número. Por padrão, o número é 75. Esse limite indica o número máximo de participantes em uma determinada sala além da qual o Servidor de Chat Persistente para de enviar atualizações de lista para clientes conectados sobre quem está presente na sala.
     
    - Em **URL de Gerenciamento da Sala**, selecione a URL de gerenciamento de sala. Essa é a URL para uma implantação de gerenciamento de sala baseada na Web. Se você não precisar personalizar o gerenciamento de sala e simplesmente usar a configuração padrão, deixe essa opção em branco.
     

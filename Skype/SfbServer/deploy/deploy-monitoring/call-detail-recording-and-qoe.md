@@ -23,7 +23,7 @@ ms.locfileid: "49802281"
  
 **Resumo:** Saiba como configurar o CDR e a QoE no Skype for Business Server.
   
-Configure o monitoramento CDR e QoE usando relatórios do SQL Server Reporting Services para o Skype for Business Server.
+Configure o monitoramento de CDR e QoE usando relatórios do SQL Server Reporting Services para o Skype for Business Server.
   
 ## <a name="configure-cdr-and-qoe"></a>Configurar CDR e QoE
 
@@ -37,8 +37,8 @@ Ao instalar o Skype for Business Server, você também instalará um conjunto pr
   
 |**Propriedade**|**Descrição**|**Valor padrão**|
 |:-----|:-----|:-----|
-|EnableCDR  <br/> |Indica se o CDR está habilitado ou não. Se for Verdadeiro, todos os registros de CDR serão coletados e gravados no banco de dados de monitoramento.  <br/> |Verdadeiro.  <br/> |
-|EnablePurging  <br/> |Indica se os registros CDR serão excluídos periodicamente do banco de dados. Se for Verdadeiro, os registros serão excluídos após o período especificado pelas propriedades KeepCallDetailForDays (para registros CDR) e KeepErrorReportForDays (para erros de CDR). Se for Falso, os registros CDR serão mantidos indefinidamente.  <br/> |Verdadeiro.  <br/> |
+|EnableCDR  <br/> |Indica se o CDR está habilitado ou não. Se for Verdadeiro, todos os registros de CDR serão coletados e gravados no banco de dados de monitoramento.  <br/> |Verdadeiro  <br/> |
+|EnablePurging  <br/> |Indica se os registros CDR serão excluídos periodicamente do banco de dados. Se for Verdadeiro, os registros serão excluídos após o período especificado pelas propriedades KeepCallDetailForDays (para registros CDR) e KeepErrorReportForDays (para erros de CDR). Se for Falso, os registros CDR serão mantidos indefinidamente.  <br/> |Verdadeiro  <br/> |
 |KeepCallDetailForDays  <br/> |Indica o número de dias durante os quais os registros CDR serão mantidos no banco de dados; quaisquer registros mais antigos do que o número especificado de dias serão automaticamente excluídos. No entanto, isso ocorrerá somente se a exclusão tiver sido habilitada.  <br/> KeepCallDetailForDays pode ser definido como qualquer valor inteiro entre 1 e 2562 dias (aproximadamente 7 anos).  <br/> |60 dias  <br/> |
 |KeepErrorReportForDays  <br/> |Indica o número de dias durante os quais esses relatórios de erro CDR serão mantidos; quaisquer relatórios mais antigos do que o número especificado de dias serão automaticamente excluídos. Os relatórios de erros de CDR são relatórios de diagnóstico carregados por aplicativos cliente, como o Skype for Business Server.  <br/> É possível definir essa propriedade como qualquer valor inteiro entre 1 e 2562 dias.  <br/> |60 dias  <br/> |
    
@@ -46,11 +46,11 @@ Da mesma forma, os valores padrão para as configurações de QoE selecionadas s
   
 |**Propriedade**|**Descrição**|**Valor padrão**|
 |:-----|:-----|:-----|
-|EnableQoE  <br/> |Indica se o monitoramento de QoE está habilitado ou não. Se for Verdadeiro, todos os registros de QoE serão coletados e gravados no banco de dados de monitoramento.  <br/> |Verdadeiro.  <br/> |
-|EnablePurging  <br/> |Indica se os registros de QoE serão excluídos periodicamente do banco de dados. Se for Verdadeiro, os registros serão excluídos após o período especificado pela propriedade KeepQoEDataForDays. Se for Falso, os registros de QoE serão mantidos indefinidamente.  <br/> |Verdadeiro.  <br/> |
+|EnableQoE  <br/> |Indica se o monitoramento de QoE está habilitado ou não. Se for Verdadeiro, todos os registros de QoE serão coletados e gravados no banco de dados de monitoramento.  <br/> |Verdadeiro  <br/> |
+|EnablePurging  <br/> |Indica se os registros de QoE serão excluídos periodicamente do banco de dados. Se for Verdadeiro, os registros serão excluídos após o período especificado pela propriedade KeepQoEDataForDays. Se for Falso, os registros de QoE serão mantidos indefinidamente.  <br/> |Verdadeiro  <br/> |
 |KeepQoEDataForDays  <br/> |Indica o número de dias durante os quais os registros de QoE serão mantidos no banco de dados; quaisquer registros mais antigos do que o número especificado de dias serão automaticamente excluídos. No entanto, isso ocorrerá somente se a exclusão tiver sido habilitada.  <br/> KeepCallDetailForDays pode ser definido como qualquer valor inteiro entre 1 e 2562 dias.  <br/> |60 dias  <br/> |
    
-Se for necessário modificar essas configurações globais, você poderá fazer isso usando os cmdlets Set-CsCdrConfiguration e Set-CsQoEConfiguration. Por exemplo, esse comando (executado a partir do Shell de Gerenciamento do Skype for Business Server) desabilita o monitoramento CDR no escopo global; isso é feito definindo a propriedade EnableCDR como False ($False):
+Se for necessário modificar essas configurações globais, você poderá fazer isso usando os cmdlets Set-CsCdrConfiguration e Set-CsQoEConfiguration. Por exemplo, esse comando (executado de dentro do Shell de Gerenciamento do Skype for Business Server) desabilita o monitoramento CDR no escopo global; isso é feito definindo a propriedade EnableCDR como False ($False):
   
 ```powershell
 Set-CsCdrConfiguration -Identity "global" -EnableCDR $False

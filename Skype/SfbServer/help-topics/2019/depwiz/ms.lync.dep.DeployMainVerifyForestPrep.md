@@ -30,7 +30,7 @@ Para confirmar se a replicação do Catálogo Global e a criação de objetos du
     
 2. Em **Usuários e Computadores do Active Directory**, expanda o nome do domínio de sua floresta ou domínio filho.
     
-3. Clique no **contêiner** Usuários no painel esquerdo e procure o grupo Universal CsAdministrator no painel direito. Se CsAdministrator (entre oito outros novos grupos Universais que começam com Cs) estiver presente, a replicação da Preparação da Floresta foi bem-sucedida.
+3. Clique no **contêiner** Usuários no painel esquerdo e procure o grupo Universal CsAdministrator no painel direito. Se CsAdministrator (entre oito outros novos grupos Universais que começam com Cs) estiver presente, a replicação da Preparação da Floresta terá sido bem-sucedida.
     
 4. Caso o(s) grupo(s) ainda não estejam presentes, você pode forçar a replicação ou aguardar 15 minutos e atualizar o painel do lado direito. A replicação está completa quando os grupos estiverem presentes.
     

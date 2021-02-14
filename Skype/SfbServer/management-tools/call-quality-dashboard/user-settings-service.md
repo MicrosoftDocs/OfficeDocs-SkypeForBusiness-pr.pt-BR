@@ -22,7 +22,7 @@ ms.locfileid: "49803032"
 ---
 # <a name="user-settings-service-for-call-quality-dashboard-cqd"></a>Serviço de Configurações do Usuário para o Painel de Qualidade da Chamada (CQD)
  
-**Resumo:** Saiba mais sobre o Serviço de Configurações do Usuário, que faz parte da API de Repositório para o Painel de Qualidade da Chamada. O Painel de Qualidade da Chamada é uma ferramenta do Skype for Business Server.
+**Resumo:** Saiba mais sobre o Serviço de Configurações do Usuário, que faz parte da API de Repositório para Painel de Qualidade de Chamada. O Painel de Qualidade da Chamada é uma ferramenta do Skype for Business Server.
   
 O Serviço de Configurações do Usuário faz parte da API de Repositório para o Painel de Qualidade da Chamada.
   
@@ -40,7 +40,7 @@ As operações REST estão incluídas na tabela a seguir.
 
 |**Operação**|**Descrição**|
 |:-----|:-----|
-|[Obter configurações de usuário](get-user-settings.md) <br/> |Obter configurações de usuário retorna uma lista de configurações para um usuário especificado.  <br/> |
+|[Obter configurações de usuário](get-user-settings.md) <br/> |Obter configurações do usuário retorna uma lista de configurações para um usuário especificado.  <br/> |
 |[Obter configuração de usuário](get-user-setting.md) <br/> |Obter Configuração do Usuário retorna uma configuração de usuário único.  <br/> |
    
 

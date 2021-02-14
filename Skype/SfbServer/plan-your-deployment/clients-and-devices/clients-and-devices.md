@@ -28,27 +28,27 @@ ms.locfileid: "49802751"
 
 **Resumo:** Revisão dos clientes e aplicativos com suporte para o Skype for Business.
 
-A força de trabalho atual está constantemente em movimento. Os funcionários precisam se comunicar e colaborar, trabalhando a partir do escritório corporativo, em locais regionais, em escritórios base ou em trânsito. O Skype for Business Server oferece suporte a essas necessidades por meio de um conjunto de interfaces de cliente que você pode implantar para os usuários da sua organização. Um planejamento cuidadoso garante que os funcionários recebam o que precisam e que o Skype for Business esteja disponível para eles onde quer que estejam.
+A força de trabalho atual está constantemente em movimento. Os funcionários precisam se comunicar e colaborar trabalhando a partir do escritório corporativo, em locais regionais, em escritórios base ou em trânsito. O Skype for Business Server oferece suporte a essas necessidades por meio de um conjunto de interfaces de cliente que você pode implantar para os usuários da sua organização. Um planejamento cuidadoso garante que os funcionários recebam o que precisam e que o Skype for Business esteja disponível para eles onde quer que estejam.
 
 ## <a name="available-clients"></a>Clientes disponíveis
 
-O Skype for Business Server oferece suporte a vários tipos de clientes, incluindo software cliente instalado por computador, clientes baseados na Web e clientes para dispositivos móveis. Os principais clientes são introduzidos nesta seção, para uma listagem detalhada de todos os clientes com suporte, consulte a comparação de recursos do cliente de desktop para o [Skype for Business Server 2015](desktop-feature-comparison.md) ou a comparação de recursos de cliente de desktop para o Skype for Business Server [2019.](../../../SfBServer2019/plan/feature-comparison.md) Se você já usou uma combinação de clientes do Lync, observe que há clientes Herdados incompatíveis com o Skype for Business Server 2019. [](clients-and-devices.md#Legacy) As atualizações ocorrem regularmente, portanto, verifique este tópico periodicamente para obter as informações mais recentes do cliente.
+O Skype for Business Server oferece suporte a vários tipos de clientes, incluindo software cliente instalado por computador, clientes baseados na Web e clientes para dispositivos móveis. Os principais clientes são introduzidos nesta seção, para uma listagem detalhada de todos os clientes com suporte, consulte a comparação de recursos do cliente de desktop para o [Skype for Business Server 2015](desktop-feature-comparison.md) ou a comparação de recursos do cliente de desktop para o Skype for Business Server [2019.](../../../SfBServer2019/plan/feature-comparison.md) Se você já usou uma combinação de clientes do Lync, observe que há clientes Herdados incompatíveis com o Skype for Business Server 2019. [](clients-and-devices.md#Legacy) As atualizações ocorrem regularmente, portanto, verifique este tópico periodicamente para obter as informações mais recentes do cliente.
 
 ### <a name="skype-for-business-2019"></a>Skype for Business (2019)
 
-O Skype for Business (2019) é o cliente com recursos completos recomendado para o Skype for Business Server 2015 e 2019. Confira [as atualizações mais recentes no Skype for Business](https://support.office.com/article/What-s-new-in-Skype-for-Business-2016-cece9f93-add1-4d93-9a38-56cc598e5781) para ver uma descrição dos novos recursos. O suporte a recursos do cliente é detalhado na comparação de recursos do cliente da área de trabalho para [o Skype for Business](desktop-feature-comparison.md)e a documentação do usuário está na ajuda do Skype for [Business.](https://support.office.com/Skype-for-business) Esse cliente é incluído quando um usuário instala o Microsoft 365 ou o Office 365.
+O Skype for Business (2019) é o cliente com recursos completos recomendado para o Skype for Business Server 2015 e 2019. Confira [as atualizações mais recentes no Skype for Business](https://support.office.com/article/What-s-new-in-Skype-for-Business-2016-cece9f93-add1-4d93-9a38-56cc598e5781) para ver uma descrição dos novos recursos. O suporte a recursos do cliente é detalhado na comparação de recursos do cliente de desktop para [o Skype for Business](desktop-feature-comparison.md)e a documentação do usuário está na ajuda do Skype for [Business.](https://support.office.com/Skype-for-business) Esse cliente é incluído quando um usuário instala o Microsoft 365 ou o Office 365.
 
 Um cliente básico gratuito que oferece suporte a menos recursos também está disponível. Ambas as versões estão disponíveis para download em [Baixar o Skype for Business em todos os seus dispositivos.](https://products.office.com/skype-for-business/download-app?tab=tabs-3) As diferenças entre os clientes Completo e Básico são descritas na [seção Limitações básicas do](desktop-feature-comparison.md#Full-Basic) cliente.
 
 ### <a name="skype-for-business-2016"></a>Skype for Business 2016
 
-O Skype for Business 2016 é um cliente completo do Skype for Business Server 2015 ou 2019. Veja [as novidades do Skype for Business 2016](https://support.office.com/article/What-s-new-in-Skype-for-Business-2016-cece9f93-add1-4d93-9a38-56cc598e5781) para ver uma descrição dos novos recursos. O suporte a recursos do cliente é detalhado na comparação de recursos do cliente da área de trabalho para [o Skype for Business](desktop-feature-comparison.md)e a documentação do usuário está na ajuda do Skype for [Business.](https://support.office.com/Skype-for-business) Esse cliente é incluído quando um usuário instala o Office 365.
+O Skype for Business 2016 é um cliente completo do Skype for Business Server 2015 ou 2019. Veja [as novidades do Skype for Business 2016](https://support.office.com/article/What-s-new-in-Skype-for-Business-2016-cece9f93-add1-4d93-9a38-56cc598e5781) para ver uma descrição dos novos recursos. O suporte a recursos do cliente é detalhado na comparação de recursos do cliente de desktop para [o Skype for Business](desktop-feature-comparison.md)e a documentação do usuário está na ajuda do Skype for [Business.](https://support.office.com/Skype-for-business) Esse cliente é incluído quando um usuário instala o Office 365.
 
 Um cliente básico gratuito que oferece suporte a menos recursos também está disponível. Ambas as versões estão disponíveis para download em [Baixar o Skype for Business em todos os seus dispositivos.](https://products.office.com/skype-for-business/download-app?tab=tabs-3) As diferenças entre os clientes Completo e Básico são descritas na [seção Limitações básicas do](desktop-feature-comparison.md#Full-Basic) cliente.
 
 ### <a name="skype-for-business-2015"></a>Skype for Business 2015
 
-O Skype for Business 2015 é um cliente completo do Skype for Business Server 2015 ou 2019. A interface do usuário do Skype for Business foi totalmente reprojetada e inclui recursos recém-integrados, como o Monitor de Chamadas, integração de diretórios do Skype, emoticons e muito mais. Para um resumo das alterações, confira [Lync agora é Skype for Business — veja as novidades.](https://support.office.com/en-in/article/aba02d7e-c801-4a82-bccd-e7207240f612) O suporte a recursos do cliente é detalhado na comparação de recursos do cliente da área de trabalho para [o Skype for Business](desktop-feature-comparison.md)e a documentação do usuário está na ajuda do Skype for [Business.](https://support.office.com/Skype-for-business) Esse cliente é incluído quando um usuário instala o Office 365.
+O Skype for Business 2015 é um cliente completo do Skype for Business Server 2015 ou 2019. A interface do usuário do Skype for Business foi totalmente reprojetada e inclui recursos recém-integrados, como o Monitor de Chamadas, integração de diretórios do Skype, emoticons e muito mais. Para um resumo das alterações, confira [Lync agora é Skype for Business — veja as novidades.](https://support.office.com/en-in/article/aba02d7e-c801-4a82-bccd-e7207240f612) O suporte a recursos do cliente é detalhado na comparação de recursos do cliente de desktop para [o Skype for Business](desktop-feature-comparison.md)e a documentação do usuário está na ajuda do Skype for [Business.](https://support.office.com/Skype-for-business) Esse cliente é incluído quando um usuário instala o Office 365.
 
 ### <a name="skype-for-business-on-mac"></a>Skype for Business no Mac
 
@@ -59,7 +59,7 @@ O [cliente Skype for Business para Mac](https://www.microsoft.com/download/detai
 Os clientes estão disponíveis para Windows Phone, iPhone/iPad e Android. Os usuários podem baixá-los [em Baixar o Skype for Business em todos os seus dispositivos.](https://products.office.com/skype-for-business/download-app?tab=tabs-3) O suporte a recursos para esses clientes é detalhado na comparação de recursos [do cliente móvel para o Skype for Business.](mobile-feature-comparison.md)
 
 > [!NOTE]
-> O suporte a MCX (Mobility Service) para clientes móveis herdado não está mais disponível no Skype for Business Server 2019. Todos os clientes móveis atuais do Skype for Business já usam o Unified Communications Web API (UCWA) para dar suporte a mensagens instantâneas (IM), presença e contatos. Os usuários com clientes herddos usando o MCX precisarão atualizar para um cliente atual.
+> O suporte a MCX (Mobility Service) para clientes móveis herdado não está mais disponível no Skype for Business Server 2019. Todos os clientes móveis atuais do Skype for Business já usam o Unified Communications Web API (UCWA) para dar suporte a mensagens instantâneas (IM), presença e contatos. Os usuários com clientes herddos usando MCX precisarão atualizar para um cliente atual.
 
 ### <a name="online-meeting-add-in-for-skype-for-business"></a>Online Meeting Add-in for Skype for Business
 
@@ -67,7 +67,7 @@ O Complemento de Reunião Online do Skype for Business oferece suporte ao gerenc
 
 ### <a name="skype-for-business-web-app-and-skype-meetings-app"></a>Aplicativo Skype for Business Web App e Reuniões do Skype
 
-Se o Skype for Business não estiver instalado no computador de um usuário e o usuário clicar em um link de reunião em uma solicitação de reunião em um computador Windows, o Aplicativo de Reuniões do Skype ou o Skype for Business Web App será instalado e aberto.  O Aplicativo Reuniões do Skype é o cliente de escolha para participantes fora da sua organização. (Observe que, em um Mac, o Skype for Business para Mac será instalado e aberto.) Consulte [Planejar clientes de Reuniões (Aplicativo Web e](meetings-clients.md) Aplicativo reuniões) para ver os requisitos para usar esses clientes.
+Se o Skype for Business não estiver instalado no computador de um usuário e o usuário clicar em um link de reunião em uma solicitação de reunião em um computador Windows, o Aplicativo de Reuniões do Skype ou o Skype for Business Web App será instalado e aberto.  O Aplicativo Reuniões do Skype é o cliente escolhido para participantes fora da sua organização. (Observe que, em um Mac, o Skype for Business para Mac será instalado e aberto.) Consulte [Planejar clientes de Reuniões (Aplicativo Web e](meetings-clients.md) Aplicativo reuniões) para ver os requisitos para usar esses clientes.
 
 
 ### <a name="skype-for-business-web-scheduler"></a>Agendador do Skype for Business Web
@@ -80,7 +80,7 @@ Um ambiente VDI (Virtual Desktop Infrastructure) é usado em algumas organizaç�
 
 ### <a name="microsoft-teams-rooms"></a>Salas do Microsoft Teams
 
-As Salas do Microsoft Teams são a solução de conferência mais recente da Microsoft, que usa uma interface familiar e é facilmente implantada e gerenciada, aproveitando equipamentos existentes como painéis do PANEL para facilitar a instalação. As Salas do Microsoft Teams usam um aplicativo UWP criado para uso em execução em um Surface Pro 4 ou Surface Pro em um modo de console (depois de implantado, o aplicativo UWP é o único aplicativo que será executado no dispositivo) e exige sua própria conta de dispositivo na implementação. O software é atualizado por meio da Windows Store e do Windows Update. Veja https://aka.ms/MTRDocs detalhes sobre como usar esses consoles de sala em sua implantação. 
+As Salas do Microsoft Teams são a solução de conferência mais recente da Microsoft, que usa uma interface familiar e é facilmente implantada e gerenciada, aproveitando equipamentos existentes como painéis DO PANEL para facilitar a instalação. As Salas do Microsoft Teams usam um aplicativo UWP criado para uso em execução em um Surface Pro 4 ou Surface Pro em um modo de console (depois de implantado, o aplicativo UWP é o único aplicativo que será executado no dispositivo) e exige sua própria conta de dispositivo na implementação. O software é atualizado por meio da Windows Store e do Windows Update. Veja https://aka.ms/MTRDocs detalhes sobre como usar esses consoles de sala em sua implantação. 
 
 ### <a name="skype-for-business-on-surface-hub"></a>Skype for Business no Surface Hub
 
@@ -93,9 +93,9 @@ Se sua organização comprou as licenças apropriadas, escolha o cliente Complet
 
 Seus usuários podem instalar o cliente por conta própria do [Download do Skype for Business em todos os seus dispositivos.](https://products.office.com/skype-for-business/download-app?tab=tabs-3) O cliente também é instalado quando os usuários instalam o Microsoft 365 ou o Office 365 no Windows. Se alguns de seus usuários têm Macs, esses usuários terão um conjunto diferente de recursos, conforme descrito nas seções anteriores.
 
-Alguns recursos disponíveis com o Skype for Business Server 2015 não estão disponíveis no Skype for Business Online ou no Skype for Business Server 2019. Confira limitações de conta de usuário online ou híbrida para [2015](desktop-feature-comparison.md#Online-Hybrid) ou online ou híbrida para [2019](desktop-feature-comparison.md#Online-Hybrid) para saber mais. Os administradores do Skype for Business Online podem consultar a Descrição do Serviço do [Skype for Business Online](https://technet.microsoft.com/library/skype-for-business-online-service-description.aspx) para obter informações sobre os diferentes planos disponíveis para eles.
+Alguns recursos disponíveis com o Skype for Business Server 2015 não estão disponíveis no Skype for Business Online ou no Skype for Business Server 2019, confira Limitações da conta de usuário online ou híbrida para [2015](desktop-feature-comparison.md#Online-Hybrid) ou online ou híbrida para [2019](desktop-feature-comparison.md#Online-Hybrid) para saber mais. Os administradores do Skype for Business Online podem consultar a Descrição do Serviço do [Skype for Business Online](https://technet.microsoft.com/library/skype-for-business-online-service-description.aspx) para obter informações sobre os diferentes planos disponíveis para eles.
 
- Antes de implantar ou atualizar para o Skype for Business, verifique quais clientes já estão em uso em sua organização. Use a [comparação de recursos do cliente de área](desktop-feature-comparison.md) de trabalho do Skype for Business para entender o impacto do suporte ao recurso nesses clientes. Isso pode ajudá-lo a comunicar alterações aos usuários, acompanhar o processo de lançamento e compreender totalmente os benefícios da atualização para o cliente mais recente.
+ Antes de implantar ou atualizar para o Skype for Business, verifique quais clientes já estão em uso em sua organização. Use a comparação [de recursos do cliente de área](desktop-feature-comparison.md) de trabalho do Skype for Business para entender o impacto do suporte ao recurso nesses clientes. Isso pode ajudá-lo a comunicar alterações aos usuários, acompanhar o processo de lançamento e entender totalmente os benefícios da atualização para o cliente mais recente.
 
 ## <a name="ways-to-deploy-the-client-to-your-users"></a>Maneiras de implantar o cliente para seus usuários
 <a name="BK_User_Deploy"> </a>
@@ -114,13 +114,13 @@ Você pode fazer uma implantação personalizada do cliente, conforme descrito e
 
 Clique para Executar é uma tecnologia de streaming e virtualização da Microsoft que você pode usar para instalar e atualizar produtos do Office, incluindo o Skype for Business. Esses recursos de streaming e virtualização têm base em tecnologias no Microsoft Application Virtualization (App-V). O Clique para Executar tem as seguintes vantagens:
 
-- Instalação streaming do pacote do Office que resulta em pouco tempo de instalação
+- Instalação com streaming do pacote do Office que resulta em pouco tempo de instalação
 
 - Atualizações e patches slipstreamed
 
 - Ocupa menos espaço em disco
 
-- Licenciamento com base no usuário: 5 instalação por usuário
+- Licenciamento base do usuário: 5 instalação por usuário
 
 - Personalizável por meio do Editor de XML para a instalação de programas independentes
 

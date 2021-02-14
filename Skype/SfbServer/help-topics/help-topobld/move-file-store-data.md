@@ -36,13 +36,13 @@ Se você precisar remover o servidor de arquivos que está atuando atualmente co
 
 ### <a name="to-move-file-store-data-from-one-file-store-to-a-new-file-store"></a>Para mover os dados do repositório de arquivos de um repositório para o novo
 
-1. Faça logon em um computador como membro do grupo RTCUniversersalServerAdmins ou CsServerAdministrator no qual o Skype for Business Server 2015, Ferramentas Administrativas estão instalados.
+1. Faça logon em um computador como membro do grupo RTCUniversersalServerAdmins ou CsServerAdministrator onde o Skype for Business Server 2015, Ferramentas Administrativas está instalado.
 
 2. Abra uma janela do navegador e insira a URL do Administrador para abrir o Painel de Controle do Skype for Business Server.
 
 3. Na barra de navegação à esquerda, clique em **Topologia** e em **Status**.
 
-4. Para cada pool de Diretores, Diretor, servidor Standard Edition e pool de Front-End que usa o armazenamento de arquivos que você planeja remover, selecione o servidor ou pool, clique em Ação e clique em Parar todos os **serviços.**
+4. Para cada pool de Diretores, Diretor, servidor Standard Edition e pool de Front-End que usa o armazenamento de arquivos que você planeja remover, selecione o servidor ou pool, clique em Ação e em Parar todos os **serviços.**
 
 5. Faça logon no computador no qual o Construtor de Topologias está instalado como um membro do grupo Admins. do Domínio ou do grupo RTCUniversalServerAdmins.
 

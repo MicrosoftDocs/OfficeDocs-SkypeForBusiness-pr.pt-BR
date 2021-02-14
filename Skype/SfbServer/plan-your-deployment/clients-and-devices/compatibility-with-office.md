@@ -45,7 +45,7 @@ A tabela a seguir descreve os recursos do Skype for Business que são suportados
 |Status de presença nos campos De, Para e Cc do Microsoft Outlook    |Sim    |Sim    |Sim    |
 |Responder com IM ou chamada no menu de disponibilidade    |Sim (a partir do cartão de visitas)    |Sim (a partir do cartão de visitas)    |Sim (a partir do cartão de visitas)    |
 |Status de presença em uma solicitação de reunião na guia Assistente de Agendamento    |Sim    |Sim    |Não    |
-|Responder com IM ou chamada da barra de ferramentas ou da faixa de opções em uma mensagem de email recebida    |Sim    |Sim    |Sim    |
+|Responder com mensagem de IM ou chamada da barra de ferramentas ou da faixa de opções em uma mensagem de email recebida    |Sim    |Sim    |Sim    |
 |**Outros aplicativos do Office**   ||||
 |Anotações compartilhadas do OneNote    |Não    |Sim    |Não    |
 |Instalação integrada ao programa de instalação do Office    |Não    |Sim    |Não    |

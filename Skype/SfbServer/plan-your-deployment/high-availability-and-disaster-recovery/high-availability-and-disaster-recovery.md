@@ -26,7 +26,7 @@ ms.locfileid: "49802811"
  
 O Skype for Business Server oferece alta disponibilidade com pool de servidores, recuperação de desastre com emparelhamento de pool e vários modos de alta disponibilidade do Servidor #A0, incluindo grupos de Disponibilidade AlwaysOn, espelhamento de banco de dados e cluster de failover sql. 
   
-Alta disponibilidade refere-se a garantir que os serviços do Skype for Business Server estão disponíveis mesmo que um ou mais servidores caiam. A recuperação de desastre refere-se à manutenção dos serviços em caso de desastre natural ou causado por humanos e à preservação da maior parte dos dados de antes do desastre possível.
+Alta disponibilidade refere-se a garantir que os serviços do Skype for Business Server estão disponíveis mesmo que um ou mais servidores caiam. A recuperação de desastre refere-se a manter os serviços em caso de desastre natural ou causado por humanos e preservar o máximo de dados de antes do desastre possível.
   
 Como nas versões anteriores do Lync Server, o principal recurso de alta disponibilidade para a maioria das funções de servidor no Skype for Business Server é a redundância de servidor via pooling. Se um servidor executando uma certa função de servidor falha, os ouros servidores no pool executando a mesma função assumem a carga daquele servidor. Isso se aplica a servidores Front-End, Servidores de Borda, Servidores de Mediação e Diretores.
   

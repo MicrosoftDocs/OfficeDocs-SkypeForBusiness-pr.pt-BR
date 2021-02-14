@@ -11,7 +11,7 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 6f417569-b100-442c-ad48-fdd794626cf7
-description: 'Resumo: Saiba como instalar um serviço que gerará relatórios de monitoramento no Skype for Business Server.'
+description: 'Resumo: Saiba como instalar um serviço que gerará relatórios de Monitoramento no Skype for Business Server.'
 ms.openlocfilehash: 10a98bea4af3511c50a0b2b814f8b44911f3742f
 ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
@@ -36,7 +36,7 @@ Os Relatórios de Monitoramento do Skype for Business Server incluem mais de 30 
   
 - **Novos relatórios de qualidade de voz**. Esses novos relatórios incluem o Relatório de Comparação de Qualidade de Mídia no [Skype for Business Server](../../manage/health-and-monitoring/comparison.md), que compara a qualidade entre diferentes tipos de chamadas (por exemplo, entre chamadas com fio e chamadas sem fio); e o Relatório de Tempo de Ingressar em Conferência no [Skype for Business Server](../../manage/health-and-monitoring/join-time-report.md), que fornece informações sobre o tempo necessário para os usuários ingressarem em uma conferência. 
     
-- **Relatórios aprimorados para analisar e solucionar problemas de sessões de vídeo e compartilhamento de aplicativos.** O Relatório de Resumo de Qualidade de Mídia no [Skype for Business Server](../../manage/health-and-monitoring/summary.md) oferece uma maneira de analisar chamadas de vídeo e compartilhamento de aplicativos, enquanto o Relatório de Desempenho do Servidor no Skype for Business [Server](../../manage/health-and-monitoring/server-performance.md) detalha o desempenho dos servidores que geram essas chamadas. As métricas de vídeo e compartilhamento de aplicativos também são relatadas pelo Relatório de Detalhes de Sessão Ponto a Ponto no [Skype for Business Server](../../manage/health-and-monitoring/peer-to-peer-session-detail-report.md) e pelo Relatório de Detalhes de Conferência no Skype for Business [Server.](../../manage/health-and-monitoring/detail-report.md)
+- **Relatórios aprimorados para analisar e solucionar problemas de sessões de vídeo e compartilhamento de aplicativos.** O Relatório de Resumo de Qualidade de Mídia no [Skype for Business Server](../../manage/health-and-monitoring/summary.md) oferece uma maneira de analisar chamadas de vídeo e compartilhamento de aplicativos, enquanto o Relatório de Desempenho do Servidor no Skype for Business [Server](../../manage/health-and-monitoring/server-performance.md) detalha o desempenho dos servidores que geram essas chamadas. As métricas de vídeo e compartilhamento de aplicativos também são relatadas pelo Relatório detalhado de sessão ponto a ponto no [Skype for Business Server](../../manage/health-and-monitoring/peer-to-peer-session-detail-report.md) e pelo Relatório de Detalhes da Conferência no Skype for Business [Server.](../../manage/health-and-monitoring/detail-report.md)
     
 - **Desempenho de relatórios aprimorado**. Inclui tempos menores de resposta e recuperação de dados, bem como navegação mais rápida e fácil pelos relatórios.
     

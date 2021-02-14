@@ -28,7 +28,7 @@ A operação Executar Consulta faz parte da API de Dados do Painel de Qualidade 
 
 ## <a name="run-query"></a>Executar Consulta
 
-A operação Executar Consulta oferece a capacidade de executar uma consulta no cubo com base em dimensões, medidas e filtros especificados e retornar os dados.
+A operação Executar Consulta oferece a capacidade de executar uma consulta no cubo com base em dimensões, medições e filtros especificados e retornar os dados.
 
 
 |**Method**|**URI de solicitação**|**Versão HTTP**|
@@ -39,7 +39,7 @@ A operação Executar Consulta oferece a capacidade de executar uma consulta no 
 
  **Solicitação de headers** - nenhum outro.
 
- **Corpo da** Solicitação - Veja um exemplo de carga de solicitação em JSON. Ele contém dimensões, filtros e medidas necessárias para uma consulta.
+ **Corpo da** solicitação - Aqui está um exemplo de carga de solicitação em JSON. Ele contém dimensões, filtros e medidas necessárias para uma consulta.
 
 ```json
 {
@@ -88,7 +88,7 @@ A operação Executar Consulta oferece a capacidade de executar uma consulta no 
 
  **Response Headers** - Sem outros headers.
 
- **Corpo de** Resposta - Abaixo está um exemplo de carga de resposta em JSON. Ele contém uma tabela de dados que contém os dados, também conterá um metadados, que mostra o tempo de execução da consulta e se os dados são do cache ou não.
+ **Corpo de** Resposta - Abaixo está um exemplo de carga de resposta em JSON. Ele contém uma tabela de dados que contém os dados, além de conter um metadados, que mostra o tempo de execução da consulta e se os dados são do cache ou não.
 
 ```json
 {
@@ -123,7 +123,7 @@ A operação Executar Consulta oferece a capacidade de executar uma consulta no 
 }
 ```
 
- *Tempo de Execução*  - O tempo total que o servidor levou para retornar os dados. Isso pode ou não envolver cache.
+ *Tempo de execução*  - O tempo total que o servidor levou para retornar os dados. Isso pode ou não envolver cache.
 
  *Resultado de*  Dados - O resultado da consulta. Trata-se de uma matriz bidimensional contendo todas as permutações dos membros das dimensões e cada elemento contendo os nomes dos membros das dimensões, bem como os valores agregados das Medidas especificadas.
 

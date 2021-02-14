@@ -66,4 +66,4 @@ Há um temporizador de dois minutos a partir do momento em que uma mensagem offl
 O log de ETL principal do Skype for Business conterá informações sobre o processamento de mensagens offline e é sua melhor fonte para investigação/solução de problemas. 
   
 > [!NOTE]
-> Um problema foi relatado em que mensagens offline não foram enviadas e a pasta "Rascunhos" foi preenchida com mensagens. Isso ocorreu com caixas de correio locais do Exchange. O problema foi corrigido em todos os canais C2R desde 14/06/2016.  
+> Foi relatado um problema em que as mensagens offline não foram enviadas e a pasta "Rascunhos" foi preenchida com mensagens. Isso ocorreu com caixas de correio locais do Exchange. O problema foi corrigido em todos os canais C2R desde 14/06/2016.  

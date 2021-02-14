@@ -28,14 +28,14 @@ ms.locfileid: "49803171"
 
 O Painel de Qualidade de Chamadas do Skype for Business Server (CQD) é uma camada de relatórios sobre o Banco de Dados de Qualidade da Experiência no Monitoring Server no Skype for Business Server. O CQD usa o Microsoft SQL Server Analysis Services para fornecer informações agregadas de uso e qualidade de chamada, bem como para filtragem e pivô no conjunto de dados. Os recursos do CQD incluem:
   
-- **Armazenamento de arquivamento de dados de QoE por meio do componente arquivo QoE do CQD.** O componente arquivo morto QoE pode armazenar dados de QoE por uma duração muito maior do que o Monitoring Server pode. Isso permite tendências e relatórios de até sete meses de dados por vez, com a capacidade de deslizar a janela de relatório até os dados.
-- **Relatórios e análises usando o poder e a velocidade do Microsoft SQL Server Analysis Services.** O CQD utiliza o Microsoft SQL Analysis Services para fornecer recursos rápidos de resumo, filtro e pivô para a energia do painel por meio de um Cubo de Análise. Relatar a velocidade de execução e a capacidade de detalhar os dados pode reduzir drasticamente o tempo de análise.
+- **Armazenamento de arquivamento de dados de QoE por meio do componente arquivo QoE do CQD.** O componente arquivo morto QoE pode armazenar dados de QoE por uma duração muito maior do que o Monitoring Server pode. Isso permite tendências e relatórios de até sete meses de dados por vez, com a capacidade de deslizar a janela de relatório até o momento em que há dados.
+- **Relatórios e análises usando o poder e a velocidade do Microsoft SQL Server Analysis Services.** O CQD utiliza o Microsoft SQL Analysis Services para fornecer recursos rápidos de resumo, filtro e pivô para a energia do painel por meio de um Cubo de Análise. Relatar a velocidade de execução e a capacidade de detalhar os dados pode reduzir significativamente o tempo de análise.
 - **Novo esquema de dados otimizado para relatórios de qualidade de chamada.** O Cubo tem um esquema projetado para relatórios e investigações de qualidade de voz. Os usuários do portal podem se concentrar nas tarefas de relatório em vez de descobrir como o esquema de banco de dados de Métricas de QoE mapeia para as exibições de que precisam. A combinação entre o Arquivo de QoE e o Cubo fornece uma abstração que reduz a complexidade do relatório e da análise por meio do CQD. O esquema de banco de dados de Arquivo QoE também contém tabelas que podem ser preenchidas com dados específicos da implantação para aprimorar o valor geral dos dados.
 - **Designer de relatório integrado e edição de relatório in-place.** O componente portal vem com vários relatórios integrados modelados após a Metodologia de Qualidade de Chamada. Os usuários do portal podem modificar os relatórios e criar novos relatórios por meio da funcionalidade de edição do Portal.
 - **Acesso à API Web aos Dados de Cubo de Análise e Estrutura de Relatório.** A estrutura de relatórios do Painel não é a única maneira de exibir os dados do Cubo. O CQD fornece vários exemplos de uso de HTML e JavaScript para recuperar dados das APIs Web do CQD e renderizar os dados em um formato personalizado. A combinação do Editor de Relatórios e das APIs Web do CQD permite a criação rápida de protótipos de relatórios e layout de relatório personalizado.
 
 > [!NOTE]
-> Um administrador agora pode gerenciar o Skype for Business Server 2019 usando [o CQD](https://cqd.teams.microsoft.com) versão 3 (faça logoff com credenciais de Administrador). Isso requer uma implementação híbrida e o uso do CALL Data Connector (CALL Data Connector). Consulte [Planejar o Conector de Dados de Chamada](/SkypeForBusiness/hybrid/plan-call-data-connector) para obter mais informações sobre como habilenciar o TAMBÉM. Para obter a documentação do CQD versão 3, consulte Ativar e usar o Painel de Qualidade de Chamadas para o Microsoft Teams e [o Skype for Business Online](/MicrosoftTeams/turning-on-and-using-call-quality-dashboard) para obter mais informações sobre o CQD versão 3.
+> Um administrador agora pode gerenciar o Skype for Business Server 2019 usando [o CQD](https://cqd.teams.microsoft.com) versão 3 (faça logoff com credenciais de Administrador). Isso requer uma implementação híbrida e o uso do CALL Data Connector (CALL Data Connector). Consulte [Planejar o Conector de Dados de Chamada](/SkypeForBusiness/hybrid/plan-call-data-connector) para obter mais informações sobre como habilenciar o TAMBÉM. Para obter a documentação do CQD versão 3, consulte Ativar e usar o Painel de Qualidade de Chamadas do Microsoft Teams e [do Skype for Business Online](/MicrosoftTeams/turning-on-and-using-call-quality-dashboard) para obter mais informações sobre o CQD versão 3.
 
 ## <a name="cqd-design-goals"></a>Metas de design do CQD
 
@@ -73,7 +73,7 @@ A mesma arquitetura CQD dá suporte ao Lync Server 2013 e ao Skype for Business.
     
 ## <a name="information-available-through-cqd"></a>Informações disponíveis por meio do CQD
 
-O CQD pode mostrar contagens de fluxo de compartilhamento de áudio, vídeo e aplicativos do Skype for Business Server e contagem de chamadas boas versus ruins, bem como proporções de chamadas ruins para boas. As exibições podem ser cortadas e filtradas por muitas dimensões diferentes. O CQD desenha dados do banco de dados de Métricas de QoE no Monitoring Server. Os dados são mesclados com quaisquer dados fornecidos pelo cliente, como mapeamento de sub-rede para construção de rede para tornar possíveis relatórios como "Qualidade da Chamada por Construção". 
+O CQD pode mostrar contagens de fluxo de compartilhamento de áudio, vídeo e aplicativos do Skype for Business Server e contagem de chamadas boas versus ruins, bem como proporções de chamadas ruins para boas. As exibições podem ser cortadas e filtradas por muitas dimensões diferentes. O CQD desenha dados do banco de dados de Métricas de QoE no Monitoring Server. Os dados são mesclados com quaisquer dados fornecidos pelo cliente, como o mapeamento de sub-rede para construção de rede para tornar possíveis relatórios como "Qualidade da Chamada por Construção". 
   
 O CQD também abstrai muitas das idiossyncrasies de dados QoE internas, como "chamador" e "chamado", de forma que o usuário possa se concentrar na criação de exibições de relatório em torno de "servidor" e "cliente". Seguindo a Metodologia de Qualidade da Chamada, o CQD é simplificado para ajudar a identificar as condições que grupos de chamadas ruins têm em comum— um dos princípios para melhorar a qualidade da chamada.
   
@@ -83,7 +83,7 @@ Os dados do CQD podem ser exibidos por meio do Portal CQD e acessados por meio d
   
 ### <a name="cqd-portal"></a>CQD Portal
 
-O Portal é a maneira mais rápida de exibir os dados no Cubo. O Portal vem com vários relatórios integrados que são imediatamente usáveis. Os relatórios integrados são vinculados de maneira estruturada para orientar o usuário a fatias sucessivamente menores e menores dos dados da chamada. Os relatórios integrados também destacam as várias maneiras diferentes pelas quais os dados podem ser mostrados demonstrando uma combinação de gráficos e tabelas com pivôs, filtros e medidas diferentes. Cada usuário que acessa o Portal pode ter seu próprio conjunto de relatórios que pode modificar e compartilhar. Para obter mais informações sobre o uso do Portal da Web do CQD, consulte [Use Call Quality Dashboard for Skype for Business Server](use.md).
+O Portal é a maneira mais rápida de exibir os dados no Cubo. O Portal vem com vários relatórios integrados que são imediatamente usáveis. Os relatórios integrados são vinculados de maneira estruturada para orientar o usuário a fatias sucessivamente menores e menores dos dados da chamada. Os relatórios integrados também destacam as várias maneiras diferentes pelas quais os dados podem ser mostrados demonstrando uma combinação de gráficos e tabelas com pivôs, filtros e medidas diferentes. Cada usuário que acessa o Portal pode ter seu próprio conjunto de relatórios que pode modificar e compartilhar. Para obter mais informações sobre o uso do Portal da Web do CQD, consulte Usar o Painel de Qualidade de Chamadas [do Skype for Business Server.](use.md)
   
 Sistemas operacionais com suporte para o Portal CQD: Windows 8.1, Windows 8, Windows Server 2012 R2, Windows Server 2012 e Windows Server 2016 (Skype for Business Server 2019 CQD apenas).
   
@@ -99,7 +99,7 @@ O CQD fornece arquivamento de dados de QoE e uma análise rápida e profunda dos
   
 ### <a name="when-to-deploy-cqd"></a>Quando implantar o CQD
 
- **O CQD pode ser implantado para estabelecer uma medição de qualidade de chamada de linha de base, mesmo se uma organização não tiver problemas de qualidade de chamada.** Estabelecer uma medição de qualidade de chamada de linha de base é importante porque cada organização tem uma combinação diferente de Wi-Fi versus com fio e remota versus funcionários do escritório. Quando surgirem problemas de qualidade de chamada, as medições de qualidade de chamada mais recentes podem ser comparadas com intervalos de tempo anteriores. Os recursos mais importantes do CQD permitem a detecção fácil de alterações na qualidade da chamada ao longo do tempo.
+ **O CQD pode ser implantado para estabelecer uma medição de qualidade de chamada de linha de base, mesmo se uma organização não tiver problemas de qualidade de chamada.** Estabelecer uma medição de qualidade de chamada de linha de base é importante porque cada organização tem uma combinação diferente de Wi-Fi versus com fio e remota versus funcionários do escritório. Quando surgirem problemas de qualidade de chamada, as medições de qualidade de chamada mais recentes podem ser comparadas a intervalos de tempo anteriores. Os recursos mais importantes do CQD permitem a detecção fácil de alterações na qualidade da chamada ao longo do tempo.
   
  **O CQD pode ser implantado para encontrar proativamente áreas problemáticas que possam afetar a qualidade da chamada.** Mesmo que a qualidade média de chamada de uma organização possa atender aos alvos definidos pela organização, pode haver grupos de problemas de qualidade de chamada ocultos atrás das métricas médias. O CQD permite detalhamento de tabela dinâmica de métricas de qualidade de chamada por muitas dimensões no banco de dados QoEMetrics. Identificar outliers em grupos de pares é uma maneira rápida de localizar proativamente problemas de qualidade de chamada.
   
@@ -202,7 +202,7 @@ Esta seção faz a suposição de que há um único banco de dados QoEMetrics no
    
 **Resultados de desempenho**
 
-|**Máquina**|**Tamanho do banco de dados de métricas de QoE**|**Partições SQL**|**Tipo de disco**|**Número de fluxos**|**Processo de arquivamento inicial**|**Processo de cubo inicial**|**Processo de arquivamento subsequente**|**Processo de cubo subsequente**|
+|**Máquina**|**Tamanho do banco de dados de métricas de QoE**|**Partições SQL**|**Tipo de disco**|**Número de fluxos**|**Processo inicial de arquivamento**|**Processo de cubo inicial**|**Processo de Arquivamento Subsequente**|**Processo de cubo subsequente**|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
 |Máquina virtual  <br/> |900 MB  <br/> |Único  <br/> |VHD (tamanho variável)  <br/> |0,5 M  <br/> |30 m  <br/> |2 m  <br/> |30 s  <br/> |1 m  <br/> |
 |Máquina virtual  <br/> |9 GB  <br/> |Único  <br/> |VHD (tamanho variável)  <br/> |5 M  <br/> |4 h  <br/> |15 m  <br/> |1 m  <br/> |5 m  <br/> |
@@ -251,7 +251,7 @@ Os seguintes sistemas operacionais são necessários para o CQD:
 
 - Windows Server 2019 (Skype for Business Server 2019 CQD somente)
     
-A seguir estão os serviços de função do IIS necessários (em ordem hierárquica):
+A seguir estão os serviços de função IIS necessários (em ordem hierárquica):
   
 - Servidor Web
     
@@ -320,7 +320,7 @@ Três contas de serviço de domínio são recomendadas no princípio de privilé
 - Uma que já tenha uma entidade de segurança de logon para o banco de dados de Métricas de QoE (com privilégio db_datareader) e uma entidade de segurança de logon na Instância do SQL Server de Arquivo QoE (necessária para criar um objeto linked server durante a configuração). Essa conta será usada para executar a etapa "Dados de Arquivo QoE" do trabalho do SQL Server Agent.
     
     > [!NOTE]
-    > Se você estiver trabalhando em um ambiente altamente bloqueado, precisará verificar se essa conta de serviço é realmente concedida "Logon como um trabalho em lote" e "Permitir logon localmente" direitos de usuário no banco de dados de Monitoramento de Métricas de QoE SQL Server e no SQL Server de Arquivo QoE.
+    > Se você estiver trabalhando em um ambiente altamente bloqueado, precisará verificar se essa conta de serviço tem realmente os direitos de usuário "Logon como um trabalho em lotes" e "Permitir logon localmente" no banco de dados de Monitoramento de Métricas de QoE do SQL Server e no SQL Server de Arquivo QoE.
     
 - Um que será usado para executar a etapa "Cubo de Processo" do trabalho do SQL Server Agent. A Instalação criará uma entidade de segurança de logon para o banco de dados de Arquivo QoE (com privilégio de leitura e gravação) e também criará um membro na Função QoE (com privilégios de controle total) para o Cubo.
     
@@ -337,7 +337,7 @@ As duas primeiras contas podem ser consideradas logicamente como "contas de serv
 ## <a name="capacity-planning"></a>Planejamento de Capacidade
 <a name="Infrastructure_Req"> </a>
 
-O CQD foi projetado para um impacto mínimo em QoEMetrics: o código foi otimizado para não bloquear dados e os trabalhos de importação sãounizáveis.
+O CQD foi projetado para um impacto mínimo sobre QoEMetrics: o código foi otimizado para não bloquear dados e os trabalhos de importação sãounizáveis.
   
 O tipo de hardware a ser usado depende de seus requisitos para a rapidez com que as sincronizações devem ser executados. O tamanho do disco é o seguinte:
   

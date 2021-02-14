@@ -41,7 +41,7 @@ Com o modelo distribuído para pools de Front-End, um determinado número de ser
     
 ### <a name="routing-group-level-quorum-loss"></a>Perda de quórum no nível do grupo de roteamento
 
-Na primeira vez que você iniciar um novo pool de Front-End, é essencial que 85% dos servidores estão funcionando, conforme mostrado na tabela a seguir. Se menos servidores estão sendo executados, os serviços podem ficar travados no estado inicial e o pool pode não iniciar.
+Na primeira vez que você iniciar um novo pool de Front-End, é essencial que 85% dos servidores estão em execução, conforme mostrado na tabela a seguir. Se menos servidores estão sendo executados, os serviços podem ficar travados no estado inicial e o pool pode não iniciar.
   
 |Número total de servidores no pool  <br/> |Número de servidores que devem estar em execução para que o pool seja iniciado pela primeira vez  <br/> |
 |:-----|:-----|
@@ -77,7 +77,7 @@ Para que um pool de Front-End funcione, ele não pode estar em perda de quórum 
 |7   <br/> |Qualquer um dos 4  <br/> |
 |8-9  <br/> |Qualquer um dos 4 dos 7 primeiros servidores  <br/> |
 |10-12  <br/> |Qualquer um dos 5 dos 9 primeiros servidores  <br/> |
-|12 a 16  **para o Skype for Business Server 2019**  <br/> |Qualquer um dos 7 dos primeiros 12 servidores  <br/> |
+|12-16  **para o Skype for Business Server 2019**  <br/> |Qualquer um dos 7 dos primeiros 12 servidores  <br/> |
    
 Na tabela anterior, os "primeiros servidores" são os servidores que foram trazidos primeiro, cronologicamente, quando o pool foi iniciado pela primeira vez. Para determinar esses servidores, você pode usar  `Get-CsComputer` o cmdlet com a `-PoolFqdn` opção. Este cmdlet mostrará os servidores na ordem em que aparecem na topologia, e os que estão na parte superior da lista são os primeiros servidores.
   
@@ -86,11 +86,11 @@ Na tabela anterior, os "primeiros servidores" são os servidores que foram trazi
 > 
 #### <a name="additional-steps-to-ensure-pools-are-functional"></a>Etapas adicionais para garantir que os pools sejam funcionais
 
-Você deve observar alguns outros fatores para garantir que seus pools de Front-End permaneçam funcionais.
+Você deve observar alguns outros fatores para garantir que seus pools de Front End permaneçam funcionais.
   
 - Ao migrar usuários para o pool pela primeira vez, certifique-se de que pelo menos três dos Servidores de Front End estão em execução.
     
-- Se você estabelecer uma relação de emparelhamento entre esse pool e outro pool para fins de recuperação de desastres, depois de estabelecer essa relação, você deverá garantir que esse pool tenha três servidores front-end em execução simultânea em algum momento para sincronizar corretamente os dados com o pool de backup. Para obter mais informações sobre emparelhamento de pools e recursos de recuperação de desastres, consulte Plano para alta disponibilidade e recuperação de desastre [no Skype for Business Server.](high-availability-and-disaster-recovery.md) 
+- Se você estabelecer uma relação de emparelhamento entre esse pool e outro pool para fins de recuperação de desastres, depois de estabelecer essa relação, você deve garantir que esse pool tenha três servidores front-end em execução simultânea em algum momento para sincronizar corretamente os dados com o pool de backup. Para obter mais informações sobre emparelhamento de pools e recursos de recuperação de desastres, consulte Plano para alta disponibilidade e recuperação de desastre [no Skype for Business Server.](high-availability-and-disaster-recovery.md) 
     
 ## <a name="front-end-pool-with-two-front-end-servers"></a>Pool de front-end com dois servidores front-end
 

@@ -28,7 +28,7 @@ Para as opções de recuperação de desastre mais robustas no Skype for Busines
   
 ![Mostra pools de front-end em dois sites diferentes, emparelhados entre si](../../media/f74533c0-a10e-4f18-85a8-b9a008497573.jpg)
   
-Se o pool em um site falhar, você poderá fazer fail over dos usuários desse pool para o pool no outro site, que atende a todos os usuários em ambos os pools. Para planejamento de capacidade, você deve projetar cada pool para poder lidar com a carga de trabalho de todos os usuários em ambos os pools em caso de desastre.
+Se o pool em um site falhar, você poderá fazer fail over dos usuários desse pool para o pool no outro site, que atende a todos os usuários em ambos os pools. Para planejamento de capacidade, você deve projetar cada pool para ser capaz de lidar com a carga de trabalho de todos os usuários em ambos os pools em caso de desastre.
   
 Dois data centers que incluem pools de Front End emparelhados entre si podem estar a qualquer distância. Recomendamos que você emparelhe dois data centers na mesma região do mundo, com links de alta velocidade entre eles. 
   
@@ -50,7 +50,7 @@ Além de oferecer capacidade para recuperação de desastre, dois pools pareados
   
 Embora as relações de backup entre dois pools de Front-End deverão ser 1:1 e simétricas, cada pool de Front End ainda poderá ser o registrador de backup para qualquer número de Aparelhos de FilialVivíveis.
   
-Observe que o Skype for Business não estende o suporte à recuperação de desastre para usuários que estão em um Aparelho de FilialVivível. Se um pool de Front-End que serve como backup para um Aparelho de Filial Survivível ficar inocável, os usuários que entraram no Aparelho de Filial Sobrevivência entrarão no modo de resiliência, mesmo que os usuários que estão no pool de Front-End sejam baixados para o pool de front-end de backup.
+Observe que o Skype for Business não estende o suporte à recuperação de desastre para usuários que estão em um Aparelho de FilialVivível. Se um pool de Front-End que serve como backup para um Aparelho de Filial Survivível ficar inocável, os usuários que entraram no Aparelho de Filial Sobrevivência entrarão no modo de resiliência, mesmo que os usuários que estão no pool de Front-End sejam baixados para o pool de Front-End de backup.
   
 ## <a name="recovery-time-for-pool-failover-and-pool-failback"></a>Tempo de recuperação para failover de pool e failback de pool
 
@@ -76,13 +76,13 @@ As metas de engenharia para failover do armazenamento de Gerenciamento Central s
   
 ## <a name="front-end-pool-pairing-data-security"></a>Segurança de dados de emparelhamento do pool de front-end
 
-O Serviço de Backup transfere dados do usuário e conteúdo de conferência entre dois pools de Front End emparelhados continuamente. Os dados do usuário contêm URIs SIP do usuário, bem como agendamentos de conferências, listas de contatos e configurações. O conteúdo da conferência inclui carregamentos do Microsoft PowerPoint, bem como whiteboards usados em conferências.
+O Serviço de Backup transfere dados do usuário e conteúdo de conferência entre dois pools de Front-End emparelhados continuamente. Os dados do usuário contêm URIs SIP do usuário, bem como agendamentos de conferências, listas de contatos e configurações. O conteúdo da conferência inclui carregamentos do Microsoft PowerPoint, bem como whiteboards usados em conferências.
   
-A partir do pool de origem, esses dados são exportados do armazenamento local, recortados e transferidos para o Pool de destino, onde são descortados e importados para o armazenamento local. O Serviço de Backup pressupõe que o link de comunicação entre os dois data centers está dentro da rede da empresa, protegida da Internet. Ele não criptografa os dados transferidos entre os dois data centers, nem os dados são encapsulados de forma nativa dentro de um protocolo seguro, como HTTPS. Portanto, é possível um ataque man-in-the-middle de funcionários internos dentro da rede corporativa.
+A partir do pool de origem, esses dados são exportados do armazenamento local, recortados e transferidos para o Pool de destino, onde são descortados e importados para o armazenamento local. O Serviço de Backup pressupõe que o link de comunicação entre os dois data centers está dentro da rede da empresa, protegida da Internet. Ele não criptografa os dados transferidos entre os dois data centers, nem os dados são encapsulados de forma nativa em um protocolo seguro, como HTTPS. Portanto, é possível um ataque man-in-the-middle de funcionários internos dentro da rede corporativa.
   
-Qualquer empresa que implanta o Skype for Business Server em vários data centers e usa o recurso de recuperação de desastres deve garantir que o tráfego entre data centers seja protegido por sua Intranet corporativa. As empresas que se preocupam com a proteção contra ataques internos devem proteger os links de comunicação entre os data centers. Esse é um requisito padrão que também ajuda a manter muitos outros tipos de dados confidenciais corporativos transferidos entre data centers.
+Qualquer empresa que implanta o Skype for Business Server em vários data centers e usa o recurso de recuperação de desastres deve garantir que o tráfego entre data centers seja protegido por sua Intranet corporativa. As empresas que se preocupam com a proteção contra ataques internos devem proteger os links de comunicação entre os data centers. Esse é um requisito padrão que também ajuda a fazer a tecnologia de vários outros tipos de dados confidenciais corporativos transferidos entre data centers.
   
-Embora exista o risco de ataques de "intrusos" na rede da empresa, ele é relativamente limitado em comparação a expor o tráfego à Internet. Especificamente, os dados do usuário expostos pelo Serviço de Backup (como URIs SIP) geralmente estão disponíveis para todos os funcionários dentro da empresa por outros meios, como o Livro de Endereços Global ou outro software de diretório. Portanto, seu foco deve estar em proteger a WAN entre os dois data centers quando o Serviço de Backup for usado para copiar dados entre os dois pools emparelhados.
+Embora exista o risco de ataques de "intrusos" na rede da empresa, ele é relativamente limitado em comparação a expor o tráfego à Internet. Especificamente, os dados do usuário expostos pelo Serviço de Backup (como URIs SIP) geralmente estão disponíveis para todos os funcionários da empresa por outros meios, como o Livro de Endereços Global ou outro software de diretório. Portanto, seu foco deve estar em proteger a WAN entre os dois data centers quando o Serviço de Backup for usado para copiar dados entre os dois pools emparelhados.
   
 ### <a name="mitigating-security-risks"></a>Mitigando os riscos de segurança
 

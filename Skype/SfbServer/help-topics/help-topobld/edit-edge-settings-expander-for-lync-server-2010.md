@@ -55,7 +55,7 @@ Esta seção das propriedades permite que você edite propriedades para as confi
   
 - Selecione o serviço de Borda **A/V** como NAT habilitado se você quiser configurar o serviço de Borda A/V para usar um endereço privado ou outro endereço que ficará oculto atrás de um dispositivo NAT (conversão de endereço de rede).
     
-- Para editar o serviço de Borda de **Acesso,** defina o **FQDN** do Pool para o serviço de Borda de Acesso, conforme definido no DNS pelos registros de host (A e AAAA se IPv6 for usado) e um valor de porta
+- Para editar o serviço de Borda de **Acesso,** defina o **FQDN** do Pool para o serviço de Borda de Acesso conforme definido no DNS pelos registros de host (A e AAAA se IPv6 for usado) e um valor de porta
     
 - Para editar o serviço de Borda de Webconferência, defina um **FQDN** de Pool para o serviço de Borda de Webconferência conforme definido no DNS pelos registros de host (A e AAAA se IPv6 for usado) e um valor de porta
     

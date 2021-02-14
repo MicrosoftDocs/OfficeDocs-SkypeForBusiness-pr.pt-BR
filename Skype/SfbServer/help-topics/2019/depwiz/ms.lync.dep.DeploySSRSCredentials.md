@@ -31,6 +31,6 @@ Na **Especificar Página de Credencial**, especifique as credenciais de usuário
 > [!NOTE]
 > Para obter detalhes, consulte "Especificando informações de credencial e conexão para fontes de dados de relatório (SSRS)" em [https://go.microsoft.com/fwlink/p/?LinkId=263431](https://go.microsoft.com/fwlink/p/?LinkId=263431) . 
   
-Para obter detalhes sobre a implantação dos relatórios do Reporting Services para o monitoramento em execução no servidor, consulte Instalar relatórios de monitoramento [no Skype for Business Server.](../../../deploy/deploy-monitoring/install-monitoring-reports.md)
+Para obter detalhes sobre como implantar os relatórios do Reporting Services para o Monitoramento em execução no servidor, consulte [Install Monitoring Reports no Skype for Business Server.](../../../deploy/deploy-monitoring/install-monitoring-reports.md)
   
 

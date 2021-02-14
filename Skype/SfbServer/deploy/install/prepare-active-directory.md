@@ -28,7 +28,7 @@ ms.locfileid: "49801671"
  
 **Resumo:** Saiba como preparar seu domínio do Active Directory para uma instalação do Skype for Business Server. Baixe uma avaliação gratuita do Skype for Business Server do Centro [de Avaliação da Microsoft.](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server)
   
-O Skype for Business Server funciona em estreita proximidade com o Active Directory. Você deve preparar o domínio do Active Directory para trabalhar com o Skype for Business Server. Esse processo é realizado no Assistente de Implantação e é feito apenas uma vez para o domínio. Isso porque o processo cria grupos e modifica o domínio, e você precisa fazer isso apenas uma vez. Você pode realizar as etapas 1 a 5 em qualquer ordem. No entanto, você deve realizar as etapas 6, 7 e 8 na ordem e após as etapas de 1 a 5, conforme descrito no diagrama. Preparar o Active Directory é a etapa 4 de 8. Para obter mais informações sobre o planejamento do Active Directory, consulte [Requisitos](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md) de ambiente para o Skype for Business Server ou requisitos de servidor para [o Skype for Business Server 2019.](../../../SfBServer2019/plan/system-requirements.md)
+O Skype for Business Server funciona em estreita proximidade com o Active Directory. Você deve preparar o domínio do Active Directory para trabalhar com o Skype for Business Server. Esse processo é realizado no Assistente de Implantação e é feito apenas uma vez para o domínio. Isso porque o processo cria grupos e modifica o domínio, e você precisa fazer isso apenas uma vez. Você pode realizar as etapas 1 a 5 em qualquer ordem. No entanto, você deve realizar as etapas 6, 7 e 8 na ordem e após as etapas de 1 a 5, conforme descrito no diagrama. Preparar o Active Directory é a etapa 4 de 8. Para obter mais informações sobre o planejamento do Active Directory, consulte [Requisitos](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md) de ambiente para Skype for Business Server ou requisitos de servidor para [o Skype for Business Server 2019.](../../../SfBServer2019/plan/system-requirements.md)
   
 ![diagrama de visão geral](../../media/2c52d307-7859-4009-9489-024b2e130bb3.png)
   
@@ -109,7 +109,7 @@ Assista às etapas de vídeo para **Preparar o Active Directory:**
     
     b. Em **Usuários e Computadores do Active Directory**, expanda o nome de domínio de sua floresta ou domínio filho.
     
-    c. Clique no **contêiner** Usuários no painel esquerdo e procure o grupo Universal **CsAdministrator** no painel direito. Se CsAdministrator (entre outros novos grupos Universais que começam com Cs) estiver presente, a replicação do Active Directory foi bem-sucedida.
+    c. Clique no **contêiner** Usuários no painel esquerdo e procure o grupo Universal **CsAdministrator** no painel direito. Se CsAdministrator (entre outros novos grupos Universais que começam com Cs) estiver presente, a replicação do Active Directory terá sido bem-sucedida.
     
     d. Se os grupos ainda não estão presentes, você pode forçar a replicação ou aguardar 15 minutos e atualizar o painel lateral direito. A replicação está completa quando os grupos estiverem presentes.
     
@@ -147,7 +147,7 @@ Assista às etapas de vídeo para **Preparar o Active Directory:**
    ```
 
     > [!NOTE]
-    > Usando o parâmetro GlobalSettingsDomainController, você pode indicar onde as configurações globais estão armazenadas. Se suas configurações são armazenadas no contêiner Sistema (o que é comum em implantações de atualização que não tiveram a configuração global migrada para o contêiner Configuração), defina um controlador de domínio na raiz da floresta do AD DS. Se as configurações globais estiverem no contêiner Configuração (o que é típico nas novas implantações ou nas atualizadas, onde as configurações foram migradas para o contêiner Configuração), você define qualquer controlador de domínio na floresta. Se você não especificar esse parâmetro, o cmdlet assumirá que as configurações estão armazenadas no contêiner Configuração e fará referência a qualquer controlador de domínio no Active Directory. 
+    > Usando o parâmetro GlobalSettingsDomainController, você pode indicar onde as configurações globais estão armazenadas. Se suas configurações são armazenadas no contêiner Sistema (o que é comum em implantações de atualização que não tiveram a configuração global migrada para o contêiner Configuração), defina um controlador de domínio na raiz da floresta do AD DS. Se as configurações globais estiverem no contêiner Configuração (o que é típico nas novas implantações ou nas atualizadas, onde as configurações foram migradas para o contêiner Configuração), você define qualquer controlador de domínio na floresta. Se você não especificar esse parâmetro, o cmdlet assumirá que as configurações estão armazenadas no contêiner Configuração e se referirá a qualquer controlador de domínio no Active Directory. 
   
     c. Se o resultado for **LC_DOMAINSETTINGS_STATE_READY**, o domínio foi replicado com êxito.
     
@@ -173,7 +173,7 @@ Assista às etapas de vídeo para **Preparar o Active Directory:**
     
 12. Verifique se você vê uma marca de seleção verde ao lado de **Preparar o Active Directory** para confirmar o sucesso, conforme mostrado na figura.
     
-     ![Preparar o Active Directory concluído.](../../media/1fbb655a-25c3-4652-96f9-af0427def17d.png)
+     ![Preparar o Active Directory Concluído.](../../media/1fbb655a-25c3-4652-96f9-af0427def17d.png)
   
 
 ## <a name="see-also"></a>Confira também

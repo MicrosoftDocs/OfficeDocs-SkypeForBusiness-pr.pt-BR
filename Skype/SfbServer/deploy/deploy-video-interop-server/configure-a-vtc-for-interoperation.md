@@ -104,7 +104,7 @@ O VTC agora está configurado para interoperação. Antes que o serviço possa c
    |:-----|:-----|
    | Informações de Número de Diretório - Partição de Rota <br/> | SfBVideoInterop_RoutePartition <br/> |
    |Configurações de Número de Diretório - Espaço de Pesquisa de Chamada  <br/> | CSS_SfBVideoInterop <br/> |
-   |Configurações de Nível de Acesso Confidencial e de Terceiros Alternativos MLPP - Espaço de Pesquisa de Chamada MLPP  <br/> | CSS_SfBVideoInterop <br/> |
+   |Configurações de Nível de Acesso Confidencial e De Terceiros Alternativos MLPP - Espaço de Pesquisa de Chamada MLPP  <br/> | CSS_SfBVideoInterop <br/> |
    |Linha 1 no dispositivo - Exibição (ID do chamador)  <br/> | Conforme desejado <br/> |
    |Linha 1 no dispositivo - Exibição ASCII (ID do chamador)  <br/> | Conforme desejado <br/> |
    

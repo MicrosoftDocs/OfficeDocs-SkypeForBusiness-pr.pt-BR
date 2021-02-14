@@ -27,7 +27,7 @@ ms.locfileid: "49801101"
  
 A conferência discada do Skype for Business Server permite que os usuários participem da parte de áudio de uma conferência do Skype for Business Server usando um telefone PSTN sem a necessidade de um provedor de serviços de audioconferência de terceiros.
   
-Para detalhes de planejamento sobre a habilitação da conferência discda para sua organização, consulte o tópico a seguir e os tópicos aos seguintes links: 
+Para detalhes de planejamento sobre a habilitação da conferência discda para sua organização, consulte o tópico a seguir e os tópicos aos que ele se vincula: 
   
 - [Planejar a conferência no Skype for Business Server](../../../plan-your-deployment/conferencing/conferencing.md)
     

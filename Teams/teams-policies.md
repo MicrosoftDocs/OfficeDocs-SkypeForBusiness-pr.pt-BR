@@ -33,32 +33,32 @@ ms.locfileid: "49802361"
 ---
 # <a name="manage-teams-policies-in-microsoft-teams"></a>Gerenciar políticas de equipes no Microsoft Teams
 
-Como administrador, você pode usar as políticas do Teams no Microsoft Teams para controlar o que os usuários em sua organização podem fazer em equipes e canais. Por exemplo, você pode definir se os usuários têm permissão para criar canais privados.
+Como administrador, você pode usar políticas de equipes no Microsoft Teams para controlar o que os usuários em sua organização podem fazer em equipes e canais. Por exemplo, você pode definir se os usuários têm permissão para criar canais privados.
 
-Você gerencia as políticas de equipes indo para as **políticas**  >  **do Teams** no centro de administração do Microsoft Teams. Você pode usar a política global (padrão em toda a organização) ou criar e atribuir políticas personalizadas. Os usuários da sua organização terão automaticamente a política global, a menos que você crie e atribua uma política personalizada.
+Você gerencia políticas de equipes indo para as políticas **do Teams** no Centro de administração do  >   Microsoft Teams. Você pode usar a política global (padrão para toda a organização) ou criar e atribuir políticas personalizadas. Os usuários em sua organização obterão automaticamente a política global, a menos que você crie e atribua uma política personalizada.
 
-Você pode editar a política global ou criar e atribuir uma política personalizada. Depois de editar a política global ou atribuir uma política, pode levar algumas horas para que as alterações entrem em vigor.
+Você pode editar a política global ou criar e atribuir uma política personalizada. Depois de editar a política global ou atribuir uma política, pode levar algumas horas para que as alterações entre em vigor.
 
 ## <a name="create-a-custom-teams-policy"></a>Criar uma política personalizada de equipes
 
-1. Na navegação à esquerda do centro de administração do Microsoft Teams, acesse as políticas **do**  >  **Teams.**
+1. Na navegação à esquerda do Centro de administração do Microsoft Teams, vá para políticas  >  **do** Teams.
 2. Clique em **Adicionar**.
 3. Insira um nome e uma descrição para a política.
 
-    ![Captura de tela das configurações de política do Teams](media/teams-policies.png)
-4. A turn on or turn <a name="createchannels"></a> off Create private **channels**, depending on whether you want to allow users to create private channels.
+    ![Captura de tela das configurações de política de equipes](media/teams-policies.png)
+4. A ativar ou desativar a <a name="createchannels"></a> criação de **canais privados,** dependendo se você deseja permitir que os usuários criem canais privados.
 
 5. Clique em **Salvar**.
 
-## <a name="edit-a-teams-policy"></a>Editar uma política de equipes
+## <a name="edit-a-teams-policy"></a>Editar uma política de equipe
 
 Você pode editar a política global ou quaisquer políticas personalizadas que criar.
 
-1. Na navegação à esquerda do centro de administração do Microsoft Teams, acesse as políticas **do**  >  **Teams.**
-2. Selecione a política clicando à esquerda do nome da política e clique em **Editar**.
-3. A turn on or turn off the settings that you want, and then click **Save**.
+1. Na navegação à esquerda do Centro de administração do Microsoft Teams, vá para políticas  >  **do** Teams.
+2. Selecione a política clicando à esquerda do nome da política e, a seguir, clique em **Editar**.
+3. A ligue ou desligue as configurações que você deseja e clique em **Salvar.**
 
-## <a name="assign-a-custom-teams-policy-to-users"></a>Atribuir uma política personalizada de equipes aos usuários
+## <a name="assign-a-custom-teams-policy-to-users"></a>Atribuir uma política de equipe personalizada aos usuários
 
 [!INCLUDE [assign-policy](includes/assign-policy.md)]
 
@@ -66,6 +66,6 @@ Você pode editar a política global ou quaisquer políticas personalizadas que 
 
 [Canais privados no Teams](private-channels.md)
 
-[Atribuir políticas aos usuários no Microsoft Teams](assign-policies.md)
+[Atribua políticas a seus usuários no Teams](assign-policies.md)
 
 [New-CsTeamsChannelsPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamschannelspolicy?view=skype-ps)

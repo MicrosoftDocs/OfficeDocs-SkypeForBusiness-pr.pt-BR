@@ -12,7 +12,7 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 49e33f5b-45d0-4146-a5a4-76954d895a98
-description: O Modo de exibição do servidor armazena informações sobre sessões que foram registradas no banco de dados. Esta exibição foi introduzida no Microsoft Lync Server 2013.
+description: O Modo de exibição do servidor armazena informações sobre sessões que foram registradas no banco de dados. Essa exibição foi introduzida no Microsoft Lync Server 2013.
 ms.openlocfilehash: 34619c1555fac5935563dd72895f52d045c388ae
 ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
@@ -22,7 +22,7 @@ ms.locfileid: "49802691"
 ---
 # <a name="session-view"></a>Exibição de sessão
  
-O Modo de exibição do servidor armazena informações sobre sessões que foram registradas no banco de dados. Esta exibição foi introduzida no Microsoft Lync Server 2013.
+O Modo de exibição do servidor armazena informações sobre sessões que foram registradas no banco de dados. Essa exibição foi introduzida no Microsoft Lync Server 2013.
   
 |**Coluna**|**Tipo de dados**|**Detalhes**|
 |:-----|:-----|:-----|
@@ -31,7 +31,7 @@ O Modo de exibição do servidor armazena informações sobre sessões que foram
 |Correlation  <br/> |varchar(max)  <br/> |ID de correlação da sessão.  <br/> |
 |DialogCategory  <br/> |bit  <br/> |Categoria da caixa de diálogo; 0 é a etapa do Skype for Business Server para o Servidor de Mediação; 1 é o Servidor de Mediação para o trecho de gateway PSTN.  <br/> |
 |MediationServerBypassFlag  <br/> |bit  <br/> |Indica se uma ligação foi ou não ignorada.  <br/> |
-|MediaBypassWarningFlag  <br/> |int  <br/> |Caso presente, este campo indica o motivo de uma chamada não ter sido ignorada, mesmo se as IDs de bypass correspondessem. Para o Skype for Business Server, apenas um valor é definido:  <br/> 0x0001 - ID de bypass desconhecido para adaptador de rede padrão  <br/> |
+|MediaBypassWarningFlag  <br/> |int  <br/> |Caso presente, este campo indica o motivo de uma chamada não ter sido ignorada, mesmo se as IDs de bypass correspondessem. Para o Skype for Business Server, apenas um valor é definido:  <br/> 0x0001 - ID de bypass desconhecido para o adaptador de rede padrão  <br/> |
 |StartTime  <br/> |datetime  <br/> |Hora do início da chamada.  <br/> |
 |EndTime  <br/> |datetime  <br/> |Hora da finalização da chamada.  <br/> |
 |CallerPool  <br/> |nvarchar(256)  <br/> |Pool FQDN do chamador.  <br/> |

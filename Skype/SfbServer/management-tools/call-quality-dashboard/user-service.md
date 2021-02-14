@@ -12,7 +12,7 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: abd5c828-42dd-4f48-bf87-29993193cb3a
-description: 'Resumo: saiba mais sobre o Serviço de Usuário, que faz parte da API de Repositório para Painel de Qualidade de Chamada. O Painel de Qualidade da Chamada é uma ferramenta do Skype for Business Server.'
+description: 'Resumo: Saiba mais sobre o Serviço de Usuário, que faz parte da API de Repositório para Painel de Qualidade de Chamada. O Painel de Qualidade da Chamada é uma ferramenta do Skype for Business Server.'
 ms.openlocfilehash: d9f4b771a1bf5efeece4f8fb87195d8567f0426e
 ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
@@ -28,7 +28,7 @@ O Serviço de Usuário faz parte da API de Repositório para Painel de Qualidade
   
 ## <a name="user-service"></a>Serviço do Usuário
 
-A API de repositório fornece um modelo de gerenciamento de usuário simplificado em que o provisionamento do usuário (criando novas contas de usuário) é automático e implícito. Quando um usuário faz uma solicitação contra a API de Repositório pela primeira vez, o repositório cria um novo registro de usuário. 
+A API de repositório fornece um modelo de gerenciamento de usuário simplificado onde o provisionamento do usuário (criando novas contas de usuário) é automático e implícito. Quando um usuário faz uma solicitação contra a API de Repositório pela primeira vez, o repositório cria um novo registro de usuário. 
   
 O Painel de Qualidade da Chamada também cria automaticamente itens dedicados do usuário para o novo usuário. Os novos itens dedicados do usuário são clones completos dos itens do usuário do sistema. Dessa forma, os usuários começam com suas próprias cópias de Relatórios e Consultas que podem iniciar imediatamente a personalização. 
   

@@ -32,7 +32,7 @@ ms.locfileid: "49802991"
   
 A Calculadora de Capacidade do [Skype for Business Server 2015](https://www.microsoft.com/download/details.aspx?id=51196) e a Calculadora de Capacidade do Skype for Business Server [2019](https://www.microsoft.com/download/details.aspx?id=57509) ampliam a Ferramenta de Planejamento do [Skype for Business](https://www.microsoft.com/download/details.aspx?id=50357) e sua documentação de implantação ( Planeje sua implantação do Skype for Business Server[2015](../plan-your-deployment/plan-your-deployment.md) e planeje sua implantação do [Skype for Business Server 2019,](../../SfBServer2019/plan/plan-your-deployment-2019.md) respectivamente). Use a calculadora depois de revisar o guia e criar uma topologia recomendada usando a Ferramenta de Planejamento.
   
-A Calculadora de Capacidade do Skype for Business Server ajuda a determinar os requisitos do servidor com base no número de usuários e nas ferramentas de comunicação que sua organização usa. Depois de determinar seu perfil de usuário e as funções que deseja habilitar para seus usuários, use a calculadora para determinar o número de servidores, memória e largura de banda necessários. Esta versão da calculadora não fornece orientações para requisitos de E/S de disco.
+A Calculadora de capacidade do Skype for Business Server ajuda a determinar os requisitos do servidor com base no número de usuários e nas ferramentas de comunicação que sua organização usa. Depois de determinar seu perfil de usuário e as funções que deseja habilitar para seus usuários, use a calculadora para determinar o número de servidores, memória e largura de banda necessários. Esta versão da calculadora não fornece orientações para requisitos de E/S de disco.
   
 Você pode se beneficiar mais com a calculadora se tiver informações precisas e detalhadas sobre seu perfil de usuário específico. Por exemplo, a porcentagem de usuários habilitados para voz, a média de chamadas por usuário por hora, a duração da chamada e a porcentagem de usuários simultâneos em conferências podem fazer uma diferença enorme nos requisitos do servidor. A precisão das recomendações criadas pela calculadora depende da precisão das informações fornecidas.
   
@@ -54,7 +54,7 @@ O modelo de uso contém as seções a seguir. Para calcular seus requisitos de c
   
 - Em **Usuários habilitados para o Enterprise Voice,** digite a porcentagem de seus usuários habilitados para o Enterprise Voice. O padrão é 60%. 
     
-- Em Número médio de chamadas por usuário por hora **(pico),** digite o número de chamadas por hora que você espera que o usuário médio participe durante horários de pico de carga. O padrão é 4. 
+- Em Número médio de chamadas por usuário por hora **(pico),** digite o número de chamadas por hora que você espera que o usuário médio participe durante os horários de pico de carga. O padrão é 4. 
     
 - Em **Porcentagem de chamadas que usam bypass de mídia,** digite a porcentagem de chamadas feitas por seus usuários que ignorarão o Servidor de Mediação. O padrão é 65%, mas pode ser menor se você estiver espalhado geograficamente ou tiver uma grande porcentagem de usuários que trabalham em casa.
     
@@ -68,13 +68,13 @@ O modelo de uso contém as seções a seguir. Para calcular seus requisitos de c
     
 - Em Porcentagem de conferências com IM de grupo apenas **(sem voz),** digite a porcentagem de conferências que envolverão apenas mensagens instantâneas e não incluem áudio. O padrão é 10%
     
-- Em **Porcentagem de usuários que usam** conferência discado, digite a porcentagem de participantes em conferências que usarão a conferência discado de uma só vez. O padrão é 15%.
+- Em **Porcentagem de usuários que** usam conferência discado, digite a porcentagem de participantes em conferências que usarão a conferência discado de uma só vez. O padrão é 15%.
     
 - Em **Porcentagem de conferências usando voz,** digite a porcentagem de conferências que incluirão áudio. 
     
   - Se 20% de suas conferências de voz também incluirem vídeo normal, marque a caixa de seleção Incluir vídeo **(sem Multi View).**
     
-  - Se 20% de suas conferências também incluirem vídeo Multi-View, marque a caixa de seleção **Incluir Multivisão.**
+  - Se 20% de suas conferências também incluirem vídeo multi-exibição, marque a caixa de seleção **Incluir Multivisão.**
     
   - Se 50% de suas conferências de voz também incluirem o compartilhamento de aplicativos, marque a caixa de seleção Incluir **compartilhamento de** aplicativos.
     
@@ -98,7 +98,7 @@ As células verdes mostram recomendações para o modelo de uso inserido.
     
     Observe que a habilitação do hyperthreading é recomendada e comprovadamente melhorou o desempenho para servidores que suportam áudio/vídeo.
     
-- **Servidores de** Borda : o número de Servidores de Borda necessários, com base em 30% de todos os usuários simultâneos que se comunicam por meio dos Servidores de Borda. Essa porcentagem não pode ser alterada na calculadora. 
+- **Servidores de** Borda : o número de Servidores de Borda necessários, com base em 30% de todos os usuários simultâneos se comunicando por meio dos Servidores de Borda. Essa porcentagem não pode ser alterada na calculadora. 
     
 - **Arquivamento/Registro** de Detalhes de Chamada/Armazenamento de Serviços de Qualidade da Experiência: o número de armazenamentos necessários para recursos de Arquivamento ou Monitoramento, se eles estão habilitados em sua organização.
     
@@ -106,7 +106,7 @@ As células verdes mostram recomendações para o modelo de uso inserido.
     
 Além disso, na linha ao lado do Total de Servidores Front End, mais informações são fornecidas sobre a carga em seus servidores e rede para todas as cargas de trabalho planejadas combinadas.
   
-- **Carga média da CPU:** o uso médio da CPU por servidor front-end.
+- **Carga média da CPU**: o uso médio da CPU por servidor front-end.
     
 - **Rede em Mbps**: a alocação de largura de banda necessária para dar suporte ao modelo de uso inserido.
     
@@ -114,7 +114,7 @@ Além disso, na linha ao lado do Total de Servidores Front End, mais informaçõ
     
 ### <a name="adjusting-for-your-processors"></a>Ajustando para seus processadores
 
-Todos os números de uso da CPU na planilha supõem que cada servidor do Skype for Business Server 2015 tenha um processador duplo, núcleo hexagonal com 2,26 GHz, pelo menos 32 GB de memória e 8 ou mais unidades de disco rígido de 10.000 RPM com pelo menos 72 GB de espaço livre em disco. Para cada servidor Skype for Business Server 2019, todas as figuras de uso de CPU na planilha pressuem que cada servidor tenha um processador duplo, núcleo hex com Intel Xeon E5-2673 v3, pelo menos 64 GB de memória e 8 ou mais unidades de disco rígido de 10.000 RPM com pelo menos 72 GB de espaço livre em disco.
+Todos os números de uso da CPU na planilha pressuem que cada servidor do Skype for Business Server 2015 tenha um processador duplo, núcleo hexagonal com 2,26 GHz, pelo menos 32 GB de memória e 8 ou mais unidades de disco rígido de 10.000 RPM com pelo menos 72 GB de espaço livre em disco. Para cada servidor Skype for Business Server 2019, todas as figuras de uso de CPU na planilha pressuem que cada servidor tenha um processador duplo, núcleo hex com Intel Xeon E5-2673 v3, pelo menos 64 GB de memória e 8 ou mais unidades de disco rígido de 10.000 RPM com pelo menos 72 GB de espaço livre em disco.
   
 Se os servidores têm processadores diferentes, você pode ajustar os números para corresponder ao hardware.
   

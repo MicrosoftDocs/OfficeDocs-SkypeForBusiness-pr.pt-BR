@@ -22,7 +22,7 @@ ms.locfileid: "49802111"
 ---
 # <a name="configure-persistent-chat-user-policies-in-skype-for-business-server-2015"></a>Configurar políticas de usuário de Chat Persistente no Skype for Business Server 2015
  
-**Resumo:** Leia este tópico para saber como criar políticas de usuário iniciais para o Servidor de Chat Persistente no Skype for Business Server 2015. As políticas de usuário de Chat Persistente determinam se os usuários têm permissão ou não para acessar salas de chat.
+**Resumo:** Leia este tópico para saber como criar políticas iniciais de usuário para o Servidor de Chat Persistente no Skype for Business Server 2015. As políticas de usuário de Chat Persistente determinam se os usuários têm permissão ou não para acessar salas de chat.
   
 Você pode gerenciar as políticas de usuário do Servidor de Chat Persistente nos seguintes níveis: global, site ou usuário. Inicialmente, você configura a política global para habilitar as configurações de Chat Persistente para todos os usuários em sua implantação e, em seguida, cria políticas adicionais de usuário e site para controlar se o Chat Persistente está ativado para usuários e sites específicos.
   

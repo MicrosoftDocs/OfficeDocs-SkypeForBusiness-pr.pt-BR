@@ -30,9 +30,9 @@ ms.locfileid: "49802048"
     
 2. Isso abrirá um assistente Criar um novo Pool de Servidores de **Interop de** Vídeo. Forneça o FQDN do Pool para o novo Servidor de Interop de Vídeo e selecione Este **pool** tem um servidor ou Este **pool** tem vários servidores com base no seu requisito e pressione **Next**.
     
-    Se você quiser implantar um pool de Servidor de Interop de Vídeo para fornecer alta disponibilidade, selecione **Este pool tem vários servidores.** Lembre-se dessa opção: 
+    Se você quiser implantar um pool de Servidor de Interop de Vídeo para fornecer alta disponibilidade, selecione **Este pool tem vários servidores.** Tenha em mente com essa opção que: 
     
-    - Você deve implantar o balanceamento de carga DNS para suportar pools de Servidor de Interop de Vídeo. 
+    - Você deve implantar o balanceamento de carga DNS para dar suporte a pools de Servidor de Interop de Vídeo. 
     
    - Na próxima página, para Definir os computadores neste item de **pool,** insira o **FQDN** do Computador de cada servidor no pool no campo de texto e clique em **Adicionar.** Repita essa etapa para adicionar outro Servidor de Interop de Vídeo ao pool. Quando você tiver definido todos os computadores no pool, pressione **Next**.
     
@@ -54,7 +54,7 @@ ms.locfileid: "49802048"
     
 9. Selecione a porta de escuta do gateway de vídeo. Selecione o protocolo de Transporte (TCP ou TLS) e associe-o a um Servidor de Interop de Vídeo que está definido para um tronco SIP de vídeo. O Protocolo de Transporte para o gateway de vídeo deve corresponder ao Protocolo de Transporte configurado para o VIS.
     
-10. Um tronco de vídeo SIP correspondente é adicionado após a conclusão da etapa acima. Clique com o botão direito do mouse no tronco de vídeo SIP e selecione o tronco que acabou de ser adicionado. O nome do Tronco SIP de vídeo, o Servidor de Interop de Vídeo associado, o protocolo de Transporte SIP e a porta podem ser alterados. 
+10. Um tronco de vídeo SIP correspondente é adicionado após a conclusão da etapa acima. Clique com o botão direito do mouse no tronco de vídeo SIP e selecione o tronco que acabou de ser adicionado. O nome do tronco SIP de vídeo, o Servidor de Interop de Vídeo associado, o protocolo de Transporte SIP e a porta podem ser alterados. 
     
     > [!NOTE]
     >  Um Servidor de Interop de Vídeo oferece suporte a troncos 1:N. Portanto, vários troncos podem ser adicionados, que são associados a um único Servidor de Interop de Vídeo, onde cada tronco termina em um Gateway de Vídeo diferente. A limitação é que um gateway de vídeo específico tem um único tronco que pode ser definido para a implantação do Skype for Business Server.

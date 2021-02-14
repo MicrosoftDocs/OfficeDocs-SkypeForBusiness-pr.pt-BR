@@ -53,11 +53,11 @@ Mova o mouse sobre os gráficos de barras e linhas de tendência para mostrar va
 
 Quando você acessa pela primeira vez o portal Painel de Qualidade da Chamada, um conjunto padrão de relatórios é criado automaticamente. Esses relatórios são, às vezes, chamados de relatórios do sistema. Você pode modificar ou excluir esses relatórios livremente ou estend-los criando novos relatórios irmão e filho.
 
-No nível superior, o relatório "Tendência Mensal de Fluxos de Áudio" mostra a tendência mensal de todos os fluxos de áudio. Mova o mouse sobre as barras em um gráfico de barras para mostrar uma exibição mais detalhada dos dados representados pelo gráfico de barras. Clique no título do relatório Tendência Mensal de Fluxos de Áudio para navegar até o relatório "Fluxos de Áudio Gerenciados versus Não Gerenciados", onde os relatórios são divididos entre chamadas Gerenciadas e Não Gerenciadas. Chamadas gerenciadas são chamadas feitas de dentro do firewall corporativo por conexões com fio. As chamadas não realizadas incluem chamadas feitas de fora do firewall corporativo e todas as chamadas feitas por Wi-Fi.
+No nível superior, o relatório "Tendência Mensal de Fluxos de Áudio" mostra a tendência mensal de todos os fluxos de áudio. Mova o mouse sobre as barras em um gráfico de barras para mostrar uma exibição mais detalhada dos dados representados pelo gráfico de barras. Clique no título do relatório tendência mensal de fluxos de áudio para navegar até o relatório "Fluxos de áudio gerenciados versus não gerenciados", onde os relatórios são divididos entre chamadas gerenciadas e não gerenciadas. Chamadas gerenciadas são chamadas feitas de dentro do firewall corporativo por conexões com fio. As chamadas não realizadas incluem chamadas feitas de fora do firewall corporativo e todas as chamadas feitas por Wi-Fi.
 
 O outro relatório de nível superior é chamado de "Histograma de classificação de qualidade de chamada relatada pelo usuário". Classificações de Qualidade da Chamada são os números dados pelos usuários do Skype for Business no final de uma chamada para indicar a qualidade da chamada. Os números de classificação variam de 1 a 5, 1 é o pior e 5 é o melhor. O histograma mostra o número de chamadas de áudio que tiveram a classificação indicada em um mês.
 
-Clique no título de qualquer um dos relatórios para navegar em relatórios com mais filtros nos dados. Nos relatórios do sistema, cada relatório filho exibe um subconjunto dos dados disponíveis em seu relatório pai. O modelo de solução de problemas é simples: investigue a qual sub-re-re-porte os dados ou tendências sugerem que um problema está confinado e reduza gradualmente o espaço do problema. A capacidade de criar sub-requisitos permite investigar suas próprias suposições sobre a causa das tendências de dados específicas.
+Clique no título de qualquer um dos relatórios para navegar em relatórios com mais filtros nos dados. Nos relatórios do sistema, cada relatório filho exibe um subconjunto dos dados disponíveis em seu relatório pai. O modelo de solução de problemas é simples: investigar a qual sub-re-porte os dados ou tendências sugerem que um problema está confinado e restringir gradualmente o espaço do problema. A capacidade de criar sub-requisitos permite investigar suas próprias suposições sobre a causa das tendências de dados específicas.
 
 ### <a name="create-and-edit-reports"></a>Criar e editar relatórios
 
@@ -84,7 +84,7 @@ O menu configurações contém links para páginas úteis, como as páginas Sobr
 
 ![Usar o CQD](../../media/0e9ae123-e231-4fea-94e1-5788e8f3e1d3.png)
 
-A exibição de descrições e carimbos de data/hora fica a cargo de usuários individuais, e essas configurações afetam apenas a versão do painel do indivíduo e não modificam o conjunto de relatório ou o que outros usuários veem. Limpar o cache faz com que todas as consultas recarregem seus dados do cubo, enquanto a restauração dos padrões exclui todos os relatórios criados ou modificados pelo usuário e recria o conjunto de relatórios do sistema — o que um usuário verá ao fazer logoff pela primeira vez.
+A exibição de descrições e carimbos de data/hora fica a cargo de usuários individuais, e essas configurações afetam apenas a versão do painel do indivíduo e não modificam o conjunto de relatório ou o que outros usuários veem. Limpar o cache faz com que todas as consultas recarregem seus dados do cubo, enquanto a restauração dos padrões exclui todos os relatórios criados ou modificados pelo usuário e recria o conjunto de relatórios do sistema — o que um usuário verá ao fazer logons pela primeira vez.
 
 O Link do Painel de Usuários mostra uma página onde os usuários podem exibir outros usuários do CQD e procurar seus relatórios. Para compartilhar um conjunto de relatório, copie o link na barra de URL e compartilhe-o com outro usuário do CQD. Esse link é o mesmo link que outros usuários veriam na página Link do Painel de Usuários sob o nome de usuário do usuário.
 
@@ -92,7 +92,7 @@ O Link do Painel de Usuários mostra uma página onde os usuários podem exibir 
 
 Informações adicionais podem ser reveladas se informações específicas do site são inseridas no banco de dados arquivo morto para fornecer informações de mapeamento de sub-rede para construção (por exemplo, qualidade de chamada com fio/sem fio ao construir).
 
-No mínimo, preencha as tabelas a seguir para criar estes relatórios:
+No mínimo, preencha as tabelas a seguir para criar esses relatórios:
 
 - CqdBuilding
 - CqdNetwork
@@ -132,7 +132,7 @@ Os dados usados para essas tabelas são definidos da seguinte forma:
 |UpdatedDate |datetime |Não |Data e hora da última atualização da entrada. |
 ||||||
 
-Por padrão, esta tabela seguinte tem uma entrada (0, 'Desconhecido').
+Por padrão, esta tabela seguinte tem uma entrada (0, 'Unknown').
 
 **CqdBuildingType**
 
@@ -190,7 +190,7 @@ Um fluxo do CQD é considerado bom, ruim ou não classificado. O CQM 1.5 agora u
 
 Definição de JPDR = Definição de chamada ruim menos RatioConcealedSamplesAvg
 
-## <a name="where-is-callercallee"></a>Onde está o Chamador/Chamador?
+## <a name="where-is-callercallee"></a>Onde está o chamador/chamador?
 
 O CQD não usa campos chamador/chamador, em vez disso, usa "Primeiro" e "Segundo" porque há etapas intermediárias entre o chamador e o chamador.
 
@@ -236,7 +236,7 @@ Exemplo: para obter todos os fluxos de um edifício, UNION fornece uma exibiçã
 
 Se a rede sem fio for gerenciada internamente, você poderá recriar os relatórios sem fio no bucket Gerenciado.
 
-![Detalhamento do relatório do CQD](../../media/658b8568-0d68-4f5f-83e8-5abc63a85c1d.png)
+![Detalhamento do Relatório do CQD](../../media/658b8568-0d68-4f5f-83e8-5abc63a85c1d.png)
 
 ## <a name="operational-processes"></a>Processos operacionais
 

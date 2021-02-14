@@ -12,7 +12,7 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 041705e1-7290-464f-95f8-96256cfa2e3e
-description: A tabela SessionCorrelation é uma tabela de suporte. Cada registro representa um CorrelationID que é usado para correlacionar várias sessões.
+description: A tabela SessionCorrelation é uma tabela de suporte. Cada registro representa um CorrelationID usado para correlacionar várias sessões.
 ms.openlocfilehash: 36b617517f3642a2150c72369db858eee62a4a87
 ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT

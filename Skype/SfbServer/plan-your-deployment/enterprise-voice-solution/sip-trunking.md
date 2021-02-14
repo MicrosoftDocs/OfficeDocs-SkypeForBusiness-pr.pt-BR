@@ -33,7 +33,7 @@ O SIP é usado para iniciar e gerenciar sessões de comunicações de VoIP (voz 
 
 Um tronco SIP é uma conexão do IP estabelece um vínculo de comunicações SIP entre sua organização e um provedor de serviços de telefonia de Internet (ITSP), além do firewall. Normalmente, um tronco SIP é usado para conectar o site central da sua organização a um ITSP. Em alguns casos, você também pode optar por usar um tronco SIP para conectar o site da filial a um ITSP.
 
-A implantação de troncos SIP pode ser um grande passo para simplificar as telecomunicações da sua organização e preparar-se para melhorias atualizadas para comunicações em tempo real. Uma das principais vantagens do tronco SIP é que você pode consolidar as conexões da sua organização com a PSTN (rede telefônica pública comutado) em um local central, ao contrário de seu predecessor, o tronco TDM ( multiplexação de divisão de tempo), que normalmente requer um tronco separado de cada filial.
+A implantação de troncos SIP pode ser um grande passo para simplificar as telecomunicações da sua organização e preparar-se para melhorias atualizadas para comunicações em tempo real. Uma das principais vantagens do tronco SIP é que você pode consolidar as conexões da sua organização com a PSTN (rede telefônica pública comutado) em um local central, em vez de seu predecessor, o tronco TDM (multiplexação de divisão de tempo), que normalmente requer um tronco separado de cada filial.
 
 ### <a name="cost-savings"></a>Redução de custo
 
@@ -82,7 +82,7 @@ O tronco SIP distribuído é um modelo de implantação no qual você implementa
 
 O tronco SIP distribuído é exigido somente nos seguintes casos:
 
-- O site de filial requer conectividade de telefone que pode servivível (por exemplo, se a WAN cair). Esse requisito deve ser analisado para cada site de filial; algumas de suas filiais podem exigir redundância e failover, enquanto outras podem não.
+- O site de filial requer conectividade de telefone ressalvante (por exemplo, se a WAN cair). Esse requisito deve ser analisado para cada site de filial; algumas de suas filiais podem exigir redundância e failover, enquanto outras podem não.
 
 - A resiliência é necessária entre dois sites centrais. Você precisa garantir que um tronco SIP termine em cada local central. Por exemplo, se você tiver sites centrais Dublin e Tukwila e ambos usarem apenas o tronco SIP de um local, se o tronco cair, os usuários do outro local não poderão fazer chamadas PSTN.
 
@@ -153,7 +153,7 @@ A figura a seguir ilustra a topologia de tronco SIP no Skype for Business Server
 
 ![Topologia de tronco SIP](../../media/669fb55d-7c81-4e21-9421-fabc43d6e064.jpg)
 
-Conforme mostrado no diagrama, uma VPN (rede privada virtual) IP é usada para conectividade entre a rede corporativa e o provedor de serviços PSTN (rede telefônica pública comutado). O objetivo dessa rede privada é fornecer conectividade IP, aumentar a segurança e (opcionalmente) obter garantias de QoS (Qualidade de Serviço). Devido à natureza de uma VPN, você não precisa usar o protocolo TLS para tráfego de sinalização SIP ou SRTP (protocolo de transporte em tempo real seguro) para o tráfego de mídia. As conexões entre a empresa e o provedor de serviços consistem, portanto, em conexões TCP simples para SIP e RTP (protocolo de transporte em tempo real) simples (sobre UDP) para mídia túnelada por meio de uma VPN IP. Verifique se todos os firewalls entre os roteadores VPN têm portas abertas para permitir que os roteadores VPN se comuniquem e que os endereços IP nas bordas externas dos roteadores VPN sejam publicamente rouáveis.
+Conforme mostrado no diagrama, uma VPN (rede virtual privada) IP é usada para conectividade entre a rede corporativa e o provedor de serviços PSTN (rede telefônica pública comutado). O objetivo dessa rede privada é fornecer conectividade IP, aumentar a segurança e (opcionalmente) obter garantias de QoS (Qualidade de Serviço). Devido à natureza de uma VPN, você não precisa usar o protocolo TLS para tráfego de sinalização SIP ou SRTP (protocolo de transporte em tempo real seguro) para o tráfego de mídia. As conexões entre a empresa e o provedor de serviços consistem, portanto, em conexões TCP simples para SIP e RTP (protocolo de transporte em tempo real) simples (sobre UDP) para mídia túnelada por meio de uma VPN IP. Verifique se todos os firewalls entre os roteadores VPN têm portas abertas para permitir que os roteadores VPN se comuniquem e que os endereços IP nas bordas externas dos roteadores VPN sejam publicamente rouáveis.
 
 > [!IMPORTANT]
 > Entre em contato com seu provedor de serviços para determinar se ele oferece suporte para alta disponibilidade, incluindo failover. Em caso afirmativos, você precisará determinar os procedimentos para defini-lo. Por exemplo, você precisa configurar apenas um endereço IP e um tronco SIP em cada Servidor de Mediação ou é necessário configurar vários troncos SIP em cada Servidor de Mediação? > Se você tiver vários sites centrais, pergunte também se o provedor de serviços tem a capacidade de habilitar conexões de e para outro site central.

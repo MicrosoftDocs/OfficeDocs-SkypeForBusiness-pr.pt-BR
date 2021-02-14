@@ -30,7 +30,7 @@ Este artigo apresenta um exemplo de instalação do Skype for Business Server. E
   
 ## <a name="overview-of-the-install-process-for-skype-for-business-server"></a>Visão geral do processo de instalação do Skype for Business Server
 
-Uma instalação do Skype for Business Server inclui vários procedimentos diferentes. Os procedimentos necessários para que o Skype for Business Server seja executado em seu ambiente dependem das especificidades do seu ambiente. Por exemplo, se você estiver usando o Windows Server para DNS, se beneficiará do procedimento de exemplo para adicionar uma entrada DNS. Se você usar outro sistema para DNS, precisará seguir os procedimentos para seu sistema DNS específico. Isso é verdadeiro para muitos dos procedimentos nesta seção.
+Uma instalação do Skype for Business Server inclui vários procedimentos diferentes. Os procedimentos necessários para executar o Skype for Business Server em seu ambiente dependem das especificidades do seu ambiente. Por exemplo, se você estiver usando o Windows Server para DNS, se beneficiará do procedimento de exemplo para adicionar uma entrada DNS. Se você usar outro sistema para DNS, precisará seguir os procedimentos para seu sistema DNS específico. Isso é verdadeiro para muitos dos procedimentos nesta seção.
   
 O Skype for Business Server está disponível em Standard Edition e Enterprise Edition. A principal diferença é que o Standard Edition não dá suporte aos recursos de alta disponibilidade incluídos no Enterprise Edition. 
   

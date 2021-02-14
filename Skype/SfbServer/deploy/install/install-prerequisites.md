@@ -28,7 +28,7 @@ ms.locfileid: "49801711"
  
 **Resumo:** Saiba mais sobre os servidores e as funções de servidor que você deve configurar antes de instalar o Skype for Business Server. Baixe uma avaliação gratuita do Skype for Business Server no Centro [de Avaliação da Microsoft.](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server)
   
-A instalação dos pré-requisitos consiste em configurar o Windows Server instalando as funções e os recursos necessários em cada um dos servidores na topologia. Os requisitos são baseados na função que o servidor cumprirá na topologia. Você pode realizar as etapas 1 a 5 em qualquer ordem. No entanto, você deve realizar as etapas 6, 7 e 8 na ordem e após as etapas de 1 a 5, conforme descrito no diagrama. A instalação dos pré-requisitos é a etapa 1 de 8.
+A instalação dos pré-requisitos consiste em configurar o Windows Server instalando as funções e os recursos necessários em cada um dos servidores na topologia. Os requisitos são baseados na função que o servidor cumprirá na topologia. Você pode realizar as etapas 1 a 5 em qualquer ordem. No entanto, você deve realizar as etapas 6, 7 e 8 na ordem e após as etapas de 1 a 5, conforme descrito no diagrama. Instalar os pré-requisitos é a etapa 1 de 8.
   
 ![Diagrama de visão geral - pré-requisitos de instalação.](../../media/0a85349b-b398-4e04-8901-8f4bd25d8afe.png)
   
@@ -57,7 +57,7 @@ Você pode instalar as funções e os recursos necessários usando o Gerenciador
     > [!CAUTION]
     > O Windows Server 2012 R2 não instala todos os arquivos de origem dos recursos necessários por padrão. Se o servidor não estiver conectado à Internet, será necessário inserir a mídia do  Windows Server 2012 R2 e selecionar Especificar um caminho de origem alternativo para instalar os recursos necessários. Os arquivos de origem estão localizados no diretório sources\sxs. Por exemplo, se a mídia do Windows Server 2012 R2 estiver na unidade D, você deve definir o caminho para `d:\sources\sxs` . É importante que você tenha as atualizações mais recentes do Windows Update. Se você não estiver conectado à Internet, será necessário instalar manualmente todas as atualizações relevantes, bem como quaisquer pré-requisitos para as atualizações necessárias. 
   
-1. Quando a caixa de diálogo indicar que a instalação foi concluída, será necessário reiniciar o servidor para concluir o processo.
+1. Quando a caixa de diálogo indicar que a instalação foi concluída, você precisará reiniciar o servidor para concluir o processo.
     
 1. Execute **o Windows Update** novamente para verificar se há alguma atualização para as funções e serviços que foram instalados.
     
