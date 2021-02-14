@@ -1,6 +1,6 @@
 ### YamlMime:Landing
 title: Administrador do Skype for Business Online
-summary: O Skype for Business online está sendo desativado em 31 de julho de 2021, no momento em que o acesso ao serviço será encerrado. Incentivamos os clientes a começar a atualizar para o Microsoft Teams, o Hub para trabalho em equipe no Microsoft 365.
+summary: O Skype for Business Online se desposenta em 31 de julho de 2021, momento em que o acesso ao serviço terminará. Incentivamos os clientes a iniciar a atualização para o Microsoft Teams, o hub para trabalho em equipe no Microsoft 365.
 metadata:
   title: Administrador do Skype for Business Online
   description: Saiba como gerenciar o Skype for Business Online em sua organização.
@@ -28,7 +28,7 @@ landingContent:
   linkLists:
   - linkListType: whats-new
     links:
-    - text: Skype for Business online para ser desativado no 2021
+    - text: O Skype for Business Online será retirado em 2021
       url: https://techcommunity.microsoft.com/t5/microsoft-teams-blog/skype-for-business-online-to-be-retired-in-2021/ba-p/777833
   - linkListType: get-started
     links:
@@ -96,7 +96,7 @@ landingContent:
   linkLists:
   - linkListType: overview
     links:
-    - text: O que são os planos de chamada?
+    - text: O que são planos de chamada?
       url: /MicrosoftTeams/calling-plan-landing-page
     - text: Veja se os Planos de Chamadas estão disponíveis em seu país/região
       url: /MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans
@@ -104,11 +104,11 @@ landingContent:
     links:
     - text: Configurar Planos de Chamadas
       url: /MicrosoftTeams/set-up-calling-plans
-- title: Sistema Telefônico
+- title: Sistema de Telefonia
   linkLists:
   - linkListType: overview
     links:
-    - text: O que é o sistema de telefonia?
+    - text: O que é o Sistema de Telefonia?
       url: /MicrosoftTeams/what-is-phone-system-in-office-365
     - text: Veja o que você obtém com o Sistema de Telefonia
       url: /MicrosoftTeams/here-s-what-you-get-with-phone-system

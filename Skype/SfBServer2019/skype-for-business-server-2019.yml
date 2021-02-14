@@ -33,11 +33,11 @@ landingContent:
     links:
     - text: Baixe agora!
       url: https://www.microsoft.com/en-us/evalcenter/evaluate-skype-business-server-2019
-- title: Planejar
+- title: Plano
   linkLists:
   - linkListType: overview
     links:
-    - text: Fundamentos de topologia
+    - text: O Básico de Topologia
       url: /skypeforbusiness/plan-your-deployment/topology-basics/topology-basics
     - text: Planejar conectividade híbrida
       url: /skypeforbusiness/hybrid/plan-hybrid-connectivity
