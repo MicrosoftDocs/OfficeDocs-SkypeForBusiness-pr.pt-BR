@@ -21,5 +21,5 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49818071"
 ---
-# <a name="topology-builder-lync-node"></a><span data-ttu-id="add64-102">Nó do Lync do Construtor de Topologia</span><span class="sxs-lookup"><span data-stu-id="add64-102">Topology Builder Lync Node</span></span>
+# <a name="topology-builder-lync-node"></a><span data-ttu-id="d053e-102">Nó do Lync do Construtor de Topologia</span><span class="sxs-lookup"><span data-stu-id="d053e-102">Topology Builder Lync Node</span></span>
  

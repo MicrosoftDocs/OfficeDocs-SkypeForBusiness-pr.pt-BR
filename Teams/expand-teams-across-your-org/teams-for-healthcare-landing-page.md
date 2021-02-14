@@ -1,6 +1,6 @@
 ---
 title: Teams para Serviços de Saúde
-description: Saiba mais sobre os recursos de administrador disponíveis para gerenciar o Teams para equipes de saúde em sua organização.
+description: Saiba mais sobre os recursos de administração disponíveis para você gerenciar o Teams para equipes de saúde em sua organização.
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -23,12 +23,12 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49815701"
 ---
-# <a name="teams-for-healthcare"></a><span data-ttu-id="42b40-103">Teams para Serviços de Saúde</span><span class="sxs-lookup"><span data-stu-id="42b40-103">Teams for Healthcare</span></span>
+# <a name="teams-for-healthcare"></a><span data-ttu-id="0b014-103">Teams para Serviços de Saúde</span><span class="sxs-lookup"><span data-stu-id="0b014-103">Teams for Healthcare</span></span>
 
-<span data-ttu-id="42b40-104">O Teams oferece às equipes de saúde e aos profissionais de saúde uma maneira segura de se comunicar, coordenar o atendimento aos pacientes e melhorar a eficiência operacional.</span><span class="sxs-lookup"><span data-stu-id="42b40-104">Teams gives health teams and healthcare professionals a secure way to communicate, coordinate patient care, and improve operational efficiencies.</span></span> <span data-ttu-id="42b40-105">Aqui você encontrará os recursos de administrador necessários para gerenciar o Teams para equipes de saúde em sua organização.</span><span class="sxs-lookup"><span data-stu-id="42b40-105">Here you'll find the admin resources you need to manage Teams for healthcare teams in your organization.</span></span>
+<span data-ttu-id="0b014-104">O Teams oferece às equipes de saúde e profissionais de saúde uma maneira segura de se comunicar, coordenar o atendimento ao paciente e melhorar a eficiência operacional.</span><span class="sxs-lookup"><span data-stu-id="0b014-104">Teams gives health teams and healthcare professionals a secure way to communicate, coordinate patient care, and improve operational efficiencies.</span></span> <span data-ttu-id="0b014-105">Aqui você encontrará os recursos de administração necessários para gerenciar o Teams para equipes de saúde em sua organização.</span><span class="sxs-lookup"><span data-stu-id="0b014-105">Here you'll find the admin resources you need to manage Teams for healthcare teams in your organization.</span></span>
 
 |               |               |
 | ------------- | ------------- |
-| ![get-started-teams](../media/get-started-teams.svg)  |  [<span data-ttu-id="42b40-107">Introdução ao Teams para Organizações de Saúde</span><span class="sxs-lookup"><span data-stu-id="42b40-107">Get started with Teams for Healthcare organizations</span></span>](https://docs.microsoft.com/microsoftteams/expand-teams-across-your-org/healthcare/teams-in-hc) |
-| ![walkthrough-map-teams](../media/walkthrough-map-teams.svg) | [<span data-ttu-id="42b40-109">Introdução aos modelos do Teams para Organizações de Saúde</span><span class="sxs-lookup"><span data-stu-id="42b40-109">Get started with Teams templates for Healthcare organizations</span></span>](https://docs.microsoft.com/microsoftteams/expand-teams-across-your-org/healthcare/healthcare-templates) |
-| ![chat](../media/chat.svg)  |  [<span data-ttu-id="42b40-111">Introdução às Mensagens Seguras para Organizações de Saúde</span><span class="sxs-lookup"><span data-stu-id="42b40-111">Get started with Secure Messaging for Healthcare organizations</span></span>](https://docs.microsoft.com/MicrosoftTeams/expand-teams-across-your-org/healthcare/messaging-policies-hc) |
+| ![get-started-teams](../media/get-started-teams.svg)  |  [<span data-ttu-id="0b014-107">Introdução ao Teams para Organizações de Saúde</span><span class="sxs-lookup"><span data-stu-id="0b014-107">Get started with Teams for Healthcare organizations</span></span>](https://docs.microsoft.com/microsoftteams/expand-teams-across-your-org/healthcare/teams-in-hc) |
+| ![walkthrough-map-teams](../media/walkthrough-map-teams.svg) | [<span data-ttu-id="0b014-109">Introdução aos modelos do Teams para Organizações de Saúde</span><span class="sxs-lookup"><span data-stu-id="0b014-109">Get started with Teams templates for Healthcare organizations</span></span>](https://docs.microsoft.com/microsoftteams/expand-teams-across-your-org/healthcare/healthcare-templates) |
+| ![Chat](../media/chat.svg)  |  [<span data-ttu-id="0b014-111">Introdução às Mensagens Seguras para Organizações de Saúde</span><span class="sxs-lookup"><span data-stu-id="0b014-111">Get started with Secure Messaging for Healthcare organizations</span></span>](https://docs.microsoft.com/MicrosoftTeams/expand-teams-across-your-org/healthcare/messaging-policies-hc) |

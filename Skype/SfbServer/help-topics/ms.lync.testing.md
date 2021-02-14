@@ -20,8 +20,8 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49817791"
 ---
-# <a name="testing-sfb-csh"></a><span data-ttu-id="b69b5-103">Testando O CSH SfB</span><span class="sxs-lookup"><span data-stu-id="b69b5-103">Testing SfB CSH</span></span>
+# <a name="testing-sfb-csh"></a><span data-ttu-id="b54c4-103">Testando O CSH SfB</span><span class="sxs-lookup"><span data-stu-id="b54c4-103">Testing SfB CSH</span></span>
 
-<span data-ttu-id="b69b5-104">Este seria um tópico CSH que está oculto na pesquisa.</span><span class="sxs-lookup"><span data-stu-id="b69b5-104">This would be a CSH topic that's hidden from search.</span></span>
+<span data-ttu-id="b54c4-104">Este seria um tópico CSH que está oculto na pesquisa.</span><span class="sxs-lookup"><span data-stu-id="b54c4-104">This would be a CSH topic that's hidden from search.</span></span>
 
 

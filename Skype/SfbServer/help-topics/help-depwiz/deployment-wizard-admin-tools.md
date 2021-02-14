@@ -22,8 +22,8 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49815451"
 ---
-# <a name="deployment-wizard-admin-tools"></a><span data-ttu-id="3d72a-103">Assistente de Implantação: Ferramentas de Administração</span><span class="sxs-lookup"><span data-stu-id="3d72a-103">Deployment Wizard: Admin Tools</span></span>
+# <a name="deployment-wizard-admin-tools"></a><span data-ttu-id="eff33-103">Assistente de Implantação: Ferramentas de Administração</span><span class="sxs-lookup"><span data-stu-id="eff33-103">Deployment Wizard: Admin Tools</span></span>
  
-<span data-ttu-id="3d72a-104">Para obter detalhes sobre como usar o Assistente de Implantação para instalar o Skype for Business Server 2015, consulte [Instalar o Skype for Business Server 2015.](../../deploy/install/install.md)</span><span class="sxs-lookup"><span data-stu-id="3d72a-104">For details about using Deployment Wizard to install Skype for Business Server 2015, see [Install Skype for Business Server 2015](../../deploy/install/install.md).</span></span>
+<span data-ttu-id="eff33-104">Para obter detalhes sobre como usar o Assistente de Implantação para instalar o Skype for Business Server 2015, consulte [Instalar o Skype for Business Server 2015.](../../deploy/install/install.md)</span><span class="sxs-lookup"><span data-stu-id="eff33-104">For details about using Deployment Wizard to install Skype for Business Server 2015, see [Install Skype for Business Server 2015](../../deploy/install/install.md).</span></span>
   
 

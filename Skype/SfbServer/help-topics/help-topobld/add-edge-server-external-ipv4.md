@@ -22,8 +22,8 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49815281"
 ---
-# <a name="add-edge-server-external-ipv4"></a><span data-ttu-id="194d3-103">Adicionar IPv4 Externo de Servidor de Borda</span><span class="sxs-lookup"><span data-stu-id="194d3-103">Add Edge Server External IPv4</span></span>
+# <a name="add-edge-server-external-ipv4"></a><span data-ttu-id="ecc31-103">Adicionar IPv4 Externo de Servidor de Borda</span><span class="sxs-lookup"><span data-stu-id="ecc31-103">Add Edge Server External IPv4</span></span>
  
-<span data-ttu-id="194d3-104">Em **IPv4** externo, insira o endereço IP externo que aponta para o serviço de Borda de Acesso, serviço de Borda de Webconferência e serviço de Borda A/V.</span><span class="sxs-lookup"><span data-stu-id="194d3-104">In **External IPv4**, enter the external IP address that points to the Access Edge service, Web Conferencing Edge service, and A/V Edge service.</span></span>
+<span data-ttu-id="ecc31-104">Em **IPv4** externo, insira o endereço IP externo que aponta para o serviço de Borda de Acesso, serviço de Borda de Webconferência e serviço de Borda A/V.</span><span class="sxs-lookup"><span data-stu-id="ecc31-104">In **External IPv4**, enter the external IP address that points to the Access Edge service, Web Conferencing Edge service, and A/V Edge service.</span></span>
   
 

@@ -22,8 +22,8 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49815411"
 ---
-# <a name="prepare-current-forrest-intro"></a><span data-ttu-id="1c8ed-104">Preparar Floresta Atual (Introdução)</span><span class="sxs-lookup"><span data-stu-id="1c8ed-104">Prepare Current Forrest (Intro)</span></span>
+# <a name="prepare-current-forrest-intro"></a><span data-ttu-id="6f72a-104">Preparar Floresta Atual (Introdução)</span><span class="sxs-lookup"><span data-stu-id="6f72a-104">Prepare Current Forrest (Intro)</span></span>
  
-<span data-ttu-id="1c8ed-105">Para começar a tarefa **Preparar Floresta**, clique em **Avançar**.</span><span class="sxs-lookup"><span data-stu-id="1c8ed-105">To begin the **Prepare Forest** task, click **Next**.</span></span> <span data-ttu-id="1c8ed-106">A execução **da tarefa Preparar** Floresta cria configurações globais e grupos universais para uso pelo Skype for Business Server 2015.</span><span class="sxs-lookup"><span data-stu-id="1c8ed-106">Running the **Prepare Forest** task creates global settings and creates universal groups for use by Skype for Business Server 2015.</span></span>
+<span data-ttu-id="6f72a-105">Para começar a tarefa **Preparar Floresta**, clique em **Avançar**.</span><span class="sxs-lookup"><span data-stu-id="6f72a-105">To begin the **Prepare Forest** task, click **Next**.</span></span> <span data-ttu-id="6f72a-106">A execução **da tarefa Preparar** Floresta cria configurações globais e grupos universais para uso pelo Skype for Business Server 2015.</span><span class="sxs-lookup"><span data-stu-id="6f72a-106">Running the **Prepare Forest** task creates global settings and creates universal groups for use by Skype for Business Server 2015.</span></span>
   
 
