@@ -1,5 +1,5 @@
 ---
-title: Ver uma lista de usuários habilitados para conferências de áudio no Skype for Business Online
+title: Ver uma lista de usuários habilitados para Audioconferência no Skype for Business Online
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -28,7 +28,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 05/08/2020
 ms.locfileid: "44163920"
 ---
-# <a name="see-a-list-of-users-that-are-enabled-for-audio-conferencing-in-skype-for-business-online"></a>Ver uma lista de usuários habilitados para conferências de áudio no Skype for Business Online
+# <a name="see-a-list-of-users-that-are-enabled-for-audio-conferencing-in-skype-for-business-online"></a>Ver uma lista de usuários habilitados para Audioconferência no Skype for Business Online
 
 > [!NOTE]
 > Para obter informações sobre os usuários habilitados no Microsoft Teams, confira [Ver uma lista de usuários que estão habilitados para Audioconferência no Microsoft Teams](/MicrosoftTeams/see-a-list-of-users-that-are-enabled-for-audio-conferencing-in-teams).
@@ -45,11 +45,11 @@ After you have enabled Skype for Business users in your organization for Audio C
 
 ## <a name="what-else-should-i-know"></a>O que mais devo saber?
 
-- Quando você vê a lista de usuários habilitados, pode selecionar um usuário na lista e usar o painel de ação para editar as configurações de videoconferência para esse usuário.
+- Ao exibir a lista de usuários habilitados, você pode selecionar um usuário na lista e usar o painel Ação para editar as configurações de audioconferência desse usuário.
     
-- Ao selecionar um único usuário configurado para usar a Microsoft como provedor de serviços de audioconferência, você pode visualizar o número de telefone padrão e se a sua organização está habilitada para IDs de conferência dinâmicas, e você pode redefinir a ID de conferência para reuniões que o usuário organiza.
+- Ao selecionar um único usuário configurado para usar a Microsoft como provedor de audioconferência, você pode exibir o número de telefone padrão e se sua organização está habilitada para IDs de conferência dinâmicas, além de redefinir a ID de conferência para reuniões que o usuário organiza.
     
-- Ao selecionar um único usuário configurado para usar um provedor de serviços de audioconferência de terceiros, você pode exibir o nome do provedor de serviços de audioconferência, o número de telefone de chamada tarifada e o número de telefone de chamada gratuita (se estiver configurado).
+- Ao selecionar um único usuário configurado para usar um provedor de serviços de audioconferência de terceiros, você pode exibir o nome do provedor de audioconferência, o número de telefone de chamada tarifada e o número de telefone de chamada gratuita (se ele estiver configurado).
     
 - Você pode usar as opções de filtro para exibir os usuários com:
     
@@ -67,21 +67,21 @@ After you have enabled Skype for Business users in your organization for Audio C
     
   - Selecionar um número padrão diferente para esses usuários.
     
-  - Desative a conferência de áudio para o usuário alterando o provedor para **nenhum**.
+  - Desativar a audioconferência do usuário alterando o provedor para **Nenhum.**
     
-  - Alterne para a Microsoft como o provedor de serviços de audioconferência, se o usuário tiver recebido uma licença de **conferência de áudio** .
+  - Alternar para a Microsoft como provedor de audioconferência se o usuário tiver sido atribuído uma licença **de Audioconferência.**
     
   - Permitir/proibir que usuários anônimos ativem as reuniões por telefone dos usuários selecionados.
     
 ## <a name="want-to-know-how-to-manage-with-windows-powershell"></a>Quer saber como gerenciar com o Windows PowerShell?
 
-- O Windows PowerShell é tudo sobre o gerenciamento de usuários e o que os usuários podem fazer ou não podem fazer. Com o Windows PowerShell, você pode gerenciar o Microsoft 365 ou o Office 365 e o Skype for Business online usando um único ponto de administração que pode simplificar o seu trabalho diário, quando você tem várias tarefas para fazer. Para começar a usar o Windows PowerShell, consulte estes tópicos:
+- O Windows PowerShell gerencia os usuários e o que os usuários podem ou não fazer. Com o Windows PowerShell, você pode gerenciar o Microsoft 365 ou o Office 365 e o Skype for Business Online usando um ponto único de administração que pode simplificar seu trabalho diário quando você tiver várias tarefas a fazer. Para começar a trabalhar com o Windows PowerShell, consulte estes tópicos:
     
   - [Uma introdução ao Windows PowerShell e ao Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525039)
     
-  - [Por que você precisa usar o Microsoft 365 ou o Office 365 PowerShell](https://go.microsoft.com/fwlink/?LinkId=525041)
+  - [Por que você precisa usar o Microsoft 365 ou o PowerShell do Office 365](https://go.microsoft.com/fwlink/?LinkId=525041)
     
-- O Windows PowerShell tem muitas vantagens em velocidade, simplicidade e produtividade apenas usando o centro de administração do Microsoft 365, como quando você está usando alterações de configuração para muitos usuários de uma só vez. Saiba mais sobre essas vantagens nos tópicos a seguir:
+- O Windows PowerShell tem muitas vantagens em velocidade, simplicidade e produtividade em relação ao uso apenas do Centro de administração do Microsoft 365, como quando você está fazendo alterações de configuração para muitos usuários ao mesmo tempo. Saiba mais sobre essas vantagens nos seguintes tópicos:
     
   - [Melhores maneiras de gerenciar o Microsoft 365 ou o Office 365 com o Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
     
@@ -91,4 +91,4 @@ After you have enabled Skype for Business users in your organization for Audio C
     
 ## <a name="related-topics"></a>Tópicos relacionados
 
-[Experimentar ou comprar videoconferências no Microsoft 365 ou no Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
+[Experimentar ou comprar Audioconferência no Microsoft 365 ou no Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)

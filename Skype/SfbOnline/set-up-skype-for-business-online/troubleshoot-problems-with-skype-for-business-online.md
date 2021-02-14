@@ -32,9 +32,9 @@ ms.locfileid: "44164310"
 
 ## <a name="troubleshoot-admin-issues-for-skype-for-business-online"></a>Solucionar problemas de administrador do Skype for Business Online
 
-Você pode obter respostas para a maioria das suas perguntas sobre o Skype for Business online no artigo [verificar causas comuns de erros de entrada do Skype for Business online](troubleshooting-sign-in-errors-for-admins.md#toc323194094). O seguinte artigo da base de conhecimento também inclui muitos recursos de solução de problemas e referências de código de erro: [solução de problemas de erros de entrada do Skype for Business online para administradores](https://docs.microsoft.com/skypeforbusiness/set-up-skype-for-business-online/troubleshooting-sign-in-errors-for-admins).
+Você pode obter respostas para a maioria das suas perguntas do Skype for Business Online no artigo Verificar causas comuns de erros de conexão do [Skype for Business Online.](troubleshooting-sign-in-errors-for-admins.md#toc323194094) O seguinte artigo da KB também inclui muitos recursos de solução de problemas e referências de código de erro: Solução de problemas de erros de conexão do [Skype for Business Online para administradores.](https://docs.microsoft.com/skypeforbusiness/set-up-skype-for-business-online/troubleshooting-sign-in-errors-for-admins)
 
-Para problemas de conferência discada, consulte [solução de problemas de áudio de audioconferência e problemas conhecidos](../audio-conferencing-in-office-365/audio-conferencing-troubleshooting-and-known-issues.md).
+Para problemas de conferência discagem, consulte a solução de problemas e problemas conhecidos da [Audioconferência.](../audio-conferencing-in-office-365/audio-conferencing-troubleshooting-and-known-issues.md)
 
 ## <a name="additional-help-for-skype-for-business-online-admin-issues"></a>Mais ajuda para problemas do administrador do Skype for Business Online
 
@@ -75,9 +75,9 @@ A maior parte dos problemas enfrentados pelos usuários do Skype for Business On
 ## <a name="still-need-help-contact-support"></a>Ainda precisa de ajuda? Fale com o suporte.
 <a name="BK_SupportBridge_1"> </a>
 
-Como administrador do Microsoft 365 para aplicativos para empresas, você tem acesso gratuito aos nossos agentes de suporte especializados para obter suporte de pré-vendas, conta e cobrança, bem como para ajudar a solucionar problemas técnicos. Você também pode [entrar em contato com o suporte](https://go.microsoft.com/fwlink/p/?LinkID=518322) em nome do Microsoft 365 e do Office 365 para os usuários da sua organização.
+Como administrador dos Aplicativos do Microsoft 365 para empresas, você tem acesso gratuito aos nossos experientes agentes de suporte para suporte a pré-vendas, conta e cobrança, além de obter ajuda para resolver problemas técnicos. Você também pode [entrar em contato com o](https://go.microsoft.com/fwlink/p/?LinkID=518322) suporte em nome de usuários do Microsoft 365 e do Office 365 em sua organização.
 
-- [Obter ajuda dos fóruns da Comunidade do Microsoft 365 e do Office 365](https://go.microsoft.com/fwlink/p/?LinkId=518605)
+- [Obter ajuda dos fóruns da comunidade do Microsoft 365 e do Office 365](https://go.microsoft.com/fwlink/p/?LinkId=518605)
 
 - [Administradores: Ligar para o Suporte](https://go.microsoft.com/fwlink/p/?LinkID=518322)
 

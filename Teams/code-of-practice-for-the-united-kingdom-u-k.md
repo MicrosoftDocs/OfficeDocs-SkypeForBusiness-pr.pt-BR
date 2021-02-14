@@ -1,5 +1,5 @@
 ---
-title: Código de prática para o Reino Unido -Planos de chamada da Microsoft 365
+title: Código de prática para o Reino Unido. - Planos de chamada do Microsoft 365
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -22,7 +22,7 @@ ms.custom:
 - Legal
 - seo-marvel-mar2020
 hideEdit: true
-description: Conheça o código de prática dos planos de chamada PSTN para o Skype for Business no Reino Unido, incluindo onde obter ajuda e como enviar reclamações e resolver contestações.
+description: Aprenda o código de prática para planos de Chamada PSTN para o Skype for Business UK, incluindo, onde obter ajuda e como enviar reclamações e resolver controvérsias.
 ms.openlocfilehash: ac741fec8ccd7262e865ef4aaef8f3858faf3cb7
 ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
@@ -30,9 +30,9 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/10/2020
 ms.locfileid: "44689757"
 ---
-# <a name="calling-plans-in-microsoft-365---code-of-practice-for-the-united-kingdom-uk"></a>Planos de chamada no Microsoft 365-código de prática do Reino Unido (Reino Unido)
+# <a name="calling-plans-in-microsoft-365---code-of-practice-for-the-united-kingdom-uk"></a>Planos de chamada no Microsoft 365 – Código de prática para o Reino Unido (Reino Unido)
 
-Esse código se aplica a clientes de pequenas empresas (organizações com 10 funcionários ou menos) no Reino Unido (Reino Unido) em relação ao serviço de plano de chamadas do Microsoft 365 ou do Office 365 (o "serviço") de acordo com as normas de comunicação do Reino Unido. Outros serviços do Skype for Business são regidos por seu contrato de serviço com a Microsoft e outros termos aplicáveis ao uso do serviço específico.
+Este Código se aplica a clientes de pequenas empresas (organizações com 10 funcionários ou menos) no Reino Unido em relação ao serviço do Microsoft 365 ou do Plano de Chamada do Office 365 (o "Serviço") de acordo com os regulamentos de comunicações do Reino Unido. Outros serviços do Skype for Business são regidos por seu contrato de serviço com a Microsoft e outros termos aplicáveis ao uso do serviço específico.
 
 ## <a name="1-about-skype-for-business"></a>1. Sobre o Skype for Business
 
@@ -44,7 +44,7 @@ Se tiver dúvidas sobre vendas, cobrança ou suporte técnico, entre em contato 
 
 Número de telefone de chamada gratuita: 0800 032 6417
 
-Online: entre no centro de administração do Microsoft 365 e envie uma solicitação de serviço selecionando **nova solicitação de serviço** em **suporte**.
+Online: Entre no Centro de administração do Microsoft 365 e envie uma solicitação de serviço selecionando Nova solicitação de **serviço** em **Suporte.**
 
 O horário comercial é de segunda a sexta, 9h-17h.
 
@@ -52,7 +52,7 @@ Você pode obter resposta a algumas de suas dúvidas visitando o [site do Skype 
 
 ## <a name="3-complaints-and-dispute-resolution"></a>3. Reclamações e solução de controvérsias
 
-Nossas prioridades são a satisfação do cliente e o excelente serviço. No entanto, se você tiver uma reclamação, trabalharemos rapidamente para resolver o problema. Nossos [planos de chamadas no Microsoft 365 ou no Office 365-código de tratamento de reclamações para a página do Reino Unido (Reino Unido)](complaint-handling-code-for-the-united-kingdom-u-k.md) detalham os procedimentos para pequenas empresas arquivar uma reclamação conosco e nosso esquema independente de resolução de litígio.
+Nossas prioridades são a satisfação do cliente e o excelente serviço. No entanto, se você tiver uma reclamação, trabalharemos rapidamente para resolver o problema. Nossos Planos de Chamada no [Microsoft 365 ou no Office 365 –](complaint-handling-code-for-the-united-kingdom-u-k.md) o código de tratamento de reclamações para a página do Reino Unido (Reino Unido) detalha os procedimentos para que pequenas empresas nos deem uma reclamação e nosso esquema independente de solução de controvérsias.
   
 ## <a name="4-number-porting"></a>4. Portabilidade numérica
 
@@ -60,13 +60,13 @@ Em certos casos, o Skype for Business pode ser incapaz de transferir o número d
 
 ## <a name="5-service-reliability"></a>5. Confiabilidade do serviço
 
-O plano de chamadas do Microsoft 365 ou do Office 365 depende da sua conexão de banda larga. Se a conexão de banda larga sofrer um corte de energia ou uma falha, você não poderá fazer telefonemas. As causas das falhas podem estar fora de nosso controle.
+O Plano de Chamada do Microsoft 365 ou do Office 365 depende da sua conexão de banda larga. Se a conexão de banda larga sofrer um corte de energia ou uma falha, você não poderá fazer telefonemas. As causas das falhas podem estar fora de nosso controle.
 
 ## <a name="6-emergency-calls"></a>6. Chamadas de emergência
 
-O Skype for Business fornece acesso a serviços públicos de chamadas de emergência pelos números 999/112 para clientes na Inglaterra, no País de Gales, na Escócia e na Irlanda do Norte. No entanto, as chamadas de emergência para 999 ou 112 operam de forma diferente com os serviços de plano de chamada do Microsoft 365 ou Office 365 do que nos serviços de telefonia tradicional Os clientes precisam notificar cada usuário dos serviços do plano de chamadas do Microsoft 365 ou do Office 365 dessas diferenças.
+O Skype for Business fornece acesso a serviços públicos de chamadas de emergência pelos números 999/112 para clientes na Inglaterra, no País de Gales, na Escócia e na Irlanda do Norte. No entanto, as chamadas de emergência para 999 ou 112 operam de forma diferente com os serviços do Microsoft 365 ou do Plano de Chamada do Office 365 do que os serviços telefônicos tradicionais. Os clientes devem notificar cada usuário dos serviços do Plano de Chamada do Microsoft 365 ou do Office 365 sobre essas diferenças.
 
-As diferenças incluem o seguinte: (i) o Skype for Business pode não conhecer o local real de um chamador, o que pode fazer com que os serviços de emergência sejam despatcheddos para o local errado; (II) quando um usuário do Skype for Business disca uma chamada de emergência, o usuário pode ser solicitado por uma operadora para fornecer sua localização atual para ajudar a encaminhar corretamente a chamada de emergência e serviços de emergência do despatching; (III) se o dispositivo do usuário não tiver energia, estiver sofrendo uma queda de energia ou, por qualquer motivo, não puder acessar a Internet, o usuário não poderá fazer uma chamada de emergência por meio do Microsoft 365 ou dos serviços do plano de chamadas do Office 365; e (IV) embora os serviços do plano de chamada do Microsoft 365 e do Office 365 possam ser usados em qualquer lugar do mundo em que uma conexão à Internet esteja disponível, os usuários não devem chamar 999 ou 112 fora da Inglaterra, do Gales, da Escócia ou da Irlanda, porque a chamada provavelmente não será roteada para o serviço de emergência apropriado.
+As diferenças incluem o seguinte: (i) o Skype for Business pode não saber a localização real de um chamador, o que pode resultar na envio de serviços de emergência para o local errado; (ii) quando um usuário do Skype for Business disca uma chamada de emergência, o usuário pode ser solicitado por um operador a fornecer sua localização atual para ajudar a rotear corretamente a chamada de emergência e encaminhar serviços de emergência; (iii) se o dispositivo do usuário não tiver energia, estiver com uma queda de energia ou, por qualquer motivo, não puder acessar a Internet de outra forma, o usuário não poderá fazer uma chamada de emergência por meio dos serviços do Microsoft 365 ou do Plano de Chamada do Office 365; e (iv) embora os serviços do Plano de Chamada do Microsoft 365 e do Office 365 possam ser usados em qualquer lugar do mundo onde uma conexão com a Internet está disponível, os usuários não devem ligar para 999 ou 112 fora da Inglaterra, País de Gales, Escócia ou Irlanda do Norte, pois a chamada provavelmente não será encaminhada para o serviço de emergência apropriado.
 
 É importante que todos os clientes registrem a localização dos usuários e mantenham essas informações atualizadas para que possam ser fornecidas aos serviços de emergência. Você pode fazer mudanças nas informações de localização online por meio do portal do administrador do Skype for Business.
 
@@ -150,4 +150,4 @@ As taxas de Serviços Nacionais de Tradução, Números Pessoais e números 0870
 
 
 ## <a name="related-topics"></a>Tópicos relacionados
-[Disponibilidade da Audioconferência e dos Planos de Chamadas por país e região](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
+[Disponibilidade de audioconferência e Planos de Chamadas por país e região](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)

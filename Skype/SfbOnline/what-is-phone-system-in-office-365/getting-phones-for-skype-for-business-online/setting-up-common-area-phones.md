@@ -19,7 +19,7 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Phone System
-description: Saiba quais são as etapas de implantação para obter o firmware correto, atualize-o, se necessário, atribua licenças e defina as configurações para telefones fixos de área comuns.
+description: Conheça as etapas de implantação para obter o firmware correto, atualizá-lo, se necessário, atribuir licenças e definir configurações para Telefones de Área Comuns.
 ms.openlocfilehash: 02cab34b4a1f220e8f28ceeee794470191582704
 ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
@@ -37,10 +37,10 @@ A primeira coisa a ser feita é confirmar que você já:
 - Comprou a licença do Telefone de Área Comum e um Plano de Chamadas.
 - Pesquisou e comprou telefones aprovados (veja a lista [aqui](deploying-skype-for-business-online-phones.md)).
 - Update the firmware on your phones (See supported firmware [in this topic](getting-phones-for-skype-for-business-online.md)).  You can check the firmware on you phone by doing this:
-  - **Telefones Polycom VVX**: Vá para **configurações**  >  **Status**  >  **aplicativo plataforma**de status  >  **Application**  >  **principal**.
-  - **Telefones Yealink**: ir para o **status** na tela principal do telefone.
-  - **AudioCodes telefones**: Vá para o **menu**  >  **Device Status**  >  **versão do firmware** do status do dispositivo na tela inicial.
-  - **Lync Phone Edition (LPe) phones**: Vá **Menu**para  >  **as informações do sistema** do menu na tela inicial.
+  - **Telefones Polycom VVX:** Vá para **a Plataforma de** Status de Configurações Principal  >    >  **do**  >    >  **Aplicativo.**
+  - **Telefones Yealink:** Vá **para Status** na tela do telefone principal.
+  - **Telefones AudioCodes:** Vá para **a versão firmware** de status do dispositivo  >  **de menu** na tela  >   inicial.
+  - **Telefones Lync Phone Edition (LPE)**: Acesse Informações do Sistema de **Menu**  >   na tela inicial.
 
     Firmware updates are managed by the Skype for Business Service. Every Skype for Business certified phone's firmware is uploaded to the Skype for Business Update server, and device update is enabled on all phones by default.
 
@@ -50,7 +50,7 @@ A primeira coisa a ser feita é confirmar que você já:
 Você precisará seguir estas etapas:
 
 ### <a name="step-1---buy-the-licenses"></a>Etapa 1 - Compre as licenças
-1. No centro de administração, vá para **Billing**  >  **serviços de compra**de cobrança e adicione **outros planos**.
+1. No centro de administração, vá para **Serviços de** Compra de  >  **Cobrança** e adicione **Outros planos.**
 
     ![CAP-license.png](../../images/cap-license.png)
 2. Clique em **Telefone de Área Comum** > **Comprar agora** > na página **Finalizar compra** clique em **Comprar agora**.
@@ -62,7 +62,7 @@ Você precisará seguir estas etapas:
 Para mais informações sobre licenças, veja [Licenciamento de complementos do Skype for Business e Microsoft Teams](../../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
 
 ### <a name="step-2---create-a-new-user-account-for-the-phone-and-assign-the-licenses"></a>Etapa 2 - Criar uma nova conta de usuário para o telefone e atribuir as licenças
-1. No centro de administração, vá para **usuários**usuários  >  **ativos**  >  **Adicionar um usuário**.
+1. No centro de administração, vá para **Usuários**  >  **Ativos Adicionar** um  >  **usuário.**
 2. Coloque um **Nome de usuário** como "Principal" para o primeiro nome e "Recepção" para o segundo nome.
 3. Coloque um **Nome para exibição** se "Recepção Principal"não for gerado automaticamente.
 4. Coloque um **Nome de usuário** como "RecepçãoPrincipal" ou "LobbyPrincipal".
@@ -82,9 +82,9 @@ Para mais detalhes, veja [Adicionar um usuário](https://support.office.com/arti
 
 ### <a name="step-3---assign-a-phone-number-to-the-common-area-phone-user-account"></a>Etapa 3 - Atribuir um número de telefone à conta de usuário do Telefone de Área Comum
 
-![Um ícone mostrando o logotipo do Skype for Business ](../../images/sfb-logo-30x30.png) para atribuir um número de telefone ao usuário usando o **centro de administração do Skype for Business**
+![Um ícone mostrando o logotipo do Skype for Business Atribuir um número de telefone ao usuário usando o ](../../images/sfb-logo-30x30.png) Centro de administração do Skype for **Business**
 
-1. No centro de administração > centro de **Administração**  >  **do Skype for Business**.
+1. No centro de administração > **centro de administração do** Skype for  >  **Business.**
 2. No **Centro de administração do Skype for Business** >  **Voz** > **Números de telefone**.
 3. Selecione um número na lista de números de telefone e clique em **Atribuir**.
 4. Na página **Atribuir**, na caixa **Usuário de voz** digite o nome do usuário usado para o telefone e, em seguida, selecione o usuário no menu suspenso **Selecionar um usuário de voz**.
@@ -98,7 +98,7 @@ Para mais detalhes, veja [Adicionar um usuário](https://support.office.com/arti
 
 Para mais detalhes, veja [Obtenção de números de telefone para seus usuários](/microsoftteams/getting-phone-numbers-for-your-users).
 
-Se você estiver se perguntando, também pode levar seu número de telefone com outra transportadora e "*portar*" ou transferi-la para o Microsoft 365 ou o Office 365. Consulte [transferir números de telefone para o Teams](/microsoftteams/phone-number-calling-plans/transfer-phone-numbers-to-teams).
+Se estiver se perguntando, você também pode pegar seu número de telefone que tem com outra operadora e *"* porta " ou transferi-los para o Microsoft 365 ou o Office 365. Veja, [Transferir números de telefone para o Teams.](/microsoftteams/phone-number-calling-plans/transfer-phone-numbers-to-teams)
 
 ### <a name="step-4---setting-up-your-phone"></a>Etapa 4 - Configurar seu telefone
 
@@ -116,7 +116,7 @@ O telefone ou telefones que você possui devem ter o **Modo de Telefone de Área
 - Agora que o modo CAP está habilitado, configure o telefone usando o vídeo do telefone. O vídeo deve mostrar que **o CaAP está habilitado**. Em seguida, faça o seguinte:
 
     1. Clique em **Configurações**.
-    2. Selecione **avançado**.
+    2. Selecione **Avançado.**
     3. Insira a senha.
     4. Em **Configurações de administração**, selecione **Configurações do Telefone de Área Comum**.
     5. Habilite o **CAP** e o **Modo de Administração do CAP**.
@@ -125,7 +125,7 @@ O telefone ou telefones que você possui devem ter o **Modo de Telefone de Área
 - Agora seu telefone está pronto para que você possa entrar na tela inicial.
 
     1. Entre selecionando **Configurações** > **Recursos** > **Skype for Business.**
-    2. Selecione **Credenciais do usuário**e depois **Entrada na Web (CAP)** para gerar um código.
+    2. Selecione **Credenciais do usuário** e depois **Entrada na Web (CAP)** para gerar um código.
     3. Acesse o [portal de configuração](https://aka.ms/skypecap) e entre como **administrador**.
     4. Insira o nome de exibição (p. ex., Recepção Principal).
 
@@ -138,7 +138,7 @@ O telefone ou telefones que você possui devem ter o **Modo de Telefone de Área
 
 
 > [!NOTE]
-> O site de configuração do CAP informa que ele redefinirá a senha da conta CAP para uma senha aleatória. Observe que a conta à qual o CAP está se referindo é a conta do Active Directory do Azure (AAD). Se você criou a conta somente no AAD, então o processo é direto. Se você tiver sincronizado um Active Directory local para o AAD e usar um IDP ou ADFS de terceiros, o provisionamento de CAP falhará. Nesse caso, você só precisa usar uma conta do Microsoft 365 ou do Office 365/Azure Active Directory (por exemplo, uma conta com **onmicrosoft.com** domínio) para que o provisionamento de Cap funcione.
+> O site de configuração do CAP informa que ele redefinirá a senha da conta CAP para uma senha aleatória. Observe que a conta à qual o CAP está se referindo é a conta do Active Directory do Azure (AAD). Se você criou a conta somente no AAD, então o processo é direto. Se você tiver sincronizado um Active Directory local com o AAD e usar um IDP ou ADFS de terceiros, o provisionamento de CAP falhará. Nesse caso, você precisa usar apenas uma conta do Microsoft 365 ou do Office 365/Azure Active Directory (por exemplo, uma conta com **domínio onmicrosoft.com)** para que o provisionamento de CAP funcione.
 
 
 ### <a name="related-topics"></a>Tópicos relacionados

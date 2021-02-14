@@ -35,9 +35,9 @@ Você deve ter [permissões de administrador](https://support.office.com/article
 
 ![Um ícone mostrando o logotipo do Skype for Business](../images/sfb-logo-30x30.png) **Usando o centro de administração do Skype for Business**
   
-1. Entre com sua conta de administrador do Microsoft 365 ou do Office [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home#/homepage)365 em.
+1. Entre com sua conta de administrador do Microsoft 365 ou do Office 365 em [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home#/homepage) .
     
-2. No centro de administração, vá para **centros** > de administração**Skype for Business**. 
+2. No centro de administração, vá para **Centros de Administração do** Skype for  >  **Business.** 
     
     ![Escolha o Centro de administração do Skype for Business.](../images/376a7a45-e6e3-4716-be09-d2f294d885a2.png)
   

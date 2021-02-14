@@ -1,5 +1,5 @@
 ---
-title: Redefinir o PIN da conferência de áudio no Skype for Business Online
+title: Redefinir o PIN de audioconferência no Skype for Business Online
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,7 +20,7 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Audio Conferencing
-description: 'Saiba o que você deve saber sobre PINs e como redefini-los no Skype for Business online. '
+description: 'Descubra o que você deve saber sobre PINs e como redefini-los no Skype for Business Online. '
 ms.openlocfilehash: 21e2742653e72919df0647c0539fdb335585cc84
 ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
 ms.translationtype: MT
@@ -28,7 +28,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 05/08/2020
 ms.locfileid: "44164690"
 ---
-# <a name="reset-the-audio-conferencing-pin-in-skype-for-business-online"></a>Redefinir o PIN da conferência de áudio no Skype for Business Online
+# <a name="reset-the-audio-conferencing-pin-in-skype-for-business-online"></a>Redefinir o PIN de audioconferência no Skype for Business Online
 
 > [!Note]
 > Para obter informações sobre a redefinição de PINs de Audioconferência no Microsoft Teams, consulte [Redefinir o PIN de Audioconferência no Microsoft Teams](/MicrosoftTeams/reset-the-audio-conferencing-pin-in-teams).
@@ -39,13 +39,13 @@ Meetings can be started when an authenticated user joins using the Skype for Bus
   
 ## <a name="reset-a-users-pin"></a>Redefinir o PIN de um usuário
 
-1. Entre com sua conta corporativa ou de estudante.
+1. Entre com sua conta do trabalho ou da escola.
     
-2. Vá para o centro de administração > **Skype for Business**e, no painel de navegação esquerdo, clique em **conferência de áudio**.
+2. Vá para o centro de administração > **Skype for Business** e, no painel de navegação esquerdo, clique em **Audioconferência.**
     
-3. Clique em **usuários**, selecione o usuário para o qual você deseja redefinir o PIN.
+3. Clique em **Usuários,** selecione o usuário para o que você deseja redefinir o PIN.
     
-4. No painel Ação, em **PIN**, clique em **Redefinir**.
+4. No painel Ação, em **PIN,** clique em **Redefinir.**
  
 > [!Note]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
@@ -68,11 +68,11 @@ A user can reset a PIN by using the **Reset PIN** option on the **Dial-in Confer
     
 - A configuração padrão é não permitir que uma reunião seja iniciada por chamadores anônimos.
     
-- Por padrão, quando você habilita um usuário para videoconferência, ele recebe emails que incluem informações de conferência e seu PIN. O usuário deve ter uma caixa de correio do Microsoft 365 ou do Office 365, porque quando um PIN é redefinido, um novo PIN será enviado ao usuário em um email para o endereço SMTP principal (alias) definido para o usuário.
+- Quando você habilita um usuário para audioconferência, por padrão, ele envia emails que incluem informações de conferência e seu PIN. O usuário deve ter uma caixa de correio do Microsoft 365 ou do Office 365, pois quando um PIN for redefinido, um novo PIN será enviado ao usuário por email para seu endereço SMTP principal (alias) definido para o usuário.
     
 - When you set up audio conferencing, you set the digits that are required for the PINs in your organization. PINs can be from 4 to 12 digits - the default is 5. If you change the PIN length setting, the setting is only applied on newly generated PINs and isn't applied to the PIN setting for existing users that are enabled for audio conferencing. See [Set the length of the PIN for Audio Conferencing meetings](Set-the-PIN-length-for-Audio-Conferencing-meetings.md).
     
-- O email por padrão será definido como o endereço SMTP principal do Microsoft 365 ou do Office 365 do usuário. Você pode enviar um email para um endereço que não seja do Microsoft 365 ou não do Office 365, como um endereço de email do hotmail ou do MSN. Você pode substituir o endereço de email padrão usando o Windows PowerShell. Isso é útil se os usuários não têm uma caixa de correio do Exchange no Microsoft 365 ou no Office 365.
+- O email por padrão será definido como o endereço SMTP principal do Microsoft 365 ou office 365 do usuário. Você pode enviar um email para um endereço que não seja do Microsoft 365 ou não do Office 365, como um endereço de email do Hotmail ou MSN. Você pode substituir o endereço de email padrão usando o Windows PowerShell. Isso é útil se os usuários não têm uma caixa de correio do Exchange no Microsoft 365 ou no Office 365.
     
 - To override the default user address where the email is sent, the tenant admin can use the following cmdlet: Set-CsOnlineDialInConferencingUser -amos.marble -ResetLeaderPIN -SendEmail -SendEmailToAddress "u@hotmail.com". The SendEmail parameter is required to override the email address of the user.
     
@@ -86,13 +86,13 @@ A user can reset a PIN by using the **Reset PIN** option on the **Dial-in Confer
   Set-CsOnlineDialInConferencingUser -id amos.marble@contoso.com -ResetLeaderPIN
   ```
 
-- O Windows PowerShell é tudo sobre o gerenciamento de usuários e o que os usuários podem fazer ou não podem fazer. Com o Windows PowerShell, você pode gerenciar o Microsoft 365 ou o Office 365 usando um único ponto de administração que pode simplificar seu trabalho diário quando você tiver várias tarefas para fazer. Para começar a usar o Windows PowerShell, consulte estes tópicos:
+- O Windows PowerShell gerencia os usuários e o que os usuários podem ou não fazer. Com o Windows PowerShell, você pode gerenciar o Microsoft 365 ou o Office 365 usando um ponto único de administração que pode simplificar seu trabalho diário quando você tiver várias tarefas a fazer. Para começar a trabalhar com o Windows PowerShell, consulte estes tópicos:
     
-  - [Por que você precisa usar o Microsoft 365 ou o Office 365 PowerShell](https://go.microsoft.com/fwlink/?LinkId=525041)
+  - [Por que você precisa usar o Microsoft 365 ou o PowerShell do Office 365](https://go.microsoft.com/fwlink/?LinkId=525041)
     
   - [Melhores maneiras de gerenciar o Microsoft 365 ou o Office 365 com o Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
     
-- O Windows PowerShell tem muitas vantagens em velocidade, simplicidade e produtividade apenas usando o centro de administração do Microsoft 365, como quando você está realizando alterações de configurações para muitos usuários de uma só vez. Saiba mais sobre essas vantagens nos tópicos a seguir:
+- O Windows PowerShell tem muitas vantagens em velocidade, simplicidade e produtividade em relação ao uso apenas do Centro de administração do Microsoft 365, como quando você está fazendo alterações nas configurações para muitos usuários ao mesmo tempo. Saiba mais sobre essas vantagens nos seguintes tópicos:
     
   - [Uma introdução ao Windows PowerShell e ao Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525039)
     

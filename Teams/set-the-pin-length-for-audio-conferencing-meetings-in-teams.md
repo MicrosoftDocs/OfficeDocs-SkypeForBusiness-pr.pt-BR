@@ -21,7 +21,7 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
-description: Aprenda os parâmetros de tamanho e requisitos de um PIN e veja como definir o tamanho das reuniões no Microsoft Teams.
+description: Saiba os parâmetros do tamanho e dos requisitos de um PIN e veja como definir o tamanho das reuniões no Microsoft Teams.
 ms.openlocfilehash: 7fab4d42846dd5289f3255710684b75fe6fb07bc
 ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
@@ -46,7 +46,7 @@ A ponte de audioconferência atende uma chamada feita por uma pessoa que discou 
 
 2. No topo da página **Pontes de conferência**, clique em **Configurações da ponte**. 
 
-3. No painel **configurações de ponte** , em **comprimento do pino**, selecione o número de dígitos que você deseja para o PIN.
+3. No painel **de configurações da** Ponte, em comprimento **do PIN,** selecione o número de dígitos que você deseja para o PIN.
 
 4. Clique em **Salvar**.
 
@@ -55,7 +55,7 @@ A ponte de audioconferência atende uma chamada feita por uma pessoa que discou 
 
 ## <a name="want-to-know-more-about-pin-settings"></a>Quer saber mais sobre as configurações de PIN?
 
-- Os pinos podem ter de 4 a 12 dígitos; o padrão é 5. Somente números são usados para criar PINs. Letras e caracteres especiais não são usados.
+- PINs podem ter de 4 a 12 dígitos; o padrão é 5. Somente números são usados para criar PINs. Letras e caracteres especiais não são usados.
     
 - Um PIN só é necessário para o organizador da reunião quando um usuário do Microsoft Teams ainda não iniciou a reunião. Se todos entrarem na reunião com discagem, o PIN é necessário para o organizador começar a reunião.
     
@@ -63,7 +63,7 @@ A ponte de audioconferência atende uma chamada feita por uma pessoa que discou 
     
 ## <a name="want-to-know-more-about-windows-powershell"></a>Deseja saber mais sobre o Windows PowerShell?
 
-O Windows PowerShell gerencia os usuários e o que eles podem ou não fazer. Com o Windows PowerShell, você pode gerenciar o Microsoft 365 ou o Office 365 usando um único ponto de administração que pode simplificar seu trabalho diário quando você tiver várias tarefas para fazer. Para começar a trabalhar com o Windows PowerShell, confira estes tópicos:
+O Windows PowerShell gerencia os usuários e o que eles podem ou não fazer. Com o Windows PowerShell, você pode gerenciar o Microsoft 365 ou o Office 365 usando um ponto único de administração que pode simplificar seu trabalho diário quando você tiver várias tarefas a fazer. Para começar a trabalhar com o Windows PowerShell, confira estes tópicos:
     
   - [Por que você precisa usar o PowerShell do Office 365](https://go.microsoft.com/fwlink/?LinkId=525041)
     
@@ -74,4 +74,4 @@ Para obter mais informações sobre o Windows PowerShell, consulte a [referênci
   
 ## <a name="related-topics"></a>Tópicos relacionados
 
-[Experimentar ou comprar videoconferências no Microsoft 365 ou no Office 365](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
+[Experimentar ou comprar Audioconferência no Microsoft 365 ou no Office 365](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)

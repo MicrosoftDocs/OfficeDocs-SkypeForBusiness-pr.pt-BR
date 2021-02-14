@@ -32,7 +32,7 @@ Economize tempo, reduza as chamadas de suporte e melhore a satisfação do usuá
 
 Veja o que você precisa:
 
-- Pelo menos três contas do Microsoft 365 ou do Office 365 (sua e pelo menos duas outras).
+- Pelo menos três contas do Microsoft 365 ou do Office 365 (suas e pelo menos duas outras).
 
 - Um computador para cada conta de teste. Configure-os como os computadores típicos de sua organização.
 
@@ -51,7 +51,7 @@ Veja o que você precisa:
 ## <a name="set-up-test-accounts"></a>Configurar contas de teste
 <a name="__toc328126910"> </a>
 
-1. Vá para **administrador** > **Microsoft 365** ou **Office 365** > **usuários e grupos**e, em seguida,![selecione](../images/328ffb57-5f31-430a-b653-4a6b8e76d338.png) adicionar e insira as informações necessárias.
+1. Vá para **Administrador do**  >  **Microsoft 365** ou grupos e usuários do **Office 365** e selecione Adicionar e  >  inserir as informações ![ ](../images/328ffb57-5f31-430a-b653-4a6b8e76d338.png) necessárias.
 
 2. Quando você chegar na Etapa 4 (Email), digite seu endereço de email. Assim, você terá um registro do novo nome de usuário e senha.
 
@@ -62,7 +62,7 @@ Veja o que você precisa:
 
 Em cada computador de teste:
 
-1. Vá para a página inicial do Microsoft 365 ou do Office 365 e entre com as credenciais de uma das suas contas de teste.
+1. Vá para a home page do Microsoft 365 ou do Office 365 e entre com credenciais de uma de suas contas de teste.
 
 2. Vá para **Configurações**![Configurações: atualizar seu perfil, instalar software e conectá-lo à nuvem](../images/4b83e9cb-c7e4-46c8-b3d1-cfee017123ae.png) e clique em **Instale software e conecte-o à nuvem**.
 
@@ -79,7 +79,7 @@ Depois de configurar seus usuários para a audioconferência, eles recebem uma m
 
  **Para adicionar informações da audioconferência à conta de um de seus usuários de teste**
 
-1. Clique em**usuários**de **conferência** > de áudio.
+1. Clique **em Usuários de Audioconferência.**  >  
 
 2. Clique nos nomes dos usuários que você quer configurar para a conferência discada e clique em **Editar**![Editar](../images/2f8948c1-e4f3-4022-b9cd-37fed066056e.png).
 

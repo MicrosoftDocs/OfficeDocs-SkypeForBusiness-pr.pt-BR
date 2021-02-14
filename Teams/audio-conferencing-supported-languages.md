@@ -31,10 +31,10 @@ ms.locfileid: "44610290"
 ---
 # <a name="audio-conferencing-supported-languages"></a>Idiomas suportados na audioconferência
 
-Ao configurar e configurar a videoconferência no Microsoft 365 ou no Office 365, você pode selecionar os idiomas primário e secundário (até 4) que são usados quando os chamadores discam para uma reunião do Skype for Business ou do Microsoft Teams. Aqui está a lista de idiomas com suporte para videoconferência: 
+Ao configurar e configurar a Audioconferência no Microsoft 365 ou no Office 365, você pode selecionar os idiomas primário e secundário (até quatro) que são usados quando os chamadores discam para uma reunião do Skype for Business ou do Microsoft Teams. Aqui está a lista de idiomas com suporte para Audioconferência: 
   
 > [!IMPORTANT]
-> Idiomas primários e secundários podem ser alterados apenas em números de telefone de conferência de áudio dedicados. 
+> Os idiomas primário e secundário só podem ser alterados em números de telefone dedicados de Audioconferência. 
   
 ## <a name="currently-supported-languages"></a>Idiomas aceitos atualmente
 
@@ -85,21 +85,21 @@ Ao configurar e configurar a videoconferência no Microsoft 365 ou no Office 365
 |Turco  <br/> |Turquia  <br/> |tr-TR  <br/> |
 |Ucraniano  <br/> |Ucrânia  <br/> |uk-UA  <br/> |
    
-Se você estiver procurando países ou regiões onde você pode comprar videoconferências, consulte [disponibilidade de país e região para videoconferências e planos de chamadas](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
+Se você estiver procurando países ou regiões em que pode comprar Audioconferência, confira a disponibilidade de país e região para Planos [de Audioconferência e Chamada.](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
   
-Se você estiver procurando países ou regiões específicos que tenham números de telefone para videoconferências, consulte [números de telefone para videoconferência no Microsoft Teams](phone-numbers-for-audio-conferencing-in-teams.md) ou [números de telefone para videoconferências no Skype for Business online](/SkypeForBusiness/audio-conferencing-in-office-365/phone-numbers-for-audio-conferencing).
+Se você estiver procurando por países ou regiões específicos que têm números de telefone para Audioconferência, consulte números de telefone para Audioconferência no [Microsoft Teams](phone-numbers-for-audio-conferencing-in-teams.md) ou números de telefone para Audioconferência no [Skype for Business Online.](/SkypeForBusiness/audio-conferencing-in-office-365/phone-numbers-for-audio-conferencing)
   
 ## <a name="want-to-know-how-to-manage-with-windows-powershell"></a>Quer saber como gerenciar com o Windows PowerShell?
 
-- Para poupar tempo ou automatizar isso, você pode usar os cmdlets [Get-csonlinedialinconferencinglanguagessupportedhttp](https://go.microsoft.com/fwlink/?LinkId=617684) ou [set-csonlinedialinconferencingservicenumberhttp](https://go.microsoft.com/fwlink/?LinkId=617689) .
+- Para economizar tempo ou automatizar isso, você pode usar os cmdlets [Get-CsOnlineDialInConferencingLanguagesSupported](https://go.microsoft.com/fwlink/?LinkId=617684) ou [Set-CsOnlineDialInConferencingServiceNumber.](https://go.microsoft.com/fwlink/?LinkId=617689)
     
-- O Windows PowerShell é tudo sobre o gerenciamento de usuários e o que os usuários podem fazer ou não podem fazer. Com o Windows PowerShell, você pode gerenciar o Microsoft 365 ou o Office 365 usando um único ponto de administração que pode simplificar seu trabalho diário quando você tiver várias tarefas para fazer. Para começar a usar o Windows PowerShell, consulte estes tópicos:
+- O Windows PowerShell gerencia os usuários e o que os usuários podem ou não fazer. Com o Windows PowerShell, você pode gerenciar o Microsoft 365 ou o Office 365 usando um ponto único de administração que pode simplificar seu trabalho diário quando você tiver várias tarefas a fazer. Para começar a trabalhar com o Windows PowerShell, consulte estes tópicos:
     
   - [Por que você precisa usar o PowerShell do Office 365](https://go.microsoft.com/fwlink/?LinkId=525041)
     
   - [Melhores maneiras de gerenciar o Microsoft 365 ou o Office 365 com o Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
     
-- O Windows PowerShell tem muitas vantagens em velocidade, simplicidade e produtividade apenas usando o centro de administração do Microsoft 365, como quando você está realizando alterações de configurações para muitos usuários de uma só vez. Saiba mais sobre essas vantagens nos tópicos a seguir: 
+- O Windows PowerShell tem muitas vantagens em velocidade, simplicidade e produtividade em relação ao uso apenas do Centro de administração do Microsoft 365, como quando você está fazendo alterações nas configurações para muitos usuários ao mesmo tempo. Saiba mais sobre essas vantagens nos seguintes tópicos: 
     
   - [Introdução ao Windows PowerShell e ao Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525039)
     
@@ -112,6 +112,6 @@ Se você estiver procurando países ou regiões específicos que tenham números
   
 ## <a name="related-topics"></a>Tópicos relacionados
 
-[Experimentar ou comprar videoconferências no Microsoft 365 ou no Office 365](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
+[Experimentar ou comprar Audioconferência no Microsoft 365 ou no Office 365](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
 
 

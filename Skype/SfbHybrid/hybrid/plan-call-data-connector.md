@@ -1,5 +1,5 @@
 ---
-title: Plano do Call data Connector | Análise híbrida de monitoramento de painel de qualidade de chamada
+title: Planejar o conector de dados de chamada | Análise híbrida do Monitoramento do Painel de Qualidade de Chamada
 ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
@@ -11,7 +11,7 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
-description: Visão geral do uso das ferramentas de telemetria do Skype for Business online para monitorar uma implementação local em um cenário híbrido.
+description: Visão geral do uso das ferramentas de telemetria do Skype for Business Online para monitorar uma implementação local em um cenário híbrido.
 ms.openlocfilehash: 30ff8aebc739e0602f9700cbe9120d230845a023
 ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
@@ -19,75 +19,75 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 05/13/2020
 ms.locfileid: "44221311"
 ---
-# <a name="plan-call-data-connector"></a>Planejar o Call data Connector
+# <a name="plan-call-data-connector"></a>Conector de Dados do Plano de Chamada
 
-## <a name="overview"></a>Visão Geral
+## <a name="overview"></a>Visão geral
 
-Este tópico descreve os benefícios, as considerações de planejamento e os requisitos para implementar o conector de dados de chamadas do Skype for Business Server. Para obter mais informações sobre a configuração do conector de dados de chamadas, consulte [Configure Call data Connector](configure-call-data-connector.md).
+Este tópico descreve os benefícios, considerações de planejamento e requisitos para implementar o Conector de Dados de Chamada do Skype for Business Server. Para obter mais informações sobre como configurar o Conector de Dados de Chamada, consulte [Configurar o Conector de Dados de Chamada.](configure-call-data-connector.md)
 
 
-O Call data Connector simplifica bastante o monitoramento de chamadas em um ambiente híbrido, porque você não precisa mais usar conjuntos diferentes de ferramentas locais e online para monitorar toda a qualidade de chamada de seus usuários. Se seus usuários estão hospedados no local ou online, você pode optar por exibir a qualidade da chamada para toda a organização online.
+O Conector de Dados de Chamada simplifica bastante o monitoramento de chamada em um ambiente híbrido porque você não precisa mais usar conjuntos diferentes de ferramentas locais e online para monitorar a qualidade de chamada de todos os usuários. Se seus usuários estão locais ou online, você pode optar por exibir a qualidade da chamada para toda a sua organização online.
 
-Com o Call data Connector, você pode executar as seguintes tarefas usando um único conjunto de ferramentas:
+Com o Conector de Dados de Chamada, você pode executar as seguintes tarefas usando um único toolset:
 
-- Monitore a experiência do usuário no Microsoft Teams, no Skype for Business Online e no Skype for Business Server.
+- Monitore sua experiência do usuário no Microsoft Teams, Skype for Business Online e Skype for Business Server.
 
 - Exibir e solucionar problemas em sua rede.
 
-- Atribuir funções de assistência técnica e de administrador para a análise de chamadas, para que você possa permitir que os profissionais de assistência técnica vejam e solucionem problemas de suas áreas de responsabilidade.
+- Atribua funções de administrador e de helpdesk para a Análise de Chamada, para que você possa capacitar os funcionários de helpdesk a exibir e solucionar problemas em suas áreas de responsabilidade.
 
-Com o Call data Connector, o Skype for Business Server envia dados de chamada para o serviço de nuvem, de modo que você possa aproveitar as ferramentas do Skype for Business online Call Analytics (CA) e do CQD (painel de qualidade da chamada), conforme mostrado no diagrama a seguir:
+Com o Conector de Dados de Chamada, o Skype for Business Server faz push de dados de chamadas para o serviço de nuvem para que você possa aproveitar as ferramentas de Análise de Chamadas (CA) e Painel de Qualidade de Chamadas (CQD), conforme mostrado no diagrama a seguir:
 
-![Caixa postal em nuvem do SfB](../../sfbserver2019/media/call-data-connector-plan-1.png)
+![Caixa postal na nuvem do SfB](../../sfbserver2019/media/call-data-connector-plan-1.png)
 
-O servidor envia os dados de QoE (qualidade da experiência) e de registro de detalhes da chamada (CDR) para o serviço online.
+O servidor pushs both Quality of Experience (QoE) and Call Detail Recording (CDR) data to the online service.
 
-As ferramentas de análise de chamada e CQD permitem monitorar a qualidade das chamadas e solucionar problemas de conexão com o Microsoft Teams e o Skype for Business Services da seguinte maneira:
+As ferramentas Análise de Chamadas e CQD permitem monitorar a qualidade das chamadas e solucionar problemas de conexão com o Microsoft Teams e os serviços do Skype for Business da seguinte forma:
 
-- O Microsoft Call Analytics se concentra em problemas de qualidade com chamadas específicas. Ele mostra informações detalhadas sobre chamadas e reuniões para cada usuário em uma conta do Skype for Business.  Com o Call Analytics, você pode atribuir permissões a um operador de helpdesk, que poderá monitorar as chamadas sem ter acesso ao restante do centro de administração do Skype for Business.
+- A Análise de Chamadas concentra-se em problemas de qualidade com chamadas específicas. Ele mostra informações detalhadas sobre chamadas e reuniões para cada usuário em uma conta do Skype for Business.  Com a Análise de Chamadas, você pode atribuir permissões a um operador de helpdesk que pode monitorar chamadas sem ter acesso ao restante do Centro de administração do Skype for Business.
 
-- O painel de qualidade da chamada concentra-se no desempenho da rede e nos problemas de uma organização. Administradores e engenheiros de rede do Skype for Business Use essa ferramenta para solucionar problemas e otimizar o desempenho da rede.
+- O Painel de Qualidade da Chamada se concentra no desempenho da rede e nos problemas em uma organização. Os administradores do Skype for Business e os engenheiros de rede usam essa ferramenta para solucionar problemas e otimizar o desempenho da rede.
 
-Para obter mais informações, consulte [Call Analytics and call Quality Dashboard](https://docs.microsoft.com/SkypeForBusiness/using-call-quality-in-your-organization/difference-between-call-analytics-and-call-quality-dashboard).
+Para obter mais informações, consulte [Análise de Chamada e Painel de Qualidade de Chamada.](https://docs.microsoft.com/SkypeForBusiness/using-call-quality-in-your-organization/difference-between-call-analytics-and-call-quality-dashboard)
 
-Obviamente, você pode querer manter alguns dados de qualidade de chamada no local. Esse pode ser o caso, por exemplo, se você estiver usando uma solução de terceiros com relatórios e fluxos de trabalho personalizados.  O Call data Connector permite que você configure o envio de dados para o serviço online enquanto também mantém uma cópia dos dados no servidor local, conforme mostrado no diagrama a seguir:
+Obviamente, você pode querer manter alguns dados de qualidade de chamada no local. Esse pode ser o caso, por exemplo, se você estiver usando uma solução de terceiros com fluxos de trabalho e relatórios personalizados.  O Conector de Dados de Chamada permite configurar o envio de dados para o serviço online, mantendo também uma cópia dos dados em seu servidor local, conforme mostrado no diagrama a seguir:
 
-![Caixa postal em nuvem do SfB](../../sfbserver2019/media/call-data-connector-plan-2.png)
+![Caixa postal na nuvem do SfB](../../sfbserver2019/media/call-data-connector-plan-2.png)
 
-## <a name="requirements"></a>Requirements
+## <a name="requirements"></a>Requisitos
 
-Os requisitos a seguir pressupõem que você já tenha o Skype for Business Server implantado em uma topologia com suporte.  Para obter mais informações sobre a implantação do Skype for Business Server e topologias com suporte, consulte [Basics Topology](https://docs.microsoft.com/SkypeForBusiness/plan-your-deployment/topology-basics/topology-basics). Para configurar o Call data Connector, você deve:
+Os requisitos a seguir presumem que você já tenha implantado o Skype for Business Server em uma topologia com suporte.  Para obter mais informações sobre como implantar o Skype for Business Server e topologias com suporte, consulte [Noções básicas de topologia.](https://docs.microsoft.com/SkypeForBusiness/plan-your-deployment/topology-basics/topology-basics) Para configurar o Conector de Dados de Chamada, você deve:
 
-- Habilitar a conectividade híbrida. Se você já tem o Skype for Business Server implantado e deseja habilitar o Call data Connector, você deve garantir que a conectividade híbrida seja configurada entre seus ambientes locais e online. Isso às vezes é chamado de configuração de domínio dividido.
+- Habilitar conectividade híbrida. Se você já implantou o Skype for Business Server e deseja habilitar o Conector de Dados de Chamada, você deve garantir a configuração da conectividade híbrida entre seus ambientes locais e online. Isso algumas vezes é chamado de configuração de domínio dividido.
 
-   Para saber mais, confira [planejar conectividade híbrida entre o Skype for Business Server e o microsoft 365 ou o office 365](plan-hybrid-connectivity.md) e [Configurar a conectividade híbrida entre o Skype for Business Server e o Microsoft 365 ou o Office 365](configure-hybrid-connectivity.md).
+   Para obter mais informações, consulte Planejar a conectividade híbrida entre o Skype for Business Server e o [Microsoft 365 ou Office 365](plan-hybrid-connectivity.md) e configurar a conectividade híbrida entre o Skype for Business Server e o [Microsoft 365 ou Office 365.](configure-hybrid-connectivity.md)
 
-- Autentique na sua organização do Microsoft 365 ou do Office 365 e assegure-se de ter as seguintes funções habilitadas:
+- Autenti-se em sua organização do Microsoft 365 ou Office 365 e verifique se você tem as seguintes funções habilitadas:
 
   - Administrador do Skype for Business Server
-  - Administrador global do Microsoft 365 ou do Office 365
+  - Administrador Global do Microsoft 365 ou Office 365
 
-- Se você ainda não tiver feito isso, ative o painel de qualidade de chamada conforme descrito em [ativando e usando o painel de qualidade de chamada para o Microsoft Teams e o Skype for Business online](/microsoftteams/turning-on-and-using-call-quality-dashboard).
+- Se você ainda não tiver feito isso, a ligue o Painel de Qualidade da Chamada conforme descrito em Ativar e usar o Painel de Qualidade da Chamada para o Microsoft Teams e [o Skype for Business Online.](/microsoftteams/turning-on-and-using-call-quality-dashboard)
 
-- Habilite o pool de front-ends para monitoramento, com os bancos de dados do LCSCdr e QoEMetrics local. Sem isso, o Call data Connector não terá dados de métricas para trabalhar.
+- Habilita o pool de front-end para Monitoramento, com bancos de dados LCSCdr e QoEMetrics locais. Sem isso, o Conector de Dados de Chamada não terá dados de métricas com os qual trabalhar.
 
 > [!IMPORTANT]
-> Call data Connector não funcionará se o monitoramento não estiver habilitado no pool de front-ends.
+> O Conector de Dados de Chamada não funcionará se o Monitoramento não estiver habilitado no pool de front-end.
 
-- [Autenticação de servidor para servidor](https://docs.microsoft.com/skypeforbusiness/manage/authentication/server-to-server-and-partner-applications)configurada corretamente. 
+- Autenticação [de servidor para servidor configurada corretamente.](https://docs.microsoft.com/skypeforbusiness/manage/authentication/server-to-server-and-partner-applications) 
 
-## <a name="comparison-of-on-premises-and-online-call-quality-dashboard-cqd-reports"></a>Comparação de relatórios do painel de qualidade de chamada online e local (CQD)
+## <a name="comparison-of-on-premises-and-online-call-quality-dashboard-cqd-reports"></a>Comparação de relatórios do Painel de Qualidade de Chamada (CQD) local e online
 
 | Relatórios de recursos | Skype for Business online | Skype for Business Server   |
 |:---------------------------|:---------------------|:---------------------|:------------------|
-| Métrica de compartilhamento de aplicativos |Sim | Limite |
-| Informações de construção do cliente| Sim | Sim |
-| Análise de busca detalhada | Sim | Não |
-| Métricas de confiabilidade de mídia | Sim | Limite |
-| Relatórios prontos para uso | Sim | Sim |
+| Métrica de compartilhamento de aplicativos |Sim | Limitado |
+| Informações de criação do cliente| Sim | Sim |
+| Análise de análise de análise | Sim | Não |
+| Métricas de confiabilidade de mídia | Sim | Limitado |
+| Relatórios of-the-box | Sim | Sim |
 | Relatórios de visão geral | Sim | Não |
 | Relatórios por usuário | Sim | Sim |
-| Personalização de conjunto de relatórios <br> (adicionar, excluir, modificar relatórios) | Sim | Sim |
+| Personalização do conjunto de relatórios <br> (adicionar, excluir, modificar relatórios) | Sim | Sim |
 | Métricas de compartilhamento de tela baseado em vídeo | Sim | Não |
 | APIs de dados para acesso programático <br> para CQD | Não | Sim |
 ||||

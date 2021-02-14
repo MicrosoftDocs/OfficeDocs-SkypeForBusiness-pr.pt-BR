@@ -32,7 +32,7 @@ ms.locfileid: "44665883"
 ---
 # <a name="phone-numbers-for-audio-conferencing-in-microsoft-teams"></a>Números de telefone para Audioconferência no Microsoft Teams
 
-Quando você configura a conferência a **Audioconferência** para o Microsoft Teams, números de telefone de discagem são atribuídos automaticamente à sua organização. Para ver os números de telefone atribuídos à sua ponte de conferência de áudio, no centro de administração do Microsoft Teams, vá para **reuniões**  >  **conferência Bridges**. Para obter mais informações, acesse [ver uma lista de números de audioconferência](see-a-list-of-audio-conferencing-numbers-in-teams.md).
+Quando você configura a conferência a **Audioconferência** para o Microsoft Teams, números de telefone de discagem são atribuídos automaticamente à sua organização. Para ver os números de telefone atribuídos à ponte de audioconferência, no Centro de administração do Microsoft Teams, vá para pontes de Conferência   >  **de Reuniões.** Para obter mais informações, acesse Ver uma lista de números de [Audioconferência.](see-a-list-of-audio-conferencing-numbers-in-teams.md)
   
   
 ## <a name="audio-conferencing-coverage-and-pricing"></a>Cobertura e preços da Audioconferência
@@ -41,7 +41,7 @@ Para obter uma lista completa de todos os países/regiões e cidades com Audioco
   
 ## <a name="dial-in-phone-numbers-in-a-meeting-invite"></a>Números de telefone de discagem em um convite de reunião
 
-Quando um usuário do Microsoft Teams agenda uma reunião no Outlook ou no Outlook Web App, o número de audioconferência padrão que está definido para o usuário é incluído no convite da reunião. Se você quiser selecionar um número padrão diferente para um ou mais usuários, poderá alterar isso, acessando os **usuários**, selecionando o usuário e editando as configurações de audioconferência do usuário. Consulte [Definir os números de telefone incluídos em convites](set-the-phone-numbers-included-on-invites-in-teams.md).
+Quando um usuário do Microsoft Teams agenda uma reunião no Outlook ou no Outlook Web App, o número de audioconferência padrão que está definido para o usuário é incluído no convite da reunião. Se quiser selecionar um número padrão diferente para um ou mais usuários, você pode alterá-lo indo para **Usuários,** selecionando o usuário e editando as configurações de AudioConferência do usuário. Consulte [Definir os números de telefone incluídos em convites](set-the-phone-numbers-included-on-invites-in-teams.md).
   
   
 ## <a name="dial-in-phone-numbers-set-on-an-audio-conferencing-bridge"></a>Números de telefone de discagem definidos em uma ponte de audioconferência
@@ -50,7 +50,7 @@ Existem dois tipos de números de telefone de audioconferência que podem ser at
   
 - **Números de telefone dedicados** são os que estão disponíveis apenas para usuários em sua organização. Você pode alterar os idiomas usados quando alguém liga para um desses números.
   
-- Os **números de telefone compartilhados** são os números de telefone que podem ser compartilhados com outros 365 ou o Office 365. Você não pode alterar os idiomas que são usados quando alguém liga para um desses números.
+- **Os números de telefone** compartilhados são os números de telefone que podem ser compartilhados com outro Microsoft 365 ou o Office 365. Não é possível alterar os idiomas usados quando alguém liga para um desses números.
   
 Embora o número de audioconferência padrão atribuído a um organizador só seja incluído no convite da reunião, um chamador pode usar qualquer um dos números de telefone atribuídos à ponte de conferência para entrar em uma reunião. A lista de números de telefone que podem ser usados para ingressar em uma reunião está disponível por meio do link **Encontrar um número local** incluído em todos os convites de reunião.
   
@@ -78,4 +78,4 @@ Para ver uma lista dos países/regiões que têm números de telefone automatica
    
 ## <a name="related-topics"></a>Tópicos relacionados
 
-[Experimentar ou comprar videoconferências no Microsoft 365 ou no Office 365](/skypeforbusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
+[Experimentar ou comprar Audioconferência no Microsoft 365 ou no Office 365](/skypeforbusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)

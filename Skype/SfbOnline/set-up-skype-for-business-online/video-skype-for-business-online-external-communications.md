@@ -30,7 +30,7 @@ ms.locfileid: "44164480"
 
 Configure as comunicações externas do Skype for Business Online para que seus usuários possam se comunicar com contatos externos do Skype for Business, Lync e Skype.
 
- **Público-alvo:** Administradores do Microsoft 365 e do Office 365
+ **Audiência:** Administradores do Microsoft 365 e do Office 365
 
 ***
 > [!VIDEO https://videoplayercdn.osi.office.net/hub/?csid=ux-cms-en-us-msoffice&uuid=492278f0-6912-47ba-a1d1-00040061cf44&AutoPlayVideo=false]
@@ -38,7 +38,7 @@ Configure as comunicações externas do Skype for Business Online para que seus 
 ***
   
 ## <a name="related-topics"></a>Tópicos relacionados
-[Configurar comunicações externas do Skype for Business online](https://support.microsoft.com/help/10041/set-up-lync-online-external-communications) (guia passo a passo)
+[Configurar comunicações externas do Skype for Business Online](https://support.microsoft.com/help/10041/set-up-lync-online-external-communications) (passo a passo orientado)
 
 [Permitir que os usuários entrem em contato com usuários externos do Skype for Business](allow-users-to-contact-external-skype-for-business-users.md)
 

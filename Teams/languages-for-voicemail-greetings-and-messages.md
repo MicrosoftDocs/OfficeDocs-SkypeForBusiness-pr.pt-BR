@@ -21,7 +21,7 @@ f1.keywords:
 ms.custom:
 - Phone System
 - seo-marvel-apr2020
-description: Saiba quais idiomas você pode definir no Skype for Business para as mensagens padrão do sistema e saudações de correio de voz.
+description: Saiba quais idiomas você pode definir no Skype for Business para as mensagens de sistema padrão e saudações de caixa postal.
 ms.openlocfilehash: 0931ee7923b26fe5c81c442a895dbb1bfde8c601
 ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: MT
@@ -38,7 +38,7 @@ Para alter o idioma usado pelo Skype for Business nas saudações da caixa posta
 |||||||
 |:-----|:-----|:-----|:-----|:-----|:-----|
 |**Idioma** <br/> |**País/região** <br/> |**Código do idioma** <br/> |**Disponível para visualização do usuário no email?** <br/> |**Disponível quando o usuário liga?** <br/> |**Transcrição disponível?** <br/> |
-|Árabe <br/> |Egito  <br/> |ar-exemplo  <br/> |Sim  <br/> |Sim  <br/> |Não  <br/> |
+|Árabe <br/> |Egito  <br/> |ar-EG  <br/> |Sim  <br/> |Sim  <br/> |Não  <br/> |
 |Catalão  <br/> |Catalão  <br/> |ca-ES  <br/> |Sim  <br/> |Sim  <br/> |Não  <br/> |
 |Chinês (Simplificado)  <br/> |China  <br/> |zh-hans  <br/> |Sim  <br/> |Sim  <br/> |Sim  <br/> |
 |Chinês (Hong Kong)  <br/> |China  <br/> |zh-hk  <br/> |Sim, mas é usado o Chinês (Tradicional) (zh-hant).  <br/> | Sim <br/> |Sim, mas é usado o Chinês (Tradicional) (zh-hant).  <br/> |
@@ -64,21 +64,21 @@ Para alter o idioma usado pelo Skype for Business nas saudações da caixa posta
 |Coreano  <br/> |Coreano  <br/> |ko-KR  <br/> |Sim  <br/> |Sim  <br/> |Não  <br/> |
 |Norueguês (Bokmal)  <br/> |Noruega  <br/> |nb-NO  <br/> |Sim  <br/> |Não  <br/> |Não  <br/> |
 |Polonês  <br/> |Polônia  <br/> |pl-PL  <br/> |Sim  <br/> | Sim <br/> |Não  <br/> |
-|Português  <br/> |Brasil  <br/> |pt-BR  <br/> |Sim, mas é usado o Português (Portugal) (pt-PT).  <br/> |Sim   <br/> |Sim  <br/> |
-|Português  <br/> |Portugal  <br/> |pt-PT  <br/> |Sim   <br/> |Sim  <br/> |Sim, mas é usado o Português (Brasil) (pt-BR).  <br/> |
-|Romeno<br/> |Romênia  <br/> |ro-RO  <br/> |Sim   <br/> |Sim  <br/> |Não  <br/> |
-|Russo  <br/> |Rússia  <br/> |ru-RU  <br/> |Sim   <br/> |Sim  <br/> |Não  <br/> |
-|Eslovaco <br/> |Eslováquia  <br/> |sk-SK  <br/> |Sim   <br/> |Sim  <br/> |Não  <br/> |
-|Esloveno <br/> |Eslovênia  <br/> |SL-SI  <br/> |Sim   <br/> |Sim  <br/> |Não  <br/> |
-|Espanhol  <br/> |Espanha  <br/> |es-ES  <br/> |Sim   <br/> |Sim   <br/> |Sim  <br/> |
+|Português  <br/> |Brasil  <br/> |pt-BR  <br/> |Sim, mas é usado o Português (Portugal) (pt-PT).  <br/> |Sim  <br/> |Sim  <br/> |
+|Português  <br/> |Portugal  <br/> |pt-PT  <br/> |Sim  <br/> |Sim  <br/> |Sim, mas é usado o Português (Brasil) (pt-BR).  <br/> |
+|Romeno<br/> |Romênia  <br/> |ro-RO  <br/> |Sim  <br/> |Sim  <br/> |Não  <br/> |
+|Russo  <br/> |Rússia  <br/> |ru-RU  <br/> |Sim  <br/> |Sim  <br/> |Não  <br/> |
+|Eslovaco <br/> |Eslováquia  <br/> |sk-SK  <br/> |Sim  <br/> |Sim  <br/> |Não  <br/> |
+|Esloveno <br/> |Eslovênia  <br/> |sl-SI  <br/> |Sim  <br/> |Sim  <br/> |Não  <br/> |
+|Espanhol  <br/> |Espanha  <br/> |es-ES  <br/> |Sim  <br/> |Sim  <br/> |Sim  <br/> |
 |Espanhol  <br/> |México  <br/> |es-MX  <br/> |Sim, mas é usado o Espanhol (Espanha) (es-ES).  <br/> |Sim  <br/> |Sim, mas é usado o Espanhol (Espanha) (es-ES).  <br/> |
 |Sueco  <br/> |Suécia  <br/> |sv-SE  <br/> |Sim  <br/> |Sim  <br/> |Não  <br/> |
-|Tailandês <br/> |Tailândia  <br/> |th-TH  <br/> |Sim   <br/> |Sim  <br/> |Não  <br/> |
-|Turco  <br/> |Turquia  <br/> |tr-TR  <br/> |Sim   <br/> |Sim  <br/> |Não  <br/> |
-|Vietnamita <br/> |Vietnã  <br/> |vi-VN  <br/> |Sim   <br/> |Sim  <br/> |Não  <br/> |
+|Tailandês <br/> |Tailândia  <br/> |th-TH  <br/> |Sim  <br/> |Sim  <br/> |Não  <br/> |
+|Turco  <br/> |Turquia  <br/> |tr-TR  <br/> |Sim  <br/> |Sim  <br/> |Não  <br/> |
+|Vietnamita <br/> |Vietnã  <br/> |vi-VN  <br/> |Sim  <br/> |Sim  <br/> |Não  <br/> |
    
 ## <a name="related-topics"></a>Tópicos relacionados
-[Disponibilidade da Audioconferência e dos Planos de Chamadas por país e região](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
+[Disponibilidade de audioconferência e Planos de Chamadas por país e região](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
 [Veja o que você obtém com o Sistema de Telefonia](here-s-what-you-get-with-phone-system.md)
   

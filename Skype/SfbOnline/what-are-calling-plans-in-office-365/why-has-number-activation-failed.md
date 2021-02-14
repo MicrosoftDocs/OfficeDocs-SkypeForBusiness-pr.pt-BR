@@ -1,5 +1,5 @@
 ---
-title: Por que a ativação do número falhou?
+title: Por que a ativação de número falhou?
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,7 +21,7 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - ms.lync.lac.NumberActivationStateFailed
-description: A validação de endereço é uma parte importante da configuração de planos de chamada. Ela fornece ao usuário da organização um endereço de chamada de emergência que pode ser usado pelos serviços de resposta a emergências.
+description: A validação de endereço é uma parte importante da configuração de Planos de Chamada. Ela fornece ao usuário da organização um endereço de chamada de emergência que pode ser usado pelos serviços de resposta a emergências.
 ms.openlocfilehash: fbe6102069147d4de71d090f4820b53c392ac00e
 ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
@@ -29,11 +29,11 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 05/13/2020
 ms.locfileid: "44220681"
 ---
-# <a name="why-has-number-activation-failed"></a>Por que a ativação do número falhou?
-A validação de endereço é uma parte importante da configuração de planos de chamada. Se, por algum motivo, um número de telefone não estiver ativado devido à validação do endereço, será necessário criar uma solicitação de serviço. A maneira de fazer isso depende do tamanho da sua organização.
+# <a name="why-has-number-activation-failed"></a>Por que a ativação de número falhou?
+A validação de endereço é uma parte importante da configuração de Planos de Chamada. Se, por algum motivo, um número de telefone não estiver ativado devido à validação de endereço, será necessário criar uma solicitação de serviço. A maneira de fazer isso depende do tamanho da sua organização.
   
 ## <a name="for-organizations-150-or-less-follow-these-steps"></a>Para organizações com 150 usuários ou menos, siga estas etapas
-1. No centro de administração, escolha **precisa de ajuda**?
+1. No centro de administração, escolha **Precisa de ajuda?**
 2. No painel **Precisa de ajuda?**, informe qual é a ajuda de que você precisa e escolha **Obter ajuda**.
 3. Se os resultados da seção **Exibir soluções** não ajudarem, escolha uma destas opções:
     - **Permitir que liguemos para você (recomendado)**: confirme seu número de contato e pressione **Telefonar para mim**. O tempo de espera previsto para o retorno da chamada é indicado no painel **Precisa de ajuda?**
@@ -41,9 +41,9 @@ A validação de endereço é uma parte importante da configuração de planos d
 
 ## <a name="for-organizations-with-more-than-150-users-create-a-service-request-to-validate-an-emergency-address"></a>Para organizações com mais de 150 usuários, crie uma solicitação de serviço para validar um endereço de emergência
 
-1. Entre como administrador para o Microsoft 365 ou o Office 365 com sua conta corporativa ou de estudante.
+1. Entre como administrador do Microsoft 365 ou do Office 365 com sua conta do trabalho ou da escola.
     
-2. No centro de administração, no painel de navegação esquerdo, clique em **dar suporte**a  >  **nova solicitação de serviço**.
+2. No centro de administração, na navegação à esquerda, clique em **Suporte**  >  **a Nova solicitação de serviço.**
     
 3. Em **Solicitações de serviço**, clique em **Adicionar**.
     
@@ -68,7 +68,7 @@ A validação de endereço é uma parte importante da configuração de planos d
       - País ou região
     
      > [!IMPORTANT]
-     > **Coloque o país/região em que oferecemos planos de chamada para os quais você está tentando validar um endereço de emergência ao atribuir um número de telefone.**
+     > **Coloque o país/região onde oferecemos Planos de Chamada em que você está tentando validar um endereço de emergência ao atribuir um número de telefone.**
   
       - CEP
     
@@ -93,7 +93,7 @@ A validação de endereço é uma parte importante da configuração de planos d
 8. Confira as informações e clique em **Enviar solicitação**.
     
 > [!TIP]
-> O número de referência será listado na página **solicitações de serviço** no centro de administração do Microsoft 365.
+> O número de referência será listado na página **solicitações de** serviço no Centro de administração do Microsoft 365.
 
 > [!NOTE]
 > Se precisar de mais números de telefone, veja [Contatar o suporte de produtos para empresas - Ajuda para administradores](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).

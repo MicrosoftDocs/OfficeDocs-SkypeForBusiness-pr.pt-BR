@@ -29,9 +29,9 @@ ms.locfileid: "44220691"
 ---
 # <a name="what-is-address-validation"></a>O que é validação de endereço?
 
-Ao configurar planos de chamada, será preciso atribuir um número de telefone e um endereço de emergência para cada um dos seus usuários.
+Ao configurar os Planos de Chamada, você precisará atribuir um número de telefone e um endereço de emergência a cada um dos seus usuários.
   
-A validação de um endereço envolve a garantia de que ele está correto e também formatado corretamente. É possível que um endereço de emergência parcialmente correto, como um nome digitado incorretamente na cidade, ainda possa passar na validação. O processo de validação usa todas as partes de um endereço fornecido para determinar se ele contém informações suficientes para encaminhar a chamada para a central de serviços de emergência apropriada. Se for o caso, ele será validado e poderá ser atribuído a um número de telefone.
+A validação de um endereço envolve a garantia de que ele está correto e também formatado corretamente. É possível que um endereço de emergência parcialmente correto, como um nome incorretamente da cidade, ainda possa ser aprovado na validação. O processo de validação usa todas as partes de um endereço fornecido para determinar se ele contém informações suficientes para encaminhar a chamada para a central de serviços de emergência apropriada. Se for o caso, ele será validado e poderá ser atribuído a um número de telefone.
 
 > [!NOTE]
 > Se precisar de mais números de telefone, veja [Contatar o suporte de produtos para empresas - Ajuda para administradores](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).

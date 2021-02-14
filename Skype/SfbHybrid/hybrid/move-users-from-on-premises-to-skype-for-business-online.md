@@ -17,7 +17,7 @@ ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 ms.custom: ''
-description: Saiba como mover usuários para o Skype for Business online.
+description: Saiba como mover usuários para o Skype for Business Online.
 ms.openlocfilehash: a9fb80046195580daca6dfc7f810b2e0c1877f1c
 ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
@@ -27,22 +27,22 @@ ms.locfileid: "44221111"
 ---
 # <a name="move-users-from-on-premises-to-skype-for-business-online"></a>Mover usuários do ambiente local para o Skype for Business Online
 
-Após mover um usuário do local para o Skype for Business Online, o usuário interage com o Skype for Business online por sua funcionalidade. Todos os contatos que existiam no local estarão disponíveis no Skype for Business Online, e todas as reuniões existentes que o usuário organizou para o futuro serão atualizadas para que eles apontem para o Skype for Business online. Se o usuário estiver habilitado para audioconferência, as reuniões também incluirão as coordenadas de discagem.  Para mover os usuários de um ambiente local para o Skype for Business Online, use o cmdlet Move-CsUser ou o painel de controle do Skype for Business Server, ambos são ferramentas locais. 
+Depois de mover um usuário do local para o Skype for Business Online, o usuário interage com o Skype for Business Online para sua funcionalidade. Todos os contatos existentes no local estarão disponíveis no Skype for Business Online e todas as reuniões existentes que o usuário organizou para o futuro serão atualizadas para que os links apontem para o Skype for Business Online. Se o usuário estiver habilitado para audioconferência, as reuniões também incluirão coordenadas de discagem.  Para mover usuários de um ambiente local para o Skype for Business Online, use o cmdlet Move-CsUser ou o Painel de Controle do Skype for Business Server, ambos ferramentas locais. 
 
-Antes de mover qualquer usuário, leia os [pré-requisitos](move-users-between-on-premises-and-cloud.md#prerequisites) para mover os usuários para a nuvem.
+Antes de mover todos os usuários, certifique-se de revisar os [pré-requisitos](move-users-between-on-premises-and-cloud.md#prerequisites) para mover os usuários para a nuvem.
  
-## <a name="move-users-with-move-csuser"></a>Mover usuários com o move-CsUser 
+## <a name="move-users-with-move-csuser"></a>Mover usuários com Move-CsUser 
 
-O move-CsUser está disponível em uma janela do PowerShell do Shell de gerenciamento do Skype for Business local. Você deve ter privilégios suficientes no ambiente local, bem como na organização do Microsoft 365/Office 365, conforme descrito em [credenciais administrativas necessárias](move-users-between-on-premises-and-cloud.md#required-administrative-credentials). Você pode usar uma única conta que tenha privilégios em ambos os ambientes ou pode iniciar uma janela local do Shell de gerenciamento do Skype for Business Server com credenciais locais e usar o `-Credential` parâmetro para especificar credenciais para uma conta do Microsoft 365 ou do Office 365 com a função administrativa necessária.
+Move-CsUser está disponível em uma janela do PowerShell do Shell de Gerenciamento do Skype for Business local. Você deve ter privilégios suficientes no ambiente local, bem como na organização do Microsoft 365/Office 365, conforme descrito em Credenciais [administrativas](move-users-between-on-premises-and-cloud.md#required-administrative-credentials)necessárias. Você pode usar uma única conta com privilégios em ambos os ambientes ou iniciar uma janela local do Shell de Gerenciamento do Skype for Business Server com credenciais locais e usar o parâmetro para especificar credenciais para uma conta do `-Credential` Microsoft 365 ou office 365 com a função administrativa necessária.
 
-Para mover um usuário para o modo online usando o move-CsUser:
+Para mover um usuário para online usando Move-CsUser:
 
-- Especifique o usuário a ser movido usando o parâmetro Identity.
-- Especifique o parâmetro-Target com o valor "sipfed. online. Lync. <span> com ".
-- Se você não tiver uma conta com permissões suficientes no local e no Office 365, use o parâmetro-Credential para fornecer uma conta com permissões suficientes no Office 365.
-- Se a conta com permissões no Office 365 não termina em ". onmicrosoft. <span> com ", em seguida, você deve especificar o parâmetro-HostedMigrationOverrideUrl com o valor correto, conforme descrito em [credenciais administrativas necessárias](move-users-between-on-premises-and-cloud.md#required-administrative-credentials).
+- Especifique o usuário para mover usando o parâmetro Identity.
+- Especifique o parâmetro -Target com o valor "sipfed.online.lync. <span> com".
+- Se você não tiver uma conta com permissões suficientes no local e no Office 365, use o parâmetro -credential para fornecer uma conta com permissões suficientes no Office 365.
+- Se a conta com permissões no Office 365 não terminar em ".onmicrosoft. <span> com", em seguida, você deve especificar o parâmetro -HostedMigrationOverrideUrl, com o valor correto conforme descrito em [Credenciais administrativas necessárias.](move-users-between-on-premises-and-cloud.md#required-administrative-credentials)
 
-A sequência de cmdlet a seguir pode ser usada para mover um usuário para o Skype for Business online. Ele pressupõe que a credencial do Microsoft 365 ou do Office 365 seja uma conta separada e fornecida como entrada para o prompt Get-Credential.
+A sequência de cmdlets a seguir pode ser usada para mover um usuário para o Skype for Business Online. Ele supõe que a credencial do Microsoft 365 ou Office 365 seja uma conta separada e fornecida como entrada para o prompt Get-Credential aplicativo.
 
 ```PowerShell
 $cred=Get-Credential
@@ -51,18 +51,18 @@ $url="https://admin1a.online.lync.com/HostedMigration/hostedmigrationService.svc
 Move-CsUser -Identity username@contoso.com -Target sipfed.online.lync.com -Credential $cred -HostedMigrationOverrideUrl $url
 ```
 
-Se a conta de administrador for a MFA (autenticação multifator) habilitada, não especifique o parâmetro-Credential. As credenciais do administrador serão solicitadas.
+Se a conta de administrador for MFA (Autenticação Multifatória) habilitada, não especifique o parâmetro -Credential. O administrador será solicitado a solicitar credenciais.
 
-## <a name="move-users-with-skype-for-business-server-control-panel"></a>Mover usuários com o painel de controle do Skype for Business Server 
+## <a name="move-users-with-skype-for-business-server-control-panel"></a>Mover usuários com o Painel de Controle do Skype for Business Server 
 
-1. Abra o aplicativo painel de controle do Skype for Business Server.
-2. Na navegação à esquerda, escolha **usuários**.
-3. Use **Localizar** para localizar os usuários que você gostaria de mudar para o Skype for Business online.
-4. Selecione o (s) usuário (s) e, no menu suspenso **ação** acima da lista, escolha **mover usuários selecionados para o Skype for Business online**.
-5. No assistente, clique em **Avançar**.
-6. Se solicitado, entre no Microsoft 365 ou no Office 365 com uma conta que termine no. onmicrosoft.com e tenha permissões suficientes.
-7. Clique em **Avançar**e, em seguida, **mais uma vez** para mover o usuário.
-8. Observe que as mensagens de status referentes a sucesso ou falha são fornecidas na parte superior do aplicativo painel de controle principal, e não no assistente.
+1. Abra o aplicativo Painel de Controle do Skype for Business Server.
+2. No painel de navegação esquerdo, escolha **Usuários**.
+3. Use **Localizar** para localizar os usuários que você gostaria de mover para o Skype for Business Online.
+4. Selecione os usuários e, em seguida, no **menu** suspenso Ação acima da lista, escolha Mover usuários selecionados para o Skype for **Business Online.**
+5. No assistente, clique em **Próximo.**
+6. Se solicitado, entre no Microsoft 365 ou no Office 365 com uma conta que termine em .onmicrosoft.com e tenha permissões suficientes.
+7. Clique **em Avançar** e em **Avançar** mais uma vez para mover o usuário.
+8. Observe que as mensagens de status relacionadas ao sucesso ou falha são fornecidas na parte superior do aplicativo do Painel de Controle principal, não no assistente.
 
 ## <a name="see-also"></a>Confira também
 

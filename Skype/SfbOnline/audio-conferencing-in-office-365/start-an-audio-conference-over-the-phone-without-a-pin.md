@@ -33,7 +33,7 @@ ms.locfileid: "44163870"
 > [!Note]
 > Para obter informações sobre como iniciar uma audioconferência de áudio sem um PIN no Microsoft Teams, consulte [Iniciar uma audioconferência de áudio por telefone sem um PIN no Microsoft Teams](/MicrosoftTeams/start-an-audio-conference-over-the-phone-without-a-pin-in-teams).
 
-Pode ser frustrante para os usuários que discarem para uma reunião que será mantida no lobby da reunião ouvindo música porque o organizador de reunião do Skype for Business não iniciou a reunião. 
+Pode ser frustrante para os usuários que discam para uma reunião serem realizadas no lobby da reunião ouvindo música porque o organizador da reunião do Skype for Business ainda não iniciou a reunião. 
   
 If a meeting organizer calls in to the meeting, by default, a PIN is required to start a meeting. You can set it up so that anyone can dial in to a meeting and not be prompted for a PIN to start the meeting. You can use the Skype for Business admin center to enable or disable this setting for a single user.
   
@@ -44,17 +44,17 @@ A PIN isn't required for the meeting organizer if someone has started the meetin
   
 ## <a name="enable-or-disable-anonymous-callers-from-joining-a-meeting"></a>Habilitar ou desabilitar chamadores anônimos para participar de uma reunião
     
-1. No **centro de administração do Skype for Business**, no painel de navegação esquerdo, vá para**usuários**de **audioconferência** > . 
+1. No Centro **de administração do Skype for Business,** na navegação à esquerda, vá para Usuários de **Audioconferência.**  >   
     
-2. Na lista, selecione o usuário e, no painel Ação, clique em **Editar**. 
+2. Na lista, selecione o usuário e, no painel Ação, clique em **Editar.** 
     
-3. Na página de propriedades do usuário, em **Opções de reunião**, marque ou desmarque **permitir que os chamadores não autenticados sejam as primeiras pessoas em uma reunião. Caso contrário, eles aguardarão no lobby até que um usuário autenticado ingresse**.
+3. Na página de propriedades do usuário, em Opções de **Reunião,** marque ou des clear **Allow unauthenticated callers to be the first people in a meeting. Caso não o seja, eles aguardarão no lobby até que um usuário autenticado in joins.**
     
 4. Clique em **Salvar**. 
 
 
     
- **Usando o Windows PowerShell**
+ **Usando o Windows Powershell**
   
 - Execute o seguinte: 
     
@@ -64,15 +64,15 @@ A PIN isn't required for the meeting organizer if someone has started the meetin
 
 ## <a name="what-else-should-you-know"></a>O que mais você deve saber?
 
-- Se você quiser redefinir o PIN, consulte [redefinir o PIN de audioconferência](reset-the-audio-conferencing-pin.md).
+- Se você quiser redefinir o PIN, consulte [Redefinir o PIN de Audioconferência.](reset-the-audio-conferencing-pin.md)
     
-- Se o acesso anônimo ou não exigir um PIN para iniciar uma reunião estiver desabilitado:
+- Se o acesso anônimo, ou não exigir um PIN para iniciar uma reunião, será desabilitado:
     
-  - Se a reunião ainda não tiver começado (ainda não existe uma na reunião): uma chamada será solicitada se for o organizador; Se ele disser sim, ele receberá o seu PIN e, depois dele receber o PIN, a reunião será iniciada e o usuário ingressará na reunião.
+  - Se a reunião ainda não tiver começado (não há ninguém na reunião): um chamador será solicitado se ele for o organizador; se ele disser que sim, ele será solicitado a inserir o PIN e, depois de inserir o PIN, a reunião será iniciar e o usuário ingressará na reunião.
     
   - Se a reunião já iniciou (alguém já está na reunião): Não será perguntado a um chamador se ele é o organizador e nunca lhe será solicitado o PIN; a reunião já estará iniciada, e o chamador ingressará.
     
-- Se o acesso anônimo ou não exigir um PIN para iniciar uma reunião estiver habilitado:
+- Se o acesso anônimo, ou não exigir um PIN para iniciar uma reunião, estiver habilitado:
     
   - If the meeting hasn't started (there's no one in the meeting yet): A caller won't be prompted if she's the organizer, and she'll never be prompted for the PIN. Because the setting of the organizer is set to off, the meeting will start and the anonymous callers will join the meeting.
     
@@ -82,13 +82,13 @@ A PIN isn't required for the meeting organizer if someone has started the meetin
 
 - Para economizar tempo e automatizar a tarefa para mais de um usuário, você pode usar o cmdlet [Set-CsOnlineDialInConferencingUser](https://go.microsoft.com/fwlink/?LinkId=617688 ).
     
-- Quando se trata do Windows PowerShell, o Skype for Business Online é tudo sobre o gerenciamento de usuários e o que os usuários podem ou não ter permissão de fazer. Com o Windows PowerShell, você pode gerenciar o Microsoft 365 ou o Office 365 usando um único ponto de administração que pode simplificar seu trabalho diário quando você tiver várias tarefas para fazer. Para começar a usar o Windows PowerShell, consulte estes tópicos:
+- No que diz respeito ao Windows PowerShell, o Skype for Business Online gerencia os usuários e o que os usuários podem ou não fazer. Com o Windows PowerShell, você pode gerenciar o Microsoft 365 ou o Office 365 usando um ponto único de administração que pode simplificar seu trabalho diário quando você tiver várias tarefas a fazer. Para começar a trabalhar com o Windows PowerShell, consulte estes tópicos:
     
-  - [Por que você precisa usar o Microsoft 365 ou o Office 365 PowerShell](https://go.microsoft.com/fwlink/?LinkId=525041)
+  - [Por que você precisa usar o Microsoft 365 ou o PowerShell do Office 365](https://go.microsoft.com/fwlink/?LinkId=525041)
     
   - [Melhores maneiras de gerenciar o Microsoft 365 ou o Office 365 com o Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
     
-- O Windows PowerShell tem muitas vantagens em velocidade, simplicidade e produtividade apenas usando o centro de administração do Microsoft 365, como quando você está realizando alterações de configurações para muitos usuários de uma só vez. Saiba mais sobre essas vantagens nos tópicos a seguir: 
+- O Windows PowerShell tem muitas vantagens em velocidade, simplicidade e produtividade em relação ao uso apenas do Centro de administração do Microsoft 365, como quando você está fazendo alterações nas configurações para muitos usuários ao mesmo tempo. Saiba mais sobre essas vantagens nos seguintes tópicos: 
     
   - [Uma introdução ao Windows PowerShell e ao Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525039)
     
@@ -101,4 +101,4 @@ A PIN isn't required for the meeting organizer if someone has started the meetin
   
 ## <a name="related-topics"></a>Tópicos relacionados
 
-[Experimentar ou comprar videoconferências no Microsoft 365 ou no Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
+[Experimentar ou comprar Audioconferência no Microsoft 365 ou no Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)

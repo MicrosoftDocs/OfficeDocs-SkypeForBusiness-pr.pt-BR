@@ -29,39 +29,39 @@ ms.locfileid: "44205472"
 ---
 # <a name="conference-participant-activity-report"></a>Relatório de atividades dos participantes de conferências
 
-O painel **relatórios** mostra os dados sobre o uso dos produtos do Microsoft 365 ou do Office 365 em sua organização. Você pode usar o relatório **atividade de participantes de conferências do Skype for Business** para ver a quantidade de mensagens instantâneas, áudio/vídeo, compartilhamento de aplicativos, conferências discadas e Web estão sendo participadas pelos usuários da sua organização.
+O **painel** Relatórios mostra dados sobre o uso dos produtos Microsoft 365 ou Office 365 em sua organização. Você pode usar o relatório de atividade de participantes de conferências do **Skype for Business** para ver quantas conferências de mensagens, áudio/vídeo, compartilhamento de aplicativos, Web e discagem estão sendo participadas pelos usuários em sua organização.
 
-Confira a [visão geral de relatórios](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263) para saber mais.
+Confira a visão geral [relatórios](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263) para saber mais.
   
-Esse relatório, juntamente com os outros relatórios do Skype for Business, fornece informações sobre atividades de conferência em toda a sua organização. Esses detalhes são muito úteis na investigação, no planejamento e na tomada de outras decisões de negócios para a sua organização.
+Este relatório, juntamente com os outros relatórios do Skype for Business, fornece detalhes sobre a atividade de conferência em toda a sua organização. Esses detalhes são muito úteis na investigação, no planejamento e na tomada de outras decisões de negócios para a sua organização.
   
 > [!NOTE]
-> Você pode ver todos os relatórios do Skype for Business ao fazer logon como administrador no centro de administração do Microsoft 365. 
+> Você pode ver todos os relatórios do Skype for Business ao fazer logoff como administrador no Centro de administração do Microsoft 365. 
   
 ## <a name="how-to-get-to-the-skype-for-business-conference-participant-report"></a>Como acessar o relatório de participantes de conferências do Skype for Business
 
-1. Vá para o centro de administração > uso dos **relatórios**  >  **Usage**.
+1. Vá para o centro de administração > **Uso de**  >  **Relatórios.**
     
-2. Na página **uso** , selecione atividade de participantes de conferências do **Skype for Business**  >  **Conference participant activity** na **lista Selecionar um relatório** à esquerda. Ou clique no widget **atividade do Skype for Business** e, em seguida, clique em atividade de participantes de conferências do Skype **for Business** na lista de **atividades do Skype for Business** .
+2. Na página **Uso,** selecione a atividade de participantes da Conferência **do Skype for Business** na lista Selecionar um  >   **relatório** à esquerda. Ou clique no widget **atividade do Skype for Business** e, em seguida, clique na atividade de participantes de conferências do Skype for **Business** na lista de atividades do Skype **for Business.**
     
   
 ## <a name="interpret-the-skype-for-business-conference-participant-activity-report"></a>Interpretar o relatório Atividade de participantes de conferências do Skype for Business
 
-![Relatório de atividade do participante da conferência do Skype](../images/a5fb6a3f-d8bc-402e-850e-87a75fbc2546.PNG)
+![Relatório de atividade de participantes de conferências do Skype](../images/a5fb6a3f-d8bc-402e-850e-87a75fbc2546.PNG)
   
 ***
-![Número 1](../images/sfbcallout1.png)<br/>No relatório **Atividade de participantes de conferências do Skype for Business**, é possível ver as tendências dos últimos sete dias, 30 dias, 90 dias ou 180 dias. No entanto, se você clicar em um dia específico no relatório, a tabela (Veja o número 7) mostrará os dados por 30 dias, até a data (Confira número 2) para quando o relatório foi gerado.
+![Número 1](../images/sfbcallout1.png)<br/>No relatório **Atividade de participantes de conferências do Skype for Business**, é possível ver as tendências dos últimos sete dias, 30 dias, 90 dias ou 180 dias. No entanto, se você clicar em um dia específico no relatório, a tabela (veja o número 7) mostrará dados por 30 dias, atualizados (consulte o número 2) para quando o relatório foi gerado.
 > [!NOTE]
-> Se você clicar nos detalhes de um dia específico, a tabela mostrará somente os dados dos 30 dias até a data em que o relatório foi gerado.
+> Se você clicar nos detalhes de um dia específico, a tabela mostrará apenas os dados dos 30 dias atualizados até a data em que o relatório foi gerado.
      
 ***
-![Número 2](../images/sfbcallout2.png)<br/>Cada relatório tem uma data de geração. Os relatórios geralmente refletem uma latência de 24 a 48 horas a partir do momento da atividade. 
+![Número 2](../images/sfbcallout2.png)<br/>Cada relatório tem uma data de geração. Os relatórios geralmente refletem uma latência de 24 a 48 horas do tempo de atividade. 
 ***
 ![Número 3](../images/sfbcallout3.png)<br/>Use os dados do gráfico interativo **Atividade** para entender as tendências de uso e ver o número total de conferências em que os usuários participaram e os tipos de conferência que estão sendo realizados em sua organização. Ele mostrará o número total e os tipos de conferência de **Mensagens instantâneas**, **Áudio/vídeo**, **Compartilhamento de aplicativos**, **Web** e **Discagem - terceiros** em que os usuários participaram em sua organização. 
 ***
 ![Número 4](../images/sfbcallout4.png)<br/>Use os dados do gráfico interativo **Usuários** para entender as tendências de uso e ver o número de usuários únicos que participaram nas conferências que estão sendo realizadas em sua organização. Ele mostrará o número total de usuários, bem como os tipos de conferência de **Mensagens instantâneas**, **Áudio/vídeo**, **Compartilhamento de aplicativos**, **Web** e **Discagem - terceiros** que foram organizados. 
 ***
-![Número 5](../images/sfbcallout5.png)<br/>Use os dados de gráfico interativo no gráfico de **minutos** para entender as tendências de uso e para ver o número de minutos que são usados pelos usuários quando eles organizam uma conferência usando áudio/vídeo, e discando para fora da Microsoft como provedor de serviços de audioconferência. Ele mostrará o número total de minutos de **Áudio/vídeo** usados durante as conferências em que os usuários participaram.
+![Número 5](../images/sfbcallout5.png)<br/>Use os dados do  gráfico interativo Minutos para entender as tendências de uso e ver o número de minutos usados pelos usuários quando eles organizam uma conferência usando áudio/vídeo e discagem e discagem – Microsoft como provedor de serviços de audioconferência. Ele mostrará o número total de minutos de **Áudio/vídeo** usados durante as conferências em que os usuários participaram.
 ***
 ![Número 6](../images/sfbcallout6.png)<br/>Você pode filtrar a série que vê no gráfico clicando em um item na legenda. Por exemplo, no gráfico **Atividade**, clique ou toque em **Mensagens instantâneas**, **Áudio/vídeo**, **Compartilhamento de aplicativos**, **Web** e **Discagem - terceiros** para ver apenas as informações relacionadas a cada um. A alteração dessa seleção não altera as informações na tabela de grade.  
 ***
@@ -74,7 +74,7 @@ O eixo X em ambos os gráficos é o intervalo de datas selecionado para esse rel
 ***
 ![Número 8](../images/sfbcallout8.png)<br/>A tabela mostra uma divisão das atividades de conferência em que houve participação por usuário. Isso mostra todos os usuários que têm o Skype for Business atribuído a eles e as conferências em que participaram. Você pode adicionar mais colunas à tabela.
 *    **Nome de usuário** é o nome do usuário. 
-*    **Excluído** indica que a licença do usuário foi removida. <br/> <br/> **Observação:**  A atividade para um usuário excluído ainda será exibida em um relatório desde que ele tenha sido licenciado em algum momento durante o período de tempo selecionado. The **Deleted** column helps you to note that the user may no longer be active, but contributed to the data in the report.   <br/><br/> 
+*    **Excluído** indica que a licença do usuário foi removida. <br/> <br/> **Observação:**  A atividade de um usuário excluído ainda será exibida em um relatório, desde que ele tenha sido licenciado em algum momento durante o período de tempo selecionado. The **Deleted** column helps you to note that the user may no longer be active, but contributed to the data in the report.   <br/><br/> 
 *    **Deleted date** is the date on which the user's license was removed. 
 *    **Data da última atividade (UTC)** é a data da última atividade (UTC) desse usuário.
 *    **Mensagens instantâneas** mostra o número total de conferências de mensagens instantâneas em que os usuários participaram. 
@@ -84,29 +84,29 @@ O eixo X em ambos os gráficos é o intervalo de datas selecionado para esse rel
 *    **Discagem - terceiros** mostra o número total de conferências discadas que foram organizadas e que usam um provedor de serviços de audioconferência terceiro. 
 *    **Minutos de áudio/vídeo** mostra o número total de minutos usados quando os usuários participaram de conferências que usaram áudio/vídeo. 
 
-Se as políticas da sua organização impedem a exibição de relatórios em que as informações do usuário podem ser identificadas, você pode alterar a configuração de privacidade para todos esses relatórios. Confira a seção **como faço para ocultar detalhes do nível do usuário?** nos [relatórios de atividades no centro de administração](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263).
+Se as políticas da sua organização impedem a exibição de relatórios em que as informações do usuário podem ser identificadas, você pode alterar a configuração de privacidade para todos esses relatórios. Confira a seção **Como ocultar detalhes no nível do usuário?** nos Relatórios de Atividades no centro de [administração.](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
 ***
-![Número 9](../images/sfbcallout9.png)<br/>Você também pode exportar os dados do relatório para um arquivo .csv do Excel. Basta clicar ou tocar em **Exportar**.                                            <br/> ![Botão Exportar relatório do Skype for Business.](../images/de7e2ab7-d70c-422f-a0ec-178b10f7dd51.png)<br/>Isso exporta dados de todos os usuários e permite que você faça uma classificação e filtragem simples para uma análise mais detalhada. Se tiver menos de 2.000 usuários, você poderá classificar e filtrar dentro da tabela no próprio relatório. Se tiver mais de 2.000 usuários, será necessário exportar os dados para filtrar e classificar.
+![Número 9](../images/sfbcallout9.png)<br/>Você também pode exportar os dados do relatório para um arquivo .csv do Excel. Basta clicar ou tocar em **Exportar**.                                            <br/> ![Botão exportar relatórios do Skype for Business.](../images/de7e2ab7-d70c-422f-a0ec-178b10f7dd51.png)<br/>Isso exporta dados de todos os usuários e permite que você faça uma classificação e filtragem simples para uma análise mais detalhada. Se tiver menos de 2.000 usuários, você poderá classificar e filtrar dentro da tabela no próprio relatório. Se tiver mais de 2.000 usuários, será necessário exportar os dados para filtrar e classificar.
 ***
 ![Número 10](../images/sfbcallout10.png)<br/>Clique ou toque em **Colunas** para adicionar ou remover colunas do relatório.           <br/> ![Skype for Business Online Reporting Manage Button.](../images/4c8f5387-cebb-4d6c-b7d3-05c954a2c234.png)
    
 ## <a name="want-to-see-other-skype-for-business-reports"></a>Deseja ver outros relatórios do Skype for Business?
 
-- [Relatório de atividade do Skype for Business](activity-report.md) Você pode ver o quanto os usuários estão usando ponto a ponto, organizado e participando de sessões de conferência.
+- [Relatório de atividades do Skype for Business](activity-report.md) Você pode ver o quanto seus usuários estão usando ponto a ponto, organizaram e participaram de sessões de conferência.
     
-- [Relatório de uso de dispositivos do Skype for Business](device-usage-report.md) Você pode ver os dispositivos, incluindo sistemas operacionais baseados em Windows e dispositivos móveis que têm o aplicativo Skype for Business instalado e o estão usando para mensagens instantâneas e reuniões.
+- [Relatório de uso de dispositivos do Skype for Business](device-usage-report.md) Você pode ver os dispositivos, incluindo sistemas operacionais baseados no Windows e dispositivos móveis que têm o aplicativo Skype for Business instalado e o estão usando para mensagens de mensagens e reuniões.
     
-- [Relatório de atividade do organizador de conferências do Skype for Business](conference-organizer-activity-report.md) Você pode ver o quanto os usuários estão organizando conferências que usam mensagens instantâneas, áudio/vídeo, compartilhamento de aplicativos, Web, dial-in/out-terceiro e discagem/saída-Microsoft.
+- Relatório de atividade do organizador de [conferências do Skype for Business](conference-organizer-activity-report.md) Você pode ver o quanto seus usuários estão organizando conferências que usam mensagens de iM, áudio/vídeo, compartilhamento de aplicativos, Web, discagem – terceiros e discagem – Microsoft.
     
-- [Relatório de atividade ponto a ponto do Skype for Business](peer-to-peer-activity-report.md) Você pode ver o quanto os usuários estão usando mensagens instantâneas, áudio/vídeo, compartilhamento de aplicativos e transferência de arquivos.
+- [Relatório de atividade ponto a ponto](peer-to-peer-activity-report.md) do Skype for Business Você pode ver o quanto seus usuários estão usando mensagens de texto, áudio/vídeo, compartilhamento de aplicativos e transferência de arquivos.
     
-- [Relatório de usuários bloqueados do Skype for Business](users-blocked-report.md) Você pode ver os usuários em sua organização que foram impedidos de fazer chamadas PSTN.
+- [Relatório bloqueado de usuários do Skype for Business](users-blocked-report.md) Você pode ver os usuários em sua organização que foram impedidos de fazer chamadas PSTN.
     
 - [Relatório de uso de PSTN do Skype for Business](pstn-usage-report.md) Você pode ver o número de minutos gastos em chamadas de entrada/saída e o custo dessas chamadas.
     
-- [Relatório de grupos de minutos PSTN do Skype for Business](pstn-minute-pools-report.md) você pode ver o número de minutos consumidos durante o mês atual dentro de sua organização.
+- [Pools de minutos PSTN](pstn-minute-pools-report.md) do Skype for Business relatam o número de minutos consumidos durante o mês atual em sua organização.
 
-- [Relatório de detalhes da sessão do Skype for Business](session-details-report.md) Você pode ver detalhes sobre as experiências de chamadas de um usuário individual.
+- [Relatório de detalhes da sessão do Skype for Business](session-details-report.md) Você pode ver detalhes sobre as experiências de chamada de um usuário individual.
     
 ## <a name="related-topics"></a>Tópicos relacionados
 [Relatórios de atividades no centro de administração](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)

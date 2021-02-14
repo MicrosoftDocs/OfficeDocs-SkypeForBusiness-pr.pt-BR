@@ -31,14 +31,14 @@ Este artigo oferece uma visão geral dos requisitos necessários para oferecer e
 
 ## <a name="service-management-for-teams"></a>Gerenciamento de serviços para o Teams
 
-O gerenciamento do serviço é um tema amplo, que abrange as operações do serviço Microsoft Teams no dia a dia depois que ele é implantado e habilitado para os usuários. O serviço Teams abrange o Microsoft 365 ou o Office 365 e os componentes de infraestrutura implantados no local (por exemplo, rede).
+O gerenciamento do serviço é um tema amplo, que abrange as operações do serviço Microsoft Teams no dia a dia depois que ele é implantado e habilitado para os usuários. O serviço do Teams engloba o Microsoft 365 ou o Office 365 e os componentes de infraestrutura implantados no local (por exemplo, rede).
 
 É provável que a noção de gerenciamento do serviço não seja um conceito novo para a maioria das organizações. Você provavelmente já implementou processos e tarefas que estão associados a serviços existentes. Considerando isso, é possível que você possa expandir o que já está funcionando ao planejar o gerenciamento do serviço atual para dar suporte ao Microsoft Teams no futuro.
 
-O gerenciamento do serviço compreende todas as atividades e processos envolvidos no gerenciamento do Microsoft Teams de ponta a ponta. Alguns componentes de gerenciamento de serviços — os componentes de infraestrutura que o serviço do Microsoft 365 ou do Office 365 em si são, são responsabilidade da Microsoft, enquanto o cliente é responsável pelos seus usuários a gerenciar os diversos aspectos do Teams, da rede e dos pontos de extremidade que fornecem.
+O gerenciamento do serviço compreende todas as atividades e processos envolvidos no gerenciamento do Microsoft Teams de ponta a ponta. Alguns componentes do gerenciamento de serviço , os componentes de infraestrutura que o serviço do Microsoft 365 ou do Office 365 próprio compreende, são de responsabilidade da Microsoft, enquanto o cliente é responsável pelos usuários para gerenciar os vários aspectos do Teams, da rede e dos pontos de extremidade que eles fornecem.
 Para ver uma discussão completa sobre a responsabilidade do cliente pelo gerenciamento de serviços do Teams e como ele se relaciona com os principais componentes que sustentam a qualidade da experiência do usuário, consulte [Planejar gerenciamento de serviços e qualidade](https://docs.microsoft.com/MicrosoftTeams/prepare-network).
 
-![Diagrama dos três componentes de qualidade](media/plan-my-service-management-image1.png "Diagrama dos três componentes de qualidade--Microsoft 365 ou serviço do Office 365, rede e pontos de extremidade--e como o gerenciamento de serviços se sobrepõe a todos os três.")
+![Diagrama dos três componentes de qualidade](media/plan-my-service-management-image1.png "Diagrama dos três componentes de qualidade ( serviço, rede e pontos de extremidade do Microsoft 365 ou Microsoft 365) e como o gerenciamento de serviços se sobrepõe a todos os três.")
 
 <!--ENDOFSECTION-->
 
@@ -80,20 +80,20 @@ O Guia de Operações apresenta uma lista de tarefas comuns mapeadas para as fun
 ## <a name="the-quality-champion-role"></a>Função de defensor da qualidade
 
 Todos os grupos ou indivíduos precisam se responsabilizar pela qualidade em todas as organizações.
-Essa é a função mais importante do gerenciamento do serviço. O especialista em qualidade é uma função de cliente atribuída a uma pessoa ou grupo que é apaixonado pela experiência dos usuários. Essa função requer a habilidade de identificar tendências no ambiente e a capacidade de trabalhar com outras equipes para possibilitar correções.
-O melhor candidato para a Quality Champion geralmente é o proprietário do atendimento ao cliente, quem, dependendo do tamanho e da complexidade da organização, pode ser qualquer pessoa ou grupo que seja apaixonado pela experiência do usuário.
+Essa é a função mais importante do gerenciamento do serviço. O defensor da qualidade é uma função de cliente atribuída a uma pessoa ou grupo que gosta da experiência dos usuários. Essa função requer a habilidade de identificar tendências no ambiente e a capacidade de trabalhar com outras equipes para possibilitar correções.
+O melhor candidato ao campeão de qualidade geralmente é o proprietário do atendimento ao cliente, que, dependendo do tamanho e da complexidade da organização, pode ser qualquer pessoa ou grupo que seja entusiasta da experiência do usuário.
 
-O especialista em qualidade aproveita as ferramentas existentes e os processos documentados, como o painel de qualidade de chamada (CQD) e o guia de avaliação da experiência de qualidade, para monitorar a experiência do usuário, identificar tendências de qualidade e remediação quando necessário. O especialista em qualidade funciona com as respectivas equipes para direcionar as ações de correção, gerando relatórios para um Comitê de direcionamento sobre seus problemas de progresso e abertura.
+O defensor da qualidade aproveita ferramentas existentes e processos documentados, como o Painel de Qualidade de Chamada (CQD) e o Guia de Revisão da Experiência de Qualidade, para monitorar a experiência do usuário, identificar tendências de qualidade e impulsionar a correção quando necessário. O defensor da qualidade trabalha com as respectivas equipes para conduzir ações de correção, informar a um comitê de direção sobre o andamento e abrir problemas.
 
-As tarefas e atividades associadas à função são documentadas no guia de operações. Essa função deve ser atribuída logo no início da fase de Concepção. Um etapa importante da operacionalização da função de defensor da qualidade é a obtenção do conhecimento necessário para a função e a garantia de que os pré-requisitos para a execução das tarefas foram cumpridos. Uma tarefa importante dessa função é a realização periódica de uma revisão da experiência de qualidade.
+As tarefas e atividades associadas à função são documentadas no Guia de Operações. Essa função deve ser atribuída logo no início da fase de Concepção. Um etapa importante da operacionalização da função de defensor da qualidade é a obtenção do conhecimento necessário para a função e a garantia de que os pré-requisitos para a execução das tarefas foram cumpridos. Uma tarefa importante dessa função é a realização periódica de uma revisão da experiência de qualidade.
 
 <!--ENDOFSECTION-->
 
 ## <a name="introduction-to-the-quality-experience-review-guide"></a>Introdução ao Guia de Revisão da Experiência de Qualidade
 
-O guia de avaliação da experiência de qualidade tem um conjunto de atividades que avaliam e fornecem orientação de correção em áreas importantes que têm o maior impacto para melhorar a experiência do usuário, conforme mostrado na figura abaixo.
+O Guia de Revisão da Experiência de Qualidade tem um conjunto de atividades que avaliam e fornecem orientações de correção nas principais áreas que têm o maior impacto para melhorar a experiência do usuário, conforme mostrado na figura abaixo.
 
-![Ilustração de áreas importantes para examinar durante a análise da experiência de qualidade](media/plan-my-service-management-image2.png "As principais áreas a serem examinadas durante uma revisão da experiência de qualidade: áudio, confiabilidade e resultados da pesquisa de usuários.")
+![Ilustração das principais áreas a examinar durante a revisão da experiência de qualidade](media/plan-my-service-management-image2.png "As principais áreas a examinar durante uma revisão da experiência de qualidade: áudio, confiabilidade e resultados da pesquisa do usuário.")
 
 Por meio da avaliação e correção contínuas das áreas descritas neste documento, você pode reduzir seu potencial de afetar negativamente a experiência do usuário. A maioria dos problemas de experiência do usuário encontrada em uma implantação pode ser agrupada nas seguintes categorias:
 
@@ -111,13 +111,13 @@ Por meio da avaliação e correção contínuas das áreas descritas neste docum
 
 As orientações fornecidas no Guia de Revisão da Experiência de Qualidade concentram-se no uso do Painel de Qualidade de Chamadas (PQC) Online como ferramenta principal para relatar e investigar cada área descrita, com foco sobre o áudio para maximizar a adoção e o impacto. Todas as otimizações feitas à rede para melhorar a experiência de área também se converterão diretamente em aprimoramentos no vídeo e no compartilhamento da área de trabalho.
 
-É altamente recomendável que você innomeado o especialista em qualidade no início. Depois de serem nomeados, eles devem começar a se familiarizar com o conteúdo do [Guia de revisão de experiência de qualidade](https://aka.ms/qerguide).
+É altamente recomendável nomear o campeão de qualidade desde o início. Depois de indicados, eles devem começar a se familiarizar com o conteúdo no Guia de Revisão da [Experiência de Qualidade.](https://aka.ms/qerguide)
 
 
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Pontos de decisão</td><td><ul><li>Decidir quem é responsável pelas operações de voz em nuvem em sua organização.</li></ol></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Próximas etapas</td><td><ul><li>Baixe o guia planejamento para o gerenciamento de serviços completo.</li><li>Baixe o guia de avaliação da experiência de qualidade.</li><li>Examine o guia de operações totalmente.</li><li>Fornecer todos os guias para que todos os membros da equipe de operações possam revisar e se familiarizar com os requisitos de operações.</li></ol></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Pontos de decisão</td><td><ul><li>Decida quem é responsável pelas operações de voz na nuvem em sua organização.</li></ol></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Próximas etapas</td><td><ul><li>Baixe o guia completo Planejamento para Gerenciamento de Serviços.</li><li>Baixe o guia Revisão da Experiência de Qualidade.</li><li>Revise o Guia de Operações na íntegra.</li><li>Forneça todos os guias para cada membro da equipe de operações para revisar e se familiarizar com os requisitos de operações.</li></ol></td></tr>
 </table>
 
 <!--ENDOFSECTION-->
