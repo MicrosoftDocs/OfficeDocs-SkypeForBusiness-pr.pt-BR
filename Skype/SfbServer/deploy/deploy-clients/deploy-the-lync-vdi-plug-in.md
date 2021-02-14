@@ -119,7 +119,7 @@ A seguir estão os possíveis motivos para falhas e as ações que você pode to
     
 - **O cliente Skype for Business está sendo executado no computador local.**
     
-    Para usar o plug-in VDI do Lync, um cliente do Skype for Business não deve estar em execução no computador local; caso contrário, o emparelhamento falhará. Como prática prática, o usuário não deve instalar um cliente do Skype for Business no computador local.
+    Para usar o plug-in VDI do Lync, um cliente do Skype for Business não deve estar em execução no computador local; caso contrário, o emparelhamento falhará. Como prática melhor, o usuário não deve instalar um cliente do Skype for Business no computador local.
     
 ## <a name="see-also"></a>Confira também
 <a name="tshoot_VDI"> </a>

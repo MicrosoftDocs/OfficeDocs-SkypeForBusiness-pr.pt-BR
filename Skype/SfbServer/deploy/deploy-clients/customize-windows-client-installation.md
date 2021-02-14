@@ -1,5 +1,5 @@
 ---
-title: Personalizar a instalação do cliente Windows no Skype for Business Server
+title: Personalizar a instalação de cliente do Windows no Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -19,7 +19,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49805711"
 ---
-# <a name="customize-windows-client-installation-in-skype-for-business-server"></a>Personalizar a instalação do cliente Windows no Skype for Business Server
+# <a name="customize-windows-client-installation-in-skype-for-business-server"></a>Personalizar a instalação de cliente do Windows no Skype for Business Server
  
 **Resumo:** Visão geral dos métodos e ferramentas de instalação do Skype for Business.
   
@@ -30,7 +30,7 @@ Os administradores corporativos podem personalizar a instalação baseada no Win
   
 - [Use a Ferramenta de Personalização do Office (OCT)](use-the-office-customization-tool-oct.md) no Skype for Business Server para personalizar as opções e os recursos de instalação do Skype for Business e de outros programas do Office.
     
-- [Use Config.xml para executar tarefas](use-config-xml-to-perform-installation-tasks.md) de instalação no Skype for Business Server para especificar o caminho do ponto de instalação de rede e realizar a instalação silenciosa.
+- [Use Config.xml para executar tarefas](use-config-xml-to-perform-installation-tasks.md) de instalação no Skype for Business Server para especificar o caminho do ponto de instalação de rede e executar a instalação silenciosa.
     
 - [Use as opções de linha de comando de Instalação no Skype for Business Server](use-setup-command-line-options.md) para especificar o Config.xml arquivo a ser usado durante a instalação.
     

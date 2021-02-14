@@ -32,7 +32,7 @@ Suas informações de login geralmente são configuradas automaticamente quando 
 
 1. Faça logoff na rede da sua organização.
     
-2. Selecione **Iniciar Todos** os  >  **Programas** do Skype for  >  **Business.**
+2. Selecione **Iniciar todos** os  >  **programas** do Skype for  >  **Business.**
     
     Você deverá ver a tela de login.
     
@@ -51,7 +51,7 @@ Quando terminar de usar o Skype for Business, você poderá fechar a exibição,
 |**Opção**|**Função**|**Como fazer isso**|
 |:-----|:-----|:-----|
 |Fechar  <br/> |Fecha sua exibição, mas permite que a sessão do Skype for Business identificada com sua ID de usuário continue a ser executado. Isso é para que você possa continuar a receber notificações e interagir com outras pessoas. <br/> <br/> Você pode obter a exibição a qualquer momento clicando no ícone do Skype for Business na barra de tarefas ou na área de notificação na parte inferior da tela.  <br/> | Na janela principal do Skype for Business, faça o seguinte: <br/> 1. Selecione o **botão Opções** e selecione **Fechar**  >  **Arquivo.**  <br/> 2. Clique **no botão** Fechar (X) no canto superior direito da janela. <br/> |
-|Sair  <br/> |Encerra a sessão associada à sua ID de usuário, mas o Skype for Business continua a ser executado em segundo plano. Quando você sair, a janela de login será exibida.  <br/> **Dica:** Selecione **Excluir minhas informações de logon** ao sair para remover o registro de sua ID de logon e senha do computador. Isso pode facilitar o suporte para as pessoas solucionarem problemas de login. Isso também pode ajudar a garantir que suas informações de entrada são mais seguras, tornando difícil para usuários não autorizados fazer logoff com suas credenciais. <br/> |Na janela principal do Skype for Business, selecione o **botão Opções** e, em seguida, selecione **Sair**  >  **do Arquivo.**  <br/> |
+|Sair  <br/> |Encerra a sessão associada à sua ID de usuário, mas o Skype for Business continua a ser executado em segundo plano. Quando você sair, a janela de login será exibida.  <br/> **Dica:** Selecione **Excluir minhas informações de logon** ao sair para remover o registro de sua ID de logon e senha do computador. Isso pode facilitar o suporte para as pessoas solucionarem problemas de login. Isso também pode ajudar a garantir que suas informações de entrada são mais seguras, tornando difícil para usuários não autorizados fazer logoff com suas credenciais. <br/> |Na janela principal do Skype for Business, selecione o **botão Opções** e, em seguida, **selecione Sair**  >  **do Arquivo.**  <br/> |
 |Sair  <br/> |Encerra sua sessão do Skype for Business e desliga o Skype for Business em seu computador. Depois de sair, se quiser reiniciar, selecione **Iniciar** Todos os  >   Programas > Skype for Business. <br/> |Na janela principal do Skype for Business, selecione o **botão Opções** e, em seguida, selecione **Sair do**  >  **Arquivo.**  <br/> |
    
 ## <a name="sign-in-to-skype-for-business-with-a-smart-card"></a>Entrar no Skype for Business com um cartão inteligente
@@ -90,7 +90,7 @@ Antes de poder entrar com um cartão inteligente, o cartão deve ser "inscrito",
     
 7. Agora você verá uma página chamada Estação de Registro de Cartão Inteligente. Aprove a solicitação para instalar o controle ActiveX e preencha o formulário Solicitação de Certificado Avançado da seguinte maneira:
     
-    a. Selecione **o usuário do Cartão Inteligente** na lista de lista suspenso de **Modelo** de Certificado.
+    a. Selecione **o usuário Smartcard** na listada do **Modelo** de Certificado.
     
     b. Selecione **Criar novo conjunto de chaves.**
     
@@ -126,13 +126,13 @@ Antes de poder entrar com um cartão inteligente, o cartão deve ser "inscrito",
     
 ### <a name="sign-in-to-skype-for-business-with-your-smart-card-credentials"></a>Entre no Skype for Business com suas credenciais de cartão inteligente
 
-Antes de usar seu cartão inteligente pela primeira vez,  é recomendável que você clique em Excluir minhas informações de login na página de login do Skype for Business. Isso limpa as credenciais de login armazenadas no computador e elimina uma possível fonte de erro.
+Antes de usar seu cartão inteligente pela primeira vez,  é recomendável que você clique em Excluir minhas informações de login na página de login do Skype for Business. Isso limpa as credenciais de login armazenadas em seu computador e elimina uma possível fonte de erro.
   
 ### <a name="to-sign-in-to-skype-for-business-with-your-smart-card-credentials"></a>Para entrar no Skype for Business com suas credenciais de cartão inteligente
 
 1. Inicie o cliente Skype for Business.
     
-2. Na tela Entrar, digite o nome da  conta de usuário na caixa de endereço entrar e clique em **Entrar.**
+2. Na tela Entrar, digite seu nome de  conta de usuário na caixa de endereço entrar e clique em **Entrar.**
     
 3. Se você estiver usando um cartão inteligente virtual, ignore esta etapa.
     

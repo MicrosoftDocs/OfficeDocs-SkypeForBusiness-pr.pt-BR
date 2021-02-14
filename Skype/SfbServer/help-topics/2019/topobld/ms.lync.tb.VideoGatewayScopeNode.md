@@ -28,7 +28,7 @@ As etapas necessárias para definir um novo VIS ou Gateway de Vídeo no Construt
   
 As etapas necessárias para atribuir uma função de Servidor de Interop de Vídeo em um servidor usando o Windows PowerShell são descritas online em Implantar a função de servidor [VIS](../../../deploy/deploy-video-interop-server/deploy-the-vis-server-role.md) no Skype for Business Server
   
-As etapas de configuração para um novo Servidor de Interop de Vídeo usando o Windows PowerShell são descritas online em Configurar o Servidor de Interop de Vídeo [no Skype for Business Server.](../../../deploy/deploy-video-interop-server/configure-the-vis.md)
+As etapas de configuração para um novo Servidor de Interop de Vídeo usando o Windows PowerShell são descritas online em Configurar o Servidor de Interop de Vídeo no [Skype for Business Server.](../../../deploy/deploy-video-interop-server/configure-the-vis.md)
   
  As configurações para um gateway de vídeo que precisam ser definidas na GUI da Cisco para interoperação com um VIS são descritas online em [Configure CUCM for Interoperation with Skype for Business Server](../../../deploy/deploy-video-interop-server/configure-cucm-for-interoperation.md).
   

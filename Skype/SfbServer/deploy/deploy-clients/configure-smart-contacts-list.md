@@ -41,7 +41,7 @@ Lembre-se do seguinte ao configurar esse recurso:
 
 - Todos os novos usuários do grupo serão informados de que foram adicionados à lista de contatos. Os usuários podem adicionar manualmente novos membros ao Meu Grupo ou a outros grupos de sua escolha.
 
-- Esse recurso funciona apenas para usuários que estão fazendo logom pela primeira vez. Se um usuário tiver feito o acesso anteriormente em qualquer dispositivo , incluindo, por exemplo, qualquer dispositivo móvel ou um Mac, o recurso não está habilitado para esse usuário.
+- Esse recurso funciona apenas para usuários que estão fazendo logom pela primeira vez. Se um usuário tiver feito o acesso anteriormente a partir de qualquer dispositivo , incluindo, por exemplo, qualquer dispositivo móvel ou um Mac, o recurso não está habilitado para esse usuário.
 
 ## <a name="configure-smart-contacts-list"></a>Configurar a lista de contatos Inteligente
 

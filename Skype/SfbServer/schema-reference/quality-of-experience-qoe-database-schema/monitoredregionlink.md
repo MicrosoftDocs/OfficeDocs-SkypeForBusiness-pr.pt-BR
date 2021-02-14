@@ -26,7 +26,7 @@ A tabela MonitoredRegionLink é uma tabela de suporte. Cada registro representa 
   
 |**Coluna**|**Tipo de dados**|**Chave/Índice**|**Detalhes**|
 |:-----|:-----|:-----|:-----|
-|**Region1Key** <br/> |int  <br/> |Primário, externo  <br/> |Referenciado na tabela [Região.](region.md)  <br/> |
-|**Region2Key** <br/> |int  <br/> |Primário, externo  <br/> |Referenciado na tabela [Região.](region.md)  <br/> |
+|**Region1Key** <br/> |int  <br/> |Primário, externo  <br/> |Referenciado na tabela [Region](region.md).  <br/> |
+|**Region2Key** <br/> |int  <br/> |Primário, externo  <br/> |Referenciado na tabela [Region](region.md).  <br/> |
    
 

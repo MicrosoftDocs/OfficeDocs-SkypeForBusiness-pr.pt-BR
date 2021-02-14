@@ -24,7 +24,7 @@ ms.locfileid: "49807851"
 ---
 # <a name="select-trunk"></a>Selecionar Tronco
  
-Use a **caixa de diálogo** Selecionar Tronco para encontrar um tronco existente que você possa usar.
+Use a **caixa de** diálogo Selecionar Tronco para encontrar um tronco existente que você possa usar.
   
 > [!NOTE]
 > Para recuperar todos os troncos disponíveis, não digite nada na caixa de pesquisa e clique no ícone de pesquisa. 

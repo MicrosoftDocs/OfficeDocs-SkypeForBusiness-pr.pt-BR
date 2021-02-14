@@ -52,11 +52,11 @@ A lista a seguir descreve os campos na página.
 
   - Selecione **Serial** para sempre oferecer uma nova chamada aos agentes na ordem na qual eles estão relacionados na lista **Agente**.
 
-  - Selecione **Attendant** para oferecer uma nova chamada para todos os agentes que estão assinados e o aplicativo grupo de resposta ao mesmo tempo, independentemente de sua presença atual. Atendedores e usuários clientes configurados como agentes podem ver todas as chamadas que estão aguardando e podem atender chamadas em espera em qualquer ordem. A chamada é enviada para o primeiro agente que a aceita, e os outros participantes e usuários não veem mais a chamada.
+  - Selecione **Attendant** para oferecer uma nova chamada a todos os agentes que estão assinados e ao mesmo tempo ao aplicativo grupo de resposta, independentemente de sua presença atual. Atendedores e usuários clientes configurados como agentes podem ver todas as chamadas que estão aguardando e podem atender chamadas em espera em qualquer ordem. A chamada é enviada para o primeiro agente que a aceita, e os outros participantes e usuários não veem mais a chamada.
 
 - **Agentes** Selecione os usuários que serão agentes para o grupo de resposta de uma das seguintes maneiras:
 
-  - Selecione **Usar uma lista de distribuição de email existente para** usar uma lista de distribuição do Exchange. Digite o endereço de email da lista de distribuição em **Endereço da lista de distribuição**.
+  - Selecione **Usar uma lista de distribuição de email existente** para usar uma lista de distribuição do Exchange. Digite o endereço de email da lista de distribuição em **Endereço da lista de distribuição**.
 
     > [!NOTE]
     > É possível selecionar apenas uma lista de distribuição para um grupo de agentes. Se a lista de distribuição incluir listas de distribuição aninhadas, as listas de distribuição aninhadas não serão incluídas no grupo de agentes.

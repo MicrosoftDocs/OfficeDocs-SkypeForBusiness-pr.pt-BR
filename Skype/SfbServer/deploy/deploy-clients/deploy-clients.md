@@ -23,7 +23,7 @@ ms.locfileid: "49805691"
  
 **Resumo:** Visão geral dos métodos de instalação do cliente corporativo para o Skype for Business.
   
-A maneira como você implanta o Skype for Business para seus usuários depende se você comprou o Skype for Business como parte de um plano do Microsoft 365 ou Office 365 ou se comprou uma versão licenciada por volume do Skype for Business. 
+A maneira como você implanta o Skype for Business para seus usuários depende se você comprou o Skype for Business como parte de um plano do Microsoft 365 ou Office 365 ou comprou uma versão licenciada por volume do Skype for Business. 
   
 - **Microsoft 365 ou Office 365** Se você tiver um plano do Microsoft 365 ou Office 365 que inclua o Skype for Business, a tecnologia de instalação usada será chamada de Clique para Executar. Você pode permitir que seus usuários instalem o Skype for Business por conta própria no Centro de administração do Microsoft 365. Ou você pode implantar o Skype for Business para seus usuários baixando o software para sua rede local e, em seguida, usando suas ferramentas de implantação de software existentes, como com o Microsoft Endpoint Configuration Manager. Para obter informações de instalação sobre o Skype for Business que vem com o Microsoft 365 e o Office 365, confira Implantar o cliente Skype for Business no [Microsoft 365 ou Office 365.](https://support.office.com/article/8c563b81-22c9-4024-9efe-9fe28c7bbc96)
     

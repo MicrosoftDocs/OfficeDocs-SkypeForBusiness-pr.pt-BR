@@ -32,7 +32,7 @@ Uma configuração de tronco, como descrito abaixo, agrupa um conjunto de parâm
     - Clique duas vezes em um tronco existente (por exemplo, o tronco **Global**) para exibir a caixa de diálogo **Editar Configuração de Tronco**.
     - Clique em **Novo** e selecione um escopo para a nova configuração do tronco:
         - **Tronco do** site: escolha o site para essa configuração de tronco em **Selecionar um Site** e clique em **OK.** Observe que se uma configuração de tronco já tiver sido criada para um site, o site não aparecerá em **Selecionar um Site**. Essa configuração de tronco será aplicada a todos os troncos do site.
-        - **Tronco do pool**: escolha um nome para o tronco ao qual essa configuração de tronco se aplica em **Selecionar um Serviço** e clique em **OK**. Esse tronco pode ser o tronco raiz ou qualquer tronco adicional definido no Construtor de Topologias. Observe que se uma configuração de tronco já tiver sido criada para um tronco específico, esse tronco não será exibido em **Selecionar um Serviço**.
+        - **Tronco do pool**: escolha um nome para o tronco ao qual essa configuração de tronco se aplica em **Selecionar um Serviço** e clique em **OK**. Esse tronco pode ser o tronco raiz ou quaisquer troncos adicionais definidos no Construtor de Topologias. Observe que se uma configuração de tronco já tiver sido criada para um tronco específico, esse tronco não será exibido em **Selecionar um Serviço**.
     > [!Note] 
     > Depois de selecionar o escopo da configuração do tronco, não será possível alterá-lo. O campo **Nome** é preenchido previamente com o nome do site ou serviço associado à configuração do tronco e não pode ser alterado. 
 

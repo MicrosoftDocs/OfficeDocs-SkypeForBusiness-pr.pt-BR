@@ -22,7 +22,7 @@ ms.locfileid: "49806411"
 ---
 # <a name="clear-cache"></a>Limpar Cache
  
-**Resumo:** Saiba mais sobre a operação Limpar Cache, que faz parte da API de Dados do Painel de Qualidade da Chamada. O Painel de Qualidade da Chamada é uma ferramenta do Skype for Business Server.
+**Resumo:** Saiba mais sobre a operação Limpar Cache, que faz parte da API de Dados para Painel de Qualidade de Chamada. O Painel de Qualidade da Chamada é uma ferramenta do Skype for Business Server.
   
 A operação Limpar Cache faz parte da API de Dados do Painel de Qualidade da Chamada.
   

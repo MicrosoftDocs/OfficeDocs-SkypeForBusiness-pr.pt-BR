@@ -27,7 +27,7 @@ ms.locfileid: "49807951"
 Você pode usar a caixa **de diálogo Salvar Informações de Caso** de Teste de Roteamento de Voz para salvar um caso de teste de roteamento de voztemporário. Em **Salvar Informações do Caso de Teste de Roteamento de Voz**, digite o nome que você deseja dar a esse caso de teste em **Nome** e clique em **OK**. 
   
 > [!NOTE]
-> Quando você salva um caso de teste temporário, não está salvando-o no armazenamento de Gerenciamento Central. O caso de teste fica disponível, ao invés disso, na guia **Testar Roteamento de Voz** da página **Roteamento de Voz**. O caso de teste aparecerá com o estado de **Não Confirmado**. Para salvar o caso de teste no armazenamento de Gerenciamento  Central, você deve comprometer a configuração de voz clicando em Confirmação De todos do **menu** Ação na página **Roteamento de** Voz.
+> Quando você salva um caso de teste temporário, não está salvando-o no armazenamento de Gerenciamento Central. O caso de teste fica disponível, ao invés disso, na guia **Testar Roteamento de Voz** da página **Roteamento de Voz**. O caso de teste aparecerá com o estado de **Não Confirmado**. Para salvar o caso de teste no armazenamento de Gerenciamento  Central, você deve comprometer a configuração de voz clicando em Confirmação De qualquer **menu** Ação na página **Roteamento de** Voz.
   
  
   

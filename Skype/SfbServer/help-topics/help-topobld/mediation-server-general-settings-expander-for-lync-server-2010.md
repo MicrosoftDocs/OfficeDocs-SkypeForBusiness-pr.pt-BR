@@ -34,7 +34,7 @@ Edite as propriedades dos Servidores de Mediação nesta caixa de diálogo. No l
 
   **Próximo salto:**
 
-- **Seleção de próximo** salto: selecione em uma lista o Servidor front-end ou pool de front-end a ser usado como o caminho para o Servidor de Mediação usar para comunicação com sua implantação.
+- **Seleção de próximo salto:** selecione em uma lista o Servidor front-end ou pool de front-end a ser usado como o caminho para o Servidor de Mediação a ser usado para comunicação com sua implantação.
 
   **Gateway PSTN:**
 

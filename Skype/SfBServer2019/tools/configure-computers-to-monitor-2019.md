@@ -45,11 +45,11 @@ Se você implantar um agente em um desses locais, também precisará solicitar e
 
 5. Na página Configuração do Grupo de Gerenciamento, selecione Especificar informações **do Grupo de Gerenciamento** e clique em **Próximo.**
 
-6. Na página Configuração do Grupo de Gerenciamento, digite  o nome do seu Grupo de Gerenciamento do Operations Manager na caixa Nome do Grupo de Gerenciamento  e digite o nome de host do seu servidor do Operations Manager (por exemplo, atl-scom-001) na caixa Servidor de Gerenciamento. Se você alterou o número da porta usado pelo Operations Manager, insira o novo número da porta na caixa **Porta do Servidor de** Gerenciamento. Caso contrário, deixe a porta com o valor padrão de 5723 e clique em **Próximo.**
+6. Na página Configuração do Grupo de Gerenciamento, digite  o nome do seu Grupo de Gerenciamento do Operations Manager na caixa Nome do Grupo de Gerenciamento  e digite o nome de host do seu servidor do Operations Manager (por exemplo, atl-scom-001) na caixa Servidor de Gerenciamento. Se você alterou o número da porta usada pelo Operations Manager, insira o novo número da porta na caixa **Porta do Servidor de** Gerenciamento. Caso contrário, deixe a porta com o valor padrão de 5723 e clique em **Próximo.**
 
 7. Na página Conta de Ação do Agente, selecione **Sistema Local** e clique em **Próximo.**
 
-8. Na página Do Microsoft Update, selecione Não quero usar **o Microsoft Update** e clique em **Próximo.**
+8. Na página do Microsoft Update, selecione Não quero usar **o Microsoft Update** e clique em **Próximo.**
 
 9. Na página Pronto para Instalar, clique em **Instalar**.
 
@@ -66,7 +66,7 @@ Uma lista de todos os agentes do Operations Manager será exibida.
 ## <a name="configuring-the-skype-for-business-server-computer-to-participate-in-system-center-discovery"></a>Configurando o computador do Skype for Business Server para participar do System Center Discovery
 <a name="watcher_node_outside"> </a>
 
-Para garantir que seu novo agente do Skype for Business Server participe do processo de descoberta do System Center Operations Manager, você deve concluir o procedimento a seguir em cada computador em que o console do System Center Operations Manager tiver sido instalado:
+Para garantir que seu novo agente do Skype for Business Server participe do processo de descoberta do System Center Operations Manager, você deve concluir o procedimento a seguir em cada computador onde o console do System Center Operations Manager foi instalado:
 
 1. Na guia Administração, clique em **Agente Gerenciado**.
 

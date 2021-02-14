@@ -33,7 +33,7 @@ Os recursos de voz, vídeo e compartilhamento no Skype for Business Web App exig
 ## <a name="enable-multi-factor-authentication-for-skype-for-business-web-app"></a>Habilitar a autenticação multifa factor para o Skype for Business Web App
 <a name="MFA"> </a>
 
-O Skype for Business Web App, o Aplicativo de Reuniões do Skype e o Skype for Business para Mac suportam a autenticação multifa factor. Além do nome de usuário e da senha, você pode exigir métodos de autenticação adicionais, como cartões inteligentes ou PINs, para autenticar usuários que estão inscritas em redes externas ao entrar em reuniões do Skype for Business. Você pode habilitar a autenticação multifaionária implantando o servidor de federação do AD FS (Serviço de Federação do Active Directory) e habilitando a autenticação passiva no Skype for Business Server. Depois que o AD FS é configurado, os usuários externos que tentam ingressar em reuniões do Skype for Business são apresentados com uma página da Web de autenticação multifato do AD FS que contém o nome de usuário e o desafio de senha, juntamente com quaisquer métodos de autenticação adicionais que você tenha configurado.
+O Skype for Business Web App, o Aplicativo de Reuniões do Skype e o Skype for Business para Mac suportam a autenticação multifa factor. Além do nome de usuário e da senha, você pode exigir métodos de autenticação adicionais, como cartões inteligentes ou PINs, para autenticar usuários que estão inscritas em redes externas ao entrar em reuniões do Skype for Business. Você pode habilitar a autenticação multifabilitar implantando o servidor de federação do Serviço de Federação do Active Directory (AD FS) e habilitando a autenticação passiva no Skype for Business Server. Depois que o AD FS é configurado, os usuários externos que tentam ingressar em reuniões do Skype for Business são apresentados com uma página da Web de autenticação multifato do AD FS que contém o nome de usuário e o desafio de senha, juntamente com quaisquer métodos de autenticação adicionais que você tenha configurado.
 
 > [!IMPORTANT]
 > As considerações a seguir são importantes se você deseja planejar a configuração do AD FS para a autenticação multifator:
@@ -129,7 +129,7 @@ Este procedimento é opcional e se aplica à cu5 do Skype for Business Server 20
    Set-CsWebServiceConfiguration -MeetingUxUseCdn $True
    ```
 
-2. Permitir que a telemetria de registro em log do lado do cliente na página da Web de ingressar na reunião ou no aplicativo Reuniões do Skype seja enviada aos servidores da Microsoft (o comando assume como false).
+2. Permitir que a telemetria de registro em log do lado do cliente na página da Web de ingressar na reunião ou no aplicativo Reuniões do Skype seja enviada aos servidores da Microsoft (o comando assume como falso).
 
    ```powershell
    Set-CsWebServiceConfiguration -MeetingUxEnableTelemetry $True
@@ -137,7 +137,7 @@ Este procedimento é opcional e se aplica à cu5 do Skype for Business Server 20
 
     As informações enviadas à Microsoft estão em conformidade estrita com as práticas de coleta de dados [do Skype for Business.](https://docs.microsoft.com/skypeforbusiness/legal-and-regulatory/data-collection-practices)
 
-3. De definida o tempo final antes de voltar para a experiência do Skype for Business Web App hospedada localmente se a CDN não estiver disponível. O valor padrão é 6 segundos. Se esse valor for definido como 0, não haverá tempo final.
+3. De definida o tempo final antes de voltar para a experiência do Skype for Business Web App hospedada localmente se a CDN não estiver disponível. O valor padrão é 6 segundos. Se esse valor for definido como 0, não haverá tempo livre.
 
    ```powershell
    Set-CsWebServiceConfiguration -JoinLauncherCdnTimeout (New-TimeSpan -Seconds 10)

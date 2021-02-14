@@ -36,7 +36,7 @@ As Atualizações Cumulativas para o cliente de área de trabalho do Lync Server
   
 ## <a name="topology-requirements"></a>Requisitos de topologia
 
-Os clientes são incentivados a implantar a autenticação de dois fatores usando o Skype for Business Server dedicado com Pools de Borda, Diretor e Usuário. Para habilitar a autenticação passiva para usuários, outros métodos de autenticação devem ser desabilitados para outras funções e serviços, incluindo o seguinte:
+Os clientes são fortemente incentivados a implantar a autenticação de dois fatores usando o Skype for Business Server dedicado com Pools de Borda, Diretor e Usuário. Para habilitar a autenticação passiva para usuários, outros métodos de autenticação devem ser desabilitados para outras funções e serviços, incluindo o seguinte:
   
 |**Tipo de configuração**|**Tipo de Serviço**|**Função de servidor**|**Tipo de autenticação a ser desabilitado**|
 |:-----|:-----|:-----|:-----|
@@ -91,7 +91,7 @@ Para evitar a solicitação adicional de credenciais, crie a seguinte entrada do
 
 Quando um usuário entrar no Skype for Business pela primeira vez, ele será solicitado a salvar sua senha. Se selecionada, essa opção permite que o certificado do cliente do usuário seja armazenado no armazenamento de certificados pessoais e as credenciais do Windows do usuário sejam armazenadas no Gerenciador de Credenciais do computador local.
   
-A configuração do Registro **SavePassword** deve ser desabilitada quando o Skype for Business estiver configurado para dar suporte à autenticação de dois fatores. Para impedir que os usuários salvam suas senhas, altere a seguinte entrada do Registro na estação de trabalho local ou use o modelo administrativo do Skype for Business para aplicar a todos os usuários de um determinado pool usando a Política de Grupo:
+A **configuração do Registro SavePassword** deve ser desabilitada quando o Skype for Business estiver configurado para dar suporte à autenticação de dois fatores. Para impedir que os usuários salvam suas senhas, altere a seguinte entrada do Registro na estação de trabalho local ou use o modelo administrativo do Skype for Business para aplicar a todos os usuários de um determinado pool usando a Política de Grupo:
   
     HKEY_CURRENT_USER\Software\Microsoft\Office\15.0\Lync
   

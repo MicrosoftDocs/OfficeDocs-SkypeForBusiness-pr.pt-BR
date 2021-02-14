@@ -1,5 +1,5 @@
 ---
-title: Os usuários visualizam a política de voz
+title: Política de Voz de Exibição de Usuários
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur

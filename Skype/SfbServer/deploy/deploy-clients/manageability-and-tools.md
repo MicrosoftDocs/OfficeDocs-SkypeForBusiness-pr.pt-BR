@@ -100,7 +100,7 @@ Verifique se você usa um KMS para ativar o software. Se for o caso, talvez seja
   
 ## <a name="license-keys"></a>Chaves de licença
 
-O Sistema de Sala do Skype executa o cliente de área de trabalho do Skype for Business em segundo plano. Se o Sistema de Sala do Skype for um membro do domínio, ele descobrirá seu KMS. (e se tiver a Chave KMS de Licenciamento por Volume, ela será ativada automaticamente). O Licenciamento por Volume também fornece uma MAK, que você ins dá ao exibir xxxxx-xxxxx-xxxxx-xxxxx. (Você precisa de acesso à Internet para ativar usando MAK, mas não KMS). Para obter mais informações, consulte a ativação de volume do Office 2013.
+O Sistema de Sala do Skype executa o cliente de área de trabalho do Skype for Business em segundo plano. Se o Sistema de Sala do Skype for um membro do domínio, ele descobrirá seu KMS. (e se tiver a Chave KMS de Licenciamento por Volume, ela será ativada automaticamente). O Licenciamento por Volume também fornece uma MAK, que você ins dá ao exibir xxxxx-xxxxx-xxxxx-xxxxx. (Você precisa de acesso à Internet para ativar usando MAK, mas não KMS). Para obter mais informações, consulte Volume activation of Office 2013.
   
 - Para inserir a chave MAK, vá para a Ferramenta de Licenciamento \> de SRS de Configurações OEM. Clique em Verificar Status. Quando o status diz "o produto não está ativado", insira a chave.
     
@@ -126,7 +126,7 @@ Verifique se a Autoridade de Certificação tem um caminho http para a Lista de 
   
 Instale certificados na configuração administrativa do Sistema de Sala do Skype no Gerenciador de Certificados de Configurações \> do Sistema. Você precisa da AC raiz corporativa para seu certificado interno.
   
-Uma maneira de obter os certificados necessários é descobrir a CA que emitiu seus certificados. Para o Skype for Business Server, em um computador no Skype for Business, clique em Configurações das Ferramentas de \> \> Conferência Discada. Isso abre uma página da Web protegida pela AC que emitiu os certificados internos. Clique no ícone Bloquear na barra de endereços do navegador para exibir um relatório de segurança. Clique em Exibir Certificados e examine a propriedade do Ponto de Distribuição da CRL. O segundo parâmetro CN deve ser o nome do servidor da AC. Agora abra o Windows Explorer para esse endereço \\ \< CA Server Name \> \CertEnroll. Copie os dois arquivos .crl e o arquivo .crt em uma unidade flash e coloque-os no lado esquerdo da placa SMART.
+Uma maneira de obter os certificados necessários é descobrir a CA que emitiu seus certificados. Para o Skype for Business Server, em um computador no Skype for Business, clique em Configurações das Ferramentas de Conferência \> \> Discada. Isso abre uma página da Web protegida pela AC que emitiu os certificados internos. Clique no ícone Bloquear na barra de endereços do navegador para exibir um relatório de segurança. Clique em Exibir Certificados e examine a propriedade do Ponto de Distribuição da CRL. O segundo parâmetro CN deve ser o nome do servidor da AC. Agora abra o Windows Explorer para esse endereço \\ \< CA Server Name \> \CertEnroll. Copie os dois arquivos .crl e o arquivo .crt em uma unidade flash e coloque-os no lado esquerdo da placa SMART.
   
 Importe o arquivo .crt para o Sistema de Sala do Skype na pasta Autoridade de Certificação de Sala Confiável.
   

@@ -1,5 +1,5 @@
 ---
-title: Edição de Configuração de Log de Dispositivo
+title: Edição da Configuração do Log de Dispositivo
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -31,7 +31,7 @@ Você pode adicionar uma configuração de log de dispositivo à página Editar 
   
 ## <a name="tasks-you-can-perform"></a>Tarefas que podem ser executadas
 
-Você pode executar as seguintes tarefas na página **Editar Configuração de Log:**
+É possível executar as seguintes tarefas na página **Editar Configuração de Log:**
   
 - Adicione uma configuração de log de dispositivo globalmente ou para um site específico.
     

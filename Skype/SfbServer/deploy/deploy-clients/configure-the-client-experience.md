@@ -133,10 +133,10 @@ Se a sua organização tiver o Skype for Business Server e o Lync Server implant
 |**Versão do servidor**|**Configuração EnableSkypeUI**|**Experiência do cliente**|
 |:-----|:-----|:-----|
 |Skype para Business Server |Padrão  <br/> |Skype for Business  <br/> |
-|Skype for Business Server  |Verdadeiro.  <br/> |Skype for Business  <br/> |
+|Skype for Business Server  |Verdadeiro  <br/> |Skype for Business  <br/> |
 |Skype for Business Server  |Falso  <br/> |O usuário é solicitado a alternar para o modo Lync (o usuário pode alternar para o Skype for Business posteriormente se você alterar a configuração da interface do usuário para $true)  <br/> |
 |Lync Server 2010 ou Lync Server 2013 (com patches corretos)  <br/> |Padrão  <br/> |O usuário é solicitado a alternar para o modo Lync (o usuário pode alternar para o Skype for Business posteriormente se você alterar a configuração da interface do usuário para $true)  <br/> |
-|Lync Server 2010 ou Lync Server 2013 (com patches corretos)  <br/> |Verdadeiro.  <br/> |Skype for Business  <br/> |
+|Lync Server 2010 ou Lync Server 2013 (com patches corretos)  <br/> |Verdadeiro  <br/> |Skype for Business  <br/> |
 |Lync Server 2010 ou Lync Server 2013 (com patches corretos)  <br/> |Falso  <br/> |O usuário é solicitado a alternar para o modo Lync (o usuário pode alternar para o Skype for Business posteriormente se você alterar a configuração da interface do usuário para $true)  <br/> |
 |Lync Server 2010 ou Lync Server 2013 (sem patches)  <br/> |Padrão  <br/> |Usuário solicitado a alternar para o modo Lync (o usuário não pode alternar para o Skype for Business posteriormente)  <br/> |
    
@@ -145,9 +145,9 @@ A tabela a seguir mostra a experiência do cliente quando o administrador altera
 
 |**Versão do servidor**|**Configuração EnableSkypeUI**|**Interface do usuário do cliente = Lync**|**Interface do usuário do cliente = Skype for Business**|
 |:-----|:-----|:-----|:-----|
-|Skype para Business Server |Verdadeiro.  <br/> |Usuário solicitado a mudar para o Skype for Business  <br/> |Skype for Business  <br/> |
+|Skype para Business Server |Verdadeiro  <br/> |Usuário solicitado a mudar para o Skype for Business  <br/> |Skype for Business  <br/> |
 |Skype for Business Server |Falso  <br/> |Modo Lync  <br/> |Usuário solicitado a alternar para o modo Lync  <br/> |
-|Lync Server 2010 ou Lync Server 2013 (com patches corretos)  <br/> |Verdadeiro.  <br/> |Usuário solicitado a mudar para o Skype for Business  <br/> |Skype for Business  <br/> |
+|Lync Server 2010 ou Lync Server 2013 (com patches corretos)  <br/> |Verdadeiro  <br/> |Usuário solicitado a mudar para o Skype for Business  <br/> |Skype for Business  <br/> |
 |Lync Server 2010 ou Lync Server 2013 (com patches corretos)  <br/> |Falso  <br/> |Modo Lync  <br/> |Usuário solicitado a alternar para o modo Lync  <br/> |
 |Lync Server 2010 ou Lync Server 2013 (sem patches)  <br/> |Padrão  <br/> |Modo Lync (não é possível alternar para o Skype for Business)  <br/> |Modo Lync (não é possível alternar para o Skype for Business)  <br/> |
    
@@ -181,9 +181,9 @@ O procedimento a seguir descreve como modificar o Registro para que a experiênc
     
 7. Na caixa **de diálogo Novas Propriedades do Registro,** atualize o seguinte:
     
-   |**Campo**|**Valor a ser selecionado ou insira**|
+   |**Field**|**Valor a ser selecionado ou insira**|
    |:-----|:-----|
-   |**Ação** <br/> |**Create** <br/> |
+   |**Ação** <br/> |**Criar** <br/> |
    |**Hive** <br/> | HKEY_CURRENT_USER <br/> |
    |**Caminho da chave** <br/> |Software\Microsoft\Office\Lync  <br/> |
    |**Value name** <br/> |EnableSkypeUI  <br/> |

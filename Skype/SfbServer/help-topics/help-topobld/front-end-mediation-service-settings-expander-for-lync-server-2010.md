@@ -26,7 +26,7 @@ ms.locfileid: "49807051"
  
 Edite as propriedades das configurações do **Gateway PSTN do Servidor de Mediação** nesta caixa de diálogo. Defina as seguintes configurações:
   
-- Selecione o **Servidor de Mediação** Alocado habilitado se você deseja alocar o Servidor de Mediação com este Servidor de Front End ou pools de Front-End.
+- Selecione o **Servidor de Mediação** Alocado habilitado se você deseja alocar o Servidor de Mediação com este Servidor De Front End ou pools de Front-End.
     
 - **Portas de** escuta: defina as portas nas quais o Servidor de Mediação escutará. É possível definir uma porta para **TLS**, ou transport layer security, ou para **TCP**, ou transport control protocol. Para a entrada da porta TCP ficar disponível, é necessário marcar a caixa de seleção **Habilitar porta TCP**. 
     

@@ -45,6 +45,6 @@ Disable-CsMeetingRoom LRS01 -domaincontroller DC-ND-001.contoso.com
 
 ## <a name="optional-create-a-skype-room-system-administrator-group-in-active-directory"></a>Opcional: criar um grupo de administradores do Sistema de Sala do Skype no Active Directory
 
-Cada cliente do Sistema de Sala do Skype que ingressar no domínio pode ser totalmente gerenciado por um usuário de domínio com direitos de administrador local no PC do dispositivo do Sistema de Sala do Skype. Portanto, você pode criar um grupo de administradores dedicado no Active Directory e dar a esse grupo direitos administrativos durante a configuração da nova máquina do Sistema de Sala do Skype.
+Cada cliente do Sistema de Sala do Skype que ingressar no domínio pode ser totalmente gerenciado por um usuário de domínio com direitos de administrador local no PC do dispositivo do Sistema de Sala do Skype. Portanto, você pode criar um grupo de administradores dedicados no Active Directory e dar a esse grupo direitos administrativos durante a configuração da nova máquina do Sistema de Sala do Skype.
   
 

@@ -52,7 +52,7 @@ A lista a seguir descreve os campos na página.
 
   - **Encaminhar para endereço SIP** Selecione essa opção para encaminhar a chamada para outro usuário. No **endereço SIP,** digite o URI do usuário no formato sip: <username> @ <domainname> .
 
-  - **Encaminhar para outra fila** Se você selecionar essa opção, navegue até a fila que receberá as chamadas quando as chamadas se desem algum tempo.
+  - **Encaminhar para outra fila** Se você selecionar essa opção, navegue até a fila que receberá chamadas quando o tempo de espera das chamadas se passar.
 
 - **Habilitar o estouro da fila** Marque essa caixa de seleção para especificar um número máximo de chamadas que a fila pode segurar. Se você selecionar essa opção, também precisará especificar o seguinte:
 
@@ -72,6 +72,6 @@ A lista a seguir descreve os campos na página.
 
   - **Encaminhar para outra fila** Se você selecionar essa opção, navegue até a fila que receberá chamadas quando o limite de estouro da fila for atendido.
 
-Para obter detalhes sobre recursos e capacidades do Grupo de Resposta, consulte [Plan for the Response Group application in Skype for Business Server](../../../plan-your-deployment/enterprise-voice-solution/response-group.md) na documentação planejamento. Para obter detalhes sobre como trabalhar com filas, consulte [Managing Response Group Queues](https://technet.microsoft.com/library/1e91720c-ab67-4dfb-b30c-0ef2a8012310.aspx) na documentação Operações.
+Para obter detalhes sobre os recursos e capacidades do Grupo de Resposta, consulte [Plan for the Response Group application in Skype for Business Server](../../../plan-your-deployment/enterprise-voice-solution/response-group.md) na documentação planejamento. Para obter detalhes sobre como trabalhar com filas, consulte [Managing Response Group Queues](https://technet.microsoft.com/library/1e91720c-ab67-4dfb-b30c-0ef2a8012310.aspx) na documentação Operações.
 
 

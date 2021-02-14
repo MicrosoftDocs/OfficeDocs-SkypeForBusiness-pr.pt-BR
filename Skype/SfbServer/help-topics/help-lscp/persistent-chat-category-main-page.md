@@ -64,11 +64,11 @@ Para criar uma nova categoria, consulte [Gerenciar categorias no Servidor de Cha
     
 10. Para controlar os carregamentos de arquivo nas salas de chat que pertencem a essa categoria, marque ou desmarque a caixa de seleção **Habilitar carregamento de arquivo**. Se for marcada, as salas dessa categoria poderão habilitar ou desabilitar os carregamentos de arquivo; se for desmarcada, as salas dessa categoria não terão permissão para carregamentos de arquivo.
     
-11. Para controlar o histórico de chat, marque ou des marque a **caixa de seleção Habilitar histórico** de chat. Se for marcada, as salas de chats se tornarão persistentes; caso contrário, as mensagens de chat não serão persistentes. Se a conformidade for habilitada, salas de chats serão salvas em conformidade, mas os usuários não poderão acessar mensagens mais antigas. Essa opção pode ser usada para salas designadas para colaborações ad hoc em tempo real que não precisam persistir no histórico do chat.
+11. Para controlar o histórico de chat, marque ou des limpe a **caixa de seleção Habilitar histórico** de chat. Se for marcada, as salas de chats se tornarão persistentes; caso contrário, as mensagens de chat não serão persistentes. Se a conformidade for habilitada, salas de chats serão salvas em conformidade, mas os usuários não poderão acessar mensagens mais antigas. Essa opção pode ser usada para salas designadas para colaborações ad hoc em tempo real que não precisam persistir no histórico do chat.
     
 12. Em **Editar Categoria**, faça o seguinte:
     
-    - In **Membership**, in the **Allowed members** section, add or remove users and other Active Directory Domain Services principals (users, distribution groups, organizational units, and so on) that are allowed to be added as members of chat rooms belonging to the category. As entidades permitidas por uma categoria podem pesquisar por salas na categoria (a menos que uma sala esteja oculta, caso o qual apenas membros da sala podem pesquisar por ela no diretório).
+    - In **Membership**, in the **Allowed members section,** add or remove users and other Active Directory Domain Services principals (users, distribution groups, organizational units, and so on) that are allowed to be added as members of chat rooms belonging to the category. As entidades permitidas por uma categoria podem pesquisar por salas na categoria (a menos que uma sala esteja oculta, caso o qual apenas membros da sala podem pesquisar por ela no diretório).
     
     - Em **Associação,** na seção **Membros** Negados, adicione ou remova usuários e outras entidades do Active Directory associadas aos membros que estão sendo negados da sala.
     

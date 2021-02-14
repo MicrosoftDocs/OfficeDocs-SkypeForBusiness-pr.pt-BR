@@ -24,7 +24,7 @@ ms.locfileid: "49807941"
 ---
 # <a name="select-enterprise-voice-users"></a>Selecionar Usuários do Enterprise Voice
  
-Use a **caixa de diálogo Selecionar Usuários** do Enterprise Voice para encontrar usuários habilitados para o Enterprise Voice. Na caixa de pesquisa, digite o endereço SIP ou o nome para exibição do usuário que você deseja localizar e clique em **Localizar**. Para selecionar um usuário, clique no usuário na lista de resultados da pesquisa e clique em **OK**. Se você não encontrar o usuário que está procurando, talvez esse usuário não seja habilitado para o Enterprise Voice. 
+Use a **caixa de diálogo Selecionar Usuários** do Enterprise Voice para encontrar usuários habilitados para o Enterprise Voice. Na caixa de pesquisa, digite o endereço SIP ou o nome para exibição do usuário que você deseja localizar e clique em **Localizar**. Para selecionar um usuário, clique no usuário na lista de resultados da pesquisa e clique em **OK**. Se não for possível encontrar o usuário que está procurando, talvez esse usuário não seja habilitado para o Enterprise Voice. 
   
 > [!NOTE]
 > Para recuperar todos os usuários habilitados para o Enterprise Voice, não digite nada na caixa de pesquisa. Você também pode encontrar todos os usuários que possuam os nomes de exibição ou endereços SIP começando com uma certa string. Por exemplo, para encontrar todos os usuários cujo endereço SIP começa com ken, digite sip:ken. Isto retornará usuários tais como sip:kenmyer@fabrikam.com, sip:kenkwok.fabrikam.com e sip:kenmallit@fabrikam.com 

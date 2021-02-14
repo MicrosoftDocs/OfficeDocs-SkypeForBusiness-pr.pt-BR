@@ -35,7 +35,7 @@ Você pode resolver esse problema com as seguintes opções:
   
 - Aponte seu registro SRV de descoberta automática (_sipinternaltls._tcp.contoso.com) para o pool do Lync Server 2013.
     
-- Se a primeira opção não for possível, configure manualmente o LRS e forneça o endereço do pool do Lync Server 2013 configurando-o diretamente no aplicativo de console do Sistema de Sala do Skype. 
+- Se a primeira opção não for possível, você deverá configurar manualmente o LRS e fornecer o endereço do pool do Lync Server 2013 configurando-o diretamente no aplicativo de console do Sistema de Sala do Skype. 
     
 - Se o Sistema de Sala do Skype for implantado fora da rede corporativa e um Servidor de Borda do Lync tiver sido implantado e configurado para apontar para um pool ou diretor herdado, um site secundário do Servidor de Borda será necessário, que aponta para o pool do Lync Server 2013. Consulte a documentação de implantação do Servidor de Borda para obter mais informações sobre como implantar um Servidor de Borda secundário. 
     

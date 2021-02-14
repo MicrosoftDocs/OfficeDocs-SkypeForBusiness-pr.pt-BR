@@ -29,7 +29,7 @@ Você pode ingressar o PC do dispositivo do Sistema de Sala do Skype no domínio
   
 - Ingressar no domínio do PC do dispositivo do Sistema de Sala do Skype ajuda a importar automaticamente a cadeia de certificado raiz privada da sua organização.
     
-- Ingressar no domínio do PC do dispositivo do Sistema de Sala do Skype permite conceder direitos administrativos a usuários de domínio e grupos. Ao fazer isso, você não terá que se lembrar da senha da conta de administrador no nível do computador local.
+- Ingressar no domínio do PC do dispositivo do Sistema de Sala do Skype permite conceder direitos administrativos a usuários e grupos de domínio. Ao fazer isso, você não terá que se lembrar da senha da conta de administrador no nível do computador local.
     
 - Ao ingressar um PC de dispositivo do Sistema de Salas do Skype no domínio, é necessário criar uma Unidade Organizacional (UO) separada para que você possa fornecer exclusões de Objeto de Política de Grupo (GPO) para a UO onde residem todos os objetos da máquina do Sistema de Salas do Skype. Ao fazer isso, crie objetos de máquina na UO antes de ingressar o PC do dispositivo do Sistema de Sala do Skype no domínio.
     
@@ -51,7 +51,7 @@ Você pode ingressar o PC do dispositivo do Sistema de Sala do Skype no domínio
     
   - Push Windows Update to Skype Room System
     
-- Como alternativa, você pode optar por deixar o PC do dispositivo no grupo de trabalho. Assim como no cliente do Skype for Business para área de trabalho, isso exige que você importe manualmente a cadeia de certificado raiz no PC do dispositivo do Sistema de Sala do Skype. Você não é obrigado a importar a cadeia de certificado raiz se sua implantação do Skype for Business estiver usando um certificado público (por exemplo, DiadePondo, VeriSign e assim por diante). 
+- Como alternativa, você pode optar por deixar o PC do dispositivo no grupo de trabalho. Assim como no cliente do Skype for Business para área de trabalho, isso exige que você importe manualmente a cadeia de certificado raiz no PC do dispositivo do Sistema de Sala do Skype. Você não será obrigado a importar a cadeia de certificado raiz se a implantação do Skype for Business estiver usando um certificado público (por exemplo, Suspensão, VeriSign e assim por diante). 
     
 Se você planeja ingressar máquinas do Sistema de Sala do Skype no domínio, para evitar ingressar inadvertidamente na máquina do Sistema de Sala do Skype em uma UO não intencional, que pode não estar livre de GPOs, certifique-se de ingressar na UO correta. Você pode usar o seguinte cmdlet da máquina do Sistema de Sala do Skype para ingressar na UO correta e não recebe GPOs que podem bloquear a funcionalidade do LRS. Entre em contato com o administrador do sistema ou com o parceiro OEM para executar estes cmdlets:
   

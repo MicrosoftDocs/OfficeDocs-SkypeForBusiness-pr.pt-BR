@@ -26,7 +26,7 @@ Leia este tópico para saber como implantar o Sistema de Sala do Skype em um amb
 > [!NOTE]
 > Para implantar em várias florestas, o Sistema de Sala do Skype requer o Exchange Server 2013 CU6 lançado em 26 de agosto de 2014. Evite re-usar uma caixa de correio existente para o Sistema de Sala do Skype. Use uma nova caixa de correio de recurso (excluir a caixa de correio antiga e re-criar) para o Sistema de Sala do Skype. Para restaurar as reuniões perdidas pela exclusão da caixa de correio, consulte [Conectar ou restaurar uma caixa de correio excluída.](https://technet.microsoft.com/library/jj863438%28v=exchg.150%29.aspx) 
   
-Depois de criar a caixa de correio, você pode Set-CalendarProcessing para configurar a caixa de correio. Consulte as etapas 3 a 6 em Implantações locais de floresta única para obter mais detalhes. Depois de criar uma caixa de correio de Recurso do Exchange para o Sistema de Sala do Skype, habilita a conta do Skype for Business seguindo as etapas em Habilitar contas do Sistema de Sala do Skype para Skype for Business em implantações locais de floresta única.
+Depois de criar a caixa de correio, você pode Set-CalendarProcessing para configurar a caixa de correio. Consulte as etapas 3 a 6 em Implantações locais de floresta única para obter mais detalhes. Depois de criar uma caixa de correio de Recurso do Exchange para o Sistema de Sala do Skype, habilita a conta do Skype for Business seguindo as etapas em Habilitar contas do Sistema de Sala do Skype para o Skype for Business em implantações locais de floresta única.
   
 ## <a name="option-1-create-a-new-resource-mailbox"></a>Opção 1: Criar uma nova caixa de correio de recurso
 

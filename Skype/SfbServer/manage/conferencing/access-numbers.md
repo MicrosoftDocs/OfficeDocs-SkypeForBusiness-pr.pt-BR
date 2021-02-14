@@ -29,7 +29,7 @@ Este tópico descreve como exibir, modificar ou excluir números de acesso de co
   
 ## <a name="view-dial-in-conferencing-access-numbers"></a>Exibir números de acesso de conferência discado
 
-Você pode exibir números de acesso à conferência discada usando o Painel de Controle do Skype for Business Server ou o Shell de Gerenciamento do Skype for Business Server.
+Você pode exibir números de acesso de conferência discada usando o Painel de Controle do Skype for Business Server ou o Shell de Gerenciamento do Skype for Business Server.
   
 ### <a name="view-dial-in-access-numbers-by-using-skype-for-business-server-control-panel"></a>Exibir números de acesso discado usando o Painel de Controle do Skype for Business Server
 
@@ -45,7 +45,7 @@ Você pode exibir números de acesso à conferência discada usando o Painel de 
     
 ### <a name="view-dial-in-access-numbers-by-using-skype-for-business-server-management-shell"></a>Exibir números de acesso discado usando o Shell de Gerenciamento do Skype for Business Server
 
-Para exibir informações sobre números de acesso de discagem, use o cmdlet **Get-CsDialInConferencingAccessNumber.**
+Para exibir informações sobre números de acesso discado, use o cmdlet **Get-CsDialInConferencingAccessNumber.**
   
 O comando a seguir retorna uma coleção de todos os números de acesso de conferência discada configurados para uso na organização: 
   

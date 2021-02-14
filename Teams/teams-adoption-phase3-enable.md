@@ -10,7 +10,7 @@ ms.service: msteams
 ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
-description: Leia uma visão geral das etapas que você precisará aprender para dar suporte à habilitação em larga escala do Teams para sua organização.
+description: Leia uma visão geral das etapas que você precisará aprender para dar suporte à ampla habilitação do Teams para sua organização.
 f1.keywords:
 - CSH
 ms.custom:
@@ -30,15 +30,15 @@ ms.locfileid: "49806101"
 ---
 # <a name="microsoft-teams-adoption-phase-3---scale"></a>Fase 3 de adoção do Microsoft Teams - Dimensionamento
 
-Nesta fase, você usará seus aprendizados, equipes de projetos e relacionamentos com participantes, campeões e usuários inserentes para dar suporte à ampla habilitação do Teams para sua organização. Você concluirá as seguintes etapas ao se preparar para o envolvimento empresarial contínuo em relação ao uso do Microsoft Teams por suas organizações:
+Nesta fase, você usará seus aprendizados, equipe de projetos com talentos e relações com participantes, campeões e usuários inserentes para dar suporte à ampla habilitação do Teams para sua organização. Você concluirá as seguintes etapas à medida que se preparar para o envolvimento empresarial contínuo em relação ao uso do Microsoft Teams por suas organizações:
 
-1. Definir resultados e medidas de sucesso.
+1. Defina resultados e medidas de sucesso.
 2. Selecione a estratégia de serviço.
 3. Envolva os participantes.
-4. Criar e iniciar uma campanha de conscientização.
-5. Projetar e iniciar um programa de treinamento.
-6. Entenda as ferramentas de relatório.
-7. Prepare-se para o envolvimento comercial contínuo.
+4. Criar e iniciar uma campanha de reconhecimento.
+5. Criar e iniciar um programa de treinamento.
+6. Compreenda as ferramentas de relatório.
+7. Prepare-se para o envolvimento empresarial contínuo.
 8. Prepare-se para avaliações contínuas de & de adoção.
 
-![Um ícone que representa a próxima etapa ](media/teams-adoption-next-icon.png) Next: [Definir resultados e sucesso](teams-adoption-define-outcomes.md)
+![Um ícone que representa a próxima ](media/teams-adoption-next-icon.png) etapa: [Definir resultados e sucesso](teams-adoption-define-outcomes.md)
