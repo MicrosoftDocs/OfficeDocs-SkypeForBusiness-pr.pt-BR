@@ -105,7 +105,7 @@ Este exemplo está usando um FQDN de carga balanceada de DNS chamado pool.contos
     
 13. Clique em **Número da Porta** e digite **5061**.
     
-14. Clique **em Host oferecendo esse** serviço e digite o FQDN do pool ou servidor Standard Edition.
+14. Clique **em Host oferecendo esse serviço** e digite o FQDN do pool ou servidor Standard Edition.
     
      ![Captura de tela da caixa de diálogo de registro do novo recurso.](../../media/54b1aac5-a2ec-41fe-90c0-02eaeaa9d1b4.png)
   
@@ -115,7 +115,7 @@ Este exemplo está usando um FQDN de carga balanceada de DNS chamado pool.contos
 
 1. Faça logon em um computador cliente do domínio com uma conta que seja membro do grupo Usuários autenticados ou que tenha permissões equivalentes.
     
-2. Clique **em** Iniciar, digite **cmd** e pressione Enter.
+2. Clique **em** Iniciar e digite **cmd** e pressione Enter.
     
 3. Digite **nslookup \<FQDN of the Front End pool\>** ou , e pressione **\<FQDN of the Standard Edition server or single Enterprise Edition server\>** Enter.
     

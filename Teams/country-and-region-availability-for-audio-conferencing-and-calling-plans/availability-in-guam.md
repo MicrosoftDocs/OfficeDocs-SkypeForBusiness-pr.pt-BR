@@ -1,5 +1,5 @@
 ---
-title: Disponibilidade no Guam
+title: Disponibilidade em Guam
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -23,7 +23,7 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Aqui estão os serviços do Microsoft 365 e office 365 para Skype for Business e Microsoft Teams disponíveis para Guam.
+description: Aqui estão os serviços do Microsoft 365 e do Office 365 para Skype for Business e Microsoft Teams disponíveis para Guam.
 ms.openlocfilehash: 611b67e3e69848204da2696cee36daf4f7726389
 ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
@@ -31,11 +31,11 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49814681"
 ---
-# <a name="availability-in-guam"></a>Disponibilidade no Guam
+# <a name="availability-in-guam"></a>Disponibilidade em Guam
 
 [Encontre outro país ou região](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) ou saiba mais sobre a disponibilidade de Audioconferência e planos de chamadas por país e região.
 
-Aqui estão os serviços do Microsoft 365 e office 365 para Skype for Business e Microsoft Teams disponíveis para Guam.
+Aqui estão os serviços do Microsoft 365 e do Office 365 para Skype for Business e Microsoft Teams disponíveis para Guam.
   
 ## <a name="audio-conferencing"></a>Audioconferência
 
@@ -64,15 +64,15 @@ Aqui estão os serviços do Microsoft 365 e office 365 para Skype for Business e
 
 Se os Planos de Chamada não estiverem disponíveis para compra, considere a possibilidade de usar o [Roteamento Direto do Sistema de Telefonia](../direct-routing-landing-page.md). Com o Roteamento Direto, você pode usar o Sistema de Telefonia praticamente com qualquer portadora de telefonia.
    
-## <a name="toll-and-toll-free-numbers-for-services"></a>Números gratuitos e gratuitos para serviços
+## <a name="toll-and-toll-free-numbers-for-services"></a>Números de tarifa tarifada e gratuita para serviços
 
 |**Recurso**|**Detalhes**|
 |:-----|:-----|
 |Para quais capitais ou cidades importantes é possível obter números de chamadas tarifadas?   | Não aplicável <br/> |
 |Há números de chamada tarifada disponíveis?  <br/> |Não <br/> |
-|Os números gratuitos estão disponíveis?  <br/> |Sim  <br/> |
+|Os números de tarifa gratuita estão disponíveis?  <br/> |Sim  <br/> |
    
- Se você quiser obter números de telefone de chamada tarifada e gratuita para Audioconferência, atendimento automático e filas de chamadas, consulte Obter números de telefone de serviço para o Skype for Business e o [Microsoft Teams.](/microsoftteams/getting-service-phone-numbers)
+ Se você quiser obter números de telefone de chamada tarifada e gratuita para audioconferência, atendimento automático e filas de chamadas, consulte Como obter números de telefone de serviço para o Skype for Business e [o Microsoft Teams.](/microsoftteams/getting-service-phone-numbers)
   
 ## <a name="communications-credits"></a>Créditos de Comunicação
 

@@ -25,7 +25,7 @@ ms.locfileid: "49814011"
 
 Esta seção descreve os requisitos de hardware e software para webconferência, conferência de áudio e vídeo (A/V), conferência discda e conferência de mensagens instantâneas (IM). Todos os recursos de conferência são executados em Servidores Front-End; há requisitos adicionais para diferentes tipos de conferência, conforme mostrado no diagrama a seguir.
 
-Por exemplo, se você quiser permitir a conferência discda, será necessário implantar um Servidor de Mediação e um gateway para conexão com a PSTN (rede telefônica pública comutado). Se quiser permitir a webconferência, você precisará garantir que o Skype for Business Server possa se conectar a um Servidor do Office Web Apps. Se você quiser permitir que usuários externos participem de conferências, será necessário implantar um Servidor de Borda.
+Por exemplo, se quiser permitir a conferência discda, você precisará implantar um Servidor de Mediação e um gateway para conexão com a PSTN (rede telefônica pública comutado). Se quiser permitir a webconferência, você precisará garantir que o Skype for Business Server possa se conectar a um Servidor do Office Web Apps. Se você quiser permitir que usuários externos participem de conferências, será necessário implantar um Servidor de Borda.
 
 **Recursos e requisitos de conferência**
 
@@ -101,13 +101,13 @@ Você precisará instalar os seguintes componentes do Skype for Business Server 
 
 - Pelo menos um Servidor de Mediação e pelo menos um gateway PSTN
 
-Para conferência discda, o serviço de Aplicativo, o aplicativo Desconfere e o aplicativo Comunicado de Conferência têm os mesmos requisitos de sistema operacional que os Servidores Front-End. Para obter detalhes, [consulte Server requirements for Skype for Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md).
+Para conferência discda, o serviço de Aplicativo, o aplicativo Desconfere e o aplicativo Comunicado de Conferência têm os mesmos requisitos de sistema operacional que os Servidores Front-End. Para obter detalhes, [consulte Requisitos de servidor para o Skype for Business Server 2015.](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md)
 
 O aplicativo Atendente de Conferência e o aplicativo Comunicado de Conferência exigem que o Tempo de Execução do Windows Media Format seja instalado nos Servidores Front-End. O Tempo de Execução do Windows Media Format é necessário para reproduzir arquivos WMA (Áudio do Windows Media) usados para música em espera, nomes gravados e prompts. Se você estiver instalando no Windows Server 2012 ou no Windows Server 2012 R2 (o que recomendamos), será necessário instalar o Microsoft Media Foundation para obter o Windows Media Format Runtime. Se você estiver instalando em qualquer versão do Windows Server antes do Windows 2012, precisará garantir que a Experiência Desktop do Windows está instalada para obter o Tempo de Execução do Windows Media Format.
 
 ### <a name="audio-file-requirements-for-dial-in-conferencing"></a>Requisitos de arquivo de áudio para conferência discado
 
-O Skype for Business Server não dá suporte à personalização de prompts de voz e música para conferência discada. No entanto, se você tiver uma forte necessidade comercial que exija que você altere os arquivos de áudio padrão, consulte o artigo 961177 da Base de Dados de Conhecimento Microsoft, como personalizar [prompts](https://go.microsoft.com/fwlink/p/?linkid=3052&amp;kbid=961177)de voz ou arquivos de música para conferência de áudio discado.
+O Skype for Business Server não dá suporte à personalização de prompts de voz e música para conferência discada. No entanto, se você tiver uma necessidade comercial forte que exija que você altere os arquivos de áudio padrão, consulte o artigo 961177 da Base de Dados de Conhecimento Microsoft, como personalizar [prompts](https://go.microsoft.com/fwlink/p/?linkid=3052&amp;kbid=961177)de voz ou arquivos de música para conferência de áudio discado.
 
 Você também pode usar o utilitário de gerenciamento de Prompts de Voz Personalizados do Microsoft [Lync Server Conferencing Attendant,](https://go.microsoft.com/fwlink/p/?LinkId=396880) que permite que os administradores substituam os prompts de voz padrão usados quando um chamador de telefone entra em uma reunião do Skype for Business com prompts personalizados para fornecer uma experiência de entrada de reunião diferente. Os prompts de voz personalizados podem ser instalados em um servidor Enterprise ou Standard Edition.
 
@@ -123,7 +123,7 @@ O aplicativo Atendente de Conferência e o aplicativo Comunicado de Conferência
 
 ### <a name="user-requirements-for-dial-in-conferencing"></a>Requisitos do usuário para conferência discado
 
-Os usuários de conferências discadas devem ter um número de telefone ou extensão exclusivos atribuídos à respectiva conta. Este requisito oferece suporte à autenticação durante a conferência discada. Os usuários corporativos (ou seja, usuários que possuem credenciais dos Serviços de Domínio active Directory e contas do Skype for Business Server em sua organização) instalam seu número de telefone (ou ramal) e um PIN (número de identificação pessoal) para discar para conferências como um usuário autenticado.
+Os usuários de conferências discadas devem ter um número de telefone ou extensão exclusivos atribuídos à respectiva conta. Este requisito oferece suporte à autenticação durante a conferência discada. Os usuários corporativos (ou seja, usuários que possuem credenciais dos Serviços de Domínio Active Directory e contas do Skype for Business Server em sua organização) instalam seu número de telefone (ou ramal) e um PIN (número de identificação pessoal) para discar para conferências como um usuário autenticado.
 
 ## <a name="port-requirements-for-conferencing"></a>Requisitos de porta para conferência
 
@@ -143,7 +143,7 @@ Para usar os recursos de conferência, o Skype for Business Server exige que cer
 |Servidores Front-End  <br/> |Serviço Skype for Business Server Conferencing Attendant (conferência discada)  <br/> |5072  <br/> |TCP  <br/> |Usada para solicitações SIP de entrada para o Attendant (conferência discda).  <br/> |
 |Servidores Front-End  <br/> |Serviço de compartilhamento de aplicativos do Skype for Business Server  <br/> |5065  <br/> |TCP  <br/> |Usada para solicitações de escuta do SIP de entrada para compartilhamento de aplicativos.  <br/> |
 |Servidores Front-End  <br/> |Serviço de compartilhamento de aplicativos do Skype for Business Server  <br/> |49152-65535  <br/> |TCP  <br/> |Intervalo de porta de mídia usado para compartilhamento de aplicativo.  <br/> |
-|Servidores Front-End  <br/> |Serviço de Comunicado de Conferência do Skype for Business Server  <br/> |5073  <br/> |TCP  <br/> |Usado para solicitações SIP de entrada para o serviço Comunicado de Conferência do Skype for Business Server (ou seja, para conferência discada).  <br/> |
+|Servidores Front-End  <br/> |Serviço de Anúncio de Conferência do Skype for Business Server  <br/> |5073  <br/> |TCP  <br/> |Usado para solicitações SIP de entrada para o serviço Comunicado de Conferência do Skype for Business Server (ou seja, para conferência discada).  <br/> |
 |Todos os servidores internos  <br/> |Vários  <br/> |49152-57500  <br/> |TCP/UDP  <br/> |Intervalo de porta de mídia usado para audioconferência em todos os servidores internos. Usado por todos os servidores que encerram o áudio: Servidores Front End (para o serviço Skype for Business Server Conferencing Attendant, serviço Comunicado de Conferência do Skype for Business Server e serviço de Conferência de Áudio/Vídeo do Skype for Business Server) e Servidor de Mediação.  <br/> |
 |Servidores do Office Web Apps  <br/> ||443  <br/> ||Usado pelo Skype for Business Server para se conectar ao Servidor do Office Web Apps.  <br/> |
 

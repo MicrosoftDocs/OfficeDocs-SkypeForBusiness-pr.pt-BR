@@ -42,7 +42,7 @@ Para definir as configurações de uma configuração de Arquivamento nova ou ex
     
   - **Configuração do site** A lista contém os sites disponíveis em sua implantação. Clique em um único site para selecioná-lo. Por exemplo, Redmond Data Center.
     
-  - **Configuração do pool** Especifique um nome apropriado, que pode ser o nome de um pool de front-end específico ou servidor Standard Edition em sua implantação. Por exemplo, Divisão de Marketing.
+  - **Configuração de pool** Especifique um nome apropriado, que pode ser o nome de um pool de front-end específico ou servidor Standard Edition em sua implantação. Por exemplo, Divisão de Marketing.
     
 - **Descrição** Isso é opcional. Use-o para fornecer detalhes adicionais, como o escopo ou o uso da configuração. Por exemplo, Coordenação com os Departamentos jurídicos de outros sites.
     
@@ -54,7 +54,7 @@ Para definir as configurações de uma configuração de Arquivamento nova ou ex
     
   - **Desabilitar arquivamento**
     
-- **Bloquear mensagens instantâneas (IM) ou sessões de webconferência se o arquivamento falhar** As falhas incluem o seguinte:
+- **Bloquear sessões de IM (mensagens instantâneas) ou webconferência se o arquivamento falhar** As falhas incluem o seguinte:
     
   - **Uma falha de IM** pode ser um banco de dados completo ou um problema com o serviço de armazenamento. Neste caso, as mensagens instantâneas são bloqueadas para os usuários que estiverem habilitados para arquivamento.
     
@@ -71,7 +71,7 @@ Para definir as configurações de uma configuração de Arquivamento nova ou ex
   - Purging after the archiving data has been exported (which includes data that has been uploaded to Exchange, if you enable Microsoft Exchange integration).
     
     > [!NOTE]
-    > Se você habilitar a integração com o Microsoft Exchange, a purgação para usuários que estão localizados no Exchange e com suas caixas de correio colocadas em In-Place De espera será controlada pelo Exchange. A única exceção é para arquivos de conferência, que são armazenados no compartilhamento de arquivos do Lync Server. Esses arquivos são limpos do compartilhamento de arquivos somente depois que os arquivos foram exportados (carregados para o Exchange), se você selecionar a opção para limpar dados após os dados de arquivamento foram exportados ou após o número máximo especificado de dias, se você especificar um número máximo de dias para retenção. 
+    > Se você habilitar a integração com o Microsoft Exchange, a purgação para usuários que estão localizados no Exchange e com suas caixas de correio colocadas em In-Place De espera será controlada pelo Exchange. A única exceção é para arquivos de conferência, que são armazenados no Lync Server File Share. Esses arquivos são limpos do compartilhamento de arquivos somente depois que os arquivos foram exportados (carregados para o Exchange), se você selecionar a opção para limpar dados após os dados de arquivamento foram exportados ou após o número máximo especificado de dias, se você especificar um número máximo de dias para retenção. 
   
 Para obter detalhes sobre os recursos de Arquivamento, incluindo a integração com o Exchange, consulte [Plan for archiving in Skype for Business Server](../../../plan-your-deployment/archiving/archiving.md), Deploy [archiving for Skype for Business Server](../../../deploy/deploy-archiving/deploy-archiving.md), and Manage [archiving in Skype for Business Server](../../../manage/archiving/archiving.md).
 

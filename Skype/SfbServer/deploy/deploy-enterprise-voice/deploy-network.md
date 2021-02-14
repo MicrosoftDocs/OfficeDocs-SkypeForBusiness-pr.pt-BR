@@ -27,7 +27,7 @@ ms.locfileid: "49812431"
 
 Criar ou modificar regiões de rede, sites de rede e associar sub-redes no Skype for Business Server. Todos eles são usados para os recursos avançados do Enterprise Voice: bypass de mídia, controle de admissão de chamadas e roteamento baseado em local.
 
-Os recursos avançados do Enterprise Voice são [controle](../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md)de admissão de [chamadas,](../../plan-your-deployment/enterprise-voice-solution/location-based-routing.md) [bypass](../../plan-your-deployment/enterprise-voice-solution/media-bypass.md)de mídia, roteamento baseado em local e [E9-1-1](../../plan-your-deployment/enterprise-voice-solution/emergency-services.md). Todos esses recursos exigem que você crie regiões de rede, sites de rede e sub-redes. Por exemplo, todos esses recursos exigem que cada sub-rede em sua topologia seja associada a um local de rede específico, e cada site de rede deve ser associado a uma região de rede. Para obter mais informações sobre esses termos, consulte Configurações de rede para os recursos avançados [do Enterprise Voice no Skype for Business Server.](../../plan-your-deployment/enterprise-voice-solution/network-settings-for-advanced-features.md)
+Os recursos avançados do Enterprise Voice são [controle](../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md)de admissão de [chamadas, bypass](../../plan-your-deployment/enterprise-voice-solution/media-bypass.md)de [mídia,](../../plan-your-deployment/enterprise-voice-solution/location-based-routing.md)roteamento baseado em local e [E9-1-1](../../plan-your-deployment/enterprise-voice-solution/emergency-services.md). Todos esses recursos exigem que você crie regiões de rede, sites de rede e sub-redes. Por exemplo, todos esses recursos exigem que cada sub-rede em sua topologia seja associada a um local de rede específico, e cada site de rede deve ser associado a uma região de rede. Para obter mais informações sobre esses termos, consulte Configurações de rede para os recursos avançados [do Enterprise Voice no Skype for Business Server.](../../plan-your-deployment/enterprise-voice-solution/network-settings-for-advanced-features.md)
 
 O controle de admissão de chamada e o E9-1-1 têm requisitos de configuração adicionais para sites de rede:
 
@@ -178,7 +178,7 @@ Se você já criou sites de rede para um desses recursos, não é necessário cr
 
 ### <a name="to-modify-a-network-site-by-using-skype-for-business-server-management-shell"></a>Para modificar um site de rede usando o Shell de Gerenciamento do Skype for Business Server
 
-1. Inicie o Shell de Gerenciamento do Skype for Business Server: Clique em **Iniciar,** Em Todos os **Programas,** no **Skype for Business 2015** e, em seguida, clique no Shell de Gerenciamento do **Skype for Business Server.**
+1. Inicie o Shell de Gerenciamento do Skype for Business Server: clique em **Iniciar,** em Todos os **Programas,** no **Skype for Business 2015** e, em seguida, clique no Shell de Gerenciamento do **Skype for Business Server.**
 
 2. Execute o cmdlet Set-CsNetworkSite para modificar os sites de rede:
 
@@ -226,7 +226,7 @@ Todos os endereços IP públicos configurados dos Servidores de Borda de Áudio/
 
 ### <a name="to-associate-a-subnet-with-a-network-site-by-using-skype-for-business-server-management-shell"></a>Para associar uma sub-rede a um site de rede usando o Shell de Gerenciamento do Skype for Business Server
 
-1. Inicie o Shell de Gerenciamento do Skype for Business Server: Clique em **Iniciar,** Em Todos os **Programas,** no **Skype for Business 2015** e, em seguida, clique no Shell de Gerenciamento do **Skype for Business Server.**
+1. Inicie o Shell de Gerenciamento do Skype for Business Server: clique em **Iniciar,** em Todos os **Programas,** no **Skype for Business 2015** e, em seguida, clique no Shell de Gerenciamento do **Skype for Business Server.**
 
 2. Execute o cmdlet **New-CsNetworkSubnet** para associar uma sub-rede a um site da rede:
 
@@ -258,7 +258,7 @@ Todos os endereços IP públicos configurados dos Servidores de Borda de Áudio/
 
      `172.11.15.0, 31, "EMEA:Subnet in Paris", Paris`
 
-2. Inicie o Shell de Gerenciamento do Skype for Business Server: Clique em **Iniciar,** Em Todos os **Programas,** no **Skype for Business 2015** e, em seguida, clique no Shell de Gerenciamento do **Skype for Business Server.**
+2. Inicie o Shell de Gerenciamento do Skype for Business Server: clique em **Iniciar,** em Todos os **Programas,** no **Skype for Business 2015** e, em seguida, clique no Shell de Gerenciamento do **Skype for Business Server.**
 
 3. Execute o seguinte cmdlet para importar **subnet.csv** e armazene seu conteúdo no armazenamento de gerenciamento do Lync Server:
 

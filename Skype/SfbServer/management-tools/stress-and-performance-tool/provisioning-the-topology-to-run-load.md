@@ -1,5 +1,5 @@
 ---
-title: Provisionamento da topologia para executar a carga em cenários de Stress and Performance
+title: Provisionando a topologia para executar a carga em cenários de Stress and Performance
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -27,7 +27,7 @@ Alterações ou provisionamento da topologia do Skype for Business Server 2015 p
   
 Dependendo das configurações existentes para sua implantação do Skype for Business Server 2015, talvez seja necessário fazer algumas alterações em seu ambiente. A seguir está uma lista dessas alterações:
   
-1. Definir a política de execução do Windows PowerShell como Irrestrito. Se você não tiver certeza para o que ele está definido no momento, poderá abrir o Shell de Gerenciamento do Skype for Business Server e executar este comando:
+1. Definir a política de execução do Windows PowerShell como Irrestrita. Se você não tiver certeza para o que ele está definido no momento, poderá abrir o Shell de Gerenciamento do Skype for Business Server e executar este comando:
     
    ```PowerShell
    Get-ExecutionPolicy

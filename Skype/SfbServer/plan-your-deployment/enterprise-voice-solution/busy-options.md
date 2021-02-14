@@ -68,7 +68,7 @@ Opções de ocupado fornece interoperabilidade com os seguintes aplicativos de v
     
   - Opções de Ocupado definidas nos números do Grupo de Resposta serão ignoradas pelo sistema; várias chamadas simultâneas serão permitidas. 
     
-  - A experiência de roteamento do Attendant atual nos Grupos de Resposta permanecerá inalterada para os Agentes com as configurações de Opções de Ocupado.
+  - A experiência de roteamento atual do Attendant nos Grupos de Resposta permanecerá inalterada para os Agentes com as configurações de Opções de Ocupado.
     
   - As chamadas provenientes dos Grupos de Resposta para os usuários que são Agentes de Grupos de Resposta não serão aceleradas pelas configurações de Opções de Ocupado e a experiência atual do RGS será mantida.
     
@@ -88,13 +88,13 @@ Opções de ocupado fornece interoperabilidade com os seguintes aplicativos de v
     
   - A experiência atual de Delegação de Chefe/Administrador permanecerá inalterada com as Opções de Ocupado definidas para Administradores ou Chefe.
     
-  - As chamadas não relacionadas à Delegação de Chefe/Administrador para Administradores serão acodidas pelas configurações de Opções de Ocupado.
+  - As chamadas não relacionadas à Delegação de Chefe/Administrador para Administradores serão acovadas pelas configurações de Opções de Ocupado.
     
 - Aparência de linha compartilhada 
     
   - As configurações de Opções de Ocupado em contas de usuário configuradas para Aparência de Linha Compartilhada serão ignoradas. 
     
-  - Em vez disso, as opções de Ocupado Ocupado quando Ocupado e Caixa Postal quando Ocupado da Aparência de Linha Compartilhada serão adefadas.
+  - Em vez disso, as opções de Ocupado ocupado quando ocupado e caixa postal quando ocupado da Aparência de linha compartilhada serão a vontade.
     
 - Serviço de Estacionamento de Chamada 
     

@@ -41,7 +41,7 @@ Para configurar os complementos para salas de chat usando o Painel de Controle:
     
 3. Na barra de navegação esquerda, clique em **Chat Persistente** e clique em **Suplemento**.
     
-    Para várias implantações de pool de Servidor de Chat Persistente, selecione o pool apropriado na lista drop-down.
+    Para várias implantações de pool de Servidor de Chat Persistente, selecione o pool apropriado na lista lista.
     
 4. Na página **Suplementos**, clique em **Novo**.
     

@@ -25,9 +25,9 @@ ms.locfileid: "49814371"
   
 No Skype for Business Server, uma conferência PSTN é qualquer conferência na qual pelo menos um participante disca para a parte de áudio usando um telefone PSTN (rede telefônica pública comutado). (Um telefone PSTN é uma "linha fixa", um telefone celular ou qualquer outro telefone que não use o Voice over IP.) Embora referidas como conferências PSTN nos Relatórios de Monitoramento, essas conferências são talvez mais comumente conhecidas como conferências discadas.
   
-O Relatório de Resumo de Conferências PSTN fornece informações sobre todas as conferências PSTN realizadas em sua organização (ou seja, todas as conferências que tinham pelo menos um usuário discado). O relatório inclui informações sobre o número total de conferências PSTN, o número total de pessoas que participaram dessas conferências e, talvez, o mais importante, o número total de usuários discados (a métrica total de participantes da PSTN).
+O Relatório de Resumo de Conferências PSTN fornece informações sobre todas as conferências PSTN realizadas em sua organização (ou seja, todas as conferências que tinham pelo menos um usuário discado). O relatório inclui informações sobre o número total de conferências PSTN, o número total de pessoas que participaram dessas conferências e, talvez, o mais importante, o número total de usuários discados (a métrica Total de participantes PSTN).
   
-## <a name="accessing-the-pstn-conference-summary-report"></a>Acessando o Relatório de Resumo de Conferências PSTN
+## <a name="accessing-the-pstn-conference-summary-report"></a>Acessando o Relatório de Resumo de ConferênciaS PSTN
 
 O Relatório de Resumo de ConferênciaS PSTN só pode ser acessado a partir da página inicial dos Relatórios de Monitoramento. Este relatório não está vinculado a nenhum outro relatório. Observe que não é possível recuperar informações de chamada detalhadas para uma conferência PSTN, em parte porque os pontos de extremidade individuais são responsáveis por enviar essas informações. Os telefones PSTN não são capazes de rastrear ou enviar informações de detalhes de chamada.
   
@@ -79,7 +79,7 @@ A tabela a seguir lista as informações do Relatório de Resumo de Conferência
 |**Total de conferências PSTN** <br/> |Não  <br/> |Número total de conferências que permitiram acesso discado.  <br/> |
 |**Total de participantes** <br/> |Não  <br/> |Número total de pessoas que participaram de conferências que permitiram acesso discado.  <br/> |
 |**Total de minutos da conferência A/V** <br/> |Não  <br/> |Quantidade total de tempo de conferência de áudio/visual.  <br/> |
-|**Total de minutos do participante da conferência A/V** <br/> |Não  <br/> |Quantidade total de tempo do participante áudio/visual. Por exemplo, se um participante passou cinco minutos em uma conferência A/V e outro passou três minutos na mesma conferência, o tempo total de participantes da conferência A/V seria oito minutos.  <br/> |
+|**Total de minutos do participante da conferência A/V** <br/> |Não  <br/> |Quantidade total de tempo do participante audiovisual. Por exemplo, se um participante passou cinco minutos em uma conferência A/V e outro passou três minutos na mesma conferência, o tempo total de participantes da conferência A/V seria oito minutos.  <br/> |
 |**Total de participantes PSTN** <br/> |Não  <br/> |Número total de usuários que discam para conferências que permitiram acesso discado.  <br/> |
 |**Total de minutos de participantes PSTN** <br/> |Não  <br/> |Quantidade total de tempo de conferência gasto por usuários discados. Por exemplo, se um participante discado passou cinco minutos em uma conferência e outro passou três minutos na mesma conferência, o tempo total de participantes PSTN seria oito minutos.  <br/> |
 |**Organizadores exclusivos da conferência** <br/> |Não  <br/> |Número total de usuários que organizaram pelo menos uma conferência que permitiu acesso discado. Os usuários que organizaram mais de uma conferência são contados como um organizador exclusivo, assim como os usuários que só organizaram uma única conferência.  <br/> |

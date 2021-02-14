@@ -27,7 +27,7 @@ ms.locfileid: "49813471"
 
 Planejamento de grupos de resposta no Skype for Business Server Enterprise Voice, que permite configurar o roteamento de chamadas para grupos de usuários. Inclui requisitos de arquivo de áudio.
 
-Se sua organização tiver grupos de pessoas que respondem e gerenciam determinados tipos de chamadas, como para atendimento ao cliente, suporte técnico interno ou suporte por telefone geral para um departamento, você pode implantar o aplicativo Grupo de Resposta para gerenciar esses tipos de chamadas. O aplicativo Grupo de Resposta encaminha e enfilros chamadas de entrada para pessoas designadas, que são conhecidas como agentes. Você pode aumentar o uso de serviços de suporte telefônico e reduzir a sobrecarga de execução desses serviços usando grupos de resposta.
+Se sua organização tiver grupos de pessoas que respondem e gerenciam determinados tipos de chamadas, como para atendimento ao cliente, suporte técnico interno ou suporte por telefone geral para um departamento, você pode implantar o aplicativo Grupo de Resposta para gerenciar esses tipos de chamadas. O aplicativo Grupo de Resposta encaminha e enfilros chamadas de entrada para pessoas designadas, que são conhecidas como agentes. Você pode aumentar o uso de serviços de suporte telefônico e reduzir a sobrecarga de executar esses serviços usando grupos de resposta.
 
 Quando um chamador chama um grupo de resposta, a chamada é roteada para um agente com base em um grupo de busca ou mas respostas do chamador para as perguntas de IVR (resposta de voz interativa). O aplicativo Grupo de Resposta usa métodos de roteamento de grupo de resposta padrão para rotear a chamada para o próximo agente disponível. Os métodos de roteamento de chamada suportados incluem serial, ocioso por mais tempo, paralelo, round robin e roteamento do Attendant (ou seja, todos os agentes são chamados ao mesmo tempo para cada chamada de entrada, independentemente de sua presença atual).
 
@@ -56,7 +56,7 @@ Para acomodar a função Gerente, o aplicativo Grupo de Resposta usa **um** Tipo
 
 |**Tipo de grupo de respostas**|**Descrição**|
 |:-----|:-----|
-|Não-managed  <br/> | Os grupos de respostas não gerenciados não têm gerentes atribuídos. Somente o Administrador do Grupo de Resposta pode configurar esses grupos de resposta. <br/>  Vários grupos de respostas não gerenciados podem compartilhar uma fila ou grupo de agentes. <br/>  Quando você migra grupos de resposta de uma versão anterior para o Skype for Business Server, o tipo é definido como Não-Managed. <br/> |
+|Não-managed  <br/> | Os grupos de respostas não gerenciados não têm gerentes atribuídos. Somente o Administrador do Grupo de Resposta pode configurar esses grupos de resposta. <br/>  Vários grupos de respostas não gerenciados podem compartilhar uma fila ou grupo de agentes. <br/>  Quando você migra grupos de resposta de uma versão anterior para o Skype for Business Server, o tipo é definido como NãoManaged. <br/> |
 |Gerenciado  <br/> | Os Administradores do Grupo de Resposta podem configurar qualquer aspecto dos grupos de resposta gerenciados. <br/>  Gerentes do Grupo de Resposta não podem exibir ou modificar grupos de resposta que não estão explicitamente atribuídos a eles. <br/>  Gerentes do Grupo de Resposta podem definir apenas algumas configurações para os grupos de resposta que são explicitamente atribuídos a eles. <br/>  Os grupos de respostas gerenciados não podem compartilhas filas nem grupos de agentes com outros grupos de respostas, sejam gerenciados ou não gerenciados. <br/> |
 
 A tabela a seguir descreve as ações que os Gerentes do Grupo de Resposta podem e não podem executar para os grupos de resposta atribuídos a eles.
@@ -90,7 +90,7 @@ O aplicativo Grupo de Resposta tem os mesmos requisitos de hardware, requisitos 
 
 Se você usar arquivos Windows Media Audio (.wma) para música e comunicados do Grupo de Resposta, todos os Servidores Front End ou servidores Standard Editions que executam o aplicativo Grupo de Resposta deverão ter o Tempo de Execução do Windows Media Format instalado para servidores que executam o Windows Server 2008 R2 ou o Microsoft Media Foundation para servidores que executam o Windows Server 2012 ou o Windows Server 2012 R2. Para o Windows Server 2008 R2, o Windows Media Format Runtime é instalado como parte da Experiência Desktop do Windows.
 
-O Grupo de Resposta **usa pacotes de idiomas para** dar suporte a texto em fala e reconhecimento de fala. Essas tecnologias de fala são usadas ao configurar mensagens, como a mensagem de boas-vindas e outros prompts, e questões e respostas de IVR (resposta interativa de voz). Por padrão, os 26 pacotes de idiomas com suporte são instalados quando você implanta o Skype for Business Server.
+O Grupo de Resposta **usa pacotes de idiomas** para dar suporte a reconhecimento de fala e de texto em fala. Essas tecnologias de fala são usadas ao configurar mensagens, como a mensagem de boas-vindas e outros prompts, e questões e respostas de IVR (resposta interativa de voz). Por padrão, os 26 pacotes de idiomas com suporte são instalados quando você implanta o Skype for Business Server.
 
 ### <a name="port-requirements"></a>Requisitos de porta
 

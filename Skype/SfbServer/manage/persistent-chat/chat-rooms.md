@@ -31,13 +31,13 @@ Criar e gerenciar salas de chat é muito mais fácil com o uso correto de catego
 
 Você pode configurar e gerenciar salas de chat usando a interface de linha de comando do Windows PowerShell ou usando o cliente Skype for Business se você for membro da sala de chat. Este tópico descreve como gerenciar salas de chat usando a interface de linha de comando do Windows PowerShell. Se você quiser gerenciar salas de chat usando o cliente Skype for Business, consulte a ajuda do cliente. 
   
-As salas de chat podem ser de dois tipos: Normal e Auditório. Uma sala de chat Normal permite que todos os membros postem e leiam mensagens. Um Auditório é um tipo de sala de chat onde apenas Apresentadores podem postar, mas todos podem ler.
+As salas de chat podem ser de dois tipos: Normal e Auditório. Uma sala de chat Normal permite que todos os membros postem e leiam mensagens. Um Auditório é um tipo de sala de chat onde somente Apresentadores podem postar, mas todos podem ler.
   
 Quem pode acessar e gerenciar salas de chat depende das funções de usuário da seguinte forma:
   
 - Os usuários devem ser membros de uma sala de chat para serem capazes de postar e ler mensagens.
     
-- Os apresentadores podem postar em salas auditórios.
+- Os apresentadores têm permissão para postar em salas de Auditório.
     
 - Os administradores podem excluir qualquer conteúdo (por exemplo, conteúdo postado antes de determinada data) de qualquer sala de char para impedir que o banco de dados assuma proporções muito grandesm. Os administradores também podem remover ou substituir mensagens consideradas inadequadas para uma sala de chat específica.
     
@@ -175,7 +175,7 @@ Remove-CsPersistentChatMessage -Identity "atl-persistentchat-001.contoso.com\ITC
 
 Você pode remover uma sala usando o cmdlet **Remove-CsPersistentChatRoom.**
   
-Por exemplo, o seguinte comando remove a sala de chat RedmondChatRoom:
+Por exemplo, o comando a seguir remove a sala de chat RedmondChatRoom:
   
 ```PowerShell
 Remove-CsPersistentChatRoom -Identity "atl-gc-001.contoso.com\RedmondChatRoom"

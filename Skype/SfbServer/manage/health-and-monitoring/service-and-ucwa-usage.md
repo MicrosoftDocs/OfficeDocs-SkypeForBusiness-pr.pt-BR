@@ -21,10 +21,10 @@ ms.locfileid: "49814241"
 ---
 # <a name="monitor-mobility-service-and-ucwa-usage-in-skype-for-business-server"></a>Monitorar o uso do Serviço de Mobilidade e do UCWA no Skype for Business Server
  
-**Resumo:** Gerencie o Serviço de Mobilidade (Mcx) e a Unified Communications Web API (UCWA) no Skype for Business Server.
+**Resumo:** Gerencie o Mobility Service (Mcx) e a Unified Communications Web API (UCWA) no Skype for Business Server.
 
 > [!NOTE]
-> O suporte a MCX (Mobility Service) para clientes móveis herdado não está mais disponível no Skype for Business Server 2019. Todos os clientes móveis atuais do Skype for Business já usam o Unified Communications Web API (UCWA) para dar suporte a mensagens instantâneas (IM), presença e contatos. Os usuários com clientes herddos usando o MCX precisarão atualizar para um cliente atual.
+> O suporte a MCX (Mobility Service) para clientes móveis herdado não está mais disponível no Skype for Business Server 2019. Todos os clientes móveis atuais do Skype for Business já usam o Unified Communications Web API (UCWA) para dar suporte a mensagens instantâneas (IM), presença e contatos. Os usuários com clientes herddos usando MCX precisarão atualizar para um cliente atual.
   
 Você deve monitorar continuamente a CPU e a memória usada pelo Serviço de Mobilidade do Skype for Business Server (Mcx) e pela UNIFIED Communications Web API (UCWA). Para monitorar o uso, você pode usar o seguinte:
   
@@ -32,7 +32,7 @@ Você deve monitorar continuamente a CPU e a memória usada pelo Serviço de Mob
   
 - O processo de trabalho do **LyncUcwa** no Gerenciador do Serviços de Informações da Internet (IIS). No painel **Processos de** Trabalho, veja a % **da CPU** e as colunas **Bytes Particulares (KB)** (memória).
     
-- Os **contadores** de desempenho **da** CPU e do processador.
+- Os **contadores de** desempenho **da** CPU e do processador.
     
 Para a maioria das implantações, o uso da CPU do UCWA deve estar abaixo de 15% em média. O uso de memória deve estar dentro dos limites descritos no Monitor para limites de capacidade de memória do [servidor no Skype for Business Server.](server-memory-capacity-limits.md)
   
@@ -40,7 +40,7 @@ Além dos contadores de uso da CPU e da memória, você pode usar os seguintes c
   
 - **LS:WEB - Throttling and Authentication\WEB - Total Requests in Processing**, que indica o número de solicitações web pendentes no servidor. Quando esse contador atingir 10.000, as solicitações subsequentes falharão, com a mensagem de erro "503 - Serviço Indisponível".
     
-- **ASP.NET\Solicitações na Fila** (deve sempre ser zero).
+- **ASP.NET\Solicitações na Fila** (sempre deve ser zero).
     
 > [!NOTE]
 > Se você atender ou exceder esses valores, revisite e re compute seu planejamento de capacidade para o reavaliamento correto da CPU, número de núcleos e memória para os computadores que hospedam os serviços Web. 
@@ -49,7 +49,7 @@ Além dos contadores de uso da CPU e da memória, você pode usar os seguintes c
   
 - Os **processos de trabalho CSIntMcxAppPool** e **CSExtMcxAppPool** no Gerenciador do IIS (Serviços de Informações da Internet). No painel **Processos de** Trabalho, veja a % **da CPU** e as colunas **Bytes Particulares (KB)** (memória).
     
-- Os **contadores** de desempenho **da** CPU e do processador.
+- Os **contadores de** desempenho **da** CPU e do processador.
     
 Para a maioria das implantações, o uso da CPU do Mobility Service deve estar abaixo de 15%, em média. O uso de memória deve estar dentro dos limites descritos no Monitor para limites de capacidade de memória do [servidor no Skype for Business Server.](server-memory-capacity-limits.md)
   
@@ -57,13 +57,13 @@ Além dos contadores de uso da CPU e da memória, você pode usar os seguintes c
   
 - **ASP.NET v2.0.50727\Solicitações** Atuais , que indica o número de solicitações da Web pendentes no servidor. Quando esse contador atingir 5.000, as solicitações subsequentes falharão com a mensagem de erro "503 - Serviço Indisponível".
     
-- **ASP.NET\Solicitações na Fila** (deve sempre ser zero).
+- **ASP.NET\Solicitações na Fila** (sempre deve ser zero).
     
 > [!NOTE]
 > Se você atender ou exceder esses valores, revisite e recompute seu planejamento de capacidade para o reavaliamento correto da CPU, número de núcleos e memória para os computadores que hospedam os serviços Web. 
 
 > [!NOTE]
-> O suporte a MCX (Mobility Service) para clientes móveis herdado não está mais disponível no Skype for Business Server 2019. Todos os clientes móveis atuais do Skype for Business já usam o Unified Communications Web API (UCWA) para dar suporte a mensagens instantâneas (IM), presença e contatos. Os usuários com clientes herddos usando o MCX precisarão atualizar para um cliente atual.
+> O suporte a MCX (Mobility Service) para clientes móveis herdado não está mais disponível no Skype for Business Server 2019. Todos os clientes móveis atuais do Skype for Business já usam o Unified Communications Web API (UCWA) para dar suporte a mensagens instantâneas (IM), presença e contatos. Os usuários com clientes herddos usando MCX precisarão atualizar para um cliente atual.
   
 ## <a name="see-also"></a>Confira também
 

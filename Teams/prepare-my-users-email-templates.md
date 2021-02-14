@@ -1,5 +1,5 @@
 ---
-title: Modelos de email de notificação do usuário para a lançamento do sistema de telefonia online
+title: Modelos de email de notificação do usuário para a adoção do sistema telefônico online
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -8,7 +8,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
 audience: admin
-description: Use modelos para enviar emails aos usuários ao implementar recursos de voz na nuvem no Teams ou no Skype for Business.
+description: Use modelos para enviar emails aos usuários à medida que você implementa recursos de voz na nuvem no Teams ou no Skype for Business.
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -23,15 +23,15 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49812641"
 ---
-# <a name="facilitate-user-adoption-of-your-new-online-phone-system"></a>Facilitar a adoção do usuário do novo sistema de telefonia online
+# <a name="facilitate-user-adoption-of-your-new-online-phone-system"></a>Facilitar a adoção do usuário do seu novo sistema telefônico online
 
-Um telefone pode ser a linha de vida de um usuário. Alternar de um sistema de telefonia tradicional para um sistema de telefonia online representa uma alteração significativa na maneira como os usuários trabalham e pode afetar negativamente a produtividade. O tempo necessário para informar, orientar e dar suporte aos usuários por meio dessa alteração pode ajudar a garantir uma experiência positiva do usuário e maximizar o retorno sobre o investimento.
+Um telefone pode ser a linha de vida de um usuário. Alternar de um sistema telefônico tradicional para um sistema telefônico online representa uma alteração significativa na maneira como os usuários trabalham e pode afetar negativamente a produtividade. Levar algum tempo para informar, orientar e dar suporte aos usuários por meio dessa alteração pode ajudar a garantir uma experiência positiva do usuário e maximizar o retorno sobre o investimento.
 
-Este artigo contém modelos de email personalizáveis para ajudar a informar os usuários sobre seu novo sistema de telefonia. Personalize e envie os emails apropriados para alinhar com sua implantação de voz específica. Nós utilizamos colchetes para indicar seções de personalização fácil, mas recomendamos que você adicione mensagens específicas da organização para tornar o comunicado mais relevante para seus usuários. Se aplicável à sua implantação, substitua todas as referências ao "Teams" por "Skype for Business".
+Este artigo contém modelos de email personalizáveis para ajudar a informar os usuários sobre o novo sistema telefônico. Personalize e envie os emails apropriados para se alinhar à sua implantação de voz específica. Nós já utilizamos colchetes para indicar seções para facilitar a personalização, mas recomendamos que você adicione mensagens específicas da organização para tornar o comunicado mais relevante para seus usuários. Se aplicável à sua implantação, substitua todas as referências a "Teams" por "Skype for Business".
 
-## <a name="email-number-1-send-three-weeks-before-launch"></a>Número de email 1: Enviar três semanas antes do início
+## <a name="email-number-1-send-three-weeks-before-launch"></a>Número de email 1: Enviar três semanas antes do lançamento
 
-Linha do assunto:
+Linha de assunto:
 
 ```
 IMPORTANT ANNOUNCEMENT about your office desk phone
@@ -94,9 +94,9 @@ If you have questions concerning this change, contact <INSERT NAME/EMAIL>.
 <INSERT NAME OF EXECUTIVE SPONSOR>
 ```
 
-## <a name="email-number-2-send-one-week-before-launch"></a>Número de email 2: Enviar uma semana antes do início
+## <a name="email-number-2-send-one-week-before-launch"></a>Número de email 2: Enviar uma semana antes do lançamento
 
-Linha do assunto:
+Linha de assunto:
 
 ```
 ACTION REQUESTED: Are you ready for your new phone system?
@@ -140,7 +140,7 @@ Regards,
 
 ## <a name="email-number-3-send-on-launch-day"></a>Número de email 3: Enviar no dia de lançamento
 
-Linha do assunto:
+Linha de assunto:
 
 ```
 IMPORTANT NOTICE: Your new phone system is live
@@ -177,7 +177,7 @@ Regards,
 
 ## <a name="email-number-4-send-two-weeks-after-launch"></a>Número de email 4: Enviar duas semanas após o lançamento
 
-Linha do assunto:
+Linha de assunto:
 
 ```
 FEEDBACK REQUESTED: Your new phone system

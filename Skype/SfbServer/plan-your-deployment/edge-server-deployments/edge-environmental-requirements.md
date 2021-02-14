@@ -27,7 +27,7 @@ ms.locfileid: "49813831"
  
 **Resumo:** Saiba mais sobre os requisitos ambientais para o Servidor de Borda no Skype for Business Server.
   
-É necessário ter muito planejamento e preparação fora do ambiente do Skype for Business Server Edge Server em si. Neste artigo, revisaremos quais preparações precisam ser feitas no ambiente organizacional, de acordo com nossa lista abaixo:
+É necessário ter muito planejamento e preparação fora do próprio ambiente do Skype for Business Server Edge Server. Neste artigo, revisaremos quais preparações precisam ser feitas no ambiente organizacional, de acordo com nossa lista abaixo:
   
 - [Planejamento de topologia](edge-environmental-requirements.md#TopoPlan)
     
@@ -44,14 +44,14 @@ As topologias do Skype for Business Server Edge Server podem usar:
   
 - Endereços IP públicos que são reenveláveis.
     
-- Endereços IP privados não-rouáveis, se **NAT** (conversão simétrica de endereços de rede) for usado.
+- Endereços IP privados não-rouáveis, **se** NAT (conversão de endereços de rede simétrica) for usado.
     
 > [!TIP]
 > Seu Servidor de Borda pode ser configurado para usar um único endereço IP com portas distintas para cada serviço ou pode usar endereços IP distintos para cada serviço, mas usar a mesma porta padrão (que, por padrão, será TCP 443). Temos mais informações na seção requisitos de endereço IP, abaixo. 
   
 Se você escolher endereços IP privados não-rouáveis com NAT, lembre-se destes pontos:
   
-- Você precisa usar endereços IP privados rouáveis em **todas as três** interfaces externas.
+- Você precisa usar endereços IP privados que podem ser **reenveláveis em todas as três** interfaces externas.
     
 - Você precisa configurar NAT **simétrico** para tráfego de entrada e saída. NAT simétrico é o único NAT com suporte que você pode usar com o Servidor de Borda do Skype for Business Server.
     
@@ -91,7 +91,7 @@ Para ajudá-lo a escolher uma, temos a tabela a seguir, que fornece um resumo da
   
 ### <a name="ip-address-requirements"></a>Requisitos de endereço IP
 
-Em um nível fundamental, três serviços precisam de endereços IP; Serviço de Borda de Acesso, Serviço de Borda de Webconferência e Serviço de Borda A/V. Você tem a opção de usar três endereços IP, um para cada um dos serviços, ou pode usar um e optar por colocar cada serviço em uma porta diferente (você pode conferir a seção de planejamento de porta e [firewall](edge-environmental-requirements.md#PortFirewallPlan) para obter mais informações sobre alguns desses). Para um único ambiente de Borda consolidado, é basicamente isso.
+Em um nível fundamental, três serviços precisam de endereços IP; Serviço de Borda de Acesso, Serviço de Borda de Webconferência e Serviço de Borda A/V. Você tem a opção de usar três endereços IP, um para cada um dos serviços, ou pode usar um e optar por colocar cada serviço em uma porta diferente (você pode conferir a seção de planejamento de porta e [firewall](edge-environmental-requirements.md#PortFirewallPlan) para obter mais informações sobre alguns desses serviços). Para um único ambiente de Borda consolidado, é basicamente isso.
   
 > [!NOTE]
 > Conforme mencionado acima, você pode optar por ter um endereço IP para todos os três serviços e executar em portas diferentes. Mas para ser claro, não recomendamos isso. Se os clientes não puderem acessar as portas alternativas que você estaria usando nesse cenário, eles também não poderão acessar a funcionalidade completa do seu ambiente de Borda. 
@@ -143,7 +143,7 @@ Quando se trata de implantação do Skype for Business Server Edge Server, é es
   
 ### <a name="dns-records-for-single-consolidated-edge-server-scenarios"></a>Registros DNS para cenários de Servidor de Borda consolidado único
 
-Esses serão os registros DNS necessários para um Servidor de Borda com IPs públicos ou privados com NAT. Como esses são dados de exemplo, vamos dar exemplos de IPs para que você possa trabalhar com suas próprias entradas com mais facilidade:
+Esses serão os registros DNS necessários para um Servidor de Borda com IPs públicos ou privados com NAT. Como são dados de exemplo, vamos dar exemplos de IPs para que você possa trabalhar com suas próprias entradas com mais facilidade:
   
 - Adaptador de rede interna: 172.25.33.10 (sem gateways padrão atribuídos)
     
@@ -160,7 +160,7 @@ Esses serão os registros DNS necessários para um Servidor de Borda com IPs pú
     
   - Borda A/V: 131.107.155.30 (secundária)
     
-  Endereços IP públicos de Webconferência e Borda A/V são endereços IP adicionais (secundários) na seção Avançado das propriedades do protocolo TCP/IPv4 (Internet Protocol Versão 4) e internet versão 6 (TCP/IPv6) das propriedades de conexão de área local no Windows Server.
+  Endereços IP públicos de Webconferência e Borda A/V são endereços IP adicionais (secundários) na seção Avançado das propriedades do Protocolo Internet Versão 4 (TCP/IPv4) e internet protocol versão 6 (TCP/IPv6) das propriedades de conexão de área local no Windows Server.
     
   - IPs privados:
     
@@ -190,7 +190,7 @@ Endereços IP públicos de Webconferência e Borda A/V são endereços IP adicio
    
 ### <a name="dns-records-for-scaled-dns-and-hardware-edge-server-scenarios"></a>Registros DNS para cenários de DNS em escala e servidor de borda de hardware
 
-Esses serão os registros DNS necessários para um Servidor de Borda com IPs públicos ou privados com NAT. Como esses são dados de exemplo, vamos dar exemplos de IPs para que você possa trabalhar com suas próprias entradas com mais facilidade:
+Esses serão os registros DNS necessários para um Servidor de Borda com IPs públicos ou privados com NAT. Como são dados de exemplo, vamos dar exemplos de IPs para que você possa trabalhar com suas próprias entradas com mais facilidade:
   
 - Adaptador de rede interno:
     
@@ -213,7 +213,7 @@ Esses serão os registros DNS necessários para um Servidor de Borda com IPs pú
     
         - Borda A/V: 131.107.155.30 (secundária)
     
-          Endereços IP públicos de Webconferência e Borda A/V são endereços IP adicionais (secundários) na seção Avançado das propriedades do protocolo TCP/IPv4 (Internet Protocol Versão 4) e internet versão 6 (TCP/IPv6) das propriedades de conexão de área local no Windows Server.
+          Endereços IP públicos de Webconferência e Borda A/V são endereços IP adicionais (secundários) na seção Avançado das propriedades do Protocolo Internet Versão 4 (TCP/IPv4) e internet protocol versão 6 (TCP/IPv6) das propriedades de conexão de área local no Windows Server.
     
     - IPs privados:
     
@@ -223,7 +223,7 @@ Esses serão os registros DNS necessários para um Servidor de Borda com IPs pú
     
          - Borda A/V: 10.45.16.30 (secundária)
     
-      Endereços IP públicos de Webconferência e Borda A/V são endereços IP adicionais (secundários) na seção Avançado das propriedades do protocolo TCP/IPv4 (Internet Protocol Versão 4) e internet versão 6 (TCP/IPv6) das propriedades de conexão de área local no Windows Server.
+      Endereços IP públicos de Webconferência e Borda A/V são endereços IP adicionais (secundários) na seção Avançado das propriedades do Protocolo Internet Versão 4 (TCP/IPv4) e internet protocol versão 6 (TCP/IPv6) das propriedades de conexão de área local no Windows Server.
     
   - Nó 2
     
@@ -235,7 +235,7 @@ Esses serão os registros DNS necessários para um Servidor de Borda com IPs pú
     
       - Borda A/V: 131.107.155.31 (secundária)
     
-      Endereços IP públicos de Webconferência e Borda A/V são endereços IP adicionais (secundários) na seção Avançado das propriedades do protocolo TCP/IPv4 (Internet Protocol Versão 4) e internet versão 6 (TCP/IPv6) das propriedades de conexão de área local no Windows Server.
+      Endereços IP públicos de Webconferência e Borda A/V são endereços IP adicionais (secundários) na seção Avançado das propriedades do Protocolo Internet Versão 4 (TCP/IPv4) e internet protocol versão 6 (TCP/IPv6) das propriedades de conexão de área local no Windows Server.
     
   - IPs privados:
     
@@ -245,7 +245,7 @@ Esses serão os registros DNS necessários para um Servidor de Borda com IPs pú
     
     - Borda A/V: 10.45.16.31 (secundária)
     
-      Endereços IP públicos de Webconferência e Borda A/V são endereços IP adicionais (secundários) na seção Avançado das propriedades do protocolo TCP/IPv4 (Internet Protocol Versão 4) e internet versão 6 (TCP/IPv6) das propriedades de conexão de área local no Windows Server.
+      Endereços IP públicos de Webconferência e Borda A/V são endereços IP adicionais (secundários) na seção Avançado das propriedades do Protocolo Internet Versão 4 (TCP/IPv4) e internet protocol versão 6 (TCP/IPv6) das propriedades de conexão de área local no Windows Server.
     
 Há outras configurações possíveis aqui:
   
@@ -342,13 +342,13 @@ Lembre-se de que atualmente o XMPP só tem suporte no Skype for Business Server 
 ## <a name="port-and-firewall-planning"></a>Planejamento de porta e firewall
 <a name="PortFirewallPlan"> </a>
 
-Fazer com que seu planejamento seja correto para portas e firewalls para implantações do Servidor de Borda do Skype for Business Server pode poupar dias ou semanas de solução de problemas e estresse. Como resultado, vamos listar algumas tabelas que indicarão o uso do protocolo e quais portas você precisa abrir, de entrada e de saída, tanto para cenários NAT quanto para cenários de IP público. Também temos tabelas separadas para cenários de carga balanceada de hardware (HLB) e outras orientações sobre isso. Para obter mais leituras a partir daí, também temos alguns [cenários](scenarios.md) do Servidor de Borda no Skype for Business Server para que você possa verificar suas preocupações específicas de implantação.
+Fazer com que seu planejamento seja correto para portas e firewalls para implantações do Servidor de Borda do Skype for Business Server pode poupar dias ou semanas de solução de problemas e estresse. Como resultado, vamos listar algumas tabelas que indicarão o uso do protocolo e quais portas você precisa abrir, de entrada e de saída, tanto para cenários NAT quanto para cenários de IP público. Também temos tabelas separadas para cenários de carga balanceada de hardware (HLB) e outras orientações sobre isso. Para obter mais leituras a partir daí, também temos alguns [cenários](scenarios.md) de Servidor de Borda no Skype for Business Server que você pode verificar para suas preocupações específicas de implantação.
   
 ### <a name="general-protocol-usage"></a>Uso geral do protocolo
 
 Antes de analisarmos as tabelas de resumo para firewalls internos e externos, considere também a tabela a seguir:
   
-|**Transporte de áudio/vídeo**|**Usage**|
+|**Transporte de áudio/vídeo**|**Uso**|
 |:-----|:-----|
 |UDP  <br/> |O protocolo de camada de transporte preferencial para áudio e vídeo.  <br/> |
 |TCP  <br/> |O protocolo de camada de transporte de fallback para áudio e vídeo.  <br/> O protocolo de camada de transporte necessário para o compartilhamento de aplicativos com o Skype for Business Server, o Lync Server 2013 e o Lync Server 2010.  <br/> O protocolo de camada de transporte necessário para transferência de arquivos para o Skype for Business Server, o Lync Server 2013 e o Lync Server 2010.  <br/> |
@@ -359,7 +359,7 @@ O endereço IP de origem e o endereço IP de destino conterão informações par
   
 |**Função ou protocolo**|**TCP ou UDP**|**Porta de Destino ou intervalo de portas**|**Endereço IP de origem**|**Endereço IP de destino**|**Anotações**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
-|XMPP  <br/> Não suportado no Skype for Business Server 2019 |TCP  <br/> |5269  <br/> |Qualquer  <br/> |Serviço proxy XMPP (compartilha um endereço IP com o serviço de Borda de Acesso  <br/> |O serviço de Proxy XMPP aceita tráfego de contatos XMPP em federações XMPP definidas.  <br/> |
+|XMPP  <br/> Sem suporte no Skype for Business Server 2019 |TCP  <br/> |5269  <br/> |Qualquer  <br/> |Serviço proxy XMPP (compartilha um endereço IP com o serviço de Borda de Acesso  <br/> |O serviço de Proxy XMPP aceita tráfego de contatos XMPP em federações XMPP definidas.  <br/> |
 |Access/HTTP  <br/> |TCP  <br/> |80  <br/> |**IP privado usando NAT:** Serviço de Borda de Acesso do Servidor de Borda <br/> **IP público:** Endereço IP público do serviço de Borda de Acesso do Servidor de Borda de Borda <br/> |Qualquer  <br/> |Revogação de certificado e verificação e recuperação de CRL.  <br/> |
 |Acesso/DNS  <br/> |TCP  <br/> |53  <br/> |**IP privado usando NAT:** Serviço de Borda de Acesso do Servidor de Borda <br/> **IP público:** Endereço IP público do serviço de Borda de Acesso do Servidor de Borda de Borda <br/> |Qualquer  <br/> |Consulta DNS sobre TCP.  <br/> |
 |Acesso/DNS  <br/> |UDP  <br/> |53  <br/> |**IP privado usando NAT:** Serviço de Borda de Acesso do Servidor de Borda <br/> **IP público:** Endereço IP público do serviço de Borda de Acesso do Servidor de Borda de Borda <br/> |Qualquer  <br/> |Consulta DNS sobre UDP.  <br/> |
@@ -382,13 +382,13 @@ O endereço IP de origem e o endereço IP de destino conterão informações par
 |SIP/MTLS  <br/> |TCP  <br/> |5061  <br/> |Qualquer um:  <br/> • Diretor  <br/> • Pool de Diretores  <br/> • Servidor front-end  <br/> • Pool de front-end  <br/> |Interface interna do Servidor de Borda  <br/> |Tráfego SIP de saída do diretor, pool de diretores, servidor front-end ou pool de front-end para sua interface interna do Servidor de Borda.  <br/> |
 |SIP/MTLS  <br/> |TCP  <br/> |5061  <br/> |Interface interna do Servidor de Borda  <br/> |Qualquer um:  <br/> • Diretor  <br/> • Pool de Diretores  <br/> • Servidor front-end  <br/> • Pool de front-end  <br/> |Tráfego SIP de entrada para o Diretor, pool de Diretores, Servidor front-end ou pool de front-end da interface interna do Servidor de Borda.  <br/> |
 |PSOM/MTLS  <br/> |TCP  <br/> |8057  <br/> |Qualquer um:  <br/> • Servidor front-end  <br/> • Cada servidor front-end  <br/>  em seu pool de Front-End <br/> |Interface interna do Servidor de Borda  <br/> |Tráfego de webconferência do servidor front-end ou de cada servidor front-end (se você tiver um pool de front-end) para sua interface interna do Servidor de Borda.  <br/> |
-|SIP/MTLS  <br/> |TCP  <br/> |5062  <br/> |Qualquer um:  <br/> • Servidor front-end  <br/> • Pool de front-end  <br/> • Qualquer Aparelho de Filial Survivível usando este Servidor de Borda  <br/> • Qualquer Servidor de Filial Survivível usando este Servidor de Borda  <br/> |Interface interna do Servidor de Borda  <br/> |Autenticação de usuários A/V de seu Servidor Front-End ou pool de Front-End, ou seu Aparelho de Filial Survivível ou Servidor de FilialVivível, usando seu Servidor de Borda.  <br/> |
+|SIP/MTLS  <br/> |TCP  <br/> |5062  <br/> |Qualquer um:  <br/> • Servidor front-end  <br/> • Pool de front-end  <br/> • Qualquer Aparelho de FilialVivível usando este Servidor de Borda  <br/> • Qualquer Servidor de Filial Survivível usando este Servidor de Borda  <br/> |Interface interna do Servidor de Borda  <br/> |Autenticação de usuários de A/V de seu Servidor Front-End ou pool de Front-End, ou seu Aparelho de Filial Survivível ou Servidor de FilialVivível, usando seu Servidor de Borda.  <br/> |
 |STUN/MSTURN  <br/> |UDP  <br/> |3478  <br/> |Qualquer  <br/> |Interface interna do Servidor de Borda  <br/> |Caminho preferencial para transferência de mídia A/V entre seus usuários internos e externos e seu Aparelho de FilialVivível ou Servidor de FilialVivível.  <br/> |
 |STUN/MSTURN  <br/> |TCP  <br/> |443  <br/> |Qualquer  <br/> |Interface interna do Servidor de Borda  <br/> |Caminho de fallback para transferência de mídia A/V entre seus usuários internos e externos e seu Aparelho de Filial Survivível ou Servidor de FilialVivível, se a comunicação UDP não funcionar. O TCP é usado para transferências de arquivos e compartilhamento de área de trabalho.  <br/> |
 |HTTPS  <br/> |TCP  <br/> |4443  <br/> |Qualquer um:  <br/> • Servidor front-end que mantém o armazenamento de Gerenciamento Central  <br/> • Pool de front-end que mantém o armazenamento de Gerenciamento Central  <br/> |Interface interna do Servidor de Borda  <br/> |Replicação de alterações do seu armazenamento de Gerenciamento Central para o Servidor de Borda.  <br/> |
-|MTLS  <br/> |TCP  <br/> |50001  <br/> |Qualquer  <br/> |Interface interna do Servidor de Borda  <br/> |Controlador do Serviço de Log Centralizado usando o Shell de Gerenciamento do Skype for Business Server e cmdlets do Serviço de Log Centralizado, comandos de linha de comando (ClsController.exe) ou de agente (ClsAgent.exe) e conjunto de log.  <br/> |
-|MTLS  <br/> |TCP  <br/> |50002  <br/> |Qualquer  <br/> |Interface interna do Servidor de Borda  <br/> |Controlador do Serviço de Log Centralizado usando o Shell de Gerenciamento do Skype for Business Server e cmdlets do Serviço de Log Centralizado, comandos de linha de comando (ClsController.exe) ou de agente (ClsAgent.exe) e conjunto de log.  <br/> |
-|MTLS  <br/> |TCP  <br/> |50003  <br/> |Qualquer  <br/> |Interface interna do Servidor de Borda  <br/> |Controlador do Serviço de Log Centralizado usando o Shell de Gerenciamento do Skype for Business Server e cmdlets do Serviço de Log Centralizado, comandos de linha de comando (ClsController.exe) ou de agente (ClsAgent.exe) e conjunto de log.  <br/> |
+|MTLS  <br/> |TCP  <br/> |50001  <br/> |Qualquer  <br/> |Interface interna do Servidor de Borda  <br/> |Controlador do Serviço de Log Centralizado usando o Shell de Gerenciamento do Skype for Business Server e cmdlets do Serviço de Log Centralizado, comandos de linha de comando (ClsController.exe) ou agente (ClsAgent.exe) e conjunto de log.  <br/> |
+|MTLS  <br/> |TCP  <br/> |50002  <br/> |Qualquer  <br/> |Interface interna do Servidor de Borda  <br/> |Controlador do Serviço de Log Centralizado usando o Shell de Gerenciamento do Skype for Business Server e cmdlets do Serviço de Log Centralizado, comandos de linha de comando (ClsController.exe) ou agente (ClsAgent.exe) e conjunto de log.  <br/> |
+|MTLS  <br/> |TCP  <br/> |50003  <br/> |Qualquer  <br/> |Interface interna do Servidor de Borda  <br/> |Controlador do Serviço de Log Centralizado usando o Shell de Gerenciamento do Skype for Business Server e cmdlets do Serviço de Log Centralizado, comandos de linha de comando (ClsController.exe) ou agente (ClsAgent.exe) e conjunto de log.  <br/> |
    
 ### <a name="hardware-load-balancers-for-edge-port-tables"></a>Balanceadores de carga de hardware para tabelas de porta de Borda
 
@@ -419,9 +419,9 @@ O endereço IP de origem e o endereço IP de destino conterão informações par
 |PSOM/MTLS  <br/> |TCP  <br/> |8057  <br/> |Qualquer um:  <br/> • Servidor front-end  <br/> • Cada Servidor front-end em seu pool de front-end  <br/> |Interface interna do Servidor de Borda  <br/> |Tráfego de webconferência do servidor front-end ou de cada servidor front-end (se você tiver um pool de front-end) para sua interface interna do Servidor de Borda.  <br/> |
 |STUN/MSTURN  <br/> |UDP  <br/> |3478  <br/> |Qualquer um:  <br/> • Servidor front-end  <br/> • Cada Servidor front-end em seu pool de front-end  <br/> |Interface interna do Servidor de Borda  <br/> |Caminho preferencial para transferência de mídia A/V entre seus usuários internos e externos e seu Aparelho de FilialVivível ou Servidor de FilialVivível.  <br/> |
 |STUN/MSTURN  <br/> |TCP  <br/> |443  <br/> |Qualquer um:  <br/> • Servidor front-end  <br/> • Cada Servidor front-end em seu pool  <br/> |Interface interna do Servidor de Borda  <br/> |Caminho de fallback para transferência de mídia A/V entre seus usuários internos e externos e seu Aparelho de Filial Survivível ou Servidor de FilialVivível, se a comunicação UDP não funcionar. O TCP é usado para transferências de arquivos e compartilhamento de área de trabalho.  <br/> |
-|MTLS  <br/> |TCP  <br/> |50001  <br/> |Qualquer  <br/> |Interface interna do Servidor de Borda  <br/> |Controlador do Serviço de Log Centralizado usando o Shell de Gerenciamento do Skype for Business Server e cmdlets do Serviço de Log Centralizado, comandos de linha de comando (ClsController.exe) ou de agente (ClsAgent.exe) e conjunto de log.  <br/> |
-|MTLS  <br/> |TCP  <br/> |50002  <br/> |Qualquer  <br/> |Interface interna do Servidor de Borda  <br/> |Controlador do Serviço de Log Centralizado usando o Shell de Gerenciamento do Skype for Business Server e cmdlets do Serviço de Log Centralizado, comandos de linha de comando (ClsController.exe) ou de agente (ClsAgent.exe) e conjunto de log.  <br/> |
-|MTLS  <br/> |TCP  <br/> |50003  <br/> |Qualquer  <br/> |Interface interna do Servidor de Borda  <br/> |Controlador do Serviço de Log Centralizado usando o Shell de Gerenciamento do Skype for Business Server e cmdlets do Serviço de Log Centralizado, comandos de linha de comando (ClsController.exe) ou de agente (ClsAgent.exe) e conjunto de log.  <br/> |
+|MTLS  <br/> |TCP  <br/> |50001  <br/> |Qualquer  <br/> |Interface interna do Servidor de Borda  <br/> |Controlador do Serviço de Log Centralizado usando o Shell de Gerenciamento do Skype for Business Server e cmdlets do Serviço de Log Centralizado, comandos de linha de comando (ClsController.exe) ou agente (ClsAgent.exe) e conjunto de log.  <br/> |
+|MTLS  <br/> |TCP  <br/> |50002  <br/> |Qualquer  <br/> |Interface interna do Servidor de Borda  <br/> |Controlador do Serviço de Log Centralizado usando o Shell de Gerenciamento do Skype for Business Server e cmdlets do Serviço de Log Centralizado, comandos de linha de comando (ClsController.exe) ou agente (ClsAgent.exe) e conjunto de log.  <br/> |
+|MTLS  <br/> |TCP  <br/> |50003  <br/> |Qualquer  <br/> |Interface interna do Servidor de Borda  <br/> |Controlador do Serviço de Log Centralizado usando o Shell de Gerenciamento do Skype for Business Server e cmdlets do Serviço de Log Centralizado, comandos de linha de comando (ClsController.exe) ou agente (ClsAgent.exe) e conjunto de log.  <br/> |
    
 #### <a name="external-interface-virtual-ips"></a>IPs Virtuais da interface externa
 
@@ -436,7 +436,7 @@ O endereço IP de origem e o endereço IP de destino conterão informações par
 |A/V/STUN. MSTURN  <br/> |UDP  <br/> |3478  <br/> |Qualquer  <br/> |**IP privado usando NAT:** Serviço de Borda A/V do Servidor de Borda <br/> **IP público:** Endereço IP público do serviço de Borda A/V do Servidor de Borda <br/> |Negociação STUN/TURN de candidatos sobre UDP na porta 3478.  <br/> |
 |A/V/STUN. MSTURN  <br/> |TCP  <br/> |443  <br/> |Qualquer  <br/> |**IP privado usando NAT:** Serviço de Borda A/V do Servidor de Borda <br/> **IP público:** Endereço IP público do serviço de Borda A/V do Servidor de Borda <br/> |Negociação STUN/TURN de candidatos sobre TCP na porta 443.  <br/> |
    
-#### <a name="internal-interface-virtual-ips"></a>IPs Virtuais da interface interna
+#### <a name="internal-interface-virtual-ips"></a>IPs virtuais da interface interna
 
 Nossa orientação aqui será um pouco diferente. Na verdade, em uma situação de HLB, recomendamos que você só tenha roteamento por meio de um VIP interno nas seguintes circunstâncias:
   
@@ -450,6 +450,6 @@ A tabela a seguir orienta esses cenários, mas caso contrário, você poderá de
 |:-----|:-----|:-----|:-----|:-----|:-----|
 |Access/SIP(MTLS)  <br/> |TCP  <br/> |5061  <br/> |Qualquer um:  <br/> • Diretor  <br/> • Endereço VIP do pool de Diretores  <br/> • Servidor front-end  <br/> • Endereço VIP do pool de front-end  <br/> |Interface interna do Servidor de Borda  <br/> |Tráfego SIP de saída do Diretor, endereço VIP do pool de Diretores, Servidor Front End ou endereço VIP do pool de Front-End para sua interface interna do Servidor de Borda.  <br/> |
 |Access/SIP(MTLS)  <br/> |TCP  <br/> |5061  <br/> |Interface VIP interna do Servidor de Borda  <br/> |Qualquer um:  <br/> • Diretor  <br/> • Endereço VIP do pool de Diretores  <br/> • Servidor front-end  <br/> • Endereço VIP do pool de front-end  <br/> |Tráfego SIP de entrada para o Diretor, endereço VIP do pool de Diretores, Servidor Front-End ou endereço VIP do pool de Front-End da interface interna do Servidor de Borda.  <br/> |
-|SIP/MTLS  <br/> |TCP  <br/> |5062  <br/> |Qualquer um:  <br/> • Endereço IP do Servidor Front End  <br/> • Endereço IP do pool de front-end  <br/> • Qualquer Aparelho de Filial Survivível usando este Servidor de Borda  <br/> • Qualquer Servidor de Filial Survivível usando este Servidor de Borda  <br/> |Interface interna do Servidor de Borda  <br/> |Autenticação de usuários A/V de seu Servidor Front-End ou pool de Front-End, ou seu Aparelho de Filial Survivível ou Servidor de FilialVivível, usando seu Servidor de Borda.  <br/> |
+|SIP/MTLS  <br/> |TCP  <br/> |5062  <br/> |Qualquer um:  <br/> • Endereço IP do Servidor Front End  <br/> • Endereço IP do pool de front-end  <br/> • Qualquer Aparelho de FilialVivível usando este Servidor de Borda  <br/> • Qualquer Servidor de Filial Survivível usando este Servidor de Borda  <br/> |Interface interna do Servidor de Borda  <br/> |Autenticação de usuários de A/V de seu Servidor Front-End ou pool de Front-End, ou seu Aparelho de Filial Survivível ou Servidor de FilialVivível, usando seu Servidor de Borda.  <br/> |
 |STUN/MSTURN  <br/> |UDP  <br/> |3478  <br/> |Qualquer  <br/> |Interface interna do Servidor de Borda  <br/> |Caminho preferencial para transferência de mídia A/V entre seus usuários internos e externos.  <br/> |
-|STUN/MSTURN  <br/> |TCP  <br/> |443  <br/> |Qualquer  <br/> |Interface VIP interna do Servidor de Borda  <br/> |Caminho de fallback para transferência de mídia A/V entre usuários internos e externos se a comunicação UDP não funcionar. O TCP é usado para transferências de arquivos e compartilhamento de área de trabalho.  <br/> |
+|STUN/MSTURN  <br/> |TCP  <br/> |443  <br/> |Qualquer  <br/> |Interface VIP interna do Servidor de Borda  <br/> |Caminho de fallback para transferência de mídia A/V entre seus usuários internos e externos se a comunicação UDP não funcionar. O TCP é usado para transferências de arquivos e compartilhamento de área de trabalho.  <br/> |

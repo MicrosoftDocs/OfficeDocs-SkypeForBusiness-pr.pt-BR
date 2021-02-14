@@ -26,7 +26,7 @@ ms.locfileid: "49815061"
 
 A conformidade de Chat Persistente permite que os administradores mantenham um arquivo de mensagens de Chat Persistente, bem como atividades. O serviço de Conformidade registra e arquiva dados relacionados a cada conversa do Servidor de Chat Persistente, incluindo quando um participante:
 
-- Entra em uma sala de Chat Persistente
+- Ins junta-se a uma sala de Chat Persistente
 
 - Sai de uma sala de chat
 
@@ -59,7 +59,7 @@ Set-CsPersistentChatComplianceConfiguration [-Instance <PSObject>] <COMMON PARAM
 
 Você pode definir os seguintes parâmetros:
 
-- AdapterType - permite especificar o tipo de adaptador. Um adaptador é um produto de terceiros que converte os dados no banco de dados de conformidade para um formato específico. XML é o padrão.
+- AdapterType - permite especificar o tipo de adaptador. Um adaptador é um produto de terceiros que converte os dados no banco de dados de conformidade em um formato específico. XML é o padrão.
 
 - OneChatRoomPerOutputFile - Esse parâmetro permite especificar que relatórios separados sejam criados para cada sala de chat.
 
@@ -67,7 +67,7 @@ Você pode definir os seguintes parâmetros:
 
 - AddUserDetails - Quando habilitado, esse parâmetro registra detalhes adicionais sobre cada usuário da sala de chat no banco de dados. Como essa configuração pode aumentar muito o tamanho do banco de dados, ela é desabilitada por padrão.
 
-- Identidade - Este parâmetro permite que as configurações de conformidade sejam escopos para uma coleção específica, incluindo os níveis global, de site e de serviço. O padrão é o nível global. 
+- Identidade – Este parâmetro permite que as configurações de conformidade sejam escopos para uma coleção específica, incluindo os níveis global, de site e de serviço. O padrão é o nível global. 
 
 - RunInterval - Esse parâmetro determina o período de tempo antes que o servidor crie o próximo arquivo de saída de conformidade (o padrão é 15 minutos).
 

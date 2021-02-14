@@ -272,7 +272,7 @@ A maioria das transações sintéticas pode ser executado em um nó do watcher c
   
 ### <a name="data-conferencing-synthetic-transaction"></a>Transação sintética de conferência de dados
 
-Se o computador do nó do seu watcher estiver localizado fora da sua rede de perímetro, você provavelmente não poderá executar a Transação Sintética de Conferência de Dados, a menos que primeiro desabilite as configurações de proxy do navegador Internet do Windows Internet Explorer® para a conta de Serviço de Rede concluindo as seguintes etapas:
+Se o computador do nó do seu watcher estiver localizado fora da rede de perímetro, você provavelmente não poderá executar a Transação Sintética de Conferência de Dados, a menos que primeiro desabilite as configurações de proxy do navegador Internet do Windows Internet Explorer® para a conta serviço de rede concluindo as seguintes etapas:
   
 1. No computador do nó do watcher, clique em **Iniciar,** **em** Todos os **Programas,** em Acessórios, clique com o botão direito do mouse no **Prompt** de Comando e clique em Executar **como administrador.**
     
@@ -321,7 +321,7 @@ Você deve executar essa tarefa de instalação de dentro da empresa:
     
 ### <a name="pstn-peer-to-peer-call-synthetic-transaction"></a>Transação sintética de chamada ponto a ponto PSTN
 
-A Test-CsPstnPeerToPeerCall sintética verifica a capacidade de fazer e receber chamadas por meio de uma PSTN (rede telefônica pública comutado).
+A Test-CsPstnPeerToPeerCall sintética verifica a capacidade de fazer e receber chamadas por meio de uma rede telefônica pública comutado (PSTN).
   
 Para executar essa transação sintética, você deve configurar:
   
@@ -329,7 +329,7 @@ Para executar essa transação sintética, você deve configurar:
     
 - Números DID (Discagem Interna Direta) para cada conta de usuário.
     
-- Políticas VoIP e rotas de voz que permitem que as chamadas para o número do receptor cheguem ao gateway PSTN.
+- Políticas VoIP e rotas de voz que permitem que chamadas para o número do receptor cheguem ao gateway PSTN.
     
 - Um gateway PSTN que aceita chamada e mídia que encaminhará chamadas de volta para o pool base de um receptor, com base no número discado.
     
@@ -389,7 +389,7 @@ Se desejar executar transações sintéticas com mais frequência, o número de 
   
 Para alterar a frequência na qual as transações sintéticas são executados, siga estas etapas:
   
-1. Abra o System Center Operations Manager. Clique na seção Autoria. Seção Click Rules (em Authoring).
+1. Abra o System Center Operations Manager. Clique na seção Autoria. Seção Regras (em Autoria).
     
 2. Na seção Regras, encontre a regra com o nome "Regra principal de coleta de desempenho do Final da Transação Sintética".
     
@@ -402,7 +402,7 @@ Para alterar a frequência na qual as transações sintéticas são executados, 
 ## <a name="using-rich-logging-for-synthetic-transactions"></a>Usando Registro em Log Sofisticado para Transações Sintéticas
 <a name="special_synthetictrans"> </a>
 
-As transações sintéticas são extremamente úteis para ajudar a identificar problemas com o sistema. Por exemplo, o Test-CsRegistration cmdlet pode alertar os administradores para o fato de que os usuários estavam com dificuldades para se registrar no Skype for Business Server. No entanto, detalhes adicionais podem ser necessários para determinar a causa real de uma falha.
+As transações sintéticas são extremamente úteis para ajudar a identificar problemas com o sistema. Por exemplo, o cmdlet Test-CsRegistration pode alertar os administradores para o fato de que os usuários estavam com dificuldades para se registrar no Skype for Business Server. No entanto, detalhes adicionais podem ser necessários para determinar a causa real de uma falha.
   
 Por esse motivo, as transações sintéticas fornecem registro em log rico. Com o registro em log rico, para cada atividade assumida por uma transação sintética, as seguintes informações são registradas:
   

@@ -30,7 +30,7 @@ O nome da categoria para os contadores na tabela UCWA é **LS:WEB - UCWA**.
 O nome da categoria para os contadores na tabela Mcx Mobility Service é **LS:WEB - Mobile Communication Service**.
 
 > [!NOTE]
-> O suporte a MCX (Mobility Service) para clientes móveis herdado não está mais disponível no Skype for Business Server 2019. Todos os clientes móveis atuais do Skype for Business já usam o Unified Communications Web API (UCWA) para dar suporte a mensagens instantâneas (IM), presença e contatos. Os usuários com clientes herddos usando o MCX precisarão atualizar para um cliente atual.
+> O suporte a MCX (Mobility Service) para clientes móveis herdado não está mais disponível no Skype for Business Server 2019. Todos os clientes móveis atuais do Skype for Business já usam o Unified Communications Web API (UCWA) para dar suporte a mensagens instantâneas (IM), presença e contatos. Os usuários com clientes herddos usando MCX precisarão atualizar para um cliente atual.
   
 ## <a name="performance-counters-for-ucwa"></a>Contadores de desempenho para UCWA
 
@@ -38,7 +38,7 @@ O nome da categoria para os contadores na tabela Mcx Mobility Service é **LS:WE
 |:-----|:-----|
 |Contagem de aplicativos ativos  <br/> |O número atual de aplicativos  <br/> |
 |Contagem de modalidades de compartilhamento de aplicativos ativos  <br/> |O número atual da modalidade de Compartilhamento de Aplicativos  <br/> |
-|Contagem de modalidades de áudio ativas  <br/> |O número atual da modalidade de áudio  <br/> |
+|Contagem de modalidades de áudio ativas  <br/> |O número atual de modalidade de áudio  <br/> |
 |Contagem de modalidades de colaboração de dados ativos  <br/> |O número atual da modalidade de Colaboração de Dados  <br/> |
 |Latência de Obter Fotos do Active Directory (ms)  <br/> |Esse contador mostra o tempo médio (em milissegundos) para recuperar uma foto do Active Directory  <br/> |
 |Contagem de modalidades de mensagens ativas  <br/> |O número atual de modalidade de mensagens  <br/> |
@@ -49,7 +49,7 @@ O nome da categoria para os contadores na tabela Mcx Mobility Service é **LS:WE
 |Instâncias de usuário ativas sem aplicativo  <br/> |O número atual de instâncias de usuário sem aplicativo  <br/> |
 |Contagem da modalidade de vídeo ativa  <br/> |O número atual da modalidade de vídeo  <br/> |
 |Solicitações de criação de aplicativo recebidas/segundo  <br/> |A taxa de solicitações de criação de aplicativo recebidas por segundo  <br/> |
-|Falhas de ingressar em MCU de AS  <br/> |O número de falhas de ingressar em MCU de AS  <br/> |
+|Falhas de ingressar em MCU de AS  <br/> |O número de falhas de junção DE AS MCU  <br/> |
 |Falhas de entrada em MCU de AV  <br/> |O número de falhas de entrada em MCU de AV  <br/> |
 |Tempo Médio de Inicialização do Aplicativo (ms)  <br/> |O tempo médio de inicialização do aplicativo em milissegundos  <br/> |
 |Tempo médio de vida da sessão (ms)  <br/> |O tempo médio de vida de uma sessão em milissegundos  <br/> |
@@ -62,7 +62,7 @@ O nome da categoria para os contadores na tabela Mcx Mobility Service é **LS:WE
 |Número de falhas de obter fotos do Active Directory  <br/> |O número total de falhas para recuperar fotos do Active Directory  <br/> |
 |Número de falhas de Pesquisa de Contato  <br/> |O número total de falhas na pesquisa de contatos no Exchange  <br/> |
 |Número de falhas de desserialização  <br/> |O número total de falhas de desserialização  <br/> |
-|Número de falhas ao obter fotos HD  <br/> |O número total de falhas ao recuperar fotos HD do Exchange  <br/> |
+|Número de falhas ao obter fotos HD  <br/> |O número total de falhas para recuperar fotos EM HD do Exchange  <br/> |
 |Acima do máximo de assinaturas por aplicativo  <br/> |O número de solicitações de Assinatura acima do máximo permitido por aplicativo  <br/> |
 |Acima do máximo de assinaturas por lote  <br/> |O número de solicitações de Assinatura acima do máximo permitido por lote  <br/> |
 |Falhas de Assinatura de Presença  <br/> |O número de falhas na assinatura da presença  <br/> |
@@ -70,7 +70,7 @@ O nome da categoria para os contadores na tabela Mcx Mobility Service é **LS:WE
 |Solicitações recebidas/segundo  <br/> |A taxa de solicitações recebidas por segundo  <br/> |
 |Solicitações bem-sucedidas/segundo  <br/> |A taxa de solicitações bem-sucedidas por segundo (códigos de resposta HTTP 2xx/3xx)  <br/> |
 |Solicitações de criação de aplicativo bem-sucedidas/segundo  <br/> |A taxa de solicitações de criação de aplicativo bem-sucedidas por segundo  <br/> |
-|Contagem de get pendentes com tempo out  <br/> |O número de pendentes obtém o tempo de espera  <br/> |
+|Contagem de get pendentes com tempo out  <br/> |O número de pendentes obtém o tempo gasto  <br/> |
 |Total de solicitações de criação de aplicativo recebidas  <br/> |O número total de solicitações de criação de aplicativo recebidas desde que o serviço foi iniciado  <br/> |
 |Total de respostas HTTP 4xx  <br/> |O número total de respostas HTTP 4xx  <br/> |
 |Total de respostas HTTP 5xx  <br/> |O número total de respostas HTTP 5xx  <br/> |
@@ -117,4 +117,4 @@ O nome da categoria para os contadores na tabela Mcx Mobility Service é **LS:WE
 |Total de chamadas de voz de saída bem-sucedidas  <br/> |O número total de chamadas de voz de saída que tiveram êxito  <br/> |
    
 > [!NOTE]
-> O suporte a MCX (Mobility Service) para clientes móveis herdado não está mais disponível no Skype for Business Server 2019. Todos os clientes móveis atuais do Skype for Business já usam o Unified Communications Web API (UCWA) para dar suporte a mensagens instantâneas (IM), presença e contatos. Os usuários com clientes herddos usando o MCX precisarão atualizar para um cliente atual.
+> O suporte a MCX (Mobility Service) para clientes móveis herdado não está mais disponível no Skype for Business Server 2019. Todos os clientes móveis atuais do Skype for Business já usam o Unified Communications Web API (UCWA) para dar suporte a mensagens instantâneas (IM), presença e contatos. Os usuários com clientes herddos usando MCX precisarão atualizar para um cliente atual.

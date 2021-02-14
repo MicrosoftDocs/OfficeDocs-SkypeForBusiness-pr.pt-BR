@@ -29,7 +29,7 @@ O tamanho das reuniões que o Skype for Business Server pode suportar depende se
 > Este tópico se concentra nas práticas recomendadas para grandes reuniões com suporte do Skype for Business Server. Se sua organização exigir recursos maiores de reunião, considere a implementação de um ambiente híbrido que aproveite a Transmissão de Reunião do Skype, um novo serviço online que faz parte do Microsoft 365 e do Office 365. 
 
 > [!NOTE]
-> A Transmissão de Reunião do Skype permite que os usuários hospedem e transdiem reuniões para grandes audiências online de até 10.000 participantes. O uso da Transmissão de Reunião do Skype exige que o Skype for Business Server já tenha sido configurado em uma configuração híbrida com uma organização de produção do Microsoft 365 ou Office 365. Todos os usuários devem ter um locatário online estabelecido como pré-requisito. Se você estiver interessado em implantar uma solução híbrida que possa aproveitar a Transmissão de Reunião do Skype, consulte O que é uma Transmissão de Reunião do [Skype?](https://go.microsoft.com/fwlink/?LinkId=617071) e Configure sua implantação local para a Transmissão de Reunião do [Skype.](../../deploy/configure-skype-meeting-broadcast.md) 
+> A Transmissão de Reunião do Skype permite que os usuários hospedem e transdiem reuniões para grandes audiências online de até 10.000 participantes. O uso da Transmissão de Reunião do Skype exige que o Skype for Business Server já tenha sido configurado em uma configuração híbrida com uma organização do Microsoft 365 ou Office 365 de produção. Todos os usuários devem ter um locatário online estabelecido como pré-requisito. Se você estiver interessado em implantar uma solução híbrida que possa aproveitar a Transmissão de Reunião do Skype, consulte O que é uma Transmissão de Reunião do [Skype?](https://go.microsoft.com/fwlink/?LinkId=617071) e Configure sua implantação local para a Transmissão de Reunião do [Skype.](../../deploy/configure-skype-meeting-broadcast.md) 
   
 Reuniões grandes geralmente têm as seguintes características:
   
@@ -47,7 +47,7 @@ Reuniões grandes geralmente têm as seguintes características:
     
 Quando um usuário agenda uma reunião, o Skype for Business Server cria um registro no banco de dados de conferência, que armazena dados de conferência, mas não reserva nenhum recurso de hardware para a reunião agendada com antecedência. Em vez disso, o Skype for Business Server tem lógica de balanceamento de carga interna para alocar dinamicamente recursos de conferência nos Servidores Front-End de uma maneira que distribua cargas igualmente entre todos os Servidores Front-End no pool. Isso provisiona e usa efetivamente recursos de hardware, mas é importante que você planeje adequadamente o suporte a reuniões muito grandes. 
   
-Por exemplo, quando um pool do Skype for Business Server está sendo executado perto de sua capacidade máxima, cada Servidor Front End pode hospedar aproximadamente 125 reuniões de tamanho médio. Adicionar outra reunião pequena não seria um problema, mas adicionar uma reunião para 1.000 usuários seria um problema porque os Servidores front-end provavelmente não seriam capazes de suportar tal reunião grande ao mesmo tempo que as outras 125 reuniões.
+Por exemplo, quando um pool do Skype for Business Server está sendo executado perto de sua capacidade máxima, cada Servidor Front End pode hospedar aproximadamente 125 reuniões de tamanho médio. Adicionar outra reunião pequena não seria um problema, mas adicionar uma reunião para 1000 usuários seria um problema porque os Servidores front-end provavelmente não seriam capazes de suportar tal reunião grande ao mesmo tempo que as outras 125 reuniões.
   
 O suporte a grandes reuniões de até 1.000 participantes requer a abordagem dos problemas relacionados ao modelo de hardware compartilhado e ao modelo sem reserva. Em geral, você precisa planejar um pool dedicado e seguir as práticas recomendadas conforme descrito nas seções a seguir. 
   
@@ -99,7 +99,7 @@ O moderador da reunião pode usar todas as funcionalidades de apresentador dos c
     
 - Alterando funções de participante
     
-- Convidar participantes adicionais durante a reunião usando a funcionalidade arrastar e soltar, discagem por telefone ou email
+- Convidar participantes adicionais durante a reunião usando a funcionalidade de arrastar e soltar, discagem por telefone ou email
     
 - Muting and unmuting the audience or individual users
     
@@ -189,7 +189,7 @@ Crie uma nova política de conferência especificamente para grandes reuniões e
 - Definir a **opção EnableMultiviewJoin** como **False**.
     
 > [!NOTE]
-> O suporte a grandes reuniões no Skype for Business Server exige que a **configuração AllowLargeMeetings** seja definida como true. Quando essa configuração for definida como verdadeira, a experiência do Skype for Business será otimizada para reuniões extra grande quando os usuários ingressarem na reunião. Especificamente, em uma grande reunião, o Skype for Business não mostrará a inicialização ou a atualização da lista completa de participantes da reunião, que é um gargalo de desempenho para o cliente e o Skype for Business Server. Em vez disso, o Skype for Business mostrará apenas informações sobre o usuário e a lista de apresentadores da reunião. O Skype for Business ainda mostrará o número total de participantes disponíveis nas grandes reuniões.
+> O suporte a grandes reuniões no Skype for Business Server exige que a configuração **AllowLargeMeetings** seja definida como true. Quando essa configuração for definida como verdadeira, a experiência do Skype for Business será otimizada para reuniões extra grande quando os usuários ingressarem na reunião. Especificamente, em uma grande reunião, o Skype for Business não mostrará a inicialização ou a atualização da lista completa de participantes da reunião, que é um gargalo de desempenho para o cliente e o Skype for Business Server. Em vez disso, o Skype for Business mostrará apenas informações sobre o usuário e a lista de apresentadores da reunião. O Skype for Business ainda mostrará o número total de participantes disponíveis nas grandes reuniões.
 
 A **configuração AllowLargeMeetings $true** causa o seguinte:
 
@@ -207,13 +207,13 @@ A **configuração AllowLargeMeetings $true** causa o seguinte:
 
 - Os usuários de discagem PSTN não poderão se desatar usando 6 porque a Assistência Virtual Pessoal, responsável pelos comandos DTMF em grandes reuniões ativas, está ausente.
 
-- Se o apresentador/organizador agendar uma reunião na qual todos devem ser silenciados primeiro ("Silenciar Tudo"), os usuários PSTN serão silenciados durante toda a chamada e não poderão desativar o mudo por conta própria.
+- Se o apresentador/organizador agendar uma reunião em que todos devem ser silenciados primeiro ("Mute All"), os usuários PSTN serão silenciados durante toda a chamada e não poderão desativar o mudo por conta própria.
 
 Com exceção da configuração de tamanho máximo da reunião, todas as outras configurações de política de conferência especificadas aqui são necessárias para desabilitar os recursos de conferência que não são necessários em grandes reuniões. 
   
 Além disso, você precisa configurar o pool dedicado a grandes reuniões para que cada usuário do Skype for Business Server que está no pool e responsável por gerenciar o agendamento da reunião tenha as permissões apropriadas. Para tanto, siga estes passos:
   
-- Definir a **opção Designar como apresentador** como **Nenhum**. Normalmente, um ou apenas alguns usuários de todos os participantes de uma grande reunião são apresentadores, portanto, os participantes não devem ser admitidos automaticamente em grandes reuniões como apresentadores. Em vez disso, os apresentadores devem ser explicitamente designados no horário de agendamento da reunião ou serem promovidos explicitamente durante uma grande reunião.
+- Definir a **opção Designar como apresentador** como **Nenhum**. Normalmente, um ou apenas alguns usuários de todos os participantes de uma grande reunião são apresentadores, portanto, os participantes não devem ser admitidos automaticamente em grandes reuniões como apresentadores. Em vez disso, os apresentadores devem ser explicitamente designados no horário do agendamento da reunião ou serem promovidos explicitamente durante uma grande reunião.
     
 - Verifique se a caixa **de seleção Tipo de conferência Atribuído por** padrão não está selecionada. Essa configuração controla se o Complemento de Reunião Online do Skype for Business sempre agenda conferências usando a conferência atribuída do organizador, o que significa que as reuniões agendadas têm a mesma URL de junção e informações de áudio. Em pequenos cenários de colaboração em grupo, ter um tipo de conferência atribuído funciona bem porque todos têm sua própria conferência atribuída individualmente, e a URL de entrada constante e as informações de áudio ajudam a facilitar a entrada mais rápida da reunião. No entanto, no cenário de grandes reuniões, a equipe de suporte a grandes reuniões agenda as grandes reuniões usando um único conjunto de credenciais de usuário e fornece URLs de junção e informações de áudio aos solicitantes da reunião. Nesse caso, usar uma URL diferente para ingressar em cada reunião funciona melhor.
     

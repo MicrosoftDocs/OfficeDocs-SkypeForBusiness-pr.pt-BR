@@ -126,7 +126,7 @@ Se o usuário faz logon com um cliente Lync ou anterior, ou se o usuário não e
 
 Se você precisar reverter o recurso de armazenamento unificado de contatos, reverter os contatos somente se você mover o usuário de volta para o Exchange 2010 ou o Lync Server 2010. Para reverter, desabilite a política do usuário e execute o cmdlet **Invoke-CsUcsRollback**. Apenas executar o **Invoke-CsUcsRollback** não é suficiente para garantir uma reversão permanente, porque a migração do repositório de contato unificado será iniciada novamente se a política não estiver desabilitada. Por exemplo, se um usuário for reacionado porque o Exchange 2013 é reacionado para o Exchange 2010 e, em seguida, a caixa de correio do usuário é movida para o Exchange 2013, a migração do armazenamento unificado de contatos será iniciada novamente sete dias após a reação, desde que o armazenamento unificado de contatos ainda esteja habilitado para o usuário na política de serviços de usuário.
   
-O cmdlet **Move-CsUser** automaticamente retorca o armazenamento de contatos do usuário do Exchange 2013 para o Skype for Business Server nas seguintes situações:
+O cmdlet **Move-CsUser** automaticamente faz o armazenamento de contatos do usuário do Exchange 2013 para o Skype for Business Server nas seguintes situações:
   
 - Quando os usuários são movidos do Skype for Business Server para o Microsoft Lync Server 2013 ou Lync Server 2010. 
     

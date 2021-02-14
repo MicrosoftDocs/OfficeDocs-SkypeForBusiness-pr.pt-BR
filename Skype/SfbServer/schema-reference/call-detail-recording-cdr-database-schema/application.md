@@ -1,5 +1,5 @@
 ---
-title: Tabela Application no Skype for Business Server 2015
+title: Tabela application in Skype for Business Server 2015
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur

@@ -66,7 +66,7 @@ Aparência de linha compartilhada (SLA) é um novo recurso no Skype for Business
    Set-CsSlaConfiguration -Identity <IdentityOfGroup> -MaxNumberOfCalls <Number> -BusyOption <BusyOnBusy|Voicemail|Forward> [-Target <TargetUserOrPhoneNumber>]
    ```
 
-    O Set-CsSlaConfiguration cmdlet marca a conta do Enterprise Voice SLAGroup1 como uma entidade SLA, e o número de SLAGroup1 torna-se o número do grupo SLA. Todas as chamadas para SLAGroup1 tocarão em todo o grupo SLA.
+    O Set-CsSlaConfiguration cmdlet marca a conta do Enterprise Voice SLAGroup1 como uma entidade SLA, e o número de SLAGroup1 se torna o número do grupo SLA. Todas as chamadas para SLAGroup1 tocarão em todo o grupo SLA.
 
     O exemplo a seguir cria um grupo SLA para um usuário existente do Enterprise Voice, SLAGroup1, e usa o número atribuído a SLAGroup1 como o número da linha principal SLA.
 

@@ -25,12 +25,12 @@ Leia este tópico para saber como atribuir políticas de conferência para conta
   
 ## <a name="conferencing-policy-features"></a>Recursos de política de conferência
 
-A política de conferência atribuída à conta do Sistema de Sala do Skype deve ter determinadas características. Na maioria das vezes, o cliente do Sistema de Sala do Skype entra em uma reunião agendada e, portanto, a política de conferência do organizador da reunião afetará a conferência. No entanto, no Skype for Business Server, determinados recursos dependem da configuração do participante. Por exemplo, se a política do participante permitir uma resolução máxima de vídeo de 1080p, os participantes experimentarão essa capacidade de vídeo de resolução mais alta na conferência, mesmo se a política do organizador não permitir. A tabela a seguir descreve várias configurações que você deve estar ciente ao configurar políticas de conferência para contas do Sistema de Sala do Skype em sua organização. 
+A política de conferência atribuída à conta do Sistema de Sala do Skype deve ter determinadas características. Na maioria das vezes, o cliente do Sistema de Sala do Skype participa de uma reunião agendada e, portanto, a política de conferência do organizador da reunião afetará a conferência. No entanto, no Skype for Business Server, determinados recursos dependem da configuração do participante. Por exemplo, se a política do participante permitir uma resolução máxima de vídeo de 1080p, os participantes experimentarão essa capacidade de vídeo de resolução mais alta na conferência, mesmo se a política do organizador não permitir. A tabela a seguir descreve várias configurações que você deve estar ciente ao configurar políticas de conferência para contas do Sistema de Sala do Skype em sua organização. 
   
 |Recurso  <br/> |Valor  <br/> |Comentário  <br/> |
 |:-----|:-----|:-----|
 |AllowIPAudio  <br/> |TRUE  <br/> |Deve ser verdadeiro para o áudio do Sistema de Sala do Skype  <br/> |
-|AllowIPVideo  <br/> |TRUE  <br/> |Deve ser verdadeiro para o áudio do Sistema de Sala do Skype funcionar em sessões do quadro de branco Reunir Agora (ad hoc) no Sistema de Sala do Skype  <br/> |
+|AllowIPVideo  <br/> |TRUE  <br/> |Deve ser verdadeiro para que o áudio do Sistema de Sala do Skype funcione em sessões do quadro de branco Reunir Agora (ad hoc) no Sistema de Sala do Skype  <br/> |
 |AllowMultiView  <br/> |TRUE  <br/> |Permite que o Sistema de Sala do Skype renderizar vários fluxos de vídeo com várias exibições  <br/> |
 |AllowParticipantControl  <br/> |TRUE  <br/> |Afeta as sessões do quadro de trabalho Reunir Agora (ad hoc) no Sistema de Sala do Skype  <br/> |
 |AllowAnnotations  <br/> |TRUE  <br/> |Afeta as sessões do quadro de trabalho Reunir Agora (ad hoc) no Sistema de Sala do Skype  <br/> |
@@ -42,8 +42,8 @@ A política de conferência atribuída à conta do Sistema de Sala do Skype deve
 |AllowExternalUsersToSaveContent  <br/> |TRUE  <br/> |Afeta as sessões do quadro de trabalho Reunir Agora (ad hoc) no Sistema de Sala do Skype  <br/> |
 |AllowExternalUserControl  <br/> |FALSE  <br/> |Afeta as sessões do quadro de trabalho Reunir Agora (ad hoc) no Sistema de Sala do Skype  <br/> |
 |AllowExternalUsersToRecordMeeting  <br/> |FALSE  <br/> |Afeta as sessões do quadro de trabalho Reunir Agora (ad hoc) no Sistema de Sala do Skype  <br/> |
-|AllowPolls  <br/> |TRUE  <br/> |N/A em reuniões reunir agora (ad hoc), mas o Sistema de Sala skype pode responder a votações na tela na frente da sala  <br/> |
-|AllowSharedNotes  <br/> |TRUE  <br/> |N/A em reuniões reunir agora (ad hoc), mas o Sistema de Sala skype pode responder a votações na tela na frente da sala  <br/> |
+|AllowPolls  <br/> |TRUE  <br/> |N/S em reuniões reunir agora (ad hoc), mas o Sistema de Sala skype pode responder a votações na tela na frente da sala  <br/> |
+|AllowSharedNotes  <br/> |TRUE  <br/> |N/S em reuniões reunir agora (ad hoc), mas o Sistema de Sala skype pode responder a votações na tela na frente da sala  <br/> |
 |EnableDialInConferencing  <br/> |TRUE  <br/> |Afeta as sessões do quadro de trabalho Reunir Agora (ad hoc) no Sistema de Sala do Skype  <br/> |
 |EnableAppDesktopSharing  <br/> |Desktop  <br/> |Afeta as sessões do quadro de trabalho Reunir Agora (ad hoc) no Sistema de Sala do Skype  <br/> |
 |AllowConferenceRecording  <br/> |FALSE  <br/> |N/A para o Sistema de Sala do Skype. Se for VERDADEIRO, uma parte remota poderá gravar  <br/> |

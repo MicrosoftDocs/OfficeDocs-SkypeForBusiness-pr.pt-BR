@@ -47,7 +47,7 @@ O Relatório de Uso do Grupo de Resposta permite que você filtre em um URI de f
 
 ## <a name="accessing-the-response-group-usage-report"></a>Acessando o Relatório de Uso do Grupo de Resposta
 
-O Relatório de Uso do Grupo de Resposta é acessado pela home page Relatórios de Monitoramento. Você pode detalhar o Relatório de Lista de Chamadas do Grupo de [Resposta no Skype for Business Server](call-list-report.md) clicando em qualquer uma das seguintes métricas:
+O Relatório de Uso do Grupo de Resposta é acessado pela home page Relatórios de Monitoramento. Você pode detalhar o Relatório de Lista de Chamadas do Grupo de Resposta no [Skype for Business Server](call-list-report.md) clicando em qualquer uma das seguintes métricas:
 
 - Chamadas recebidas
 

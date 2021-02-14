@@ -50,7 +50,7 @@ Os Pacotes de Gerenciamento podem ser usados com o System Center Operations Mana
 |Monitoramento sem agentes  <br/> |Sem suporte.  <br/> |
 |Ambiente virtual  <br/> |Sim.  <br/> |
 |Funções de servidor ingressados no domínio  <br/> |Todas as funções internas de servidor do Skype for Business Server 2015 devem ser ingressados no domínio.  <br/> |
-|Funções de servidor autônomos  <br/> |Os Servidores de Borda do Skype for Business Server 2015 não precisam ser ingressados no domínio.  <br/> |
+|Funções de servidor autônomos  <br/> |Os Servidores de Borda do Skype for Business Server 2015 não precisam ingressar no domínio.  <br/> |
 |Limitações da topologia  <br/> |Todas as funções de servidor em uma implantação devem ser monitoradas do mesmo Grupo de Gerenciamento do Operations Manager.  <br/> |
 |Nó do watcher de transações sintéticas  <br/> |A disponibilidade do cenário de monitoramento com um nó do watcher de transações sintéticas é suportada (configuração adicional necessária). Nós do watcher não precisam ser ingressados no domínio.  <br/> |
    
@@ -106,7 +106,7 @@ O Pacote de Gerenciamento do Skype for Business Server 2015 aproveita diversos r
 |Transações sintéticas  <br/> | Cmdlets do Windows PowerShell para testar e ajudar a garantir a alta disponibilidade de cenários como entrada, presença, IM e conferência para os usuários. <br/> As transações sintéticas podem ser executados de qualquer localização geográfica, incluindo dentro da empresa, fora da empresa e em filiais.  <br/> Quando uma transação sintética falha, os log HTML são criados para ajudar a determinar a natureza exata da falha. Isso inclui compreender qual ação falhou, a latência de cada ação, a linha de comando usada para executar o teste e o erro específico que ocorreu.  <br/> |
 |Alertas de confiabilidade de chamada  <br/> |Os Registros de Detalhes das Chamadas (CDRs) gravados pelos Servidores do Skype for Business Server 2015 refletem se os usuários podem se conectar a uma chamada ou por que uma chamada foi encerrada. Os alertas de confiabilidade de chamada consultam o banco de dados CDR para produzir alertas que indicam quando um alto número de usuários experimentam problemas de conectividade para chamadas ponto a ponto ou funcionalidade básica de conferência.  <br/> A cobertura do cenário inclui chamadas de áudio, mensagens instantâneas (IM) ponto a ponto e outros recursos de conferência.  <br/> |
 |Alertas de qualidade de mídia  <br/> |Consultas de banco de dados que consultam os relatórios de QoE (Qualidade da Experiência) publicados pelos clientes do Skype for Business Server 2015 no final de cada chamada. Essas consultas produzem alertas que identificam cenários em que os usuários provavelmente experimentarão uma qualidade de mídia comprometida durante chamadas e conferências. Os dados são construídos com base nas principais métricas, como latência e perda de pacotes, que contribuem diretamente para a qualidade da experiência do usuário.  <br/> |
-|Alertas de saúde do componente  <br/> |Os componentes individuais do servidor aprecem alertas por meio de logs de eventos e contadores de desempenho para indicar condições de falha que podem afetar significativamente os cenários do usuário. Esses alertas indicam uma variedade de condições, como serviços que não estão em execução, altas taxas de falha, alta latência de mensagens ou problemas de conectividade.  <br/> |
+|Alertas de saúde do componente  <br/> |Componentes individuais do servidor aumentem alertas por meio de logs de eventos e contadores de desempenho para indicar condições de falha que podem afetar significativamente os cenários do usuário. Esses alertas indicam uma variedade de condições, como serviços que não estão em execução, altas taxas de falha, alta latência de mensagens ou problemas de conectividade.  <br/> |
 |Monitoramento de saúde de dependência  <br/> |O Skype for Business Server pode falhar por vários motivos externos. O Pacote de Gerenciamento monitora e coleta dados para dependências externas críticas que podem indicar problemas graves. Essas dependências incluem a disponibilidade dos Serviços de Informações da Internet (IIS) e a CPU dos servidores usados para o Skype for Business Server.  <br/> |
 |||
    
@@ -142,7 +142,7 @@ Os Pacotes de Gerenciamento do Skype for Business Server 2015 oferecem maior cob
 |8   <br/> |McX Peer-to-Peer Instant Message (mobile)  <br/> |Disponível na versão de setembro de 2011 do Lync Server 2010 para o Skype for Business 2015  <br/> |
  
 > [!NOTE]
-> O suporte a MCX (Mobility Service) para clientes móveis herdado não está mais disponível no Skype for Business Server 2019. Todos os clientes móveis atuais do Skype for Business já usam o Unified Communications Web API (UCWA) para dar suporte a mensagens instantâneas (IM), presença e contatos. Os usuários com clientes herddos usando o MCX precisarão atualizar para um cliente atual.
+> O suporte a MCX (Mobility Service) para clientes móveis herdado não está mais disponível no Skype for Business Server 2019. Todos os clientes móveis atuais do Skype for Business já usam o Unified Communications Web API (UCWA) para dar suporte a mensagens instantâneas (IM), presença e contatos. Os usuários com clientes herddos usando MCX precisarão atualizar para um cliente atual.
 
 
 |Transações Sintéticas Suportadas para Conferência e Chat Persistente|||

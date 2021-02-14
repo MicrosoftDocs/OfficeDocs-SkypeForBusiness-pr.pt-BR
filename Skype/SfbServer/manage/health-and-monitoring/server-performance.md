@@ -43,7 +43,7 @@ O Relatório de Desempenho do Servidor fornece uma lista de servidores do Skype 
   
 ## <a name="accessing-the-server-performance-report"></a>Como avaliar o Relatório de desempenho do servidor
 
-O Relatório de desempenho do servidor é acessado a partir da página inicial dos Relatórios de Monitoramento. Você pode detalhar o Relatório [de Lista de Chamadas no Skype for Business Server](call-list-report-0.md) clicando em uma das seguintes métricas:
+O Relatório de desempenho do servidor é acessado a partir da página inicial dos Relatórios de Monitoramento. Você pode detalhar o [Relatório de Lista de Chamadas no Skype for Business Server](call-list-report-0.md) clicando em uma das seguintes métricas:
   
 - Volume da chamada
     

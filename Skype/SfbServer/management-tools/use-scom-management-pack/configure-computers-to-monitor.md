@@ -32,7 +32,7 @@ Cada computador do Skype for Business Server 2015 que você deseja monitorar dev
 
 Agentes do System Center Operations Manager em execução em uma rede de perímetro (como um Servidor de Borda do Skype for Business Server), fora da empresa (como um nó do watcher de transação sintética externa) ou em um limite de confiança do Active Directory, podem exigir a configuração de um System Center Operations Manager Gateway Server. Essa função de servidor permite que agentes que não tenham uma relação de confiança com o Servidor de Gerenciamento Raiz ativem alertas. Para obter detalhes, [consulte Managing Gateway Servers in Operations Manager 2012](https://technet.microsoft.com/library/hh212823.aspx).
 
-Se você implantar um agente em um desses locais, também precisará solicitar e configurar um certificado que habilita o nó do watcher a enviar alertas para o System Center Operations Manager. Para simplificar esse processo, a equipe do Operations Manager criou um conjunto de utilitários que permitem que você solicite e instale o tipo certo de certificado no computador nó watcher. Para obter detalhes e baixar esses [utilitários, consulte Obtendo certificados](https://go.microsoft.com/fwlink/p/?LinkID=267421&amp;amp;clcid=0x409)para agentes que não ingressaram no domínio facilitam com o Assistente de Geração de Certificado.
+Se você implantar um agente em um desses locais, também precisará solicitar e configurar um certificado que habilita o nó do watcher a enviar alertas para o System Center Operations Manager. Para simplificar esse processo, a equipe do Operations Manager criou um conjunto de utilitários que permitem que você solicite e instale o tipo certo de certificado no computador nó watcher. Para obter detalhes e baixar esses [utilitários, consulte Obtendo certificados](https://go.microsoft.com/fwlink/p/?LinkID=267421&amp;amp;clcid=0x409)para agentes que não ingressaram no domínio foram facilitados com o Assistente de Geração de Certificado.
 
 ### <a name="installing-the-operation-manager-agent-files"></a>Instalando os arquivos de agente do Operation Manager
 
@@ -46,11 +46,11 @@ Se você implantar um agente em um desses locais, também precisará solicitar e
 
 5. Na página Configuração do Grupo de Gerenciamento, selecione Especificar informações **do Grupo de Gerenciamento** e clique em **Próximo.**
 
-6. Na página Configuração do Grupo de Gerenciamento, digite  o nome do seu Grupo de Gerenciamento do Operations Manager na caixa Nome do Grupo de Gerenciamento  e digite o nome do host do seu servidor do Operations Manager (por exemplo, atl-scom-001) na caixa Servidor de Gerenciamento. Se você alterou o número da porta usado pelo Operations Manager, insira o novo número da porta na caixa **Porta do Servidor de** Gerenciamento. Caso contrário, deixe a porta com o valor padrão de 5723 e clique em **Próximo.**
+6. Na página Configuração do Grupo de Gerenciamento, digite  o nome do seu Grupo de Gerenciamento do Operations Manager na caixa Nome do Grupo de Gerenciamento  e digite o nome de host do seu servidor do Operations Manager (por exemplo, atl-scom-001) na caixa Servidor de Gerenciamento. Se você alterou o número da porta usada pelo Operations Manager, insira o novo número da porta na caixa **Porta do Servidor de** Gerenciamento. Caso contrário, deixe a porta com o valor padrão de 5723 e clique em **Próximo.**
 
 7. Na página Conta de Ação do Agente, selecione **Sistema Local** e clique em **Próximo.**
 
-8. Na página Do Microsoft Update, selecione Não quero usar **o Microsoft Update** e clique em **Próximo.**
+8. Na página do Microsoft Update, selecione Não quero usar **o Microsoft Update** e clique em **Próximo.**
 
 9. Na página Pronto para Instalar, clique em **Instalar**.
 
@@ -73,7 +73,7 @@ Para garantir que seu novo agente do Skype for Business Server participe do proc
 
 2. Clique no **Assistente de Descoberta** e conclua o assistente para o computador a ser descoberto.
 
-3. Reinicialize o serviço agente de saúde. Reiniciar o serviço forçará a descoberta do novo computador. Se você não reiniciar o serviço, pode levar até 4 horas antes que o novo computador seja descoberto pelo System Center Operations Manager.
+3. Reinicialize o serviço agente de saúde. Reiniciar o serviço forçará a descoberta do novo computador. Se você não reiniciar o serviço, poderá levar até 4 horas antes que o novo computador seja descoberto pelo System Center Operations Manager.
 
 4. Verifique se nenhum evento de erro foi registrado no log de eventos do Operations Manager.
 

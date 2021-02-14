@@ -38,7 +38,7 @@ Para obter detalhes sobre os diferentes procedimentos que você pode executar us
 
 ## <a name="to-configure-categories-for-chat-rooms"></a>Para configurar as categorias para salas de chat
 
-Em **Associação,** na seção **Membros** Negados, adicione ou remova usuários e outras entidades do Active Directory associadas aos membros que estão sendo negados da sala.
+Em **Associação,** na **seção Membros** Negados, adicione ou remova usuários e outras entidades do Active Directory associadas aos membros que estão sendo negados da sala.
 
 
 Para obter detalhes sobre recursos do Servidor de Chat Persistente, consulte [Overview of Persistent Chat Server](https://technet.microsoft.com/library/23f7c886-304d-495a-ae70-3cbb44241acd.aspx) in the Planning documentation. Para obter detalhes sobre como trabalhar com configurações de Servidor de Chat Persistente, consulte [Configuring Persistent Chat Server](https://technet.microsoft.com/library/d90a4049-b268-4e8e-9f24-0cef08c8d9ed.aspx) in the Deployment documentation and [Managing Lync Server 2013, Persistent Chat Server](https://technet.microsoft.com/library/82befdc6-5d32-45f1-bfd7-aaedffed1ab8.aspx) in the Operations documentation.

@@ -70,7 +70,7 @@ Quando a Ferramenta de Provisionamento do Usuário for aberta, clique em Configu
   
 Para começar a configurar usuários e contatos, carregue o arquivo padrão incluído no pacote, chamado "SampleData.xml". Isso pré-fará com que os campos com dados de exemplo que você precisará alterar para torná-los relevantes para sua implantação.
   
-Se você tiver um arquivo XML pré-configurado que já contém suas configurações personalizadas, poderá carregar esse arquivo. Preencha os campos na Ferramenta de Provisionamento do Usuário, conforme descrito nas seções abaixo.
+Se você tiver um arquivo XML pré-configurado que já contém suas configurações personalizadas, poderá carregar esse arquivo. Preencha os campos na Ferramenta de Provisionamento de Usuário, conforme descrito nas seções abaixo.
   
 ### <a name="to-configure-server-options"></a>Para configurar opções de servidor:
 
@@ -129,11 +129,11 @@ Essa guia permite que você dê detalhes dos contatos dos usuários para seu tes
   
 ### <a name="to-configure-users-contacts-do-the-following"></a>Para configurar os contatos dos usuários, faça o seguinte:
 
-1. No campo **Média de Contatos por** Usuário, insira o número médio de contatos a preencher nas listas de contatos de cada usuário.
+1. No campo **Média de Contatos por** Usuário, insira o número médio de contatos a ser preenchido nas listas de contatos de cada usuário.
     
 2. Marque a **caixa de** seleção Fixa se quiser criar um número igual de contatos para cada usuário. Se você quiser variar o número de contatos criados para os usuários, des marque essa caixa de seleção.
     
-3. No campo **Média de Grupos de Contatos por** Usuário, insira o número de grupos de contatos por usuário. Esse número precisa ser menor que **a Média de Contatos por Usuário.**
+3. No campo **Média de Grupos de Contatos por** Usuário, insira o número de grupos de contatos por usuário. Esse número precisa ser menor que a **Média de Contatos por Usuário.**
     
 4. No campo **Porcentagem de Contatos federados/entre pools,** dê um número entre 0 e 100. Essa porcentagem de contatos será criada com os usuários federados.
     
@@ -143,10 +143,10 @@ Essa guia permite que você dê detalhes dos contatos dos usuários para seu tes
     
 7. Na **guia Criação do** Usuário, certifique-se de que as informações estão corretas. Seus contatos serão criados a partir de valores na guia Criação de Usuário.
     
-8. Clique **em Criar Contatos** para iniciar a criação do contato. Esse processo pode levar vários minutos. Após a conclusão, uma caixa de diálogo será exibida com a mensagem "Operação Concluída com Êxito". Você pode validar os contatos que foram criados fazendo logom como um usuário que foi criado a partir da guia Criação de Usuário.
+8. Clique **em Criar Contatos para** iniciar a criação do contato. Esse processo pode levar vários minutos. Após a conclusão, uma caixa de diálogo será exibida com a mensagem "Operação Concluída com Êxito". Você pode validar os contatos que foram criados fazendo logom como um usuário que foi criado a partir da guia Criação de Usuário.
     
     > [!NOTE]
-    > Depois que os contatos são criados, essa ferramenta reiniciará todos os Servidores front-end no pool de destino. Pode levar mais (até 2 horas) para que os Servidores Front End iniciem, dependendo de quantos contatos foram criados por essa operação. 
+    > Depois que os contatos são criados, essa ferramenta reiniciará todos os Servidores front-end no pool de destino. Pode levar mais (até 2 horas) para que os Servidores front-end iniciem, dependendo de quantos contatos foram criados por essa operação. 
   
 #### <a name="distribution-list"></a>Lista de distribuição
 
@@ -236,7 +236,7 @@ A **guia Configuração** Comum da Ferramenta de Configuração de Carga é most
     
 11. No campo **Porta,** insira a porta que você deseja que os usuários usem para SIP (o padrão aqui é 5061).
     
-12. Para o **campo Configurações do Servidor de** Rede Externa, dê ao Proxy de Acesso ou pool FQDN e, novamente, a **porta**. Essas configurações são usadas somente para simulação de carga de pontos de extremidade externos.
+12. Para o **campo Configurações do Servidor de** Rede Externa, dê o FQDN do Proxy de Acesso ou pool e, novamente, a **porta**. Essas configurações são usadas apenas para simulação de carga de pontos de extremidade externos.
     
 #### <a name="general-scenarios-tab"></a>Guia Cenários Gerais
 
@@ -245,7 +245,7 @@ A **guia Configuração** Comum da Ferramenta de Configuração de Carga é most
 Você pode configurar os níveis de carga e os parâmetros para cada um dos cenários gerais oferecidos determinando o que você deseja executar ou deixar desabilitado. Aqui estão suas opções gerais:
   
 > [!NOTE]
-> Valores de nível de carga para todos os campos, mas os Serviços de Informações Locais estão Desabilitados **,** **Baixo,** **Médio,** **Alto** ou **Personalizado.** Se você selecionar qualquer configuração, mas desabilitada, as configurações serão geradas para cada cliente. Alto resultado na carga máxima suportada no servidor; médio é 60% de alta carga; o valor baixo é 30%. 
+> Valores de nível de carga para todos os campos, mas os Serviços de Informações Locais estão **Desabilitados** **,** Baixo , **Médio** **,** Alto ou **Personalizado.** Se você selecionar qualquer configuração, mas desabilitada, as configurações serão geradas para cada cliente. Alto resultado na carga máxima suportada no servidor; médio é 60% de alta carga; o valor baixo é 30%. 
   
 - **Sistema de Mensagens Instantâneas -** Isso inclui conferência e ponto a ponto; escolha o valor apropriado para o Nível de Carga.
     
@@ -286,7 +286,7 @@ Essa é a guia para configuração de todos os cenários relacionados à voz.
   
 Suas opções são:
   
-- **VoIP -** Clique no **botão Avançado** e adicione valores para os campos PhoneAreaCode e LocationProfile (plano de discagem). Você também dará um valor para o Nível de Carga. Se você escolher um nível de carga para VoIP ou Gateway UC/PSTN habilitado, um arquivo de configuração de rede telefônica pública comutado (PSTN) para comunicações unificadas (UC) será gerado para simular chamadas externas.
+- **VoIP -** Clique no **botão Avançado** e adicione valores para os campos PhoneAreaCode e LocationProfile (plano de discagem). Você também dará um valor para o Nível de Carga. Se você escolher um nível de carga para VoIP ou Gateway UC/PSTN habilitado, um arquivo de configuração de rede telefônica pública comutado (PSTN) para UC (comunicações unificadas) será gerado para simular chamadas externas.
     
 - **Gateway UC/PSTN -** Você precisa escolher um valor de Nível de Carga e, quando escolher algo diferente de Desabilitado, também terá que fornecer um valor para o código de área PSTN clicando no **botão** Avançado. Clique **em Adicionar** sob o Servidor de Mediação e PSTN. Certifique-se de que você tenha uma rota configurada para o código de área.
     
@@ -308,7 +308,7 @@ Suas opções são:
   
 O Web App dá suporte a cenários de conferência por meio do servidor UCWA (Unified Communications Web API) instalado em um servidor front-end. Use a guia Aplicativo Web para configurar todos os cenários relacionados ao aplicativo Web. As opções são:
   
-- **Configurações gerais do Aplicativo Web -** Clique no **botão Configurações** Adicionais e defina **ReachTargetServerUrl** como o VIP (IP virtual) do Pool de Diretórios do VIP do pool de Front-End.
+- **Configurações Gerais do Aplicativo Web -** Clique no **botão Configurações** Adicionais e defina **ReachTargetServerUrl** como o VIP (IP virtual) do Pool de Diretórios do VIP do pool de Front-End.
     
 - **Compartilhamento de Aplicativos -** Selecione um valor para o Nível de Carga.
     
@@ -414,7 +414,7 @@ Aqui está uma lista dos principais contadores de desempenho:
 |:-----|:-----|
 |Tempo gasto em minutos  <br/> |Tempo gasto desde o início do processo.  <br/> |
 |Pontos de extremidade ativos  <br/> |Número de pontos de extremidade atualmente conectados ao servidor.  <br/> |
-|Logons com Falha  <br/> |Número total de falhas de login do ponto de extremidade.  <br/> |
+|Logons com falha  <br/> |Número total de falhas de login do ponto de extremidade.  <br/> |
 |Tentativas de logon  <br/> |Número total de tentativas de login do ponto de extremidade.  <br/> |
 |Pontos de extremidade desconectados  <br/> |Número total de pontos de extremidade que foram desconectados.  <br/> |
    
@@ -445,7 +445,7 @@ Aqui está uma lista dos principais contadores de desempenho:
 
 |**Contador de desempenho**|**Descrição**|
 |:-----|:-----|
-|Tentativas de chamadas  <br/> |Número total de tentativas de solicitações de serviço Web de expansão de lista de distribuição (DLX).  <br/> |
+|Chamadas tentada  <br/> |Número total de tentativas de solicitações de serviço Web de expansão de lista de distribuição (DLX).  <br/> |
 |Chamadas bem-sucedidas  <br/> |Número total de solicitações de serviço Web DLX que retornaram um código de resposta bem-sucedido.  <br/> |
 |Falhas nas chamadas  <br/> |Número total de solicitações de serviço Web DLX que retornaram um código de resposta de erro.  <br/> |
    
@@ -471,7 +471,7 @@ Aqui está uma lista dos principais contadores de desempenho:
 |**Contador de desempenho**|**Descrição**|
 |:-----|:-----|
 |Chamadas ativas  <br/> |Número total de chamadas ativas para o aplicativo Grupo de Resposta.  <br/> |
-|Tentativas de chamadas  <br/> |Número total de chamadas tentada.  <br/> |
+|Chamadas tentada  <br/> |Número total de chamadas tentada.  <br/> |
    
 **Informações de chamada de mensagens instantâneas (IM)**
 
@@ -511,7 +511,7 @@ Aqui está uma lista dos principais contadores de desempenho:
 |Conferências de áudio/vídeo ativas  <br/> |Número total de conferências contínuas de áudio/vídeo (A/V).  <br/> |
 |Conferências de compartilhamento de aplicativos ativas  <br/> |Número total de conferências contínuas de compartilhamento de aplicativos.  <br/> |
 |Número de participantes  <br/> |Número total de participantes conectados a conferências no momento.  <br/> |
-|Falha no Agendamento de Conferência  <br/> |Número total de falhas ao tentar agendar uma conferência.  <br/> |
+|Falha no Agendamento de Conferências  <br/> |Número total de falhas ao tentar agendar uma conferência.  <br/> |
 |Falha na conferência de ingressar  <br/> |Número total de falhas ao tentar se conectar a uma conferência.  <br/> |
    
 **Contadores de cliente UCWA**

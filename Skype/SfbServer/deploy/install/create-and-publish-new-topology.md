@@ -94,7 +94,7 @@ Você pode usar o Construtor de Topologias do Skype for Business Server para pro
     
 6. Usando as funções de servidor Associar com esta página do pool de **Front-End,** você pode definir e associar funções de servidor ao pool de Front-End. A seguinte função está disponível:
     
-    **Habilitar um pool de Borda** Define e associa um único Servidor de Borda ou um pool de Servidores de Borda. Um Servidor de Borda facilita a comunicação e colaboração entre usuários dentro da organização e pessoas de fora da organização, incluindo usuários federados.
+    **Habilitar um pool de Borda** Define e associa um único Servidor de Borda ou um pool de Servidores de Borda. Um Servidor de Borda facilita a comunicação e a colaboração entre usuários dentro da organização e pessoas de fora da organização, incluindo usuários federados.
     
     Há dois cenários possíveis que você pode usar para implantar e associar as funções de servidor.
     
@@ -188,7 +188,7 @@ Você pode usar o Construtor de Topologias do Skype for Business Server para pro
     > Recomendamos usar a URL mais simples possível para a URL Admin. A opção mais simples https://admin é... _\<domain\>_ A URL do Administrador pode ser um domínio interno ou externo, por exemplo, contoso.local ou contoso.com, desde que qualquer registro seja resolvido no DNS interno. 
   
     > [!IMPORTANT]
-    > Se você alterar uma URL simples após a implantação inicial, esteja ciente das alterações que afetam seus registros de DNS (Sistema de Nome de Domínio) e certificados para URLs simples. Se a alteração afetar a base de uma URL simples, você também deverá alterar os registros DNS e certificados. Por exemplo, mudar de para altera a URL base de sfb.contoso.com para meet.contoso.com, portanto, você precisaria alterar os registros DNS e certificados para se referir https://sfb.contoso.com/Meet https://meet.contoso.com meet.contoso.com. Se você alterou a URL simples de para , a URL base de sfb.contoso.com permanece a mesma, portanto, nenhuma alteração de DNS ou certificado https://sfb.contoso.com/Meet https://sfb.contoso.com/Meetings é necessária. Sempre que alterar um nome de URL simples, no entanto, você deve executar o cmdlet **Enable-CsComputer** em cada Diretor e servidor front-end para registrar a alteração.
+    > Se você alterar uma URL simples após a implantação inicial, esteja ciente das alterações que afetam seus registros de DNS (Sistema de Nome de Domínio) e certificados para URLs simples. Se a alteração afetar a base de uma URL simples, você também deverá alterar os registros DNS e os certificados. Por exemplo, mudar de para altera a URL base de sfb.contoso.com para meet.contoso.com, portanto, você precisaria alterar os registros DNS e certificados para se referir https://sfb.contoso.com/Meet https://meet.contoso.com meet.contoso.com. Se você alterou a URL simples de para , a URL base de sfb.contoso.com permanece a mesma, portanto, nenhuma alteração de DNS ou certificado https://sfb.contoso.com/Meet https://sfb.contoso.com/Meetings é necessária. Sempre que alterar um nome de URL simples, no entanto, você deve executar o cmdlet **Enable-CsComputer** em cada Diretor e servidor front-end para registrar a alteração.
   
 ### <a name="publish-and-verify-the-topology"></a>Publicar e verificar a topologia
 
@@ -196,7 +196,7 @@ Você pode usar o Construtor de Topologias do Skype for Business Server para pro
     
 2. Confirme se o servidor baseado em SQL Server está online e disponível para o computador onde o Construtor de Topologias está instalado, incluindo quaisquer regras de firewall necessárias.
     
-3. Confirme se o compartilhamento de arquivos está disponível e se as permissões adequadas estão definidas.
+3. Confirme se o compartilhamento de arquivos está disponível e se as permissões adequadas foram definidas.
     
 4. Confirme se as funções de servidor corretas que atendem aos requisitos de implantação estão definidas na topologia.
     
@@ -220,7 +220,7 @@ Você pode usar o Construtor de Topologias do Skype for Business Server para pro
     > [!NOTE]
     > Se você não tiver os direitos apropriados para criar os bancos de dados, des marque as caixas de seleção ao lado desses bancos de dados, e alguém com os direitos apropriados poderá criar os bancos de dados posteriormente. Para obter detalhes sobre os requisitos, [consulte Requisitos de servidor para o Skype for Business Server.](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md) 
   
-10. Opcionalmente, clique **em Avançado**. Usando as opções avançadas de posicionamento de arquivo de dados do SQL Server, você pode selecionar entre as seguintes opções: 
+10. Opcionalmente, clique **em Avançado.** Usando as opções avançadas de posicionamento de arquivo de dados do SQL Server, você pode selecionar entre as seguintes opções: 
     
     - **Determinar automaticamente** o local do arquivo de banco de dados - Essa opção determina o melhor desempenho operacional com base na configuração de disco em seu servidor baseado no SQL Server, distribuindo os arquivos de log e de dados para o melhor local.
     

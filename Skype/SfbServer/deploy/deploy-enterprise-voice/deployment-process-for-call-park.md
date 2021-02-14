@@ -29,7 +29,7 @@ Processo de implantação e etapas para estacionamento de chamadas no Skype for 
   
 O Estacionamento de Chamada permite que um usuário do Enterprise Voice coloque uma chamada em espera em um telefone e recupere a chamada mais tarde discando um número interno (conhecido como órbita de Estacionamento de Chamadas) de qualquer telefone.
   
-Os componentes que o Estacionamento de Chamada usa são instalados e habilitados automaticamente no Servidor front-end ou servidor Standard Edition quando você implanta o Enterprise Voice. No entanto, você deve usar as etapas a seguir para configurar o Estacionamento de Chamada antes que ele seja disponibilizado para os usuários. 
+Os componentes que o Estacionamento de Chamada usa são instalados e habilitados automaticamente no Servidor front-end ou no servidor Standard Edition quando você implanta o Enterprise Voice. No entanto, você deve usar as etapas a seguir para configurar o Estacionamento de Chamada antes que ele seja disponibilizado para os usuários. 
   
 **Implantação do Processo de Estacionamento de Chamada**
 

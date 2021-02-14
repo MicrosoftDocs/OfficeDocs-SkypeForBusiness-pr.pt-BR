@@ -1,6 +1,6 @@
 ---
 title: Expanda o Microsoft Teams em toda a sua organização
-description: Saiba mais sobre os recursos disponíveis para criar a implantação padrão do Teams para ajudá-lo a tirar o máximo do Teams para tipos de organização específicos.
+description: Saiba mais sobre os recursos disponíveis para criar a implantação padrão do Teams para ajudá-lo a obter o máximo do Teams para tipos de organização específicos.
 ms.topic: conceptual
 author: cichur
 ms.author: v-cichur
@@ -24,9 +24,9 @@ ms.locfileid: "49814631"
 ---
 # <a name="expand-microsoft-teams-across-your-organization"></a>Expanda o Microsoft Teams em toda a sua organização
 
-Esses recursos se baseam nas diretrizes de implantação padrão do Teams e foram projetados para ajudá-lo a tirar o máximo do Teams para tipos de organização específicos. Se você ainda não implantou o Teams, veja o caminho recomendado para o Teams em [Como lançar o Microsoft Teams.](../How-to-roll-out-teams.md)
+Esses recursos se baseam nas diretrizes de implantação padrão do Teams e foram projetados para ajudá-lo a tirar o máximo do Teams para tipos de organização específicos. Se você ainda não implantou o Teams, confira o caminho recomendado para o Teams em [Como lançar o Microsoft Teams.](../How-to-roll-out-teams.md)
 
 |               |               |               |               |               |               | 
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | 
-| ![task-checklist-planning-teams](../media/clock-teams-small.svg)  |  [Turnos do Teams](/microsoftteams/expand-teams-across-your-org/shifts-for-teams-landing-page) |![health-teams](../media/health-teams-small.svg)  | [Teams para Serviços de Saúde](/microsoftteams/expand-teams-across-your-org/teams-for-healthcare-landing-page) |![education-tutorial-teams](../media/education-tutorial-teams-small.svg) |  [Teams para a Educação](/microsoftteams/expand-teams-across-your-org/teams-for-education-landing-page) 
-|![small-business-teams](../media/small-business-teams-small.svg)  | [Teams para o Varejo](/microsoftteams/expand-teams-across-your-org/teams-for-retail-landing-page) |![blocks-teams](../media/blocks-teams-small.svg)  | [Teams para a Administração Pública](/microsoftteams/expand-teams-across-your-org/teams-for-government-landing-page) |               |               |
+| ![equipes de planejamento de lista de tarefas](../media/clock-teams-small.svg)  |  [Turnos do Teams](/microsoftteams/expand-teams-across-your-org/shifts-for-teams-landing-page) |![equipes de saúde](../media/health-teams-small.svg)  | [Teams para Serviços de Saúde](/microsoftteams/expand-teams-across-your-org/teams-for-healthcare-landing-page) |![education-tutorial-teams](../media/education-tutorial-teams-small.svg) |  [Teams para a Educação](/microsoftteams/expand-teams-across-your-org/teams-for-education-landing-page) 
+|![small-business-teams](../media/small-business-teams-small.svg)  | [Teams para o Varejo](/microsoftteams/expand-teams-across-your-org/teams-for-retail-landing-page) |![blocos de equipes](../media/blocks-teams-small.svg)  | [Teams para a Administração Pública](/microsoftteams/expand-teams-across-your-org/teams-for-government-landing-page) |               |               |

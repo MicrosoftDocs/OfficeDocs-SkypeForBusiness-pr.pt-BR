@@ -25,7 +25,7 @@ ms.locfileid: "49813421"
 ---
 # <a name="define-the-scope-of-the-e9-1-1-deployment-in-skype-for-business-server"></a>Definir o escopo da implantação do E9-1-1 no Skype for Business Server
 
-Decisões necessárias para o planejamento de uma implantação de E9-1-1 no Skype for Business Server Enterprise Voice.
+Decisões necessárias para o planejamento de uma implantação do E9-1-1 no Skype for Business Server Enterprise Voice.
 
 Antes de configurar o Skype for Business para E9-1-1, você precisa planejar sua implantação do E9-1-1. Algumas das questões a serem consideradas são:
 

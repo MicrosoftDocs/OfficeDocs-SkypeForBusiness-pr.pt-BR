@@ -30,7 +30,7 @@ As seções a seguir descrevem as etapas necessárias para configurar a autentic
 
 As etapas a seguir descrevem como configurar uma AC raiz corporativa para dar suporte à Autenticação de Cartão Inteligente:
 
-Para obter informações sobre como instalar uma AUTORIDADE de Certificação Raiz Corporativa, consulte Instalar uma Autoridade de [Certificação Raiz Empresarial.](https://go.microsoft.com/fwlink/p/?LinkID=313364)
+Para obter informações sobre como instalar uma AC raiz corporativa, consulte Instalar uma Autoridade de [Certificação Raiz Empresarial.](https://go.microsoft.com/fwlink/p/?LinkID=313364)
 
 1. Faça logoff no computador da AC corporativa usando uma conta de Administrador de Domínio.
 
@@ -50,7 +50,7 @@ Para obter informações sobre como instalar uma AUTORIDADE de Certificação Ra
 
 9. Selecione **Gerenciar**.
 
-10. Abra as propriedades do modelo usuário cartão inteligente.
+10. Abra as propriedades do modelo de Usuário do Cartão Inteligente.
 
 11. Clique na **guia** Segurança.
 
@@ -74,7 +74,7 @@ Para computadores equipados com um chip TPM (Trusted Platform Module) que atenda
 
 2. Na tela inicial do Windows 8, mova o cursor para o canto inferior direito da tela.
 
-3. Selecione a **opção** Pesquisar e pesquise Prompt de Comando.
+3. Selecione a **opção** Pesquisar e, em seguida, procure Promptcommand.
 
 4. Clique com o botão **direito do mouse** no Prompt de Comando e selecione Executar como **Administrador.**
 
@@ -116,7 +116,7 @@ Para computadores equipados com um chip TPM (Trusted Platform Module) que atenda
 
 Geralmente, há dois métodos para registrar usuários para autenticação de cartão inteligente. O método mais fácil envolve fazer com que os usuários se inscrevam diretamente para autenticação de cartão inteligente usando o registro na Web, enquanto o método mais complexo envolve o uso de um agente de registro. Este tópico se concentra no auto-registro para certificados de cartão inteligente.
 
-Para obter mais informações sobre como se inscrever em nome dos usuários como um agente de registro, consulte Registrar-se para [certificados em nome de outros usuários.](https://go.microsoft.com/fwlink/p/?LinkID=313367)
+Para obter mais informações sobre como se inscrever em nome de usuários como um agente de registro, consulte Registrar-se para [certificados em nome de outros usuários.](https://go.microsoft.com/fwlink/p/?LinkID=313367)
 
 ### <a name="to-enroll-users-for-smart-card-authentication"></a>Para registrar usuários para autenticação de cartão inteligente
 
@@ -168,7 +168,7 @@ Para obter mais informações sobre como se inscrever em nome dos usuários como
     > [!NOTE]
     > O valor padrão do PIN do cartão inteligente virtual é '12345678'.
 
-11. Depois que o certificado tiver sido emitido, clique em **Instalar este certificado** para concluir o processo de inscrição.
+11. Depois que o certificado tiver sido emitido, clique **em Instalar esse certificado** para concluir o processo de inscrição.
 
     > [!NOTE]
     >  Se sua solicitação de certificado falhar com o erro "Este navegador da Web não dá suporte à geração de solicitações de certificado", há três maneiras possíveis de resolver o problema:
@@ -257,7 +257,7 @@ Usando a autenticação baseada em formulários, você pode desenvolver uma pág
 
 5. Abra o arquivo de web.config usando o Bloco de Notas.
 
-6. Na barra de menus, selecione **Editar** e, em seguida, **encontre**.
+6. Na barra de menus, selecione **Editar** e, em seguida, **selecione Encontrar**.
 
 7. Procure \<localAuthenticationTypes\> por .
 
@@ -307,7 +307,7 @@ As etapas a seguir descrevem como criar uma configuração de serviço Web perso
   Get-CsWebServiceConfiguration -identity "Service:WebServer:SfBPool01.contoso.com" | format-list UseWsFedPassiveAuth, WsFedPassiveMetadataUri
   ```
 
-5. Para clientes, a Autenticação Passiva é o método de autenticação menos preferido para autenticação de webticket. Para todos os servidores Diretores, Pools Enterprise e Standard Edition que serão habilitados para autenticação passiva, todos os outros tipos de autenticação devem ser desabilitados nos Serviços Web do Skype for Business executando o seguinte cmdlet:
+5. Para clientes, a Autenticação Passiva é o método de autenticação menos preferido para autenticação de webticket. Para todos os Diretores, Pools Enterprise e servidores Standard Edition que serão habilitados para autenticação passiva, todos os outros tipos de autenticação devem ser desabilitados nos Serviços Web do Skype for Business executando o seguinte cmdlet:
 
   ```PowerShell
   Set-CsWebServiceConfiguration -Identity "Service:WebServer:SfBPool01.contoso.com" -UseCertificateAuth $false -UsePinAuth $false -UseWindowsAuth NONE

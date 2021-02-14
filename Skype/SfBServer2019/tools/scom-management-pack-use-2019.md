@@ -49,7 +49,7 @@ Os Pacotes de Gerenciamento podem ser usados com o System Center Operations Mana
 |Monitoramento sem agentes  <br/> |Sem suporte.  <br/> |
 |Ambiente virtual  <br/> |Sim.  <br/> |
 |Funções de servidor ingressados no domínio  <br/> |Todas as funções de servidor internas do Skype for Business Server 2019 devem ser ingressados no domínio.  <br/> |
-|Funções de servidor autônomos  <br/> |Os Servidores de Borda do Skype for Business Server 2019 não precisam ingressar no domínio.  <br/> |
+|Funções de servidor autônomos  <br/> |Os Servidores de Borda do Skype for Business Server 2019 não precisam ser ingressados no domínio.  <br/> |
 |Limitações da topologia  <br/> |Todas as funções de servidor em uma implantação devem ser monitoradas do mesmo Grupo de Gerenciamento do Operations Manager.  <br/> |
 |Nó do watcher de transações sintéticas  <br/> |A disponibilidade do cenário de monitoramento com um nó do watcher de transações sintéticas é suportada (configuração adicional necessária). Nós do watcher não precisam ser ingressados no domínio.  <br/> |
    
@@ -88,7 +88,7 @@ Os seguintes recursos são novos nos Pacotes de Gerenciamento do Skype for Busin
 
 - **Alterações na [atualização de setembro de 2019](https://www.microsoft.com/download/details.aspx?id=57511)** Alguns alertas tiveram caracteres especiais removidos. Em alguns casos, caracteres especiais interferem no recurso de notificação de canal de comando SCOM.
 
-- **Descoberta automática para entrada do cliente** Os aplicativos cliente que se ins dentro do Skype for Business Server 2019 geralmente descobre automaticamente o servidor para entrar. As transações sintéticas agora suportam a verificação de que a descoberta automática está configurada corretamente.
+- **Descoberta automática para entrada do cliente** Os aplicativos clientes que se ins loco no Skype for Business Server 2019 geralmente descobrem automaticamente o servidor para entrar. As transações sintéticas agora suportam a verificação de que a descoberta automática está configurada corretamente.
     
 - **Intervalos de executar transações sintéticas personalizadas** Para simplificar o processo de configuração dos Nós do Watcher, as transações sintéticas podem compartilhar contas de usuário. Isso diminui a frequência na qual os testes são executados à medida que os testes são serializados para evitar conflitos. Por padrão, as transações sintéticas são executados a cada 15 minutos para garantir que todos os testes tenham tempo para ser executado. Os administradores que optam por usar mais usuários ou menos testes por usuário agora também podem reduzir o intervalo de executar.
     
@@ -141,7 +141,7 @@ Os Pacotes de Gerenciamento do Skype for Business Server 2019 oferecem maior cob
 |8   <br/> |McX Peer-to-Peer Instant Message (mobile)  <br/> |Disponível na versão de setembro de 2011 do Lync Server 2010 para o Skype for Business 2019  <br/> |
  
 > [!NOTE]
-> O suporte a MCX (Mobility Service) para clientes móveis herdado não está mais disponível no Skype for Business Server 2019. Todos os clientes móveis atuais do Skype for Business já usam o Unified Communications Web API (UCWA) para dar suporte a mensagens instantâneas (IM), presença e contatos. Os usuários com clientes herddos usando o MCX precisarão atualizar para um cliente atual.
+> O suporte a MCX (Mobility Service) para clientes móveis herdado não está mais disponível no Skype for Business Server 2019. Todos os clientes móveis atuais do Skype for Business já usam o Unified Communications Web API (UCWA) para dar suporte a mensagens instantâneas (IM), presença e contatos. Os usuários com clientes herddos usando MCX precisarão atualizar para um cliente atual.
   
 **Transações Sintéticas Suportadas para Conferência e Chat Persistente**
 

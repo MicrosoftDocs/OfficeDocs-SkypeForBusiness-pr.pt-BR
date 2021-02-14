@@ -39,7 +39,7 @@ Há várias políticas e outras áreas que você pode configurar no Skype for Bu
     
 - [Regras de Roteamento de Voz](configuring-policies.md#VoiceRoutingRules)
     
-- [Aplicativo De atendimento de conferência](configuring-policies.md#ConfAttendantApp)
+- [Aplicativo Do Atendente de Conferência](configuring-policies.md#ConfAttendantApp)
     
 - [Serviço Estacionamento de Chamada do Servidor](configuring-policies.md#ServerCallParkServ)
     
@@ -83,7 +83,7 @@ Por exemplo, o parâmetro SimpleName na chamada para o cmdlet **New-CsDialPlan**
   
 Para obter detalhes, você pode revisar os cmdlets do Enterprise Voice.
   
-## <a name="conference-attendant-application"></a>Aplicativo De atendimento de conferência
+## <a name="conference-attendant-application"></a>Aplicativo Do Atendente de Conferência
 <a name="ConfAttendantApp"> </a>
 
 Primeiro revise o ConferenceAutoAttendantConfiguration.ps1 script. Você vai querer anotar o número de telefone de ConferencingAutoAttendant (1121111111 por padrão), para que possa insira-o na ferramenta de configuração LyncPerfTool para geração de configuração, como abaixo:

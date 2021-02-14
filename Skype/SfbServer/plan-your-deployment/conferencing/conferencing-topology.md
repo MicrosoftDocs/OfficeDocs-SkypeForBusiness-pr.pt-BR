@@ -27,7 +27,7 @@ Este tópico descreve as noções básicas de topologia para conferências no Sk
   
 - Topologias suportadas
     
-- Considerações sobre conferência discda
+- Considerações sobre conferência discado
     
 - Considerações sobre webconferência
     
@@ -65,7 +65,7 @@ Se você estiver implantando a conferência discda, deverá considerar o seguint
     
 - Você deve implantar a conferência discada em cada pool em que implantar a conferência do Skype for Business Server. Não é necessário atribuir números de acesso em cada pool, mas é necessário implantar o recurso de conferência discada em cada pool. Esse requisito dá suporte ao recurso de nome gravado quando um usuário chama um número de acesso de um pool para ingressar em uma conferência do Skype for Business Server em um pool diferente. 
     
-Para obter mais informações, [consulte Plano para conferência discada no Skype for Business Server.](dial-in-conferencing.md)
+Para obter mais informações, [consulte Planejar a conferência discada no Skype for Business Server.](dial-in-conferencing.md)
   
 ## <a name="web-conferencing-considerations"></a>Considerações sobre webconferência
 
@@ -105,11 +105,11 @@ Uma única grande reunião requer pelo menos um Servidor front-end e um servidor
 
 ![Topologia de reunião grande](../../media/06858900-a262-4a47-96d0-51abd6827064.png)
   
-O usuário que hospeda as grandes reuniões deve ter sua conta de usuário hospedada no pool de Front-End. No entanto, não recomendamos que você hospede outras contas de usuário neste pool. Em vez disso, use-o somente para reuniões grandes. A prática melhor é criar uma conta de usuário especial nesse pool para ser usada somente para hospedar grandes reuniões. Como a configuração de grandes reuniões é otimizada para desempenho, usá-la como um usuário normal pode ter problemas como a incapacidade de promover uma sessão P2P para uma reunião quando um ponto de extremidade PSTN está envolvido.
+O usuário que hospeda as grandes reuniões deve ter sua conta de usuário hospedada no pool de Front-End. No entanto, não recomendamos que você hospede outras contas de usuário neste pool. Em vez disso, use-o somente para reuniões grandes. A prática melhor é criar uma conta de usuário especial nesse pool para ser usada apenas para hospedar grandes reuniões. Como a configuração de grandes reuniões é otimizada para desempenho, usá-la como um usuário normal pode ter problemas como a incapacidade de promover uma sessão P2P para uma reunião quando um ponto de extremidade PSTN está envolvido.
   
 Gerenciar um pool com exatamente dois Servidores Front End requer algumas considerações especiais. Para obter mais informações, consulte [Topology Basics for Skype for Business Server 2015](../../plan-your-deployment/topology-basics/topology-basics.md) and [Reference topologies for Skype for Business Server 2015](../../plan-your-deployment/topology-basics/reference-topologies.md).
   
-Além disso, se você quiser fornecer opcionalmente backup e failover de recuperação de desastres para o pool usado para reuniões grandes, poderá emparelhá-lo com um pool dedicado de configuração semelhante em um data center diferente. Para obter detalhes, [consulte Plano para alta disponibilidade e recuperação de desastre no Skype for Business Server.](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md)
+Além disso, se você quiser, opcionalmente, fornecer backup e failover de recuperação de desastres para o pool usado para reuniões grandes, poderá emparelhá-lo com um pool dedicado de configuração semelhante em um data center diferente. Para obter detalhes, [consulte Plano para alta disponibilidade e recuperação de desastre no Skype for Business Server.](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md)
   
 Observações adicionais sobre a topologia incluem:
   
@@ -117,8 +117,8 @@ Observações adicionais sobre a topologia incluem:
     
 - Um Servidor do Office Web Apps/Servidor do Office Online é necessário para habilenciar a funcionalidade de apresentação do PowerPoint em grandes reuniões. O Servidor do Office Web Apps/Servidor do Office Online pode ser dedicado ao pool de grandes reuniões ou pode ser o mesmo Servidor do Office Web Apps/Servidor do Office Online usado por outros pools no site no qual o pool dedicado é implantado. Para obter mais informações, [consulte Configurar a integração com o Servidor do Office Web Apps no Skype for Business Server.](../../deploy/deploy-conferencing/office-web-app-server.md) 
     
-- O balanceamento de carga dos Servidores Front End exige balanceamento de carga de hardware para o tráfego HTTP (como download de conteúdo de reunião). O balanceamento de carga DNS é recomendado para tráfego SIP. Para obter [detalhes, consulte Requisitos de balanceamento de carga para o Skype for Business.](../../plan-your-deployment/network-requirements/load-balancing.md) 
+- O balanceamento de carga dos Servidores Front End exige balanceamento de carga de hardware para o tráfego HTTP (como download de conteúdo de reunião). O balanceamento de carga DNS é recomendado para tráfego SIP. Para obter [detalhes, consulte Requisitos de balanceamento de carga do Skype for Business.](../../plan-your-deployment/network-requirements/load-balancing.md) 
     
-- Se você quiser usar o Monitoring Server para o pool dedicado a grandes reuniões, recomendamos usar o Monitoring Server e seu banco de dados que são compartilhados entre todos os pools do Servidor front-end em sua implantação do Skype for Business Server. Para obter mais informações, [consulte Planejar o monitoramento no Skype for Business Server.](../../plan-your-deployment/monitoring.md)
+- Se você quiser usar o Monitoring Server para o pool dedicado a grandes reuniões, recomendamos usar o Monitoring Server e seu banco de dados que são compartilhados entre todos os pools do Servidor front-end em sua implantação do Skype for Business Server. Para obter mais informações, [consulte Plano de monitoramento no Skype for Business Server.](../../plan-your-deployment/monitoring.md)
     
 

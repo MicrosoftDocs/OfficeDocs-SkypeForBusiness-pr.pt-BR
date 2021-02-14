@@ -27,7 +27,7 @@ ms.locfileid: "49813711"
  
 Saiba mais sobre o tronco SIP em sites de filial no Skype for Business Server Enterprise Voice.
   
-Em alguns casos, talvez seja necessário implementar o tronco SIP distribuído em sites de filial selecionados. Para determinar se um tronco SIP é necessário para um site de filial e para obter detalhes sobre as opções de topologia com suporte para implantar troncos SIP em sites de filial, consulte tronco SIP no [Skype for Business Server.](sip-trunking.md)
+Em alguns casos, talvez seja necessário implementar o tronco SIP distribuído em sites de filial selecionados. Para determinar se um tronco SIP é necessário para um site de filial e para obter detalhes sobre as opções de topologia suportadas para implantar troncos SIP em sites de filial, consulte tronco SIP no [Skype for Business Server](sip-trunking.md).
   
 ## <a name="example-branch-site-sip-trunk-requirements-analysis"></a>Análise de requisitos do tronco SIP do exemplo de site de filial
 
@@ -37,6 +37,6 @@ Para determinar se um tronco SIP distribuído em Nova Iorque é uma opção com 
   
 ## <a name="other-branch-site-sip-trunk-requirements"></a>Outros requisitos de tronco SIP do site de filial
 
-A opção entre uma implantação de um tronco SIP em vez de um gateway tem base na diferença entre as cobranças de PSTN de longa distância de cada opção. Se você implantar um tronco SIP do site de filial, também precisará determinar seus requisitos de resiliência e largura de banda. Se o link entre o site de filial e o site central for resiliente e tiver largura de banda suficiente, você poderá implantar um tronco SIP ou um gateway. Não é necessário implantar um Aparelho de FilialVivível no site de filial. Se o link entre o site de filial e o site central não for resiliente, implante um Aparelho de Filial Persistente ou implante um Servidor de Filial Persistente com um gateway ou tronco SIP no site de filial. 
+A opção entre uma implantação de um tronco SIP em vez de um gateway tem base na diferença entre as cobranças de PSTN de longa distância de cada opção. Se você implantar um tronco SIP do site de filial, também precisará determinar seus requisitos de resiliência e largura de banda. Se o link entre o site de filial e o site central for resiliente e tiver largura de banda suficiente, você poderá implantar um tronco SIP ou um gateway. Não é necessário implantar um Aparelho de Filial Survivível no site de filial. Se o link entre o site de filial e o site central não for resiliente, implante um Aparelho de Filial Persistente ou implante um Servidor de Filial Persistente com um gateway ou tronco SIP no site de filial. 
   
 

@@ -1,5 +1,5 @@
 ---
-title: Planejamento de DNS do Servidor de Borda Avançado para o Skype for Business Server
+title: Planejamento avançado de DNS do Servidor de Borda para o Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -23,7 +23,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49813821"
 ---
-# <a name="advanced-edge-server-dns-planning-for-skype-for-business-server"></a>Planejamento de DNS do Servidor de Borda Avançado para o Skype for Business Server
+# <a name="advanced-edge-server-dns-planning-for-skype-for-business-server"></a>Planejamento avançado de DNS do Servidor de Borda para o Skype for Business Server
  
 **Resumo:** Revise os cenários das opções de implantação do Skype for Business Server. Quer você queira um único servidor ou prefira um pool de servidores com DNS ou HLB, este tópico deve ajudar.
   
@@ -151,7 +151,7 @@ Para levar o exemplo adiante, isso não funcionaria:
     
      *Um usuário que entrar como tim@litwareinc.com não funcionará para a configuração automática, pois seu domínio SIP (litwareinc.com) não combina com o domínio no pool (fabrikam.com).* 
     
-Agora que sabemos tudo isso, se você precisar de requisitos automáticos para seus clientes do Skype for Business sem DNS split-brain, terá estas opções:
+Agora que sabemos tudo isso, se você precisar de requisitos automáticos para seus clientes do Skype for Business sem DNS split-brain, você tem estas opções:
   
 - **Objetos de Política de Grupo**
     
@@ -170,7 +170,7 @@ Agora que sabemos tudo isso, se você precisar de requisitos automáticos para s
     
     Se a criação de uma zona inteira no DNS interno não for uma opção para você, você poderá criar zonas de ponto de pino (dedicadas) que correspondam aos registros SRV necessários para a configuração automática e popular essas zonas usando dnscmd.exe. Dnscmd.exe é necessário porque a interface do usuário DNS não suportará a criação de zonas de ponto de pino.
     
-    Por exemplo, se seu domínio SIP for contoso.com e você tiver um pool de Front End chamado pool01 que contenha dois Servidores Front-End, você precisará das seguintes zonas de ponto de pino e registros A no DNS interno:
+    Por exemplo, se seu domínio SIP for contoso.com e você tiver um pool de Front-End chamado pool01 que contenha dois Servidores Front-End, você precisará das seguintes zonas de ponto de pino e registros A no DNS interno:
     
   ```console
   dnscmd . /zoneadd _sipinternaltls._tcp.contoso.com. /dsprimary
@@ -198,7 +198,7 @@ Agora que sabemos tudo isso, se você precisar de requisitos automáticos para s
 > Você verá que o FQDN do pool de Front-End aparece duas vezes, mas com dois endereços IP diferentes. Isso porque o balanceamento de carga DNS é usado. Se o HLB for usado, haverá apenas uma única entrada de pool de Front-End. 
   
 > [!NOTE]
-> Além disso, os valores de FQDN do pool de Front End mudam entre os exemplos de contoso.com e fabrikam.com, mas os endereços IP permanecem os mesmos. Isso porque os usuários que estão fazendo o uso de qualquer domínio SIP usarão o mesmo pool de Front-End para configuração automática. 
+> Além disso, os valores FQDN do pool de Front End mudam entre os exemplos contoso.com e fabrikam.com, mas os endereços IP permanecem os mesmos. Isso porque os usuários que estão fazendo o uso de qualquer domínio SIP usarão o mesmo pool de Front-End para configuração automática. 
   
 ## <a name="dns-disaster-recovery"></a>Recuperação de desastre de DNS
 <a name="DNSDR"> </a>
@@ -227,7 +227,7 @@ O balanceamento de carga DNS geralmente é implementado no nível do aplicativo.
   
 Por exemplo, se houver três Servidores front-end em um pool chamado pool01.contoso.com, ocorrerá o seguinte:
   
-- Clientes que executam o DNS de consulta do Skype for Business pool01.contoso.com. A consulta retorna três endereços IP e os armazena em cache da seguinte forma (em alguma ordem):
+- Clientes executando o DNS de consulta do Skype for Business pool01.contoso.com. A consulta retorna três endereços IP e os armazena em cache da seguinte forma (em alguma ordem):
     
    |||
    |:-----|:-----|
@@ -256,7 +256,7 @@ Use o balanceamento de carga DNS para:
     
 Não é possível usar o balanceamento de carga DNS para:
   
-- Tráfego web de cliente para servidor para seus Servidores Front-End ou um Diretor.
+- Tráfego da Web de cliente para servidor para seus Servidores Front-End ou um Diretor.
     
 Para aprofundar um pouco mais sobre como um registro SRV dns é selecionado quando registros DNS mutiple são retornados por uma consulta, o serviço de Borda de Acesso sempre seleciona o registro com a prioridade numérica mais baixa e, se um desempate for necessário, o maior peso numérico. Isso é consistente com a [documentação da Internet Engineering Task Force.](https://www.ietf.org/rfc/rfc2782.txt)
   
@@ -264,6 +264,6 @@ Portanto, por exemplo, se seu primeiro registro SRV dns tiver um peso 20 e uma p
   
 Nesse caso, o peso é considerado. Pesos maiores devem receber uma alta probabilidade, nessa circunstância, de serem selecionados. Os administradores de DNS devem usar o peso 0 quando não houver seleção de servidor para fazer. Na presença de registros com pesos maiores do que 0, os registros com peso 0 têm uma chance muito pequena de trazer selecionados.
   
-Então, o que acontece se vários registros SRV dns com prioridade e peso iguais como retornados? Nessa situação, o serviço de Borda de Acesso escolherá primeiro o registro SRV que recebeu do servidor DNS.
+Então, o que acontece se vários registros SRV de DNS com prioridade e peso iguais são retornados? Nessa situação, o serviço de Borda de Acesso escolherá primeiro o registro SRV que recebeu do servidor DNS.
   
 

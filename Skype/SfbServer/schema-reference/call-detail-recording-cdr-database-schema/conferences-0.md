@@ -12,7 +12,7 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: c0e5c4db-c135-401f-9296-e9a49f6499a1
-description: A Exibição de Conferências armazena informações sobre as conferências. Esta exibição foi introduzida no Microsoft Lync Server 2013.
+description: A Exibição de Conferências armazena informações sobre as conferências. Essa exibição foi introduzida no Microsoft Lync Server 2013.
 ms.openlocfilehash: b31b0baa7a33b28ab9df8d78d2b49e569dfef831
 ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
@@ -22,7 +22,7 @@ ms.locfileid: "49813251"
 ---
 # <a name="conferences-view"></a>Exibição de conferências
  
-A Exibição de Conferências armazena informações sobre as conferências. Esta exibição foi introduzida no Microsoft Lync Server 2013.
+A Exibição de Conferências armazena informações sobre as conferências. Essa exibição foi introduzida no Microsoft Lync Server 2013.
   
 |**Coluna**|**Tipo de dados**|**Detalhes**|
 |:-----|:-----|:-----|

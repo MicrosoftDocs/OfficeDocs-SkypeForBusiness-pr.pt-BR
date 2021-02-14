@@ -54,7 +54,7 @@ Se você verificar o resultado anterior, você verá duas coisas de importância
 
     ClientMediaPortRangeEnabled : False
 
-Isso é importante porque, quando essa propriedade é definida como False, os clientes do Skype for Business usarão qualquer porta disponível entre as portas 1024 e 65535 quando envolvidos em uma sessão de comunicação; isso é verdadeiro independentemente de qualquer outra configuração de porta (por exemplo, ClientMediaPort ou ClientVideoPort). Se você deseja restringir o uso a um conjunto especificado de portas (e isso é algo que você deseja fazer se planeja implementar a Qualidade de Serviço), você deve primeiro habilitar intervalos de porta de mídia do cliente. Isso pode ser feito usando o seguinte comando do Windows PowerShell:
+Isso é importante porque, quando essa propriedade é definida como False, os clientes do Skype for Business usarão qualquer porta disponível entre as portas 1024 e 65535 quando envolvidos em uma sessão de comunicação; isso é verdadeiro independentemente de qualquer outra configuração de porta (por exemplo, ClientMediaPort ou ClientVideoPort). Se você deseja restringir o uso a um conjunto especificado de portas (e isso é algo que você deseja fazer se planeja implementar a Qualidade de Serviço), deverá primeiro habilitar os intervalos de porta de mídia do cliente. Isso pode ser feito usando o seguinte comando do Windows PowerShell:
 
     Set-CsConferencingConfiguration -ClientMediaPortRangeEnabled $True
 
@@ -126,7 +126,7 @@ Em alternativa, use este comando para atribuir estes mesmos intervalos de porta 
 
     Get-CsConferencingConfiguration | Set-CsConferencingConfiguration -ClientAudioPort 50020 -ClientAudioPortRange 20 -ClientVideoPort 58000 -ClientVideoPortRange 20 -ClientAppSharingPort 42000 -ClientAppSharingPortRange 20 -ClientFileTransferPort 42020 -ClientFileTransferPortRange 20
 
-Os usuários individuais devem fazer logoff do Skype for Business e fazer logoff novamente antes que essas alterações realmente entre em vigor.
+Os usuários individuais devem fazer logoff do Skype for Business e, em seguida, fazer logoff antes dessas alterações realmente entrarem em vigor.
 
 > [!NOTE]  
 > Também é possível habilitar intervalos de porta da mídia do cliente e atribuir estes intervalos de porta usando um único comando. Por exemplo:<BR><CODE>Set-CsConferencingConfiguration -ClientMediaPortRangeEnabled $True -ClientAudioPort 50020 -ClientAudioPortRange 20 -ClientVideoPort 58000 -ClientVideoPortRange 20 -ClientAppSharingPort 42000 -ClientAppSharingPortRange 20 -ClientFileTransferPort 42020 -ClientFileTransferPortRange 20</CODE>
@@ -247,7 +247,7 @@ Para ajudar a garantir que os pacotes de rede sejam marcados com o valore DSCP c
 
 ### <a name="configure-quality-of-service-on-computers-with-multiple-network-adapters"></a>Configurar a Qualidade de Serviço em computadores com vários adaptadores de rede
 
-Se você tiver um computador com vários adaptadores de rede, poderá ocasionalmente ter problemas em que os valores DSCP são mostrados como 0x00 em vez do valor configurado. Isso normalmente ocorrerá em computadores em que um ou mais adaptadores de rede não conseguem acessar seu domínio do Active Directory (por exemplo, se esses adaptadores são usados para uma rede privada). Nesses casos, os valores DSCP serão marcados para os adaptadores que podem acessar o domínio, mas não serão marcados para adaptadores que não possam acessar o domínio.
+Se você tiver um computador com vários adaptadores de rede, ocasionalmente poderá ter problemas em que os valores DSCP são mostrados como 0x00 em vez do valor configurado. Isso normalmente ocorrerá em computadores em que um ou mais adaptadores de rede não conseguem acessar seu domínio do Active Directory (por exemplo, se esses adaptadores são usados para uma rede privada). Nesses casos, os valores DSCP serão marcados para os adaptadores que podem acessar o domínio, mas não serão marcados para adaptadores que não possam acessar o domínio.
 
 Se você quiser marcar valores DSCP para todos os adaptadores de rede em um computador, incluindo adaptadores que não têm acesso ao seu domínio, será necessário adicionar e configurar um valor para o Registro. Isso pode ser feito realizando o procedimento a seguir:
 

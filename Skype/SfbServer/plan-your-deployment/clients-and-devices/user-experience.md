@@ -28,7 +28,7 @@ ms.locfileid: "49813921"
  
 **Resumo:** Saiba mais sobre o novo Skype for Business e as etapas que você pode seguir para preparar seu ambiente e seus usuários para a atualização, se você estiver usando o Skype for Business Online, o Skype for Business Server 2019, o Skype for Business Server 2015, o Lync Server 2013 ou o Lync Server 2010.
   
-A Atualização do Office de 14 de abril de 2015 para o Lync 2013 inclui a nova interface de usuário do Skype for Business. Essa atualização permite que os administradores controlem a aparência do cliente e escolham se manterão a experiência de cliente do Lync 2013 ou usarão a experiência de cliente melhorada do Skype for Business. O cliente Skype for Business substituiu efetivamente o cliente Lync 2013 e adicionou a capacidade de os administradores escolherem entre a experiência de cliente existente do Lync e a nova experiência de cliente do Skype for Business. Para obter informações sobre essa atualização, consulte a atualização de 14 de abril de [2015 para o Lync 2013 (Skype for Business) (KB2889923).](https://support.microsoft.com/kb/2889923/)
+A Atualização do Office de 14 de abril de 2015 para o Lync 2013 inclui a nova interface de usuário do Skype for Business. Essa atualização permite que os administradores controlem a aparência do cliente e escolham se manterão a experiência de cliente do Lync 2013 ou usarão a experiência de cliente do Skype for Business aprimorada. O cliente Skype for Business substituiu efetivamente o cliente Lync 2013 e adicionou a capacidade de os administradores escolherem entre a experiência de cliente existente do Lync e a nova experiência de cliente do Skype for Business. Para obter informações sobre essa atualização, consulte a atualização de [14 de abril de 2015 para o Lync 2013 (Skype for Business) (KB2889923).](https://support.microsoft.com/kb/2889923/)
   
 Em 12 de maio de 2015, haverá outra atualização mensal do Office que inclui o cliente atualizado do Skype for Business. Muitos clientes que não aplicaram a atualização de abril receberão a atualização de 12 de maio para o Office 2013. As informações neste tópico ajudarão você a preparar sua organização, seu ambiente e seus usuários para a atualização do cliente. Para facilitar a transição para seus usuários e equipes de suporte, use as informações neste tópico para ajudá-lo a decidir qual experiência de cliente você deseja para seus usuários e, em seguida, faça as alterações em seu ambiente antes de implantar a atualização do cliente em sua organização.
   
@@ -67,7 +67,7 @@ Você vai querer fazer essas alterações antes que a atualização do cliente s
   
 |**Implantação**|**Experiência de cliente do Skype for Business**|**Experiência de cliente do Lync**|
 |:-----|:-----|:-----|
-|Skype for Business Online  <br/> |Não há etapas adicionais além da implantação do build cliente 4711.1002 (abril de 2015) ou posterior.  <br/> |[Usar a experiência de cliente do Lync com o Skype for Business Online](user-experience.md#LyncwithSfBO) <br/> |
+|Skype for Business Online  <br/> |Não há etapas adicionais além da implantação do build do cliente 4711.1002 (abril de 2015) ou posterior.  <br/> |[Usar a experiência de cliente do Lync com o Skype for Business Online](user-experience.md#LyncwithSfBO) <br/> |
 |Skype for Business Server 2015  <br/> |Não há etapas adicionais além da implantação do build cliente 4711.1002 (abril de 2015) ou posterior.  <br/> |[Usar a experiência de cliente do Lync com o Skype for Business Server local](user-experience.md#LyncwithSfBServer) <br/> |
 |Lync Server 2013 e Lync Server 2010  <br/> |[Usar a experiência de cliente do Skype com o Lync Server 2013 ou o Lync Server 2010 local](user-experience.md#SkypewithLynconprem) <br/> |[Usar a experiência de cliente do Lync com o Lync Server 2013 ou o Lync Server 2010 local](user-experience.md#LyncwithLynconprem) <br/> |
    
@@ -185,7 +185,7 @@ Grant-CsClientPolicy username@contoso.com -PolicyName ClientPolicyNoIMURLDisable
 
 Depois de configurar suas políticas de cliente, implante o cliente Skype for Business, build 4711.1002 (abril de 2015) ou posterior.
   
-Para obter informações detalhadas sobre como configurar a experiência do cliente com o Skype for Business Online, incluindo etapas sobre como controlar a experiência de primeira versão e scripts do PowerShell que você pode usar para configurar seu ambiente, consulte Alternando entre as interfaces de usuário do cliente Skype for Business e [do Lync.](https://aka.ms/SfBOUI)
+Para obter informações detalhadas sobre como configurar a experiência do cliente com o Skype for Business Online, incluindo etapas sobre como controlar a experiência de primeira executar e scripts do PowerShell que você pode usar para configurar seu ambiente, consulte Alternando entre as interfaces de usuário do cliente Skype for Business e [do Lync.](https://aka.ms/SfBOUI)
   
 ## <a name="resources-to-help-you-prepare-your-support-teams-and-your-end-users-for-the-update"></a>Recursos para ajudá-lo a preparar suas equipes de suporte e seus usuários finais para a atualização
 <a name="support"> </a>

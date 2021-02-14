@@ -24,7 +24,7 @@ ms.locfileid: "49814291"
 **Resumo:** Saiba como monitorar os limites de capacidade de memória do servidor no Skype for Business Server.
   
 > [!CAUTION]
-> As informações neste tópico que se referem ao Planejamento de Capacidade pertencem apenas aos clientes do Lync 2010 Mobile e ao Mobility Service (Mcx). O Planejamento de capacidade para o Unified Communications Web API (UCWA), usado pelos clientes do Lync 2013 Mobile, é fornecido pela Ferramenta de Planejamento do Lync Server 2013. 
+> As informações neste tópico que se referem ao Planejamento de Capacidade pertencem apenas aos clientes do Lync 2010 Mobile e ao Mobility Service (Mcx). O Planejamento de capacidade para a Unified Communications Web API (UCWA), usado pelos clientes do Lync 2013 Mobile, é fornecido pela Ferramenta de Planejamento do Lync Server 2013. 
 
 > [!NOTE]
 > O suporte a MCX (Mobility Service) para clientes móveis herdado não está mais disponível no Skype for Business Server 2019. Todos os clientes móveis atuais do Skype for Business já usam o Unified Communications Web API (UCWA) para dar suporte a mensagens instantâneas (IM), presença e contatos. Os usuários com clientes herddos usando MCX precisarão atualizar para um cliente atual.
@@ -33,7 +33,7 @@ Dois contadores de desempenho de mobilidade podem ajudá-lo a determinar seu uso
   
 - Contagem atual de sessão ativa com **assinaturas** de presença ativa , que é o número atual de pontos de extremidade registrados por meio de UCWA ou o Serviço de Mobilidade (Mcx) que têm assinaturas de presença ativa (número de usuários móveis sempre conectados)
     
-- **Contagem atual de sessão ativa**, que é o número atual de pontos de extremidade registrados por meio de UCWA ou o Serviço de Mobilidade
+- **Contagem de sessões ativas** no momento, que é o número atual de pontos de extremidade registrados por meio do UCWA ou do Mobility Service
     
 Se a diferença entre a Contagem atual de  sessão ativa com **assinaturas** de presença ativa e contagem de sessão ativa no momento for pequena ao longo do tempo, isso significa que a maioria dos usuários de dispositivo móvel tem um dispositivo sempre conectado, como um dispositivo móvel Android ou Nokia (somente para Mcx). Os dispositivos sempre conectados ao UCWA incluem dispositivos Apple e Android executando clientes do Lync 2013 Mobile). Se  a contagem de sessão ativa no momento for muito maior do que a contagem atual de sessão ativa com **assinaturas** de presença ativa , isso indica que mais usuários estão usando um dispositivo de ponto de extremidade em segundo plano, como um dispositivo Apple iOS ou Windows Phone em Mcx. (O Windows Phone é o único cliente Lync 2013 Mobile que se registrará desta forma).
   
@@ -41,7 +41,7 @@ Você deve definir um limite na Contagem atual de  sessão ativa com **assinatur
   
 Para determinar os limites apropriados, você precisa primeiro determinar quanta memória está disponível no Servidor front-end para o Serviço de Mobilidade. Monitore os contadores para determinar quando você precisa planejar capacidade extra, de acordo com a seguinte fórmula:
   
-Memória total usada pelo Mcx Mobility Service (MB) = 164 + (400 + 134) / 1024 * Contagem atual de sessão ativa com **assinaturas** de presença ativa + 400 / 1024 * **(** Contagem de sessão ativa no momento com  -  **assinaturas** de presença ativa )
+Memória total usada pelo Mcx Mobility Service (MB) = 164 + (400 + 134) / 1024 * Contagem atual de sessão ativa com **assinaturas** de presença ativa + 400 / 1024 * **(** Contagem atual de sessão ativa contagem de sessão atualmente ativa com  -  **assinaturas** de presença ativa )
   
 > [!IMPORTANT]
 > A Calculadora de Capacidade do Microsoft Lync Server 2010 é uma planilha pré-populada com todas as fórmulas que permitem que um planejador determine quais serão os requisitos para os servidores do Skype for Business, incluindo CPU, memória e disco rígido. Você pode [baixar a planilha e um documento associado.](https://go.microsoft.com/fwlink/p/?LinkID=212657) 

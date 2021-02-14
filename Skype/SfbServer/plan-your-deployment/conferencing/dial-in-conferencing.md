@@ -54,7 +54,7 @@ Para obter detalhes sobre os requisitos do Servidor de Mediação e do gateway P
   
 ## <a name="plan-for-dial-plans-access-numbers-and-conferencing-regions"></a>Planejar planos de discagem, números de acesso e regiões de conferência
 
-Para configurar a conferência discda, crie planos de discagem e números de acesso de conferência discado. Você também especifica as regiões de discagem que associam um número de acesso de conferência discda a seus planos de discagem. Mais especificamente:
+Para configurar a conferência discda, crie planos de discagem e números de acesso de conferência discado. Você também especifica as regiões de discagem que associam um número de acesso de conferência discado a seus planos de discagem. Mais especificamente:
   
 - Planos de discagem são conjuntos de regras de normalização que especificam o número e o padrão de dígitos em um número de telefone e convertem o número de telefone no formato E.164 padrão necessário para o roteamento de chamadas.
     
@@ -74,7 +74,7 @@ Antes de configurar os planos de discagem, é importante planejar como você des
     
 - Os idiomas são associados a números de acesso discado. Se você tiver suporte para áreas geográficas com vários idiomas, decida como deseja definir regiões para dar suporte aos vários idiomas. Por exemplo, você pode definir várias regiões com base em uma combinação de geografia e idioma ou pode definir uma única região com base em geografia e ter diferentes números de acesso de discagem para cada idioma.
     
-- Quando um usuário agenda uma reunião, por padrão, ela usa a região especificada pelo plano de discagem desse usuário.
+- Quando um usuário agenda uma reunião, por padrão a reunião usa a região especificada pelo plano de discagem desse usuário.
     
 - Por padrão, todos os números de acesso discado para a região são incluídos no convite da reunião.
     

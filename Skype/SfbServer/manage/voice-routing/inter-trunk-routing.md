@@ -27,7 +27,7 @@ A figura a seguir ilustra o Skype for Business Server fornecendo interconectivid
 
 ![Interconexão entre um gateway PSTN e um IP-PBX](../../media/pstn-gateway-ip-pbx.jpg)
 
-A próxima figura ilustra o Skype for Business Server conectando dois sistemas IP-PBX.
+A próxima figura ilustra a conexão do Skype for Business Server com dois sistemas IP-PBX.
 
 ![Skype for Business Server conectando dois sistemas IP-PGX](../../media/two-ip-pbx-systems.jpg)
 

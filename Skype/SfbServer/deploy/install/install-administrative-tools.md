@@ -49,7 +49,7 @@ Assista às etapas de vídeo para **Instalar ferramentas administrativas:**
     
 2. A mídia de instalação requer o Microsoft Visual C++ para ser executado. Uma caixa de diálogo será exibida perguntando se você deseja instalá-la. Clique em **Sim**.
     
-3. Usando o Smart Setup, um novo recurso no Skype for Business Server, você pode se conectar à Internet para verificar se há atualizações durante o processo de instalação. Isso proporciona uma experiência melhor ao garantir que você tenha as atualizações mais recentes do produto na instalação. Clique em **Instalar** para iniciar a instalação.
+3. Usando a Instalação Inteligente, um novo recurso no Skype for Business Server, você pode se conectar à Internet para verificar se há atualizações durante o processo de instalação. Isso proporciona uma experiência melhor ao garantir que você tenha as atualizações mais recentes do produto na instalação. Clique em **Instalar** para iniciar a instalação.
     
 4. Revise cuidadosamente o Contrato de Licença e, se você concordar, selecione **Eu aceito** os termos do contrato de licença e clique em **OK.**
     
@@ -59,7 +59,7 @@ Assista às etapas de vídeo para **Instalar ferramentas administrativas:**
     
     ![Componentes principais na tela Aplicativos.](../../media/0da1d983-4c4b-4b23-a196-c3bdba4857c6.png)
   
-   - **Assistente de Implantação do Skype for Business Server** Um programa de implantação que fornece um painel de início para instalar os vários componentes do Skype for Business Server.
+   - **Assistente de Implantação do Skype for Business Server** Um programa de implantação que fornece um painel de lançamento para instalar os vários componentes do Skype for Business Server.
     
    - **Shell de Gerenciamento do Skype for Business Server** Um programa do PowerShell pré-configurado que permite a administração do Skype for Business Server.
     

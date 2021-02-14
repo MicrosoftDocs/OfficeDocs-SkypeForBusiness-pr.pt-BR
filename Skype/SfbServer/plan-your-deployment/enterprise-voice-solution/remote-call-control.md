@@ -29,7 +29,7 @@ O controle de chamada remota era um recurso em versões anteriores do Lync Serve
   
  Os usuários de controle de chamada remota em sua organização que estão em servidores front-end executando o Lync Server podem continuar a usar o controle de chamada remota, mesmo se eles estão usando um cliente do Skype for Business. No entanto, para todos os usuários que estão no Skype for Business Server, o controle de chamada remota não é suportado. Consulte a tabela a seguir para combinações de servidor/cliente e se elas podem suportar o controle de chamada remota ou Telefonar via Trabalho.
   
-||**Cliente Skype for Business com interface do usuário do Skype habilitada**|**Cliente Skype for Business com interface do usuário do Lync habilitada**|**Cliente Skype for Business 2016**|**Cliente Lync 2013**|**Cliente do Lync 2010**|
+||**Cliente Skype for Business com interface do usuário do Skype habilitada**|**Cliente Skype for Business com a interface do usuário do Lync habilitada**|**Cliente Skype for Business 2016**|**Cliente Lync 2013**|**Cliente do Lync 2010**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
 | Skype para Business Server <br/> |Telefonar via Trabalho  <br/> |1  <br/> |Telefonar via Trabalho  <br/> |1  <br/> |1  <br/> |
 | Lync Server 2013 <br/> |Controle de Chamada Remota  <br/> |Controle de Chamada Remota  <br/> |1  <br/> |Controle de Chamada Remota  <br/> |Controle de Chamada Remota  <br/> |

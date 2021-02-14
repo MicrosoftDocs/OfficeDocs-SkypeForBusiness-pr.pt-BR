@@ -15,7 +15,7 @@ ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: 7b9c211b-deb0-479d-b184-973f08b96d07
-description: 'Resumo: Revise estes cenários para ajudá-lo a planejar sua topologia do Servidor de Borda no Skype for Business Server.'
+description: 'Resumo: revise estes cenários para ajudá-lo a planejar sua topologia de Servidor de Borda no Skype for Business Server.'
 ms.openlocfilehash: cfcc1e8b34576fbec85464fb8d5e35903b47d8ef
 ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
@@ -29,7 +29,7 @@ ms.locfileid: "49813787"
   
 Temos alguns diagramas de cenários para ajudar a visualizar e decidir qual topologia do Servidor de Borda do Skype for Business Server você deseja implementar. Depois de escolher um bom candidato, leia os requisitos ambientais necessários. O exemplo a seguir é aplicável a qualquer um dos cenários, portanto, vamos mencioná-lo primeiro.
   
-Esses números, que são mostrados apenas para fins de exemplo (e, como tal, contêm dados de IPv4 e IPv6 de exemplo), não representam o fluxo de comunicação real, mas sim uma visão de alto nível do seu tráfego possível. Os detalhes da porta também podem ser vistos nos diagramas de porta para cada cenário abaixo.
+Esses números, que são mostrados apenas para fins de exemplo (e, como tal, contêm dados IPv4 e IPv6 de exemplo), não representam o fluxo de comunicação real, mas sim uma exibição de alto nível do seu tráfego possível. Os detalhes da porta também podem ser vistos nos diagramas de porta para cada cenário abaixo.
   
 Os diagramas mostram .com para a interface externa e .net para o interno, que também é material de exemplo; É claro que suas próprias entradas podem ser bem diferentes quando você estiver reunindo seu próprio plano de Borda final.
   
@@ -37,7 +37,7 @@ Não incluímos o Diretor (que é um componente opcional) em nenhum dos diagrama
   
 Conforme mencionado acima, há dados IPv6 de exemplo nos diagramas. A maior parte da documentação em [Plan for Edge Server deployments in Skype for Business Server](edge-server-deployments.md) se referirá a IPv4, mas você certamente terá suporte se quiser usar IPv6. Observe que você precisará de endereços IPv6 em seu espaço de endereçamento atribuído, e eles precisarão trabalhar com endereçamento interno e externo, como com IPs IPv4. Você pode, graças ao Windows, empregar o recurso de pilha dupla, que é uma pilha de rede separada e distinta para IPv4 e IPv6. Isso permitirá, se necessário, atribuir endereços IPv4 e IPv6 simultaneamente.
   
-Há dispositivos NAT que permitem NAT64 (IPv6 a IPv4) e NAT66 (IPv6 para IPv6)), e isso é válido para uso com o Skype for Business Server.
+Há dispositivos NAT que permitem NAT64 (IPv6 a IPv4) e NAT66 (IPv6 para IPv6)) e isso é válido para uso com o Skype for Business Server.
   
 > [!IMPORTANT]
 > Se você estiver usando o Controle de Admissão de Chamada (CAC), será preciso usar o IPv4 na interface interna para que ele funcione. 

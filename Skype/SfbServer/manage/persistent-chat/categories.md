@@ -26,7 +26,7 @@ ms.locfileid: "49815121"
   
 Uma categoria é uma estrutura lógica para organizar salas de chat. Uma categoria define um conjunto padrão de ACLs (listas de controle de acesso) para controlar os usuários e grupos de usuários que podem criar ou ingressar nas salas de chat. As categorias de sala de chat contêm salas de chat, mas não outras categorias. Cada categoria descreve seu conteúdo com metadados, como Nome e Descrição. A categoria tem propriedades que podem ser definidas para controlar o comportamento das salas de chat pertencentes a ela; por exemplo, se as salas de chat permitem Convites ou Carregamentos de Arquivos ou contêm Histórico de Chat. 
   
-Criar e gerenciar salas de chat é muito mais fácil com o uso correto de categorias. Como administrador do Servidor de Chat Persistente, você pode definir AllowedMembers e Criadores para cada categoria e também definir as configurações e os comportamentos padrão da sala de chat que serão aplicados a todas as salas de chat criadas na categoria. Por exemplo, se você definir membros Permitidos da categoria como contoso.com, poderá adicionar qualquer grupo ou usuário da Contoso como membro para salas de chat nessa categoria. Se você definir os Membros Permitidos em uma categoria como Vendas, somente grupos e usuários nesta lista de distribuição poderão ser adicionados como membros às salas de chat nessa categoria. A propriedade Creators permite controlar quem pode criar salas de chat nessa categoria. Depois que a sala de chat é criada, qualquer pessoa do grupo AllowedMembers pode ser designada como gerente para operações de gerenciamento contínuas nas salas (por exemplo, alterações de associação e aprovação).
+Criar e gerenciar salas de chat é muito mais fácil com o uso correto de categorias. Como administrador do Servidor de Chat Persistente, você pode definir AllowedMembers e Criadores para cada categoria e também definir as configurações e os comportamentos padrão da sala de chat que serão aplicados a todas as salas de chat criadas na categoria. Por exemplo, se você definir membros Permitidos da categoria como contoso.com, poderá adicionar qualquer grupo ou usuário da Contoso como membro para salas de chat nessa categoria. Se você definir os Membros Permitidos em uma categoria como Vendas, somente grupos e usuários nesta lista de distribuição poderão ser adicionados como membros às salas de chat nessa categoria. A propriedade Criadores permite controlar quem pode criar salas de chat nessa categoria. Depois que a sala de chat é criada, qualquer pessoa do grupo AllowedMembers pode ser designada como Gerente para operações de gerenciamento contínuas nas salas (por exemplo, alterações de associação e aprovação).
   
 Definir uma lista de membros para uma categoria oferece os seguintes benefícios:
   
@@ -51,7 +51,7 @@ Você pode configurar e gerenciar categorias usando o Painel de Controle ou os c
     
 3. Na barra de navegação esquerda, clique em **Chat Persistente** e clique em **Categoria**.
     
-    Para várias implantações de pool de Servidor de Chat Persistente, selecione o pool apropriado na lista drop-down.
+    Para várias implantações de pool de Servidor de Chat Persistente, selecione o pool apropriado na lista lista.
     
 4. Na página **Categoria**, clique em **Novo** ou **Editar**.
     
@@ -67,7 +67,7 @@ Você pode configurar e gerenciar categorias usando o Painel de Controle ou os c
     
    - Para controlar os carregamentos de arquivo nas salas de chat que pertencem a essa categoria, marque ou desmarque a caixa de seleção **Habilitar carregamento de arquivo**. Se for marcada, as salas dessa categoria poderão habilitar ou desabilitar os carregamentos de arquivo; se for desmarcada, as salas dessa categoria não terão permissão para carregamentos de arquivo.
     
-   - Para controlar o histórico de chat, marque ou des marque a **caixa de seleção Habilitar histórico** de chat. Se for marcada, as salas de chats se tornarão persistentes; caso contrário, as mensagens de chat não serão persistentes. Se a conformidade for habilitada, salas de chats serão salvas em conformidade, mas os usuários não poderão acessar mensagens mais antigas. Essa opção pode ser usada para salas designadas para colaborações ad hoc em tempo real que não precisam persistir no histórico do chat.
+   - Para controlar o histórico de chat, marque ou des limpe a **caixa de seleção Habilitar histórico** de chat. Se for marcada, as salas de chats se tornarão persistentes; caso contrário, as mensagens de chat não serão persistentes. Se a conformidade for habilitada, salas de chats serão salvas em conformidade, mas os usuários não poderão acessar mensagens mais antigas. Essa opção pode ser usada para salas designadas para colaborações ad hoc em tempo real que não precisam persistir no histórico do chat.
     
 7. Em **Editar Categoria**, faça o seguinte:
     

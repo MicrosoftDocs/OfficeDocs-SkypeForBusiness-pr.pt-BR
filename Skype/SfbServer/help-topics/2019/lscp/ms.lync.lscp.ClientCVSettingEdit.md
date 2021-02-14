@@ -1,5 +1,5 @@
 ---
-title: Configuração da Versão do Cliente Criar Nova ou Editar Existente
+title: Configuração de Versão de Cliente Criar Nova ou Editar Existente
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur

@@ -71,7 +71,7 @@ Usuários externos autorizados podem usar seus Servidores de Borda para se conec
 ### <a name="reverse-proxies"></a>Proxies reversos
 <a name="ReverseProxies"> </a>
 
-Um servidor de proxy reverso (RP) não tem função do Skype for Business Server, mas é um componente essencial de uma implantação do Servidor de Borda. Um proxy reverso permite que os usuários externos:
+Um servidor de proxy reverso (RP) não tem nenhuma função do Skype for Business Server, mas é um componente essencial de uma implantação do Servidor de Borda. Um proxy reverso permite que os usuários externos:
   
 - conectar-se a reuniões ou conferências discdas usando URLs simples.
     
@@ -103,7 +103,7 @@ Nossas recomendações de proxy reverso atuais podem ser encontradas na página 
     
 - deve ser capaz de publicar um site hospedado internamente externamente usando um nome de domínio totalmente qualificado (FQDN).
     
-- precisa ser capaz de publicar todo o conteúdo do seu site hospedado. Por padrão, você pode usar a diretiva _, que é reconhecida pela maioria dos servidores Web para significar "Publicar todo o **/\\** conteúdo no servidor Web". Você também pode modificar a diretiva por exemplo, _*/Uwca/ \\* *_, que significa "Publicar todo o conteúdo sob o diretório virtual Ucwa".
+- precisa ser capaz de publicar todo o conteúdo do seu site hospedado. Por padrão, você pode usar a diretiva _, que é reconhecida pela maioria dos servidores Web para significar "Publicar todo o **/\\** conteúdo no servidor Web". Você também pode modificar a diretiva , por exemplo, _*/Uwca/ \\* *_, que significa "Publicar todo o conteúdo sob o diretório virtual Ucwa".
     
 - deve exigir conexões TLS com clientes que solicitam conteúdo de seu site publicado.
     
@@ -154,7 +154,7 @@ Para qualquer Servidor de Borda que executa o serviço de Borda A/V, estes são 
   
 - Desativar o nagling de TCP para portas internas e externas 443 (nagling é o processo de combinação de vários pacotes pequenos em um único pacote maior para uma transmissão mais eficiente).
     
-- Desativar o nagling TCP para o intervalo de portas externas 50000 - 59999.
+- Desativar o nagling TCP para o intervalo de porta externa 50000 - 59999.
     
 - Não use NAT em seus firewalls internos ou externos.
     
@@ -186,7 +186,7 @@ Para implantações que **precisam** de afinidade baseada em cookie:
 - O cookie do  balanceador de carga de hardware deve ser definido em cada resposta HTTP para a qual a solicitação HTTP de entrada não tinha um cookie, independentemente de uma resposta HTTP anterior nessa mesma conexão TCP ter obtido um cookie. Se o balanceador de carga de hardware otimiza a inserção de cookie para ocorrer apenas uma vez por conexão TCP, essa otimização **não deve** ser usada.
     
 > [!NOTE]
-> É comum que as configurações de HLB usem afinidade de origem e tempo de vida de sessão TCP de 20 minutos, o que é bom para o Skype for Business Server e seus clientes, pois o estado da sessão é mantido por meio do uso do cliente e/ou interação do aplicativo. 
+> É comum que as configurações de HLB usem afinidade de origem e tempo de vida de sessão TCP de 20 minutos, o que é bom para o Skype for Business Server e seus clientes, porque o estado da sessão é mantido por meio do uso do cliente e/ou interação do aplicativo. 
   
 Se você estiver implantando dispositivos móveis, seu HLB deverá ser capaz de balancear a carga de solicitações individuais em uma sessão TCP (na verdade, você precisa ser capaz de balancear a carga de uma solicitação individual com base no endereço IP de destino).
   

@@ -41,11 +41,11 @@ O procedimento de failover baseia-se na suposição de que o data center secund�
     
 O procedimento é baseado em duas etapas básicas:
   
-- Recuperar o banco de dados de Chat Persistente primário (mgc).
+- Recupere o banco de dados de Chat Persistente primário (mgc).
     
 - Estabelecer o espelhamento para o novo banco de dados primário.
     
-O banco de dados de conformidade de Chat Persistente (mgccomp) não é failed over. O conteúdo deste banco de dados é temporário e é excluído como os processos do adaptador de conformidade dos dados. É sua responsabilidade, como Administrador de Chat Persistente, gerenciar corretamente a saída do adaptador para evitar a perda de dados.
+O banco de dados de conformidade do Chat Persistente (mgccomp) não é failed over. O conteúdo deste banco de dados é temporário e é excluído como os processos do adaptador de conformidade dos dados. É sua responsabilidade, como Administrador de Chat Persistente, gerenciar corretamente a saída do adaptador para evitar a perda de dados.
   
 Para fazer fail over do Servidor de Chat Persistente:
   
@@ -163,7 +163,7 @@ Estas etapas foram criadas para recuperar a configuração como ela se encontrav
     
    - Clique em **OK** para iniciar o processo de restauração.
     
-5. Configure o envio de log do SQL Server para o banco de dados primário. Siga os procedimentos em [Configure high availability and disaster recovery for Persistent Chat Server in Skype for Business Server 2015](../../deploy/deploy-persistent-chat-server/configure-hadr-for-persistent-chat.md) para estabelecer o envio de log para o banco de dados mgc primário.
+5. Configure o envio de log do SQL Server para o banco de dados primário. Siga os procedimentos em [Configure high availability and disaster recovery for Persistent Chat Server in Skype for Business Server 2015](../../deploy/deploy-persistent-chat-server/configure-hadr-for-persistent-chat.md) to establish log shipping for the primary mgc database.
     
 6. Definir os servidores ativos do Servidor de Chat Persistente. No Shell de Gerenciamento do Skype for Business Server, use o cmdlet **Set-CsPersistentChatActiveServer** para definir a lista de servidores ativos.
     

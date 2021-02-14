@@ -61,7 +61,7 @@ A webconferência permite que os participantes da reunião colaborem em document
     
   - Os dispositivos móveis podem acessar essas apresentações.
     
-  - Os usuários com as permissões apropriadas podem rolar uma apresentação do PowerPoint independente da apresentação propriamente dita. Por exemplo, enquanto Ken está apresentando sua apresentação de slides, Paulo pode olhar para qualquer slide que quiser sem afetar a apresentação de Ken.
+  - Os usuários com as permissões apropriadas podem rolar uma apresentação do PowerPoint independente da apresentação propriamente dita. Por exemplo, enquanto Ken está apresentando sua apresentação de slides, Ken pode olhar para qualquer slide que quiser sem afetar a apresentação de Ken.
     
 ### <a name="audio-and-video-conferencing"></a>Conferência de áudio e vídeo
 
@@ -75,7 +75,7 @@ A conferência de áudio e vídeo permite áudio e vídeo na reunião. O áudio 
     
 - **Adicionar um usuário discando.** Os apresentadores e participantes que receberam permissão podem adicionar números PSTN às conferências e fazer com que a conferência disque para esses números.
     
-  O Skype for Business Server fornece vários recursos que os usuários podem usar para configurar a experiência de videoconferência para o usuário, incluindo o seguinte:
+  O Skype for Business Server oferece vários recursos que os usuários podem usar para configurar a experiência de videoconferência para o usuário, incluindo o seguinte:
   
 - **Exibição de Galeria.** Em conferências de vídeo que tenham mais que duas pessoas, os usuários podem automaticamente ver todos na conferência. Se a conferência tiver mais que cinco participantes, o vídeo dos participantes mais ativos serão exibidos na linha superior e apenas a foto dos outros participantes será exibida. O vídeo de vários participantes está ativado como padrão.
     
@@ -83,7 +83,7 @@ A conferência de áudio e vídeo permite áudio e vídeo na reunião. O áudio 
     
 - **Modo de vídeo somente do apresentador.** Os apresentadores podem configurar a reunião de forma que apenas o vídeo deles seja exibido. Isso evita distrações em reuniões grandes, quando várias transmissões de vídeo estão disponíveis e travadas para diferentes fontes. Esse modo também é aplicado ao vídeo capturado e fornecido por dispositivos de mesa redonda.
     
-- **Destaque de Vídeo.** Os apresentadores podem configurar a reunião para que apenas o vídeo de um participante selecionado seja visto pelos outros participantes na conferência. Esse modo também se aplica ao vídeo capturado e fornecido pelos dispositivos de mesa redonda de vídeo panorâmico.
+- **Destaque de vídeo.** Os apresentadores podem configurar a reunião para que apenas o vídeo de um participante selecionado seja visto pelos outros participantes na conferência. Esse modo também se aplica ao vídeo capturado e fornecido pelos dispositivos de mesa redonda de vídeo panorâmico.
     
 ### <a name="dial-in-conferencing"></a>Conferência discada
 
@@ -97,13 +97,13 @@ A conferência de mensagens instantâneas (IM) permite que mais de duas partes s
 
 Os componentes que suportam recursos de conferência incluem o seguinte:
   
-- **Serviço de aplicativo.** O serviço de aplicativo fornece uma plataforma para implantar, hospedar e gerenciar aplicativos de comunicações unificadas (UC). A conferência discda usa dois aplicativos de UC que exigem o serviço de Aplicativo: Atendente de Conferência e Comunicado de Conferência. O serviço de Aplicativo é instalado e ativado por padrão em cada Servidor front-end em um pool de Front-End. Ele também é instalado em cada servidor Standard Edition para habilitar e configurar a conferência discada.
+- **Serviço de aplicativo.** O serviço de aplicativo fornece uma plataforma para implantar, hospedar e gerenciar aplicativos de comunicações unificadas (UC). A conferência discda usa dois aplicativos de UC que exigem o serviço de Aplicativo: Atendente de Conferência e Comunicado de Conferência. O serviço de Aplicativo é instalado e ativado por padrão em cada Servidor front-end em um pool de Front-End. Ele também é instalado em todos os servidores Standard Edition para habilitar e configurar a conferência discada.
     
-- **Aplicativo Attendant de Conferência.** O aplicativo Atendente de Conferência é um aplicativo de comunicações unificadas que aceita chamadas PSTN (rede telefônica pública comutado), reproduz prompts e inscreva as chamadas em uma conferência A/V. O aplicativo Atendente de Conferência é instalado e ativado por padrão quando você habilita a conferência discada.
+- **Aplicativo Attendant de Conferência.** O aplicativo Atendente de Conferência é um aplicativo de comunicações unificadas que aceita chamadas PSTN (rede telefônica pública comutado), reproduz prompts e inscreva as chamadas a uma conferência A/V. O aplicativo Atendente de Conferência é instalado e ativado por padrão quando você habilita a conferência discada.
     
 - **Aplicativo Comunicado de Conferência.** O aplicativo Comunicado de Conferência é um aplicativo de comunicações unificadas que reproduz tons e solicita aos participantes PSTN determinadas ações, como quando os participantes ingressam ou saem de uma conferência, os participantes são silenciados ou sem som, alguém entra no lobby da conferência ou a conferência está bloqueada ou desbloqueada. O aplicativo Comunicado de Conferência também oferece suporte a comandos DTMF (multifrequência de tom dual) no teclado do telefone. O aplicativo Comunicado de Conferência é instalado e ativado automaticamente por padrão quando você habilita a conferência discada.
     
-- **Página Configurações de Conferência Discado.** A página Configurações de Conferência Discada exibe os números de discagem de conferência com seus idiomas disponíveis, as informações de conferência atribuídas (ou seja, para reuniões que não precisam ser agendadas) e os controles DTMF em conferência e oferece suporte ao gerenciamento de PIN (número de identificação pessoal) e informações de conferência atribuídas. A página Configurações de Conferência Discada é instalada automaticamente como parte dos Serviços Web.
+- **Página Configurações de Conferência Discado.** A página Configurações de Conferência Discada exibe os números de discagem de conferência com seus idiomas disponíveis, as informações de conferência atribuídas (ou seja, para reuniões que não precisam ser agendadas) e os controles DTMF em conferência e oferece suporte ao gerenciamento de PIN (número de identificação pessoal) e informações de conferência atribuídas. A página Configurações de Conferência Discada é automaticamente instalada como parte dos Serviços Web.
     
 - **Servidor de Mediação e gateway PSTN.** A conferência discada requer um Servidor de Mediação para traduzir a sinalização (e mídia em algumas configurações) entre o Skype for Business Server e o gateway PSTN e um gateway PSTN para traduzir a sinalização e a mídia entre o Servidor de Mediação e o gateway PSTN. Para a Conferência de Discagem, você deve implantar pelo menos um Servidor de Mediação e pelo menos um dos seguintes:
     
@@ -118,25 +118,25 @@ Os componentes que suportam recursos de conferência incluem o seguinte:
   
 - **Armazenamento de arquivos.** O repositório de arquivos é usado para arquivos de áudio de nome gravado. O repositório de arquivos é um componente padrão em cada implantação Enterprise Edition ou Standard Edition.
     
-- **Armazenamento do usuário.** O armazenamento do usuário é usado para armazenar os PINs do Skype for Business Server do usuário. Os PINs estão em hash. O repositório de usuário é um componente padrão em cada implantação Enterprise Edition ou Standard Edition.
+- **Armazenamento do usuário.** O armazenamento do usuário é usado para armazenar PINs do Skype for Business Server do usuário. Os PINs estão em hash. O repositório de usuário é um componente padrão em cada implantação Enterprise Edition ou Standard Edition.
     
 - **Servidor do Office Web Apps.** Para usar os recursos de webconferência, os administradores devem instalar o Servidor do Office Web Apps e configurar o Skype for Business Server para se comunicar com o Servidor do Office Web Apps.
     
 ## <a name="conferencing-policies"></a>Políticas de conferência
 
-Para impor as políticas da sua organização e controlar o uso da largura de banda, você pode definir políticas para os tipos de reuniões que os usuários podem organizar. Você pode definir uma ampla variedade de políticas de conferência e atribuí-las a usuários individuais e grupos de usuários. Você também pode definir políticas que governam conversas ponto a ponto. Para obter detalhes sobre como definir políticas de conferência, consulte Gerenciar políticas [de conferência no Skype for Business Server.](../../manage/conferencing/conferencing-policies.md) Para obter detalhes sobre gerenciamento de largura de banda, [consulte Plan for call admission control in Skype for Business Server](../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md).
+Para impor as políticas da sua organização e controlar o uso da largura de banda, você pode definir políticas para os tipos de reuniões que os usuários podem organizar. Você pode definir uma ampla variedade de políticas de conferência e atribuí-las a usuários individuais e grupos de usuários. Você também pode definir políticas que governam conversas ponto a ponto. Para obter detalhes sobre como definir políticas de conferência, consulte [Gerenciar políticas de conferência no Skype for Business Server.](../../manage/conferencing/conferencing-policies.md) Para obter detalhes sobre gerenciamento de largura de banda, [consulte Plan for call admission control in Skype for Business Server](../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md).
   
 ## <a name="support-for-large-meetings"></a>Suporte para reuniões grandes
 
-O tamanho das reuniões que o Skype for Business Server pode suportar depende de a conferência ser hospedada em um pool compartilhado ou dedicado:
+O tamanho das reuniões que o Skype for Business Server pode suportar depende se a conferência está hospedada em um pool compartilhado ou dedicado:
   
 - Em um pool compartilhado, o Skype for Business Server pode hospedar reuniões com até 250 usuários. Um pool compartilhado é um pool que hospeda todas as cargas de trabalho do Skype for Business Server, incluindo mensagens instantâneas (IM) e presença, conferência e Enterprise Voice. 
     
-- Em um pool dedicado, o Skype for Business Server pode dar suporte a reuniões com até 1.000 participantes usando conferências web e de áudio/vídeo (A/V), incluindo o compartilhamento de apresentações do PowerPoint. Esse suporte requer um pool dedicado configurado para suportar grandes reuniões e gerenciado de forma a garantir a hospedagem de apenas uma grande reunião por vez. 
+- Em um pool dedicado, o Skype for Business Server pode dar suporte a reuniões com até 1.000 participantes usando webconferência e conferência de áudio/vídeo (A/V), incluindo o compartilhamento de apresentações do PowerPoint. Esse suporte requer um pool dedicado configurado para suportar grandes reuniões e gerenciado de forma a garantir a hospedagem de apenas uma grande reunião por vez. 
     
 Para obter mais informações sobre como gerenciar grandes reuniões, [consulte Planejar grandes reuniões no Skype for Business Server.](large-meetings.md)
   
-Se sua organização exigir recursos maiores de reunião, considere a implementação de um ambiente híbrido que aproveite a Transmissão de Reunião do Skype, um serviço online que faz parte do Microsoft 365 e do Office 365. A Transmissão de Reunião do Skype permite que os usuários hospedem e transdiem reuniões para grandes audiências online de até 10.000 participantes. O uso da Transmissão de Reunião do Skype exige que o Skype for Business Server já tenha sido configurado em uma configuração híbrida com uma organização de produção do Microsoft 365 ou Office 365. Todos os usuários devem ter um locatário online estabelecido como pré-requisito. Se você estiver interessado em implantar uma solução híbrida que possa aproveitar a Transmissão de Reunião do Skype, consulte Configurar sua implantação local para a Transmissão de Reunião [do Skype.](../../deploy/configure-skype-meeting-broadcast.md)
+Se sua organização exigir recursos maiores de reunião, considere a implementação de um ambiente híbrido que aproveite a Transmissão de Reunião do Skype, um serviço online que faz parte do Microsoft 365 e do Office 365. A Transmissão de Reunião do Skype permite que os usuários hospedem e transdiem reuniões para grandes audiências online de até 10.000 participantes. O uso da Transmissão de Reunião do Skype exige que o Skype for Business Server já tenha sido configurado em uma configuração híbrida com uma organização do Microsoft 365 ou Office 365 de produção. Todos os usuários devem ter um locatário online estabelecido como pré-requisito. Se você estiver interessado em implantar uma solução híbrida que possa aproveitar a Transmissão de Reunião do Skype, consulte Configurar sua implantação local para Transmissão de Reunião [do Skype.](../../deploy/configure-skype-meeting-broadcast.md)
   
 ## <a name="determine-your-organizations-needs"></a>Determinar as necessidades de suas organizações
 
@@ -170,7 +170,7 @@ Ao determinar quais funcionalidades de conferência serão implantadas, você pr
     
     Em caso afirmativo, implante e habilite a conferência de discagem. Em seguida, os usuários convidados (dentro e fora da sua organização) poderão ingressar na parte de áudio de conferências usando um telefone PSTN.
     
-    A conferência discada é um recurso opcional que você pode configurar ao implantar a conferência do Skype for Business Server. Embora a conferência discda use alguns dos mesmos componentes que o Enterprise Voice usa, você pode implantar a conferência discado mesmo se não implantar o Enterprise Voice. A conferência de discagem suporta aos usuários corporativos e anônimos. Para obter mais informações sobre como configurar a conferência discada para usuários corporativos e anônimos, consulte [Deploy conferencing in Skype for Business Server](../../deploy/deploy-conferencing/deploy-conferencing.md) and Configure [dial-in conferencing in Skype for Business Server](../../deploy/deploy-conferencing/dial-in-conferencing.md).
+    A conferência discada é um recurso opcional que você pode configurar ao implantar a conferência do Skype for Business Server. Embora a conferência discda use alguns dos mesmos componentes que o Enterprise Voice usa, você pode implantar a conferência discda mesmo se não implantar o Enterprise Voice. A conferência de discagem suporta aos usuários corporativos e anônimos. Para obter mais informações sobre como configurar a conferência discada para usuários corporativos e anônimos, consulte [Deploy conferencing in Skype for Business Server](../../deploy/deploy-conferencing/deploy-conferencing.md) and Configure [dial-in conferencing in Skype for Business Server](../../deploy/deploy-conferencing/dial-in-conferencing.md).
     
 - **Você deseja permitir que usuários externos com clientes do Skype for Business participem de conferências?**
     
@@ -188,6 +188,6 @@ Ao determinar quais funcionalidades de conferência serão implantadas, você pr
     
 - **Você deseja controlar os clientes que podem ingressar em reuniões do Skype for Business Server?**
     
-    Em caso afirmativo, você deve configurar a página de ingresso em reunião para que apenas as opções do cliente que você deseja oferecer fiquem disponíveis. Sempre que um usuário clica em um link para ingressar em uma reunião agendada, o Skype for Business Server detecta se um cliente já está instalado no computador. Em seguida, ele iniciará o cliente padrão e abrirá a página de ingresso em reunião, que contém links para clientes alternativos. A página de junção de reunião sempre contém a opção de usar o Skype for Business Web App. Além dessa opção, você pode decidir se incluirá links para Participantes e versões anteriores do Communicator. 
+    Em caso afirmativo, você deve configurar a página de ingresso em reunião para que apenas as opções do cliente que você deseja oferecer fiquem disponíveis. Sempre que um usuário clica em um link para ingressar em uma reunião agendada, o Skype for Business Server detecta se um cliente já está instalado no computador. Em seguida, ele iniciará o cliente padrão e abrirá a página de ingresso em reunião, que contém links para clientes alternativos. A página de junção de reunião sempre contém a opção de usar o Skype for Business Web App. Além dessa opção, você pode decidir se incluirá links para o Participante e versões anteriores do Communicator. 
     
 

@@ -26,7 +26,7 @@ ms.locfileid: "49812761"
   
 Depois de configurar o computador que atuará como um nó do inspetor, você deve:
   
-1. [Configure contas de usuário de](test-users-and-settings-2019.md#testuser) teste a serem usadas por esses nós do watcher. Se estiver usando o método de autenticação Negociar, você também deve usar o cmdlet **Set-CsTestUserCredential** para permitir o uso dessas contas de teste no nó do inspetor.
+1. [Configurar Contas de Usuário de](test-users-and-settings-2019.md#testuser) Teste a serem usadas por esses nós do watcher. Se estiver usando o método de autenticação Negociar, você também deve usar o cmdlet **Set-CsTestUserCredential** para permitir o uso dessas contas de teste no nó do inspetor.
     
 2. Atualizar as definições de configuração do nó do inspetor.
     
@@ -162,7 +162,7 @@ Ocorrerá um erro se um ou mais desses testes (por exemplo, DataConference) já 
   
 Set-CsWatcherNodeConfiguration : há uma sequência de chaves duplicada 'DataConference' para a chave 'urn:schema:Microsoft.Rtc.Management.Settings.WatcherNode.2010:TestName' ou restrição de identidade exclusiva.
   
-Quando esse erro ocorre, nenhuma alteração será aplicada. O comando deve ser executado de novo com o teste duplicado removido.
+Quando esse erro ocorre, nenhuma alteração será aplicada. O comando deve ser executado com o teste duplicado removido.
   
 Para remover uma transação sintética de um nó do watcher, use o método Remove. Por exemplo, esse comando remove o teste ABWQ do nó do inspetor:
   
@@ -204,7 +204,7 @@ Get-CsWatcherNodeConfiguration
 
 Você receberá informações semelhantes a esta:
   
-Identidade : atl-cs-001.litwareinc.com TestUsers : {sip:watcher1@litwareinc.com, sip:watcher2@litwareinc.com ...} ExtendedTests : {TestUsers=IList<System.String>; Name=Teste PSTN; Te...} TargetFqdn : atl-cs-001.litwareinc.com PortNumber : 5061To verificar se o nó do watcher foi configurado corretamente, digite o seguinte comando do Shell de Gerenciamento do Skype for Business Server:
+Identidade : atl-cs-001.litwareinc.com TestUsers : {sip:watcher1@litwareinc.com, sip:watcher2@litwareinc.com ...} ExtendedTests : {TestUsers=IList<System.String>; Name=PSTN Test; Te...} TargetFqdn : atl-cs-001.litwareinc.com PortNumber : 5061To verificar se o nó do watcher foi configurado corretamente, digite o seguinte comando do Shell de Gerenciamento do Skype for Business Server:
   
 ```PowerShell
 Test-CsWatcherNodeConfiguration
@@ -220,7 +220,7 @@ Este comando testará cada nó do watcher em sua implantação e confirmará se 
     
 - Suas portas estão configuradas corretamente
     
-- Os usuários de teste atribuídos têm as credenciais necessárias
+- Seus usuários de teste atribuídos têm as credenciais necessárias
     
 ## <a name="managing-watcher-nodes"></a>Gerenciando nós do watcher
 <a name="testuser"> </a>
@@ -265,7 +265,7 @@ Set-CsWatcherNodeConfiguration -Identity "atl-watcher-001.litwareinc.com" -UseIn
 
 A maioria das transações sintéticas pode ser executado em um nó do watcher como está. Na maioria dos casos, assim que a transação sintética é adicionada às definições de configuração do nó do watcher, o nó do watcher pode começar a usar essa transação sintética durante suas passagens de teste. No entanto, existem algumas transações sintéticas que exigem instruções especiais de configuração, conforme discutido nas seções a seguir.
   
-### <a name="data-conferencing-synthetic-transaction"></a>Transação Sintética de Conferência de Dados
+### <a name="data-conferencing-synthetic-transaction"></a>Transação sintética de conferência de dados
 
 Se o computador do nó do seu watcher estiver localizado fora da rede de perímetro, você provavelmente não poderá executar a Transação Sintética de Conferência de Dados, a menos que primeiro desabilite as configurações de proxy do navegador Internet do Windows Internet Explorer® para a conta serviço de rede concluindo as seguintes etapas:
   
@@ -306,7 +306,7 @@ $cred2 = Get-Credential "contoso\testUser2"
 Test-CsPersistentChatMessage -TargetFqdn pool0.contoso.com -SenderSipAddress sip:testUser1@contoso.com -SenderCredential $cred1 -ReceiverSipAddress sip:testUser2@contoso.com -ReceiverCredential $cred2 -TestUser1SipAddress sip:testUser1@contoso.com -TestUser2SipAddress sip:testUser2@contoso.com -Setup $true
 ```
 
-Você deve executar essa tarefa de configuração de dentro da empresa:
+Você deve executar essa tarefa de instalação de dentro da empresa:
   
 - Se for executado de uma máquina que não seja de servidor, o usuário que executar o cmdlet deverá ser membro da função CsPersistentChatAdministrators para Role-Based Access Control (RBAC).
     
@@ -314,7 +314,7 @@ Você deve executar essa tarefa de configuração de dentro da empresa:
     
 ### <a name="pstn-peer-to-peer-call-synthetic-transaction"></a>Transação sintética de chamada ponto a ponto PSTN
 
-A Test-CsPstnPeerToPeerCall sintética verifica a capacidade de fazer e receber chamadas por meio de uma PSTN (rede telefônica pública comutado).
+A Test-CsPstnPeerToPeerCall sintética verifica a capacidade de fazer e receber chamadas por meio de uma rede telefônica pública comutado (PSTN).
   
 Para executar essa transação sintética, você deve configurar:
   
@@ -322,7 +322,7 @@ Para executar essa transação sintética, você deve configurar:
     
 - Números DID (Discagem Interna Direta) para cada conta de usuário.
     
-- Políticas VoIP e rotas de voz que permitem que as chamadas para o número do receptor cheguem ao gateway PSTN.
+- Políticas VoIP e rotas de voz que permitem que chamadas para o número do receptor cheguem ao gateway PSTN.
     
 - Um gateway PSTN que aceita chamada e mídia que encaminhará chamadas de volta para o pool base de um receptor, com base no número discado.
     
@@ -395,7 +395,7 @@ Para alterar a frequência na qual as transações sintéticas são executados, 
 ## <a name="using-rich-logging-for-synthetic-transactions"></a>Usando Registro em Log Sofisticado para Transações Sintéticas
 <a name="special_synthetictrans"> </a>
 
-As transações sintéticas são extremamente úteis para ajudar a identificar problemas com o sistema. Por exemplo, o Test-CsRegistration cmdlet pode alertar os administradores para o fato de que os usuários estavam com dificuldades para se registrar no Skype for Business Server. No entanto, detalhes adicionais podem ser necessários para determinar a causa real de uma falha.
+As transações sintéticas são extremamente úteis para ajudar a identificar problemas com o sistema. Por exemplo, o cmdlet Test-CsRegistration pode alertar os administradores para o fato de que os usuários estavam com dificuldades para se registrar no Skype for Business Server. No entanto, detalhes adicionais podem ser necessários para determinar a causa real de uma falha.
   
 Por esse motivo, as transações sintéticas fornecem registro em log rico. Com o registro em log rico, para cada atividade assumida por uma transação sintética, as seguintes informações são registradas:
   

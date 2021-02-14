@@ -162,7 +162,7 @@ Ao configurar um nó do observador, você também deve escolher o tipo de métod
 ## <a name="configure-a-watcher-node-to-use-trusted-server-authentication"></a>Configurar um nó do watcher para usar a autenticação de servidor confiável
 <a name="enable_synthetic_trans"> </a>
 
-Se o computador de nó do seu watcher estiver dentro da rede de perímetro, o uso da autenticação de Servidor Confiável pode reduzir consideravelmente as tarefas de administração mantendo um único certificado, em vez de usar várias senhas de conta de usuário.
+Se o computador do nó do watcher estiver dentro da rede de perímetro, o uso da autenticação do Servidor Confiável pode reduzir consideravelmente as tarefas de administração mantendo um único certificado, em vez de usar várias senhas de conta de usuário.
   
 Para configurar a autenticação de Servidor Confiável, você deve primeiro criar um pool de aplicativos confiáveis para hospedar o computador do nó do watcher. Depois de criar o pool de aplicativos confiáveis, você deve configurar transações sintéticas nesse nó do watcher para executar como aplicativos confiáveis.
   
@@ -216,7 +216,7 @@ Para atribuir um certificado padrão:
 > [!NOTE]
 > Caso o botão Executar esteja inativo, talvez você precise clicar primeiro em Executar, sob Instalar Repositório de Configuração Local. 
   
-Faça um dos seguintes:
+Siga um destes procedimentos:
   
 - Se você já tiver um certificado que pode ser usado como o certificado padrão, clique em Padrão no assistente de Certificado e clique em Atribuir. Siga as etapas no assistente de Atribuição de Certificado para atribuí-lo.
     
@@ -231,7 +231,7 @@ Para instalar e configurar um nó do watcher:
   
 1. Abra o Shell de Gerenciamento do Skype for Business Server clicando em Iniciar, em Todos os Programas, no Skype for Business Server 2015 e no Shell de Gerenciamento do Skype for Business Server. 
     
-2. No Shell de Gerenciamento, digite o comando a seguir e pressione ENTER (certifique-se de especificar o caminho real para sua cópia de Watchernode.msi):
+2. No Shell de Gerenciamento, digite o seguinte comando e pressione ENTER (certifique-se de especificar o caminho real para sua cópia de Watchernode.msi):
     
 ```PowerShell
 C:\Tools\Watchernode.msi Authentication=TrustedServer
