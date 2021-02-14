@@ -44,7 +44,7 @@ A lista a seguir descreve os campos na caixa de diálogo **Selecionar Agentes**.
 
 - **Telefonia** Exibe o valor do campo **Telefonia** definido para os usuários.
 
-- **Habilitado** Exibe o valor do campo **Habilitado para Lync Server** definido para usuários.
+- **Habilitado** Exibe o valor do campo **Habilitado para Lync Server** definido para os usuários.
 
 Para obter detalhes sobre como trabalhar com grupos de agente, consulte [Managing Agent Groups](https://technet.microsoft.com/library/36084cdc-38f1-4c45-922f-f81c7e86210c.aspx) na documentação Operações.
 

@@ -67,14 +67,14 @@ Siga estas etapas se quiser definir uma regra de conversão inserindo um conjunt
 2. Abra uma janela do navegador e insira a URL do Administrador para abrir o Painel de Controle. Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o Painel de Controle do Skype for Business, consulte Instalar e [abrir ferramentas administrativas.](../../management-tools/install-and-open-administrative-tools.md)
 3. Para começar a definir uma regra de conversão, siga as etapas em [Configure a trunk with media bypass](GET LINK AFTER MIGRATION)through step 10 ou Configure a trunk without media [bypass](GET LINK AFTER MIGRATION) through step 9.
 4. Em **Nome** na página **Nova Regra de Conversão** ou **Editar Regra de Conversão**, digite um nome que descreve o padrão numérico que está convertido.
-5. (Opcional) Em **Descrição,** digite uma descrição da regra de conversão- por exemplo, discagem internacional **de longa distância dos EUA.**
+5. (Opcional) Em **Descrição,** digite uma descrição da regra de conversão, por exemplo, discagem internacional **de longa distância dos EUA.**
 6. Na seção **Compilar uma Regra de Conversão** da caixa de diálogo, insira valores nos seguintes campos:
     - **Dígitos iniciais**: (Opcional) especifique os dígitos iniciais dos números com os quais você deseja que o padrão corresponda. Por exemplo, digite + nesse campo para corresponder os números no formato E.164 (que começa com +).
     - **Comprimento**: especifique o número de dígitos no padrão de correspondência e selecione se deseja que o padrão corresponda a números exatamente com esse comprimento, com um comprimento menor ou qualquer comprimento. Por exemplo, digite **11** e selecione **No mínimo** na lista suspensa para fazer a correspondência de números com no mínimo 11 dígitos de comprimento.
     - **Dígitos a serem removidos**: (Opcional) especifique o número de dígitos iniciais a serem removidos. Por exemplo, digite **1** para retirar o + do início do número.
     - **Dígitos a adicionar**: (Opcional) especifique os dígitos a serem anexados aos números convertidos. Por exemplo, digite **011** se quiser que 011 seja anexado aos números convertidos quando a regra é aplicada.
     
-    Os valores que você inserir nesses campos são refletidos nos **campos de regra Padrão para corresponder** e **Conversão.** Por exemplo, se você especificar os valores de exemplo anteriores, a expressão regular resultante no **campo Padrão para matc** h será:
+    Os valores que você inserir nesses campos são refletidos nos **campos de regra Padrão para corresponder** e **Conversão.** Por exemplo, se você especificar os valores de exemplo anteriores, a expressão regular resultante no campo Padrão para **matc** h será:
     
     **^\+(\d {9} \d+)$** 
 

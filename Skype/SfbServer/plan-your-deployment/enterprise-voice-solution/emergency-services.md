@@ -60,7 +60,7 @@ Ao usar um gateway ELIN, você também adiciona ERLs ao banco de dados do servi�
 
 Se você usar a opção de gateway ELIN e precisar oferecer suporte a E9-1-1 de telefones analógicos, é possível prover o local do dispositivo analógico diretamente com o provedor de serviços PS-ALI, como descrito na primeira opção acima.
 
-Da perspectiva do Skype for Business Server, o processo E9-1-1 pode ser separado em dois estágios:
+De uma perspectiva do Skype for Business Server, o processo E9-1-1 pode ser separado em dois estágios:
 
 - Estágio 1: adquirindo um local
 
@@ -72,7 +72,7 @@ Se você planeja configurar sua infraestrutura para detectar automaticamente o l
 
 ## <a name="acquiring-a-location"></a>Adquirindo um local
 
-Em uma implantação do Skype for Business Server E9-1-1, cada cliente do Skype for Business ou do Lync Phone Edition conectado internamente adquire ativamente seu próprio local. Após o registro SIP, o cliente fornece todas as informações de conectividade de rede que conhece em uma solicitação de local para o serviço informações de local, que é um serviço Web com suporte de um banco de dados replicado do SQL Server. Cada pool de sites centrais tem um serviço de Informações de Local, que usa as informações de rede para consultar seus registros em busca de um local correspondente. Se houver uma combinação, o serviço de Informações de Local retornará um local para o cliente. Se não houver uma correspondentes, pode ser solicitado que o usuário insira uma localização manualmente (dependendo das definições da política de localização). Os dados de localização são transmitidos de volta para o cliente em um formato XML padronizado da IETF (Internet Engineering Task Force) chamado de PIDF-LO (Objeto de Local de Formato de Dados de Informação de Presença).
+Em uma implantação do Skype for Business Server E9-1-1, cada cliente do Skype for Business ou do Lync Phone Edition conectado internamente adquire ativamente seu próprio local. Após o registro SIP, o cliente fornece todas as informações de conectividade de rede que conhece em uma solicitação de local para o serviço informações de local, que é um serviço Web com suporte em um banco de dados do SQL Server replicado. Cada pool de sites centrais tem um serviço de Informações de Local, que usa as informações de rede para consultar seus registros para um local correspondente. Se houver uma combinação, o serviço de Informações de Local retornará um local para o cliente. Se não houver uma correspondentes, pode ser solicitado que o usuário insira uma localização manualmente (dependendo das definições da política de localização). Os dados de localização são transmitidos de volta para o cliente em um formato XML padronizado da IETF (Internet Engineering Task Force) chamado de PIDF-LO (Objeto de Local de Formato de Dados de Informação de Presença).
 
 O cliente Skype for Business inclui os dados de PIDF-LO como parte de uma chamada de emergência, e esses dados são usados pelo provedor de serviços E9-1-1 para determinar o PSAP apropriado e rotear a chamada para esse PSAP junto com o ESQK correto, que permite que o dispatcher PSAP obtenha o local do chamador.
 

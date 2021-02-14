@@ -95,7 +95,7 @@ A tabela a seguir lista os filtros que você pode usar com o Relatório de Falha
 |**To** <br/> |Data/hora final para o intervalo de tempo. Para exibir os dados por hora, insira a data e hora final como a seguir:  <br/> 7/7/2015 13:00  <br/> Se você não inserir uma hora final, o relatório termina automaticamente as 12:00 AM no dia especificado. Para exibir os dados por dia, insira apenas a data:  <br/> 7/7/2015  <br/> Para exibir por semana ou mês, insira uma data que está dentro da semana ou mês que deseja exibir (não é necessário inserir o primeiro dia da semana ou mês):  <br/> 7/3/2015  <br/> As semanas sempre correm do domingo até sábado.  <br/> |
 |**Pool** <br/> |FQDN (Nome de domínio totalmente qualificado) do pool de Registradores ou Servidor de Borda. Você pode selecionar um pool individual ou clicar em **[Tudo]** para ver os dados de todos os pools. Essa lista suspensa é automaticamente preenchida para você com base nos registros no banco de dados.<br/> |
 |**Tipo de atividade** <br/> | Tipo de atividade para filtrar. Selecione uma das seguintes opções: <br/>  [Tudo] <br/>  Ponto a ponto <br/>  Conferência <br/> |
-|**Categoria da sessão** <br/> | Indica se a atividade em questão teve sucesso ou falhou. Selecione uma das seguintes opções: <br/>  [Tudo] <br/>  Sucesso <br/>  Falha esperada <br/>  Falha inesperada <br/>  Uma "falha esperada" é uma falha prevista. Por exemplo, se um usuário configurou seu status para Não Perturbe, é previsto que qualquer chamada para ele irá falhar. Uma "falha inesperada" ocorre em um sistema que parecia saudável. Por exemplo, uma chamada não deveria ser terminada se o chamador for colocado em espera. Se isso ocorrer, será sinalizado como uma falha inesperada. <br/> |
+|**Categoria da sessão** <br/> | Indica se a atividade em questão teve sucesso ou falhou. Selecione uma das seguintes opções: <br/>  [Tudo] <br/>  Êxito <br/>  Falha esperada <br/>  Falha inesperada <br/>  Uma "falha esperada" é uma falha prevista. Por exemplo, se um usuário configurou seu status para Não Perturbe, é previsto que qualquer chamada para ele irá falhar. Uma "falha inesperada" ocorre em um sistema que parecia saudável. Por exemplo, uma chamada não deveria ser terminada se o chamador for colocado em espera. Se isso ocorrer, será sinalizado como uma falha inesperada. <br/> |
 |**ID diagnóstico** <br/> |Identificador exclusivo (na forma de um cabeçalho de diagnóstico-ms) anexado a uma mensagem SIP que fornece informações úteis sobre os erros de solução de problemas. Os cabeçalhos diagnósticos são opcionais (é possível ter sessões SIP que não os incluem), e os IDs diagnósticos são relatados somente para as sessões com algum tipo de problema.  <br/> |
    
 ## <a name="metrics-for-top-diagnostic-reasons"></a>Métricas para os principais motivos diagnósticos
@@ -130,7 +130,7 @@ A tabela a seguir lista as informações fornecidas no Relatório de Falha de Di
 
 |**Nome**|**É possível classificar este item?**|**Descrição**|
 |:-----|:-----|:-----|
-|**Rank** <br/> |Não  <br/> |Classificação relativa das sessões com falha com base no pool do Registrador ou servidor de borda onde a sessão foi conduzida.  <br/> |
+|**Rank** <br/> |Não  <br/> |Classificação relativa das sessões com falha com base no pool do Registrador ou Servidor de Borda onde a sessão foi conduzida.  <br/> |
 |**Principais pools** <br/> |Não  <br/> |Nome do pool de Registrador ou Servidor de Borda.  <br/> |
 |**Sessões** <br/> |Não  <br/> |Número total de sessões com falha por pool de Registrador ou Servidor de Borda.  <br/> |
    

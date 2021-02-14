@@ -14,7 +14,7 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 24e8f749-d54c-4315-a8fe-bb9303b356ef
 ROBOTS: NOINDEX, NOFOLLOW
-description: As definições de configuração de reunião definem os tipos de conferências (também chamadas de reuniões) que os usuários podem criar e controlam como (ou se) usuários anônimos e usuários de conferência discada podem ingressar nessas conferências. Essas configurações se aplicam apenas às reuniões agendadas. Elas não se aplicam a reuniões ad-hoc criadas clicando na opção Reunir Agora no cliente.
+description: As definições de configuração de reunião definem o tipo de conferência (também chamadas de reuniões) que os usuários podem criar e controlam como (ou se) usuários anônimos e usuários de conferência discada podem ingressar nessas conferências. Essas configurações se aplicam apenas às reuniões agendadas. Elas não se aplicam a reuniões ad-hoc criadas clicando na opção Reunir Agora no cliente.
 ms.openlocfilehash: 260abc13f321111b26c70b4ca8a318c8c9a2d59b
 ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT

@@ -14,7 +14,7 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 275ee1ae-ca58-4963-bc95-523319f90d96
-description: 'Edite as configurações Gerais para o Servidor de Chat Persistente ou pool de Servidor de Chat Persistente configurando ou definindo estas propriedades:'
+description: 'Edite as configurações Gerais para o Servidor de Chat Persistente ou pool de Servidor de Chat Persistente definindo ou definindo estas propriedades:'
 ms.openlocfilehash: 5c0884f4877e622a82b58ea914ffa934eecc3291
 ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
@@ -54,7 +54,7 @@ Edite as **configurações de Associações** para o Servidor de Chat Persistent
     
     Clique em **Novo** para definir um novo SQL Server store e instância opcional para o repositório de testemunha.
     
-- Marque a caixa de seleção Usar **armazenamentos** de backup do SQL Server para habilitar a recuperação de desastres se quiser habilitar o uso da recuperação de desastres do SQL Server
+- Marque a caixa de seleção Usar **armazenamentos** do SQL Server de backup para habilitar a recuperação de desastres se quiser habilitar o uso da recuperação de desastres do SQL Server
     
     Se você escolher habilitar a recuperação de desastre, selecione um repositório e uma instância na lista **Backup do SQL Server**.
     

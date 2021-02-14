@@ -55,5 +55,5 @@ As listas a seguir descrevem os menus, comandos, campos e propriedades na págin
 
 - **Setas para cima e para baixo** Essa opção move a regra de versão do cliente selecionada para cima ou para baixo com prioridade. As regras são processadas na ordem listada.
 
-Para obter detalhes sobre interoperabilidade entre clientes e versões de cliente, consulte [Interoperabilidade do Cliente.](https://technet.microsoft.com/library/0f126571-91a2-45d5-855c-1e4ddb45fc04.aspx) Para obter detalhes sobre como trabalhar com políticas de versão do cliente, consulte [Specify the Client Versions Supported in Your Organization](https://technet.microsoft.com/library/d256a581-9a48-4d1a-82cc-2e1f520d7d2e.aspx) na documentação Operações.
+Para obter detalhes sobre interoperabilidade entre clientes e versões de cliente, consulte [Interoperabilidade de Cliente.](https://technet.microsoft.com/library/0f126571-91a2-45d5-855c-1e4ddb45fc04.aspx) Para obter detalhes sobre como trabalhar com políticas de versão do cliente, consulte [Specify the Client Versions Supported in Your Organization](https://technet.microsoft.com/library/d256a581-9a48-4d1a-82cc-2e1f520d7d2e.aspx) na documentação Operações.
 

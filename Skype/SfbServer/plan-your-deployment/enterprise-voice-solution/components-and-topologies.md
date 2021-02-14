@@ -62,7 +62,7 @@ Para configurar o CAC em um tronco SIP, você terá que executar as seguintes ta
 
 2. Crie um link entre sites para o tronco SIP usando os valores de parâmetro relevantes para o site criado na etapa 1. Por exemplo, use o nome do site de rede na sua empresa como o valor do parâmetro NetworkSiteID1 e o site de rede ITSP como o valor do parâmetro NetworkSiteID2. Para obter detalhes, [consulte Create network intersite policies in Skype for Business Server](../../deploy/deploy-enterprise-voice/create-network-intersite-policies.md) in the Deployment documentation, and [New-CsNetworkInterSitePolicy](https://docs.microsoft.com/powershell/module/skype/new-csnetworkintersitepolicy?view=skype-ps).
 
-3. Obter o endereço IP do Ponto de Terminação de Mídia do SCB (Controlador de Borda da Sessão) do SEU ITSP. Adicione o endereço IP com uma máscara de sub-rede de 32 para o site de rede que representa o ITSP. Para obter detalhes, consulte [Associate a Subnet with a Network Site](https://technet.microsoft.com/library/aa69e3ac-542a-4ba1-9582-2e6bee29f633.aspx).
+3. Obter o endereço IP do Ponto de Terminação de Mídia do SCB (Controlador de Borda da Sessão) do seu ITSP. Adicione o endereço IP com uma máscara de sub-rede de 32 para o site de rede que representa o ITSP. Para obter detalhes, consulte [Associate a Subnet with a Network Site](https://technet.microsoft.com/library/aa69e3ac-542a-4ba1-9582-2e6bee29f633.aspx).
 
 ## <a name="call-admission-control-with-a-third-party-pstn-gateway-or-pbx"></a>Controle de admissão de chamada com um gateway PSTN de terceiros ou PBX
 

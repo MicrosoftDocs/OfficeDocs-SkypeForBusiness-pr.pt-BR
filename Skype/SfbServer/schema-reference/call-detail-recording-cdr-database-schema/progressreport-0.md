@@ -12,7 +12,7 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: b49f3fc7-0e2f-498f-8505-aaaf54e435f9
-description: A exibição ProgressReport armazena informações sobre sessões concluídas. Os relatórios de progresso será gravados somente para chamadas e sessões que o Lync Server 2013 determina como úteis para diagnósticos. Esta exibição foi introduzida no Microsoft Lync Server 2013.
+description: A exibição ProgressReport armazena informações sobre sessões concluídas. Os relatórios de progresso será gravados somente para chamadas e sessões que o Lync Server 2013 determina como úteis para diagnósticos. Essa exibição foi introduzida no Microsoft Lync Server 2013.
 ms.openlocfilehash: 6cc8295e73463fff9d4913efbf9d4844f9316149
 ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
@@ -22,7 +22,7 @@ ms.locfileid: "49823181"
 ---
 # <a name="progressreport-view"></a>Exibição ProgressReport
  
-A exibição ProgressReport armazena informações sobre sessões concluídas. Os relatórios de progresso será gravados somente para chamadas e sessões que o Lync Server 2013 determina como úteis para diagnósticos. Esta exibição foi introduzida no Microsoft Lync Server 2013.
+A exibição ProgressReport armazena informações sobre sessões concluídas. Os relatórios de progresso será gravados somente para chamadas e sessões que o Lync Server 2013 determina como úteis para diagnósticos. Essa exibição foi introduzida no Microsoft Lync Server 2013.
   
 > [!NOTE]
 > Os campos ErrorTime, ErrorReportSeq e ProgressReportSeq não se referem necessariamente a erros, mas a mensagens que indicam o status de chamadas ou mensagens. 

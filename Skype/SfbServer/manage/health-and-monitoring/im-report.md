@@ -70,7 +70,7 @@ A tabela a seguir lista as informações fornecidas pelo Relatório do Sistema d
 
 |**Nome**|**É possível classificar este item?**|**Descrição**|
 |:-----|:-----|:-----|
-|**Tipo de Autenticação**: <br/> |Não  <br/> | Tipo de autenticação usada pelos participantes da sessão. Normalmente, os valores são um dos seguintes: <br/>  Enterprise <br/>  Federado <br/>  PIC <br/> |
+|**Tipo de Autenticação**: <br/> |Não  <br/> | Tipo de autenticação usada pelos participantes da sessão. Normalmente, os valores são um dos seguintes: <br/>  Empresa <br/>  Federado <br/>  PIC <br/> |
 |**Data/Hora** <br/> |Não  <br/> |Data e hora em que a sessões ocorreram.  <br/> |
 |**Total** <br/> |Não  <br/> |Número total de sessões ou de contagem total de mensagens.  <br/> |
    

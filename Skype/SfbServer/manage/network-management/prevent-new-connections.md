@@ -21,11 +21,11 @@ ms.locfileid: "49823461"
 # <a name="preventing-new-connections-to-skype-for-business-server-for-server-maintenance"></a>Impedindo novas conexões com o Skype for Business Server para manutenção de servidor
 
 
-O Skype for Business Server permite que você leve um servidor offline (por exemplo, para aplicar atualizações de software ou hardware) sem perda de serviço para os usuários.
+O Skype for Business Server permite que você leve um servidor offline (por exemplo, para aplicar atualizações de software ou hardware) sem qualquer perda de serviço para os usuários.
 
 Quando você especifica a opção para impedir novas conexões ou chamadas a um servidor em um pool, ele para de aceitar novas conexões e chamadas assim que você implementa essa opção. As novas conexões e chamadas são roteadas através de outros servidores no pool. Um servidor que está impedindo novas conexões permite que suas sessões em conexões existentes continuem até terminarem de modo natural. Quando todas as sessões existentes são concluídas, o servidor está pronto para ser colocado offline.
 
-Quando você impede novas conexões com um Servidor Front-End, alguns recursos e serviços do Skype for Business Server dependem do balanceamento de carga DNS para garantir que ele funcione corretamente. Se você não estiver usando o balanceamento de carga DNSno pool, as conexões por meio desses serviços poderão não ser redirecionados para outros servidores durante o período no qual o servidor está impedindo novas conexões e, portanto, quando o servidor é colocado offline, algumas sessões e chamadas podem ser interrompidas. Estes são os recursos que dependem do balanceamento de carga DNS para garantir que esta opção funcione corretamente:
+Quando você impede novas conexões com um Servidor front-end, alguns recursos e serviços do Skype for Business Server dependem do balanceamento de carga DNS para garantir que ele funcione corretamente. Se você não estiver usando o balanceamento de carga DNSno pool, as conexões por meio desses serviços poderão não ser redirecionados para outros servidores durante o período no qual o servidor está impedindo novas conexões e, portanto, quando o servidor é colocado offline, algumas sessões e chamadas podem ser interrompidas. Estes são os recursos que dependem do balanceamento de carga DNS para garantir que esta opção funcione corretamente:
 
   - Attendant
 

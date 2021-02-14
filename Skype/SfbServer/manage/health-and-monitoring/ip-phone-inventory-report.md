@@ -121,7 +121,7 @@ A tabela a seguir lista as informações fornecidas no Relatório de Inventário
 |**URI do usuário** <br/> |Sim  <br/> |Endereço SIP do usuário que utilizou o telefone IP.  <br/> |
 |**Agente do usuário** <br/> |Sim  <br/> |Identificador do software usado pelo telefone IP.  <br/> |
 |**Horário do último logon** <br/> |Sim  <br/> |Data e hora em que o telefone IP entrou pela última vez no Skype for Business Server.  <br/> |
-|**Horário do último logoff** <br/> |Sim  <br/> |Data e hora em que o telefone IP se logou pela última vez do Skype for Business Server.  <br/> |
+|**Horário do último logoff** <br/> |Sim  <br/> |Data e hora em que o telefone IP saiu pela última vez do Skype for Business Server.  <br/> |
 |**Última atividade** <br/> |Sim  <br/> |Data e hora em que o telefone IP foi utilizado pela última vez.  <br/> |
    
 

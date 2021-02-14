@@ -59,7 +59,7 @@ A lista a seguir descreve os campos na página.
 
   - **Habilitar áudio/vídeo IP** Selecione essa opção para permitir áudio e vídeo.
 
-- **Habilitar conferência discado PSTN** Se você habilitar o áudio em **Áudio/Vídeo,** marque essa caixa de seleção para permitir que os usuários disquem para conferências usando a rede telefônica pública comutado (PSTN).
+- **Habilitar conferência discado PSTN** Se você habilitar o áudio em **áudio/vídeo,** marque essa caixa de seleção para permitir que os usuários disquem para conferências usando a rede telefônica pública comutado (PSTN).
 
 - **Permitir que participantes anônimos disem** Marque essa caixa de seleção se você permitir que os usuários disquem para conferências e quiser permitir que usuários não autenticados (anônimos) participem de uma conferência usando a discagem de saída. Com a telefonia de discagem, o servidor de conferência chama o usuário e o usuário atende ao telefone para ingressar na conferência.
 
@@ -98,7 +98,7 @@ A lista a seguir descreve os campos na página.
 
 - Selecione **Habilitar compartilhamento de área de trabalho e aplicativos** para permitir que os usuários compartilhem aplicativos ou suas áreas de trabalho enquanto participam de uma conferência ou sessão de duas partes. Selecione **Desabilitar compartilhamento de área de trabalho e aplicativos** para impedir que os usuários compartilhem aplicativos ou suas áreas de trabalho enquanto participam de uma conferência ou sessão de duas partes.
 
-- **Habilitar a transferência de arquivos ponto a ponto** Marque essa caixa de seleção para permitir transferências de arquivo de pessoa para pessoa (ou seja, transferências de arquivos que não envolvem todos os participantes) durante uma conferência ou sessão de duas partes.
+- **Habilitar a transferência de arquivos ponto a ponto** Marque essa caixa de seleção para permitir transferências de arquivo de pessoa para pessoa (ou seja, transferências de arquivo que não envolvem todos os participantes) durante uma conferência ou sessão de duas partes.
 
 - **Habilitar a gravação ponto a ponto** Marque essa caixa de seleção para permitir que os usuários gravem sessões de duas partes.
 

@@ -14,7 +14,7 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: Saiba como configurar o suporte para usuários de provedores federados SIP.
+description: Saiba como configurar o suporte para usuários de provedores sip federados.
 ms.openlocfilehash: 8d4c6224a66454f8fb28bb4f991faf6ad672f596
 ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
@@ -38,7 +38,7 @@ A conectividade pública de mensagens instantâneas (IM) permite que os usuário
 
 O Skype for Business Server tem configurações de provedor público para mensagens instantâneas. Cada provedor público é configurado com o nome de domínio totalmente qualificado do servidor de Borda do provedor e o nível de verificação padrão permite que os usuários se comuniquem somente com pessoas em sua lista de Contatos que usam esse **provedor.**
 
-Como configuração padrão, nenhum dos provedores públicos está habilitado. Você deve concluir o contrato de licença e o trabalho de provisionamento antes de habilitá-los. Você pode habilitar o provedor antes de concluir o trabalho de licenciamento e provisionamento. Os usuários não poderão se comunicar com contatos nesses provedores até que o trabalho de pré-requisito seja concluído. Para obter detalhes sobre licenciamento e provisionamento de provedores públicos, consulte Configurar políticas [para controlar o acesso de usuários públicos.](../external-access-policies/configure-policies-to-control-public-user-access.md)
+Como configuração padrão, nenhum dos provedores públicos está habilitado. Você deve concluir o contrato de licença e o trabalho de provisionamento antes de habilitá-los. Você pode habilitar o provedor antes de concluir o trabalho de licenciamento e provisionamento. Os usuários não poderão se comunicar com os contatos desses provedores até que o trabalho de pré-requisito seja concluído. Para obter detalhes sobre licenciamento e provisionamento de provedores públicos, consulte Configurar políticas [para controlar o acesso de usuários públicos.](../external-access-policies/configure-policies-to-control-public-user-access.md)
 
 Use o procedimento a seguir para criar ou editar provedores públicos.
 

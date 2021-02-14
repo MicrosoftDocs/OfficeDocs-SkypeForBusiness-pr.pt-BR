@@ -56,6 +56,6 @@ A lista a seguir descreve os campos na página.
 
 - **Descrição** A descrição da fila.
 
-Para obter detalhes sobre recursos e capacidades do Grupo de Resposta, consulte [Plan for the Response Group application in Skype for Business Server](../../../plan-your-deployment/enterprise-voice-solution/response-group.md) na documentação planejamento. Para obter detalhes sobre como trabalhar com filas do Grupo de Resposta, consulte [Managing Response Group Queues](https://technet.microsoft.com/library/1e91720c-ab67-4dfb-b30c-0ef2a8012310.aspx) na documentação Operações.
+Para obter detalhes sobre os recursos e capacidades do Grupo de Resposta, consulte [Plan for the Response Group application in Skype for Business Server](../../../plan-your-deployment/enterprise-voice-solution/response-group.md) na documentação planejamento. Para obter detalhes sobre como trabalhar com filas do Grupo de Resposta, consulte [Managing Response Group Queues](https://technet.microsoft.com/library/1e91720c-ab67-4dfb-b30c-0ef2a8012310.aspx) na documentação Operações.
 
 

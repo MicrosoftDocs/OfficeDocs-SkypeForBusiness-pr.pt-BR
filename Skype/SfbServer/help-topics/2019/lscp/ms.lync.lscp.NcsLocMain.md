@@ -35,7 +35,7 @@ As políticas de local incluem a política global e, como opção, uma ou mais p
 - **Políticas de usuário (opcional):** Você pode criar uma ou mais políticas de local de usuário, cada uma delas se aplicando a um usuário ou grupo de usuários específico. As políticas de usuário substituem a política global e as políticas de site.
 
 > [!NOTE]
-> Também é possível atribuir políticas de local a sites de rede, que são grupos de sub-redes. As políticas de local atribuídas a sites de rede têm precedência sobre todas as outras políticas de usuário. Para obter detalhes sobre como atribuir políticas de local a sites de rede usando cmdlets, consulte Adicionar uma política de local a um site de rede no [Skype for Business Server.](../../../deploy/deploy-enterprise-voice/add-a-location-policy-to-a-network-site.md) Para obter detalhes sobre como usar o Painel de Controle do Skype for Business Server para atribuir uma política de local a um site de rede, consulte [Configuring Network Sites](https://technet.microsoft.com/library/358aa08a-c5bc-45fc-8017-19e6202f88c5.aspx).
+> Também é possível atribuir políticas de local a sites de rede, que são grupos de sub-redes. As políticas de local atribuídas a sites de rede têm precedência sobre todas as outras políticas de usuário. Para obter detalhes sobre como atribuir políticas de local a sites de rede usando cmdlets, consulte Adicionar uma política de local a um site de rede no [Skype for Business Server.](../../../deploy/deploy-enterprise-voice/add-a-location-policy-to-a-network-site.md) Para obter detalhes sobre como usar o Painel de Controle do Skype for Business Server para atribuir uma política de local a um site de rede, consulte [Configurando sites de rede.](https://technet.microsoft.com/library/358aa08a-c5bc-45fc-8017-19e6202f88c5.aspx)
 
 A página **Política de Local** exibe uma lista de todas as políticas de local definidas para sua organização.
 
@@ -78,6 +78,6 @@ A lista a seguir descreve os campos na página.
 
 - **Máscara de E9-1-1** Especifica um número que um usuário disca e que é convertido no número de discagem de emergência.
 
-Para obter detalhes sobre os recursos do serviço de emergência do Enterprise Voice, consulte [Overview of E9-1-1](https://technet.microsoft.com/library/c01e6774-bc9f-4c5b-a60b-478b7317b2b7.aspx) in the Planning documentation. Para obter detalhes sobre como trabalhar com políticas de local, consulte [Configuring Location Policy](https://technet.microsoft.com/library/14e41bcb-ea0a-49c2-99b3-1f61fc34416d.aspx) na documentação Operações.
+Para obter detalhes sobre os recursos do serviço de emergência do Enterprise Voice, consulte [Overview of E9-1-1](https://technet.microsoft.com/library/c01e6774-bc9f-4c5b-a60b-478b7317b2b7.aspx) na documentação de Planejamento. Para obter detalhes sobre como trabalhar com políticas de local, consulte [Configuring Location Policy](https://technet.microsoft.com/library/14e41bcb-ea0a-49c2-99b3-1f61fc34416d.aspx) na documentação Operações.
 
 

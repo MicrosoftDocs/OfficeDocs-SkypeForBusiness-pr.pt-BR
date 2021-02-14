@@ -24,7 +24,7 @@ ms.locfileid: "49824501"
 ---
 # <a name="add-sql-store"></a>Adicionar Repositório SQL
 
-Para definir um novo SQL Store, o que significa que você está especificando um banco de dados baseado em SQL Server e uma instância do SQL Server — uma instância padrão ou uma instância nomeada — especifique o seguinte.
+Para definir um novo Sql Store, o que significa que você está especificando um banco de dados baseado em SQL Server e uma instância do SQL Server — uma instância padrão ou uma instância nomeada — especifique o seguinte.
 
 Especifique o FQDN (nome de domínio totalmente qualificado) do SQL Server que hospedará a instância do banco de dados que você está definindo.
 

@@ -81,7 +81,7 @@ Do ponto de vista do gerenciamento de firewall, o relatório deve ser cuidadosam
 
 O Relatório DNS, que faz parte do Relatório de Administradores, detalha todas as entradas recomendadas e conhecidas para o DNS (Sistema de Nomes de Domínio) nas redes internas, de perímetro e externas. Se o designer concluiu as edições para o diagrama de rede e todos os endereços IP e FQDNs (nomes de domínio totalmente qualificados) são definidos para seus valores de produção, o Relatório dns fornece um excelente recurso de configuração. Esse relatório também pode servir como um documento de solução de problemas operacionais.
 
-![Relatório de Administração de DNS](../../media/DNS_Report_Admin_Report.png)
+![Relatório de administração de DNS](../../media/DNS_Report_Admin_Report.png)
 
 Você deve fazer com que sua equipe de gerenciamento de DNS revise completamente o Relatório DNS para garantir que não haja erros que possam causar dificuldade durante a implantação ou que possam complicar uma sessão de solução de problemas.
 

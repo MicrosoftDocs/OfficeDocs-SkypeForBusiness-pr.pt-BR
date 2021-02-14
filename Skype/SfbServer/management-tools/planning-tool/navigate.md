@@ -39,7 +39,7 @@ A Ferramenta de Planejamento tem uma seção Links Externos no lado esquerdo da 
 
 ![Caixa de diálogo Links Externos da Ferramenta de Planejamento](../../media/Planning_Tool_External_Links_Dialog.jpg)
 
-Um painel ações contextíveis é exibido em muitas páginas na Ferramenta de Planejamento. O painel de Ações oferece ao designer acesso fácil às seções principais da topologia. Os links disponíveis no painel Ações mudam com base no nível de detalhe em sua topologia. O painel ações está disponível depois que você tiver concluído as perguntas de entrevista e exibido sua topologia. No painel de Ações, está a seção Visão Geral, que exibe os números inseridos pelo designer como parte do processo de entrevista. A visão geral é contextualmente relacionada às informações exibidas.
+Um painel ações contextíveis é exibido em muitas páginas na Ferramenta de Planejamento. O painel de Ações oferece ao designer acesso fácil às seções principais da topologia. Os links disponíveis no painel Ações mudam com base no nível de detalhe em sua topologia. O painel ações está disponível depois que você tiver concluído as perguntas de entrevista e exibido sua topologia. Incluída no painel ações é a seção Visão geral, que exibe os números que o designer tenha inserido como parte do processo de entrevista. A visão geral é contextualmente relacionada às informações exibidas.
 
 Além disso, as informações de hardware são exibidas na visão geral no painel de Ações. A configuração de hardware exibe uma lista de requisitos de hardware recomendados pela topologia atual.
 
