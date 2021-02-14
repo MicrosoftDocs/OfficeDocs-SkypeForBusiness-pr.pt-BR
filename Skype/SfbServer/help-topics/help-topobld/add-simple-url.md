@@ -24,7 +24,7 @@ ms.locfileid: "49818611"
 ---
 # <a name="add-simple-url"></a>Adicionar URL Simples
  
-Para adicionar outras URLs simples à definição da implantação, especifique a URL da nova URL simples. O formato da URL é _http:// \<simple URL type\> . \<domain name\>_ ou _http:// \<domain name\> / \<simple URL type\>_, em que o tipo de URL simples é um dos seguintes:
+Para adicionar outras URLs simples à definição da implantação, especifique a URL da nova URL simples. O formato da URL é _http:// \<simple URL type\> . \<domain name\>_ ou _http:// \<domain name\> / \<simple URL type\>_, onde o tipo de URL simples é um dos seguintes:
   
 - Meet
     

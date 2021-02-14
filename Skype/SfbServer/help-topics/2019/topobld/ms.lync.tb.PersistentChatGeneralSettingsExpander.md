@@ -14,7 +14,7 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 275ee1ae-ca58-4963-bc95-523319f90d96
 ROBOTS: NOINDEX, NOFOLLOW
-description: 'Edite as configurações Gerais para o Servidor de Chat Persistente ou pool de Servidor de Chat Persistente configurando ou definindo estas propriedades:'
+description: 'Edite as configurações Gerais para o Servidor de Chat Persistente ou pool de Servidor de Chat Persistente definindo ou definindo estas propriedades:'
 ms.openlocfilehash: 33a5f3ad5866608faff07b3e8d56776e5411628a
 ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT

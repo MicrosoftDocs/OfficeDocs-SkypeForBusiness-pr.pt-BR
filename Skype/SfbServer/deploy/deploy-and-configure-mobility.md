@@ -38,7 +38,7 @@ Após analisar o artigo Plano de Mobilidade para [o Skype for Business Server,](
 Todas as seções a seguir contêm etapas que presumem que você tenha lido o tópico Planejamento. Se algo estiver confuso, sinta-se à vontade para conferir as informações lá.
 
 > [!NOTE]
-> O suporte a MCX (Mobility Service) para clientes móveis herdado não está mais disponível no Skype for Business Server 2019. Todos os clientes móveis atuais do Skype for Business já usam o Unified Communications Web API (UCWA) para dar suporte a mensagens instantâneas (IM), presença e contatos. Os usuários com clientes herddos usando o MCX precisarão atualizar para um cliente atual.
+> O suporte a MCX (Mobility Service) para clientes móveis herdado não está mais disponível no Skype for Business Server 2019. Todos os clientes móveis atuais do Skype for Business já usam o Unified Communications Web API (UCWA) para dar suporte a mensagens instantâneas (IM), presença e contatos. Os usuários com clientes herddos usando MCX precisarão atualizar para um cliente atual.
   
 ## <a name="create-dns-records"></a>Criar registros DNS
 <a name="CreateDNSRec"> </a>

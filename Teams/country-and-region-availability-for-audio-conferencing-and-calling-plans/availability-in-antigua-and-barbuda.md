@@ -23,7 +23,7 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Aqui estão os serviços do Microsoft 365 e office 365 para Skype for Business e Microsoft Teams disponíveis para Antígua e Barbuda.
+description: Aqui estão os serviços do Microsoft 365 e do Office 365 para Skype for Business e Microsoft Teams disponíveis para Antígua e Barbuda.
 ms.openlocfilehash: 607dbed987fa530585fe7c87ce140d62d00da8a6
 ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
@@ -33,9 +33,9 @@ ms.locfileid: "49821201"
 ---
 # <a name="availability-in-antigua-and-barbuda"></a>Disponibilidade em Antígua e Barbuda
 
-[Encontre outro país ou região](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)ou saiba mais sobre a disponibilidade de audioconferência e planos de chamada de país e região.
+[Encontre outro país ou região](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)ou saiba mais sobre a disponibilidade de país e região para Planos de Audioconferência e Chamada.
 
-Aqui estão os serviços do Microsoft 365 e office 365 para Skype for Business e Microsoft Teams disponíveis para Antígua e Barbuda.
+Aqui estão os serviços do Microsoft 365 e do Office 365 para Skype for Business e Microsoft Teams disponíveis para Antígua e Barbuda.
   
 ## <a name="audio-conferencing"></a>Audioconferência
 
@@ -65,15 +65,15 @@ Aqui estão os serviços do Microsoft 365 e office 365 para Skype for Business e
 Se os Planos de Chamada não estiverem disponíveis para compra, considere a possibilidade de usar o [Roteamento Direto do Sistema de Telefonia](../direct-routing-landing-page.md). Com o Roteamento Direto, você pode usar o Sistema de Telefonia praticamente com qualquer portadora de telefonia.
 
    
-## <a name="toll-and-toll-free-numbers-for-services"></a>Números gratuitos e gratuitos para serviços
+## <a name="toll-and-toll-free-numbers-for-services"></a>Números de tarifa tarifada e gratuita para serviços
 
 |**Recurso**|**Detalhes**|
 |:-----|:-----|
 |Para quais capitais ou cidades importantes é possível obter números de chamadas tarifadas?   | Não aplicável |
 |Há números de chamada tarifada disponíveis?  <br/> |Não <br/> |
-|Os números gratuitos estão disponíveis?  <br/> |Sim  <br/> |
+|Os números de tarifa gratuita estão disponíveis?  <br/> |Sim  <br/> |
    
- Se você quiser obter números de telefone de chamada tarifada e gratuita para Audioconferência, atendimento automático e filas de chamadas, consulte Obter números de telefone de serviço para o Skype for Business e o [Microsoft Teams.](/microsoftteams/getting-service-phone-numbers)
+ Se você quiser obter números de telefone de chamada tarifada e gratuita para audioconferência, atendimento automático e filas de chamadas, consulte Como obter números de telefone de serviço para o Skype for Business e [o Microsoft Teams.](/microsoftteams/getting-service-phone-numbers)
   
 ## <a name="communications-credits"></a>Créditos de Comunicação
 

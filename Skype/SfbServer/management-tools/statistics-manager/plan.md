@@ -124,7 +124,7 @@ O diagrama a seguir mostra uma implantação local, na qual o site do Gerenciado
 
 ![Implantação local do Gerenciador de Estatísticas](../../media/c7c9d0b5-a70b-4d8c-aec4-0128a29b90b6.png)
 
-## <a name="requirements"></a>Requirements
+## <a name="requirements"></a>Requisitos
 <a name="BKMK_Requirements"> </a>
 
 Você precisará considerar os seguintes requisitos de software, rede e hardware antes de implantar o Gerenciador de Estatísticas.

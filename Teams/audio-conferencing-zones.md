@@ -1,5 +1,5 @@
 ---
-title: Zonas de país e região para audioconferência
+title: Zonas de país e região para Audioconferência
 ms.author: v-cichur
 author: cichur
 manager: serdars
@@ -19,7 +19,7 @@ f1.keywords:
 - CSH
 ms.custom:
 - seo-marvel-mar2020
-description: Lista as zonas de Audioconferência e o país e regiões em cada zona.
+description: Lista as zonas de Audioconferência e o país e as regiões em cada zona.
 ms.openlocfilehash: 046888646644b819ec7950e0eaada2398cb09f42
 ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
@@ -27,11 +27,11 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49821271"
 ---
-# <a name="country-and-region-zones-for-audio-conferencing"></a>Zonas de país e região para audioconferência
+# <a name="country-and-region-zones-for-audio-conferencing"></a>Zonas de país e região para Audioconferência
 
 Este artigo lista as zonas de país e região para Audioconferência.
 
-## <a name="zone-a-countries-and-regions"></a>Países e regiões da Zona A
+## <a name="zone-a-countries-and-regions"></a>Países e regiões de Zona A
 
 |País ou região    |
 |-----|
@@ -84,6 +84,6 @@ Este artigo lista as zonas de país e região para Audioconferência.
 
 - [Disponibilidade de audioconferência e Planos de Chamadas por país e região](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 - [Período complementar de discagem de audioconferência](complimentary-dial-out-period.md)
-- [A assinatura de audioconferência "Dial-Out"/"Call Me At" é beneficiada](audio-conferencing-subscription-dial-out.md)
+- [Benefício de minutos da assinatura de audioconferência "Discagem"/"Ligue para mim em"](audio-conferencing-subscription-dial-out.md)
 - [Políticas de restrição de chamadas de saída para audioconferência e chamadas PSTN do usuário](outbound-calling-restriction-policies.md)
 - [O que são Créditos de Comunicação?](what-are-communications-credits.md)

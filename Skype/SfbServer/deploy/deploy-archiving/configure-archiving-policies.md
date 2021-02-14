@@ -69,7 +69,7 @@ Quando você implanta seus Servidores Front-End, o Skype for Business Server cri
     
 ## <a name="site-policies"></a>Políticas de site
 
-Você pode habilitar ou desabilitar o arquivamento para sites específicos criando uma política de arquivamento para cada um desses sites. Uma política de site substitui a política global, mas as políticas de usuário substituem as políticas de site. As políticas de arquivamento só se aplicarão se você não usar a integração do Microsoft Exchange ou se você usar a integração com o Microsoft Exchange, mas tiver alguns usuários que não estão no Exchange e têm suas caixas de correio colocadas em In-Place Espera.
+Você pode habilitar ou desabilitar o arquivamento para sites específicos criando uma política de arquivamento para cada um desses sites. Uma política de site substitui a política global, mas as políticas de usuário substituem as políticas de site. As políticas de arquivamento só se aplicarão se você não usar a integração com o Microsoft Exchange ou se você usar a integração com o Microsoft Exchange, mas tiver alguns usuários que não estão no Exchange e têm suas caixas de correio colocadas em In-Place Espera.
   
 ### <a name="create-an-archiving-policy-for-a-site"></a>Criar uma política de arquivamento para um site
 

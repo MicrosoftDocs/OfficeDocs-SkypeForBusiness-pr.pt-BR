@@ -42,7 +42,7 @@ Clique **em Novo** para definir uma nova testemunha do SQL Server opcionalmente 
   
 Clique em **Voltar** para voltar à caixa de diálogo de definição anterior.
   
-Clique **em Avançar** depois de terminar de inserir as opções para a configuração do sql Server store deste pool e para prosseguir com a definição do pool do Servidor de Chat Persistente.
+Clique **em Avançar** depois de terminar de inserir as opções para a configuração de armazenamento do SQL Server deste pool e para prosseguir com a definição do pool do Servidor de Chat Persistente.
   
 Clique em **Cancelar** para descartar todas as alterações e encerrar o assistente **Definir Novo Pool de Chat Persistente**.
   

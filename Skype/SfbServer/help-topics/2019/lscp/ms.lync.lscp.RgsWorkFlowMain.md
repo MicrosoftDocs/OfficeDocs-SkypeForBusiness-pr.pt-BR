@@ -60,6 +60,6 @@ A lista a seguir descreve os campos na página.
 
 - **Habilitado** Indica se o fluxo de trabalho está ativado para receber chamadas.
 
-Para obter detalhes sobre recursos e capacidades do Grupo de Resposta, consulte [Plan for the Response Group application in Skype for Business Server](../../../plan-your-deployment/enterprise-voice-solution/response-group.md) na documentação planejamento. Para obter detalhes sobre como trabalhar com fluxos de trabalho do Grupo de Resposta, consulte [Managing Response Group Workflows](https://technet.microsoft.com/library/42cfccdd-2844-4875-b4e3-813e1df15f08.aspx) na documentação Operações.
+Para obter detalhes sobre os recursos e capacidades do Grupo de Resposta, consulte [Plan for the Response Group application in Skype for Business Server](../../../plan-your-deployment/enterprise-voice-solution/response-group.md) na documentação planejamento. Para obter detalhes sobre como trabalhar com fluxos de trabalho do Grupo de Resposta, consulte [Managing Response Group Workflows](https://technet.microsoft.com/library/42cfccdd-2844-4875-b4e3-813e1df15f08.aspx) na documentação Operações.
 
 

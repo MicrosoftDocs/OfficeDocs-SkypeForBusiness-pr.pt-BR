@@ -42,7 +42,7 @@ Se você precisar remover o servidor de arquivos que está atuando atualmente co
 
 3. Na barra de navegação à esquerda, clique em **Topologia** e em **Status**.
 
-4. Para cada pool de Diretores, Diretor, servidor Standard Edition e pool de Front-End que usa o armazenamento de arquivos que você planeja remover, selecione o servidor ou pool, clique em Ação e clique em Parar todos os **serviços.**
+4. Para cada pool de Diretores, Diretor, servidor Standard Edition e pool de Front-End que usa o armazenamento de arquivos que você planeja remover, selecione o servidor ou pool, clique em Ação e em Parar todos os **serviços.**
 
 5. Faça logon no computador no qual o Construtor de Topologias está instalado como um membro do grupo Admins. do Domínio ou do grupo RTCUniversalServerAdmins.
 

@@ -102,7 +102,7 @@ Path: %ProgramFiles%\Skype for Business Server 2015\Reskit
 
 A ABSConfig fornece uma maneira rápida e fácil de personalizar o Serviço de Address Book do Skype for Business Server 2015.
 
-### <a name="requirements"></a>Requirements
+### <a name="requirements"></a>Requisitos
 
 #### <a name="computer"></a>Computador
 
@@ -170,7 +170,7 @@ Não há saída de linha de comando; a saída do programa está contida na gui (
 
 A finalidade da ferramenta Monitor de Serviços da Política de Largura de Banda é permitir que os administradores visibilidade do estado de cada um dos serviços da Política de Largura de Banda definidos na topologia. Além disso, os administradores podem ver o uso da largura de banda em tempo real para todos os links definidos no documento de configuração de rede.
 
-### <a name="requirements"></a>Requirements
+### <a name="requirements"></a>Requisitos
 
 A ferramenta Monitor de Serviços da Política de Largura de Banda precisa ser executado em um computador que faz parte da topologia do Skype for Business Server.
 
@@ -356,7 +356,7 @@ Filtrar por **Região**. Selecione uma lista de regiões cujos links precisam se
 
 ![Filtragem por Região.](../media/Reskit_2012_Tools_Documentation_Image17.jpg)
 
-### <a name="requirements"></a>Requirements
+### <a name="requirements"></a>Requisitos
 
 - O .NET Framework 3.5
 
@@ -419,7 +419,7 @@ Dependendo dos parâmetros de entrada especificados em um prompt de comando, o E
 
 O objetivo da ferramenta CPS é fornecer acesso de linha de comando ao banco de dados CPS. O administrador pode exibir o uso do CPS e determinar o número de órbitas atribuídas a um pool.
 
-### <a name="requirements"></a>Requirements
+### <a name="requirements"></a>Requisitos
 
 Não haverá requisitos se essa ferramenta for executado no mesmo computador que está executando o CPS. Se essa ferramenta for executado em um computador remoto, o banco de dados do SQL Server usado pelo Skype for Business Server 2015 deverá ser configurado para permitir o acesso remoto. O Estacionamento de Chamada deve ser configurado com uma cadeia de conexão de banco de dados do SQL Server para se conectar ao SQL Server do pool. Essa cadeia de conexão de banco de dados do SQL Server é definida no arquivo de configuração, **parkometer.exe.config**. Ele deve ser colocado no mesmo diretório onde parkometer.exe está localizado. O arquivo XML a seguir é um exemplo de um parkometer.exe.config. Os parâmetros que devem ser configurados são nome de usuário (por exemplo, mydomain\Administrator), senha (por exemplo, mypassword) e nome de host (por exemplo, meuservidor).
 
@@ -476,7 +476,7 @@ DBAnalyze é uma ferramenta de linha de comando que ajuda os administradores a c
 
 - **Modo de dados do usuário** Relata dados de contato, contêiner, assinatura, publicação, permissão e grupo de contatos para um usuário especificado ou para usuários que tenham esse usuário em suas listas de contatos e permissões. Esse modo também relata dados resumidos para conferências que um usuário organiza ou é convidado.
 
-- **Modo de conferência** Relata dados detalhados de uma conferência específica, incluindo todos os detalhes de tempo de agendamento para a conferência, a lista de convidados, a lista de tipos de mídia permitidos para a conferência, MCUs ativas (unidades de controle de vários pontos), a lista de participantes ativos e o estado de sinalização de cada participante.
+- **Modo de conferência** Relata dados detalhados de uma conferência específica, incluindo todos os detalhes de hora agendada para a conferência, a lista de convidados, a lista de tipos de mídia permitidos para a conferência, MCUs ativas (unidades de controle de vários pontos), a lista de participantes ativos e o estado de sinalização de cada participante.
 
 - **Decodificar ID de Reunião** Decodifica uma ID de reunião da PSTN (rede telefônica pública comutado) especificada pela opção **/pstnid,** mas não se conecta ao back-end para obter informações detalhadas.
 
@@ -498,7 +498,7 @@ Para instalar Dbanalyze.exe, copie-o para uma pasta local e execute a ferramenta
 
 ![Opções de linha de comando para Dbanalyze.exe.](../media/Reskit_2012_Tools_Documentation_Image35.JPG)
 
-### <a name="requirements"></a>Requirements
+### <a name="requirements"></a>Requisitos
 
  **Computador** O DBAnalyze só pode ser executado em um computador ingressado no domínio que tenha o Skype for Business Server 2015 instalado.
 
@@ -549,7 +549,7 @@ Essa ferramenta aumentará a carga da CPU e de E/S no front-end em que está sen
 
 ![Exemplo de eventos de log de eventos do Servidor de Armazenamento.](../media/Reskit_2012_Tools_Documentation_Image1.jpg)
 
-### <a name="requirements"></a>Requirements
+### <a name="requirements"></a>Requisitos
 
 Instale as ferramentas do Kit de Recursos do Skype for Business Server 2015. A ferramenta é executado em máquinas ingressadas no domínio onde o Skype for Business Server e o Shell de Gerenciamento do Skype for Business Server estão instalados. A ferramenta usa um cmdlet do shell de gerenciamento para identificar todos os servidores front-end no pool. Em segundo lugar, a ferramenta deve ser executada a partir de uma máquina no pool que tenha o banco de dados **RtcLocal** instalado. Esse banco de dados é usado pela ferramenta para recuperar o local do compartilhamento de arquivos WEBSERVICE do pool. Além disso, antes de usar a ferramenta, cada servidor front-end deve primeiro habilitar a Comunicação Remoting do Windows PowerShell usando **Enable-PSRemoting** em cada servidor front-end, bem como o computador em que a ferramenta é executada. Caso contrário, os comandos remotos do Windows PowerShell desta ferramenta falharão. O Windows PowerShell Remoting pode ser desligado em todos os servidores front-end do pool após sua finalizada. Por fim, a conta ou credencial que invoca a ferramenta deve ter permissão de leitura/gravação para o compartilhamento de arquivos webservice para o pool em que está executando essa ferramenta. Caso contrário, a ferramenta falhará com erros de permissão de E/S.
 
@@ -738,7 +738,7 @@ A ferramenta LookupUserConsole exibe informações internas de roteamento do Sky
 
  Executar o LookupUserConsole.exe abrirá um prompt de comando que aceita endereços SIP e tenta exibir informações internas de roteamento do Skype for Business Server relacionadas. Digite **exit** para sair da ferramenta LookupUserConsole.
 
-### <a name="requirements"></a>Requirements
+### <a name="requirements"></a>Requisitos
 
 Instale o Kit de Recursos do Skype for Business Server 2015. A ferramenta é executado em máquinas ingressadas no domínio onde o Skype for Business Server está instalado.
 
@@ -825,7 +825,7 @@ A ferramenta resulta nos resultados de cada uma das operações.
 
   - Os resultados do teste dos computadores que fornecem o Serviço de Política de Largura de Banda (Core) do Skype for Business Server 2015 na topologia
 
-### <a name="requirements"></a>Requirements
+### <a name="requirements"></a>Requisitos
 
 - Essa ferramenta deve ser executado em um computador que está na topologia e que tenha o armazenamento local.
 
@@ -848,7 +848,7 @@ Essa ferramenta pode ser um recurso valioso para administradores do Skype for Bu
 ## <a name="network-configuration-viewer"></a>Visualizador de Configuração de Rede
 <a name="NCV"> </a>
 
-O Visualizador de Configuração de Rede pode ser usado pelos administradores de software de comunicações do Skype for Business Server 2015 para exibir a topologia de rede do CAC (controle de admissão de chamadas) de uma empresa provisionada para permitir sessões de comunicação em tempo real, como chamadas de voz ou vídeo com base na capacidade de largura de banda especificada. Os administradores do Skype for Business Server 2015 definem políticas cac, que são impostas pelos serviços de Política de Largura de Banda instalados com o Skype for Business Server 2015.
+O Visualizador de Configuração de Rede pode ser usado pelos administradores de software de comunicações do Skype for Business Server 2015 para exibir a topologia de rede do CAC (controle de admissão de chamadas) de uma empresa provisionada para permitir sessões de comunicação em tempo real, como chamadas de voz ou vídeo com base na capacidade de largura de banda especificada. Os administradores do Skype for Business Server 2015 definem políticas de CAC, que são impostas pelos serviços de Política de Largura de Banda instalados com o Skype for Business Server 2015.
 
 ### <a name="description"></a>Descrição
 
@@ -947,7 +947,7 @@ Os três principais recursos a seguir estão disponíveis para agentes no Agente
 
 - **Estatísticas em tempo real:** O Agente do Grupo de Resposta em Tempo Real fornece estatísticas em tempo real para todos os grupos de agentes. A frequência de atualização é de um minuto. Quando uma chamada é atendida por um Grupo de Resposta, um indicador visual é adicionado ao lado do nome do grupo com o número atual de chamadas na fila. Pausar o ponteiro sobre um grupo também exibe o tempo de espera mais longo.
 
-### <a name="requirements"></a>Requirements
+### <a name="requirements"></a>Requisitos
 
 O Agente do Grupo de Resposta em Tempo Atual requer o .NET Framework 4.0. Além disso, para aproveitar os recursos de cartão de visita e presença, o Skype for Business deve ser instalado localmente (e estar em execução).
 
@@ -1039,7 +1039,7 @@ A seguir estão alguns dos principais cenários em que essa ferramenta pode ser 
 
 - Uma prática de atendimento ao cliente no departamento de recursos humanos da Contoso é fornecer serviço pessoal para todos os chamadores desde a primeira chamada. Como todos os membros do departamento ficam muito próximos uns dos outros, ter todos os telefones tocando ao mesmo tempo com a chamada em equipe é muito prejudicial para a equipe. Para fornecer o melhor serviço sem interromper os membros da equipe, o administrador do Skype for Business Server 2015 aproveita o recurso de Atendimento de Chamadas em Grupo. O administrador adiciona todos os membros do departamento a um grupo de retirada e comunica ao departamento o número do grupo de retirada. Quando Sama estiver ausente de sua mesa, Joe perceberá que seu telefone está tocando e responderá à chamada de sua mesa.
 
-### <a name="requirements"></a>Requirements
+### <a name="requirements"></a>Requisitos
 
 A ferramenta SEFAUtil pode ser executado somente em um computador que faz parte de um Pool de Aplicativos Confiáveis. O UCMA 3.0 deve estar instalado nesse computador. Para executar a ferramenta, um novo Aplicativo Confiável com a ID de aplicativo SEFAUtil deve ser criado nesse pool.
 
@@ -1424,7 +1424,7 @@ SYSPrep.ps1 é um script do Windows PowerShell que instalará os seguintes pré-
 
   Embora o nome do script seja semelhante à Ferramenta de Preparação do Sistema para os sistemas operacionais Microsoft Windows, eles são diferentes. Esse script só instalará os pré-requisitos necessários para o Skype for Business Server 2015. Depois que esses pré-requisitos são instalados, a ferramenta SYSPrep do Windows pode ser usada para criar uma imagem do servidor.
 
-### <a name="requirements"></a>Requirements
+### <a name="requirements"></a>Requisitos
 
 Antes de executar o script SYSPrep.ps1, você deve copiar os arquivos de pré-requisito para uma pasta local na máquina do sistema operacional Windows Server 2008 (por **exemplo, D:\Setup).** Essa pasta também deve incluir uma cópia dos arquivos do Skype for Business Server 2015, especificamente **Setup.exe.** Os arquivos de pré-requisito podem ser baixados dos seguintes locais:
 
@@ -1489,7 +1489,7 @@ O script migração de comunicados de número não atribuído pode ser usado nos
 
 - **Movendo dados entre implantações:** A Contoso está em processo de substituição de todos os servidores de um pool por servidores mais novos. Sua estratégia é implantar um novo pool do Skype for Business Server 2015, mover todos os dados do antigo para o novo pool e, em seguida, preter o pool antigo. Depois que o novo pool é implantado, a ferramenta de Migração de Comunicados de Número Não Atribuído é usada para mover a configuração do pool antigo para o novo.
 
-#### <a name="requirements"></a>Requirements
+#### <a name="requirements"></a>Requisitos
 
 A seguir estão os principais requisitos necessários para executar a ferramenta com êxito:
 
@@ -1534,7 +1534,7 @@ Essa ferramenta permite que o administrador execute as seguintes operações:
 
 2. Excluir todos os dados de webconferência associados a um único usuário.
 
-3. Exclua todos os dados de webconferência associados a um único usuário mais antigo do que uma determinada data.
+3. Exclua todos os dados de webconferência associados a um único usuário que seja mais antigo do que uma determinada data.
 
 4. Mova todos os dados de webconferência associados a um único usuário quando esse usuário for movido de um pool para outro.
 
@@ -1553,7 +1553,7 @@ Essa ferramenta resulta nos resultados de cada uma das operações:
 
 - Se uma exclusão for executada, a ferramenta apresentará a lista de todas as pastas de dados de reunião cujos dados serão excluídos.
 
-### <a name="requirements"></a>Requirements
+### <a name="requirements"></a>Requisitos
 
 A ferramenta precisa ser executado no mesmo pool em que o organizador está atualmente.
 

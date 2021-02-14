@@ -1,6 +1,6 @@
 ---
 title: Teams para o ensino
-description: Saiba mais sobre os recursos de administrador disponíveis para ajudá-lo a implantar, adotar e gerenciar o Teams com êxito em sua escola ou instituição.
+description: Saiba mais sobre os recursos de administração disponíveis para ajudá-lo a implantar, adotar e gerenciar o Teams com êxito em sua escola ou instituição.
 ms.topic: conceptual
 author: cichur
 ms.author: v-cichur
@@ -28,14 +28,14 @@ ms.locfileid: "49821121"
 ---
 # <a name="teams-for-education"></a>Teams para o ensino
 
-Com o Teams, os educadores e professores podem criar salas de aula colaborativas, conectar-se em comunidades de aprendizagem profissional e se comunicar com alunos e educadores. Use os recursos de administrador aqui para ajudá-lo a implantar, adotar e gerenciar o Teams com êxito em sua escola ou instituição. 
+Com o Teams, educadores e docentes podem criar salas de aula colaborativas, conectar-se em comunidades de aprendizagem profissional e se comunicar com alunos e educadores. Use os recursos de administração aqui para ajudá-lo a implantar, adotar e gerenciar o Teams com êxito em sua escola ou instituição. 
 
 
 |               |               |
 | ------------- | ------------- |
-| ![seta-direita-2-equipes](../media/arrow-right-2-teams.svg)  |  [Início rápido - Administradores do Teams for Education](https://docs.microsoft.com/microsoftteams/teams-quick-start-edu) |
+| ![seta para a direita-2-equipes](../media/arrow-right-2-teams.svg)  |  [Início rápido - Administradores do Teams for Education](https://docs.microsoft.com/microsoftteams/teams-quick-start-edu) |
 | ![inscrever-se em equipes](../media/sign-up-teams.svg) | [Tarefas do Teams for Education](https://docs.microsoft.com/microsoftteams/expand-teams-across-your-org/assignments-in-teams) |
 | ![insights-teams](../media/insights-teams.svg) | [Insights no Teams for Education](https://docs.microsoft.com/microsoftteams/class-insights) |
-| ![caixa de ferramentas](../media/toolbox.svg)  |  [Recursos para administradores do Teams for Education](https://docs.microsoft.com/microsoftteams/resources-teams-edu) |
-| ![task-checklist-planning-teams](../media/task-checklist-planning-teams.svg)  |  [Perguntas frequentes sobre governança para administradores do Teams para Educação](https://docs.microsoft.com/microsoftteams/plan-teams-governance-edu) |
+| ![Ferramentas](../media/toolbox.svg)  |  [Recursos para administradores do Teams for Education](https://docs.microsoft.com/microsoftteams/resources-teams-edu) |
+| ![equipes de planejamento de lista de tarefas](../media/task-checklist-planning-teams.svg)  |  [Perguntas frequentes sobre governança para administradores do Teams for Education](https://docs.microsoft.com/microsoftteams/plan-teams-governance-edu) |
 
