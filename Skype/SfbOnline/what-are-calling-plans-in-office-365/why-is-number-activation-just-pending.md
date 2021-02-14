@@ -1,5 +1,5 @@
 ---
-title: Por que a ativação do número está somente pendente?
+title: Por que a ativação de número está apenas pendente?
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,7 +21,7 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - ms.lync.lac.NumberActivationStatePending
-description: A validação de endereço é uma parte importante da configuração de planos de chamada. Ela fornece ao usuário da organização um endereço de chamada de emergência que pode ser usado pelos serviços de resposta a emergências.
+description: A validação de endereço é uma parte importante da configuração de Planos de Chamada. Ela fornece ao usuário da organização um endereço de chamada de emergência que pode ser usado pelos serviços de resposta a emergências.
 ms.openlocfilehash: 879c8681a65fc491fb9b0573b3cbf7f15e3276b1
 ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
@@ -29,85 +29,85 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 05/13/2020
 ms.locfileid: "44220671"
 ---
-# <a name="why-is-number-activation-just-pending"></a><span data-ttu-id="afe21-104">Por que a ativação do número está somente pendente?</span><span class="sxs-lookup"><span data-stu-id="afe21-104">Why is number activation just pending?</span></span>
+# <a name="why-is-number-activation-just-pending"></a><span data-ttu-id="cc965-104">Por que a ativação de número está apenas pendente?</span><span class="sxs-lookup"><span data-stu-id="cc965-104">Why is number activation just pending?</span></span>
 
-<span data-ttu-id="afe21-105">A validação de endereço é uma parte importante da configuração de planos de chamada.</span><span class="sxs-lookup"><span data-stu-id="afe21-105">Address validation is an important part of setting up Calling Plans.</span></span> <span data-ttu-id="afe21-106">Se por algum motivo um número de telefone não estiver ativado e estiver listado como **pendente** devido à validação de endereço, será necessário criar e enviar uma solicitação de serviço.</span><span class="sxs-lookup"><span data-stu-id="afe21-106">If for some reason a phone number isn't activated and is listed as **pending** because of address validation, you will need to create and submit a service request.</span></span> <span data-ttu-id="afe21-107">A maneira de fazer isso depende do tamanho da sua organização.</span><span class="sxs-lookup"><span data-stu-id="afe21-107">How you do this is based on the size of your organization.</span></span>
+<span data-ttu-id="cc965-105">A validação de endereço é uma parte importante da configuração de Planos de Chamada.</span><span class="sxs-lookup"><span data-stu-id="cc965-105">Address validation is an important part of setting up Calling Plans.</span></span> <span data-ttu-id="cc965-106">Se, por algum motivo, um número de  telefone não estiver ativado e estiver listado como pendente devido à validação de endereço, será necessário criar e enviar uma solicitação de serviço.</span><span class="sxs-lookup"><span data-stu-id="cc965-106">If for some reason a phone number isn't activated and is listed as **pending** because of address validation, you will need to create and submit a service request.</span></span> <span data-ttu-id="cc965-107">A maneira de fazer isso depende do tamanho da sua organização.</span><span class="sxs-lookup"><span data-stu-id="cc965-107">How you do this is based on the size of your organization.</span></span>
   
-## <a name="for-organizations-150-or-less-follow-these-steps"></a><span data-ttu-id="afe21-108">Para organizações com 150 usuários ou menos, siga estas etapas</span><span class="sxs-lookup"><span data-stu-id="afe21-108">For organizations 150 or less follow these steps</span></span>
-1. <span data-ttu-id="afe21-109">No centro de administração, escolha **precisa de ajuda**?</span><span class="sxs-lookup"><span data-stu-id="afe21-109">In the admin center, choose **Need help**?</span></span>
-2. <span data-ttu-id="afe21-110">No painel **Precisa de ajuda?**, informe qual é a ajuda de que você precisa e escolha **Obter ajuda**.</span><span class="sxs-lookup"><span data-stu-id="afe21-110">In the **Need help?** pane, tell us what you need help with, then choose **Get help**.</span></span>
-3. <span data-ttu-id="afe21-111">Se os resultados da seção **Exibir soluções** não ajudarem, escolha uma destas opções:</span><span class="sxs-lookup"><span data-stu-id="afe21-111">If the results in the **View solutions** section don't help, choose one of the following:</span></span>
-    - <span data-ttu-id="afe21-112">**Permitir que liguemos para você (recomendado)**: confirme seu número de contato e pressione **Telefonar para mim**.</span><span class="sxs-lookup"><span data-stu-id="afe21-112">**Let us call you (Recommended)**: Confirm your contact number, then press **Call me**.</span></span> <span data-ttu-id="afe21-113">O tempo de espera previsto para o retorno da chamada é indicado no painel **Precisa de ajuda?**</span><span class="sxs-lookup"><span data-stu-id="afe21-113">The expected wait time for a call back is indicated in the **Need help?** pane.</span></span>
-    - <span data-ttu-id="afe21-114">**Enviar um email para nós**: confirme seu endereço de email e escolha **Enviar**.</span><span class="sxs-lookup"><span data-stu-id="afe21-114">**Email us**: Confirm your email address, then choose **Send**.</span></span> <span data-ttu-id="afe21-115">O tempo de resposta da chamada é indicado no painel **Precisa de ajuda?**</span><span class="sxs-lookup"><span data-stu-id="afe21-115">The call response time is indicated in the **Need help?** pane.</span></span>
+## <a name="for-organizations-150-or-less-follow-these-steps"></a><span data-ttu-id="cc965-108">Para organizações com 150 usuários ou menos, siga estas etapas</span><span class="sxs-lookup"><span data-stu-id="cc965-108">For organizations 150 or less follow these steps</span></span>
+1. <span data-ttu-id="cc965-109">No centro de administração, escolha **Precisa de ajuda?**</span><span class="sxs-lookup"><span data-stu-id="cc965-109">In the admin center, choose **Need help**?</span></span>
+2. <span data-ttu-id="cc965-110">No painel **Precisa de ajuda?**, informe qual é a ajuda de que você precisa e escolha **Obter ajuda**.</span><span class="sxs-lookup"><span data-stu-id="cc965-110">In the **Need help?** pane, tell us what you need help with, then choose **Get help**.</span></span>
+3. <span data-ttu-id="cc965-111">Se os resultados da seção **Exibir soluções** não ajudarem, escolha uma destas opções:</span><span class="sxs-lookup"><span data-stu-id="cc965-111">If the results in the **View solutions** section don't help, choose one of the following:</span></span>
+    - <span data-ttu-id="cc965-112">**Permitir que liguemos para você (recomendado)**: confirme seu número de contato e pressione **Telefonar para mim**.</span><span class="sxs-lookup"><span data-stu-id="cc965-112">**Let us call you (Recommended)**: Confirm your contact number, then press **Call me**.</span></span> <span data-ttu-id="cc965-113">O tempo de espera previsto para o retorno da chamada é indicado no painel **Precisa de ajuda?**</span><span class="sxs-lookup"><span data-stu-id="cc965-113">The expected wait time for a call back is indicated in the **Need help?** pane.</span></span>
+    - <span data-ttu-id="cc965-114">**Enviar um email para nós**: confirme seu endereço de email e escolha **Enviar**.</span><span class="sxs-lookup"><span data-stu-id="cc965-114">**Email us**: Confirm your email address, then choose **Send**.</span></span> <span data-ttu-id="cc965-115">O tempo de resposta da chamada é indicado no painel **Precisa de ajuda?**</span><span class="sxs-lookup"><span data-stu-id="cc965-115">The call response time is indicated in the **Need help?** pane.</span></span>
  
-## <a name="for-organizations-with-more-than-150-users-create-a-service-request-to-validate-an-emergency-address"></a><span data-ttu-id="afe21-116">Para organizações com mais de 150 usuários, crie uma solicitação de serviço para validar um endereço de emergência</span><span class="sxs-lookup"><span data-stu-id="afe21-116">For organizations with more than 150 users, create a service request to validate an emergency address</span></span>
+## <a name="for-organizations-with-more-than-150-users-create-a-service-request-to-validate-an-emergency-address"></a><span data-ttu-id="cc965-116">Para organizações com mais de 150 usuários, crie uma solicitação de serviço para validar um endereço de emergência</span><span class="sxs-lookup"><span data-stu-id="cc965-116">For organizations with more than 150 users, create a service request to validate an emergency address</span></span>
 
-1. <span data-ttu-id="afe21-117">Entre como administrador para o Microsoft 365 ou o Office 365 com sua conta corporativa ou de estudante.</span><span class="sxs-lookup"><span data-stu-id="afe21-117">Sign in as an administrator to Microsoft 365 or Office 365 with your work or school account.</span></span>
+1. <span data-ttu-id="cc965-117">Entre como administrador do Microsoft 365 ou do Office 365 com sua conta do trabalho ou da escola.</span><span class="sxs-lookup"><span data-stu-id="cc965-117">Sign in as an administrator to Microsoft 365 or Office 365 with your work or school account.</span></span>
     
-2. <span data-ttu-id="afe21-118">No centro de administração, no painel de navegação esquerdo, clique em **dar suporte**a  >  **nova solicitação de serviço**.</span><span class="sxs-lookup"><span data-stu-id="afe21-118">In the admin center, in the left navigation, click **Support** > **New service request**.</span></span>
+2. <span data-ttu-id="cc965-118">No centro de administração, na navegação à esquerda, clique em **Suporte**  >  **a Nova solicitação de serviço.**</span><span class="sxs-lookup"><span data-stu-id="cc965-118">In the admin center, in the left navigation, click **Support** > **New service request**.</span></span>
     
-3. <span data-ttu-id="afe21-119">Em **Solicitações de serviço**, clique em **Adicionar**.</span><span class="sxs-lookup"><span data-stu-id="afe21-119">Under **Service requests**, click **Add**.</span></span>
+3. <span data-ttu-id="cc965-119">Em **Solicitações de serviço**, clique em **Adicionar**.</span><span class="sxs-lookup"><span data-stu-id="cc965-119">Under **Service requests**, click **Add**.</span></span>
     
-4. <span data-ttu-id="afe21-120">Na página **Criar uma solicitação de serviço**, clique em **Colaboração online**.</span><span class="sxs-lookup"><span data-stu-id="afe21-120">On the **Create a service request** page, click **Online collaboration**.</span></span>
+4. <span data-ttu-id="cc965-120">Na página **Criar uma solicitação de serviço**, clique em **Colaboração online**.</span><span class="sxs-lookup"><span data-stu-id="cc965-120">On the **Create a service request** page, click **Online collaboration**.</span></span>
     
-5. <span data-ttu-id="afe21-121">Na página **Identificar o problema**, selecione e insira o seguinte:</span><span class="sxs-lookup"><span data-stu-id="afe21-121">On the **Identify the issue** page, select and enter in the following:</span></span>
+5. <span data-ttu-id="cc965-121">Na página **Identificar o problema**, selecione e insira o seguinte:</span><span class="sxs-lookup"><span data-stu-id="cc965-121">On the **Identify the issue** page, select and enter in the following:</span></span>
     
-   - <span data-ttu-id="afe21-122">**Recursos:** selecione **Plano de Chamadas Domésticas** e/ou **Planos de Chamadas Domésticas e Internacionais**.</span><span class="sxs-lookup"><span data-stu-id="afe21-122">**Feature:** Select **Domestic Calling Plan** and/or **Domestic and International Plan**.</span></span>
+   - <span data-ttu-id="cc965-122">**Recursos:** selecione **Plano de Chamadas Domésticas** e/ou **Planos de Chamadas Domésticas e Internacionais**.</span><span class="sxs-lookup"><span data-stu-id="cc965-122">**Feature:** Select **Domestic Calling Plan** and/or **Domestic and International Plan**.</span></span>
     
-   - <span data-ttu-id="afe21-123">**Sintoma:** insira **Chamada de Emergência**.</span><span class="sxs-lookup"><span data-stu-id="afe21-123">**Symptom:** Enter **Emergency Calling**.</span></span>
+   - <span data-ttu-id="cc965-123">**Sintoma:** insira **Chamada de Emergência**.</span><span class="sxs-lookup"><span data-stu-id="cc965-123">**Symptom:** Enter **Emergency Calling**.</span></span>
     
-   - <span data-ttu-id="afe21-124">**Resumo do problema:** insira **Validação do endereço**.</span><span class="sxs-lookup"><span data-stu-id="afe21-124">**Issue summary:** Enter **Address validation**.</span></span>
+   - <span data-ttu-id="cc965-124">**Resumo do problema:** insira **Validação do endereço**.</span><span class="sxs-lookup"><span data-stu-id="cc965-124">**Issue summary:** Enter **Address validation**.</span></span>
     
-   - <span data-ttu-id="afe21-125">**Detalhes do problema:** insira todos os detalhes sobre os endereços que você deseja validar, como:</span><span class="sxs-lookup"><span data-stu-id="afe21-125">**Issue details:** Enter any details about the address(s) you want to validate such as the:</span></span>
+   - <span data-ttu-id="cc965-125">**Detalhes do problema:** insira todos os detalhes sobre os endereços que você deseja validar, como:</span><span class="sxs-lookup"><span data-stu-id="cc965-125">**Issue details:** Enter any details about the address(s) you want to validate such as the:</span></span>
     
-      - <span data-ttu-id="afe21-126">Número</span><span class="sxs-lookup"><span data-stu-id="afe21-126">Street number</span></span>
+      - <span data-ttu-id="cc965-126">Número</span><span class="sxs-lookup"><span data-stu-id="cc965-126">Street number</span></span>
     
-      - <span data-ttu-id="afe21-127">Nome da rua</span><span class="sxs-lookup"><span data-stu-id="afe21-127">Street name</span></span>
+      - <span data-ttu-id="cc965-127">Nome da rua</span><span class="sxs-lookup"><span data-stu-id="cc965-127">Street name</span></span>
     
-      - <span data-ttu-id="afe21-128">Cidade ou município</span><span class="sxs-lookup"><span data-stu-id="afe21-128">Town or city</span></span>
+      - <span data-ttu-id="cc965-128">Cidade ou município</span><span class="sxs-lookup"><span data-stu-id="cc965-128">Town or city</span></span>
     
-      - <span data-ttu-id="afe21-129">País ou região</span><span class="sxs-lookup"><span data-stu-id="afe21-129">Country or region</span></span>
+      - <span data-ttu-id="cc965-129">País ou região</span><span class="sxs-lookup"><span data-stu-id="cc965-129">Country or region</span></span>
     
      > [!IMPORTANT]
-     > <span data-ttu-id="afe21-130">**Coloque o país/região em que oferecemos planos de chamada para os quais você está tentando validar um endereço de emergência ao atribuir um número de telefone.**</span><span class="sxs-lookup"><span data-stu-id="afe21-130">**Put the country/region where we offer Calling Plans that you are trying to validate an emergency address in when you are assigning phone number.**</span></span>
+     > <span data-ttu-id="cc965-130">**Coloque o país/região onde oferecemos Planos de Chamada em que você está tentando validar um endereço de emergência ao atribuir um número de telefone.**</span><span class="sxs-lookup"><span data-stu-id="cc965-130">**Put the country/region where we offer Calling Plans that you are trying to validate an emergency address in when you are assigning phone number.**</span></span>
   
-      - <span data-ttu-id="afe21-131">CEP</span><span class="sxs-lookup"><span data-stu-id="afe21-131">Postal or zip code</span></span>
+      - <span data-ttu-id="cc965-131">CEP</span><span class="sxs-lookup"><span data-stu-id="cc965-131">Postal or zip code</span></span>
     
-6. <span data-ttu-id="afe21-132">Clique na página **Avançar**, em **Sim e em continuar** para continuar.</span><span class="sxs-lookup"><span data-stu-id="afe21-132">Click **Next** page, click **Yes, continue** to continue.</span></span>
+6. <span data-ttu-id="cc965-132">Clique na página **Avançar**, em **Sim e em continuar** para continuar.</span><span class="sxs-lookup"><span data-stu-id="cc965-132">Click **Next** page, click **Yes, continue** to continue.</span></span>
     
-7. <span data-ttu-id="afe21-133">Na página **Adicionar detalhes**, selecione e insira o seguinte:</span><span class="sxs-lookup"><span data-stu-id="afe21-133">On the **Add details** page, select and enter the following:</span></span>
+7. <span data-ttu-id="cc965-133">Na página **Adicionar detalhes**, selecione e insira o seguinte:</span><span class="sxs-lookup"><span data-stu-id="cc965-133">On the **Add details** page, select and enter the following:</span></span>
     
-   - <span data-ttu-id="afe21-134">**Seu serviço está indisponível?**</span><span class="sxs-lookup"><span data-stu-id="afe21-134">**Is your service unavailable?**</span></span> <span data-ttu-id="afe21-135">Selecione **Não**.</span><span class="sxs-lookup"><span data-stu-id="afe21-135">Select **No**.</span></span>
+   - <span data-ttu-id="cc965-134">**Seu serviço está indisponível?**</span><span class="sxs-lookup"><span data-stu-id="cc965-134">**Is your service unavailable?**</span></span> <span data-ttu-id="cc965-135">Selecione **Não**.</span><span class="sxs-lookup"><span data-stu-id="cc965-135">Select **No**.</span></span>
     
-   - <span data-ttu-id="afe21-136">**Quantos usuários são afetados?**</span><span class="sxs-lookup"><span data-stu-id="afe21-136">**How many users are affected?**</span></span> <span data-ttu-id="afe21-137">Selecione **Alguns usuários**.</span><span class="sxs-lookup"><span data-stu-id="afe21-137">Select **Some users**.</span></span>
+   - <span data-ttu-id="cc965-136">**Quantos usuários são afetados?**</span><span class="sxs-lookup"><span data-stu-id="cc965-136">**How many users are affected?**</span></span> <span data-ttu-id="cc965-137">Selecione **Alguns usuários**.</span><span class="sxs-lookup"><span data-stu-id="cc965-137">Select **Some users**.</span></span>
     
-   - <span data-ttu-id="afe21-138">**Insira o endereço de email de alguém que é afetado por esse problema** ou deixe em branco.</span><span class="sxs-lookup"><span data-stu-id="afe21-138">**Enter an email address of someone affected by this issue** or leave blank.</span></span>
+   - <span data-ttu-id="cc965-138">**Insira o endereço de email de alguém que é afetado por esse problema** ou deixe em branco.</span><span class="sxs-lookup"><span data-stu-id="cc965-138">**Enter an email address of someone affected by this issue** or leave blank.</span></span>
     
-   - <span data-ttu-id="afe21-139">**Escolha os domínios que você deseja listar**</span><span class="sxs-lookup"><span data-stu-id="afe21-139">**Select Domain(s) you want to list**</span></span>
+   - <span data-ttu-id="cc965-139">**Escolha os domínios que você deseja listar**</span><span class="sxs-lookup"><span data-stu-id="cc965-139">**Select Domain(s) you want to list**</span></span>
     
-   - <span data-ttu-id="afe21-140">**Anexe um arquivo**, se tiver vários endereços que precisa validar.</span><span class="sxs-lookup"><span data-stu-id="afe21-140">**Attach a file** if you have multiple addresses you need validated.</span></span>
+   - <span data-ttu-id="cc965-140">**Anexe um arquivo**, se tiver vários endereços que precisa validar.</span><span class="sxs-lookup"><span data-stu-id="cc965-140">**Attach a file** if you have multiple addresses you need validated.</span></span>
     
-   - <span data-ttu-id="afe21-141">Clique em **Avançar**.</span><span class="sxs-lookup"><span data-stu-id="afe21-141">Click **Next**.</span></span>
+   - <span data-ttu-id="cc965-141">Clique em **Avançar**.</span><span class="sxs-lookup"><span data-stu-id="cc965-141">Click **Next**.</span></span>
     
-   - <span data-ttu-id="afe21-142">Insira seu número de telefone de contato.</span><span class="sxs-lookup"><span data-stu-id="afe21-142">Enter your contact phone number.</span></span>
+   - <span data-ttu-id="cc965-142">Insira seu número de telefone de contato.</span><span class="sxs-lookup"><span data-stu-id="cc965-142">Enter your contact phone number.</span></span>
     
-8. <span data-ttu-id="afe21-143">Confira as informações e clique em **Enviar solicitação**.</span><span class="sxs-lookup"><span data-stu-id="afe21-143">Review the information, and then click **Submit request**.</span></span>
+8. <span data-ttu-id="cc965-143">Confira as informações e clique em **Enviar solicitação**.</span><span class="sxs-lookup"><span data-stu-id="cc965-143">Review the information, and then click **Submit request**.</span></span>
     
 > [!TIP]
-> <span data-ttu-id="afe21-144">O número de referência será listado na página **solicitações de serviço** no centro de administração do Microsoft 365.</span><span class="sxs-lookup"><span data-stu-id="afe21-144">The reference number will be listed on the **Service requests** page in the Microsoft 365 admin center.</span></span>
+> <span data-ttu-id="cc965-144">O número de referência será listado na página **solicitações de** serviço no Centro de administração do Microsoft 365.</span><span class="sxs-lookup"><span data-stu-id="cc965-144">The reference number will be listed on the **Service requests** page in the Microsoft 365 admin center.</span></span>
 
 
 > [!NOTE]
-> <span data-ttu-id="afe21-145">Se precisar de mais números de telefone, veja [Contatar o suporte de produtos para empresas - Ajuda para administradores](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).</span><span class="sxs-lookup"><span data-stu-id="afe21-145">If you need to get more telephone numbers than this, please [contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)</span></span>
+> <span data-ttu-id="cc965-145">Se precisar de mais números de telefone, veja [Contatar o suporte de produtos para empresas - Ajuda para administradores](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).</span><span class="sxs-lookup"><span data-stu-id="cc965-145">If you need to get more telephone numbers than this, please [contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)</span></span>
 
   
-## <a name="related-topics"></a><span data-ttu-id="afe21-146">Tópicos relacionados</span><span class="sxs-lookup"><span data-stu-id="afe21-146">Related topics</span></span>
-[<span data-ttu-id="afe21-147">Perguntas comuns sobre a transferência de números de telefone</span><span class="sxs-lookup"><span data-stu-id="afe21-147">Transferring phone numbers common questions</span></span>](/microsoftteams/transferring-phone-numbers-common-questions)
+## <a name="related-topics"></a><span data-ttu-id="cc965-146">Tópicos relacionados</span><span class="sxs-lookup"><span data-stu-id="cc965-146">Related topics</span></span>
+[<span data-ttu-id="cc965-147">Perguntas comuns sobre a transferência de números de telefone</span><span class="sxs-lookup"><span data-stu-id="cc965-147">Transferring phone numbers common questions</span></span>](/microsoftteams/transferring-phone-numbers-common-questions)
 
-[<span data-ttu-id="afe21-148">Diferentes tipos de números de telefone usados para Planos de Chamadas</span><span class="sxs-lookup"><span data-stu-id="afe21-148">Different kinds of phone numbers used for Calling Plans</span></span>](/microsoftteams/different-kinds-of-phone-numbers-used-for-calling-plans)
+[<span data-ttu-id="cc965-148">Diferentes tipos de números de telefone usados para Planos de Chamadas</span><span class="sxs-lookup"><span data-stu-id="cc965-148">Different kinds of phone numbers used for Calling Plans</span></span>](/microsoftteams/different-kinds-of-phone-numbers-used-for-calling-plans)
 
-[<span data-ttu-id="afe21-149">Termos e condições para chamadas de emergência</span><span class="sxs-lookup"><span data-stu-id="afe21-149">Emergency calling terms and conditions</span></span>](/microsoftteams/emergency-calling-terms-and-conditions)
+[<span data-ttu-id="cc965-149">Termos e condições para chamadas de emergência</span><span class="sxs-lookup"><span data-stu-id="cc965-149">Emergency calling terms and conditions</span></span>](/microsoftteams/emergency-calling-terms-and-conditions)
 
-<span data-ttu-id="afe21-150">[Skype for Business Online: etiqueta de aviso de isenção de responsabilidade por Chamadas de Emergência](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)</span><span class="sxs-lookup"><span data-stu-id="afe21-150">[Skype for Business Online: Emergency Calling disclaimer label](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)</span></span>
+<span data-ttu-id="cc965-150">[Skype for Business Online: etiqueta de aviso de isenção de responsabilidade por Chamadas de Emergência](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)</span><span class="sxs-lookup"><span data-stu-id="cc965-150">[Skype for Business Online: Emergency Calling disclaimer label](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)</span></span>
   
  
