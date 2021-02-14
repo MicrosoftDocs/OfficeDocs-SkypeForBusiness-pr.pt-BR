@@ -22,9 +22,9 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49820131"
 ---
-# <a name="select-from-active-directory"></a><span data-ttu-id="e9fb8-105">Selecionar no Active Directory</span><span class="sxs-lookup"><span data-stu-id="e9fb8-105">Select from Active Directory</span></span>
+# <a name="select-from-active-directory"></a><span data-ttu-id="52af8-105">Selecionar no Active Directory</span><span class="sxs-lookup"><span data-stu-id="52af8-105">Select from Active Directory</span></span>
  
-<span data-ttu-id="e9fb8-106">Use a **caixa de diálogo Selecionar** do Active Directory para encontrar usuários que você deseja habilitar para o Skype for Business Server.</span><span class="sxs-lookup"><span data-stu-id="e9fb8-106">Use the **Select from Active Directory** dialog box to find users who you want to enable for Skype for Business Server.</span></span> <span data-ttu-id="e9fb8-107">Na caixa de pesquisa, digite o endereço SIP ou o nome de exibição do usuário que você deseja encontrar.</span><span class="sxs-lookup"><span data-stu-id="e9fb8-107">In the search box, type the SIP address or display name of the user you want to find.</span></span> <span data-ttu-id="e9fb8-108">Para recuperar todos os usuários disponíveis, não digite nada na caixa de pesquisa.</span><span class="sxs-lookup"><span data-stu-id="e9fb8-108">To retrieve all available users, do not type anything in the search box.</span></span>
+<span data-ttu-id="52af8-106">Use a **caixa de diálogo Selecionar** do Active Directory para encontrar usuários que você deseja habilitar para o Skype for Business Server.</span><span class="sxs-lookup"><span data-stu-id="52af8-106">Use the **Select from Active Directory** dialog box to find users who you want to enable for Skype for Business Server.</span></span> <span data-ttu-id="52af8-107">Na caixa de pesquisa, digite o endereço SIP ou o nome de exibição do usuário que você deseja encontrar.</span><span class="sxs-lookup"><span data-stu-id="52af8-107">In the search box, type the SIP address or display name of the user you want to find.</span></span> <span data-ttu-id="52af8-108">Para recuperar todos os usuários disponíveis, não digite nada na caixa de pesquisa.</span><span class="sxs-lookup"><span data-stu-id="52af8-108">To retrieve all available users, do not type anything in the search box.</span></span>
   
  
   

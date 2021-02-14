@@ -22,12 +22,12 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49820021"
 ---
-# <a name="select-pstn-usage-record"></a><span data-ttu-id="11388-103">Selecionar Registro de Uso PSTN</span><span class="sxs-lookup"><span data-stu-id="11388-103">Select PSTN Usage Record</span></span>
+# <a name="select-pstn-usage-record"></a><span data-ttu-id="3457e-103">Selecionar Registro de Uso PSTN</span><span class="sxs-lookup"><span data-stu-id="3457e-103">Select PSTN Usage Record</span></span>
  
-<span data-ttu-id="11388-104">Use a caixa de diálogo **Selecionar Registro de Uso de PSTN** para localizar um registro de uso de PSTN (Rede telefônica pública comutada) existente que você possa utilizar.</span><span class="sxs-lookup"><span data-stu-id="11388-104">Use the **Select PSTN Usage Record** dialog box to find an existing public switched telephone network (PSTN) usage record that you can use.</span></span>
+<span data-ttu-id="3457e-104">Use a caixa de diálogo **Selecionar Registro de Uso de PSTN** para localizar um registro de uso de PSTN (Rede telefônica pública comutada) existente que você possa utilizar.</span><span class="sxs-lookup"><span data-stu-id="3457e-104">Use the **Select PSTN Usage Record** dialog box to find an existing public switched telephone network (PSTN) usage record that you can use.</span></span>
   
 > [!NOTE]
-> <span data-ttu-id="11388-105">Clique no ícone de busca sem inserir nada na caixa de busca para obter todos os registros de uso de PSTN disponíveis.</span><span class="sxs-lookup"><span data-stu-id="11388-105">To retrieve all available PSTN usage records, do not type anything in the search box, and then click the search icon.</span></span> 
+> <span data-ttu-id="3457e-105">Clique no ícone de busca sem inserir nada na caixa de busca para obter todos os registros de uso de PSTN disponíveis.</span><span class="sxs-lookup"><span data-stu-id="3457e-105">To retrieve all available PSTN usage records, do not type anything in the search box, and then click the search icon.</span></span> 
   
  
   

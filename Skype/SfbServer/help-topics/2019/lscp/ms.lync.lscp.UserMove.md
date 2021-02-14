@@ -22,10 +22,10 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49820221"
 ---
-# <a name="move-user"></a><span data-ttu-id="07b4a-103">Mover Usuário</span><span class="sxs-lookup"><span data-stu-id="07b4a-103">Move User</span></span>
+# <a name="move-user"></a><span data-ttu-id="7946e-103">Mover Usuário</span><span class="sxs-lookup"><span data-stu-id="7946e-103">Move User</span></span>
 
-<span data-ttu-id="07b4a-104">Na página **Mover Usuários,** você pode selecionar um pool de destino para o que mover o usuário selecionado.</span><span class="sxs-lookup"><span data-stu-id="07b4a-104">On the **Move Users** page, you can select a destination pool to move the selected user to.</span></span>
+<span data-ttu-id="7946e-104">Na página **Mover Usuários,** você pode selecionar um pool de destino para o que mover o usuário selecionado.</span><span class="sxs-lookup"><span data-stu-id="7946e-104">On the **Move Users** page, you can select a destination pool to move the selected user to.</span></span>
 
-<span data-ttu-id="07b4a-105">Para obter mais informações sobre como mover usuários, consulte [Move Users to Another Pool](https://technet.microsoft.com/library/e7b4968c-0e9d-4d56-b5f1-9edf0f7206f8.aspx).</span><span class="sxs-lookup"><span data-stu-id="07b4a-105">For more information about moving users, see [Move Users to Another Pool](https://technet.microsoft.com/library/e7b4968c-0e9d-4d56-b5f1-9edf0f7206f8.aspx).</span></span>
+<span data-ttu-id="7946e-105">Para obter mais informações sobre como mover usuários, consulte [Move Users to Another Pool](https://technet.microsoft.com/library/e7b4968c-0e9d-4d56-b5f1-9edf0f7206f8.aspx).</span><span class="sxs-lookup"><span data-stu-id="7946e-105">For more information about moving users, see [Move Users to Another Pool](https://technet.microsoft.com/library/e7b4968c-0e9d-4d56-b5f1-9edf0f7206f8.aspx).</span></span>
 
 

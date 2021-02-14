@@ -22,10 +22,10 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49819101"
 ---
-# <a name="sip-federated-providers-create-new-or-edit-existing"></a><span data-ttu-id="4fe87-104">Provedores Federados de SIP: Criar Novos ou Editar Existentes</span><span class="sxs-lookup"><span data-stu-id="4fe87-104">SIP Federated Providers: Create New or Edit Existing</span></span>
+# <a name="sip-federated-providers-create-new-or-edit-existing"></a><span data-ttu-id="68bf5-104">Provedores Federados de SIP: Criar Novos ou Editar Existentes</span><span class="sxs-lookup"><span data-stu-id="68bf5-104">SIP Federated Providers: Create New or Edit Existing</span></span>
 
-<span data-ttu-id="4fe87-105">O que você deseja fazer?</span><span class="sxs-lookup"><span data-stu-id="4fe87-105">What do you want to do?</span></span> <span data-ttu-id="4fe87-106">Clique no link para a tarefa que você deseja executar.</span><span class="sxs-lookup"><span data-stu-id="4fe87-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="68bf5-105">O que você deseja fazer?</span><span class="sxs-lookup"><span data-stu-id="68bf5-105">What do you want to do?</span></span> <span data-ttu-id="68bf5-106">Clique no link para a tarefa que você deseja executar.</span><span class="sxs-lookup"><span data-stu-id="68bf5-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="4fe87-107">Gerenciar provedores federados SIP para sua organização</span><span class="sxs-lookup"><span data-stu-id="4fe87-107">Manage SIP Federated Providers for Your Organization</span></span>](https://technet.microsoft.com/library/c78d7e9b-c496-40c6-9249-06ced9cb87f3.aspx)
+- [<span data-ttu-id="68bf5-107">Gerenciar provedores federados SIP para sua organização</span><span class="sxs-lookup"><span data-stu-id="68bf5-107">Manage SIP Federated Providers for Your Organization</span></span>](https://technet.microsoft.com/library/c78d7e9b-c496-40c6-9249-06ced9cb87f3.aspx)
 
 

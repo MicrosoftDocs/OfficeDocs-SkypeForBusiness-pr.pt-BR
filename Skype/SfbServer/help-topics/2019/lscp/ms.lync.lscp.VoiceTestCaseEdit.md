@@ -22,13 +22,13 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49819931"
 ---
-# <a name="test-voice-routing-create-new-or-edit-existing-test-cases"></a><span data-ttu-id="c6287-103">Testar Roteamento de Voz: Criar Novos ou Editar Casos de Teste Existentes</span><span class="sxs-lookup"><span data-stu-id="c6287-103">Test Voice Routing: Create New or Edit Existing Test Cases</span></span>
+# <a name="test-voice-routing-create-new-or-edit-existing-test-cases"></a><span data-ttu-id="8368f-103">Testar Roteamento de Voz: Criar Novos ou Editar Casos de Teste Existentes</span><span class="sxs-lookup"><span data-stu-id="8368f-103">Test Voice Routing: Create New or Edit Existing Test Cases</span></span>
 
-<span data-ttu-id="c6287-104">UNRESOLVED_TOKEN_VAL(»bigfin_UI_help_intro)</span><span class="sxs-lookup"><span data-stu-id="c6287-104">UNRESOLVED_TOKEN_VAL(»bigfin_UI_help_intro)</span></span>
+<span data-ttu-id="8368f-104">UNRESOLVED_TOKEN_VAL(»bigfin_UI_help_intro)</span><span class="sxs-lookup"><span data-stu-id="8368f-104">UNRESOLVED_TOKEN_VAL(»bigfin_UI_help_intro)</span></span>
 
-- [<span data-ttu-id="c6287-105">Criar um caso de teste de roteamento de voz</span><span class="sxs-lookup"><span data-stu-id="c6287-105">Create a Voice Routing Test Case</span></span>](https://technet.microsoft.com/library/43a07a5b-2f20-462a-81e5-d628c18391e0.aspx)
+- [<span data-ttu-id="8368f-105">Criar um caso de teste de roteamento de voz</span><span class="sxs-lookup"><span data-stu-id="8368f-105">Create a Voice Routing Test Case</span></span>](https://technet.microsoft.com/library/43a07a5b-2f20-462a-81e5-d628c18391e0.aspx)
 
-- [<span data-ttu-id="c6287-106">Executar casos de teste de roteamento de voz</span><span class="sxs-lookup"><span data-stu-id="c6287-106">Run Voice Routing Test Cases</span></span>](https://technet.microsoft.com/library/fb4d32df-b9ea-4944-8cd7-a6102c78c465.aspx)
+- [<span data-ttu-id="8368f-106">Executar casos de teste de roteamento de voz</span><span class="sxs-lookup"><span data-stu-id="8368f-106">Run Voice Routing Test Cases</span></span>](https://technet.microsoft.com/library/fb4d32df-b9ea-4944-8cd7-a6102c78c465.aspx)
 
 
 

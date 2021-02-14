@@ -22,8 +22,8 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49820601"
 ---
-# <a name="deployment-wizard-admin-tools"></a><span data-ttu-id="0ef78-103">Assistente de Implantação: Ferramentas de Administração</span><span class="sxs-lookup"><span data-stu-id="0ef78-103">Deployment Wizard: Admin Tools</span></span>
+# <a name="deployment-wizard-admin-tools"></a><span data-ttu-id="84ea9-103">Assistente de Implantação: Ferramentas de Administração</span><span class="sxs-lookup"><span data-stu-id="84ea9-103">Deployment Wizard: Admin Tools</span></span>
  
-<span data-ttu-id="0ef78-104">Para obter detalhes sobre como usar o Assistente de Implantação para instalar o Skype for Business Server, consulte [Instalar o Skype for Business Server.](../../../deploy/install/install.md)</span><span class="sxs-lookup"><span data-stu-id="0ef78-104">For details about using Deployment Wizard to install Skype for Business Server, see [Install Skype for Business Server](../../../deploy/install/install.md).</span></span>
+<span data-ttu-id="84ea9-104">Para obter detalhes sobre como usar o Assistente de Implantação para instalar o Skype for Business Server, consulte [Instalar o Skype for Business Server.](../../../deploy/install/install.md)</span><span class="sxs-lookup"><span data-stu-id="84ea9-104">For details about using Deployment Wizard to install Skype for Business Server, see [Install Skype for Business Server](../../../deploy/install/install.md).</span></span>
   
 

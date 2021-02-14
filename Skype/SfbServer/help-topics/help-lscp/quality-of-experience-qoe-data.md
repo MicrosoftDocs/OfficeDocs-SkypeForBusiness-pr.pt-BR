@@ -22,15 +22,15 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49819221"
 ---
-# <a name="quality-of-experience-qoe-data"></a><span data-ttu-id="7f40a-104">Dados de Qualidade de Experiência (QoE)</span><span class="sxs-lookup"><span data-stu-id="7f40a-104">Quality of Experience (QoE) Data</span></span>
+# <a name="quality-of-experience-qoe-data"></a><span data-ttu-id="601e1-104">Dados de Qualidade de Experiência (QoE)</span><span class="sxs-lookup"><span data-stu-id="601e1-104">Quality of Experience (QoE) Data</span></span>
  
-<span data-ttu-id="7f40a-105">O que você deseja fazer?</span><span class="sxs-lookup"><span data-stu-id="7f40a-105">What do you want to do?</span></span> <span data-ttu-id="7f40a-106">Clique no link para a tarefa que você deseja executar.</span><span class="sxs-lookup"><span data-stu-id="7f40a-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="601e1-105">O que você deseja fazer?</span><span class="sxs-lookup"><span data-stu-id="601e1-105">What do you want to do?</span></span> <span data-ttu-id="601e1-106">Clique no link para a tarefa que você deseja executar.</span><span class="sxs-lookup"><span data-stu-id="601e1-106">Click the link to the task that you want to perform.</span></span>
   
-- [<span data-ttu-id="7f40a-107">Habilitar a Qualidade da Experiência no Skype for Business Server 2015</span><span class="sxs-lookup"><span data-stu-id="7f40a-107">Enable Quality of Experience in Skype for Business Server 2015</span></span>](../../manage/health-and-monitoring/enable-qoe.md)
+- [<span data-ttu-id="601e1-107">Habilitar a Qualidade da Experiência no Skype for Business Server 2015</span><span class="sxs-lookup"><span data-stu-id="601e1-107">Enable Quality of Experience in Skype for Business Server 2015</span></span>](../../manage/health-and-monitoring/enable-qoe.md)
     
-- [<span data-ttu-id="7f40a-108">Modificar as configurações de Qualidade da Experiência no Skype for Business Server 2015</span><span class="sxs-lookup"><span data-stu-id="7f40a-108">Modify Quality of Experience settings in Skype for Business Server 2015</span></span>](../../manage/health-and-monitoring/modify-qoe-settings.md)
+- [<span data-ttu-id="601e1-108">Modificar as configurações de Qualidade da Experiência no Skype for Business Server 2015</span><span class="sxs-lookup"><span data-stu-id="601e1-108">Modify Quality of Experience settings in Skype for Business Server 2015</span></span>](../../manage/health-and-monitoring/modify-qoe-settings.md)
     
-- [<span data-ttu-id="7f40a-109">Criar definições de configuração de Qualidade da Experiência no Skype for Business Server 2015</span><span class="sxs-lookup"><span data-stu-id="7f40a-109">Create Quality of Experience configuration settings in Skype for Business Server 2015</span></span>](../../manage/health-and-monitoring/create-qoe-configuration-settings.md)
+- [<span data-ttu-id="601e1-109">Criar definições de configuração de Qualidade da Experiência no Skype for Business Server 2015</span><span class="sxs-lookup"><span data-stu-id="601e1-109">Create Quality of Experience configuration settings in Skype for Business Server 2015</span></span>](../../manage/health-and-monitoring/create-qoe-configuration-settings.md)
     
-<span data-ttu-id="7f40a-110">Para obter detalhes sobre os diferentes procedimentos que você pode executar usando o Painel de Controle do Skype for Business Server, consulte [Gerenciar o Skype for Business Server 2015.](../../manage/manage.md)</span><span class="sxs-lookup"><span data-stu-id="7f40a-110">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
+<span data-ttu-id="601e1-110">Para obter detalhes sobre os diferentes procedimentos que você pode executar usando o Painel de Controle do Skype for Business Server, consulte [Gerenciar o Skype for Business Server 2015.](../../manage/manage.md)</span><span class="sxs-lookup"><span data-stu-id="601e1-110">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
 

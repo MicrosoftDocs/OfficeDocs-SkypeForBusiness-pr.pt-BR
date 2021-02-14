@@ -22,9 +22,9 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49819991"
 ---
-# <a name="normalization-rule-type-a-regular-expression"></a><span data-ttu-id="c937d-103">Regra de Normalização: Digite uma Expressão Regular</span><span class="sxs-lookup"><span data-stu-id="c937d-103">Normalization Rule: Type a Regular Expression</span></span>
+# <a name="normalization-rule-type-a-regular-expression"></a><span data-ttu-id="821c6-103">Regra de Normalização: Digite uma Expressão Regular</span><span class="sxs-lookup"><span data-stu-id="821c6-103">Normalization Rule: Type a Regular Expression</span></span>
  
-<span data-ttu-id="c937d-104">Digite uma expressão regular do .NET Framework para especificar o padrão correspondente dos números de telefone de destino aos quais a rota é aplicada.</span><span class="sxs-lookup"><span data-stu-id="c937d-104">Type a .NET Framework regular expression to specify the matching pattern for destination phone numbers to which the route is applied.</span></span> 
+<span data-ttu-id="821c6-104">Digite uma expressão regular do .NET Framework para especificar o padrão correspondente dos números de telefone de destino aos quais a rota é aplicada.</span><span class="sxs-lookup"><span data-stu-id="821c6-104">Type a .NET Framework regular expression to specify the matching pattern for destination phone numbers to which the route is applied.</span></span> 
   
  
   

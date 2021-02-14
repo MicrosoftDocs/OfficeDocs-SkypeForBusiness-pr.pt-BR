@@ -21,18 +21,18 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49821791"
 ---
-# <a name="statistics-manager-for-skype-for-business-server"></a><span data-ttu-id="f497b-103">Gerenciador de e Estatísticas do Skype for Business Server</span><span class="sxs-lookup"><span data-stu-id="f497b-103">Statistics Manager for Skype for Business Server</span></span>
+# <a name="statistics-manager-for-skype-for-business-server"></a><span data-ttu-id="4c149-103">Gerenciador de e Estatísticas do Skype for Business Server</span><span class="sxs-lookup"><span data-stu-id="4c149-103">Statistics Manager for Skype for Business Server</span></span>
  
-<span data-ttu-id="f497b-104">**Resumo:** Leia este tópico para saber mais sobre o Gerenciador de Estatísticas do Skype for Business Server, uma poderosa ferramenta que permite exibir dados de desempenho e de saúde do Skype for Business Server em tempo real.</span><span class="sxs-lookup"><span data-stu-id="f497b-104">**Summary:** Read this topic to learn about Statistics Manager for Skype for Business Server, a powerful tool that allows you to view Skype for Business Server health and performance data in real time.</span></span>
+<span data-ttu-id="4c149-104">**Resumo:** Leia este tópico para saber mais sobre o Gerenciador de Estatísticas do Skype for Business Server, uma poderosa ferramenta que permite exibir dados de desempenho e de saúde do Skype for Business Server em tempo real.</span><span class="sxs-lookup"><span data-stu-id="4c149-104">**Summary:** Read this topic to learn about Statistics Manager for Skype for Business Server, a powerful tool that allows you to view Skype for Business Server health and performance data in real time.</span></span>
   
-<span data-ttu-id="f497b-105">Esta seção contém os seguintes tópicos:</span><span class="sxs-lookup"><span data-stu-id="f497b-105">This section contains the following topics:</span></span>
+<span data-ttu-id="4c149-105">Esta seção contém os seguintes tópicos:</span><span class="sxs-lookup"><span data-stu-id="4c149-105">This section contains the following topics:</span></span>
   
-- [<span data-ttu-id="f497b-106">Planejar o Gerenciador de estatísticas do Skype for Business Server</span><span class="sxs-lookup"><span data-stu-id="f497b-106">Plan for Statistics Manager for Skype for Business Server</span></span>](plan.md)
+- [<span data-ttu-id="4c149-106">Planejar o Gerenciador de estatísticas do Skype for Business Server</span><span class="sxs-lookup"><span data-stu-id="4c149-106">Plan for Statistics Manager for Skype for Business Server</span></span>](plan.md)
     
-- [<span data-ttu-id="f497b-107">Implantar o Gerenciador de estatísticas do Skype for Business Server</span><span class="sxs-lookup"><span data-stu-id="f497b-107">Deploy Statistics Manager for Skype for Business Server</span></span>](deploy.md)
+- [<span data-ttu-id="4c149-107">Implantar o Gerenciador de estatísticas do Skype for Business Server</span><span class="sxs-lookup"><span data-stu-id="4c149-107">Deploy Statistics Manager for Skype for Business Server</span></span>](deploy.md)
     
-- [<span data-ttu-id="f497b-108">Atualizar o Gerenciador de estatísticas do Skype for Business Server</span><span class="sxs-lookup"><span data-stu-id="f497b-108">Upgrade Statistics Manager for Skype for Business Server</span></span>](upgrade.md)
+- [<span data-ttu-id="4c149-108">Atualizar o Gerenciador de estatísticas do Skype for Business Server</span><span class="sxs-lookup"><span data-stu-id="4c149-108">Upgrade Statistics Manager for Skype for Business Server</span></span>](upgrade.md)
     
-- [<span data-ttu-id="f497b-109">Solução de problemas do Gerenciador de estatísticas do Skype for Business Server</span><span class="sxs-lookup"><span data-stu-id="f497b-109">Troubleshoot Statistics Manager for Skype for Business Server</span></span>](troubleshoot.md)
+- [<span data-ttu-id="4c149-109">Solução de problemas do Gerenciador de estatísticas do Skype for Business Server</span><span class="sxs-lookup"><span data-stu-id="4c149-109">Troubleshoot Statistics Manager for Skype for Business Server</span></span>](troubleshoot.md)
     
 

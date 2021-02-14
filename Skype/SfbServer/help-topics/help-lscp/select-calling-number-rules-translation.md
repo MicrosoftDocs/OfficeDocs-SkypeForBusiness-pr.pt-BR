@@ -22,14 +22,14 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49821961"
 ---
-# <a name="select-calling-number-rules-translation"></a><span data-ttu-id="3e46d-104">Selecionar a Tradução das Regras de Número de Chamada</span><span class="sxs-lookup"><span data-stu-id="3e46d-104">Select Calling Number Rules Translation</span></span>
+# <a name="select-calling-number-rules-translation"></a><span data-ttu-id="adb1b-104">Selecionar a Tradução das Regras de Número de Chamada</span><span class="sxs-lookup"><span data-stu-id="adb1b-104">Select Calling Number Rules Translation</span></span>
 
-<span data-ttu-id="3e46d-105">A caixa de diálogo Selecionar Regras de **Conversão** de Número de Chamada exibe as regras de conversão configuradas para sua implantação.</span><span class="sxs-lookup"><span data-stu-id="3e46d-105">The **Select Calling Number Translation Rules** dialog displays the translation rules configured for your deployment.</span></span> <span data-ttu-id="3e46d-106">Para obter detalhes sobre as regras de transição, consulte os seguintes tópicos:</span><span class="sxs-lookup"><span data-stu-id="3e46d-106">For details about translation rules, see the following topics:</span></span>
+<span data-ttu-id="adb1b-105">A caixa de diálogo Selecionar Regras de **Conversão** de Número de Chamada exibe as regras de conversão configuradas para sua implantação.</span><span class="sxs-lookup"><span data-stu-id="adb1b-105">The **Select Calling Number Translation Rules** dialog displays the translation rules configured for your deployment.</span></span> <span data-ttu-id="adb1b-106">Para obter detalhes sobre as regras de transição, consulte os seguintes tópicos:</span><span class="sxs-lookup"><span data-stu-id="adb1b-106">For details about translation rules, see the following topics:</span></span>
 
-1. [<span data-ttu-id="3e46d-107">Regras de conversão no Skype for Business Server 2015</span><span class="sxs-lookup"><span data-stu-id="3e46d-107">Translation rules in Skype for Business Server 2015</span></span>](../../plan-your-deployment/enterprise-voice-solution/translation-rules.md)
+1. [<span data-ttu-id="adb1b-107">Regras de conversão no Skype for Business Server 2015</span><span class="sxs-lookup"><span data-stu-id="adb1b-107">Translation rules in Skype for Business Server 2015</span></span>](../../plan-your-deployment/enterprise-voice-solution/translation-rules.md)
 
-2. [<span data-ttu-id="3e46d-108">Configuração de Tronco e Regras de Conversão</span><span class="sxs-lookup"><span data-stu-id="3e46d-108">Trunk Configuration and Translation Rules</span></span>](https://technet.microsoft.com/library/0c339511-a185-484e-94f0-dbe918b7e48a.aspx)
+2. [<span data-ttu-id="adb1b-108">Configuração de Tronco e Regras de Conversão</span><span class="sxs-lookup"><span data-stu-id="adb1b-108">Trunk Configuration and Translation Rules</span></span>](https://technet.microsoft.com/library/0c339511-a185-484e-94f0-dbe918b7e48a.aspx)
 
-3. [<span data-ttu-id="3e46d-109">Criar ou modificar uma regra de conversão para apresentação de ID chamada no Skype for Business Server 2015</span><span class="sxs-lookup"><span data-stu-id="3e46d-109">Create or modify a translation rule for called ID presentation in Skype for Business Server 2015</span></span>](../../deploy/deploy-enterprise-voice/called-id-presentation-rules.md)
+3. [<span data-ttu-id="adb1b-109">Criar ou modificar uma regra de conversão para apresentação de ID chamada no Skype for Business Server 2015</span><span class="sxs-lookup"><span data-stu-id="adb1b-109">Create or modify a translation rule for called ID presentation in Skype for Business Server 2015</span></span>](../../deploy/deploy-enterprise-voice/called-id-presentation-rules.md)
 
 
