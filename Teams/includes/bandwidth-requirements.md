@@ -1,12 +1,12 @@
-Esta tabela descreve como as equipes usam a largura de banda. O Teams é sempre conservador na utilização da largura de banda e pode oferecer qualidade de vídeo HD em 1,2 Mbps. O consumo de largura de banda real em cada chamada de áudio/vídeo ou reunião varia de acordo com vários fatores, como o layout do vídeo, a resolução de vídeo e os quadros de vídeo por segundo. Quando houver mais largura de banda disponível, a qualidade e o uso aumentarão para proporcionar a melhor experiência.
+Esta tabela descreve como o Teams usa largura de banda. O Teams sempre é bom com o uso de largura de banda e pode oferecer qualidade de vídeo HD em menos de 1,2 Mbps. O consumo de largura de banda real em cada chamada de áudio/vídeo ou reunião variará com base em vários fatores, como layout de vídeo, resolução de vídeo e quadros de vídeo por segundo. Quando mais largura de banda estiver disponível, a qualidade e o uso aumentarão para oferecer a melhor experiência.
 
 
-|Largura de banda (para cima/para baixo) |Cenários |
+|Largura de banda(para cima/para baixo) |Cenários |
 |---|---|
-|30 kbps |Chamadas de áudio ponto a ponto |
-|130 Kbps |Chamadas de áudio ponto a ponto e compartilhamento de tela |
-|500 kbps |Chamadas com vídeo de qualidade ponto a ponto 360p em 30 qps |
-|1,2 Mbps |Chamadas com vídeo de qualidade HD ponto a ponto com resolução de HD 720p em 30 qps |
-|1,5 Mbps |Chamadas com vídeo de qualidade HD ponto a ponto com resolução de HD de 1080p em 30 qps |
-|500 kbps/1 Mbps |Chamadas com vídeo em grupo |
-|1 Mbps/2 Mbps |Chamadas com vídeo em grupo de alta definição (vídeos do 540p na tela de 1080p) |
+|30 kbps |Chamada de áudio ponto a ponto |
+|130 kbps |Chamada de áudio ponto a ponto e compartilhamento de tela |
+|500 kbps |Chamada de vídeo de qualidade ponto a ponto 360p a 30fps |
+|1,2 Mbps |Chamada de vídeo de qualidade HD ponto a ponto com resolução de HD 720p a 30fps |
+|1,5 Mbps |Chamada de vídeo de qualidade HD ponto a ponto com resolução de HD 1080p a 30fps |
+|500 kbps/1 Mbps |Chamada com Vídeo em Grupo |
+|1 Mbps/2 Mbps |Chamada de vídeo em GRUPO HD (vídeos 540p na tela 1080p) |

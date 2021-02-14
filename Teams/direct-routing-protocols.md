@@ -14,7 +14,7 @@ ms.reviewer: nmurav
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Protocolos de roteamento direto
+description: Protocolos de Roteamento Direto
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 7462822626b698f95b80a716a55f94dfe92148ff
@@ -24,70 +24,70 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 02/06/2020
 ms.locfileid: "41835021"
 ---
-# <a name="direct-routing---definitions-and-rfc-standards"></a>Definições de roteamento direto e padrões RFC
+# <a name="direct-routing---definitions-and-rfc-standards"></a>Roteamento Direto – Definições e padrões de RFC
 
-Este artigo descreve como o roteamento direto do sistema de telefone da Microsoft implementa protocolos padrão RFC. Este artigo destina-se a administradores de voz responsáveis por configurar a conexão entre o controlador de borda de sessão local (SBC) e o serviço de proxy SIP (protocolo de inicialização de sessão).
+Este artigo descreve como o Roteamento Direto do Sistema de Telefonia do Microsoft Phone implementa protocolos padrão RFC. Este artigo destina-se aos administradores de voz que são responsáveis por configurar a conexão entre o SBC (Controlador de Borda de Sessão) local e o serviço proxy SIP (Session Initiation Protocol).
 
-As interfaces SBC do cliente com os seguintes componentes no backend do Microsoft Teams: 
+As interfaces SBC do cliente com os seguintes componentes no back-end do Microsoft Teams: 
 
-- **O proxy SIP** para sinalização. Esse é o componente de roteamento direto da Internet que manipula conexões SIP (TLS) entre o SBCs e o roteamento direto.
+- **O proxy SIP** para sinalização. Esse é o componente voltado para a Internet do Roteamento Direto que lida com conexões SIP (TLS) entre os SBCs e o Roteamento Direto.
 
-- **Os processadores de mídia** para mídia. Esse é o componente de roteamento direto para a Internet que manipula o tráfego de mídia. Esse componente usa protocolos SRTP e SRTCP.
+- **Os processadores de mídia** para mídia. Esse é o componente voltado para a Internet do Roteamento Direto que lida com o tráfego de mídia. Esse componente usa protocolos SRTP e SRTCP.
 
 
-Para obter mais informações sobre roteamento direto, consulte [Roteamento direto do sistema telefônico](direct-routing-landing-page.md).
+Para obter mais informações sobre Roteamento Direto, consulte [Roteamento Direto do Sistema de Telefonia.](direct-routing-landing-page.md)
 
-Para obter mais informações sobre como o roteamento direto implementa o protocolo SIP, consulte [protocolo Routing-SIP direto](direct-routing-protocols-sip.md).
+Para saber mais sobre como o Roteamento Direto implementa o protocolo SIP, consulte [Roteamento](direct-routing-protocols-sip.md)Direto – protocolo SIP.
 
-## <a name="rfc-standards"></a>Padrões RFC
+## <a name="rfc-standards"></a>Padrões de RFC
 
-O roteamento direto está em conformidade com os padrões RFC.  O SBC conectado ao roteamento direto também deve estar em conformidade com as seguintes RFCs (ou seus sucessores). 
+O Roteamento Direto atende aos padrões de RFC.  O SBC conectado ao Roteamento Direto também deve estar em conformidade com as seguintes RFCs (ou suas sucessores). 
 
-### <a name="standards-applicable-to-devices-that-support-non-media-bypass-mode"></a>Padrões aplicáveis a dispositivos que dão suporte ao modo de bypass sem mídia 
+### <a name="standards-applicable-to-devices-that-support-non-media-bypass-mode"></a>Padrões aplicáveis a dispositivos que são compatíveis com o modo de bypass sem mídia 
 
-Os seguintes padrões são aplicáveis aos dispositivos que dão suporte apenas ao modo de bypass de não mídia:
+Os seguintes padrões são aplicáveis a dispositivos que só suportam o modo de bypass de fora da mídia:
 
-- [RFC 3261 SIP](https://tools.ietf.org/html/rfc3261): protocolo de início de sessão
-- [RFC 3325](https://www.ietf.org/rfc/rfc3325). Extensão particular para o protocolo de início de sessão para identidade declarada em redes confiáveis – seções sobre manipulação de cabeçalho de identidade com P-declarada. O roteamento direto envia identidade P-declarada com cabeçalhos de ID de privacidade. 
-- [RFC 4244](https://www.ietf.org/rfc/rfc4244.txt) Uma extensão do protocolo de iniciação de sessão (SIP) para informações necessárias do histórico. Consulte também: Descrição do protocolo SIP de roteamento para obter mais informações.
-- [RFC 3892](https://www.ietf.org/rfc/rfc3892.txt) O protocolo de início de sessão referido pelo mecanismo
-- [RFC 3891](https://www.ietf.org/rfc/rfc3891.txt) O cabeçalho "substitui" do protocolo de iniciação de sessão (SIP) 
-- [RFC 6337](https://tools.ietf.org/html/rfc6337) Uso do protocolo SIP do modelo de oferta/resposta.
-  Consulte a seção "desvios da RFC".
-- [Rfc 3711](https://tools.ietf.org/html/rfc3711) e [RFC 4771](https://tools.ietf.org/html/rfc4771). Proteger o tráfego RTP usando o SRTP. O SBC deve ser capaz de estabelecer chaves usando SDES. 
-- [RFC 8035](https://www.ietf.org/rfc/rfc8035.txt) O protocolo de descrição de sessão (SDP) oferece/soluciona esclarecimentos para multiplexação RTP/RTCP
+- [RFC 3261 SIP:](https://tools.ietf.org/html/rfc3261)Protocolo de Iniciação de Sessão
+- [RFC 3325.](https://www.ietf.org/rfc/rfc3325) Extensão privada para o Protocolo de Iniciação de Sessão para identidade afirmada em Redes Confiáveis, seções sobre como lidar com o header de identidade de P. O Roteamento Direto envia identidade de P-Asserted com os headers de ID de Privacidade. 
+- [RFC 4244](https://www.ietf.org/rfc/rfc4244.txt) Uma extensão do PROTOCOLO (Session Initiation Protocol) para obter informações de histórico necessárias. Confira também: Roteamento da descrição do protocolo SIP para obter mais informações.
+- [RFC 3892](https://www.ietf.org/rfc/rfc3892.txt) O mecanismo de Referred-By de Iniciação Referred-By Sessão
+- [RFC 3891](https://www.ietf.org/rfc/rfc3891.txt) O protocolo SIP (Session Initiation Protocol) "Substitui" Header 
+- [RFC 6337](https://tools.ietf.org/html/rfc6337) Uso do Protocolo SIP do Modelo de Oferta/Resposta.
+  Confira a seção "Desvios de RFC".
+- [RFC 3711](https://tools.ietf.org/html/rfc3711) e [RFC 4771.](https://tools.ietf.org/html/rfc4771) Proteja o tráfego RTP usando SRTP. O SBC deve ser capaz de estabelecer chaves usando o SDES. 
+- [RFC 8035](https://www.ietf.org/rfc/rfc8035.txt) Esclarecimentos de protocolo SDP (Session Description Protocol) para Multiplexing RTP/RTCP
 
-### <a name="standards-applicable-to-devices-that-support-media-bypass-mode"></a>Padrões aplicáveis a dispositivos que dão suporte ao modo de bypass de mídia
+### <a name="standards-applicable-to-devices-that-support-media-bypass-mode"></a>Padrões aplicáveis a dispositivos que são compatíveis com o modo de bypass de mídia
 
-Além dos padrões listados como aplicáveis ao modo não bypass, os seguintes padrões são usados para o modo de bypass de mídia:
+Além dos padrões listados conforme aplicável ao modo não bypass, os seguintes padrões são usados para o modo de bypass de mídia:
 
-- O [estabelecimento da RFC 5245 Interactive Connectivity (ICE) para bypass de mídia](https://tools.ietf.org/html/rfc5245).  O SBC deve oferecer suporte para o seguinte:
-  - ICE Lite – os clientes do teams são clientes ICE completos
-  - [Reinícios do Ice](https://tools.ietf.org/html/rfc5245#section-9.1.1.1). Veja mais em reinícios do ICE e exemplos de uso na reinicialização do ICE: chamadas para ignorar mídia transferidas para um ponto de extremidade que não é compatível com o bypass de mídia   
-- [Controle de chamada SIP rfc 5589 Session Initiation Protocol (SIP) – transferir](https://tools.ietf.org/html/rfc5589). 
-- [A mídia de início rápido da RFC 3960 e a geração de Tom de toque no protocolo de iniciação de sessão (SIP)](https://tools.ietf.org/html/rfc3960), consulte seções 3,1, bifurcação e 3,2, geração de Tom de toque 
-- [Utilitários de passagem de sessão RFC 5389 para NAT (STUN)](https://tools.ietf.org/html/rfc5389)
-- [Passagem RFC 5766 usando retransmissões em torno de NAT (ativar): extensões de retransmissão para utilitários de passagem de sessão para NAT (STUN)](https://tools.ietf.org/html/rfc5766)
+- [RFC 5245 Interactive Connectivity Bypass (ICE) para bypass de mídia.](https://tools.ietf.org/html/rfc5245)  O SBC deve dar suporte ao seguinte:
+  - ICE Lite - os clientes do Teams são clientes ICE completos
+  - [ICE reinicia.](https://tools.ietf.org/html/rfc5245#section-9.1.1.1) Veja mais sobre as reinicializações ice e exemplos de caso de uso no Ice Restart: Ignorar chamada de mídia transferida para um ponto de extremidade que não dá suporte a bypass de mídia   
+- [Controle de chamada SIP (RFC RFC RFC 5589 Session Initiation Protocol) – Transferência.](https://tools.ietf.org/html/rfc5589) 
+- [RFC 3960 Early Media](https://tools.ietf.org/html/rfc3960)e Geração de Tom de Toque no PROTOCOLO ,confira as seções 3.1, Forking e 3.2, Geração de Tom de Toque 
+- [RFC 5389 Session Traversal Utilities for NAT (STUN)](https://tools.ietf.org/html/rfc5389)
+- [RFC 5766 Traversal Using Relays around NAT (TURN): Relay Extensions to Session Traversal Utilities for NAT (STUN)](https://tools.ietf.org/html/rfc5766)
 
-### <a name="standards-applicable-to-support-conveying-location-information-to-e911-providers"></a>Padrões aplicáveis ao suporte transmitir informações de localização a provedores de E911
+### <a name="standards-applicable-to-support-conveying-location-information-to-e911-providers"></a>Padrões aplicáveis ao suporte à transmissão de informações de localização para provedores E911
 
-- [RFC 6442, a transmissão de localização para o protocolo de início de sessão](https://tools.ietf.org/html/rfc6442)
+- [RFC 6442, Transmissão de Local para o Protocolo de Início de Sessão](https://tools.ietf.org/html/rfc6442)
 
-### <a name="deviations-from-the-rfcs"></a>Desvios da RFC
+### <a name="deviations-from-the-rfcs"></a>Desvios do RFC
 
-A tabela a seguir lista as seções da (s) RFC (s) nas quais a implementação da Microsoft do SIP ou da pilha de mídia se desvia do padrão:
+A tabela a seguir lista as seções das RFC(s) nas quais a implementação da Microsoft do SIP ou da pilha de mídias se desvia do padrão:
 
 | RFC e seções | Descrição | Desvio |
 | :---------------------  |:---------------------- |:-----------------------|
-| [RFC 6337, seção 5,3 espera e retomada da mídia](https://tools.ietf.org/html/rfc6337#section-5.3) | A RFC permite usar "a = inativo", "a = sendonly", a = recvonly "para colocar uma chamada em espera. |O proxy SIP só dá suporte a "a = inativo" e não entende se o SBC envia "a = sendonly" ou "a = recvonly".
-| [RFC 6337, seção 5,4 "comportamento no recebimento de SDP com c = 0.0.0.0](https://tools.ietf.org/html/rfc6337#section-5.4) | [RFC3264](https://tools.ietf.org/html/rfc3264) requer que um agente seja capaz de receber o SDP com um endereço de conexão de 0.0.0.0, nesse caso significa que nem RTP nem RTCP devem ser enviados para o par. | O proxy SIP não dá suporte a essa opção. |
+| [RFC 6337, seção 5.3 Espera e Currículo de Mídia](https://tools.ietf.org/html/rfc6337#section-5.3) | O RFC permite usar "a=inativo", "a=sendonly", a=rec recly" para colocar uma chamada em espera. |O proxy SIP só dá suporte a "a=inativo" e não entende se o SBC envia "a=sendonly" ou "a=rec rec
+| [RFC 6337, seção 5.4 "Comportamento ao receber SDP com c=0.0.0.0.0](https://tools.ietf.org/html/rfc6337#section-5.4) | [RFC3264](https://tools.ietf.org/html/rfc3264) requer que um agente seja capaz de receber SDP com um endereço de conexão de 0.0.0.0, nesse caso isso significa que nem RTP nem RTCP devem ser enviados para o ponto. | O proxy SIP não dá suporte a essa opção. |
 
 ## <a name="operational-modes"></a>Modos operacionais
 
-Há dois modos operacionais para roteamento direto:
+Há dois modos operacionais para Roteamento Direto:
 
-- **Sem bypass de mídia** , em que todo o tráfego RTP flui entre o cliente do Teams, os processadores de mídia e o SBC.  
+- **Sem bypass de mídia** em que todo o tráfego RTP flui entre o cliente do Teams, os processadores de mídia e o SBC.  
 
-- **Com bypass de mídia** , em que todos os fluxos de mídia RTP entre os pontos de extremidade do Teams e o SBC. 
+- **Com o bypass de** mídia no qual todas as mídias RTP fluem entre os pontos de extremidade do Teams e o SBC. 
 
-Observe que o tráfego SIP sempre flui pelo proxy SIP.   
+Observe que o tráfego SIP sempre flui por meio do proxy SIP.   

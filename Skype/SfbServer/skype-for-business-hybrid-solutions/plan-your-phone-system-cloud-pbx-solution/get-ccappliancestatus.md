@@ -12,7 +12,7 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: ddd80580-59b2-46ba-a8d7-f31b20384ad1
-description: O cmdlet Get-CcApplianceStatus fornece informações de diagnóstico para o aplicativo Skype for Business Cloud Connector Edition.
+description: O Get-CcApplianceStatus cmdlet fornece informações de diagnóstico para o dispositivo do Skype for Business Cloud Connector Edition.
 ms.openlocfilehash: 65fc14301d85fd4826479eabcdf238b85dff54ab
 ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
@@ -22,9 +22,9 @@ ms.locfileid: "41800581"
 ---
 # <a name="get-ccappliancestatus"></a>Get-CcApplianceStatus
  
-O cmdlet Get-CcApplianceStatus fornece informações de diagnóstico para o aplicativo Skype for Business Cloud Connector Edition.
+O Get-CcApplianceStatus cmdlet fornece informações de diagnóstico para o dispositivo do Skype for Business Cloud Connector Edition.
   
-Este cmdlet se aplica ao Skype for Business Cloud Connector Edition 2,1.
+Este cmdlet se aplica ao Skype for Business Cloud Connector Edition 2.1.
   
 ```
     Get-CcApplianceStatus 
@@ -32,7 +32,7 @@ Este cmdlet se aplica ao Skype for Business Cloud Connector Edition 2,1.
 
 ## <a name="detailed-description"></a>Descrição detalhada
 
-O cmdlet Get-CcApplianceStatus, quando executado na máquina host do conector da nuvem, fornece informações de diagnóstico para o aplicativo do Skype for Business Cloud Connector.
+O Get-CcApplianceStatus cmdlet, quando executado na máquina host do Cloud Connector, fornece informações de diagnóstico para o dispositivo do Skype for Business Cloud Connector.
   
 ## <a name="parameters"></a>Parâmetros
 
@@ -40,10 +40,10 @@ Nenhum
   
 ## <a name="input-types"></a>Tipos de entrada
 
-Nenhuma. O cmdlet Get-CcApplianceStatus não aceita entrada em pipeline.
+Nenhum. O Get-CcApplianceStatus cmdlet não aceita entrada em pipeline.
   
-## <a name="return-types"></a>Tipos de retorno
+## <a name="return-types"></a>Tipos de Retorno
 
-O comando retorna o status do aparelho.
+O comando retorna o status do dispositivo.
   
 

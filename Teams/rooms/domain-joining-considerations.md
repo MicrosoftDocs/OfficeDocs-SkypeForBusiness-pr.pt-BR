@@ -13,7 +13,7 @@ localization_priority: Normal
 ms.assetid: 3034fdcb-7c89-42c4-9c5e-13400e82d88f
 ms.collection:
 - M365-collaboration
-description: O administrador pode saber mais sobre como ingressar em um PC de utensílios do sistema de sala da Skype em um domínio do Active Directory, juntamente com as considerações para fazer isso.
+description: O administrador pode saber mais sobre como ingressar em um pc de dispositivo do Skype Room System em um domínio do Active Directory, juntamente com as considerações para fazê-lo.
 ms.custom: seo-marvel-apr2020
 ms.openlocfilehash: dfcee1421c25903a5ec8deb2f66871ed1d57ef1c
 ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
@@ -30,12 +30,12 @@ Leia este tópico para saber como ingressar o PC do cliente do Sistema de Salas 
   
 ## <a name="domain-joining-considerations"></a>Considerações de ingresso no Domínio
 
-Você pode participar do PC de utensílios do sistema da sala Skype ao domínio do Active Directory ou deixá-lo em um grupo de trabalho. Considere os seguintes pontos antes da tomada desta decisão:
+Você pode ingressar no computador do dispositivo Skype Room System para o domínio do Active Directory ou deixá-lo em um Grupo de Trabalho. Considere os seguintes pontos antes da tomada desta decisão:
   
-- Domínio-participar do PC Appliance do sistema de sala do Skype ajuda a importar a cadeia de certificados raiz particulares da sua organização automaticamente.
-- Domínio-participar do PC Appliance da sala do Skype permite que você conceda direitos administrativos a usuários e grupos de domínio. Ao fazer isso, você não precisará ter que se lembrar da senha da conta do administrador no nível da máquina local.
-- Quando você ingressa em um computador com um aparelho de sistema de sala do Skype para o domínio, é necessário criar uma unidade organizacional (OU) separada para que você possa fornecer exclusões do objeto de política de grupo (GPO) à OU em que todos os objetos do computador do sistema de sala do Skype residem. Ao fazer isso, crie objetos de máquina na UO antes de ingressar no computador do aparelho de sistema de sala do Skype para o domínio.
-- Muitas organizações têm os seguintes GPOs, que afetam as funções do PC Appliance do Skype Room System. Certifique-se de substituir ou bloquear a herança dos GPOs na unidade organizacional do sistema de sala do Skype:
+- A junção de domínios no computador do dispositivo Skype Room System ajuda a importar automaticamente a cadeia de certificado raiz privada da sua organização.
+- A junção de domínios no computador do dispositivo Skype Room System permite que você conceda direitos administrativos a usuários de domínios e grupos. Ao fazer isso, você não precisará ter que se lembrar da senha da conta do administrador no nível da máquina local.
+- Ao ingressar em um computador móvel do Sistema de Salas do Skype com o domínio, é necessário criar uma Unidade Organizacional (OU) separada, para que você possa fornecer exclusões de OBJETO de Política de Grupo (GPO) para a UO onde residem todos os objetos de máquina do Sistema de Salas do Skype. Quando você fizer isso, crie objetos de máquina na UO antes de ingressar no computador de dispositivo do Sistema de Sala do Skype ao domínio.
+- Muitas organizações têm os seguintes GPOs, que afetam as funções do computador do dispositivo Skype Room System. Verifique se você substitui ou bloqueia a herança desses GPOs no Skype Room System OU:
 
   - Tempo limite de sessões de logon (bloqueio automático)
   - Políticas relacionadas ao gerenciamento de energia
@@ -44,11 +44,11 @@ Você pode participar do PC de utensílios do sistema da sala Skype ao domínio 
   - Avisando usuários para conexões de rede lentas
   - Iniciar um determinado programa no logon
   - Crie uma outra conta de usuário de domínio em todas as máquinas que ingressaram no domínio.
-  - Envie o Windows Update para o sistema de sala da Skype
+  - Push Windows Update to Skype Room System
     
-- Opcionalmente, você pode optar por deixar o PC de cliente no grupo de trabalho. Da mesma forma que com o cliente Microsoft Teams ou Skype for Business da área de trabalho, isso exige que você importe manualmente a cadeia de certificados raiz no PC do aplicativo do sistema de sala do Skype. Você não será obrigado a importar a cadeia de certificados raiz se sua implantação estiver usando um certificado público (por exemplo, Entrust, VeriSign e assim por diante). 
+- Opcionalmente, você pode optar por deixar o PC de cliente no grupo de trabalho. Assim como no cliente da área de trabalho do Microsoft Teams ou do Skype for Business, isso exige que você importe manualmente a cadeia de certificado raiz no computador do dispositivo Skype Room System. Você não será obrigado a importar a cadeia de certificados raiz se sua implantação estiver usando um certificado público (por exemplo, Confie, VeriSign e assim por diante). 
     
-Se você planeja ingressar em máquinas do sistema de sala do Skype no domínio, para evitar a União inadvertida da máquina do sistema de sala do Skype a uma UO não intencional, o que pode não ser gratuito dos GPOs, certifique-se de participar da UO correta. Você pode usar o cmdlet a seguir da máquina do sistema de sala do Skype para ingressar na UO correta e não receber GPOs que possam bloquear a funcionalidade LRS. Entre em contato com o administrador do sistema ou com o parceiro OEM para executar esses cmdlet:
+Se você planeja ingressar em máquinas do Sistema de Sala do Skype para o domínio, para evitar ingressar inadvertidamente em uma OU não intencional, que pode não ser gratuita de GPOs, certifique-se de ingressar na O ou correta. Você pode usar o seguinte cmdlet do computador Skype Room System para ingressar na OU correta e não recebe GPOs que podem bloquear a funcionalidade LRS. Entre em contato com o administrador do sistema ou com o parceiro OEM para executar esses cmdlet:
   
 ```
 $username = "contso.local\LRS01"
@@ -57,9 +57,9 @@ $myCred = New-Object System.Management.Automation.PSCredential $username, $passw
 Add-Computer -DomainName contoso.local -Credential $mycred -OUPath "OU=LyncRoomSystem,OU=Resources,DC=CONTOSO,DC=LOCAL"
 ```
 
-Mesmo que você crie uma Unidade Organizacional e bloqueie herança, há algumas políticas que podem causar problemas a um nível superior. A configuração Política de Grupo sem Substituição supera uma UO com uma configuração Bloquear Herança de Política. Para obter mais informações, consulte o artigo [não substituir quando comparado à herança da política de bloqueio](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-2000-server/cc978255(v=technet.10)) na documentação da política de grupo.
+Mesmo que você crie uma Unidade Organizacional e bloqueie herança, há algumas políticas que podem causar problemas a um nível superior. A configuração Política de Grupo sem Substituição supera uma UO com uma configuração Bloquear Herança de Política. Para obter mais informações, consulte o artigo Sem Substituição em Comparação com a Herança [de Política de](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-2000-server/cc978255(v=technet.10)) Bloqueio na documentação da Política de Grupo.
   
-Você pode ter várias abordagens para resolver esses problemas. Recomendamos que você consulte os especialistas em Active Directory para garantir que sejam fornecidas a você as configurações de GPO apropriadas ou pelo menos uma Unidade Organizacional na qual as políticas descritas anteriormente não existem. É recomendável habilitar a QoS (qualidade de serviço) para dispositivos do sistema de sala do Skype.
+Você pode ter várias abordagens para resolver esses problemas. Recomendamos que você consulte os especialistas em Active Directory para garantir que sejam fornecidas a você as configurações de GPO apropriadas ou pelo menos uma Unidade Organizacional na qual as políticas descritas anteriormente não existem. É aconselhável habilitar a QoS (Qualidade de Serviço) para dispositivos do Skype Room System.
 
 ## <a name="related-topics"></a>Tópicos relacionados
   

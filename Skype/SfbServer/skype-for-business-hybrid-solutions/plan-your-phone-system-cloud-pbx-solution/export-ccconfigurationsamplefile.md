@@ -12,7 +12,7 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 0aaacc05-3430-4579-acbf-d7c7670c3864
-description: O cmdlet Export-CcConfigurationSampleFile exporta um arquivo (.ini) de configuração de amostra do Skype for Business Cloud Connector Edition para o diretório de um dispositivo do Cloud Connector. Você pode modificar e renomear o arquivo para usar na implantação.
+description: O cmdlet Export-CcConfigurationSampleFile exporta um arquivo de configuração de exemplo (.ini) do Skype for Business Cloud Connector Edition para o diretório de dispositivos de um dispositivo do Cloud Connector. Você pode modificar e renomear o arquivo a ser usado para sua implantação.
 ms.openlocfilehash: a29a3db8e77ee239263d015bd7a3efcf4f3f7c5c
 ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
@@ -22,9 +22,9 @@ ms.locfileid: "41801001"
 ---
 # <a name="export-ccconfigurationsamplefile"></a>Export-CcConfigurationSampleFile
  
-O cmdlet Export-CcConfigurationSampleFile exporta um arquivo (.ini) de configuração de amostra do Skype for Business Cloud Connector Edition para o diretório de um dispositivo do Cloud Connector. Você pode modificar e renomear o arquivo para usar na implantação.
+O cmdlet Export-CcConfigurationSampleFile exporta um arquivo de configuração de exemplo (.ini) do Skype for Business Cloud Connector Edition para o diretório de dispositivos de um dispositivo do Cloud Connector. Você pode modificar e renomear o arquivo a ser usado para sua implantação.
   
-Este cmdlet se aplica ao Skype for Business Cloud Connector Edition 1.4.1 e 1.4.2.
+Este cmdlet se aplica ao Skype for Business Cloud Connector Edition 1.4.1, 1.4.2.
   
 ```powershell
 Export-CcConfigurationSampleFile
@@ -39,7 +39,7 @@ Nenhum
 
 ### <a name="example-1"></a>Exemplo 1
 
-O exemplo a seguir baixa um arquivo de configuração de exemplo do site da Microsoft e grava-o no diretório de aplicativos do dispositivo do conector de nuvem:
+O exemplo a seguir baixa um arquivo de configuração de exemplo do site da Microsoft e o grava no diretório de dispositivos do dispositivo do Cloud Connector:
   
 ```powershell
 Export-CcConfigurationSampleFile
@@ -48,21 +48,21 @@ Export-CcConfigurationSampleFile
 ## <a name="detailed-description"></a>Descrição detalhada
 <a name="DetailedDescription"> </a>
 
-A versão atual do conector de nuvem exige que você forneça vários parâmetros no arquivo. ini; por exemplo, parâmetros como os endereços IP de máquinas virtuais para componentes do conector de nuvem, nomes de componentes, parâmetros de gateway e assim por diante.
+A versão atual do Cloud Connector exige que você forneça vários parâmetros no arquivo .ini; por exemplo, parâmetros como os endereços IP de máquinas virtuais para os componentes do Cloud Connector, nomes de componentes, parâmetros de gateway e assim por diante.
   
-Esse cmdlet, quando executado na máquina host do conector de nuvem, baixa um arquivo. ini de exemplo com exemplos de configuração do site da Microsoft. O cmdlet grava o arquivo no diretório de aplicativos do aparelho do conector de nuvem. Esse diretório é especificado usando o cmdlet Set-CcApplianceDirectory.
+Este cmdlet, quando executado no computador host do Cloud Connector, baixa um arquivo .ini de exemplo com exemplos de configuração do site da Microsoft. O cmdlet grava o arquivo no diretório de dispositivos do dispositivo do Cloud Connector. O diretório do dispositivo é especificado usando o Set-CcApplianceDirectory cmdlet.
   
-## <a name="input-types"></a>Tipos de entrada
+## <a name="input-types"></a>Tipos de Entrada
 <a name="InputTypes"> </a>
 
-Nenhum. O cmdlet Export-CcConfigurationSampleFile não aceita a entrada por pipeline. 
+Nenhum. O Export-CcConfigurationSampleFile cmdlet não aceita entrada em pipeline. 
   
-## <a name="return-types"></a>Tipos de retorno
+## <a name="return-types"></a>Tipos de Retorno
 <a name="ReturnTypes"> </a>
 
-Nenhum 
+Nenhum
   
-## <a name="see-also"></a>Consulte Também
+## <a name="see-also"></a>Confira também
 <a name="ReturnTypes"> </a>
 
 [Set-CcApplianceDirectory](set-ccappliancedirectory.md)

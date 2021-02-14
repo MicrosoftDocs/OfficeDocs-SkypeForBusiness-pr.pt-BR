@@ -20,7 +20,7 @@ f1.keywords:
 ms.custom:
 - Setup
 - ms.lync.lac.ServicePlanNotValid
-description: 'Veja onde atribuir um plano de serviço válido para um usuário depois que um plano de serviço do Skype for Business online não for um erro válido. '
+description: 'Veja onde atribuir um plano de serviço válido para um usuário depois que um plano de serviço do Skype for Business Online não for válido. '
 ms.openlocfilehash: a3f7ac1a0816845b24d8580f63165b73ea9c99e9
 ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
@@ -30,9 +30,9 @@ ms.locfileid: "41769574"
 ---
 # <a name="the-users-skype-for-business-online-service-plan-isnt-valid"></a>O plano de serviço do Skype for Business Online do usuário não é válido
 
-Desculpe, o plano de serviço do Skype for Business online atribuído a este usuário não é reconhecido ou não é válido.
+O plano de serviço do Skype for Business Online atribuído a esse usuário não é reconhecido ou é inválido.
   
-Vá para o *centro de administração do Microsoft 365** > **usuários ativos** e atribuir um plano de serviço válido para esse usuário.
+Vá para o Centro de administração do *Microsoft 365** > usuários **ativos** e atribua um plano de serviço válido a esse usuário.
 
 ## <a name="related-topics"></a>Tópicos relacionados
 [Instalar o Skype for Business Online](set-up-skype-for-business-online.md)

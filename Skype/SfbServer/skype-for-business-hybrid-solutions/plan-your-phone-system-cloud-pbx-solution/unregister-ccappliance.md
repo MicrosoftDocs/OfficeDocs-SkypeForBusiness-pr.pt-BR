@@ -12,7 +12,7 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 3d516e65-fb9b-4a0b-8296-969fc9eda334
-description: O cmdlet Unregister-CcAppliance cancela o registro do dispositivo do Skype for Business Cloud Connector Edition atual a partir de um site PSTN na configuração online do locatário.
+description: O Unregister-CcAppliance o cmdlet não tem o registro do dispositivo atual do Skype for Business Cloud Connector Edition de um site PSTN na configuração de locatário online.
 ms.openlocfilehash: 84a25321b6affda6b8783c40baa18a91b5b95ef5
 ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
@@ -22,7 +22,7 @@ ms.locfileid: "41824125"
 ---
 # <a name="unregister-ccappliance"></a>Unregister-CcAppliance
  
-O cmdlet Unregister-CcAppliance cancela o registro do dispositivo do Skype for Business Cloud Connector Edition atual a partir de um site PSTN na configuração online do locatário.
+O Unregister-CcAppliance o cmdlet não tem o registro do dispositivo atual do Skype for Business Cloud Connector Edition de um site PSTN na configuração de locatário online.
   
 ```powershell
 Unregister-CcAppliance [[-SiteName] <string>] [[-ApplianceName] <string>] [-Local]
@@ -33,7 +33,7 @@ Unregister-CcAppliance [[-SiteName] <string>] [[-ApplianceName] <string>] [-Loca
 
 ### <a name="example-1"></a>Exemplo 1
 
-O seguinte exemplo cancela o registro do dispositivo atual da configuração de locatário online:
+O exemplo a seguir não registrou um dispositivo atual da configuração de locatário online:
   
 ```powershell
 Unregister-CcAppliance
@@ -41,7 +41,7 @@ Unregister-CcAppliance
 
 ### <a name="example-2"></a>Exemplo 2
 
-O exemplo seguinte verifica a configuração para cancelar o registro local sem conexão com uma configuração de locatário online:
+O próximo exemplo verifica a configuração para o registro local sem se conectar à configuração de locatário online:
   
 ```powershell
 Unregister-CcAppliance -Local
@@ -49,7 +49,7 @@ Unregister-CcAppliance -Local
 
 ### <a name="example-3"></a>Exemplo 3
 
-O exemplo a seguir cancela o registro o dispositivo atual com o nome "Appliance1" para o site PSTN "Site1":
+O próximo exemplo desastana o registro do dispositivo atual com o nome "Appliance1" para o site PSTN "Site1":
   
 ```powershell
 Unregister-CcAppliance -SiteName Site1 -ApplianceName Appliance1
@@ -58,30 +58,30 @@ Unregister-CcAppliance -SiteName Site1 -ApplianceName Appliance1
 ## <a name="detailed-description"></a>Descrição detalhada
 <a name="DetailedDescription"> </a>
 
-Similar ao cmdlet Register-CcAppliance, o SiteName combinado com o FQDN externo do Servidor de Borda no arquivo CloudConnector.ini é considerado uma identidade do site PSTN. Da mesma forma, o ApplianceName combinado com o FQDN do Servidor de Mediação no arquivo do CloudConnector.ini é considerado uma identidade do dispositivo.
+Semelhante ao cmdlet Register-CcAppliance, o SiteName combinado com o FQDN externo do Servidor de Borda no arquivo CloudConnector.ini é considerado uma identidade de site PSTN. Da mesma forma, ApplianceName combinado com o FQDN do Servidor de Mediação no arquivo CloudConnector.ini é considerado uma identidade de dispositivo.
   
-Depois que o dispositivo estiver cancelado, reinicie o serviço de gerenciamento do Cloud Connector e faça logon como a conta NetworkService.
+Após o registro do dispositivo, reinicie o serviço de gerenciamento do Cloud Connector e faça logon como a conta NetworkService.
   
 ## <a name="parameters"></a>Parâmetros
 <a name="DetailedDescription"> </a>
 
-|**Parâmetro**|**Obrigatório**|**Tipo**|**Descrição**|
+|**Parâmetro**|**Required**|**Tipo**|**Descrição**|
 |:-----|:-----|:-----|:-----|
-| SiteName <br/> |Opcional   <br/> |System.String  <br/> |O nome do site PSTN onde o dispositivo foi registrado. O valor padrão é o SiteName no arquivo CloudConnector.ini.  <br/> |
-|ApplianceName  <br/> |Opcional   <br/> |System.String  <br/> |Nome do dispositivo padrão. O valor padrão é o nome do computador do servidor host.  <br/> |
-|Local  <br/> |Opcional  <br/> |System.Management.Automation.SwitchParameter  <br/> |Verifique a configuração do registro localmente sem conectar-se a uma configuração de locatário online.  <br/> |
+| SiteName <br/> |Opcional  <br/> |System.String  <br/> |Nome do site PSTN em que o dispositivo está registrado. O valor padrão é SiteName no CloudConnector.ini arquivo.  <br/> |
+|ApplianceName  <br/> |Opcional  <br/> |System.String  <br/> |Nome do dispositivo atual. O valor padrão é o nome do computador do servidor host.  <br/> |
+|Local  <br/> |Opcional  <br/> |System.Management.Automation.SwitchParameter  <br/> |Verifique a configuração do registro localmente sem se conectar a uma configuração de locatário online.  <br/> |
    
-## <a name="input-types"></a>Tipos de entrada
+## <a name="input-types"></a>Tipos de Entrada
 <a name="InputTypes"> </a>
 
-Nenhum. O cmdlet Unregister-CcAppliance não aceita a entrada por pipeline.
+Nenhum. O Unregister-CcAppliance cmdlet não aceita entrada em pipeline.
   
-## <a name="return-types"></a>Tipos de retorno
+## <a name="return-types"></a>Tipos de Retorno
 <a name="ReturnTypes"> </a>
 
 Nenhum
   
-## <a name="see-also"></a>Consulte Também
+## <a name="see-also"></a>Confira também
 <a name="ReturnTypes"> </a>
 
 [Register-CcAppliance](register-ccappliance.md)

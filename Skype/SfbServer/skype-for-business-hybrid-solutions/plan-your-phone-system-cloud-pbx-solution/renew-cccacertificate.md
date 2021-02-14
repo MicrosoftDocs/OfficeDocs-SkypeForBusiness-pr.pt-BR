@@ -12,7 +12,7 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 44da2f8d-0bf5-4f3e-b2e7-bb181dbbe646
-description: O cmdlet Renew-CcCACertificate renova o certficado de Autoridade de Certificação raiz do Skype for Business Cloud Connector Edition que está prestes a expirar ou já expirou. Esse comando foi alterado para Update-CcCACertificate no Cloud Connector 2,0 e versões posteriores.
+description: O Renew-CcCACertificate cmdlet renova o certificado de AC raiz do Skype for Business Cloud Connector Edition que está próximo de expirar ou já expirou. Esse comando foi alterado para Update-CcCACertificate no Cloud Connector 2.0 e versões posteriores.
 ms.openlocfilehash: e92709cd1da0ffccd2b356000dbd2345ba56a1d9
 ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
@@ -22,7 +22,7 @@ ms.locfileid: "41824267"
 ---
 # <a name="renew-cccacertificate"></a>Renew-CcCACertificate
  
-O cmdlet Renew-CcCACertificate renova o certficado de Autoridade de Certificação raiz do Skype for Business Cloud Connector Edition que está prestes a expirar ou já expirou. Esse comando foi alterado para Update-CcCACertificate no Cloud Connector 2,0 e versões posteriores.
+O Renew-CcCACertificate cmdlet renova o certificado de AC raiz do Skype for Business Cloud Connector Edition que está próximo de expirar ou já expirou. Esse comando foi alterado para Update-CcCACertificate no Cloud Connector 2.0 e versões posteriores.
   
 ```powershell
 Renew-CcCACertificate
@@ -37,7 +37,7 @@ Nenhum
 
 ### <a name="example-1"></a>Exemplo 1
 
-O exemplo seguinte renova o certificado de Autoridade de Certificação raiz:  
+O exemplo a seguir renova o certificado ca raiz: 
   
 ```powershell
 Renew-CcCACertificate 
@@ -46,25 +46,25 @@ Renew-CcCACertificate
 ## <a name="detailed-description"></a>Descrição detalhada
 <a name="DetailedDescription"> </a>
 
-O certificado de Autoridade de Certificação raiz do Cloud Connector é válido por cinco anos a partir da data em que o serviço de Autoridade de Certificação foi instalado.
+O certificado de autoridade de certificação raiz do Cloud Connector é válido por cinco anos a partir da data em que o serviço de Autoridade de Certificação está instalado.
   
-Se o certificado raiz estiver prestes a expirar ou já expirou, execute o cmdlet Renew-CcCACertificate para renovar o certificado. Depois que o certificado raiz tiver sido renovado, serão emitidos novos certificados automaticamente para o servidor AD, o Repositório de Gerenciamento Central e o Servidor de Borda.
+Se o certificado raiz estiver próximo de expirar ou já tiver expirado, execute o Renew-CcCACertificate cmdlet para renovar o certificado. Depois que o certificado raiz for renovado, o Servidor do AD, o Armazenamento de Gerenciamento Central e o Servidor de Borda receberão novos certificados automaticamente.
   
-Se existirem vários dispositivos no mesmo site PSTN, execute o cmdlet Renew-CcCACertificate em todos os dispositivos do mesmo site PSTN.
+Se houver vários dispositivos no mesmo site PSTN, execute o cmdlet Renew-CcCACertificate em todos os dispositivos do mesmo site PSTN.
   
-Na última etapa, execute o cmdlet Export-CcRootCertificate para exportar o certificado raiz para um arquivo local no primeiro dispositivo e depois copie e instale o certificado exportado para seus gateways PSTN.
+Como última etapa, execute Export-CcRootCertificate para exportar o certificado raiz para um arquivo local no primeiro dispositivo e, em seguida, copie e instale o certificado exportado para seus gateways PSTN.
   
-## <a name="input-types"></a>Tipos de entrada
+## <a name="input-types"></a>Tipos de Entrada
 <a name="InputTypes"> </a>
 
-Nenhum. O cmdlet Renew-CcCACertificate não aceita a entrada por pipeline.
+Nenhum. O Renew-CcCACertificate cmdlet não aceita entrada em pipeline.
   
-## <a name="return-types"></a>Tipos de retorno
+## <a name="return-types"></a>Tipos de Retorno
 <a name="ReturnTypes"> </a>
 
-Nenhum 
+Nenhum
   
-## <a name="see-also"></a>Consulte Também
+## <a name="see-also"></a>Confira também
 <a name="ReturnTypes"> </a>
 
 [Reset-CcCACertificate](reset-cccacertificate.md)

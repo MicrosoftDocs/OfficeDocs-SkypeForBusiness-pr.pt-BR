@@ -12,7 +12,7 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 01eed3c5-af68-4db7-90b3-d28ebe7ffef1
-description: O cmdlet Register-CcAppliance registra as informações do dispositivo para um site PSTN em uma configuração de locatário online. Um dispositivo deve ser registrado antes de ele poder ser implantado e gerenciado pelo serviço de gerenciamento do Skype for Business Cloud Connector Edition.
+description: O Register-CcAppliance cmdlet registra as informações do dispositivo em um site PSTN em uma configuração de locatário online. Um dispositivo deve ser registrado antes que possa ser implantado e gerenciado pelo serviço de gerenciamento do Skype for Business Cloud Connector Edition.
 ms.openlocfilehash: a94f9d7189f4872fcee2439afd2b210933f8bb06
 ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
@@ -22,7 +22,7 @@ ms.locfileid: "41824297"
 ---
 # <a name="register-ccappliance"></a>Register-CcAppliance
  
-O cmdlet Register-CcAppliance registra as informações do dispositivo para um site PSTN em uma configuração de locatário online. Um dispositivo deve ser registrado antes de ele poder ser implantado e gerenciado pelo serviço de gerenciamento do Skype for Business Cloud Connector Edition.
+O Register-CcAppliance cmdlet registra as informações do dispositivo em um site PSTN em uma configuração de locatário online. Um dispositivo deve ser registrado antes que possa ser implantado e gerenciado pelo serviço de gerenciamento do Skype for Business Cloud Connector Edition.
   
 ```powershell
 Register-CcAppliance [[-SiteName] <string>] [[-ApplianceName] <string>] [-Local]
@@ -33,7 +33,7 @@ Register-CcAppliance [[-SiteName] <string>] [[-ApplianceName] <string>] [-Local]
 
 ### <a name="example-1"></a>Exemplo 1
 
-O seguinte exemplo registra as informações atuais do dispositivo para uma configuração de locatário online:
+O exemplo a seguir registra as informações atuais do dispositivo para uma configuração de locatário online:
   
 ```powershell
 Register-CcAppliance
@@ -41,7 +41,7 @@ Register-CcAppliance
 
 ### <a name="example-2"></a>Exemplo 2
 
-O exemplo a seguir verifica a configuração para registro local sem conexão com uma configuração de locatário online:
+O próximo exemplo verifica a configuração do registro localmente sem se conectar a uma configuração de locatário online:
   
 ```powershell
 Register-CcAppliance -Local
@@ -49,7 +49,7 @@ Register-CcAppliance -Local
 
 ### <a name="example-3"></a>Exemplo 3
 
-O exemplo a seguir registra o dispositivo atual com o nome e "Appliance1" para o site PSTN "Site1":
+O próximo exemplo registra o dispositivo atual com o nome "Appliance1" no site PSTN "Site1":
   
 ```powershell
 Register-CcAppliance -SiteName Site1 -ApplianceName Appliance1
@@ -58,52 +58,52 @@ Register-CcAppliance -SiteName Site1 -ApplianceName Appliance1
 ## <a name="detailed-description"></a>Descrição detalhada
 <a name="DetailedDescription"> </a>
 
-Você precisa fornecer o nome e a senha da conta do administrador do locatário. Use a conta que você criou para o gerenciamento online do Cloud Connector. 
+Você deve fornecer o nome e a senha da conta de administrador do locatário. Use a conta que você criou para o gerenciamento online do Cloud Connector. 
   
-Na versão 1.4.2 e versões anteriores, siga as instruções para fornecer a senha do certificado externo, a senha de administrador do modo de segurança, a senha de administrador do domínio e a senha do administrador da VM. 
+Na versão 1.4.2 e anteriores, siga as instruções para fornecer a senha do certificado externo, a senha do administrador do modo de segurança, a senha do administrador do domínio e a senha do administrador da VM. 
   
 Na versão 2.0 e posteriores, siga as instruções para fornecer a senha do certificado externo, a senha do CceService e a senha do CABackupFile.
   
-No final do registro, reinicie o serviço de gerenciamento do conector de nuvem e faça logon na conta serviços como CceService.
+No final do registro, reinicie o serviço de gerenciamento do Cloud Connector e faça logon nos serviços como conta do CceService.
   
-O SiteName combinado com o FQDN externo do Servidor de Borda no arquivo do CloudConnector.ini é considerado uma identidade do site PSTN. Se o SiteName ou o FQDN externo do Servidor de Borda não tiver sido usado para registrar um site, um novo site será criado para este dispositivo em uma configuração de locatário online. Se uma identidade do site PSTN for localizada, um site PSTN usará esta identidade e o dispositivo será registrado para este site PSTN.  
+SiteName combinado com o FQDN externo do Servidor de Borda no arquivo CloudConnector.ini é considerado uma identidade de site PSTN. Se o SiteName ou o FQDN externo do Servidor de Borda não tiver sido usado para registrar um site, um novo site será criado para esse dispositivo em uma configuração de locatário online. Se uma identidade de site PSTN for encontrada, um site PSTN usará essa identidade e o dispositivo será registrado nesse site PSTN. 
   
-Na seguinte situação, o cmdlet falhará e indicará que o Site1 já foi registrado:  
+Na seguinte situação, o cmdlet falhará e indicará que o Site1 já está registrado: 
   
-- O SiteName é o Site1 e o FQDN externo do Servidor da Borda é edgserver1.contoso.com.  
+- SiteName é o Site1 e o FQDN externo do Servidor de Borda edgserver1.contoso.com. 
     
-- Um site PSTN cujo SiteName é o Site1 e o FQDN externo do Servidor da Borda é o edgserver1.contoso.com.
+- Um site PSTN cujo SiteName é Site1 e o FQDN externo do Servidor de Borda é edgserver.contoso.com.
     
-- Um site PSTN cujo SiteName é o NewSite e o FQDN externo do Servidor da Borda é o edgserver1.contoso.com foi registrado.  
+- Um site PSTN cujo SiteName é NewSite e o FQDN externo do Servidor de Borda edgserver1.contoso.com foi registrado. 
     
-O ApplianceName combinado com o FQDN do Servidor de Mediação no arquivo do CloudConnector.ini é considerado uma identidade do dispositivo. Se o ApplianceName ou o FQDN do Servidor de Mediação não tiver sido usado para registrar um dispositivo, um novo dispositivo será criado na configuração de locatário online. Se o dispositivo já estiver registrado, o cmdlet falhará.
+ApplianceName combinado com o FQDN do Servidor de Mediação CloudConnector.ini arquivo é considerado uma Identidade do Dispositivo. Se o ApplianceName ou o FQDN do Servidor de Mediação não tiver sido usado para registrar um dispositivo, um novo dispositivo será criado na configuração de locatário online. Se o dispositivo já estiver registrado, o cmdlet falhará.
   
-Na seguinte situação, o cmdlet falhará e indicará que o dispositivo já foi registrado:  
+Na seguinte situação, o cmdlet falhará e indicará que o dispositivo já está registrado: 
   
-- O ApplianceName é o Appliance1 e o FQDN do servidor de mediação é ms1.vdomain.com.
+- ApplianceName é Appliance1 e o FQDN do servidor de Mediação ms1.vdomain.com.
     
-- No site PSTN atual, se um dispositivo cujo nome Appliance1 e o FQDN do Servidor de Mediação for ms.vdomain.com ou um dispositivo cujo nome NewAppliance e o FQDN do Servidor de Mediação for ms1.vdomain.com tiver sido registrado.
+- No site PSTN atual, se um dispositivo cujo nome Appliance1 e FQDN do Servidor de Mediação for ms.vdomain.com ou um dispositivo cujo nome For NewAppliance e FQDN do servidor de Mediação ms1.vdomain.com tiver sido registrado.
     
 ## <a name="parameters"></a>Parâmetros
 <a name="DetailedDescription"> </a>
 
-|**Parâmetro**|**Obrigatório**|**Tipo**|**Descrição**|
+|**Parâmetro**|**Required**|**Tipo**|**Descrição**|
 |:-----|:-----|:-----|:-----|
-|SiteName  <br/> |Opcional   <br/> |System.String  <br/> |O nome do site PSTN com o qual o dispositivo foi registrado. O valor padrão é o SiteName no arquivo CloudConnector.ini.  <br/> |
-|ApplianceName  <br/> |Opcional   <br/> |System.String  <br/> |Nome do dispositivo padrão. O valor padrão é o nome do computador do servidor host.  <br/> |
-|Local  <br/> |Opcional  <br/> |System.Management.Automation.SwitchParameter  <br/> |Verifique as configurações para registro local sem conexão com a configuração de locatário online.  <br/> |
+|SiteName  <br/> |Opcional  <br/> |System.String  <br/> |Nome do site PSTN no qual o dispositivo está registrado. O valor padrão é SiteName no arquivo CloudConnector.ini arquivo.  <br/> |
+|ApplianceName  <br/> |Opcional  <br/> |System.String  <br/> |Nome do dispositivo atual. O valor padrão é o nome do computador do servidor host.  <br/> |
+|Local  <br/> |Opcional  <br/> |System.Management.Automation.SwitchParameter  <br/> |Verifique as configurações de registro localmente sem se conectar à configuração de locatário online.  <br/> |
    
-## <a name="input-types"></a>Tipos de entrada
+## <a name="input-types"></a>Tipos de Entrada
 <a name="InputTypes"> </a>
 
-Nenhum. O cmdlet Register-CcAppliance não aceita a entrada por pipeline.
+Nenhum. O Register-CcAppliance cmdlet não aceita entrada em pipeline.
   
-## <a name="return-types"></a>Tipos de retorno
+## <a name="return-types"></a>Tipos de Retorno
 <a name="ReturnTypes"> </a>
 
 Nenhum
   
-## <a name="see-also"></a>Consulte Também
+## <a name="see-also"></a>Confira também
 <a name="ReturnTypes"> </a>
 
 [Unregister-CcAppliance](unregister-ccappliance.md)

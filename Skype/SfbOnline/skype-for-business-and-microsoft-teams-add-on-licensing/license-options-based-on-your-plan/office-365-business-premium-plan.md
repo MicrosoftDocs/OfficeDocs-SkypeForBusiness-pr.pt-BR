@@ -20,7 +20,7 @@ f1.keywords:
 ms.custom:
 - Licensing
 - LIL_Placement
-description: 'Saiba mais sobre licenças de complemento, recursos e como comprar para os planos do Microsoft 365 Business Standard. '
+description: 'Saiba mais sobre licenças de complemento, recursos e como comprar planos do Microsoft 365 Business Standard. '
 ms.openlocfilehash: 18e0e16def82354339948f63f958025924e17d1e
 ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
@@ -30,7 +30,7 @@ ms.locfileid: "43777406"
 ---
 # <a name="microsoft-365-business-standard"></a>Microsoft 365 Business Standard
 
-Se você tiver [o Microsoft 365 Business Standard](https://products.office.com/en/business/office-365-business-premium), poderá usar o Skype for Business para fazer chamadas para outras pessoas em sua empresa que estejam na sua assinatura. Por exemplo, se a sua empresa tiver 10 pessoas, você poderá fazer chamadas e enviar mensagens de chat para outras pessoas usando o Skype for Business.
+Se você tiver [o Microsoft 365 Business Standard,](https://products.office.com/en/business/office-365-business-premium)poderá usar o Skype for Business para fazer chamadas para outras pessoas em sua empresa que estão em sua assinatura. Por exemplo, se sua empresa tiver 10 pessoas, você poderá ligar e fazer mensagens de mensagens de telefone usando o Skype for Business.
 
  **Para fazer e receber chamadas de pessoas de fora da empresa, você tem duas opções**:
 
@@ -53,7 +53,7 @@ Se você tiver [o Microsoft 365 Business Standard](https://products.office.com/e
 
 2. Compre o complemento **Sistema de Telefonia**.
     
-3. Comprar um [plano de chamadas do Office 365](/MicrosoftTeams/calling-plans-for-office-365): você só poderá comprá-lo depois de comprar o complemento do **sistema telefônico** .
+3. Compre um [Plano de Chamada para o Office 365:](/MicrosoftTeams/calling-plans-for-office-365)você só pode comprar isso depois de comprar o **complemento** Sistema de Telefonia.
     
     Esta segunda opção é ideal para empresas com várias pessoas que fazem e recebem chamadas telefônicas externas.
 
@@ -74,7 +74,7 @@ Se você tiver [o Microsoft 365 Business Standard](https://products.office.com/e
 
 1. Mude para o plano E1 ou E3.
 
-2. Vá para o centro de administração >**assinaturas**de **cobrança** > .
+2. Vá para o centro de administração >  >  **Assinaturas de Cobrança.**
 
 3. Choose **Add-ons**. You'll now see the prices for Phone System, and the option to buy it.
 

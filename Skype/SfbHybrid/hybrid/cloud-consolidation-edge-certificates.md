@@ -20,7 +20,7 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-description: Este apêndice inclui etapas detalhadas para a atualização do certificado de borda como parte da consolidação de nuvem para o Teams e o Skype for Business.
+description: Este apêndice inclui etapas detalhadas para atualizar o certificado de borda como parte da consolidação na nuvem para o Teams e o Skype for Business.
 ms.openlocfilehash: 3e6b151e340a0942b561edd2233795fad94c3a9e
 ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
@@ -30,15 +30,15 @@ ms.locfileid: "41888600"
 ---
 # <a name="update-the-edge-certificate"></a>Atualizar o certificado de borda
 
-A atualização do certificado de borda é a etapa principal para garantir que um ambiente local com o SipDomain1 possa ingressar em um ambiente de nuvem com o SipDomain2 e garantir o roteamento adequado em um ambiente de espaço de endereçamento compartilhado nos dois domínios SIP. Confira a etapa 14 em [consolidação de nuvem para o Microsoft Teams e o Skype for Business](cloud-consolidation.md) para o contexto no qual você pode executar esta etapa. Nos nossos exemplos, SipDomain1 é AcquiredCompany. <span>com e SipDomain2 é OriginalCompany. <span>com.
+Atualizar o certificado de borda é a etapa principal para garantir que um ambiente local com SipDomain1 possa ingressar em um ambiente de nuvem com SipDomain2 e garantir o roteamento adequado em um ambiente de espaço de endereço compartilhado entre os dois domínios SIP. Confira a etapa 14 na [consolidação na nuvem](cloud-consolidation.md) para o Teams e o Skype for Business para contexto no qual você pode executar esta etapa. Em nossos exemplos, SipDomain1 é AcquiredCompany. <span> com e SipDomain2 é OriginalCompany. <span> com.
 
-O nome alternativo de entidade (SAN) do certificado em todos os servidores de borda no ambiente local deve ser atualizado para incluir todos os domínios SIP existentes no locatário online puro (excluindo qualquer onmicrosoft.<span> Domínios com), no formato "SIP. \<> de domínio ".  No nosso exemplo, é SIP. OriginalCompany. <span>com. Esta etapa é crítica para fazer antes de migrar qualquer usuário para a nuvem.
+O san (nome alternativo da assunto) do certificado em todos os servidores de borda no ambiente local deve ser atualizado para incluir todos os domínios SIP existentes no locatário online puro (excluindo qualquer onmicrosoft. <span> domínios com), no formato "sip. \< domain>".  No nosso exemplo, isso é sip. OriginalCompany. <span> com. Esta etapa é fundamental antes de migrar qualquer usuário para a nuvem.
 
-**Necessárias**
+**Etapas:**
 
-1.  Obtenha um novo certificado de borda externo para a borda que tenha todas as entradas existentes, além de entradas adicionais na SAN para todos os domínios SIP no ambiente de nuvem (excluindo os domínios *. onmicrosoft.com) no formato "SIP. <DomainName>".
-2.  Instale o certificado localmente em cada servidor de borda e atribua-o ao serviço de borda do Skype em cada um dos serviços de borda.  Para obter etapas detalhadas, consulte a seção "certificados de interface de borda externa" em [implantar serviço de borda no Skype for Business Server 2015](https://technet.microsoft.com/library/dn951368.aspx).
-3.  Reinicie o serviço de borda em cada um dos servidores de borda. Você pode fazer isso para uma única caixa com os seguintes comandos do PowerShell:
+1.  Obtenha um novo certificado de Borda Externa para a borda que tenha todas as entradas existentes mais entradas adicionais no SAN para todos os domínios SIP no ambiente de nuvem (excluindo domínios *.onmicrosoft.com) no formato <DomainName> "sip".
+2.  Instale o certificado localmente em cada servidor de borda e atribua-o ao serviço de Borda do Skype em cada serviço de borda.  Para etapas detalhadas, consulte a seção "Certificados da interface de Borda Externa" em Implantar Serviço de Borda no [Skype for Business Server 2015.](https://technet.microsoft.com/library/dn951368.aspx)
+3.  Reinicie o serviço de Borda em cada um dos servidores de borda. Você pode fazer isso para uma única caixa com os seguintes comandos do PowerShell:
 
     ```PowerShell
     Stop-CsWindowsService
@@ -47,4 +47,4 @@ O nome alternativo de entidade (SAN) do certificado em todos os servidores de bo
 
 ## <a name="see-also"></a>Confira também
 
-[Consolidação de nuvem para Teams e Skype for Business](cloud-consolidation.md)
+[Consolidação na nuvem para o Teams e o Skype for Business](cloud-consolidation.md)

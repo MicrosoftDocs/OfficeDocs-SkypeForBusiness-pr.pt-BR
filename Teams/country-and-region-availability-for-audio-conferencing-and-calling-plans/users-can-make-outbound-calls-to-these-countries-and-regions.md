@@ -1,5 +1,5 @@
 ---
-title: Fazer chamadas de saída para estes países/regiões
+title: Fazer chamadas de saída para esses países/regiões
 ms.author: crowe
 author: CarolynRowe
 manager: serdars

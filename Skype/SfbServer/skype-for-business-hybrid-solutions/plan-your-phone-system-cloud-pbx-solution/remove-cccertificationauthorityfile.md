@@ -12,7 +12,7 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 3600af8d-04de-4b9a-88ac-2491ca06494d
-description: O cmdlet Remove-CcCertificationAuthorityFile remove o arquivo de backup do serviço da autoridade de certificação na pasta CA sob o diretório de compartilhamento do site para o Skype for Business Cloud Connector Edition.
+description: O Remove-CcCertificationAuthorityFile cmdlet remove o arquivo de backup do serviço de autoridade de certificação na pasta ac sob o diretório de compartilhamento de site do Skype for Business Cloud Connector Edition.
 ms.openlocfilehash: 49a8f0f313b4153288ebdf037a41dc92f30e60d6
 ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
@@ -22,7 +22,7 @@ ms.locfileid: "41824287"
 ---
 # <a name="remove-cccertificationauthorityfile"></a>Remove-CcCertificationAuthorityFile
  
-O cmdlet Remove-CcCertificationAuthorityFile remove o arquivo de backup do serviço de&lt;autoridade&gt;de certificação "SiteRootDirectory \CA\SfB CCE root. p12" na pasta CA sob o diretório de compartilhamento do site para o Skype for Business Cloud Connector Edition. 
+O cmdlet Remove-CcCertificationAuthorityFile remove o arquivo de backup do serviço de autoridade de certificação " &lt; SiteRootDirectory &gt; \CA\SfB CCE Root.p12" na pasta CA no diretório de compartilhamento de site do Skype for Business Cloud Connector Edition. 
   
 ```powershell
 Remove-CcCertificationAuthorityFile
@@ -37,23 +37,23 @@ Nenhum
 
 ### <a name="example-1"></a>Exemplo 1
 
-O exemplo a seguir remove o arquivo de backup do serviço&lt;de&gt;autoridade de certificação "SiteRootDirectory \CA\SfB CCE root. p12" na pasta CA sob o diretório de compartilhamento do site:
+O exemplo a seguir remove o arquivo de backup do serviço de autoridade de certificação " &lt; SiteRootDirectory &gt; \CA\SfB CCE Root.p12" na pasta CA sob o diretório de compartilhamento de site:
   
 ```powershell
 Remove-CcCertificationAuthorityFile
 ```
 
-## <a name="input-types"></a>Tipos de entrada
+## <a name="input-types"></a>Tipos de Entrada
 <a name="InputTypes"> </a>
 
-Nenhum. O cmdlet Remove-CcCertificationAuthorityFile não aceita a entrada por pipeline.
+Nenhum. O Remove-CcCertificationAuthorityFile cmdlet não aceita entrada em pipeline.
   
-## <a name="return-types"></a>Tipos de retorno
+## <a name="return-types"></a>Tipos de Retorno
 <a name="ReturnTypes"> </a>
 
-Nenhum 
+Nenhum
   
-## <a name="see-also"></a>Consulte Também
+## <a name="see-also"></a>Confira também
 <a name="ReturnTypes"> </a>
 
 [Backup-CcCertificationAuthority](backup-cccertificationauthority.md)

@@ -1,5 +1,5 @@
 ---
-title: Backup de dados do serviço de grupo de resposta (RGS) no Skype for Business Server 2019
+title: Fazer o back up de dados de RGS (Serviço de Grupo de Resposta) no Skype for Business Server 2019
 ms.reviewer: rogupta
 ms.author: heidip
 author: MicrosoftHeidi
@@ -12,7 +12,7 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
-description: Saiba como fazer backup de dados do serviço de grupo de resposta (RGS) no Skype for Business Server 2019.
+description: Saiba como fazer o back up de dados RGS (Serviço de Grupo de Resposta) no Skype for Business Server 2019.
 ms.openlocfilehash: f9c62953dcb859be2aa34bdee84ca76e3303d738
 ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
@@ -20,57 +20,57 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 02/06/2020
 ms.locfileid: "41824065"
 ---
-# <a name="back-up-response-group-service-rgs-data"></a>Fazer backup de dados do serviço de grupo de resposta (RGS)
+# <a name="back-up-response-group-service-rgs-data"></a>Fazer o back up de dados do Serviço de Grupo de Resposta (RGS)
 
-Com o Skype for Business Server 2019 atualização cumulativa de julho, incluímos a capacidade de incluir RGS dados como parte do backup padrão.
+Com a atualização cumulativa de julho de 2019 do Skype for Business Server, incluímos a capacidade de incluir dados RGS como parte do backup padrão.
 
-## <a name="rgs-data-replication"></a>A replicação de dados do RGS
+## <a name="rgs-data-replication"></a>Replicação de dados RGS
 
-Para experimentar a funcionalidade de replicação de dados do RGS, siga as etapas abaixo:
+Para experimentar a funcionalidade de replicação de dados RGS, siga as etapas abaixo:
 
-1. Instale a atualização cumulativa de julho em todas as front-ends (FEs) do seu pool emparelhado.
-1. Instale o banco de dados do RGS em ambos os membros do pool emparelhado:
+1. Instale a atualização cumulativa de julho em todos os front-ends (FEs) do seu pool emparelhado.
+1. Instale o banco de dados RGS em ambos os membros do pool emparelhado:
     - `Install-CsDatabase -ConfiguredDatabases -SqlServerFqdn <Pool1 BackendDatabase FQDN>`
     - `Install-CsDatabase -ConfiguredDatabases -SqlServerFqdn <Pool2 BackendDatabase FQDN>`
-1. Execute o cmdlet a seguir nos dois pools para replicar os dados existentes do RGS para as tabelas de backup, de modo que os dados possam ser retirados por RGSBackupService:
+1. Execute o seguinte cmdlet em ambos os pools para replicar dados RGS existentes para as tabelas de backup para que os dados possam ser coletados pelo RGSBackupService:
     - `Invoke-CsRGSStoreReplicateData -PoolFqdn <Pool1 FQDN>`
     - `Invoke-CsRGSStoreReplicateData -PoolFqdn <Pool2 FQDN>`
-1. Habilite o RGSBackupService (isso permitirá que o RGSBackupService globalmente. Se esse parâmetro for definido como true, o RGSBackupService começará a sincronizar os dados do RGS em pools emparelhados (os dois pools precisam ser CU1). Aguarde alguns minutos para começar. Inicialmente, RGS BackupService status será não inicializado.):
+1. Habilitar RGSBackupService (isso habilita o RGSBackupService globalmente. Se esse parâmetro for definido como true, o RGSBackupService começará a sincronizar dados RGS em pools emparelhados (ambos os pools precisam ser CU1). Aguarde alguns minutos para começar. Inicialmente, o status do RGS BackupService será NotInitialized.):
     - `Set-CsBackupServiceConfiguration -EnableRgsBackupService 1`
-1. Para verificar o BackupServiceStatus:
+1. Para verificar BackupServiceStatus:
     - `Get-CsBackupServiceStatus -Category RGS -PoolFqdn <Pool1 FQDN>`
-1. Para verificar a replicação de dados entre pools, use esses cmdlets (estes cmdlets mostram somente dados do pool proprietário):
+1. Para verificar DataReplication entre pools, use esses cmdlets (esses cmdlets mostram apenas os dados do pool do proprietário):
     - `Get-csRGSWorkflow`
     - `Get-csRGSQueue`
     - `Get-csRGSAgentGroup`
     - `Get-csRGSHourOfBusiness`
     - `Get-csRGSHolidaySet`
-1. Para verificar os dados do pool de proprietários RGS e seus dados de backup:
+1. Para verificar os dados RGS do pool do Proprietário e seus dados de backup:
     - `Get-csRGSWorkflow -showAll`
     - `Get-csRGSQueue  -showAll`
     - `Get-csRGSAgentGroup -showAll`
     - `Get-csRGSHourOfBusiness -showAll`
     - `Get-csRGSHolidaySet -showAll`
-1. Verifique a funcionalidade do fluxo de trabalho fazendo uma chamada de áudio para o fluxo de trabalho.
-1. Failover do pool de proprietários do RGS.
-1. Verifique a funcionalidade do fluxo de trabalho fazendo uma chamada de áudio para o fluxo de trabalho.
+1. Verifique a funcionalidade do fluxo de trabalho fazendo uma chamada de áudio para o Fluxo de Trabalho.
+1. Failover do seu pool de Proprietários RGS.
+1. Verifique a funcionalidade do fluxo de trabalho fazendo uma chamada de áudio para o Fluxo de Trabalho.
 1. Failback do pool.
-1. Atualize RGS dados no pool de origem e execute outro failover para verificar se as alterações se refletem no pool de backup. RGS deve se comportar da mesma forma que era feita antes do failover.
+1. Atualize os dados RGS no pool de origem e execute outro failover para verificar se as alterações são refletidas no pool de backup. O RGS deve se comportar da mesma forma que estava se comportando antes do failover.
 
 > [!TIP]
-> É recomendável executar essas etapas em uma grande quantidade de dados e fazer failover e failbacks frequentes. Qualquer novo RGS criado após essa atualização de RECOR também deve ser replicado.
+> É recomendável que você execute essas etapas em uma grande parte dos dados e faça failover e failbacks frequentes. Qualquer novo RGS criado após essa atualização cu também deve ser replicado.
 
 ## <a name="rgs-cmdlets"></a>Cmdlets RGS
 
-- Para verificar BackupServiceStatus (o status de exportação deve estar no estado final ou Steady. O status da importação deve estar no estado normal. RGSBackupservice deve ser habilitado.):
+- Para verificar BackupServiceStatus (o status de exportação deve estar no estado Final ou Estável. O status de importação deve estar no estado Normal. RGSBackupservice deve estar habilitado.):
     - `Get-CsBackupServiceStatus -Category RGS -PoolFqdn <Pool1 FQDN>`
-- Para sincronizar completamente os dados do pool de backup (isso sincronizará os dados completos do RGS no pool de backup.):
+- Para sincronizar totalmente os dados RGS no pool de backup (isso sincroniza os dados RGS completos no pool de backup).):
     - `Invoke-CsBackupServiceSync -PoolFqdn <Pool1 FQDN> -BackupModule ApplicationServer.RGSDataStore`
-- Para sincronizar completamente o repositório do RGS no pool de backup (isso irá sincronizar os dados completos dos RGS no pool de backup.):
+- Para sincronizar totalmente o repositório de arquivos RGS no pool de backup (isso sincroniza os dados RGS completos no pool de backup).):
     - `Invoke-CsBackupServiceSync -PoolFqdn <Pool1 FQDN> -BackupModule ApplicationServer.RGSFileStore`
-- Para sincronizar os dados Delta do RGS no pool de backup (isso sincronizará os dados Delta no pool de backup somente para RGS.):
+- Para sincronizar dados delta RGS no pool de backup (isso sincroniza os dados delta no pool de backup somente para RGS).):
     - `Backup-CsPool -PoolFqdn <Pool FQDN> -Category RGS`
 - Para sincronizar todos os dados do módulo, incluindo RGS:
     - `Backup-CsPool -PoolFqdn <Pool FQDN>`
-- Para desabilitar o RGSBackupService (isso irá desabilitar o RGSBackupService globalmente. Se esse parâmetro for definido como true, o RGSBackupService será desabilitado em todos os pools emparelhados.):
+- Para desabilitar o RGSBackupService (isso desabilitará globalmente o RGSBackupService. Se esse parâmetro for definido como true , RGSBackupService será desabilitado em todos os pools emparelhados.):
     - `Set-CsBackupServiceConfiguration -EnableRgsBackupService 0`

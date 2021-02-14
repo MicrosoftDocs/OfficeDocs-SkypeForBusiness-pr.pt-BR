@@ -20,7 +20,7 @@ f1.keywords:
 ms.custom:
 - Setup
 - ms.lync.lac.UsersCountLimitationWarning
-description: 'Saiba como trabalhar nas limitações da exibição de usuários do administrador do Skype for Business online. '
+description: 'Saiba como trabalhar dentro das limitações da exibição de usuários pelo administrador do Skype for Business Online. '
 ms.openlocfilehash: 71885e7d445c489177feb28577f717fc7241217a
 ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
@@ -30,18 +30,18 @@ ms.locfileid: "41769584"
 ---
 # <a name="skype-for-business-online-admin-center-users-page-limitations"></a>Limitações da página de usuários do centro de administração do Skype for Business Online
 
-Por motivos de desempenho, o **centro de administração do Skype for Business**exibe os primeiros usuários do 1.000 na sua lista de usuários. Se você tiver mais de 1.000 usuários, use ****![filtro](../images/d360528a-a05a-4f0d-a7fd-25a6c696206a.png) de filtro **e**![pesquisa](../images/5cc29d50-4eec-48a4-bdad-bbeae230f9ae.png) Pesquisar para localizar as pessoas específicas que você está procurando.
+Por motivos de desempenho, o Centro de administração do **Skype for Business** exibe os primeiros 1.000 usuários em sua lista de usuários. Se você tiver mais de 1.000 usuários, **use** Filtrar Filtro e Pesquisar para encontrar as pessoas específicas que ![ você está ](../images/d360528a-a05a-4f0d-a7fd-25a6c696206a.png)  ![ ](../images/5cc29d50-4eec-48a4-bdad-bbeae230f9ae.png) procurando.
   
 ## <a name="bulk-editing"></a>Edição em massa
 <a name="__top"> </a>
 
-1. Selecione os primeiros usuários do 1.000, ou todos retornados por seu filtro ou pesquisa, marcando a caixa ao lado de **nome para exibição** na parte superior da lista.
+1. Selecione os primeiros 1.000 usuários ou todos retornados pelo filtro  ou pesquisa marcando a caixa ao lado de Nome de exibição na parte superior da lista.
     
-2. Clique ****![em Editar](../images/2f8948c1-e4f3-4022-b9cd-37fed066056e.png)editar.
+2. Clique **em Editar** ![ ](../images/2f8948c1-e4f3-4022-b9cd-37fed066056e.png) Editar.
     
-Você pode alterar o número de usuários exibidos em cada página com o controle na parte inferior da lista:
+Você pode alterar o número de usuários mostrados em cada página com o controle na parte inferior da lista:
   
-![Navegação da página usuários para alterar a quantidade de usuários na página](../images/7d8ba24e-e3e8-4ff8-92f7-98ac143aab6d.png)
+![Navegação de página de usuários para alterar a quantidade de usuários na página](../images/7d8ba24e-e3e8-4ff8-92f7-98ac143aab6d.png)
   
 ## <a name="related-topics"></a>Tópicos relacionados
 [Instalar o Skype for Business Online](set-up-skype-for-business-online.md)

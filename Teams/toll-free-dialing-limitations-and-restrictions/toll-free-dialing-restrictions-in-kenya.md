@@ -23,7 +23,7 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
-description: Saiba mais sobre números de chamada gratuita no Quênia, incluindo a disponibilidade, a disponibilidade de rede com fio/linha fixa e a disponibilidade de rede móvel e restrições.
+description: Saiba mais sobre como discar números de discagem gratuita no Quênia, incluindo disponibilidade, disponibilidade de rede com fio/fixo e rede móvel e restrições.
 ms.openlocfilehash: 16e9e2746074e8d4b5a9dee280ec0dbae27d9725
 ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
@@ -33,19 +33,19 @@ ms.locfileid: "43140340"
 ---
 # <a name="toll-free-dialing-restrictions-in-kenya"></a>Restrições de discagem de chamada gratuita no Quênia
 
-[Encontre outro país ou região](../toll-free-dialing-limitations-and-restrictions.md)ou saiba mais sobre limitações e restrições de discagem gratuitas.
+[Encontre outro país ou região](../toll-free-dialing-limitations-and-restrictions.md)ou saiba mais sobre limitações e restrições de discagem gratuita.
 
 
 |**Detalhes**|**Descrição**|
 |:-----|:-----|
-|A chamada gratuita está disponível?  <br/> |Sim  <br/> |
-|Formato (s) de discagem  <br/> | 0 800 7XX XXX <br/> |
-|Código ISO de país/região  <br/> |KE  <br/> |
-|Ilha/território abrangido  <br/> |Não aplicável  <br/> |
+|As chamada gratuitas estão disponíveis?  <br/> |Sim  <br/> |
+|Formato(s) de discagem  <br/> | 0 800 7XX XXX <br/> |
+|Código ISO do país/região  <br/> |KE  <br/> |
+|Ilha/território coberto  <br/> |Não aplicável  <br/> |
 |Ilha/território não coberto  <br/> |Não aplicável  <br/> |
-|Disponibilidade de linha fixa/com fio  <br/> |Parcial. Veja os comentários.  <br/> |
+|Disponibilidade de linhas com fio/fixo  <br/> |Parcial. Veja os comentários.  <br/> |
 |Disponibilidade com a rede móvel  <br/> |Parcial. Veja os comentários.  <br/> |
-|Comentários, restrições e problemas de acesso  <br/> |Acesso à rede fixo: Safaricom e Airtel. Acesso à rede móvel: Safaricom, Airtel e laranja.  <br/> |
+|Comentários, restrições e problemas de acesso  <br/> |Acesso de rede fixo: Safaricom e Airtel. Acesso à rede móvel: Safaricom, Airtel e Orange.  <br/> |
    
 ## <a name="related-topics"></a>Tópicos relacionados
 

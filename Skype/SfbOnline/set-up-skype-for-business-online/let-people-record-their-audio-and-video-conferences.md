@@ -33,11 +33,11 @@ ms.locfileid: "42010814"
 
 ![Um ícone mostrando o logotipo do Skype for Business](../images/sfb-logo-30x30.png) **Usando o centro de administração do Skype for Business**
 
-1. Vá para o centro de administração > **Skype for Business**e clique em **usuários**.
+1. Vá para o centro de administração > **Skype for Business** e clique em **Usuários.**
     
-2. Na página **usuários** , selecione o usuário ou os usuários na lista e, em seguida, clique em **Editar**.
+2. Na página **Usuários,** selecione o usuário ou os usuários na lista e clique em **Editar.**
     
-3. Na **página opções**, clique em **gravar conversas e reuniões**e, em seguida, clique em **salvar**.
+3. Na página **Opções,** clique em **Gravar conversas e reuniões** e, em seguida, clique em **Salvar.**
     
 Quando a gravação está ativada, os organizadores ou apresentadores podem gravar uma reunião ou chamada em conferência do Skype for Business Online. A ativação ou desativação da gravação afeta todas as pessoas da organização.
   
@@ -45,7 +45,7 @@ Quando a gravação está ativada, os organizadores ou apresentadores podem grav
 |:-----|:-----|
 |Áudio e vídeo em HD  <br/> Apresentações do PowerPoint e do quadro de comunicações  <br/> Sessões de compartilhamento de área de trabalho ou de programas  <br/> |Páginas do OneNote compartilhadas  <br/> Anotações do PowerPoint  <br/> Arquivos compartilhados (anexos)  <br/> |
    
-Para obter detalhes, consulte [Lync Recording salvar e publicar](https://support.office.com/article/83cf1507-0f05-40f5-a520-5a6c133bc33e) e [Gerenciador de gravação do Lync](https://support.office.com/article/fa915c55-ff55-45c0-b372-1ef5596da10b). 
+Para obter detalhes, consulte Salvar e publicar gravação do [Lync e](https://support.office.com/article/83cf1507-0f05-40f5-a520-5a6c133bc33e) o [gerenciador de gravação do Lync.](https://support.office.com/article/fa915c55-ff55-45c0-b372-1ef5596da10b) 
   
 ## <a name="related-topics"></a>Tópicos relacionados
 [Instalar o Skype for Business Online](set-up-skype-for-business-online.md)

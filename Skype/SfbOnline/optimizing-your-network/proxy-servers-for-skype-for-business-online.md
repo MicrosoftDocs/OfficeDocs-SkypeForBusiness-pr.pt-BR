@@ -27,15 +27,15 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 02/08/2020
 ms.locfileid: "41863742"
 ---
-# <a name="proxy-servers-for-skype-for-business-online"></a>Servidores proxy para o Skype for Business Online
+# <a name="proxy-servers-for-skype-for-business-online"></a>Servidores proxy do Skype for Business Online
 
-Este artigo fornece diretrizes sobre como usar um servidor proxy com o Skype for Business.
+Este artigo fornece orientações sobre como usar um servidor proxy com o Skype for Business.
   
 ## <a name="not-using-a-proxy-server-is-recommended"></a>É recomendável não usar um servidor proxy
 
-Quando se trata do tráfego do Skype for Business em proxies, a Microsoft recomenda ignorar proxies. Os proxies não tornam o Skype for Business mais seguro porque o tráfego já está criptografado.
+Quando se trata de tráfego do Skype for Business por proxies, a Microsoft recomenda ignorar proxies. Proxies não tornar o Skype for Business mais seguro porque o tráfego já está criptografado.
   
-E ter um proxy pode causar problemas. Os problemas relacionados ao desempenho podem ser introduzidos ao ambiente por meio de latência e perda de pacote. Problemas como esses podem resultar em uma experiência negativa em tais equipes ou em cenários do Skype for Business como áudio e vídeo, em que os fluxos em tempo real são essenciais.
+E ter um proxy pode causar problemas. Problemas relacionados ao desempenho podem ser introduzidos ao ambiente por meio da latência e da perda de pacotes. Problemas como esses resultarão em uma experiência negativa em cenários como áudio e vídeo do Teams ou skype for Business, em que os fluxos em tempo real são essenciais.
   
 ## <a name="if-you-need-to-use-a-proxy-server"></a>Caso seja necessário o uso de um servidor proxy
 

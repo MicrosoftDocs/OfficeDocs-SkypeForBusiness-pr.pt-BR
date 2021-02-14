@@ -12,7 +12,7 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 6da93ddb-ca99-4b5d-9b33-3d70659730b2
-description: O cmdlet Set-CcApplianceDirectory define o diretório de trabalho no servidor host do Skype for Business Cloud Connector Edition. Todos os arquivos de implantação são armazenados nesse diretório.
+description: O Set-CcApplianceDirectory cmdlet define o diretório de trabalho no servidor host do Skype for Business Cloud Connector Edition. Todos os arquivos de implantação são armazenados nesse diretório.
 ms.openlocfilehash: a410d20c41fbb0bfef88449aaac96be727218add
 ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
@@ -22,7 +22,7 @@ ms.locfileid: "41824217"
 ---
 # <a name="set-ccappliancedirectory"></a>Set-CcApplianceDirectory
  
-O cmdlet Set-CcApplianceDirectory define o diretório de trabalho no servidor host do Skype for Business Cloud Connector Edition. Todos os arquivos de implantação são armazenados nesse diretório.
+O Set-CcApplianceDirectory cmdlet define o diretório de trabalho no servidor host do Skype for Business Cloud Connector Edition. Todos os arquivos de implantação são armazenados nesse diretório.
   
 ```powershell
 Set-CcApplianceDirectory[[-Path] <string>]
@@ -42,21 +42,21 @@ Set-CcApplianceDirectory -Path "c:\cloudconnector\applianceroot"
 ## <a name="parameters"></a>Parâmetros
 <a name="Examples"> </a>
 
-|**Parâmetro**|**Obrigatório**|**Tipo**|**Descrição**|
+|**Parâmetro**|**Required**|**Tipo**|**Descrição**|
 |:-----|:-----|:-----|:-----|
-| Path <br/> | Obrigatório <br/> |System.String  <br/> | Especifica o caminho onde todos os arquivos da implantação são armazenados. <br/> |
+| Path <br/> | Obrigatório <br/> |System.String  <br/> | Especifica o caminho onde todos os arquivos de implantação são armazenados. <br/> |
    
-## <a name="input-types"></a>Tipos de entrada
+## <a name="input-types"></a>Tipos de Entrada
 <a name="InputTypes"> </a>
 
-Nenhum. O cmdlet Set-CcApplianceDirectory não aceita a entrada por pipeline.
+Nenhum. O Set-CcApplianceDirectory cmdlet não aceita entrada em pipeline.
   
-## <a name="return-types"></a>Tipos de retorno
+## <a name="return-types"></a>Tipos de Retorno
 <a name="ReturnTypes"> </a>
 
-Nenhum 
+Nenhum
   
-## <a name="see-also"></a>Consulte Também
+## <a name="see-also"></a>Confira também
 <a name="ReturnTypes"> </a>
 
 Nenhum

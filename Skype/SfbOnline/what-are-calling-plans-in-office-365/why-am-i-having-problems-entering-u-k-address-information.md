@@ -1,5 +1,5 @@
 ---
-title: Por que estou tendo problemas para entrar no Reino Unido informações de endereço?
+title: Por que estou tendo problemas para entrar no Reino Unido. informações de endereço?
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,7 +21,7 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - ms.lync.lac.CivicAddressGBSyntaxError
-description: Veja a seguir alguns motivos pelos quais você pode estar tendo problemas para obter seu endereço ou endereços para validar corretamente no Reino Unido (Reino Unido).
+description: Aqui estão alguns motivos pelos quais você pode estar tendo problemas para validar seu endereço ou endereço corretamente no Reino Unido (Reino Unido).
 ms.openlocfilehash: ac8a5382d508d683f0467dd77742f19999628976
 ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
@@ -29,30 +29,30 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 02/04/2020
 ms.locfileid: "41769152"
 ---
-# <a name="why-am-i-having-problems-entering-uk-address-information"></a>Por que estou tendo problemas para entrar no Reino Unido informações de endereço?
+# <a name="why-am-i-having-problems-entering-uk-address-information"></a>Por que estou tendo problemas para entrar no Reino Unido. informações de endereço?
 
-Veja a seguir alguns motivos pelos quais você pode estar tendo problemas para obter seu endereço ou endereços para validar corretamente no Reino Unido (Reino Unido).
+Aqui estão alguns motivos pelos quais você pode estar tendo problemas para validar seu endereço ou endereço corretamente no Reino Unido (Reino Unido).
   
 ## <a name="whats-wrong-with-the-company-name"></a>O que há de errado com o nome da empresa?
 
-Se você estiver tendo problemas para inserir o nome da empresa, lembre-se:
+Se você estiver tendo um problema ao inserir o nome da empresa, lembre-se:
   
-- Pode conter letras, números e os seguintes caracteres especiais:,/-+. ' &amp; " _ 
+- Ele pode ter letras, números e os seguintes caracteres especiais: , / - + . ' &amp; " _ 
     
     > [!CAUTION]
-    > No Reino Unido (Reino Unido), o nome da empresa não pode ter o sinal +. 
+    > No Reino Unido, o nome da empresa não pode ter o sinal de +. 
   
 - Deve ter 80 caracteres ou menos.
     
-- Não pode começar com um caractere especial.
+- Ele não pode começar com um caractere especial.
     
 ## <a name="whats-wrong-with-the-house-number"></a>O que há de errado com o número da casa?
 
-Se você estiver tendo problemas para digitar o número da casa, lembre-se:
+Se você estiver tendo um problema ao inserir o número da casa, lembre-se:
   
-- Pode conter letras, números e os seguintes caracteres especiais:-/[]
+- Ele pode ter letras, números e os seguintes caracteres especiais: - / [ ]
     
-- Ele precisa começar com um número.
+- Ele tem que começar com um número.
     
 - Deve ter 20 caracteres ou menos.
     
@@ -60,52 +60,52 @@ Se você estiver tendo problemas para digitar o número da casa, lembre-se:
     
 ## <a name="whats-wrong-with-the-house-name"></a>O que há de errado com o nome da casa?
 
-Se você estiver tendo problemas para digitar o nome da casa, lembre-se:
+Se você estiver com problemas para inserir o nome da casa, lembre-se:
   
-- Pode conter letras, números e os seguintes caracteres especiais:,/-+. ' &amp; " _
+- Ele pode ter letras, números e os seguintes caracteres especiais: , / - + . ' &amp; " _
     
 - Deve ter 50 caracteres ou menos.
     
-- Não pode começar com um caractere especial.
+- Ele não pode começar com um caractere especial.
     
 ## <a name="whats-wrong-with-the-street-name"></a>O que há de errado com o nome da rua?
 
-Se você estiver tendo problemas para digitar o nome da rua, lembre-se:
+Se você estiver tendo um problema ao inserir o nome da rua, lembre-se:
   
-- Pode conter letras, números e os seguintes caracteres especiais:,/-+. ' &amp; " _ 
+- Ele pode ter letras, números e os seguintes caracteres especiais: , / - + . ' &amp; " _ 
     
 - Deve ter 50 caracteres ou menos.
     
-- Não pode começar com um caractere especial. 
+- Ele não pode começar com um caractere especial. 
     
 ## <a name="whats-wrong-with-the-city-or-town"></a>O que há de errado com a cidade ou a cidade?
 
-Se você estiver tendo problemas para inserir o nome da cidade ou município, lembre-se:
+Se você estiver tendo um problema para inserir o nome da cidade ou cidade, lembre-se:
   
-- Pode conter letras, números e os seguintes caracteres especiais:,/-+. ' &amp; " _
+- Ele pode ter letras, números e os seguintes caracteres especiais: , / - + . ' &amp; " _
     
 - Deve ter 50 caracteres ou menos.
     
-- Não pode começar com um caractere especial. 
+- Ele não pode começar com um caractere especial. 
     
-## <a name="whats-wrong-with-the-postal-code"></a>O que há de errado com o código postal?
+## <a name="whats-wrong-with-the-postal-code"></a>O que há de errado com o CEP?
 
-Se você estiver tendo problemas para inserir o código postal, lembre-se:
+Se você estiver tendo um problema ao inserir o CEP, lembre-se:
   
-- Só pode ter letras, números ou espaços.
+- Ele só pode ter letras, números ou espaços.
     
-- Deve ter 8 ou menos letras, incluindo números e espaços.
+- Ele deve ter 8 ou menos letras, incluindo números e espaços.
     
-- **Lembre-se de que, se você estiver no Reino Unido (Reino Unido)**, **deve** colocar o código postal em um dos seguintes formatos, onde a letra a = caractere a-Z, o valor de erro # = a de 0-9 e o _ (sublinhado) = um espaço em branco. Veja alguns exemplos:
+- Lembre-se de que, se você estiver no  Reino **Unido,** deverá colocar o cep em um dos seguintes formatos, em que a letra A = caractere A-Z, o sinal # = um número de 0 a 9 e o _ (sublinhado) = um espaço em branco. Veja alguns exemplos:
     
-|**Format**|**Exemplo**|
+|**Formato**|**Exemplo**|
 |:-----|:-----|
-|AA # A_ # AA  <br/> |EC3B 2BD  <br/> |
-|A # A_ # AA  <br/> |E1W 1AP  <br/> |
-|UM # _ # AA  <br/> |F1 2AG  <br/> |
-|A # #_ # AA  <br/> |C44 8HT  <br/> |
-|AA # _ # AA  <br/> |DR3 6HG  <br/> |
-|AA # #_ # AA  <br/> |FN35 1TH  <br/> |
+|AA#A_#AA  <br/> |EC3B 2BD  <br/> |
+|A#A_#AA  <br/> |E1W 1AP  <br/> |
+|A#_#AA  <br/> |F1 2AG  <br/> |
+|A##_#AA  <br/> |C44 8HT  <br/> |
+|AA#_#AA  <br/> |DR3 6HG  <br/> |
+|AA##_#AA  <br/> |FN35 1TH  <br/> |
 
 > [!NOTE]
 > Se precisar de mais números de telefone, veja [Contatar o suporte de produtos para empresas - Ajuda para administradores](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).

@@ -18,7 +18,7 @@ f1.keywords:
 ms.custom:
 - Legal
 hideEdit: true
-description: Como gasto para uma conta de retransmissão de IP para o Canadá.
+description: Como se levantar para uma conta de IP Relay para o Canadá.
 ms.openlocfilehash: f4aedc3f90aeaf8888ef24609cdc31068e2ad030
 ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
@@ -28,30 +28,30 @@ ms.locfileid: "43778747"
 ---
 # <a name="ip-relay-in-canada---sign-up"></a>IP Relay no Canadá - Criar conta
 
-Para obter uma configuração de conta de retransmissão de IP para o Canadá, preencha as informações na tabela abaixo e envie-a por email para [PTN@microsoft.com](mailto:ptn@microsoft.com).
+Para configurar uma conta de Ip Relay para o Canadá, preencha as informações na tabela abaixo e envie-as por email [para](mailto:ptn@microsoft.com)ptn@microsoft.com.
 
 |||
 |:-----|:-----|
-|Primeiro & sobrenome:||
-|Microsoft 365 ou o nome de domínio da organização do Office 365: <br/>(Exemplo: Contoso.com)||
-|Número de telefone do usuário do Microsoft 365 ou do Office 365: <br/>Exemplo: + 1 XXX XXX XXXX) ||
-|Senha (de 8 a 16 caracteres): ||
+|Nome & sobrenome:||
+|Nome de domínio da organização do Microsoft 365 ou do Office 365: <br/>(Exemplo: Contoso.com)||
+|Número de telefone do Usuário do Microsoft 365 ou do Office 365: <br/>Exemplo: +1 XXX XXXX) ||
+|Senha (8 a 16 caracteres): ||
 |Endereço físico mais provável <br/>no momento de uma emergência:||
-|Nome do número da rua &:||
-|Apartamento/pacote:||
-|York||
-|Província/estado:||
-|Código postal/CEP:||
-|Número de telefone:||
+|Número de & Nome:||
+|Hotel / Pacote:||
+|Cidade:||
+|Província/Estado:||
+|CEP:||
+|Número de Telefone:||
 |Endereço de email do Microsoft 365 ou do Office 365:||
 |||
 
 > [!NOTE]
-> O endereço de e-mail acima receberá mensagens deixadas para você se você não estiver online quando alguém ligar para você por meio de IP Relay. 
+> O endereço de email acima receberá mensagens para você se você não estiver online quando alguém ligar para você por meio do IP Relay. 
 
-Depois que a sua conta estiver pronta (dentro de 24 horas de trabalho), enviaremos um e-mail com o nome de usuário e a senha. 
+Quando sua conta estiver pronta (dentro de 24 horas úteis), enviaremos um email para você com o Nome de Usuário e a Senha. 
 
 
-Em seguida, consulte o [Guia de transmissão de IP no Canadá-guia do usuário](ip-relay-canada-user-guide.md) para começar. 
+Em seguida, consulte a [Retransmissão de IP no Canadá – guia do usuário](ip-relay-canada-user-guide.md) para começar. 
 
 

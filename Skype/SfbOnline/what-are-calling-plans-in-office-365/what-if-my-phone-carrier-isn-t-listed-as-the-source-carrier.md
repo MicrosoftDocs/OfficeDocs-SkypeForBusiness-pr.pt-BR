@@ -1,5 +1,5 @@
 ---
-title: E se a minha operadora de telefonia não estiver listada como a transportadora de origem?
+title: E se minha operadora de telefonia não estiver listada como operadora de origem?
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,7 +21,7 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - ms.lync.lac.PortOrderDetailPanelWhois
-description: 'Saiba o que fazer se a sua operadora não estiver listada no Skype for Business. '
+description: 'Saiba o que fazer se sua operadora não estiver listada no Skype for Business. '
 ms.openlocfilehash: a8349e1bedbfbb43310debbd0fdec8414b43fbdd
 ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
@@ -29,15 +29,15 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 02/04/2020
 ms.locfileid: "41769284"
 ---
-# <a name="what-if-my-phone-carrier-isnt-listed-as-the-source-carrier"></a>E se a minha operadora de telefonia não estiver listada como a transportadora de origem?
+# <a name="what-if-my-phone-carrier-isnt-listed-as-the-source-carrier"></a>E se minha operadora de telefonia não estiver listada como operadora de origem?
 
-É um pouco confuso quando você vê que o nome da sua operadora não está listado. Na maioria dos casos, se o provedor de serviços ou a operadora for diferente, provavelmente os números de telefone que você está transferindo são de propriedade de um provedor de serviços ou operadora diferente. Pode haver ocasiões em que o provedor de serviços ou a operadora listado pode ser diferente do seu provedor de serviços atual porque o provedor de serviços atual pode estar trabalhando com um provedor de serviços de terceiros. 
+É um pouco confuso quando você vê que o nome da sua operadora não está listado. Na maioria dos casos, se o provedor de serviços ou a operadora for diferente, é provável que os números de telefone que você está transferindo sejam pertencentes a outro provedor de serviços ou operadora. Pode haver ocasiões em que o provedor de serviços ou a operadora que está listado pode ser diferente do seu provedor de serviços atual porque seu provedor de serviços atual pode estar trabalhando com um provedor de serviços de terceiros. 
   
 Um exemplo:
   
-- Se você estiver portando um número do Skype for Business como sua operadora, talvez veja Level3 listado.
+- Se estiver portando o número do Skype for Business como operadora, você poderá ver o Nível3 listado.
     
-  **Para obter instruções passo a passo completas, consulte [transferir números de telefone para o Microsoft Teams](/microsoftteams/phone-number-calling-plans/transfer-phone-numbers-to-teams).**
+  **Para obter instruções completas passo a passo, consulte [Transferir números de telefone para o Teams.](/microsoftteams/phone-number-calling-plans/transfer-phone-numbers-to-teams)**
 
     > [!NOTE]
     > Se precisar de mais números de telefone, veja [Contatar o suporte de produtos para empresas - Ajuda para administradores](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).

@@ -1,5 +1,5 @@
 ---
-title: Coisas a serem experimentadas após a configuração do Business Voice
+title: O que tentar depois de configurar o Business Voice
 author: dstrome
 ms.author: dstrome
 manager: serdars
@@ -25,6 +25,6 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 02/06/2020
 ms.locfileid: "41827359"
 ---
-# <a name="things-to-try-after-setting-up-business-voice"></a>Coisas a serem experimentadas após a configuração do Business Voice
+# <a name="things-to-try-after-setting-up-business-voice"></a>O que tentar depois de configurar o Business Voice
 
 <!-- This topic will be populated in the future. Intentionally left out of the TOC>

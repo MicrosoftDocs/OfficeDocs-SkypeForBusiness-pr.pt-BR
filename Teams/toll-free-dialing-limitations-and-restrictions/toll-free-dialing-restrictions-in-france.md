@@ -23,7 +23,7 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
-description: Saiba mais sobre números de chamada gratuita na França, incluindo a disponibilidade, a disponibilidade de rede com fio/linha fixa e a rede móvel e restrições.
+description: Saiba mais sobre como discar números de tarifa gratuita na França, incluindo disponibilidade, disponibilidade de rede com fio/fixo e rede móvel e restrições.
 ms.openlocfilehash: 5595b8266f78b0b18beb30b9893a09089d56a345
 ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
@@ -33,17 +33,17 @@ ms.locfileid: "43140420"
 ---
 # <a name="toll-free-dialing-restrictions-in-france"></a>Restrições de discagem de chamada gratuita na França
 
-[Encontre outro país ou região](../toll-free-dialing-limitations-and-restrictions.md)ou saiba mais sobre limitações e restrições de discagem gratuitas.
+[Encontre outro país ou região](../toll-free-dialing-limitations-and-restrictions.md)ou saiba mais sobre limitações e restrições de discagem gratuita.
 
 
 |**Detalhes**|**Descrição**|
 |:-----|:-----|
-|A chamada gratuita está disponível?  <br/> |Sim  <br/> |
-|Formato (s) de discagem  <br/> |0 800 9XX XXX  <br/> |
-|Código ISO de país/região  <br/> |FR  <br/> |
-|Ilha/território abrangido  <br/> | França continental e Córsega <br/> |
+|As chamada gratuitas estão disponíveis?  <br/> |Sim  <br/> |
+|Formato(s) de discagem  <br/> |0 800 9XX XXX  <br/> |
+|Código ISO do país/região  <br/> |FR  <br/> |
+|Ilha/território coberto  <br/> | França continental e Córsega <br/> |
 |Ilha/território não coberto  <br/> |No access from Monaco, Reunion, Martinique, Guadeloupe, Guyane, St. Pierre-&amp;-Miquelon, Mayotte, New Caledonia, French Polynesia, Wallis &amp; Futuna.  <br/> |
-|Disponibilidade de linha fixa/com fio  <br/> |Sim  <br/> |
+|Disponibilidade de linhas com fio/fixo  <br/> |Sim  <br/> |
 |Disponibilidade com a rede móvel  <br/> |Sim  <br/> |
 |Comentários, restrições e problemas de acesso  <br/> |Acesso móvel: O horário da transmissão é cobrado.  <br/> |
    
