@@ -12,7 +12,7 @@ ms.collection:
 - Teams_ITAdmin_RemoteWorkers
 ms.reviewer: landerl, nsuter
 search.appverid: MET150
-description: Workshops interativos e ativos projetados para que você comece a trabalhar com o Microsoft Teams em apenas 30 dias.
+description: Workshops interativos ao vivo projetados para você começar a trabalhar com o Microsoft Teams em apenas 30 dias.
 f1.keywords:
 - CSH
 ms.custom: ms.teamsadmincenter.dashboard.trainingvideos.enduserteamstraining
@@ -29,8 +29,8 @@ ms.locfileid: "48515868"
 # <a name="teams-in-30"></a>Teams em 30
 <div id="main" class="v2">
     <div class="container">
-        <p>A Microsoft tem entusiasmo para convidá-lo para <strong>equipes em 30</strong>, uma série de workshops interativos ao vivo projetados para ajudar a obter organizações de médio porte (500-5000 funcionários) em funcionamento com o Microsoft Teams em apenas 30 dias. Junte-se a nós para aprender orientação testada e práticas recomendadas e obter respostas às suas equipes. Os participantes do workshop também receberão um convite exclusivo para horas de escritório de microfone aberto com um especialista em equipe.
-           <p><font color="#6264A7">Pronto para saltar?</font> Incentivamos todos os membros da sua equipe de projeto a começar com o guia de <i>introdução ao Microsoft Teams em 30</i> sessão. Clique em um título de sessão abaixo para se inscrever.
+        <p>A Microsoft está animada para convidá-lo para o Teams em <strong>30</strong>, uma série de workshops interativos ao vivo projetados para ajudar organizações de médio porte (500 a 5.000 funcionários) a trabalhar com o Microsoft Teams em até 30 dias. Junte-se a nós para aprender as orientações e as práticas recomendadas com o tempo e responder às suas perguntas do Teams. Os participantes do workshop também receberão um convite exclusivo para o horário de funcionamento do microfone aberto com um especialista do Teams.
+           <p><font color="#6264A7">Pronto para começar?</font> Incentivamos todos os membros da sua equipe de projeto a começar com a Sessão de Início <i>com o Teams em 30</i> sessões. Clique em um título de sessão abaixo para se inscrever.
  <ul id="home-all" class="panelContent cardsF cols cols2">        
     <li>
         <a href="https://aka.ms/GetstartedT30"target="_blank">
@@ -43,9 +43,9 @@ ms.locfileid: "48515868"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Comece a usar o Teams em 30 (Comece aqui!)</h3>
-                        <P>Inicie seus times em 30 viagens no pé direito. Compreenda o programa, quem deve participar e quais recursos você pode usar para garantir o seu sucesso.</P>
-                        <p><i>Público: patrocinadores da empresa, administradores de ti, adoção e alterar proprietários</i></p>
+                        <h3>Comece a trabalhar com o Teams no 30 (Comece aqui!)</h3>
+                        <P>Inicie o Teams em 30 viagens com o pé direito. Entenda o programa, quem deve participar e quais recursos você pode usar para garantir seu sucesso.</P>
+                        <p><i>Audiência: patrocinadores corporativos, administradores de IT, proprietários de adoção e mudança</i></p>
                     </div>
                 </div>
             </div>
@@ -64,7 +64,7 @@ ms.locfileid: "48515868"
                     </div>
                     <div class="cardText">
                         <h3>Preparar seus usuários finais</h3>
-                    <p>Descubra estratégias e recursos para preparar seus usuários, criar um contingente de campeões e garantir a aceitação do usuário como componente principal da sua distribuição de equipes.</p><p><i>Audiência: adoção e alterações de proprietários</i></p>
+                    <p>Descubra estratégias e recursos para preparar seus usuários, criar uma série de campeões e garantir a aceitação do usuário como um componente principal da sua adoção do Teams.</p><p><i>Audiência: adoção e alteração de proprietários</i></p>
                     </div>
                 </div>
             </div>
@@ -82,8 +82,8 @@ ms.locfileid: "48515868"
                         </div>
                     </div>
                     <div class="cardText">
-                    <h3>Preparar seu ambiente-parte I</h3>
-                    <p>Defina a base para a distribuição de suas equipes. Identificar pré-requisitos de equipes, redes e práticas recomendadas de segurança, políticas de coexistência, análises e relatórios e recomendações de distribuição de clientes.</p><p><i>Audiência: Administradores de TI</i></p>
+                    <h3>Preparar seu ambiente - Parte I</h3>
+                    <p>De definir a base para a sua adoção do Teams. Identifique os pré-requisitos do Teams, práticas recomendadas de rede e segurança, políticas de coexistência, análise e relatórios e recomendações de distribuição de clientes.</p><p><i>Audiência: Administradores de TI</i></p>
 </div>
                 </div>
             </div>
@@ -100,8 +100,8 @@ ms.locfileid: "48515868"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Preparar seu ambiente-parte II</h3>
-                    <p>Agora que você tem a base em vigor, entenda as práticas recomendadas para implementar a conformidade, retenção, governança e videoconferências para o Microsoft Teams.</p><p><i>Audiência: Administradores de TI</i></p>
+                        <h3>Preparar seu ambiente - Parte II</h3>
+                    <p>Agora que você já tem a base, entenda as práticas recomendadas para implementar conformidade, retenção, governança e audioconferência para o Teams.</p><p><i>Audiência: Administradores de TI</i></p>
                     </div>
                 </div>
             </div>
@@ -120,8 +120,8 @@ ms.locfileid: "48515868"
                     </div>
                     <div class="cardText">
                     <h3>Otimizar e expandir</h3>
-                    <p>Crie um plano que inclua otimização do desempenho do serviço, expansão de recursos da equipe e integração de novos usuários.</p>
-                    <p><i>Público: patrocinadores da empresa, administradores de ti, adoção e alterar proprietários</i></p>
+                    <p>Projete um plano que inclua a otimização do desempenho do serviço, a expansão dos recursos do Teams e a integração de novos usuários.</p>
+                    <p><i>Audiência: patrocinadores corporativos, administradores de IT, proprietários de adoção e mudança</i></p>
                     </div>
                 </div>
             </div>
@@ -139,9 +139,9 @@ ms.locfileid: "48515868"
                         </div>
                     </div>
                     <div class="cardText">
-                    <h3>Palestras em giz de equipe</h3>
-                    <p>Facilitada por especialistas no assunto, esses workshops interativos online fornecem uma oportunidade única para aprender as práticas recomendadas e orientação prática em relação a alguns dos cenários mais populares e atraentes do Microsoft Teams. Giz palestras pressupondo que você concluiu uma distribuição básica do teams.</p>
-                    <p><strong>Pré-requisito</strong>: Teams em 30 workshops de atendimento ao Workshop ou já habilitados para equipes em toda a sua organização.</p>
+                    <h3>Conversas de Giz do Teams</h3>
+                    <p>Facilitados por especialistas no assunto, esses workshops interativos online oferecem uma oportunidade exclusiva de aprender práticas recomendadas e orientações práticas sobre alguns dos cenários mais populares e atraentes no Teams. As Conversas em Giz supõem que você concluiu uma adoção básica do Teams.</p>
+                    <p><strong>Pré-requisito: Equipes</strong>em 30 participação no workshop OU já habilitadas para o Teams em toda a organização.</p>
                     <p><i>Audiência: Administradores de TI</i></p>
                     </div>
                 </div>

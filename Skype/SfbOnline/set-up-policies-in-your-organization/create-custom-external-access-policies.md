@@ -18,7 +18,7 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Setup
-description: O Skype for Business Online permite que você crie políticas de acesso externo adicionais. Ao contrário das políticas de cliente ou de conferência, em que você pode ter várias combinações, há três políticas de acesso externo predefinidas que podem abranger a maioria dos cenários.
+description: O Skype for Business Online permite criar políticas de acesso externo adicionais. Ao contrário das políticas de cliente ou conferência, onde você pode ter várias combinações, há três políticas predefinidas de acesso externo que podem abranger a maioria dos cenários.
 ms.openlocfilehash: 9ec8fbe2e2d1a0d0882a0115bb201021fbbc1a35
 ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
 ms.translationtype: MT
@@ -28,26 +28,26 @@ ms.locfileid: "47814190"
 ---
 # <a name="create-custom-external-access-policies"></a>Criar políticas personalizadas de acesso externo
 
-O Skype for Business Online permite que você crie políticas de acesso externo adicionais. Ao contrário das políticas de cliente ou de conferência, em que você pode ter várias combinações, há três políticas de acesso externo predefinidas que podem abranger a maioria dos cenários. São elas:
+O Skype for Business Online permite criar políticas de acesso externo adicionais. Ao contrário das políticas de cliente ou conferência, onde você pode ter várias combinações, há três políticas predefinidas de acesso externo que podem abranger a maioria dos cenários. São elas:
   
-- Sem acesso ao consumidor federado ou Skype (_marca: NoFederationAndPIC_ )
+- No Federated or Skype Consumer Access (_Tag:NoFederationAndPIC_ )
     
-- Somente acesso federado (_marca: FederationOnly_ )
+- Acesso Federado Somente (_Tag:FederationOnly)_
     
-- Acesso federado e de consumidor (_FederationAndPICDefault_)
+- Acesso federado e ao consumidor (_FederationAndPICDefault)_
     
-Políticas externas personalizadas permitem que você crie políticas adicionais que não estão incluídas nas configurações acima. Após a criação da política, você será solicitado a definir todos os parâmetros obrigatórios e não poderá alterá-los mais tarde. A criação de novas políticas personalizadas permite que você controle recursos como o acesso do consumidor do Skype ou uma política para desabilitar o áudio/vídeo de nuvem pública, que é algo que não está coberto por configurações predefinidas. As políticas personalizadas de acesso externo seguem a mesma sintaxe das políticas de cliente, mobilidade e conferência. Você pode saber mais sobre essas configurações [aqui](https://technet.microsoft.com/library/mt228132.aspx).
+As políticas externas personalizadas permitem criar políticas adicionais que não são cobertas pelas configurações acima. Quando a política foi criada, você seria obrigado a definir todos os parâmetros necessários e não poderia alterá-los mais tarde. A criação de novas políticas personalizadas permite controlar recursos como o acesso ao consumidor do Skype ou uma política para desabilitar o áudio/vídeo na nuvem pública, que é algo que não foi abordado com configurações predefinidas. As políticas de acesso externo personalizado seguem a mesma sintaxe que as políticas de cliente, mobilidade e conferência. Saiba mais sobre essas configurações [aqui.](https://technet.microsoft.com/library/mt228132.aspx)
   
-Para fazer isso funcionar, o usuário deve estar usando uma versão com suporte do 2016 clique para executar o aplicativo Skype for Business compatível com ele. A seguinte versão mínima do Skype for Business 2016 clique para executar cliente é necessária:
+Para fazer isso funcionar, o usuário deve estar usando uma versão com suporte do aplicativo Clique para Executar do Skype for Business 2016 que oferece suporte a ele. A seguinte versão mínima do cliente Clique para Executar do Skype for Business 2016 é necessária:
   
 |**Tipo**|**Data do lançamento**|**Versão**|**Compilação**|
 |:-----|:-----|:-----|:-----|
-|Primeiro lançamento do canal atual  <br/> |11/17/2016  <br/> |16.0.7571.2006  <br/> |Versão 1611 (Build 7571,2006)  <br/> |
-|Canal atual  <br/> |12/6/2016  <br/> |16.0.7571.2072  <br/> |Versão 1611 (Build 7571,2072)  <br/> |
-|Canal adiado  <br/> |2/22/2017  <br/> |16.0.7369.2118  <br/> |Versão 1609 (Build 7369,2118)  <br/> |
+|Primeiro Lançamento do Canal Atual  <br/> |11/17/2016  <br/> |16.0.7571.2006  <br/> |Versão 1611 (build 7571.2006)  <br/> |
+|Canal Atual  <br/> |12/6/2016  <br/> |16.0.7571.2072  <br/> |Versão 1611 (build 7571.2072)  <br/> |
+|Canal Adiado  <br/> |2/22/2017  <br/> |16.0.7369.2118  <br/> |Versão 1609 (build 7369.2118)  <br/> |
    
 > [!CAUTION]
-> Os usuários que usam versões mais antigas dos aplicativos do Windows ou clientes Mac do Skype for Business ainda poderão transferir arquivos. 
+> Os usuários que estão usando versões mais antigas de aplicativos do Skype for Business windows ou clientes Mac ainda poderão transferir arquivos. 
   
 ## <a name="verify-and-start-windows-powershell"></a>Verificar e iniciar o Windows PowerShell
 
@@ -57,22 +57,22 @@ Para fazer isso funcionar, o usuário deve estar usando uma versão com suporte 
     
 2. Verifique a versão digitando  _Get-Host_ na janela do **Windows PowerShell**.
     
-3. Se você não tiver a versão 3.0 ou superior, deverá baixar e instalar as atualizações do Windows PowerShell. Consulte [Windows Management Framework 4,0](https://www.microsoft.com/download/details.aspx?id=40855) para baixar e atualizar o Windows PowerShell para a versão 4,0. Reinicie o computador quando for solicitado.
+3. Se você não tiver a versão 3.0 ou superior, deverá baixar e instalar as atualizações do Windows PowerShell. Confira [o Windows Management Framework 4.0 para](https://www.microsoft.com/download/details.aspx?id=40855) baixar e atualizar o Windows PowerShell para a versão 4.0. Reinicie o computador quando for solicitado.
     
-4. Também será necessário instalar o módulo do Windows PowerShell para Teams que permite que você crie uma sessão remota do Windows PowerShell que se conecta ao Skype for Business online.
+4. Você também precisará instalar o módulo do Windows PowerShell para Teams que permite criar uma sessão remota do Windows PowerShell que se conecta ao Skype for Business Online.
     
-    Se precisar saber mais, consulte [conectar a todos os serviços do Microsoft 365 ou do Office 365 em uma única janela do Windows PowerShell](https://technet.microsoft.com/library/dn568015.aspx).
+    Se precisar saber mais, confira Conectar-se a todos os serviços do [Microsoft 365 ou do Office 365](https://technet.microsoft.com/library/dn568015.aspx)em uma única janela do Windows PowerShell.
     
 - **Iniciar uma sessão do Windows PowerShell**
     
 1. No **Menu Iniciar** > **Windows PowerShell**.
     
-2. Na janela do **Windows PowerShell** , conecte-se ao seu Microsoft 365 ou ao Office 365 executando:
+2. Na janela **do Windows PowerShell,** conecte-se ao Microsoft 365 ou ao Office 365 executando:
     
   > [!NOTE]
-  > O conector do Skype for Business online atualmente faz parte do módulo do PowerShell mais recente do teams.
+  > No momento, o Skype for Business Online Connector faz parte do módulo mais recente do PowerShell do Teams.
   >
-  > Se você estiver usando a [versão pública do teams PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams/)mais recente, não será necessário instalar o conector do Skype for Business online.
+  > Se você estiver usando a versão pública mais recente do [Teams PowerShell,](https://www.powershellgallery.com/packages/MicrosoftTeams/)não será necessário instalar o Skype for Business Online Connector.
 
    ```PowerShell      
     Import-Module -Name MicrosoftTeams
@@ -81,9 +81,9 @@ Para fazer isso funcionar, o usuário deve estar usando uma versão com suporte 
     Import-PSSession $session
    ```
 
-   Se você quiser mais informações sobre como iniciar o Windows PowerShell, consulte [conectar-se a todos os serviços do Microsoft 365 ou do Office 365 em uma única janela do Windows PowerShell](https://technet.microsoft.com/library/dn568015.aspx) ou [configurar seu computador para Windows PowerShell](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md).
+   Se quiser saber mais sobre como iniciar o Windows PowerShell, consulte Conectar-se a todos os serviços do [Microsoft 365 ou do Office 365](https://technet.microsoft.com/library/dn568015.aspx) em uma única janela do Windows PowerShell ou Configurar seu computador para [Windows PowerShell.](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     
-## <a name="create-a-custom-external-access-policy-for-a-user"></a>Criar uma política de acesso externo personalizada para um usuário
+## <a name="create-a-custom-external-access-policy-for-a-user"></a>Criar uma política de acesso externo personalizado para um usuário
 
 Para fazer isso, execute:
   
@@ -99,13 +99,13 @@ Grant-CsExternalAccessPolicy -PolicyName BlockSkypeVideo -Identity amosm@contoso
 
 ## <a name="want-to-know-more-about-windows-powershell"></a>Deseja saber mais sobre o Windows PowerShell?
 
-- O Windows PowerShell gerencia os usuários e o que eles podem ou não fazer. Com o Windows PowerShell, você pode gerenciar o Microsoft 365 ou o Office 365 e o Skype for Business online usando um único ponto de administração que pode simplificar o seu trabalho diário, quando você tem várias tarefas para fazer. Para começar a trabalhar com o Windows PowerShell, confira estes tópicos:
+- O Windows PowerShell gerencia os usuários e o que eles podem ou não fazer. Com o Windows PowerShell, você pode gerenciar o Microsoft 365 ou o Office 365 e o Skype for Business Online usando um ponto único de administração que pode simplificar seu trabalho diário quando você tiver várias tarefas a fazer. Para começar a trabalhar com o Windows PowerShell, confira estes tópicos:
     
   - [Uma introdução ao Windows PowerShell e ao Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525039)
     
-  - [Por que você precisa usar o Microsoft 365 ou o Office 365 PowerShell](https://go.microsoft.com/fwlink/?LinkId=525041)
+  - [Por que você precisa usar o Microsoft 365 ou o PowerShell do Office 365](https://go.microsoft.com/fwlink/?LinkId=525041)
     
-- O Windows PowerShell tem muitas vantagens em velocidade, simplicidade e produtividade apenas usando o centro de administração do Microsoft 365, como quando você está usando alterações de configuração para muitos usuários de uma só vez. Saiba mais sobre essas vantagens nos seguintes tópicos:
+- O Windows PowerShell tem muitas vantagens em velocidade, simplicidade e produtividade em relação ao uso apenas do Centro de administração do Microsoft 365, como quando você está fazendo alterações de configuração para muitos usuários ao mesmo tempo. Saiba mais sobre essas vantagens nos seguintes tópicos:
     
   - [Melhores maneiras de gerenciar o Microsoft 365 ou o Office 365 com o Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
     

@@ -24,7 +24,7 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Estes são os serviços do Microsoft 365 e do Office 365 para o Skype for Business e o Microsoft Teams disponíveis para a China.
+description: Aqui estão os serviços do Microsoft 365 e do Office 365 para Skype for Business e Microsoft Teams disponíveis para a China.
 ms.openlocfilehash: 8db46e038ff817844f738fbaea630089970908e7
 ms.sourcegitcommit: 67c686810d37bffda72a6e92155d9c8ec86bfae6
 ms.translationtype: MT
@@ -36,17 +36,17 @@ ms.locfileid: "47766885"
 
 [Encontre outro país ou região](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) ou saiba mais sobre a disponibilidade de Audioconferência e planos de chamadas por país e região.
 
-Estes são os serviços do Microsoft 365 e do Office 365 para o Skype for Business e o Microsoft Teams disponíveis para a China.
+Aqui estão os serviços do Microsoft 365 e do Office 365 para Skype for Business e Microsoft Teams disponíveis para a China.
   
 ## <a name="audio-conferencing"></a>Audioconferência
 
 |**Recurso**|**Detalhes**|
 |:-----|:-----|
-|A Audioconferência está disponível para compra?  <br/> |Sim, para uso por usuários localizados fora da China. Para obter mais informações, entre em contato com a equipe da sua conta.  <br/> |
+|A Audioconferência está disponível para compra?  <br/> |Sim, para uso por usuários localizados fora da China. Entre em contato com a equipe da sua conta para obter informações adicionais.  <br/> |
 |Os números de telefone são atribuídos automaticamente para a Audioconferência?  <br/> | Não geográfico. Os números de telefone não estão vinculados a uma cidade ou local específico. <br/>  Para obter números de telefone dedicados, consulte [Obtendo números de telefone de serviço do Skype for Business e do Microsoft Teams](/microsoftteams/getting-service-phone-numbers).  <br/> |
-|Funcionalidade de discagem usando o recurso Telefonar para Mim  <br/> | Sim, exceto para os clientes que comprarem o serviço da China. Os recursos de discagem externa são desativados para clientes que adquiram o serviço da China.   <br/> |
+|Funcionalidade de discagem usando o recurso Telefonar para Mim  <br/> | Sim, exceto para os clientes que compram o serviço da China. Os recursos de discagem estão desabilitados para os clientes que compram o serviço da China.   <br/> |
    
-## <a name="phone-system"></a>Sistema Telefônico
+## <a name="phone-system"></a>Sistema de Telefonia
 
 |**Recurso**|**Detalhes**|
 |:-----|:-----|
@@ -71,7 +71,7 @@ Se os Planos de Chamada não estiverem disponíveis para compra, considere a pos
 |:-----|:-----|
 |Para quais capitais ou cidades importantes é possível obter números de chamadas tarifadas?  <br/> |Pequim  <br/> |
 |Há números de chamada tarifada disponíveis?  <br/> |Sim  <br/> |
-|Há números de chamada gratuita disponíveis?  <br/> |Sim ([solicitação](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)), exceto para os clientes que compram o serviço da China. Números de chamada gratuita não estão disponíveis para clientes que adquiram o serviço da China. <br/> |
+|Há números de chamada gratuita disponíveis?  <br/> |Sim[(a pedido),](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)exceto para os clientes que comprarem o serviço da China. Os números de tarifa gratuita não estão disponíveis para os clientes que comprarem o serviço na China. <br/> |
    
  Para obter números de telefone de chamadas gratuitas e tarifadas para audioconferência, atendedores automáticos e filas de chamadas, consulte [Obtendo números de telefone de serviço do Skype for Business e do Microsoft Teams](/microsoftteams/getting-service-phone-numbers).
   

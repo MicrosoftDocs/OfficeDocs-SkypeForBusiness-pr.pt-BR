@@ -27,7 +27,7 @@ ms.locfileid: "48376554"
 ---
 # <a name="set-up-policies-in-your-organization"></a>Configurar políticas em sua organização
 
-As políticas ajudam a determinar os recursos do Skype for Business online disponibilizados para os usuários. Consulte os artigos a seguir para obter detalhes completos.
+As políticas ajudam a determinar os recursos do Skype for Business Online disponibilizados aos usuários. Consulte os artigos a seguir para obter detalhes completos.
 
 - [Bloquear transferências de arquivo ponto a ponto](block-point-to-point-file-transfers.md)
 - [Criar políticas personalizadas de acesso externo](create-custom-external-access-policies.md)

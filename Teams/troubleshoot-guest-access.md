@@ -26,9 +26,9 @@ ms.locfileid: "48346352"
 ---
 # <a name="troubleshoot-problems-with-guest-access-in-microsoft-teams"></a>Solucionar problemas com o acesso de convidados no Microsoft Teams
 
-- Para ver se conhecemos o problema, confira o [Teams support em sua organização](Known-issues.md).
+- Para ver se sabemos sobre o problema, confira o Suporte do [Teams em sua organização.](Known-issues.md)
 - Para verificar se há problemas de suporte atuais relacionados ao acesso de convidados no Teams, vá para [Solução de problemas do Teams](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/).
-- Convidados são pessoas de fora da sua organização. Se alguém estiver dentro da sua organização (incluindo seus funcionários, contratados no local ou agentes no local), essa pessoa não poderá ser adicionada como convidado. O mesmo se aplica aos seus afiliados.
+- Os convidados são pessoas de fora da sua organização. Se alguém estiver dentro da sua organização (incluindo seus funcionários, contratados no local ou agentes no local), essa pessoa não poderá ser adicionada como convidado. O mesmo se aplica aos seus afiliados.
 - Descubra os próximos recursos novos ou atualizados de acesso de convidados no [Roteiro do Teams](https://aka.ms/teamsroadmap).
 - Diga-nos o que você deseja no [Teams UserVoice](https://aka.ms/TeamsUserVoice).
 
@@ -37,12 +37,12 @@ ms.locfileid: "48346352"
 O acesso de convidado no Teams usa o Business to Business (B2B) do Azure Active Directory (Azure AD) e seu modelo de licenciamento. O acesso de convidados está incluído em todas as assinaturas do Microsoft 365 Business Standard, do Office 365 Enterprise e do Office 365 Education. Não é necessária nenhuma licença adicional do Microsoft 365 ou Office 365.
 
 > [!NOTE]
-> As equipes devem estar habilitadas no locatário de casa de um convidado para que os convidados possam entrar e usar o Microsoft Teams como convidado em outro locatário (recurso).
+> As equipes devem ser habilitadas no locatário principal de um convidado para que os convidados sejam capazes de entrar e usar o Teams como convidado em outro locatário (recurso).
 
-Se você estiver vendo erros de licenciamento, leia o [modelo de cobrança das identidades externas do Azure ad](https://docs.microsoft.com/azure/active-directory/external-identities/external-identities-pricing) para determinar os requisitos de licenciamento para atender às suas necessidades de acesso de convidado em sua organização.
+Se você estiver vendo erros de licenciamento, leia o modelo de cobrança de Identidades Externas do [Azure AD](https://docs.microsoft.com/azure/active-directory/external-identities/external-identities-pricing) para determinar os requisitos de licenciamento para atender às suas necessidades de acesso de convidado em sua organização.
 
 - As licenças de convidado são contadas na organização que envia os convites. Considere isso ao calcular o número de licenças necessárias.
-- As licenças são contadas em sua organização se os convidados convidados vierem de outra organização do Microsoft 365 ou estiverem usando seus endereços de email pessoais.
+- As licenças são contadas em relação à sua organização se os convidados são de outra organização do Microsoft 365 ou se estão usando seus endereços de email pessoais.
 
 ## <a name="support-for-b2b-user-types"></a>Suporte para tipos de usuário B2B
 

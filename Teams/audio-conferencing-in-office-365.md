@@ -1,5 +1,5 @@
 ---
-title: Conferência de áudio no Microsoft 365
+title: Audioconferência no Microsoft 365
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -24,7 +24,7 @@ ms.custom:
 - Audio Conferencing
 - ms.teamsadmincenter.audioconferencing.overview
 - seo-marvel-apr2020
-description: Saiba mais sobre como a conferência de áudio no Microsoft 365 ou no Office 365 permite que os usuários liguem para reuniões a partir de seus telefones.
+description: Saiba mais sobre como a Audioconferência no Microsoft 365 ou no Office 365 permite que os usuários liguem para reuniões de seus telefones.
 ms.openlocfilehash: 542e619d9a0af586df4028c24c731082fa7bf1d0
 ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: MT
@@ -32,8 +32,8 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 11/13/2020
 ms.locfileid: "49031197"
 ---
-# <a name="audio-conferencing-in-microsoft-365"></a>Conferência de áudio no Microsoft 365
-Conferências de áudio no Microsoft 365 e no Office 365 permite que os usuários liguem para reuniões a partir de seus telefones. Podem participar até 250 pessoas em audioconferências no telefone.
+# <a name="audio-conferencing-in-microsoft-365"></a>Audioconferência no Microsoft 365
+A Audioconferência no Microsoft 365 e no Office 365 permite que os usuários liguem para reuniões de seus telefones. Podem participar até 250 pessoas em audioconferências no telefone.
 
 ## <a name="what-is-audio-conferencing"></a>O que é audioconferência?
 É muito útil participar de reuniões quando os usuários estão viajando e não podem participar de uma reunião usando o aplicativo Microsoft Teams ou Skype for Business em computadores ou dispositivos móveis. No entanto, há outros cenários nos quais usar um telefone para participar de uma reunião do Skype for Business ou do Microsoft Teams pode ser melhor do que usar um aplicativo em um computador:
@@ -69,7 +69,7 @@ Existem dois tipos de números telefônicos de audioconferência que podem ser a
   
  **Números de telefone dedicados** são os que estão disponíveis apenas para usuários em sua organização. Você pode alterar os idiomas usados quando alguém liga para um desses números. Será necessário obter o número de telefone de um serviço.
   
- Os **números de telefone compartilhados** são os números de telefone que podem ser compartilhados com outros serviços do Microsoft 365 ou do Office 365s. Não é possível alterar os idiomas usados quando alguém liga para um desses números.
+ **Números de telefone compartilhados** são os números de telefone que podem ser compartilhados com outros Microsoft 365 ou Office 365s. Não é possível alterar os idiomas usados quando alguém liga para um desses números.
   
 Embora o número de audioconferência padrão que é atribuído a um organizador só seja incluído no convite da reunião, um chamador pode usar qualquer um dos números de telefone atribuídos à ponte de conferência para ingressar em uma reunião. A lista de números de telefone que podem ser usados para ingressar em uma reunião está disponível por meio do link **Encontrar um número local** incluído em todos os convites de reunião.
 
@@ -91,7 +91,7 @@ Os números telefônicos de audioconferência dedicados são números de serviç
 
 - **Usar o Centro de administração do Skype for Business.** Em alguns países/regiões, você pode obter números para suas pontes de conferência usando o centro de administração do Sype for Business. Consulte [Obter números dos telefones de serviço](/microsoftteams/getting-service-phone-numbers).
     
-- **Fazer a portabilidade de seus números existentes.** Você pode portar ou transferir números existentes do seu provedor de serviços atual ou da operadora de telefone para o Microsoft 365 ou o Office 365. Consulte [Transferir os números dos telefones ao Teams](phone-number-calling-plans/transfer-phone-numbers-to-teams.md) ou [Gerenciar números de telefone da sua organização](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) para obter mais informações.  
+- **Fazer a portabilidade de seus números existentes.** Você pode transferir ou transferir números existentes de seu provedor de serviços ou operadora de telefonia atual para o Microsoft 365 ou o Office 365. Consulte [Transferir os números dos telefones ao Teams](phone-number-calling-plans/transfer-phone-numbers-to-teams.md) ou [Gerenciar números de telefone da sua organização](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) para obter mais informações.  
   
 - **Usar um formulário de solicitação para novos números.** Às vezes (dependendo do país/região), você não poderá obter novos números de telefone usando o Centro de administração do Skype for Business ou precisará de números de telefone ou códigos de área específicos. Nesse caso, você precisará fazer o download de um formulário e enviá-lo de volta para nós. Para obter mais informações, consulte [Gerenciar números de telefone para sua organização](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
 

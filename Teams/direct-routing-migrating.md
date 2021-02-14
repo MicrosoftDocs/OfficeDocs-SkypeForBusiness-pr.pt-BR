@@ -27,16 +27,16 @@ ms.locfileid: "47359417"
 
 Este artigo descreve o que é necessário para migrar para o Roteamento Direto de uma perspectiva de configuração do Skype for Business Online e do Teams. Este artigo aborda a migração dos seguintes sistemas: 
  
-- Sistema telefônico com planos de chamada (para Teams e Skype for Business online) 
-- Sistema telefônico com conectividade PSTN local no Skype for Business Server (para Skype for Business online)  
-- Sistema telefônico com conectividade PSTN local usando o Cloud Connector Edition (para Skype for Business online)
+- Sistema telefônico com planos de chamada (para o Teams e o Skype for Business Online) 
+- Sistema telefônico com conectividade PSTN local no Skype for Business Server (para Skype for Business Online)  
+- Sistema telefônico com Conectividade PSTN local usando o Cloud Connector Edition (para Skype for Business Online)
 
 
 Além dessas etapas de configuração, também é necessário configurar o Controlador de Borda de Sessão (SBC) para direcionar as chamadas para a nova rota. Isso está fora do escopo deste documento. Para obter mais informações, consulte a documentação do seu fornecedor de SBC.  
 
 ## <a name="user-provisioning-end-state-for-various-pstn-connectivity-options"></a>Provisionamento de usuário estado final para várias opções de conectividade PSTN 
 
-A tabela a seguir mostra o estado final de um usuário provisionado para as opções de conectividade PSTN selecionadas com o sistema telefônico. São exibidos somente os atributos relevantes para voz.
+A tabela a seguir mostra o estado final de um usuário provisionado para as opções de conectividade PSTN selecionadas com o Sistema telefônico. São exibidos somente os atributos relevantes para voz.
 
 |Atributos de objeto do usuário |Sistema de Telefonia com Planos de Chamadas|Sistema de Telefonia com conectividade PSTN local por meio do Skype for Business Server|Sistema de Telefonia com conectividade PSTN via Cloud Connector|Sistema de Telefonia com conectividade PSTN local por meio de Roteamento Direto|
 |---|---|---|---|---|
@@ -55,7 +55,7 @@ OnPremLineURI |Não disponível|O número de telefone deve ser sincronizado a pa
 |TeamsCallingPolicy </br>AllowGroupCalling|Verdadeiro|N/D|N/D|Verdadeiro|
 ||||||
 
-<sup>1</sup> escolher o modo correto do TeamsUpgradePolicy depende do cenário. Leia sobre a experiência de voz nos diferentes modos em[Orientações de migração e interoperabilidade para organizações que usam o Teams em conjunto com o Skype for Business](migration-interop-guidance-for-teams-with-skype.md).
+<sup>1</sup> Escolher o modo certo do TeamsUpgradePolicy depende do cenário. Leia sobre a experiência de voz nos diferentes modos em[Orientações de migração e interoperabilidade para organizações que usam o Teams em conjunto com o Skype for Business](migration-interop-guidance-for-teams-with-skype.md).
 
 Como parte desse esforço, a Microsoft atualizou recentemente o "centro de administração do Microsoft Teams" (também conhecido como Modern Portal) para aplicar o novo modelo de gerenciamento com base nos modos de coexistência. No Modern Portal, configurar o TeamsUpgradePolicy agora também configurará automaticamente o TeamsInteropPolicy como valor consistente, de modo que o TeamsInteropPolicy não seja mais exposto na interface do usuário. No entanto, os administradores usando o PowerShell ainda devem configurar o TeamsUpgradePolicy e o TeamsInteropPolicy juntos para garantir a circulação adequada. Após a transição para o TeamsUpgradePolicy ser concluída, não será mais necessário definir o TeamsInteropPolicy.
 
@@ -92,12 +92,12 @@ Para obter mais informações sobre como migrar do Sistema de Telefonia com cone
 Grant-CsVoiceRoutingPolicy -PolicyName $NULL -Identity <UPN> 
 ```
 > [!NOTE]
-> Se uma CsVoiceRoutingPolicy global estiver configurada, recomendamos que você remova todos os usos de PSTN associados a essa política global. 
+> Se uma CsVoiceRoutingPolicy global estiver configurada, é recomendável remover todos os usos de PSTN associados a essa política global. 
 
 ## <a name="migrating-from-office-365-phone-system-with-on-premises-pstn-connectivity-via-cloud-connector-edition"></a>Migração do Sistema de Telefonia do Office 365 com conectividade PSTN local através da Edição Cloud Connector 
 
 > [!Important]
-> O Cloud Connector Edition vai desativar 31 de julho de 2021 juntamente com o Skype for Business online. Depois que a sua organização tiver atualizado para o Microsoft Teams, saiba como conectar sua rede de telefonia local a equipes usando o [Roteamento direto](direct-routing-landing-page.md).
+> A Cloud Connector Edition se desposente em 31 de julho de 2021 juntamente com o Skype for Business Online. Depois que sua organização tiver atualizado para o Teams, saiba como conectar sua rede de telefonia local ao Teams usando [o Roteamento Direto.](direct-routing-landing-page.md)
 
 Para obter mais informações sobre como migrar do Sistema de Telefonia com conectividade PSTN local via Cloud Conector, confira o seguinte:
 

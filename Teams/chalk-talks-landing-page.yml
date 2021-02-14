@@ -1,10 +1,10 @@
 ### YamlMime:Hub
-title: Giz palestras do Microsoft Teams
-summary: Projetado para profissionais de ti e tomadores de decisões, a palestra em palestras oferece uma oportunidade única para aprender práticas recomendadas e orientação prática sobre alguns dos cenários mais populares e atraentes do teams.
+title: Microsoft Teams Chalk Talks
+summary: Projetado para profissionais de TI e tomadores de decisões, o Teams Chalk Talks oferece uma oportunidade exclusiva de aprender as práticas recomendadas e orientações práticas sobre alguns dos cenários mais populares e atraentes no Teams.
 brand: teams
 metadata:
-  title: Giz palestras do Microsoft Teams
-  description: Projetado para profissionais de ti e tomadores de decisões, a palestra em palestras oferece uma oportunidade única para aprender práticas recomendadas e orientação prática sobre alguns dos cenários mais populares e atraentes do teams. Facilitada por especialistas no assunto, esses workshops interativos online vão rearmar você com o insights para aprimorar a implementação de suas equipes e fornecer valor adicional para os usuários finais. Clique no título de qualquer Workshop abaixo para ver as datas e horários disponíveis e inscreva-se agora!
+  title: Conversas de giz do Microsoft Teams
+  description: Projetado para profissionais de TI e tomadores de decisões, o Teams Chalk Talks oferece uma oportunidade exclusiva de aprender as práticas recomendadas e orientações práticas sobre alguns dos cenários mais populares e atraentes no Teams. Facilitados por especialistas no assunto, esses workshops interativos online vão fornecer informações para aprimorar a implementação do Teams e fornecer valor adicional para os usuários finais. Clique em qualquer título do workshop abaixo para ver as datas e horas disponíveis e inscreva-se hoje mesmo!
   ms.service: msteams
   ms.topic: hub-page
   author: SerdarSoysal
@@ -34,31 +34,31 @@ metadata:
 productDirectory:
   summary: Clique em qualquer título do workshop para se registrar.
   items:
-  - title: Então... você deseja fazer chamadas com o Microsoft Teams?
+  - title: Então... você deseja fazer chamadas com o Teams?
     imageSrc: https://docs.microsoft.com/office/media/icons/headset-teams.svg
-    summary: Junte-se a nós para ter uma visão profunda da adição de recursos de chamada PSTN à implantação do seu Teams. Juntos, vamos examinar a terminologia de chamadas, os principais conceitos e as configurações.
+    summary: Junte-se a nós para ter uma análise aprofundada da adição de recursos de chamada PSTN à sua implantação do Teams. Juntos, vamos passar pela terminologia de chamada, conceitos-chave e configurações.
     url: https://microsoftteams.eventbuilder.com/ChalkTalksCalling
-  - title: Como carregar a qualidade de áudio/vídeo no Microsoft Teams
+  - title: Assumir a responsabilidade pela qualidade de áudio/vídeo no Teams
     imageSrc: https://docs.microsoft.com/office/media/icons/education-tutorial-teams.svg
-    summary: Procurando garantir que os usuários tenham experiências ideais com reuniões e recursos de voz? Vamos discutir ferramentas, relatórios e práticas recomendadas para ajudá-lo a gerenciar a qualidade do serviço--desde o estabelecimento de uma estratégia pró-ativa para a solução de problemas comuns.
+    summary: Quer garantir que os usuários tenham experiências ideais com reuniões e recursos de voz? Discutiremos ferramentas, relatórios e práticas recomendadas para ajudá-lo a gerenciar a qualidade do serviço, desde o estabelecimento de uma estratégia proativa até a resolução de problemas comuns.
     url: https://microsoftteams.eventbuilder.com/ChalkTalksQuality
-  - title: Aplicativos em fundamentos da equipe
+  - title: Aplicativos nos Conceitos Básicos do Teams
     imageSrc: https://docs.microsoft.com/office/media/icons/cloud-devtest-teams.svg
-    summary: Esta sessão de fundação abrange recursos básicos, incluindo gerenciamento e segurança de aplicativos. Saiba como integrar seus fluxos de trabalho, aplicativos de produtividade e os serviços que você usa todos os dias em uma única experiência unificada.
+    summary: Esta sessão fundamental abrange recursos básicos, incluindo segurança e gerenciamento de aplicativos. Saiba como integrar seus fluxos de trabalho, aplicativos de produtividade e os serviços que você usa todos os dias em uma única experiência unificada.
     url: https://microsoftteams.eventbuilder.com/ChalkTalksApps
-  - title: Fluxos de trabalho da chave turbinados com aplicativos no Teams
+  - title: Sobrecarrecar fluxos de trabalho principais com aplicativos no Teams
     imageSrc: https://docs.microsoft.com/office/media/icons/layout-navigation-teams.svg
-    summary: Conecte seus sistemas, aumente a automação e forneça experiências aprimoradas para os usuários trazendo os aplicativos que a sua organização conta no Teams.
+    summary: Conecte seus sistemas, aumente a automação e entregue experiências aprimoradas para os usuários, trazendo os aplicativos dos quais sua organização depende no Teams.
     url: https://aka.ms/ChalkTalkKeyApps
 additionalContent:
   sections:
   - items:
     - title: Ainda está usando o Skype for Business?
-      summary: Confira nossa série de workshops de atualização.
+      summary: Confira nossa série do Workshop de Atualização.
       url: upgrade-workshops-landing-page.yml
-    - title: Preparar os usuários
-      summary: Faça com que seus usuários funcionem com o treinamento do teams Live.
+    - title: Preparar seus usuários
+      summary: Mantenha seus usuários em funcionamento com o Treinamento do Teams Live.
       url: https://aka.ms/TeamsLiveTraining
     - title: Novo usuário do Teams?
-      summary: Saiba mais sobre como começar a usar o Microsoft Teams.
+      summary: Saiba mais sobre como começar a trabalhar com o Teams.
       url: https://docs.microsoft.com/microsoftteams/teams-overview

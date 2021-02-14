@@ -1,5 +1,5 @@
 ---
-title: Configurar a licença de telefone da área comum
+title: Configurar a licença do Telefone de Área Comum
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -20,7 +20,7 @@ f1.keywords:
 ms.custom:
 - Phone System
 - seo-marvel-mar2020
-description: 'Saiba como configurar telefones celulares comuns para "lobbies", áreas de recepção e salas de conferência '
+description: 'Saiba como configurar telefones de área comuns para lo lobbys, áreas de recepção e salas de conferência '
 ms.openlocfilehash: f940ea7c14ad55c8cd3842e9830eb82da0d8867f
 ms.sourcegitcommit: d7e0406276def8bc731aa6dcbd49802441ec5138
 ms.translationtype: MT
@@ -30,94 +30,94 @@ ms.locfileid: "48476706"
 ---
 # <a name="set-up-the-common-area-phone-license-for-microsoft-teams"></a>Configurar a licença de Telefone de Área Comum para o Microsoft Teams
 > [!NOTE]
-> Telefones celulares comuns não oferecem suporte ao correio de voz.
+> Telefones de área comuns não são suportados pela caixa postal.
 
-Um telefone de área comum geralmente é colocado em uma área como um lobby ou outra área que está disponível para muitas pessoas fazer uma chamada; por exemplo, uma área de recepção, um lobby ou um telefone de conferência. Telefones celulares comuns são conectados com contas ligadas a uma licença de telefone de área comum. A política TeamsIPPhone também deve ser definida apropriadamente para o telefone ter uma experiência de usuário da área comum.
+Um telefone de área comum normalmente é colocado em uma área como um lobby ou outra área que está disponível para muitas pessoas fazer uma chamada; por exemplo, uma área de recepção, lobby ou telefone de conferência. Telefones de área comuns estão entre com contas vinculadas a uma licença de Telefone de Área Comum. A política do TeamsIPPhone também deve ser adequadamente definida para que o telefone tenha uma experiência de usuário de área comum.
 
-Nas etapas a seguir, ajudaremos você a configurar uma conta para o sistema telefônico implantar telefones de área comuns para a sua organização. Para obter uma experiência de reunião mais completa, incluindo videoconferência, considere comprar a licença de sala de reunião dedicada com um dispositivo de sala de reunião. 
+Nas etapas abaixo, ajudaremos você a configurar uma conta do Sistema de Telefonia para implantar telefones de área comuns para sua organização. Para obter uma experiência de sala de reunião mais completa, incluindo audioconferência, considere comprar a licença dedicada da Sala de Reunião com um dispositivo de sala de reunião. 
 
-Primeiro, você precisa comprar uma licença de telefone (CAP) de área comum e verificar se tem um telefone certificado. Para procurar e saber mais sobre telefones certificados, acesse [dispositivos Microsoft Teams](https://products.office.com/microsoft-teams/across-devices?ms.url=officecomteamsdevices&rtc=1). 
+Primeiro, você precisa comprar uma licença de Telefone de Área Comum (CAP) e garantir que tenha um telefone certificado. Para pesquisar e saber mais sobre telefones certificados, vá para dispositivos [microsoft teams.](https://products.office.com/microsoft-teams/across-devices?ms.url=officecomteamsdevices&rtc=1) 
 
 ## <a name="step-1---buy-the-licenses"></a>Etapa 1 - Compre as licenças
 
-1. No centro de administração do Microsoft 365, vá **Billing**para  >  **serviços de compra** de cobrança e, em seguida, expanda **outros planos**.
+1. No Centro de administração do Microsoft 365, vá para Serviços **de** Compra de Cobrança e  >   expanda **Outros planos.**
 
-    ![Captura de tela mostrando o bloco de telefone de área comum](media/set-up-common-area-phone-image1.png)
+    ![Captura de tela mostrando o tile Telefone de Área Comum](media/set-up-common-area-phone-image1.png)
 
-2. Selecione comprar **telefone da área comum**  >  **agora**.
+2. Selecione **Comprar telefone de área** comum  >  **agora.**
 
-3. Na página check-out, clique em **comprar agora**.
+3. Na página Check-out, clique **em Comprar agora.**
 
-4. Expanda **assinaturas complementares** e clique para comprar um plano de chamadas. Escolha o **plano de chamadas domésticas** ou de **chamadas domésticas e internacionais**.
-
-> [!NOTE]
-> Se você estiver usando o roteamento direto do sistema de telefonia da Microsoft, você não precisa de uma licença de plano de chamada.
+4. Expanda **assinaturas de complemento e** clique para comprar um Plano de Chamada. Escolha o Plano **de Chamada Doméstica** ou o Plano de Chamada Doméstica e **Internacional.**
 
 > [!NOTE]
-> Você não precisa adicionar uma licença do sistema de telefone. Ela está incluída na licença do Telefone da Área Comum.
+> Se você estiver usando o Roteamento Direto do Sistema de Telefonia do Microsoft Phone, não precisará de uma licença do Plano de Chamada.
 
-Para obter mais informações sobre licenças, consulte [Licenciamento de Complementos do Microsoft Teams](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing).
+> [!NOTE]
+> Você não precisa adicionar uma licença do Sistema de Telefonia. Ela está incluída na licença do Telefone da Área Comum.
 
-A licença de telefonia do Common Area é compatível com: 
+Para obter mais informações sobre licenças, consulte o licenciamento [de complementos do Microsoft Teams.](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)
+
+A licença do Telefone de Área Comum dá suporte a: 
 
 
 |   |  Telefone de Área Comum  |
 |---------|---------|
 |Skype for Business |   &#x2714; |
 |Microsoft Teams |   &#x2714; |
-|Sistema Telefônico |    &#x2714; |
-|Audioconferência |       &#x2718; &SUP1;  |
+|Sistema de Telefonia |    &#x2714; |
+|Audioconferência |       &#x2718; &sup1;  |
 |Microsoft Intune |    &#x2718; |
 |Disponibilidade mundial |       &#x2718; &sup2;  |
-|Disponibilidade do canal |    EA, EAS, CSP, GCC, EES, Web Direct  |
+|Disponibilidade do Canal |    EA, EAS, CSP, GCC, EES, Web Direct  |
 |      |         |
 
-&SUP1; Os telefones da área comum podem ingressar em conferências de áudio por meio do número de discagem fornecido pelo organizador da reunião
+&sup1; Os Telefones de Área Comuns podem ingressar em audioconferência por meio do número de discagem fornecido pelo organizador da reunião
 
-&sup2; Não disponível em nuvens soberana  
+&sup2; Não disponível em nuvens soberanas  
 
 
 
 ## <a name="step-2---create-a-new-user-account-for-the-phone-and-assign-the-licenses"></a>Etapa 2 - Criar uma nova conta de usuário para o telefone e atribuir as licenças
 
-1. No centro de administração do Microsoft 365, vá para **usuários**usuários  >  **ativos**  >  **Adicionar um usuário**.
+1. No Centro de administração do Microsoft 365, vá para **usuários**  >  **ativos**  >  **adicionarem um usuário.**
 
-2. Insira um nome de usuário como "Main" para o primeiro nome e "recepção" para o segundo nome.
+2. Insira um nome de usuário como "Principal" para o nome e "Recepção" para o segundo nome.
 
-3. Digite um nome para exibição se ele não gerar automaticamente uma como "recepção principal".
+3. Insira um nome de exibição se ele não gerar automaticamente um, como "Recepção Principal".
 
-4. Digite um nome de usuário como "MainReception" ou "Mainlobby".
+4. Insira um nome de usuário, como "MainReception" ou "Mainlobby".
 
-5. Para telefones celulares comuns, talvez você queira definir uma senha manualmente ou ter a mesma senha para todos os seus telefones comuns da área. Além disso, você pode pensar em desmarcar a caixa de seleção **fazer com que este usuário altere sua senha quando entrar pela primeira vez** .
+5. Para telefones de área comum, talvez você queira definir uma senha manualmente ou ter a mesma senha para todos os telefones de área comuns. Além disso, você pode pensar em limpar a caixa de seleção Fazer com que **este usuário altere** a senha ao entrar pela primeira vez.
 
-6. Atribua as licenças ao usuário. Na mesma página, clique para expandir as **Licenças de produto**. Habilite o telefone de área comum e escolha um **plano de chamadas domésticas** ou um **plano de chamadas doméstico e internacional**. 
+6. Atribua as licenças ao usuário. Na mesma página, clique para expandir as **Licenças de produto**. A ligue o Telefone de Área Comum e escolha um Plano de Chamadas **Domésticas** ou um Plano **de Chamadas Domésticas e Internacionais.** 
 
     ![Captura de tela mostrando atribuição de licença](media/set-up-common-area-phone-image2.png)
 
 > [!NOTE]
-> Se você estiver usando o roteamento direto do sistema de telefonia da Microsoft, você não precisará atribuir uma licença de plano de chamada.
+> Se você estiver usando o Roteamento Direto do Sistema de Telefonia do Microsoft Phone, não será necessário atribuir uma licença de Plano de Chamada.
 
-Para obter mais informações, consulte [atribuir licenças aos usuários](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users).
+Para obter mais informações, consulte [Atribuir licenças aos usuários.](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users)
 
 ## <a name="step-3---assign-a-phone-number-to-the-common-area-phone-user-account"></a>Etapa 3 - Atribuir um número de telefone à conta de usuário do Telefone de Área Comum
 
-Use o centro de administração do teams para atribuir um número ao usuário.
+Use o Centro de administração do Teams para atribuir um número ao usuário.
 
-1. No centro de administração do Teams, selecione números de telefone de **voz**  >  **Phone numbers**.
+1. No Centro de administração do Teams, selecione **números de telefone** de  >  **voz.**
 
 3.    Selecione um número na lista de números de telefone e clique em **Atribuir**.
 
-4. Na página **atribuir** , na caixa usuário de voz, digite o nome do usuário que usará o telefone e, em seguida, selecione o usuário na lista suspensa **selecionar um usuário de voz** .
+4. Na **página** Atribuir, na caixa Usuário de voz, digite o nome do usuário que estará  usando o telefone e selecione o usuário na lista de seleção Selecionar um usuário de voz.
 
-5. Em seguida, você precisa adicionar um endereço de emergência. Escolha **Pesquisar por cidade**, **Pesquisar por descrição**ou **Pesquisar por local** na lista suspensa e, em seguida, insira a cidade, a descrição ou o local na caixa de texto. Depois de Pesquisar, procure em **selecionar endereço de emergência** para selecionar o endereço correto para você.
+5. Em seguida, você precisa adicionar um endereço de emergência. Escolha **Pesquisar por cidade,** Pesquisar  por descrição ou Pesquisar por local na listada e insira a cidade, a descrição ou o local na caixa de texto.  Depois de pesquisar, procure em **Selecionar endereço de emergência** para escolher o endereço certo para você.
 
 6. Clique em **Salvar** e seu usuário ficará assim:
 
    ![Captura de tela mostrando atribuição de licença](media/set-up-common-area-phone-image3.png)
 
 > [!NOTE]
-> Os usuários só aparecerão se tiverem uma licença do sistema de telefonia aplicada. Quando fizer isso, pode levar um tempo para que o usuário apareça na lista.
+> Os usuários só aparecerão se eles têm uma licença do Sistema de Telefonia aplicada. Quando fizer isso, pode levar um tempo para que o usuário apareça na lista.
 
-Para obter mais informações, consulte [como obter números de telefone para seus usuários](getting-phone-numbers-for-your-users.md).
+Para obter mais informações, consulte [Obter números de telefone para seus usuários.](getting-phone-numbers-for-your-users.md)
 
-Você também pode levar seu número de telefone com outra transportadora e "portar" ou transferi-la para o Microsoft 365 ou o Office 365. Veja [transferir números de telefone para o Microsoft Teams](phone-number-calling-plans/transfer-phone-numbers-to-teams.md).
+Você também pode pegar seu número de telefone que tem com outra operadora e "porta", ou transferi-lo para o Microsoft 365 ou o Office 365. Veja [Transferir números de telefone para o Teams.](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)

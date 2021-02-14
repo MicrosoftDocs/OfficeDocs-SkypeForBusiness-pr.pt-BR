@@ -31,12 +31,12 @@ ms.locfileid: "49031037"
 ---
 # <a name="view-guest-users-in-a-team"></a>Visualizar usuários convidados em uma equipe
 
-Qualquer pessoa de uma equipe pode ver todos os membros de uma equipe, incluindo convidados, por meio de **Gerenciar equipe** no Microsoft Teams. [Veja quem está em uma equipe ou em um canal](https://support.office.com/article/see-who-s-on-a-team-or-in-a-channel-5c6be9be-9c45-4a0f-a1a0-f332b23cb6b7) para obter mais detalhes.
+Qualquer pessoa em uma equipe pode ver todos os membros de uma equipe, incluindo convidados, por meio **de Gerenciar equipe** no Microsoft Teams. Consulte [Ver quem está em uma equipe ou em um canal](https://support.office.com/article/see-who-s-on-a-team-or-in-a-channel-5c6be9be-9c45-4a0f-a1a0-f332b23cb6b7) para obter mais detalhes.
 
-Para identificar os usuários convidados:
+Para identificar usuários convidados:
 
-1.  Entre no centro de [Administração do Microsoft 365](https://admin.microsoft.com).
-2.  Selecionar equipes de **centros de administração**  >  **Teams**.
-3.  No centro de administração do Teams, selecione **usuários**. Você verá **convidado** anexado ao nome para exibição de qualquer usuário convidado.
+1.  Entre no Centro de administração [do Microsoft 365.](https://admin.microsoft.com)
+2.  Selecione **o Teams do Centro de**  >  **administração.**
+3.  No Centro de administração do Teams, selecione **Usuários.** Você verá **o convidado** anexado ao nome de exibição de qualquer usuário convidado.
   
-Você também pode identificar os usuários convidados de dentro de uma equipe que você possui.  
+Você também pode identificar usuários convidados de dentro de uma equipe que você possui.  

@@ -22,7 +22,7 @@ ms.custom:
 - Calling Plans
 - Strat_SB_PSTN
 - seo-marvel-mar2020
-description: Saiba mais sobre números de chamada gratuita em um país/região, incluindo disponibilidade, disponibilidade de linha fixa e de linha fixa e restrições de rede móvel e restrições.
+description: Saiba mais sobre como discar números de discagem gratuita em um país/região, incluindo disponibilidade, disponibilidade de rede com fio/fixo e rede móvel e restrições.
 ms.openlocfilehash: 450f9cf2084cc93588f4dbf40d56cf5177eaaa15
 ms.sourcegitcommit: c49698e03fa3bdd7c82496189b200ac6bb4e05a1
 ms.translationtype: MT
@@ -32,7 +32,7 @@ ms.locfileid: "48322300"
 ---
 # <a name="toll-free-dialing-limitations-and-restrictions"></a>Limitações e restrições de discagem gratuita
 
-Isso vai ajudá-lo a descobrir como discar números de chamada gratuita em cada país ou região. Depois de selecionar o país/região, você será retirado para uma página que contenha onde o serviço de chamada gratuita está disponível, incluindo detalhes específicos, restrições e limites. O formato ou formatos de discagem mostrará os códigos de acesso necessários em cada país/região para discar o número de chamada gratuita.
+Isso ajudará você a descobrir como discar números de discagem gratuita em cada país ou região. Depois de selecionar o país/região, ele o levará para uma página que contém onde o serviço de tarifa gratuita está disponível, incluindo detalhes, restrições e limites específicos. O formato ou formato de discagem mostrará os códigos de acesso necessários em cada país/região para discar o número de discagem gratuita.
   
 Se estiver pronto, selecione um país ou região:
   
@@ -105,20 +105,20 @@ Se estiver pronto, selecione um país ou região:
 > - [Venezuela](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-venezuela.md)
 > - [Vietnã ](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-vietnam.md)
   
-## <a name="here-are-some-important-things-for-you-to-remember-about-toll-free-numbers"></a>Aqui estão algumas coisas importantes para você se lembrar dos números de chamada gratuita:
+## <a name="here-are-some-important-things-for-you-to-remember-about-toll-free-numbers"></a>Aqui estão algumas coisas importantes para você se lembrar sobre números de gratuita:
 
-- **Números de chamada gratuita só funcionam em cada país/região.** Por exemplo, os usuários não poderão chamar um número de chamada de chamada australiano fora da Austrália.
+- **Os números de tarifa gratuita só funcionam em cada país/região.** Por exemplo, os usuários não poderão ligar para um número de chamada gratuita australiano fora da Austrália.
     
-- **Não há suporte para a aquisição ou a portabilidade de números do chamada gratuita International International (UIFN).**
+- **Não há suporte para aquisição ou portação de UIFN (Universal International Freephone Numbers).**
     
-- **Em muitos países/regiões, a Agência regulador/telecomunicação no país/região exige que cada número de telefone de chamada gratuita mantenha pelo menos 100 minutos de uso por mês para manter o número.**
+- **Em muitos países/regiões, a agência regulatória/de telecomunicações do país/região exige que cada número de telefone de chamada gratuita mantenha pelo menos 100 minutos de uso por mês para manter o número.**
     
     > [!NOTE]
-    > Caso você receba um número de chamada gratuita e o uso do número não atenda a esses requisitos mínimos, a Microsoft pode ser forçada pela Agência regulador/de telecomunicações para recuperar o número de você. 
+    > Caso você receba um número de tarifa gratuita e o uso do número não atender a esses requisitos mínimos, a Microsoft poderá ser obrigado pela agência de regulamentação/telecomunicações a recuperar o número de você. 
   
-- **A conexão, a linha fixa e o acesso à rede móvel a números de chamada gratuita podem ser total ou parcialmente restritos.** O formato de discagem descreve os códigos de acesso necessários em cada país/região para fazer chamadas usando o número gratuito.
+- **O acesso de linha, linha fixa e rede móvel a números de ligação gratuita pode estar totalmente ou parcialmente restrito.** O formato de discagem descreve os códigos de acesso necessários em cada país/região para fazer chamadas usando o número gratuito.
     
-- **Números de chamada gratuita do plano de numeração da América do Norte:** Tarifas por minuto para números de chamada gratuita do plano de numeração da América do Norte são determinadas pelo país original. A taxa por minuto de chamadas grátis por minuto para chamadas que se originam do mapa de Estados Unidos para a taxa definida como "América do Norte". No entanto, chamadas que se originam de outros países da América do Norte, como Canadá, Porto Rico etc., têm tarifas de chamada gratuita específicas.
+- Números de tarifa gratuita **do plano de numeração** da América do Norte: As taxas por minuto para números de tarifa gratuita do Plano de Numeração da América do Norte são determinadas pelo país de origem. A tarifa de chamada gratuita por minuto para chamadas que se originam do mapa dos Estados Unidos para a taxa definida como "América do Norte". No entanto, as chamadas que se originam de outros países da América do Norte, como Canadá, Porto Rico etc. têm tarifas de chamada gratuita específicas.
 
 > [!NOTE]
 > Se precisar de mais números de telefone, veja [Contatar o suporte de produtos para empresas - Ajuda para administradores](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).

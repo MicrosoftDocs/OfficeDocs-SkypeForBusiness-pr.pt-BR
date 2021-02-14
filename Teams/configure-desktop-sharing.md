@@ -11,7 +11,7 @@ ms.service: msteams
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Saiba como configurar uma política de reunião para permitir que os usuários compartilhem suas áreas de trabalho nos chats ou reuniões do teams.
+description: Saiba como configurar uma política de reunião para permitir que os usuários compartilhem suas áreas de trabalho em chats ou reuniões do Teams.
 ms.collection:
 - M365-collaboration
 ms.custom: seo-marvel-mar2020
@@ -27,7 +27,7 @@ ms.locfileid: "47652464"
 <a name="configure-desktop-sharing-in-microsoft-teams"></a>Configurar o compartilhamento da área de trabalho no Microsoft Teams
 ============================================
 
-O compartilhamento da área de trabalho permite que os usuários apresentem uma tela ou aplicativo durante uma reunião ou bate-papo. Os administradores podem configurar o compartilhamento de tela no Microsoft Teams para permitir que os usuários compartilhem uma tela inteira, um aplicativo ou um arquivo. Você pode permitir que os usuários deem ou solicitem controle, permitam o compartilhamento do PowerPoint, adicionem um quadro branco e permitam anotações compartilhadas. Você também pode configurar se usuários anônimos ou externos podem solicitar o controle da tela compartilhada. Os participantes externos em reuniões de equipes podem ser categorizados da seguinte maneira:
+O compartilhamento da área de trabalho permite que os usuários apresentem uma tela ou aplicativo durante uma reunião ou bate-papo. Os administradores podem configurar o compartilhamento de tela no Microsoft Teams para permitir que os usuários compartilhem uma tela inteira, um aplicativo ou um arquivo. Você pode permitir que os usuários deem ou solicitem controle, permitam o compartilhamento do PowerPoint, adicionem um quadro branco e permitam anotações compartilhadas. Você também pode configurar se usuários anônimos ou externos podem solicitar o controle da tela compartilhada. Os participantes externos nas reuniões das Teams podem ser categorizados da seguinte maneira:
 
 - Usuário anônimo
 - Usuários convidados
@@ -42,9 +42,9 @@ Para configurar o compartilhamento de tela, crie uma nova política de reuniões
 
     ![Políticas de reunião selecionadas](media/configure-desktop-sharing-image1.png)
 
-2. Na página **políticas de reunião** , selecione **Adicionar**.
+2. Na página **Políticas da Reunião,** selecione **Adicionar.**
 
-    ![A mensagem políticas de reunião](media/addMeeting.png)
+    ![A mensagem de políticas de reunião](media/addMeeting.png)
 
 3. Atribua um título exclusivo à sua política e insira uma breve descrição.
 
@@ -54,15 +54,15 @@ Para configurar o compartilhamento de tela, crie uma nova política de reuniões
    - **Aplicativo único** – permite que os usuários limitem o compartilhamento de tela a um único aplicativo ativo.
    - **Desabilitado** – desativa o compartilhamento de tela.
 
-    ![Opções do modo de compartilhamento](media/configure-desktop-sharing-image3.png)
+    ![As opções do modo de compartilhamento](media/configure-desktop-sharing-image3.png)
 
   > [!Note]
-  > Você não precisa habilitar a política de chamada para que os usuários usem o compartilhamento de tela de chat. No entanto, o áudio dele é desligado até que ele desative o áudio. Além disso, o usuário que está compartilhando a tela pode clicar em **adicionar áudio** para ativar o áudio. Se a política de chamada estiver desabilitada, os usuários não poderão adicionar áudio ao compartilhamento de tela de uma sessão de chat.
+  > Você não precisa habilitar a política de chamada para que os usuários usem o compartilhamento de tela do chat. No entanto, o áudio fica desligado até que eles mesmos aututerem. Além disso, o usuário que está compartilhando a tela pode clicar **em Adicionar Áudio** para habilitar o áudio. Se a política de chamada estiver desabilitada, os usuários não poderão adicionar áudio ao compartilhamento de tela de uma sessão de chat.
 
 5. Ative ou desative as seguintes configurações:
 
-    - **Permitir que um participante conceda ou solicite o controle** – permite que os membros da equipe conceda ou solicitem o controle da área de trabalho ou do aplicativo do apresentador.
-    - **Permitir que um participante externo conceda ou solicite o controle** – essa é uma política por usuário. Não importa se uma organização tem essa definição para um usuário não controla o que os participantes externos podem fazer, independentemente do que o organizador da reunião definiu. Esse parâmetro controla se os participantes externos podem receber controle ou solicitação de controle da tela do participante do compartilhamento, dependendo do que o participante do compartilhamento definiu nas políticas de reunião da organização.
+    - **Permitir que um participante dê ou solicite** o controle– permite que os membros da equipe dêm ou solicitem o controle da área de trabalho ou do aplicativo do apresentador.
+    - **Permitir que um participante externo dê ou solicite controle** – essa é uma política por usuário. Se uma organização tiver esse conjunto para um usuário, não controla o que os participantes externos podem fazer, independentemente do que o organizador da reunião definiu. Esse parâmetro controla se os participantes externos podem receber ou solicitar controle da tela de compartilhamento do participante, dependendo do que o participante do compartilhamento definiu dentro das políticas da sua organização.
     - **Permitir o compartilhamento do PowerPoint** - permite que os usuários criem reuniões que permitem que as apresentações do PowerPoint sejam carregadas e compartilhadas.
     - **Permitir quadro de comunicações** – permite que os usuários compartilhem um quadro de comunicações.
     - **Permitir anotações compartilhadas** – permite que os usuários façam anotações compartilhadas.

@@ -18,7 +18,7 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
-description: Use esta tabela para encontrar informações sobre como obter e gerenciar números de telefone na Austrália do Microsoft Teams.
+description: Use esta tabela para encontrar informações sobre como obter e gerenciar números de telefone na Austrália para o Microsoft Teams.
 ms.openlocfilehash: e62f87f810ac8572fd893561461e159e9bc41821
 ms.sourcegitcommit: c49698e03fa3bdd7c82496189b200ac6bb4e05a1
 ms.translationtype: MT
@@ -27,24 +27,24 @@ ms.lasthandoff: 09/30/2020
 ms.locfileid: "48321664"
 ---
 # <a name="phone-number-management-for-australia"></a>Gerenciamento de números de telefone para a Austrália
-Na Austrália, fizemos a parceria com a Telstra para compra e provisionamento de planos de chamadas para clientes com um endereço de cobrança na Austrália. O Telstra venderá seus planos de chamadas, fornecerá números de usuário da Austrália e também fornecerá o suporte para o gerenciamento de número de telefone tanto para os números de usuário e de serviço para atendedores automáticos e filas de chamadas. No entanto, os números de serviço e as licenças de conferência de áudio ainda serão vendidos e gerenciados pelo Microsoft 365 e pelo Office 365.
+Na Austrália, fizemos uma parceria com a Telstra para a compra e o provisionamento de Planos de Chamada para clientes com um endereço de cobrança na Austrália. A Telstra venderá seus Planos de Chamada, fornecerá números de usuário australianos e também fornecerá suporte para o gerenciamento de números de telefone para usuários e números de serviço para atender automaticamente e filas de chamadas. No entanto, números de serviço e licenças para Audioconferência ainda serão vendidos e gerenciados pelo Microsoft 365 e pelo Office 365.
 
-Para obter mais informações sobre a [chamada do Telstra](https://aka.ms/TelstraVoicePlan).
+Para obter mais informações sobre a [Chamada Telstra.](https://aka.ms/TelstraVoicePlan)
 
-Use esta tabela para encontrar informações sobre como obter e gerenciar números de telefone na Austrália do Microsoft Teams.
+Use esta tabela para encontrar informações sobre como obter e gerenciar números de telefone na Austrália para o Microsoft Teams.
 
-Para obter mais informações, consulte  [gerenciar números de telefone para sua organização](manage-phone-numbers-for-your-organization.md).
+Para obter mais informações, consulte [Gerenciar números de telefone para sua organização.](manage-phone-numbers-for-your-organization.md)
   
 |**O que você deseja fazer?**|**Execute estas etapas e baixe os formulários corretos**|
 |:-----|:-----|
-|Obtenha novos números de telefone de usuário para planos de chamadas na Austrália.   <br/> |Entre em contato com [Telstra chamadas](https://aka.ms/TelstraVoicePlan) para obter novos números de telefone para seus usuários. Em seguida, eles adicionarão esses números à sua organização para que você possa atribuí-los aos usuários. <br/>
-|Se estiver utilizando chamadas Telstra, você poderá receber novos números de telefone de serviço que podem ser usados com atendedores automáticos da nuvem e filas de chamadas para a Austrália do Telstra. <br/> |Entre em contato com [Telstra chamadas](https://aka.ms/TelstraVoicePlan) para obter novos números de telefone. Em seguida, eles adicionarão esses números à sua organização para que você possa atribuí-los aos atendedores automáticos e às filas de chamadas. Se não estiver usando chamadas Telstra, você pode entrar em contato com o nosso número ManagementService Desk da Microsoft para obter números de serviço da Microsoft [em contato conosco](mailto:ptnapac@microsoft.com). <br/>|
-|Obtenha novos números de telefone de serviço para conferências de áudio na Austrália.   <br/> |[Entre em contato conosco](mailto:ptnapac@microsoft.com).|
-|Obter números de telefone transferidos para o Microsoft 365 ou o Office 365 para usuários, atendedores automáticos e filas de chamadas.  <br/> |Entre em contato com [Telstra chamada](https://aka.ms/TelstraVoicePlan) para transferir números de telefone. Em seguida, eles adicionarão esses números à sua organização.  <br/> |
-|Obter números de telefone transferidas para o Microsoft 365 ou o Office 365 para uso com a conferência de áudio.  |[Entre em contato conosco](mailto:ptnapac@microsoft.com) |
-|Alterar o endereçamento de emergência atribuído a usuários que têm um número de telefone de plano de chamadas. |Entre em contato com [Telstra chamada](https://aka.ms/TelstraVoicePlan) para fazer alterações de endereço de emergência. Eles podem atualizar essas informações para você.|
-|Alterar um número de usuário para um número de serviço. |Com suporte ao usar a chamada do Telstra.|
-|Fazer atualizações de serviço de diretório para números de fila de chamadas ou atendedor automático|Para adicionar ou alterar os números da fila de chamadas ou do atendedor automático, entre em contato com [o serviço de suporte PSTN](contact-pstn-service-desk.md). |
+|Obter novos números de telefone de usuário para Planos de Chamada na Austrália.   <br/> |Entre em contato [com a Chamada Telstra](https://aka.ms/TelstraVoicePlan) para ver novos números de telefone para seus usuários. Em seguida, eles adicionarão esses números à sua organização para que você possa atribuí-los aos usuários. <br/>
+|Se você estiver utilizando a Chamada Telstra, poderá obter novos números de telefone de serviço que podem ser usados com os atenderes automáticos de nuvem e filas de chamadas para a Austrália a partir de Telstra. <br/> |Entre em contato [com a Chamada Telstra](https://aka.ms/TelstraVoicePlan) para ver novos números de telefone. Em seguida, eles adicionarão esses números à sua organização para que você possa atribuí-los aos seus assistentes automáticos e filas de chamada. Se você não estiver utilizando a Chamada Telstra, entre em contato com nosso suporte do Microsoft Number ManagementService para obter números de serviço da Microsoft [Fale conosco.](mailto:ptnapac@microsoft.com) <br/>|
+|Obter novos números de telefone de serviço para Audioconferência na Austrália.   <br/> |[Entre em contato conosco.](mailto:ptnapac@microsoft.com)|
+|Obter números de telefone transferidos para o Microsoft 365 ou o Office 365 para usuários, atender automaticamente e filas de chamadas.  <br/> |Entre em contato com [a Chamada Telstra](https://aka.ms/TelstraVoicePlan) para transferir números de telefone. Em seguida, eles adicionarão esses números à sua organização.  <br/> |
+|Obter números de telefone transferidos para o Microsoft 365 ou o Office 365 para uso com Audioconferência.  |[Entre em contato conosco](mailto:ptnapac@microsoft.com) |
+|Altere o endereçamento de emergência atribuído aos usuários que têm um número de telefone do Plano de Chamada. |Entre em contato com [a Chamada Telstra](https://aka.ms/TelstraVoicePlan) para fazer alterações de endereço de emergência. Eles podem atualizar essas informações para você.|
+|Altere um número de usuário para um número de serviço. |Com suporte ao usar a Chamada Telstra.|
+|Fazer atualizações de serviço de diretório para números de fila de chamada ou de atendimento automático|Para adicionar ou alterar os números da fila de chamada ou do atendimento automático, entre em contato com o service [desk PSTN.](contact-pstn-service-desk.md) |
 
 ## <a name="related-topics"></a>Tópicos relacionados
 
