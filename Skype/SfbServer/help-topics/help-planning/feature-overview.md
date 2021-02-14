@@ -75,11 +75,11 @@ Os elementos restantes foram preenchidos com as respostas que  você forneceu à
     
 - **Federação com versões anteriores**
     
-- **Federação com provedores de serviços públicos de IM** Permite que os usuários em sua organização estabeleçam comunicação com provedores públicos de serviços de mensagens instantâneas, como MSN, Yahoo!, e AOL. Uma licença separada é necessária para estabelecer federação com redes públicas de mensagens instantâneas.
+- **Federação com provedores de serviços públicos de IM** Permite que os usuários em sua organização estabeleçam comunicação com provedores públicos de serviços de mensagens instantâneas, como MSN, Yahoo!, e AOL. Uma licença separada é necessária para estabelecer a federação com redes públicas de mensagens instantâneas.
     
 - **Federação com provedor de serviços baseado em XMPP**
     
-    O Skype for Business Server 2015 apresenta um proxy XMPP totalmente integrado (implantado nos Servidores de Borda) e um gateway XMPP implantado em seus Servidores Front-End. Você pode implantar Adicionando e configurando o proxy XMPP e o gateway XMPP permitirá que os usuários do Skype for Business Server 2015 adicionem contatos de parceiros baseados em XMPP para mensagens instantâneas (IM) e presença.
+    O Skype for Business Server 2015 apresenta um proxy XMPP totalmente integrado (implantado nos Servidores de Borda) e um gateway XMPP implantado em seus Servidores Front-End. Você pode implantar Adicionando e configurando o proxy XMPP e o gateway XMPP permitirá que seus usuários do Skype for Business Server 2015 adicionem contatos de parceiros baseados em XMPP para mensagens instantâneas (IM) e presença.
     
 - **Mobilidade**
     
@@ -139,7 +139,7 @@ Os elementos restantes foram preenchidos com as respostas que  você forneceu à
     
 ### <a name="server-applications"></a>Aplicativos para servidores
 
- **Os aplicativos para** servidores contêm as seguintes opções:
+ **Os Aplicativos para** Servidores contêm as seguintes opções:
   
 - **Grupo de Resposta**
     
@@ -147,7 +147,7 @@ Os elementos restantes foram preenchidos com as respostas que  você forneceu à
     
 - **Comunicado**
     
-    Se você planeja implantar o Enterprise Voice, talvez queira configurar como as chamadas telefônicas serão tratadas se o número discado for válido, mas não atribuído a uma área comum do usuário. Os administradores podem configurar o Serviço de Comunicado para que essas chamadas transfiram para um destino predeterminado (número de telefone ou URI do SIP) ou reproduzam um comunicado de áudio ou ambos. O uso do Serviço de Comunicado evita a situação em que um chamador faz uma misdial e ouve um tom de ocupado ou o cliente SIP recebe uma mensagem de erro. A funcionalidade do Serviço de Comunicado é um recurso típico de PBX. 
+    Se você planeja implantar o Enterprise Voice, talvez queira configurar como as chamadas telefônicas serão tratadas se o número discado for válido, mas não atribuído a uma área comum do usuário. Os administradores podem configurar o Serviço de Comunicado para que essas chamadas transfiram para um destino predeterminado (número de telefone ou URI do SIP) ou reproduzam um comunicado de áudio ou ambos. O uso do Serviço de Comunicado evita a situação em que um chamador se desinforma e ouve um tom de ocupado ou o cliente SIP recebe uma mensagem de erro. A funcionalidade do Serviço de Comunicado é um recurso típico de PBX. 
     
 - **Estacionamento de chamada**
     

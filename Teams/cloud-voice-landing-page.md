@@ -21,7 +21,7 @@ ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-may2020
 search.appverid: MET150
-description: Saiba mais sobre os recursos de voz do Microsoft Teams Cloud e as decisões de implantação que você fará para sua organização.
+description: Saiba mais sobre os recursos de voz na nuvem do Microsoft Teams e as decisões de implantação que você tomará para sua organização.
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: e16a2aea0d367c720cf36c8010670a34472ab43a
@@ -31,219 +31,219 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 12/17/2020
 ms.locfileid: "49701329"
 ---
-# <a name="plan-your-teams-voice-solution"></a>Planejar a solução de voz do teams 
+# <a name="plan-your-teams-voice-solution"></a>Planejar sua solução de voz do Teams 
 
-Este artigo ajuda você a decidir qual solução Microsoft Voice é ideal para sua organização. Depois de decidir, o artigo fornece um roteiro para o conteúdo que permitirá implementar a solução escolhida.
+Este artigo ajuda você a decidir qual solução de voz da Microsoft é ideal para sua organização. Depois de decidir, o artigo fornece um roteiro para o conteúdo que permitirá que você implemente a solução escolhida.
 
 > [!NOTE]
-> Para obter orientação sobre como planejar uma solução de voz do teams como parte do plano geral de atualização para o Teams do Skype for Business Server, consulte [considerações de PSTN para a atualização do Microsoft Teams no Skype for Business local](upgrade-to-Teams-on-prem-pstn-considerations.md).
+> Para obter orientações sobre como planejar uma solução de voz do Teams como parte de seu plano geral para atualizar para o Teams do Skype for Business Server, consulte as considerações [PSTN](upgrade-to-Teams-on-prem-pstn-considerations.md)para atualizar para o Teams do Skype for Business local.
 
-Você pode querer o sistema de telefonia da solução mais simples &mdash; com plano de chamadas. Esta é a solução completa da Microsoft que fornece funcionalidade de PBX (Private Branch Exchange) e chamadas para a rede telefônica pública comutada (PSTN), conforme mostrado no diagrama a seguir. Com esta solução, a Microsoft é a sua operadora PSTN.
+Talvez você queira a solução mais simples do Sistema &mdash; telefônico com Plano de Chamada. Esta é a solução de toda a nuvem da Microsoft que fornece funcionalidade de PbX (Private Branch Exchange) e chamadas para a PSTN (Rede Telefônica Pública Comutado), conforme mostrado no diagrama a seguir. Com essa solução, a Microsoft é sua operadora PSTN.
 
-![O diagrama 1 mostra o sistema telefônico com plano de chamada](media/voice-solutions-simple.png)
+![O Diagrama 1 mostra o Sistema de Telefonia com Plano de Chamada](media/voice-solutions-simple.png)
 
-Se você responder sim para o seguinte, o sistema telefônico com plano de chamadas será a solução certa para você:
+Se você responder sim ao seguinte, o Sistema de Telefonia com Plano de Chamada é a solução certa para você:
 
-- O plano de chamadas está disponível na sua região.
+- O Plano de Chamada está disponível em sua região.
 - Você não precisa manter sua operadora PSTN atual.
-- Você deseja usar o acesso gerenciado pela Microsoft à PSTN.
+- Você deseja usar o acesso gerenciado pela Microsoft ao PSTN.
 
-No entanto, sua situação pode ser mais complexa. Por exemplo, você pode ter escritórios em locais nos quais o plano de chamadas não está disponível. Ou talvez você precise de uma solução de combinação compatível com uma implantação complexa e multinacionais, com requisitos diferentes para locais geográficos diferentes. A Microsoft oferece suporte a uma combinação de soluções: 
+No entanto, sua situação pode ser mais complexa. Por exemplo, você pode ter escritórios em locais onde o Plano de Chamada não está disponível. Ou talvez você precise de uma solução de combinação que suporte uma implantação complexa e multi-nacional, com requisitos diferentes para locais geográficos diferentes. A Microsoft oferece suporte a uma combinação de soluções: 
 
-- Sistema telefônico com plano de chamada
-- Sistema telefônico com o seu próprio transportador PSTN com roteamento direto
-- Uma solução de combinação que usa o sistema telefônico com plano de chamada e sistema telefônico com roteamento direto
+- Sistema telefônico com Plano de Chamada
+- Sistema telefônico com sua própria operadora PSTN com Roteamento Direto
+- Uma solução de combinação que usa o Sistema telefônico com o Plano de Chamada e o Sistema de Telefonia com Roteamento Direto
 
 ## <a name="what-do-you-need-to-read"></a>O que você precisa ler?
 
-**Obrigatório para todos.** Algumas das seções deste artigo pertencem a todas as organizações. Por exemplo, todos devem ler sobre o sistema telefônico e compreender as opções para se conectar à rede telefônica pública comutada (PSTN). 
+**Obrigatório para todos.** Algumas das seções deste artigo pertencem a todas as organizações. Por exemplo, todos devem ler sobre o Sistema telefônico e entender as opções de conexão com a PSTN (Rede Telefônica Pública Comutado). 
 
 
-| Necessário para todos os | Descrição |
+| Obrigatório para todos | Descrição |
 | :------------|:-------|
-| [**Sistema de Telefonia**](#phone-system) | A tecnologia da Microsoft para habilitar os recursos de controle de chamada e PBX (Private Branch Exchange) na nuvem do Microsoft 365 com o Microsoft Teams. |
-| [**Opções de conectividade PSTN (rede telefônica pública comutada)**](#public-switched-telephone-network-connectivity-options) | Uma escolha entre usar a Microsoft como sua operadora de telefonia ou conectar sua própria operadora de telefonia ao Microsoft Teams usando o roteamento direto. Combinado com o sistema telefônico, as opções de conectividade PSTN permitem que os usuários façam chamadas para telefones no mundo todo.|
+| [**Sistema de Telefonia**](#phone-system) | A tecnologia da Microsoft para habilenciar os recursos de controle de chamada e PBX (Private Branch Exchange) na nuvem do Microsoft 365 com o Microsoft Teams. |
+| [**Opções de conectividade PSTN (Rede Telefônica Pública Comutado)**](#public-switched-telephone-network-connectivity-options) | Uma opção entre usar a Microsoft como operadora de telefonia ou conectar sua própria operadora de telefonia ao Microsoft Teams usando o Roteamento Direto. Combinado com o Sistema telefônico, as opções de conectividade PSTN permitem que os usuários façam chamadas telefônicas em todo o mundo.|
 
-**Dependendo dos seus requisitos.** Algumas das seções neste artigo são pertinentes dependendo da implantação e dos requisitos existentes. Por exemplo, Location-Based roteamento só é necessário para os clientes de roteamento direto em locais geográficos que não permitem o bypass de chamada tarifada.
+**Dependendo de seus requisitos.** Algumas das seções deste artigo são pertinentes, dependendo da implantação e dos requisitos existentes. Por exemplo, o Location-Based roteamento só é necessário para clientes de Roteamento Direto em locais geográficos que não permitem ignorar tarifas.
 
 Considere quais dessas configurações adicionais você pode precisar:
 
-![O diagrama 2 mostra outros componentes de voz, como números de telefone da Microsoft, planos de discagem e encaminhamento de chamadas, etc.](media/voice-consider-additional-components.png)
+![O Diagrama 2 mostra componentes de voz adicionais, como números de telefone da Microsoft, planos de discagem e roteamento de chamadas e assim por diante.](media/voice-consider-additional-components.png)
 
-| Dependendo dos seus requisitos | Descrição |
+| Dependendo de seus requisitos | Descrição |
 | :------------|:-------|
-| [**Números de telefone da Microsoft**](#phone-numbers-from-microsoft) | Como obter e gerenciar números de telefone da Microsoft e como transferir números existentes para a Microsoft. Leia isto se precisar obter números de telefone para o plano de chamadas da Microsoft, transferir números existentes, obter números de serviço e assim por diante. |
-| [**Planos de discagem e encaminhamento de chamadas**](#dial-plans-and-call-routing) | Como configurar e gerenciar planos de discagem que convertem números de telefone discados em um formato alternativo (geralmente formato E. 164) para autorização de chamadas e encaminhamento de chamadas. Leia esta opção se você precisar entender quais são os planos de discagem e se precisará especificar planos de discagem para a sua organização.|
-| [**Chamadas de emergência**](#emergency-calling) | Como gerenciar e configurar as chamadas de emergência &mdash; dependendo da opção de conectividade PSTN. Leia esta seção se estiver usando o plano de chamadas da Microsoft ou o roteamento direto e precisar compreender como gerenciar as chamadas de emergência para sua organização. |
-| [**Roteamento baseado em local para roteamento direto**](#location-based-routing-for-direct-routing) |Como usar o roteamento de Location-Based (LBR) para restringir o bypass para usuários do Microsoft Teams com base em sua localização geográfica. Leia esta seção se a sua organização estiver usando o roteamento direto em um local que não permita o bypass de chamada tarifada.
-| [**Topologia de rede para recursos de voz na nuvem**](#network-topology-for-voice-features) | Se a sua organização estiver implantando o roteamento de Location-Based (LBR) para roteamento direto ou chamadas de emergência dinâmicas, você deve definir as configurações de rede para usar com esses recursos no Microsoft Teams. Leia esta seção se você estiver implementando LBR para roteamento direto ou se estiver implementando chamadas de emergência dinâmicas com plano de chamada ou roteamento direto. |
-| [**Migrar sua solução de voz existente**](#migrate-your-existing-voice-solution-to-teams) | O que você precisa pensar ao migrar sua solução de voz para o Microsoft Teams.  Leia esta seção se você estiver migrando de uma solução de voz existente para o Microsoft Teams. 
+| [**Números de telefone da Microsoft**](#phone-numbers-from-microsoft) | Como obter e gerenciar números de telefone da Microsoft e como transferir números existentes para a Microsoft. Leia isto se precisar obter números de telefone para o Plano de Chamada da Microsoft, transferir números existentes, obter números de serviço e assim por diante. |
+| [**Planos de discagem e roteamento de chamadas**](#dial-plans-and-call-routing) | Como configurar e gerenciar planos de discagem que traduzem números de telefone discados em um formato alternativo (normalmente formato E.164) para autorização de chamada e roteamento de chamadas. Leia isso se você precisar entender quais são os planos de discagem e se precisa especificar planos de discagem para sua organização.|
+| [**Chamada de emergência**](#emergency-calling) | Como gerenciar e configurar as chamada de emergência dependendo da sua opção de conectividade &mdash; PSTN. Leia esta seção se você estiver usando o Plano de Chamada da Microsoft ou o Roteamento Direto e precisar entender como gerenciar chamadas de emergência para sua organização. |
+| [**Roteamento com base em local para Roteamento Direto**](#location-based-routing-for-direct-routing) |Como usar o Location-Based (LBR) para restringir o bypass de chamada tarifada para usuários do Microsoft Teams com base em sua localização geográfica. Leia esta seção se sua organização estiver usando o Roteamento Direto em um local que não permita o bypass de tarifas tarifada.
+| [**Topologia de rede para recursos de voz na nuvem**](#network-topology-for-voice-features) | Se sua organização estiver implantando Location-Based roteamento (LBR) para Roteamento Direto ou chamadas de emergência dinâmicas, você deverá definir as configurações de rede para uso com esses recursos no Microsoft Teams. Leia esta seção se você estiver implementando a LBR para Roteamento Direto ou se estiver implementando chamadas de emergência dinâmicas com Plano de Chamada ou Roteamento Direto. |
+| [**Migrar sua solução de voz existente**](#migrate-your-existing-voice-solution-to-teams) | O que você precisa pensar ao migrar sua solução de voz para o Teams.  Leia esta seção se você estiver migrando de uma solução de voz existente para o Teams. 
 
 
 
 > [!Important]
-> Este artigo se concentra em soluções de voz com o Microsoft Teams. Embora as soluções com o Skype for Business online ainda estejam disponíveis (conforme descrito nas [soluções de telefonia da Microsoft](https://docs.microsoft.com/SkypeForBusiness/hybrid/msft-telephony-solutions)), é importante entender que o Skype for Business online será desativado em 31 de julho de 2021.  Após essa data, o serviço Skype for Business online não será mais acessível. Além disso, a conectividade PSTN entre seu ambiente local, &mdash; seja por meio do Skype for Business Server ou do Cloud Connector Edition &mdash; e do Skype for Business Online, não será mais compatível. Este artigo apresenta as soluções de voz do Teams e como você pode conectar sua rede de telefonia local, se necessário, ao Teams usando o roteamento direto.
+> Este artigo se concentra em soluções de voz com o Microsoft Teams. Embora as soluções com o Skype for Business Online ainda estão disponíveis (conforme descrito nas soluções de telefonia [da Microsoft),](https://docs.microsoft.com/SkypeForBusiness/hybrid/msft-telephony-solutions)é importante compreender que o Skype for Business Online será retirado em 31 de julho de 2021.  Após essa data, o serviço Skype for Business Online não estará mais acessível. Além disso, a conectividade PSTN entre seu ambiente local, seja por meio do Skype for Business Server ou do Cloud Connector Edition e do Skype for Business Online, não terá &mdash; &mdash; mais suporte. Este artigo apresenta as soluções de voz do Teams e como você pode conectar sua rede de telefonia local, se necessário, ao Teams usando o Roteamento Direto.
 
 
-## <a name="phone-system"></a>Sistema Telefônico
+## <a name="phone-system"></a>Sistema de Telefonia
 
-O sistema de telefonia é a tecnologia da Microsoft para habilitar os recursos de controle de chamada e PBX (Private Branch Exchange) na nuvem do Microsoft 365 ou do Office 365 com o Microsoft Teams.
+O Sistema de Telefonia é a tecnologia da Microsoft para habilenciar os recursos de controle de chamada e PBX (Private Branch Exchange) na nuvem do Microsoft 365 ou do Office 365 com o Microsoft Teams.
 
-O sistema de telefonia funciona com o Microsoft Teams ou clientes do Skype for Business e dispositivos certificados. O sistema telefônico permite substituir seu sistema PBX existente por um conjunto de recursos entregues diretamente do Microsoft 365 ou do Office 365. 
+O Sistema telefônico funciona com o Teams ou clientes e dispositivos certificados do Skype for Business. O Sistema telefônico permite substituir seu sistema PBX existente por um conjunto de recursos fornecidos diretamente do Microsoft 365 ou do Office 365. 
 
-As chamadas entre os usuários da sua organização são manipuladas internamente no sistema telefônico e nunca vão para a PSTN (rede telefônica pública comutada). Isso se aplica a chamadas entre usuários de sua organização localizados em diferentes áreas geográficas, eliminando os custos de longa distância dessas chamadas internas.
+As chamadas entre usuários em sua organização são tratadas internamente no Sistema Telefônico e nunca vão para a PSTN (Rede Telefônica Pública Comutado). Isso se aplica a chamadas entre usuários de sua organização localizados em diferentes áreas geográficas, eliminando os custos de longa distância dessas chamadas internas.
 
-Este artigo apresenta os seguintes recursos e funcionalidades importantes do sistema telefônico e as decisões de implantação que você precisará considerar:
+Este artigo apresenta os seguintes recursos e funcionalidades principais do Sistema de Telefonia e as decisões de implantação que você precisará considerar:
 
 - [Atendedores automáticos e filas de chamadas](#auto-attendants-and-call-queues)
 - [Caixa Postal da Nuvem](#cloud-voicemail)
 - [Identidade de chamada](#calling-identity)
 
-![O diagrama 3 mostra o sistema telefônico contém atendedores automáticos e consultas de chamada, correio de voz na nuvem e identidade de chamada](media/phone-system-contains.png)
+![O Diagrama 3 mostra que o sistema de telefonia contém atendedores automáticos e consultas de chamada, caixa postal na nuvem e identidade de Chamada](media/phone-system-contains.png)
 
-Para saber mais sobre todos os recursos do sistema telefônico e como configurar o sistema telefônico, confira os seguintes artigos:
+Para obter informações sobre todos os recursos do Sistema de Telefonia e como configurar o Sistema de Telefonia, consulte os seguintes artigos:
 
 - [Veja o que você obtém com o Sistema de Telefonia](here-s-what-you-get-with-phone-system.md)
-- [Configurar o sistema telefônico em sua organização](setting-up-your-phone-system.md)<br>
-  Descreve como comprar e atribuir licenças do sistema telefônico, gerenciar números de telefone e configurar créditos de comunicação para números de chamada gratuita. 
+- [Configurar o Sistema telefônico em sua organização](setting-up-your-phone-system.md)<br>
+  Descreve como comprar e atribuir licenças do Sistema de Telefonia, gerenciar números de telefone e configurar créditos de comunicação para números de chamada gratuita. 
 
-Para obter informações sobre o gerenciamento de dispositivos compatíveis, consulte [gerenciar seus dispositivos no Microsoft Teams e no](devices/device-management.md) [Teams Marketplace](https://www.microsoft.com/microsoft-365/microsoft-teams/across-devices?ms.url=officecomteamsdevices&rtc=1).
+Para obter informações sobre como gerenciar dispositivos compatíveis, consulte [Gerenciar seus dispositivos no Microsoft Teams e](devices/device-management.md) no Teams [Marketplace.](https://www.microsoft.com/microsoft-365/microsoft-teams/across-devices?ms.url=officecomteamsdevices&rtc=1)
 
 
-### <a name="auto-attendants-and-call-queues"></a>Atendedores automáticos e filas de chamadas
+### <a name="auto-attendants-and-call-queues"></a>Assistentes automáticos e filas de chamada
 
-Os atendedores automáticos permitem que você configure opções de menu para direcionar chamadas com base na entrada do chamador. As filas de chamadas estão aguardando áreas para chamadores. Usados juntos, atendedores automáticos e filas de chamadas podem facilmente direcionar os chamadores para a pessoa ou departamento apropriado de sua organização.
+Os atenderes automáticos permitem configurar opções de menu para rotear chamadas com base na entrada do chamador. Filas de chamada são áreas de espera para chamadores. Usados em conjunto, os atendimentos automáticos e as filas de chamada podem roteá-los facilmente para a pessoa ou o departamento apropriado em sua organização.
 
-Para obter informações sobre atendedores automáticos e filas de chamadas, consulte os seguintes artigos:
+Para obter informações sobre os atendimentos automáticos e filas de chamada, consulte os seguintes artigos:
 
-- [Planejar os atendedores automáticos e as filas de chamadas do teams](plan-auto-attendant-call-queue.md)
-- [Configurar um atendedor automático](create-a-phone-system-auto-attendant.md)
+- [Planejar os atendimentos automáticos e filas de chamada do Teams](plan-auto-attendant-call-queue.md)
+- [Configurar um assistente automático](create-a-phone-system-auto-attendant.md)
 - [Criar uma fila de chamadas](create-a-phone-system-call-queue.md) 
-- [Estudo de caso da Contoso: atendedores automáticos e filas de chamadas](voice-case-study-call-queues.md)<br>
-  Descreve como uma corporação multinacionais fictícia, contoso, implementou atendedores automáticos e filas de chamadas para sua solução de voz.
+- [Estudo de caso da Contoso: Atendimentos automáticos e filas de chamada](voice-case-study-call-queues.md)<br>
+  Descreve como uma corporação multi-nacional fictícia, a Contoso, implementou os atendimentos automáticos e filas de chamadas para sua solução de voz.
 
 ### <a name="cloud-voicemail"></a>Caixa Postal na Nuvem
 
-Correio de voz na nuvem, da plataforma de serviços de correio de voz do Azure, oferece suporte a depósitos de correio de voz para o Exchange Ele não é compatível com sistemas de email de terceiros. 
+A Caixa Postal na Nuvem, da plataforma Azure Voicemail Services, dá suporte somente a depósitos de caixa postal nas caixas de correio do Exchange. Ele não dá suporte a sistemas de email de terceiros. 
 
-O correio de voz na nuvem inclui a transcrição de correio de voz, que é habilitada para todos os usuários da sua organização por padrão. Suas necessidades comerciais podem exigir que você desabilite a transcrição de correio de voz para usuários específicos ou todos em toda a organização.
+A Caixa Postal na Nuvem inclui transcrição da mensagem de voz que, por padrão, está habilitada para todos os usuários da organização. Suas necessidades comerciais podem exigir que você desabilite a transcrição da caixa postal para usuários específicos ou para todos em toda a organização.
 
-Para usuários online, o correio de voz em nuvem é automaticamente configurado e provisionado para os usuários após a atribuição de uma licença do sistema telefônico. Para usuários de sistema telefônico com uma caixa de correio do Exchange, você precisará executar etapas de configuração adicionais. 
+Somente usuários online, a Caixa Postal na Nuvem é configurada e provisionada automaticamente para os usuários depois que uma licença do Sistema de Telefonia é atribuída. Para usuários do Sistema telefônico com uma caixa de correio do Exchange, você precisará executar etapas de configuração adicionais. 
 
-Para obter mais informações sobre o correio de voz em nuvem e sua configuração, consulte os seguintes artigos:
+Para saber mais sobre a Caixa Postal na Nuvem e sua configuração, consulte os seguintes artigos:
 
 - [Configurar a caixa postal na nuvem](set-up-phone-system-voicemail.md)
-- [Definir políticas de correio de voz em sua organização](set-up-phone-system-voicemail.md#setting-voicemail-policies-in-your-organization)
+- [Definir políticas de caixa postal em sua organização](set-up-phone-system-voicemail.md#setting-voicemail-policies-in-your-organization)
 
 
 ### <a name="calling-identity"></a>Identidade de chamada
 
-Por padrão, todas as chamadas de saída usam o número de telefone atribuído como identidade de chamada (identificação de chamadas). O destinatário da chamada pode identificar o autor da chamada rapidamente e decidir se deseja aceitar ou rejeitar a chamada. Para obter informações sobre como configurar o recurso de identificação de chamadas ou para alterar ou bloquear o recurso de identificação de chamadas, consulte [definir a identificação de chamadas para um usuário](set-the-caller-id-for-a-user.md). 
+Por padrão, todas as chamadas de saída usam o número de telefone atribuído como identidade de chamada (ID do chamador). O destinatário da chamada pode identificar o autor da chamada rapidamente e decidir se deseja aceitar ou rejeitar a chamada. Para obter informações sobre como configurar a ID de chamada ou para alterar ou bloquear a ID de chamada, consulte Definir a ID de chamada [de um usuário.](set-the-caller-id-for-a-user.md) 
 
-## <a name="public-switched-telephone-network-connectivity-options"></a>Opções de conectividade de rede telefônica comutada pública
+## <a name="public-switched-telephone-network-connectivity-options"></a>Opções de conectividade de Rede Telefônica Pública Comutado
 
-O sistema telefônico oferece recursos de PBX completos para sua organização. No entanto, para permitir que os usuários façam chamadas fora da sua organização, você precisa conectar o sistema telefônico à rede telefônica pública comutada (PSTN). Para conectar o sistema telefônico à PSTN, você pode escolher uma das seguintes opções:
+O Sistema telefônico fornece recursos pbx completos para sua organização. No entanto, para permitir que os usuários façam chamadas fora da sua organização, você precisa conectar o Sistema Telefônico à PSTN (Rede Telefônica Pública Comutado). Para conectar o Sistema Telefônico ao PSTN, você pode escolher uma das seguintes opções:
 
-- [**Sistema telefônico com plano de chamadas**](#phone-system-with-calling-plan). Uma solução completa na nuvem com a Microsoft como sua operadora PSTN.
+- [**Sistema telefônico com Plano de Chamada.**](#phone-system-with-calling-plan) Uma solução de toda a nuvem com a Microsoft como operadora PSTN.
 
-- [**Sistema telefônico com sua própria transportabilidade PSTN usando o**](#phone-system-with-own-pstn-carrier-with-direct-routing) roteamento direto para conectar seu ambiente local ao Teams.
+- [**Sistema telefônico com sua própria operadora PSTN**](#phone-system-with-own-pstn-carrier-with-direct-routing) usando o Roteamento Direto para conectar seu ambiente local ao Teams.
 
-Você também pode escolher uma combinação de opções, que permite que você projete uma solução para um ambiente complexo ou gerencie uma migração em várias etapas (mais informações sobre a migração mais tarde).
+Você também pode escolher uma combinação de opções, que permite criar uma solução para um ambiente complexo ou gerenciar uma migração de várias etapas (mais sobre migração posterior).
 
-### <a name="phone-system-with-calling-plan"></a>Sistema telefônico com plano de chamada 
+### <a name="phone-system-with-calling-plan"></a>Sistema telefônico com Plano de Chamada 
 
-Conforme descrito anteriormente neste artigo, sistema telefônico com plano de chamadas é a solução completa de voz da Microsoft para usuários do teams. Esta é a opção mais simples que conecta o sistema telefônico da Microsoft à rede telefônica pública comutada (PSTN) para permitir chamadas para telefones fixos e celulares em todo o mundo. Com essa opção, a Microsoft oferece funcionalidade de PBX (Private Branch Exchange) para sua organização e age como sua operadora PSTN, conforme mostrado no diagrama a seguir:
+Conforme descrito anteriormente neste artigo, o Sistema de Telefonia com Plano de Chamada é a solução de voz na nuvem da Microsoft para usuários do Teams. Essa é a opção mais simples que conecta o Microsoft Phone System à PSTN (Rede Telefônica Pública Comutado) para habilitar chamadas para telefones fixos e celulares em todo o mundo. Com essa opção, a Microsoft fornece a funcionalidade PbX (Private Branch Exchange) para sua organização e atua como sua operadora PSTN, conforme mostrado no diagrama a seguir:
 
-![O diagrama 4 mostra o sistema telefônico com atendedores automáticos, filas de chamadas, identificação de chamadas e muito mais e a Microsoft como a operadora PSTN](media/voice-solution-microsoft-complete.png)
+![O Diagrama 4 mostra o Sistema telefônico com os Atenderdores Automáticos, filas de chamadas, ID de chamadas e muito mais, e a Microsoft como operadora PSTN](media/voice-solution-microsoft-complete.png)
 
-Se você responder sim para o seguinte, o sistema telefônico com plano de chamadas será a solução certa para você:
+Se você responder sim ao seguinte, o Sistema de Telefonia com Plano de Chamada é a solução certa para você:
 
-- O plano de chamadas está disponível na sua região.
+- O Plano de Chamada está disponível em sua região.
 - Você não precisa manter sua operadora PSTN atual.
-- Você deseja usar o acesso gerenciado pela Microsoft à PSTN.
+- Você deseja usar o acesso gerenciado pela Microsoft ao PSTN.
 
-Com essa opção: 
+Com esta opção: 
 
-- Você tem um sistema telefônico da Microsoft com planos de chamadas domésticas ou internacionais que permitem fazer chamadas para telefones em todo o mundo (dependendo do nível de serviço que está sendo licenciado).
+- Você obterá o Microsoft Phone System com planos de chamadas nacionais ou internacionais adicionados que habilitam chamadas para telefones em todo o mundo (dependendo do nível de serviço que está sendo licenciado).
 
-- Você não precisa de implantação nem manutenção de uma implantação local porque o &mdash; plano de chamadas funciona do Microsoft 365 ou do Office 365.
+- Você não precisa de implantação ou manutenção de uma implantação local porque o Plano de Chamada opera fora do &mdash; Microsoft 365 ou do Office 365.
 
-- Observação: se necessário, você pode optar por conectar um SBC (controlador de borda de sessão) compatível por meio do direcionamento direto para interoperabilidade com PBXs de terceiros, dispositivos analógicos e outros equipamentos de telefonia de terceiros suportados pelo SBC.
+- Observação: se necessário, você pode optar por conectar um SBC (Controlador de Borda de Sessão) compatível por meio do Roteamento Direto para interoperabilidade com PBXs de terceiros, dispositivos analógicos e outros equipamentos de telefonia de terceiros compatíveis com o SBC.
 
-Esta opção requer conexão ininterrupta com o Microsoft 365 ou o Office 365.
+Essa opção requer conexão ininterrupta com o Microsoft 365 ou o Office 365.
 
-Para obter mais informações sobre o plano de chamada, consulte os seguintes artigos:
+Para obter mais informações sobre o Plano de Chamada, consulte os seguintes artigos:
 
 - [Qual plano de chamadas é ideal para você?](calling-plan-landing-page.md)
 - [Como comprar um plano de chamadas](calling-plans-for-office-365.md)
 - [Disponibilidade de país e região do Plano de chamadas](https://docs.microsoft.com/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)
-- [Configurar plano de chamadas](set-up-calling-plans.md)
+- [Configurar Plano de Chamada](set-up-calling-plans.md)
 
 
-### <a name="phone-system-with-own-pstn-carrier-with-direct-routing"></a>Sistema telefônico com a própria portabilidade PSTN com roteamento direto
+### <a name="phone-system-with-own-pstn-carrier-with-direct-routing"></a>Sistema telefônico com sua própria operadora PSTN com Roteamento Direto
 
-Esta opção conecta o sistema telefônico da Microsoft à sua rede de telefonia usando o roteamento direto, conforme mostrado no diagrama a seguir: 
+Essa opção conecta o Microsoft Phone System à sua rede de telefonia usando Roteamento Direto, conforme mostrado no diagrama a seguir: 
 
-![O diagrama 5 mostra o sistema telefônico com roteamento direto](media/voice-solution-with-direct-routing.png)
+![O Diagrama 5 mostra o Sistema telefônico com Roteamento Direto](media/voice-solution-with-direct-routing.png)
 
-Se você responder sim para as seguintes perguntas, o sistema telefônico com roteamento direto é a solução certa para você:
+Se você responder sim às seguintes perguntas, o Sistema de Telefonia com Roteamento Direto é a solução certa para você:
 
-- Você deseja usar o Microsoft Teams com o sistema telefônico.
+- Você deseja usar o Teams com o Sistema telefônico.
 - Você precisa manter sua operadora PSTN atual.
-- Você deseja misturar o roteamento, com algumas chamadas passando pelo plano de chamadas, alguns pela sua operadora.
-- Você precisa interoperar com PBXs de terceiros e/ou equipamentos, tais páginas de páginas indiretos, dispositivos analógicos e assim por diante.
+- Você deseja misturar o roteamento, com algumas chamadas passando pelo Plano de Chamada, algumas por meio da sua operadora.
+- Você precisa operar com PBXs de terceiros e/ou equipamentos como pagers gerais, dispositivos analógicos e assim por diante.
 
-Com essa opção:
+Com esta opção:
 
-- Você conecta seu próprio SBC compatível a um sistema telefônico da Microsoft sem a necessidade de software adicional local.
+- Conecte seu próprio SBC com suporte ao Microsoft Phone System sem a necessidade de software local adicional.
 
-- Você pode usar praticamente qualquer operadora de telefonia com o sistema telefônico da Microsoft.
+- Você pode usar praticamente qualquer operadora de telefonia com o Microsoft Phone System.
 
-- Você pode optar por configurar e gerenciar essa opção ou pode ser configurada e gerenciada pela sua operadora ou parceiro (pergunte se sua operadora ou parceiro fornece essa opção).
+- Você pode optar por configurar e gerenciar essa opção, ou pode ser configurada e gerenciada por sua operadora ou parceiro (pergunte se sua operadora ou parceiro fornece essa opção).
 
-- Você pode configurar a interoperabilidade entre seu equipamento de telefonia &mdash; , como um PBX de terceiros e dispositivos analógicos &mdash; e o sistema de telefonia da Microsoft.
+- Você pode configurar a interoperabilidade entre seu equipamento de telefonia, como um PBX de &mdash; terceiros e dispositivos analógicos &mdash; e o Microsoft Phone System.
 
 
-Essa opção requer o seguinte:
+Esta opção requer o seguinte:
 
 - Conexão ininterrupta com o Microsoft 365 ou o Office 365.
 
-- Implantação e manutenção de um SBC compatível.
+- Implantando e mantendo um SBC com suporte.
 
-- Um contrato com uma operadora terceirizada.
-  (A menos que seja implantada como uma opção para fornecer conexão a um PBX de terceiros, dispositivos analógicos ou outro equipamento de telefonia para usuários que estão no sistema telefônico com o plano de chamadas.)
+- Um contrato com uma operadora de terceiros.
+  (A menos que implantado como uma opção para fornecer conexão com PBX de terceiros, dispositivos analógicos ou outros equipamentos de telefonia para usuários que estão no Sistema de Telefonia com Plano de Chamada.)
 
-Para obter mais informações sobre o roteamento direto, consulte os seguintes artigos:
+Para obter mais informações sobre o Roteamento Direto, consulte os seguintes artigos:
 
 - [Roteamento Direto do Sistema Telefônico](direct-routing-landing-page.md)
 - [Planejar o Roteamento Direto](direct-routing-plan.md)
 - [Configurar o Roteamento Direto](direct-routing-configure.md)
-- [Gerenciar políticas de roteamento de voz para uso com roteamento direto](manage-voice-routing-policies.md)
+- [Gerenciar políticas de roteamento de voz para uso com Roteamento Direto](manage-voice-routing-policies.md)
 - [Planejar o Roteamento baseado na localização para o Roteamento direto](location-based-routing-plan.md)
 - [Lista de controladores de borda da sessão certificados para Roteamento Direto](direct-routing-border-controllers.md)
 
 ## <a name="phone-numbers-from-microsoft"></a>Números de telefone da Microsoft
 
-A Microsoft tem dois tipos de números de telefone disponíveis: números de *assinante* (usuário), que podem ser atribuídos a usuários em sua organização e números de *serviço* , disponíveis como números de serviço de chamada tarifada e gratuita. Os números de serviço têm uma capacidade de chamada simultânea maior do que os números de assinantes e podem ser atribuídos a serviços como videoconferências, atendedores automáticos ou filas de chamadas.
+A Microsoft tem dois tipos de números de telefone *disponíveis:* números de assinante (usuário), que podem ser atribuídos aos usuários em sua organização, e números de serviço, disponíveis como números de serviço de chamada tarifada e gratuita.  Os números de serviço têm uma capacidade de chamada simultânea maior do que os números de assinante e podem ser atribuídos a serviços como Audioconferência, Atendimento Automático ou Filas de Chamada.
 
-Será preciso decidir:
+Você precisará decidir:
 
-- Quais locais de usuário precisam de novos números de telefone da Microsoft?
-- Que tipo de número de telefone (assinante ou serviço) eu preciso? 
-- Como faço para portar números de telefone existentes para o Microsoft Teams?
+- Quais locais de usuários precisam de novos números de telefone da Microsoft?
+- De que tipo de número de telefone (assinante ou serviço) preciso? 
+- Como faço para fazer a portabilidade de números de telefone existentes para o Teams?
 
-Para obter mais informações sobre o gerenciamento de números de telefone em sua organização, incluindo a obtenção de novos números ou a transferência de números de saída, consulte os seguintes artigos:
+Para obter mais informações sobre como gerenciar números de telefone em sua organização, incluindo obter novos números ou transferir números de saída, consulte os seguintes artigos:
 
 - [Gerenciar números de telefone para sua organização](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) 
-- [Diferentes tipos de números de telefone usados para o plano de chamadas](different-kinds-of-phone-numbers-used-for-calling-plans.md)
+- [Diferentes tipos de números de telefone usados para o Plano de Chamada](different-kinds-of-phone-numbers-used-for-calling-plans.md)
 - [Obter números de telefone para seus usuários](getting-phone-numbers-for-your-users.md)
 - [Transferir números de telefone para o Microsoft Teams](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)
 
-## <a name="dial-plans-and-call-routing"></a>Planos de discagem e encaminhamento de chamadas
+## <a name="dial-plans-and-call-routing"></a>Planos de discagem e roteamento de chamadas
 
-Um plano de discagem é um conjunto de regras de normalização que traduz os números de telefone discados em um formato alternativo (geralmente formato E. 164) para autorização de chamadas e encaminhamento de chamadas.
+Um plano de discagem é um conjunto de regras de normalização que convertem números de telefone discados em um formato alternativo (normalmente formato E.164) para autorização de chamada e roteamento de chamadas.
 
-Será preciso decidir o seguinte: 
+Você precisará decidir o seguinte: 
 
 - Minha organização precisa de um plano de discagem personalizado?
 - Quais usuários exigem um plano de discagem personalizado?
@@ -252,64 +252,64 @@ Será preciso decidir o seguinte:
 Para obter mais informações, consulte os seguintes artigos: 
 
 - [O que são planos de discagem?](what-are-dial-plans.md)
-- [Plano para planos de discagem de locatário](what-are-dial-plans.md#planning-for-tenant-dial-plans)
+- [Planejar planos de discagem de locatário](what-are-dial-plans.md#planning-for-tenant-dial-plans)
 - [Criar e gerenciar planos de discagem](create-and-manage-dial-plans.md)
 
 ## <a name="emergency-calling"></a>Chamada de emergência
 
-A maneira como você configura a chamada de emergência é diferente, dependendo da opção de conectividade PSTN: plano de chamada da Microsoft ou roteamento direto. Chamadas de emergência dinâmicas para o plano de chamadas e o roteamento direto do sistema telefônico fornecem a funcionalidade de configurar e direcionar chamadas de emergência e notificar o pessoal de segurança com base na localização atual do cliente do teams. Para obter mais informações sobre conceitos e terminologia de chamadas de emergência e como configurar chamadas de emergência dinâmicas, consulte os seguintes artigos:
+A forma como você configura chamadas de emergência é diferente dependendo da sua opção de conectividade PSTN: Plano de Chamada da Microsoft ou Roteamento Direto. Chamadas de emergência dinâmicas para o Plano de Chamada da Microsoft e o Roteamento Direto do Sistema de Telefonia fornece a capacidade de configurar e encaminhar chamadas de emergência e notificar a equipe de segurança com base na localização atual do cliente teams. Para obter mais informações sobre conceitos e terminologia de chamada de emergência e como configurar chamada de emergência dinâmica, consulte os seguintes artigos:
 
-- [Gerenciar chamadas de emergência](what-are-emergency-locations-addresses-and-call-routing.md)
+- [Gerenciar chamada de emergência](what-are-emergency-locations-addresses-and-call-routing.md)
 - [Planejar e configurar chamadas de emergência dinâmicas](configure-dynamic-emergency-calling.md)
-- [Estudo de caso da Contoso: chamadas de emergência](voice-case-study-emergency-calling.md)<br>
-  Descreve como uma corporação multinacionais fictícia, contoso, implementou chamadas de emergência para sua organização.
+- [Estudo de caso da Contoso: Chamada de emergência](voice-case-study-emergency-calling.md)<br>
+  Descreve como uma corporação multi-nacional fictícia, a Contoso, implementou as chamada de emergência para sua organização.
 
-## <a name="location-based-routing-for-direct-routing"></a>Roteamento Location-Based para roteamento direto
+## <a name="location-based-routing-for-direct-routing"></a>Location-Based roteamento para roteamento direto
 
-Em alguns países e regiões, é ilegal ignorar o provedor PSTN (rede telefônica pública comutada) para reduzir os custos de chamadas de longa distância. Location-Based roteamento para roteamento direto permite que você restrinja o bypass de chamadas para usuários do Microsoft Teams com base em sua localização geográfica. Para obter mais informações sobre como planejar e configurar o roteamento de Location-Based (LBR), consulte os seguintes artigos:
+Em alguns países e regiões, é ilegal ignorar o provedor de PSTN (Rede Telefônica Pública Comutado) para reduzir os custos de chamadas a longa distância. Location-Based roteamento para Roteamento Direto permite restringir o bypass de chamadas tarifadas para usuários do Microsoft Teams com base em sua localização geográfica. Para obter mais informações sobre como planejar e configurar Location-Based roteamento (LBR), consulte os seguintes artigos:
 
 - [Planejar o Roteamento baseado na localização para o Roteamento direto](location-based-routing-plan.md)
 - [Configurar definições de rede para o Roteamento baseado na localização](location-based-routing-configure-network-settings.md)
 - [Habilitar o Roteamento baseado na localização para o Roteamento direto](location-based-routing-enable.md)
-- [Estudo de caso da Contoso: Location-Based roteamento](voice-case-study-location-based-routing.md)<br>
-  Descreve como uma corporação multinacionais fictícia, contoso, implementou o roteamento Location-Based para a sua organização.
+- [Estudo de caso da Contoso: Location-Based Roteamento](voice-case-study-location-based-routing.md)<br>
+  Descreve como uma corporação multinacional fictícia, a Contoso, implementou Location-Based roteamento para sua organização.
 
 ## <a name="network-topology-for-voice-features"></a>Topologia de rede para recursos de voz
 
-Se você estiver implantando chamadas de emergência dinâmicas ou roteamento Location-Based para roteamento direto, deve definir as configurações de rede para usar com esses recursos no Microsoft Teams. Para saber como definir as configurações de rede para regiões de rede, sites de rede, sub-redes de rede e endereços IP confiáveis, consulte os seguintes artigos:
+Se você estiver implantando chamadas de emergência dinâmicas ou Location-Based roteamento para Roteamento Direto, deverá configurar as configurações de rede para uso com esses recursos no Microsoft Teams. Para saber como configurar as configurações de rede para regiões de rede, sites de rede, sub-redes de rede e endereços IP confiáveis, consulte os seguintes artigos:
 
-- [Configurações de rede para recursos de voz na nuvem no Microsoft Teams – conceitos e terminologia](cloud-voice-network-settings.md)
-- [Gerenciar a topologia de rede para recursos de voz na nuvem no Microsoft Teams](manage-your-network-topology.md)
+- [Configurações de rede para recursos de voz na nuvem no Microsoft Teams - Conceitos e terminologia](cloud-voice-network-settings.md)
+- [Gerenciar sua topologia de rede para recursos de voz na nuvem no Microsoft Teams](manage-your-network-topology.md)
 
-## <a name="migrate-your-existing-voice-solution-to-teams"></a>Migrar sua solução de voz existente para o Microsoft Teams
+## <a name="migrate-your-existing-voice-solution-to-teams"></a>Migrar sua solução de voz existente para o Teams
 
-Para uma organização que está atualizando para o Microsoft Teams, o objetivo final é mover todos os usuários para o modo TeamsOnly. Só há suporte para o uso do sistema telefônico com Teams quando o usuário está no modo TeamsOnly. Se precisar de informações básicas sobre a atualização para o Microsoft Teams, comece aqui:
+Para uma organização que está atualizando para o Teams, o objetivo final é mover todos os usuários para o modo TeamsOnly. O uso do Sistema telefônico com o Teams só é suportado quando o usuário está no modo TeamsOnly. Se você precisar de informações básicas sobre a atualização para o Teams, comece aqui:
 
 - [Introdução à atualização para o Microsoft Teams](upgrade-start-here.md)
 - [Sobre a estrutura de atualização](upgrade-framework.md)
-- [Atualize o Skype for Business para o Teams, para administradores de ti](upgrade-to-teams-on-prem-overview.md)
+- [Atualizar do Skype for Business para o Teams — para administradores de IT](upgrade-to-teams-on-prem-overview.md)
 
-Ao migrar sua solução de voz, há quatro cenários de chamadas possíveis ao se mover para o modo TeamsOnly:
+Ao migrar sua solução de voz, há quatro cenários de chamadas possíveis ao migrar para o modo TeamsOnly:
 
-- [**Um usuário no Skype for Business Online, com um plano de chamadas da Microsoft**](upgrade-to-teams-on-prem-pstn-considerations.md#from-skype-for-business-online-with-microsoft-calling-plans). Após a atualização, este usuário continuará a ter um plano de chamadas da Microsoft.
+- [**Um usuário no Skype for Business Online, com um Plano de Chamada da Microsoft.**](upgrade-to-teams-on-prem-pstn-considerations.md#from-skype-for-business-online-with-microsoft-calling-plans) Após a atualização, esse usuário continuará a ter um Plano de Chamada da Microsoft.
 
-- **[Um usuário no Skype for Business Online, com funcionalidade de voz local](upgrade-to-teams-on-prem-pstn-considerations.md#from-skype-for-business-online-with-on-premises-voice) por meio do Skype for Business local ou da edição do Cloud Connector**. A atualização do usuário para o Teams precisa ser coordenada com a migração do usuário para o roteamento direto para garantir que o usuário do TeamsOnly tenha funcionalidade PSTN.
+- **[Um usuário no Skype for Business Online,](upgrade-to-teams-on-prem-pstn-considerations.md#from-skype-for-business-online-with-on-premises-voice)** com funcionalidade de voz local por meio do Skype for Business local ou do Cloud Connector Edition. A atualização do usuário para o Teams precisa ser coordenada com a migração do usuário para o Roteamento Direto para garantir que o usuário do TeamsOnly tenha funcionalidade PSTN.
 
-- **[Um usuário do Skype for Business no local com o Enterprise Voice](upgrade-to-teams-on-prem-pstn-considerations.md#from-skype-for-business-server-on-premises-with-enterprise-voice-to-direct-routing), que será movido para online e mantendo a conectividade PSTN local**. Migrar este usuário para o Teams requer mover a conta do Skype for Business no local para a nuvem e coordenar essa movimentação com a migração do usuário para o roteamento direto. 
+- Um usuário no Skype for Business local com o **[Enterprise Voice,](upgrade-to-teams-on-prem-pstn-considerations.md#from-skype-for-business-server-on-premises-with-enterprise-voice-to-direct-routing)** que se move para a internet e mantém a conectividade PSTN local. Migrar esse usuário para o Teams requer mover a conta do Skype for Business local do usuário para a nuvem e coordenar essa movimentação com a migração do usuário para o Roteamento Direto. 
 
-- **[Um usuário do Skype for Business no local com o Enterprise Voice](upgrade-to-teams-on-prem-pstn-considerations.md#from-skype-for-business-server-on-premises-with-enterprise-voice-to-microsoft-calling-plan), que se moverá para online e usando um plano de chamadas da Microsoft**.  Migrar este usuário para o Microsoft Teams requer mover a conta do Skype for Business no local para a nuvem e coordenar essa movimentação com uma a porta do número de telefone do usuário para um plano de chamadas da Microsoft ou B) atribuir um novo número de assinante de regiões disponíveis.
+- **[Um usuário no Skype for Business local com](upgrade-to-teams-on-prem-pstn-considerations.md#from-skype-for-business-server-on-premises-with-enterprise-voice-to-microsoft-calling-plan)** o Enterprise Voice, que vai se mudar para online e usar um plano de Chamada da Microsoft.  Migrar esse usuário para o Teams requer mover a conta do Skype for Business local do usuário para a nuvem e coordenar essa movimentação com A) a porta do número de telefone desse usuário para um Plano de Chamada da Microsoft ou B) atribuindo um novo número de assinante de regiões disponíveis.
 
-Para obter mais informações sobre como implementar sua migração de voz para cada um desses cenários &mdash; , incluindo informações sobre quando você precisa configurar a conectividade híbrida e como migrar usuários com funcionalidade de voz local para o roteamento direto, &mdash; consulte os seguintes artigos:
+Para obter mais informações sobre como implementar sua migração de voz para cada um desses cenários, incluindo informações sobre quando você precisa configurar a conectividade híbrida e como migrar usuários com funcionalidade de voz local para Roteamento Direto, consulte os &mdash; &mdash; seguintes artigos:
 
-- [Considerações de PSTN durante a atualização para o Microsoft Teams – para administradores de ti](upgrade-to-teams-on-prem-pstn-considerations.md)
+- [Considerações do PSTN ao atualizar para o Teams — para administradores de IT](upgrade-to-teams-on-prem-pstn-considerations.md)
 
-- [Estudo de caso de migração de voz da contoso](voice-case-study-overview.md)<br>
-  O estudo de caso descreve como uma corporação multinacionais fictícia, contoso, implementou uma solução de voz do teams para sua organização. Ele contém os seguintes artigos:
+- [Estudo de caso de migração de voz da Contoso](voice-case-study-overview.md)<br>
+  O estudo de caso descreve como uma corporação multi-nacional fictícia, a Contoso, implementou uma solução de voz do Teams para sua organização. Ele contém os seguintes artigos:
 
-  - [Plano de atualização do teams](voice-case-study-migration-plan.md)
-  - [Opções de conectividade PSTN e do sistema telefônico](voice-case-study-phone-system.md)
-  - [Implementação de roteamento baseado em local](voice-case-study-location-based-routing.md)
-  - [Chamadas de emergência](voice-case-study-emergency-calling.md)
+  - [Plano de atualização do Teams](voice-case-study-migration-plan.md)
+  - [Opções de conectividade PSTN e sistema telefônico](voice-case-study-phone-system.md)
+  - [Implementação de Roteamento baseado em local](voice-case-study-location-based-routing.md)
+  - [Chamada de emergência](voice-case-study-emergency-calling.md)
   - [Atendedores automáticos e filas de chamadas](voice-case-study-call-queues.md)
   - [Audioconferência](voice-case-study-audio-conferencing.md)
 

@@ -14,7 +14,7 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: be7857e4-9a75-4de5-91b0-bcb241930a0c
-description: Você pode especificar o servidor do próximo salto do pool de servidores de Aplicativos Confiáveis selecionando o pool de front-end enterprise edition ou o servidor de front-end Standard Edition definido na lista drop-down. Um Diretor ou pool de Diretores não é uma seleção válida para o servidor do próximo salto do Aplicativo Confiável e não aparecerá na lista. Clique em OK para aceitar e salvar suas alterações. Clique em  Cancelar  para descartar suas alterações e sair da página de propriedades.
+description: Você pode especificar o servidor do próximo salto do pool de servidores de Aplicativos Confiáveis selecionando o pool de front-end Enterprise Edition definido ou o Servidor de Front End Standard Edition na lista lista drop-down. Um Diretor ou pool de Diretores não é uma seleção válida para o servidor do próximo salto do Aplicativo Confiável e não aparecerá na lista. Clique em OK para aceitar e salvar suas alterações. Clique em  Cancelar  para descartar suas alterações e sair da página de propriedades.
 ms.openlocfilehash: 373797fc5108f1c302670fb2a22d0314e83b9d0b
 ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
@@ -24,6 +24,6 @@ ms.locfileid: "49800161"
 ---
 # <a name="external-application-next-hop-settings-expander"></a>Expansor de Configurações de Próximo Salto de Aplicativo Externo
  
-Você pode especificar o servidor do próximo salto do pool de servidores de Aplicativos Confiáveis selecionando o pool de front-end enterprise edition ou o servidor de front-end Standard Edition definido na lista drop-down. Um Diretor ou pool de Diretores não é uma seleção válida para o servidor do próximo salto do Aplicativo Confiável e não aparecerá na lista. Clique **em OK** para aceitar e salvar suas alterações. Clique em  **Cancelar** para descartar suas alterações e sair da página de propriedades.
+Você pode especificar o servidor do próximo salto do pool de servidores de Aplicativos Confiáveis selecionando o pool de front-end Enterprise Edition definido ou o Servidor de Front End Standard Edition na lista lista drop-down. Um Diretor ou pool de Diretores não é uma seleção válida para o servidor do próximo salto do Aplicativo Confiável e não aparecerá na lista. Clique **em OK** para aceitar e salvar suas alterações. Clique em  **Cancelar** para descartar suas alterações e sair da página de propriedades.
   
 

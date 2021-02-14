@@ -42,7 +42,7 @@ Se você implantou gateways PSTN, IP-PBXs ou Controladores de Borda de Sessão (
     
 - Aceitar tráfego de qualquer Servidor de Mediação em um pool.
     
-Você pode usar a Ferramenta de Planejamento do Skype for Business para avaliar se colocar o Servidor de Mediação com seu pool de Front-End pode lidar com a carga. Se seu ambiente não conseguir atender a esses requisitos, você precisará implantar um pool de Servidor de Mediação autônomo.
+Você pode usar a Ferramenta de Planejamento do Skype for Business para avaliar se colocar o Servidor de Mediação com seu pool de Front-End pode lidar com a carga. Se o seu ambiente não puder atender a esses requisitos, você precisará implantar um pool de Servidor de Mediação autônomo.
   
 ## <a name="central-site-and-branch-site-considerations"></a>Considerações sobre o site central e site de filial
 

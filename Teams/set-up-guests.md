@@ -33,9 +33,9 @@ ms.locfileid: "49786773"
 
 > [!Note]
 
-> Até **fevereiro de 2021,** o acesso de convidados é desligado por padrão. Você deve ativar o acesso de convidado para o Teams antes que os administradores ou proprietários de equipe possam adicionar convidados. Depois de ativar o acesso de convidados, pode levar algumas horas para que as alterações tenham efeito. Se os usuários  veem a mensagem Contate o administrador quando tentarem adicionar um convidado à equipe, é provável que o acesso de convidados ainda não tenha sido ligado ou as configurações ainda não tenham sido efetivadas. 
+> Até **fevereiro de 2021,** o acesso de convidado é desligado por padrão. Você deve ativar o acesso de convidado para o Teams antes que os administradores ou proprietários de equipe possam adicionar convidados. Depois que você ativar o acesso de convidado, pode levar algumas horas para que as alterações tenham efeito. Se os usuários  verem a mensagem Contate o administrador quando tentarem adicionar um convidado à equipe, é provável que o acesso de convidado ainda não tenha sido ligado ou as configurações ainda não tenham efeito. 
 
-> Após **fevereiro de 2021,** o acesso de convidados no Microsoft Teams será ligado por padrão para novos clientes & clientes existentes que não tenham configurado essa configuração. Quando essa alteração é implementada, se você ainda não configurou o recurso de acesso de convidado no Microsoft Teams, essa funcionalidade será habilitada em seu locatário. Se quiser que o acesso de convidado permaneça desabilitado para sua organização,  você precisará confirmar se a configuração de acesso de convidado está definida como Desativada em vez de Padrão **de Serviço.**
+> Após **fevereiro de 2021,** o acesso de convidados no Microsoft Teams será ligado por padrão para novos clientes & clientes existentes que ainda não configuraram essa configuração. Quando essa alteração for implementada, se você ainda não configurou o recurso de acesso de convidado no Microsoft Teams, esse recurso será habilitado no seu locatário. Se quiser que o acesso de convidado permaneça desabilitado para sua organização,  você precisará confirmar que a configuração de acesso de convidado está definida como Desativada em vez de Serviço **padrão.**
 
 > [!IMPORTANT]
 > Ativar o acesso de convidado depende das configurações no Azure Active Directory, Microsoft 365, Microsoft Office SharePoint Online e Teams. Para saber mais, confira [Colabore com os convidados em uma equipe](https://docs.microsoft.com/microsoft-365/solutions/collaborate-as-team).
@@ -66,7 +66,7 @@ ms.locfileid: "49786773"
       - **Classificação de conteúdo para Giphy** – Selecione uma classificação na lista suspensa:
           - **Permitir todo o conteúdo** - Os convidados poderão inserir todos os Giphys nos chats, independentemente da classificação do conteúdo.
           - **Moderado** - Os convidados poderão inserir Giphys nos chats, mas o conteúdo adulto será moderadamente restringido.
-          - **Estrito** – Os convidados podem inserir Giphys em chats, mas serão impedidos de inserir conteúdo adulto.
+          - **Estrito** – Os convidados podem inserir Giphys em chats, mas estarão impedidos de inserir conteúdo adulto.
       - **Usar memes em conversas** - **Ativar** essa configuração para permitir que os convidados usem memes nas conversas.
       - **Usar Figurinhas em conversas** - **Ativar** essa configuração para permitir que os convidados usem figurinhas nas conversas.
 

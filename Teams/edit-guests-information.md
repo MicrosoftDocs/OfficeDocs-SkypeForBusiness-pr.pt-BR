@@ -14,7 +14,7 @@ ms.reviewer: rafarhi
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Neste artigo, você aprenderá como um administrador pode editar informações sobre usuários convidados no portal do Active Directory do Azure.
+description: Neste artigo, você aprenderá como um administrador pode editar informações sobre usuários convidados no portal do Azure Active Directory.
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
@@ -29,22 +29,22 @@ ms.locfileid: "49734259"
 ---
 # <a name="edit-guest-user-information"></a>Editar informações do usuários convidados
 
-Você pode editar as informações de convidado a partir do centro de administração do Microsoft 365 ou do portal do Azure Active Directory.
+Você pode editar informações de convidado no Centro de administração do Microsoft 365 ou no portal do Azure Active Directory.
 
 ## <a name="guest-users-in-the-microsoft-365-admin"></a>Usuários convidados no administrador do Microsoft 365
 
-1. Para editar as informações de convidado no [centro de administração do Microsoft 365](https://admin.microsoft.com), selecione **usuários**  >  **convidados** usuários.
+1. Para editar as informações de convidado no Centro de administração do [Microsoft 365,](https://admin.microsoft.com)selecione **Usuários**  >  **Convidados.**
 
-   ![As informações do usuário convidado sendo editadas](media/access-guest-user.png)
+   ![As informações do usuário convidado que estão sendo editadas](media/access-guest-user.png)
 
-2. Selecione um usuário de **usuários convidados**.
+2. Selecione um usuário de **usuários convidados.**
 
-3. Em informações do usuário convidado, selecione **gerenciar informações de contato**.
+3. Nas informações do usuário convidado, selecione **Gerenciar informações de contato.**
 
    ![Gerenciar informações de contato ](media/guest-user-data1.png)
 
-4. Edite os campos que você escolher, exceto para **Exibir o nome** em **gerenciar informações de contato** e selecione **salvar alterações**.
+4. Edite todos os campos que você escolher, exceto o **nome** de exibição em **Gerenciar** informações de contato e selecione **Salvar alterações.**
 
    ![Editar as informações de contato do usuário convidado](media/manage-guest-contact.png)
 
-Você também pode editar o usuário convidado a partir do [portal do Azure Active Directory](https://aad.portal.azure.com/#blade/Microsoft_AAD_IAM/UsersManagementMenuBlade/MsGraphUsers).
+Você também pode editar o usuário convidado no [portal do Azure Active Directory.](https://aad.portal.azure.com/#blade/Microsoft_AAD_IAM/UsersManagementMenuBlade/MsGraphUsers)

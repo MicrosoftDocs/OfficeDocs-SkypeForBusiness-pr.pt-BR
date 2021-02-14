@@ -23,7 +23,7 @@ ms.locfileid: "49795767"
 ---
 # <a name="sharing-files-in-microsoft-teams"></a>Compartilhando arquivos no Microsoft Teams
 
-No Microsoft Teams os usuários podem compartilhar conteúdo com outros usuários do Microsoft Teams dentro e fora de sua organização. O compartilhamento de arquivos e pastas no Teams é baseado nas configurações configuradas no SharePoint e no OneDrive, portanto, o que você configurou para o SharePoint e o OneDrive também afetará o compartilhamento no Teams.
+No Microsoft Teams os usuários podem compartilhar conteúdo com outros usuários do Microsoft Teams dentro e fora de sua organização. O compartilhamento de arquivos e pastas no Teams se baseia nas configurações configuradas no SharePoint e no OneDrive, portanto, tudo o que você configurou para o SharePoint e o OneDrive também afetará o compartilhamento no Teams.
 
 ## <a name="overview"></a>Visão Geral
 
@@ -48,6 +48,6 @@ Quando os usuários compartilham um arquivo em um chat ou canal, eles são notif
 
 [Como o Microsoft Office SharePoint Online e o OneDrive for Business interagem com o Microsoft Teams](sharepoint-onedrive-interact.md)
 
-[Alterar o tipo de link padrão para um site](https://docs.microsoft.com/sharepoint/change-default-sharing-link)
+[Alterar o tipo de link padrão de um site](https://docs.microsoft.com/sharepoint/change-default-sharing-link)
 
 [Colaborar com convidados em uma equipe](https://docs.microsoft.com/microsoft-365/solutions/collaborate-as-team)

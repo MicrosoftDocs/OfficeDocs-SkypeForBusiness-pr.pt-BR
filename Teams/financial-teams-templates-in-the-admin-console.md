@@ -1,5 +1,5 @@
 ---
-title: Introdução aos modelos financeiros do teams usando o centro de administração
+title: Começar a usar modelos financeiros do Teams usando o centro de administração
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -11,7 +11,7 @@ ms.collection:
 - M365-collaboration
 localization_priority: Normal
 search.appverid: MET150
-description: Saiba como usar. Modelos do teams para criar estruturas de equipe projetadas para necessidades financeiras, fornecendo configurações, canais e aplicativos pré-instalados predefinidos usando o centro de administração.
+description: Saiba como usar. Modelos do Teams para criar estruturas de equipe projetadas para necessidades financeiras, fornecendo configurações, canais e aplicativos pré-instalados predefinidos usando o centro de administração.
 f1.keywords:
 - CSH
 ms.custom:
@@ -26,33 +26,33 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 12/12/2020
 ms.locfileid: "49662506"
 ---
-# <a name="use-teams-financial-templates-in-the-admin-center"></a>Usar modelos financeiros do teams no centro de administração
+# <a name="use-teams-financial-templates-in-the-admin-center"></a>Usar modelos financeiros do Teams no centro de administração
 
-Os modelos de equipe permitem criar equipes de forma rápida e fácil, fornecendo um modelo predefinido de configurações, canais e aplicativos pré-instalados.
+Os modelos do Teams permitem que você crie equipes de forma rápida e fácil, fornecendo um modelo predefinido de configurações, canais e aplicativos pré-instalados.
 
-Os modelos de equipe têm definições predefinidas de estruturas de equipe projetadas em relação às necessidades financeiras. Você também pode estender os modelos de equipe para criar equipes que sejam adequadas às suas necessidades organizacionais específicas.
+Os modelos do Teams têm definições predefinida de estruturas de equipe projetadas em torno de necessidades financeiras. Você também pode estender os modelos do Teams para criar equipes adaptadas às suas necessidades organizacionais específicas.
 
-Neste artigo, apresentaremos cada um dos modelos de equipe e recomendaremos como usá-los.
+Neste artigo, apresentaremos cada um dos modelos do Teams e recomendaremos como usá-los.
 
-Este artigo é para você se for responsável por planejar, implantar e gerenciar várias equipes em toda a sua organização financeira. Você já implantou o serviço Microsoft Teams em sua organização. Se você ainda não distribuiu o Microsoft Teams, comece lendo o guia [como implantar o Microsoft Teams](How-to-roll-out-teams.md).
+Este artigo é para você se você for responsável por planejar, implantar e gerenciar várias equipes em sua organização financeira. Você já implantou o serviço do Teams em sua organização. Se você ainda não tiver lançado o Teams, comece lendo o livro Como [lançar o Microsoft Teams.](How-to-roll-out-teams.md)
 
-Para saber mais sobre os modelos de equipe em geral, confira [introdução aos modelos](get-started-with-teams-templates-in-the-admin-console.md)do Microsoft Teams.
+Para saber mais sobre modelos de equipe em geral, consulte [Começar a usar modelos do Teams.](get-started-with-teams-templates-in-the-admin-console.md)
 
-## <a name="global-crisis-or-event"></a>Crise global ou evento
+## <a name="global-crisis-or-event"></a>Problema ou evento global
 
-Centralize a colaboração para sua equipe de crise nas unidades de negócios e ajude a criar planos de continuidade de negócios, compartilhar dicas de trabalho remotas, acompanhar a comunicação do cliente e manter todos em um círculo com anúncios e notícias.
+Centralize a colaboração para sua equipe de emergência em todas as unidades de negócios e ajude a criar planos de continuidade de negócios, compartilhar dicas de trabalho remoto, controlar as comunicações dos clientes e manter todos informados com comunicados e notícias.
 
 | Tipo de modelo base|baseTemplateId | Propriedades que vêm com este modelo base |
 | ------------------|-- |----------------------------------------------------- |
-| Colaborar em uma crise global ou em um evento|`com.microsoft.teams.template.CollaborateOnAGlobalCrisisOrEvent` |Canais <ul><li>Geral<li>Comunicados</li><li>Notícias do mundo</li><li>Continuidade de negócios</li><li>Trabalho remoto</li><li>Comms internas</li><li>Comentários externos</li><li>Solicitação de aprovações</li><li>Reclamações do cliente</li><li>Parabéns</li><li>Atualização executiva</li></ul>Aplicativo <ul><li>Elogia</li><li>Wiki</li><li>Site</li><li>Planner</li></ul>|
+| Colaborar em uma situação ou uma situação de crise globais|`com.microsoft.teams.template.CollaborateOnAGlobalCrisisOrEvent` |Canais: <ul><li>Geral<li>Anúncios</li><li>Notícias do mundo</li><li>Continuidade de negócios</li><li>Trabalho remoto</li><li>Comunicados internos</li><li>Comunicados externos</li><li>Solicitação de aprovação</li><li>Reclamações de clientes</li><li>Kudos</li><li>Atualização executiva</li></ul>Apps: <ul><li>Elogios</li><li>Wiki</li><li>Site</li><li>Planner</li></ul>|
 ||||
 
-## <a name="collaborate-within-a-bank-branch"></a>Colaborar dentro de um Branch bancário
+## <a name="collaborate-within-a-bank-branch"></a>Colaborar em uma ramificação bancária
 
-Centralizar a colaboração para os funcionários da sua agência bancária em Huddles, reuniões com clientes, processos corporativos como colaboração de hipotecas e manter todos em um círculo com anúncios e parabéns.
+Centralize a colaboração para os funcionários de sua ramificação bancária em Todos os Eua, Reuniões de Clientes, Processos Comerciais, como Colaboração hipotecária, e mantenha todos informados com Comunicados e Kudos.
 
 | Tipo de modelo base |baseTemplateId| Propriedades que vêm com este modelo base |
 | ------------------ |--|----------------------------------------------------- |
-|Colaborar dentro de um Branch bancário|`com.microsoft.teams.template.CollaborateWithinABankBranch` |Canais <ul><li>Geral<li>Comunicados</li><li>Huddles</li><li>Reuniões do cliente</li><li>Solicitação de aprovações</li><li>Treina</li><li>Desenvolvimento de habilidades</li><li>Processamento de empréstimos</li><li>Reclamações do cliente</li><li>Parabéns</li><li>Coisas divertidas</li><li>Conformidade</li></ul>Aplicativo<ul><li>Elogia</li></ul>|
+|Colaborar em uma ramificação bancária|`com.microsoft.teams.template.CollaborateWithinABankBranch` |Canais: <ul><li>Geral<li>Anúncios</li><li>Desaconsudores</li><li>Reuniões de clientes</li><li>Solicitação de Aprovações</li><li>Coaching</li><li>Desenvolvimento de habilidades</li><li>Processamento de empréstimos</li><li>Reclamações de clientes</li><li>Kudos</li><li>Coisas divertidas</li><li>Conformidade</li></ul>Apps:<ul><li>Elogios</li></ul>|
 ||||
 

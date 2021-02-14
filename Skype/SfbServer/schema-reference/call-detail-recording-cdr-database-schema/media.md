@@ -31,7 +31,7 @@ Cada registro representa um tipo de mídia usado em uma sessão ponto a ponto. U
 |:-----|:-----|:-----|:-----|
 |**SessionIdTime** <br/> |datetime  <br/> |Primário, Estrangeiro  <br/> |Tempo da solicitação de sessão. Usado em conjunto com **SessionIdSeq** para identificar exclusivamente uma sessão. Consulte a [tabela Dialogs no Skype for Business Server 2015](dialogs.md) para obter mais informações. <br/> |
 |**SessionIdSeq** <br/> |int  <br/> |Primário, Estrangeiro  <br/> |O número de ID para identificar a sessão. Usado em conjunto com **SessionIdTime** para identificar exclusivamente uma sessão. Consulte a [tabela Dialogs no Skype for Business Server 2015](dialogs.md) para obter mais informações. <br/> |
-|**MediaId** <br/> |tinyint  <br/> |Primária, Estrangeira  <br/> |Número exclusivo identificando este tipo de mídia. Consulte a [tabela MediaList para](medialist.md) obter mais informações. <br/> |
+|**MediaId** <br/> |tinyint  <br/> |Primária, Estrangeira  <br/> |Número exclusivo identificando este tipo de mídia. Consulte a [tabela MediaList](medialist.md) para obter mais informações. <br/> |
 |**StartTime** <br/> |datetime  <br/> |Primário  <br/> |Este é o horário em que a solicitação de mídia foi enviada, não o horário de início de mídia real. O **StartTime** inclui a hora de configuração da sessão.<br/> |
 |**EndTime** <br/> |datetime  <br/> ||Este é o horário de término da sessão.  <br/> |
    

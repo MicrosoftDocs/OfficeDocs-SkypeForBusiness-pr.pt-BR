@@ -26,7 +26,7 @@ ms.locfileid: "49800541"
  
 Para verificar se a extensão do esquema foi replicada com êxito em sua floresta dos Serviços de Domínio Active Directory, faça o seguinte:
   
-1. Faça logoff em um controlador de domínio (que não seja o controlador de domínio que detém a função de mestre de esquema) em sua floresta dos Serviços de Domínio Active Directory, onde as extensões de esquema foram aplicadas como membro do grupo Administradores de Empresa.
+1. Faça logoff em um controlador de domínio (que não seja o controlador de domínio que detém a função mestra de esquema) em sua floresta dos Serviços de Domínio Active Directory, onde as extensões de esquema foram aplicadas como membro do grupo Administradores de Empresa.
     
 2. Abra o Editor ADSI: clique em **Iniciar**, em **Ferramentas Administrativas** e clique em **Editor ADSI**.
     

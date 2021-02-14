@@ -35,7 +35,7 @@ Selecione **Novo** para criar um novo repositório de arquivos, um novo Gateway 
   
 ![Nó de Escopo de Componentes Compartilhados](../../../media/Shared_Components_Scope_NodeB.jpg)
   
-Selecione **Topologia para** clicar em opções para abrir um novo documento de topologia. Abra um documento de topologia existente, Baixe a Topologia Atual do armazenamento de Gerenciamento Central, salve uma cópia do documento de topologia atual, publique o documento de topologia atual, instale o banco de dados para criar as configurações de banco de dados configuradas no momento, mesclar o Office Communications Server 2007 R2 na implantação atual ou remover a implantação.
+Selecione **Topologia para** clicar em opções para abrir um novo documento de topologia. Abra um documento de topologia existente, baixe a topologia atual do armazenamento de Gerenciamento Central, salve uma cópia do documento de topologia atual, publique o documento de topologia atual, instale o banco de dados para criar as configurações de banco de dados configuradas no momento, mesclar o Office Communications Server 2007 R2 na implantação atual ou remover a implantação.
   
 ![Nó de Escopo de Componentes Compartilhados C](../../../media/Shared_Components_Scope_NodeC.jpg)
   

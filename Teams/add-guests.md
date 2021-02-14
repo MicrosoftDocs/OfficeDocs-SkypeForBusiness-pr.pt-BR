@@ -18,7 +18,7 @@ localization_priority: Normal
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-description: Os administradores podem aprender a adicionar novos convidados a uma organização em clientes da área de trabalho e da área de trabalho do Microsoft Teams e do portal de colaboração B2B do Azure Active Directory.
+description: Os administradores podem aprender a adicionar novos convidados a uma organização na área de trabalho e clientes Web do Microsoft Teams e no portal de colaboração B2B do Azure Active Directory.
 ms.openlocfilehash: 7f75589c5252998fb0389c743b951c0fe88e613b
 ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
 ms.translationtype: MT
@@ -34,18 +34,18 @@ Como administrador, você pode adicionar um novo convidado à organização de a
 
 - Os administradores globais ou administradores do Teams e os proprietários de equipes adicionam um convidado a uma equipe nos clientes do Teams ou no centro de administração do Teams. Para saber mais, leia [Adicionar convidados a uma equipe](https://support.office.com/article/add-guests-to-a-team-fccb4fa6-f864-4508-bdde-256e7384a14f). Se você ainda não configurou o acesso de convidado, siga as etapas em [Colaborar com convidados em uma equipe](https://docs.microsoft.com/microsoft-365/solutions/collaborate-as-team).
 
-- Adicione convidados à sua organização através da colaboração do Azure AD (Azure Active Directory) B2B. Para obter detalhes, consulte [início rápido: adicionar convidados ao seu diretório no portal do Azure](https://docs.microsoft.com/azure/active-directory/external-identities/b2b-quickstart-add-guest-users-portal).
+- Adicione convidados à sua organização através da colaboração do Azure AD (Azure Active Directory) B2B. Para obter detalhes, confira [o Início Rápido: Adicionar convidados ao seu diretório no portal do Azure.](https://docs.microsoft.com/azure/active-directory/external-identities/b2b-quickstart-add-guest-users-portal)
 
 Os administradores também podem delegar permissões para adicionar convidados para outras pessoas em sua organização, ao atribuir a função de Emissor do Convite. Para saber mais, confira [Habilitar colaboração externa B2b e gerenciar quem podem pode convidar pessoas](https://docs.microsoft.com/azure/active-directory/external-identities/delegate-invitations).
 
 Com a colaboração do Azure AD B2B, as organizações podem impor políticas de acesso condicional e autenticação multifator (MFA) para usuários B2B. Essas políticas podem ser impostas no nível do locatário, aplicativo ou usuário individual, da mesma maneira que podem ser habilitadas para membros e funcionários em tempo integral da organização. Essas políticas são aplicadas na organização de recursos. Para obter mais informações, consulte [Acesso condicional para usuários de colaboração B2B](https://go.microsoft.com/fwlink/?linkid=857454). Convidados individuais não podem ser bloqueados.
 
-Os convidados já adicionados por meio do Azure AD B2B, dos grupos do Microsoft 365 ou do SharePoint estão prontos para serem colocados. O administrador do Microsoft 365 ou um proprietário da equipe pode adicionar esses convidados às respectivas equipes. Se você adicionar um convidado diretamente ao grupo do Microsoft 365 associado a uma equipe, o convidado terá acesso à equipe, mas o grupo do 365 da Microsoft não gerará um email de convite para o convidado, para que alguém da equipe notifique o convidado.
+Os convidados que você já adicionou por meio do Azure AD B2B, Grupos do Microsoft 365 ou SharePoint estão prontos para começar. O administrador do Microsoft 365 ou um proprietário de equipe pode adicionar esses convidados às respectivas equipes. Se você adicionar um convidado diretamente ao grupo do Microsoft 365 associado a uma equipe, o convidado terá acesso à equipe, mas o grupo do Microsoft 365 não gera um email de convite para o convidado, portanto, alguém da equipe deve notificar o convidado.
 
 > [!NOTE]
 > Os convidados estão sujeitos aos limites de serviço do [Microsoft 365 ou Office 365](https://go.microsoft.com/fwlink/p/?linkid=282347) e do [Azure Active Directory](https://go.microsoft.com/fwlink/p/?linkid=853019).
 
-Você pode acompanhar adições de convidados no Azure AD ou no Centro de segurança do Microsoft 365. A adição de um convidado no Microsoft Teams é auditada e registrada como uma atividade de administração de grupo do Azure AD: “Adicionou membro a grupo”. Para obter mais detalhes, consulte [auditar e relatar um usuário de colaboração B2B](https://docs.microsoft.com/azure/active-directory/external-identities/auditing-and-reporting) e [Pesquisar o log de auditoria no centro de conformidade](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance).
+Você pode acompanhar adições de convidados no Azure AD ou no Centro de segurança do Microsoft 365. A adição de um convidado no Microsoft Teams é auditada e registrada como uma atividade de administração de grupo do Azure AD: “Adicionou membro a grupo”. Para obter mais detalhes, consulte Auditoria e relatórios de um usuário de colaboração [B2B](https://docs.microsoft.com/azure/active-directory/external-identities/auditing-and-reporting) e Pesquise o log de [auditoria no Centro de Conformidade.](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance)
 
 
 ## <a name="related-topics"></a>Tópicos relacionados

@@ -28,7 +28,7 @@ Você pode usar os resultados de uma consulta de pesquisa para configurar usuár
 
 ## <a name="tasks-you-can-perform"></a>Tarefas que podem ser executadas
 
-Você pode executar as seguintes tarefas na página Painel de Controle de **Pesquisa** do Usuário:
+Você pode executar as seguintes tarefas na página Painel de **Controle** de Pesquisa do Usuário:
 
 - [Pesquisar usuários do Lync Server 2010](https://technet.microsoft.com/library/3b9f6f55-d7a9-46ae-8e10-f221ba0d3bb5.aspx)
 
@@ -62,7 +62,7 @@ As listas a seguir descrevem os menus, comando, campos e propriedades na página
 
 - **Find** Clique para exibir os usuários que corresponderem aos valores de pesquisa inseridos na caixa Pesquisar **usuários.**
 
-- **Abrir consulta** Clique para abrir uma consulta de pesquisa salva.
+- **Consulta aberta** Clique para abrir uma consulta de pesquisa salva.
 
 - **Salvar consulta** Clique para salvar uma consulta de pesquisa.
 

@@ -28,6 +28,6 @@ A tabela UserSite é uma tabela de suporte. Cada registro representa um site de 
 |:-----|:-----|:-----|:-----|
 |**UserSiteKey** <br/> |int  <br/> |Primário  <br/> |Número único de identificação do site de usuário.  <br/> |
 |**UserSiteName** <br/> |nvarchar(128)  <br/> |Exclusivo  <br/> |Nome do site do usuário.  <br/> |
-|**RegionKey** <br/> |int  <br/> |Externo  <br/> |Referenciado da [tabela Região](region.md).  <br/> |
+|**RegionKey** <br/> |int  <br/> |Externo  <br/> |Referenciado da [tabela Region](region.md).  <br/> |
    
 

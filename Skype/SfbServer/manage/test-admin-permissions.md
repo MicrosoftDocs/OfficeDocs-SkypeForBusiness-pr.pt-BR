@@ -24,14 +24,14 @@ ms.locfileid: "49800086"
 |--|--|
 |Agenda de verificação|Após a implantação inicial do Skype for Business Server. Conforme necessário, se surgirem problemas relacionados à permissão.|
 |Ferramenta de teste|Windows PowerShell|
-|Permissões obrigatórias|Quando executados localmente usando o Shell de Gerenciamento do Skype for Business Server, os usuários devem ser membros do grupo de segurança RTCUniversalServerAdmins.<br><br/>Ao executar usando uma instância remota do Windows PowerShell, os usuários devem ter uma função RBAC com permissão para executar o cmdlet Test-CsOUPermission usuário. Para ver uma lista de todas as funções do RBAC que podem usar esse cmdlet, execute o seguinte comando no prompt do Windows PowerShell:<br/><br/>Get-CsAdminRole Where-Object \| {$_. Cmdlets -match "Test-CsOUPermission"}|
+|Permissões obrigatórias|Quando executados localmente usando o Shell de Gerenciamento do Skype for Business Server, os usuários devem ser membros do grupo de segurança RTCUniversalServerAdmins.<br><br/>Ao executar usando uma instância remota do Windows PowerShell, os usuários devem ter uma função RBAC com permissão para executar o Test-CsOUPermission cmdlet. Para ver uma lista de todas as funções do RBAC que podem usar esse cmdlet, execute o seguinte comando no prompt do Windows PowerShell:<br/><br/>Get-CsAdminRole Where-Object \| {$_. Cmdlets -match "Test-CsOUPermission"}|
 |||
 
 ## <a name="description"></a>Descrição
 
 Quando você instala o Skype for Business Server, uma das tarefas realizadas pelo programa de Instalação fornece ao grupo RTCUniversalUserAdmins as permissões do Active Directory necessárias para gerenciar usuários, computadores, contatos, contatos de aplicativo e pessoas InetOrg. Se você tiver desabilitado a herança de permissão no Active Directory, a instalação não poderá atribuir essas permissões. Como resultado, os membros do grupo RTCUniversalUserAdmins não poderão gerenciar entidades do Skype for Business Server. Esses privilégios de gerenciamento só estarão disponíveis para administradores de domínio. 
 
-O Test-CsOUPermission cmdlet verifica se as permissões necessárias necessárias para gerenciar usuários, computadores e outros objetos estão definidas em um contêiner do Active Directory. Se essas permissões não estão definidas, você pode resolver esse problema executando [o cmdlet Grant-CsOUPermission](https://docs.microsoft.com/powershell/module/skype/Grant-CsOUPermission). 
+O Test-CsOUPermission cmdlet verifica se as permissões necessárias para gerenciar usuários, computadores e outros objetos estão definidas em um contêiner do Active Directory. Se essas permissões não estão definidas, você pode resolver esse problema executando [o cmdlet Grant-CsOUPermission](https://docs.microsoft.com/powershell/module/skype/Grant-CsOUPermission). 
 
 Observe que Grant-CsOUPermission só pode atribuir permissões a membros do grupo RTCUniversalUserAdmins. Não é possível usar esse cmdlet para conceder permissões a um usuário ou grupo arbitrário. Se você quiser que um usuário ou grupo diferente tenha permissões de gerenciamento de usuário, adicione esse usuário (ou grupo) ao grupo RTCUniversalUserAdmins. 
 
@@ -52,7 +52,7 @@ Para obter mais informações, consulte [o tópico de ajuda para Test-CsOUPermis
 
 Se as permissões necessárias já foram definidas, Test-CsOUPermission retornará uma resposta de uma palavra:
 
-Verdadeiro.
+Verdadeiro
 
 Se as permissões necessárias não estão definidas, Test-CsOUPermission retornará o valor False. Talvez seja preciso pesquisar por um momento para encontrar esse valor. Normalmente, ele será incorporado dentro de vários avisos que o acompanham. Por exemplo:
 

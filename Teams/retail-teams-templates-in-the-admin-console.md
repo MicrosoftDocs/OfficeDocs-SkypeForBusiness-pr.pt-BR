@@ -1,5 +1,5 @@
 ---
-title: Usar modelos de varejo do teams no centro de administração
+title: Usar modelos de varejo do Teams no centro de administração
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -11,7 +11,7 @@ ms.collection:
 - M365-collaboration
 localization_priority: Normal
 search.appverid: MET150
-description: Saiba como usar os modelos do teams para criar estruturas de equipe projetadas para as necessidades do revendedor fornecendo configurações, canais e aplicativos pré-instalados predefinidos usando o centro de administração.
+description: Saiba como usar modelos do Teams para criar estruturas de equipe projetadas para necessidades do revendedor, fornecendo configurações, canais e aplicativos pré-instalados predefinidos usando o centro de administração.
 f1.keywords:
 - CSH
 ms.custom:
@@ -26,32 +26,32 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 12/12/2020
 ms.locfileid: "49662636"
 ---
-# <a name="use-teams-retail-templates-in-the-admin-center"></a>Usar modelos de varejo do teams no centro de administração
+# <a name="use-teams-retail-templates-in-the-admin-center"></a>Usar modelos de varejo do Teams no centro de administração
 
-Os modelos de equipe permitem criar equipes de forma rápida e fácil, fornecendo um modelo predefinido de configurações, canais e aplicativos pré-instalados.
+Os modelos do Teams permitem que você crie equipes de forma rápida e fácil, fornecendo um modelo predefinido de configurações, canais e aplicativos pré-instalados.
 
-Os modelos de equipe têm definições predefinidas de estruturas de equipe projetadas com base nas necessidades do revendedor. Você pode usar modelos do teams para criar rapidamente os tipos de equipes que funcionam bem para varejistas e implantá-las em toda a organização. Você também pode estender os modelos de equipe para criar equipes que sejam adequadas às suas necessidades organizacionais específicas.
+Os modelos do Teams têm definições predefinida de estruturas de equipe projetadas em torno das necessidades do varejista. Você pode usar modelos do Teams para criar rapidamente os tipos de equipes que funcionam bem para revendedores e implantá-los em toda a organização. Você também pode estender os modelos do Teams para criar equipes adaptadas às suas necessidades organizacionais específicas.
 
-Neste artigo, apresentaremos cada um dos modelos de equipe e como recomendamos usá-los.
+Neste artigo, apresentaremos cada um dos modelos do Teams e como recomendamos usá-los.
 
-Este artigo é para você se for responsável por planejar, implantar e gerenciar várias equipes em toda a organização de varejo. Presumimos que você já tenha implantado o serviço do Microsoft Teams em sua organização. Se você ainda não distribuiu o Microsoft Teams, comece lendo o guia [como implantar o Microsoft Teams](How-to-roll-out-teams.md).
+Este artigo é para você se for responsável por planejar, implantar e gerenciar várias equipes em sua organização de varejo. Presumimos que você já implantou o serviço do Teams em sua organização. Se você ainda não tiver lançado o Teams, comece lendo o livro Como [lançar o Microsoft Teams.](How-to-roll-out-teams.md)
 
-Para saber mais sobre os modelos de equipe em geral, confira [introdução aos modelos](get-started-with-teams-templates-in-the-admin-console.md)do Microsoft Teams.
+Para saber mais sobre modelos de equipe em geral, consulte [Começar a usar modelos do Teams.](get-started-with-teams-templates-in-the-admin-console.md)
 
 ## <a name="organize-a-store"></a>Organizar uma loja
 
-Reúna seus funcionários de varejo em uma experiência central para gerenciar tarefas, compartilhar documentos e solucionar problemas com o cliente. Integre aplicativos adicionais para simplificar o início da mudança & processos finais.
+Reunir seus funcionários de varejo em uma experiência central para gerenciar tarefas, compartilhar documentos e resolver problemas dos clientes. Integre aplicativos adicionais para simplificar o início & de turno.
 
 | Tipo de modelo base |baseTemplateId | Propriedades que vêm com este modelo base |
 | ------------------|-- |----------------------------------------------------- |
-|Organizar uma loja|`retailStore`|Canais <ul><li>Geral<li>Deslocar entrega</li><li>Aprendizagem</li></ul> Aplicativo <ul><li>Wiki</li></ul>|
+|Organizar uma loja|`retailStore`|Canais: <ul><li>Geral<li>Shift handoff</li><li>Aprendizagem</li></ul> Apps: <ul><li>Wiki</li></ul>|
 ||||
 
-## <a name="manager-collaboration"></a>Colaboração do gerente
+## <a name="manager-collaboration"></a>Colaboração do Gerente
 
-O modelo de colaboração do gerente é ideal para criar uma equipe para um conjunto de gerentes colaborar em lojas/regiões etc. Por exemplo, se a sua organização tiver regiões, você pode criar uma equipe de colaboração do gerente para a região da Califórnia e incluir todos os gerentes da loja nessa região, bem como o gerente regional dessa região.
+O modelo colaboração do Gerente é ideal para criar uma equipe para um conjunto de gerentes colaborarem entre lojas/regiões, etc. Por exemplo, se sua organização tiver regiões, você poderá criar uma equipe de Colaboração do Gerente para a Região da Califórnia e incluir todos os gerentes de loja nessa região, bem como o gerente regional dessa região.
 
 | Tipo de modelo base| baseTemplateId | Propriedades que vêm com este modelo base |
 | ------------------|- |----------------------------------------------------- |
-|Colaboração do gerente de varejo|`retailManagerCollaboration` |Canais <ul><li>Geral<li>Operações</li><li>Aprendizagem</li></ul> Aplicativo <ul><li>Wiki</li></ul>|
+|Varejo – colaboração de gerente|`retailManagerCollaboration` |Canais: <ul><li>Geral<li>Operações</li><li>Aprendizagem</li></ul> Apps: <ul><li>Wiki</li></ul>|
 ||||
