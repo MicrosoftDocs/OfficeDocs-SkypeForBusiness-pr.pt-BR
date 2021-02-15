@@ -20,8 +20,8 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49826751"
 ---
-# <a name="use-the-skype-for-business-server-2015-control-panel"></a><span data-ttu-id="31cb9-103">Usar o Painel de Controle do Skype for Business Server 2015</span><span class="sxs-lookup"><span data-stu-id="31cb9-103">Use the Skype for Business Server 2015 Control Panel</span></span>
+# <a name="use-the-skype-for-business-server-2015-control-panel"></a><span data-ttu-id="ec92e-103">Usar o Painel de Controle do Skype for Business Server 2015</span><span class="sxs-lookup"><span data-stu-id="ec92e-103">Use the Skype for Business Server 2015 Control Panel</span></span>
  
-<span data-ttu-id="31cb9-104">Para obter detalhes sobre os diferentes procedimentos que você pode executar usando o Painel de Controle do Skype for Business Server, consulte [Gerenciar o Skype for Business Server 2015.](../../manage/manage.md)</span><span class="sxs-lookup"><span data-stu-id="31cb9-104">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
+<span data-ttu-id="ec92e-104">Para obter detalhes sobre os diferentes procedimentos que você pode executar usando o Painel de Controle do Skype for Business Server, consulte [Gerenciar o Skype for Business Server 2015.](../../manage/manage.md)</span><span class="sxs-lookup"><span data-stu-id="ec92e-104">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
   
 

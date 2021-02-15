@@ -22,8 +22,8 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49827361"
 ---
-# <a name="deployment-wizard-path-to-msi-installer"></a><span data-ttu-id="22b04-103">Assistente de Implantação: Caminho para o instalador MSI</span><span class="sxs-lookup"><span data-stu-id="22b04-103">Deployment Wizard: Path to MSI installer</span></span>
+# <a name="deployment-wizard-path-to-msi-installer"></a><span data-ttu-id="e8fb1-103">Assistente de Implantação: Caminho para o instalador MSI</span><span class="sxs-lookup"><span data-stu-id="e8fb1-103">Deployment Wizard: Path to MSI installer</span></span>
  
-<span data-ttu-id="22b04-104">Para obter detalhes sobre como usar o Assistente de Implantação para instalar o Skype for Business Server 2015, consulte [Instalar o Skype for Business Server 2015.](../../deploy/install/install.md)</span><span class="sxs-lookup"><span data-stu-id="22b04-104">For details about using Deployment Wizard to install Skype for Business Server 2015, see [Install Skype for Business Server 2015](../../deploy/install/install.md).</span></span>
+<span data-ttu-id="e8fb1-104">Para obter detalhes sobre como usar o Assistente de Implantação para instalar o Skype for Business Server 2015, consulte [Instalar o Skype for Business Server 2015.](../../deploy/install/install.md)</span><span class="sxs-lookup"><span data-stu-id="e8fb1-104">For details about using Deployment Wizard to install Skype for Business Server 2015, see [Install Skype for Business Server 2015](../../deploy/install/install.md).</span></span>
   
 

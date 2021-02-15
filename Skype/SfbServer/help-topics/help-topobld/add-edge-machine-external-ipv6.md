@@ -22,8 +22,8 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49828811"
 ---
-# <a name="add-edge-machine-external-ipv6"></a><span data-ttu-id="e5d03-103">Adicionar IPv6 Externo de Máquina de Borda</span><span class="sxs-lookup"><span data-stu-id="e5d03-103">Add Edge Machine External IPv6</span></span>
+# <a name="add-edge-machine-external-ipv6"></a><span data-ttu-id="58079-103">Adicionar IPv6 Externo de Máquina de Borda</span><span class="sxs-lookup"><span data-stu-id="58079-103">Add Edge Machine External IPv6</span></span>
  
-<span data-ttu-id="e5d03-104">No **endereço IPv6 externo,** insira o endereço IP externo que aponta para o serviço de Borda de Acesso, serviço de Borda de Webconferência e serviço de Borda A/V.</span><span class="sxs-lookup"><span data-stu-id="e5d03-104">In **External IPv6 address**, enter the external IP address that points to the Access Edge service, Web Conferencing Edge service, and A/V Edge service.</span></span>
+<span data-ttu-id="58079-104">No **endereço IPv6 externo,** insira o endereço IP externo que aponta para o serviço de Borda de Acesso, serviço de Borda de Webconferência e serviço de Borda A/V.</span><span class="sxs-lookup"><span data-stu-id="58079-104">In **External IPv6 address**, enter the external IP address that points to the Access Edge service, Web Conferencing Edge service, and A/V Edge service.</span></span>
   
 

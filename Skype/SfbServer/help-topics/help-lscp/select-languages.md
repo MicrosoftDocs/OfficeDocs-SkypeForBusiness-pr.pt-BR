@@ -22,8 +22,8 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49829101"
 ---
-# <a name="select-languages"></a><span data-ttu-id="624b3-104">Selecionar Idiomas</span><span class="sxs-lookup"><span data-stu-id="624b3-104">Select Languages</span></span>
+# <a name="select-languages"></a><span data-ttu-id="fda72-104">Selecionar Idiomas</span><span class="sxs-lookup"><span data-stu-id="fda72-104">Select Languages</span></span>
 
-<span data-ttu-id="624b3-105">Selecione os idiomas que você deseja usar para seu número de acesso de conferência discado.</span><span class="sxs-lookup"><span data-stu-id="624b3-105">Select the languages that you want to use for your dial-in conferencing access number.</span></span> <span data-ttu-id="624b3-106">Para obter detalhes, [consulte Create or Modify a Dial-in Conferencing Access Number](https://technet.microsoft.com/library/06f55c28-57f8-4d4e-8313-9740846796d9.aspx).</span><span class="sxs-lookup"><span data-stu-id="624b3-106">For details, see [Create or Modify a Dial-in Conferencing Access Number](https://technet.microsoft.com/library/06f55c28-57f8-4d4e-8313-9740846796d9.aspx).</span></span>
+<span data-ttu-id="fda72-105">Selecione os idiomas que você deseja usar para seu número de acesso de conferência discado.</span><span class="sxs-lookup"><span data-stu-id="fda72-105">Select the languages that you want to use for your dial-in conferencing access number.</span></span> <span data-ttu-id="fda72-106">Para obter detalhes, [consulte Create or Modify a Dial-in Conferencing Access Number](https://technet.microsoft.com/library/06f55c28-57f8-4d4e-8313-9740846796d9.aspx).</span><span class="sxs-lookup"><span data-stu-id="fda72-106">For details, see [Create or Modify a Dial-in Conferencing Access Number](https://technet.microsoft.com/library/06f55c28-57f8-4d4e-8313-9740846796d9.aspx).</span></span>
 
 

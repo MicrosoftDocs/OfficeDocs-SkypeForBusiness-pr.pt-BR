@@ -19,21 +19,21 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49826281"
 ---
-# <a name="manage-your-topology-in-skype-for-business-server"></a><span data-ttu-id="1790f-103">Gerenciar sua topologia no Skype for Business Server</span><span class="sxs-lookup"><span data-stu-id="1790f-103">Manage your topology in Skype for Business Server</span></span> 
+# <a name="manage-your-topology-in-skype-for-business-server"></a><span data-ttu-id="42f31-103">Gerenciar sua topologia no Skype for Business Server</span><span class="sxs-lookup"><span data-stu-id="42f31-103">Manage your topology in Skype for Business Server</span></span> 
  
-<span data-ttu-id="1790f-104">**Resumo:** Saiba mais sobre as etapas para gerenciar sua topologia no Skype for Business Server.</span><span class="sxs-lookup"><span data-stu-id="1790f-104">**Summary:** Learn about the steps to manage your topology in Skype for Business Server.</span></span>
+<span data-ttu-id="42f31-104">**Resumo:** Saiba mais sobre as etapas para gerenciar sua topologia no Skype for Business Server.</span><span class="sxs-lookup"><span data-stu-id="42f31-104">**Summary:** Learn about the steps to manage your topology in Skype for Business Server.</span></span>
   
-<span data-ttu-id="1790f-105">Os tópicos a seguir fornecem instruções passo a passo sobre tarefas envolvidas no gerenciamento da topologia do Skype for Business Server e dos Servidores Front-End.</span><span class="sxs-lookup"><span data-stu-id="1790f-105">The following topics provide step-by-step instructions on tasks involved with managing your Skype for Business Server topology and your Front End Servers.</span></span>
+<span data-ttu-id="42f31-105">Os tópicos a seguir fornecem instruções passo a passo sobre tarefas envolvidas no gerenciamento da topologia do Skype for Business Server e dos Servidores Front-End.</span><span class="sxs-lookup"><span data-stu-id="42f31-105">The following topics provide step-by-step instructions on tasks involved with managing your Skype for Business Server topology and your Front End Servers.</span></span>
   
-- [<span data-ttu-id="1790f-106">Gerenciar Servidores Front-End</span><span class="sxs-lookup"><span data-stu-id="1790f-106">Manage Front End Servers</span></span>](manage-front-end-servers.md)
+- [<span data-ttu-id="42f31-106">Gerenciar Servidores Front-End</span><span class="sxs-lookup"><span data-stu-id="42f31-106">Manage Front End Servers</span></span>](manage-front-end-servers.md)
     
-- [<span data-ttu-id="1790f-107">Gerenciar bancos de dados com um Grupo de Disponibilidade AlwaysOn</span><span class="sxs-lookup"><span data-stu-id="1790f-107">Manage databases with an AlwaysOn Availability Group</span></span>](manage-databases.md)
+- [<span data-ttu-id="42f31-107">Gerenciar bancos de dados com um Grupo de Disponibilidade AlwaysOn</span><span class="sxs-lookup"><span data-stu-id="42f31-107">Manage databases with an AlwaysOn Availability Group</span></span>](manage-databases.md)
 
-- [<span data-ttu-id="1790f-108">Corrigir ou atualizar um servidor Back End ou um servidor Standard Edition</span><span class="sxs-lookup"><span data-stu-id="1790f-108">Patch or update a Back End Server or Standard Edition server</span></span>](patch-or-update-a-back-end-or-standard-edition-server.md)
+- [<span data-ttu-id="42f31-108">Corrigir ou atualizar um servidor Back End ou um servidor Standard Edition</span><span class="sxs-lookup"><span data-stu-id="42f31-108">Patch or update a Back End Server or Standard Edition server</span></span>](patch-or-update-a-back-end-or-standard-edition-server.md)
     
-- [<span data-ttu-id="1790f-109">Mover dados do armazenamento de arquivos para um novo armazenamento de arquivos</span><span class="sxs-lookup"><span data-stu-id="1790f-109">Move File Store Data to a New File Store</span></span>](../../help-topics/help-topobld/move-file-store-data.md)
+- [<span data-ttu-id="42f31-109">Mover dados do armazenamento de arquivos para um novo armazenamento de arquivos</span><span class="sxs-lookup"><span data-stu-id="42f31-109">Move File Store Data to a New File Store</span></span>](../../help-topics/help-topobld/move-file-store-data.md)
 
-- [<span data-ttu-id="1790f-110">Gerenciar serviços</span><span class="sxs-lookup"><span data-stu-id="1790f-110">Manage services</span></span>](manage-services.md)
+- [<span data-ttu-id="42f31-110">Gerenciar serviços</span><span class="sxs-lookup"><span data-stu-id="42f31-110">Manage services</span></span>](manage-services.md)
 
     
 
