@@ -22,12 +22,12 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49829401"
 ---
-# <a name="federated-domains-create-new-or-edit-existing"></a><span data-ttu-id="e015a-104">Domínios Federados: Criar Novos ou Editar Existentes</span><span class="sxs-lookup"><span data-stu-id="e015a-104">Federated Domains: Create New or Edit Existing</span></span>
+# <a name="federated-domains-create-new-or-edit-existing"></a><span data-ttu-id="af53b-104">Domínios Federados: Criar Novos ou Editar Existentes</span><span class="sxs-lookup"><span data-stu-id="af53b-104">Federated Domains: Create New or Edit Existing</span></span>
 
-<span data-ttu-id="e015a-105">O que você deseja fazer?</span><span class="sxs-lookup"><span data-stu-id="e015a-105">What do you want to do?</span></span> <span data-ttu-id="e015a-106">Clique no link para a tarefa que você deseja executar.</span><span class="sxs-lookup"><span data-stu-id="e015a-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="af53b-105">O que você deseja fazer?</span><span class="sxs-lookup"><span data-stu-id="af53b-105">What do you want to do?</span></span> <span data-ttu-id="af53b-106">Clique no link para a tarefa que você deseja executar.</span><span class="sxs-lookup"><span data-stu-id="af53b-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="e015a-107">Configurar o acesso para parceiros federados</span><span class="sxs-lookup"><span data-stu-id="e015a-107">Configure Access for Federated Partners</span></span>](https://technet.microsoft.com/library/5485e208-81e4-4e59-9aeb-1232c11dd8a2.aspx)
+- [<span data-ttu-id="af53b-107">Configurar o acesso para parceiros federados</span><span class="sxs-lookup"><span data-stu-id="af53b-107">Configure Access for Federated Partners</span></span>](https://technet.microsoft.com/library/5485e208-81e4-4e59-9aeb-1232c11dd8a2.aspx)
 
-- [<span data-ttu-id="e015a-108">Monitorar e controlar o acesso de parceiros federados</span><span class="sxs-lookup"><span data-stu-id="e015a-108">Monitor and Control Federated Partner Access</span></span>](https://technet.microsoft.com/library/3ee6e175-986d-4c33-b03a-b9f93083dca6.aspx)
+- [<span data-ttu-id="af53b-108">Monitorar e controlar o acesso de parceiros federados</span><span class="sxs-lookup"><span data-stu-id="af53b-108">Monitor and Control Federated Partner Access</span></span>](https://technet.microsoft.com/library/3ee6e175-986d-4c33-b03a-b9f93083dca6.aspx)
 
 
