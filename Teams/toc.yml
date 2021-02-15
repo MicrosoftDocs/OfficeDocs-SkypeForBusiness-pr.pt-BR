@@ -73,7 +73,7 @@ items:
             href: content-search.md
           - name: Auditoria
             href: audit-log-events.md
-          - name: Chave de cliente no nível do locatário para o Teams
+          - name: Chave de cliente
             href: 'https://docs.microsoft.com/microsoft-365/compliance/customer-key-tenant-level?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json'
       - name: Privacidade
         items:
@@ -501,7 +501,7 @@ items:
             href: audio-conferencing-pay-per-minute.md
           - name: Gerenciar as configurações de audioconferência para usuários
             items:
-              - name: Visão geral
+              - name: Visão Geral
                 href: manage-the-audio-conferencing-settings-for-a-user-in-teams.md
               - name: Ver uma lista de usuários habilitados para Audioconferência
                 href: see-a-list-of-users-that-are-enabled-for-audio-conferencing-in-teams.md
@@ -639,7 +639,7 @@ items:
             href: country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md
       - name: Roteamento Direto do Sistema de Telefonia
         items:
-          - name: Visão geral
+          - name: Visão Geral
             href: direct-routing-landing-page.md
           - name: Planejar o Roteamento Direto
             href: direct-routing-plan.md
@@ -1077,6 +1077,8 @@ items:
             href: built-in-custom-tabs.md
           - name: Use o Microsoft 365 ou Office 365 e conectores personalizados
             href: Office-365-custom-connectors.md
+          - name: Comportamento de aplicativos de equipes para usuários não padrão
+            href: non-standard-users.md
   - name: Adotar
     items:
       - name: Visão geral
