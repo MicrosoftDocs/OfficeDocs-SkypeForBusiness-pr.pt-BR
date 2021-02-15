@@ -61,7 +61,7 @@ Você pode usar o Painel de Controle do Skype for Business Server para exibir um
 
   - Os aplicativos confiáveis são altamente disponíveis e resilientes.
 
-No Painel de Controle do Skype for Business Server, é possível ver o nome dos aplicativos, o pool onde eles são executados e a porta usada.
+No Painel de Controle do Skype for Business Server, você pode ver o nome dos aplicativos, o pool onde eles são executados e a porta que usam.
 
 
 ### <a name="to-view-a-list-of-trusted-applications"></a>Para exibir uma lista de aplicativos confiáveis

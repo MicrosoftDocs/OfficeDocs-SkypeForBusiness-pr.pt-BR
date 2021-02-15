@@ -45,7 +45,7 @@ Depois de corrigir um Servidor Back End que faz parte de um Grupo de Disponibili
 
 1. Instale a atualização no servidor ou servidores do Skype for Business.
     
-2. Execute o seguinte comando do PowerShell no Shell de Gerenciamento do Skype for Business (conectado com uma conta com permissão adequada para aplicar alterações aos bancos de dados SQL AlwaysOn) da seguinte maneira:
+2. Execute o seguinte comando do PowerShell no Shell de Gerenciamento do Skype for Business (conectado com uma conta corretamente com permissão para aplicar alterações aos bancos de dados SQL AlwaysOn) da seguinte maneira:
     
     ```PowerShell
     Install-CsDatabase -Update -ConfiguredDatabases -SqlServerFqdn [sqlpool.contoso.com] -Verbose

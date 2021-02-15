@@ -33,7 +33,7 @@ Use as configurações de Arquivamento para controlar as opções de arquivament
 - **Configuração de pool (opcional)** Você pode especificar uma ou mais configurações de Arquivamento de pool para controlar as opções de arquivamento para um pool específico. Uma configuração de pool substitui a configuração global e a configuração de site, mas somente para os pools especificados nas configurações de pool de Arquivamento. É possível editar ou excluir as configurações de pool.
     
 > [!NOTE]
-> As configurações de arquivamento se aplicam aos usuários que estão no Skype for Business Server e, se você habilitar a opção de integração do Microsoft Exchange para usar o Exchange 2013 para armazenar dados de arquivamento no Microsoft Exchange, para os usuários que estão no Exchange 2013. No entanto, algumas opções são implementadas de forma ligeiramente diferente para usuários que estão no Exchange 2013, conforme descrito na próxima seção. 
+> As configurações de arquivamento se aplicam aos usuários que estão no Skype for Business Server e, se você habilitar a opção de integração do Microsoft Exchange para usar o Exchange 2013 para armazenar dados de arquivamento no Microsoft Exchange, para os usuários que estão no Exchange 2013. No entanto, algumas opções são implementadas de maneira ligeiramente diferente para os usuários que estão no Exchange 2013, conforme descrito na próxima seção. 
   
 Para definir as configurações de uma configuração de Arquivamento nova ou existente, especifique as seguintes opções:
 - **Nome** Cada configuração de Arquivamento exige um nome. O nome é determinado pelo tipo de configuração que você está adicionando ou editando:
@@ -54,7 +54,7 @@ Para definir as configurações de uma configuração de Arquivamento nova ou ex
     
   - **Desabilitar arquivamento**
     
-- **Bloquear mensagens instantâneas (IM) ou sessões de webconferência se o arquivamento falhar** As falhas incluem o seguinte:
+- **Bloquear sessões de IM (mensagens instantâneas) ou webconferência se o arquivamento falhar** As falhas incluem o seguinte:
     
   - **Uma falha de IM** pode ser um banco de dados completo ou um problema com o serviço de armazenamento. Neste caso, as mensagens instantâneas são bloqueadas para os usuários que estiverem habilitados para arquivamento.
     
@@ -71,7 +71,7 @@ Para definir as configurações de uma configuração de Arquivamento nova ou ex
   - Purging after the archiving data has been exported (which includes data that has been uploaded to Exchange, if you enable Microsoft Exchange integration).
     
     > [!NOTE]
-    > Se você habilitar a integração com o Microsoft Exchange, a purgação para usuários que estão localizados no Exchange 2013 e com suas caixas de correio colocadas em In-Place De espera será controlada pelo Exchange. A única exceção é para arquivos de conferência, que são armazenados no compartilhamento de arquivos do Lync Server. Esses arquivos são limpos do compartilhamento de arquivos somente depois que os arquivos foram exportados (carregados para o Exchange), se você selecionar a opção para limpar dados após os dados de arquivamento foram exportados ou após o número máximo especificado de dias, se você especificar um número máximo de dias para retenção. 
+    > Se você habilitar a integração com o Microsoft Exchange, a purgação para usuários que estão localizados no Exchange 2013 e com suas caixas de correio colocadas em In-Place De espera será controlada pelo Exchange. A única exceção é para arquivos de conferência, que são armazenados no Lync Server File Share. Esses arquivos são limpos do compartilhamento de arquivos somente depois que os arquivos foram exportados (carregados para o Exchange), se você selecionar a opção para limpar dados após os dados de arquivamento foram exportados ou após o número máximo especificado de dias, se você especificar um número máximo de dias para retenção. 
   
 Para obter detalhes sobre os recursos de Arquivamento, incluindo a integração com o Exchange, consulte [Plan for archiving in Skype for Business Server 2015](../../plan-your-deployment/archiving/archiving.md), [Deploy archiving for Skype for Business Server 2015](../../deploy/deploy-archiving/deploy-archiving.md), and [Manage archiving in Skype for Business Server 2015](../../manage/archiving/archiving.md).
 

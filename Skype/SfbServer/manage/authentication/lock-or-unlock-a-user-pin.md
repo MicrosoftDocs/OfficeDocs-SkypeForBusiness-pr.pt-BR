@@ -12,7 +12,7 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 3d293a8a-e182-4547-8b06-2603c3c77329
-description: 'Resumo: Bloqueie ou desbloqueie o PIN de conferência discada de um usuário para o Skype for Business Server.'
+description: 'Resumo: bloqueie ou desbloqueie o PIN de conferência discada de um usuário para o Skype for Business Server.'
 ms.openlocfilehash: 73bd9affa159fba4ab35844896b9662eea3e1780
 ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT

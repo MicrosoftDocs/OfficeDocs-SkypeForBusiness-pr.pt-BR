@@ -33,7 +33,7 @@ Você pode excluir políticas de conferência usando o Painel de Controle do Sky
     
 3. Na barra de navegação esquerda, clique **em Conferência e** em Política de **Conferência.**
     
-4. Na lista de políticas de conferência, clique na política de site ou de usuário que você deseja excluir, clique em **Editar** e em **Excluir.**
+4. Na lista de políticas de conferência, clique na política de site ou de usuário que deseja excluir, clique em **Editar** e em **Excluir.**
     
 ## <a name="delete-conferencing-policies-by-using-skype-for-business-server-management-shell"></a>Excluir políticas de conferência usando o Shell de Gerenciamento do Skype for Business Server
 

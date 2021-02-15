@@ -1,5 +1,5 @@
 ---
-title: Relatório de Localização no Skype for Business Server
+title: Relatório de localização no Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur

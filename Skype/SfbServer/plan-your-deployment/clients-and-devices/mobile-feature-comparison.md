@@ -30,7 +30,7 @@ ms.locfileid: "49825991"
   
 Este artigo compara os recursos e capacidades entre clientes móveis do Skype for Business e o cliente de área de trabalho do Skype for Business nas seguintes categorias:
   
-- Entrar, notificações por push e recursos gerais
+- Sign-in, push notifications, and general features
     
 - Presença aprimorada
     
@@ -38,7 +38,7 @@ Este artigo compara os recursos e capacidades entre clientes móveis do Skype fo
     
 - Mensagens instantâneas (IM)
     
-- Áudio e vídeo do Skype for Business para Skype for Business
+- Áudio e vídeo do Skype for Business para o Skype for Business
     
 - Conferência
     
@@ -50,7 +50,7 @@ Este artigo compara os recursos e capacidades entre clientes móveis do Skype fo
     
 -  Autenticação Moderna
     
-As tabelas a seguir listam os recursos disponíveis para usuários do Skype for Business em uma implantação local do Skype for Business Server. Os mesmos recursos também estão disponíveis para os usuários do Skype for Business Online e do Microsoft 365 ou Office 365, a menos que indicado de outra forma nas notas de rodapé da tabela.
+As tabelas a seguir listam os recursos disponíveis para usuários do Skype for Business em uma implantação local do Skype for Business Server. Os mesmos recursos também estão disponíveis para usuários do Skype for Business Online e do Microsoft 365 ou Office 365, a menos que indicado de outra forma nas notas de rodapé da tabela.
   
 > [!NOTE]
 > Para ajuda online e recursos para usuários finais, confira [Descobrir o Skype for Business.](https://go.microsoft.com/fwlink/p/?LinkId=528686) 
@@ -59,9 +59,9 @@ As tabelas a seguir listam os recursos disponíveis para usuários do Skype for 
 > Para comparar os recursos disponíveis em outros clientes do Skype for Business, consulte Comparação de recursos do cliente de área de [trabalho para o Skype for Business.](desktop-feature-comparison.md) 
 
 > [!NOTE]
-> O suporte a MCX (Mobility Service) para clientes móveis herdado não está mais disponível no Skype for Business Server 2019. Todos os clientes móveis atuais do Skype for Business já usam o Unified Communications Web API (UCWA) para dar suporte a mensagens instantâneas (IM), presença e contatos. Os usuários com clientes herddos usando o MCX precisarão atualizar para um cliente atual.
+> O suporte a MCX (Mobility Service) para clientes móveis herdado não está mais disponível no Skype for Business Server 2019. Todos os clientes móveis atuais do Skype for Business já usam o Unified Communications Web API (UCWA) para dar suporte a mensagens instantâneas (IM), presença e contatos. Os usuários com clientes herddos usando MCX precisarão atualizar para um cliente atual.
   
-## <a name="sign-in-push-notifications-and-general-features"></a>Entrar, notificações por push e recursos gerais
+## <a name="sign-in-push-notifications-and-general-features"></a>Sign-in, push notifications, and general features
 
  
  | Recurso/funcionalidade  | Cliente de área de trabalho do Skype for Business  | Windows Phone  | iOS  | Android |
@@ -77,13 +77,13 @@ As tabelas a seguir listam os recursos disponíveis para usuários do Skype for 
   
 - Se o usuário tiver habilitado as notificações por push, o Skype for Business será desa alta após 10 dias de inatividade.
     
-- Se o usuário não habilitar as notificações por push, o Skype for Business des saída assim que o usuário sair do aplicativo.
+- Se o usuário não tiver habilitado as notificações por push, o Skype for Business será desa alta assim que o usuário sair do aplicativo.
     
 Em dispositivos iOS, o Skype for Business sai automaticamente depois que o cliente móvel não contata o servidor por 10 dias devido à perda de conectividade de rede ou outros problemas.
   
  &#x2777; somente no aplicativo.
   
- &#x2778; as notificações estão disponíveis quando o aplicativo está em execução em segundo plano.
+ &#x2778; as notificações estarão disponíveis quando o aplicativo estiver em execução em segundo plano.
  
  &#x2779; os serviços de notificação móvel Google/Android/GCNS e Apple/APNS usam criptografia HTTPS/TLS para entrega de notificações. A carga de notificação é tratada em texto sem texto enquanto processada pelo provedor de notificação.
  
@@ -143,7 +143,7 @@ Em dispositivos iOS, o Skype for Business sai automaticamente depois que o clien
 |Exibir convites de IM perdidos  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
 |Vibrar com IM em entrada  <br/> ||&#x2714; &#x2776; |&#x2714;|&#x2714;|
    
- &#x2776; Este dispositivo vibra sempre que uma mensagem de IM é recebida, mesmo que a mensagem atual na conversa de mensagens iM seja exibida
+ &#x2776; esse dispositivo vibra sempre que uma mensagem de IM é recebida, mesmo que a mensagem atual na conversa de mensagens iM seja exibida
   
 ## <a name="skype-for-business-to-skype-for-business-audio-and-video"></a>Áudio e vídeo do Skype for Business para Skype for Business
 
@@ -221,7 +221,7 @@ Em dispositivos iOS, o Skype for Business sai automaticamente depois que o clien
 |Iniciar o IM com um contato federado  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
 |Conduzir chamadas de duas partes com usuários externos  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
 |Conduzir chamadas de várias partes com usuários externos  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
-|Use a Chamada via Trabalho para alcançar um contato federado no celular ligando para o número de trabalho publicado &#x2776;            <br/> ||&#x2714;|&#x2714;|&#x2714;|
+|Use a Chamada via Trabalho para alcançar um contato federado em seu telefone celular ligando para seu número de trabalho &#x2776;            <br/> ||&#x2714;|&#x2714;|&#x2714;|
    
  &#x2776; Por padrão, os usuários federados são atribuídos à relação de privacidade de Contatos Externos. Para poder alcançar um contato federado no celular ligando para o número comercial publicado, o contato federado deve atribuir manualmente a você a relação de privacidade Colegas.
   

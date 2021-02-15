@@ -22,7 +22,7 @@ ms.locfileid: "49827701"
 ---
 # <a name="item-service-for-call-quality-dashboard-cqd"></a>Serviço de Item para Painel de Qualidade de Chamada (CQD)
  
-**Resumo:** Saiba mais sobre o Serviço de Item, que faz parte da API de Repositório para o Painel de Qualidade da Chamada. O Painel de Qualidade da Chamada é uma ferramenta do Skype for Business Server.
+**Resumo:** Saiba mais sobre o Serviço de Item, que faz parte da API de Repositório para Painel de Qualidade de Chamada. O Painel de Qualidade da Chamada é uma ferramenta do Skype for Business Server.
   
 O Serviço de Item faz parte da API de Repositório para o Painel de Qualidade da Chamada.
   
@@ -52,7 +52,7 @@ As operações REST estão incluídas na tabela a seguir.
 
 |**Operação**|**Descrição**|
 |:-----|:-----|
-|[Obter itens](get-items.md) <br/> |Obter itens retorna todos os itens no repositório.  <br/> |
+|[Obter itens](get-items.md) <br/> |Get Items retorna todos os itens no repositório.  <br/> |
 |[Obter item](get-item.md) <br/> |Get Item retorna um Item específico.  <br/> |
 |[Obter subitens](get-sub-items.md) <br/> |Get Sub-Items retorna sub-itens de um item específico.  <br/> |
 |[Obter o Item Predecessor](get-item-ancestors.md) <br/> |Get Item Ancestors retorna ancestrais de um item específico.  <br/> |

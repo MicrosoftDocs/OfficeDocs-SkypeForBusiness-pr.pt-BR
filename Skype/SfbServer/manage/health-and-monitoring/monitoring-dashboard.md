@@ -193,7 +193,7 @@ Para exportar a exibição do painel atual (e seus valores), clique na opção d
     
 Em seguida, você precisará atualizar o Painel de Monitoramento antes que as alterações entre em vigor. Para fazer isso, pressione F5 ou clique **no** ícone Atualizar na barra de ferramentas Painel. (O **ícone Atualizar** é um círculo com um par de setas verdes.)
   
-Você também pode criar uma planilha do Excel que inclua feeds de dados ao vivo, que inclui links para os dados mais recentes do Painel de Monitoramento. Para criar um arquivo de feed de dados ao vivo, clique no ícone laranja Exportar para **Feed de** Dados na barra de ferramentas.
+Você também pode criar uma planilha do Excel que inclui feeds de dados ao vivo, que inclui links para os dados mais recentes do Painel de Monitoramento. Para criar um arquivo de feed de dados ao vivo, clique no ícone laranja Exportar para **Feed de** Dados na barra de ferramentas.
   
 Se você preferir imprimir o Painel atual, clique no ícone da impressora na barra de ferramentas.
   

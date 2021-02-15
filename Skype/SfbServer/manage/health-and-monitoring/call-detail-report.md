@@ -55,7 +55,7 @@ O Relatório Detalhado de Chamadas pode ser acessado a partir de qualquer um dos
     
 - The [Media Quality Summary Report in Skype for Business Server (summary.md) (by clicking either the Call volume or Poor call percentage metric)
     
-- O [Relatório de Comparação de Qualidade](comparison.md) de Mídia no Skype for Business Server (clicando no Relatório de Lista de Chamadas no Skype for Business [Server](call-list-report-0.md) e clicando na métrica Detalhes).
+- O [Relatório de Comparação de](comparison.md) Qualidade de Mídia no Skype for Business Server (clicando no Relatório de Lista de Chamadas no Skype for Business [Server](call-list-report-0.md) e clicando na métrica Detalhes).
     
 - O [Relatório de Desempenho do Servidor no Skype for Business Server](server-performance.md) (clicando na métrica Volume da chamada ou Percentual de chamadas ruins)
     

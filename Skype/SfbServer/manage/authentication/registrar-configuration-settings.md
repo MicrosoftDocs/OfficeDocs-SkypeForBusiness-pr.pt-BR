@@ -68,7 +68,7 @@ Você pode usar o Registrador para configurar protocolos de autenticação de se
   
 Siga estas etapas para modificar um Registrador Avançado existente. 
   
-### <a name="to-modify-existing-registrar-configuration-settings"></a>Para modificar as definições de configuração do registrador existente
+### <a name="to-modify-existing-registrar-configuration-settings"></a>Para modificar as definições de configuração existentes do registrador
 
 1.  Em uma conta de usuário que seja membro do grupo RTCUniversalServerAdmins (ou que tenha direitos de usuário equivalentes) ou atribuído à função CsServerAdministrator ou CsAdministrator, faça logon em qualquer computador que está na rede na qual você implantou o Skype for Business Server.
     

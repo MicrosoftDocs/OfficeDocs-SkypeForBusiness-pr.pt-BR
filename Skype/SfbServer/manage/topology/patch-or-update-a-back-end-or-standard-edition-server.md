@@ -23,7 +23,7 @@ ms.locfileid: "49826301"
  
 **Resumo:** Saiba como instalar uma atualização ou um patch em um servidor back-end no Skype for Business Server.
   
-Este tópico explica como instalar uma atualização em um Servidor de Back End Enterprise Edition ou em um servidor Standard Edition.
+Este tópico explica como instalar uma atualização em um servidor Back End Enterprise Edition ou em um servidor Standard Edition.
   
 Se o servidor Back End estiver inoperante por ao menos 30 minutos enquanto você o estiver atualizando, os usuários podem entrar em modo de resiliência. Quando a atualização for concluída e os servidores Back End tiver novamente se conectado aos servidores Front End no pool, os usuários são retornados à funcionalidade total. Se a atualização levar menos de 30 minutos, os usuários não serão afetados.
   
@@ -33,7 +33,7 @@ Se o servidor Back End estiver inoperante por ao menos 30 minutos enquanto você
     
 2. Faça o download do pacote de atualizações e extraia os arquivos para um disco rígido local.
     
-3. Inicie o Shell de Gerenciamento do Skype for Business Server: clique em **Iniciar,** em Todos os **Programas,** no **Skype for Business** e no Shell de Gerenciamento do Skype for Business **Server.**
+3. Inicie o Shell de Gerenciamento do Skype for Business Server: Clique em **Iniciar,** Em Todos os **Programas,** no **Skype for Business** e, em seguida, clique em Shell de Gerenciamento do Skype for Business **Server.**
     
 4. Pare os serviços do Skype for Business Server. Na linha de comando, digite:
     

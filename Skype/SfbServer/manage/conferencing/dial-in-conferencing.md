@@ -25,7 +25,7 @@ ms.locfileid: "49828151"
   
 Este tópico descreve como gerenciar a conferência discda. Para obter mais informações sobre como planejar e configurar a conferência discada na implantação, consulte Planejar a conferência discada no [Skype for Business Server](../../plan-your-deployment/conferencing/dial-in-conferencing.md) e configurar a conferência discada no Skype for Business [Server.](../../deploy/deploy-conferencing/dial-in-conferencing.md)
   
-Você pode executar as seguintes tarefas para gerenciar a conferência discda: habilitar ou desabilitar a conferência discado, gerenciar números de acesso, gerenciar políticas de PIN para conferência discda, gerenciar comunicados de entrada e saída de conferência, modificar mapeamentos de teclas para comandos DTMF e dar as boas-vindas aos usuários na conferência discda. 
+Você pode executar as seguintes tarefas para gerenciar a conferência discda: habilitar ou desabilitar a conferência discda, gerenciar números de acesso, gerenciar políticas de PIN para conferência discda, gerenciar comunicados de entrada e saída de conferência, modificar mapeamentos de teclas para comandos DTMF e dar boas-vindas aos usuários para conferência discda. 
   
 Para obter mais informações sobre como gerenciar planos de discagem, consulte Criar ou modificar um plano de [discagem no Skype for Business Server.](../../deploy/deploy-enterprise-voice/dial-plans.md)
   

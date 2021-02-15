@@ -10,7 +10,7 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: No Skype for Business Server, vários troncos podem ser atribuídos a um único gateway PSTN; Isso significa que gateways e troncos não são os mesmos, e os administradores devem usar o cmdlet Get-CsTrunk para exibir informações sobre um tronco SIP individual.
+description: No Skype for Business Server, vários troncos podem ser atribuídos a um único gateway PSTN; Isso significa que os gateways e troncos não são iguais e os administradores devem usar o cmdlet Get-CsTrunk para exibir informações sobre um tronco SIP individual.
 ms.openlocfilehash: b49846ed7244dec2f51f51f262becc440662026c
 ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT

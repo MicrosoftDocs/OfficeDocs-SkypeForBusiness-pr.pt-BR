@@ -182,10 +182,10 @@ As políticas de largura de banda do CAC podem definir o seguinte:
 - Largura de banda máxima alocada para uma única chamada de vídeo (sessão).
 
 > [!NOTE]
-> Todos os valores de largura de banda do CAC representam os limites  *máximos*  de largura de banda unidirecionais.
+> Todos os valores de largura de banda do CAC representam os  *limites máximos*  de largura de banda unidirecionais.
 
 > [!NOTE]
-> Os recursos da Política de Voz do Skype for Business Server fornecem a capacidade de substituir verificações de política de largura de banda para chamadas de entrada para o usuário (não para chamadas de saída feitas pelo usuário). Depois da sessão ser estabelecida, o consumo de largura de banda será contabilizado com precisão. Essa configuração deve ser usada com moderação. Para obter detalhes, consulte [Create or modify a voice policy and configure PSTN usage records in Skype for Business](../../deploy/deploy-enterprise-voice/voice-policy-and-pstn-usage-records.md) or Modify a Voice Policy and Configure [PSTN Usage Records](https://technet.microsoft.com/library/6c53aaf5-218b-4bd4-8cea-31bc9d53f1bd.aspx) in the Deployment documentation.
+> Os recursos da Política de Voz do Skype for Business Server oferecem a capacidade de substituir verificações de política de largura de banda para chamadas de entrada para o usuário (não para chamadas de saída feitas pelo usuário). Depois da sessão ser estabelecida, o consumo de largura de banda será contabilizado com precisão. Essa configuração deve ser usada com moderação. Para obter detalhes, consulte [Create or modify a voice policy and configure PSTN usage records in Skype for Business](../../deploy/deploy-enterprise-voice/voice-policy-and-pstn-usage-records.md) or Modify a Voice Policy and Configure [PSTN Usage Records](https://technet.microsoft.com/library/6c53aaf5-218b-4bd4-8cea-31bc9d53f1bd.aspx) in the Deployment documentation.
 
 Para otimizar a utilização de largura de banda com base por sessão, considere o tipo de codec de áudio e vídeo que será usado. Mais especificamente, evite alocar menos largura de banda para um codec que você espera que seja usado com frequência. Por outro lado, se você deseja impedir que a mídia use um codec que exija mais largura de banda, deverá definir a largura de banda máxima por sessão menor o suficiente para desencorajar tal uso. Para o áudio, nem todos os codecs estão disponíveis para cada cenário. Por exemplo:
 

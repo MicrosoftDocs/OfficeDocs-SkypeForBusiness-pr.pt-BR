@@ -79,7 +79,7 @@ Exceto quando anotou, os produtos a seguir não estão no escopo para o TLS 1.0/
 - Sistema de Sala do Lync (ou seja, SRSv1). O LRS atingiu o fim do suporte em 9 de outubro de 2018 e não será atualizado para dar suporte ao TLS 1.2.
 - Todos os clientes do Lync 2010
 - Lync Phone Edition - orientações [atualizadas aqui.](https://techcommunity.microsoft.com/t5/Skype-for-Business-Blog/Certified-Skype-for-Business-Online-Phones-and-what-this-means/ba-p/120035)
-- Aparelho de Filial Sobrevivência (SBA) baseado em 2013 ou SBS (Servidor de Filial Survivable)
+- Aparelho de Filial Sobrevivência (SBA) baseado em 2013 ou Servidor de Filial Survivable (SBS)
 - Cloud Connector Edition (CCE)
 - Skype for Business for Windows Phone
 
@@ -95,7 +95,7 @@ Se sua organização precisar desabilitar o TLS 1.0 e 1.1, e você usar o Lync S
 
 #### <a name="call-quality-dashboard"></a>Painel de Qualidade da Chamada
 
-Atualmente, o Painel de Qualidade de Chamada Local depende do TLS 1.0 durante a nova instalação (instalação pela primeira vez em seus ambientes locais).  No momento, estamos investigando esse problema e planejamos lançar uma correção em um futuro próximo.  Se você estiver planejando instalar o CQD e também desabilitar o TLS 1.0, recomendamos que você conclua a instalação do CQD primeiro e continue com a desabilitação do TLS 1.0.
+O Painel de Qualidade de Chamada Local atualmente depende do TLS 1.0 durante a nova instalação (instalação pela primeira vez em seus ambientes locais).  No momento, estamos investigando esse problema e planejamos lançar uma correção em um futuro próximo.  Se você estiver planejando instalar o CQD e também desabilitar o TLS 1.0, recomendamos que você conclua a instalação do CQD primeiro e continue com a desabilitação do TLS 1.0.
 
 #### <a name="skype-for-business-sdn-manager"></a>Gerenciador SDN do Skype for Business
 
@@ -129,7 +129,7 @@ Queremos seguir a ordem usual de operações de "dentro para fora" para atualiza
 
 1. Teste todas as etapas em seu laboratório antes de configurar os servidores de produção.
 2. Fazer o back up e preservar uma cópia do Registro exportado em cada servidor individual a ser atualizado. Não é possível compartilhar registros entre servidores; eles contêm chaves exclusivas baseadas em máquina.
-3. Atualize todos os servidores do Skype for Business 2015 para a CU9 ou superior. Para o Skype for Business Server 2019, atualize para CU1 ou superior.
+3. Atualize todos os servidores do Skype for Business 2015 para CU9 ou superior. Para o Skype for Business Server 2019, atualize para CU1 ou superior.
 4. Instale todos os pré-requisitos em todos os servidores.
 5. Implantar chaves do Registro de pré-requisitos.
 6. Certifique-se de que todos os clientes no escopo sejam atualizados.
@@ -478,10 +478,10 @@ Como alguns pré-requisitos de dependência são necessários para dar suporte a
 
 1. Baixe e copie o SQL Express 2014 SP2 (SQLEXPR_x64.exe) para a pasta local no FE. Digamos que o caminho da pasta <SQL_FOLDER_PATH>.
 2. Launch PowerShell or Command Prompt and navigate to <SQL_FOLDER_PATH>.
-3. Crie a instância SQL RTCLOCAL executando o comando abaixo. Aguarde até SQLEXPR_x64.exe finalize antes de prosseguir:
+3. Crie a instância SQL RTCLOCAL executando o comando abaixo. Aguarde até SQLEXPR_x64.exe terminar antes de prosseguir:
 
     SQLEXPR_x64.exe /Q /IACCEPTSQLSERVERLICENSETERMS /UPDATEENABLED=0 /HIDECONSOLE /ACTION=Install /FEATURES=SQLEngine,Tools /INSTANCENAME=RTCLOCAL /TCPENABLED=1 /SQLSVCACCOUNT="NT AUTHORITY\NetworkService" /SQLSYSADMINACCOUNTS="Builtin\Administrators" /BROWSERSVCSTARTUPTYPE="Automatic" /AGTSVCACCOUNT="NTAUTHORITY\NetworkService" /SQLSVCSTARTUPTYPE=Automati
-1. Crie a instância SQL LYNCLOCAL executando o comando abaixo. Aguarde até SQLEXPR_x64.exe finalize antes de prosseguir para a próxima etapa:
+1. Crie a instância SQL LYNCLOCAL executando o comando abaixo. Aguarde até SQLEXPR_x64.exe terminar antes de prosseguir para a próxima etapa:
 
     SQLEXPR_x64.exe /Q /IACCEPTSQLSERVERLICENSETERMS /UPDATEENABLED=0 /HIDECONSOLE /ACTION=Install /FEATURES=SQLEngine,Tools /INSTANCENAME=LYNCLOCAL /TCPENABLED=1 /SQLSVCACCOUNT="NT AUTHORITY\NetworkService" /SQLSYSADMINACCOUNTS="Builtin\Administrators" /BROWSERSVCSTARTUPTYPE="Automatic" /AGTSVCACCOUNT="NTAUTHORITY\NetworkService" /SQLSVCSTARTUPTYPE=Automatic
 1. Execute a configuração do Skype for Business Server 2015 RTM.
@@ -507,7 +507,7 @@ Como alguns pré-requisitos de dependência são necessários para dar suporte a
     - Objetos de gerenciamento SQL: https://www.microsoft.com/download/details.aspx?id=53164 
         - **Observação:** O feature pack terá muitos itens que podem ser baixados. Selecione para baixar SharedManagementObjects.msi somente.
         - **Observação:** Substitua o arquivo existente que existe na pasta Setup/amd64/ da mídia de instalação.
-    - Tipos do SQL CLR: https://www.microsoft.com/download/details.aspx?id=53164 
+    - Tipos DE CLR SQL: https://www.microsoft.com/download/details.aspx?id=53164 
         - **Observação:** O feature pack terá muitos itens que podem ser baixados. Selecione para baixar CQLSysClrTypes.msi somente
         - **Observação:** substitua o arquivo existente que existe na pasta Setup/amd64/ da mídia de instalação.
 5. Instalar componentes principais: 
@@ -523,7 +523,7 @@ Como alguns pré-requisitos de dependência são necessários para dar suporte a
 8. Instalar o Armazenamento de Configuração Local (Etapa 1): 
      - Abra o Assistente de Implantação, clique em Instalar  ou Atualizar o Sistema do Skype for Business Server e clique em Executar na Etapa 1: Instalar o Armazenamento de Configuração Local.
      - Clique **em Próximo** na caixa de diálogo Instalar Armazenamento de **Configuração** Local.
-     ![Caixa de diálogo Instalar Armazenamento de Configuração Local](../../media/local-configuration-store.png)
+     ![Instalar a caixa de diálogo Do Armazenamento de Configuração Local](../../media/local-configuration-store.png)
      - Revise os resultados e verifique se o Status da Tarefa foi Concluído. Revise o arquivo de log resultante clicando em **Exibir Log.**
      ![O status da tarefa aparece como Concluído](../../media/local-configuration-task-completed.png)
      - Clique em **Concluir**.

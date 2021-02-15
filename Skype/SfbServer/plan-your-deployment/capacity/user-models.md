@@ -57,7 +57,7 @@ A tabela a seguir descreve o modelo de usuário para uso do catálogo de endere�
   
 **Modelo de usuário para uso do catálogo de endereços**
 
-|**Modo de pesquisa do Catálogo de endereços**|**Usage**|
+|**Modo de pesquisa do Catálogo de endereços**|**Uso**|
 |:-----|:-----|
 |Consulta da web do Catálogo de endereços somente (todas as consultas realizadas pelo serviço Consulta da web do Catálogo de endereços)  <br/> |Quatro consultas de prefixo por usuário, por dia.  <br/> 60 consultas de pesquisa exatas por usuário, por dia. 40% delas são em lote, com uma média de 20 contatos por consulta. Os outros 60% das consultas servem para um único contato.  <br/> 25 consultas de foto por usuário, por dia. 24 para uma única foto, o restante é uma consulta em lote com uma média de 20 contatos.  <br/> Uma consulta de pesquisa de organização por usuário, por dia.  <br/> |
 |Modo misto, arquivo do catálogo de endereços e consultas da web usadas. Esse é o modo padrão.  <br/> |Somente dois tipos de consulta vão para a rede, as consultas de pesquisa de foto e organizacional total.  <br/> 25 consultas de foto por usuário, por dia. 24 para uma única foto, o restante é uma consulta em lote com uma média de 20 contatos.  <br/> Uma consulta de pesquisa de organização por usuário, por dia.  <br/> |

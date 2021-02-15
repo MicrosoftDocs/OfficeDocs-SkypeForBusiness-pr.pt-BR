@@ -25,9 +25,9 @@ ms.locfileid: "49827501"
 ---
 # <a name="powershell-script-sample---reset-the-autostart-setting-in-teams"></a>Exemplo de script do PowerShell - Redefinir a configuração de início automático no Teams
 
-Use esse script para redefinir a configuração de início automático do Teams por usuário. Isso inclui todos os valores definidos pelo usuário ou pelo aplicativo Teams. Por padrão, o Teams é iniciado automaticamente quando um usuário entra no computador depois de instalado.
+Use este script para redefinir a configuração de início automático do Teams por usuário. Isso inclui todos os valores definidos pelo usuário ou pelo aplicativo Teams. Por padrão, o Teams é iniciado automaticamente quando um usuário entra no computador depois que ele é instalado.
 
-Se você já implantou o Teams e deseja definir a opção Impedir que o [Microsoft Teams](../msi-deployment.md#use-group-policy-recommended) seja iniciado automaticamente após a configuração de Política de Grupo para desabilitar o início automático do Teams, você precisará primeiro definir a configuração de Política de Grupo com o valor que você deseja e, em seguida, executar esse script.
+Se você já implantou o Teams e deseja definir a opção Impedir que o [Microsoft Teams](../msi-deployment.md#use-group-policy-recommended) seja iniciado automaticamente após a configuração de Política de Grupo de instalação para desabilitar o início automático do Teams, primeiro será necessário definir a configuração de Política de Grupo para o valor que você deseja e, em seguida, executar este script.
 
 Depois que o Teams é iniciado para um usuário, as configurações de início automático não podem ser desabilitadas usando a Política de Grupo.
 
@@ -150,4 +150,4 @@ if($null -eq $teamsProc) {
 ## <a name="related-topics"></a>Tópicos relacionados
 
 - [Instalar o Teams usando MSI](../msi-deployment.md)
-- [Implantar o Teams com o Microsoft 365 Apps para empresas](https://docs.microsoft.com/deployoffice/teams-install)
+- [Implantar o Teams com aplicativos do Microsoft 365 para empresas](https://docs.microsoft.com/deployoffice/teams-install)

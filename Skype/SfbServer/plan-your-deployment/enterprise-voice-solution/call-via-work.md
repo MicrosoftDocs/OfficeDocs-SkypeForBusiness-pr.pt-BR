@@ -27,7 +27,7 @@ ms.locfileid: "49825871"
  
 Planejamento do Telefonar via Trabalho no Skype for Business Server, que permite a integração entre o Skype for Business e seu sistema de telefonia PBX, para que os usuários possam usar o Skype for Business para controlar seus telefones PBX.
   
- **Telefonar via Trabalho** é um novo recurso no Skype for Business Server que permite integrar sua solução Skype for Business com seus sistemas de telefone PBX existentes. Um usuário habilitado para Telefonar via Trabalho pode clicar no Skype for Business para ligar para outro usuário, dentro de sua implantação ou em um usuário externo. A chamada é concluída usando o telefone PBX do usuário. Isso permite que um usuário com um telefone PBX inclua áudio em suas conversas rica do Skype for Business. Em versões anteriores do Lync Server, o controle de chamada remota era um recurso que permitia que os usuários controlas seus telefones PBX com o Lync Server. No Skype for Business Server, esse recurso foi substituído pelo Telefonar via Trabalho.
+ **Telefonar via Trabalho** é um novo recurso no Skype for Business Server que permite integrar sua solução do Skype for Business com seus sistemas de telefone PBX existentes. Um usuário habilitado para Telefonar via Trabalho pode clicar no Skype for Business para ligar para outro usuário, dentro de sua implantação ou em um usuário externo. A chamada é concluída usando o telefone PBX do usuário. Isso permite que um usuário com um telefone PBX inclua áudio em suas conversas rica do Skype for Business. Em versões anteriores do controle de chamada remota do Lync Server, era um recurso que permitia que os usuários controlas seus telefones PBX com o Lync Server. No Skype for Business Server, esse recurso foi substituído pelo Telefonar via Trabalho.
   
 Telefonar via Trabalho habilita o seguinte para usuários de telefone PBX
   
@@ -41,7 +41,7 @@ Telefonar via Trabalho habilita o seguinte para usuários de telefone PBX
     
 ## <a name="how-it-works"></a>Como funciona
 
-O Call Via Work usa a UNIFIED Communications Web API (UCWA) como o agente de usuário back-to-back (B2BUA) entre o sistema PBX e sua implantação do Skype for Business Server, para que nenhum gateway CSTA (aplicativo de telecomunicações) com suporte no computador seja necessário para conectar o Skype for Business Server ao seu sistema PBX. O UCWA é um serviço introduzido em versões anteriores do Lync Server para habilitar a conectividade com clientes móveis e da Web e é instalado automaticamente em cada Servidor front-end.
+O Call Via Work usa a Unified Communications Web API (UCWA) como o agente de usuário back-to-back (B2BUA) entre o sistema PBX e sua implantação do Skype for Business Server, para que nenhum gateway CSTA (aplicativo de telecomunicações) com suporte no computador seja necessário para conectar o Skype for Business Server ao seu sistema PBX. O UCWA é um serviço introduzido em versões anteriores do Lync Server para habilitar a conectividade com clientes móveis e da Web e é instalado automaticamente em cada Servidor front-end.
   
 ### <a name="call-workflow-for-a-call-via-work-call"></a>Fluxo de trabalho de chamada para uma chamada Telefonar via Trabalho
 

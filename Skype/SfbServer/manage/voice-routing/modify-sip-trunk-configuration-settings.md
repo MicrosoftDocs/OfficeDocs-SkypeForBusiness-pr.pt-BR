@@ -1,5 +1,5 @@
 ---
-title: Modificar as definições de configuração do tronco SIP no Skype for Business Server
+title: Modificar definições de configuração do tronco SIP no Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -18,7 +18,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49827721"
 ---
-# <a name="modify-sip-trunk-configuration-settings-in-skype-for-business-server"></a>Modificar as definições de configuração do tronco SIP no Skype for Business Server
+# <a name="modify-sip-trunk-configuration-settings-in-skype-for-business-server"></a>Modificar definições de configuração do tronco SIP no Skype for Business Server
 
 As definições de configuração de tronco SIP definem o relacionamento e as capacidades entre um Servidor de Mediação e gateway PSTN, um PBX-IP ou um SBC no provedor de serviços. Estas configurações fazem coisas como especificar:
 
@@ -62,4 +62,4 @@ Ao modificar as definições de configuração do tronco SIP usando o Painel de 
 3. Na caixa **de diálogo Editar Configuração** de Tronco, faça as seleções apropriadas e clique em **OK.**
 4. A propriedade Estado da coleção será atualizada para Não vinculado. Para comprometer as alterações e excluir a coleção, clique em **Commit** e em **Commit All**.
 5. Na caixa **de diálogo Definição de Configuração de Voz** Não Confirmado, clique em **OK.**
-6. Na caixa de diálogo Painel de **Controle do Skype for Business Server,** clique em **OK.**
+6. Na caixa de diálogo Painel de Controle do **Skype for Business Server,** clique em **OK.**

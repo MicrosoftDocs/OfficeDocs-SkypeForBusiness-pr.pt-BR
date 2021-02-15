@@ -27,7 +27,7 @@ ms.locfileid: "49825881"
  
 Escolher seu provedor de serviços para uma implantação do E9-1-1 no Skype for Business Server Enterprise Voice.
   
-O provedor de serviços E9-1-1 encaminha as chamadas de emergência originadas do Skype for Business Server para o PSAP (Ponto de Atendimento Público Seguro) correto com base nas informações de local contidas na chamada. 
+O provedor de serviços E9-1-1 encaminha as chamadas de emergência provenientes do Skype for Business Server para o PSAP (Ponto de Atendimento Público Seguro) correto com base nas informações de local contidas na chamada. 
   
 Para dar suporte ao E9-1-1 como parte de uma implantação do Skype for Business Server, você deve obter o serviço de roteamento E9-1-1 de um provedor de serviços E9-1-1 qualificado do Programa de Interoperabilidade do Lync Open. Escolha o provedor que melhor atende às suas necessidades organizacionais.
 

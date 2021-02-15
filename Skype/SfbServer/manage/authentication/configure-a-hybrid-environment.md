@@ -72,7 +72,7 @@ Tenha em mente que o nome do realm de um locatário é normalmente diferente do 
 $TenantID = (Get-CsTenant -Filter {DisplayName -eq "Fabrikam.com"}).TenantId
 ```
 
-Para executar esse script, você deve ter instalado o módulo PowerShell do Skype for Business Online e se conectar ao seu locatário com este módulo. Se você não tiver instalado esses cmdlets, seu script falhará porque o Get-CsTenant cmdlet não estará disponível. Após a conclusão do script, você deve configurar uma relação de confiança entre o Skype for Business Server e o servidor de autorização e uma segunda relação de confiança entre o Exchange 2013/2016 e o servidor de autorização. Isso só pode ser feito usando os cmdlets do Microsoft Online Services.
+Para executar esse script, você deve ter instalado o módulo PowerShell do Skype for Business Online e se conectar ao seu locatário com esse módulo. Se você não tiver instalado esses cmdlets, seu script falhará porque o Get-CsTenant cmdlet não estará disponível. Após a conclusão do script, você deve configurar uma relação de confiança entre o Skype for Business Server e o servidor de autorização e uma segunda relação de confiança entre o Exchange 2013/2016 e o servidor de autorização. Isso só pode ser feito usando os cmdlets do Microsoft Online Services.
 
 > [!NOTE]
 > Se você não tiver instalado os cmdlets do Microsoft Online Services, precisará instalá-lo no repositório do PowerShell com o `install-module MSOnline` cmdlet. Informações detalhadas para instalar e usar o Módulo do Microsoft Online Services podem ser encontradas no site do Microsoft 365. Essas instruções também explicam como configurar o single sign-on, a federação e a sincronização entre o Microsoft 365 ou o Office 365 e o Active Directory. 
@@ -114,7 +114,7 @@ ServicePrincipalName : SkypeForBusinessServer/litwareinc.com
 TrustedForDelegation : True
 </pre>
 
-A próxima etapa é importar, codificar e atribuir o certificado X.509. Para importar e codificar o certificado, use os seguintes comandos do Windows PowerShell, certificando-se de especificar o caminho completo do arquivo para o seu . Arquivo CER ao chamar o método Import:
+A próxima etapa é importar, codificar e atribuir o certificado X.509. Para importar e codificar o certificado, use os seguintes comandos do Windows PowerShell, certificando-se de especificar o caminho completo do arquivo para o seu . Arquivo CER quando você chama o método Import:
 
 ```PowerShell
 $certificate = New-Object System.Security.Cryptography.X509Certificates.X509Certificate

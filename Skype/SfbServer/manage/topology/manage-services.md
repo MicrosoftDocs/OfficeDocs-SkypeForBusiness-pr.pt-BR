@@ -31,7 +31,7 @@ Você pode usar o Painel de Controle do Skype for Business Server para exibir um
 
 Use o Painel de Controle do Skype for Business Server para exibir uma lista de todos os computadores que estão executando o Skype for Business em sua topologia e ver o status de serviço de cada um deles. Você pode classificar a lista por computador, pool ou site. 
 
-1. Em uma conta de usuário atribuída a qualquer uma das funções administrativas predefinidos do Skype for Business Server, faça logoff em qualquer computador em sua implantação interna. Para obter mais informações, consulte Controle de acesso baseado [em função (RBAC) para Skype for Business Server.](../../plan-your-deployment/security/role-based-access-control-rbac.md)
+1. Em uma conta de usuário atribuída a qualquer uma das funções administrativas predefinidos do Skype for Business Server, faça logoff em qualquer computador da sua implantação interna. Para obter mais informações, consulte Controle de acesso [baseado em função (RBAC) para Skype for Business Server](../../plan-your-deployment/security/role-based-access-control-rbac.md).
 2. Abra uma janela do navegador e insira a URL do Administrador para abrir o Painel de Controle do Skype for Business Server. Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o Painel de Controle do Skype for Business Server, consulte Instalar e [abrir ferramentas administrativas.](../../management-tools/install-and-open-administrative-tools.md)
 3. Na barra de navegação à esquerda, clique em **Topologia** e em **Status**.
 4. Na página Status, faça o seguinte conforme necessário:
@@ -53,7 +53,7 @@ Use o Painel de Controle do Skype for Business Server para exibir todos os servi
 
 ### <a name="viewing-service-status-by-using-windows-powershell-cmdlets"></a>Exibindo o status do serviço usando cmdlets do Windows PowerShell
 
-Você também pode exibir o status do serviço usando o Windows PowerShell e o Get-CsWindowsService cmdlet. Você pode executar este cmdlet usando o Shell de gerenciamento do Skype for Business Server ou uma sessão remota do Windows PowerShell. Para obter mais informações, consulte [o Shell de Gerenciamento do Skype for Business Server.](../management-shell.md)
+Você também pode exibir o status do serviço usando o Windows PowerShell e o Get-CsWindowsService cmdlet. Você pode executar este cmdlet usando o Shell de gerenciamento do Skype for Business Server ou uma sessão remota do Windows PowerShell. Para obter mais informações, [consulte o Shell de Gerenciamento do Skype for Business Server.](../management-shell.md)
 
 **Para exibir o status do serviço**
 

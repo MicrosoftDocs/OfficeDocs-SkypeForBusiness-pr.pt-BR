@@ -34,7 +34,7 @@ Você pode **definir o armazenamento do SQL Server de monitoramento** configuran
     
     Selecione um espelho existente **do armazenamento do SQL Server de monitoramento** na lista.
     
-    Clique **em Novo** para criar uma nova definição de FQDN do SQL Server e, opcionalmente, um nome de instância para o armazenamento espelho.
+    Clique **em** Novo para criar uma nova definição de FQDN do SQL Server e, opcionalmente, um nome de instância para o armazenamento de espelho.
     
 - Se você selecionou Habilitar espelhamento do armazenamento do **SQL Server,** selecione Usar testemunha de espelhamento do SQL Server para habilitar o **failover** automático para selecionar um armazenamento testemunha de espelhamento do SQL Server na lista.
     

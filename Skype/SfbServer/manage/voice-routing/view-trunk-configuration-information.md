@@ -28,10 +28,10 @@ As definições de configuração de tronco SIP definem o relacionamento e as ca
 
 Quando você instala o Skype for Business Server, um conjunto global de definições de configuração de tronco SIP é criado para você. Além disso, os administradores podem criar conjuntos de configurações personalizadas no escopo local ou de serviço (apenas para o serviço de gateway PSTN).
 
-**Para exibir informações de configuração de tronco SIP usando o Painel de Controle do Skype for Business Server**
+**Para exibir informações de configuração do tronco SIP usando o Painel de Controle do Skype for Business Server**
 
 1. No Painel de Controle do Skype for Business Server, clique em **Roteamento** de Voz e em **Configuração de Tronco.**
-2. Na guia **Configuração do** Tronco, você verá uma lista de todas as coleções de definições de configuração de tronco; para cada coleção, você verá valores para as propriedades **Name**, **Scope**, **State** e **Media bypass,** juntamente com o número de usos de **PSTN** **,** regras de número de chamada e regras de número **chamado** associadas à coleção. Para exibir informações adicionais sobre um coleção de configurações de tronco, clique na coleção de interesse, clique em **Editar** e depois clique em **Exibir detalhes**. Observe que você pode exibir informações detalhadas somente de uma coleção de configurações de tronco por vez.
+2. Na guia **Configuração do** Tronco, você verá uma lista de todas as suas coleções de definições de configuração de tronco; para cada coleção, você verá valores para as propriedades **Name**, **Scope**, **State** e **Media bypass,** juntamente com o número de usos de **PSTN** **,** regras de número de chamada e regras de número **chamado** associadas à coleção. Para exibir informações adicionais sobre um coleção de configurações de tronco, clique na coleção de interesse, clique em **Editar** e depois clique em **Exibir detalhes**. Observe que você pode exibir informações detalhadas somente de uma coleção de configurações de tronco por vez.
 
 ## <a name="viewing-sip-trunk-configuration-information-by-using-windows-powershell-cmdlets"></a>Exibindo informações de configuração do tronco SIP usando cmdlets do Windows PowerShell
 

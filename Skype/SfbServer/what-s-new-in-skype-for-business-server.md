@@ -23,7 +23,7 @@ ms.locfileid: "49827581"
 ---
 # <a name="whats-new-in-skype-for-business-server-2015"></a>Novidades no Skype for Business Server 2015
 
-**Resumo:** Leia este tópico para saber mais sobre os novos recursos do Skype for Business Server 2015. Para obter informações detalhadas sobre a nova experiência do cliente, consulte [Lync agora](https://go.microsoft.com/fwlink/p/?LinkId=529022)é o Skype for Business – veja as novidades.
+**Resumo:** Leia este tópico para saber mais sobre os novos recursos no Skype for Business Server 2015. Para obter informações detalhadas sobre a nova experiência do cliente, consulte [Lync agora](https://go.microsoft.com/fwlink/p/?LinkId=529022)é Skype for Business -- veja as novidades .
   
 O Lync agora é o Skype for Business, uma plataforma de comunicação e colaboração que reúne uma experiência inspirado no Skype com a segurança, conformidade e controle de nível empresarial do Lync. O Skype for Business oferece recursos, incluindo presença, IM, chamadas de voz e vídeo e reuniões online. O Skype for Business oferece uma nova experiência de cliente, uma nova versão de servidor e atualizações para o serviço no Microsoft 365 ou Office 365. Se os usuários em sua organização já estão familiarizados com o Skype, eles vão gostar do poder e da simplicidade do Skype for Business onde é fácil encontrar e se conectar com colegas de trabalho. Se os usuários em sua organização estão vindo para o Skype for Business a partir do Lync, eles reconhecerão todos os recursos que já usam, mas em uma nova interface com controles simplificados e novas adições. Além da nova experiência do cliente, o Skype for Business Server 2015 fornece vários novos recursos para melhorar a capacidade de gerenciamento de servidores locais e soluções híbridas.
   
@@ -97,7 +97,7 @@ O Skype for Business no Android agora oferece recursos semelhantes aos disponív
   
 ## <a name="management-of-on-premises-servers"></a>Gerenciamento de servidores locais
 
-O Skype for Business Server 2015 oferece vários novos recursos para melhorar a capacidade de gerenciamento de servidores locais, incluindo atualização local, instalação inteligente, processos aprimorados de patch e atualização, melhor capacidade de início a frio do pool de #A0, suporte ao SQL Server AlwaysOn e solução de problemas e registro centralizado.
+O Skype for Business Server 2015 fornece vários novos recursos para melhorar a capacidade de gerenciamento de servidores locais, incluindo atualização local, instalação inteligente, processos aprimorados de a correção e atualização, melhor capacidade de início a frio do pool de #A0, suporte ao SQL Server AlwaysOn e registro centralizado e solução de problemas.
   
 ### <a name="in-place-upgrade-for-on-premises-servers"></a>Atualização local para servidores locais
 
@@ -132,7 +132,7 @@ As Instâncias de Cluster de Failover do SQL Server aproveitam a funcionalidade 
   
 Para obter mais informações, [consulte Plan for high availability and disaster recovery in Skype for Business Server 2015.](plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md)
   
-### <a name="centralized-logging-and-troubleshooting-improvements-for-on-premises-servers"></a>Melhorias de registro centralizado em log e solução de problemas para servidores locais
+### <a name="centralized-logging-and-troubleshooting-improvements-for-on-premises-servers"></a>Melhorias centralizadas de registro em log e solução de problemas para servidores locais
 
 O Serviço de Log Centralizado é o ambiente de registro em log preferido para o Skype for Business Server 2015. Não há novos recursos nesta versão, mas a confiabilidade e o desempenho foram aprimorados para o serviço e o Agente de Serviço de Log Centralizado (ClsAgent.exe) – o executável de serviço que se comunica com o controlador e recebe comandos emitidos pelo administrador.
   
@@ -159,7 +159,7 @@ O Skype for Business Server 2015 permite recursos de gerenciamento e administra�
 > [!NOTE]
 > Não há nenhuma alteração da experiência de suporte e coexistência do Lync Online 2013 e do Exchange local. 
   
-## <a name="multi-factor-authentication"></a>Autenticação multifator
+## <a name="multi-factor-authentication"></a>Multi-factor Authentication
 
 A autenticação multifato é um método de autenticação que exige o uso de mais de um método de verificação e adiciona uma segunda camada crítica de segurança a transações e logins do usuário. Por exemplo, exigir um nome de usuário e senha e um certificado. O Skype for Business Server 2015 continua a se basear nos recursos de autenticação multifação disponíveis nas Atualizações Cumulativas do Lync Server 2013. As alterações significativas na autenticação multifa factor são:
   

@@ -29,7 +29,7 @@ O Relatório de Controle de Admissão de Chamadas fornece informações sobre se
 
 O Relatório de Controle de Admissão de Chamadas é acessado através da página de Relatórios de Monitoramento. A partir do Relatório de Controle de Admissão de Chamadas você pode buscar mais detalhes em um dos seguintes relatórios:
   
-- Relatório Detalhado de Conferências - Para acessar esse relatório, clique na métrica Detalhes de uma sessão de conferência. 
+- Relatório detalhado de conferências - Para acessar esse relatório, clique na métrica Detalhes de uma sessão de conferência. 
     
 - Relatório Detalhado de Sessão Ponto a Ponto - Para acessar esse relatório, clique na métrica Detalhes de uma sessão ponto a ponto.
     

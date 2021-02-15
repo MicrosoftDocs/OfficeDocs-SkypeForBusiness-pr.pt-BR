@@ -27,7 +27,7 @@ Os Relatórios de Diagnóstico de Chamada oferecem informações de resumo e dad
   
 ## <a name="in-this-section"></a>Nesta seção
 
-- [Relatório de Resumo de Diagnóstico de Chamadas no Skype for Business Server](summary-report.md) Fornece um resumo geral de sessões ponto a ponto com falhas e sessões de conferência. Sessões ponto a ponto são aquelas que envolvem somente dois participantes. Sessões de conferência envolvem três ou mais participantes.
+- [Relatório de Resumo de Diagnóstico de Chamadas no Skype for Business Server](summary-report.md) Fornece um resumo geral das sessões ponto a ponto com falha e sessões de conferência. Sessões ponto a ponto são aquelas que envolvem somente dois participantes. Sessões de conferência envolvem três ou mais participantes.
     
 - [Relatório de Diagnóstico de Atividades Ponto a Ponto no Skype for Business Server](peer-to-peer-activity-diagnostic-report.md) Fornece uma visão geral de tendência de sessões ponto a ponto com falha. Uma sessão ponto a ponto envolve somente dois participantes.
     
@@ -37,7 +37,7 @@ Os Relatórios de Diagnóstico de Chamada oferecem informações de resumo e dad
     
 - [Relatório de Distribuição de Falhas no Skype for Business Server](failure-distribution-report.md) Fornece uma análise de sessões com falha.
     
-- [Relatório de Lista de Falhas no Skype for Business Server](failure-list-report.md) Fornece informações detalhadas sobre os participantes individuais envolvidos em uma conferência com falha.
+- [Relatório de lista de falhas no Skype for Business Server](failure-list-report.md) Fornece informações detalhadas sobre os participantes individuais envolvidos em uma conferência com falha.
     
 - [Relatório de Diagnóstico no Skype for Business Server](diagnostic-report.md) Fornece informações de diagnóstico e solução de problemas (incluindo códigos de resposta SIP e IDs e headers de diagnóstico) para sessões com falha.
     

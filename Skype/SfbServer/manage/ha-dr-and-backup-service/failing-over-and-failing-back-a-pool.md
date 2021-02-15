@@ -18,9 +18,9 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49826561"
 ---
-# <a name="failing-over-and-failing-back-a-pool-in-skype-for-business-server"></a>Fazer o failing over e fazer o failing back de um pool no Skype for Business Server 
+# <a name="failing-over-and-failing-back-a-pool-in-skype-for-business-server"></a>Falha e falha de um pool no Skype for Business Server 
 
-Use os procedimentos a seguir se um único pool de Front-End falhar e precisar de um failed over ou se o pool que teve o desastre estiver novamente online e você precisar restaurar sua implantação para o status de trabalho regular. Saiba também como fazer fail over e fail back do pool de Borda usado para federação do Skype for Business ou federação XMPP ou alterar o pool de Borda associado a um pool de Front-End.
+Use os procedimentos a seguir se um único pool de Front-End falhar e precisar de um failed over ou se o pool que teve o desastre estiver online novamente e você precisar restaurar sua implantação para o status de trabalho regular. Saiba também como fazer fail over e fail back do pool de Borda usado para federação do Skype for Business ou federação XMPP ou alterar o pool de Borda associado a um pool de Front-End.
 
 - [Fail over a Front End pool](#fail-over-a-front-end-pool)
 - [Fail back de um pool](#fail-back-a-pool)
@@ -59,7 +59,7 @@ Além disso, se um pool de Front End falhar mas o pool de Borda no local ainda e
     
     Os resultados desse cmdlet mostram qual pool hospeda atualmente o Servidor de Gerenciamento Central. No restante deste procedimento, esse pool é conhecido como \_ Pool CMS.
 
-2.  Use o Construtor de Topologias para encontrar a versão do Skype for Business Server em execução no \_ Pool CMS. Se estiver executando o Skype for Business Server, use o cmdlet a seguir para encontrar o pool de backup do Pool 1.
+2.  Use o Construtor de Topologias para encontrar a versão do Skype for Business Server em execução no Pool DE \_ CMS. Se estiver executando o Skype for Business Server, use o cmdlet a seguir para encontrar o pool de backup do Pool 1.
     
         Get-CsPoolBackupRelationship -PoolFQDN <CMS_Pool FQDN>
     
@@ -83,7 +83,7 @@ Além disso, se um pool de Front End falhar mas o pool de Borda no local ainda e
         
             Invoke-CSManagementServerFailover -BackupSQLServerFqdn <Backup_Pool Primary BackEnd Server FQDN> -BackupSQLInstanceName <Backup_Pool Primary SQL Instance Name>
         
-        Se o servidor back-end espelho no \_ Pool de Backup for o principal, digite:
+        Se o servidor back-end espelho no \_ pool de backup for o principal, digite:
         
             Invoke-CSManagementServerFailover -MirrorSQLServerFqdn <Backup_Pool Mirror BackEnd Server FQDN> -MirrorSQLInstanceName <Backup_Pool Mirror SQL Instance Name>
     
@@ -133,7 +133,7 @@ Além disso, se um pool de Front End falhar mas o pool de Borda no local ainda e
     
         Invoke-CsPoolFailover -PoolFQDN <Pool1 FQDN> -DisasterMode -Verbose
     
-    Como as etapas realizadas nas partes anteriores deste procedimento para verificar o status do armazenamento de Gerenciamento Central não são universais, ainda existe a chance de que esse cmdlet falhe porque o armazenamento de Gerenciamento Central ainda não tem fail over completo. Nesse caso, você deve corrigir o Armazenamento de Gerenciamento Central com base nas mensagens de erro que vê e executar esse cmdlet novamente.
+    Como as etapas realizadas nas partes anteriores deste procedimento para verificar o status do armazenamento de Gerenciamento Central não são universais, ainda há uma chance de que esse cmdlet falhe porque o armazenamento de Gerenciamento Central ainda não foi totalmente realizado. Nesse caso, você deve corrigir o Armazenamento de Gerenciamento Central com base nas mensagens de erro que vê e executar esse cmdlet novamente.
     
     Se a mensagem de erro a seguir for apresentada, será necessário alterar o pool de Borda neste local para usar um pool diferente como próximo salto antes da fazer o failover do pool. Para detalhes, consulte os procedimentos no início deste tópico.
     

@@ -81,7 +81,7 @@ Para ingressar em uma conferência discada como um usuário autenticado, um usu�
     
 ## <a name="assigning-a-user-pin-by-using-windows-powershell-cmdlets"></a>Atribuindo um PIN de usuário usando cmdlets do Windows PowerShell
 
-Você pode atribuir números PIN também podem ser atribuídos usando o cmdlet Set-CsClientPin usuário. Você pode executar esse cmdlet no Shell de Gerenciamento do Skype for Business Server ou em uma sessão remota do Windows PowerShell. Para obter detalhes sobre como usar o Windows PowerShell remoto para se conectar ao Skype for Business Server, consulte o artigo do blog ["Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell"](https://go.microsoft.com/fwlink/p/?linkId=255876). O processo é o mesmo no Skype for Business Server. 
+Você também pode atribuir números pin usando o cmdlet Set-CsClientPin de dados. Você pode executar esse cmdlet no Shell de Gerenciamento do Skype for Business Server ou em uma sessão remota do Windows PowerShell. Para obter detalhes sobre como usar o Windows PowerShell remoto para se conectar ao Skype for Business Server, consulte o artigo do blog ["Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell"](https://go.microsoft.com/fwlink/p/?linkId=255876). O processo é o mesmo no Skype for Business Server. 
   
 ### <a name="to-auto-assign-a-pin-number-to-a-user"></a>Para atribuir automaticamente um número pin a um usuário
 

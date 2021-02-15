@@ -29,7 +29,7 @@ Para começar a instalação do banco de dados que armazenará a cópia local so
 Se você estiver instalando uma réplica do repositório de Gerenciamento Central em um Servidor de Borda, selecione para ler a cópia exportada do documento de configuração da mídia portátil, como uma unidade flash USB, disco rígido USB, CD-ROM ou outra mídia. 
   
 > [!IMPORTANT]
-> Se você estiver instalando o armazenamento de Configuração Local em um Servidor de Borda, as informações de configuração deverão estar em um formato exportado do armazenamento de Gerenciamento Central executando o cmdlet Windows PowerShell:  `Export-CsConfiguration -FileName <ConfigurationFilePath.zip>`
+> Se você estiver instalando o armazenamento de Configuração Local em um Servidor de Borda, as informações de configuração deverão estar em um formato exportado do armazenamento de Gerenciamento Central executando o cmdlet do Windows PowerShell:  `Export-CsConfiguration -FileName <ConfigurationFilePath.zip>`
   
 Após ter selecionado a opção adequada, clique em **Próximo**.
   

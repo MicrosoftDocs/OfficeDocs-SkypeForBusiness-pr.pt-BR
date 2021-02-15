@@ -56,7 +56,7 @@ O primeiro comando usa o cmdlet **New-CsConferencingConfiguration** para criar u
   
 Depois que a coleção tiver sido criada, o segundo comando define o valor da propriedade Organization como Litwareinc. 
   
-Finalmente, o terceiro comando usa o cmdlet **Set-CsConferencingConfiguration** para realmente aplicar as novas configurações ao site Redmond:
+Finalmente, o terceiro comando usa o cmdlet **Set-CsConferencingConfiguration** para realmente aplicar as novas configurações ao site redmond:
   
 ```PowerShell
 $x = New-CsConferencingConfiguration -Identity site:Redmond -InMemory

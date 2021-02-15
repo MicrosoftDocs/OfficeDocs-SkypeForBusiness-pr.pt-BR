@@ -41,7 +41,7 @@ Você pode modificar políticas de conferência usando o Painel de Controle do S
     
 ## <a name="modify-conferencing-policies-by-using-skype-for-business-server-management-shell"></a>Modificar políticas de conferência usando o Shell de Gerenciamento do Skype for Business Server
 
-Para modificar políticas de conferência, use o cmdlet **Set-CsConferencingPolicy.**
+Para modificar as políticas de conferência, use o cmdlet **Set-CsConferencingPolicy.**
   
 O exemplo a seguir modifica um valor de propriedade da diretiva de conferência SalesConferencingPolicy. O comando define o valor da propriedade AllowConferenceRecording como False:
   
