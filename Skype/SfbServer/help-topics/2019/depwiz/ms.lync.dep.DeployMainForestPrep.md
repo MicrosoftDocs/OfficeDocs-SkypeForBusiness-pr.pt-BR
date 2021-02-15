@@ -24,7 +24,7 @@ ms.locfileid: "49833821"
 ---
 # <a name="prepare-current-forest"></a>Preparar Floresta Atual
 
-Para preparar a floresta dos Serviços de Domínio Active Directory, você deve estender com êxito o esquema, conforme descrito no tópico [Running Schema Preparation](https://technet.microsoft.com/library/067726ae-fd3f-4133-a32f-26d2603ac674.aspx), e certificar-se de que o esquema foi replicado.
+Para preparar a floresta dos Serviços de Domínio Active Directory, você deve estender com êxito o esquema, conforme descrito no tópico [Running Schema Preparation](https://technet.microsoft.com/library/067726ae-fd3f-4133-a32f-26d2603ac674.aspx), e certificar-se de que o esquema tenha replicado.
 
 Depois de atender a esses pré-requisitos, você pode começar a **Etapa 3: preparar a floresta atual**. Para preparar a floresta, faça logon em um computador na raiz da floresta como membro de Admins. do Domínio na raiz da floresta, ou como membro de Administradores de Empresa na floresta que você está preparando.
 

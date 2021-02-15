@@ -45,7 +45,7 @@ Para obter mais informações, consulte o tópico de ajuda para o cmdlet [Test-C
 
 Se Test-CsSetupPermission determinar que as permissões necessárias já foram definidas em um contêiner do Active Directory, o cmdlet retornará o valor True:
 
-Verdadeiro. 
+Verdadeiro 
 
 Se as permissões não estão definidas, Test-CsSetupPermission retornará o valor False. Observe que esse valor normalmente será incluído em muitas mensagens de aviso. Por exemplo:
 

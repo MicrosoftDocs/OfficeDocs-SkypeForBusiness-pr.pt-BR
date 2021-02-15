@@ -44,7 +44,7 @@ Para executar um backup do controlador de domínio mestre do esquema e um backup
     
 4. Após o êxito da extensão do esquema, reconecte o controlador de domínio à rede e saiba que a replicação está ativa e funcionando.
     
-5. No caso improvável de uma falha de extensão de esquema, restaure o estado do sistema do controlador de domínio e do Active Directory usando o backup do Estado do Sistema realizado anteriormente.
+5. No caso improvável de uma falha de extensão do esquema, restaure o estado do sistema do controlador de domínio e do Active Directory usando o backup do Estado do Sistema realizado anteriormente.
     
 > [!NOTE]
 > Se precisar revisar os arquivos de log criados pelo Assistente de Implantação do Skype for Business Server, você poderá encontrar os arquivos no computador no qual o Assistente de Implantação foi executado, no diretório Usuários do usuário do Active Directory que fez a etapa. Por exemplo, se o usuário fez logon como administrador de domínio no domínio Contoso.net, os arquivos de log estão localizados em: C:\Users\Administrator.Contoso\AppData\Local\Temp 

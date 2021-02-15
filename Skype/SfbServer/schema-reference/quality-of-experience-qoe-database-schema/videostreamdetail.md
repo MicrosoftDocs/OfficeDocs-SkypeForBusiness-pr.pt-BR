@@ -12,7 +12,7 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: ec8c45e1-307d-40ec-a75e-6083306105f2
-description: A Exibição VideoStreamDetail armazena informações sobre cada stream de vídeo no banco de dados. Esta exibição foi introduzida no Microsoft Lync Server 2013.
+description: A Exibição VideoStreamDetail armazena informações sobre cada stream de vídeo no banco de dados. Essa exibição foi introduzida no Microsoft Lync Server 2013.
 ms.openlocfilehash: 6341febeb8d43e36975c5b4cc446ac24ff1287c2
 ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
@@ -22,7 +22,7 @@ ms.locfileid: "49834341"
 ---
 # <a name="videostreamdetail-view"></a>Exibição VideoStreamDetail
  
-A Exibição VideoStreamDetail armazena informações sobre cada stream de vídeo no banco de dados. Esta exibição foi introduzida no Microsoft Lync Server 2013.
+A Exibição VideoStreamDetail armazena informações sobre cada stream de vídeo no banco de dados. Essa exibição foi introduzida no Microsoft Lync Server 2013.
   
 |**Coluna**|**Tipo de dados**|**Descrição**|
 |:-----|:-----|:-----|

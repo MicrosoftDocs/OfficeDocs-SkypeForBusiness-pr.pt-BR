@@ -63,7 +63,7 @@ O Servidor de Chat Persistente requer o software de banco de dados do SQL Server
     
 - O banco de dados de Chat Persistente (mgc) e o banco de dados de conformidade (mgccomp) podem estar localizados na mesma instância do SQL Server ou em diferentes SQL Servers.
     
-Para preparar uma plataforma de servidor de banco de dados, certifique-se de que cada computador atenda aos requisitos de hardware e instale o software de pré-requisito. A plataforma de servidor para os servidores de banco de dados de Chat Persistente exige o mesmo hardware que o servidor de banco de dados back-end do Skype for Business Server 2015. Para obter detalhes, [consulte Server requirements for Skype for Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md).
+Para preparar uma plataforma de servidor de banco de dados, certifique-se de que cada computador atenda aos requisitos de hardware e instale o software de pré-requisito. A plataforma de servidor para os servidores de banco de dados de Chat Persistente exige o mesmo hardware que o servidor de banco de dados back-end do Skype for Business Server 2015. Para obter detalhes, [consulte Requisitos de servidor para o Skype for Business Server 2015.](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md)
   
 No servidor de banco de dados, certifique-se de que um dos seguintes aplicativos de software está instalado:
 

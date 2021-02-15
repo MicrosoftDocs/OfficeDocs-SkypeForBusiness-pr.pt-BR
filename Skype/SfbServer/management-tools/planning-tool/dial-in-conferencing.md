@@ -13,7 +13,7 @@ f1.keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c1f79a05-165c-47ec-8593-0bb3d43ee16f
-description: A conferência discada do Skype for Business Server 2015 permite que os usuários participem da parte de áudio de uma conferência do Skype for Business Server 2015 usando um telefone PSTN sem exigir um provedor de serviços de audioconferência de terceiros.
+description: A conferência discada do Skype for Business Server 2015 permite que os usuários participem da parte de áudio de uma conferência do Skype for Business Server 2015 usando um telefone PSTN sem a necessidade de um provedor de serviços de audioconferência de terceiros.
 ms.openlocfilehash: c8dad384bb09dfe511cb875846ada1fcd7fb784f
 ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT

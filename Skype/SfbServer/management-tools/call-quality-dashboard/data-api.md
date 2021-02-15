@@ -37,7 +37,7 @@ As operações REST estão incluídas na tabela a seguir.
 |:-----|:-----|
 |[Obter o cubo](get-cube.md) <br/> |Obter a lista de dimensões e medidas disponíveis.  <br/> |
 |[Obtenha os Membros da Dimensão](get-dimension-members.md) <br/> |A operação Obter Membros da Dimensão retorna a lista de membros de uma dimensão específica. Ele também dá a capacidade de filtrar a lista de membros e obter um subconjunto, para reduzir o custo de transferência eletrônica.  <br/> |
-|[Executar Consulta](run-query.md) <br/> |A operação Executar Consulta oferece a capacidade de executar uma consulta no cubo com base em dimensões, medidas e filtros especificados e retornar os dados.  <br/> |
+|[Executar Consulta](run-query.md) <br/> |A operação Executar Consulta oferece a capacidade de executar uma consulta no cubo com base em dimensões, medições e filtros especificados e retornar os dados.  <br/> |
 |[Limpar Cache](clear-cache.md) <br/> |A operação Limpar Cache exclui o cache no servidor para consultas e dados. Isso redefini o cache e obteremos dados atualizados do Cubo QoE posteriormente para novas solicitações.  <br/> |
 |[Obter o Log de integração](get-integration-log.md) <br/> |A operação Obter Log de Integração retorna uma lista de entradas de log que descrevem as atividades no processamento do cubo de QoE.  <br/> |
 |[Obter Últimos Dados de Integração](get-last-integration-data.md) <br/> |Obter os últimos dados de integração do cubo.  <br/> |

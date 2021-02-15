@@ -27,7 +27,7 @@ Um Diretor é um servidor que executa o software de comunicações do Skype for 
   
 Essa função é opcional, você pode optar por implantar um Diretor nos dois cenários a seguir:
   
-- Se você habilitar o acesso por usuários externos implantando Servidores de Borda, também deverá implantar um Diretor. Nesse cenário, o Diretor autentica os usuários externos e, em seguida, passa seu tráfego para servidores internos. Quando um Diretor é usado para autenticar usuários externos, libera os servidores do pool de Front End da sobrecarga de executar a autenticação desses usuários. Ele também ajuda a isolar pools de Front End internos de tráfego mal-intencionado, como ataques de negação de serviço. Se a rede é preenchida com tráfego externo inválido em tal ataque, este tráfego termina no Diretor.
+- Se você habilitar o acesso por usuários externos implantando Servidores de Borda, também deverá implantar um Diretor. Nesse cenário, o Diretor autentica os usuários externos e, em seguida, passa seu tráfego para servidores internos. Quando um Diretor é usado para autenticar usuários externos, libera os servidores do pool de Front End da sobrecarga de executar a autenticação desses usuários. Ele também ajuda a isolar pools de Front-End internos de tráfego mal-intencionado, como ataques de negação de serviço. Se a rede é preenchida com tráfego externo inválido em tal ataque, este tráfego termina no Diretor.
     
 - Se você implantar vários pools de Front-End em um site central, adicionando um Diretor a esse site, você poderá simplificar as solicitações de autenticação e melhorar o desempenho. Nesse cenário, todas as solicitações vão primeiro para o Diretor, que as encaminha para o pool de Front-End correto.
     
