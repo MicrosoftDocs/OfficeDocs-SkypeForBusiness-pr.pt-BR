@@ -1,5 +1,5 @@
 ---
-title: Usar o OneDrive for Business e o SharePoint para gravações de reunião
+title: Usar o OneDrive for Business e o SharePoint para gravações de reuniões
 author: cichur
 ms.author: v-cichur
 ms.reviewer: hao.moy
@@ -8,7 +8,7 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 search.appverid: MET150
-description: Saiba como alternar do fluxo para o armazenamento de gravação de reunião do SharePoint e do SharePoint para o OneDrive for Business no Microsoft Teams.
+description: Saiba como alternar do armazenamento de gravação de reuniões do Stream para o OneDrive for Business e do SharePoint no Microsoft Teams.
 localization_priority: Normal
 f1.keywords:
 - NOCSH
@@ -17,77 +17,76 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a3b7a3917f47bd07bd5d66ce5fdb524b91b0299e
-ms.sourcegitcommit: d5732f043b7b5aa9b889aae185a7bc7e6ffad409
+ms.openlocfilehash: c3172250c1bf6fe914c331712db74a83ebe98a6d
+ms.sourcegitcommit: bfada4fd06c5cff12b0eefd3384bb3c10d10787f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/26/2021
-ms.locfileid: "49979748"
+ms.lasthandoff: 02/12/2021
+ms.locfileid: "50196345"
 ---
-# <a name="use-onedrive-for-business-and-sharepoint-or-stream-for-meeting-recordings"></a>Usar o OneDrive for Business e o SharePoint ou o Stream para gravações de reunião
+# <a name="use-onedrive-for-business-and-sharepoint-or-stream-for-meeting-recordings"></a>Usar o OneDrive for Business e o SharePoint ou o Stream para gravações de reuniões
 
 > [!Note]
-> A alteração do uso do Microsoft Stream para o OneDrive for Business e do Microsoft SharePoint para gravações de reunião será uma abordagem em fases.
+> A mudança do uso do Microsoft Stream para o OneDrive for Business e o Microsoft SharePoint para gravações de reuniões será uma abordagem em fases.
 
 |<div style="width:290px">Data&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div> |Evento&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                                                                                                                                                                                                                                                                                                             |
 |:-----------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|5 de outubro de 2020 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| Você pode habilitar a política de reunião do teams para ter gravações de reunião salvas no OneDrive for Business e no SharePoint em vez do Microsoft Stream (clássico)|
-|Lançando a partir de 7 de janeiro de 2021 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|Todas as novas gravações de reunião do teams serão salvas no OneDrive for Business e no SharePoint, a menos que você adie essa alteração modificando as políticas de reunião do teams da sua organização e definindo-as explicitamente para **transmitir**. Ver o relatório de política como Stream não é suficiente. Você precisa definir explicitamente o valor da política como **Stream**.|
-|Lançando a partir de 11 de janeiro de 2021 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|**GCC apenas**<br> Embora os clientes GCC possam optar pelo início de 5 de outubro, você não pode optar por fazer isso. Este recurso será implantado para todos os clientes da GCC a partir de 11 de janeiro de 2021, a menos que você tenha recusado.<br>  <br>A partir de 11 de janeiro de 2021, todas as novas gravações de reunião de equipes para clientes GCC serão salvas no OneDrive for Business e no SharePoint, a menos que você adie essa alteração modificando as políticas de reunião do teams da sua organização e defini-las explicitamente para **transmitir**. <br><br>Se você tiver recusado, mas estiver pronto para ativar esse recurso, pode fazê-lo Configurando sua política de reunião do teams explicitamente para o **onedrive for Business**. |
-|Iniciando em 1º de março de 2021 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|**Clientes da Enterprise & GCC**<br>**Não é possível salvar novas gravações de reunião no Microsoft Stream (clássico); todos os clientes terão automaticamente gravações de reunião salvas no onedrive for Business e no SharePoint, mesmo que tenham alterado suas políticas de reunião do teams para transmitir**.<br><br> Recomendamos que os clientes lancem esse recurso antes desta data para que possam controlar o tempo do lançamento. |
-|Iniciando em 7 de julho de 2021 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|**Clientes educacionais**<br>**Não é possível salvar novas gravações de reunião no Microsoft Stream (clássico); todos os clientes terão automaticamente gravações de reunião salvas no onedrive for Business e no SharePoint, mesmo que tenham alterado suas políticas de reunião do teams para transmitir**.<br><br> Recomendamos que os clientes lancem esse recurso antes desta data para que possam controlar o tempo do lançamento. Atualizamos este cronograma para fornecer aos clientes de educação a capacidade de completar os semestrees em andamento. |
+|5 de outubro de 2020 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| Você pode habilitar a política de Reunião do Teams para que as gravações de reuniões possam ser salvas no OneDrive for Business e no SharePoint em vez do Microsoft Stream (Clássico)|
+|Sendo implantada a partir de 7 de janeiro de 2021 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|Todas as novas gravações de reunião do Teams serão salvas no OneDrive for Business e no SharePoint, a menos que você atrase essa alteração modificando as políticas de Reunião do Teams da sua organização e definindo-as explicitamente para **o Stream.** Ver o relatório de política como Stream não é suficiente. Você precisa definir explicitamente o valor da política como **Stream.**|
+|Sendo implantada a partir de 11 de janeiro de 2021 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|**Somente GCC**<br> Embora os clientes do GCC possam optar por sair a partir de 5 de outubro, você não poderá optar. Esse recurso será lançado para todos os clientes GCC a partir de 11 de janeiro de 2021, a menos que você tenha optado por sair.<br>  <br>A partir de 11 de janeiro de 2021, todas as novas gravações de reuniões do Teams para clientes GCC serão salvas no OneDrive for Business e no SharePoint, a menos que você atrase essa alteração modificando as políticas de Reunião do Teams da sua organização e definindo-as explicitamente como **Stream.** <br><br>Se você optou por desativar, mas está pronto para ativar esse recurso, pode ser que isso seja feito configurando sua Política de Reunião do Teams explicitamente para **o OneDrive for Business.** |
+|Sendo implantada a partir de 1º de março de 2021 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|**Clientes & GCC corporativos**<br>Nenhuma nova gravação de reunião pode ser salva no **Microsoft Stream (Clássico);** todos os clientes terão automaticamente gravações de reunião salvas no OneDrive for Business e no SharePoint, mesmo que eles tenham alterado suas políticas de reunião do Teams para o Stream.<br><br> Recomendamos que os clientes versões desse recurso antes dessa data possam controlar o tempo do lançamento. |
+|Lançado a partir de 7 de julho de 2021 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|**Clientes de educação**<br>Nenhuma nova gravação de reunião pode ser salva no **Microsoft Stream (Clássico);** todos os clientes terão automaticamente gravações de reunião salvas no OneDrive for Business e no SharePoint, mesmo que eles tenham alterado suas políticas de reunião do Teams para o Stream.<br><br> Recomendamos que os clientes versões desse recurso antes dessa data possam controlar o tempo do lançamento. Atualizamos esse cronograma para fornecer aos clientes de educação a capacidade de concluir os semestres em andamento. |
 
 > [!Note]
-> Recomendamos que os clientes corporativos e educacionais sejam mais adequados para controlar a alteração em sua organização, se você se sentir confortável quando estiver confortável com a mudança, em vez de esperar que isso aconteça.
+> Recomendamos que os clientes corporativos e educacionais, para controlar melhor a mudança em sua organização, optem sempre que você estiver confortável com a mudança em vez de esperar que isso aconteça.
 
-O Microsoft Teams tem um novo método para salvar gravações na reunião. Como a primeira fase de uma transição do fluxo clássico da Microsoft para o [novo fluxo](https://docs.microsoft.com/stream/streamnew/new-stream), esse método armazena gravações no Microsoft onedrive for Business e no SharePoint no Microsoft 365 e oferece muitos benefícios.
+O Microsoft Teams tem um novo método para salvar gravações de reuniões. Como a primeira fase de uma transição do Microsoft Stream clássico para o novo [Stream,](https://docs.microsoft.com/stream/streamnew/new-stream)esse método armazena gravações no Microsoft OneDrive for Business e no SharePoint no Microsoft 365 e oferece muitos benefícios.
 
-As vantagens de usar o OneDrive for Business e o SharePoint para armazenar gravações incluem:
+Os benefícios de usar o OneDrive for Business e o SharePoint para armazenar gravações incluem:
 
-- Políticas de retenção para a gravação de reuniões do Team (TMR) (rótulos de autoretenção do S + C E5)
-- Beneficie-se do OneDrive for Business e do controle de informações do SharePoint
-- Permissões e compartilhamento fáceis de definir
-- Compartilhe gravações com convidados (usuários externos) apenas com compartilhamento explícito
-- Fluxo de solicitação de acesso
+- Políticas de retenção para gravação de reunião do Teams (TMR) (rótulos de autorretenção S+C E5)
+- Benefícios da governança de informações do OneDrive for Business e do SharePoint
+- Fácil definir permissões e compartilhamento
+- Compartilhar gravações com convidados (usuários externos) somente com compartilhamento explícito
+- Solicitar fluxo de acesso
 - Fornecer links compartilhados do OneDrive for Business e do SharePoint
-- Maior cota
-- As gravações de reunião estão disponíveis mais rapidamente
-- Suporte do locatário local para o **go**
-- Suporte a várias regiões – as gravações são armazenadas em uma região específica desse usuário
-- Dê suporte a essa chave (BYOK)
-- Qualidade de transcrição aprimorada e atribuição de alto-falante
+- Aumento da cota
+- As gravações de reunião estão disponíveis com mais rapidez
+- **Ir para o suporte de** locatário local
+- Suporte multi-geo – as gravações são armazenadas em uma região específica desse usuário
+- Suporte para sua própria chave (BYOK)
 
-Há algumas limitações a serem consideradas:
+Há algumas limitações a considerar:
 
-- Haverá legendas e transcrições ocultas somente em inglês.
-- Você não poderá pesquisar transcrições ou conteúdo.
-- Você não conseguirá editar as transcrições, mas poderá ativar/desativar legendas.
-- Você pode controlar com quem compartilha a gravação, mas não poderá bloquear pessoas com acesso compartilhado para baixar a gravação.
-- Você não receberá um email quando a gravação terminar de salvar, mas a gravação será exibida no chat de reunião quando ela terminar. Isso ocorrerá muito mais rapidamente do que no fluxo anteriormente
+- Haverá legendas somente em inglês e você poderá alternar/desligar as legendas.
+- Inicialmente, *você* não poderá exibir, editar e pesquisar uma transcrição completa (no entanto, estamos trabalhando para adicionar esse recurso em breve).
+- Você não poderá editar as transcrições, mas poderá alternar/desligar as legendas.
+- Você pode controlar com quem compartilha a gravação, mas não poderá impedir que as pessoas com acesso compartilhado baixem a gravação.
+- Você não receberá um email quando a gravação terminar de salvar, mas a gravação aparecerá no chat da reunião assim que terminar. Isso acontecerá muito mais rápido do que no Stream anteriormente
 
-Assista à "gravação na reunião" para obter mais informações.
+Assista a "Gravação de Reunião" para obter mais informações.
 
 > [!VIDEO https://www.youtube.com/embed/8iol0KfCeL8]
 
-## <a name="set-up-the-meeting-recording-option-for-onedrive-for-business-and-sharepoint"></a>Configurar a opção de gravação de reunião do OneDrive for Business e do SharePoint
+## <a name="set-up-the-meeting-recording-option-for-onedrive-for-business-and-sharepoint"></a>Configurar a opção de gravação de reunião para o OneDrive for Business e o SharePoint
 
-A opção de gravação da reunião é uma configuração no nível da política de equipe. O exemplo a seguir mostra como definir a política global. Certifique-se de definir a opção de gravação da reunião para a política ou políticas atribuídas aos usuários.
+A opção de gravação de reunião é uma configuração no nível de política do Teams. O exemplo a seguir mostra como definir a política Global. Certifique-se de definir a opção de gravação de reunião para a política ou políticas atribuídas aos usuários.
 
 > [!Note]
-> As alterações da política de reunião do teams levam tempo para se propagar. Verifique novamente depois de algumas horas de configuração e saia e entre novamente.
+> As alterações na política de reunião do Teams levam algum tempo para se propagarem. Verifique novamente após algumas horas de configuração, saia e entre novamente.
 
-1. Instale o Skype for Business online PowerShell.
-**Observação**: o conector Skype for Business online atualmente faz parte do módulo do PowerShell mais recente do teams. Se você estiver usando a versão pública do teams PowerShell mais recente, não será necessário instalar o conector do Skype for Business online. Consulte [gerenciar o Skype for Business online com o PowerShell](https://docs.microsoft.com/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell?view=o365-worldwide&preserve-view=true).
+1. Instale o PowerShell do Skype for Business Online.
+**Observação:** atualmente, o Skype for Business Online Connector faz parte do módulo mais recente do PowerShell do Teams. Se você estiver usando a versão pública mais recente do Teams PowerShell, não será necessário instalar o Skype for Business Online Connector. Consulte [Gerenciar o Skype for Business Online com o PowerShell.](https://docs.microsoft.com/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell?view=o365-worldwide&preserve-view=true)
 
-    a. Baixe o [Skype for Business online PowerShell](https://docs.microsoft.com/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell?view=o365-worldwide&preserve-view=true).
+    a. Baixe [o PowerShell do Skype for Business Online.](https://docs.microsoft.com/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell?view=o365-worldwide&preserve-view=true)
 
-    b. Siga os prompts para instalá-lo.
+    b. Siga as solicitações para instalá-lo.
 
     c. Reinicie o computador.
 
 2. Iniciar o PowerShell como administrador
 
-3. Importe o conector SkypeOnline e entre como administrador do teams.
+3. Importe o SkypeOnline Connector e entre como administrador do Teams.
 
    ```powershell
    Import-Module MicrosoftTeams
@@ -95,96 +94,96 @@ A opção de gravação da reunião é uma configuração no nível da política
    Import-PSSession $sfbSession
    ```
 
-4. Use [set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy) para definir uma política de reunião do teams para fazer a transição do armazenamento de fluxo para o onedrive for Business e o SharePoint.
+4. Use [Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy) para definir uma Política de Reunião do Teams para fazer a transição do armazenamento de stream para o OneDrive for Business e o SharePoint.
 
    ```powershell
    Set-CsTeamsMeetingPolicy -Identity Global -RecordingStorageMode "OneDriveForBusiness"
    ```
 
 > [!Note]
-> Se alguns de seus usuários tiverem atribuído uma política por organização ou por usuário, você deverá definir essa configuração nessa política se quiser que elas também armazenem as gravações de reunião no OneDrive for Business e no SharePoint. Para obter mais informações, consulte [gerenciar políticas de reunião no Microsoft Teams](meeting-policies-in-teams.md).
+> Se alguns de seus usuários têm atribuído uma política por organizador ou por usuário, você deve definir essa configuração nessa política se quiser que eles também armazenem as gravações da reunião no OneDrive for Business e no SharePoint. Para obter mais informações, consulte [Gerenciar políticas de reunião no Teams.](meeting-policies-in-teams.md)
 
-## <a name="opt-out-of-onedrive-for-business-and-sharepoint-to-continue-using-stream"></a>Recusar o OneDrive for Business e o SharePoint para continuar usando o Stream
+## <a name="opt-out-of-onedrive-for-business-and-sharepoint-to-continue-using-stream"></a>Opte por sair do OneDrive for Business e do SharePoint para continuar usando o Stream
 
-Mesmo se uma política disser que está definida como **Stream**, ela pode não ser definida. Geralmente, se a política não estiver definida, a configuração padrão será **Stream**. No entanto, com essa nova alteração, se você quiser optar por usar o SharePoint ou o OneDrive for Business, será necessário redefinir a política para **transmitir** para garantir que o **fluxo** seja o padrão.
+Mesmo que uma política diga que está definida como **Stream,** talvez ela não seja definida. Normalmente, se a política não estiver definida, a configuração padrão será **Stream.** No entanto, com essa nova alteração, se quiser optar por não usar o SharePoint ou o OneDrive for Business, você deverá redefinir a política para o **Stream** para garantir que **o Stream** seja o padrão.
 
 ```PowerShell
 Set-CsTeamsMeetingPolicy -Identity Global -RecordingStorageMode "Stream"
 ```
 
-## <a name="permissions-or-role-based-access"></a>Permissões ou acesso baseado na função
+## <a name="permissions-or-role-based-access"></a>Permissões ou acesso baseado em função
 
 > [!Note]
-> Recomendamos que o destinatário seja um usuário conectado ao compartilhar gravações de reunião do teams. Selecione a opção **pessoas na (sua organização)** quando você compartilhar o arquivo conforme documentado em [compartilhar arquivos ou pastas do SharePoint](https://support.microsoft.com/office/share-sharepoint-files-or-folders-1fe37332-0f9a-4719-970e-d2578da4941c?redirectSourcePath=%25252fen-US%25252farticle%25252fShare-sites-or-documents-with-people-outside-your-organization-80E49744-E30F-44DB-8D51-16661B1D4232&ui=en-US&rs=en-US&ad=US). O compartilhamento externo não foi projetado para a distribuição de arquivos grandes ou um grande número de arquivos. Para evitar cenários de fraude e abuso, você pode enfrentar problemas ao compartilhar uma grande quantidade de dados para usuários externos.
+> Recomendamos que o destinatário seja um usuário conectado ao compartilhar Gravações de Reunião do Teams. Selecione a **opção Pessoas em (Sua Organização)** quando você compartilhar o arquivo como documentado em arquivos [ou pastas do SharePoint.](https://support.microsoft.com/office/share-sharepoint-files-or-folders-1fe37332-0f9a-4719-970e-d2578da4941c?redirectSourcePath=%25252fen-US%25252farticle%25252fShare-sites-or-documents-with-people-outside-your-organization-80E49744-E30F-44DB-8D51-16661B1D4232&ui=en-US&rs=en-US&ad=US) O compartilhamento externo não foi projetado para a distribuição de arquivos grandes ou um grande número de arquivos. Para evitar cenários de fraude e abuso, você pode ter problemas ao compartilhar uma grande quantidade de dados para usuários externos.
 
-|Tipo de reunião                               | Quem clicou no registro?| Onde está a gravação?                               |Quem tem acesso? R/W, R ou compartilhamento                                                                                                                                                                                                                                                     |
+|Tipo de reunião                               | Quem clicou em Gravar?| Onde a gravação chega?                               |Quem tem acesso? R/W, R ou compartilhamento                                                                                                                                                                                                                                                     |
 |-------------------------------------------|-----------------------|--------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|1:1 chamada com partes internas             |Chamador                 |Conta do OneDrive for Business do chamador                        |O chamador é proprietário e tem direitos totais. <br /><br />O chamado (se estiver no mesmo locatário) tem acesso somente leitura. Sem acesso de compartilhamento. <br /><br /> O chamado (se estiver em um locatário diferente) não tem acesso. O chamador deve compartilhá-lo para o receptor.|
-|1:1 chamada com partes internas             |Receptor                 |Conta do OneDrive for Business do chamador                        |Chamado é proprietário e tem direitos totais. <br /><br />O chamador (se estiver no mesmo locatário tem acesso somente leitura. Sem acesso de compartilhamento. <br /><br />O chamador (se estiver em um locatário diferente) não tem acesso. O chamado deve compartilhá-lo para o chamador.|
-|1:1 chamada com chamada externa             |Chamador                 |Conta do OneDrive for Business do chamador                        |O chamador é proprietário e tem direitos totais.<br /> <br />O chamado não tem acesso. O chamador deve compartilhá-lo para o receptor.|
-|1:1 chamada com chamada externa             |Receptor                 |Conta do OneDrive for Business do chamador                        |Chamado é proprietário e tem direitos totais.<br /><br />O autor não tem acesso. O chamado deve compartilhá-lo para o chamador.|
-|Chamada em grupo                                 |Qualquer membro da chamada |Membro que clicou na conta do OneDrive for Business do registro  |O membro que clicou em registro tem direitos totais. <br /><br /> Outros membros do mesmo locatário têm direitos de leitura. <br /><br /> Outros membros de diferentes locatários não têm direito a ele.|
-|Reunião adhoc/agendada                    |Organizador              |Conta do OneDrive for Business do organizador                     |O organizador tem permissões completas para a gravação. <br /><br /> Todos os outros membros da reunião têm acesso de leitura.|
-|Reunião adhoc/agendada                    |Outro membro de reunião   |Membro que clicou em gravar                                  |O membro que clicou em registro tem direitos totais à gravação. <br /><br />O organizador tem direitos de edição e pode compartilhar.<br /><br /> Todos os outros membros têm acesso de leitura.|
-|Reunião adhoc/agendada com usuários externos|Organizador              |Conta do OneDrive for Business do organizador                     |O organizador tem permissões completas para a gravação.<br /> <br /> Todos os outros membros da reunião do mesmo locatário do organizador têm acesso de leitura. <br /><br /> Todos os outros membros externos não têm acesso e o organizador deve compartilhá-lo para ele.|
-|Reunião adhoc/agendada com usuários externos|Outro membro de reunião   |Membro que clicou em gravar                                  |O membro que clicou em registro tem direitos totais à gravação. O organizador tem direitos de edição e pode compartilhar. <br /><br /> Todos os outros membros da reunião do mesmo locatário do organizador têm acesso de leitura. <br /><br />Todos os outros membros externos não têm acesso e o organizador deve compartilhá-lo para ele.|
-|Reunião de canal                            |Membro do canal         |Local do SharePoint do teams para esse canal                   |O membro que clicou em gravar tem direitos de edição para a gravação. <br /> <br />As permissões de cada membro são baseadas nas permissões do SharePoint do canal.|
+|Chamada 1:1 com partes internas             |Chamador                 |Conta do OneDrive for Business do chamador                        |O chamador é proprietário e tem direitos completos. <br /><br />O destinatário da chamada (se estiver no mesmo locatário) tem acesso somente leitura. Sem acesso de compartilhamento. <br /><br /> O destinatário da chamada (se estiver em locatário diferente) não tem acesso. O chamador deve compartilhá-lo com o Destinatário da Chamada.|
+|Chamada 1:1 com partes internas             |Receptor                 |Conta do OneDrive for Business do destinatário                        |O destinatário da chamada é proprietário e tem direitos completos. <br /><br />Chamador (se no mesmo locatário tiver acesso somente leitura. Sem acesso de compartilhamento. <br /><br />O chamador (se estiver em locatário diferente) não tem acesso. O destinatário da chamada deve compartilhá-lo com o Chamador.|
+|Chamada 1:1 com uma chamada externa             |Chamador                 |Conta do OneDrive for Business do chamador                        |O chamador é proprietário e tem direitos completos.<br /> <br />O destinatário da chamada não tem acesso. O chamador deve compartilhá-lo com o Destinatário da Chamada.|
+|Chamada 1:1 com uma chamada externa             |Receptor                 |Conta do OneDrive for Business do destinatário                        |O destinatário da chamada é proprietário e tem direitos completos.<br /><br />O chamador não tem acesso. O destinatário da chamada deve compartilhá-lo com o Chamador.|
+|Chamada em grupo                                 |Qualquer membro da chamada |Membro que clicou na conta do OneDrive for Business da Record  |O membro que clicou em Registro tem direitos completos. <br /><br /> Outros membros do mesmo locatário têm direitos de leitura. <br /><br /> Outros membros de locatários diferentes não têm direitos sobre ele.|
+|Adhoc/Reunião agendada                    |Organizador              |Conta do Organizador do OneDrive for Business                     |O organizador tem direitos completos sobre a gravação. <br /><br /> Todos os outros membros da reunião têm acesso de leitura.|
+|Adhoc/Reunião agendada                    |Outro membro da reunião   |Membro que clicou em Gravar                                  |O membro que clicou na Gravação tem direitos completos sobre a gravação. <br /><br />O organizador tem direitos de edição e pode compartilhar.<br /><br /> Todos os outros membros têm acesso de leitura.|
+|Adhoc/Reunião agendada com usuários externos|Organizador              |Conta do Organizador do OneDrive for Business                     |O organizador tem direitos completos sobre a gravação.<br /> <br /> Todos os outros membros da reunião do mesmo locatário que o organizador têm acesso de leitura. <br /><br /> Todos os outros membros externos não têm acesso e o Organizador deve compartilhá-lo com eles.|
+|Adhoc/Reunião agendada com usuários externos|Outro membro da reunião   |Membro que clicou em Gravar                                  |O membro que clicou na Gravação tem direitos completos sobre a gravação. O organizador tem direitos de edição e pode compartilhar. <br /><br /> Todos os outros membros da reunião do mesmo locatário que o organizador têm acesso de leitura. <br /><br />Todos os outros membros externos não têm acesso e o Organizador deve compartilhá-lo com eles.|
+|Reunião de canal                            |Membro do Canal         |Localização do SharePoint do Teams para esse canal                   |O membro que clicou em Gravar tem direitos de edição para a gravação. <br /> <br />As permissões de todos os outros membros são baseadas nas permissões do SharePoint do Canal.|
 
 ## <a name="frequently-asked-questions"></a>Perguntas frequentes
 
 **Onde a gravação da reunião será armazenada?**
 
-- Para reuniões não relacionadas ao canal, a gravação é armazenada em uma pasta chamada **gravações** que está no nível superior do onedrive for Business que pertence à pessoa que iniciou a gravação da reunião. Exemplo:
+- Para reuniões que não são do Canal,  a gravação é armazenada em uma pasta chamada Gravações que está no nível superior do OneDrive for Business que pertence à pessoa que iniciou a gravação da reunião. Exemplo:
 
-  <i>onedrive for Business</i> / do gravador **Gravações**
+  <i>OneDrive for Business do gravador</i> / **Gravações**
 
-- Para reuniões de canal, a gravação é armazenada na biblioteca de documentação do site do teams em uma pasta chamada **gravações**. Exemplo:
+- Para reuniões do Canal, a gravação é armazenada na biblioteca de documentação do site do Teams em uma pasta chamada **Gravações.** Exemplo:
 
-  <i>Nome do Team-nome</i> / do canal **Documentos** / do **Gravações**
+  <i>Nome do Teams - Nome do canal</i> / **Documentos** / **Gravações**
 
-**Quando os arquivos de fluxo (como gravações) são armazenados no SharePoint/OneDrive, como eles são decididos para onde vão? O administrador tem a capacidade de mudar para onde vai?**
+**Quando arquivos do Stream (como gravações) são armazenados no SharePoint/OneDrive, como é decidido para onde eles vão? O administrador tem a capacidade de alterar para onde vai?**
 
-Por padrão, todos os arquivos de gravação vão para a conta do OneDrive do usuário que selecionou **registro**. Para reuniões de canal, a gravação sempre vai para o site do SharePoint do canal. O administrador não pode alterar o local em que a gravação está armazenada.
+Por padrão, todos os arquivos de gravação irão para a conta do OneDrive do usuário que **selecionou Registro.** Para reuniões de canal, a gravação sempre irá para o site do SharePoint do canal. O administrador não pode alterar onde a gravação está armazenada.
 
 **Como faço para lidar com gravações de ex-funcionários?**
 
-Como os vídeos são como qualquer outro arquivo no OneDrive for Business e no SharePoint, a manipulação da posse e da retenção após um funcionário deixará de acompanhar o processo normal do [onedrive for Business e do SharePoint]( https://docs.microsoft.com/onedrive/retention-and-deletion#the-onedrive-deletion-process).
+Como os vídeos são como qualquer outro arquivo no OneDrive for Business e no SharePoint, lidar com a propriedade e a retenção depois que um funcionário sair seguirá o processo normal do OneDrive for Business e [do SharePoint.]( https://docs.microsoft.com/onedrive/retention-and-deletion#the-onedrive-deletion-process)
 
 **Quem tem as permissões para exibir a gravação da reunião?**
 
-- Em reuniões não canalizadas, todos os convidados da reunião, exceto para usuários externos, receberão automaticamente um link compartilhado pessoalmente. Os usuários externos precisarão ser explicitamente adicionados à lista compartilhada pelo organizador da reunião ou pela pessoa que iniciou a gravação da reunião.
+- Para reuniões que não são do Canal, todos os convidados da reunião, exceto usuários externos, receberão automaticamente um link compartilhado. Os usuários externos precisarão ser explicitamente adicionados à lista compartilhada pelo organizador da reunião ou pela pessoa que iniciou a gravação da reunião.
 
-- Para reuniões de canal, as permissões são herdadas da lista de proprietários e membros no canal.
+- Para reuniões do Canal, as permissões são herdadas dos proprietários e da lista de membros no canal.
 
-**Como eu posso gerenciar transcrições?**
+**Como posso gerenciar transcrições?**
 
-Os clientes que optam por esta visualização não terão legendas ocultas disponíveis em suas gravações de reunião do teams migradas para o OneDrive for Business e para o SharePoint.Estamos trabalhando para adicionar legendas, começando com legendas ocultas em inglês, para fazer gravações nas gravações do quarto CY2020.
+Os clientes que optarem por essa visualização não terão legendas fechadas disponíveis em suas Gravações de Reunião do Teams migradas para o OneDrive for Business e o SharePoint.Estamos trabalhando para adicionar legendas, começando com legendas fechadas em inglês, às gravações de reuniões no Q4 CY2020.
 
-As legendas ocultas estarão disponíveis em gravações de reunião do teams para clientes que optaram por permitir transcrições, conforme descrito em [gravações na nuvem do teams](cloud-recording.md).
+As legendas fechadas estarão disponíveis nas Gravações de Reunião do Teams para clientes que optaram por permitir transcrições conforme descrito nas gravações na nuvem [do Teams.](cloud-recording.md)
 
-As legendas ajudam a criar conteúdo inclusivo para visualizadores de todas as habilidades. Como proprietário, você pode ocultar legendas, embora a transcrição ainda esteja disponível no Teams, a menos que você exclua as legendas do teams. Veja [como ativar ou desativar as gravações de reunião](cloud-recording.md#set-up-teams-cloud-meeting-recording-for-users-in-your-organization).
+As legendas ajudam a criar conteúdo inclusivo para visualizadores de todas as habilidades. Como proprietário, você pode ocultar legendas, embora a transcrição ainda esteja disponível no Teams, a menos que você exclua as legendas do Teams. Veja [como ativar ou desativar gravações de reunião.](cloud-recording.md#set-up-teams-cloud-meeting-recording-for-users-in-your-organization)
 
-As legendas ocultas são suportadas para gravações de reunião do Team por 60 dias a partir de quando a reunião é gravada.
+As legendas fechadas são suportadas para gravações de reuniões do Teams por 60 dias a partir de quando a reunião é gravada.
 
-Legendas codificadas não são totalmente suportadas se a gravação da reunião do teams for movida ou copiada de seu local original no OneDrive for Business ou no SharePoint.
+As legendas fechadas não têm suporte total se a Gravação de Reunião do Teams for movida ou copiada de seu local original no OneDrive for Business ou no SharePoint.
 
-**Como a minha cota de armazenamento será afetada?**
+**Como minha cota de armazenamento será impactada?**
 
-A reunião de equipes que grava arquivos residem no OneDrive for Business e no SharePoint e está incluída na sua cota para esses serviços. Consulte [cota do SharePoint](https://docs.microsoft.com/sharepoint/sites/plan-site-maintenance-and-management#quotas) e [cota do onedrive for Business](https://docs.microsoft.com/onedrive/set-default-storage-space).
+As reuniões do Teams gravam arquivos ao vivo no OneDrive for Business e no SharePoint e são incluídas em sua cota para esses serviços. Veja [a cota do SharePoint](https://docs.microsoft.com/sharepoint/sites/plan-site-maintenance-and-management#quotas) e a cota do [OneDrive for Business.](https://docs.microsoft.com/onedrive/set-default-storage-space)
 
-Você obtém mais armazenamento com o [onedrive for Business](https://docs.microsoft.com/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-limits) em comparação com o fluxo e mais armazenamento fungible com o SharePoint.
+Você obterá mais armazenamento com [o OneDrive for Business em](https://docs.microsoft.com/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-limits) comparação com o Stream e um armazenamento mais fungível com o SharePoint.
 
-**Como faço para reproduzir uma gravação de reunião do teams?**
+**Como posso reproduzir uma gravação de reunião do Teams?**
 
 Seu vídeo será reproduzido no player de vídeo do OneDrive for Business ou do SharePoint, dependendo de onde você acessar o arquivo.
 
-**Se você planeja substituir a adição ao Stream, os vídeos existentes permanecerão como estão e por quanto tempo?**
+**Se você planeja preteri-lo, os vídeos existentes permanecerão como estão e por quanto tempo?**
 
-O fluxo como uma plataforma não será preterido em breve. Os vídeos que residem atualmente no fluxo permanecerão lá até começarmos a migrar. Após a migração, esses vídeos também serão migrados para o OneDrive for Business ou o SharePoint. Verifique a [migração do fluxo clássico](https://docs.microsoft.com/stream/streamnew/classic-migration) para obter mais informações.
+O stream como uma plataforma não será preterido em um futuro próximo. Os vídeos que atualmente vivem no Stream permanecerão lá até iniciarmos a migração. Após a migração, esses vídeos também serão migrados para o OneDrive for Business ou o SharePoint. Verifique [a migração clássica do Stream](https://docs.microsoft.com/stream/streamnew/classic-migration) para obter mais informações.
 
-**Como posso aplicar um rótulo de retenção?**
+**Como aplicar um rótulo de retenção?**
 
-Veja [como aplicar automaticamente um rótulo de retenção](https://docs.microsoft.com/microsoft-365/compliance/apply-retention-labels-automatically?view=o365-worldwide#microsoft-teams-meeting-recordings).
+Veja [como aplicar automaticamente um rótulo de retenção.](https://docs.microsoft.com/microsoft-365/compliance/apply-retention-labels-automatically?view=o365-worldwide#microsoft-teams-meeting-recordings)
 
 **Como faço para atribuir políticas aos meus usuários no Microsoft Teams e quais políticas têm precedência?**
 

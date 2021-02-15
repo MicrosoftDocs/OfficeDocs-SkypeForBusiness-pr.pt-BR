@@ -18,17 +18,17 @@ description: Obtenha mais informações sobre a prévia pública no Microsoft Te
 appliesto:
 - Microsoft Teams
 localization_priority: Priority
-ms.openlocfilehash: 6a8d677b4acd56e6de5681d40a1e1aa69008a1ad
-ms.sourcegitcommit: 6262deaede6f25b17624d7468eff7a2863eeacf7
+ms.openlocfilehash: 60ed1c821389fb56d6e6bfb4ab4a37e562be726a
+ms.sourcegitcommit: bfada4fd06c5cff12b0eefd3384bb3c10d10787f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2021
-ms.locfileid: "50043955"
+ms.lasthandoff: 02/12/2021
+ms.locfileid: "50196215"
 ---
 # <a name="microsoft-teams-public-preview"></a>Visualização Pública do Microsoft Teams
 
 > [!NOTE]
-> Talvez os recursos incluídos na pré-visualização possam estar incompletos e possam sofrer alterações antes de ficarem disponíveis no lançamento público. Eles são fornecidoas apenas para fins de avaliação e exploração.
+> Os recursos incluídos na versão prévia podem não estar completos e podem sofrer alterações antes de se tornarem disponíveis no lançamento público. Eles são fornecidos apenas para fins de avaliação e exploração. Sem suporte na Nuvem da comunidade Office 365 Government.
 
 A Visualização Pública para Microsoft Teams fornece acesso antecipado a recursos não lançados no Teams. As visualizações permitem que você explore e teste os próximos recursos. Também agradecemos comentários sobre qualquer recurso em visualizações públicas. A visualização pública é habilitada por usuário da equipe, então você não precisa se preocupar em afetar toda a sua organização.
 

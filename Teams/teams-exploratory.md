@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: df06c03ab37a98c5ea4404d8dbd12703b07ad3ee
-ms.sourcegitcommit: 4386f4b89331112e0d54943dc3133791d5dca3fb
+ms.openlocfilehash: 9aa7b0a26e947eaa961db5d5be3b793d50474867
+ms.sourcegitcommit: bfada4fd06c5cff12b0eefd3384bb3c10d10787f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/09/2020
-ms.locfileid: "49611805"
+ms.lasthandoff: 02/12/2021
+ms.locfileid: "50196465"
 ---
 # <a name="manage-the-microsoft-teams-exploratory-license"></a>Gerenciar a licença do Microsoft Teams Exploratory
 
@@ -60,6 +60,8 @@ Os usuários atendem aos critérios para uma experiência Exploratória de Teams
 
 - Tem um endereço de email de domínio gerenciado do Azure Active Directory.
 - Pertence a um locatário com uma assinatura paga.
+- Não tenha uma licença do Teams ativa.
+- Não estão em um locatário onde uma política de atribuição de licença foi criada.
 
 Habilite os usuários para se inscreverem em aplicativos e versões de avaliação (no centro de administração do Office 365). Para obter mais informações, confira [Gerenciar a experiência do Teams Exploratory](#manage-the-teams-exploratory-experience), mais adiante neste artigo.
 
@@ -169,17 +171,13 @@ Confira as [Informações de assinatura do Microsoft 365](https://docs.microsoft
 
 ## <a name="how-long-does-the-teams-exploratory-experience-last"></a>Quanto tempo dura a experiência do Teams Exploratory?
 
-A experiência Microsoft Teams Exploratory está disponível sem custo adicional por 12 meses (a partir da inscrição inicial do usuário) mais um período de cortesia adicional de 30 dias. Nesse momento, os usuários finais em uma licença do Microsoft Exploratory precisarão passar para uma licença paga que inclua o Teams. A mesma data de término será aplicada a todos os usuários no mesmo locatário, com o prazo de 12 meses iniciado na data de inscrição do primeiro usuário.
+No início de 2021, o Teams Exploratory está disponível como uma assinatura de 12 meses (a partir da inscrição inicial do usuário) para todos os novos clientes. A nova assinatura do Teams Exploratory inicia quando o primeiro usuário de uma organização se inscreve no Teams Exploratory e expira após 12 meses. A data de expiração se aplicará a todos os usuários no mesmo locatário, pois o prazo de 12 meses começa na data de inscrição do primeiro usuário.
 
-### <a name="what-happens-if-an-end-user-initiates-the-microsoft-teams-exploratory-experience-just-before-the-anniversary-or-renewal-date"></a>O que acontece se um usuário final iniciar a experiência Microsoft Teams Exploratory pouco antes do aniversário ou data de renovação
+> [!NOTE]
+> A data de término da experiência é configurada no nível da organização, o que significa que se aplicará a todos os usuários da mesma organização. Por exemplo, o usuário 1 se inscreveu para a assinatura em 1º de janeiro de 2021. Isso inicia a data de término da assinatura em 31 de dezembro de 2021. Outro usuário, o Usuário 2, se inscreveu para a assinatura em 1º de outubro de 2021. O usuário 2 pode usar o Teams Exploratory por dois meses, já que a data de término será 31 de dezembro de 2021 porque eles estão sob a mesma assinatura da organização do Usuário 1.
 
-Licenças de experiência do Microsoft Teams Exploratory iniciadas dentro de 90 dias de seu **aniversário de contrato** ou **renovação** não serão necessárias para mudar para uma licença paga até o aniversário subsequente ou ciclo de renovação.
+### <a name="what-should-administrators-do-at-the-end-of-the-12-month-teams-exploratory-experience"></a>O que os administradores devem fazer ao final dos 12 meses do Teams Exploratory
 
-### <a name="what-if-my-agreement-doesnt-have-an-anniversary-or-yearly-renewal-date-for-example-month-to-month-agreements"></a>E se meu contrato não tiver um aniversário ou data de renovação anual (por exemplo, contratos mensais)
+No final da assinatura de 12 meses, os administradores devem converter todos os usuários do Teams Exploratory para uma licença paga que inclui o Teams. É vital garantir que isso seja concluído antes que a assinatura do Teams Exploratory expire para evitar qualquer interrupção na experiência do usuário.
 
-Para contratos sem uma data de aniversário ou de renovação anual, o ano subsequente após o primeiro usuário final ativar as licenças de experiências do Microsoft Teams Exploratory será considerado como a data de aniversário ou de renovação. Os usuários da licença do Microsoft Teams Exploratory devem ser convertidos em uma licença paga até essa data a cada ano, de acordo com as políticas descritas neste artigo.
-
-Por exemplo, se o primeiro usuário final ativar o Microsoft Teams Exploratory em 19 de junho de 2020, ele e todos os outros usuários qualificados no locatário do cliente devem ser convertidos para uma licença paga com o Teams até 19 de junho de 2021.
-
-> [!Note]
-> Os clientes serão desabilitados e impedidos de iniciar uma nova licença de avaliação do Exploratory por 3 meses após a expiração de sua licença de avaliação do Exploratory anterior.
+Para obter mais informações, confira [Atualizar usuários da licença Teams Exploratory](#upgrade-users-from-the-teams-exploratory-license)), acima neste artigo.
