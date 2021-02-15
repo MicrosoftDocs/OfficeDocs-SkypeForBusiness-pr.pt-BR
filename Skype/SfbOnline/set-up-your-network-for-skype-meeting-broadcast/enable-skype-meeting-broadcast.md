@@ -18,7 +18,7 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - SMB
-description: Para que as pessoas em sua organização possam usar a Transmissão de Reunião do Skype, você precisa habilita-la. Para fazer isso, você precisa saber como usar Windows PowerShell. Se você não conhece o Windows PowerShell, considere contratar um parceiro da Microsoft para fazer esta etapa para você.
+description: Para que as pessoas em sua organização possam usar a Transmissão de Reunião do Skype, você precisa habilita-la. Para fazer isso, você precisa saber como usar o Windows PowerShell. Se você não conhece o Windows PowerShell, considere contratar um parceiro da Microsoft para fazer esta etapa por você.
 ms.openlocfilehash: 1ba8f11913c932d695806ae4fd30db5e8609530f
 ms.sourcegitcommit: ab566ddab9d26440bac1716a975f30e075d0c7b5
 ms.translationtype: MT
@@ -29,25 +29,25 @@ ms.locfileid: "49865135"
 # <a name="enable-skype-meeting-broadcast"></a>Habilitar a Transmissão de Reunião do Skype
 
 > [!IMPORTANT]
-> O Skype for Business Online está se retirando em 31 de julho de 2021, quando o acesso ao serviço terminará. Incentivamos os clientes a iniciar a atualização para o Microsoft Teams, o cliente principal para comunicações e trabalho em equipe no Microsoft 365.
+> O Skype for Business Online se desposenta em 31 de julho de 2021, momento em que o acesso ao serviço terminará. Incentivamos os clientes a iniciar a atualização para o Microsoft Teams, o cliente principal para comunicações e trabalho em equipe no Microsoft 365.
 
-Para que as pessoas em sua organização possam usar a Transmissão de Reunião do Skype, você precisa habilita-la. Para fazer isso, você precisa saber como usar Windows PowerShell. Se você não conhece o Windows PowerShell, considere contratar um [Parceiro Microsoft](https://go.microsoft.com/fwlink/?linkid=391089) para realizar essa etapa para você.
+Para que as pessoas em sua organização possam usar a Transmissão de Reunião do Skype, você precisa habilita-la. Para fazer isso, você precisa saber como usar o Windows PowerShell. Se você não conhece o Windows PowerShell, considere contratar um [Parceiro Microsoft](https://go.microsoft.com/fwlink/?linkid=391089) para realizar essa etapa para você.
 
 
 
 > [!NOTE]
-> O centro de administração do Microsoft Teams substituiu o Centro de administração do Skype for Business (portal herdado). Todas as configurações para gerenciar o Skype for Business agora estão no Centro de administração do Teams. Você deve ter a função de administrador do [Azure AD](https://docs.microsoft.com/azure/active-directory/roles/permissions-reference) de administrador global ou administrador do Skype for Business para gerenciar os recursos do Skype for Business no centro de administração do Teams. Para obter mais informações, confira [Gerenciar as configurações do Skype for Business do centro de Administração do Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/skype-for-business-settings?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json).
+> O Centro de administração do Microsoft Teams substituiu o Centro de administração do Skype for Business (portal herdado). Todas as configurações para gerenciar o Skype for Business agora estão no Centro de administração do Teams. Você deve ter a função de administrador do [Azure AD](https://docs.microsoft.com/azure/active-directory/roles/permissions-reference) de Administrador global ou administrador do Skype for Business para gerenciar os recursos do Skype for Business no Centro de administração do Teams. Para obter mais informações, confira [Gerenciar as configurações do Skype for Business do centro de Administração do Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/skype-for-business-settings?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json).
 
   
 ## <a name="enable-skype-meeting-broadcast-using-the-skype-for-business-admin-center"></a>Habilitar Transmissão de Reunião do Skype usando o centro de administração do Skype for Business
 
 ![Um ícone mostrando o logotipo do Skype for Business](../images/sfb-logo-30x30.png) **Usando o centro de administração do Skype for Business**
 
-1. Entre com sua conta de administrador global ou conta de administrador do Skype for Business em [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home) .
+1. Entre com sua conta de administrador global ou com a conta de administrador do Skype for Business em [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home) .
     
-2. No centro de administração, vá para Os Centros **de Administração do**  >  **Teams.**
+2. No centro de administração, vá para **o Teams do Centro de**  >  **administração.**
     
-3. No Centro **de administração do Teams,** vá para Reuniões de Transmissão de Reuniões do **Portal** herdado  >  **e** selecione Habilitar Transmissão de Reunião do  >   **Skype.**
+3. No Centro **de administração do Teams,** vá para **o Portal Herdado** Online Para transmitir reuniões, selecione  >    >  Habilitar Transmissão **de Reunião do Skype.**
     
 ## <a name="enable-skype-meeting-broadcast-using-powershell"></a>Habilitar a Transmissão de Reunião do Skype usando o PowerShell
 
@@ -57,13 +57,13 @@ Para que as pessoas em sua organização possam usar a Transmissão de Reunião 
     
 3. Verifique a versão digitando  _Get-Host_ na janela do **Windows PowerShell**.
     
-4. Se você não tiver a versão 3.0 ou superior, deverá baixar e instalar as atualizações do Windows PowerShell. Consulte [o Windows Management Framework 4.0](https://go.microsoft.com/fwlink/?LinkId=716845) para baixar e atualizar Windows PowerShell para a versão 4.0. Reinicie o computador quando for solicitado.
+4. Se você não tiver a versão 3.0 ou superior, deverá baixar e instalar as atualizações do Windows PowerShell. Confira [o Windows Management Framework 4.0 para](https://go.microsoft.com/fwlink/?LinkId=716845) baixar e atualizar o Windows PowerShell para a versão 4.0. Reinicie o computador quando for solicitado.
     
 5. Você também precisará instalar o módulo do Windows PowerShell para Skype for Business Online, que permite que você crie uma sessão remota do Windows PowerShell que se conecta ao Skype for Business Online. Esse módulo, que tem suporte apenas em computadores de 64 bits, pode ser baixado do Centro de Download da Microsoft em [Módulo do Windows PowerShell para o Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=294688). Se for solicitado, reinicie o seu computador.
     
-6. No **Menu Iniciar,** escolha **Windows PowerShell**.
+6. No **Menu Iniciar,** escolha **Windows PowerShell.**
     
-7. Na janela **Windows PowerShell,** conecte-se ao Microsoft 365 ou Office 365 executando:
+7. Na janela **do Windows PowerShell,** conecte-se ao Microsoft 365 ou ao Office 365 executando:
     
    ```PowerShell
    $Credential = get-credential

@@ -1,5 +1,5 @@
 ---
-title: Atendedor automático e discagem da fila de chamadas e referência do reconhecimento de voz
+title: Referência de reconhecimento de voz e discagem de fila de chamadas e atendimento automático
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
@@ -21,7 +21,7 @@ ms.custom:
 - ms.teamsadmincenter.autoattendants.overview
 - Phone System
 - seo-marvel-apr2020
-description: Saiba mais sobre as opções atendedor automático e discagem da fila de chamadas e reconhecimento de voz no Teams.
+description: Saiba mais sobre as opções de discagem automática de fila de chamadas e reconhecimento de voz no Teams.
 ms.openlocfilehash: 1cb8da2d2e6625de5a1471d1051c1ca51f11bbae
 ms.sourcegitcommit: 212b2985591ca1109eb3643fbb49d8b18ab07a70
 ms.translationtype: MT
@@ -29,32 +29,32 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 01/21/2021
 ms.locfileid: "49918957"
 ---
-# <a name="auto-attendant-and-call-queue-dialing-and-voice-recognition-reference"></a>Atendedor automático e discagem da fila de chamadas e referência do reconhecimento de voz
+# <a name="auto-attendant-and-call-queue-dialing-and-voice-recognition-reference"></a>Referência de reconhecimento de voz e discagem de fila de chamadas e atendimento automático
 
-Discar por nome é um recurso de um atendedor automático que também é conhecido como pesquisa de diretório. Ele permite que as pessoas que chamam seu atendedor automático usem voz (reconhecimento de fala) ou as respostas do teclado de telefone (DTMF) para inserir um nome completo ou parcial para pesquisar o diretório da empresa, localizar a pessoa e fazer com que a chamada seja transferida para ela. Você configura o recurso discar por nome ao [definir as configurações de fluxo de chamadas em um atendedor automático](create-a-phone-system-auto-attendant.md#call-flow).
+Discar por Nome é um recurso de um assistente automático que também é conhecido como pesquisa de diretório. Ele permite que as pessoas que liguem para o seu atender automático usem as respostas de voz (reconhecimento de fala) ou do teclado de telefone (DTMF) para inserir um nome completo ou parcial para pesquisar o diretório da empresa, localizar a pessoa e, em seguida, transferir a chamada para ela. Configure a discagem por nome ao configurar as configurações de fluxo [de chamada em um atendimento automático.](create-a-phone-system-auto-attendant.md#call-flow)
 
-## <a name="searching-for-users"></a>Procurando usuários
+## <a name="searching-for-users"></a>Pesquisando usuários
 
-Os usuários que você quer localizar e chegarem usando o recurso discar por nome **não devem ter um número de telefone ou ter planos de chamada atribuídos a eles, mas devem ter o Enterprise Voice habilitado para usuários do Skype for Business Server**. Discar por nome poderá, até mesmo, localizar e transferir chamadas para os usuários do Microsoft Teams que são hospedados em diferentes países ou regiões para organizações multinacionais. Devido aos pré-requisitos envolvidos, você habilitou explicitamente o recurso discar por nome em um atendedor automático.
+Os usuários que você deseja localizar e acessar usando o Recurso Discar por Nome não precisam ter um número de telefone ou ter Planos de Chamada atribuídos a eles, mas devem estar habilitados para usuários do Enterprise Voice do **Skype for Business Server.** O discar por Nome ainda poderá encontrar e transferir chamadas para usuários do Microsoft Teams hospedados em diferentes países ou regiões para organizações multinacionais. De acordo com os pré-requisitos envolvidos, você habilita explicitamente o Discar por Nome em um atendimento automático.
 
-Discar por extensão é um recurso de um atendedor automático que também faz parte da pesquisa de diretório. Ele permite que as pessoas que chamam seu atendente automático usem voz (reconhecimento de fala) ou as respostas do teclado de telefone (DTMF) para inserir a extensão de telefone do usuário para o qual estão tentando falar e, em seguida, fazer com que a chamada seja transferida para elas. Os usuários que você quer localizar e acessados usando o recurso discar por  **não devem ter um número de telefone ou ter planos de chamada atribuídos a eles, mas devem ter o Enterprise Voice habilitado para usuários do Skype for Business Server**. Você também precisará ter um plano de discagem configurado adequadamente para seus usuários. A discagem por extensão poderá até mesmo localizar e transferir chamadas para os usuários do Microsoft Teams que são hospedados em diferentes países ou regiões para organizações multinacionais. Devido aos pré-requisitos envolvidos, você habilitou explicitamente a extensão dial by em um atendedor automático.
+Discar por extensão é um recurso de um assistente automático que também faz parte da pesquisa de diretório. Ele permite que as pessoas que liguem para o seu atender automático usem respostas de voz (reconhecimento de fala) ou do teclado de telefone (DTMF) para inserirem a extensão de telefone do usuário que estão tentando contabilitar e, em seguida, transferirem a chamada para eles. Os usuários que você deseja localizar e acessar usando o Discar por extensão não são necessários para ter um número de telefone ou ter Planos de Chamada atribuídos a eles, mas eles devem estar habilitados para o Enterprise Voice para usuários do **Skype for Business Server.** Você também precisará ter um plano de discagem configurado adequadamente para seus usuários. O discar por extensão ainda poderá encontrar e transferir chamadas para usuários do Microsoft Teams hospedados em diferentes países ou regiões para organizações multinacionais. Considerando os pré-requisitos envolvidos, você habilita explicitamente o Discar por extensão em um atendimento automático.
 
 ### <a name="maximum-directory-size"></a>Tamanho máximo do diretório
 
-Não há limite quanto ao número de usuários do Active Directory discados por nome e discar por extensão pode oferecer suporte quando um chamador pesquisar por uma pessoa específica. Uma chamada pode inserir nomes parciais ou completos (nome + sobrenome e também sobrenome + nome), mas precisa do número de ramal completo. O tamanho da lista de nomes máximo que um único atendedor automático pode oferecer suporte usando o reconhecimento de fala é de 80.000 usuários.
+Não há limite para o número de usuários do Active Directory Discar por Nome e Discar por Extensão pode ser suportado quando um chamador procura uma pessoa específica. Um chamador pode inserir nomes parciais ou completos (Nome + Sobrenome e também Sobrenome + Nome), mas precisa do número completo da extensão. O tamanho máximo da lista de nomes que um único assistente automático pode dar suporte usando o reconhecimento de fala é de 80.000 usuários.
   
 |Tipo de entrada|Formato de pesquisa|Número máximo de usuários em uma organização|
 |:-----|:-----|:-----|
 |DTMF (entrada de teclado) |Parcial  <br/> Nome + Sobrenome  <br/> Sobrenome + Nome |Sem limite  |
-|Fala (entrada de voz) |Nome  <br/> Apelido  <br/> Nome + Sobrenome  <br/> Sobrenome + Nome  | usuários do 80.000 |
+|Fala (entrada de voz) |Firstname  <br/> Lastname  <br/> Nome + Sobrenome  <br/> Sobrenome + Nome  | 80.000 usuários |
 
 > [!NOTE]
-> Se você estiver usando discar por nome com reconhecimento de fala, mas o Active Directory da sua organização for maior do que o 80.000 usuários e você não tiver limitado o escopo de discagem por nome usando o recurso de escopo de discagem, a discagem por nome ainda funcionará para seus chamadores usando um teclado de telefone, e as entradas de voz estarão disponíveis para todos os outros cenários. Você pode usar o recurso Escopo de Discagem para restringir os nomes que são acessíveis mudando o escopo da Discagem por Nome para um atendedor automático específico.
+> Se você estiver usando Discar por Nome com reconhecimento de fala, mas o Active Directory da sua organização for maior que 80.000 usuários e você não tiver limitado o escopo de Discar por Nome usando o recurso Escopo de Discagem, Discar por Nome ainda funcionará para os chamadores usando um teclado de telefone e as entradas de voz estarão disponíveis para todos os outros cenários. Você pode usar o recurso Escopo de Discagem para restringir os nomes que são acessíveis mudando o escopo da Discagem por Nome para um atendedor automático específico.
   
 ## <a name="dial-by-name---keypad-dtmf-entry"></a>Discar por Nome - entrada de teclado (DTMF)
-As pessoas que fazem chamadas podem usar o recurso discar por nome para acessar os usuários especificando o nome completo ou parcial da pessoa que estão tentando acessar. Há vários formatos que podem ser usados quando o nome é inserido.
+As pessoas que ligarem podem usar o Discar por Nome para entrar em contato com os usuários especificando o nome completo ou parcial da pessoa que estão tentando entrar em contato. Há vários formatos que podem ser usados quando o nome é inserido.
 
-Ao pesquisar o diretório de sua organização, as pessoas podem usar a tecla '0' (zero) para indicar um espaço entre o nome e o sobrenome ou sobrenome e nome. Quando eles estiverem inserindo o nome, será solicitado que ele encerre a entrada do teclado com a tecla #. Por exemplo, "Depois que você inserir o nome da pessoa que está tentando contatar, pressione #". Se vários nomes forem localizados, a pessoa que liga receberá uma lista de nomes para escolher.
+Ao pesquisar o diretório de sua organização, as pessoas podem usar a tecla '0' (zero) para indicar um espaço entre o nome e o sobrenome ou sobrenome e nome. Quando eles inserirem o nome, eles serão solicitados a encerrar a entrada do teclado com a tecla #. Por exemplo, "Depois que você inserir o nome da pessoa que está tentando contatar, pressione #". Se vários nomes forem localizados, a pessoa que liga receberá uma lista de nomes para escolher.
   
 As pessoas podem pesquisar os nomes em sua organização usando os seguintes formatos de pesquisa em seu teclado de telefone:
   
@@ -62,13 +62,13 @@ As pessoas podem pesquisar os nomes em sua organização usando os seguintes for
 |:-----|:-----|:-----|:-----|
 |Nome + Sobrenome |Completo  |Amos0Marble# |Amos Marble |
 |Sobrenome + Nome |Completo |Marble0Amos#  |Amos Marble |
-|Nome  |Completo   |Amos#   |Pressione 1 para Amos Marble  <br/> Pressione 2 para Amos Marcus |
-|Apelido |Completo |Marble#  |Pressione 1 para Amos Marble  <br/> Pressione 2 para Mary Marble |
+|Firstname  |Completo   |Amos#   |Pressione 1 para Amos Marble  <br/> Pressione 2 para Amos Marcus |
+|Lastname |Completo |Marble#  |Pressione 1 para Amos Marble  <br/> Pressione 2 para Mary Marble |
 |Nome ou Sobrenome |Parcial |Mar# |Pressione 1 para Mary Marble  <br/> Pressione 2 para Mary Jones  <br/> Pressione 3 para Amos Marcus |
 |Nome + Sobrenome |Parcial |Amos0Mar # |Pressione 1 para Amos Marble  <br/> Pressione 2 para Amos Marcus |
 |Sobrenome + Nome |Parcial |Mar0Am# |Pressione 1 para Amos Marble  <br/> Pressione 2 para Amos Marcus |
 
-Há vários caracteres especiais que são usados durante a pesquisa de pessoas por meio de um teclado de telefone. Por exemplo, a pessoa será solicitada a usar a tecla sustenido (#), enquanto a tecla zero (0) é usada para um espaço entre os nomes. Pressionar a tecla asterisco (*) repetirá a lista de nomes correspondentes para a pessoa.
+Há vários caracteres especiais que são usados durante a pesquisa de pessoas por meio de um teclado de telefone. Por exemplo, a pessoa será solicitado a usar a tecla pound (#), enquanto a tecla zero (0) é usada para um espaço entre nomes. Pressionar a tecla asterisco (*) repetirá a lista de nomes correspondentes para a pessoa.
   
 |Caractere de teclado de telefone especial|O que significa|
 |:-----|:-----|
@@ -78,11 +78,11 @@ Há vários caracteres especiais que são usados durante a pesquisa de pessoas p
 
 ### <a name="dial-by-name---name-recognition-with-speech"></a>Discar por Nome - Reconhecimento de nome pela fala
 
-As pessoas podem pesquisar outras pessoas em sua organização com voz (reconhecimento de fala). Eles também podem acessar qualquer pessoa no Active Directory informando o nome completo ou parcial da pessoa que está tentando localizar. Usar entradas de voz pode reconhecer nomes em vários formatos, incluindo FirstName, LastName, FirstName + LastName ou LastName + FirstName.
+As pessoas podem procurar outras pessoas em sua organização com voz (reconhecimento de fala). Eles também podem entrar em contato com qualquer pessoa no Active Directory dizendo o nome completo ou parcial da pessoa que estão tentando localizar. O uso de entradas de voz pode reconhecer nomes em vários formatos, incluindo Nome, Sobrenome, Nome + Sobrenome ou Sobrenome + Nome.
   
-Você pode habilitar o reconhecimento de fala para um atendedor automático, mas a entrada do teclado de telefone (DTMF) não está desabilitada. A entrada do teclado de telefone pode ser usada a qualquer momento, mesmo se o reconhecimento de fala estiver habilitado no atendedor automático.
+Você pode habilitar o reconhecimento de fala para um atender automático, mas a entrada do teclado de telefone (DTMF) não está desabilitada. A entrada do teclado de telefone pode ser usada a qualquer momento, mesmo que o reconhecimento de fala seja habilitado no atender automaticamente.
   
-Assim como na entrada do teclado de telefone, se vários nomes forem encontrados, a pessoa que está ligando ouvirá uma lista de nomes para selecionar.
+Como na entrada do teclado do telefone, se vários nomes são encontrados, a pessoa que liga ouve uma lista de nomes para selecionar.
   
 Os chamadores podem dizer nomes nos seguintes formatos:
   
@@ -90,18 +90,18 @@ Os chamadores podem dizer nomes nos seguintes formatos:
 |:-----|:-----|:-----|:-----|
 |Nome + Sobrenome |Completo |Amos Marble |Amos Marble |
 |Sobrenome + Nome |Completo  |Marble Amos |Amos Marble |
-|Nome |Completo |Amos |Pressione ou fale 1 para Amos Marble  <br/> Pressione ou fale 2 para Amos Jones |
-|Apelido |Completo |Marble |Pressione ou fale 1 para Amos Marble  <br/> Pressione ou fale 2 para Ben Marble |
-|Nome ou Sobrenome |Parcial |Mar |Pressione ou diga 1 para Mary Marble  <br/> Pressione ou diga 2 para Mary Jones  <br/> Pressione ou diga 3 para Amos Marcus |
-|Nome + Sobrenome |Parcial |Mar de Amos |Pressione ou fale 1 para Amos Marble  <br/> Pressione ou diga 2 para Amos Marcus |
+|Firstname |Completo |Amos |Pressione ou fale 1 para Amos Marble  <br/> Pressione ou fale 2 para Amos Jones |
+|Lastname |Completo |Marble |Pressione ou fale 1 para Amos Marble  <br/> Pressione ou fale 2 para Ben Marble |
+|Nome ou Sobrenome |Parcial |Março |Pressione ou diga 1 para Mary Marble  <br/> Pressione ou diga 2 para Mary Jones  <br/> Pressione ou diga 3 para Amos Mark |
+|Nome + Sobrenome |Parcial |Amos Mar |Pressione ou fale 1 para Amos Marble  <br/> Pressione ou diga 2 para Amos Mark |
 
 
 > [!NOTE]
-> Pode levar até 36 horas para que um novo usuário tenha o nome listado no diretório para discar por nome com reconhecimento de fala devido à defasagem de replicação do Active Directory.
+> Pode levar até 36 horas para que um novo usuário tenha seu nome listado no diretório para Discar por Nome com reconhecimento de fala devido ao atraso de replicação do Active Directory.
   
 ## <a name="language-support"></a>Suporte a idiomas
 
-Os seguintes idiomas estão disponíveis para conversão de texto em fala usadas com prompts de saída:
+Os seguintes idiomas estão disponíveis para texto em fala usados com prompts de saída:
   
 |-|-|-|
 |:-----|:-----|:-----|
@@ -115,7 +115,7 @@ Os seguintes idiomas estão disponíveis para conversão de texto em fala usadas
 |Inglês (CA)  |Italiano (IT) |Espanhol (MX)|
 |Inglês (IN)  |Japonês (JP) |Sueco (SV)|
 
-A entrada de reconhecimento de fala dos atendedores automáticos está disponível nos seguintes idiomas:
+A entrada de reconhecimento de fala para os participantes automáticos está disponível nos seguintes idiomas:
   
 |-|-|
 |:-----|:-----|
@@ -127,16 +127,16 @@ A entrada de reconhecimento de fala dos atendedores automáticos está disponív
 |Inglês (EUA)  |Espanhol (ES)  |
 |Francês (CA)   |Espanhol (MX)  |
 
-Os comandos de voz a seguir estão disponíveis nos 14 idiomas com suporte para o reconhecimento de fala:
+Os seguintes comandos de voz estão disponíveis nos 14 idiomas com suporte para reconhecimento de fala:
   
 |Comando de voz| Corresponde a |
 |:-----|:-----|
 |Sim | Pressione 1 para Sim. |
-|Não | Pressione 2 para não. |
+|Não | Pressione 2 para Não. |
 |Repetir |Repete a lista de opções. Pressione * no teclado para repetir a lista de opções. |
-|Operador | Pressione 0 para "operador" |
+|Operador | Pressione 0 para "Operador" |
 |Menu Principal  |Leva o chamador para o menu principal do atendedor automático. |
-|Zero | Pressione 0 (por padrão, o mesmo que "operador").|
+|Zero | Pressione 0 (por padrão, mesmo que "Operador").|
 |Um | Pressione 1. |
 |Dois | Pressione 2. |
 |Três| Pressione 3.|

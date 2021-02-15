@@ -1,5 +1,5 @@
 ---
-title: Solucionar problemas de conectividade com o cliente do teams
+title: Solucionar problemas de conectividade com o cliente teams
 ms.reviewer: ''
 author: SerdarSoysal
 ms.author: serdars
@@ -26,7 +26,7 @@ ms.locfileid: "49918537"
 <a name="troubleshoot-connectivity-issues-with-the-microsoft-teams-client"></a>Solucionar problemas de conectividade do cliente Microsoft Teams
 ==============================================================
 
-A maioria dos problemas descobertos com o cliente Microsoft Teams pode ser remetida para o firewall ou para a conectividade do proxy. Verificar se as URLs, os endereços IP e as portas necessárias estão abertas no seu firewall ou no seu proxy minimizará uma resolução de problemas desnecessária. Para obter informações específicas sobre URLs e IPs necessários para o Microsoft Teams, consulte o artigo [microsoft 365 and Office 365 URLs and IP address](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2) support. Os cenários a seguir exigem que portas e URLs específicas sejam abertas no firewall.
+A maioria dos problemas descobertos com o cliente Microsoft Teams pode ser remetida para o firewall ou para a conectividade do proxy. Verificar se as URLs, os endereços IP e as portas necessárias estão abertas no seu firewall ou no seu proxy minimizará uma resolução de problemas desnecessária. Para obter informações específicas sobre URLs e IPs necessárias para o Microsoft Teams, consulte o artigo de suporte a URLs e endereço IP do Microsoft 365 e do [Office 365.](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2) Os cenários a seguir exigem que portas e URLs específicas sejam abertas no firewall.
 
 - Autenticação
 
@@ -44,9 +44,9 @@ A maioria dos problemas descobertos com o cliente Microsoft Teams pode ser remet
 
 - Interoperabilidade do cliente Skype for Business
 
-## <a name="when-teams-is-offline-or-in-low-bandwidth-conditions"></a>Quando o Microsoft Teams está offline ou em condições de baixa largura de banda
+## <a name="when-teams-is-offline-or-in-low-bandwidth-conditions"></a>Quando o Teams está offline ou em condições de pouca largura de banda
 
-A boa notícia é que as equipes continuam sendo executadas mesmo quando você estiver offline ou em condições de pouca largura de banda. O Teams salva todas as suas mensagens não enviadas para chats existentes (até 24 horas) e as envia assim que você estiver online novamente. Se você estiver offline por mais de 24 horas, o Microsoft Teams permite que você escolha reenviar ou excluir mensagens não enviadas. Estamos nos empenhando para adicionar essa funcionalidade a novos chats e atualizar essa documentação quando isso estiver disponível.
+A boa notícia é que o Teams continua em execução mesmo quando você está offline ou em condições de baixa largura de banda. O Teams salva todas as suas mensagens não enviadas para chats existentes (por até 24 horas) e as envia assim que você estiver online novamente. Se você estiver offline por mais de 24 horas, o Teams permitirá que você opte por reendê-los ou excluir mensagens não enviadas. Estamos trabalhando para adicionar essa funcionalidade a novos chats e atualizaremos essa documentação quando isso estiver disponível.
 
 ## <a name="related-topics"></a>Tópicos relacionados
 

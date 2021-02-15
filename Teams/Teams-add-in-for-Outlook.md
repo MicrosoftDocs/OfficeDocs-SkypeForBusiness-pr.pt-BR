@@ -182,4 +182,4 @@ Se o seu administrador configurou o Microsoft Exchange para [controlar o acesso 
 
 - [Solução de problemas do Teams](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)
 
-- [Agendar uma reunião do teams a partir do Outlook](https://support.microsoft.com/office/schedule-a-teams-meeting-from-outlook-883cc15c-580f-441a-92ea-0992c00a9b0f)
+- [Agendar uma reunião do Teams a partir do Outlook](https://support.microsoft.com/office/schedule-a-teams-meeting-from-outlook-883cc15c-580f-441a-92ea-0992c00a9b0f)

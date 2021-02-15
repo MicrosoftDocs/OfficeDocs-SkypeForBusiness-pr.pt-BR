@@ -61,7 +61,7 @@ Veja este pequeno vídeo para saber mais sobre as práticas recomendadas para cr
 
 Quando o Microsoft Teams é ativado para toda a organização, os proprietários da equipe designada podem convidar qualquer funcionário com quem trabalham para ingressar na equipe. O Microsoft Teams torna fácil para os proprietários de equipe adicionarem pessoas na empresa baseado nos seus nomes. Dependendo das configurações usadas pela empresa, convidados que são membros da equipe, mas não pertencem à empresa também podem sem adicionados às suas equipes. Veja [Acesso de Convidado no Microsoft Teams](guest-access.md) para obter mais detalhes. 
 
-Os proprietários da equipe também podem criar uma equipe com base em um grupo existente do Microsoft 365. Quaisquer alterações feitas no grupo serão sincronizadas com o Microsoft Teams automaticamente. Criar uma equipe com base em um grupo existente do Microsoft 365 não apenas simplifica o processo de convidar e gerenciar membros, mas também sincroniza arquivos de grupo dentro do Microsoft Teams.
+Os proprietários da equipe também podem criar uma equipe com base em um grupo existente do Microsoft 365. Quaisquer alterações feitas no grupo serão sincronizadas com o Microsoft Teams automaticamente. Criar uma equipe com base em um grupo existente do Microsoft 365 não apenas simplifica o processo de convite e gerenciamento de membros, mas também sincroniza arquivos de grupo dentro do Microsoft Teams.
 
 **Funções da equipe**
 
@@ -80,7 +80,7 @@ Reserve três minutos para conferir este vídeo de guia para proprietários de e
 
    > [!VIDEO https://www.youtube.com/embed/kalV4dG-oFo]
 
-Se você for um administrador do Microsoft Teams no Microsoft 365 ou no Office 365, terá acesso às configurações de todo o sistema no centro de administração do Microsoft Teams. Essas configurações podem impactar as opções e padrões que os proprietários de equipe veem nas configurações de equipe. Por exemplo, você pode ativar um canal padrão, "Geral", para anúncios, discussões e recursos em toda a equipe, que será exibido em todas as equipes.
+Se você for um administrador do Microsoft Teams no Microsoft 365 ou no Office 365, terá acesso às configurações de todo o sistema no Centro de administração do Microsoft Teams. Essas configurações podem impactar as opções e padrões que os proprietários de equipe veem nas configurações de equipe. Por exemplo, você pode ativar um canal padrão, "Geral", para anúncios, discussões e recursos em toda a equipe, que será exibido em todas as equipes.
 
 Por padrão, todos os usuários têm permissões para criar uma equipe no Microsoft Teams (para modificar isso, consulte [Atribuir funções e permissões no Teams)](assign-roles-permissions.md). Os usuários de um grupo existente do Microsoft 365 também podem aprimorar suas permissões com a funcionalidade do Teams.
 

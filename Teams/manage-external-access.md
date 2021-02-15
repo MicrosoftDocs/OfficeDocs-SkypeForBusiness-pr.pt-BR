@@ -1,5 +1,5 @@
 ---
-title: Gerenciar o acesso externo (Federação)
+title: Gerenciar o acesso externo (federação)
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
@@ -30,12 +30,12 @@ ms.locfileid: "50055743"
 ---
 # <a name="manage-external-access-in-microsoft-teams"></a>Gerenciar o acesso externo no Microsoft Teams
 
-O acesso externo é uma maneira para os usuários do teams de um domínio externo inteiro para localizar, chamar, bater papo e configurar reuniões com você no Teams. Você também pode usar o acesso externo para se comunicar com pessoas de outras organizações que ainda estejam usando o Skype for Business (online e local) e o Skype (na visualização).
+O acesso externo é uma maneira de os usuários do Teams de um domínio externo inteiro encontrarem, ligarem, conversarem e configurarem reuniões com você no Teams. Você também pode usar o acesso externo para se comunicar com pessoas de outras organizações que ainda usam o Skype for Business (online e local) e o Skype (em visualização).
 
 > [!NOTE]
-> Os domínios permitidos ou bloqueados se aplicam somente a reuniões se o acesso anônimo a reuniões estiver "desativado".
+> Os domínios permitidos ou bloqueados só se aplicam às reuniões se o acesso anônimo a reuniões estiver "desligado".
 
-Se você quiser que as pessoas de outras organizações tenham acesso a equipes e canais, o acesso de convidados pode ser uma melhor maneira de começar. Para obter mais informações sobre as diferenças entre o acesso externo e o acesso para convidado, confira [Comparar o acesso externo e o acesso para convidado](communicate-with-users-from-other-organizations.md#compare-external-and-guest-access). 
+Se você quiser que as pessoas de outras organizações tenham acesso a equipes e canais, o acesso de convidados pode ser uma maneira melhor de acessar. Para obter mais informações sobre as diferenças entre o acesso externo e o acesso para convidado, confira [Comparar o acesso externo e o acesso para convidado](communicate-with-users-from-other-organizations.md#compare-external-and-guest-access). 
 
 Usar o acesso externo quando:
   
@@ -46,11 +46,11 @@ Usar o acesso externo quando:
 - Você desejar que todas as pessoas que usam o Teams sejam capazes de localizar e entrar em contato com você usando seu endereço de email. 
 
 > [!IMPORTANT]
-> Para usar o cliente do teams para se comunicar com um usuário externo (seja o usuário que está usando o Teams ou o Skype for Business), o usuário do teams deve ser hospedado no Skype for Business online.
+> Para usar o cliente do Teams para se comunicar com um usuário externo (se esse usuário está usando o Teams ou o Skype for Business), o usuário do Teams deve estar no Skype for Business Online.
 
 ## <a name="plan-for-external-access"></a>Planejar o acesso externo
 
-O acesso externo é ativado por padrão no Teams, o que significa que sua organização pode se comunicar com todos os domínios externos. Se adicionar domínios bloqueados, todos os outros domínios serão permitidos; mas se adicionar domínios permitidos, todos os outros domínios serão bloqueados. A exceção a essa regra é se os participantes anônimos forem permitidos em reuniões. Há três casos para configurar o acesso externo no centro de administração do Teams (**Configurações de toda a organização** > **Acesso externo**):
+O acesso externo é ativado por padrão no Teams, o que significa que sua organização pode se comunicar com todos os domínios externos. Se adicionar domínios bloqueados, todos os outros domínios serão permitidos; mas se adicionar domínios permitidos, todos os outros domínios serão bloqueados. A exceção a essa regra é se os participantes anônimos são permitidos em reuniões. Há três casos para configurar o acesso externo no centro de administração do Teams (**Configurações de toda a organização** > **Acesso externo**):
 
 - **Federação aberta**: essa é a configuração padrão no Teams. Ela permite que as pessoas em sua organização localizem, façam chamadas e enviem mensagens instantâneas, conversem e configurem reuniões com pessoas de fora da sua organização, em qualquer domínio.
 
@@ -65,7 +65,7 @@ O acesso externo é ativado por padrão no Teams, o que significa que sua organi
 
 ## <a name="allow-or-block-domains"></a>Permitir ou bloquear domínios
 
-### <a name="step-1---enable-your-organization-to-communicate-with-another-teams-or-skype-for-business-organizations"></a>Etapa 1-permitir que sua organização se comunique com outras equipes ou organizações do Skype for Business
+### <a name="step-1---enable-your-organization-to-communicate-with-another-teams-or-skype-for-business-organizations"></a>Etapa 1 - Permitir que sua organização se comunique com outras organizações do Teams ou do Skype for Business
 
 ![Um ícone mostrado o logotipo do Microsoft Teams](media/teams-logo-30x30.png)  **Usando centro de administração Microsoft Teams**
 
@@ -118,41 +118,41 @@ Para saber mais sobre as formas pelas quais os usuários do Teams e do Skype pod
 
 ## <a name="common-external-access-scenarios"></a>Casos comuns de acesso externo
 
-As seções a seguir descrevem como habilitar a Federação para cenários de acesso externo comuns e como o TeamsUpgradePolicy determina a entrega de chats e chamadas de entrada.
+As seções a seguir descrevem como habilitar a federação para cenários comuns de acesso externo e como o TeamsUpgradePolicy determina a entrega de chats e chamadas de entrada.
 
-### <a name="enable-federation"></a>Habilitar Federação
+### <a name="enable-federation"></a>Habilitar federação
 
-Para permitir que os usuários em sua organização se comuniquem com os usuários de outra organização, ambas as organizações devem habilitar a Federação. As etapas para habilitar a Federação para uma determinada organização dependem se a organização é puramente online, híbrida ou exclusivamente local.
+Para permitir que os usuários em sua organização se comuniquem com usuários em outra organização, ambas as organizações devem habilitar a federação. As etapas para habilitar a federação para uma determinada organização dependem se a organização está puramente online, híbrida ou puramente local.
 
-|**Se a sua organização estiver** |**Habilitar a Federação da seguinte maneira**  |
+|**Se sua organização estiver** |**Habilitar a federação da seguinte forma**  |
 |:---------|:-----------------------|
-|Online sem o Skype for Business no local. Isso inclui organizações que têm usuários do TeamsOnly e/ou usuários do Skype for Business online.| Se estiver usando o centro de administração do teams: <br>-Certifique-se de que os **usuários possam se comunicar com outras configurações do Skype for Business e dos usuários do teams** estão habilitados no acesso externo.<br>-Se você não estiver usando a Federação aberta (que permite Federação com qualquer outro domínio), adicione o domínio externo à lista de permissões.<br><br>Se estiver usando o PowerShell:<br>-Verifique se o locatário está habilitado para Federação: `Get-CsTenantFederationConfiguration` deve ser mostrado `AllowFederatedUsers=true` . <br>-Garanta o valor efetivo do usuário de `CsExternalAccessPolicy` `EnableFederationAccess=true` .<br>-Se você não estiver usando a Federação aberta, verifique se o domínio de destino está listado em `AllowedDomains` de `CsTenantFederationConfiguration` . |
-|Puro local | Em ferramentas locais: <br>-Verifique se a Federação está habilitada `CsAccessEdgeConfiguration` .<br>-Verifique se a Federação do usuário está habilitada por meio `ExternalAccessPolicy` de uma política global, política de site ou política atribuída pelo usuário. <br> -Se você não estiver usando a Federação aberta, verifique se o domínio de destino está listado em `AllowedDomains` . |
-|Híbrido com alguns usuários online (no Skype for Business ou Teams) e alguns usuários locais. | Siga as etapas acima para organizações online e local. |
+|Online sem o Skype for Business local. Isso inclui organizações que têm usuários do TeamsOnly e/ou usuários do Skype for Business Online.| Se estiver usando o Centro de Administração do Teams: <br>- Certifique-se de que **os Usuários possam se comunicar com outras configurações de** usuários do Skype for Business e do Teams estão habilitados no Acesso Externo.<br>- Se você não estiver usando a federação aberta (que permite a federação com qualquer outro domínio), adicione o domínio externo à lista Permitido.<br><br>Se estiver usando o PowerShell:<br>- Verifique se o locatário está habilitado para federação: `Get-CsTenantFederationConfiguration` deve `AllowFederatedUsers=true` mostrar. <br>- Verifique se o valor efetivo do `CsExternalAccessPolicy` usuário `EnableFederationAccess=true` tem.<br>- Se você não estiver usando a federação aberta, verifique se o domínio de destino está listado `AllowedDomains` em `CsTenantFederationConfiguration` . |
+|Local puro | Em ferramentas locais: <br>- Certifique-se de que a federação está habilitada em `CsAccessEdgeConfiguration` .<br>- Garanta que a federação do usuário seja habilitada por meio da política global, da política de site ou `ExternalAccessPolicy` da política atribuída pelo usuário. <br> - Se você não estiver usando a federação aberta, verifique se o domínio de destino está listado em `AllowedDomains` . |
+|Híbrido com alguns usuários online (no Skype for Business ou no Teams) e alguns usuários locais. | Siga as etapas acima para organizações online e locais. |
 
-### <a name="delivery-of-incoming-chats-and-calls"></a>Entrega de chats e chamadas de entrada 
+### <a name="delivery-of-incoming-chats-and-calls"></a>Entrega de chamadas e chats de entrada 
 
-Chats recebidos e chamadas de uma organização de Federação vão parar nas equipes do usuário ou no cliente do Skype for Business, dependendo do modo do usuário do destinatário no TeamsUpgradePolicy.
+As chamadas e chats de entrada de uma organização de federação serão recebidas no teams do usuário ou no cliente Skype for Business, dependendo do modo do usuário destinatário no TeamsUpgradePolicy.
 
-|**Se você quiser** |**Faça o seguinte:**  |
+|**Se você quiser** |**Faça o mesmo:**  |
 |:---------|:-----------------------|
-| Assegure-se de que as chamadas e chats federados recebidos chegam no cliente de equipes do usuário: | Configurar os usuários para serem TeamsOnly.
-| Garantir que chats federados recebidos e chamadas cheguem ao cliente Skype for Business do usuário | Configure os usuários para que estejam em qualquer modo além de TeamsOnly. |
+| Certifique-se de que as chamadas e chats federados de entrada cheguem no cliente do Teams do usuário: | Configure seus usuários como TeamsOnly.
+| Garantir a entrada de chats e chamadas federadas no cliente Skype for Business do usuário | Configure seus usuários para estar em qualquer modo diferente do TeamsOnly. |
 
 
-### <a name="enable-federation-between-users-in-your-organization-and-consumer-users-of-skype"></a>Habilite a Federação entre usuários na sua organização e usuários de consumidores do Skype
+### <a name="enable-federation-between-users-in-your-organization-and-consumer-users-of-skype"></a>Habilitar a federação entre usuários em sua organização e usuários de consumidor do Skype
 
-Para habilitar a Federação entre os usuários da sua organização e usuários de consumidor do Skype:
+Para habilitar a federação entre os usuários em sua organização e os usuários de consumidor do Skype:
 
-|**Se a sua organização estiver** |**Habilitar a Federação do consumidor da seguinte maneira**  |
+|**Se sua organização estiver** |**Habilitar a federação do consumidor da seguinte forma**  |
 |:---------|:-----------------------|
-| On-line puro, sem o Skype for Business no local.  Isso inclui organizações que têm usuários do TeamsOnly e/ou usuários do Skype for Business online. | Se estiver usando o centro de administração do teams: <br>-Certifique-se de que **os usuários possam se comunicar com os usuários do Skype** estão habilitados no acesso externo.<br><br>Se estiver usando o PowerShell: <br>-Verifique se o locatário está habilitado para Federação: `Get-CsTenantFederationConfiguration` deve ser mostrado `AllowPublicUsers=true` . <br> -Garanta o valor efetivo do usuário de `CsExternalAccessPolicy` `EnablePublicCloudAccess=true` . |
-| Puro local | Em ferramentas locais: <br> -Assegure-se de que o Skype esteja habilitado como parceiro federado. <br> -Assegure-se `EnablePublicCloudAccess=true` de que o usuário use `ExternalAccessPolicy` (por meio de uma política global, política de site ou diretiva atribuída ao usuário).|
-| Híbrido com alguns usuários online (no Skype for Business ou Teams) e alguns usuários locais.| Siga as etapas acima para organizações online e local.
+| Online puro sem o Skype for Business local.  Isso inclui organizações que têm usuários do TeamsOnly e/ou usuários do Skype for Business Online. | Se estiver usando o Centro de Administração do Teams: <br>-Certifique-se **de que os usuários podem se comunicar com usuários do Skype** estão habilitados no Acesso Externo.<br><br>Se estiver usando o PowerShell: <br>-Verifique se o locatário está habilitado para federação: `Get-CsTenantFederationConfiguration` deve `AllowPublicUsers=true` mostrar. <br> - Verifique se o valor efetivo do `CsExternalAccessPolicy` usuário `EnablePublicCloudAccess=true` tem. |
+| Local puro | Em ferramentas locais: <br> - Verifique se o Skype está habilitado como um parceiro federado. <br> - Garantir `EnablePublicCloudAccess=true` que o usuário por meio de política global, política de site ou política atribuída pelo `ExternalAccessPolicy` usuário.|
+| Híbrido com alguns usuários online (no Skype for Business ou no Teams) e alguns usuários locais.| Siga as etapas acima para organizações online e locais.
 
 
 > [!IMPORTANT]
-> Não é necessário adicionar nenhum **domínio do Skype** como domínio permitido para permitir que os usuários do Teams ou do Skype for Business Online se comuniquem com usuários do Skype de dentro ou de fora da sua organização. Todos os **domínios do Skype** são permitidos.
+> Não é necessário adicionar nenhum **domínio do Skype** como domínio permitido para permitir que os usuários do Teams ou do Skype for Business Online se comuniquem com usuários do Skype de dentro ou de fora da sua organização. Todos **os domínios do Skype** são permitidos.
 
 ## <a name="how-does-external-access-compare-with-guest-access"></a>Como o acesso externo se compara ao acesso para convidado?
 

@@ -28,7 +28,7 @@ Para usar um atendente automático do Sistema de Telefonia ou uma fila de chamad
 
 Se você tiver um servidor automático de UM do Exchange e um sistema de fila de chamada, antes de mudar para o Exchange Server 2019 ou Exchange Online, será necessário registrar manualmente os detalhes conforme descrito abaixo e implementar um sistema completamente novo usando o centro de administração do Teams.
 
-## <a name="overview"></a>Visão Geral
+## <a name="overview"></a>Visão geral
 
 Se o seu atendente automático ou fila de chamadas do Sistema de Telefonia precisar de um número de serviço, as várias dependências poderão ser atendidas na seguinte sequência:
 

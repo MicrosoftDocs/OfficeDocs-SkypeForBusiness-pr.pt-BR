@@ -63,7 +63,7 @@ O Microsoft Teams permite que os organizadores criem um evento com as permissõe
 ![a Nova tela de eventos ao vivo](../media/teams-live-events-schedule.png "Captura de tela mostrando a tela do Novo evento ao vivo para criar e agendar um novo evento ao vivo")
 
 > [!IMPORTANT]
-> O Teams não permitirá que os usuários agendem reuniões ou eventos dinâmicos quando estiverem offline ou em execução com largura de banda limitada.
+> O Teams não permite que os usuários agendem reuniões ou eventos ao vivo quando estiverem offline ou executando com largura de banda limitada.
 
 ### <a name="production"></a>Produção
 

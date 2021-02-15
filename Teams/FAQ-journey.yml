@@ -30,13 +30,13 @@ metadata:
 title: Perguntas frequentes ‒ atualização do Skype for Business para o Microsoft Teams
 summary: ''
 sections:
-- name: Aceita
+- name: Ignorado
   questions:
   - question: Há um prazo rígido segundo o qual os clientes precisam passar do Skype for Business Online para o Teams?
     answer: >
       Sim. [O Skype for Business Online será desativado](skype-for-business-online-retirement.md) em 31 de julho de 2021 e, em seguida, não estará mais acessível ou com suporte. Incentivamos os clientes do Skype for Business Online a começar a usar o Teams e que iniciem agora o planejamento das atualizações para terem tempo suficiente para concluir a atualização antes da data de desativação.
-  - question: A transmissão de reunião do Skype será desativada ao mesmo tempo que o Skype for Business Online?
-    answer: "Sim. Eventos ao vivo do teams é a solução sucessora para a transmissão de reunião do Skype.    \n"
+  - question: A Transmissão de Reunião do Skype será desaposente ao mesmo tempo que o Skype for Business online?
+    answer: "Sim. O Teams Live Events é a solução sucessora da Transmissão de Reunião do Skype.    \n"
   - question: Quanto tempo levará a atualização de minha organização para o Microsoft Teams?
     answer: >
       A jornada de sua organização do Skype for Business para o Teams pode ser definida por você. Para ajudar no planejamento e na execução, desenvolvemos diretrizes abrangentes de atualização com base em uma estrutura comprovada e projetada para ajudá-lo a navegar pelos elementos técnicos e organizacionais de alteração. Comece sua jornada familiarizando-se com nossa [estrutura de sucesso de atualização](upgrade-framework.md) e recursos associados que servem como a base para navegar em sua jornada do Skype for Business para o Teams.
@@ -121,4 +121,4 @@ sections:
     answer: >
       Os [dispositivos de salas de reunião](https://products.office.com/microsoft-teams/across-devices) são fundamentais para nossa visão de local de trabalho moderno. Os [serviços de interoperabilidade de vídeo na nuvem](https://docs.microsoft.com/microsoftteams/cloud-video-interop) para dar suporte às reuniões do Microsoft Teams com os sistemas VTC existentes estão disponíveis por meio de nossos parceiros Pexip, Polycom e Blue Jeans.
   - question: A última geração dos Sistemas de Salas Skype v2 dará suporte a reuniões no Microsoft Teams?
-    answer: Remarcamos os sistemas de salas da Skype para salas do Microsoft Teams que dão suporte total às reuniões do Microsoft Teams e oferece um caminho de migração fácil do Skype for Business para o Teams, bastando habilitar o Microsoft Teams no dispositivo. Além da capacidade de os usuários identificarem salas próximas do Microsoft Teams com a detecção de proximidade, as reuniões de equipes podem ser unidas com um único clique, compatível com tela dupla, Microsoft whiteboard e continuamos a trazer recursos inovadores como uma câmera de conteúdo com captura inteligente.
+    answer: Renomearmos o Skype Room Systems para Salas do Microsoft Teams, que dá suporte total a reuniões do Microsoft Teams e oferece um caminho de migração fácil do Skype for Business para o Teams apenas habilitando o Teams no dispositivo. Além da capacidade dos usuários identificarem salas próximas do Microsoft Teams com detecção de proximidade, as reuniões do Teams podem ser unidas com um único clique e suporte de duas telas, o Microsoft Whiteboard e continuamos a trazer recursos inovadores, como uma câmera de conteúdo com captura inteligente.

@@ -7,7 +7,7 @@ ms.topic: reference
 audience: admin
 ms.service: msteams
 ms.reviewer: vikramju
-description: Neste artigo, você aprenderá a exportar conteúdo de equipes usando as APIs de exportação do Microsoft Teams.
+description: Neste artigo, você aprenderá sobre como exportar conteúdo do Teams usando as APIs de exportação do Microsoft Teams.
 localization_priority: Normal
 f1.keywords:
 - CSH
@@ -27,27 +27,27 @@ ms.locfileid: "50096924"
 ---
 # <a name="export-content-with-the-microsoft-teams-export-apis"></a>Exportar conteúdo com as APIs de exportação do Microsoft Teams
 
-As APIs de exportação do teams permitem que você exporte o 1:1, o chat em grupo e mensagens de canal do Microsoft Teams. Se a sua organização precisar exportar mensagens do Microsoft Teams, você poderá extraí-las usando as APIs de exportação do teams. *Mensagem de chat* representa uma mensagem de chat individual em um [canal](https://docs.microsoft.com/graph/api/resources/channel?view=graph-rest-beta) ou [chat](https://docs.microsoft.com/graph/api/resources/chat?view=graph-rest-beta). A mensagem de chat pode ser uma mensagem de chat raiz ou parte de um thread de resposta que é definido pela propriedade **replyToId** na mensagem de chat.
+As APIs de exportação do Teams permitem exportar mensagens 1:1, chat em grupo e canal do Microsoft Teams. Se sua organização precisar exportar mensagens do Microsoft Teams, você poderá extraí-las usando APIs de exportação do Teams. *A Mensagem de* Chat representa uma mensagem de chat individual dentro [de um canal](https://docs.microsoft.com/graph/api/resources/channel?view=graph-rest-beta) ou [chat.](https://docs.microsoft.com/graph/api/resources/chat?view=graph-rest-beta) A mensagem de chat pode ser uma mensagem de chat raiz ou parte de um thread de resposta definido pela propriedade **replyToId** na mensagem de chat.
 
-Veja a seguir alguns exemplos de como você pode usar essas APIs de exportação:
+Aqui estão alguns exemplos sobre como você pode usar essas APIs de exportação:
 
-- **Exemplo 1**: se você tiver habilitado o Microsoft Teams em sua organização e quiser exportar todas as mensagens do Microsoft Teams para a data de forma programática passando o intervalo de datas para um determinado usuário ou equipe.
-- **Exemplo 2**: se você quiser exportar de forma programática todas as mensagens de usuário ou de equipe diariamente fornecendo um intervalo de datas. APIs de exportação podem recuperar todas as mensagens criadas ou atualizadas durante um determinado intervalo de datas.
+- **Exemplo 1:** se você tiver habilitado o Microsoft Teams em sua organização e quiser exportar todas as mensagens do Microsoft Teams para datar programaticamente passando o intervalo de datas para um determinado usuário ou equipe.
+- **Exemplo 2:** se você quiser exportar programaticamente todas as mensagens de usuário ou equipe diariamente fornecendo um intervalo de datas. Exportar APIs pode recuperar todas as mensagens criadas ou atualizadas durante o intervalo de datas determinado.
 
-## <a name="what-is-supported-by-the-teams-export-apis"></a>O que é compatível com as APIs de exportação do teams?
+## <a name="what-is-supported-by-the-teams-export-apis"></a>O que é suportado pelas APIs de exportação do Teams?
 
-- **Mensagem de exportação em massa da mensagem do teams:** As APIs de exportação do Team dão suporte a até 200 RPS por aplicativo por locatário e 600 RPS para um aplicativo, com esses limites, você deve ser capaz de exportar mensagens de equipe em massa.
-- **Contexto do aplicativo**: para chamar o Microsoft Graph, seu aplicativo deve adquirir um token de acesso da plataforma de identidade da Microsoft. O token de acesso contém informações sobre seu aplicativo e as permissões que ele tem para os recursos e APIs disponíveis por meio do Microsoft Graph. Para obter um token de acesso, seu aplicativo deve ser registrado com a plataforma de identidade da Microsoft e ser autorizado por um usuário ou administrador para ter acesso aos recursos do Microsoft Graph necessários.
+- **Exportação em massa da mensagem do Teams:** O Teams Export APIs oferece suporte a até 200 HACKS por locatário por aplicativo e 600 HACKS para um Aplicativo, com esses limites, você deve ser capaz de exportar mensagens do Teams em massa.
+- **Contexto do** aplicativo: para ligar para o Microsoft Graph, seu aplicativo deve adquirir um token de acesso da plataforma de identidade da Microsoft. O token de acesso contém informações sobre seu aplicativo e as permissões que ele tem para os recursos e APIs disponíveis por meio do Microsoft Graph. Para obter um token de acesso, seu aplicativo deve ser registrado na plataforma de identidade da Microsoft e ser autorizado por um usuário ou um administrador para ter acesso aos recursos necessários do Microsoft Graph.
 
-    Se você já estiver familiarizado com a integração de um aplicativo com a plataforma de identidade da Microsoft para obter tokens, consulte a seção [próximas etapas](https://docs.microsoft.com/graph/auth/auth-concepts?view=graph-rest-1.0#next-steps) para obter informações e exemplos específicos do Microsoft Graph.
-- **Ambiente híbrido:** As APIs de exportação dão suporte a mensagens enviadas por usuários provisionados em um ambiente híbrido (Exchange e Teams locais). Todas as mensagens enviadas por usuários configurados para ambiente híbrido poderão ser acessadas usando APIs de exportação.
-- **Mensagens excluídas pelo usuário:** As mensagens que são excluídas pelo usuário do teams Client podem ser acessadas usando APIs de exportação de até 30 dias a partir do momento da exclusão.
-- **Anexos da mensagem:** As APIs de exportação incluem os links para os anexos que são enviados como parte das mensagens. Usando as APIs de exportação, você pode recuperar os arquivos anexados nas mensagens.
-- **Propriedades da mensagem de chat:** Consulte a lista completa de propriedades com suporte para APIs de exportação de equipes [aqui](https://docs.microsoft.com/graph/api/resources/chatmessage?view=graph-rest-beta#properties).
+    Se você já estiver familiarizado com a integração de um aplicativo [](https://docs.microsoft.com/graph/auth/auth-concepts?view=graph-rest-1.0#next-steps) com a plataforma de identidade da Microsoft para obter tokens, confira a seção Próximas Etapas para obter informações e exemplos específicos do Microsoft Graph.
+- **Ambiente híbrido:** Exportar apIs suportam mensagens enviadas por usuários provisionados em Ambiente Híbrido (Exchange e Teams locais). Todas as mensagens que são enviadas por usuários configurados para ambiente híbrido estarão acessíveis usando as APIs de exportação.
+- **Mensagens excluídas pelo usuário:** As mensagens excluídas pelo usuário do cliente teams podem ser acessadas usando APIs de exportação até 30 dias a partir do momento da exclusão.
+- **Anexos de Mensagens:** As APIs de exportação incluem os links para os anexos que são enviados como parte das mensagens. Usando Exportar APIs, você pode recuperar os arquivos anexados nas mensagens.
+- **Propriedades da mensagem de chat:** Confira a lista completa de propriedades que as APIs de exportação do Teams têm [suporte aqui.](https://docs.microsoft.com/graph/api/resources/chatmessage?view=graph-rest-beta#properties)
 
-## <a name="how-to-access-teams-export-apis"></a>Como acessar as APIs de exportação do teams
+## <a name="how-to-access-teams-export-apis"></a>Como acessar APIs de exportação do Teams
 
-- O **exemplo 1** é uma consulta simples para recuperar todas as mensagens de um usuário ou equipe sem filtros:
+- **Exemplo 1** é uma consulta simples para recuperar todas as mensagens de um usuário ou equipe sem filtros:
 
     ```HTTP
     GET https://graph.microsoft.com/beta/users/{id}/chats/getallMessages
@@ -56,7 +56,7 @@ Veja a seguir alguns exemplos de como você pode usar essas APIs de exportação
     GET https://graph.microsoft.com/beta/teams/{id}/channels/getallMessages
     ```
 
-- O **exemplo 2** é uma consulta de exemplo para recuperar todas as mensagens de um usuário ou equipe especificando filtros de data/hora e as principais mensagens de 50:
+- **Exemplo 2** é uma consulta de exemplo para recuperar todas as mensagens de um usuário ou equipe, especificando filtros de data e 50 mensagens principais:
 
     ```HTTP
     GET https://graph.microsoft.com/beta/users/{id}/chats/getallMessages?$top=50&$filter=lastModifiedDateTime gt 2020-06-04T18:03:11.591Z and lastModifiedDateTime lt 2020-06-05T21:00:09.413Z
@@ -65,22 +65,22 @@ Veja a seguir alguns exemplos de como você pode usar essas APIs de exportação
     GET https://graph.microsoft.com/beta/teams/{id}/channels/getallMessages?$top=50&$filter=lastModifiedDateTime gt 2020-06-04T18:03:11.591Z and lastModifiedDateTime lt 2020-06-05T21:00:09.413Z
     ```
 >[!NOTE]
->A API retorna a resposta com o link próxima página em caso de vários resultados. Para obter o próximo conjunto de resultados, basta chamar obter a URL de @odata. Nextlink. Se @odata. Nextlink não estiver presente ou for NULL, todas as mensagens serão recuperadas.
+>A API retorna a resposta com o próximo link de página em caso de vários resultados. Para obter o próximo conjunto de resultados, basta ligar para OBTER na URL @odata.nextlink. Se @odata.nextlink não estiver presente ou nulo, todas as mensagens serão recuperadas.
 
-## <a name="prerequisites-to-access-teams-export-apis"></a>Pré-requisitos para acessar as APIs de exportação do teams 
+## <a name="prerequisites-to-access-teams-export-apis"></a>Pré-requisitos para acessar APIs de exportação do Teams 
 
-- As APIs de exportação do teams estão atualmente em visualização. Ele só estará disponível para usuários e locatários que tenham as [licenças necessárias](https://aka.ms/teams-changenotification-licenses) para APIs. No futuro, a Microsoft pode exigir que você ou seus clientes paguem taxas adicionais com base na quantidade de dados acessados por meio da API.
-- As APIs do Microsoft Teams no Microsoft Graph que acessam dados confidenciais são consideradas APIs protegidas. As APIs de exportação exigem validação adicional, além de permissões e consentimento, para que você possa usá-las. Para solicitar acesso a essas APIs protegidas, preencha o [formulário de solicitação](https://aka.ms/teamsgraph/requestaccess).
-- As permissões de aplicativo são usadas por aplicativos que são executados sem um usuário conectado presente; as permissões do aplicativo só podem ser consentidas por um administrador. As seguintes permissões são necessárias:
+- As APIs de exportação do Teams estão atualmente em visualização. Ele estará disponível somente para usuários e locatários que tenham as [licenças necessárias](https://aka.ms/teams-changenotification-licenses) para APIs. No futuro, a Microsoft pode exigir que você ou seus clientes paguem taxas adicionais com base na quantidade de dados acessados por meio da API.
+- APIs do Microsoft Teams no Microsoft Graph que acessam dados confidenciais são consideradas APIs protegidas. Exportar APIs exigem que você tenha validação adicional, além de permissões e consentimento, antes de poder usá-las. Para solicitar acesso a essas APIs protegidas, preencha o formulário [de solicitação.](https://aka.ms/teamsgraph/requestaccess)
+- As permissões de aplicativo são usadas por aplicativos que são executados sem a presença de um usuário de acesso; permissões de aplicativo só podem ser consentida por um administrador. As seguintes permissões são necessárias:
 
-    - *Chat. Read. All*: permite o acesso a todas as 1:1 e mensagens de chat em grupo 
-    - *User. Read. All*: permite o acesso à lista de usuários para um locatário 
+    - *Chat.Read.All:* habilita o acesso a todas as mensagens de chat em grupo e 1:1 
+    - *User.Read.All:* habilita o acesso à lista de usuários de um locatário 
 
 ## <a name="json-representation"></a>Representação JSON
 
 O exemplo a seguir é uma representação JSON do recurso:
 
-Namespace: Microsoft. Graph
+Namespace: microsoft.graph
 
 ```JSON
 {
@@ -113,4 +113,4 @@ Namespace: Microsoft. Graph
 ```
 
 >[!NOTE]
->Para obter mais detalhes sobre o recurso chatMessage, consulte o artigo [tipo de recurso chatMessage](https://docs.microsoft.com/graph/api/resources/chatmessage) .
+>Para obter mais detalhes sobre o recurso chatMessage, consulte o artigo do tipo de recurso [chatMessage.](https://docs.microsoft.com/graph/api/resources/chatmessage)

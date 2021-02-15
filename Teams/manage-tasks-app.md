@@ -1,5 +1,5 @@
 ---
-title: Gerenciar o aplicativo tarefas para sua organização no Microsoft Teams
+title: Gerenciar o aplicativo Tasks para sua organização no Microsoft Teams
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -11,7 +11,7 @@ searchScope:
 - Microsoft Teams
 - Microsoft Cloud for Healthcare
 audience: admin
-description: Saiba como gerenciar o aplicativo tarefas para usuários em sua organização.
+description: Aprenda a gerenciar o aplicativo Tasks para usuários em sua organização.
 localization_priority: Normal
 MS.collection:
 - Teams_ITAdmin_Help
@@ -21,107 +21,107 @@ appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 2cc477b9589aeebb8dcd486e7f85ca04daf6ff4d
 ms.sourcegitcommit: fdef9b52247097e5cae64f01b6b2b710c5b203cf
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 01/20/2021
 ms.locfileid: "49909395"
 ---
-# <a name="manage-the-tasks-app-for-your-organization-in-microsoft-teams"></a>Gerenciar o aplicativo tarefas para sua organização no Microsoft Teams
+# <a name="manage-the-tasks-app-for-your-organization-in-microsoft-teams"></a>Gerenciar o aplicativo Tasks para sua organização no Microsoft Teams
 
-## <a name="overview-of-tasks"></a>Visão geral das tarefas
+## <a name="overview-of-tasks"></a>Visão geral do Tasks
 
-O aplicativo tarefas traz uma experiência coesa de gerenciamento de tarefas para o Microsoft Teams, integrando tarefas individuais da [Microsoft a fazer](https://todo.microsoft.com/tasks/) e tarefas da equipe com o Planner em um só lugar. Os usuários podem acessar as tarefas como um aplicativo no lado esquerdo do Teams e como uma guia em um canal dentro de equipes individuais. **Minhas tarefas** e **planos compartilhados** em tarefas permitem aos usuários exibir e gerenciar todas as tarefas individuais e da equipe e priorizar o trabalho delas. Tarefas está disponível em Teams desktop, Web e clientes móveis. 
+O aplicativo Tasks oferece uma experiência de gerenciamento de tarefas coesa para o Microsoft Teams, integrando tarefas individuais desenvolvidas pelo [Microsoft To Do](https://todo.microsoft.com/tasks/) e tarefas da equipe desenvolvidas pelo Planner em um só lugar. Os usuários podem acessar o Tarefas como um aplicativo no lado esquerdo do Teams e como uma guia em um canal dentro de equipes individuais. **Minhas Tarefas** e **Planos compartilhados** em Tasks permitem que os usuários exibam e gerenciem todas as suas tarefas individuais e de equipe e priorizem seu trabalho. O Tasks está disponível em clientes de área de trabalho, web e dispositivos móveis do Teams. 
 
 > [!NOTE]
-> Ao implantar a experiência de tarefas em clientes da área de trabalho do Teams, o nome do aplicativo aparecerá inicialmente como **planejador** para os usuários. O nome então mudará temporariamente para **tarefas pelo Planner e para fazer** e, posteriormente, será renomeado para **tarefas**. Em clientes móveis do Teams, os usuários sempre verão o nome do aplicativo como **tarefas**. Pode haver um pequeno atraso na disponibilidade da experiência móvel depois que a experiência da área de trabalho estiver disponível.
+> À medida que implementamos a experiência de tarefas nos clientes de área de trabalho do Teams, o nome do aplicativo aparecerá inicialmente como **Planejador** para os usuários. O nome será alterado temporariamente para **Tasks pelo Planner e To Do** e, posteriormente, será renomeado para **Tasks**. Em clientes móveis do Teams, os usuários sempre verão o nome do aplicativo como **Tasks**. Pode haver um pequeno atraso na disponibilidade da experiência móvel depois que a experiência na área de trabalho estiver disponível.
 
-   ![Captura de tela do modo de exibição de lista de tarefas na lista de equipes](media/manage-tasks-app-tasks.png)
+   ![Captura de tela da exibição de lista de tarefas na Lista de equipes](media/manage-tasks-app-tasks.png)
 
-Para as organizações que desejam simplificar o gerenciamento de tarefas para trabalhadores do Frontline, as tarefas também incluem recursos que permitem direcionar, publicar e acompanhar tarefas em escala em toda a sua força de trabalho do Frontline. Por exemplo, a liderança corporativa e regional pode criar e publicar listas de tarefas direcionadas para locais relevantes, como lojas de varejo específicas e controlar o progresso por meio de relatórios em tempo real. Os gerentes podem atribuir tarefas a seus funcionários e atividades direcionadas em seus locais, e os funcionários do Frontline têm uma lista priorizada de suas tarefas atribuídas no celular ou na área de trabalho. Para habilitar a [publicação de tarefas](#task-publishing), primeiro você precisará configurar uma hierarquia de direcionamento de equipe para sua organização, que define como todas as equipes da hierarquia estão relacionadas umas às outras.
+Para organizações que desejam otimizar o gerenciamento de tarefas para os Trabalhadores da Linha de Frente, o Tasks também inclui recursos que permitem direcionar, publicar e rastrear tarefas em escala em toda a Força de Trabalho da Linha de Frente. Por exemplo, a liderança corporativa e regional pode criar e publicar listas de tarefas direcionadas a locais relevantes, como lojas de varejo específicas, e monitorar o progresso por meio de relatórios em tempo real. Os gerentes podem atribuir tarefas a seus funcionários e atividades diretas em seus locais, e os Trabalhadores de Linha de Frente têm uma lista priorizada de suas tarefas atribuídas no dispositivo móvel ou área de trabalho. Para habilitar a [publicação de tarefas](#task-publishing), você primeiro precisa configurar uma hierarquia de segmentação de equipe para sua organização, que define como todas as equipes na hierarquia estão relacionadas entre si.
 
-## <a name="what-you-need-to-know-about-tasks"></a>O que você precisa saber sobre tarefas
+## <a name="what-you-need-to-know-about-tasks"></a>O que você precisa saber sobre o Tasks
 
-Tarefas está disponível como um aplicativo e uma guia em um canal. Lembre-se de que o aplicativo inclui tarefas individuais de tarefas pendentes e tarefas da equipe no Planner, enquanto a guia mostra somente tarefas da equipe.
+O Tasks está disponível como um aplicativo e como uma guia em um canal. Lembre-se de que o aplicativo compreende tarefas individuais de Tarefas pendentes e tarefas de equipe do Planner, enquanto a guia mostra apenas tarefas de equipe.
 
-Com as tarefas, os usuários obtêm uma experiência na área de trabalho, Web e celular. Se as tarefas estiverem instaladas no cliente da área de trabalho do Teams, os usuários também o verão em seus clientes Web e móveis do Microsoft Teams. A exceção são usuários convidados. É importante saber que os convidados só podem acessar as tarefas como um aplicativo no cliente móvel do teams. Os convidados verão as guias de tarefas nos clientes da área de trabalho da equipe e na Web.
+Com o Tasks, os usuários obtêm uma experiência de desktop, web e celular. Se o Tasks estiver instalado no cliente de área de trabalho do Teams, os usuários também o verão em seus clientes da Web e móveis do Teams. A exceção são os usuários convidados. É importante saber que os convidados só podem acessar o Tasks como um aplicativo do cliente móvel do Teams. Os convidados verão as guias do Tasks na área de trabalho do Teams e nos clientes da web.
 
-**Minhas tarefas** mostra as tarefas individuais de um usuário. Os **planos compartilhados** mostram as tarefas em que a equipe inteira está trabalhando e inclui qualquer lista de tarefas adicionada como uma guia tarefas a um canal. Observe o seguinte:
+**Minhas tarefas** mostra as tarefas individuais de um usuário. **Planos compartilhados** mostram tarefas nas quais toda a equipe está trabalhando e inclui qualquer lista de tarefas adicionada como uma guia do Tasks a um canal. Observe o seguinte:
 
-- Listas de tarefas que um usuário cria no aplicativo tarefas também aparecerá em clientes para fazer isso para o usuário. Da mesma forma, as listas de tarefas que um usuário cria em tarefas pendentes serão exibidas em **minhas tarefas** em tarefas desse usuário. O mesmo se aplica às tarefas individuais.
+- As listas de tarefas que um usuário cria no aplicativo Tarefas também aparecerão nos clientes Tarefas desse usuário. Da mesma forma, as listas de tarefas que um usuário cria no To Do aparecerão em **Minhas tarefas** no Tasks para esse usuário. O mesmo se aplica a tarefas individuais.
 
-- Qualquer guia tarefas que é adicionada a um canal também será exibida em clientes do Planner. Quando um usuário cria um plano no Planner, o plano não é mostrado no aplicativo tarefas ou Planner, a menos que seja adicionado como uma guia a um canal. Quando um usuário adiciona uma nova guia tarefas, ele pode criar uma nova lista ou plano ou escolher uma existente.
+- Qualquer guia do Tasks adicionada a um canal também aparecerá nos clientes do Planner. Quando um usuário cria um plano no Planner, o plano não é mostrado no aplicativo Tarefas ou Planner, a menos que seja adicionado como uma guia a um canal. Quando um usuário adiciona uma nova guia do Tasks, ele pode criar uma nova lista ou plano ou escolher um existente.
 
-## <a name="set-up-tasks"></a>Configurar tarefas
+## <a name="set-up-tasks"></a>Configurar Tasks
 
 > [!IMPORTANT]
-> As configurações e políticas que você configurou para o Planner também serão aplicadas às tarefas.
+> As configurações e políticas que você configurou para o Planner também se aplicam ao Tasks.
 
-### <a name="enable-or-disable-tasks-in-your-organization"></a>Habilitar ou desabilitar tarefas em sua organização
+### <a name="enable-or-disable-tasks-in-your-organization"></a>Habilitar ou desabilitar o Tasks em sua organização
 
-Tarefas é habilitada por padrão para todos os usuários do teams em sua organização. Você pode desativar ou ativar o aplicativo no nível da organização na página [gerenciar aplicativos](manage-apps.md) no centro de administração do Microsoft Teams.
+O Tasks é habilitado por padrão para todos os usuários do Teams em sua organização. Você pode desabilitar ou ligar o aplicativo no nível da organização na página [Gerenciar aplicativos](manage-apps.md) no centro de administração do Microsoft Teams.
 
-1. Na navegação à esquerda do centro de administração do Microsoft Teams, vá até **Team apps**  >  **gerenciar aplicativos** .
+1. No painel de navegação esquerdo do centro de administração do Microsoft Teams, vá para **Aplicativos do Teams** > **Gerenciar aplicativos**.
 2. Na lista de aplicativos, siga um destes procedimentos:
 
-    - Para desativar as tarefas da sua organização, procure o aplicativo tarefas, selecione-a e clique em **Bloquear**.
-    - Para ativar as tarefas da sua organização, procure o aplicativo tarefas, selecione-a e clique em **permitir**.
+    - Para desabilitar o Tasks para sua organização, pesquise o aplicativo Tasks, selecione-o e clique em **Bloquear**.
+    - Para habilitar o Tasks para a sua organização, pesquise o aplicativo Tasks, selecione-o e clique em **Permitir**.
 
 > [!NOTE]
-> Se você não conseguir encontrar o aplicativo tarefas, procure os nomes na primeira anotação deste artigo. O aplicativo ainda pode estar em processo de ser renomeado.
+> Se você não conseguir localizar o aplicativo Tasks, procure os nomes na primeira nota deste artigo. O aplicativo ainda pode estar sendo renomeado.
 
-### <a name="enable-or-disable-tasks-for-specific-users-in-your-organization"></a>Habilitar ou desabilitar tarefas para usuários específicos em sua organização
+### <a name="enable-or-disable-tasks-for-specific-users-in-your-organization"></a>Habilite ou desabilite o Tasks para usuários específicos em sua organização
 
-Para permitir ou bloquear usuários específicos em sua organização usando tarefas, verifique se a opção tarefas está ativada para sua organização na página [gerenciar aplicativos](manage-apps.md) e crie uma política de permissão de aplicativo personalizada e atribua-a a esses usuários. Para saber mais, consulte [gerenciar políticas de permissão do aplicativo no Microsoft Teams](teams-app-permission-policies.md).
+Para permitir ou impedir que usuários específicos em sua organização usem o Tasks, certifique-se de que o Tasks esteja ativado para sua organização na página [Gerenciar aplicativos](manage-apps.md) e, em seguida, crie uma política de permissão de aplicativo personalizada e atribua-a esses usuários. Para saber mais, confira [Gerenciar políticas de permissão de aplicativo no Teams](teams-app-permission-policies.md).
 
-### <a name="use-an-app-setup-policy-to-pin-tasks-to-teams"></a>Usar uma política de configuração do aplicativo para fixar tarefas em equipes
+### <a name="use-an-app-setup-policy-to-pin-tasks-to-teams"></a>Use uma política de configuração de aplicativo para fixar o Tasks ao Teams
 
-As políticas de configuração do aplicativo permitem que você personalize o Microsoft Teams para realçar os aplicativos que são mais importantes para os usuários da sua organização. Os aplicativos que você define em uma política são fixados na barra do aplicativo &mdash; na barra do cliente da área de trabalho do Teams e na parte inferior dos clientes móveis do Teams, &mdash; onde os usuários podem acessá-los de forma rápida e fácil.
+As políticas de configuração de aplicativos permitem que você personalize o Teams para destacar os aplicativos que são mais importantes para os usuários em sua organização. Os aplicativos definidos em uma política são fixados na barra de aplicativos &mdash; na lateral do cliente de área de trabalho do Teams e na parte inferior dos clientes móveis do Teams &mdash;, onde os usuários podem acessá-los de forma rápida e fácil.
 
-Para fixar o aplicativo tarefas para seus usuários, você pode editar a política global (padrão para toda a organização) ou criar e atribuir uma política de configuração de aplicativo personalizada. Para saber mais, consulte [gerenciar políticas de configuração de aplicativos no Microsoft Teams](teams-app-setup-policies.md).
+Para fixar o aplicativo Tasks para seus usuários, você pode editar a política global (Padrão em toda a organização) ou criar e atribuir uma política de configuração de aplicativo personalizada. Para saber mais, confira [Gerenciar políticas de configuração de aplicativos no Teams](teams-app-setup-policies.md).
 
-### <a name="a-users-my-tasks-is-visible-if-the-user-is-licensed-for-exchange-online"></a>As minhas tarefas de um usuário ficam visíveis se o usuário estiver licenciado para o Exchange Online
+### <a name="a-users-my-tasks-is-visible-if-the-user-is-licensed-for-exchange-online"></a>Minhas tarefas de um usuário são visíveis se o usuário for licenciado para Exchange Online
 
-Se não quiser que um usuário veja **minhas tarefas**, você pode ocultá-la. Para fazer isso, [remova a licença do Exchange Online do usuário](https://docs.microsoft.com/microsoft-365/admin/manage/remove-licenses-from-users). É importante saber que, após remover uma licença do Exchange Online, o usuário não tem mais acesso à sua caixa de correio.  Os dados de caixa de correio são mantidos por 30 dias, após o qual os dados serão removidos e não poderão ser recuperados, a menos que a caixa de correio seja colocada em [retenção in-loco ou em retenção de litígio](https://docs.microsoft.com/exchange/security-and-compliance/in-place-and-litigation-holds).
+Se não quiser que um usuário veja **Minhas tarefas**, você pode ocultá-lo. Para fazer isso, [remova a licença do Exchange Online do usuário](https://docs.microsoft.com/microsoft-365/admin/manage/remove-licenses-from-users). É importante saber que, depois de remover uma licença do Exchange Online, o usuário não tem mais acesso à caixa de correio.  Os dados da caixa de correio são retidos por 30 dias, após os quais os dados serão removidos e não podem ser recuperados, a menos que a caixa de correio seja colocada em [Bloqueio In-loco ou Retenção de Litígio ](https://docs.microsoft.com/exchange/security-and-compliance/in-place-and-litigation-holds).
 
-Não recomendamos isso para os operadores de informações, mas pode haver alguns cenários nos quais isso pode ser aplicado, como os funcionários do Frontline que não dependem do e-mail.
+Não recomendamos isso para profissionais da informação, mas pode haver alguns cenários em que isso se aplica, como para Trabalhadores da linha de Frente que não dependem de email.
 
 ## <a name="task-publishing"></a>Publicação de tarefas
 
-Com a publicação de tarefas, sua organização pode publicar listas de tarefas direcionadas para locais específicos (equipes) em sua organização para definir e compartilhar um plano de trabalho para ser concluído nesses locais.
+Com a publicação de tarefas, sua organização pode publicar listas de tarefas direcionadas a locais específicos (equipes) em sua organização para definir e compartilhar um plano de trabalho a ser concluído nesses locais.
 
-- As pessoas na equipe de publicação, como a liderança corporativa ou regional, podem criar listas de tarefas e publicá-las em equipes específicas.<br>
-    ![Captura de tela da publicação de tarefas](media/manage-tasks-app-publish.png)
-- Os gerentes nas equipes do destinatário podem revisar as listas de tarefas publicadas e atribuir tarefas individuais a membros da equipe.<br>
+- Pessoas na equipe de publicação, como lideranças corporativas ou regionais, podem criar listas de tarefas e publicá-las para equipes específicas.<br>
+    ![Captura de tela da publicação da tarefa](media/manage-tasks-app-publish.png)
+- Os gerentes nas equipes destinatárias podem analisar as listas de tarefas publicadas e atribuir tarefas individuais aos membros da equipe.<br>
     ![Captura de tela da atribuição de uma tarefa](media/manage-tasks-app-assign.png)
-- Os funcionários do Frontline têm uma experiência móvel simples para ver as tarefas atribuídas a eles. Eles podem anexar fotos para mostrar seu trabalho quando apropriado e marcar suas tarefas como concluídas.
-- Editores e gerentes podem exibir relatórios para ver o status de atribuição e conclusão de tarefas em cada nível, incluindo por local (equipe), lista de tarefas e tarefa individual.<br>
-    ![Captura de tela de tarefas atribuídas em dispositivos móveis](media/manage-tasks-app-reporting.png)
+- Os funcionários da linha de frente têm uma experiência móvel simples para ver as tarefas atribuídas a eles. Eles podem anexar fotos para mostrar seu trabalho quando apropriado e marcar suas tarefas como concluídas.
+- Editores e gerentes podem visualizar relatórios para ver a atribuição e o status de conclusão de tarefas em cada nível, incluindo por local (equipe), lista de tarefas e tarefa individual.<br>
+    ![Captura de tela de tarefas atribuídas no celular](media/manage-tasks-app-reporting.png)
 
-Os usuários criam, gerenciam e publicam listas de tarefas na guia **listas publicadas** do aplicativo tarefas. Essa guia só será mostrada para um usuário se a sua organização [Configurar uma hierarquia de direcionamento de equipe](#set-up-your-team-targeting-hierarchy) e o usuário estiver em uma equipe incluída na hierarquia. A hierarquia determina se o usuário pode publicar ou receber listas de tarefas e exibir relatórios para listas recebidas.
+Os usuários criam, gerenciam e publicam listas de tarefas na guia **Listas publicadas** do aplicativo Tasks. Essa guia só é exibida para um usuário se sua organização[configurar uma hierarquia de segmentação de equipe](#set-up-your-team-targeting-hierarchy) e o usuário estiver em uma equipe incluída na hierarquia. A hierarquia determina se o usuário pode publicar ou receber listas de tarefas e visualizar relatórios de listas recebidas.
 
 ### <a name="example-scenario"></a>Cenário de exemplo
 
 Aqui está um exemplo de como funciona a publicação de tarefas.
 
-A Contoso está lançando um novo takeout de alimentos e uma promoção de entrega. Para manter uma experiência de marca consistente, é preciso coordenar a execução consistente da distribuição em mais de 300 locais da loja.
+A Contoso está lançando uma nova promoção de comida para viagem e entrega. Para manter uma experiência de marca consistente, eles precisam coordenar a execução consistente do lançamento em mais de 300 lojas.
 
-A equipe de marketing compartilha os detalhes da promoção e a lista de tarefas correspondente com o Retail Communications Manager. O Gerenciador de comunicações de revenda, que serve como o gatekeeper para lojas, revisa as informações, cria uma lista de tarefas para a promoção e, em seguida, cria uma tarefa para cada unidade de trabalho que precisa ser executada por cada um dos repositórios afetados. Quando a lista de tarefas é concluída, ela precisa selecionar as lojas que devem concluir o trabalho. Nesse caso, a promoção só se aplica às lojas nos Estados Unidos que têm um restaurante na loja. Em tarefas, ela filtra a lista da loja com base no atributo de restaurante na loja, seleciona os locais correspondentes nos Estados Unidos na hierarquia e, em seguida, publica a lista de tarefas para essas lojas.
+A equipe de Marketing compartilha os detalhes da promoção e a lista de tarefas correspondente com o Gerente de Comunicações de Varejo. O Gerente de Comunicações de Varejo, que atua como o guardião das lojas, revisa as informações, cria uma lista de tarefas para a promoção e, em seguida, cria uma tarefa para cada unidade de trabalho que precisa ser executada por cada uma das lojas afetadas. Quando a lista de tarefas estiver concluída, ela precisa selecionar as lojas que devem concluir o trabalho. Nesse caso, a promoção só se aplica a lojas nos Estados Unidos que tenham um restaurante interno. No Tasks, ela filtra a lista de lojas com base no atributo de restaurante da loja, seleciona os locais correspondentes nos Estados Unidos na hierarquia e publica a lista de tarefas nessas lojas.
 
-Os gerentes da loja em cada local recebem uma cópia das tarefas publicadas e atribui essas tarefas aos membros da equipe. Os gerentes podem usar a experiência de tarefas para compreender todo o trabalho necessário em sua loja. Eles também podem usar os filtros disponíveis para se concentrar em um conjunto específico de trabalho, como o trabalho devido hoje ou trabalhar em uma determinada área.
+Os gerentes do Microsoft Store em cada local recebem uma cópia das tarefas publicadas e atribuem essas tarefas aos membros de sua equipe. Os gerentes podem usar a experiência do Tasks para entender todo o trabalho necessário em sua loja. Eles também podem usar os filtros disponíveis para se concentrar em um conjunto específico de trabalho, como o trabalho com vencimento hoje ou o trabalho em uma área específica.
 
-Os funcionários do Frontline em cada local da loja agora têm uma lista priorizada do trabalho nas tarefas em tarefas em seu dispositivo móvel. Quando eles terminarem uma tarefa, eles o marcarão como concluídos. Alguns podem até mesmo optar por carregar e anexar uma foto à tarefa para mostrar seus trabalhos.
+Trabalhadores da linha de Frente em cada local da loja agora têm uma lista priorizada de seu trabalho no Tasks em seus dispositivos móveis. Quando terminam uma tarefa, eles a marcam como concluída. Alguns podem até escolher por enviar e anexar uma foto à tarefa para mostrar seu trabalho.
 
-Matrizes da Contoso e gerentes intermediários podem exibir relatórios para ver o status de atribuição e conclusão de tarefas em cada loja e em lojas. Eles também podem fazer uma busca detalhada em uma tarefa específica para ver o status dentro de diferentes lojas. À medida que a data de lançamento fica mais próxima, elas podem detectar anormalidades e fazer check-in com suas equipes, conforme necessário. Essa visibilidade permite que a contoso aprimore a eficiência da distribuição e ofereça uma experiência mais consistente entre suas lojas.
+A sede da Contoso e os gerentes intermediários podem exibir relatórios para ver a atribuição e o status de conclusão de tarefas em cada loja e entre as lojas. Eles também podem fazer drill down em uma tarefa específica para ver o status em diferentes lojas. Conforme a data de lançamento se aproxima, eles podem detectar qualquer anormalidade e verificar com suas equipes conforme necessário. Essa visibilidade permite que a Contoso melhore a eficiência da distribuição e forneça uma experiência mais consistente em suas lojas.
 
-### <a name="set-up-your-team-targeting-hierarchy"></a>Configurar sua hierarquia de direcionamento de equipe
+### <a name="set-up-your-team-targeting-hierarchy"></a>Configure a hierarquia de segmentação de sua equipe
 
-Para habilitar a publicação de tarefas em sua organização, você precisa primeiro configurar o esquema de direcionamento da equipe em um. Arquivo CSV. O esquema define como todas as equipes em sua hierarquia estão relacionadas umas às outras e os atributos usados para filtrar e selecionar equipes. Depois de criar o esquema, carregue-o no Teams para aplicá-lo à sua organização. Os membros da equipe de publicação, como o Gerenciador de comunicações de revenda no cenário de exemplo, podem, em seguida, filtrar equipes por hierarquia, atributos ou uma combinação de ambos para selecionar as equipes relevantes que devem receber as listas de tarefas e, em seguida, publicar as listas de tarefas nessas equipes.
+Para habilitar a publicação de tarefas em sua organização, você deve primeiro configurar o esquema de segmentação de sua equipe em um arquivo .CSV. O esquema define como todas as equipes em sua hierarquia estão relacionadas umas às outras e os atributos usados para filtrar e selecionar equipes. Depois de criar o esquema, carregue-o no Teams para aplicá-lo à sua organização. Os membros da equipe de publicação, como o Gerente de Comunicações de Varejo no cenário de exemplo, podem filtrar as equipes por hierarquia, atributos ou uma combinação de ambos para selecionar as equipes relevantes que devem receber as listas de tarefas e, em seguida, publicar as listas de tarefas para essas equipes.
 
-Para ver as etapas sobre como configurar sua hierarquia de direcionamento de equipe, consulte [configurar sua hierarquia de direcionamento de equipe](set-up-your-team-hierarchy.md).
+Para obter as etapas sobre como configurar a hierarquia de segmentação de sua equipe, consulte [Configurar a hierarquia de segmentação de sua equipe](set-up-your-team-hierarchy.md).
 
-## <a name="power-automate-and-graph-api"></a>API do gráfico e automatização de energia
+## <a name="power-automate-and-graph-api"></a>API Power Automate e Graph
 
-As tarefas dão suporte à automatização de energia para APIs do to do e do Graph para Planner. Para saber mais, veja:
+O Tasks oferece suporte ao Power Automate para Tarefas Pendentes e APIs de Gráfico para Planner. Para saber mais, veja:
 
-- [Visão geral da API de planos e tarefas do Planner](https://docs.microsoft.com/graph/planner-concept-overview)
-- [Usar o Microsoft para fazer com o Power Automate](https://support.office.com/article/using-microsoft-to-do-with-power-automate-526e8f75-217b-46e0-9e06-44780b72c295)
+- [Visão geral da API de planos e tarefas do planejador](https://docs.microsoft.com/graph/planner-concept-overview)
+- [Usando a Microsoft To-Do para fazer com o Power Automate](https://support.office.com/article/using-microsoft-to-do-with-power-automate-526e8f75-217b-46e0-9e06-44780b72c295)

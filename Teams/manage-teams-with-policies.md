@@ -26,7 +26,7 @@ ms.locfileid: "49848928"
 
 Texto aqui.
 
-## <a name="what-you-use-policies-for"></a>Para o que você usa as políticas
+## <a name="what-you-use-policies-for"></a>Para o que você usa políticas
 
 Texto aqui.
 
@@ -45,9 +45,9 @@ Texto aqui.
 Tipo de política | Descrição
 ------------|------------
 [Pacotes de política](https://docs.microsoft.com/microsoftteams/manage-policy-packages) | Um pacote de política no Microsoft Teams é um conjunto de políticas e configurações predefinidas que você pode atribuir aos usuários que têm funções semelhantes em sua organização.
-Políticas de reunião | Uma política de reunião é usada para controlar os recursos que estão disponíveis aos participantes da reunião para reuniões agendadas pelos usuários em sua organização.
+Políticas de reunião | Uma política de reunião é usada para controlar os recursos que estão disponíveis para participantes da reunião para reuniões agendadas por usuários em sua organização.
 Políticas de voz e chamada | Descrição aqui
-Políticas de aplicativo | Descrição aqui
+Políticas de aplicativos | Descrição aqui
 
 ## <a name="troubleshooting"></a>Solução de problemas
 

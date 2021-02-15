@@ -28,16 +28,16 @@ ms.locfileid: "49865155"
 ---
 # <a name="set-up-your-network-for-skype-meeting-broadcast"></a>Configurar a rede para a Transmissão de Reunião do Skype
 
-Depois de [habilitar a Transmissão de](enable-skype-meeting-broadcast.md) Reunião do Skype, você precisa configurar sua rede. Faça esta etapa se quiser manter webinars e outras transmissões para pessoas fora da sua empresa.
+Depois de [habilitar a Transmissão de](enable-skype-meeting-broadcast.md) Reunião do Skype, você precisa configurar sua rede. Faça esta etapa se quiser realizar webinars e outras transmissões para pessoas de fora da sua empresa.
 
 > [!IMPORTANT]
-> O Skype for Business Online está se retirando em 31 de julho de 2021, quando o acesso ao serviço terminará. Incentivamos os clientes a iniciar a atualização para o Microsoft Teams, o cliente principal para comunicações e trabalho em equipe no Microsoft 365.
+> O Skype for Business Online se desposenta em 31 de julho de 2021, momento em que o acesso ao serviço terminará. Incentivamos os clientes a iniciar a atualização para o Microsoft Teams, o cliente principal para comunicações e trabalho em equipe no Microsoft 365.
 
 Se você não tiver experiência com a configuração do firewall, considere contratar um [Parceiro Microsoft](https://go.microsoft.com/fwlink/?linkid=391089) para realizar essa etapa para você.
 
-Para ignorar esta etapa e, em vez disso, adicionar outra empresa à sua federação para que você possa convide-os para transmissões, siga as etapas em Permitir que os usuários contatem usuários externos do [Skype for Business.](../set-up-skype-for-business-online/allow-users-to-contact-external-skype-for-business-users.md)
+Para ignorar esta etapa e, em vez disso, adicionar outra empresa à federação para que você possa convidá-las para transmissões, siga as etapas em Permitir que os usuários contatem usuários externos [do Skype for Business.](../set-up-skype-for-business-online/allow-users-to-contact-external-skype-for-business-users.md)
 
-## <a name="step-1-set-up-allowed-domains"></a>Etapa 1: Configurar domínios permitidos
+## <a name="step-1-set-up-allowed-domains"></a>Etapa 1: configurar domínios permitidos
 
 Use **um** dos seguintes métodos para configurar domínios permitidos:
 
@@ -45,9 +45,9 @@ Use **um** dos seguintes métodos para configurar domínios permitidos:
 
  **Método 1: Usar o centro de administração**
 
-1. Vá para o centro de administração e, na barra de entrada à esquerda, clique em **Settings**  >  **Services &amp; add-ins** e escolha **Skype for Business**.
+1. Vá para o centro de administração e, em seguida, na barra de entrada à esquerda, clique em **Complementos** de Serviços de Configurações e escolha Skype for  >  **&amp;** **Business.**
 
-2. Na página **Compartilhamento** Externo em **Exceções** de Domínio, selecione Todos os domínios são **bloqueados,** exceto , e insira os domínios a seguir, separados por uma vírgula (,):
+2. Na página **Compartilhamento** externo em Exceções de **domínio,** selecione Todos os domínios são **bloqueados,** exceto, e insira os seguintes domínios, separados por uma vírgula (,):
 
    - noammeetings.lync.com
 
@@ -61,9 +61,9 @@ Use **um** dos seguintes métodos para configurar domínios permitidos:
 
 ## #
 
- **Método 2: Usar Windows PowerShell**
+ **Método 2: Usar o Windows PowerShell**
 
-- No **Menu Iniciar,** clique com o botão direito **do Windows PowerShell** e clique em Executar **como administrador.** Na janela do **Windows PowerShell**, digite cada linha e pressione Enter.
+- No **Menu Iniciar,** clique com o botão direito do mouse **no Windows PowerShell** e clique **em Executar como administrador.** Na janela do **Windows PowerShell**, digite cada linha e pressione Enter.
 
   ```PowerShell
   $r = New-CsEdgeDomainPattern -Domain "noammeetings.lync.com"
@@ -89,15 +89,15 @@ Use **um** dos seguintes métodos para configurar domínios permitidos:
   Set-CsTenantFederationConfiguration -AllowedDomains $newAllowList
   ```
 
-## <a name="step-2-add-skype-meeting-broadcast-domains-urls-and-ip-addresses"></a>Etapa 2: Adicionar domínios, URLs e endereços IP da Transmissão de Reunião do Skype
+## <a name="step-2-add-skype-meeting-broadcast-domains-urls-and-ip-addresses"></a>Etapa 2: Adicionar domínios, URLs e endereços IP de Transmissão de Reunião do Skype
 
-A segunda etapa do processo de instalação é adicionar primeiro os domínios necessários e, em seguida, adicionar endereços IP e URLs necessários para que a Transmissão de Reunião do Skype funcione.
+A segunda etapa no processo de configuração é primeiro adicionar domínios necessários e, em seguida, adicionar endereços IP e URLs necessários para que a Transmissão de Reunião do Skype funcione.
 
-- **Adicione as URLs e endereços IP necessários** do ponto de extremidade do Skype for Business Online para ver quais são necessários [aqui.](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#bkmk_lyo)
+- **Adicione as URLs e endereços IP necessários** do ponto de extremidade do Skype for Business Online, vendo quais são necessários [aqui.](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#bkmk_lyo)
 
 ## <a name="set-up-skype-meeting-broadcast-in-hybrid-deployments-and-organizations"></a>Configurar a Transmissão de Reunião do Skype em implantações e organizações híbridas
 
-Se você tiver uma organização do Skype for Business Online e uma implantação local do Lync Server 2010, do Microsoft Lync Server 2013 e do Skype for Business Server 2015 e tiver usuários online e locais, há outras etapas de configuração que você precisará fazer além das acima para permitir que sua organização local se comunique com o Skype for Business Online e permita que todos os seus usuários participem de uma Transmissão de Reunião do Skype. Para saber quais são esses requisitos, consulte [Configurar sua implantação local para Transmissão de Reunião do Skype](https://go.microsoft.com/fwlink/?LinkId=617070).
+Se você tem uma organização do Skype for Business Online e uma implantação local do Lync Server 2010, do Microsoft Lync Server 2013 e do Skype for Business Server 2015 e tem usuários online e locais, há outras etapas de configuração que você precisará fazer além das anteriores para permitir que sua organização local se comunique com o Skype for Business Online e permita que todos os usuários insuportem a uma Transmissão de Reunião do Skype. Para saber quais são esses requisitos, consulte [Configurar sua implantação local para Transmissão de Reunião do Skype](https://go.microsoft.com/fwlink/?LinkId=617070).
 
 ## <a name="related-topics"></a>Tópicos relacionados
 

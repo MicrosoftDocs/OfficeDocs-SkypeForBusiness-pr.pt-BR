@@ -1,5 +1,5 @@
 ---
-title: Configurações de segurança do serviço Web Criam Novas ou Modificam Existentes
+title: Configurações de Segurança de Serviço Web Criar Novas ou Modificar Existentes
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
