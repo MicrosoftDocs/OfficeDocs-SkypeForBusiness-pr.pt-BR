@@ -16,19 +16,19 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 70cef1893b0260e690f5470bff0111dda5e7e7fe
-ms.sourcegitcommit: 27bfa015413bc7742bca4ea227e0324da0c740d7
+ms.openlocfilehash: 8f6d4a7dca340d297543abb3620a36cdd804ca9f
+ms.sourcegitcommit: bfada4fd06c5cff12b0eefd3384bb3c10d10787f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "50145818"
+ms.lasthandoff: 02/12/2021
+ms.locfileid: "50196575"
 ---
 # <a name="sync-student-information-system-sis-data-with-education-insights"></a>Sincronizar dados do SIS (Sistema de Informações do Aluno) com o Education Insights
 Quanto mais dados são alimentadas no [Education Insights](class-insights.md), os melhores professores podem dar suporte a seus alunos e os líderes de educação podem dar suporte aos professores.
 
 Para fornecer informações no nível da organização, precisamos usar o [School Data Sync (SDS)](https://docs.microsoft.com/SchoolDataSync) para se conectar ao SIS (Sistema de Informações do Aluno) de forma que o Insights tenha  estrutura hierárquica do sistema educacional mapeado corretamente. 
 
-Ver informações no nível de classe como professor de classe *não* isso porque usamos as permissões e a estrutura de classe do Teams.
+Exibir o Insights em nível de classe como o educador da classe *não* requer essa sincronização porque usamos a estrutura e as permissões de classe do Teams.
 
 ## <a name="plan-your-sis-integration"></a>Planejar a integração com o SIS
 Os dados do SIS fornece a estrutura hierárquica do sistema educacional e mapeia onde o usuário será atribuído.
@@ -40,17 +40,17 @@ O insights funciona melhor ao usar o [formato do aquivo SDS V2](https://docs.mic
 | Tipo de dados |   V1 | V2 (recomendado para os novos clientes) |
 |:--- |:--- |:--- |
 | **Usuários** | O formato V1 contém **apenas professores**; portanto, para definir permissões no nível da organização para os líderes de educação, você precisa pesquisá-los e definir manualmente a permissão de cada um deles. | O formato V2 contém **todas as** para que você possa atribuir permissões baseadas em função. |
-| **Orgs** | O formato V1 contém **apenas escolas**, para que você veja apenas um nível de agregação (todas as suas escolas). Você pode ampliar uma escola específica usando uma lista simples, mas essa lista pode ter um grande número de escolas ou pode conter diferentes tipos de escolas que são difíceis de comparar (como a principal para a escola secundária ou ciências para a escola de arte).<br/><br/> Quando há uma hierarquia in-loco, você pode criar níveis que façam sentido, como um departamento de ciência ou arte.| O formato V2 contém **hierarquia completa de seu distrito ou instituição**, incluindo universidades, faculdades, docentes, campuses, regiões, programas e assim por diante.<br/><br/> Com uma hierarquia, você pode ver uma agregação relevante por cada nível da hierarquia, comparar rapidamente entre unidades organizacionais em cada nível, atribuir permissão a níveis específicos, definir metas por nível da organização e assim por diante.|
+| **Orgs** | O formato V1 contém **apenas escolas**, para que você veja apenas um nível de agregação (todas as suas escolas). Você pode ampliar uma escola específica usando uma lista simples, mas essa lista pode ter um grande número de escolas ou pode conter diferentes tipos de escolas que são difíceis de comparar (como a principal para a escola secundária ou ciências para a escola de arte).<br/><br/> Quando há uma hierarquia in-loco, você pode criar níveis que façam sentido, como um departamento de ciência ou arte.| O formato V2 contém **a hierarquia completa do seu distrito ou instituição**, incluindo universidades, faculdades, faculdades, campi, regiões, programas e assim por diante.<br/><br/> Com uma hierarquia, você pode ver uma agregação relevante por cada nível da hierarquia, comparar rapidamente entre unidades organizacionais em cada nível, atribuir permissão a níveis específicos, definir metas por nível da organização e assim por diante.|
 
 ### <a name="type-of-data-required"></a>Tipo de dados necessários
 A tabela a seguir fornece o tipo de dados necessário para obter o melhor de Ideias.
 
 | Tipo de dados | Exemplos do que você precisa fornecer|Por que isso é importante?|
 |:--- |:--- |:--- |
-| **Usuários** |   Função (como aluno)<br/> Nível de Notas/Ano (como 10)<br/> Organização (nome) | Quando atribuímos corretamente a cada pessoa sua função, nível/ano e organização, podemos garantir que os resumos e as agregação estão corretos.|
+| **Usuários** |   Função (como aluno)<br/> [Nível de série/Ano ](#supported-grade-level-values)(como 10)<br/> Organização (nome) | Quando atribuímos corretamente a cada pessoa sua função, nível/ano e organização, podemos garantir que os resumos e as agregação estão corretos.|
 | **Orgs** | Tipo de organização (como faculdade) |   A hierarquia é importante. Por exemplo, as escolas podem pertencer a um distrito e esse distrito pode pertencer a um estado.<br/> Quando um líder de educação do distrito tem permissão para ver os dados, ele só é para as escolas nesse distrito.|
-| **Aulas** | Título (como Ciência da computação 101) | Esses detalhes são as classes realizadas na organização. Isso deve ser mapeado corretamente para que possamos atribuir o aluno à classe correta. |
-| **Inscrição** | Função (como aluno) | Isso é para alunos e professores e nos permite saber em que classe eles estão registrados. |
+| **Aulas** | Título (como Ciência da computação 101) | Esta tabela detalha quais aulas são ministradas na organização. Esta tabela deve ser mapeada corretamente para que possamos designar o aluno para a classe correta. |
+| **Inscrição** | Função (como aluno) | Esta tabela é para alunos e educadores e nos permite saber em que turma eles estão matriculados. |
 
 > [!NOTE]
 > Durante o processo de implantação, você pode decidir se deseja usar o SDS para provisionar usuários e classes em Equipes ou usá-lo somente para fornecer dados para informações.
@@ -70,7 +70,7 @@ Aqui estão algumas práticas recomendadas para garantir a implantação tranqui
     
 *   Não deixe de *nome e sobrenome de cada*. Caso não sejam, elas são referenciadas por seu endereço de email e isso fornece uma experiência menos positiva em relatórios e destaques (cartões com informações sobre a atividade ou o desempenho do aluno).
 
-*   O *de ano/ano deve ser entrada como 2 dígitos* (por exemplo, 07 para Ano 7). Confira a lista [mapeamento](https://docs.microsoft.com/schooldatasync/sds-v2-csv-file-format#enumerated-values-enum-supported). 
+*   O *de ano/ano deve ser entrada como 2 dígitos* (por exemplo, 07 para Ano 7). Confira a lista [mapeamento](#supported-grade-level-values). 
 
 *   É importante adicionar o nível *ano/série a todos os alunos* para que um nível de notas/ano possa filtrar os dados.    
 
@@ -80,7 +80,7 @@ Aqui estão algumas práticas recomendadas para garantir a implantação tranqui
     
     *   Com base na unidade organizacional da equipe, você poderá definir as permissões relevantes. Certifique-se de que eles estão associados ao nível de unidade correto para que recebam as permissões de que precisam. Por exemplo, um valor atribuído a quatro escolas precisa ver todas as classes nestas escolas; um diretor precisa ver todas as classes na escola. 
     
-*   A função é essencial. Embora se trata de uma lista fechada, tente fazer a combinação da função [lista](https://docs.microsoft.com/schooldatasync/sds-v2-csv-file-format#enumerated-values-enum-supported) a função real de cada usuário que você carregar. Dessa forma, você pode atribuir permissões baseadas em função de acordo. Por exemplo, forneça permissões para que todos os diretores vejam as classes na escola ou para que todos os professores vejam seus respectivos docentes. 
+*   A função é essencial. Embora esta lista esteja fechada, tente combinar a função [da lista](https://docs.microsoft.com/schooldatasync/sds-v2-csv-file-format#enumerated-values-enum-supported) com a função real de cada usuário que você carregar. Dessa forma, você pode atribuir permissões baseadas em função de acordo. Por exemplo, forneça permissões para que todos os diretores vejam as classes na escola ou para que todos os professores vejam seus respectivos docentes. 
 
 ### <a name="organizations"></a>Organizações
 
@@ -101,7 +101,7 @@ Ele também sincroniza os dados SIS com ideias.
 
 Em primeiro lugar, você precisa ativar a alternância de Ideias para iniciar o processo de sincronização.
 
-* No [**portal SDS**](https://sds.microsoft.com), vá para **Configurações**, role para baixo até **Coletar dados para o Insights** e verifique se ele está habilitado (já está *ativado* por padrão).
+* No [**portal SDS**](https://sds.microsoft.com), vá para **Configurações**, role para baixo até **Coletar dados para Insights** e verifique se está ativado (é *ativado* por padrão).
 
 * Role para baixo até a próxima opção, **Sincronizar dados organizacionais do SDS (visualização)** e ativar.
 
@@ -126,7 +126,7 @@ Durante o processo de implantação, você pode decidir se deseja usar o SDS par
 ### <a name="verify-the-sync-process"></a>Verificar o processo de sincronização
 Uma nova área de status aparece ao lado de Sincronizar dados organizacionais do SDS (visualização) na página Configurações.
  
-*   Se o status for **Em andamento**, aguarde até 24 horas após a implantação do perfil da SDS.
+*   Se o status for **Em andamento**, aguarde até 24 horas após a implantação do perfil SDS.
 
 *   Se o status for **concluído**,parabéns, você poderá ver Ideias no nível da organização e seguir para a próxima etapa.
 
@@ -134,3 +134,77 @@ Uma nova área de status aparece ao lado de Sincronizar dados organizacionais do
 
 > [!IMPORTANT]
 > Se você tiver problemas, a [atendimento ao cliente](https://aka.ms/edusupport) você estiver lá para ajudá-lo.
+
+## <a name="supported-grade-level-values"></a>Valores de nível de notas com suporte
+
+Nos arquivos SDS, nível de série/ano definido como valores Enumerados, o que significa que você só pode fornecer um conjunto selecionado de valores dentro do arquivo CSV. Qualquer coisa diferente dos valores especificados resultará em um erro durante o processamento de sincronização.
+
+> [!NOTE]
+> O *de ano/ano deve ser entrada como 2 dígitos* (por exemplo, 07 para Ano 7).
+
+A seção abaixo define os valores suportados no arquivo de usuários.
+
+### <a name="united-states--worldwide-grade-levels"></a>Estados Unidos/níveis de classificação em todo o mundo
+|Valor no arquivo (Coluna de nota) | Rótulo no Insights|
+|:---|:---| 
+|TI|Infantil|
+|PR|Pré escola|
+|PK|Pré-jardim de infância|
+|TK|Jardim de Infância Transicional|
+|KG|Jardim da infância|
+|01|Primeiro ano|
+|02|Segundo ano|
+|03|Terceiro ano|
+|04|Quarto ano|
+|05|Quinto ano|
+|06|Sexto ano|
+|07|Sétimo ano|
+|08|Oitavo ano|
+|09|Nono ano|
+|10|Décimo ano|
+|11|Décimo primeiro ano|
+|12|Decimo segundo ano|
+|PS|Pós-secundário|
+|PS1|Calouro pós-secundário|
+|PS2|2º ano pós-secundário|
+|PS3|Júnior pós-secundário|
+|PS4|Sénior pós-secundário|
+|estudante universitário|Estudante universitário|
+|graduado|Graduado|
+|pós-graduação|Pós-graduação (graduação com ênfase em pesquisa)|
+|ex-alunos|Ex-alunos|
+|adultEducation|Adult Education|
+|UG|Sem nota|
+|Outros|Outros|
+
+### <a name="united-kingdom-year-groups"></a>Grupos de anos do Reino Unido
+|Valor no arquivo (Coluna de nota) | Rótulo no Insights|
+|:---|:---| 
+|TI|Berçário|
+|PR|Pré escola|
+|PK|Recepção|
+|01|Ano 1|
+|02|Ano 2|
+|03|Ano 3|
+|04|Ano 4|
+|05|Ano 5|
+|06|Ano 6|
+|07|Ano 7|
+|08|Ano 8|
+|09|Ano 9|
+|10|Ano 10|
+|11|Ano 11|
+|12|Ano 12|
+|13|Ano 13|
+|PS|Pós-secundário|
+|PS1|Pós-ensino médio, Ano 1|
+|PS2|Pós-ensino médio, Ano 2|
+|PS3|Pós-ensino médio, Ano 3|
+|PS4|Pós-ensino médio, Ano 4|
+|estudante universitário|Estudante universitário|
+|graduado|Graduado|
+|pós-graduação|Pós-graduação (graduação com ênfase em pesquisa)|
+|ex-alunos|Ex-alunos|
+|adultEducation|Adult Education|
+|UG|Sem nota|
+|Outros|Outros|

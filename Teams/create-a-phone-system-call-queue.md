@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Saiba como configurar o Sistema de Telefonia para filas de chamadas com o Microsoft Teams, fornecendo uma mensagem de saudação, música de espera, redirecionamento de chamadas e outros recursos.
-ms.openlocfilehash: 0253fb15a8672d83e672e3e3e18f8455d292214c
-ms.sourcegitcommit: 27bfa015413bc7742bca4ea227e0324da0c740d7
+ms.openlocfilehash: cc0995a6355157de1b43a04caf7814e588232c48
+ms.sourcegitcommit: bfada4fd06c5cff12b0eefd3384bb3c10d10787f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "50145888"
+ms.lasthandoff: 02/12/2021
+ms.locfileid: "50196745"
 ---
 # <a name="create-a-call-queue"></a>Criar uma fila de chamadas
 
@@ -53,11 +53,11 @@ Para configurar uma fila de chamadas, no Centro de administração do Teams, exp
 
 ![Captura de tela das configurações de idioma e da conta de recurso](media/call-queue-name-language.png)
 
-1. Digite um nome para a fila de chamadas. Os agentes verão esse nome ao receberem uma chamada da fila.
+1. Digite um nome para a fila de chamadas.
 
-2. Clique em **Adicionar contas**, procure a conta de recurso que você deseja usar com a fila de chamadas, clique em **Adicionar** e, em seguida, clique em **Adicionar**.
+2. Clique em **Adicionar contas**, procure a conta de recurso que você deseja usar com a fila de chamadas, clique em **Adicionar** e, em seguida, clique em **Adicionar**. (Os agentes verão o nome da conta de recurso quando receberem uma chamada recebida.)
 
-3. Escolha um idioma. Esse idioma será usado para comandos de voz gerados pelo sistema e para a transcrição da caixa postal (se habilitados).
+3. Escolha um [idioma com suporte.](create-a-phone-system-call-queue-languages.md) Esse idioma será usado para comandos de voz gerados pelo sistema e para a transcrição da caixa postal (se habilitados).
 
 ## <a name="greetings-and-music-on-hold-in-queue"></a>Saudações e música de espera na fila
 

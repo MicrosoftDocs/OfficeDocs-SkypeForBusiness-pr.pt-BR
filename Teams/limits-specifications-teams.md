@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 6452d49f1d00558d2103cfe45be0dc848d6f0a26
-ms.sourcegitcommit: 27bfa015413bc7742bca4ea227e0324da0c740d7
+ms.openlocfilehash: daba993118348bbd4de2b1677e6a75cbce7c0ae9
+ms.sourcegitcommit: bfada4fd06c5cff12b0eefd3384bb3c10d10787f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "50145718"
+ms.lasthandoff: 02/12/2021
+ms.locfileid: "50196785"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Limites e especificações para o Microsoft Teams
 
@@ -131,13 +131,10 @@ Os nomes de canal também não podem começar com um caractere de sublinhado (_)
 
 |Recurso     | Limite máximo |
 |------------|---------------|
-|Número de pessoas em uma reunião (podem conversar e telefonar)  | 300 |
-|Número de pessoas em uma vídeo ou chamada de áudio iniciada na guia de chat | 20 |
-|Tamanho máximo do arquivo do PowerPoint | 2 GB|
+|Número de pessoas em uma reunião (podem conversar e telefonar)  | 300. **Somente exibição** permite que até 10.000 participantes somente ouvintes participem de uma reunião na qual o organizador tenha uma licença para E3/E5/A3/A5 SKU.<br>**Observação:** Para o Teams Governamental (GCC, GCC Alta, DoD), o limite ainda é 250. Atualizaremos este artigo quando o limite de nuvem governamental aumentar de 250 para 300 e der suporte a transportadores de reunião. Saiba mais sobre a [experiência somente exibição](view-only-meeting-experience.md).|
+|O número de pessoas em uma chamada de áudio ou vídeo do chat | 20 |
+|Tamanho máximo do arquivo do PowerPoint | 2GB|
 |As equipes mantêm [gravações de reunião](cloud-recording.md) que não são carregadas no Microsoft Stream, disponíveis para download local | 20 dias |
-
->[!Note]
-> A mudança do Microsoft Stream para o [OneDrive for Business e o Microsoft Office SharePoint Online para gravações de reunião](tmr-meeting-recording-change.md) será uma abordagem em fases. No lançamento você poderá optar por aceitar essa experiência, em novembro você terá que recusar se quiser continuar usando o Stream e, no início de 2021, exigiremos que todos os clientes usem o OneDrive for Business e o Microsoft Office SharePoint Online para novas gravações de reunião.
 
 ### <a name="meeting-expiration"></a>Expiração de reunião
 

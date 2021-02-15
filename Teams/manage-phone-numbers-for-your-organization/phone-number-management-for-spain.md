@@ -21,16 +21,16 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Use esta tabela para encontrar informações sobre como obter e gerenciar números de telefone na Espanha para o Microsoft Teams.
-ms.openlocfilehash: 376588659661ba35bd892e365a5f8ca8ee0b7fe8
-ms.sourcegitcommit: 3b54a56ec1fe4366580621e19cdbb6a833a01161
+ms.openlocfilehash: 44ee0a7812cb8c2a9b218960aecabe404c6409c1
+ms.sourcegitcommit: bfada4fd06c5cff12b0eefd3384bb3c10d10787f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "48361691"
+ms.lasthandoff: 02/12/2021
+ms.locfileid: "50196645"
 ---
 # <a name="phone-number-management-for-spain"></a>Gerenciamento de números de telefone para a Espanha
 
-Use esta tabela para encontrar informações sobre como obter e gerenciar números de telefone na Espanha para o Microsoft Teams. 
+Use esta tabela para encontrar informações sobre como obter e gerenciar números de telefone na Espanha para o Microsoft Teams.
   
 Para obter mais informações, consulte [Gerenciar os números de telefone de sua organização](manage-phone-numbers-for-your-organization.md).
   
@@ -50,7 +50,4 @@ Para obter mais informações, consulte [Gerenciar os números de telefone de su
 
 [Termos e condições das Chamadas de Emergência](../emergency-calling-terms-and-conditions.md)
   
-[Rótulo de aviso de isenção de responsabilidade de Chamada de Emergência](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
- 
-  
- 
+[Rótulo de aviso de isenção de responsabilidade de Chamada de Emergência](https://download.microsoft.com/download/a/8/0/a807c43d-2177-4fe0-8732-86b3784ae6e5/emergency-calling-label-(en-us)-(v.1.0).zip)

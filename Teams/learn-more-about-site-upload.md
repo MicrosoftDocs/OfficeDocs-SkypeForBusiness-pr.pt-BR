@@ -22,12 +22,12 @@ ms.custom:
 - seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4a1af7f14695d1f933a9c3902b373eb668044e24
-ms.sourcegitcommit: 212b2985591ca1109eb3643fbb49d8b18ab07a70
+ms.openlocfilehash: 481e087a6cfe2b641f6b81fcfc893d50f27cbf47
+ms.sourcegitcommit: 75ccb8cda9e6dd900df93a2d856ff5f7682ac623
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/21/2021
-ms.locfileid: "49918637"
+ms.lasthandoff: 02/14/2021
+ms.locfileid: "50237481"
 ---
 <a name="add-and-update-reporting-labels"></a>Adicionar e atualizar rótulos de relatórios
 ============================
@@ -35,15 +35,15 @@ ms.locfileid: "49918637"
 Os rótulos de relatório são usados em sua organização para indicar os locais físicos de escritórios, edifícios ou sites organizacionais. A página Rótulos de relatório no Centro de administração do Microsoft Teams permite que você forneça um arquivo de texto (.csv ou .tsv) contendo uma lista de locais físicos e suas sub-redes de rede associadas. Esse arquivo é usado pelo Recurso de Análise de Chamada para gerar relatórios. Ao carregar o mapeamento da sub-rede, os relatórios fornecidos por esses serviços também conterão os nomes de localização, facilitando o entendimento e o uso dos relatórios para a correção de possíveis problemas.
 
 > [!IMPORTANT]
-> Os Rótulos de Relatório  carregados serão tratados como Dados de Suporte de acordo  com seu contrato para o Office 365, incluindo quaisquer informações que de outra forma seriam consideradas Dados do Cliente ou *Dados Pessoais.* Não inclua os dados que você não deseja fornecer à Microsoft como Dados de *Suporte,* pois essas informações estarão visíveis aos Engenheiros da Microsoft para fins de suporte.
+> Os Rótulos de Relatório  carregados serão tratados como Dados de Suporte de acordo  com seu contrato para o Office 365, incluindo qualquer informação que, de outra forma, seria considerada Dados do Cliente ou *Dados Pessoais.* Não inclua os dados que você não deseja fornecer à Microsoft como Dados de *Suporte,* pois essas informações estarão visíveis aos Engenheiros da Microsoft para fins de suporte.
 
 Os rótulos de relatório e os dados de locais que você fornece são uma única estrutura de dados. No momento, não há nenhuma interface disponível para fazer edições individuais para os dados.
 
 **Para editar a tabela de sub-redes e locais**
 
 1. Na navegação à esquerda do Centro de administração do Microsoft Teams, clique em **Locais**  >  **relatórios de rótulos.**
-2. Clique **em Substituir dados de locais.**
-3. No painel **de dados** Substituir locais, clique em Selecionar um arquivo **e,** em seguida, navegue até e carregue seu arquivo .csv ou .tsv editado.
+2. Clique **em Carregar dados.**
+3. No painel **Carregar dados,** clique em Selecionar um arquivo **e,** em seguida, navegue até e carregue seu arquivo .csv ou .tsv editado.
 4. Clique **em Carregar.**
 
 Você pode baixar um modelo de exemplo [aqui.](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/locations-template.zip?raw=true)
