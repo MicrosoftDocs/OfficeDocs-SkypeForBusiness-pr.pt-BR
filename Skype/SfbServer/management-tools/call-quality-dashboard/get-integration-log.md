@@ -33,7 +33,7 @@ A operação Obter Log de Integração retorna uma lista de entradas de log que 
 Essa operação está desabilitada por padrão por motivos de segurança. Quando desabilitado, retorna uma cadeia de caracteres vazia. Para habilitar essa operação, os administradores precisam configurar o web.config para o aplicativo Web host da API de Dados.
   
 
-|Method|**URI de solicitação**|**Versão HTTP**|
+|Método|**URI de solicitação**|**Versão HTTP**|
 |:-----|:-----|:-----|
 |OBTER  <br/> |https:// \<portal\> /QoEDataService/IntegrationLog  <br/> |HTTP/1.1  <br/> |
    

@@ -32,7 +32,7 @@ Ao executar o cmdlet **Grant-CsOuPermission** para objetos do Usuário em um OU,
   
 **Permissões concedidas para objetos do usuário**
 
-|**Grupo**|**Permissão**|**Aplica-se a**|
+|**Group**|**Permissão**|**Aplica-se a**|
 |:-----|:-----|:-----|
 |RTCHSUniversalServices  <br/> |Replicando mudanças de diretório  <br/> |Apenas este objeto  <br/> |
 |RTCUniversalServerReadOnlyGroup  <br/> |Conteúdo da lista  <br/> Ler todas as propriedades  <br/> Permissões de leitura  <br/> |Apenas este objeto  <br/> |
@@ -46,7 +46,7 @@ Ao executar o cmdlet **Grant-CsOuPermission** para objetos de computador em um O
   
 **Permissões concedidas para objetos do computador**
 
-|**Grupo**|**Permissão**|**Aplica-se a**|
+|**Group**|**Permissão**|**Aplica-se a**|
 |:-----|:-----|:-----|
 |RTCHSUniversalServices  <br/> |Replicando mudanças de diretório  <br/> |Apenas este objeto  <br/> |
 |RTCUniversalServerReadOnlyGroup  <br/> |Conteúdo da lista  <br/> Ler todas as propriedades  <br/> Permissões de leitura  <br/> |Apenas este objeto  <br/> |
@@ -60,7 +60,7 @@ Ao executar o cmdlet **Grant-CsOuPermission** para objetos de Contato ou AppCont
   
 **Permissões concedidas para os objetos Contato ou AppContact**
 
-|**Grupo**|**Permissão**|**Aplica-se a**|
+|**Group**|**Permissão**|**Aplica-se a**|
 |:-----|:-----|:-----|
 |RTCHSUniversalServices  <br/> |Replicando mudanças de diretório  <br/> |Apenas este objeto  <br/> |
 |RTCUniversalServerReadOnlyGroup  <br/> |Conteúdo da lista  <br/> Ler todas as propriedades  <br/> Permissões de leitura  <br/> |Apenas este objeto  <br/> |
@@ -74,7 +74,7 @@ Ao executar o cmdlet **Grant-CsOuPermission** para objetos de Dispositivo em um 
   
 **Permissões concedidos para objetos de Dispositivo**
 
-|**Grupo**|**Permissão**|**Aplica-se a**|
+|**Group**|**Permissão**|**Aplica-se a**|
 |:-----|:-----|:-----|
 |RTCHSUniversalServices  <br/> |Replicando mudanças de diretório  <br/> |Apenas este objeto  <br/> |
 |RTCUniversalServerReadOnlyGroup  <br/> |Conteúdo da lista  <br/> Ler todas as propriedades  <br/> Permissões de leitura  <br/> |Apenas este objeto  <br/> |
@@ -90,7 +90,7 @@ Ao executar o cmdlet **Grant-CsOuPermission** para objetos InetOrgPerson em um O
   
 **Permissões concedidas para objetos InetOrgPerson**
 
-|**Grupo**|**Permissão**|**Aplica-se a**|
+|**Group**|**Permissão**|**Aplica-se a**|
 |:-----|:-----|:-----|
 |RTCHSUniversalServices  <br/> |Replicando mudanças de diretório  <br/> |Apenas este objeto  <br/> |
 |RTCUniversalServerReadOnlyGroup  <br/> |Conteúdo da lista  <br/> Ler todas as propriedades  <br/> Permissões de leitura  <br/> |Apenas este objeto  <br/> |

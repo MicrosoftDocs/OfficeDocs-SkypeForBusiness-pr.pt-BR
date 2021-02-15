@@ -53,7 +53,7 @@ Você pode implantar facilmente a topologia de recuperação de desastres de poo
 
     Isto configura outros serviços necessários para que o emparelhamento de backup funcione corretamente.
     
-9. Depois que o Bootstrapper terminar de instalar os componentes necessários para o emparelhamento de backup em cada Servidor Front-end em ambos os pools, certifique-se de aplicar novamente qualquer Atualização Cumulativa existente que tenha sido aplicada anteriormente nesses Servidores Front End em ambos os pools e continue com a próxima etapa.
+9. Depois que o Bootstrapper terminar de instalar os componentes necessários para o emparelhamento de backup em cada Servidor Front-end em ambos os pools, certifique-se de aplicar novamente qualquer Atualização Cumulativa existente que tenha sido aplicada anteriormente nesses Servidores front-end em ambos os pools e, em seguida, continue com a próxima etapa.
 
 10. Em um prompt de comando do Shell de Gerenciamento do Skype for Business Server, execute o seguinte: 
     

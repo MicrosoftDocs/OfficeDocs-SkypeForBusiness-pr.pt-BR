@@ -30,15 +30,15 @@ ms.locfileid: "49831211"
 ---
 # <a name="microsoft-teams-adoption-phase-2---experiment"></a>Fase 2 de adoção do Microsoft Teams - Experimentação
 
-Agora você está com uma ótima equipe de projeto e informações críticas sobre sua organização e está pronto para experimentar o Teams. Recomendamos experimentar projetos do mundo real de 2 a 3 dentro de um grupo que é conduzido por um stakeholder com quem você tem uma relação positiva e em cuja organização há um número suficiente de usuários inserentes para fornecer comentários significativos. Se sua organização é grande ou pequena, recomendamos concluir essa fase para obter informações sobre como o Teams pode melhorar sua colaboração além de usar seus recursos de armazenamento de arquivo e chat.  
+Agora você está com uma ótima equipe de projeto e informações críticas sobre sua organização e está pronto para experimentar o Teams. Recomendamos experimentar projetos do mundo real de 2 a 3 em um grupo que é conduzido por um stakeholder com quem você tem uma relação positiva e em cuja organização há um número suficiente de usuários inserentes para fornecer comentários significativos. Se sua organização é grande ou pequena, recomendamos concluir essa fase para obter informações sobre como o Teams pode melhorar sua colaboração além de usar seus recursos de chat e armazenamento de arquivos.  
 
 Você concluirá as seguintes etapas nesta fase:
 
 1. [Crie seu programa de campeões.](teams-adoption-create-champions-program.md)
-2. [Conclua seu início rápido de governança.](teams-adoption-governance-quick-start.md)
+2. [Conclua o início rápido de sua gestão.](teams-adoption-governance-quick-start.md)
 3. [Defina seus casos de uso.](teams-adoption-define-usage-scenarios.md)
-4. [Finalizar participantes do programa de adoção antecipado.](teams-adoption-onboard-early-adopters.md)
+4. [Finalize os participantes do programa de adoção antecipado.](teams-adoption-onboard-early-adopters.md)
 5. [Configurar seus canais de comentários.](teams-adoption-onboard-early-adopters.md#gather-feedback)
-6. [Traga sua equipe de suporte para o quadro.](teams-adoption-onboard-support.md)
+6. [Traga sua equipe de suporte a bordo.](teams-adoption-onboard-support.md)
 
-![Um ícone representando a próxima etapa ](media/teams-adoption-next-icon.png) Next: [Criar seu programa de campeões](teams-adoption-create-champions-program.md)
+![Um ícone que representa a próxima ](media/teams-adoption-next-icon.png) etapa: [Criar seu programa de campeões](teams-adoption-create-champions-program.md)

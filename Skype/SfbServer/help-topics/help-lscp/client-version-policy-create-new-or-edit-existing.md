@@ -31,7 +31,7 @@ ms.locfileid: "49829511"
 
 ## <a name="tasks-you-can-perform"></a>Tarefas que podem ser executadas
 
-É possível executar as seguintes tarefas na página Nova Política **de Versão de Cliente** ou Editar Política de Versão **de** Cliente:
+É possível executar as seguintes tarefas na página Nova **Política de Versão de Cliente** ou Editar Política de Versão **de** Cliente:
 
 - Adicione ou modifique o nome ou a descrição da política de versão do cliente.
 

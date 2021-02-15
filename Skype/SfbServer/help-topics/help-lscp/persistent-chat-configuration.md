@@ -89,7 +89,7 @@ Os gerentes de sala de chat podem fazer alterações em todas as propriedades de
     
    - (Opcional.) Na **URL de gerenciamento de sala,** selecione a URL de gerenciamento de sala. Essa é a URL para um gerenciamento de sala personalizada baseada na Web. Se você não precisar personalizar o gerenciamento de sala e simplesmente usar a configuração padrão, deixe essa opção em branco. Após a URL ser definida, ela é aplicada como URL de gerenciamento de sala interna e externa.
     
-     Se quiser personalizar sua experiência de criação de sala e incluir seu fluxo de trabalho comercial específico, você pode criar uma solução de gerenciamento de sala personalizada usando o SDK (Kit de Desenvolvimento de Software de Servidor de Chat Persistente), hospedá-lo em algum lugar e colocar a URL aqui. Essa URL é enviada para o cliente de modo que quando um usuário tenta exibir ou criar uma sala, ele ou ela é direcionado à sua solução de gerenciamento de sala personalizada.
+     Se quiser personalizar sua experiência de criação de sala e incluir seu fluxo de trabalho comercial específico, você pode criar uma solução de gerenciamento de sala personalizada usando o SDK (Kit de Desenvolvimento de Software) do Servidor de Chat Persistente, hospedá-lo em algum lugar e colocar a URL aqui. Essa URL é enviada para o cliente de modo que quando um usuário tenta exibir ou criar uma sala, ele ou ela é direcionado à sua solução de gerenciamento de sala personalizada.
     
 7. Clique em **Confirmar**.
     
@@ -120,7 +120,7 @@ Os gerentes de sala de chat podem fazer alterações em todas as propriedades de
     
    - (Opcional) Em **URL de Gerenciamento da Sala**, selecione a URL de gerenciamento de sala. Essa é a URL para uma implantação de gerenciamento de sala baseada na Web. Se você não precisar personalizar o gerenciamento de sala e simplesmente usar a configuração padrão, deixe essa opção em branco.
     
-     Se quiser personalizar sua experiência de criação de sala e incluir seu fluxo de trabalho comercial específico, você pode criar uma solução de gerenciamento de sala personalizada usando o SDK (Kit de Desenvolvimento de Software de Servidor de Chat Persistente), hospedá-lo em algum lugar e colocar a URL aqui. Essa URL é enviada para o cliente de modo que quando um usuário tenta exibir/criar uma sala, ele ou ela é direcionado à sua solução de gerenciamento de sala personalizada.
+     Se quiser personalizar sua experiência de criação de sala e incluir seu fluxo de trabalho comercial específico, você pode criar uma solução de gerenciamento de sala personalizada usando o SDK (Kit de Desenvolvimento de Software) do Servidor de Chat Persistente, hospedá-lo em algum lugar e colocar a URL aqui. Essa URL é enviada para o cliente de modo que quando um usuário tenta exibir/criar uma sala, ele ou ela é direcionado à sua solução de gerenciamento de sala personalizada.
     
 7. Clique em **Confirmar**.
     

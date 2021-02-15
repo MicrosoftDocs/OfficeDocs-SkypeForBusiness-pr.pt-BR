@@ -31,6 +31,6 @@ Revise o resumo de comandos e anote qualquer erro ou mensagem de aviso exibido p
 > [!IMPORTANT]
 > Para que os relatórios do Reporting Services implantem com êxito e acessem os relatórios após a conclusão da implantação, você deve ter a porta TCP/IP 80 (e, opcionalmente, a porta TCP 443 para SSL, se você atribuir um certificado ao Reporting Services) aberta no Firewall do Windows com Segurança Avançada no SQL Server. Para obter detalhes, [consulte Configure the Windows Firewall to Allow SQL Server Access](https://go.microsoft.com/fwlink/p/?linkId=218031) for Microsoft SQL Server 2008 R2.
   
-Depois de analisar o resumo, clique em **Concluir** para concluir a instalação dos relatórios para o SQL Server Reporting Services.
+Depois de analisar o resumo, clique **em Concluir** para concluir a instalação dos relatórios para o SQL Server Reporting Services.
   
 

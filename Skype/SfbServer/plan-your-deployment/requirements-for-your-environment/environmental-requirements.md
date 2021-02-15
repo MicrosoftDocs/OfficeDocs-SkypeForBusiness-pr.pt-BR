@@ -49,7 +49,7 @@ Embora muitos dados de configuração para servidores e serviços sejam armazena
 ||Extensões para Lync Server 2013 e Lync Server 2010, para manter a compatibilidade com versões anteriores com suporte.  <br/> |
 |Dados  <br/> |URI do SIP do usuário e outras configurações do usuário  <br/> |
 ||Objetos de contato para aplicativos (como o aplicativo Grupo de Resposta e o aplicativo Atendente de Conferência).  <br/> |
-||Dados publicados para compatibilidade com compatibilidade.  <br/> |
+||Dados publicados para compatibilidade com compatibilidade com compatibilidade com compatibilidade.  <br/> |
 ||Um ponto de controle de serviço (SCP) para o armazenamento de Gerenciamento Central.  <br/> |
 ||Conta de Autenticação Kerberos (um objeto de computador opcional).  <br/> |
    
@@ -156,7 +156,7 @@ Uma topologia de floresta de recursos também é suportada; é onde uma floresta
   
 Observe que o Exchange Server pode ser implantado na mesma floresta de recursos que o Skype for Business Server ou em uma floresta diferente.
   
-Para implantar o Skype for Business Server 2015 nesse tipo de topologia, crie um objeto de usuário desabilitado na floresta de recursos para cada conta de usuário nas florestas de usuários (se o Microsoft Exchange Server já estiver no ambiente, isso pode ser feito para você). Em seguida, você precisará de uma ferramenta de sincronização de diretórios (como o Forefront Identity Manager ou FIM) para gerenciar contas de usuário durante seu ciclo de vida.
+Para implantar o Skype for Business Server 2015 nesse tipo de topologia, crie um objeto de usuário desabilitado na floresta de recursos para cada conta de usuário nas florestas de usuários (se o Microsoft Exchange Server já estiver no ambiente, isso pode ser feito para você). Em seguida, você precisará de uma ferramenta de sincronização de diretório (como o Forefront Identity Manager ou FIM) para gerenciar contas de usuário por meio de seu ciclo de vida.
   
 #### <a name="multiple-forests-in-a-skype-for-business-resource-forest-topology-with-exchange-online"></a>Várias florestas em uma topologia de floresta de recursos do Skype for Business com o Exchange Online
 <a name="BKMK_multipleforestopology"> </a>
@@ -369,7 +369,7 @@ O Skype for Business Server 2015 é capaz de usar o mesmo compartilhamento de ar
   
 - Um compartilhamento de arquivos precisa estar em das (direct attached storage) ou em uma rede de área de armazenamento (SAN), e isso inclui o SISTEMA de Arquivos Distribuídos (DFS), bem como uma matriz redundante de discos independentes (RAID) para armazenamentos de arquivos. Para ler mais sobre DFS para Windows Server 2012, confira [esta página DFS.](https://technet.microsoft.com/library/jj127250.aspx)
     
-- Recomendamos um cluster compartilhado para o compartilhamento de arquivos. Se você estiver usando um, deverá agrupar o Windows Server 2012 ou o Windows Server 2012 R2. O Windows Server 2008 R2 também é aceitável. Por que o Windows mais recente? As versões mais antigas podem não ter as permissões corretas para habilitar todos os recursos. Você pode usar o Administrador de Cluster para criar os compartilhamentos de arquivos, e isso, como criar compartilhamentos de arquivos em um [artigo de cluster,](https://support.microsoft.com/help/224967/how-to-create-file-shares-on-a-cluster) o ajudará com esses detalhes.
+- Recomendamos um cluster compartilhado para o compartilhamento de arquivos. Se você estiver usando um, deverá agrupar o Windows Server 2012 ou o Windows Server 2012 R2. O Windows Server 2008 R2 também é aceitável. Por que o Windows mais recente? As versões mais antigas podem não ter as permissões corretas para habilitar todos os recursos. Você pode usar o Administrador de Cluster para criar os compartilhamentos de arquivos, e isso, como criar compartilhamentos de arquivos em um artigo [de cluster,](https://support.microsoft.com/help/224967/how-to-create-file-shares-on-a-cluster) ajudará você com esses detalhes.
     
 > [!CAUTION] 
 > Você deve saber que o uso do NAS (armazenamento anexado à rede) como um compartilhamento de arquivos não é suportado, portanto, use uma das opções listadas acima. 

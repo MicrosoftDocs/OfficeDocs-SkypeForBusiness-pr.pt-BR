@@ -51,7 +51,7 @@ Um fluxo de trabalho também define configurações, como a mensagem de boas-vin
     > [!NOTE]
     > A Ferramenta de Configuração do Grupo de Resposta é aberta. Você também pode abrir a Ferramenta de Configuração do Grupo de Resposta diretamente de um navegador da Web digitando a seguinte URL: https:// \<webPoolFqdn\> /RgsConfig.
 
-6. Faça um dos seguintes:
+6. Siga um destes procedimentos:
 
    - Em **Criar um Novo Fluxo de Trabalho**, ao lado de Grupo de **Busca**, clique em **Criar**.
 

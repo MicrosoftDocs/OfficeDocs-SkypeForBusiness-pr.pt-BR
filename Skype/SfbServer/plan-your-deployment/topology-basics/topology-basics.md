@@ -251,7 +251,7 @@ Eles não podem ser alocados no servidor Standard Edition, mas podem ir para um 
 
 - Qualquer banco de dados back-end para um pool de front-end enterprise edition
 
-#### <a name="enterprise"></a>Enterprise
+#### <a name="enterprise"></a>Empresa
 
 Os bancos de dados a seguir podem ser alocados no mesmo SQL Server back-end:
 
