@@ -21,16 +21,16 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49834841"
 ---
-# <a name="exchange-unified-messaging-settings-planning-tool"></a><span data-ttu-id="d03aa-103">Configurações da Unificação de Mensagens do Exchange (Ferramenta de Planejamento)</span><span class="sxs-lookup"><span data-stu-id="d03aa-103">Exchange Unified Messaging Settings (Planning Tool)</span></span>
+# <a name="exchange-unified-messaging-settings-planning-tool"></a><span data-ttu-id="91132-103">Configurações da Unificação de Mensagens do Exchange (Ferramenta de Planejamento)</span><span class="sxs-lookup"><span data-stu-id="91132-103">Exchange Unified Messaging Settings (Planning Tool)</span></span>
 
-<span data-ttu-id="d03aa-104">O Skype for Business Server 2015 oferece suporte à integração com a Unificação de Mensagens (UM) do Exchange para combinar mensagens de voz e email em uma única infraestrutura de mensagens.</span><span class="sxs-lookup"><span data-stu-id="d03aa-104">Skype for Business Server 2015 supports integration with Exchange Unified Messaging (UM) for combining voice messaging and email messaging into a single messaging infrastructure.</span></span>
+<span data-ttu-id="91132-104">O Skype for Business Server 2015 oferece suporte à integração com a Unificação de Mensagens (UM) do Exchange para combinar mensagens de voz e email em uma única infraestrutura de mensagens.</span><span class="sxs-lookup"><span data-stu-id="91132-104">Skype for Business Server 2015 supports integration with Exchange Unified Messaging (UM) for combining voice messaging and email messaging into a single messaging infrastructure.</span></span>
 
-<span data-ttu-id="d03aa-105">Veja mais detalhes em:</span><span class="sxs-lookup"><span data-stu-id="d03aa-105">For details, see:</span></span>
+<span data-ttu-id="91132-105">Veja mais detalhes em:</span><span class="sxs-lookup"><span data-stu-id="91132-105">For details, see:</span></span>
 
-- [<span data-ttu-id="d03aa-106">Planejamento do Unified Messaging do Exchange</span><span class="sxs-lookup"><span data-stu-id="d03aa-106">Planning for Exchange Unified Messaging Integration</span></span>](https://technet.microsoft.com/library/e7c63a71-2d99-4aa9-b649-36c1a431bdf1.aspx)
+- [<span data-ttu-id="91132-106">Planejamento do Unified Messaging do Exchange</span><span class="sxs-lookup"><span data-stu-id="91132-106">Planning for Exchange Unified Messaging Integration</span></span>](https://technet.microsoft.com/library/e7c63a71-2d99-4aa9-b649-36c1a431bdf1.aspx)
 
-- <span data-ttu-id="d03aa-107">"Unificação de Mensagens" em [https://go.microsoft.com/fwlink/?LinkId=285341](https://go.microsoft.com/fwlink/?LinkId=285341)</span><span class="sxs-lookup"><span data-stu-id="d03aa-107">"Unified Messaging" at [https://go.microsoft.com/fwlink/?LinkId=285341](https://go.microsoft.com/fwlink/?LinkId=285341)</span></span>
+- <span data-ttu-id="91132-107">"Unificação de Mensagens" em [https://go.microsoft.com/fwlink/?LinkId=285341](https://go.microsoft.com/fwlink/?LinkId=285341)</span><span class="sxs-lookup"><span data-stu-id="91132-107">"Unified Messaging" at [https://go.microsoft.com/fwlink/?LinkId=285341](https://go.microsoft.com/fwlink/?LinkId=285341)</span></span>
 
-- <span data-ttu-id="d03aa-108">"Planejando a Unificação de Mensagens" em [https://go.microsoft.com/fwlink/?LinkId=285344](https://go.microsoft.com/fwlink/?LinkId=285344) .</span><span class="sxs-lookup"><span data-stu-id="d03aa-108">"Planning for Unified Messaging" at [https://go.microsoft.com/fwlink/?LinkId=285344](https://go.microsoft.com/fwlink/?LinkId=285344).</span></span>
+- <span data-ttu-id="91132-108">"Planejando a Unificação de Mensagens" em [https://go.microsoft.com/fwlink/?LinkId=285344](https://go.microsoft.com/fwlink/?LinkId=285344) .</span><span class="sxs-lookup"><span data-stu-id="91132-108">"Planning for Unified Messaging" at [https://go.microsoft.com/fwlink/?LinkId=285344](https://go.microsoft.com/fwlink/?LinkId=285344).</span></span>
 
 

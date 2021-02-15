@@ -22,8 +22,8 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49835641"
 ---
-# <a name="legacy-merge-start"></a><span data-ttu-id="45a7f-103">Início da Mesclagem de Legado</span><span class="sxs-lookup"><span data-stu-id="45a7f-103">Legacy Merge Start</span></span>
+# <a name="legacy-merge-start"></a><span data-ttu-id="a8422-103">Início da Mesclagem de Legado</span><span class="sxs-lookup"><span data-stu-id="a8422-103">Legacy Merge Start</span></span>
  
-<span data-ttu-id="45a7f-104">Para começar a mesclar uma implantação herdada com o Skype for Business Server, clique em **Próximo.**</span><span class="sxs-lookup"><span data-stu-id="45a7f-104">To begin merging a legacy deployment with Skype for Business Server, click **Next**.</span></span> 
+<span data-ttu-id="a8422-104">Para começar a mesclar uma implantação herdada com o Skype for Business Server, clique em **Próximo.**</span><span class="sxs-lookup"><span data-stu-id="a8422-104">To begin merging a legacy deployment with Skype for Business Server, click **Next**.</span></span> 
   
 

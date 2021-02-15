@@ -22,8 +22,8 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49835621"
 ---
-# <a name="certificate-assignment-invoke"></a><span data-ttu-id="f60aa-105">Atribuição de Certificado (Invocar)</span><span class="sxs-lookup"><span data-stu-id="f60aa-105">Certificate Assignment (Invoke)</span></span>
+# <a name="certificate-assignment-invoke"></a><span data-ttu-id="f5f65-105">Atribuição de Certificado (Invocar)</span><span class="sxs-lookup"><span data-stu-id="f5f65-105">Certificate Assignment (Invoke)</span></span>
  
-<span data-ttu-id="f60aa-p102">A página **Comandos em Execução** exibe as ações realizadas pelas tarefas para atribuir o certificado ao servidor. Quando as tarefas são concluídas, é possível exibir o log com os detalhes do processo de atribuição do certificado. Para exibir o arquivo de log, clique em **Exibir Log**.</span><span class="sxs-lookup"><span data-stu-id="f60aa-p102">The **Executing Commands** page displays the actions taken by the tasks to assign the certificate to the server. When the tasks are complete, you can view the log that details the certificate assignment process. To view the log file, click **View Log**.</span></span>
+<span data-ttu-id="f5f65-p102">A página **Comandos em Execução** exibe as ações realizadas pelas tarefas para atribuir o certificado ao servidor. Quando as tarefas são concluídas, é possível exibir o log com os detalhes do processo de atribuição do certificado. Para exibir o arquivo de log, clique em **Exibir Log**.</span><span class="sxs-lookup"><span data-stu-id="f5f65-p102">The **Executing Commands** page displays the actions taken by the tasks to assign the certificate to the server. When the tasks are complete, you can view the log that details the certificate assignment process. To view the log file, click **View Log**.</span></span>
   
 

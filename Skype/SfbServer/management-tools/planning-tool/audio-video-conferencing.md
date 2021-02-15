@@ -21,12 +21,12 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49835031"
 ---
-# <a name="audio-video-conferencing-planning-tool"></a><span data-ttu-id="81f0d-103">Audio Video Conferencing (Planning Tool)</span><span class="sxs-lookup"><span data-stu-id="81f0d-103">Audio Video Conferencing (Planning Tool)</span></span>
+# <a name="audio-video-conferencing-planning-tool"></a><span data-ttu-id="9754f-103">Audio Video Conferencing (Planning Tool)</span><span class="sxs-lookup"><span data-stu-id="9754f-103">Audio Video Conferencing (Planning Tool)</span></span>
  
-<span data-ttu-id="81f0d-104">A conferência de áudio/vídeo (A/V) do Skype for Business Server 2015 permite que os usuários participem de conferências de áudio ou vídeo em tempo real.</span><span class="sxs-lookup"><span data-stu-id="81f0d-104">Skype for Business Server 2015 Audio/video (A/V) conferencing enables users to participate in real-time audio or video conferences.</span></span>
+<span data-ttu-id="9754f-104">A conferência de áudio/vídeo (A/V) do Skype for Business Server 2015 permite que os usuários participem de conferências de áudio ou vídeo em tempo real.</span><span class="sxs-lookup"><span data-stu-id="9754f-104">Skype for Business Server 2015 Audio/video (A/V) conferencing enables users to participate in real-time audio or video conferences.</span></span>
   
-<span data-ttu-id="81f0d-105">Para detalhes de planejamento sobre como habilite a conferência A/V em sua organização, consulte o tópico a seguir e seus subtópicos:</span><span class="sxs-lookup"><span data-stu-id="81f0d-105">For planning details about enabling A/V conferencing in your organization, see the following topic and its subtopics:</span></span> 
+<span data-ttu-id="9754f-105">Para detalhes de planejamento sobre como habilite a conferência A/V em sua organização, consulte o tópico a seguir e seus subtópicos:</span><span class="sxs-lookup"><span data-stu-id="9754f-105">For planning details about enabling A/V conferencing in your organization, see the following topic and its subtopics:</span></span> 
   
-- [<span data-ttu-id="81f0d-106">Planejar a conferência no Skype for Business Server 2015</span><span class="sxs-lookup"><span data-stu-id="81f0d-106">Plan for conferencing in Skype for Business Server 2015</span></span>](../../plan-your-deployment/conferencing/conferencing.md)
+- [<span data-ttu-id="9754f-106">Planejar a conferência no Skype for Business Server 2015</span><span class="sxs-lookup"><span data-stu-id="9754f-106">Plan for conferencing in Skype for Business Server 2015</span></span>](../../plan-your-deployment/conferencing/conferencing.md)
     
 

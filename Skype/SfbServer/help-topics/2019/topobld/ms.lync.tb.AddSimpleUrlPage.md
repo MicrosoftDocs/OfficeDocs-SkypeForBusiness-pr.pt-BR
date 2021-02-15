@@ -22,16 +22,16 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49835831"
 ---
-# <a name="add-simple-url"></a><span data-ttu-id="f6c26-103">Adicionar URL Simples</span><span class="sxs-lookup"><span data-stu-id="f6c26-103">Add Simple URL</span></span>
+# <a name="add-simple-url"></a><span data-ttu-id="e880b-103">Adicionar URL Simples</span><span class="sxs-lookup"><span data-stu-id="e880b-103">Add Simple URL</span></span>
  
-<span data-ttu-id="f6c26-104">Para adicionar outras URLs simples à definição da implantação, especifique a URL da nova URL simples.</span><span class="sxs-lookup"><span data-stu-id="f6c26-104">To add additional simple URLs to the definition of the deployment, specify the URL of the new simple URL.</span></span> <span data-ttu-id="f6c26-105">O formato da URL é _http:// \<simple URL type\> . \<domain name\>_</span><span class="sxs-lookup"><span data-stu-id="f6c26-105">The format of the URL is  _http://\<simple URL type\>.\<domain name\>_</span></span> <span data-ttu-id="f6c26-106">ou _http:// \<domain name\> / \<simple URL type\>_, em que o tipo de URL simples é um dos seguintes:</span><span class="sxs-lookup"><span data-stu-id="f6c26-106">or _http://\<domain name\>/\<simple URL type\>_, where the simple URL type is one of the following:</span></span>
+<span data-ttu-id="e880b-104">Para adicionar outras URLs simples à definição da implantação, especifique a URL da nova URL simples.</span><span class="sxs-lookup"><span data-stu-id="e880b-104">To add additional simple URLs to the definition of the deployment, specify the URL of the new simple URL.</span></span> <span data-ttu-id="e880b-105">O formato da URL é _http:// \<simple URL type\> . \<domain name\>_</span><span class="sxs-lookup"><span data-stu-id="e880b-105">The format of the URL is  _http://\<simple URL type\>.\<domain name\>_</span></span> <span data-ttu-id="e880b-106">ou _http:// \<domain name\> / \<simple URL type\>_, em que o tipo de URL simples é um dos seguintes:</span><span class="sxs-lookup"><span data-stu-id="e880b-106">or _http://\<domain name\>/\<simple URL type\>_, where the simple URL type is one of the following:</span></span>
   
-- <span data-ttu-id="f6c26-107">Meet</span><span class="sxs-lookup"><span data-stu-id="f6c26-107">Meet</span></span>
+- <span data-ttu-id="e880b-107">Meet</span><span class="sxs-lookup"><span data-stu-id="e880b-107">Meet</span></span>
     
-- <span data-ttu-id="f6c26-108">Discagem</span><span class="sxs-lookup"><span data-stu-id="f6c26-108">Dial in</span></span>
+- <span data-ttu-id="e880b-108">Discagem</span><span class="sxs-lookup"><span data-stu-id="e880b-108">Dial in</span></span>
     
 > [!IMPORTANT]
-> <span data-ttu-id="f6c26-p102">É possível ter uma atividade de URL de Discagem simples e uma URL de Reunião simples por vez. Adicionar uma nova URL simples e torná-la a URL ativa definirá todas as solicitações futuras para usar a nova URL simples. Deixe a URL simples não ativa para lidar com conferências e outras solicitações feitas quando a URL simples mais antiga estava ativa.</span><span class="sxs-lookup"><span data-stu-id="f6c26-p102">You can have one Dial in simple URL and one Meet simple URL active at any time. Adding a new simple URL and making it the active URL will set all future requests to use the new simple URL. You leave the nonactive simple URL to handle conferences and other requests that were made when the older simple URL was active.</span></span> 
+> <span data-ttu-id="e880b-p102">É possível ter uma atividade de URL de Discagem simples e uma URL de Reunião simples por vez. Adicionar uma nova URL simples e torná-la a URL ativa definirá todas as solicitações futuras para usar a nova URL simples. Deixe a URL simples não ativa para lidar com conferências e outras solicitações feitas quando a URL simples mais antiga estava ativa.</span><span class="sxs-lookup"><span data-stu-id="e880b-p102">You can have one Dial in simple URL and one Meet simple URL active at any time. Adding a new simple URL and making it the active URL will set all future requests to use the new simple URL. You leave the nonactive simple URL to handle conferences and other requests that were made when the older simple URL was active.</span></span> 
   
 
 

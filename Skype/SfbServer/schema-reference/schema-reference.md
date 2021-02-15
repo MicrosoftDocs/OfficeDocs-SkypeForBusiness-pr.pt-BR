@@ -19,17 +19,17 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49834311"
 ---
-# <a name="schema-reference-for-skype-for-business-server-2015"></a><span data-ttu-id="48774-102">Referência de esquema do Skype for Business Server 2015</span><span class="sxs-lookup"><span data-stu-id="48774-102">Schema reference for Skype for Business Server 2015</span></span>
+# <a name="schema-reference-for-skype-for-business-server-2015"></a><span data-ttu-id="1fdfd-102">Referência de esquema do Skype for Business Server 2015</span><span class="sxs-lookup"><span data-stu-id="1fdfd-102">Schema reference for Skype for Business Server 2015</span></span>
  
 
-## <a name="in-this-section"></a><span data-ttu-id="48774-103">Nesta seção</span><span class="sxs-lookup"><span data-stu-id="48774-103">In this section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="1fdfd-103">Nesta seção</span><span class="sxs-lookup"><span data-stu-id="1fdfd-103">In this section</span></span>
 
-- [<span data-ttu-id="48774-104">Esquema de banco de dados de registro de detalhes das chamadas (CDR) no Skype for Business Server 2015</span><span class="sxs-lookup"><span data-stu-id="48774-104">Call detail recording (CDR) database schema in Skype for Business Server 2015</span></span>](call-detail-recording-cdr-database-schema/call-detail-recording-cdr-database-schema.md)
+- [<span data-ttu-id="1fdfd-104">Esquema de banco de dados de registro de detalhes das chamadas (CDR) no Skype for Business Server 2015</span><span class="sxs-lookup"><span data-stu-id="1fdfd-104">Call detail recording (CDR) database schema in Skype for Business Server 2015</span></span>](call-detail-recording-cdr-database-schema/call-detail-recording-cdr-database-schema.md)
     
-- [<span data-ttu-id="48774-105">Esquema de banco de dados de Qualidade da Experiência (QoE)</span><span class="sxs-lookup"><span data-stu-id="48774-105">Quality of Experience (QoE) database schema</span></span>](quality-of-experience-qoe-database-schema/quality-of-experience-qoe-database-schema.md)
+- [<span data-ttu-id="1fdfd-105">Esquema de banco de dados de Qualidade da Experiência (QoE)</span><span class="sxs-lookup"><span data-stu-id="1fdfd-105">Quality of Experience (QoE) database schema</span></span>](quality-of-experience-qoe-database-schema/quality-of-experience-qoe-database-schema.md)
     
-- [<span data-ttu-id="48774-106">Esquema do banco de dados de Chat Persistente</span><span class="sxs-lookup"><span data-stu-id="48774-106">Persistent Chat database schema</span></span>](persistent-chat-database-schema/persistent-chat-database-schema.md)
+- [<span data-ttu-id="1fdfd-106">Esquema do banco de dados de Chat Persistente</span><span class="sxs-lookup"><span data-stu-id="1fdfd-106">Persistent Chat database schema</span></span>](persistent-chat-database-schema/persistent-chat-database-schema.md)
     
-- [<span data-ttu-id="48774-107">Extensões, classes e atributos do esquema do Active Directory</span><span class="sxs-lookup"><span data-stu-id="48774-107">Active Directory schema extensions, classes, and attributes</span></span>](active-directory-schema-extensions-classes-and-attributes/active-directory-schema-extensions-classes-and-attributes.md)
+- [<span data-ttu-id="1fdfd-107">Extensões, classes e atributos do esquema do Active Directory</span><span class="sxs-lookup"><span data-stu-id="1fdfd-107">Active Directory schema extensions, classes, and attributes</span></span>](active-directory-schema-extensions-classes-and-attributes/active-directory-schema-extensions-classes-and-attributes.md)
     
 

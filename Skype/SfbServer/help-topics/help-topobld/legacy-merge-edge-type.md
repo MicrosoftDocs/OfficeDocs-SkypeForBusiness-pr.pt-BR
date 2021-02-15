@@ -22,8 +22,8 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49835301"
 ---
-# <a name="legacy-merge-edge-type"></a><span data-ttu-id="a35b2-104">Tipo de Borda de Mesclagem de Legado</span><span class="sxs-lookup"><span data-stu-id="a35b2-104">Legacy Merge Edge Type</span></span>
+# <a name="legacy-merge-edge-type"></a><span data-ttu-id="f7d7d-104">Tipo de Borda de Mesclagem de Legado</span><span class="sxs-lookup"><span data-stu-id="f7d7d-104">Legacy Merge Edge Type</span></span>
  
-<span data-ttu-id="a35b2-105">Para um **Servidor de Borda Único** ou servidor de **Borda consolidada balanceada por carga**, clique em **Próximo** para especificar informações de configuração.</span><span class="sxs-lookup"><span data-stu-id="a35b2-105">For a **Single Edge Server** or **Load-balanced consolidated Edge** server, click **Next** to specify configuration information.</span></span> <span data-ttu-id="a35b2-106">Para uma **Borda Expandida,** a configuração de cada servidor deve ser alterada para uma configuração de Borda consolidada antes de poder ser mesclada com o Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="a35b2-106">For an **Expanded Edge**, each server's configuration must be changed to a consolidated Edge configuration before it can be merged with Lync Server 2013.</span></span> 
+<span data-ttu-id="f7d7d-105">Para um **Servidor de Borda Único** ou servidor de **Borda consolidada balanceada por carga**, clique em **Próximo** para especificar informações de configuração.</span><span class="sxs-lookup"><span data-stu-id="f7d7d-105">For a **Single Edge Server** or **Load-balanced consolidated Edge** server, click **Next** to specify configuration information.</span></span> <span data-ttu-id="f7d7d-106">Para uma **Borda Expandida,** a configuração de cada servidor deve ser alterada para uma configuração de Borda consolidada antes de poder ser mesclada com o Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="f7d7d-106">For an **Expanded Edge**, each server's configuration must be changed to a consolidated Edge configuration before it can be merged with Lync Server 2013.</span></span> 
   
 

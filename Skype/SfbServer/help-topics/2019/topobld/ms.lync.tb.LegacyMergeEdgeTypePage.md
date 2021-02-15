@@ -22,8 +22,8 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49833441"
 ---
-# <a name="legacy-merge-edge-type"></a><span data-ttu-id="0fa21-104">Tipo de Borda de Mesclagem de Legado</span><span class="sxs-lookup"><span data-stu-id="0fa21-104">Legacy Merge Edge Type</span></span>
+# <a name="legacy-merge-edge-type"></a><span data-ttu-id="5752d-104">Tipo de Borda de Mesclagem de Legado</span><span class="sxs-lookup"><span data-stu-id="5752d-104">Legacy Merge Edge Type</span></span>
  
-<span data-ttu-id="0fa21-105">Para um **Servidor de Borda Único** ou servidor de **Borda consolidada balanceada por carga**, clique em **Próximo** para especificar informações de configuração.</span><span class="sxs-lookup"><span data-stu-id="0fa21-105">For a **Single Edge Server** or **Load-balanced consolidated Edge** server, click **Next** to specify configuration information.</span></span> <span data-ttu-id="0fa21-106">Para uma **Borda Expandida,** a configuração de cada servidor deve ser alterada para uma configuração de Borda consolidada antes que ela possa ser mesclada.</span><span class="sxs-lookup"><span data-stu-id="0fa21-106">For an **Expanded Edge**, each server's configuration must be changed to a consolidated Edge configuration before it can be merged.</span></span> 
+<span data-ttu-id="5752d-105">Para um **Servidor de Borda Único** ou servidor de **Borda consolidada balanceada por carga**, clique em **Próximo** para especificar informações de configuração.</span><span class="sxs-lookup"><span data-stu-id="5752d-105">For a **Single Edge Server** or **Load-balanced consolidated Edge** server, click **Next** to specify configuration information.</span></span> <span data-ttu-id="5752d-106">Para uma **Borda Expandida,** a configuração de cada servidor deve ser alterada para uma configuração de Borda consolidada antes que ela possa ser mesclada.</span><span class="sxs-lookup"><span data-stu-id="5752d-106">For an **Expanded Edge**, each server's configuration must be changed to a consolidated Edge configuration before it can be merged.</span></span> 
   
 

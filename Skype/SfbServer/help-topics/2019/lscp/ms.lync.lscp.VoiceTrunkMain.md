@@ -22,17 +22,17 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49833551"
 ---
-# <a name="trunk-configuration"></a><span data-ttu-id="e4445-104">Configuração de Tronco</span><span class="sxs-lookup"><span data-stu-id="e4445-104">Trunk Configuration</span></span>
+# <a name="trunk-configuration"></a><span data-ttu-id="d3986-104">Configuração de Tronco</span><span class="sxs-lookup"><span data-stu-id="d3986-104">Trunk Configuration</span></span>
 
-<span data-ttu-id="e4445-105">O que você deseja fazer?</span><span class="sxs-lookup"><span data-stu-id="e4445-105">What do you want to do?</span></span> <span data-ttu-id="e4445-106">Clique no link para a tarefa que você deseja executar.</span><span class="sxs-lookup"><span data-stu-id="e4445-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="d3986-105">O que você deseja fazer?</span><span class="sxs-lookup"><span data-stu-id="d3986-105">What do you want to do?</span></span> <span data-ttu-id="d3986-106">Clique no link para a tarefa que você deseja executar.</span><span class="sxs-lookup"><span data-stu-id="d3986-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="e4445-107">Configurar um tronco com bypass de mídia no Skype for Business Server</span><span class="sxs-lookup"><span data-stu-id="e4445-107">Configure a trunk with media bypass in Skype for Business Server</span></span>](../../../deploy/deploy-enterprise-voice/configure-trunk-with-media-bypass.md)
+- [<span data-ttu-id="d3986-107">Configurar um tronco com bypass de mídia no Skype for Business Server</span><span class="sxs-lookup"><span data-stu-id="d3986-107">Configure a trunk with media bypass in Skype for Business Server</span></span>](../../../deploy/deploy-enterprise-voice/configure-trunk-with-media-bypass.md)
 
-- [<span data-ttu-id="e4445-108">Configurar um tronco sem bypass de mídia no Skype for Business Server</span><span class="sxs-lookup"><span data-stu-id="e4445-108">Configure a trunk without media bypass in Skype for Business Server</span></span>](../../../deploy/deploy-enterprise-voice/configure-trunk-without-media-bypass.md)
+- [<span data-ttu-id="d3986-108">Configurar um tronco sem bypass de mídia no Skype for Business Server</span><span class="sxs-lookup"><span data-stu-id="d3986-108">Configure a trunk without media bypass in Skype for Business Server</span></span>](../../../deploy/deploy-enterprise-voice/configure-trunk-without-media-bypass.md)
 
-- [<span data-ttu-id="e4445-109">Criar ou modificar uma regra de conversão para apresentação de ID chamada no Skype for Business Server</span><span class="sxs-lookup"><span data-stu-id="e4445-109">Create or modify a translation rule for called ID presentation in Skype for Business Server</span></span>](../../../deploy/deploy-enterprise-voice/called-id-presentation-rules.md)
+- [<span data-ttu-id="d3986-109">Criar ou modificar uma regra de conversão para apresentação de ID chamada no Skype for Business Server</span><span class="sxs-lookup"><span data-stu-id="d3986-109">Create or modify a translation rule for called ID presentation in Skype for Business Server</span></span>](../../../deploy/deploy-enterprise-voice/called-id-presentation-rules.md)
 
-- [<span data-ttu-id="e4445-110">Criar ou modificar uma regra de conversão manualmente</span><span class="sxs-lookup"><span data-stu-id="e4445-110">Create or Modify a Translation Rule Manually</span></span>](https://technet.microsoft.com/library/049d1db3-af58-48c5-be89-52e1d068a4bd.aspx)
+- [<span data-ttu-id="d3986-110">Criar ou modificar uma regra de conversão manualmente</span><span class="sxs-lookup"><span data-stu-id="d3986-110">Create or Modify a Translation Rule Manually</span></span>](https://technet.microsoft.com/library/049d1db3-af58-48c5-be89-52e1d068a4bd.aspx)
 
 
 
