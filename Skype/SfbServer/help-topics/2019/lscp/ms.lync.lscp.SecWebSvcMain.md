@@ -22,15 +22,15 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49836361"
 ---
-# <a name="web-service-security-settings"></a><span data-ttu-id="c623b-104">Configurações de Segurança de Serviços Web</span><span class="sxs-lookup"><span data-stu-id="c623b-104">Web Service Security Settings</span></span>
+# <a name="web-service-security-settings"></a><span data-ttu-id="70a7d-104">Configurações de Segurança de Serviços Web</span><span class="sxs-lookup"><span data-stu-id="70a7d-104">Web Service Security Settings</span></span>
 
-<span data-ttu-id="c623b-105">O que você deseja fazer?</span><span class="sxs-lookup"><span data-stu-id="c623b-105">What do you want to do?</span></span> <span data-ttu-id="c623b-106">Clique no link para a tarefa que você deseja executar.</span><span class="sxs-lookup"><span data-stu-id="c623b-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="70a7d-105">O que você deseja fazer?</span><span class="sxs-lookup"><span data-stu-id="70a7d-105">What do you want to do?</span></span> <span data-ttu-id="70a7d-106">Clique no link para a tarefa que você deseja executar.</span><span class="sxs-lookup"><span data-stu-id="70a7d-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="c623b-107">Gerenciar definições de configuração do Serviço Web no Skype for Business Server</span><span class="sxs-lookup"><span data-stu-id="c623b-107">Manage Web Service configuration settings in Skype for Business Server</span></span>](../../../manage/authentication/web-service-configuration-settings.md)
+- [<span data-ttu-id="70a7d-107">Gerenciar definições de configuração do Serviço Web no Skype for Business Server</span><span class="sxs-lookup"><span data-stu-id="70a7d-107">Manage Web Service configuration settings in Skype for Business Server</span></span>](../../../manage/authentication/web-service-configuration-settings.md)
 
-- [<span data-ttu-id="c623b-108">Modificar um serviço Web existente</span><span class="sxs-lookup"><span data-stu-id="c623b-108">Modify an Existing Web Service</span></span>](https://technet.microsoft.com/library/bd9c7aa5-d31c-4fab-b31d-8baae26b1296.aspx)
+- [<span data-ttu-id="70a7d-108">Modificar um serviço Web existente</span><span class="sxs-lookup"><span data-stu-id="70a7d-108">Modify an Existing Web Service</span></span>](https://technet.microsoft.com/library/bd9c7aa5-d31c-4fab-b31d-8baae26b1296.aspx)
 
-- [<span data-ttu-id="c623b-109">Excluir um serviço Web</span><span class="sxs-lookup"><span data-stu-id="c623b-109">Delete a Web Service</span></span>](https://technet.microsoft.com/library/c2b96f4c-4b07-48e6-9ca6-55bc0e0cf5a1.aspx)
+- [<span data-ttu-id="70a7d-109">Excluir um serviço Web</span><span class="sxs-lookup"><span data-stu-id="70a7d-109">Delete a Web Service</span></span>](https://technet.microsoft.com/library/c2b96f4c-4b07-48e6-9ca6-55bc0e0cf5a1.aspx)
 
 
 

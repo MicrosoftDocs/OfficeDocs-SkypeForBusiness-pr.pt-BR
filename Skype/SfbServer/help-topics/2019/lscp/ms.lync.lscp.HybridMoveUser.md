@@ -22,8 +22,8 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49836541"
 ---
-# <a name="hybrid-wizard-move-user"></a><span data-ttu-id="fae07-104">Assistente Híbrido: Mover Usuário</span><span class="sxs-lookup"><span data-stu-id="fae07-104">Hybrid wizard: Move User</span></span>
+# <a name="hybrid-wizard-move-user"></a><span data-ttu-id="d6846-104">Assistente Híbrido: Mover Usuário</span><span class="sxs-lookup"><span data-stu-id="d6846-104">Hybrid wizard: Move User</span></span>
 
-<span data-ttu-id="fae07-105">Use o assistente Mover Usuários para mover contas de usuário que estão em um pool local para serem ativas no Skype for Business Online.</span><span class="sxs-lookup"><span data-stu-id="fae07-105">Use the Move Users wizard to move user accounts homed on an on-premises pool to be homed on Skype for Business Online.</span></span> <span data-ttu-id="fae07-106">Para obter mais informações, [consulte Usar o assistente de Gerenciabilidade Híbrida.](https://technet.microsoft.com/library/d777f79b-a740-4aba-a9e2-c91f0315b6f8.aspx)</span><span class="sxs-lookup"><span data-stu-id="fae07-106">For more information, see [Use the Hybrid Manageability wizard](https://technet.microsoft.com/library/d777f79b-a740-4aba-a9e2-c91f0315b6f8.aspx).</span></span>
+<span data-ttu-id="d6846-105">Use o assistente Mover Usuários para mover contas de usuário que estão em um pool local para serem ativas no Skype for Business Online.</span><span class="sxs-lookup"><span data-stu-id="d6846-105">Use the Move Users wizard to move user accounts homed on an on-premises pool to be homed on Skype for Business Online.</span></span> <span data-ttu-id="d6846-106">Para obter mais informações, [consulte Usar o assistente de Gerenciabilidade Híbrida.](https://technet.microsoft.com/library/d777f79b-a740-4aba-a9e2-c91f0315b6f8.aspx)</span><span class="sxs-lookup"><span data-stu-id="d6846-106">For more information, see [Use the Hybrid Manageability wizard](https://technet.microsoft.com/library/d777f79b-a740-4aba-a9e2-c91f0315b6f8.aspx).</span></span>
 
 

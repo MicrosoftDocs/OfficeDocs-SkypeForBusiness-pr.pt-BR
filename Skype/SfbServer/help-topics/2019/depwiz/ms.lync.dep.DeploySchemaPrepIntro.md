@@ -22,8 +22,8 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49836711"
 ---
-# <a name="prepare-schema-intro"></a><span data-ttu-id="8df1b-104">Preparar Esquema (Introdução)</span><span class="sxs-lookup"><span data-stu-id="8df1b-104">Prepare Schema (Intro)</span></span>
+# <a name="prepare-schema-intro"></a><span data-ttu-id="fe78a-104">Preparar Esquema (Introdução)</span><span class="sxs-lookup"><span data-stu-id="fe78a-104">Prepare Schema (Intro)</span></span>
  
-<span data-ttu-id="8df1b-105">Para iniciar a tarefa de extensão do esquema do Skype for Business Server, comece na página Preparar **Esquema.**</span><span class="sxs-lookup"><span data-stu-id="8df1b-105">To start the task to extend the schema for Skype for Business Server, you begin on the **Prepare Schema** page.</span></span> <span data-ttu-id="8df1b-106">Clique em **Avançar** para continuar com a preparação do esquema.</span><span class="sxs-lookup"><span data-stu-id="8df1b-106">Click **Next** to continue with the schema preparation.</span></span>
+<span data-ttu-id="fe78a-105">Para iniciar a tarefa de extensão do esquema do Skype for Business Server, comece na página Preparar **Esquema.**</span><span class="sxs-lookup"><span data-stu-id="fe78a-105">To start the task to extend the schema for Skype for Business Server, you begin on the **Prepare Schema** page.</span></span> <span data-ttu-id="fe78a-106">Clique em **Avançar** para continuar com a preparação do esquema.</span><span class="sxs-lookup"><span data-stu-id="fe78a-106">Click **Next** to continue with the schema preparation.</span></span>
   
 

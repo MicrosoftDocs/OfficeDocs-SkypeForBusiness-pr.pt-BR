@@ -22,15 +22,15 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49836411"
 ---
-# <a name="registrar-security-settings-create-new-or-edit-existing"></a><span data-ttu-id="4e322-104">Definições de Segurança de Registrador: Criar Novas ou Editar Existentes</span><span class="sxs-lookup"><span data-stu-id="4e322-104">Registrar Security Settings: Create New or Edit Existing</span></span>
+# <a name="registrar-security-settings-create-new-or-edit-existing"></a><span data-ttu-id="c4f8c-104">Definições de Segurança de Registrador: Criar Novas ou Editar Existentes</span><span class="sxs-lookup"><span data-stu-id="c4f8c-104">Registrar Security Settings: Create New or Edit Existing</span></span>
 
-<span data-ttu-id="4e322-105">O que você deseja fazer?</span><span class="sxs-lookup"><span data-stu-id="4e322-105">What do you want to do?</span></span> <span data-ttu-id="4e322-106">Clique no link para a tarefa que você deseja executar.</span><span class="sxs-lookup"><span data-stu-id="4e322-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="c4f8c-105">O que você deseja fazer?</span><span class="sxs-lookup"><span data-stu-id="c4f8c-105">What do you want to do?</span></span> <span data-ttu-id="c4f8c-106">Clique no link para a tarefa que você deseja executar.</span><span class="sxs-lookup"><span data-stu-id="c4f8c-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="4e322-107">Gerenciar definições de configuração do Registrador no Skype for Business Server</span><span class="sxs-lookup"><span data-stu-id="4e322-107">Manage Registrar configuration settings in Skype for Business Server</span></span>](../../../manage/authentication/registrar-configuration-settings.md)
+- [<span data-ttu-id="c4f8c-107">Gerenciar definições de configuração do Registrador no Skype for Business Server</span><span class="sxs-lookup"><span data-stu-id="c4f8c-107">Manage Registrar configuration settings in Skype for Business Server</span></span>](../../../manage/authentication/registrar-configuration-settings.md)
 
-- [<span data-ttu-id="4e322-108">Modificar um Registrador Existente</span><span class="sxs-lookup"><span data-stu-id="4e322-108">Modify an Existing Registrar</span></span>](https://technet.microsoft.com/library/a8931511-3e66-49ed-a3ec-03bcd61ce1f0.aspx)
+- [<span data-ttu-id="c4f8c-108">Modificar um Registrador Existente</span><span class="sxs-lookup"><span data-stu-id="c4f8c-108">Modify an Existing Registrar</span></span>](https://technet.microsoft.com/library/a8931511-3e66-49ed-a3ec-03bcd61ce1f0.aspx)
 
-- [<span data-ttu-id="4e322-109">Excluir um Registrador</span><span class="sxs-lookup"><span data-stu-id="4e322-109">Delete a Registrar</span></span>](https://technet.microsoft.com/library/ae43cd75-cae4-4f78-b037-779a2cdb583b.aspx)
+- [<span data-ttu-id="c4f8c-109">Excluir um Registrador</span><span class="sxs-lookup"><span data-stu-id="c4f8c-109">Delete a Registrar</span></span>](https://technet.microsoft.com/library/ae43cd75-cae4-4f78-b037-779a2cdb583b.aspx)
 
 
 

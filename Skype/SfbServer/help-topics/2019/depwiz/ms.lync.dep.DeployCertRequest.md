@@ -22,8 +22,8 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49836871"
 ---
-# <a name="deployment-wizard-request-a-certificate"></a><span data-ttu-id="566ea-103">Assistente de Implantação: Solicitar um Certificado</span><span class="sxs-lookup"><span data-stu-id="566ea-103">Deployment Wizard: Request a Certificate</span></span>
+# <a name="deployment-wizard-request-a-certificate"></a><span data-ttu-id="3b82e-103">Assistente de Implantação: Solicitar um Certificado</span><span class="sxs-lookup"><span data-stu-id="3b82e-103">Deployment Wizard: Request a Certificate</span></span>
  
-<span data-ttu-id="566ea-104">Para obter detalhes sobre como usar o Assistente de Implantação para instalar o Skype for Business Server, consulte [Instalar o Skype for Business Server.](../../../deploy/install/install.md)</span><span class="sxs-lookup"><span data-stu-id="566ea-104">For details about using Deployment Wizard to install Skype for Business Server, see [Install Skype for Business Server](../../../deploy/install/install.md).</span></span>
+<span data-ttu-id="3b82e-104">Para obter detalhes sobre como usar o Assistente de Implantação para instalar o Skype for Business Server, consulte [Instalar o Skype for Business Server.](../../../deploy/install/install.md)</span><span class="sxs-lookup"><span data-stu-id="3b82e-104">For details about using Deployment Wizard to install Skype for Business Server, see [Install Skype for Business Server](../../../deploy/install/install.md).</span></span>
   
 

@@ -34,21 +34,21 @@ productDirectory:
   items:
   - title: Planeje a atualização (Comece aqui!)
     imageSrc: https://docs.microsoft.com/office/media/icons/get-started-teams.svg
-    summary: Não importa se você está fazendo a atualização do Skype for Business online (31 de julho de 2021) ou de mover cenários do seu ambiente local do Skype for Business para o Teams, uma transição bem-sucedida resolve a prontidão técnica e do usuário. Descubra nossa estrutura comprovada, práticas recomendadas e recursos projetados para ajudá-lo a facilitar uma transição bem-sucedida para o Microsoft Teams do Skype for Business Online, do Skype for Business Server ou de um ambiente híbrido. Público-alvo – tudo (patrocinadores empresariais, administradores de ti, preparação do usuário/gerente de alterações, líder do projeto)
+    summary: Se você estiver atualizando para o Teams antes da aposentadoria do Skype for Business Online (31 de julho de 2021) ou movendo cenários de seu ambiente local do Skype for Business para o Teams, uma transição bem-sucedida aborda a preparação técnica e do usuário. Descubra nossa estrutura comprovada, práticas recomendadas e recursos projetados para ajudá-lo a facilitar uma transição bem-sucedida para o Teams do Skype for Business Online, Skype for Business Server ou um ambiente híbrido. Audiência – Tudo (Patrocinadores comerciais, administradores de IT, gerente de preparação/mudança do usuário, líder do projeto)
     url: https://microsoftteams.eventbuilder.com/PlanYourUpgrade
-  - title: Implementar a atualização do Microsoft Teams
+  - title: Implementar a atualização do Teams
     imageSrc: https://docs.microsoft.com/office/media/icons/hybrid-teams.svg
-    summary: Junte-se a nós para identificar e preparar-se para executar a melhor abordagem técnica para mover todas as cargas de trabalho para o Teams, com base em seus objetivos e no seu ambiente atual do Skype for Business. A maioria dos clientes que concluíram transições bem-sucedidas têm equipes com o Skype for Business Online, o Skype for Business Server ou a implementação híbrida atual. Esta sessão compartilhará as principais considerações e recursos valiosos para ajudá-lo a definir a melhor estratégia de migração para a sua organização. Audiência-administradores de ti
+    summary: Junte-se a nós para identificar e preparar-se para executar a melhor abordagem técnica para mover todas as cargas de trabalho para o Teams, com base em suas metas e em seu ambiente atual do Skype for Business. A maioria dos clientes que concluíram transições bem-sucedidas habilitaram o Teams juntamente com o Skype for Business Online atual, o Skype for Business Server ou a implementação híbrida. Esta sessão compartilhará considerações importantes e recursos valiosos para ajudá-lo a definir a melhor estratégia de migração para sua organização. Audiência – administradores de IT
     url: https://microsoftteams.eventbuilder.com/ImplementTeamsUpgrade
 additionalContent:
   sections:
   - items:
-    - title: Exibir esses workshops durante o seu próprio tempo
-      summary: Acesse a atualização para o Microsoft Teams no YouTube.
+    - title: Exibir esses workshops no seu próprio horário
+      summary: Visite Atualizar para o Microsoft Teams no YouTube.
       url: https://aka.ms/UpgradeOnDemand
-    - title: Expandindo seus cenários de equipe?
-      summary: Confira nosso giz em equipe Converse workshops para profissionais de ti.
+    - title: Expandindo seus cenários do Teams?
+      summary: Confira nossos workshops de Talk de Giz do Teams para profissionais de IT.
       url: https://aka.ms/TeamsChalkTalks
     - title: Novo usuário do Teams?
-      summary: Saiba mais sobre como começar a usar o Microsoft Teams.
+      summary: Saiba mais sobre como começar a trabalhar com o Teams.
       url: https://docs.microsoft.com/microsoftteams/teams-overview

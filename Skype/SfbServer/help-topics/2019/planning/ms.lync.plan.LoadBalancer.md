@@ -23,11 +23,11 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49836101"
 ---
-# <a name="load-balancer-planning-tool"></a><span data-ttu-id="97a96-105">Load Balancer (Planning Tool)</span><span class="sxs-lookup"><span data-stu-id="97a96-105">Load Balancer (Planning Tool)</span></span>
+# <a name="load-balancer-planning-tool"></a><span data-ttu-id="ccceb-105">Load Balancer (Planning Tool)</span><span class="sxs-lookup"><span data-stu-id="ccceb-105">Load Balancer (Planning Tool)</span></span>
  
-<span data-ttu-id="97a96-106">Se você tiver pools de Front-End, pools de Diretores ou pools de Servidor de Borda, precisará implantar o balanceamento de carga para esses pools.</span><span class="sxs-lookup"><span data-stu-id="97a96-106">If you have Front End pools, Director pools, or Edge Server pools, you need to deploy load balancing for these pools.</span></span> <span data-ttu-id="97a96-107">O balanceamento de carga distribui o tráfego entre os servidores em um pool.</span><span class="sxs-lookup"><span data-stu-id="97a96-107">Load balancing distributes the traffic among the servers in a pool.</span></span> <span data-ttu-id="97a96-108">Veja mais detalhes em:</span><span class="sxs-lookup"><span data-stu-id="97a96-108">For details, see:</span></span>
+<span data-ttu-id="ccceb-106">Se você tiver pools de Front-End, pools de Diretores ou pools de Servidor de Borda, precisará implantar o balanceamento de carga para esses pools.</span><span class="sxs-lookup"><span data-stu-id="ccceb-106">If you have Front End pools, Director pools, or Edge Server pools, you need to deploy load balancing for these pools.</span></span> <span data-ttu-id="ccceb-107">O balanceamento de carga distribui o tráfego entre os servidores em um pool.</span><span class="sxs-lookup"><span data-stu-id="ccceb-107">Load balancing distributes the traffic among the servers in a pool.</span></span> <span data-ttu-id="ccceb-108">Veja mais detalhes em:</span><span class="sxs-lookup"><span data-stu-id="ccceb-108">For details, see:</span></span>
   
-- [<span data-ttu-id="97a96-109">Requisitos de balanceamento de carga para o Skype for Business</span><span class="sxs-lookup"><span data-stu-id="97a96-109">Load balancing requirements for Skype for Business</span></span>](../../../plan-your-deployment/network-requirements/load-balancing.md)
+- [<span data-ttu-id="ccceb-109">Requisitos de balanceamento de carga para o Skype for Business</span><span class="sxs-lookup"><span data-stu-id="ccceb-109">Load balancing requirements for Skype for Business</span></span>](../../../plan-your-deployment/network-requirements/load-balancing.md)
     
 
     

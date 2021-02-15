@@ -1,5 +1,5 @@
 ---
-title: Configurações de segurança do serviço Web Criam Novas ou Modificam Existentes
+title: Configurações de Segurança de Serviço Web Criar Novas ou Modificar Existentes
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -22,15 +22,15 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49836381"
 ---
-# <a name="web-service-security-settings-create-new-or-modify-existing"></a><span data-ttu-id="2b53e-104">Configurações de Segurança de Serviços Web: Criar Novas ou Modificar Existentes</span><span class="sxs-lookup"><span data-stu-id="2b53e-104">Web Service Security Settings: Create New or Modify Existing</span></span>
+# <a name="web-service-security-settings-create-new-or-modify-existing"></a><span data-ttu-id="344d2-104">Configurações de Segurança de Serviços Web: Criar Novas ou Modificar Existentes</span><span class="sxs-lookup"><span data-stu-id="344d2-104">Web Service Security Settings: Create New or Modify Existing</span></span>
 
-<span data-ttu-id="2b53e-105">O que você deseja fazer?</span><span class="sxs-lookup"><span data-stu-id="2b53e-105">What do you want to do?</span></span> <span data-ttu-id="2b53e-106">Clique no link para a tarefa que você deseja executar.</span><span class="sxs-lookup"><span data-stu-id="2b53e-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="344d2-105">O que você deseja fazer?</span><span class="sxs-lookup"><span data-stu-id="344d2-105">What do you want to do?</span></span> <span data-ttu-id="344d2-106">Clique no link para a tarefa que você deseja executar.</span><span class="sxs-lookup"><span data-stu-id="344d2-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="2b53e-107">Gerenciar definições de configuração do Serviço Web no Skype for Business Server</span><span class="sxs-lookup"><span data-stu-id="2b53e-107">Manage Web Service configuration settings in Skype for Business Server</span></span>](../../../manage/authentication/web-service-configuration-settings.md)
+- [<span data-ttu-id="344d2-107">Gerenciar definições de configuração do Serviço Web no Skype for Business Server</span><span class="sxs-lookup"><span data-stu-id="344d2-107">Manage Web Service configuration settings in Skype for Business Server</span></span>](../../../manage/authentication/web-service-configuration-settings.md)
 
-- [<span data-ttu-id="2b53e-108">Modificar um serviço Web existente</span><span class="sxs-lookup"><span data-stu-id="2b53e-108">Modify an Existing Web Service</span></span>](https://technet.microsoft.com/library/bd9c7aa5-d31c-4fab-b31d-8baae26b1296.aspx)
+- [<span data-ttu-id="344d2-108">Modificar um serviço Web existente</span><span class="sxs-lookup"><span data-stu-id="344d2-108">Modify an Existing Web Service</span></span>](https://technet.microsoft.com/library/bd9c7aa5-d31c-4fab-b31d-8baae26b1296.aspx)
 
-- [<span data-ttu-id="2b53e-109">Excluir um serviço Web</span><span class="sxs-lookup"><span data-stu-id="2b53e-109">Delete a Web Service</span></span>](https://technet.microsoft.com/library/c2b96f4c-4b07-48e6-9ca6-55bc0e0cf5a1.aspx)
+- [<span data-ttu-id="344d2-109">Excluir um serviço Web</span><span class="sxs-lookup"><span data-stu-id="344d2-109">Delete a Web Service</span></span>](https://technet.microsoft.com/library/c2b96f4c-4b07-48e6-9ca6-55bc0e0cf5a1.aspx)
 
 
 

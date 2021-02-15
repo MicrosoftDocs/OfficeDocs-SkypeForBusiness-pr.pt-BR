@@ -23,8 +23,8 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49836071"
 ---
-# <a name="media-bypass-planning-tool"></a><span data-ttu-id="69b41-104">Media Bypass (Planning Tool)</span><span class="sxs-lookup"><span data-stu-id="69b41-104">Media Bypass (Planning Tool)</span></span>
+# <a name="media-bypass-planning-tool"></a><span data-ttu-id="2f8a4-104">Media Bypass (Planning Tool)</span><span class="sxs-lookup"><span data-stu-id="2f8a4-104">Media Bypass (Planning Tool)</span></span>
  
-<span data-ttu-id="69b41-105">Desvio de mídia refere-se à remoção do Servidor de Mediação do caminho da mídia sempre que possível para chamadas cuja sinalização percorre o Servidor de Mediação.</span><span class="sxs-lookup"><span data-stu-id="69b41-105">Media bypass refers to removing the Mediation Server from the media path whenever possible for calls whose signaling traverses the Mediation Server.</span></span> <span data-ttu-id="69b41-106">Para obter mais detalhes, [consulte Plano para bypass de mídia no Skype for Business.](../../../plan-your-deployment/enterprise-voice-solution/media-bypass.md)</span><span class="sxs-lookup"><span data-stu-id="69b41-106">For more details, see [Plan for media bypass in Skype for Business](../../../plan-your-deployment/enterprise-voice-solution/media-bypass.md).</span></span>
+<span data-ttu-id="2f8a4-105">Desvio de mídia refere-se à remoção do Servidor de Mediação do caminho da mídia sempre que possível para chamadas cuja sinalização percorre o Servidor de Mediação.</span><span class="sxs-lookup"><span data-stu-id="2f8a4-105">Media bypass refers to removing the Mediation Server from the media path whenever possible for calls whose signaling traverses the Mediation Server.</span></span> <span data-ttu-id="2f8a4-106">Para obter mais detalhes, [consulte Plano para bypass de mídia no Skype for Business.](../../../plan-your-deployment/enterprise-voice-solution/media-bypass.md)</span><span class="sxs-lookup"><span data-stu-id="2f8a4-106">For more details, see [Plan for media bypass in Skype for Business](../../../plan-your-deployment/enterprise-voice-solution/media-bypass.md).</span></span>
   
 

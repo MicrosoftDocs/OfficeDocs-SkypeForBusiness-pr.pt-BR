@@ -22,11 +22,11 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49836611"
 ---
-# <a name="select-regions"></a><span data-ttu-id="135ca-104">Selecionar Regiões</span><span class="sxs-lookup"><span data-stu-id="135ca-104">Select Regions</span></span>
+# <a name="select-regions"></a><span data-ttu-id="57638-104">Selecionar Regiões</span><span class="sxs-lookup"><span data-stu-id="57638-104">Select Regions</span></span>
  
-<span data-ttu-id="135ca-105">Use a **caixa de diálogo** Selecionar Regiões para encontrar regiões disponíveis em seu ambiente.</span><span class="sxs-lookup"><span data-stu-id="135ca-105">Use the **Select Regions** dialog box to find regions available in your environment.</span></span> <span data-ttu-id="135ca-106">Para usar uma região existente, clique nela na lista e clique em **OK**.</span><span class="sxs-lookup"><span data-stu-id="135ca-106">To use an existing region, click a region in the list and then click **OK**.</span></span>
+<span data-ttu-id="57638-105">Use a **caixa de diálogo** Selecionar Regiões para encontrar regiões disponíveis em seu ambiente.</span><span class="sxs-lookup"><span data-stu-id="57638-105">Use the **Select Regions** dialog box to find regions available in your environment.</span></span> <span data-ttu-id="57638-106">Para usar uma região existente, clique nela na lista e clique em **OK**.</span><span class="sxs-lookup"><span data-stu-id="57638-106">To use an existing region, click a region in the list and then click **OK**.</span></span>
   
 > [!NOTE]
-> <span data-ttu-id="135ca-107">Clique no ícone de busca na caixa de busca sem ter inserido nada para obter todas as regiões disponíveis.</span><span class="sxs-lookup"><span data-stu-id="135ca-107">To retrieve all available regions, do not type anything in the search box and then click the search icon.</span></span> 
+> <span data-ttu-id="57638-107">Clique no ícone de busca na caixa de busca sem ter inserido nada para obter todas as regiões disponíveis.</span><span class="sxs-lookup"><span data-stu-id="57638-107">To retrieve all available regions, do not type anything in the search box and then click the search icon.</span></span> 
   
 
