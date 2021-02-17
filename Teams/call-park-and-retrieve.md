@@ -21,21 +21,21 @@ ms.custom:
 - ms.teamsadmincenter.callparkpolicies.overview
 - seo-marvel-apr2020
 description: Saiba mais sobre como usar o parque de chamada e recuperá-lo para colocar uma chamada em espera no Microsoft Teams.
-ms.openlocfilehash: e64d9dafec0f3a4b65abc532ecfa60583fe6da84
-ms.sourcegitcommit: df1eca90090c29eaaf7fd79bd8cc84c556f12b1e
+ms.openlocfilehash: 7474b80975c5fc78285a8bba5a90de782f24ba5b
+ms.sourcegitcommit: 774c2fdc71df430674493c33b609523af3cbda4c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/12/2020
-ms.locfileid: "48424573"
+ms.lasthandoff: 02/16/2021
+ms.locfileid: "50260323"
 ---
 # <a name="call-park-and-retrieve-in-microsoft-teams"></a>Estacionamento e recuperação de chamadas no Microsoft Teams
 
-O parque de chamada e recuperação é um recurso que permite que um usuário coloque uma chamada em espera. Quando uma chamada é parada, o serviço gera um código exclusivo para recuperação de chamada. O usuário que estacionou a chamada ou outra pessoa pode usar esse código com um aplicativo ou dispositivo com suporte para recuperar a chamada. (Consulte [Parque uma chamada no Teams](https://support.office.com/article/park-a-call-in-teams-8538c063-d676-4e9a-8045-fc3b7299bb2f) para obter detalhes.)
+O parque de chamada e recuperação é um recurso que permite que um usuário coloque uma chamada em espera. Quando uma chamada é parada, o serviço gera um código exclusivo para recuperação de chamada. O usuário que estacionou a chamada ou outra pessoa pode usar esse código com um aplicativo ou dispositivo com suporte para recuperar a chamada. (Consulte Parque [uma chamada no Teams](https://support.office.com/article/park-a-call-in-teams-8538c063-d676-4e9a-8045-fc3b7299bb2f) para obter detalhes.)
 
 Alguns dos cenários comuns para usar o parque de chamada são:
 
-- Um recepcionista faz uma chamada para alguém que trabalha em uma fábrica. Em seguida, o recepcionista anuncia a chamada e o número do código no sistema de endereços público. O usuário para quem a chamada é, em seguida, pode pegar um telefone do Teams no chão de fábrica e inserir o código para recuperar a chamada.
-- Um usuário para uma chamada em um dispositivo móvel porque a bateria do dispositivo está ficando sem energia. Em seguida, o usuário pode inserir o código para recuperar a chamada de um telefone de mesa do Teams.
+- Um recepcionista faz uma chamada para alguém trabalhando em uma fábrica. Em seguida, o recepcionista anuncia a chamada e o número do código no sistema de endereços público. O usuário para quem a chamada é, em seguida, pode pegar um telefone do Teams no chão de fábrica e inserir o código para recuperar a chamada.
+- Um usuário para de fazer uma chamada em um dispositivo móvel porque a bateria do dispositivo está ficando sem energia. Em seguida, o usuário pode inserir o código para recuperar a chamada de um telefone de mesa do Teams.
 - Um representante de suporte para uma chamada de cliente e envia um comunicado em um canal do Teams para que um especialista recupere a chamada e ajude o cliente. Um especialista ins chave o código nos clientes do Teams para recuperar a chamada
 
 Para parque e recuperação de chamadas, um usuário deve ser um usuário do Enterprise Voice e deve ser incluído em uma política de parque de chamadas.
@@ -51,7 +51,7 @@ Para habilitar uma política de parque de chamada
 
 1. Na navegação à esquerda do Centro de administração do Microsoft Teams, acesse **as** políticas do parque de  >  **Chamada de Voz.**
 2. Na guia **Gerenciar políticas,** clique em **Adicionar.**
-3. Dê um nome à política e, em seguida, **alternar Permitir parque de chamada** para **On.**
+3. Dê um nome à política e, em seguida, **alternar Permitir parque de chamada** para **1.**
 
     ![Captura de tela das configurações de política do parque de chamada](media/call-park-add-policy.png)
 
@@ -63,7 +63,7 @@ Para que a política funcione, ela deve ser atribuída aos usuários. Você pode
 
 Para atribuir uma política de parte de chamada a um grupo
 
-1. Na página **Políticas do parque de** chamada, na guia **de** atribuição de política de grupo, clique em **Adicionar grupo.**
+1. Na página **Políticas do parque de** chamada, na guia de atribuição de política **de** grupo, clique em **Adicionar grupo.**
 2. Pesquise o grupo que você deseja usar e clique em **Adicionar.**
 3. Escolha uma classificação em comparação com outras atribuições de grupo.
 4. Em **Selecionar uma política,** escolha a política à qual você deseja atribuir esse grupo.
