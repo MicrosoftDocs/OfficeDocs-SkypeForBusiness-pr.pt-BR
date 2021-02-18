@@ -17,12 +17,12 @@ appliesto:
 - Microsoft Teams
 ms.custom: ''
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 6d4cb45334edb9307663eb1ffcab5e7c1085b149
-ms.sourcegitcommit: b12ec4703b164c545d17b02815edd6ee28d40bed
+ms.openlocfilehash: 6dd82c786c30fb4f2ac2ae70f2df6810cfe5d6ad
+ms.sourcegitcommit: 75d710e3858f79ef601cd92e435a4a29dae0aba0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49923833"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50285615"
 ---
 # <a name="install-manage-and-assign-permissions-for-the-teams-learning-app-private-preview"></a>Instalar, gerenciar e atribuir permissões para o aplicativo Teams Learning (visualização privada)
 
@@ -47,7 +47,7 @@ Para gerenciar as configurações do aplicativo, siga estas etapas:
 
    ![Navegação à esquerda no Centro de administração do Teams mostrando os aplicativos do Teams e a seção Gerenciar aplicativos](media/learning-app-teams-manage-apps-nav.png)
 
-2. Na página **Gerenciar aplicativos,** na caixa de pesquisa, digite o aprendizado *para* pesquisar o aplicativo Teams Learning (visualização privada).
+2. Na página **Gerenciar aplicativos,** na  caixa de pesquisa, digite o aprendizado para pesquisar o aplicativo Teams Learning (visualização privada).
 
    ![Página Gerenciar aplicativos no Centro de administração do Teams mostrando a caixa de pesquisa](media/learning-app-teams-manage-apps-page.png)
 
@@ -57,7 +57,7 @@ Para gerenciar as configurações do aplicativo, siga estas etapas:
 
    ![Página de aprendizagem no Centro de administração do Teams mostrando a seção De status e configurações do aplicativo](media/learning-app-teams-learning-page.png)
 
-4. Depois **de** gerenciar as configurações do aplicativo, vá para Permissões e Configurar políticas para conceder permissão aos **funcionários** que devem ter acesso ao aplicativo como parte da participação da sua organização na visualização privada.
+4. Depois **de gerenciar** as configurações do aplicativo, vá para Permissões e Configurar políticas para conceder permissão aos **funcionários** que devem ter acesso ao aplicativo como parte da participação da sua organização na visualização privada.
 
 > [!NOTE]
 >  Se sua organização estiver no Ring 4.0 como parte do programa Teams TAP100, talvez seja necessário fazer o seguinte para habilitar os usuários aprovados no Ring 3.0 para acessar o aplicativo Teams Learning (visualização privada).
@@ -70,15 +70,18 @@ Como parte da visualização privada, o aplicativo Teams Learning (visualizaçã
 
 Os administradores do Centro de administração do Microsoft 365 podem gerenciar as configurações relacionadas ao aplicativo Teams Learning (visualização privada) e podem configurar as fontes de conteúdo de aprendizagem.
 
-O administrador seleciona quais fontes de conteúdo de aprendizagem (como o LinkedIn Learning ou o SharePoint) estarão disponíveis no aplicativo. Em seguida, o administrador configura essas fontes para garantir que o conteúdo está disponível para pesquisa e descoberta e pode ser navegado pelos funcionários que usam o aplicativo.
+O administrador pode selecionar quais fontes de conteúdo de aprendizagem adicionais (por exemplo, o SharePoint ou fontes de provedores de conteúdo de terceiros) estarão disponíveis para os usuários do aplicativo. Em seguida, o administrador configura essas fontes para garantir que o conteúdo está disponível para pesquisa e descoberta e pode ser navegado pelos funcionários que usam o aplicativo.
 
-### <a name="configure-settings-for-the-learning-content-sources-for-the-app"></a>Configurar configurações para as fontes de conteúdo de aprendizagem do aplicativo
+> [!NOTE]
+>  Os usuários entrarão em aprendizados que não são da Microsoft e do LinkedIn Learning Pro em um navegador ou visualizador inserido. Esse aprendizado configurado está sujeito à licença, privacidade e termos de serviço separados entre sua organização e o terceiro, e não aos termos de Aprendizagem (Visualização). Antes de selecionar esse aprendizado em Aprendizagem (Visualização), verifique se você tem um contrato em uso para sua organização e usuários.
+
+### <a name="configure-settings-for-the-learning-content-sources-for-the-app"></a>Definir configurações para as fontes de conteúdo de aprendizagem do aplicativo
 
 Estas etapas devem ser executadas pelo administrador do Microsoft 365.
 
 1.  Na navegação à esquerda do Centro de administração do Microsoft 365, vá para **Configurações**  >  **da Organização.**
 
-2.  Na página **Configurações,** na guia **Serviços & de complementos,** selecione **Aplicativo De aprendizagem.**
+2.  Na página **Configurações,** na guia Serviços **& de complementos,** selecione **Aplicativo De aprendizagem.**
 
    ![Página configurações no Centro de administração do Microsoft 365 mostrando o aplicativo De aprendizagem listado](media/learning-app-365-settings-page.png)
 
@@ -121,7 +124,7 @@ Estas etapas devem ser executadas pelo administrador do Microsoft 365.
 
 1.  Na navegação à esquerda do Centro de administração do Microsoft 365, vá para **Configurações.**
  
-2.  Na página **Configurações,** na guia **Serviços & de complementos,** selecione **Aplicativo De aprendizagem.**
+2.  Na página **Configurações,** na guia Serviços **& de complementos,** selecione **Aplicativo De aprendizagem.**
 
    ![Página configurações no Centro de administração do Microsoft 365 mostrando o aplicativo De aprendizagem listado](media/learning-app-365-settings-page.png)
 
@@ -129,7 +132,7 @@ Estas etapas devem ser executadas pelo administrador do Microsoft 365.
 
    ![Painel de aplicativos de aprendizagem no Centro de administração do Microsoft 365 mostrando o SharePoint selecionado](media/learning-app-365-panel-sharepoint-selected.png)
 
-4.  Uma lista do SharePoint é criada automaticamente no site do SharePoint da organização fornecida. Na navegação à esquerda do site do SharePoint, selecione **Repositório de Conteúdo do Aplicativo de Aprendizagem.** 
+4.  Uma lista do SharePoint é criada automaticamente no site do SharePoint da organização fornecida. Na navegação à esquerda do site do SharePoint, selecione Repositório de Conteúdo do **Aplicativo de Aprendizagem.** 
 
    ![Navegação à esquerda no SharePoint mostrando a seção Repositório de Conteúdo do Aplicativo de Aprendizagem](media/learning-app-content-repository-nav.png)
 

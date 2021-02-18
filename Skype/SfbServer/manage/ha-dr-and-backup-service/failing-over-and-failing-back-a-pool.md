@@ -11,16 +11,16 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: .
-ms.openlocfilehash: 1ebd4e8110b8783c869530d95eda0646a895b88e
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 547a71f44fa81f9ba12a1c661465c7b8604b3fa1
+ms.sourcegitcommit: 414d077b16a0ae4ea6a49e3b3d0082858174cacb
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49826561"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "50278671"
 ---
-# <a name="failing-over-and-failing-back-a-pool-in-skype-for-business-server"></a>Falha e falha de um pool no Skype for Business Server 
+# <a name="failing-over-and-failing-back-a-pool-in-skype-for-business-server"></a>Falha e falha de um pool no Skype for Business Server
 
-Use os procedimentos a seguir se um único pool de Front-End falhar e precisar de um failed over ou se o pool que teve o desastre estiver online novamente e você precisar restaurar sua implantação para o status de trabalho regular. Saiba também como fazer fail over e fail back do pool de Borda usado para federação do Skype for Business ou federação XMPP ou alterar o pool de Borda associado a um pool de Front-End.
+Use os procedimentos a seguir se um único pool de Front-End falhar e precisar de um failed over ou se o pool que passou por esse desastre estiver novamente online e você precisar restaurar sua implantação para o status de trabalho regular. Saiba como fazer fail over e fail back do pool de Borda usado para federação do Skype for Business ou federação XMPP ou alterar o pool de Borda associado a um pool de Front-End.
 
 - [Fail over a Front End pool](#fail-over-a-front-end-pool)
 - [Fail back de um pool](#fail-back-a-pool)
@@ -29,71 +29,71 @@ Use os procedimentos a seguir se um único pool de Front-End falhar e precisar d
 - [Fail back do pool de Borda usado para federação do Skype for Business Server ou federação XMPP](#fail-back-the-edge-pool-used-for-skype-for-business-server-federation-or-xmpp-federation)
 - [Alterar o pool de Borda associado a um pool de Front-End](#change-the-edge-pool-associated-with-a-front-end-pool)
 
-## <a name="fail-over-a-front-end-pool"></a>Fail over a Front End pool
+## <a name="fail-over-a-front-end-pool"></a>Fail over a Front-End pool
 
-Neste procedimento, o Datacenter1 contém o Pool1, que falhou. Você fará failover no Pool2 localizado no Datacenter2.
+Datacenter1 contém Pool1 e Pool1 falhou. Você está fazendo o failing over para o Pool2 localizado no Datacenter2.
 
-A maior parte do trabalho para o failover do pool envolve o failover do armazenamento de Gerenciamento Central, se necessário. Isso é importante porque o armazenamento de Gerenciamento Central deve estar funcional quando os usuários do pool são reava passo a passo.
+A maior parte do trabalho para o failover do pool envolve o failover do armazenamento de Gerenciamento Central, se necessário. O armazenamento de Gerenciamento Central deve estar funcional quando os usuários do pool são reavariados.
 
-Além disso, se um pool de Front End falhar mas o pool de Borda no local ainda estiver em execução, você deve saber se o pool de Borda usa o pool com falha como pool do próximo salto. Se usar, você deve alterar o pool de Borda para usar um pool de Front End diferente antes de fazer o failover do pool de Front End com falha. Como a configuração do próximo salto será alterada dependerá de a Borda usar um pool no mesmo local do pool de Borda ou em um local diferente.
+Se um pool Front-End falhar, mas o pool de Borda nesse site ainda estiver em execução, você deverá saber se o pool de Borda usará o pool com falha como pool de próximo salto. Se isso acontecer, você deve alterar o pool de Borda para usar um pool de Front-End diferente antes de fazer o failed Front-End pool. Como a configuração do próximo salto será alterada dependerá de a Borda usar um pool no mesmo local do pool de Borda ou em um local diferente.
 
 **Para definir um pool de Borda para usar um pool de próximo salto no mesmo site**
 
-1.  Abra o Construtor de Topologias, clique com o botão direito do mouse no pool de Borda que precisa ser alterado e clique em **Editar Propriedades.**
+1. Abra o Construtor de Topologias, clique com o botão direito do mouse no pool de Borda que precisa ser alterado e selecione **Editar Propriedades.**
 
-2.  Clique em **Próximo Salto**. Na lista **Pool do próximo salto:**, selecione o pool que servirá como pool do próximo salto.
+2. Selecione **Próximo Salto.** No pool **de próximo salto:** lista, selecione o pool que servirá agora como o pool do próximo salto.
 
-3.  Clique em **OK** e publique as alterações.
+3. Selecione **OK** e publique as alterações.
 
 **Para definir um pool de Borda para usar um pool de próximo salto em um site diferente**
 
-1.  Abra uma janela do Shell de Gerenciamento do Skype for Business Server e digite o seguinte cmdlet:
-    
+1. Abra uma janela do Shell de Gerenciamento do Skype for Business Server e digite o seguinte cmdlet:
+
         Set-CsEdgeServer -Identity EdgeServer:<Edge Server pool FQDN> -Registrar Registrar:<NextHopPoolFQDN>
 
 **Para fazer fail over de um pool em um desastre**
 
-1.  Encontre qual pool é o host do Servidor de Gerenciamento Central digitando o seguinte cmdlet em um servidor front-end no Pool2:
-    
+1. Encontre o pool de host do Servidor de Gerenciamento Central digitando o seguinte cmdlet em um servidor Front-End servidor no Pool2:
+
         Invoke-CsManagementServerFailover -Whatif
-    
+
     Os resultados desse cmdlet mostram qual pool hospeda atualmente o Servidor de Gerenciamento Central. No restante deste procedimento, esse pool é conhecido como \_ Pool CMS.
 
-2.  Use o Construtor de Topologias para encontrar a versão do Skype for Business Server em execução no Pool DE \_ CMS. Se estiver executando o Skype for Business Server, use o cmdlet a seguir para encontrar o pool de backup do Pool 1.
-    
+2. Use o Construtor de Topologias para encontrar a versão do Skype for Business Server em execução no Pool DE \_ CMS. Se estiver executando o Skype for Business Server, use o cmdlet a seguir para encontrar o pool de backup do Pool 1.
+
         Get-CsPoolBackupRelationship -PoolFQDN <CMS_Pool FQDN>
-    
+
     Deixe o \_ Pool de Backup ser o pool de backup.
 
-3.  Verifique o status do armazenamento de Gerenciamento Central com o seguinte cmdlet:
-    
+3. Verifique o status do armazenamento de Gerenciamento Central com o seguinte cmdlet:
+
         Get-CsManagementStoreReplicationStatus -CentralManagementStoreStatus 
-    
+
     Este cmdlet deve mostrar que ActiveMasterFQDN e ActiveFileTransferAgents estão apontando para o FQDN do Pool DE \_ CMS. Se eles estão vazios, o Servidor de Gerenciamento Central não está disponível e você deve fazer fail over.
 
 4.  Se o armazenamento de Gerenciamento Central não estiver disponível ou se o armazenamento de Gerenciamento Central estava em execução no Pool1 (ou seja, o pool que falhou), você deve fazer fail over do Servidor de Gerenciamento Central antes de fazer fail over do pool. Se você precisar fazer o fail over do Servidor de Gerenciamento Central que estava hospedado em um pool executando o Skype for Business Server, use o cmdlet na etapa 5 deste procedimento. Se não for necessário fazer fail over do Servidor de Gerenciamento Central, pule para a etapa 7 deste procedimento.
 
 5.  Para fazer fail over the Central Management store on a pool running Skype for Business Server, do the following:
-    
-      - Primeiro, verifique qual Servidor back-end no Pool de Backup executa a instância principal do armazenamento de Gerenciamento \_ Central digitando o seguinte:
-        
+
+      - Primeiro, verifique qual Back-End Server no Pool de Backup executa a instância principal do armazenamento de Gerenciamento \_ Central digitando o seguinte:
+
             Get-CsDatabaseMirrorState -DatabaseType Centralmgmt -PoolFqdn <Backup_Pool Fqdn>
     
-      - Se o servidor back-end primário no \_ Pool de Backup for o principal, digite:
+      - Se o servidor Back-End servidor primário no Pool de \_ Backup for o principal, digite:
         
             Invoke-CSManagementServerFailover -BackupSQLServerFqdn <Backup_Pool Primary BackEnd Server FQDN> -BackupSQLInstanceName <Backup_Pool Primary SQL Instance Name>
         
-        Se o servidor back-end espelho no \_ pool de backup for o principal, digite:
+        Se o servidor Back-End espelho no Pool de \_ Backup for o principal, digite:
         
             Invoke-CSManagementServerFailover -MirrorSQLServerFqdn <Backup_Pool Mirror BackEnd Server FQDN> -MirrorSQLInstanceName <Backup_Pool Mirror SQL Instance Name>
     
-      - Valide se o failover do Servidor de Gerenciamento Central está concluído. Digite:
+      - Valide se o failover do Servidor de Gerenciamento Central está concluído. Digite o seguinte comando:
         
             Get-CsManagementStoreReplicationStatus -CentralManagementStoreStatus 
         
         Verifique se ActiveMasterFQDN e ActiveFileTransferAgents estão apontando para o FQDN do Pool de \_ Backup.
     
-      - Por fim, verifique o status da réplica para todos os Servidores Front-End digitando o seguinte:
+      - Por fim, verifique o status da réplica para todos os Front-End Servidores, digitando o seguinte:
         
             Get-CsManagementStoreReplicationStatus 
         
@@ -148,7 +148,7 @@ Além disso, se um pool de Front End falhar mas o pool de Borda no local ainda e
 
 Depois que o pool que passou por desastre voltar a ficar online (ou seja, o Pool1 neste exemplo), execute as etapas a seguir para restaurar sua implantação para o status funcional normal.
 
-O processo de failback leva vários minutos para ser concluído.  Como referência, espera-se que leve até 60 minutos para um pool de 20 mil usuários.
+O processo de failback leva vários minutos para ser concluído. Para referência, espera-se que leve até 60 minutos para um pool de 20.000 usuários.
 
 Para fazer failback dos usuários que estavam originalmente hospedados no Pool1 e dos quais foi feito failover para o Pool2, digite o seguinte cmdlet:
     
@@ -168,13 +168,13 @@ Se o pool de Borda onde você tem a federação do Skype for Business Server con
 
 4.  Em **Editar propriedades**, em **Geral**, selecione **Habilitar federação para este pool de Borda (Porta 5061)**. Clique em **OK**.
 
-5.  Clique em **Ação**, selecione **Topologia**, **Publicar**. Quando solicitado em **Publicar a topologia**, clique em **Avançar**. Quando Publicar é finalizado, clique em **Concluir**.
+5.  Select **Action**, select **Topology**, select **Publish**. Quando solicitado em **Publicar a topologia,** selecione **Próximo**. Quando Publicar estiver concluído, selecione **Concluir**.
 
-6.  No servidor de Borda, abra o Assistente de Implantação do Skype for Business Server. Clique **em Instalar ou Atualizar o Sistema do Skype for Business Server** e clique em Instalar ou Remover **Componentes do Skype for Business Server.** Clique em **Executar novamente**.
+6.  No servidor de Borda, abra o Assistente de Implantação do Skype for Business Server. Selecione **Instalar ou Atualizar o Sistema do Skype for Business Server** e, em seguida, selecione Instalar ou Remover **Componentes do Skype for Business Server.** Selecione **Executar Novamente**.
 
-7.  Clique em **Avançar**. A tela de resumo mostrará ações conforme são executadas. Quando a implantação estiver concluída, clique em **Exibir log** para exibir os arquivos de log disponíveis. Clique em **Concluir** para finalizar a implantação.
+7.  Selecione **Avançar**. A tela de resumo mostrará ações conforme são executadas. Quando a implantação for realizada, selecione **Exibir Log** para exibir os arquivos de log disponíveis. Selecione **Concluir** para concluir a implantação.
     
-    Se o site que contém o pool de borda com falha contiver servidores front-end que ainda estão em execução, você precisará atualizar o Serviço de Webconferência e o Serviço de Conferência A/V nesses pools de frond-ends para usar um pool de borda em um site remoto que ainda esteja ativo. 
+    Se o site que contém o pool de Borda com falha contiver Servidores front-end que ainda estão em execução, você deve atualizar o Serviço de Webconferência e o Serviço de Conferência A/V nesses pools de Front-End para usar um pool de Borda em um site remoto que ainda está em execução. 
 
  ## <a name="fail-over-the-edge-pool-used-for-xmpp-federation-in-skype-for-business-server"></a>Fail over the Edge pool used for XMPP federation in Skype for Business Server 
 
@@ -182,12 +182,10 @@ Na sua organização, há um pool de borda designado como o pool para uso da fed
 
 Quando você instala pools de borda e habilita a Federação XMPP, é possível simplificar o processo de recuperação de desastres configurando a criação de registros do servidor DNS externos para todos os seus pools de Borda para a federação XMPP, em vez de apenas um. Cada um destes registros SRV devem ter um conjunto de prioridade diferente. Todo o tráfego da federação XMPP atravessa o pool com o registro SRV com a mais alta prioridade. 
 
-No procedimento a seguir, o EdgePool1 é o pool no qual a federação XMPP foi originalmente hospedada e o EdgePool2 é o pool no qual a federação XMPP está hospedada agora.
-
-
+No procedimento a seguir, EdgePool1 é o pool, que originalmente hospedava a federação XMPP, e EdgePool2 é o pool que agora hospedará a federação XMPP.
 ### <a name="to-fail-over-the-edge-pool-used-for-xmpp-federation"></a>Para fazer fail over do pool de Borda usado para federação XMPP
 
-1.  Se você ainda não possuir outro pool de borda implantado (além de um não estiver funcionando no momento), implante esse pool. 
+1.  Se você ainda não tiver outro pool de Borda implantado (além do que está inocionado no momento), implante esse pool. 
 
 2.  Em cada Servidor de Borda no novo pool de borda no qual a federação XMPP estará hospedada no momento (EdgePool2), execute o seguinte cmdlet:
     
@@ -211,7 +209,6 @@ No procedimento a seguir, o EdgePool1 é o pool no qual a federação XMPP foi o
     
         Start-CsWindowsService
 
-
 ## <a name="fail-back-the-edge-pool-used-for-skype-for-business-server-federation-or-xmpp-federation"></a>Fail back do pool de Borda usado para federação do Skype for Business Server ou federação XMPP 
 
 Depois que um pool de Borda com falha usado para hospedar a federação foi trazido novamente online, use este procedimento para fazer fail back da rota de federação do Skype for Business Server e/ou a rota de federação XMPP para usar novamente esse pool de Borda restaurado.
@@ -220,19 +217,19 @@ Depois que um pool de Borda com falha usado para hospedar a federação foi traz
 
 2.  Se você quiser fazer fail back da rota de federação do Skype for Business Server para usar o Servidor de Borda restaurado, faça o seguinte:
     
-      - No servidor de front-end, abra o Construtor de Topologia. Expanda **Pools de borda**, clique com o botão direito no servidor de Borda ou pool do servidor de Borda atualmente configurado para Federação. Selecione **Editar propriedades**.
+      - No servidor de front-end, abra o Construtor de Topologia. Expanda **pools de Borda** e clique com o botão direito do mouse no servidor de Borda ou pool de servidores de Borda atualmente configurado para Federação. Selecione **Editar propriedades**.
     
       - Em **Editar propriedades**, em **Geral**, desmarque **Habilitar federação para este pool de Borda (Porta 5061)**. Clique em **OK**.
     
-      - Expanda **Pools de borda**, clique com o botão direito no servidor de Borda original ou pool de servidor de Borda que você deseja usar novamente para Federação. Selecione **Editar propriedades**.
+      - Expanda **pools de Borda** e clique com o botão direito do mouse no servidor de Borda original ou pool de servidores de Borda que você deseja usar novamente para Federação. Selecione **Editar propriedades**.
     
       - Em **Editar propriedades**, em **Geral**, selecione **Habilitar federação para este pool de Borda (Porta 5061)**. Clique em **OK**.
     
-      - Clique em **Ação**, selecione **Topologia**, **Publicar**. Quando solicitado em **Publicar a topologia**, clique em **Avançar**. Quando Publicar é finalizado, clique em **Concluir**.
+      - Select **Action**, select **Topology**, select **Publish**. Quando solicitado em **Publicar a topologia,** selecione **Próximo**. Quando Publicar estiver concluído, selecione **Concluir**.
     
-      - No servidor de Borda, abra o Assistente de Implantação do Skype for Business Server. Click **Install or Update Skype for Business Server System**, then click Setup or Remove Skype for Business Server **Components**. Clique em **Executar novamente**.
+      - No servidor de Borda, abra o Assistente de Implantação do Skype for Business Server. Select **Install or Update Skype for Business Server System**, then select Setup or Remove Skype for Business Server **Components**. Selecione **Executar Novamente**.
     
-      - Clique em **Avançar**. A tela de resumo mostrará ações conforme são executadas. Quando a implantação estiver concluída, clique em **Exibir log** para exibir os arquivos de log disponíveis. Clique em **Concluir** para concluir a implantação.
+      - Selecione **Avançar**. A tela de resumo mostrará ações conforme são executadas. Quando a implantação for realizada, selecione **Exibir Log** para exibir os arquivos de log disponíveis. Selecione **Concluir** para concluir a implantação.
 
 3.  Se você deseja realizar o fail back da rota de federação XMPP para usar o Servidor de Borda restaurado, faça o seguinte:
     
@@ -261,7 +258,7 @@ Se um pool de borda cair, mas o pool de front-ends do mesmo local ainda estiver 
 
 1.  NO Construtor de Topologias, navegue até o nome no pool de front-ends que precisa ser alterado.
 
-2.  Clique com o botão direito do mouse no nome do pool e, então, em **Editar Propriedades**
+2.  Clique com o botão direito do mouse no pool e selecione **Editar Propriedades.**
 
 3.  Na seção **Associações**, em **Associar Pool de Borda (para componentes de mídia)**, use a caixa suspensa para selecionar o pool de borda ao qual deseja associar o pool de front-ends.
 

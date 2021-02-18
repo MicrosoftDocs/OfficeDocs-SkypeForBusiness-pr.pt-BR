@@ -21,12 +21,12 @@ ms.custom:
 - ms.teamsadmincenter.callparkpolicies.overview
 - seo-marvel-apr2020
 description: Saiba mais sobre como usar o parque de chamada e recuperá-lo para colocar uma chamada em espera no Microsoft Teams.
-ms.openlocfilehash: 7474b80975c5fc78285a8bba5a90de782f24ba5b
-ms.sourcegitcommit: 774c2fdc71df430674493c33b609523af3cbda4c
+ms.openlocfilehash: d49e6a5a9bc25a0c7a3e25d548e2743b7f4584fb
+ms.sourcegitcommit: 414d077b16a0ae4ea6a49e3b3d0082858174cacb
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/16/2021
-ms.locfileid: "50260323"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "50278711"
 ---
 # <a name="call-park-and-retrieve-in-microsoft-teams"></a>Estacionamento e recuperação de chamadas no Microsoft Teams
 
@@ -68,9 +68,9 @@ Para atribuir uma política de parte de chamada a um grupo
 3. Escolha uma classificação em comparação com outras atribuições de grupo.
 4. Em **Selecionar uma política,** escolha a política à qual você deseja atribuir esse grupo.
 
-    ![](media/call-park-assign-policy-to-group.png)
+    ![imagem de políticas de parque](media/call-park-assign-policy-to-group.png)
 
-5. Clique em **Aplicar**.
+5. Selecione **Aplicar.**
 
 ## <a name="related-topics"></a>Tópicos relacionados
 
