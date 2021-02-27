@@ -15,45 +15,62 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 43ca5a543d2cff568a04e7b562d9b1b4ab775db9
-ms.sourcegitcommit: c537b1cf03e7ac5d07f2fbf4ba73d73c510f3d96
+ms.openlocfilehash: ad39b24ee177e8e8282c6ad948b69fbdf866aa56
+ms.sourcegitcommit: e72599d5437773322ae6ef985f804a19101ed84f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/13/2021
-ms.locfileid: "49848928"
+ms.lasthandoff: 02/26/2021
+ms.locfileid: "50347662"
 ---
 # <a name="manage-teams-with-policies"></a>Gerenciar equipes com políticas
 
-Texto aqui.
+As políticas são uma parte importante do gerenciamento do Teams. Use este artigo para navegar sobre como usar políticas para beneficiar sua organização.
 
 ## <a name="what-you-use-policies-for"></a>Para o que você usa políticas
 
-Texto aqui.
+As políticas são usadas para realizar muitas tarefas em sua organização em diferentes áreas, como mensagens, reuniões e aplicativos. Algumas das coisas que você pode fazer incluem permitir que os usuários agendem reuniões em um canal de equipe, permitindo que os usuários editem mensagens enviadas e controlando se os usuários podem fixar aplicativos na barra de aplicativos do Teams.
 
 ## <a name="how-to-assign-policies"></a>Como atribuir políticas
 
-Texto aqui.
+As políticas podem ser atribuídas de várias maneiras diferentes, dependendo do que sua organização está tentando realizar. Você pode fazer e exibir atribuições no centro de administração do Teams.
+
+![Captura de tela da atribuição de política de grupo.](media/group-policy-assignment.png)
+
+Leia mais sobre a atribuição de políticas [aqui](assign-policies.md).
 
 ## <a name="how-to-manage-policies"></a>Como gerenciar políticas
 
-Texto aqui.
+As políticas são gerenciadas com o centro de administração do Microsoft Teams ou [usando o PowerShell](https://docs.microsoft.com/microsoftteams/teams-powershell-managing-teams#manage-policies-via-powershell).
+
+Por exemplo, uma política de configuração de aplicativo pode permitir que os usuários carreguem aplicativos personalizados, instalem aplicativos em nome de seus usuários e fixem aplicativos na barra de aplicativos do Teams. Essas políticas são configuradas no Centro de administração do Teams.
+
+![Captura de tela da política de configuração do aplicativo.](media/app-setup-policy.png)
+
+Além disso, uma política de reunião pode ser usada para controlar configurações de áudio e vídeo em reuniões do Teams, como transcrições, gravações na nuvem e áudio/vídeo IP.
+
+![Captura de tela da política de reunião.](media/engineering-meeting-policy.png)
+
+### <a name="teams-for-education"></a>Teams para o ensino
+
+Você também pode usar o assistente de política do [Teams for Education](easy-policy-setup-edu.md) para configurar e gerenciar facilmente políticas para seu ambiente de aprendizagem.
+
+![Captura de tela do assistente de política do Teams for Education.](media/easy-policy-setup-quick-setup.png)
 
 ## <a name="types-of-policies"></a>Tipos de políticas
 
-Texto aqui.
+As políticas a seguir podem ser gerenciadas com o Microsoft Teams.
 
 Tipo de política | Descrição
 ------------|------------
-[Pacotes de política](https://docs.microsoft.com/microsoftteams/manage-policy-packages) | Um pacote de política no Microsoft Teams é um conjunto de políticas e configurações predefinidas que você pode atribuir aos usuários que têm funções semelhantes em sua organização.
-Políticas de reunião | Uma política de reunião é usada para controlar os recursos que estão disponíveis para participantes da reunião para reuniões agendadas por usuários em sua organização.
-Políticas de voz e chamada | Descrição aqui
-Políticas de aplicativos | Descrição aqui
-
-## <a name="troubleshooting"></a>Solução de problemas
-
-Texto aqui.
+[Pacotes de política](manage-policy-packages.md) | Um pacote de política no Microsoft Teams é uma coleção de políticas e configurações predefinidas que você pode atribuir aos usuários que têm funções semelhantes em sua organização.
+[Políticas de reunião](meeting-policies-in-teams.md) | Uma política de reunião é usada para controlar os recursos que estão disponíveis para os participantes da reunião para reuniões agendadas pelos usuários em sua organização. As políticas de reunião incluem os tópicos a seguir.<br> - Políticas de áudio e vídeo<br> - Políticas de compartilhamento de conteúdo e tela<br> - Participantes, convidados e políticas de acesso<br> - Políticas gerais
+[Políticas de voz e chamada](voice-and-calling-policies.md)| As políticas de voz e chamada gerenciam essas configurações por meio de equipes como chamadas de emergência, roteamento de chamadas e ID do chamador.
+[Políticas de aplicativo](app-policies.md)| As políticas de aplicativos são usadas para controlar aplicativos no Microsoft Teams. Os administradores podem permitir ou bloquear quais aplicativos os usuários podem instalar, fixar aplicativos na barra de aplicativos do Teams do usuário e instalar o aplicativo em nome de seus usuários.
+[Políticas de mensagens](messaging-policies-in-teams.md)| As políticas de mensagens controlam a disponibilidade de recursos de chat e canal.
 
 ## <a name="related-topics"></a>Tópicos relacionados
 
-* Link
-* Link
+* [Gerenciar políticas de comentários no Microsoft Teams](manage-feedback-policies-in-teams.md)
+* [Gerenciar políticas de equipes no Microsoft Teams](teams-policies.md)
+* [Configurar eventos ao vivo no Microsoft Teams](teams-live-events/set-up-for-teams-live-events.md)
+* [Pacotes de políticas e políticas do Teams for Education](policy-packages-edu.md)
