@@ -1481,6 +1481,10 @@ items:
             href: devices/phones-for-teams.md
           - name: Telas do Teams
             href: devices/teams-displays.md
+          - name: Painéis do Microsoft Teams
+            href: devices/teams-panels.md
+          - name: Use os painéis do Teams
+            href: devices/use-teams-panels.md
           - name: Atualizar telefones do Teams às telas do Teams
             href: devices/upgrade-phones-to-displays.md
           - name: Implantar telefones e telas do Teams usando o Intune
