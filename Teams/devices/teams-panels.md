@@ -16,12 +16,12 @@ ms.collection:
 search.appverid: MET150
 localization_priority: Normal
 description: Este artigo fornece uma visão geral dos recursos suportados pelos painéis do Microsoft Teams.
-ms.openlocfilehash: f694a45fda56fd58871e93a7a0e8a1e9373a67b5
-ms.sourcegitcommit: e72599d5437773322ae6ef985f804a19101ed84f
+ms.openlocfilehash: 99c1c90734a72f6e98ee1ca9e862316445358d3c
+ms.sourcegitcommit: 6785d7f1ef5d2010ab334ec8cc46884327a53662
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/26/2021
-ms.locfileid: "50347970"
+ms.lasthandoff: 03/01/2021
+ms.locfileid: "50395333"
 ---
 # <a name="microsoft-teams-panels"></a>Painéis do Microsoft Teams
 
@@ -134,5 +134,7 @@ Para gerenciar seus dispositivos de painéis do Teams, na navegação à esquerd
 [Como usar dispositivos de painéis do Microsoft Teams](use-teams-panels.md)
 
 ## <a name="see-also"></a>Confira também
+
+[Blog do Microsoft Teams em painéis do Teams](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/manage-meeting-space-availability-with-microsoft-teams-panels/ba-p/2167734)
 
 [Começar com painéis do Teams](https://support.microsoft.com/office/get-started-with-teams-panels-fa5e85d1-7ff3-4f11-b0b0-277e2302c8be)

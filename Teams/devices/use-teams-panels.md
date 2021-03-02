@@ -16,14 +16,14 @@ ms.collection:
 search.appverid: MET150
 localization_priority: Normal
 description: Este artigo fornece orientações sobre como usar dispositivos de painéis do Teams.
-ms.openlocfilehash: 9ff2b9ec969336ada04ed7a872cf3c5d8ea358ab
-ms.sourcegitcommit: e72599d5437773322ae6ef985f804a19101ed84f
+ms.openlocfilehash: eba450b42bb66dfbe202290cdd235a0d4db9e710
+ms.sourcegitcommit: 6785d7f1ef5d2010ab334ec8cc46884327a53662
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/26/2021
-ms.locfileid: "50347976"
+ms.lasthandoff: 03/01/2021
+ms.locfileid: "50395322"
 ---
-# <a name="use-microsoft-teams-panels"></a>Usar painéis do Microsoft Teams
+# <a name="how-to-use-microsoft-teams-panels"></a>Como usar painéis do Microsoft Teams
 
 Os painéis do Microsoft Teams são dispositivos de exibição digital compactos que são montados fora dos espaços de reunião, normalmente ao lado de entradas. Esses painéis touchscreen são dispositivos dedicados do Microsoft Teams que fornecem uma visão geral sobre o espaço de reunião e a reunião agendada. Com os indicadores de LED e tela inicial codificados por cores vibrantes, você pode determinar se o espaço está disponível ou reservado de uma distância. Você pode usar painéis do Teams para reservar um espaço de reunião disponível para uma reunião ad hoc, no local.
 
@@ -63,7 +63,7 @@ Tile | Descrição
 **1-Detalhes do espaço de reunião, dia, data e hora atuais** | Exibe a hora atual, o dia, a data e o nome do espaço de reunião. O nome do espaço de reunião é o nome da conta de recurso que se inscreveu nos painéis.
 **2-Disponibilidade de espaço de reunião e detalhes da reunião** | Indica a disponibilidade do espaço de reunião e exibe os detalhes da reunião. Consulte [Disponibilidade de espaço de reunião e o tile de detalhes da reunião.](#meeting-space-availability-and-meeting-details-tile)
 **Calendário 3-Futuro** | Exibe o calendário e a disponibilidade do espaço de reunião por até 24 horas a partir da hora atual. Role para cima ou para baixo para determinar quais intervalos de tempo estão disponíveis e quais são reservados.
-**4-Settings** | Exibe o ícone de configurações. Toque nele para abrir a tela **Configurações** para relatar um problema ou atualizar as configurações de dispositivo disponíveis.
+**4-Settings** | Exibe o **ícone Configurações.** Toque nele para relatar um problema ou atualizar as configurações de dispositivo disponíveis.
 
 ### <a name="meeting-space-availability-and-meeting-details-tile"></a>Espaço de reunião e o tile de detalhes da reunião
 
@@ -223,4 +223,4 @@ No **azulamento** Calendário futuro (inferior direito) na tela Inicial, você p
 Não, você não pode reservar um espaço de reunião para uma hora futura de painéis. A hora de início é sempre a hora atual de uma reunião ad hoc agendada de painéis.
 
 **Por quanto tempo posso reservar um espaço de reunião disponível para uma reunião ad hoc?**  
-Você pode reservar um espaço de reunião disponível a partir do horário atual até o próximo horário de reunião agendado ou até um máximo de 24 horas a partir da hora atual, o que for anterior. Por exemplo, se a hora atual for 10h e a próxima hora de início da reunião for 14:00, você poderá reservar o espaço de reunião das 10:00 às 14:00.
+Você pode reservar um espaço de reunião disponível a partir do horário atual até o próximo horário de reunião agendado ou até um máximo de 24 horas da hora atual, o que for anterior. Por exemplo, se a hora atual for 10h e a próxima hora de início da reunião for 14:00, você poderá reservar o espaço de reunião das 10:00 às 14:00.
