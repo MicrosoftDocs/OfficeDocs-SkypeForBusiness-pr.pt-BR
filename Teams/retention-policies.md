@@ -19,17 +19,17 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 3b0197d9a5cf9ada93ac16ad083f293b573c4eed
-ms.sourcegitcommit: e72599d5437773322ae6ef985f804a19101ed84f
+ms.openlocfilehash: 66af968b066b1fa385674d828985606f05bd3d07
+ms.sourcegitcommit: b0753baa55841a2c6c5dc006dcdd117704af3b42
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/26/2021
-ms.locfileid: "50347651"
+ms.lasthandoff: 03/02/2021
+ms.locfileid: "50401305"
 ---
 # <a name="manage-retention-policies-for-microsoft-teams"></a>Gerenciar políticas de retenção para o Microsoft Teams
 
 > [!NOTE]
-> Se você for um usuário que está vendo uma mensagem no Teams de que seus chats e mensagens foram excluídos por uma política de retenção, consulte Mensagens do Teams sobre políticas [de retenção](https://support.microsoft.com/office/teams-messages-about-retention-policies-c151fa2f-1558-4cf9-8e51-854e925b483b).
+> Se você estiver vendo uma mensagem no Teams de que seus chats ou mensagens foram excluídos por uma política de retenção, consulte Mensagens do [Teams sobre políticas de retenção](https://support.microsoft.com/office/teams-messages-about-retention-policies-c151fa2f-1558-4cf9-8e51-854e925b483b).
 > 
 > As informações nesta página são para administradores de IT que gerenciam essas políticas de retenção.
 

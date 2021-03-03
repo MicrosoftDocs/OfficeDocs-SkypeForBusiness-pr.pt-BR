@@ -24,17 +24,17 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: Aprenda a gerenciar as configurações das políticas de reunião no Teams e a usá-las para controlar os recursos disponíveis para os participantes da reunião nas reuniões agendadas pelos usuários.
-ms.openlocfilehash: 67194f02c92bac390083e3ea3e983e7b8518e595
-ms.sourcegitcommit: 1b11a2b74b8db6ed9e5da9b04cf3ed9c02a1d892
+ms.openlocfilehash: 5b3b2e3975906e130d81804c2db51973bf50521c
+ms.sourcegitcommit: 54140f6f8f2279a0eaf2e9c79699d6cff306791c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2021
-ms.locfileid: "50125795"
+ms.lasthandoff: 03/03/2021
+ms.locfileid: "50408197"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Gerenciar políticas de reunião no Teams
 
 ::: zone target="docs"
-As políticas de reunião são usadas para controlar os recursos disponibilizados para os participantes de reuniões programadas pelos usuários de sua organização. Você pode usar a política global (padrão em toda a organização) criada automaticamente ou criar e atribuir políticas personalizadas.  Você gerencia as políticas de reunião no Centro de Administração do Microsoft Teams ou usando o [PowerShell](teams-powershell-overview.md).
+Use as políticas de reunião para controlar os recursos que estão disponíveis para os participantes da reunião para reuniões agendadas pelos usuários em sua organização. Você pode usar a política global (padrão em toda a organização) criada automaticamente ou criar e atribuir políticas personalizadas.  Você gerencia as políticas de reunião no Centro de Administração do Microsoft Teams ou usando o [PowerShell](teams-powershell-overview.md).
 
 > [!NOTE]
 > Para obter informações sobre como usar as funções para gerenciar as permissões de apresentadores e participantes da reunião, confira [funções em uma reunião no Teams](https://support.microsoft.com/office/roles-in-a-teams-meeting-c16fa7d0-1666-4dde-8686-0a0bfe16e019?ui=en-us&rs=en-us&ad=us).
@@ -45,7 +45,7 @@ Você pode implementar políticas das seguintes maneiras, o que afeta a experiê
 |---------|---------|
 |Por organizador    |Ao implementar uma política por organizador, todos os participantes da reunião herdam a política do organizador. Por exemplo, **Admitir pessoas automaticamente** é uma política por organizador e controla se os usuários entram na reunião diretamente ou se esperam o lobby das reuniões agendadas pelo usuário que recebeu a política.          |
 |Por usuário    |Ao implementar uma política por usuário, somente a política por usuário se aplica à restrições de certos recursos para o organizador e/ou os participantes da reunião. Por exemplo, **Permitir Reunir agora nos canais** é uma política por usuário.     |
-|Por organizador e por usuário     |Ao implementar uma combinação de uma política por organizador e por usuário, alguns recursos são restritos para os participantes da reunião com base em sua política e a política do organizador. Por exemplo, **Permitir gravação na nuvem** é uma política por organizador e por usuário. A ligue essa configuração para permitir que os usuários iniciem e parem uma gravação.
+|Por organizador e por usuário     |Ao implementar uma combinação de uma política por organizador e por usuário, alguns recursos são restritos para os participantes da reunião com base em sua política e a política do organizador. Por exemplo, **Permitir gravação na nuvem** é uma política por organizador e por usuário. A opção Ativar essa configuração para permitir que os usuários iniciem e parem uma gravação.
 
 Você pode editar as configurações na política global ou criar e atribuir uma ou mais políticas personalizadas. Os usuários terão a política global, a menos que você crie e atribua uma política personalizada.
 
@@ -96,7 +96,7 @@ Você pode editar a política global e as políticas personalizadas que criar.
 
 ## <a name="meeting-policy-settings"></a>Configurações de política de reunião
 
-Ao selecionar uma política existente na página de **Políticas de reunião** ou selecionar **Adicionar** para adicionar uma nova política, você pode definir as configurações para o seguinte.
+Quando você seleciona uma política  existente na página Políticas de reunião ou seleciona **Adicionar** para adicionar uma nova política, você pode definir configurações para os seguintes recursos.
 
 - [Geral](#meeting-policy-settings---general)
 - [Áudio e vídeo](#meeting-policy-settings---audio--video)
@@ -117,7 +117,7 @@ Ao selecionar uma política existente na página de **Políticas de reunião** o
 
 ### <a name="allow-meet-now-in-channels"></a>Permitir Reunir agora nos canais
 
-Permitir que o **Reunir Agora** seja uma política por usuário e se aplicar antes de começar uma reunião. Essa configuração controla se um usuário pode iniciar uma reunião não planejada em um canal do Teams. Se você ativar essa configuração,  os usuários poderão selecionar o botão Reunir para iniciar uma reunião não planejada ou agendar uma reunião no canal. O valor padrão é True.
+Permitir que o **Reunir Agora** seja uma política por usuário e se aplicar antes de começar uma reunião. Essa configuração controla se um usuário pode iniciar uma reunião não planejada em um canal do Teams. Se você ativar essa configuração, os usuários poderão selecionar o botão **Reunir** para iniciar uma reunião não planejada ou agendar uma reunião no canal. O valor padrão é True.
 
 ![Captura de tela mostrando o ícone Reunir Agora abaixo de uma mensagem](media/meeting-policies-meet-now.png)
 
@@ -133,7 +133,7 @@ Se você desativar essa opção, os usuários não conseguirão agendar. As reun
 
 Use a política existente AllowChannelMeetingScheduling para controlar os tipos de eventos que podem ser criados nos calendários do canal de equipe. Essa é uma política por usuário e se aplica antes de começar uma reunião. Essa configuração controla se os usuários podem agendar uma reunião em um canal do Teams. Por padrão, essa configuração é ativada.
 
-Se essa política estiver desabilitada, os usuários não conseguirão criar novas reuniões no canal. No entanto, as reuniões existentes no canal podem ser editadas pelo organizador do evento.
+Se essa política estiver desligada, os usuários não poderão criar novas reuniões de canal. No entanto, as reuniões existentes no canal podem ser editadas pelo organizador do evento.
 
 Agendar uma reunião será desabilitada.
 
@@ -170,11 +170,11 @@ O aplicativo de calendário de canal será mostrado na seção **Aplicativos da 
 
 Essa é uma política por usuário e se aplica antes de começar uma reunião. Essa configuração controla se os usuários podem agendar reuniões particulares no Teams. Uma reunião é particular quando não é publicada em um canal de uma equipe.
 
-Observe que, se você desativar **Permitir agendamento de reuniões particulares** e **Permitir agendamento de reunião de canal**, as opções **Adicionar participantes necessários** e **Adicionar canal** serão desabilitadas para os usuários no Teams. Por padrão, essa configuração é ativada.
+Se você desativar **Permitir** agendamento de reuniões privadas  e Permitir agendamento  de reunião do **canal,** as opções Adicionar participantes necessários e Adicionar canal serão desabilitadas para usuários no Teams. Por padrão, essa configuração é ativada.
 
 ### <a name="allow-meet-now-in-private-meetings"></a>Permitir Reunir Agora em reuniões particulares
 
-Essa é uma política por usuário e se aplica antes de começar uma reunião. Essa configuração controla se um usuário pode iniciar uma reunião privada não planejada.  Por padrão, essa configuração é ativada.
+Essa é uma política por usuário e se aplica antes de começar uma reunião. Essa configuração controla se um usuário pode iniciar uma reunião privada não planejada. Por padrão, essa configuração é ativada.
 
 <a name="bkaudioandvideo"> </a>
 
@@ -191,7 +191,7 @@ Essa é uma política por usuário e se aplica antes de começar uma reunião. E
 
 Esta é uma combinação de uma política por usuário e por organizador. Essa configuração controla se as legendas e os recursos de transcrição estão disponíveis durante a reprodução das gravações de reunião. Se você desativar essa opção, as opções **Pesquisar** e **CC** não estarão disponíveis durante a reprodução de uma gravação de reunião. A pessoa que iniciou a gravação precisa dessa configuração ativada para que a gravação também inclua a transcrição.
 
-Observe que, no momento, só há suporte para transcrição para reuniões gravadas para usuários que têm o idioma do Teams definido para o português e quando se fala português na reunião.
+Atualmente, a transcrição para reuniões gravadas só é suportada para usuários que têm o idioma no Teams definido como inglês e quando o inglês é falado na reunião.
 
 ![as opções de transcrição em uma reunião](media/meeting-policies-transcription.png)
 
@@ -211,7 +211,7 @@ Observe o exemplo a seguir.
 |Amanda | Location1MeetingPolicy | Habilitado|
 |João (usuário externo) | Não aplicável | Não aplicável|
 
-Ela, mesmo que ela fosse a organizadora, não pode gravar porque sua política está definida como desa exclusiva. Ela, que tem a configuração de política habilitada, pode gravar reuniões até mesmo aquelas organizadas por Ela. Se Ela organizasse uma reunião, ela poderá gravar essa reunião, no entanto, Diadia, que tem a configuração de política desabilitada e Pedro, que é um usuário externo, não pode gravar essa reunião.
+Daniela, mesmo que ela fosse a organizadora, não pode gravar porque sua política está definida como off. A Amanda, que tem a configuração de política habilitada, pode gravar reuniões, mesmo aquelas organizadas por Daniela. Se a Amanda organizar uma reunião, ela poderá gravar essa reunião. No entanto, Daniela, que tem a configuração de política desabilitada e João, que é um usuário externo, não pode gravar essa reunião.
 
 Para saber mais sobre a gravação de reunião na nuvem, confira [Gravação de reunião na nuvem do Teams](cloud-recording.md).
 
@@ -276,7 +276,7 @@ Reuniões hospedadas pela Daniela permitem que o vídeo seja habilitado. A Danie
 
 Nas reuniões hospedadas por Amanda, ninguém poderá ativar o vídeo, independentemente da política de vídeo atribuída a eles. Isso significa que a Daniela não pode ativar o vídeo nas reuniões da Amanda.  
 
-Se Daniela liga para a Amanda com o vídeo habilitado, a Amanda poderá atender à chamada somente com o áudio.  Quando a chamada estiver conectada, a Amanda poderá ver o vídeo da Daniela, mas não poderá ativar o vídeo. Se a Amanda liga para a Daniela, Daniela poderá atender à chamada com vídeo e áudio. Quando a chamada estiver conectada, a Daniela poderá ativar ou desativar o vídeo, se necessário.
+Se Daniela liga para a Amanda com o vídeo habilitado, a Amanda poderá atender à chamada somente com o áudio. Quando a chamada está conectada, a Amanda pode ver o vídeo de Daniela, mas não pode ativar o vídeo. Se a Amanda liga para a Daniela, Daniela poderá atender à chamada com vídeo e áudio. Quando a chamada estiver conectada, a Daniela poderá ativar ou desativar o vídeo, se necessário.
 
 Para saber mais, confira [Gerenciar áudio/vídeo para participantes da reunião](#manage-audiovideo-for-meeting-participants).
 
@@ -359,7 +359,7 @@ Se essa configuração estiver ativada para o usuário, a opção **Atribuir con
 
 ![Captura de tela mostrando a opção Conceder controle](media/meeting-policies-give-control.png)
 
-Se a configuração estiver desligada para o usuário, a opção Dar **Controle** não estará disponível.
+Se a configuração estiver desligada para o usuário, a **opção Dar Controle** não estará disponível.
 
 ![Captura de tela mostrando que a opção Conceder controle não está disponível](media/meeting-policies-give-control-not-available.png)
 
@@ -418,7 +418,7 @@ Amanda não pode compartilhar o quadro de comunicações em uma reunião, mesmo 
 
 ### <a name="allow-shared-notes"></a>Permitir notas compartilhadas
 
-Essa é uma política por usuário. Essa configuração controla se um usuário pode criar e compartilhar anotações em uma reunião. Os usuários externos, incluindo usuários anônimos, B2B e federados, herdam a política do organizador da reunião. A **guia Anotações** da Reunião tem suporte em reuniões com até 100 participantes.
+Essa é uma política por usuário. Essa configuração controla se um usuário pode criar e compartilhar anotações em uma reunião. Os usuários externos, incluindo usuários anônimos, B2B e federados, herdam a política do organizador da reunião. A **guia Notas de** Reunião é suportada em reuniões com até 100 participantes.
 
 Observe o exemplo a seguir.
 
@@ -455,7 +455,7 @@ Esta é uma política por organizador. Essa configuração controla se as pessoa
 
 ![Captura de tela mostrando uma reunião com um usuário no lobby](media/meeting-policies-lobby.png)
 
- Os organizadores da reunião podem selecionar **Opções de** Reunião no convite da reunião para alterar essa configuração para cada reunião agendada por eles.
+ Os organizadores da reunião podem selecionar **Opções de** Reunião no convite da reunião para alterar essa configuração para cada reunião agendada.
 
 > [!NOTE]
 > Nas opções de reunião, a configuração é rotulada como "Quem pode ignorar o lobby". Se você alterar a configuração padrão para qualquer usuário, ela será aplicada a todas as novas reuniões organizadas por esse usuário e a qualquer reunião anterior em que o usuário não tiver modificado as Opções de reunião.
@@ -469,7 +469,7 @@ Esta é uma política por organizador. Essa configuração controla se as pessoa
 
 ### <a name="allow-dial-in-users-to-bypass-the-lobby"></a>Permitir que os usuários de acesso telefônico ignorem o lobby
 
-Esta é uma política por organizador. Essa configuração controla se as pessoas que se conectam por telefone ingressam diretamente na reunião ou esperam o lobby, independentemente da configuração **Aceitar pessoas automaticamente**. Por padrão, essa configuração é desabilitada. Quando essa configuração estiver desligada, os usuários de discagem aguardarão no lobby até que um usuário da organização insisse na reunião com um cliente do Teams e os admita. Quando essa configuração é ativada, os usuários de acesso telefônico ingressam automaticamente na reunião quando um usuário da organização ingressa na reunião.
+Esta é uma política por organizador. Essa configuração controla se as pessoas que se conectam por telefone ingressam diretamente na reunião ou esperam o lobby, independentemente da configuração **Aceitar pessoas automaticamente**. Por padrão, essa configuração é desabilitada. Quando essa configuração for desligada, os usuários de discagem aguardarão no lobby até que um usuário da organização participe da reunião com um cliente do Teams e os admitirá. Quando essa configuração é ativada, os usuários de acesso telefônico ingressam automaticamente na reunião quando um usuário da organização ingressa na reunião.
 
 > [!NOTE]
 > Se um usuário de acesso telefônico participar de uma reunião antes de um usuário da organização ingressar na reunião, ele será colocado no lobby até que um usuário da organização ingresse na reunião usando um cliente de equipes e o admita. Se você alterar a configuração padrão para qualquer usuário, ela será aplicada a todas as novas reuniões organizadas por esse usuário e a qualquer reunião anterior em que o usuário não tiver modificado as Opções de reunião.
@@ -507,9 +507,9 @@ Para especificar o valor padrão da configuração **Quem pode apresentar?** no 
 - **EveryoneInCompanyUserOverride**: os usuários autenticados na organização, incluindo os usuários convidados, podem ser apresentadores. Esse parâmetro corresponde à configuração **Pessoas na minha organização** no Teams.
 - **OrganizerOnlyUserOverride**: somente o organizador da reunião pode ser um apresentador e todos os participantes da reunião são designados como participantes. Esse parâmetro corresponde à configuração **Somente eu** no Teams.
 
-Além disso, você pode editar essa política no Centro de administração do Teams. 
+Além disso, você pode editar essa política no Centro de administração do Teams.
 
-![Captura de tela do Centro de administração do Teams](media/designated-presenter-role.png)
+![Captura de tela do centro de administração do Teams](media/designated-presenter-role.png)
 
 Lembre-se de que, depois de definir o valor padrão, os organizadores de reunião ainda poderão alterar essa configuração no Teams e escolher quem poderá apresentar nas reuniões agendadas por eles.
 
@@ -536,7 +536,7 @@ Para especificar o suplemento de reunião que você deseja disponibilizar para o
 - Defina o parâmetro como **TeamsAndSfB** para habilitar o suplemento de reunião do Teams e o suplemento Skype for Business no Outlook. Esse é o valor padrão.
 - Defina o parâmetro como **Teams** para habilitar somente o suplemento de reunião do Teams no Outlook. Essa configuração de política garante que todas as reuniões futuras possuam um link de ingresso na reunião do Teams. Ela não migra links de ingresso existentes do Skype for Business para o Teams. Essa configuração de política não afeta a presença, o chat, a chamada PSTN ou qualquer outro recurso no Skype for Business, o que significa que os usuários continuarão a usar o Skype for Business para esses recursos.
 
-  Se você definir o parâmetro para **Teams** e, em seguida, retornar para **TeamsAndSfB**, os suplementos para ambas reuniões serão habilitados. No entanto, lembre-se de links de ingresso existentes da reunião do Teams não serão migradas para o Skype for Business. Somente as reuniões do Skype for Business agendadas depois da alteração terão um link de ingresso na reunião do Skype for Business.
+  Se você definir o parâmetro para **Teams** e, em seguida, retornar para **TeamsAndSfB**, os suplementos para ambas reuniões serão habilitados. Os links de junção de reuniões existentes do Teams **não serão** migrados para o Skype for Business. Somente as reuniões do Skype for Business agendadas depois da alteração terão um link de ingresso na reunião do Skype for Business.
 
 ## <a name="meeting-policy-settings---video-filters-mode"></a>Configurações de política de reunião - modo de filtros de vídeo
 
@@ -551,13 +551,19 @@ Para especificar se os usuários podem personalizar o plano de fundo do vídeo e
 |**NoFilters**     |O usuário não pode personalizar o plano de fundo do vídeo.|
 |**BlurOnly**     |O usuário tem a opção de borrar o plano de fundo do vídeo. |
 |**BlurandDefaultBackgrounds**     |O usuário tem a opção de borrar o plano de fundo do vídeo ou escolher entre o conjunto padrão de imagens a ser usado como plano de fundo. |
-|**AllFilters**     |O usuário tem a opção de desfocar o plano de fundo do vídeo, escolher entre o conjunto padrão de imagens ou carregar imagens personalizadas para usar como plano de fundo. |
+|**AllFilters**     |O usuário tem a opção de desfocar seu plano de fundo de vídeo, escolher entre o conjunto padrão de imagens ou carregar imagens personalizadas para usar como plano de fundo. |
 
 > [!IMPORTANT]
 > As imagens carregadas pelos usuários não são filtradas pelo Teams. Quando você usa a configuração **AllFilters**, você deve ter políticas internas da organização para impedir que os usuários façam o upload de imagens ofensivas ou inadequadas, ou imagens que sua organização não tem direitos de uso para os planos de fundo de reunião do Teams.
 
 > [!NOTE]
-> Esses recursos não estão disponíveis para todos os clientes do Teams. Para obter mais informações, consulte _o título de Vídeo e_ plano de fundo em Reuniões e eventos ao [vivo.](https://support.microsoft.com/office/meetings-and-live-events-5c3e0646-dc37-45ad-84a4-1666fac62d4e)
+> Esses recursos não estão disponíveis para todos os clientes do Teams. Para obter mais informações, consulte _o título Vídeo e plano_ de fundo em Reuniões e eventos ao [vivo.](https://support.microsoft.com/office/meetings-and-live-events-5c3e0646-dc37-45ad-84a4-1666fac62d4e)
+
+## <a name="meeting-policy-settings---meeting-reactions"></a>Configurações de política de reunião - Reações de reunião
+
+A configuração AllowMeetingReactions só pode ser aplicada usando o PowerShell. Não há opção para alternar AllowMeetingReactions a partir do centro de administração do Teams.
+
+As reações de reunião são Desligadas por padrão. Desligar reações para um usuário não significa que um usuário não pode usar reações em reuniões agendadas. O organizador da reunião ainda pode ativar reações da página de opção de reunião, independentemente da configuração padrão.
 
 ## <a name="related-topics"></a>Tópicos relacionados
 

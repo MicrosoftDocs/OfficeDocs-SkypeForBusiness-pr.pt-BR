@@ -2,7 +2,7 @@
 title: Experiência de reunião somente exibição
 author: cichur
 ms.author: v-cichur
-ms.reviewer: hao.moy
+ms.reviewer: christi.balaki
 manager: serdars
 ms.topic: article
 audience: admin
@@ -16,20 +16,20 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ed7221192fdc3588856755b8be651065fdbf15ab
-ms.sourcegitcommit: 79b19b326ef40bf04af03021a7c6506fdd9417ba
+ms.openlocfilehash: 49f65e1ff47caefd61a9b2753b12da23fd2184e9
+ms.sourcegitcommit: b0753baa55841a2c6c5dc006dcdd117704af3b42
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 03/02/2021
-ms.locfileid: "50397556"
+ms.locfileid: "50401315"
 ---
 # <a name="teams-view-only-meeting-experience"></a>Experiência de reunião somente para exibição do Teams
 
 > [!Note]
-> A experiência de reunião somente para exibição estará disponível no início de março de 2021. Esse recurso será habilitado em 1º de março de 2021 como OFF padrão. Você deve alterar a política padrão após essa data se quiser que o recurso seja on padrão. Use o PowerShell para habilitar a política `Set-CsTeamsMeetingPolicy -Identity Global -StreamingAttendeeMode Disabled` .
+> A experiência de reunião somente para exibição estará disponível no início de março de 2021. Esse recurso será habilitado em 1º de março de 2021 como OFF padrão. Você deve alterar a política padrão após essa data se quiser que o recurso seja on padrão. Use o PowerShell para habilitar a política `Set-CsTeamsMeetingPolicy -Identity Global -StreamingAttendeeMode Enabled` .
 
 > [!Note]
-> Aumentamos temporariamente a experiência somente para exibição para 20.000 participantes, mas reverteremos o suporte para 10.000 participantes em 30 de junho de 2021.
+> Se sua reunião ou webinar atingir a capacidade, o Teams será dimensionado perfeitamente para acomodar uma experiência de transmissão somente para exibição de 10.000 pessoas. Além disso, durante esse período de maior trabalho remoto, aproveite as transmissões ainda maiores de 20.000 pessoas até o final deste ano.
 
 O Microsoft Teams permite que até 10.000 participantes participem de uma reunião do Teams. Depois que a capacidade da reunião principal tiver sido atingida, participantes adicionais ingressarão com uma experiência somente para exibição.
 
@@ -107,10 +107,10 @@ O participante somente para exibição não poderá experimentar as seguintes op
 ## <a name="view-only-feature-limitations"></a>Limitações de recursos somente exibição
 
 - Os participantes somente exibição sempre verão legendas ao vivo, independentemente da configuração de legendas ao vivo para essa reunião. Somente legendas em inglês são suportadas no momento.
-- Os participantes somente para exibição terão suporte pela tecnologia de streaming.
+- Os participantes somente para exibição terão suporte da tecnologia de streaming.
 - Os participantes somente exibição não serão incluídos no relatório de presença.
 - Os participantes somente para exibição terão uma única experiência em vídeo. Eles podem ver o alto-falante ativo ou o conteúdo sendo compartilhado, mas não ambos.
-- No momento, não há suporte para  Layouts de modo **Galeria,** **Galeria** Grande ou Modo Juntos para participantes somente para exibição.  
+- No momento, não há suporte a  Layouts de modo **Galeria,** **Galeria** Grande ou Modo Juntos para participantes somente para exibição.  
 - Os participantes somente exibição não terão a mesma latência que um participante regular. <sup>1</sup>
 
   <sup>1</sup> Os participantes somente exibição estarão com um atraso de vídeo e áudio de 30 segundos na reunião.  
