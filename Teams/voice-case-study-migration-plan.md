@@ -1,5 +1,5 @@
 ---
-title: Estudo de caso do Teams voice Contoso
+title: Estudo de caso de voz do Teams Contoso
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -13,27 +13,27 @@ ms.reviewer: jowrig
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Estudo de caso de voz do Teams para corporação multinacional
+description: Estudo de caso de voz do Teams para corporação multi-nacional
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d5429b4c45ccea82d1451210438bedd328618604
-ms.sourcegitcommit: af15d99837a389b6b26952211e65cd68c4b7f46e
+ms.openlocfilehash: 93f6d0877537a740dc867b44c3c4deb9bebb8441
+ms.sourcegitcommit: 6f7b91f573e2a034f8c5474be2c5cb2971f4b5ab
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/18/2020
-ms.locfileid: "44785942"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "50421286"
 ---
-# <a name="contoso-case-study-teams-upgrade-plan"></a>Estudo de caso da Contoso: plano de atualização do Teams
+# <a name="contoso-case-study-teams-upgrade-plan"></a>Estudo de caso contoso: Plano de atualização do Teams
 
-Na decisão de migrar do Skype for Business para o Teams, a Contoso queria fornecer uma experiência de transição fácil para os usuários finais. Em vez de mudar todos para o Teams ao mesmo tempo, eles decidiram configurar a conectividade híbrida e usar o método de sobreposição de recursos para mover os usuários para o Teams. Isso permitia que os usuários do Teams e do Skype for Business locais compartilhavam presença e se comunicam. Conforme os usuários entraram no piloto do Sistema telefônico, eles foram movidos para o modo Somente equipes.
+Na decisão de migrar do Skype for Business para o Teams, a Contoso quis oferecer uma experiência de transição fácil para os usuários finais. Em vez de alternar todos para o Teams ao mesmo tempo, eles decidiram configurar a conectividade híbrida e usar o método de recursos sobrepostos para mover os usuários para o Teams. Isso permitia que os usuários do Teams e do Skype for Business locais compartilhavam presença e se comunicavam. À medida que os usuários entraram no piloto do Sistema de Telefonia, eles foram movidos para o modo Somente do Teams.
 
-Para entender conceitos fundamentais sobre atualização, métodos e modos, a Contoso leu os seguintes artigos:
+Para entender os conceitos fundamentais sobre atualização, métodos e modos, a Contoso leu os seguintes artigos:
 
 - [Introdução à atualização para o Microsoft Teams](upgrade-start-here.md)
-- [Atualização do Skype for Business para o Teams](upgrade-to-teams-on-prem-overview.md) 
+- [Estratégias de atualização para administradores de IT](upgrade-to-teams-on-prem-implement.md) 
 - [Diretrizes de migração e interoperabilidade](migration-interop-guidance-for-teams-with-skype.md)
  
-A Contoso também participou da sessão Ignite 2019, projetando seu caminho do [Skype for Business para o Teams.](https://myignite.techcommunity.microsoft.com/sessions/81820?source=sessions) A Contoso aprendeu sobre:
+A Contoso também participou da sessão Ignite 2019 Projetando seu caminho do [Skype for Business para o Teams.](https://myignite.techcommunity.microsoft.com/sessions/81820?source=sessions) Contoso aprendeu sobre:
 
 - Conceitos fundamentais, como interoperabilidade, federação e comportamento de atualização 
 
@@ -43,18 +43,18 @@ A Contoso também participou da sessão Ignite 2019, projetando seu caminho do [
 
   - Chat e Chamada 
 
-  - Agendamento de reunião 
+  - Agendamento de reuniões 
 
   - Disponibilidade da funcionalidade de colaboração em clientes do Teams 
 
-Para planejar e configurar a conectividade híbrida, o primeiro passo para [](https://docs.microsoft.com/SkypeForBusiness/hybrid/plan-hybrid-connectivity) mover seu ambiente [](https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-hybrid-connectivity) local para a nuvem, a Contoso leu Plano de conectividade híbrida e Configurar a conectividade híbrida para entender como: 
+Para planejar e configurar a conectividade híbrida, a primeira etapa para [](https://docs.microsoft.com/SkypeForBusiness/hybrid/plan-hybrid-connectivity) mover seu ambiente local para a nuvem, a Contoso leu Planejar conectividade híbrida e [Configurar](https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-hybrid-connectivity) conectividade híbrida para entender como: 
 
-  - Configure o serviço de ambiente local para se federar com o Office 365. 
+  - Configure seu serviço de ambiente local para federar com o Office 365. 
 
-  - Configurar o ambiente local para confiar no Office 365 e habilitar o espaço de endereço SIP compartilhado com o Office 365 
+  - Configurar seu ambiente local para confiar no Office 365 e habilitar o espaço de endereço SIP compartilhado com o Office 365 
 
-  - Habilitar o espaço de endereço SIP compartilhado no locatário do Office 365.
+  - Habilita o espaço de endereço SIP compartilhado em seu locatário do Office 365.
 
   - Use o modo Ilhas durante o piloto técnico.
 
-  - Alternar usuários para o modo TeamsOnly assim que o usuário está habilitado para o Sistema de Telefonia. O modo TeamsOnly é necessário para o Plano de Chamada e o Roteamento Direto. 
+  - Alternar usuários para o modo TeamsOnly quando o usuário for habilitado para o Sistema de Telefonia. O modo TeamsOnly é necessário para Plano de Chamadas e Roteamento Direto. 
