@@ -1,5 +1,5 @@
 ---
-title: Ligar e conversar com usuários de outras organizações
+title: Use o acesso para convidado e o acesso externo para colaborar com pessoas de fora da sua organização
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
@@ -17,15 +17,15 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 localization_priority: Priority
-description: Aprenda como fazer uma chamada, bater papo, encontrar e adicionar usuários de fora da organização no Microsoft Teams usando o acesso externo (federação) e o acesso de convidado.
-ms.openlocfilehash: 5c5eecf5ceb2228f981a7cd06b52f3b5a1b787d7
-ms.sourcegitcommit: 27bfa015413bc7742bca4ea227e0324da0c740d7
+description: Aprenda como fazer uma chamada, bater papo, encontrar e adicionar usuários de fora da organização no Microsoft Teams usando o acesso externo (federação) e o acesso para convidado.
+ms.openlocfilehash: e3524bfeb7e21e18d0d742c7208bbe307bdd16c8
+ms.sourcegitcommit: 6f7b91f573e2a034f8c5474be2c5cb2971f4b5ab
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "50145828"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "50421316"
 ---
-# <a name="call-chat-and-collaborate-with-people-outside-your-organization-in-microsoft-teams"></a>Faça uma chamada, converse e colabore com pessoas fora da sua organização no Microsoft Teams
+# <a name="use-guest-access-and-external-access-to-collaborate-with-people-outside-your-organization"></a>Use o acesso para convidado e o acesso externo para colaborar com pessoas de fora da sua organização
 
 Quando você precisa se comunicar e colaborar com pessoas de fora da sua organização, o Microsoft Teams tem duas opções:
 
