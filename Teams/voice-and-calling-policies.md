@@ -7,7 +7,7 @@ ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: ''
 search.appverid: ''
-description: ''
+description: Saiba mais sobre políticas de voz e chamadas do Teams.
 audience: admin
 localization_priority: Normal
 MS.collection:
@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7d0ea4db57fbfdc3ab76e8c6c9991e032103b260
-ms.sourcegitcommit: e72599d5437773322ae6ef985f804a19101ed84f
+ms.openlocfilehash: 9056c9b81fcda9c0e7408c63b4af00c1aabbffd0
+ms.sourcegitcommit: d62e6cefceebe481eb207c59872f1aa67f0fc528
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/26/2021
-ms.locfileid: "50347966"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "50460581"
 ---
 # <a name="manage-voice-and-calling-policies-in-microsoft-teams"></a>Gerenciar políticas de voz e chamadas no Microsoft Teams
 
@@ -72,7 +72,7 @@ Uma [política de roteamento de](manage-voice-routing-policies.md) voz é um con
 
 * [Gerenciar políticas de chamada de emergência no Microsoft Teams](manage-emergency-calling-policies.md)
 * [Gerenciar políticas de roteamento de chamada](manage-emergency-call-routing-policies.md)
-* [Gerenciar políticas de ID do chamador no Microsoft Teams](caller-id-policies.md)
+* [Gerenciar políticas de identificação de chamadas no Microsoft Teams](caller-id-policies.md)
 * [Gerenciar políticas de roteamento de voz](manage-voice-routing-policies.md)
 * [Políticas de chamada no Microsoft Teams](teams-calling-policy.md)
 * [Estacionamento e recuperação de chamadas no Microsoft Teams](call-park-and-retrieve.md)

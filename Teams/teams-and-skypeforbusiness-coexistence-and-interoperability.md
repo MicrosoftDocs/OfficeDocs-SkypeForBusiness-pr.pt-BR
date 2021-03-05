@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 430c64fed77412ca555048adf3cf5e323fa20856
-ms.sourcegitcommit: 79b19b326ef40bf04af03021a7c6506fdd9417ba
+ms.openlocfilehash: adefa7a7ca948363f3d331c4500619e81bbc1ea8
+ms.sourcegitcommit: d62e6cefceebe481eb207c59872f1aa67f0fc528
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/02/2021
-ms.locfileid: "50397586"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "50460601"
 ---
 # <a name="understand-microsoft-teams-and-skype-for-business-coexistence-and-interoperability"></a>Compreender a coexistência e a interoperabilidade do Microsoft Teams e do Skype for Business
 
@@ -49,7 +49,7 @@ Se sua organização usa o Skype for Business hoje e você está começando a us
 
 As seções a seguir descrevem os modos de coexistência disponíveis quando você decide atualizar para o Teams e os recursos que cada modo oferece. Além disso, descrevemos a interoperabilidade (interoperabilidade) que ocorre entre usuários em clientes do Skype-for-Business e usuários em clientes do Teams e como a interoperabilidade é afetada pelo modo de coexistência escolhido.
 
- O Teams oferece recursos de colaboração, chat, chamada e recursos de reunião. Dependendo de como você optar por implantar o Teams, esses recursos podem se sobrepor aos recursos fornecidos pelo Skype for Business para um determinado usuário. O modo padrão é executar o Teams juntamente com o Skype for Business com os recursos sobrepostas. No entanto, um usuário pode ser atribuído a um dos vários modos de coexistência (também conhecidos como modos de atualização) que foram projetados para garantir que esses recursos não se sobreponham a esse usuário (nesse caso, a interoperabilidade entre o Teams e o Skype for Business está disponível). Por exemplo, se você tiver ativos locais significativos do Skype for Business Server com uma implantação Enterprise Voice complexa, mas quiser que os usuários aproveitem reuniões modernas o mais rapidamente possível, talvez você queira avaliar [Reuniões Primeiro](meetings-first.md) como um caminho alternativo.
+ O Teams oferece recursos de colaboração, chat, chamada e recursos de reunião. Dependendo de como você optar por implantar o Teams, esses recursos podem se sobrepor aos recursos fornecidos pelo Skype for Business para um determinado usuário. O modo padrão é executar o Teams juntamente com o Skype for Business com os recursos sobrepostas. No entanto, um usuário pode ser atribuído a um dos vários modos de coexistência (também conhecidos como modos de atualização) que foram projetados para garantir que esses recursos não se sobreponham a esse usuário (nesse caso, a interoperabilidade entre o Teams e o Skype for Business está disponível). Por exemplo, se você tiver ativos locais significativos do Skype for Business Server com uma implantação de Enterprise Voice complexa, mas quiser que os usuários aproveitem reuniões modernas o mais rápido possível, talvez você queira avaliar [Reuniões Primeiro](meetings-first.md) como um caminho alternativo.
 
 Recomendamos que você revise os seguintes modos de coexistência para ajudar a determinar qual caminho é o certo para sua organização.
 
@@ -85,7 +85,7 @@ Assim que sua organização estiver pronta para que alguns ou todos os usuários
 
 Quando no **modo Somente Equipes,** o Teams é o aplicativo padrão para o protocolo SIP/Tel. Os links no cartão de visita de um usuário no Outlook para chamada ou chat serão manipulados pelo Teams.
 
-Para considerações adicionais sobre como mudar para **o modo Somente equipes,** consulte Considerações sobre o modo Somente [do Teams.](teams-only-mode-considerations.md)
+Para considerações adicionais sobre como mudar para **o modo Somente Equipes,** consulte Considerações sobre o modo Somente [do Teams.](teams-only-mode-considerations.md)
 
 ![Captura de tela da mensagem de confirmação do Teams](media/teams-and-skypeforbusiness-coexistence-and-interop-image1.png "Cliente skype for Business em execução em um modo especial depois que o usuário é atualizado como um usuário somente do Teams")
 
@@ -186,7 +186,7 @@ Essa solução alternativa é a base para escalonamento de interop. Em particula
 
 A escalonamento de interop consiste em complementar os recursos nativos de interop com escalonamentos gerenciados para reuniões. As reuniões oferecem experiências ricas disponíveis para qualquer pessoa, independentemente de qual cliente eles tenham.
 
-Quando a escalonamento de interop é disparada pelo usuário do Teams, uma reunião do Teams é criada. Quando ele é acionado pelo usuário do Skype for Business, uma reunião do Skype for Business é criada. Em ambos os casos, a reunião criada é uma **reunião Reunir agora,** que não se reflete no calendário do usuário.
+Quando a escalonamento de interop é disparada pelo usuário do Teams, uma reunião do Teams é criada. Quando ele é acionado pelo usuário do Skype for Business, uma reunião do Skype for Business é criada. Em ambos os casos, a reunião criada é uma **reunião reunir agora,** que não se reflete no calendário do usuário.
 
 A outra parte recebe o link de junção de reunião por meio de chat de interop e inspeções clicando nesse link. Se o usuário do Skype for Business tiver uma conta do Teams e for convidado pelo usuário do Teams, ele ingressará na reunião autenticada. Caso contrário, eles ingressarão como participantes anônimos. Por outro lado, os usuários do Teams quase sempre têm uma conta do Skype for Business e um cliente do Skype for Business que podem usar para ingressar em uma reunião do Skype for Business como um participante autenticado, mas também podem ingressar como participantes anônimos, por exemplo, usando o Aplicativo de Reunião do Skype.
 
@@ -214,7 +214,7 @@ Essa escalada para uma reunião do Skype for Business está disponível para cha
 
 A escalonamento de interop do Teams para uma reunião do Teams agora está disponível quando o usuário do Teams seleciona o botão de compartilhamento de área de trabalho em um thread de interop no locatário com um usuário do Skype for Business ou em um thread de federação de interop entre locatários. A escalonamento de interop é suportada a partir de uma conversa de chat 1:1 ou de uma chamada 1:1.
 
-A funcionalidade é suportada no cliente de área de trabalho do Teams para Windows, no cliente de área de trabalho do Teams para Mac e no cliente Web do Teams em navegadores em que há suporte para compartilhamento de conteúdo, enquanto se comunica com qualquer versão do cliente do Skype for Business.
+O recurso é suportado no cliente de área de trabalho do Teams para Windows, no cliente de área de trabalho do Teams para Mac e no cliente Web do Teams em navegadores em que há suporte para compartilhamento de conteúdo, enquanto se comunica com qualquer versão do cliente do Skype for Business.
 
 Em threads de interoperabilidade e em threads de interoperabilidade de federação, o usuário do Teams agora tem os controles (botão) para iniciar o compartilhamento de conteúdo. Quando o usuário do Teams seleciona o botão, ele é apresentado com um menu adicional que informa que para compartilhar conteúdo, ele precisará iniciar uma reunião do Teams.
 
@@ -226,7 +226,7 @@ Após a aceitação, eles são colocados na reunião do Teams; eles devem começ
 
 Enquanto isso, o usuário do Skype for Business recebe uma mensagem de chat de entrada com o link para a reunião e é orientado a ingressar.
 
-Essa escalada para uma reunião do Teams está disponível para chamadas e chats federados entre locatários e inter locatários. Ele está on por padrão e não há nenhuma configuração que o administrador tenha que provisionar. No entanto, ele será desligado para o usuário se o administrador ``-AllowPrivateMeetNow`` se configura ``CsTeamsMeetingPolicy`` como ``$false`` .
+Essa escalonamento para uma reunião do Teams está disponível para chamadas e chats federados entre locatários e inter locatários. Ele está on por padrão e não há nenhuma configuração que o administrador tenha que provisionar. No entanto, ele será desligado para o usuário se o administrador ``-AllowPrivateMeetNow`` se configura ``CsTeamsMeetingPolicy`` como ``$false`` .
 
 Depois de revisar este artigo, consulte Choose your [upgrade journey](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md), Migration [and interoperability guidance](https://aka.ms/SkypeToTeams-Interop), [Coexistence with Skype for Business](coexistence-chat-calls-presence.md), and Setting your [coexistence and upgrade settings](https://aka.ms/SkypeToTeams-SetCoexistence) for implementation details. Também recomendamos o seguinte vídeo: [Vídeo: Gerenciar Coexistência e Interoperabilidade entre SfB e Teams](https://www.youtube.com/watch?v=wEc9u4S3GIA&list=PLaSOUojkSiGnKuE30ckcjnDVkMNqDv0Vl&index=11)
 
@@ -236,12 +236,10 @@ As seções a seguir resumem o comportamento que pode ser experimentado ao execu
 
 - [Reuniões](#meetings)
 - [Interoperabilidade](#interoperability)
-- [Threads de conversa do Teams-Interop versus threads nativos](#teams-conversations---interop-versus-native-threads)
+- [Threads de conversa interop versus nativo](#interop-versus-native-conversation-threads)
 - [Presença](#presence)
 - [Federação](#federation)
 - [Contatos](#contacts)
-
-
 
 ### <a name="meetings"></a>Reuniões
 
@@ -251,7 +249,7 @@ Independentemente do modo, os usuários sempre podem participar de qualquer tipo
 
 - Se a reunião for uma reunião do Skype for Business, todos os participantes (sejam usuários do TeamsOnly, Islands ou Skype for Business) usarão o cliente skype for Business para ingressar na reunião. Se o cliente skype for Business não estiver instalado, o usuário será direcionado para a Web para ingressar por meio do Aplicativo de Reunião do Skype.
 
-Ao organizar reuniões, o tipo de reunião agendado baseia-se no modo do organizador, conforme mostrado na tabela a seguir:
+Ao organizar reuniões, o tipo de reunião agendado se baseia no modo do organizador, conforme mostrado na tabela a seguir:
 
 | Modo de organizador    |      Comportamento |
 | :------------------ | :---------------- |
@@ -278,9 +276,9 @@ Na comunicação de interop, o chat é somente texto sem texto. Além disso, o c
 
 - Se o usuário do Skype for Business estiver usando um cliente de 2018 ou posterior e tentar compartilhar qualquer conteúdo, uma reunião do Skype for Business sob demanda será criada automaticamente e um link de convite para essa reunião será enviado para o cliente do usuário do Teams. Ao clicar no link, o usuário do Teams tentará ingressar na reunião do Skype for Business. Se o usuário do Teams tiver o cliente skype for Business instalado, ele será aberto e o usuário será solicitado a entrar (se ainda não tiver feito logor).  Se o usuário do Teams não tiver o cliente skype for Business instalado, o usuário será solicitado a usar a versão da Web. Depois que ambos os usuários estão assinados, eles estão em uma reunião do Skype for Business e podem compartilhar conforme necessário.
 
-### <a name="teams-conversation-threads---interop-versus-native-threads"></a>Threads de conversa do Teams - Interop versus threads nativos
+### <a name="interop-versus-native-conversation-threads"></a>Threads de conversa interop versus nativo
 
-Como as comunicações de interop não suportam todos os recursos da conversa nativa do Teams, o cliente do Teams mantém threads de conversa separados para comunicação do Teams para o Teams e do Teams para o Skype for Business. Essas conversas são renderizadas de forma diferente na interface do usuário: os threads de interop podem ser diferenciados de um thread regular nativo do Teams por:
+Como as comunicações de interop não suportam todos os recursos da conversa nativa do Teams, o cliente do Teams mantém threads de conversa separados para a comunicação do Teams para o Teams e do Teams para o Skype for Business. Essas conversas são renderizadas de forma diferente na interface do usuário: os threads de interop podem ser diferenciados de um thread regular nativo do Teams por:
 
 - Falta de controles para texto rico, compartilhamento de arquivo/tela, incapacidade de adicionar usuários.
 - Uma modificação no ícone do usuário de destino, mostrando um "S" para Skype for Business.
@@ -322,7 +320,7 @@ A federação do Teams para outro usuário que usa o Skype for Business exige qu
 - Chats e chamadas iniciados a partir do Teams são recebidos no Teams se o destinatário estiver no mesmo locatário.
 - Chats e chamadas iniciadas pelo Skype for Business sempre estão no Skype for Business.
 
-Um chat federado pode ser um thread nativo ou um thread de interop. Consulte [Teams Conversations ---interop-versus-native-threads](#teams-conversations---interop-versus-native-threads).
+Um chat federado pode ser um thread nativo ou um thread de interop. Consulte [Interop versus native conversation threads](#interop-versus-native-conversation-threads).
 
 - Se o receptor e o remetente estão no modo de atualização do TeamsOnly, a conversa será uma experiência de chat nativa que inclui todos os recursos avançados de mensagens e chamada. Para saber mais, leia [Experiência de chat nativa para usuários externos (federados) no Teams](native-chat-for-external-users.md). 
 

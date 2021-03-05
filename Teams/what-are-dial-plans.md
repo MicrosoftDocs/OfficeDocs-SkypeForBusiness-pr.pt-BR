@@ -21,67 +21,67 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.voice.dialplans.overview
 - Calling Plans
-description: 'Saiba que tipo de planos de chamada discagem (planos de discagem de Chamada PSTN) estão disponíveis com o Teams e como escolher um para sua organização.  '
-ms.openlocfilehash: 9e6b9930c5106ec143563e0f69dd61ccb30d550c
-ms.sourcegitcommit: 9c1f3a72fb166b49a4b68bcdb9a2868bf86ca680
+description: 'Saiba que tipo de planos de chamada de discagem (planos de discagem de chamada PSTN) estão disponíveis com o Teams e como escolher um para sua organização.  '
+ms.openlocfilehash: adb5f46296423b6339c62029d27111345c2fd646
+ms.sourcegitcommit: d62e6cefceebe481eb207c59872f1aa67f0fc528
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "49718585"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "50460811"
 ---
 # <a name="what-are-dial-plans"></a>O que são planos de discagem?
 
 Um plano de discagem é um conjunto nomeado de regras de normalização que converte os números de telefone discados por um usuário em um formato alternativo (normalmente E.164) para fins de autorização e roteamento de chamadas.
 
-Um plano de discagem consiste em uma ou mais regras de normalização que definem como os números de telefone expressos em vários formatos são traduzidos para um formato alternativo. A mesma cadeia de caracteres de discagem pode ser interpretada e traduzida de forma diferente em planos de discagem diferentes, portanto, dependendo de qual plano de discagem é atribuído a um determinado usuário, o mesmo número discado pode ser traduzido e roteado de forma diferente. Pode haver um máximo de 1.000 planos de discagem de locatário.
+Um plano de discagem consiste em uma ou mais regras de normalização que definem como os números de telefone expressos em vários formatos são convertidos para um formato alternativo. A mesma cadeia de caracteres de discagem pode ser interpretada e traduzida de forma diferente em planos de discagem diferentes, portanto, dependendo de qual plano de discagem é atribuído a um determinado usuário, o mesmo número discado pode ser convertido e roteado de forma diferente. Pode haver no máximo 1.000 planos de discagem de locatários.
 
 Consulte [Criar e gerenciar planos de discagem](create-and-manage-dial-plans.md) para criar e gerenciar planos de discagem de locatários.
 
 ## <a name="tenant-dial-plan-scope"></a>Escopo do plano de discagem do locatário
 
-O escopo de um plano de discagem determina o nível hierárquico em que o plano de discagem pode ser aplicado. Os clientes obterão o plano de discagem apropriado por meio de configurações de provisionamento que são fornecidas automaticamente quando os usuários entrarem no Teams. Como administrador, você pode gerenciar e atribuir níveis de escopo do plano de discagem usando o Centro de administração do Microsoft Teams ou o PowerShell Remoto.
+O escopo de um plano de discagem determina o nível hierárquico em que o plano de discagem pode ser aplicado. Os clientes obterão o plano de discagem apropriado por meio das configurações de provisionamento que são fornecidas automaticamente quando os usuários fazem login no Teams. Como administrador, você pode gerenciar e atribuir níveis de escopo do plano de discagem usando o Centro de administração do Microsoft Teams ou o PowerShell Remoto.
 
-No Teams, há dois tipos de planos de discagem: com escopo de serviço e com escopo de locatário (que é para sua organização). Um plano de discagem com escopo de serviço é definido para cada país ou região onde o Sistema telefônico está disponível. Cada usuário recebe automaticamente o plano de discagem do país de serviço que corresponde ao local de uso atribuído ao usuário. Não é possível alterar o plano de discagem do país de serviço, mas você pode criar planos de discagem com escopo de locatário, o que aumenta o plano de discagem do país de serviço. À medida que os clientes são provisionados, eles obtém um "plano de discagem efetivo", que é uma combinação do plano de discagem do país de serviço e do plano de discagem de locatário com escopo apropriado. Portanto, não é necessário definir todas as regras de normalização nos planos de discagem do locatário, pois eles podem já existir no plano de discagem do país de serviço.
+No Teams, há dois tipos de planos de discagem: escopo de serviço e escopo de locatário (que é para sua organização). Um plano de discagem com escopo de serviço é definido para cada país ou região onde o Sistema de Telefonia está disponível. Cada usuário recebe automaticamente o plano de discagem do país de serviço que corresponde ao local de uso atribuído ao usuário. Você não pode alterar o plano de discagem do país de serviço, mas pode criar planos de discagem com escopo de locatário, o que aumenta o plano de discagem do país de serviço. À medida que os clientes são provisionados, eles obtém um "plano de discagem efetivo", que é uma combinação do plano de discagem do país de serviço e do plano de discagem de locatário com escopo apropriado. Portanto, não é necessário definir todas as regras de normalização nos planos de discagem do locatário, visto que eles já podem existir no plano de discagem do país de serviço.
 
-Os planos de discagem de locatário podem ser divididos em dois escopos: escopo do locatário ou escopo do usuário. Se um locatário definir e atribuir um plano de discagem com escopo de usuário, esse usuário será provisionado com um plano de discagem efetivo do plano de discagem do país de serviço do usuário e o plano de discagem do usuário atribuído. Se um locatário definir um plano de discagem com escopo de locatário, mas não atribuir um plano de discagem com escopo de usuário, esse usuário será provisionado com um plano de discagem efetivo do plano de discagem do país de serviço do usuário e o plano de discagem do locatário.
+Os planos de discagem de locatários podem ser divididos em dois escopos : escopo de locatário ou escopo do usuário. Se um locatário definir e atribuir um plano de discagem com escopo de usuário, esse usuário será provisionado com um plano de discagem efetivo do plano de discagem do país de serviço do usuário e o plano de discagem do usuário atribuído. Se um locatário definir um plano de discagem com escopo de locatário, mas não atribuir um plano de discagem com escopo de usuário, esse usuário será provisionado com um plano de discagem efetivo do plano de discagem do país de serviço do usuário e o plano de discagem de locatário.
 
-A seguir, o modelo de herança de planos de discagem no Teams.
+A seguir está o modelo de herança de planos de discagem no Teams.
 
 ![Como os planos de discagem são herdados no Teams](media/b2744f33-ebbd-4c23-bfba-1747312ab178.png)
 
 A seguir são apresentados planos de discagem efetivos possíveis:
 
- **País de Serviço** Se nenhum plano de discagem com escopo de locatário for definido e nenhum plano de discagem com escopo de usuário do locatário for atribuído ao usuário provisionado, o usuário receberá um plano de discagem efetivo mapeado para o país de serviço associado ao local de uso.
+ **País do Serviço** Se nenhum plano de discagem com escopo de locatário for definido e nenhum plano de discagem com escopo de locatário for atribuído ao usuário provisionado, o usuário receberá um plano de discagem efetivo mapeado para o país de serviço associado ao local de uso.
 
- **Locatário Global - País de Serviço** Se um plano de discagem de usuário de locatário for definido, mas não atribuído a um usuário, o usuário provisionado receberá um plano de discagem efetivo consistindo em um plano de discagem de locatário mesclado e o plano de discagem do país de serviço associado ao local de uso.
+ **Locatário Global - País de Serviço** Se um plano de discagem de usuário de locatário for definido, mas não atribuído a um usuário, o usuário provisionado receberá um plano de discagem efetivo que consiste em um plano de discagem de locatário mesclado e o plano de discagem do país de serviço associado ao local de uso.
 
- **Usuário do Locatário – País de Serviço** Se um plano de discagem de usuário de locatário for definido e atribuído a um usuário, o usuário provisionado receberá um plano de discagem efetivo consistindo no plano de discagem de usuário de locatário mesclado e no plano de discagem do país de serviço associado ao local de uso.
+ **Usuário do Locatário - País de Serviço** Se um plano de discagem de usuário de locatário for definido e atribuído a um usuário, o usuário provisionado receberá um plano de discagem efetivo que consiste no plano de discagem do usuário de locatário mesclado e no plano de discagem do país de serviço associado ao local de uso.
 
 Consulte [Criar e gerenciar planos de discagem](create-and-manage-dial-plans.md) para criar seus planos de discagem de locatário.
 
 > [!NOTE]
-> No cenário em que nenhuma regra de normalização de plano de discagem se aplica a um número discado, a cadeia de caracteres discada ainda é normalizada para ser previamente "+CC" em que CC é o código do país do local de uso do usuário de discagem. Isso se aplica aos Planos de Chamada, Roteamento Direto e cenários de discagem de Conferência PSTN.
+> No cenário em que nenhuma regra de normalização do plano de discagem se aplica a um número discado, a cadeia de caracteres discada ainda é normalizada para pré-anexar "+CC" onde CC é o código de país do local de uso do usuário de discagem. Isso se aplica a planos de chamadas, roteamento direto e cenários de discagem de conferência PSTN.
 
 ## <a name="planning-for-tenant-dial-plans"></a>Planejamento de planos de discagem de locatário
 
 Para planejar os planos de discagem personalizado, siga estas etapas:
 
-- **Etapa 1** Decida se um plano de discagem personalizado é necessário para aprimorar a experiência de discagem do usuário. Normalmente, a necessidade de um seria dar suporte à discagem não E.164, como extensões ou discagem nacional abreviada.
+- **Etapa 1** Decida se um plano de discagem personalizado é necessário para aprimorar a experiência de discagem do usuário. Normalmente, a necessidade de um seria dar suporte à discagem não-E.164, como extensões ou discagem nacional abreviada.
 
-- **Etapa 2** Determine se os planos de discagem globais ou de usuário de locatário são necessários ou ambos. Os planos de discagem de usuário com escopo serão necessários se os usuários tiverem exigências de discagem local diferentes.
+- **Etapa 2** Determine se os planos de discagem globais ou de locatários com escopo de usuário são necessários ou ambos. Os planos de discagem de usuário com escopo serão necessários se os usuários tiverem exigências de discagem local diferentes.
 
 - **Etapa 3** Identifique padrões de número válido para cada plano de discagem necessário. Somente os padrões de número que não são definidos nos planos de discagem de país de nível de serviço são necessários.
 
 - **Etapa 4** Desenvolva um esquema em toda a organização para nomear os planos de discagem. A adoção de um esquema de nomenclatura padrão assegura a consistência em toda a organização e facilita a manutenção e as atualizações.
 
 
-## <a name="creating-your-new-tenant-dial-plan"></a>Criação de novo plano de discagem de locatário
+## <a name="creating-your-new-dial-plan"></a>Criando seu novo plano de discagem
 
 Quando você criar um novo plano de discagem, insira as informações necessárias.
 
 ### <a name="name-and-simple-name"></a>Nome e nome simples
 
-Para planos de discagem de usuário, você deve especificar um nome descritivo que identifique os usuários aos quais o plano de discagem será atribuído. O Nome Simples do plano de discagem é preenchido previamente com uma cadeia de caracteres derivada do nome do plano de discagem. O campo Nome Simples é editável, o que permite a criação de uma convenção de nomenclatura mais descritiva para os planos de discagem. O valor Nome Simples não pode ficar em branco e deve ser exclusivo. Uma prática recomendada é desenvolver uma convenção de nomenclatura para a organização inteira e, em seguida, usar essa convenção de forma consistente em todos os sites e usuários.
+Para planos de discagem de usuário, você deve especificar um nome descritivo que identifique os usuários aos quais o plano de discagem será atribuído. O plano de discagem Nome Simples é pré-preenchido com uma cadeia de caracteres derivada do nome do plano de discagem. O campo Nome Simples é editável, o que permite a criação de uma convenção de nomenclatura mais descritiva para os planos de discagem. O valor Nome Simples não pode ficar em branco e deve ser exclusivo. Uma prática recomendada é desenvolver uma convenção de nomenclatura para a organização inteira e, em seguida, usar essa convenção de forma consistente em todos os sites e usuários.
 
 ### <a name="description"></a>Descrição
 
@@ -102,23 +102,23 @@ Consulte [Criar e gerenciar planos de discagem](create-and-manage-dial-plans.md)
 
 As regras de normalização definem como os números de telefone expressos em vários formatos devem ser convertidos. A mesma sequência de números pode ser interpretada e convertida de modos diferentes dependendo do local de onde for discada. As regras de normalização podem ser necessárias, se os usuários precisarem discar números internos ou externos abreviados.
 
-Uma ou mais regras de normalização devem ser atribuídas ao plano de discagem. As regras de normalização são combinadas de cima para baixo, portanto, a ordem na qual elas aparecem em um plano de discagem de locatário é importante. Por exemplo, se um plano de discagem de locatário tiver 10 regras de normalização, será feita a lógica de correspondência de um número discado iniciando com a primeira regra de normalização, se não houver correspondência, então a segunda e assim por diante. Se for feita uma correspondência, essa regra será usada e não haverá esforço para corresponder as demais regras que estiverem definidas. Pode haver no máximo 50 regras de normalização em um determinado plano de discagem de locatário.
+Uma ou mais regras de normalização devem ser atribuídas ao plano de discagem. As regras de normalização são corresponder de cima para baixo, portanto, a ordem na qual elas aparecem em um plano de discagem de locatário é importante. Por exemplo, se um plano de discagem de locatário tiver 10 regras de normalização, será feita a lógica de correspondência de um número discado iniciando com a primeira regra de normalização, se não houver correspondência, então a segunda e assim por diante. Se for feita uma correspondência, essa regra será usada e não haverá esforço para corresponder as demais regras que estiverem definidas. Pode haver no máximo 50 regras de normalização em um determinado plano de discagem de locatário.
 
 ### <a name="determining-the-required-normalization-rules"></a>Determinação de regras de normalização necessárias
 
-Como qualquer plano de discagem de locatário está efetivamente mesclado com o plano de discagem do país de serviço de um determinado usuário, é provável que as regras de normalização do plano de discagem do país de serviço precisem ser avaliadas para determinar quais regras de normalização do plano de discagem de locatário são necessárias. O cmdlet **Get-CsEffectiveTenantDialPlan** pode ser usado para essa finalidade. O cmdlet usa a identidade de um usuário como parâmetro de entrada e retorna todas as regras de normalização aplicáveis ao usuário.
+Como qualquer plano de discagem de locatário é efetivamente mesclado com o plano de discagem do país de serviço de um determinado usuário, é provável que as regras de normalização do plano de discagem do país de serviço precisem ser avaliadas para determinar quais regras de normalização do plano de discagem de locatário são necessárias. O cmdlet **Get-CsEffectiveTenantDialPlan** pode ser usado para essa finalidade. O cmdlet usa a identidade de um usuário como parâmetro de entrada e retorna todas as regras de normalização aplicáveis ao usuário.
 
 ### <a name="creating-normalization-rules"></a>Criação de regras de normalização
 <a name="createrule"> </a>
 
-As regras de normalização usam expressões regulares do .NET Framework para especificar padrões de combinação numérica que o servidor usa para traduzir cadeias de caracteres de discagem para o formato E.164. As regras de normalização podem ser criadas especificando a expressão regular para a correspondência e a conversão a ser feita quando uma correspondência é encontrada. Ao concluir, você pode digitar um número de teste para verificar se a regra de normalização funciona como o esperado.
+As regras de normalização .NET Framework expressões regulares para especificar padrões de combinação numérica que o servidor usa para traduzir cadeias de caracteres de discagem para o formato E.164. As regras de normalização podem ser criadas especificando a expressão regular para a correspondência e a conversão a ser feita quando uma correspondência é encontrada. Ao concluir, você pode digitar um número de teste para verificar se a regra de normalização funciona como o esperado.
 
-Para obter detalhes sobre como usar expressões regulares do .NET Framework, consulte [Expressões Regulares do .NET Framework.](https://go.microsoft.com/fwlink/p/?linkId=140927)
+Para obter detalhes sobre como usar .NET Framework expressões regulares, [consulte .NET Framework Expressões Regulares](https://go.microsoft.com/fwlink/p/?linkId=140927).
 
-Consulte [Criar e gerenciar planos de discagem](create-and-manage-dial-plans.md) para criar e gerenciar regras de normalização para seus planos de discagem de locatário.
+Consulte [Criar e gerenciar planos de discagem](create-and-manage-dial-plans.md) para criar e gerenciar regras de normalização para seus planos de discagem de locatários.
 
 > [!NOTE]
-> No momento, as regras de normalização com o primeiro token como opcional não têm suporte em dispositivos 3pip (por exemplo, modelo Polycom VVX 601). Se quiser aplicar regras de normalização com opcionalidade em dispositivos 3pip, crie duas regras de normalização em vez de uma. Por exemplo, a regra ^0? (999)$ deve ser substituído pelas duas regras a seguir: (999)$ (Tradução:$1) e ^0(999)$ (Tradução:$1).
+> No momento, as regras de normalização com o primeiro token como opcional não são suportadas em dispositivos 3pip (por exemplo, modelo Polycom VVX 601). Se você quiser aplicar regras de normalização com opcionalidade em dispositivos 3pip, crie duas regras de normalização em vez de uma. Por exemplo, a regra ^0? (999)$ deve ser substituído pelas duas regras a seguir: (999)$ (Translation:$1) e ^0(999)$ (Translation:$1).
 
 
 ### <a name="sample-normalization-rules"></a>Regras de normalização de exemplo
@@ -126,7 +126,7 @@ Consulte [Criar e gerenciar planos de discagem](create-and-manage-dial-plans.md)
 A tabela a seguir mostra exemplos de regras de normalização que são gravadas como expressões reguladores do .NET Framework. São apenas exemplos e não deve ser uma referência prescritiva para a criação de regras de normalização.
 
 <a name="regularexpression"> </a> 
- **Regras de normalização usando expressões regulares do .NET Framework**
+ **Regras de normalização usando .NET Framework expressões regulares**
 
 | Nome da regra<br/> | Descrição<br/> | Padrão do número<br/> | Conversão<br/> | Exemplo<br/> |
 |:-----|:-----|:-----|:-----|:-----|
@@ -136,7 +136,7 @@ A tabela a seguir mostra exemplos de regras de normalização que são gravadas 
 |RedmondOperator  <br/> |Converte 0 para o Operador Redmond.  <br/> |^0$  <br/> |+14255550100  <br/> |0 é convertido em +14255550100  <br/> |
 |RedmondSitePrefix  <br/> |Converte números com o prefixo (6) na rede e o código de local do Redmond (222).  <br/> |^6222(\\d{4})$  <br/> |+1425555$1  <br/> |62220100 é convertido em +14255550100  <br/> |
 |5digitRange  <br/> |Converte extensões de 5 dígitos iniciando com o intervalo de dígitos de 3 a 7 inclusive.  <br/> |^([3-7]\\d{4})$  <br/> |+142555$1 <br/> |54567 é convertido em +14255554567  <br/> |
-|PrefixAd  <br/> |Adiciona um prefixo de país na frente de um número de 9 dígitos com restrições no primeiro e terceiro dígitos.  <br/> |^([2-9]\\d\\d[2-9]\\d{6})$  <br/> |1$1  <br/> |4255554567 é convertido em 14255554567  <br/> |
+|PrefixAdded  <br/> |Adiciona um prefixo de país na frente de um número de 9 dígitos com restrições no primeiro e terceiro dígitos.  <br/> |^([2-9]\\d\\d[2-9]\\d{6})$  <br/> |1$1  <br/> |4255554567 é convertido em 14255554567  <br/> |
 |NoTranslation  <br/> |Corresponde 5 dígitos, mas não faz a conversão.  <br/> |^(\\d{5})$  <br/> |$1  <br/> |34567 é convertido em 34567  <br/> |
 
  **Plano de discagem de Redmond com base nas regras de normalização mostradas acima.**
@@ -151,7 +151,7 @@ A tabela a seguir mostra exemplos de regras de normalização que são gravadas 
 | RedmondOperator <br/> |
 
 > [!NOTE]
-> Os nomes das regras de normalização mostrados na tabela anterior não incluem espaços, mas isso é uma questão de escolha. O primeiro nome da tabela, por exemplo, poderia ter sido escrito "extensão de 5 dígitos" ou "Extensão de 5-dígitos" e ainda assim ser válido.
+> Os nomes de regras de normalização mostrados na tabela anterior não incluem espaços, mas isso é uma questão de escolha. O primeiro nome da tabela, por exemplo, poderia ter sido escrito "extensão de 5 dígitos" ou "Extensão de 5-dígitos" e ainda assim ser válido.
 
 ## <a name="related-topics"></a>Tópicos relacionados
 
@@ -163,4 +163,4 @@ A tabela a seguir mostra exemplos de regras de normalização que são gravadas 
 
 [Termos e condições das Chamadas de Emergência](emergency-calling-terms-and-conditions.md)
 
-[Rótulo de aviso de isenção de responsabilidade de Chamada de Emergência](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
+[Rótulo de aviso de isenção de responsabilidade de chamada de emergência](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)

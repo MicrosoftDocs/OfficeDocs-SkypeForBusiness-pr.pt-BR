@@ -20,12 +20,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 90d59bb7753cfd26cf6d0b90835cf8cf27661641
-ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
-ms.translationtype: HT
+ms.openlocfilehash: c04820336cc992f7ec4e53a80d8eb8f7deb05622
+ms.sourcegitcommit: d62e6cefceebe481eb207c59872f1aa67f0fc528
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49030267"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "50460621"
 ---
 # <a name="hardware-requirements-for-microsoft-teams"></a>Requisitos de hardware para o Microsoft Teams
 
@@ -35,7 +35,7 @@ Todos os requisitos das seções a seguir se aplicam aos aplicativos da área de
 
 | Componente | Requisito |
 |---------|---------|
-|Computador e processador    | Mínimo de 1,6 GHz (ou superior), 2 núcleos        |
+|Computador e processador    | Mínimo de 1,6 GHz (ou superior), 2 núcleos<br><br>Observação: para processadores Intel, a velocidade máxima atingida usando a Tecnologia Intel Turbo Boost (Frequência Max Turbo) deve ser considerada         |
 |Memória     |    4,0 GB de RAM     |
 |Disco rígido    | 3 GB de espaço em disco disponível        |
 |Display    |   Resolução de tela 1024 x 768 |
@@ -55,7 +55,7 @@ Todos os requisitos das seções a seguir se aplicam aos aplicativos da área de
 |Memória     |   4,0 GB de RAM      |
 |Disco rígido    |   1,5 GB de espaço em disco disponível      |
 |Display    | Resolução de 1280 x 800 ou superior    |
-|Sistema operacional  |    Uma das três versões mais recentes do macOS. Você pode encontrar informações sobre as versões mais recentes do macOS e como atualizar a sua versão do macOS [aqui](https://support.apple.com/pt-BR/HT201260). Por exemplo, quando uma nova versão do macOS é lançada, a nova versão e as duas imediatamente antes dela se tornam as versões com suporte.      |
+|Sistema operacional  |    Uma das três versões mais recentes do macOS. Você pode encontrar informações sobre as versões mais recentes do macOS e como atualizar a sua versão do macOS [aqui](https://support.apple.com/en-us/HT201260). Por exemplo, quando uma nova versão do macOS é lançada, a nova versão e as duas imediatamente antes dela se tornam as versões com suporte.      |
 |Vídeo  |    Webcam compatível      |
 |Voz    |  Microfone e alto-falantes compatíveis, headset com microfone ou dispositivos equivalentes.       |
 |Chamadas de vídeo e reuniões | <ul><li>Exige um processador de 2 núcleos. É recomendável usar um processador de 4 núcleos ou melhor desempenho para uma resolução de compartilhamento e taxa de quadros de tela e vídeo mais alta. </li><li>Ingressar em uma reunião usando a detecção de proximidade em uma Sala do Microsoft Teams não está disponível no macOS.</li></ul>

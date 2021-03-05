@@ -19,12 +19,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 66af968b066b1fa385674d828985606f05bd3d07
-ms.sourcegitcommit: b0753baa55841a2c6c5dc006dcdd117704af3b42
+ms.openlocfilehash: 9422fd2b47ac3d460ee10e8933c45964d78282c1
+ms.sourcegitcommit: d62e6cefceebe481eb207c59872f1aa67f0fc528
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/02/2021
-ms.locfileid: "50401305"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "50460651"
 ---
 # <a name="manage-retention-policies-for-microsoft-teams"></a>Gerenciar políticas de retenção para o Microsoft Teams
 
@@ -41,9 +41,11 @@ Para saber mais sobre retenção e como você pode aplicar configurações de re
 
 O requisito mínimo de licenciamento para políticas de retenção para o Teams é o Microsoft 365 E3. Para saber mais sobre licenciamento, consulte a descrição [do serviço do Microsoft Teams.](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)
 
-## <a name="how-teams-retention-policies-work"></a>Como funcionam as políticas de retenção do Teams
+## <a name="how-teams-retentiondeletion-policies-work"></a>Como funcionam as políticas de retenção/exclusão do Teams
 
-As mensagens de chat do Teams são armazenadas em uma pasta oculta na caixa de correio de cada usuário incluído no chat, e as mensagens de canal do Teams são armazenadas em uma pasta oculta semelhante na caixa de correio do grupo para a equipe. Para reter mensagens sujeitas a uma política de retenção, uma cópia do conteúdo é mantida automaticamente em uma pasta oculta chamada **SubstrateHolds** como uma subpasta na pasta Itens **Recuperáveis** do Exchange. Até que essas mensagens sejam excluídas permanentemente da pasta SubstrateHolds, elas permanecerão pesquisáveis por ferramentas de Descoberta e.
+As mensagens de chat do Teams são armazenadas em dois locais. A cópia primária é armazenada no Azure, uma cópia secundária, usada para políticas de compilação, é armazenada em uma pasta oculta na caixa de correio do Exchange online de cada usuário incluído no chat, e as mensagens de canal do Teams são armazenadas em uma pasta oculta semelhante na caixa de correio do grupo para a equipe. Quando uma política de exclusão de mensagem de chat é aplicada a um usuário ou Equipe, a cópia secundária é excluída primeiro, seguido pela cópia primária. A descoberta digital ou a pesquisa do Teams é baseada em mensagens armazenadas em cópia secundária e, portanto, as mensagens se tornam não descobertas quando a cópia secundária é excluída. 
+
+Quando uma poilcy de retenção de mensagem de chat é aplicada a um usuário ou Equipe e se as mensagens são excluídas (devido a outra política de exclusão ou pelo próprio usuário), a cópia primária é excluída, portanto, o cliente do Teams verá a mensagem desaparecer, mas a cópia secundária é movida automaticamente para uma pasta oculta chamada **SubstrateHolds** , que é como uma subpasta na pasta Itens **Recuperáveis** do Exchange. Até que essas mensagens sejam excluídas permanentemente da pasta SubstrateHolds, elas permanecerão pesquisáveis por ferramentas de Descoberta e.
 
 Para obter informações detalhadas sobre o que está incluído e excluído para políticas de retenção do Teams e como essas políticas funcionam dependendo da configuração da política, consulte Saiba mais sobre retenção [para o Microsoft Teams](https://docs.microsoft.com/microsoft-365/compliance/retention-policies-teams).
 

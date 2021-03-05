@@ -7,7 +7,7 @@ ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: ''
 search.appverid: ''
-description: ''
+description: Incline-se sobre as políticas do Teams.
 audience: admin
 localization_priority: Normal
 MS.collection:
@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 368e71820100ba8cfccb28eef63864f47cd8ce85
-ms.sourcegitcommit: 6f7b91f573e2a034f8c5474be2c5cb2971f4b5ab
+ms.openlocfilehash: 9f06e9aa87cc0c1af758bf0c8c9abad6641debbd
+ms.sourcegitcommit: d62e6cefceebe481eb207c59872f1aa67f0fc528
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50421296"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "50460491"
 ---
 # <a name="manage-teams-with-policies"></a>Gerenciar o Teams com políticas
 
@@ -72,5 +72,6 @@ Tipo de política | Descrição
 
 * [Gerenciar políticas de comentários no Microsoft Teams](manage-feedback-policies-in-teams.md)
 * [Gerenciar políticas de equipes no Microsoft Teams](teams-policies.md)
+* [Exibir atribuições de política no Log de Atividades](activity-log.md)
 * [Prepare-se para eventos ao vivo no Microsoft Teams](teams-live-events/set-up-for-teams-live-events.md)
 * [Pacotes de políticas e políticas do Teams for Education](policy-packages-edu.md)

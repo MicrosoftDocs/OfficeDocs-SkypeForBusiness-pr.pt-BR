@@ -16,12 +16,12 @@ ms.collection:
 search.appverid: MET150
 localization_priority: Normal
 description: Este artigo fornece uma visão geral dos recursos suportados pelos painéis do Microsoft Teams.
-ms.openlocfilehash: 99c1c90734a72f6e98ee1ca9e862316445358d3c
-ms.sourcegitcommit: 6785d7f1ef5d2010ab334ec8cc46884327a53662
+ms.openlocfilehash: e22a49d4cba45507649ad5c15bbb626b77fe800a
+ms.sourcegitcommit: d62e6cefceebe481eb207c59872f1aa67f0fc528
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/01/2021
-ms.locfileid: "50395333"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "50460501"
 ---
 # <a name="microsoft-teams-panels"></a>Painéis do Microsoft Teams
 
@@ -115,7 +115,9 @@ Para obter informações sobre como criar uma conta de recurso e atribuir uma li
 >
 >- Se você já tiver uma conta de recurso de sala configurada para o espaço de reunião onde você está instalando painéis, use a mesma conta de recurso de sala para entrar no dispositivo de painéis. No entanto, certifique-se de que a conta de recurso de sala tenha a licença Padrão de Salas do Microsoft Teams atribuída a ela para usá-la como conta de recurso de painéis.
 >
->- Se você já tiver uma Salas do Microsoft Teams implantadas no espaço de reunião onde você está instalando painéis do Teams, a conta de recurso já tem a licença salas [do Microsoft Teams](../rooms/rooms-licensing). Nesses casos, você não precisa comprar uma licença padrão separada do Microsoft Teams Rooms para implantar painéis. O administrador se ins conectado ao dispositivo de painéis com as mesmas credenciais que as Salas do Microsoft Teams para o mesmo espaço.
+>- Se você já tiver uma Salas do Microsoft Teams implantadas no espaço de reunião onde você está instalando painéis do Teams, a conta de recurso já tem a licença salas [do Microsoft Teams](../rooms/rooms-licensing.md). Nesses casos, você não precisa comprar uma licença padrão separada do Microsoft Teams Rooms para implantar painéis. O administrador se ins conectado ao dispositivo de painéis com as mesmas credenciais que as Salas do Microsoft Teams para o mesmo espaço.
+>
+>- Para espaços de reunião grandes, como salas de tabuleiro ou salas de conferência, com várias entradas, você pode montar um dispositivo de painéis em cada entrada. Vários painéis que pertencem a um único espaço de reunião compartilham a mesma conta de recurso e fazem login com as mesmas credenciais. Você não precisa criar contas de recursos separadas para cada painel para o mesmo espaço.
 
 > [!TIP]
 > É recomendável criar a conta de recurso bem antes da instalação real de painéis do Teams.

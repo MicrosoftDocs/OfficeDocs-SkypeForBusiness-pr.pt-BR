@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Saiba como configurar e testar os atendimentos automáticos para o Microsoft Teams.
-ms.openlocfilehash: deb9bf013136bb8efd9171e5562de5e2ba1b631f
-ms.sourcegitcommit: e72599d5437773322ae6ef985f804a19101ed84f
+ms.openlocfilehash: 8aabdcdd8e5f58604e8b8d09524b6d096f62f7be
+ms.sourcegitcommit: d62e6cefceebe481eb207c59872f1aa67f0fc528
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/26/2021
-ms.locfileid: "50347862"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "50460881"
 ---
 # <a name="set-up-an-auto-attendant"></a>Configurar um atendimento automático
 
@@ -84,7 +84,7 @@ Escolha como você deseja rotear a chamada.
 
 Se você selecionar **Desconectar,** o atendimento automático desligará a chamada.
 
-Se você selecionar **Redirecionar chamada**, poderá escolher um dos destinos de roteamento de chamadas.
+Se você selecionar **Redirecionar chamada,** poderá escolher um dos destinos de roteamento de chamadas.
 
 Se você selecionar Opções de menu  Reproduzir, poderá  optar por Reproduzir um arquivo de áudio ou Digitar uma mensagem de saudação e escolher entre opções de **menu** e pesquisa de diretório.
 
@@ -212,9 +212,9 @@ Quando terminar de adicionar contas de serviço, selecione **Enviar** para concl
 
 Consulte os [Pré-requisitos](plan-auto-attendant-call-queue.md#prerequisites) para permitir que os atendimentos automáticos transfira chamadas externamente.  Além disso:
 
-- Para uma conta [](calling-plans-for-office-365.md) de recurso com um número do Plano de Chamadas, o número de telefone de transferência externa deve ser inserido no formato E.164 (+[código do país][código de área][número de telefone]).
+- Para uma conta de recurso com uma licença [de](calling-plans-for-office-365.md)Plano de Chamada , o número de telefone de transferência externa deve ser inserido no formato E.164 (+[código do país][código de área][número de telefone]).
 
-- Para uma conta de recurso com um número de Roteamento Direto, o formato de número de telefone de transferência externa depende das configurações do Controlador de Borda de Sessão [(SBC).](direct-routing-connect-the-sbc.md)
+- Para uma conta de recurso com uma política de roteamento de voz online de Licença do Sistema de Telefonia e Roteamento Direto, o formato de número de telefone de transferência externa depende das configurações do Controlador de Borda de Sessão [(SBC).](direct-routing-connect-the-sbc.md)
 
 O número de telefone de saída exibido é determinado da seguinte forma:
 
