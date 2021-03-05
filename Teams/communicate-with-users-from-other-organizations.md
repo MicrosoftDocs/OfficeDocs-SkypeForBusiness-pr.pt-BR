@@ -18,12 +18,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Priority
 description: Aprenda como fazer uma chamada, bater papo, encontrar e adicionar usuários de fora da organização no Microsoft Teams usando o acesso externo (federação) e o acesso para convidado.
-ms.openlocfilehash: e3524bfeb7e21e18d0d742c7208bbe307bdd16c8
-ms.sourcegitcommit: 6f7b91f573e2a034f8c5474be2c5cb2971f4b5ab
+ms.openlocfilehash: 10ce0e7f89872a7fda842871d17f8bd06481193f
+ms.sourcegitcommit: d62e6cefceebe481eb207c59872f1aa67f0fc528
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50421316"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "50461041"
 ---
 # <a name="use-guest-access-and-external-access-to-collaborate-with-people-outside-your-organization"></a>Use o acesso para convidado e o acesso externo para colaborar com pessoas de fora da sua organização
 
@@ -43,6 +43,9 @@ Por padrão, o acesso externo é habilitado para todos os domínios. Você pode 
 ![Captura de tela das configurações de acesso externo](media/external-access-federation-settings.png)
 
 Para configurar o acesso externo, consulte [Gerenciar acesso externo](manage-external-access.md). 
+
+>[!NOTE]
+>As licenças gratuitas do Microsoft Teams não oferecem suporte a acesso externo.
 
 ## <a name="guest-access"></a>Acesso de convidados
 
@@ -65,8 +68,8 @@ As tabelas a seguir mostram as diferenças entre o uso de acesso externo (federa
 | Veja se alguém de outra organização está disponível para uma chamada ou bate-papo | Sim | Sim<sup>1</sup> |
 | Procurar por pessoas em outras organizações | Sim<sup>2</sup> | Não |
 | Compartilhe arquivos | Não | Sim |
-| Veja a mensagem de ausência temporária de | Não | Sim |
-| Bloquear alguém de outra organização para alguém de outra organização | Não | Sim |
+| Veja a mensagem de ausência do escritório de alguém em outra organização | Não | Sim |
+| Bloquear alguém em outra organização  | Não | Sim |
 | Usar @menções | Sim<sup>3</sup> | Sim |
 
 ### <a name="things-people-outside-your-organization-can-do"></a>Coisas que podem ser feitas por pessoas de fora da sua organização
