@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: daba993118348bbd4de2b1677e6a75cbce7c0ae9
-ms.sourcegitcommit: bfada4fd06c5cff12b0eefd3384bb3c10d10787f
+ms.openlocfilehash: dbab559da8062fa30fb1b42e632baabe2c50fc63
+ms.sourcegitcommit: d62e6cefceebe481eb207c59872f1aa67f0fc528
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/12/2021
-ms.locfileid: "50196785"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "50460441"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Limites e especificações para o Microsoft Teams
 
@@ -36,14 +36,14 @@ Este artigo descreve alguns dos limites, das especificações e de outros requis
 |-----------|---------------|
 |Números de equipes que um usuário pode criar | Sujeito a um limite de objeto de 250&sup1;         |
 |Número de equipes das quais um usuário pode ser membro|1.000&sup2;|
-|Número de membros em uma equipe | 10,000<sup>6</sup>     |
+|Número de membros em uma equipe | 25.000<sup>6</sup>     |
 |Número de proprietários por equipe | 100   |
 |Número de equipes de toda a organização permitidas em um locatário | 5     |
 |Número de membros em uma [equipe de toda a organização](create-an-org-wide-team.md) | 10.000       |
 |Número de equipes que um administrador global pode criar        |  500.000   |
 |Número de equipes que uma organização do Microsoft 365 ou Office 365 pode ter    | 500,000&sup3;     |
-|Número de canais por equipe    | 200 (inclui canais excluidos)&sup4         |
-|Número de canais privados por equipe    |30| (inclui canais excluídos)&sup4;
+|Número de canais por equipe    | 200 (inclui canais excluídos)<sup>4</sup>        |
+|Número de canais privados por equipe    |30 (inclui canais excluídos)<sup>4</sup>        |
 |Números de membros em um canal privado    |250|
 |Tamanho máximo do grupo de distribuição, grupo de segurança ou grupo do Office 365 que pode ser importado para uma equipe    |3.500|
 |Número máximo de membros em um grupo do Office 365 que pode ser convertido em uma equipe    |10,000<sup>6</sup>     |
@@ -59,7 +59,7 @@ Este artigo descreve alguns dos limites, das especificações e de outros requis
 
 <sup>5</sup> 28 KB é um limite aproximado porque inclui a própria mensagem (texto, links de imagens, etc.), @-menções, número de conectores e reações.
 
-<sup>6</sup> Equipes no GCC só acomodam 5.000 membros e as equipes do GCCH/DoD só acomodam 2.500 membros.
+<sup>6</sup> Equipes no GCC podem acomodar 25.000 membros, mas as equipes no GCCH/DoD só podem acomodar 2.500 membros. Observe ainda que as menções de equipes/canal são bloqueadas em equipes com mais de 10.000 membros.
 
 ## <a name="messaging"></a>Mensagens
 
