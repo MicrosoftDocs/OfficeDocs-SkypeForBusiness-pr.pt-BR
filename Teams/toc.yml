@@ -315,16 +315,12 @@ items:
         href: enable-features-office-365.md
       - name: Gerenciar políticas
         items:
+          - name: Visão geral
+            href: manage-teams-with-policies.md
           - name: Atribuir políticas aos seus usuários
             href: assign-policies.md
           - name: Exibir suas tarefas de política no log de Atividades
             href: activity-log.md
-          - name: Gerenciar políticas de permissões de aplicativo no Teams
-            href: teams-app-permission-policies.md
-          - name: Gerenciar políticas de configuração de aplicativo no Teams
-            href: teams-app-setup-policies.md
-          - name: Gerenciar políticas de aplicativo personalizado e as configurações no Teams
-            href: teams-custom-app-policies-and-settings.md
           - name: Gerenciar políticas de comentários no Teams
             href: manage-feedback-policies-in-teams.md
           - name: Gerenciar pacotes de política no Teams
@@ -773,6 +769,8 @@ items:
     items:
       - name: Planejar sua solução de voz do Teams
         href: cloud-voice-landing-page.md
+      - name: Gerenciar políticas de voz e chamadas no Teams
+        href: voice-and-calling-policies.md
       - name: Sistema de Telefonia
         items:
           - name: O que é o Sistema de Telefonia
@@ -1273,7 +1271,9 @@ items:
         items:
           - name: Visão Geral
             href: manage-apps.md
-          - name: Exibir permissões do aplicativo e conceder consentimento de administrador no Centro de administração do Microsoft Teams
+          - name: Gerenciar políticas de aplicativos no Teams
+            href: app-policies.md
+          - name: Exibir permissões do aplicativo e conceder consentimento do administrador
             href: app-permissions-admin-center.md
           - name: Consentimento específico do recurso
             href: resource-specific-consent.md
@@ -1287,6 +1287,12 @@ items:
             href: Office-365-custom-connectors.md
           - name: Comportamento de aplicativos de equipes para usuários não padrão
             href: non-standard-users.md
+          - name: Gerenciar políticas de permissões de aplicativo no Teams
+            href: teams-app-permission-policies.md
+          - name: Gerenciar políticas de configuração de aplicativo no Teams
+            href: teams-app-setup-policies.md
+          - name: Gerenciar políticas de aplicativo personalizado e as configurações no Teams
+            href: teams-custom-app-policies-and-settings.md
   - name: Diretrizes governamentais e de indústrias
     items:
       - name: Visão Geral
