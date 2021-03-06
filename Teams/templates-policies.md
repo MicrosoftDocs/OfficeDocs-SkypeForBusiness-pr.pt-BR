@@ -1,5 +1,5 @@
 ---
-title: Gerenciar modelos de equipe no centro de administração
+title: Gerenciar modelos do Teams no centro de administração
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -17,130 +17,128 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
-description: Saiba como gerenciar modelos de equipe no centro de administração
+description: Saiba como gerenciar modelos do Teams no centro de administração
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 9704fdb92689031d44fa692383c701ec47877fc6
-ms.sourcegitcommit: 27bfa015413bc7742bca4ea227e0324da0c740d7
+ms.openlocfilehash: bcb99538ebd129e02e511c8260dc3bfa101bff9d
+ms.sourcegitcommit: 113f587a1c09d42b7394ba1195c32cb054bdf31c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "50145878"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "50507964"
 ---
-# <a name="create-and-manage-teams-templates-in-the-admin-center"></a>Criar e gerenciar modelos de equipe no centro de administração
+# <a name="create-and-manage-teams-templates-in-the-admin-center"></a>Criar e gerenciar modelos do Teams no centro de administração
 
-[!INCLUDE [preview-feature](includes/preview-feature.md)]
-
-Gerencie os modelos do teams que são mostrados para seus usuários finais criando políticas de modelos no centro de administração. Em cada política de modelo, você pode designar quais modelos são mostrados ou ocultos.
-Atribua diferentes usuários a políticas de modelos diferentes para que seus usuários exibam somente o subconjunto de modelos de equipes especificado.
+Gerencie os modelos do Teams que os usuários finais veem criando políticas de modelos no centro de administração. Em cada política de modelo, você pode designar quais modelos são mostrados ou ocultos.
+Atribua usuários diferentes a políticas de modelo diferentes para que seus usuários apenas exibirem o subconjunto de modelos do Teams especificados.
 
 ## <a name="create-template-policies-and-assign-available-templates"></a>Criar políticas de modelo e atribuir modelos disponíveis
 
-1. Entre no centro de administração do Microsoft Teams.
+1. Entre no Centro de administração do Teams.
 
-2. Expanda políticas de modelos do **Teams**  >  .
+2. Expanda **políticas**  >  **de Modelos do** Teams.
 
 3. Selecione **Adicionar**.
 
-    ![As políticas de modelo são selecionadas e a adição é realçada](media/template-policies-1.png)
+    ![As políticas de modelo são selecionadas e Add é realçada](media/template-policies-1.png)
 
-1. Na seção **configurações de políticas de modelos** , preencha os seguintes campos:
+1. Na seção **Configurações de Políticas de Modelos,** conclua os seguintes campos:
 
-    - Nome da política de modelos
+    - Nome da Política de Modelos
 
-    - Descrição resumida da política modelos
+    - Descrição curta da Política de Modelos
 
-2. Na tabela **modelos exibíveis** , selecione os modelos que você deseja ocultar e selecione **ocultar**.
+2. Na tabela **Modelos Exibiveis,** selecione os modelos que você deseja ocultar e selecione **Ocultar**.
 
-    ![Os modelos selecionados com ocultar realçado](media/template-policies-2.png)
+    ![Os modelos selecionados com ocultação realçada](media/template-policies-2.png)
 
-    Você pode ver os modelos que selecionou para ocultar na tabela **modelos ocultos** .
+    Você pode ver os modelos selecionados para ocultar na tabela **Modelos Ocultos.**
 
-1. Para reexibir determinados modelos, role até a tabela **modelos ocultos** .
+1. Para desaconsule determinados modelos, role até **a tabela Modelos ocultos.**
 
-1. Selecione os modelos para reexibir e selecione **Mostrar**.
+1. Selecione os modelos a ser desaconsudidados e selecione **Mostrar**.
 
-   ![Os modelos selecionados com ocultar realçado](media/template-policies-3.png)
+   ![Os modelos selecionados que não estão ocultos](media/template-policies-3.png)
 
-   Os modelos selecionados aparecerão na tabela **modelos exibíveis** .
+   Os modelos selecionados serão exibidos na tabela **Modelos Exibiveis.**
 3. Selecione **Salvar**.
 
-   Sua nova política de modelo é exibida na lista **políticas de modelos** .
+   Sua nova política de modelo é exibida na lista **Políticas de** Modelos.
 
 ## <a name="assign-users-to-the-template-policies"></a>Atribuir usuários às políticas de modelo
 
-Os usuários atribuídos a uma política só poderão ver os modelos visíveis dentro dessa política.
+Os usuários atribuídos a uma política só poderão exibir os modelos que podem ser visualizados nessa política.
 
-1. Em **políticas de modelos**, selecione uma política e, em seguida, selecione **gerenciar usuários**.
+1. Em **Políticas de Modelos,** selecione uma política e selecione **Gerenciar usuários**.
 
-2. Digite os usuários que deseja atribuir a essa política.
+2. Digite os usuários a atribuir a essa política.
 
-   ![Os modelos selecionados com ocultar realçado](media/template-policies-4.png)
+   ![atribuir usuários a uma política de modelo](media/template-policies-4.png)
 
-3. Selecione **aplicar**.
+3. Selecione **Aplicar**.
 
 > [!Note]
 > Pode levar até 24 horas para que sua nova política entre em vigor para os usuários finais.
 
 ## <a name="size-limits-for-template-policies"></a>Limites de tamanho para políticas de modelo
 
-Você pode ocultar um máximo de modelos do 100 por política. O botão **ocultar** estará desabilitado se a política fornecida já tiver modelos do 100 ocultos.
+Você pode ocultar um máximo de 100 modelos por política. O **botão Ocultar** será desabilitado se a política determinada já tiver 100 modelos ocultos.
 
 ## <a name="frequently-asked-questions"></a>Perguntas frequentes
 
-**P: posso atribuir usuários a políticas de modelos de equipe a um lote?**
+**P: Posso atribuir usuários em lote a políticas de modelos de equipe?**
   
-R: Sim, oferecemos suporte à atribuição em lote para a política de modelo no PowerShell. O tipo de política para esta ação é TeamsTemplatePermissionPolicy. [Saiba Mais](https://docs.microsoft.com/powershell/module/teams/new-csbatchpolicyassignmentoperation?view=teams-ps)
+R: Sim, suportamos a atribuição em lote para a política de modelo no PowerShell. O tipo de política dessa ação é TeamsTemplatePermissionPolicy. [Saiba Mais](https://docs.microsoft.com/powershell/module/teams/new-csbatchpolicyassignmentoperation?view=teams-ps)
 
-**P: os grupos podem ser atribuídos a políticas de modelos de equipe?**
+**P: Os grupos podem ser atribuídos às políticas de modelos de equipe?**
 
-R: no momento. Esta funcionalidade estará disponível no futuro.
+R: Atualmente não. Essa funcionalidade estará disponível no futuro.
 
-**P: se um novo modelo for criado, o modelo será incluído em minhas políticas?**
+**P: Se um novo modelo for criado, o modelo será incluído em minhas políticas?**
 
-R: os modelos novos ficarão visíveis por padrão. Você pode optar por ocultar o modelo no centro de administração na seção políticas de modelos.
+R: Todos os novos modelos estarão visíveis por padrão. Você pode optar por ocultar o modelo no centro de administração na seção Políticas de Modelos.
 
-**P: o que acontece se um modelo é excluído?**
+**P: O que acontece se um modelo for excluído?**
 
-R: todos os modelos excluídos não estarão mais presentes em políticas de modelos.
+R: Quaisquer modelos excluídos não estarão mais presentes em nenhuma política de modelos.
 
-**P: posso atribuir vários usuários a uma política de modelo no centro de administração do teams?**
+**P: Posso atribuir vários usuários a uma política de modelo no Centro de Administração do Teams?**
 
 R: Sim.
 
-1. No centro de administração, vá para **usuários**.
-1. Na tabela lista de usuários, selecione os usuários que você deseja atribuir a determinada política de modelos.
-1. Selecione Editar configurações e altere o campo políticas de modelos.
+1. No Centro de administração, vá para **Usuários**.
+1. Na tabela de lista Usuários, selecione os usuários que você deseja atribuir a uma determinada política de modelos.
+1. Selecione Editar configurações e altere o campo Políticas de modelos.
 1. Selecione aplicar.
-   Saiba mais [atribuir políticas a seus usuários no Microsoft Teams-Microsoft Teams \| Microsoft docs](https://docs.microsoft.com/microsoftteams/assign-policies#assign-a-policy-to-a-batch-of-users).
+   Saiba mais [Atribuir políticas aos seus usuários no Microsoft Teams - Microsoft Teams Microsoft \| Docs](https://docs.microsoft.com/microsoftteams/assign-policies#assign-a-policy-to-a-batch-of-users).
 
-**P: como exibir todos os usuários atribuídos a uma política específica?**
+**P: Como vejo todos os usuários atribuídos a uma política específica?**
 
-R: no centro de administração:
+R: No Centro de administração:
 
-1. Vá para a seção **usuários** .
-2. Selecione o filtro na tabela da lista usuários e o filtro para a política de modelo do teams.
-3. Selecione **aplicar**.
+1. Vá para a **seção Usuários.**
+2. Selecione o filtro na tabela de lista Usuários e filtre a política de modelo de equipes.
+3. Selecione **Aplicar**.
 
-![Os modelos selecionados com ocultar realçado](media/template-policies-5.png)
+![A política de modelo selecionada e exibir usuários](media/template-policies-5.png)
 
-**P: é possível gerenciar políticas de modelos pelo PowerShell?**
+**P: Posso gerenciar políticas de modelos por meio do PowerShell?**
 
-R: não, isso não tem suporte.
+R: Não há suporte para gerenciar modelos no PowerShell.
 
-**P: as políticas de modelos se aplicam ao EDU?**
+**P: As políticas de modelos são aplicáveis ao EDU?**
 
-R: não, isso não tem suporte.
+R: Não, não há suporte para políticas de modelo para EDU.
 
 ## <a name="related-topics"></a>Tópicos relacionados
 
-- [Introdução aos modelos de equipe no centro de administração](https://docs.microsoft.com/MicrosoftTeams/get-started-with-teams-templates-in-the-admin-console)
+- [Começar a usar modelos de equipe no centro de administração](https://docs.microsoft.com/MicrosoftTeams/get-started-with-teams-templates-in-the-admin-console)
 
 - [Criar um modelo de equipe personalizado](https://docs.microsoft.com/MicrosoftTeams/create-a-team-template)
 
-- [Criar um modelo a partir de uma equipe existente](https://docs.microsoft.com/MicrosoftTeams/create-template-from-existing-team)
+- [Criar um modelo de uma equipe existente](https://docs.microsoft.com/MicrosoftTeams/create-template-from-existing-team)
 
 - [Criar um modelo de equipe a partir de um modelo de equipe existente](https://docs.microsoft.com/MicrosoftTeams/create-template-from-existing-template)
 
-- [Atribuir políticas a seus usuários no Microsoft Teams-Microsoft Teams \| Microsoft docs](https://docs.microsoft.com/microsoftteams/assign-policies)
+- [Atribuir políticas aos seus usuários no Microsoft Teams - Microsoft Teams \| Microsoft Docs](https://docs.microsoft.com/microsoftteams/assign-policies)
 
-- [Atribuir usuários a uma política em lote](https://docs.microsoft.com/powershell/module/teams/new-csbatchpolicyassignmentoperation?view=teams-ps)
+- [Atribuir em lotes usuários a uma política](https://docs.microsoft.com/powershell/module/teams/new-csbatchpolicyassignmentoperation?view=teams-ps)

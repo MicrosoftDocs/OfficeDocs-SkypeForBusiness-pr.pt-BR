@@ -18,68 +18,68 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7ad35b874f3f11a7e71d61c63cb90a1945c7cc85
-ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
+ms.openlocfilehash: 62bee9c494cc6155a84b30d75ae71528656133be
+ms.sourcegitcommit: 113f587a1c09d42b7394ba1195c32cb054bdf31c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "49662646"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "50508004"
 ---
 # <a name="get-started-with-teams-templates-in-the-admin-center"></a>Começar a usar modelos do Teams no centro de administração
 
-**Os modelos personalizados ainda não têm suporte para clientes EDU.**
+**A capacidade de criar modelos personalizados ainda não é suportada para clientes EDU.**
 
 > [!NOTE]
-> Atualmente, os modelos do Teams não são suportados para a criação de canais privados. A criação de canal privado não está incluída nas definições de modelo.
+> Atualmente, os modelos do Teams não suportam a criação de canais privados. A criação de canal privado não está incluída nas definições de modelo.
 
-Os modelos do Teams são definições predefinida da estrutura de uma equipe projetada em torno de uma necessidade comercial ou projeto. Use modelos predefinido ou crie seu próprio modelo. Os modelos do Teams permitem criar rapidamente espaços de colaboração com canais para diferentes tópicos e pré-instalar aplicativos para usar conteúdo e serviços essenciais. Os modelos do Teams fornecem uma estrutura de equipe predefinida que pode ajudá-lo a criar facilmente equipes consistentes em toda a organização. Atualmente, você pode criar uma equipe a partir de um modelo no Teams ou usando o [Microsoft Graph.](get-started-with-teams-templates.md)
+Modelos do Teams são definições pré-criadas da estrutura de uma equipe projetada em torno de uma necessidade de negócios ou projeto. Use modelos pré-construídos ou crie seu próprio modelo. Os modelos do Teams permitem que você crie rapidamente espaços de colaboração com canais para diferentes tópicos e pré-instalar aplicativos para puxar conteúdo e serviços essenciais para a missão. Os modelos do Teams fornecem uma estrutura de equipe predefinida que pode ajudá-lo a criar facilmente equipes consistentes em toda a sua organização. Atualmente, você pode criar uma equipe a partir de um modelo no Teams ou usando [o Microsoft Graph](get-started-with-teams-templates.md).
 
 Este artigo descreve as propriedades que podem ser definidas em modelos, quais são os tipos de modelo base e como você pode usar algumas solicitações de exemplo para criar uma equipe a partir de um modelo.
 
-Este artigo é para você se você for responsável por planejar, implantar e gerenciar várias equipes em sua organização
+Este artigo é para você se você for responsável por planejar, implantar e gerenciar várias equipes em toda a sua organização
 
 ## <a name="teams-template-capabilities"></a>Recursos de modelo do Teams
 
-A maioria das propriedades em uma equipe são incluídas e suportadas por modelos. Mas há algumas propriedades e recursos que não têm suporte no momento. A tabela a seguir fornece um resumo rápido do que está incluído e do que não está incluído nos modelos do Teams.
+A maioria das propriedades em uma equipe são incluídas e suportadas por modelos. No momento, há algumas propriedades e recursos que não são suportados. A tabela a seguir fornece um resumo rápido do que está incluído e o que não está incluído nos modelos do Teams.
 
-| **Propriedades da equipe com suporte por modelos do Teams** | **As propriedades da equipe ainda não são suportadas por modelos do Teams** |
+| **Propriedades de equipe suportadas por modelos do Teams** | **Propriedades de equipe ainda não suportadas por modelos do Teams** |
 | ------------------------------------------------ | -------------------------------------------------------- |
 | Tipo de modelo base | Associação da equipe |
 | Nome da equipe | Imagem da equipe |
 | Descrição da equipe | Configurações de canal |
 | Visibilidade da equipe (pública ou privada) | Conectores |
-| Configurações da equipe (por exemplo, membro, convidado, @ menções) | Arquivos e conteúdo |
-| Autofavorite channel | |
+| Configurações de equipe (por exemplo, membro, convidado, @ menções) | Arquivos e conteúdo |
+| Canal Autofavorite | |
 | Aplicativo instalado | |
 | Guias fixadas | |
 
 > [!NOTE]
-> Adicionaremos mais recursos de modelo em versões futuras do Microsoft Teams, portanto, verifique novamente as informações mais atualizadas sobre propriedades com suporte.
+> Adicionaremos mais recursos de modelo em versões futuras do Microsoft Teams, portanto, verifique se há informações mais atualizadas sobre propriedades com suporte.
 
 ## <a name="what-are-base-template-types"></a>O que são tipos de modelo base
 
-Os tipos de modelo base são modelos especiais que a Microsoft criou para setores específicos. Esses modelos base geralmente contêm aplicativos proprietários que não estão disponíveis na loja de aplicativos.
+Os tipos de modelo base são modelos especiais criados pela Microsoft para setores específicos. Esses modelos base geralmente contêm aplicativos proprietários que não estão disponíveis no armazenamento de aplicativos.
 
 Depois que um tipo de modelo base é definido, você pode estender ou substituir esses modelos especiais com propriedades adicionais que você gostaria de especificar. Alguns tipos de modelo base contêm propriedades que não podem ser substituídos.
 
 > [!NOTE]
-> Os modelos de base predefinido fornecidos no Microsoft Teams podem ser duplicados, mas não editados.
+> Modelos de base pré-definidos fornecidos no Microsoft Teams podem ser duplicados, mas não editados.
 
-| Tipo de modelo base | baseTemplateId | Propriedades que vêm com este modelo base |
+| Tipo de modelo base | baseTemplateId | Propriedades que vêm com esse modelo base |
 | ------------------ | -------------- | ----------------------------------------------------- |
-| Adotar o Office 365 |`com.microsoft.teams.template.AdoptOffice365`|  Canais: <ul><li>Geral</li> <li>Anúncios</li> <li>Canto dos campeões</li> <li>Formulários de equipe</li></ul> Apps: <ul><li>Wiki</li>  <li>Calendário</li> |
-| Gerenciar um projeto |`com.microsoft.teams.template.ManageAProject`| Canais: <ul><li>Geral</li> <li>Anúncios</li> <li>Recursos</li> <li>Planejamento</li></ul> Apps:<ul><li>Wiki</li><li>OneNote</li><li>Planner</li><li>Listas</li>  </ul> |
-| Gerenciar um evento|`com.microsoft.teams.template.ManageAnEvent` | Canais: <ul><li>Geral</li> <li>Anúncios</li> <li>Orçamento</li> <li>Conteúdo</li><li>Logística</li> <li>Planejamento</li> <li> Marketing e relações públicas</li></ul> Apps:<ul><li>Wiki</li><li>Site</li> <li>YouTube</li> <li>Planner</li> <li>OneNote</li></ul> |
-|Funcionários de integração|`com.microsoft.teams.template.OnboardEmployees` | Canais: <ul><li>Geral</li> <li>Anúncios</li> <li>Chat de funcionários</li> <li>Treinamento</li></ul>Apps:<ul><li>Wiki</li><li>Comunidades</li><li>Planner</li></ul>|
-|Organizar o help desk| `com.microsoft.teams.template.OrganizeHelpDesk`|Canais:<ul><li>Geral</li><li>Anúncios</li><li>Perguntas frequentes</li></ul>Apps:<ul><li>Wiki</li><li>OneNote</li><li>Planner </li><li>Elogios</li></ul> |
-| Colaborar no atendimento ao paciente| `healthcareWard`| Canais:<ul><li>Geral</li><li>Anúncios</li><li>Desaconsudores</li><li>Rodadas</li><li>Pessoal</li><li>Treinamento</li></ul> Apps: <ul><li>Wiki</li><li>Listas  </li></ul>|
-| Colaborar em uma situação ou uma situação de crise globais |`com.microsoft.teams.template.CollaborateOnAGlobalCrisisOrEvent`| Canais: <ul><li>Geral<li>Anúncios</li><li>Notícias do mundo</li><li>Continuidade de negócios</li><li>Trabalho remoto</li><li>Comunicados internos</li><li>Comunicados externos</li><li>Solicitação de aprovação</li><li>Reclamações de clientes</li><li>Kudos</li><li>Atualização executiva</li></ul>Apps: <ul><li>Elogios</li><li>Wiki</li><li>Site</li><li>Planner</li></ul>|
-|Colaborar em uma ramificação bancária| `com.microsoft.teams.template.CollaborateWithinABankBranch`|Canais: <ul><li>Geral<li>Anúncios</li><li>Desaconsudores</li><li>Reuniões de clientes</li><li>Solicitação de Aprovações </li><li>Coaching</li><li>Desenvolvimento de habilidades</li><li>Processamento de empréstimos</li><li>Reclamações de clientes</li><li>Kudos</li><li>Coisas divertidas</li><li>Conformidade</li></ul>Apps:<ul><li>Elogios </li></ul>|
-|Coordenar resposta a incidentes| `com.microsoft.teams.template.CoordinateIncidentResponse`|Canais: <ul><li>Geral<li>Anúncios</li><li>Logística</li><li>Planejamento</li><li>Recuperação</li><li>Urgente</li></ul> Apps: <ul><li>Wiki</li><li>Excel</li><li>OneNote</li><li>SharePoint</li><li>Planner</li></ul>|
-|Hospital| `healthcareHospital` |Canais: <ul><li>Geral</li><li>Anúncios</li><li>Conformidade</li><li>Custódia</li><li>Recursos humanos</li><li>Farmácia</li></ul> Apps: <ul><li>Wiki</li><li>Listas  </li></ul>|
-|Organizar uma loja| `retailStore` |Canais: <ul><li>Geral<li>Shift handoff</li><li>Aprendizagem</li></ul> Apps: <ul><li>Wiki</li><li>Planner</li></ul>|
-|Qualidade e segurança |`com.microsoft.teams.template.QualitySafety`|Canais: <ul><li>Geral<li>Anúncios</li><li>Linha 1</li><li>Linha 2</li><li>Linha 3</li><li>Segurança</li><li>Treinamento</li><li>Manutenção</li><li>Coisas divertidas</li></ul> Apps: <ul><li>Wiki</li><li>Planner</li></ul>|
-|Varejo – colaboração de gerente| `retailManagerCollaboration` |Canais: <ul><li>Geral<li>Operações</li><li>Aprendizagem</li></ul> Apps: <ul><li>Wiki</li><li>Planner</li></ul>|
+| Adotar o Office 365 |`com.microsoft.teams.template.AdoptOffice365`|  Canais: <ul><li>Geral</li> <li>Comunicados</li> <li>Canto campeões</li> <li>Formulários de equipe</li></ul> Aplicativos: <ul><li>Wiki</li>  <li>Calendário</li> |
+| Gerenciar um projeto |`com.microsoft.teams.template.ManageAProject`| Canais: <ul><li>Geral</li> <li>Comunicados</li> <li>Recursos</li> <li>Planejamento</li></ul> Aplicativos:<ul><li>Wiki</li><li>OneNote</li><li>Planner</li><li>Listas</li>  </ul> |
+| Gerenciar um evento|`com.microsoft.teams.template.ManageAnEvent` | Canais: <ul><li>Geral</li> <li>Comunicados</li> <li>Orçamento</li> <li>Conteúdo</li><li>Logística</li> <li>Planejamento</li> <li> Marketing e PR</li></ul> Aplicativos:<ul><li>Wiki</li><li>Site</li> <li>YouTube</li> <li>Planner</li> <li>OneNote</li></ul> |
+|Funcionários de integração|`com.microsoft.teams.template.OnboardEmployees` | Canais: <ul><li>Geral</li> <li>Comunicados</li> <li>Chat de funcionários</li> <li>Treinamento</li></ul>Aplicativos:<ul><li>Wiki</li><li>Comunidades</li><li>Planner</li></ul>|
+|Organizar o help desk| `com.microsoft.teams.template.OrganizeHelpDesk`|Canais:<ul><li>Geral</li><li>Comunicados</li><li>Perguntas frequentes</li></ul>Aplicativos:<ul><li>Wiki</li><li>OneNote</li><li>Planner </li><li>Elogio</li></ul> |
+| Colaborar no atendimento ao paciente| `healthcareWard`| Canais:<ul><li>Geral</li><li>Comunicados</li><li>Huddles</li><li>Rounds</li><li>Staffing</li><li>Treinamento</li></ul> Aplicativos: <ul><li>Wiki</li><li>Listas  </li></ul>|
+| Colaborar em uma crise global ou evento |`com.microsoft.teams.template.CollaborateOnAGlobalCrisisOrEvent`| Canais: <ul><li>Geral<li>Comunicados</li><li>Notícias do mundo</li><li>Continuidade de negócios</li><li>Trabalho remoto</li><li>Comunicados internos</li><li>Comunicados externos</li><li>Solicitação de aprovações</li><li>Reclamações de clientes</li><li>Kudos</li><li>Atualização executiva</li></ul>Aplicativos: <ul><li>Elogio</li><li>Wiki</li><li>Site</li><li>Planner</li></ul>|
+|Colaborar em uma filial bancária| `com.microsoft.teams.template.CollaborateWithinABankBranch`|Canais: <ul><li>Geral<li>Comunicados</li><li>Huddles</li><li>Reuniões do cliente</li><li>Solicitação de Aprovações </li><li>Coaching</li><li>Desenvolvimento de habilidades</li><li>Processamento de empréstimos</li><li>Reclamações de clientes</li><li>Kudos</li><li>Material divertido</li><li>Conformidade</li></ul>Aplicativos:<ul><li>Elogio </li></ul>|
+|Coordenar a resposta a incidentes| `com.microsoft.teams.template.CoordinateIncidentResponse`|Canais: <ul><li>Geral<li>Comunicados</li><li>Logística</li><li>Planejamento</li><li>Recuperação</li><li>Urgente</li></ul> Aplicativos: <ul><li>Wiki</li><li>Excel</li><li>OneNote</li><li>SharePoint</li><li>Planner</li></ul>|
+|Hospital| `healthcareHospital` |Canais: <ul><li>Geral</li><li>Comunicados</li><li>Conformidade</li><li>Custodial</li><li>Recursos humanos</li><li>Farmácia</li></ul> Aplicativos: <ul><li>Wiki</li><li>Listas  </li></ul>|
+|Organizar um armazenamento| `retailStore` |Canais: <ul><li>Geral<li>Handoff shift</li><li>Aprendizagem</li></ul> Aplicativos: <ul><li>Wiki</li><li>Planner</li></ul>|
+|Qualidade e segurança |`com.microsoft.teams.template.QualitySafety`|Canais: <ul><li>Geral<li>Comunicados</li><li>Linha 1</li><li>Linha 2</li><li>Linha 3</li><li>Segurança</li><li>Treinamento</li><li>Manutenção</li><li>Material divertido</li></ul> Aplicativos: <ul><li>Wiki</li><li>Planner</li></ul>|
+|Varejo - colaboração do gerente| `retailManagerCollaboration` |Canais: <ul><li>Geral<li>Operações</li><li>Aprendizagem</li></ul> Aplicativos: <ul><li>Wiki</li><li>Planner</li></ul>|
 ||||
 
 Para obter mais informações sobre as categorias de modelo, consulte as seguintes categorias:
@@ -105,10 +105,10 @@ Os modelos são limitados a um número específico de canais, guias e aplicativo
 |Aplicativos por modelo | 50|
 |||
 
-Consulte [Limites e especificações do Teams](limits-specifications-teams.md) para obter mais informações.
+Confira [Limites e especificações do Teams](limits-specifications-teams.md) para obter mais informações.
 
 ## <a name="related-topics"></a>Tópicos relacionados
 
 - [Criar um modelo de equipe personalizado](create-a-team-template.md)
 - [Criar um modelo de equipe a partir de um modelo de equipe existente](create-template-from-existing-template.md)
-- [Criar um modelo a partir de uma equipe existente](create-template-from-existing-team.md)
+- [Criar um modelo de uma equipe existente](create-template-from-existing-team.md)
