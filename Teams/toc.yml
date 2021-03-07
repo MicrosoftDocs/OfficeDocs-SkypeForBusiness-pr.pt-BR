@@ -501,8 +501,6 @@ items:
             href: general-teams-templates-in-the-admin-console.md
           - name: Modelos do Teams da categoria manufatureira
             href: manufacturing-teams-templates-in-the-admin-console.md
-          - name: Criar e gerenciar políticas de modelo
-            href: templates-policies.md
       - name: Comunicar-se com usuários externos
         items:
           - name: Comunicar-se com usuários em outras organizações
