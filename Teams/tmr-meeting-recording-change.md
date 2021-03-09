@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d18f6b5ef5b4668324a68b4456cd3ad5aa4b7364
-ms.sourcegitcommit: 113f587a1c09d42b7394ba1195c32cb054bdf31c
+ms.openlocfilehash: 0431b7ebd385f2ad17d659e238f54b4ebb1ab20a
+ms.sourcegitcommit: 1613e08da482ff142c990c9c9951abeb873ad964
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "50507974"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "50569087"
 ---
 # <a name="use-onedrive-for-business-and-sharepoint-or-stream-for-meeting-recordings"></a>Usar o OneDrive for Business e o SharePoint ou Stream para gravações de reunião
 
@@ -74,26 +74,25 @@ A opção de gravação de reunião é uma configuração no nível de política
 > [!Note]
 > As alterações na política de reunião do Teams levam algum tempo para se propagar. Verifique novamente após algumas horas de defini-lo e, em seguida, saia e entre novamente.
 
-1. Instale o PowerShell do Skype for Business Online.
+1. Instalar o PowerShell do Teams PowerShell.
 
    > [!NOTE]
    > O Skype for Business Online Connector atualmente faz parte do módulo mais recente do Teams PowerShell. Se você estiver usando a versão pública mais recente do Teams PowerShell, não será necessário instalar o Conector do Skype for Business Online. Consulte [Gerenciar o Skype for Business Online com o PowerShell.](https://docs.microsoft.com/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell?view=o365-worldwide&preserve-view=true)
 
-    1. Baixe [o Skype for Business Online PowerShell](https://docs.microsoft.com/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell?view=o365-worldwide&preserve-view=true).
+1. Iniciar o PowerShell como administrador.
 
-    1. Siga os prompts para instalá-lo.
+2. Instalar [o módulo do PowerShell do Teams.](https://docs.microsoft.com/microsoftteams/teams-powershell-install)
 
-    1. Reinicie o computador.
+3. Importe o módulo MicrosoftTeams e entre como administrador do Teams.
 
-2. Iniciar o PowerShell como administrador.
 
-3. Importe o SkypeOnline Connector e entre como administrador do Teams.
+```powershell
+  # When using Teams PowerShell Module
 
-   ```powershell
    Import-Module MicrosoftTeams
-   $sfbSession = New-CsOnlineSession
-   Import-PSSession $sfbSession
-   ```
+   $credential = Get-Credential
+   Connect-MicrosoftTeams -Credential $credential
+```
 
 4. Use [Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy) para definir uma Política de Reunião do Teams para fazer a transição do armazenamento stream para o OneDrive for Business e o SharePoint.
 

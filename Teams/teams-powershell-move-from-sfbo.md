@@ -1,5 +1,5 @@
 ---
-title: Mover do Skype for Business Online Connector para o módulo do PowerShell do Teams
+title: Mover do Skype for Business Online Connector para o módulo do Teams PowerShell
 author: pupara
 ms.author: pupara
 ms.reviewer: pupara
@@ -9,34 +9,45 @@ audience: admin
 ms.service: msteams
 ms.collection:
 - M365-collaboration
-description: Saiba como mover do Skype for Business Online Connector para o módulo do Teams PowerShell para gerenciar o Teams.
+description: Saiba como mover do Conector do Skype for Business Online para o módulo do Teams PowerShell para gerenciar o Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4e1838540e57cd91578e898818e2ed12e7b63a78
-ms.sourcegitcommit: 51d94d621e3411f35622e852b699275f526600dd
+ms.openlocfilehash: 32029de1ec33ee89c8dba30d8368131b291fc3f8
+ms.sourcegitcommit: 1613e08da482ff142c990c9c9951abeb873ad964
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/15/2020
-ms.locfileid: "48469659"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "50569077"
 ---
-# <a name="move-from-skype-for-business-online-connector-to-the-teams-powershell-module"></a>Mover do Skype for Business Online Connector para o módulo do PowerShell do Teams
+# <a name="move-from-skype-for-business-online-connector-to-the-teams-powershell-module"></a>Mover do Skype for Business Online Connector para o módulo do Teams PowerShell
 
-Para mudar do uso do Skype for Business Online Connector para o módulo do PowerShell do Teams para gerenciar o Teams, você precisará atualizar os scripts existentes do PowerShell. Este artigo explica como fazer isso.
+Para mudar do uso do Conector do Skype for Business Online para o módulo do Teams PowerShell para gerenciar o Teams, você precisará atualizar os scripts existentes do PowerShell. Este artigo explica como fazer isso.
 
-1. Instale o módulo mais recente do Teams PowerShell. Para ver as etapas, [consulte Instalar o Microsoft Teams Powershell.](teams-powershell-install.md)
-2. Desinstale o Skype for Business Online Connector. Para fazer isso, no Painel de Controle, acesse Programas e **Recursos,** selecione **Skype for Business Online, Módulo do Windows PowerShell** e, em seguida, selecione **Desinstalar.** 
-3. Em seus scripts do PowerShell, altere o nome do módulo referenciado ```Import-Module``` de ```SkypeOnlineConnector``` ou ```LyncOnlineConnector``` ```MicrosoftTeams``` para.
+1. Instale o módulo mais recente do Teams PowerShell. Para ver as etapas, [consulte Install Microsoft Teams Powershell](teams-powershell-install.md).
+2. Desinstale o Conector do Skype for Business Online. Para fazer isso, no Painel de Controle, **vá** Programas e Recursos, selecione Skype for **Business Online, Windows PowerShell Módulo** e selecione **Desinstalar**. 
+3. Em seus scripts do PowerShell, altere o nome do módulo referenciado ```Import-Module``` de ```SkypeOnlineConnector``` ou para ```LyncOnlineConnector``` ```MicrosoftTeams``` .
 
     Por exemplo, altere ```Import-Module -Name SkypeOnlineConnector``` para ```Import-Module -Name MicrosoftTeams``` .
+4. Ao usar o Módulo 2.0 ou posterior do Teams PowerShell, altere New-csOnlineSession para Connect-MicrosoftTeams. 
 
-> [!NOTE]
-> Os administradores devem continuar a usar [o New-CsOnlineSession](https://docs.microsoft.com/powershell/module/skype/new-csonlinesession) e importar a sessão antes de usar cmdlets do Skype for Business Online. 
+```powershell
+  # When using Teams PowerShell Module 1.1.6
+   Import-Module MicrosoftTeams
+   $credential = Get-Credential
+   $sfbSession = New-CsOnlineSession -Credential $credential
+   Import-PSSession $sfbSession
+   
+   # When using Teams PowerShell Module 2.0 or later
+   Import-Module MicrosoftTeams
+   $credential = Get-Credential
+   Connect-MicrosoftTeams -Credential $credential
+```
 
 ## <a name="related-topics"></a>Tópicos relacionados
 
 [Instalar o Microsoft Teams Powershell](teams-powershell-install.md)
 
-[Gerenciar equipes com o Teams PowerShell](teams-powershell-managing-teams.md)
+[Gerenciar equipes com o PowerShell do Teams](teams-powershell-managing-teams.md)
 
 [Notas de versão do Teams PowerShell](teams-powershell-release-notes.md)
 
