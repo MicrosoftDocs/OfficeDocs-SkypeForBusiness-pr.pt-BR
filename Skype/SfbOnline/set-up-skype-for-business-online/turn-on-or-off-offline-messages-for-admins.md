@@ -19,71 +19,50 @@ f1.keywords:
 ms.custom:
 - Setup
 description: Learn how to send Skype for Business instant messages even when your contacts aren't signed in using PowerShell.
-ms.openlocfilehash: 12d5a6c736616cb9448dc1f75a6f67424d940d7f
-ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
+ms.openlocfilehash: ec5aad56ef7557c9b7854c6844d65ff3799d1d1c
+ms.sourcegitcommit: 1613e08da482ff142c990c9c9951abeb873ad964
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/15/2020
-ms.locfileid: "47814600"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "50568751"
 ---
 # <a name="turn-on-or-off-offline-messages-for-admins"></a>Ativar ou desativar mensagens offline para administradores
 
-Você pode enviar mensagens de IM do Skype for Business para seus contatos, mesmo que eles não estão lá. Esse recurso permite que seus contatos saibam que você está tentando contatá-los. Você não precisa esperar até que alguém está online antes de enviar uma mensagem.
+Você pode enviar mensagens de IMs do Skype for Business para seus contatos mesmo que eles não sejam assinados. Esse recurso permite que seus contatos saibam que você está tentando entrar em contato. Você não precisa esperar até que alguém fique online antes de enviar uma mensagem.
 
 Para mensagens offline, é importante saber:
 
 - Mensagens offline não serão arquivadas na caixa de correio do usuário.
 
-- As mensagens offline serão enviadas para a caixa de correio do usuário e o usuário será notificado quando entrar no Skype for Business.
+- As mensagens offline serão enviadas para a caixa de correio do usuário e o usuário será notificado quando fizer logoff no Skype for Business.
 
-- Se o status do destinatário  da mensagem estiver definido como Não Incomodar ou **Apresentar,** ele receberá uma mensagem perdida enviada do cliente Skype for Business do destinatário.
+- Se o status do destinatário da mensagem estiver definido como **Não** Incomodar ou Apresentar **,** ele receberá uma mensagem perdida enviada do cliente skype for Business do destinatário.
 
-Para obter mais informações, [consulte Usar mensagens offline no Skype for Business.](https://support.office.com/article/ffdc6a43-71a1-40ee-bfcc-640d21324a3d)
+Para obter mais informações, [consulte Use offline messaging in Skype for Business](https://support.office.com/article/ffdc6a43-71a1-40ee-bfcc-640d21324a3d).
 
 ## <a name="to-get-you-started"></a>Para começar
 
-## #
+> [!NOTE]
+> O Skype for Business Online Connector atualmente faz parte do módulo mais recente do Teams PowerShell. Se você estiver usando a versão pública mais recente do Teams PowerShell, não será necessário instalar o Conector do Skype for Business Online.
+1. Instale o [módulo do Teams PowerShell](https://docs.microsoft.com/microsoftteams/teams-powershell-install).
+    
+2. Abra um prompt Windows PowerShell de comando e execute os seguintes comandos: 
 
- **Verifique se está executando o Windows PowerShell 3.0 ou versão superior**
+   ```powershell
+   # When using Teams PowerShell Module
 
-1. Para verificar se você está executando a versão 3.0 ou superior: **Menu Iniciar** > **Windows PowerShell**.
-
-2. Verifique a versão digitando  _Get-Host_ na janela do **Windows PowerShell**.
-
-3. Se você não tiver a versão 3.0 ou superior, deverá baixar e instalar as atualizações do Windows PowerShell. Confira [o Windows Management Framework 4.0 para](https://go.microsoft.com/fwlink/?LinkId=716845) baixar e atualizar o Windows PowerShell para a versão 4.0. Reinicie o computador quando for solicitado.
-
-4. Você também precisará instalar o módulo do Windows PowerShell para Teams que permite criar uma sessão remota do Windows PowerShell que se conecta ao Skype for Business Online.
-
-Se precisar saber mais, confira [Conectar-se a todos os serviços do Office 365 usando uma única janela do Windows PowerShell](https://technet.microsoft.com/library/dn568015.aspx).
-
-## #
-
- **Iniciar uma sessão do Windows PowerShell**
-
-1. No **Menu Iniciar** > **Windows PowerShell**.
-
-2. Na janela **do Windows PowerShell,** conecte-se ao Microsoft 365 ou ao Office 365 executando:
-
-   > [!NOTE]
-   > No momento, o Skype for Business Online Connector faz parte do módulo mais recente do PowerShell do Teams.
-   >
-   > Se você estiver usando a versão pública mais recente do [Teams PowerShell,](https://www.powershellgallery.com/packages/MicrosoftTeams/)não será necessário instalar o Skype for Business Online Connector.
-
-  ```PowerShell
-  Import-Module -Name MicrosoftTeams
-  $credential = Get-Credential
-  $session = New-CsOnlineSession -Credential $credential
-  Import-PSSession $session
-  ```
-
-Se quiser saber mais sobre como iniciar o Windows PowerShell, confira Conectar-se a todos os serviços do [Office 365](https://technet.microsoft.com/library/dn568015.aspx) em uma única janela do Windows PowerShell ou Configurar seu computador para [o Windows PowerShell.](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
+   Import-Module MicrosoftTeams
+   $userCredential = Get-Credential
+   Connect-MicrosoftTeams -Credential $userCredential
+   ```
+Se você quiser mais informações sobre como começar Windows PowerShell, consulte Conectar-se a todos os serviços do [Office 365](https://technet.microsoft.com/library/dn568015.aspx) em uma única janela Windows PowerShell ou Configurar seu computador para Windows PowerShell [.](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
 
 ## <a name="turning-on-or-off-offline-im"></a>Ativar ou desativar mensagens instantâneas offline
 
 > [!NOTE]
-> As Mensagens  Offline só estão disponíveis na versão mais recente do cliente Clique para Executar do Skype for Business e não estão disponíveis quando um arquivo do Skype for Business mais antigo de Clique para Executar é usado ou um arquivo *.msi foi usado para instalar o cliente Skype for Business.
+> As mensagens  offline só estão disponíveis na versão mais recente do cliente Do Skype for Business clique para executar e não estão disponíveis quando um Skype for Business mais antigo é usado ou um arquivo *.msi foi usado para instalar o cliente skype for Business.
 
-Para habilitar ou desabilitar o envio de Mensagens Offline para usuários em sua organização, de definir  _EnableIMAutoArchiving_ como `True` ou `False` . Por padrão, isso é definido como `True` .
+Para habilitar ou desabilitar mensagens offline enviar mensagens offline para usuários em sua organização, de definir  _EnableIMAutoArchiving_ como `True` ou `False` . Por padrão, isso é definido como `True` .
 
 Para desativá-lo, use o cmdlet **Set-CsClientPolicy** e execute:
 
@@ -91,7 +70,7 @@ Para desativá-lo, use o cmdlet **Set-CsClientPolicy** e execute:
 Set-CsClientPolicy -Identity Global -EnableIMAutoArchiving $False
 ```
 
-Para habilitar ou desabilitar o envio de Mensagens Offline para um usuário, de definir  _EnableIMAutoArchiving_ como `True` ou `False` . Por padrão, ele é definido como  `True`. Você pode usar uma política existente ou criar uma como o exemplo abaixo.
+Para habilitar ou desabilitar mensagens offline enviar mensagens offline para um usuário, de definir  _EnableIMAutoArchiving_ como `True` ou `False` . Por padrão, ele é definido como  `True`. Você pode usar uma política existente ou criar uma como o exemplo abaixo.
 
 
   ```PowerShell
@@ -102,15 +81,15 @@ Para habilitar ou desabilitar o envio de Mensagens Offline para um usuário, de 
 
 ## <a name="want-to-know-more-about-windows-powershell"></a>Deseja saber mais sobre o Windows PowerShell?
 
-- O Windows PowerShell gerencia os usuários e o que eles podem ou não fazer. Com o Windows PowerShell, você pode gerenciar o Microsoft 365 ou o Office 365 e o Skype for Business Online usando um ponto único de administração que pode simplificar seu trabalho diário quando você tiver várias tarefas a fazer. Para começar a trabalhar com o Windows PowerShell, confira estes tópicos:
+- O Windows PowerShell gerencia os usuários e o que eles podem ou não fazer. Com Windows PowerShell, você pode gerenciar o Microsoft 365 ou o Office 365 e o Skype for Business Online usando um único ponto de administração que pode simplificar seu trabalho diário, quando você tem várias tarefas a fazer. Para começar a trabalhar com o Windows PowerShell, confira estes tópicos:
 
   - [Uma introdução ao Windows PowerShell e ao Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525039)
 
-  - [Seis motivos pelos quais você pode querer usar o Windows PowerShell para gerenciar o Microsoft 365 ou o Office 365](https://go.microsoft.com/fwlink/?LinkId=525041)
+  - [Seis motivos pelos quais você pode querer usar o Windows PowerShell gerenciar o Microsoft 365 ou o Office 365](https://go.microsoft.com/fwlink/?LinkId=525041)
 
-- O Windows PowerShell tem muitas vantagens em velocidade, simplicidade e produtividade em relação ao uso apenas do Centro de administração do Microsoft 365, como quando você está fazendo alterações de configuração para muitos usuários ao mesmo tempo. Saiba mais sobre essas vantagens nos seguintes tópicos:
+- Windows PowerShell tem muitas vantagens em velocidade, simplicidade e produtividade sobre apenas o uso do centro de administração do Microsoft 365, como quando você está fazendo alterações de configuração para muitos usuários ao mesmo tempo. Saiba mais sobre essas vantagens nos seguintes tópicos:
 
-  - [Melhores maneiras de gerenciar o Microsoft 365 ou o Office 365 com o Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
+  - [Melhores maneiras de gerenciar o Microsoft 365 ou o Office 365 com Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
 
   - [Usar o Windows PowerShell para gerenciar o Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525453)
 
@@ -120,5 +99,3 @@ Para habilitar ou desabilitar o envio de Mensagens Offline para um usuário, de 
 [Instalar o Skype for Business Online](set-up-skype-for-business-online.md)
 
 [Permitir que os usuários do Skype for Business adicionem contatos do Skype](let-skype-for-business-users-add-skype-contacts.md)
-
-

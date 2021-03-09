@@ -19,20 +19,20 @@ f1.keywords:
 ms.custom:
 - Setup
 description: 'Conferência é uma parte importante do Skype for Business Online: a conferência permite que grupos de usuários reúnam-se online para ver slides e vídeo, compartilhar aplicativos, trocar arquivos ou para comunicarem-se e colaborar.'
-ms.openlocfilehash: f5b420b9a5f288a0c733d3dfdc7ebc45fb323f32
-ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
+ms.openlocfilehash: 9a2e18ad23eaa08813c87e83058ecc0dcd1dfec1
+ms.sourcegitcommit: 1613e08da482ff142c990c9c9951abeb873ad964
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/15/2020
-ms.locfileid: "47814750"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "50569203"
 ---
 # <a name="set-up-conferencing-policies-for-your-organization"></a>Configurar políticas de conferência para sua organização
 
 Conferência é uma parte importante do Skype for Business Online: a conferência permite que grupos de usuários reúnam-se online para ver slides e vídeo, compartilhar aplicativos, trocar arquivos ou para comunicarem-se e colaborar.
   
-É importante manter o controle sobre as configurações de conferências e conferências. Em alguns casos, pode haver preocupações de segurança: por padrão, qualquer pessoa, incluindo usuários não autenticados, pode participar de reuniões e salvar qualquer um dos slides ou apostilas distribuídos durante essas reuniões. Além disso, pode haver preocupações legais ocasionais. Por exemplo, por padrão, os participantes da reunião podem fazer anotações sobre o conteúdo compartilhado; no entanto, essas anotações não são salvas quando a reunião é arquivada. Se sua organização for necessária para manter um registro de toda a comunicação eletrônica, talvez você queira desabilitar anotações. 
+É importante que você mantenha o controle das conferências e de suas configurações. Em alguns casos, pode haver preocupação em termos de segurança: por padrão, qualquer pessoa, incluindo usuários não autenticados, pode participar de reuniões e salvar quaisquer slides ou folhetos distribuídos durante aquelas reuniões. Além disso, podem ocorrer preocupações legais ocasionais. Por exemplo, por padrão, os participantes da reunião têm permissão para fazer anotações em conteúdo compartilhado; no entanto, essas anotações não são salvas quando a reunião é arquivada. Se sua organização precisar manter um registro de toda a comunicação eletrônica, talvez você queira desabilitar as anotações. 
   
-No Skype for Business Online, as conferências são gerenciadas usando políticas de conferência. As políticas de conferência determinam os recursos e recursos que podem ser usados em uma conferência, incluindo tudo, desde se a conferência pode ou não incluir áudio e vídeo IP até o número máximo de pessoas que podem participar de uma reunião. As políticas de conferência podem ser configuradas no escopo global ou no escopo por usuário. Isso fornece aos administradores uma flexibilidade enorme quando se trata de decidir quais recursos serão disponibilizados para quais usuários.
+No Skype for Business Online, as conferências são gerenciadas usando políticas de conferência. As políticas de conferência determinam os recursos e as capacidades que podem ser usados em uma conferência, incluindo tudo desde se a conferência pode ou não incluir áudio e vídeo IP até o número máximo de pessoas que podem participar de uma reunião. Essas políticas podem ser configuradas no escopo global ou no escopo por uso. Isso fornece aos administradores uma flexibilidade enorme no que diz respeito a decidir quais capacidades serão disponibilizadas para quais usuários.
   
 As configurações de política podem ser configuradas no momento em que uma política é criada ou você pode usar o cmdlet **Set-CsConferencingPolicy** para modificar as configurações de uma política existente.
   
@@ -40,41 +40,24 @@ As configurações de política podem ser configuradas no momento em que uma pol
 
 > [!NOTE]
 > Para todas as configurações de política de conferência no Skype for Business Online, você deve usar o Windows PowerShell e não pode **usar** o Centro de **administração do Skype for Business.** 
-  
-### <a name="verify-and-start-windows-powershell"></a>Verificar e iniciar o Windows PowerShell
 
-- **Verifique se está executando o Windows PowerShell 3.0 ou versão superior**
-    
-    1. Para verificar se você está executando a versão 3.0 ou superior: **Menu Iniciar** > **Windows PowerShell**.
-        
-    2. Verifique a versão digitando  _Get-Host_ na janela do **Windows PowerShell**.
-        
-    3. Se você não tiver a versão 3.0 ou superior, será necessário baixar e instalar atualizações para o Windows PowerShell. Confira [o Windows Management Framework 4.0 para](https://go.microsoft.com/fwlink/?LinkId=716845) baixar e atualizar o Windows PowerShell para a versão 4.0. Reinicie o computador quando for solicitado.
-        
-    4. Você também precisará instalar o módulo do Windows PowerShell para Teams que permite criar uma sessão remota do Windows PowerShell que se conecta ao Skype for Business Online.
-    
-    Se precisar saber mais, confira Conectar-se a todos os serviços do [Microsoft 365 ou do Office 365](https://technet.microsoft.com/library/dn568015.aspx)em uma única janela do Windows PowerShell.
-    
-- **Iniciar uma sessão do Windows PowerShell**
-    
-    1. No **Menu Iniciar** > **Windows PowerShell**.
-        
-    2. Na janela **do Windows PowerShell,** conecte-se ao Microsoft 365 ou ao Office 365 executando:
-        
-     > [!NOTE]
-     > No momento, o Skype for Business Online Connector faz parte do módulo mais recente do PowerShell do Teams.
-     >
-     > Se você estiver usando a versão pública mais recente do [Teams PowerShell,](https://www.powershellgallery.com/packages/MicrosoftTeams/)não será necessário instalar o Skype for Business Online Connector.
+### <a name="start-windows-powershell"></a>Iniciar Windows PowerShell
 
-       ```PowerShell      
-        Import-Module -Name MicrosoftTeams
-        $credential = Get-Credential
-        $session = New-CsOnlineSession -Credential $credential
-        Import-PSSession $session
-       ```
-
-   Se quiser saber mais sobre como iniciar o Windows PowerShell, consulte Conectar-se a todos os serviços do [Microsoft 365 ou do Office 365](https://technet.microsoft.com/library/dn568015.aspx) em uma única janela do Windows PowerShell ou Configurar seu computador para [Windows PowerShell.](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
+ > [!Note]
+> O Skype for Business Online Connector atualmente faz parte do módulo mais recente do Teams PowerShell. Se você estiver usando a versão pública mais recente do Teams PowerShell, não será necessário instalar o Conector do Skype for Business Online.
+1. Instale o [módulo do Teams PowerShell](https://docs.microsoft.com/microsoftteams/teams-powershell-install).
     
+2. Abra um prompt Windows PowerShell de comando e execute os seguintes comandos: 
+
+   ```powershell
+   # When using Teams PowerShell Module 
+   
+   Import-Module MicrosoftTeams
+   $credential = Get-Credential
+   Connect-MicrosoftTeams -Credential $credential
+   ```
+   Se você quiser mais informações sobre como iniciar o Windows PowerShell, consulte Conectar-se a todos os serviços do [Microsoft 365 ou do Office 365](https://technet.microsoft.com/library/dn568015.aspx) em uma única janela de Windows PowerShell ou Configurar seu computador para Windows PowerShell [.](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
+      
 ### <a name="block-file-transfers-and-desktop-sharing-during-meetings"></a>Bloquear transferências de arquivo e compartilhamento de área de trabalho durante as reuniões
 
 - Para criar uma nova política para essas configurações, execute:
@@ -82,34 +65,34 @@ As configurações de política podem ser configuradas no momento em que uma pol
    ```powershell
    New-CsConferencingPolicy -Identity DesktopConferencingPolicy -EnableAppDesktopSharing None  $true -EnableFileTransfer $false
    ```
-   Veja mais no [cmdlet New-CsConferencingPolicy.](https://technet.microsoft.com/library/mt779148.aspx)
+   Consulte mais no cmdlet [New-CsConferencingPolicy.](https://technet.microsoft.com/library/mt779148.aspx)
     
 - Para conceder a nova política criada a todos os usuários em sua organização, execute:
    
    ```powershell
    Grant-CsConferencingPolicy -Identity "amos.marble@contoso.com" -PolicyName DesktopConferencingPolicy
    ```
-   Veja mais no [cmdlet Grant-CsConferencingPolicy.](https://technet.microsoft.com/library/mt779156.aspx)
+   Consulte mais no cmdlet [Grant-CsConferencingPolicy.](https://technet.microsoft.com/library/mt779156.aspx)
     
-  Se você já criou uma política, pode usar o cmdlet [Set-CsConferencingPolicy](https://technet.microsoft.com/library/mt779157.aspx) para fazer alterações na política existente e usar o cmdlet[Grant-CsConferencingPolicy](https://technet.microsoft.com/library/mt779156.aspx) para aplicar as configurações aos seus usuários.
+  Se você já tiver criado uma política, poderá usar o cmdlet [Set-CsConferencingPolicy](https://technet.microsoft.com/library/mt779157.aspx) para fazer alterações na política existente e, em seguida, usar o cmdlet[Grant-CsConferencingPolicy](https://technet.microsoft.com/library/mt779156.aspx) para aplicar as configurações aos seus usuários.
   
-### <a name="block-recording-of-conferences-and-prevent-anonymous-meeting-participants"></a>Bloquear a gravação de conferências e impedir participantes anônimos da reunião
+### <a name="block-recording-of-conferences-and-prevent-anonymous-meeting-participants"></a>Bloquear o registro de conferências e impedir participantes de reuniões anônimas
 
 - Para criar uma nova política para essas configurações, execute: 
    
    ```powershell
    New-CsConferencingPolicy -Identity ConferencingPolicy -AllowAnonymousParticipantsInMeetings  $false -AllowConferenceRecording $false
    ```
-   Veja mais no [cmdlet New-CsConferencingPolicy.](https://technet.microsoft.com/library/mt779148.aspx)
+   Consulte mais no cmdlet [New-CsConferencingPolicy.](https://technet.microsoft.com/library/mt779148.aspx)
     
-- Para conceder a nova política criada ao Amos Marble, execute:
+- Para conceder a nova política criada para o Amos Marble, execute:
    
    ```powershell
     Grant-CsConferencingPolicy -Identity "amos.marble@contoso.com" -PolicyName ConferencingPolicy
    ```
-   Veja mais no [cmdlet Grant-CsConferencingPolicy.](https://technet.microsoft.com/library/mt779156.aspx)
+   Consulte mais no cmdlet [Grant-CsConferencingPolicy.](https://technet.microsoft.com/library/mt779156.aspx)
     
-Se você já criou uma política, pode usar o cmdlet [Set-CsConferencingPolicy](https://technet.microsoft.com/library/mt779157.aspx) para fazer alterações na política existente e usar o cmdlet [Grant-CsConferencingPolicy](https://technet.microsoft.com/library/mt779156.aspx) para aplicar as configurações aos seus usuários.
+Se você já tiver criado uma política, poderá usar o cmdlet [Set-CsConferencingPolicy](https://technet.microsoft.com/library/mt779157.aspx) para fazer alterações na política existente e, em seguida, usar o cmdlet [Grant-CsConferencingPolicy](https://technet.microsoft.com/library/mt779156.aspx) para aplicar as configurações aos seus usuários.
   
 ### <a name="block-anonymous-participants-from-recording-meetings-and-external-users-from-saving-meeting-content"></a>Impedir que participantes anônimos gravem reuniões e que usuários externos salvem o conteúdo da reunião
 
@@ -118,7 +101,7 @@ Se você já criou uma política, pode usar o cmdlet [Set-CsConferencingPolicy](
    ```powershell
    New-CsConferencingPolicy -Identity BlockedConferencingPolicy  -AllowExternalUsersToRecordMeeting  $false -AllowExternalUsersToSaveContent $false 
    ```
-   Veja mais no [cmdlet New-CsConferencingPolicy.](https://technet.microsoft.com/library/mt779148.aspx)
+   Consulte mais no cmdlet [New-CsConferencingPolicy.](https://technet.microsoft.com/library/mt779148.aspx)
     
 - Para conceder a nova política criada a todos os usuários em sua organização, execute:
     
@@ -127,21 +110,21 @@ Se você já criou uma política, pode usar o cmdlet [Set-CsConferencingPolicy](
    Grant-CsConferencingPolicy -Identity "amos.marble@contoso.com" -PolicyName BlockedConferencingPolicy
    ```
 
-Veja mais no [cmdlet Grant-CsConferencingPolicy.](https://technet.microsoft.com/library/mt779156.aspx)
+Consulte mais no cmdlet [Grant-CsConferencingPolicy.](https://technet.microsoft.com/library/mt779156.aspx)
     
-Se você já criou uma política, pode usar o cmdlet [Set-CsConferencingPolicy](https://technet.microsoft.com/library/mt779157.aspx) para fazer alterações na política existente e usar o cmdlet[Grant-CsConferencingPolicy](https://technet.microsoft.com/library/mt779156.aspx) para aplicar as configurações aos seus usuários.
+Se você já tiver criado uma política, poderá usar o cmdlet [Set-CsConferencingPolicy](https://technet.microsoft.com/library/mt779157.aspx) para fazer alterações na política existente e, em seguida, usar o cmdlet[Grant-CsConferencingPolicy](https://technet.microsoft.com/library/mt779156.aspx) para aplicar as configurações aos seus usuários.
   
 ## <a name="want-to-know-more-about-windows-powershell"></a>Deseja saber mais sobre o Windows PowerShell?
 
-- O Windows PowerShell gerencia os usuários e o que eles podem ou não fazer. Com o Windows PowerShell, você pode gerenciar o Microsoft 365 ou o Office 365 e o Skype for Business Online usando um ponto único de administração que pode simplificar seu trabalho diário quando você tiver várias tarefas a fazer. Para começar a trabalhar com o Windows PowerShell, confira estes tópicos:
+- O Windows PowerShell gerencia os usuários e o que eles podem ou não fazer. Com Windows PowerShell, você pode gerenciar o Microsoft 365 ou o Office 365 e o Skype for Business Online usando um único ponto de administração que pode simplificar seu trabalho diário, quando você tem várias tarefas a fazer. Para começar a trabalhar com o Windows PowerShell, confira estes tópicos:
     
   - [Uma introdução ao Windows PowerShell e ao Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525039)
     
-  - [Seis motivos pelos quais você pode querer usar o Windows PowerShell para gerenciar o Microsoft 365 ou o Office 365](https://go.microsoft.com/fwlink/?LinkId=525041)
+  - [Seis motivos pelos quais você pode querer usar o Windows PowerShell gerenciar o Microsoft 365 ou o Office 365](https://go.microsoft.com/fwlink/?LinkId=525041)
     
-- O Windows PowerShell tem muitas vantagens em velocidade, simplicidade e produtividade em relação ao uso apenas do Centro de administração do Microsoft 365, como quando você está fazendo alterações de configuração para muitos usuários ao mesmo tempo. Saiba mais sobre essas vantagens nos seguintes tópicos:
+- Windows PowerShell tem muitas vantagens em velocidade, simplicidade e produtividade sobre apenas o uso do centro de administração do Microsoft 365, como quando você está fazendo alterações de configuração para muitos usuários ao mesmo tempo. Saiba mais sobre essas vantagens nos seguintes tópicos:
     
-  - [Melhores maneiras de gerenciar o Microsoft 365 ou o Office 365 com o Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
+  - [Melhores maneiras de gerenciar o Microsoft 365 ou o Office 365 com Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
     
   - [Usar o Windows PowerShell para gerenciar o Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525453)
     

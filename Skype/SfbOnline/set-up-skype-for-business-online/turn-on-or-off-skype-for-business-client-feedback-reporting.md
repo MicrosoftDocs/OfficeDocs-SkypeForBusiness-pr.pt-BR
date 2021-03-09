@@ -18,81 +18,65 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Setup
-description: Você pode permitir que seus usuários do Skype for Business usem a ferramenta interna de comentários do aplicativo Skype for Business para permitir que os usuários reportem problemas e forneçam comentários diretamente à Microsoft sobre sua experiência.
-ms.openlocfilehash: 3b91bc88c20450b7c0d9c5705bceec53af5f9edb
-ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
+description: Você pode permitir que seus usuários do Skype for Business usem a ferramenta interna de comentários de aplicativos do Skype for Business para permitir que os usuários reportem problemas e forneçam comentários diretamente à Microsoft sobre sua experiência.
+ms.openlocfilehash: 9b9134f857be540a528ca12b51a4793c01f70fa4
+ms.sourcegitcommit: 1613e08da482ff142c990c9c9951abeb873ad964
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/15/2020
-ms.locfileid: "47814180"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "50568997"
 ---
 # <a name="turn-on-or-off-skype-for-business-client-feedback-reporting"></a>Ativar ou desativar o relatório de comentários do cliente Skype for Business
 
-Você pode permitir que seus usuários do Skype for Business Online usem a ferramenta interna de comentários do aplicativo Skype for Business para permitir que os usuários reportem problemas e forneçam comentários diretamente à Microsoft sobre sua experiência. 
+Você pode permitir que seus usuários do Skype for Business Online usem a ferramenta interna de comentários de aplicativos do Skype for Business para permitir que os usuários reportem problemas e forneçam comentários diretamente à Microsoft sobre sua experiência. 
   
-![Skype for Business client reporting.](../images/eac13837-04d9-4da1-8e80-54612cf6650d.png)
+![Fornecer ícone de feedback](../images/eac13837-04d9-4da1-8e80-54612cf6650d.png)
   
-Usando essa ferramenta, um usuário pode copiar os logs do aplicativo em seu dispositivo para ajudar a Microsoft a investigar melhor e solucionar problemas que ele possa ter. 
+Usando essa ferramenta, um usuário pode copiar os logs do aplicativo em seu dispositivo para ajudar a Microsoft a investigar melhor e solucionar problemas que podem ter. 
   
-![Skype for Business client reporting.](../images/2dfb5603-1d69-41fc-a43e-91a3379acbe0.png)
+![Relatar um problema usando o ícone Configurações](../images/2dfb5603-1d69-41fc-a43e-91a3379acbe0.png)
   
 Também é possível usar a configuração  _EnableOnlineFeedbackScreenshot_ para que os usuários possam incluir uma captura de tela em seu dispositivo como parte de seu comentário.
   
 ![Skype for Business client reporting form.](../images/d859578d-8116-4d4b-a08f-c0cae28b8b76.png)
   
 > [!IMPORTANT]
-> Os logs coletados pela ferramenta de comentários do aplicativo serão armazenados por até no máximo 90 dias nos Estados Unidos enquanto o problema estiver sendo investigado. Por isso, não habilite essa ferramenta caso ela viole a política de proteção de dados da organização. 
+> Os logs coletados pela ferramenta de comentários do aplicativo serão armazenados por até no máximo 90 dias nos Estados Unidos enquanto o problema está sendo investigado. Por isso, não habilite essa ferramenta caso ela viole a política de proteção de dados da organização. 
   
-## <a name="verify-and-start-windows-powershell"></a>Verificar e iniciar o Windows PowerShell
+## <a name="start-windows-powershell"></a>Iniciar Windows PowerShell
 
-- **Verifique se está executando o Windows PowerShell 3.0 ou versão superior**
+> [!NOTE]
+> O Skype for Business Online Connector atualmente faz parte do módulo mais recente do Teams PowerShell. Se você estiver usando a versão pública mais recente do Teams PowerShell, não será necessário instalar o Conector do Skype for Business Online.
+1. Instale o [módulo do Teams PowerShell](https://docs.microsoft.com/microsoftteams/teams-powershell-install).
     
-1. Para verificar se você está executando a versão 3.0 ou superior: **Menu Iniciar** > **Windows PowerShell**.
-    
-2. Verifique a versão digitando  _Get-Host_ na janela do **Windows PowerShell**.
-    
-3. Se você não tiver a versão 3.0 ou superior, deverá baixar e instalar as atualizações do Windows PowerShell. Confira [o Windows Management Framework 4.0 para](https://go.microsoft.com/fwlink/?LinkId=716845) baixar e atualizar o Windows PowerShell para a versão 4.0. Reinicie o computador quando for solicitado.
-    
-4. Você também precisará instalar o módulo do Windows PowerShell para Teams que permite criar uma sessão remota do Windows PowerShell que se conecta ao Skype for Business Online. 
-    
-Se precisar saber mais, confira Conectar-se a todos os serviços do [Microsoft 365 ou do Office 365](https://technet.microsoft.com/library/dn568015.aspx)em uma única janela do Windows PowerShell.
-    
-- **Iniciar uma sessão do Windows PowerShell**
-    
-1. No **Menu Iniciar** > **Windows PowerShell**.
-    
-2. Na janela **do Windows PowerShell,** conecte-se ao Microsoft 365 ou ao Office 365 executando:
-    
-  > [!NOTE]
-  > No momento, o Skype for Business Online Connector faz parte do módulo mais recente do PowerShell do Teams.
-  >
-  > Se você estiver usando a versão pública mais recente do [Teams PowerShell,](https://www.powershellgallery.com/packages/MicrosoftTeams/)não será necessário instalar o Skype for Business Online Connector.
- 
-   ```PowerShell
-   Import-Module -Name MicrosoftTeams
-    $credential = Get-Credential
-    $session = New-CsOnlineSession -Credential $credential
-    Import-PSSession $session
+2. Abra um prompt Windows PowerShell de comando e execute os seguintes comandos: 
+
+   ```powershell
+   # When using Teams PowerShell Module
+
+   Import-Module MicrosoftTeams
+   $userCredential = Get-Credential
+   Connect-MicrosoftTeams -Credential $userCredential
    ```
-   Se quiser saber mais sobre como iniciar o Windows PowerShell, consulte Conectar-se a todos os serviços do [Microsoft 365 ou do Office 365](https://technet.microsoft.com/library/dn568015.aspx) em uma única janela do Windows PowerShell ou Configurar seu computador para[Windows PowerShell.](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
-    
+   Se você quiser mais informações sobre como iniciar o Windows PowerShell, consulte Conectar-se a todos os serviços do [Microsoft 365 ou do Office 365](https://technet.microsoft.com/library/dn568015.aspx) em uma única janela de Windows PowerShell ou Configurar seu computador para Windows PowerShell [.](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
+   
 ## <a name="turn-on-client-app-feedback-reporting-for-all-the-users-in-your-organization"></a>Ativar o relatório de comentários do aplicativo cliente para todos os usuários de sua organização
 
-Para habilitar o relatório de comentários para usuários em sua organização e permitir que eles enviem capturas de tela do dispositivo, execute:
+Para habilitar relatórios de comentários para usuários em sua organização e permitir que eles enviem capturas de tela do dispositivo, execute:
  
   ```PowerShell
   Set-CsClientPolicy -Identity EnableOnlineFeedback -EnableOnlineFeedback $true -EnableOnlineFeedbackScreenshots $true
   ```
 ## <a name="want-to-know-more-about-windows-powershell"></a>Deseja saber mais sobre o Windows PowerShell?
-- O Windows PowerShell gerencia os usuários e o que eles podem ou não fazer. Com o Windows PowerShell, você pode gerenciar o Microsoft 365 ou o Office 365 e o Skype for Business Online usando um ponto único de administração que pode simplificar seu trabalho diário quando você tiver várias tarefas a fazer. Para começar a trabalhar com o Windows PowerShell, confira estes tópicos:
+- O Windows PowerShell gerencia os usuários e o que eles podem ou não fazer. Com Windows PowerShell, você pode gerenciar o Microsoft 365 ou o Office 365 e o Skype for Business Online usando um único ponto de administração que pode simplificar seu trabalho diário, quando você tem várias tarefas a fazer. Para começar a trabalhar com o Windows PowerShell, confira estes tópicos:
     
   - [Uma introdução ao Windows PowerShell e ao Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525039)
     
-  - [Seis motivos pelos quais você pode querer usar o Windows PowerShell para gerenciar o Microsoft 365 ou o Office 365](https://go.microsoft.com/fwlink/?LinkId=525041)
+  - [Seis motivos pelos quais você pode querer usar o Windows PowerShell gerenciar o Microsoft 365 ou o Office 365](https://go.microsoft.com/fwlink/?LinkId=525041)
     
-- O Windows PowerShell tem muitas vantagens em velocidade, simplicidade e produtividade em relação ao uso apenas do Centro de administração do Microsoft 365, como quando você está fazendo alterações de configuração para muitos usuários ao mesmo tempo. Saiba mais sobre essas vantagens nos seguintes tópicos:
+- Windows PowerShell tem muitas vantagens em velocidade, simplicidade e produtividade sobre apenas o uso do centro de administração do Microsoft 365, como quando você está fazendo alterações de configuração para muitos usuários ao mesmo tempo. Saiba mais sobre essas vantagens nos seguintes tópicos:
     
-  - [Melhores maneiras de gerenciar o Microsoft 365 ou o Office 365 com o Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
+  - [Melhores maneiras de gerenciar o Microsoft 365 ou o Office 365 com Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
     
   - [Usar o Windows PowerShell para gerenciar o Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525453)
     
