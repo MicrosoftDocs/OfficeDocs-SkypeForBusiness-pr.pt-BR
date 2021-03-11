@@ -705,7 +705,7 @@ items:
             href: audio-conferencing-pay-per-minute.md
           - name: Gerenciar as configurações de audioconferência para usuários
             items:
-              - name: Visão Geral
+              - name: Visão geral
                 href: manage-the-audio-conferencing-settings-for-a-user-in-teams.md
               - name: Ver uma lista de usuários habilitados para Audioconferência
                 href: see-a-list-of-users-that-are-enabled-for-audio-conferencing-in-teams.md
@@ -765,6 +765,8 @@ items:
             href: teams-live-events/set-teams-live-events-policies-using-powershell.md
           - name: Definir configurações de eventos ao vivo do Teams
             href: teams-live-events/configure-teams-live-events.md
+          - name: Políticas de gravação de eventos ao vivo
+            href: teams-live-events/live-events-recording-policies.md
   - name: Voz - Conectividade PSTN e Sistema de Telefonia
     items:
       - name: Planejar sua solução de voz do Teams
@@ -845,7 +847,7 @@ items:
             href: country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md
       - name: Roteamento Direto do Sistema de Telefonia
         items:
-          - name: Visão Geral
+          - name: Visão geral
             href: direct-routing-landing-page.md
           - name: Planejar o Roteamento Direto
             href: direct-routing-plan.md
