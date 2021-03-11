@@ -1,5 +1,5 @@
 ---
-title: Número de Telefone Não Atribuído Criar Novo ou Editar Existente
+title: Número de telefone não atribuído Criar Novo ou Editar Existente
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,17 +15,17 @@ localization_priority: Normal
 ms.assetid: 58903e40-6b93-40d6-88f8-1201743cd9be
 ROBOTS: NOINDEX, NOFOLLOW
 description: Números não atribuídos são números de telefone válidos para sua organização, mas que não são atribuídos a um usuário ou telefone. A tabela de números não atribuídos identifica como você deseja lidar com chamadas para números não atribuídos.
-ms.openlocfilehash: a584812b32d99796259bde56838f0193c54b8fac
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 9cef4ae8075bf4982ab9c3ddd857062d4fa1a824
+ms.sourcegitcommit: c477aa1a7da0b6b9bea1f5d10f1395eef418bfdb
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49812091"
+ms.lasthandoff: 03/10/2021
+ms.locfileid: "50711728"
 ---
 # <a name="unassigned-phone-number-create-new-or-edit-existing"></a>Número de Telefone Não Atribuído: Criar Novo ou Editar Existente
 
 > [!NOTE]
-> A UM do Exchange permanece disponível no Skype for Business Server 2019 quando você integra o Skype for Business 2019 com o Exchange 2013 ou o Exchange 2016. Devido às alterações no suporte no Exchange 2019, a integração de UM do Exchange está sendo enfatizada em favor dos recursos de Caixa Postal na Nuvem e Atendedor Automático na Nuvem.
+> A UM do Exchange permanece disponível no Skype for Business Server 2019 quando você integra o Skype for Business 2019 com o Exchange 2013 ou o Exchange 2016. Devido às alterações no suporte no Exchange 2019, a integração da UM do Exchange está sendo desalmada em favor dos recursos de Cloud Voicemail e Cloud Atendedor Automático.
 
 Números não atribuídos são números de telefone válidos para sua organização, mas que não são atribuídos a um usuário ou telefone. A tabela de números não atribuídos identifica como você deseja lidar com chamadas para números não atribuídos.
 
@@ -36,7 +36,7 @@ Números não atribuídos são números de telefone válidos para sua organizaç
 
 A lista a seguir descreve os campos na página.
 
-- **Nome** Digite um nome descritivo que identifique o intervalo de números não atribuídos. Depois de salvar o intervalo, esse nome não pode ser alterado.
+- **Nome** Digite um nome descritivo que identifica o intervalo de números não atribuídos. Depois de salvar o intervalo, esse nome não pode ser alterado.
 
 - **Intervalo de números** No primeiro campo, digite o número inicial do intervalo de números não atribuídos. No segundo campo, digite o número final do intervalo.
 
@@ -44,20 +44,20 @@ A lista a seguir descreve os campos na página.
 
   - Se o número inicial do intervalo ou o número final do intervalo incluir um número de extensão, os números inicial e final do intervalo precisarão incluir uma extensão e o número de extensão deverá ser o mesmo para os números inicial e final.
 
-  - O número deve corresponder à expressão regular (tel:)?( \+ )? [1-9]\d {0,17} (;ext=[1-9]\d {0,9} )?. Isso significa que o número pode começar com a cadeia de caracteres tel: (se você não especificar essa cadeia de caracteres, ele será adicionado automaticamente para você), um sinal de mais (+) e um dígito de 1 a 9. O número de telefone pode ter até 17 dígitos e pode ser seguido por uma extensão no formato ;ext= seguido pelo número de extensão.
+  - O número deve corresponder à expressão regular ( `tel:` )?( \+ )? [1-9]\d {0,17} (;ext=[1-9]\d {0,9} )?. Isso significa que o número pode começar com a cadeia de caracteres 'tel:'. Se você não especificar essa cadeia de caracteres, ela será adicionada automaticamente para você, como um sinal de a mais (+) e um dígito de 1 a 9. O número de telefone pode ter até 17 dígitos e pode ser seguido por uma extensão no formato ;ext= seguido pelo número de extensão.
 
-- **Serviço de comunicados** Selecione **Comunicado para** que o aplicativo Comunicado manipular a chamada de entrada ou a UM do **Exchange** para que um Atendente Automático do UM do Exchange manipular a chamada de entrada.
+- **Serviço de comunicado** Selecione **Comunicado** para que o aplicativo Comunicado manipular a chamada de entrada ou a UM do Exchange para que um **um UM** do Exchange Atendedor Automático lidar com a chamada de entrada.
 
 - Se você tiver selecionado **Anúncio** para **Serviço de anúncio**:
 
-  - **FQDN do servidor de destino** Selecione a ID de serviço do serviço de Aplicativo que executa o aplicativo Comunicado que lidará com chamadas de entrada para esse intervalo de números não atribuídos.
+  - **FQDN do servidor de destino** Selecione a ID de serviço do serviço application que executa o aplicativo Comunicado que tratará de chamadas de entrada para esse intervalo de números não atribuídos.
 
   - **Comunicado** Selecione o comunicado a ser tocado para esse intervalo de números não atribuídos.
 
 - Se você tiver selecionado **U do Exchange** para **Serviço de anúncio**:
 
-  - **Número de telefone do Atendente Automático** Selecione o número de telefone para o Atendente Automático de UM do Exchange.
+  - **Atendedor Automático telefone** Selecione o número de telefone do exchange um Atendedor Automático.
 
-Para obter detalhes sobre os recursos de Comunicado, [consulte Plan for the Announcement application in Skype for Business](../../../plan-your-deployment/enterprise-voice-solution/announcement.md) na documentação planejamento. Para obter detalhes sobre como trabalhar com intervalos de números não atribuídos, consulte [Configure Routing of Unassigned Phone Numbers](https://technet.microsoft.com/library/a0650659-dce7-455f-8977-02454bbfa400.aspx) na documentação Operações.
+Para obter detalhes sobre recursos e recursos do Comunicado, consulte [Plan for the Announcement application in Skype for Business](../../../plan-your-deployment/enterprise-voice-solution/announcement.md) na documentação planejamento. Para obter detalhes sobre como trabalhar com intervalos de números não atribuídos, consulte [Configure Routing of Unassigned Phone Numbers](https://technet.microsoft.com/library/a0650659-dce7-455f-8977-02454bbfa400.aspx) na documentação Operações.
 
 

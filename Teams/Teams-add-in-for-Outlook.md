@@ -7,7 +7,7 @@ audience: Admin
 ms.topic: article
 ms.service: msteams
 ms.reviewer: sonua
-localization_priority: Normal
+localization_priority: Priority
 search.appverid: MET150
 description: O Microsoft Teams instala um suplemento no Outlook para que os usuários possam agendar uma reunião do Teams pelo Outlook.
 f1.keywords:
@@ -19,12 +19,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3635d56b510c0ece55a0fdb9408c72a697436841
-ms.sourcegitcommit: 414d077b16a0ae4ea6a49e3b3d0082858174cacb
-ms.translationtype: MT
+ms.openlocfilehash: fe8b9192c9d1b85e23f2d17daa067630cebd15f2
+ms.sourcegitcommit: 31a585cc0fe6350efacf3a7771d1e590d5e4233c
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "50278551"
+ms.lasthandoff: 03/10/2021
+ms.locfileid: "50614927"
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>Usar o suplemento de Reunião do Teams no Outlook
 =======================================
@@ -77,7 +77,7 @@ Para obter mais informações, consulte [Agendar reuniões com o Verificador de 
 
 ## <a name="authentication-requirements"></a>Requisitos de autenticação
 
-O suplemento de Reunião do Teams requer que os usuários entrem no Teams usando a autenticação moderna. Se os usuários não usarem esse método para entrar, eles ainda poderão usar o cliente teams, mas não poderão agendar reuniões online do [Teams](https://www.microsoft.com/microsoft-teams/online-meetings) usando o add-in do Outlook. Você pode corrigir isso da seguinte maneira:
+O suplemento de Reunião do Teams requer que os usuários entrem no Teams usando a autenticação moderna. Se os usuários não usarem este método para entrar, eles ainda poderão usar o cliente Teams, mas não poderão agendar [ reuniões online do Teams ](https://www.microsoft.com/microsoft-teams/online-meetings) usando o suplemento do Outlook. Você pode corrigir isso da seguinte maneira:
 
 - Se a autenticação moderna não estiver configurada para a sua organização, você deverá fazer isso.
 - Se a Autenticação Moderna estiver configurada, mas os usuários tiverem cancelado a mesma na caixa de diálogo, você deve instruir os usuários a entrarem novamente usando a autenticação multifator.
@@ -182,4 +182,4 @@ Se o seu administrador configurou o Microsoft Exchange para [controlar o acesso 
 
 - [Solução de problemas do Teams](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)
 
-- [Agendar uma reunião do Teams no Outlook](https://support.microsoft.com/office/schedule-a-teams-meeting-from-outlook-883cc15c-580f-441a-92ea-0992c00a9b0f)
+- [Agende uma reunião de Teams no Outlook](https://support.microsoft.com/office/schedule-a-teams-meeting-from-outlook-883cc15c-580f-441a-92ea-0992c00a9b0f)

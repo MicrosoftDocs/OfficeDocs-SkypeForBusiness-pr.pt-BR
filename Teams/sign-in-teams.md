@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f6183471d8266ff004e1028ec3102e21f73fff77
-ms.sourcegitcommit: fdef9b52247097e5cae64f01b6b2b710c5b203cf
+ms.openlocfilehash: 7adc2d1cf040c778251784b19c92b1f79d7071fe
+ms.sourcegitcommit: c477aa1a7da0b6b9bea1f5d10f1395eef418bfdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/20/2021
-ms.locfileid: "49909115"
+ms.lasthandoff: 03/10/2021
+ms.locfileid: "50711638"
 ---
 <a name="sign-in-to-microsoft-teams"></a>Entrar no Microsoft Teams
 ==========================
@@ -161,7 +161,7 @@ A experiência de login é semelhante à nossa experiência de assinatura do MIc
 O Teams exige conectividade com a Internet. Para entender os terminais que devem ser alcançados pelos clientes que usam o Teams em planos do Office 365, Governo e outras nuvens, leia [URLs do Office 365 e intervalos de endereços IP](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges).
 
 > [!IMPORTANT]
-> O Teams atualmente exige o acesso (porta TCP 443) para o serviço Google ssl.gstatic.com (<https://ssl.gstatic.com)> para todos os usuários; tal exigência é obrigatória mesmo que você não esteja usando o Gstatic. O Teams removerá esse requisito em breve (início de 2020), e atualizaremos este artigo de forma adequada neste momento.
+> O Teams atualmente exige o acesso (porta TCP 443) para o serviço ssl.gstatic.com do Google para todos os usuários; tal exigência é obrigatória mesmo que você não esteja usando o Gstatic. O Teams removerá esse requisito em breve (início de 2020), e atualizaremos este artigo de forma adequada neste momento.
 
 ## <a name="related-topics"></a>Tópicos relacionados
 

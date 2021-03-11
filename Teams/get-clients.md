@@ -21,7 +21,7 @@ appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 2cb28295b0a9700a0eb7531111022a9498517d93
 ms.sourcegitcommit: 4386f4b89331112e0d54943dc3133791d5dca3fb
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 12/09/2020
 ms.locfileid: "49611585"
@@ -31,7 +31,7 @@ ms.locfileid: "49611585"
 O Microsoft Teams tem clientes disponíveis para desktop (Windows, Mac e Linux), web e dispositivos móveis (Android e iOS). Todos esses clientes precisam de uma conexão à internet ativa e não são suportados em modo offline. 
 
 > [!Note]
-> Para obter detalhes sobre os recursos de cada cliente em plataformas diferentes, consulte os recursos [do Teams por plataforma.](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)
+> Para obter detalhes sobre os recursos de cada cliente em diferentes plataformas, confira [Recursos do Teams por plataforma](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3).
 
 > [!NOTE]
 > A partir de 29 de novembro de 2018, você não poderá mais usar o aplicativo Microsoft Teams para Windows 10 S (Visualização), disponível na Microsoft Store. Em vez disso, agora você pode baixar e instalar o cliente de área de trabalho do Teams em dispositivos executando o modo Windows 10 S. Para baixar o cliente de área de trabalho, vá para [https://teams.microsoft.com/downloads](https://go.microsoft.com/fwlink/?linkid=855754). As compilações MSI do cliente de área de trabalho do Teams ainda não estão disponíveis para dispositivos executando o modo Windows 10 S.
@@ -43,14 +43,14 @@ O Microsoft Teams tem clientes disponíveis para desktop (Windows, Mac e Linux),
 > [!TIP]
 > Assista à sessão a seguir para conhecer os benefícios do Windows Desktop Client e como planejar e executar sua implantação: [Cliente de Desktop do Microsoft Teams](https://aka.ms/teams-clients)
 
-O cliente de área de trabalho do Microsoft Teams é um aplicativo autônomo e também está disponível nos Aplicativos do [Microsoft 365 para empresas.](https://docs.microsoft.com/deployoffice/teams-install) O Teams está disponível para versões de 32 bits e 64 bits do Windows (8.1 ou posterior), ARM64 para Windows 10 no ARM e Windows Server (2012 R2 ou posterior), bem como para macOS e Linux (em `.deb` e `.rpm` formatos). No Windows, o Teams exige o .NET Framework 4.5 ou posterior; o instalador do Teams oferecerá instalá-lo para você se você não o tiver. No Linux, os gerenciadores de pacote, como `apt` e `yum`, tentarão instalar quaisquer requisitos para você. No entanto, se eles não instalarem, você precisará instalar todos os requisitos relatados antes de instalar o Teams no Linux.
+O cliente de área de trabalho do Microsoft Teams é um aplicativo autônomo e também está [disponível no Microsoft 365 Apps para Grandes Empresas](https://docs.microsoft.com/deployoffice/teams-install). O Teams está disponível para versões de 32 e 64 bits do Windows (8.1 ou posterior), ARM64 para Windows 10 no ARM e Windows Server (2012 R2 ou posterior), bem como para macOS e Linux (em formatos `.deb` e `.rpm`). No Windows, o Teams exige o .NET Framework 4.5 ou posterior; o instalador do Teams oferecerá instalá-lo para você se você não o tiver. No Linux, os gerenciadores de pacote, como `apt` e `yum`, tentarão instalar quaisquer requisitos para você. No entanto, se eles não instalarem, você precisará instalar todos os requisitos relatados antes de instalar o Teams no Linux.
 
 Os clientes de área de trabalho fornecem suporte de comunicação em tempo real (áudio, vídeo e compartilhamento de conteúdo) para reuniões de equipe, chamadas em grupo e chamadas individuais privadas.
 
 Os clientes de desktop podem ser baixados e instalados diretamente pelos usuários finais[https://teams.microsoft.com/downloads](https://go.microsoft.com/fwlink/?linkid=855754) se tiverem as permissões locais apropriadas (direitos de administrador não são necessários para instalar o cliente Teams em um PC, mas são necessários em um Mac).
 
 > [!NOTE]
-> Para obter mais detalhes sobre como instalar o Teams em um Chromebook, consulte Como instalar e executar o [Microsoft Office em um Chromebook.](https://support.office.com/article/how-to-install-and-run-microsoft-office-on-a-chromebook-32f14a23-2c1a-4579-b973-d4b1d78561ad)
+> Para obter mais detalhes sobre a instalação do Teams em um Chromebook, confira [Como instalar e executar o Microsoft Office em um Chromebook](https://support.office.com/article/how-to-install-and-run-microsoft-office-on-a-chromebook-32f14a23-2c1a-4579-b973-d4b1d78561ad).
 
 Os administradores de TI podem escolher seu método preferido para distribuir os arquivos de instalação aos computadores de sua organização. Entre os exemplos estão o Microsoft Endpoint Configuration Manager (Windows) ou Jamf Pro (macOS). Para obter o pacote MSI para distribuições do Windows, consulte [Instalar o Microsoft Teams usando MSI](msi-deployment.md).  
 
@@ -79,9 +79,9 @@ Quando os usuários iniciam uma chamada usando o cliente Microsoft Teams pela pr
 ![Captura de tela de um diálogo do Alerta de Segurança do Windows.](media/Get_clients_for_Microsoft_Teams_image3.png)
 
 > [!NOTE]
-> A configuração do Firewall do Windows será alterada mesmo quando o aviso for descartado ao selecionar “Cancelar”. Duas regras de entrada para teams.exe serão criadas com a ação Permitir para protocolos TCP e UDP.
+> A configuração do Firewall do Windows será alterada mesmo quando o aviso for descartado ao selecionar “Cancelar”. Duas regras de entrada para o teams.exe serão criadas com a ação Permitir para os protocolos TCP e UDP.
 
-Se você quiser impedir o Teams de solicitar que os usuários criem regras de firewall quando os usuários fizerem sua primeira chamada do Teams, use o script de exemplo [do PowerShell –](#sample-powershell-script---inbound-firewall-rule) regra de firewall de entrada abaixo. 
+Se você deseja impedir que o Teams solicite que os usuários criem regras de firewall quando eles fizerem sua primeira chamada do Teams, use o [Script do PowerShell de exemplo - regra de firewall de entrada](#sample-powershell-script---inbound-firewall-rule) a seguir. 
 
 ### <a name="mac"></a>Mac
 
@@ -111,14 +111,14 @@ Os administradores de TI podem usar a implantação gerenciada do Teams para dis
 ### <a name="linux"></a>Linux
 
 Os usuários poderão instalar pacotes nativos do Linux nos formatos `.deb` e `.rpm`.
-Instalar o pacote DEB ou RPM instalará automaticamente o repositório de pacotes.
+A instalação do pacote DEB ou RPM instalará automaticamente o repositório de pacotes.
 - DEB `https://packages.microsoft.com/repos/ms-teams stable main`
 - RPM `https://packages.microsoft.com/yumrepos/ms-teams` 
 
 A chave de assinatura para habilitar a atualização automática usando o gerenciador de pacotes do sistema é instalado automaticamente. No entanto, ele também pode ser encontrado em: (https://packages.microsoft.com/keys/microsoft.asc). o Microsoft Teams é lançado mensalmente, e se o repositório for instalado corretamente, o gerenciador de pacotes do sistema deverá lidar com a atualização automática da mesma forma que outros pacotes no sistema.
 
 > [!NOTE] 
-> Se você encontrar um bug, envie-o usando o `Report a Problem` no cliente. Para problemas conhecidos, consulte [Equipes de Suporte em sua organização.](Known-issues.md)
+> Se você encontrar um bug, envie-o usando o `Report a Problem` no cliente. Para problemas conhecidos, confira [Suporte do Teams na sua organização](Known-issues.md).
 > Para o suporte do Teams para Linux, você pode usar o [canal de suporte do fórum do Linux nas perguntas e respostas Microsoft](https://docs.microsoft.com/answers/topics/teams.html). Lembre-se de usar a marca `teams-linux` ao postar as perguntas. 
 
 #### <a name="install-teams-using-deb-package"></a>Instalar o Teams usando o pacote DEB
@@ -226,7 +226,7 @@ No momento, não estão disponibilizadas opções para administradores de TI def
 
 ![Captura de tela das configurações de notificação.](media/Get_clients_for_Microsoft_Teams_image6.png)
 
-## <a name="sample-powershell-script---inbound-firewall-rule"></a>Exemplo de script do PowerShell - regra de firewall de entrada
+## <a name="sample-powershell-script---inbound-firewall-rule"></a>Script do PowerShell de exemplo - regra de firewall de entrada
 
 Este script de exemplo, que precisa ser executado em computadores clientes no contexto de uma conta de administrador elevada, criará uma nova regra de firewall de entrada para cada pasta de usuário encontrada em c:\usuários. Quando o Teams encontrar essa regra, impedirá que o aplicativo do Teams solicite que os usuários criem regras de firewall quando os usuários fizerem a primeira chamada no Teams. 
 

@@ -10,7 +10,7 @@ ms.service: msteams
 audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+localization_priority: Priority
 search.appverid: MET150
 f1.keywords:
 - CSH
@@ -22,12 +22,12 @@ ms.collection:
 - M365-collaboration
 - m365initiative-meetings
 description: Aprenda a gerenciar as configurações das reuniões do Teams que os usuários agendam em sua organização.
-ms.openlocfilehash: d3301c8232fda2133e77f973ca0efbc13cfa571d
-ms.sourcegitcommit: c6b999226294aeea98dafa9ef5f0bd256fcb6a0c
-ms.translationtype: MT
+ms.openlocfilehash: a0c0e40be84a1b947b5924f97c0c64556a92e249
+ms.sourcegitcommit: c477aa1a7da0b6b9bea1f5d10f1395eef418bfdb
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/19/2021
-ms.locfileid: "49903562"
+ms.lasthandoff: 03/10/2021
+ms.locfileid: "50711758"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>Gerenciar configurações de reunião no Microsoft Teams
 
@@ -39,7 +39,7 @@ Com o ingresso anônimo, qualquer pessoa pode ingressar na reunião como um usu�
 
 ![Um ícone mostrando o logotipo do Microsoft Teams](media/teams-logo-30x30.png) **Usando o centro de administração do Microsoft Teams**
 
-Você deve ser um administrador do serviço do Teams para fazer essas alterações. Confira [as funções de administrador do Teams para gerenciar o Teams](https://docs.microsoft.com/microsoftteams/using-admin-roles) para ler sobre como obter funções e permissões de administrador.
+Você deve ser um administrador de serviço do Teams para fazer essas alterações. Veja [ Use funções de administrador Teams para gerenciar o Teams](https://docs.microsoft.com/microsoftteams/using-admin-roles) para ler sobre como obter funções e permissões de administrador.
 
 1. Vá para o centro de administração.
 
@@ -54,23 +54,23 @@ Você deve ser um administrador do serviço do Teams para fazer essas alteraçõ
 
 ## <a name="allow-anonymous-users-to-interact-with-apps-in-meetings"></a>Permitir que usuários anônimos interajam com aplicativos em reuniões
 
-Os usuários anônimos agora herdarão a política de permissão padrão global em nível de usuário. Esse controle permitirá que usuários anônimos interajam com aplicativos em reuniões do Teams, desde que a política de permissão no nível do usuário tenha habilitado o aplicativo. Observe que os usuários anônimos só podem interagir com aplicativos que já estão disponíveis em uma reunião e não podem adquirir e/ou gerenciar esses aplicativos. 
+Os usuários anônimos agora herdarão a política de permissão padrão global no nível do usuário. Esse controle permitirá que usuários anônimos interajam com aplicativos em reuniões do Teams, desde que a política de permissão em nível de usuário tenha habilitado o aplicativo. Observe que usuários anônimos só podem interagir com aplicativos que já estão disponíveis em uma reunião e não podem adquirir e/ou gerenciar esses aplicativos. 
 
 > [!IMPORTANT]
 > Por padrão, a configuração para permitir que usuários anônimos interajam com aplicativos em reuniões está habilitada.
 
-![Um ícone mostrando o logotipo do Microsoft Teams](media/teams-logo-30x30.png) **Usando o centro de administração do Microsoft Teams**
+![Um ícone que mostra o logotipo do Microsoft Teams](media/teams-logo-30x30.png) **Usando o centro de administração do Microsoft Teams**
 
-Você deve ser um administrador de serviço do Teams para acessar essa configuração. Confira [as funções de administrador do Teams para gerenciar o Teams](https://docs.microsoft.com/microsoftteams/using-admin-roles) para ler sobre como obter funções e permissões de administrador.
+Você deve ser um administrador de serviço do Teams para acessar esta configuração. Veja [ Use funções de administrador Teams para gerenciar o Teams](https://docs.microsoft.com/microsoftteams/using-admin-roles) para ler sobre como obter funções e permissões de administrador.
 
 1. Vá para o centro de administração.
 
-2. Na barra de navegação à esquerda, vá para **Reuniões** > **Configurações de reunião**.
+2. Na navegação à esquerda, vá para **Encontros** > **Configurações de reunião**.
 
-3. Em **Participantes,** a configuração para **usuários anônimos pode interagir com aplicativos em reuniões** pode ser alterada.
+3. Sob **Participantes**, a configuração para **Usuários anônimos podem interagir com aplicativos em reuniões** pode ser mudado.
 
 > [!CAUTION]
-> Se você não quiser que usuários anônimos interajam com aplicativos em reuniões agendadas por usuários em sua organização, desligue essa configuração.
+> Se você não deseja que usuários anônimos interajam com aplicativos em reuniões agendadas por usuários em sua organização, desative esta configuração.
 
 ## <a name="customize-meeting-invitations"></a>Personalizar convites para reuniões
 
@@ -106,12 +106,12 @@ Você pode personalizar os convites para reuniões do Teams para atender às nec
 
 <a name="bknetwork"> </a>
 
-Se estiver usando QoS (Qualidade de Serviço) para priorizar o tráfego de rede, você pode habilitar marcadores QoS e definir intervalos de porta para cada tipo de tráfego de mídia. Definir intervalos de portas para diferentes tipos de tráfego é apenas uma etapa no tratamento de mídia em tempo real; consulte [Qualidade de serviço (QoS) no Teams](qos-in-teams.md) para obter muito mais detalhes.
+Se estiver usando Qualidade de serviço (QoS) para priorizar o tráfego de rede, você pode habilitar marcadores de QoS e definir intervalos de porta para cada tipo de tráfego de mídia. Definir intervalos de portas para diferentes tipos de tráfego é apenas uma etapa no tratamento de mídia em tempo real; consulte [Qualidade de serviço (QoS) no Teams](qos-in-teams.md) para obter muito mais detalhes.
 
 > [!IMPORTANT]
-> Se você habilitar a QoS ou alterar as configurações no Centro de administração do Microsoft Teams para o serviço do Teams, também precisará aplicar configurações correspondentes a todos os dispositivos de usuário e a todos os [dispositivos](QoS-in-Teams-clients.md) de rede interna para implementar totalmente as alterações no QoS no Teams.
+> Se você habilitar o QoS ou alterar as configurações no centro de administração do Microsoft Teams para o serviço Teams, também precisará [ aplicar configurações correspondentes a todos os dispositivos do usuário](QoS-in-Teams-clients.md) e todos os dispositivos de rede internos para implementar totalmente as alterações de QoS no Teams.
 
- ![Um ícone mostrando o logotipo do Microsoft Teams](media/teams-logo-30x30.png) **Usando o centro de administração do Microsoft Teams**
+ ![Um ícone que mostra o logotipo do Microsoft Teams](media/teams-logo-30x30.png) **Usando o centro de administração do Microsoft Teams**
 1. Vá para o centro de administração.
 2. Na barra de navegação à esquerda, vá para **Reuniões** > **Configurações de reunião**.
 3. Em **Rede**, faça o seguinte:
@@ -120,10 +120,10 @@ Se estiver usando QoS (Qualidade de Serviço) para priorizar o tráfego de rede,
 
     - Para permitir que marcadores DSCP sejam usados para QoS, ative **Inserir marcadores Quality of Service (QoS) para tráfego de mídia em tempo real**. Você só tem a opção de usar ou não usar marcadores; você não pode definir marcadores personalizados para cada tipo de tráfego. Consulte [Selecionar um método de implementação de QoS](QoS-in-Teams.md#select-a-qos-implementation-method) para obter mais informações sobre marcadores DSCP.
         > [!NOTE]
-        > A marcação DSCP normalmente é feita por meio de Portas de Origem e o tráfego UDP roteia para a Retransmissão de Transporte com a porta de destino 3478 por padrão. Se sua empresa exigir marcação nas portas de destino, entre em contato com o suporte para habilitar a comunicação com a Retransmissão de Transporte com as portas UDP 3479 (Áudio), 3480 (Vídeo) e 3481 (Compartilhamento).
+        > A marcação DSCP é normalmente feita por meio de portas de origem e o tráfego UDP será roteado para o retransmissão de transporte com a porta de destino 3478 por padrão. Se sua empresa exigir marcação nas portas de destino, entre em contato com o suporte para habilitar a comunicação com o Transport Relay com as portas UDP 3479 (Áudio), 3480 (Vídeo) e 3481 (Compartilhamento).
     - Para especificar intervalos de portas, ao lado de **Selecione um intervalo de portas para cada tipo de tráfego de mídia em tempo real**, selecione **Especificar intervalos de portas** e insira as portas inicial e final para compartilhamento de áudio, vídeo e tela. A seleção desta opção é necessária para implementar a QoS. 
         > [!Note]
-        > Se **os marcadores QoS (Qualidade** do Serviço) para tráfego de mídia em tempo real estiver on, então você terá que gerenciar as configurações da porta. Eles não são gerenciados automaticamente.
+        > Se **Marcadores de qualidade de serviço (QoS) para tráfego de mídia em tempo real** está ligado, então você deve gerenciar suas configurações de porta.  Eles não são gerenciados automaticamente.
         
         > [!IMPORTANT]
         > Se você selecionar **Usar automaticamente qualquer porta disponível**, serão usadas portas disponíveis entre 1024 e 65535. Use esta opção apenas quando não estiver implementando a QoS.
@@ -132,7 +132,7 @@ Se estiver usando QoS (Qualidade de Serviço) para priorizar o tráfego de rede,
 
 Se você não tiver certeza de quais intervalos de portas usar em seu ambiente, as seguintes configurações são um bom ponto de partida. Para saber mais, leia [Implementar a Qualidade de Serviço (QoS) no Microsoft Teams](QoS-in-Teams.md). Esses são os marcadores DSCP necessários e os intervalos de portas de mídia correspondentes sugeridos usados pelo Teams e pelo ExpressRoute.
 
-### <a name="port-ranges-and-dscp-markings"></a>Intervalos de portas e marcadores DSCP
+### <a name="port-ranges-and-dscp-markings"></a>Intervalos de portas e marcações DSCP
 
 Tipo de tráfego de mídia| Intervalo de portas de origem do cliente \* |Protocolo|Valor DSCP|Classe DSCP|
 |:---             |:---                         |:---    |:---      |:---      |
@@ -141,6 +141,6 @@ Tipo de tráfego de mídia| Intervalo de portas de origem do cliente \* |Protoco
 |Compartilhamento de tela/aplicativo| 50.040-50.059      |TCP/UDP |18        |Assured Forwarding (AF21)|
 | | | | |
 
-\* Os intervalos de porta que você atribuir não podem se sobrepor e devem ser adjacentes uns aos outros.
+\* Os intervalos de porta que você atribui não podem se sobrepor e devem ser adjacentes uns aos outros.
 
 Depois que a QoS estiver em uso por um tempo, você terá informações de uso sobre a demanda para cada uma dessas três cargas de trabalho e poderá escolher as alterações a serem feitas com base em suas necessidades específicas. O [Painel de Qualidade de Chamadas](turning-on-and-using-call-quality-dashboard.md) ajudará com isso.

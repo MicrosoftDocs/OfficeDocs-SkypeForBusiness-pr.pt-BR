@@ -1,5 +1,5 @@
 ---
-title: Número de Telefone Não Atribuído Criar Novo ou Editar Existente
+title: Número de telefone não atribuído Criar Novo ou Editar Existente
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 58903e40-6b93-40d6-88f8-1201743cd9be
 description: Números não atribuídos são números de telefone válidos para sua organização, mas que não são atribuídos a um usuário ou telefone. A tabela de números não atribuídos identifica como você deseja lidar com chamadas para números não atribuídos.
-ms.openlocfilehash: 741068fc16c60e6cd253057a8b1487680dc32266
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 51c3f640bd9d98bcda9d5dd69406461e9c8393fd
+ms.sourcegitcommit: c477aa1a7da0b6b9bea1f5d10f1395eef418bfdb
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49818791"
+ms.lasthandoff: 03/10/2021
+ms.locfileid: "50711738"
 ---
 # <a name="unassigned-phone-number-create-new-or-edit-existing"></a>Número de Telefone Não Atribuído: Criar Novo ou Editar Existente
 
@@ -33,7 +33,7 @@ Números não atribuídos são números de telefone válidos para sua organizaç
 
 A lista a seguir descreve os campos na página.
 
-- **Nome** Digite um nome descritivo que identifique o intervalo de números não atribuídos. Depois de salvar o intervalo, esse nome não pode ser alterado.
+- **Nome** Digite um nome descritivo que identifica o intervalo de números não atribuídos. Depois de salvar o intervalo, esse nome não pode ser alterado.
 
 - **Intervalo de números** No primeiro campo, digite o número inicial do intervalo de números não atribuídos. No segundo campo, digite o número final do intervalo.
 
@@ -41,20 +41,20 @@ A lista a seguir descreve os campos na página.
 
   - Se o número inicial do intervalo ou o número final do intervalo incluir um número de extensão, os números inicial e final do intervalo precisarão incluir uma extensão e o número de extensão deverá ser o mesmo para os números inicial e final.
 
-  - O número deve corresponder à expressão regular (tel:)?( \+ )? [1-9]\d {0,17} (;ext=[1-9]\d {0,9} )?. Isso significa que o número pode começar com a cadeia de caracteres tel: (se você não especificar essa cadeia de caracteres, ele será adicionado automaticamente para você), um sinal de mais (+) e um dígito de 1 a 9. O número de telefone pode ter até 17 dígitos e pode ser seguido por uma extensão no formato ;ext= seguido pelo número de extensão.
+  - O número deve corresponder à expressão regular `(tel:)?(\+)?[1-9]\d{0,17}(;ext=[1-9]\d{0,9})?` . Isso significa que o número pode começar com a cadeia de caracteres (se você não especificar essa cadeia de caracteres será adicionada automaticamente para você), um sinal de a mais (+) e um dígito `tel:` de 1 a 9. O número de telefone pode ter até 17 dígitos e pode ser seguido por uma extensão no formato ;ext= seguido pelo número de extensão.
 
-- **Serviço de comunicados** Selecione **Comunicado para** que o aplicativo Comunicado manipular a chamada de entrada ou a UM do **Exchange** para que um Atendente Automático do UM do Exchange manipular a chamada de entrada.
+- **Serviço de comunicado** Selecione **Comunicado** para que o aplicativo Comunicado manipular a chamada de entrada ou a UM do Exchange para que um **um UM** do Exchange Atendedor Automático lidar com a chamada de entrada.
 
 - Se você tiver selecionado **Anúncio** para **Serviço de anúncio**:
 
-  - **FQDN do servidor de destino** Selecione a ID de serviço do serviço de Aplicativo que executa o aplicativo Comunicado que lidará com chamadas de entrada para esse intervalo de números não atribuídos.
+  - **FQDN do servidor de destino** Selecione a ID de serviço do serviço application que executa o aplicativo Comunicado que tratará de chamadas de entrada para esse intervalo de números não atribuídos.
 
   - **Comunicado** Selecione o comunicado a ser tocado para esse intervalo de números não atribuídos.
 
 - Se você tiver selecionado **U do Exchange** para **Serviço de anúncio**:
 
-  - **Número de telefone do Atendente Automático** Selecione o número de telefone para o Atendente Automático de UM do Exchange.
+  - **Atendedor Automático telefone** Selecione o número de telefone do exchange um Atendedor Automático.
 
-Para obter detalhes sobre os recursos de Comunicado, consulte [Plan for the Announcement application in Skype for Business 2015](../../plan-your-deployment/enterprise-voice-solution/announcement.md) na documentação planejamento. Para obter detalhes sobre como trabalhar com intervalos de números não atribuídos, consulte [Configure Routing of Unassigned Phone Numbers](https://technet.microsoft.com/library/a0650659-dce7-455f-8977-02454bbfa400.aspx) na documentação Operações.
+Para obter detalhes sobre recursos e recursos do Comunicado, consulte [Plan for the Announcement application in Skype for Business 2015](../../plan-your-deployment/enterprise-voice-solution/announcement.md) na documentação planejamento. Para obter detalhes sobre como trabalhar com intervalos de números não atribuídos, consulte [Configure Routing of Unassigned Phone Numbers](https://technet.microsoft.com/library/a0650659-dce7-455f-8977-02454bbfa400.aspx) na documentação Operações.
 
 
