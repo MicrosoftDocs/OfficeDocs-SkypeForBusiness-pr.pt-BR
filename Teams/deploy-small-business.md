@@ -18,12 +18,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: bbadcd18050d098d9c602f7ba56da40ecafd89b4
-ms.sourcegitcommit: 6785d7f1ef5d2010ab334ec8cc46884327a53662
+ms.openlocfilehash: e93463b175c58e588cf982f17c8a83535c4b0c80
+ms.sourcegitcommit: 4d76837f9481ca2cda437afdf11de5eaf7a57d99
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/01/2021
-ms.locfileid: "50395399"
+ms.lasthandoff: 03/11/2021
+ms.locfileid: "50726212"
 ---
 # <a name="set-up-microsoft-teams-in-your-small-business"></a>Configurar o Microsoft Teams em sua pequena empresa
 
@@ -51,7 +51,7 @@ Chat, equipes e canais são a base do Teams. O **Chat** permite que um ou mais u
 > [!TIP]
 > Veja como você pode gerenciar as funções, acesso e políticas de mensagens da equipe completando o módulo [Gerenciar o Microsoft Teams](https://docs.microsoft.com/learn/modules/m365-teams-collab-manage-teams/) no Microsoft Learn.
 
-Ao pensar na distribuição de equipes e canais, você precisa decidir quem deve ser capaz de criá-los, se os convidados de fora da sua organização podem acessá-los e assim por diante. O artigo [Chat, equipes, canais e aplicativos no Microsoft Teams](deploy-chat-teams-channels-microsoft-teams-landing-page.md) tem muitas informações sobre como planejar chat, equipes e canais. No entanto, aqui estão algumas coisas importantes desse artigo que você deve pensar. Clique em uma decisão se quiser saber mais sobre ela.
+Ao pensar na distribuição de equipes e canais, você precisa decidir quem deve ser capaz de criá-los, se os convidados de fora da sua organização podem acessá-los e assim por diante. O artigo [Chat, equipes, canais e aplicativos no Microsoft Teams](deploy-chat-teams-channels-microsoft-teams-landing-page.md) tem muitas informações sobre como planejar chat, equipes e canais. No entanto, aqui estão algumas coisas importantes desse artigo que você deve pensar. Selecione uma decisão se quiser saber mais sobre ela.
 
 | Decisão | Descrição |
 |--|--|
@@ -62,7 +62,7 @@ Ao pensar na distribuição de equipes e canais, você precisa decidir quem deve
 Não é necessário fazer mais nada para que os usuários comecem a usar chat, equipes e canais. No entanto, há muitas opções para controlar como o Teams é usado. Você pode mudar agora ou esperar para ver como as pessoas estão usando o Teams. Para saber mais, confira os seguintes artigos:
 
 - [Gerenciar políticas de mensagens no Teams](messaging-policies-in-teams.md)
-- [Configurações do Teams](enable-features-office-365#teams-settings)
+- [Configurações do Teams](enable-features-office-365.md#teams-settings)
 
 ### <a name="meetings-and-conferencing"></a>Reuniões e conferências
 
