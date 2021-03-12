@@ -24,12 +24,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: Aprenda a gerenciar configurações de política de reunião no Teams. Use as configurações de política para controlar os recursos disponíveis aos participantes da reunião para reuniões agendadas pelos usuários.
-ms.openlocfilehash: 2b148cc619da43e4033a8c503470da3e765b7d5c
-ms.sourcegitcommit: d62e6cefceebe481eb207c59872f1aa67f0fc528
+ms.openlocfilehash: 77c99516e188ecc0f42fd663a121d439b5470000
+ms.sourcegitcommit: 4d76837f9481ca2cda437afdf11de5eaf7a57d99
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "50460611"
+ms.lasthandoff: 03/11/2021
+ms.locfileid: "50726423"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Gerenciar políticas de reunião no Teams
 
@@ -189,12 +189,11 @@ Essa é uma política por usuário e se aplica antes de começar uma reunião. E
 
 ### <a name="allow-transcription"></a>Permitir transcrição
 
-Permitir transcrição é uma política por usuário. Essa configuração controla se as reuniões desse usuário podem ser transcritas.
+Esta política a turns on Live transcription. Permitir transcrição é uma política por usuário. Essa configuração controla se a reunião dessa equipe específica pode ser transcrita.
 
-:::image type="content" source="media/live-transcription.png" alt-text="Captura de tela mostrando opções de transcrição":::
-Atualmente, a transcrição para reuniões gravadas só é suportada para usuários que têm o idioma no Teams definido como inglês e quando o inglês é falado na reunião.
+![opções de transcrição em políticas de reunião](media/live-transcription.png)
 
-A transcrição ao vivo mostra fala em texto do conteúdo falado durante uma reunião em tempo real. O texto aparece junto com o vídeo da reunião, incluindo o nome do orador e um carimbo de data/hora. Para saber mais, confira [Exibir transcrição ao vivo em uma reunião do Teams.](https://support.microsoft.com/office/view-live-transcription-in-a-teams-meeting-7a1401ec-73b4-431d-875a-8b6af82b3e15)
+A transcrição ao vivo mostra fala em texto do conteúdo falado durante uma reunião do Teams em tempo real. O texto aparece junto com o vídeo da reunião, incluindo o nome do orador e um carimbo de data/hora. Para saber mais, confira [Exibir transcrição ao vivo em uma reunião do Teams.](https://support.microsoft.com/office/view-live-transcription-in-a-teams-meeting-7a1401ec-73b4-431d-875a-8b6af82b3e15)
 
 Atualmente, há suporte para transcrição ao vivo no cliente de área de trabalho do Teams. A transcrição é suportada para inglês falado nos EUA. A transcrição está disponível após a reunião na área de trabalho ou web do Teams.
 
@@ -202,10 +201,10 @@ Veja como as configurações **de política Permitir transcrição e** **Permiti
 
 |Permitir transcrição|Permitir gravação na nuvem|Comportamento|
 |---------|---------|---------|
-|**Habilitado**|**Habilitado**|A **opção Iniciar transcrição** está disponível em reuniões. O organizador da reunião ou os participantes da reunião podem iniciar e interromper a transcrição. A **opção Iniciar gravação** está disponível em reuniões. O organizador da reunião ou os participantes da reunião podem iniciar e parar a gravação. |
-|**Habilitado**|**Desabilitado**|A **opção Iniciar transcrição** está disponível em reuniões. A **opção Iniciar gravação** não está disponível em reuniões. |
-|**Desabilitado**|**Habilitado**|A **opção Iniciar gravação** está disponível em reuniões. A **opção Iniciar transcrição** não está disponível em reuniões.|
-|**Desabilitado**|**Desabilitado**|Gravação e transcrição não estão disponíveis em reuniões.  |
+|**Habilitado**|**Habilitado**|A **opção Iniciar transcrição** está disponível em reuniões do Teams. O organizador da reunião ou os participantes da reunião podem iniciar e interromper a transcrição. A **opção Iniciar gravação** está disponível em reuniões do Teams. O organizador da reunião ou os participantes da reunião podem iniciar e parar a gravação. |
+|**Habilitado**|**Desabilitado**|A **opção Iniciar transcrição** está disponível em reuniões do Teams. A **opção Iniciar gravação** não está disponível nas reuniões do Teams. |
+|**Desabilitado**|**Habilitado**|A **opção Iniciar gravação** está disponível em reuniões do Teams. A **opção Iniciar transcrição** não está disponível nas reuniões do Teams.|
+|**Desabilitado**|**Desabilitado**|A gravação e a transcrição não estão disponíveis nas reuniões do Teams.  |
 
 ### <a name="allow-cloud-recording"></a>Permitir gravação na nuvem
 

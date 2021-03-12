@@ -13,12 +13,12 @@ ms.collection:
 description: Saiba mais sobre as alterações mais recentes no Teams PowerShell.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 24fa58e50ad42d3204fd4dc1269c8f59a3349d5e
-ms.sourcegitcommit: 1613e08da482ff142c990c9c9951abeb873ad964
+ms.openlocfilehash: 3e464071252ebbd713495ba070ba3f9ae8a23c3b
+ms.sourcegitcommit: 74f12ed15e1aa1106fa47b95597bde451b0b37f4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "50569393"
+ms.lasthandoff: 03/12/2021
+ms.locfileid: "50741892"
 ---
 # <a name="microsoft-teams-powershell-release-notes"></a>Notas de versão do Microsoft Teams PowerShell
 
@@ -31,7 +31,7 @@ Esta página fornece o log de alterações mais recente do Teams PowerShell para
 
 | Data | Versão | Atualizações |
 |------- | -------------------- | ------------------------------ |
-| Março de 2021 | [2.0.0](https://www.powershellgallery.com/packages/MicrosoftTeams/2.0.0) | <li>Usa o MSAL para autenticação & autorização</li><li>Cmdlets do Pacote de Política Refactored e adiciona atribuição de pacote de grupo</li><li>Aprimoramentos de mezzo e lote para Get-Team cmdlet</li> <li>Opção de registro em log e depuração aprimorado para cmdlets existentes </li> <li>Cmdlets de gerenciamento de modelos adicionados</li> <li>Deprecation of New-CsOnlineSession</li>|
+| Março de 2021 | [2.0.0](https://www.powershellgallery.com/packages/MicrosoftTeams/2.0.0) | <li>Usa o MSAL para autenticação & autorização</li><li>Cmdlets do Pacote de Política Refactored e adiciona atribuição de pacote de grupo</li><li>Aprimoramentos significativos de desempenho para Get-Team cmdlet</li> <li>Opção de registro em log e depuração aprimorado para cmdlets existentes </li> <li>Cmdlets de gerenciamento de modelos adicionados</li> <li>Deprecation of New-CsOnlineSession</li>|
 | Fevereiro de 2021 | [1.1.11-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.11-preview) | <li>Cmdlets de gerenciamento de modelos adicionados</li><li>Aprimoramentos de mezzo e lote para Get-Team cmdlet</li> <li>Opção de registro em log e depuração aprimorado para cmdlets existentes </li> <li>Cmdlets do Pacote de Política Refactored</li>|
 | Dezembro de 2020 | [1.1.10-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.10-preview) | <li>Atualizações para cmdlet new-team com recuperações e duração de sono aumentadas</li>|
 | Dezembro de 2020 | [1.1.9-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.9-preview) | <li>Atualizações para Integração do Skype for Business Online</li><li>Correção para o prompt duplicado com Connect-Microsoft Teams</li>|

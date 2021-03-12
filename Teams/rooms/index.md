@@ -16,20 +16,20 @@ ms.collection:
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 description: Saiba como configurar salas do Microsoft Teams, incluindo planejamento, implantação e gerenciamento do sistema para criar sua sala de reunião virtual ideal.
 ms.custom: seo-marvel-may2020
-ms.openlocfilehash: b342c8081706355828e9854a46dd904d01f803e2
-ms.sourcegitcommit: bfada4fd06c5cff12b0eefd3384bb3c10d10787f
+ms.openlocfilehash: 15d02a500cd1a10ed1cef8480e1a6c4f363afa2e
+ms.sourcegitcommit: 4d76837f9481ca2cda437afdf11de5eaf7a57d99
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/12/2021
-ms.locfileid: "50196535"
+ms.lasthandoff: 03/11/2021
+ms.locfileid: "50726352"
 ---
 # <a name="microsoft-teams-rooms"></a>Salas do Microsoft Teams
 
 :::row:::
     :::column span="2":::
-       Transforme espaços de reunião que variam de pequenas áreas de trabalho a grandes salas de conferência com uma experiência rica e colaborativa do Teams que é simples de usar, implantar e gerenciar. <br> 
-       Inicie reuniões a tempo com uma junção de um toque, projeia instantaneamente para a exibição na sala e compartilhe com participantes remotos.<br> 
-       Selecione os periféricos de sistema e vídeo de áudio certos de um de nossos parceiros: Yealink, Logitech, Yegitech, Yecom, Polycom, Lenovo e HP.
+       Transforme espaços de reunião que vão de pequenas áreas de grupo a grandes salas de conferência com uma experiência rica e colaborativa do Teams que é simples de usar, implantar e gerenciar. <br> 
+       Inicie reuniões no horário com a participação de um toque e proje-o instantaneamente para a exibição na sala e compartilhe com os participantes remotos.<br> 
+       Selecione os periféricos de sistema e vídeo de áudio certos de um de nossos parceiros: Yealink, Logitech, Crestron, Polycom, Lenovo e HP.
     :::column-end:::
     :::column:::
        ![Uma tabela de conferência com equipamento de Salas do Microsoft Teams](../media/srs-room.jpg)
@@ -38,14 +38,14 @@ ms.locfileid: "50196535"
 
 |               |               |               |
 | ------------- | ------------- | ------------- |
-|<img src="https://docs.microsoft.com/office/media/icons/list-123-teams.svg" width="40 px" height="40 px"> <br> **[Plano](https://docs.microsoft.com/MicrosoftTeams/rooms/rooms-plan)** |<img src="https://docs.microsoft.com/office/media/icons/deploy-teams.svg" width="40 px" height="40 px"> <br> **[Implantar](https://docs.microsoft.com/MicrosoftTeams/rooms/rooms-deploy)** |<img src="https://docs.microsoft.com/office/media/icons/toolbox.svg" width="40 px" height="40 px"> <br> **[Gerenciar](https://docs.microsoft.com/MicrosoftTeams/rooms/rooms-manage)** |
+|<img src="https://docs.microsoft.com/office/media/icons/list-123-teams.svg" width="40 px" height="40 px" alt="plan icon"> <br> **[Plano](https://docs.microsoft.com/MicrosoftTeams/rooms/rooms-plan)** |<img src="https://docs.microsoft.com/office/media/icons/deploy-teams.svg" width="40 px" height="40 px" alt="deploy icon"> <br> **[Implantar](https://docs.microsoft.com/MicrosoftTeams/rooms/rooms-deploy)** |<img src="https://docs.microsoft.com/office/media/icons/toolbox.svg" width="40 px" height="40 px" alt="manage icon"> <br> **[Gerenciar](https://docs.microsoft.com/MicrosoftTeams/rooms/rooms-manage)** |
 
 <br>
 
 > [!NOTE]
-> O Microsoft Teams Rooms destina-se ao uso com o Microsoft Teams, o Skype for Business Online, o Skype for Business Server 2019 ou o Skype for Business Server 2015.  <br><br>Plataformas anteriores, como o Lync Server 2013, não devem funcionar com salas do Microsoft Teams.
+> As Salas do Microsoft Teams destinam-se a ser usadas com o Microsoft Teams, o Skype for Business Online, o Skype for Business Server 2019 ou o Skype for Business Server 2015.  <br><br>Plataformas anteriores, como o Lync Server 2013, não devem funcionar com salas do Microsoft Teams.
 
-Esses artigos se destinam às pessoas que têm a tarefa de planejar, implantar e gerenciar esses dispositivos, e não para os usuários do sistema. Os usuários terão mais interesse na ajuda [online](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)das Salas do Microsoft Teams.
+Esses artigos destinam-se a pessoas com a tarefa de planejar, implantar e gerenciar esses dispositivos, e não para os usuários do sistema. Os usuários estarão mais interessados na ajuda online do Microsoft Teams [Rooms.](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
 
 > [!NOTE]
-> [O Skype Room System](../rooms/lrs-migration.md) (antigo Sistema de Salas do Lync) e as Salas do Microsoft Teams são produtos diferentes com dependências e procedimentos de implantação diferentes.
+> [O Sistema de Salas](../rooms/lrs-migration.md) do Skype (anteriormente Lync Room System) e as Salas do Microsoft Teams são produtos diferentes com diferentes dependências e procedimentos de implantação.
