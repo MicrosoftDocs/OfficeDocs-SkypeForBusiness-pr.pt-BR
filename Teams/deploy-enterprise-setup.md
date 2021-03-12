@@ -16,12 +16,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1fea59dd39023e9ac9a3234491742bc5a998926a
-ms.sourcegitcommit: 6785d7f1ef5d2010ab334ec8cc46884327a53662
+ms.openlocfilehash: d8144b830bec7f51bd97c59211d629aae7ffb3c9
+ms.sourcegitcommit: 4d76837f9481ca2cda437afdf11de5eaf7a57d99
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/01/2021
-ms.locfileid: "50395402"
+ms.lasthandoff: 03/11/2021
+ms.locfileid: "50726382"
 ---
 # <a name="set-up-microsoft-teams-in-your-enterprise"></a>Configure o Microsoft Teams na sua empresa
 
@@ -55,7 +55,7 @@ Há várias maneiras de personalizar o Teams. As seções a seguir mostram como 
 
 #### <a name="chat-teams-and-channels"></a>[Chat, equipes e canais](#tab/ChatTeamsChannels)
 
-Chat, equipes e canais são a base do Teams. O **Chat** permite que um ou mais usuários conversem uns com os outros, compartilhem arquivos e se reúnam em privado. O **Teams**, que pode ser visível para todos na sua organização ou apenas para os membros da equipe, deixe as pessoas certas colaborarem em qualquer tarefa ou ocasião, seja um projeto a longo prazo ou planejar uma festa de aniversário. Os **canais** dentro das equipes podem segmentar tópicos, projetos, departamentos ou qualquer outra coisa que faça sentido para a sua equipe. Para obter mais detalhes sobre chat, equipes e canais, consulte [Visão geral das equipes e dos canais](teams-channels-overview.md).
+Chat, equipes e canais são a base do Teams. O **Chat** permite que um ou mais usuários conversem uns com os outros, compartilhem arquivos e se reúnam em privado. O **Teams**, que pode ser visível para todos na sua organização ou apenas para os membros da equipe, deixa as pessoas certas colaborarem em qualquer tarefa ou ocasião, seja um projeto a longo prazo ou planejar uma festa de aniversário. Os **Canais** dentro das equipes podem segmentar tópicos, projetos, departamentos ou qualquer outra coisa que faça sentido para a sua equipe. Para obter mais detalhes sobre chat, equipes e canais, consulte [Visão geral de equipes e canais](teams-channels-overview.md).
 
 > [!TIP]
 > Veja como você pode gerenciar as funções, acesso e políticas de mensagens da equipe completando o módulo [Gerenciar o Microsoft Teams](https://docs.microsoft.com/learn/modules/m365-teams-collab-manage-teams/) no Microsoft Learn.
@@ -64,28 +64,28 @@ Chat, equipes e canais são a base do Teams. O **Chat** permite que um ou mais u
 
 | Decisão | Descrição |
 |--|--|
-| Quem devem ser os administradores do Teams? | As funções de administrador podem ser usadas para conceder permissões específicas às pessoas que você quer administrar no Teams. Talvez as pequenas empresas não precisem dessas funções extras porque a mesma pessoa pode ser responsável por todos os aspectos do Teams. Você pode adicionar ou remover membros sempre que quiser.<p>[Usar as funções de administrador do Microsoft Teams para gerenciar o Teams](using-admin-roles.md) |
-| Quem devem ser proprietários e membros do Teams? | Os proprietários do Teams controlam quem pode acessar uma equipe e seus canais. Eles podem decidir se uma equipe ou canal é público (para a organização) ou privado e podem estabelecer políticas como, por exemplo, se um canal deve ser moderado. Os membros podem acessar a equipe e seus canais (a menos que um canal seja privado e eles não sejam membros desse canal) e podem ser designados como moderadores.<p>[Atribuir proprietários e membros da equipe no Microsoft Teams](assign-roles-permissions.md) |
+| Quem devem ser os administradores do Teams? | As funções de administrador podem ser usadas para conceder permissões específicas às pessoas que você quer administrar no Teams. Talvez as pequenas empresas não precisem dessas funções extras porque a mesma pessoa pode ser responsável por todos os aspectos do Teams. Você poderá adicionar ou remover administradores posteriormente.<p>[Usar as funções de administrador do Microsoft Teams para gerenciar o Teams](using-admin-roles.md) |
+| Quem devem ser proprietários e membros do Teams? | Os proprietários do Teams controlam quem pode acessar uma equipe e seus canais. Eles podem decidir se uma equipe ou canal é público (para a organização) ou privado e podem estabelecer políticas, por exemplo, se um canal deve ser moderado. Os membros podem acessar a equipe e seus canais (a menos que um canal seja privado e eles não sejam membros desse canal) e podem ser designados como moderadores.<p>[Atribuir proprietários e membros da equipe no Microsoft Teams](assign-roles-permissions.md) |
 
 ### <a name="default-settings-and-lifecycle-policies"></a>Configurações padrão e políticas de ciclo de vida
 
 | Decisão | Descrição |
 |--|--|
 | Quais políticas de envio de mensagens devem ser aplicadas? | As políticas de mensagens controlam quais recursos de chat e de mensagens de canal (como quem pode usar o chat, quem pode editar e excluir mensagens enviadas, etc.) estão disponíveis para os usuários no Teams. O Teams possui uma política global que se aplica a todos. Todos os recursos da política global estão **Ativados** por padrão.<p>Se você quiser que a mesma política se aplique a todos, você só precisa fazer alterações nessa política global (por exemplo, desligar o suporte a memes nas conversas).<p>Se você quiser diferentes políticas para diferentes grupos de pessoas (por exemplo, uma política para funcionários de escritório e outra para operários de fábrica), você pode criar e atribuir políticas. Quando você atribui uma política a um usuário, a política global não se aplica mais a ele.<p>[Gerenciar políticas de mensagens no Teams](messaging-policies-in-teams.md) |
-| Quais configurações do Teams devem ser aplicadas? | As configurações do Teams permitem que você configure suas equipes para usar recursos, como a integração de email, opções de armazenamento em nuvem, guia da organização, configuração de dispositivos de salas de reunião e escopo de pesquisa. Ao realizar alterações nessas configurações, elas serão aplicadas a todas as equipes da organização. <p>[Configurações do Teams](enable-features-office-365#teams-settings)  |
+| Quais configurações do Teams devem ser aplicadas? | As configurações do Teams permitem que você configure suas equipes para usar recursos, como a integração de email, opções de armazenamento em nuvem, guia da organização, configuração de dispositivos de salas de reunião e escopo de pesquisa. Ao realizar alterações nessas configurações, elas serão aplicadas a todas as equipes da organização. <p>[Configurações do Teams](enable-features-office-365.md#teams-settings)  |
 
 ### <a name="external-and-guest-access"></a>Acesso externo e de convidados
 
 | Decisão | Descrição |
 |--|--|
 | O acesso externo deve estar habilitado? | O acesso externo permite que qualquer pessoa em outra organização fale com pessoas na sua organização. Isto é útil quando você tem um relacionamento próximo com outra organização, como um fornecedor, e quer facilitar a conversa entre as pessoas de ambas as organizações, realizar reuniões, e assim por diante. <p>O acesso externo é diferente do acesso de convidado. O acesso externo permite que todas as pessoas de outra organização tenham acesso para interagirem com as pessoas na sua organização. O acesso de convidados permite o acesso de indivíduos específicos para interagirem com as pessoas da sua organização.<p>O acesso externo está **Desativado** por padrão.<p>[Gerenciar o acesso externo no Microsoft Teams](manage-external-access.md)  |
-| O acesso de convidados deve estar habilitado? |O acesso de convidados permite que as pessoas da sua organização convidem pessoas de fora da sua organização para acessarem suas equipes e canais. O acesso de convidado é usado com frequência para colaborar com pessoas de fora da sua organização que não possuem uma relação formal com a sua. Por exemplo, você pode convidar um projetista para trabalhar temporariamente em um projeto.<p>O acesso de convidado é diferente do acesso externo. O acesso de convidados permite o acesso de indivíduos específicos para interagirem com as pessoas da sua organização. O acesso externo permite que todas as pessoas de outra organização tenham acesso para interagirem com as pessoas na sua organização. <p>O acesso de convidado está **Desativado** por padrão. <p>[Ativar ou desativar o acesso de convidados ao Microsoft Teams](set-up-guests.md)  |
+| O acesso de convidados deve estar habilitado? |O acesso de convidados permite que as pessoas da sua organização convidem pessoas de fora da sua organização para acessarem suas equipes e canais. O acesso de convidado é usado com frequência para colaborar com pessoas de fora da sua organização que não têm uma relação formal com a sua empresa. Por exemplo, você pode convidar um planejador de projeto para trabalhar temporariamente em um projeto.<p>O acesso de convidado é diferente do acesso externo. O acesso de convidados permite o acesso de indivíduos específicos para interagirem com as pessoas da sua organização. O acesso externo permite que todas as pessoas de outra organização tenham acesso para interagirem com as pessoas na sua organização. <p>O acesso de convidado está **Desativado** por padrão. <p>[Ativar ou desativar o acesso de convidados ao Microsoft Teams](set-up-guests.md)  |
 
 #### <a name="meetings-and-audio-conferencing"></a>[Reuniões e audioconferência](#tab/MeetingsAudioConferencing)
 
-As reuniões e conferências permitem que as pessoas da sua organização se encontrem umas com as outras e com as de fora da sua organização. Qualquer pessoa com um cliente do Teams ou do Skype for Business pode participar de **reuniões** para as quais tenha sido convidada. Ao usar o microfone, câmera e tela do seu dispositivo, os participantes podem participar das conversas sem a necessidade de um telefone. Os participantes podem conversar, fazer chamadas de voz e compartilhar vídeos e aplicativos com outros participantes usando um computador ou dispositivo móvel.
+As reuniões e conferências permitem que as pessoas da sua organização se encontrem umas com as outras e com as de fora da sua organização. Qualquer pessoa com um cliente do Teams ou do Skype for Business pode participar de **reuniões** para as quais tenha sido convidada. Usar o microfone, a câmera e a tela de seu dispositivo permite que os participantes ingressem na conversa, sem a necessidade de um telefone. Os participantes podem conversar, fazer chamadas de voz e compartilhar vídeos e aplicativos com outros participantes usando um computador ou dispositivo móvel.
 
-A **audioconferência** permite que os participantes ingressem em reuniões por meio de um telefone comum ligando para um número de telefone em conferência e inserindo uma ID de reunião. A audioconferência é útil quando um participante não tiver uma boa conexão à Internet, a reunião for apenas de voz, ou alguma outra circunstância não permitir que ele participe através do cliente do Teams.
+A **Audioconferência** permite que os participantes ingressem em reuniões por meio de um telefone comum ligando para um número de telefone em conferência e inserindo uma ID de reunião. A audioconferência é útil quando um participante não tem uma boa conexão à Internet, a reunião for apenas de voz, ou alguma outra circunstância não permitir que ele participe através do cliente do Teams.
 
 > [!TIP]
 > Familiarize-se mais com reuniões e eventos ao completar o módulo [Gerenciar reuniões, conferências e eventos com o módulo do Microsoft Teams](https://docs.microsoft.com/learn/modules/m365-teams-collab-manage-meetings) no Microsoft Learn.
@@ -161,7 +161,7 @@ Certifique-se de que todos que usarão o Teams tenham uma licença do Teams. Par
 > [!TIP]
 > Obtenha recomendações de como planejar a implantação do cliente do Teams preenchendo o módulo [Implantar clientes do Microsoft Teams](https://docs.microsoft.com/learn/modules/m365-teams-collab-deploy-clients/) no Microsoft Learn.
 
-Se sua organização usa o Microsoft Endpoint Configuration Manager, Política de grupo ou um mecanismo de distribuição de terceiros para implantar um software nos computadores dos seus usuários, consulte [Instalar o Microsoft Teams usando o Microsoft Endpoint Configuration Manager](msi-deployment.md).
+Se sua organização usa o Microsoft Endpoint Configuration Manager, Política de Grupo ou um mecanismo de distribuição de terceiros para implantar um software nos computadores dos seus usuários, consulte [Instalar o Microsoft Teams usando o Microsoft Endpoint Configuration Manager](msi-deployment.md).
 
 Se você quiser informações detalhadas sobre como implantar os clientes do Teams, consulte [Obter clientes para o Microsoft Teams](get-clients.md).
 
