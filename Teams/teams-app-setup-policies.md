@@ -19,17 +19,14 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: a58cbf682760249ee3b269d1765a265cc58d3022
-ms.sourcegitcommit: 31a585cc0fe6350efacf3a7771d1e590d5e4233c
+ms.openlocfilehash: 94e33421043b0cad195489d78e2eb96c95bb222e
+ms.sourcegitcommit: da2a70a9b5e05d0fd7ecc150b451f5805667514c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "50615087"
+ms.lasthandoff: 03/12/2021
+ms.locfileid: "50756177"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>Gerenciar políticas de configuração de aplicativo no Microsoft Teams
-
-> [!NOTE]
-> Se você habilitar a configuração de aplicativo em toda a **organização,** Permitir interação com aplicativos personalizados, talvez ainda não veja políticas de configuração de aplicativos no centro de administração do Microsoft Teams. Ele está sendo lançado e estará disponível em breve em sua organização.
 
 Como administrador, você pode usar políticas de configuração de aplicativo para realizar as seguintes tarefas:
 
