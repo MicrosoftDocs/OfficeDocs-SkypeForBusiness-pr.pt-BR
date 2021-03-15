@@ -1,5 +1,5 @@
 ---
-title: Pacotes de política do Teams para serviços de saúde
+title: Pacotes de políticas do Teams para a área de saúde
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -20,65 +20,65 @@ search.appverid: MET150
 searchScope:
 - Microsoft Teams
 - Microsoft Cloud for Healthcare
-description: Saiba como usar e gerenciar pacotes de política do Teams para sua organização de saúde.
+description: Saiba como usar e gerenciar pacotes de política do Teams para sua organização da área de saúde.
 ms.openlocfilehash: af6f5923d5c97fc03c77585ba94292264aacc027
 ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49812851"
 ---
-# <a name="teams-policy-packages-for-healthcare"></a>Pacotes de política do Teams para serviços de saúde
+# <a name="teams-policy-packages-for-healthcare"></a>Pacotes de políticas do Teams para a área de saúde
 
 ## <a name="overview"></a>Visão Geral
 
-Um [pacote de política](manage-policy-packages.md) no Microsoft Teams é um conjunto de políticas e configurações de política predefinidas que você pode atribuir aos usuários que têm funções semelhantes em sua organização. Os pacotes de políticas simplificam, otimizam e ajudam a fornecer consistência ao gerenciar políticas. Você pode personalizar as configurações das políticas no pacote para atender às necessidades dos usuários. Quando você altera as configurações de políticas em um pacote de política, todos os usuários atribuídos a esse pacote têm as configurações atualizadas. Você pode gerenciar pacotes de política usando o Centro de administração do Microsoft Teams ou o PowerShell.
+Um [pacote de política](manage-policy-packages.md) no Microsoft Teams é um conjunto de políticas e configurações de política predefinidas que você pode atribuir a usuários com funções semelhantes em sua organização. Os pacotes de políticas simplificam, otimizam e ajudam a fornecer consistência ao gerenciar políticas. Você pode personalizar as configurações das políticas no pacote para atender às necessidades dos usuários. Quando você altera as configurações de políticas em um pacote de política, todos os usuários atribuídos a esse pacote têm as configurações atualizadas. Você pode gerenciar pacotes de política usando o Centro de Administração do Microsoft Teams ou o Windows PowerShell.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4Ht2o]
 
-Pacotes de política pré-definidos para as seguintes políticas, dependendo do pacote:
+Pacotes de política pré-definem políticas para o seguinte, dependendo do pacote:
 
 - Mensagens
 - Reuniões
 - Chamadas
-- Configuração de aplicativo
+- Configuração do aplicativo
 - Eventos ao vivo
 
-Atualmente, o Teams inclui os seguintes pacotes de política de saúde.
+No momento, o Microsoft Teams inclui os seguintes pacotes de políticas.
 
-|Nome do pacote no Centro de administração do Microsoft Teams|Melhor usado para|Descrição |
+|Nome do pacote listado no Centro de Administração do Microsoft Teams|Melhor usado para|Descrição |
 |---------|---------|---------|
-|Profissional de saúde clínico  |Trabalhadores clínicos em sua organização de saúde  |Cria um conjunto de políticas e configurações de política que dão a trabalhadores clínicos, como médicos registradas, médicos de carga, médicos e assistentes sociais, acesso total a chats, chamada, gerenciamento de turnos e reuniões. |
-|Profissional de informações de saúde  |Trabalhadores da informação em sua organização de saúde |Cria um conjunto de políticas e configurações de política que dão a trabalhadores da informação, como funcionários de EQUIPE, equipe de informações, funcionários financeiros e responsáveis pela conformidade, acesso total a chats, chamada e reuniões.|
-|Sala do paciente de saúde  |Dispositivos de sala de pacientes|Cria um conjunto de políticas e configurações de política que se aplicam às salas de pacientes em sua organização de saúde.|
+|Profissional clínico da área de saúde  |Colaboradores clínicos em sua organização da área de saúde  |Cria um conjunto de políticas e configurações de política que dão a funcionários da área de saúde, como enfermeiros registrados, enfermeiros chefe, médicos e assistentes sociais acesso total ao chat, chamadas, gerenciamento de turnos e reuniões. |
+|Profissional de informações da área de saúde  |Operadores de informações em sua organização da área de saúde |Cria um conjunto de políticas e configurações de política que dão aos operadores de informações na sua organização da área de saúde, como equipe de TI, de informática, equipe financeira e responsáveis pela conformidade acesso total ao chat, chamadas e reuniões.|
+|Quartos dos pacientes de saúde  |Dispositivos de quarto dos pacientes|Cria um conjunto de políticas e configurações de política que se aplicam aos quartos dos pacientes em sua organização de saúde.|
 
 ![Captura de tela dos pacotes de política de saúde](media/policy-packages-healthcare.png)
 
-Cada política individual recebe o nome do pacote de política para que você possa identificar facilmente as políticas vinculadas a um pacote de política. Por exemplo, quando você atribui o pacote de política de trabalhador clínico à saúde em sua organização, uma política chamada Healthcare_ClinicalWorker é criada para cada política no pacote.
+Cada política individual recebe o nome do pacote de políticas, para que você possa identificar facilmente políticas vinculadas a um pacote de políticas. Por exemplo, quando você atribui o pacote de políticas para trabalhadores clínicos da área de saúde a clínicos de sua organização, uma política chamada Healthcare_ClinicalWorker é criada para cada política do pacote.
 
-![Captura de tela das políticas no pacote de profissionais da saúde](media/policy-packages-healthcare-clinical-worker.png)
+![Captura de tela das políticas no pacote de funcionários clínicos da área de saúde](media/policy-packages-healthcare-clinical-worker.png)
 
 ## <a name="get-started-with-policy-packages"></a>Começar a trabalhar com pacotes de política
 
-Para começar a trabalhar com pacotes de política de saúde, no hub de integração do Centro de Administração da Microsoft, selecione Saúde **e,** em seguida, selecione Atribuir configurações de **política por função.** Quando estiver pronto para começar, decida a quais pacotes de política você gostaria de atribuir indivíduos em sua organização.
+Para começar a trabalhar com pacotes de política da área de saúde, no hub de integração do Centro de Administração da Microsoft, selecione **Healthcare** e, então, selecione **Atribuir configurações de política por função**. Quando estiver pronto para começar, decida a quais pacotes de política você gostaria de atribuir a indivíduos em sua organização.
 
-Selecione **Exibir detalhes da política** para saber mais sobre as políticas específicas em um pacote e suas respectivas configurações. Elas [podem ser personalizadas após](manage-policy-packages.md#customize-policies-in-a-policy-package) a atribuição no Centro de Administração do Teams.
+Selecione **Exibir detalhes da política** para saber mais sobre as políticas específicas em um pacote e suas respectivas configurações. Essas [podem ser personalizadas](manage-policy-packages.md#customize-policies-in-a-policy-package) após a atribuição no Centro de Administração do Teams.
 
-Escolha um ou vários pacotes para atribuir e clique em **Próximo.** Você pode pesquisar e adicionar pessoas ao pacote de política mais adequado para sua função. Uma pessoa não pode ser atribuída a mais de um pacote de política ao mesmo tempo.
+Escolha um ou vários pacotes para atribuir e clique em **Avançar**. Você pode pesquisar e adicionar pessoas ao pacote de políticas mais adequado para sua função. Um indivíduo não pode ser atribuído a mais de um pacote de política ao mesmo tempo.
 
-Depois de adicionar pessoas ao pacote de política correto, **Concluir** finaliza suas seleções. Você pode continuar a personalizar e gerenciar pacotes de política no Centro de administração do Microsoft Teams.
+Depois de adicionar pessoas ao pacote de política correto, você **Concluir** finaliza suas seleções. Você pode continuar a personalizar e gerenciar pacotes de política no Centro de Administração do Microsoft Teams.
 
 ## <a name="manage-policy-packages"></a>Gerenciar pacotes de política
 
 ### <a name="view"></a>Exibir
 
-Exibir as configurações de cada política em um pacote de política antes de atribuir um pacote. Na navegação à esquerda do Centro de administração do Microsoft Teams, vá para Pacotes de **política,** selecione o nome do pacote e, em seguida, selecione o nome da política.
+Exibir as configurações de cada política em um pacote de política antes de atribuir um pacote. Na navegação à esquerda do Centro de Administração do Microsoft Teams, selecione **Pacotes de Política**, selecione o nome do pacote e, em seguida, selecione o nome da política.
 
 Decida se os valores predefinidos são apropriados para a sua organização ou se você precisa personalizá-los para serem mais restritivos ou leniente com base nas necessidades da sua organização.
 
 ### <a name="customize"></a>Personalizar
 
-Personalize as configurações das políticas no pacote de política, conforme necessário, para atender às necessidades da sua organização. As alterações que você fizer nas configurações da política serão automaticamente aplicadas aos usuários que recebem o pacote. Para editar as configurações de uma política em um pacote de política, na navegação à esquerda do Centro de administração do Microsoft Teams, vá para Pacotes de **Política,** selecione o pacote de política, selecione o nome da política que você deseja editar e selecione **Editar.**
+Personalize as configurações das políticas no pacote de política, conforme necessário, para atender às necessidades da sua organização. As alterações que você fizer nas configurações da política serão automaticamente aplicadas aos usuários que recebem o pacote. Para editar as configurações de uma política em um pacote de política, na navegação à esquerda do Centro de Administração do Microsoft Teams, vá para **Pacotes de política**, selecione o pacote de política, selecione o nome da política que você deseja editar e selecione **Editar**.
 
 Lembre-se de que você também pode alterar as configurações das políticas em um pacote após atribuir o pacote de política. Para saber mais, confira [Personalizar políticas em um pacote de política](manage-policy-packages.md#customize-policies-in-a-policy-package).
 
