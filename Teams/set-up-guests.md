@@ -22,20 +22,20 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 description: Saiba mais sobre como ativar ou desativar o recurso de acesso de convidado no Microsoft Teams como um administrador do Office 365.
-ms.openlocfilehash: aaf37fda456f0e48d441e78f785a3ce450f1f42c
-ms.sourcegitcommit: def4b475b785a7b963f499cf9a1044e842ff66a5
+ms.openlocfilehash: c82172eb4d0c9fe50832d45ce2146c89d7e6d7d8
+ms.sourcegitcommit: 0fddd05334e37b0086ccc0aebe17a26f8e6e8e6c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "49786773"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50884515"
 ---
 # <a name="turn-on-or-turn-off-guest-access-to-microsoft-teams"></a>Ativar ou desativar o acesso de convidados ao Microsoft Teams
 
 > [!Note]
 
-> Até **fevereiro de 2021,** o acesso de convidado é desligado por padrão. Você deve ativar o acesso de convidado para o Teams antes que os administradores ou proprietários de equipe possam adicionar convidados. Depois que você ativar o acesso de convidado, pode levar algumas horas para que as alterações tenham efeito. Se os usuários  verem a mensagem Contate o administrador quando tentarem adicionar um convidado à equipe, é provável que o acesso de convidado ainda não tenha sido ligado ou as configurações ainda não tenham efeito. 
+> Até **fevereiro de 2021**, o acesso de convidados é desligado por padrão. Você deve ativar o acesso de convidado para o Teams antes que os administradores ou proprietários de equipe possam adicionar convidados. Depois de ativar o acesso de convidados, pode levar algumas horas para que as alterações tenham efeito. Se os usuários  verem a mensagem Contate seu administrador quando tentarem adicionar um convidado à sua equipe, é provável que o acesso de convidados ainda não tenha sido ligado ou as configurações ainda não tenham sido efetivas.
 
-> Após **fevereiro de 2021,** o acesso de convidados no Microsoft Teams será ligado por padrão para novos clientes & clientes existentes que ainda não configuraram essa configuração. Quando essa alteração for implementada, se você ainda não configurou o recurso de acesso de convidado no Microsoft Teams, esse recurso será habilitado no seu locatário. Se quiser que o acesso de convidado permaneça desabilitado para sua organização,  você precisará confirmar que a configuração de acesso de convidado está definida como Desativada em vez de Serviço **padrão.**
+> Após **fevereiro de 2021,** o acesso de convidados no Microsoft Teams será ligado por padrão para novos clientes & clientes existentes que não tenham configurado essa configuração. Quando essa alteração for implementada, se você ainda não tiver configurado o recurso de acesso de convidado no Microsoft Teams, essa funcionalidade será habilitada em seu locatário. Se você quiser que o acesso de convidado permaneça desabilitado para sua organização, você precisará confirmar se a configuração de acesso de convidado está definida como **Desativado** em vez do **Padrão de Serviço**.
 
 > [!IMPORTANT]
 > Ativar o acesso de convidado depende das configurações no Azure Active Directory, Microsoft 365, Microsoft Office SharePoint Online e Teams. Para saber mais, confira [Colabore com os convidados em uma equipe](https://docs.microsoft.com/microsoft-365/solutions/collaborate-as-team).
@@ -48,7 +48,7 @@ ms.locfileid: "49786773"
 
 3. Defina **Permitir acesso de convidado no Microsoft Teams** como **Ativado**.
 
-    ![Permita que a opção de acesso de convidados seja definida como Ativada ](media/set-up-guests-image1.png)
+    ![Permita que a opção de acesso de convidados seja definida como Ativada ](media/guest-access-setting.png)
 
 4. Em **Chamadas**, **Reunião** e **Mensagens**, selecione **Ativado** ou **Desativado** para cada recurso, dependendo do que você deseja permitir para usuários convidados.
 
@@ -66,7 +66,7 @@ ms.locfileid: "49786773"
       - **Classificação de conteúdo para Giphy** – Selecione uma classificação na lista suspensa:
           - **Permitir todo o conteúdo** - Os convidados poderão inserir todos os Giphys nos chats, independentemente da classificação do conteúdo.
           - **Moderado** - Os convidados poderão inserir Giphys nos chats, mas o conteúdo adulto será moderadamente restringido.
-          - **Estrito** – Os convidados podem inserir Giphys em chats, mas estarão impedidos de inserir conteúdo adulto.
+          - **Estrito** – Os convidados podem inserir Giphys em chats, mas serão impedidos de inserir conteúdo adulto.
       - **Usar memes em conversas** - **Ativar** essa configuração para permitir que os convidados usem memes nas conversas.
       - **Usar Figurinhas em conversas** - **Ativar** essa configuração para permitir que os convidados usem figurinhas nas conversas.
 
