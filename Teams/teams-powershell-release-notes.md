@@ -13,12 +13,12 @@ ms.collection:
 description: Saiba mais sobre as alterações mais recentes no Teams PowerShell.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 22688a6e4fbeb11e09eb0c2765a9de1408ce6484
-ms.sourcegitcommit: da2a70a9b5e05d0fd7ecc150b451f5805667514c
+ms.openlocfilehash: ef78d1a6be92ba3d7f4c84ce8012f84f40e58e96
+ms.sourcegitcommit: 71b9b5ec80014bd25758493bc06d633c4eac735c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/12/2021
-ms.locfileid: "50756167"
+ms.lasthandoff: 03/18/2021
+ms.locfileid: "50867070"
 ---
 # <a name="microsoft-teams-powershell-release-notes"></a>Notas de versão do Microsoft Teams PowerShell
 
@@ -31,6 +31,9 @@ Esta página fornece o log de alterações mais recente do Teams PowerShell para
 
 | Data | Versão | Atualizações |
 |------- | -------------------- | ------------------------------ |
+| Março de 2021 | [2.0](https://www.powershellgallery.com/packages/MicrosoftTeams/) | <li>Connect-MicrosoftTeams é o ponto de entrada para todos os cmdlets.</li><li>New-csOnlineSession não é mais disponível. Ele foi substituído por Connect-MicrosoftTeams.</li><li>Enable-csonlinesessionforreconnection não é mais necessário. O recurso foi implementado de forma nativa no Módulo do PowerShell do Teams.</li>|
+| Novembro de 2020 | [1.1.9-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.9-preview) | <li>Correções e melhorias de bugs</li>|
+| Novembro de 2020 | [1.1.8-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.8-preview) | <li>Correções e melhorias de bugs</li>|
 | Março de 2021 | [2.0.0](https://www.powershellgallery.com/packages/MicrosoftTeams/2.0.0) | <li>Usa o MSAL para autenticação & autorização</li><li>Cmdlets do Pacote de Política Refactored e adiciona atribuição de pacote de grupo</li><li>Aprimoramentos significativos de desempenho para Get-Team cmdlet</li> <li>Opção de registro em log e depuração aprimorado para cmdlets existentes </li> <li>Cmdlets de gerenciamento de modelos adicionados</li> <li>Deprecation of New-CsOnlineSession</li>|
 | Fevereiro de 2021 | [1.1.11-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.11-preview) | <li>Cmdlets de gerenciamento de modelos adicionados</li><li>Aprimoramentos de mezzo e lote para Get-Team cmdlet</li> <li>Opção de registro em log e depuração aprimorado para cmdlets existentes </li> <li>Cmdlets do Pacote de Política Refactored</li>|
 | Dezembro de 2020 | [1.1.10-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.10-preview) | <li>Atualizações para cmdlet new-team com recuperações e duração de sono aumentadas</li>|

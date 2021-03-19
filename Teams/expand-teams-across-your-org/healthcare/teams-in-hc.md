@@ -26,12 +26,12 @@ description: Aprenda sobre recursos de saúde como a telessaúde do Microsoft Te
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
-ms.openlocfilehash: 1bf890c7ffb6fa13730870cb1f4eabecb5df7c85
-ms.sourcegitcommit: e29e38bf00536400e5826fc55bc86dfd6ed761f3
-ms.translationtype: HT
+ms.openlocfilehash: 3a33b3321d6809fd816f8c6f9a7534000ed18b94
+ms.sourcegitcommit: 71b9b5ec80014bd25758493bc06d633c4eac735c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/08/2021
-ms.locfileid: "50558380"
+ms.lasthandoff: 03/18/2021
+ms.locfileid: "50867030"
 ---
 # <a name="get-started-with-teams-for-healthcare-organizations"></a>Começar com o Teams para organizações de saúde
 
@@ -128,7 +128,7 @@ Além disso, sua equipe pode usar aplicativos no Teams para:
 
 O aplicativo Listas no Microsoft Teams ajuda os usuários da sua organização a controlar informações, organizar o trabalho e gerenciar fluxos de trabalho. O aplicativo é pré-instalado para todos os usuários do Teams e está disponível como uma guia em cada equipe e canal. As listas podem ser criadas do zero, de modelos predefinidos ou importando dados do Excel.
 
-as equipes de saúde podem usar o modelo Pacientes para começar. Elas podem criar listas para acompanhar as necessidades e o status dos pacientes. Os dados existentes de pacientes em planilhas do Excel podem ser trazidos para criar uma lista no Teams. Essas listas podem ser usadas para cenários como rondas e monitoramento de pacientes para coordenar o cuidado.
+As equipes de saúde podem usar o modelo Patients para começar. Elas podem criar listas para acompanhar as necessidades e o status dos pacientes. Os dados existentes de pacientes em planilhas do Excel podem ser trazidos para criar uma lista no Teams. Essas listas podem ser usadas para cenários como rondas e monitoramento de pacientes para coordenar o cuidado.
 
 Por exemplo, um enfermeiro chefe cria uma lista de pacientes em uma equipe que inclui todos os membros da equipe de saúde. Durante as rondas, a equipe de saúde acessa o Teams em seus dispositivos móveis e atualiza as informações do paciente na lista, o que todos na equipe podem visualizar para se manterem em sincronia. Nas sessões de ronda em que a equipe de saúde se reúne para discutir e avaliar as principais métricas de desempenho de saúde para garantir que um paciente esteja na direção certa para receber alta, ela pode compartilhar estas informações usando o Teams em uma tela de exibição grande. os membros de equipe de saúde que não estão no local podem ingressar remotamente.
 

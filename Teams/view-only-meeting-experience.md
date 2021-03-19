@@ -16,17 +16,17 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 49f65e1ff47caefd61a9b2753b12da23fd2184e9
-ms.sourcegitcommit: b0753baa55841a2c6c5dc006dcdd117704af3b42
+ms.openlocfilehash: cf6787c3118ba36b71175f0ddb3360e980732a71
+ms.sourcegitcommit: 71b9b5ec80014bd25758493bc06d633c4eac735c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/02/2021
-ms.locfileid: "50401315"
+ms.lasthandoff: 03/18/2021
+ms.locfileid: "50867060"
 ---
 # <a name="teams-view-only-meeting-experience"></a>Experiência de reunião somente para exibição do Teams
 
 > [!Note]
-> A experiência de reunião somente para exibição estará disponível no início de março de 2021. Esse recurso será habilitado em 1º de março de 2021 como OFF padrão. Você deve alterar a política padrão após essa data se quiser que o recurso seja on padrão. Use o PowerShell para habilitar a política `Set-CsTeamsMeetingPolicy -Identity Global -StreamingAttendeeMode Enabled` .
+> As transmissões somente para exibição estarão disponíveis no Microsoft 365 E3/E5 e no Microsoft 365 A3/A5. Esse recurso será habilitado em 1º de março de 2021 como off padrão. Esse recurso nos planos do Microsoft 365 Government G3/G5 estará disponível posteriormente. Você deve alterar a política padrão após essa data se quiser que o recurso seja on padrão. Use o PowerShell para habilitar a política `Set-CsTeamsMeetingPolicy -Identity Global -StreamingAttendeeMode Enabled` .
 
 > [!Note]
 > Se sua reunião ou webinar atingir a capacidade, o Teams será dimensionado perfeitamente para acomodar uma experiência de transmissão somente para exibição de 10.000 pessoas. Além disso, durante esse período de maior trabalho remoto, aproveite as transmissões ainda maiores de 20.000 pessoas até o final deste ano.
@@ -65,7 +65,7 @@ Quando a capacidade da reunião principal for atingida, um participante não pod
 
 Quando a capacidade da reunião principal for atingida, o organizador da reunião e os apresentadores verão uma faixa informando que a capacidade de reunião foi atingida e que os novos participantes ingressarão em um participante somente para exibição.
 
-  ![a confusão de cliente e faixa do Teams para organizadores e apresentadores](media/chat-and-banner-message.png)
+  ![a mensagem de cliente e faixa do Teams para organizadores e apresentadores](media/chat-and-banner-message.png)
 
 Quando a capacidade da reunião principal for atingida, os participantes da reunião serão informados na tela de pré-entrada de que eles estão in joining no modo somente exibição.
 
@@ -84,7 +84,7 @@ As limitações para apresentadores de reunião incluem:
 - Não é possível remover um participante somente para exibição da reunião.
 
 > [!Note]
-> A contagem de participantes refletirá apenas as pessoas na reunião e não as pessoas na sala de estouro. Portanto, os apresentadores não podem obter uma contagem exata de quem está na experiência somente de exibição.
+> A contagem de participantes refletirá apenas as pessoas na reunião e não as pessoas na sala somente para exibição. Portanto, os apresentadores não podem obter uma contagem exata de quem está na experiência somente de exibição.
 
 ## <a name="experience-for-view-only-attendees"></a>Experiência para participantes somente exibição
 
@@ -97,8 +97,8 @@ A experiência somente de exibição do Teams permite que os participantes:
 O participante somente para exibição não poderá experimentar as seguintes opções em reuniões:
 
 - Participe da reunião se o participante não tiver permissão para ignorar o lobby com base em políticas ou opções de lobby definidas.
-- Participe da Sala de Estouro por meio de Audioconferência.
-- Participe da Sala de Estouro por meio do sistema da Sala do Microsoft Teams ou por meio de serviços CVI (Cloud Video Interop).
+- Participe da sala somente exibição usando Audioconferência.
+- Participe da sala somente exibição usando o sistema da Sala do Microsoft Teams ou usando serviços CVI (Cloud Video Interop).
 - Compartilhe seu áudio ou vídeo.
 - Consulte ou participe do chat da reunião.
 - Consulte o feed de vídeo dos participantes da reunião, a menos que o participante seja o orador ativo.
@@ -114,8 +114,3 @@ O participante somente para exibição não poderá experimentar as seguintes op
 - Os participantes somente exibição não terão a mesma latência que um participante regular. <sup>1</sup>
 
   <sup>1</sup> Os participantes somente exibição estarão com um atraso de vídeo e áudio de 30 segundos na reunião.  
-
-## <a name="related-topics"></a>Tópicos relacionados
-
-- [Complemento de comunicações avançadas para o Teams](teams-add-on-licensing/advanced-communications.md)
-- [Especificações e limites do Teams](limits-specifications-teams.md)
