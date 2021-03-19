@@ -24,7 +24,7 @@ appliesto:
 - Microsoft Teams
 ms.openlocfilehash: c6f6b3cbb80fb209c519593c28077b03e4a13ed9
 ms.sourcegitcommit: ab566ddab9d26440bac1716a975f30e075d0c7b5
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 01/14/2021
 ms.locfileid: "49865165"
@@ -39,7 +39,7 @@ Vamos começar pensando em como o Microsoft Teams permite que equipes individuai
 - As **equipes** são uma coleção de pessoas, conteúdo e ferramentas que envolvem diferentes projetos e resultados dentro de uma organização.
 
     - As equipes podem ser criadas para serem particulares e apenas para usuários convidados.
-    - As equipes também podem ser criadas para serem públicas e abertas e qualquer pessoa dentro da organização pode ingressar (até 10.000 membros).
+    - As equipes também podem ser criadas para serem públicas e abertas, permitindo que qualquer pessoa dentro da organização participe (até 10.000 membros).
     
     As equipes são projetadas para reunir um grupo de pessoas que trabalham unidas para realizar tarefas. O Teams pode ser dinâmico para um trabalho baseado em um projeto (por exemplo, lançamento de um produto, criação de uma sala de guerra digital), assim como para trabalhos contínuos a fim de refletir a estrutura interna da empresa (por exemplo, localizações de departamentos e escritórios). Conversas, arquivos e notas nos canais de equipe são visíveis apenas para os membros da equipe.
 
@@ -61,7 +61,7 @@ Veja este pequeno vídeo para saber mais sobre as práticas recomendadas para cr
 
 Quando o Microsoft Teams é ativado para toda a organização, os proprietários da equipe designada podem convidar qualquer funcionário com quem trabalham para ingressar na equipe. O Microsoft Teams torna fácil para os proprietários de equipe adicionarem pessoas na empresa baseado nos seus nomes. Dependendo das configurações usadas pela empresa, convidados que são membros da equipe, mas não pertencem à empresa também podem sem adicionados às suas equipes. Veja [Acesso de Convidado no Microsoft Teams](guest-access.md) para obter mais detalhes. 
 
-Os proprietários da equipe também podem criar uma equipe com base em um grupo existente do Microsoft 365. Quaisquer alterações feitas no grupo serão sincronizadas com o Microsoft Teams automaticamente. Criar uma equipe com base em um grupo existente do Microsoft 365 não apenas simplifica o processo de convite e gerenciamento de membros, mas também sincroniza arquivos de grupo dentro do Microsoft Teams.
+Os proprietários da equipe também podem criar uma equipe baseado em um grupo existente do Microsoft 365. Qualquer alteração feita no grupo será sincronizada automaticamente com o Microsoft Teams. Criar uma equipe baseada em um grupo existente do Microsoft 365, não apenas simplifica o processo de convidar e gerenciar os membros, mas também sincroniza os arquivos do grupo no Microsoft Teams.
 
 **Funções da equipe**
 
