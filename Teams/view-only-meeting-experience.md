@@ -16,17 +16,17 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cf6787c3118ba36b71175f0ddb3360e980732a71
-ms.sourcegitcommit: 71b9b5ec80014bd25758493bc06d633c4eac735c
+ms.openlocfilehash: 6fc7838ac1f3235acf576d437e3dabccfc2a0b6f
+ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 03/18/2021
-ms.locfileid: "50867060"
+ms.locfileid: "50875051"
 ---
 # <a name="teams-view-only-meeting-experience"></a>Experiência de reunião somente para exibição do Teams
 
 > [!Note]
-> As transmissões somente para exibição estarão disponíveis no Microsoft 365 E3/E5 e no Microsoft 365 A3/A5. Esse recurso será habilitado em 1º de março de 2021 como off padrão. Esse recurso nos planos do Microsoft 365 Government G3/G5 estará disponível posteriormente. Você deve alterar a política padrão após essa data se quiser que o recurso seja on padrão. Use o PowerShell para habilitar a política `Set-CsTeamsMeetingPolicy -Identity Global -StreamingAttendeeMode Enabled` .
+> As transmissões somente para exibição estão disponíveis no Microsoft 365 E3/E5 e no Microsoft 365 A3/A5. Esse recurso será habilitado em 1º de março de 2021 como off padrão. O recurso no Microsoft 365 Government Community Cloud (GCC) começará a ser apresentado no final de março de 2021. O Government Community Cloud High (GCCH) e o Departamento de Defesa (DoD) serão divulgados posteriormente. Você deve alterar a política padrão após essa data se quiser que o recurso seja on padrão. Use o PowerShell para habilitar a política `Set-CsTeamsMeetingPolicy -Identity Global -StreamingAttendeeMode Enabled` .
 
 > [!Note]
 > Se sua reunião ou webinar atingir a capacidade, o Teams será dimensionado perfeitamente para acomodar uma experiência de transmissão somente para exibição de 10.000 pessoas. Além disso, durante esse período de maior trabalho remoto, aproveite as transmissões ainda maiores de 20.000 pessoas até o final deste ano.

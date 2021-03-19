@@ -16,12 +16,12 @@ ms.collection:
 search.appverid: MET150
 localization_priority: Normal
 description: Este artigo fornece uma visão geral dos recursos suportados pelos painéis do Microsoft Teams.
-ms.openlocfilehash: effbb5d76220c98aee726efe66b41954c7fceb7a
-ms.sourcegitcommit: 71b9b5ec80014bd25758493bc06d633c4eac735c
+ms.openlocfilehash: 0d470116f5867a9d610fb376bfe2389600916c5a
+ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 03/18/2021
-ms.locfileid: "50867078"
+ms.locfileid: "50875071"
 ---
 # <a name="microsoft-teams-panels"></a>Painéis do Microsoft Teams
 
@@ -59,7 +59,7 @@ Os requisitos de hardware, software e rede para implantar dispositivos de painé
 Para usar painéis do Teams, você precisa da Licença Padrão de Salas do [Microsoft Teams.](https://docs.microsoft.com/MicrosoftTeams/rooms/rooms-licensing)
 
 > [!Note]
-> Se você já tiver as Salas do Microsoft Teams implantadas no espaço de reunião onde você está instalando painéis do Teams, não precisará de licença adicional para usar painéis do Teams.
+> Se você já tiver as Salas do Microsoft Teams implantadas no espaço de reunião onde você está instalando painéis do Teams, não precisará de uma licença adicional para usar painéis do Teams.
 
 ## <a name="deploy-teams-panels-devices"></a>Implantar dispositivos de painéis do Teams
 
@@ -90,7 +90,7 @@ Nossas recomendações para sites de painéis do Teams são:
 
 - Contas de recurso dedicadas
 - Fonte de alimentação (Os painéis geralmente suportam Power over ethernet plus (PoE+) para alimentação. Consulte a documentação do OEM para quaisquer requisitos de energia específicos do dispositivo.)
-- QoS (Qualidade de Serviço) habilitada na rede para o Microsoft Teams
+
 
 Para considerações sobre a instalação física, consulte a documentação do OEM e, se você tiver uma, use a experiência da sua equipe audiovisual antes de instalar e montar dispositivos e executar o cabeamento.
 
@@ -105,15 +105,13 @@ O planejamento de configuração e implantação abrange as seguintes áreas pri
 
 Cada dispositivo de painéis do Teams requer uma conta de recurso de sala do Microsoft 365. Use as credenciais da conta de recurso para entrar no aplicativo do Microsoft Teams no dispositivo de painéis.
 
-Para configurar uma conta de recurso do Microsoft 365 para painéis do Teams, você precisará comprar uma licença Padrão de Salas do [Microsoft Teams.](#license-requirement) Essa licença inclui uma caixa de correio de recurso que permite que as pessoas em sua organização reservem o espaço de reunião por meio do Outlook ou do Teams.
-
-Para obter informações sobre como criar uma conta de recurso e atribuir uma licença a ela, consulte [Create a resource account using the Microsoft 365 admin center](resource-account-ui.md).
+Para configurar uma conta de recurso do Microsoft 365 para painéis do Teams, recomendamos que você compre uma licença Padrão de Salas do [Microsoft Teams.](#license-requirement) Para obter informações sobre como criar uma conta de recurso e atribuir uma licença a ela, consulte [Create a resource account using the Microsoft 365 admin center](resource-account-ui.md).
 
 > [!NOTE]
 >
 >- Se você já tiver uma conta de recurso de sala configurada para o espaço de reunião onde você está instalando painéis, use a mesma conta de recurso de sala para entrar no dispositivo de painéis. No entanto, certifique-se de que a conta de recurso de sala tenha a licença Padrão de Salas do Microsoft Teams atribuída a ela para usá-la como conta de recurso de painéis.
 >
->- Se você já tiver uma Salas do Microsoft Teams implantadas no espaço de reunião onde você está instalando painéis do Teams, a conta de recurso já tem a licença salas [do Microsoft Teams](../rooms/rooms-licensing.md). Nesses casos, você não precisa comprar uma licença padrão separada do Microsoft Teams Rooms para implantar painéis. O administrador se ins conectado ao dispositivo de painéis com as mesmas credenciais que as Salas do Microsoft Teams para o mesmo espaço.
+>- Se você já tiver uma Sala do Microsoft Teams implantada no espaço de reunião onde você está instalando painéis do Teams, não precisará comprar uma licença separada para implantar painéis. O administrador se ins conectado ao dispositivo de painéis com as mesmas credenciais que as Salas do Microsoft Teams para o mesmo espaço.
 >
 >- Para espaços de reunião grandes, como salas de tabuleiro ou salas de conferência, com várias entradas, você pode montar um dispositivo de painéis em cada entrada. Vários painéis que pertencem a um único espaço de reunião compartilham a mesma conta de recurso e fazem login com as mesmas credenciais. Você não precisa criar contas de recursos separadas para cada painel para o mesmo espaço.
 

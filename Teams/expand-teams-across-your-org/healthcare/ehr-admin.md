@@ -23,17 +23,18 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: ''
 description: Usar o Microsoft Teams para configurar seu Sistema de visitas virtuais
-ms.openlocfilehash: 2d2be135668bcc45f0054e987a23845e3245c38e
-ms.sourcegitcommit: 1b11a2b74b8db6ed9e5da9b04cf3ed9c02a1d892
-ms.translationtype: HT
+ms.openlocfilehash: 6daa61ea44db02d48873a6fc494974c99573d0e8
+ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2021
-ms.locfileid: "50125774"
+ms.lasthandoff: 03/18/2021
+ms.locfileid: "50875171"
 ---
 # <a name="virtual-visits-with-teams---integration-into-ehr"></a>Visitas virtuais com o Teams - Integração com EHR
 
 O Conector do Registro Eletrônico de Saúde (EHR) do Microsoft Teams facilita para os médicos a inicialização de uma visita virtual ou consulta com outro provedor no Teams diretamente do sistema EHR. Construído na nuvem Microsoft 365, o Microsoft Teams permite colaboração e comunicação simples e seguras com ferramentas de chat, vídeo, voz e saúde em um único hub que oferece suporte à conformidade com HIPAA, certificação HITECH e muito mais.
 A plataforma de comunicação e colaboração do Teams torna mais fácil para os médicos eliminarem a desordem de sistemas fragmentados para que possam dedicar tempo fornecendo o melhor atendimento possível. O Conector de Registro de Saúde Eletrônica (EHR) do Microsoft Teams pode:
+
 - Lance as visitas virtuais do Teams dos portais do provedor e do paciente.
 - Faça write-back dos metadados EHR em eventos de conexão e desconexão para habilitar a auditoria automática e a manutenção de registros.
 - Integre-se aos fluxos de trabalho existentes de médicos e pacientes, permitindo que eles usem o Microsoft Teams.
@@ -65,7 +66,7 @@ Você também precisará de informações das seguintes pessoas em sua organiza�
 - Analista de clientes Epic
 
 > [!Note]
-> Solicite ao seu especialista técnico da Epic que forneça o Guia de Integração de Telessaúde do Epic-Microsoft Teams disponível no mercado da Epic.
+> Revise o [Guia de Integração de Telehealth da Epic-Microsoft Teams](https://galaxy.epic.com/Search/GetFile?Url=1!68!100!100100357) com seu especialista técnico da Épico. Certifique-se de que todos os pré-requisitos sejam concluídos. 
 
 ## <a name="connector-setup"></a>Configuração do conector
 

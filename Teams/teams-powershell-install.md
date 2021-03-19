@@ -13,12 +13,12 @@ ms.collection:
 description: Aprenda a usar os controles do PowerShell para gerenciar o Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a99967df019a91460bde5fd4e3e6e7aee15444d3
-ms.sourcegitcommit: 1613e08da482ff142c990c9c9951abeb873ad964
+ms.openlocfilehash: e6ba8545159f8b18ebe39e49356f64378f946b29
+ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "50569107"
+ms.lasthandoff: 03/18/2021
+ms.locfileid: "50874801"
 ---
 # <a name="install-microsoft-teams-powershell"></a>Instalar o Microsoft Teams PowerShell
 
@@ -74,7 +74,7 @@ Install-Module PowerShellGet -Force -AllowClobber
 Para instalar a visualização pública do Teams PowerShell, execute o comando do PowerShell abaixo.
 
 > [!NOTE]
-> Você pode encontrar a versão de visualização mais recente na Galeria do [PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams) ou no PowerShell executando "Find-Module MicrosoftTeams -AllowPrerelease"
+> Você pode encontrar a versão de visualização mais recente na Galeria do [PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams) ou no PowerShell executando "Find-Module MicrosoftTeams -AllowPrerelease -AllVersions"
 
 ```powershell
 Install-Module MicrosoftTeams -AllowPrerelease -RequiredVersion "1.1.9-preview"
@@ -114,6 +114,19 @@ $session = New-CsOnlineSession -Credential $credential
 Import-PsSession $session
 ```
 
+## <a name="sign-in-using-mfa-and-modern-authentication"></a>Entrar usando a MFA e a autenticação moderna
+
+ Se sua conta usa autenticação multifacional, use as etapas nesta seção.
+
+```powershell
+#Connect to Microsoft Teams
+Connect-MicrosoftTeams -AccountId <UPN>
+
+#Connection to Skype for Business Online and import into Ps session
+$session = New-CsOnlineSession
+Import-PsSession $session
+```
+
 ## <a name="update-teams-powershell"></a>Atualizar o PowerShell do Teams
 
 Para atualizar o PowerShell do Teams, abra um novo prompt de comando elevado do PowerShell e execute o seguinte:
@@ -138,7 +151,7 @@ Uninstall-Module MicrosoftTeams
 > [!WARNING]
 > Se o PowerShell do Teams já tiver sido importado para sua sessão do PowerShell, a desinstalação do módulo falhará. Feche o PowerShell e reaberto uma nova sessão elevada do PowerShell.
 
-## <a name="next-steps"></a>Próximas Etapas
+## <a name="next-steps"></a>Próximos passos
 
 Agora você está pronto para gerenciar o Teams usando o Teams PowerShell. Consulte [Managing Teams with Teams PowerShell](teams-powershell-managing-teams.md) to get started.
 

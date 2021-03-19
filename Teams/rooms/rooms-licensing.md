@@ -22,12 +22,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-apr2020
 description: Saiba mais sobre as licenças disponíveis para diferentes tipos de recursos de chamada e reunião nas Salas do Microsoft Teams.
-ms.openlocfilehash: 6f339136d6084046004506c30b6827aaed62971a
-ms.sourcegitcommit: 71b9b5ec80014bd25758493bc06d633c4eac735c
+ms.openlocfilehash: c01fafd6820b1ae62afccbfc2eab89c46c9d1598
+ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 03/18/2021
-ms.locfileid: "50867120"
+ms.locfileid: "50875151"
 ---
 # <a name="teams-meeting-room-licensing-update"></a>Atualização de Licenciamento de Sala de Reunião do Teams
 
@@ -77,4 +77,6 @@ A tabela a seguir lista os recursos disponíveis nas Salas do Microsoft Teams e 
 > [!NOTE]
 > Se você tiver licenças existentes atribuídas para sistemas de sala, elas continuarão a funcionar sem interrupção. Você deve mover para usar o novo SKU da Sala de Reunião quando as licenças existentes expirarem.  
 
- Use a versão certa do **Windows 10**: Para clientes que querem implantar imagens do Windows 10 em seus dispositivos, consulte [Configure a Microsoft Teams Rooms console](https://docs.microsoft.com/microsoftteams/room-systems/console). Você pode obter uma cópia do Centro de [Serviços de Licenciamento por Volume.](https://www.microsoft.com/Licensing/servicecenter/)
+ Use a versão certa do **Windows 10**: Para clientes que querem implantar imagens do Windows 10 em seus dispositivos, consulte [Configure a Microsoft Teams Rooms console](https://docs.microsoft.com/microsoftteams/room-systems/console). Você pode obter uma cópia do Centro de [Serviços de Licenciamento por Volume.](https://www.microsoft.com/Licensing/servicecenter/) 
+ 
+ Confira também [Excelentes experiências de sala de reunião: Conheça os novos Microsoft Teams Rooms Standard e Premium](https://www.microsoft.com/microsoft-365/blog/2020/07/21/microsoft-teams-meetings-hybrid-workplace-options/).

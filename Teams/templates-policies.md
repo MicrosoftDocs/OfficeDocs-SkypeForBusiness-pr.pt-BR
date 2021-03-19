@@ -18,12 +18,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Saiba como gerenciar modelos do Teams no centro de administração
-ms.openlocfilehash: b32be22dc7a57e65c6ec8d901ae6e7b004ce4b6c
-ms.sourcegitcommit: 3db994f3d26b05071d84b2004892a2ca2ff26d25
+ms.openlocfilehash: 27cf2d2d80f0e715e5ee9e9390ca86d81bd39d70
+ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/13/2021
-ms.locfileid: "50765824"
+ms.lasthandoff: 03/18/2021
+ms.locfileid: "50875131"
 ---
 # <a name="manage-teams-templates-in-the-admin-center"></a>Gerenciar modelos do Teams no centro de administração
 
@@ -58,7 +58,7 @@ Assista a este breve vídeo para saber como gerenciar políticas de modelo.
 
 1. Para desaconsule determinados modelos, role até **a tabela Modelos ocultos.**
 
-1. Selecione os modelos a ser desaconsudidados e selecione **Mostrar**.
+2. Selecione os modelos a ser desaconsudidados e selecione **Mostrar**.
 
    ![Os modelos selecionados que não estão ocultos](media/template-policies-3.png)
 

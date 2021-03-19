@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: Saiba quais telefones de mesa e conferência são certificados para o Microsoft Teams produzir os melhores resultados.
-ms.openlocfilehash: 319ddccf45f9930f69d6ff58b3da2347f2f7b9f5
-ms.sourcegitcommit: e29e38bf00536400e5826fc55bc86dfd6ed761f3
+ms.openlocfilehash: 4696adad4158013dbad3bf95355d329413e2d5e2
+ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/08/2021
-ms.locfileid: "50558420"
+ms.lasthandoff: 03/18/2021
+ms.locfileid: "50875081"
 ---
 # <a name="microsoft-teams-certified-devices"></a>Dispositivos certificados do Microsoft Teams
 
@@ -42,11 +42,11 @@ Os programas de Certificação do Microsoft Teams garantem uma barra de alta qua
 
 Os seguintes dispositivos são Certificados no Programa de Certificação de Telefones do Microsoft Teams:
 
-|Modelo de dispositivo                         | Versão do firmware                                                                                                                                                                                                                           | Data de lançamento                 
+|Modelo de dispositivo                         | Versão do firmware                                                                                                                                                                                                                           | Data de lançamento
 |:---------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-----------------------------|
 | Audiocódigos C470HD                      | 1.8.293                                                  | Janeiro de 2021                 |
 | Audiocódigos C450HD                      | C450HD_TEAMS_0.225                                       | Março de 2019                   |
-| Audiocódigos C448HD (somente no modo CAP)      | C450HD_TEAMS_0.225                                       | Março de 2019                   |
+| Códigos de áudio C448HD (somente no modo CAP)      | C450HD_TEAMS_0.225                                       | Março de 2019                   |
 |Crestron UC-2                           |1.0.1.46                                                  | Julho de 2020                    |
 | Crestron M100                          | Este produto foi descontinuado. Para obter mais informações, visite [Crestron M100](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-M100-T) no site da Crestron. | Descontinuado (11/05/2020) |
 | Crestron Flex UC-P100-T & UC-P110-T    | Este produto foi descontinuado. Para obter mais informações, visite [o UC Phone](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Accessories/UC-PHONE-T-PLUS) no site da Crestron.                  | Descontinuado (11/05/2020) |
@@ -82,7 +82,7 @@ Os seguintes dispositivos são Certificados nas Salas do Microsoft Teams no Prog
 
 Os seguintes dispositivos são Certificados no Programa de Certificação de exibição do Microsoft Teams:
 
-| Modelo de dispositivo | Versão do firmware | Data de lançamento  |                                         
+| Modelo de dispositivo | Versão do firmware | Data de lançamento  |
 |:------------------------|:-----------------|:--------------|
 |Lenovo ThinkSmart View|CD-18781Y.201006.099|Outubro de 2020 |
 
@@ -110,7 +110,7 @@ A seguir estão as versões mais recentes do aplicativo de telefone e firmware d
 
 #### <a name="firmware-versions"></a>Versões de firmware
 
-Ao instalar uma nova versão de firmware em seu dispositivo, você pode determinar as versões instaladas correspondentes do aplicativo microsoft Teams, portal da empresa e agente de administração. Para fazer isso, encontre a  versão do produto na coluna Versão incluída do produto e, em seguida, procure a versão do produto na tabela de versões **do aplicativo** anterior.
+Ao instalar uma nova versão de firmware em seu dispositivo, você pode determinar as versões instaladas correspondentes do aplicativo microsoft Teams, portal da empresa e agente de administração. Encontre a versão do produto na coluna **Versão incluída do** produto e, em seguida, procure a versão do produto na tabela de versões do **aplicativo** anterior.
 
 | Modelo de dispositivo        | Versão do firmware     | Lançamento do produto year/included  |
 |:--------------------|:---------------------|:-------------------------|
@@ -125,6 +125,10 @@ Ao instalar uma nova versão de firmware em seu dispositivo, você pode determin
 | Yealink MP56        | 122.15.0.33         | Atualização 2020 #7           |
 | Yealink VP59        | 91.15.0.54         | Atualização 2020 #7           |
 | Yealink CP960       | 73.15.0.115      | Atualização 2020 #7           |
+
+Consulte [o conjunto de recursos de telefones do Microsoft Teams](phones-for-teams.md) para obter informações sobre os recursos suportados por esses dispositivos.
+
+Consulte [Exibições do Microsoft Teams](teams-displays.md).
 
 ### <a name="product-release-information-for-teams-rooms-on-android"></a>Informações de versão do produto para Salas do Teams no Android
 
@@ -166,19 +170,18 @@ Ao instalar uma nova versão de firmware em seu dispositivo, você pode determin
 |:--------------|:-----------------|:-------------------------|
 |Lenovo ThinkSmart View| CD-18781Y.201006.099 |2020, Atualização #1 |
 
-Consulte [o conjunto de recursos de telefones do Microsoft Teams](/MicrosoftTeams/devices/phones-for-teams#microsoft-teams-phones-feature-set) para obter informações sobre os recursos suportados por esses dispositivos.
 
-Consulte [Localizar a versão de Firmware em um dispositivo móvel](/MicrosoftTeams/devices/phones-for-teams#finding-the-firmware-version-on-a-mobile-device) para determinar a versão de firmware do dispositivo em seu dispositivo móvel.
+## <a name="more-resources"></a>Mais recursos
 
-As licenças do Microsoft Teams podem ser compradas como parte de suas assinaturas do [Microsoft 365 ou do Office 365.](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description) Para saber mais sobre as licenças necessárias para usar o Microsoft Teams em telefones, consulte licenças de sistema [de telefonia disponíveis.](https://products.office.com/microsoft-teams/voice-calling)
+Consulte [o conjunto de recursos de telefones do Microsoft Teams](phones-for-teams.md) para obter informações sobre os recursos suportados por esses dispositivos.
+
+Consulte [Localizar a versão de Firmware em um dispositivo móvel](phones-for-teams.md) para determinar a versão de firmware do dispositivo em seu dispositivo móvel.
+
+As licenças do Microsoft Teams podem ser compradas como parte de suas assinaturas do [Microsoft 365 ou do Office 365.](/office365/servicedescriptions/teams-service-description) Para saber mais sobre as licenças necessárias para usar o Microsoft Teams em telefones, consulte licenças de sistema [de telefonia disponíveis.](https://products.office.com/microsoft-teams/voice-calling)
 
 Para obter mais informações sobre como obter o Teams, confira [Como obter acesso ao Microsoft Teams?](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b)
 
-* * *
-
-Se você for um fornecedor que está tentando ingressar no programa de certificação, consulte [How to Join](https://docs.microsoft.com/skypeforbusiness/certification/how-to-join) for requirements and available programs.
-
-## <a name="more-resources"></a>Mais recursos
+Se você for um fornecedor que está tentando ingressar no programa de certificação, consulte [How to Join](/skypeforbusiness/certification/how-to-join) for requirements and available programs.
 
 [Explore telefones do Microsoft Teams e dispositivos certificados.](https://products.office.com/microsoft-teams/across-devices/devices)
 

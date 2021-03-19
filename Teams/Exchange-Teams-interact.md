@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6e2e6af198c578279e2af8928e8a6ac299f262a5
-ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
-ms.translationtype: HT
+ms.openlocfilehash: 39b60bcd5913619efbf9dfd2aec22813e79921dd
+ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "49661896"
+ms.lasthandoff: 03/18/2021
+ms.locfileid: "50874891"
 ---
 # <a name="how-exchange-and-microsoft-teams-interact"></a>Como o Exchange e o Microsoft Teams interagem
 
@@ -64,8 +64,7 @@ A tabela a seguir fornece uma referência rápida útil para a disponibilidade d
 
 <sup>6</sup> Somente contatos na pasta de contatos padrão. Não há suporte para o acesso a outras pastas de contatos ou subpastas.
 
-<sup>7</sup>O Teams respeita a configuração da [Política de caixa de correio do Outlook na Web](https://docs.microsoft.com/powershell/module/exchange/client-access/set-owamailboxpolicy) configurada pelos administradores de locatários para controlar se os usuários podem alterar a imagem de perfil. Se a configuração **-SetPhotoEnabled** estiver desativada, os usuários não poderão adicionar, alterar ou remover sua imagem de perfil. Por exemplo, se um aluno carregar uma foto de perfil aprovada pelo departamento de TI ou RH da escola, nenhuma ação será necessária. No entanto, se um usuário carregar uma imagem inadequada, altere-a de acordo com as políticas internas da sua organização.
-
+<sup>7</sup>O Teams respeita a configuração da [Política de caixa de correio do Outlook na Web](https://docs.microsoft.com/powershell/module/exchange/client-access/set-owamailboxpolicy) configurada pelos administradores de locatários para controlar se os usuários podem alterar a imagem de perfil. Se a **configuração -SetPhotoEnabled** estiver desabilitada na política, os usuários não poderão adicionar, alterar ou remover sua imagem de perfil, para que a imagem de arquivo porfile não seja sincronizada com as equipes se o administrador alterar a foto.
 <sup>8</sup> Você precisa atender aos requisitos listados na seção[Requisitos para criar e exibir reuniões para caixas de correio do local](#requirements-to-create-and-view-meetings-for-mailboxes-hosted-on-premises).
 
 ## <a name="requirements-to-get-the-most-out-of-microsoft-teams"></a>Treinamentos para ajudar seus usuários a usufruir ao máximo o Microsoft Teams

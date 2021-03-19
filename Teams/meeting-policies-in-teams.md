@@ -24,12 +24,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: Aprenda a gerenciar configurações de política de reunião no Teams. Use as configurações de política para controlar os recursos disponíveis aos participantes da reunião para reuniões agendadas pelos usuários.
-ms.openlocfilehash: 77c99516e188ecc0f42fd663a121d439b5470000
-ms.sourcegitcommit: 4d76837f9481ca2cda437afdf11de5eaf7a57d99
+ms.openlocfilehash: cdeadfd119ae0a1aa1d1f42af84d2c30ac014584
+ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/11/2021
-ms.locfileid: "50726423"
+ms.lasthandoff: 03/18/2021
+ms.locfileid: "50875161"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Gerenciar políticas de reunião no Teams
 
@@ -459,10 +459,10 @@ Essas configurações controlam quais participantes da reunião devem aguardar n
 
 ### <a name="let-anonymous-people-start-a-meeting"></a>Permitir que pessoas anônimas iniciem uma reunião
 
-Essa é uma política por organizador que permite reuniões de conferência discada. Essa configuração controla se os usuários de acesso telefônico podem participar da reunião sem um usuário autenticado da organização em participação. Por padrão, essa configuração é desativada, o que significa que os usuários com acesso telefônico aguardam no lobby até que um usuário autenticado da organização ingresse na reunião.
+Esta é uma política por organizador que permite reuniões de conferência sem líderes. Essa configuração controla se usuários não-imínteses podem ingressar na reunião sem um usuário autenticado da organização presente. Por padrão, essa configuração está desligada, o que significa que os usuários anônimos aguardarão no lobby até que um usuário autenticado da organização participe da reunião.
 
 > [!NOTE]
-> Se essa configuração estiver desativada e um usuário de acesso telefônico participar da reunião primeiro e for colocado no lobby, um usuário da organização deverá participar da reunião com um cliente do Teams para admitir o usuário do lobby. Não há controles de lobby disponíveis para os usuários.
+> Se essa configuração estiver desligada e um usuário anônimo ingressar na reunião primeiro e for colocado no lobby, um usuário da organização deverá ingressar na reunião com um cliente do Teams para admitir o usuário no lobby. Não há controles de lobby disponíveis para os usuários.
 
 ### <a name="automatically-admit-people"></a>Aceitar pessoas automaticamente
 
