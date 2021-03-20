@@ -24,12 +24,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: Aprenda a gerenciar configurações de política de reunião no Teams. Use as configurações de política para controlar os recursos disponíveis aos participantes da reunião para reuniões agendadas pelos usuários.
-ms.openlocfilehash: cdeadfd119ae0a1aa1d1f42af84d2c30ac014584
-ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
+ms.openlocfilehash: 25ff47e7dee4a41be3cbdd8063654fc60c27af79
+ms.sourcegitcommit: 546f3e72880a0814a87787f997e81d9fb859c774
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/18/2021
-ms.locfileid: "50875161"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50929547"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Gerenciar políticas de reunião no Teams
 
@@ -127,7 +127,7 @@ Permitir que o complemento do Outlook seja uma política por usuário e se apliq
 
 ![Captura de tela mostrando a capacidade de agendar uma nova reunião](media/meeting-policies-outlook-add-in.png)
 
-Se você desativar essa opção, os usuários não conseguirão agendar. As reuniões do Teams ao criar uma nova reunião no Outlook. Por exemplo, no Outlook no Windows, a opção **Nova reunião do Teams** não será exibida na faixa de opções.
+Se você desativar esse recurso, os usuários não poderão agendar. As reuniões do Teams ao criar uma nova reunião no Outlook. Por exemplo, no Outlook no Windows, a opção **Nova reunião do Teams** não será exibida na faixa de opções.
 
 ### <a name="allow-channel-meeting-scheduling"></a>Permitir o agendamento de reunião do canal
 
@@ -193,7 +193,7 @@ Esta política a turns on Live transcription. Permitir transcrição é uma pol�
 
 ![opções de transcrição em políticas de reunião](media/live-transcription.png)
 
-A transcrição ao vivo mostra fala em texto do conteúdo falado durante uma reunião do Teams em tempo real. O texto aparece junto com o vídeo da reunião, incluindo o nome do orador e um carimbo de data/hora. Para saber mais, confira [Exibir transcrição ao vivo em uma reunião do Teams.](https://support.microsoft.com/office/view-live-transcription-in-a-teams-meeting-7a1401ec-73b4-431d-875a-8b6af82b3e15)
+A transcrição ao vivo mostra fala em texto do conteúdo falado durante uma reunião do Teams em tempo real. O texto aparece junto com o vídeo da reunião, incluindo o nome do orador e um carimbo de data/hora. Para saber mais, confira [Exibir transcrição ao vivo em uma reunião do Teams.](https://support.microsoft.com/office/view-live-transcription-in-a-teams-meeting-dc1a8f23-2e20-4684-885e-2152e06a4a8b?storagetype=live)
 
 Atualmente, há suporte para transcrição ao vivo no cliente de área de trabalho do Teams. A transcrição é suportada para inglês falado nos EUA. A transcrição está disponível após a reunião na área de trabalho ou web do Teams.
 
@@ -250,7 +250,7 @@ O modo de vídeo IP é uma política por usuário. Essa configuração controla 
 |Valor de configuração |Comportamento  |
 |---------|---------|
 |**Vídeo de saída e entrada habilitado**    | O vídeo de saída e de entrada é permitido na reunião é a configuração padrão. |
-|**Desabilitado**     | O vídeo de entrada e saída não é permitido na reunião. Em clientes móveis do Teams, os usuários não podem compartilhar vídeos ou fotos na reunião. <br><br>Observe que, se o **Modo de áudio IP** estiver desabilitado, o **Modo de vídeo IP** também permanecerá desabilitado.  |
+|**Desabilitado**     | O vídeo de entrada e saída não é permitido na reunião. Em clientes móveis do Teams, os usuários não podem compartilhar vídeos ou fotos na reunião. <br><br>Se **o modo de áudio IP** estiver desabilitado, o modo para vídeo **IP** também permanecerá desabilitado.  |
 
 Se definido como **Desabilitado** para um usuário, esse usuário não poderá ativar o vídeo ou exibir vídeos compartilhados por outros participantes da reunião. Os participantes da reunião que não têm políticas atribuídas (por exemplo, participantes anônimos) têm essa configuração para **Vídeo de saída e de entrada habilitado** por padrão.
 
@@ -459,7 +459,7 @@ Essas configurações controlam quais participantes da reunião devem aguardar n
 
 ### <a name="let-anonymous-people-start-a-meeting"></a>Permitir que pessoas anônimas iniciem uma reunião
 
-Esta é uma política por organizador que permite reuniões de conferência sem líderes. Essa configuração controla se usuários não-imínteses podem ingressar na reunião sem um usuário autenticado da organização presente. Por padrão, essa configuração está desligada, o que significa que os usuários anônimos aguardarão no lobby até que um usuário autenticado da organização participe da reunião.
+Esta é uma política por organizador que permite reuniões de conferência sem líderes. Essa configuração controla se os usuários anônimos podem ingressar na reunião sem um usuário autenticado da organização presente. Por padrão, essa configuração está desligada, o que significa que os usuários anônimos aguardarão no lobby até que um usuário autenticado da organização participe da reunião.
 
 > [!NOTE]
 > Se essa configuração estiver desligada e um usuário anônimo ingressar na reunião primeiro e for colocado no lobby, um usuário da organização deverá ingressar na reunião com um cliente do Teams para admitir o usuário no lobby. Não há controles de lobby disponíveis para os usuários.

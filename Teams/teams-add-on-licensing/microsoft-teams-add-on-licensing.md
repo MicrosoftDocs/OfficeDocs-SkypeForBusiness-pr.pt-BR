@@ -20,12 +20,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-mar2020
 description: Saiba mais sobre licenças de complemento para o Microsoft Teams e os recursos que você recebe com cada licença.
-ms.openlocfilehash: 0c8b37ab30837e6e1fba6c61eeb1a3044f3409f9
-ms.sourcegitcommit: b4b2c7e79679cce6cf5f863ddf708e50164f9a9d
+ms.openlocfilehash: ef0fd186fc3f7836e45fccacbfcdba6cb31ba60e
+ms.sourcegitcommit: 5c49dc68c964481c46127f9fb3f5ca358897b0f8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/17/2021
-ms.locfileid: "50861425"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50937858"
 ---
 # <a name="microsoft-teams-add-on-licenses"></a>Licenças de complemento do Microsoft Teams
 
@@ -72,9 +72,52 @@ Para o Microsoft 365 Business Voice, você tem duas opções para escolher:
 
 Para saber mais, confira [O que preciso comprar para usar o Microsoft 365 Business Voice?](../business-voice/what-to-buy.md).
 
-Aqui está um resumo, com base no plano de licenciamento.
+Veja um resumo com base no plano de licenciamento.
 
-  ![Opções de plano de pequenas empresas](../media/licensing-smallbusiness-options.png)
+<table>
+<thead>
+<tr class="header">
+<th><strong>Pequenas empresas ( &lt; 300 pessoas)</strong></th>
+<th>&nbsp;</th>
+<th>&nbsp;</th>
+<th>&nbsp;</th>
+<th>&nbsp;</th>
+<th>&nbsp;</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Plano base</strong></td>
+<td colspan="3"><strong>Opções de chamada de voz e conferência</strong></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Microsoft 365 Business Basic<br />
+Microsoft 365 Business Standard Microsoft 365 Business Premium</td>
+<td>Microsoft 365 Business Voice<br>Plano de Chamadas Internacionais <br />(opcional) Créditos de comunicação </td><td>Ou</td>
+<td>Microsoft 365 Business Voice sem plano de chamada<br />
+Créditos de Comunicação de Audioconferência </td><td>Ou</td>
+<td>Créditos de Comunicação de Audioconferência</td>
+</tr>
+<tr class="odd">
+<td>Microsoft 365 Enterprise E1/E3<br>Office 365 Enterprise E1/E3<br>Microsoft 365 F3<br>Office 365 F3<br>Office 365 F1</td>
+<td>Microsoft 365 Business Voice<br>Plano de Chamadas Internacionais <br />(opcional) Créditos de comunicação </td><td>Ou</td>
+<td>Microsoft 365 Business Voice sem plano de chamada</td><td>Ou</td>
+<td>Audioconferência<br> Sistema de Telefonia<br>Plano de Chamadas Domésticas<br>Plano de Chamada Doméstico e Internacional (opcional)<br>Créditos de comunicação</td>
+</tr>
+<tr class="even">
+<td>Microsoft 365 Enterprise E5<br>Office 365 Enterprise E5</td>
+<td>Plano de Chamadas Domésticas<br>Plano de Chamada Doméstico e Internacional (opcional)<br>Créditos de comunicação</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
 
 Se a Audioconferência não tiver suporte em seu país ou região, você terá a opção de obter um Microsoft 365 Enterprise E5 sem plano de Audioconferência ou um Office 365 Enterprise E5 sem plano de Audioconferência.
 
@@ -92,7 +135,31 @@ Se você for uma grande empresa ou organização corporativa (mais de 300 usuár
 
 Aqui está um resumo, com base no plano de licenciamento.
 
-  ![Opções de plano baseadas em empresa](../media/licensing-enterprise-options.png)
+<table>
+<thead>
+<tr class="header">
+<th><strong>Enterprise business (>300 pessoas)</strong></th>
+<th>&nbsp;</th>
+<th>&nbsp;</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Plano base</strong></td>
+<td colspan="2"><strong>Opções de chamada de voz e conferência</strong></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Microsoft 365 Enterprise E1/E3<br>Office 365 Enterprise E1/E3<br>Microsoft 365 F3<br>Office 365 F3</td><td>Audioconferência<br>Sistema de Telefonia<br>Plano de Chamadas Domésticas<br>Plano de Chamada Doméstico e Internacional (opcional)<br>Créditos de comunicação</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Microsoft 365 Enterprise E5<br>Office 365 Enterprise E5</td>
+<td>Plano de Chamadas Domésticas<br>Plano de Chamada Doméstico e Internacional (opcional)<br>Créditos de comunicação</td>
+<td></td>
+</tr>
+</tbody>
+</table>
 
 Se a Audioconferência não tiver suporte em seu país ou região, você terá a opção de obter um Microsoft 365 Enterprise E5 sem plano de Audioconferência ou um Office 365 Enterprise E5 sem plano de Audioconferência.
 
@@ -111,9 +178,40 @@ Para escolas e outras organizações acadêmicas, você tem três maneiras de ob
 
 Aqui está um resumo, com base no plano de licenciamento.
 
-  ![Opções de plano EDU](../media/licensing-education-options.png)
+<table>
+<thead>
+<tr class="header">
+<th><strong>Educação</strong></th>
+<th>&nbsp;</th>
+<th>&nbsp;</th>
+<th>&nbsp;</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Plano base</strong></td>
+<td colspan="3"><strong>Opções de chamada de voz e conferência</strong></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Microsoft 365 Enterprise A1 ou A3<br>Office 365 Education A1 ou A3<br>Microsoft 365 F3<br>Office 365 F3</td><td>Microsoft 365 Business Voice <sup>1</sup><br>Plano de Chamada Internacional (opcional)<br>Plano de Chamadas Domésticas<br>Plano de Chamada Doméstico e Internacional (opcional)<br>Créditos de comunicação</td><td>Ou</td><td>Microsoft 365 Business Voice sem Chamar Plano<sup>1</sup></td>
+</tr>
+<tr>
+<td>Microsoft 365 Education A1 ou A3<br>Office 365 Education A1 ou A3<br>Microsoft 365 F3<br>Office 365 F3</td>
+<td>Microsoft 365 Business Voice <sup>1</sup><br>Plano de Chamada Internacional (opcional)<br>Plano de Chamadas Domésticas<br>Plano de Chamada Doméstico e Internacional (opcional)<br>Créditos de comunicação</td><td>Ou</td><td>Microsoft 365 Business Voice sem Chamar Plano<sup>1</sup></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Microsoft 365 Education A5<br>Office 365 Education A5</td>
+<td>Plano de Chamadas Domésticas<br>Plano de Chamada Doméstico e Internacional (opcional)<br>Créditos de comunicação</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
 
-  <sup>1</sup> Disponível somente para organizações com menos de 300 usuários.
+  <sup>1</sup> Disponível apenas para organizações com menos de 300 usuários.
 
 Para saber mais, confira Planos do [Microsoft 365 Education](https://www.microsoft.com/education/buy-license/microsoft365) e [Office 365 Education.](https://www.microsoft.com/education/products/office)
 
@@ -130,9 +228,40 @@ Para organizações governamentais dos EUA (somente GCC), há três maneiras de 
 
 Aqui está um resumo, com base no plano de licenciamento.
 
-  ![Opções baseadas em gov](../media/licensing-government-options.png)
+<table>
+<thead>
+<tr class="header">
+<th><strong>Governo</strong></th>
+<th>&nbsp;</th>
+<th>&nbsp;</th>
+<th>&nbsp;</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Plano base</strong></td>
+<td colspan="3"><strong>Opções de chamada de voz e conferência</strong></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Microsoft 365 GOV G1 ou G3<br>Office 365 GOV G1 ou G3<br>Microsoft 365 F3<br>Office 365 F3</td><td>Microsoft 365 Business Voice <sup>1</sup><br>Plano de Chamada Internacional (opcional)<br>Créditos de comunicação</td><td>Ou</td><td>Microsoft 365 Business Voice sem Chamar Plano<sup>1</sup></td>
+</tr>
+<tr>
+<td>Microsoft 365 GOV G1 ou G3<br>Office 365 GOV G1 ou G3<br>Microsoft 365 F3<br>Office 365 F3</td><td>Microsoft 365 Business Voice <sup>1</sup><br>Plano de Chamada Internacional (opcional)<br>Créditos de comunicação</td><td>Ou</td>
+<td>Audioconferência<br>Sistema de Telefonia<br>Plano de Chamadas Domésticas<br>Plano de Chamada Doméstico e Internacional (opcional)<br>Créditos de comunicação</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Microsoft 365 GOV G5<br>Office 365 GOV G5</td>
+<td>Plano de Chamadas Domésticas<br>Plano de Chamada Doméstico e Internacional (opcional)<br>Créditos de comunicação</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
 
-  <sup>1</sup> Disponível somente para organizações com menos de 300 usuários.
+  <sup>1</sup> Disponível apenas para organizações com menos de 300 usuários.
 
 Para saber mais, confira [Planos do Microsoft 365 Government](https://www.microsoft.com/microsoft-365/government/) e Office [365 Government.](https://www.microsoft.com/microsoft-365/government/compare-office-365-government-plans)
 
@@ -150,9 +279,46 @@ Se você for uma organização sem fins lucrativos, terá quatro maneiras de obt
 
 Aqui está um resumo, com base no plano de licenciamento.
 
-  ![Opções baseadas em organizações sem fins lucrativos](../media/licensing-nonprofit-options.png)
+<table>
+<thead>
+<tr class="header">
+<th><strong>Entidades sem fins lucrativos</strong></th>
+<th>&nbsp;</th>
+<th>&nbsp;</th>
+<th>&nbsp;</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Plano base</strong></td>
+<td colspan="3"><strong>Opções de chamada de voz e conferência</strong></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Microsoft 365 Basic para entidades sem fins lucrativos<br>Microsoft 365 Standard para entidades sem fins lucrativos</td><td>Microsoft 365 Business Voice <sup>1</sup><br>Plano de Chamada Internacional (opcional)<br>Créditos de comunicação</td><td>Ou</td><td>Microsoft 365 Business Voice sem Chamar Plano<sup>1</sup></td>
+</tr>
+<tr>
+<td>Microsoft 365 E1 ou E3 sem fins lucrativos<br>Office 365 E1 ou E3 sem fins lucrativos<br>Microsoft 365 F3<br>Office 365 F3</td>
+<td>Microsoft 365 Business Voice <sup>1</sup><br>Plano de Chamada Internacional (opcional)<br>Créditos de comunicação</td><td>Ou</td><td>Microsoft 365 Business Voice sem Chamar Plano<sup>1</sup></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Microsoft 365 E1 ou E3 sem fins lucrativos<br>Office 365 E1 ou E3 sem fins lucrativos<br>Microsoft 365 F3<br>Office 365 F3</td>
+<td>Audioconferência<br>Sistema de Telefonia<br>Plano de Chamadas Domésticas<br>Plano de Chamada Doméstico e Internacional (opcional)<br>Créditos de comunicação</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Microsoft 365 E5 sem fins lucrativos<br>Office 365 E5 sem fins lucrativos</td>
+<td>Plano de Chamadas Domésticas<br>Plano de Chamada Doméstico e Internacional (opcional)<br>Créditos de comunicação</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
 
-  <sup>1</sup> Disponível somente para organizações com menos de 300 usuários.
+  <sup>1</sup> Disponível apenas para organizações com menos de 300 usuários.
 
 Para saber mais, confira Ofertas sem fins lucrativos do [Microsoft 365 e Office 365.](https://www.microsoft.com/microsoft-365/nonprofit/office-365-nonprofit-plans-and-pricing)
 
@@ -175,7 +341,48 @@ Para inscrever-se em uma oferta de avaliação, consulte [Inscrever-se para uma 
 
 Veja um resumo das ofertas de avaliação de recursos de voz.
 
-  ![Opções baseadas em avaliação](../media/licensing-trial-offers.png)
+<table>
+<thead>
+<tr class="header">
+<th><strong>Ofertas de avaliação</strong></th>
+<th>&nbsp;</th>
+<th>&nbsp;</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Opções de chamada de voz e conferência</strong></td>
+<td><strong>Descrição</strong></td>
+</tr>
+<tr class="even">
+<td>Avaliação do Microsoft 365 Business Voice</td><td>Mostra os recursos para chamadas de voz doméstica, audioconferência e recursos avançados de voz, como atendimento automático e filas de chamadas.</td>
+</tr>
+<tr class="odd">
+<td>Avaliação do Microsoft 365 Business Voice<br>Avaliação do Plano de Chamada Doméstico e Internacional do Microsoft 365</td>
+<td>Mostrar os recursos para chamadas de voz domésticas e internacionais, audioconferência e recursos avançados de voz, como atendimentos automáticos e filas.</td>
+</tr>
+<tr>
+<td>Avaliação do Plano de Chamada Doméstica do Microsoft 365</td>
+<td>Mostrar os recursos para chamadas de voz domésticas.</td>
+</tr>
+<tr>
+<td>Avaliação do Plano de Chamada Doméstico e Internacional do Microsoft 365</td>
+<td>Mostrar os recursos para chamada doméstica e internacional.</td>
+</tr>
+<tr>
+<td>Avaliação de Audioconferência do Microsoft 365</td>
+<td>Mostra o recurso para audioconferência.</td>
+</tr>
+<tr>
+<td>Sistema de Telefonia do Microsoft 365 - Usuário virtual</td>
+<td>Mostra os recursos avançados de voz, como atendimento automático e filas de chamadas.</td>
+</tr>
+<tr>
+<td>Avaliação de Telefone de Área Comum</td>
+<td>Mostra os recursos para telefones de área comum.</td>
+</tr>
+</tbody>
+</table>
 
  Seu plano base não precisa ser uma oferta de avaliação para usar qualquer uma dessas avaliação para recursos de voz. Você pode usar um plano do Microsoft 365 Business ou um plano Enterprise, Government, Education ou Nonprofit com qualquer uma das ofertas de avaliação para recursos de voz. Para ver ofertas de avaliação e complementos disponíveis, no Centro de administração do Microsoft 365, vá para Cobrança Serviços de Compra , selecione Outras categorias que podem lhe interessar e selecione  >   **Complementos** .
 
