@@ -24,10 +24,10 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Aqui estão os serviços do Microsoft 365 e do Office 365 para Skype for Business e Microsoft Teams disponíveis para o Brasil.
+description: Estes são os serviços do Microsoft 365 e do Office 365 para o Skype for Business e Microsoft Teams disponíveis no Brasil.
 ms.openlocfilehash: 438bc74a418c10a9826d7c391941d2d14b43d23a
 ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 05/14/2020
 ms.locfileid: "44230619"
@@ -36,7 +36,7 @@ ms.locfileid: "44230619"
 
 [Encontre outro país ou região](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) ou saiba mais sobre a disponibilidade de Audioconferência e planos de chamadas por país e região.
 
-Aqui estão os serviços do Microsoft 365 e do Office 365 para Skype for Business e Microsoft Teams disponíveis para o Brasil.
+Estes são os serviços do Microsoft 365 e do Office 365 para o Skype for Business e Microsoft Teams disponíveis no Brasil.
   
 ## <a name="audio-conferencing"></a>Audioconferência
 
@@ -46,7 +46,7 @@ Aqui estão os serviços do Microsoft 365 e do Office 365 para Skype for Busines
 |Os números de telefone são atribuídos automaticamente para a Audioconferência?  <br/> |Sim, para:<br/><ul><li> São Paulo</ul>Para obter números de telefone dedicados, consulte [Obtendo números de telefone de serviço do Skype for Business e do Microsoft Teams](/microsoftteams/getting-service-phone-numbers).  <br/> |
 |Funcionalidade de discagem usando o recurso Telefonar para Mim  <br/> |Disponível  <br/> |
    
-## <a name="phone-system"></a>Sistema Telefônico
+## <a name="phone-system"></a>Sistema de Telefonia
 
 |**Recurso**|**Detalhes**|
 |:-----|:-----|
