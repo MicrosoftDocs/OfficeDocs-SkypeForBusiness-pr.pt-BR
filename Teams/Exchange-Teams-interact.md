@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 39b60bcd5913619efbf9dfd2aec22813e79921dd
-ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
+ms.openlocfilehash: 9790cfb186e1745d7233bf23232ac4b4a69b00e0
+ms.sourcegitcommit: 2eaf80bca6dfad367283e57662d81a809c9437e8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/18/2021
-ms.locfileid: "50874891"
+ms.lasthandoff: 03/22/2021
+ms.locfileid: "50997319"
 ---
 # <a name="how-exchange-and-microsoft-teams-interact"></a>Como o Exchange e o Microsoft Teams interagem
 
@@ -50,7 +50,7 @@ A tabela a seguir fornece uma referência rápida útil para a disponibilidade d
 | **Exchange Online**                                                 | Sim <sup>1</sup> | Sim <sup>1</sup>   | Sim        | Sim                   | Sim                               | Sim<sup>7</sup>             | Sim          | Sim             | Sim <sup>6</sup>        | Sim        | Sim                          | Sim                    | Sim                    |
 | **Exchange Online Dedicated vNext**                                 | Sim <sup>1</sup> | Sim <sup>1</sup>   | Sim        | Sim                   | Sim                               | Sim<sup>7</sup>             | Sim          | Sim             | Sim <sup>6</sup>        | Sim        | Sim                          | Sim                    | Sim                    |
 | **Exchange Online Dedicated – Legacy** (Sincronização obrigatória com o Azure AD)  | Sim <sup>1</sup> | Sim <sup>(1,2)</sup> | Sim <sup>3</sup> | Sim                   | Não                                | Não                          | Sim          | Sim             | Não                      | Sim <sup>4</sup> | Sim <sup>5</sup>                   | Sim                    | Sim                    |
-| **Exchange no local** (sincronizar com o Azure AD) | Sim <sup>1</sup> | Sim <sup>1</sup>   | Sim <sup>3</sup> | Sim                   | Sim <sup>8</sup>         | Não                          | Sim          | Sim             | Não                      | Sim <sup>4</sup> | Sim <sup>5</sup>                   | Sim                    | Sim                    |
+| **Exchange no local** (sincronizar com o Azure AD) | Sim <sup>1,9</sup> | Sim <sup>1</sup>   | Sim <sup>3</sup> | Sim                   | Sim <sup>8</sup>         | Não                          | Sim          | Sim             | Não                      | Sim <sup>4</sup> | Sim <sup>5</sup>                   | Sim                    | Sim                    |
 
 <sup>1</sup> Descoberta eletrônica e Retenção legal para conformidade nas mensagens de canal têm suporte para todas as opções de hospedagem.
 
@@ -66,6 +66,8 @@ A tabela a seguir fornece uma referência rápida útil para a disponibilidade d
 
 <sup>7</sup>O Teams respeita a configuração da [Política de caixa de correio do Outlook na Web](https://docs.microsoft.com/powershell/module/exchange/client-access/set-owamailboxpolicy) configurada pelos administradores de locatários para controlar se os usuários podem alterar a imagem de perfil. Se a **configuração -SetPhotoEnabled** estiver desabilitada na política, os usuários não poderão adicionar, alterar ou remover sua imagem de perfil, para que a imagem de arquivo porfile não seja sincronizada com as equipes se o administrador alterar a foto.
 <sup>8</sup> Você precisa atender aos requisitos listados na seção[Requisitos para criar e exibir reuniões para caixas de correio do local](#requirements-to-create-and-view-meetings-for-mailboxes-hosted-on-premises).
+
+<sup>9</sup> Um mínimo de uma licença do Plano 1 do Exchange Online também é necessário. Para obter mais informações, consulte [Pesquisar dados de chat do Teams para usuários locais.](https://docs.microsoft.com/microsoft-365/compliance/search-cloud-based-mailboxes-for-on-premises-users)
 
 ## <a name="requirements-to-get-the-most-out-of-microsoft-teams"></a>Treinamentos para ajudar seus usuários a usufruir ao máximo o Microsoft Teams
 
@@ -105,12 +107,12 @@ Se as caixas de correio forem hospedadas no local, para criar e exibir reuniões
 
 Para habilitar a delegação de calendário para esses usuários:
 
-- Você também deve concluir as etapas 2-3 conforme descrito em [Configurar integração e OAuth entre o Skype for Business Online e o Exchange Server](https://docs.microsoft.com/skypeforbusiness/deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises) Essas etapas fornecerão ao aplicativo de agendamento do Teams as permissões necessárias para confirmar as permissões de delegação.
+- Você também deve concluir etapas conforme descrito em [Configure Integration and OAuth between Skype for Business Online and Exchange Server;](https://docs.microsoft.com/skypeforbusiness/deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises) essas etapas fornecerão ao aplicativo de agendamento do Teams as permissões necessárias para confirmar permissões de representante.
  
   > [!NOTE]
   > A etapa 2 inclui uma atribuição de função para ArchiveApplication, que não é necessária para delegação.
 
-- O suplemento de agendamento do Teams para Outlook ao agendar uma reunião em nome de alguém requer o Exchange 2013 CU19 ou posterior. Isso é para oferecer suporte à descoberta não autenticada da caixa de correio por nosso serviço para verificar as permissões delegadas na caixa de correio do delegador. O local do delegado e do delegador podem ser o Exchange 2013 ou posterior ou o Exchange online, mas a Descoberta Automática deve ser resolvida para o Exchange 2013 CU19 ou posterior.
+- O complemento Agendamento do Teams para Outlook requer o Exchange 2013 CU19 ou posterior ao agendar uma reunião em nome de outra pessoa. Isso é para oferecer suporte à descoberta não autenticada da caixa de correio por nosso serviço para verificar as permissões delegadas na caixa de correio do delegador. O local do delegado e do delegador podem ser o Exchange 2013 ou posterior ou o Exchange online, mas a Descoberta Automática deve ser resolvida para o Exchange 2013 CU19 ou posterior.
 
 ## <a name="additional-considerations"></a>Considerações adicionais
 

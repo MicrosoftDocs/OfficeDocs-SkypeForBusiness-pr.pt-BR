@@ -16,16 +16,16 @@ ms.collection:
 search.appverid: MET150
 localization_priority: Normal
 description: Este artigo fornece orientações sobre como usar dispositivos de painéis do Teams.
-ms.openlocfilehash: eba450b42bb66dfbe202290cdd235a0d4db9e710
-ms.sourcegitcommit: 6785d7f1ef5d2010ab334ec8cc46884327a53662
+ms.openlocfilehash: f5afdb5ec9ec7cb6d6c7e86487dbaf27af98bafc
+ms.sourcegitcommit: 2eaf80bca6dfad367283e57662d81a809c9437e8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/01/2021
-ms.locfileid: "50395322"
+ms.lasthandoff: 03/22/2021
+ms.locfileid: "50997439"
 ---
 # <a name="how-to-use-microsoft-teams-panels"></a>Como usar painéis do Microsoft Teams
 
-Os painéis do Microsoft Teams são dispositivos de exibição digital compactos que são montados fora dos espaços de reunião, normalmente ao lado de entradas. Esses painéis touchscreen são dispositivos dedicados do Microsoft Teams que fornecem uma visão geral sobre o espaço de reunião e a reunião agendada. Com os indicadores de LED e tela inicial codificados por cores vibrantes, você pode determinar se o espaço está disponível ou reservado de uma distância. Você pode usar painéis do Teams para reservar um espaço de reunião disponível para uma reunião ad hoc, no local.
+Os painéis do Microsoft Teams são dispositivos de exibição digital compactos que são montados fora dos espaços de reunião, normalmente ao lado de entradas. Esses painéis touchscreen são dispositivos dedicados do Microsoft Teams que fornecem uma visão geral sobre seu espaço de reunião e a reunião agendada. Com os indicadores de LED e tela inicial codificados por cores vibrantes, você pode determinar se o espaço está disponível ou reservado de uma distância. Você pode usar painéis do Teams para reservar um espaço de reunião disponível para uma reunião ad hoc, no local.
 
 Os dispositivos de painéis do Teams vêm pré-instalados com o Microsoft Teams e exibem detalhes da reunião agendados por meio de calendários do Outlook ou do Teams.
 
@@ -82,7 +82,7 @@ O azulejo aparece em roxo para um espaço de reunião reservado para uma reuniã
 
 #### <a name="meeting-space-is-reserved-for-an-ad-hoc-meeting"></a>O espaço de reunião é reservado para uma reunião ad hoc
 
-O azulejo aparece em roxo para um espaço de reunião reservado [para uma reunião ad hoc.](#reserve-meeting-spaces-for-ad-hoc-meetings) Ele exibe **Reservado em texto** proeminente e horários de início e fim da reunião. Ao agendar reuniões ad hoc do painel (em vez de calendários do Outlook ou do Teams), você realmente agenda o calendário desse espaço de reunião. Essas reuniões são agendadas automaticamente como reuniões do Teams, portanto, o logotipo do Teams sempre aparece na tela.
+O azulejo aparece em roxo para um espaço de reunião reservado [para uma reunião ad hoc.](#reserve-meeting-spaces-for-ad-hoc-meetings) Ele exibe **Reservado em texto** proeminente juntamente com os horários de início e término da reunião. As reuniões ad hoc são agendadas automaticamente como reuniões do Teams, portanto, o logotipo do Teams sempre aparece na tela.
 
 :::image type="content" source="../media/panels-right-tile-reserved-adhoc.png" alt-text="Painéis do Teams Tela inicial mostrando que o espaço de reunião está reservado para uma reunião ad hoc":::
 
@@ -113,7 +113,7 @@ Para reservar um espaço de reunião disponível para uma reunião ad hoc:
     >
     > - As opções de hora final são exibidas em intervalos de 15 minutos de uma hora.
     > - A hora de término é padrão para o próximo intervalo de 15 minutos que é pelo menos cinco minutos após a hora atual. Por exemplo, se a hora atual for 13:57, a hora de término padrão será exibida como 14:15 e não 14:00. Isso impede que os usuários reservem o espaço por cinco minutos ou menos. Na captura de tela acima, a hora de término padrão é exibida como 14:00 PM, que é o próximo intervalo de 15 minutos que é pelo menos cinco minutos após a hora atual (13:53 PM).
-    > - Uma exceção à regra acima é quando a hora de início da próxima reunião é dentro de cinco minutos da hora atual. Nesses casos, você pode reservar o espaço até a próxima hora de início da reunião. Por exemplo, se a hora atual for 13:57 e a próxima hora de início da reunião for 14:00, as 14:00 serão exibidas como a única opção de hora de término e você poderá reservar o espaço por três minutos.
+    > - Uma exceção à regra acima é quando a hora de início da próxima reunião está dentro de cinco minutos a partir da hora atual. Nesses casos, você pode reservar o espaço até a próxima hora de início da reunião. Por exemplo, se a hora atual for 13:57 e a próxima hora de início da reunião for 14:00, as 14:00 serão exibidas como a única opção de hora de término e você poderá reservar o espaço por três minutos.
 
 3. Toque no intervalo de tempo de término desejado e toque em **Reserva**.
 
@@ -147,7 +147,7 @@ Para relatar um problema com o dispositivo ou o espaço de reunião, para  solic
 
 ### <a name="view-or-update-a-device-setting"></a>Exibir ou atualizar uma configuração de dispositivo
 
-Há várias configurações de dispositivo, como sobre, acessibilidade, reinicialização, política de privacidade que você pode exibir ou atualizar diretamente dos painéis. As configurações de dispositivo disponíveis podem diferir com base no OEM (Fabricante de Equipamento Original) do dispositivo. Para obter informações sobre configurações específicas do seu dispositivo, consulte a documentação do OEM.
+Há várias configurações de dispositivo, como cerca, acessibilidade, reinicialização e política de privacidade que você pode exibir ou atualizar diretamente dos painéis. As configurações de dispositivo disponíveis podem diferir com base no OEM (Fabricante de Equipamento Original) do dispositivo. Para obter informações sobre configurações específicas do seu dispositivo, consulte a documentação do OEM.
 
 Para exibir ou atualizar uma configuração de dispositivo:
 
@@ -217,7 +217,7 @@ Os administradores podem escolher vermelho ou roxo como a cor LED para indicar q
 Encontre respostas para perguntas frequentes sobre os dispositivos de painéis do Teams.
 
 **Até que ponto, no futuro, posso ver os detalhes de agendamento de um espaço de reunião?**  
-No **azulamento** Calendário futuro (inferior direito) na tela Inicial, você pode ver os detalhes de agendamento de um espaço de reunião por até 24 horas no futuro a partir da hora atual.
+No próximo bloqueio **Calendário** (inferior direito) na tela Inicial, você pode ver os detalhes de agendamento de um espaço de reunião por até 24 horas no futuro a partir da hora atual.
 
 **Posso reservar um espaço de reunião para uma hora futura do dispositivo de painéis do Teams?**  
 Não, você não pode reservar um espaço de reunião para uma hora futura de painéis. A hora de início é sempre a hora atual de uma reunião ad hoc agendada de painéis.
