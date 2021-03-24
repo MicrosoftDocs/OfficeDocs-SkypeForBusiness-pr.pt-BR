@@ -19,12 +19,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 description: Gerenciar recursos e funcionalidades de acesso de convidados no Microsoft Teams por meio de quatro níveis diferentes de autorização.
-ms.openlocfilehash: 40bc8c68ac3f1ad3117fa47aa0aad5f14ff3be69
-ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
-ms.translationtype: HT
+ms.openlocfilehash: d52fdeb1f9867ac1faa0f8cf77023109155a8967
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49030987"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51094463"
 ---
 # <a name="authorize-guest-access-in-microsoft-teams"></a>Autorizar o acesso para convidado no Microsoft Teams
 
@@ -35,12 +35,12 @@ Para satisfazer os requisitos da sua organização, você pode gerenciar os recu
 - **Grupos do Microsoft 365**: controla a experiência do convidado no Teams e Grupos do Microsoft 365.
 - **Microsoft Office SharePoint Online e Microsoft OneDrive**: controla a experiência do convidado no Microsoft Office SharePoint Online, Microsoft OneDrive,Grupos do Microsoft 365 e Microsoft Teams.
 
-Esses níveis diferentes de autorização fornecem flexibilidade para a forma como você configura o acesso de convidados para sua organização. Por exemplo, se você não deseja permitir usuários convidados no Teams, mas deseja permitir isso de forma geral em sua organização, basta desabilitar o acesso de convidados no Teams. Outro exemplo: você pode habilitar o acesso de convidado nos níveis do Microsoft Azure Active Directory, Teams e Grupos, mas [desabilita a adição de usuários convidados em equipes selecionadas que correspondem a um ou mais critérios, como classificação de dados é igual a confidencial](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-teams-groups-sites). O Microsoft Office SharePoint Online o Microsoft OneDrive têm suas próprias configurações de acesso de convidado que não dependem do Grupos do Microsoft 365.
+Esses níveis diferentes de autorização fornecem flexibilidade para a forma como você configura o acesso de convidados para sua organização. Por exemplo, se você não deseja permitir usuários convidados no Teams, mas deseja permitir isso de forma geral em sua organização, basta desabilitar o acesso de convidados no Teams. Outro exemplo: você pode habilitar o acesso de convidado nos níveis do Microsoft Azure Active Directory, Teams e Grupos, mas [desabilita a adição de usuários convidados em equipes selecionadas que correspondem a um ou mais critérios, como classificação de dados é igual a confidencial](/microsoft-365/compliance/sensitivity-labels-teams-groups-sites). O Microsoft Office SharePoint Online o Microsoft OneDrive têm suas próprias configurações de acesso de convidado que não dependem do Grupos do Microsoft 365.
 
-Para obter instruções de configuração de acesso de convidado de ponta a ponta, confira [Colaborar com convidados em uma equipe](https://docs.microsoft.com/microsoft-365/solutions/collaborate-as-team).
+Para obter instruções de configuração de acesso de convidado de ponta a ponta, confira [Colaborar com convidados em uma equipe](/microsoft-365/solutions/collaborate-as-team).
 
 > [!NOTE]
-> Os convidados estão sujeitos aos limites de serviços descritos nas [Descrições de serviços do Microsoft 365 e do Office 365](https://go.microsoft.com/fwlink/p/?linkid=282347) e [Limitações da colaboração B2B do Azure AD](https://docs.microsoft.com/azure/active-directory/external-identities/current-limitations). 
+> Os convidados estão sujeitos aos limites de serviços descritos nas [Descrições de serviços do Microsoft 365 e do Office 365](/office365/servicedescriptions/office-365-service-descriptions-technet-library) e [Limitações da colaboração B2B do Azure AD](/azure/active-directory/external-identities/current-limitations). 
 
 O diagrama a seguir mostra como a dependência de autorização de acesso de convidado é concedida e integrada entre o Azure Active Directory, Teams e Microsoft 365.
 
@@ -58,28 +58,28 @@ Os dois diagramas anteriores também estão disponíveis no [Visio](https://gith
 
 ## <a name="control-guest-access-in-azure-active-directory"></a>Controlar o acesso de convidados no Active Directory do Azure
 
-Use o Azure AD para determinar se os colaboradores externos podem ser receber um convite para acessar o seu locatário como convidados, e de que maneira. Para obter mais informações sobre o acesso a convidados B2B do Azure, consulte [O que é o acesso do usuário convidado no B2B do Azure Active Directory](https://docs.microsoft.com/azure/active-directory/b2b/what-is-b2b). Para obter informações sobre as funções do Azure AD, consulte [Conceder permissões a usuários de organizações parceiras em seu locatário do Azure Active Directory](https://docs.microsoft.com/azure/active-directory/b2b/add-guest-to-role).
+Use o Azure AD para determinar se os colaboradores externos podem ser receber um convite para acessar o seu locatário como convidados, e de que maneira. Para obter mais informações sobre o acesso a convidados B2B do Azure, consulte [O que é o acesso do usuário convidado no B2B do Azure Active Directory](/azure/active-directory/b2b/what-is-b2b). Para obter informações sobre as funções do Azure AD, consulte [Conceder permissões a usuários de organizações parceiras em seu locatário do Azure Active Directory](/azure/active-directory/b2b/add-guest-to-role).
 
 As configurações de convites se aplicam no nível da organização e controlam a experiência do convidado no diretório e no aplicativo. É possível definir essas configurações em [Configurações de colaboração externa](https://aad.portal.azure.com/#blade/Microsoft_AAD_IAM/CompanyRelationshipsMenuBlade/Settings).
 
 O Azure Active Directory inclui as seguintes configurações para configurar usuários externos:
 
-- [Restrições de acesso de usuário convidado](https://docs.microsoft.com/azure/active-directory/users-groups-roles/users-restrict-guest-permissions)
+- [Restrições de acesso de usuário convidado](/azure/active-directory/users-groups-roles/users-restrict-guest-permissions)
 
 - **Os administradores e usuários na função de emissor de convite para convidado podem enviar convites**: **Sim** significa que os administradores e usuários na função de emissor de convite para convidado poderão convidar pessoas para o locatário. **Não** significa que os administradores e usuários não podem convidar pessoas para o locatário.
 - **Os membros podem convidar**: para permitir que os membros não administradores do seu diretório convidem pessoas, defina essa política como **Sim** (recomendado). Se preferir que somente os administradores sejam capazes de adicionar convidados, você pode definir essa política como **Não**. Lembre-se de que definir **Não** limitará a experiência de convidado para proprietários de equipes não administrativos; eles só poderão adicionar convidados ao Teams que já foram adicionados ao AAD pelo administrador.
 - **Convidados podem convidar**: **Sim** significa que os convidados em seu diretório podem enviar convites a outros convidados a fim de que colaborem em recursos protegidos pelo seu Azure AD, como sites do SharePoint ou recursos do Azure. **Não** significa que os convidados não podem enviar convites a outros convidados a fim de que colaborem com a sua organização. Mesmo se definido como **Sim**, o convidado não poderá convidar outros convidados no Teams.
  
-Para obter mais informações sobre como controlar quem pode convidar pessoas, confira [Habilitar colaboração externa B2B e gerenciar quem pode convidar pessoas](https://docs.microsoft.com/azure/active-directory/b2b/delegate-invitations).
+Para obter mais informações sobre como controlar quem pode convidar pessoas, confira [Habilitar colaboração externa B2B e gerenciar quem pode convidar pessoas](/azure/active-directory/b2b/delegate-invitations).
 
 > [!NOTE]
-> É possível também gerenciar quais domínios podem receber convites para acessar seu locatário como convidados. Confira [Permitir ou bloquear convites para usuários B2B de organizações específicas](https://docs.microsoft.com/azure/active-directory/external-identities/allow-deny-list).
+> É possível também gerenciar quais domínios podem receber convites para acessar seu locatário como convidados. Confira [Permitir ou bloquear convites para usuários B2B de organizações específicas](/azure/active-directory/external-identities/allow-deny-list).
 
 Não é necessário adicionar a conta de convidado do usuário manualmente ao B2B do Azure AD, pois a conta será adicionada ao diretório automaticamente quando você adicionar o convidado ao Teams.
 
 ### <a name="licensing-for-guest-access"></a>Licenciamento para acesso de convidado
 
-O licenciamento de acesso de convidado usa o preço de identidades Azure Active Directory para Identidade Externas e é baseado em convidados ativos mensais. Confira o [Modelo de cobrança para Identidades Externas do Azure AD](https://docs.microsoft.com/azure/active-directory/external-identities/external-identities-pricing) para obter detalhes.
+O licenciamento de acesso de convidado usa o preço de identidades Azure Active Directory para Identidade Externas e é baseado em convidados ativos mensais. Confira o [Modelo de cobrança para Identidades Externas do Azure AD](/azure/active-directory/external-identities/external-identities-pricing) para obter detalhes.
 
 > [!NOTE]
 > Os usuários em sua organização que possuem apenas planos independentes de assinatura do Office 365, como o Plano 2 do Exchange Online, não podem receber convites para acessar a sua organização como convidados, pois o Teams considera esses usuários como pertencentes à mesma organização. Para esses usuários usarem o Teams, eles devem receber uma assinatura do Microsoft 365 Business Standard, do Office 365 Enterprise ou do Office 365 Education. 
@@ -90,6 +90,6 @@ O licenciamento de acesso de convidado usa o preço de identidades Azure Active 
 
 ## <a name="related-topics"></a>Tópicos relacionados
 
-- [Referência das configurações de compartilhamento de convidados do Microsoft 365](https://docs.microsoft.com/Office365/Enterprise/microsoft-365-guest-settings)
+- [Referência das configurações de compartilhamento de convidados do Microsoft 365](/Office365/Enterprise/microsoft-365-guest-settings)
 
-[Configure a colaboração segura com o Microsoft 365](https://docs.microsoft.com/microsoft-365/solutions/setup-secure-collaboration-with-teams)
+[Configure a colaboração segura com o Microsoft 365](/microsoft-365/solutions/setup-secure-collaboration-with-teams)

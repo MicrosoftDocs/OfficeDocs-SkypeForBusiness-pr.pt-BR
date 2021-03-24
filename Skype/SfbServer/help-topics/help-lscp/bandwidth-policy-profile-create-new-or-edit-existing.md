@@ -1,5 +1,5 @@
 ---
-title: Perfil de Política de Largura de Banda Criar Novo ou Editar Existente
+title: Perfil da Política de Largura de Banda Criar Novo ou Editar Existente
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,18 +15,17 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7c1d072e-a891-48a9-81c0-3696e372f222
 description: O que você deseja fazer? Clique no link para a tarefa que você deseja executar.
-ms.openlocfilehash: 7fd54daec0efc073e52a55782b10357f76484f14
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: a8047318619c15aaed3c82eaf23761f75b02cc0b
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49804941"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51095745"
 ---
 # <a name="bandwidth-policy-profile-create-new-or-edit-existing"></a>Perfil de Política de Largura de Banda: Criar Novo ou Editar Existente
 
 O que você deseja fazer? Clique no link para a tarefa que você deseja executar.
 
-- [Configurando o perfil da política de largura de banda](https://technet.microsoft.com/library/08a2e18f-9b0d-4a2f-aa14-13bbf79ec745.aspx)
+- [Configurando o perfil da política de largura de banda](/previous-versions/office/lync-server-2013/lync-server-2013-creating-or-modifying-bandwidth-policy-profiles)
 
-Para obter detalhes sobre os diferentes procedimentos que você pode executar usando o Painel de Controle do Skype for Business Server, consulte [Gerenciar o Skype for Business Server 2015.](../../manage/manage.md)
-
+Para obter detalhes sobre os diferentes procedimentos que você pode executar usando o Painel de Controle do Skype for Business Server, consulte [Manage Skype for Business Server 2015](../../manage/manage.md).

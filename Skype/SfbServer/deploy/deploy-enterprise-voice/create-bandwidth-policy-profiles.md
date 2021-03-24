@@ -15,21 +15,21 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: a71881ef-b04a-465e-9abb-0577bfd182f3
-description: Criar ou modificar políticas de largura de banda, que são usadas pelo controle de admissão de chamadas do Enterprise Voice no Skype for Business Server.
-ms.openlocfilehash: ac80ebb8b61a763efc0077f267a024a21a359b5d
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Crie ou modifique políticas de largura de banda, que são usadas Enterprise Voice controle de admissão de chamadas no Skype for Business Server.
+ms.openlocfilehash: 9458c5576d2c89254c4ee6477ede33c010cb4a21
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49824841"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51093239"
 ---
 # <a name="create-bandwidth-policy-profiles-in-skype-for-business-server"></a>Criar perfis de política de largura de banda no Skype for Business Server 
  
-Criar ou modificar políticas de largura de banda, que são usadas pelo controle de admissão de chamadas do Enterprise Voice no Skype for Business Server. 
+Crie ou modifique políticas de largura de banda, que são usadas Enterprise Voice controle de admissão de chamadas no Skype for Business Server. 
   
-Políticas de largura de banda definem limitações de uso de largura de banda para modalidades de áudio e vídeo em tempo real. As políticas de largura de banda são aplicadas aos perfis de política de largura de banda, que podem ser aplicados a vários sites de rede para controle de admissão de chamada.
+Políticas de largura de banda definem limitações de uso de largura de banda para modalidades de áudio e vídeo em tempo real. As políticas de largura de banda são aplicadas aos perfis de política debandwidth, que podem ser aplicados a vários sites de rede para controle de admissão de chamada.
   
-Para diretrizes sobre quais limites de largura de banda você deve definir em sua implantação do CAC, consulte Planejar o controle de admissão de chamadas [no Skype for Business Server.](../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md)
+Para diretrizes sobre quais limites de largura de banda você deve definir em sua implantação do CAC, consulte [Plan for call admission control in Skype for Business Server](../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md).
   
 As políticas de exemplo criadas no procedimento a seguir definem limites para o tráfego de áudio geral, sessões de áudio individuais, tráfego de vídeo geral e sessões de vídeo individuais. Por exemplo, o perfil de política de largura de banda 5Mb_Link define os seguintes limites: 
   
@@ -46,7 +46,7 @@ As políticas de exemplo criadas no procedimento a seguir definem limites para o
   
 ### <a name="to-create-bandwidth-policy-profiles-by-using-skype-for-business-server-management-shell"></a>Para criar perfis de política de largura de banda usando o Shell de Gerenciamento do Skype for Business Server
 
-1. Inicie o Shell de Gerenciamento do Skype for Business Server: clique em **Iniciar,** em Todos os **Programas,** no **Skype for Business 2015** e, em seguida, clique no Shell de Gerenciamento do **Skype for Business Server.**
+1. Inicie o Shell de Gerenciamento do Skype for Business Server: clique em **Iniciar,** em Todos os **Programas,** em **Skype for Business 2015** e em Shell de Gerenciamento do **Skype for Business Server.**
     
 2. Para cada perfil de política de largura de banda que desejar criar, execute o cmdlet New-CsNetworkBandwidthPolicyProfile. Por exemplo, execute:
     
@@ -94,10 +94,10 @@ As políticas de exemplo criadas no procedimento a seguir definem limites para o
     
 ## <a name="see-also"></a>Confira também
 
-[New-CsNetworkBandwidthPolicyProfile](https://docs.microsoft.com/powershell/module/skype/new-csnetworkbandwidthpolicyprofile?view=skype-ps)
+[New-CsNetworkBandwidthPolicyProfile](/powershell/module/skype/new-csnetworkbandwidthpolicyprofile?view=skype-ps)
   
-[Get-CsNetworkBandwidthPolicyProfile](https://docs.microsoft.com/powershell/module/skype/get-csnetworkbandwidthpolicyprofile?view=skype-ps)
+[Get-CsNetworkBandwidthPolicyProfile](/powershell/module/skype/get-csnetworkbandwidthpolicyprofile?view=skype-ps)
   
-[Set-CsNetworkBandwidthPolicyProfile](https://docs.microsoft.com/powershell/module/skype/set-csnetworkbandwidthpolicyprofile?view=skype-ps)
+[Set-CsNetworkBandwidthPolicyProfile](/powershell/module/skype/set-csnetworkbandwidthpolicyprofile?view=skype-ps)
   
-[Remove-CsNetworkBandwidthPolicyProfile](https://docs.microsoft.com/powershell/module/skype/remove-csnetworkbandwidthpolicyprofile?view=skype-ps)
+[Remove-CsNetworkBandwidthPolicyProfile](/powershell/module/skype/remove-csnetworkbandwidthpolicyprofile?view=skype-ps)

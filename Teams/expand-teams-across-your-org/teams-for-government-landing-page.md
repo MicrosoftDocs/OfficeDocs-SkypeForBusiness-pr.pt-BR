@@ -13,20 +13,20 @@ ms.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c83f4f3b0fe0600c1f46da612d35f75aa67d74cc
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 478f15ee880d03c13d46249ba467380e0e631254
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49825311"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51092399"
 ---
 # <a name="teams-for-government"></a>Teams para a Administração Pública
 
-Use esses recursos para saber mais sobre considerações específicas sobre a implantação do Teams em ambientes do Microsoft 365 Government. Quando estiver pronto, siga o mesmo caminho de implantação recomendado para o Teams conforme descrito em [Como lançar o Microsoft Teams.](../How-to-roll-out-teams.md)
+Use esses recursos para saber mais sobre considerações específicas sobre a implantação do Teams em ambientes do Microsoft 365 Government. Quando estiver pronto, siga o mesmo caminho de implantação recomendado para o Teams, conforme descrito em [Como lançar o Microsoft Teams](../deploy-overview.md).
 
 |               |               |
 | ------------- | ------------- |
-| ![list-123-teams](../media/list-123-teams.svg)  |  [Planejar implantações do Microsoft 365 Government - GCC](https://docs.microsoft.com/MicrosoftTeams/plan-for-government-gcc) |
-| ![tarefas-equipes](../media/tasks-teams.svg) | [Plano para o Microsoft 365 Government - GCC Alto](https://docs.microsoft.com/microsoftteams/plan-for-government-gcc-high) |
-| ![equipes de planejamento de lista de tarefas](../media/task-list-planning-teams.svg)  |  [Planejar implantações do Microsoft 365 Government - DOD](https://docs.microsoft.com/microsoftteams/plan-for-government-dod) |
-| ![seta para a direita-2-equipes](../media/arrow-right-2-teams.svg)  |  [Conferências de Áudio com Roteamento Direto para GCC Alto e DoD](https://docs.microsoft.com/microsoftteams/audio-conferencing-with-direct-routing-for-gcch-and-dod) |
+| ![Captura de tela do ícone de lista numerada](../media/list-123-teams.svg)  |  [Planejar implantações do Microsoft 365 Government - GCC](../plan-for-government-gcc.md) |
+| ![Captura de tela da área de transferência com uma lista de tarefas ícone](../media/tasks-teams.svg) | [Plano para o Microsoft 365 Government - GCC Alto](../plan-for-government-gcc-high.md) |
+| ![Captura de tela do ícone de itens de lista com marcador](../media/task-list-planning-teams.svg)  |  [Planejar implantações do Microsoft 365 Government - DOD](../plan-for-government-dod.md) |
+| ![Captura de tela do ícone de seta direita](../media/arrow-right-2-teams.svg)  |  [Conferências de Áudio com Roteamento Direto para GCC Alto e DoD](../audio-conferencing-with-direct-routing-for-gcch-and-dod.md) |

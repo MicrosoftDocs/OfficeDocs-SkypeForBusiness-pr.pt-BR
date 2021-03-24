@@ -19,12 +19,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fe8b9192c9d1b85e23f2d17daa067630cebd15f2
-ms.sourcegitcommit: 31a585cc0fe6350efacf3a7771d1e590d5e4233c
+ms.openlocfilehash: ddbdc84228011c4db3c0eab01bb1bab4f5d773c6
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "50614927"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51092599"
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>Usar o suplemento de Reunião do Teams no Outlook
 =======================================
@@ -121,7 +121,7 @@ Você só pode aplicar esta política a usuários que estão no modo Ilhas e tê
 
 O suplemento de Reunião do Teams ainda está desenvolvendo funcionalidades, então esteja ciente do seguinte:
 
-- O suplemento de Reunião do Teams requer uma caixa de correio do Exchange para o usuário principal que está agendando a reunião. Certifique-se de ter pelo menos uma caixa de correio do Exchange configurada em seu perfil do Outlook e use-a para agendar reuniões do Teams com o suplemento. Para requisitos do Exchange, consulte [Como o Exchange e o Teams interagem](https://docs.microsoft.com/microsoftteams/exchange-teams-interact).
+- O suplemento de Reunião do Teams requer uma caixa de correio do Exchange para o usuário principal que está agendando a reunião. Certifique-se de ter pelo menos uma caixa de correio do Exchange configurada em seu perfil do Outlook e use-a para agendar reuniões do Teams com o suplemento. Para requisitos do Exchange, consulte [Como o Exchange e o Teams interagem](./exchange-teams-interact.md).
 - O suplemento destina-se a reuniões agendadas com participantes específicos, não a reuniões em um canal. As reuniões do canal devem ser agendadas dentro do Teams.
 - O suplemento não funcionará se houver um Proxy de Autenticação no caminho de rede do computador do usuário e dos Serviços do Teams.
 - Os usuários não podem agendar eventos ao vivo no Outlook. Vá para o Teams para agendar eventos ao vivo. Para obter mais informações, consulte [O que são eventos ao vivo do Microsoft Teams?](teams-live-events/what-are-teams-live-events.md).
@@ -142,7 +142,7 @@ Alternativamente, execute as seguintes etapas manualmente:
 
 - Os usuários do Windows 7 devem instalar a [atualização para o Tempo de execução do Windows Universal C](https://support.microsoft.com/help/2999226/update-for-universal-c-runtime-in-windows) para que o suplemento de Reunião do Teams funcione.
 - Verifique se o usuário tem uma política de atualização do Teams que permite agendar reuniões no Teams. Consulte [Atualização do Skype for Business para Teams](https://docs.microsoft.com/microsoftteams/upgrade-to-teams-on-prem-overview#meetings) para obter mais detalhes.
-- Verifique se o usuário tem uma política de Reuniões do Teams que permite o complemento do Outlook. Consulte [Gerenciar políticas de reunião no Teams](https://docs.microsoft.com/microsoftteams/meeting-policies-in-teams#allow-the-outlook-add-in) para obter mais detalhes.
+- Verifique se o usuário tem uma política de Reuniões do Teams que permite o complemento do Outlook. Consulte [Gerenciar políticas de reunião no Teams](./meeting-policies-in-teams.md#allow-the-outlook-add-in) para obter mais detalhes.
 - Certifique-se de que o usuário tenha o cliente de área de trabalho do Teams instalado. O suplemento da reunião não será instalado ao usar apenas o cliente web Teams.
 - Certifique-se de que o usuário tenha o Outlook 2013 ou posterior instalado.
 - Certifique-se de que o usuário tenha permissão para executar o regsvr32.exe.
@@ -175,11 +175,11 @@ Se o suplemento ainda não aparecer, use as seguintes etapas para verificar as c
 
 ### <a name="delegate-scheduling-does-not-work"></a>Agendamento de delegação não funciona
 
-Se o seu administrador configurou o Microsoft Exchange para [controlar o acesso ao Exchange Web Server (EWS)](https://docs.microsoft.com/exchange/client-developer/exchange-web-services/how-to-control-access-to-ews-in-exchange), um representante não poderá agendar uma reunião do Teams em nome do chefe. A solução para esta configuração está em desenvolvimento e será lançada no futuro. Como solução alternativa, o administrador pode adicionar a seguinte cadeia de caracteres à Lista de permissões do EWS: "*SchedulingService*". 
+Se o seu administrador configurou o Microsoft Exchange para [controlar o acesso ao Exchange Web Server (EWS)](/exchange/client-developer/exchange-web-services/how-to-control-access-to-ews-in-exchange), um representante não poderá agendar uma reunião do Teams em nome do chefe. A solução para esta configuração está em desenvolvimento e será lançada no futuro. Como solução alternativa, o administrador pode adicionar a seguinte cadeia de caracteres à Lista de permissões do EWS: "*SchedulingService*". 
 
 
 ## <a name="related-topics"></a>Tópicos relacionados
 
-- [Solução de problemas do Teams](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)
+- [Solução de problemas do Teams](/MicrosoftTeams/troubleshoot/teams)
 
 - [Agende uma reunião de Teams no Outlook](https://support.microsoft.com/office/schedule-a-teams-meeting-from-outlook-883cc15c-580f-441a-92ea-0992c00a9b0f)

@@ -30,12 +30,12 @@ f1.keywords:
 - CSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: abb88c42de7858a80ade93953f08a168feb533e2
-ms.sourcegitcommit: ac73536f790f83a61eeb2eb8c6b71662f7bd26fc
+ms.openlocfilehash: 9e24447b2e6d7a94e618611ec3fd9b54bda70a6a
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "50110314"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51093811"
 ---
 # <a name="get-started-on-your-upgrade-from-skype-for-business-to-microsoft-teams"></a>Começar a atualizar do Skype for Business para o Microsoft Teams
 
@@ -45,7 +45,7 @@ Se você estiver atualizando do Skype for Business Online para o Teams ou de um 
 
 | Ícone | Descrição |
 | --- | --- |
-|![Símbolo passo a passo](https://docs.microsoft.com/office/media/icons/walkthrough-map-teams.png) | **Hub de atualização:** encontre uma visão geral de todas as diretrizes, treinamentos e recursos necessários para implementar uma atualização bem-sucedida do Skype for Business para o Teams em Planejar sua atualização do Skype for Business para o [Microsoft Teams.](upgrade-skype-teams.yml)|
+|![Símbolo passo a passo](/office/media/icons/walkthrough-map-teams.png) | **Hub de** atualização : encontre uma visão geral de todas as diretrizes, treinamentos e recursos necessários para implementar uma atualização bem-sucedida do Skype for Business para o Teams em Planejar sua atualização do Skype for Business para o [Microsoft Teams.](upgrade-skype-teams.yml)|
 
 Continue lendo para perguntas frequentes sobre atualização.
 
@@ -59,21 +59,21 @@ O Skype for Business Online será desativado em 31 de julho de 2021, e depois di
 
 ## <a name="can-we-continue-to-use-skype-for-business-online-as-we-prepare-for-and-execute-our-upgrade-to-teams"></a>Podemos continuar usando o Skype for Business online enquanto nos preparamos e executamos nossa atualização para o Teams?
 
-Sim, a Microsoft oferece várias opções para executar o Skype for Business Online e o Teams juntos. Esses modos de coexistência permitem que seus usuários se familiarizem com o Teams hoje e ajudam a acelerar a atualização para utilizar apenas o Teams. Para saber mais, confira [https://aka.ms/SkypeToTeams-Coexist](https://aka.ms/SkypeToTeams-Coexist).
+Sim, a Microsoft oferece várias opções para executar o Skype for Business Online e o Teams juntos. Esses modos de coexistência permitem que seus usuários se familiarizem com o Teams hoje e ajudam a acelerar a atualização para utilizar apenas o Teams. Para saber mais, confira [https://aka.ms/SkypeToTeams-Coexist](./teams-and-skypeforbusiness-coexistence-and-interoperability.md).
 
-## <a name="is-phone-system-available-for-teams-users"></a>O Sistema telefônico está disponível para usuários do Teams?
+## <a name="is-phone-system-available-for-teams-users"></a>O Sistema de Telefonia está disponível para usuários do Teams?
 
-Sim. O Sistema telefônico está disponível para todos os usuários do Teams depois que eles são movidos para o modo TeamsOnly.  Além disso, a Microsoft fornece opções para se conectar à PSTN (Rede Telefônica Pública Comuada) para que os usuários possam fazer chamadas telefônicas em qualquer lugar do mundo. Para obter mais informações, consulte [Voz – Sistema telefônico e conectividade PSTN.](cloud-voice-landing-page.md)
+Sim. O Sistema de Telefonia está disponível para todos os usuários do Teams depois que eles são movidos para o modo TeamsOnly.  Além disso, a Microsoft fornece opções para se conectar à PSTN (Rede Telefônica Pública Comucionada) para que os usuários possam fazer chamadas telefônicas em qualquer lugar do mundo. Para obter mais informações, [consulte Voice - Phone System and PSTN connectivity](cloud-voice-landing-page.md).
 
 ## <a name="can-we-continue-to-use-our-on-premises-telephony-infrastructure"></a>Podemos continuar a usar nossa infraestrutura de telefonia local?
 
-Sim. Com o Roteamento Direto do Sistema telefônico, você pode usar o Sistema telefônico com praticamente qualquer operadora de telefonia. Com o Roteamento Direto, você conecta seu próprio Controlador de Borda de Sessão (SBC) diretamente ao Sistema telefônico. Para obter mais informações, consulte [Roteamento Direto do Sistema de Telefone.](direct-routing-landing-page.md)
+Sim. Com o Roteamento Direto do Sistema de Telefonia, você pode usar o Sistema de Telefonia com praticamente qualquer operadora de telefonia. Com o Roteamento Direto, você conecta seu próprio Controlador de Borda de Sessão (SBC) diretamente ao Sistema de Telefonia. Para obter mais informações, consulte [Roteamento Direto do Sistema de Telefonia](direct-routing-landing-page.md).
  
 ## <a name="how-is-microsoft-helping-customers-with-their-migration-to-teams"></a>Como a Microsoft está ajudando os clientes com a migração para o Teams? 
 
 A Microsoft assume o compromisso de ajudar você a migrar do Skype for Business para o Teams com sucesso. A Microsoft está fornecendo diretrizes robustas, criadas com base em uma estrutura de sucesso de atualização de ponta a ponta comprovada, concebida para ajudá-lo a planejar e executar a atualização para o Teams. Nossas diretrizes foram projetadas para cada estágio da viagem de atualização, quer você esteja apenas começando o planejamento, executando o Teams em conjunto com o Skype for Business ou pronto para atualizar para o Teams.
 
-Para facilitar o planejamento e a implementação da atualização, a Microsoft está hospedando workshops gratuitos de planejamento de atualização interativos, concebidos especialmente para que você possa se familiarizar com a estrutura de atualização, compartilhar ideias para preparar seus usuários para a atualização e identificar o caminho certo para a sua organização na sua jornada para atualizar para o Teams. Junte-se a nós para uma sessão de visão geral do planejamento: [https://aka.ms/SkypeToTeamsPlanning](https://aka.ms/SkypeToTeamsPlanning).
+Para facilitar o planejamento e a implementação da atualização, a Microsoft está hospedando workshops gratuitos de planejamento de atualização interativos, concebidos especialmente para que você possa se familiarizar com a estrutura de atualização, compartilhar ideias para preparar seus usuários para a atualização e identificar o caminho certo para a sua organização na sua jornada para atualizar para o Teams. Junte-se a nós para uma sessão de visão geral do planejamento: [https://aka.ms/SkypeToTeamsPlanning](./upgrade-workshops-landing-page.yml).
  
 ## <a name="why-do-i-need-upgrade-guidance-cant-i-just-deletedecommission-skype-for-business"></a>Por que preciso de diretrizes de atualização? Não posso apenas excluir/encerrar o Skype for Business? 
 
@@ -83,7 +83,7 @@ A atualização do Skype for Business para o Teams é mais do que uma migração
 
 Inicie a sua jornada familiarizando-se com a nossa estrutura de sucesso de atualização e recursos associados. Essas diretrizes servem como base para navegar pela sua jornada do Skype for Business para o Teams.
 
-[Saiba mais sobre a estrutura de atualização](upgrade-framework.md) e junte-se a nós para uma [sessão de visão geral do planejamento de atualização](https://aka.ms/SkypeToTeamsPlanning).
+[Saiba mais sobre a estrutura de atualização](upgrade-framework.md) e junte-se a nós para uma [sessão de visão geral do planejamento de atualização](./upgrade-workshops-landing-page.yml).
 
 > [!IMPORTANT]
 > Lembre-se de que uma atualização bem-sucedida garante a prontidão técnica e do usuário, portanto não deixe de aproveitar as diretrizes apresentadas na sua jornada de atualização para o Microsoft Teams.

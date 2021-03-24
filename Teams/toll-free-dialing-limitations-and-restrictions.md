@@ -22,19 +22,19 @@ ms.custom:
 - Calling Plans
 - Strat_SB_PSTN
 - seo-marvel-mar2020
-description: Saiba mais sobre como discar números de discagem gratuita em um país/região, incluindo disponibilidade, disponibilidade de rede com fio/fixo e rede móvel e restrições.
-ms.openlocfilehash: 450f9cf2084cc93588f4dbf40d56cf5177eaaa15
-ms.sourcegitcommit: c49698e03fa3bdd7c82496189b200ac6bb4e05a1
+description: Saiba mais sobre discagem de números gratuitos em um país/região, incluindo disponibilidade, disponibilidade de rede com fio/fixa e rede móvel e restrições.
+ms.openlocfilehash: 2d4fe611683217d058e9fb2a9a8330c4d6e2798c
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "48322300"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51093891"
 ---
 # <a name="toll-free-dialing-limitations-and-restrictions"></a>Limitações e restrições de discagem gratuita
 
-Isso ajudará você a descobrir como discar números de discagem gratuita em cada país ou região. Depois de selecionar o país/região, ele o levará para uma página que contém onde o serviço de tarifa gratuita está disponível, incluindo detalhes, restrições e limites específicos. O formato ou formato de discagem mostrará os códigos de acesso necessários em cada país/região para discar o número de discagem gratuita.
+Isso ajudará você a descobrir como discar números gratuitos em cada país ou região. Depois de selecionar o país/região, ele o levará a uma página que contém onde o serviço gratuito está disponível, incluindo detalhes, restrições e limites específicos. Os formatos ou formatos de discagem mostrarão os códigos de acesso necessários em cada país/região para discar o número gratuito.
   
-Se estiver pronto, selecione um país ou região:
+Se você estiver pronto, selecione um país ou região:
   
 ## <a name="select-your-country-or-region-to-see-the-dialing-codes-limitations-and-restrictions"></a>Selecione seu país ou região para ver os códigos de discagem, limitações e restrições.
 
@@ -105,26 +105,25 @@ Se estiver pronto, selecione um país ou região:
 > - [Venezuela](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-venezuela.md)
 > - [Vietnã ](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-vietnam.md)
   
-## <a name="here-are-some-important-things-for-you-to-remember-about-toll-free-numbers"></a>Aqui estão algumas coisas importantes para você se lembrar sobre números de gratuita:
+## <a name="here-are-some-important-things-for-you-to-remember-about-toll-free-numbers"></a>Aqui estão algumas coisas importantes para você lembrar sobre números gratuitos:
 
-- **Os números de tarifa gratuita só funcionam em cada país/região.** Por exemplo, os usuários não poderão ligar para um número de chamada gratuita australiano fora da Austrália.
+- **Os números de tarifação gratuita operam apenas em cada país/região.** Por exemplo, seus usuários não poderão chamar um número de chamada gratuita australiano fora da Austrália.
     
-- **Não há suporte para aquisição ou portação de UIFN (Universal International Freephone Numbers).**
+- **Não há suporte para a aquisição ou portação de UIFN (Universal International Freephone Numbers).**
     
-- **Em muitos países/regiões, a agência regulatória/de telecomunicações do país/região exige que cada número de telefone de chamada gratuita mantenha pelo menos 100 minutos de uso por mês para manter o número.**
+- **Em muitos países/regiões, a agência reguladora/de telecomunicações no país/região exige que cada número de telefone gratuito mantenha pelo menos 100 minutos de uso por mês para manter o número.**
     
     > [!NOTE]
-    > Caso você receba um número de tarifa gratuita e o uso do número não atender a esses requisitos mínimos, a Microsoft poderá ser obrigado pela agência de regulamentação/telecomunicações a recuperar o número de você. 
+    > Caso você receba um número gratuito e o uso do número não atender a esses requisitos mínimos, a Microsoft poderá ser obrigada pela agência reguladora/telecomunicações a recuperar o número de você. 
   
-- **O acesso de linha, linha fixa e rede móvel a números de ligação gratuita pode estar totalmente ou parcialmente restrito.** O formato de discagem descreve os códigos de acesso necessários em cada país/região para fazer chamadas usando o número gratuito.
+- **O acesso de rede telefônica, fixa e de rede móvel a números gratuitos pode ser totalmente ou parcialmente restrito.** O formato de discagem descreve os códigos de acesso necessários em cada país/região para fazer chamadas usando o número gratuito.
     
-- Números de tarifa gratuita **do plano de numeração** da América do Norte: As taxas por minuto para números de tarifa gratuita do Plano de Numeração da América do Norte são determinadas pelo país de origem. A tarifa de chamada gratuita por minuto para chamadas que se originam do mapa dos Estados Unidos para a taxa definida como "América do Norte". No entanto, as chamadas que se originam de outros países da América do Norte, como Canadá, Porto Rico etc. têm tarifas de chamada gratuita específicas.
+- **Número do Plano de Numeração da América do Norte:** As taxas por minuto do Plano de Numeração da América do Norte são determinadas pelo país de origem. A taxa de chamada gratuita por minuto para chamadas que se originam do mapa dos Estados Unidos para a taxa definida como "América do Norte". No entanto, as chamadas que se originam de outros países da América do Norte, como Canadá, Porto Rico, etc. têm tarifas de chamada gratuita específicas.
 
 > [!NOTE]
 > Se precisar de mais números de telefone, veja [Contatar o suporte de produtos para empresas - Ajuda para administradores](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
     
 ## <a name="related-topics"></a>Tópicos relacionados
-[Obtendo números de telefone de serviço do Skype for Business e do Microsoft Teams](/microsoftteams/getting-service-phone-numbers)
+[Obtendo números de telefone de serviço do Skype for Business e do Microsoft Teams](./getting-service-phone-numbers.md)
 
   
- 

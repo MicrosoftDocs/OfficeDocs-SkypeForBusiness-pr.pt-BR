@@ -21,12 +21,12 @@ description: O administrador do Teams ou de TI pode configurar o acesso externo 
 appliesto:
 - Microsoft Teams
 localization_priority: Priority
-ms.openlocfilehash: c41b051f7c11d27417885c9ada22d9337d50dfdb
-ms.sourcegitcommit: c477aa1a7da0b6b9bea1f5d10f1395eef418bfdb
+ms.openlocfilehash: f475fea52e28981e99b1456d52d291473ff8fc50
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "50711768"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51092259"
 ---
 # <a name="manage-external-access-in-microsoft-teams"></a>Gerenciar o acesso externo no Microsoft Teams
 
@@ -50,7 +50,7 @@ Usar o acesso externo quando:
 O acesso externo é ativado por padrão no Teams, o que significa que sua organização pode se comunicar com todos os domínios externos. Se adicionar domínios bloqueados, todos os outros domínios serão permitidos; mas se adicionar domínios permitidos, todos os outros domínios serão bloqueados. A exceção a esta regra é se participantes anônimos são permitidos nas reuniões. Existem três cenários para configurar o acesso externo no centro de administração do Teams (**Configurações gerais de organização** > **Acesso externo**):
 
 > [!NOTE]
-> Se você desabilitar o acesso externo em sua organização, os usuários externos ainda poderão ingressar em reuniões por meio de ingresso anônimo. Para saber mais, veja [Gerenciar configurações de reunião no Teams](https://docs.microsoft.com/microsoftteams/meeting-settings-in-teams).
+> Se você desabilitar o acesso externo em sua organização, os usuários externos ainda poderão ingressar em reuniões por meio de ingresso anônimo. Para saber mais, veja [Gerenciar configurações de reunião no Teams](./meeting-settings-in-teams.md).
 
 - **Federação aberta**: essa é a configuração padrão no Teams. Ela permite que as pessoas em sua organização localizem, façam chamadas e enviem mensagens instantâneas, conversem e configurem reuniões com pessoas de fora da sua organização, em qualquer domínio.
 

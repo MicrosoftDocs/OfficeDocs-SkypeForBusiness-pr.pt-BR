@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Saiba como configurar o Sistema de Telefonia para filas de chamadas com o Microsoft Teams, fornecendo uma mensagem de saudação, música de espera, redirecionamento de chamadas e outros recursos.
-ms.openlocfilehash: cc0995a6355157de1b43a04caf7814e588232c48
-ms.sourcegitcommit: bfada4fd06c5cff12b0eefd3384bb3c10d10787f
+ms.openlocfilehash: 9bb33e5590df1af6b70dffecba64eb313838b228
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/12/2021
-ms.locfileid: "50196745"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51092709"
 ---
 # <a name="create-a-call-queue"></a>Criar uma fila de chamadas
 
@@ -55,9 +55,9 @@ Para configurar uma fila de chamadas, no Centro de administração do Teams, exp
 
 1. Digite um nome para a fila de chamadas.
 
-2. Clique em **Adicionar contas**, procure a conta de recurso que você deseja usar com a fila de chamadas, clique em **Adicionar** e, em seguida, clique em **Adicionar**. (Os agentes verão o nome da conta de recurso quando receberem uma chamada recebida.)
+2. Clique em **Adicionar contas**, procure a conta de recurso que você deseja usar com a fila de chamadas, clique em **Adicionar** e, em seguida, clique em **Adicionar**. (Os agentes verão o nome da conta de recurso quando receberem uma chamada de entrada.)
 
-3. Escolha um [idioma com suporte.](create-a-phone-system-call-queue-languages.md) Esse idioma será usado para comandos de voz gerados pelo sistema e para a transcrição da caixa postal (se habilitados).
+3. Escolha um [idioma com suporte](create-a-phone-system-call-queue-languages.md). Esse idioma será usado para comandos de voz gerados pelo sistema e para a transcrição da caixa postal (se habilitados).
 
 ## <a name="greetings-and-music-on-hold-in-queue"></a>Saudações e música de espera na fila
 
@@ -177,13 +177,13 @@ Os clientes a seguir têm suporte para agentes de chamada em uma fila de chamada
 
 Você também pode usar o Windows PowerShell para criar e configurar filas de chamadas. Veja aqui os cmdlets usados para administrar uma fila de chamadas.
 
-- [New-CsCallQueue](https://docs.microsoft.com/powershell/module/skype/new-CsCallQueue)
+- [New-CsCallQueue](/powershell/module/skype/new-CsCallQueue)
 
-- [Set-CsCallQueue](https://docs.microsoft.com/powershell/module/skype/set-CsCallQueue)
+- [Set-CsCallQueue](/powershell/module/skype/set-CsCallQueue)
 
-- [Get-CsCallQueue](https://docs.microsoft.com/powershell/module/skype/get-CsCallQueue)
+- [Get-CsCallQueue](/powershell/module/skype/get-CsCallQueue)
 
-- [Remove-CsCallQueue](https://docs.microsoft.com/powershell/module/skype/remove-CsCallQueue)
+- [Remove-CsCallQueue](/powershell/module/skype/remove-CsCallQueue)
 
 ## <a name="related-topics"></a>Tópicos relacionados
 
@@ -193,6 +193,6 @@ Você também pode usar o Windows PowerShell para criar e configurar filas de ch
 
 [Disponibilidade de Audioconferência e Planos de Chamadas por país e região](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
-[New-CsOnlineApplicationInstance](https://docs.microsoft.com/powershell/module/skype/new-csonlineapplicationinstance)
+[New-CsOnlineApplicationInstance](/powershell/module/skype/new-csonlineapplicationinstance)
 
 [Uma introdução ao Windows PowerShell e ao Skype for Business Online](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)

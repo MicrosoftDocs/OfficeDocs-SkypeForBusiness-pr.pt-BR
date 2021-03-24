@@ -19,18 +19,18 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b1ba7de8cea23efc23f1eaa6c568d87b0d3ec750
-ms.sourcegitcommit: e29e38bf00536400e5826fc55bc86dfd6ed761f3
+ms.openlocfilehash: 1ede4b60878dbdd44edf369b0a3c1bb861ffe366
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/08/2021
-ms.locfileid: "50558320"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51094021"
 ---
 # <a name="use-microsoft-teams-scoped-directory-search"></a>Usar a pesquisa de diretório no escopo do Microsoft Teams
 
 A pesquisa de diretório com escopo do Microsoft Teams permite que as organizações criem limites virtuais que controlam como os usuários podem encontrar e se comunicar com outros usuários em sua organização. 
 
-O Microsoft Teams permite que as organizações forneçam exibições personalizadas do diretório para seus usuários. O Microsoft Teams usa [políticas de Barreira de](https://docs.microsoft.com/microsoft-365/compliance/information-barriers) Informações para dar suporte a esses exibições personalizadas. Depois que as políticas são habilitadas, os resultados retornados pelas pesquisas de outros usuários (por exemplo, para iniciar um chat ou para adicionar membros a uma equipe) serão escopos de acordo com as políticas configuradas. Os usuários não poderão pesquisar ou descobrir nenhuma equipe quando a pesquisa com escopo estiver em vigor, mas os membros existentes nessas equipes podem adicionar usuários, conforme permitido pelas políticas ativas da Barreira de Informações.
+O Microsoft Teams permite que as organizações forneçam exibições personalizadas do diretório para seus usuários. O Microsoft Teams usa [políticas de Barreira de](/microsoft-365/compliance/information-barriers) Informações para dar suporte a esses exibições personalizadas. Depois que as políticas são habilitadas, os resultados retornados pelas pesquisas de outros usuários (por exemplo, para iniciar um chat ou para adicionar membros a uma equipe) serão escopos de acordo com as políticas configuradas. Os usuários não poderão pesquisar ou descobrir nenhuma equipe quando a pesquisa com escopo estiver em vigor, mas os membros existentes nessas equipes podem adicionar usuários, conforme permitido pelas políticas ativas da Barreira de Informações.
 
 > [!NOTE]
 > Em ambientes híbridos do Exchange, esse recurso só funciona com caixas de correio do Exchange Online e não com caixas de correio locais.
@@ -42,14 +42,14 @@ Cenários que se beneficiam de pesquisas de diretório com escopo são semelhant
 - Sua organização tem várias empresas dentro no locatário que você deseja manter separadas. 
 - Sua escola quer limitar os chats entre professores e alunos. 
  
-Para saber como usar políticas de livro de endereços, leia [Políticas de Barreira de](https://docs.microsoft.com/microsoft-365/compliance/information-barriers)Informações no Exchange Online .
+Para saber como usar políticas de livro de endereços, leia [Políticas de Barreira de](/microsoft-365/compliance/information-barriers)Informações no Exchange Online .
 
 > [!IMPORTANT]
 > As políticas do livro de endereços fornecem apenas uma separação virtual dos usuários da perspectiva do diretório. Também é importante observar que quaisquer dados de usuário que já foram armazenados em cache, antes da aplicação de políticas de livro de endereços novas ou atualizadas, permanecerão disponíveis para os usuários por até 30 dias.
 
 ## <a name="turn-on-scoped-directory-search"></a>Ativar a pesquisa de diretório com escopo
 
-1. Use políticas de Barreira de Informações para configurar sua organização em subgrupos virtuais. Para obter mais informações, consulte [Define Information Barrier policies](https://docs.microsoft.com/microsoft-365/compliance/information-barriers-policies).
+1. Use políticas de Barreira de Informações para configurar sua organização em subgrupos virtuais. Para obter mais informações, consulte [Define Information Barrier policies](/microsoft-365/compliance/information-barriers-policies).
 
 2. No centro de administração do Microsoft Teams, selecione **Configurações do** Teams em toda a  >  **organização.**
 

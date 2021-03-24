@@ -18,12 +18,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: d1a6462d0cb1581142eb2f5076e6b2ebad2b9003
-ms.sourcegitcommit: bfada4fd06c5cff12b0eefd3384bb3c10d10787f
+ms.openlocfilehash: 3022b1d1fbeff9713741955a0b40fd553028de0e
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/12/2021
-ms.locfileid: "50196515"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51094387"
 ---
 # <a name="apps-bots--connectors-in-microsoft-teams"></a>Aplicativos, bots e conectores no Microsoft Teams
 
@@ -37,15 +37,15 @@ O Teams vem com um conjunto de aplicativos integrados, incluindo listas, Tarefas
 
 ## <a name="use-third-party-apps"></a>Usar aplicativos de terceiros
 
-Além dos aplicativos fornecidos pela Microsoft, você pode usar aplicativos de terceiros certificados pela Microsoft. A Microsoft trabalha com os parceiros desenvolvedores do Microsoft 365 para fornecer as informações necessárias para agilizar as decisões sobre o uso de aplicativos e suplementos do Teams. Para obter mais informações, confira [Segurança e Conformidade de Aplicativos do Microsoft Teams](https://docs.microsoft.com/microsoft-365-app-certification/teams/teams-apps).
+Além dos aplicativos fornecidos pela Microsoft, você pode usar aplicativos de terceiros certificados pela Microsoft. A Microsoft trabalha com os parceiros desenvolvedores do Microsoft 365 para fornecer as informações necessárias para agilizar as decisões sobre o uso de aplicativos e suplementos do Teams. Para obter mais informações, confira [Segurança e Conformidade de Aplicativos do Microsoft Teams](/microsoft-365-app-certification/teams/teams-apps).
 
 ## <a name="use-teams-templates"></a>Usar modelos do Teams
 
-Você também pode usar [modelos do Teams](https://docs.microsoft.com/microsoftteams/platform/samples/app-templates?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json), aplicativos prontos para produção para o Microsoft Teams que são direcionados à comunidade, de código aberto e disponíveis no GitHub.
+Você também pode usar [modelos do Teams](/microsoftteams/platform/samples/app-templates?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fMicrosoftTeams%2ftoc.json), aplicativos prontos para produção para o Microsoft Teams que são direcionados à comunidade, de código aberto e disponíveis no GitHub.
 
 ## <a name="create-custom-apps"></a>Criar aplicativos personalizados
 
-Você pode criar rapidamente soluções personalizadas de baixo código usando a integração do Teams com o [Microsoft Power Platform](teams-power-platfom-integration.md). Você também pode criar seu próprio aplicativo personalizado para atender às suas necessidades de negócios. Para obter mais informações, confira [Construir aplicativos para o Microsoft Teams](https://docs.microsoft.com/microsoftteams/platform/overview).  
+Você pode criar rapidamente soluções personalizadas de baixo código usando a integração do Teams com o [Microsoft Power Platform](teams-power-platfom-integration.md). Você também pode criar seu próprio aplicativo personalizado para atender às suas necessidades de negócios. Para obter mais informações, confira [Construir aplicativos para o Microsoft Teams](/microsoftteams/platform/overview).  
 
 
 ## <a name="apps-deployment-decisions"></a>Decisões de implantação de aplicativos
@@ -58,7 +58,7 @@ Estas são as configurações de aplicativos que a maioria das organizações de
 
 ### <a name="app-availability-settings"></a>Configurações de disponibilidade do aplicativo 
 
-O Teams fornece muitos aplicativos publicados pela Microsoft e por terceiros para envolver os usuários, dar suporte à produtividade e integrar os serviços de negócios comumente usados no Teams. Obtenha aplicativos na Teams Store. Por padrão, todos os aplicativos, incluindo aplicativos personalizados enviados por meio do[processo de aprovação do Teams Store](https://docs.microsoft.com/microsoftteams/platform/publishing/apps-publish#microsoft-teams-app-approval-process), são ativados para todos os usuários.  Por exemplo, os usuários podem usar o aplicativo do Planner para criar e gerenciar tarefas de equipe no Teams.
+O Teams fornece muitos aplicativos publicados pela Microsoft e por terceiros para envolver os usuários, dar suporte à produtividade e integrar os serviços de negócios comumente usados no Teams. Obtenha aplicativos na Teams Store. Por padrão, todos os aplicativos, incluindo aplicativos personalizados enviados por meio do[processo de aprovação do Teams Store](/microsoftteams/platform/publishing/apps-publish#microsoft-teams-app-approval-process), são ativados para todos os usuários.  Por exemplo, os usuários podem usar o aplicativo do Planner para criar e gerenciar tarefas de equipe no Teams.
 
 Por padrão, todos os aplicativos fornecidos por terceiros, aprovados pela Microsoft e personalizados estão disponíveis, e é possível ativar ou desativar aplicativos individualmente. Existem configurações de toda a organização que permitem ativar ou desativar aplicativos terceirizados e/ou personalizados para toda a sua organização.
 
@@ -82,7 +82,7 @@ Os bots são programas automatizados que respondem a consultas ou fornecem atual
 
 | Pergunte a si mesmo | Action |
 |--------------|--------|
-|Desejo permitir bots personalizados na minha organização?|Para saber mais sobre a adição de bots, confira [Adicionar bots para canais e chats privados no Microsoft Teams](add-bots.md). Para obter mais informações sobre a ativação ou desativação de bots personalizados, confira [Configurações de administrador para aplicativos no Microsoft Teams](admin-settings.md).|
+|Desejo permitir bots personalizados na minha organização?|Para saber mais sobre a adição de bots, confira [Adicionar bots para canais e chats privados no Microsoft Teams](/microsoftteams/platform/bots/what-are-bots). Para obter mais informações sobre a ativação ou desativação de bots personalizados, confira [Configurações de administrador para aplicativos no Microsoft Teams](admin-settings.md).|
 |||
 
 ### <a name="built-in-and-custom-tabs"></a>Guias internas e personalizadas
@@ -113,7 +113,7 @@ Você pode usar relatórios de atividade para ver como os usuários em sua organ
 
 | Pergunte a si mesmo | Ação |
 |--------------|--------|
-| <br>Quem precisa ver os relatórios de atividade e eles têm a função correta para visualizá-los? |<ul><li>Se não quiser atribuir uma função de administrador a um usuário, você poderá [atribuir a função de leitor de relatórios](teams-activity-reports.md#reports-reader-role).</li><li>Confira [Funções e permissões](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles) e [Exibir e atribuir funções](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-manage-roles-portal) para informar-se sobre como atribuir funções de administrador no Azure Active Directory.</li></ul> |
+| <br>Quem precisa ver os relatórios de atividade e eles têm a função correta para visualizá-los? |<ul><li>Se não quiser atribuir uma função de administrador a um usuário, você poderá [atribuir a função de leitor de relatórios](teams-activity-reports.md#reports-reader-role).</li><li>Confira [Funções e permissões](/azure/active-directory/users-groups-roles/directory-assign-admin-roles) e [Exibir e atribuir funções](/azure/active-directory/users-groups-roles/directory-manage-roles-portal) para informar-se sobre como atribuir funções de administrador no Azure Active Directory.</li></ul> |
 |||
 
 ### <a name="app-templates"></a>Modelos de aplicativos
@@ -122,10 +122,5 @@ Os modelos de aplicativos são aplicativos prontos para produção para o Micros
 
 | Pergunte a si mesmo | Ação |
 |--------------|--------|
-| Deseja instalar algum modelo de aplicativo do Teams, como o Icebreaker? |Para saber mais, leia[Modelos de aplicativos para o Teams](https://docs.microsoft.com/microsoftteams/platform/samples/app-templates?toc=MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json).|
+| Deseja instalar algum modelo de aplicativo do Teams, como o Icebreaker? |Para saber mais, leia[Modelos de aplicativos para o Teams](/microsoftteams/platform/samples/app-templates?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=MicrosoftTeams%2ftoc.json).|
 |||
-
-
-
-
-

@@ -13,12 +13,12 @@ ms.collection:
 description: Aprenda a usar os controles do PowerShell para gerenciar o Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e6ba8545159f8b18ebe39e49356f64378f946b29
-ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
+ms.openlocfilehash: e5526a7a7d782b8a30edd5b5169c3ba78953cc7c
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/18/2021
-ms.locfileid: "50874801"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51094151"
 ---
 # <a name="install-microsoft-teams-powershell"></a>Instalar o Microsoft Teams PowerShell
 
@@ -84,7 +84,7 @@ Install-Module MicrosoftTeams -AllowPrerelease -RequiredVersion "1.1.9-preview"
 
 > [!NOTE]
 >
-> O Skype for Business Online Connector atualmente faz parte do módulo mais recente do Teams PowerShell.
+> O Conector Skype for Business Online atualmente faz parte do módulo mais recente do PowerShell do Teams.
 > Se você estiver usando a versão pública mais recente do [Teams PowerShell,](https://www.powershellgallery.com/packages/MicrosoftTeams/)não será necessário instalar o Conector do Skype for Business Online.
 
 
@@ -161,6 +161,6 @@ Agora você está pronto para gerenciar o Teams usando o Teams PowerShell. Consu
 
 [Notas de versão do PowerShell do Teams](teams-powershell-release-notes.md)
 
-[Referência de cmdlet do Microsoft Teams](https://docs.microsoft.com/powershell/teams/?view=teams-ps)
+[Referência de cmdlet do Microsoft Teams](/powershell/teams/?view=teams-ps)
 
-[Referência de cmdlet do Skype for Business](https://docs.microsoft.com/powershell/skype/intro?view=skype-ps)
+[Referência de cmdlet do Skype for Business](/powershell/skype/intro?view=skype-ps)

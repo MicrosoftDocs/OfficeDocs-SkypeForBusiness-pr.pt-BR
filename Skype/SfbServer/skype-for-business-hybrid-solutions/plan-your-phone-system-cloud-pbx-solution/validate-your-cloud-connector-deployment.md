@@ -16,29 +16,27 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 30b6be15-77fa-43b0-b558-87b9724feb35
 description: Depois de concluir as etapas para implantar e configurar o Skype for Business Cloud Connector Edition, verifique se você pode fazer e receber chamadas.
-ms.openlocfilehash: b0fcee31afef81fe4196b71236e782a75a53cd28
-ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
+ms.openlocfilehash: fb46c9b48367760d2c29e4ed7330e28c92f20f09
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "47359157"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51094809"
 ---
 # <a name="validate-your-cloud-connector-deployment"></a>Validar a implantação do Cloud Connector
 
 > [!Important]
-> O Cloud Connector Edition será destivado em 31 de julho de 2021 junto com o Skype for Business Online. Depois que sua organização atualizou para o Teams, saiba como conectar sua rede de telefonia local ao Teams usando o [Roteamento Direto.](https://docs.microsoft.com/MicrosoftTeams/direct-routing-landing-page)
+> O Cloud Connector Edition se aposentará em 31 de julho de 2021 junto com o Skype for Business Online. Depois que sua organização tiver atualizado para o Teams, saiba como conectar sua rede de telefonia local ao Teams usando [Roteamento Direto.](/MicrosoftTeams/direct-routing-landing-page)
  
 Depois de concluir as etapas para implantar e configurar o Skype for Business Cloud Connector Edition, verifique se você pode fazer e receber chamadas.
   
 ## <a name="validate-the-deployment"></a>Validar a implantação
 
-1. Entre no cliente do Skype for Business com uma conta de usuário que você acabou de configurar.
+1. Faça logoff no cliente skype for Business com uma conta de usuário que você acabou de configurar.
     
-2. Ligue para um número PSTN do cliente e confirme se a chamada foi bem-sucedida.
+2. Chame um número PSTN do cliente e confirme se a chamada foi bem-sucedida.
     
-3. Use seu telefone ou outro dispositivo associado ao número PSTN para ligar para o cliente do Skype for Business e confirmar se a chamada foi bem-sucedida.
+3. Use seu telefone ou outro dispositivo associado ao número PSTN para chamar seu cliente do Skype for Business e confirmar se a chamada foi bem-sucedida.
     
     > [!NOTE]
-    > Você deve confirmar que pode fazer chamadas com êxito após adicionar sites adicionais ou converter sites para habilitar o suporte para habilitar. 
-  
-
+    > Você deve confirmar se pode fazer chamadas com êxito após adicionar sites adicionais ou converter sites para habilitar o suporte a HA. 

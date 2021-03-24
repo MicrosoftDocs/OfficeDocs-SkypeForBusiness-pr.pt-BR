@@ -15,17 +15,17 @@ ms.collection:
 - Teams_ITAdmin_RemoteWorkers
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a188caf30f7d20ddff618884c2bbcca2b24fe5bb
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: 6146b6d4a7ca3d988c5dc1042a7f75848cf4fc7b
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46583910"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51092659"
 ---
 <a name="manage-the-office-365-e1-trial"></a>Gerenciar a avaliação do Office 365 E1
 ==============================
 
-A partir de 01º de julho de 2020, a licença de avaliação do Office 365 E1 não estará mais disponível. Se você precisar licenciar usuários para o Microsoft Teams, leia a [Descrição do serviço do Microsoft Teams](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description) para obter uma lista de assinaturas pagas que incluem o Teams. Como alternativa, as organizações qualificadas podem usar a **[Versão gratuita do Teams](https://support.office.com/article/Welcome-to-Microsoft-Teams-free-6d79a648-6913-4696-9237-ed13de64ae3c)**, ou os funcionários podem ativar a experiência **[Exploratória do Teams](teams-exploratory.md)**.
+A partir de 01º de julho de 2020, a licença de avaliação do Office 365 E1 não estará mais disponível. Se você precisar licenciar usuários para o Microsoft Teams, leia a [Descrição do serviço do Microsoft Teams](/office365/servicedescriptions/teams-service-description) para obter uma lista de assinaturas pagas que incluem o Teams. Como alternativa, as organizações qualificadas podem usar a **[Versão gratuita do Teams](https://support.office.com/article/Welcome-to-Microsoft-Teams-free-6d79a648-6913-4696-9237-ed13de64ae3c)**, ou os funcionários podem ativar a experiência **[Exploratória do Teams](teams-exploratory.md)**.
 
 
 Se você for um cliente do Teams for Education, consulte a licença gratuita do [Office 365 A1](teams-edu-licensing.md).
@@ -53,16 +53,16 @@ Para atualizar usuários da avaliação E1 para uma assinatura paga:
 
 3. Atribua as licenças adquiridas recentemente.
 
-Para saber mais, confira [Descrição do serviço do Microsoft Teams](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description).
+Para saber mais, confira [Descrição do serviço do Microsoft Teams](/office365/servicedescriptions/teams-service-description).
 
 > [!NOTE]
 > Se a licença de avaliação E1 terminar e um usuário não for atualizado imediatamente para uma assinatura que inclua o Teams, os dados do usuário não serão removidos. O usuário ainda existe no Azure Active Directory e todos os dados no Teams ainda permanecem. Depois que uma nova licença for atribuída ao usuário para ativar a funcionalidade do Teams novamente, todo o conteúdo ainda existirá. 
 
 ### <a name="remove-an-office-365-e1-trial-license"></a>Remover uma licença de avaliação do Office 365 E1
 
-- Se você deseja remover essa licença por meio do PowerShell, confira: [Remover licenças de contas de usuário com o Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/remove-licenses-from-user-accounts-with-office-365-powershell)
+- Se você deseja remover essa licença por meio do PowerShell, confira: [Remover licenças de contas de usuário com o Office 365 PowerShell](/office365/enterprise/powershell/remove-licenses-from-user-accounts-with-office-365-powershell)
 
-- Se você quiser remover essa licença por meio do portal de administração do, confira: [Excluir um usuário da sua organização](https://docs.microsoft.com/microsoft-365/admin/add-users/delete-a-user)
+- Se você quiser remover essa licença por meio do portal de administração do, confira: [Excluir um usuário da sua organização](/microsoft-365/admin/add-users/delete-a-user)
 
 ## <a name="related-topics"></a>Tópicos relacionados
 

@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7d49b27de8fe6c6d13ef6ac626764b13e1fe36a0
-ms.sourcegitcommit: 4e648c3dd71d9c38cbcb81fab9e8cb9d241fe79c
+ms.openlocfilehash: 29cf3f6816b3c1e0b00026b1ba4ad961a6a92aa6
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "49871010"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51093535"
 ---
 # <a name="manage-user-access-to-teams"></a>Gerenciamento do acesso de usuários ao Teams
 
@@ -32,25 +32,25 @@ Você gerencia o acesso ao Teams no nível do usuário atribuindo ou removendo u
 
 Por padrão, quando um plano de licenciamento (por exemplo, o Microsoft 365 Enterprise E3 ou o Microsoft 365 Business Premium) é atribuído a um usuário, uma licença do Teams é atribuída automaticamente e o usuário está habilitado para o Teams. Você pode desabilitar ou habilitar o Teams para um usuário removendo ou atribuindo uma licença a qualquer momento.
 
-Use políticas de mensagens, gerenciadas do Centro de Administração do <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Teams,</a>para controlar quais recursos de mensagens de chat e canal estão disponíveis para os usuários no Teams. Você pode usar a política padrão ou criar uma ou mais políticas de mensagens personalizadas para as pessoas em sua organização. Para saber mais, leia [Gerenciar políticas de mensagens no Teams.](messaging-policies-in-teams.md)
-Você gerencia licenças do Teams no Centro de administração do Microsoft 365 ou usando o PowerShell. Você deve ser um administrador global ou administrador de gerenciamento de usuários para gerenciar licenças.
+Use políticas de mensagens, gerenciadas a partir do Centro de Administração do <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Teams,</a>para controlar quais recursos de mensagens de chat e canal estão disponíveis para os usuários no Teams. Você pode usar a política padrão ou criar uma ou mais políticas de mensagens personalizadas para pessoas em sua organização. Para saber mais, leia [Gerenciar políticas de mensagens no Teams](messaging-policies-in-teams.md).
+Você gerencia as licenças do Teams no centro de administração do Microsoft 365 ou usando o PowerShell. Você deve ser um administrador global ou administrador de gerenciamento de usuários para gerenciar licenças.
 
 > [!NOTE]
-> Recomendamos habilitar o Teams para todos os usuários para que as equipes possam ser formadas de forma precisa para projetos e outras iniciativas dinâmicas. Mesmo que você esteja executando um piloto, ainda pode ser útil manter o Teams habilitado para todos os usuários, mas apenas direcionar as comunicações para o grupo piloto de usuários.
+> Recomendamos que você habilita o Teams para todos os usuários para que as equipes possam ser formadas organicamente para projetos e outras iniciativas dinâmicas. Mesmo que você esteja executando um piloto, ainda pode ser útil manter o Teams habilitado para todos os usuários, mas apenas direcionar as comunicações para o grupo piloto de usuários.
 
-## <a name="using-the-microsoft-365-admin-center"></a>Usando o Centro de administração do Microsoft 365
+## <a name="using-the-microsoft-365-admin-center"></a>Usando o centro de administração do Microsoft 365
 
-As licenças no nível de usuário do Teams são gerenciadas diretamente por meio das interfaces de gerenciamento de usuários do centro de administração do Microsoft 365. Um administrador pode atribuir licenças a novos usuários quando novas contas de usuário forem criadas ou a usuários com contas existentes. 
+As licenças de usuário do Teams são gerenciadas diretamente por meio das interfaces de gerenciamento de usuários do Centro de administração do Microsoft 365. Um administrador pode atribuir licenças a novos usuários quando novas contas de usuário forem criadas ou a usuários com contas existentes. 
 
 > [!IMPORTANT]
-> O administrador deve ter privilégios de Administrador Global ou administrador de gerenciamento de usuários para gerenciar licenças do Microsoft Teams.
-Use o Centro de administração do Microsoft 365 para gerenciar licenças do Teams para usuários individuais ou pequenos conjuntos de usuários por vez. Você pode gerenciar licenças do Teams na página **Licenças** (para até 20 usuários ao mesmo tempo) ou **na página usuários ativos.** O método escolhido depende se você deseja gerenciar licenças de produtos para usuários específicos ou gerenciar licenças de usuário para produtos específicos.
+> O administrador deve ter privilégios de Administrador Global ou Administrador de Gerenciamento de Usuários para gerenciar licenças do Microsoft Teams.
+Use o Centro de administração do Microsoft 365 para gerenciar licenças do Teams para usuários individuais ou pequenos conjuntos de usuários por vez. Você pode gerenciar licenças do Teams na página **Licenças** (para até 20 usuários no momento) ou **página Usuários ativos.** O método escolhido depende se você deseja gerenciar licenças de produtos para usuários específicos ou gerenciar licenças de usuário para produtos específicos.
 
-Se você precisar gerenciar licenças do Teams para um grande número de usuários, como centenas ou milhares de usuários, use o [PowerShell](#using-powershell) ou o licenciamento baseado em grupo no [Azure Active Directory (Azure AD).](https://docs.microsoft.com/azure/active-directory/users-groups-roles/licensing-groups-assign) 
+Se você precisar gerenciar licenças do Teams para um grande número de usuários, como centenas ou milhares de usuários, use o [PowerShell](#using-powershell) ou licenciamento baseado em grupo no [Azure Active Directory (Azure AD)](/azure/active-directory/users-groups-roles/licensing-groups-assign). 
 
 ### <a name="assign-a-teams-license"></a>Atribuir uma licença do Teams
 
-As etapas são diferentes, dependendo se você usa a página **Licenças** ou **a página usuários ativos.**  Para obter instruções passo a passo, consulte [Atribuir licenças aos usuários.](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users)
+As etapas são diferentes, dependendo de você usar a página **Licenças** ou **a página Usuários ativos.**  Para obter instruções passo a passo, consulte [Atribuir licenças aos usuários](/microsoft-365/admin/manage/assign-licenses-to-users).
 
 |||
 |---------|---------|
@@ -58,7 +58,7 @@ As etapas são diferentes, dependendo se você usa a página **Licenças** ou **
 
 ### <a name="remove-a-teams-license"></a>Remover uma licença do Teams
 
-Quando você remove uma licença do Teams de um usuário, o Teams é desabilitado para esse usuário e ele não verá mais o Teams no launcher de aplicativos ou na home page. Para ver as etapas [detalhadas, consulte Unassign licenses from users.](https://docs.microsoft.com/microsoft-365/admin/manage/remove-licenses-from-users)
+Quando você remove uma licença do Teams de um usuário, o Teams é desabilitado para esse usuário e ele não verá mais o Teams no launcher de aplicativos ou na homepage. Para etapas detalhadas, consulte [Unassign licenses from users](/microsoft-365/admin/manage/remove-licenses-from-users).
 
 |||
 |---------|---------|
@@ -66,7 +66,7 @@ Quando você remove uma licença do Teams de um usuário, o Teams é desabilitad
 
 ## <a name="using-powershell"></a>Usando o Windows PowerShell
 
-Use o PowerShell para gerenciar licenças do Teams para usuários em massa. Você habilita e desabilita o Teams por meio do PowerShell da mesma forma que faria com qualquer outra licença de plano de serviço. Você precisará dos identificadores dos planos de serviço do Teams, que são os seguinte:
+Use o PowerShell para gerenciar licenças do Teams para usuários em massa. Você habilita e desabilita o Teams por meio do PowerShell da mesma forma que faria para qualquer outra licença de plano de serviço. Você precisará dos identificadores para os planos de serviço do Teams, que são os seguinte:
 
 - Microsoft Teams: TEAMS1
 - Microsoft Teams para GCC: TEAMS_GOV
@@ -74,34 +74,34 @@ Use o PowerShell para gerenciar licenças do Teams para usuários em massa. Voc�
 
 ### <a name="assign-teams-licenses-in-bulk"></a>Atribuir licenças do Teams em massa
 
-Para etapas detalhadas, consulte [Atribuir licenças a contas de usuário com o PowerShell.](https://docs.microsoft.com/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell)
+Para etapas detalhadas, consulte [Atribuir licenças a contas de usuário com o PowerShell](/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell).
 
 ### <a name="remove-teams-licenses-in-bulk"></a>Remover licenças do Teams em massa
 
-Para etapas detalhadas, consulte Desabilitar o acesso aos serviços com [o PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/disable-access-to-services-with-office-365-powershell) e desabilitar o acesso aos serviços [ao atribuir licenças de usuário.](https://docs.microsoft.com/office365/enterprise/powershell/disable-access-to-services-while-assigning-user-licenses)
+Para etapas detalhadas, consulte [Disable access to services with PowerShell](/office365/enterprise/powershell/disable-access-to-services-with-office-365-powershell) and Disable access to services while [assigning user licenses](/office365/enterprise/powershell/disable-access-to-services-while-assigning-user-licenses).
 
 #### <a name="example"></a>Exemplo 
 
-Veja a seguir um exemplo de como usar os cmdlets [New-MsolLicenseOptions](https://docs.microsoft.com/powershell/module/msonline/new-msollicenseoptions) e [Set-MsolUserLicense](https://docs.microsoft.com/powershell/module/msonline/set-msoluserlicense) para desabilitar o Teams para usuários que têm um plano de licenciamento específico. Por exemplo, siga estas etapas para desabilitar primeiro o Teams para todos os usuários que têm um plano de licenciamento específico. Em seguida, habilita o Teams para cada usuário individual que deve ter acesso ao Teams.
+Veja a seguir um exemplo de como usar os [cmdlets New-MsolLicenseOptions](/powershell/module/msonline/new-msollicenseoptions) e [Set-MsolUserLicense](/powershell/module/msonline/set-msoluserlicense) para desabilitar o Teams para usuários que têm um plano de licenciamento específico. Por exemplo, siga estas etapas para primeiro desabilitar o Teams para todos os usuários que têm um plano de licenciamento específico. Em seguida, habilita o Teams para cada usuário individual que deve ter acesso ao Teams.
 
 > [!IMPORTANT]
-> O [cmdlet New-MsolLicenseOptions](https://docs.microsoft.com/powershell/module/msonline/new-msollicenseoptions) habilita todos os serviços que foram desabilitados anteriormente, a menos que explicitamente identificado em seu script personalizado. Por exemplo, se você quiser deixar o Exchange e o Sway desabilitados ao desabilitar também o Teams, você precisará incluir isso no script ou o Exchange e o Sway serão habilitados para os usuários que você identificou.
+> O cmdlet [New-MsolLicenseOptions](/powershell/module/msonline/new-msollicenseoptions) habilita todos os serviços que foram desabilitados anteriormente, a menos que explicitamente identificado em seu script personalizado. Por exemplo, se você quiser deixar o Exchange e o Sway desabilitados enquanto também desabilita o Teams, você precisará incluir isso no script ou o Exchange e o Sway estarão habilitados para os usuários identificados.
 
-Execute o comando a seguir para exibir todos os planos de licenciamento disponíveis em sua organização. Para saber mais, consulte [Exibir licenças e serviços com o PowerShell.](https://docs.microsoft.com/office365/enterprise/powershell/view-licenses-and-services-with-office-365-powershell)
+Execute o seguinte comando para exibir todos os planos de licenciamento disponíveis em sua organização. Para saber mais, confira [Exibir licenças e serviços com o PowerShell](/office365/enterprise/powershell/view-licenses-and-services-with-office-365-powershell).
 
 
 ```powershell
 Get-MsolAccountSku
 ```
 
-Execute os comandos a seguir, onde está o nome da sua organização e o identificador do plano de licenciamento recuperado \<CompanyName:License> na etapa anterior. Por exemplo, ContosoSchool:ENTERPRISEPACK_STUDENT.
+Execute os comandos a seguir, onde está o nome da sua organização e o identificador do plano de licenciamento que \<CompanyName:License> você recuperou na etapa anterior. Por exemplo, ContosoSchool:ENTERPRISEPACK_STUDENT.
 
 ```powershell
 $acctSKU="<CompanyName:License>
 $x = New-MsolLicenseOptions -AccountSkuId $acctSKU -DisabledPlans "TEAMS1"
 ```
 
-Execute o comando a seguir para desabilitar o Teams para todos os usuários que têm uma licença ativa para o plano de licenciamento.
+Execute o seguinte comando para desabilitar o Teams para todos os usuários que têm uma licença ativa para o plano de licenciamento.
 
 ```powershell
 Get-MsolUser | Where-Object {$_.licenses[0].AccountSku.SkuPartNumber -eq  ($acctSKU).Substring($acctSKU.IndexOf(":")+1,  $acctSKU.Length-$acctSKU.IndexOf(":")-1) -and $_.IsLicensed -eq $True} |  Set-MsolUserLicense -LicenseOptions $x
@@ -111,6 +111,6 @@ Get-MsolUser | Where-Object {$_.licenses[0].AccountSku.SkuPartNumber -eq  ($acct
 
 - [Licenças de complemento do Teams](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
 - [Atribuir licenças de complemento do Teams](teams-add-on-licensing/assign-teams-add-on-licenses.md)
-- [Exibir licenças e serviços com o PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/view-licenses-and-services-with-office-365-powershell)
-- [Nomes de produtos e identificadores de plano de serviço para licenciamento](https://docs.microsoft.com/azure/active-directory/users-groups-roles/licensing-service-plan-reference)
-- [Referência de SKU education](sku-reference-edu.md)
+- [Exibir licenças e serviços com o PowerShell](/office365/enterprise/powershell/view-licenses-and-services-with-office-365-powershell)
+- [Nomes de produtos e identificadores de plano de serviço para licenciamento](/azure/active-directory/users-groups-roles/licensing-service-plan-reference)
+- [Referência de SKU do Education](sku-reference-edu.md)

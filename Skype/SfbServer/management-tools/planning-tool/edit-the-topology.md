@@ -13,39 +13,39 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 47425ab1-5645-4d6f-b202-64bcce43e3ef
-description: Depois de concluir as perguntas iniciais da entrevista, você pode editar o FQDN (nome de domínio totalmente qualificado) e os endereços IP do site. Para isso, na página Topologia Global, clique duas vezes no site que deseja editar.
-ms.openlocfilehash: ba18070b21494028d31b4167ab92a622794c5e51
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Após concluir as perguntas iniciais de entrevista, você pode editar o FQDN (nome de domínio totalmente qualificado) e endereços IP do site. Para isso, na página Topologia Global, clique duas vezes no site que deseja editar.
+ms.openlocfilehash: 9a345c753195c32907d078d5ee4a267b8b96d6b0
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49834881"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51093179"
 ---
 # <a name="edit-the-topology-in-skype-for-business-server-2015"></a>Editar a topologia no Skype for Business Server 2015
 
-Depois de concluir as perguntas iniciais da entrevista, você pode editar o FQDN (nome de domínio totalmente qualificado) e os endereços IP do site. Para isso, na página **Topologia Global**, clique duas vezes no site que deseja editar.
+Após concluir as perguntas iniciais de entrevista, você pode editar o FQDN (nome de domínio totalmente qualificado) e endereços IP do site. Para isso, na página **Topologia Global**, clique duas vezes no site que deseja editar.
 
 A Ferramenta de Planejamento exibe a topologia do site para o site selecionado. Na parte inferior da página do site, existem quatro guias:
 
-![Topologia de site da Ferramenta de Planejamento](../../media/Planning_Tool_Site_Topology.png)
+![Topologia do Site da Ferramenta de Planejamento](../../media/Planning_Tool_Site_Topology.png)
 
-- Topologia de site - A página exibida atualmente com uma visão geral visual da topologia conforme recomendado.
+- Topologia do Site - A página exibida atualmente com uma visão geral visual da topologia conforme recomendado.
 
-- Diagrama de Rede de Borda - A página Diagrama de Rede de Borda é onde o designer faz a maior parte do trabalho na Ferramenta de Planejamento. O diagrama exibe a configuração de rede de uma topologia recomendada do Skype for Business Server 2015, com entradas editáveis para endereços IP e FQDNs para servidores, pools e balanceadores de carga de HARDWARE e DNS (Sistema de Nomes de Domínio).
+- Diagrama de Rede de Borda - A página Diagrama de Rede de Borda é onde o designer faz a maior parte do trabalho na Ferramenta de Planejamento. O diagrama exibe a configuração de rede de uma topologia recomendada do Skype for Business Server 2015, com entradas editáveis para endereços IP e FQDNs para servidores, pool e balanceadores de carga dns e hardware.
 
-- Relatório de Administração de Borda - O Relatório de Administração de Borda contém um total de quatro relatórios:
+- Relatório de Administrador de Borda - O Relatório de Administração de Borda contém um total de quatro relatórios:
 
      ![Página Relatório de Administração de Borda](../../media/Planning_Tool_Summary_Report.png)
 
-  - Relatório de Resumo - Um relatório geral de configurações para a configuração de rede de Borda. Se você editar os  valores na página Diagrama de Rede de Borda para a topologia TCP/IP e os valores de FQDN que serão usados na implantação real, esses endereços e nomes serão representados aqui. Caso contrário, o texto padrão será exibido.
+  - Relatório de Resumo - Um relatório geral das configurações da rede de Borda. Se você editar os  valores na página Diagrama de Rede de Borda para os valores de topologia TCP/IP e FQDN que serão usados na implantação real, esses endereços e nomes serão representados aqui. Caso contrário, o texto padrão aparecerá.
 
-  - Relatório de Certificado - O relatório de certificado lista o nome da assunto e os nomes alternativos de assunto para os certificados necessários para a topologia.
+  - Relatório de Certificado - O relatório de certificado lista o nome do assunto e os nomes alternativos de assunto para os certificados necessários para a topologia.
 
-  - Relatório de firewall - O relatório de firewall lista as informações necessárias para configurar firewalls de perímetro na infraestrutura. Isso inclui os endereços IP (valores padrão ou editados), a função de servidor, o IP e a porta de origem, o IP e a porta de destino, o protocolo de transporte, o protocolo de aplicativo e as anotações relevantes.
+  - Relatório de Firewall - O relatório de firewall lista as informações necessárias para configurar firewalls de perímetro na infraestrutura. Isso inclui os endereços IP (valores padrão ou editados), função de servidor, IP de origem e porta, IP de destino e porta, protocolo de transporte, protocolo de aplicativo e anotações relevantes.
 
-  - Relatório de DNS - O Relatório DNS lista informações relevantes para as entradas DNS que você deve criar. Estão incluídos o tipo de registro, o FQDN, o endereço IP e os comentários necessários para a operação apropriada.
+  - Relatório DNS - O Relatório DNS lista informações relevantes para as entradas DNS que você deve criar. Estão incluídos o tipo de registro, o FQDN, o endereço IP e os comentários necessários para a operação apropriada.
 
-- Resumo do site - O resumo do site apresenta uma visão geral das seleções que você fez respondendo às perguntas iniciais da entrevista ou preenchendo os valores em **Sites de Design.** As informações de capacidade também são apresentadas.
+- Resumo do Site - O resumo do site apresenta uma visão geral das seleções que você fez respondendo às perguntas iniciais da entrevista ou preenchendo os valores em **Sites de Design.** Informações de capacidade também são apresentadas.
 
     > [!NOTE]
     > As informações na página do Resumo do site são personalizadas para cada design e podem não conter todas as seções ou informações detalhadas aqui.
@@ -53,15 +53,15 @@ A Ferramenta de Planejamento exibe a topologia do site para o site selecionado. 
 ## <a name="edit-the-network-configuration-diagram"></a>Editar o diagrama de configuração de rede
 <a name="Edit_Network_diagram"> </a>
 
-A maior parte do trabalho que um designer faz na Ferramenta de Planejamento do Skype for Business Server 2015 consiste em definir as entradas para os endereços IP e os FQDNs (nomes de domínio totalmente qualificados) para as entradas no diagrama de rede. As informações inseridas nesta página são transportam para os relatórios e outras informações contidas na Ferramenta de Planejamento.
+A maioria do trabalho que um designer faz na Ferramenta de Planejamento do Skype for Business Server 2015 consiste em definir as entradas para os endereços IP e os FQDNs (nomes de domínio totalmente qualificados) para as entradas no diagrama de rede. As informações inseridas nesta página são fornecidas nos relatórios e outras informações contidas na Ferramenta de Planejamento.
 
-![Diagrama de rede da ferramenta de planejamento](../../media/Planning_Tool_Network_Diagram.png)
+![Diagrama de Rede da Ferramenta de Planejamento](../../media/Planning_Tool_Network_Diagram.png)
 
 A Ferramenta de Planejamento cria um diagrama de rede com texto padrão para endereços IP e FQDNs.
 
 Para editar os valores de entrada e diagrama de rede:
 
-1. Escolha uma seção da rede para começar a trabalhar. Por exemplo, clique duas vezes no texto, **access1.contoso.com**. Na caixa de diálogo aberta, digite o FQDN real do access1.contoso.com e o endereço IP real, substituindo o 131.107.155.3.
+1. Escolha uma seção da rede para começar a trabalhar. Por exemplo, clique duas vezes no texto, **access1.contoso.com**. Na caixa de diálogo aberta, digite o FQDN real do servidor access1.contoso.com e o endereço IP real, substituindo o 131.107.155.3.
 
 2. Clique em **OK** para salvar as entradas.
 
@@ -71,17 +71,17 @@ Um recurso útil da Ferramenta de Planejamento é que ela pode atribuir incremen
 
 1. Clique duas vezes nos Servidores Front-End em pool. Quando a caixa de diálogo abrir, selecione **Deseja usar os IPs e o FQDN como pontos de partida para todos os servidores equivalentes neste cluster?**.
 
-2. Por exemplo, o valor inicial para o primeiro servidor é fe0101.contoso.com e um endereço IP de 192.168.21.122.
+2. Por exemplo, o valor inicial do primeiro servidor é fe0101.contoso.com e um endereço IP de 192.168.21.122.
 
-3. Type fe0.contoso.com in **Front End Server FQDN**, type 192.168.21.131 in Front End Server IP **address**, and then click **OK**.
+3. Digite fe0.contoso.com no **FQDN** do Servidor front-end , digite 192.168.21.131 no endereço IP do **servidor front-end** e clique em **OK**.
 
-4. O recurso de incremento automático atualiza todos os servidores no pool para fe01 até fe06 e todos os endereços IP de 192.168.21.131 a 136.
+4. O recurso de incremento automático atualiza todos os servidores do pool para fe01 a fe06 e todos os endereços IP de 192.168.21.131 a 136.
 
 Depois de concluir todas as edições, salve a topologia concluindo as seguintes etapas:
 
-Para salvar o design da Ferramenta de Planejamento, clique em **Arquivo** e, em seguida, clique em **Salvar Topologia** **ou Salvar Topologia como**. Se uma caixa de diálogo **Salvar Ferramenta de Planejamento como** for exibida, digite um nome para o arquivo em **Nome do arquivo** e clique em **Salvar**.
+Para salvar o design da Ferramenta de Planejamento, clique em **Arquivo** e, em seguida, clique em **Salvar Topologia** ou **Salvar Topologia como**. Se uma caixa de diálogo **Salvar Ferramenta de Planejamento como** for exibida, digite um nome para o arquivo em **Nome do arquivo** e clique em **Salvar**.
 
 ## <a name="see-also"></a>Confira também
 <a name="Edit_Network_diagram"> </a>
 
-[Editando o design](https://technet.microsoft.com/library/08f639ba-0e5f-4ae7-9191-c3d96c25b169.aspx)
+[Editando o design](/previous-versions/office/lync-server-2013/lync-server-2013-editing-the-design)

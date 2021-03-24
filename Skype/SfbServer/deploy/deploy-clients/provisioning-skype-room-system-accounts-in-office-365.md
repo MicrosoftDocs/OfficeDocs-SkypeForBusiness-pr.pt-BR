@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: c36150bb-461c-4f1c-877b-fac7fb232f7c
 description: Leia este tópico para saber mais sobre como provisionar contas do Sistema de Sala do Skype no Microsoft 365 ou no Office 365.
-ms.openlocfilehash: 8e44e648e12ec4db1e8acf9617c02937f9418c41
-ms.sourcegitcommit: 1613e08da482ff142c990c9c9951abeb873ad964
+ms.openlocfilehash: 94390effb246a37745d797289c1146ed3d347604
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "50569373"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51093515"
 ---
 # <a name="provisioning-skype-room-system-accounts-in-microsoft-365-and-office-365"></a>Provisionando contas do Sistema de Sala do Skype no Microsoft 365 e no Office 365
  
@@ -29,7 +29,7 @@ A seção a seguir aborda o provisionamento da conta do Sistema de Sala do Skype
 
 Seu locatário online deve atender aos seguintes requisitos:
   
-- O plano do Microsoft 365 ou office 365 deve incluir o Plano 2 do Skype for Business Online ou o Office 365 E1, E3 ou E5. <br/>Para obter detalhes sobre planos do Skype for Business Online, consulte [a Descrição do serviço do Skype for Business Online.](https://technet.microsoft.com/library/jj822172.aspx)
+- O plano do Microsoft 365 ou office 365 deve incluir o Plano 2 do Skype for Business Online ou o Office 365 E1, E3 ou E5. <br/>Para obter detalhes sobre planos do Skype for Business Online, consulte [a Descrição do serviço do Skype for Business Online.](/office365/servicedescriptions/skype-for-business-online-service-description/skype-for-business-online-service-description)
     
 - Seu locatário deve ter o recurso de conferência do Skype for Business habilitado.
     
@@ -69,7 +69,7 @@ Você pode já ter uma caixa de correio de sala de recursos no Exchange que forn
     
 ## <a name="exchange-online-provisioning"></a>Provisionamento do Exchange Online
 
-Primeiro, conecte-se ao PowerShell do Exchange Online seguindo as instruções no tópico, [Conectar-se ao PowerShell do Exchange Online.](https://go.microsoft.com/fwlink/p/?LinkId=396554)
+Primeiro, conecte-se ao PowerShell do Exchange Online seguindo as instruções no tópico, [Conectar-se ao PowerShell do Exchange Online.](/powershell/exchange/connect-to-exchange-online-powershell)
   
 Para definir uma conta de caixa de correio de sala de recursos existente para o Sistema de Sala do Skype, execute os seguintes comandos no PowerShell do Exchange Online:
   
@@ -101,7 +101,7 @@ Depois de atribuir uma licença para o Skype for Business Online, você poderá 
 
 Depois que uma conta de caixa de correio de sala de recursos tiver sido criada e habilitada como mostrado anteriormente, e você tiver licenciado a conta do Skype For Business Online, a conta será sincronizada da floresta do Exchange Online para a floresta do Skype for Business Online usando a floresta Windows Azure Do Active Directory. As etapas a seguir são necessárias para provisionar a conta do Sistema de Sala do Skype no pool do Skype for Business Online. Essas etapas são as mesmas para uma conta de caixa de correio de recurso existente ou para uma conta recém-criada (confrm1 ou confrm2), pois depois de habilitadas no Exchange Online, ambas as contas serão sincronizadas com o Skype for Business Online da mesma maneira:
   
-1. Criar uma sessão do PowerShell remoto. Observe que você precisará baixar o módulo [do Teams PowerShell.](https://docs.microsoft.com/microsoftteams/teams-powershell-install)
+1. Criar uma sessão do PowerShell remoto. Observe que você precisará baixar o módulo [do Teams PowerShell.](/microsoftteams/teams-powershell-install)
     
   ```powershell
   # When using Teams PowerShell Module
@@ -143,9 +143,8 @@ No Microsoft 365 ou No Office 365, a política de expiração de senha padrão p
    Set-MsolUser -UserPrincipalName confrm1@skypelrs.onmicrosoft.com -PasswordNeverExpires $true
    ```
 
-Para obter mais informações, [consulte Configurar seu computador para Windows PowerShell](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell).
+Para obter mais informações, [consulte Configurar seu computador para Windows PowerShell](../../../SfbOnline/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md).
   
 ## <a name="validate"></a>Validar
 
 Para validação, você deve poder usar qualquer cliente do Skype for Business para entrar na conta criada.
-

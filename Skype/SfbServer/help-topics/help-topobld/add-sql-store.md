@@ -14,22 +14,20 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8ec39dfc-c58d-4fdb-b61e-f71dd691cef8
-description: Para definir um novo Sql Store, o que significa que você está especificando um banco de dados baseado em SQL Server e uma instância do SQL Server — uma instância padrão ou uma instância nomeada — especifique o seguinte.
-ms.openlocfilehash: 79429b596eef1ed0695aeb24594ea08ce12093be
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Para definir um novo SQL Store, o que significa que você está especificando um banco de dados baseado em SQL Server e uma instância de SQL Server — uma instância padrão ou uma instância nomeada — especifique o seguinte.
+ms.openlocfilehash: 28018a7320bc42761a668aaff385302016781592
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49833301"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51095595"
 ---
 # <a name="add-sql-store"></a>Adicionar Repositório SQL
 
-Para definir um novo Sql Store, o que significa que você está especificando um banco de dados baseado em SQL Server e uma instância do SQL Server — uma instância padrão ou uma instância nomeada — especifique o seguinte.
+Para definir um novo SQL Store, o que significa que você está especificando um banco de dados baseado em SQL Server e uma instância de SQL Server — uma instância padrão ou uma instância nomeada — especifique o seguinte.
 
 Especifique o FQDN (nome de domínio totalmente qualificado) do SQL Server que hospedará a instância do banco de dados que você está definindo.
 
-Especifique a instância do SQL Server que hospedará os dados. Você pode especificar a instância padrão ou uma instância nomeada.
+Especifique a instância SQL Server que hospedará os dados. Você pode especificar a instância padrão ou especificar uma instância nomeada.
 
-A colocação de bancos de dados em instâncias específicas devem ser claramente compreendidas. Para obter detalhes sobre colocação de servidor e colocação de instância de banco de dados, consulte Colocação de servidor em uma implantação de pool de [front-end](https://technet.microsoft.com/library/0516b18d-14c0-4237-9279-0f92e341b1bd.aspx) e colocação de servidor em uma [implantação](https://technet.microsoft.com/library/0763ffab-4fd6-463a-8e62-d97876b376d3.aspx)de servidor Standard Edition .
-
-
+A colocação de bancos de dados em instâncias específicas devem ser claramente compreendidas. Para obter detalhes sobre a colocação do servidor e a colocação da instância do banco de dados, consulte Localização do servidor em uma Implantação de Pool de [Front-End](/previous-versions/office/lync-server-2013/lync-server-2013-server-collocation-in-an-enterprise-edition-front-end-pool-deployment) e Colocação de Servidor em uma Implantação do [Servidor Standard Edition.](/previous-versions/office/lync-server-2013/lync-server-2013-server-collocation-in-a-standard-edition-server-deployment)

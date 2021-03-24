@@ -16,38 +16,38 @@ localization_priority: Normal
 ms.assetid: 44783b37-c87f-41f2-9de1-39176f1856ab
 ROBOTS: NOINDEX, NOFOLLOW
 description: Ferramenta de Planejamento do Skype for Business Server
-ms.openlocfilehash: f317b2963e6db83e733a3f0b259a6d0bfe466c9d
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 4084d263a693a064e06a814d2fab4542ca3142c0
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49819821"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51093319"
 ---
 # <a name="feature-overview-planning-tool"></a>Visão geral do recurso (Ferramenta de Planejamento)
  
 Ferramenta de Planejamento do Skype for Business Server
   
-Você pode usar a **página Sites Centrais** da Ferramenta de Planejamento para projetar a implantação do Skype for Business Server. Você pode criar duas implantações centralizadas ou distribuídas. Uma implantação centralizada tem apenas um site central, que fica com todos os usuários do Skype for Business em sua organização. Uma implantação distribuída tem mais de um site central. Se você implantar o Skype for Business Server em vários sites centrais, inserirá o número de usuários em cada site central na Ferramenta de Planejamento.
+Você pode usar a **página Sites Centrais** da Ferramenta de Planejamento para projetar a implantação do Skype for Business Server. Você pode criar duas implantações centralizadas ou distribuídas. Uma implantação centralizada tem apenas um site central, que aporta todos os usuários do Skype for Business em sua organização. Uma implantação distribuída tem mais de um site central. Se você implantar o Skype for Business Server em vários sites centrais, insira o número de usuários em cada site central na Ferramenta de Planejamento.
   
 Para concluir a definição do site central, primeiro você precisa fornecer as seguintes informações:
   
-- **Nome do Site** Insira o nome do Site Central.
+- **Nome do site** Insira o nome do Site Central.
     
-- **Número de usuários** Insira o número de usuários, incluindo usuários em sites de filial que estão no site central.
+- **Número de usuários** Insira o número de usuários, incluindo usuários em sites de filial que estão em casa no site central.
     
-- **Usuários na nuvem** Insira o número de usuários que estão instalados no site central do Skype for Business Online.
+- **Usuários da Nuvem Internas** Insira o número de usuários que estão no site central do Skype for Business Online.
     
-## <a name="ui-elements"></a>Elementos de interface do usuário
+## <a name="ui-elements"></a>Elementos da interface do usuário
 
-Os elementos restantes foram preenchidos com as respostas que  você forneceu às perguntas apresentadas no assistente de Iniciação ou, se você ignorou o assistente, foi preenchido automaticamente pela ferramenta de planejamento.
+Os elementos restantes foram preenchidos com as respostas que você forneceu às perguntas apresentadas no assistente **Get Started** ou, se você ignorou o assistente, foi preenchido automaticamente pela ferramenta de planejamento.
   
 ### <a name="online-collaboration"></a>Colaboração Online
 
  **A Colaboração Online** contém as seguintes opções:
   
-- **IM e presença**
+- **IM e Presença**
     
-    As mensagens instantâneas (IM) permitem que os usuários se comuniquem entre si em tempo real em seus computadores usando mensagens baseadas em texto. Tanto as sessões de IM de duas partes como as multipartes são suportadas. A presença fornece informações aos usuários sobre o status de outras pessoas na rede. O status de presença de um usuário fornece informações para ajudar outras pessoas a determinar se o usuário está online e como entrar em contato melhor com o usuário. Por exemplo, um usuário que está em uma reunião é melhor contatado por email.
+    A Mensagem Instantânea (IM) permite que os usuários se comuniquem uns com os outros em tempo real em seus computadores usando mensagens baseadas em texto. Tanto as sessões de IM de duas partes como as multipartes são suportadas. A presença fornece informações aos usuários sobre o status de outras pessoas na rede. O status de presença de um usuário fornece informações para ajudar outras pessoas a determinar se o usuário está online e como contatar melhor o usuário. Por exemplo, um usuário que está em uma reunião é melhor contatado por email.
     
 - **Conferência de áudio e vídeo**
     
@@ -55,7 +55,7 @@ Os elementos restantes foram preenchidos com as respostas que  você forneceu à
     
 - **Conferência discada**
     
-    A conferência discda permite que os usuários participem de uma A/V a partir de um telefone na PSTN. A conferência discda exige que você implante os aplicativos De Serviço de Anúncio de Conferência e Atendente de Conferência.
+    A conferência discagem permite que os usuários instruam um A/V de um telefone na PSTN. A conferência discagem exige que você implante os aplicativos de Serviço de Comunicado de Conferência e Atendente de Conferência.
     
 - **Webconferência**
     
@@ -63,10 +63,10 @@ Os elementos restantes foram preenchidos com as respostas que  você forneceu à
     
 - **Chat Persistente**
     
-    O Chat Persistente permite que vários usuários participem de conversas nas quais eles publicam e acessam conteúdo sobre tópicos específicos, incluindo texto, links e arquivos. Embora os usuários possam se comunicar em tempo real durante uma sessão, o conteúdo de cada sessão é persistente, o que significa que continua disponível após o fim de uma sessão.
+    O Chat Persistente permite que vários usuários participem de conversas nas quais eles postam e acessam conteúdo sobre tópicos específicos, incluindo texto, links e arquivos. Embora os usuários possam se comunicar em tempo real durante uma sessão, o conteúdo de cada sessão é persistente, o que significa que continua disponível após o fim de uma sessão.
 
     > [!NOTE] 
-    > O chat persistente está disponível no Skype for Business Server 2015, mas não é mais suportado no Skype for Business Server 2019. A mesma funcionalidade está disponível no Teams. Para saber mais, confira [a atualização do Skype for Business para o Microsoft Teams.](https://docs.microsoft.com/MicrosoftTeams/upgrade-start-here) Se você precisar usar o chat persistente, suas opções são migrar os usuários que exigem essa funcionalidade para o Teams ou continuar usando o Skype for Business Server 2015.
+    > O chat persistente está disponível no Skype for Business Server 2015, mas não tem mais suporte no Skype for Business Server 2019. A mesma funcionalidade está disponível no Teams. Para obter mais informações, consulte [Atualização do Skype for Business para o Microsoft Teams.](/MicrosoftTeams/upgrade-start-here) Se você precisar usar o chat persistente, suas opções são migrar usuários que exigem essa funcionalidade para o Teams ou continuar usando o Skype for Business Server 2015.
     
 ### <a name="users"></a>Usuários
 
@@ -78,49 +78,49 @@ Os elementos restantes foram preenchidos com as respostas que  você forneceu à
     
 - **Federação com versões anteriores**
     
-- **Federação com provedores de serviços públicos de IM** Permite que os usuários em sua organização estabeleçam comunicação com provedores públicos de serviços de mensagens instantâneas, como MSN, Yahoo!, e AOL. Uma licença separada é necessária para estabelecer a federação com redes públicas de mensagens instantâneas.
+- **Federação com provedores de serviços públicos de IM** Permite que os usuários em sua organização estabeleçam comunicação com provedores públicos de serviços de mensagens instantâneas, como MSN, Yahoo!, e AOL. Uma licença separada é necessária para estabelecer federação com redes públicas de mensagens instantâneas.
     
 - **Federação com provedor de serviços baseado em XMPP**
     
-    O Skype for Business Server 2015 introduziu um proxy XMPP totalmente integrado (implantado nos Servidores de Borda) e um gateway XMPP implantado em seus Servidores Front-End. Você pode implantar Adicionando e configurando o proxy XMPP e o gateway XMPP permitirá que os usuários do Skype for Business Server adicionem contatos de parceiros baseados em XMPP para mensagens instantâneas e presença.
+    O Skype for Business Server 2015 introduziu um proxy XMPP totalmente integrado (implantado nos Servidores de Borda) e um gateway XMPP implantado em seus Servidores Front-End. Você pode implantar Adicionar e configurar o proxy XMPP e o gateway XMPP permitirá que os usuários do Skype for Business Server adicionem contatos de parceiros baseados em XMPP para mensagens instantâneas (IM) e presença.
     
 - **Mobilidade**
     
-    Quando você implanta o Serviço de Mobilidade do Skype for Business Server, os usuários podem usar dispositivos móveis compatíveis com Apple iOS, Android, Windows Phone ou Nokia para realizar atividades como enviar e receber mensagens instantâneas, exibir contatos e exibir presença.
+    Quando você implanta o Serviço de Mobilidade do Skype for Business Server, os usuários podem usar dispositivos móveis Apple iOS, Android, Windows Phone ou Nokia compatíveis para executar atividades como envio e recebimento de mensagens instantâneas, exibição de contatos e presença de visualização.
     
 - **Caixa de correio do Exchange W15**
     
-    O Skype for Business Server permite que você tenha mensagens de caixa postal armazenadas na Unificação de Mensagens (UM) do Exchange; essas mensagens de caixa postal aparecerão como mensagens de email nas Caixas de Entrada dos usuários.
+    O Skype for Business Server permite que você tenha mensagens de caixa postal armazenadas na Unificação de Mensagens do Exchange (UM); essas mensagens de caixa postal serão exibidas como mensagens de email nas Caixas de Entrada dos usuários.
 
     > [!NOTE]
-    > A Unificação de Mensagens do Exchange como anteriormente conhecida não está mais disponível no Exchange 2019, mas você ainda pode usar o Sistema de Telefonia para gravar mensagens de caixa postal e deixar a gravação na caixa de correio do Exchange de um usuário. Consulte [Planejar o serviço de Caixa Postal na Nuvem](../../../../sfbhybrid/hybrid/plan-cloud-voicemail.md) para obter mais informações.
+    > A Unificação de Mensagens do Exchange, como conhecida anteriormente, não está mais disponível no Exchange 2019, mas você ainda pode usar o Sistema de Telefonia para gravar mensagens de caixa postal e deixar a gravação na caixa de correio do Exchange de um usuário. Consulte [Plan Cloud Voicemail service para](../../../../sfbhybrid/hybrid/plan-cloud-voicemail.md) obter mais informações.
     
 ### <a name="voice"></a>Voz
 
- **A** voz contém as seguintes opções:
+ **O Voice** contém as seguintes opções:
   
 - **Enterprise Voice**
     
-    O Enterprise Voice é a solução VoIP da Microsft com software. O Enterprise Voice permite que os usuários usem o Skype for Business para fazer uma chamada telefônica de seus computadores.
+    Enterprise voice é a solução VoIP com software da Microsft. A voz corporativa permite que os usuários usem o Skype for Business para fazer uma chamada telefônica de seu computador.
     
 - **Unificação de Mensagens do Exchange**
     
-    A Unificação de Mensagens (UM) do Exchange combina caixa postal e email em uma única infraestrutura de mensagens. O Skype for Business Server 2015 usa a UM do Exchange para fornecer atendimento de chamadas, acesso de assinante, notificação de chamada e serviços de atendedor automático. Se você usar esses serviços, precisará integrar o UM do Exchange e o Skype for Business Server em uma topologia compartilhada do Active Directory.
+    A UM (Unificação de Mensagens) do Exchange combina caixa postal e email em uma única infraestrutura de mensagens. O Skype for Business Server 2015 usa a UM do Exchange para fornecer atendimento de chamadas, acesso de assinante, notificação de chamada e serviços de atendedor automático. Se você usar esses serviços, precisará integrar a UM do Exchange e o Skype for Business Server em uma topologia compartilhada do Active Directory.
 
     > [!NOTE]
-    > A Unificação de Mensagens do Exchange como anteriormente conhecida não está mais disponível no Exchange 2019, mas você ainda pode usar o Sistema de Telefonia para gravar mensagens de caixa postal e deixar a gravação na caixa de correio do Exchange de um usuário. Consulte [Planejar o serviço de Caixa Postal na Nuvem](../../../../sfbhybrid/hybrid/plan-cloud-voicemail.md) para obter mais informações.
+    > A Unificação de Mensagens do Exchange, como conhecida anteriormente, não está mais disponível no Exchange 2019, mas você ainda pode usar o Sistema de Telefonia para gravar mensagens de caixa postal e deixar a gravação na caixa de correio do Exchange de um usuário. Consulte [Plan Cloud Voicemail service para](../../../../sfbhybrid/hybrid/plan-cloud-voicemail.md) obter mais informações.
     
-### <a name="additional-deployment-options"></a>Opções de implantação adicionais
+### <a name="additional-deployment-options"></a>Opções adicionais de implantação
 
- **Opções de implantação adicionais** contêm as seguintes opções:
+ **Opções adicionais de** implantação contém as seguintes opções:
   
 - **Alta Disponibilidade**
     
-    A alta disponibilidade habilita servidores em espera para suporte a failover.
+    Alta disponibilidade habilita servidores em espera para suporte a failover.
     
 - **Recuperação de desastres**
     
-    As medidas de recuperação de desastres permitem que você emparelhe pools de Front-End localizados em dois datacenters.
+    As medidas de recuperação de desastres permitem emparelhar pools de Front-End localizados em dois datacenters.
     
 - **Monitoramento**
     
@@ -130,13 +130,13 @@ Os elementos restantes foram preenchidos com as respostas que  você forneceu à
     
     O arquivamento armazena conversas e conferências de mensagens instantâneas.
     
-- **Integração com Arquivamento do Exchange**
+- **Integração de Arquivamento do Exchange**
     
-    Se você tiver usuários que estão no Exchange e suas caixas de correio foram colocadas em espera In-Place, você pode selecionar a opção para integrar o armazenamento do Skype for Business Server ao armazenamento do Exchange.
+    Se você tiver usuários que estão em casa no Exchange e suas caixas de correio foram colocadas em espera In-Place, você pode selecionar a opção para integrar o armazenamento do Skype for Business Server ao armazenamento do Exchange.
     
 - **IPv4**
     
-    Os endereços IPv4 são endereços 32 bits que permitem a um computador se comunicar pela Internet. Devido ao crescente número de dispositivos em todo o mundo, os endereços IPv4 disponíveis estão sem saída. Por isso, muitos dispositivos novos estão passando a usar endereços IPv6.
+    Os endereços IPv4 são endereços 32 bits que permitem a um computador se comunicar pela Internet. Devido ao número crescente de dispositivos em todo o mundo, os endereços IPv4 disponíveis foram executados. Devido a isso, muitos novos dispositivos estão mudando para o uso de endereços IPv6.
     
 - **IPv6**
     
@@ -146,37 +146,35 @@ Os elementos restantes foram preenchidos com as respostas que  você forneceu à
     
     O serviço Web de Atualização de Dispositivo fornece uma maneira automatizada de atualizar todos os dispositivos, como o Skype for Business para Windows Phone, que são implantados fora da sua organização.
     
-### <a name="server-applications"></a>Aplicativos para servidores
+### <a name="server-applications"></a>Aplicativos de Servidor
 
- **Os Aplicativos para** Servidores contêm as seguintes opções:
+ **Aplicativos de Servidor** contém as seguintes opções:
   
 - **Grupo de Resposta**
     
-    O aplicativo Grupo de Resposta responde automaticamente e distribui chamadas para um agente de helpdesk disponível.
+    O aplicativo grupo de resposta responde automaticamente e distribui chamadas para um agente auxiliar disponível.
     
 - **Comunicado**
     
-    Se você planeja implantar o Enterprise Voice, talvez queira configurar como as chamadas telefônicas serão tratadas se o número discado for válido, mas não atribuído a uma área comum do usuário. Os administradores podem configurar o Serviço de Comunicado para que essas chamadas transfiram para um destino predeterminado (número de telefone ou URI do SIP) ou reproduzam um comunicado de áudio ou ambos. O uso do Serviço de Comunicado evita a situação em que um chamador se desinforma e ouve um tom de ocupado ou o cliente SIP recebe uma mensagem de erro. A funcionalidade do Serviço de Comunicado é um recurso típico de PBX. 
+    Se você planeja implantar Enterprise Voice, talvez queira configurar como as chamadas telefônicas são tratadas se o número discado for válido, mas não atribuído a uma área comum do usuário. Os administradores podem configurar o Serviço de Comunicado para que essas chamadas transfiram para um destino predeterminado (número de telefone ou URI SIP) ou reproduzir um comunicado de áudio ou ambos. O uso do Serviço de Comunicado evita a situação em que um chamador faz uma misdial e ouve um tom de ocupado ou o cliente SIP recebe uma mensagem de erro. A funcionalidade do Serviço de Comunicado é um recurso PBX típico. 
     
 - **Estacionamento de chamada**
     
-    O aplicativo Estacionamento de Chamada permite que um usuário do Enterprise Voice coloque uma chamada em espera em um telefone e receba a chamada de outro telefone sem ligar para o telefone que recebeu a chamada. O aplicativo Estacionamento de Chamada é útil quando um usuário precisa transferir uma chamada, mas o destinatário específico é desconhecido. 
+    O aplicativo Estacionamento de Chamadas permite que um usuário Enterprise Voice uma chamada em espera de um telefone e, em seguida, receba a chamada de outro telefone sem amarrar os recursos no telefone que recebeu a chamada. O aplicativo Estacionamento de Chamada é útil quando um usuário precisa transferir uma chamada, mas o destinatário específico é desconhecido. 
     
 - **Atendente de conferência**
     
-    O aplicativo Atendente de Conferência fornece recursos de audioconferência para usuários de telefone sem o serviço de um provedor de serviços de audioconferência de terceiros.
+    O aplicativo do Atendente de Conferência fornece recursos de audioconferência para usuários de telefone sem o serviço de um provedor de audioconferência de terceiros.
     
 - **Comunicado de Conferência**
     
-    O aplicativo Comunicado de Conferência produz tons que sinalizam quando os usuários entram ou saem de uma conferência, bem como notificações aos usuários de telefone quando eles estão sem som ou sem som.
+    O aplicativo comunicado de conferência produz tons que sinalizam quando os usuários entram ou saem de uma conferência, bem como notificações aos usuários de telefone quando eles são mudos ou não são intermediados.
     
 - **Serviço de Controle de Admissão de Chamadas**
     
-    O CAC (Controle de Admissão de Chamada), também conhecido como gerenciamento de largura de banda WAN, ajuda a evitar uma baixa qualidade da experiência para usuários em redes congestionadas determinando, com base na largura de banda disponível, se é para permitir e estabelecer novas sessões de comunicação em tempo real. 
+    O Controle de Admissão de Chamada (CAC), também conhecido como gerenciamento de largura de banda wan, ajuda a evitar uma má qualidade de experiência para usuários em redes congestionadas determinando, com base na largura de banda disponível, se as novas sessões de comunicação em tempo real serão estabelecidas. 
     
     > [!NOTE]
     > O CAC controla apenas o tráfego em tempo real e não afeta o tráfego de dados. 
   
     Se uma nova sessão de voz ou vídeo exceder os limites de largura de banda alocados em uma WAN, a sessão será bloqueada ou (somente para chamadas telefônicas) redirecionada para a PSTN.
-    
-

@@ -15,17 +15,15 @@ localization_priority: Normal
 ms.assetid: 13485e9d-190e-4ece-b997-1cbf45aae77c
 ROBOTS: NOINDEX, NOFOLLOW
 description: O endereço IP interno é o endereço IP da interface interna do Servidor de Borda.
-ms.openlocfilehash: b64fda68c08d50b87750bca0204fc30666744d66
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: c2e246b15eed88cfe369b653a7e2f2f3507acd35
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49801051"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51095805"
 ---
 # <a name="add-edge-server-internal-ip"></a>Adicionar IP Interno de Servidor de Borda
 
 O endereço IP interno é o endereço IP da interface interna do Servidor de Borda.
 
-É possível incluir suporte ao acesso de usuários externos durante a implantação da sua topologia inicial ou em uma fase posterior. Para obter detalhes sobre como adicionar Servidores de Borda a uma topologia existente, consulte [Define Your Edge Topology](https://technet.microsoft.com/library/787b23f1-8fa0-4c37-abf2-c516c5dd66f0.aspx) na documentação Implantação do Servidor de Borda.
-
-
+É possível incluir suporte ao acesso de usuários externos durante a implantação da sua topologia inicial ou em uma fase posterior. Para obter detalhes sobre como adicionar Servidores de Borda a uma topologia existente, consulte [Define Your Edge Topology](/previous-versions/office/lync-server-2013/lync-server-2013-define-your-edge-topology) na documentação Implantação do Servidor de Borda.

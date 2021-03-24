@@ -12,18 +12,18 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 50c39731-ba2f-49c2-a571-6dc373f6aaeb
 description: 'Resumo: saiba como criar uma nova política de arquivamento para o Skype for Business Server.'
-ms.openlocfilehash: 3e1f538aba26025f5868a09babd3b67df36f9a3f
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: fe3a80708d3810a085f1814e6d16ff3cd4c6057c
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49817641"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51095415"
 ---
 # <a name="create-a-new-archiving-policy-in-skype-for-business-server"></a>Criar uma nova política de arquivamento no Skype for Business Server
 
 **Resumo:** Saiba como criar uma nova política de arquivamento para o Skype for Business Server.
   
-Você pode criar novas políticas de arquivamento usando o Painel de Controle ou os cmdlets do Windows PowerShell.
+Você pode criar novas políticas de arquivamento usando o Painel de Controle ou usando Windows PowerShell cmdlets.
   
 ## <a name="create-a-new-archiving-policy-by-using-the-control-panel"></a>Criar uma nova política de arquivamento usando o Painel de Controle
 
@@ -31,7 +31,7 @@ Para criar uma nova política de arquivamento usando o Painel de Controle:
   
 1. A partir da conta do usuário que foi atribuída à função CsArchivingAdministrator ou CsAdministrator, faça o logon em qualquer computador na sua implantação interna. 
     
-2. Abra uma janela do navegador e insira a URL do Administrador para abrir o Painel de Controle do Skype for Business Server. 
+2. Abra uma janela do navegador e insira a URL do administrador para abrir o Painel de Controle do Skype for Business Server. 
     
 3. Na barra de navegação esquerda, clique em **Monitoramento e Arquivamento** e em **Política de Arquivamento**.
     
@@ -54,11 +54,11 @@ Para criar uma nova política de arquivamento usando o Painel de Controle:
 6. Clique em **Confirmar**.
     
     > [!IMPORTANT]
-    > As configurações de uma política de usuário somente se aplicam aos usuários e grupos de usuários específicos aos quais você aplicar a política. Para obter detalhes, [consulte Aplicar uma política de arquivamento aos usuários no Skype for Business Server.](apply-a-policy-to-users.md) 
+    > As configurações de uma política de usuário somente se aplicam aos usuários e grupos de usuários específicos aos quais você aplicar a política. Para obter detalhes, [consulte Apply an archiving policy to users in Skype for Business Server](apply-a-policy-to-users.md). 
   
-## <a name="create-a-new-archiving-policy-by-using-windows-powershell"></a>Criar uma nova política de arquivamento usando o Windows PowerShell
+## <a name="create-a-new-archiving-policy-by-using-windows-powershell"></a>Criar uma nova política de arquivamento usando Windows PowerShell
 
-Você também pode criar novas políticas de arquivamento usando o cmdlet Windows PowerShell **New-CsArchivingPolicy.** Para obter mais informações, consulte o tópico de ajuda para o cmdlet [New-CsArchivingPolicy.](https://docs.microsoft.com/powershell/module/skype/new-csarchivingpolicy?view=skype-ps)
+Você também pode criar novas políticas de arquivamento usando o cmdlet **Windows PowerShell New-CsArchivingPolicy.** Para obter mais informações, consulte o tópico de ajuda para o cmdlet [New-CsArchivingPolicy.](/powershell/module/skype/new-csarchivingpolicy?view=skype-ps)
   
 ### <a name="to-create-a-new-archiving-policy-at-the-site-level"></a>Para criar uma nova política de arquivamento no nível do site
 
@@ -76,17 +76,17 @@ Para criar uma nova política de arquivamento no nível por usuário, basta espe
 New-CsArchivingPolicy -Identity "RedmondArchivingPolicy"
 ```
 
-### <a name="to-create-a-new-archiving-policy-that-enables-archiving-of-internal-communication-sessions"></a>Para criar uma nova política de arquivamento que habilita o arquivamento de sessões de comunicação interna
+### <a name="to-create-a-new-archiving-policy-that-enables-archiving-of-internal-communication-sessions"></a>Para criar uma nova política de arquivamento que habilita o arquivamento de sessões de comunicação internas
 
-Como nenhum parâmetros foi especificado (além do parâmetro obrigatório Identity) nos comandos anteriores, as novas políticas utilizarão os valores padrão para todas as suas propriedades. Para criar políticas que utilizam valores de propriedades diferentes, basta incluir o parâmetro e o valor de parâmetro apropriado. Por exemplo, o seguinte comando cria uma política de arquivamento que permite o arquivamento de sessões de mensagens instantâneas internas: 
+Como nenhum parâmetros foi especificado (além do parâmetro obrigatório Identity) nos comandos anteriores, as novas políticas utilizarão os valores padrão para todas as suas propriedades. Para criar políticas que utilizam valores de propriedades diferentes, basta incluir o parâmetro e o valor de parâmetro apropriado. Por exemplo, o comando a seguir cria uma política de arquivamento que permite o arquivamento de sessões internas de mensagens instantâneas: 
   
 ```PowerShell
 New-CsArchivingPolicy -Identity "site:Redmond" -ArchiveInternal $True
 ```
 
-### <a name="to-create-a-new-archiving-policy-that-enables-archiving-of-both-internal-and-external-communication-sessions"></a>Para criar uma nova política de arquivamento que habilita o arquivamento de sessões de comunicação interna e externa
+### <a name="to-create-a-new-archiving-policy-that-enables-archiving-of-both-internal-and-external-communication-sessions"></a>Para criar uma nova política de arquivamento que habilita o arquivamento de sessões de comunicação internas e externas
 
-Vários valores de propriedade podem ser modificados, incluindo vários parâmetros. Por exemplo, este comando configura a nova política para arquivar sessões de mensagens instantâneas internas e externas:
+Vários valores de propriedade podem ser modificados, incluindo vários parâmetros. Por exemplo, esse comando configura a nova política para arquivar sessões internas e externas de mensagens instantâneas:
   
 ```PowerShell
 New-CsArchivingPolicy -Identity "site:Redmond" -ArchiveInternal $True -ArchiveExternal $True

@@ -26,12 +26,12 @@ description: Aprenda sobre recursos de saúde como a telessaúde do Microsoft Te
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
-ms.openlocfilehash: 3a33b3321d6809fd816f8c6f9a7534000ed18b94
-ms.sourcegitcommit: 71b9b5ec80014bd25758493bc06d633c4eac735c
+ms.openlocfilehash: 00dbf546166dbc1fd40d633516ac77ffaff3774c
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/18/2021
-ms.locfileid: "50867030"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51092679"
 ---
 # <a name="get-started-with-teams-for-healthcare-organizations"></a>Começar com o Teams para organizações de saúde
 
@@ -43,14 +43,14 @@ O Microsoft Teams oferece vários recursos de telemedicina úteis para hospitais
 - Modelos do Teams
 - Coordenação e colaboração do cuidado
 
-Esta funcionalidade faz parte do Microsoft Cloud for Healthcare. Saiba mais sobre como usar esta solução, que une os recursos do Azure, Dynamics 365 e Microsoft 365 no [Microsoft Cloud for Healthcare](https://docs.microsoft.com/industry/healthcare).
+Esta funcionalidade faz parte do Microsoft Cloud for Healthcare. Saiba mais sobre como usar esta solução, que une os recursos do Azure, Dynamics 365 e Microsoft 365 no [Microsoft Cloud for Healthcare](/industry/healthcare).
 
 Assista ao vídeo a seguir para saber mais sobre como usar a coleção de saúde para melhorar a colaboração em equipe de saúde no Microsoft Teams.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4Hqan]
 
 > [!NOTE]
-> O conteúdo nesta seção presume que você já implantou o Teams em sua organização. Se você ainda não implantou o Teams, comece lendo [Como implantar o Microsoft Teams](../../How-to-roll-out-teams.md).
+> O conteúdo nesta seção presume que você já implantou o Teams em sua organização. Se você ainda não implantou o Teams, comece lendo [Como implantar o Microsoft Teams](../../deploy-overview.md).
 
 Os cenários a seguir estão disponíveis para organizações de saúde:
 
@@ -99,7 +99,7 @@ Além disso, a capacidade de ter outros locatários federados por organizações
 
 ## <a name="teams-templates-for-healthcare-organizations"></a>Modelos do Teams para organizações de saúde
 
-Desenvolvemos novos modelos para criar equipes para aplicar a um cenário hospitalar e mais serão apresentados em breve. Isso facilita a criação de equipes que os funcionários da saúde usarão para coordenar o cuidado de pacientes em vários departamentos ou alas. Para saber mais, confira [Introdução aos modelos do Teams para Organizações de Saúde](healthcare-templates.md). O Teams pode ser iniciado para departamentos internos, como cardiologia ou para alas de cuidado, e mais modelos estão em desenvolvimento.
+Desenvolvemos novos modelos para criar equipes para aplicar a um cenário hospitalar e mais serão apresentados em breve. Isso facilita a criação de equipes que os funcionários da saúde usarão para coordenar o cuidado de pacientes em vários departamentos ou alas. Para saber mais, confira [Introdução aos modelos do Teams para Organizações de Saúde](./healthcare-templates-admin-console.md). O Teams pode ser iniciado para departamentos internos, como cardiologia ou para alas de cuidado, e mais modelos estão em desenvolvimento.
 
 ## <a name="care-coordination-and-collaboration"></a>Coordenação e colaboração do cuidado
 

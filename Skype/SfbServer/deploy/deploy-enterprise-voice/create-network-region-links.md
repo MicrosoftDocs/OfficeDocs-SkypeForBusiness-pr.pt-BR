@@ -15,25 +15,25 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: f8163910-8935-475d-88a2-3aa44feb9dbe
-description: Criar ou modificar links de região de rede, que são usados pelo controle de admissão de chamada do Enterprise Voice no Skype for Business Server.
-ms.openlocfilehash: 1b891a299e85836e4a69b4a6c6e9df9a52cb0cdc
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Crie ou modifique links de região de rede, que são usados Enterprise Voice controle de admissão de chamadas no Skype for Business Server.
+ms.openlocfilehash: 5fd9657b3919e80552a82912550e7314297182cc
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49822461"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51093099"
 ---
 # <a name="create-network-region-links-in-skype-for-business-server"></a>Criar links de região de rede no Skype for Business Server
  
-Criar ou modificar links de região de rede, que são usados pelo controle de admissão de chamada do Enterprise Voice no Skype for Business Server. 
+Crie ou modifique links de região de rede, que são usados Enterprise Voice controle de admissão de chamadas no Skype for Business Server. 
   
 As regiões dentro de uma rede são vinculadas por meio da conectividade Wan. Um link de região de rede cria um link entre duas regiões configuradas para o Controle de Admissão de Chamada (CAC) e define as limitações de largura de banda no tráfego de áudio e vídeo entre essas regiões.
   
-A topologia de exemplo possui um link entre as regiões da América do Norte e APAC e um link entre as regiões EMEA e APAC. Cada um desses links de região é restringido pela largura de banda WAN, conforme descrito na tabela de Informações de Largura de Banda do Link de Região no Exemplo: Coletando requisitos para o controle de admissão de chamadas no [Skype for Business Server.](../../plan-your-deployment/enterprise-voice-solution/example-gathering-requirements.md)
+A topologia de exemplo possui um link entre as regiões da América do Norte e APAC e um link entre as regiões EMEA e APAC. Cada um desses links de região é restrito pela largura de banda WAN, conforme descrito na tabela Informações de Largura de Banda de Link de Região em [Exemplo:](../../plan-your-deployment/enterprise-voice-solution/example-gathering-requirements.md)coletando requisitos para controle de admissão de chamada no Skype for Business Server .
   
 ### <a name="to-create-network-region-links-by-using-skype-for-business-server-management-shell"></a>Para criar links de região de rede usando o Shell de Gerenciamento do Skype for Business Server
 
-1. Inicie o Shell de Gerenciamento do Skype for Business Server: clique em **Iniciar,** em Todos os **Programas,** no **Skype for Business 2015** e, em seguida, clique no Shell de Gerenciamento do **Skype for Business Server.**
+1. Inicie o Shell de Gerenciamento do Skype for Business Server: clique em **Iniciar,** em Todos os **Programas,** em **Skype for Business 2015** e em Shell de Gerenciamento do **Skype for Business Server.**
     
 2. Execute o cmdlet New-CsNetworkRegionLink para criar os links de região e aplicar os perfis da política de largura de banda adequados. Por exemplo, execute:
     
@@ -72,10 +72,10 @@ A topologia de exemplo possui um link entre as regiões da América do Norte e A
     
 ## <a name="see-also"></a>Confira também
 
-[New-CsNetworkRegionLink](https://docs.microsoft.com/powershell/module/skype/new-csnetworkregionlink?view=skype-ps)
+[New-CsNetworkRegionLink](/powershell/module/skype/new-csnetworkregionlink?view=skype-ps)
   
-[Get-CsNetworkRegionLink](https://docs.microsoft.com/powershell/module/skype/get-csnetworkregionlink?view=skype-ps)
+[Get-CsNetworkRegionLink](/powershell/module/skype/get-csnetworkregionlink?view=skype-ps)
   
-[Set-CsNetworkRegionLink](https://docs.microsoft.com/powershell/module/skype/set-csnetworkregionlink?view=skype-ps)
+[Set-CsNetworkRegionLink](/powershell/module/skype/set-csnetworkregionlink?view=skype-ps)
   
-[Remove-CsNetworkRegionLink](https://docs.microsoft.com/powershell/module/skype/remove-csnetworkregionlink?view=skype-ps)
+[Remove-CsNetworkRegionLink](/powershell/module/skype/remove-csnetworkregionlink?view=skype-ps)

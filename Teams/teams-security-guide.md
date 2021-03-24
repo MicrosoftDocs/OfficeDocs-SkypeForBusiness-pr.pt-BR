@@ -20,12 +20,12 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a62952378debd0c2345533688dd8d84d171f0863
-ms.sourcegitcommit: d85425d9e6022d1bf84b877920640f9cbaf8bdce
+ms.openlocfilehash: 92ff8b256f203549541529336396fdd44f67b12c
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/02/2020
-ms.locfileid: "49530968"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51093991"
 ---
 # <a name="security-and-microsoft-teams"></a>Segurança e Microsoft Teams
 
@@ -100,7 +100,7 @@ Os principais elementos são:
 
 - O Active Directory do Azure (Azure AD) que fornece um único repositório de back-end confiável às contas dos usuários. As informações de perfil do usuário são armazenadas no Azure AD pelas ações do Microsoft Graph.
   - Lembre-se de que pode haver vários tokens emitidos, que pode ser visto se rastrear o tráfego de rede. Skype que você pode ver em rastreamentos ao olhar o tráfego de áudio e de chat.
-- O protocolo TLS (Transport Layer Security) e o TLS (MTLS) mútuo que criptografam o tráfego de mensagens instantâneas e permitem a autenticação do ponto de extremidade. Os fluxos de áudio e vídeo ponto a ponto e de compartilhamento de aplicativos são criptografados e a integridade verificada utilizando protocolo SRTP). Você também pode ver o tráfego OAuth em seu rastreamento, principalmente em relação à negociação de permissões durante a mudança entre as guias no Teams, por exemplo, para mover-se de postagens para arquivos. Para obter um exemplo do fluxo OAuth para guias, [consulte este documento](https://docs.microsoft.com/microsoftteams/platform/tabs/how-to/authentication/auth-flow-tab).
+- O protocolo TLS (Transport Layer Security) e o TLS (MTLS) mútuo que criptografam o tráfego de mensagens instantâneas e permitem a autenticação do ponto de extremidade. Os fluxos de áudio e vídeo ponto a ponto e de compartilhamento de aplicativos são criptografados e a integridade verificada utilizando protocolo SRTP). Você também pode ver o tráfego OAuth em seu rastreamento, principalmente em relação à negociação de permissões durante a mudança entre as guias no Teams, por exemplo, para mover-se de postagens para arquivos. Para obter um exemplo do fluxo OAuth para guias, [consulte este documento](/microsoftteams/platform/tabs/how-to/authentication/auth-flow-tab).
 - O Teams usa protocolos padrão do setor para autenticação de usuário, sempre que possível.
 
 As seções a seguir abordam algumas das principais tecnologias.
@@ -136,11 +136,11 @@ O Teams utiliza o TLS e MTLS para criptografar mensagens instantâneas. Todo o t
 
 Esta tabela resume os protocolos usados pelo Teams.
 
-***Criptografia de Tráfego** _
+***Criptografia de tráfego***
 
 |||
 |:-----|:-----|
-|_ *Tipo de tráfego**|**Criptografado por**|
+|**Tipo de tráfego**|**Criptografado por**|
 |Servidor para Servidor|MTLS|
 |Cliente para servidor (por exemplo, Mensagens instantâneas e presença)|TLS|
 |Fluxos de mídia (por exemplo, Compartilhamento de mídia de áudio e vídeo)|TLS|
@@ -156,7 +156,7 @@ O Teams usa um token baseado em credenciais para acesso seguro a retransmissores
 
 #### <a name="fips"></a>FIPS
 
-O Teams usa algoritmos compatíveis com FIPS (Federal Information Processing Standard) para trocas de chave de criptografia. Para obter mais informações sobre a implementação do FIPS, confira [Publicação 140-2 do padrão FIPS (Federal Information Processing Standard)](https://docs.microsoft.com/microsoft-365/compliance/offering-fips-140-2?view=o365-worldwide).
+O Teams usa algoritmos compatíveis com FIPS (Federal Information Processing Standard) para trocas de chave de criptografia. Para obter mais informações sobre a implementação do FIPS, confira [Publicação 140-2 do padrão FIPS (Federal Information Processing Standard)](/microsoft-365/compliance/offering-fips-140-2?view=o365-worldwide).
 
 ### <a name="user-and-client-authentication"></a>Autenticação do usuário e do cliente
 
@@ -164,7 +164,7 @@ Um usuário confiável é aquele cujas credenciais foram autenticadas pelo Azure
 
 Autenticação é o provisionamento de credenciais de usuário em um servidor ou serviço confiável. O Teams usa os seguintes protocolos de autenticação, dependendo do status e da localização do usuário.
 
-- **Autenticação moderna (MA)** é a implementação Microsoft do OAUTH 2.0 para comunicação de cliente para servidor. Ela ativa recursos de segurança como a Autenticação Multifatorial e o Acesso Condicional. Para usar a MA, tanto o locatário online quanto os clientes precisam ser habilitados para a MA. Os clientes do Teams em PC e dispositivos móveis, bem como no cliente Web, [todos são compatíveis do MA](https://docs.microsoft.com/microsoftteams/sign-in-teams).
+- **Autenticação moderna (MA)** é a implementação Microsoft do OAUTH 2.0 para comunicação de cliente para servidor. Ela ativa recursos de segurança como a Autenticação Multifatorial e o Acesso Condicional. Para usar a MA, tanto o locatário online quanto os clientes precisam ser habilitados para a MA. Os clientes do Teams em PC e dispositivos móveis, bem como no cliente Web, [todos são compatíveis do MA](./sign-in-teams.md).
 
 > [!NOTE]
 > Se você precisar revisar a autenticação e os métodos de autorização do Azure AD, a introdução desse artigo e a sessão “Noções básicas de autenticação no Azure AD”.
@@ -183,7 +183,7 @@ No Teams, os administradores de TI podem gerenciar seus serviços por meio do Ce
 
 ### <a name="configuring-access-to-teams-at-your-internet-boundary"></a>Configuração do acesso ao Teams no seu limite de Internet
 
-Para que o Teams funcione corretamente (para que os usuários possam participar de reuniões, etc.), os clientes devem configurar o acesso à Internet de forma que o tráfego de saída UDP e TCP para os serviços na nuvem do Teams seja permitido. Para obter mais informações, confira [URLs e intervalos de endereços IP do Office 365](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges).
+Para que o Teams funcione corretamente (para que os usuários possam participar de reuniões, etc.), os clientes devem configurar o acesso à Internet de forma que o tráfego de saída UDP e TCP para os serviços na nuvem do Teams seja permitido. Para obter mais informações, confira [URLs e intervalos de endereços IP do Office 365](/office365/enterprise/urls-and-ip-address-ranges).
 
 ### <a name="udp-3478-3481-and-tcp-443"></a>UDP 3478-3481 e TCP 443
 
@@ -240,7 +240,7 @@ Habilitar os usuários externos a participar de reuniões do Teams pode ser muit
 Também é possível que um organizador defina as configurações para permitir que os chamadores de discagem sejam a primeira pessoa de uma reunião. Essa configuração é definida nas configurações de videoconferência para os usuários e se aplica a todas as reuniões agendadas pelo usuário.
 
 > [!NOTE]
-> Para obter mais informações sobre o convidado e o acesso externo no Teams, confira este [artigo](https://docs.microsoft.com/microsoftteams/communicate-with-users-from-other-organizations). Ele aborda quais recursos os usuários convidados ou externos podem esperar ver e usar quando fazem logon no Teams. <p> Se você estiver gravando reuniões e deseja ver uma matriz de permissões ao acessar o conteúdo, consulte [esse artigo](https://docs.microsoft.com/microsoftteams/tmr-meeting-recording-change) e a sua matriz.
+> Para obter mais informações sobre o convidado e o acesso externo no Teams, confira este [artigo](./communicate-with-users-from-other-organizations.md). Ele aborda quais recursos os usuários convidados ou externos podem esperar ver e usar quando fazem logon no Teams. <p> Se você estiver gravando reuniões e deseja ver uma matriz de permissões ao acessar o conteúdo, consulte [esse artigo](./tmr-meeting-recording-change.md) e a sua matriz.
 
 ### <a name="participant-roles"></a>Funções do participante
 
@@ -297,14 +297,14 @@ Os organizadores da reunião controlam se os participantes podem fazer apresenta
 
 ## <a name="related-topics"></a>Tópicos relacionados
 
-[As 12 principais tarefas para as equipes de segurança dar suporte ao trabalho em casa](https://docs.microsoft.com/microsoft-365/security/top-security-tasks-for-remote-work)
+[As 12 principais tarefas para as equipes de segurança dar suporte ao trabalho em casa](/microsoft-365/security/top-security-tasks-for-remote-work)
 
 [Central de Confiabilidade da Microsoft](https://microsoft.com/trustcenter)
 
-[Gerenciar configurações de reunião no Microsoft Teams](https://docs.microsoft.com/microsoftteams/meeting-settings-in-teams)
+[Gerenciar configurações de reunião no Microsoft Teams](./meeting-settings-in-teams.md)
 
-[Otimize a conectividade do Microsoft 365 ou do Office 365 dos usuários remotos usando o túnel dividido da VPN](https://docs.microsoft.com/Office365/Enterprise/office-365-vpn-split-tunnel)
+[Otimize a conectividade do Microsoft 365 ou do Office 365 dos usuários remotos usando o túnel dividido da VPN](/Office365/Enterprise/office-365-vpn-split-tunnel)
 
-- [Implementando o túnel dividido de VPN](https://docs.microsoft.com/Office365/Enterprise/office-365-vpn-implement-split-tunnel)
+- [Implementando o túnel dividido de VPN](/Office365/Enterprise/office-365-vpn-implement-split-tunnel)
 
-[Gravações de reunião no Teams, onde as gravações são armazenadas e quem pode acessá-las](https://docs.microsoft.com/microsoftteams/tmr-meeting-recording-change)
+[Gravações de reunião no Teams, onde as gravações são armazenadas e quem pode acessá-las](./tmr-meeting-recording-change.md)

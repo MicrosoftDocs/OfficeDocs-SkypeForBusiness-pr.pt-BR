@@ -19,12 +19,12 @@ ms.custom:
 description: Vídeos de treinamento, apresentações do PowerPoint, tutoriais e outros recursos para administradores sobre como planejar, implantar e executar o Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e2b764e7843defac163e4d111a49b1cf9a321f27
-ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
+ms.openlocfilehash: 2922f22ec0ea7db095c63ce05f9d37752ba134a4
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/18/2021
-ms.locfileid: "50874871"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51094563"
 ---
 # <a name="getting-started-with-admin-training-for-microsoft-teams"></a>Iniciando o treinamento de administrador para o Microsoft Teams
 
@@ -32,8 +32,8 @@ Use os recursos de treinamento para se instruir sobre o Teams, ensinar outras pe
 
 |               |               |               |               |
 | :------------ | :------------ | :------------ | :------------ |
-| ![Um ícone que representa uma mão e uma seta para cima](https://docs.microsoft.com/office/media/icons/get-started-teams.png) | [Comece rápido com algumas equipes e canais](/MicrosoftTeams/get-started-with-teams-quick-start) | ![Um ícone que representa dois usuários](https://docs.microsoft.com/office/media/icons/users-people.png) | [Obtenha treinamento para seus usuários](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7) |
-| ![Um ícone que representa uma marca de seleção](https://docs.microsoft.com/office/media/icons/success-teams.png) | [Veja vídeos de melhores práticas e instruções no canal Coffee in the Cloud no YouTube](https://www.youtube.com/channel/UCs2IXBqperxWVe2ozrr3Gdg/videos) | ![Símbolo da área de transferência tarefas](https://docs.microsoft.com/office/media/icons/task-checklist-planning-teams.png) | [Teams Chalk Talks: aprenda práticas recomendadas e orientações práticas sobre cenários populares do Teams](https://aka.ms/TeamsChalkTalks) |
+| ![Um ícone que representa uma mão e uma seta para cima](/office/media/icons/get-started-teams.png) | [Comece rápido com algumas equipes e canais](./get-started-with-teams-quick-start.md) | ![Um ícone que representa dois usuários](/office/media/icons/users-people.png) | [Obtenha treinamento para seus usuários](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7) |
+| ![Um ícone que representa uma marca de seleção](/office/media/icons/success-teams.png) | [Veja vídeos de melhores práticas e instruções no canal Coffee in the Cloud no YouTube](https://www.youtube.com/channel/UCs2IXBqperxWVe2ozrr3Gdg/videos) | ![Símbolo da área de transferência tarefas](/office/media/icons/task-checklist-planning-teams.png) | [Teams Chalk Talks: aprenda práticas recomendadas e orientações práticas sobre cenários populares do Teams](./chalk-talks-landing-page.yml) |
 
 <h2>Treinamento técnico</h2>
 
@@ -100,5 +100,5 @@ Use os recursos de treinamento para se instruir sobre o Teams, ensinar outras pe
 
 <h2>Cursos</h2>
 
-- [Habilitando o trabalho em equipe com o Microsoft Teams](https://docs.microsoft.com/learn/paths/m365-manage-team-collaboration)
-- [Especialista em Adesão a Serviços da Microsoft](https://aka.ms/AdoptionCert)
+- [Habilitando o trabalho em equipe com o Microsoft Teams](/learn/paths/m365-manage-team-collaboration)
+- [Especialista em Adesão a Serviços da Microsoft](/learn/paths/m365-service-adoption/)

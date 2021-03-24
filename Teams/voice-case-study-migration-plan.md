@@ -16,12 +16,12 @@ f1.keywords:
 description: Estudo de caso de voz do Teams para corporação multi-nacional
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 93f6d0877537a740dc867b44c3c4deb9bebb8441
-ms.sourcegitcommit: 6f7b91f573e2a034f8c5474be2c5cb2971f4b5ab
+ms.openlocfilehash: b0da56bc0da083654a0cd694bd5983f2fe4fe515
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50421286"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51093721"
 ---
 # <a name="contoso-case-study-teams-upgrade-plan"></a>Estudo de caso contoso: Plano de atualização do Teams
 
@@ -47,7 +47,7 @@ A Contoso também participou da sessão Ignite 2019 Projetando seu caminho do [S
 
   - Disponibilidade da funcionalidade de colaboração em clientes do Teams 
 
-Para planejar e configurar a conectividade híbrida, a primeira etapa para [](https://docs.microsoft.com/SkypeForBusiness/hybrid/plan-hybrid-connectivity) mover seu ambiente local para a nuvem, a Contoso leu Planejar conectividade híbrida e [Configurar](https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-hybrid-connectivity) conectividade híbrida para entender como: 
+Para planejar e configurar a conectividade híbrida, a primeira etapa para [](/SkypeForBusiness/hybrid/plan-hybrid-connectivity) mover seu ambiente local para a nuvem, a Contoso leu Planejar conectividade híbrida e [Configurar](/SkypeForBusiness/hybrid/configure-hybrid-connectivity) conectividade híbrida para entender como: 
 
   - Configure seu serviço de ambiente local para federar com o Office 365. 
 
@@ -57,4 +57,4 @@ Para planejar e configurar a conectividade híbrida, a primeira etapa para [](ht
 
   - Use o modo Ilhas durante o piloto técnico.
 
-  - Alternar usuários para o modo TeamsOnly quando o usuário for habilitado para o Sistema de Telefonia. O modo TeamsOnly é necessário para Plano de Chamadas e Roteamento Direto. 
+  - Alternar usuários para o modo TeamsOnly quando o usuário for habilitado para o Sistema de Telefonia. O modo TeamsOnly é necessário para Plano de Chamadas e Roteamento Direto.

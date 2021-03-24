@@ -11,13 +11,13 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: b389dbd9-f2e8-4184-93d0-2e504796ac16
-description: 'Resumo: saiba mais sobre o Relatório de Diagnóstico no Skype for Business Server.'
-ms.openlocfilehash: 89639c0c00081fa4dd01211cc33074585061ff57
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 'Resumo: Saiba mais sobre o Relatório de Diagnóstico no Skype for Business Server.'
+ms.openlocfilehash: b7739214cf176336e47a5d2e11b36b52ea87eca7
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49816891"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51095235"
 ---
 # <a name="diagnostic-report-in-skype-for-business-server"></a>Relatório de Diagnóstico no Skype for Business Server
  
@@ -33,7 +33,7 @@ O Relatório de diagnóstico fornece diagnósticos e informações para a soluç
     
 ## <a name="accessing-the-diagnostic-report"></a>Acessando o relatório de diagnósticos
 
-O Relatório de Diagnóstico pode ser acessado clicando na métrica Relatório de Diagnóstico (Detalhe) no Relatório de Detalhes de Sessão Ponto a Ponto no [Skype for Business Server](peer-to-peer-session-detail-report.md) ou no Relatório detalhado de conferências.
+O Relatório de Diagnóstico pode ser acessado clicando na métrica Relatório de Diagnóstico (Detalhes) no Relatório de Detalhes de Sessão Ponto a Ponto no [Skype for Business Server](peer-to-peer-session-detail-report.md) ou no Relatório de Detalhes da Conferência.
   
 ## <a name="filters"></a>Filtros
 
@@ -60,6 +60,4 @@ A tabela a seguir lista as informações fornecidas no Relatório de Diagnóstic
 |**Hora de ingresso de conferência (ms)** <br/> |Não  <br/> |Tempo (em milissegundos) que o usuário precisou para ingressar na conferência.  <br/> |
 |**Cabeçalho do diagnóstico** <br/> |Não  <br/> |Descrição do ID de diagnóstico.  <br/> |
    
-Uma lista de erros de diagnóstico pode ser encontrada na [página Ms-Diagnostics Header](https://msdn.microsoft.com/library/gg132446%28v=office.12%29.aspx).
-  
-
+Uma lista de erros de diagnóstico pode ser encontrada na página [Ms-Diagnostics Header](/openspecs/office_protocols/ms-ocer/f6787b39-0842-43ca-94a2-6afadda5f0a3).

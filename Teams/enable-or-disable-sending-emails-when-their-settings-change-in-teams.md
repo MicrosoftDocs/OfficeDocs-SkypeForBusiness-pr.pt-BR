@@ -1,5 +1,5 @@
 ---
-title: Opções de email quando as configurações de Audioconferência mudarem
+title: Opções de email quando as configurações de Audioconferência mudam
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,52 +20,52 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
-description: 'Saiba como ativar ou desativar o Skype de enviar e-mails para usuários quando configurações, como alterações de PIN ou o número de conferência padrão, são alteradas no Microsoft Teams. '
-ms.openlocfilehash: 36c7e9dce17de1e6f9bbf8b812d62ddd91bc6ffe
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+description: 'Saiba como habilitar ou desabilitar o Skype de enviar emails aos usuários quando configurações como alterações de pino ou o número de conferência padrão mudar no Microsoft Teams. '
+ms.openlocfilehash: e1bb6df0a443f01ed3c9bc70d03eedc05f217ce4
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44691597"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51092699"
 ---
-# <a name="enable-or-disable-sending-emails-when-audio-conferencing-settings-change-in-microsoft-teams"></a>Ativar ou desativar o envio de e-mails quando alterar configurações de audioconferência no Microsoft Teams
+# <a name="enable-or-disable-sending-emails-when-audio-conferencing-settings-change-in-microsoft-teams"></a>Ativar ou desativar o envio de e-mails quando as configurações de audioconferência são alteradas no Microsoft Teams
 
-Os usuários são notificados automaticamente por e-mail quando são habilitados para audioconferência. Pode haver ocasiões, no entanto, em que você deseja reduzir o número de e-mails enviados aos usuários do Microsoft Teams. Nesses casos, você pode desabilitar o envio de e-mails.
+Os usuários são automaticamente notificados por email quando estão habilitados para Audioconferência. No entanto, pode haver momentos em que você deseja reduzir o número de emails enviados aos usuários do Microsoft Teams. Nesses casos, você pode desabilitar o envio de emails.
   
-Se você desabilitar o envio de e-mails, nenhum e-mail de audioconferência será enviado para os usuários, incluindo e-mails notificando quando o usuário está habilitado ou desabilitado para audioconferência, quando o PIN é redefinido ou quando o número de telefone padrão e o ID de conferência são alterados.
+Se você desabilitar o envio de emails, os emails de Audioconferência não serão enviados para seus usuários, incluindo emails para quando os usuários estão habilitados ou desabilitados para a audioconferência, quando o PIN é redefinido e quando a ID da conferência e o número de telefone de conferência padrão são trocados.
   
-Aqui está um exemplo de e-mail enviado aos usuários habilitados para audioconferência:
+Aqui está um exemplo do email que é enviado aos usuários quando eles estão habilitados para Audioconferência:
   
 ![Exemplo de uma mensagem de email de Audioconferência](media/teams-emails-sent-to-users-when-settings-change-image1.png)
   
-## <a name="when-are-emails-being-sent-to-your-users"></a>Quando os e-mails são enviados aos seus usuários?
+## <a name="when-are-emails-being-sent-to-your-users"></a>Quando os emails são enviados para seus usuários?
 
-- Vários e-mails são enviados aos usuários da sua organização depois que são habilitados para a audioconferência:
+- Há vários emails enviados aos usuários em sua organização depois que eles são habilitados para audioconferência:
     
-  - Quando uma licença de **Audioconferência** é atribuída a eles.
+  - Quando uma **licença de Audioconferência** é atribuída a eles.
     
   - Quando você redefine manualmente o PIN de audioconferência do usuário.
     
   - Quando você redefine manualmente o ID de conferência do usuário.
     
-  - Quando a licença de **Audioconferência** deles é removida.
+  - Quando a **licença de Audioconferência** é removida delas.
     
-  - Quando o provedor de audioconferência de um usuário é alterado da Microsoft para outro provedor ou para **Nenhum**.
+  - Quando o provedor de audioconferência de um usuário é alterado da Microsoft para outro provedor ou **Nenhum**.
     
   - Quando o provedor de audioconferência de um usuário é alterado para a Microsoft.
 
 
-## <a name="enable-or-disable-email-from-being-sent-to-users"></a>Habilitar ou desabilitar o envio de e-mails para os usuários
+## <a name="enable-or-disable-email-from-being-sent-to-users"></a>Habilitar ou desabilitar o envio de emails aos usuários
 
-É possível usar o Microsoft Teams ou o Windows PowerShell para habilitar ou desabilitar o envio de e-mails para os usuários.
+Você pode usar o Microsoft Teams ou Windows PowerShell para habilitar ou desabilitar emails enviados aos usuários.
 
-![Um ícone mostrando o logotipo do Microsoft Teams](media/teams-logo-30x30.png) **Usando o centro de administração do Microsoft Teams**
+![Um ícone que mostra o logotipo do Microsoft Teams](media/teams-logo-30x30.png) **Usando o centro de administração do Microsoft Teams**
 
 1. Na navegação à esquerda, vá para **Reuniões** > **Pontes de conferência**. 
 
-2. No topo da página **Pontes de conferência**, clique em **Configurações da ponte**. 
+2. Na parte superior da página **Pontes de Conferência,** clique em **Configurações de ponte.** 
 
-3. No painel **Configurações de ponte**, habilite ou desabilite **Enviar e-mails aos usuários automaticamente de suas configurações de discagem forem alteradas**.
+3. No painel **Configurações de** ponte, habilita ou desabilita Enviar emails automaticamente aos usuários se suas configurações de **discagem mudarem**.
 
 4. Clique em **Salvar**.
 
@@ -73,26 +73,24 @@ Aqui está um exemplo de e-mail enviado aos usuários habilitados para audioconf
 > [!Note]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
 
-**Usar o Windows PowerShell**
+**Usando Windows PowerShell**
   
-Consulte a [referência do Microsoft Teams PowerShell](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) para obter mais informações.
+Consulte a [referência do Microsoft Teams PowerShell](/powershell/module/teams/?view=teams-ps) para obter mais informações.
 
     
 ## <a name="want-to-know-more-about-windows-powershell"></a>Deseja saber mais sobre o Windows PowerShell?
 
-O Windows PowerShell gerencia os usuários e o que os usuários podem ou não fazer. Com o Windows PowerShell, você pode gerenciar o Microsoft 365 ou o Office 365 usando um ponto único de administração que pode simplificar seu trabalho diário quando você tiver várias tarefas a fazer. Para começar a trabalhar com o Windows PowerShell, consulte estes tópicos:
+O Windows PowerShell gerencia os usuários e o que eles podem ou não fazer. Com Windows PowerShell, você pode gerenciar o Microsoft 365 ou o Office 365 usando um único ponto de administração que pode simplificar seu trabalho diário quando você tem várias tarefas a fazer. Para começar a trabalhar com o Windows PowerShell, confira estes tópicos:
     
-  - [Por que você precisa usar o PowerShell do Office 365](https://go.microsoft.com/fwlink/?LinkId=525041)
+  - [Por que você precisa usar o PowerShell do Office 365](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     
-  - [Melhores maneiras de gerenciar o Office 365 com o Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
+  - [Melhores maneiras de gerenciar o Office 365 com o Windows PowerShell](/previous-versions//dn568025(v=technet.10))
     
-Para obter mais informações sobre o Windows PowerShell, consulte a [referência do Microsoft Teams PowerShell](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) para obter mais informações.
+Para obter mais informações sobre o Windows PowerShell, consulte a [referência do Microsoft Teams PowerShell](/powershell/module/teams/?view=teams-ps) para obter mais informações.
     
   
 ## <a name="related-topics"></a>Tópicos relacionados
 
-[E-mails enviados para os usuários quando suas configurações de Audioconferência são alteradas](emails-sent-to-users-when-their-settings-change-in-teams.md)
+[Emails enviados aos usuários quando suas configurações de Audioconferência mudam](emails-sent-to-users-when-their-settings-change-in-teams.md)
 
 [Enviar um email para um usuário com suas informações de conferência de áudio](send-an-email-to-a-user-with-their-dial-in-information-in-teams.md)
-
-

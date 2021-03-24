@@ -14,17 +14,17 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9e4e9445-0147-4dd6-84f0-b41de142b332
-description: Para editar ou especificar Configurações Externas para os Servidores de Borda, primeiro você deve determinar se usará endereços IP separados para acesso SIP, o serviço de Borda de Webconferência e o serviço de Borda de Áudio/Vídeo.
-ms.openlocfilehash: 7bca4f934e321edbf3c32d9d075b4a1cccd2bbf6
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Para editar ou especificar Configurações Externas para os Servidores de Borda, primeiro você deve determinar se usará endereços IP separados para acesso sip (Protocolo de Iniciação de Sessão), o serviço de Borda de WebConferência e o serviço de Borda de Áudio/Vídeo.
+ms.openlocfilehash: d2589ccd8bcd3d7f7bfccd39e3adf726f8839ad8
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49807081"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51095556"
 ---
 # <a name="edge-server-fqdns-settings-expander"></a>Expansor de Configurações FQDNs de Servidor de Borda
 
-Para editar ou especificar Configurações Externas para os Servidores de Borda, primeiro você deve determinar se usará endereços IP **separados** para acesso SIP, o serviço de Borda de Webconferência e o serviço de Borda de Áudio/Vídeo.
+Para editar ou especificar Configurações Externas para os Servidores de Borda, primeiro você deve determinar se usará endereços IP **separados** para acesso sip (Protocolo de Iniciação de Sessão), o serviço de Borda de WebConferência e o serviço de Borda de Áudio/Vídeo.
 
 Caso você pretenda usar endereços IP separados para cada um, marque a caixa de seleção **Habilitar FQDN e endereço IP separados para webconferência e A/V**. Cada serviço deve possuir um registro de hospedeiro (A) DNS (Domain Name System) correspondente criado para ele.
 
@@ -38,6 +38,4 @@ Caso você determine que sua organização utilizará um único endereço IP e F
 > [!IMPORTANT]
 > Se você alterar alguma destas configurações, incluindo usar endereços IP ou FQDN ou portas separadas, você deve atualizar todos os outros serviços que dependerão dos valores configurados inicialmente.
 
-Para obter detalhes sobre como definir e configurar as configurações para os serviços de Borda, consulte [Definir sua topologia de borda.](https://technet.microsoft.com/library/787b23f1-8fa0-4c37-abf2-c516c5dd66f0.aspx)
-
-
+Para obter detalhes sobre como definir e configurar as configurações dos serviços de Borda, consulte [Define Your Edge Topology](/previous-versions/office/lync-server-2013/lync-server-2013-define-your-edge-topology).

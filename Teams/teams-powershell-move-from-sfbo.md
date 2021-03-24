@@ -12,12 +12,12 @@ ms.collection:
 description: Saiba como mover do Conector do Skype for Business Online para o módulo do Teams PowerShell para gerenciar o Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 32029de1ec33ee89c8dba30d8368131b291fc3f8
-ms.sourcegitcommit: 1613e08da482ff142c990c9c9951abeb873ad964
+ms.openlocfilehash: 5a2b502edc84c853a0a140a11f8c028b7c78aca6
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "50569077"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51094122"
 ---
 # <a name="move-from-skype-for-business-online-connector-to-the-teams-powershell-module"></a>Mover do Skype for Business Online Connector para o módulo do Teams PowerShell
 
@@ -51,6 +51,6 @@ Para mudar do uso do Conector do Skype for Business Online para o módulo do Tea
 
 [Notas de versão do Teams PowerShell](teams-powershell-release-notes.md)
 
-[Referência de cmdlet do Microsoft Teams](https://docs.microsoft.com/powershell/teams/?view=teams-ps)
+[Referência de cmdlet do Microsoft Teams](/powershell/teams/?view=teams-ps)
 
-[Referência de cmdlet do Skype for Business](https://docs.microsoft.com/powershell/skype/intro?view=skype-ps)
+[Referência de cmdlet do Skype for Business](/powershell/skype/intro?view=skype-ps)

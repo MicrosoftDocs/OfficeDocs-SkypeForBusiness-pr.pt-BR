@@ -18,12 +18,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Saiba como gerenciar modelos do Teams no centro de administração
-ms.openlocfilehash: 27cf2d2d80f0e715e5ee9e9390ca86d81bd39d70
-ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
+ms.openlocfilehash: db28d1fa3c84210c3f1e2d80e74a59252f922258
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/18/2021
-ms.locfileid: "50875131"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51093921"
 ---
 # <a name="manage-teams-templates-in-the-admin-center"></a>Gerenciar modelos do Teams no centro de administração
 
@@ -90,7 +90,7 @@ Você pode ocultar um máximo de 100 modelos por política. O **botão Ocultar**
 
 **P: Posso atribuir usuários em lote a políticas de modelos de equipe?**
   
-R: Sim, suportamos a atribuição em lote para a política de modelo no PowerShell. O tipo de política dessa ação é TeamsTemplatePermissionPolicy. [Saiba Mais](https://docs.microsoft.com/powershell/module/teams/new-csbatchpolicyassignmentoperation)
+R: Sim, suportamos a atribuição em lote para a política de modelo no PowerShell. O tipo de política dessa ação é TeamsTemplatePermissionPolicy. [Saiba Mais](/powershell/module/teams/new-csbatchpolicyassignmentoperation)
 
 **P: Os grupos podem ser atribuídos às políticas de modelos de equipe?**
 
@@ -112,7 +112,7 @@ R: Sim.
 1. Na tabela de lista Usuários, selecione os usuários que você deseja atribuir a uma determinada política de modelos.
 1. Selecione Editar configurações e altere o campo Políticas de modelos.
 1. Selecione aplicar.
-   Saiba mais [Atribuir políticas aos seus usuários no Microsoft Teams - Microsoft Teams Microsoft \| Docs](https://docs.microsoft.com/microsoftteams/assign-policies#assign-a-policy-to-a-batch-of-users).
+   Saiba mais [Atribuir políticas aos seus usuários no Microsoft Teams - Microsoft Teams Microsoft \| Docs](./assign-policies.md#assign-a-policy-to-a-batch-of-users).
 
 **P: Como vejo todos os usuários atribuídos a uma política específica?**
 
@@ -134,14 +134,14 @@ R: Não, não há suporte para políticas de modelo para EDU.
 
 ## <a name="related-topics"></a>Tópicos relacionados
 
-- [Começar a usar modelos de equipe no centro de administração](https://docs.microsoft.com/MicrosoftTeams/get-started-with-teams-templates-in-the-admin-console)
+- [Começar a usar modelos de equipe no centro de administração](./get-started-with-teams-templates-in-the-admin-console.md)
 
-- [Criar um modelo de equipe personalizado](https://docs.microsoft.com/MicrosoftTeams/create-a-team-template)
+- [Criar um modelo de equipe personalizado](./create-a-team-template.md)
 
-- [Criar um modelo de uma equipe existente](https://docs.microsoft.com/MicrosoftTeams/create-template-from-existing-team)
+- [Criar um modelo de uma equipe existente](./create-template-from-existing-team.md)
 
-- [Criar um modelo de equipe a partir de um modelo de equipe existente](https://docs.microsoft.com/MicrosoftTeams/create-template-from-existing-template)
+- [Criar um modelo de equipe a partir de um modelo de equipe existente](./create-template-from-existing-template.md)
 
-- [Atribuir políticas aos seus usuários no Microsoft Teams - Microsoft Teams \| Microsoft Docs](https://docs.microsoft.com/microsoftteams/assign-policies)
+- [Atribuir políticas aos seus usuários no Microsoft Teams - Microsoft Teams \| Microsoft Docs](./assign-policies.md)
 
-- [Atribuir em lotes usuários a uma política](https://docs.microsoft.com/powershell/module/teams/new-csbatchpolicyassignmentoperation)
+- [Atribuir em lotes usuários a uma política](/powershell/module/teams/new-csbatchpolicyassignmentoperation)

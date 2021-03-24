@@ -19,20 +19,20 @@ f1.keywords:
 ms.custom:
 - Setup
 - ms.lync.lac.OrgMobileNotification
-description: Saiba como ativar ou desativar as notificações do telefone celular para que os usuários possam receber alertas sobre mensagens instantâneas recebidas, de caixa postal e mensagens instantâneas perdidas.
-ms.openlocfilehash: f508c106d2ce2e95d8c7763e3360960beccfc958
-ms.sourcegitcommit: 1db39fde090809d9abc6d7346dda55814d88993a
+description: Saiba como ativar ou desativar notificações de telefone celular para que os usuários possam receber alertas sobre entrada, caixa postal e mensagens instantâneas perdidas.
+ms.openlocfilehash: 4eefd581da09c2767c0ab44b514d33e7a3fb4d8c
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/23/2020
-ms.locfileid: "48739209"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51093339"
 ---
 # <a name="turn-on-or-off-mobile-phone-notifications"></a>Ativar ou desativar notificações do telefone celular
 
 > [!IMPORTANT]
-> O Centro de administração do Microsoft Teams substituiu o Centro de administração do Skype for Business (portal herdado). Todas as configurações para gerenciar o Skype for Business agora estão no Centro de administração do Teams. Para obter mais informações, confira [Gerenciar as configurações do Skype for Business do centro de Administração do Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/skype-for-business-settings?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json).
+> O centro de administração do Microsoft Teams substituiu o Centro de administração do Skype for Business (portal herdado). Todas as configurações para gerenciar o Skype for Business agora estão no Centro de administração do Teams. Para obter mais informações, confira [Gerenciar as configurações do Skype for Business do centro de Administração do Microsoft Teams](/MicrosoftTeams/skype-for-business-settings?bc=%2fskypeforbusiness%2fbreadcrumb%2ftoc.json&toc=%2fskypeforbusiness%2fsfbotoc%2ftoc.json).
 
-Como atribuir funções de administrador nos Aplicativos do **[Microsoft 365](https://support.office.com/article/eac4d046-1afd-4f1a-85fc-8219c79e1504)** para empresas para sua organização, você pode escolher se os usuários do Skype for Business receberão alertas sobre mensagens instantâneas recebidas e perdidas quando estão em seus celulares ou tablets.
+Como a atribuição de funções de administrador no **[Microsoft 365 Apps for business](https://support.office.com/article/eac4d046-1afd-4f1a-85fc-8219c79e1504)** para sua organização, você pode escolher se seus usuários do Skype for Business recebem alertas sobre mensagens instantâneas recebidas e perdidas quando estão em seus celulares ou tablets.
   
 Nos telefones Android e Windows Phone, as notificações do Skype for Business aparecem em tempo real. Para dispositivos Windows Phone, iPhone e iPad, no entanto, notificações por push serão usadas para mostrar alertas sempre que você não estiver usando ativamente o Skype for Business no seu telefone ou tablet.
   
@@ -43,7 +43,7 @@ Nos telefones Android e Windows Phone, as notificações do Skype for Business a
 
 1. Entre no Microsoft 365.
     
-2. Vá para o centro de administração > **Skype for Business.**
+2. Vá para o Centro de administração > **Skype for Business.**
     
 3. Vá até **Organização** > **Geral**. 
     
@@ -58,11 +58,10 @@ Lembre-se:
 - Quando você desativa as notificações push, os usuários não podem ativá-las.
     
 > [!IMPORTANT]
->  [!IMPORTANTE] A Microsoft usa outras empresas para fornecer notificações por celular para o Skype for Business em tempo real para os usuários do Windows Phone, iPhone e iPad. Consulte a [Política de Privacidade dos Produtos Microsoft Skype for Business.](https://go.microsoft.com/fwlink/p/?linkid=247732) 
+>  [!IMPORTANTE] A Microsoft usa outras empresas para fornecer notificações por celular para o Skype for Business em tempo real para os usuários do Windows Phone, iPhone e iPad. Consulte a [Declaração de Privacidade para Produtos do Microsoft Skype for Business.](https://go.microsoft.com/fwlink/p/?linkid=247732) 
   
 ## <a name="related-topics"></a>Tópicos relacionados
 
 [Instalar o Skype for Business Online](set-up-skype-for-business-online.md)
 
   
- 

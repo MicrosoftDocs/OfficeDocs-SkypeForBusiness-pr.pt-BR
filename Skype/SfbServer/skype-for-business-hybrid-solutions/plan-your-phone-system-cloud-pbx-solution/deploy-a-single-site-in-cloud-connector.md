@@ -15,24 +15,24 @@ ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: fa8aa499-1188-447e-bc30-89d1f5b198a7
-description: Saiba como implantar um único site PSTN no Cloud Connector Edition.
-ms.openlocfilehash: 327fc4e687377f5f1338bea2f623b526511a2992
-ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
+description: Saiba mais sobre como implantar um único site PSTN no Cloud Connector Edition.
+ms.openlocfilehash: 32c981b0f7de3d596dc25c3336000871db9fee65
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "47358927"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51094829"
 ---
 # <a name="deploy-a-single-site-in-cloud-connector"></a>Implantar um único site no Cloud Connector
  
 > [!Important]
-> O Cloud Connector Edition será destivado em 31 de julho de 2021 junto com o Skype for Business Online. Depois que sua organização tiver atualizado para o Teams, saiba como conectar sua rede de telefonia local ao Teams usando o [Roteamento Direto.](https://docs.microsoft.com/MicrosoftTeams/direct-routing-landing-page)
+> O Cloud Connector Edition se aposentará em 31 de julho de 2021 junto com o Skype for Business Online. Depois que sua organização tiver atualizado para o Teams, saiba como conectar sua rede de telefonia local ao Teams usando [Roteamento Direto.](/MicrosoftTeams/direct-routing-landing-page)
 
-Saiba como implantar um único site PSTN no Cloud Connector Edition.
+Saiba mais sobre como implantar um único site PSTN no Cloud Connector Edition.
   
-Você pode implantar o Skype for Business Cloud Connector Edition com ou sem suporte para alta disponibilidade (HA). Se quiser habilitar a habilitar a habilitar, você precisará implantar dois ou mais dispositivos em um site. Você também pode converter um dispositivo existente para dar suporte à habilidade após sua implantação.
+Você pode implantar o Skype for Business Cloud Connector Edition com ou sem suporte a ALTA Disponibilidade (HA). Se você quiser habilitar a HA, precisará implantar dois ou mais dispositivos em um site. Você também pode converter um dispositivo existente para dar suporte a HA depois que ele for implantado.
   
-## <a name="deploy-the-first-skype-for-business-cloud-connector-edition-appliance"></a>Implantar o primeiro dispositivo do Skype for Business Cloud Connector Edition
+## <a name="deploy-the-first-skype-for-business-cloud-connector-edition-appliance"></a>Implantar o primeiro dispositivo Skype for Business Cloud Connector Edition
 
 Para implantar o primeiro dispositivo em um site, abra um console do PowerShell como administrador e execute o seguinte cmdlet para registrar o dispositivo:
   
@@ -40,11 +40,11 @@ Para implantar o primeiro dispositivo em um site, abra um console do PowerShell 
 Register-CcAppliance
 ```
 
-Siga as instruções para fornecer o nome e a senha da conta de administrador do locatário. Use a conta que você criou para o gerenciamento online do Cloud Connector. Além disso, siga as instruções para fornecer a senha do certificado externo, a senha do administrador do modo de segurança, a senha do administrador do domínio e a senha do administrador da VM. 
+Siga as instruções para fornecer o nome e a senha da conta de administrador do locatário. Use a conta que você criou para o gerenciamento online do Cloud Connector. Além disso, siga as instruções para fornecer a senha de certificado externo, senha de administrador de modo seguro, senha de administrador de domínio e senha de administrador de VM. 
   
-Na versão 1.4.2 e anteriores, siga também as instruções para fornecer a senha do certificado externo, a senha do administrador do modo de segurança, a senha do administrador do domínio e a senha do administrador da VM. 
+Na versão 1.4.2 e anterior, siga também as instruções para fornecer a senha de certificado externo, senha de administrador de modo seguro, senha de administrador de domínio e senha de administrador de VM. 
   
-Na versão 2.0 e posterior, siga também as instruções para fornecer a senha do certificado externo, a senha do CceService e a senha do CABackupFile.
+Na versão 2.0 e posterior, siga também as instruções para fornecer a senha de certificado externo, a senha do CceService e a senha caBackupFile.
   
 Para iniciar a instalação, abra um console do PowerShell como administrador e execute o seguinte cmdlet:
   
@@ -54,11 +54,11 @@ Install-CcAppliance
 
 ## <a name="add-an-appliance-to-an-existing-site"></a>Adicionar um dispositivo a um site existente
 
-Você pode estender um site existente do Cloud Connector para dar suporte à habeha adicionando outros dispositivos ao site. 
+Você pode estender um site do Cloud Connector existente para dar suporte a HA adicionando dispositivos adicionais ao site. 
   
-1. Siga as etapas para preparar o dispositivo do Cloud Connector conforme descrito em [Preparar o dispositivo do Cloud Connector.](prepare-your-cloud-connector-appliance.md) Observe que algumas etapas são necessárias apenas para o primeiro dispositivo em sua implantação. Confirme se o diretório de sites existe e se está configurado corretamente para suporte de ha.ha.
+1. Siga as etapas para preparar seu dispositivo do Cloud Connector conforme descrito em [Prepare your Cloud Connector appliance](prepare-your-cloud-connector-appliance.md). Observe que algumas etapas são necessárias apenas para o primeiro dispositivo em sua implantação. Confirme se o diretório do site existe e está configurado corretamente para suporte a HA.
     
-2. Execute o seguinte cmdlet somente no servidor host recém-adicionado para atualizar as informações de topologia na configuração da sua organização do Microsoft 365 ou Office 365. Se você quiser adicionar vários dispositivos ao mesmo tempo, execute o cmdlet em cada servidor host recém-adicionado um a um:
+2. Execute o cmdlet a seguir apenas no servidor host recém-adicionado para atualizar informações de topologia na configuração da organização do Microsoft 365 ou office 365. Se você quiser adicionar vários dispositivos ao mesmo tempo, execute o cmdlet em cada servidor host recém-adicionado um por um:
     
    ```powershell
    Register-CcAppliance
@@ -70,29 +70,27 @@ Você pode estender um site existente do Cloud Connector para dar suporte à hab
    Publish-CcAppliance
    ```
 
-4. Execute o cmdlet a seguir apenas em servidores host recém-adicionados. Não execute este cmdlet no dispositivo existente. Se você quiser adicionar vários dispositivos ao mesmo tempo, execute o cmdlet em cada servidor host recém-adicionado um a um.
+4. Execute o cmdlet a seguir somente em servidores host recém-adicionados. Não execute este cmdlet no dispositivo existente. Se você quiser adicionar vários dispositivos ao mesmo tempo, execute o cmdlet em cada servidor host recém-adicionado um por um.
     
    ```powershell
    Install-CcAppliance
    ```
 
 > [!NOTE]
-> Se o diretório de sites tiver sido definido como um caminho de pasta local, você precisará definir um compartilhamento de arquivos para essa pasta e usar um caminho UNC para o diretório de sites no novo dispositivo. Você pode deixar o primeiro diretório de sites de dispositivos com o caminho local ou modificá-lo para usar o caminho UNC para o compartilhamento na mesma pasta. Se o local do diretório de sites compartilhado mudar, todos os dispositivos instalados anteriormente precisarão ser desinstalados e reinstalados. > Importante: a senha da conta CceService e da conta CABackupFile deve ser a mesma em todos os dispositivos implantados no site, para que os dispositivos possam acessar o compartilhamento de diretório do site e o arquivo de backup de CA criptografado no diretório de sites. 
+> Se o diretório do site foi definido como um caminho de pasta local, você precisará definir um compartilhamento de arquivos para essa pasta e usar um caminho UNC para o diretório do site no novo dispositivo. Você pode deixar o primeiro diretório de site do dispositivo com o caminho local ou modificá-lo para usar o caminho UNC para o compartilhamento na mesma pasta. Se o local do diretório de site compartilhado mudar, todos os dispositivos instalados anteriormente precisarão ser desinstalados e reinstalados. > Importante: a senha da conta CceService e da conta CABackupFile deve ser a mesma em todos os dispositivos implantados no site, para que os dispositivos possam acessar o compartilhamento de diretório do site e o arquivo de backup de CA criptografado no diretório do site. 
   
 ## <a name="remove-an-appliance-from-an-existing-site"></a>Remover um dispositivo de um site existente
 
 Se você quiser remover um dispositivo de um site existente:
   
-1. Execute o cmdlet a seguir apenas nos servidores host que você deseja remover do site para atualizar as informações de topologia na configuração da organização do Microsoft 365 ou Office 365.
+1. Execute o cmdlet a seguir somente nos servidores host que você deseja remover do site para atualizar as informações de topologia em sua configuração da organização do Microsoft 365 ou Office 365.
     
    ```powershell
    Unregister-CcAppliance
    ```
 
-2. Execute o cmdlet a seguir apenas nos servidores host dos quais você deseja remover todas as máquinas virtuais do dispositivo.
+2. Execute o cmdlet a seguir somente nos servidores host dos quais você deseja remover todas as máquinas virtuais do dispositivo.
     
    ```powershell
    Uninstall-CcAppliance
    ```
-
-

@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9790cfb186e1745d7233bf23232ac4b4a69b00e0
-ms.sourcegitcommit: 2eaf80bca6dfad367283e57662d81a809c9437e8
+ms.openlocfilehash: aa192472da86850a580bc981291762386f15c434
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "50997319"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51094633"
 ---
 # <a name="how-exchange-and-microsoft-teams-interact"></a>Como o Exchange e o Microsoft Teams interagem
 
@@ -37,7 +37,7 @@ Os usuários hospedados no Exchange Online ou no Exchange Dedicated vNext podem 
 Os usuários hospedados no Exchange Online dedicado (Herdado) devem ser sincronizados com o Azure Active Directory no Microsoft 365 ou Office 365. Eles podem criar e entrar em equipes e canais, adicionar e configurar guias e bots, conversar via bate-papo e fazer chamadas. No entanto, eles não podem modificar imagens de perfil, gerenciar reuniões, acessar contatos do Outlook ou gerenciar conectores.
 
 > [!IMPORTANT]
-> Para integração com o local, é altamente recomendável que você tenha uma implantação Híbrida clássica Completa do Exchange com o Exchange Server 2016 ou posterior. O suporte Híbrido Moderno fica limitado a disponibilidade e não fornecerá integração de calendário do Teams para caixas de correio locais, por exemplo. Para obter mais informações sobre configurar uma implantação híbrida, consulte [implantação do Exchange Server Híbrido](https://docs.microsoft.com/exchange/exchange-hybrid).
+> Para integração com o local, é altamente recomendável que você tenha uma implantação Híbrida clássica Completa do Exchange com o Exchange Server 2016 ou posterior. O suporte Híbrido Moderno fica limitado a disponibilidade e não fornecerá integração de calendário do Teams para caixas de correio locais, por exemplo. Para obter mais informações sobre configurar uma implantação híbrida, consulte [implantação do Exchange Server Híbrido](/exchange/exchange-hybrid).
 
 Os usuários com caixas de correio hospedadas no local devem ser sincronizados com o Azure Active Directory. Eles podem usar todos os recursos no cenário acima, mas, além disso, eles podem gerenciar as reuniões se os requisitos listados na seção [Requisitos para caixas de correio hospedadas no local](#requirements-to-create-and-view-meetings-for-mailboxes-hosted-on-premises) forem atendidos.
 
@@ -64,10 +64,10 @@ A tabela a seguir fornece uma referência rápida útil para a disponibilidade d
 
 <sup>6</sup> Somente contatos na pasta de contatos padrão. Não há suporte para o acesso a outras pastas de contatos ou subpastas.
 
-<sup>7</sup>O Teams respeita a configuração da [Política de caixa de correio do Outlook na Web](https://docs.microsoft.com/powershell/module/exchange/client-access/set-owamailboxpolicy) configurada pelos administradores de locatários para controlar se os usuários podem alterar a imagem de perfil. Se a **configuração -SetPhotoEnabled** estiver desabilitada na política, os usuários não poderão adicionar, alterar ou remover sua imagem de perfil, para que a imagem de arquivo porfile não seja sincronizada com as equipes se o administrador alterar a foto.
+<sup>7</sup>O Teams respeita a configuração da [Política de caixa de correio do Outlook na Web](/powershell/module/exchange/client-access/set-owamailboxpolicy) configurada pelos administradores de locatários para controlar se os usuários podem alterar a imagem de perfil. Se a **configuração -SetPhotoEnabled** estiver desabilitada na política, os usuários não poderão adicionar, alterar ou remover sua imagem de perfil, para que a imagem de arquivo porfile não seja sincronizada com as equipes se o administrador alterar a foto.
 <sup>8</sup> Você precisa atender aos requisitos listados na seção[Requisitos para criar e exibir reuniões para caixas de correio do local](#requirements-to-create-and-view-meetings-for-mailboxes-hosted-on-premises).
 
-<sup>9</sup> Um mínimo de uma licença do Plano 1 do Exchange Online também é necessário. Para obter mais informações, consulte [Pesquisar dados de chat do Teams para usuários locais.](https://docs.microsoft.com/microsoft-365/compliance/search-cloud-based-mailboxes-for-on-premises-users)
+<sup>9</sup> Um mínimo de uma licença do Plano 1 do Exchange Online também é necessário. Para obter mais informações, consulte [Pesquisar dados de chat do Teams para usuários locais.](/microsoft-365/compliance/search-cloud-based-mailboxes-for-on-premises-users)
 
 ## <a name="requirements-to-get-the-most-out-of-microsoft-teams"></a>Treinamentos para ajudar seus usuários a usufruir ao máximo o Microsoft Teams
 
@@ -90,24 +90,24 @@ Se as caixas de correio forem hospedadas no local, para criar e exibir reuniões
 
 - A licença necessária do Teams deve ser atribuída para o usuário sincronizado do Azure Active Directory.
 
-- Os usuários devem estar sincronizados com o Azure Active Directory. Para saber mais sobre como usar o Azure AD Connect para sincronizar com o Azure Active Directory, confira [Documentação de identidade híbrida](https://docs.microsoft.com/azure/active-directory/hybrid/).
+- Os usuários devem estar sincronizados com o Azure Active Directory. Para saber mais sobre como usar o Azure AD Connect para sincronizar com o Azure Active Directory, confira [Documentação de identidade híbrida](/azure/active-directory/hybrid/).
 
 - As caixas de correio são hospedadas na atualização cumulativa 3 do Exchange Server 2016 ou posterior.
 
 - A descoberta automática e os serviços Web do Exchange são publicados externamente.
 
-- A autenticação OAuth está configurada de preferência por meio do Assistente de Configuração Híbrida do Exchange, executando uma configuração híbrida completa (Clássica ou Moderna). Se você não conseguir usar o assistente de configuração híbrida, configure o OAuth conforme descrito em [Configurar a autenticação OAuth entre as organizações do Exchange Online e do Exchange](https://docs.microsoft.com/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help).
+- A autenticação OAuth está configurada de preferência por meio do Assistente de Configuração Híbrida do Exchange, executando uma configuração híbrida completa (Clássica ou Moderna). Se você não conseguir usar o assistente de configuração híbrida, configure o OAuth conforme descrito em [Configurar a autenticação OAuth entre as organizações do Exchange Online e do Exchange](/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help).
 
   > [!NOTE]
   > O Exchange confia no token OAuth do serviço do Teams, que é conhecido como EvoSTS. A etapa 1 deve ser suficiente, mas apenas a EvoSTS; ACS é usado para pesquisa de disponibilidade no calendário.
 
 - A caixa de seleção do recurso Implantação Híbrida do Exchange no Azure AD Connect está definida.
 
-- Para suporte de aplicativo de calendário e suplemento Teams Outlook para Mac, as URLs do Exchange Web Service devem ser configuradas como SPNs no Tenant Azure AD para o Exchange Service Principal. Esta etapa foi concluída com o assistente de configuração híbrida ou [etapas manuais para Autenticação Moderna Híbrida](https://docs.microsoft.com/microsoft-365/enterprise/configure-exchange-server-for-hybrid-modern-authentication#add-on-premises-web-service-urls-as-spns-in-azure-ad).
+- Para suporte de aplicativo de calendário e suplemento Teams Outlook para Mac, as URLs do Exchange Web Service devem ser configuradas como SPNs no Tenant Azure AD para o Exchange Service Principal. Esta etapa foi concluída com o assistente de configuração híbrida ou [etapas manuais para Autenticação Moderna Híbrida](/microsoft-365/enterprise/configure-exchange-server-for-hybrid-modern-authentication#add-on-premises-web-service-urls-as-spns-in-azure-ad).
 
 Para habilitar a delegação de calendário para esses usuários:
 
-- Você também deve concluir etapas conforme descrito em [Configure Integration and OAuth between Skype for Business Online and Exchange Server;](https://docs.microsoft.com/skypeforbusiness/deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises) essas etapas fornecerão ao aplicativo de agendamento do Teams as permissões necessárias para confirmar permissões de representante.
+- Você também deve concluir etapas conforme descrito em [Configure Integration and OAuth between Skype for Business Online and Exchange Server;](/skypeforbusiness/deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises) essas etapas fornecerão ao aplicativo de agendamento do Teams as permissões necessárias para confirmar permissões de representante.
  
   > [!NOTE]
   > A etapa 2 inclui uma atribuição de função para ArchiveApplication, que não é necessária para delegação.
@@ -122,12 +122,12 @@ Aqui estão algumas coisas que você precisa saber ao implementar o Microsoft Te
 
 - Controle e proteja a configuração das políticas de conformidade no Teams e no Exchange usando o Acesso Condicional. Para saber mais, confira [Como funcionam as políticas de acesso condicional para o Teams?](security-compliance-overview.md#how-conditional-access-policies-work-for-teams)
 
-- Se sua organização tiver exigências de conformidade para garantir que todas as discussões nas reuniões sejam detectáveis, é necessário desabilitar as reuniões privadas se o organizador tiver uma caixa de correio no Exchange. Para saber mais, confira [Permitir o agendamento de reuniões particulares](https://docs.microsoft.com/microsoftteams/meeting-policies-in-teams#allow-scheduling-private-meetings).
+- Se sua organização tiver exigências de conformidade para garantir que todas as discussões nas reuniões sejam detectáveis, é necessário desabilitar as reuniões privadas se o organizador tiver uma caixa de correio no Exchange. Para saber mais, confira [Permitir o agendamento de reuniões particulares](./meeting-policies-in-teams.md#allow-scheduling-private-meetings).
 
-- Em uma implantação híbrida do Exchange, o conteúdo das mensagens de chat é pesquisável, independentemente de os participantes de chat terem uma caixa de correio baseada na nuvem ou em uma caixa de correio local. Para saber mais, leia [Pesquisar caixas de correio baseadas em nuvem para usuários locais](https://docs.microsoft.com/office365/securitycompliance/search-cloud-based-mailboxes-for-on-premises-users). Para saber mais sobre como pesquisar conteúdo no Teams, leia [Pesquisar Conteúdo no Centro de Conformidade do Microsoft 365](https://docs.microsoft.com/Office365/SecurityCompliance/content-search#searching-microsoft-teams-and-office-365-groups).
+- Em uma implantação híbrida do Exchange, o conteúdo das mensagens de chat é pesquisável, independentemente de os participantes de chat terem uma caixa de correio baseada na nuvem ou em uma caixa de correio local. Para saber mais, leia [Pesquisar caixas de correio baseadas em nuvem para usuários locais](/office365/securitycompliance/search-cloud-based-mailboxes-for-on-premises-users). Para saber mais sobre como pesquisar conteúdo no Teams, leia [Pesquisar Conteúdo no Centro de Conformidade do Microsoft 365](/Office365/SecurityCompliance/content-search#searching-microsoft-teams-and-office-365-groups).
 
-- Para o status de presença, o Microsoft Teams deve verificar se a caixa de correio está hospedada no Exchange Online ou no local. Em seguida, o serviço decide onde acessar a caixa de correio. Para habilitar o serviço do Teams a verificar o local da caixa de correio por meio da chamada da API REST para o serviço do Exchange Online, você deve implantar um ambiente híbrido do Exchange executando o assistente de configuração híbrida do Exchange, conforme descrito em [Criar uma implantação híbrida com o assistente de Configuração Híbrida](https://docs.microsoft.com/exchange/hybrid-deployment/deploy-hybrid).
+- Para o status de presença, o Microsoft Teams deve verificar se a caixa de correio está hospedada no Exchange Online ou no local. Em seguida, o serviço decide onde acessar a caixa de correio. Para habilitar o serviço do Teams a verificar o local da caixa de correio por meio da chamada da API REST para o serviço do Exchange Online, você deve implantar um ambiente híbrido do Exchange executando o assistente de configuração híbrida do Exchange, conforme descrito em [Criar uma implantação híbrida com o assistente de Configuração Híbrida](/exchange/hybrid-deployment/deploy-hybrid).
 
 ## <a name="troubleshooting"></a>Solução de problemas
 
-Para obter um guia de solução de problemas completo sobre o tópico, não deixe de conferir [Solucionar problemas de interação do Microsoft Teams e do Exchange Server](https://docs.microsoft.com/microsoftteams/troubleshoot/known-issues/teams-exchange-interaction-issue).
+Para obter um guia de solução de problemas completo sobre o tópico, não deixe de conferir [Solucionar problemas de interação do Microsoft Teams e do Exchange Server](/microsoftteams/troubleshoot/known-issues/teams-exchange-interaction-issue).

@@ -19,34 +19,34 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 350af8c004f44205c6228b0dc734da25602062d0
-ms.sourcegitcommit: 1db39fde090809d9abc6d7346dda55814d88993a
+ms.openlocfilehash: 6b65e6f2f6db4f5e824e55368d0a7a097eb39ad9
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/23/2020
-ms.locfileid: "48739319"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51094769"
 ---
 # <a name="evaluate-my-environment"></a>Avaliar meu ambiente
 
-Este artigo apresenta uma visão geral dos requisitos para avaliar corretamente seu ambiente atual para o uso de serviços de voz na nuvem. Ao avaliar seu ambiente, você identifica riscos e requisitos que influenciarão sua implantação geral de voz na nuvem. Ao identificar esses itens antecipadamente, você pode ajustar seu planejamento para impulsionar o sucesso.
+Este artigo fornece uma visão geral dos requisitos para avaliar corretamente seu ambiente atual para o uso de serviços de voz na nuvem. Ao avaliar seu ambiente, você identifica riscos e requisitos que influenciarão sua implantação geral de voz na nuvem. Ao identificar esses itens antecipadamente, você pode ajustar seu planejamento para impulsionar o sucesso.
 
 ## <a name="introduction-to-evaluating-your-environment"></a>Introdução à avaliação do seu ambiente
 
-Para alcançar seus resultados de chave de objetivo (OKRs), você já fez as principais decisões de serviço. A próxima etapa é executar a descoberta de questões ambientais para avaliar todos os aspectos relacionados à sua infraestrutura de TI e telefonia, rede e operações para confirmar que sua organização está pronta para implementar a solução.
+Para obter seus principais resultados (OKRs) objetivos, você já tomou decisões importantes de serviço. A próxima etapa é realizar a descoberta ambiental para avaliar todos os aspectos relacionados à infraestrutura de TI e telefonia, rede e operações para confirmar se sua organização está pronta para implementar a solução.
 
-A descoberta do meio ambiente deve incluir a avaliação de preparação de rede para garantir que sua rede possa dar suporte à implementação da Audioconferência ou do Sistema de Telefonia com os serviços do Plano de Chamada.
+A descoberta ambiental deve incluir a avaliação de prontidão de rede para garantir que sua rede possa dar suporte à implementação da Audioconferência ou sistema de telefonia com serviços de Plano de Chamadas.
 
-Você identifica os riscos técnicos como parte de uma avaliação e avaliação de preparação para adoção e desenvolve um plano de atenuação para cada risco identificado.
-Você deve incorporar essas informações no registro de risco.
+Você identifica os riscos técnicos como parte de uma avaliação de avaliação ambiental e preparação de adoção e desenvolve um plano de mitigação para cada risco identificado.
+Você deve incorporar essas informações no registro de riscos.
 
 <!--ENDOFSECTION-->
 
 ## <a name="current-environment"></a>Ambiente atual
 
-Como parte da descoberta do meio ambiente, inclua todos os assuntos relacionados à computação do usuário final, como uma avaliação de preparação de PCs e dispositivos móveis para dar suporte a Audioconferência e Sistema telefônico com casos de uso comercial do Plano de Chamada, desde requisitos de hardware até requisitos de software.
+Como parte de sua descoberta ambiental, inclua todas as questões relacionadas à computação do usuário final, como uma avaliação de prontidão de PCs e dispositivos móveis para dar suporte a audioconferências e sistema de telefonia com casos de uso comercial do Plano de Chamadas, desde requisitos de hardware até requisitos de software.
 
-A descoberta do meio ambiente também pode descobrir se você precisa [transferir números de telefone para a Microsoft.](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)
-Saber que isso ajudará sua organização a ajustar seu plano de projeto de acordo e preparar as informações necessárias para portagem de números. Você pode usar a descoberta [de ambiente para a adoção do Microsoft Teams](environmental-discovery-for-microsoft-teams-rollout.md) para realizar descobertas ambientais.
+A descoberta ambiental também pode descobrir se você precisa transferir [números de telefone para a Microsoft](phone-number-calling-plans/transfer-phone-numbers-to-teams.md).
+Saber isso ajudará sua organização a ajustar seu plano de projeto de acordo e preparar as informações necessárias para a portação de números. Você pode usar a [descoberta ambiental para a adoção do Microsoft Teams](environmental-discovery-for-microsoft-teams-rollout.md) para executar a descoberta ambiental.
 
 <table>
 <tr><td>Título</td><td>Descrição</td></tr>
@@ -58,18 +58,18 @@ Saber que isso ajudará sua organização a ajustar seu plano de projeto de acor
 
 ## <a name="adoption-and-change-management-assessment-capabilities"></a>Recursos de avaliação de gerenciamento de alterações e adoção
 
-A implantação coloca uma nova tecnologia ao alcance do usuário, mas os resultados comerciais só são percebidos depois que os usuários realmente adotam essa solução como sua própria. Para ajudar a garantir a adoção completa de uma nova solução, você precisará concentrar seus esforços na preparação do usuário e no gerenciamento de alterações. Para obter resultados ideais, conduza o planejamento de preparação do usuário como um fluxo de trabalho paralelo às suas atividades de preparação técnica e incorpore as seguintes atividades:
+A implantação coloca uma nova tecnologia na ponta dos dedos de um usuário, mas os resultados comerciais só são percebidos depois que os usuários realmente adotam essa solução como sua própria. Para ajudar a garantir a adoção sustentada de uma nova solução, você precisará concentrar seus esforços na preparação do usuário e no gerenciamento de alterações. Para obter resultados ideais, conduza o planejamento de preparação do usuário como um fluxo de trabalho paralelo às suas atividades de preparação técnica e incorpore as seguintes atividades:
 
--   **Perfis organizacionais e de usuário:** Análise da capacidade organizacional de alterar além de uso de caso e análise de persona
+-   **Criação de perfil organizacional e de usuário:** Análise da receptividade organizacional a alterações, além de usar análise de caso e persona
 
--   **Preparação e preparação de recursos:** Criação de recursos de reconhecimento, treinamento e suporte direcionados e de amplo alcance, incluindo mensagens de valores com foco para acelerar a compra do usuário
+-   **Preparação e preparação de recursos:** Criação de recursos de reconhecimento, treinamento e suporte direcionados e de amplo alcance, incluindo mensagens de valor focado para acelerar a compra do usuário
 
 Use as considerações a seguir para avaliar a preparação da sua organização para lidar com o gerenciamento de alterações do usuário.
 
 <table>
 <tr><td>Título</td><td>Descrição</td></tr>
-<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Pontos de decisão</td><td><ul><li>Você já teve sucesso anterior com a adoção de software ou serviços pelo usuário?</li><li>Você pode acompanhar a aceitação de uso?</li><li>Você tem recursos para projetar e gerenciar uma campanha inicial e contínua de adoção &mdash; &mdash; (reconhecimento, treinamento e suporte)?</li><li>Você tem uma equipe de gerenciamento de alterações/adoção de usuários dedicada ou pode investir nesses recursos para garantir resultados comerciais?</li></ol></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Próximas etapas</td><td><ul><li>Se você respondeu sim a todos os participantes acima, identifique os participantes corretos do gerenciamento de alterações do usuário e inicie o &quot; planejamento de preparação do &quot; usuário.</li><li>Se você respondeu não a alguns ou a todos os recursos acima, considere envolver recursos externos para ajudar a impulsionar o gerenciamento de alterações e as atividades relacionadas à adoção &quot; &quot; para sua organização.</li></ol></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Pontos de decisão</td><td><ul><li>Você já teve sucesso anterior com a adoção de software ou serviços pelo usuário?</li><li>Você pode rastrear a captação de uso?</li><li>Você tem recursos para projetar e gerenciar uma campanha de adoção inicial e &mdash; &mdash; contínua (reconhecimento, treinamento e suporte)?</li><li>Você tem uma equipe de gerenciamento de alterações/adoção de usuários dedicada ou pode investir nesses recursos para garantir resultados comerciais?</li></ol></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Próximas etapas</td><td><ul><li>Se você respondeu sim a todos os acima, identifique os participantes de gerenciamento de alterações de usuário corretos e inicie o planejamento &quot; &quot; de preparação do usuário.</li><li>Se você respondeu não a alguns ou a todos os recursos acima, considere envolver recursos externos para ajudar a impulsionar o gerenciamento de alterações e atividades relacionadas à adoção &quot; &quot; para sua organização.</li></ol></td></tr>
 </table>
 
 
@@ -79,7 +79,7 @@ Use as considerações a seguir para avaliar a preparação da sua organização
 
 O Teams usa tecnologia de áudio e vídeo (codecs) que pode se adaptar à maioria das condições de rede e, portanto, tem um melhor desempenho nelas. Para garantir um desempenho ideal e consistente, você deve preparar sua rede para o Teams.
 
-![Diagrama descrevendo os três componentes de qualidade](media/evaluate-my-environment-image1.png "Diagrama que descreve os três componentes de qualidade e como o gerenciamento de serviço se sobrepõe a todos os três componentes. Com foco na rede.")
+![Diagrama que descreve os três componentes de qualidade](media/evaluate-my-environment-image1.png "Diagrama que descreve os três componentes de qualidade e como o gerenciamento de serviço se sobrepõe a todos os três componentes. Com foco na rede.")
 
 ## <a name="key-takeaways"></a>Principais conclusões
 
@@ -91,11 +91,11 @@ Seguem as principais conclusões desta orientação. Você deve:
 
 -   Certifique-se de ter largura de banda suficiente para implantar o Teams.
 
--   Execute a [Ferramenta de avaliação de rede](https://www.microsoft.com/download/details.aspx?id=53885) e certifique-se de atender aos requisitos descritos em [Qualidade de mídia e desempenho de conectividade de rede](https://docs.microsoft.com/SkypeForBusiness/optimizing-your-network/media-quality-and-network-connectivity-performance) tanto para o segmento de borda, como para o segmento do cliente.
+-   Execute a [Ferramenta de avaliação de rede](https://www.microsoft.com/download/details.aspx?id=53885) e certifique-se de atender aos requisitos descritos em [Qualidade de mídia e desempenho de conectividade de rede](/SkypeForBusiness/optimizing-your-network/media-quality-and-network-connectivity-performance) tanto para o segmento de borda, como para o segmento do cliente.
 
 ## <a name="why-should-you-prepare-your-network"></a>Por que você precisa preparar sua rede?
 
-Antes de ver as etapas a serem realizadas, é importante entender o que pode afetar o desempenho do Teams e, assim, a satisfação e a satisfação do usuário.
+Antes de vermos as etapas a serem tomadas, é importante entender o que pode afetar o desempenho do Teams e, assim, a satisfação e a satisfação do usuário.
 As três principais áreas de risco podem afetar como os usuários percebem a qualidade de rede:
 
 -   Largura de banda insuficiente disponível
@@ -111,28 +111,28 @@ Provavelmente, se deixar de preparar sua rede, os usuários ficarão insatisfeit
 
 ## <a name="bandwidth-planning"></a>Planejamento de largura de banda
 
-A primeira etapa para a preparação da rede é garantir que sua rede tenha largura de banda suficiente disponível para as modalidades que o Teams fornecerá aos usuários. Planejar largura de banda suficiente é uma tarefa bastante simples e um início de barreira muito baixo para garantir que os usuários tenham uma experiência de equipe de alta qualidade.
+A primeira etapa para a preparação da rede é garantir que sua rede tenha largura de banda suficiente disponível para as modalidades que o Teams fornecerá aos usuários. Planejar largura de banda suficiente é uma tarefa bastante simples e um início de barreira muito baixo para garantir que seus usuários tenham uma experiência do Teams de alta qualidade.
 
 ### <a name="local-internet-egress"></a>Saída para a Internet local
 
 Muitas redes foram projetadas para usar uma topologia hub-spoke. Nessa topologia, normalmente o tráfego da Internet percorre a WAN até um data center central antes de exteriorizar-se (sair) na Internet. Muitas vezes, isso é feito para centralizar os dispositivos de segurança de rede a fim de reduzir o custo total.
 
-O tráfego de retorno pela WAN aumenta a latência e tem um impacto negativo sobre a qualidade e a experiência do usuário. Como o Microsoft Teams é executado na grande rede global da Microsoft, geralmente há um local de peering de rede próximo ao usuário. O usuário provavelmente terá melhor desempenho ao sair de um ponto de Internet local próximo de sua localização e entrar em nossa rede com otimização de voz assim que possível. Para algumas cargas de trabalho, solicitações DNS são usadas para enviar o tráfego para o servidor front-end mais próximo. Nesses casos, é importante que, ao usar um ponto de saída local, ele seja emparelhado com a resolução dns local.
+O tráfego de retorno pela WAN aumenta a latência e tem um impacto negativo sobre a qualidade e a experiência do usuário. Como o Microsoft Teams é executado na grande rede global da Microsoft, geralmente há um local de peering de rede próximo ao usuário. O usuário provavelmente terá melhor desempenho ao sair de um ponto de Internet local próximo de sua localização e entrar em nossa rede com otimização de voz assim que possível. Para algumas cargas de trabalho, solicitações DNS são usadas para enviar o tráfego para o servidor front-end mais próximo. Nesses casos, é importante que, ao usar um ponto de saída local, ele seja emparelhado com a resolução DNS local.
 
 Otimizar o caminho de rede para a rede global da Microsoft melhorará o desempenho e, em última análise, fornecerá a melhor experiência para os usuários. Para obter mais detalhes, consulte a postagem no blog [Como obter a melhor conectividade e desempenho no Office 365](https://techcommunity.microsoft.com/t5/Office-365-Blog/Getting-the-best-connectivity-and-performance-in-Office-365/ba-p/124694).
 
 ### <a name="vpn"></a>VPN
 
-As VPNs fornecem um serviço valioso para muitas organizações. Infelizmente, eles normalmente não são projetados ou configurados para dar suporte a mídia em tempo real. Algumas VPNs também podem não dar suporte ao UDP. As VPNs também introduzem uma camada extra de criptografia sobre o tráfego de mídia que já está criptografado. Além disso, a conectividade com o serviço do Teams pode não ser eficiente devido ao tráfego excessivo por meio de um dispositivo VPN.
-Além disso, eles não são necessariamente projetados a partir de uma perspectiva de capacidade para acomodar as cargas esperadas que o Teams exigirá.
+As VPNs fornecem um serviço valioso para muitas organizações. Infelizmente, eles geralmente não são projetados ou configurados para dar suporte a mídia em tempo real. Algumas VPNs também podem não dar suporte ao UDP. As VPNs também introduzem uma camada extra de criptografia sobre o tráfego de mídia que já está criptografado. Além disso, a conectividade com o serviço do Teams pode não ser eficiente devido ao tráfego excessivo por meio de um dispositivo VPN.
+Além disso, eles não são necessariamente projetados de uma perspectiva de capacidade para acomodar as cargas previstas que o Teams exigirá.
 
-A recomendação é fornecer um caminho alternativo que contorne a VPN para o tráfego do Microsoft Teams. Geralmente, isso é conhecido como *VPN de túnel dividido*. O túnel dividido significa que o tráfego do Microsoft 365 ou do Office 365 não atravessará a VPN, mas irá diretamente para o Microsoft 365 ou o Office 365. Essa alteração terá um impacto positivo na qualidade, mas também fornece o benefício secundário de reduzir a carga dos dispositivos VPN e da rede da organização.
+A recomendação é fornecer um caminho alternativo que contorne a VPN para o tráfego do Microsoft Teams. Geralmente, isso é conhecido como *VPN de túnel dividido*. O túnel dividido significa que o tráfego para o Microsoft 365 ou Office 365 não atravessará a VPN, mas irá diretamente para o Microsoft 365 ou Office 365. Essa alteração terá um impacto positivo na qualidade, mas também fornece o benefício secundário de reduzir a carga dos dispositivos VPN e da rede da organização.
 
 Para implementar um túnel dividido, consulte o fornecedor da VPN para obter os detalhes de configuração.
 
 ### <a name="wi-fi"></a>Wi-Fi
 
-Como VPN, Wi-Fi redes não são necessariamente projetadas ou configuradas para dar suporte a mídias em tempo real. Planejar ou otimizar uma rede Wi-Fi para oferecer suporte ao Teams é uma consideração importante para uma implantação de alta qualidade.
+Assim como a VPN, Wi-Fi redes não são necessariamente projetadas ou configuradas para dar suporte a mídia em tempo real. Planejar ou otimizar uma rede Wi-Fi para oferecer suporte ao Teams é uma consideração importante para uma implantação de alta qualidade.
 
 Existem vários fatores que entram em cena para otimizar uma rede Wi-Fi:
 
@@ -142,7 +142,7 @@ Existem vários fatores que entram em cena para otimizar uma rede Wi-Fi:
 
 -   Se redes Wi-Fi de banda dupla forem implantadas, considere implementar a direção de banda. A direção de banda é uma técnica implementada por fornecedores de Wi-Fi para influenciar os clientes de banda dupla a usar o intervalo de 5 GHz.
 
--   Quando pontos de acesso do mesmo canal estão muito próximos, eles podem causar sobreposição de sinal e competir involuntariamente, resultando em uma experiência deficiente para o usuário. Certifique-se de que os pontos de acesso que estão próximos uns dos outros estão em canais que não se sobrepõem.
+-   Quando pontos de acesso do mesmo canal estão muito próximos, eles podem causar sobreposição de sinal e competir involuntariamente, resultando em uma experiência deficiente para o usuário. Certifique-se de que os pontos de acesso que estão próximos um do outro estão em canais que não se sobrepõem.
 
 Cada fornecedor de redes sem fio tem suas próprias recomendações de implantação da solução sem fio. Recomendamos que você consulte as orientações específicas do fornecedor.
 
@@ -153,28 +153,28 @@ Cada fornecedor de redes sem fio tem suas próprias recomendações de implanta�
 O Microsoft Teams se conecta ao Microsoft Online Services e, para isso, precisa de conectividade com a Internet. Para que o Teams funcione corretamente, é preciso abrir as portas TCP 80 e 443 dos clientes para a internet e as portas UDP 3478 a 3481 dos clientes para a internet. As portas TCP são usadas para conexão a conteúdo baseado na web, como o SharePoint Online, o Exchange Online e os serviços de bate-papo do Teams.
 Plugins e conectores também se conectam por essas portas TCP. As quatro portas UDP são usadas para mídia, como áudio e vídeo, para garantir que fluam corretamente.
 
-Abrir essas portas é fundamental para uma implantação confiável do Teams. O bloqueio dessas portas não é compatível e terá um efeito na qualidade da mídia.
+Abrir essas portas é fundamental para uma implantação confiável do Teams. O bloqueio dessas portas não é compatível e terá efeito na qualidade da mídia.
 
-Se a sua organização exigir que você especifique o intervalo de endereços IP e os domínios para os quais essas portas devem ser abertas, você poderá restringir os intervalos de IP e os domínios de destino para essas portas. Para ver uma lista de portas, protocolos e intervalos IP exatos, consulte [URLs do Microsoft 365 ou Office 365 e intervalos de endereços IP.](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2#bkmk_teams)
+Se a sua organização exigir que você especifique o intervalo de endereços IP e os domínios para os quais essas portas devem ser abertas, você poderá restringir os intervalos de IP e os domínios de destino para essas portas. Para uma lista de portas, protocolos e intervalos IP exatos, consulte [URLs do Microsoft 365 ou Office 365 e intervalos de endereços IP](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2#bkmk_teams).
 Se você optar por restringir os intervalos de endereço IP e os domínios de destino, você precisará manter atualizada a lista de portas e intervalos, pois eles podem ser alterados. Você pode se inscrever [neste feed RSS](https://go.microsoft.com/fwlink/p/?linkid=236301) para ser atualizado quando ocorrerem mudanças. Também é uma boa prática testar se todas as portas são abertas executando a Ferramenta de Avaliação de Rede do [Skype for Business](https://www.microsoft.com/download/details.aspx?id=53885) regularmente. Você pode saber mais sobre a funcionalidade dessa ferramenta na próxima seção.
 
-No caso de um servidor proxy ser implantado, recomendamos que você desvie o servidor proxy para todos os serviços do Teams. Embora o uso de um proxy possa funcionar, é muito provável que a qualidade seja reduzida porque a mídia é forçada a usar TCP em vez de UDP. Para obter mais informações sobre servidores proxy e ignorar, consulte [URLs do Microsoft 365 ou Office 365 e intervalos de endereços IP.](https://docs.microsoft.com/MicrosoftTeams/office-365-urls-ip-address-ranges)
+No caso de um servidor proxy ser implantado, recomendamos que você desvie o servidor proxy para todos os serviços do Teams. Embora o uso de um proxy possa funcionar, é muito provável que a qualidade seja reduzida devido à força da mídia usar tCP em vez de UDP. Para obter mais informações sobre servidores proxy e ignorar, consulte [URLs do Microsoft 365 ou Office 365 e intervalos de endereços IP.](./office-365-urls-ip-address-ranges.md)
 
 <!--ENDOFSECTION-->
 
 ## <a name="test-the-network"></a>Testar a rede
 
-Depois de concluir o planejamento e a preparação da rede, incluindo a atualização da largura de banda e a abertura de portas no firewall, você deve testar o desempenho da rede. Os resultados deste teste pintarão uma imagem mais clara de qualquer otimização de rede ou correção necessária para o sucesso da audioconferência ou do sistema de telefonia com a implementação do Plano de Chamada.
+Depois de concluir o planejamento e a preparação da rede, incluindo a atualização da largura de banda e a abertura de portas no firewall, você deve testar o desempenho da rede. Os resultados desse teste pintarão uma imagem mais clara de qualquer otimização de rede ou correção necessária para o sucesso da implementação da Audioconferência ou do Sistema de Telefonia com Plano de Chamadas.
 
 É possível baixar a [Ferramenta de avaliação de rede do Skype for Business](https://www.microsoft.com/download/details.aspx?id=53885) para testar se sua rede está ou não pronta para o Teams. A ferramenta oferece dupla funcionalidade: ela pode testar se todas as portas corretas foram abertas e pode testar falhas de rede.
 
-Depois de baixar e instalar a ferramenta, você poderá encontrá-la em C: Ferramenta de Avaliação de Rede do Microsoft Skype for Business Arquivos \\ do Microsoft Skype for \\ Business. Um guia detalhado sobre como usar a ferramenta (Usage.docx) está incluído no diretório.
+Depois de baixar e instalar a ferramenta, você poderá encontrá-la em C: Arquivos de Programas \\ Microsoft Skype for Business Network Assessment \\ Tool. Um guia detalhado sobre como usar a ferramenta (Usage.docx) está incluído no diretório.
 
 ### <a name="test-for-opened-ports"></a>Testar portas abertas
 
-Abra uma janela de prompt de comando e navegue até o diretório da Ferramenta de Avaliação de Rede inserindo o cd C: Program **Files Microsoft Skype for Business Network Assessment \\ \\ Tool.** No prompt de comando, inicie o teste de portas abertas inserindo **networkassessmenttool.exe /connectivitycheck**
+Abra uma janela de prompt de comando e navegue até o diretório ferramenta de avaliação de rede inserindo cd C: Arquivos de programas **Microsoft Skype for Business Network Assessment \\ \\ Tool**. No prompt de comando, inicie o teste de portas abertas inserindo **networkassessmenttool.exe /connectivitycheck**
 
-Depois de executar as verificações, a ferramenta exibirá a mensagem "Verificações Concluídas com Êxito" ou o relatório nas portas que foram bloqueadas.
+Depois de executar as verificações, a ferramenta exibirá a mensagem "Verificações Concluídas com Êxito" ou relatará as portas que foram bloqueadas.
 Isso também gera um arquivo chamado Connectivity_results.txt, que contém o resultado da ferramenta e fica armazenado em %userprofile%\\appdata\\local\\ferramenta de avaliação de rede do microsoft skype for business\\ diretório.
 
 Recomendamos a execução das verificações de conectividade regularmente para verificar se as portas foram abertas e estão funcionando corretamente.
@@ -191,16 +191,16 @@ As falhas de rede mais comuns são atraso (latência), perda de pacote e tremula
 
 -   **Tremulação de chegada entre pacotes ou, simplesmente, tremulação:** é a alteração média de atraso entre os pacotes sucessivos. A maioria dos softwares VoIP modernos, incluindo o Skype for Business, pode se adaptar a alguns níveis de tremulação através do buffer. É somente quando a tremulação excede o buffer que o participante nota os efeitos da tremulação.
 
-Os valores máximos dessas falhas estão descritos em [Qualidade de mídia e desempenho de conectividade de rede](https://docs.microsoft.com/SkypeForBusiness/optimizing-your-network/media-quality-and-network-connectivity-performance).
+Os valores máximos dessas falhas estão descritos em [Qualidade de mídia e desempenho de conectividade de rede](/SkypeForBusiness/optimizing-your-network/media-quality-and-network-connectivity-performance).
 Ao testar essas falhas, nós as diferenciamos em dois segmentos separados:
 
 -   O *segmento de borda* é o segmento em que o roteador habita. É o segmento de rede lógica mais próximo conectado à internet em cada um dos seus locais. Na maioria dos casos, é o ponto de conexão do roteador ou, possivelmente, uma rede de perímetro (também conhecida como *DMZ*, *zona desmilitarizada* e *sub-rede filtrada*). Entre esse segmento e a internet, não deve ocorrer nenhum outro tráfego que afete outros dispositivos além do roteador.
 
 -   O *segmento do cliente* é o segmento de rede lógica em que seus clientes residem.
 
-É necessário testar os dois segmentos usando a Ferramenta de avaliação de rede. Para testar o segmento, navegue até o diretório e insira **networkassessmenttool.exe** no prompt de comando. Os resultados são gravados em um arquivo chamado Results.tsv, e você pode compará-los aos [requisitos](https://docs.microsoft.com/SkypeForBusiness/optimizing-your-network/media-quality-and-network-connectivity-performance) de cada segmento.
+É necessário testar os dois segmentos usando a Ferramenta de avaliação de rede. Para testar o segmento, navegue até o diretório e insira **networkassessmenttool.exe** no prompt de comando. Os resultados são gravados em um arquivo chamado Results.tsv, e você pode compará-los aos [requisitos](/SkypeForBusiness/optimizing-your-network/media-quality-and-network-connectivity-performance) de cada segmento.
 
-Observe que ambos os segmentos devem atender aos requisitos de uma implantação de alta qualidade. Recomendamos que você execute a ferramenta várias vezes por uma hora seguidas para obter uma boa indicação do desempenho da sua rede.
+Observe que ambos os segmentos devem atender aos requisitos de uma implantação de alta qualidade. Recomendamos que você execute a ferramenta várias vezes por uma hora seguida para obter uma boa indicação do desempenho da sua rede.
 
 <!--ENDOFSECTION-->
 
@@ -208,14 +208,14 @@ Observe que ambos os segmentos devem atender aos requisitos de uma implantação
 
 Se os resultados do planejamento de largura de banda, testes de porta ou testes de requisitos de rede mostrarem que a rede atual precisa de correção antes de implantar o Teams, isso poderá ser feito de várias maneiras:
 
--   Para largura de banda insuficiente, atualize as conexões para que o tráfego para o Microsoft 365 ou o Office 365 possa fluir desaforado.
+-   Para largura de banda insuficiente, atualize conexões para que o tráfego para o Microsoft 365 ou o Office 365 possa fluir sem limitação.
 
 -   Para portas bloqueadas, altere as regras de firewall e teste-as novamente.
 
 -   Para falhas de rede, sempre execute uma análise da causa raiz.
 
-A qualidade de serviço (QoS) pode ser usada para combater as falhas ao priorizar e separar o tráfego. Algumas organizações optam por implantar a QoS para superar problemas de largura de banda ou restringir a quantidade de fluxo de tráfego. Isso não melhorará a qualidade e conduzirá a novos problemas. Uma análise de causa raiz sempre deve ser realizada quando as falhas de rede excederem os requisitos. A QoS pode ser uma solução.
-Para obter mais informações, consulte [Qualidade de Serviço no Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/qos-in-teams).
+A qualidade de serviço (QoS) pode ser usada para combater as falhas ao priorizar e separar o tráfego. Algumas organizações optam por implantar a QoS para superar problemas de largura de banda ou restringir a quantidade de fluxo de tráfego. Isso não melhorará a qualidade e causará novos problemas. Uma análise de causa raiz sempre deve ser realizada quando as falhas de rede excederem os requisitos. A QoS pode ser uma solução.
+Para obter mais informações, consulte [Qualidade de Serviço no Microsoft Teams](./qos-in-teams.md).
 
 >[!NOTE]
 >Muitas redes evoluem ao longo do tempo devido a atualizações, expansões ou outros requisitos empresariais. Verifique se você tem processos operacionais em vigor para manter essas áreas como parte do planejamento do gerenciamento do serviço.

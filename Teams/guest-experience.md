@@ -19,12 +19,12 @@ appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
 description: Este artigo descreve as funcionalidades do Microsoft Teams disponíveis para convidados.
-ms.openlocfilehash: 25ea63de9bcdc85e0f7b81e382c2c9bcd057c629
-ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
-ms.translationtype: HT
+ms.openlocfilehash: 8eda5d3cabf497d105c0fd4a4610ba59db128bfc
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "49661886"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51092079"
 ---
 # <a name="guest-experience-in-teams"></a>Experiência de convidado no Teams
 
@@ -105,8 +105,8 @@ A tabela a seguir mostra os recursos de chamada e reunião disponíveis para con
 >  - Os **Usuários convidados têm acesso limitado a propriedades e associação de objetos do diretório** das configurações, o que significa que os convidados não têm permissões para determinadas tarefas de diretório, como enumerar usuários, grupos ou outros recursos de diretório usando o Microsoft Graph.
 >  - O **Acesso de usuário convidado é restrito a propriedades e associações de seus próprios objetos de diretório (mais restritivos)** da configuração, o que significa que os convidados só podem acessar seus próprios objetos de diretório.
 >
->Para saber mais, confira [Quais são as permissões de usuário padrão no Azure Active Directory?](https://go.microsoft.com/fwlink/?linkid=2135493)
+>Para saber mais, confira [Quais são as permissões de usuário padrão no Azure Active Directory?](/azure/active-directory/fundamentals/users-default-permissions)
 
 ## <a name="related-topics"></a>Tópicos relacionados
 
-[Deixar uma organização como um convidado](https://docs.microsoft.com/azure/active-directory/b2b/leave-the-organization)
+[Deixar uma organização como um convidado](/azure/active-directory/b2b/leave-the-organization)
