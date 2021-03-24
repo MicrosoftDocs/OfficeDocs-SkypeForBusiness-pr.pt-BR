@@ -14,34 +14,32 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 4d0c7306-e87e-464a-82ad-a5537f141500
 ROBOTS: NOINDEX, NOFOLLOW
-description: Bem-vindo ao Painel de Controle do Skype for Business Server, a interface do usuário baseada na Web para administração e gerenciamento do Skype for Business Server. Você pode usar o painel de controle para executar os tipos de tarefas administrativas que foram executadas usando o Console de Gerenciamento Microsoft em versões anteriores.
-ms.openlocfilehash: fdd6aeefb6c4914dec54673f426c95c4028388ce
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Bem-vindo ao Painel de Controle do Skype for Business Server, a interface de usuário baseada na Web para administração e gerenciamento do Skype for Business Server. Você pode usar o painel de controle para executar os tipos de tarefas administrativas que foram executadas usando o Console de Gerenciamento da Microsoft em versões anteriores.
+ms.openlocfilehash: 3e8fee53c37079c46862e05f246d984c621b57ef
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49836621"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51100437"
 ---
 # <a name="first-run-checklist-for-skype-for-business-server-control-panel"></a>Lista de Verificação da Primeira Execução para o Painel de controle do Skype for Business Server
 
-Bem-vindo ao Painel de Controle do Skype for Business Server, a interface do usuário baseada na Web para administração e gerenciamento do Skype for Business Server. Você pode usar o painel de controle para executar os tipos de tarefas administrativas que foram executadas usando o Console de Gerenciamento Microsoft em versões anteriores.
+Bem-vindo ao Painel de Controle do Skype for Business Server, a interface de usuário baseada na Web para administração e gerenciamento do Skype for Business Server. Você pode usar o painel de controle para executar os tipos de tarefas administrativas que foram executadas usando o Console de Gerenciamento da Microsoft em versões anteriores.
 
 Há várias tarefas importantes que recomendamos que você execute depois de ter implantado o Skype for Business Server. Algumas destas tarefas são etapas de configuração inicial que você pode já ter executado durante a implantação, enquanto outros são melhorias ou modificações de definições que você configurou durante a implantação ou definições padrão. Outras tarefas descritas neste tópico validam as configurações feitas por você durante o processo de implantação..
 
 > [!NOTE]
-> Antes de executar as tarefas na tabela a seguir, faça logoff usando os direitos, permissões e funções [](https://technet.microsoft.com/library/41204ba3-ce5b-41a8-a6c3-b444468fa328.aspx) de usuário corretos, conforme descrito na seção "Funções e Escopo" do tópico Controle de Acesso Baseado em Função.
+> Antes de executar as tarefas na tabela a seguir, [certifique-se](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-role-based-access-control) de fazer logoff usando os direitos, permissões e função corretos do usuário, conforme descrito na seção "Funções e Escopo" do tópico Controle de Acesso Baseado em Função.
 
 ## <a name="first-run-checklist"></a>Lista de checagem de Primeira Execução
 
 Recomendamos que você revise as tarefas mencionadas neste tópico e execute os procedimentos apropriados para implantação em sua organização.
 
-|**Tarefa**|**Grupo do Painel de Controle**|**Documentação**|
+|**Tarefa**|**Grupo painel de controle**|**Documentação**|
 |:-----|:-----|:-----|
-|Verifique se os serviços instalados em sua topologia estão sendo executados como esperado.  <br/> |**Topologia** <br/> |[Exibir detalhes sobre um serviço](https://technet.microsoft.com/library/bc8e8202-cd68-47e4-95b2-bb36e51cc124.aspx) <br/> |
-|Habilitar usuários para o Skype for Business Server. Opcionalmente e, se estiver migrando de uma versão anterior, mova os usuários para o Skype for Business Server.  <br/> |**Usuários** <br/> |[Gerenciando usuários](https://technet.microsoft.com/library/8021087e-5084-4a39-9fef-ab9376c6d371.aspx) <br/> |
-|Caso tenha implantado ou queira implantar o Enterprise Voice, configure uma conexão de tronco SIP para habilitar a conectividade às PSTN (redes telefônicas públicas comutadas).  <br/> |**Roteamento de Voz** <br/> |[Configurando troncos e regras de conversão](https://technet.microsoft.com/library/0c339511-a185-484e-94f0-dbe918b7e48a.aspx) <br/> |
-|Verifique as configurações de roteamento de Enterprise Voice caso o tenha implantado.  <br/> |**Roteamento de Voz** <br/> |[Testar roteamento de voz](https://technet.microsoft.com/library/d3aae909-fef6-440f-b144-0b62dc82bf5d.aspx) <br/> |
-|Verifique se as políticas e configurações de arquivamento atendem às necessidades de conformidade de sua organização, caso tenha implantado um Servidor de Arquivamento.  <br/> |**Monitoramento e Arquivamento** <br/> |[Gerenciando arquivamento](https://technet.microsoft.com/library/48c6cc8c-c2c1-4534-9a8a-fd5eb738076a.aspx) <br/> |
+|Verifique se os serviços instalados em sua topologia estão sendo executados como esperado.  <br/> |**Topologia** <br/> |[Exibir detalhes sobre um serviço](/previous-versions/office/lync-server-2013/lync-server-2013-view-details-about-a-service) <br/> |
+|Habilitar usuários para o Skype for Business Server. Opcionalmente e, se migrar de uma versão anterior, mova os usuários para o Skype for Business Server.  <br/> |**Usuários** <br/> |[Gerenciando usuários](/previous-versions/office/lync-server-2013/lync-server-2013-user-accounts-enabled-for-lync-server) <br/> |
+|Caso tenha implantado ou queira implantar o Enterprise Voice, configure uma conexão de tronco SIP para habilitar a conectividade às PSTN (redes telefônicas públicas comutadas).  <br/> |**Roteamento de Voz** <br/> |[Configurando troncos e regras de conversão](/previous-versions/office/lync-server-2013/lync-server-2013-configuring-trunks) <br/> |
+|Verifique as configurações de roteamento de Enterprise Voice caso o tenha implantado.  <br/> |**Roteamento de Voz** <br/> |[Testar roteamento de voz](/previous-versions/office/lync-server-2013/lync-server-2013-test-voice-routing) <br/> |
+|Verifique se as políticas e configurações de arquivamento atendem às necessidades de conformidade de sua organização, caso tenha implantado um Servidor de Arquivamento.  <br/> |**Monitoramento e Arquivamento** <br/> |[Managing Archiving](/previous-versions/office/lync-server-2013/lync-server-2013-managing-archiving) <br/> |
 |Veja relatórios do Servidor de Monitoramento para visualizar informações de uso e diagnósticos, caso o tenha implantado.  <br/> |**Página Inicial** <br/> |[Gerenciar a saúde e o monitoramento no Skype for Business Server](../../../manage/health-and-monitoring/health-and-monitoring.md) <br/> |
-
-

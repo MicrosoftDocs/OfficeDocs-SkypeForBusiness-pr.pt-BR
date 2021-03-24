@@ -15,20 +15,17 @@ localization_priority: Normal
 ms.assetid: abc2f59c-d21a-4d3f-bf23-6ac86effcd86
 ROBOTS: NOINDEX, NOFOLLOW
 description: O que você deseja fazer? Clique no link para a tarefa que você deseja executar.
-ms.openlocfilehash: a16b2b0235a1027f5e4b28ee2b660a8c95ecf4ae
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 1b15c4cb3b0f66594a5b4cec943ad416f5c31173
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49812181"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51100357"
 ---
 # <a name="network-configuration-edit-global-setting"></a>Configuração de Rede: Editar Definição Global
 
 O que você deseja fazer? Clique no link para a tarefa que você deseja executar.
 
-- [Habilitando o controle de admissão de chamada](https://technet.microsoft.com/library/015f5c8f-2f90-4b9e-8149-b33767e90582.aspx)
+- [Habilitando o controle de admissão de chamada](/previous-versions/office/lync-server-2013/lync-server-2013-enabling-call-admission-control)
 
-- [Habilitando o bypass de mídia](https://technet.microsoft.com/library/95c4fa06-49d3-41ac-acdc-7dcda66e5508.aspx)
-
-
-
+- [Habilitando o bypass de mídia](/previous-versions/office/lync-server-2013/lync-server-2013-enabling-network-media-bypass)

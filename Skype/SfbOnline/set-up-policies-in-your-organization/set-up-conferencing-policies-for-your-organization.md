@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Setup
 description: 'Conferência é uma parte importante do Skype for Business Online: a conferência permite que grupos de usuários reúnam-se online para ver slides e vídeo, compartilhar aplicativos, trocar arquivos ou para comunicarem-se e colaborar.'
-ms.openlocfilehash: 9a2e18ad23eaa08813c87e83058ecc0dcd1dfec1
-ms.sourcegitcommit: 1613e08da482ff142c990c9c9951abeb873ad964
+ms.openlocfilehash: f4c8831408ed5c17073456306c0f48add73161ff
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "50569203"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51100517"
 ---
 # <a name="set-up-conferencing-policies-for-your-organization"></a>Configurar políticas de conferência para sua organização
 
@@ -44,8 +44,8 @@ As configurações de política podem ser configuradas no momento em que uma pol
 ### <a name="start-windows-powershell"></a>Iniciar Windows PowerShell
 
  > [!Note]
-> O Skype for Business Online Connector atualmente faz parte do módulo mais recente do Teams PowerShell. Se você estiver usando a versão pública mais recente do Teams PowerShell, não será necessário instalar o Conector do Skype for Business Online.
-1. Instale o [módulo do Teams PowerShell](https://docs.microsoft.com/microsoftteams/teams-powershell-install).
+> O Conector Skype for Business Online atualmente faz parte do módulo mais recente do PowerShell do Teams. Se você estiver usando o último lançamento público do PowerShell Teams, não precisa instalar o Conector do Skype for Business Online.
+1. Instale o [módulo do Teams PowerShell](/microsoftteams/teams-powershell-install).
     
 2. Abra um prompt Windows PowerShell de comando e execute os seguintes comandos: 
 
@@ -56,7 +56,7 @@ As configurações de política podem ser configuradas no momento em que uma pol
    $credential = Get-Credential
    Connect-MicrosoftTeams -Credential $credential
    ```
-   Se você quiser mais informações sobre como iniciar o Windows PowerShell, consulte Conectar-se a todos os serviços do [Microsoft 365 ou do Office 365](https://technet.microsoft.com/library/dn568015.aspx) em uma única janela de Windows PowerShell ou Configurar seu computador para Windows PowerShell [.](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
+   Se você quiser mais informações sobre como iniciar o Windows PowerShell, consulte Conectar-se a todos os serviços do [Microsoft 365 ou do Office 365](/microsoft-365/enterprise/connect-to-all-microsoft-365-services-in-a-single-windows-powershell-window) em uma única janela de Windows PowerShell ou Configurar seu computador para Windows PowerShell [.](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
       
 ### <a name="block-file-transfers-and-desktop-sharing-during-meetings"></a>Bloquear transferências de arquivo e compartilhamento de área de trabalho durante as reuniões
 
@@ -65,16 +65,16 @@ As configurações de política podem ser configuradas no momento em que uma pol
    ```powershell
    New-CsConferencingPolicy -Identity DesktopConferencingPolicy -EnableAppDesktopSharing None  $true -EnableFileTransfer $false
    ```
-   Consulte mais no cmdlet [New-CsConferencingPolicy.](https://technet.microsoft.com/library/mt779148.aspx)
+   Consulte mais no cmdlet [New-CsConferencingPolicy.](/powershell/module/skype/New-CsConferencingPolicy)
     
 - Para conceder a nova política criada a todos os usuários em sua organização, execute:
    
    ```powershell
    Grant-CsConferencingPolicy -Identity "amos.marble@contoso.com" -PolicyName DesktopConferencingPolicy
    ```
-   Consulte mais no cmdlet [Grant-CsConferencingPolicy.](https://technet.microsoft.com/library/mt779156.aspx)
+   Consulte mais no cmdlet [Grant-CsConferencingPolicy.](/powershell/module/skype/Grant-CsConferencingPolicy)
     
-  Se você já tiver criado uma política, poderá usar o cmdlet [Set-CsConferencingPolicy](https://technet.microsoft.com/library/mt779157.aspx) para fazer alterações na política existente e, em seguida, usar o cmdlet[Grant-CsConferencingPolicy](https://technet.microsoft.com/library/mt779156.aspx) para aplicar as configurações aos seus usuários.
+  Se você já tiver criado uma política, poderá usar o cmdlet [Set-CsConferencingPolicy](/powershell/module/skype/Set-CsConferencingPolicy) para fazer alterações na política existente e, em seguida, usar o cmdlet[Grant-CsConferencingPolicy](/powershell/module/skype/Grant-CsConferencingPolicy) para aplicar as configurações aos seus usuários.
   
 ### <a name="block-recording-of-conferences-and-prevent-anonymous-meeting-participants"></a>Bloquear o registro de conferências e impedir participantes de reuniões anônimas
 
@@ -83,16 +83,16 @@ As configurações de política podem ser configuradas no momento em que uma pol
    ```powershell
    New-CsConferencingPolicy -Identity ConferencingPolicy -AllowAnonymousParticipantsInMeetings  $false -AllowConferenceRecording $false
    ```
-   Consulte mais no cmdlet [New-CsConferencingPolicy.](https://technet.microsoft.com/library/mt779148.aspx)
+   Consulte mais no cmdlet [New-CsConferencingPolicy.](/powershell/module/skype/New-CsConferencingPolicy)
     
 - Para conceder a nova política criada para o Amos Marble, execute:
    
    ```powershell
     Grant-CsConferencingPolicy -Identity "amos.marble@contoso.com" -PolicyName ConferencingPolicy
    ```
-   Consulte mais no cmdlet [Grant-CsConferencingPolicy.](https://technet.microsoft.com/library/mt779156.aspx)
+   Consulte mais no cmdlet [Grant-CsConferencingPolicy.](/powershell/module/skype/Grant-CsConferencingPolicy)
     
-Se você já tiver criado uma política, poderá usar o cmdlet [Set-CsConferencingPolicy](https://technet.microsoft.com/library/mt779157.aspx) para fazer alterações na política existente e, em seguida, usar o cmdlet [Grant-CsConferencingPolicy](https://technet.microsoft.com/library/mt779156.aspx) para aplicar as configurações aos seus usuários.
+Se você já tiver criado uma política, poderá usar o cmdlet [Set-CsConferencingPolicy](/powershell/module/skype/Set-CsConferencingPolicy) para fazer alterações na política existente e, em seguida, usar o cmdlet [Grant-CsConferencingPolicy](/powershell/module/skype/Grant-CsConferencingPolicy) para aplicar as configurações aos seus usuários.
   
 ### <a name="block-anonymous-participants-from-recording-meetings-and-external-users-from-saving-meeting-content"></a>Impedir que participantes anônimos gravem reuniões e que usuários externos salvem o conteúdo da reunião
 
@@ -101,7 +101,7 @@ Se você já tiver criado uma política, poderá usar o cmdlet [Set-CsConferenci
    ```powershell
    New-CsConferencingPolicy -Identity BlockedConferencingPolicy  -AllowExternalUsersToRecordMeeting  $false -AllowExternalUsersToSaveContent $false 
    ```
-   Consulte mais no cmdlet [New-CsConferencingPolicy.](https://technet.microsoft.com/library/mt779148.aspx)
+   Consulte mais no cmdlet [New-CsConferencingPolicy.](/powershell/module/skype/New-CsConferencingPolicy)
     
 - Para conceder a nova política criada a todos os usuários em sua organização, execute:
     
@@ -110,25 +110,25 @@ Se você já tiver criado uma política, poderá usar o cmdlet [Set-CsConferenci
    Grant-CsConferencingPolicy -Identity "amos.marble@contoso.com" -PolicyName BlockedConferencingPolicy
    ```
 
-Consulte mais no cmdlet [Grant-CsConferencingPolicy.](https://technet.microsoft.com/library/mt779156.aspx)
+Consulte mais no cmdlet [Grant-CsConferencingPolicy.](/powershell/module/skype/Grant-CsConferencingPolicy)
     
-Se você já tiver criado uma política, poderá usar o cmdlet [Set-CsConferencingPolicy](https://technet.microsoft.com/library/mt779157.aspx) para fazer alterações na política existente e, em seguida, usar o cmdlet[Grant-CsConferencingPolicy](https://technet.microsoft.com/library/mt779156.aspx) para aplicar as configurações aos seus usuários.
+Se você já tiver criado uma política, poderá usar o cmdlet [Set-CsConferencingPolicy](/powershell/module/skype/Set-CsConferencingPolicy) para fazer alterações na política existente e, em seguida, usar o cmdlet[Grant-CsConferencingPolicy](/powershell/module/skype/Grant-CsConferencingPolicy) para aplicar as configurações aos seus usuários.
   
 ## <a name="want-to-know-more-about-windows-powershell"></a>Deseja saber mais sobre o Windows PowerShell?
 
 - O Windows PowerShell gerencia os usuários e o que eles podem ou não fazer. Com Windows PowerShell, você pode gerenciar o Microsoft 365 ou o Office 365 e o Skype for Business Online usando um único ponto de administração que pode simplificar seu trabalho diário, quando você tem várias tarefas a fazer. Para começar a trabalhar com o Windows PowerShell, confira estes tópicos:
     
-  - [Uma introdução ao Windows PowerShell e ao Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525039)
+  - [Uma introdução ao Windows PowerShell e ao Skype for Business Online](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     
-  - [Seis motivos pelos quais você pode querer usar o Windows PowerShell gerenciar o Microsoft 365 ou o Office 365](https://go.microsoft.com/fwlink/?LinkId=525041)
+  - [Seis motivos pelos quais você pode querer usar o Windows PowerShell gerenciar o Microsoft 365 ou o Office 365](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     
 - Windows PowerShell tem muitas vantagens em velocidade, simplicidade e produtividade sobre apenas o uso do centro de administração do Microsoft 365, como quando você está fazendo alterações de configuração para muitos usuários ao mesmo tempo. Saiba mais sobre essas vantagens nos seguintes tópicos:
     
-  - [Melhores maneiras de gerenciar o Microsoft 365 ou o Office 365 com Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
+  - [Melhores maneiras de gerenciar o Microsoft 365 ou o Office 365 com Windows PowerShell](/previous-versions//dn568025(v=technet.10))
     
-  - [Usar o Windows PowerShell para gerenciar o Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525453)
+  - [Usar o Windows PowerShell para gerenciar o Skype for Business Online](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     
-  - [Usando o Windows PowerShell para realizar tarefas comuns de gerenciamento do Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525038)
+  - [Usando o Windows PowerShell para realizar tarefas comuns de gerenciamento do Skype for Business Online](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
 
 ## <a name="related-topics"></a>Tópicos relacionados
 [Criar políticas personalizadas de acesso externo](create-custom-external-access-policies.md)
@@ -138,4 +138,3 @@ Se você já tiver criado uma política, poderá usar o cmdlet [Set-CsConferenci
 [Configurar políticas de clientes para sua organização](set-up-client-policies-for-your-organization.md)
 
   
- 

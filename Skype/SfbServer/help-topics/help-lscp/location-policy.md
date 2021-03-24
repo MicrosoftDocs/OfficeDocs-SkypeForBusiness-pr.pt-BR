@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5530cf17-4520-40b5-ba70-c62692685048
 description: As políticas de local determinam se o 9-1-1 Avançado (E9-1-1) está habilitado e como ele é usado, além de como as informações de local são usadas para usuários e contatos.
-ms.openlocfilehash: 948fb5cb6a5457b512af3fc7d230adf27c304bd2
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 4a5cf1ab5ec17681adef9b03cab06bed04285628
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49803951"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51099697"
 ---
 # <a name="location-policy"></a>Política de Local
 
@@ -30,12 +30,12 @@ As políticas de local incluem a política global e, como opção, uma ou mais p
 
 - **Política global:** A política global é criada por padrão. É possível editar a política global, mas não é possível exclui-la. Se você tentar remover a política global, todas as configurações serão redefinidas para os valores padrão.
 
-- **Políticas de site (opcional):** Você pode criar uma ou mais políticas de local de site, cada uma delas se aplicando a um site específico. As políticas de site substituem a política global.
+- **Políticas de site (opcional):** Você pode criar uma ou mais políticas de local de site, cada uma delas se aplica a um site específico. As políticas de site substituem a política global.
 
-- **Políticas de usuário (opcional):** Você pode criar uma ou mais políticas de local de usuário, cada uma delas se aplicando a um usuário ou grupo de usuários específico. As políticas de usuário substituem a política global e as políticas de site.
+- **Políticas de usuário (opcional):** Você pode criar uma ou mais políticas de localização de usuário, cada uma delas se aplica a um usuário ou grupo específico de usuários. As políticas de usuário substituem a política global e as políticas de site.
 
 > [!NOTE]
-> Também é possível atribuir políticas de local a sites de rede, que são grupos de sub-redes. As políticas de local atribuídas a sites de rede têm precedência sobre todas as outras políticas de usuário. Para obter detalhes sobre como atribuir políticas de local a sites de rede usando cmdlets, consulte Adicionar uma política de local a um site de rede no [Skype for Business Server 2015.](../../deploy/deploy-enterprise-voice/add-a-location-policy-to-a-network-site.md) Para obter detalhes sobre como usar o Painel de Controle do Skype for Business Server para atribuir uma política de local a um site de rede, consulte [Configurando sites de rede.](https://technet.microsoft.com/library/358aa08a-c5bc-45fc-8017-19e6202f88c5.aspx)
+> Também é possível atribuir políticas de local a sites de rede, que são grupos de sub-redes. As políticas de local atribuídas a sites de rede têm precedência sobre todas as outras políticas de usuário. Para obter detalhes sobre como atribuir políticas de local a sites de rede usando cmdlets, consulte Adicionar uma política de local a um site de rede no [Skype for Business Server 2015](../../deploy/deploy-enterprise-voice/add-a-location-policy-to-a-network-site.md). Para obter detalhes sobre como usar o Painel de Controle do Skype for Business Server para atribuir uma política de local a um site de rede, consulte [Configuring Network Sites](/previous-versions/office/lync-server-2013/lync-server-2013-creating-or-modifying-network-sites).
 
 A página **Política de Local** exibe uma lista de todas as políticas de local definidas para sua organização.
 
@@ -53,7 +53,7 @@ A página **Política de Local** exibe uma lista de todas as políticas de local
 
 A lista a seguir descreve os comandos na página.
 
-- **Novo** Inicia uma nova política de local de site ou uma política de local de usuário.
+- **Novo** Inicia uma nova política de local do site ou uma política de localização do usuário.
 
 - **Editar** Abre a política de local selecionada para editá-la, seleciona todas as políticas de local na lista ou exclui a política de site ou política de usuário selecionada.
 
@@ -68,16 +68,14 @@ A lista a seguir descreve os campos na página.
 
 - **Escopo** Identifica o escopo da política de local: global, site ou usuário.
 
-- **E9-1-1** Verifica se os usuários atribuídos a essa política de local estão habilitados para E9-1-1.
+- **E9-1-1** Verificado se os usuários atribuídos a essa política de local estão habilitados para E9-1-1.
 
-- **Localização** Especifica se os usuários serão solicitados ou não a inserir informações de local quando seus clientes se registram no Skype for Business Server em um novo local e se veem um aviso de isenção de responsabilidade se descartarem a solicitação sem inserir informações de local.
+- **Local** Especifica se os usuários serão solicitados a inserir informações de local quando seu cliente se registrar no Skype for Business Server em um novo local e se eles verão um aviso de isenção de responsabilidade se descartarem o prompt sem inserir informações de local.
 
-- **Uso de PSTN** Especifica o uso da PSTN (Rede Telefônica Pública Comutado) usada para determinar a rota de voz usada para rotear chamadas de emergência de clientes que usam esse perfil.
+- **Uso de PSTN** Especifica o uso de PSTN (rede telefônica pública comutado) que é usado para determinar a rota de voz usada para rotear chamadas de emergência de clientes que usam esse perfil.
 
-- **Número de E9-1-1** Especifica o número discado para alcançar os serviços de emergência.
+- **Número E9-1-1** Especifica o número discado para chegar aos serviços de emergência.
 
-- **Máscara de E9-1-1** Especifica um número que um usuário disca e que é convertido no número de discagem de emergência.
+- **Máscara E9-1-1** Especifica um número que um usuário disca que é convertido no número de discagem de emergência.
 
-Para obter detalhes sobre os recursos do serviço de emergência do Enterprise Voice, consulte [Overview of E9-1-1](https://technet.microsoft.com/library/c01e6774-bc9f-4c5b-a60b-478b7317b2b7.aspx) na documentação de Planejamento. Para obter detalhes sobre como trabalhar com políticas de local, consulte [Configuring Location Policy](https://technet.microsoft.com/library/14e41bcb-ea0a-49c2-99b3-1f61fc34416d.aspx) na documentação Operações.
-
-
+Para obter detalhes Enterprise Voice recursos e recursos de serviço de emergência, consulte [Overview of E9-1-1](/previous-versions/office/lync-server-2013/lync-server-2013-overview-of-e9-1-1) na documentação planejamento. Para obter detalhes sobre como trabalhar com políticas de local, consulte [Configuring Location Policy](/previous-versions/office/lync-server-2013/lync-server-2013-viewing-location-policy-information) na documentação Operações.

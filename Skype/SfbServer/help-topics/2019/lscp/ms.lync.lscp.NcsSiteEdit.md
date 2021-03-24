@@ -15,18 +15,15 @@ localization_priority: Normal
 ms.assetid: 091aea61-22c2-4363-acd0-ccbc193755dd
 ROBOTS: NOINDEX, NOFOLLOW
 description: O que você deseja fazer? Clique no link para a tarefa que você deseja executar.
-ms.openlocfilehash: 49ed9b9867cd5ace760c655ee77ad274d2fd229b
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 27e560c7893e46f12d2911886c25d931de5790eb
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49808491"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51100297"
 ---
 # <a name="configure-a-network-site-create-new-or-edit-existing"></a>Configurar um Site de Rede: Criar Novo ou Editar Existente
 
 O que você deseja fazer? Clique no link para a tarefa que você deseja executar.
 
-- [Configurando sites de rede](https://technet.microsoft.com/library/358aa08a-c5bc-45fc-8017-19e6202f88c5.aspx)
-
-
-
+- [Configurando sites de rede](/previous-versions/office/lync-server-2013/lync-server-2013-creating-or-modifying-network-sites)

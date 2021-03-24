@@ -15,27 +15,25 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ece2603a-dce5-46ef-b476-7da136465efc
 description: O que você deseja fazer? Clique no link para a tarefa que você deseja executar.
-ms.openlocfilehash: a129702fd13c040438a2c9aaff97c7a04504c802
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 9cdf82cab76887d00838cdf64f6338a92513c63e
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49827101"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51099967"
 ---
 # <a name="access-edge-configuration-edit"></a>Configuração de Borda de Acesso: Editar
 
 O que você deseja fazer? Clique no link para a tarefa que você deseja executar.
 
-- [Habilitar ou desabilitar o acesso de usuário remoto para sua organização](https://technet.microsoft.com/library/8ec58f4b-9f6d-47b4-a187-d18a83fe4577.aspx)
+- [Habilitar ou desabilitar o acesso de usuário remoto para sua organização](/previous-versions/office/lync-server-2013/lync-server-2013-enable-or-disable-federation-and-public-im-connectivity)
 
-- [Habilitar ou desabilitar a federação para sua organização](https://technet.microsoft.com/library/090aea0f-ef0b-49da-9c80-02d9279f2fa6.aspx)
+- [Habilitar ou desabilitar a federação para sua organização](/previous-versions/office/lync-server-2013/lync-server-2013-configure-policies-to-control-public-user-access)
 
-- [Habilitar ou desabilitar a descoberta de parceiros de federação](https://technet.microsoft.com/library/91fd036b-b1af-47cf-b1cf-0aa0a783c2aa.aspx)
+- [Habilitar ou desabilitar a descoberta de parceiros de federação](/previous-versions/office/lync-server-2013/lync-server-2013-enable-or-disable-discovery-of-federation-partners)
 
-- [Habilitar ou desabilitar o envio de um aviso de isenção de responsabilidade de arquivamento para parceiros federados](https://technet.microsoft.com/library/c8e9a2fa-9dc1-4e4d-919f-56ece8004864.aspx)
+- [Habilitar ou desabilitar o envio de um aviso de isenção de responsabilidade de arquivamento para parceiros federados](/previous-versions/office/lync-server-2013/lync-server-2013-enable-or-disable-sending-an-archiving-disclaimer-to-federated-partners)
 
-- [Habilitar ou desabilitar o acesso de usuário anônimo para sua organização](https://technet.microsoft.com/library/090aea0f-ef0b-49da-9c80-02d9279f2fa6.aspx)
+- [Habilitar ou desabilitar o acesso de usuário anônimo para sua organização](/previous-versions/office/lync-server-2013/lync-server-2013-configure-policies-to-control-public-user-access)
 
-- [Criar ou modificar uma política de conferência](https://technet.microsoft.com/library/e2974030-2c0a-4634-91e8-93f4e2d674d9.aspx)
-
-
+- [Criar ou modificar uma política de conferência](/previous-versions/office/lync-server-2013/lync-server-2013-create-or-modify-a-conferencing-policy)

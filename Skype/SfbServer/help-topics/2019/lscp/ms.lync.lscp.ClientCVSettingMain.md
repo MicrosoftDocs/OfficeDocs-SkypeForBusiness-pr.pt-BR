@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: cb17314e-b89e-4821-8855-12f8fd2edc9b
 ROBOTS: NOINDEX, NOFOLLOW
 description: Além de especificar a versão dos clientes que você deseja suportar em seu ambiente, também é possível especificar uma ação padrão para clientes ainda não têm uma política de versão definida. Isso permite que você restrinja quais versões de cliente são usadas em seu ambiente, o que pode ajudá-lo a controlar os custos associados ao suporte de múltiplas versões de cliente.
-ms.openlocfilehash: d2d2a18928a31d136b52a90852836db93c01ffc4
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 69d8c15688e6afce2f1e92cebc20ad8fb6bc7464
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49812311"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51100647"
 ---
 # <a name="client-version-configuration"></a>Configuração da Versão de Cliente
 
@@ -30,7 +30,7 @@ Além de especificar a versão dos clientes que você deseja suportar em seu amb
 
 É possível executar as seguintes tarefas na página **Configuração da Versão do Cliente**:
 
-- Edite a configuração de versão do cliente padrão **(Global).**
+- Edite a configuração de versão do cliente padrão ( **Global**).
 
 - Criar uma configuração de versão de cliente para um site específico.
 
@@ -43,7 +43,7 @@ Além de especificar a versão dos clientes que você deseja suportar em seu amb
 
 As listas a seguir descrevem os menus, comando, campos e propriedades na página.
 
-- **Novo** Você pode criar uma configuração de versão de cliente para um site específico.
+- **Novo** Você pode criar uma configuração de versão do cliente para um site específico.
 
 - **Editar** Você pode alterar as opções de qualquer uma das políticas de versão do cliente. Com essa opção, é possível fazer o seguinte:
 
@@ -53,7 +53,6 @@ As listas a seguir descrevem os menus, comando, campos e propriedades na página
 
   - **Excluir** Essa opção exclui todas as configurações de versão do cliente selecionadas.
 
-- **Atualizar** Você pode atualizar a lista de configurações de versão do cliente para verificar o status das opções de todas as configurações de versão do cliente.
+- **Atualizar** Você pode atualizar a lista de configuração da versão do cliente para verificar o status das opções de todas as configurações de versão do cliente.
 
-Para obter detalhes sobre interoperabilidade entre clientes e versões de cliente, consulte [Client Interoperability](https://technet.microsoft.com/library/0f126571-91a2-45d5-855c-1e4ddb45fc04.aspx) in the Planning documentation. Para obter detalhes sobre como trabalhar com configurações de versão de cliente, consulte [Modify the Default Action for Clients Not Explicitly Supported or Restricted](https://technet.microsoft.com/library/548dd0f5-62fe-4c3f-8952-2b9fd4c5fff3.aspx) na documentação Operações.
-
+Para obter detalhes sobre interoperabilidade entre clientes e versões do cliente, consulte [Interoperabilidade do](/previous-versions/office/lync-server-2013/lync-server-2013-client-interoperability-in-lync-2013) cliente na documentação planejamento. Para obter detalhes sobre como trabalhar com configurações de versão de cliente, consulte [Modify the Default Action for Clients Not Explicitly Supported or Restricted](/previous-versions/office/lync-server-2013/lync-server-2013-modify-the-default-action-for-clients-not-explicitly-supported-or-restricted) na documentação Operações.

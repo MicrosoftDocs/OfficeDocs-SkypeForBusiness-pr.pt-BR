@@ -19,12 +19,12 @@ MS.collection:
 - microsoftcloud-healthcare
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2cc477b9589aeebb8dcd486e7f85ca04daf6ff4d
-ms.sourcegitcommit: fdef9b52247097e5cae64f01b6b2b710c5b203cf
-ms.translationtype: HT
+ms.openlocfilehash: 1688d4791c3d20ef28e9ff2a44349c87293acea3
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/20/2021
-ms.locfileid: "49909395"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51101147"
 ---
 # <a name="manage-the-tasks-app-for-your-organization-in-microsoft-teams"></a>Gerenciar o aplicativo Tasks para sua organização no Microsoft Teams
 
@@ -81,7 +81,7 @@ Para fixar o aplicativo Tasks para seus usuários, você pode editar a política
 
 ### <a name="a-users-my-tasks-is-visible-if-the-user-is-licensed-for-exchange-online"></a>Minhas tarefas de um usuário são visíveis se o usuário for licenciado para Exchange Online
 
-Se não quiser que um usuário veja **Minhas tarefas**, você pode ocultá-lo. Para fazer isso, [remova a licença do Exchange Online do usuário](https://docs.microsoft.com/microsoft-365/admin/manage/remove-licenses-from-users). É importante saber que, depois de remover uma licença do Exchange Online, o usuário não tem mais acesso à caixa de correio.  Os dados da caixa de correio são retidos por 30 dias, após os quais os dados serão removidos e não podem ser recuperados, a menos que a caixa de correio seja colocada em [Bloqueio In-loco ou Retenção de Litígio ](https://docs.microsoft.com/exchange/security-and-compliance/in-place-and-litigation-holds).
+Se não quiser que um usuário veja **Minhas tarefas**, você pode ocultá-lo. Para fazer isso, [remova a licença do Exchange Online do usuário](/microsoft-365/admin/manage/remove-licenses-from-users). É importante saber que, depois de remover uma licença do Exchange Online, o usuário não tem mais acesso à caixa de correio.  Os dados da caixa de correio são retidos por 30 dias, após os quais os dados serão removidos e não podem ser recuperados, a menos que a caixa de correio seja colocada em [Bloqueio In-loco ou Retenção de Litígio ](/exchange/security-and-compliance/in-place-and-litigation-holds).
 
 Não recomendamos isso para profissionais da informação, mas pode haver alguns cenários em que isso se aplica, como para Trabalhadores da linha de Frente que não dependem de email.
 
@@ -123,5 +123,5 @@ Para obter as etapas sobre como configurar a hierarquia de segmentação de sua 
 
 O Tasks oferece suporte ao Power Automate para Tarefas Pendentes e APIs de Gráfico para Planner. Para saber mais, veja:
 
-- [Visão geral da API de planos e tarefas do planejador](https://docs.microsoft.com/graph/planner-concept-overview)
+- [Visão geral da API de planos e tarefas do planejador](/graph/planner-concept-overview)
 - [Usando a Microsoft To-Do para fazer com o Power Automate](https://support.office.com/article/using-microsoft-to-do-with-power-automate-526e8f75-217b-46e0-9e06-44780b72c295)

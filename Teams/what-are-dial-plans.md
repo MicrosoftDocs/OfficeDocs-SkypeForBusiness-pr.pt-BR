@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.voice.dialplans.overview
 - Calling Plans
 description: 'Saiba que tipo de planos de chamada de discagem (planos de discagem de chamada PSTN) estão disponíveis com o Teams e como escolher um para sua organização.  '
-ms.openlocfilehash: adb5f46296423b6339c62029d27111345c2fd646
-ms.sourcegitcommit: d62e6cefceebe481eb207c59872f1aa67f0fc528
+ms.openlocfilehash: 86ec311a7abec9b9268555884db3ff8de7ee256b
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "50460811"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51100977"
 ---
 # <a name="what-are-dial-plans"></a>O que são planos de discagem?
 
@@ -113,7 +113,7 @@ Como qualquer plano de discagem de locatário é efetivamente mesclado com o pla
 
 As regras de normalização .NET Framework expressões regulares para especificar padrões de combinação numérica que o servidor usa para traduzir cadeias de caracteres de discagem para o formato E.164. As regras de normalização podem ser criadas especificando a expressão regular para a correspondência e a conversão a ser feita quando uma correspondência é encontrada. Ao concluir, você pode digitar um número de teste para verificar se a regra de normalização funciona como o esperado.
 
-Para obter detalhes sobre como usar .NET Framework expressões regulares, [consulte .NET Framework Expressões Regulares](https://go.microsoft.com/fwlink/p/?linkId=140927).
+Para obter detalhes sobre como usar .NET Framework expressões regulares, [consulte .NET Framework Expressões Regulares](/dotnet/standard/base-types/regular-expressions).
 
 Consulte [Criar e gerenciar planos de discagem](create-and-manage-dial-plans.md) para criar e gerenciar regras de normalização para seus planos de discagem de locatários.
 

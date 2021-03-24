@@ -14,16 +14,14 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 7d1ff1e0-eb89-4703-be50-71e94329d8b2
 ROBOTS: NOINDEX, NOFOLLOW
-description: Para permitir que você delegar tarefas administrativas enquanto mantém altos padrões de segurança, o Skype for Business Server oferece suporte ao RBAC (controle de acesso baseado em função).
-ms.openlocfilehash: f24f55a262c7dafe297956435b94ba51112c3249
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Para permitir que você delegar tarefas administrativas enquanto mantém altos padrões de segurança, o Skype for Business Server oferece suporte ao controle de acesso baseado em função (RBAC).
+ms.openlocfilehash: 25abdaa08de6f3fa3b7d24d759c118e73e3f7e2c
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49836601"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51100407"
 ---
 # <a name="administrative-roles-and-skype-for-business-server-control-panel"></a>Funções Administrativas e Painel de Controle do Skype for Business Server
 
-Para permitir que você delegar tarefas administrativas enquanto mantém altos padrões de segurança, o Skype for Business Server oferece suporte ao RBAC (controle de acesso baseado em função). Com o RBAC, você concede privilégios administrativos atribuindo usuários a funções administrativas predefinidos. O Skype for Business Server inclui um conjunto rico de funções administrativas integrados e também permite que você crie novas funções e especifique uma lista personalizada de cmdlets para cada nova função. Você pode também adicionar scripts de cmdlets às tarefas permitidas para ambas as funções personalizadas e predefinidas do RBAC. Para obter detalhes, incluindo as funções administrativas predefinidos disponíveis no Skype for Business Server, consulte Controle de Acesso [Baseado em Função.](https://technet.microsoft.com/library/41204ba3-ce5b-41a8-a6c3-b444468fa328.aspx)
-
-
+Para permitir que você delegar tarefas administrativas enquanto mantém altos padrões de segurança, o Skype for Business Server oferece suporte ao controle de acesso baseado em função (RBAC). Com o RBAC, você concede privilégio administrativo atribuindo usuários a funções administrativas predefinidos. O Skype for Business Server inclui um conjunto rico de funções administrativas e também permite que você crie novas funções e especifique uma lista personalizada de cmdlets para cada nova função. Você pode também adicionar scripts de cmdlets às tarefas permitidas para ambas as funções personalizadas e predefinidas do RBAC. Para obter detalhes, incluindo as funções administrativas predefinida disponíveis no Skype for Business Server, consulte Controle de Acesso [Baseado em Função.](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-role-based-access-control)

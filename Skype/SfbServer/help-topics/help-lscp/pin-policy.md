@@ -15,30 +15,29 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 16e5b03c-c313-4792-9353-65f33b5e775a
 description: O que você deseja fazer? Clique no link para a tarefa que você deseja executar.
-ms.openlocfilehash: 0a363520e029015d8ca72c738a018aa16e943e39
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 6b4fe394bbeacf99510a9da3d6d2f66fd859176a
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49829381"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51099467"
 ---
 # <a name="pin-policy"></a>Política de PIN
 
 O que você deseja fazer? Clique no link para a tarefa que você deseja executar.
 
- **Trabalhar com política PIN para telefones IP** Essa política de PIN (número de identificação pessoal) dá suporte à autenticação para usuários que se conectam ao Skype for Business Server usando um telefone IP.
+ **Trabalhar com política de PIN para telefones IP** Essa política de pin (número de identificação pessoal) dá suporte à autenticação para usuários que se conectam ao Skype for Business Server usando um telefone IP.
 - [Criar uma nova política de PIN no Skype for Business Server 2015](../../manage/authentication/create-a-new-pin-policy.md)
 
 - [Modificar uma política de PIN existente no Skype for Business Server 2015](../../manage/authentication/modify-an-existing-pin-policy.md)
 
 - [Excluir uma política de PIN no Skype for Business Server 2015](../../manage/authentication/delete-a-pin-policy.md)
 
-  **Trabalhar com a política de PIN para conferência discda** Essa política de PIN permite que os usuários que possuem credenciais dos Serviços de Domínio Active Directory em sua organização ingressem em conferências discadas como usuários autenticados inserindo um PIN.
-- [Criar ou modificar as configurações PIN da conferência discada para um local ou grupo de usuários](https://technet.microsoft.com/library/c29bab5c-2b93-48e0-ae0b-29564daaff9a.aspx)
+  **Trabalhar com política de PIN para conferência discda** Essa política de PIN permite que os usuários que têm credenciais dos Serviços de Domínio active Directory em sua organização ingressem em conferências discadas como usuários autenticados inserindo um PIN.
+- [Criar ou modificar as configurações PIN da conferência discada para um local ou grupo de usuários](/previous-versions/office/lync-server-2013/lync-server-2013-create-or-modify-dial-in-conferencing-pin-settings-for-a-site-or-group-of-users)
 
-- [Modificar as configurações PIN da conferência discada padrão](https://technet.microsoft.com/library/2d110e94-ad29-4755-b17f-d8c2da9b78a4.aspx)
+- [Modificar as configurações PIN da conferência discada padrão](/previous-versions/office/lync-server-2013/lync-server-2013-modify-the-default-dial-in-conferencing-pin-settings)
 
-- [Excluir configurações de PIN de conferência discada para um local ou grupo de usuários](https://technet.microsoft.com/library/15a9faee-d024-4c0e-b2a0-fe7e7dc00589.aspx)
+- [Excluir configurações de PIN de conferência discada para um local ou grupo de usuários](/previous-versions/office/lync-server-2013/lync-server-2013-delete-dial-in-conferencing-pin-settings-for-a-site-or-group-of-users)
 
-Para obter detalhes sobre os diferentes procedimentos que você pode executar usando o Painel de Controle do Skype for Business Server, consulte [Gerenciar o Skype for Business Server 2015.](../../manage/manage.md)
-
+Para obter detalhes sobre os diferentes procedimentos que você pode executar usando o Painel de Controle do Skype for Business Server, consulte [Manage Skype for Business Server 2015](../../manage/manage.md).

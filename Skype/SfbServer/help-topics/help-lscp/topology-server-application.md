@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8c95b160-3d88-46c7-987c-38384bac3e51
 description: 'A página Topologia: Aplicativo de Servidor exibe aplicativos de servidor em sua implantação.'
-ms.openlocfilehash: 6090873d583123627f99cbf3bb25921969894cd3
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: f2bd087fd8e586396bb13ed876537bd5eb83eeea
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49819001"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51099287"
 ---
 # <a name="topology-server-application"></a>Topologia: Aplicativo de Servidor
 
@@ -38,6 +38,6 @@ A página **Topologia**: **Aplicativo de Servidor** exibe aplicativos de servido
 
 ## <a name="see-also"></a>Confira também
 
-[Habilitar ou desabilitar um aplicativo do servidor de idiomas de processamento SIP da Microsoft (MSPL)](https://technet.microsoft.com/library/b20af38d-224a-4459-991d-0b7eabb3ca7c.aspx)
+[Habilitar ou desabilitar um aplicativo do servidor de idiomas de processamento SIP da Microsoft (MSPL)](/previous-versions/office/lync-server-2013/lync-server-2013-enable-or-disable-a-microsoft-sip-processing-language-mspl-server-application)
 
-[Marcar um aplicativo do Microsoft SIP Processing Language (MSPL) como Crítico ou Não Crítico](https://technet.microsoft.com/library/df68fdc6-b7e6-4f07-acdc-0cd4c2c888a1.aspx)
+[Marcar um aplicativo MSPL (Microsoft SIP Processing Language) como Crítico ou Não Crítico](/previous-versions/office/lync-server-2013/lync-server-2013-mark-a-microsoft-sip-processing-language-mspl-application-as-critical-or-not-critical)

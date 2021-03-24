@@ -14,21 +14,21 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: Se um usuário tiver sido habilitado para o Skype for Business Server, você poderá configurar a federação SIP, o acesso de usuário remoto e a conectividade de mensagens instantâneas (IM) públicas no Painel de Controle do Skype for Business Server aplicando as políticas apropriadas a usuários específicos.
-ms.openlocfilehash: 25e9a63363dc4f982e142defd2164c2423471961
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Se um usuário tiver sido habilitado para o Skype for Business Server, você poderá configurar a federação SIP, o acesso de usuário remoto e a conectividade de mensagens instantâneas públicas (IM) no Painel de Controle do Skype for Business Server aplicando as políticas apropriadas a usuários específicos.
+ms.openlocfilehash: 45e22a0d7951bfe4d58d90a1e5190aa242f7b29a
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49826621"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51099047"
 ---
-# <a name="assign-an-external-user-access-policy-to-a-skype-for-business-enabled-user"></a>Atribuir uma política de acesso de usuário externo a um usuário habilitado para o Skype for Business
+# <a name="assign-an-external-user-access-policy-to-a-skype-for-business-enabled-user"></a>Atribuir uma política de acesso de usuário externo a um usuário habilitado para Skype for Business
 
-Se um usuário tiver sido habilitado para o Skype for Business Server, você poderá configurar a federação SIP, o acesso de usuário remoto e a conectividade de mensagens instantâneas (IM) públicas no Painel de Controle do Skype for Business Server aplicando as políticas apropriadas a usuários específicos. Por exemplo, se você criou uma política para suportar o acesso de usuário remoto, deve aplicá-la ao usuário antes que o usuário possa se conectar ao Skype for Business Server de um local remoto e colaborar com usuários internos do local remoto.
+Se um usuário tiver sido habilitado para o Skype for Business Server, você poderá configurar a federação SIP, o acesso de usuário remoto e a conectividade de mensagens instantâneas públicas (IM) no Painel de Controle do Skype for Business Server aplicando as políticas apropriadas a usuários específicos. Por exemplo, se você criou uma política para dar suporte ao acesso de usuário remoto, você deve aplicá-la ao usuário antes que o usuário possa se conectar ao Skype for Business Server de um local remoto e colaborar com usuários internos do local remoto.
 
 
 > [!NOTE]  
-> Para oferecer suporte ao acesso de usuário externo, você deve ativar o suporte para cada tipo de acesso de usuário externo ao qual deseja oferecer suporte e configurar as políticas apropriadas e outras opções para controlar o uso. Para obter detalhes, [consulte Gerenciando federação e acesso externo ao Skype for Business Server](../managing-federation-and-external-access.md).
+> Para oferecer suporte ao acesso de usuário externo, você deve ativar o suporte para cada tipo de acesso de usuário externo ao qual deseja oferecer suporte e configurar as políticas apropriadas e outras opções para controlar o uso. Para obter detalhes, consulte [Managing federation and external access to Skype for Business Server](../managing-federation-and-external-access.md).
 
 
 Use o procedimento neste tópico para aplicar uma política de acesso de usuário externo criada anteriormente para uma ou mais contas de usuário.
@@ -38,21 +38,21 @@ Use o procedimento neste tópico para aplicar uma política de acesso de usuári
 
 1.  Por uma conta de usuário atribuída à função CsUserAdministrator role ou CsAdministrator, faça o login em qualquer computador na sua implantação interna.
 
-2.  Abra uma janela do navegador e insira a URL do Administrador para abrir o Painel de Controle do Skype for Business Server. 
+2.  Abra uma janela do navegador e insira a URL do administrador para abrir o Painel de Controle do Skype for Business Server. 
 
 3.  Na barra de navegação esquerda, clique em **Usuários** e pesquise a conta de usuário que deseja configurar.
 
 4.  Na tabela que lista os resultados da pesquisa, clique na conta do usuário, em **Editar** e em **Exibir detalhes**.
 
-5.  Em **Editar Usuário do Skype for Business Server em** Política de acesso **externo,** selecione a política de usuário que você deseja aplicar.
+5.  Em **Editar Usuário do Skype for Business Server em** **Política** de acesso externo, selecione a política de usuário que você deseja aplicar.
      
 > [!NOTE]  
-> As **\<Automatic>** configurações aplicam as configurações de política global ou de servidor padrão.
+> As configurações aplicam as configurações de política global ou servidor **\<Automatic>** padrão.
 
 
-## <a name="assigning-per-user-external-access-policies-by-using-windows-powershell-cmdlets"></a>Atribuindo Per-User políticas de acesso externo usando cmdlets do Windows PowerShell
+## <a name="assigning-per-user-external-access-policies-by-using-windows-powershell-cmdlets"></a>Atribuir Per-User políticas de acesso externo usando Windows PowerShell cmdlets
 
-As políticas de acesso externo por usuário podem ser atribuídas usando o Windows PowerShell e o Grant-CsExternalAccessPolicy cmdlet. Esse cmdlet pode ser executado a partir do Shell de Gerenciamento do Skype for Business Server ou de uma sessão remota do Windows PowerShell. 
+As políticas de acesso externo por usuário podem ser atribuídas usando o Windows PowerShell e o cmdlet Grant-CsExternalAccessPolicy usuário. Esse cmdlet pode ser executado no Shell de Gerenciamento do Skype for Business Server ou em uma sessão remota de Windows PowerShell. 
 
 ## <a name="to-assign-a-per-user-external-access-policy-to-a-single-user"></a>Para atribuir uma política de acesso externo por usuário a um único usuário
 
@@ -63,12 +63,12 @@ As políticas de acesso externo por usuário podem ser atribuídas usando o Wind
 
 ## <a name="to-assign-a-per-user-external-access-policy-to-multiple-users"></a>Para atribuir uma política de acesso externo por usuário a vários usuários
 
-  - Este comando atribui a política de acesso externo por usuário USAExternalAccessPolicy a todos os usuários com contas no OU UnitedStates no Active Directory. Para obter mais informações sobre o parâmetro OU usado neste comando, consulte a documentação do cmdlet [Get-CsUser.](https://docs.microsoft.com/powershell/module/skype/Get-CsUser)
+  - Este comando atribui a política de acesso externo por usuário USAExternalAccessPolicy a todos os usuários com contas no OU UnitedStates no Active Directory. Para obter mais informações sobre o parâmetro OU usado neste comando, consulte a documentação do cmdlet [Get-CsUser.](/powershell/module/skype/Get-CsUser)
     
         Get-CsUser -OU "ou=UnitedStates,dc=litwareinc,dc=com" | Grant-CsExternalAccessPolicy -PolicyName "USAExternalAccessPolicy"
 
 
-## <a name="to-unassign-a-per-user-external-access-policy"></a>Para desa designar uma política de acesso externo por usuário
+## <a name="to-unassign-a-per-user-external-access-policy"></a>Para desaignar uma política de acesso externo por usuário
 
   - Este comando cancela a atribuição de qualquer política de acesso externo por usuário atribuída a Ken Myer. Após o cancelamento da atribuição da política por usuário, Ken Myer será automaticamente gerenciado usando a política global ou a política de site local (se houver). Um política de site tem prioridade sobre a política global.
     
@@ -76,6 +76,4 @@ As políticas de acesso externo por usuário podem ser atribuídas usando o Wind
 
 
 
-Para obter mais informações, consulte o tópico de ajuda para o cmdlet [Grant-CsExternalAccessPolicy.](https://docs.microsoft.com/powershell/module/skype/Grant-CsExternalAccessPolicy)
-
-
+Para obter mais informações, consulte o tópico de ajuda para o cmdlet [Grant-CsExternalAccessPolicy.](/powershell/module/skype/Grant-CsExternalAccessPolicy)

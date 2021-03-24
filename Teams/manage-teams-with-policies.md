@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9f06e9aa87cc0c1af758bf0c8c9abad6641debbd
-ms.sourcegitcommit: d62e6cefceebe481eb207c59872f1aa67f0fc528
+ms.openlocfilehash: b54c64c637d44132ac0f978561267ef34f720e67
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "50460491"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51101097"
 ---
 # <a name="manage-teams-with-policies"></a>Gerenciar o Teams com políticas
 
@@ -40,7 +40,7 @@ Leia mais sobre a atribuição de políticas [aqui](assign-policies.md).
 
 ## <a name="how-to-manage-policies"></a>Como gerenciar políticas
 
-As políticas são gerenciadas com o centro de administração do Microsoft Teams ou [usando o PowerShell](https://docs.microsoft.com/microsoftteams/teams-powershell-managing-teams#manage-policies-via-powershell).
+As políticas são gerenciadas com o centro de administração do Microsoft Teams ou [usando o PowerShell](./teams-powershell-managing-teams.md#manage-policies-via-powershell).
 
 Por exemplo, uma política de configuração de aplicativo pode permitir que os usuários carreguem aplicativos personalizados, instalem aplicativos em nome de seus usuários e fixem aplicativos na barra de aplicativos do Teams. Essas políticas são configuradas no Centro de administração do Teams.
 

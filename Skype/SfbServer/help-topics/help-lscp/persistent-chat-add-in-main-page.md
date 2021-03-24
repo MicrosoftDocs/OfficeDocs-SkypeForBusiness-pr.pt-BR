@@ -14,21 +14,21 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0c0ecf64-258d-4b43-8fac-fa5ffa4e7646
-description: Você pode usar a seção Add-in da página chat persistente para associar URLs com salas de Chat Persistente. Essas URLs aparecem no cliente na sala de chat no painel de extensibilidade da conversa. Um administrador deve adicionar os Complementos à lista de complementos registrados, e os gerentes/Criadores de sala de chat devem associar salas a um dos complementos registrados para que os usuários possam ver essa atualização em seus clientes.
-ms.openlocfilehash: ee747e12b4a6209d831588e68533531b0a7d95ff
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Você pode usar a seção Adicionar da página Chat Persistente para associar URLs a salas de Chat Persistente. Essas URLs aparecem no cliente na sala de chat no painel de extensibilidade da conversa. Um administrador deve adicionar Add-ins à lista de complementos registrados, e os gerentes/Criadores de salas de chat devem associar salas a um dos complementos registrados para que os usuários possam ver essa atualização em seu cliente.
+ms.openlocfilehash: a119eb677aca1cbe938ca0f4e173367e55abfa8e
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49803791"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51099517"
 ---
 # <a name="persistent-chat-add-in-main-page"></a>Página Principal do Suplemento de Chat Persistente
 
-Você pode usar a **seção Add-in** da página **chat persistente** para associar URLs com salas de Chat Persistente. Essas URLs aparecem no cliente na sala de chat no painel de extensibilidade da conversa. Um administrador deve adicionar os Complementos à lista de complementos registrados, e os gerentes/Criadores de sala de chat devem associar salas a um dos complementos registrados para que os usuários possam ver essa atualização em seus clientes.
+Você pode usar a **seção Adicionar da** página Chat **Persistente** para associar URLs a salas de Chat Persistente. Essas URLs aparecem no cliente na sala de chat no painel de extensibilidade da conversa. Um administrador deve adicionar Add-ins à lista de complementos registrados, e os gerentes/Criadores de salas de chat devem associar salas a um dos complementos registrados para que os usuários possam ver essa atualização em seu cliente.
 
-Os suplementos são usados para estender a experiência na sala. Um complemento típico pode incluir uma URL apontando para um aplicativo Silverlight que intercepta quando uma cotação das ações é postada em uma sala de chat e mostra o histórico de ações no painel de extensibilidade. Outros exemplos incluem o URL do OneNote 2013 na sala de chat como um suplemento para incluir algum contexto compartilhado, como o "Mais lembrado" ou "Assunto do dia."
+Os suplementos são usados para estender a experiência na sala. Um complemento típico pode incluir uma URL apontando para um aplicativo Silverlight que intercepta quando um ticker de ações é postado em uma sala de chat e mostra o histórico de ações no painel de extensibilidade. Outros exemplos incluem o URL do OneNote 2013 na sala de chat como um suplemento para incluir algum contexto compartilhado, como o "Mais lembrado" ou "Assunto do dia."
 
-Para criar Add-ins para salas de Chat Persistente, consulte Configurar os complementos para salas de Chat Persistente no [Skype for Business Server 2015.](../../manage/persistent-chat/configure-add-ins.md) Se você for um Administrador de Chat Persistente, poderá criar complementos usando o painel de controle ou cmdlets do Windows PowerShell.
+Para criar Complementos para salas de Chat Persistente, consulte [Configure add-ins for Persistent Chat rooms in Skype for Business Server 2015](../../manage/persistent-chat/configure-add-ins.md). Se você for um Administrador de Chat Persistente, poderá criar complementos usando o painel de controle ou Windows PowerShell cmdlets.
 
 ## <a name="tasks-you-can-perform"></a>Tarefas que podem ser executadas
 
@@ -42,15 +42,15 @@ As listas a seguir descrevem os menus, comando, campos e propriedades na página
 
 1. A partir de uma conta de usuário atribuída à função CsPersistentChatAdministrator ou CsAdministrator, faça logon em qualquer computador em sua implantação interna.
 
-2. No menu **Iniciar,** selecione o Painel de Controle do Skype for Business Server ou abra uma janela do navegador e insira a URL do Administrador. Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o painel de controle, consulte [Open Lync Server Administrative Tools](https://technet.microsoft.com/library/8c58de94-9e0a-4368-9e14-9afcaa1142d0.aspx).
+2. No menu **Iniciar,** selecione o Painel de Controle do Skype for Business Server ou abra uma janela do navegador e insira a URL de Administrador. Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o painel de controle, consulte [Open Lync Server Administrative Tools](/previous-versions/office/lync-server-2013/lync-server-2013-open-lync-server-administrative-tools).
 
 3. Na barra de navegação esquerda, clique em **Chat Persistente** e clique em **Suplemento**.
 
-    Para várias implantações de pool de Servidor de Chat Persistente, selecione o pool apropriado na lista lista.
+    Para várias implantações de pool do Servidor de Chat Persistente, selecione o pool apropriado na listada.
 
 4. Na página **Suplementos**, clique em **Novo**.
 
-5. Em **Selecionar um Serviço,** selecione o serviço correspondente ao pool de Servidor de Chat Persistente onde você precisa criar o Add-in. Os suplementos não podem ser movidos de um pool para outro ou compartilhado entre pools diferentes.
+5. Em **Selecionar um Serviço,** selecione o serviço correspondente ao pool do Servidor de Chat Persistente onde você precisa criar o Add-in. Os suplementos não podem ser movidos de um pool para outro ou compartilhado entre pools diferentes.
 
 6. Em **Suplementos novos**, faça o seguinte:
 
@@ -62,6 +62,4 @@ As listas a seguir descrevem os menus, comando, campos e propriedades na página
 
 ## <a name="see-also"></a>Confira também
 
-Para obter detalhes sobre recursos e capacidades do Servidor de Chat Persistente, consulte [Plan for Persistent Chat Server in Skype for Business Server 2015](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md), [Deploy Persistent Chat Server in Skype for Business Server 2015](../../deploy/deploy-persistent-chat-server/deploy-persistent-chat-server.md), and [Manage Persistent Chat Server in Skype for Business Server 2015](../../manage/persistent-chat/persistent-chat.md).
-
-
+Para obter detalhes sobre recursos e recursos do Servidor de Chat Persistente, consulte [Plan for Persistent Chat Server in Skype for Business Server 2015](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md), [Deploy Persistent Chat Server in Skype for Business Server 2015](../../deploy/deploy-persistent-chat-server/deploy-persistent-chat-server.md)e [Manage Persistent Chat Server in Skype for Business Server 2015](../../manage/persistent-chat/persistent-chat.md).
