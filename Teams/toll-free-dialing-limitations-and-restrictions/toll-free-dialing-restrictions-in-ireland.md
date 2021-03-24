@@ -23,34 +23,33 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
-description: Saiba mais sobre como discar números de discagem gratuita na Irlanda, incluindo disponibilidade, disponibilidade de rede com fio/fixo e rede móvel e restrições.
-ms.openlocfilehash: d976c670170eee09848fa26fd527178bbf9fc033
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+description: Saiba mais sobre discagem de números gratuitos na Irlanda, incluindo disponibilidade, disponibilidade de rede com fio/fixa e rede móvel e restrições.
+ms.openlocfilehash: e8c8981c3e70f20c067aa910d0430478e08ced15
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43140360"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51098063"
 ---
-# <a name="toll-free-dialing-restrictions-in-ireland"></a><span data-ttu-id="6c49a-103">Restrições de discagem de chamada gratuita na Irlanda</span><span class="sxs-lookup"><span data-stu-id="6c49a-103">Toll-free dialing restrictions in Ireland</span></span>
+# <a name="toll-free-dialing-restrictions-in-ireland"></a><span data-ttu-id="4417f-103">Restrições de discagem de chamada gratuita na Irlanda</span><span class="sxs-lookup"><span data-stu-id="4417f-103">Toll-free dialing restrictions in Ireland</span></span>
 
-<span data-ttu-id="6c49a-104">[Encontre outro país ou região](../toll-free-dialing-limitations-and-restrictions.md)ou saiba mais sobre limitações e restrições de discagem gratuita.</span><span class="sxs-lookup"><span data-stu-id="6c49a-104">[Find another country or region](../toll-free-dialing-limitations-and-restrictions.md), or learn more about toll-free dialing limitations and restrictions.</span></span>
+<span data-ttu-id="4417f-104">[Encontre outro país ou região](../toll-free-dialing-limitations-and-restrictions.md)ou saiba mais sobre limitações e restrições de discagem gratuita.</span><span class="sxs-lookup"><span data-stu-id="4417f-104">[Find another country or region](../toll-free-dialing-limitations-and-restrictions.md), or learn more about toll-free dialing limitations and restrictions.</span></span>
 
 
-|<span data-ttu-id="6c49a-105">**Detalhes**</span><span class="sxs-lookup"><span data-stu-id="6c49a-105">**Details**</span></span>|<span data-ttu-id="6c49a-106">**Descrição**</span><span class="sxs-lookup"><span data-stu-id="6c49a-106">**Description**</span></span>|
+|<span data-ttu-id="4417f-105">**Detalhes**</span><span class="sxs-lookup"><span data-stu-id="4417f-105">**Details**</span></span>|<span data-ttu-id="4417f-106">**Descrição**</span><span class="sxs-lookup"><span data-stu-id="4417f-106">**Description**</span></span>|
 |:-----|:-----|
-|<span data-ttu-id="6c49a-107">As chamada gratuitas estão disponíveis?</span><span class="sxs-lookup"><span data-stu-id="6c49a-107">Is toll-free calling available?</span></span>  <br/> |<span data-ttu-id="6c49a-108">Sim</span><span class="sxs-lookup"><span data-stu-id="6c49a-108">Yes</span></span>  <br/> |
-|<span data-ttu-id="6c49a-109">Formato(s) de discagem</span><span class="sxs-lookup"><span data-stu-id="6c49a-109">Dialing format(s)</span></span>  <br/> |<span data-ttu-id="6c49a-110">1 800 XXX XXX</span><span class="sxs-lookup"><span data-stu-id="6c49a-110">1 800 XXX XXX</span></span>  <br/> |
-|<span data-ttu-id="6c49a-111">Código ISO do país/região</span><span class="sxs-lookup"><span data-stu-id="6c49a-111">Country/region ISO code</span></span>  <br/> |<span data-ttu-id="6c49a-112">IE</span><span class="sxs-lookup"><span data-stu-id="6c49a-112">IE</span></span>  <br/> |
-|<span data-ttu-id="6c49a-113">Ilha/território coberto</span><span class="sxs-lookup"><span data-stu-id="6c49a-113">Island/territory covered</span></span>  <br/> |<span data-ttu-id="6c49a-114">Todas as ilhas costeiras da República da Irlanda são abrangidas.</span><span class="sxs-lookup"><span data-stu-id="6c49a-114">All offshore islands of the Republic of Ireland are covered.</span></span>  <br/> |
-|<span data-ttu-id="6c49a-115">Ilha/território não coberto</span><span class="sxs-lookup"><span data-stu-id="6c49a-115">Island/territory not covered</span></span>  <br/> |<span data-ttu-id="6c49a-116">Não aplicável</span><span class="sxs-lookup"><span data-stu-id="6c49a-116">Not applicable</span></span>  <br/> |
-|<span data-ttu-id="6c49a-117">Disponibilidade de linhas com fio/fixo</span><span class="sxs-lookup"><span data-stu-id="6c49a-117">Wired/fixed line availability</span></span>  <br/> |<span data-ttu-id="6c49a-118">Sim</span><span class="sxs-lookup"><span data-stu-id="6c49a-118">Yes</span></span>  <br/> |
-|<span data-ttu-id="6c49a-119">Disponibilidade com a rede móvel</span><span class="sxs-lookup"><span data-stu-id="6c49a-119">Mobile network availability</span></span>  <br/> |<span data-ttu-id="6c49a-120">Sim</span><span class="sxs-lookup"><span data-stu-id="6c49a-120">Yes</span></span>  <br/> |
-|<span data-ttu-id="6c49a-121">Comentários, restrições e problemas de acesso</span><span class="sxs-lookup"><span data-stu-id="6c49a-121">Comments, restrictions, and access issues</span></span>  <br/> |<span data-ttu-id="6c49a-122">Acessível por meio de redes móveis Vodafone, O2 Digiphone, Meteor e H3G.</span><span class="sxs-lookup"><span data-stu-id="6c49a-122">Accessible through Vodafone,O2 Digiphone, Meteor, and H3G mobile networks.</span></span>  <br/> |
+|<span data-ttu-id="4417f-107">A chamada gratuita está disponível?</span><span class="sxs-lookup"><span data-stu-id="4417f-107">Is toll-free calling available?</span></span>  <br/> |<span data-ttu-id="4417f-108">Sim</span><span class="sxs-lookup"><span data-stu-id="4417f-108">Yes</span></span>  <br/> |
+|<span data-ttu-id="4417f-109">Formatos de discagem</span><span class="sxs-lookup"><span data-stu-id="4417f-109">Dialing format(s)</span></span>  <br/> |<span data-ttu-id="4417f-110">1 800 XXX XXX</span><span class="sxs-lookup"><span data-stu-id="4417f-110">1 800 XXX XXX</span></span>  <br/> |
+|<span data-ttu-id="4417f-111">Código ISO de país/região</span><span class="sxs-lookup"><span data-stu-id="4417f-111">Country/region ISO code</span></span>  <br/> |<span data-ttu-id="4417f-112">IE</span><span class="sxs-lookup"><span data-stu-id="4417f-112">IE</span></span>  <br/> |
+|<span data-ttu-id="4417f-113">Ilha/território coberto</span><span class="sxs-lookup"><span data-stu-id="4417f-113">Island/territory covered</span></span>  <br/> |<span data-ttu-id="4417f-114">Todas as ilhas costeiras da República da Irlanda são abrangidas.</span><span class="sxs-lookup"><span data-stu-id="4417f-114">All offshore islands of the Republic of Ireland are covered.</span></span>  <br/> |
+|<span data-ttu-id="4417f-115">Ilha/território não coberto</span><span class="sxs-lookup"><span data-stu-id="4417f-115">Island/territory not covered</span></span>  <br/> |<span data-ttu-id="4417f-116">Não aplicável</span><span class="sxs-lookup"><span data-stu-id="4417f-116">Not applicable</span></span>  <br/> |
+|<span data-ttu-id="4417f-117">Disponibilidade de linha com fio/fixa</span><span class="sxs-lookup"><span data-stu-id="4417f-117">Wired/fixed line availability</span></span>  <br/> |<span data-ttu-id="4417f-118">Sim</span><span class="sxs-lookup"><span data-stu-id="4417f-118">Yes</span></span>  <br/> |
+|<span data-ttu-id="4417f-119">Disponibilidade com a rede móvel</span><span class="sxs-lookup"><span data-stu-id="4417f-119">Mobile network availability</span></span>  <br/> |<span data-ttu-id="4417f-120">Sim</span><span class="sxs-lookup"><span data-stu-id="4417f-120">Yes</span></span>  <br/> |
+|<span data-ttu-id="4417f-121">Comentários, restrições e problemas de acesso</span><span class="sxs-lookup"><span data-stu-id="4417f-121">Comments, restrictions, and access issues</span></span>  <br/> |<span data-ttu-id="4417f-122">Acessível por meio de redes móveis Vodafone,O2 Digiphone, Meteor e H3G.</span><span class="sxs-lookup"><span data-stu-id="4417f-122">Accessible through Vodafone,O2 Digiphone, Meteor, and H3G mobile networks.</span></span>  <br/> |
    
-## <a name="related-topics"></a><span data-ttu-id="6c49a-123">Tópicos relacionados</span><span class="sxs-lookup"><span data-stu-id="6c49a-123">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="4417f-123">Tópicos relacionados</span><span class="sxs-lookup"><span data-stu-id="4417f-123">Related topics</span></span>
 
-[<span data-ttu-id="6c49a-124">Limitações e restrições de discagem gratuita</span><span class="sxs-lookup"><span data-stu-id="6c49a-124">Toll-free dialing limitations and restrictions</span></span>](../toll-free-dialing-limitations-and-restrictions.md)
+[<span data-ttu-id="4417f-124">Limitações e restrições de discagem gratuita</span><span class="sxs-lookup"><span data-stu-id="4417f-124">Toll-free dialing limitations and restrictions</span></span>](../toll-free-dialing-limitations-and-restrictions.md)
 
-[<span data-ttu-id="6c49a-125">Obtendo números de telefone de serviço do Skype for Business e do Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="6c49a-125">Getting service phone numbers for Skype for Business and Microsoft Teams</span></span>](/microsoftteams/getting-service-phone-numbers)
+[<span data-ttu-id="4417f-125">Obtendo números de telefone de serviço do Skype for Business e do Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="4417f-125">Getting service phone numbers for Skype for Business and Microsoft Teams</span></span>](../getting-service-phone-numbers.md)
   
- 
