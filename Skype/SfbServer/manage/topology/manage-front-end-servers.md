@@ -12,31 +12,31 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: ab748733-6bad-4c93-8dda-db8d5271653d
 description: 'Resumo: saiba como adicionar, remover, corrigir ou atualizar servidores front-end no Skype for Business Server.'
-ms.openlocfilehash: 16af245b3c49b21309edd3ee2843f2585814ce9e
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 24527a5f973b21c35e386f0565ac6deb69e15070
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49826321"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51103187"
 ---
 # <a name="manage-front-end-servers-in-skype-for-business-server"></a>Gerenciar servidores front-end no Skype for Business Server
  
-Este artigo explica como adicionar ou remover servidores front-end e como aplicar atualizações ou patches aos Servidores Front-End.
+Este artigo explica como adicionar ou remover Servidores Front-End e como aplicar atualizações ou patches aos Servidores Front-End.
 
   > [!NOTE]
-> O Skype for Business Server 2019 não dá suporte a pools de Front End Enterprise Edition com dois Servidores Front-End e não permitirá que a topologia seja publicada nesse cenário.
+> O Skype for Business Server 2019 não dá suporte a pools de Front-End do Enterprise Edition com dois Servidores Front-End e não permitirá que a topologia seja publicada nesse cenário.
 
 ## <a name="add-or-remove-front-end-servers"></a>Adicionar ou remover servidores front-end
   
 Ao adicionar um servidor de Front End a um pool, ou remover um servidor de Front End de um pool, você precisará reiniciar o pool. 
   
 > [!IMPORTANT]
-> Quando você adiciona ou remove um servidor ao pool em sua topologia e publica a topologia atualizada, isso fará com que todos os servidores no pool reiniciem ao mesmo tempo. Enquanto os servidores estão reiniciando o pool está offline, o que interromperá o serviço para os usuários conectados a esse pool. Para evitar qualquer interrupção do serviço para os usuários, planeje publicar a topologia com o novo servidor no pool fora do horário comercial. 
+> Quando você adiciona ou remove um servidor ao pool em sua topologia e publica a topologia atualizada, isso fará com que todos os servidores no pool reiniciem ao mesmo tempo. Enquanto os servidores estão reiniciando o pool está offline, o que interromperá o serviço para os usuários conectados a esse pool. Para evitar qualquer interrupção do serviço para os usuários, planeje publicar a topologia com o novo servidor no pool durante o horário não comercial. 
   
 Você pode usar o procedimento a seguir ao adicionar ou remover um Servidor Front-End.
   
 > [!NOTE]
-> Se você estiver adicionando novos servidores ao pool, atualize os novos servidores do pool para que eles sejam atualizados no mesmo nível da Atualização Cumulativa que os servidores existentes no Pool. 
+> Se você estiver adicionando novos servidores ao pool, atualize seus novos servidores de pool para estar no mesmo nível de Atualização Cumulativa que os servidores existentes no Pool. 
   
 ### <a name="to-add-or-remove-front-end-servers"></a>Para adicionar ou remover servidores front-end
 
@@ -51,24 +51,24 @@ Você pode usar o procedimento a seguir ao adicionar ou remover um Servidor Fron
 3. Publique a topologia.
     
     > [!IMPORTANT]
-    > Quando você adiciona ou remove um servidor ao pool em sua topologia e publica a topologia atualizada, isso fará com que todos os servidores no pool reiniciem ao mesmo tempo. Enquanto os servidores estão reiniciando o pool está offline, o que interromperá o serviço para os usuários conectados a esse pool. Para evitar qualquer interrupção do serviço para os usuários, planeje publicar a topologia com o novo servidor no pool fora do horário comercial. 
+    > Quando você adiciona ou remove um servidor ao pool em sua topologia e publica a topologia atualizada, isso fará com que todos os servidores no pool reiniciem ao mesmo tempo. Enquanto os servidores estão reiniciando o pool está offline, o que interromperá o serviço para os usuários conectados a esse pool. Para evitar qualquer interrupção do serviço para os usuários, planeje publicar a topologia com o novo servidor no pool durante o horário não comercial. 
   
   > [!NOTE]
-> Além disso, quando você adiciona ou remove um servidor ao pool, deve executar o Assistente de Implantação do Skype for Business Server em cada computador adicionado ou removido. Para obter mais informações, consulte Instalar o Skype for Business Server em servidores da [topologia](https://docs.microsoft.com/skypeforbusiness/deploy/install/install-skype-for-business-server)
+> Além disso, quando você adiciona ou remove um servidor ao pool, deve executar o Assistente de Implantação do Skype for Business Server em cada computador adicionado ou removido, para obter mais informações, consulte Install Skype for Business Server on servers in the [topology](../../deploy/install/install-skype-for-business-server.md)
   
-4. Se você tiver alterado o número de servidores em seu pool de Front-End de qualquer uma das maneiras a seguir, redefinir o pool digitando o seguinte cmdlet: Reset-CsPoolRegistrarState -ResetType FullReset -PoolFqdn 
+4. Se você tiver alterado o número de servidores em seu pool de Front-End de qualquer uma das seguintes maneiras, redefinir o pool com digitando o seguinte cmdlet: Reset-CsPoolRegistrarState -ResetType FullReset -PoolFqdn 
     
    ```PowerShell
     Reset-CsPoolRegistrarState -ResetType FullReset -PoolFqdn  <PoolFQDN>
    ```
 
-     - 2 para qualquer um
+     - 2 para qualquer
     
-     - Qualquer um para 2
+     - Qualquer a 2
     
-     - 3 para qualquer um
+     - 3 para qualquer
     
-     - Qualquer um a 3
+     - Qualquer a 3
     
 5. Reinicie o pool digitando o cmdlet a seguir
     
@@ -76,11 +76,11 @@ Você pode usar o procedimento a seguir ao adicionar ou remover um Servidor Fron
    Start-CsPool
    ```
 
-## <a name="patch-or-update-front-end-servers"></a>Corrigir ou atualizar servidores front-end
+## <a name="patch-or-update-front-end-servers"></a>Patch ou atualizar servidores front-end
 
 Ao corrigir os servidores em um pool de Front-End, você faz isso um servidor por vez. 
   
-### <a name="to-apply-an-upgrade-to-the-front-end-servers-in-a-pool"></a>Para aplicar uma atualização aos servidores front-end em um pool
+### <a name="to-apply-an-upgrade-to-the-front-end-servers-in-a-pool"></a>Para aplicar uma atualização aos servidores Front-End em um pool
 
 1. Digite o seguinte cmdlet:
     
@@ -88,7 +88,7 @@ Ao corrigir os servidores em um pool de Front-End, você faz isso um servidor po
    Get-CsPoolFabricState -PoolFqdn <PoolFQDN>
    ```
 
-     Se esse cmdlet mostrar alguma réplica ausente, execute o cmdlet a seguir para recuperar o pool antes de aplicar quaisquer patches.
+     Se este cmdlet mostrar todas as réplicas ausentes, execute o cmdlet a seguir para recuperar o pool antes de aplicar quaisquer patches.
     
    ```PowerShell
    Reset-CsPoolRegistrarState -ResetType QuorumLossRecovery
@@ -100,7 +100,7 @@ Ao corrigir os servidores em um pool de Front-End, você faz isso um servidor po
    Invoke-CsComputerFailOver -ComputerName <Front End Server to be patched>
    ```
 
-    Este cmdlet move todos os serviços para outros Servidores front-end no pool e leva esse servidor offline.
+    Esse cmdlet move todos os serviços para outros Servidores Front-End no pool e faz com que esse servidor seja offline.
     
 3. Aplique a atualização ou o patch a este servidor.
     
@@ -112,5 +112,4 @@ Ao corrigir os servidores em um pool de Front-End, você faz isso um servidor po
 
     O servidor é retornado ao serviço.
     
-5. Repita as etapas 2 a 4 para cada servidor que precisa ser atualizado.
-    
+5. Repita as Etapas 2 a 4 para cada servidor que precisa ser atualizado.

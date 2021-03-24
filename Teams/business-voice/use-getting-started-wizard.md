@@ -18,12 +18,12 @@ search.appverid: MET150
 description: ''
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3a3a5162f46631e00e6ffc22c19654908b4cb78b
-ms.sourcegitcommit: 4d76837f9481ca2cda437afdf11de5eaf7a57d99
+ms.openlocfilehash: 9b084afa7730d849f221de1d297f07359d200c79
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/11/2021
-ms.locfileid: "50726232"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51102827"
 ---
 # <a name="use-the-getting-started-wizard-to-set-up-business-voice"></a>Usar o assistente do Guia de Introdução para configurar o Business Voice
 
@@ -110,7 +110,7 @@ Para saber mais, confira [O que são locais de emergência, endereços e roteame
 </table>
 
 > [!IMPORTANT]
-> O assistente de Introdução ajuda a configurar um menu de chamada simples para você começar a usá-la rapidamente. Se você tiver vários números de telefone nos quais que deseja configurar os menus de chamada, ou se quiser configurar menus de chamada mais complexos (também chamados de atendedores automáticos), confira [Configurar um atendedor automático da Nuvem](set-up-auto-attendants.md) após concluir o assistente.
+> O assistente de Introdução ajuda a configurar um menu de chamada simples para você começar a usá-la rapidamente. Se você tiver vários números de telefone nos quais que deseja configurar os menus de chamada, ou se quiser configurar menus de chamada mais complexos (também chamados de atendedores automáticos), confira [Configurar um atendedor automático da Nuvem](./create-a-phone-system-auto-attendant-smb.md) após concluir o assistente.
 
 <table>
     <tr>

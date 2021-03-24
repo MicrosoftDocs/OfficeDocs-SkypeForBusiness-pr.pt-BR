@@ -14,21 +14,21 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8761008f-b239-4b95-bcd8-1011198dd070
-description: 'Inicie o Construtor de Topologias para configurar as propriedades e a configuração de sua implantação do Microsoft Lync Server 2013. Na inicialização, o Construtor de Topologias exibe uma caixa de diálogo que pergunta qual será a origem do documento de topologia. Selecione uma de três opções:'
-ms.openlocfilehash: 74451d97f2789b675f291baffe4f66cfff81d0c6
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 'Você inicia o Construtor de Topologias para configurar as propriedades e a configuração da sua implantação do Microsoft Lync Server 2013. Na inicialização, o Construtor de Topologia exibe uma caixa de diálogo que pergunta qual será a origem do documento de topologia. Selecione uma de três opções:'
+ms.openlocfilehash: b7c1662df54ba5cdc98680e8fb8267e5bd055eb3
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49818051"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51114177"
 ---
 # <a name="topology-builder-startup-dialog"></a>Diálogo de Inicialização do Construtor de Topologia
 
-Inicie o Construtor de Topologias para configurar as propriedades e a configuração de sua implantação do Microsoft Lync Server 2013. Na inicialização, o Construtor de Topologias exibe uma caixa de diálogo que pergunta qual será a origem do documento de topologia. Selecione uma de três opções:
+Você inicia o Construtor de Topologias para configurar as propriedades e a configuração da sua implantação do Microsoft Lync Server 2013. Na inicialização, o Construtor de Topologia exibe uma caixa de diálogo que pergunta qual será a origem do documento de topologia. Selecione uma de três opções:
 
-- **Baixar Topologia da implantação existente** Selecione essa opção se você tiver executado o Construtor de Topologias e publicado com êxito sua topologia no Servidor de Gerenciamento Central. Essa opção solicita e baixa uma cópia local da configuração atual, permitindo a edição e configuração da implantação existente.
+- **Baixar Topologia da implantação existente** Selecione essa opção se você tiver executado o Construtor de Topologias e tiver publicado com êxito sua topologia no Servidor de Gerenciamento Central. Essa opção solicita e baixa uma cópia local da configuração atual, permitindo a edição e configuração da implantação existente.
 
-- **Abrir Topologia de um arquivo local** Selecione essa opção se estiver configurando uma implantação, mas ainda não tiver publicado a configuração. Essa opção permite que você salve uma cópia local do trabalho de configuração no Construtor de Topologias e volte mais tarde.
+- **Abrir Topologia de um arquivo local** Selecione essa opção se você estiver configurando uma implantação, mas ainda não tenha publicado a configuração. Essa opção permite que você salve uma cópia local do trabalho de configuração no Construtor de Topologias e volte para ela posteriormente.
 
 - **Nova Topologia** Selecione essa opção para começar a configuração de um novo documento de topologia. Essa opção abre um novo documento de topologia que você configura para atender aos requisitos da implantação que você configurará.
 
@@ -36,6 +36,6 @@ Inicie o Construtor de Topologias para configurar as propriedades e a configura�
 
 ## <a name="see-also"></a>Confira também
 
-[Introdução ao Lync Server 2013 Preview](https://technet.microsoft.com/library/99dd6b65-e591-421f-852b-ee9fe9588998.aspx)
+[Introdução ao Lync Server 2013 Preview](/previous-versions/office/lync-server-2013/lync-server-2013-introduction)
 
-[Ferramentas administrativas do Lync Server](https://technet.microsoft.com/library/9b006f93-4f3d-461d-89b8-e80a34fdb3c5.aspx)
+[Ferramentas Administrativas do Lync Server](/previous-versions/office/lync-server-2013/lync-server-2013-lync-server-administrative-tools)

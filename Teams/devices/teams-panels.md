@@ -16,12 +16,12 @@ ms.collection:
 search.appverid: MET150
 localization_priority: Normal
 description: Este artigo fornece uma visão geral dos recursos suportados pelos painéis do Microsoft Teams.
-ms.openlocfilehash: d0316cc54404547910557cfcf9a608e9e2614ba0
-ms.sourcegitcommit: 5c49dc68c964481c46127f9fb3f5ca358897b0f8
+ms.openlocfilehash: 5588448bfbde95747c7f02f150deae24de51f55a
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50937848"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51102137"
 ---
 # <a name="microsoft-teams-panels"></a>Painéis do Microsoft Teams
 
@@ -56,7 +56,7 @@ Os requisitos de hardware, software e rede para implantar dispositivos de painé
 
 ## <a name="license-requirement"></a>Requisito de licença
 
-Para usar painéis do Teams, você precisa da Licença Padrão de Salas do [Microsoft Teams.](https://docs.microsoft.com/MicrosoftTeams/rooms/rooms-licensing)
+Para usar painéis do Teams, você precisa da Licença Padrão de Salas do [Microsoft Teams.](../rooms/rooms-licensing.md)
 
 > [!Note]
 > Se você já tiver as Salas do Microsoft Teams implantadas no espaço de reunião onde você está instalando painéis do Teams, não precisará de uma licença adicional para usar painéis do Teams.

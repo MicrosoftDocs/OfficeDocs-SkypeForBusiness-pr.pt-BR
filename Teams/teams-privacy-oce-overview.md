@@ -14,19 +14,19 @@ search.appverid: MET150
 description: Este artigo descreve as experiências conectadas opcionais que você verá no Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8824d49eb7f9c028b57f41e6643e80425522a753
-ms.sourcegitcommit: c48a5aca37220ac6a797ac88b09cf80090b1b7df
+ms.openlocfilehash: 228a14c29d082037de1bbcd1f9f5ee45e3a35728
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48444257"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51094071"
 ---
 # <a name="overview-of-optional-connected-experiences-in-microsoft-teams"></a>Visão geral das experiências conectadas opcionais no Microsoft Teams
 
-Se você tiver uma conta corporativa ou de estudante, o administrador da sua organização poderá fornecer a você a capacidade de usar um ou mais serviços baseados em nuvem (também chamados de ** "experiências conectadas opcionais"**) ao usar o Microsoft Teams, como GIPHY e/ou o serviço de Prévia de URL. Esses serviços baseados em nuvem são opcionais. O uso deles é uma escolha sua. Eles são oferecidas para você em termos diferentes dos [Termos de Serviço Online da Microsoft](https://www.microsoft.com/licensing/product-licensing/products), conforme descrito separadamente para cada serviço opcional. Este artigo lista os serviços do Teams com suporte à nuvem.
+Se você tiver uma conta corporativa ou de estudante, o administrador da sua organização poderá fornecer a você a capacidade de usar um ou mais serviços baseados em nuvem (também chamados de **"experiências conectadas opcionais"**) ao usar o Microsoft Teams, como GIPHY e/ou o serviço de Prévia de URL. Esses serviços baseados em nuvem são opcionais. O uso deles é uma escolha sua. Eles são oferecidas para você em termos diferentes dos [Termos de Serviço Online da Microsoft](https://www.microsoft.com/licensing/product-licensing/products), conforme descrito separadamente para cada serviço opcional. Este artigo lista os serviços do Teams com suporte à nuvem.
 
 > [!NOTE]
-> Se você é um administrador, confira o artigo [Gerenciar controles de privacidade](https://docs.microsoft.com/deployoffice/privacy/manage-privacy-controls) para saber como fornecer ou restringir a capacidade de seus usuários de usar experiências conectadas opcionais.
+> Se você é um administrador, confira o artigo [Gerenciar controles de privacidade](/deployoffice/privacy/manage-privacy-controls) para saber como fornecer ou restringir a capacidade de seus usuários de usar experiências conectadas opcionais.
 
 ## <a name="giphy"></a>GIPHY
 
@@ -42,8 +42,8 @@ O serviço de visualização de URL gera, automaticamente, um trecho de visualiz
 
 ## <a name="related-articles"></a>Artigos relacionados
 
-- [Visão geral dos controles de privacidade do Microsoft 365 Apps para Grandes Empresas](https://docs.microsoft.com/deployoffice/privacy/overview-privacy-controls)
+- [Visão geral dos controles de privacidade do Microsoft 365 Apps para Grandes Empresas](/deployoffice/privacy/overview-privacy-controls)
 - [Visão geral de controles de política para o Teams](policy-control-overview.md)
 - [Privacidade e Microsoft Teams](teams-privacy.md)
-- [Dados de serviço necessários para o Office](https://docs.microsoft.com/deployoffice/privacy/required-service-data)
+- [Dados de serviço necessários para o Office](/deployoffice/privacy/required-service-data)
 - [Configurações de Privacidade da Conta](https://support.microsoft.com/office/3e7bc183-bf52-4fd0-8e6b-78978f7f121b)

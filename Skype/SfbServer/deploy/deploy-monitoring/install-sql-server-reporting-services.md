@@ -1,5 +1,5 @@
 ---
-title: Instalar o SQL Server Reporting Services no Skype for Business Server
+title: Instalar SQL Server De relatórios no Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -11,26 +11,24 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 638a1d0c-1ac7-4735-83f2-4df3d03c7cf9
-description: 'Resumo: saiba onde encontrar informações sobre o SQL Server Reporting Services usado pelo Skype for Business Server.'
-ms.openlocfilehash: 123c417e88cea17c5af9d248818e64dc60215365
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 'Resumo: saiba onde ir para encontrar informações sobre SQL Server De relatórios usados pelo Skype for Business Server.'
+ms.openlocfilehash: 449ca513503209f062b3e35fe7474bd11162790f
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49802171"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51101957"
 ---
-# <a name="install-sql-server-reporting-services-in-skype-for-business-server"></a>Instalar o SQL Server Reporting Services no Skype for Business Server 
+# <a name="install-sql-server-reporting-services-in-skype-for-business-server"></a>Instalar SQL Server De relatórios no Skype for Business Server 
  
-**Resumo:** Saiba onde encontrar informações sobre o SQL Server Reporting Services usado pelo Skype for Business Server.
+**Resumo:** Saiba onde ir para encontrar informações sobre o SQL Server de Relatórios usados pelo Skype for Business Server.
   
-O Skype for Business Server pode usar o SQL Server Reporting Services (SSRS) para exibir e monitorar relatórios. Para usar essa funcionalidade, você precisará ter o Reporting Services instalado e configurado.
+O Skype for Business Server pode usar SQL Server SSRS (Reporting Services) para exibir e monitorar relatórios. Para usar essa funcionalidade, você precisará ter o Reporting Services instalado e configurado.
   
 ## <a name="install-sql-server-reporting-services"></a>Instalar o SQL Server Reporting Services
 
-Se você pretende usar os Relatórios de Monitoramento do Skype for Business Server (consulte o próximo artigo desta documentação para obter mais informações), primeiro instale o SQL Server Reporting Services; O Reporting Services pode ser instalado ao mesmo tempo que você instala o Microsoft SQL Server ou a qualquer momento após a instalação do SQL Server. Se você não instalou o SQL Server, siga as instruções fornecidas anteriormente nesta documentação. Ao instalar o SQL Server, certifique-se de que, na página Seleção de Recursos, você selecione Reporting Services. Isso instalará o SQL Server Reporting Services.
+Se você pretende usar Relatórios de Monitoramento do Skype for Business Server (consulte o próximo artigo desta documentação para obter mais informações) primeiro instale o SQL Server Reporting Services; Os Serviços de Relatório podem ser instalados ao mesmo tempo que você instala Microsoft SQL Server ou a qualquer momento após SQL Server tiver sido instalado. Se você não tiver instalado SQL Server, siga as instruções fornecidas anteriormente nesta documentação. Ao instalar o SQL Server, certifique-se de que, na página Seleção de Recursos, selecione Reporting Services. Isso instalará o SQL Server Reporting Services.
   
-Para saber como instalar o SQL Server Reporting Services, consulte [SQL Server Reporting Services (SSRS).](https://technet.microsoft.com/library/ms159106.aspx)
+Para saber como instalar o SQL Server Reporting Services, [consulte SQL Server Reporting Services (SSRS)](/sql/reporting-services/create-deploy-and-manage-mobile-and-paginated-reports).
   
-Se você já instalou o SQL Server, mas não instalou o SQL Server Reporting Services, poderá adicionar esse recurso seguindo o conjunto apropriado de instruções para o SQL Server Reporting Services. 
-  
-
+Se você já instalou o SQL Server, mas não instalou o SQL Server Reporting Services, você pode adicionar esse recurso seguindo o conjunto apropriado de instruções para o SQL Server Reporting Services. 

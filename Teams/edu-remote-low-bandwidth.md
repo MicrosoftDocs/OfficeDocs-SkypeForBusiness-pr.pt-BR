@@ -18,12 +18,12 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 24f34ea2e65906c648081a019d6acf8a3f8a5cd5
-ms.sourcegitcommit: e710bb8dbbd084912cbf509896515a674ab5e19f
+ms.openlocfilehash: b254bfb89a96efed65e2c1fdba1c345825d81dc2
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2020
-ms.locfileid: "43034061"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51111077"
 ---
 # <a name="help-for-low-bandwidth-situations-for-teams-for-edu"></a>Ajuda para situações de baixa largura de banda para as Teams para EDU
 
@@ -62,13 +62,13 @@ Algumas das coisas que você pode definir por meio da política incluem:
 - Desabilitar o vídeo completamente, para que ninguém possa habilitá-lo.
 - Taxa de bits de mídia (definida por usuário).
 
-Para saber mais sobre suas opções e para um resumo das especificações de quais políticas você precisaria definir para reuniões e vídeos, confira [Configurações de política de reunião no Teams: Áudio e vídeo](https://docs.microsoft.com/microsoftteams/meeting-policies-in-teams#meeting-policy-settings---audio--video) para obter informações detalhadas.
+Para saber mais sobre suas opções e para um resumo das especificações de quais políticas você precisaria definir para reuniões e vídeos, confira [Configurações de política de reunião no Teams: Áudio e vídeo](./meeting-policies-in-teams.md#meeting-policy-settings---audio--video) para obter informações detalhadas.
 
 #### <a name="screen-sharing-policies"></a>Políticas de compartilhamento de tela
 
 Em outros casos, professores podem estar compartilhando toda a tela com os alunos, quando o compartilhamento deve ser limitado a um aplicativo relevante à lição que está sendo ensinada. Isso também pode ser definido pela política, se essa opção for mais interessante do que fazer com que os professores façam essa escolha individualmente.
 
-Para ter uma boa ideia do que você pode fazer para limitar o compartilhamento de tela por meio das configurações de política, confira [Configurações de política de reunião no Teams: Compartilhamento de tela](https://docs.microsoft.com/microsoftteams/meeting-policies-in-teams#meeting-policy-settings---audio--video).
+Para ter uma boa ideia do que você pode fazer para limitar o compartilhamento de tela por meio das configurações de política, confira [Configurações de política de reunião no Teams: Compartilhamento de tela](./meeting-policies-in-teams.md#meeting-policy-settings---audio--video).
 
 #### <a name="dial-in-number-for-meetings"></a>Números de discagem para reuniões
 

@@ -11,16 +11,16 @@ audience: admin
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Crie uma estratégia de gerenciamento de alterações para o Microsoft Teams identificando os principais participantes, resultados comerciais, medidas de sucesso e gerenciamento de sua campanha.
+description: Crie uma estratégia de gerenciamento de alterações para o Microsoft Teams identificando os principais participantes, resultados de negócios, medidas de sucesso e gerenciamento de sua campanha.
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: a65e60923414618fc19f43e81fb2b2a085b0978b
-ms.sourcegitcommit: 1db39fde090809d9abc6d7346dda55814d88993a
+ms.openlocfilehash: ff37db12707ff1cf7db4fe350ab1a6673db3f76a
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/23/2020
-ms.locfileid: "48739089"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51102437"
 ---
 <a name="create-a-change-management-strategy-for-microsoft-teams"></a>Criar uma estratégia de gerenciamento de mudanças para o Microsoft Teams
 =======================================================
@@ -35,7 +35,7 @@ Boas práticas de gerenciamento de mudanças para os Teams:
 
 3.  Realize um piloto que inclua usuários comerciais, defensores e profissionais de TI.  
 
-4.  Projete, lance e gerencie a campanha de adoção. Baixe o nosso [Kit de Sucesso do Cliente](https://aka.ms/TeamsSuccessKit) para começar. Uma boa campanha de adoção, inclui:
+4.  Projete, lance e gerencie a campanha de adoção. Baixe o nosso [Kit de Sucesso do Cliente](./planning-workshop-practical-guide.md) para começar. Uma boa campanha de adoção, inclui:
 
     a.  Materiais de conscientização interna, como pôsteres, painéis digitais e eventos.
 
@@ -61,10 +61,10 @@ A primeira regra de uma adoção bem-sucedida é criar uma equipe dinâmica comp
 |Ícone  |Descrição  |
 |---------|---------|
 |![Ícone de patrocinadores executivos.](media/Create_a_change_management_strategy_for_Microsoft_Teams_image1.png)     |Os **Patrocinadores executivos** são líderes importantes dentro da organização e a participação deles é essencial para direcionar a adoção pelos funcionários. Eles têm a maior influência na cultura da empresa e conseguem comunicar ativamente o valor e os benefícios de uma nova tecnologia e de um novo caminho.         |
-|![Ícone de proprietários de serviço.](media/Create_a_change_management_strategy_for_Microsoft_Teams_image2.png)     |Os **proprietários de serviços** são responsáveis por garantir que as pessoas usem o serviço e obtenham valor dele. Definir proprietários de serviços em sua organização é importante para garantir que as metas de negócios definidas para o Microsoft 365 ou o Office 365 sejam realizadas.         |
-|![Ícone de defensores.](media/Create_a_change_management_strategy_for_Microsoft_Teams_image3.png)     |Obter a aceitação de todos os usuários de uma organização é um desafio. **Os** campeões podem ajudar a aliviar esse desafio e desempenham um papel importante na adoção do Microsoft 365 ou do Office 365. Eles são experientes, comprometidos em promover seus conhecimentos e estão dispostos a oferecer coaching e assistência aos pares. Eles ajudam a traduzir o Microsoft 365 ou o Office 365 para a realidade de seu departamento ou equipe.         |
+|![Ícone de proprietários de serviço.](media/Create_a_change_management_strategy_for_Microsoft_Teams_image2.png)     |Os **proprietários de serviços** são responsáveis por garantir que as pessoas usem o serviço e obtenham valor dele. Definir proprietários de serviços em sua organização é importante para garantir que as metas de negócios definidas para o Microsoft 365 ou Office 365 sejam realizadas.         |
+|![Ícone de defensores.](media/Create_a_change_management_strategy_for_Microsoft_Teams_image3.png)     |Obter a aceitação de todos os usuários de uma organização é um desafio. **Os** campeões podem ajudar a aliviar esse desafio e desempenhar um papel importante na adoção do Microsoft 365 ou do Office 365. Eles são experientes, comprometidos em promover seus conhecimentos e estão dispostos a oferecer coaching e assistência aos pares. Eles ajudam a traduzir o Microsoft 365 ou o Office 365 para a realidade de seu departamento ou equipe.         |
 
-Recomendamos a realização de uma reunião regular dessas partes envolvidas para mantê-las atualizadas sobre o progresso do seu programa. Iniciar um "conselho de colaboração" para permitir comentários e discussões pode ser uma ferramenta útil, dependendo da sua cultura corporativa.
+Recomendamos a realização de uma reunião regular dessas partes envolvidas para mantê-las atualizadas sobre o progresso do seu programa. Iniciar um "conselho de colaboração" para permitir comentários e discussões pode ser uma ferramenta útil, dependendo da cultura corporativa.
 
 
 
@@ -145,7 +145,7 @@ Assim como acontece em qualquer campanha de comunicação e adoção, você dese
 <a name="measure-and-share-success"></a>Mensure e compartilhe o sucesso
 -------------------------------------------------
 
-A equipe do projeto deve incluir administradores de TI da sua empresa. Essas pessoas terão acesso aos relatórios de uso do Microsoft 365 ou office 365 do Microsoft Teams integrados à experiência do Centro de administração do Microsoft 365. Esta informação pode mostrar o uso do Microsoft Teams em sua empresa. Recomendamos também que você obtenha feedback diretamente dos usuários sobre sua experiência com o Teams e outras ideias que eles têm para uso. Compartilhar exemplos reais de sua própria empresa é muito importante para viabilizar uma mudança contínua ao longo do tempo na comunidade de usuários.  
+A equipe do projeto deve incluir administradores de TI da sua empresa. Essas pessoas terão acesso aos relatórios de uso do Microsoft 365 ou Office 365 do Microsoft Teams integrados à experiência do centro de administração do Microsoft 365. Esta informação pode mostrar o uso do Microsoft Teams em sua empresa. Recomendamos também que você obtenha feedback diretamente dos usuários sobre sua experiência com o Teams e outras ideias que eles têm para uso. Compartilhar exemplos reais de sua própria empresa é muito importante para viabilizar uma mudança contínua ao longo do tempo na comunidade de usuários.  
 
 Saiba mais sobre os relatórios de uso do Microsoft Teams no Centro de administração do Microsoft 365 [aqui](https://support.office.com/article/Office-365-Reports-in-the-Admin-Center-Microsoft-Teams-user-activity-07f67fc4-c0a4-4d3f-ad20-f40c7f6db524)
 
@@ -154,8 +154,6 @@ Saiba mais sobre os relatórios de uso do Microsoft Teams no Centro de administr
 
 ## <a name="ongoing-adoption"></a>Adoção contínua
 
-Impulsionar a mudança em uma empresa é uma atividade contínua, não é um evento. A reunião inicial é só o começo da capacitação das pessoas para elas colaborarem de maneira mais efetiva. É importante planejar momentos nesta jornada que realçam seus sucessos, introduzam novos recursos e se conectem com sua estratégia geral de serviço do Microsoft 365 ou do Office 365, que seu departamento de IT criará. Assegurar-se de que os usuários estão envolvidos, em vez de sobrecarregados, reduzirá o cansaço provocado pelas mudanças e os auxiliará a abandonar os velhos hábitos, como anexos de e-mails, para abraçar algo novo, como armazenar documentos na nuvem.
+Impulsionar a mudança em uma empresa é uma atividade contínua, não é um evento. A reunião inicial é só o começo da capacitação das pessoas para elas colaborarem de maneira mais efetiva. É importante planejar momentos nesta jornada que realçam seus sucessos, introduzam novos recursos e se conectem à sua estratégia de serviço geral do Microsoft 365 ou office 365 - que seu departamento de IT criará. Assegurar-se de que os usuários estão envolvidos, em vez de sobrecarregados, reduzirá o cansaço provocado pelas mudanças e os auxiliará a abandonar os velhos hábitos, como anexos de e-mails, para abraçar algo novo, como armazenar documentos na nuvem.
 
-Compartilhe suas dúvidas sobre a adoção de serviço do Teams [](https://techcommunity.microsoft.com/t5/Driving-Adoption/ct-p/DrivingAdoption) e do Microsoft 365 ou do Office 365 na comunidade de Adoção de Direção no site da Comunidade Técnica da Microsoft. É sempre bom ouvir a sua opinião e ajudá-lo na jornada de adoção.  
-
-
+Compartilhe suas perguntas sobre a adoção de serviços do Teams e do Microsoft 365 ou Office 365 na comunidade de adoção de direção [no](https://techcommunity.microsoft.com/t5/Driving-Adoption/ct-p/DrivingAdoption) site da Comunidade Técnica da Microsoft. É sempre bom ouvir a sua opinião e ajudá-lo na jornada de adoção.

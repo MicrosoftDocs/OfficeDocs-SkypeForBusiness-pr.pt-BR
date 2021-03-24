@@ -15,33 +15,33 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 9ea090b3-f607-46f7-97dd-2510052524e5
-description: Decisões necessárias para o planejamento de bypass de mídia no Skype for Business Server Enterprise Voice. Inclui interoperação com controle de admissão de chamada (CAC).
-ms.openlocfilehash: a6d49b8abaa75e555f3de4c44b890e18b6de664a
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Decisões necessárias para o planejamento de bypass de mídia no Skype for Business Server Enterprise Voice. Inclui a interoperação com o controle de admissão de chamada (CAC).
+ms.openlocfilehash: 62a3c1605c7a54043539bc94892fdb8e3923f21a
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49825371"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51101387"
 ---
 # <a name="plan-for-media-bypass-in-skype-for-business"></a>Planejar bypass de mídia no Skype for Business
 
-Decisões necessárias para o planejamento de bypass de mídia no Skype for Business Server Enterprise Voice. Inclui interoperação com controle de admissão de chamada (CAC).
+Decisões necessárias para o planejamento de bypass de mídia no Skype for Business Server Enterprise Voice. Inclui a interoperação com o controle de admissão de chamada (CAC).
 
 Desvio de mídia refere-se à remoção do Servidor de Mediação do caminho da mídia, sempre que possível para chamadas cuja sinalização percorre o Servidor de Mediação.
 
-O desvio de mídia pode aprimorar a qualidade da voz reduzindo latência, conversões desnecessárias, possibilidade de perda de pacotes e o número de pontos de falha possíveis. A escalabilidade pode ser aprimorada, porque a eliminação do processamento de mídia para chamadas desviadas reduz a carga no Servidor de Mediação. Essa redução na carga complementa a capacidade do Servidor de Mediação de controlar vários gateways.
+O desvio de mídia pode aprimorar a qualidade da voz reduzindo latência, conversões desnecessárias, possibilidade de perda de pacotes e o número de pontos de falha possíveis. A escalabilidade pode ser aprimorada, porque a eliminação do processamento de mídia para chamadas desviadas reduz a carga no Servidor de Mediação. Essa redução de carga complementa a capacidade do Servidor de Mediação de controlar vários gateways.
 
- Quando um site de filial sem um Servidor de Mediação é conectado a um site central por um ou mais links WAN com largura de banda restrita, o bypass de mídia reduz o requisito de largura de banda, permitindo que a mídia de um cliente em um site de filial flua diretamente para seu gateway local sem antes ter que fluir pelo link WAN para um Servidor de Mediação no site central e voltar.
+ Em que um site de filial sem um Servidor de Mediação está conectado a um site central por um ou mais links wan com largura de banda restrita, o desvio de mídia reduz o requisito de largura de banda permitindo que a mídia de um cliente em um site de filial flua diretamente para seu gateway local sem primeiro ter que fluir através do link WAN para um Servidor de Mediação no site central e voltar.
 
-Ao aliviar o Servidor de Mediação do processamento de mídia, o bypass de mídia também pode reduzir o número de Servidores de Mediação que uma infraestrutura do Enterprise Voice exige. Como regra geral, habilite o desvio de mídia onde possível.
+Ao aliviar o Servidor de Mediação do processamento de mídia, o bypass de mídia também pode reduzir o número de Servidores de Mediação que uma infraestrutura Enterprise Voice requer. Como regra geral, habilite o desvio de mídia onde possível.
 
 A figura a seguir exibe caminhos de mídia e sinalização básicos em topologias com e sem desvio de mídia.
 
 **Caminhos de mídia e sinalização com e sem desvio de mídia**
 
-![Imposição da conexão de bypass de mídia do CAC de voz](../../media/Plan_CS_VoiceCAC_enforcementofconnectionstoPSTN.jpg)
+![Imposição de conexão de bypass de mídia do CAC de voz](../../media/Plan_CS_VoiceCAC_enforcementofconnectionstoPSTN.jpg)
 
-O bypass de mídia é útil quando você deseja minimizar o número de Servidores de Mediação implantados. Geralmente, um pool de Servidores de Mediação será implantado em um site central e controlará os gateways em sites locais. Habilitar o bypass de mídia permite que a mídia para chamadas PSTN de clientes em sites locais flua diretamente pelos gateways para estes sites. As rotas de chamadas de saída do Skype for Business Server e as políticas do Enterprise Voice devem ser configuradas corretamente para que as chamadas PSTN de clientes em um site de filial sejam roteadas para o gateway apropriado.
+O bypass de mídia é útil quando você deseja minimizar o número de Servidores de Mediação implantados. Geralmente, um pool de Servidores de Mediação será implantado em um site central e controlará os gateways em sites locais. Habilitar o bypass de mídia permite que a mídia para chamadas PSTN de clientes em sites locais flua diretamente pelos gateways para estes sites. As rotas de chamadas de saída do Skype for Business Server e as políticas de Enterprise Voice devem ser configuradas corretamente para que as chamadas PSTN de clientes em um site de filial sejam roteadas para o gateway apropriado.
 
 As redes Wi-Fi geralmente enfrentam uma maior perda de pacotes do que as redes com fio. A recuperação desta perda de pacotes não é algo que geralmente possa ser acomodado por gateways. Assim, recomendamos a avaliação da qualidade da rede Wi-Fi antes de determinar se o bypass deve estar habilitado para uma sub-rede sem fio. Há uma compensação na redução da latência contra a recuperação da perda de pacotes a considerar. RTAudio, um codec disponível para chamadas que não ignorem o Servidor de Mediação, é mais adequado para tratar da perda de pacotes.
 
@@ -63,9 +63,9 @@ Quando o desvio de mídia é habilitado, um ID de desvio exclusivo é gerado aut
 
 Quando um usuário faz uma chamada para o PSTN, o Servidor de Mediação compara a ID de bypass da sub-rede do cliente com a ID de bypass da sub-rede do gateway. Se os dois IDs de desvio forem correspondentes, o desvio de mídia será usado para a chamada. Se as IDs de bypass não corresponderem, a mídia da chamada deverá fluir pelo Servidor de Mediação.
 
-Quando um usuário recebe uma chamada do PSTN, o cliente do usuário compara sua ID de bypass com a do gateway PSTN. Se as duas IDs de bypass corresponderem, a mídia fluirá diretamente do gateway para o cliente, ignorando o Servidor de Mediação.
+Quando um usuário recebe uma chamada da PSTN, o cliente do usuário compara sua ID de bypass com a do gateway PSTN. Se as duas IDs de bypass corresponderem, a mídia fluirá diretamente do gateway para o cliente, ignorando o Servidor de Mediação.
 
-Somente o Lync 2010 ou dispositivos e clientes mais novos suportam interações de bypass de mídia com um Servidor de Mediação.
+Somente os clientes e dispositivos mais novos do Lync 2010 suportam interações de bypass de mídia com um Servidor de Mediação.
 
 > [!IMPORTANT]
 > Além de habilitar o bypass de mídia globalmente, é necessário habilitar o bypass de mídia individualmente em cada tronco PSTN. Se o bypass estiver habilitado globalmente, mas não estiver habilitado para um determinado tronco PSTN, o bypass de mídia não será invocado para qualquer chamada envolvendo aquele tronco PSTN. Além disso, quando o bypass de mídia é definido para **Usar a informação do site e da região**, é necessário associar todas as sub-redes roteáveis com os sites nos quais estão localizadas. Se há sub-redes roteáveis dentro de um site no qual o bypass não é desejado, estas sub-redes devem ser agrupadas dentro de um novo site antes de habilitar o bypass de mídia. Fazer isso garantirá que as sub-redes não roteáveis sejam atribuídas com uma ID de bypass diferente.
@@ -93,7 +93,7 @@ O desvio de mídia e o controle de admissão de chamadas trabalham juntos para g
 
 - CAC e Desvio de Mídia estão habilitados. O Desvio de Mídia deve estar definido como **Usar informações de site e da região**. As informações do site e da região são as mesmas usadas para o CAC.
 
-    Se você habilitar o CAC, não poderá **selecionar Sempre** Ignorar e vice-versa, porque as duas configurações são mutuamente exclusivas. Ou seja, apenas um dos dois se aplicará a qualquer chamada PSTN determinada. Primeiro, é feita uma verificação para determinar se o bypass de mídia se aplica à chamada. Se isso acontecer, o CAC não será usado. Isso faz sentido, porque se uma chamada estiver qualificada para bypass, ela será por definição usando uma conexão em que o CAC não é necessário. Se o bypass não puder ser aplicado à chamada (ou seja, se as IDs de bypass do cliente e do gateway não corresponderem), o CAC será aplicado à chamada.
+    Se você habilitar o CAC, não poderá selecionar **Sempre Ignorar** e vice-versa, pois as duas configurações são mutuamente exclusivas. Ou seja, apenas um dos dois se aplicará a qualquer chamada PSTN determinada. Primeiro, uma verificação é feita para determinar se o bypass de mídia se aplica à chamada. Se isso acontecer, o CAC não será usado. Isso faz sentido, porque se uma chamada for qualificada para bypass, ela será por definição usando uma conexão em que o CAC não é necessário. Se o bypass não puder ser aplicado à chamada (ou seja, se as IDs de bypass do cliente e do gateway não corresponderem), o CAC será aplicado à chamada.
 
 - CAC não habilitado e Desvio de Mídia definido como **Desviar Sempre**.
 
@@ -105,18 +105,16 @@ O desvio de mídia e o controle de admissão de chamadas trabalham juntos para g
 
     Ainda que o CAC esteja desabilitado globalmente, a política de largura de banda precisa ser definida para cada site e link se você quiser usar a configuração site-e-região para controlar a decisão de desvio. O valor real da restrição de largura de banda ou sua modalidade não importa. O objetivo final é que o sistema calcule automaticamente as IDs diferentes de desvio para associar aos locais diferentes que não estão bem conectados. Definir a restrição da largura de banda por definição significa que um link não está bem conectado.
 
-- O CAC está habilitado, mas o desvio de mídia não. Isso se aplica apenas onde todos os gateways e IP-PBXs não estão bem conectados ou não atendem outros requisitos para desvio de mídia. Para obter detalhes sobre requisitos de desvio de mídia, consulte [Requirements for Media Bypass](https://technet.microsoft.com/library/6162a204-0e7c-460a-8eb2-e592c6590a8a.aspx).
+- O CAC está habilitado, mas o desvio de mídia não. Isso se aplica apenas onde todos os gateways e IP-PBXs não estão bem conectados ou não atendem outros requisitos para desvio de mídia. Para obter detalhes sobre requisitos de desvio de mídia, consulte [Requirements for Media Bypass](/previous-versions/office/lync-server-2013/lync-server-2013-technical-requirements-for-media-bypass).
 
 ## <a name="technical-requirements"></a>Requisitos técnicos
 
-Para cada chamada para o PSTN, o Servidor de Mediação determina se a mídia do ponto de extremidade do Skype for Business de origem pode ser enviada diretamente para um par do Servidor de Mediação sem atravessar o Servidor de Mediação. O par pode ser um gateway PSTN, um IP-PBX ou um SBC (Controlador de Borda de Sessão) em um ITSP (provedor de serviços de telefonia da Internet) associado ao tronco entre o Servidor de Mediação para o qual a chamada é encaminhada.
+Para cada chamada para a PSTN, o Servidor de Mediação determina se a mídia do ponto de extremidade do Skype for Business pode ser enviada diretamente para um par do Servidor de Mediação sem atravessar o Servidor de Mediação. O par pode ser um gateway PSTN, um IP-PBX ou um SBC (Controlador de Borda de Sessão) em um ITSP (provedor de serviços de telefonia da Internet) associado ao tronco entre o Servidor de Mediação para o qual a chamada é encaminhada.
 
 O desvio de mídia pode ser empregado quando os seguintes requisitos são atendidos:
 
-- Um par do Servidor de Mediação deve dar suporte aos recursos necessários para o bypass de mídia, o mais importante é a capacidade de lidar com várias respostas bifurcadas (conhecidas como "caixas de diálogo instaladas"). Contate o fabricante do seu gateway ou PBX ou seu ITSP para obter o valor do número máximo de caixas de diálogo iniciais que o gateway, o PBX ou o SBC pode aceitar.
+- Um par do Servidor de Mediação deve dar suporte aos recursos necessários para o bypass de mídia, o mais importante é a capacidade de lidar com várias respostas bifurcadas (conhecidas como "caixas de diálogo in-loco"). Contate o fabricante do seu gateway ou PBX ou seu ITSP para obter o valor do número máximo de caixas de diálogo iniciais que o gateway, o PBX ou o SBC pode aceitar.
 
-- O par do Servidor de Mediação deve aceitar o tráfego de mídia diretamente dos pontos de extremidade do Skype for Business. Muitos ITSPs permitem que seu SBC receba tráfego somente do Servidor de Mediação. Entre em contato com seu ITSP para determinar se o SBC aceita tráfego de mídia diretamente dos pontos de extremidade do Skype for Business.
+- O par do Servidor de Mediação deve aceitar o tráfego de mídia diretamente dos pontos de extremidade do Skype for Business. Muitos ITSPs permitem que seu SBC receba tráfego apenas do Servidor de Mediação. Entre em contato com seu ITSP para determinar se o SBC aceita o tráfego de mídia diretamente dos pontos de extremidade do Skype for Business.
 
-- Os clientes do Skype for Business e um par de Servidor de Mediação devem estar bem conectados, o que significa que eles estão localizados na mesma região de rede ou em sites de rede que se conectam à região por links WAN sem restrições de largura de banda
-
-
+- Os clientes do Skype for Business e um par do Servidor de Mediação devem estar bem conectados, o que significa que eles estão localizados na mesma região de rede ou em sites de rede que se conectam à região por meio de links WAN que não têm restrições de largura de banda

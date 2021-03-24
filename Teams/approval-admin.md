@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f916b4e794c862a05a42f075ca2f210a079ff42a
-ms.sourcegitcommit: fdef9b52247097e5cae64f01b6b2b710c5b203cf
-ms.translationtype: HT
+ms.openlocfilehash: 4235232a9d74b4583ecaed19b68ff87de982085c
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/20/2021
-ms.locfileid: "49909515"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51103007"
 ---
 # <a name="teams-approvals-app-availability"></a>Disponibilidade dos aplicativos de aprovação do Teams
 
@@ -50,13 +50,13 @@ Para usar o aplicativo Aprovações, você precisa de permissão para os seguint
 
 - Função de administrador no ambiente de destino.
 
-- Licença para um [Power Automate](https://docs.microsoft.com/power-automate/get-started-approvals), um Office 365 ou um Dynamics 365.
+- Licença para um [Power Automate](/power-automate/get-started-approvals), um Office 365 ou um Dynamics 365.
 
 ## <a name="storage-with-cds"></a>Armazenamento com CDS
 
-O CDM (Modelo de Dados Comum) é a linguagem de dados compartilhada usada por aplicativos de negócios e analíticos no CDS. Ele consiste em um conjunto de esquemas de dados extensíveis padronizados publicados pela Microsoft e por nossos parceiros que permitem a consistência dos dados e seu significado em aplicativos e processos empresariais. Saiba mais sobre o [dados comuns do Microsoft Power Platform](https://docs.microsoft.com/power-automate/get-started-approvals).
+O CDM (Modelo de Dados Comum) é a linguagem de dados compartilhada usada por aplicativos de negócios e analíticos no CDS. Ele consiste em um conjunto de esquemas de dados extensíveis padronizados publicados pela Microsoft e por nossos parceiros que permitem a consistência dos dados e seu significado em aplicativos e processos empresariais. Saiba mais sobre o [dados comuns do Microsoft Power Platform](/power-automate/get-started-approvals).
 
-Saiba mais sobre o fluxo [de trabalho aprovação](https://docs.microsoft.com/power-automate/modern-approvals).
+Saiba mais sobre o fluxo [de trabalho aprovação](/power-automate/modern-approvals).
 
 ## <a name="approvals-teams-app-permissions"></a>Permissões do aplicativo Aprovações do Teams
 
@@ -101,7 +101,7 @@ O aplicativo Aprovações está disponível por padrão. Você pode desabilitar 
 
 ## <a name="retention-policy"></a>Política de retenção
 
-As aprovações criadas a partir do Aplicativo Aprovações são armazenadas no ambiente de CDS padrão, que não dá suporte a backups no momento. Saiba mais sobre como fazer [backup e restaurar ambientes - Power Platform \| Microsoft Docs](https://docs.microsoft.com/power-platform/admin/backup-restore-environments).
+As aprovações criadas a partir do Aplicativo Aprovações são armazenadas no ambiente de CDS padrão, que não dá suporte a backups no momento. Saiba mais sobre como fazer [backup e restaurar ambientes - Power Platform \| Microsoft Docs](/power-platform/admin/backup-restore-environments).
 
 ## <a name="auditing"></a>Auditoria
 
@@ -133,7 +133,7 @@ Você pode procurar as seguintes atividades:
 
 - Assinatura eletrônica adicionada à solicitação de aprovação
 
-Para obter acesso a mais aprovações de auditoria no Flow, habilita e configure a auditoria no ambiente padrão para as entidades de aprovação principais Aprovação, Solicitação de Aprovação e Resposta de Aprovação. Operações de criação, atualização e exclusão são eventos auditáveis para registros de Aprovação. Saiba mais sobre [dados de Auditoria e atividade do usuário para segurança e conformidade - Power Platform \| Microsoft Docs](https://docs.microsoft.com/power-platform/admin/audit-data-user-activity).
+Para obter acesso a mais aprovações de auditoria no Flow, habilita e configure a auditoria no ambiente padrão para as entidades de aprovação principais Aprovação, Solicitação de Aprovação e Resposta de Aprovação. Operações de criação, atualização e exclusão são eventos auditáveis para registros de Aprovação. Saiba mais sobre [dados de Auditoria e atividade do usuário para segurança e conformidade - Power Platform \| Microsoft Docs](/power-platform/admin/audit-data-user-activity).
 
 A auditoria pode ser personalizada ainda mais no [de Conformidade e Segurança do Microsoft 365](https://support.office.com/article/go-to-the-office-365-security-compliance-center-7e696a40-b86b-4a20-afcc-559218b7b1b8?ui=en-US&rs=en-US&ad=US).
 
@@ -143,7 +143,7 @@ A auditoria pode ser personalizada ainda mais no [de Conformidade e Segurança d
 
 3. Pesquise no log de Auditoria e selecione **atividades do Dynamics 365** dados.
 
-Saiba mais sobre [registro em log de atividades de aplicativos orientados por modelos e dados de aplicativos do Microsoft Dataverse - Power Platform](https://docs.microsoft.com/power-platform/admin/enable-use-comprehensive-auditing).
+Saiba mais sobre [registro em log de atividades de aplicativos orientados por modelos e dados de aplicativos do Microsoft Dataverse - Power Platform](/power-platform/admin/enable-use-comprehensive-auditing).
 
 ## <a name="security"></a>Segurança
 

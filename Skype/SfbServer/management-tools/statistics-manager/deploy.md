@@ -12,29 +12,29 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 37b2bb9c-c5d4-4fb0-a976-670b7594b82f
-description: 'Resumo: Leia este tópico para saber como implantar o Gerenciador de Estatísticas do Skype for Business Server.'
-ms.openlocfilehash: 79e07c29a5df4a5da239687708a9bb52e995d191
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 'Resumo: leia este tópico para saber como implantar o Gerenciador de Estatísticas para o Skype for Business Server.'
+ms.openlocfilehash: 406f4188347d32111bea4952815237b7f1015574
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49814811"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51105377"
 ---
 # <a name="deploy-statistics-manager-for-skype-for-business-server"></a>Implantar Gerenciador de Estatísticas do Skype for Business Server
  
-**Resumo:** Leia este tópico para saber como implantar o Gerenciador de Estatísticas do Skype for Business Server.
+**Resumo:** Leia este tópico para saber como implantar o Gerenciador de Estatísticas para o Skype for Business Server.
   
- O Gerenciador de Estatísticas do Skype for Business Server é uma poderosa ferramenta que permite exibir dados de desempenho e de saúde do Skype for Business Server em tempo real. Você pode sondar dados de desempenho em centenas de servidores a cada poucos segundos e ver os resultados instantaneamente no site do Gerenciador de Estatísticas.
+ O Gerenciador de Estatísticas do Skype for Business Server é uma ferramenta poderosa que permite exibir dados de desempenho e de desempenho do Skype for Business Server em tempo real. Você pode sondar dados de desempenho em centenas de servidores a cada poucos segundos e exibir os resultados instantaneamente no Site do Gerenciador de Estatísticas.
   
 Antes de tentar instalar o Gerenciador de Estatísticas, certifique-se de estar familiarizado com os requisitos de software, rede e hardware. Para obter mais informações, [consulte Plan for Statistics Manager for Skype for Business Server](plan.md).
   
 > [!NOTE]
-> Se você estiver atualizando de uma versão anterior do Gerenciador de Estatísticas, consulte Atualizar o Gerenciador de Estatísticas [do Skype for Business Server.](upgrade.md) 
+> Se você estiver atualizando de uma versão anterior do Gerenciador de Estatísticas, consulte [Upgrade Statistics Manager for Skype for Business Server](upgrade.md). 
   
 > [!NOTE]
-> O site do Gerenciador de Estatísticas foi testado e funciona corretamente no Internet Explorer 11+, no Edge 20.10240+ e no Chrome 46+ (versão atual). 
+> O Site do Gerenciador de Estatísticas foi testado e funciona corretamente no Internet Explorer 11+, no Edge 20.10240+ e no Chrome 46+ (versão atual do evergreen). 
   
-Você pode encontrar o Gerenciador de Estatísticas para download em [https://aka.ms/StatsManDownload](https://aka.ms/StatsManDownload) . 
+Você pode encontrar o Gerenciador de Estatísticas baixável em [https://aka.ms/StatsManDownload](https://aka.ms/StatsManDownload) . 
   
 Este tópico contém as seguintes seções:
   
@@ -49,64 +49,64 @@ Este tópico contém as seguintes seções:
 
 Para implantar o Gerenciador de Estatísticas, siga estas etapas:
   
-1. Prepare o computador host do Ouvinte instalando o sistema de cache na memória redis e garantindo que você instalou os certificados apropriados.
+1. Prepare a máquina host do Ouvinte instalando o sistema de cache redis na memória e garantindo que você instalou os certificados apropriados.
     
-2. Instale o serviço ouvinte no computador host. 
+2. Instale o serviço Ouvinte no computador host. 
     
-3. Instale o site no computador host.
+3. Instale o Site no computador host.
     
 4. Instale um Agente em cada máquina do Skype for Business Server que você deseja monitorar.
     
 5. Importe a topologia para os servidores que você está monitorando.
     
 > [!NOTE]
-> O Redis, o serviço ouvinte e o site devem estar todos instalados no mesmo computador host. Certifique-se de que o computador host não tenha o Skype for Business Server instalado. 
+> Redis, o serviço Ouvinte e o Site devem estar todos instalados no mesmo computador host. Certifique-se de que o computador host não tenha o Skype for Business Server instalado. 
   
-### <a name="prepare-the-listener-host-machine"></a>Preparar o computador host do Ouvinte
+### <a name="prepare-the-listener-host-machine"></a>Preparar a máquina host do Ouvinte
 
-Para preparar o computador host, você precisará instalar o sistema de cache na memória redis e garantir que um certificado válido está no computador. A Microsoft recomenda que você instale a versão estável mais recente do Redis 3.0. A versão 2.0 do Gerenciador de Estatísticas foi testada com o Redis 3.2.100. 
+Para preparar o computador host, você precisará instalar o sistema de cache Redis na memória e garantir que um certificado válido está no computador. A Microsoft recomenda que você instale o build estável mais recente do Redis 3.0. O Gerenciador de Estatísticas versão 2.0 foi testado com o Redis 3.2.100. 
   
-1. Baixe o Redis do seguinte site: [https://github.com/MSOpenTech/redis](https://github.com/MSOpenTech/redis) . 
+1. Baixe Redis do seguinte site: [https://github.com/MSOpenTech/redis](https://github.com/MSOpenTech/redis) . 
     
     Instaladores não assinados podem ser baixados de [https://github.com/MSOpenTech/redis/releases](https://github.com/MSOpenTech/redis/releases)
     
-    Se necessário, binários assinados estão disponíveis por meio de gerenciadores de pacote populares: [Nuget](https://www.nuget.org/packages/Redis-64/) e [Choclatey](https://chocolatey.org/packages/redis-64).
+    Se necessário, binários assinados estão disponíveis por meio de gerentes de pacote populares: [Nuget](https://www.nuget.org/packages/Redis-64/) e [Choclatey](https://chocolatey.org/packages/redis-64).
     
    - Execute o msi fornecido e siga os prompts.
     
    - Não marque a caixa para adicionar uma regra de firewall.
     
-2. O serviço ouvinte requer um certificado. A Microsoft recomenda que você tenha um certificado assinado por uma autoridade de certificação confiável. 
+2. O serviço Ouvinte requer um certificado. A Microsoft recomenda que você tenha um certificado assinado por uma autoridade de certificação confiável. 
     
-    Se você quiser usar um certificado auto-assinado para fins de teste em um laboratório, por exemplo-- consulte Criar um [certificado auto-assinado.](deploy.md#BKMK_SelfCert)
+    Se você quiser usar um certificado auto-assinado para fins de teste em um laboratório, por exemplo, consulte [Create a self-signed certificate](deploy.md#BKMK_SelfCert).
     
-    Observe que o Agente usa a verificação de impressão digital do certificado (em vez de verificação em cadeia). Ele não fará a validação completa do certificado porque é possível usar certificados auto-assinados.
+    Observe que o Agente usa verificação de impressão digital de certificado (em vez de verificação de cadeia). Ele não fará a validação completa do certificado porque é possível usar certificados auto-assinados.
     
-### <a name="install-the-listener-service"></a>Instalar o serviço ouvinte
+### <a name="install-the-listener-service"></a>Instalar o serviço Ouvinte
 
-Instale o serviço ouvinte no computador host executando o StatsManPerfAgentListener.msi e especificando o seguinte:
+Instale o serviço Ouvinte no computador host executando o StatsManPerfAgentListener.msi e especificando o seguinte:
   
-1. Revise o Contrato de Licença e, se você concordar, selecione **I accept the terms in the license agreement** e clique em **Next**. 
+1. Revise o Contrato de Licença e, se concordar, selecione **Aceito** os termos no contrato de licença e clique em **Próximo**. 
     
 2. Na próxima página, especifique as seguintes informações:
     
-   - **Senha de Serviço:** Esta é a senha que os Agentes remotos usarão para se autenticar no serviço ouvinte.
+   - **Senha do Serviço:** Essa é a senha que os Agentes remotos usarão para autenticar o serviço Ouvinte.
     
-   - **Porta de Serviço:** Esse é o número da porta HTTPS que o Ouvinte usará para se comunicar com os Agentes. Durante a instalação, essa porta será permitida através do firewall local, uma ACL de URL será criada e um certificado SSL será vinculado a essa porta. O padrão é 8443.
+   - **Porta de Serviço:** Este é o número da porta HTTPS que o Ouvinte usará para se comunicar com os Agentes. Durante a instalação, essa porta será permitida por meio do firewall local, uma URL ACL será criada e um certificado SSL será vinculado a essa porta. O padrão é 8443.
     
    - **Impressão digital do certificado:** Esta é a impressão digital do certificado que o Ouvinte usará para criptografar o protocolo HTTPS. O Serviço de Rede deve ter acesso de leitura à chave privada.
     
      Clique no **botão Selecionar...** para escolher a impressão digital.
     
-     Você pode encontrar a impressão digital do certificado usando o Gerenciador de Certificados ou usando o seguinte comando do PowerShell:
+     Você pode encontrar a impressão digital Certificado usando o Gerenciador de Certificados ou usando o seguinte comando do PowerShell:
     
        ```PowerShell
        Get-ChildItem -path cert:\LocalMachine\My
        ```
 
-   - **Install Dir:** Este é o diretório no qual os binários serão instalados. Você pode alterá-lo do padrão usando o **botão Procurar...**
+   - **Instalar Dir:** Este é o diretório no qual os binários serão instalados. Você pode alterá-lo do padrão usando o **botão Procurar...**
     
-   - **AppData Dir:** Esse é o diretório onde a pasta Logs e outros dados serão armazenados. Você pode alterá-lo do padrão. Ele não será excluído na desinstalação.
+   - **AppData Dir:** Este é o diretório onde a pasta Logs e outros dados serão armazenados. Você pode alterá-lo do padrão. Ele não será excluído na desinstalação.
     
 3. Clique em **Instalar**.
     
@@ -114,59 +114,59 @@ Para validar a instalação, execute as seguintes etapas:
   
 1. Abra um navegador e navegue até https://localhost: \<service-port\> /healthcheck/
     
-    Por padrão, a porta de serviço é 8443 (a menos que você tenha especificado outra porta).
+    Por padrão, a porta de serviço é 8443 (a menos que você especifique outra porta).
     
 2. Para garantir que o Ouvinte tenha sido instalado corretamente, procure o seguinte:
     
    - Se a página de verificação de saúde aparecer, a instalação do Ouvinte foi bem-sucedida.
     
-   - Se KnownServerCount for 1 ou superior, a conexão com o Redis será estabelecida.
+   - Se KnownServerCount for 1 ou superior, a conexão com Redis será estabelecida.
     
-   - Depois de aguardar alguns minutos e após a instalação de pelo menos um Agente, verifique se o contador ValuesWritten está incrementando.
+   - Depois de esperar alguns minutos e depois que pelo menos um Agente tiver sido instalado, verifique se o contador ValuesWritten está sendo incrementado.
     
 ### <a name="install-the-website"></a>Instalar o site
 
-Instale o site no computador host executando o StatsManWebSite.msi (incluído no [Skype for Business Server, Real-Time Statistics Manager (64 bits)](https://www.microsoft.com/en-in/download/details.aspx?id=57518)) e especificando o seguinte:
+Instale o site no computador host executando o StatsManWebSite.msi (incluído no Skype for Business Server, Real-Time Gerenciador de Estatísticas [(64 bits)](https://www.microsoft.com/en-in/download/details.aspx?id=57518)e especificando o seguinte:
   
-1. Revise o Contrato de Licença e, se você concordar, selecione **I accept the terms in the license agreement** e clique em **Next**. 
+1. Revise o Contrato de Licença e, se concordar, selecione **Aceito** os termos no contrato de licença e clique em **Próximo**. 
     
 2. Na próxima página, especifique as seguintes informações:
     
-   - **Porta de Serviço:** Esse é o número da porta que o site escutará. Você pode alterá-lo posteriormente usando a associação do gerenciador do IIS. Durante a instalação, essa porta será permitida através do firewall local.
+   - **Porta de Serviço:** Esse é o número da porta que o site escutará. Você pode alterá-lo posteriormente usando a associação do gerenciador do IIS. Durante a instalação, essa porta será permitida por meio do firewall local.
     
-   - **Install Dir:** Este é o diretório onde os binários serão instalados. Você pode alterá-lo do padrão usando o **botão Procurar...**
+   - **Instalar Dir:** Este é o diretório onde os binários serão instalados. Você pode alterá-lo do padrão usando o **botão Procurar...**
     
-   - **AppData Dir:** Esse é o diretório onde a pasta Logs e outros dados serão armazenados. Você pode alterá-lo do padrão. Ele não será excluído na desinstalação.
+   - **AppData Dir:** Este é o diretório onde a pasta Logs e outros dados serão armazenados. Você pode alterá-lo do padrão. Ele não será excluído na desinstalação.
     
 3. Clique em **Instalar**.
     
-Para exibir o site, abra um navegador e navegue até: http://localhost ,webport \> /.
+Para exibir o Site, abra um navegador e navegue até: http://localhost ,webport \> /.
   
 Para exibir apenas informações de saúde, abra um navegador e navegue até: http://localhost: \<webport\> /healthcheck/.
   
 Por padrão, o número da porta da Web é 8080. Você pode alterar a associação de porta do site usando o gerenciador do IIS.
   
-O instalador da Web adiciona um grupo de segurança local, chamado StatsManWebSiteUsers. Você pode adicionar contas a esse grupo de segurança para conceder acesso ao site. 
+O instalador da Web adiciona um grupo de segurança local, chamado StatsManWebSiteUsers. Você pode adicionar contas a esse grupo de segurança para conceder acesso ao Site. 
   
 ### <a name="install-the-agents"></a>Instalar os Agentes
 
-Instale um Agente em cada Skype for Business Server que você deseja monitorar executando o StatsManPerfAgent.msi e especificando o seguinte:
+Instale um Agente em cada Servidor do Skype for Business que você deseja monitorar executando o StatsManPerfAgent.msi e especificando o seguinte:
   
-1. Revise o Contrato de Licença e, se você concordar, selecione **I accept the terms in the license agreement** e clique em **Next**. 
+1. Revise o Contrato de Licença e, se concordar, selecione **Aceito** os termos no contrato de licença e clique em **Próximo**. 
     
 2. Na próxima página, especifique as seguintes informações:
     
-   - **Senha de Serviço:** Esta é a senha que o agente remoto usará para se autenticar no serviço ouvinte.
+   - **Senha do Serviço:** Essa é a senha que o agente remoto usará para autenticar o serviço Ouvinte.
     
-   - **URI do serviço:** Esse é o URI em que o Ouvinte reside. Ele deve usar o https://name:port formato.
+   - **URI de serviço:** Este é o URI onde o Ouvinte reside. Ele deve usar o https://name:port formato.
     
-     Você pode usar um nome NETBIOS ou um FQDN. Você pode usar o nome que  também  é especificado como Assunto ou Nomes Alternativos de Assunto do certificado no serviço ouvinte, mas isso não é um requisito.
+     Você pode usar um nome NETBIOS ou um FQDN. Você pode usar o nome que  também é especificado como Subject ou **Subject Alternative Names** do certificado no serviço Ouvinte, mas isso não é um requisito.
     
-   - **Impressão digital do serviço:** Esta é a impressão digital do certificado SSL que o Ouvinte está usando. O Agente usará essa impressão digital para autenticar o Ouvinte. (Ele não fará a validação completa do certificado porque é possível usar certificados auto-assinados.)
+   - **Impressão digital do serviço:** Esta é a impressão digital do certificado SSL que o Ouvinte está usando. O Agente usará essa impressão digital para se autenticar no Ouvinte. (Ele não fará a validação completa do certificado porque é possível usar certificados auto-assinados.)
     
-   - **Install Dir:** Este é o diretório no qual os binários serão instalados. Você pode alterá-lo do padrão usando o **botão Procurar...**
+   - **Instalar Dir:** Este é o diretório no qual os binários serão instalados. Você pode alterá-lo do padrão usando o **botão Procurar...**
     
-   - **AppData Dir:** Esse é o diretório onde a pasta Logs e o arquivo password.txt criptografado serão armazenados. Você pode alterá-la do padrão. Ele não será excluído na desinstalação.
+   - **AppData Dir:** Este é o diretório onde a pasta Logs e o arquivo password.txt criptografado serão armazenados. Você pode alterá-lo do padrão. Ele não será excluído na desinstalação.
     
 3. Clique em **Instalar**.
     
@@ -179,11 +179,11 @@ msiexec /l install.log /i StatsManPerfAgent.msi SERVICE_THUMBPRINT=<thumbprint> 
 ### <a name="import-the-topology"></a>Importar a topologia
 <a name="BKMK_ImportTopology"> </a>
 
-Depois que o Gerenciador de Estatísticas estiver instalado e em execução, você precisará importar a topologia do Skype for Business Server para que o Gerenciador de Estatísticas conheça o Site, o Pool e a Função de cada servidor. Para importar sua topologia do Skype for Business Server, você usará o cmdlet [Get-CsPool](https://docs.microsoft.com/powershell/module/skype/get-cspool?view=skype-ps) para recuperar informações sobre cada pool em uso na organização e, em seguida, importar essas informações para o Gerenciador de Estatísticas.
+Depois que o Gerenciador de Estatísticas for instalado e executado, você precisará importar a topologia do Skype for Business Server para que o Gerenciador de Estatísticas conheça o Site, o Pool e a Função de cada servidor. Para importar sua topologia do Skype for Business Server, você usará o cmdlet [Get-CsPool](/powershell/module/skype/get-cspool?view=skype-ps) para recuperar informações sobre cada pool em uso em sua organização e, em seguida, importar essas informações para o Gerenciador de Estatísticas.
   
 Para importar a topologia do Skype for Business Server, siga estas etapas:
   
-1. Em um host que tem os cmdlets do PowerShell do Skype for Business Server:
+1. Em um host que tenha os cmdlets do PowerShell do Skype for Business Server:
     
     a. Execute o seguinte comando: 
     
@@ -214,13 +214,13 @@ O comando a seguir permite que você veja todas as opções:
 Get-Help .\Update-StatsManServerInfo.ps1 -Detailed 
 ```
 
-Para ver suas informações de servidor importadas no momento, execute o seguinte script: 
+Para ver suas informações de servidor importados no momento, execute o seguinte script: 
   
 ```powershell
 .\Get-StatsManServerInfo.ps1
 ```
 
-Se você quiser monitorar servidores que não estão em sua topologia do Skype for Business Server , um Exchange Server, por exemplo-- você pode fazer uma importação de servidor único no host que executa o Ouvinte. Para fazer uma importação de um único servidor, siga estas etapas:
+Se você quiser monitorar servidores que não estão em sua topologia do Skype for Business Server , um Exchange Server, por exemplo, você pode fazer uma importação de servidor único no host que executa o Ouvinte. Para fazer uma importação de servidor único, siga estas etapas:
   
 1. Navegue até o diretório no qual o Ouvinte está instalado. O padrão é: 
     
@@ -241,17 +241,17 @@ Se um Agente falhar ao iniciar, verifique o seguinte:
   
 - O agente está registrado no Gerenciador de Estatísticas?
     
-    1. Certifique-se de seguir as instruções para importar a topologia. Consulte [Importar a topologia.](deploy.md#BKMK_ImportTopology)
+    1. Certifique-se de seguir as instruções para importar a topologia. Consulte [Importar a topologia](deploy.md#BKMK_ImportTopology).
         
-    2. Se o Agente estiver em um servidor que não está listado na topologia (por exemplo, os nós em um cluster SQL AlwaysOn), você precisará adicionar o Agente manualmente seguindo as instruções em Importar a [topologia.](deploy.md#BKMK_ImportTopology)
+    2. Se o Agente estiver em um servidor que não está listado na topologia (por exemplo, os nós em um cluster SQL AlwaysOn), você precisará adicionar o Agente manualmente seguindo as instruções em Importar a [topologia](deploy.md#BKMK_ImportTopology).
     
-- O Agente pode contatar o Ouvinte?
+- O Agente pode entrar em contato com o Ouvinte?
     
-    1. Certifique-se de que o serviço ouvinte está em execução. 
+    1. Certifique-se de que o serviço Ouvinte está em execução. 
         
-        Se não estiver em execução, certifique-se de que o Redis está em execução e tente reiniciar o Ouvinte.
+        Se ele não estiver em execução, certifique-se de que Redis está em execução e tente reiniciar o Ouvinte.
         
-    2. Certifique-se de que a porta está aberta para o serviço ouvinte e se o computador do Agente pode se comunicar com a porta.
+    2. Certifique-se de que a porta está aberta para o serviço Ouvinte e se o computador Agente pode se comunicar com a porta.
     
 - Para garantir que o Gerenciador de Estatísticas está coletando dados, você pode verificar o arquivo CSV da seguinte forma. 
     
@@ -280,19 +280,19 @@ A Microsoft recomenda que você use um certificado assinado por uma autoridade d
    New-SelfSignedCertificate -DnsName StatsManListener -CertStoreLocation Cert:\LocalMachine\My
    ```
 
-2. Tipo  `certlm.msc` . Isso abrirá o Gerenciador de Certificados para o computador local.
+2. Digite  `certlm.msc` . Isso abrirá o Gerenciador de Certificados para o computador local.
     
-3. Navegue **até Pessoal** e abra **Certificados.**
+3. Navegue **até Personal** e abra **Certificados.**
     
-4. Clique com o botão direito do mouse em **StatsManListener - \> Todas as Tarefas - Gerenciar Chaves \> Privadas...**
+4. Clique com o botão **direito do mouse em StatsManListener - Todas as \> Tarefas- Gerenciar Chaves \> Privadas...**
     
 5. Clique em **Adicionar**.
     
-6. Na caixa **Digite os nomes de objeto a ser selecionado,** digite o seguinte: Serviço de Rede
+6. Na caixa **Inserir os nomes de objeto a ser selecionado,** digite o seguinte: Serviço de Rede
     
 7. Clique em **OK**.
     
-8. Em **Controle Total,** des marque a **caixa de** seleção Permitir. (Somente o acesso de leitura é necessário.)
+8. Em **Controle Total,** descon marque a **caixa de seleção** Permitir. (Somente acesso de leitura é necessário.)
     
 9. Clique em **OK**.
     
@@ -305,4 +305,4 @@ Para obter mais informações, confira o seguinte:
     
 - [Atualizar o Gerenciador de estatísticas do Skype for Business Server](upgrade.md)
     
-- [Solução de problemas do Gerenciador de Estatísticas do Skype for Business Server](troubleshoot.md) ß
+- [Solucionar problemas do Gerenciador de Estatísticas do Skype for Business Server](troubleshoot.md) ß

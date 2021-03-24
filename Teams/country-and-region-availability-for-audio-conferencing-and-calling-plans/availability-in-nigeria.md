@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Aqui estão os serviços do Microsoft 365 e do Office 365 para Skype for Business e Microsoft Teams disponíveis para a Nigéria.
-ms.openlocfilehash: bd624c3b61fb29d5eb5bcdd795fc4c1abe217976
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: efcd1ed4c3834a8ac76d1fe0c5490cb59a6abd40
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49809531"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51102367"
 ---
 # <a name="availability-in-nigeria"></a>Disponibilidade na Nigéria
 
@@ -64,15 +64,15 @@ Aqui estão os serviços do Microsoft 365 e do Office 365 para Skype for Busines
 
 Se os Planos de Chamada não estiverem disponíveis para compra, considere a possibilidade de usar o [Roteamento Direto do Sistema de Telefonia](../direct-routing-landing-page.md). Com o Roteamento Direto, você pode usar o Sistema de Telefonia praticamente com qualquer portadora de telefonia.
    
-## <a name="toll-and-toll-free-numbers-for-services"></a>Números de tarifa tarifada e gratuita para serviços
+## <a name="toll-and-toll-free-numbers-for-services"></a>Números de tarifação gratuita e de tarifação para serviços
 
 |**Recurso**|**Detalhes**|
 |:-----|:-----|
 |Para quais capitais ou cidades importantes é possível obter números de chamadas tarifadas?   | Lagos <br/> |
 |Há números de chamada tarifada disponíveis?  <br/> |Sim  <br/> |
-|Os números de tarifa gratuita estão disponíveis?  <br/> |Não  <br/> |
+|Os números gratuitos estão disponíveis?  <br/> |Não  <br/> |
    
- Se você quiser obter números de telefone de chamada tarifada e gratuita para audioconferência, atendimento automático e filas de chamadas, consulte Como obter números de telefone de serviço para o Skype for Business e [o Microsoft Teams.](/microsoftteams/getting-service-phone-numbers)
+ Se você quiser obter números de telefone gratuitos e de chamada gratuita para Audioconferências, Atendimentos Automáticos e Filas de Chamadas, consulte Obter números de telefone de serviço para [Skype for Business](../getting-service-phone-numbers.md)e Microsoft Teams .
   
 ## <a name="communications-credits"></a>Créditos de Comunicação
 
@@ -84,7 +84,6 @@ Para configurá-los, consulte [Configurar Créditos de Comunicação para a sua 
   
 ## <a name="related-topics"></a>Tópicos relacionados
 
-[Obtendo números de telefone de serviço do Skype for Business e do Microsoft Teams](/microsoftteams/getting-service-phone-numbers)
+[Obtendo números de telefone de serviço do Skype for Business e do Microsoft Teams](../getting-service-phone-numbers.md)
 
 [Disponibilidade de Audioconferência e Planos de Chamadas por país e região](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
-

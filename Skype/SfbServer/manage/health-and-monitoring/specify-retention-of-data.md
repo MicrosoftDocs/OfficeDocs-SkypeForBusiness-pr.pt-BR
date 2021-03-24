@@ -1,5 +1,5 @@
 ---
-title: Especificar retenção de dados de CDR no Skype for Business Server
+title: Especificar retenção de dados CDR no Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -11,17 +11,17 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: c0fd6056-87bc-4136-902a-f1b37cd3a1ca
-description: 'Resumo: saiba como gerenciar dados de CDR (registro de detalhes das chamadas) para o Skype for Business Server.'
-ms.openlocfilehash: 01b4765a9fa98a898255c1374115e17c4966e797
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 'Resumo: Saiba como gerenciar dados de registro de detalhes de chamadas (CDR) para o Skype for Business Server.'
+ms.openlocfilehash: abf6461a76ced9d3ba07e4c5157dd4d14bab60a3
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49814211"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51104387"
 ---
-# <a name="specify-retention-of-cdr-data-in-skype-for-business-server"></a>Especificar retenção de dados de CDR no Skype for Business Server
+# <a name="specify-retention-of-cdr-data-in-skype-for-business-server"></a>Especificar retenção de dados CDR no Skype for Business Server
  
-**Resumo:** Saiba como gerenciar dados de CDR (registro de detalhes das chamadas) para o Skype for Business Server.
+**Resumo:** Saiba como gerenciar dados de registro de detalhes de chamadas (CDR) para o Skype for Business Server.
   
 Por padrão, os dados de CDR (registro de detalhes das chamadas) são purgados após 60 dias. É possível usar as configurações da página **Registro de Detalhes das Chamadas** para manter os dados por um período maior ou menor. Se você desabilitar o CDR, os dados que foram capturados antes da desabilitação do CDR também poderão ser purgados.
   
@@ -32,9 +32,9 @@ Use o procedimento a seguir para definir as configurações de limpeza de dados 
   
 ### <a name="to-specify-retention-of-cdr-data"></a>Para especificar a retenção de dados de CDR
 
-1. Em uma conta de usuário que seja membro do grupo RTCUniversalServerAdmins (ou que tenha direitos de usuário equivalentes) ou atribuído à função CsServerAdministrator ou CsAdministrator, faça logon em qualquer computador que está na rede na qual você implantou o Skype for Business Server.
+1. De uma conta de usuário que é membro do grupo RTCUniversalServerAdmins (ou tem direitos de usuário equivalentes) ou atribuída à função CsServerAdministrator ou CsAdministrator, faça logon em qualquer computador que está na rede na qual você implantou o Skype for Business Server.
     
-2. Abra uma janela do navegador e insira a URL do Administrador para abrir o Painel de Controle do Skype for Business Server.  
+2. Abra uma janela do navegador e insira a URL do administrador para abrir o Painel de Controle do Skype for Business Server.  
     
 3. Na barra de navegação esquerda, clique em **Monitoramento e Arquivamento** e clique em **Registro de Detalhes de Chamada**.
     
@@ -48,9 +48,9 @@ Use o procedimento a seguir para definir as configurações de limpeza de dados 
     
 8. Clique em **Confirmar**.
     
-## <a name="specifying-cdr-retention-by-using-windows-powershell-cmdlets"></a>Especificando a retenção CDR usando cmdlets do Windows PowerShell
+## <a name="specifying-cdr-retention-by-using-windows-powershell-cmdlets"></a>Especificando a retenção de CDR usando Windows PowerShell cmdlets
 
-É possível criar configurações de retenção CDR usando o Windows PowerShell e o cmdlet Set-CsCdrConfiguration. Você pode executar esse cmdlet no Shell de Gerenciamento do Skype for Business Server ou em uma sessão remota do Windows PowerShell. Para obter detalhes sobre como usar o Windows PowerShell remoto para se conectar ao Skype for Business Server, consulte o artigo do blog ["Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell"](https://go.microsoft.com/fwlink/p/?linkId=255876). O processo é o mesmo no Skype for Business Server.
+É possível criar configurações de retenção CDR usando o Windows PowerShell e o cmdlet Set-CsCdrConfiguration. Você pode executar esse cmdlet no Shell de Gerenciamento do Skype for Business Server ou em uma sessão remota de Windows PowerShell. Para obter detalhes sobre como usar o Windows PowerShell remoto para se conectar ao Skype for Business Server, consulte o artigo do blog "Início Rápido: Gerenciando o [Microsoft Lync Server 2010 usando o PowerShell Remoto"](https://go.microsoft.com/fwlink/p/?linkId=255876). O processo é o mesmo no Skype for Business Server.
   
 ### <a name="to-specify-cdr-retention-for-a-specific-location"></a>Para especificar a retenção de CDR para um local específico
 
@@ -68,8 +68,8 @@ Use o procedimento a seguir para definir as configurações de limpeza de dados 
   Get-CsCdrConfiguration | Set-CsCdrConfiguration-EnablePurging -KeepCallDetailForDays 20 -KeepErrorReportForDays 20
   ```
 
-Para obter mais informações, consulte o tópico de ajuda para o cmdlet [Set-CsCdrConfiguration.](https://docs.microsoft.com/powershell/module/skype/set-cscdrconfiguration?view=skype-ps)
+Para obter mais informações, consulte o tópico de ajuda do cmdlet [Set-CsCdrConfiguration.](/powershell/module/skype/set-cscdrconfiguration?view=skype-ps)
   
 ## <a name="see-also"></a>Confira também
 
-[Registro de detalhes das chamadas (CDR) no Skype for Business Server](call-detail-recording-cdr.md)
+[CdR (registro de detalhes de chamada) no Skype for Business Server](call-detail-recording-cdr.md)

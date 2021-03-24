@@ -20,19 +20,19 @@ ms.custom:
 localization_priority: Normal
 search.appverid: MET150
 description: Saiba como usar e gerenciar pacotes de política no Microsoft Teams para simplificar, simplificar e ajudar a fornecer consistência ao gerenciar políticas para grupos de usuários.
-ms.openlocfilehash: 07e2712db52d79e8db66789fe062c8ab46854e5b
-ms.sourcegitcommit: 1613e08da482ff142c990c9c9951abeb873ad964
+ms.openlocfilehash: 5713274270a7784379eb47c6dd1fa875b41e20b1
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "50585684"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51162676"
 ---
 # <a name="manage-policy-packages-in-microsoft-teams"></a>Gerenciar pacotes de política no Microsoft Teams
 
 > [!NOTE]
 > Um dos recursos discutidos neste artigo, pacotes [de política personalizados](#custom-policy-packages), está atualmente em visualização privada.
 
-Um pacote de política no Microsoft Teams é uma coleção de políticas e configurações de política predefinidas que você pode atribuir aos usuários que têm funções semelhantes em sua organização. Construímos pacotes de política para simplificar, simplificar e ajudar a fornecer consistência ao gerenciar políticas para grupos de usuários em toda a sua organização.  
+Um pacote de política no Microsoft Teams é um conjunto de políticas e configurações de política predefinidas que você pode atribuir a usuários com funções semelhantes em sua organização. Construímos pacotes de política para simplificar, simplificar e ajudar a fornecer consistência ao gerenciar políticas para grupos de usuários em toda a sua organização.  
 
 Você pode usar os pacotes [de política incluídos no Teams](#policy-packages-included-in-teams) ou criar seus próprios pacotes de política [personalizados](#custom-policy-packages) (em visualização privada).
 
@@ -66,9 +66,9 @@ Atualmente, o Teams inclui os seguintes pacotes de política.
 |Educação (aluno do ensino fundamental usando o aprendizado remoto)    |Cria um conjunto de políticas que se aplicam aos alunos do ensino fundamental para maximizar a segurança e a colaboração dos alunos ao usarem o aprendizado remoto.      |
 |Gerenciador de frontline |Cria um conjunto de políticas e aplica essas configurações aos gerentes de Linha de Frente em sua organização. |
 |Trabalhador de linha de frente |Cria um conjunto de políticas e aplica essas configurações aos trabalhadores frontline em sua organização. |
-|Trabalhador médico-médico  |Cria um conjunto de políticas e configurações de política que dão aos funcionários médicos, como funcionários registrados, agentes de saúde, médicos e assistentes sociais, acesso total a chats, chamada, gerenciamento de turnos e reuniões. |
-|Profissional de informações de saúde  |Cria um conjunto de políticas e configurações de política que dão aos funcionários de informações, como funcionários de IT, equipe de informática, funcionários financeiros e agentes de conformidade, acesso total a chat, chamada e reuniões.|
-|Sala de pacientes de saúde  |Cria um conjunto de políticas e configurações de política que se aplicam às salas de pacientes em sua organização de saúde.|
+|Profissional clínico da área de saúde  |Cria um conjunto de políticas e configurações de política que dão a funcionários da área de saúde, como enfermeiros registrados, enfermeiros chefe, médicos e assistentes sociais acesso total ao chat, chamadas, gerenciamento de turnos e reuniões. |
+|Profissional de informações da área de saúde  |Cria um conjunto de políticas e configurações de política que dão aos operadores de informações na sua organização da área de saúde, como equipe de TI, de informática, equipe financeira e responsáveis pela conformidade acesso total ao chat, chamadas e reuniões.|
+|Quartos dos pacientes de saúde  |Cria um conjunto de políticas e configurações de política que se aplicam aos quartos dos pacientes em sua organização de saúde.|
 |Usuário de pequenas e médias empresas (Business Voice) |Cria uma política de configuração de aplicativo que inclui os aplicativos para uma experiência de voz comercial.|
 |Usuário de pequenas e médias empresas (sem o Business Voice) |Cria uma política de configuração de aplicativo relevante para usuários do Teams de pequeno e médio porte (experiência que não é do Business Voice).
 |Oficial de segurança pública   |Cria um conjunto de políticas e configurações de política que se aplicam aos agentes de segurança pública em sua organização.|
@@ -76,7 +76,7 @@ Atualmente, o Teams inclui os seguintes pacotes de política.
 > [!NOTE]
 > Adicionaremos mais pacotes de política em versões futuras do Teams, portanto, verifique se há informações mais atualizadas.  
 
-Cada política individual recebe o nome do pacote de política para que você possa identificar facilmente as políticas vinculadas a um pacote de política.
+Cada política individual recebe o nome do pacote de políticas, para que você possa identificar facilmente políticas vinculadas a um pacote de políticas.
 Por exemplo, quando você atribui o pacote de política de Educação (Professor) aos professores em sua escola, uma política chamada Education_Teacher é criada para cada política no pacote.
 
 ![Captura de tela do pacote de política educação (professor)](media/policy-packages-education_teacher.png)
@@ -153,7 +153,7 @@ Para saber mais, confira [Atribuir um pacote de política a um grupo](assign-pol
 
 #### <a name="assign-a-policy-package-to-a-large-set-batch-of-users"></a>Atribuir um pacote de política a um conjunto grande (lote) de usuários
 
-Use a tarefa de pacote de política de lote para atribuir um pacote de política a grandes conjuntos de usuários por vez. Use o cmdlet [New-CsBatchPolicyPackageAssignmentOperation](https://docs.microsoft.com/powershell/module/teams/new-csbatchpolicypackageassignmentoperation) para enviar um lote de usuários e o pacote de política que você deseja atribuir. As atribuições são processadas como uma operação de plano de fundo e uma ID de operação é gerada para cada lote.
+Use a tarefa de pacote de política de lote para atribuir um pacote de política a grandes conjuntos de usuários por vez. Use o cmdlet [New-CsBatchPolicyPackageAssignmentOperation](/powershell/module/teams/new-csbatchpolicypackageassignmentoperation) para enviar um lote de usuários e o pacote de política que você deseja atribuir. As atribuições são processadas como uma operação de plano de fundo e uma ID de operação é gerada para cada lote.
 
 Um lote pode conter até 5.000 usuários. Você pode especificar os usuários por ID do objeto, UPN, endereço SIP ou endereço de email. Para saber mais, confira [Atribuir um pacote de política a um lote de usuários](assign-policies.md#assign-a-policy-package-to-a-batch-of-users).
 
@@ -169,6 +169,6 @@ Isso pode ocorrer se uma ou mais políticas no pacote não foram criadas ou apli
 
 [Pacotes de política do Teams para administradores EDU](policy-packages-edu.md)
 
-[Pacotes de política do Teams para assistência médica](policy-packages-healthcare.md)
+[Pacotes de políticas do Teams para a área de saúde](policy-packages-healthcare.md)
 
 [Pacotes de política do Teams para o governo](policy-packages-gov.md)

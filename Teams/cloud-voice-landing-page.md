@@ -24,12 +24,12 @@ search.appverid: MET150
 description: Saiba mais sobre os recursos de voz na nuvem do Microsoft Teams e as decisões de implantação que você tomará para sua organização.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fcd7ebfd4542c38bd56900c1e414dadec09bf246
-ms.sourcegitcommit: 54140f6f8f2279a0eaf2e9c79699d6cff306791c
+ms.openlocfilehash: 5d77e0b1ec6277bfeffd85d6657d14fe810aae96
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "50408187"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51102567"
 ---
 # <a name="plan-your-teams-voice-solution"></a>Planejar sua solução de voz do Teams 
 
@@ -82,7 +82,7 @@ Considere quais dessas configurações adicionais você pode precisar:
 
 
 > [!Important]
-> Este artigo se concentra em soluções de voz com o Microsoft Teams. Embora as soluções com o Skype for Business Online ainda estão disponíveis (conforme descrito em soluções de telefonia da [Microsoft](https://docs.microsoft.com/SkypeForBusiness/hybrid/msft-telephony-solutions)), é importante entender que o Skype for Business Online será reformado em 31 de julho de 2021.  Após essa data, o serviço Skype for Business Online não estará mais acessível. Além disso, a conectividade PSTN entre seu ambiente local, seja por meio do Skype for Business Server ou do Cloud Connector Edition e do Skype for Business Online, não terá &mdash; &mdash; mais suporte. Este artigo apresenta soluções de voz do Teams e como você pode conectar sua rede de telefonia local, se necessário, ao Teams usando Roteamento Direto.
+> Este artigo se concentra em soluções de voz com o Microsoft Teams. Embora as soluções com o Skype for Business Online ainda estão disponíveis (conforme descrito em soluções de telefonia da [Microsoft](/SkypeForBusiness/hybrid/msft-telephony-solutions)), é importante entender que o Skype for Business Online será reformado em 31 de julho de 2021.  Após essa data, o serviço Skype for Business Online não estará mais acessível. Além disso, a conectividade PSTN entre seu ambiente local, seja por meio do Skype for Business Server ou do Cloud Connector Edition e do Skype for Business Online, não terá &mdash; &mdash; mais suporte. Este artigo apresenta soluções de voz do Teams e como você pode conectar sua rede de telefonia local, se necessário, ao Teams usando Roteamento Direto.
 
 
 ## <a name="phone-system"></a>Sistema de Telefonia
@@ -176,7 +176,7 @@ Para obter mais informações sobre o Plano de Chamada, consulte os seguintes ar
 
 - [Qual plano de chamadas é ideal para você?](calling-plan-landing-page.md)
 - [Como comprar um plano de chamadas](calling-plans-for-office-365.md)
-- [Disponibilidade de país e região do Plano de chamadas](https://docs.microsoft.com/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)
+- [Disponibilidade de país e região do Plano de chamadas](./country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 - [Configurar Plano de Chamada](set-up-calling-plans.md)
 
 
@@ -312,15 +312,3 @@ Para obter mais informações sobre como implementar sua migração de voz para 
   - [Chamada de emergência](voice-case-study-emergency-calling.md)
   - [Atendedores automáticos e filas de chamadas](voice-case-study-call-queues.md)
   - [Audioconferência](voice-case-study-audio-conferencing.md)
-
-
-
-
-
-
-
-
-
-
-
-

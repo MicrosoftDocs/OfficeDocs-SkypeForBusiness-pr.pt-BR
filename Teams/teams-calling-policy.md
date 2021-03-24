@@ -20,12 +20,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6cfa0043b4da6c3087c0e144bb0759ed5b87f01c
-ms.sourcegitcommit: d62e6cefceebe481eb207c59872f1aa67f0fc528
+ms.openlocfilehash: 5e3cc466d855f55f63f34e798443fb285dc36c9e
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "50465425"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51162689"
 ---
 <a name="calling-policies-in-microsoft-teams"></a>Políticas de chamada no Microsoft Teams
 ===================================
@@ -106,6 +106,6 @@ Essa configuração permite ativar ou desativar a música em espera quando um ch
 
 ## <a name="related-topics"></a>Tópicos relacionados
 
-[Set-CSTeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps)
+[Set-CSTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps)
 
 [Atribua políticas a seus usuários no Teams](assign-policies.md)

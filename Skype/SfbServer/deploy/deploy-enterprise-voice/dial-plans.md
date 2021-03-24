@@ -15,13 +15,13 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: d2fef3d0-7e78-4591-b712-d62ac71d71a5
-description: 'Resumo: Saiba como criar ou modificar um plano de discagem usando o Painel de Controle do Skype for Business Server.'
-ms.openlocfilehash: 858ddf652d4c9308c5ec4088fb0d01d284318703
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 'Resumo: saiba como criar ou modificar um plano de discagem usando o Painel de Controle do Skype for Business Server.'
+ms.openlocfilehash: 718d0733aa5fabc072991708d09983ce8cb4267d
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49831021"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51104897"
 ---
 # <a name="create-or-modify-a-dial-plan-in-skype-for-business-server"></a>Criar ou modificar um plano de discagem no Skype for Business Server
 
@@ -35,9 +35,9 @@ ms.locfileid: "49831021"
 
 3. Na página **Plano de Discagem**, clique em **Novo** e selecione um escopo para o plano de discagem:
 
-   - **Plano de discagem do Site** se aplica a todo um site, exceto quaisquer usuários ou grupos que recebem um plano de discagem de usuário. Se você selecionar **Site** para o escopo de um plano de discagem, deverá escolher o site na caixa de diálogo Selecionar **um Site.** Se já houver um plano de discagem para um site, o site não aparecerá na caixa de diálogo **Selecionar um Site**.
+   - **Plano de discagem do Site** se aplica a todo um site, exceto quaisquer usuários ou grupos que recebem um plano de discagem de usuário. Se você selecionar **Site** para o escopo de um plano de discagem, deverá escolher o site na caixa de diálogo **Selecionar um Site.** Se já houver um plano de discagem para um site, o site não aparecerá na caixa de diálogo **Selecionar um Site**.
 
-   - **Plano de discagem do pool** pode se aplicar a um gateway de PSTN (Rede Telefônica Pública Comutada) ou um registrador. Se você selecionar **Pool para** o escopo de um plano de discagem, escolha o gateway PSTN ou Registrador na caixa de diálogo Selecionar **um** Serviço. Se um plano de discagem já tiver sido criado para um serviço (gateway PSTN ou registrador), o serviço não aparecerá na lista.
+   - **Plano de discagem do pool** pode se aplicar a um gateway de PSTN (Rede Telefônica Pública Comutada) ou um registrador. Se você selecionar **Pool para** o escopo de um plano de discagem, escolha o gateway PSTN ou Registrador na caixa de diálogo Selecionar **um Serviço.** Se um plano de discagem já tiver sido criado para um serviço (gateway PSTN ou registrador), o serviço não aparecerá na lista.
 
    - **Plano de discagem do usuário** pode ser aplicado a usuários ou grupos especificados.
 
@@ -47,12 +47,12 @@ ms.locfileid: "49831021"
 4. Se você estiver criando um plano de discagem do usuário, insira um nome descritivo no campo **Nome** na caixa de diálogo **Novo Plano de Discagem**. Após o nome ser salvo, não será possível alterá-lo.
 
     > [!NOTE]
-    > Para planos de  discagem de site, o campo Nome é pré-populado com o  nome do site e não pode ser alterado.> Para planos de discagem do pool, o campo Nome é pré-populado com o gateway PSTN ou o nome do Registrador e não pode ser alterado.
+    > Para planos de  discagem de site, o campo Nome é pré-populado com o nome do site e não pode ser alterado.> Para planos de discagem de pool, o campo **Nome** é pré-populado com o gateway PSTN ou o nome do Registrador e não pode ser alterado.
 
 5. O campo **Nome simples** é pré-preenchido com o mesmo nome que aparece no campo **Nome**. Como opção, é possível editar esse campo para especificar um nome mais descritivo que reflete o site, o serviço ou o usuário ao qual o plano de discagem se aplica.
 
    > [!IMPORTANT]
-   > O **nome Simples deve ser** exclusivo entre todos os planos de discagem em sua implantação. Ele não pode exceder 256 caracteres Unicode, cada um deles pode ser um caractere alfabético ou numérico, um hífen (-), um ponto (.) ou um sublinhado (_).> Caracteres sem suporte incluem espaços e caracteres reservados, conforme definido na RFC 3966 (  <http://www.ietf.org/rfc/rfc3966.txt> ). Os caracteres reservados **que não têm suporte** no Nome **Simples** incluem o seguinte:> ";" "/" "?" ":" "@" "&amp;" "=" "+" "$" ","
+   > O **nome Simples deve** ser exclusivo entre todos os planos de discagem em sua implantação. Ele não pode exceder 256 caracteres Unicode, cada um deles pode ser um caractere alfabético ou numérico, um hífen (-), um ponto (.) ou um sublinhado (_).> Caracteres não suportados incluem espaços e caracteres reservados conforme definido na RFC 3966 (  <http://www.ietf.org/rfc/rfc3966.txt> ). Caracteres reservados que **não são suportados** no **Nome Simples** incluem o seguinte:> ";" "/" "?" ":" "@" "&amp;" "=" "+" "$" ","
 
 6. (Opcional) No campo **Descrição**, você pode digitar informações descritivas adicionais sobre o plano de discagem.
 
@@ -68,9 +68,9 @@ ms.locfileid: "49831021"
 
 9. Associe e configure as regras de normalização para o plano de discagem da seguinte maneira:
 
-    - Para escolher uma ou mais regras de uma lista de todas as regras de normalização disponíveis em sua implantação do Enterprise Voice, clique em **Selecionar**. Em **Selecionar as Regras de Normalização**, realce as regras que você deseja associar ao plano de discagem e clique em **OK**.
+    - Para escolher uma ou mais regras em uma lista de todas as regras de normalização disponíveis em sua implantação Enterprise Voice, clique em **Selecionar**. Em **Selecionar as Regras de Normalização**, realce as regras que você deseja associar ao plano de discagem e clique em **OK**.
 
-   - Para definir uma nova regra de normalização e associá-la ao plano de discagem, clique em **Novo**. Para obter detalhes sobre como definir uma nova regra, consulte Criar ou [modificar uma regra de normalização no Skype for Business.](normalization-rules.md)
+   - Para definir uma nova regra de normalização e associá-la ao plano de discagem, clique em **Novo**. Para obter detalhes sobre como definir uma nova regra, consulte [Create or modify a normalization rule in Skype for Business](normalization-rules.md).
 
    - Para editar uma regra de normalização que já está associada ao plano de discagem, realce o nome da regra e clique em **Mostrar detalhes**.
 
@@ -79,12 +79,12 @@ ms.locfileid: "49831021"
    - Para remover uma regra de normalização do plano de discagem, realce o nome da regra e clique em **Remover**.
 
      > [!NOTE]
-     > Cada plano de discagem precisa ter pelo menos uma regra de normalização associada. Para obter informações sobre como determinar todas as regras de normalização exigidas por um plano de discagem, consulte [Plan for outbound voice routing in Skype for Business Server](../../plan-your-deployment/enterprise-voice-solution/outbound-voice-routing.md) na documentação planejamento.
+     > Cada plano de discagem precisa ter pelo menos uma regra de normalização associada. Para obter informações sobre como determinar todas as regras de normalização que um plano de discagem exige, consulte [Plan for outbound voice routing in Skype for Business Server](../../plan-your-deployment/enterprise-voice-solution/outbound-voice-routing.md) na documentação planejamento.
 
 10. Verifique se as regras de normalização do plano de discagem estão organizadas na ordem correta. Para alterar a posição de uma regra na lista, realça o nome da regra e clique na seta para cima ou para baixo.
 
     > [!IMPORTANT]
-    > O Skype for Business Server percorre a lista de regras de normalização de cima para baixo e usa a primeira regra que corresponde ao número discado. Se você configurar um plano de discagem de modo que um número discado possa corresponder a mais de uma regra de normalização, certifique-se de que as regras mais restritivas sejam classificadas acima das menos restritivas. > O padrão **Keep All** normalization rule^(\d )$ corresponde a qualquer número de {11} 11 dígitos. Por exemplo, se você adicionar uma regra de normalização que corresponde a números de  11 dígitos que começam com 1425, certifique-se de que Manter Tudo está organizado abaixo da regra mais restritiva^(1425\d {7} )$.
+    > O Skype for Business Server percorre a lista de regras de normalização da parte superior para baixo e usa a primeira regra que corresponde ao número discado. Se você configurar um plano de discagem de modo que um número discado possa corresponder a mais de uma regra de normalização, certifique-se de que as regras mais restritivas sejam classificadas acima das menos restritivas. > A regra de normalização padrão Keep All^(\d )$ corresponde a qualquer número de  {11} 11 dígitos. Por exemplo, se você adicionar uma regra de normalização que corresponde a números de 11 dígitos que começam com 1425, certifique-se de que **Keep All** seja classificação abaixo da regra mais restritiva^(1425\d {7} )$.
 
 11. (Opcional) Insira um número para testar o plano de discagem e, em seguida, clique em   **Ir**. Os resultados do teste são exibidos em   **Insira um número de teste**.
 
@@ -93,13 +93,13 @@ ms.locfileid: "49831021"
 13. Na página **Plano de Discagem**, clique em **Confirmar** e clique em **Confirmar tudo**.
 
     > [!NOTE]
-    > Sempre que você criar um plano de discagem, será necessário executar o comando **Confirmar tudo** para publicar a alteração na configuração. Para obter detalhes, [consulte Publish pending changes to the voice routing configuration in Skype for Business](voice-route-config-changes.md) in the Operations documentation.
+    > Sempre que você criar um plano de discagem, será necessário executar o comando **Confirmar tudo** para publicar a alteração na configuração. Para obter detalhes, [consulte Publicar alterações pendentes na](voice-route-config-changes.md) configuração de roteamento de voz no Skype for Business na documentação Operações.
 
 ### <a name="to-modify-a-dial-plan"></a>Para modificar um plano de discagem
 
 1. Faça logon no computador como membro do grupo RTCUniversalServerAdmins ou como membro da função CsVoiceAdministrator, CsServerAdministrator ou CsAdministrator. Para obter detalhes, consulte **Delegate Setup Permissions**.
 
-2. Abra uma janela do navegador e insira a URL do Administrador para abrir o Painel de Controle do Skype for Business Server.
+2. Abra uma janela do navegador e insira a URL do administrador para abrir o Painel de Controle do Skype for Business Server.
 
 3. Na barra de navegação esquerda, clique em **Roteamento de Voz** e clique em **Plano de Discagem**.
 
@@ -108,10 +108,10 @@ ms.locfileid: "49831021"
     > [!NOTE]
     > O escopo e o nome do plano de discagem foram definidos quando o plano de discagem foi criado. Eles não podem ser alterados.
 
-5. (Opcional) Em **Editar** Plano de  Discagem, edite o campo Nome Simples,  que é pré-populado com o mesmo nome que aparece no campo Nome para especificar um nome mais descritivo que reflete o site, serviço ou usuário ao qual o plano de discagem se aplica.
+5. (Opcional) Em **Editar Plano** de  Discagem , edite o campo Nome simples,  que é pré-populado com o mesmo nome que aparece no campo Nome para especificar um nome mais descritivo que reflita o site, serviço ou usuário ao qual o plano de discagem se aplica.
 
     > [!IMPORTANT]
-    > O **nome Simples deve** ser exclusivo entre todos os planos de discagem dentro da implantação do Lync Server 2013. Ele não pode exceder 256 caracteres Unicode, cada um deles pode ser um caractere alfabético ou numérico, um hífen (-), um ponto (.), um sinal de a mais (+) ou um sublinhado (_).espaços > não são permitidos no campo Nome simples. 
+    > O **nome Simples** deve ser exclusivo entre todos os planos de discagem dentro da implantação do Lync Server 2013. Ele não pode exceder 256 caracteres Unicode, cada um deles pode ser um caractere alfabético ou numérico, um hífen (-), um ponto (.), um sinal de a mais (+) ou um sublinhado (_).> Espaços não são permitidos no campo **Nome** simples.
 
 6. (Opcional) No campo **Descrição,** digite informações descritivas sobre o plano de discagem.
 
@@ -120,16 +120,16 @@ ms.locfileid: "49831021"
     > [!NOTE]
     > As regiões de conferência d discagem são necessárias para associar números de acesso de conferência de discagem a um ou mais planos de discagem.
 
-8. (Opcional) No campo **de prefixo** de acesso externo, especifique um valor somente se os usuários precisam discar um ou mais dígitos incidados adicionais para obter uma linha externa (por exemplo, 9). Você pode digitar um valor de prefixo de até quatro caracteres (ou seja, #, *e 0-9).
+8. (Opcional) No campo **Prefixo de acesso** externo, especifique um valor somente se os usuários precisarem discar um ou mais dígitos principais adicionais para obter uma linha externa (por exemplo, 9). Você pode digitar um valor de prefixo de até quatro caracteres (ou seja, #, *, e 0-9).
 
     > [!NOTE]
     > Se você especificar um prefixo de acesso externo, não será necessário criar uma nova regra de normalização para acomodar o prefixo.
 
-9. Associe e configure regras de normalização para o plano de discagem:
+9. Associar e configurar regras de normalização para o plano de discagem:
 
-   - Para escolher uma ou mais regras de uma lista de todas as regras de normalização disponíveis em sua implantação do Enterprise Voice, clique em **Selecionar**. Na caixa **de diálogo Selecionar Regras** de Normalização, realce as regras que deseja associar ao plano de discagem e clique em **OK.**
+   - Para escolher uma ou mais regras em uma lista de todas as regras de normalização disponíveis em sua implantação Enterprise Voice, clique em **Selecionar**. Na caixa **de diálogo Selecionar Regras** de Normalização, realce as regras que você deseja associar ao plano de discagem e clique em **OK**.
 
-   - Para definir uma nova regra de normalização e associá-la ao plano de discagem, clique em **Novo**. Para obter detalhes sobre como definir uma nova regra, consulte Criar ou [modificar uma regra de normalização no Skype for Business.](normalization-rules.md)
+   - Para definir uma nova regra de normalização e associá-la ao plano de discagem, clique em **Novo**. Para obter detalhes sobre como definir uma nova regra, consulte [Create or modify a normalization rule in Skype for Business](normalization-rules.md).
 
    - Para editar uma regra de normalização que já está associada ao plano de discagem, realce o nome da regra e clique em **Mostrar detalhes**.
 
@@ -138,26 +138,25 @@ ms.locfileid: "49831021"
    - Para remover uma regra de normalização do plano de discagem, realce o nome da regra e clique em **Remover**.
 
      > [!NOTE]
-     > Cada plano de discagem precisa ter pelo menos uma regra de normalização associada. Para obter detalhes sobre como determinar todas as regras de normalização exigidas por um plano de discagem, consulte [Plan for outbound voice routing in Skype for Business Server](../../plan-your-deployment/enterprise-voice-solution/outbound-voice-routing.md) na documentação planejamento.
+     > Cada plano de discagem precisa ter pelo menos uma regra de normalização associada. Para obter detalhes sobre como determinar todas as regras de normalização que um plano de discagem exige, consulte [Plan for outbound voice routing in Skype for Business Server](../../plan-your-deployment/enterprise-voice-solution/outbound-voice-routing.md) na documentação planejamento.
 
 10. Verifique se as regras de normalização do plano de discagem estão organizadas na ordem correta. Para alterar a posição de uma regra na lista, realça o nome da regra e clique na seta para cima ou para baixo.
 
     > [!IMPORTANT]
-    > O Skype for Business Server percorre a lista de regras de normalização de cima para baixo e usa a primeira regra que corresponde ao número discado. Se você configurar um plano de discagem de modo que um número discado possa corresponder a mais de uma regra de normalização, certifique-se de que as regras mais restritivas sejam classificadas acima das menos restritivas. > O padrão **Keep All** normalization rule^(\d )$ corresponde a qualquer número de {11} 11 dígitos. Se, por exemplo, você adicionar uma regra de normalização que corresponde a números de  11 dígitos que começam com 1425, certifique-se de que Manter Tudo está organizado abaixo da regra mais restritiva^(1425\d {7} )$.
+    > O Skype for Business Server percorre a lista de regras de normalização da parte superior para baixo e usa a primeira regra que corresponde ao número discado. Se você configurar um plano de discagem de modo que um número discado possa corresponder a mais de uma regra de normalização, certifique-se de que as regras mais restritivas sejam classificadas acima das menos restritivas. > A regra de normalização padrão Keep All^(\d )$ corresponde a qualquer número de  {11} 11 dígitos. Se, por exemplo, você adicionar uma regra de normalização que corresponde a números de 11 dígitos que começam com 1425, certifique-se de que **Keep All** seja classificação abaixo da regra mais restritiva^(1425\d {7} )$.
 
 11. (Opcional) Insira um número para testar o plano de discagem e, em seguida, clique em   **Ir**. Os resultados do teste são exibidos em   **Insira um número de teste**.
 
     > [!NOTE]
-    > É possível salvar um plano de discagem que não passou ainda no teste e reconfigurá-lo mais tarde. Para obter detalhes, consulte [Testing Voice Routing](https://technet.microsoft.com/library/d3aae909-fef6-440f-b144-0b62dc82bf5d.aspx).
+    > É possível salvar um plano de discagem que não passou ainda no teste e reconfigurá-lo mais tarde. Para obter detalhes, consulte [Testing Voice Routing](/previous-versions/office/lync-server-2013/lync-server-2013-test-voice-routing).
 
 12. Clique em **OK**.
 
 13. Na página **Plano de Discagem**, clique em **Confirmar** e clique em **Confirmar tudo**.
 
     > [!NOTE]
-    > Sempre que você criar ou modificar um plano de discagem, deverá executar o comando **Commit all** para publicar a alteração na configuração. Para obter detalhes, [consulte Publish pending changes to the voice routing configuration in Skype for Business](voice-route-config-changes.md) in the Operations documentation.
+    > Sempre que você criar ou modificar um plano de discagem, deverá executar o comando **Commit all** para publicar a alteração de configuração. Para obter detalhes, [consulte Publicar alterações pendentes na](voice-route-config-changes.md) configuração de roteamento de voz no Skype for Business na documentação Operações.
 
 ## <a name="see-also"></a>Confira também
 
 [Publicar alterações pendentes na configuração de roteamento de voz no Skype for Business](voice-route-config-changes.md)
-

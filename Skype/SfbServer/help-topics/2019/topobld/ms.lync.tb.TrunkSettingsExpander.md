@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 3d00e8f4-e599-4094-a4a1-34fd6e8a5580
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Para editar ou modificar as configurações de um tronco SIP, faça o seguinte:'
-ms.openlocfilehash: 43cce7d0e61cf2e2c4f5fa6e4bcb845fd63fbc03
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 907348defb35ef872ce36f84e6e6cc7695921529
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49807531"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51101777"
 ---
 # <a name="trunk-settings-expander"></a>Expansor de Configurações de Tronco
 
@@ -34,17 +34,17 @@ Para editar ou modificar as configurações de um tronco SIP, faça o seguinte:
 
  **Protocolo de Transporte SIP**: o protocolo usado pode ser TCP ou TLS. TLS é o padrão. Consulte a documentação do fornecedor do gateway para saber o que seu gateway suporta. O padrão é TLS, e deve ser considerado a seleção mais segura, se o gateway suportar TLS.
 
- **Servidor de Mediação Associado:** selecione um Servidor de Mediação existente na implantação para associar ao tronco SIP.
+ **Servidor de Mediação Associado**: Selecione um Servidor de Mediação existente na implantação para associar ao tronco SIP.
 
 > [!NOTE]
 > Somente o tronco raiz pode ser associado a um Servidor de Mediação.
 
- **Porta do Servidor de Mediação** Associada: um valor obrigatório, é definido como o valor que o Servidor de Mediação está configurado para escutar.
+ **Porta do Servidor de Mediação** Associada : Um valor obrigatório, que é definido como o valor no que o Servidor de Mediação está configurado para ouvir.
 
 ![Expansor de Configurações de Tronco](../../../media/Trunk_Settings_Expander.jpg)
 
 ## <a name="see-also"></a>Confira também
 
-[Lista de verificação de implantação de tronco SIP](https://technet.microsoft.com/library/94f4f03e-19d5-4198-92be-e4076dbb959a.aspx)
+[Lista de verificação de implantação de tronco SIP](/previous-versions/office/lync-server-2013/lync-server-2013-sip-trunk-deployment-checklist)
 
-[Componentes e topologias para tronco SIP](https://technet.microsoft.com/library/8ed9a9d0-517e-4f36-a131-22cdafa257fa.aspx)
+[Componentes e topologias para tronco SIP](/previous-versions/office/lync-server-2013/lync-server-2013-components-and-topologies-for-sip-trunking)

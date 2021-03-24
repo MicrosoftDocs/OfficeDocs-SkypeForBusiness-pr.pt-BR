@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: c73780cd-0033-4287-9ecd-ecf65ca61e62
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Para editar as configurações de um pool de Borda de um único ou vários servidores existente, você pode usar as seguintes seções:'
-ms.openlocfilehash: cc8e0094a601faaf89c6a932172d5b6cb3522f2d
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: c887ffaa16818e377035109632871b7bc7ed25d8
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49822431"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51108797"
 ---
 # <a name="edge-settings-expander"></a>Expansor de Configurações de Borda
 
@@ -37,13 +37,13 @@ Para editar as configurações de um pool de Borda de um único ou vários servi
 
 FQDN (nome de domínio totalmente qualificado) de pool interno do pool de Servidor de Borda. Edite o FQDN do pool para alterar essa configuração.
 
-Marque a caixa de seleção Habilitar federação para este pool de Borda **(Porta 5061)** se você for configurar a federação com um servidor do Skype for Business Server 2015.
+Marque a caixa de seleção Habilitar federação para este pool de Borda **(Porta 5061)** se você configurar a federação com um servidor skype for Business Server 2015.
 
 Especifique o número da porta para **Porta de Replicação de Configuração Interna (HTTPS)**.
 
 ## <a name="next-hop-selection-settings"></a>Configurações de seleção de próximo salto
 
-Para definir ou modificar o **pool** de próximo salto que os Servidores de Borda usarão para se comunicar com a infraestrutura interna, selecione um Diretor, pool de Diretores, Servidor De front-end ou pool de Servidor front-end na caixa de listagem da lista. Somente Diretores ou Front-Ends configurados no Construtor de Topologias aparecerão para seleção.
+Para definir ou modificar o **pool** de Próximo salto que os Servidores de Borda usarão para se comunicar com a infraestrutura interna, selecione um diretor, pool de diretores, servidor front-end ou pool de Servidor de Front-End na caixa de listagem lista listada. Somente Diretores ou Front Ends configurados no Construtor de Topologias serão exibidos para seleção.
 
 ## <a name="edge-server-configuration"></a>Configuração do Servidor de Borda
 
@@ -63,6 +63,4 @@ Caso você determine que sua organização utilizará um único endereço IP e F
 
 ## <a name="see-also"></a>Confira também
 
-Para maiores detalhes sobre como definir e configurar as definições para os Serviços de Borda, consulte [Define Your Edge Topology](https://technet.microsoft.com/library/787b23f1-8fa0-4c37-abf2-c516c5dd66f0.aspx).
-
-
+Para maiores detalhes sobre como definir e configurar as definições para os Serviços de Borda, consulte [Define Your Edge Topology](/previous-versions/office/lync-server-2013/lync-server-2013-define-your-edge-topology).

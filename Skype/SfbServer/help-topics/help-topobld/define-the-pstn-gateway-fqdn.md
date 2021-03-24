@@ -14,20 +14,20 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c6135e2a-5d44-4046-bd53-fac4fdf52238
-description: Especifique o FQDN (nome de domínio totalmente qualificado) do gateway PSTN (rede telefônica pública comutado) que conectará seus componentes do Enterprise Voice a uma PSTN ou PBX (central privada de comução).
-ms.openlocfilehash: 39715f807c65914ab75815cbeffd072686e87f15
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Você especifica o FQDN (nome de domínio totalmente qualificado) do gateway PSTN (rede telefônica pública comutado) que conectará seus componentes Enterprise Voice a um PSTN ou pbx (private branch exchange).
+ms.openlocfilehash: 3d5620ba9cf186ffb2b7c971683f299288302a1a
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49804861"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51106877"
 ---
 # <a name="define-the-pstn-gateway-fqdn"></a>Definir o Gateway PSTN do FQDN
 
-Especifique o FQDN (nome de domínio totalmente qualificado) do gateway PSTN (rede telefônica pública comutado) que conectará seus componentes do Enterprise Voice a uma PSTN ou PBX (central privada de comução).
+Você especifica o FQDN (nome de domínio totalmente qualificado) do gateway PSTN (rede telefônica pública comutado) que conectará seus componentes Enterprise Voice a um PSTN ou pbx (private branch exchange).
 
-Para obter detalhes, consulte [PSTN connectivity components in Skype for Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/pstn-connectivity.md)
+Para obter detalhes, consulte Componentes de conectividade [PSTN no Skype for Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/pstn-connectivity.md)
 
 ## <a name="see-also"></a>Confira também
 
-[Opções de implantação do gateways PSTN](https://technet.microsoft.com/library/d1ab4f74-18aa-40c7-a8cf-ec806cf6e28a.aspx)
+[Opções de implantação do gateways PSTN](/previous-versions/office/lync-server-2013/lync-server-2013-pstn-gateway-deployment-options)

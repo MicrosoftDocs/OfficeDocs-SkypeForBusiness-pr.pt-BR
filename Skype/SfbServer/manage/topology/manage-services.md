@@ -10,29 +10,29 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: Saiba como exibir o status do serviço, iniciar e interromper serviços e impedir sessões de serviços.
-ms.openlocfilehash: 6071526febcd3a4c1cb925ae3fb704eca6db575c
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Saiba como exibir o status do serviço, iniciar e interromper serviços e impedir sessões para serviços.
+ms.openlocfilehash: 34228a7e1b8cf9ef044d2f1f15c4b1219f795d79
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49826311"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51103177"
 ---
 # <a name="manage-services-in-skype-for-business-server"></a>Gerenciar serviços no Skype for Business Server
 
-Você pode usar o Painel de Controle do Skype for Business Server para exibir uma lista de todos os computadores que estão executando o Skype for Business Server em sua topologia, exibir o status dos serviços, iniciar ou parar serviços e impedir sessões de serviços.
+Você pode usar o Painel de Controle do Skype for Business Server para exibir uma lista de todos os computadores que estão executando o Skype for Business Server em sua topologia, exibir o status dos serviços, iniciar ou interromper serviços e impedir sessões para serviços.
 
 - [Exibir uma lista de computadores que executam o Skype for Business Server](#view-a-list-of-computers-running-skype-for-business-server)
 - [Exibir o status dos serviços em execução em um computador no Skype for Business](#view-the-status-of-services-running-on-a-computer-in-skype-for-business)
-- [Iniciar ou interromper os serviços do Skype for Business](#start-or-stop-skype-for-business-services)
+- [Iniciar ou interromper serviços do Skype for Business](#start-or-stop-skype-for-business-services)
 - [Evitar sessões de serviços](#prevent-sessions-for-services)
 
 ## <a name="view-a-list-of-computers-running-skype-for-business-server"></a>Exibir uma lista de computadores que executam o Skype for Business Server
 
-Use o Painel de Controle do Skype for Business Server para exibir uma lista de todos os computadores que estão executando o Skype for Business em sua topologia e ver o status de serviço de cada um deles. Você pode classificar a lista por computador, pool ou site. 
+Use o Painel de Controle do Skype for Business Server para exibir uma lista de todos os computadores que estão executando o Skype for Business em sua topologia e veja o status de serviço de cada um. Você pode classificar a lista por computador, pool ou site. 
 
-1. Em uma conta de usuário atribuída a qualquer uma das funções administrativas predefinidos do Skype for Business Server, faça logoff em qualquer computador da sua implantação interna. Para obter mais informações, consulte Controle de acesso [baseado em função (RBAC) para Skype for Business Server](../../plan-your-deployment/security/role-based-access-control-rbac.md).
-2. Abra uma janela do navegador e insira a URL do Administrador para abrir o Painel de Controle do Skype for Business Server. Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o Painel de Controle do Skype for Business Server, consulte Instalar e [abrir ferramentas administrativas.](../../management-tools/install-and-open-administrative-tools.md)
+1. Em uma conta de usuário atribuída a qualquer uma das funções administrativas predefinida para o Skype for Business Server, faça logoff em qualquer computador em sua implantação interna. Para obter mais informações, consulte Controle de acesso baseado em [função (RBAC) para Skype for Business Server](../../plan-your-deployment/security/role-based-access-control-rbac.md).
+2. Abra uma janela do navegador e insira a URL do administrador para abrir o Painel de Controle do Skype for Business Server. Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o Painel de Controle do Skype for Business Server, consulte [Install and open administrative tools](../../management-tools/install-and-open-administrative-tools.md).
 3. Na barra de navegação à esquerda, clique em **Topologia** e em **Status**.
 4. Na página Status, faça o seguinte conforme necessário:
     - Classifique a lista clicando no título de coluna **Computador**, **Pool** ou **Site** e, em seguida, clicando na seta para cima ou seta para baixo.
@@ -41,19 +41,19 @@ Use o Painel de Controle do Skype for Business Server para exibir uma lista de t
    
 ## <a name="view-the-status-of-services-running-on-a-computer-in-skype-for-business"></a>Exibir o status dos serviços em execução em um computador no Skype for Business
 
-Use o Painel de Controle do Skype for Business Server para exibir todos os serviços que estão sendo executados em um computador específico em sua topologia do Skype for Business Server e ver o status de cada serviço.
+Use o Painel de Controle do Skype for Business Server para exibir todos os serviços que estão sendo executados em um computador específico em sua topologia do Skype for Business Server e consulte o status de cada serviço.
 
 1. Por uma conta de usuário atribuída à função CsUserAdministrator role ou CsAdministrator, faça o login em qualquer computador na sua implantação interna.
-2. Abra uma janela do navegador e insira a URL do Administrador para abrir o Painel de Controle. Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o Painel de Controle do Skype for Business Server, consulte Instalar e [abrir ferramentas administrativas.](../../management-tools/install-and-open-administrative-tools.md)
+2. Abra uma janela do navegador e insira a URL do Administrador para abrir o Painel de Controle. Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o Painel de Controle do Skype for Business Server, consulte [Install and open administrative tools](../../management-tools/install-and-open-administrative-tools.md).
 3. Na barra de navegação esquerda, clique em **Topologia**.
 4. Na página Status, classifique ou pesquise a lista conforme necessário para localizar o computador que deseja e clique no nome do computador.
-5. Faça o seguinte:
+5. Faça um dos seguintes:
     - Para ver os status de serviços mais atuais executados no computador, clique em **Obter status de serviço**.
     - Para ver uma lista de serviços específicos executados no computador e o status de cada serviço, clique em **Propriedades** e em **Fechar** para retornar à lista.
 
-### <a name="viewing-service-status-by-using-windows-powershell-cmdlets"></a>Exibindo o status do serviço usando cmdlets do Windows PowerShell
+### <a name="viewing-service-status-by-using-windows-powershell-cmdlets"></a>Exibindo o status do serviço usando Windows PowerShell Cmdlets
 
-Você também pode exibir o status do serviço usando o Windows PowerShell e o Get-CsWindowsService cmdlet. Você pode executar este cmdlet usando o Shell de gerenciamento do Skype for Business Server ou uma sessão remota do Windows PowerShell. Para obter mais informações, [consulte o Shell de Gerenciamento do Skype for Business Server.](../management-shell.md)
+Você também pode exibir o status do serviço usando Windows PowerShell e o cmdlet Get-CsWindowsService usuário. Você pode executar este cmdlet usando o Shell de gerenciamento do Skype for Business Server ou uma sessão remota do Windows PowerShell. Para obter mais informações, consulte [Skype for Business Server Management Shell](../management-shell.md).
 
 **Para exibir o status do serviço**
 
@@ -77,30 +77,30 @@ RoleName                                  Status
 {MediationServer}                         Running
 ```
 
-Para obter detalhes, [consulte Get-CsWindowsService](https://docs.microsoft.com/powershell/module/skype/Get-CsWindowsService).
+Para obter detalhes, [consulte Get-CsWindowsService](/powershell/module/skype/Get-CsWindowsService).
 
-## <a name="start-or-stop-skype-for-business-services"></a>Iniciar ou interromper os serviços do Skype for Business
+## <a name="start-or-stop-skype-for-business-services"></a>Iniciar ou interromper serviços do Skype for Business
 
-Use o Painel de Controle do Skype for Business Server para iniciar ou parar todos os serviços do Skype for Business Server em execução em um computador específico ou para iniciar ou parar um serviço específico.
+Use o Painel de Controle do Skype for Business Server para iniciar ou interromper todos os serviços do Skype for Business Server em execução em um computador específico ou para iniciar ou interromper um serviço específico.
 
-### <a name="start-or-stop-all-skype-for-business-server-services-on-a-computer"></a>Iniciar ou parar todos os serviços do Skype for Business Server em um computador
+### <a name="start-or-stop-all-skype-for-business-server-services-on-a-computer"></a>Iniciar ou interromper todos os serviços do Skype for Business Server em um computador
 
-1. Em uma conta de usuário que seja membro do grupo RTCUniversalServerAdmins (ou que tenha direitos de usuário equivalentes) ou atribuído à função CsServerAdministrator ou CsAdministrator, faça logon em qualquer computador que está na rede na qual você implantou o Skype for Business Server. Você pode determinar se foi atribuída a função RBAC CsServerAdministrator ou CsAdministrator executando um comando semelhante ao seguinte:
+1. De uma conta de usuário que é membro do grupo RTCUniversalServerAdmins (ou tem direitos de usuário equivalentes) ou atribuída à função CsServerAdministrator ou CsAdministrator, faça logon em qualquer computador que está na rede na qual você implantou o Skype for Business Server. Você pode determinar se foi atribuída a função CsServerAdministrator ou CsAdministrator RBAC executando um comando semelhante ao seguinte:
 
     ```powershell
     Get-CsAdminRoleAssignment -Identity "kenmyer"`
     ```
 
-2. Abra uma janela do navegador e insira a URL do Administrador para abrir o Painel de Controle do Skype for Business Server. Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o Painel de Controle do Skype for Business Server, consulte Instalar e [abrir ferramentas administrativas.](../../management-tools/install-and-open-administrative-tools.md)
+2. Abra uma janela do navegador e insira a URL do administrador para abrir o Painel de Controle do Skype for Business Server. Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o Painel de Controle do Skype for Business Server, consulte [Install and open administrative tools](../../management-tools/install-and-open-administrative-tools.md).
 3. Na barra de navegação à esquerda, clique em **Topologia** e em **Status**.
 4. Na página Status, classifique ou procure pela lista para encontrar o computador executando os serviços que você deseja iniciar ou parar e clique neles.
 5. Clique em **Ação**.
 6. Clique em **Iniciar todos os serviços** ou **Parar todos os serviços**.
 
-### <a name="start-or-stop-a-specific-service"></a>Iniciar ou parar um serviço específico
+### <a name="start-or-stop-a-specific-service"></a>Iniciar ou interromper um serviço específico
 
 1. Por uma conta de usuário atribuída à função CsUserAdministrator role ou CsAdministrator, faça o login em qualquer computador na sua implantação interna.
-2. Abra uma janela do navegador e insira a URL do Administrador para abrir o Painel de Controle. Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o Painel de Controle do Skype for Business Server, consulte Instalar e [abrir ferramentas administrativas.](../../management-tools/install-and-open-administrative-tools.md)
+2. Abra uma janela do navegador e insira a URL do Administrador para abrir o Painel de Controle. Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o Painel de Controle do Skype for Business Server, consulte [Install and open administrative tools](../../management-tools/install-and-open-administrative-tools.md).
 3. Na barra de navegação à esquerda, clique em **Topologia** e em **Status**.
 4. Na página Status, classifique ou pesquise na lista conforme o necessário para encontrar o computador que está executando o serviço que você deseja iniciar ou interromper e clique nele.
 5. Clique em **Propriedades**.
@@ -112,12 +112,12 @@ Use o Painel de Controle do Skype for Business Server para iniciar ou parar todo
 
 ## <a name="prevent-sessions-for-services"></a>Evitar sessões de serviços
 
-Use o Painel de Controle do Skype for Business para impedir novas sessões de todos os serviços do Skype for Business Server em execução em um computador específico ou para impedir novas sessões de um serviço específico.
+Use o Painel de Controle do Skype for Business para impedir novas sessões para todos os serviços do Skype for Business Server em execução em um computador específico ou para impedir novas sessões para um serviço específico.
 
-### <a name="prevent-new-sessions-for-all--skype-for-business-server-services-on-a-computer"></a>Impedir novas sessões de todos os serviços do Skype for Business Server em um computador
+### <a name="prevent-new-sessions-for-all--skype-for-business-server-services-on-a-computer"></a>Impedir novas sessões para todos os serviços do Skype for Business Server em um computador
 
-1. Em uma conta de usuário que seja membro do grupo RTCUniversalServerAdmins (ou que tenha direitos de usuário equivalentes) ou atribuído à função CsServerAdministrator ou CsAdministrator, faça logon em qualquer computador que está na rede na qual você implantou o Skype for Business Server.
-2. Abra uma janela do navegador e insira a URL do Administrador para abrir o Painel de Controle. Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o Painel de Controle do Skype for Business Server, consulte Instalar e [abrir ferramentas administrativas.](../../management-tools/install-and-open-administrative-tools.md)
+1. De uma conta de usuário que é membro do grupo RTCUniversalServerAdmins (ou tem direitos de usuário equivalentes) ou atribuída à função CsServerAdministrator ou CsAdministrator, faça logon em qualquer computador que está na rede na qual você implantou o Skype for Business Server.
+2. Abra uma janela do navegador e insira a URL do Administrador para abrir o Painel de Controle. Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o Painel de Controle do Skype for Business Server, consulte [Install and open administrative tools](../../management-tools/install-and-open-administrative-tools.md).
 3. Na barra de navegação esquerda, clique em **Topologia** e em **Status**.
 4. Na página Status, classifique ou pesquise na lista conforme o necessário para encontrar o computador que está executando os serviços para os quais você deseja impedir novas sessões e clique nele.
 5. Clique em **Ação**.
@@ -125,8 +125,8 @@ Use o Painel de Controle do Skype for Business para impedir novas sessões de to
 
 ### <a name="prevent-new-sessions-for-a-specific-service"></a>Impedir novas sessões para um serviço específico
 
-1. Em uma conta de usuário que seja membro do grupo RTCUniversalServerAdmins (ou que tenha direitos de usuário equivalentes) ou atribuído à função CsServerAdministrator ou CsAdministrator, faça logon em qualquer computador que está na rede na qual você implantou o Skype for Business Server.
-2. Abra uma janela do navegador e insira a URL do Administrador para abrir o Painel de Controle. Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o Painel de Controle do Skype for Business Server, consulte Instalar e [abrir ferramentas administrativas.](../../management-tools/install-and-open-administrative-tools.md)
+1. De uma conta de usuário que é membro do grupo RTCUniversalServerAdmins (ou tem direitos de usuário equivalentes) ou atribuída à função CsServerAdministrator ou CsAdministrator, faça logon em qualquer computador que está na rede na qual você implantou o Skype for Business Server.
+2. Abra uma janela do navegador e insira a URL do Administrador para abrir o Painel de Controle. Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o Painel de Controle do Skype for Business Server, consulte [Install and open administrative tools](../../management-tools/install-and-open-administrative-tools.md).
 3. Na barra de navegação à esquerda, clique em **Topologia** e em **Status**.
 4. Clique em **Propriedades**.
 5. Classifique a lista de serviços, se necessário e clique no serviço para o qual você deseja impedir novas sessões.

@@ -16,30 +16,30 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 6fda0195-4c89-4dea-82e8-624f03e3d062
-description: Saiba mais sobre o controle de admissão de chamadas, que pode impedir que chamadas ocorrerem se elas tenham baixa qualidade de mídia, no Skype for Business Server Enterprise Voice.
-ms.openlocfilehash: 07b1e057e9edc296d0eee694e323e3c3c27ef05f
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Saiba mais sobre o controle de admissão de chamadas, que pode impedir que as chamadas tenham uma qualidade de mídia ruim no Skype for Business Server Enterprise Voice.
+ms.openlocfilehash: a802babc1b97eaf73b338f56c8c0a2b6c1f0efd6
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49825951"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51105307"
 ---
 # <a name="plan-for-call-admission-control-in-skype-for-business-server"></a>Planejar o controle de admissão de chamadas no Skype for Business Server
 
-Saiba mais sobre o controle de admissão de chamadas, que pode impedir que chamadas ocorrerem se elas tenham baixa qualidade de mídia, no Skype for Business Server Enterprise Voice.
+Saiba mais sobre o controle de admissão de chamadas, que pode impedir que as chamadas tenham uma qualidade de mídia ruim no Skype for Business Server Enterprise Voice.
 
-Para aplicativos baseados em IP, como telefonia, vídeo e compartilhamento de aplicativos, a largura de banda disponível de redes corporativas geralmente não é considerada um fator limitante em ambientes de LAN. No entanto, em links WAN que interconectam sites, a largura de banda de rede pode ser limitada.
+Para aplicativos baseados em IP, como telefonia, vídeo e compartilhamento de aplicativos, a largura de banda disponível de redes corporativas geralmente não é considerada um fator limitante em ambientes LAN. No entanto, em links WAN que interconectam sites, a largura de banda de rede pode ser limitada.
 
-Quando o tráfego de rede sobrescreve um link WAN, os mecanismos atuais, como fila, buffer e queda de pacotes, são usados para resolver o congestionamento. O tráfego extra normalmente é atrasado até que o congestionamento da rede seja facilitado ou, se necessário, o tráfego é descartado. Para o tráfego de dados convencional nessas situações, o cliente receptor pode se recuperar. No entanto, para o tráfego em tempo real, como comunicações unificadas, o congestionamento de rede não pode ser resolvido dessa maneira, porque o tráfego de comunicações unificadas é sensível à latência e à perda de pacotes. O congestionamento na WAN pode resultar em uma QoE (Qualidade de Experiência) ruim para os usuários. Para o tráfego em tempo real em condições congestionadas, na verdade é melhor negar chamadas do que fornecer conexões com baixa qualidade.
+Quando o tráfego de rede sobrescreve um link WAN, mecanismos atuais, como fila, buffer e queda de pacotes, são usados para resolver o congestionamento. O tráfego extra normalmente é atrasado até que o congestionamento de rede seja facilitado ou, se necessário, o tráfego é descartado. Para o tráfego de dados convencional em tais situações, o cliente receptor pode se recuperar. No entanto, para tráfego em tempo real, como comunicações unificadas, o congestionamento de rede não pode ser resolvido dessa maneira, pois o tráfego de comunicações unificadas é sensível à latência e à perda de pacotes. O congestionamento na WAN pode resultar em uma QoE (Qualidade de Experiência) ruim para os usuários. Para tráfego em tempo real em condições congestionadas, é melhor negar chamadas do que fornecer conexões com baixa qualidade.
 
-O cac (controle de admissão de chamada) determina se há largura de banda de rede suficiente para estabelecer uma sessão em tempo real de qualidade aceitável. No Skype for Business Server, o CAC controla o tráfego em tempo real apenas para áudio e vídeo, mas não afeta o tráfego de dados. Se o caminho WAN padrão não tiver a largura de banda necessária, o CAC poderá tentar roteá-la por um caminho da Internet ou PSTN (rede telefônica pública comuada).
+O controle de admissão de chamada (CAC) determina se há largura de banda de rede suficiente para estabelecer uma sessão em tempo real de qualidade aceitável. No Skype for Business Server, o CAC controla o tráfego em tempo real apenas para áudio e vídeo, mas não afeta o tráfego de dados. Se o caminho WAN padrão não tiver a largura de banda necessária, o CAC poderá tentar roteá-la por meio de um caminho da Internet ou da PSTN (rede telefônica pública comutado).
 
 Esta seção descreve a funcionalidade de controle de admissão de chamada e explica como planejar o CAC.
 
 > [!NOTE]
-> O Skype for Business Server tem três recursos avançados do Enterprise Voice: controle de admissão de chamadas (CAC), serviços de emergência (E9-1-1) e bypass de mídia. Para obter uma visão geral das informações de planejamento que são comuns a todos esses três recursos, consulte Configurações de rede para os recursos avançados do Enterprise Voice no [Skype for Business Server.](network-settings-for-advanced-features.md)
+> O Skype for Business Server tem três recursos avançados Enterprise Voice: controle de admissão de chamadas (CAC), serviços de emergência (E9-1-1) e bypass de mídia. Para obter uma visão geral das informações de planejamento que são comuns a todos esses três recursos, consulte [Configurações](network-settings-for-advanced-features.md)de rede para os recursos de Enterprise Voice avançados no Skype for Business Server .
 
-O design do CAC no Skype for Business Server oferece quatro atributos principais:
+O design cac no Skype for Business Server oferece quatro atributos principais:
 
 - é simples de implantar e gerenciar, sem a necessidade de equipamentos adicionais, como roteadores especialmente configurados.
 
@@ -53,7 +53,7 @@ Se uma nova voz ou sessão de vídeo exceder os limites de largura de banda defi
 
 O CAC controla o tráfego em tempo real somente para voz e vídeo. Ele não controla o tráfego de dados.
 
-Os administradores definem políticas cac, que são impostas pelo Serviço de Política de Largura de Banda que é instalado com cada pool de Front-End. As configurações do CAC são propagadas automaticamente para todos os Servidores front-end do Skype for Business Server em sua rede.
+Os administradores definem políticas de CAC, que são impostas pelo Serviço de Política de Largura de Banda instalado em cada pool de Front-End. As configurações do CAC são propagadas automaticamente para todos os Servidores front-end do Skype for Business Server em sua rede.
 
 Para chamadas que falham devido a políticas CAC, a ordem de precedência para o redirecionamento de chamada é:
 
@@ -72,13 +72,13 @@ O Serviço de Política de Largura de Banda gera dois tipos de arquivos de log n
 
 ## <a name="call-admission-control-considerations"></a>Considerações sobre o Controle de Admissão de Chamada
 
-O administrador seleciona a instalação do Serviço de Política de Largura de Banda no primeiro pool configurado no site central. Como há apenas um site central por região da rede, há apenas um Serviço de Política de Largura de Banda por região da rede, que gerencia a política de largura de banda para aquela região, os sites associados e os links para esses sites. O Serviço de Política de Largura de Banda é executado como parte dos Servidores Front-End e, portanto, a alta disponibilidade é interna nesse pool. O Serviço de Política de Largura de Banda em execução em cada Servidor Front End sincroniza a cada 15 segundos. Se o pool de Front-End falhar, as políticas cac não serão mais aplicadas para esse site até que o pool de front-end e, consequentemente, o Serviço de Política de Largura de Banda se torne operacional novamente. Isso significa que todas as chamadas serão recebidas enquanto o Serviço de Política de Largura de Banda estiver inoperante. Portanto, ainda há a possibilidade de excesso de assinatura da largura de banda dos links durante esse período
+O administrador seleciona a instalação do Serviço de Política de Largura de Banda no primeiro pool configurado no site central. Como há apenas um site central por região da rede, há apenas um Serviço de Política de Largura de Banda por região da rede, que gerencia a política de largura de banda para aquela região, os sites associados e os links para esses sites. O Serviço de Política de Largura de Banda é executado como parte dos Servidores Front-End e, portanto, a alta disponibilidade é interna nesse pool. O Serviço de Política de Largura de Banda em execução em cada Servidor Front-End é sincronizado a cada 15 segundos. Se o pool de Front-End falhar, as políticas do CAC não serão mais impostas para esse site até que o pool de Front-End e, consequentemente, o Serviço de Política de Largura de Banda se torne operacional novamente. Isso significa que todas as chamadas serão recebidas enquanto o Serviço de Política de Largura de Banda estiver inoperante. Portanto, ainda há a possibilidade de excesso de assinatura da largura de banda dos links durante esse período
 
-O Serviço de Política de Largura de Banda fornece alta disponibilidade em um pool de Front-End; no entanto, ele não fornece redundância entre pools de Front-End. O Serviço de Política de Largura de Banda não pode fazer failover de um pool de Front-End para outro. Depois que o serviço para o pool de Front-End é restaurado, o Serviço de Política de Largura de Banda é retomado e pode impor verificações de política de largura de banda novamente.
+O Serviço de Política de Largura de Banda fornece alta disponibilidade em um pool de Front-End; no entanto, ele não fornece redundância entre pools de Front-End. O Serviço de Política de Largura de Banda não pode fazer failover de um pool front-end para outro. Depois que o serviço para o pool de Front-End é restaurado, o Serviço de Política de Largura de Banda é retomado e pode impor verificações de política de largura de banda novamente.
 
 ### <a name="network-considerations"></a>Considerações de Rede
 
-Embora a restrição de largura de banda para áudio e vídeo seja imposta pelo Serviço de Política de Largura de Banda no Skype for Business Server, essa restrição não é imposta no roteador de rede (camada 2 e 3). O CAC não pode impedir que um aplicativo de dados, por exemplo, consuma toda a largura de banda de rede em um link WAN, incluindo a largura de banda reservada para áudio e vídeo pela política do CAC. Para proteger a largura de banda necessária em sua rede, você pode implantar um protocolo QoS (Qualidade de Serviço), como Serviços Diferenciados (DiffServ). Portanto, uma prática prática é coordenar as políticas de largura de banda do CAC definidas com qualquer configuração de QoS que você possa implantar.
+Embora a restrição de largura de banda para áudio e vídeo seja imposta pelo Serviço de Política de Largura de Banda no Skype for Business Server, essa restrição não é imposta no roteador de rede (camada 2 e 3). O CAC não pode impedir que um aplicativo de dados, por exemplo, consuma toda a largura de banda de rede em um link WAN, incluindo a largura de banda reservada para áudio e vídeo pela política cac. Para proteger a largura de banda necessária em sua rede, você pode implantar um protocolo QoS (Qualidade de Serviço), como Serviços Diferenciados (DiffServ). Portanto, uma prática prática é coordenar as políticas de largura de banda do CAC que você definir com qualquer configuração de QoS que você possa implantar.
 
 ### <a name="media-and-signaling-paths-over-vpn"></a>Mídia e Sinalização de Caminhos através de VPN
 
@@ -86,19 +86,19 @@ Se a sua empresa oferece suporte à mídia através de VPN, verifique se tanto o
 
 ### <a name="call-admission-control-of-outside-users"></a>Controle de Admissão de Chamada de Usuários Externos
 
-O controle de admissão de chamadas não é imposto além dos limites da organização do Skype for Business Server. O CAC não pode ser aplicado ao tráfego de mídia que atravessa a Internet, que não é gerenciado pelo Skype for Business Server. As verificações CAC serão executadas na parte da chamada que flui pela rede corporativa se o ponto de extremidade chamado pertencer à organização e o Servidor de Borda tiver sido adicionado à configuração de rede, conforme descrito na implantação do controle de admissão de chamadas: lista de verificação final do [Skype for Business Server.](../../deploy/deploy-enterprise-voice/final-checklist.md) Se o ponto de extremidade chamado não pertencer à organização, como um usuário federado ou de PIC, nenhuma verificação de política de largura de banda será executada e a chamada de saída ignorará as restrições de CAC.
+O controle de admissão de chamadas não é imposto além dos limites da organização do Skype for Business Server. O CAC não pode ser aplicado ao tráfego de mídia que atravessa a Internet, que não é gerenciado pelo Skype for Business Server. As verificações de CAC serão executadas na parte da chamada que flui pela rede corporativa se o ponto de extremidade chamado pertencer à organização e o Servidor de Borda tiver sido adicionado à configuração de rede, conforme descrito em Implantação de controle de admissão de chamada: lista de verificação [final do Skype for Business Server.](../../deploy/deploy-enterprise-voice/final-checklist.md) Se o ponto de extremidade chamado não pertencer à organização, como um usuário federado ou PIC, nenhuma verificação de política de largura de banda será executada e a chamada de saída ignorará quaisquer restrições de CAC.
 
 ### <a name="call-admission-control-of-pstn-connections"></a>Controle de Admissão de Chamada das Conexões PSTN
 
-O controle de admissão de chamada é executável no Servidor de Mediação independentemente de estar conectado a um IP/PBX, um gateway PSTN ou um tronco SIP. Como o Servidor de Mediação é um agente de usuário back-to-back (B2BUA), ele encerra a mídia. Ele tem dois lados de conexão: um lado conectado ao Skype for Business Server e um lado do gateway, que é conectado a gateways PSTN, IP/PBXs ou troncos SIP. Para obter detalhes sobre conexões PSTN, consulte [Plano para conectividade PSTN no Skype for Business Server.](pstn-connectivity-0.md)
+O controle de admissão de chamada é executável no Servidor de Mediação, independentemente de estar conectado a um IP/PBX, um gateway PSTN ou um tronco SIP. Como o Servidor de Mediação é um agente de usuário back-to-back (B2BUA), ele encerra a mídia. Ele tem dois lados de conexão: um lado conectado ao Skype for Business Server e um lado do gateway, que está conectado a gateways PSTN, IP/PBXs ou troncos SIP. Para obter detalhes sobre conexões PSTN, consulte [Plan for PSTN connectivity in Skype for Business Server](pstn-connectivity-0.md).
 
-O CAC pode ser imposto em ambos os lados do Servidor de Mediação, a menos que o bypass de mídia esteja habilitado. Se o bypass de mídia estiver habilitado, o tráfego de mídia não atravessará o Servidor de Mediação, mas fluirá diretamente entre o cliente do Skype for Business e o gateway. Nesse caso, o CAC não é necessário. Para obter detalhes, [consulte Plano para bypass de mídia no Skype for Business.](media-bypass.md)
+O CAC pode ser imposto em ambos os lados do Servidor de Mediação, a menos que o bypass de mídia esteja habilitado. Se o bypass de mídia estiver habilitado, o tráfego de mídia não atravessará o Servidor de Mediação, mas fluirá diretamente entre o cliente do Skype for Business e o gateway. Nesse caso, o CAC não é necessário. Para obter detalhes, [consulte Plan for media bypass in Skype for Business](media-bypass.md).
 
 A figura a seguir ilustra como o CAC é aplicado em conexões PSTN, com e sem o bypass de mídia habilitado.
 
 **Aplicação de controle de admissão de chamada em conexões para o PSTN**
 
-![Imposição da conexão de bypass de mídia do CAC de voz](../../media/Plan_CS_VoiceCAC_enforcementofconnectionstoPSTN.jpg)
+![Imposição de conexão de bypass de mídia do CAC de voz](../../media/Plan_CS_VoiceCAC_enforcementofconnectionstoPSTN.jpg)
 
 ## <a name="defining-your-requirements-for-call-admission-control"></a>Definindo seus requisitos para controle de admissão de chamada
 
@@ -113,7 +113,7 @@ O planejamento do CAC (serviço de controle de admissão de chamadas) requer inf
 4. Determine os limites de largura de banda para cada link WAN.
 
     > [!NOTE]
-    > Os limites de largura de banda referem-se à largura de banda em um link WAN alocado ao Enterprise Voice e ao tráfego de áudio/vídeo. Quando um link WAN é descrito como "largura de banda restrita", o link WAN tem um limite de largura de banda menor do que o tráfego de pico esperado pelo link.
+    > Os limites de largura de banda referem-se à grande parte da largura de banda em um link wan é alocado para Enterprise Voice e tráfego de áudio/vídeo. Quando um link WAN é descrito como "com restrição de largura de banda", o link WAN tem um limite de largura de banda menor do que o tráfego de pico esperado no link.
 
 5. Identifique as subredes de IP que são atribuídas a cada site de rede.
 
@@ -148,12 +148,12 @@ O CAC exige que um site central do Skype for Business Server seja definido para 
 |**Região de rede**|**Central Site**|**Sites de rede**|
 |:-----|:-----|:-----|
 |América do Norte  <br/> |Chicago  <br/> |Chicago  <br/> Nova York  <br/> Detroit  <br/> Portland  <br/> Reno  <br/> Albuquerque  <br/> |
-|EMEA  <br/> |Londres  <br/> |Londres  <br/> São Paulo  <br/> |
+|EMEA  <br/> |Londres  <br/> |Londres  <br/> Colonia  <br/> |
 |APAC  <br/> |Pequim  <br/> |Pequim  <br/> Manila  <br/> |
 
 ### <a name="identify-network-sites"></a>Identifique os sites de rede
 
-Um site de rede representa um local onde a sua organização tem um espaço físico, por exemplo, um escritórios, um conjunto de edifícios ou um campus. Um espaço físico com uma LAN e conectividade WAN para outros sites é considerado um site de rede. Comece fazendo o inventário de todos os escritórios da sua organização. Em nosso exemplo de topologia, a região de rede da América do Norte consiste nos seguintes sites de rede: Nova York, Chicago, Detroit, Portland, Reno e Albuquerque.
+Um site de rede representa um local onde a sua organização tem um espaço físico, por exemplo, um escritórios, um conjunto de edifícios ou um campus. Um espaço físico com uma LAN e conectividade WAN para outros sites é considerado um site de rede. Comece fazendo um inventário de todos os escritórios da sua organização. Em nosso exemplo de topologia, a região de rede da América do Norte consiste nos seguintes sites de rede: Nova York, Chicago, Detroit, Portland, Reno e Albuquerque.
 
 Você deve associar cada site de rede a uma região de rede. Dependendo se o site de rede tem um link WAN restrito, uma política de largura de banda é associada ao site de rede. Para obter detalhes sobre políticas de CAC e a largura de banda que você alocar ao usá-las, consulte "Defina as políticas de largura de banda", posteriormente neste tópico. Para configurar o CAC, você deve associar os sites de rede às regiões de rede e criar políticas de alocação de largura de banda para aplicar às conexões de largura de banda restrita entre um determinado site ou região e conexões WAN entre locais e regiões.
 
@@ -182,18 +182,18 @@ As políticas de largura de banda do CAC podem definir o seguinte:
 - Largura de banda máxima alocada para uma única chamada de vídeo (sessão).
 
 > [!NOTE]
-> Todos os valores de largura de banda do CAC representam os  *limites máximos*  de largura de banda unidirecionais.
+> Todos os valores de largura de banda do CAC representam os limites máximos de largura de *banda unidirecional.*
 
 > [!NOTE]
-> Os recursos da Política de Voz do Skype for Business Server oferecem a capacidade de substituir verificações de política de largura de banda para chamadas de entrada para o usuário (não para chamadas de saída feitas pelo usuário). Depois da sessão ser estabelecida, o consumo de largura de banda será contabilizado com precisão. Essa configuração deve ser usada com moderação. Para obter detalhes, consulte [Create or modify a voice policy and configure PSTN usage records in Skype for Business](../../deploy/deploy-enterprise-voice/voice-policy-and-pstn-usage-records.md) or Modify a Voice Policy and Configure [PSTN Usage Records](https://technet.microsoft.com/library/6c53aaf5-218b-4bd4-8cea-31bc9d53f1bd.aspx) in the Deployment documentation.
+> Os recursos da Política de Voz do Skype for Business Server fornecem a capacidade de substituir verificações de política de largura de banda para chamadas de entrada para o usuário (não para chamadas de saída que são feitas pelo usuário). Depois da sessão ser estabelecida, o consumo de largura de banda será contabilizado com precisão. Essa configuração deve ser usada com moderação. Para obter detalhes, consulte Create or modify [a voice policy and configure PSTN](../../deploy/deploy-enterprise-voice/voice-policy-and-pstn-usage-records.md) usage records in Skype for Business or Modify a Voice Policy and Configure [PSTN Usage Records](/previous-versions/office/lync-server-2013/lync-server-2013-modify-a-voice-policy-and-configure-pstn-usage-records) na documentação de Implantação.
 
 Para otimizar a utilização de largura de banda com base por sessão, considere o tipo de codec de áudio e vídeo que será usado. Mais especificamente, evite alocar menos largura de banda para um codec que você espera que seja usado com frequência. Por outro lado, se você deseja impedir que a mídia use um codec que exija mais largura de banda, deverá definir a largura de banda máxima por sessão menor o suficiente para desencorajar tal uso. Para o áudio, nem todos os codecs estão disponíveis para cada cenário. Por exemplo:
 
-- Chamadas de áudio ponto a ponto entre os pontos de extremidade do Skype for Business usarão RTAudio (8kHz) ou RTAudio (16kHz) quando você fatorar a largura de banda e a priorização de codecs.
+- As chamadas de áudio ponto a ponto entre os pontos de extremidade do Skype for Business usarão RTAudio (8kHz) ou RTAudio (16kHz) quando você fatorar a largura de banda e a priorização de codecs.
 
 - As chamadas de conferência entre os pontos de extremidade do Skype for Business e o serviço de Conferência A/V usarão G.722 ou Siren.
 
-- As chamadas para a PSTN (rede telefônica pública comuada) para ou de pontos de extremidade do Skype for Business usarão G.711 ou RTAudio (8kHz).
+- As chamadas para a PSTN (rede telefônica pública comutado) para ou para os pontos de extremidade do Skype for Business usarão G.711 ou RTAudio (8kHz).
 
 Use a tabela a seguir para ajudar a otimizar as configurações de largura de banda máxima por sessão.
 
@@ -228,10 +228,10 @@ O codec Siren é usado no Skype for Business Server nas seguintes situações:
 |:-----|:-----|:-----|:-----|
 |Chamadas de áudio ponto a ponto  <br/> |45 kbps  <br/> |62 kbps  <br/> |91 kbps  <br/> |
 |Chamadas em conferência  <br/> |53 kbps  <br/> |101 kbps  <br/> |165 kbps  <br/> |
-|Chamadas PSTN (entre o Skype for Business e o gateway PSTN, com bypass de mídia)  <br/> |97 kbps  <br/> |97 kbps  <br/> |161 kbps  <br/> |
+|Chamadas PSTN (entre Skype for Business e gateway PSTN, com bypass de mídia)  <br/> |97 kbps  <br/> |97 kbps  <br/> |161 kbps  <br/> |
 |Chamadas PSTN (entre o Skype for Business e o Servidor de Mediação, sem bypass de mídia)  <br/> |45 kbps  <br/> |97 kbps  <br/> |161 kbps  <br/> |
-|Chamadas PSTN (entre o Servidor de Mediação e o gateway PSTN, sem bypass de mídia)  <br/> |97 kbps  <br/> |97 kbps  <br/> |161 kbps  <br/> |
-|Skype for Business - Chamadas Polycom  <br/> |101 Kbps  <br/> |101 Kbps  <br/> |101 Kbps  <br/> |
+|Chamadas PSTN (entre Servidor de Mediação e gateway PSTN, sem bypass de mídia)  <br/> |97 kbps  <br/> |97 kbps  <br/> |161 kbps  <br/> |
+|Skype for Business - Chamadas polycom  <br/> |101 Kbps  <br/> |101 Kbps  <br/> |101 Kbps  <br/> |
 
 ### <a name="identify-ip-subnets"></a>Identifique as subredes IP
 
@@ -240,7 +240,7 @@ Para cada site de rede, você precisará trabalhar com seu administrador de rede
 Em nosso exemplo, o site de Nova York na região da América do Norte é atribuído às seguintes subredes IP: 172.29.80.0/23, 157.57.216.0/25, 172.29.91.0/23, 172.29.81.0/24. Vamos supor que Bob, que geralmente trabalha em Detroit, viaja para o escritório de Nova York para treinamento. Quando ele liga o computador e se conecta à rede, o computador obterá um endereço IP em um dos quatro intervalos reservados para Nova York, por exemplo, 172.29.80.103.
 
 > [!CAUTION]
-> As subredes IP especificadas durante a configuração de rede no servidor devem corresponder o formato oferecido por computadores clientes para poder ser usado adequadamente pelo bypass de mídia. Um cliente do Skype for Business leva seu endereço IP local e mascara o endereço IP com a máscara de sub-rede associada. Ao determinar o ID de bypass associado com cada cliente, o Registrador irá comprar a lista de subredes IP associadas com cada local de rede na subrede oferecida pelo cliente para uma correspondência exata. Por este motivo, é importante que as subredes inseridas durante a configuração de rede no servidor sejam subredes reais ao invés de subredes virtuais. (Se você implantar o controle de admissão de chamada, mas não o bypass de mídia, o controle de admissão de chamada funcionará corretamente mesmo se você configurar sub-redes virtuais.) Por exemplo, se um cliente entrar em um computador com um endereço IP 172.29.81.57 com uma máscara de sub-rede IP de 255.255.255.0, o Skype for Business solicitará a ID de bypass associada à sub-rede 172.29.81.0. Se a subrede é definida como 172.29.0.0/16, embora o cliente pertença à subrede virtual, o Registrador não irá considerar uma correspondência porque ele está procurando especificamente pela subrede 172.29.81.0. Portanto, é importante que o administrador insira sub-redes exatamente como fornecido pelos clientes do Skype for Business (que são provisionadas com sub-redes durante a configuração de rede estática ou por DHCP.)
+> As subredes IP especificadas durante a configuração de rede no servidor devem corresponder o formato oferecido por computadores clientes para poder ser usado adequadamente pelo bypass de mídia. Um cliente do Skype for Business pega seu endereço IP local e mascara o endereço IP com a máscara de sub-rede associada. Ao determinar o ID de bypass associado com cada cliente, o Registrador irá comprar a lista de subredes IP associadas com cada local de rede na subrede oferecida pelo cliente para uma correspondência exata. Por este motivo, é importante que as subredes inseridas durante a configuração de rede no servidor sejam subredes reais ao invés de subredes virtuais. (Se você implantar o controle de admissão de chamada, mas não o bypass de mídia, o controle de admissão de chamada funcionará corretamente, mesmo se você configurar sub-redes virtuais.) Por exemplo, se um cliente entrar em um computador com um endereço IP 172.29.81.57 com uma máscara de sub-rede IP de 255.255.255.0, o Skype for Business solicitará a ID de bypass associada à sub-rede 172.29.81.0. Se a subrede é definida como 172.29.0.0/16, embora o cliente pertença à subrede virtual, o Registrador não irá considerar uma correspondência porque ele está procurando especificamente pela subrede 172.29.81.0. Portanto, é importante que o administrador insira sub-redes exatamente como fornecido pelos clientes do Skype for Business (que são provisionadas com sub-redes durante a configuração de rede de forma estática ou por DHCP).)
 
 ## <a name="best-practices-for-call-admission-control"></a>Práticas recomendadas para controle de admissão de chamada
 
@@ -255,9 +255,7 @@ Para aprimorar o desempenho e facilitar a implantação, aplique as práticas re
 
 - Use políticas de largura de banda de CAC para complementar as configurações de QoS.
 
-- Se você desejar rerotear chamadas bloqueadas para o PSTN, verifique a funcionalidade e a capacidade do PSTN. Para detalhes, consulte [Planning Outbound Call Routing](https://technet.microsoft.com/library/37c55fa4-175a-4190-b9e4-c2e5ac7b9261.aspx).
+- Se você desejar rerotear chamadas bloqueadas para o PSTN, verifique a funcionalidade e a capacidade do PSTN. Para detalhes, consulte [Planning Outbound Call Routing](/previous-versions/office/lync-server-2013/lync-server-2013-planning-outbound-voice-routing).
 
     > [!NOTE]
     > A capacidade refere-se ao número de portas que precisam ser abertas para oferecer suporte a um possível reroteamento do PSTN.
-
-

@@ -15,19 +15,19 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: fde45195-6eb4-403c-9094-57df7fc0bd2a
-description: Saiba mais sobre o roteamento de voz de saída no Skype for Business Server Enterprise Voice, incluindo configurações de roteamento de chamadas, planos de discagem, regras de normalização, políticas de voz, registros de uso de PSTN e rotas de voz.
-ms.openlocfilehash: f29feabe8ad13a38af3e3818936be7cfbcdf5f06
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Saiba mais sobre roteamento de voz de saída no Skype for Business Server Enterprise Voice, incluindo configurações de roteamento de chamadas, planos de discagem, regras de normalização, políticas de voz, registros de uso PSTN e rotas de voz.
+ms.openlocfilehash: 70681e995068a0999324694a78806421e0f2d129
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49809911"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51101277"
 ---
 # <a name="plan-for-outbound-voice-routing-in-skype-for-business-server"></a>Planejar o roteamento de voz de saída no Skype for Business Server
  
-Saiba mais sobre o roteamento de voz de saída no Skype for Business Server Enterprise Voice, incluindo configurações de roteamento de chamadas, planos de discagem, regras de normalização, políticas de voz, registros de uso de PSTN e rotas de voz.
+Saiba mais sobre roteamento de voz de saída no Skype for Business Server Enterprise Voice, incluindo configurações de roteamento de chamadas, planos de discagem, regras de normalização, políticas de voz, registros de uso PSTN e rotas de voz.
   
-O roteamento de chamada de saída se aplica a chamadas do Enterprise Voice destinadas a um gateway de rede telefônica pública comutado (PSTN), tronco ou PBX (central privada de comutamento). Quando um usuário do Skype for Business faz uma chamada, o servidor normaliza o número de telefone para o formato E.164, se necessário, e tenta fazer a ligação para um URI do SIP. Se o servidor não conseguir fazer a correspondência, ele aplicará a lógica de roteamento de chamadas de saída baseada na cadeia de caracteres de discagem especificada. Especifique essa lógica definindo as configurações do servidor descritas na tabela a seguir.
+O roteamento de chamadas de saída se aplica Enterprise Voice chamadas destinadas a um gateway de PSTN (rede telefônica pública comutado), tronco ou pbx (troca de filial privada). Quando um usuário do Skype for Business faz uma chamada, o servidor normaliza o número de telefone para o formato E.164, se necessário, e tenta match-lo com um URI SIP. Se o servidor não conseguir fazer a correspondência, ele aplicará a lógica de roteamento de chamadas de saída baseada na cadeia de caracteres de discagem especificada. Especifique essa lógica definindo as configurações do servidor descritas na tabela a seguir.
   
 **Configurações de Roteamento de Chamadas de Saída do Skype for Business Server**
 
@@ -43,36 +43,36 @@ O roteamento de chamada de saída se aplica a chamadas do Enterprise Voice desti
 
 Um plano de discagem é um conjunto nomeado de regras de normalização que converte números de telefone de um local nomeado, usuário individual ou objeto de contato em um formato padrão único (E.164) para fins de roteamento de chamadas e autorização. 
   
-As regras de normalização definem como os números de telefone expressos em vários formatos devem ser roteados para cada local, usuário ou objeto de contato especificado. A mesma cadeia de caracteres de discagem pode ser interpretada e convertida de maneira diferente, dependendo do local do qual é discada e da pessoa ou objeto de contato que está fazendo a chamada.
+As regras de normalização definem como os números de telefone expressos em vários formatos devem ser roteados para cada local, usuário ou objeto de contato especificado. A mesma cadeia de caracteres de discagem pode ser interpretada e traduzida de forma diferente, dependendo do local do qual ela é discada e da pessoa ou objeto de contato que faz a chamada.
   
 ### <a name="dial-plan-scope"></a>Escopo do plano de discagem
 
-O escopo de um plano de discagem determina o nível hierárquico no qual o plano de discagem pode ser aplicado. No Skype for Business Server, um usuário pode ser atribuído a um plano de discagem por usuário específico. Se um plano de discagem do usuário não for atribuído, o plano de discagem do pool de Front-End será aplicado. Se não houver um plano de discagem do pool de Front-End, o plano de discagem local será aplicado. Finalmente, se nenhum plano de discagem é aplicável para o usuário, o plano de discagem global é aplicado.
+O escopo de um plano de discagem determina o nível hierárquico no qual o plano de discagem pode ser aplicado. No Skype for Business Server, um usuário pode ter um plano de discagem específico por usuário. Se um plano de discagem do usuário não for atribuído, o plano de discagem do pool front-end será aplicado. Se não houver um plano de discagem de pool de Front-End, o plano de discagem do site será aplicado. Finalmente, se nenhum plano de discagem é aplicável para o usuário, o plano de discagem global é aplicado.
   
-Os clientes obtém níveis de escopo do plano de discagem por meio das configurações de provisionamento em banda fornecidas quando os usuários fazem logoff no Skype for Business. Como administrador, você pode gerenciar e atribuir níveis de escopo de plano de discagem usando o Painel de Controle do Skype for Business Server.
+Os clientes obtém níveis de escopo do plano de discagem por meio de configurações de provisionamento em banda fornecidas quando os usuários fazem logoff no Skype for Business. Como administrador, você pode gerenciar e atribuir níveis de escopo do plano de discagem usando o Painel de Controle do Skype for Business Server.
   
 > [!NOTE]
 > O plano de discagem de gateway PSTN (rede telefônica pública comutado) de nível de serviço é aplicado às chamadas de entrada de um gateway específico. 
   
 Os níveis de escopo do plano de discagem são definidos como a seguir:
   
-- **Plano de discagem** do usuário: pode ser atribuído a usuários individuais, grupos ou objetos de contato. Os aplicativos de voz podem procurar um plano de discagem por usuário quando uma chamada é recebida com o contexto de telefone definido como padrão do usuário. Para atribuir um plano de discagem, um objeto de contato é tratado como um usuário individual.
+- **Plano de discagem do** usuário : pode ser atribuído a usuários individuais, grupos ou objetos de contato. Os aplicativos de voz podem procurar um plano de discagem por usuário quando uma chamada é recebida com o contexto de telefone definido como padrão do usuário. Para atribuir um plano de discagem, um objeto de contato é tratado como um usuário individual.
     
 - **Plano de discagem do pool**: pode ser criado no nível de serviço para qualquer gateway PSTN ou Registrador na sua topologia. Para definir um plano de discagem do pool, você deve especificar o serviço (gateway PSTN ou pool do Registrador) ao qual o plano de discagem se aplica. 
     
-- **Plano de discagem** local: pode ser criado para um site inteiro, exceto para quaisquer usuários, grupos ou objetos de contato que são atribuídos a um plano de discagem de pool ou plano de discagem de usuário. Para definir um plano de discagem local, você deve especificar o local ao qual o plano de discagem é aplicado.
+- **Plano de discagem** de site : pode ser criado para um site inteiro, exceto para quaisquer usuários, grupos ou objetos de contato atribuídos a um plano de discagem de pool ou plano de discagem do usuário. Para definir um plano de discagem local, você deve especificar o local ao qual o plano de discagem é aplicado.
     
-- **Plano de discagem global**: o plano de discagem padrão instalado com o produto. É possível editar o plano de discagem global, mas não exclui-lo. Esse plano de discagem se aplica a todos os usuários, grupos e objetos de contato do Enterprise Voice em sua implantação, a menos que você configure e atribua um plano de discagem com um escopo mais específico.
+- **Plano de discagem global**: o plano de discagem padrão instalado com o produto. É possível editar o plano de discagem global, mas não exclui-lo. Esse plano de discagem se aplica a todos os Enterprise Voice, grupos e objetos de contato em sua implantação, a menos que você configure e atribua um plano de discagem com um escopo mais específico.
     
 ### <a name="planning-for-dial-plans"></a>Planejamento de planos de discagem
 
 Para planejar um plano de discagem, siga estas etapas:
   
-- Liste todas as localidades nas quais sua organização tem um escritório.
+- Listar todas as localidades em que sua organização tem um escritório.
     
-    A lista deve estar atualizada e completa. Precisará ser revisada conforme a organização da empresa evolui. Em uma grande empresa multinacional com várias filiais pequenas, isso pode ser uma tarefa demorada.
+    A lista deve estar atualizada e concluída. Precisará ser revisada conforme a organização da empresa evolui. Em uma grande empresa multinacional com várias filiais pequenas, isso pode ser uma tarefa demorada.
     
-- Identifique padrões de número válidos para cada site.
+- Identifique padrões de números válidos para cada site.
     
     A parte mais demorada do planejamento de seus planos de discagem é identificar os padrões de números válidos para cada local. Em alguns casos, será possível copiar as regras de normalização gravadas para um plano de discagem a outros planos de discagem, especialmente se os locais correspondentes estão dentro do mesmo país/região ou continente. Em outros casos, as pequenas alterações em números em um plano de discagem podem ser suficientes para usá-los em outros planos de discagem.
     
@@ -82,9 +82,9 @@ Para planejar um plano de discagem, siga estas etapas:
     
 - Decida se vários planos de discagem são necessários para um único local. 
     
-    Se sua organização mantém um único plano de discagem em vários locais, talvez ainda seja necessário criar um plano de discagem separado para usuários do Enterprise Voice que estão migrando de um PBX (central privada de comutamento) e que precisam ter seus ramais existentes retidos.
+    Se sua organização mantiver um único plano de discagem em vários locais, você ainda precisará criar um plano de discagem separado para usuários Enterprise Voice que estão migrando de um PBX (exchange de filial privada) e que precisam ter suas extensões existentes mantidas.
     
-- Decida se os planos de discagem por usuário são necessários. Por exemplo, se você tiver usuários em um site de filial registrados no site central ou se tiver usuários registrados em um Aparelho de Filial Persistência, poderá considerar cenários de discagem especiais para esses usuários usando planos de discagem por usuário e regras de normalização. Para obter detalhes, [consulte Plan for Enterprise Voice resiliency in Skype for Business Server](enterprise-voice-resiliency.md).
+- Decida se os planos de discagem por usuário são necessários. Por exemplo, se você tiver usuários em um site de filial que estão registrados no site central ou se você tiver usuários registrados em um Aparelho de Filial Desavivável, você poderá considerar cenários de discagem especiais para esses usuários usando planos de discagem por usuário e regras de normalização. Para obter detalhes, [consulte Plan for Enterprise Voice resiliência no Skype for Business Server](enterprise-voice-resiliency.md).
     
 - Determine o escopo do plano de discagem (conforme descrito anteriormente neste tópico).
     
@@ -92,9 +92,9 @@ Para criar um plano de discagem, especifique valores nos campos a seguir, confor
   
 #### <a name="name-and-simple-name"></a>Nome e o nome simples
 
-Para planos de discagem do usuário, você deve especificar um nome descritivo que identifique os usuários, grupos ou objetos de contato aos quais o plano de discagem será atribuído. Para planos de discagem de site, o campo Nome é pré-preenchido com o nome do site e não pode ser alterado. Para planos de discagem de pool, o campo Nome é pré-preenchido com o gateway PSTN ou o FQDN (nome de domínio totalmente qualificado) do pool de Front-End e não pode ser alterado.
+Para planos de discagem de usuário, você deve especificar um nome descritivo que identifique os usuários, grupos ou objetos de contato aos quais o plano de discagem será atribuído. Para planos de discagem de site, o campo Nome é pré-preenchido com o nome do site e não pode ser alterado. Para planos de discagem de pool, o campo Nome é pré-preenchido com o gateway PSTN ou o FQDN (nome de domínio totalmente qualificado) do pool e não pode ser alterado.
   
-O Nome Simples do plano de discagem é pré-preenchido com uma cadeia de caracteres derivada do nome do plano de discagem. O campo Nome Simples é editável, o que permite que você crie uma convenção de nomenal mais descritiva para seus planos de discagem. O valor de NomeSimple não pode estar vazio e deve ser exclusivo. Uma prática prática é desenvolver uma convenção de nomen por toda a organização e, em seguida, usar essa convenção consistentemente em todos os sites e usuários.
+O plano de discagem Nome Simples é pré-preenchido com uma cadeia de caracteres derivada do nome do plano de discagem. O campo Nome Simples é editável, o que permite que você crie uma convenção de nomenal mais descritiva para seus planos de discagem. O valor Nomesimple não pode estar vazio e deve ser exclusivo. Uma prática prática prática é desenvolver uma convenção de nomenis para toda a sua organização e, em seguida, usar essa convenção de forma consistente em todos os sites e usuários.
   
 #### <a name="description"></a>Descrição
 
@@ -106,20 +106,20 @@ Se você estiver implantando a conferência discada, precisará especificar uma 
   
 #### <a name="external-access-prefix"></a>Prefixo de acesso externo
 
-Você pode especificar um prefixo de acesso externo de até quatro caracteres (#, e 0-9) se os usuários precisam discar um ou mais \* dígitos incidáveis adicionais (por exemplo, 9) para obter uma linha externa.
+Você pode especificar um prefixo de acesso externo de até quatro caracteres (#, , e 0-9) se os usuários precisarem discar um ou mais dígitos principais \* adicionais (por exemplo, 9) para obter uma linha externa.
   
 > [!NOTE]
 > Se você especificar um prefixo de acesso externo, não é necessário criar uma regra de normalização adicional para acomodar o prefixo. 
   
 ### <a name="normalization-rules"></a>Regras de normalização
 
-As regras de normalização definem como os números de telefone expressos em vários formatos devem ser roteados para o local nomeado. A mesma cadeia de caracteres de número pode ser interpretada e convertida de maneira diferente, dependendo da localidade da qual é discada. As regras de normalização são necessárias para o roteamento de chamada porque os usuários podem, e devem, usar vários formatos ao inserir números de telefone em suas listas de contatos.
+As regras de normalização definem como os números de telefone expressos em vários formatos devem ser roteados para o local nomeado. A mesma cadeia de caracteres de número pode ser interpretada e traduzida de forma diferente, dependendo da localidade da qual ela é discada. As regras de normalização são necessárias para o roteamento de chamada porque os usuários podem, e devem, usar vários formatos ao inserir números de telefone em suas listas de contatos.
   
-A normalização de números de telefone fornecidos pelo usuário fornece um formato consistente que facilita as seguintes tarefas:
+A normalização dos números de telefone fornecidos pelo usuário fornece um formato consistente que facilita as seguintes tarefas:
   
 - Corresponder um número discado ao SIP-URI do destinatário pretendido.
     
-- Aplicar regras de autorização de discagem ao chamador.
+- Aplicar regras de autorização de discagem à parte de chamada.
     
 Estes são alguns dos campos numéricos que as regras de normalização talvez precisem considerar:
   
@@ -137,7 +137,7 @@ Estes são alguns dos campos numéricos que as regras de normalização talvez p
 
 As regras de normalização usam expressões regulares do .NET Framework para especificar padrões de correspondência numérica que o servidor usa para converter sequências de discagem para o formato E.164 para fins de pesquisa de número inverso. Você cria regras de normalização no Painel de Controle do Skype for Business Server inserindo as expressões manualmente ou inserindo os dígitos ingressados e o comprimento das cadeias de caracteres de discagem a serem correspondida e deixando que o Painel de Controle do Skype for Business Server gere a expressão regular correspondente para você. De qualquer forma, ao terminar, você pode inserir um número de teste para verificar se a regra de normalização funciona como esperado.
   
-Para obter detalhes sobre como usar expressões regulares do .NET Framework, consulte ["Expressões regulares do .NET Framework".](https://go.microsoft.com/fwlink/p/?linkId=140927)
+Para obter detalhes sobre como usar .NET Framework expressões regulares, consulte [".NET Framework Expressões Regulares"](/dotnet/standard/base-types/regular-expressions).
   
 #### <a name="sample-normalization-rules"></a>Exemplos de regras de normalização
 <a name="BKMK_SampleNormalizationRules"> </a>
@@ -180,15 +180,15 @@ A tabela a seguir ilustra um exemplo de plano de discagem para Redmond, Washingt
   
 ## <a name="voice-policies"></a>Políticas de voz
 
-As políticas de voz do Skype for Business Server definem o seguinte para cada usuário, site ou organização que recebe a política:
+As políticas de voz do Skype for Business Server definem o seguinte para cada usuário, site ou organização atribuído à política:
   
-- Um conjunto de recursos de chamada que podem ser habilitados ou desabilitados para determinar a funcionalidade do Enterprise Voice disponível para os usuários.
+- Um conjunto de recursos de chamada que podem ser habilitados ou desabilitados para determinar a funcionalidade Enterprise Voice disponível para os usuários.
     
 - Um conjunto de registros de uso de PSTN (Rede telefônica comutada pública) que define quais tipos de chamadas são autorizadas. 
     
-As etapas a seguir ajudarão você a planejar as políticas de voz necessárias para a implantação do Enterprise Voice:
+As etapas a seguir ajudarão você a planejar as políticas de voz necessárias para sua implantação Enterprise Voice de voz:
   
-- Determine como você configurará sua política de voz global (a política de voz padrão instalada com o produto). Essa política será aplicada a todos os usuários do Enterprise Voice que não foram atribuídos explicitamente a uma política de nível de site ou por usuário.
+- Determine como você configurará sua política de voz global (a política de voz padrão instalada com o produto). Essa política será aplicada a todos os Enterprise Voice usuários que não são atribuídos explicitamente a uma política no nível do site ou por usuário.
     
 - Identifique as políticas de voz de nível de local que você possa precisar.
     
@@ -200,16 +200,16 @@ As etapas a seguir ajudarão você a planejar as políticas de voz necessárias 
     
 ### <a name="voice-policy-scope"></a>Escopo da política de voz
 
-Escopo da política de voz determina o nível hierárquico no qual a política pode ser aplicada. No Skype for Business Server, você pode configurar políticas de voz com os seguintes níveis de escopo (listados do mais específico ao mais geral).
+Escopo da política de voz determina o nível hierárquico no qual a política pode ser aplicada. No Skype for Business Server, você pode configurar políticas de voz com os seguintes níveis de escopo (listados do mais específico para o mais geral).
   
 - A **Política de voz de usuário** pode ser atribuída a usuários individuais, grupos ou objetos de contato. Essa á política de nível mais baixo. As políticas de voz de usuário podem ser implantadas a fim de habilitar recursos para determinados usuários ou grupos em um site, mas não para outros no mesmo site. Por exemplo, talvez você queira desabilitar a discagem de longa distância para alguns funcionários. Para o objetivo de atribuir uma política de voz, um objeto de contato é tratado como um usuário individual.
     
     > [!NOTE]
-    > Recomendamos que você implante uma política de voz de usuário para usuários do Enterprise Voice do site de filial registrados na implantação do site central ou usuários registrados em um Aparelho de FilialVivível. 
+    > Recomendamos implantar uma política de voz de usuário para usuários de filial Enterprise Voice que estão registrados com a implantação do site central ou usuários registrados em um Aparelho de Filial Desavivável. 
   
 - **Política de voz de site** se aplica a todo um site, exceto para quaisquer usuários, grupos ou objetos de contato que recebam uma política de voz de usuário. Para definir uma política de voz de site, você precisa especificar o site ao qual a política será aplicada. Se uma política de voz de usuário não tiver sido atribuída, a política de voz de site será usada.
     
-- **Política de voz global** é a política de voz padrão, instalada com o produto. É possível editar a política de voz global a fim de atender às necessidades específicas de sua organização, mas não é possível renomear ou excluí-la. Essa política de voz se aplica a todos os usuários, grupos e objetos de contato do Enterprise Voice em sua implantação, a menos que você configure e atribua uma política de voz com escopo mais específico. Se você quiser desabilitar totalmente essa política, certifique-se de que todos os sites e usuários tenham políticas personalizadas.
+- **Política de voz global** é a política de voz padrão, instalada com o produto. É possível editar a política de voz global a fim de atender às necessidades específicas de sua organização, mas não é possível renomear ou excluí-la. Essa política de voz se aplica a todos os Enterprise Voice, grupos e objetos de contato em sua implantação, a menos que você configure e atribua uma política de voz com escopo mais específico. Se você quiser desabilitar totalmente essa política, certifique-se de que todos os sites e usuários tenham políticas personalizadas.
     
 ### <a name="call-features"></a>Recursos de chamada
 
@@ -231,11 +231,11 @@ Escopo da política de voz determina o nível hierárquico no qual a política p
     
 - **Substituição da política de largura de banda** permite que os administradores substituam as decisões da política de controle de admissão de chamada para um usuário específico. Desabilitada por padrão.
     
-- **O rastreamento de chamadas** mal-intencionadas permite que os usuários reportem chamadas mal-intencionadas usando o cliente Skype for Business e sinaliza essas chamadas nos registros de detalhes das chamadas. Desabilitado por padrão.
+- **O rastreamento de chamadas** mal-intencionadas permite que os usuários reportem chamadas mal-intencionadas usando o cliente skype for Business e sinalizam essas chamadas nos registros de detalhes da chamada. Desabilitado por padrão.
     
-- O **escape** de caixa postal impede que as chamadas são roteadas imediatamente para o sistema de caixa postal do celular do usuário quando o toque simultâneo está configurado e o telefone está desligado, sem bateria ou fora de alcance e é baseado em um valor de timer. Esta configuração habilita e desabilita o temporizador e define o valor dele. Ele só pode ser configurado usando o Shell de Gerenciamento do Skype for Business Server. Desabilitado por padrão.
+- A **saída** de caixa postal impede que as chamadas são roteadas imediatamente para o sistema de caixa postal do telefone celular do usuário quando o toque simultâneo é configurado e o telefone está desligado, sem bateria ou fora do intervalo, e se baseia em um valor de timer. Esta configuração habilita e desabilita o temporizador e define o valor dele. Ele só pode ser configurado usando o Shell de Gerenciamento do Skype for Business Server. Desabilitado por padrão.
     
-- Os usos de **PSTN** de encaminhamento de chamadas e toque simultâneo permitem que os administradores especifiquem o mesmo uso de PSTN que a política de voz para encaminhamento de chamadas e toque simultâneo, restrinja o encaminhamento de chamadas e toque simultâneo somente para usuários internos do Skype for Business ou especifique um uso de PSTN personalizado diferente do uso de PSTN da política de voz. O padrão é usar o mesmo uso de PSTN que a política de voz para encaminhamento de chamadas e toque simultâneo.
+- Os usos de **PSTN** de encaminhamento de chamadas e toque simultâneo permitem que os administradores especifiquem o mesmo uso PSTN da política de voz para encaminhamento de chamadas e toque simultâneo, restrinja o encaminhamento de chamadas e toque simultâneo apenas para usuários internos do Skype for Business ou especifique um uso PSTN personalizado diferente do uso PSTN da política de voz. O padrão é usar o mesmo uso de PSTN que a política de voz para encaminhamento de chamadas e toque simultâneo.
     
 ### <a name="pstn-usage-records"></a>Registros de uso de PSTN
 
@@ -244,7 +244,7 @@ Cada política de voz deve ter um ou mais registros de uso de PSTN associados. O
 > [!NOTE]
 > A ordem de uso de PSTN é fundamental, pois ao se comparar usuários a rotas, a funcionalidade de roteamento de saída compara as utilizações de PSTN do início ao fim. Se o primeiro uso corresponder à rota da chamada, essa rota será usada. Caso contrário, a funcionalidade de roteamento de saída analisa o próximo uso de PSTN na lista e continua até que uma correspondência seja encontrada. De fato, os usos de PSTN subsequentes fornecem um backup se o primeiro da lista não estiver disponível. 
   
-## <a name="pstn-usage-records"></a>Registros de uso de PSTN
+## <a name="pstn-usage-records"></a>Registros de uso PSTN
 
 O planejamento dos registros de uso de PSTN consiste principalmente em listar todas as permissões de chamadas em uso na organização, desde o CEO até os funcionários temporários, os consultores e a equipe contingente. Esse processo também oferece uma oportunidade de reexaminar as permissões de chamadas existentes e revisá-las. Você pode criar registros de uso de PSTN somente para as permissões de chamada que se aplicam aos usuários previstos do Enterprise Voice, mas uma solução melhor e de longo alcance pode ser criar registros de PSTN para todas as permissões de chamadas, ainda que algumas delas não se apliquem no momento ao grupo de usuários que será habilitado para o Enterprise Voice. Se as permissões de chamada forem alteradas ou novos usuários com permissões de chamada diferentes forem adicionados, você já terá criado os registros de uso de PSTN necessários.
   
@@ -257,10 +257,10 @@ A tabela a seguir mostra um quadro típico de uso do PSTN.
 |Local  <br/> |Chamadas locais  <br/> |
 |Long-Distance  <br/> |Chamadas interurbanas  <br/> |
 |International  <br/> |Chamadas internacionais  <br/> |
-|Deli  <br/> |Funcionários de Délhi em tempo integral  <br/> |
+|Délhi  <br/> |Funcionários de Délhi em tempo integral  <br/> |
 |Redmond  <br/> |Funcionários de Redmond em tempo integral  <br/> |
 |RedmondTemps  <br/> |Funcionários temporários de Redmond  <br/> |
-|Zurique  <br/> |Funcionários de Zurique em tempo integral  <br/> |
+|Richrich  <br/> |Funcionários de Zurique em tempo integral  <br/> |
    
 Sozinhos, os registros de uso do PSTN não fazem nada. Para que funcionem, é necessário associá-los ao seguinte:
   
@@ -270,7 +270,7 @@ Sozinhos, os registros de uso do PSTN não fazem nada. Para que funcionem, é ne
     
 ## <a name="voice-routes"></a>Roteamento de voz
 
-As rotas de chamada especificam como o Skype for Business Server lida com chamadas de saída feitas por usuários do Enterprise Voice. Quando um usuário disca um número, o Servidor front-end normaliza a cadeia de caracteres de discagem para o formato E.164, se necessário, e tenta fazer a ligação com um URI do SIP. Se o servidor não conseguir fazer a correspondência, aplicará a lógica de encaminhamento de chamadas realizadas com base no número. A etapa final na definição dessa lógica é a criação de uma rota de chamada nomeada separada para cada conjunto de números de telefone listados em cada plano de discagem.
+As rotas de chamada especificam como o Skype for Business Server lida com chamadas de saída feitas por Enterprise Voice usuários. Quando um usuário disca um número, o Servidor front-end normaliza a cadeia de caracteres de discagem para o formato E.164, se necessário, e tenta match-lo com um URI SIP. Se o servidor não conseguir fazer a correspondência, aplicará a lógica de encaminhamento de chamadas realizadas com base no número. A etapa final na definição dessa lógica é a criação de uma rota de chamada nomeada separada para cada conjunto de números de telefone listados em cada plano de discagem.
   
 Antes de definir as rotas de chamadas de saída, você deve concluir as seguintes etapas:
   
@@ -294,29 +294,29 @@ Para cada rota, você deve especificar:
     
 - Os registros de uso do PSTN que os usuários devem ter para fazer chamadas para números que correspondam à expressão regular do número de telefone de destino.
     
-Você pode especificar rotas de chamadas no Painel de Controle do Skype for Business Server. Essas rotas de chamada preenchem a tabela de roteamento do servidor, que o Skype for Business Server usa para rotear chamadas destinadas à PSTN.
+Você pode especificar rotas de chamada no Painel de Controle do Skype for Business Server. Essas rotas de chamadas preenchem a tabela de roteamento do servidor, que o Skype for Business Server usa para rotear chamadas destinadas à PSTN.
   
 ### <a name="mn-trunk-support"></a>Suporte de Tronco M:N
 
-O Skype for Business Server oferece flexibilidade na forma como as chamadas são roteados para a PSTN. Uma rota de voz especifica um conjunto de troncos ao PSTN que pode ser usado para uma chamada de voz específica. Um tronco associa um Servidor de Mediação e um número de porta a um gateway PSTN e um número de porta de escuta. Essa associação lógica permite que um Servidor de Mediação seja associado a vários gateways e tenha várias conexões com o mesmo gateway. Ao definir uma rota de chamada, especifique os troncos associados a essa rota, mas não especifique quais Servidores de Mediação estão associados à rota. Para criar troncos definindo as relações entre Os Servidores de Mediação e gateways PSTN, IP-PBXs e Controladores de Borda de Sessão (SBCs), use o Construtor de Topologias.
+O Skype for Business Server oferece flexibilidade na forma como as chamadas são roteados para a PSTN. Uma rota de voz especifica um conjunto de troncos ao PSTN que pode ser usado para uma chamada de voz específica. Um tronco associa um Servidor de Mediação e um número de porta a um gateway PSTN e um número de porta de escuta. Essa associação lógica permite que um Servidor de Mediação seja associado a vários gateways e tenha várias conexões com o mesmo gateway. Ao definir uma rota de chamada, especifique os troncos associados a essa rota, mas não especifique quais Servidores de Mediação estão associados à rota. Para criar troncos definindo as relações entre Servidores de Mediação e gateways PSTN, IP-PBXs e Controladores de Borda de Sessão (SBCs), use o Construtor de Topologias.
   
 ### <a name="least-cost-routing"></a>Roteamento de Custo Mínimo
 
 A capacidade de especificar os troncos para os quais os diversos números são roteados permite determinar as rotas de menor custo e implementá-las adequadamente. A regra geral para selecionar troncos é escolher o tronco com o gateway mais próximo da localidade do número de destino para reduzir as tarifas de interurbano. Por exemplo, caso você esteja em Nova York telefonando para um número em Roma, a chamada seguiria pela rede IP até o tronco com o gateway no escritório de Roma e os custos seriam os de uma chamada local.
   
-Para um exemplo de como o roteamento de custo mínimo poderia ser usado, considere o seguinte: a Fabrikam decide permitir que os usuários alemães façam chamadas para os números dos EUA usando o tronco norte-americano. A Fabrikam também deseja configurar o sistema para que todas as chamadas de usuários do Skype for Business Server dos EUA para a Alemanha e países/regiões adjacentes terminem no tronco com o gateway na Alemanha. Este roteamento economizará dinheiro porque uma chamada da Alemanha para a Áustria, por exemplo, é mais barata do que uma chamada dos EUA para a Áustria.
+Para um exemplo de como o roteamento de custo mínimo poderia ser usado, considere o seguinte: a Fabrikam decide permitir que os usuários alemães façam chamadas para os números dos EUA usando o tronco norte-americano. A Fabrikam também deseja configurar o sistema para que todas as chamadas dos usuários do Skype for Business Server dos EUA para a Alemanha e países/regiões adjacentes terminem no tronco com o gateway na Alemanha. Este roteamento economizará dinheiro porque uma chamada da Alemanha para a Áustria, por exemplo, é mais barata do que uma chamada dos EUA para a Áustria.
   
 ### <a name="translating-outbound-dial-strings"></a>Como traduzir cadeias de caracteres de discagem de saída
 
-O Skype for Business Server requer que todas as cadeias de caracteres de discagem sejam normalizadas para o formato E.164 com a finalidade de realizar a RNL (RNL). Para troncos com gateways ou PBXs (private branch exchanges) que exigem números traduzidos em formatos de discagem local, o Skype for Business Server permite que você crie uma ou mais regras que ajudam na manipulação do número chamado (ou seja, URI de solicitação) antes de roteá-lo para o tronco. Por exemplo, você pode escrever uma regra para remover +44 do início da cadeia de caracteres de discagem e subsituí-lo por 0144.
+O Skype for Business Server exige que todas as cadeias de caracteres de discagem sejam normalizadas para o formato E.164 com a finalidade de executar a RNL (busca de número reverso). Para troncos com gateways ou pbxs de filial privada que exigem números traduzidos em formatos de discagem local, o Skype for Business Server permite que você crie uma ou mais regras que ajudam a manipular o número chamado (ou seja, Solicitar URI) antes de roteá-lo para o tronco. Por exemplo, você pode escrever uma regra para remover +44 do início da cadeia de caracteres de discagem e subsituí-lo por 0144.
   
-Com o Skype for Business Server, é possível criar uma ou mais regras que ajudam na manipulação do número de chamada antes de roteá-lo para o tronco.
+Com o Skype for Business Server, é possível criar uma ou mais regras que ajudam a manipular o número de chamada antes de roteá-lo para o tronco.
   
-Ao planejar seus troncos que associam gateway:pares de porta com o Servidor de Mediação:pares de porta, pode ser útil agrupar troncos com requisitos de discagem local semelhantes e, portanto, reduzir o número de regras de conversão necessárias e o tempo necessário para escrevê-las.
+Ao planejar seus troncos que associam pares de gateway:porta com pares de Servidor de Mediação:porta, pode ser útil agrupar troncos com requisitos de discagem local semelhantes e, portanto, reduzir o número de regras de conversão necessárias e o tempo necessário para escrevê-los.
   
 ### <a name="configuring-caller-id"></a>Como configurar o ID de chamador
 
-O Skype for Business Server oferece uma maneira de manipular a ID do chamador para chamadas de saída. Por exemplo, se uma organização quiser mascarar os ramais de discagem direta dos funcionários e substituí-los pelo número corporativo ou departamento genérico, um administrador poderá fazer isso usando o Painel de Controle do Skype for Business Server para suprimir a ID de chamadas e substituí-la por uma ID de chamadas alternativa especificada. Ao planejar sua lógica de roteamento, considere para quais indivíduos, grupos, sites você vai querer essa opção — talvez, até mesmo, para todos os funcionários.
+O Skype for Business Server fornece uma maneira de manipular a ID do chamador para chamadas de saída. Por exemplo, se uma organização quiser mascarar as extensões de discagem direta dos funcionários e substituí-las pelo número corporativo ou departmental genérico, um administrador poderá fazer isso usando o Painel de Controle do Skype for Business Server para suprimir a ID do chamador e substituí-la por uma ID de chamada alternativa especificada. Ao planejar sua lógica de roteamento, considere quais indivíduos, grupos, sites para os quais você deseja essa opção, talvez até mesmo para todos os funcionários.
   
 > [!NOTE]
 > Para chamadas que são roteadas novamente através do PSTN, o ID de chamador genérico será apresentado em vez do ID de chamador original. Isso pode fazer com que a chamada ignore configurações de Não Incomodar ou de privacidade que o receptor possa ter configurado. 
@@ -329,8 +329,6 @@ Ao criar rotas de chamadas de saída, você deve estar ciente dos seguintes fato
     
 - Se a parte do domínio do URI de solicitação não contiver um domínio suportado para a empresa, o componente de roteamento de saída no servidor não processa a chamada.
     
-- Se um usuário não estiver habilitado para o Enterprise Voice, o servidor aplicará outra lógica de roteamento, conforme apropriado.
+- Se um usuário não estiver habilitado para Enterprise Voice, o servidor aplicará outra lógica de roteamento, conforme apropriado.
     
 - Se uma chamada for roteada para um gateway que está completamente ocupado (todas as linhas do tronco estão ocupadas), o gateway rejeita a chamada e a lógica de roteamento de saída a redireciona para a próxima rota de menor custo. Considere isso cuidadosamente, porque um gateway dimensionado para um escritório pequeno no exterior (por exemplo, em Zurique) pode na verdade carregar um volume significativo de tráfego não-local para chamadas internacionais para a Suíça. Se o gateway não for dimensionado corretamente para esse tráfego adicional, as chamadas para a Suíça poderão ser roteadas por um gateway na Alemanha, resultando em tarifas maiores.
-    
-

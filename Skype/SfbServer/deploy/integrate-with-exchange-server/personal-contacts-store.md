@@ -13,29 +13,28 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: ec69a6cb-07f2-4057-9544-55035f83eeae
-description: 'Resumo: configure o armazenamento de contatos pessoais usado por clientes herdados.'
-ms.openlocfilehash: 66ef1c3726ea020669894769b48b2313e1da2e0e
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 'Resumo: configure o armazenamento de contatos pessoal usado por clientes herdados.'
+ms.openlocfilehash: 5f2131fd1e960e658d4257f0c86dd61a241aa499
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49833931"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51109667"
 ---
 # <a name="configure-the-personal-contacts-store-on-lync-2010-client-computers"></a>Configurar o armazenamento de contatos pessoais em computadores cliente do Lync 2010
   
-Se você estiver integrando o Skype for Business Server 2015 e o Exchange Server 2016 ou o Exchange Server 2013, configure o armazenamento de contatos pessoais usado pelos clientes. Em particular, você deve configurar o Skype for Business para usar o Exchange como o armazenamento de contatos pessoais e, ao mesmo tempo, garantir que os usuários não sejam capazes de substituir essa decisão. Isso pode ser feito criando e configurando um valor do Registro em cada computador cliente.
+Se você estiver integrando o Skype for Business Server 2015 e Exchange Server 2016 ou Exchange Server 2013, configure o armazenamento de contatos pessoal usado pelos clientes. Em particular, você deve configurar o Skype for Business para usar o Exchange como o armazenamento de contatos pessoais e, ao mesmo tempo, garantir que os usuários não sejam capazes de substituir essa decisão. Isso pode ser feito criando e configurando um valor do Registro em cada computador cliente.
   
 > [!NOTE]
-> O procedimento a seguir só é necessário para clientes que usam o cliente Lync 2010 ou anterior. O cliente do Lync 2013 e todos os clientes do Skype for Business não terão a opção de substitui-los.
+> O procedimento a seguir só é necessário para clientes que usam o cliente Lync 2010 ou anterior. O cliente do Lync 2013 e todos os clientes do Skype for Business não terão a opção de substituindo as configurações do armazenamento de contatos.
   
 Para configurar esse valor em um único computador, execute os seguinte procedimento:
   
-1. No computador cliente, clique em **Iniciar** e em **Executar.**
-2. Na caixa **de** diálogo Executar, digite regedit e pressione ENTER.
-3. No Editor do Registro, **expanda HKEY_LOCAL_MACHINE**, **expanda Software,** **expanda Políticas,** **expanda Microsoft** e **expanda Communicator**.
-4. Clique com o botão direito do mouse em **Communicator**, aponte para **Novo** e clique em **Valor DWORD (32 bits).**
+1. No computador cliente, clique em **Iniciar** e clique em **Executar**.
+2. Na caixa **de diálogo** Executar, digite regedit e pressione ENTER.
+3. No Editor do Registro, **expanda HKEY_LOCAL_MACHINE,** expanda **Software,** expanda **Políticas,** **expanda a Microsoft** e **expanda Communicator**.
+4. Clique com o **Communicator,** aponte para **Novo** e clique em **Valor DWORD (32 bits).**
 5. Após a criação do novo valor, digite PersonalContactStoreOverride e pressione ENTER para renomear o valor.
 6. Verifique se o valor de PersonalContactStoreOverride está definido para 0 e feche o Editor do Registro.
 
-Se precisar fazer esta mesma alteração em vários computadores, você pode criar um objeto personalizado de Política de Grupo. Para obter detalhes sobre como fazer isso no Windows 10, consulte [o artigo Criar um Objeto de Política de](https://docs.microsoft.com/windows/security/threat-protection/windows-firewall/create-a-group-policy-object) Grupo.
-  
+Se precisar fazer esta mesma alteração em vários computadores, você pode criar um objeto personalizado de Política de Grupo. Para obter detalhes sobre como fazer isso no Windows 10, consulte o [artigo Criar um objeto de política de grupo.](/windows/security/threat-protection/windows-firewall/create-a-group-policy-object)

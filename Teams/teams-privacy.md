@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9ea6fc3f27b5d97a2e890ec85e68a105acc44b42
-ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
+ms.openlocfilehash: ec3c035986d61dda78c6a940a7699fef7f4217a6
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/30/2020
-ms.locfileid: "44938490"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51094041"
 ---
 # <a name="privacy-and-microsoft-teams"></a>Privacidade e o Microsoft Teams
 
@@ -60,7 +60,7 @@ A Microsoft não divulgará dados pessoais, exceto:
 
 Se órgãos de cumprimento da lei contatarem a Microsoft com uma solicitação, a Microsoft tentará redirecionar os órgãos de cumprimento da lei para que solicitem os dados pessoais diretamente ao cliente. Se for obrigada a divulgar dados pessoais para os órgãos de cumprimento da lei, a Microsoft notificará o cliente imediatamente e fornecerá uma cópia dos dados solicitados, a menos que seja proibida por lei. Para saber mais sobre os dados que divulgamos em resposta às solicitações de cumprimento da lei e de outros órgãos governamentais, Confira nosso [Relatório de Solicitações de Órgãos de Cumprimento da Lei](https://www.microsoft.com/corporate-responsibility/law-enforcement-requests-report).
 
-O [Guia de Segurança do Teams](https://docs.microsoft.com/microsoftteams/security-compliance-overview#compliance-standards) tem mais informações sobre nossos padrões de conformidade.
+O [Guia de Segurança do Teams](./security-compliance-overview.md#compliance-standards) tem mais informações sobre nossos padrões de conformidade.
 
 ## <a name="where-does-teams-transfer-and-store-personal-data"></a>Para onde o Teams transfere e onde armazena dados pessoais?
 

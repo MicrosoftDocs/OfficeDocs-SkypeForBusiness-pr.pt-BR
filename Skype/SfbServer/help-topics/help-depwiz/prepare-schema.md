@@ -14,22 +14,22 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 337aa234-c5f3-4468-a047-2023848e942c
-description: Para preparar o esquema para os Serviços de Domínio Active Directory, execute a etapa Preparar Esquema no Assistente de Implantação do Skype for Business Server. Clique em Executar para começar a preparação do esquema. A etapa Preparar Esquema lê os arquivos de definição de esquema fornecidos no diretório /Program Files/Microsoft Lync Server 2013/Deployment/Setup no sistema em que o Assistente de Implantação está sendo executado. Esses arquivos também estão disponíveis na mídia de instalação no diretório Suporte/Esquema. A etapa Preparar Esquema estenderá o esquema e informará o status do processo. Também o notificará quando o processo estiver concluído. A tela de resumo permitirá que você exiba os logs do processo. Revise os logs para ter certeza de que a preparação foi concluída e teve êxito.
-ms.openlocfilehash: c6c29dfd8e9b0908091e61a569ca56a467a014d3
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Para preparar o esquema para os Serviços de Domínio do Active Directory, execute a etapa Preparar Esquema no Assistente de Implantação do Skype for Business Server. Clique em Executar para começar a preparação do esquema. A etapa Preparar Esquema lê os arquivos de definição de esquema fornecidos no diretório /Program Files/Microsoft Lync Server 2013/Deployment/Setup no sistema no qual o Assistente de Implantação está sendo executado. Esses arquivos também estão disponíveis na mídia de instalação no diretório Suporte/Esquema. A etapa Preparar Esquema estenderá o esquema e informará o status do processo. Também o notificará quando o processo estiver concluído. A tela de resumo permitirá que você exiba os logs do processo. Revise os logs para ter certeza de que a preparação foi concluída e teve êxito.
+ms.openlocfilehash: c3279be54ad5f68d5c2ee61d8d3c12c0fc9d9203
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49829791"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51108617"
 ---
 # <a name="prepare-schema"></a>Preparar Esquema
  
-Para preparar o esquema para os Serviços de Domínio Active Directory, execute a etapa Preparar Esquema no Assistente de Implantação do Skype for Business Server. Clique em **Executar** para começar a preparação do esquema. A etapa Preparar Esquema lê os arquivos de definição de esquema fornecidos no diretório \Program Files\Microsoft Lync Server 2013\Deployment\Setup no sistema em que o Assistente de Implantação está sendo executado. Esses arquivos também estão disponíveis na mídia de instalação no diretório \Support\Schema. A etapa Preparar Esquema estenderá o esquema e informará o status do processo. Também o notificará quando o processo estiver concluído. A tela de resumo permitirá que você exiba os logs do processo. Revise os logs para ter certeza de que a preparação foi concluída e teve êxito.
+Para preparar o esquema para os Serviços de Domínio do Active Directory, execute a etapa Preparar Esquema no Assistente de Implantação do Skype for Business Server. Clique em **Executar** para começar a preparação do esquema. A etapa Preparar Esquema lê os arquivos de definição de esquema fornecidos no diretório \Program Files\Microsoft Lync Server 2013\Deployment\Setup no sistema no qual o Assistente de Implantação está sendo executado. Esses arquivos também estão disponíveis na mídia de instalação no diretório \Support\Schema. A etapa Preparar Esquema estenderá o esquema e informará o status do processo. Também o notificará quando o processo estiver concluído. A tela de resumo permitirá que você exiba os logs do processo. Revise os logs para ter certeza de que a preparação foi concluída e teve êxito.
   
 > [!IMPORTANT]
 > Para estender o esquema, é necessário estar conectado ao domínio como membro do grupo Admins. de Esquema e do grupo Administradores de Empresa. 
   
-Classes e atributos são adicionados para estender o esquema dos Serviços de Domínio Active Directory para dar suporte aos objetos de servidor, serviço e usuário do Skype for Business Server 2015. Antes de estender o esquema, é necessário realizar o backup do estado do Sistema do controlador de domínio que detém a função de mestre de esquema. Para obter detalhes sobre o processo de backup do Windows Server 2008 R2 com SP1, consulte [https://go.microsoft.com/fwlink/p/?linkId=207198](https://go.microsoft.com/fwlink/p/?linkId=207198) . Para Windows Server 2003 e Windows Server 2003 R2, consulte [https://go.microsoft.com/fwlink/p/?linkId=207199](https://go.microsoft.com/fwlink/p/?linkId=207199) .
+Classes e atributos são adicionados para estender o esquema de Serviços de Domínio do Active Directory para dar suporte a objetos de servidor, serviço e usuário do Skype for Business Server 2015. Antes de estender o esquema, é necessário realizar o backup do estado do Sistema do controlador de domínio que detém a função de mestre de esquema. Para obter detalhes sobre o processo de backup do Windows Server 2008 R2 com SP1, consulte [https://go.microsoft.com/fwlink/p/?linkId=207198](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/ee849849(v=ws.10)) . Para Windows Server 2003 e Windows Server 2003 R2, consulte [https://go.microsoft.com/fwlink/p/?linkId=207199](/previous-versions/windows/it-pro/windows-server-2003/cc787254(v=ws.10)) .
   
 > [!CAUTION]
 > A extensão do esquema não é reversível. Faça o máximo para limitar o possível impacto de uma extensão de esquema sem sucesso e para assegurar que a extensão do esquema terá êxito. Isso é fundamental no caso de uma perda de comunicação ou de qualquer outra falha no servidor. Você deve executar um backup do controlador de domínio mestre do esquema e um backup completo do Active Directory. 
@@ -44,9 +44,7 @@ Para executar um backup do controlador de domínio mestre do esquema e um backup
     
 4. Após o êxito da extensão do esquema, reconecte o controlador de domínio à rede e saiba que a replicação está ativa e funcionando.
     
-5. No caso improvável de uma falha de extensão do esquema, restaure o estado do sistema do controlador de domínio e do Active Directory usando o backup do Estado do Sistema realizado anteriormente.
+5. No caso improvável de uma falha de extensão de esquema, restaure o estado dos sistemas do controlador de domínio e do Active Directory usando o backup do Estado do Sistema que você fez anteriormente.
     
 > [!NOTE]
-> Se precisar revisar os arquivos de log criados pelo Assistente de Implantação do Skype for Business Server, você poderá encontrar os arquivos no computador no qual o Assistente de Implantação foi executado, no diretório Usuários do usuário do Active Directory que fez a etapa. Por exemplo, se o usuário fez logon como administrador de domínio no domínio Contoso.net, os arquivos de log estão localizados em: C:\Users\Administrator.Contoso\AppData\Local\Temp 
-  
-
+> Se você precisar revisar os arquivos de log criados pelo Assistente de Implantação do Skype for Business Server, poderá encontrar os arquivos no computador onde o Assistente de Implantação foi executado, no diretório Usuários do usuário do Active Directory que executei a etapa. Por exemplo, se o usuário fez logon como administrador de domínio no domínio Contoso.net, os arquivos de log estão localizados em: C:\Users\Administrator.Contoso\AppData\Local\Temp 

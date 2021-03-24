@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0d3975ac177af7717dbfbcbd3bc8e027b5d8ea11
-ms.sourcegitcommit: 27bfa015413bc7742bca4ea227e0324da0c740d7
+ms.openlocfilehash: 8d8acd2e8f8c7360f9f83a478cfcf928f2939d54
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "50145898"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51102617"
 ---
 # <a name="it-admin-guide-to-education-insights-in-microsoft-teams"></a>Guia para o Administrador de TI sobre o Insights no Microsoft Teams para Educação
 
@@ -137,7 +137,7 @@ Atualmente, os dados são coletados das seguintes áreas nas equipes de classe:
 > A maioria dos dados coletados aparece no Insights dentro de poucos minutos. A participação em reuniões de classe (reuniões associadas a um dos canais de classe) aparece algumas horas após o final da reunião, geralmente até 24 horas depois.
 
 ### <a name="privacy-and-security"></a>Privacidade e segurança
-As informações coletadas e mostradas através do Insights atendem a [mais de 90 normas e regulamentos escolares](https://docs.microsoft.com/compliance/regulatory/offering-home), incluindo o [GDPR](https://docs.microsoft.com/compliance/regulatory/gdpr) e a [Lei de Direitos e Privacidade da Educação Familiar (FERPA)](https://docs.microsoft.com/compliance/regulatory/offering-ferpa) para a segurança de alunos e crianças, e outras regulamentações semelhantes voltadas para a privacidade.
+As informações coletadas e mostradas através do Insights atendem a [mais de 90 normas e regulamentos escolares](/compliance/regulatory/offering-home), incluindo o [GDPR](/compliance/regulatory/gdpr) e a [Lei de Direitos e Privacidade da Educação Familiar (FERPA)](/compliance/regulatory/offering-ferpa) para a segurança de alunos e crianças, e outras regulamentações semelhantes voltadas para a privacidade.
 
 Os dados pertencem à instituição, e a Microsoft somente os coleta e os armazena. Os funcionários da Microsoft não podem acessar os dados ou vê-los, exceto conforme permitido pela conformidade de uma forma auditada para manter o serviço, como a recuperação de dados.
 
@@ -173,7 +173,7 @@ Para acessar o Insights, os usuários devem ter uma licença do corpo docente A1
 ## <a name="student-information-system-sis-integration"></a>Integração do Sistema de Informações do Aluno (SIS)
 Quanto mais dados forem introduzidos no Insights, melhor os educadores podem dar suporte aos seus alunos e os gestores escolares podem dar suporte aos educadores.
 
-Para fornecer o Insights no nível da organização, devemos usar o [School Data Sync (SDS)](https://docs.microsoft.com/SchoolDataSync) para nos conectarmos ao Sistema de Informações do Aluno (SIS) de forma que o Insights tenha estrutura hierárquica do sistema educacional mapeada corretamente. 
+Para fornecer o Insights no nível da organização, devemos usar o [School Data Sync (SDS)](/SchoolDataSync) para nos conectarmos ao Sistema de Informações do Aluno (SIS) de forma que o Insights tenha estrutura hierárquica do sistema educacional mapeada corretamente. 
 
 A visualização do Insights no nível de classe como o educador de classe *não* requer isto porque usamos as permissões e a estrutura de classe do Teams.
 
@@ -192,7 +192,7 @@ Se os educadores quiserem acesso direto a cada classe, eles podem instalar manua
 Em ambas exibições, um educador pode acessar os dados de classe. Usando o aplicativo pessoal, o educador precisa fazer uma busca detalhada até o nível da classe, enquanto a guia fornece acesso direto aos dados da classe.
 
 > [!TIP]
-> Para mais detalhes, leia [Políticas do Teams e Pacotes de Políticas para Educação](https://docs.microsoft.com/microsoftteams/policy-packages-edu).
+> Para mais detalhes, leia [Políticas do Teams e Pacotes de Políticas para Educação](./policy-packages-edu.md).
 
 ## <a name="encourage-the-adoption-of-insights"></a>Incentivar a adoção de Insights
 Estimule sua instituição de ensino a usar o Insights.
@@ -255,6 +255,3 @@ Além disso, verifique se os alunos *não* [participaram da reunião de classe s
 
 > [!NOTE]
 > Se a sua pergunta ainda não foi respondida, [abra um tíquete de suporte](https://aka.ms/edusupport). Inclua as capturas de tela relevantes que representam o problema e a data em que ocorreu. Adicione quaisquer novos dados que você acha que podem nos ajudar a resolver o problema.
-
-
-

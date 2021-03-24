@@ -1,5 +1,5 @@
 ---
-title: Implantar aparência de linha compartilhada no Skype for Business Server 2015
+title: Implantar a aparência de linha compartilhada no Skype for Business Server 2015
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -16,25 +16,25 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 474a5e4a-9479-4e86-8607-b9f41a0fa648
-description: Leia este tópico para saber como implantar a Aparência de Linha Compartilhada (SLA) no Skype for Business Server 2015, atualização cumulativa de novembro de 2015. O SLA é um recurso para lidar com várias chamadas em um número específico chamado número compartilhado.
-ms.openlocfilehash: a692768744782f547b57b635a58864c858389d7c
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Leia este tópico para saber como implantar a Aparência de Linha Compartilhada (SLA) no Skype for Business Server 2015, Atualização Cumulativa de novembro de 2015. SLA é um recurso para lidar com várias chamadas em um número específico chamado número compartilhado.
+ms.openlocfilehash: 7758354b7c4be123cb9b5a482af3304b069931a8
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49812401"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51104907"
 ---
-# <a name="deploy-shared-line-appearance-in-skype-for-business-server-2015"></a>Implantar aparência de linha compartilhada no Skype for Business Server 2015
+# <a name="deploy-shared-line-appearance-in-skype-for-business-server-2015"></a>Implantar a aparência de linha compartilhada no Skype for Business Server 2015
 
-Leia este tópico para saber como implantar a Aparência de Linha Compartilhada (SLA) no Skype for Business Server 2015, atualização cumulativa de novembro de 2015. O SLA é um recurso para lidar com várias chamadas em um número específico chamado número compartilhado.
+Leia este tópico para saber como implantar a Aparência de Linha Compartilhada (SLA) no Skype for Business Server 2015, Atualização Cumulativa de novembro de 2015. SLA é um recurso para lidar com várias chamadas em um número específico chamado número compartilhado.
 
-Para obter mais informações sobre esse recurso, consulte [Plan for Shared Line Appearance in Skype for Business Server 2015.](../../plan-your-deployment/enterprise-voice-solution/shared-line-appearance.md)
+Para obter mais informações sobre esse recurso, consulte [Plan for Shared Line Appearance in Skype for Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/shared-line-appearance.md).
 
-Aparência de linha compartilhada (SLA) é um novo recurso no Skype for Business Server, atualização cumulativa de novembro de 2015. Para habilitar esse recurso, primeiro você deve ter implantado essa atualização cumulativa.
+A Aparência de Linha Compartilhada (SLA) é um novo recurso no Skype for Business Server, Atualização Cumulativa de novembro de 2015. Para habilitar esse recurso, você deve ter implantado primeiro essa atualização cumulativa.
 
-### <a name="install-shared-line-appearance"></a>Instalar aparência de linha compartilhada
+### <a name="install-shared-line-appearance"></a>Instalar a aparência de linha compartilhada
 
-1. Depois que o Skype for Business Server, a Atualização Cumulativa de novembro de 2015 for implantada, execute o patch em cada Servidor  `SkypeServerUpdateInstaller.exe` front-end no pool.
+1. Depois que o Skype for Business Server, a Atualização Cumulativa de novembro de 2015 for implantada, execute o patch em cada  `SkypeServerUpdateInstaller.exe` Servidor de Front-End no pool.
 
 2. O instalador implantará a versão mais recente do aplicativo SLA, no entanto, o aplicativo não está habilitado por padrão. Ele é habilitado seguindo as etapas descritas abaixo:
 
@@ -46,13 +46,13 @@ Aparência de linha compartilhada (SLA) é um novo recurso no Skype for Business
 
    onde %FQDN% é o nome de domínio totalmente qualificado do pool.
 
-    b. Execute o seguinte comando para atualizar as funções do RBAC para os cmdlets SLA:
+    b. Execute o seguinte comando para atualizar as funções RBAC dos cmdlets SLA:
 
    ```powershell
    Update-CsAdminRole
    ```
 
-    c. Reinicie todos os Servidores front-end (serviço RTCSRV) em todos os pools em que o SLA foi instalado e habilitado:
+    c. Reinicie todos os Servidores front-end (serviço RTCSRV) em todos os pools onde o SLA foi instalado e habilitado:
 
    ```powershell
    Stop-CsWindowsService RTCSRV Start-CsWindowsService RTCSRV
@@ -60,17 +60,17 @@ Aparência de linha compartilhada (SLA) é um novo recurso no Skype for Business
 
 ### <a name="create-an-sla-group-and-add-users-to-it"></a>Criar um grupo SLA e adicionar usuários a ele
 
-1. Crie o grupo SLA usando o cmdlet [Set-CsSlaConfiguration:](https://docs.microsoft.com/powershell/module/skype/set-csslaconfiguration?view=skype-ps)
+1. Crie o grupo SLA usando o cmdlet [Set-CsSlaConfiguration:](/powershell/module/skype/set-csslaconfiguration?view=skype-ps)
 
    ```powershell
    Set-CsSlaConfiguration -Identity <IdentityOfGroup> -MaxNumberOfCalls <Number> -BusyOption <BusyOnBusy|Voicemail|Forward> [-Target <TargetUserOrPhoneNumber>]
    ```
 
-    O Set-CsSlaConfiguration cmdlet marca a conta do Enterprise Voice SLAGroup1 como uma entidade SLA, e o número de SLAGroup1 se torna o número do grupo SLA. Todas as chamadas para SLAGroup1 tocarão em todo o grupo SLA.
+    O Set-CsSlaConfiguration cmdlet marca o SLAGroup1 da conta Enterprise Voice como uma entidade SLA, e o número de SLAGroup1 se torna o número do grupo SLA. Todas as chamadas para SLAGroup1 tocarão todo o grupo SLA.
 
-    O exemplo a seguir cria um grupo SLA para um usuário existente do Enterprise Voice, SLAGroup1, e usa o número atribuído a SLAGroup1 como o número da linha principal SLA.
+    O exemplo a seguir cria um grupo SLA para um usuário Enterprise Voice existente, SLAGroup1, e usa o número atribuído para SLAGroup1 como o número de linha principal SLA.
 
-    O comando define o número máximo de chamadas simultâneas para o novo grupo SLA como 3 e para chamadas além disso ouvirem um sinal de ocupado:
+    O comando define o número máximo de chamadas simultâneas para o novo grupo SLA como 3 e para chamadas em excesso ouvirem um sinal de ocupado:
 
    ```powershell
    Set-CsSlaConfiguration -Identity SLAGroup1 -MaxNumberOfCalls 3 -BusyOption BusyOnBusy
@@ -79,16 +79,16 @@ Aparência de linha compartilhada (SLA) é um novo recurso no Skype for Business
     Você pode usar Set-CsSlaConfiguration para criar um novo grupo SLA ou modificar um existente.
 
     > [!NOTE]
-    > Observe que o que você especificar deve ser uma conta de usuário válida habilitada para  `-Identity` Enterprise Voice existente.
+    > Observe que o que você especificar deve ser uma conta de usuário Enterprise Voice  `-Identity` habilitada para uso.
 
-2. Adicione representantes ao grupo usando o cmdlet [Add-CsSlaDelegates:](https://docs.microsoft.com/powershell/module/skype/add-cssladelegates?view=skype-ps)
+2. Adicione representantes ao grupo usando o cmdlet [Add-CsSlaDelegates:](/powershell/module/skype/add-cssladelegates?view=skype-ps)
 
    ```powershell
    Add-CsSlaDelegates -Identity <IdentityOfGroup> -Delegate
           <NameOfDelegate@domain>
    ```
 
-    O exemplo a seguir adiciona um usuário ao grupo SLA. Cada usuário adicionado ao grupo deve ser um usuário habilitado para Enterprise Voice válido:
+    O exemplo a seguir adiciona um usuário ao grupo SLA. Cada usuário adicionado ao grupo deve ser um usuário Enterprise Voice habilitado para uso válido:
 
    ```powershell
    Add-CsSlaDelegates -Identity SLAGroup1 -Delegate sip:SLA_Delegate1@contoso.com
@@ -96,15 +96,15 @@ Aparência de linha compartilhada (SLA) é um novo recurso no Skype for Business
 
     Repita o cmdlet para cada usuário que você deseja adicionar ao grupo. Os usuários só podem pertencer a um único grupo SLA.
 
-### <a name="configure-the-sla-group-busy-option"></a>Configurar a opção ocupado do grupo SLA
+### <a name="configure-the-sla-group-busy-option"></a>Configurar a opção de ocupado do grupo SLA
 
-- Configure a Opção de Ocupado do grupo SLA usando o cmdlet [Set-CsSlaConfiguration:](https://docs.microsoft.com/powershell/module/skype/set-csslaconfiguration?view=skype-ps)
+- Configure a Opção de Ocupado do grupo SLA usando o cmdlet [Set-CsSlaConfiguration:](/powershell/module/skype/set-csslaconfiguration?view=skype-ps)
 
   ```powershell
   Set-CsSlaConfiguration -Identity <IdentityOfGroup> -BusyOption <Option> [-Target <TargetUserOrPhoneNumber>]
   ```
 
-    O exemplo a seguir define chamadas que excedem o número máximo de chamadas simultâneas a serem encaminhadas para o número de telefone 202-555-1234. O destino pode ser um usuário em sua organização em vez de um número de telefone; nesse caso, a sintaxe para a pessoa receber as chamadas encaminhadas é a mesma de quando você especifica um representante:  `sip:<NameofDelegate@domain>` . O outro parâmetro possível `BusyOption` para: `Voicemail`
+    O exemplo a seguir define chamadas que excedem o número máximo de chamadas simultâneas a serem encaminhadas para o número de telefone 202-555-1234. O destino pode ser um usuário em sua organização em vez de um número de telefone; nesse caso, a sintaxe para a pessoa receber as chamadas encaminhadas é a mesma que quando você especifica um representante:  `sip:<NameofDelegate@domain>` . O outro parâmetro possível para  `BusyOption` `Voicemail` é :
 
   ```powershell
   Set-CsSlaConfiguration -Identity SLAGroup1 -BusyOption Forward -Target tel:+2025551234
@@ -112,13 +112,13 @@ Aparência de linha compartilhada (SLA) é um novo recurso no Skype for Business
 
 ### <a name="configure-the-sla-group-missed-call-option"></a>Configurar a opção de chamada perdida do grupo SLA
 
-1. Configure a Opção de Chamada Perdida do grupo SLA usando o cmdlet [Set-CsSlaConfiguration:](https://docs.microsoft.com/powershell/module/skype/set-csslaconfiguration?view=skype-ps)
+1. Configure a opção de chamada perdida do grupo SLA usando o cmdlet [Set-CsSlaConfiguration:](/powershell/module/skype/set-csslaconfiguration?view=skype-ps)
 
    ```powershell
    Set-CsSlaConfiguration -Identity <IdentityOfGroup> -MissedCallOption <Option> -MissedCallForwardTarget <TargetUserOrPhoneNumber> -BusyOption <Option> -MaxNumberofCalls <#> -Target [Target]
    ```
 
-2. O exemplo a seguir especifica que as chamadas perdidas devem ser encaminhadas para o usuário chamado  `sla_forward_number` . As opções válidas para  `-MissedCallOption` o parâmetro `Forward` são, ou  `BusySignal`  `Disconnect` . Se você escolher, também deverá incluir o parâmetro, com um usuário ou número  `Forward` de telefone como o  `-MissedCallForwardTarget` destino:
+2. O exemplo a seguir especifica que as chamadas perdidas devem ser encaminhadas para o usuário chamado  `sla_forward_number` . As opções válidas para  `-MissedCallOption` o parâmetro são , ou `Forward`  `BusySignal`  `Disconnect` . Se você escolher  `Forward` , também deverá incluir o parâmetro, com um usuário ou número de telefone como o  `-MissedCallForwardTarget` destino:
 
    ```powershell
    Set-CsSlaConfiguration -Identity SLAGroup1 -MissedCallOption Forward -MissedCallForwardTarget sip:sla_forward_number@contoso.com -BusyOption Forward -MaxNumberOfCalls 2 -Target sip:sla_forward_number@contoso.com
@@ -126,7 +126,7 @@ Aparência de linha compartilhada (SLA) é um novo recurso no Skype for Business
 
 ### <a name="remove-a-delegate-from-a-group"></a>Remover um representante de um grupo
 
-- Remova um representante de um grupo usando o cmdlet [Remove-CsSlaDelegates:](https://docs.microsoft.com/powershell/module/skype/remove-cssladelegates?view=skype-ps)
+- Remova um representante de um grupo usando o cmdlet [Remove-CsSlaDelegates:](/powershell/module/skype/remove-cssladelegates?view=skype-ps)
 
   ```powershell
   Remove-CsSlaDelegates -Identity <IdentityOfGroup> -Delegate <NameOfDelegate@domain>
@@ -140,7 +140,7 @@ Aparência de linha compartilhada (SLA) é um novo recurso no Skype for Business
 
 ### <a name="delete-an-sla-group"></a>Excluir um grupo SLA
 
-- Exclua um grupo SLA usando o cmdlet [Remove-CsSlaConfiguration:](https://docs.microsoft.com/powershell/module/skype/remove-csslaconfiguration?view=skype-ps)
+- Exclua um grupo SLA usando o cmdlet [Remove-CsSlaConfiguration:](/powershell/module/skype/remove-csslaconfiguration?view=skype-ps)
 
   ```powershell
   Remove-CsSlaConfiguration -Identity <IdentityOfGroup>
@@ -151,5 +151,3 @@ Aparência de linha compartilhada (SLA) é um novo recurso no Skype for Business
   ```powershell
   Remove-CsSlaConfiguration -Identity SLAGroup1
   ```
-
-

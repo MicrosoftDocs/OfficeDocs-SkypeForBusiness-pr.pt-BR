@@ -14,20 +14,20 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: df447066-2840-431b-bc4e-acf8aa692d71
-description: Publique a topologia configurada usando o Construtor de Topologias. Você é solicitado a selecionar em uma lista qual Servidor de Front End ou pool de Front-End assumirá a função de manter o armazenamento de Gerenciamento Central. Somente um servidor front-end ou pool de front-end pode manter essa função a qualquer momento.
-ms.openlocfilehash: ba166af4daee293b450e60909fb30a8757e2d70b
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Você publica a topologia configurada usando o Construtor de Topologias. Você é solicitado a selecionar em uma lista qual servidor front-end ou pool de front-end assumirá a função de manter o armazenamento de Gerenciamento Central. Somente um servidor front-end ou pool de front-end pode manter essa função a qualquer momento.
+ms.openlocfilehash: c55cd337e7c49f943705671983a436397bf4e4e8
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49823661"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51104397"
 ---
 # <a name="publish-topology-select-cms-page"></a>Publicar Página CMS de Seleção de Topologia
 
-Publique a topologia configurada usando o Construtor de Topologias. Você é solicitado a selecionar em uma lista qual Servidor de Front End ou pool de Front-End assumirá a função de manter o armazenamento de Gerenciamento Central. Somente um servidor front-end ou pool de front-end pode manter essa função a qualquer momento.
+Você publica a topologia configurada usando o Construtor de Topologias. Você é solicitado a selecionar em uma lista qual servidor front-end ou pool de front-end assumirá a função de manter o armazenamento de Gerenciamento Central. Somente um servidor front-end ou pool de front-end pode manter essa função a qualquer momento.
 
-Para obter mais informações sobre o que é o armazenamento de Gerenciamento Central, consulte [Move the Lync Server 2010 Central Management Server to Lync Server 2013](https://technet.microsoft.com/library/30cc98f2-1916-4dbe-99d0-8df5368ed3ec.aspx).
+Para obter mais informações sobre o que é o armazenamento de Gerenciamento Central, consulte [Move the Lync Server 2010 Central Management Server to Lync Server 2013](/previous-versions/office/lync-server-2013/move-the-lync-server-2010-central-management-server-to-lync-server-2013).
 
 ## <a name="see-also"></a>Confira também
 
-[Move-CsManagementServer](https://docs.microsoft.com/powershell/module/skype/move-csmanagementserver?view=skype-ps)
+[Move-CsManagementServer](/powershell/module/skype/move-csmanagementserver?view=skype-ps)
