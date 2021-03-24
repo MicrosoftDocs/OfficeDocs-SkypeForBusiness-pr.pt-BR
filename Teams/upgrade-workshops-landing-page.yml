@@ -24,31 +24,31 @@ metadata:
   search.appverid: MET150
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: 7909d77e2c8d6a99bdeb501172f528aeb78c142f
-  ms.sourcegitcommit: d6e97621b1bfe9c3fbd8bc41b30a94bafd17b28f
+  ms.openlocfilehash: 1fea5f1d806058d8b7ff6d37414543347ba6adf8
+  ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
   ms.translationtype: MT
   ms.contentlocale: pt-BR
-  ms.lasthandoff: 01/25/2021
-  ms.locfileid: "49973155"
+  ms.lasthandoff: 03/23/2021
+  ms.locfileid: "51093741"
 productDirectory:
   items:
   - title: Planeje a atualização (Comece aqui!)
     imageSrc: https://docs.microsoft.com/office/media/icons/get-started-teams.svg
-    summary: Se você estiver atualizando para o Teams antes da aposentadoria do Skype for Business Online (31 de julho de 2021) ou movendo cenários de seu ambiente local do Skype for Business para o Teams, uma transição bem-sucedida aborda a preparação técnica e do usuário. Descubra nossa estrutura comprovada, práticas recomendadas e recursos projetados para ajudá-lo a facilitar uma transição bem-sucedida para o Teams do Skype for Business Online, Skype for Business Server ou um ambiente híbrido. Audiência – Tudo (Patrocinadores comerciais, administradores de IT, gerente de preparação/mudança do usuário, líder do projeto)
+    summary: Se você está atualizando para o Teams antes da aposentadoria do Skype for Business Online (31 de julho de 2021) ou movendo cenários do seu ambiente local do Skype for Business para o Teams, uma transição bem-sucedida aborda a preparação técnica e do usuário. Descubra nossa estrutura comprovada, práticas recomendadas e recursos projetados para ajudá-lo a facilitar uma transição bem-sucedida para o Teams do Skype for Business Online, Skype for Business Server ou um ambiente híbrido. Audiência – Todos (Patrocinadores corporativos, administradores de IT, gerente de preparação/alteração do usuário, líder do projeto)
     url: https://microsoftteams.eventbuilder.com/PlanYourUpgrade
   - title: Implementar a atualização do Teams
     imageSrc: https://docs.microsoft.com/office/media/icons/hybrid-teams.svg
-    summary: Junte-se a nós para identificar e preparar-se para executar a melhor abordagem técnica para mover todas as cargas de trabalho para o Teams, com base em suas metas e em seu ambiente atual do Skype for Business. A maioria dos clientes que concluíram transições bem-sucedidas habilitaram o Teams juntamente com o Skype for Business Online atual, o Skype for Business Server ou a implementação híbrida. Esta sessão compartilhará considerações importantes e recursos valiosos para ajudá-lo a definir a melhor estratégia de migração para sua organização. Audiência – administradores de IT
+    summary: Junte-se a nós para identificar e preparar-se para executar a melhor abordagem técnica para mover todas as cargas de trabalho para o Teams, com base em suas metas e no seu ambiente atual do Skype for Business. A maioria dos clientes que concluiu transições bem-sucedidas habilitaram o Teams juntamente com o Skype for Business Online atual, o Skype for Business Server ou a implementação híbrida. Esta sessão compartilhará considerações importantes e recursos valiosos para ajudá-lo a definir a melhor estratégia de migração para sua organização. Audiência - administradores de IT
     url: https://microsoftteams.eventbuilder.com/ImplementTeamsUpgrade
 additionalContent:
   sections:
   - items:
-    - title: Exibir esses workshops no seu próprio horário
+    - title: Exibir esses workshops em seu próprio tempo
       summary: Visite Atualizar para o Microsoft Teams no YouTube.
       url: https://aka.ms/UpgradeOnDemand
     - title: Expandindo seus cenários do Teams?
-      summary: Confira nossos workshops de Talk de Giz do Teams para profissionais de IT.
-      url: https://aka.ms/TeamsChalkTalks
+      summary: Confira nossos workshops do Teams Chalk Talk para profissionais de IT.
+      url: ./chalk-talks-landing-page.yml
     - title: Novo usuário do Teams?
-      summary: Saiba mais sobre como começar a trabalhar com o Teams.
-      url: https://docs.microsoft.com/microsoftteams/teams-overview
+      summary: Saiba mais sobre como começar com o Teams.
+      url: ./teams-overview.md
