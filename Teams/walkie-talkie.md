@@ -18,12 +18,12 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: eb00501a0c795f754c927dd9ed3bd5114f61fab7
-ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
+ms.openlocfilehash: 90d5135196de9ecf62085e88053d80299b6e5a58
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/18/2021
-ms.locfileid: "50875041"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51097457"
 ---
 # <a name="walkie-talkie-app-in-microsoft-teams"></a>Aplicativo Walkie Talkie no Microsoft Teams
 
@@ -88,7 +88,7 @@ Os funcionários de linha de frente geralmente precisam falar e receber chamadas
 
 ### <a name="license-requirements"></a>Requisitos de licença
 
-O aplicativo Walkie Talkie está incluído em todas as licenças pagas do Teams nas [assinaturas do Office 365.](https://docs.microsoft.com/MicrosoftTeams/office-365-licensing) Para obter mais informações sobre como obter o Teams, confira [Como obter acesso ao Microsoft Teams](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b)?
+O aplicativo Walkie Talkie está incluído em todas as licenças pagas do Teams nas [assinaturas do Office 365.](/office365/servicedescriptions/teams-service-description) Para obter mais informações sobre como obter o Teams, confira [Como obter acesso ao Microsoft Teams](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b)?
 
 > [!NOTE]
 > Determinados recursos avançados podem exigir licenciamento adicional. Por exemplo, a integração com o Samsung Galaxy XCover Pro requer uma licença do Knox.

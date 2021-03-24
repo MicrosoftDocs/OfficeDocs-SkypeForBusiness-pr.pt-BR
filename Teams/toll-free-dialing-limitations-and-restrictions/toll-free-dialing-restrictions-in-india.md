@@ -23,13 +23,13 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
-description: Saiba mais sobre como discar números de discagem gratuita na Índia, incluindo disponibilidade, disponibilidade de rede com fio/fixo e rede móvel e restrições.
-ms.openlocfilehash: e95d00a0bc601780eca63369e0af76d6a4786016
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+description: Saiba mais sobre discagem de números gratuitos na Índia, incluindo disponibilidade, disponibilidade de rede com fio/fixa e rede móvel e restrições.
+ms.openlocfilehash: 3e8dc705b5a8f762899433e0fbd2cc4bfe3aba94
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43140380"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51098076"
 ---
 # <a name="toll-free-dialing-restrictions-in-india"></a>Restrições de discagem de chamada gratuita na Índia
 
@@ -38,19 +38,18 @@ ms.locfileid: "43140380"
 
 |**Detalhes**|**Descrição**|
 |:-----|:-----|
-|As chamada gratuitas estão disponíveis?  <br/> |Sim  <br/> |
-|Formato(s) de discagem  <br/> |000 800 XXX XXXX  <br/> |
-|Código ISO do país/região  <br/> |Ind  <br/> |
+|A chamada gratuita está disponível?  <br/> |Sim  <br/> |
+|Formatos de discagem  <br/> |000 800 XXX XXXX  <br/> |
+|Código ISO de país/região  <br/> |IND  <br/> |
 |Ilha/território coberto  <br/> |Não aplicável  <br/> |
 |Ilha/território não coberto  <br/> |Não aplicável  <br/> |
-|Disponibilidade de linhas com fio/fixo  <br/> |Parcial. Veja os comentários.  <br/> |
+|Disponibilidade de linha com fio/fixa  <br/> |Parcial. Veja os comentários.  <br/> |
 |Disponibilidade com a rede móvel  <br/> |Parcial. Veja os comentários.  <br/> |
-|Comentários, restrições e problemas de acesso  <br/> |Acesso disponível nas seguintes redes: Loop Mobile, BSNL – fixo (todas as regiões, menos Briacal), Vodafone, IDEA/SPICE (todas as regiões, mas Punjab Spice), MTS Índia/Shyam (corrigido), MTNL – celular fixo, Confiança (todas as regiões, menos &amp; a Dexabad, Bhopal, Bwereswer,Pur, Luckwer, Meerut), TTML &amp; TTSL (fixo &amp; pós-pago), Sara DoCoMo, HFCL Infotel/Ping Mobile, S-Tel Mobile, Uninor, Videocon Mobile, BSNL-mobile, Bfci/Airtel network.  <br/> O acesso não está disponível nas seguintes redes: TTSL (Pré-pago), Etisalat DB Telecom e Jio.  <br/> |
+|Comentários, restrições e problemas de acesso  <br/> |Acesso disponível nas seguintes redes: Loop Mobile, BSNL - fixo (todas as regiões, mas Bhopal), Vodafone, IDEA/SPICE (todas as regiões, mas Spice Spice), MTS Índia/Shyam (fixo), MTNL - móvel fixo, Reliance (todas as regiões, mas &amp; Alcovade, Bhopal, Bhuneswer, Jaipur, Lucknow, Meerut), TTML &amp; TTSL &amp; (pós-pago fixo), Tata DoCoMo, HFCL Infotel/Ping Mobile, S-Tel Mobile, Uninor, Videocon Mobile, BSNL-mobile, rede Bharti/Airtel.  <br/> O acesso não está disponível nas seguintes redes: TTSL (Pré-pago), Etisalat DB Telecom e Jio.  <br/> |
    
 ## <a name="related-topics"></a>Tópicos relacionados
 [Limitações e restrições de discagem gratuita](../toll-free-dialing-limitations-and-restrictions.md)
 
-[Obtendo números de telefone de serviço do Skype for Business e do Microsoft Teams](/microsoftteams/getting-service-phone-numbers)
+[Obtendo números de telefone de serviço do Skype for Business e do Microsoft Teams](../getting-service-phone-numbers.md)
 
   
- 

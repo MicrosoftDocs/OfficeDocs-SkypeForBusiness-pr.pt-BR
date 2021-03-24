@@ -19,17 +19,17 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 28daebcb-c2dc-4338-b2d1-04345ece9c19
 description: Saiba como habilitar os serviços de voz do Sistema de Telefonia para seus usuários do Skype for Business.
-ms.openlocfilehash: bbcf8b35d91015067943eec2cbe43525e952a7f7
-ms.sourcegitcommit: 1613e08da482ff142c990c9c9951abeb873ad964
+ms.openlocfilehash: f1c59505073a7113407f28b7ebbe3a323724782e
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "50569353"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51098567"
 ---
 # <a name="enable-users-for-enterprise-voice-online-and-phone-system-voicemail"></a>Habilitar os usuários do Enterprise Voice online e da Caixa Postal do Sistema de Telefone
  
 > [!Important]
-> O Skype for Business Online será retirado em 31 de julho de 2021 após o qual o serviço não estará mais acessível.  Além disso, a conectividade PSTN entre seu ambiente local, seja por meio do Skype for Business Server ou do Cloud Connector Edition e do Skype for Business Online, não terá mais suporte.  Saiba como conectar sua rede de telefonia local ao Teams usando [Roteamento Direto](https://docs.microsoft.com/MicrosoftTeams/direct-routing-landing-page).
+> O Skype for Business Online será retirado em 31 de julho de 2021 após o qual o serviço não estará mais acessível.  Além disso, a conectividade PSTN entre seu ambiente local, seja por meio do Skype for Business Server ou do Cloud Connector Edition e do Skype for Business Online, não terá mais suporte.  Saiba como conectar sua rede de telefonia local ao Teams usando [Roteamento Direto](/MicrosoftTeams/direct-routing-landing-page).
 
 Saiba como habilitar os serviços de voz do Sistema de Telefonia para seus usuários do Skype for Business.
   
@@ -45,7 +45,7 @@ Para habilitar um usuário para Voz do Sistema de Telefonia e caixa postal, voc�
 > O Skype for Business Online Connector atualmente faz parte do módulo do PowerShell mais recente do Teams.
 > Se você estiver usando a versão pública mais recente do [Teams PowerShell,](https://www.powershellgallery.com/packages/MicrosoftTeams/)não será necessário instalar o Conector do Skype for Business Online.
 
-1. Antes de começar, verifique se o módulo do Teams PowerShell está instalado em seus Servidores Front-End. Se não estiver, instale usando as instruções na Instalação do [Módulo do PowerShell do Teams.](https://docs.microsoft.com/microsoftteams/teams-powershell-install)
+1. Antes de começar, verifique se o módulo do Teams PowerShell está instalado em seus Servidores Front-End. Se não estiver, instale usando as instruções na Instalação do [Módulo do PowerShell do Teams.](/microsoftteams/teams-powershell-install)
     
 2. Inicie Windows PowerShell como administrador.
     
@@ -98,11 +98,11 @@ Esta seção descreve como atualizar o URI de linha e o plano de discagem para u
     
 ## <a name="update-the-dial-plan-using-on-premises-windows-powershell-cmdlets"></a>Atualizar o plano de discagem usando cmdlets locais Windows PowerShell cmdlets
 
-Você pode atribuir planos de discagem por usuário com Windows PowerShell e o cmdlet [Grant-CsDialPlan.](https://docs.microsoft.com/powershell/module/skype/grant-csdialplan?view=skype-ps) Você pode executar esse cmdlet no Skype for Business Server 2015 ou em uma sessão remota de Windows PowerShell.
+Você pode atribuir planos de discagem por usuário com Windows PowerShell e o cmdlet [Grant-CsDialPlan.](/powershell/module/skype/grant-csdialplan?view=skype-ps) Você pode executar esse cmdlet no Skype for Business Server 2015 ou em uma sessão remota de Windows PowerShell.
   
 ### <a name="to-assign-a-per-user-dial-plan-to-a-single-user"></a>Para atribuir um plano de discagem por usuário a um único usuário
 
-- Use o cmdlet [Grant-CsDialPlan](https://docs.microsoft.com/powershell/module/skype/grant-csdialplan?view=skype-ps) para atribuir o plano de discagem por usuário RedmondDialPlan ao usuário Ken Myer:
+- Use o cmdlet [Grant-CsDialPlan](/powershell/module/skype/grant-csdialplan?view=skype-ps) para atribuir o plano de discagem por usuário RedmondDialPlan ao usuário Ken Myer:
     
   ```powershell
   Grant-CsDialPlan -Identity "Ken Myer" -PolicyName "RedmondDialPlan"
@@ -110,7 +110,7 @@ Você pode atribuir planos de discagem por usuário com Windows PowerShell e o c
 
 ### <a name="to-assign-a-per-user-dial-plan-to-multiple-users"></a>Para atribuir um plano de discagem por usuário a vários usuários
 
-- O comando a seguir atribui o plano de discagem por usuário RedmondDialPlan a todos os usuários que trabalham na cidade de Redmond. Para obter mais informações sobre o parâmetro LdapFilter usado neste comando, consulte a documentação do cmdlet [Get-CsUser:](https://docs.microsoft.com/powershell/module/skype/get-csuser?view=skype-ps)
+- O comando a seguir atribui o plano de discagem por usuário RedmondDialPlan a todos os usuários que trabalham na cidade de Redmond. Para obter mais informações sobre o parâmetro LdapFilter usado neste comando, consulte a documentação do cmdlet [Get-CsUser:](/powershell/module/skype/get-csuser?view=skype-ps)
     
   ```powershell
   Get-CsUser -LdapFilter "l=Redmond" | Grant-CsDialPlan -PolicyName "RedmondDialPlan"
@@ -121,7 +121,7 @@ Você pode atribuir planos de discagem por usuário com Windows PowerShell e o c
   
 ### <a name="to-unassign-a-per-user-dial-plan"></a>Para desaignar um plano de discagem por usuário
 
-- Use o cmdlet [Grant-CsDialPlan](https://docs.microsoft.com/powershell/module/skype/grant-csdialplan?view=skype-ps) para desemplacar qualquer plano de discagem por usuário atribuído anteriormente a Ken Myer. Depois que o plano de discagem por usuário não for atribuído, Ken Myer será gerenciado automaticamente usando o plano de discagem global ou o plano de discagem de escopo de serviço atribuído ao seu Registrador ou gateway PSTN. Um plano de discagem de escopo de serviço tem precedência sobre o plano de discagem global:
+- Use o cmdlet [Grant-CsDialPlan](/powershell/module/skype/grant-csdialplan?view=skype-ps) para desemplacar qualquer plano de discagem por usuário atribuído anteriormente a Ken Myer. Depois que o plano de discagem por usuário não for atribuído, Ken Myer será gerenciado automaticamente usando o plano de discagem global ou o plano de discagem de escopo de serviço atribuído ao seu Registrador ou gateway PSTN. Um plano de discagem de escopo de serviço tem precedência sobre o plano de discagem global:
     
   ```powershell
   Grant-CsDialPlan -Identity "Ken Myer" -PolicyName $Null
@@ -131,14 +131,14 @@ Você pode atribuir planos de discagem por usuário com Windows PowerShell e o c
 
 Esta seção descreve como atualizar as políticas de roteamento de voz para usuários habilitados para o Sistema de Telefonia.
   
-Os usuários do Sistema de Telefonia devem ter uma Política de Roteamento de Voz atribuída a eles para que as chamadas roteem com êxito. Isso difere dos usuários de voz comerciais locais que exigem que uma Política de Voz seja atribuída a eles para permitir que as chamadas sejam roteadas com êxito. A Política de Roteamento de Voz deve conter usos PSTN que definem chamadas autorizadas e rotas para usuários do Sistema de Telefonia. Você pode copiar esses usos PSTN de Políticas de Voz existentes para novas Políticas de Roteamento de Voz. Para obter mais informações, [consulte New-CsVoiceRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csvoiceroutingpolicy?view=skype-ps).
+Os usuários do Sistema de Telefonia devem ter uma Política de Roteamento de Voz atribuída a eles para que as chamadas roteem com êxito. Isso difere dos usuários de voz comerciais locais que exigem que uma Política de Voz seja atribuída a eles para permitir que as chamadas sejam roteadas com êxito. A Política de Roteamento de Voz deve conter usos PSTN que definem chamadas autorizadas e rotas para usuários do Sistema de Telefonia. Você pode copiar esses usos PSTN de Políticas de Voz existentes para novas Políticas de Roteamento de Voz. Para obter mais informações, [consulte New-CsVoiceRoutingPolicy](/powershell/module/skype/new-csvoiceroutingpolicy?view=skype-ps).
   
 > [!NOTE]
 > Todos os usuários do Sistema de Telefonia são atribuídos à mesma Política de Voz online chamada BusinessVoice, que define os recursos de chamada permitidos; por exemplo, Permitir Anel Simultâneo. 
   
 ### <a name="to-assign-a-per-user-voice-routing-policy-to-a-single-user"></a>Para atribuir uma política de roteamento de voz por usuário a um único usuário
 
-- Use o cmdlet [Grant-CsVoiceRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csvoiceroutingpolicy?view=skype-ps) para atribuir a política de roteamento de voz por usuário RedmondVoiceRoutingPolicy ao usuário Ken Myer:
+- Use o cmdlet [Grant-CsVoiceRoutingPolicy](/powershell/module/skype/grant-csvoiceroutingpolicy?view=skype-ps) para atribuir a política de roteamento de voz por usuário RedmondVoiceRoutingPolicy ao usuário Ken Myer:
     
   ```powershell
   Grant-CsVoiceRoutingPolicy -Identity "Ken Myer" -PolicyName "RedmondVoiceRoutingPolicy"
@@ -146,7 +146,7 @@ Os usuários do Sistema de Telefonia devem ter uma Política de Roteamento de Vo
 
 ### <a name="to-assign-a-per-user-voice-routing-policy-to-multiple-users"></a>Para atribuir uma política de roteamento de voz por usuário a vários usuários
 
-- O próximo comando atribui a política de roteamento de voz por usuário RedmondVoiceRoutingPolicy a todos os usuários que trabalham na cidade de Redmond. Para obter mais informações sobre o parâmetro LdapFilter usado neste comando, consulte [Get-CsUser](https://docs.microsoft.com/powershell/module/skype/get-csuser?view=skype-ps).
+- O próximo comando atribui a política de roteamento de voz por usuário RedmondVoiceRoutingPolicy a todos os usuários que trabalham na cidade de Redmond. Para obter mais informações sobre o parâmetro LdapFilter usado neste comando, consulte [Get-CsUser](/powershell/module/skype/get-csuser?view=skype-ps).
     
   ```powershell
   Get-CsUser -LdapFilter "l=Redmond" | Grant-CsVoiceRoutingPolicy -PolicyName "RedmondVoiceRoutingPolicy"
@@ -163,6 +163,4 @@ Os usuários do Sistema de Telefonia devem ter uma Política de Roteamento de Vo
   Grant-CsVoiceRoutingPolicy -Identity "Ken Myer" -PolicyName $Null
   ```
 
-    Para obter mais informações, [consulte Grant-CsVoiceRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csvoiceroutingpolicy?view=skype-ps).
-    
-
+    Para obter mais informações, [consulte Grant-CsVoiceRoutingPolicy](/powershell/module/skype/grant-csvoiceroutingpolicy?view=skype-ps).

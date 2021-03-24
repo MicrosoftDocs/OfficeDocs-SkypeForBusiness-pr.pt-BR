@@ -23,13 +23,13 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
-description: Saiba mais sobre como discar números de tarifa gratuita em Taiwan, incluindo disponibilidade, disponibilidade de rede com fio/fixo e rede móvel e restrições.
-ms.openlocfilehash: c1033f405931435e16d0e8a54ddedf95e201cce8
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+description: Saiba mais sobre como discar números gratuitos em Taiwan, incluindo disponibilidade, disponibilidade de rede com fio/fixa e rede móvel e restrições.
+ms.openlocfilehash: 81a5afeb80316454b816f2803c2beb440d80a301
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43139780"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51097657"
 ---
 # <a name="toll-free-dialing-restrictions-in-taiwan"></a>Restrições de discagem de chamada gratuita em Taiwan
 
@@ -38,12 +38,12 @@ ms.locfileid: "43139780"
 
 |**Detalhes**|**Descrição**|
 |:-----|:-----|
-|As chamada gratuitas estão disponíveis?  <br/> |Sim  <br/> |
-|Formato(s) de discagem  <br/> |00 801 XXX XXX  <br/> |
-|Código ISO do país/região  <br/> |TW  <br/> |
+|A chamada gratuita está disponível?  <br/> |Sim  <br/> |
+|Formatos de discagem  <br/> |00 801 XXX XXX  <br/> |
+|Código ISO de país/região  <br/> |TW  <br/> |
 |Ilha/território coberto  <br/> |Não aplicável  <br/> |
 |Ilha/território não coberto  <br/> |Não aplicável  <br/> |
-|Disponibilidade de linhas com fio/fixo  <br/> | ITFS:KG Telecom = NO <br/> |
+|Disponibilidade de linha com fio/fixa  <br/> | ITFS:KG Telecom = NO <br/> |
 |Disponibilidade com a rede móvel  <br/> |Parcial. Veja os comentários.  <br/> |
 |Comentários, restrições e problemas de acesso  <br/> |Sem acesso com fio da KG Telecom. Acesso móvel: O horário da transmissão não é cobrado. Para acesso móvel: Acesso de todas as redes móveis, exceto a KG Telecom.  <br/> |
    
@@ -51,7 +51,6 @@ ms.locfileid: "43139780"
 
 [Limitações e restrições de discagem gratuita](../toll-free-dialing-limitations-and-restrictions.md)
 
-[Obtendo números de telefone de serviço do Skype for Business e do Microsoft Teams](/microsoftteams/getting-service-phone-numbers)
+[Obtendo números de telefone de serviço do Skype for Business e do Microsoft Teams](../getting-service-phone-numbers.md)
 
   
- 

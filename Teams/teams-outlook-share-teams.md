@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 80882bddae434b66f6a3e5988c08474859b37861
-ms.sourcegitcommit: c6b630f9193d7f82f0416bd567a1de390d4b260f
+ms.openlocfilehash: af5c2f6029b0c5314c507de7734abf8c479af709
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "50819417"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51098217"
 ---
 # <a name="share-to-teams-from-outlook"></a>Compartilhar com o Teams do Outlook
 
@@ -30,7 +30,7 @@ Compartilhar com o Teams do Outlook (Compartilhar com o Teams) permite que os us
 O recurso Compartilhar com o Teams requer um complemento para o Outlook. Esse complemento é instalado automaticamente sempre que um usuário faz logo web no aplicativo Web do Teams ou no cliente da área de trabalho do Teams.
 
 > [!NOTE]
-> Revise os [Complementos](https://docs.microsoft.com/exchange/clients-and-mobile-in-exchange-online/add-ins-for-outlook/add-ins-for-outlook) do Outlook no Exchange Online e as Regras de Acesso para Cliente no [Exchange Online](https://docs.microsoft.com/exchange/clients-and-mobile-in-exchange-online/client-access-rules/client-access-rules) para garantir que seus complementos para o Outlook funcionem corretamente. Além disso, desabilitar experiências conectadas pode impedir que os complementos do Outlook funcionam corretamente. Confira [Experiências conectadas no Office](https://support.microsoft.com/topic/connected-experiences-in-office-8d2c04f7-6428-4e6e-ac58-5828d4da5b7c) para obter mais informações.  
+> Revise os [Complementos](/exchange/clients-and-mobile-in-exchange-online/add-ins-for-outlook/add-ins-for-outlook) do Outlook no Exchange Online e as Regras de Acesso para Cliente no [Exchange Online](/exchange/clients-and-mobile-in-exchange-online/client-access-rules/client-access-rules) para garantir que seus complementos para o Outlook funcionem corretamente. Além disso, desabilitar experiências conectadas pode impedir que os complementos do Outlook funcionam corretamente. Confira [Experiências conectadas no Office](https://support.microsoft.com/topic/connected-experiences-in-office-8d2c04f7-6428-4e6e-ac58-5828d4da5b7c) para obter mais informações.  
 
 O compartilhamento com o Teams usa o mesmo mecanismo de transporte que quando um usuário envia emails para um canal. Para o compartilhamento em chats, os emails (incluindo anexos de email) são copiados para o OneDrive do remetente. Para compartilhar em canais, emails e anexos são copiados para a pasta **Mensagens de email** no SharePoint.
 
@@ -43,13 +43,13 @@ O complemento do Outlook para o Share to Teams pode ser desabilitado ou habilita
 > [!NOTE]
 > Desabilitar o complemento só é possível após a instalação do complemento. Se você quiser impor a desabilitação para todos os usuários em seu locatário, execute um script periodicamente.
 
-Para desabilitar o complemento do Outlook usado pelo Share to Teams, execute [o cmdlet encontrado aqui](https://docs.microsoft.com/powershell/module/exchange/disable-app?view=exchange-ps). 
+Para desabilitar o complemento do Outlook usado pelo Share to Teams, execute [o cmdlet encontrado aqui](/powershell/module/exchange/disable-app?view=exchange-ps). 
 
-Para habilitar o complemento do Outlook usado pelo Share to Teams, execute [o cmdlet encontrado aqui](https://docs.microsoft.com/powershell/module/exchange/enable-app?view=exchange-ps).
+Para habilitar o complemento do Outlook usado pelo Share to Teams, execute [o cmdlet encontrado aqui](/powershell/module/exchange/enable-app?view=exchange-ps).
 
 ## <a name="browsers-and-single-sign-on"></a>Navegadores e Login Único
 
-Compartilhar com o Teams, tanto no Outlook na Web quanto nos clientes da área de trabalho do Outlook, depende de um WebView do navegador. Consulte [Navegadores usados pelos Complementos do Office](https://docs.microsoft.com/office/dev/add-ins/concepts/browsers-used-by-office-web-add-ins) para obter detalhes sobre quais clientes usam os navegadores específicos. 
+Compartilhar com o Teams, tanto no Outlook na Web quanto nos clientes da área de trabalho do Outlook, depende de um WebView do navegador. Consulte [Navegadores usados pelos Complementos do Office](/office/dev/add-ins/concepts/browsers-used-by-office-web-add-ins) para obter detalhes sobre quais clientes usam os navegadores específicos. 
 
 > [!IMPORTANT]
 > O compartilhamento com o Teams exige que cookies de terceiros e acesso de armazenamento local sejam habilitados para navegadores dos usuários.

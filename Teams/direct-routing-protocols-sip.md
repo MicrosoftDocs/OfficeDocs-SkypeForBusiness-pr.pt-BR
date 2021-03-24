@@ -17,12 +17,12 @@ f1.keywords:
 description: Protocolos de Roteamento Direto
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 26d6555b82db1939b879ecafc113ced186528f80
-ms.sourcegitcommit: 360c78c66386fe00afe535681f51254eda886edf
+ms.openlocfilehash: 00cdb644efe9fb2c3e49973d7a539718252a7df9
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/17/2021
-ms.locfileid: "50836998"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51098467"
 ---
 # <a name="direct-routing---sip-protocol"></a>Roteamento Direto - protocolo SIP
 
@@ -121,7 +121,7 @@ INVITE sip:+18338006777@sip.pstnhub.microsoft.com SIP /2.0
 
 O proxy SIP precisa calcular o FQDN do próximo salto para novas transações de cliente na caixa de diálogo (por exemplo, Bye ou Re-Invite) e ao responder a Opções SIP. Os contatos ou Record-Route são usados. 
 
-De acordo com [o RFC 3261, seção 8.1.1.8](https://tools.ietf.org/html/rfc3261#section-8.1.1.8), o header de contato é necessário em qualquer solicitação que possa resultar em uma nova caixa de diálogo. A Record-Route só será necessária se um proxy quiser permanecer no caminho das solicitações futuras em uma caixa de diálogo. Se um SBC de proxy estiver em uso com a Otimização de Mídia [Local](https://docs.microsoft.com/MicrosoftTeams/direct-routing-media-optimization)para Roteamento Direto, uma rota de registro precisará ser configurada conforme o SBC do proxy precisa permanecer na rota. 
+De acordo com [o RFC 3261, seção 8.1.1.8](https://tools.ietf.org/html/rfc3261#section-8.1.1.8), o header de contato é necessário em qualquer solicitação que possa resultar em uma nova caixa de diálogo. A Record-Route só será necessária se um proxy quiser permanecer no caminho das solicitações futuras em uma caixa de diálogo. Se um SBC de proxy estiver em uso com a Otimização de Mídia [Local](./direct-routing-media-optimization.md)para Roteamento Direto, uma rota de registro precisará ser configurada conforme o SBC do proxy precisa permanecer na rota. 
 
 A Microsoft recomenda usar somente o header contato se um SBC proxy não for usado:
 
@@ -362,6 +362,4 @@ A reinicialização no Roteamento Direto é implementada de acordo com os seguin
 
 *Um agente define o restante dos campos no SDP para esse fluxo de mídia como faria em uma oferta inicial desse fluxo de mídia (consulte a Seção 4.3).  Consequentemente, o conjunto de candidatos PODE incluir alguns, nenhum ou todos os candidatos anteriores para esse fluxo e MAY incluem um conjunto totalmente novo de candidatos coletados, conforme descrito na Seção 4.1.1.*
 
-Se a chamada foi estabelecida inicialmente com bypass de mídia e a chamada é transferida para um cliente do Skype for Business, o Roteamento Direto precisa inserir um Processador de Mídia, isso porque o Roteamento Direto não pode ser usado com um cliente skype for Business com bypass de mídia. O Roteamento Direto inicia o processo de reinicialização do ICE alterando o ice-pwd e o ice-ufrag e oferecendo novos candidatos à mídia em uma reinvite. 
-
-
+Se a chamada foi estabelecida inicialmente com bypass de mídia e a chamada é transferida para um cliente do Skype for Business, o Roteamento Direto precisa inserir um Processador de Mídia, isso porque o Roteamento Direto não pode ser usado com um cliente skype for Business com bypass de mídia. O Roteamento Direto inicia o processo de reinicialização do ICE alterando o ice-pwd e o ice-ufrag e oferecendo novos candidatos à mídia em uma reinvite.

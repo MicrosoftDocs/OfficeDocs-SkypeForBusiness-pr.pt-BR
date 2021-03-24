@@ -16,18 +16,18 @@ description: Saiba como usar os recursos de monitoramento e alerta do Teams no C
 appliesto:
 - Microsoft Teams
 ms.custom: ''
-ms.openlocfilehash: 03a57da7af783fa95e0bccbcb6a96f183b2fbb90
-ms.sourcegitcommit: c6b630f9193d7f82f0416bd567a1de390d4b260f
+ms.openlocfilehash: 8c6a4ac89ddc90bcb00cf2741874e49a26ac775f
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "50819422"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51096471"
 ---
 # <a name="microsoft-teams-device-health-monitoring"></a>Monitoramento de saúde de dispositivos do Microsoft Teams
 
 O monitoramento de saúde do dispositivo no Centro de administração do Microsoft Teams oferece a capacidade de monitorar proativamente a saúde de vários dispositivos do Teams. Monitore o estado offline de um dispositivo e receba alertas em tempo real se o dispositivo monitorado em sua organização ficar offline.  
 
-Antes de começar, você precisará das permissões de criação de equipes/canal em seu locatário. [Saiba mais](https://docs.microsoft.com/microsoft-365/solutions/manage-creation-of-groups?view=o365-worldwide).
+Antes de começar, você precisará das permissões de criação de equipes/canal em seu locatário. [Saiba mais](/microsoft-365/solutions/manage-creation-of-groups?view=o365-worldwide).
 
 ## <a name="configure-device-state-rule"></a>Configurar a regra de estado do dispositivo
 
@@ -47,7 +47,7 @@ Antes de começar, você precisará das permissões de criação de equipes/cana
 |Campo |Descrição  |
 |--------|-------------|
 |**Tipo de regra**   |A regra de estado do dispositivo ajuda você a gerenciar efetivamente. Dispositivos do Teams e é classificado como um tipo de gerenciamento de dispositivo. No futuro, mais regras do tipo de gerenciamento de dispositivo estarão disponíveis para monitorar outros recursos relacionados (exemplos podem incluir: dispositivo não aldo e o status de entrada do dispositivo).|
-|**Condição**   |Você pode monitorar a saúde dos dispositivos se eles ficarem offline. [Saiba mais sobre](https://docs.microsoft.com/microsoftteams/devices/device-management) o gerenciamento de dispositivos no Centro de administração do Teams. |
+|**Condição**   |Você pode monitorar a saúde dos dispositivos se eles ficarem offline. [Saiba mais sobre](../devices/device-management.md) o gerenciamento de dispositivos no Centro de administração do Teams. |
 |**Escopo**   |Você pode especificar com que frequência deseja monitorar o status de saúde do dispositivo mencionando a frequência de avaliação de regra. Por padrão, os dispositivos teams serão monitorados em tempo real quase em tempo real se eles ficarem offline. |
 |**Usuários do dispositivo**   |Você pode especificar quais dispositivos precisam de monitoramento proativo de estatueta offline selecionando-os com base nos usuários conectados. Consulte [Selecionar dispositivos para obter](#select-devices-for-configuration) mais detalhes. |
 |**Ações**  >  **Alerta de canal**   |Na seção Ações, você pode especificar canais de equipe para os quais deseja receber alertas. Atualmente, uma equipe padrão chamada **Alertas** e Notificações de Administrador e um canal chamado **MonitoringAlerts** será criado no qual as notificações serão entregues. <BR/> <BR/> Administradores globais e administradores do Teams em seu locatário serão adicionados automaticamente a essa equipe padrão.|

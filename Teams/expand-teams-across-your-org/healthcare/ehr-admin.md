@@ -23,12 +23,12 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: ''
 description: Usar o Microsoft Teams para configurar seu Sistema de visitas virtuais
-ms.openlocfilehash: 6daa61ea44db02d48873a6fc494974c99573d0e8
-ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
+ms.openlocfilehash: 37b93533aeff6b519b1f5a65cf49211464b41388
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/18/2021
-ms.locfileid: "50875171"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51096275"
 ---
 # <a name="virtual-visits-with-teams---integration-into-ehr"></a>Visitas virtuais com o Teams - Integração com EHR
 
@@ -57,7 +57,7 @@ Você precisará certificar-se de que possui os seguintes pré-requisitos antes 
 
 - As organizações devem ter a versão Epic de novembro de 2018 ou posterior.
 
-- Seus sistemas devem atender a todos os [pré-requisitos de software e navegador ](https://docs.microsoft.com/microsoftteams/hardware-requirements-for-the-teams-app).
+- Seus sistemas devem atender a todos os [pré-requisitos de software e navegador ](../../hardware-requirements-for-the-teams-app.md).
 
 Você também precisará de informações das seguintes pessoas em sua organização:
 
@@ -130,7 +130,7 @@ Depois de concluir as etapas do Conector EHR e a configuração da Epic, sua org
 
 ### <a name="virtual-visit-prerequisites"></a>Pré-requisitos da visita virtual
 
-- Seus sistemas devem atender a todos os [pré-requisitos de software e navegador ](https://docs.microsoft.com/microsoftteams/hardware-requirements-for-the-teams-app).
+- Seus sistemas devem atender a todos os [pré-requisitos de software e navegador ](../../hardware-requirements-for-the-teams-app.md).
 
 - A organização de deve ter concluído a configuração entre a organização Epic e a organização Microsoft 365.
 
@@ -175,4 +175,4 @@ Características principais da experiência do paciente:
 
 A integração do Teams em sistemas EHR otimiza a quantidade de dados que estão sendo usados ​​e armazenados durante a integração e os fluxos de visita virtual. A solução segue os princípios e diretrizes gerais de privacidade e gerenciamento de dados do Teams, descritos em Privacidade do Teams.
 
-O conector EHR do Microsoft Teams não armazena nem transfere quaisquer dados pessoais identificáveis ​​ou registros de saúde de pacientes ou prestadores de serviços de saúde do sistema EHR. Os únicos dados armazenados pelo conector EHR são a ID exclusiva do usuário EHR, que é usada durante a configuração da reunião do Teams. A ID exclusiva do usuário EHR é armazenada em uma das três regiões geográficas descritas em [Onde seus dados de cliente Microsoft 365 são armazenados](https://docs.microsoft.com/microsoft-365/enterprise/o365-data-locations?view=o365-worldwide#data-center-geographies). Todos os chats, gravações e outros dados inseridos nas equipes pelos participantes da reunião são armazenados de acordo com as políticas de armazenamento existentes. Se você quiser saber mais informações sobre a localização dos dados no Microsoft Teams, visite [ Locais dos dados no Teams ](https://docs.microsoft.com/microsoftteams/location-of-data-in-teams).
+O conector EHR do Microsoft Teams não armazena nem transfere quaisquer dados pessoais identificáveis ​​ou registros de saúde de pacientes ou prestadores de serviços de saúde do sistema EHR. Os únicos dados armazenados pelo conector EHR são a ID exclusiva do usuário EHR, que é usada durante a configuração da reunião do Teams. A ID exclusiva do usuário EHR é armazenada em uma das três regiões geográficas descritas em [Onde seus dados de cliente Microsoft 365 são armazenados](/microsoft-365/enterprise/o365-data-locations?view=o365-worldwide#data-center-geographies). Todos os chats, gravações e outros dados inseridos nas equipes pelos participantes da reunião são armazenados de acordo com as políticas de armazenamento existentes. Se você quiser saber mais informações sobre a localização dos dados no Microsoft Teams, visite [ Locais dos dados no Teams ](../../location-of-data-in-teams.md).

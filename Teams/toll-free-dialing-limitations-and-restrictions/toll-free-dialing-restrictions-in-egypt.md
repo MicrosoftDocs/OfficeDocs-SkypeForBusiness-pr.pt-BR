@@ -23,13 +23,13 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
-description: Saiba mais sobre como discar números de gratuitamente no Egito, incluindo disponibilidade, disponibilidade de rede com fio/fixo e rede móvel e restrições.
-ms.openlocfilehash: f2bd76c221b23fa1df5956115a8c6035378c8380
-ms.sourcegitcommit: 7966991c398cd80f6bd0bb21e57a6b2a97c09ea9
+description: Saiba mais sobre como discar números gratuitos no Egito, incluindo disponibilidade, disponibilidade de rede com fio/fixa e rede móvel e restrições.
+ms.openlocfilehash: a324691f3dbda9c594afceea726dd25a08613bb6
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/18/2020
-ms.locfileid: "49130662"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51098137"
 ---
 # <a name="toll-free-dialing-restrictions-in-egypt"></a>Restrições de discagem de chamada gratuita no Egito
 
@@ -38,12 +38,12 @@ ms.locfileid: "49130662"
 
 |**Detalhes**|**Descrição**|
 |:-----|:-----|
-|As chamada gratuitas estão disponíveis?  <br/> |Não  <br/> |
-|Formato(s) de discagem  <br/> |0800-XXX-XXXX  <br/> |
-|Código ISO do país/região  <br/> |EG  <br/> |
+|A chamada gratuita está disponível?  <br/> |Não  <br/> |
+|Formatos de discagem  <br/> |0800-XXX-XXXX  <br/> |
+|Código ISO de país/região  <br/> |EG  <br/> |
 |Ilha/território coberto  <br/> |Não aplicável  <br/> |
 |Ilha/território não coberto  <br/> |Não aplicável  <br/> |
-|Disponibilidade de linhas com fio/fixo  <br/> |Somente pela Telecom Egypt.  <br/> |
+|Disponibilidade de linha com fio/fixa  <br/> |Somente pela Telecom Egypt.  <br/> |
 |Disponibilidade com a rede móvel  <br/> |Não  <br/> |
 |Comentários, restrições e problemas de acesso  <br/> |Nenhum  <br/> |
    
@@ -51,7 +51,6 @@ ms.locfileid: "49130662"
 
 [Limitações e restrições de discagem gratuita](../toll-free-dialing-limitations-and-restrictions.md)
 
-[Obtendo números de telefone de serviço do Skype for Business e do Microsoft Teams](/microsoftteams/getting-service-phone-numbers)
+[Obtendo números de telefone de serviço do Skype for Business e do Microsoft Teams](../getting-service-phone-numbers.md)
 
   
- 

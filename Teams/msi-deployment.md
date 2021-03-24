@@ -18,12 +18,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6cde5b2f04936afdd16eb7d0ff13a03840e6fa49
-ms.sourcegitcommit: 31a585cc0fe6350efacf3a7771d1e590d5e4233c
+ms.openlocfilehash: b31ffca29891a903c68614239bacedabc6729d39
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "50614947"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51098107"
 ---
 # <a name="install-microsoft-teams-using-microsoft-endpoint-configuration-manager"></a>Instalar o Microsoft Teams usando o Microsoft Endpoint Configuration Manager
 
@@ -47,9 +47,9 @@ Estes são os links para os arquivos MSI:
 
 - Se o locatário do cliente estiver nas nuvens GCCH ou DoD, o cliente deve definir o ponto de extremidade inicial no registro adicionando o valor **CloudType** à chave **HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\16.0\Teams** no registro. O tipo de **CloudType** é **DWORD** e os valores são (0 = Não definido, 1 = comercial, 2 = GCC, 3 = GCCH, 4 = DOD). Definir o ponto de extremidade com a chave de registro restringe o Teams a se conectar ao ponto de extremidade de nuvem correto para conectividade de pré-login com o Teams.
 
-- O Teams também podem ser incluído com uma implantação do Microsoft 365 Apps para Grandes Empresas. Para obter mais informações, confira [Implantar Microsoft Teams com Microsoft 365 Apps para Grandes Empresas](https://docs.microsoft.com/deployoffice/teams-install).
+- O Teams também podem ser incluído com uma implantação do Microsoft 365 Apps para Grandes Empresas. Para obter mais informações, confira [Implantar Microsoft Teams com Microsoft 365 Apps para Grandes Empresas](/deployoffice/teams-install).
 
-- Para saber mais sobre o Microsoft Endpoint Configuration Manager, confira [O que é o Configuration Manager?](https://docs.microsoft.com/configmgr/core/understand/introduction)
+- Para saber mais sobre o Microsoft Endpoint Configuration Manager, confira [O que é o Configuration Manager?](/configmgr/core/understand/introduction)
 
 ## <a name="deployment-procedure-recommended"></a>Procedimento de implantação (recomendado)
 
@@ -105,7 +105,7 @@ Habilite a configuração de Política de Grupo **Impedir que o Microsoft Teams 
 
 Ao habilitar esta configuração de política antes de instalar o Teams, o Teams não é iniciado automaticamente quando o usuário entrar no Windows. Após um usuário iniciar o Teams pela primeira vez, o Teams é iniciado automaticamente na próxima vez que o usuário fizer login.
 
-Para saber mais, confira [Use a Política de Grupo para impedir que o Teams seja iniciado automaticamente após a instalação](https://docs.microsoft.com/deployoffice/teams-install#use-group-policy-to-prevent-microsoft-teams-from-starting-automatically-after-installation).
+Para saber mais, confira [Use a Política de Grupo para impedir que o Teams seja iniciado automaticamente após a instalação](/deployoffice/teams-install#use-group-policy-to-prevent-microsoft-teams-from-starting-automatically-after-installation).
 
 > [!CAUTION]
 > Se você já implantou o Teams e deseja definir esta política para desativar o início automático do Teams, defina primeiro a configuração da Política de Grupo com o valor desejado e execute o [script de redefinição do início automático do Teams](scripts/powershell-script-teams-reset-autostart.md) por usuário.

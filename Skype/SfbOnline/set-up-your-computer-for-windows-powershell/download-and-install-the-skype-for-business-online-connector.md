@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - PowerShell
 description: Baixe, instale e use o Conector do Skype for Business Online para criar uma sessão Windows PowerShell remota que se conecta ao Skype for Business Online.
-ms.openlocfilehash: 5883eba8dc4dd959e67e45aa27413624e0f5d941
-ms.sourcegitcommit: 1613e08da482ff142c990c9c9951abeb873ad964
+ms.openlocfilehash: 0e00b9dd18b04deaf3d2123de1fa9609040c4e2f
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "50568937"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51097197"
 ---
 # <a name="download-and-install-the-teams-powershell-module"></a>Baixar e instalar o módulo do Teams PowerShell
 
@@ -33,7 +33,7 @@ ms.locfileid: "50568937"
 > A versão pública mais recente do [Teams PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams/) é integrada ao Skype for Business Online Connector, fornecendo um único módulo para o gerenciamento do Teams e do PowerShell online do Skype for Business.
 
 
-1. Instale o [módulo do Teams PowerShell](https://docs.microsoft.com/microsoftteams/teams-powershell-install).
+1. Instale o [módulo do Teams PowerShell](/microsoftteams/teams-powershell-install).
     
 2. Abra um prompt Windows PowerShell de comando e execute os seguintes comandos: 
 
@@ -43,7 +43,7 @@ ms.locfileid: "50568937"
    $credential = Get-Credential
    Connect-MicrosoftTeams -Credential $credential
    ```
-   Se você quiser mais informações sobre como iniciar o Windows PowerShell, consulte Conectar-se a todos os serviços do [Microsoft 365 ou do Office 365](https://technet.microsoft.com/library/dn568015.aspx) em uma única janela de Windows PowerShell ou Configurar seu computador para Windows PowerShell [.](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
+   Se você quiser mais informações sobre como iniciar o Windows PowerShell, consulte Conectar-se a todos os serviços do [Microsoft 365 ou do Office 365](/microsoft-365/enterprise/connect-to-all-microsoft-365-services-in-a-single-windows-powershell-window) em uma única janela de Windows PowerShell ou Configurar seu computador para Windows PowerShell [.](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
   
 ## <a name="related-topics"></a>Tópicos relacionados
 [Configurar seu computador para gerenciamento do skype for business online usando o Windows PowerShell](set-up-your-computer-for-windows-powershell.md)

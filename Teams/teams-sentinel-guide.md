@@ -19,26 +19,26 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4f13cdd1d62a31178f7aed922b3bc55b87cd59db
-ms.sourcegitcommit: 380a96f1ed2cefb429286854f06546bdb28d7d74
+ms.openlocfilehash: 320accf1e0588024e72d69dcbb4af45c0a6765eb
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "49701229"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51098177"
 ---
 # <a name="azure-sentinel-and-microsoft-teams"></a>Azure Sentinel e Microsoft Teams
 
 O Teams desempenha um papel central na comunicação e no compartilhamento de dados no Microsoft 365 Cloud. Como o serviço do Teams aborda tantas tecnologias subjacentes na nuvem, ele pode se beneficiar das análises humanas e automatizadas, não apenas no que diz respeito à *busca em logs*, mas também no *monitoramento em tempo real das reuniões*. O Azure Sentinel oferece aos administradores essas soluções.
 
 > [!NOTE]
-> Precisa de uma atualização no Azure Sentinel? [Este artigo](https://docs.microsoft.com/azure/sentinel/overview) é ideal para isso.
+> Precisa de uma atualização no Azure Sentinel? [Este artigo](/azure/sentinel/overview) é ideal para isso.
 
 ## <a name="sentinel-and-microsoft-teams-activity-logs"></a>Logs de atividades do Sentinel e do Microsoft Teams
 
 Este artigo foca na coleta de logs de atividades do Teams no Azure Sentinel. Além de permitir que os administradores coloquem o gerenciamento de segurança em um painel de vidro (incluindo dispositivos selecionados de terceiros, Proteção contra Ameaças da Microsoft e outras cargas de trabalho do Microsoft 365), as pastas de trabalho do Sentinel e as runbooks podem tornar o monitoramento de segurança sistemático. Um primeiro passo importante nesse processo é coletar os logs necessários para análise.
 
 > [!NOTE]
-> Mais de uma assinatura do Microsoft 365 pode ser apresentada na mesma instância do Azure Sentinel. Isso permitirá o [monitoramento em tempo real](https://docs.microsoft.com/azure/sentinel/livestream) e a busca por ameaças nos arquivos de logs históricos. Os administradores poderão buscar usando [consultas entre recursos](https://docs.microsoft.com/azure/azure-monitor/log-query/cross-workspace-query), que estão em um único grupo de recursos, entre grupos de recursos ou em outra assinatura.
+> Mais de uma assinatura do Microsoft 365 pode ser apresentada na mesma instância do Azure Sentinel. Isso permitirá o [monitoramento em tempo real](/azure/sentinel/livestream) e a busca por ameaças nos arquivos de logs históricos. Os administradores poderão buscar usando [consultas entre recursos](/azure/azure-monitor/log-query/cross-workspace-query), que estão em um único grupo de recursos, entre grupos de recursos ou em outra assinatura.
 
 ## <a name="step-1-collect-teams-logs"></a>Etapa 1: coletar registros do Teams
 
@@ -50,7 +50,7 @@ Esta seção tem três partes:
 
 ### <a name="enable-audit-logs-in-m365"></a>Habilitar logs de auditoria no M365
 
-Como o Teams registra as atividades de logs no M365, os logs de auditoria não são coletados por padrão. Ative esse recurso por meio [destas etapas](https://docs.microsoft.com/microsoft-365/compliance/turn-audit-log-search-on-or-off?view=o365-worldwide&viewFallbackFrom=o365-worldwide%C2%A0). Os dados do Teams são coletados na auditoria do M365 em *Audit.General*.
+Como o Teams registra as atividades de logs no M365, os logs de auditoria não são coletados por padrão. Ative esse recurso por meio [destas etapas](/microsoft-365/compliance/turn-audit-log-search-on-or-off?view=o365-worldwide&viewFallbackFrom=o365-worldwide%c2%a0). Os dados do Teams são coletados na auditoria do M365 em *Audit.General*.
 
 ### <a name="register-an-app-in-microsoft-azure-for-log-collection"></a>Registrar um aplicativo no Microsoft Azure para a coleção de logs
 
@@ -201,7 +201,7 @@ TeamsData
 ```
 
 > [!TIP]
-> Para saber mais sobre os tipos de acesso externo e de convidado no Teams, confira [este artigo](https://docs.microsoft.com/microsoftteams/communicate-with-users-from-other-organizations) ou a seção *Tipos de participantes* no [Guia de segurança do Teams](https://docs.microsoft.com/microsoftteams/teams-security-guide).
+> Para saber mais sobre os tipos de acesso externo e de convidado no Teams, confira [este artigo](./communicate-with-users-from-other-organizations.md) ou a seção *Tipos de participantes* no [Guia de segurança do Teams](./teams-security-guide.md).
 
 #### <a name="who-recently-joined--whose-role-changed"></a>Quem entrou recentemente/Quem mudou de função
 
@@ -437,8 +437,8 @@ SigninLogs
 
 **Obrigado pela sua colaboração de conteúdo, Pete Bryan, Nicholas DiCola e Matthew Lowe.** Pete Bryan e as pessoas com quem ele colabora continuarão desenvolvendo consultas de detecção e buscas por equipes, portanto, fique em contato com este repositório do [GitHub](https://github.com/Azure/Azure-Sentinel/tree/master/Hunting%20Queries/TeamsLogs) para obter atualizações.  Monitore as atualizações para o [analisador](https://github.com/Azure/Azure-Sentinel/blob/master/Parsers/Teams_parser.txt) e o [aplicativo lógico](https://github.com/Azure/Azure-Sentinel/tree/master/Playbooks/Get-O365Data) usados neste artigo. Você também pode participar e contribuir com a [comunidade do Azure Sentinel](https://github.com/Azure/Azure-Sentinel/wiki). Obrigado! Boa busca.
 
-[Registrar seu aplicativo no Azure AD](https://docs.microsoft.com/skype-sdk/ucwa/registeringyourapplicationinazuread%C2%A0%20%20%C2%A0)
+[Registrar seu aplicativo no Azure AD](/skype-sdk/ucwa/registeringyourapplicationinazuread%C2%A0%20%20%C2%A0)
 
-[Ativar ou desativar a pesquisa de log de auditoria](https://docs.microsoft.com/microsoft-365/compliance/turn-audit-log-search-on-or-off?view=o365-worldwide&viewFallbackFrom=o365-worldwide%C2%A0)
+[Ativar ou desativar a pesquisa de log de auditoria](/microsoft-365/compliance/turn-audit-log-search-on-or-off?view=o365-worldwide&viewFallbackFrom=o365-worldwide%c2%a0)
 
-[O que é o Azure Sentinel?](https://docs.microsoft.com/azure/sentinel/overview)
+[O que é o Azure Sentinel?](/azure/sentinel/overview)

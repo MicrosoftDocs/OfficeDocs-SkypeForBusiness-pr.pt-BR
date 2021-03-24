@@ -15,17 +15,17 @@ localization_priority: Normal
 ms.assetid: 24eca749-a9f3-40e7-839b-d21c3ef7d533
 ROBOTS: NOINDEX, NOFOLLOW
 description: Números não atribuídos são números de telefone válidos para sua organização, mas que não são atribuídos a um usuário ou telefone. A tabela de números não atribuídos identifica como você deseja lidar com chamadas para números não atribuídos.
-ms.openlocfilehash: 2b2c8637e1fa44d8852465b21d2cf494442978b4
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 135072c7128ac14e4073e95297fa2b5e4e1a8e5a
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49830131"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51097037"
 ---
 # <a name="unassigned-phone-number"></a>Número de Telefone Não Atribuído
 
 > [!NOTE]
-> A UM do Exchange permanece disponível no Skype for Business Server 2019 quando você integra o Skype for Business 2019 com o Exchange 2013 ou o Exchange 2016. Devido às alterações no suporte no Exchange 2019, a integração de UM do Exchange está sendo enfatizada em favor dos recursos de Caixa Postal na Nuvem e Atendedor Automático na Nuvem.
+> A UM do Exchange permanece disponível no Skype for Business Server 2019 quando você integra o Skype for Business 2019 com o Exchange 2013 ou o Exchange 2016. Devido às alterações no suporte no Exchange 2019, a integração da UM do Exchange está sendo desalmada em favor dos recursos de Cloud Voicemail e Cloud Atendedor Automático.
 
 Números não atribuídos são números de telefone válidos para sua organização, mas que não são atribuídos a um usuário ou telefone. A tabela de números não atribuídos identifica como você deseja lidar com chamadas para números não atribuídos.
 
@@ -56,14 +56,14 @@ A lista a seguir descreve os comandos na página.
 
 - **Editar** Abre o intervalo de números não atribuídos selecionado para edição, seleciona todos os intervalos de números não atribuídos na lista ou exclui o intervalo de números não atribuídos selecionado.
 
-- **Mover para cima** Move o intervalo de números não atribuídos selecionado para cima na lista para que o Skype for Business Server encontre-o mais cedo e aplica a ação especificada antes de aplicar ações especificadas para outros intervalos na lista.
+- **Mover para cima** Move o intervalo de números não atribuídos selecionado para cima na lista para que o Skype for Business Server o encontre mais cedo e aplique a ação especificada antes de aplicar ações especificadas para outros intervalos na lista.
 
     > [!NOTE]
     > O Skype for Business Server pesquisa a tabela de números não atribuídos de cima para baixo e usa o primeiro intervalo que corresponde ao número não atribuído. Por exemplo, se você tiver um intervalo que especifica uma ação de última instância, certifique-se de que o intervalo esteja no final da lista.
 
 - **Mover para baixo** Move o intervalo de números não atribuídos selecionado para baixo na lista.
 
-- **Comprometer tudo** Salva todas as alterações feitas em intervalos de números não atribuídos.
+- **Commit all** Salva todas as alterações feitas em intervalos de números não atribuídos.
 
     > [!IMPORTANT]
     > Esse comando salva todas as alterações feitas na página **Novo Número Não Atribuído** e na página **Editar Número Não Atribuído**.
@@ -80,10 +80,8 @@ A lista a seguir descreve os campos na página.
 
 - **Intervalo final** O número final do intervalo de números não atribuídos.
 
-- **Destino** A ID de serviço do serviço de Aplicativo que hospeda o aplicativo Comunicado que lidará com chamadas de entrada para esse intervalo de números não atribuídos.
+- **Destination** A ID de serviço do serviço application que hospeda o aplicativo Comunicado que tratará de chamadas de entrada para esse intervalo de números não atribuídos.
 
 - **Comunicado** O comunicado que será tocado para esse intervalo de números não atribuídos.
 
-Para obter detalhes sobre os recursos de Comunicado, [consulte Plan for the Announcement application in Skype for Business](../../../plan-your-deployment/enterprise-voice-solution/announcement.md) na documentação planejamento. Para obter detalhes sobre como trabalhar com intervalos de números não atribuídos, consulte [Configure Routing of Unassigned Phone Numbers](https://technet.microsoft.com/library/a0650659-dce7-455f-8977-02454bbfa400.aspx) na documentação Operações.
-
-
+Para obter detalhes sobre recursos e recursos do Comunicado, consulte [Plan for the Announcement application in Skype for Business](../../../plan-your-deployment/enterprise-voice-solution/announcement.md) na documentação planejamento. Para obter detalhes sobre como trabalhar com intervalos de números não atribuídos, consulte [Configure Routing of Unassigned Phone Numbers](/previous-versions/office/lync-server-2013/lync-server-2013-configure-unassigned-phone-numbers) na documentação Operações.

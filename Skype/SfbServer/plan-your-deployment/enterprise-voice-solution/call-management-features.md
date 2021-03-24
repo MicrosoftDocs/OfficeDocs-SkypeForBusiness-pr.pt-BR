@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 5f557345-5a04-45d6-b274-c02dbfe41b33
 description: Visão geral dos recursos de gerenciamento de chamadas suportados no Skype for Business Server Enterprise Voice.
-ms.openlocfilehash: 506ffa9dca87544be8798f2bf98dc6a24cb2d7c9
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 926ffe294c2819b9f68af76e61410a0ce4a9f63b
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49825941"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51096431"
 ---
 # <a name="plan-for-call-management-features-in-skype-for-business"></a>Planejar recursos de gerenciamento de chamadas no Skype for Business
 
@@ -29,11 +29,11 @@ Visão geral dos recursos de gerenciamento de chamadas suportados no Skype for B
 
 Os recursos de gerenciamento de chamadas do Enterprise Voice controlam como as chamadas de entrada são encaminhadas e atendidas. O Skype for Business Server fornece os seguintes recursos de gerenciamento de chamadas:
 
-- **Estacionamento de** chamada: permite que os usuários de voz estativem temporariamente uma chamada e a atendam do mesmo telefone ou de outro telefone.
+- **Estacionamento de Chamadas**: permite que os usuários de voz estae o estacionamento temporariamente de uma chamada e, em seguida, a atendam do mesmo telefone ou de outro telefone.
 
-- **Atendimento em** grupo: permite que os usuários de voz atendam chamadas que estão tocando para outros usuários de voz atribuídos a grupos de atendimento de chamadas.
+- **Retirada de** grupo : permite que os usuários de voz atendam chamadas que estão tocando para outros usuários de voz que são atribuídos a grupos de retirada de chamadas.
 
-- **Grupo de Resposta:** Encaminha chamadas de entrada para grupos de agentes usando grupos de busca ou perguntas e respostas de IVR (resposta interativa de voz).
+- **Grupo de Resposta**: encaminha chamadas de entrada para grupos de agentes usando grupos de busca ou perguntas e respostas interativas sobre resposta de voz (IVR).
 
 - **Anúncio**: reproduz uma mensagem para as chamadas feitas para um número não atribuído, roteia a chamada para outro lugar, ou ambos.
 
@@ -41,12 +41,10 @@ Se você planeja implantar o Enterprise Voice, pode escolher implementar qualque
 
 ## <a name="in-this-section"></a>Nesta seção
 
-- [Planejamento para estacionamento de chamada](https://technet.microsoft.com/library/e463c4ba-b7e4-42e5-98f0-0c8b842206dd.aspx)
+- [Planejamento para estacionamento de chamada](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-call-park)
 
-- [Planejamento para retirada de grupo](https://technet.microsoft.com/library/6d306466-778f-4c6a-9b6a-35dcd0d1811e.aspx)
+- [Planejamento para coleta de grupo](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-group-call-pickup)
 
-- [Planejamento Grupos de Resposta](https://technet.microsoft.com/library/7c10ce08-0068-4b22-8ecc-33e94811c900.aspx)
+- [Planejamento Grupos de Resposta](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-response-groups)
 
-- [Planejamento de comunicados](https://technet.microsoft.com/library/eb9f5420-0222-4fe0-81a7-9d249e56cd84.aspx)
-
-
+- [Planejamento para comunicados](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-announcements)
