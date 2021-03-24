@@ -15,14 +15,14 @@ localization_priority: Normal
 ms.assetid: 6875d930-7502-4e47-bdb3-45eaeb065350
 ROBOTS: NOINDEX, NOFOLLOW
 description: Você pode usar a seção Categoria da página Chat Persistente para configurar categorias. Uma categoria de sala de Chat Persistente é uma estrutura lógica para organizar salas de chat. Uma categoria define um conjunto padrão de listas de controle de acesso (ACLs) para controle dos usuários e dos grupos de usuários que podem criar ou ingressar em salas de chat. É possível usar as categorias para aplicar paredes éticas entre diferentes subdivisões dentro de suas organizações.
-ms.openlocfilehash: fe642c481ec69e566b7d0ebb0c22f6b10888b9e6
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 9192ef18fa2788b9b41a156479bf37f09f5f0aa3
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49808341"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51109207"
 ---
-# <a name="persistent-chat-category"></a><span data-ttu-id="fb869-106">Categoria de Chat Persistente</span><span class="sxs-lookup"><span data-stu-id="fb869-106">Persistent Chat Category</span></span>
+# <a name="persistent-chat-category"></a><span data-ttu-id="5561e-106">Categoria de Chat Persistente</span><span class="sxs-lookup"><span data-stu-id="5561e-106">Persistent Chat Category</span></span>
 
 > [!NOTE] 
-> <span data-ttu-id="fb869-107">O chat persistente está disponível no Skype for Business Server 2015, mas não é mais suportado no Skype for Business Server 2019.</span><span class="sxs-lookup"><span data-stu-id="fb869-107">Persistent chat is available in Skype for Business Server 2015 but is no longer supported in Skype for Business Server 2019.</span></span> <span data-ttu-id="fb869-108">A mesma funcionalidade está disponível no Teams.</span><span class="sxs-lookup"><span data-stu-id="fb869-108">The same functionality is available in Teams.</span></span> <span data-ttu-id="fb869-109">Para saber mais, confira [a atualização do Skype for Business para o Microsoft Teams.](https://docs.microsoft.com/MicrosoftTeams/upgrade-start-here)</span><span class="sxs-lookup"><span data-stu-id="fb869-109">For more information, see [Skype for Business to Microsoft Teams upgrade](https://docs.microsoft.com/MicrosoftTeams/upgrade-start-here).</span></span> <span data-ttu-id="fb869-110">Se você precisar usar o chat persistente, suas opções são migrar os usuários que exigem essa funcionalidade para o Teams ou continuar usando o Skype for Business Server 2015.</span><span class="sxs-lookup"><span data-stu-id="fb869-110">If you need to use Persistent chat, your choices are to either migrate users requiring this functionality to Teams or continue using Skype for Business Server 2015.</span></span>
+> <span data-ttu-id="5561e-107">O chat persistente está disponível no Skype for Business Server 2015, mas não tem mais suporte no Skype for Business Server 2019.</span><span class="sxs-lookup"><span data-stu-id="5561e-107">Persistent chat is available in Skype for Business Server 2015 but is no longer supported in Skype for Business Server 2019.</span></span> <span data-ttu-id="5561e-108">A mesma funcionalidade está disponível no Teams.</span><span class="sxs-lookup"><span data-stu-id="5561e-108">The same functionality is available in Teams.</span></span> <span data-ttu-id="5561e-109">Para obter mais informações, consulte [Atualização do Skype for Business para o Microsoft Teams.](/MicrosoftTeams/upgrade-start-here)</span><span class="sxs-lookup"><span data-stu-id="5561e-109">For more information, see [Skype for Business to Microsoft Teams upgrade](/MicrosoftTeams/upgrade-start-here).</span></span> <span data-ttu-id="5561e-110">Se você precisar usar o chat persistente, suas opções são migrar usuários que exigem essa funcionalidade para o Teams ou continuar usando o Skype for Business Server 2015.</span><span class="sxs-lookup"><span data-stu-id="5561e-110">If you need to use Persistent chat, your choices are to either migrate users requiring this functionality to Teams or continue using Skype for Business Server 2015.</span></span>

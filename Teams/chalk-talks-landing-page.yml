@@ -1,10 +1,10 @@
 ### YamlMime:Hub
 title: Microsoft Teams Chalk Talks
-summary: Projetado para profissionais de TI e tomadores de decisões, o Teams Chalk Talks oferece uma oportunidade exclusiva de aprender as práticas recomendadas e orientações práticas sobre alguns dos cenários mais populares e atraentes no Teams.
+summary: Projetado para profissionais de TI e tomadores de decisão, o Teams Chalk Talks oferece uma oportunidade exclusiva de aprender práticas recomendadas e orientações práticas sobre alguns dos cenários mais populares e atraentes no Teams.
 brand: teams
 metadata:
   title: Conversas de giz do Microsoft Teams
-  description: Projetado para profissionais de TI e tomadores de decisões, o Teams Chalk Talks oferece uma oportunidade exclusiva de aprender as práticas recomendadas e orientações práticas sobre alguns dos cenários mais populares e atraentes no Teams. Facilitados por especialistas no assunto, esses workshops interativos online vão fornecer informações para aprimorar a implementação do Teams e fornecer valor adicional para os usuários finais. Clique em qualquer título do workshop abaixo para ver as datas e horas disponíveis e inscreva-se hoje mesmo!
+  description: Projetado para profissionais de TI e tomadores de decisão, o Teams Chalk Talks oferece uma oportunidade exclusiva de aprender práticas recomendadas e orientações práticas sobre alguns dos cenários mais populares e atraentes no Teams. Facilitados por especialistas em assuntos, esses workshops interativos online o fornecerão informações para aprimorar a implementação do Teams e fornecer valor adicional para os usuários finais. Clique em qualquer título do workshop abaixo para ver datas e horários disponíveis e inscreva-se hoje!
   ms.service: msteams
   ms.topic: hub-page
   author: SerdarSoysal
@@ -25,30 +25,30 @@ metadata:
   search.appverid: MET150
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: 6a30116a884ea2cbe66447b36071ba71e29f50e4
-  ms.sourcegitcommit: 62d5ccf10202a50755166e3b8de0bd31d1f94fef
+  ms.openlocfilehash: 2cd84e6eeb43816d86424f2e63919efb750cdaa5
+  ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
   ms.translationtype: MT
   ms.contentlocale: pt-BR
-  ms.lasthandoff: 10/28/2020
-  ms.locfileid: "48790593"
+  ms.lasthandoff: 03/23/2021
+  ms.locfileid: "51102697"
 productDirectory:
   summary: Clique em qualquer título do workshop para se registrar.
   items:
   - title: Então... você deseja fazer chamadas com o Teams?
     imageSrc: https://docs.microsoft.com/office/media/icons/headset-teams.svg
-    summary: Junte-se a nós para ter uma análise aprofundada da adição de recursos de chamada PSTN à sua implantação do Teams. Juntos, vamos passar pela terminologia de chamada, conceitos-chave e configurações.
+    summary: Junte-se a nós para uma análise detalhada sobre como adicionar recursos de chamada PSTN à implantação do Teams. Juntos, vamos passar por terminologia de chamada, conceitos-chave e configurações.
     url: https://microsoftteams.eventbuilder.com/ChalkTalksCalling
-  - title: Assumir a responsabilidade pela qualidade de áudio/vídeo no Teams
+  - title: Assumindo a qualidade de áudio/vídeo no Teams
     imageSrc: https://docs.microsoft.com/office/media/icons/education-tutorial-teams.svg
-    summary: Quer garantir que os usuários tenham experiências ideais com reuniões e recursos de voz? Discutiremos ferramentas, relatórios e práticas recomendadas para ajudá-lo a gerenciar a qualidade do serviço, desde o estabelecimento de uma estratégia proativa até a resolução de problemas comuns.
+    summary: Procurando garantir que os usuários tenham experiências ideais com reuniões e recursos de voz? Discutiremos ferramentas, relatórios e práticas recomendadas para ajudá-lo a gerenciar a qualidade do serviço, desde o estabelecimento de uma estratégia proativa até a resolução de problemas comuns.
     url: https://microsoftteams.eventbuilder.com/ChalkTalksQuality
-  - title: Aplicativos nos Conceitos Básicos do Teams
+  - title: Aplicativos no Teams Fundamentals
     imageSrc: https://docs.microsoft.com/office/media/icons/cloud-devtest-teams.svg
-    summary: Esta sessão fundamental abrange recursos básicos, incluindo segurança e gerenciamento de aplicativos. Saiba como integrar seus fluxos de trabalho, aplicativos de produtividade e os serviços que você usa todos os dias em uma única experiência unificada.
+    summary: Esta sessão base abrange recursos básicos, incluindo gerenciamento de aplicativos e segurança. Saiba como integrar seus fluxos de trabalho, aplicativos de produtividade e os serviços que você usa todos os dias em uma única experiência unificada.
     url: https://microsoftteams.eventbuilder.com/ChalkTalksApps
-  - title: Sobrecarrecar fluxos de trabalho principais com aplicativos no Teams
+  - title: Fluxos de trabalho de teclas de sobretaxa com aplicativos no Teams
     imageSrc: https://docs.microsoft.com/office/media/icons/layout-navigation-teams.svg
-    summary: Conecte seus sistemas, aumente a automação e entregue experiências aprimoradas para os usuários, trazendo os aplicativos dos quais sua organização depende no Teams.
+    summary: Conecte seus sistemas, aumente a automação e entregue experiências aprimoradas para os usuários, trazendo os aplicativos em que sua organização depende para o Teams.
     url: https://aka.ms/ChalkTalkKeyApps
 additionalContent:
   sections:
@@ -57,8 +57,8 @@ additionalContent:
       summary: Confira nossa série do Workshop de Atualização.
       url: upgrade-workshops-landing-page.yml
     - title: Preparar seus usuários
-      summary: Mantenha seus usuários em funcionamento com o Treinamento do Teams Live.
-      url: https://aka.ms/TeamsLiveTraining
+      summary: Mantenha seus usuários em execução com o Treinamento do Teams Live.
+      url: ./instructor-led-training-teams-landing-page.yml
     - title: Novo usuário do Teams?
-      summary: Saiba mais sobre como começar a trabalhar com o Teams.
-      url: https://docs.microsoft.com/microsoftteams/teams-overview
+      summary: Saiba mais sobre como começar com o Teams.
+      url: ./teams-overview.md

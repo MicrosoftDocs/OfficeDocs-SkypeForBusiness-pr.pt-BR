@@ -15,17 +15,15 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 13485e9d-190e-4ece-b997-1cbf45aae77c
 description: O endereço IP interno é o endereço IP da interface interna do Servidor de Borda.
-ms.openlocfilehash: 5f8f6d4dac047d4c3689c37d86832f0edf092647
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 027ea79dc9242a039184bf323266ccbf94e54a60
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49815241"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51103274"
 ---
-# <a name="add-edge-server-internal-ip"></a><span data-ttu-id="a5fcd-103">Adicionar IP Interno de Servidor de Borda</span><span class="sxs-lookup"><span data-stu-id="a5fcd-103">Add Edge Server Internal IP</span></span>
+# <a name="add-edge-server-internal-ip"></a><span data-ttu-id="1a87a-103">Adicionar IP Interno de Servidor de Borda</span><span class="sxs-lookup"><span data-stu-id="1a87a-103">Add Edge Server Internal IP</span></span>
 
-<span data-ttu-id="a5fcd-104">O endereço IP interno é o endereço IP da interface interna do Servidor de Borda.</span><span class="sxs-lookup"><span data-stu-id="a5fcd-104">The internal IP address is the IP address of the internal interface of the Edge Server.</span></span>
+<span data-ttu-id="1a87a-104">O endereço IP interno é o endereço IP da interface interna do Servidor de Borda.</span><span class="sxs-lookup"><span data-stu-id="1a87a-104">The internal IP address is the IP address of the internal interface of the Edge Server.</span></span>
 
-<span data-ttu-id="a5fcd-105">É possível incluir suporte ao acesso de usuários externos durante a implantação da sua topologia inicial ou em uma fase posterior.</span><span class="sxs-lookup"><span data-stu-id="a5fcd-105">You can add support for external user access when you deploy your initial topology or afterward.</span></span> <span data-ttu-id="a5fcd-106">Para obter detalhes sobre como adicionar Servidores de Borda a uma topologia existente, consulte [Define Your Edge Topology](https://technet.microsoft.com/library/787b23f1-8fa0-4c37-abf2-c516c5dd66f0.aspx) na documentação Implantação do Servidor de Borda.</span><span class="sxs-lookup"><span data-stu-id="a5fcd-106">For details about adding Edge Servers to an existing topology, see [Define Your Edge Topology](https://technet.microsoft.com/library/787b23f1-8fa0-4c37-abf2-c516c5dd66f0.aspx) in the Edge Server Deployment documentation.</span></span>
-
-
+<span data-ttu-id="1a87a-105">É possível incluir suporte ao acesso de usuários externos durante a implantação da sua topologia inicial ou em uma fase posterior.</span><span class="sxs-lookup"><span data-stu-id="1a87a-105">You can add support for external user access when you deploy your initial topology or afterward.</span></span> <span data-ttu-id="1a87a-106">Para obter detalhes sobre como adicionar Servidores de Borda a uma topologia existente, consulte [Define Your Edge Topology](/previous-versions/office/lync-server-2013/lync-server-2013-define-your-edge-topology) na documentação Implantação do Servidor de Borda.</span><span class="sxs-lookup"><span data-stu-id="1a87a-106">For details about adding Edge Servers to an existing topology, see [Define Your Edge Topology](/previous-versions/office/lync-server-2013/lync-server-2013-define-your-edge-topology) in the Edge Server Deployment documentation.</span></span>
