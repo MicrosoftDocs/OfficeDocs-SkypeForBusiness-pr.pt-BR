@@ -15,22 +15,19 @@ localization_priority: Normal
 ms.assetid: dd3c9b37-607e-445f-9e15-b6c92adcfb87
 ROBOTS: NOINDEX, NOFOLLOW
 description: O que você deseja fazer? Clique no link para a tarefa que você deseja executar.
-ms.openlocfilehash: 7c9e1449d51a56caf5371ffd340da0e507544631
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 2012e625b085d298e082ca736814838e17f5b41b
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49836421"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51118720"
 ---
-# <a name="registrar-security-settings"></a><span data-ttu-id="cadd1-104">Definições de Segurança de Registrador</span><span class="sxs-lookup"><span data-stu-id="cadd1-104">Registrar Security Settings</span></span>
+# <a name="registrar-security-settings"></a><span data-ttu-id="fbea6-104">Definições de Segurança de Registrador</span><span class="sxs-lookup"><span data-stu-id="fbea6-104">Registrar Security Settings</span></span>
 
-<span data-ttu-id="cadd1-105">O que você deseja fazer?</span><span class="sxs-lookup"><span data-stu-id="cadd1-105">What do you want to do?</span></span> <span data-ttu-id="cadd1-106">Clique no link para a tarefa que você deseja executar.</span><span class="sxs-lookup"><span data-stu-id="cadd1-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="fbea6-105">O que você deseja fazer?</span><span class="sxs-lookup"><span data-stu-id="fbea6-105">What do you want to do?</span></span> <span data-ttu-id="fbea6-106">Clique no link para a tarefa que você deseja executar.</span><span class="sxs-lookup"><span data-stu-id="fbea6-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="cadd1-107">Gerenciar definições de configuração do Registrador no Skype for Business Server</span><span class="sxs-lookup"><span data-stu-id="cadd1-107">Manage Registrar configuration settings in Skype for Business Server</span></span>](../../../manage/authentication/registrar-configuration-settings.md)
+- [<span data-ttu-id="fbea6-107">Gerenciar configurações do Registrador no Skype for Business Server</span><span class="sxs-lookup"><span data-stu-id="fbea6-107">Manage Registrar configuration settings in Skype for Business Server</span></span>](../../../manage/authentication/registrar-configuration-settings.md)
 
-- [<span data-ttu-id="cadd1-108">Modificar um Registrador Existente</span><span class="sxs-lookup"><span data-stu-id="cadd1-108">Modify an Existing Registrar</span></span>](https://technet.microsoft.com/library/a8931511-3e66-49ed-a3ec-03bcd61ce1f0.aspx)
+- [<span data-ttu-id="fbea6-108">Modificar um Registrador Existente</span><span class="sxs-lookup"><span data-stu-id="fbea6-108">Modify an Existing Registrar</span></span>](/previous-versions/office/lync-server-2013/lync-server-2013-modify-existing-registrar-configuration-settings)
 
-- [<span data-ttu-id="cadd1-109">Excluir um Registrador</span><span class="sxs-lookup"><span data-stu-id="cadd1-109">Delete a Registrar</span></span>](https://technet.microsoft.com/library/ae43cd75-cae4-4f78-b037-779a2cdb583b.aspx)
-
-
-
+- [<span data-ttu-id="fbea6-109">Excluir um Registrador</span><span class="sxs-lookup"><span data-stu-id="fbea6-109">Delete a Registrar</span></span>](/previous-versions/office/lync-server-2013/lync-server-2013-delete-existing-registrar-configuration-settings)
