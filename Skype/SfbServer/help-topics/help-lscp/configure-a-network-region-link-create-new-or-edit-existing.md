@@ -15,18 +15,17 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4c4225d4-3a51-4f54-a6cb-c262e07c51fd
 description: O que você deseja fazer? Clique no link para a tarefa que você deseja executar.
-ms.openlocfilehash: e51e4f96a3255cba718d14c1ee7957002243c25a
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 2a528f0029b83ca1ec4ecb83e6ebe12f9bf5f166
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49807351"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51122602"
 ---
 # <a name="configure-a-network-region-link-create-new-or-edit-existing"></a>Configurar um Link de Região de Rede: Criar Novo ou Editar Existente
 
 O que você deseja fazer? Clique no link para a tarefa que você deseja executar.
 
-- [Configurando links da região de rede](https://technet.microsoft.com/library/952bc93e-e6aa-4539-85c7-2b15f14eb382.aspx)
+- [Configurando links da região de rede](/previous-versions/office/lync-server-2013/lync-server-2013-configuring-network-region-links)
 
-Para obter detalhes sobre os diferentes procedimentos que você pode executar usando o Painel de Controle do Skype for Business Server, consulte [Gerenciar o Skype for Business Server 2015.](../../manage/manage.md)
-
+Para obter detalhes sobre os diferentes procedimentos que você pode executar usando o Painel de Controle do Skype for Business Server, consulte [Manage Skype for Business Server 2015](../../manage/manage.md).

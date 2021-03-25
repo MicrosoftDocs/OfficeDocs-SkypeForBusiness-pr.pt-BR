@@ -10,32 +10,32 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: Região de rede* são os hubs de rede ou backbones usados na configuração do controle de admissão de chamada, E9-1-1 e bypass de mídia.
-ms.openlocfilehash: 14c8004ddd14c0a37c25d700edae845ac9adfe29
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Região de rede* são os hubs de rede ou backbones usados na configuração do controle de admissão de chamada, E9-1-1 e desvio de mídia.
+ms.openlocfilehash: 2020eea2cf8bf85c915ebf88de6f86cb3a0ee9ca
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49816411"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51122445"
 ---
 # <a name="managing-network-regions-in-skype-for-business-server"></a>Gerenciando regiões de rede no Skype for Business Server
 
 *Regiões de rede* são hubs de rede ou backbones usados na configuração do serviço de controle de admissão de chamadas, E9-1-1 e desvio de mídia. Use os procedimentos a seguir para visualizar, criar ou modificar regiões de rede. Por exemplo, se você já criou regiões de rede para um recurso de Voz, não precisará criar novas regiões de rede; outros recursos avançados do Enterprise Voice usarão essas mesmas regiões de rede. Porém, talvez seja necessário modificar uma definição de região de rede existente para aplicar configurações específicas ao recurso. Por exemplo, se você cria regiões de rede para o E9-1-1 (que não exige um local central associado) e depois implanta o controle de admissão de chamadas, precisará modificar as definições de região de rede para especificar um local central. 
 
-Use os procedimentos neste artigo para exibir informações de região de rede ou criar, modificar ou excluir regiões de rede. 
+Use os procedimentos deste artigo para exibir informações da região de rede ou criar, modificar ou excluir regiões de rede. 
 
-## <a name="view-network-region-information"></a>Exibir informações de região de rede 
+## <a name="view-network-region-information"></a>Exibir informações da região de rede 
 
 
 Uma região de rede interconecta várias partes de uma rede entre várias áreas geográficas. Cada região de rede deve ser associada com um local central. O local central é o local do centro de dados no qual o serviço da política de largura de banda CAC está funcionando. Você pode usar o Painel de Controle do Skype for Business Server para exibir regiões de rede. As regiões de rede incluem configurações que determinam se os caminhos alternativos através da Internet são permitidos para conexões de áudio e vídeo. Use este tópico para exibir regiões de rede existentes. 
 
 ### <a name="to-view-information-about-a-network-region-with-skype-for-business-server-control-panel"></a>Para exibir informações sobre uma região de rede com o Painel de Controle do Skype for Business Server
 
-1.  Em uma conta de usuário que seja membro do grupo RTCUniversalServerAdmins (ou que tenha direitos de usuário equivalentes) ou que tenha a função CsAdministrator atribuída, faça logon em qualquer computador em sua implantação interna.
+1.  De uma conta de usuário que é membro do grupo RTCUniversalServerAdmins (ou tem direitos de usuário equivalentes) ou é atribuída à função CsAdministrator, faça logon em qualquer computador em sua implantação interna.
 
-2.  Abra uma janela do navegador e insira a URL do Administrador para abrir o Painel de Controle do Skype for Business Server. 
+2.  Abra uma janela do navegador e insira a URL do administrador para abrir o Painel de Controle do Skype for Business Server. 
 
-3.  Na barra de navegação esquerda, clique em **Configuração de** Rede e em **Região.**
+3.  Na barra de navegação esquerda, clique em **Configuração de** Rede e clique em **Região**.
 
 4.  Na página **Região,** clique na região que você deseja exibir.
   
@@ -45,11 +45,11 @@ Uma região de rede interconecta várias partes de uma rede entre várias áreas
 5.  No painel **Ações**, clique em **Mostrar detalhes**.
 
 
-### <a name="viewing-network-region-information-by-using-windows-powershell-cmdlets"></a>Exibindo informações de região de rede usando cmdlets do Windows PowerShell
+### <a name="viewing-network-region-information-by-using-windows-powershell-cmdlets"></a>Exibindo informações de região de rede usando Windows PowerShell cmdlets
 
-Você pode exibir informações de região de rede usando o Windows PowerShell e o cmdlet **Get-CsNetworkRegion.** Você pode executar esse cmdlet no Shell de Gerenciamento do Skype for Business Server ou em uma sessão remota do Windows PowerShell. 
+Você pode exibir informações da região de rede usando Windows PowerShell e o cmdlet **Get-CsNetworkRegion.** Você pode executar esse cmdlet no Shell de Gerenciamento do Skype for Business Server ou em uma sessão remota de Windows PowerShell. 
 
-### <a name="to-view-network-region-information"></a>Para exibir informações de região de rede
+### <a name="to-view-network-region-information"></a>Para exibir informações da região de rede
 
   - Para exibir informações sobre todas as regiões de rede, digite o seguinte comando no Shell de Gerenciamento do Skype for Business Server e pressione ENTER:
     
@@ -65,7 +65,7 @@ Você pode exibir informações de região de rede usando o Windows PowerShell e
                            BWPolicyModality=Video;AlternatePath=True}
         NetworkRegionID  : Pacific Northwest
 
-Para obter mais informações, consulte o tópico de ajuda para o cmdlet [Get-CsNetworkRegion.](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkRegionLink)
+Para obter mais informações, consulte o tópico de ajuda para o cmdlet [Get-CsNetworkRegion.](/powershell/module/skype/Get-CsNetworkRegionLink)
 
 
 ## <a name="create-or-modify-network-regions"></a>Criar ou modificar regiões de rede 
@@ -74,15 +74,15 @@ Uma região de rede interconecta várias partes de uma rede entre várias áreas
 
 ### <a name="to-create-a-network-region"></a>Para criar uma região de rede
 
-1.  Em uma conta de usuário que seja membro do grupo RTCUniversalServerAdmins (ou que tenha direitos de usuário equivalentes) ou que tenha a função CsAdministrator atribuída, faça logon em qualquer computador em sua implantação interna.
+1.  De uma conta de usuário que é membro do grupo RTCUniversalServerAdmins (ou tem direitos de usuário equivalentes) ou é atribuída à função CsAdministrator, faça logon em qualquer computador em sua implantação interna.
 
-2.  Abra uma janela do navegador e insira a URL do Administrador para abrir o Painel de Controle do Skype for Business Server. 
+2.  Abra uma janela do navegador e insira a URL do administrador para abrir o Painel de Controle do Skype for Business Server. 
 
-3.  Na barra de navegação esquerda, clique em **Configuração de** Rede e em **Região.**
+3.  Na barra de navegação esquerda, clique em **Configuração de** Rede e clique em **Região**.
 
 4.  Na página **Região**, clique em **Novo**.
 
-5.  Na página **Nova Região**, digite um valor no campo **Nome**. Esse valor deve ser exclusivo em sua implantação do Skype for Business Server.
+5.  Na página **Nova Região**, digite um valor no campo **Nome**. Esse valor deve ser exclusivo na implantação do Skype for Business Server.
 
 6.  Na lista suspensa **Site central**, selecione o site central para essa região de rede.
 
@@ -94,15 +94,15 @@ Uma região de rede interconecta várias partes de uma rede entre várias áreas
 
 10. Clique em **Confirmar**.
 
-A tabela **Sites associados** não é usada para criar uma região de rede. Você associa um site a uma região quando cria ou modifica o site. Para obter detalhes, consulte [Gerenciando o controle de admissão de chamada para sites.](managing-call-admission-control-for-sites.md)
+A tabela **Sites associados** não é usada para criar uma região de rede. Você associa um site a uma região quando cria ou modifica o site. Para obter detalhes, consulte [Managing call admission control for sites](managing-call-admission-control-for-sites.md).
 
 ### <a name="to-modify-a-network-region"></a>Para modificar uma região de rede
 
-1.  Em uma conta de usuário que seja membro do grupo RTCUniversalServerAdmins (ou que tenha direitos de usuário equivalentes) ou que tenha a função CsAdministrator atribuída, faça logon em qualquer computador em sua implantação interna.
+1.  De uma conta de usuário que é membro do grupo RTCUniversalServerAdmins (ou tem direitos de usuário equivalentes) ou é atribuída à função CsAdministrator, faça logon em qualquer computador em sua implantação interna.
 
-2.  Abra uma janela do navegador e insira a URL do Administrador para abrir o Painel de Controle do Skype for Business Server. 
+2.  Abra uma janela do navegador e insira a URL do administrador para abrir o Painel de Controle do Skype for Business Server. 
 
-3.  Na barra de navegação esquerda, clique em **Configuração de** Rede e em **Região.**
+3.  Na barra de navegação esquerda, clique em **Configuração de** Rede e clique em **Região**.
 
 4.  Na página **Região**, clique na região que você deseja modificar.
 
@@ -121,11 +121,11 @@ Uma região de rede interconecta várias partes de uma rede entre várias áreas
 
 ### <a name="to-delete-a-network-region"></a>Para excluir uma região de rede
 
-1.  Em uma conta de usuário que seja membro do grupo RTCUniversalServerAdmins (ou que tenha direitos de usuário equivalentes) ou que tenha a função CsAdministrator atribuída, faça logon em qualquer computador em sua implantação interna.
+1.  De uma conta de usuário que é membro do grupo RTCUniversalServerAdmins (ou tem direitos de usuário equivalentes) ou é atribuída à função CsAdministrator, faça logon em qualquer computador em sua implantação interna.
 
-2.  Abra uma janela do navegador e insira a URL do Administrador para abrir o Painel de Controle do Skype for Business Server. 
+2.  Abra uma janela do navegador e insira a URL do administrador para abrir o Painel de Controle do Skype for Business Server. 
 
-3.  Na barra de navegação esquerda, clique em **Configuração de** Rede e em **Região.**
+3.  Na barra de navegação esquerda, clique em **Configuração de** Rede e clique em **Região**.
 
 4.  Na página **Região**, clique na região que você deseja excluir.
   
@@ -145,10 +145,10 @@ Uma região de rede interconecta várias partes de uma rede entre várias áreas
 
 [Gerenciando rotas de região de rede](managing-network-region-routes.md)
 
-[New-CsNetworkRegion](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkRegion)  
+[New-CsNetworkRegion](/powershell/module/skype/New-CsNetworkRegion)  
 
-[Set-CsNetworkRegion](https://docs.microsoft.com/powershell/module/skype/Set-CsNetworkRegion)  
+[Set-CsNetworkRegion](/powershell/module/skype/Set-CsNetworkRegion)  
 
-[Remove-CsNetworkRegion](https://docs.microsoft.com/powershell/module/skype/Remove-CsNetworkRegion)  
+[Remove-CsNetworkRegion](/powershell/module/skype/Remove-CsNetworkRegion)  
 
-[Get-CsNetworkRegion](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkRegionLink)  
+[Get-CsNetworkRegion](/powershell/module/skype/Get-CsNetworkRegionLink)

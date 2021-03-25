@@ -17,12 +17,12 @@ description: Saiba o que fazer quando precisar executar a Descoberta Eletrônica
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 3990b96981a65bb4d706cc3141abee10102c0839
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: ca1a679fbdce7ca2840c41266053cf13f1452fe0
+ms.sourcegitcommit: 84d99b266dea2a972774d781b92eccc67d6c197a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51094051"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "51197526"
 ---
 # <a name="conduct-an-ediscovery-investigation-of-content-in-microsoft-teams"></a>Conduzir uma investigação de Descoberta Eletrônica de conteúdo no Microsoft Teams
 
@@ -54,6 +54,7 @@ Nem todo o conteúdo do Teams é eDiscoverable. A tabela a seguir mostra os tipo
 |Reações (como likes, hearts e outras reações) | Não | |
 |Assunto | Sim | |
 |Tabelas | Sim | |
+|Notificações de feed | Não | |
 |||
 
 <sup>1</sup> Os metadados de reunião (e de chamada) incluem o seguinte:
