@@ -18,35 +18,35 @@ description: Exemplos de como usar o PowerShell para definir políticas no Teams
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: ece22b6debd3c7d6209df96983d1d66ed5f6f3ca
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 95b78b520b6978c85715e6dc1c1314ed279a305b
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49815621"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51119140"
 ---
 # <a name="use-powershell-to-set-live-events-policies-in-microsoft-teams"></a>Usar o PowerShell para definir políticas de eventos ao vivo no Microsoft Teams
 
-Você pode usar os seguintes cmdlets do Windows PowerShell para definir e atribuir configurações de política para eventos ao vivo no Teams: 
-- [Get-CsTeamsMeetingBroadcastPolicy](https://docs.microsoft.com/powershell/module/skype/get-csteamsmeetingbroadcastpolicy?view=skype-ps)
-- [Set-CsTeamsMeetingBroadcastPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingbroadcastpolicy?view=skype-ps)
-- [New-CsTeamsMeetingBroadcastPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamsmeetingbroadcastpolicy?view=skype-ps)
-- [Grant-CsTeamsMeetingBroadcastPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsmeetingbroadcastpolicy?view=skype-ps)
-- [New-CsGroupPolicyAssignment](https://docs.microsoft.com/powershell/module/teams/new-csgrouppolicyassignment?view=teams-ps)
+Você pode usar os seguintes cmdlets Windows PowerShell para definir e atribuir configurações de política para eventos ao vivo no Teams: 
+- [Get-CsTeamsMeetingBroadcastPolicy](/powershell/module/skype/get-csteamsmeetingbroadcastpolicy?view=skype-ps)
+- [Set-CsTeamsMeetingBroadcastPolicy](/powershell/module/skype/set-csteamsmeetingbroadcastpolicy?view=skype-ps)
+- [New-CsTeamsMeetingBroadcastPolicy](/powershell/module/skype/new-csteamsmeetingbroadcastpolicy?view=skype-ps)
+- [Grant-CsTeamsMeetingBroadcastPolicy](/powershell/module/skype/grant-csteamsmeetingbroadcastpolicy?view=skype-ps)
+- [New-CsGroupPolicyAssignment](/powershell/module/teams/new-csgrouppolicyassignment?view=teams-ps)
 
 Aqui estão alguns exemplos.
 
 > [!NOTE]
-> Antes de executar esses cmdlets, você deve estar conectado ao PowerShell do Skype for Business Online. Para obter mais informações, [consulte Gerenciar o Skype for Business Online com o Microsoft 365 ou o Office 365 PowerShell.](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)
+> Antes de executar esses cmdlets, você deve estar conectado ao PowerShell do Skype for Business Online. Para obter mais informações, consulte [Manage Skype for Business Online with Microsoft 365 or Office 365 PowerShell](/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell).
 
 ## <a name="allow-users-to-schedule-live-events"></a>Permitir que os usuários agendem eventos ao vivo 
 
 > [!NOTE]
-> Esses exemplos são para eventos produzidos no Teams. Para eventos produzidos com um aplicativo ou dispositivo externo, há etapas adicionais que você deve seguir. Para obter mais informações, consulte Habilitar os usuários para [agendar eventos que foram produzidos com um aplicativo ou dispositivo externo.](set-up-for-teams-live-events.md#enable-users-to-schedule-events-that-were-produced-with-an-external-app-or-device)
+> Esses exemplos são para eventos produzidos no Teams. Para eventos produzidos com um aplicativo ou dispositivo externo, há etapas adicionais que você deve fazer. Para obter mais informações, consulte Permitir que os usuários [agendem eventos que foram produzidos com um aplicativo ou dispositivo externo.](set-up-for-teams-live-events.md#enable-users-to-schedule-events-that-were-produced-with-an-external-app-or-device)
 
 **Permitir que um usuário agende eventos ao vivo**
 
-Se o usuário tiver atribuído a política global, execute e verifique se o parâmetro *AllowBroadcastScheduling* está definido como *True:*
+Se o usuário tiver atribuído a política global, execute e verifique se *o parâmetro AllowBroadcastScheduling* está definido como *True*:
 ```PowerShell
 Get-CsTeamsMeetingBroadcastPolicy -identity Global
 ```
@@ -55,31 +55,31 @@ Em seguida, atribua o usuário à política global, execute:
 Grant-CsTeamsMeetingBroadcastPolicy -Identity {user} -PolicyName $null -Verbose
 ```
 
-### <a name="user-scenarios"></a>Cenários do usuário
-**Você quer que todos os usuários em sua organização sejam capazes de agendar eventos ao vivo**
+### <a name="user-scenarios"></a>Cenários de usuário
+**Você deseja que todos os usuários em sua organização sejam capazes de agendar eventos ao vivo**
 
-Se os usuários têm a política global atribuída, execute e verifique se *AllowBroadcastScheduling* *está definido como *True:*
+Se os usuários são atribuídos à política global, execute e verifique se *AllowBroadcastScheduling* *está definido como *True*:
 ```PowerShell
 Get-CsTeamsMeetingBroadcastPolicy -identity Global
 ```
-Se os usuários têm uma política diferente da política global, execute e verifique se *-AllowBroadcastScheduling* está definido como *True:*
+Se os usuários são atribuídos a uma política diferente da política global, execute e verifique se *-AllowBroadcastScheduling* está definido como *True*:
 ```PowerShell
 Get-CsTeamsMeetingBroadcastPolicy -identity {policy name}
 ```
-**Você quer que o agendamento de eventos ao vivo seja desabilitado em toda a organização**
+**Você deseja que o agendamento de eventos ao vivo seja desabilitado em toda a sua organização**
 
 Desabilitar o agendamento de eventos ao vivo, execute:
 ```PowerShell
 Set-CsTeamsMeetingBroadcastPolicy -identity Global -AllowBroadcastScheduling $false
 ```
-Atribua todos os usuários de sua organização à política global, execute:
+Atribua todos os usuários da sua organização à política global, execute:
 ```PowerShell
 Grant-CsTeamsMeetingBroadcastPolicy -Identity {user} -PolicyName $null -Verbose
 ```
 
-**Você quer que um grande número de usuários possa agendar eventos ao vivo e impedir que um conjunto de usuários os agende**
+**Você deseja que um grande número de usuários possa agendar eventos ao vivo e impedir que um conjunto de usuários agende-os**
 
-Execute e verifique se *AllowBroadcastScheduling* está definido como *True:*
+Execute e verifique se *AllowBroadcastScheduling* está definido como *True*:
 ```PowerShell
 Get-CsTeamsMeetingBroadcastPolicy -Identity Global
 ```
@@ -124,23 +124,23 @@ Grant-CsTeamsMeetingBroadcastPolicy -Identity {user} -PolicyName EnableBroadcast
 ```
 ## <a name="set-who-can-join-live-events"></a>Definir quem pode participar de eventos ao vivo
  
-De definir a política global para permitir que os usuários criem eventos que todos, incluindo usuários anônimos, possam participar, executar:
+De definir a política global para permitir que os usuários criem eventos que todos, incluindo usuários anônimos, possam participar, executem:
 ```PowerShell
 Set-CsTeamsMeetingBroadcastPolicy -Identity Global -BroadcastAttendeeVisibility Everyone  
 ```
 ## <a name="set-the-recording-option-for-live-events"></a>Definir a opção de gravação para eventos ao vivo
 > [!NOTE]
-> Essa configuração aplica-se somente a eventos produzidos no Teams.
+> Essa configuração se aplica apenas a eventos produzidos no Teams.
 
-Definir a política global para desabilitar a gravação de eventos ao vivo:
+De definir a política global para desabilitar a gravação para eventos ao vivo:
 ```PowerShell
 Set-CsTeamsMeetingBroadcastPolicy -Identity Global -BroadcastRecordingMode AlwaysDisabled 
 ```
-## <a name="set-live-captions-and-subtitles-in-live-events"></a>Definir legendas ao vivo em eventos ao vivo
+## <a name="set-live-captions-and-subtitles-in-live-events"></a>Definir legendas e legendas ao vivo em eventos ao vivo
 > [!NOTE]
-> Essa configuração aplica-se somente a eventos produzidos no Teams. 
+> Essa configuração se aplica apenas a eventos produzidos no Teams. 
 
-Definir a política global para ativar legendas ao vivo e legendas (transcrição) para os participantes do evento:
+Definir a política global para ativar legendas e legendas ao vivo (transcrição) para participantes do evento:
 ```PowerShell
 Set-CsTeamsMeetingBroadcastPolicy -Identity Global -AllowBroadcastTranscription $true 
 ```
@@ -148,4 +148,3 @@ Set-CsTeamsMeetingBroadcastPolicy -Identity Global -AllowBroadcastTranscription 
 ### <a name="related-topics"></a>Tópicos relacionados
 - [Configurar eventos ao vivo do Teams](set-up-for-teams-live-events.md)
 - [Visão Geral do PowerShell do Teams](../teams-powershell-overview.md)
-

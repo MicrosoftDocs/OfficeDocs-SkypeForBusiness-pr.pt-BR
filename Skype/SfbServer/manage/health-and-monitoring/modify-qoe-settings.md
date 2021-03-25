@@ -1,5 +1,5 @@
 ---
-title: Modificar as configurações de Qualidade da Experiência no Skype for Business Server
+title: Modificar configurações de Qualidade de Experiência no Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -11,17 +11,17 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: a6b41de2-1466-4240-8a70-14ce6f0f3ddc
-description: 'Resumo: saiba como especificar a retenção de dados de QoE no Skype for Business Server.'
-ms.openlocfilehash: 18776e9b8eec9dcff6ced9f654d8153d7fa01777
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 'Resumo: Saiba como especificar a retenção de dados QoE no Skype for Business Server.'
+ms.openlocfilehash: cba8b2b98aa809c0583ad7323ff846e654ca9ace
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49827791"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51118610"
 ---
-# <a name="modify-quality-of-experience-settings-in-skype-for-business-server"></a>Modificar as configurações de Qualidade da Experiência no Skype for Business Server
+# <a name="modify-quality-of-experience-settings-in-skype-for-business-server"></a>Modificar configurações de Qualidade de Experiência no Skype for Business Server
 
-**Resumo:** Saiba como especificar a retenção de dados de QoE no Skype for Business Server.
+**Resumo:** Saiba como especificar a retenção de dados QoE no Skype for Business Server.
 
 Por padrão, os dados de QoE (Qualidade de Experiência) são limpos após 60 dias. Você pode usar as configurações da página **Dados de Qualidade de Experiência** para manter os dados por um período maior ou menor. Se você desabilitar a QoE, os dados capturados antes da habilitação da QoE também ficarão sujeitos à limpeza.
 
@@ -30,11 +30,11 @@ Por padrão, os dados de QoE (Qualidade de Experiência) são limpos após 60 di
 
 O procedimento a seguir descreve como definir as configurações de limpeza para dados de QoE.
 
-### <a name="to-specify-retention-of-qoe-data-by-using-skype-for-business-server-control-panel"></a>Para especificar a retenção de dados de QoE usando o Painel de Controle do Skype for Business Server
+### <a name="to-specify-retention-of-qoe-data-by-using-skype-for-business-server-control-panel"></a>Para especificar a retenção de dados QoE usando o Painel de Controle do Skype for Business Server
 
 1.  Faça logon no computador como membro do grupo RTCUniversalServerAdmins ou como membro da função CsVoiceAdministrator, CsServerAdministrator ou CsAdministrator. Para obter detalhes, consulte **Delegate Setup Permissions**.
 
-2. Abra uma janela do navegador e insira a URL do Administrador para abrir o Painel de Controle do Skype for Business Server.
+2. Abra uma janela do navegador e insira a URL do administrador para abrir o Painel de Controle do Skype for Business Server.
 
 3. Na barra de navegação à esquerda, clique em **Monitoramento e Arquivamento** e clique em **Dados de Qualidade de Experiência**.
 
@@ -47,9 +47,9 @@ O procedimento a seguir descreve como definir as configurações de limpeza para
 
 7. Clique em **Confirmar**.
 
-## <a name="specifying-qoe-retention-by-using-windows-powershell-cmdlets"></a>Especificando a retenção de QoE usando cmdlets do Windows PowerShell
+## <a name="specifying-qoe-retention-by-using-windows-powershell-cmdlets"></a>Especificando a retenção de QoE usando Windows PowerShell Cmdlets
 
-Você pode criar configurações de retenção de QoE usando o Windows PowerShell e o cmdlet **Set-CsQoEConfiguration.** Você pode executar esse cmdlet no Shell de Gerenciamento do Skype for Business Server ou em uma sessão remota do Windows PowerShell. Para obter detalhes sobre como usar o Windows PowerShell remoto para se conectar ao Skype for Business Server, consulte o artigo do blog ["Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell"](https://go.microsoft.com/fwlink/p/?linkId=255876). O processo é o mesmo no Skype for Business Server.
+Você pode criar configurações de retenção de QoE usando Windows PowerShell e o cmdlet **Set-CsQoEConfiguration.** Você pode executar esse cmdlet no Shell de Gerenciamento do Skype for Business Server ou em uma sessão remota de Windows PowerShell. Para obter detalhes sobre como usar o Windows PowerShell remoto para se conectar ao Skype for Business Server, consulte o artigo do blog "Início Rápido: Gerenciando o [Microsoft Lync Server 2010 usando o PowerShell Remoto"](https://go.microsoft.com/fwlink/p/?linkId=255876). O processo é o mesmo no Skype for Business Server.
 
 ### <a name="to-specify-qoe-retention-for-a-specific-location"></a>Para especificar a retenção de QoE de um local específico
 
@@ -67,8 +67,8 @@ Você pode criar configurações de retenção de QoE usando o Windows PowerShel
   Get-CsQoEConfiguration | Set-CsQoEConfiguration-EnablePurging -KeepQoEDataForDays 20
   ```
 
-Para obter mais informações, consulte o tópico de ajuda para o cmdlet [Set-CsQoEConfiguration.](https://docs.microsoft.com/powershell/module/skype/set-csqoeconfiguration?view=skype-ps)
+Para obter mais informações, consulte o tópico de ajuda do cmdlet [Set-CsQoEConfiguration.](/powershell/module/skype/set-csqoeconfiguration?view=skype-ps)
 
 ## <a name="see-also"></a>Confira também
 
-[Implantando o monitoramento](https://technet.microsoft.com/library/117f4a3e-0670-4388-a553-b9854921145f.aspx)
+[Implantando o monitoramento](/previous-versions/office/lync-server-2013/lync-server-2013-deploying-monitoring)

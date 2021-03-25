@@ -1,5 +1,5 @@
 ---
-title: Disponibilidade nas Ilhas Turcos e Caicos
+title: Disponibilidade em turcos e ilhas Caicos
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -24,14 +24,14 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Aqui estão os serviços do Microsoft 365 e do Office 365 para Skype for Business e Microsoft Teams disponíveis para turcos e ilhas Caicos.
-ms.openlocfilehash: c3aa3f7f653996cbc5518d89095ff231b88798c8
-ms.sourcegitcommit: 0979fae58ecd713f8317ed99caae015b5cc2c8e4
+ms.openlocfilehash: 93efa68fbdd5d7ce8855cc39658cdcfb222242df
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2020
-ms.locfileid: "44877953"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51119270"
 ---
-# <a name="availability-in-turks-and-caicos-islands"></a>Disponibilidade nas Ilhas Turcos e Caicos
+# <a name="availability-in-turks-and-caicos-islands"></a>Disponibilidade em turcos e ilhas Caicos
 
 [Encontre outro país ou região](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) ou saiba mais sobre a disponibilidade de Audioconferência e planos de chamadas por país e região.
 
@@ -41,7 +41,7 @@ Aqui estão os serviços do Microsoft 365 e do Office 365 para Skype for Busines
 
 |**Recurso**|**Detalhes**|
 |:-----|:-----|
-|A Audioconferência está disponível para compra?  <br/> |Sim. Pagar apenas por minuto. <br/> |
+|A Audioconferência está disponível para compra?  <br/> |Sim. Somente pagamento por minuto. <br/> |
 |Os números de telefone são atribuídos automaticamente para a Audioconferência?  <br/> | Não |
 |Funcionalidade de discagem usando o recurso Telefonar para Mim  <br/> | Requer créditos de comunicação <br/> |
    
@@ -64,15 +64,15 @@ Aqui estão os serviços do Microsoft 365 e do Office 365 para Skype for Busines
 
 Se os Planos de Chamada não estiverem disponíveis para compra, considere a possibilidade de usar o [Roteamento Direto do Sistema de Telefonia](../direct-routing-landing-page.md). Com o Roteamento Direto, você pode usar o Sistema de Telefonia praticamente com qualquer portadora de telefonia.
    
-## <a name="toll-and-toll-free-numbers-for-services"></a>Números de tarifa tarifada e gratuita para serviços
+## <a name="toll-and-toll-free-numbers-for-services"></a>Números de tarifação gratuita e de tarifação para serviços
 
 |**Recurso**|**Detalhes**|
 |:-----|:-----|
 |Para quais capitais ou cidades importantes é possível obter números de chamadas tarifadas?   | Não aplicável<br/> |
 |Há números de chamada tarifada disponíveis?  <br/> |Não<br/> |
-|Os números de tarifa gratuita estão disponíveis?  <br/> |Sim  <br/> |
+|Os números gratuitos estão disponíveis?  <br/> |Sim  <br/> |
    
- Se você quiser obter números de telefone de chamada tarifada e gratuita para audioconferência, atendimento automático e filas de chamadas, consulte Como obter números de telefone de serviço para o Skype for Business e [o Microsoft Teams.](/microsoftteams/getting-service-phone-numbers)
+ Se você quiser obter números de telefone gratuitos e de chamada gratuita para Audioconferências, Atendimentos Automáticos e Filas de Chamadas, consulte Obter números de telefone de serviço para [Skype for Business](../getting-service-phone-numbers.md)e Microsoft Teams .
   
 ## <a name="communications-credits"></a>Créditos de Comunicação
 
@@ -84,7 +84,6 @@ Para configurá-los, consulte [Configurar Créditos de Comunicação para a sua 
   
 ## <a name="related-topics"></a>Tópicos relacionados
 
-[Obtendo números de telefone de serviço do Skype for Business e do Microsoft Teams](/microsoftteams/getting-service-phone-numbers)
+[Obtendo números de telefone de serviço do Skype for Business e do Microsoft Teams](../getting-service-phone-numbers.md)
 
 [Disponibilidade de Audioconferência e Planos de Chamadas por país e região](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
-

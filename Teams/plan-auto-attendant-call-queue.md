@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Saiba mais sobre os atendimentos automáticos e filas de chamada e como usá-los para ajudar os chamadores a passar por um sistema de menus para alcançar pessoas ou departamentos em sua organização.
-ms.openlocfilehash: 2944f7b4add49b136d56620f41a2a1afb1a30a92
-ms.sourcegitcommit: d62e6cefceebe481eb207c59872f1aa67f0fc528
+ms.openlocfilehash: 659505c39fd6eace8cd0264aaef0a4994604e651
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "50460721"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117859"
 ---
 # <a name="plan-for-teams-auto-attendants-and-call-queues"></a>Planejar os atendimentos automáticos e filas de chamada do Teams
 
@@ -89,7 +89,7 @@ Ao transferir chamadas para um número de telefone externo, a conta de recurso q
 > [!NOTE]
 > Os números de serviço de Roteamento Direto para o atendimento automático e filas de chamadas são suportados apenas para usuários do Microsoft Teams e agentes de chamada.<br>
 > Não há suporte para transferências entre troncos de Plano de Chamadas e Roteamento Direto.<br>
-> Em um cenário híbrido, a conta de recurso deve ser criada no local. Para obter mais informações, consulte [Plan Cloud call queues](https://docs.microsoft.com/skypeforbusiness/hybrid/plan-call-queue).
+> Em um cenário híbrido, a conta de recurso deve ser criada no local. Para obter mais informações, consulte [Plan Cloud call queues](/skypeforbusiness/hybrid/plan-call-queue).
 
 ## <a name="business-decisions"></a>Decisões de negócios
 

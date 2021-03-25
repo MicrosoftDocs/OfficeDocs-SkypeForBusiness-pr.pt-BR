@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Aqui estão os serviços do Microsoft 365 e do Office 365 para Skype for Business e Microsoft Teams disponíveis para a Dinamarca.
-ms.openlocfilehash: 3dc916c17e81c7fe0fdf1c638b3ae8a90a4b3df9
-ms.sourcegitcommit: c49698e03fa3bdd7c82496189b200ac6bb4e05a1
+ms.openlocfilehash: 51bfd797eef5383133f30b8a718cc191a6314d97
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "48320776"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51118190"
 ---
 # <a name="availability-in-denmark"></a>Disponibilidade na Dinamarca
 
@@ -43,7 +43,7 @@ Aqui estão os serviços do Microsoft 365 e do Office 365 para Skype for Busines
 |**Recurso**|**Detalhes**|
 |:-----|:-----|
 |A Audioconferência está disponível para compra?  <br/> |Sim  <br/> |
-|Os números de telefone são atribuídos automaticamente para a Audioconferência?  <br/> |Sim, para:<br/><ul><li> Copenhaga</ul> Se quiser números de telefone dedicados, consulte [Obter números de telefone de serviço.](/microsoftteams/getting-service-phone-numbers)  <br/> |
+|Os números de telefone são atribuídos automaticamente para a Audioconferência?  <br/> |Sim, para:<br/><ul><li> Copenhague</ul> Se você quiser números de telefone dedicados, consulte [Obter números de telefone de serviço](../getting-service-phone-numbers.md).  <br/> |
 |Funcionalidade de discagem usando o recurso Telefonar para Mim  <br/> |Disponível  <br/> |
    
 ## <a name="phone-system"></a>Sistema de Telefonia
@@ -60,7 +60,7 @@ Aqui estão os serviços do Microsoft 365 e do Office 365 para Skype for Busines
 |**Recurso**|**Detalhes**|
 |:-----|:-----|
 |Os Planos de Chamadas estão disponíveis para compra?  <br/> |Sim  <br/> |
-|Minutos disponíveis para planos de chamada. |Há quatro opções de plano disponíveis por mês do calendário: <ul><li>Plano de Chamada Doméstica de 120 minutos </li><li>Plano de Chamada Doméstica de 240 minutos</li></li><li>Plano de Chamada Doméstica de 1200 minutos </li></li><li>Plano de Chamada Doméstica e Internacional: 1200 minutos de chamada doméstica -OU- 600 minutos de chamada internacional (o que for atingido primeiro no mês do calendário)</li></li> |
+|Minutos disponíveis para planos de chamada. |Há quatro opções de plano disponíveis por mês de calendário: <ul><li>Plano de Chamada Doméstica de 120 minutos </li><li>Plano de Chamada Doméstica de 240 minutos</li></li><li>Plano de Chamada Doméstica de 1200 minutos </li></li><li>Plano de Chamada Doméstica e Internacional: 1200 minutos de chamada doméstica -OR- 600 minutos de chamada internacional (o que for atingido primeiro no mês do calendário)</li></li> |
 |Pode fazer chamadas de saída para números premium?  <br/> | Não há suporte no momento. <br/> |
 |É possível fazer chamadas de saída?  <br/> | Para 196 países, incluindo [estes](users-can-make-outbound-calls-to-these-countries-and-regions.md).<br/> |
    
@@ -68,11 +68,11 @@ Aqui estão os serviços do Microsoft 365 e do Office 365 para Skype for Busines
 
 |**Recurso**|**Detalhes**|
 |:-----|:-----|
-|Para quais capitais ou cidades importantes é possível obter números de chamadas tarifadas?  <br/> |Copenhaga  <br/> |
+|Para quais capitais ou cidades importantes é possível obter números de chamadas tarifadas?  <br/> |Copenhague  <br/> |
 |Há números de chamada tarifada disponíveis?  <br/> |Sim  <br/> |
 |Há números de chamada gratuita disponíveis?  <br/> |Sim  <br/> |
    
- Se você quiser obter números de telefone de chamada tarifada e gratuita para audioconferência, atendimento automático e filas de chamada, consulte Obter números de telefone [de serviço.](/microsoftteams/getting-service-phone-numbers)
+ Se você quiser obter números de telefone gratuitos e de chamada gratuita para audioconferências, atendimentos automáticos e filas de [chamadas,](../getting-service-phone-numbers.md)consulte Obter números de telefone de serviço .
   
 ## <a name="communications-credits"></a>Créditos de Comunicação
 
@@ -84,8 +84,6 @@ Para configurá-los, consulte [Configurar Créditos de Comunicação para a sua 
   
 ## <a name="related-topics"></a>Tópicos relacionados
 
-[Obter números de telefone de serviço](/microsoftteams/getting-service-phone-numbers)
+[Obter números de telefone de serviço](../getting-service-phone-numbers.md)
 
-[Disponibilidade de audioconferência e Planos de Chamadas por país e região](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
-
-
+[Disponibilidade de Audioconferência e Planos de Chamadas por país e região](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)

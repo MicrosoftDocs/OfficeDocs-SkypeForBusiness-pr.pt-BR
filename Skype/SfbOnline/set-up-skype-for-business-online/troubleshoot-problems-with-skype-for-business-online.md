@@ -18,13 +18,13 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Setup
-description: Saiba como corrigir problemas para administradores e usuários do Skype for Business no Microsoft 365 e no Office 365.
-ms.openlocfilehash: 79f4f9f2ac8d1cd2e6b65486089b212c076d272d
-ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
+description: Saiba como corrigir problemas para administradores e usuários do Skype for Business no Microsoft 365 e No Office 365.
+ms.openlocfilehash: b9186064cab1932d34c49c2ed0d48bde2ce88787
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/08/2020
-ms.locfileid: "44164310"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51109897"
 ---
 # <a name="troubleshoot-problems-with-skype-for-business-online"></a>Solucionar problemas com o Skype for Business Online
 
@@ -32,19 +32,19 @@ ms.locfileid: "44164310"
 
 ## <a name="troubleshoot-admin-issues-for-skype-for-business-online"></a>Solucionar problemas de administrador do Skype for Business Online
 
-Você pode obter respostas para a maioria das suas perguntas do Skype for Business Online no artigo Verificar causas comuns de erros de conexão do [Skype for Business Online.](troubleshooting-sign-in-errors-for-admins.md#toc323194094) O seguinte artigo da KB também inclui muitos recursos de solução de problemas e referências de código de erro: Solução de problemas de erros de conexão do [Skype for Business Online para administradores.](https://docs.microsoft.com/skypeforbusiness/set-up-skype-for-business-online/troubleshooting-sign-in-errors-for-admins)
+Você pode obter respostas para a maioria das suas perguntas do Skype for Business Online no artigo Verificar as causas comuns dos erros de login do [Skype for Business Online.](troubleshooting-sign-in-errors-for-admins.md#toc323194094) O artigo KB a seguir também inclui muitos recursos de solução de problemas e referências de código de erro: Solução de problemas de erros de login do [Skype for Business Online para administradores.](./troubleshooting-sign-in-errors-for-admins.md)
 
-Para problemas de conferência discagem, consulte a solução de problemas e problemas conhecidos da [Audioconferência.](../audio-conferencing-in-office-365/audio-conferencing-troubleshooting-and-known-issues.md)
+Para problemas de conferência discagem, consulte Solução de problemas de [audioconferência e problemas conhecidos.](../audio-conferencing-in-office-365/audio-conferencing-troubleshooting-and-known-issues.md)
 
 ## <a name="additional-help-for-skype-for-business-online-admin-issues"></a>Mais ajuda para problemas do administrador do Skype for Business Online
 
-- [Solucionar problemas de DNS do Skype for Business Online](https://go.microsoft.com/fwlink/p/?LinkId=786985)
+- [Solucionar problemas de DNS do Skype for Business Online](/SkypeForBusiness/troubleshoot/online-configuration/dns-configuration-issue)
 
-- [Os usuários do Skype for Business Online não conseguem se comunicar com contatos externos](https://go.microsoft.com/fwlink/p/?LinkId=786984)
+- [Os usuários do Skype for Business Online não conseguem se comunicar com contatos externos](/SkypeForBusiness/troubleshoot/online-im-presence/cannot-communicate-with-external-contacts)
 
 - [Guia de solução de problemas do Skype for Business e Lync (PDF para baixar)](https://gallery.technet.microsoft.com/office/Skype-for-Business-and-7857597d/view/Discussions)
 
-- [Diagnosticar e resolver problemas de conexão do PowerShell com o Skype for Business Online](https://go.microsoft.com/fwlink/p/?LinkId=786983)
+- [Diagnosticar e resolver problemas de conexão do PowerShell com o Skype for Business Online](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
 
 ## <a name="help-your-skype-for-business-online-users"></a>Ajudar os seus usuários do Skype for Business Online
 
@@ -75,14 +75,14 @@ A maior parte dos problemas enfrentados pelos usuários do Skype for Business On
 ## <a name="still-need-help-contact-support"></a>Ainda precisa de ajuda? Fale com o suporte.
 <a name="BK_SupportBridge_1"> </a>
 
-Como administrador dos Aplicativos do Microsoft 365 para empresas, você tem acesso gratuito aos nossos experientes agentes de suporte para suporte a pré-vendas, conta e cobrança, além de obter ajuda para resolver problemas técnicos. Você também pode [entrar em contato com o](https://go.microsoft.com/fwlink/p/?LinkID=518322) suporte em nome de usuários do Microsoft 365 e do Office 365 em sua organização.
+Como administrador do Microsoft 365 Apps for business, você tem acesso gratuito aos nossos agentes de suporte experientes para suporte a pré-vendas, conta e cobrança, bem como ajuda para resolver problemas técnicos. Você também pode [entrar em contato com o suporte](/microsoft-365/Admin/contact-support-for-business-products) em nome dos usuários do Microsoft 365 e do Office 365 em sua organização.
 
 - [Obter ajuda dos fóruns da comunidade do Microsoft 365 e do Office 365](https://go.microsoft.com/fwlink/p/?LinkId=518605)
 
-- [Administradores: Ligar para o Suporte](https://go.microsoft.com/fwlink/p/?LinkID=518322)
+- [Administradores: Ligar para o Suporte](/microsoft-365/Admin/contact-support-for-business-products)
 
 > [!NOTE]
-> [!OBSERVAçãO] Se você estiver usando o Office 365 operado pela 21Vianet na China, [contate a equipe de suporte da 21Vianet](https://go.microsoft.com/fwlink/p/?linkid=847978).
+> [!OBSERVAçãO] Se você estiver usando o Office 365 operado pela 21Vianet na China, [contate a equipe de suporte da 21Vianet](/microsoft-365/Admin/contact-support-for-business-products).
 
 ## <a name="related-topics"></a>Tópicos relacionados
 [Instalar o Skype for Business Online](set-up-skype-for-business-online.md)

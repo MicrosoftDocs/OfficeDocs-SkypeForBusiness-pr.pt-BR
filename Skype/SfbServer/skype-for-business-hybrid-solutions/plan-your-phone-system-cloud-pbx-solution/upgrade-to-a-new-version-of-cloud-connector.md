@@ -16,27 +16,27 @@ ms.collection:
 ms.custom: ''
 ms.assetid: efbe25f2-faf5-41c7-8c95-dbc4a835a4a8
 description: Saiba como atualizar sua implantação do Cloud Connector Edition.
-ms.openlocfilehash: dc9473dbf605f00df76daa1a88a29c7d5ed65fd8
-ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
+ms.openlocfilehash: fea78c6b1b6ba3b2e644fef71d78b94aa3a244b7
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "47359287"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51109127"
 ---
 # <a name="upgrade-to-a-new-version-of-cloud-connector"></a>Atualizar para uma nova versão do Cloud Connector
 
 > [!Important]
-> O Cloud Connector Edition será destivado em 31 de julho de 2021 junto com o Skype for Business Online. Depois que sua organização atualizou para o Teams, saiba como conectar sua rede de telefonia local ao Teams usando o [Roteamento Direto.](https://docs.microsoft.com/MicrosoftTeams/direct-routing-landing-page)
+> O Cloud Connector Edition se aposentará em 31 de julho de 2021 junto com o Skype for Business Online. Depois que sua organização tiver atualizado para o Teams, saiba como conectar sua rede de telefonia local ao Teams usando [Roteamento Direto.](/MicrosoftTeams/direct-routing-landing-page)
  
 Saiba como atualizar sua implantação do Cloud Connector Edition.
   
-Se você tiver definido uma conta de locatário de gerenciamento online e habilitado as atualizações automáticas, sua implantação existente do Skype for Business Cloud Connector Edition será atualizada para a versão mais recente automaticamente, de acordo com a configuração da janela de tempo de atualização automática. Você também pode executar uma atualização manual. 
+Se você tiver criado uma conta de locatário de gerenciamento online e habilitado atualizações automáticas, a implantação existente do Skype for Business Cloud Connector Edition será atualizada automaticamente para a versão mais recente, de acordo com a configuração da janela de tempo de atualização automática. Você também pode executar uma atualização manual. 
   
-As versões 1.4.1 e posteriores do Cloud Connector Edition executam atualizações automáticas por padrão. Se você quiser atualizar para a versão mais recente (2.1) manualmente, consulte Atualizar um único [site](upgrade-to-a-new-version-of-cloud-connector.md#BKMK_Upgrade) para uma nova versão posteriormente neste tópico.
+As versões 1.4.1 e posteriores do Cloud Connector Edition executam atualizações automáticas por padrão. Se você deseja atualizar para a versão mais recente (2.1) manualmente, consulte [Upgrade a single site to a new version](upgrade-to-a-new-version-of-cloud-connector.md#BKMK_Upgrade) later in this topic.
   
-A atualização automática requer que o serviço do Cloud Connector seja executado. As etapas a seguir descrevem o processo de atualizações automáticas:
+A atualização automática exige que o serviço do Cloud Connector está em execução. As etapas a seguir descrevem o processo de atualizações automáticas:
   
-- O processo de atualização automática será executado de acordo com o agendamento configurado para atualizações automáticas.
+- O processo de atualização automática será executado de acordo com o cronograma que você configurou para atualizações automáticas.
     
 - Tarefas de atualização do sistema operacional
     
@@ -54,9 +54,9 @@ A atualização automática requer que o serviço do Cloud Connector seja execut
     
   - Baixe e verifique o arquivo de versão do site de download.
     
-  - Baixe o arquivo .msi da nova versão. 
+  - Baixe o novo arquivo .msi versão. 
     
-  - Desinstale o arquivo msi antigo; instale o novo arquivo msi.
+  - Desinstalar o arquivo msi antigo; instale o novo arquivo msi.
     
   - Baixe a nova versão dos bits do Skype for Business.
     
@@ -64,10 +64,10 @@ A atualização automática requer que o serviço do Cloud Connector seja execut
     
   - Instale a nova versão do Cloud Connector.
     
-  - Esvazia o dispositivo antigo e alterna a conexão de rede para o novo dispositivo.
+  - Drenar o dispositivo antigo e alternar a conexão de rede para o novo dispositivo.
     
 > [!NOTE]
->  Quando o Cloud Connector é atualizado para um novo build, os cmdlets do Cloud Connector podem não ser atualizados. Isso pode acontecer, por exemplo, se uma janela do PowerShell for deixada aberta enquanto a atualização automática ocorrer. Para carregar os cmdlets atualizados, você pode executar uma das seguintes etapas: > fechar o PowerShell no dispositivo do Cloud Connector e reabrir o PowerShell.> Ou pode executar o Import-Module CloudConnector -Force.
+>  Quando o Cloud Connector é atualizado para uma nova com build, os cmdlets do Cloud Connector podem não ser atualizados. Isso pode acontecer, por exemplo, se uma janela do PowerShell for deixada aberta enquanto a atualização automática ocorrer. Para carregar os cmdlets atualizados, você pode executar uma das seguintes etapas:> Fechar o PowerShell no dispositivo do Cloud Connector e reabrir o PowerShell.> Ou, você pode executar Import-Module CloudConnector -Force.
   
 ## <a name="upgrade-a-single-site-to-a-new-version"></a>Atualizar um único site para uma nova versão
 <a name="BKMK_Upgrade"> </a>
@@ -76,9 +76,9 @@ Se houver apenas um dispositivo no site que você deseja atualizar, faça o segu
   
 1. Desinstale a versão existente do Cloud Connector em Programas e Recursos do Painel de **\> \> Controle.**
     
-2. Instale a nova versão do CloudConnector.msi a partir de [https://aka.ms/CloudConnectorInstaller](https://aka.ms/CloudConnectorInstaller) .
+2. Instale a nova versão do CloudConnector.msi de [https://aka.ms/CloudConnectorInstaller](https://aka.ms/CloudConnectorInstaller) .
     
-3. Confirme se você tem o arquivo CloudConnector.ini para a versão que está instalando e se atualizou todos os valores necessários para seu ambiente. Você não pode usar o arquivo .ini de uma versão anterior. Se você estiver atualizando o Cloud Connector, consulte o tópico Preparar seu dispositivo do [Cloud Connector](prepare-your-cloud-connector-appliance.md) e certifique-se de que SiteName e EnableReferSupport estão definidos com o valor correto no arquivo CloudConnector.ini.
+3. Confirme se você tem o arquivo CloudConnector.ini da versão que está instalando e se atualizou todos os valores necessários para seu ambiente. Não é possível usar o arquivo .ini de uma versão anterior. Se você estiver atualizando o Cloud Connector, consulte o tópico Prepare your [Cloud Connector appliance](prepare-your-cloud-connector-appliance.md) and make sure SiteName and EnableReferSupport are set to the correct value in the CloudConnector.ini file.
     
 4. Inicie um console do PowerShell como administrador e execute o seguinte cmdlet para registrar o dispositivo atual:
     
@@ -104,9 +104,9 @@ Se houver apenas um dispositivo no site que você deseja atualizar, faça o segu
    Switch-CcVersion
    ```
 
-Se houver mais de um dispositivo no site, siga as etapas anteriores para atualizar cada dispositivo um a um.
+Se houver mais de um dispositivo no site, siga as etapas anteriores para atualizar cada dispositivo um por um.
   
-Se você deseja atualizar o administrador de domínio, o administrador da máquina virtual, o administrador do Modo de Segurança e as credenciais de administrador do locatário, pode executar o cmdlet com o parâmetro  _UpdateAllCredentials_ para redefinir todas as credenciais:
+Se você quiser atualizar o administrador de domínio, administrador de máquina virtual, administrador de modo seguro e credenciais de administrador de locatários, você pode executar o cmdlet com o parâmetro  _UpdateAllCredentials_ para redefinir todas as credenciais:
   
 ```powershell
 Install-CcAppliance -UpdateAllCredentials
@@ -114,7 +114,7 @@ Install-CcAppliance -UpdateAllCredentials
 
 Em seguida, quando você começar a atualizar para uma nova versão, será promovido a inserir as novas credenciais. 
   
-Se você só quiser redefinir suas credenciais de administrador de locatários, execute o seguinte cmdlet:
+Se você deseja apenas redefinir suas credenciais de administrador de locatários, execute o seguinte cmdlet:
   
 ```powershell
 Set-CcCredential -AccountType TenantAdmin
@@ -123,6 +123,4 @@ Set-CcCredential -AccountType TenantAdmin
 ## <a name="upgrade-multiple-sites-to-a-new-version"></a>Atualizar vários sites para uma nova versão
 <a name="BKMK_Upgrade"> </a>
 
-Siga as etapas para atualizar um único site, atualizando um site por vez para cada site em sua implantação. Certifique-se de [validar a implantação do Cloud Connector](validate-your-cloud-connector-deployment.md) depois de atualizar cada site.
-  
-
+Siga as etapas para atualizar um único site, atualizando um site por vez para cada site em sua implantação. Certifique-se de [validar a implantação do Cloud Connector](validate-your-cloud-connector-deployment.md) após atualizar cada site.

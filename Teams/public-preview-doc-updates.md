@@ -18,12 +18,12 @@ description: Obtenha mais informações sobre a prévia pública no Microsoft Te
 appliesto:
 - Microsoft Teams
 localization_priority: Priority
-ms.openlocfilehash: 60ed1c821389fb56d6e6bfb4ab4a37e562be726a
-ms.sourcegitcommit: bfada4fd06c5cff12b0eefd3384bb3c10d10787f
+ms.openlocfilehash: cc3dca351924daa368658a8f0c110099768e9986
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/12/2021
-ms.locfileid: "50196215"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117699"
 ---
 # <a name="microsoft-teams-public-preview"></a>Visualização Pública do Microsoft Teams
 
@@ -32,7 +32,7 @@ ms.locfileid: "50196215"
 
 A Visualização Pública para Microsoft Teams fornece acesso antecipado a recursos não lançados no Teams. As visualizações permitem que você explore e teste os próximos recursos. Também agradecemos comentários sobre qualquer recurso em visualizações públicas. A visualização pública é habilitada por usuário da equipe, então você não precisa se preocupar em afetar toda a sua organização.
 
-Para obter uma lista do que está disponível na visualização pública do Teams, visite as [Notas de Versão do Canal Atual (Pré-visualização)](https://docs.microsoft.com/officeupdates/current-channel-preview).
+Para obter uma lista do que está disponível na visualização pública do Teams, visite as [Notas de Versão do Canal Atual (Pré-visualização)](/officeupdates/current-channel-preview).
 
 ## <a name="set-the-update-policy"></a>Definir a política de atualização
 
@@ -58,5 +58,4 @@ Para habilitar a visualização pública em uma área de trabalho ou cliente da 
 
 ## <a name="related-topics"></a>Tópicos relacionados
 
-[Pré-visualização do desenvolvedor público](https://docs.microsoft.com/microsoftteams/platform/resources/dev-preview/developer-preview-intro)
-
+[Pré-visualização do desenvolvedor público](/microsoftteams/platform/resources/dev-preview/developer-preview-intro)

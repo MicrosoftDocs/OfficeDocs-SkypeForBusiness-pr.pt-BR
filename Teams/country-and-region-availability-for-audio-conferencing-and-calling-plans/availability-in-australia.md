@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Aqui estão os serviços do Microsoft 365 e do Office 365 para Skype for Business e Microsoft Teams disponíveis para a Austrália.
-ms.openlocfilehash: 8bb5d0cffc5cef59dd6a62f81973e6e96dae9fa9
-ms.sourcegitcommit: 273f231098799975dc4cf609a68c9944b8072ce1
+ms.openlocfilehash: afe7f5cf0cdb3758f107cee2801ccf07779c747f
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "48818761"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51118420"
 ---
 # <a name="availability-in-australia"></a>Disponibilidade na Austrália
 
@@ -43,7 +43,7 @@ Aqui estão os serviços do Microsoft 365 e do Office 365 para Skype for Busines
 |**Recurso**|**Detalhes**|
 |:-----|:-----|
 |A Audioconferência está disponível para compra?  <br/> |Sim  <br/> |
-|Os números de telefone são atribuídos automaticamente para a Audioconferência?  <br/> |Não. [Entre em contato conosco.](mailto:ptnapac@microsoft.com) <br/> |
+|Os números de telefone são atribuídos automaticamente para a Audioconferência?  <br/> |Não. [Entre em contato conosco](mailto:ptnapac@microsoft.com). <br/> |
 |Funcionalidade de discagem usando o recurso Telefonar para Mim  <br/> |Disponível  <br/> |
 
 ## <a name="phone-system"></a>Sistema de Telefonia
@@ -59,14 +59,14 @@ Aqui estão os serviços do Microsoft 365 e do Office 365 para Skype for Busines
 
 |**Recurso**|**Detalhes**|
 |:-----|:-----|
-|Os Planos de Chamadas estão disponíveis para compra?  <br/> |Sim, consulte [Telstra Calling.](https://aka.ms/TelstraVoicePlan)  <br/> |
-|Minutos disponíveis para Planos de Chamadas  <br/> |Veja [a Chamada telstra.](https://aka.ms/TelstraVoicePlan) <br/> |
-|É possível fazer chamadas de saída?  <br/> |Veja [a Chamada telstra.](https://aka.ms/TelstraVoicePlan) <br/> |
+|Os Planos de Chamadas estão disponíveis para compra?  <br/> |Sim, consulte [Telstra Calling](https://aka.ms/TelstraVoicePlan).  <br/> |
+|Minutos disponíveis para Planos de Chamadas  <br/> |Consulte [Telstra Calling](https://aka.ms/TelstraVoicePlan). <br/> |
+|É possível fazer chamadas de saída?  <br/> |Consulte [Telstra Calling](https://aka.ms/TelstraVoicePlan). <br/> |
 
 > [!IMPORTANT]
-> Para excluir números de assinantes australianos (fornecidos pela Telstra), entre em contato diretamente com Telstra.
-> Para atualizar informações de endereço de emergência para números de assinantes australianos (fornecidos pela Telstra), entre em contato diretamente com Telstra.
-> Para obter mais informações, consulte [Telstra Calling.](https://aka.ms/TelstraVoicePlan)
+> Para excluir números de assinantes australianos (fornecidos pela Telstra), contate Telstra diretamente.
+> Para atualizar as informações de endereço de emergência para números de assinantes australianos (fornecidos pela Telstra), contate Telstra diretamente.
+> Para obter mais informações, consulte [Telstra Calling](https://aka.ms/TelstraVoicePlan).
 
 ### <a name="if-your-tenant-is-located-outside-australia"></a>Se seu locatário estiver localizado fora da Austrália
 
@@ -74,21 +74,21 @@ A partir de 1º de setembro de 2019, se o locatário estiver localizado fora da 
 
 |**Recurso**|**Detalhes**|
 |---------|---------|
-|Américas    |Ilhas Distantes dos Estados Unidos      |
-|APAC     |Bangladesh, Bengalutan, Brunei, Camboja, Hong Kong, Indonésia, Laos, Macau, Malásia, Maldivas, Myanmar, Nepal, Filipinas, Cingapura, Sri Lanka, Tailândia, Timor-Leste, Vietnã|
-|EMEA    |Ilhas Aland, Andorra, Áustria, Bélgica, Ilha Bouvet, Bulgária, Croácia, Chipre, República Tcheca, Dinamarca, Estônia, Ilhas Faroé, Finlândia, França, Alemanha, Fijiltar, Grécia, Groenlândia, Guernsey, Hungria, Islândia, Irlanda, Ilha de Man, Itália, Jan Mayen, Jersey, Letônia, Liechtenstein, Lituânia, Luxemburgo, Malta, Mônaco, Países Baixos, Noruega, Polônia, Portugal, Romênia, San Marino, Eslovênia, Eslovênia, Espanha,Valbard, Suécia, Suíça, Reino Unido, Cidade do Vaticano  |
+|Américas    |Estados Unidos, Ilhas U.S. Outlying      |
+|APAC     |Bangladesh, Butão, Brunei, Camboja, Hong Kong, Indonésia, Laos, Macau, Malásia, Maldivas, Myanmar, Nepal, Filipinas, Cingapura, Sri Lanka, Tailândia, Timor-Leste, Vietnã|
+|EMEA    |Ilhas Åland, Andorra, Áustria, Bélgica, Ilha Bouvet, Bulgária, Croácia, Chipre, República Tcheca, Dinamarca, Estônia, Ilhas Faroe, Finlândia, França, Alemanha, Gibraltar, Grécia, Groenlândia, Guernsey, Hungria, Islândia, Irlanda, Ilha de Man, Itália, Jan Mayen, Jersey, Letônia, Liechtenstein, Lituânia, Luxemburgo, Luxemburgo, Mônaco, Países Baixos, Noruega, Polônia, Portugal, Romênia, San Marino, Eslováquia, Eslovênia, Espanha, Svalbard, Suécia, Suíça, Reino Unido, Cidade do Vaticano  |
 
-Observe que a Chamada Telstra será disponibilizada como um complemento somente para usuários localizados na Austrália e nos países e regiões listados acima, uma vez provisionados pela Telstra. Para usuários em outras regiões geográficas, eles continuarão a anexar Planos de Chamada da Microsoft ou Roteamento Direto, conforme aplicável. Para obter mais informações, consulte [Telstra Calling.](https://aka.ms/TelstraVoicePlan)
+Observe que a Chamada telstra será apenas um complemento para usuários localizados na Austrália e nos países e regiões listados acima, uma vez provisionados pela Telstra. Para usuários em outras regiões geográficas, eles continuarão anexando Planos de Chamadas da Microsoft ou Roteamento Direto, conforme aplicável. Para obter mais informações, consulte [Telstra Calling](https://aka.ms/TelstraVoicePlan).
 
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Números de chamadas gratuitas e tarifadas para serviços
 
 |**Recurso**|**Detalhes**|
 |:-----|:-----|
-|Para quais capitais ou cidades importantes é possível obter números de chamadas tarifadas?  <br/> | <ul><li>Adelaide <li>Brisbane <li>  Canberra <li>Darwin <li>Melbourne <li>Newcastle <li> Perth <li>Sydney <li>Wollongong  |
+|Para quais capitais ou cidades importantes é possível obter números de chamadas tarifadas?  <br/> | <ul><li>Adelaide <li>Brisbane <li>  Canberra <li>Darwin <li>Melbourne <li>New castle <li> Perth <li>Sydney <li>Wollongong  |
 |Há números de chamada tarifada disponíveis?  <br/> |Sim  <br/> |
 |Há números de chamada gratuita disponíveis?  <br/> |Sim  <br/> |
 
-Se você quiser obter números de telefone de chamada tarifada e gratuita para atender automaticamente, filas de chamadas ou números de serviço de audioconferência, [fale conosco.](mailto:ptnapac@microsoft.com)
+Se você quiser obter números de telefone gratuitos e de chamada gratuita para atendimentos automáticos, filas de chamada ou números de serviço de audioconferência, [entre em contato conosco](mailto:ptnapac@microsoft.com).
 
 ## <a name="communications-credits"></a>Créditos de Comunicação
 
@@ -100,6 +100,6 @@ Para configurá-los, consulte [Configurar Créditos de Comunicação para a sua 
   
 ## <a name="related-topics"></a>Tópicos relacionados
 
-[Obtendo números de telefone de serviço do Skype for Business e do Microsoft Teams](/microsoftteams/getting-service-phone-numbers)
+[Obtendo números de telefone de serviço do Skype for Business e do Microsoft Teams](../getting-service-phone-numbers.md)
 
 [Disponibilidade de Audioconferência e Planos de Chamadas por país e região](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)

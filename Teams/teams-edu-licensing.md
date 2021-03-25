@@ -17,24 +17,24 @@ ms.collection:
 - Teams_ITAdmin_RemoteWorkers
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b7d5ebd0552aafffe2eb2330e6945f99dd788b2f
-ms.sourcegitcommit: 86366b66b15870fe83cbb76e1ae7aa1ce9b3bfe1
+ms.openlocfilehash: 83448f32ddfc96800a14b5a599ef9cb7af52bb9b
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2020
-ms.locfileid: "42858626"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51119230"
 ---
 # <a name="assign-microsoft-teams-licenses-for-edu"></a>Atribuir licenças do Microsoft Teams para EDU
 
 O Microsoft Teams é um hub digital que reúne conversas, conteúdo e os aplicativos em um só lugar. Como ele foi criado no Office 365, as escolas se beneficiam da integração com seus aplicativos e serviços do Office conhecidos. Sua instituição pode usar o Microsoft Teams para criar salas de aula colaborativas, conectar-se a comunidades de aprendizagem profissional e comunicar-se com a equipe da escola, tudo em uma única experiência no Office 365 para educação.
 
-Para começar, os administradores de TI precisam usar o Centro de Administração do Microsoft 365 para [habilitar o Microsoft Teams para a sua escola](https://docs.microsoft.com/microsoft-365/education/intune-edu-trial/enable-microsoft-teams).
+Para começar, os administradores de TI precisam usar o Centro de Administração do Microsoft 365 para [habilitar o Microsoft Teams para a sua escola](/microsoft-365/education/intune-edu-trial/enable-microsoft-teams).
 Quando concluído, você deve atribuir licenças às contas dos usuários para que seus professores, funcionários e alunos possam acessar os serviços do Office 365, como o Microsoft Teams.
 
 Você pode atribuir licenças a contas de usuários individualmente ou automaticamente por meio da associação de grupo. Este artigo o orientará sobre como atribuir licenças do Office 365 a uma pessoa ou um pequeno conjunto de contas de usuários por meio do centro de administração do Microsoft 365. Para atribuir licenças automaticamente por meio da associação de grupo, confira um dos nossos artigos de suporte:
 
-- [Office 365 Powershell](https://docs.microsoft.com/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell)
-- [Licenciamento baseado em grupo no Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/licensing-groups-assign)
+- [Office 365 Powershell](/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell)
+- [Licenciamento baseado em grupo no Active Directory](/azure/active-directory/users-groups-roles/licensing-groups-assign)
 
 Você pode atribuir licenças a usuários na página de **Licenças** ou na página de **Usuários Ativos**. O método a ser usado dependerá de você desejar atribuir licenças de produto a usuários específicos ou atribuir licenças de usuários a produtos específicos.
 
@@ -44,7 +44,7 @@ Você pode atribuir licenças a usuários na página de **Licenças** ou na pág
 ## <a name="assign-licenses-to-users-on-the-licenses-page"></a>Atribuir licenças a usuários na página de Licenças
 
 > [!NOTE]
-> Você precisa ser um Administrador global, um Administrador de Cobrança ou um Administrador de Gerenciamento de Usuários. Saiba mais em [Sobre as funções de administrador do Office 365](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles).
+> Você precisa ser um Administrador global, um Administrador de Cobrança ou um Administrador de Gerenciamento de Usuários. Saiba mais em [Sobre as funções de administrador do Office 365](/microsoft-365/admin/add-users/about-admin-roles).
 
 Ao usar a página de **Licenças** para atribuir licenças, você atribui licenças de um produto específico para até 20 usuários. Na página de **Licenças**, há uma lista de todos os produtos para os quais você tem assinaturas, juntamente com o número total de licenças para cada produto, quantas licenças estão atribuídas e quantas estão disponíveis.
 
@@ -61,13 +61,13 @@ Ao usar a página de **Licenças** para atribuir licenças, você atribui licen�
 
    ![Captura de tela da página atribuir licenças a usuários, com um nome parcial digitado, mostrando os resultados da pesquisa para esse nome parcial.](media/EDU-Lic-Assign-Licenses-Users.png)
 5. Selecione **Ativar ou desativar os aplicativos e serviços** para atribuir ou remover o acesso a itens específicos, como o Microsoft Teams. Certifique-se de que o **Microsoft Teams** e o **Office para a Web (Educação)** estejam selecionados.
-6. Quando tiver terminado, selecione**Atribuir**, e então selecione **Fechar**.
+6. Quando tiver terminado, selecione **Atribuir**, e então selecione **Fechar**.
 
 Para alterar os aplicativos e serviços aos quais o usuário tem acesso:
 
 1. Selecione a linha que contém o usuário.
 1. No painel direito, marque ou desmarque os aplicativos e serviços aos quais você deseja conceder acesso ou remover o acesso.
-1. Quando tiver terminado, selecione**Salvar**, e então selecione **Fechar**.
+1. Quando tiver terminado, selecione **Salvar**, e então selecione **Fechar**.
 
 ## <a name="assign-licenses-to-an-individual-or-multiple-users-on-the-active-users-page"></a>Atribuir licenças a um usuário ou vários usuários na página Usuários Ativos
 

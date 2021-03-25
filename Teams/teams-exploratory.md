@@ -18,16 +18,16 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bb5e415128baae6bfc458b5d0000128010a9b5cd
-ms.sourcegitcommit: 71b9b5ec80014bd25758493bc06d633c4eac735c
+ms.openlocfilehash: 368c4dace7a7ba14cb13f3a027b9d04ee63dc17b
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/18/2021
-ms.locfileid: "50867040"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51119200"
 ---
 # <a name="manage-the-microsoft-teams-exploratory-license"></a>Gerenciar a licença do Microsoft Teams Exploratory
 
-A experiência do Microsoft Teams Exploratory permite que os usuários em sua organização que têm o Azure Active Directory (Azure AD) e não estão licenciados para o Teams iniciem uma experiência exploratória do Teams. Os administradores podem ativar ou desativar esse recurso para os usuários em sua organização. O antigo [Microsoft Commercial Cloud Trial](iw-trial-teams.md) agora foi substituído pela experiência do Teams Exploratory.
+A experiência do Microsoft Teams Exploratory permite que os usuários em sua organização que têm o Azure Active Directory (Azure AD) e não estão licenciados para o Teams iniciem uma experiência exploratória do Teams. Os administradores podem ativar ou desativar esse recurso para os usuários em sua organização. O antigo [Microsoft Commercial Cloud Trial]() agora foi substituído pela experiência do Teams Exploratory.
 
 > [!NOTE]
 > Existe um limite de 100 licenças do Microsoft Teams Exploratory por locatário.
@@ -151,7 +151,7 @@ Para atualizar os usuários da licença do Teams Exploratory (você deve ter pri
 
 3. Atribua as licenças adquiridas recentemente.
 
-Para saber mais, confira [Descrição do serviço do Microsoft Teams](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description).
+Para saber mais, confira [Descrição do serviço do Microsoft Teams](/office365/servicedescriptions/teams-service-description).
 
 > [!NOTE]
 > Se a licença Exploratória do Teams terminar e um usuário não fizer upgrade imediatamente para uma assinatura que inclua o Teams, ele terá 30 dias de período de carência e mais 30 dias após os quais os dados serão excluídos. O usuário ainda existe no Azure Active Directory. Assim que uma nova licença for atribuída ao usuário para habilitar a funcionalidade do Teams novamente, todo o conteúdo ainda existirá se o usuário for adicionado dentro do período de tempo de tolerância.
@@ -164,13 +164,13 @@ Quando os usuários se conectam no Teams Commercial Cloud Trial expirado pela pr
 
 ### <a name="remove-a-teams-exploratory-license"></a>Remover uma licença do Teams Exploratory
 
-- Se você deseja remover essa licença por meio do PowerShell, confira: [Remover licenças de contas de usuário com o Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/remove-licenses-from-user-accounts-with-office-365-powershell)
+- Se você deseja remover essa licença por meio do PowerShell, confira: [Remover licenças de contas de usuário com o Office 365 PowerShell](/office365/enterprise/powershell/remove-licenses-from-user-accounts-with-office-365-powershell)
 
-- Se você quiser remover essa licença por meio do portal de administração do, confira: [Excluir um usuário da sua organização](https://docs.microsoft.com/microsoft-365/admin/add-users/delete-a-user)
+- Se você quiser remover essa licença por meio do portal de administração do, confira: [Excluir um usuário da sua organização](/microsoft-365/admin/add-users/delete-a-user)
 
 ## <a name="what-is-the-data-retention-policy"></a>Qual é a política de retenção de dados
 
-Confira as [Informações de assinatura do Microsoft 365](https://docs.microsoft.com/microsoft-365/commerce/subscriptions/what-if-my-subscription-expires?view=o365-worldwide).
+Confira as [Informações de assinatura do Microsoft 365](/microsoft-365/commerce/subscriptions/what-if-my-subscription-expires?view=o365-worldwide).
 
 ## <a name="how-long-does-the-teams-exploratory-experience-last"></a>Quanto tempo dura a experiência do Teams Exploratory?
 
@@ -188,4 +188,3 @@ No final da assinatura de 12 meses, os administradores devem converter todos os 
 > Os clientes serão desabilitados e impedidos de iniciar uma nova licença de avaliação do Exploratory por 3 meses após a expiração de sua licença de avaliação do Exploratory anterior.
 
 Para obter mais informações, confira [Atualizar usuários da licença Teams Exploratory](#upgrade-users-from-the-teams-exploratory-license)), acima neste artigo.
-

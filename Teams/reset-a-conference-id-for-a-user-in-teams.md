@@ -1,5 +1,5 @@
 ---
-title: Redefinir o ID de conferência de um usuário no Microsoft Teams
+title: Redefinir a ID de conferência de um usuário no Microsoft Teams
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,45 +20,45 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
-description: Conheça as etapas para redefinir o ID de conferência de reunião de um usuário no Microsoft Teams e obtenha links para as ferramentas de atualização e migração da reunião.
-ms.openlocfilehash: 52b547fee5bf027bcef21914e3ba3aa79b0e4e08
-ms.sourcegitcommit: 7a9c63ee790108eaa61950ce28ae8027311039d9
+description: Saiba as etapas para redefinir a ID de conferência de reunião de um usuário no Microsoft Teams e obter links para ferramentas de atualização e migração de reuniões.
+ms.openlocfilehash: edccab5da883c1707ade75519e96615ed3524bf3
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "46662121"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117639"
 ---
-# <a name="reset-a-conference-id-for-a-user-in-microsoft-teams"></a>Redefinir o ID de conferência de um usuário no Microsoft Teams
+# <a name="reset-a-conference-id-for-a-user-in-microsoft-teams"></a>Redefinir a ID de conferência de um usuário no Microsoft Teams
 
-Esse ID de conferência dinâmico é incluído no final dos convites de reunião, juntamente com os números de telefone que podem ser discados para que os chamadores participem de uma reunião. Quando o usuário discar para o número de telefone, um atendedor automático da reunião solicitará que ele insira esse ID de conferência para que possam participar da reunião.
+Uma ID de conferência dinâmica é incluída na parte inferior dos convites de reunião, juntamente com os números de telefone discados que podem ser usados pelos chamadores para ligar para uma reunião. Quando o usuário discar o número de telefone, o atendedor automático da reunião solicitará que o chamador insira essa ID de conferência para que ele possa participar da reunião.
   
 > [!NOTE]
-> As IDs de conferência são geradas automaticamente, terão de 7 a 9 dígitos e serão definidas quando você habilitar a Audioconferência para um usuário. **Não há suporte para IDs de conferência estáticas.** 
+> As IDs de conferência são geradas automaticamente, terão entre 7 e 9 dígitos e serão definidas quando você habilitar a Audioconferência para um usuário. **Não há suporte para IDs de conferência estáticas.** 
 
-## <a name="resetting-the-conference-id-for-a-user"></a>Redefinindo a ID de conferência de um usuário
+## <a name="resetting-the-conference-id-for-a-user"></a>Redefinindo a ID da conferência para um usuário
 
-![Um ícone mostrando o logotipo do Microsoft Teams](media/teams-logo-30x30.png) **Usando o centro de administração do Microsoft Teams**
+![Um ícone que mostra o logotipo do Microsoft Teams](media/teams-logo-30x30.png) **Usando o centro de administração do Microsoft Teams**
 
-1. No painel de navegação à esquerda, clique em **Usuários** e selecione o usuário na lista de usuários disponíveis.
+1. Na navegação à esquerda, clique em **Usuários** e selecione o usuário na lista de usuários disponíveis.
 
-2. Clique **em Editar.**
+2. Clique **em Editar**.
 
-3. Em **Audioconferência** clique em **Redefinir ID de conferência**.
+3. Em **Audioconferência,** clique **em Redefinir a ID da conferência.**
 
-2. Na janela **Redefinir ID de conferência**, clique em **Redefinir**. Um ID de conferência será criado automaticamente e um e-mail será enviado ao usuário com o novo ID de conferência. Por padrão, os e-mails são enviados aos usuários, mas isso pode ser desativado.   
+2. Na janela **Redefinir a ID da** conferência, clique em **Redefinir**. A conference ID will be automatically created and an email sent to the user with the new conference ID. Por padrão, os emails são enviados aos usuários, mas isso pode ser desligado.   
 
     
 > [!NOTE]
-> Depois de redefinir o ID de conferência, um e-mail com o novo ID de conferência será enviado ao usuário. Esse email será enviado para o endereço de email principal, em muitos casos, para a caixa de correio do Microsoft 365 ou do Office 365. O e-mail contém o novo ID de conferência, o(s) número(s) de telefone de discagem padrão e instruções para atualizar as reuniões existentes. 
+> Depois de redefinir a ID da conferência, um email com a nova ID de conferência será enviado ao usuário. Esse email será enviado para o endereço de email principal, em muitos casos, sua caixa de correio do Microsoft 365 ou office 365. O email contém a nova ID de conferência, os números de telefone de discagem padrão e as instruções para atualizar reuniões existentes. 
   
 > [!Note]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
 
-## <a name="what-else-should-i-know"></a>O que mais preciso saber?
+## <a name="what-else-should-i-know"></a>O que mais devo saber?
 
-- Você pode enviar todas as informações da conferência para o usuário em um único e-mail, que inclui o ID de conferência e os números de telefone de discagem, clicando em **Enviar informações de conferência por e-mail** para o usuário na seção **Audioconferência**. O e-mail não envia o PIN.
+- Você pode enviar todas as informações de conferência para o usuário em um email que inclui a ID da conferência e números de telefone discados clicando em Enviar informações de conferência no **email** para o usuário na seção **Audioconferência.** Isso não envia o PIN.
     
-- Uma ID de conferência de 7 a 9 dígitos é criada pelo serviço do Teams. Não é possível alterar seu tamanho.
+- Uma ID de conferência de 7 a 9 dígitos é criada pelo serviço teams. Não é possível alterar seu comprimento.
     
 - Depois que for redefinido, o novo ID de conferência será listado em **ID de Conferência**.
     
@@ -66,13 +66,13 @@ Esse ID de conferência dinâmico é incluído no final dos convites de reunião
 
 ## <a name="want-to-know-more-about-windows-powershell"></a>Deseja saber mais sobre o Windows PowerShell?
 
-O Windows PowerShell gerencia os usuários e o que eles podem ou não fazer. Com o Windows PowerShell, você pode gerenciar o Microsoft 365 ou o Office 365 usando um ponto único de administração que pode simplificar seu trabalho diário quando você tiver várias tarefas a fazer. Para começar a trabalhar com o Windows PowerShell, confira estes tópicos:
+O Windows PowerShell gerencia os usuários e o que eles podem ou não fazer. Com Windows PowerShell, você pode gerenciar o Microsoft 365 ou o Office 365 usando um único ponto de administração que pode simplificar seu trabalho diário quando você tem várias tarefas a fazer. Para começar a trabalhar com o Windows PowerShell, confira estes tópicos:
     
-  - [Por que você precisa usar o PowerShell do Office 365](https://go.microsoft.com/fwlink/?LinkId=525041)
+  - [Por que você precisa usar o PowerShell do Office 365](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     
-  - [Melhores maneiras de gerenciar o Microsoft 365 ou o Office 365 com o Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
+  - [Melhores maneiras de gerenciar o Microsoft 365 ou o Office 365 com Windows PowerShell](/previous-versions//dn568025(v=technet.10))
     
-Para obter mais informações sobre o Windows PowerShell, consulte a [referência do Microsoft Teams PowerShell](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) para obter mais informações.
+Para obter mais informações sobre o Windows PowerShell, consulte a [referência do Microsoft Teams PowerShell](/powershell/module/teams/?view=teams-ps) para obter mais informações.
     
 ## <a name="related-topics"></a>Tópicos relacionados
 

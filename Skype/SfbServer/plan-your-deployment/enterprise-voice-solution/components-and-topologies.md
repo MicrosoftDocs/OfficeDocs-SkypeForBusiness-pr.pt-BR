@@ -15,19 +15,19 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 0beec6be-2431-4255-a3d2-512dd030e66a
-description: Planejamento do controle de admissão de chamada (CAC) se você tiver uma rede MPLS, um tronco SIP ou um gateway PSTN ou PBX de terceiros. Aplica-se ao Skype for Business Server Enterprise Voice.
-ms.openlocfilehash: e40525121020259a40f10d90cd79d70aaa749ac3
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Planejando o controle de admissão de chamada (CAC) se você tiver uma rede MPLS, um tronco SIP ou um gateway PSTN de terceiros ou PBX. Aplica-se ao Skype for Business Server Enterprise Voice.
+ms.openlocfilehash: 771b98e10c28248bc917bff2b8128b6258c140c5
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49825841"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51109187"
 ---
 # <a name="components-and-topologies-for-call-admission-control-in-skype-for-business"></a>Componentes e topologias para controle de admissão de chamadas no Skype for Business
 
-Planejamento do controle de admissão de chamada (CAC) se você tiver uma rede MPLS, um tronco SIP ou um gateway PSTN ou PBX de terceiros. Aplica-se ao Skype for Business Server Enterprise Voice.
+Planejando o controle de admissão de chamada (CAC) se você tiver uma rede MPLS, um tronco SIP ou um gateway PSTN de terceiros ou PBX. Aplica-se ao Skype for Business Server Enterprise Voice.
 
-Os tópicos desta seção fornecem informações sobre considerações especiais para implantar o controle de admissão de chamada (CAC) com vários tipos de topologias de rede.
+Os tópicos nesta seção fornecem informações sobre considerações especiais para implantar o CAC (controle de admissão de chamada) com vários tipos de topologias de rede.
 
 ## <a name="call-admission-control-on-an-mpls-network"></a>Controle de admissão de chamada em uma rede MPLS
 
@@ -41,7 +41,7 @@ Para implantar um controle de admissão de chamada (CAC) em uma rede MPLS, é pr
 
 **Região de rede e sites de rede para uma rede MPLS**
 
-![Controle de Admissão de Chamada (CAC) com diagrama MPLS](../../media/CAC_MPLS_2.jpg)
+![Cac (Controle de Admissão de Chamada) com diagrama MPLS](../../media/CAC_MPLS_2.jpg)
 
 ## <a name="call-admission-control-on-a-sip-trunk"></a>Controle de admissão de chamada em um tronco SIP
 
@@ -55,28 +55,28 @@ A figura a seguir mostra um exemplo de implantação do CAC em um tronco SIP.
 
 Para configurar o CAC em um tronco SIP, você terá que executar as seguintes tarefas durante a implantação do CAC:
 
-1. Crie um site de rede para representar o ITSP. Associe o site de rede a uma região de rede apropriada e aloque a largura de banda de zero para áudio e vídeo para este site de rede. Para obter detalhes, consulte [Configure Network Sites for CAC](https://technet.microsoft.com/library/afcea38f-5789-45ec-97af-c6e38364950c.aspx) na documentação de implantação.
+1. Crie um site de rede para representar o ITSP. Associe o site de rede a uma região de rede apropriada e aloque a largura de banda de zero para áudio e vídeo para este site de rede. Para obter detalhes, consulte [Configure Network Sites for CAC](/previous-versions/office/lync-server-2013/lync-server-2013-configure-network-sites-for-cac) na documentação de implantação.
 
     > [!NOTE]
     > Para o ITSP, essa configuração de site de rede não funciona. Os valores da política de largura de banda são, na verdade, aplicados na etapa 2.
 
-2. Crie um link entre sites para o tronco SIP usando os valores de parâmetro relevantes para o site criado na etapa 1. Por exemplo, use o nome do site de rede na sua empresa como o valor do parâmetro NetworkSiteID1 e o site de rede ITSP como o valor do parâmetro NetworkSiteID2. Para obter detalhes, [consulte Create network intersite policies in Skype for Business Server](../../deploy/deploy-enterprise-voice/create-network-intersite-policies.md) in the Deployment documentation, and [New-CsNetworkInterSitePolicy](https://docs.microsoft.com/powershell/module/skype/new-csnetworkintersitepolicy?view=skype-ps).
+2. Crie um link entre sites para o tronco SIP usando os valores de parâmetro relevantes para o site criado na etapa 1. Por exemplo, use o nome do site de rede na sua empresa como o valor do parâmetro NetworkSiteID1 e o site de rede ITSP como o valor do parâmetro NetworkSiteID2. Para obter detalhes, [consulte Create network intersite policies in Skype for Business Server](../../deploy/deploy-enterprise-voice/create-network-intersite-policies.md) in the Deployment documentation, and [New-CsNetworkInterSitePolicy](/powershell/module/skype/new-csnetworkintersitepolicy?view=skype-ps).
 
-3. Obter o endereço IP do Ponto de Terminação de Mídia do SCB (Controlador de Borda da Sessão) do seu ITSP. Adicione o endereço IP com uma máscara de sub-rede de 32 para o site de rede que representa o ITSP. Para obter detalhes, consulte [Associate a Subnet with a Network Site](https://technet.microsoft.com/library/aa69e3ac-542a-4ba1-9582-2e6bee29f633.aspx).
+3. Obter o endereço IP do Ponto de Terminação de Mídia do Controlador de Borda de Sessão (SCB) de seu ITSP. Adicione o endereço IP com uma máscara de sub-rede de 32 para o site de rede que representa o ITSP. Para obter detalhes, consulte [Associate a Subnet with a Network Site](/previous-versions/office/lync-server-2013/lync-server-2013-associate-a-subnet-with-a-network-site).
 
 ## <a name="call-admission-control-with-a-third-party-pstn-gateway-or-pbx"></a>Controle de admissão de chamada com um gateway PSTN de terceiros ou PBX
 
-Este tópico descreve exemplos de como o cac (controle de admissão de chamadas) pode ser implantado no link entre a interface de gateway do Servidor de Mediação e um gateway PSTN (rede telefônica pública comutado) de terceiros ou PBX (central privada de complicação).
+Este tópico descreve exemplos de como o controle de admissão de chamadas (CAC) pode ser implantado no link entre a interface de gateway do Servidor de Mediação e um gateway PSTN (rede telefônica pública comutado) de terceiros ou pbx (private branch exchange).
 
 ### <a name="case-1-cac-between-the-mediation-server-and-a-pstn-gateway"></a>Caso 1: CAC entre o Servidor de Mediação e um gateway PSTN
 
-O CAC pode ser implantado no link WAN da interface de gateway do Servidor de Mediação para um PBX de terceiros ou gateway PSTN.
+O CAC pode ser implantado no link WAN da interface de gateway do Servidor de Mediação para um PBX ou gateway PSTN de terceiros.
 
 **Caso 1: CAC entre o Servidor de Mediação e um gateway PSTN**
 
 ![Caso 1: CAC entre Gateway PSTN do Servidor de Mediação](../../media/CAC_gateways_1.jpg)
 
-Neste exemplo, o CAC é aplicado entre o Servidor de Mediação e um gateway PSTN. Se um usuário cliente do Skype for Business no Local de Rede 1 fazer uma chamada PSTN através do gateway PSTN no Local de Rede 2, a mídia fluirá pelo link WAN. Portanto, duas verificações CAC são executadas para cada sessão PSTN:
+Neste exemplo, o CAC é aplicado entre o Servidor de Mediação e um gateway PSTN. Se um usuário cliente do Skype for Business no Site da Rede 1 fazer uma chamada PSTN por meio do gateway PSTN no Site da Rede 2, a mídia flui pelo link WAN. Portanto, duas verificações CAC são executadas para cada sessão PSTN:
 
 - Entre o aplicativo cliente Skype for Business e o Servidor de Mediação
 
@@ -91,7 +91,7 @@ Isto funciona para as chamadas PSTN de entrada para um cliente no Local de Rede 
 > Certifique-se de que a sub-rede do IP à qual ambas as interfaces do Servidor de Mediação pertencem está configurada e associada ao Local de Rede 1.
 
 > [!NOTE]
-> Para obter detalhes, consulte [Associate a Subnet with a Network Site](https://technet.microsoft.com/library/aa69e3ac-542a-4ba1-9582-2e6bee29f633.aspx).
+> Para obter detalhes, consulte [Associate a Subnet with a Network Site](/previous-versions/office/lync-server-2013/lync-server-2013-associate-a-subnet-with-a-network-site).
 
 ### <a name="case-2-cac-between-the-mediation-server-and-a-third-party-pbx-with-media-termination-point"></a>Caso 2: CAC entre o Servidor de Mediação e um PBX de terceiros com Ponto de Terminação de Mídia
 
@@ -101,7 +101,7 @@ Esta configuração é similar ao Caso 1. Em ambos os casos, o Servidor de Media
 
 ![Caso 2: CAC entre o PBX do Servidor de Mediação com MTP](../../media/CAC_gateways_2.jpg)
 
-Neste exemplo, o CAC é aplicado entre o Servidor de Mediação e o PBX/MTP. Se um usuário cliente do Skype for Business no Local de Rede 1 faz uma chamada PSTN através do PBX/MTP localizado no Local de Rede 2, a mídia flui através do link WAN. Portanto, para cada sessão PSTN duas verificações CAC são executadas:
+Neste exemplo, o CAC é aplicado entre o Servidor de Mediação e o PBX/MTP. Se um usuário cliente do Skype for Business no Site da Rede 1 faz uma chamada PSTN por meio do PBX/MTP localizado no Site da Rede 2, a mídia flui através do link WAN. Portanto, para cada sessão PSTN duas verificações CAC são executadas:
 
 - Entre o aplicativo cliente Skype for Business e o Servidor de Mediação
 
@@ -116,7 +116,7 @@ Isto funciona para ambas, chamadas PSTN de entrada para um cliente no Local de R
 > Certifique-se de que a sub-rede do IP à qual ambas as interfaces do Servidor de Mediação pertencem está configurada e associada ao Local de Rede 1.
 
 > [!NOTE]
-> Para obter detalhes, consulte [Associate a Subnet with a Network Site](https://technet.microsoft.com/library/aa69e3ac-542a-4ba1-9582-2e6bee29f633.aspx).
+> Para obter detalhes, consulte [Associate a Subnet with a Network Site](/previous-versions/office/lync-server-2013/lync-server-2013-associate-a-subnet-with-a-network-site).
 
 ### <a name="case-3-cac-between-the-mediation-server-and-a-third-party-pbx-without-a-media-termination-point"></a>Caso 3: CAC entre o Servidor de Mediação e um PBX de terceiros sem um Ponto de Terminação de Mídia
 
@@ -124,9 +124,9 @@ O Caso 3 é um ligeiramente diferente dos dois primeiros. Se não houver MTP no 
 
 **Caso 3: CAC entre o Servidor de Mediação e um PBX de terceiros sem MTP**
 
-![Caso 3: CAC entre o Servidor de Mediação PBX sem MTP](../../media/CAC_gateways_3.jpg)
+![Caso 3: CAC entre o SERVIDOR de Mediação PBX sem MTP](../../media/CAC_gateways_3.jpg)
 
-Neste exemplo, se um usuário cliente do Skype for Business no Local de Rede 1 faz uma chamada para um usuário através do PBX, o Servidor de Mediação é capaz de realizar verificações cac somente no trecho de proxy (entre o aplicativo cliente Skype for Business e o Servidor de Mediação). Como o Servidor de Mediação não tem informações sobre o dispositivo de ponto de extremidade enquanto a sessão está sendo solicitada, verificações CAC não podem ser executadas no link WAN (entre o Servidor de Mediação e um ponto de extremidade de terceiros) antes do estabelecimento da chamada. Depois que a sessão é estabelecida, no entanto, o Servidor de Mediação facilita na contabilização da largura de banda usada no tronco.
+Neste exemplo, se um usuário cliente do Skype for Business no Site da Rede 1 faz uma chamada para um usuário por meio do PBX, o Servidor de Mediação poderá executar verificações de CAC somente na etapa proxy (entre o aplicativo cliente skype for Business e o Servidor de Mediação). Como o Servidor de Mediação não tem informações sobre o dispositivo de ponto de extremidade enquanto a sessão está sendo solicitada, verificações CAC não podem ser executadas no link WAN (entre o Servidor de Mediação e um ponto de extremidade de terceiros) antes do estabelecimento da chamada. Depois que a sessão é estabelecida, no entanto, o Servidor de Mediação facilita na contabilização da largura de banda usada no tronco.
 
 Para chamadas provenientes do ponto de extremidade de terceiros, a informação sobre este dispositivo está disponível no momento da solicitação da sessão e a verificação CAC pode ser executada em ambos os lados do Servidor de Mediação.
 
@@ -137,6 +137,4 @@ Para chamadas provenientes do ponto de extremidade de terceiros, a informação 
 > Certifique-se de que a sub-rede do IP à qual ambas as interfaces do Servidor de Mediação pertencem está configurada e associada ao Local de Rede 1.
 
 > [!NOTE]
-> Para obter detalhes, consulte [Associate a Subnet with a Network Site](https://technet.microsoft.com/library/aa69e3ac-542a-4ba1-9582-2e6bee29f633.aspx).
-
-
+> Para obter detalhes, consulte [Associate a Subnet with a Network Site](/previous-versions/office/lync-server-2013/lync-server-2013-associate-a-subnet-with-a-network-site).

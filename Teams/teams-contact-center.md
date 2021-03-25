@@ -13,12 +13,12 @@ f1.keywords:
 description: Uma visão geral da solução de centro de contato integrado como serviço (CCaaS) para o Microsoft Teams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 470b8cb523a688be87eaef51dbb93ea7aaa59c38
-ms.sourcegitcommit: 49674c122d69b5495afeb2833ecf498acf129746
+ms.openlocfilehash: 4fd86bd7aae0e925580067c668e0e50eb8112efb
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/02/2021
-ms.locfileid: "50402857"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51119220"
 ---
 # <a name="contact-center-integrations-for-microsoft-teams"></a>Integrações do Contact Center para o Microsoft Teams
 
@@ -32,7 +32,7 @@ Os centros de contato de hoje oferecem muito mais do que suporte – eles atuam 
 
 2. Esse escopo expandido de interações do cliente requer ferramentas que podem ajudar a aumentar a consistência, a melhoria constante e a escala.
 
-O Microsoft Teams dá suporte a fluxos de trabalho de interação do cliente atuando como o hub para conexão do cliente interno e externo em seus modos de comunicação, incluindo chat, reuniões de vídeo e chamada. Para algumas empresas, os recursos de [](https://docs.microsoft.com/microsoftteams/what-are-phone-system-auto-attendants) [voz](https://docs.microsoft.com/microsoftteams/cloud-voice-landing-page)na nuvem do Microsoft Teams, incluindo [filas](https://docs.microsoft.com/microsoftteams/create-a-phone-system-call-queue)de atendimento automático e chamadas, fornecem os recursos e a configuração para atender às suas necessidades.
+O Microsoft Teams dá suporte a fluxos de trabalho de interação do cliente atuando como o hub para conexão do cliente interno e externo em seus modos de comunicação, incluindo chat, reuniões de vídeo e chamada. Para algumas empresas, os recursos de [](./what-are-phone-system-auto-attendants.md) [voz](./cloud-voice-landing-page.md)na nuvem do Microsoft Teams, incluindo [filas](./create-a-phone-system-call-queue.md)de atendimento automático e chamadas, fornecem os recursos e a configuração para atender às suas necessidades.
 
 Para outras pessoas que desejam soluções integradas com ferramentas de negócios e fluxos de trabalho para impulsionar a jornada do cliente, o Microsoft Teams também se integra com alguns dos principais provedores de soluções do Contact Center as a Service (CCaaS) do setor.
 
@@ -90,11 +90,11 @@ Embora o seguinte não seja uma lista abrangente de recursos para esse modelo de
 
   - Capaz de dar suporte ao tronco SIP de vários locatários para dar suporte a vários clientes no SBC do provedor de soluções.  
 
-  - Provedores de soluções para usar o [ <span class="underline">controlador de borda de sessão certificado pela Microsoft (SBC)</span>](https://docs.microsoft.com/MicrosoftTeams/direct-routing-border-controllers) 
+  - Provedores de soluções para usar o [ <span class="underline">controlador de borda de sessão certificado pela Microsoft (SBC)</span>](./direct-routing-border-controllers.md) 
 
 ### <a name="connect-and-extend"></a>Conectar e estender
 
-Este modelo amplia as experiências de funcionários e agentes da central de contatos integrando-se com o cliente do [Teams](https://docs.microsoft.com/microsoftteams/platform/overview)usando a plataforma cliente do [Teams, APIs do Teams Graph](https://docs.microsoft.com/graph/api/resources/teams-api-overview?view=graph-rest-1.0) e API de [Comunicações](https://docs.microsoft.com/graph/api/resources/communications-api-overview?view=graph-rest-1.0) na Nuvem no Microsoft Graph e usa o sistema de telefonia do Teams para todas as experiências de call center e controle de chamadas. Nesse modelo, o provedor de soluções do contact center atua como uma operadora de telefonia juntamente com o Microsoft 365.
+Este modelo amplia as experiências de funcionários e agentes da central de contatos integrando-se com o cliente do [Teams](/microsoftteams/platform/overview)usando a plataforma cliente do [Teams, APIs do Teams Graph](/graph/api/resources/teams-api-overview?view=graph-rest-1.0) e API de [Comunicações](/graph/api/resources/communications-api-overview?view=graph-rest-1.0) na Nuvem no Microsoft Graph e usa o sistema de telefonia do Teams para todas as experiências de call center e controle de chamadas. Nesse modelo, o provedor de soluções do contact center atua como uma operadora de telefonia juntamente com o Microsoft 365.
 
 Ao usar soluções baseadas em Connect e Extend, os agentes podem se beneficiar de notas dinâmicas e contextuais correlacionando dados de vários sistemas antes de iniciar um envolvimento e evitar a alternência de contexto custosa trabalhando de forma nativa no Teams para colaboração interna e comunicações externas.
 
@@ -126,7 +126,7 @@ Esse modelo permite que os provedores de soluções criem aplicativos de voz nat
 
 Ao criar diretamente no Azure, os provedores de soluções podem implantar e provisionar rapidamente sua solução em todas as regiões e regiões do Teams, beneficiando-se de nossa rede de comunicações global compartilhada enquanto aproveitam o armazenamento, a computação e a análise & serviços cognitivos do Azure.
 
-Com o modelo de integração Extend e Power, os provedores de soluções podem fornecer aos agentes do centro de contato experiências de comunicação omnicanal ao incorporar inteligência artificial para personalizar como e quando os participantes - ou outros serviços - estão envolvidos em uma chamada aplicando a API de [Comunicações](https://docs.microsoft.com/graph/api/resources/communications-api-overview?view=graph-rest-1.0)na Nuvem no Microsoft Graph .
+Com o modelo de integração Extend e Power, os provedores de soluções podem fornecer aos agentes do centro de contato experiências de comunicação omnicanal ao incorporar inteligência artificial para personalizar como e quando os participantes - ou outros serviços - estão envolvidos em uma chamada aplicando a API de [Comunicações](/graph/api/resources/communications-api-overview?view=graph-rest-1.0)na Nuvem no Microsoft Graph .
 
 **Destaques do recurso:**
 

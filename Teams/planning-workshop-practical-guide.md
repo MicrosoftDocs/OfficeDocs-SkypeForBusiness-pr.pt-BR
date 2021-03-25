@@ -15,12 +15,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 23a9c1de6bf14bc8575201e746fc01437f6618cb
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: 02afbcc062501a14f0d5d9f3ed905b88b4060992
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46580962"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51108247"
 ---
 # <a name="tools-and-workshops-plan-deliver-and-adopt-microsoft-teams"></a>Ferramentas e workshops: Planejamento, implantação e adoção do Microsoft Teams
 
@@ -29,23 +29,24 @@ Baixe estas ferramentas para usar durante o planejamento, implantação e adoç�
 
 - [Kit de sucesso do cliente Microsoft Teams](https://aka.ms/TeamsCustomerSuccess)
 
-    Este kit contém uma ampla variedade de apresentações, modelos de email, dicas & truques e cartazes que você pode usar para lançar e impulsionar a adoção do Teams em sua organização. Ele inclui dois guias de início rápido para administradores e líderes de equipe e exemplos de caso de uso para cada departamento. Use esses recursos para aproveitar ao máximo o Teams para várias funções em sua organização, incluindo Marketing, Vendas, Finanças, Recursos Humanos, IT, Engenharia e Gerenciamento de Projetos.
+    Esse kit contém uma ampla variedade de apresentações, modelos de email, dicas & truques e cartazes que você pode usar para lançar e impulsionar a adoção do Teams em sua organização. Ele inclui dois guias de início rápido para administradores e líderes de equipe e usa exemplos de caso para cada departamento. Use esses recursos para aproveitar ao máximo o Teams para várias funções em sua organização, incluindo Marketing, Vendas, Finanças, Recursos Humanos, IT, Engenharia e Gerenciamento de Projetos.
 
-- [Como implantar o Teams](How-to-roll-out-teams.md)
+- [Como implantar o Teams](./deploy-overview.md)
 
     Siga nosso caminho recomendado para a implantação do Teams.
 
-- [Obter treinamento técnico do Teams](https://aka.ms/TeamsAcademy)
+
+- [Obter treinamento técnico do Teams](itadmin-readiness.md)
 
     Use esses recursos de treinamento técnico para se instruir, ensinar outras pessoas ou executar workshops.
 
 - [Clientes governamentais do Office 365](plan-for-government-gcc.md)
 
-   Sua jornada para o Teams é muito parecido com a experiência de nossos clientes corporativos. À medida que o Teams se torna geralmente disponível para seus locatários, recomendamos que você comece com o nosso artigo de implantações [do Microsoft 365 Government - GCC](plan-for-government-gcc.md) e o guia de início rápido para [administradores.](https://download.microsoft.com/download/F/3/9/F39B4F10-5720-4516-87E1-91E5A5678EFB/MicrosoftTeams-AdminQuickStart-EnableTeams.docx) Nossa [visão geral de segurança e](security-compliance-overview.md) conformidade ajudará você a se sentir seguro sobre o Teams em seu ambiente.
+   Sua jornada para o Teams é muito parecido com a experiência de nossos clientes corporativos. À medida que o Teams se torna geralmente disponível para seus locatários, recomendamos que você comece com nosso artigo [Plan for Microsoft 365 Government - GCC deployments](plan-for-government-gcc.md) article and [Admin quick start guide](https://download.microsoft.com/download/F/3/9/F39B4F10-5720-4516-87E1-91E5A5678EFB/MicrosoftTeams-AdminQuickStart-EnableTeams.docx). Nossa [visão geral de segurança e conformidade](security-compliance-overview.md) ajudará você a ter confiança sobre o Teams em seu ambiente.
 
-- [Teams for Education - Início rápido para administradores](https://docs.microsoft.com/MicrosoftTeams/teams-quick-start-edu)
+- [Teams for Education - Início rápido para administradores](./teams-quick-start-edu.yml)
 
-    Use este tutorial para passar por uma adoção do Teams para sua organização educacional.
+    Use este tutorial para passar por uma rollout do Teams para sua organização educacional.
 
 ### <a name="see-also"></a>Confira também
 
@@ -55,10 +56,8 @@ Baixe estas ferramentas para usar durante o planejamento, implantação e adoç�
 
 [Ferramentas para adoção](adopt-tools-and-downloads.md)
 
-[Workshop de Planejamento de Atualização do Skype for Business para Teams](https://www.microsoft.com/microsoft-365/partners/intelligentcommunications/skype-for-business-teams)
+[Workshop de Planejamento de Atualização do Skype for Business para Equipes](https://www.microsoft.com/microsoft-365/partners/intelligentcommunications/skype-for-business-teams)
 
-[Migrar usuários de um ambiente local para o Teams](https://docs.microsoft.com/skypeforbusiness/hybrid/move-users-from-on-premises-to-teams)
+[Migrar usuários de um ambiente local para o Teams](/skypeforbusiness/hybrid/move-users-from-on-premises-to-teams)
 
 [Gerenciar as configurações do Teams da sua organização](enable-features-office-365.md)
-
-

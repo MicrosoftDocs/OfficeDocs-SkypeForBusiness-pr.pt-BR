@@ -19,12 +19,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 9422fd2b47ac3d460ee10e8933c45964d78282c1
-ms.sourcegitcommit: d62e6cefceebe481eb207c59872f1aa67f0fc528
+ms.openlocfilehash: d7d998afb47480fa59ce936a93e20af9ac4b2a12
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "50460651"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117599"
 ---
 # <a name="manage-retention-policies-for-microsoft-teams"></a>Gerenciar políticas de retenção para o Microsoft Teams
 
@@ -37,9 +37,9 @@ As políticas de retenção e os rótulos de retenção do Microsoft 365 ajudam 
 
 O Teams dá suporte a políticas de retenção para mensagens de chat e canal para que, como administrador, você possa decidir proativamente se deve reter esses dados, excluí-los ou retê-los por um período específico de tempo e excluí-los. Você pode aplicar uma política de retenção do Teams para toda a organização ou para usuários e equipes específicas. Não há suporte para rótulos de retenção para o Teams.
 
-Para saber mais sobre retenção e como você pode aplicar configurações de retenção usando políticas de retenção ou rótulos de retenção para outras cargas de trabalho no Microsoft 365, consulte [Learn about retention policies and retention labels](https://docs.microsoft.com/microsoft-365/compliance/retention).
+Para saber mais sobre retenção e como você pode aplicar configurações de retenção usando políticas de retenção ou rótulos de retenção para outras cargas de trabalho no Microsoft 365, consulte [Learn about retention policies and retention labels](/microsoft-365/compliance/retention).
 
-O requisito mínimo de licenciamento para políticas de retenção para o Teams é o Microsoft 365 E3. Para saber mais sobre licenciamento, consulte a descrição [do serviço do Microsoft Teams.](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)
+O requisito mínimo de licenciamento para políticas de retenção para o Teams é o Microsoft 365 E3. Para saber mais sobre licenciamento, consulte a descrição [do serviço do Microsoft Teams.](/office365/servicedescriptions/teams-service-description)
 
 ## <a name="how-teams-retentiondeletion-policies-work"></a>Como funcionam as políticas de retenção/exclusão do Teams
 
@@ -47,7 +47,7 @@ As mensagens de chat do Teams são armazenadas em dois locais. A cópia primári
 
 Quando uma poilcy de retenção de mensagem de chat é aplicada a um usuário ou Equipe e se as mensagens são excluídas (devido a outra política de exclusão ou pelo próprio usuário), a cópia primária é excluída, portanto, o cliente do Teams verá a mensagem desaparecer, mas a cópia secundária é movida automaticamente para uma pasta oculta chamada **SubstrateHolds** , que é como uma subpasta na pasta Itens **Recuperáveis** do Exchange. Até que essas mensagens sejam excluídas permanentemente da pasta SubstrateHolds, elas permanecerão pesquisáveis por ferramentas de Descoberta e.
 
-Para obter informações detalhadas sobre o que está incluído e excluído para políticas de retenção do Teams e como essas políticas funcionam dependendo da configuração da política, consulte Saiba mais sobre retenção [para o Microsoft Teams](https://docs.microsoft.com/microsoft-365/compliance/retention-policies-teams).
+Para obter informações detalhadas sobre o que está incluído e excluído para políticas de retenção do Teams e como essas políticas funcionam dependendo da configuração da política, consulte Saiba mais sobre retenção [para o Microsoft Teams](/microsoft-365/compliance/retention-policies-teams).
 
 > [!NOTE]
 > Essa página explica por que às vezes você pode ver atrasos quando as políticas de retenção excluem mensagens. Por exemplo, as mensagens podem ficar visíveis até 7 dias após o período de expiração que você configurou na política de retenção.
@@ -56,7 +56,7 @@ Se você configurar várias políticas de retenção do Teams com configuraçõe
 - Se houver um conflito entre reter ou excluir o mesmo conteúdo, o conteúdo sempre será mantido.
 - Se houver um conflito em quanto tempo manter o mesmo conteúdo, ele será mantido pelo período de retenção mais longo.
 
-Esses dois princípios de retenção abordam a maioria dos conflitos que podem surgir quando você tem várias políticas de retenção para o Teams, mas para obter mais informações, consulte Os princípios de retenção ou o que tem [precedência?](https://docs.microsoft.com/microsoft-365/compliance/retention#the-principles-of-retention-or-what-takes-precedence)
+Esses dois princípios de retenção abordam a maioria dos conflitos que podem surgir quando você tem várias políticas de retenção para o Teams, mas para obter mais informações, consulte Os princípios de retenção ou o que tem [precedência?](/microsoft-365/compliance/retention#the-principles-of-retention-or-what-takes-precedence)
 
 ## <a name="when-to-use-retention-policies-for-teams"></a>Quando usar as políticas de retenção para o Teams.
 
@@ -68,7 +68,7 @@ Por exemplo, para mensagens de canal, você pode aplicar uma política de exclus
 
 ## <a name="create-and-manage-retention-policies-for-teams"></a>Criar e gerenciar políticas de retenção para o Teams
 
-Para criar uma política de retenção para chats e mensagens de canal do Teams, use as instruções da [política de retenção para locais do Teams.](https://docs.microsoft.com/microsoft-365/compliance/create-retention-policies#retention-policy-for-teams-locations)
+Para criar uma política de retenção para chats e mensagens de canal do Teams, use as instruções da [política de retenção para locais do Teams.](/microsoft-365/compliance/create-retention-policies#retention-policy-for-teams-locations)
 
 Essa página tem informações adicionais sobre como criar e gerenciar políticas de retenção para outras cargas de trabalho no Microsoft 365. Por exemplo, talvez você também queira criar uma política de retenção para grupos do Microsoft 365 para reter e excluir arquivos acessados no Teams e armazenados no OneDrive ou no SharePoint.  
 
@@ -94,6 +94,6 @@ Os links nessas mensagens exibidas vão para mensagens [do Teams sobre política
 
 ## <a name="related-topics"></a>Tópicos relacionados
 
-- [Começar com políticas de retenção e rótulos de retenção](https://docs.microsoft.com/microsoft-365/compliance/get-started-with-retention)
-- [Saiba mais sobre retenção para o Microsoft Teams](https://docs.microsoft.com/microsoft-365/compliance/retention-policies-teams)
-- [Criar e configurar políticas de retenção](https://docs.microsoft.com/microsoft-365/compliance/create-retention-policies)
+- [Começar com políticas de retenção e rótulos de retenção](/microsoft-365/compliance/get-started-with-retention)
+- [Saiba mais sobre retenção para o Microsoft Teams](/microsoft-365/compliance/retention-policies-teams)
+- [Criar e configurar políticas de retenção](/microsoft-365/compliance/create-retention-policies)

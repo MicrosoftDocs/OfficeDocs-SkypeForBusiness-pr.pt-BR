@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4b40da8fd1cc8182d0e5ad80c30f5a459f17d26f
-ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
-ms.translationtype: HT
+ms.openlocfilehash: a63602f07e0c248b4decbc733e41b16fdafc3911
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "49662636"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117609"
 ---
 # <a name="use-teams-retail-templates-in-the-admin-center"></a>Usar os modelos de varejo do Teams no centro de administração
 
@@ -34,7 +34,7 @@ Os modelos do Teams têm definições previamente criadas de estruturas de equip
 
 Neste artigo, apresentaremos cada um dos modelos do Teams e como recomendamos usá-los.
 
-Este artigo é para você se você for responsável por planejar, implantar e gerenciar várias equipes em sua organização de varejo. Presumimos que você já implantou o serviço Teams em sua organização. Se você ainda não implementou o Teams, comece lendo [Como implementar o Microsoft Teams](How-to-roll-out-teams.md).
+Este artigo é para você se você for responsável por planejar, implantar e gerenciar várias equipes em sua organização de varejo. Presumimos que você já implantou o serviço Teams em sua organização. Se você ainda não implementou o Teams, comece lendo [Como implementar o Microsoft Teams](./deploy-overview.md).
 
 Para saber mais sobre os modelos de equipe em geral, confira [Primeiros passos com os modelos do Teams](get-started-with-teams-templates-in-the-admin-console.md).
 

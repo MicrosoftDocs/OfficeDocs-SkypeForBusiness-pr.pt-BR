@@ -19,20 +19,20 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Setup
-description: 'Este resumo das configurações da organização e do usuário do Skype for Business pode ajudá-lo a saber mais sobre conectividade de mensagens públicas, convites de reunião, gravação de chamadas e reuniões e muito mais.  '
-ms.openlocfilehash: a7c627620bba6d1249dcc6ce14bbaf25796b7173
-ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
+description: 'Este resumo das configurações da organização e do usuário do Skype for Business pode ajudá-lo a saber mais sobre conectividade de IM pública, convites de reunião, gravação de chamadas e reuniões e muito mais.  '
+ms.openlocfilehash: d48da549a48cf3326cc55a44d68ca36048fae439
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/08/2020
-ms.locfileid: "44164120"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51109917"
 ---
 # <a name="skype-for-business-online-settings-summary"></a>Resumo de configurações do Skype for Business Online
 
-O **Centro de administração do Skype for Business** inclui configurações para toda a organização e para usuários individuais. 
+O **Centro de administração do Skype for Business** inclui configurações para toda a sua organização e para usuários individuais. 
   
 > [!NOTE]
->  Dependendo da sua localização, talvez você não tenha acesso a todos os recursos do Skype for Business Online. Para obter detalhes, consulte [Restrições de licença do Microsoft 365 e do Office 365.](https://go.microsoft.com/fwlink/?LinkId=529483) 
+>  [!OBSERVAçãO] Dependendo do seu local, talvez você não tenha acesso a todos os recursos do Skype for Business Online. Para obter detalhes, consulte [Restrições de licença para o Microsoft 365 e o Office 365](/microsoft-365/commerce/). 
   
 ## <a name="skype-for-business-online-organization-settings"></a>Configurações de organização do Skype for Business Online
 <a name="__top"> </a>
@@ -53,7 +53,7 @@ O **Centro de administração do Skype for Business** inclui configurações par
 |Áudio e vídeo  <br/> |Administrar conversas com áudio e vídeo no Skype for Business Online  <br/> |Habilitado  <br/> |[Administradores: Definir as configurações do Skype for Business para usuários individuais](configure-skype-for-business-settings-for-individual-users.md) <br/> |
 |Gravação  <br/> |Grava chamadas e reuniões  <br/> |Habilitado  <br/> |[Administradores: Definir as configurações do Skype for Business para usuários individuais](configure-skype-for-business-settings-for-individual-users.md) <br/> |
 |Discagem para participante anônimo  <br/> |Permitir que participantes anônimos da Reunião do Skype for Business Online se conectem sendo chamados pelo provedor de serviços de audioconferência  <br/> |Habilitado  <br/> |[Administradores: Definir as configurações do Skype for Business para usuários individuais](configure-skype-for-business-settings-for-individual-users.md) <br/> |
-|Desabilitar recursos não arquivados  <br/> | Desabilita os recursos que não são capturados quando a organização configura um Adicionar conteúdo [a](https://go.microsoft.com/fwlink/?LinkId=529482) um caso e coloca fontes em espera no Centro de Descobertas E no Centro de administração do Exchange: <br/>  Transferência de arquivos usando mensagens de chat <br/>  Páginas do OneNote compartilhadas <br/>  Anotações do PowerPoint <br/>  Selecione esta opção se você for obrigado legalmente para preservar informações armazenadas eletronicamente. <br/> |Desabilitado  <br/> |[Administradores: Definir as configurações do Skype for Business para usuários individuais](configure-skype-for-business-settings-for-individual-users.md) <br/> |
+|Desabilitar recursos não arquivados  <br/> | Desabilita os recursos que não são capturados quando a organização configura um Adicionar conteúdo a uma ocorrência e coloca fontes em espera no Centro de Descobertas E [no](/SharePoint/governance/add-content-to-a-case-and-place-sources-on-hold-in-the-ediscovery-center) Centro de administração do Exchange: <br/>  Transferência de arquivos usando mensagens de chat <br/>  Páginas do OneNote compartilhadas <br/>  Anotações do PowerPoint <br/>  Selecione esta opção se você for obrigado legalmente para preservar informações armazenadas eletronicamente. <br/> |Desabilitado  <br/> |[Administradores: Definir as configurações do Skype for Business para usuários individuais](configure-skype-for-business-settings-for-individual-users.md) <br/> |
    
 ## <a name="related-topics"></a>Tópicos relacionados
 [Instalar o Skype for Business Online](set-up-skype-for-business-online.md)
@@ -61,4 +61,3 @@ O **Centro de administração do Skype for Business** inclui configurações par
 [Permitir que os usuários do Skype for Business adicionem contatos do Skype](let-skype-for-business-users-add-skype-contacts.md)
 
   
- 

@@ -17,18 +17,18 @@ description: Saiba mais sobre políticas de gravação de eventos ao vivo.
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 9fd67ce67d31effdba0d152a3d5920bb17f23b25
-ms.sourcegitcommit: 31a585cc0fe6350efacf3a7771d1e590d5e4233c
+ms.openlocfilehash: 7a5f793230798c68f0a39e2d9a3500eab9791065
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "50615161"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51119160"
 ---
 # <a name="live-event-recording-policies-in-microsoft-teams"></a>Políticas de gravação de eventos ao vivo no Microsoft Teams
 
 Você tem várias opções para gravar um evento ao vivo do Microsoft Teams. As opções de gravação são definidas usando políticas de gravação. Este artigo descreve as várias configurações.
 
-As opções de gravação são definidas usando o comando [Set-CsTeamsMeetingBroadcastPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingbroadcastpolicy?view=skype-ps) de comando do PowerShell
+As opções de gravação são definidas usando o comando [Set-CsTeamsMeetingBroadcastPolicy](/powershell/module/skype/set-csteamsmeetingbroadcastpolicy?view=skype-ps) de comando do PowerShell
 
 ## <a name="scheduling-and-option-behaviors"></a>Agendamento e comportamentos de opção
 
@@ -70,7 +70,7 @@ Quando a política é definida como **Sempre registrar**, a página de política
 
 ### <a name="related-topics"></a>Tópicos relacionados
 
-- [O que são eventos ao vivo do Teams?](what-are-teams-live-events.md)
+- [O que são eventos ao vivo de Teams?](what-are-teams-live-events.md)
 - [Planejar eventos ao vivo do Teams](plan-for-teams-live-events.md)
 - [Definir configurações de eventos ao vivo do Teams](configure-teams-live-events.md)
 - [Gravação de reunião de nuvens do Teams](../cloud-recording.md)

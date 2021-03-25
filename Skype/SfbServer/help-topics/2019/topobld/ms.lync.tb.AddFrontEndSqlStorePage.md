@@ -14,26 +14,24 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: dace9561-3eb4-4647-83cb-56c246919ae1
 ROBOTS: NOINDEX, NOFOLLOW
-description: Uma implantação de servidor Standard Edition instala automaticamente o software de banco de dados microsoft SQL Server Express necessário e o banco de dados do SQL Server. Portanto, todas as opções são pré-populadas e você não pode fazer alterações na configuração padrão.
-ms.openlocfilehash: d1a3fd6a27ab6229f84e8b74259be6a2da7652f0
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Uma implantação de servidor Standard Edition instala automaticamente o software de banco de dados Microsoft SQL Server express e SQL Server banco de dados. Portanto, todas as opções são pré-populadas e você não pode fazer alterações na configuração padrão.
+ms.openlocfilehash: 6861fd20c8f3e164a4d8d713dfc725bd2f949acd
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49811621"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51118670"
 ---
 # <a name="add-front-end-sql-server-store"></a>Adicionar Front-end do Repositório do SQL Server
 
-Uma implantação de servidor Standard Edition instala automaticamente o software de banco de dados microsoft SQL Server Express necessário e o banco de dados do SQL Server. Portanto, todas as opções são pré-populadas e você não pode fazer alterações na configuração padrão.
+Uma implantação de servidor Standard Edition instala automaticamente o software de banco de dados Microsoft SQL Server express e SQL Server banco de dados. Portanto, todas as opções são pré-populadas e você não pode fazer alterações na configuração padrão.
 
-O pool #A0 de uma implantação de servidor Enterprise Edition requer uma edição de 64 bits suportada do software de banco de dados do SQL Server para o banco de dados back-end. Você pode selecionar um banco de dados sql Server definido anteriormente a ser usado para o banco de dados back-end ou definir um novo banco de dados do SQL Server especificando um FQDN (nome de domínio totalmente qualificado) do servidor no qual o banco de dados do SQL Server deve residir e a instância do SQL Server que você deseja usar para o novo banco de dados do SQL Server (que pode ser a instância padrão ou uma instância nomeada especificada por você). Também é possível escolher habilitar o espelhamento no SQL Server store e especificar uma testemunha de espelhamento para failover automático.
+O pool de Front-End de uma implantação de servidor Enterprise Edition requer uma edição de 64 bits suportada do software de banco de dados SQL Server para o banco de dados back-end. Você pode selecionar um banco de dados de SQL Server definido anteriormente para ser usado para o banco de dados back-end ou definir um novo banco de dados do SQL Server especificando um FQDN (nome de domínio totalmente qualificado) do servidor no qual o banco de dados do SQL Server deve residir e a instância do SQL Server que você deseja usar para o novo banco de dados SQL Server (que pode ser a instância padrão) ou uma instância nomeada que você especificar). Também é possível escolher habilitar o espelhamento no SQL Server store e especificar uma testemunha de espelhamento para failover automático.
 
-Para obter detalhes sobre o suporte ao SQL Server, consulte [Database Software and Clustering Support](https://technet.microsoft.com/library/e05d0032-bbea-4e61-987d-d07b1c045fd5.aspx) na documentação de Suporte. Para obter detalhes sobre como configurar o SQL Server para o banco de dados back-end, consulte [Configure SQL Server](https://technet.microsoft.com/library/375e5cc4-e436-46dc-9b02-5063f35cdcc1.aspx) in the Deployment documentation.
+Para obter detalhes sobre SQL Server suporte, consulte [Database Software and Clustering Support](/previous-versions/office/lync-server-2013/lync-server-2013-database-software-support) na documentação de Suporte. Para obter detalhes sobre como configurar SQL Server para o banco de dados back-end, consulte [Configure SQL Server](/previous-versions/office/lync-server-2013/lync-server-2013-configure-sql-server-for-lync-server) na documentação de implantação.
 
 > [!NOTE]
 > Se a conta usada para publicar a topologia tiver os direitos de usuário e permissões apropriadas, será possível criar o banco de dados back-end (comunicação em tempo real (RTC)) ao publicar sua topologia. Também é possível criar o banco de dados posteriormente, incluído como parte do procedimento de instalação.
 
 > [!NOTE]
-> Para instalar e implantar os bancos de dados no servidor baseado em SQL Server para uma implantação Enterprise Edition, você deve ser membro do grupo sysadmins do SQL Server para o servidor baseado em SQL Server onde você está instalando os arquivos de banco de dados. Se você não for membro do grupo sysadmins do SQL Server, deverá solicitar que seja adicionado ao grupo até que os arquivos de banco de dados sejam implantados. Se você não puder ser membro do grupo sysadmins, forneça ao administrador do banco de dados do SQL Server o script para configurar e implantar os bancos de dados. Para obter detalhes sobre os direitos e permissões de usuário necessários para realizar os procedimentos, consulte [Deployment Permissions for SQL Server](https://technet.microsoft.com/library/56ea0c02-bcf5-4d45-aa13-570531c29074.aspx).
-
-
+> Para instalar e implantar os bancos de dados no servidor baseado em SQL Server para uma implantação do Enterprise Edition, você deve ser membro do grupo SQL Server sysadmins para o servidor baseado em SQL Server onde você está instalando os arquivos de banco de dados. Se você não for membro do grupo SQL Server sysadmins, será necessário solicitar que sejam adicionados ao grupo até que os arquivos de banco de dados sejam implantados. Se você não puder ser membro do grupo sysadmins, deverá fornecer ao administrador do banco de dados SQL Server o script para configurar e implantar os bancos de dados. Para obter detalhes sobre os direitos e permissões de usuário necessários para realizar os procedimentos, consulte [Deployment Permissions for SQL Server](/previous-versions/office/lync-server-2013/lync-server-2013-deployment-permissions-for-sql-server).

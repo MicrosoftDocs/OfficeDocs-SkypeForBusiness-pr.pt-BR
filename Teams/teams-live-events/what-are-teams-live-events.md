@@ -22,12 +22,12 @@ ms.custom:
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: 78e2fdb6b205316dfd8a715c12613be1486302f5
-ms.sourcegitcommit: 212b2985591ca1109eb3643fbb49d8b18ab07a70
+ms.openlocfilehash: b93a3b5ecbe7b9edcc54034635721ee3b6db610b
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/21/2021
-ms.locfileid: "49918987"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51119120"
 ---
 # <a name="what-are-microsoft-teams-live-events"></a>O que são os eventos ao vivo do Microsoft Teams?
 
@@ -82,8 +82,8 @@ A entrada de vídeo é a base do evento ao vivo e pode variar de uma simples web
 
 A plataforma de streaming de evento ao vivo é composta das partes a seguir:
 
-- **Serviços de Mídia do Azure**: os [Serviços de Mídia do Azure](https://docs.microsoft.com/azure/media-services/previous/) dão a você serviços de streaming de vídeo com qualidade de transmissão para alcançar grandes audiências nos dispositivos móveis mais populares da atualidade. Os Serviços de Mídia aprimoram a acessibilidade, distribuição e escalabilidade e tornam fácil e econômico transmitir conteúdo para suas audiências locais ou no mundo todo - ao mesmo tempo em que protege seu conteúdo.
-- **Rede de Distribuição de Conteúdo do Azure (CDN)**: quando sua transmissão ao vivo começar, será distribuída através da [Rede de Distribuição de Conteúdo do Azure](https://docs.microsoft.com/azure/cdn/). Os Serviços de Mídia do Azure fornecem CDN integrada para pontos de extremidade de streaming. Isso permite que as transmissões sejam vistas no mundo todo sem buffering.
+- **Serviços de Mídia do Azure**: os [Serviços de Mídia do Azure](/azure/media-services/previous/) dão a você serviços de streaming de vídeo com qualidade de transmissão para alcançar grandes audiências nos dispositivos móveis mais populares da atualidade. Os Serviços de Mídia aprimoram a acessibilidade, distribuição e escalabilidade e tornam fácil e econômico transmitir conteúdo para suas audiências locais ou no mundo todo - ao mesmo tempo em que protege seu conteúdo.
+- **Rede de Distribuição de Conteúdo do Azure (CDN)**: quando sua transmissão ao vivo começar, será distribuída através da [Rede de Distribuição de Conteúdo do Azure](/azure/cdn/). Os Serviços de Mídia do Azure fornecem CDN integrada para pontos de extremidade de streaming. Isso permite que as transmissões sejam vistas no mundo todo sem buffering.
 
 ### <a name="enterprise-content-delivery-network-ecdn"></a>Rede de Distribuição de Conteúdo Corporativo (eCDN)
 
@@ -110,7 +110,7 @@ Acesse [Planejar eventos ao vivo do Microsoft Teams](plan-for-teams-live-events.
 
 ### <a name="related-topics"></a>Tópicos relacionados
 
-- [Eventos ao vivo através do Microsoft 365 no Yammer, Microsoft Teams e Microsoft Stream](https://docs.microsoft.com/stream/live-event-m365)
+- [Eventos ao vivo através do Microsoft 365 no Yammer, Microsoft Teams e Microsoft Stream](/stream/live-event-m365)
 - [Introdução a eventos ao vivo do Microsoft Teams](https://support.office.com/article/d077fec2-a058-483e-9ab5-1494afda578a)
 - [Eventos ao vivo no Yammer](https://support.office.com/article/live-events-in-yammer-4ece0ee2-c268-4636-bf2a-16e454befe57)
-- [Eventos ao vivo no Microsoft Stream](https://docs.microsoft.com/stream/live-event-overview)
+- [Eventos ao vivo no Microsoft Stream](/stream/live-event-overview)
