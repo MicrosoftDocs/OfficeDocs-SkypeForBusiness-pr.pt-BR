@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 73aa2312b1467e2298b4ebaa14e22744a73730e3
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 98502d623edda6117b2838d2bc71197a43baf394
+ms.sourcegitcommit: 84d99b266dea2a972774d781b92eccc67d6c197a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51107297"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "51197516"
 ---
 <a name="sign-in-to-microsoft-teams"></a>Entrar no Microsoft Teams
 ==========================
@@ -64,9 +64,9 @@ Para sair do Teams, os usuários podem selecionar a imagem do perfil na parte su
 
 Os usuários em um computador Associado a um Domínio podem não conseguir entrar no Microsoft Teams com outra conta no mesmo domínio do Active Directory.
 
-## <a name="macos-users"></a>Usuários MacOS
+## <a name="macos-users"></a>Usuários do macOS
 
-No MacOS, O Teams solicitará que os usuários insiram o nome de usuário e as credenciais e poderá solicitar a autenticação multifatorial, dependendo das configurações da sua organização. Quando os usuários inserem suas credenciais, eles não precisarão fornecê-las novamente. A partir desse ponto em diante, o Teams será iniciado automaticamente sempre que estiverem trabalhando no mesmo computador.
+No macOS, o Teams solicitará que os usuários digitem seu nome de usuário e credenciais, e podem solicitar uma autenticação multifator, dependendo das configurações da sua organização. Quando os usuários inserem suas credenciais, eles não precisarão fornecê-las novamente. A partir desse ponto em diante, o Teams será iniciado automaticamente sempre que estiverem trabalhando no mesmo computador.
 
 ## <a name="teams-on-ios-and-android-users"></a>Microsoft Teams nos usuários iOS e Android
 
@@ -114,15 +114,15 @@ Para criar uma política de configuração de aplicativo para dispositivos iOS/i
 Para criar uma política de configuração de aplicativo para dispositivos Android gerenciados, confira [Adicionar políticas de configuração de aplicativo para dispositivos Android gerenciados](/mem/intune/apps/app-configuration-policies-use-android).
 
 ### <a name="how-to-restrict-sign-in-on-desktop-devices"></a>Como restringir o login em dispositivos desktop
-Os aplicativos do Microsoft Teams no Windows e MacOS estão ganhando suporte para políticas de dispositivo que restringem o login em sua organização. As políticas podem ser definidas por meio de soluções usuais de Gerenciamento de Dispositivos, como MDM (Gerenciamento de dispositivos Móveis) ou GPO (Objeto de Política de Grupo). 
+Os aplicativos do Teams no Windows e no macOS estão ganhando suporte para políticas de dispositivo que restringem o acesso à sua organização. As políticas podem ser definidas por meio de soluções usuais de Gerenciamento de Dispositivos, como MDM (Gerenciamento de dispositivos Móveis) ou GPO (Objeto de Política de Grupo). 
 
 Quando esta política é configurada em um dispositivo, os usuários só podem entrar com contas hospedadas em um locatário do Azure Active Directory incluído na “Lista de Permissões de Locatário” definida na política. A política se aplica a todos os logins, incluindo contas iniciais e adicionais. Se sua organização abrange vários locatários do Azure Active Directory, você pode incluir várias IDs de Locatário na Lista de Permissões. Os links para adicionar outra conta podem continuar visíveis no aplicativo Microsoft Teams, mas não estarão operacionais.
 
 > [!NOTE]
 >1. A política restringe apenas logins. Ela não restringe a capacidade de os usuários serem convidados como visitantes em outros locatários do Azure Active Directory ou alternação para outros locatários.
->2. A política requer o Microsoft Teams para Windows versão 1.3.00.30866 ou superior e Microsoft Teams para MacOS versão 1.3.00.30882 (lançado em meados de novembro de 2020).
+>2. A política requer o Teams para Windows versão 1.3.00.30866 ou superior e o Teams para macOS versão 1.3.00.30882 (lançado em meados de novembro de 2020).
 
-**As políticas dos arquivos de modelo administrativo do Windows** (ADMX/ADML) estão disponíveis no [Centro de download](https://www.microsoft.com/download/details.aspx?id=49030). Além disso, você pode definir manualmente as chaves no Registro do Windows:
+**Políticas para Windows** Arquivos de Modelo Administrativo (ADMX/ADML) estão disponíveis no [Centro de Download](https://www.microsoft.com/download/details.aspx?id=49030). (o nome descritivo da política no arquivo do modelo administrativo é "Restringir no Teams a entrada de contas de locatários específicos"). Além disso, você pode definir manualmente as chaves no Registro do Windows:
 
 - Nome do valor: RestrictTeamsSignInToAccountsFromTenantList
 - Tipo de Valor: Cadeia de Caracteres
@@ -133,7 +133,7 @@ Quando esta política é configurada em um dispositivo, os usuários só podem e
 
 Exemplo: SOFTWARE\Policies\Microsoft\Office\16.0\Teams\RestrictTeamsSignInToAccountsFromTenantList = ID do Locatário ou SOFTWARE\Policies\Microsoft\Office\16.0\Teams\RestrictTeamsSignInToAccountsFromTenantList = ID do Locatário 1, ID do Locatário 2, ID do Locatário 3
 
-**Políticas para MacOS** Para dispositivos gerenciados MacOS, use .plist para implantar restrições de login. O perfil de configuração é um arquivo .plist que consiste em entradas identificadas por uma chave (que denota o nome da preferência), seguida por um valor, que depende da natureza da preferência. Os valores podem ser simples (como um valor numérico) ou complexos, como uma lista aninhada de preferências.
+**Políticas para macOS** Para dispositivos gerenciados macOS, use .plist para implantar restrições de login. O perfil de configuração é um arquivo .plist que consiste em entradas identificadas por uma chave (que denota o nome da preferência), seguida por um valor, que depende da natureza da preferência. Os valores podem ser simples (como um valor numérico) ou complexos, como uma lista aninhada de preferências.
 
 - Domínio: com.microsoft.teams
 - Chave: RestrictTeamsSignInToAccountsFromTenantList
