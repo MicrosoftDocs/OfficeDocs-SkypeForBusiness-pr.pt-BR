@@ -15,18 +15,17 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a42d2185-efa5-4659-839b-5e67d80de2da
 description: O que você deseja fazer? Clique no link para a tarefa que você deseja executar.
-ms.openlocfilehash: 21bcfcf0743d39ac395dbd1a642e4350a42a6585
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 850bbd648e85f17417e6f2fb3e3106301ed79a5b
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49807341"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51122592"
 ---
-# <a name="configure-a-network-region-link"></a><span data-ttu-id="c1fa2-104">Configurar um Link de Região de Rede</span><span class="sxs-lookup"><span data-stu-id="c1fa2-104">Configure a Network Region Link</span></span>
+# <a name="configure-a-network-region-link"></a><span data-ttu-id="cc5f4-104">Configurar um Link de Região de Rede</span><span class="sxs-lookup"><span data-stu-id="cc5f4-104">Configure a Network Region Link</span></span>
 
-<span data-ttu-id="c1fa2-105">O que você deseja fazer?</span><span class="sxs-lookup"><span data-stu-id="c1fa2-105">What do you want to do?</span></span> <span data-ttu-id="c1fa2-106">Clique no link para a tarefa que você deseja executar.</span><span class="sxs-lookup"><span data-stu-id="c1fa2-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="cc5f4-105">O que você deseja fazer?</span><span class="sxs-lookup"><span data-stu-id="cc5f4-105">What do you want to do?</span></span> <span data-ttu-id="cc5f4-106">Clique no link para a tarefa que você deseja executar.</span><span class="sxs-lookup"><span data-stu-id="cc5f4-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="c1fa2-107">Configurando links da região de rede</span><span class="sxs-lookup"><span data-stu-id="c1fa2-107">Configuring Network Region Links</span></span>](https://technet.microsoft.com/library/952bc93e-e6aa-4539-85c7-2b15f14eb382.aspx)
+- [<span data-ttu-id="cc5f4-107">Configurando links da região de rede</span><span class="sxs-lookup"><span data-stu-id="cc5f4-107">Configuring Network Region Links</span></span>](/previous-versions/office/lync-server-2013/lync-server-2013-configuring-network-region-links)
 
-<span data-ttu-id="c1fa2-108">Para obter detalhes sobre os diferentes procedimentos que você pode executar usando o Painel de Controle do Skype for Business Server, consulte [Gerenciar o Skype for Business Server 2015.](../../manage/manage.md)</span><span class="sxs-lookup"><span data-stu-id="c1fa2-108">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
-
+<span data-ttu-id="cc5f4-108">Para obter detalhes sobre os diferentes procedimentos que você pode executar usando o Painel de Controle do Skype for Business Server, consulte [Manage Skype for Business Server 2015](../../manage/manage.md).</span><span class="sxs-lookup"><span data-stu-id="cc5f4-108">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
