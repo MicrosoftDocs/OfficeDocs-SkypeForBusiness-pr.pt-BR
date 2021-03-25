@@ -1,7 +1,7 @@
 ### YamlMime:Tutorial
-title: Usando o Planejador de Rede – cenário de exemplo
+title: Usando o Planejador de Rede - cenário de exemplo
 metadata:
-  title: Usando o Planejador de Rede – cenário de exemplo
+  title: Usando o Planejador de Rede - cenário de exemplo
   description: Este cenário de exemplo mostra como usar a ferramenta Planejador de Rede para criar sites e personas e executar relatórios.
   audience: IT Pro
   level: Intermediate
@@ -16,77 +16,77 @@ metadata:
   ms.collection:
   - M365-collaboration
   ms.custom: seo-marvel-apr2020
-  ms.openlocfilehash: 20ecaa02743b4de8664287d41118761e1da00b74
-  ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+  ms.openlocfilehash: 58a51e7b0bd132a1e0e65c304d0d96bdff119732
+  ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
   ms.translationtype: MT
   ms.contentlocale: pt-BR
-  ms.lasthandoff: 10/16/2020
-  ms.locfileid: "48531728"
+  ms.lasthandoff: 03/23/2021
+  ms.locfileid: "51121319"
 items:
 - durationInMinutes: 2
-  content: "A ferramenta Planejador de Rede está disponível no Centro de administração do Teams. Ele ajuda a determinar os requisitos de rede para sua organização. Este cenário de exemplo mostra como você pode usar a ferramenta para criar sites, personas e executar relatórios para uma empresa chamada Contoso. \n\n## <a name=\"before-you-begin\"></a>Antes de você começar\n\nPresumimos que você já conhece o Centro de administração do Teams e está familiarizado com o que precisa fazer para preparar sua rede para o Teams. Se este for o primeiro artigo que você vê no Planejador de Rede, recomendamos que você primeiro acesse os seguintes artigos.\n\n- [Preparo da rede da sua organização para o Teams](prepare-network.md)\n- [Usar o Planejador de Rede para o Microsoft Teams](network-planner.md) \n\n## <a name=\"overview-of-contoso-network\"></a>Visão geral da rede Contoso\n\nA Contoso tem três locais:\n\n- **Sede de Seattle:** Este é o local principal da Contoso. Ele tem 1.000 funcionários e 25 deles estão ligando apenas. O site está conectado à Internet e há uma conexão telefônica local (PSTN). A Contoso tem o Roteamento Direto definido para poder usar a conexão telefônica local com o Teams. \n- **Baldland Office:** Esta filial tem 400 funcionários e 10 estão ligando apenas. O site usa sua conexão com a sede para tráfego de internet e telefone (PSTN). Este escritório está conectado à sede de Seattle usando uma conexão WAN.\n- **Ltda. Office:** Este escritório tem 250 funcionários e 50 estão ligando apenas. O site tem sua própria conexão de Internet local, mas não tem conexão de telefone direta (PSTN).\n\nVamos começar!\n"
+  content: "A ferramenta Planejador de Rede está disponível no centro de administração do Teams. Ele ajuda você a determinar os requisitos de rede para sua organização. Este cenário de exemplo mostra como você pode usar a ferramenta para criar sites, personas e executar relatórios para uma empresa chamada Contoso. \n\n## <a name=\"before-you-begin\"></a>Antes de você começar\n\nPresumimos que você já conheça o centro de administração do Teams e você está familiarizado com o que precisa fazer para preparar sua rede para o Teams. Se este for o primeiro artigo que você viu no Planejador de Rede, recomendamos que você acesse os seguintes artigos primeiro.\n\n- [Preparo da rede da sua organização para o Teams](prepare-network.md)\n- [Usar o Planejador de Rede para o Microsoft Teams](network-planner.md) \n\n## <a name=\"overview-of-contoso-network\"></a>Visão geral da rede Contoso\n\nContoso tem três locais:\n\n- **Sede de Seattle:** Este é o local principal da Contoso. Tem 1.000 funcionários e 25 deles estão chamando apenas. O site está conectado à Internet e há uma conexão telefônica local (PSTN). A Contoso tem Roteamento Direto definido para poder usar a conexão telefônica local com o Teams. \n- **Kirkland Office:** Essa filial tem 400 funcionários e 10 estão chamando somente. O site usa sua conexão com a sede para tráfego de internet e telefone (PSTN). Esse escritório está conectado à sede de Seattle usando uma conexão WAN.\n- **Denver Office:** Esse escritório tem 250 funcionários e 50 estão chamando somente. O site tem sua própria conexão de internet local, mas não tem conexão telefônica direta (PSTN).\n\nVamos começar!\n"
 - title: Adicionar um plano de rede
   durationInMinutes: 2
-  content: "No Centro de administração do Teams, expanda **as configurações de** toda a organização e selecione **Planejador de rede.** A primeira coisa que você precisa fazer é criar um plano de rede. \n\n1. Clique **em Adicionar um plano de rede** \n2. No painel **Novo plano de** rede, adicione um nome e uma descrição para seu plano de rede. Para este exemplo, vamos usar *a Contoso1* como o nome do plano e o plano de rede *contoso* como a descrição.\n3. Clique em **Salvar**\n\n![Adicionar um novo plano de rede](media/network-planner-new-network-plan.png)\n\nDepois de salvar seu plano de rede, ele será exibido na lista de seus planos de rede. \n\n![Lista de planos de rede](media/network-planner-network-plans.png)\n"
+  content: "No centro de administração do Teams, expanda **as configurações** de toda a organização e selecione **Planejador de rede**. A primeira coisa que você precisa fazer é criar um plano de rede. \n\n1. Clique **em Adicionar um plano de rede** \n2. No painel **Novo plano de rede,** adicione um nome e uma descrição para seu plano de rede. Para este exemplo, vamos usar *Contoso1* como o nome do plano e o plano *de rede contoso* como a descrição.\n3. Clique **em Salvar**\n\n![Adicionar um novo plano de rede](media/network-planner-new-network-plan.png)\n\nDepois de salvar seu plano de rede, ele será exibido na lista de seus planos de rede. \n\n![Lista de planos de rede](media/network-planner-network-plans.png)\n"
 - title: Criar personas personalizadas
   durationInMinutes: 2
-  content: "Em seguida, você precisa criar as personas necessárias para representar seus usuários. Como cada local tem usuários especializados que só vão fazer chamadas telefônicas, você precisa criar essa persona.\n\n1. Na página Planejador de rede, clique na **guia Personas** e, em seguida, clique **em + Persona personalizada.** \n2. Adicione um nome e uma descrição para essa persona, por exemplo, vamos chamá-la apenas *de Chamada.*\n3. A ligue **o Áudio** e desligue todo o resto para que a única permissão de chamada seja a única que está ativar.\n4. Clique **em Salvar** para adicionar a persona à lista.\n\n![Adicionar uma persona no planejador de rede](media/network-planner-add-persona.png)\n"
+  content: "Em seguida, você precisa criar as personas necessárias para representar seus usuários. Como cada local tem usuários especializados que só fazem chamadas telefônicas, você precisa criar essa persona.\n\n1. Na página Planejador de rede, clique na **guia Personas** e clique **em + Persona personalizada.** \n2. Adicione um nome e uma descrição para essa persona, para este exemplo, vamos chamá-la apenas *chamando*.\n3. Ativar Áudio **e** desativar todo o resto para que a chamada seja a única permissão a ser acionado.\n4. Clique **em Salvar** para adicionar a persona à lista.\n\n![Adicionar uma persona no planejador de rede](media/network-planner-add-persona.png)\n"
 - title: Adicionar sites ao seu plano de rede
   durationInMinutes: 5
   content: >
-    Agora, você precisa adicionar os três sites ao seu plano de rede. A tabela a seguir resume as características dos locais de rede da Contoso.
+    Agora, você precisa adicionar os três sites ao seu plano de rede. A tabela abaixo resume as características dos locais de rede da Contoso.
 
 
-    |Local       |Número total de funcionários|Ligar apenas para funcionários|Conexão com a Internet       |Conexão PSTN                |
+    |Localização       |Número total de funcionários|Chamar apenas funcionários|Conexão com a Internet       |Conexão PSTN                |
 
     |---------------|-------------------------|----------------------|--------------------------|-------------------------------|
 
-    |Seattle...     |1000                     |25                    |Local Internet            |PSTN local usando Roteamento Direto|
+    |QG de Seattle     |1000                     |25                    |Local Internet            |PSTN local usando Roteamento Direto|
 
-    |James Office|400                      |10                    |Internet Remota por MEIO DO.|PSTN remoto por MEIO DESAQD         |
+    |Kirkland Office|400                      |10                    |Internet remota por meio de HQ|PSTN remoto através do HQ         |
 
-    |Denver Office  |250                      |50                    |Local Internet            |Sem conexão PSTN             |
+    |Denver Office  |250                      |50                    |Local Internet            |Nenhuma conexão PSTN             |
 
 
     1. Clique em seu plano de rede no Planejador de Rede.
 
-    2. Selecione a **guia Sites de rede** e clique em Adicionar um site de **rede.**
+    2. Selecione a **guia Sites de rede** e clique em Adicionar um site de **rede**.
 
 
-    ![Adicionando um site de rede](media/network-planner-add-network-site.png)
+    ![Adicionar um site de rede](media/network-planner-add-network-site.png)
 
 
-    3. Usando a tabela acima, preencha os detalhes do site DO Seattle.
+    3. Usando a tabela acima, preencha os detalhes do site do QG de Seattle.
 
 
     ![Novos detalhes do site](media/network-planner-add-network-site-2.png)
 
 
-    4. Como o site DOTN de Seattle tem conexões locais de Internet e PSTN, você precisa especificar corretamente essas características.
+    4. Como o site do QG de Seattle tem conexões PSTN locais e internet local, você precisa especificar corretamente essas características.
 
 
     ![Novas configurações de saída de site](media/network-planner-add-network-site-egress.png)
 
 
-    5. Clique **em Salvar** para concluir a adição do site DO Seattle.
+    5. Clique **em Salvar** para concluir a adição do site do QG de Seattle.
 
-    6. Crie o site de Ltda usando o mesmo processo.
+    6. Crie o site de Denver usando o mesmo processo.
 
-    7. Como o site de Washington aproveita a conexão com o Seattle HQ para conectividade com a Internet e PSTN, ele é considerado um site remoto. Ao criar o site Delland, você precisa especificar  que ele está conectado à WAN e selecionar Remoto para saída de **Internet** e **saída PSTN.**
+    7. Como o site de Kirkland aproveita a conexão com o QG de Seattle para conectividade com a Internet e PSTN, ele é considerado um site remoto. Ao criar o site kirkland, você precisa especificar que ele está conectado à WAN e selecione *Remote* para **saída da Internet** e saída **PSTN**.
 
 
-    ![Configurações de saída de site remotas](media/network-planner-add-remote-site-egress.png)
+    ![Configurações de saída de site remoto](media/network-planner-add-remote-site-egress.png)
 - title: Criar um relatório
   durationInMinutes: 3
-  content: "Agora que você adicionou seus sites, pode criar um relatório. Você definirá a distribuição do usuário ao criar o relatório.\n\n1. Selecione a **guia** Relatório e clique em **Iniciar um relatório.** Isso abrirá a página de distribuição do usuário. Comece adicionando um nome e uma descrição para seu relatório.\n\n![Criando um relatório de planejador de rede](media/network-planner-add-report.png)  \n\n2. Quando você inicia um relatório pela primeira vez, as contagens dos usuários de cada site são distribuídas automaticamente, por exemplo, 80% para funcionários de escritório, 20% para trabalhadores remotos. É aqui que você ajustará o número de usuários de cada persona para corresponder à sua população de usuários. Vamos supor que a Contoso tenha a mesma divisão de 80/20 entre funcionários de escritório e trabalhadores remotos para cada site. Certifique-se de tirar as pessoas de chamada apenas do número de usuários no escritório. A distribuição resultante deve se parecer com a imagem abaixo.\n\n![Distribuição do usuário entre diferentes personas para cada site](media/network-planner-persona-distribution-2.png)\n"
-- title: Analisar saída do relatório
+  content: "Agora que você adicionou seus sites, você pode criar um relatório. Você definirá a distribuição do usuário durante a criação do relatório.\n\n1. Selecione a **guia Relatório** e clique em Iniciar **um relatório.** Isso abrirá a página de distribuição do usuário. Comece adicionando um nome e uma descrição para seu relatório.\n\n![Criando um relatório do planejador de rede](media/network-planner-add-report.png)  \n\n2. Quando você iniciar um relatório pela primeira vez, o usuário conta para cada site será distribuído automaticamente, por exemplo, 80% para funcionários do office, 20% para funcionários remotos. É aqui que você ajustará o número de usuários para cada persona para corresponder à sua população de usuários. Vamos supor que a Contoso tenha a mesma divisão de 80/20 entre funcionários de escritório e funcionários remotos para cada site. Certifique-se de tirar as personas de chamada apenas do número de usuários no escritório. A distribuição resultante deve ter a aparência da imagem abaixo.\n\n![Distribuição do usuário entre diferentes personas para cada site](media/network-planner-persona-distribution-2.png)\n"
+- title: Analisar a saída do relatório
   durationInMinutes: 5
-  content: "Depois de gerar o relatório, você verá uma tela exibindo seus requisitos de largura de banda como valores gerais e específicos de modalidade. Por padrão, a largura de banda permitida é definida como 30%. Ao alterar esse valor e clicar em **Executar relatório,** você pode ver o impacto diferente na largura de banda da rede. Todas as áreas que precisam de mais largura de banda serão realçadas em vermelho.\n\n![Análise de relatório](media/network-planner-report-output.png)\n\nO planejador de rede também fornece recomendações com base no impacto projetado do Teams em sua rede. Clique no ícone de exibição de recomendações para ver as recomendações de cada site, se houver alguma. A imagem a seguir mostra um exemplo de exibição de recomendação.\n\n![Exibição de recomendações](media/network-planner-recommendation-view.png)\n\nAqui, você pode ver que atualmente a largura de banda do site Delland precisa ser aumentada para obter o melhor desempenho do Teams. \n"
+  content: "Depois de gerar o relatório, você verá uma tela exibindo seus requisitos de largura de banda como valores gerais e específicos da modalidade. Por padrão, a largura de banda permitida é definida como 30%. Ao alterar esse valor e clicar em **Executar relatório**, você pode ver o impacto diferente na largura de banda da sua rede. Todas as áreas que precisam de mais largura de banda serão realçadas em vermelho.\n\n![Análise de relatório](media/network-planner-report-output.png)\n\nO planejador de rede também fornece recomendações com base no impacto projetado do Teams em sua rede. Clique no ícone de exibição de recomendação para ver recomendações para cada site, se houver alguma. A imagem abaixo mostra um exemplo de exibição de recomendação.\n\n![Exibição de recomendação](media/network-planner-recommendation-view.png)\n\nAqui, você pode ver que atualmente a largura de banda do site kirkland precisa ser aumentada para obter o melhor desempenho do Teams. \n"
 - title: Recursos adicionais
   durationInMinutes: 1
   content: >-
-    Isso conclui o cenário de exemplo do Planejador de Rede. Você pode [voltar ao artigo do Planejador](network-planner.md)de Rede ou conferir os seguintes recursos para obter mais informações sobre como preparar sua organização para o Teams:
+    Isso conclui o cenário de exemplo para o Planejador de Rede. Você pode [voltar para o artigo do Planejador](network-planner.md)de Rede ou confira os seguintes recursos para obter mais informações sobre como preparar sua organização para o Teams:
 
      - [Preparar a rede da organização para o Microsoft Teams](prepare-network.md)
-     - [Melhorar e monitorar a qualidade da chamada para o Teams](monitor-call-quality-qos.md)
-     - [URLs e intervalos de endereços IP do Office 365](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges)
+     - [Melhorar e monitorar a qualidade das chamada para o Teams](monitor-call-quality-qos.md)
+     - [URLs e intervalos de endereços IP do Office 365](/office365/enterprise/urls-and-ip-address-ranges)

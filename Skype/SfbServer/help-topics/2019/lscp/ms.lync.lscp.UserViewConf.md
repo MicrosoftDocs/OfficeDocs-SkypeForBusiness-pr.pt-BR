@@ -1,5 +1,5 @@
 ---
-title: Exibir ou Configurar Política de Conferência de Usuários
+title: Exibir usuários ou configurar política de conferência
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,18 +15,15 @@ localization_priority: Normal
 ms.assetid: 112c77cf-3625-4a97-a1a4-be6f3234cd53
 ROBOTS: NOINDEX, NOFOLLOW
 description: O que você deseja fazer? Clique no link para a tarefa que você deseja executar.
-ms.openlocfilehash: c3a6567dd922c9b24cad2e47e9e74e859e3c9e4c
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: a69d4753cb1d92c2478042f5b7f040f09d7c7ef3
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49808141"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51122015"
 ---
-# <a name="users-view-or-configure-conferencing-policy"></a><span data-ttu-id="99c91-104">Usuários: Exibir ou Configurar Política de Conferência</span><span class="sxs-lookup"><span data-stu-id="99c91-104">Users: View or Configure Conferencing Policy</span></span>
+# <a name="users-view-or-configure-conferencing-policy"></a><span data-ttu-id="4f19e-104">Usuários: Exibir ou Configurar Política de Conferência</span><span class="sxs-lookup"><span data-stu-id="4f19e-104">Users: View or Configure Conferencing Policy</span></span>
 
-<span data-ttu-id="99c91-105">O que você deseja fazer?</span><span class="sxs-lookup"><span data-stu-id="99c91-105">What do you want to do?</span></span> <span data-ttu-id="99c91-106">Clique no link para a tarefa que você deseja executar.</span><span class="sxs-lookup"><span data-stu-id="99c91-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="4f19e-105">O que você deseja fazer?</span><span class="sxs-lookup"><span data-stu-id="4f19e-105">What do you want to do?</span></span> <span data-ttu-id="4f19e-106">Clique no link para a tarefa que você deseja executar.</span><span class="sxs-lookup"><span data-stu-id="4f19e-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="99c91-107">Atribuir uma política de conferência para modificar a experiência de reunião padrão de um usuário</span><span class="sxs-lookup"><span data-stu-id="99c91-107">Assign a Conferencing Policy to Modify a User's Default Meeting Experience</span></span>](https://technet.microsoft.com/library/72f12c72-65f7-44fe-ab81-0f57cb2f87d1.aspx)
-
-
-
+- [<span data-ttu-id="4f19e-107">Atribuir uma política de conferência para modificar a experiência de reunião padrão de um usuário</span><span class="sxs-lookup"><span data-stu-id="4f19e-107">Assign a Conferencing Policy to Modify a User's Default Meeting Experience</span></span>](/previous-versions/office/lync-server-2013/lync-server-2013-assign-a-per-user-conferencing-policy)
