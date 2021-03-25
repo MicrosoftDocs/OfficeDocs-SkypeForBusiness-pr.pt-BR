@@ -1,5 +1,5 @@
 ---
-title: Ver uma lista de usuários habilitados para Audioconferência no Skype for Business Online
+title: Consulte uma lista de usuários habilitados para Audioconferência no Skype for Business Online
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,19 +21,19 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: 'Saiba como exibir uma lista de usuários em sua organização que estão habilitados para conferência discada a partir do centro de administração do Skype for Business. '
-ms.openlocfilehash: 206bd52d1b2e0cfc1a72bb557c5d5dc4c0162534
-ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
+ms.openlocfilehash: 2cb4481f480f5be9f45064aed1fd48f9f5c28496
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/08/2020
-ms.locfileid: "44163920"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51114127"
 ---
-# <a name="see-a-list-of-users-that-are-enabled-for-audio-conferencing-in-skype-for-business-online"></a>Ver uma lista de usuários habilitados para Audioconferência no Skype for Business Online
+# <a name="see-a-list-of-users-that-are-enabled-for-audio-conferencing-in-skype-for-business-online"></a>Consulte uma lista de usuários habilitados para Audioconferência no Skype for Business Online
 
 > [!NOTE]
 > Para obter informações sobre os usuários habilitados no Microsoft Teams, confira [Ver uma lista de usuários que estão habilitados para Audioconferência no Microsoft Teams](/MicrosoftTeams/see-a-list-of-users-that-are-enabled-for-audio-conferencing-in-teams).
 
-After you have enabled Skype for Business users in your organization for Audio Conferencing, you can view the list of those users who have been enabled. When you look at the list, you will also see for each user in the list the type of audio conferencing provider that they are using, the default dial-in phone number for the user, and if you organization isn't enabled for dynamic conference IDs, the static conference IDs for audio conferencing meetings that they organize.
+Depois de habilitar usuários do Skype for Business em sua organização para Audioconferência, você poderá exibir a lista dos usuários que foram habilitados. Ao olhar para a lista, você também verá para cada usuário na lista o tipo de provedor de audioconferência que ele está usando, o número de telefone de discagem padrão para o usuário e, se a organização não estiver habilitada para IDs de conferência dinâmica, as IDs de conferência estáticas para reuniões de audioconferência que eles organizam.
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
@@ -45,11 +45,11 @@ After you have enabled Skype for Business users in your organization for Audio C
 
 ## <a name="what-else-should-i-know"></a>O que mais devo saber?
 
-- Ao exibir a lista de usuários habilitados, você pode selecionar um usuário na lista e usar o painel Ação para editar as configurações de audioconferência desse usuário.
+- Ao exibir a lista de usuários habilitados, você pode selecionar um usuário na lista e usar o painel Ação para editar as configurações de audioconferência para esse usuário.
     
-- Ao selecionar um único usuário configurado para usar a Microsoft como provedor de audioconferência, você pode exibir o número de telefone padrão e se sua organização está habilitada para IDs de conferência dinâmicas, além de redefinir a ID de conferência para reuniões que o usuário organiza.
+- Quando você seleciona um único usuário configurado para usar a Microsoft como provedor de audioconferência, você pode exibir o número de telefone padrão e se sua organização está habilitada para IDs de conferência dinâmicas e você pode redefinir a ID da conferência para reuniões que o usuário organiza.
     
-- Ao selecionar um único usuário configurado para usar um provedor de serviços de audioconferência de terceiros, você pode exibir o nome do provedor de audioconferência, o número de telefone de chamada tarifada e o número de telefone de chamada gratuita (se ele estiver configurado).
+- Quando você seleciona um único usuário configurado para usar um provedor de audioconferência de terceiros, você pode exibir o nome do provedor de audioconferência, o número de telefone de chamada telefônica e o número de telefone gratuito (se eles estão configurados).
     
 - Você pode usar as opções de filtro para exibir os usuários com:
     
@@ -67,7 +67,7 @@ After you have enabled Skype for Business users in your organization for Audio C
     
   - Selecionar um número padrão diferente para esses usuários.
     
-  - Desativar a audioconferência do usuário alterando o provedor para **Nenhum.**
+  - Desativar a audioconferência para o usuário alterando o provedor para **Nenhum**.
     
   - Alternar para a Microsoft como provedor de audioconferência se o usuário tiver sido atribuído uma licença **de Audioconferência.**
     
@@ -75,20 +75,20 @@ After you have enabled Skype for Business users in your organization for Audio C
     
 ## <a name="want-to-know-how-to-manage-with-windows-powershell"></a>Quer saber como gerenciar com o Windows PowerShell?
 
-- O Windows PowerShell gerencia os usuários e o que os usuários podem ou não fazer. Com o Windows PowerShell, você pode gerenciar o Microsoft 365 ou o Office 365 e o Skype for Business Online usando um ponto único de administração que pode simplificar seu trabalho diário quando você tiver várias tarefas a fazer. Para começar a trabalhar com o Windows PowerShell, consulte estes tópicos:
+- O Windows PowerShell gerencia os usuários e o que eles podem ou não fazer. Com Windows PowerShell, você pode gerenciar o Microsoft 365 ou o Office 365 e o Skype for Business Online usando um único ponto de administração que pode simplificar seu trabalho diário, quando você tem várias tarefas a fazer. Para começar a trabalhar com o Windows PowerShell, confira estes tópicos:
     
-  - [Uma introdução ao Windows PowerShell e ao Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525039)
+  - [Uma introdução ao Windows PowerShell e ao Skype for Business Online](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     
-  - [Por que você precisa usar o Microsoft 365 ou o PowerShell do Office 365](https://go.microsoft.com/fwlink/?LinkId=525041)
+  - [Por que você precisa usar o Microsoft 365 ou o Office 365 PowerShell](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     
-- O Windows PowerShell tem muitas vantagens em velocidade, simplicidade e produtividade em relação ao uso apenas do Centro de administração do Microsoft 365, como quando você está fazendo alterações de configuração para muitos usuários ao mesmo tempo. Saiba mais sobre essas vantagens nos seguintes tópicos:
+- Windows PowerShell tem muitas vantagens em velocidade, simplicidade e produtividade sobre apenas o uso do centro de administração do Microsoft 365, como quando você está fazendo alterações de configuração para muitos usuários ao mesmo tempo. Saiba mais sobre essas vantagens nos seguintes tópicos:
     
-  - [Melhores maneiras de gerenciar o Microsoft 365 ou o Office 365 com o Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
+  - [Melhores maneiras de gerenciar o Microsoft 365 ou o Office 365 com Windows PowerShell](/previous-versions//dn568025(v=technet.10))
     
-  - [Usar o Windows PowerShell para gerenciar o Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525453)
+  - [Usar o Windows PowerShell para gerenciar o Skype for Business Online](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     
-  - [Usando o Windows PowerShell para realizar tarefas comuns de gerenciamento do Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525038)
+  - [Usando o Windows PowerShell para realizar tarefas comuns de gerenciamento do Skype for Business Online](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     
 ## <a name="related-topics"></a>Tópicos relacionados
 
-[Experimentar ou comprar Audioconferência no Microsoft 365 ou no Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
+[Experimente ou compre Audioconferência no Microsoft 365 ou Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)

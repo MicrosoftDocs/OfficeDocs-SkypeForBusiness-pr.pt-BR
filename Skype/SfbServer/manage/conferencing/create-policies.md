@@ -11,19 +11,19 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 8c685326-8356-4075-bf95-32324b16ef81
-description: 'Resumo: saiba como criar políticas de conferência no Skype for Business Server.'
-ms.openlocfilehash: 8e707e6da1a56fa1818d436714327936369b06fe
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 'Resumo: Saiba como criar políticas de conferência no Skype for Business Server.'
+ms.openlocfilehash: 81fcaa15c7b12b499c833ac012ef6d999da683ad
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49828231"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51119520"
 ---
 # <a name="create-conferencing-policies-in-skype-for-business-server"></a>Criar políticas de conferência no Skype for Business Server
  
 **Resumo:** Saiba como criar políticas de conferência no Skype for Business Server.
   
-Você pode criar políticas de conferência usando o Painel de Controle do Skype for Business Server ou o Shell de Gerenciamento do Skype for Business Server.
+Você pode criar políticas de conferência usando o Painel de Controle do Skype for Business Server ou usando o Shell de Gerenciamento do Skype for Business Server.
   
 ## <a name="create-conferencing-policies-by-using-skype-for-business-server-control-panel"></a>Criar políticas de conferência usando o Painel de Controle do Skype for Business Server
 
@@ -31,7 +31,7 @@ Você pode criar políticas de conferência usando o Painel de Controle do Skype
     
 2. Abra o Painel de Controle do Skype for Business Server.
     
-3. Na barra de navegação esquerda, clique **em Conferência e** em Política de **Conferência.**
+3. Na barra de navegação esquerda, clique **em Conferência** e em Política **de Conferência.**
     
 4. Clique em **Nova** e execute um dos seguintes procedimentos:
     
@@ -40,13 +40,13 @@ Você pode criar políticas de conferência usando o Painel de Controle do Skype
    - Para criar uma política de nível de site, clique em **Política de site**. No campo de pesquisa **Selecione um Site**, digite todo ou parte do nome do site para o qual deseja criar uma política. Na lista de sites, clique no site que deseja e em **OK**.
     
      > [!NOTE]
-     > O nome do site se torna o nome da política de conferência; ela não pode ser alterada. 
+     > O nome do site se torna o nome da política de conferência; ele não pode ser alterado. 
   
 5. Em **Descrição**, digite uma descrição para a política.
     
 6. Sob **Política do Organizador**, em **Tamanho máximo de reuniões**, digite o número máximo de usuários que deseja permitir em uma reunião. Por padrão, o tamanho máximo de reuniões é 250.
     
-7. Para impedir que usuários convidem usuários anônimos para a reunião, desmarque a caixa de seleção **Permitir que participantes convidem usuários anônimos**. Usuários anônimos são usuários que não têm credenciais nos Serviços de Domínio Active Directory da sua organização e que, portanto, não são autenticados. Por padrão, os usuários podem convidar usuários anônimos para as reuniões.
+7. Para impedir que usuários convidem usuários anônimos para a reunião, desmarque a caixa de seleção **Permitir que participantes convidem usuários anônimos**. Os usuários anônimos são usuários que não têm credenciais nos Serviços de Domínio active Directory da sua organização e que, portanto, não são autenticados. Por padrão, os usuários podem convidar usuários anônimos para as reuniões.
     
 8. Em **Gravação**, execute um dos seguintes procedimentos:
     
@@ -70,7 +70,7 @@ Você pode criar políticas de conferência usando o Painel de Controle do Skype
     
     - Se você permitir que os usuários participem de forma discada das reuniões e deseja permitir que usuários não autenticados (anônimos) participem de uma reunião usando uma telefonia discada, marque a caixa de seleção **Permitir que participantes anônimos façam chamadas**. Com a telefonia discada, o servidor de conferência chama o usuário e o usuário atende ao telefone para participar da reunião. Por padrão, usuários anônimos não podem participar de uma reunião usando a telefonia discada.
     
-12. Se você escolher permitir o uso de vídeo em **áudio/vídeo,** verifique **Permitir vários fluxos de vídeo.**
+12. Se você optou por permitir o uso de vídeo em **Áudio/vídeo,** verifique **Permitir vários fluxos de vídeo.**
     
 13. Em **Colaboração de dados**, execute um dos seguintes procedimentos:
     
@@ -84,7 +84,7 @@ Você pode criar políticas de conferência usando o Painel de Controle do Skype
     
     - Para impedir as transferências de arquivo, desmarque a caixa de seleção **Permitir que participantes transfiram arquivos**. Por padrão, os usuários podem transferir arquivos.
     
-    - Para impedir o uso de anotações, desmarque a caixa de seleção **Habilitar anotações**. Para o uso de anotações em apresentações compartilhadas do PowerPoint, limpe as **anotações Habilitar PowerPoint.** Por padrão, as anotações são permitidas.
+    - Para impedir o uso de anotações, desmarque a caixa de seleção **Habilitar anotações**. Para o uso de anotações em apresentações compartilhadas do PowerPoint, desbaixe **as anotações habilitar** o PowerPoint . Por padrão, as anotações são permitidas.
     
     - Para impedir o uso de pools, desmarque a caixa de seleção **Habilitar pools**. Por padrão, os pools são permitidos.
     
@@ -112,7 +112,7 @@ Você pode criar políticas de conferência usando o Painel de Controle do Skype
     
 19. Para permitir a gravação ponto a ponto, marque a caixa de seleção **Habilitar a gravação ponto a ponto**. Por padrão, a gravação ponto a ponto não é permitida.
     
-20. Para permitir que os participantes participem com vários fluxos de vídeo, marque a caixa de seleção Habilitar participantes a ingressar com vários **fluxos** de vídeo. Por padrão, vários fluxos de vídeo são permitidos.
+20. Para permitir que os participantes participem de vários fluxos de vídeo, marque a caixa de seleção Habilitar participantes para ingressar com vários **fluxos de** vídeo. Por padrão, vários fluxos de vídeo são permitidos.
     
 21. Clique em **Confirmar**.
     
@@ -120,12 +120,10 @@ Você pode criar políticas de conferência usando o Painel de Controle do Skype
 
 Para criar políticas de conferência, use o cmdlet **New-CsConferencingPolicy.**
   
-O exemplo a seguir cria uma nova política de conferência com a Identidade SalesConferencingPolicy. Essa política usará todos os valores padrão para uma política de conferência, exceto um: MaxMeetingSize. Neste exemplo, o tamanho máximo de uma reunião será definido como 50, em vez do valor padrão de 250:
+O exemplo a seguir cria uma nova política de conferência com Identity SalesConferencingPolicy. Esta política usará todos os valores padrão para uma política de conferência, exceto uma: MaxMeetingSize. Neste exemplo, o tamanho máximo de uma reunião será definido como 50 em vez do valor padrão de 250:
   
 ```PowerShell
 New-CsConferencingPolicy -Identity SalesConferencingPolicy -MaxMeetingSize 50
 ```
 
-Para obter mais informações, incluindo uma descrição de sintaxe completa e uma lista de parâmetros, consulte [New-CsConferencingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csconferencingpolicy?view=skype-ps).
-  
-
+Para obter mais informações, incluindo uma descrição de sintaxe completa e uma lista de parâmetros, consulte [New-CsConferencingPolicy](/powershell/module/skype/new-csconferencingpolicy?view=skype-ps).

@@ -20,12 +20,12 @@ f1.keywords:
 localization_priority: Normal
 description: O administrador pode aprender sobre como usar a Audioconferência com Roteamento Direto em ambientes GCCH e DoD.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 84f2789c6d4f4e9c5446ad39d6f2d50d842b92a6
-ms.sourcegitcommit: 0a7c1f52484452f66f678b0feca1455bade4fcf3
+ms.openlocfilehash: ef20f340ec0c1fb225505ece273373e40d9d5c44
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/11/2021
-ms.locfileid: "50716926"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51119330"
 ---
 # <a name="audio-conferencing-with-direct-routing-for-gcc-high-and-dod"></a>Conferências de Áudio com Roteamento Direto para GCC Alto e DoD
 
@@ -111,7 +111,7 @@ Para criar um novo uso PSTN em uma sessão remota do PowerShell no Skype for Bus
   Set-CsOnlinePstnUsage -Identity Global -Usage @{Add="International"}
   ```
 
-Para obter informações adicionais, [consulte Set-CsOnlinePstnUsage](https://docs.microsoft.com/powershell/module/skype/set-csonlinepstnusage).
+Para obter informações adicionais, [consulte Set-CsOnlinePstnUsage](/powershell/module/skype/set-csonlinepstnusage).
 
 Para criar uma nova rota de voz, use o seguinte comando:
 
@@ -123,7 +123,7 @@ Ao definir uma nova rota de voz para sua organização, especifique um ou vário
 
 O padrão de número especifica quais chamadas serão roteadas pela lista especificada de gateways com base no número de telefone de destino da chamada. No exemplo acima, as chamadas para quaisquer destinos no mundo corresponderão à rota de voz. Se você quiser restringir os números de telefone que podem ser discados a partir das reuniões de usuários em sua organização, você pode alterar o padrão de número para que a rota de voz corresponder apenas aos padrões de número dos destinos permitidos. Observe que, se não houver rotas de voz que corresponderem ao padrão de número do número de telefone de destino de uma determinada chamada, a chamada não será roteada.
 
-Para obter informações adicionais, [consulte New-CsOnlineVoiceRoute](https://docs.microsoft.com/powershell/module/skype/new-csonlinevoiceroute).
+Para obter informações adicionais, [consulte New-CsOnlineVoiceRoute](/powershell/module/skype/new-csonlinevoiceroute).
 
 Para criar uma nova política de roteamento de voz, use o seguinte comando:
 
@@ -133,7 +133,7 @@ Para criar uma nova política de roteamento de voz, use o seguinte comando:
 
 Se vários usos PSTN estão sendo definidos na política de roteamento de voz, eles serão avaliados na ordem na qual são definidos. É recomendável que os usos PSTN sejam definidos na ordem do mais específico para o mais genérico em termos dos padrões de número das rotas de voz associadas aos usos PSTN. Por exemplo, se um uso PSTN foi definido para rotear chamadas para os Estados Unidos e outro uso PSTN foi definido para rotear chamadas para qualquer outro local no mundo, o uso de PSTN para chamadas para os Estados Unidos deve ser listado na política de roteamento de voz antes do uso PSTN para rotear chamadas para qualquer outro local no mundo.
 
-Para obter informações adicionais, [consulte New-CsOnlineVoiceRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csonlinevoiceroutingpolicy).
+Para obter informações adicionais, [consulte New-CsOnlineVoiceRoutingPolicy](/powershell/module/skype/new-csonlinevoiceroutingpolicy).
 
 Para atribuir a nova rota de voz à política de roteamento de voz global da sua organização, use o seguinte comando:
 
@@ -141,13 +141,13 @@ Para atribuir a nova rota de voz à política de roteamento de voz global da sua
   Grant-CsOnlineVoiceRoutingPolicy -PolicyName "InternationalVoiceRoutingPolicy" -Global
   ```
 
-Para obter informações adicionais, [consulte Grant-CsOnlineVoiceRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csonlinevoiceroutingpolicy).
+Para obter informações adicionais, [consulte Grant-CsOnlineVoiceRoutingPolicy](/powershell/module/skype/grant-csonlinevoiceroutingpolicy).
 
 Depois que a política de roteamento de voz global tiver sido definida, todas as chamadas de saída feitas a partir de reuniões organizadas pelos usuários em sua organização serão avaliadas em relação às rotas de voz associadas aos usos PSTN da política de roteamento de voz global. As chamadas de saída serão roteadas de acordo com a primeira rota de voz que corresponde ao padrão de número do número de telefone discado.
 
 ### <a name="step-5-assign-audio-conferencing-with-direct-routing-for-gcc-high-or-dod-licenses-to-your-users"></a>Etapa 5: Atribuir Audioconferência com Roteamento Direto para licenças GCC High ou DoD para seus usuários
 
-Para atribuir audioconferência com roteamento direto para licenças GCC High ou DoD ao usuário, consulte [Atribuir licenças aos usuários](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users).
+Para atribuir audioconferência com roteamento direto para licenças GCC High ou DoD ao usuário, consulte [Atribuir licenças aos usuários](/microsoft-365/admin/manage/assign-licenses-to-users).
 
 ### <a name="step-6-optional-see-a-list-of-audio-conferencing-numbers-in-teams"></a>Etapa 6: (Opcional) Consulte uma lista de números de Audioconferência no Teams
 

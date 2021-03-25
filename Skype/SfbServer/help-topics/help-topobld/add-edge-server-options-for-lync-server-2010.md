@@ -14,17 +14,17 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0b059af5-e83f-4564-90b2-d7ebb9e551c2
-description: 'Você define um novo Servidor de Borda ou pool de Borda e tem a oportunidade de definir recursos para o novo servidor ou pool. As opções possíveis são:'
-ms.openlocfilehash: b6f6e07c3555101103aeaad7f1c45f4449c25078
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 'Você define um novo pool de Borda ou Servidor de Borda e tem a oportunidade de definir recursos para o novo servidor ou pool. As opções possíveis são:'
+ms.openlocfilehash: dfc8238bbbe4899f9819118a11fc11ba47fe21f3
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49835511"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51119800"
 ---
 # <a name="add-edge-server-options-for-lync-server-2010"></a>Adicionar Opções de Servidor de Borda para o Lync Server 2010
 
-Você define um novo Servidor de Borda ou pool de Borda e tem a oportunidade de definir recursos para o novo servidor ou pool. As opções possíveis são:
+Você define um novo pool de Borda ou Servidor de Borda e tem a oportunidade de definir recursos para o novo servidor ou pool. As opções possíveis são:
 
 - **Usar um único FQDN e endereço IP**: marque a caixa de seleção para usar um único endereço IPv4 ou IPv6 (se você escolher usar IPv4 e IPv6, será necessário definir um de cada tipo de endereço IP) e nome de domínio totalmente qualificado (FQDN) para as interfaces de Borda externas.
 
@@ -33,10 +33,10 @@ Você define um novo Servidor de Borda ou pool de Borda e tem a oportunidade de 
 
 - **Habilitar federação (porta 5061)**: marque essa caixa de seleção se for federar com outras federações SIP, provedores ou ofertas hospedadas que usam o protocolo de início de sessão (SIP).
 
-- O endereço IP externo deste pool de Borda é convertido por **NAT:** marque essa caixa de seleção se você usar endereços IP privados para as interfaces externas de Borda e fornecerá um dispositivo NAT (conversão de endereço de rede) para colocar o Servidor de Borda ou pool de Borda logicamente atrás.
+- O endereço IP externo deste pool de Borda é convertido por **NAT**: marque essa caixa de seleção se você usar endereços IP privados para as interfaces externas de Borda e fornecerá um dispositivo NAT (conversão de endereço de rede) para colocar o Servidor de Borda ou pool de Borda logicamente para trás.
 
 ## <a name="see-also"></a>Confira também
 
-[Planejando o acesso de usuários externos](https://technet.microsoft.com/library/ea098933-eff5-461e-aba3-e7f128784dc2.aspx)
+[Planejando o acesso de usuários externos](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-external-user-access)
 
-[Implantação de acesso de usuários externos](https://technet.microsoft.com/library/d40c9574-c16b-4fe6-b848-21ae0b7e4f0e.aspx)
+[Implantação de acesso de usuários externos](/previous-versions/office/lync-server-2013/lync-server-2013-deploying-external-user-access)

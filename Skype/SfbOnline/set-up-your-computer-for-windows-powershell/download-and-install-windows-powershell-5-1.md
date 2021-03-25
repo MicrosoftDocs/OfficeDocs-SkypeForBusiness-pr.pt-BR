@@ -20,12 +20,12 @@ ms.custom:
 - PowerShell
 - LIL_Placement
 description: Baixar, instalar e usar o Windows PowerShell 5.1 para criar uma sessão remota do PowerShell que se conecta ao Skype for Business online.
-ms.openlocfilehash: 64d1ed1b3e3031f5186a09289ab6e1d9088840cf
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: ed719a2df084c968c622a54fe145647b2d7b7aa8
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42029092"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51120330"
 ---
 # <a name="download-and-install-windows-powershell-51"></a>Baixar e instalar o Windows PowerShell 5.1
 
@@ -94,7 +94,7 @@ Antes de instalar o Windows Management Framework 5.1:
 
 Se não tiver certeza sobre qual versão do Windows está em execução ou se o Windows 7 Service Pack 1 está instalado, clique em **Iniciar**, clique com o botão direito do mouse em **Computador** e clique em **Propriedades**. Essas informações são relatadas na caixa de diálogo Sistema.
   
-Para instalar o Windows Management Framework 5.1, conclua o procedimento em [Instalar e configurar o WMF 5.1](https://docs.microsoft.com/powershell/scripting/wmf/setup/install-configure).
+Para instalar o Windows Management Framework 5.1, conclua o procedimento em [Instalar e configurar o WMF 5.1](/powershell/scripting/wmf/setup/install-configure).
   
 Após a reinicialização do computador, verifique se é possível iniciar o Windows PowerShell e se o aplicativo pode ser executado sob credenciais administrativas. Para fazer isso:
   
@@ -148,4 +148,3 @@ Se a autenticação básica for definida como verdadeira, então você está pro
 [Configurar o computador para o Windows PowerShell](set-up-your-computer-for-windows-powershell.md) 
 
   
- 

@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 7220ec1f-38cb-4297-870e-591a832cd2f2
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Você pode editar as propriedades de uma implantação existente com as seguintes seções:'
-ms.openlocfilehash: 4eab2f0d6468e62c550476717a7af433315b0728
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 9d76646c0b0f9f8f579e8f978659191258e9f412
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49811151"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51120000"
 ---
 # <a name="deployment-settings-expander"></a>Expansor de Configurações de Implantação
 
@@ -73,9 +73,7 @@ O Servidor Central de Gerenciamento pode ser alterado de um pool de Front-Ends d
 > [!IMPORTANT]
 > Depois de definir, publicar e implantar o repositório de Gerenciamento Central para a infraestrutura, você não pode mudar o local do repositório de Gerenciamento Central sem realocar o repositório de Gerenciamento Central para outro Front-End via um processo externo.
 
-Para obter detalhes sobre como mover o armazenamento de Gerenciamento Central, consulte [Move-CsManagementServer](https://docs.microsoft.com/powershell/module/skype/move-csmanagementserver?view=skype-ps) na referência de cmdlet do Windows PowerShell.
+Para obter detalhes sobre como mover o armazenamento de Gerenciamento Central, consulte [Move-CsManagementServer](/powershell/module/skype/move-csmanagementserver?view=skype-ps) na referência Windows PowerShell cmdlet.
 
 
-Para maiores detalhes sobre como definir e configurar estas configurações, consulte  [Defining and Configuring the Topology](https://technet.microsoft.com/library/51d1601e-4f83-48d4-ad08-3b4d5e2003aa.aspx).
-
-
+Para maiores detalhes sobre como definir e configurar estas configurações, consulte  [Defining and Configuring the Topology](/previous-versions/office/lync-server-2013/lync-server-2013-defining-and-configuring-the-topology).

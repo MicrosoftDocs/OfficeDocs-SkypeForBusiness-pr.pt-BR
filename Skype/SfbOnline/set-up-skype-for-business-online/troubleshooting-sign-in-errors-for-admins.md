@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Setup
 description: 'Aprenda causas comuns para erros de sinal do Skype for Business Online e trabalhe na solução de problemas. '
-ms.openlocfilehash: ae5c2e5eb85ea7afb3033e7e6b769a607ab86601
-ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
+ms.openlocfilehash: ec441528fb6805f4c2c1c47c50f2debd62675a8a
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/08/2020
-ms.locfileid: "44164320"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51103837"
 ---
 # <a name="troubleshooting-skype-for-business-online-sign-in-errors-for-administrators"></a>Solucionando erros de entrada no Skype for Business Online para administradores
 
@@ -170,7 +170,7 @@ Por fim, se o usuário ainda não conseguir entrar depois de atualizar suas cred
 
 2. Se necessário, ative a opção de exibição de pastas **Mostrar arquivos ocultos**.
 
-3. Digite o seguinte na barra de endereços do Explorador de Arquivos: **C:\\Documents and Settings\\NomedeUsuário\\Dados de Aplicativos\\Microsoft\\Crypto\\RSA**, em que ***NomedeUsuário*** é seu nome de entrada do Windows.
+3. Digite o seguinte na barra de endereços do Explorador de Arquivos: **C:\\Documents and Settings\\Nome de usuário\\Application Data\\Microsoft\\Crypto\\RSA**, onde **_Nome de usuário_** é seu nome para entrar no Windows.
 
 4. Exclua qualquer pasta que comece com o nome **S-1-5-21-** seguido por uma cadeia de números.
 
@@ -195,7 +195,7 @@ Para corrigir esse problema, siga estas etapas:
 
 1. Atualize o atributo **msRTCSIP-UserEnabled** de todos os usuários afetados para **TRUE**.
 
-2. Execute novamente a Ferramenta de Sincronização de Diretórios do Microsoft Online Services (DirSync). Para obter detalhes, consulte [Integre seus diretórios locais com o Azure Active Directory](https://technet.microsoft.com/library/hh967642.aspx).
+2. Execute novamente a Ferramenta de Sincronização de Diretórios do Microsoft Online Services (DirSync). Para obter detalhes, consulte [Integre seus diretórios locais com o Azure Active Directory](/azure/active-directory/hybrid/whatis-hybrid-identity).
 
 Para solucionar erros de entrada no Skype for Business Online, comece eliminando as causas mais comuns de dificuldade de entrada. Se necessário, você pode seguir etapas de resolução específicas com base no tipo de erro. Se o usuário ainda não conseguir entrar, colete informações adicionais e, em seguida, procure ajuda adicional.
 ## <a name="use-the-microsoft-support-troubleshooting-guide"></a>Usar o guia de solução de problemas do Suporte da Microsoft
@@ -220,5 +220,3 @@ Para solucionar erros de entrada no Skype for Business Online, comece eliminando
 [Instalar o Skype for Business Online](set-up-skype-for-business-online.md)
 
 [Permitir que os usuários do Skype for Business adicionem contatos do Skype](let-skype-for-business-users-add-skype-contacts.md)
-
-

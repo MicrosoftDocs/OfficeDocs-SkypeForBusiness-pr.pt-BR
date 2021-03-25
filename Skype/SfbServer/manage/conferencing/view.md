@@ -11,19 +11,19 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: c1c0976e-2bfb-475b-9255-ed6b093d8798
-description: 'Resumo: Saiba como exibir as políticas de conferência no Skype for Business Server.'
-ms.openlocfilehash: 39b37a1335f8b257f9dec1fff28bea90ac7a6db9
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 'Resumo: Saiba como exibir políticas de conferência no Skype for Business Server.'
+ms.openlocfilehash: afe86f0a77e73c3fa7bf96339c4865598a7bc609
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49817501"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51119400"
 ---
 # <a name="view-conferencing-policies-in-skype-for-business-server"></a>Exibir políticas de conferência no Skype for Business Server
  
 **Resumo:** Saiba como exibir políticas de conferência no Skype for Business Server.
   
-Você pode exibir políticas de conferência usando o Painel de Controle do Skype for Business Server ou o Shell de Gerenciamento do Skype for Business Server.
+Você pode exibir políticas de conferência usando o Painel de Controle do Skype for Business Server ou usando o Shell de Gerenciamento do Skype for Business Server.
   
 ## <a name="view-conferencing-policies-by-using-skype-for-business-server-control-panel"></a>Exibir políticas de conferência usando o Painel de Controle do Skype for Business Server
 
@@ -31,15 +31,15 @@ Você pode exibir políticas de conferência usando o Painel de Controle do Skyp
     
 2.  Abra o Painel de Controle do Skype for Business Server.
     
-3. Na barra de navegação esquerda, clique **em Conferência e** em Política de **Conferência.**
+3. Na barra de navegação esquerda, clique **em Conferência** e em Política **de Conferência.**
     
 4. Na página de **Política de Conferência**, dê um clique duplo na política de conferência que você deseja visualizar.
     
-5. Em **Editar Filtro de Arquivo,** marque a caixa de seleção **Mostrar** Detalhes.
+5. Em **Editar Filtro de Arquivo,** marque a caixa de seleção Mostrar **Detalhes.**
     
     **Editar Política de \<policy\> Conferência -** abre exibindo as configurações da política selecionada.
     
-    Para obter detalhes sobre como definir as configurações, consulte Criar políticas de [conferência no Skype for Business Server.](create-policies.md)
+    Para obter detalhes sobre como configurar as configurações, consulte [Create conferencing policies in Skype for Business Server](create-policies.md).
     
 ## <a name="view-conferencing-policies-by-using-skype-for-business-server-management-shell"></a>Exibir políticas de conferência usando o Shell de Gerenciamento do Skype for Business Server
 
@@ -49,7 +49,7 @@ Para exibir políticas de conferência, use o cmdlet **Get-CsConferencingPolicy:
 Get-CsConferencingPolicy
 ```
 
-O cmdlet retorna informações como as seguintes:
+O cmdlet retorna informações como:
   
 <pre>
 Identity                                  : Global
@@ -88,6 +88,4 @@ TotalReceiveVideoBitRateKb                : 6000
 EnableMultiViewJoin                       : True
 </pre>
 
-Para obter mais informações, incluindo uma descrição de sintaxe completa e uma lista de parâmetros, consulte [Get-CsConferencingPolicy](https://docs.microsoft.com/powershell/module/skype/get-csconferencingpolicy?view=skype-ps).
-  
-
+Para obter mais informações, incluindo uma descrição de sintaxe completa e uma lista de parâmetros, consulte [Get-CsConferencingPolicy](/powershell/module/skype/get-csconferencingpolicy?view=skype-ps).

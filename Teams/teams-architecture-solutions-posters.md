@@ -16,12 +16,12 @@ search.appverid:
 f1.keywords:
 - NOCSH
 description: 'Resumo: Conheça a arquitetura lógica de serviços de produtividade do Microsoft 365, liderada pelo Microsoft Teams. Saiba mais também sobre soluções de telefonia do Teams. '
-ms.openlocfilehash: dbf9d5eaff538786125b6414b209692ddf36472f
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: 3f90627cf82200837e15f1231a36062715026e79
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46583490"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51119260"
 ---
 # <a name="microsoft-teams-it-architecture-and-telephony-solutions-posters"></a>Cartazes de soluções de telefonia e arquitetura de TI do Microsoft Teams
 
@@ -43,14 +43,14 @@ Isso é o que os arquitetos de TI precisam saber sobre os grupos do Microsoft 36
 
 A Microsoft oferece várias opções de suporte conforme você começa sua jornada ao Teams na nuvem da Microsoft. Esse cartaz ajuda você a decidir qual solução de telefonia da Microsoft (Sistema de Telefonia na nuvem ou Enterprise Voice local) é ideal para usuários em sua organização e como sua organização pode se conectar à Rede Telefônica Pública Comutada (PSTN).
 
-[![Miniatura do cartaz de Soluções de Telefonia da Microsoft](https://docs.microsoft.com/office365/enterprise/media/microsoft-telephony-solutions-thumb.png)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/telephony-solutions/microsoft-telephony-solutions-12-19.pdf) <br/>
+[![Miniatura do cartaz de Soluções de Telefonia da Microsoft](/office365/enterprise/media/microsoft-telephony-solutions-thumb.png)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/telephony-solutions/microsoft-telephony-solutions-12-19.pdf) <br/>
 [PDF](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/telephony-solutions/microsoft-telephony-solutions-12-18.pdf) | [Visio](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/telephony-solutions/microsoft-telephony-solutions-12-18.vsdx) 
 
-Para saber mais, confira o artigo neste cartaz: [Soluções de telefonia da Microsoft](https://docs.microsoft.com/SkypeForBusiness/hybrid/msft-telephony-solutions).
+Para saber mais, confira o artigo neste cartaz: [Soluções de telefonia da Microsoft](/SkypeForBusiness/hybrid/msft-telephony-solutions).
   
    
 ## <a name="see-also"></a>Confira também
 
-[Recursos de arquitetura de TI do Microsoft Cloud](https://docs.microsoft.com/office365/enterprise/microsoft-cloud-it-architecture-resources)
+[Recursos de arquitetura de TI do Microsoft Cloud](/office365/enterprise/microsoft-cloud-it-architecture-resources)
 
 [Baixar o Microsoft Teams](https://www.microsoft.com/microsoft-365/microsoft-teams/download-app#desktopAppDownloadregion).

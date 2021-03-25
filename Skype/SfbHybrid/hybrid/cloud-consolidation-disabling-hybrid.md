@@ -21,12 +21,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: Este artigo inclui etapas detalhadas para desabilitar o híbrido como parte da consolidação de nuvem para o Teams e o Skype for Business.
-ms.openlocfilehash: 90ec73246007542ad0215007b0da91f4fe9405e8
-ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
+ms.openlocfilehash: 36ec3cba2d821cc8554e0fba95108756c83b7b3d
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/18/2021
-ms.locfileid: "50874691"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51120350"
 ---
 # <a name="disable-hybrid-to-complete-migration-to-the-cloud-overview"></a>Desabilitar a migração híbrida para concluir a migração para a nuvem: Visão geral
 
@@ -47,7 +47,7 @@ Essas etapas separam logicamente sua implantação local do Skype for Business S
 
 1. *Atualize o DNS para apontar para o Microsoft 365 ou Office 365.* O DNS externo da organização para a organização local precisa ser atualizado para que os registros do Skype for Business apontem para o Microsoft 365 ou o Office 365 em vez da implantação local. Especificamente:
 
-    |Tipo de registro|Name|TTL|Valor|
+    |Tipo de registro|Nome|TTL|Valor|
     |---|---|---|---|
     |SRV|_sipfederationtls._tcp|3600|100 1 5061 sipfed.online.lync. <span> com|
     |SRV|_sip._tls|3600|100 1 443 sipdir.online.lync. <span> com|
@@ -99,7 +99,7 @@ Os administradores podem gerenciar usuários que foram movidos anteriormente de 
 
   ![Ferramenta de computadores e usuários do Active Directory](../media/disable-hybrid-1.png)
   
--  Se o usuário não tiver originalmente um valor para o local antes da movimentação, você poderá modificar o número de telefone usando o parâmetro - no `msRTCSIP-Line` `onpremLineUri` [cmdlet Set-CsUser](https://docs.microsoft.com/powershell/module/skype/set-csuser?view=skype-ps) no módulo do PowerShell do Skype for Business Online.
+-  Se o usuário não tiver originalmente um valor para o local antes da movimentação, você poderá modificar o número de telefone usando o parâmetro - no `msRTCSIP-Line` `onpremLineUri` [cmdlet Set-CsUser](/powershell/module/skype/set-csuser?view=skype-ps) no módulo do PowerShell do Skype for Business Online.
 
 Essas etapas não são necessárias para novos usuários criados após a desabilitação híbrida, e esses usuários podem ser gerenciados diretamente na nuvem. Se você estiver confortável usando a combinação desses métodos, bem como com a saída dos atributos msRTCSIP no seu Active Directory local, você pode simplesmente reimimá-los nos servidores locais do Skype for Business. No entanto, se você preferir limpar todos os atributos msRTCSIP e fazer uma desinstalação tradicional do Skype for Business Server, use o Método 2.
 

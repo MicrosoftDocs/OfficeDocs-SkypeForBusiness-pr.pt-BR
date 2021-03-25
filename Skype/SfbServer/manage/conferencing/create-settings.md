@@ -1,5 +1,5 @@
 ---
-title: Criar definições de configuração de reunião no Skype for Business Server
+title: Criar configurações de reunião no Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -11,27 +11,27 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 6d8f9ff8-2a04-4175-9bf0-1ec5d78fd015
-description: 'Resumo: Saiba como criar definições de configuração de reunião no Skype for Business Server.'
-ms.openlocfilehash: edc498ed3847618b17970fb2270c21fd3f4ec025
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 'Resumo: Saiba como criar configurações de reunião no Skype for Business Server.'
+ms.openlocfilehash: 862ffc56fd14c446a747a490daa0655e410e01d9
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49828201"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51119510"
 ---
-# <a name="create-meeting-configuration-settings-in-skype-for-business-server"></a>Criar definições de configuração de reunião no Skype for Business Server
+# <a name="create-meeting-configuration-settings-in-skype-for-business-server"></a>Criar configurações de reunião no Skype for Business Server
  
-**Resumo:** Saiba como criar definições de configuração de reunião no Skype for Business Server.
+**Resumo:** Saiba como criar configurações de reunião no Skype for Business Server.
   
-Você pode criar definições de configuração de reunião usando o Painel de Controle do Skype for Business Server ou o Shell de Gerenciamento do Skype for Business Server.
+Você pode criar configurações de reunião usando o Painel de Controle do Skype for Business Server ou usando o Shell de Gerenciamento do Skype for Business Server.
   
-## <a name="create-meeting-configuration-settings-by-using-skype-for-business-server-control-panel"></a>Criar definições de configuração de reunião usando o Painel de Controle do Skype for Business Server
+## <a name="create-meeting-configuration-settings-by-using-skype-for-business-server-control-panel"></a>Criar configurações de reunião usando o Painel de Controle do Skype for Business Server
 
 1. Por uma conta de usuário atribuída à função CsUserAdministrator role ou CsAdministrator, faça o login em qualquer computador na sua implantação interna.
     
 2.  Abra o Painel de Controle do Skype for Business Server.
     
-3. Na barra de navegação esquerda, clique **em Conferência e** em Configuração de **Reunião.**
+3. Na barra de navegação esquerda, clique **em Conferência** e em **Configuração de Reunião.**
     
 4. Na página **Configuração de reunião**, clique em **Novo** e siga um destes procedimentos:
     
@@ -65,11 +65,11 @@ Você pode criar definições de configuração de reunião usando o Painel de C
     
 10. Clique em **Confirmar**.
     
-## <a name="create-meeting-configuration-settings-by-using-skype-for-business-server-management-shell"></a>Criar definições de configuração de reunião usando o Shell de Gerenciamento do Skype for Business Server
+## <a name="create-meeting-configuration-settings-by-using-skype-for-business-server-management-shell"></a>Criar configurações de reunião usando o Shell de Gerenciamento do Skype for Business Server
 
-Para criar definições de configuração de reunião, use o cmdlet **New-CsMeetingConfiguration.**
+Para criar configurações de reunião, use o cmdlet **New-CsMeetingConfiguration.**
   
-O comando a seguir cria um novo conjunto de definições de configuração de reunião para o site Redmond:
+O comando a seguir cria um novo conjunto de configurações de reunião para o site redmond:
   
 ```PowerShell
 New-CsMeetingConfiguration -Identity "site:Redmond"
@@ -83,12 +83,10 @@ Para criar configurações que usam valores de propriedades diferentes, basta in
 New-CsMeetingConfiguration -Identity "site:Redmond" -DesignateAsPresenter "Everyone"
 ```
 
-Vários valores de propriedade podem ser definidos incluindo vários parâmetros. Por exemplo, o comando a seguir reconhece todos em uma reunião como apresentadores e também força os usuários PSTN a aguardar no lobby até que sejam formalmente admitidos na reunião:
+Vários valores de propriedade podem ser definidos incluindo vários parâmetros. Por exemplo, o comando a seguir reconhece todos em uma reunião como apresentador e também força os usuários PSTN a aguardar no lobby até que sejam formalmente admitidos na reunião:
   
 ```PowerShell
 New-CsMeetingConfiguration -Identity "site:Redmond" -DesignateAsPresenter "Everyone" -PSTNUCallersBypassLobby $True
 ```
 
-Para obter mais informações, incluindo uma lista completa de parâmetros, consulte [New-CsMeetingConfiguration](https://docs.microsoft.com/powershell/module/skype/new-csmeetingconfiguration?view=skype-ps).
-  
-
+Para obter mais informações, incluindo uma lista completa de parâmetros, consulte [New-CsMeetingConfiguration](/powershell/module/skype/new-csmeetingconfiguration?view=skype-ps).

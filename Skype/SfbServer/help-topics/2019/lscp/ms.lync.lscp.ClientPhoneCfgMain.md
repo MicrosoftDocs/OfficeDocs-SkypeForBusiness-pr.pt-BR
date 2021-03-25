@@ -14,17 +14,17 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: e1148124-e04a-4ae6-b601-ed48df69d194
 ROBOTS: NOINDEX, NOFOLLOW
-description: Uma configuração de dispositivo é uma coleção de configurações usadas para gerenciar dispositivos do Skype for Business Phone Edition, globalmente ou em um site. Essas configurações permitem que você configure coisas como o modo de segurança necessário, o nível de log do dispositivo, as configurações de QoS (Qualidade de voz do serviço) e se os telefones devem ser bloqueados automaticamente após um período especificado de inatividade.
-ms.openlocfilehash: dc44a176a5dbef7c1df5e957867f30b27b47e95b
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Uma configuração de dispositivo é uma coleção de configurações usadas para gerenciar dispositivos Skype for Business Phone Edition, globalmente ou em um site. Essas configurações permitem que você configure coisas como o modo de segurança necessário, o nível de log do dispositivo, as configurações de QoS (Qualidade de voz do serviço) e se os telefones devem ser bloqueados automaticamente após um período especificado de inatividade.
+ms.openlocfilehash: 60d9ab8c09b648df14758056fed6096439b7f811
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49830161"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51120230"
 ---
 # <a name="device-configuration"></a>Configuração do dispositivo
  
-Uma configuração de dispositivo é uma coleção de configurações usadas para gerenciar dispositivos do Skype for Business Phone Edition, globalmente ou em um site. Essas configurações permitem que você configure coisas como o modo de segurança necessário, o nível de log do dispositivo, as configurações de QoS (Qualidade de voz do serviço) e se os telefones devem ser bloqueados automaticamente após um período especificado de inatividade. 
+Uma configuração de dispositivo é uma coleção de configurações usadas para gerenciar dispositivos Skype for Business Phone Edition, globalmente ou em um site. Essas configurações permitem que você configure coisas como o modo de segurança necessário, o nível de log do dispositivo, as configurações de QoS (Qualidade de voz do serviço) e se os telefones devem ser bloqueados automaticamente após um período especificado de inatividade. 
   
 ## <a name="tasks-you-can-perform"></a>Tarefas que podem ser executadas
 
@@ -46,16 +46,16 @@ As listas a seguir descrevem os menus, comandos, campos e propriedades na págin
     
 - **Editar** Você pode alterar as opções de uma configuração de dispositivo na lista. Com essa opção, é possível fazer o seguinte:
     
-  - **Mostrar detalhes** Essa opção abre uma caixa de diálogo na qual é possível alterar as opções de uma configuração de dispositivo.
+  - **Mostrar detalhes** Essa opção abre uma caixa de diálogo na qual você pode alterar as opções para uma configuração de dispositivo.
     
   - **Selecionar Tudo** Essa opção seleciona todas as configurações de dispositivo na lista.
     
   - **Excluir** Essa opção exclui todas as configurações de dispositivo selecionadas.
     
-- **Atualizar** Você pode atualizar a lista de configuração do dispositivo para verificar o status das opções de todas as configurações de dispositivo.
+- **Atualizar** Você pode atualizar a lista de configurações do dispositivo para verificar o status das opções de todas as configurações do dispositivo.
     
 ## <a name="see-also"></a>Confira também
 
 [Configuração de Dispositivo: Criar Nova ou Editar Existente](ms.lync.lscp.ClientDeviceTestEdit.md)
 
-[Set-CsUCPhoneConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csucphoneconfiguration?view=skype-ps)
+[Set-CsUCPhoneConfiguration](/powershell/module/skype/set-csucphoneconfiguration?view=skype-ps)
