@@ -19,17 +19,17 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Setup
-description: 'Saiba como alternar entre as interfaces de usuário do cliente Skype for Business e do cliente Lync usando o PowerShell no Microsoft 365 ou no Office 365 '
-ms.openlocfilehash: 02542d11c7315c8f7e183fb78eebf210ead2df94
-ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
+description: 'Saiba como alternar entre as interfaces do usuário cliente do Skype for Business e do Lync usando o PowerShell no Microsoft 365 ou no Office 365 '
+ms.openlocfilehash: c82f2bb9877c29038a6861c00036ba92de100561
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/08/2020
-ms.locfileid: "44164300"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51113207"
 ---
 # <a name="switching-between-the-skype-for-business-and-the-lync-client-user-interfaces"></a>Alternando entre as interfaces do usuário do cliente Skype for Business e do cliente Lync
 
-Para organizações do Skype for Business Online, você pode usar o PowerShell Remoto no Microsoft 365 ou no Office 365 para permitir que os usuários do Skype for Business usem o cliente Skype for Business ou a interface de usuário do cliente Skype for Business (Lync). Na configuração padrão, os usuários devem utilizar a interface do cliente Skype for Business. Se preferir usar a experiência do cliente do Lync, gerencie o comportamento do cliente de início para exibir a interface do usuário do Lync seguindo as etapas mais adiante neste tópico.
+Para organizações do Skype for Business Online, você pode usar o PowerShell Remoto no Microsoft 365 ou No Office 365 para permitir que os usuários do Skype for Business usem o cliente skype for Business ou a interface do usuário cliente do Skype for Business (Lync). Na configuração padrão, os usuários devem utilizar a interface do cliente Skype for Business. Se preferir usar a experiência do cliente do Lync, gerencie o primeiro comportamento do cliente de início para exibir a interface do usuário do Lync seguindo as etapas posteriores neste tópico.
   
 > [!NOTE]
 > [!OBSERVAçãO] A experiência do cliente Lync 2013 não é uma opção para as versões do cliente Skype for Business 2016. Antes de tentar configurar seu ambiente para usar o cliente Lync 2013, verifique a versão do cliente para garantir que ela não começa com o número 16. Por exemplo: 16.x.x.x. 
@@ -39,7 +39,7 @@ Para organizações do Skype for Business Online, você pode usar o PowerShell R
   
 ## <a name="switching-the-skype-for-business-user-interface-for-users"></a>Alternando a interface do Skype for Business para os usuários
 
-O módulo Windows PowerShell para Skype for Business Online permite criar uma sessão remota do Windows PowerShell que se conecta ao Skype for Business Online. Esse módulo, aceito somente em computadores de 64 bits, pode ser baixado do Centro de Download da Microsoft, em [Windows PowerShell Module for Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=294688). Para obter outras informações, consulte [Configurando o computador para gerenciamento do Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=534539).
+O módulo Windows PowerShell para Skype for Business Online permite criar uma sessão remota do Windows PowerShell que se conecta ao Skype for Business Online. Esse módulo, aceito somente em computadores de 64 bits, pode ser baixado do Centro de Download da Microsoft, em [Windows PowerShell Module for Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=294688). Para obter outras informações, consulte [Configurando o computador para gerenciamento do Skype for Business Online](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md).
   
 > [!IMPORTANT]
 > [!IMPORTANTE] A configuração da política  _Global_ para alternar a interface do usuário não será aplicada aos usuários que já têm uma política personalizada aplicada. Para alterar a interface, você precisará executar o seguinte para cada usuário que tiver uma política personalizada aplicada:
@@ -123,7 +123,7 @@ Get-CsOnlineUser -Filter {Department -eq "Sales"} | Grant-CsClientPolicy -Policy
 > [!NOTE]
 >  [!OBSERVAçãO]  O nome do usuário é o nome da conta do usuário à qual a política deve ser atribuída. O nome da conta do usuário pode ser inserido em um dos seguintes formatos:>  Endereço SIP do usuário>  Nome UPN do usuário>  Domínio\\nome de usuário do usuário>  Nome para exibição do Active Directory do usuário
   
-[Usando o Windows PowerShell para gerenciar o Lync Online](https://go.microsoft.com/fwlink/?LinkID=525453)
+[Usando o Windows PowerShell para gerenciar o Lync Online](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
   
 ## <a name="skype-for-business-online-policy-settings"></a>Configurações de política do Skype for Business Online
 
@@ -133,17 +133,17 @@ Esta tabela mostra a experiência do usuário quando a política é aplicada pel
 |:-----|:-----|
 |A política não está definida. |O usuário continuará a utilizar a interface do cliente Skype for Business.|
 |`Grant-CsClientPolicy -PolicyName ClientPolicyEnableSkypeUI`<br/>|O usuário continuará a utilizar a interface do cliente Skype for Business.|
-|`Grant-CsClientPolicy -PolicyName ClientPolicyDisableSkypeUI`<br/>|O usuário será solicitado a mudar para a interface do cliente Skype for Business (Lync). Ele poderá alternar posteriormente.|
-|`Grant-CsClientPolicy -PolicyName ClientPolicyEnableSkypeUI -Identity <username>`|O usuário estará usando a interface do cliente Skype for Business. |
-`Grant-CsClientPolicy-PolicyName ClientPolicyDisableSkypeUI -Identity <username>`|O usuário será solicitado a mudar para a interface do cliente Skype for Business (Lync). No futuro, o administrador poderá alterar a configuração de modo que o usuário alterne para a interface do cliente Skype for Business. |
+|`Grant-CsClientPolicy -PolicyName ClientPolicyDisableSkypeUI`<br/>|O usuário será solicitado a mudar para a interface do usuário cliente do Skype for Business (Lync). Ele poderá alternar posteriormente.|
+|`Grant-CsClientPolicy -PolicyName ClientPolicyEnableSkypeUI -Identity <username>`|O usuário estará usando a interface do usuário do cliente skype for Business. |
+`Grant-CsClientPolicy-PolicyName ClientPolicyDisableSkypeUI -Identity <username>`|O usuário será solicitado a mudar para a interface do usuário cliente do Skype for Business (Lync). No futuro, o administrador poderá alterar a configuração de modo que o usuário alterne para a interface do cliente Skype for Business. |
    
 Esta tabela mostra a experiência do usuário quando a política é alterada:
   
 |**Configuração da política de Administração**|**Interface do usuário do Skype for Business (Lync)**|**Interface do usuário do Skype for Business**|
 |:-----|:-----|:-----|
-|`Grant-CsClientPolicy -PolicyName ClientPolicyEnableSkypeUI`|O usuário será solicitado a mudar para a interface do cliente Skype for Business.  <br/> |O usuário continuará a usar a interface do cliente Skype for Business.  <br/> |
-|`Grant-CsClientPolicy -PolicyName ClientPolicyDisableSkypeUI`|O usuário continuará a usar a interface do Skype for Business (Lync).  <br/> |O usuário será solicitado a mudar para a interface do cliente Skype for Business (Lync).  <br/> |
-|A política não está definida.  <br/> |Os usuários nunca verão a interface do cliente Skype for Business (Lync) se a política não estiver definida. Eles sempre utilizarão a interface do cliente Skype for Business.  <br/> |O usuário continuará a usar a interface do cliente Skype for Business.  <br/> |
+|`Grant-CsClientPolicy -PolicyName ClientPolicyEnableSkypeUI`|O usuário será solicitado a mudar para a interface do usuário cliente skype for Business.  <br/> |O usuário continuará a usar a interface do usuário cliente skype for Business.  <br/> |
+|`Grant-CsClientPolicy -PolicyName ClientPolicyDisableSkypeUI`|O usuário continuará a usar a interface do Skype for Business (Lync).  <br/> |O usuário será solicitado a mudar para a interface do usuário cliente do Skype for Business (Lync).  <br/> |
+|A política não está definida.  <br/> |Os usuários nunca verão a interface do usuário cliente do Skype for Business (Lync) se a política não estiver definida. Eles sempre utilizarão a interface do cliente Skype for Business.  <br/> |O usuário continuará a usar a interface do usuário cliente skype for Business.  <br/> |
    
 Esta tabela mostra todas as políticas personalizadas online disponíveis. Novas políticas foram criadas para dar flexibilidade aos administradores na retenção da antiga política personalizada durante a troca entre os sinalizadores EnableSkypeUI. Use os cmdlets acima para conceder uma das políticas abaixo para seus usuários.
   
@@ -167,13 +167,13 @@ Esta tabela mostra todas as políticas personalizadas online disponíveis. Novas
    
 Para começar a trabalhar com o Windows PowerShell, confira estes tópicos:
   
-- [Por que você precisa usar o Microsoft 365 ou o PowerShell do Office 365](https://go.microsoft.com/fwlink/?LinkId=525041)
+- [Por que você precisa usar o Microsoft 365 ou o Office 365 PowerShell](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     
-- [Melhores maneiras de gerenciar o Microsoft 365 ou o Office 365 com o Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
+- [Melhores maneiras de gerenciar o Microsoft 365 ou o Office 365 com Windows PowerShell](/previous-versions//dn568025(v=technet.10))
     
 ## <a name="first-launch-client-behaviors"></a>Comportamentos do cliente na primeira inicialização
 
-Por padrão, quando os usuários iniciam o Skype for Business pela primeira vez, eles sempre verão a interface do usuário do Skype for Business, mesmo que você tenha selecionado a experiência do cliente do Lync definindo a política de cliente para a experiência do cliente do Lync () conforme descrito `Grant-CsClientPolicy -PolicyName ClientPolicyDisableSkypeUI` anteriormente. Após alguns minutos, os usuários serão solicitados a mudar para o modo Lync.
+Por padrão, quando os usuários iniciam o Skype for Business pela primeira vez, eles sempre verão a interface do usuário do Skype for Business , mesmo se você tiver selecionado a experiência do cliente do Lync definindo a política de cliente como a experiência do cliente do Lync ( ) conforme descrito `Grant-CsClientPolicy -PolicyName ClientPolicyDisableSkypeUI` anteriormente. Após alguns minutos, os usuários serão solicitados a mudar para o modo Lync.
   
 Se você quiser exibir a interface do usuário do Lync quando os usuários iniciarem o cliente Skype for Business pela primeira vez, siga estas etapas antes de o cliente ser iniciado pela primeira vez após ser atualizado:
   
@@ -195,13 +195,13 @@ Se você quiser exibir a interface do usuário do Lync quando os usuários inici
     
     "CanAppShareInCollab"=dword:00000001
     
-    "EnableSkypeUI"=hex:00,00,00,00
+    "EnableSkypeUI"=hex:00,00,00,00,00
     
 A interface do usuário do Lync será exibida quando os usuários iniciarem o cliente Skype for Business pela primeira vez.
   
 ### <a name="control-the-display-of-the-welcome-screen-tutorial"></a>Tutorial de controle da exibição da tela de boas-vindas
 
-Quando os usuários abrem o cliente Skype for Business, o comportamento padrão é exibir uma tela de boas-vindas que inclui sete dicas rápidas que a maioria das pessoas *solicita.* Você pode desativar a exibição da tela de boas-vindas, mais ainda permitir que os usuários acessem o tutorial adicionando o seguinte valor do Registro no computador cliente:
+Quando os usuários abrem o cliente do Skype for Business, o comportamento padrão é exibir uma tela de boas-vindas que inclui 7 dicas rápidas que a maioria das pessoas *pede.* Você pode desativar a exibição da tela de boas-vindas, mais ainda permitir que os usuários acessem o tutorial adicionando o seguinte valor do Registro no computador cliente:
   
 Na chave **[HKEY_CURRENT_USER\\Software\\Microsoft\\Office\\15.0\\Lync]**, crie um novo valor **DWORD (32 bits)**. O **Nome do valor** deve ser **IsBasicTutorialSeenByUser**, e os **Dados do valor** devem ser configurados para **1**.
   
@@ -231,7 +231,7 @@ O procedimento a seguir descreve como modificar o Registro para que a experiênc
   
 1. Inicie o **Console de Gerenciamento de Política de Grupo**.
     
-    Para obter informações sobre como usar o Console de Gerenciamento de Política de Grupo, consulte [Console de Gerenciamento de Política de Grupo](https://go.microsoft.com/fwlink/?LinkId=532759).
+    Para obter informações sobre como usar o Console de Gerenciamento de Política de Grupo, consulte [Console de Gerenciamento de Política de Grupo](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/dn265969(v=ws.11)).
     
 2. Clique com o botão direito do mouse no nó **Objetos de Política de Grupo** e selecione **Novo** no menu.
     
@@ -284,4 +284,3 @@ Você também pode verificar se o GPO atualizou com êxito o Registro no computa
 [Permitir que os usuários do Skype for Business adicionem contatos do Skype](let-skype-for-business-users-add-skype-contacts.md)
 
   
- 

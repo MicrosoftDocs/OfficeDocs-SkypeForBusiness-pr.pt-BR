@@ -16,12 +16,12 @@ search.appverid: MET150
 description: Saiba mais sobre registros de depuração, mídia e desktop produzidos pelo Microsoft Teams, onde podem ser encontrados e como eles podem ajudar na resolução de problemas.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 295886e7a5c50107672d17dcfa06067ba1b0ac9b
-ms.sourcegitcommit: 48b8801b86a6c900c224853590daa3cb3c8d4ded
-ms.translationtype: HT
+ms.openlocfilehash: e3e2c4d42d511e2a33a797099132ac42c0475d36
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "49761089"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51112187"
 ---
 <a name="use-log-files-in-troubleshooting-microsoft-teams"></a>Usar arquivos de registro para solucionar problemas no Microsoft Teams
 =================================================
@@ -145,4 +145,4 @@ Linux:
 
 ## <a name="related-topics"></a>Tópicos relacionados
 
-[Solução de problemas do Teams](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)
+[Solução de problemas do Teams](/MicrosoftTeams/troubleshoot/teams)

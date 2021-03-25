@@ -18,13 +18,13 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - PowerShell
-description: Use o Get-CsOnlineUser cmdlet do Windows PowerShell para obter informações sobre os usuários do Skype for Business Online da sua organização.
-ms.openlocfilehash: 370150de08493507d7b401d7907c90f343802d88
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+description: Use o cmdlet Get-CsOnlineUser no Windows PowerShell para obter informações sobre os usuários do Skype for Business Online da sua organização.
+ms.openlocfilehash: bdf1d445fa7c0a9ac4f874e0983b8ab7e8cb19e1
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41692646"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51113167"
 ---
 # <a name="manage-user-accounts-using-the-online-connector"></a>Gerenciar contas de usuário usando o Conector Online
 
@@ -34,25 +34,25 @@ Este tópico inclui as seguintes seções:
 
 - [Retornar informações sobre todos os seus usuários do Lync Online](manage-user-accounts-using-the-online-connector.md#BKAllUsers)
 
-- [Informações de retorno para um usuário específico no Skype for Business Online](manage-user-accounts-using-the-online-connector.md#BKSpecificUser)
+- [Retornar informações para um usuário específico no Skype for Business Online](manage-user-accounts-using-the-online-connector.md#BKSpecificUser)
 
 - [Retornar informações específicas para usuários específicos no Skype for Business Online](manage-user-accounts-using-the-online-connector.md#BKSpecificUsers)
 
 - [Retornar uma lista filtrada de usuários no Skype for Business Online](manage-user-accounts-using-the-online-connector.md#BKListofUsers)
 
 > [!NOTE]
-> O cmdlet **Set-CsUser** também está incluído no conjunto de cmdlets disponíveis para administradores do Skype for Business Online. No entanto, **o Set-CsUser** não pode ser usado no momento para gerenciar o Skype for Business Online, exceto para definir o parâmetro _AudioVideoDisabled._ Se você tentar executar o cmdlet com qualquer outro parâmetro, ele falhará com uma mensagem de erro semelhante a esta: Não é possível definir "SipAddress". Este parâmetro está restrito no PowerShell de Locatário Remoto.
+> O cmdlet **Set-CsUser** também está incluído no conjunto de cmdlets disponíveis para administradores do Skype for Business Online. No entanto, **Set-CsUser** não pode ser usado no momento para gerenciar o Skype for Business Online, exceto para definir o _parâmetro AudioVideoDisabled._ Se você tentar executar o cmdlet com qualquer outro parâmetro, ele falhará com uma mensagem de erro semelhante a esta: Não é possível definir "SipAddress". Esse parâmetro é restrito no PowerShell de Locatário Remoto.
 
 ### <a name="return-information-about-all-your-skype-for-business-online-users"></a>Retornar informações sobre todos os seus usuários do Lync Online
 <a name="BKAllUsers"> </a>
 
-Para retornar informações sobre todos os usuários que foram habilitados para o Skype for Business Online, ligue para o cmdlet [Get-CsOnlineUser](https://go.microsoft.com/fwlink/p/?linkid=849603) sem parâmetros adicionais.
+Para retornar informações sobre todos os seus usuários que foram habilitados para o Skype for Business Online, chame o cmdlet [Get-CsOnlineUser](/powershell/module/skype/Get-CsOnlineUser) sem nenhum parâmetro adicional.
 
 ```PowerShell
 Get-CsOnlineUser
 ```
 
-Para retornar informações para um único usuário selecionado aleatoriamente (por exemplo, para usar essa conta para fins de teste), ligue para o cmdlet **Get-CsOnlineUser** e de definir o parâmetro _ResultSize_ como 1.
+Para retornar informações para um único usuário selecionado aleatoriamente (por exemplo, para usar essa conta para fins de teste), chame o cmdlet **Get-CsOnlineUser** e de definir o parâmetro _ResultSize_ como 1.
 
 ```PowerShell
 Get-CsOnlineUser -ResultSize 1
@@ -64,10 +64,10 @@ Isso faz com que o cmdlet **Get-CsOnlineUser** retorne informações para apenas
 Get-CsOnlineUser -ResultSize 5
 ```
 
-### <a name="return-information-for-a-specific-user-in-skype-for-business-online"></a>Informações de retorno para um usuário específico no Skype for Business Online
+### <a name="return-information-for-a-specific-user-in-skype-for-business-online"></a>Retornar informações para um usuário específico no Skype for Business Online
 <a name="BKSpecificUser"> </a>
 
-Há várias maneiras de fazer referência a uma conta de usuário específica ao ligar para o cmdlet [Get-CsOnlineUser.](https://go.microsoft.com/fwlink/p/?linkid=849603) Você pode usar o nome de exibição do Active Directory Domain Services (AD DS) do usuário.
+Há várias maneiras de fazer referência a uma conta de usuário específica ao chamar o cmdlet [Get-CsOnlineUser.](/powershell/module/skype/Get-CsOnlineUser) Você pode usar o nome de exibição do Active Directory Domain Services (AD DS) do usuário.
 
 ```PowerShell
 Get-CsOnlineUser -Identity "Ken Myer"
@@ -79,7 +79,7 @@ Você pode usar o endereço SIP do usuário.
 Get-CsOnlineUser -Identity "sip:kenmyer@litwareinc.com"
 ```
 
-Você pode usar o nome de usuário principal (UPN).
+Você pode usar o nome principal do usuário (UPN).
 
 ```PowerShell
 Get-CsOnlineUser -Identity "kenmyer@litwareinc.com"
@@ -88,7 +88,7 @@ Get-CsOnlineUser -Identity "kenmyer@litwareinc.com"
 ### <a name="return-specific-information-for-specific-users-in-skype-for-business-online"></a>Retornar informações específicas para usuários específicos no Skype for Business Online
 <a name="BKSpecificUsers"> </a>
 
-Por padrão, o cmdlet [Get-CsOnlineUser](https://technet.microsoft.com/library/2bfafd70-a7d9-4308-a353-5ecf44249b53.aspx) retorna uma grande quantidade de informações para cada conta de usuário do Skype for Business Online. Se você estiver interessado em apenas um subconjunto dessas informações, cante os dados retornados para o cmdlet **Select-Object.** Por exemplo, esse comando retorna todos os dados do usuário Ken Myer e usa o cmdlet **Select-Object** para limitar as informações exibidas na tela ao nome de exibição e plano de discagem do AD DS de Ken.
+Por padrão, o cmdlet [Get-CsOnlineUser](/powershell/module/skype/Get-CsOnlineUser) retorna uma grande quantidade de informações para cada conta de usuário do Skype for Business Online. Se você estiver interessado em apenas um subconjunto dessas informações, pipe os dados retornados para o cmdlet **Select-Object.** Por exemplo, este comando retorna todos os dados do usuário Ken Myer e usa o cmdlet **Select-Object** para limitar as informações exibidas na tela para o nome de exibição e o plano de discagem do AD DS de Ken.
 
 ```PowerShell
 Get-CsOnlineUser -Identity "Ken Myer" | Select-Object DisplayName, DialPlan
@@ -100,7 +100,7 @@ O comando a seguir retorna o nome de exibição e o plano de discagem para todos
 Get-CsOnlineUser | Select-Object DisplayName, DialPlan
 ```
 
-Para encontrar as propriedades de uma conta de usuário do Skype for Business Online, use o comando a seguir.
+Para encontrar as propriedades de uma conta de usuário do Skype for Business Online, use o seguinte comando.
 
 ```PowerShell
 Get-CsOnlineUser | Get-Member
@@ -109,13 +109,11 @@ Get-CsOnlineUser | Get-Member
 ### <a name="return-a-filtered-list-of-users-in-skype-for-business-online"></a>Retornar uma lista filtrada de usuários no Skype for Business Online
 <a name="BKListofUsers"> </a>
 
-Usando o cmdlet [Get-CsOnlineUser](https://go.microsoft.com/fwlink/p/?linkid=849603) e os parâmetros _LdapFilter_ ou _Filter,_ você pode facilmente retornar informações sobre um conjunto direcionado de usuários. Por exemplo, esse comando retorna todos os usuários que trabalham no departamento de Finanças.
+Usando o cmdlet [Get-CsOnlineUser](/powershell/module/skype/Get-CsOnlineUser) e os parâmetros _LdapFilter_ ou _Filter,_ você pode facilmente retornar informações sobre um conjunto direcionado de usuários. Por exemplo, este comando retorna todos os usuários que trabalham no departamento de Finanças.
 
 ```PowerShell
 Get-CsOnlineUser -LdapFilter "department=Finance"
 ```
 
 ## <a name="related-topics"></a>Tópicos relacionados
-[Configurar seu computador para gerenciamento do Skype for Business Online usando o Windows PowerShell](set-up-your-computer-for-windows-powershell.md)
-
-
+[Configurar seu computador para gerenciamento do skype for business online usando o Windows PowerShell](set-up-your-computer-for-windows-powershell.md)

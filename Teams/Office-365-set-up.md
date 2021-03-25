@@ -1,5 +1,5 @@
 ---
-title: Ativar o Teams no Microsoft 365 ou no Office 365
+title: Ativar o Teams em seu Microsoft 365 ou Office 365
 author: SerdarSoysal
 ms.author: serdars
 manager: serdars
@@ -8,7 +8,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: ritikag
 audience: admin
-description: Saiba como ativar o Microsoft Teams para sua organização do Microsoft 365 ou office 365, atribuir licenças de usuário para controlar o acesso individual e permitir ou bloquear fontes de conteúdo.
+description: Saiba como ativar o Microsoft Teams para sua organização do Microsoft 365 ou Office 365, atribuir licenças de usuário para controlar o acesso individual e permitir ou bloquear fontes de conteúdo.
 localization_priority: Normal
 f1.keywords:
 - CSH
@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cb314a64fdc6027195fe6c79ecff27b5cc8db46e
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: 78dbd966abec7b2b5c1c398b497f20e65d4fb8e8
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46581802"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51113677"
 ---
 # <a name="turn-on-teams-in-your-organization"></a>Ative o Teams na sua organização
 
@@ -39,9 +39,9 @@ Como administrador da sua organização, você pode atribuir licenças de usuár
 
 
  
-Para saber mais sobre como gerenciar licenças individuais, leia a descrição [do serviço microsoft teams.](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description) 
+Para saber mais sobre como gerenciar licenças individuais, leia a descrição [do serviço do Microsoft Teams.](/office365/servicedescriptions/teams-service-description) 
 
  
 ## <a name="turn-teams-on-or-off-for-your-entire-organization"></a>Ative ou desative o Microsoft Teams para a organização inteira 
  
-[!INCLUDE [global-switch-expiry-note](includes/global-switch-expiry-note.md)] 
+[!INCLUDE [global-switch-expiry-note](includes/global-switch-expiry-note.md)]

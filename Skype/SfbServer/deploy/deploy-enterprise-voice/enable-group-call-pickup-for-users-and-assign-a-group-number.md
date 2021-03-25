@@ -1,5 +1,5 @@
 ---
-title: Habilitar o Atendimento de Chamadas em Grupo para usuários e atribuir um número de grupo no Skype for Business
+title: Habilitar o Atendimento de Chamadas de Grupo para usuários e atribuir um número de grupo no Skype for Business
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,26 +15,26 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: c33bb6c2-d43b-4fb6-a0fa-6d82a7b09abe
-description: Habilitar usuários para o Atendimento de Chamadas em Grupo no Skype for Business Server Enterprise Voice e atribuir um número de grupo.
-ms.openlocfilehash: 3467aea1b9671a93cca2f66a2ac73c39f15dc26e
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Habilita os usuários para Coleta de Chamadas de Grupo no Skype for Business Server Enterprise Voice e atribua um número de grupo.
+ms.openlocfilehash: 5469e9634e16b855993518092114184a2dca7359
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49830961"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51111827"
 ---
-# <a name="enable-group-call-pickup-for-users-and-assign-a-group-number-in-skype-for-business"></a>Habilitar o Atendimento de Chamadas em Grupo para usuários e atribuir um número de grupo no Skype for Business
+# <a name="enable-group-call-pickup-for-users-and-assign-a-group-number-in-skype-for-business"></a>Habilitar o Atendimento de Chamadas de Grupo para usuários e atribuir um número de grupo no Skype for Business
 
-Habilitar usuários para o Atendimento de Chamadas em Grupo no Skype for Business Server Enterprise Voice e atribuir um número de grupo.
+Habilita os usuários para Coleta de Chamadas de Grupo no Skype for Business Server Enterprise Voice e atribua um número de grupo.
 
-Depois de adicionar números de grupo de atendimento de chamada à tabela de órbita de estacionamento de chamada, use a ferramenta SEFAUtil para atribuir os números de grupo aos usuários e habilitar o Atendimento de Chamada em Grupo para eles.
+Depois de adicionar números de grupo de retirada de chamada à tabela de órbita do estacionamento de chamada, use a ferramenta SEFAUtil para atribuir os números de grupo aos usuários e habilitar a Coleta de Chamada de Grupo para eles.
 
 > [!NOTE]
-> Em uma implantação híbrida, não atribua um grupo de Atendimento de Chamada em Grupo aos usuários que estão online. Os usuários que estão online não podem participar do Atendimento de Chamada em Grupo. Ou seja, suas chamadas não podem ser atendidas por outros usuários e não podem atender chamadas a outros usuários.
+> Em uma implantação híbrida, não atribua um grupo de Retirada de Chamada de Grupo aos usuários que estão em casa online. Os usuários que estão em casa online não podem participar da Coleta de Chamada de Grupo. Ou seja, suas chamadas não podem ser atendidas por outros usuários e não podem atender chamadas a outros usuários.
 
-### <a name="to-assign-a-group-number-and-enable-group-call-pickup-for-a-user"></a>Para atribuir um número de grupo e habilitar o Atendimento de Chamada em Grupo para um usuário
+### <a name="to-assign-a-group-number-and-enable-group-call-pickup-for-a-user"></a>Para atribuir um número de grupo e habilitar a Coleta de Chamada de Grupo para um usuário
 
-1. Faça logoff no computador em que você instalou a ferramenta SEFAUtil com direitos de administrador.
+1. Faça logoff no computador onde você instalou a ferramenta SEFAUtil com direitos de administrador.
 
 2. Na linha de comando, execute:
 
@@ -50,5 +50,4 @@ Depois de adicionar números de grupo de atendimento de chamada à tabela de ór
 
 ## <a name="see-also"></a>Confira também
 
-[Desabilitar o Retirada em Grupo para Usuários](https://technet.microsoft.com/library/91b06f9e-2840-45a2-bbb3-6a29179b9a9f.aspx)
-
+[Desabilitar a coleta de grupo para usuários](/previous-versions/office/lync-server-2013/lync-server-2013-disable-group-call-pickup-for-users)

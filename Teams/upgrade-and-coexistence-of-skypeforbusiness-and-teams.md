@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a81b34bb028d81e7a79d771db7f0f406af364011
-ms.sourcegitcommit: 79b19b326ef40bf04af03021a7c6506fdd9417ba
+ms.openlocfilehash: 680bfad9090899ecce1f6e2be7bd9a0a25f5099a
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/02/2021
-ms.locfileid: "50397416"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51112167"
 ---
 # <a name="choose-your-upgrade-journey-from-skype-for-business-to-teams"></a>Escolha a jornada de atualização do Skype for Business para o Teams
 
@@ -35,8 +35,8 @@ ms.locfileid: "50397416"
 Este artigo faz parte do estágio de Definição do Projeto da sua jornada de atualização. Antes de prosseguir, confirme se você concluiu as seguintes atividades:
 
 - [Alistou as partes envolvidas no seu projeto](upgrade-enlist-stakeholders.md)
-- [Definiu o escopo do seu projeto](https://aka.ms/SkypetoTeams-Scope)
-- [Compreendeu a coexistência e interoperabilidade do Skype for Business e do Teams](https://aka.ms/SkypeToTeams-Coexist)
+- [Definiu o escopo do seu projeto](./upgrade-define-project-scope.md)
+- [Compreendeu a coexistência e interoperabilidade do Skype for Business e do Teams](./teams-and-skypeforbusiness-coexistence-and-interoperability.md)
 
 Como um cliente existente do Skype for Business, sua transição completa para o Teams poderá levar algum tempo. Além disso, para começar a tirar proveito ainda hoje das vantagens do Microsoft Teams, você pode habilitá-lo juntamente com o Skype for Business. Como há algumas funcionalidades sobrepostas entre os dois aplicativos, recomendamos que você revise os modos de coexistência e atualização disponíveis para ajudar a determinar qual caminho é o certo para sua organização. Por exemplo, você pode optar por habilitar todas as cargas de trabalho nas duas soluções sem interoperabilidade. Ou então, você pode optar por gerenciar a experiência do usuário, introduzindo gradualmente os recursos do Teams ou direcionando grupos de usuários para os recursos selecionados, até que sua organização esteja pronta para atualizar todos para o Teams. Use o resultado do seu piloto para ajudar a determinar a melhor jornada de atualização para sua organização.
 
@@ -48,21 +48,21 @@ Esse artigo descreve os vários modos que lhe permitem gerenciar quais modalidad
 > [!TIP]
 > Junte-se a nós para workshops interativos ao vivo nos quais compartilharemos orientações, práticas recomendadas e recursos projetados para iniciar o planejamento e a implementação de atualização.
 >
->Para começar, participe primeiro da sessão de [Planejamento da atualização](https://aka.ms/SkypeToTeamsPlanning).
+>Para começar, participe primeiro da sessão de [Planejamento da atualização](./upgrade-workshops-landing-page.yml).
 
 
 ## <a name="upgrade-journey-building-blocks"></a>Blocos de construção da jornada de atualização
 
 Para preparar formalmente sua organização para a jornada para o Teams, você precisa começar a planejar os cenários de atualização que permitirão que sua organização adote totalmente o Teams como única solução de comunicação e colaboração.
 
-Para lhe ajudar no processo de tomada de decisão, familiarize-se com os vários modos, conceitos e terminologia relevantes para a atualização do Skype for Business para o Teams. Para obter mais informações, consulte Coexistência e interoperabilidade do [Microsoft Teams e skype for Business.](https://aka.ms/SkypeToTeams-Coexist)
+Para lhe ajudar no processo de tomada de decisão, familiarize-se com os vários modos, conceitos e terminologia relevantes para a atualização do Skype for Business para o Teams. Para obter mais informações, consulte Coexistência e interoperabilidade do [Microsoft Teams e skype for Business.](./teams-and-skypeforbusiness-coexistence-and-interoperability.md)
 
 > [!NOTE]
-> Você também precisará considerar seus cenários de migração de voz. O Sistema de Telefonia é a tecnologia da Microsoft para habilenciar o controle de chamadas e os recursos do Exchange de Filial Privada (PBX) na nuvem do Microsoft 365 ou office 365. Para conectar o Sistema de Telefonia à PSTN (Rede Telefônica Pública Comucionada) para que os usuários possam fazer chamadas telefônicas em todo o mundo, você tem opções com base na sua necessidade de negócios. Para obter mais informações sobre opções de conectividade PSTN e Sistema de Telefonia, consulte [Voice - Phone System e PSTN connectivity](cloud-voice-landing-page.md).
+> Você também precisará considerar seus cenários de migração de voz. O Sistema de Telefonia é a tecnologia da Microsoft para habilenciar o controle de chamadas e os recursos do Exchange de Filial Privada (PBX) na nuvem do Microsoft 365 ou office 365. Para conectar o Sistema de Telefonia à PSTN (Rede Telefônica Pública Comucionada) para que os usuários possam fazer chamadas telefônicas em todo o mundo, você tem opções com base na sua necessidade de negócios. Para obter mais informações sobre opções de conectividade PSTN e Sistema de Telefonia, consulte Voz - Sistema de [Telefonia e conectividade PSTN.](cloud-voice-landing-page.md)
 
 Um usuário que migrou para o Teams não usa mais um cliente do Skype for Business, exceto para ingressar em uma reunião hospedada no Skype for Business. Todos os chats e chamadas de entrada chegam ao cliente do Teams do usuário, independentemente de o remetente usar o Teams ou o Skype for Business. Todas as novas reuniões organizadas pelo usuário atualizado serão agendadas como reuniões do Teams. Se o usuário tentar usar o cliente do Skype for Business, o início de chats e chamadas será bloqueado <sup>1</sup>. No entanto, o usuário ainda pode (e deve) usar o cliente do Skype for Business para ingressar nas reuniões que tenha sido convidado.
 
-Os administradores gerenciam a transição para o Teams usando o conceito de [modo](migration-interop-guidance-for-teams-with-skype.md), que é uma propriedade do [TeamsUpgradePolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps). Um usuário que foi migrado para o Teams conforme descrito acima está no modo "TeamsOnly". Para uma organização que esteja migrando para o Teams, o objetivo final é mover todos os usuários para o modo TeamsOnly.
+Os administradores gerenciam a transição para o Teams usando o conceito de [modo](migration-interop-guidance-for-teams-with-skype.md), que é uma propriedade do [TeamsUpgradePolicy](/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps). Um usuário que foi migrado para o Teams conforme descrito acima está no modo "TeamsOnly". Para uma organização que esteja migrando para o Teams, o objetivo final é mover todos os usuários para o modo TeamsOnly.
 
 Há dois métodos para migrar uma organização existente com o Skype for Business (online ou local) para o Teams:
 
@@ -82,7 +82,7 @@ Com o método de recursos sobrepostos, os usuários podem usar os clientes do Te
 
 Ao usar o método de recursos sobrepostos, o tráfego de comunicação do Skype for Business e do Teams permanece separado (mesmo que seja para o mesmo usuário), e os dois clientes diferentes nunca se comunicam entre si (para usuários da mesma organização). As experiências do usuário se baseiam na configuração do destinatário. Por exemplo, suponha que o usuário A do destinatário está no modo Ilhas:
 
-- A comunicação iniciada a partir do cliente Skype for Business de outro usuário sempre será acionada no cliente skype for Business do usuário A.
+- A comunicação iniciada a partir do cliente skype for Business de outro usuário sempre será acionada no cliente Skype for Business do Usuário A.
 
 - A comunicação iniciada a partir do cliente do Teams *de* um usuário na mesma organização sempre será feita no cliente do Teams do Usuário A.
 
@@ -127,7 +127,7 @@ A tabela a seguir resume os prós e os contras de usar o método de recursos sob
 
 <sup>2</sup> Isso é verdadeiro mesmo se o usuário estiver no local no Skype for Business Server. Se o usuário estiver hospedado no local ou online, deixe a licença do Skype for Business Online habilitada, pois atualmente ela é necessária para a funcionalidade completa do Teams.
 
-<sup>3</sup> Observe que a migração de reuniões do Skype for Business para reuniões do Teams só é disparada ao aplicar o TeamsUpgradePolicy a usuários individuais, não por locatário. Para obter detalhes, confira [Migração de reunião](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms).
+<sup>3</sup> Observe que a migração de reuniões do Skype for Business para reuniões do Teams só é disparada ao aplicar o TeamsUpgradePolicy a usuários individuais, não por locatário. Para obter detalhes, confira [Migração de reunião](/skypeforbusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms).
 
 ## <a name="select-capabilities-method-using-skype-for-business-modes"></a>Método de recursos selecionados (usando os modos do Skype for Business)
 
@@ -185,7 +185,7 @@ A tabela a seguir resume os métodos de atualização:
 |A interoperabilidade entre o Skype for Business e o Teams não existe enquanto os dois usuários estão no modo de Uso Paralelo. Depois que alguns usuários são atualizados para o TeamsOnly, a conversa de interopção pode ocorrer entre esses usuários e outros usuários que ainda estão no modo Ilhas. No entanto, os usuários de Ilhas podem optar por usar o Teams e evitar a conversa de interop.      |A interoperabilidade é necessária para a comunicação entre usuários do Skype for Business e do Teams.         |
 
 > [!NOTE]
-> Caso não consiga seguir os métodos com suporte para migrar os usuários do Skype for Business Server para o Teams, seria possível fazer a transição dos usuários para o Teams removendo o Skype for Business Server e todos os atributos de usuário relacionados no Active Directory. Depois que os atributos do Azure Active Directory dos usuários tiverem sido limpos dos atributos do Skype for Business Server e dos registros DNS tiverem sido apontados novamente para o Microsoft 365 ou Office 365, seria possível licenciar os usuários no Microsoft 365 ou No Office 365 e atualiza-los para o Teams. 
+> Caso não consiga seguir os métodos com suporte para migrar os usuários do Skype for Business Server para o Teams, seria possível fazer a transição dos usuários para o Teams removendo o Skype for Business Server e todos os atributos de usuário relacionados no Active Directory. Depois que os atributos do Azure Active Directory dos usuários tiverem sido limpos dos atributos do Skype for Business Server e dos registros DNS tiverem sido apontados novamente para o Microsoft 365 ou Office 365, seria possível licenciar os usuários no Microsoft 365 ou Office 365 e atualiza-los para o Teams. 
 
 > [!IMPORTANT]
 > Com a migração de substituição, os dados de contatos e de reuniões não serão migrados do ambiente local para o Microsoft Teams.
@@ -200,19 +200,18 @@ A tabela a seguir resume os métodos de atualização:
 <tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Próximas etapas</td><td><ul> Decida a linha do tempo da jornada de atualização da sua organização com base nos requisitos de mensagens, reuniões e chamadas de negócios.<br><br> Decida o trabalho adicional necessário para concluir a jornada de atualização.<br><br></ul></td></tr>
 </table>
 
-Depois de escolher a melhor jornada de atualização para sua organização, [execute sua atualização para o Teams.](https://aka.ms/SkypeToTeams-Upgrade)
+Depois de escolher a melhor jornada de atualização para sua organização, [execute sua atualização para o Teams.](./upgrade-to-teams.md)
 
 ## <a name="related-links"></a>Links relacionados
 
 [Orientações de migração e interoperabilidade para organizações que usam o Teams em conjunto com o Skype for Business](migration-interop-guidance-for-teams-with-skype.md) 
 
-[Configurar a conectividade híbrida entre o Skype for Business Server e o Microsoft 365 ou o Office 365](https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-hybrid-connectivity)
+[Configurar a conectividade híbrida entre o Skype for Business Server e o Microsoft 365 ou o Office 365](/SkypeForBusiness/hybrid/configure-hybrid-connectivity)
 
-[Mover os usuários entre um ambiente local e a nuvem](https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-between-on-premises-and-cloud)
+[Mover os usuários entre um ambiente local e a nuvem](/SkypeForBusiness/hybrid/move-users-between-on-premises-and-cloud)
 
 [Definir suas configurações de coexistência e atualização](setting-your-coexistence-and-upgrade-settings.md)
 
-[Grant-CsTeamsUpgradePolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps)
+[Grant-CsTeamsUpgradePolicy](/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps)
 
-[Usando o Meeting Migration Service (MMS)](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms)
-
+[Usando o Meeting Migration Service (MMS)](/skypeforbusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms)
