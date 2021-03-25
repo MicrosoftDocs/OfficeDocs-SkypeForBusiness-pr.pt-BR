@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 ms.assetid: f09f4c2a-2608-473a-9a27-f94017d6e9dd
 description: Leia este tópico para obter informações sobre como implantar salas do Microsoft Teams com o Microsoft 365 ou o Office 365, onde o Teams ou o Skype for Business e o Exchange estão online.
-ms.openlocfilehash: 7a25fb17e4b9fce4a51c6e2be5828ecafff59894
-ms.sourcegitcommit: 1613e08da482ff142c990c9c9951abeb873ad964
+ms.openlocfilehash: b5cfaab64840fe72dc989f00ed41760058afc765
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "50569117"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117329"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-microsoft-365-or-office-365"></a>Implantar salas do Microsoft Teams com o Microsoft 365 ou Office 365
 
@@ -42,11 +42,11 @@ Para habilitar o Skype for Business, você deve ter o seguinte:
 
 - Sua conta do Microsoft Teams Rooms exige no mínimo uma licença do Skype for Business Online (Plano 2), mas não exige uma licença do Exchange Online. Confira [licenças do Microsoft Teams Rooms](rooms-licensing.md) para obter detalhes.
 
-Para obter detalhes sobre planos do Skype for Business Online, consulte [a Descrição do serviço do Skype for Business Online.](https://technet.microsoft.com/library/jj822172.aspx)
+Para obter detalhes sobre planos do Skype for Business Online, consulte [a Descrição do serviço do Skype for Business Online.](/office365/servicedescriptions/skype-for-business-online-service-description/skype-for-business-online-service-description)
 
 ### <a name="add-a-device-account"></a>Adicionar uma conta de dispositivo
 
-1. Conecte-se ao PowerShell do Exchange Online. Para obter instruções, [consulte Connect to Exchange Online PowerShell](https://go.microsoft.com/fwlink/p/?linkid=396554).
+1. Conecte-se ao PowerShell do Exchange Online. Para obter instruções, [consulte Connect to Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell).
 
 2. No PowerShell do Exchange Online, crie uma nova caixa de correio de sala ou modifique uma caixa de correio de sala existente. Por padrão, as caixas de correio de sala não têm contas associadas, portanto, você precisará adicionar uma conta ao criar ou modificar uma caixa de correio de sala que permita a autenticação com o Skype Room Systems v2.
 
@@ -82,7 +82,7 @@ Para obter detalhes sobre planos do Skype for Business Online, consulte [a Descr
      Set-Mailbox -Identity Rigel2 -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String '9898P@$$W0rd' -AsPlainText -Force)
      ```
 
-   Para obter informações detalhadas sobre sintaxes e parâmetros, consulte [New-Mailbox](https://docs.microsoft.com/powershell/module/exchange/mailboxes/new-mailbox) e [Set-Mailbox](https://docs.microsoft.com/powershell/module/exchange/mailboxes/set-mailbox).
+   Para obter informações detalhadas sobre sintaxes e parâmetros, consulte [New-Mailbox](/powershell/module/exchange/mailboxes/new-mailbox) e [Set-Mailbox](/powershell/module/exchange/mailboxes/set-mailbox).
 
 3. No PowerShell do Exchange Online, configure as seguintes configurações na caixa de correio da sala para melhorar a experiência de reunião:
 
@@ -106,12 +106,12 @@ Para obter detalhes sobre planos do Skype for Business Online, consulte [a Descr
    Set-CalendarProcessing -Identity "Rigel-01" -AutomateProcessing AutoAccept -AddOrganizerToSubject $false -DeleteComments $false -DeleteSubject $false -RemovePrivateProperty $false -AddAdditionalResponse $true -AdditionalResponse "This is a Skype Meeting room!"
    ```
 
-   Para obter informações detalhadas sobre sintaxes e parâmetros, consulte [Set-CalendarProcessing](https://docs.microsoft.com/powershell/module/exchange/mailboxes/set-calendarprocessing).
+   Para obter informações detalhadas sobre sintaxes e parâmetros, consulte [Set-CalendarProcessing](/powershell/module/exchange/mailboxes/set-calendarprocessing).
 
-4. Conecte-se ao MS Online PowerShell para fazer configurações do Active Directory executando o `Connect-MsolService -Credential $cred` cmdlet do PowerShell. Para obter detalhes sobre o Active Directory, consulte [Azure ActiveDirectory (MSOnline) 1.0](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-1.0).
+4. Conecte-se ao MS Online PowerShell para fazer configurações do Active Directory executando o `Connect-MsolService -Credential $cred` cmdlet do PowerShell. Para obter detalhes sobre o Active Directory, consulte [Azure ActiveDirectory (MSOnline) 1.0](/powershell/azure/active-directory/overview?view=azureadps-1.0).
 
    > [!NOTE]
-   > [Não há suporte para o PowerShell 2.0 do Azure Active Directory.](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-2.0)
+   > [Não há suporte para o PowerShell 2.0 do Azure Active Directory.](/powershell/azure/active-directory/overview?view=azureadps-2.0)
 
 5. Se você não quiser que a senha expire, use a seguinte sintaxe:
 
@@ -173,7 +173,7 @@ Para obter detalhes sobre planos do Skype for Business Online, consulte [a Descr
    Set-AzureADUserLicense -UserPrincipalName "Rigel1@contoso.onmicrosoft.com" -AddLicenses "Contoso:MEETING_ROOM"
    ```   -->
 
-   Para obter instruções [detalhadas, consulte Atribuir licenças a contas de usuário com o Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell#use-the-microsoft-azure-active-directory-module-for-windows-powershell).
+   Para obter instruções [detalhadas, consulte Atribuir licenças a contas de usuário com o Office 365 PowerShell](/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell#use-the-microsoft-azure-active-directory-module-for-windows-powershell).
 
    Você também pode adicionar recursos do Sistema de Telefonia a essa conta, mas precisa configurá-lo primeiro. Confira [O que é o Sistema de Telefonia?](../what-is-phone-system-in-office-365.md) para obter mais detalhes. Este exemplo adiciona o Plano de Chamada Doméstica e Internacional PSTN:
 
@@ -186,7 +186,7 @@ Para obter detalhes sobre planos do Skype for Business Online, consulte [a Descr
    Inicie uma sessão [de Windows PowerShell remota](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell) da seguinte forma (certifique-se de instalar componentes do [PowerShell](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/download-and-install-the-skype-for-business-online-connector)do Skype for Business Online ):
 
 > [!NOTE]
-> O Skype for Business Online Connector atualmente faz parte do módulo mais recente do Teams PowerShell.
+> O Conector Skype for Business Online atualmente faz parte do módulo mais recente do PowerShell do Teams.
 >
 > Se você estiver usando a versão pública mais recente do [Teams PowerShell,](https://www.powershellgallery.com/packages/MicrosoftTeams/)não será necessário instalar o Conector do Skype for Business Online.
 

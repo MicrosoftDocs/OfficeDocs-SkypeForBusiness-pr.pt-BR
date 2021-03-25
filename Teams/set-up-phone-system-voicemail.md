@@ -22,16 +22,16 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 'Saiba como configurar a Caixa Postal na Nuvem para seus usuários. '
-ms.openlocfilehash: fa30184d38822141d0f30404fb55b79eefd5d33d
-ms.sourcegitcommit: 2eaf80bca6dfad367283e57662d81a809c9437e8
+ms.openlocfilehash: 4ed61a825ce4e583c71f052020692e4478324003
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "50997419"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117059"
 ---
 # <a name="set-up-cloud-voicemail"></a>Configurar a Caixa postal na nuvem
 
-Este artigo é para o administrador do Microsoft 365 ou office 365 conforme descrito em [Sobre](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles) funções de administrador que deseja configurar o recurso Caixa Postal na Nuvem para todos na empresa.
+Este artigo é para o administrador do Microsoft 365 ou office 365 conforme descrito em [Sobre](/microsoft-365/admin/add-users/about-admin-roles) funções de administrador que deseja configurar o recurso Caixa Postal na Nuvem para todos na empresa.
 
 > [!NOTE]
 > A Caixa Postal na Nuvem dá suporte ao depósito de mensagens de caixa postal somente em uma caixa de correio do Exchange e não dá suporte a sistemas de email de terceiros. 
@@ -44,25 +44,25 @@ Este artigo é para o administrador do Microsoft 365 ou office 365 conforme desc
 Para usuários do Sistema de Telefonia Online, **a** Caixa Postal na Nuvem é configurada e provisionada automaticamente para usuários depois que você atribui uma licença do Sistema de Telefonia aos usuários. 
 
 > [!NOTE]
-> Para usuários do Sistema de Telefonia Online do Skype for Business com números de telefone fornecidos no local, talvez seja necessário habilitar a caixa postal hospedada com [Set-CsUser -HostedVoicemail $True](https://docs.microsoft.com/powershell/module/skype/set-csuser?view=skype-ps). 
+> Para usuários do Sistema de Telefonia Online do Skype for Business com números de telefone fornecidos no local, talvez seja necessário habilitar a caixa postal hospedada com [Set-CsUser -HostedVoicemail $True](/powershell/module/skype/set-csuser?view=skype-ps). 
 
 ## <a name="set-up-cloud-voicemail-for-exchange-server-mailbox-users"></a>Configurar a Caixa Postal na Nuvem para Exchange Server de Caixa de Correio
 
 As informações a seguir são sobre como configurar a Caixa Postal na Nuvem para trabalhar com usuários que estão online para o Sistema de Telefonia, mas têm suas caixas de correio Exchange Server. 
   
-1. As mensagens de caixa postal são entregues à caixa de correio do Exchange dos usuários por meio de SMTP roteada por meio da Proteção do Exchange Online. Para habilitar a entrega bem-sucedida dessas mensagens, certifique-se de que os Conectores do Exchange estão configurados corretamente entre seus servidores Exchange e a Proteção do Exchange Online; [Use conectores para configurar o fluxo de emails.](https://docs.microsoft.com/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/use-connectors-to-configure-mail-flow) 
+1. As mensagens de caixa postal são entregues à caixa de correio do Exchange dos usuários por meio de SMTP roteada por meio da Proteção do Exchange Online. Para habilitar a entrega bem-sucedida dessas mensagens, certifique-se de que os Conectores do Exchange estão configurados corretamente entre seus servidores Exchange e a Proteção do Exchange Online; [Use conectores para configurar o fluxo de emails.](/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/use-connectors-to-configure-mail-flow) 
 
-2. Para habilitar recursos de Caixa Postal, como personalização de saudações e caixa postal visual em clientes do Skype for Business, a conectividade do Microsoft 365 ou do Office 365 para a caixa de correio do servidor Exchange por meio dos Serviços Web do Exchange é necessária. Para habilitar essa conectividade, você deve configurar o novo protocolo de autenticação do Exchange Oauth descrito em [Configure OAuth authentication between Exchange](https://technet.microsoft.com/library/dn594521(v=exchg.150).aspx)and Exchange Online organizations , or run the Exchange Hybrid Wizard from Exchange 2013 CU5 or greater. Além disso, você deve configurar a integração e o Oauth entre o Skype for Business Online e o servidor exchange descrito em Configure Integration and [OAuth between Skype for Business Online and Exchange Server](https://docs.microsoft.com/skypeforbusiness/deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises). 
+2. Para habilitar recursos de Caixa Postal, como personalização de saudações e caixa postal visual em clientes do Skype for Business, a conectividade do Microsoft 365 ou do Office 365 para a caixa de correio do servidor Exchange por meio dos Serviços Web do Exchange é necessária. Para habilitar essa conectividade, você deve configurar o novo protocolo de autenticação do Exchange Oauth descrito em [Configure OAuth authentication between Exchange](/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help)and Exchange Online organizations , or run the Exchange Hybrid Wizard from Exchange 2013 CU5 or greater. Além disso, você deve configurar a integração e o Oauth entre o Skype for Business Online e o servidor exchange descrito em Configure Integration and [OAuth between Skype for Business Online and Exchange Server](/skypeforbusiness/deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises). 
 
 ## <a name="set-up-cloud-voicemail-for-skype-for-business-server-users"></a>Configurar a Caixa Postal na Nuvem para Usuários do Skype for Business Server
 
-Para configurar usuários do servidor do Skype for Business para Caixa Postal na Nuvem, consulte [Plan Cloud Voicemail service for local users](https://docs.microsoft.com/skypeforbusiness/hybrid/plan-cloud-voicemail).
+Para configurar usuários do servidor do Skype for Business para Caixa Postal na Nuvem, consulte [Plan Cloud Voicemail service for local users](/skypeforbusiness/hybrid/plan-cloud-voicemail).
 
 ## <a name="enabling-protected-voicemail-in-your-organization"></a>Habilitando a caixa postal protegida em sua organização
 
 Quando alguém deixa uma mensagem de caixa postal para um usuário em sua organização, a caixa postal é entregue à caixa de correio do usuário como um anexo de mensagem de email. Usando regras de fluxo de emails para aplicar criptografia de mensagens, você pode impedir que essas mensagens de caixa postal seja encaminhada para outros destinatários. Quando você habilita a caixa postal protegida, os usuários podem ouvir mensagens de caixa postal protegidas ligando para sua caixa postal ou abrindo a mensagem no Outlook, no Outlook na Web ou no Outlook para Android ou iOS. As mensagens de caixa postal protegidas não podem ser abertas no Skype for Business ou no Microsoft Teams.
 
-Para obter mais informações sobre criptografia de mensagens, consulte [Criptografia de email](https://docs.microsoft.com/microsoft-365/compliance/email-encryption?view=o365-worldwide).
+Para obter mais informações sobre criptografia de mensagens, consulte [Criptografia de email](/microsoft-365/compliance/email-encryption?view=o365-worldwide).
 
 Para configurar a caixa postal protegida, faça o seguinte:
 
@@ -74,23 +74,23 @@ Para configurar a caixa postal protegida, faça o seguinte:
 6. Em **Fazer o seguinte,** selecione Aplicar a Criptografia de Mensagens do **Office 365** e proteção de direitos à mensagem com e selecione **Selecionar um**. Em **modelo RMS,** selecione **Não encaminhar**. Selecione **OK** **e,** em seguida, Salvar .
     > [!NOTE]
     > Se a **lista de modelos RMS** estiver vazia, você precisará configurar a Criptografia de Mensagens. Para obter mais informações sobre como configurar a Criptografia de Mensagens, consulte os seguintes artigos:
-    > - [Configurar novos recursos de Criptografia de Mensagens](https://docs.microsoft.com/microsoft-365/compliance/set-up-new-message-encryption-capabilities?view=o365-worldwide)
-    > - [Configurando e gerenciando modelos para a Proteção de Informações do Azure](https://docs.microsoft.com/information-protection/deploy-use/configure-policy-templates)
-    > - [Opção Não Encaminhar para emails](https://docs.microsoft.com/information-protection/deploy-use/configure-usage-rights#do-not-forward-option-for-emails)
+    > - [Configurar novos recursos de Criptografia de Mensagens](/microsoft-365/compliance/set-up-new-message-encryption-capabilities?view=o365-worldwide)
+    > - [Configurando e gerenciando modelos para a Proteção de Informações do Azure](/information-protection/deploy-use/configure-policy-templates)
+    > - [Opção Não Encaminhar para emails](/information-protection/deploy-use/configure-usage-rights#do-not-forward-option-for-emails)
 
 ## <a name="setting-voicemail-policies-in-your-organization"></a>Configuração de políticas de caixa postal em sua organização
 
 > [!WARNING]
 > Para clientes do Skype for Business, desabilitar a caixa postal por meio de uma política de chamada do Microsoft Teams também pode desabilitar o serviço de caixa postal para seus usuários do Skype for Business.
 
-A transcrição do correio de voz é habilitada por padrão e o mascaramento de obscenidades está desativado por padrão para todas as organizações e usuários; no entanto, você pode controlá-los usando os cmdlets [Set-CsOnlineVoicemailPolicy](https://technet.microsoft.com/library/mt798310.aspx) e [Grant-CsOnlineVoicemailPolicy](https://technet.microsoft.com/library/mt798311.aspx).
+A transcrição do correio de voz é habilitada por padrão e o mascaramento de obscenidades está desativado por padrão para todas as organizações e usuários; no entanto, você pode controlá-los usando os cmdlets [Set-CsOnlineVoicemailPolicy](/powershell/module/skype/Set-CsOnlineVoicemailPolicy) e [Grant-CsOnlineVoicemailPolicy](/powershell/module/skype/Get-CsOnlineVoicemailPolicy).
 
 As mensagens de caixa postal recebidas pelos usuários em sua organização são transcritas na região onde sua organização do Microsoft 365 ou Office 365 está hospedada. A região onde seu locatário está hospedado pode não ser a mesma onde o usuário que recebe a mensagem de caixa postal está localizado. Para exibir a região onde seu locatário [](https://go.microsoft.com/fwlink/p/?linkid=2067339) está hospedado, vá para a página Perfil da Organização e clique em Exibir **detalhes** ao lado de **Data location**.
 
 > [!IMPORTANT]
 > Não é possível criar uma nova instância de política para mascaramento de profanidade de transcrição e transcrição usando o cmdlet **New-CsOnlineVoiceMailPolicy** e não é possível remover uma instância de política existente usando o cmdlet **Remove-CsOnlineVoiceMailPolicy.**
 
-Você pode gerenciar as configurações da transcrição para os usuários usando as políticas de caixa postal. Para ver todas as instâncias de política de caixa postal disponíveis, você pode usar o cmdlet [Get-CsOnlineVoicemailPolicy.](https://technet.microsoft.com/library/mt798311.aspx)
+Você pode gerenciar as configurações da transcrição para os usuários usando as políticas de caixa postal. Para ver todas as instâncias de política de caixa postal disponíveis, você pode usar o cmdlet [Get-CsOnlineVoicemailPolicy.](/powershell/module/skype/Get-CsOnlineVoicemailPolicy)
 
 ```PowerShell
 PS C:\> Get-CsOnlineVoicemailPolicy
@@ -131,7 +131,7 @@ EnableTranscriptionTranslation      : True
   
 ### <a name="turning-off-transcription-for-your-organization"></a>Desativação da transcrição para sua organização
 
-Como a configuração padrão para transcrição está em sua organização, talvez você queira desabilitá-la usando [Set-CsOnlineVoicemailPolicy](https://technet.microsoft.com/library/mt798310.aspx). Para fazer isso, execute:
+Como a configuração padrão para transcrição está em sua organização, talvez você queira desabilitá-la usando [Set-CsOnlineVoicemailPolicy](/powershell/module/skype/Set-CsOnlineVoicemailPolicy). Para fazer isso, execute:
 
 ```PowerShell
 Set-CsOnlineVoicemailPolicy -EnableTranscription $false
@@ -139,7 +139,7 @@ Set-CsOnlineVoicemailPolicy -EnableTranscription $false
 
 ### <a name="turning-on-transcription-profanity-masking-for-your-organization"></a>Ativação do mascaramento de obscenidades para sua organização
 
-Mascaramento de obscenidades está desativado por padrão para sua organização. Se houver um requisito de negócios para habilitá-lo, você pode habilitar o mascaramento de obscenidades usando [Set-CsOnlineVoicemailPolicy](https://technet.microsoft.com/library/mt798310.aspx). Para fazer isso, execute:
+Mascaramento de obscenidades está desativado por padrão para sua organização. Se houver um requisito de negócios para habilitá-lo, você pode habilitar o mascaramento de obscenidades usando [Set-CsOnlineVoicemailPolicy](/powershell/module/skype/Set-CsOnlineVoicemailPolicy). Para fazer isso, execute:
 
 ```PowerShell
 Set-CsOnlineVoicemailPolicy -EnableTranscriptionProfanityMasking $true
@@ -147,7 +147,7 @@ Set-CsOnlineVoicemailPolicy -EnableTranscriptionProfanityMasking $true
 
 ### <a name="turning-off-transcription-for-a-user"></a>Desativação da transcrição para usuário
 
-As políticas de usuário são avaliadas antes das configurações organizacionais padrão. Por exemplo, se a transcrição da caixa postal estiver habilitada para todos os seus usuários, você poderá atribuir uma política para desabilitar a transcrição para um usuário específico usando o cmdlet [Grant-CsOnlineVoicemailPolicy.](https://technet.microsoft.com/library/mt798309.aspx)
+As políticas de usuário são avaliadas antes das configurações organizacionais padrão. Por exemplo, se a transcrição da caixa postal estiver habilitada para todos os seus usuários, você poderá atribuir uma política para desabilitar a transcrição para um usuário específico usando o cmdlet [Grant-CsOnlineVoicemailPolicy.](/powershell/module/skype/Grant-CsOnlineVoicemailPolicy)
 
 Para desabilitar a transcrição para um único usuário, execute:
 
@@ -157,7 +157,7 @@ Grant-CsOnlineVoicemailPolicy -PolicyName TranscriptionDisabled -Identity sip:am
 
 ### <a name="turning-on-transcription-profanity-masking-for-a-user"></a>Ativação do mascaramento de obscenidades para um usuário
 
-Para habilitar o mascaramento de obscenidades para um usuário específico, você pode atribuir uma política para habilitar o mascaramento de obscenidades de um usuário específico usando o cmdlet [Grant-CsOnlineVoicemailPolicy](https://technet.microsoft.com/library/mt798309.aspx).
+Para habilitar o mascaramento de obscenidades para um usuário específico, você pode atribuir uma política para habilitar o mascaramento de obscenidades de um usuário específico usando o cmdlet [Grant-CsOnlineVoicemailPolicy](/powershell/module/skype/Grant-CsOnlineVoicemailPolicy).
 
 Para habilitar o mascaramento de obscenidades para um único usuário, execute:
 
@@ -187,4 +187,4 @@ Temos informações de treinamento e artigos para ajudar seus usuários a serem 
 
 [Veja o que você obtém com o Sistema de Telefonia](here-s-what-you-get-with-phone-system.md)
 
-[Plano de migração para o Skype for Business Server e Exchange Server](https://docs.microsoft.com/SkypeForBusiness/hybrid/plan-um-migration)
+[Plano de migração para o Skype for Business Server e Exchange Server](/SkypeForBusiness/hybrid/plan-um-migration)

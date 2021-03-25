@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 description: Saiba como preparar sua infraestrutura para a implantação de Salas do Microsoft Teams para que você possa tirar proveito de todos os recursos.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 181599e6b5181f50548621e4895b400f442646a6
-ms.sourcegitcommit: 0fddd05334e37b0086ccc0aebe17a26f8e6e8e6c
+ms.openlocfilehash: 81aa41895f11b65c9406bd30311f2fcb974949a7
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50884565"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117419"
 ---
 # <a name="prepare-your-environment"></a>Preparar seu ambiente
 
@@ -66,7 +66,7 @@ Para funcionar corretamente, o dispositivo salas do Microsoft Teams deve ter ace
 > Use uma conexão de rede de 1 Gbps com fio para assegurar a largura de banda necessária. 
 
 > [!NOTE]
-> As atualizações de software para Salas do Microsoft Teams são baixadas automaticamente da Microsoft Store para Empresas. Consulte [Pré-requisitos da Microsoft Store para Empresas](https://docs.microsoft.com/microsoft-store/prerequisites-microsoft-store-for-business) e Educação para verificar se o console de sala poderá acessar a loja e a atualização automática.
+> As atualizações de software para Salas do Microsoft Teams são baixadas automaticamente da Microsoft Store para Empresas. Consulte [Pré-requisitos da Microsoft Store para Empresas](/microsoft-store/prerequisites-microsoft-store-for-business) e Educação para verificar se o console de sala poderá acessar a loja e a atualização automática.
   
 ### <a name="certificates"></a>Certificados
 
@@ -117,7 +117,7 @@ As Salas do Microsoft Teams foram projetadas para herdar configurações de Prox
     
 11. Voltando à tela de entrada, escolha o usuário **Skype**. Se todas as etapas anteriores foram bem-sucedidas, o dispositivo salas do Microsoft Teams entrará com êxito.
     
-Consulte o [artigo Segurança](https://docs.microsoft.com/microsoftteams/rooms/security#network-security) de Rede para obter detalhes completos sobre FQDNs, portas e intervalos de endereços IP necessários para salas do Microsoft Teams.
+Consulte o [artigo Segurança](./security.md#network-security) de Rede para obter detalhes completos sobre FQDNs, portas e intervalos de endereços IP necessários para salas do Microsoft Teams.
   
   
 ### <a name="create-provisioning-packages"></a>Criar pacotes de provisionamento
@@ -158,7 +158,7 @@ Se você quiser renomear o computador depois de insinuá-lo em um domínio, use 
 
 [Planejar salas do Microsoft Teams](rooms-plan.md)
 
-[Requisitos das Salas Microsoft Teams](requirements.md)
+[Requisitos das Salas do Microsoft Teams](requirements.md)
   
 [Implantar Salas do Microsoft Teams](rooms-deploy.md)
   
@@ -166,4 +166,4 @@ Se você quiser renomear o computador depois de insinuá-lo em um domínio, use 
   
 [Gerenciar Salas do Microsoft Teams](rooms-manage.md)
 
-[Pré-requisitos para a Microsoft Store para Empresas e Educação](https://docs.microsoft.com/microsoft-store/prerequisites-microsoft-store-for-business) 
+[Pré-requisitos para a Microsoft Store para Empresas e Educação](/microsoft-store/prerequisites-microsoft-store-for-business)

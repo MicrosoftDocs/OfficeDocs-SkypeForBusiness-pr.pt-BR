@@ -23,13 +23,13 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
-description: Saiba mais sobre como discar números de gratuitamente na Espanha, incluindo disponibilidade, disponibilidade de rede com fio/fixo e rede móvel e restrições.
-ms.openlocfilehash: 25e3877ae472d2fb037876713dca054f54d7ac77
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+description: Saiba mais sobre a discagem de números gratuitos na Espanha, incluindo disponibilidade, disponibilidade de rede com fio/fixa e rede móvel e restrições.
+ms.openlocfilehash: 137c038f8369f21871d755397967b445535dd192
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43139790"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51116609"
 ---
 # <a name="toll-free-dialing-restrictions-in-spain"></a>Restrições de discagem de chamada gratuita na Espanha
 
@@ -38,12 +38,12 @@ ms.locfileid: "43139790"
 
 |**Detalhes**|**Descrição**|
 |:-----|:-----|
-|As chamada gratuitas estão disponíveis?  <br/> |Sim  <br/> |
-|Formato(s) de discagem  <br/> |900 XXX XXX  <br/> |
-|Código ISO do país/região  <br/> |ES  <br/> |
+|A chamada gratuita está disponível?  <br/> |Sim  <br/> |
+|Formatos de discagem  <br/> |900 XXX XXX  <br/> |
+|Código ISO de país/região  <br/> |ES  <br/> |
 |Ilha/território coberto  <br/> |Ilhas Baleares e Ilhas Canárias  <br/> |
 |Ilha/território não coberto  <br/> |Não aplicável  <br/> |
-|Disponibilidade de linhas com fio/fixo  <br/> |Sim  <br/> |
+|Disponibilidade de linha com fio/fixa  <br/> |Sim  <br/> |
 |Disponibilidade com a rede móvel  <br/> |Sim. Disponível com tarifa premium.  <br/> |
 |Comentários, restrições e problemas de acesso  <br/> |A identificação de celular usando pulsos de saída diferentes está disponível.  <br/> |
    
@@ -51,7 +51,6 @@ ms.locfileid: "43139790"
 
 [Limitações e restrições de discagem gratuita](../toll-free-dialing-limitations-and-restrictions.md)
 
-[Obtendo números de telefone de serviço do Skype for Business e do Microsoft Teams](/microsoftteams/getting-service-phone-numbers)
+[Obtendo números de telefone de serviço do Skype for Business e do Microsoft Teams](../getting-service-phone-numbers.md)
 
   
- 

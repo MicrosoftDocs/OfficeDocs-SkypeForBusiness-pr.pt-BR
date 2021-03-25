@@ -13,12 +13,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: Leia este tópico para saber mais sobre o gerenciamento de Salas do Microsoft Teams, a próxima geração de Sistemas de Salas do Skype.
-ms.openlocfilehash: 56468ad85b20b25d6e9310a20638ae35e941db73
-ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
+ms.openlocfilehash: 52234f72c380c4f5af8f47fff51998fa8c3d1459
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/18/2021
-ms.locfileid: "50875141"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117429"
 ---
 # <a name="microsoft-teams-rooms-maintenance-and-operations"></a>Manutenção e operações das Salas do Microsoft Teams 
  
@@ -81,7 +81,7 @@ Esta seção aborda as configurações do sistema das que as Salas do Microsoft 
 |Gerenciamento de Energia - \> Em AC, desligue a tela após 10 minutos  <br/> Gerenciamento de Energia - \> Em AC, nunca coloque o sistema para dormir  <br/> |Permite que as Salas do Microsoft Teams desliguem as exibições anexadas e acordem automaticamente  <br/> |
 |net accounts /maxpwage:unlimited  <br/> Ou meios equivalentes de desabilitar a expiração de senha na conta local. A falha ao fazer isso fará com que a conta do Skype falhe ao se queixar de uma senha expirada. Observe que isso afeta todas as contas locais no computador e, portanto, a falha ao definir isso também fará com que a conta administrativa na caixa eventualmente expire também.  <br/> |Permite que a conta do Skype esteja sempre conectada  <br/> |
    
-A transferência de arquivos usando Políticas de Grupo é discutida em [Configure a File Item](https://technet.microsoft.com/library/cc772536%28v=ws.11%29.aspx).
+A transferência de arquivos usando Políticas de Grupo é discutida em [Configure a File Item](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc772536(v=ws.11)).
 
 > [!NOTE]
 > Quando o dispositivo Salas do Microsoft Teams é compatível com a próxima versão do sistema operacional Windows 10, o dispositivo é atualizado automaticamente para a próxima versão por meio do Windows Update. O dispositivo salas do Microsoft Teams não deve ser atualizado para a próxima versão do Windows 10 manualmente ou por meio da habilitação de políticas de grupo do Windows Update for Business (WUFB) "Selecione o nível de preparação do Windows para as atualizações que você deseja receber" e "Selecione quando as versões de visualização e atualizações de recursos são recebidas" por meio do GPO. Um dispositivo com essas políticas de grupo habilitadas é conhecido por ter problemas com a atualização do sistema operacional Windows 10 pelo aplicativo Salas do Microsoft Teams.
@@ -99,7 +99,7 @@ Você pode executar as seguintes operações de gerenciamento remotamente usando
 - Transferir arquivos (requer salas do Microsoft Teams ingressados no domínio)
     
 > [!NOTE]
-> Essa funcionalidade está desativada por padrão. Você precisa habilitar o PowerShell remoto para seu ambiente no sistema salas do Microsoft Teams para executar as operações abaixo. Consulte a documentação **[em Enable-PSRemoting](https://technet.microsoft.com/library/hh849694.aspx)** para obter informações sobre como habilitar o PowerShell remoto.
+> Essa funcionalidade está desativada por padrão. Você precisa habilitar o PowerShell remoto para seu ambiente no sistema salas do Microsoft Teams para executar as operações abaixo. Consulte a documentação **[em Enable-PSRemoting](/powershell/module/microsoft.powershell.core/enable-psremoting)** para obter informações sobre como habilitar o PowerShell remoto.
   
 Por exemplo, você pode habilitar o PowerShell Remoto da seguinte maneira:
   
@@ -169,7 +169,7 @@ Por padrão, as Salas do Microsoft Teams tenta se conectar à Windows Store para
   
 Por padrão, as Salas do Microsoft Teams se conectam ao Windows Update para recuperar atualizações de firmware do sistema operacional e do dispositivo periférico USB e instala-as fora do horário comercial configurado. Para configurar o horário comercial, entre na conta de administrador e execute o aplicativo Configurações.
   
-Se você quiser gerenciar as atualizações manualmente e não conseguir seguir o procedimento normal para a [Microsoft Store para Empresas](https://businessstore.microsoft.com/store) distribuir aplicativos [offline,](https://docs.microsoft.com/microsoft-store/distribute-offline-apps)você pode adquirir o arquivo APPX apropriado e as dependências do [kit](https://go.microsoft.com/fwlink/?linkid=851168) de implantação (a partir das instruções para Configurar um console de Salas do [Microsoft Teams](console.md)) que pode ser usado com o Configuration Manager. A versão do kit de implantação fica para trás da versão da loja, portanto, nem sempre ela pode corresponder à versão mais recente disponível.
+Se você quiser gerenciar as atualizações manualmente e não conseguir seguir o procedimento normal para a [Microsoft Store para Empresas](https://businessstore.microsoft.com/store) distribuir aplicativos [offline,](/microsoft-store/distribute-offline-apps)você pode adquirir o arquivo APPX apropriado e as dependências do [kit](https://go.microsoft.com/fwlink/?linkid=851168) de implantação (a partir das instruções para Configurar um console de Salas do [Microsoft Teams](console.md)) que pode ser usado com o Configuration Manager. A versão do kit de implantação fica para trás da versão da loja, portanto, nem sempre ela pode corresponder à versão mais recente disponível.
   
 ### <a name="to-update-using-powershell"></a>Para atualizar usando o Powershell
 
@@ -223,4 +223,3 @@ O console agora está de volta em seu modo de operação normal. O procedimento 
 - Caso seja exibida uma imagem espelhada na visualização da sala, o administrador de TI pode corrigir isso desligando e ligando a câmera ou invertendo a orientação da imagem com o controle remoto da câmera.
 - Sabe-se que pode ocorrer a perda do acesso à tela touch do console. Nesses casos, o problema às vezes é resolvido reiniciando o sistema salas do Microsoft Teams.
 - Sabe-se que pode ocorrer a perda do áudio local ao conectar um computador ao console via entrada com fio. Nesses casos, reiniciar o computador pode resolver o problema de reprodução do áudio local.
-    

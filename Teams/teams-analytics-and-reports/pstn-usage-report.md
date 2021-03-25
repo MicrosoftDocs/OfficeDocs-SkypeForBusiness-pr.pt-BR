@@ -17,12 +17,12 @@ description: Saiba como usar o relatório de uso PSTN do Teams no Centro de admi
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a7783c3084beaa87b709ca1e9d5ab4e6932a5e59
-ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
+ms.openlocfilehash: d870581b8921e39d50d0187120cf89067ac38819
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/18/2021
-ms.locfileid: "50875021"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51116859"
 ---
 # <a name="microsoft-teams-pstn-usage-report"></a>Relatório de uso PSTN do Microsoft Teams
 
@@ -108,7 +108,7 @@ A primeira linha do CSV contém nomes de coluna. Todas as datas são UTC e [no f
  Você pode exportar dados de até um ano a partir da data atual, a menos que os regulamentos específicos do país proíbam a retenção dos dados por 12 meses.
 
 > [!div class="has-no-wrap"]  
-> | # | Nome | [Tipo de dados (SQL Server)](https://docs.microsoft.com/sql/t-sql/data-types/data-types-transact-sql) | Descrição |
+> | # | Nome | [Tipo de dados (SQL Server)](/sql/t-sql/data-types/data-types-transact-sql) | Descrição |
 > | :-: | :-: | :-: |:------------------- |
 > | 0 | UsageId | `uniqueidentifier` | Identificador de chamada exclusivo |
 > | 1 | ID da chamada | `nvarchar(64)` | Identificador de chamada. Não é garantido que seja exclusivo |
@@ -136,7 +136,7 @@ A primeira linha do CSV contém nomes de coluna. Todas as datas são UTC e [no f
 Você pode exportar dados de até cinco meses (150 dias) a partir da data atual, a menos que as regulamentações específicas do país proíbam a retenção dos dados para esse período.
 
 > [!div class="has-no-wrap"]  
-> | # | Nome | [Tipo de dados (SQL Server)](https://docs.microsoft.com/sql/t-sql/data-types/data-types-transact-sql) | Descrição |
+> | # | Nome | [Tipo de dados (SQL Server)](/sql/t-sql/data-types/data-types-transact-sql) | Descrição |
 > | :-: | :-: | :-: |:------------------- |
 > | 0 | CorrelationId | `uniqueidentifier` | Identificador de chamada exclusivo |
 > | 1 | Endereço SIP | `nvarchar(128)` | O endereço do usuário ou bot que fez ou recebeu a chamada.<br/>Observe que isso é realmente UserPrincipalName (UPN, nome de logon) no Azure Active Directory, que normalmente é o mesmo que Endereço SIP |

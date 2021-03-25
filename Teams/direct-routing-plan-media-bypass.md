@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: Saiba como planejar o bypass de mídia com Roteamento Direto do Sistema de Telefonia, que permite reduzir o caminho do tráfego de mídia e melhorar o desempenho.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: e21007c31dca540e4f659aad627911b4aec2e456
-ms.sourcegitcommit: d62e6cefceebe481eb207c59872f1aa67f0fc528
+ms.openlocfilehash: bbd31a62bf6ebcd481a3cdafeabaf29bb4767f2d
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "50460861"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51115589"
 ---
 # <a name="plan-for-media-bypass-with-direct-routing"></a>Planejar o bypass de mídia com Roteamento Direto
 
@@ -70,7 +70,7 @@ Se o usuário tiver acesso direto ao endereço IP público do SBC, o fluxo de ch
 
 O diagrama a seguir mostra o fluxo de chamada quando o bypass de mídia está habilitado, o cliente é interno e o cliente pode alcançar o endereço IP público do SBC (mídia direta): 
 
-- As setas e os valores numéricos dos caminhos estão de acordo com os fluxos [de chamada do Microsoft Teams.](https://docs.microsoft.com/microsoftteams/microsoft-teams-online-call-flows)
+- As setas e os valores numéricos dos caminhos estão de acordo com os fluxos [de chamada do Microsoft Teams.](./microsoft-teams-online-call-flows.md)
 
 - A sinalização SIP sempre tem caminhos 4 e 4' (dependendo da direção do tráfego). A mídia permanece local e segue o caminho 5b.
 
@@ -91,7 +91,7 @@ Por exemplo, suponha que o usuário seja externo e o administrador do locatário
 
 O diagrama a seguir mostra o fluxo de chamada quando o bypass de mídia está habilitado, o cliente é externo e o cliente não pode alcançar o endereço IP público do Controlador de Borda de Sessão (a mídia é retransmitida pelo Retransmissão de Transporte do Teams).
 
-- As setas e os valores numéricos dos caminhos estão de acordo com os fluxos [de chamada do Microsoft Teams.](https://docs.microsoft.com/microsoftteams/microsoft-teams-online-call-flows)
+- As setas e os valores numéricos dos caminhos estão de acordo com os fluxos [de chamada do Microsoft Teams.](./microsoft-teams-online-call-flows.md)
 
 - A mídia é repassada pelos caminhos 3, 3', 4 e 4'
 
@@ -106,7 +106,7 @@ O diagrama a seguir mostra o fluxo de chamada quando o bypass de mídia está ha
 
 O diagrama a seguir mostra o fluxo de chamada quando o bypass de mídia está habilitado, o cliente é externo e o cliente pode alcançar o endereço IP público do SBC (mídia direta).
 
-- As setas e os valores numéricos dos caminhos estão de acordo com o artigo fluxos de chamada [do Microsoft Teams.](https://docs.microsoft.com/microsoftteams/microsoft-teams-online-call-flows)
+- As setas e os valores numéricos dos caminhos estão de acordo com o artigo fluxos de chamada [do Microsoft Teams.](./microsoft-teams-online-call-flows.md)
 
 - A sinalização SIP sempre tem caminhos 3 e 3' (dependendo da direção do tráfego). Fluxos de mídia usando o caminho 2.
 
@@ -174,7 +174,7 @@ O Roteamento Direto é oferecido nos seguintes ambientes do Microsoft 365 ou Off
 - Microsoft 365 ou Office 365
 - Office 365 GCC
 - Office 365 GCC High
-- Office 365 DoD Saiba mais sobre ambientes do [Office 365](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government) e do Governo dos EUA, como GCC, GCC High e DoD.
+- Office 365 DoD Saiba mais sobre ambientes do [Office 365](/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government) e do Governo dos EUA, como GCC, GCC High e DoD.
 
 ### <a name="microsoft-365-office-365-and-office-365-gcc-environments"></a>Ambientes do Microsoft 365, Office 365 e Office 365 GCC
 
@@ -373,5 +373,3 @@ Para todos os outros pontos de extremidade que não suportam bypass de mídia, c
 ## <a name="see-also"></a>Confira também
 
 [Configurar o bypass de mídia com Roteamento Direto](direct-routing-configure-media-bypass.md)
-
-

@@ -16,14 +16,14 @@ ms.collection:
 ms.custom:
 - seo-marvel-mar2020
 description: Gerenciamento remoto das configurações padrão usadas por um dispositivo salas do Microsoft Teams, incluindo a aplicação de um tema personalizado e a criação de um arquivo de configurações mestras.
-ms.openlocfilehash: a1634e34242a54bb93e3f61da6afd97ec35ec14e
-ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
+ms.openlocfilehash: ecac38b0261dbf9b6c27b1b636df31ecc9b3afd7
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/18/2021
-ms.locfileid: "50875111"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117319"
 ---
-# <a name="manage-a-microsoft-teams-rooms-console-settings-remotely-with-an-xml-configuration-file"></a>Gerenciar configurações de console de salas do Microsoft Teams remotamente com um arquivo de configuração XML
+# <a name="manage-a-microsoft-teams-rooms-console-settings-remotely-with-an-xml-configuration-file"></a>Gerenciar as configurações do console de Salas do Microsoft Teams remotamente com um arquivo de configuração XML
 
 Este artigo discute o gerenciamento remoto das configurações padrão usadas por um dispositivo salas do Microsoft Teams, incluindo a aplicação de um tema personalizado. Ele discute como criar um arquivo de configurações mestras e links para discussões sobre como coloque-los conforme necessário nos dispositivos gerenciados remotamente.
   
@@ -163,7 +163,7 @@ Na inicialização, se um console das Salas do Microsoft Teams encontrar um arqu
 Dependendo de quantos dispositivos de Salas do Microsoft Teams sua empresa tem e de como você optar por configurá-los, há várias maneiras de colocar o arquivo de configuração XML. Quando o arquivo for enviado por push para o console, reinicie-o para processar as alterações de configuração. O arquivo de configuração XML é excluído após seu processamento bem-sucedido. Os métodos de gerenciamento sugeridos para dispositivos do Microsoft Teams Rooms são discutidos em:
   
 - [Configurando a Política de Grupo para Salas do Microsoft Teams](rooms-operations.md#GroupPolicy)
-- [Gerenciamento remoto usando o PowerShell](rooms-operations.md#RemotePS) e [configurar um item de arquivo](https://technet.microsoft.com/library/cc772536%28v=ws.11%29.aspx)
+- [Gerenciamento remoto usando o PowerShell](rooms-operations.md#RemotePS) e [configurar um item de arquivo](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc772536(v=ws.11))
 
 Você pode usar o método de sua preferência, desde que possa usá-lo para transferir arquivos e disparar a reinicialização do dispositivo de console. O arquivo deve ser acessível, writable e excluído pela conta de usuário local do dispositivo. Preferencialmente, ele pertence e tem privilégios completos concedidos a esse usuário. Se as permissões de arquivo não estão definidas corretamente, o software pode falhar ao aplicar as configurações, pode falhar ao excluir o arquivo após o processamento bem-sucedido e pode até mesmo falhar.
   
@@ -195,4 +195,4 @@ Para localizar o caminho da instância:
 
 [Gerenciar Salas do Microsoft Teams](rooms-manage.md)
 
-[Configurar um item de arquivo](https://technet.microsoft.com/library/cc772536%28v=ws.11%29.aspx)
+[Configurar um item de arquivo](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc772536(v=ws.11))

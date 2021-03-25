@@ -21,13 +21,13 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
-description: Isso ajudará você a descobrir como discar números de discagem gratuita em cada país/região. Depois de selecionar o país/região, ele o levará para uma página específica do país que contém detalhes, restrições e limites específicos para a disponibilidade do serviço de tarifa gratuita, onde o serviço de tarifa gratuita está disponível. Os formatos ou formatos de discagem mostram os códigos de acesso necessários em cada país ou região para discar o número de gratuita.
-ms.openlocfilehash: fad581272b1470fec0fe061a41759aa325e27fc9
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Isso ajudará você a descobrir como discar números gratuitos em cada país/região. Depois de selecionar o país/região, ele o levará a uma página específica do país que contém detalhes, restrições e limites específicos para disponibilidade de serviço gratuito em que o serviço gratuito está disponível. Os formatos ou formatos de discagem mostram os códigos de acesso necessários em cada país ou região para discar o número gratuito.
+ms.openlocfilehash: e88142c4eeb6fa7052e12105fe3191019bc19be4
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49802331"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51116599"
 ---
 # <a name="toll-free-dialing-restrictions-in-switzerland"></a>Restrições de discagem gratuita na Suíça
 
@@ -36,12 +36,12 @@ ms.locfileid: "49802331"
 
 |**Detalhes**|**Descrição**|
 |:-----|:-----|
-|As chamada gratuitas estão disponíveis?  <br/> |Sim  <br/> |
-|Formato(s) de discagem  <br/> | 0800 <br>|
-|Código ISO do país/região  <br/> |Ch  <br/> |
+|A chamada gratuita está disponível?  <br/> |Sim  <br/> |
+|Formatos de discagem  <br/> | 0800 <br>|
+|Código ISO de país/região  <br/> |CH  <br/> |
 |Ilha/território coberto  <br/> |Não aplicável  <br/> |
 |Ilha/território não coberto  <br/> | Não aplicável  <br/>  |
-|Disponibilidade de linhas com fio/fixo  <br/> |Sim  <br/> |
+|Disponibilidade de linha com fio/fixa  <br/> |Sim  <br/> |
 |Disponibilidade com a rede móvel  <br/> | Sim (alguns números podem ser premium) <br/> |
 |Comentários, restrições e problemas de acesso  <br/> |Nenhum  <br/> |
 
@@ -49,4 +49,4 @@ ms.locfileid: "49802331"
 
 [Limitações e restrições de discagem gratuita](../toll-free-dialing-limitations-and-restrictions.md)
 
-[Obter números de telefone de serviço](/microsoftteams/getting-service-phone-numbers)
+[Obter números de telefone de serviço](../getting-service-phone-numbers.md)

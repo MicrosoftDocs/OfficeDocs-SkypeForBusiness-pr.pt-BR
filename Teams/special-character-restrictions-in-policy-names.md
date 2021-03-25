@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.policies.naming.error
 - seo-marvel-mar2020
 description: Veja quais são os problemas com caracteres especiais nos nomes das políticas e o que você pode fazer para corrigi-lo.
-ms.openlocfilehash: bc5a2fbb28e37602b21e6c519ea3b3b7cb9a0325
-ms.sourcegitcommit: 1613e08da482ff142c990c9c9951abeb873ad964
+ms.openlocfilehash: 15df8b64f423d1ee20df6e230e4a9cdbebcb56db
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "50569403"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51116979"
 ---
 # <a name="what-are-the-special-character-restrictions-in-teams-policies"></a>Quais são as restrições de caracteres especiais nas políticas do Teams?
 
@@ -59,7 +59,7 @@ Se você tiver uma política com caracteres especiais, precisará editar a polí
 **Etapa 2 : Obter as configurações da política antiga e capturar a saída.**
 
 > [!NOTE]
-> Este exemplo é para uma [política de](https://docs.microsoft.com/powershell/module/skype/get-csteamsmessagingpolicy?view=skype-ps) Mensagens.  As etapas seriam as mesmas para outros tipos de política, mas você deve usar o cmdlet correto. 
+> Este exemplo é para uma [política de](/powershell/module/skype/get-csteamsmessagingpolicy?view=skype-ps) Mensagens.  As etapas seriam as mesmas para outros tipos de política, mas você deve usar o cmdlet correto. 
 
   ```PowerShell
   Get-CsTeamsMessagingPolicy -id <old_policy_name>
@@ -70,7 +70,7 @@ Se você tiver uma política com caracteres especiais, precisará editar a polí
 
 Você pode criar a nova política com a mesma configuração usando o Centro de administração do Microsoft Teams ou o PowerShell.
 
-Executar isso criará uma nova política para você, mas você precisará adicionar as configurações corretas, vendo [Set-CsTeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) e executando-a:
+Executar isso criará uma nova política para você, mas você precisará adicionar as configurações corretas, vendo [Set-CsTeamsMessagingPolicy](/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) e executando-a:
 
   ```PowerShell
   Set-CsTeamsMessagingPolicy -id <new_policy_name>
@@ -79,7 +79,7 @@ Executar isso criará uma nova política para você, mas você precisará adicio
  ```PowerShell
 Grant-CsTeamsMessagingPolicy -Policy <new_policy_name>
  ```
-Consulte [Grant-CsTeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsmessagingpolicy?view=skype-ps) para obter mais informações sobre este cmdlet.
+Consulte [Grant-CsTeamsMessagingPolicy](/powershell/module/skype/grant-csteamsmessagingpolicy?view=skype-ps) para obter mais informações sobre este cmdlet.
 
 **Etapa 5 - Excluir a política antiga.**
 
@@ -87,7 +87,7 @@ Isso excluirá a política antiga com os caracteres especiais.
   ```PowerShell
   Remove-CsTeamsMessagingPolicy -identity <old_policy_name>
   ```
-Consulte [Remove-CsTeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/remove-csteamsmessagingpolicy?view=skype-ps) para obter mais informações sobre este cmdlet.
+Consulte [Remove-CsTeamsMessagingPolicy](/powershell/module/skype/remove-csteamsmessagingpolicy?view=skype-ps) para obter mais informações sobre este cmdlet.
 
 Se esse comando for bem-sucedido, você terminará. Se o comando acima retornar um erro, é porque a política antiga é atribuída aos usuários, portanto, você precisa executar para remover todos os usuários atribuídos da política:
 
@@ -98,19 +98,17 @@ Grant-CsMessagingPolicy -Policy <old_policy_name> $null
 
 O Windows PowerShell gerencia os usuários e o que eles podem ou não fazer. Com Windows PowerShell, você pode gerenciar o Microsoft 365 ou o Office 365 usando um único ponto de administração que pode simplificar seu trabalho diário quando você tem várias tarefas a fazer. Para começar a trabalhar com o Windows PowerShell, confira estes tópicos:
     
-  - [Por que você precisa usar o Office 365 PowerShell?](https://go.microsoft.com/fwlink/?LinkId=525041)
+  - [Por que você precisa usar o Office 365 PowerShell?](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     
-  - [Melhores maneiras de gerenciar o Microsoft 365 ou o Office 365 com Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
+  - [Melhores maneiras de gerenciar o Microsoft 365 ou o Office 365 com Windows PowerShell](/previous-versions//dn568025(v=technet.10))
     
 - Windows PowerShell tem muitas vantagens em velocidade, simplicidade e produtividade sobre o uso apenas do centro de administração do Microsoft 365, como quando você está fazendo alterações de configurações para muitos usuários ao mesmo tempo. Saiba mais sobre essas vantagens nos seguintes tópicos:
     
-  - [Uma introdução ao Windows PowerShell e ao Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525039)
+  - [Uma introdução ao Windows PowerShell e ao Skype for Business Online](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
     
-    [Usar o Windows PowerShell para gerenciar o Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525453)
+    [Usar o Windows PowerShell para gerenciar o Skype for Business Online](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
     
-  - [Usando o Windows PowerShell para realizar tarefas comuns de gerenciamento do Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525038)
+  - [Usando o Windows PowerShell para realizar tarefas comuns de gerenciamento do Skype for Business Online](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
     
     > [!NOTE]
     > O Windows PowerShell módulo do Skype for Business Online permite que você crie uma sessão de Windows PowerShell remota que se conecta ao Skype for Business Online e ao Microsoft Teams. Esse módulo, que tem suporte apenas em computadores de 64 bits, pode ser baixado do Centro de Download da Microsoft em [Módulo Windows PowerShell para Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=294688).
-  
-

@@ -22,12 +22,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-apr2020
 description: Saiba mais sobre as licenças disponíveis para diferentes tipos de recursos de chamada e reunião nas Salas do Microsoft Teams.
-ms.openlocfilehash: c01fafd6820b1ae62afccbfc2eab89c46c9d1598
-ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
+ms.openlocfilehash: f538d6adc0e07f30ee4fe5c0ea3613ea962838c5
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/18/2021
-ms.locfileid: "50875151"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117449"
 ---
 # <a name="teams-meeting-room-licensing-update"></a>Atualização de Licenciamento de Sala de Reunião do Teams
 
@@ -47,7 +47,7 @@ A Microsoft tem duas SKUs dedicadas para reuniões de licenciamento e chamada po
 |Serviços Gerenciados | | &#x2714; &sup3;|
 | | | |
 
-&sup1; Disponibilidade e minutos incluídos podem variar de acordo com a região. Para verificar a disponibilidade do serviço, consulte [Disponibilidade de país e região para Audioconferência e Planos de Chamada.](https://docs.microsoft.com/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans) Os encargos de consumo podem ser aplicados a serviços adicionais, como minutos internacionais gratuitos para planos domésticos, etc. Os clientes podem desabilitar esses recursos para evitar cobrança adicional.  
+&sup1; Disponibilidade e minutos incluídos podem variar de acordo com a região. Para verificar a disponibilidade do serviço, consulte [Disponibilidade de país e região para Audioconferência e Planos de Chamada.](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans) Os encargos de consumo podem ser aplicados a serviços adicionais, como minutos internacionais gratuitos para planos domésticos, etc. Os clientes podem desabilitar esses recursos para evitar cobrança adicional.  
 
 &sup2; Não disponível em nuvens soberanas  
 
@@ -70,13 +70,13 @@ A tabela a seguir lista os recursos disponíveis nas Salas do Microsoft Teams e 
 |Iniciar uma reunião ad hoc | Microsoft Teams Rooms Standard ou Premium  |Skype for Business Server Standard CAL  <br/> Skype for Business Server Enterprise CAL|
 |Iniciar uma reunião ad hoc e discar de uma reunião para números de telefone |  Microsoft Teams Rooms Standard ou Premium |Skype for Business Standard CAL  <br/> Skype for Business Server Enterprise CAL|
 |Dê um número de telefone à sala e faça ou receba uma chamada da sala ou participe de uma conferência de áudio usando um número de telefone  | Com Roteamento Direto: Microsoft Teams Rooms Standard ou Premium<br/>Sem Roteamento Direto: Plano de Chamadas Domésticas ou Internacionais<br/>Microsoft 365 Business Voice  |Skype for Business Server Standard CAL  <br/> Skype for Business Server Plus CAL  |
-|Gerenciar seu dispositivo de sala com o Microsoft Intune |Microsoft Teams Rooms Standard ou Premium  |Assinatura do Microsoft Intune [com MDM local](https://docs.microsoft.com/configmgr/mdm/plan-design/plan-on-premises-mdm) |
+|Gerenciar seu dispositivo de sala com o Microsoft Intune |Microsoft Teams Rooms Standard ou Premium  |Assinatura do Microsoft Intune [com MDM local](/configmgr/mdm/plan-design/plan-on-premises-mdm) |
 |Serviços Gerenciados de Salas do Microsoft Teams | Microsoft Teams Rooms Premium ||
 | |||
 
 > [!NOTE]
 > Se você tiver licenças existentes atribuídas para sistemas de sala, elas continuarão a funcionar sem interrupção. Você deve mover para usar o novo SKU da Sala de Reunião quando as licenças existentes expirarem.  
 
- Use a versão certa do **Windows 10**: Para clientes que querem implantar imagens do Windows 10 em seus dispositivos, consulte [Configure a Microsoft Teams Rooms console](https://docs.microsoft.com/microsoftteams/room-systems/console). Você pode obter uma cópia do Centro de [Serviços de Licenciamento por Volume.](https://www.microsoft.com/Licensing/servicecenter/) 
+ Use a versão certa do **Windows 10**: Para clientes que querem implantar imagens do Windows 10 em seus dispositivos, consulte [Configure a Microsoft Teams Rooms console](./console.md). Você pode obter uma cópia do Centro de [Serviços de Licenciamento por Volume.](https://www.microsoft.com/Licensing/servicecenter/) 
  
  Confira também [Excelentes experiências de sala de reunião: Conheça os novos Microsoft Teams Rooms Standard e Premium](https://www.microsoft.com/microsoft-365/blog/2020/07/21/microsoft-teams-meetings-hybrid-workplace-options/).

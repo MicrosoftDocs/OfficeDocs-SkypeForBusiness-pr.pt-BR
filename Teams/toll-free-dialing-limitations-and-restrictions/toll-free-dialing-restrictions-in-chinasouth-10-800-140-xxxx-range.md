@@ -23,13 +23,13 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
-description: Saiba mais sobre como discar números de discagem gratuita no sul da China, incluindo disponibilidade, disponibilidade de rede com fio/fixo e rede móvel e restrições.
-ms.openlocfilehash: 0ac72f51546d8655e4472d6392206867247a1900
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+description: Saiba mais sobre como discar números gratuitos no sul da China, incluindo disponibilidade, disponibilidade de rede com fio/fixa e rede móvel e restrições.
+ms.openlocfilehash: ea2b2e535f491f57e5aad41244e56afff3490ebb
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43140450"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51116779"
 ---
 # <a name="toll-free-dialing-restrictions-in-china---south-10-800-140-xxxx-range"></a>Restrições de discagem de chamada gratuita no Sul da China (faixa de 10 800 140 XXXX)
 
@@ -38,12 +38,12 @@ ms.locfileid: "43140450"
 
 |**Detalhes**|**Descrição**|
 |:-----|:-----|
-|As chamada gratuitas estão disponíveis?  <br/> |Sim  <br/> |
-|Formato(s) de discagem  <br/> | 10 800 140 XXXX <br/> |
-|Código ISO do país/região  <br/> |CN  <br/> |
+|A chamada gratuita está disponível?  <br/> |Sim  <br/> |
+|Formatos de discagem  <br/> | 10 800 140 XXXX <br/> |
+|Código ISO de país/região  <br/> |CN  <br/> |
 |Ilha/território coberto  <br/> |Sul da China/somente pela rede da Telecom China  <br/> |
 |Ilha/território não coberto  <br/> |Norte da China  <br/> |
-|Disponibilidade de linhas com fio/fixo  <br/> |Somente pela Telecom China.  <br/> |
+|Disponibilidade de linha com fio/fixa  <br/> |Somente pela Telecom China.  <br/> |
 |Disponibilidade com a rede móvel  <br/> |Parcial. Veja os comentários.  <br/> |
 |Comentários, restrições e problemas de acesso  <br/> |Não é acessível por telefone pago.  <br/> |
    
@@ -51,7 +51,6 @@ ms.locfileid: "43140450"
 
 [Limitações e restrições de discagem gratuita](../toll-free-dialing-limitations-and-restrictions.md)
 
-[Obtendo números de telefone de serviço do Skype for Business e do Microsoft Teams](/microsoftteams/getting-service-phone-numbers)
+[Obtendo números de telefone de serviço do Skype for Business e do Microsoft Teams](../getting-service-phone-numbers.md)
 
   
- 

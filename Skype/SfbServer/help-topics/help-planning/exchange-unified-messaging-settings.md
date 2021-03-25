@@ -1,5 +1,5 @@
 ---
-title: Configurações da Unificação de Mensagens do Exchange (Ferramenta de Planejamento)
+title: Configurações de Unificação de Mensagens do Exchange (Ferramenta de Planejamento)
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,24 +15,22 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d4c4a5d9-1523-49ff-b994-882b037ed46f
-description: O Skype for Business Server 2015 oferece suporte à integração com a Unificação de Mensagens (UM) do Exchange para combinar mensagens de voz e email em uma única infraestrutura de mensagens.
-ms.openlocfilehash: 8e2a5c755222aaa4ed5d178de67a244af293a4a7
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: O Skype for Business Server 2015 oferece suporte à integração com a UM (Unificação de Mensagens) do Exchange para combinar mensagens de voz e mensagens de email em uma única infraestrutura de mensagens.
+ms.openlocfilehash: 7f73e3ea6f7033103242c9ff8ee425963e9f6729
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49800311"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51116109"
 ---
-# <a name="exchange-unified-messaging-settings-planning-tool"></a>Configurações da Unificação de Mensagens do Exchange (Ferramenta de Planejamento)
+# <a name="exchange-unified-messaging-settings-planning-tool"></a>Configurações de Unificação de Mensagens do Exchange (Ferramenta de Planejamento)
 
-O Skype for Business Server 2015 oferece suporte à integração com a Unificação de Mensagens (UM) do Exchange para combinar mensagens de voz e email em uma única infraestrutura de mensagens.
+O Skype for Business Server 2015 oferece suporte à integração com a UM (Unificação de Mensagens) do Exchange para combinar mensagens de voz e mensagens de email em uma única infraestrutura de mensagens.
 
 Veja mais detalhes em:
 
-- [Planejamento do Unified Messaging do Exchange](https://technet.microsoft.com/library/e7c63a71-2d99-4aa9-b649-36c1a431bdf1.aspx)
+- [Planejamento do Unified Messaging do Exchange](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-exchange-unified-messaging-integration)
 
-- "Unificação de Mensagens" em [https://go.microsoft.com/fwlink/?LinkId=285341](https://go.microsoft.com/fwlink/?LinkId=285341)
+- "Unificação de Mensagens" em [https://go.microsoft.com/fwlink/?LinkId=285341](/exchange/unified-messaging-exchange-2013-help)
 
-- "Planejando a Unificação de Mensagens" em [https://go.microsoft.com/fwlink/?LinkId=285344](https://go.microsoft.com/fwlink/?LinkId=285344) .
-
-
+- "Planejando a Unificação de Mensagens" em [https://go.microsoft.com/fwlink/?LinkId=285344](/exchange/planning-for-unified-messaging-exchange-2013-help) .

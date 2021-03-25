@@ -1,5 +1,5 @@
 ---
-title: Compartilhando arquivos e pastas no Microsoft Teams
+title: Compartilhamento de arquivos e pastas no Microsoft Teams
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
@@ -14,16 +14,16 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Saiba mais sobre a experiência de compartilhamento de arquivos e pastas no Microsoft Teams.
-ms.openlocfilehash: 5b6847c42f13701e289b2efaad4a5489351f339b
-ms.sourcegitcommit: b68a7b5100fc2b47ae81f465d48d1ac2348c1744
+ms.openlocfilehash: 53997f4493a0217e980427ab0d1f85d64095b9c9
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/11/2021
-ms.locfileid: "49795767"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117019"
 ---
 # <a name="sharing-files-in-microsoft-teams"></a>Compartilhando arquivos no Microsoft Teams
 
-No Microsoft Teams os usuários podem compartilhar conteúdo com outros usuários do Microsoft Teams dentro e fora de sua organização. O compartilhamento de arquivos e pastas no Teams se baseia nas configurações configuradas no SharePoint e no OneDrive, portanto, tudo o que você configurou para o SharePoint e o OneDrive também afetará o compartilhamento no Teams.
+No Microsoft Teams os usuários podem compartilhar conteúdo com outros usuários do Microsoft Teams dentro e fora de sua organização. O compartilhamento de arquivos e pastas no Teams se baseia nas configurações configuradas no SharePoint e no OneDrive, portanto, o que você configurar para o SharePoint e o OneDrive também afetará o compartilhamento no Teams.
 
 ## <a name="overview"></a>Visão Geral
 
@@ -48,6 +48,6 @@ Quando os usuários compartilham um arquivo em um chat ou canal, eles são notif
 
 [Como o Microsoft Office SharePoint Online e o OneDrive for Business interagem com o Microsoft Teams](sharepoint-onedrive-interact.md)
 
-[Alterar o tipo de link padrão de um site](https://docs.microsoft.com/sharepoint/change-default-sharing-link)
+[Alterar o tipo de link padrão para um site](/sharepoint/change-default-sharing-link)
 
-[Colaborar com convidados em uma equipe](https://docs.microsoft.com/microsoft-365/solutions/collaborate-as-team)
+[Colaborar com convidados em uma equipe](/microsoft-365/solutions/collaborate-as-team)

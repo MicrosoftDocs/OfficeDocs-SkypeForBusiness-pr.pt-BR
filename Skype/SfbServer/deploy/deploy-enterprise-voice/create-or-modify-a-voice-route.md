@@ -15,13 +15,13 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: d189057d-cc9d-4622-9d10-f5385d703faf
-description: 'Resumo: Saiba como criar ou modificar uma rota de voz no Skype for Business Server usando o Painel de Controle do Skype for Business Server.'
-ms.openlocfilehash: c9f1a234bf8aeeb1bfeb05f1464a48eb0e964405
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 'Resumo: saiba como criar ou modificar uma rota de voz no Skype for Business Server usando o Painel de Controle do Skype for Business Server.'
+ms.openlocfilehash: c6f1e50971551866cfa6cb12eb6a259ac2f932f8
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49820451"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51105837"
 ---
 # <a name="create-or-modify-a-voice-route-in-skype-for-business"></a>Criar ou modificar uma rota de voz no Skype for Business
  
@@ -39,40 +39,40 @@ ms.locfileid: "49820451"
     
 5. Clique em **Novo** para exibir a caixa de diálogo **Nova Rota de Voz**.
     
-6. Em **Nome,** digite um nome descritivo para a rota de voz.
+6. Em **Nome**, digite um nome descritivo para a rota de voz.
     
 7. (Opcional) Em **Descrição,** digite informações descritivas adicionais para a rota de voz.
     
-8. Para especificar os padrões que você deseja acomodar com essa rota, você pode usar a ferramenta Criar um padrão para corresponder para gerar uma expressão regular ou escrever **a** expressão regular manualmente.
+8. Para especificar os padrões que você deseja que essa rota acomode, você pode usar a ferramenta Criar um padrão para corresponder para gerar uma expressão regular ou gravar **a** expressão regular manualmente.
     
    - Para usar a ferramenta **Compilar um padrão para correspondência** para gerar uma expressão regular, digite os valores da seguinte maneira. É possível especificar dois tipos de correspondência de padrão:
     
    - **Dígitos iniciais para números que você deseja permitir**: digite valores de prefixo que essa rota precisa acomodar (incluindo o + inicial, se for necessário). Por exemplo, digite +425 e clique em **Adicionar**. Repita isso para cada valor de prefixo que você deseja incluir na rota.
     
-   - **Exceções**: se você quiser especificar uma ou mais exceções para números que começam com um valor de prefixo, relace o prefixo e clique em **Exceções**. Digite um ou mais valores para os padrões de correspondência que você não  *deseja*  que essa rota acomode. Por exemplo, para excluir números começando com +425237 da rota, insira um valor  +425237 no campo Exceções e clique em **OK.**
+   - **Exceções**: se você quiser especificar uma ou mais exceções para números que começam com um valor de prefixo, relace o prefixo e clique em **Exceções**. Digite um ou mais valores para os padrões correspondentes que você  *não deseja*  que essa rota acomode. Por exemplo, para excluir números começando com +425237 da rota, insira um valor de+425237 no campo **Exceções** e clique em **OK**.
     
-   - Para definir manualmente o padrão de correspondência, clique em **Editar** na ferramenta **Compilar um padrão para correspondências** e digite uma expressão .NET Framework regular para especificar o padrão de correspondência para números de telefone de destino aos quais a rota é aplicada. Para obter detalhes sobre como escrever expressões regulares, consulte ["Expressões regulares do .NET Framework".](https://go.microsoft.com/fwlink/p/?linkId=140927) 
+   - Para definir manualmente o padrão de correspondência, clique em **Editar** na ferramenta **Compilar um padrão para correspondências** e digite uma expressão .NET Framework regular para especificar o padrão de correspondência para números de telefone de destino aos quais a rota é aplicada. Para obter detalhes sobre como escrever expressões regulares, consulte [".NET Framework Expressões Regulares"](/dotnet/standard/base-types/regular-expressions). 
     
-9. Selecione **Suprimir ID de chamadas** se não quiser que o ID do telefone que está fazendo a chamada apareça no destinatário da chamada. Se você selecionar essa opção, deverá especificar uma **ID** de chamada alternativa que aparecerá na exibição da ID de chamada do destinatário.
+9. Selecione **Suprimir ID de chamadas** se não quiser que o ID do telefone que está fazendo a chamada apareça no destinatário da chamada. Se você selecionar essa opção, deverá especificar uma **ID** do chamador alternativo que aparecerá na ID de chamada do destinatário.
     
 10. Para associar um ou mais troncos à rota de voz, clique em **Adicionar** e selecione um tronco na lista.
     
-11. Para associar um ou mais usos da Rede Telefônica Pública Comutado (PSTN) à rota de voz, clique em Selecionar e escolha um registro na lista de registros de uso de PSTN que foram definidos para sua implantação do Enterprise Voice. 
+11. Para associar um ou mais usos de Rede Telefônica Pública Comutado (PSTN) à rota de voz, clique em Selecionar e escolha um registro na lista de registros de uso PSTN que foram definidos para sua implantação Enterprise Voice. 
     
     > [!NOTE]
-    > Para exibir as propriedades de cada um dos registros de uso de PSTN disponíveis, consulte Exibir registros de uso de [PSTN no Skype for Business.](view-pstn-usage-records.md) > Para criar ou editar registros de uso de PSTN, consulte Criar ou modificar uma política de voz e configurar registros de uso de [PSTN](voice-policy-and-pstn-usage-records.md) no Skype for Business
+    > Para exibir as propriedades de cada um dos registros de uso PSTN disponíveis, consulte [View PSTN usage records in Skype for Business](view-pstn-usage-records.md). > Para criar ou editar registros de uso PSTN, consulte [Create or modify a voice policy and configure PSTN usage records in Skype for Business](voice-policy-and-pstn-usage-records.md)
   
 12. Organize os registros de uso do PSTN para obter o melhor desempenho. Para alterar a posição de um registro na lista, realça o nome do registro e clique na seta para cima ou para baixo.
     
     > [!NOTE]
-    > Ao contrário de uma política de voz, em que a ordem na qual os registros de uso PSTN são listados é importante, a ordem na qual os registros de uso de PSTN são listados na rota de voz é insignificante. No entanto, recomendamos organizar a lista por frequência de uso. Por exemplo: RedmondLocal, RedmondLongDist, RedmondInternational, RedmondBackup. (O Skype for Business Server percorre a lista de cima para baixo.) 
+    > Em contraste com uma política de voz, em que a ordem na qual os registros de uso PSTN são listados é importante, a ordem na qual os registros de uso PSTN são listados na rota de voz é insignificante. No entanto, recomendamos que você organize a lista por frequência de uso. Por exemplo: RedmondLocal, RedmondLongDist, RedmondInternational, RedmondBackup. (O Skype for Business Server percorre a lista de cima para baixo.) 
   
 13. (Opcional) Digite um valor no campo **Insira um número convertido para testar** e clique em **Ir**. Os resultados do teste são exibidos abaixo do campo.
     
 14. Clique em **OK** para salvar a rota de voz.
     
     > [!IMPORTANT]
-    > Sempre que criar uma rota de voz, você deve executar o comando **Commit All** para publicar a alteração na configuração. Para obter detalhes, [consulte Publicar alterações pendentes na configuração de roteamento de voz no Skype for Business.](voice-route-config-changes.md) 
+    > Sempre que você criar uma rota de voz, você deve executar o **comando Commit All** para publicar a alteração de configuração. Para obter detalhes, [consulte Publicar alterações pendentes na configuração de roteamento](voice-route-config-changes.md)de voz no Skype for Business . 
   
 ### <a name="to-modify-a-voice-route"></a>Para modificar uma rota de voz
 
@@ -96,23 +96,23 @@ ms.locfileid: "49820451"
     
    - **Dígitos iniciais para números que você deseja permitir**: digite valores de prefixo que essa rota precisa acomodar (incluindo o + inicial, se for necessário). Por exemplo, digite +425 e clique em **Adicionar**. Repita isso para cada valor de prefixo que você deseja incluir na rota.
     
-   - **Exceções**: se você quiser especificar uma ou mais exceções para números que começam com um valor de prefixo, relace o prefixo e clique em **Exceções**. Digite um ou mais valores para os padrões de correspondência que você não  *deseja*  que essa rota acomode. Por exemplo, para excluir números começando com +425237 da rota, insira um valor  +425237 no campo Exceções e clique em **OK.**
+   - **Exceções**: se você quiser especificar uma ou mais exceções para números que começam com um valor de prefixo, relace o prefixo e clique em **Exceções**. Digite um ou mais valores para os padrões correspondentes que você  *não deseja*  que essa rota acomode. Por exemplo, para excluir números começando com +425237 da rota, insira um valor de+425237 no campo **Exceções** e clique em **OK**.
     
-   - Para definir manualmente o  padrão de correspondência, clique em Editar na ferramenta Criar um padrão para corresponder e digite uma expressão regular do .NET Framework para especificar o padrão de correspondência para números de telefone de destino aos quais **a** rota é aplicada. Para obter detalhes sobre como escrever expressões regulares, consulte ["Expressões regulares do .NET Framework".](https://go.microsoft.com/fwlink/p/?linkId=140927) 
+   - Para definir o padrão de correspondência manualmente, clique em **Editar** na ferramenta Criar um padrão para corresponder e digite uma expressão regular .NET Framework para especificar o padrão correspondente para números de telefone de destino aos quais **a** rota é aplicada. Para obter detalhes sobre como escrever expressões regulares, consulte [".NET Framework Expressões Regulares"](/dotnet/standard/base-types/regular-expressions). 
     
-7. Selecione **Suprimir ID** de chamadas se não quiser que a ID do telefone que está fazendo a chamada apareça para o destinatário da chamada. Se você selecionar essa opção, deverá especificar uma **ID** de chamada alternativa que aparecerá na exibição da ID de chamada do destinatário.
+7. Selecione **Suprimir a ID** do chamador se você não quiser que a ID do telefone que está fazendo a chamada de saída apareça no destinatário da chamada. Se você selecionar essa opção, deverá especificar uma **ID** do chamador alternativo que aparecerá na ID de chamada do destinatário.
     
-8. Para associar um ou mais troncos PSTN à rota de voz, clique em Adicionar e selecione um tronco na lista.
+8. Para associar um ou mais troncos de rede telefônica pública comutado (PSTN) à rota de voz, clique em **Adicionar** e selecione um tronco na lista.
     
-9. Para associar um ou mais usos de PSTN à rota de voz, clique em Selecionar e escolha um registro na lista de registros de uso de PSTN que foram definidos para sua implantação do Enterprise Voice. 
+9. Para associar um ou mais usos de PSTN à rota de voz, clique em Selecionar e escolha um registro na lista de registros de uso PSTN que foram definidos para sua implantação Enterprise Voice. 
     
     > [!NOTE]
-    > Para exibir as propriedades de cada um dos registros de uso de PSTN disponíveis, consulte Exibir registros de uso de [PSTN no Skype for Business.](view-pstn-usage-records.md) > Para criar ou editar registros de uso de PSTN, consulte Criar ou modificar uma política de voz e configurar registros de uso de [PSTN](voice-policy-and-pstn-usage-records.md)no Skype for Business. 
+    > Para exibir as propriedades de cada um dos registros de uso PSTN disponíveis, consulte [View PSTN usage records in Skype for Business](view-pstn-usage-records.md). > Para criar ou editar registros de uso PSTN, consulte [Create or modify a voice policy and configure PSTN usage records in Skype for Business](voice-policy-and-pstn-usage-records.md). 
   
 10. Organize os registros de uso do PSTN para obter o melhor desempenho. Para alterar a posição de um registro na lista, realça o nome do registro e clique na seta para cima ou para baixo.
     
     > [!NOTE]
-    > Ao contrário de uma política de voz em que a ordem na qual os registros de uso de PSTN são listados é importante, a ordem dos registros de uso de PSTN em uma rota de voz é insignificante. No entanto, recomendamos que você organize a lista por frequência de uso, por exemplo: RedmondLocal, RedmondLongDist, RedmondInternational, RedmondBackup. (O Skype for Business Server percorre a lista de cima para baixo.) 
+    > Em contraste com uma política de voz em que a ordem na qual os registros de uso PSTN são listados é importante, a ordem dos registros de uso PSTN em uma rota de voz é insignificante. No entanto, recomendamos que você organize a lista por frequência de uso, por exemplo: RedmondLocal, RedmondLongDist, RedmondInternational, RedmondBackup. (O Skype for Business Server percorre a lista de cima para baixo.) 
   
 11. (Opcional) Digite um valor no campo **Insira um número convertido para testar** e clique em **Ir**. Os resultados do teste são exibidos abaixo do campo.
     
@@ -121,13 +121,12 @@ ms.locfileid: "49820451"
 13. Na página **Rota**, clique em **Confirmar** e em **Confirmar tudo**. 
     
     > [!NOTE]
-    > Sempre que criar ou modificar uma rota de voz, você deve executar o comando **Commit all** para publicar a alteração na configuração. Para obter detalhes, [consulte Publish pending changes to the voice routing configuration in Skype for Business](voice-route-config-changes.md) in the Operations documentation.
+    > Sempre que você criar ou modificar uma rota de voz, você deve executar o **comando Commit all** para publicar a alteração de configuração. Para obter detalhes, [consulte Publicar alterações pendentes na](voice-route-config-changes.md) configuração de roteamento de voz no Skype for Business na documentação Operações.
   
 ## <a name="see-also"></a>Confira também
 
 [Exibir registros de uso de PSTN no Skype for Business](view-pstn-usage-records.md)
   
-[Criar ou modificar uma política de voz e configurar registros de uso de PSTN no Skype for Business](voice-policy-and-pstn-usage-records.md)
+[Criar ou modificar uma política de voz e configurar registros de uso PSTN no Skype for Business](voice-policy-and-pstn-usage-records.md)
   
 [Publicar alterações pendentes na configuração de roteamento de voz no Skype for Business](voice-route-config-changes.md)
-

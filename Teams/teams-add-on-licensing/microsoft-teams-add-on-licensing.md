@@ -20,12 +20,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-mar2020
 description: Saiba mais sobre licenças de complemento para o Microsoft Teams e os recursos que você recebe com cada licença.
-ms.openlocfilehash: ef0fd186fc3f7836e45fccacbfcdba6cb31ba60e
-ms.sourcegitcommit: 5c49dc68c964481c46127f9fb3f5ca358897b0f8
+ms.openlocfilehash: 3925cd7b388ec884990cfb2310e8d53b537e7a64
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50937858"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51116909"
 ---
 # <a name="microsoft-teams-add-on-licenses"></a>Licenças de complemento do Microsoft Teams
 
@@ -404,4 +404,4 @@ Precisa falar com alguém sobre as opções de complemento? [Entre em contato co
 
 - [Atribuir licenças de complemento do Teams](assign-teams-add-on-licenses.md)
 - [Gerenciamento do acesso de usuários ao Teams](../user-access.md)
-- [Descrição do serviço do Teams](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)
+- [Descrição do serviço do Teams](/office365/servicedescriptions/teams-service-description)

@@ -23,13 +23,13 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
-description: Saiba mais sobre como discar números de discagem gratuita no Brasil, incluindo disponibilidade, disponibilidade de rede com fio/fixo e rede móvel e restrições.
-ms.openlocfilehash: a979b0c96e8928d9eedc7809e8d8350dbc8ad282
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+description: Saiba mais sobre a discagem de números gratuitos no Brasil, incluindo disponibilidade, disponibilidade de rede com fio/fixa e rede móvel e restrições.
+ms.openlocfilehash: 689be527186f51ebe24178eb11e015c01bc5ab1e
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43140480"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51116829"
 ---
 # <a name="toll-free-dialing-restrictions-in-brazil"></a>Restrições de discagem de chamada gratuita no Brasil
 
@@ -38,12 +38,12 @@ ms.locfileid: "43140480"
 
 |**Detalhes**|**Descrição**|
 |:-----|:-----|
-|As chamada gratuitas estão disponíveis?  <br/> |Sim  <br/> |
-|Formato(s) de discagem  <br/> | 0800-891-XXXX <br/>  0800 XXX XXXX <br/> |
-|Código ISO do país/região  <br/> |BR  <br/> |
+|A chamada gratuita está disponível?  <br/> |Sim  <br/> |
+|Formatos de discagem  <br/> | 0800-891-XXXX <br/>  0800 XXX XXXX <br/> |
+|Código ISO de país/região  <br/> |BR  <br/> |
 |Ilha/território coberto  <br/> |Não aplicável  <br/> |
 |Ilha/território não coberto  <br/> |Não aplicável  <br/> |
-|Disponibilidade de linhas com fio/fixo  <br/> |Sim  <br/> |
+|Disponibilidade de linha com fio/fixa  <br/> |Sim  <br/> |
 |Disponibilidade com a rede móvel  <br/> |Parcial, mas com tarifa premium. Veja os comentários.  <br/> |
 |Comentários, restrições e problemas de acesso  <br/> |Acesso móvel: O horário da transmissão não é cobrado.  <br/> |
    
@@ -51,7 +51,6 @@ ms.locfileid: "43140480"
 ## <a name="related-topics"></a>Tópicos relacionados
 [Limitações e restrições de discagem gratuita](../toll-free-dialing-limitations-and-restrictions.md)
 
-[Obtendo números de telefone de serviço do Skype for Business e do Microsoft Teams](/microsoftteams/getting-service-phone-numbers)
+[Obtendo números de telefone de serviço do Skype for Business e do Microsoft Teams](../getting-service-phone-numbers.md)
 
   
- 

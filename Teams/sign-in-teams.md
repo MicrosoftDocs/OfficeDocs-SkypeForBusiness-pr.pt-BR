@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7adc2d1cf040c778251784b19c92b1f79d7071fe
-ms.sourcegitcommit: c477aa1a7da0b6b9bea1f5d10f1395eef418bfdb
+ms.openlocfilehash: 73aa2312b1467e2298b4ebaa14e22744a73730e3
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "50711638"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51107297"
 ---
 <a name="sign-in-to-microsoft-teams"></a>Entrar no Microsoft Teams
 ==========================
@@ -109,9 +109,9 @@ Defina os seguintes parâmetros de configuração no portal do Azure Intune para
 
 Depois que a configuração da instalação da conta for definida, o Teams restringirá a capacidade de entrar, para que somente as contas permitidas nos dispositivos registrados tenham acesso concedido.
 
-Para criar uma política de configuração de aplicativo para dispositivos iOS/iPadOS gerenciados, confira [Adicionar políticas de configuração de aplicativo para dispositivos iOS/iPadOS gerenciados](https://docs.microsoft.com/mem/intune/apps/app-configuration-policies-use-ios).
+Para criar uma política de configuração de aplicativo para dispositivos iOS/iPadOS gerenciados, confira [Adicionar políticas de configuração de aplicativo para dispositivos iOS/iPadOS gerenciados](/mem/intune/apps/app-configuration-policies-use-ios).
 
-Para criar uma política de configuração de aplicativo para dispositivos Android gerenciados, confira [Adicionar políticas de configuração de aplicativo para dispositivos Android gerenciados](https://docs.microsoft.com/mem/intune/apps/app-configuration-policies-use-android).
+Para criar uma política de configuração de aplicativo para dispositivos Android gerenciados, confira [Adicionar políticas de configuração de aplicativo para dispositivos Android gerenciados](/mem/intune/apps/app-configuration-policies-use-android).
 
 ### <a name="how-to-restrict-sign-in-on-desktop-devices"></a>Como restringir o login em dispositivos desktop
 Os aplicativos do Microsoft Teams no Windows e MacOS estão ganhando suporte para políticas de dispositivo que restringem o login em sua organização. As políticas podem ser definidas por meio de soluções usuais de Gerenciamento de Dispositivos, como MDM (Gerenciamento de dispositivos Móveis) ou GPO (Objeto de Política de Grupo). 
@@ -150,7 +150,7 @@ Os usuários de dispositivos móveis podem sair do Teams acessando o menu, selec
 
 ### <a name="global-sign-in-and-sign-out"></a>Login e logout globais
 
-O aplicativo do Microsoft Teams para Android agora oferece suporte para entrada e saída global, para fornecer uma experiência de entrada e saída sem complicações para funcionários da linha de frente. Os funcionários podem escolher um dispositivo do grupo de dispositivos compartilhados e fazer uma única entrada para "torná-la deles" durante todo o período do turno. No final do turno, eles devem ser capazes de fazer o logoff para fazer o logoff globalmente no dispositivo. Isto removerá do dispositivo todas as informações pessoais e da empresa para que eles possam devolver o dispositivo ao grupo de dispositivos. Para obter esse recurso, o dispositivo deve estar no modo compartilhado. Para saber como configurar um dispositivo compartilhado, consulte [Como usar um modo de dispositivo compartilhado no Android](https://docs.microsoft.com/azure/active-directory/develop/tutorial-v2-shared-device-mode#set-up-an-android-device-in-shared-mode).
+O aplicativo do Microsoft Teams para Android agora oferece suporte para entrada e saída global, para fornecer uma experiência de entrada e saída sem complicações para funcionários da linha de frente. Os funcionários podem escolher um dispositivo do grupo de dispositivos compartilhados e fazer uma única entrada para "torná-la deles" durante todo o período do turno. No final do turno, eles devem ser capazes de fazer o logoff para fazer o logoff globalmente no dispositivo. Isto removerá do dispositivo todas as informações pessoais e da empresa para que eles possam devolver o dispositivo ao grupo de dispositivos. Para obter esse recurso, o dispositivo deve estar no modo compartilhado. Para saber como configurar um dispositivo compartilhado, consulte [Como usar um modo de dispositivo compartilhado no Android](/azure/active-directory/develop/tutorial-v2-shared-device-mode#set-up-an-android-device-in-shared-mode).
 
 A experiência de login é semelhante à nossa experiência de assinatura do MIcrosoft Teams padrão, enquanto o logout se parece com as duas imagens a seguir:
 
@@ -158,11 +158,11 @@ A experiência de login é semelhante à nossa experiência de assinatura do MIc
 
 ## <a name="urls-and-ip-address-ranges"></a>URLs e intervalos de endereços IP
 
-O Teams exige conectividade com a Internet. Para entender os terminais que devem ser alcançados pelos clientes que usam o Teams em planos do Office 365, Governo e outras nuvens, leia [URLs do Office 365 e intervalos de endereços IP](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges).
+O Teams exige conectividade com a Internet. Para entender os terminais que devem ser alcançados pelos clientes que usam o Teams em planos do Office 365, Governo e outras nuvens, leia [URLs do Office 365 e intervalos de endereços IP](/office365/enterprise/urls-and-ip-address-ranges).
 
 > [!IMPORTANT]
 > O Teams atualmente exige o acesso (porta TCP 443) para o serviço ssl.gstatic.com do Google para todos os usuários; tal exigência é obrigatória mesmo que você não esteja usando o Gstatic. O Teams removerá esse requisito em breve (início de 2020), e atualizaremos este artigo de forma adequada neste momento.
 
 ## <a name="related-topics"></a>Tópicos relacionados
 
-[Solução de problemas do Teams](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)
+[Solução de problemas do Teams](/MicrosoftTeams/troubleshoot/teams)

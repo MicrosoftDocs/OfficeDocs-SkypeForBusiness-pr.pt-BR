@@ -1,5 +1,5 @@
 ---
-title: Criar ou modificar um intervalo de órbita de Estacionamento de Chamadas no Skype for Business
+title: Criar ou modificar um intervalo de órbitas do Estacionamento de Chamadas no Skype for Business
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,19 +15,19 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 549ec118-eee5-4333-9416-80929ec057e0
-description: Criar ou modificar uma tabela de intervalo de órbitas do Estacionamento de Chamadas no Skype for Business Server Enterprise Voice.
-ms.openlocfilehash: 6a17b4faaad026376bccad060cb421a5e2cfa1df
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Crie ou modifique uma tabela de intervalo de órbitas do Estacionamento de Chamadas no Skype for Business Server Enterprise Voice.
+ms.openlocfilehash: eab1c3e6e53eaa878546b5fe4a9684147a00c583
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49805471"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51106317"
 ---
-# <a name="create-or-modify-a-call-park-orbit-range-in-skype-for-business"></a>Criar ou modificar um intervalo de órbita de Estacionamento de Chamadas no Skype for Business
+# <a name="create-or-modify-a-call-park-orbit-range-in-skype-for-business"></a>Criar ou modificar um intervalo de órbitas do Estacionamento de Chamadas no Skype for Business
 
-Criar ou modificar uma tabela de intervalo de órbitas do Estacionamento de Chamadas no Skype for Business Server Enterprise Voice.
+Crie ou modifique uma tabela de intervalo de órbitas do Estacionamento de Chamadas no Skype for Business Server Enterprise Voice.
 
-Estacionamento de chamada usa órbitas para estacionar chamadas. Antes que os usuários possam estacionar e recuperar chamadas, você deve configurar a tabela de órbita do Estacionamento de Chamadas. Você precisa especificar os intervalos de números de ramal (órbitas) que sua organização reservará para estacionar chamadas e definir o roteamento para esses intervalos especificando qual pool de Estacionamento de Chamadas lida com cada intervalo. Quando você define intervalos de órbitas, o objetivo é ter órbitas suficientes para que qualquer órbita não seja reutilizada rapidamente, mas não tantas órbitas que limitem o número de extensões disponíveis para usuários ou outros serviços. Você pode criar vários intervalos de órbitas de Estacionamento de Chamadas para cada pool do Skype for Business Server onde o aplicativo Estacionamento de Chamada é implantado. Cada intervalo de órbitas do Estacionamento de Chamada deve ter um nome globalmente exclusivo e um conjunto exclusivo de extensões.
+Call Park usa órbitas para chamadas de estacionamento. Antes que os usuários possam estacionar e recuperar chamadas, você deve configurar a tabela de órbita do Estacionamento de Chamadas. Você precisa especificar os intervalos de números de extensão (órbitas) que sua organização reserva para chamadas de estacionamento e definir o roteamento para esses intervalos especificando qual pool de Estacionamento de Chamadas lida com cada intervalo. Quando você define intervalos de órbitas, o objetivo é ter órbitas suficientes para que qualquer órbita não seja reutilizada muito rapidamente, mas não tantas órbitas que você limite o número de extensões disponíveis para usuários ou outros serviços. Você pode criar vários intervalos de órbita do Estacionamento de Chamadas para cada pool do Skype for Business Server onde o aplicativo Estacionamento de Chamadas é implantado. Cada intervalo de órbitas do Estacionamento de Chamada deve ter um nome global exclusivo e um conjunto exclusivo de extensões.
 
 > [!IMPORTANT]
 > Normalmente, um intervalo de órbitas engloba 100 órbitas ou menos. Cada intervalo pode ser muito maior, contanto que seja menor do que o máximo de 10.000 órbitas por intervalo e tenha menos de 50.000 órbitas por pool. Se o intervalo for muito pequeno, as órbitas serão reutilizadas mais rapidamente.
@@ -35,15 +35,15 @@ Estacionamento de chamada usa órbitas para estacionar chamadas. Antes que os us
 Use blocos de extensões virtuais (extensões sem um usuário ou telefone atribuído a elas) para intervalos de órbita.
 
 > [!NOTE]
-> Não há suporte para a atribuição de números DID (Discagem Direta interna) como números de órbita na tabela de órbita do Estacionamento de Chamada.
+> Não há suporte para a atribuição de números DID (Discagem direta interna) como números de órbita na tabela de órbita do Estacionamento de Chamada.
 
 Utilize um dos seguintes procedimentos para criar ou modificar um intervalo de órbitas de estacionamento de chamada.
 
-### <a name="to-use-skype-for-business-server-control-panel-to-create-or-modify-a-range-of-numbers-for-parking-calls"></a>Para usar o Painel de Controle do Skype for Business Server para criar ou modificar um intervalo de números para estacionar chamadas
+### <a name="to-use-skype-for-business-server-control-panel-to-create-or-modify-a-range-of-numbers-for-parking-calls"></a>Para usar o Painel de Controle do Skype for Business Server para criar ou modificar um intervalo de números para chamadas de estacionamento
 
 1. Faça logon no computador como membro do grupo RTCUniversalServerAdmins ou como membro da função CsVoiceAdministrator, CsServerAdministrator ou CsAdministrator. Para obter detalhes, consulte **Delegate Setup Permissions**.
 
-2. Abra uma janela do navegador e insira a URL do Administrador para abrir o Painel de Controle do Skype for Business Server.
+2. Abra uma janela do navegador e insira a URL do administrador para abrir o Painel de Controle do Skype for Business Server.
 
 3. Na barra de navegação esquerda, clique em **Recursos de Voz** e em **Estacionamento de Chamada**.
 
@@ -64,9 +64,9 @@ Utilize um dos seguintes procedimentos para criar ou modificar um intervalo de �
 
    - O intervalo da órbita deve ser único. Esse intervalo não pode se sobrepor a nenhum outro intervalo.
 
-   - Se o intervalo de órbitas começar com o caractere \* ou #, o intervalo deverá ser maior que 100.
+   - Se o intervalo de órbitas começar com o caractere \* ou #, o intervalo deve ser maior que 100.
 
-   - Valores válidos: devem corresponder à cadeia de caracteres de expressão regular ([ \\ *|#]?[ 1-9]\d {0,7} )| ([1-9]\d {0,8} ). Isso significa que o valor deve ser uma cadeia de caracteres começando com o caractere ou # ou um número de 1 a 9 (o primeiro caractere \* não pode ser zero). Se o primeiro caractere for ou #, o caractere seguinte deverá ser um número \* de 1 a 9 (não pode ser zero). Os caracteres subsequentes podem ser qualquer número de 0 a 9 até sete caracteres adicionais (por exemplo, "#6000", " \* 92000", " \* 95551212" e "915551212"). Se o primeiro caractere não for ou #, o primeiro caractere deverá ser um número de 1 a 9 (não pode ser zero), seguido por até oito caracteres, cada um com um número de \* 0 a 9 (por exemplo, "915551212", "41212", "300").
+   - Valores válidos: deve corresponder à cadeia de caracteres de expressão regular ([ \\ *|#]?[ 1-9]\d {0,7} )| ([1-9]\d {0,8} ). Isso significa que o valor deve ser uma cadeia de caracteres começando com o caractere ou # ou um \* número de 1 a 9 (o primeiro caractere não pode ser um zero). Se o primeiro caractere for ou #, o caractere a seguir deverá ser um \* número de 1 a 9 (não pode ser um zero). Os caracteres subsequentes podem ser qualquer número de 0 a 9 até sete caracteres adicionais (por exemplo, "#6000", " \* 92000", " \* 95551212" e "915551212"). Se o primeiro caractere não for ou #, o primeiro caractere deverá ser um número de 1 a 9 (não pode ser zero), seguido por até oito caracteres, cada um com um número de \* 0 a 9 (por exemplo, "915551212", "41212", "300").
 
    - Você não deve ter mais que um total de 50.000 órbitas por pool. Cada intervalo de órbita geralmente abrange 100 órbitas ou menos, mas pode ser muito maior, contanto que inclua menos que 10.000 órbitas. Por exemplo, em vez de especificar um número inicial em "7000000" e um número final em "8000000", considere especificar um número inicial em "7000000" e um número final em "7000100".
 
@@ -74,11 +74,11 @@ Utilize um dos seguintes procedimentos para criar ou modificar um intervalo de �
 
 7. Clique em **Confirmar**.
 
-### <a name="to-use-skype-for-business-server-management-shell-to-create-or-modify-a-range-of-numbers-for-parking-calls"></a>Para usar o Shell de Gerenciamento do Skype for Business Server para criar ou modificar um intervalo de números para estacionar chamadas
+### <a name="to-use-skype-for-business-server-management-shell-to-create-or-modify-a-range-of-numbers-for-parking-calls"></a>Para usar o Shell de Gerenciamento do Skype for Business Server para criar ou modificar um intervalo de números para chamadas de estacionamento
 
-1. Faça logoff no computador onde o Shell de Gerenciamento do Skype for Business Server está instalado como membro do grupo RTCUniversalServerAdmins ou com os direitos de usuário **necessários,** conforme descrito em Delegate Setup Permissions .
+1. Faça logoff no computador onde o Shell de Gerenciamento do Skype for Business Server está instalado como membro do grupo RTCUniversalServerAdmins ou com os direitos de usuário **necessários,** conforme descrito em Permissões de Instalação do Representante.
 
-2. Inicie o Shell de Gerenciamento do Skype for Business Server: clique em **Iniciar,** em Todos os **Programas,** no **Skype for Business 2015** e, em seguida, clique no Shell de Gerenciamento do **Skype for Business Server.**
+2. Inicie o Shell de Gerenciamento do Skype for Business Server: clique em **Iniciar,** em Todos os **Programas,** em **Skype for Business 2015** e em Shell de Gerenciamento do **Skype for Business Server.**
 
 3. Use o **New-CsCallParkOrbit** para criar um novo intervalo de números de órbitas. Use o **Set-CsCallParkOrbit** para modificar um intervalo de números de órbitas de estacionamento de chamada existente.
 
@@ -102,8 +102,8 @@ Utilize um dos seguintes procedimentos para criar ou modificar um intervalo de �
 
 ## <a name="see-also"></a>Confira também
 
-[New-CsCallParkOrbit](https://docs.microsoft.com/powershell/module/skype/new-cscallparkorbit?view=skype-ps)
+[New-CsCallParkOrbit](/powershell/module/skype/new-cscallparkorbit?view=skype-ps)
 
-[Set-CsCallParkOrbit](https://docs.microsoft.com/powershell/module/skype/set-cscallparkorbit?view=skype-ps)
+[Set-CsCallParkOrbit](/powershell/module/skype/set-cscallparkorbit?view=skype-ps)
 
-[Excluir um intervalo de órbita de estacionamento de chamada](https://technet.microsoft.com/library/85e9f916-062d-450d-ac0a-aeaefc0f7cdc.aspx)
+[Excluir um intervalo de órbita de estacionamento de chamada](/previous-versions/office/lync-server-2013/lync-server-2013-delete-a-call-park-orbit-range)

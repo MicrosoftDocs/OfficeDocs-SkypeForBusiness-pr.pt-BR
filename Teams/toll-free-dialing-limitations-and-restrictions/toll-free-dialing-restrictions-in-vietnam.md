@@ -23,13 +23,13 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
-description: Saiba mais sobre como discar números de tarifa gratuita no Vietnã, incluindo disponibilidade, disponibilidade de rede com fio/fixo e rede móvel e restrições.
-ms.openlocfilehash: 405ffbd67583f0adaff29751fdd954da0ee0cd64
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+description: Saiba mais sobre a discagem de números gratuitos no Vietnã, incluindo disponibilidade, disponibilidade de rede com fio/fixa e rede móvel e restrições.
+ms.openlocfilehash: 52228a24a54ac090499f33a7af66deee83d48cec
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43139700"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51116549"
 ---
 # <a name="toll-free-dialing-restrictions-in-vietnam"></a>Restrições de discagem de chamada gratuita no Vietnã
 
@@ -38,20 +38,19 @@ ms.locfileid: "43139700"
 
 | **Detalhes**                                      | **Descrição**                                                                                                                                                                                                                                                                                                                                                                                           |
 |:-------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| As chamada gratuitas estão disponíveis?  <br/>           | Sim  <br/>                                                                                                                                                                                                                                                                                                                                                                                                |
-| Formato(s) de discagem  <br/>                         | 120-11-3XX <br/>  122-XXX-XX <br/>  1800 XXXX: o formato não é mais fornecido <br/>                                                                                                                                                                                                                                                                                                                            |
-| Código ISO do país/região  <br/>                   | VN  <br/>                                                                                                                                                                                                                                                                                                                                                                                                 |
+| A chamada gratuita está disponível?  <br/>           | Sim  <br/>                                                                                                                                                                                                                                                                                                                                                                                                |
+| Formatos de discagem  <br/>                         | 120-11-3XX <br/>  122-XXX-XX <br/>  1800 XXXX: formato não fornecido mais <br/>                                                                                                                                                                                                                                                                                                                            |
+| Código ISO de país/região  <br/>                   | VN  <br/>                                                                                                                                                                                                                                                                                                                                                                                                 |
 | Ilha/território coberto  <br/>                  | Não aplicável  <br/>                                                                                                                                                                                                                                                                                                                                                                                     |
 | Ilha/território não coberto  <br/>              | Não aplicável  <br/>                                                                                                                                                                                                                                                                                                                                                                                     |
-| Disponibilidade de linhas com fio/fixo  <br/>             | Parcial. Veja os comentários.  <br/>                                                                                                                                                                                                                                                                                                                                                                             |
+| Disponibilidade de linha com fio/fixa  <br/>             | Parcial. Veja os comentários.  <br/>                                                                                                                                                                                                                                                                                                                                                                             |
 | Disponibilidade com a rede móvel  <br/>               | Parcial. Veja os comentários.  <br/>                                                                                                                                                                                                                                                                                                                                                                             |
-| Comentários, restrições e problemas de acesso  <br/> | O formato de número XX XXX 120 funcionará a partir de redes fixas e móveis da Vietnam Telecom International (VTI) e VNPT (Vietnam Post and Telecommunications). <br/> <br/> A partir de junho de 2018, o formato de número XX XXX 120 não pode ser chamado da rede móvel do Mobifone. <br/> <br/>**Observação:** O Mobifone &amp; Vinaphone faz parte do VNPT. The number format 122 XXX XX network coverage: Viettel (fixed and mobile). De acordo com o Vietnam Ministry of Telecommunications, a duração máxima de chamada permitida é de 2 horas. |
+| Comentários, restrições e problemas de acesso  <br/> | O formato de número XXX 120 XX funcionará a partir das redes fixas e móveis da VTI (Vietnã Telecom International) e VNPT (Poste do Vietnã e Telecomunicações). <br/> <br/> A partir de junho de 2018, o formato de número XXX 120 XX não pode ser chamado da rede móvel do Mobifone. <br/> <br/>**Observação:** Mobifone &amp; Vinaphone faz parte do VNPT. The number format 122 XXX XX network coverage: Viettel (fixed and mobile). De acordo com o Ministério de Telecomunicações do Vietnã, a duração máxima de chamada permitida é de 2 horas. |
    
 ## <a name="related-topics"></a>Tópicos relacionados
 
 [Limitações e restrições de discagem gratuita](../toll-free-dialing-limitations-and-restrictions.md)
 
-[Obtendo números de telefone de serviço do Skype for Business e do Microsoft Teams](/microsoftteams/getting-service-phone-numbers)
+[Obtendo números de telefone de serviço do Skype for Business e do Microsoft Teams](../getting-service-phone-numbers.md)
 
   
- 

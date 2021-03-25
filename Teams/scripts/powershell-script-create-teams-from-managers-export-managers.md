@@ -1,5 +1,5 @@
 ---
-title: Exemplo de script do PowerShell - Exportar gerentes e seus diretos
+title: Exemplo de script do PowerShell - Exportar gerentes e seus directs
 author: SerdarSoysal
 ms.author: serdars
 manager: serdars
@@ -7,7 +7,7 @@ ms.topic: article
 ms.reviewer: brandber
 ms.service: msteams
 audience: admin
-description: Use este script do PowerShell para exportar uma lista de gerentes e seus diretos para sua organização, em preparação para criar uma equipe para cada gerente com seus diretos como membros da equipe.
+description: Use este script do PowerShell para exportar uma lista de gerentes e seus diretos para sua organização, em preparação para criar uma equipe para cada gerente com seus directs como membros da equipe.
 f1.keywords:
 - NOCSH
 localization_priority: Normal
@@ -16,20 +16,20 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d9e7b35710811438f1435306ce08b487b490d472
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: a7f2217bc39ead0abec48dafb75ff3f846681f20
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46583118"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117309"
 ---
-# <a name="powershell-script-sample---export-managers-and-their-directs"></a>Exemplo de script do PowerShell - Exportar gerentes e seus diretos
+# <a name="powershell-script-sample---export-managers-and-their-directs"></a>Exemplo de script do PowerShell - Exportar gerentes e seus directs
 
-Use este script do PowerShell para exportar uma lista de gerentes e seus diretos para sua organização, em preparação para criar uma equipe de gerente de pessoas para cada gerente com seus diretos como membros da equipe.
+Use este script do PowerShell para exportar uma lista de gerentes e seus diretos para sua organização, em preparação para a criação de uma equipe de gerente de pessoas para cada gerente com seus directs como membros da equipe.
 
-Para saber mais sobre esse script do PowerShell, leia [Criar equipes do Gerenciador de Pessoas.](../create-manager-directs-teams.md)
+Para saber mais sobre esse script do PowerShell, leia [Create people manager teams](../create-manager-directs-teams.md).
 
-Se você é novato no PowerShell e precisa de ajuda para começar, consulte [Visão geral do Azure PowerShell](https://docs.microsoft.com/powershell/azure/overview?view=azurermps-5.1.1).
+Se você é novato no PowerShell e precisa de ajuda para começar, consulte [Visão geral do Azure PowerShell](/powershell/azure/overview?view=azurermps-5.1.1).
 
 
 ## <a name="export-managers-script"></a>Export-Managers script
@@ -142,5 +142,3 @@ Write-Host -ForegroundColor Green "$(Get-Timestamp) Exported tab delimited outpu
 
 
 ```
-
-

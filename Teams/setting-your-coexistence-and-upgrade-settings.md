@@ -18,17 +18,17 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c2dbeb4d93273aab848f1b4436b46e6b22e08e53
-ms.sourcegitcommit: 79b19b326ef40bf04af03021a7c6506fdd9417ba
+ms.openlocfilehash: 52e035f3940237309a1a8bab0211ccaad243b004
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/02/2021
-ms.locfileid: "50397566"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117069"
 ---
 # <a name="set-your-coexistence-and-upgrade-settings"></a>Definir suas configurações de coexistência e atualização
 
 
-Ao atualizar seus usuários do Skype for Business para usar o Teams, você tem várias opções para ajudá-lo a tornar um processo contínuo para seus usuários. Você tem a opção de fazer configurações de coexistência e atualização para todos os usuários em sua organização de uma só vez ou pode fazer alterações de configurações para um único ou conjunto de usuários em sua organização. Observe que as versões mais antigas dos clientes do Skype for Business podem não honrar essas configurações. Para obter mais informações sobre versões do cliente do Skype for Business, acesse a página Downloads e atualizações do [Skype for Business.](https://docs.microsoft.com/skypeforbusiness/software-updates) 
+Ao atualizar seus usuários do Skype for Business para usar o Teams, você tem várias opções para ajudá-lo a tornar um processo contínuo para seus usuários. Você tem a opção de fazer configurações de coexistência e atualização para todos os usuários em sua organização de uma só vez ou pode fazer alterações de configurações para um único ou conjunto de usuários em sua organização. Observe que as versões mais antigas dos clientes do Skype for Business podem não honrar essas configurações. Para obter mais informações sobre versões do cliente do Skype for Business, acesse a página Downloads e atualizações do [Skype for Business.](/skypeforbusiness/software-updates) 
 
 Você pode entender melhor os modos que estão disponíveis para você lendo Entender a [coexistência](teams-and-skypeforbusiness-coexistence-and-interoperability.md) e a interoperabilidade do Microsoft Teams e do Skype for Business ou coexistência com o [Skype for Business.](coexistence-chat-calls-presence.md)  
 
@@ -38,7 +38,7 @@ Você pode entender melhor os modos que estão disponíveis para você lendo Ent
 
 ## <a name="set-upgrade-options-for-all-users-in-your-organization"></a>Definir opções de atualização para todos os usuários em sua organização
 
-![Um ícone mostrando o logotipo do Microsoft Teams](media/teams-logo-30x30.png) **Usando o centro de administração do Microsoft Teams**
+![Um ícone que mostra o logotipo do Microsoft Teams](media/teams-logo-30x30.png) **Usando o centro de administração do Microsoft Teams**
 
 1. No centro [de administração do Microsoft Teams](https://admin.teams.microsoft.com/), na navegação à esquerda, acesse **Configurações** em toda a organização  >  **Atualização do Teams**. 
 
@@ -59,7 +59,7 @@ Você pode entender melhor os modos que estão disponíveis para você lendo Ent
 
 ## <a name="set-upgrade-options-for-a-single-user-in-your-organization"></a>Definir opções de atualização para um único usuário em sua organização
 
-![Um ícone mostrando o logotipo do Microsoft Teams](media/teams-logo-30x30.png) **Usando o centro de administração do Microsoft Teams**
+![Um ícone que mostra o logotipo do Microsoft Teams](media/teams-logo-30x30.png) **Usando o centro de administração do Microsoft Teams**
 
 1. Na navegação à esquerda, vá para **Usuários** e selecione o usuário na lista. 
 2. Na guia **Conta** do usuário, em Atualização **do Teams,** clique em **Editar**.

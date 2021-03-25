@@ -17,12 +17,12 @@ search.appverid: MET150
 description: ''
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ac33cd0c815aec39855351dbd1abf16ce4f52b7f
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: fa77f33e82752446337bc05f33e733717fbb16f7
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41824819"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51115999"
 ---
 # <a name="customize-microsoft-365-business-voice"></a>Personalizar o Microsoft 365 Business Voice
 
@@ -33,7 +33,7 @@ Mas você provavelmente desejará personalizar o Business Voice para atender mel
 | Tarefa                                                          | Descrição                                                                                          |
 |---------------------------------------------------------------|------------------------------------------------------------------------------------------------------|
 | [Migrar números de telefone para o Business Voice](port-phone-numbers.md) | Traga seus números de telefone existentes para o Business Voice.                                                 |
-| [Configurar atendedores automáticos](set-up-auto-attendants.md)           | Adicione mais menus de chamada para expandir as opções para chamadores que ligam para o seu número de telefone principal.        |
+| [Configurar atendedores automáticos](./create-a-phone-system-auto-attendant-smb.md)           | Adicione mais menus de chamada para expandir as opções para chamadores que ligam para o seu número de telefone principal.        |
 | [Configurar políticas de chamadas](set-up-policies.md)                 | Controle se os usuários podem fazer coisas como fazer chamadas privadas, usar o encaminhamento de chamadas e delegar chamadas.        |
 | [Criar usuários adicionais](create-users.md)                    | Adicione mais usuários e atribua números de telefone novos ou existentes a eles.                                     |
-| [Configurar filas de chamadas](set-up-call-queues.md)                   | Crie uma fila em que os chamadores possam aguardar o próximo agente disponível.                                  |
+| [Configurar filas de chamadas](./create-a-phone-system-call-queue-smb.md)                   | Crie uma fila em que os chamadores possam aguardar o próximo agente disponível.                                  |

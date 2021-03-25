@@ -23,13 +23,13 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
-description: Saiba mais sobre como discar números de discagem gratuita nas Filipinas, incluindo disponibilidade, disponibilidade de rede com fio/fixo e rede móvel e restrições.
-ms.openlocfilehash: 4d38c75a002733fda1874a7aba3a5a1d08a85ba0
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+description: Saiba mais sobre a discagem de números gratuitos nas Filipinas, incluindo disponibilidade, disponibilidade de rede com fio/fixa e rede móvel e restrições.
+ms.openlocfilehash: 9d6c84a6f96e795b777033a0a0456eabe1136620
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43139750"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51116579"
 ---
 # <a name="toll-free-dialing-restrictions-in-philippines"></a>Restrições de discagem de chamada gratuita nas Filipinas
 
@@ -38,12 +38,12 @@ ms.locfileid: "43139750"
 
 |**Detalhes**|**Descrição**|
 |:-----|:-----|
-|As chamada gratuitas estão disponíveis?  <br/> |Sim  <br/> |
-|Formato(s) de discagem  <br/> |1 800 XXXX XXXX  <br/> |
-|Código ISO do país/região  <br/> |PH  <br/> |
+|A chamada gratuita está disponível?  <br/> |Sim  <br/> |
+|Formatos de discagem  <br/> |1 800 XXXX XXXX  <br/> |
+|Código ISO de país/região  <br/> |PH  <br/> |
 |Ilha/território coberto  <br/> |Não aplicável  <br/> |
 |Ilha/território não coberto  <br/> |Não aplicável  <br/> |
-|Disponibilidade de linhas com fio/fixo  <br/> | Somente pela PLDT. <br/> |
+|Disponibilidade de linha com fio/fixa  <br/> | Somente pela PLDT. <br/> |
 |Disponibilidade com a rede móvel  <br/> |Parcial, mas com tarifa premium. Veja os comentários.  <br/> |
 |Comentários, restrições e problemas de acesso  <br/> |Disponível pelas redes da Sun Cellular e da Smart Mobile.  <br/> |
    
@@ -51,7 +51,6 @@ ms.locfileid: "43139750"
 
 [Limitações e restrições de discagem gratuita](../toll-free-dialing-limitations-and-restrictions.md)
 
-[Obtendo números de telefone de serviço do Skype for Business e do Microsoft Teams](/microsoftteams/getting-service-phone-numbers)
+[Obtendo números de telefone de serviço do Skype for Business e do Microsoft Teams](../getting-service-phone-numbers.md)
 
   
- 

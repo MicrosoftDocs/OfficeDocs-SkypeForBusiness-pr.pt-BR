@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fcdae04ce87db82bd5f18e818dcf194fc7ff38c7
-ms.sourcegitcommit: 31a585cc0fe6350efacf3a7771d1e590d5e4233c
+ms.openlocfilehash: a6fa7d46a4ace2e6bc12289f9abe71362511d24c
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "50615037"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117079"
 ---
 # <a name="set-up-your-team-targeting-hierarchy"></a>Configure a hierarquia de segmentação de sua equipe
 
@@ -74,7 +74,7 @@ Por exemplo, na hierarquia a seguir, Recall, Communications e HR podem publicar 
 ## <a name="create-your-hierarchy"></a>Criar sua hierarquia
 
 > [!NOTE]
-> O restante deste artigo aborda a configuração de uma hierarquia de equipe no contexto de tarefas de publicação para equipes de destinatários. Consulte [Manage the Tasks app for your](https://docs.microsoft.com/MicrosoftTeams/manage-tasks-app) organization in Teams for an overview of the Tasks app, where task publishing appears when enabled.
+> O restante deste artigo aborda a configuração de uma hierarquia de equipe no contexto de tarefas de publicação para equipes de destinatários. Consulte [Manage the Tasks app for your](./manage-tasks-app.md) organization in Teams for an overview of the Tasks app, where task publishing appears when enabled.
 
 O esquema que define sua hierarquia é baseado em um arquivo CSV (valores separados por vírgula). Cada linha no arquivo CSV corresponde a um nó dentro da hierarquia de equipes. Cada linha contém informações que nomeia o nó dentro da hierarquia, opcionalmente o vincula a uma equipe e inclui atributos que podem ser usados para filtrar equipes em aplicativos que o suportam.
 

@@ -17,12 +17,12 @@ search.appverid: MET150
 description: ''
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0e5c64b8ff26ae91263925a23151cdc6619b29b3
-ms.sourcegitcommit: b4b2c7e79679cce6cf5f863ddf708e50164f9a9d
+ms.openlocfilehash: c991c038e40d988de596d10ca0e868cfd911175d
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/17/2021
-ms.locfileid: "50861415"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51116019"
 ---
 # <a name="country-and-region-availability-for-business-voice"></a>Disponibilidade do Business Voice em países e regiões
 
@@ -46,7 +46,7 @@ Em países e regiões **sem** suporte para os Planos de Chamadas e Assistente de
 
 Se o seu locatário estiver localizado em um país ou região que não oferece suporte aos Planos de Chamadas e Assistente de Introdução, confira [Obter ajuda de um revendedor ou parceiro da Microsoft](reseller-partner-support.md).
 
-Para ver o que está incluso no Business Voice com Plano de Chamadas e sem Plano de Chamadas, confira [Descrição do serviço Microsoft 365 Business Voice](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-business-voice-service-description).
+Para ver o que está incluso no Business Voice com Plano de Chamadas e sem Plano de Chamadas, confira [Descrição do serviço Microsoft 365 Business Voice](/office365/servicedescriptions/microsoft-365-business-voice-service-description).
 
 
 | País ou região    | Business Voice<br> com o Plano de Chamadas | Business Voice<br> sem o Plano de Chamadas<br>(Roteamento direto) | Assistente de Introdução |

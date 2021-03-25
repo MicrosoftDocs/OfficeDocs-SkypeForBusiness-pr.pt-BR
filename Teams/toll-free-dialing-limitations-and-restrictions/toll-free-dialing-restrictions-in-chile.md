@@ -23,13 +23,13 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
-description: Saiba mais sobre como discar números de gratuitamente no Chile, incluindo disponibilidade, disponibilidade de rede com fio/fixo e rede móvel e restrições.
-ms.openlocfilehash: 00aec8e288ca1424eec9754e1f74f9cec9a5e579
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+description: Saiba mais sobre discagem de números gratuitos no Chile, incluindo disponibilidade, disponibilidade de rede com fio/fixa e rede móvel e restrições.
+ms.openlocfilehash: 3b3affb2168c821e11d8aa526815384776c7971c
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43140470"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51116799"
 ---
 # <a name="toll-free-dialing-restrictions-in-chile"></a>Restrições de discagem de chamada gratuita no Chile
 
@@ -38,19 +38,18 @@ ms.locfileid: "43140470"
 
 |**Detalhes**|**Descrição**|
 |:-----|:-----|
-|As chamada gratuitas estão disponíveis?  <br/> |Sim  <br/> |
-|Formato(s) de discagem  <br/> | 123 XXXX XXXX <br/>  188 800 XXX XXX <br/> |
-|Código ISO do país/região  <br/> |CL  <br/> |
+|A chamada gratuita está disponível?  <br/> |Sim  <br/> |
+|Formatos de discagem  <br/> | 123 XXXX XXXX <br/>  188 800 XXX XXX <br/> |
+|Código ISO de país/região  <br/> |CL  <br/> |
 |Ilha/território coberto  <br/> |Não aplicável  <br/> |
 |Ilha/território não coberto  <br/> |Sem acesso na Ilha da Páscoa.  <br/> |
-|Disponibilidade de linhas com fio/fixo  <br/> |Parcial. Veja os comentários.  <br/> |
+|Disponibilidade de linha com fio/fixa  <br/> |Parcial. Veja os comentários.  <br/> |
 |Disponibilidade com a rede móvel  <br/> |Parcial. Veja os comentários.  <br/> |
-|Comentários, restrições e problemas de acesso  <br/> |O formato de número 188 800 XXX XXX é acessível pela rede da Telefonica. O formato de número XXXX XXXX 123 pode ser acessado somente na rede Entel. O acesso móvel é acessível para ambos os formatos de número.  <br/> |
+|Comentários, restrições e problemas de acesso  <br/> |O formato de número 188 800 XXX XXX é acessível pela rede da Telefonica. O formato de número XXXX XXXX 123 é acessível somente na rede Entel. O acesso móvel é acessível para ambos os formatos de número.  <br/> |
    
 ## <a name="related-topics"></a>Tópicos relacionados
 [Limitações e restrições de discagem gratuita](../toll-free-dialing-limitations-and-restrictions.md)
 
-[Obtendo números de telefone de serviço do Skype for Business e do Microsoft Teams](/microsoftteams/getting-service-phone-numbers)
+[Obtendo números de telefone de serviço do Skype for Business e do Microsoft Teams](../getting-service-phone-numbers.md)
 
   
- 

@@ -1,5 +1,5 @@
 ---
-title: Mobility (Planning Tool)
+title: Mobility (Ferramenta de Planejamento)
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -14,18 +14,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: feceed86-0f71-47e4-8e56-e5181c6b5cc9
-description: O recurso de mobilidade no Skype for Business Server dá suporte à funcionalidade do Skype for Business em dispositivos móveis.
-ms.openlocfilehash: dd28a768137f4f035c657f582c6ead5b3288a9a5
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: O recurso de mobilidade no Skype for Business Server oferece suporte à funcionalidade do Skype for Business em dispositivos móveis.
+ms.openlocfilehash: 9f446891cece9d0689ea2925c05fa9a1f7acfdef
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49819701"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51116489"
 ---
-# <a name="mobility-planning-tool"></a>Mobility (Planning Tool)
+# <a name="mobility-planning-tool"></a>Mobility (Ferramenta de Planejamento)
  
-O recurso de mobilidade no Skype for Business Server dá suporte à funcionalidade do Skype for Business em dispositivos móveis.
+O recurso de mobilidade no Skype for Business Server oferece suporte à funcionalidade do Skype for Business em dispositivos móveis.
   
-A funcionalidade de mobilidade é a mesma no Skype for Business Server que no Lync Server 2013. Para obter mais detalhes sobre como preparar seu ambiente para mobilidade, consulte Planejamento para [mobilidade no Lync Server 2013.](https://technet.microsoft.com/library/hh689981%28v=ocs.15%29.aspx)
-  
-
+A funcionalidade de mobilidade é a mesma no Skype for Business Server como no Lync Server 2013. Para obter mais detalhes sobre como preparar seu ambiente para mobilidade, consulte [Planning for mobility in Lync Server 2013](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-mobility).
