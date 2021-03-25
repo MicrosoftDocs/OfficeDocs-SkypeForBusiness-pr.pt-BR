@@ -1,5 +1,5 @@
 ---
-title: Webconferência (Ferramenta de Planejamento)
+title: WebConferência (Ferramenta de Planejamento)
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -16,28 +16,26 @@ localization_priority: Normal
 ms.assetid: 4e4425c1-4a7b-4706-a4cd-155fd903acd5
 ROBOTS: NOINDEX, NOFOLLOW
 description: A webconferência do Skype for Business Server inclui colaboração de documentos, compartilhamento de aplicativos e compartilhamento de área de trabalho.
-ms.openlocfilehash: 2f6b43227e96a6a4973c7f7690dc4cc2aa1dfe42
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 93516608bfac05e5d2ffbdce271bb3475bded15b
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49819621"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51116469"
 ---
-# <a name="web-conferencing-planning-tool"></a><span data-ttu-id="62b8d-103">Webconferência (Ferramenta de Planejamento)</span><span class="sxs-lookup"><span data-stu-id="62b8d-103">Web Conferencing (Planning Tool)</span></span>
+# <a name="web-conferencing-planning-tool"></a><span data-ttu-id="d338b-103">WebConferência (Ferramenta de Planejamento)</span><span class="sxs-lookup"><span data-stu-id="d338b-103">Web Conferencing (Planning Tool)</span></span>
  
-<span data-ttu-id="62b8d-104">A webconferência do Skype for Business Server inclui colaboração de documentos, compartilhamento de aplicativos e compartilhamento de área de trabalho.</span><span class="sxs-lookup"><span data-stu-id="62b8d-104">Skype for Business Server web conferencing includes document collaboration, application sharing, and desktop sharing.</span></span>
+<span data-ttu-id="d338b-104">A webconferência do Skype for Business Server inclui colaboração de documentos, compartilhamento de aplicativos e compartilhamento de área de trabalho.</span><span class="sxs-lookup"><span data-stu-id="d338b-104">Skype for Business Server web conferencing includes document collaboration, application sharing, and desktop sharing.</span></span>
   
 > [!NOTE]
-> <span data-ttu-id="62b8d-105">O Skype for Business Server usa o Office Web Apps e o Servidor do Office Web Apps para lidar com o compartilhamento e a renderização de apresentações do PowerPoint.</span><span class="sxs-lookup"><span data-stu-id="62b8d-105">Skype for Business Server uses Office Web Apps and the Office Web Apps Server to handle sharing and rendering of PowerPoint presentations.</span></span> <span data-ttu-id="62b8d-106">Os recursos de webconferência funcionam exatamente da mesma forma que no Microsoft Lync 2013.</span><span class="sxs-lookup"><span data-stu-id="62b8d-106">Web conferencing features function exactly the same as they do in Microsoft Lync 2013.</span></span> <span data-ttu-id="62b8d-107">Para obter detalhes sobre como instalar e configurar o Servidor do Office Web Apps, consulte Configurando a integração com o Servidor do Office Web Apps e [o Lync Server 2013.](https://technet.microsoft.com/library/jj204792%28v=ocs.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="62b8d-107">For details about installing and configuring the Office Web Apps Server, see [Configuring integration with Office Web Apps Server and Lync Server 2013](https://technet.microsoft.com/library/jj204792%28v=ocs.15%29.aspx).</span></span> 
+> <span data-ttu-id="d338b-105">O Skype for Business Server usa o Office Web Apps e o Servidor do Office Web Apps para lidar com o compartilhamento e a renderização de apresentações do PowerPoint.</span><span class="sxs-lookup"><span data-stu-id="d338b-105">Skype for Business Server uses Office Web Apps and the Office Web Apps Server to handle sharing and rendering of PowerPoint presentations.</span></span> <span data-ttu-id="d338b-106">Os recursos de webconferência funcionam exatamente como no Microsoft Lync 2013.</span><span class="sxs-lookup"><span data-stu-id="d338b-106">Web conferencing features function exactly the same as they do in Microsoft Lync 2013.</span></span> <span data-ttu-id="d338b-107">Para obter detalhes sobre como instalar e configurar o Servidor do Office Web Apps, consulte [Configuring integration with Office Web Apps Server and Lync Server 2013](/previous-versions/office/lync-server-2013/lync-server-2013-enabling-office-web-apps-server-and-lync-server-2013).</span><span class="sxs-lookup"><span data-stu-id="d338b-107">For details about installing and configuring the Office Web Apps Server, see [Configuring integration with Office Web Apps Server and Lync Server 2013](/previous-versions/office/lync-server-2013/lync-server-2013-enabling-office-web-apps-server-and-lync-server-2013).</span></span> 
   
-<span data-ttu-id="62b8d-108">Para detalhes de planejamento sobre a habilitação da webconferência em sua organização, consulte os seguintes tópicos:</span><span class="sxs-lookup"><span data-stu-id="62b8d-108">For planning details about enabling web conferencing in your organization, see the following topics:</span></span> 
+<span data-ttu-id="d338b-108">Para detalhes de planejamento sobre como habilcar a webconferência em sua organização, consulte os seguintes tópicos:</span><span class="sxs-lookup"><span data-stu-id="d338b-108">For planning details about enabling web conferencing in your organization, see the following topics:</span></span> 
   
-- [<span data-ttu-id="62b8d-109">Planejar a conferência no Skype for Business Server</span><span class="sxs-lookup"><span data-stu-id="62b8d-109">Plan for conferencing in Skype for Business Server</span></span>](../../../plan-your-deployment/conferencing/conferencing.md)
+- [<span data-ttu-id="d338b-109">Planejar conferência no Skype for Business Server</span><span class="sxs-lookup"><span data-stu-id="d338b-109">Plan for conferencing in Skype for Business Server</span></span>](../../../plan-your-deployment/conferencing/conferencing.md)
     
-- [<span data-ttu-id="62b8d-110">Requisitos de hardware e software para conferência no Skype for Business Server</span><span class="sxs-lookup"><span data-stu-id="62b8d-110">Hardware and software requirements for conferencing in Skype for Business Server</span></span>](../../../plan-your-deployment/conferencing/hardware-and-software-requirements.md)
+- [<span data-ttu-id="d338b-110">Requisitos de hardware e software para conferência no Skype for Business Server</span><span class="sxs-lookup"><span data-stu-id="d338b-110">Hardware and software requirements for conferencing in Skype for Business Server</span></span>](../../../plan-your-deployment/conferencing/hardware-and-software-requirements.md)
     
-- [<span data-ttu-id="62b8d-111">Planejar a conferência discada no Skype for Business Server</span><span class="sxs-lookup"><span data-stu-id="62b8d-111">Plan for dial-in conferencing in Skype for Business Server</span></span>](../../../plan-your-deployment/conferencing/dial-in-conferencing.md)
+- [<span data-ttu-id="d338b-111">Planejar conferência discada no Skype for Business Server</span><span class="sxs-lookup"><span data-stu-id="d338b-111">Plan for dial-in conferencing in Skype for Business Server</span></span>](../../../plan-your-deployment/conferencing/dial-in-conferencing.md)
     
-- [<span data-ttu-id="62b8d-112">Planejar grandes reuniões no Skype for Business Server</span><span class="sxs-lookup"><span data-stu-id="62b8d-112">Plan for large meetings in Skype for Business Server</span></span>](../../../plan-your-deployment/conferencing/large-meetings.md)
-    
-
+- [<span data-ttu-id="d338b-112">Planejar grandes reuniões no Skype for Business Server</span><span class="sxs-lookup"><span data-stu-id="d338b-112">Plan for large meetings in Skype for Business Server</span></span>](../../../plan-your-deployment/conferencing/large-meetings.md)

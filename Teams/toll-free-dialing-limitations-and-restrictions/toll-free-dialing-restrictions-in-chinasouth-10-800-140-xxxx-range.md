@@ -23,35 +23,34 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
-description: Saiba mais sobre como discar números de discagem gratuita no sul da China, incluindo disponibilidade, disponibilidade de rede com fio/fixo e rede móvel e restrições.
-ms.openlocfilehash: 0ac72f51546d8655e4472d6392206867247a1900
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+description: Saiba mais sobre como discar números gratuitos no sul da China, incluindo disponibilidade, disponibilidade de rede com fio/fixa e rede móvel e restrições.
+ms.openlocfilehash: ea2b2e535f491f57e5aad41244e56afff3490ebb
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43140450"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51116779"
 ---
-# <a name="toll-free-dialing-restrictions-in-china---south-10-800-140-xxxx-range"></a><span data-ttu-id="f6f68-103">Restrições de discagem de chamada gratuita no Sul da China (faixa de 10 800 140 XXXX)</span><span class="sxs-lookup"><span data-stu-id="f6f68-103">Toll-free dialing restrictions in China - South (10 800 140 XXXX range)</span></span>
+# <a name="toll-free-dialing-restrictions-in-china---south-10-800-140-xxxx-range"></a><span data-ttu-id="203c7-103">Restrições de discagem de chamada gratuita no Sul da China (faixa de 10 800 140 XXXX)</span><span class="sxs-lookup"><span data-stu-id="203c7-103">Toll-free dialing restrictions in China - South (10 800 140 XXXX range)</span></span>
 
-<span data-ttu-id="f6f68-104">[Encontre outro país ou região](../toll-free-dialing-limitations-and-restrictions.md)ou saiba mais sobre limitações e restrições de discagem gratuita.</span><span class="sxs-lookup"><span data-stu-id="f6f68-104">[Find another country or region](../toll-free-dialing-limitations-and-restrictions.md), or learn more about toll-free dialing limitations and restrictions.</span></span>
+<span data-ttu-id="203c7-104">[Encontre outro país ou região](../toll-free-dialing-limitations-and-restrictions.md)ou saiba mais sobre limitações e restrições de discagem gratuita.</span><span class="sxs-lookup"><span data-stu-id="203c7-104">[Find another country or region](../toll-free-dialing-limitations-and-restrictions.md), or learn more about toll-free dialing limitations and restrictions.</span></span>
 
 
-|<span data-ttu-id="f6f68-105">**Detalhes**</span><span class="sxs-lookup"><span data-stu-id="f6f68-105">**Details**</span></span>|<span data-ttu-id="f6f68-106">**Descrição**</span><span class="sxs-lookup"><span data-stu-id="f6f68-106">**Description**</span></span>|
+|<span data-ttu-id="203c7-105">**Detalhes**</span><span class="sxs-lookup"><span data-stu-id="203c7-105">**Details**</span></span>|<span data-ttu-id="203c7-106">**Descrição**</span><span class="sxs-lookup"><span data-stu-id="203c7-106">**Description**</span></span>|
 |:-----|:-----|
-|<span data-ttu-id="f6f68-107">As chamada gratuitas estão disponíveis?</span><span class="sxs-lookup"><span data-stu-id="f6f68-107">Is toll-free calling available?</span></span>  <br/> |<span data-ttu-id="f6f68-108">Sim</span><span class="sxs-lookup"><span data-stu-id="f6f68-108">Yes</span></span>  <br/> |
-|<span data-ttu-id="f6f68-109">Formato(s) de discagem</span><span class="sxs-lookup"><span data-stu-id="f6f68-109">Dialing format(s)</span></span>  <br/> | <span data-ttu-id="f6f68-110">10 800 140 XXXX</span><span class="sxs-lookup"><span data-stu-id="f6f68-110">10 800 140 XXXX</span></span> <br/> |
-|<span data-ttu-id="f6f68-111">Código ISO do país/região</span><span class="sxs-lookup"><span data-stu-id="f6f68-111">Country/region ISO code</span></span>  <br/> |<span data-ttu-id="f6f68-112">CN</span><span class="sxs-lookup"><span data-stu-id="f6f68-112">CN</span></span>  <br/> |
-|<span data-ttu-id="f6f68-113">Ilha/território coberto</span><span class="sxs-lookup"><span data-stu-id="f6f68-113">Island/territory covered</span></span>  <br/> |<span data-ttu-id="f6f68-114">Sul da China/somente pela rede da Telecom China</span><span class="sxs-lookup"><span data-stu-id="f6f68-114">South China / China Telecom network only</span></span>  <br/> |
-|<span data-ttu-id="f6f68-115">Ilha/território não coberto</span><span class="sxs-lookup"><span data-stu-id="f6f68-115">Island/territory not covered</span></span>  <br/> |<span data-ttu-id="f6f68-116">Norte da China</span><span class="sxs-lookup"><span data-stu-id="f6f68-116">North China</span></span>  <br/> |
-|<span data-ttu-id="f6f68-117">Disponibilidade de linhas com fio/fixo</span><span class="sxs-lookup"><span data-stu-id="f6f68-117">Wired/fixed line availability</span></span>  <br/> |<span data-ttu-id="f6f68-118">Somente pela Telecom China.</span><span class="sxs-lookup"><span data-stu-id="f6f68-118">From China Telecom only</span></span>  <br/> |
-|<span data-ttu-id="f6f68-119">Disponibilidade com a rede móvel</span><span class="sxs-lookup"><span data-stu-id="f6f68-119">Mobile network availability</span></span>  <br/> |<span data-ttu-id="f6f68-120">Parcial.</span><span class="sxs-lookup"><span data-stu-id="f6f68-120">Partial.</span></span> <span data-ttu-id="f6f68-121">Veja os comentários.</span><span class="sxs-lookup"><span data-stu-id="f6f68-121">See comments.</span></span>  <br/> |
-|<span data-ttu-id="f6f68-122">Comentários, restrições e problemas de acesso</span><span class="sxs-lookup"><span data-stu-id="f6f68-122">Comments, restrictions, and access issues</span></span>  <br/> |<span data-ttu-id="f6f68-123">Não é acessível por telefone pago.</span><span class="sxs-lookup"><span data-stu-id="f6f68-123">Not accessible from a payphone.</span></span>  <br/> |
+|<span data-ttu-id="203c7-107">A chamada gratuita está disponível?</span><span class="sxs-lookup"><span data-stu-id="203c7-107">Is toll-free calling available?</span></span>  <br/> |<span data-ttu-id="203c7-108">Sim</span><span class="sxs-lookup"><span data-stu-id="203c7-108">Yes</span></span>  <br/> |
+|<span data-ttu-id="203c7-109">Formatos de discagem</span><span class="sxs-lookup"><span data-stu-id="203c7-109">Dialing format(s)</span></span>  <br/> | <span data-ttu-id="203c7-110">10 800 140 XXXX</span><span class="sxs-lookup"><span data-stu-id="203c7-110">10 800 140 XXXX</span></span> <br/> |
+|<span data-ttu-id="203c7-111">Código ISO de país/região</span><span class="sxs-lookup"><span data-stu-id="203c7-111">Country/region ISO code</span></span>  <br/> |<span data-ttu-id="203c7-112">CN</span><span class="sxs-lookup"><span data-stu-id="203c7-112">CN</span></span>  <br/> |
+|<span data-ttu-id="203c7-113">Ilha/território coberto</span><span class="sxs-lookup"><span data-stu-id="203c7-113">Island/territory covered</span></span>  <br/> |<span data-ttu-id="203c7-114">Sul da China/somente pela rede da Telecom China</span><span class="sxs-lookup"><span data-stu-id="203c7-114">South China / China Telecom network only</span></span>  <br/> |
+|<span data-ttu-id="203c7-115">Ilha/território não coberto</span><span class="sxs-lookup"><span data-stu-id="203c7-115">Island/territory not covered</span></span>  <br/> |<span data-ttu-id="203c7-116">Norte da China</span><span class="sxs-lookup"><span data-stu-id="203c7-116">North China</span></span>  <br/> |
+|<span data-ttu-id="203c7-117">Disponibilidade de linha com fio/fixa</span><span class="sxs-lookup"><span data-stu-id="203c7-117">Wired/fixed line availability</span></span>  <br/> |<span data-ttu-id="203c7-118">Somente pela Telecom China.</span><span class="sxs-lookup"><span data-stu-id="203c7-118">From China Telecom only</span></span>  <br/> |
+|<span data-ttu-id="203c7-119">Disponibilidade com a rede móvel</span><span class="sxs-lookup"><span data-stu-id="203c7-119">Mobile network availability</span></span>  <br/> |<span data-ttu-id="203c7-120">Parcial.</span><span class="sxs-lookup"><span data-stu-id="203c7-120">Partial.</span></span> <span data-ttu-id="203c7-121">Veja os comentários.</span><span class="sxs-lookup"><span data-stu-id="203c7-121">See comments.</span></span>  <br/> |
+|<span data-ttu-id="203c7-122">Comentários, restrições e problemas de acesso</span><span class="sxs-lookup"><span data-stu-id="203c7-122">Comments, restrictions, and access issues</span></span>  <br/> |<span data-ttu-id="203c7-123">Não é acessível por telefone pago.</span><span class="sxs-lookup"><span data-stu-id="203c7-123">Not accessible from a payphone.</span></span>  <br/> |
    
-## <a name="related-topics"></a><span data-ttu-id="f6f68-124">Tópicos relacionados</span><span class="sxs-lookup"><span data-stu-id="f6f68-124">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="203c7-124">Tópicos relacionados</span><span class="sxs-lookup"><span data-stu-id="203c7-124">Related topics</span></span>
 
-[<span data-ttu-id="f6f68-125">Limitações e restrições de discagem gratuita</span><span class="sxs-lookup"><span data-stu-id="f6f68-125">Toll-free dialing limitations and restrictions</span></span>](../toll-free-dialing-limitations-and-restrictions.md)
+[<span data-ttu-id="203c7-125">Limitações e restrições de discagem gratuita</span><span class="sxs-lookup"><span data-stu-id="203c7-125">Toll-free dialing limitations and restrictions</span></span>](../toll-free-dialing-limitations-and-restrictions.md)
 
-[<span data-ttu-id="f6f68-126">Obtendo números de telefone de serviço do Skype for Business e do Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="f6f68-126">Getting service phone numbers for Skype for Business and Microsoft Teams</span></span>](/microsoftteams/getting-service-phone-numbers)
+[<span data-ttu-id="203c7-126">Obtendo números de telefone de serviço do Skype for Business e do Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="203c7-126">Getting service phone numbers for Skype for Business and Microsoft Teams</span></span>](../getting-service-phone-numbers.md)
 
   
- 
