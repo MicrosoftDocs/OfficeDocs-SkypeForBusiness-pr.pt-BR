@@ -13,12 +13,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 391490cb-d7b8-44ca-b4d1-429600da909c
 description: A tabela AppSharingStream contém medidas de qualidade da experiência dos fluxos de rede usados no compartilhamento de aplicativos. Esta tabela foi introduzida no Microsoft Lync Server 2013.
-ms.openlocfilehash: 675b4ef689b62577cbee1cef93a28865ca09abfe
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: d95e0d78175f8e17363dc558d82cafefba36ce28
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49809671"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51120873"
 ---
 # <a name="appsharingstream-table"></a>Tabela AppSharingStream
  
@@ -28,7 +28,7 @@ A tabela AppSharingStream contém medidas de qualidade da experiência dos fluxo
 |:-----|:-----|:-----|:-----|
 |**ConferenceDateTime** <br/> |dateTime  <br/> |Primário, externo  <br/> |Data e hora de início da sessão.  <br/> |
 |**SessionSeq** <br/> |int  <br/> |Primário, externo  <br/> |Identificador sequencial usado para distinguir entre sessões que foram iniciadas na mesma data e na mesma hora.  <br/> |
-|**MediaLineLabel** <br/> |tinyint  <br/> |Primário, externo  <br/> | Consulte [MediaLine Table](https://docs.microsoft.com/skypeforbusiness/schema-reference/quality-of-experience-qoe-database-schema/medialine-0). <br/> |
+|**MediaLineLabel** <br/> |tinyint  <br/> |Primário, externo  <br/> | Consulte [MediaLine Table](./medialine-0.md). <br/> |
 |**StreamID** <br/> |int  <br/> |Primário  <br/> |Identificador exclusivo do fluxo de compartilhamento de aplicativos.  <br/> |
 |**JitterInterArrival** <br/> |int  <br/> ||Tremulação média detectada entre chegadas de pacote RTP. (Tremulação é uma medição de quanto uma chamada treme.) Valores altos de tremulação são normalmente causados por congestionamento ou por um servidor de mídia sobrecarregado e resultam em perda ou distorção de áudio.  <br/> |
 |**JitterInterArrivalMax** <br/> |int  <br/> ||Tremulação máxima detectada entre chegadas de pacote RTP. (Tremulação é uma medição de quanto uma chamada treme.) Valores altos de tremulação são normalmente causados por congestionamento ou por um servidor de mídia sobrecarregado e resultam em perda ou distorção de áudio.  <br/> |
@@ -42,19 +42,19 @@ A tabela AppSharingStream contém medidas de qualidade da experiência dos fluxo
 |**RelativeOneWayTotal** <br/> |flutuação  <br/> ||Quantidade total de latência unidirecional. A latência relativa unidirecional mede o atraso entre o cliente e o servidor.  <br/> |
 |**RelativeOneWayAverage** <br/> |flutuação  <br/> ||Quantidade média de latência unidirecional. A latência relativa unidirecional mede o atraso entre o cliente e o servidor.  <br/> |
 |**RelativeOneWayMax** <br/> |flutuação  <br/> ||Quantidade máxima de latência unidirecional. A latência relativa unidirecional mede o atraso entre o cliente e o servidor.  <br/> |
-|**RelativeOneWayBurstOccurrences** <br/> |int  <br/> ||Total de ocorrências de intermitências unidirecionais. Uma transmissão "intersvante" é uma transmissão em que os fluxos de dados ocorrem em intermissões imprevisíveis, em oposição a um fluxo contínuo. Esta medida avalia o fluxo de dados entre o cliente e o servidor.  <br/> |
-|**RelativeOneWayBurstDensity** <br/> |flutuação  <br/> ||Densidade total de intermitências unidirecionais. Uma transmissão "intersvante" é uma transmissão em que os fluxos de dados ocorrem em intermissões imprevisíveis, em oposição a um fluxo contínuo. Esta medida avalia o fluxo de dados entre o cliente e o servidor.  <br/> |
-|**RelativeOneWayBurstDuration** <br/> |flutuação  <br/> ||Duração total de intermitências unidirecionais. Uma transmissão "intersvante" é uma transmissão em que os fluxos de dados ocorrem em intermissões imprevisíveis, em oposição a um fluxo contínuo. Esta medida avalia o fluxo de dados entre o cliente e o servidor.  <br/> |
-|**RelativeOneWayGapOccurrences** <br/> |int  <br/> ||Total de ocorrências de intervalos unidirecionais. Uma transmissão "intersvante" é uma transmissão em que os fluxos de dados são imprevisiveis em oposição a um fluxo contínuo; lacunas indicam atrasos entre essas falhas. Esta medida avalia o fluxo de dados entre o cliente e o servidor.  <br/> |
-|**RelativeOneWayGapDensity** <br/> |flutuação  <br/> ||Densidade total de intervalos unidirecionais. Uma transmissão "intersvante" é uma transmissão em que os fluxos de dados são imprevisiveis em oposição a um fluxo contínuo; lacunas indicam atrasos entre essas falhas. Esta medida avalia o fluxo de dados entre o cliente e o servidor.  <br/> |
-|**RelativeOneWayGapDuration** <br/> |flutuação  <br/> ||Duração total de intervalos unidirecionais. Uma transmissão "intersvante" é uma transmissão em que os fluxos de dados são imprevisiveis em oposição a um fluxo contínuo; lacunas indicam atrasos entre essas falhas. Esta medida avalia o fluxo de dados entre o cliente e o servidor.  <br/> |
+|**RelativeOneWayBurstOccurrences** <br/> |int  <br/> ||Total de ocorrências de intermitências unidirecionais. Uma transmissão "estourada" é uma transmissão em que os dados fluem em intermediações imprevisíveis em vez de um fluxo contínuo. Esta medida avalia o fluxo de dados entre o cliente e o servidor.  <br/> |
+|**RelativeOneWayBurstDensity** <br/> |flutuação  <br/> ||Densidade total de intermitências unidirecionais. Uma transmissão "estourada" é uma transmissão em que os dados fluem em intermediações imprevisíveis em vez de um fluxo contínuo. Esta medida avalia o fluxo de dados entre o cliente e o servidor.  <br/> |
+|**RelativeOneWayBurstDuration** <br/> |flutuação  <br/> ||Duração total de intermitências unidirecionais. Uma transmissão "estourada" é uma transmissão em que os dados fluem em intermediações imprevisíveis em vez de um fluxo contínuo. Esta medida avalia o fluxo de dados entre o cliente e o servidor.  <br/> |
+|**RelativeOneWayGapOccurrences** <br/> |int  <br/> ||Total de ocorrências de intervalos unidirecionais. Uma transmissão "estourada" é uma transmissão em que os dados fluem em intermediações imprevisíveis em vez de um fluxo contínuo; as lacunas indicam atrasos entre essas invasões. Esta medida avalia o fluxo de dados entre o cliente e o servidor.  <br/> |
+|**RelativeOneWayGapDensity** <br/> |flutuação  <br/> ||Densidade total de intervalos unidirecionais. Uma transmissão "estourada" é uma transmissão em que os dados fluem em intermediações imprevisíveis em vez de um fluxo contínuo; as lacunas indicam atrasos entre essas invasões. Esta medida avalia o fluxo de dados entre o cliente e o servidor.  <br/> |
+|**RelativeOneWayGapDuration** <br/> |flutuação  <br/> ||Duração total de intervalos unidirecionais. Uma transmissão "estourada" é uma transmissão em que os dados fluem em intermediações imprevisíveis em vez de um fluxo contínuo; as lacunas indicam atrasos entre essas invasões. Esta medida avalia o fluxo de dados entre o cliente e o servidor.  <br/> |
 |**ApplicationSharingType** <br/> |varChar(256)  <br/> ||Função do aplicativo (participante do compartilhamento ou visualizador) e tipo de conteúdo.  <br/> |
 |**RDPTileProcessingLatencyTotal** <br/> |flutuação  <br/> ||O tempo total de processamento de blocos de protocolo RDP (RDP). Um total mais alto significa uma demora mais longa na experiência de exibição.  <br/> |
 |**RDPTileProcessingLatencyAverage** <br/> |flutuação  <br/> ||Tempo médio de processamento de blocos de protocolo RDP (RDP). Um total mais alto significa uma demora mais longa na experiência de exibição.  <br/> |
 |**RDPTileProcessingLatencyMax** <br/> |flutuação  <br/> ||Tempo máximo de processamento de blocos de protocolo RDP (RDP). Um total mais alto significa uma demora mais longa na experiência de exibição.  <br/> |
-|**RDPTileProcessingLatencyBurstOccurrences** <br/> |int  <br/> ||Ocorrências de intermitência no tempo de processamento de blocos de protocolo RDP (RDP). Uma transmissão "intersvante" é uma transmissão em que os fluxos de dados ocorrem em intermissões imprevisíveis, em oposição a um fluxo contínuo.  <br/> |
-|**RDPTileProcessingLatencyBurstDensity** <br/> |flutuação  <br/> ||Densidade da intermitência no tempo de processamento de blocos de protocolo RDP (RDP). Uma transmissão "intersvante" é uma transmissão em que os fluxos de dados ocorrem em intermissões imprevisíveis, em oposição a um fluxo contínuo.  <br/> |
-|**RDPTileProcessingLatencyBurstDuration** <br/> |flutuação  <br/> ||Duração da intermitência no tempo de processamento de blocos de protocolo RDP (RDP). Uma transmissão "intersvante" é uma transmissão em que os fluxos de dados ocorrem em intermissões imprevisíveis, em oposição a um fluxo contínuo.  <br/> |
+|**RDPTileProcessingLatencyBurstOccurrences** <br/> |int  <br/> ||Ocorrências de intermitência no tempo de processamento de blocos de protocolo RDP (RDP). Uma transmissão "estourada" é uma transmissão em que os dados fluem em intermediações imprevisíveis em vez de um fluxo contínuo.  <br/> |
+|**RDPTileProcessingLatencyBurstDensity** <br/> |flutuação  <br/> ||Densidade da intermitência no tempo de processamento de blocos de protocolo RDP (RDP). Uma transmissão "estourada" é uma transmissão em que os dados fluem em intermediações imprevisíveis em vez de um fluxo contínuo.  <br/> |
+|**RDPTileProcessingLatencyBurstDuration** <br/> |flutuação  <br/> ||Duração da intermitência no tempo de processamento de blocos de protocolo RDP (RDP). Uma transmissão "estourada" é uma transmissão em que os dados fluem em intermediações imprevisíveis em vez de um fluxo contínuo.  <br/> |
 |**RDPTileProcessingLatencyGapOccurrences** <br/> |int  <br/> ||Ocorrências de intervalos no tempo de processamento de blocos de protocolo RDP (RDP).  <br/> |
 |**RDPTileProcessingLatencyGapDensity** <br/> |flutuação  <br/> ||Densidade do intervalo no tempo de processamento de blocos de protocolo RDP (RDP). Uma baixa densidade do intervalo significa uma melhor experiência de exibição.  <br/> |
 |**RDPTileProcessingLatencyGapDuration** <br/> |flutuação  <br/> ||Duração do intervalo no tempo de processamento de blocos de protocolo RDP (RDP). Uma baixa densidade de intervalo significa uma melhor experiência de exibição.  <br/> |
@@ -126,5 +126,3 @@ A tabela AppSharingStream contém medidas de qualidade da experiência dos fluxo
 |**Entrada** <br/> |bit  <br/> ||Taxa de quadros média (em quadros por segundo) para transmissões de entrada.  <br/> |
 |**Saída** <br/> |bit  <br/> ||Taxa de quadros média (em quadros por segundo) para transmissões de saída.  <br/> |
 |**SenderIsCallerPAI** <br/> |bit  <br/> ||1 significa que a direção do fluxo é do chamador para o receptor.  <br/> 0 significa que a direção do fluxo é do receptor para o chamador.  <br/> |
-   
-

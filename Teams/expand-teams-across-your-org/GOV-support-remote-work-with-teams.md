@@ -15,12 +15,12 @@ search.appverid: MET150
 description: Use este guia para ajudar os funcionários remotos da sua organização a serem produtivos usando o Microsoft Teams, especialmente quando estiverem trabalhando em casa (WFH) em resposta à epidemia do COVID-19 (Coronavírus).
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 46e2b3a713ee1c2a1f5de1f858df19dd25c5aef0
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: 3196796e702a458d7bbf813e5bed8166b764b0de
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46583870"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51121379"
 ---
 # <a name="support-remote-government-workers-using-microsoft-teams"></a>Ofereça suporte aos funcionários públicos remotos que usam o Microsoft Teams
 
@@ -31,13 +31,13 @@ Se você estiver executando o Microsoft Teams como parte do Office 365 para o Go
 
 Aprenda como preparar o Teams na sua organização:
 
-  - Verifique se todos têm acesso ao Teams com uma [assinatura paga que inclui Teams](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description). 
+  - Verifique se todos têm acesso ao Teams com uma [assinatura paga que inclui Teams](/office365/servicedescriptions/teams-service-description). 
 
   - Se você já possui uma assinatura, verifique se o **[Teams está ativado](../user-access.md)** para todos.
 
   - Para uma implantação rápida, visite o [**Teams FastPath PowerPoint**](https://aka.ms/TeamsGovFastPath) para disponibilizar equipes na sua organização.
 
-  - Saiba como fazer a sua organização começar a trabalhar com as **[Reuniões no Teams](https://docs.microsoft.com/MicrosoftTeams/tutorial-meetings-in-teams)**.
+  - Saiba como fazer a sua organização começar a trabalhar com as **[Reuniões no Teams](../tutorial-meetings-in-teams.yml)**.
 
 ## <a name="end-user-communication"></a>Comunicação do usuário final
 
@@ -63,10 +63,10 @@ Compartilhe esses ativos e vídeos com seus usuários finais para ajudá-los a c
 
 ## <a name="learn-more"></a>Saiba mais
 
-  - Inicie sua jornada com o Teams com uma série de **[treinamentos interativos ao vivo](https://aka.ms/TeamsLiveTraining)**, projetados para por sua organização em funcionamento com o Teams.
+  - Inicie sua jornada com o Teams com uma série de **[treinamentos interativos ao vivo](../instructor-led-training-teams-landing-page.yml)**, projetados para por sua organização em funcionamento com o Teams.
 
   - Participe de uma de nossas **[aulas on-line](../instructor-led-training-teams-landing-page.yml)** para ver o Teams em ação e tirar suas dúvidas.
 
   - Compartilhe **[vídeos de treinamento aprofundados](https://www.youtube.com/playlist?list=PLXPr7gfUMmKzR7_jXN5s886apYoHNC3Xk)** com usuários que querem aprender mais.
 
-  - Leia a **[documentação de administração do Teams](https://docs.microsoft.com/MicrosoftTeams/)** para saber como implantar e gerenciar o Teams.
+  - Leia a **[documentação de administração do Teams](../index.yml)** para saber como implantar e gerenciar o Teams.

@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
 description: Saiba como o Roteamento Direto do Sistema de Telefonia do Microsoft Phone permite que você conecte um Controlador de Borda de Sessão (SBC) fornecido pelo cliente com suporte ao Microsoft Phone System.
-ms.openlocfilehash: af7e288791b85aea3beaf67b0200acd017e3e514
-ms.sourcegitcommit: b431fc1a1802a8177109741b7c8e91bacb8c50c3
+ms.openlocfilehash: 5df93bb5248f6077bf0378c5ab461c6cf8856fbf
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "50999823"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51121389"
 ---
 # <a name="plan-direct-routing"></a>Planejar o Roteamento Direto
 
@@ -83,9 +83,9 @@ Os requisitos de infraestrutura para os SBCs, domínios e outros requisitos de c
 |Entrada DNS pública para o SBC |Uma entrada DNS pública mapeando o FQDN SBC para o Endereço IP público. |
 |Certificado confiável público para o SBC |Um certificado para o SBC a ser usado para toda a comunicação com o Roteamento Direto. Para obter mais informações, consulte [Public trusted certificate for the SBC](#public-trusted-certificate-for-the-sbc).|
 |Pontos de conexão para Roteamento Direto |Os pontos de conexão para Roteamento Direto são os três FQDNs a seguir:<br/><br/>`sip.pstnhub.microsoft.com` – O FQDN global deve ser experimentado primeiro.<br/>`sip2.pstnhub.microsoft.com` – FQDN secundário, mapeia geograficamente para a região de segunda prioridade.<br/>`sip3.pstnhub.microsoft.com` – FQDN terciário, mapeia geograficamente para a região de terceira prioridade.<br/><br/>Para obter informações sobre os requisitos de configuração, consulte [Sinalização SIP: FQDNs](#sip-signaling-fqdns).|
-|Endereços IP de firewall e portas para mídia de Roteamento Direto |O SBC se comunica com os seguintes serviços na nuvem:<br/><br/>Proxy SIP, que lida com a sinalização<br/>Processador de Mídia, que lida com mídia - exceto quando o Desvio de Mídia está em<br/><br/>Esses dois serviços têm endereços IP separados no Microsoft Cloud, descritos posteriormente neste documento.<br/><br/>Para obter mais informações, consulte a seção [Microsoft Teams em](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams) [URLs e intervalos de endereços IP.](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges) |
+|Endereços IP de firewall e portas para mídia de Roteamento Direto |O SBC se comunica com os seguintes serviços na nuvem:<br/><br/>Proxy SIP, que lida com a sinalização<br/>Processador de Mídia, que lida com mídia - exceto quando o Desvio de Mídia está em<br/><br/>Esses dois serviços têm endereços IP separados no Microsoft Cloud, descritos posteriormente neste documento.<br/><br/>Para obter mais informações, consulte a seção [Microsoft Teams em](/office365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams) [URLs e intervalos de endereços IP.](/office365/enterprise/urls-and-ip-address-ranges) |
 |Perfil de Transporte de Mídia|TCP/RTP/SAVP <br/>UDP/RTP/SAVP|
-Endereços IP de firewall e portas para mídia do Microsoft Teams |Para obter mais informações, [consulte URLs e intervalos de endereços IP](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges). |
+Endereços IP de firewall e portas para mídia do Microsoft Teams |Para obter mais informações, [consulte URLs e intervalos de endereços IP](/office365/enterprise/urls-and-ip-address-ranges). |
 |||
 
 ## <a name="licensing-and-other-requirements"></a>Licenciamento e outros requisitos 
@@ -100,7 +100,7 @@ Os usuários do Roteamento Direto devem ter as seguintes licenças atribuídas n
 > O Plano do Skype for Business não deve ser removido de nenhum contrato de licenciamento no qual ele está incluído. 
 > 
 > [!IMPORTANT]
-> Os usuários do GCC High e do DoD devem desabilitar qualquer licenciamento de Audioconferência incluído no G5 e aguardar para habilitar qualquer Audioconferência até que o Roteamento Direto seja totalmente configurado. Os usuários devem ter números de telefone discados configurados e um bloco de discagem de trabalho antes de habilbilar licenças de Audioconferência. Consulte [Audioconferência com Roteamento Direto para GCC High e DoD](https://docs.microsoft.com/microsoftteams/audio-conferencing-with-direct-routing-for-gcch-and-dod) para obter mais detalhes.
+> Os usuários do GCC High e do DoD devem desabilitar qualquer licenciamento de Audioconferência incluído no G5 e aguardar para habilitar qualquer Audioconferência até que o Roteamento Direto seja totalmente configurado. Os usuários devem ter números de telefone discados configurados e um bloco de discagem de trabalho antes de habilbilar licenças de Audioconferência. Consulte [Audioconferência com Roteamento Direto para GCC High e DoD](./audio-conferencing-with-direct-routing-for-gcch-and-dod.md) para obter mais detalhes.
 
 
 > [!IMPORTANT]
@@ -124,16 +124,16 @@ O Roteamento Direto também dá suporte a usuários licenciados para o Plano de 
 
 Misturar o Plano de Chamadas e a conectividade de Roteamento Direto para o mesmo usuário é opcional, mas pode ser útil (por exemplo, quando o usuário recebe um Plano de Chamadas da Microsoft, mas deseja rotear algumas chamadas usando o SBC). Um dos cenários mais comuns são chamadas para PBXs de terceiros.  Com PBXs de terceiros, todas as chamadas, exceto chamadas para os telefones conectados a esse PBXs, são roteados usando o Plano de Chamadas da Microsoft, mas as chamadas para os telefones conectados a PBXs de terceiros vão para o SBC e, portanto, permanecem na rede corporativa e não na PSTN. 
 
-Para obter mais informações sobre o licenciamento do Sistema de Telefonia, consulte [Obter o máximo de Opções](https://products.office.com/compare-all-microsoft-office-products?tab=2) do Office e Do [Plano.](https://technet.microsoft.com/library/office-365-plan-options.aspx) 
+Para obter mais informações sobre o licenciamento do Sistema de Telefonia, consulte [Obter o máximo de Opções](https://products.office.com/compare-all-microsoft-office-products?tab=2) do Office e Do [Plano.](/office365/servicedescriptions/office-365-platform-service-description/office-365-plan-options) 
 
-Para obter mais informações sobre licenciamento do Sistema de Telefonia, consulte [Licenciamento de complemento do Microsoft Teams.](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing) 
+Para obter mais informações sobre licenciamento do Sistema de Telefonia, consulte [Licenciamento de complemento do Microsoft Teams.](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md) 
 
 ## <a name="supported-end-points"></a>Pontos de extremidade com suporte 
 
 Você pode usar como ponto de extremidade:
 
 - Qualquer cliente do Teams. 
-- Telefones de área comum. Consulte [Configurar a licença de Telefone de Área Comum do Microsoft Teams](https://docs.microsoft.com/microsoftteams/set-up-common-area-phones). Observe que você não precisa de uma licença de Plano de Chamadas ao configurar um Telefone de Área Comum com Roteamento Direto.
+- Telefones de área comum. Consulte [Configurar a licença de Telefone de Área Comum do Microsoft Teams](./set-up-common-area-phones.md). Observe que você não precisa de uma licença de Plano de Chamadas ao configurar um Telefone de Área Comum com Roteamento Direto.
 - Telefones Skype for Business 3PIP. Consulte o suporte a telefones [do Skype for Business (3PIP) com o Microsoft Teams](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Skype-for-Business-phones-3PIP-support-with-Microsoft-Teams/ba-p/789351)
 
 
@@ -201,7 +201,7 @@ Para roteamento direto em ambientes GCCH e DoD do Office 365, o certificado prec
 - AC raiz do EV de Alta Garantia digiCert
 
 > [!NOTE]
-> *Se o suporte MTLS (Mutual TLS) estiver habilitado para a conexão do Teams no SBC, você deverá instalar o Certificado Raiz de Baltimore CyberTrust no Armazenamento Raiz Confiável SBC do contexto TLS do Teams. (Isso porque os certificados de serviço da Microsoft usam o certificado raiz de Baltimore.) Para baixar o certificado raiz de Baltimore, consulte Cadeias de criptografia [do Office 365](https://docs.microsoft.com/microsoft-365/compliance/encryption-office-365-certificate-chains).
+> *Se o suporte MTLS (Mutual TLS) estiver habilitado para a conexão do Teams no SBC, você deverá instalar o Certificado Raiz de Baltimore CyberTrust no Armazenamento Raiz Confiável SBC do contexto TLS do Teams. (Isso porque os certificados de serviço da Microsoft usam o certificado raiz de Baltimore.) Para baixar o certificado raiz de Baltimore, consulte Cadeias de criptografia [do Office 365](/microsoft-365/compliance/encryption-office-365-certificate-chains).
 
 A Microsoft está trabalhando na adição de autoridades de certificação adicionais com base em solicitações de clientes. 
 
@@ -213,7 +213,7 @@ O Roteamento Direto é oferecido nos seguintes ambientes:
 - Office 365 GCC High
 - Office 365 DoD
 
-Saiba mais sobre [ambientes do Office 365](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government) e do Governo dos EUA, como GCC, GCC High e DoD.
+Saiba mais sobre [ambientes do Office 365](/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government) e do Governo dos EUA, como GCC, GCC High e DoD.
 
 ### <a name="microsoft-365-office-365-and-office-365-gcc-environments"></a>Ambientes do Microsoft 365, Office 365 e Office 365 GCC
 
@@ -297,7 +297,7 @@ A tabela abaixo resume as relações entre datacenters primários, secundários 
 |||||
 
 ## <a name="media-traffic-port-ranges"></a>Tráfego de mídia: intervalos de porta
-Observe que os requisitos abaixo se aplicam se você quiser implantar o Roteamento Direto sem Bypass de Mídia. Para requisitos de firewall para Bypass de Mídia, consulte [Plan for media bypass with Direct Routing](https://docs.microsoft.com/microsoftteams/direct-routing-plan-media-bypass).
+Observe que os requisitos abaixo se aplicam se você quiser implantar o Roteamento Direto sem Bypass de Mídia. Para requisitos de firewall para Bypass de Mídia, consulte [Plan for media bypass with Direct Routing](./direct-routing-plan-media-bypass.md).
 
 
 

@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d75e540de7e40206f0b1dd15e26adc62d6f6baa7
-ms.sourcegitcommit: d27b97f012d0cb3f1690d3673d50bbaa0caae16f
+ms.openlocfilehash: 56ee2c83827c25da5b16cc3f7c2725a3daf815c2
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/14/2020
-ms.locfileid: "47652464"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51121509"
 ---
 <a name="configure-desktop-sharing-in-microsoft-teams"></a>Configurar o compartilhamento da área de trabalho no Microsoft Teams
 ============================================
@@ -42,9 +42,9 @@ Para configurar o compartilhamento de tela, crie uma nova política de reuniões
 
     ![Políticas de reunião selecionadas](media/configure-desktop-sharing-image1.png)
 
-2. Na página **Políticas da Reunião,** selecione **Adicionar.**
+2. Na página **Políticas de reunião,** selecione **Adicionar**.
 
-    ![A mensagem de políticas de reunião](media/addMeeting.png)
+    ![A mensagem Políticas de reunião](media/addMeeting.png)
 
 3. Atribua um título exclusivo à sua política e insira uma breve descrição.
 
@@ -54,14 +54,14 @@ Para configurar o compartilhamento de tela, crie uma nova política de reuniões
    - **Aplicativo único** – permite que os usuários limitem o compartilhamento de tela a um único aplicativo ativo.
    - **Desabilitado** – desativa o compartilhamento de tela.
 
-    ![As opções do modo de compartilhamento](media/configure-desktop-sharing-image3.png)
+    ![As opções de modo de compartilhamento](media/configure-desktop-sharing-image3.png)
 
   > [!Note]
-  > Você não precisa habilitar a política de chamada para que os usuários usem o compartilhamento de tela do chat. No entanto, o áudio fica desligado até que eles mesmos aututerem. Além disso, o usuário que está compartilhando a tela pode clicar **em Adicionar Áudio** para habilitar o áudio. Se a política de chamada estiver desabilitada, os usuários não poderão adicionar áudio ao compartilhamento de tela de uma sessão de chat.
+  > Você não precisa habilitar a política de chamada para que os usuários usem o compartilhamento de tela do chat. No entanto, o áudio deles é desligado até que eles mesmos se desmuterem. Além disso, o usuário que compartilha a tela pode clicar em **Adicionar Áudio** para habilitar o áudio. Se a política de chamada estiver desabilitada, os usuários não poderão adicionar áudio ao compartilhamento de tela de uma sessão de chat.
 
 5. Ative ou desative as seguintes configurações:
 
-    - **Permitir que um participante dê ou solicite** o controle– permite que os membros da equipe dêm ou solicitem o controle da área de trabalho ou do aplicativo do apresentador.
+    - **Permitir que um participante dê ou solicite** controle – permite que os membros da equipe dêm ou solicitem controle da área de trabalho ou do aplicativo do apresentador.
     - **Permitir que um participante externo dê ou solicite controle** – essa é uma política por usuário. Se uma organização tiver esse conjunto para um usuário, não controla o que os participantes externos podem fazer, independentemente do que o organizador da reunião definiu. Esse parâmetro controla se os participantes externos podem receber ou solicitar controle da tela de compartilhamento do participante, dependendo do que o participante do compartilhamento definiu dentro das políticas da sua organização.
     - **Permitir o compartilhamento do PowerPoint** - permite que os usuários criem reuniões que permitem que as apresentações do PowerPoint sejam carregadas e compartilhadas.
     - **Permitir quadro de comunicações** – permite que os usuários compartilhem um quadro de comunicações.
@@ -71,7 +71,7 @@ Para configurar o compartilhamento de tela, crie uma nova política de reuniões
 
 ## <a name="use-powershell-to-configure-shared-desktop"></a>Use o PowerShell para configurar a área de trabalho compartilhada
 
-Você também pode usar o cmdlet [Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps) para controlar o compartilhamento da área de trabalho. Use os seguintes parâmetros:
+Você também pode usar o cmdlet [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps) para controlar o compartilhamento da área de trabalho. Use os seguintes parâmetros:
 
 - Descrição
 - ScreenSharingMode
@@ -82,4 +82,4 @@ Você também pode usar o cmdlet [Set-CsTeamsMeetingPolicy](https://docs.microso
 - AllowWhiteboard
 - AllowSharedNotes
 
-[Saiba mais sobre como usar o cmdlet csTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps).
+[Saiba mais sobre como usar o cmdlet csTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps).

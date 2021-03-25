@@ -1,5 +1,5 @@
 ---
-title: Exibir ou Configurar Política de Versão de Cliente
+title: Exibição ou Configuração da Política de Versão do Cliente
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,18 +15,15 @@ localization_priority: Normal
 ms.assetid: 446915b6-462e-4cc1-8584-9f59f7eb8cc8
 ROBOTS: NOINDEX, NOFOLLOW
 description: O que você deseja fazer? Clique no link para a tarefa que você deseja executar.
-ms.openlocfilehash: a126622b407a38b6cac5157e71fb08330c70eff8
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 4be898a5a727747c6bb668d78608a2e1316eb113
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49808151"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51122025"
 ---
 # <a name="users-view-or-configure-client-version-policy"></a>Usuários: Exibir ou Configurar Política de Versão de Cliente
 
 O que você deseja fazer? Clique no link para a tarefa que você deseja executar.
 
-- [Especificar versões de cliente com suporte para entrada por um usuário](https://technet.microsoft.com/library/f7e8ba2f-62dc-4e7d-8b63-682986f10240.aspx)
-
-
-
+- [Especificar versões do cliente com suporte para entrar por um usuário](/previous-versions/office/lync-server-2013/lync-server-2013-assign-a-per-user-client-version-policy)

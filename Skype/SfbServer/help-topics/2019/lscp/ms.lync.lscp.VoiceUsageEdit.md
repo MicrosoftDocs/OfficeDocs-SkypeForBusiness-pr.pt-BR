@@ -1,5 +1,5 @@
 ---
-title: Criar Novo ou Editar Existente de Uso de PSTN
+title: Uso do PSTN Criar Novo ou Editar Existente
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: db7da46e-60ec-4f5b-b07a-f79284ad12b8
 ROBOTS: NOINDEX, NOFOLLOW
 description: O que você deseja fazer? Clique no link para a tarefa que você deseja executar.
-ms.openlocfilehash: bc4639515d1e866004a4f95cac640669f411900b
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 00ad7893d7bddca6a08b85390d59b1a0553363e2
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49801301"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51121781"
 ---
 # <a name="pstn-usage-create-new-or-edit-existing"></a>Uso PSTN: Criar Novo ou Editar Existente
 
@@ -28,9 +28,6 @@ O que você deseja fazer? Clique no link para a tarefa que você deseja executar
 
 - [Exibir registros de uso de PSTN no Skype for Business](../../../deploy/deploy-enterprise-voice/view-pstn-usage-records.md)
 
-- [Criar ou modificar uma política de voz e configurar registros de uso de PSTN no Skype for Business](../../../deploy/deploy-enterprise-voice/voice-policy-and-pstn-usage-records.md)
+- [Criar ou modificar uma política de voz e configurar registros de uso PSTN no Skype for Business](../../../deploy/deploy-enterprise-voice/voice-policy-and-pstn-usage-records.md)
 
-- [Modificar uma política de voz e configurar registros de uso PSTN](https://technet.microsoft.com/library/6c53aaf5-218b-4bd4-8cea-31bc9d53f1bd.aspx)
-
-
-
+- [Modificar uma política de voz e configurar registros de uso PSTN](/previous-versions/office/lync-server-2013/lync-server-2013-modify-a-voice-policy-and-configure-pstn-usage-records)

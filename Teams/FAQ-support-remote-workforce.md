@@ -16,12 +16,12 @@ search.appverid: MET150
 description: Use este guia para oferecer suporte à sua força de trabalho remota quando estiverem trabalhando em casa (WFH) em resposta à epidemia de COVID-19 (coronavírus).
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d1d2f627dd3373fcb4475fba2f7f4c90f6d9003e
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: 4f0177437f992bf7fce9a94eb09e5dc3861aeb00
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46583470"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51121559"
 ---
 # <a name="faq-support-your-remote-workforce"></a>Perguntas frequentes: Suporte para sua força de trabalho remota
 
@@ -51,15 +51,15 @@ Durante a duração da epidemia de COVID-19, recomendamos que os usuários ingre
 
 Devido às necessidades únicas na China, os clientes talvez precisem executar ações específicas:
 
-- [Otimização de desempenho global do locatário do Office 365 para usuários da China](https://docs.microsoft.com/office365/enterprise/office-365-networking-china)
+- [Otimização de desempenho global do locatário do Office 365 para usuários da China](/office365/enterprise/office-365-networking-china)
 
-- [Diretrizes gerais para todas as redes nas quais o Microsoft 365 está sendo usado](https://docs.microsoft.com/Office365/Enterprise/assessing-network-connectivity)
+- [Diretrizes gerais para todas as redes nas quais o Microsoft 365 está sendo usado](/Office365/Enterprise/assessing-network-connectivity)
 
 - [Preparo da rede da sua organização para o Teams](prepare-network.md)
 
 ### <a name="my-users-are-reporting-bad-calls-or-their-calls-are-not-connecting-what-should-i-do-to-get-help"></a>Meus usuários estão relatando chamadas incorretas ou suas chamadas não estão conectadas. O que devo fazer para obter ajuda?
 
-Estamos aqui para ajudar. Antes de [contatar o suporte](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products), certifique-se de ter seguido todas as [recomendações de rede](#what-are-the-general-microsoft-guidelines-regarding-network-optimization-for-microsoft-365-some-of-my-users-in-china-are-having-a-bad-experience-what-should-i-do-to-optimize-our-network). Para ajudar você a solucionar problemas de qualidade de chamada, use o painel [Análise de Chamada e Painel de Qualidade de Chamadas](difference-between-call-analytics-and-call-quality-dashboard.md). Também recomendamos a verificação do[Painel de integridade do serviço](https://docs.microsoft.com/office365/enterprise/view-service-health) no centro de administração do Microsoft 365 para obter informações sobre comunicados ou problemas atuais com os serviços da Microsoft.
+Estamos aqui para ajudar. Antes de [contatar o suporte](/microsoft-365/admin/contact-support-for-business-products), certifique-se de ter seguido todas as [recomendações de rede](#what-are-the-general-microsoft-guidelines-regarding-network-optimization-for-microsoft-365-some-of-my-users-in-china-are-having-a-bad-experience-what-should-i-do-to-optimize-our-network). Para ajudar você a solucionar problemas de qualidade de chamada, use o painel [Análise de Chamada e Painel de Qualidade de Chamadas](./monitor-call-quality-qos.md). Também recomendamos a verificação do[Painel de integridade do serviço](/office365/enterprise/view-service-health) no centro de administração do Microsoft 365 para obter informações sobre comunicados ou problemas atuais com os serviços da Microsoft.
 
 ### <a name="what-other-actions-can-i-take-to-have-a-better-experience"></a>Quais outras ações posso realizar para ter uma melhor experiência?
 
@@ -87,11 +87,11 @@ Se você tiver o Microsoft 365, já tem o Teams. [Ative](Office-365-set-up.md) p
 
 ### <a name="how-do-i-get-help-to-get-started-with-teams-and-make-sure-the-deployment-is-successful"></a>Como posso obter ajuda para começar a usar o Teams e ter certeza de que a implantação foi bem-sucedida?
 
-A Microsoft oferece [Benefícios do FastTrack Center para o Office 365](https://docs.microsoft.com/fasttrack/o365-fasttrack-benefit-for-office-365), que ajudarão você a planejar, implantar, impulsionar o uso e adotar as práticas recomendadas. Esse serviço é oferecido sem custos quando você tem pelo menos 150 usuários. Para saber mais, leia [Solicitar assistência do FastTrack para Microsoft 365 ficou mais fácil](https://techcommunity.microsoft.com/t5/fasttrack-blog/requesting-fasttrack-assistance-for-microsoft-365-just-got/ba-p/393125#). As diretrizes de configuração do FastTrack para Microsoft 365 estão disponíveis para todos os administradores do Office 365 da organização. Para acessar essas diretrizes, entre em [https://aka.ms/setupguidance](https://aka.ms/setupguidance) com as suas credenciais de administrador.
+A Microsoft oferece [Benefícios do FastTrack Center para o Office 365](/fasttrack/o365-fasttrack-benefit-for-office-365), que ajudarão você a planejar, implantar, impulsionar o uso e adotar as práticas recomendadas. Esse serviço é oferecido sem custos quando você tem pelo menos 150 usuários. Para saber mais, leia [Solicitar assistência do FastTrack para Microsoft 365 ficou mais fácil](https://techcommunity.microsoft.com/t5/fasttrack-blog/requesting-fasttrack-assistance-for-microsoft-365-just-got/ba-p/393125#). As diretrizes de configuração do FastTrack para Microsoft 365 estão disponíveis para todos os administradores do Office 365 da organização. Para acessar essas diretrizes, entre em [https://aka.ms/setupguidance](https://aka.ms/setupguidance) com as suas credenciais de administrador.
 
-Se você deseja começar por conta própria, leia [Como implantar o Teams](How-to-roll-out-teams.md) e Confira nosso webinário[Teams em 30](https://aka.ms/Teamsin30), criado para você começar a trabalhar com o Teams em apenas 30 dias.
+Se você deseja começar por conta própria, leia [Como implantar o Teams](./deploy-overview.md) e Confira nosso webinário[Teams em 30](./teams-in-30-workshops.md), criado para você começar a trabalhar com o Teams em apenas 30 dias.
 
-Para locatários para educação (EDU), a Microsoft oferece a[Sincronização de Dados Escolares](https://docs.microsoft.com/schooldatasync/), que ajuda você a sincronizar informações do SIS (sistema de informações de alunos) da escola. Para obter ajuda sobre como implantar o Microsoft 365, leia [Visão geral de implantação do Microsoft 365 Education](https://docs.microsoft.com/microsoft-365/education/deploy/). Não perca o nosso novo artigo, [Introdução ao Teams de aprendizado remoto](remote-learning-edu.md).
+Para locatários para educação (EDU), a Microsoft oferece a[Sincronização de Dados Escolares](/schooldatasync/), que ajuda você a sincronizar informações do SIS (sistema de informações de alunos) da escola. Para obter ajuda sobre como implantar o Microsoft 365, leia [Visão geral de implantação do Microsoft 365 Education](/microsoft-365/education/deploy/). Não perca o nosso novo artigo, [Introdução ao Teams de aprendizado remoto](remote-learning-edu.md).
 
 ### <a name="where-do-i-find-help-getting-teams-running-for-my-company-so-my-users-can-work-from-home-during-this-crisis"></a>Onde posso encontrar ajuda para o Teams executado na minha empresa, para que meus usuários possam trabalhar de casa durante a crise?
 
@@ -99,7 +99,7 @@ Leia [Suporte a funcionários remotos usando o Teams](support-remote-work-with-t
 
 ### <a name="i-just-got-started-with-microsoft-365-so-i-can-use-teams-to-support-my-remote-workers-or-students-ive-signed-up-for-the-service-but-when-a-user-tries-to-use-teams-they-get-this-error-youre-missing-out-ask-your-admin-to-enable-microsoft-teams-what-should-i-do"></a>Acabei de iniciar o Microsoft 365 para poder usar o Teams para oferecer suporte a meus funcionários ou alunos remotos. Já me inscrevi no serviço, mas quando um usuário tenta usar o Teams, ele recebe o seguinte erro: "Você está perdendo! Peça ao seu administrador para habilitar o Microsoft Teams.” O que devo fazer?
 
-Depois de ativar uma das ofertas gratuitas do Teams, você ainda precisará ativá-la para seus usuários. Leia [Gerenciar o acesso do usuário ao Teams](user-access.md) e [Adicionar usuários individuais ou em massa](https://docs.microsoft.com/microsoft-365/admin/add-users/add-users).
+Depois de ativar uma das ofertas gratuitas do Teams, você ainda precisará ativá-la para seus usuários. Leia [Gerenciar o acesso do usuário ao Teams](user-access.md) e [Adicionar usuários individuais ou em massa](/microsoft-365/admin/add-users/add-users).
 
 Se você está licenciando ou habilitando um usuário pela primeira vez, mas possui o Microsoft 365 há algum tempo, pode ser necessário [Ativar o Teams](Office-365-set-up.md) para sua organização. Marque [Já tenho o Microsoft 365, mas não uso o Teams. Vocês estão fornecendo licenças de avaliação?](#i-have-microsoft-365-already-but-i-dont-use-teams-are-you-providing-trial-licenses) neste artigo.
 

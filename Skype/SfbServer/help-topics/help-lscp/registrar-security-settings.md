@@ -15,22 +15,21 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: dd3c9b37-607e-445f-9e15-b6c92adcfb87
 description: O que você deseja fazer? Clique no link para a tarefa que você deseja executar.
-ms.openlocfilehash: 2bac87964339e8da2dcc3f60da11f073e513992c
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 2fb232fb8171f8887bf7a1756123cf6fb282cf26
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49819191"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51120973"
 ---
 # <a name="registrar-security-settings"></a>Definições de Segurança de Registrador
 
 O que você deseja fazer? Clique no link para a tarefa que você deseja executar.
 
-- [Gerenciar definições de configuração do Registrador no Skype for Business Server 2015](../../manage/authentication/registrar-configuration-settings.md)
+- [Gerenciar configurações do Registrador no Skype for Business Server 2015](../../manage/authentication/registrar-configuration-settings.md)
 
-- [Modificar um Registrador Existente](https://technet.microsoft.com/library/a8931511-3e66-49ed-a3ec-03bcd61ce1f0.aspx)
+- [Modificar um Registrador Existente](/previous-versions/office/lync-server-2013/lync-server-2013-modify-existing-registrar-configuration-settings)
 
-- [Excluir um Registrador](https://technet.microsoft.com/library/ae43cd75-cae4-4f78-b037-779a2cdb583b.aspx)
+- [Excluir um Registrador](/previous-versions/office/lync-server-2013/lync-server-2013-delete-existing-registrar-configuration-settings)
 
-Para obter detalhes sobre os diferentes procedimentos que você pode executar usando o Painel de Controle do Skype for Business Server, consulte [Gerenciar o Skype for Business Server 2015.](../../manage/manage.md)
-
+Para obter detalhes sobre os diferentes procedimentos que você pode executar usando o Painel de Controle do Skype for Business Server, consulte [Manage Skype for Business Server 2015](../../manage/manage.md).

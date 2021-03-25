@@ -13,12 +13,12 @@ localization_priority: Normal
 search.appverid: ''
 ms.collection: ''
 ms.custom: ''
-ms.openlocfilehash: 5647969ccbb19599efea062d94d88b79c2d8a6f4
-ms.sourcegitcommit: c6b630f9193d7f82f0416bd567a1de390d4b260f
+ms.openlocfilehash: 678cad1b71c9f3e8d1e79a50f5ae46aba4456b5a
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "50819418"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51120662"
 ---
 # <a name="implement-your-move-to-microsoft-teams"></a>Implementar sua mudança para o Microsoft Teams
 
@@ -45,7 +45,7 @@ Recomendamos a seguinte estrutura para transição:
    
 1. Primeiro, mova seus grupos de chat para o Microsoft Teams.
 1. Em seguida, use aplicativos no Teams para substituir cartões de ação do Kaizala.
-1. Para garantir que os funcionários de linha de frente sejam equipados, atualize para a funcionalidade do Teams Frontline Worker. Para ver um guia de início rápido sobre o Teams Frontline Worker, consulte Guia de Início Rápido do Trabalho de Linha [de Frente.](https://docs.microsoft.com/microsoftteams/flw-quickstart)
+1. Para garantir que os funcionários de linha de frente sejam equipados, atualize para a funcionalidade do Teams Frontline Worker. Para ver um guia de início rápido sobre o Teams Frontline Worker, consulte Guia de Início Rápido do Trabalho de Linha [de Frente.](./flw-quickstart.yml)
 1. Considere a integração de fornecedores e parceiros para convidar como convidados no Teams.  
   
 **Gerenciar alterações**  
@@ -96,4 +96,4 @@ Recomendamos a seguinte estrutura para transição:
      
 - **Mover sua organização para o Teams** 
 
-    Capacitar sua organização com uma ferramenta simplificada para comunicação do CEO para a linha de frente! 
+    Capacitar sua organização com uma ferramenta simplificada para comunicação do CEO para a linha de frente!

@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a5eb43301dc86fce6ef4e1f383c54d5c6902e871
-ms.sourcegitcommit: 4e648c3dd71d9c38cbcb81fab9e8cb9d241fe79c
+ms.openlocfilehash: fc61e47a8c5c86f2591026ef8cc9d502cc43604e
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "49871082"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51122185"
 ---
 # <a name="manage-microsoft-teams-settings-for-your-organization"></a>Gerencie as configurações do Microsoft Teams para sua organização 
 
@@ -42,7 +42,7 @@ Você pode controlar as configurações de usuário em toda a organização no c
 
 ### <a name="external-access"></a>Acesso externo
 
-O **acesso externo** permite que os usuários do Microsoft Teams e do Skype for Business se comuniquem com usuários que estão fora da organização ou domínio. Para configurar o acesso externo, vá para [Permitir que os usuários do Microsoft Teams conversem e se comuniquem com usuários em outra organização](let-your-teams-users-communicate-with-other-people.md).
+O **acesso externo** permite que os usuários do Microsoft Teams e do Skype for Business se comuniquem com usuários que estão fora da organização ou domínio. Para configurar o acesso externo, vá para [Permitir que os usuários do Microsoft Teams conversem e se comuniquem com usuários em outra organização](./manage-external-access.md).
 
 Para adicionar ou bloquear um domínio:
 
@@ -69,7 +69,7 @@ As marcações permitem que os usuários se comuniquem com um subconjunto de pes
 
 #### <a name="email-integration"></a>Integração de email
 
-Ative esse recurso para que os usuários possam enviar emails para um canal no Microsoft Teams usando o endereço de email do canal. Os usuários podem fazer isso para qualquer canal pertencente a uma equipe que possuem. Os usuários também podem enviar emails para qualquer canal de uma equipe que tenha conectores adicionais ativados para membros da equipe. Para ativar a integração de email, certifique-se de que **Permitir que usuários enviem emails para um canal de endereço de email** esteja **Ativado**. Em seguida, certifique-se de que o domínio do endereço de email do remetente não esteja bloqueado em Centro de Administração no Teams> Configurações em Toda a Organização > Configurações do Teams>Integração de email>**Aceitar email do canal desses domínios SMTP**. Deve estar em branco ou incluir todos os domínios dos quais você espera receber emails. Em seguida, você precisa ter certeza de que possui as regras necessárias para garantir que [ o email para o endereço de email do canal Teams não seja bloqueado](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-protection-service-description/anti-spam-and-anti-malware-protection-eop#customize-anti-spam-policies).
+Ative esse recurso para que os usuários possam enviar emails para um canal no Microsoft Teams usando o endereço de email do canal. Os usuários podem fazer isso para qualquer canal pertencente a uma equipe que possuem. Os usuários também podem enviar emails para qualquer canal de uma equipe que tenha conectores adicionais ativados para membros da equipe. Para ativar a integração de email, certifique-se de que **Permitir que usuários enviem emails para um canal de endereço de email** esteja **Ativado**. Em seguida, certifique-se de que o domínio do endereço de email do remetente não esteja bloqueado em Centro de Administração no Teams> Configurações em Toda a Organização > Configurações do Teams>Integração de email>**Aceitar email do canal desses domínios SMTP**. Deve estar em branco ou incluir todos os domínios dos quais você espera receber emails. Em seguida, você precisa ter certeza de que possui as regras necessárias para garantir que [ o email para o endereço de email do canal Teams não seja bloqueado](/office365/servicedescriptions/exchange-online-protection-service-description/anti-spam-and-anti-malware-protection-eop#customize-anti-spam-policies).
 
 #### <a name="files"></a>Arquivos
 
@@ -124,7 +124,7 @@ Aqui você pode escolher o aplicativo que os usuários usarão para ingressar em
 
 #### <a name="network-planner"></a>Planejador de Rede
 
-O planejador de rede ajuda a determinar e organizar os requisitos de rede para conectar os usuário do Teams em sua organização.  Saiba como [Usar o Planejador de Rede no Microsoft Teams](https://docs.microsoft.com/microsoftteams/network-planner).
+O planejador de rede ajuda a determinar e organizar os requisitos de rede para conectar os usuário do Teams em sua organização.  Saiba como [Usar o Planejador de Rede no Microsoft Teams](./network-planner.md).
 
 Você também pode selecionar a opção "Baixar o aplicativo do Teams em segundo plano para usuários do Skype for Business".  Por padrão, essa configuração é definida como Ativada. Com essa configuração ativada, será realizado o download do aplicativo Teams em segundo plano para usuários que executam o aplicativo Skype for Business em computadores com Windows. Isso acontece se o modo de coexistência para o usuário for Somente Teams ou se uma notificação de atualização pendente estiver ativada no aplicativo Skype for Business.
 

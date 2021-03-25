@@ -15,20 +15,20 @@ localization_priority: Normal
 ms.assetid: 7a4b91ff-ca11-4dde-852d-ec51d143968a
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Edite as propriedades do Servidor do Office Web Apps configurado. As propriedades a seguir estão disponíveis para edição:'
-ms.openlocfilehash: 97435749a5eb6aa818ff4bb49d7a9142f6834c1e
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 0c5dbff11d6cc2f6b25f3afa77cfe12e1e511a8a
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49829921"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51121074"
 ---
 # <a name="edit-office-web-apps-server-settings"></a>Editar Configurações do Servidor do Office Web Apps
 
 Edite as propriedades do Servidor do Office Web Apps configurado. As propriedades a seguir estão disponíveis para edição:
 
- **FQDN** do Servidor do Office Web Apps : essa propriedade define o nome de domínio totalmente qualificado do Servidor do Office Web Apps e deve corresponder a um registro A ou AAAA de host do sistema de nomes de domínio (DNS) (se IPv6 estiver sendo usado).
+ **FQDN** do Servidor do Office Web Apps : Essa propriedade define o nome de domínio totalmente qualificado do Servidor do Office Web Apps e deve corresponder a um registro de host A ou AAAA do sistema de nomes de domínio (DNS) (se IPv6 estiver sendo usado).
 
- **URL** de descoberta do Servidor do Office Web Apps : A URL (uniform resource locator) para acesso do cliente ao Servidor do Office Web Apps, talvez seja necessário editar esse endereço a partir de seu padrão se o servidor for colocado em outra zona de rede diferente da rede interna para sua implantação.
+ **URL** de descoberta do Servidor do Office Web Apps : O url (localizador de recursos uniforme) para acesso do cliente ao Servidor do Office Web Apps, talvez seja necessário editar esse endereço de seu padrão se o servidor for colocado em outra zona de rede diferente da rede interna da sua implantação.
 
 Marque a caixa de seleção **Office Web Apps Server é implantado em uma rede externa** se esse servidor for implantado em sua rede de perímetro ou em outra zona de rede que esteja fora de seu firewall interno, separando a rede de perímetro, redes menos confiáveis e a Internet de sua implantação interna.
 
@@ -36,4 +36,4 @@ Marque a caixa de seleção **Office Web Apps Server é implantado em uma rede e
 
 ## <a name="see-also"></a>Confira também
 
-[Componentes e topologias para conferência](https://technet.microsoft.com/library/eb83052a-3360-4ba1-a6a0-6ee419942809.aspx)
+[Componentes e topologias para conferência](/previous-versions/office/lync-server-2013/lync-server-2013-components-and-topologies-for-conferencing)

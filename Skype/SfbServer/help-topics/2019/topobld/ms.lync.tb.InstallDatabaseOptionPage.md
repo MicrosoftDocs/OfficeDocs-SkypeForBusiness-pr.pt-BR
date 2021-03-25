@@ -14,29 +14,29 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 926c47a0-3957-4892-b61a-7a4b569552c3
 ROBOTS: NOINDEX, NOFOLLOW
-description: 'Você configura opções avançadas para o posicionamento de arquivos de banco de dados e de log no SQL Server. As opções disponíveis são:'
-ms.openlocfilehash: 5da2d50bf6571408f63403998443155307d86e2b
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 'Você configura opções avançadas para o posicionamento de arquivos de banco de dados e de log em seu SQL Server. As opções disponíveis são:'
+ms.openlocfilehash: 4b4323f2b0e953ff24a458a2f28f75f52d4f0149
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49805731"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51121639"
 ---
 # <a name="install-database-options-page"></a>Instalar Página de Opções de Banco de Dados
 
-Você configura opções avançadas para o posicionamento de arquivos de banco de dados e de log no SQL Server. As opções disponíveis são:
+Você configura opções avançadas para o posicionamento de arquivos de banco de dados e de log em seu SQL Server. As opções disponíveis são:
 
 > [!IMPORTANT]
-> Selecione a opção que melhor se ajuste aos seus requisitos e políticas referentes ao posicionamento de arquivos de dados e de log nos computadores do SQL Server.
+> Selecione a opção que melhor se ajuste aos seus requisitos e políticas referentes ao posicionamento de arquivos de log e dados em seus SQL Server computadores.
 
- **Determinar automaticamente o** local do arquivo de banco de dados: a opção padrão usa um algoritmo que determina o espaço disponível no SQL Server e distribui o banco de dados e os arquivos de log para obter o desempenho ideal.
+ **Determinar automaticamente o** local do arquivo de banco de dados : A opção padrão usa um algoritmo que determina o espaço disponível no SQL Server e distribui o banco de dados e os arquivos de log para obter o desempenho ideal.
 
- **Usar padrões de instância do SQL Server:** selecione essa opção para colocar arquivos de banco de dados e de log com base nas configurações da instância no SQL Server. As opções são normalmente gerenciadas e configuradas por seu Administrador de Banco de Dados.
+ **Use SQL Server de instância:** selecione essa opção para colocar arquivos de banco de dados e arquivos de log com base nas configurações de instância em SQL Server. As opções são normalmente gerenciadas e configuradas por seu Administrador de Banco de Dados.
 
- **Escolha este** caminho no SQL Server de destino: selecione essa opção para definir seus próprios caminhos para arquivos de log e de banco de dados do SQL Server digitando o caminho completo para a unidade e a pasta onde os arquivos de banco de dados e de log serão colocados.
+ Us **these path on target SQL Server**: Select this option to define your own paths for SQL Server database and log files by typing the full path to the drive and folder where the database and log files will be placed.
 
 > [!IMPORTANT]
-> Os caminhos inseridos podem ser modificados com base nos algoritmos de otimização de desempenho na instalação. Para obter detalhes, consulte [Database Installation Using Lync Server Management Shell](https://technet.microsoft.com/library/c90a6449-4dd5-4b18-b21c-ea2c2a64dc3c.aspx).
+> Os caminhos inseridos podem ser modificados com base nos algoritmos de otimização de desempenho na instalação. Para obter detalhes, consulte [Database Installation Using Lync Server Management Shell](/previous-versions/office/lync-server-2013/lync-server-2013-database-installation-using-lync-server-management-shell).
 
  **OK**: clique no botão OK para confirmar suas alterações.
 
@@ -46,4 +46,4 @@ Você configura opções avançadas para o posicionamento de arquivos de banco d
 
 ## <a name="see-also"></a>Confira também
 
-[Localização de arquivos de log e dados do SQL Server](https://technet.microsoft.com/library/67aa525b-8aa3-474f-827e-8e1d4697f30f.aspx)
+[Localização de arquivos de log e dados do SQL Server](/previous-versions/office/lync-server-2013/lync-server-2013-sql-server-data-and-log-file-placement)

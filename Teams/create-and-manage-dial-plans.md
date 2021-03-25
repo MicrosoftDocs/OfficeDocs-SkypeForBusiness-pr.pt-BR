@@ -21,12 +21,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-apr2020
 description: Saiba como usar o Centro de administração do Microsoft Teams ou Windows PowerShell para criar e gerenciar planos de discagem (planos de discagem de chamada PSTN).
-ms.openlocfilehash: 8e1d3a102d762bef29ecd3af7998646239b5f0c2
-ms.sourcegitcommit: 1613e08da482ff142c990c9c9951abeb873ad964
+ms.openlocfilehash: 0b2c8c64d1e4e01843c6565d43a07e0ebdb24d71
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "50569253"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51120803"
 ---
 # <a name="create-and-manage-dial-plans"></a>Criar e gerenciar planos de discagem
 
@@ -89,7 +89,7 @@ Você pode usar um único cmdlet ou um script do PowerShell para criar e gerenci
   New-CsTenantDialPlan -Identity RedmondDialPlan -Description "Dial Plan for Redmond" -NormalizationRules <pslistmodifier> -ExternalAccessPrefix 9 -SimpleName "Dial-Plan-for-Redmond"
   ```
 
-    Para outros exemplos e parâmetros, consulte [New-CsTenantDialPlan](https://docs.microsoft.com/powershell/module/skype/new-cstenantdialplan).
+    Para outros exemplos e parâmetros, consulte [New-CsTenantDialPlan](/powershell/module/skype/new-cstenantdialplan).
     
 - Para editar as configurações de um plano de discagem existente, execute:
     
@@ -98,7 +98,7 @@ Você pode usar um único cmdlet ou um script do PowerShell para criar e gerenci
     -SimpleName "Dial-Plan-for-Redmond"
   ```
 
-    Para outros exemplos e parâmetros, consulte [Set-CsTenantDialPlan](https://docs.microsoft.com/powershell/module/skype/set-cstenantdialplan).
+    Para outros exemplos e parâmetros, consulte [Set-CsTenantDialPlan](/powershell/module/skype/set-cstenantdialplan).
     
 - Para adicionar usuários a um plano de discagem, execute:
     
@@ -106,7 +106,7 @@ Você pode usar um único cmdlet ou um script do PowerShell para criar e gerenci
   Grant-CsTenantDialPlan -Identity amos.marble@contoso.com -PolicyName RedmondDialPlan
   ```
 
-    Para outros exemplos e parâmetros, consulte [Grant-CsTenantDialPlan](https://docs.microsoft.com/powershell/module/skype/grant-cstenantdialplan).
+    Para outros exemplos e parâmetros, consulte [Grant-CsTenantDialPlan](/powershell/module/skype/grant-cstenantdialplan).
     
 - Para exibir as configurações em um plano de discagem, execute:
     
@@ -114,7 +114,7 @@ Você pode usar um único cmdlet ou um script do PowerShell para criar e gerenci
   Get-CsTenantDialPlan -Identity RedmondDialPlan
   ```
 
-    Para outros exemplos e parâmetros, consulte [Get-CsTenantDialPlan](https://docs.microsoft.com/powershell/module/skype/get-cstenantdialplan?view=skype-ps).
+    Para outros exemplos e parâmetros, consulte [Get-CsTenantDialPlan](/powershell/module/skype/get-cstenantdialplan?view=skype-ps).
     
 - Para excluir um plano de discagem, execute:
     
@@ -122,7 +122,7 @@ Você pode usar um único cmdlet ou um script do PowerShell para criar e gerenci
   Remove-CsTenantDialPlan -Identity RedmondDialPlan -force
   ```
 
-    Para outros exemplos e parâmetros, consulte [Remove-CsTenantDialPlan](https://docs.microsoft.com/powershell/module/skype/remove-cstenantdialplan?view=skype-ps).
+    Para outros exemplos e parâmetros, consulte [Remove-CsTenantDialPlan](/powershell/module/skype/remove-cstenantdialplan?view=skype-ps).
     
 - Para ver as configurações do plano de discagem efetivo, execute:
     
@@ -130,7 +130,7 @@ Você pode usar um único cmdlet ou um script do PowerShell para criar e gerenci
   Get-CsEffectiveTenantDialPlan -Identity amos.marble@contoso.com
   ```
 
-    Para outros exemplos e parâmetros, consulte [Get-CsEffectiveTenantDialPlan](https://docs.microsoft.com/powershell/module/skype/get-cseffectivetenantdialplan).
+    Para outros exemplos e parâmetros, consulte [Get-CsEffectiveTenantDialPlan](/powershell/module/skype/get-cseffectivetenantdialplan).
     
 - Para testar as configurações efetivas de um plano de discagem, execute:
     
@@ -138,7 +138,7 @@ Você pode usar um único cmdlet ou um script do PowerShell para criar e gerenci
   Test-CsEffectiveTenantDialPlan -DialedNumber 14255550199 -Identity amos.marble@contoso.com
   ```
 
-    Para outros exemplos e parâmetros, consulte [Test-CsEffectiveTenantDialPlan](https://docs.microsoft.com/powershell/module/skype/test-cseffectivetenantdialplan?view=skype-ps).
+    Para outros exemplos e parâmetros, consulte [Test-CsEffectiveTenantDialPlan](/powershell/module/skype/test-cseffectivetenantdialplan?view=skype-ps).
     
 #### <a name="using-a-powershell-script"></a>Usando um script do PowerShell
 
@@ -220,7 +220,7 @@ New-CsTenantDialPlan -Identity $dp.SimpleName -ExternalAccessPrefix $dp.External
 ## <a name="related-topics"></a>Tópicos relacionados
 
 - [O que são planos de discagem?](what-are-dial-plans.md)
-- [Perguntas comuns sobre a transferência de números de telefone](transferring-phone-numbers-common-questions.md)
+- [Perguntas comuns sobre a transferência de números de telefone](./phone-number-calling-plans/port-order-overview.md)
 - [Diferentes tipos de números de telefone usados para Planos de Chamadas](different-kinds-of-phone-numbers-used-for-calling-plans.md)
 - [Gerenciar os números de telefone de sua organização](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 - [Termos e condições das Chamadas de Emergência](emergency-calling-terms-and-conditions.md)

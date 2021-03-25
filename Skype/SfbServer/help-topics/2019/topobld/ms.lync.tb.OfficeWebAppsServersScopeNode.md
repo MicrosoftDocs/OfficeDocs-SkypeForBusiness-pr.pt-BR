@@ -14,19 +14,19 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 087ca1f2-2329-4fa1-b6bb-685f2f4ba296
 ROBOTS: NOINDEX, NOFOLLOW
-description: Clique com o botão direito do mouse nos Servidores do Office Web Apps e selecione Novo Servidor do Office Web Apps para abrir o assistente.
-ms.openlocfilehash: eb03185e46e63cfe855155addba5e21c9d7418a1
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Clique com o botão direito do mouse em Servidores do Office Web Apps e selecione Novo Servidor do Office Web Apps para abrir o assistente.
+ms.openlocfilehash: dc58a6e203362f5811ecb60b2b8bc981b70c9ba3
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49829931"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51121044"
 ---
 # <a name="office-web-apps-servers-scope-node"></a>Nó do Escopo do Servidor Office Web Apps
 
-Clique com o botão direito do mouse nos Servidores do **Office Web Apps** e selecione Novo Servidor do Office Web **Apps** para abrir o assistente.
+Clique com o botão direito do mouse em Servidores do **Office Web Apps** e selecione Novo Servidor do Office Web **Apps** para abrir o assistente.
 
-![Nó de Escopo de Servidores OfficeWebApps](../../../media/OfficeWebApps_Servers_Scope_Node.jpg)
+![Nó de Escopo de Servidores do OfficeWebApps](../../../media/OfficeWebApps_Servers_Scope_Node.jpg)
 
 - **Topologia**. Você pode usar essa opção para definir uma nova topologia, abrir uma topologia existente, baixar a topologia atual, salvar uma cópia da topologia, publicar a topologia, instalar um banco de dados, mesclar componentes de versões anteriores ou remover a implantação.
 
@@ -34,4 +34,4 @@ Clique com o botão direito do mouse nos Servidores do **Office Web Apps** e sel
 
 ## <a name="see-also"></a>Confira também
 
-[Configurando a integração com o Servidor do Office Web Apps](https://technet.microsoft.com/library/3370ab55-9949-4f32-b88b-5cffed6aaad8.aspx)
+[Configurando a integração com o Servidor do Office Web Apps](/previous-versions/office/lync-server-2013/lync-server-2013-enabling-office-web-apps-server-and-lync-server-2013)

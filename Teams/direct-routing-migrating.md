@@ -16,27 +16,27 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: Saiba o que é necessário para migrar para o Roteamento Direto de uma perspectiva de configuração do Skype for Business Online e do Teams.
-ms.openlocfilehash: 11bf4ffe7e5e0f1c2fb177531c2eba36d081bf47
-ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
+ms.openlocfilehash: de211dfae9bf2fc20a2cd367687e0fd7c5779a5f
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "47359417"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51122195"
 ---
 # <a name="migrate-to-direct-routing"></a>Migrar para o Roteamento Direto
 
 Este artigo descreve o que é necessário para migrar para o Roteamento Direto de uma perspectiva de configuração do Skype for Business Online e do Teams. Este artigo aborda a migração dos seguintes sistemas: 
  
-- Sistema telefônico com planos de chamada (para o Teams e o Skype for Business Online) 
-- Sistema telefônico com conectividade PSTN local no Skype for Business Server (para Skype for Business Online)  
-- Sistema telefônico com Conectividade PSTN local usando o Cloud Connector Edition (para Skype for Business Online)
+- Sistema de Telefonia com Planos de Chamadas (para Teams e Skype for Business Online) 
+- Sistema de Telefonia com conectividade PSTN local no Skype for Business Server (para Skype for Business Online)  
+- Sistema de Telefonia com conectividade PSTN local usando o Cloud Connector Edition (para Skype for Business Online)
 
 
 Além dessas etapas de configuração, também é necessário configurar o Controlador de Borda de Sessão (SBC) para direcionar as chamadas para a nova rota. Isso está fora do escopo deste documento. Para obter mais informações, consulte a documentação do seu fornecedor de SBC.  
 
 ## <a name="user-provisioning-end-state-for-various-pstn-connectivity-options"></a>Provisionamento de usuário estado final para várias opções de conectividade PSTN 
 
-A tabela a seguir mostra o estado final de um usuário provisionado para as opções de conectividade PSTN selecionadas com o Sistema telefônico. São exibidos somente os atributos relevantes para voz.
+A tabela a seguir mostra o estado final de um usuário provisionado para as opções de conectividade PSTN selecionadas com o Sistema de Telefonia. São exibidos somente os atributos relevantes para voz.
 
 |Atributos de objeto do usuário |Sistema de Telefonia com Planos de Chamadas|Sistema de Telefonia com conectividade PSTN local por meio do Skype for Business Server|Sistema de Telefonia com conectividade PSTN via Cloud Connector|Sistema de Telefonia com conectividade PSTN local por meio de Roteamento Direto|
 |---|---|---|---|---|
@@ -65,9 +65,9 @@ Para obter mais informações, confira[Orientações de Migração e Interoperab
 
 Para obter mais informações sobre como migrar de Planos de Chamadas, consulte:
 
-- [Configurar Planos de Chamadas](https://docs.microsoft.com/skypeforbusiness/what-are-calling-plans-in-office-365/set-up-calling-plans)
-- [Usuário Set-CsOnlineVoice](https://docs.microsoft.com/powershell/module/skype/Set-CsOnlineVoiceUser?view=skype-ps)
-- [Get-CsOnlineLisLocation](https://docs.microsoft.com/powershell/module/skype/get-csonlinelislocation?view=skype-ps)  
+- [Configurar Planos de Chamadas](/skypeforbusiness/what-are-calling-plans-in-office-365/set-up-calling-plans)
+- [Usuário Set-CsOnlineVoice](/powershell/module/skype/Set-CsOnlineVoiceUser?view=skype-ps)
+- [Get-CsOnlineLisLocation](/powershell/module/skype/get-csonlinelislocation?view=skype-ps)  
  
  
 É recomendável remover o plano de licenciamento configurado anteriormente da seguinte maneira:
@@ -83,8 +83,8 @@ Set-MsolUserLicense -UserPrincipalName <UPN> -RemoveLicenses $lic2
 
 Para obter mais informações sobre como migrar do Sistema de Telefonia com conectividade PSTN local no Skype for Business Server, confira o seguinte:
 
-- [Planejamento](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-phone-system-with-on-premises-pstn-connectivity)
-- [Implantação](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-users-for-phone-system) 
+- [Planejamento](/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-phone-system-with-on-premises-pstn-connectivity)
+- [Implantação](/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-users-for-phone-system) 
 
 É recomendável remover as informações de roteamento de voz configuradas anteriormente da seguinte maneira:
 
@@ -92,18 +92,18 @@ Para obter mais informações sobre como migrar do Sistema de Telefonia com cone
 Grant-CsVoiceRoutingPolicy -PolicyName $NULL -Identity <UPN> 
 ```
 > [!NOTE]
-> Se uma CsVoiceRoutingPolicy global estiver configurada, é recomendável remover todos os usos de PSTN associados a essa política global. 
+> Se um CsVoiceRoutingPolicy global estiver configurado, é recomendável remover quaisquer usos PSTN associados a essa política global. 
 
 ## <a name="migrating-from-office-365-phone-system-with-on-premises-pstn-connectivity-via-cloud-connector-edition"></a>Migração do Sistema de Telefonia do Office 365 com conectividade PSTN local através da Edição Cloud Connector 
 
 > [!Important]
-> A Cloud Connector Edition se desposente em 31 de julho de 2021 juntamente com o Skype for Business Online. Depois que sua organização tiver atualizado para o Teams, saiba como conectar sua rede de telefonia local ao Teams usando [o Roteamento Direto.](direct-routing-landing-page.md)
+> O Cloud Connector Edition se aposentará em 31 de julho de 2021 junto com o Skype for Business Online. Depois que sua organização tiver atualizado para o Teams, saiba como conectar sua rede de telefonia local ao Teams usando [Roteamento Direto.](direct-routing-landing-page.md)
 
 Para obter mais informações sobre como migrar do Sistema de Telefonia com conectividade PSTN local via Cloud Conector, confira o seguinte:
 
-- [Planejamento](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-skype-for-business-cloud-connector-edition)  
-- [Implantação](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-users-for-phone-system)
-- [Configuração do usuário](https://docs.microsoft.com/powershell/module/skype/set-csuserpstnsettings?view=skype-ps) 
+- [Planejamento](/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-skype-for-business-cloud-connector-edition)  
+- [Implantação](/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-users-for-phone-system)
+- [Configuração do usuário](/powershell/module/skype/set-csuserpstnsettings?view=skype-ps) 
 
 É recomendável remover as informações de roteamento de voz configuradas anteriormente da seguinte maneira:
  
@@ -117,17 +117,16 @@ Set-CsUserPstnSettings -Identity <UPN> -AllowInternationalCalls $false -HybridPS
 
 [Orientações de migração e interoperabilidade para organizações que usam o Teams em conjunto com o Skype for Business](migration-interop-guidance-for-teams-with-skype.md)
 
-[Grant-CsTeamsUpgradePolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsupgradepolicy)
+[Grant-CsTeamsUpgradePolicy](/powershell/module/skype/grant-csteamsupgradepolicy)
 
-[Get-CsTeamsUpgradePolicy](https://docs.microsoft.com/powershell/module/skype/Get-CsTeamsUpgradePolicy)
+[Get-CsTeamsUpgradePolicy](/powershell/module/skype/Get-CsTeamsUpgradePolicy)
 
-[New-CsTeamsUpgradePolicy](https://docs.microsoft.com/powershell/module/skype/New-CsTeamsUpgradePolicy)
+[New-CsTeamsUpgradePolicy](/powershell/module/skype/New-CsTeamsUpgradePolicy)
 
-[Remove-CsTeamsUpgradePolicy](https://docs.microsoft.com/powershell/module/skype/Remove-CsTeamsUpgradePolicy)
+[Remove-CsTeamsUpgradePolicy](/powershell/module/skype/Remove-CsTeamsUpgradePolicy)
 
-[Set-CsTeamsUpgradePolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsTeamsUpgradePolicy)
+[Set-CsTeamsUpgradePolicy](/powershell/module/skype/Set-CsTeamsUpgradePolicy)
 
-[Get-CsTeamsUpgradeConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsTeamsUpgradeConfiguration)
+[Get-CsTeamsUpgradeConfiguration](/powershell/module/skype/Get-CsTeamsUpgradeConfiguration)
 
-[Set-CsTeamsUpgradeConfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsTeamsUpgradeConfiguration)
-
+[Set-CsTeamsUpgradeConfiguration](/powershell/module/skype/Set-CsTeamsUpgradeConfiguration)

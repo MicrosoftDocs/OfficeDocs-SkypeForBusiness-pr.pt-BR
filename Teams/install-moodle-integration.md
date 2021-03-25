@@ -20,12 +20,12 @@ ms.custom:
 - seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d51aba578de4dc5245a8d9459b160e5743b786a5
-ms.sourcegitcommit: 71b9b5ec80014bd25758493bc06d633c4eac735c
+ms.openlocfilehash: 60fabc107ba684afdf32c4eeeb0351f12dec883e
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/18/2021
-ms.locfileid: "50867110"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51120632"
 ---
 # <a name="installing-the-moodle-integration-with-microsoft-teams"></a>Instalando a integração do Moodle com o Microsoft Teams
 
@@ -41,7 +41,7 @@ Para ajudar os administradores de TI a configurar facilmente essa integração, 
 * Instalação automática da guia Moodle e do bot do assistente do Moodle em cada equipe sincronizada. (Em breve)
 * Publicação em um clique do aplicativo Moodle em sua Microsoft Store do Teams particular. (Em breve)
 
-Para saber mais sobre a funcionalidade que essa integração fornece, consulte [Installing the Moodle integration with Microsoft Teams](https://docs.microsoft.com/microsoftteams/platform/resources/moodleinstructions).
+Para saber mais sobre a funcionalidade que essa integração fornece, consulte [Installing the Moodle integration with Microsoft Teams](/microsoftteams/platform/resources/moodleinstructions).
 
 ## <a name="prerequisites"></a>Pré-requisitos
 
@@ -176,7 +176,7 @@ Depois que os recursos terminarem de implantar no Azure, você precisará config
 
 Agora que você já instalou o seu bot no Azure e configurou para se comunicar com o servidor Moodle, chegou a hora de implantar o aplicativo Microsoft Teams. Para fazer isso, você carregará o arquivo de manifesto baixado da página Configurações da equipe do plug-in do Moodle na etapa anterior.
 
-Antes de poder instalar o aplicativo, você precisará verificar se os aplicativos externos e o sideload de aplicativos estão habilitados. Para isso, siga [estas etapas](https://docs.microsoft.com/MicrosoftTeams/admin-settings). Depois que você tiver certeza de que os aplicativos externos estão habilitados, siga as etapas abaixo para implantar o aplicativo.
+Antes de poder instalar o aplicativo, você precisará verificar se os aplicativos externos e o sideload de aplicativos estão habilitados. Para isso, siga [estas etapas](./admin-settings.md). Depois que você tiver certeza de que os aplicativos externos estão habilitados, siga as etapas abaixo para implantar o aplicativo.
 
 1. Abra o Microsoft Teams.
 2. Clique no **ícone da** Loja no canto inferior esquerdo da barra de navegação.

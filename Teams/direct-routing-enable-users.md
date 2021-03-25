@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: Saiba como habilitar os usuários do Roteamento Direto do Sistema do Microsoft Phone.
-ms.openlocfilehash: 972bd8d5e01a050a67978560b8de272439fda40d
-ms.sourcegitcommit: 6f7b91f573e2a034f8c5474be2c5cb2971f4b5ab
+ms.openlocfilehash: 858b9073106945d414c2dbe56a16e6cecd104ee7
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50421306"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51122215"
 ---
 # <a name="enable-users-for-direct-routing-voice-and-voicemail"></a>Habilitar usuários para Roteamento Direto, voz e caixa postal
 
@@ -46,7 +46,7 @@ Quando você estiver pronto para habilitar usuários para Roteamento Direto, sig
 
 Há duas opções para criar um novo usuário no Microsoft 365 ou No Office 365. No entanto, a Microsoft recomenda que sua organização escolha uma opção para evitar problemas de roteamento: 
 
-- Crie o usuário no Active Directory local e sincronize o usuário com a nuvem. Consulte [Integrar seus diretórios locais ao Azure Active Directory](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect).
+- Crie o usuário no Active Directory local e sincronize o usuário com a nuvem. Consulte [Integrar seus diretórios locais ao Azure Active Directory](/azure/active-directory/connect/active-directory-aadconnect).
 - Crie o usuário diretamente no centro de administração do Microsoft 365. Consulte [Adicionar usuários individualmente ou em massa ao Microsoft 365 ou Office 365 - Ajuda do administrador.](https://support.office.com/article/Add-users-individually-or-in-bulk-to-Office-365-Admin-Help-1970f7d6-03b5-442f-b385-5880b9c256ec) 
 
 Se sua implantação do Skype for Business Online coexistir com o Skype for Business 2015 ou o Lync 2010 ou 2013 local, a única opção com suporte é criar o usuário no Active Directory local e sincronizar o usuário com a nuvem (Opção 1). 

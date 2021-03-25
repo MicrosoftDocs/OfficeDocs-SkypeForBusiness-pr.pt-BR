@@ -19,12 +19,12 @@ localization_priority: Normal
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 1e6628467d4300130c39a3bade87919fb064a14f
-ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
+ms.openlocfilehash: ae050080814afe12ce2ba791c6b68058d5e4bc58
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/18/2021
-ms.locfileid: "50874701"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51120853"
 ---
 # <a name="microsoft-teams-apps-permissions-and-considerations"></a>Permissões e considerações dos aplicativos Microsoft Teams
 
@@ -37,7 +37,7 @@ Os aplicativos do Microsoft Teams são uma  maneira de agregar um ou mais recurs
 
 Os aplicativos são consentidos pelos usuários e gerenciados por IT de uma perspectiva de política. No entanto, na maioria das partes, as permissões e o perfil de risco de um aplicativo são definidos pelas permissões e perfis de risco dos recursos que o aplicativo contém. Portanto, este artigo se concentra em permissões e considerações no nível de funcionalidade.
 
-As permissões listadas abaixo em letras [maiúsculas,](https://developer.microsoft.com/graph/docs/concepts/permissions_reference)por exemplo, RECEIVE_MESSAGE e REPLYTO_MESSAGE, não aparecem em qualquer lugar na documentação de desenvolvedor do [Microsoft Teams](https://aka.ms/teamsdevdocs) ou nas permissões do Microsoft Graph . Eles são simplesmente uma taquigrafia descritiva para a finalidade deste artigo.
+As permissões listadas abaixo em letras [maiúsculas,](/graph/permissions-reference)por exemplo, RECEIVE_MESSAGE e REPLYTO_MESSAGE, não aparecem em qualquer lugar na documentação de desenvolvedor do [Microsoft Teams](/microsoftteams/platform/overview) ou nas permissões do Microsoft Graph . Eles são simplesmente uma taquigrafia descritiva para a finalidade deste artigo.
 
 
 | Título   | Descrição    |
@@ -45,7 +45,7 @@ As permissões listadas abaixo em letras [maiúsculas,](https://developer.micros
 | ![Um ícone representando um ponto de decisão](media/audio_conferencing_image7.png) <br/>Ponto de decisão|<ul><li>Use as tabelas abaixo como um guia para entender quais permissões os aplicativos que você está investigando estão solicitando.</li></ul> |
 | ![Um ícone representando o passo seguinte](media/audio_conferencing_image9.png)<br/>Próxima etapa|<ul><li>Pesquise o aplicativo ou o próprio serviço para decidir se você deseja permitir o acesso a ele em sua organização. Por exemplo, os bots enviam e recebem mensagens de usuários e, exceto para bots personalizados da empresa, eles estão localizados fora do limite de conformidade. Portanto, qualquer aplicativo que inclua um bot exige essas permissões e tem esse perfil de risco, no mínimo. </li></ul>|
 
-Consulte também [Solicitar permissões de dispositivo para sua guia do Microsoft Teams.](https://docs.microsoft.com/microsoftteams/platform/concepts/device-capabilities/native-device-permissions)
+Consulte também [Solicitar permissões de dispositivo para sua guia do Microsoft Teams.](/microsoftteams/platform/concepts/device-capabilities/native-device-permissions)
 
 ## <a name="global-app-permissions-and-considerations"></a>Considerações e permissões globais do aplicativo
 
@@ -61,9 +61,9 @@ Nenhum
 
 - Um aplicativo deve divulgar quais dados ele usa e para que os dados são usados em seus termos de uso e links de política de privacidade.
 
-- [O consentimento específico do recurso](resource-specific-consent.md) fornece um conjunto de permissões que os aplicativos podem solicitar, que aparece na tela de instalação do aplicativo. Para saber mais sobre permissões de consentimento específicas do recurso, consulte [Referência de permissões do Graph.](https://docs.microsoft.com/graph/permissions-reference#teams-resource-specific-consent-permissions)
+- [O consentimento específico do recurso](resource-specific-consent.md) fornece um conjunto de permissões que os aplicativos podem solicitar, que aparece na tela de instalação do aplicativo. Para saber mais sobre permissões de consentimento específicas do recurso, consulte [Referência de permissões do Graph.](/graph/permissions-reference#teams-resource-specific-consent-permissions)
 
-- Os aplicativos também podem precisar de permissões diferentes de permissões de consentimento específicas do recurso. Depois que um aplicativo é instalado, o aplicativo pode solicitar permissões do Graph por meio de um prompt de consentimento. Para saber mais, consulte [Understanding Azure AD application consent experiences](https://docs.microsoft.com/azure/active-directory/develop/application-consent-experience). Você pode configurar permissões de API e consentimento no portal do Azure. Para saber mais, confira [a estrutura de consentimento do Azure Active Directory.](https://docs.microsoft.com/azure/active-directory/develop/consent-framework)
+- Os aplicativos também podem precisar de permissões diferentes de permissões de consentimento específicas do recurso. Depois que um aplicativo é instalado, o aplicativo pode solicitar permissões do Graph por meio de um prompt de consentimento. Para saber mais, consulte [Understanding Azure AD application consent experiences](/azure/active-directory/develop/application-consent-experience). Você pode configurar permissões de API e consentimento no portal do Azure. Para saber mais, confira [a estrutura de consentimento do Azure Active Directory.](/azure/active-directory/develop/consent-framework)
 
 ## <a name="bots-and-messaging-extensions"></a>Bots e extensões de mensagens
 

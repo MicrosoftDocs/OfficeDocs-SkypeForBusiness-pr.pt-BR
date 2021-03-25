@@ -18,18 +18,18 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9c86d707a4298d88d3ae0cff389bda73490390e4
-ms.sourcegitcommit: 380cd74c08cd34e1c3f73f5c0f51da4ae2674f6f
+ms.openlocfilehash: 6e1b7024190ac51b89e09fafced86ffea13f5961
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "49880862"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51120692"
 ---
 # <a name="set-up-microsoft-teams-meeting-add-on-for-google-workspace"></a>Configurar o complemento de reunião do Microsoft Teams para o Google Workspace
 
-Usar o complemento de reunião do Microsoft Teams permite que os usuários de calendário do Google agendem e participem de uma reunião do Microsoft Teams diretamente do Google Workspace. Os usuários terão acesso aos recursos de reuniões do Teams, incluindo vídeo e audioconferência, compartilhamento de tela, chat de reunião, quadro de comunicação digital e muito mais. Mantenha-se conectado e organizado para fazer mais em conjunto no trabalho, na escola e na vida.
+O uso do complemento de reunião do Microsoft Teams permite que os usuários do calendário do Google agendem e participem de uma reunião do Microsoft Teams diretamente do Google Workspace. Os usuários terão acesso aos recursos de reuniões do Teams, incluindo vídeo e audioconferência, compartilhamento de tela, chat de reunião, quadro de comunicação digital e muito mais. Mantenha-se conectado e organizado para fazer mais juntos no trabalho, na escola e na vida.
 
-O complemento de reunião do Microsoft Teams para o Google Workspace deve ser habilitado por um administrador do Teams para que os usuários do locatário possam acessar o aplicativo.
+O complemento de reunião do Microsoft Teams para o Google Workspace deve ser habilitado por um administrador do Teams para que os usuários de locatários possam acessar o aplicativo.
 
 ## <a name="enable-or-disable-microsoft-teams-meeting-add-on-for-google-workspace-in-the-azure-portal"></a>Habilitar ou desabilitar o complemento de reunião do Microsoft Teams para o Google Workspace no portal do Azure
 
@@ -39,19 +39,19 @@ O complemento está habilitado por padrão.
 
 1. Entre no portal do Azure.
 
-2. Selecionar **aplicativos corporativos**  >  **Todos os aplicativos.**
+2. Selecione **Aplicativos**  >  **Empresariais Todos os aplicativos**.
 
-3. Pesquise **o complemento de reunião do Microsoft Teams para o Google Workspace.**
+3. Pesquisar o **complemento de reunião do Microsoft Teams para o Google Workspace**.
 
    ![Portal do Azure mostrando todos os aplicativos](media/aad-add-google-workspace.png)
 
-4. Selecione **Sim.**
+4. Selecione **Sim**.
 
-   ![Portal do Azure mostrando as propriedades do espaço de trabalho do Google](media/google-workspace-properties.png)
+   ![Portal do Azure mostrando as propriedades do espaço de trabalho do google](media/google-workspace-properties.png)
 
 5. (Opcional) Para desabilitar o complemento, selecione **Não em** vez de **Sim** na Etapa 4.
 
-## <a name="disable-microsoft-teams-meeting-add-on-for-google-workspace-using-powershell"></a>Desabilitar o complemento de reunião do Microsoft Teams para o Espaço de Trabalho do Google usando o PowerShell
+## <a name="disable-microsoft-teams-meeting-add-on-for-google-workspace-using-powershell"></a>Desabilitar o complemento de reunião do Microsoft Teams para o Google Workspace usando o PowerShell
 
 ```powershell
 Connect-AzureAD
@@ -73,8 +73,8 @@ if ($servicePrincipal) {
 }
 ```
 
-Para obter mais informações, [consulte Criar uma entidade de serviço do Azure com o Azure PowerShell.](https://docs.microsoft.com/powershell/azure/create-azure-service-principal-azureps?view=azps-5.0.0)
+Para obter mais informações, [consulte Create an Azure service principal with Azure PowerShell](/powershell/azure/create-azure-service-principal-azureps?view=azps-5.0.0).
 
-## <a name="delete-the-microsoft-teams-meeting-add-on-for-google-workspace"></a>Excluir o complemento de reunião do Microsoft Teams para o Espaço de Trabalho do Google
+## <a name="delete-the-microsoft-teams-meeting-add-on-for-google-workspace"></a>Excluir o complemento de reunião do Microsoft Teams para o Google Workspace
 
-Consulte a documentação do Google [Delete a Google Workspace Marketplace app](https://support.google.com/a/answer/6216211?hl=en) para obter instruções.
+Consulte a documentação do Google [Excluir um aplicativo do Google Workspace Marketplace](https://support.google.com/a/answer/6216211?hl=en) para obter instruções.

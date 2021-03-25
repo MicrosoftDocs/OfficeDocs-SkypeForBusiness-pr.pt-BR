@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 334ecfdc387f1b3dd6d7f1312b90d81aee320df0
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: da2d330986ca2fd924df75e0fcae6fc4388c5d48
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46582758"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51120833"
 ---
 <a name="archive-or-delete-a-team-in-microsoft-teams"></a>Arquivar ou excluir uma equipe no Microsoft Teams
 ===========================================
@@ -40,22 +40,22 @@ Quando você exclui uma equipe, a atividade da equipe em canais (e conjuntos de 
 
 ## <a name="archive-a-team"></a>Arquivar uma equipe
 
-Siga estas etapas para arquivar uma equipe. Você deve ser um administrador do serviço do Teams para fazer essas alterações. Confira [as funções de administrador do Teams para gerenciar o Teams](https://docs.microsoft.com/microsoftteams/using-admin-roles) para ler sobre como obter funções e permissões de administrador.
+Siga estas etapas para arquivar uma equipe. Você deve ser um administrador de serviço do Teams para fazer essas alterações. Veja [ Use funções de administrador Teams para gerenciar o Teams](./using-admin-roles.md) para ler sobre como obter funções e permissões de administrador.
 
-1. No centro de administração, selecione **Teams.**
+1. No centro de administração, selecione **Teams**.
 2. Selecione uma equipe clicando no nome da equipe.
 3. Selecione **Arquivar**. A seguinte mensagem será exibida.
 
     ![Captura de tela da mensagem de arquivamento do Teams](media/teams-archive-message.png)
 
-4. Para impedir que as pessoas editem o conteúdo no site do SharePoint e na guia Wiki associada à equipe, selecione Tornar o site do SharePoint somente leitura para membros **da equipe.** (Os proprietários do Teams ainda poderão editar esse conteúdo.)
+4. Para impedir que as pessoas editem o conteúdo no site do SharePoint e na guia Wiki associados à equipe, selecione Tornar o site do **SharePoint somente** leitura para membros da equipe . (Os proprietários do Teams ainda poderão editar esse conteúdo.)
 5. Selecione **Arquivar** para arquivar a equipe. O status da equipe será alterado para **Arquivada**.
 
 ## <a name="make-an-archived-team-active"></a>Reativar uma equipe arquivada
 
 Siga estas etapas para reativar a equipe arquivada.
 
-1. No centro de administração, selecione **Teams.**
+1. No centro de administração, selecione **Teams**.
 2. Selecione uma equipe clicando no nome da equipe.
 3. Selecione **Desarquivar**. O status da equipe será alterado para **Ativa**.
 
@@ -63,7 +63,7 @@ Siga estas etapas para reativar a equipe arquivada.
 
 Se a equipe não for necessária no futuro, você pode excluí-la, em vez de arquivá-la. Siga estas etapas para excluir uma equipe.
 
-1.  No centro de administração, selecione **Teams.**
+1.  No centro de administração, selecione **Teams**.
 2.  Selecione uma equipe clicando no nome da equipe.
 3.  Selecione **Excluir**. Será exibida uma mensagem de confirmação.
 4.  Selecione **Excluir** para excluir a equipe permanentemente.
@@ -72,7 +72,7 @@ Se a equipe não for necessária no futuro, você pode excluí-la, em vez de arq
 
 Siga estas etapas para restaurar uma equipe excluída restaurando o grupo do Microsoft 365 associado à equipe. Restaurar o grupo do Microsoft 365 para uma equipe restaura o conteúdo da equipe, incluindo guias, canais padrão e canais privados e seus conjunto de sites associados.
 
-Por padrão, um grupo do Microsoft 365 excluído é mantido por 30 dias. Esse período de 30 dias é chamado de "exclusão temporária" porque você pode restaurar o grupo. Para saber mais, consulte [Restaurar um Grupo excluído.](https://docs.microsoft.com/microsoft-365/admin/create-groups/restore-deleted-group)
+Por padrão, um grupo excluído do Microsoft 365 é mantido por 30 dias. Esse período de 30 dias é chamado de "exclusão temporária" porque você pode restaurar o grupo. Para saber mais, consulte [Restore a deleted Group](/microsoft-365/admin/create-groups/restore-deleted-group).
 
 ### <a name="install-the-azureadpreview-module"></a>Instalar o módulo AzureADPreview
 
@@ -92,14 +92,14 @@ Por padrão, um grupo do Microsoft 365 excluído é mantido por 30 dias. Esse pe
     Install-Module AzureADPreview
     ```
 
-### <a name="restore-the-deleted-microsoft-365-group"></a>Restaurar o grupo do Microsoft 365 excluído
+### <a name="restore-the-deleted-microsoft-365-group"></a>Restaurar o grupo excluído do Microsoft 365
 
 1. Conecte-se ao Azure AD executando o seguinte:
     ```PowerShell
     Connect-AzureAD
     ```
     Quando solicitado, entre usando sua conta de administrador e senha.  
-2. Execute o seguinte para exibir uma lista de todos os grupos do Microsoft 365 excluídos que ainda estão dentro do período de retenção de 30 dias. Use o parâmetro **-All $True** se você tiver muitos grupos.
+2. Execute o seguinte para exibir uma lista de todos os grupos do Microsoft 365 excluídos de forma suave que ainda estão dentro do período de retenção de 30 dias. Use o parâmetro **-All $True** se você tiver muitos grupos.
     ```PowerShell
     Get-AzureADMSDeletedGroup
     ```

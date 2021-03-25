@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 description: Leia este artigo para saber mais sobre como implantar salas do Microsoft Teams no Android.
-ms.openlocfilehash: bb02ff59eb473d0db276fd773e9f1ff3f1ae0007
-ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
+ms.openlocfilehash: 3da0192ee3676f5ff7294ba719c778ea7b1cc7b2
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/18/2021
-ms.locfileid: "50875001"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51120793"
 ---
 # <a name="deploy-microsoft-teams-rooms-on-android"></a>Implantar salas do Microsoft Teams no Android
 
@@ -64,7 +64,7 @@ Antes de implantar salas do Teams, você precisa decidir se elas usarão contas 
 
 Se você decidir configurar uma conta de recurso do Microsoft 365, precisará comprar uma licença da Sala de Reunião para ela. A licença da Sala de Reunião inclui uma caixa de correio de recurso que permite que as pessoas em sua organização reservem a sala de reunião por meio do Outlook ou do Teams. A licença também permite vídeo e audioconferência e compartilhamento de tela entre os participantes da reunião.
 
-Se você precisar receber ou fazer chamadas para ou de um número de telefone [externo,](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing?tabs=small-business)talvez seja necessário um Plano de Chamadas ou uma licença de complemento do Microsoft 365 Business Voice. Se você tiver o Roteamento Direto habilitado em sua organização, você só precisará do SKU da Sala de Reunião.
+Se você precisar receber ou fazer chamadas para ou de um número de telefone [externo,](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md?tabs=small-business)talvez seja necessário um Plano de Chamadas ou uma licença de complemento do Microsoft 365 Business Voice. Se você tiver o Roteamento Direto habilitado em sua organização, você só precisará do SKU da Sala de Reunião.
 
 Ao criar uma conta de recurso, você pode escolher se a conta pode aceitar ou recusar automaticamente solicitações de reunião, permitir reuniões recorrentes, especificar até que ponto as pessoas podem reservar o recurso e assim por diante.
 
@@ -114,7 +114,7 @@ Em seguida, você precisa criar seu plano para entregar os dispositivos e seus d
 
 Depois de ter implantado salas do Teams, você deve testá-las. Entre em Salas do Teams e verifique se os recursos esperados estão funcionando. É altamente recomendável que você verifique  se elas estão aparecendo na seção Barras de colaboração na guia **Dispositivos** do Centro de administração do Microsoft Teams. Também é importante que você faça várias chamadas de teste e reuniões para verificar a qualidade e o desempenho.
 
-Recomendamos que, como parte da adoção geral do Microsoft Teams, você configure a criação de arquivos para o Painel de Qualidade de Chamada (CQD), monitore tendências de qualidade e participe do processo de Revisão da Qualidade da Experiência. Para obter mais informações, consulte o [Guia de Revisão de Qualidade da Experiência.](https://aka.ms/qerguide)
+Recomendamos que, como parte da adoção geral do Microsoft Teams, você configure a criação de arquivos para o Painel de Qualidade de Chamada (CQD), monitore tendências de qualidade e participe do processo de Revisão da Qualidade da Experiência. Para obter mais informações, consulte o [Guia de Revisão de Qualidade da Experiência.](../quality-of-experience-review-guide.md)
 
 ### <a name="asset-management"></a>Gerenciamento de ativos
 

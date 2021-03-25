@@ -1,5 +1,5 @@
 ---
-title: Ativar ou desativar comunicados de entrada e saída para reuniões no Teams
+title: Ativar ou desativar anúncios de entrada e saída para reuniões no Teams
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,17 +20,17 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 - seo-marvel-apr2020
-description: O administrador pode saber mais sobre como ativar ou desativar comunicados de entrada e saída em uma reunião do Microsoft Teams.
-ms.openlocfilehash: 145965f3ff2737b21c8fcb13c144e07e969fbeef
-ms.sourcegitcommit: 3e5cac88911611c94c0330bf50af9c34db308cdf
+description: O administrador pode aprender sobre como ativar ou desativar anúncios de entrada e saída em uma reunião do Microsoft Teams.
+ms.openlocfilehash: 6be1c6dc86d8088b5ddb54b2141a10172ba13cc5
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/22/2020
-ms.locfileid: "45372200"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51121329"
 ---
 # <a name="turn-on-or-off-entry-and-exit-announcements-for-meetings-in-microsoft-teams"></a>Ativar ou desativar anúncios de entrada e de saída para reuniões no Microsoft Teams
 
-Ao configurar a Audioconferência no Microsoft 365 ou no Office 365, você receberá uma ponte de audioconferência. Uma ponte de conferência pode conter um ou mais números de telefone que as pessoas usarão para ligar para uma reunião do Microsoft Teams.
+Ao configurar a Audioconferência no Microsoft 365 ou No Office 365, você receberá uma ponte de audioconferência. Uma ponte de conferência pode conter um ou mais números de telefone que as pessoas usarão para ligar para uma reunião do Microsoft Teams.
   
 A ponte de conferência atende uma chamada feita por um usuário que discou para a reunião utilizando um telefone. A ponte de conferência atende o chamador com solicitações de voz de um atendedor automático de conferência e, dependendo das suas configurações, pode reproduzir notificações, pedir para o chamador gravar o nome dele e configurar a segurança do PIN. É fornecido um PIN para o organizador da reunião do Microsoft Teams que permite que ele inicie uma reunião se ele não conseguir iniciar usando o aplicativo Microsoft Teams. No entanto, você pode fazer a configuração de modo que o PIN não seja obrigatório para iniciar a reunião.
 
@@ -41,9 +41,9 @@ A ponte de conferência atende uma chamada feita por um usuário que discou para
 
 ![Um ícone mostrando o logotipo do Microsoft Teams](media/teams-logo-30x30.png) **Usando o centro de administração do Microsoft Teams**
 
-Você deve ser um administrador do serviço do Teams para fazer essas alterações. Confira [as funções de administrador do Teams para gerenciar o Teams](https://docs.microsoft.com/microsoftteams/using-admin-roles) para ler sobre como obter funções e permissões de administrador.
+Você deve ser um administrador de serviço do Teams para fazer essas alterações. Veja [ Use funções de administrador Teams para gerenciar o Teams](./using-admin-roles.md) para ler sobre como obter funções e permissões de administrador.
 
-1. Entre no centro de administração.
+1. Faça logoff no centro de administração.
 
 2. Na navegação à esquerda, vá para **Reuniões** > **Pontes de conferência**.
 
@@ -54,21 +54,21 @@ Você deve ser um administrador do serviço do Teams para fazer essas alteraçõ
 5. Em **Tipo de anúncio de entrada/saída**, selecione **Nomes ou números de telefone** ou **Tons**.
 
    > [!NOTE]
-   > Por padrão, os participantes externos não podem ver os números de telefone dos participantes discados. Se você quiser manter a privacidade desses números de telefone, selecione **Tons** para o **tipo de anúncio de entrada/saída** (isso impede que os números sejam lidos pelas equipes).
+   > Por padrão, os participantes externos não podem ver os números de telefone de participantes discados. Se você quiser manter a privacidade desses números de telefone, selecione **Tons** para o **tipo de anúncio de entrada/saída** (isso impede que os números sejam lidos pelas equipes).
 
 6. Caso escolha **Nomes ou números de telefone**, ative ou desative **Solicitar que os chamadores gravem seu nome antes de entrar na reunião**.
 
 7. Clique em **Salvar**.
 
-## <a name="want-to-know-more-about-windows-powershell"></a>Quer saber mais sobre o Windows PowerShell
+## <a name="want-to-know-more-about-windows-powershell"></a>Deseja saber mais sobre Windows PowerShell
 
-O Windows PowerShell gerencia os usuários e o que eles podem ou não fazer. Com o Windows PowerShell, você pode gerenciar o Microsoft 365 ou o Office 365 usando um ponto único de administração que pode simplificar seu trabalho diário quando você tiver várias tarefas a fazer. Para começar a trabalhar com o Windows PowerShell, confira estes tópicos:
+O Windows PowerShell gerencia os usuários e o que eles podem ou não fazer. Com Windows PowerShell, você pode gerenciar o Microsoft 365 ou o Office 365 usando um único ponto de administração que pode simplificar seu trabalho diário quando você tem várias tarefas a fazer. Para começar a trabalhar com o Windows PowerShell, confira estes tópicos:
 
-- [Por que você precisa usar o Microsoft 365 ou o PowerShell do Office 365](https://go.microsoft.com/fwlink/?LinkId=525041)
+- [Por que você precisa usar o Microsoft 365 ou o Office 365 PowerShell](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
 
-- [Melhores maneiras de gerenciar o Microsoft 365 ou o Office 365 com o Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
+- [Melhores maneiras de gerenciar o Microsoft 365 ou o Office 365 com Windows PowerShell](/previous-versions//dn568025(v=technet.10))
 
-Para obter mais informações sobre o Windows PowerShell, consulte a [referência do Microsoft Teams PowerShell](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) para obter mais informações.
+Para obter mais informações sobre o Windows PowerShell, consulte a [referência do Microsoft Teams PowerShell](/powershell/module/teams/?view=teams-ps) para obter mais informações.
   
 ## <a name="related-topics"></a>Tópicos relacionados
 

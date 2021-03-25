@@ -16,12 +16,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 818e674014104178efea3e6467d2e5bfbf553c68
-ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
+ms.openlocfilehash: 79a1a416e0d868129e2d78f305cfe32efb527d53
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/18/2021
-ms.locfileid: "50874791"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51120642"
 ---
 # <a name="information-barriers-in-microsoft-teams"></a>Barreiras de informações no Microsoft Teams
 
@@ -111,7 +111,7 @@ As políticas de IB são ativadas quando os seguintes eventos do Teams ocorrem:
 
 - Um usuário faz uma chamada telefônica no **Teams** - Sempre que um usuário inicia uma chamada de voz (via VOIP) para outro usuário ou grupo de usuários, a chamada é avaliada para garantir que ela não viole as políticas de IB de outros membros da equipe. Se houver alguma violação, a chamada de voz será bloqueada.
 
-- **Convidados no Teams** - As políticas de IB também se aplicam aos convidados no Teams. Se os convidados precisam ser descobertos na lista de endereços global da sua organização, consulte Gerenciar o acesso de convidados [nos Grupos do Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/create-groups/manage-guest-access-in-groups). Depois que os convidados são descobertos, você pode [definir políticas de IB.](/office365/securitycompliance/information-barriers-policies)
+- **Convidados no Teams** - As políticas de IB também se aplicam aos convidados no Teams. Se os convidados precisam ser descobertos na lista de endereços global da sua organização, consulte Gerenciar o acesso de convidados [nos Grupos do Microsoft 365](/microsoft-365/admin/create-groups/manage-guest-access-in-groups). Depois que os convidados são descobertos, você pode [definir políticas de IB.](/office365/securitycompliance/information-barriers-policies)
 
 ## <a name="how-policy-changes-impact-existing-chats"></a>Como as alterações de política impactam chats existentes
 
@@ -189,7 +189,7 @@ Quando uma equipe é criada, um site do SharePoint é provisionado e associado a
 Exemplo de políticas **de IB** no site do SharePoint de uma equipe : na empresa do Banco Contoso, o usuário 'Sesha@contosobank.onmicrosoft.com' pertence ao segmento de Banco de Investimentos e o usuário 'Nikita@contosobank.onmicrosoft.com' pertence ao segmento de Consultoria. A política de IB da organização bloqueia a comunicação e a colaboração entre esses dois segmentos.
 Quando o usuário Sesha cria uma equipe para o segmento de Banco de Investimentos, a equipe e o site do SharePoint que o ressarmam estarão acessíveis somente aos usuários do Banco de Investimento. A usuária Nikita não poderá acessar esse site mesmo que ela tenha o link do site.
 
-Para obter mais informações, [consulte Use information barriers with SharePoint](https://docs.microsoft.com/sharepoint/information-barriers#segments-associated-with-microsoft-teams-sites).
+Para obter mais informações, [consulte Use information barriers with SharePoint](/sharepoint/information-barriers#segments-associated-with-microsoft-teams-sites).
 
 ## <a name="required-licenses-and-permissions"></a>Licenças e permissões necessárias
 
