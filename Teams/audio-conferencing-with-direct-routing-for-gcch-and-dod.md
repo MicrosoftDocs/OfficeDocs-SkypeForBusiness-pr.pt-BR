@@ -20,12 +20,12 @@ f1.keywords:
 localization_priority: Normal
 description: O administrador pode aprender sobre como usar a Audioconferência com Roteamento Direto em ambientes GCCH e DoD.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: ef20f340ec0c1fb225505ece273373e40d9d5c44
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 577a9fe106cb5dae23049404b54433288e350b78
+ms.sourcegitcommit: bd7847de9d1402476f8faaeae2ff97ec60d86a1b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119330"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "51262616"
 ---
 # <a name="audio-conferencing-with-direct-routing-for-gcc-high-and-dod"></a>Conferências de Áudio com Roteamento Direto para GCC Alto e DoD
 
@@ -46,7 +46,7 @@ Para usar a Audioconferência no GCC High ou NoD, sua organização e os usuári
 Uma licença de locatário e pelo menos uma licença de usuário são necessárias para habilitar o serviço. Você não pode habilitar o serviço com apenas a licença de locatário ou com apenas licenças de usuário. Para obter licenças de serviço para seu locatário e os usuários em sua organização, entre em contato com sua equipe de conta.
 
 > [!IMPORTANT]
-> Os usuários não podem ser habilitados para Audioconferência com Roteamento Direto até que os números de telefone discados sejam definidos e os usuários tenham um bloco de discagem funcionando em seu cliente do Teams. Recomendamos que você não atribua licenças de Audioconferência com Roteamento Direto para GCC High ou DoD aos usuários até configurar números de telefone discados conforme descrito neste artigo.
+> Os usuários não podem ser habilitados para Audioconferência com Roteamento Direto até que os números de telefone discados sejam definidos. Recomendamos que você não atribua audioconferência com roteamento direto para licenças GCC High ou DoD aos usuários até configurar números de telefone discados conforme descrito neste artigo.  A falha ao seguir essas diretrizes pode fazer com que o bloco de discagem seja completamente ausente no cliente do Teams.
 
 ### <a name="step-2-set-up-direct-routing"></a>Etapa 2: Configurar Roteamento Direto
 

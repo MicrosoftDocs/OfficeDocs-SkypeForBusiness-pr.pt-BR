@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Saiba mais sobre os atendimentos automáticos e filas de chamada e como usá-los para ajudar os chamadores a passar por um sistema de menus para alcançar pessoas ou departamentos em sua organização.
-ms.openlocfilehash: 659505c39fd6eace8cd0264aaef0a4994604e651
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 2e81f1d40c73cb8bcdf0a5ebd48f05c015732afe
+ms.sourcegitcommit: bd7847de9d1402476f8faaeae2ff97ec60d86a1b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117859"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "51262636"
 ---
 # <a name="plan-for-teams-auto-attendants-and-call-queues"></a>Planejar os atendimentos automáticos e filas de chamada do Teams
 
@@ -217,6 +217,8 @@ Consulte os artigos a seguir para obter informações sobre como criar atendimen
 
 - [Configurar um atendimento automático](create-a-phone-system-auto-attendant.md)
 - [Criar uma fila de chamadas](create-a-phone-system-call-queue.md)
+
+Se você precisar de recursos mais abrangentes, como integração com fluxos de trabalho, bots e SMS, considere os Serviços de Comunicação do [Azure.](/azure/communication-services/overview)
 
 ## <a name="related-topics"></a>Tópicos relacionados
 

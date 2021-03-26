@@ -17,12 +17,12 @@ description: Saiba mais sobre políticas de gravação de eventos ao vivo.
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 7a5f793230798c68f0a39e2d9a3500eab9791065
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: cd54bc123b852ff34da9353dd7e250924931420d
+ms.sourcegitcommit: bd7847de9d1402476f8faaeae2ff97ec60d86a1b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119160"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "51262653"
 ---
 # <a name="live-event-recording-policies-in-microsoft-teams"></a>Políticas de gravação de eventos ao vivo no Microsoft Teams
 
@@ -50,9 +50,9 @@ Como parte da política de transmissão, há uma configuração que você pode a
 
 |                                 | Gravação disponível para produtores e apresentadores | Gravação disponível para participantes |
 | ------------------------------- | ---------------------------------------------------- | ------------------------------------- |
-| Sempre gravar               | Desabilitado e selecionado                                | Desabilitado e selecionado         |
-| O organizador pode gravar ou não | Habilitado e não selecionado por padrão                  | Habilitado e não selecionado por padrão   |
-| Nunca gravar               | Desabilitado e não selecionado                            | Desabilitado e não selecionado      |
+| Sempre gravar               | Desabilitado e selecionado                                | Habilitado e selecionado         |
+| O organizador pode gravar ou não | Habilitado e selecionado por padrão                  | Habilitado e selecionado por padrão   |
+| Nunca gravar               | Desabilitado e não selecionado                            | Habilitado e não selecionado      |
 
 Quando a política é definida como **Sempre registrar**, a página de política tem as seguintes opções selecionadas:
 
