@@ -16,12 +16,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 79a1a416e0d868129e2d78f305cfe32efb527d53
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: c5137a67169198a16b62e179d32ae1779001011d
+ms.sourcegitcommit: e55d1623e686db2b183e02052bfe10a0269abb5d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51120642"
+ms.lasthandoff: 03/27/2021
+ms.locfileid: "51397574"
 ---
 # <a name="information-barriers-in-microsoft-teams"></a>Barreiras de informações no Microsoft Teams
 
@@ -201,6 +201,8 @@ Para obter mais informações sobre licenças e permissões, incluindo planos e 
 - **Os usuários não podem participar** de reuniões de canal: se as políticas de IB estão habilitadas, os usuários não podem participar de reuniões de canal se não são membros da equipe. A causa raiz é que as verificações de IB dependem se os usuários podem ser adicionados a uma lista de chat de reunião e somente quando eles podem ser adicionados à lista têm permissão para ingressar na reunião. O thread de chat em uma reunião de canal está disponível apenas para membros da equipe/canal, e os não membros não podem ver ou acessar o thread de chat. Se a IB estiver habilitada para o locatário e um membro não da equipe tentar ingressar em uma reunião de canal, esse usuário não poderá ingressar na reunião. No entanto, se  o IB não estiver habilitado para o locatário e um membro não da equipe tentar ingressar em uma reunião de canal, o usuário poderá ingressar na reunião, mas não verá a opção de chat na reunião.
 - Proprietários de equipe não são removidos **:** se uma nova política de IB for aplicada que resulta em dois ou mais segmentos conflitantes presentes em um canal do Teams, os segmentos com proprietários de equipe receberão preferência maior e outros usuários de segmento serão removidos. Além disso, no momento, os proprietários da equipe não estão sendo removidos, mesmo que eles estão em conflito com outros proprietários/usuários. Os administradores de locatários e outros proprietários de canal terão que remover os proprietários conflitantes manualmente.
 - **Número máximo de segmentos permitidos em um locatário**: cada locatário pode configurar até 100 segmentos ao configurar políticas de IB. Não há limite para o número de políticas que podem ser configuradas.
+
+- As políticas de IB não funcionam para usuários **federados**: se você permitir a federação com locatários externos, os usuários desses locatários não serão restritos por políticas de IB. Se os usuários da sua organização ingressarem em um chat ou reunião organizada por usuários federados externos, as políticas de IB também não restringirão a comunicação entre os usuários da sua organização.
 
 ## <a name="more-information"></a>Mais informações
 

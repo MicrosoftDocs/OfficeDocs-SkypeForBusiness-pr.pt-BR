@@ -15,12 +15,12 @@ localization_priority: Normal
 f1.keywords:
 - NOCSH
 description: Veja quais periféricos e dispositivos USB (como fones de ouvido, viva-voz, webcams e monitores) são certificados para o Microsoft Teams.
-ms.openlocfilehash: 651f4c19e83c7a20bcf0126034064330f151eeaa
-ms.sourcegitcommit: 84d99b266dea2a972774d781b92eccc67d6c197a
+ms.openlocfilehash: 61ebda3e8ef41678e6e9ca7e0c34a293ef86b81e
+ms.sourcegitcommit: 6e492297a886ff8c7894a6469965e63d1b806184
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51197586"
+ms.lasthandoff: 03/27/2021
+ms.locfileid: "51399148"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>Dispositivos de áudio e vídeo USB certificados para o Microsoft Teams
 
@@ -79,7 +79,6 @@ Se você for um fabricante e quiser ingressar no programa de certificação, con
 | Fabricante        | Modelo                                                     | Qualificado      | Programa Certificado                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
 |EPOS/Sennheiser      |Adaptar fones de ouvido da série 200                                  |3/19/2021       |Certificado para o Microsoft Teams                           |
-|Poly                 |Fone de ouvido do Foco Da Voyager 2                                    |3/11/2021       |Certificado para o Microsoft Teams                           |
 |Jabra                |Evolve2 30 Headset                                         |3/1/2021        |Certificado para o Microsoft Teams                           |
 |Poly                 |Barra de vídeo do Studio P15                                       |2/1/2021        |Certificado para o Microsoft Teams                           |
 |Poly                 |Sincronizar 40 alto-falantes                                       |1/19/2021       |Certificado para o Microsoft Teams                           |

@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3bfab6643d478537b3f9d2b7e4fa990b75511582
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: cc1ce6eec084dfe2f4bb736f018352e0eb0e2c88
+ms.sourcegitcommit: e55d1623e686db2b183e02052bfe10a0269abb5d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51104047"
+ms.lasthandoff: 03/27/2021
+ms.locfileid: "51397554"
 ---
 # <a name="teams-and-outlook-email-integration"></a>Integração de email do Teams e do Outlook
 
@@ -45,3 +45,5 @@ Os usuários receberão automaticamente emails de atividade perdida ativos que o
 ![Captura de tela mostrando como responder a um email de atividade perdida](media/missed-activity-email-reply.png)
 
 Você pode usar o cmdlet [Set-OrganizationConfig](/powershell/module/exchange/organization/set-organizationconfig) juntamente com o parâmetro **SmtpActionableMessagesEnabled** para desativar emails ativas. Por padrão, o **parâmetro SmtpActionableMessagesEnabled** é definido como **true**. A configuração do parâmetro como **false** desliga mensagens de email ativas no Office 365. Para usuários do Teams, isso significa que a opção **Responder** para responder diretamente no Outlook não está disponível em emails de atividade perdida. Em vez disso, os emails de atividade perdida incluem uma **opção Responder no Teams** para os usuários responderem no Teams.
+
+Consulte também [Mensagens ativas nos Grupos do Outlook e do Office 365.](https://docs.microsoft.com/outlook/actionable-messages/)
