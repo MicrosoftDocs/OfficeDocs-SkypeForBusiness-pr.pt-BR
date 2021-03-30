@@ -9,7 +9,7 @@ manager: laurawi
 ms.topic: conceptual
 ms.service: msteams
 audience: admin
-description: Use políticas de retenção para o Microsoft Teams para manter mensagens necessárias para estar em conformidade com políticas internas, regulamentos do setor ou necessidades legais e excluir mensagens que são consideradas uma responsabilidade ou que não têm valor comercial legal.
+description: Use políticas de retenção para o Microsoft Teams para manter mensagens necessárias para estar em conformidade com políticas internas, regulamentos do setor ou requisitos legais e excluir mensagens que são consideradas uma responsabilidade ou que não têm valor comercial legal.
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
@@ -19,12 +19,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: d7d998afb47480fa59ce936a93e20af9ac4b2a12
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 748106de5ed7e2f0147a182716ca8bce1571b82f
+ms.sourcegitcommit: 6505dd1fb891ab27fcc9f36423fda67aae6fcfd7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117599"
+ms.lasthandoff: 03/30/2021
+ms.locfileid: "51418809"
 ---
 # <a name="manage-retention-policies-for-microsoft-teams"></a>Gerenciar políticas de retenção para o Microsoft Teams
 
@@ -33,9 +33,9 @@ ms.locfileid: "51117599"
 > 
 > As informações nesta página são para administradores de IT que gerenciam essas políticas de retenção.
 
-As políticas de retenção e os rótulos de retenção do Microsoft 365 ajudam você a gerenciar com mais eficiência as informações em sua organização. Você pode definir configurações de retenção para manter os dados necessários para estar em conformidade com as políticas internas da sua organização, os regulamentos do setor ou as necessidades legais. Você também pode definir configurações de retenção para excluir dados considerados uma responsabilidade, que você não precisa mais manter, ou que não tem valor legal ou comercial.
+As políticas de retenção e os rótulos de retenção do Microsoft 365 ajudam você a gerenciar com mais eficiência as informações em sua organização. Você pode definir configurações de retenção para manter os dados necessários para estar em conformidade com as políticas internas da sua organização, os regulamentos do setor ou os requisitos legais. Você também pode definir configurações de retenção para excluir dados considerados uma responsabilidade, que você não precisa mais manter, ou que não tem valor legal ou comercial.
 
-O Teams dá suporte a políticas de retenção para mensagens de chat e canal para que, como administrador, você possa decidir proativamente se deve reter esses dados, excluí-los ou retê-los por um período específico de tempo e excluí-los. Você pode aplicar uma política de retenção do Teams para toda a organização ou para usuários e equipes específicas. Não há suporte para rótulos de retenção para o Teams.
+O Teams dá suporte a políticas de retenção para mensagens de chat e canal para que, como administrador, você possa decidir proativamente se deve reter esses dados, excluí-los ou retê-los por um período específico de tempo e excluí-los. O início do período de retenção dessas ações é sempre baseado em quando uma mensagem é criada. Você pode aplicar uma política de retenção do Teams para toda a organização ou para usuários e equipes específicas. Não há suporte para rótulos de retenção para o Teams.
 
 Para saber mais sobre retenção e como você pode aplicar configurações de retenção usando políticas de retenção ou rótulos de retenção para outras cargas de trabalho no Microsoft 365, consulte [Learn about retention policies and retention labels](/microsoft-365/compliance/retention).
 
@@ -43,9 +43,9 @@ O requisito mínimo de licenciamento para políticas de retenção para o Teams 
 
 ## <a name="how-teams-retentiondeletion-policies-work"></a>Como funcionam as políticas de retenção/exclusão do Teams
 
-As mensagens de chat do Teams são armazenadas em dois locais. A cópia primária é armazenada no Azure, uma cópia secundária, usada para políticas de compilação, é armazenada em uma pasta oculta na caixa de correio do Exchange online de cada usuário incluído no chat, e as mensagens de canal do Teams são armazenadas em uma pasta oculta semelhante na caixa de correio do grupo para a equipe. Quando uma política de exclusão de mensagem de chat é aplicada a um usuário ou Equipe, a cópia secundária é excluída primeiro, seguido pela cópia primária. A descoberta digital ou a pesquisa do Teams é baseada em mensagens armazenadas em cópia secundária e, portanto, as mensagens se tornam não descobertas quando a cópia secundária é excluída. 
+As mensagens de chat do Teams são armazenadas em dois locais. A cópia primária é armazenada no Azure, uma cópia secundária, usada para políticas de conformidade, é armazenada em uma pasta oculta na caixa de correio do Exchange online de cada usuário incluído no chat, e as mensagens de canal do Teams são armazenadas em uma pasta oculta semelhante na caixa de correio do grupo para a equipe. Quando uma política de exclusão de mensagem de chat é aplicada a um usuário ou Equipe, a cópia secundária é excluída primeiro, seguido pela cópia primária. A descoberta digital ou a pesquisa do Teams é baseada em mensagens armazenadas em cópia secundária e, portanto, as mensagens se tornam não descobertos quando a cópia secundária é excluída. 
 
-Quando uma poilcy de retenção de mensagem de chat é aplicada a um usuário ou Equipe e se as mensagens são excluídas (devido a outra política de exclusão ou pelo próprio usuário), a cópia primária é excluída, portanto, o cliente do Teams verá a mensagem desaparecer, mas a cópia secundária é movida automaticamente para uma pasta oculta chamada **SubstrateHolds** , que é como uma subpasta na pasta Itens **Recuperáveis** do Exchange. Até que essas mensagens sejam excluídas permanentemente da pasta SubstrateHolds, elas permanecerão pesquisáveis por ferramentas de Descoberta e.
+Quando uma política de retenção de mensagem de chat é aplicada a um usuário ou Equipe e se as mensagens são excluídas (devido a outra política de exclusão ou pelo próprio usuário), a cópia primária é excluída, portanto, o cliente do Teams verá a mensagem desaparecer, mas a cópia secundária será movida automaticamente para uma pasta oculta chamada **SubstrateHolds** , que é como uma subpasta na pasta Itens **Recuperáveis** do Exchange. Até que essas mensagens sejam excluídas permanentemente da pasta SubstrateHolds, elas permanecerão pesquisáveis por ferramentas de Descoberta e.
 
 Para obter informações detalhadas sobre o que está incluído e excluído para políticas de retenção do Teams e como essas políticas funcionam dependendo da configuração da política, consulte Saiba mais sobre retenção [para o Microsoft Teams](/microsoft-365/compliance/retention-policies-teams).
 

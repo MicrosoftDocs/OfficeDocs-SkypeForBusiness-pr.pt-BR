@@ -19,12 +19,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ddbdc84228011c4db3c0eab01bb1bab4f5d773c6
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: de3ef5f7fdd594fbc4471d3d7af4b2c3f3c683c1
+ms.sourcegitcommit: 6505dd1fb891ab27fcc9f36423fda67aae6fcfd7
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51092599"
+ms.lasthandoff: 03/30/2021
+ms.locfileid: "51418749"
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>Usar o suplemento de Reunião do Teams no Outlook
 =======================================
@@ -39,7 +39,7 @@ O suplemento de Reunião do Teams é instalado automaticamente para usuários qu
 
 > [!NOTE]
 > - Não há **nenhum URL direto** vinculado ao suplemento Teams.
-> - Há considerações adicionais se sua organização executa o Teams e o Skype for Business. Em algumas circunstâncias, o suplemento Teams não está disponível no Outlook. Consulte [Atualização do Skype for Business para Teams](https://docs.microsoft.com/microsoftteams/upgrade-to-teams-on-prem-overview#meetings) para obter detalhes.
+> - Há considerações adicionais se sua organização executa o Teams e o Skype for Business. Em algumas circunstâncias, o suplemento Teams não está disponível no Outlook. Consulte [Atualização do Skype for Business para Teams](https://docs.microsoft.com/microsoftteams/upgrade-to-teams-on-prem-overview) para obter detalhes.
 > - Ter permissões do usuário para executar o arquivo Regsvr32.exe é um requisito mínimo para que o suplemento Reunião do Teams seja instalado no computador.
 > - Se o suplemento de Reunião do Teams não for exibido, instrua os usuários a fechar o Outlook e o Teams e reiniciar o cliente Teams primeiro, depois entrar no Teams e então reiniciar o cliente Outlook, exatamente nessa ordem.
 > - Se você estiver usando uma instalação do Outlook do Office da Microsoft Store, não haverá suporte para o suplemento Reunião do Teams. Os usuários que precisam desse suplemento são aconselhados a instalar a versão Click-to-Run do Office, conforme descrito no artigo [Office no Windows 10 no modo S](https://support.office.com/article/faq-office-on-windows-10-in-s-mode-717193b5-ff9f-4388-84c0-277ddf07fe3f).

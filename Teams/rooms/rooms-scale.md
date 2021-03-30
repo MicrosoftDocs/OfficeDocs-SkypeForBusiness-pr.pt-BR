@@ -34,12 +34,12 @@ no-loc:
 - Azure Monitor
 - Log Analytics
 - Operations Management Suite
-ms.openlocfilehash: e755a369d3f8aa11d5346c2e5cda9cc84285dc7b
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 2348d0f3e9d94aed80494155fbaab8288ddd97a6
+ms.sourcegitcommit: 95386369e2256ba382b4d6e34adb7473de050b26
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117399"
+ms.lasthandoff: 03/29/2021
+ms.locfileid: "51410107"
 ---
 # <a name="deploy-microsoft-teams-rooms-by-using-microsoft-endpoint-configuration-manager"></a>Implantar salas do Microsoft Teams usando o Microsoft Endpoint Configuration Manager
 
@@ -504,8 +504,8 @@ As Salas do Microsoft Teams têm suporte para o Surface Pro e o Surface Pro 4. V
     -   Para o Surface Pro 4: <https://www.microsoft.com/download/details.aspx?id=49498>
 
 2.  Extraia o driver e o firmware baixados. Abra uma janela prompt de comando e, no prompt de comando, insira um dos seguintes comandos:
-    -   `msiexec /a C:\SurfacePro_Win10.msi /passive TARGETDIR="C:\_Sources\\Drivers\Surface Pro"`
-    -   `msiexec /a C:\SurfacePro4_Win10.msi /passive TARGETDIR="C:\_Sources\\Drivers\Surface Pro 4"`
+    -   `msiexec /a C:\SurfacePro_Win10.msi /passive TARGETDIR="C:\_Sources\Drivers\Surface Pro"`
+    -   `msiexec /a C:\SurfacePro4_Win10.msi /passive TARGETDIR="C:\_Sources\Drivers\Surface Pro 4"`
 
 3.  No console do Configuration Manager, vá para **Drivers** de Sistemas \> **Operacionais** da Biblioteca de Software e selecione \>  **Importar Driver**.
 
