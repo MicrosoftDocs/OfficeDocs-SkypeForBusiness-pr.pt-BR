@@ -17,15 +17,14 @@ description: Saiba como gerenciar seus aplicativos do Teams na página Gerenciar
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: d0418d3893d026aa34bfb27540d73148520e5a56
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: ae060bf68b265c4e1e828d2f7a1848e1515db04e
+ms.sourcegitcommit: d3883b3d9de7251e60033bece53a2bab17d7b1b8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51120592"
+ms.lasthandoff: 03/30/2021
+ms.locfileid: "51450618"
 ---
-<a name="manage-your-apps-in-the-microsoft-teams-admin-center"></a>Gerenciar seus aplicativos no centro de administração do Microsoft Teams
-======================================================
+# <a name="manage-your-apps-in-the-microsoft-teams-admin-center"></a>Gerenciar seus aplicativos no centro de administração do Microsoft Teams
 
 Como administrador, a página Gerenciar aplicativos no centro de administração do Microsoft Teams é onde você visualiza e gerencia todos os aplicativos do Teams para sua organização. Aqui, você pode ver o status e as propriedades de aplicativos no nível da organização, aprovar ou carregar novos aplicativos personalizados na loja de aplicativos da sua organização, bloquear ou permitir aplicativos no nível da organização, adicionar aplicativos às equipes, comprar serviços para aplicativos de terceiros, exibir permissões solicitadas por aplicativos, conceder consentimento de administrador a aplicativos e gerenciar configurações de aplicativos em toda a organização.
 
@@ -150,6 +149,10 @@ Use as configurações de aplicativos em toda a organização para controlar se 
 
 3. Em **Aplicativos personalizados**, desativar ou ativar **Permitir interação com aplicativos personalizados**. Essa configuração controla se os usuários podem interagir com aplicativos personalizados. Para saber mais, confira [Gerenciar políticas e configurações de aplicativos personalizados no Teams](teams-custom-app-policies-and-settings.md).
 4. Clique em **Salvar** para que as configurações do aplicativo para toda a organização tenham efeito.
+
+## <a name="customize-an-app-in-preview"></a>Personalizar um aplicativo (em visualização)
+
+Agora você pode personalizar um aplicativo para incluir uma aparência específica de acordo com as necessidades da sua organização. [Personalizar aplicativos no Teams](customize-apps.md)
 
 ## <a name="related-topics"></a>Tópicos relacionados
 

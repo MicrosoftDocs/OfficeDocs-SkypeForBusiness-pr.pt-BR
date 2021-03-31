@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fd2b83c5b96ab9049783a774c56297b51179e68e
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 7972febeab134f0ec075418e351c35ef7e273fcf
+ms.sourcegitcommit: f22e050213798a8ff69c6d502a2fc142104ab213
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51094031"
+ms.lasthandoff: 03/30/2021
+ms.locfileid: "51439666"
 ---
 # <a name="introduction-to-teams-policy-based-recording-for-callings--meetings"></a>Introdução à gravação baseada em política do Teams para & reuniões
 
@@ -229,6 +229,7 @@ Os parceiros a seguir estão no processo de certificar sua solução para o Micr
 |Inovação de Carvalho |[https://www.oakinnovate.com/call-recording](https://www.oakinnovate.com/call-recording) |
 |Caixa Vermelha |[https://www.redboxvoice.com/compliance-recording-for-microsoft-teams](https://www.redboxvoice.com/compliance-recording-for-microsoft-teams)  |
 |Verint |[https://www.verba.com/solutions/microsoft-teams-recording](https://www.verba.com/solutions/microsoft-teams-recording) |
+|Theta Lake |[https://thetalake.com/integrations/microsoft/](https://thetalake.com/integrations/microsoft/) |
 
 Essa lista será atualizada à medida que mais parceiros ingressarem e atenderem aos critérios de certificação.
 

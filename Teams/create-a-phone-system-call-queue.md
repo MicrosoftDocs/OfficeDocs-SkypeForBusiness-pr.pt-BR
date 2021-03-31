@@ -23,13 +23,13 @@ ms.custom:
 - ms.teamsadmincenter.callqueues.overview"
 - Phone System
 - seo-marvel-apr2020
-description: Saiba como configurar o Sistema de Telefonia para filas de chamadas com o Microsoft Teams, fornecendo uma mensagem de saudação, música de espera, redirecionamento de chamadas e outros recursos.
-ms.openlocfilehash: 9bb33e5590df1af6b70dffecba64eb313838b228
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Saiba como configurar o Sistema de Telefonia para filas de chamadas com o Microsoft Teams, que fornece uma mensagem de saudação, música de espera, redirecionamento de chamadas e outros recursos.
+ms.openlocfilehash: 963633ef3ba1743522dbbacb93166f20d489e8be
+ms.sourcegitcommit: d3883b3d9de7251e60033bece53a2bab17d7b1b8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51092709"
+ms.lasthandoff: 03/30/2021
+ms.locfileid: "51450628"
 ---
 # <a name="create-a-call-queue"></a>Criar uma fila de chamadas
 
@@ -45,7 +45,7 @@ As filas de chamada fornecem:
 
 - Opções de administração para estouro da fila e tempo limite.
 
-Não deixe de ler [Planejar os atendedores automáticos e as filas de chamadas do Teams](plan-auto-attendant-call-queue.md) e siga as [etapas de introdução](plan-auto-attendant-call-queue.md#getting-started) antes de seguir os procedimentos deste artigo.
+Certifique-se de ter lido [Plan for Teams auto attendants](plan-auto-attendant-call-queue.md) and call queues and followed the getting started [steps](plan-auto-attendant-call-queue.md#getting-started) before you follow the procedures in this article.
 
 Para configurar uma fila de chamadas, no Centro de administração do Teams, expanda **Voz**, clique em **Filas de chamadas** e, em seguida, clique em **Adicionar**.
 
@@ -71,11 +71,21 @@ O Teams fornece música padrão aos chamadores enquanto eles estão em espera em
 
 ## <a name="call-agents"></a>Agentes de chamada
 
-Consulte a lista de [Pré-requisitos](plan-auto-attendant-call-queue.md#prerequisites) para poder adicionar agentes a uma fila de chamada.
+Revise os [pré-requisitos para adicionar agentes a uma fila de chamada.](plan-auto-attendant-call-queue.md#prerequisites)
 
 ![Captura de tela das configurações de usuários e grupos para filas de chamada](media/call-queue-users-groups.png)
 
+##### <a name="teams-channel"></a>Canal do Teams
+
+Você pode adicionar até 200 agentes por meio de um canal do Teams.
+
+Se você quiser usar [um canal do Teams](https://support.microsoft.com/office/9f07dabe-91c6-4a9b-a545-8ffdddd2504e)para gerenciar a fila, selecione a opção Escolher uma **equipe** e clique em Adicionar **um canal**. Pesquise a equipe que você deseja usar, selecione-a e clique em **Adicionar**. Selecione o canal que você deseja usar e clique em **Aplicar**.
+
+##### <a name="users-and-groups"></a>Usuários e grupos
+
 Você pode adicionar até 20 agentes individualmente e até 200 agentes por meio de grupos.
+
+Se você quiser adicionar usuários ou grupos individuais à fila, selecione a **opção Escolher usuários e grupos.** 
 
 Para adicionar um usuário à fila, clique em **Adicionar usuários**, procure o usuário, clique em **Adicionar** e, em seguida, clique em **Adicionar**.
 
