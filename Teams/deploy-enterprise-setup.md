@@ -16,12 +16,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e4614bc88ba65803ea5a8696af9e55a104912855
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 20ac1e6c120e1602a39e61d00798f8a796975603
+ms.sourcegitcommit: d3883b3d9de7251e60033bece53a2bab17d7b1b8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51101297"
+ms.lasthandoff: 03/30/2021
+ms.locfileid: "51450608"
 ---
 # <a name="set-up-microsoft-teams-in-your-enterprise"></a>Configure o Microsoft Teams na sua empresa
 
@@ -78,12 +78,12 @@ Chat, equipes e canais são a base do Teams. O **Chat** permite que um ou mais u
 
 | Decisão | Descrição |
 |--|--|
-| O acesso externo deve estar habilitado? | O acesso externo permite que qualquer pessoa em outra organização fale com pessoas na sua organização. Isto é útil quando você tem um relacionamento próximo com outra organização, como um fornecedor, e quer facilitar a conversa entre as pessoas de ambas as organizações, realizar reuniões, e assim por diante. <p>O acesso externo é diferente do acesso de convidado. O acesso externo permite que todas as pessoas de outra organização tenham acesso para interagirem com as pessoas na sua organização. O acesso de convidados permite o acesso de indivíduos específicos para interagirem com as pessoas da sua organização.<p>O acesso externo está **Desativado** por padrão.<p>[Gerenciar o acesso externo no Microsoft Teams](manage-external-access.md)  |
-| O acesso de convidados deve estar habilitado? |O acesso de convidados permite que as pessoas da sua organização convidem pessoas de fora da sua organização para acessarem suas equipes e canais. O acesso de convidado é usado com frequência para colaborar com pessoas de fora da sua organização que não têm uma relação formal com a sua empresa. Por exemplo, você pode convidar um planejador de projeto para trabalhar temporariamente em um projeto.<p>O acesso de convidado é diferente do acesso externo. O acesso de convidados permite o acesso de indivíduos específicos para interagirem com as pessoas da sua organização. O acesso externo permite que todas as pessoas de outra organização tenham acesso para interagirem com as pessoas na sua organização. <p>O acesso de convidado está **Desativado** por padrão. <p>[Ativar ou desativar o acesso de convidados ao Microsoft Teams](set-up-guests.md)  |
+| O acesso externo deve estar habilitado? | O acesso externo permite que qualquer pessoa em outra organização fale com pessoas na sua organização. Isto é útil quando você tem um relacionamento próximo com outra organização, como um fornecedor, e quer facilitar a conversa entre as pessoas de ambas as organizações, realizar reuniões, e assim por diante. <p>O acesso externo é diferente do acesso de convidado. O acesso externo permite que pessoas de uma organização tenham acesso para interagirem com as pessoas de sua organização. O acesso de convidados permite o acesso de indivíduos específicos para interagirem com as pessoas da sua organização.<p>O acesso externo está **Desativado** por padrão.<p>[Gerenciar o acesso externo no Microsoft Teams](manage-external-access.md)  |
+| O acesso de convidados deve estar habilitado? |O acesso de convidados permite que as pessoas da sua organização convidem pessoas de fora da sua organização para acessarem suas equipes e canais. O acesso de convidado é usado com frequência para colaborar com pessoas de fora da sua organização que não têm uma relação formal com a sua empresa. Por exemplo, você pode convidar um planejador de projeto para trabalhar temporariamente em um projeto.<p>O acesso de convidado é diferente do acesso externo. O acesso de convidado convida indivíduos específicos para interagir com pessoas em sua organização. O acesso externo permite que pessoas de outra organização tenham acesso para interagirem com as pessoas de sua organização. <p>O acesso de convidado está **Desativado** por padrão. <p>[Ativar ou desativar o acesso de convidados ao Microsoft Teams](set-up-guests.md)  |
 
 #### <a name="meetings-and-audio-conferencing"></a>[Reuniões e audioconferência](#tab/MeetingsAudioConferencing)
 
-As reuniões e conferências permitem que as pessoas da sua organização se encontrem umas com as outras e com as de fora da sua organização. Qualquer pessoa com um cliente do Teams ou do Skype for Business pode participar de **reuniões** para as quais tenha sido convidada. Usar o microfone, a câmera e a tela de seu dispositivo permite que os participantes ingressem na conversa, sem a necessidade de um telefone. Os participantes podem conversar, fazer chamadas de voz e compartilhar vídeos e aplicativos com outros participantes usando um computador ou dispositivo móvel.
+As reuniões e conferências permitem que as pessoas de sua organização se reúnam entre si e com pessoas de fora da organização. Qualquer pessoa com um cliente do Teams ou do Skype for Business pode participar de **reuniões** para as quais tenha sido convidada. Usar o microfone, a câmera e a tela de seu dispositivo permite que os participantes ingressem na conversa, sem a necessidade de um telefone. Os participantes podem conversar, fazer chamadas de voz e compartilhar vídeos e aplicativos com outros participantes usando um computador ou dispositivo móvel.
 
 A **Audioconferência** permite que os participantes ingressem em reuniões por meio de um telefone comum ligando para um número de telefone em conferência e inserindo uma ID de reunião. A audioconferência é útil quando um participante não tem uma boa conexão à Internet, a reunião for apenas de voz, ou alguma outra circunstância não permitir que ele participe através do cliente do Teams.
 
