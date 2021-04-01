@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 description: Saiba mais sobre os requisitos para dar suporte a Salas do Microsoft Teams, incluindo a escolha do dispositivo apropriado, microfones, alto-falantes, câmeras e exibições.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 78f64b5cba0d67e47fbcd31eee3bc5af8e445d39
-ms.sourcegitcommit: 4d76837f9481ca2cda437afdf11de5eaf7a57d99
+ms.openlocfilehash: 33c48554a49caae176ce05484278b30d1c31a94a
+ms.sourcegitcommit: 31387f7b34270672789cc4dc1d7b2275840b91f5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/11/2021
-ms.locfileid: "50726342"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "51487205"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Requisitos das Salas Microsoft Teams
 
@@ -118,6 +118,7 @@ Esses dispositivos estão disponíveis na [Mostruário de produtos de acessório
 |[Logitech brio](https://www.logitech.com/product/brio)   |V 2.2.50| &#x2714; |
 |[Logitech 930e](https://www.logitech.com/product/c930e-webcam)   | 8.0.914   | &#x2714; |
 |[Logitech Rally](https://www.logitech.com/product/rally-ultra-hd-conferencecam)   |1.2.4 |
+|[Barra de Rali logitech](https://www.logitech.com/en-us/products/video-conferencing/room-solutions/rallybar.960-001308.html)   |10.3.82|
 |[Logitech MeetUp](https://www.logitech.com/product/meetup-conferencecam)   |Audio — 1.0.172 <br/> Video — 1.0.156  |
 |[Logitech ConferenceCam Connect](https://www.logitech.com/product/conferencecam-connect)   |1.1.248.0 <br/> 1.1.684   |
 |[Logitech Group ](https://www.logitech.com/product/conferencecam-group)   |8.5.778   |
@@ -137,6 +138,7 @@ Esses dispositivos estão disponíveis na [Mostruário de produtos de acessório
 |[EPOS SP30](https://www.eposaudio.com/en/us/enterprise/products/sp-30-78c0cecc-bluetooth-speakerphone-1000223)   |2.1.52  |
 |[EPOS SP30T](https://www.eposaudio.com/en/us/enterprise/products/sp-30t-b949fe9a-bluetooth-speakerphone-1000225)  |3.2.63  |
 |[EPOS Expand 80T + 2 Extension Mics](https://www.eposaudio.com/en/us/enterprise/products/expand-80t-bluetooth-speakerphone-1000203) |Speakerphone — 4.6.55 <br/> Microfone de extensão — 0.2.314|
+|[EPOS Expand Capture 5](https://www.eposaudio.com/en/us/enterprise/products/expand-capture-5-speakerphone-1000895)  |1.0.1|
 |[Jabra 510](http://www.jabra.com/support/Jabra-SPEAK&trade;-510_7510-209)   |2.10.0   |
 |[Jabra 710](http://www.jabra.com/business/speakerphones/jabra-speak-series/jabra-speak-710)   |1.8.0   |
 |[Jabra 810](http://www.jabra.com/supportpages/jabra-speak-810)   |1.2.23   |
@@ -148,6 +150,8 @@ Esses dispositivos estão disponíveis na [Mostruário de produtos de acessório
 |[Processador de Audioconferência Shure Intellimix P300](https://www.shure.com/en-US/products/mixers/p300) + </br></br> [Shure MXA 910 com Intellimix Ceiling Array Mic](https://www.shure.com/en-US/products/microphones/mxa910) | 4.1|
 |[Processador de Audioconferência Shure Intellimix P300](https://www.shure.com/en-US/products/mixers/p300)+</br></br> [Microfone da matriz de tabelas do MXA 310 de Shure ](https://www.shure.com/en-US/products/microphones/mxa310) +</br></br> [Alto-falante de Teto MXN5W-C](https://www.shure.com/en-US/products/loudspeakers/mxn5)| P300 DSP: 4.1.11 </br> MXA310 Table Array mic: 4.1.41 </br> Alto-falante MXN5W-C: 1.0.4 |
 |[Processador de Audioconferência Shure Intellimix P300](https://www.shure.com/en-US/products/mixers/p300) + </br></br> [Shure MXA 910 com Microfone de Matriz de Teto Intellimix](https://www.shure.com/en-US/products/microphones/mxa910) +</br></br> [Alto-falante de Teto MXN5W-C](https://www.shure.com/en-US/products/loudspeakers/mxn5)| P300 DSP: 4.1.11 </br> MXA910 Microfone da Matriz de Teto: 4.1.41 </br> Alto-falante MXN5W-C: 1.0.4 |
+|[Microfone de Matriz Linear de Tabela de 710 2ft de Shure MXA](https://www.shure.com/en-US/products/microphones/mxa710) + </br></br> [Processador de Audioconferência Shure Intellimix P300](https://www.shure.com/en-US/products/mixers/p300) +</br></br> [Alto-falante de teto MXN5-C](https://www.shure.com/en-US/products/loudspeakers/mxn5)| MXA710 2ft Table Linear Array Mic: 1.2.0 </br> P300 DSP: 4.4.8 </br> Alto-falante MXN5-C: 1.1.1 |
+|[Microfone de matriz linear de parede de 710 4ft de Shure MXA](https://www.shure.com/en-US/products/microphones/mxa710) + </br></br> [Processador de Audioconferência Shure Intellimix P300](https://www.shure.com/en-US/products/mixers/p300) +</br></br> [Alto-falante de teto MXN5-C](https://www.shure.com/en-US/products/loudspeakers/mxn5)| MXA710 4ft Wall Linear Array Mic: 1.2.0 </br> P300 DSP: 4.4.8 </br> Alto-falante MXN5-C: 1.1.1 |
 |[Biamp Tesira Fore AVB VT4 Fixed audio DSP](https://www.biamp.com/products/tesira-fixed-audio-dsp)+ &Dagger;</br></br> [Sennheiser TeamConnect Ceiling 2 Microphone](https://en-us.sennheiser.com/tcc2)+ &Dagger;</br></br> [Tesira EX-UBT](https://www.biamp.com/products/tesira/tesira-expanders) &Dagger; |  DSP Biamp: 3.12.0.15  </br></br> TCC2: 1.3.3 </br></br> EX-UBT: 3.12.0.15 |
 |[Biamp Tesira FORTÉ AVB VT4 Audio DSP](https://www.biamp.com/products/tesira-fixed-audio-dsp)+ </br></br>[Microfone de teto do Biamp Parlé TCM-XA](https://www.biamp.com/products/product-families/parle/parle-microphones)+</br></br> [Biamp Desono C-IC6 ceiling mounted loudspeaker](https://www.biamp.com/products/tesira-speakers)| Versão FW de áudio: 3.15|
 |[Biamp TesiraFORTE AVB VT4](https://www.biamp.com/products/tesira-fixed-audio-dsp)+ </br></br>[Parle TTM-X(Table Mic)](https://www.biamp.com/products/product-families/parle/parle-microphones)+</br></br>[Ex-UBT]() |Versão FW de áudio: 3.15|

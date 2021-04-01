@@ -17,12 +17,12 @@ description: Saiba como usar o relatório de atividade do usuário do Teams no c
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 5f01d71a119116268c5d03850e5e1d26a54ae8dc
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 9122289d0765dbdded98727d2ed06912d0348f64
+ms.sourcegitcommit: 66e7b28ba1c0433535eb6a3e7d883851c27d9d1f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51116849"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "51478331"
 ---
 # <a name="microsoft-teams-user-activity-report"></a>Relatório de atividades do usuário do Microsoft Teams
 
@@ -52,6 +52,16 @@ Você deve ser um administrador de serviço do Teams para fazer essas alteraçõ
 |**9**   |Exporte o relatório para um arquivo CSV para análise offline. Selecione **Exportar para o Excel** e, em seguida, a guia **Downloads,** selecione **Baixar** para baixar o relatório quando estiver pronto.<br><br>![Captura de tela da guia Downloads mostrando relatórios exportados para download](../media/teams-reports-export-to-csv.png) <br>Ao exibir o relatório no Excel, você também verá uma coluna **de ID,** que representa a ID do usuário. Uma ID de usuário é normalmente uma cadeia de caracteres alfanumérico. ||
 
 [!INCLUDE [teams-reports-definitions](../includes/teams-reports-definitions.md)]
+
+## <a name="make-the-user-specific-data-anonymous"></a>Tornar os dados específicos do usuário anônimos
+
+Para tornar os dados no relatório de atividades do usuário do Teams anônimos, você precisa ser um administrador global. Isso ocultará informações identificáveis, como nome de exibição, email e ID do AAD no relatório e sua exportação.
+
+1. No Centro de administração do Microsoft 365, acesse a guia **Configurações** da Organização de Configurações e, em \>  **Serviços,** escolha **Relatórios**.
+    
+2. Selecione **Relatórios** e escolha Exibir **identificadores anônimos.** Essa configuração é aplicada aos relatórios de uso no Centro de administração do Microsoft 365, bem como ao Centro de administração do Teams.
+  
+3. Selecione **Salvar alterações**.
 
 ## <a name="related-topics"></a>Tópicos relacionados
 

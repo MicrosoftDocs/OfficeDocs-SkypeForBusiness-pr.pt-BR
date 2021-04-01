@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.callqueues.overview"
 - Phone System
 description: Saiba como configurar filas de chamadas com o Microsoft 365 Business Voice.
-ms.openlocfilehash: f4dcd38331812053df9d08c7e8417b6d8156d5af
-ms.sourcegitcommit: f22e050213798a8ff69c6d502a2fc142104ab213
+ms.openlocfilehash: 3e75dbb75d9edffedbf25d42f197d8723e3ef9a4
+ms.sourcegitcommit: 66e7b28ba1c0433535eb6a3e7d883851c27d9d1f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/30/2021
-ms.locfileid: "51439726"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "51478361"
 ---
 # <a name="create-a-call-queue---small-business-tutorial"></a>Criar uma fila de chamada - tutorial de pequenas empresas
 
@@ -84,7 +84,7 @@ Para adicionar um canal
 2. Digite um nome e uma descrição para o canal e clique em **Adicionar**.
 
 > [!div class="nextstepaction"]
-> [Etapa 2 - Contas de recursos >](https://review.docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-call-queue-smb?branch=mikeplum-smb-voice&tabs=resource-account#steps)
+> [Etapa 2 - Contas de recursos >](https://docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-call-queue-smb?tabs=resource-account#steps)
 
 # <a name="step-2brresource-accounts"></a>[Etapa 2 <br> Contas de recursos](#tab/resource-account)
 
@@ -143,7 +143,7 @@ Em seguida, vamos começar a criar uma nova fila de chamada e atribuir a conta d
 > A música padrão fornecida nas filas de chamadas do Teams é livre de royalties pagáveis pela organização. 
 
 > [!div class="nextstepaction"]
-> [Etapa 3 - Agentes de chamada >](https://review.docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-call-queue-smb?branch=mikeplum-smb-voice&tabs=call-agents#steps)
+> [Etapa 3 - Agentes de chamada >](https://docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-call-queue-smb?tabs=call-agents#steps)
 
 # <a name="step-3brcall-agents"></a>[Etapa 3 <br> Agentes de chamada](#tab/call-agents)
 
@@ -160,7 +160,7 @@ Para adicionar agentes à fila de chamada, vamos adicioná-los à equipe e ao ca
 > Quando novos usuários são adicionados à equipe, pode levar até oito horas para a primeira chamada chegar.
 
 > [!div class="nextstepaction"]
-> [Etapa 4 - Contas de recursos >](https://review.docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-call-queue-smb?branch=mikeplum-smb-voice&tabs=call-routing#steps)
+> [Etapa 4 - Contas de recursos >](https://docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-call-queue-smb?tabs=call-routing#steps)
 
 # <a name="step-4brcall-routing"></a>[Etapa 4 <br> Roteamento de Chamadas](#tab/call-routing)
 
@@ -189,7 +189,7 @@ Escolha o método de roteamento de chamadas que você deseja usar.
     ![Captura de tela das configurações de roteamento, recusa e tempo de alerta](../media/call-queue-presence-agents-time.png)
 
 > [!div class="nextstepaction"]
-> [Etapa 5 - Estouro de chamada >](https://review.docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-call-queue-smb?branch=mikeplum-smb-voice&tabs=call-overflow#steps)
+> [Etapa 5 - Estouro de chamada >](https://docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-call-queue-smb?tabs=call-overflow#steps)
 
 # <a name="step-5brcall-overflow"></a>[Etapa 5 <br> Estouro de chamada](#tab/call-overflow)
 
@@ -206,7 +206,7 @@ Escolha como você deseja lidar com chamadas que excedem o máximo na fila.
     ![Captura de tela das configurações de estouro de chamadas](../media/call-queue-overflow-handling.png)
 
 > [!div class="nextstepaction"]
-> [Etapa 6 - Tempo de >](https://review.docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-call-queue-smb?branch=mikeplum-smb-voice&tabs=call-timeout#steps)
+> [Etapa 6 - Tempo de >](https://docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-call-queue-smb?tabs=call-timeout#steps)
 
 # <a name="step-6brcall-timeout"></a>[Etapa 6 <br> Tempo de tempo de chamada](#tab/call-timeout)
 

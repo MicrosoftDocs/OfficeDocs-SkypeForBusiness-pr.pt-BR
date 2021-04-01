@@ -16,16 +16,51 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Notas de versão para recursos de administrador do Microsoft Teams.
-ms.openlocfilehash: 4c7219e3850eeeb2f502431db222f531d6166c56
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: e36c11ad79c2061f4a94db3af5c21e7f2be4a3d2
+ms.sourcegitcommit: 31387f7b34270672789cc4dc1d7b2275840b91f5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117659"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "51487225"
 ---
 # <a name="release-notes-for-microsoft-teams-admin-features"></a>Notas de versão para recursos de administrador do Microsoft Teams
 
 Essas notas de versão fornecem informações sobre novos recursos de administrador para o Microsoft Teams.
+
+## <a name="march-31-2021"></a>31 de março de 2021
+
+### <a name="share-to-teams-from-outlook"></a>Compartilhar com o Teams do Outlook
+
+Compartilhar com o Teams do Outlook permite que você envie uma cópia de mensagens de email ou conversas, incluindo anexos, para chats e canais do Teams. Encontre a **opção Compartilhar com o Teams** na faixa de opções do Outlook ou no menu ação de um email. O compartilhamento com o Teams dá suporte ao Outlook na Web, ao Outlook para Windows e ao novo Outlook para Mac Preview. [Saiba mais](../teams-outlook-share-teams.md).
+
+## <a name="march-30-2021"></a>30 de março de 2021
+
+### <a name="customize-apps-in-teams-preview"></a>Personalizar aplicativos no Teams (visualização)
+
+O Microsoft Teams fornece personalização de aplicativos para aprimorar a experiência do Teams. Alguns desenvolvedores de aplicativos permitem que um aplicativo seja personalizado pelo administrador do Teams. O administrador pode personalizar ou renomear as propriedades do aplicativo com base nas necessidades organizacionais usando a página Gerenciar aplicativos do Centro de administração do Teams. [Saiba mais](../customize-apps.md).
+
+## <a name="march-24-2021"></a>24 de março de 2021
+
+### <a name="enable-live-transcripts-in-teams"></a>Habilitar transcrições ao vivo no Teams
+
+Essa é uma política por usuário e se aplica durante uma reunião. Essa configuração controla se a opção Ativar legendas ao vivo está disponível para que o usuário ative e desative as legendas ao vivo nas reuniões que o usuário faz. [Saiba mais](../meeting-policies-in-teams.md#enable-live-captions).
+
+## <a name="march-23-2021"></a>23 de março de 2021
+
+### <a name="supervised-chats"></a>Chats supervisionados
+
+O chat supervisionado permite que educadores designados iniciem conversas com alunos e impedem que os alunos iniciem novos chats, a menos que um educador apropriado esteja presente. Quando a supervisão de chat está habilitada, os supervisores não têm permissão para sair dos chats e outros participantes não têm permissão para removê-los, garantindo que os chats envolvendo alunos sejam supervisionados corretamente.
+[Saiba mais](../supervise-chats-edu.md).
+
+### <a name="masking-phone-numbers"></a>Mascarar números de telefone
+
+Lançamos uma nova configuração de administrador para mascarar números de telefone para participantes discados quando eles ingressarem em uma reunião. Os administradores podem optar por mascarar números de telefone de todos na reunião (exceto o organizador), apenas de pessoas externas ou ter mascaramento desabilitado. Se os administradores optarem por ter essa configuração desabilitada, os números de telefone serão exibidos totalmente na reunião. [Saiba mais](../ptsn-mask-phone-numbers.md).
+
+## <a name="march-1-2021"></a>1º de março de 2021
+
+### <a name="additional-golocal-support-in-teams-live-events"></a>Suporte adicional a GoLocal em eventos ao vivo do Teams
+
+O suporte para a África do Sul, Coreia do Sul, Suíça, França, Alemanha e Brasil foi adicionado aos eventos Live. [Saiba Mais](../teams-live-events/plan-for-teams-live-events.md#regional-availability)
 
 ## <a name="february-22-2021"></a>22 de fevereiro de 2021
 
