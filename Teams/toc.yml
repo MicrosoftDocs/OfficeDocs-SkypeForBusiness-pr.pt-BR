@@ -1207,8 +1207,6 @@ items:
             href: business-voice/prepare-users.md
       - name: Executar o Assistente de Introdução
         href: business-voice/use-getting-started-wizard.md
-      - name: Tarefas a fazer
-        href: business-voice/things-to-try.md
       - name: Personalizar sua configuração
         items:
           - name: Opções de personalização
