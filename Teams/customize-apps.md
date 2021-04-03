@@ -19,12 +19,12 @@ localization_priority: Normal
 search.appverid: MET150
 description: Saiba como personalizar aplicativos no Microsoft Teams.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: b2e924da384b5bff54e63872aa7026d2da456311
-ms.sourcegitcommit: 88cb2362d07bca88402cf771a6f366c972e26001
+ms.openlocfilehash: a87ce5f7dd63a78af4a7a1ea5f56aed1cad7263a
+ms.sourcegitcommit: 2bb8556650120b4f7cf509d8ff93d7e4d058829b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "51471495"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51574150"
 ---
 # <a name="customize-apps-in-microsoft-teams"></a>Personalizar aplicativos no Microsoft Teams
 
@@ -107,9 +107,9 @@ Agora, os usuários finais do Teams podem abrir o cliente do Teams para ver o ap
 A observação a seguir inclui detalhes importantes sobre como personalizar um aplicativo.
 
 > [!Note]
-> - Ao personalizar aplicativos e qualquer descrição relacionada a um aplicativo, certifique-se de seguir as Diretrizes de Personalização fornecidas pelo editor de aplicativos. Você é responsável por respeitar os direitos de outras pessoas em relação a imagens de terceiros que você pode usar.
-> - Os dados de personalização fornecidos pelo administrador são armazenados no Store de Configurações na região mais próxima. Não está necessariamente em qualquer implantação do GoLocal Cloud Teams.
-> - Você é responsável por garantir que os links para os termos de uso ou política de privacidade sejam válidos. Você deve fornecer o gerenciamento apropriado das alterações feitas (ou permitir que sejam feitas) aos metadados do aplicativo. A implementação atual fornecerá suporte para ajudá-lo a reverter para URLs fornecidas pelo desenvolvedor. Você pode não configurar o aplicativo sem uma URL (se o aplicativo permitir a personalização das URLs).
+> - Ao personalizar aplicativos e qualquer descrição relacionada a um aplicativo, certifique-se de seguir quaisquer diretrizes de personalização, se fornecidos pelo editor de aplicativos em sua documentação ou termos de uso. Você também é responsável por respeitar os direitos de outras pessoas em relação a quaisquer imagens de terceiros que você possa usar.
+> - Os dados de personalização fornecidos pelo administrador são armazenados na região mais próxima.
+> - Você é responsável por garantir que os links para termos de uso ou política de privacidade sejam válidos.
 > - Caso o editor de aplicativos não permita mais que um campo seja personalizável, uma mensagem será exibida na página de detalhes do aplicativo notificando o administrador sobre os campos que não podem mais ser personalizados. Todas as alterações feitas nesse campo serão revertidas para os valores originais.
 > - As alterações na identidade visual podem exigir até 24 horas para os usuários verem as alterações.
 

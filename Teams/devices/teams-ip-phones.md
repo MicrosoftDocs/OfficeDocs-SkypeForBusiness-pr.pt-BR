@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: Saiba quais telefones de mesa e conferência são certificados para o Microsoft Teams produzir os melhores resultados.
-ms.openlocfilehash: 2d72e9b71be6bab7c077a060a9828ad1f4175d74
-ms.sourcegitcommit: 2eaf80bca6dfad367283e57662d81a809c9437e8
+ms.openlocfilehash: 16e2487c1c7279b470e4938245513727ca2ad0ca
+ms.sourcegitcommit: 50111653f72f6758a3491a4dc3e91160ab75022c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "50997449"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51506698"
 ---
 # <a name="microsoft-teams-certified-devices"></a>Dispositivos certificados do Microsoft Teams
 
@@ -81,7 +81,7 @@ Os seguintes dispositivos são Certificados nas Salas do Microsoft Teams no Prog
 
 ## <a name="currently-certified-teams-displays"></a>Exibições do Teams certificados no momento
 
-Os seguintes dispositivos são Certificados no Programa de Certificação de exibição do Microsoft Teams:
+Os seguintes dispositivos são Certificados no Programa de Certificação do Microsoft Teams Exibe Android:
 
 | Modelo de dispositivo | Versão do firmware | Data de lançamento  |
 |:------------------------|:-----------------|:--------------|
@@ -103,7 +103,8 @@ A seguir estão as versões mais recentes do aplicativo de telefone e firmware d
 
 | Versão do produto | Data de lançamento  | Versão do aplicativo do Microsoft Teams | Versão do Portal da Empresa | Versão do Agente de Administração |
 |:----------------|:--------------|:----------------------------|:-----------------------|:--------------------|
-| Atualização 2020 #7  | 8 de dezembro de 2020  |1449/1.0.94.2020111101 | 5.0.4927.0            | 1.0.0.202010121132.product (.223) |
+| Atualização 2021 #1  | 26 de março de 2021  |1449/1.0.94.2021022403 |  5.0.5045.0 |  1.0.0.202101280722.product (253) |
+| Atualização 2020 #7  | 8 de dezembro de 2020  |1449/1.0.94.2020111101 | 5.0.4927.0            | 1.0.0.202010121132.product (223) |
 | Atualização 2020 #6  | 12 de outubro de 2020  |1449/1.0.94.2020091801     | 5.0.4912.0             | 1.0.0.202006290446.product(216) |
 | Atualização 2020 #5  | 31 de agosto de 2020 | 1449/1.0.94.2020071702    | 5.0.4867.0             | 1.0.0.202006290446.product(216) |
 | Atualização 2020 #4  | 30 de junho de 2020 | 1449/1.0.94.2020051601      | 5.0.4771.0             | 1.0.0.202005060552  |
@@ -115,6 +116,11 @@ Ao instalar uma nova versão de firmware em seu dispositivo, você pode determin
 
 | Modelo de dispositivo        | Versão do firmware     | Versão incluída do produto  |
 |:--------------------|:---------------------|:-------------------------|
+| YL T55/T56/T58   | 58.15.0.124  | Atualização 2021 #1 |
+| YL VP59   | 91.15.0.58  | Atualização 2021 #1 |
+| YL CP960  |73.15.0.117  | Atualização 2021 #1 |
+| YL MP56/MP54/MP58  |122.15.0.36  | Atualização 2021 #1 |
+| Crestron UC-2  |1.0.3.52 | Atualização 2021 #1 |
 | AudioCodes C448HD   | C450HD_TEAMS_1.8.288  | Atualização 2020 #7           |
 | AudioCodes C450HD   | C450HD_TEAMS_1.8.288  | Atualização 2020 #7           |
 | Crestron UC-2       | 1.0.2.53              | Atualização 2020 #7            |
@@ -153,16 +159,15 @@ Ao instalar uma nova versão de firmware em seu dispositivo, você pode determin
 | Poly Studio X30 | 3.2.3.280012          | Atualização 2020 #3    |
 | Poly Studio X50 | 3.2.3.280012          | Atualização 2020 #3    |
 
-### <a name="product-release-information-for-teams-displays"></a>Informações de versão do produto para o Teams são exibidas
+### <a name="product-release-information-for-teams-displays"></a>Informações de versão do produto para Exibições do Teams
 
-A seguir estão as versões mais recentes para o microsoft Teams exibir aplicativo e firmware.
+A seguir estão as versões mais recentes do aplicativo e firmware do Microsoft Teams Displays.
 
 #### <a name="app-versions"></a>Versões do aplicativo
 
 |Versão do produto| Data de lançamento | Versão do aplicativo do Microsoft Teams | Versão do Portal da Empresa | Versão do Agente de Administração |
 |:----------------|:-------------|:----------------------------|:-----------------------|:--------------------|
-|Atualização 2021 #1  |18 de março de 2021 |1449/1.0.95.2021021104    |5.0.5045.0            |1.0.0.202101280722.product|
-|Atualização 2020 #1  |22 de outubro de 2020 |1449/1.0.95.2020092307    |5.0.4927.0              |1.0.0.202006290446.product|
+|Atualização 2021 #1  |18 de março de 2021 |1449/1.0.95.2021021104    |5.0.5045.0            | 1.0.0.202101280722.product (253)|
 
 
 #### <a name="firmware-versions"></a>Versões de firmware

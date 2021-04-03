@@ -17,12 +17,12 @@ description: Saiba como gerenciar seus aplicativos do Teams na página Gerenciar
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: ae060bf68b265c4e1e828d2f7a1848e1515db04e
-ms.sourcegitcommit: d3883b3d9de7251e60033bece53a2bab17d7b1b8
+ms.openlocfilehash: b3858044c52324cb52005c70c6f3afcf91e3f617
+ms.sourcegitcommit: 2bb8556650120b4f7cf509d8ff93d7e4d058829b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/30/2021
-ms.locfileid: "51450618"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51574190"
 ---
 # <a name="manage-your-apps-in-the-microsoft-teams-admin-center"></a>Gerenciar seus aplicativos no centro de administração do Microsoft Teams
 
@@ -116,6 +116,10 @@ Use o botão **Adicionar à equipe** para instalar um aplicativo em uma equipe. 
 2. Selecione **Adicionar à equipe**.
 3. No painel **Adicionar à equipe,** pesquise a equipe à que você deseja adicionar o aplicativo, selecione a equipe e selecione **Aplicar**.
 
+## <a name="customize-an-app-in-preview"></a>Personalizar um aplicativo (em visualização)
+
+Agora você pode personalizar um aplicativo para incluir uma aparência específica de acordo com as necessidades da sua organização. Consulte [Personalizar aplicativos no Teams](customize-apps.md).
+
 ## <a name="purchase-services-for-third-party-apps"></a>Serviços de compra para aplicativos de terceiros
 
 Você pode pesquisar e comprar licenças para serviços oferecidos por aplicativos de terceiros para usuários em sua organização diretamente na página Gerenciar aplicativos. A **coluna Licenças** na tabela indica se um aplicativo oferece uma assinatura saaS paga. Clique **em Comprar agora** para exibir planos e informações de preços e comprar licenças para seus usuários. Para saber mais, confira [Comprar serviços para aplicativos de](purchase-third-party-apps.md)terceiros do Teams no centro de administração do Microsoft Teams.
@@ -149,10 +153,6 @@ Use as configurações de aplicativos em toda a organização para controlar se 
 
 3. Em **Aplicativos personalizados**, desativar ou ativar **Permitir interação com aplicativos personalizados**. Essa configuração controla se os usuários podem interagir com aplicativos personalizados. Para saber mais, confira [Gerenciar políticas e configurações de aplicativos personalizados no Teams](teams-custom-app-policies-and-settings.md).
 4. Clique em **Salvar** para que as configurações do aplicativo para toda a organização tenham efeito.
-
-## <a name="customize-an-app-in-preview"></a>Personalizar um aplicativo (em visualização)
-
-Agora você pode personalizar um aplicativo para incluir uma aparência específica de acordo com as necessidades da sua organização. [Personalizar aplicativos no Teams](customize-apps.md)
 
 ## <a name="related-topics"></a>Tópicos relacionados
 

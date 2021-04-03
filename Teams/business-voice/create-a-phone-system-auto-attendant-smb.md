@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Saiba como configurar e testar os atendimentos automáticos para o Microsoft 365 Business Voice.
-ms.openlocfilehash: d320c100937619960011cc378936c6954a00512a
-ms.sourcegitcommit: 66e7b28ba1c0433535eb6a3e7d883851c27d9d1f
+ms.openlocfilehash: 7ee7dad833119778ceb64bd1e52bd30da4529ba8
+ms.sourcegitcommit: 50111653f72f6758a3491a4dc3e91160ab75022c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "51478371"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51506648"
 ---
 # <a name="set-up-an-auto-attendant---small-business-tutorial"></a>Configurar um atendimento automático - tutorial de pequenas empresas
 
@@ -93,7 +93,7 @@ Se você precisar que esse atendimento automático seja acessível por um númer
 4. Clique em **Salvar**.
 
 > [!div class="nextstepaction"]
-> [Etapa 2 - Informações gerais do atendimento automático >](https://docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-auto-attendant-smb?tabs=general-info#steps)
+> [Etapa 2 - Informações gerais do atendimento automático >](/microsoftteams/business-voice/create-a-phone-system-auto-attendant-smb?tabs=general-info#steps)
 
 # <a name="step-2brattendant-general-info"></a>[Etapa 2 <br> Informações gerais do atendente](#tab/general-info)
 
@@ -116,7 +116,7 @@ Para configurar um atendimento automático
 7. Click **Next**.
 
 > [!div class="nextstepaction"]
-> [Etapa 3 - Fluxo de chamada >](https://docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-auto-attendant-smb?tabs=call-flow#steps)
+> [Etapa 3 - Fluxo de chamada >](/microsoftteams/business-voice/create-a-phone-system-auto-attendant-smb?tabs=call-flow#steps)
 
 # <a name="step-3brcall-flow"></a>[Etapa 3 <br> Fluxo de chamada](#tab/call-flow)
 
@@ -169,7 +169,7 @@ Escolha suas opções de fluxo de chamada
 5. Depois de selecionar uma opção **de pesquisa de diretório,** clique em **Próximo**.
 
 > [!div class="nextstepaction"]
-> [Etapa 4 - Fluxo de chamada após o horário >](https://docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-auto-attendant-smb?tabs=after-hours#steps)
+> [Etapa 4 - Fluxo de chamada após o horário >](/microsoftteams/business-voice/create-a-phone-system-auto-attendant-smb?tabs=after-hours#steps)
 
 # <a name="step-4brafter-hours"></a>[Etapa 4 <br> Após horas](#tab/after-hours)
 
@@ -186,7 +186,7 @@ Depois de especificar seu horário comercial, escolha suas opções de roteament
 Clique **em Próximo** quando terminar.
 
 > [!div class="nextstepaction"]
-> [Etapa 5 - Fluxo de chamada de feriado >](https://docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-auto-attendant-smb?tabs=holidays#steps)
+> [Etapa 5 - Fluxo de chamada de feriado >](/microsoftteams/business-voice/create-a-phone-system-auto-attendant-smb?tabs=holidays#steps)
 
 # <a name="step-5brholidays"></a>[Etapa 5 <br> Feriados](#tab/holidays)
 
@@ -221,7 +221,7 @@ Repita o procedimento conforme necessário para cada feriado adicional.
 Quando você adicionou todos os feriados, clique em **Próximo**.
 
 > [!div class="nextstepaction"]
-> [Etapa 6 - Escolher quem está no diretório >](https://docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-auto-attendant-smb?tabs=dial-scope#steps)
+> [Etapa 6 - Escolher quem está no diretório >](/microsoftteams/business-voice/create-a-phone-system-auto-attendant-smb?tabs=dial-scope#steps)
 
 # <a name="step-6brdirectory-members"></a>[Membros do Diretório etapa 6 <br>](#tab/dial-scope)
 
@@ -237,7 +237,7 @@ Você pode incluir ou excluir  usuários específicos selecionando Grupo de usu�
 Quando terminar de definir o escopo de discagem, clique em **Próximo**.
 
 > [!div class="nextstepaction"]
-> [Etapa 7 - Atribuir uma conta de recurso >](https://docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-auto-attendant-smb?tabs=resource-accounts#steps)
+> [Etapa 7 - Atribuir uma conta de recurso >](/microsoftteams/business-voice/create-a-phone-system-auto-attendant-smb?tabs=resource-accounts#steps)
 
 # <a name="step-7brresource-accounts"></a>[Etapa 7 <br> Contas de recursos](#tab/resource-accounts)
 

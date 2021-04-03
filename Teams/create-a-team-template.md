@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a596f2755434e7074c4a925f5c7c1dd8b1efbcaf
-ms.sourcegitcommit: fdada65628b31e4c267c87f0100e9f046b878c12
+ms.openlocfilehash: 08dba2975886b117fcc45058c98d33aa7cde4565
+ms.sourcegitcommit: 50111653f72f6758a3491a4dc3e91160ab75022c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/16/2021
-ms.locfileid: "50831012"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51506728"
 ---
 # <a name="create-a-custom-team-template-in-microsoft-teams"></a>Criar um modelo de equipe personalizado no Microsoft Teams
 
@@ -93,11 +93,15 @@ Para começar:
 
 **Problema**: se você criou uma equipe a partir de um modelo personalizado que continha guias personalizadas adicionais, você pode ver guias em branco no lugar de seus aplicativos de guia personalizados. Suas guias padrão (como **Postagens,** **Arquivos** e **Wiki**) serão exibidas conforme o esperado.
 
-**Solução**: se você criou uma equipe a partir de um modelo personalizado que continha guias personalizadas adicionais, você poderá ver guias em branco no lugar de seus aplicativos de guia personalizados. Suas guias padrão (como Postagens, Arquivos e Wiki) serão exibidas conforme o esperado.
-
-Para corrigir esse problema, remova a guia personalizada e adicione uma nova guia com o mesmo aplicativo. Se você não tiver permissões para remover a guia personalizada e adicionar uma nova guia, contate o proprietário da equipe para saber mais.
+**Solução**: para corrigir esse problema, remova a guia personalizada e adicione uma nova guia com o mesmo aplicativo. Se você não tiver permissões para remover a guia personalizada e adicionar uma nova guia, contate o proprietário da equipe para saber mais.
 
 No momento, estamos trabalhando em uma correção para equipes futuras criadas a partir de modelos personalizados.
+
+**Problema**: ao usar o Teams no navegador, alguns sites não suportam ser renderizados em uma guia do Teams.
+
+![mensagem de erro do navegador](media/browser-error-message.png)
+
+**Solução**: se você tiver problemas para visualizar o conteúdo da guia site, será redirecionado para abrir a guia em uma página da Web separada ou abrir o Teams no aplicativo da área de trabalho em vez de exibir seu aplicativo de guia do site.
 
 ## <a name="related-topics"></a>Tópicos relacionados
 

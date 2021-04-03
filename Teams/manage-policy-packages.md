@@ -20,12 +20,12 @@ ms.custom:
 localization_priority: Normal
 search.appverid: MET150
 description: Saiba como usar e gerenciar pacotes de política no Microsoft Teams para simplificar, simplificar e ajudar a fornecer consistência ao gerenciar políticas para grupos de usuários.
-ms.openlocfilehash: 5713274270a7784379eb47c6dd1fa875b41e20b1
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 125c89505727e4fd4e6c18419b32dc1b99dfb67b
+ms.sourcegitcommit: 2bb8556650120b4f7cf509d8ff93d7e4d058829b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51162676"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51583107"
 ---
 # <a name="manage-policy-packages-in-microsoft-teams"></a>Gerenciar pacotes de política no Microsoft Teams
 
@@ -130,7 +130,7 @@ Você pode editar as configurações  de uma política por meio da página Pacot
 2. Selecione a política que você deseja editar. As políticas vinculadas a um pacote de política têm o mesmo nome do pacote de política.
 3. Faça as alterações que você deseja e clique em **Salvar**.
 
-### <a name="assign-a-policy-package"></a>Atribuir um pacote de política 
+### <a name="assign-a-policy-package"></a>Atribuir um pacote de política
 
 #### <a name="assign-a-policy-package-to-one-user"></a>Atribuir um pacote de política a um usuário
 
@@ -165,7 +165,7 @@ Isso pode ocorrer se uma ou mais políticas no pacote não foram criadas ou apli
 
 ## <a name="related-topics"></a>Tópicos relacionados
 
-[Atribua políticas a seus usuários no Teams](assign-policies.md)
+[Atribuir pacotes de política](assign-policy-packages.md)
 
 [Pacotes de política do Teams para administradores EDU](policy-packages-edu.md)
 

@@ -18,12 +18,12 @@ appliesto:
 - Microsoft Teams
 ms.custom:
 - seo-marvel-mar2020
-ms.openlocfilehash: 04106a79458913783c0e25965f17afdfdccd87d1
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 85b860965c7883d5df9bc734bc336fb2d24a5ed8
+ms.sourcegitcommit: 2bb8556650120b4f7cf509d8ff93d7e4d058829b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117689"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51574140"
 ---
 #  <a name="use-cqd-to-manage-call-and-meeting-quality-in-microsoft-teams"></a>Usar o CQD para gerenciar a qualidade de chamada e reunião no Microsoft Teams 
 
@@ -666,7 +666,7 @@ Recomendamos [que](proxy-servers-for-skype-for-business-online.md) você sempre 
 
 A causa mais comum de uso HTTP é a falta de regras de exceção em proxies. Usando a construção ou a sub-rede fornecida, você pode determinar rapidamente qual proxy precisa ser configurado para bypass de mídia.
 
-Verifique se os FQDNs necessários do [Microsoft 365 ou Office 365](/microsoft-365/enterprise/urls-and-ip-address-ranges) estão na lista branca no proxy.
+Verifique se os FQDNs necessários para [o Microsoft 365 ou Office 365](/microsoft-365/enterprise/urls-and-ip-address-ranges) são add to an allowlist in your proxy.
 
 ## <a name="endpoint-investigations"></a>Investigações de ponto de extremidade
 

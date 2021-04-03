@@ -15,12 +15,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Saiba mais sobre chats supervisionados em reuniões do Microsoft Teams.
-ms.openlocfilehash: 125273131ea4de6937b65f15d48469f3039d6aeb
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: e705120eb2f8b92ea437c78be67c139018f786fc
+ms.sourcegitcommit: 50111653f72f6758a3491a4dc3e91160ab75022c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51118049"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51506674"
 ---
 # <a name="supervised-chats-in-microsoft-teams"></a>Chats supervisionados no Microsoft Teams
 
@@ -28,7 +28,7 @@ As instituições de ensino fornecem um espaço digital seguro e saudável para 
 
 O chat supervisionado permite que educadores designados iniciem conversas com alunos e impedem que os alunos iniciem novos chats, a menos que um educador apropriado esteja presente. Quando a supervisão de chat está habilitada, os supervisores não têm permissão para sair dos chats e outros participantes não têm permissão para removê-los, garantindo que os chats envolvendo alunos sejam supervisionados corretamente.
 
-Essas limitações só são aplicadas a novos chats privados criados após o chat supervisionado ter sido totalmente habilitado. Eles não se aplicam a chats particulares, chats de reuniões ou canais existentes. Para saber mais sobre as práticas recomendadas para a segurança do chat de reunião ou do canal, consulte o guia de segurança do aluno.
+Essas limitações só são aplicadas a novos chats privados criados após o chat supervisionado ter sido totalmente habilitado. Eles não se aplicam a chats particulares, chats de reuniões ou canais existentes. Para saber mais sobre as práticas recomendadas para chat de reunião, segurança de canal e manter os alunos seguros, consulte Mantendo os alunos seguros [ao usar o Teams](https://support.microsoft.com/topic/keeping-students-safe-while-using-teams-for-distance-learning-f00fa399-0473-4d31-ab72-644c137e11c8?ui=en-us&rs=en-us&ad=us#ID0EBBAAA=For_educators&ID0EDD=For_educators).
 
 > [!Note]
 > O chat supervisionado protege os novos chats criados após a aplicação do recurso.  Ele não protege chats existentes.

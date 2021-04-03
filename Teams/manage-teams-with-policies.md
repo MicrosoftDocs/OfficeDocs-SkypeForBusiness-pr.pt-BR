@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b54c64c637d44132ac0f978561267ef34f720e67
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 77afc1cbb71fff9cb54decbbf6e5cfd10d6c4e59
+ms.sourcegitcommit: 2bb8556650120b4f7cf509d8ff93d7e4d058829b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51101097"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51574180"
 ---
 # <a name="manage-teams-with-policies"></a>Gerenciar o Teams com políticas
 
@@ -36,7 +36,7 @@ As políticas podem ser atribuídas de várias maneiras diferentes, dependendo d
 
 ![Captura de tela da atribuição de política de grupo.](media/group-policy-assignment.png)
 
-Leia mais sobre a atribuição de políticas [aqui](assign-policies.md).
+Saiba mais sobre como atribuir políticas [aqui](policy-assignment-overview.md).
 
 ## <a name="how-to-manage-policies"></a>Como gerenciar políticas
 
@@ -70,8 +70,8 @@ Tipo de política | Descrição
 
 ## <a name="related-topics"></a>Tópicos relacionados
 
+* [Atribuir políticas no Teams - iniciando](policy-assignment-overview.md)
 * [Gerenciar políticas de comentários no Microsoft Teams](manage-feedback-policies-in-teams.md)
 * [Gerenciar políticas de equipes no Microsoft Teams](teams-policies.md)
-* [Exibir atribuições de política no Log de Atividades](activity-log.md)
 * [Prepare-se para eventos ao vivo no Microsoft Teams](teams-live-events/set-up-for-teams-live-events.md)
 * [Pacotes de políticas e políticas do Teams for Education](policy-packages-edu.md)
