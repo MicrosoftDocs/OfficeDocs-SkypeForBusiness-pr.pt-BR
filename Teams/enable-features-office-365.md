@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fc61e47a8c5c86f2591026ef8cc9d502cc43604e
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: e3368fde246e61c7e006d9223a37283f2953945f
+ms.sourcegitcommit: 50111653f72f6758a3491a4dc3e91160ab75022c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51122185"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51506658"
 ---
 # <a name="manage-microsoft-teams-settings-for-your-organization"></a>Gerencie as configurações do Microsoft Teams para sua organização 
 
@@ -47,7 +47,7 @@ O **acesso externo** permite que os usuários do Microsoft Teams e do Skype for 
 Para adicionar ou bloquear um domínio:
 
 1. Selecione **Adicionar um domínio**.
-2. Em Adicionar um painel de domínio, insira o nome de domínio e clique na barra de espaços para salvar o nome.
+2. No painel Adicionar um domínio, insira o nome do domínio e selecione a barra de espaços para salvar o nome.
 3. Selecione **Permitido** ou **Bloqueado**.
 4. Selecione **Concluído** para salvar as alterações. 
 
@@ -94,9 +94,13 @@ Essas configurações controlam o comportamento da conta de recurso para disposi
 A pesquisa de diretório no escopo do Microsoft Teams usa a APB (política de catálogo de endereços) do Exchange para permitir que as organizações criem limites virtuais que controlam como os usuários podem encontrar e se comunicar com outros usuários na organização. Você pode usar uma pesquisa de diretório no escopo em situações como estas:
 
 - Sua organização tem várias empresas dentro no locatário que você deseja manter separadas. 
-- Sua escola quer limitar os chats entre professores e alunos. 
+- Sua escola quer limitar os chats entre professores e alunos.
 
 **Ative** essa configuração para ativar as pesquisas de diretório no escopo.
+
+#### <a name="safety-and-communications"></a>Segurança e comunicações
+
+O chat animado permite que organizações e escolas limitem os recursos de chat usando permissões baseadas em função. Essas permissões controlam a quantidade de supervisão que um usuário exige ao conversar com outras pessoas. Saiba mais sobre [conversas no](supervise-chats-edu.md).
 
 ### <a name="skype-for-business"></a>Skype for Business
 
