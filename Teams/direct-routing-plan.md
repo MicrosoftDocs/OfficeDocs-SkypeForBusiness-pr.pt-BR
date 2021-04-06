@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
 description: Saiba como o Roteamento Direto do Sistema de Telefonia do Microsoft Phone permite que você conecte um Controlador de Borda de Sessão (SBC) fornecido pelo cliente com suporte ao Microsoft Phone System.
-ms.openlocfilehash: 5df93bb5248f6077bf0378c5ab461c6cf8856fbf
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: f99801989920bf82b07aa6f15fcab9a99b2df065
+ms.sourcegitcommit: 109b3869afb5ff1ca4eaf771399d7cda70a43bea
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51121389"
+ms.lasthandoff: 04/05/2021
+ms.locfileid: "51586550"
 ---
 # <a name="plan-direct-routing"></a>Planejar o Roteamento Direto
 
@@ -105,6 +105,7 @@ Os usuários do Roteamento Direto devem ter as seguintes licenças atribuídas n
 
 > [!IMPORTANT]
 >  Caso você gostaria de adicionar participantes externos a reuniões agendadas, discando para eles ou fornecendo o número de discagem, a licença de audioconferência é necessária.
+> Para GCC High e DoD, não atribua uma licença de Audioconferência para usuários do G5.  Para usuários G3, não atribua uma licença de Audioconferência até que o Roteamento Direto seja totalmente configurado e o usuário tenha um bloco de discagem funcionando.
 
 
 ### <a name="ad-hoc-call-escalation-and-audio-conferencing-license"></a>Escalação de chamada ad hoc e licença de Audioconferência

@@ -17,18 +17,18 @@ f1.keywords:
 localization_priority: Normal
 search.appverid: MET150
 description: Saiba como usar rótulos de sensibilidade para proteger suas equipes no Microsoft Teams.
-ms.openlocfilehash: 25c6e6a9a69f9172bebdab284754998e4acb910a
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 461daf6e91f9ba276dceef1929601d1188563931
+ms.sourcegitcommit: f223b5f3735f165d46bb611a52fcdfb0f4b88f66
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117189"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "51593859"
 ---
 # <a name="sensitivity-labels-for-microsoft-teams"></a>Rótulos de sensibilidade para o Microsoft Teams
 
 [Os rótulos de sensibilidade](/microsoft-365/compliance/sensitivity-labels) permitem que os administradores do Teams protejam e regularem o acesso a conteúdo organizacional sensível criado durante a colaboração dentro das equipes. Depois de configurar rótulos de sensibilidade com suas políticas associadas no centro de conformidade da [Microsoft,](/microsoft-365/compliance/go-to-the-securitycompliance-center)esses rótulos podem ser aplicados às equipes em sua organização.
 
-Atualmente, os rótulos de sensibilidade não têm suporte para clientes que usam SKUs do Teams Education. Para saber mais sobre licenciamento, consulte a descrição [do serviço do Microsoft Teams.](/office365/servicedescriptions/teams-service-description)
+Os rótulos de sensibilidade atualmente não têm suporte em equipes de classe para clientes que usam SKUs do Teams Education. Para saber mais sobre licenciamento, consulte a descrição [do serviço do Microsoft Teams.](/office365/servicedescriptions/teams-service-description)
 
 ## <a name="whats-the-difference-between-sensitivity-labels-and-teams-classification-labels"></a>Qual é a diferença entre rótulos de sensibilidade e rótulos de classificação do Teams?
 
@@ -59,8 +59,10 @@ Da mesma forma, você cria e publica um rótulo de sensibilidade chamado "Geral"
 
 ![Captura de tela do rótulo de sensibilidade geral](media/sensitivity-labels-general-example.png)
 
-Quando a equipe é criada, o rótulo de sensibilidade fica visível no canto superior direito dos canais na equipe. Observe que, se você estiver usando rótulos filho pai hierárquicos, como "Confidencial\Finanças", somente o rótulo pai será showin the channel header.
+Quando a equipe é criada, o rótulo de sensibilidade fica visível no canto superior direito dos canais na equipe. 
 
+> [!NOTE]
+> Se você estiver usando rótulos pai-filho hierárquicos, como "Confidencial\Finanças", somente o rótulo pai será mostrado no header do canal.
 
 ![Captura de tela do rótulo de sensibilidade no canal de equipe](media/sensitivity-labels-channel.png)
 
@@ -88,7 +90,7 @@ Antes de usar rótulos de sensibilidade para o Teams, esteja ciente das seguinte
 
 - **Rótulos de sensibilidade não são suportados por APIs do Teams Graph, cmdlets do PowerShell e modelos**
     
-    Os usuários não poderão aplicar rótulos de sensibilidade em equipes criadas diretamente por meio de APIs do Teams Graph, cmdlets do Teams PowerShell e modelos do Teams.
+    Os usuários não poderão especificar rótulos de sensibilidade ao criar equipes diretamente por meio de APIs do Teams Graph, cmdlets do Teams PowerShell e modelos do Teams. No entanto, as APIs do Gráfico de Grupos Modernos e os cmdlets do PowerShell permitem a criação de grupos com rótulos. Para que os usuários possam primeiro criar Grupos com rótulos usando APIs do Graph de Grupos ou cmdlets do PowerShell e, em seguida, converter esses Grupos no Teams.
 
 - **Suporte para canais privados**
     
