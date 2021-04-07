@@ -17,12 +17,12 @@ description: Obtenha um relatório de participação de reunião no Teams. Este 
 appliesto:
 - Microsoft Teams
 ms.custom: ''
-ms.openlocfilehash: fe30df1a6ab6cb81d313400e584ac9b1e519e0a1
-ms.sourcegitcommit: 7966991c398cd80f6bd0bb21e57a6b2a97c09ea9
-ms.translationtype: HT
+ms.openlocfilehash: 22d727adb211718e9734446f2202635e180f5fc3
+ms.sourcegitcommit: 2d725b9925696e61e3e7338f890f086e009c28f2
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/18/2020
-ms.locfileid: "49130432"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "51598490"
 ---
 # <a name="microsoft-teams-meeting-attendance-report"></a>Relatório de participação de reunião do Microsoft Teams
 
@@ -32,7 +32,7 @@ Os organizadores da reunião podem exibir e baixar um relatório de participaç�
 
 Para os locatários de educação, esse relatório é útil para controlar a participação dos alunos nas aulas online. Por exemplo, o professor pode baixar o relatório de participação no início da aula como uma forma simples de fazer a "chamada". Para saber mais, leia [Baixar relatórios de participação no Teams](https://support.office.com/article/download-attendance-reports-in-teams-ae7cf170-530c-47d3-84c1-3aedac74d310).
 
-Como administrador, você controla se os organizadores de reunião podem baixar relatórios de participação das reuniões configurando uma política de reunião no Teams.  Por padrão, a capacidade de baixar o relatório está desativada. Para ver as etapas sobre como ativar esse recurso, confira [Configurações de política de reunião – Relatório de participação das reuniões](../meeting-policies-in-teams.md#meeting-policy-settings---meeting-attendance-report).
+Como administrador, você controla se os organizadores de reunião podem baixar relatórios de participação das reuniões configurando uma política de reunião no Teams.  Por padrão, a capacidade de baixar o relatório está desativada. Para ver as etapas sobre como ativar esse recurso, confira [Configurações de política de reunião – Relatório de participação das reuniões](../meeting-policies-in-teams-general.md#meeting-attendance-report).
 
 Se os organizadores da reunião precisarem ter acesso a mais dados de participação da reunião, além dos obtidos no relatório disponível na reunião, você pode designar a função *Leitor de relatório* para que eles mesmos possam acessar os relatórios administrativos do Teams. Para saber mais sobre isso, leia [Quem pode acessar os relatórios de atividades do Teams](../teams-activity-reports.md#who-can-access-the-teams-activity-reports). 
 

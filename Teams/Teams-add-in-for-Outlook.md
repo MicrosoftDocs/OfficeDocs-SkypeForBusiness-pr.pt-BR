@@ -19,12 +19,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1def8b943070fc5c7ed1bf2fb3279e0e61a477b6
-ms.sourcegitcommit: f223b5f3735f165d46bb611a52fcdfb0f4b88f66
+ms.openlocfilehash: 4ce2e7ff2822e87d3a2a4784a10d83a4c12ced8f
+ms.sourcegitcommit: 2d725b9925696e61e3e7338f890f086e009c28f2
 ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 04/06/2021
-ms.locfileid: "51593769"
+ms.locfileid: "51598380"
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>Usar o suplemento de Reunião do Teams no Outlook
 =======================================
@@ -115,7 +115,7 @@ Devido a certas limitações na versão inicial, o Outlook mobile pode oferecer 
 
 Como administrador, você pode definir uma configuração de política de reunião do Teams para controlar qual suplemento de reunião do Outlook é usado para *usuários que estão no modo Ilhas*. Você pode especificar se os usuários podem usar apenas o suplemento de Reunião do Teams ou os suplementos de Reunião do Teams e de Reunião do Skype for Business para agendar reuniões no Outlook.
 
-Você só pode aplicar esta política a usuários que estão no modo Ilhas e têm o parâmetro **AllowOutlookAddIn** definido como **Verdadeiro** na política de reunião de suas equipes. Para obter as etapas sobre como definir esta política, consulte [definir o provedor de reuniões para usuários no modo Ilhas](meeting-policies-in-teams.md#meeting-policy-settings---meeting-provider-for-islands-mode).
+Você só pode aplicar esta política a usuários que estão no modo Ilhas e têm o parâmetro **AllowOutlookAddIn** definido como **Verdadeiro** na política de reunião de suas equipes. Para obter as etapas sobre como definir esta política, confira [Configurações de política de reunião - Geral](meeting-policies-in-teams-general.md#meeting-provider-for-islands-mode).
 
 ## <a name="other-considerations"></a>Outras considerações
 
@@ -142,7 +142,7 @@ Alternativamente, execute as seguintes etapas manualmente:
 
 - Os usuários do Windows 7 devem instalar a [atualização para o Tempo de execução do Windows Universal C](https://support.microsoft.com/help/2999226/update-for-universal-c-runtime-in-windows) para que o suplemento de Reunião do Teams funcione.
 - Verifique se o usuário tem uma política de atualização do Teams que permite agendar reuniões no Teams. Consulte [Atualização do Skype for Business para Teams](https://docs.microsoft.com/microsoftteams/upgrade-to-teams-on-prem-overview#meetings) para obter mais detalhes.
-- Verifique se o usuário tem uma política de Reuniões do Teams que permite o complemento do Outlook. Consulte [Gerenciar políticas de reunião no Teams](./meeting-policies-in-teams.md#allow-the-outlook-add-in) para obter mais detalhes.
+- Verifique se o usuário tem uma política de Reuniões do Teams que permite o complemento do Outlook. Confira [Configurações de política de reunião - Geral](./meeting-policies-in-teams-general.md#allow-the-outlook-add-in) para obter mais detalhes.
 - Certifique-se de que o usuário tenha o cliente de área de trabalho do Teams instalado. O suplemento da reunião não será instalado ao usar apenas o cliente web Teams.
 - Certifique-se de que o usuário tenha o Outlook 2013 ou posterior instalado.
 - Certifique-se de que o usuário tenha permissão para executar o regsvr32.exe.

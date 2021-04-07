@@ -16,12 +16,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Notas de versão para recursos de administrador do Microsoft Teams.
-ms.openlocfilehash: 709cbf8b4a5438f0f8e2447e093414de9829f161
-ms.sourcegitcommit: 2bb8556650120b4f7cf509d8ff93d7e4d058829b
+ms.openlocfilehash: 5f9020afaa230156df2927ceecfd26ae33c2c2ae
+ms.sourcegitcommit: 2d725b9925696e61e3e7338f890f086e009c28f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51574090"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "51598500"
 ---
 # <a name="release-notes-for-microsoft-teams-admin-features"></a>Notas de versão para recursos de administrador do Microsoft Teams
 
@@ -49,7 +49,7 @@ Os administradores de IT podem provisionar e entrar remotamente em um dispositiv
 
 ### <a name="enable-live-transcripts-in-teams"></a>Habilitar transcrições ao vivo no Teams
 
-Essa é uma política por usuário e se aplica durante uma reunião. Essa configuração controla se a opção Ativar legendas ao vivo está disponível para que o usuário ative e desative as legendas ao vivo nas reuniões que o usuário faz. [Saiba mais](../meeting-policies-in-teams.md#enable-live-captions).
+Essa é uma política por usuário e se aplica durante uma reunião. Essa configuração controla se a opção Ativar legendas ao vivo está disponível para que o usuário ative e desative as legendas ao vivo nas reuniões que o usuário faz. [Saiba mais](../meeting-policies-participants-and-guests.md#enable-live-captions).
 
 ## <a name="march-23-2021"></a>23 de março de 2021
 
@@ -216,7 +216,7 @@ Recentemente, adicionamos suporte ao plano de chamada para Áustria, Dinamarca, 
 
 ### <a name="meeting-policy-settings"></a>Configurações de política de reunião
 
-Adicionando duas configurações de política para áudio IP e vídeo IP nas políticas de reuniões do Teams: Modo de áudio IP e Modo para vídeo IP. Agora você pode definir áudio IP de entrada e saída e vídeo IP nas políticas de reunião do Teams. [Saiba mais](../meeting-policies-in-teams.md#meeting-policy-settings---audio--video).
+Adicionando duas configurações de política para áudio IP e vídeo IP nas políticas de reuniões do Teams: Modo de áudio IP e Modo para vídeo IP. Agora você pode definir áudio IP de entrada e saída e vídeo IP nas políticas de reunião do Teams. [Saiba mais](../meeting-policies-audio-and-video.md).
 
 ## <a name="september-27-2020"></a>27 de setembro de 2020
 

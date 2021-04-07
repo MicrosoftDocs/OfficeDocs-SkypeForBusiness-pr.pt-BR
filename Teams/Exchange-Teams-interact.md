@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: aa192472da86850a580bc981291762386f15c434
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 31f468e6e3fea0915322e632ad27f2213d5d63c7
+ms.sourcegitcommit: 2d725b9925696e61e3e7338f890f086e009c28f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51094633"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "51598360"
 ---
 # <a name="how-exchange-and-microsoft-teams-interact"></a>Como o Exchange e o Microsoft Teams interagem
 
@@ -122,7 +122,7 @@ Aqui estão algumas coisas que você precisa saber ao implementar o Microsoft Te
 
 - Controle e proteja a configuração das políticas de conformidade no Teams e no Exchange usando o Acesso Condicional. Para saber mais, confira [Como funcionam as políticas de acesso condicional para o Teams?](security-compliance-overview.md#how-conditional-access-policies-work-for-teams)
 
-- Se sua organização tiver exigências de conformidade para garantir que todas as discussões nas reuniões sejam detectáveis, é necessário desabilitar as reuniões privadas se o organizador tiver uma caixa de correio no Exchange. Para saber mais, confira [Permitir o agendamento de reuniões particulares](./meeting-policies-in-teams.md#allow-scheduling-private-meetings).
+- Se sua organização tiver exigências de conformidade para garantir que todas as discussões nas reuniões sejam detectáveis, é necessário desabilitar as reuniões privadas se o organizador tiver uma caixa de correio no Exchange. Para saber mais, confira [Permitir o agendamento de reuniões particulares](./meeting-policies-in-teams-general.md#allow-scheduling-private-meetings).
 
 - Em uma implantação híbrida do Exchange, o conteúdo das mensagens de chat é pesquisável, independentemente de os participantes de chat terem uma caixa de correio baseada na nuvem ou em uma caixa de correio local. Para saber mais, leia [Pesquisar caixas de correio baseadas em nuvem para usuários locais](/office365/securitycompliance/search-cloud-based-mailboxes-for-on-premises-users). Para saber mais sobre como pesquisar conteúdo no Teams, leia [Pesquisar Conteúdo no Centro de Conformidade do Microsoft 365](/Office365/SecurityCompliance/content-search#searching-microsoft-teams-and-office-365-groups).
 

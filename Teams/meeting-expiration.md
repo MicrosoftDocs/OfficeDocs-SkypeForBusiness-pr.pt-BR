@@ -18,12 +18,12 @@ f1.keywords:
 ms.custom: ''
 description: Saiba como usar as configurações de política de reunião para controlar a expiração da reunião no Microsoft Teams.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 1685da93c90d8d12cc4e8b8f2a92fd4f93391c87
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 6e8821781eab70696c9b24c8df18cc8dd0b46870
+ms.sourcegitcommit: 2d725b9925696e61e3e7338f890f086e009c28f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51115559"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "51598610"
 ---
 # <a name="meeting-policies-and-meeting-expiration-in-microsoft-teams"></a>Políticas de reunião e expiração de reunião no Microsoft Teams
 
@@ -35,11 +35,11 @@ ms.locfileid: "51115559"
 
 As configurações de política de reunião que controlam se os usuários podem iniciar e agendar reuniões também controlam a expiração das reuniões agendadas pelos usuários. Quando um link de junção de reunião e a ID de conferência de uma reunião expiram, ninguém pode participar da reunião. As configurações de política de reunião a seguir determinam se os usuários podem iniciar e agendar reuniões no Teams e nos referimos a eles ao longo deste artigo.
 
-- [Permitir Reunir agora em canais](meeting-policies-in-teams.md#allow-meet-now-in-channels): controla se um usuário pode iniciar uma reunião improvisada em um canal.
-- [Permitir agendamento de reunião de canal](meeting-policies-in-teams.md#allow-channel-meeting-scheduling): controla se um usuário pode agendar uma reunião em um canal.
-- [Permitir o agendamento de reuniões privadas](meeting-policies-in-teams.md#allow-scheduling-private-meetings): controla se um usuário pode agendar uma reunião privada no Teams. Uma reunião é particular quando não é publicada em um canal de uma equipe.
-- [Permitir que o Outlook adicione :](meeting-policies-in-teams.md#allow-the-outlook-add-in)controla se um usuário pode agendar uma reunião privada do Outlook. Uma reunião é particular quando não é publicada em um canal de uma equipe.
-- [Permitir Reunião agora em reuniões privadas](meeting-policies-in-teams.md#allow-meet-now-in-private-meetings): controla se um usuário pode iniciar uma reunião privada improvisada.
+- [Permitir Reunir agora em canais](meeting-policies-in-teams-general.md#allow-meet-now-in-channels): controla se um usuário pode iniciar uma reunião improvisada em um canal.
+- [Permitir agendamento de reunião de canal](meeting-policies-in-teams-general.md#allow-channel-meeting-scheduling): controla se um usuário pode agendar uma reunião em um canal.
+- [Permitir o agendamento de reuniões privadas](meeting-policies-in-teams-general.md#allow-scheduling-private-meetings): controla se um usuário pode agendar uma reunião privada no Teams. Uma reunião é particular quando não é publicada em um canal de uma equipe.
+- [Permitir que o Outlook adicione :](meeting-policies-in-teams-general.md#allow-the-outlook-add-in)controla se um usuário pode agendar uma reunião privada do Outlook. Uma reunião é particular quando não é publicada em um canal de uma equipe.
+- [Permitir Reunião agora em reuniões privadas](meeting-policies-in-teams-general.md#allow-meet-now-in-private-meetings): controla se um usuário pode iniciar uma reunião privada improvisada.
 
 Por padrão, essas configurações estão em. Quando qualquer uma dessas configurações é desligada, qualquer usuário que recebe a política não pode iniciar ou agendar novas reuniões desse tipo. Ao mesmo tempo, os links de junção de reunião e as IDs de conferência de todas as reuniões existentes desse tipo que o usuário iniciou ou programou expiram anteriormente.
 

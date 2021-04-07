@@ -19,14 +19,17 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 320accf1e0588024e72d69dcbb4af45c0a6765eb
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 1075a2c345bd866266b175a4b62432e9f819b330
+ms.sourcegitcommit: 2d725b9925696e61e3e7338f890f086e009c28f2
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51098177"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "51598520"
 ---
 # <a name="azure-sentinel-and-microsoft-teams"></a>Azure Sentinel e Microsoft Teams
+
+> [!IMPORTANT]
+> O Azure Sentinel agora tem um conector integrado. Para obter mais informações, confira [Conectar logs do Office 365 ao Azure Sentinel](/azure/sentinel/connect-office-365). Esta é a rota recomendada para coletar esses logs e substitui os métodos de coleta descritos abaixo.
 
 O Teams desempenha um papel central na comunicação e no compartilhamento de dados no Microsoft 365 Cloud. Como o serviço do Teams aborda tantas tecnologias subjacentes na nuvem, ele pode se beneficiar das análises humanas e automatizadas, não apenas no que diz respeito à *busca em logs*, mas também no *monitoramento em tempo real das reuniões*. O Azure Sentinel oferece aos administradores essas soluções.
 
@@ -44,13 +47,13 @@ Este artigo foca na coleta de logs de atividades do Teams no Azure Sentinel. Al�
 
 Esta seção tem três partes:
 
-1. Habilitar logs de auditoria no **Microsoft 365** (M365).
+1. Habilitando Logs de Auditoria no **Microsoft 365**.
 2. Registrar um aplicativo no **Microsoft Azure** para permitir a autenticação e a autorização para a coleta de logs.
-3. Registrar a assinatura da API que permitirá a coleta de logs pela API do M365 pelo **PowerShell**.
+3. Registrar a assinatura da API que permitirá a coleta de log via API do Microsoft 365 via **Windows PowerShell**.
 
-### <a name="enable-audit-logs-in-m365"></a>Habilitar logs de auditoria no M365
+### <a name="enable-audit-logs-in-microsoft-365"></a>Habilitar Logs de Auditoria no Microsoft 365
 
-Como o Teams registra as atividades de logs no M365, os logs de auditoria não são coletados por padrão. Ative esse recurso por meio [destas etapas](/microsoft-365/compliance/turn-audit-log-search-on-or-off?view=o365-worldwide&viewFallbackFrom=o365-worldwide%c2%a0). Os dados do Teams são coletados na auditoria do M365 em *Audit.General*.
+Como o Teams registra a atividade por meio do Microsoft 365, os logs de auditoria não são coletados por padrão. Habilite esse recurso por meio [destas etapas](/microsoft-365/compliance/turn-audit-log-search-on-or-off?view=o365-worldwide&viewFallbackFrom=o365-worldwide%c2%a0). Os dados do Teams são coletados na auditoria do Microsoft 365 em *Audit.General*.
 
 ### <a name="register-an-app-in-microsoft-azure-for-log-collection"></a>Registrar um aplicativo no Microsoft Azure para a coleção de logs
 
@@ -76,7 +79,7 @@ Autentique e autorize um aplicativo do Azure AD (Azure Active Directory) para co
 
 ### <a name="register-the-api-with-powershell-to-collect-teams-logs"></a>Registrar a API no PowerShell para coletar logs do Teams
 
-A etapa final da instalação é coletar e registrar a assinatura da API para poder coletar os dados de log. Isso é feito pelas chamadas do PowerShell REST para a API de atividade de gerenciamento do M365.
+A etapa final da instalação é coletar e registrar a assinatura da API para poder coletar os dados de log. Isso é feito pelas chamadas do Windows PowerShell REST para a API de atividade de gerenciamento do Microsoft 365.
 
 Esteja pronto para fornecer a **ID do aplicativo (cliente)**, o novo **Segredo do cliente**, seu **domínio de URL para o M365** e os valores de **ID do diretório (locatário)** no cmdlet do PowerShell a seguir.
 

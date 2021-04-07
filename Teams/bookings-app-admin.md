@@ -19,12 +19,12 @@ ms.collection:
 - m365solution-scenario
 ms.reviewer: ''
 description: Microsoft Teams e visitas virtuais com o aplicativo Bookings
-ms.openlocfilehash: 5b10c7f320d4162b57dae18c736e26e1935a4107
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 7cb948e020d27ccee396aebb8d1b36b022160a75
+ms.sourcegitcommit: 2d725b9925696e61e3e7338f890f086e009c28f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51092779"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "51598600"
 ---
 # <a name="virtual-visits-with-microsoft-teams-and-the-bookings-app"></a>Visitas virtuais com o Microsoft Teams e o aplicativo Bookings
 
@@ -57,7 +57,7 @@ Há várias formas de controlar quem tem acesso ao aplicativo Bookings e aos rec
 
 ## <a name="recommended-meeting-policy-settings"></a>Configurações recomendadas da política de reunião
 
-Para habilitar a melhor experiência de uso do Bookings, crie uma política de reunião de equipe para admitir automaticamente **Todos na sua organização**. Isso permitirá que os funcionários possam participar automaticamente do encontro e permitir a experiência de lobby dos participantes externos. Você pode saber mais sobre como [admitir automaticamente as pessoas nas reuniões](meeting-policies-in-teams.md#automatically-admit-people).
+Para habilitar a melhor experiência de uso do Bookings, crie uma política de reunião de equipe para admitir automaticamente **Todos na sua organização**. Isso permitirá que os funcionários possam participar automaticamente do encontro e permitir a experiência de lobby dos participantes externos. Você pode saber mais sobre como [admitir automaticamente as pessoas nas reuniões](meeting-policies-participants-and-guests.md#automatically-admit-people).
 
 ### <a name="optional-staff-approvals-setting"></a>Configuração opcional de aprovação de funcionários
 

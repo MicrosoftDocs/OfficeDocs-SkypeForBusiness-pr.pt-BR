@@ -19,16 +19,16 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: O acesso de convidados no Microsoft Teams permite que as equipes da sua organização colaborem com pessoas de fora da sua organização, lhes concedendo acesso a equipes e a canais.
-ms.openlocfilehash: 59e0fd09721e488a1806cc7a4ffcf527d34b029a
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: d927c601380223b3381a65e09549a632ed32903e
+ms.sourcegitcommit: 2d725b9925696e61e3e7338f890f086e009c28f2
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51112417"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "51598530"
 ---
 # <a name="guest-access-in-microsoft-teams"></a>Acesso para convidado no Microsoft Teams
 
-Com o acesso de convidado, você pode fornecer acesso às equipes, documentos em canais, recursos, chats e aplicativos para pessoas fora da sua organização, enquanto mantêm controle total sobre seus próprios dados corporativos.
+Com o acesso de convidado, você pode fornecer acesso às equipes, documentos em canais, recursos, chats e aplicativos para pessoas fora da sua organização, enquanto mantêm controle total sobre seus próprios dados corporativos. Confira [Configurar colaboração segura com Microsoft 365 e Microsoft Teams](/microsoft-365/solutions/setup-secure-collaboration-with-teams).
 
 > [!NOTE]
 > Se você deseja encontrar, ligar, conversar e marcar reuniões com pessoas de outras organizações, use o [acesso externo](manage-external-access.md).

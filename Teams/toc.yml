@@ -550,9 +550,25 @@ items:
       - name: Reuniões
         items:
           - name: Gerenciar políticas de reunião
-            href: meeting-policies-in-teams.md
-          - name: Remover a política de reunião RestrictedAnonymousAccess dos usuários
-            href: meeting-policies-restricted-anonymous-access.md
+            items:
+              - name: Visão Geral
+                href: meeting-policies-overview.md
+              - name: Políticas gerais
+                href: meeting-policies-in-teams-general.md
+              - name: Políticas de áudio e vídeo
+                href: meeting-policies-audio-and-video.md
+              - name: Políticas de compartilhamento de tela e de conteúdo
+                items:
+                  - name: Compartilhamento de conteúdo
+                    href: meeting-policies-content-sharing.md
+                  - name: Configurar compartilhamento de área de trabalho
+                    href: configure-desktop-sharing.md
+              - name: 'Políticas de participante, de convidado e de acesso'
+                items:
+                  - name: Políticas de participantes e de convidados
+                    href: meeting-policies-participants-and-guests.md
+                  - name: Remover a política de reunião RestrictedAnonymousAccess dos usuários
+                    href: meeting-policies-restricted-anonymous-access.md
           - name: Gerenciar configurações de reuniões
             href: meeting-settings-in-teams.md
           - name: Emails enviados para os usuários quando suas configurações são alteradas
@@ -633,7 +649,7 @@ items:
             href: audio-conferencing-pay-per-minute.md
           - name: Gerenciar as configurações de audioconferência para usuários
             items:
-              - name: Visão geral
+              - name: Visão Geral
                 href: manage-the-audio-conferencing-settings-for-a-user-in-teams.md
               - name: Ver uma lista de usuários habilitados para Audioconferência
                 href: see-a-list-of-users-that-are-enabled-for-audio-conferencing-in-teams.md
@@ -853,7 +869,7 @@ items:
             href: country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md
       - name: Roteamento Direto do Sistema de Telefonia
         items:
-          - name: Visão geral
+          - name: Visão Geral
             href: direct-routing-landing-page.md
           - name: Planejar o Roteamento Direto
             href: direct-routing-plan.md

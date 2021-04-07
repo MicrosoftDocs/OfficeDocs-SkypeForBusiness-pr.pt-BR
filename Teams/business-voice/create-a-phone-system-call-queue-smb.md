@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.callqueues.overview"
 - Phone System
 description: Saiba como configurar filas de chamadas com o Microsoft 365 Business Voice.
-ms.openlocfilehash: f60919dccd25231dbdb7e9c2991251bcb3f96700
-ms.sourcegitcommit: 50111653f72f6758a3491a4dc3e91160ab75022c
+ms.openlocfilehash: 40018ce331dfe8516e00c6781373d528a71e85c5
+ms.sourcegitcommit: 3861d661d32f507bd8479509ed09b1cfcf0b214f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51506638"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "51607553"
 ---
 # <a name="create-a-call-queue---small-business-tutorial"></a>Criar uma fila de chamada - tutorial de pequenas empresas
 
@@ -98,7 +98,7 @@ Você pode criar uma conta de recurso no centro de administração do Teams.
 
 2. Clique em **Adicionar**.
 
-3. No painel **Adicionar conta de** recurso, preencha **Nome** de exibição, Nome de **usuário** e escolha **Fila** de chamada para o tipo de conta **de recurso**.
+3. No painel **Adicionar conta de** recurso, preencha **Nome** de exibição, Nome de **usuário** e escolha **Fila** de chamada para o tipo de conta **de recurso**. Os agentes verão o nome de exibição quando receberem uma chamada de entrada da fila.
 
     ![Captura de tela da interface do usuário adicionar conta de recurso](../media/resource-account-add-cq.png)
 
@@ -112,7 +112,7 @@ A nova conta aparecerá na lista de contas.
 
 Você deve atribuir uma licença do Sistema de Telefonia do *Microsoft 365 - Usuário Virtual* à conta de recurso.
 
-1. No Centro de administração do Microsoft 365, clique na conta de recurso à qual você deseja atribuir uma licença.
+1. No Centro de administração do Microsoft  365, na lista Usuários ativos, clique na conta de recurso à qual você deseja atribuir uma licença.
 
 2. Na guia **Licenças e Aplicativos,** em **Licenças,** selecione Sistema de Telefonia do **Microsoft 365 - Usuário Virtual**.
 
@@ -126,7 +126,7 @@ Em seguida, vamos começar a criar uma nova fila de chamada e atribuir a conta d
 
 1. No centro de administração do Teams, **expanda Voz,** clique em **Filas de chamadas** e clique em **Adicionar**.
 
-1. Digite um nome para a fila de chamadas. Os agentes verão esse nome ao receberem uma chamada da fila.
+1. Digite um nome para a fila de chamadas.
 
 2. Clique em **Adicionar contas**, procure a conta de recurso que você deseja usar com a fila de chamadas, clique em **Adicionar** e, em seguida, clique em **Adicionar**.
 
@@ -212,7 +212,7 @@ Escolha como você deseja lidar com chamadas que excedem o máximo na fila.
 
 Escolha o que você deseja que aconteça quando as chamadas estão esperando na fila por muito tempo.
 
-1. Definir o **Tempo limite de chamada: tempo máximo de espera**.
+1. De definir **o tempo máximo de espera**.
 
 2. Escolha o que você deseja fazer quando uma chamada chegar ao tempo de saída. Você pode desconectar a chamada ou redirecioná-la. Recomendamos redirecionar a chamada para um dos seguintes destinos:
     - **Pessoa na organização** - uma pessoa em sua organização que é capaz de receber chamadas de voz
