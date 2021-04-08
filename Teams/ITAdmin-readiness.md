@@ -19,12 +19,12 @@ ms.custom:
 description: Vídeos de treinamento, apresentações do PowerPoint, tutoriais e outros recursos para administradores sobre como planejar, implantar e executar o Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2922f22ec0ea7db095c63ce05f9d37752ba134a4
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: f5015317fb2aff22cdc53fb30f62e6d4ea8c2237
+ms.sourcegitcommit: b52b6aba289396c4fc10dd856817137eb1bc1f67
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51094563"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "51617794"
 ---
 # <a name="getting-started-with-admin-training-for-microsoft-teams"></a>Iniciando o treinamento de administrador para o Microsoft Teams
 
@@ -75,6 +75,7 @@ Use os recursos de treinamento para se instruir sobre o Teams, ensinar outras pe
 | Título                                                                       | Resumo                                                                                                                                                                                                               |  Link para o Guia                             |
 |-----------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------|
 | Identidade, gerenciamento de acesso & Proteção contra Ameaças para o Teams                   | Saiba como usar os centros de administração da Microsoft e o PowerShell para configurar políticas de acesso e identidade e Habilitar a Proteção Avançada contra Ameaças do Office 365 para o Teams                                                            | [Guia de segurança do Teams](https://aka.ms/teamsesecurityinteractiveguide)         |
+| Políticas de Prevenção contra Perda de Dados (DLP) para o Microsoft Teams                     | Saiba como adicionar o Microsoft Teams a uma política de DLP existente, bem como criar uma nova política, com base em um modelo ou totalmente personalizado às necessidades de proteção de dados da sua organização.                        | [Guia de DLP do Teams](https://aka.ms/teamsdlpguide)         |
 | Gerenciando a conformidade no Teams                                                | Use o Microsoft 365 Security, a Conformidade do Microsoft 365 e os centros de administração do Microsoft Teams, bem como o Windows PowerShell para gerenciar e configurar as políticas e configurações do Microsoft Teams de uma organização do Office 365. | [Gerenciando a conformidade no guia do Teams](https://aka.ms/complianceinteamsinteractiveguide)      |
 | Consultor do Teams: Implantando chats, equipes, canais e aplicativos no Microsoft Teams | Saiba como aproveitar o consultor do Teams para avaliar seu ambiente e criar um plano para implantar chats, equipes, canais e aplicativos.                                                                                         |  [Guia do Consultor do Teams](https://aka.ms/MicrosoftTeamsAdvisorInteractiveguide)  |
 | Dinamização da administração do Teams com o PowerShell e grupos dinâmicos        | Converta um grupo do Office 365 de associação estática para dinâmica e use Windows PowerShell para atribuir uma nova política de permissão de aplicativo a todos os membros.                                                                         |  [Guia de administração do Teams de streamlining](https://aka.ms/StreamliningTeamsadminInteractiveGuide) |
@@ -85,6 +86,7 @@ Use os recursos de treinamento para se instruir sobre o Teams, ensinar outras pe
 | Configurando e implantando reuniões do Microsoft Teams                          | Passo a passo no processo de implantação da carga de trabalho de reuniões do Microsoft Teams.                                                                                                                                       |  [Configurar e implantar o guia de reuniões do Microsoft Teams](https://aka.ms/TeamsMeetingsInteractiveGuide)          |
 | Configurar Audioconferência para o Microsoft Teams                            | Descubra os recursos da Audioconferência no Teams e saiba como atribuir pontes de conferência e números de telefone discados.                                                                                          |  [Configurando a audioconferência para o guia do Microsoft Teams](https://aka.ms/AudioConferencingInteractiveGuide)      |
 | Configurando o Microsoft Teams para funcionários de primeira linha                           | Saiba como configurar e implantar o ambiente certo do Microsoft Teams para sua Força de Trabalho de Primeira Linha.                                                                                                                  | [Configurando o guia do Microsoft Teams for Firstline Workers](https://aka.ms/ConfigFLWInteractiveGuide)              |
+| Identidade da força de trabalho de linha de frente: Capacitar funcionários de IT, gerentes e de linha de frente                    | Saiba como integrar o Microsoft Teams aos sistemas de RH existentes, configurar o gerenciamento de identidade delegado leve e configurar a entrada simplificada e transições perfeitas para aqueles que usam dispositivos compartilhados.                                                                                                                  | [Guia de identidade do trabalhador de linha de frente](https://aka.ms/FLWIdentityIG)              |
 | Implantando salas do Microsoft Teams                           | Saiba como criar e configurar uma conta a ser usada com salas do Microsoft Teams e gerenciar o dispositivo no Centro de administração do Microsoft Teams.                                                                                                                  | [Implantando salas do Microsoft Teams](https://aka.ms/teamsroomslab)              |
 
 <h2>Guias de início rápido</h2>
