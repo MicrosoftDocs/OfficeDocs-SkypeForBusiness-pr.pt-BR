@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 29cf3f6816b3c1e0b00026b1ba4ad961a6a92aa6
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 770dcea62d6f3dc65f576a3d64a520dd4de2ecad
+ms.sourcegitcommit: 950387da2a2c094b7580bcf81ae5d8b6dfba0d6b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51093535"
+ms.lasthandoff: 04/08/2021
+ms.locfileid: "51637723"
 ---
 # <a name="manage-user-access-to-teams"></a>Gerenciamento do acesso de usuários ao Teams
 
@@ -57,6 +57,9 @@ As etapas são diferentes, dependendo de você usar a página **Licenças** ou *
 |![Captura de tela da licença do Teams habilitada para um usuário](media/assign-teams-licenses-1.png)    | ![Captura de tela da licença do Teams habilitada para um usuário](media/assign-teams-licenses-2.png)        |
 
 ### <a name="remove-a-teams-license"></a>Remover uma licença do Teams
+
+> [!IMPORTANT]
+> Leva cerca de 24 horas para que a desabilitação de uma SKU do Teams entre em vigor.
 
 Quando você remove uma licença do Teams de um usuário, o Teams é desabilitado para esse usuário e ele não verá mais o Teams no launcher de aplicativos ou na homepage. Para etapas detalhadas, consulte [Unassign licenses from users](/microsoft-365/admin/manage/remove-licenses-from-users).
 

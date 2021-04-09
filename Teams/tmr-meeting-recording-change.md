@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c57b925875308b7cdd9e654103e8d11050ce082d
-ms.sourcegitcommit: 50111653f72f6758a3491a4dc3e91160ab75022c
+ms.openlocfilehash: 23be0069ffe862bcd5295493c8a6fc6acaa5f55d
+ms.sourcegitcommit: 950387da2a2c094b7580bcf81ae5d8b6dfba0d6b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51506664"
+ms.lasthandoff: 04/08/2021
+ms.locfileid: "51637813"
 ---
 # <a name="use-onedrive-for-business-and-sharepoint-or-stream-for-meeting-recordings"></a>Usar o OneDrive for Business e o SharePoint ou o Stream para gravações de reunião
 
@@ -38,6 +38,11 @@ ms.locfileid: "51506664"
 |A implantação começa incrementalmente em 7 de julho de 2021 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|**Todos os clientes (Enterprise, Education e GCC)**<br>As novas gravações de reunião não podem ser salvas no Microsoft Stream (Clássico); as gravações de reunião de todos os clientes serão salvas no OneDrive for Business e no SharePoint, mesmo se eles tiverem alterado as políticas de Reunião do Teams para Stream.<br><br> Recomendamos que os clientes, para controlar melhor a alteração na sua organização, aceitem quando estiverem confortáveis com a alteração em vez de esperar que ela aconteça. |
 
 O Microsoft Teams tem um novo método para salvar gravações de reunião. Como a primeira fase de uma transição do Microsoft Stream clássico para o [novo Stream](/stream/streamnew/new-stream), esse método armazena gravações do Microsoft OneDrive for Business e do SharePoint no Microsoft 365 e oferece muitos benefícios.
+
+> [!NOTE]
+> Se uma gravação de reunião do Teams falhar ao carregar com êxito no OneDrive/SharePoint, a gravação será salva temporariamente no Azure Media Services (AMS). Depois de armazenado no AMS, nenhuma tentativa de nova tentativa é feita para carregar automaticamente a gravação no OneDrive/SharePoint ou stream.
+
+As gravações de reunião armazenadas no AMS estão disponíveis por 21 dias antes de serem excluídas automaticamente. Os usuários podem baixar o vídeo do AMS se precisarem manter uma cópia.
 
 Os benefícios do uso do OneDrive for Business e do SharePoint para armazenar gravações incluem:
 
@@ -63,29 +68,29 @@ Assista a "Novidades para Gravações de Reunião do Microsoft Teams" para obter
 A opção de gravação de reunião é uma configuração no nível de política do Teams. O exemplo a seguir mostra como definir a política Global. Certifique-se de que configurou a opção de gravação de reunião para a política ou políticas que atribuiu aos seus usuários.
 
 > [!Note]
-> As alterações à política de reunião do Teams demoram para serem propagadas. Verifique novamente algumas horas após defini-la e saia e entre novamente.
+> As alterações da política de reunião do Teams levam um tempo para se propagar. Faça check-back após algumas horas de defini-lo, em seguida, saia e entre no aplicativo área de trabalho do Teams novamente ou simplesmente reinicie o computador.
 
 1. Instalar o PowerShell do Teams.
 
    > [!NOTE]
    > O Conector Skype for Business Online atualmente faz parte do módulo mais recente do PowerShell do Teams. Se você estiver usando o último lançamento público do PowerShell Teams, não precisa instalar o Conector do Skype for Business Online. Confira [Gerenciar o Skype for Business Online com o PowerShell](/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell?preserve-view=true&view=o365-worldwide).
 
-1. Abra o PowerShell como um administrador.
+2. Abra o PowerShell como um administrador.
 
-2. Instale o [módulo do PowerShell do Teams](./teams-powershell-install.md).
+3. Instale o [módulo do PowerShell do Teams](./teams-powershell-install.md).
 
-3. Importe o módulo do Microsoft Teams e entre como um administrador do Teams.
+4. Importe o módulo do Microsoft Teams e entre como um administrador do Teams.
 
 
-```powershell
-  # When using Teams PowerShell Module
-
+   ```powershell
+   # When using Teams PowerShell Module
+   
    Import-Module MicrosoftTeams
    $credential = Get-Credential
    Connect-MicrosoftTeams -Credential $credential
-```
+   ```
 
-4. Use [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) para definir uma Política de Reunião do Teams para fazer a transição do armazenamento do Stream para o do OneDrive for Business e do SharePoint. 
+5. Use [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) para definir uma Política de Reunião do Teams para fazer a transição do armazenamento do Stream para o do OneDrive for Business e do SharePoint. 
 
    ```powershell
    Set-CsTeamsMeetingPolicy -Identity Global -RecordingStorageMode "OneDriveForBusiness"
@@ -146,6 +151,10 @@ Como vídeos são como qualquer outro arquivo no OneDrive for Business e no Shar
 
 - Para as reuniões de canal, as permissões são herdadas da lista de proprietários e membros no canal.
 
+> [!NOTE]
+> Você não receberá um email quando a gravação terminar de salvar, mas a gravação aparecerá no chat da reunião depois que terminar. Isso acontecerá muito mais rápido do que no Stream anteriormente.
+> Você pode controlar com quem compartilhar a gravação, mas não poderá impedir que pessoas com acesso compartilhado baixem a gravação.  
+
 **Como posso gerenciar as legendas?**
 
 As legendas ocultas para gravações de reunião do Teams estarão disponíveis durante a reprodução somente se o usuário tiver ativado a transcrição no momento da gravação. Os administradores devem [ativar a transcrição da gravação por meio da política]( https://docs.microsoft.com/microsoftteams/cloud-recording#turn-on-or-turn-off-recording-transcription) para garantir que os usuários tenham a opção de gravar as reuniões com transcrição.
@@ -155,6 +164,9 @@ As legendas ajudam a criar conteúdo inclusivo para visualizadores com diferente
 As legendas ocultas têm suporte nas gravações de reunião do Teams por 60 dias a partir de quando a reunião foi gravada.
 
 As legendas ocultas não terão suporte total se a Gravação de Reunião do Teams for movida ou copiada de seu local original no OneDrive for Business e no SharePoint.
+
+> [!NOTE]
+> Haverá legendas fechadas somente em inglês (a transcrição da reunião ainda não está disponível no GCC).
 
 **Como minha cota de armazenamento será afetada?**
 

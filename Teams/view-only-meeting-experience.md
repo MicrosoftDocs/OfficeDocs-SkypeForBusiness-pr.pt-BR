@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 25cd674e5f93e4f52f0a2cecd2acff97e4844834
-ms.sourcegitcommit: f4393657584666842e874d526a08cfa1137b911d
+ms.openlocfilehash: 4822628288ea6e1727a68e551a725f278e4dcc6e
+ms.sourcegitcommit: 950387da2a2c094b7580bcf81ae5d8b6dfba0d6b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51215326"
+ms.lasthandoff: 04/08/2021
+ms.locfileid: "51637863"
 ---
 # <a name="teams-view-only-meeting-experience"></a>Experiência de reunião somente para visualização de Teams
 
@@ -105,9 +105,6 @@ O participante somente visualização não poderá experimentar as seguintes op�
 - Participe da sala somente exibição usando o sistema salas do Microsoft Teams ou usando serviços CVI (Cloud Video Interop).
 - Compartilhe seu áudio ou vídeo.
 - Veja ou participe do chat da reunião.
-  - Os primeiros 1000 (ou 300, dependendo do limite de reunião principal) convidados para a reunião serão adicionados ao chat.
-  - Embora os usuários somente exibição não vejam o chat na reunião, eles ainda poderão conversar no aplicativo principal se foram as primeiras 350 pessoas convidadas.
-  - Por outro lado, se um usuário interativo não fez parte dos primeiros 350 usuários convidados para a reunião, ele não terá acesso ao chat de reunião no Aplicativo principal do Teams e na reunião.
 - Veja o feed de vídeo dos participantes da reunião, a menos que o participante seja o palestrante ativo.
 - Consulte Arquivos do PowerPoint compartilhados usando a funcionalidade do PowerPoint Live ou compartilhamentos de aplicativos individuais (diferente do compartilhamento de área de trabalho ou tela).
 - Levante a mão na reunião.

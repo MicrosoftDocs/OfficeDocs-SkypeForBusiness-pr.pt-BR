@@ -15,283 +15,286 @@ appliesto:
 - Microsoft Teams
 f1.keywords:
 - NOCSH
-description: Leia este artigo para localizar os códigos de país do caminho de mídia para Roteamento Direto para que você possa selecionar o caminho de mídia ideal.
+description: Leia este artigo para localizar códigos de país de caminho de mídia para Roteamento Direto para que você possa selecionar o caminho de mídia ideal.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 69265e797b256186f714e2cd4dcefcb3751c05ee
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 56cdc48b33e048776a43a37864930fc153c47aac
+ms.sourcegitcommit: c80af314f1a573f99dd66858301c004ccc5410d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43904803"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "51648120"
 ---
 # <a name="direct-routing-media-path-country-codes"></a>Códigos de país do caminho de mídia de roteamento direto
 
-Ao escolher um caminho de roteamento para mídia, o Roteamento Direto, por padrão, sempre atribui um datacenter com base no endereço IP público do Controlador de Borda de Sessão (SBC) e sempre seleciona o caminho mais próximo do datacenter SBC.
+Ao escolher um caminho de roteamento para mídia, o Roteamento Direto, por padrão, sempre atribui um datacenter com base no endereço IP público do Controlador de Borda de Sessão (SBC) e sempre seleciona o caminho mais próximo ao datacenter SBC.
 
-No entanto, em alguns casos, o caminho de mídia padrão pode não ser o caminho ideal para mídia; por exemplo, um IP público de um intervalo dos Estados Unidos pode ser atribuído a um SBC localizado na Europa. 
+No entanto, em alguns casos, o caminho de mídia padrão pode não ser o caminho de mídia ideal; por exemplo, um IP público de um intervalo dos Estados Unidos pode ser atribuído a um SBC localizado na Europa. 
 
-Usando o parâmetro -MediaRelayRoutingLocationOverride com os cmdlets New-CsOnlinePSTNGateway e Set-CsOnlinePSTNGateway, você pode especificar a região preferencial para o tráfego de mídia. Por exemplo, o seguinte comando especifica que a região preferencial é a Alemanha:
+Usando o parâmetro -MediaRelayRoutingLocationOverride com os cmdlets New-CsOnlinePSTNGateway e Set-CsOnlinePSTNGateway, você pode especificar a região preferencial para tráfego de mídia. Por exemplo, o seguinte comando especifica que a região preferencial é a Alemanha:
 
 Set-CSOnlinePSTNGateway -Identity sbc1.contoso.com –MediaRelayRoutingLocationOverride DE 
 
 Observe que a Microsoft só recomenda definir esse parâmetro se os logs de chamada indicarem claramente que a atribuição padrão do datacenter para o caminho de mídia não usa o caminho mais próximo do datacenter SBC. 
+
+> [!NOTE]
+> -MediaRelayRoutingLocationOverride - este comando não está disponível para uso em cenários de roteamento direto.
  
-## <a name="country-code-reference-table"></a>Tabela de referência de código do país
+## <a name="country-code-reference-table"></a>Tabela de referência de código de país
 
 A tabela a seguir mostra os valores de código do país para o parâmetro -MediaRelayRoutingLocationOverride:
 
 | País         | Código 
 |-----------------|--------------------|
-| Afeganistão     | Af |
-| Ilhas Aland   | Machado |
-| Albânia         | Al |
-| Argélia         | Dz |
-| Samoa Americana  | Como |
+| Afeganistão     | AF |
+| Ilhas Aland   | AX |
+| Albânia         | AL |
+| Argélia         | DZ |
+| Samoa Americana  | AS |
 | Andorra         | AD |
 | Angola          | AO |
-| Anguila        | IA |
-| Antártida      | Aq | 
-| Antígua e Barbuda | Ag |
+| Anguila        | AI |
+| Antárctida      | AQ | 
+| Antígua e Barbuda | AG |
 | Argentina       | AR |
-| Armênia         | Sou |
+| Armênia         | AM |
 | Aruba           | AW |
 | Austrália       | AU |
-| Áustria         | Em |
-| Azerbaijão      | Az |
-| Bahamas         | Bs |
-| Bahrein         | Bh |
-| Bangladesh      | Bd |
-| Barbados        | Bb |
+| Áustria         | AT |
+| Azerbaijão      | AZ |
+| Bahamas         | BS |
+| Bahrein         | BH |
+| Bangladesh      | BD |
+| Barbados        | BB |
 | Belarus         | BY |
 | Bélgica         | BE |
 | Belize          | BZ |
-| Benin           | Bj |
-| Bermudas         | Bm |
-| Butão          | Bt |
-| Bolívia         | Bo |
-| Bonaire         | Bq |
+| Benin           | BJ |
+| Bermudas         | BM |
+| Butão          | BT |
+| Bolívia         | BO |
+| Bonaire         | BQ |
 | Bósnia e Herzegovina | BA |
-| Botsuana        | Bw |
-| Ilha Bouvet   | Bv |
+| Botsuana        | BW |
+| Ilha Bouvet   | BV |
 | Brasil          | BR |
-| Território Britânico do Oceano Índico | IO |
-| Ilhas Virgens Britânicas | Vg |
+| Território britânico do Oceano Índico | IO |
+| Ilhas Virgens Britânicas | VG |
 | Brunei          | BN |
 | Bulgária        | BG |
-| Burquina Faso    | Bf |
-| Burundi         | Bi |
-| Cabo Verde      | Cv |
-| Camboja        | Kh |
-| Camarões        | Cm |
+| Burquina Faso    | BF |
+| Burundi         | BI |
+| Cabo Verde      | CV |
+| Camboja        | KH |
+| Camarões        | CM |
 | Canadá          | CA |
-| Ilhas Cayman  | Ky |
-| República Centro-Africana | Cf |
-| Chad            | Td |
+| Ilhas Cayman  | KY |
+| República Centro-Africana | CF |
+| Chade            | TD |
 | Chile           | CL |
 | China           | CN |
-| Ilha de Natal | Cx |
-| Ilhas Cocos (Keeling) | Cc |
+| Ilha Christmas | CX |
+| Ilhas Cocos (Quilha) | CC |
 | Colômbia        | CO |
 | Comores         | km |
-| Congo           | Cg |
-| Congo (RCA)     | Cd |
-| Ilhas Cook    | Ck |
-| Costa Rica      | Cr |
-| Costa do Marfim   | Ci |
+| Congo           | CG |
+| Congo (DRC)     | CD |
+| Ilhas Cook    | CK |
+| Costa Rica      | CR |
+| Cote d'Ivoire   | CI |
 | Croácia         | RH |
 | Cuba            | CU |
-| Curaçao         | Cw |
+| Curaçao         | CW |
 | Chipre          | CY |
-| Chéquia         | Cz |
+| Tcheco         | CZ |
 | Dinamarca         | DK |
-| Djibuti        | Dj |
-| Dominica        | Dm |
+| Djibuti        | DJ |
+| Dominica        | DM |
 | República Dominicana | DO |
 | Equador         | EC |
 | Egito           | EG |
-| El Salvador     | Sv |
-| Guiné Equatorial | Gq |
-| Eritreia         | Er |
+| El Salvador     | SV |
+| Guiné Equatorial | GQ |
+| Eritreia         | ER |
 | Estônia         | EE |
-| Eswawawa        | Sz |
-| Etiópia        | Et |
-| Ilhas Malvinas | Fk |
-| Ilhas Faroe   | Fo |
-| Fiji            | Fj |
+| Eswatini        | SZ |
+| Etiópia        | ET |
+| Ilhas Malvinas | FK |
+| Ilhas Faroe   | FO |
+| Fiji            | FJ |
 | Finlândia         | FI |
 | França          | FR |
-| Guiana Francesa   | Gf |
-| Polinésia Francesa | Pf |
-| Territórios Franceses do Sul | Tf |
-| Gabão           | Ga |
-| Gâmbia          | Gm |
-| Geórgia         | Ge |
+| Guiana Francesa   | GF |
+| Polinésia Francesa | PF |
+| Territórios do Sul francês | TF |
+| Gabão           | GA |
+| Gâmbia          | GM |
+| Geórgia         | GE |
 | Alemanha         | DE |
-| Gana           | Gh |
-| Gibraltar       | Gi |
-| Grécia          | Gr |
-| Groenlândia       | Gl |
-| Granada         | Gd |
-| Guadalupe      | Gp |
-| Guam            | Gu |
-| Guatemala       | Gt |
-| Guernsey        | Gg |
-| Guiné          | Gn |
-| Guinea-Bissau   | Gw |
-| Guiana          | Gy |
+| Gana           | GH |
+| Gibraltar       | GI |
+| Grécia          | GR |
+| Groenlândia       | GL |
+| Granada         | GD |
+| Guadalupe      | GP |
+| Guam            | GU |
+| Guatemala       | GT |
+| Guernsey        | GG |
+| Guiné          | GN |
+| Guinea-Bissau   | GW |
+| Guiana          | GY |
 | Haiti           | Oi |
-| Ilha Heard e Ilhas McDonald | Hm |
+| Ilha Heard e Ilhas McDonald | HM |
 | Honduras        | HN |
 | RAE de Hong Kong   | HK |
 | Hungria         | HU |
-| Islândia         | É |
-| Índia           | Em |
+| Islândia         | IS |
+| Índia           | IN |
 | Indonésia       | ID |
 | Irã            | IR |
-| Iraque            | Qi |
+| Iraque            | IQ |
 | Irlanda         | IE |
-| Ilha de Man     | Mensagem instantânea |
+| Ilha do Homem     | Mensagem instantânea |
 | Israel          | IL |
-| Itália           | IT |
-| Jamaica         | Jm |
-| Jan Mayen       | Xj |
+| Itália           | TI |
+| Jamaica         | JM |
+| Jan Mayen       | XJ |
 | Japão           | JP |
-| Jersey          | Je |
-| Jordão          | Jo |
-| Cazaquistão      | Kz |
+| Jersey          | JE |
+| Jordão          | JO |
+| Cazaquistão      | KZ |
 | Quênia           | KE |
-| Kiribati        | Ki |
+| Kiribati        | KI |
 | Coreia           | KR |
-| Kosovo          | Xk |
-| Kuwait          | Kw |
-| Quirguistão      | Kg |
+| Kosovo          | XK |
+| Kuwait          | KW |
+| Quirguistão      | KG |
 | Laos            | LA |
-| Letônia          | Lv |
-| Líbano         | Lb |
-| Lesoto         | É |
-| Libéria         | Lr |
-| Líbia           | Ly |
+| Letônia          | LV |
+| Líbano         | LB |
+| Lesoto         | LS |
+| Libéria         | LR |
+| Líbia           | LY |
 | Liechtenstein   | LI |
-| Lituânia       | Tenente |
+| Lituânia       | LT |
 | Luxemburgo      | LU |
-| SAR de Macau       | Mo |
-| Madagascar      | Mg |
-| Malaui          | Mw |
+| SAR de Macau       | MO |
+| Madagáscar      | MG |
+| Malaui          | MW |
 | Malásia        | MY |
-| Maldivas        | Mv |
-| Mali            | Ml |
-| Malta           | Mt |
-| Ilhas Marshall | Mh |
-| Martinica      | Mq |
-| Mauritânia      | Sr |
-| Maurício       | Mu |
-| Mayotte         | Yt |
+| Maldivas        | MV |
+| Mali            | ML |
+| Malta           | MT |
+| Ilhas Marshall | MH |
+| Martinica      | MQ |
+| Mauritânia      | MR |
+| Maurício       | MU |
+| Mayotte         | YT |
 | México          | MX |
-| Micronésia      | Fm |
+| Micronésia      | FM |
 | Moldova         | MD |
 | Mônaco          | MC |
-| Mongólia        | Mn |
-| Montenegro      | Me |
-| Montserrat      | Ms |
-| Marrocos         | Mãe |
-| Moçambique      | Mz |
-| Mianmar         | Mm |
+| Mongólia        | MN |
+| Montenegro      | ME |
+| Montserrat      | MS |
+| Marrocos         | MA |
+| Moçambique      | MZ |
+| Mianmar         | MM |
 | Namíbia         | N/D |
-| Nauru           | Nr |
-| Nepal           | Np |
+| Nauru           | NR |
+| Nepal           | NP |
 | Países Baixos     | NL |
 | Nova Caledônia   | NC |
-| Nova Zelândia     | Nz |
-| Nicarágua       | Ni |
-| Níger           | Ne |
-| Nigéria         | Ng |
+| Nova Zelândia     | NZ |
+| Nicarágua       | NI |
+| Níger           | NE |
+| Nigéria         | NG |
 | Niue            | NU |
-| Ilha Norfolk  | Nf |
-| Coreia do Norte     | Kp |
-| Macedônia do Norte | Mk |
-| Ilhas Marianas do Norte | Np |
+| Ilha Norfolk  | NF |
+| Coreia do Norte     | KP |
+| Macedônia do Norte | MK |
+| Ilhas Marianas do Norte | NP |
 | Noruega          | Não |
-| Omã            | Om |
-| Paquistão        | Pk |
-| Palau           | Pw |
-| Autoridade Palestina | Ps |
+| Omã            | OM |
+| Paquistão        | PK |
+| Palau           | PW |
+| Autoridade Palestina | PS |
 | Panamá          | PA |
-| Nova Guiné | Pg |
+| Papua Nova Guiné | PG |
 | Paraguai        | PY |
 | Peru            | PE |
 | Filipinas     | PH |
-| Ilhas Pitcairn | Pn |
+| Ilhas Pitcairn | PN |
 | Polônia          | PL |
 | Portugal        | PT |
-| Porto Rico     | Pr |
+| Porto Rico     | PR |
 | Catar           | QA |
-| Reunião         | Re |
+| Reunião         | RE |
 | Romênia         | RO |
-| Rússia          | Ru |
-| Ruanda          | Rw |
-| Saba            | Xs |
-| São Cristóvão | Bl |
-| São Cristóvão e Névis | Kn |
-| Santa Lúcia     | Lc |
-| Saint Martin    | Mf |
-| São Pedro e Miquelon | Pm |
+| Rússia          | RU |
+| Ruanda          | RW |
+| Saba            | XS |
+| São Barthelemy | BL |
+| São Cristóvão e Névis | KN |
+| Santa Lúcia     | LC |
+| São Martinho    | MF |
+| São Pedro e Miquelon | PM |
 | São Vicente e Granadinas | VC |
-| Samoa           | Ws |
-| San Marino      | Sm |
-| São Tomé e Principe | St |
+| Samoa           | WS |
+| San Marino      | SM |
+| São Tomé e Principe | ST |
 | Arábia Saudita    | SA |
 | Senegal         | SN |
 | Sérvia          | RS |
-| Seychelles      | Sc |
-| Sierra Leone    | Sl | 
+| Seychelles      | SC |
+| Serra Leoa    | SL | 
 | Singapura       | SG |
-| Sint Eustatius  | Xe |
-| Sint Maarten    | Sx |
+| Sint Eustatius  | XE |
+| Sint Maarten    | SX |
 | Eslováquia        | SK |
-| Eslovênia        | Sl |
-| Ilhas Salomão | Sb |
-| Somália         | Então |
+| Eslovênia        | SL |
+| Ilhas Salomão | SB |
+| Somali         | Então |
 | África do Sul    | ZA |
-| Ilhas Geórgia do Sul e Sandwich do Sul | Gs |
-| Sudão do Sul     | Ss |
+| Ilhas Geórgia do Sul e Sanduiche do Sul | GS |
+| Sudão do Sul     | SS |
 | Espanha           | ES |
-| Sri Lanka       | Lk |
-| Santa Helena, Ascensão, Tristão da Cunha | Sh |
-| Sudão           | Sd |
+| Sri Lanka       | LK |
+| Santa Helena, Ascensão, Tristão da Cunha | SH |
+| Sudão           | SD |
 | Suriname        | SR |
-| Svalbard        | Sj |
+| Svalbard        | SJ |
 | Suécia          | SE |
-| Suíça     | Ch |
-| Síria           | Sy |
+| Suíça     | CH |
+| Síria           | SY |
 | Taiwan          | TW |
-| Tadjiquistão      | Tj |
-| Tanzânia        | Tz |
+| Tadjiquistão      | TJ |
+| Tanzânia        | TZ |
 | Tailândia        | TH |
-| Timor-Leste     | Tl |
-| Togo            | Tg |
-| Tokelau         | Tk |
+| Timor-Leste     | TL |
+| Togo            | TG |
+| Tokelau         | TK |
 | Tonga           | Para |
-| Trinidad e Tobago | Tt |
-| Tunísia         | Tn |
+| Trinidad e Tobago | TT |
+| Tunísia         | TN |
 | Turquia          | TR |
-| Turcomenistão    | Tm |
-| Ilhas Turcos e Caicos | Tc |
-| Tuvalu          | Tv |
-| Ilhas Distantes dos EUA | UM |
+| Turcomenistão    | TM |
+| Ilhas Turcos e Caicos | TC |
+| Tuvalu          | TV |
+| Ilhas U.S. Outlying | UM |
 | Ilhas Virgens Americanas | VI |
-| Uganda          | Ug |
+| Uganda          | UG |
 | Ucrânia         | UA |
 | Emirados Árabes Unidos | AE |
 | Reino Unido  | GB |
-| Estados Unidos   | Nos |
+| Estados Unidos   | EUA |
 | Uruguai         | UY |
-| Uzbequistão      | Uz |
-| Vanuatu         | Vu |
-| Cidade do Vaticano    | Va |
+| Uzbequistão      | UZ |
+| Vanuatu         | VU |
+| Cidade do Vaticano    | VA |
 | Venezuela       | VE |
 | Vietnã         | VN |
-| Wallis e Futuna | Wf |
-| Iêmen           | Vós |
-| Zâmbia          | Zm |
-| Zimbábue        | Zw |
+| Wallis e Futuna | WF |
+| Iêmen           | YE |
+| Zâmbia          | ZM |
+| Zimbábue        | ZW |
 

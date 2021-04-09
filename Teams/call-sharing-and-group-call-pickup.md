@@ -23,12 +23,12 @@ ms.custom:
 - Phone System
 - seo-marvel-mar2020
 description: O compartilhamento de chamadas e o recebimento de chamadas em grupo permitem que os usuários compartilhem chamadas de entrada com colegas para que as chamadas possam ser capturadas quando o usuário não estiver disponível.
-ms.openlocfilehash: 1ec3c389bf2eb69f30e13ebbba6c7d5d1d5fe38c
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 88c8d41eb0cf58413df995274bb9accd50b897c9
+ms.sourcegitcommit: 950387da2a2c094b7580bcf81ae5d8b6dfba0d6b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51102787"
+ms.lasthandoff: 04/08/2021
+ms.locfileid: "51637823"
 ---
 # <a name="call-sharing-and-group-call-pickup-in-microsoft-teams"></a>Compartilhamento de chamadas e atendimento de chamada em grupo no Microsoft Teams
 
@@ -43,7 +43,7 @@ Para compartilhar chamadas com outras pessoas, um usuário cria um grupo de cham
 
 ## <a name="license-required"></a>Licença necessária
 
-Os usuários devem Enterprise Voice habilitados para configurar e usar o compartilhamento de chamada e a retirada de chamada em grupo. Para obter detalhes adicionais sobre o modelo de licenciamento, consulte [a descrição do serviço do Microsoft Teams.](/office365/servicedescriptions/teams-service-description)
+Os usuários devem ter uma licença do Sistema de Telefonia do Microsoft Teams para configurar e usar o compartilhamento de chamadas e a retirada de chamadas em grupo. Para obter detalhes adicionais sobre o modelo de licenciamento, consulte Aqui está [o que você obter com o Sistema de Telefonia](https://docs.microsoft.com/MicrosoftTeams/here-s-what-you-get-with-phone-system).
 
 ## <a name="configure-group-call-pickup"></a>Configurar o recolhimento de chamada de grupo
 
