@@ -22,7 +22,7 @@
           href: ../../SfbOnline/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms.md?toc=/SkypeForBusiness/hybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online/toc.json&bc=/SkypeForBusiness/hybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online/breadcrumb/toc.json
     - name: Desativar o ambiente local do Skype for Business
       items:
-        - name: Visão Geral
+        - name: Visão geral
           href: ../hybrid/decommission-on-prem-overview.md
         - name: Mover usuários e pontos de extremidade para a nuvem
           href: ../hybrid/decommission-move-on-prem-users.md
