@@ -19,12 +19,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-may2020
-ms.openlocfilehash: e8e9a7776058803f49364887cabd6b54a9040cb6
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: ff718bda9b1713621a7c63ab2f8bf1adf4e179ad
+ms.sourcegitcommit: c80af314f1a573f99dd66858301c004ccc5410d6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51097557"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "51648110"
 ---
 # <a name="microsoft-teams-training"></a>Treinamento para o Microsoft Teams
 
@@ -52,8 +52,8 @@ Verifique com frequência - continuaremos atualizando esta lista para que você 
    :::column-end:::
 
    :::column:::
-   **[Trabalho em equipe](/learn/paths/m365-manage-team-collaboration)** </br>
-   Curso: Habilitando Trabalho em equipe com o Teams
+   **[Gerenciar a colaboração da Equipe para TI](/learn/paths/m365-manage-team-collaboration)** </br>
+   Curso: aprenda a usar o Teams para facilitar o trabalho em equipe e a comunicação em sua organização entre aplicativos e dispositivos.
 
    :::column-end:::
 

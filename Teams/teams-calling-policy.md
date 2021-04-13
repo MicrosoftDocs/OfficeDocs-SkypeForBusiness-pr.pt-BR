@@ -20,12 +20,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5e3cc466d855f55f63f34e798443fb285dc36c9e
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: e469cc183134bab35855e83257126029ce78a8cc
+ms.sourcegitcommit: c80af314f1a573f99dd66858301c004ccc5410d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51162689"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "51653935"
 ---
 <a name="calling-policies-in-microsoft-teams"></a>Políticas de chamada no Microsoft Teams
 ===================================
@@ -94,7 +94,7 @@ Definir isso como **On** enviará chamadas por meio da PSTN e incorre em encargo
 
 ### <a name="busy-on-busy-is-available-while-in-a-call"></a>Ocupado no Ocupado está disponível durante uma chamada
 
-Ocupado em Ocupado (Opções de Ocupado) é uma nova configuração que permite configurar como as chamadas de entrada são tratadas quando um usuário já está em uma chamada ou conferência ou tem uma chamada colocada em espera. Chamadas novas ou de entrada podem ser rejeitadas com um sinal de ocupado. Você pode habilitar opções de ocupado no nível do locatário ou no nível do usuário. Independentemente de como suas opções de ocupado estão configuradas, os usuários em uma chamada ou conferência ou aqueles com uma chamada em espera não são impedidos de iniciar novas chamadas ou conferências. Essa configuração está desabilitada por padrão.
+Ocupado em Ocupado (Opções de Ocupado) é uma nova configuração que permite configurar como as chamadas de entrada são tratadas quando um usuário já está em uma chamada ou conferência ou tem uma chamada colocada em espera. Chamadas novas ou de entrada podem ser rejeitadas com um sinal de ocupado ou podem ser roteadas de acordo com as configurações sem resposta do usuário. Você pode habilitar opções de ocupado no nível do locatário ou no nível do usuário. Independentemente de como suas opções de ocupado estão configuradas, os usuários em uma chamada ou conferência ou aqueles com uma chamada em espera não são impedidos de iniciar novas chamadas ou conferências. Essa configuração está desabilitada por padrão.
 
 ### <a name="allow-web-pstn-calling"></a>Permitir chamada PSTN web
 

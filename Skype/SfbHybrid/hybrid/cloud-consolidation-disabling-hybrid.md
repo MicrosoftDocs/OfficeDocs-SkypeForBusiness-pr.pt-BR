@@ -21,25 +21,27 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: Este artigo inclui etapas detalhadas para desabilitar o híbrido como parte da consolidação de nuvem para o Teams e o Skype for Business.
-ms.openlocfilehash: 5528172c6a9309a0884c9417a64da589f0f0d4a4
-ms.sourcegitcommit: f223b5f3735f165d46bb611a52fcdfb0f4b88f66
+ms.openlocfilehash: 18bda898563e10dbf964ba149f27202372fbcceb
+ms.sourcegitcommit: 71d90f0a0056f7604109f64e9722c80cf0eda47d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "51593849"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "51656697"
 ---
 # <a name="disable-your-hybrid-configuration-to-complete-migration-to-the-cloud"></a>Desabilitar sua configuração híbrida para concluir a migração para a nuvem
 
 Este artigo descreve como desabilitar sua configuração híbrida antes de desativar seu ambiente local do Skype for Business. Esta é a etapa 2 das etapas a seguir para desmantelar seu ambiente local:
 
-- Etapa 1. Mova todos os usuários e pontos de extremidade de aplicativo [necessários do local para o online](decommission-move-on-prem-users.md).
+- Etapa 1. [Mova todos os usuários necessários do local para o online](decommission-move-on-prem-users.md).
 
 - **Etapa 2. Desabilite sua configuração híbrida.** (Este artigo)
 
-- Etapa 3. [Remova sua implantação local do Skype for Business.](decommission-remove-on-prem.md)
+- Etapa 3. [Mover pontos de extremidade de aplicativo híbrido de local para online](decommission-move-on-prem-endpoints.md).
+
+- Etapa 4. [Remova sua implantação local do Skype for Business.](decommission-remove-on-prem.md)
 
 
-## <a name="overview"></a>Visão Geral
+## <a name="overview"></a>Visão geral
 
 Depois de atualizar todos os usuários do Skype for Business local para o Teams somente no Microsoft 365, você pode desmantelar a implantação local do Skype for Business. Antes de desativar a implantação local do Skype for Business e remover qualquer hardware, você deve separar logicamente a implantação local do Microsoft 365 desabilitando o híbrido. Desabilitar híbrido consiste nas três etapas a seguir:
 
@@ -243,11 +245,12 @@ Essa opção requer esforço adicional e planejamento adequado, pois os usuário
     ```PowerShell
     Get-CsOnlineUser -Filter {Enabled -eq $True -and (OnPremHostingProvider -ne $null -or MCOValidationError -ne $null -or ProvisioningStamp -ne $null -or SubProvisioningStamp -ne $null)} | fl SipAddress, InterpretedUserType, OnPremHostingProvider, MCOValidationError, *ProvisioningStamp
     ``` 
-12. Depois de concluir todas as etapas no Método 2, consulte [Remove your local Skype for Business Server](decommission-remove-on-prem.md) para obter etapas adicionais para remover sua implantação local do Skype for Business Server.
+12. Depois de concluir todas as etapas no Método 2, consulte [Mover](decommission-move-on-prem-endpoints.md) pontos de extremidade de aplicativo híbrido do local para o online e Remover o [Skype for Business Server](decommission-remove-on-prem.md) local para obter etapas adicionais para remover sua implantação local do Skype for Business Server.
 
 
 ## <a name="see-also"></a>Confira também
 
 - [Consolidação de nuvem para Teams e Skype for Business](cloud-consolidation.md)
 
-- [Desmantelar seu ambiente local do Skype for Business](decommission-on-prem-overview.md)
+- [Desativar o ambiente local do Skype for Business](decommission-on-prem-overview.md)
+

@@ -24,10 +24,12 @@
       items:
         - name: Visão geral
           href: ../hybrid/decommission-on-prem-overview.md
-        - name: Mover usuários e pontos de extremidade para a nuvem
+        - name: Mover usuários para a nuvem
           href: ../hybrid/decommission-move-on-prem-users.md
         - name: Desabilitar o modo híbrido para concluir a migração para a nuvem
           href: ../hybrid/cloud-consolidation-disabling-hybrid.md
+        - name: Mover pontos de extremidade do aplicativo para a nuvem
+          href: ../hybrid/decommission-move-on-prem-endpoints.md
         - name: Remover a implantação local do Skype for Business
           href: ../hybrid/decommission-remove-on-prem.md
     - name: Implantar uma topologia de floresta de recursos

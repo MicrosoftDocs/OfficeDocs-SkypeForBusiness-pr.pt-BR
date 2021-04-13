@@ -13,12 +13,12 @@ f1.keywords:
 description: Uma visão geral da solução de centro de contato integrado como serviço (CCaaS) para o Microsoft Teams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 733abd0fce55858d890e190f5af466a7cfa71156
-ms.sourcegitcommit: 2bb8556650120b4f7cf509d8ff93d7e4d058829b
+ms.openlocfilehash: 632fbacd9cd1ba8face3571597bc17e5e5a8a70b
+ms.sourcegitcommit: 71d90f0a0056f7604109f64e9722c80cf0eda47d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51574120"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "51656747"
 ---
 # <a name="contact-center-integrations-for-microsoft-teams"></a>Integrações do Contact Center para o Microsoft Teams
 
@@ -47,6 +47,7 @@ As APIs permitem que os provedores de soluções desenvolvam e integrem soluçõ
 | `8x8` | https://www.8x8.com/8/8x8-contact-center-for-microsoft-teams                                                    |
 | `Anywhere365` | https://anywhere365.io/direct-routing-contact-center-for-microsoft-teams/                                      |
 | `ComputerTalk` | https://www.computer-talk.com/product/enterprise-contact-center/ice-contact-center-for-teams         |
+| `Content Guru` | https://www.contentguru.com/microsoft-teams-integration/    |
 | `Enghouse Interactive` | http://www.enghouseteams.com/         |
 | `NICE inContact` | https://www.niceincontact.com/microsoft-teams                                                            |
 
@@ -56,7 +57,6 @@ As APIs permitem que os provedores de soluções desenvolvam e integrem soluçõ
 | ---------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | `Competella` | https://www.competella.com/microsoft-teams-skype-for-business                                  |
 | `ContactCenter4All` | www.contactcenter4all.com |
-| `Content Guru` | https://www.contentguru.com/microsoft-teams-integration/    |
 | `Five9` | https://www.five9.com/products/application-integration/uc-integration                                                   |
 | `FrontStage` | https://www.frontstage.cc                                                                                        |
 | `Genesys` | https://www.genesys.com/microsoft                                                                                   |
@@ -93,7 +93,7 @@ Embora o seguinte não seja uma lista abrangente de recursos para esse modelo de
 
   - Provedores de soluções para usar o [ <span class="underline">controlador de borda de sessão certificado pela Microsoft (SBC)</span>](./direct-routing-border-controllers.md) 
 
-### <a name="connect-and-extend"></a>Conectar e estender
+### <a name="extend"></a>Estender
 
 Este modelo amplia as experiências de funcionários e agentes da central de contatos integrando-se com o cliente do [Teams](/microsoftteams/platform/overview)usando a plataforma cliente do [Teams, APIs do Teams Graph](/graph/api/resources/teams-api-overview?view=graph-rest-1.0) e API de [Comunicações](/graph/api/resources/communications-api-overview?view=graph-rest-1.0) na Nuvem no Microsoft Graph e usa o sistema de telefonia do Teams para todas as experiências de call center e controle de chamadas. Nesse modelo, o provedor de soluções do contact center atua como uma operadora de telefonia juntamente com o Microsoft 365.
 
@@ -121,7 +121,7 @@ Embora o seguinte não seja uma lista abrangente de recursos para esse modelo de
 
   - Preservar o desempenho e a qualidade das experiências do cliente do Teams em todos os aplicativos  
 
-### <a name="extend-and-power"></a>Estender e energia
+### <a name="power"></a>Power
 
 Esse modelo permite que os provedores de soluções criem aplicativos de voz nativos baseados no Azure usando a infraestrutura de chamadas do Teams e a plataforma de cliente para fornecer soluções modernas e inteligentes para conexão colaborativa de cliente e agente. O objetivo de Extend e Power é estimular a criatividade do desenvolvedor e impulsionar a produtividade do cliente.
 

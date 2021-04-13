@@ -17,22 +17,24 @@ ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 description: Instruções para desativação do Skype for Business Server.
-ms.openlocfilehash: 668e3d5ebf5dfa03fcfb883adcc3e08fc5924bae
-ms.sourcegitcommit: f223b5f3735f165d46bb611a52fcdfb0f4b88f66
+ms.openlocfilehash: 9c6051a07fc05297985b3692351c36791d8842bb
+ms.sourcegitcommit: 71d90f0a0056f7604109f64e9722c80cf0eda47d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "51593870"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "51656687"
 ---
-# <a name="remove-your-on-premises-skype-for-business-deployment"></a>Remover sua implantação local do Skype for Business
+# <a name="remove-your-on-premises-skype-for-business-deployment"></a>Remover a implantação local do Skype for Business
 
-Este artigo descreve como remover sua implantação local do Skype for Business. Esta é a etapa 3 das etapas a seguir para desmantelar seu ambiente local:
+Este artigo descreve como remover sua implantação local do Skype for Business. Esta é a etapa 4 das etapas a seguir para desmantelar seu ambiente local:
 
-- Etapa 1. Mova todos os usuários e pontos de extremidade de aplicativo [necessários do local para o online](decommission-move-on-prem-users.md). 
+- Etapa 1. [Mova todos os usuários necessários do local para o online](decommission-move-on-prem-users.md). 
 
 - Etapa 2. [Desabilite sua configuração híbrida](cloud-consolidation-disabling-hybrid.md).
 
-- **Etapa 3. Remova sua implantação local do Skype for Business.** (Este artigo)
+- Etapa 3. [Mover pontos de extremidade de aplicativo híbrido do local para o online](decommission-move-on-prem-endpoints.md)
+
+- **Etapa 4. Remova sua implantação local do Skype for Business.** (Este artigo)
 
 
 > [!IMPORTANT] 
@@ -77,7 +79,7 @@ Use as etapas abaixo para limpar esses objetos e certifique-se de que você seja
    Get-CsCallParkOrbit | Remove-CsCallParkOrbit -Force
    Get-CsVoiceRoute | Remove-CsVoiceRoute -Force
    ```
-## <a name="remove-your-on-premises-skype-for-business-deployment"></a>Remover sua implantação local do Skype for Business
+## <a name="remove-your-on-premises-skype-for-business-deployment"></a>Remover a implantação local do Skype for Business
 
 Após concluir todas as etapas preliminares, você pode remover a implantação do Skype for Business seguindo estas etapas:
 
@@ -127,14 +129,13 @@ Após concluir todas as etapas preliminares, você pode remover a implantação 
 
 ## <a name="see-also"></a>Confira também
 
-- [Desmantelar seu ambiente local do Skype for Business](decommission-on-prem-overview.md)
+- [Desativar o ambiente local do Skype for Business](decommission-on-prem-overview.md)
 
-- [Mover usuários e pontos de extremidade para a nuvem](decommission-move-on-prem-users.md)
+- [Mover todos os usuários necessários do local para o online](decommission-move-on-prem-users.md)
 
 - [Desabilitar sua configuração híbrida](cloud-consolidation-disabling-hybrid.md)
 
-
-
+- [Mover pontos de extremidade de aplicativo híbrido do local para o online](decommission-move-on-prem-endpoints.md)
 
 
 

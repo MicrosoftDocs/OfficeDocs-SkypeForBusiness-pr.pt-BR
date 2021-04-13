@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Saiba como configurar e testar os atendimentos automáticos para o Microsoft 365 Business Voice.
-ms.openlocfilehash: 7ee7dad833119778ceb64bd1e52bd30da4529ba8
-ms.sourcegitcommit: 50111653f72f6758a3491a4dc3e91160ab75022c
+ms.openlocfilehash: 7fb9a9509354f5f6e3a17b2323eeaf2b5872e96e
+ms.sourcegitcommit: 71d90f0a0056f7604109f64e9722c80cf0eda47d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51506648"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "51656737"
 ---
 # <a name="set-up-an-auto-attendant---small-business-tutorial"></a>Configurar um atendimento automático - tutorial de pequenas empresas
 
@@ -62,9 +62,9 @@ Você pode criar uma conta de recurso no centro de administração do Teams.
 
 4. Clique em **Salvar**.
 
-A nova conta aparecerá na lista de contas.
+    A nova conta aparecerá na lista de contas.
 
-![Captura de tela de uma lista de contas de recursos](../media/resource-accounts-page.png)
+    ![Captura de tela de uma lista de contas de recursos](../media/resource-accounts-page.png)
 
 ### <a name="assign-a-license"></a>Atribuir uma licença
 
@@ -107,7 +107,7 @@ Para configurar um atendimento automático
 
 4. Especifique o fuso horário desse atendimento automático. O fuso horário é usado para calcular o horário comercial se você criar um fluxo de chamada separado para depois do horário.
 
-5. Especifique um idioma para esse atendimento automático. Este é o idioma que será usado para prompts de voz gerados pelo sistema.
+5. Especifique um idioma para esse atendimento automático. Esse é o idioma que será usado para prompts de voz gerados pelo sistema.
 
 6. Escolha se deseja habilitar entradas de voz. Quando habilitada, o nome de cada opção de menu se torna uma palavra-chave de reconhecimento de fala. Por exemplo, os chamadores podem dizer "Um" para selecionar a opção de menu mapeada para a tecla 1 ou podem dizer "Vendas" para selecionar a opção de menu chamada "Vendas".
 
@@ -214,11 +214,11 @@ O seu atendente automático pode ter um fluxo de chamada para cada feriado que v
 
 7. Clique em **Salvar**.
 
-Repita o procedimento conforme necessário para cada feriado adicional.
-
-![Captura de tela das configurações de feriados com feriados listados](../media/auto-attendant-holiday-call-settings.png)
-
-Quando você adicionou todos os feriados, clique em **Próximo**.
+    Repita o procedimento conforme necessário para cada feriado adicional.
+    
+    ![Captura de tela das configurações de feriados com feriados listados](../media/auto-attendant-holiday-call-settings.png)
+    
+    Quando você adicionou todos os feriados, clique em **Próximo**.
 
 > [!div class="nextstepaction"]
 > [Etapa 6 - Escolher quem está no diretório >](/microsoftteams/business-voice/create-a-phone-system-auto-attendant-smb?tabs=dial-scope#steps)
@@ -245,7 +245,7 @@ Todos os atendentes automáticos devem ter uma conta de recurso associada.  Os a
 
 Para adicionar uma conta de recurso
 
-1. Clique **em Adicionar** conta e pesquise a conta que você deseja adicionar. Clique **em Adicionar** e, em seguida, clique em **Adicionar**.
+1. Clique **em Adicionar** e pesquisar a conta que você deseja adicionar. Clique **em Adicionar** e, em seguida, clique em **Adicionar**.
 
     ![Captura de tela do painel adicionar contas de conta de recurso](../media/auto-attendant-add-resource-account.png)
 
@@ -253,7 +253,7 @@ Para adicionar uma conta de recurso
 
     ![Captura de tela da lista de contas de recursos mostrando a conta de recurso com o número de serviço atribuído](../media/auto-attendant-resource-account-assigned.png)
 
-Isso conclui a configuração do atendimento automático.
+    Isso conclui a configuração do atendimento automático.
 
 ---
 
