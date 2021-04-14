@@ -17,12 +17,12 @@ f1.keywords:
 description: Protocolos de Roteamento Direto
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 00cdb644efe9fb2c3e49973d7a539718252a7df9
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 8b1917408fa14ced9a490cba1559228dde924cfc
+ms.sourcegitcommit: cfef9dd41cac0df83bd02b35036d8f8f1b472feb
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51098467"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51697776"
 ---
 # <a name="direct-routing---sip-protocol"></a>Roteamento Direto - protocolo SIP
 
@@ -350,7 +350,10 @@ Consulte a seção Mecanismo de Failover para sinalização SIP em [Plan for Dir
 
 ## <a name="retry-after"></a>Retry-After
 
-Se um datacenter de Roteamento Direto estiver ocupado, o serviço poderá enviar uma mensagem Retry-After com um intervalo de um segundo para o SBC. Quando o SBC recebe uma mensagem 503 com um Retry-After em resposta a um INVITE, o SBC deve encerrar essa conexão e tentar o próximo datacenter da Microsoft disponível. 
+Se um datacenter de Roteamento Direto estiver ocupado, o serviço poderá enviar uma mensagem Retry-After com um intervalo de um segundo para o SBC. Quando o SBC recebe uma mensagem 503 com um Retry-After em resposta a um INVITE, o SBC deve encerrar essa conexão e tentar o próximo datacenter da Microsoft disponível.
+
+## <a name="handling-retries-603-response"></a>Tratamento de recuperações (resposta 603)
+Se um usuário final observar várias chamadas perdidas para uma chamada após o declínio da chamada de entrada, isso significa que o mecanismo de nova tentativa do provedor de tronco SBC ou PSTN está mal configurado. O SBC deve ser reconfigurado para interromper os esforços de nova tentativa na resposta 603.
 
 ## <a name="ice-restart-media-bypass-call-transferred-to-an-endpoint-that-does-not-support-media-bypass"></a>Reinicialização de ICE: Chamada de bypass de mídia transferida para um ponto de extremidade que não dá suporte a bypass de mídia
 

@@ -23,12 +23,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 'Saiba mais sobre os recursos, disponibilidade e como planejar e configurar o Microsoft Phone System para sua empresa. '
-ms.openlocfilehash: b26f6d72a92f0012f47d155531be523872e5a08c
-ms.sourcegitcommit: c80af314f1a573f99dd66858301c004ccc5410d6
+ms.openlocfilehash: 926f3cd1b5ec6619c6d8146ad2ede82a7479c3d7
+ms.sourcegitcommit: cfef9dd41cac0df83bd02b35036d8f8f1b472feb
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/09/2021
-ms.locfileid: "51648130"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51697716"
 ---
 # <a name="heres-what-you-get-with-phone-system"></a>Veja o que você obtém com o Sistema de Telefonia
 
@@ -67,16 +67,16 @@ O Sistema de Telefonia fornece os seguintes recursos. A menos que seja notado de
 |[Anelador secundário](https://support.office.com/article/Manage-your-call-settings-in-Teams-456cb611-3477-496f-b31a-6ab752a7595f) <br/> | Os usuários com vários dispositivos de alto-falante conectados ao computador podem optar por definir um dispositivo secundário para tocar, além do alto-falante padrão. Por exemplo, um usuário com um fone de ouvido conectado ao computador e alto-falantes de mesa pode optar por ter fones de ouvido e alto-falantes de mesa tocar quando uma chamada chegar para que ele não perca uma chamada.  |
 |[Alertas de toque distintos](https://support.office.com/article/Manage-your-call-settings-in-Teams-456cb611-3477-496f-b31a-6ab752a7595f) (somente teams)<br/> |Permite que os usuários escolham toques separados para chamadas normais, chamadas encaminhadas e chamadas delegadas para que possam distinguir o tipo de chamada.  <br/> |
 |[Aparência de linha compartilhada ](shared-line-appearance.md) <br/> | Permite que os usuários compartilhem suas linhas telefônicas para que outro usuário possa fazer e receber chamadas em seu nome.|
-|[Ocupado no Ocupado](teams-calling-policy.md) (somente equipes) <br/> | Uma política de chamada que permite configurar como as chamadas de entrada são tratadas quando um usuário já está em uma chamada ou conferência ou tem uma chamada em espera. O chamador ouvirá um sinal de ocupado quando o chamador já estiver no telefone ou será roteado de acordo com as configurações sem resposta do usuário, ou seja, o chamador poderá deixar uma caixa postal para o usuário que já está em uma chamada. O chamador recebe uma notificação de chamada perdida, mas não é capaz de atender chamadas de entrada. Esse recurso é desabilitado por padrão, mas pode ser ligado pelo administrador do locatário.|
+|[Ocupado no Ocupado](teams-calling-policy.md) (somente equipes) <br/> | Uma política de chamada que permite configurar como as chamadas de entrada são tratadas quando um usuário é: <ul><li>em uma chamada </li><li>em uma conferência</li><li>tem uma chamada colocada em espera. </li></ul> O chamador receberá uma das seguintes respostas: <ul><li>ouvir um sinal de ocupado quando o chamador está no telefone</li> <li>será roteado de acordo com as configurações não respondidas do usuário. Uma opção permite que o chamador deixe uma caixa postal para o usuário que já está em uma chamada.</li></ul> O chamador recebe uma notificação de chamada perdida, mas não é capaz de atender chamadas de entrada. Esse recurso está desabilitado por padrão, mas pode ser ligado pelo administrador do locatário.|
 |[Bloqueio de chamada](https://support.office.com/article/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f?ui=en-US&rs=en-US&ad=US) <br/> | Permite que os usuários adicionem números de telefone (PSTN) a uma lista bloqueada para que a próxima chamada desse número seja impedida de tocar no usuário.|
 |[Telefones de área comum](set-up-common-area-phones.md) <br/> | Um telefone de área comum normalmente é colocado em uma área como um lobby ou sala de conferência, disponibilizando-o para várias pessoas. Os telefones de área comum são definidos como dispositivos em vez de usuários e podem entrar automaticamente em uma rede.|
 |[Suporte a bypass de mídia](direct-routing-plan-media-bypass.md) (somente para o Roteamento Direto do Teams) <br/> | Para melhorar o desempenho, a mídia é mantida entre o Controlador de Borda de Sessão (SBC) e o cliente, em vez de enviá-la por meio do Sistema de Telefonia da Microsoft. |
-
 
 ## <a name="availability-in-gcc-high-and-dod-clouds"></a>Disponibilidade em nuvens GCC High e DoD
 <a name="bkmk_setup"> </a>
 
 Os seguintes recursos ainda não estão disponíveis em Nuvens GCC High e DoD. 
+
 - [Configurações de chamada para toque secundário, caixa postal e delegação aprimorada](https://support.office.com/article/Manage-your-call-settings-in-Teams-456cb611-3477-496f-b31a-6ab752a7595f)
 - [Transferir para a chamada no meio da caixa postal](https://support.office.com/article/Transfer-a-call-in-Teams-b7f40f14-e083-46b9-b739-68038c8f73a0)
 - Número de telefone de chamada da barra de pesquisa
@@ -94,5 +94,3 @@ Os seguintes recursos ainda não estão disponíveis em Nuvens GCC High e DoD.
 - [Licenciamento do complemento do Microsoft Teams](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
 - [Preços do sistema telefônico](https://products.office.com/microsoft-teams/voice-calling#requirements)
 - [Teams for Virtualized Desktop Infrastructure with callings and meetings](teams-for-vdi.md#teams-on-vdi-with-calling-and-meetings)
-
-  

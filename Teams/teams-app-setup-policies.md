@@ -19,12 +19,12 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: 94e33421043b0cad195489d78e2eb96c95bb222e
-ms.sourcegitcommit: da2a70a9b5e05d0fd7ecc150b451f5805667514c
+ms.openlocfilehash: ee50af6dec780480b8efdbf39dabb8e52ff03f3a
+ms.sourcegitcommit: cfef9dd41cac0df83bd02b35036d8f8f1b472feb
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/12/2021
-ms.locfileid: "50756177"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51697706"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>Gerenciar políticas de configuração de aplicativo no Microsoft Teams
 
@@ -45,7 +45,7 @@ Os aplicativos são fixados na barra de aplicativos, que é a barra no lado do c
 
 Para ver os aplicativos instalados pelos administradores, na barra de aplicativos, os usuários selecionam **... Mais aplicativos** na área de trabalho e clientes Web do Teams e passe o dedo para cima nos clientes móveis.
 
-Você gerencia políticas de configuração de aplicativos no centro de administração do Microsoft Teams. Use a política global (padrão em toda a organização) ou crie e atribua políticas personalizadas.  Os usuários em sua organização obterão automaticamente a política global, a menos que você crie e atribua uma política personalizada. Você deve ser um administrador global ou administrador de serviços do Teams para gerenciar essas políticas.
+Você gerencia políticas de configuração de aplicativos no centro de administração do Microsoft Teams. Use a política global (padrão em toda a organização) ou crie e atribua políticas personalizadas.  Os usuários da sua organização terão automaticamente a política global, a menos que você crie e atribua uma política personalizada. Você deve ser um administrador global ou administrador de serviços do Teams para gerenciar essas políticas.
 
 Edite as configurações na política global para incluir os aplicativos que deseja. Para personalizar o Teams para diferentes grupos de usuários em sua organização, crie e atribua uma ou mais políticas personalizadas.
 
@@ -162,7 +162,7 @@ Os usuários podem alterar a ordem de seus aplicativos fixados na área de traba
 
 #### <a name="does-user-pinning-take-precedence"></a>O pinamento do usuário tem precedência
 
-Se a política de configuração do aplicativo atribuída ao usuário for alterada para bloquear a fixação de aplicativos do usuário, o Teams removerá todos os aplicativos fixados na barra de aplicativos. Se a política for alterada para permitir o pinamento do aplicativo do usuário, os usuários devem repintar seus aplicativos fixados anteriormente.
+Os pinos de administrador sempre têm precedência. Se a **opção Permitir que o pinamento do** usuário estiver ligado, os usuários manterão seus aplicativos fixados abaixo dos aplicativos fixados pelo administrador. Se a **opção Permitir fixação** do usuário estiver desabilitada, os usuários perderão seus pinos pré-existentes e somente aplicativos fixados por administrador estarão presentes na barra de aplicativos.
 
 ### <a name="custom-teams-apps"></a>Aplicativos personalizados do Teams
 

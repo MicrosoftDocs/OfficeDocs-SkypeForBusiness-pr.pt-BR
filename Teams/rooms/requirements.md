@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 description: Saiba mais sobre os requisitos para dar suporte a Salas do Microsoft Teams, incluindo a escolha do dispositivo apropriado, microfones, alto-falantes, câmeras e exibições.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 33c48554a49caae176ce05484278b30d1c31a94a
-ms.sourcegitcommit: 31387f7b34270672789cc4dc1d7b2275840b91f5
+ms.openlocfilehash: 71a0be3fd0aaaca61b9a3f335f2be3480adc32f9
+ms.sourcegitcommit: cfef9dd41cac0df83bd02b35036d8f8f1b472feb
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "51487205"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51697686"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Requisitos das Salas Microsoft Teams
 
@@ -59,6 +59,10 @@ Todos os pacotes e dispositivos da Sala do Microsoft Teams estão disponíveis e
   |[Crestron Flex UC-MX150-T com Intel NUC](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-MX150-T)|Core i5|8 GB |128 GB |
    [Crestron Flex UC-B160-T com Intel NUC](https://crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Wall-Mount-Conferencing-Systems/UC-B160-T)|I7 principais|8 GB |128 GB|
   |[Crestron Flex UC-C160-T com Intel NUC](https://crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-C160-T)|I7 principais|8 GB|128 GB|
+  |[Crestron Flex UC-B30-T com PC ASUS](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Wall-Mount-Conferencing-Systems/UC-B30-T)|Core i5|8 GB |128 GB |
+   |[Crestron Flex UC-C100-T com PC ASUS](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-C100-T)|Core i5|8 GB |128 GB |
+   |[Crestron Flex UC-M50-T com PC ASUS](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-M50-T)|Core i5|8 GB |128 GB |
+   |[Crestron Flex UC-M70-T com PC ASUS](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-M70-T)|Core i5|8 GB |128 GB |
   |[Crestron Mercury Mini UC-MM30-T](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-MM30-T)|Core i5|8 GB |128 GB |
   |[Dell OptiPlex 7080 com Logitech TAP](https://www.dell.com/work/shop/cty/pdp/spd/optiplex-7080-xe-teams) | Core i5 & i7 |8 GB |128 GB|
   |[HP Elite Slice para Salas de Reunião G2](https://www8.hp.com/us/en/elite-family/elite-slice-for-meetings.html) |Core i5 |8 GB |128 GB |

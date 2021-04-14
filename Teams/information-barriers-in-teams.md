@@ -16,12 +16,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: c5137a67169198a16b62e179d32ae1779001011d
-ms.sourcegitcommit: e55d1623e686db2b183e02052bfe10a0269abb5d
+ms.openlocfilehash: b2bae63b2a37b5c5739a988cfe69f23b7609e63b
+ms.sourcegitcommit: cfef9dd41cac0df83bd02b35036d8f8f1b472feb
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2021
-ms.locfileid: "51397574"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51697816"
 ---
 # <a name="information-barriers-in-microsoft-teams"></a>Barreiras de informações no Microsoft Teams
 
@@ -184,12 +184,7 @@ Atualmente, os usuários experimentam os seguintes cenários se uma política de
 
 ## <a name="teams-policies-and-sharepoint-sites"></a>Políticas do Teams e sites do SharePoint
 
-Quando uma equipe é criada, um site do SharePoint é provisionado e associado ao Microsoft Teams para a experiência de arquivos. As políticas de IB não são aduzidas neste site e arquivos do SharePoint por padrão. Para habilitar políticas de IB, o administrador já preencheu um formulário, solicitando que as políticas de IB sejam habilitadas no SharePoint e no OneDrive (consulte a seção *Pré-requisitos* em [Barreiras](/sharepoint/information-barriers#prerequisites)de informações ). Se a política de IB estiver ativas no SharePoint e no OneDrive, as políticas de IB funcionarão em sites do SharePoint provisionados quando uma equipe for criada com o Microsoft Teams.
-
-Exemplo de políticas **de IB** no site do SharePoint de uma equipe : na empresa do Banco Contoso, o usuário 'Sesha@contosobank.onmicrosoft.com' pertence ao segmento de Banco de Investimentos e o usuário 'Nikita@contosobank.onmicrosoft.com' pertence ao segmento de Consultoria. A política de IB da organização bloqueia a comunicação e a colaboração entre esses dois segmentos.
-Quando o usuário Sesha cria uma equipe para o segmento de Banco de Investimentos, a equipe e o site do SharePoint que o ressarmam estarão acessíveis somente aos usuários do Banco de Investimento. A usuária Nikita não poderá acessar esse site mesmo que ela tenha o link do site.
-
-Para obter mais informações, [consulte Use information barriers with SharePoint](/sharepoint/information-barriers#segments-associated-with-microsoft-teams-sites).
+Quando uma equipe é criada, um site do SharePoint é provisionado e associado ao Microsoft Teams para a experiência de arquivos. As políticas de barreira de informações não são aduzidas neste site e arquivos do SharePoint por padrão. Para habilitar barreiras de informações no SharePoint e no OneDrive, siga as diretrizes e etapas no tópico Usar barreiras de informações [com o SharePoint.](/sharepoint/information-barriers#enable-sharepoint-and-onedrive-information-barriers-in-your-organization)
 
 ## <a name="required-licenses-and-permissions"></a>Licenças e permissões necessárias
 

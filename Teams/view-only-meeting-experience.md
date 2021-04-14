@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4822628288ea6e1727a68e551a725f278e4dcc6e
-ms.sourcegitcommit: 950387da2a2c094b7580bcf81ae5d8b6dfba0d6b
+ms.openlocfilehash: 09fe424dc576b6b167eec49e7cd8edf2f61d6cce
+ms.sourcegitcommit: cfef9dd41cac0df83bd02b35036d8f8f1b472feb
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/08/2021
-ms.locfileid: "51637863"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51697796"
 ---
 # <a name="teams-view-only-meeting-experience"></a>Experiência de reunião somente para visualização de Teams
 
@@ -31,7 +31,7 @@ ms.locfileid: "51637863"
 > [!Note]
 > Se a sua reunião ou webinar atingir a capacidade máxima, o Teams será perfeitamente escalado para acomodar uma experiência de transmissão somente visualização para 10.000 pessoas. Além disso, durante este período de maior trabalho remoto, aproveite as transmissões ainda maiores para 20.000 pessoas até o final deste ano.
 
-O Microsoft Teams permite que até 10.000 participantes participem de uma reunião do Teams. Depois que a capacidade da reunião principal for atingida (que é quando 300 no WW ou 250 usuários do GCC entram em uma reunião), os participantes adicionais ingressarão com uma experiência somente de exibição.
+O Microsoft Teams permite que até 10.000 participantes participem de uma reunião do Teams. Depois que a capacidade da reunião principal for atingida (que é quando 300 usuários ingressam em uma reunião), os participantes adicionais ingressarão com uma experiência somente para exibição.
 
 Os participantes que ingressarem na reunião primeiro, até a capacidade da reunião principal, terão a experiência de reunião completa do Teams. Eles podem compartilhar áudio e vídeo, ver vídeos compartilhados e participar do bate-papo da reunião.
 
@@ -65,7 +65,7 @@ A experiência de um usuário varia de acordo com vários fatores.
 Quando a capacidade da reunião principal for atingida, um participante não poderá participar da reunião se alguma das seguintes condições for verdadeira:
 
 - Um administrador desabilitou a experiência somente de exibição do Teams para o organizador ou para todo o locatário.
-- O participante somente para exibição não pode ignorar o lobby. Como exemplo, se um organizador de uma  reunião optar por fazer com que apenas pessoas da minha organização ignorem o lobby e um participante que está fora da organização tentar ingressar como um participante somente para exibição, eles serão rejeitados.
+- O participante somente para exibição não pode ignorar o lobby. Por exemplo, se um organizador de uma  reunião optar por fazer com que apenas pessoas da minha organização ignorem o lobby e um participante que está fora da organização tentar ingressar como um participante somente para exibição, eles não poderão participar.
 
 Quando a capacidade da reunião principal for atingida, o organizador da reunião e os apresentadores verão uma faixa informando que os novos participantes ingressarão como participantes somente para exibição.
 
@@ -75,13 +75,13 @@ Quando a capacidade da reunião principal for atingida, os participantes da reun
 
   ![a tela de pré-adesão das equipes e a mensagem para os participantes informando que eles entrarão no modo somente visualização](media/view-only-pre-join-screen.png)
 
-Se houver espaço, um usuário sempre participará da reunião principal. Se a reunião principal atingir a capacidade máxima e um ou mais participantes deixarem a reunião principal, a reunião principal terá capacidade disponível. Os participantes que ingressarem (ou reingressarem) na reunião entrarão na reunião principal até que ela atinja sua capacidade novamente. Os participantes que estão na experiência somente visualização não serão promovidos automaticamente para a reunião principal e não podem ser promovidos manualmente para a reunião principal no momento.
+Se houver espaço, um usuário sempre participará da reunião principal. Se a reunião principal atingir a capacidade máxima e um ou mais participantes deixarem a reunião principal, a reunião principal terá capacidade disponível. Os participantes que ingressarem (ou reingressarem) na reunião entrarão na reunião principal até que ela atinja sua capacidade novamente. Os participantes que estão na experiência somente exibição não serão promovidos automaticamente para a reunião principal e não poderão ser promovidos manualmente para a reunião principal.
 
-Se as funções de apresentador e participante foram definidas e um apresentador tenta ingressar em uma reunião após a reunião principal de ter atingido a capacidade, ele ingressará como um participante somente para exibição e terá as mesmas limitações que outros participantes somente para exibição. Suporte para garantir que todos os apresentadores participem da reunião principal serão colocados em uma data posterior. O organizador sempre terá espaço garantido na reunião principal.
+Se as funções de apresentador e participante foram definidas e um apresentador tenta ingressar em uma reunião depois que a reunião principal tiver atingido a capacidade, ele ingressará como um participante somente para exibição e terá as mesmas limitações que outros participantes somente para exibição. Suporte para garantir que todos os apresentadores participem da reunião principal serão colocados em uma data posterior. O organizador sempre terá espaço garantido na reunião principal.
 
-## <a name="impact-to-meeting-presenters"></a>Impacto para os apresentadores da reunião
+## <a name="impact-to-meeting-presenters-and-organizers"></a>Impacto para apresentadores e organizadores de reuniões
 
-As limitações para apresentadores de reuniões incluem:
+As limitações para apresentadores de reunião e organizadores incluem:
 
 - Você não terá informações sobre o participante somente visualização. Não oferecemos suporte ao E-discovery para participantes somente para visualização.
 - Os usuários da reunião principal não podem ver os participantes somente de exibição.

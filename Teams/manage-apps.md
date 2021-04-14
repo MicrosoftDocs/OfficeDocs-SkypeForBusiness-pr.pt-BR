@@ -17,12 +17,12 @@ description: Saiba como gerenciar seus aplicativos do Teams na página Gerenciar
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: b3858044c52324cb52005c70c6f3afcf91e3f617
-ms.sourcegitcommit: 2bb8556650120b4f7cf509d8ff93d7e4d058829b
+ms.openlocfilehash: 41536a9186a194b531643c624ec8f9fac589635c
+ms.sourcegitcommit: cfef9dd41cac0df83bd02b35036d8f8f1b472feb
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51574190"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51697806"
 ---
 # <a name="manage-your-apps-in-the-microsoft-teams-admin-center"></a>Gerenciar seus aplicativos no centro de administração do Microsoft Teams
 
@@ -33,7 +33,7 @@ A página Gerenciar aplicativos oferece uma exibição em todos os aplicativos d
 Na navegação à esquerda do Centro de Administração do Microsoft Teams, vá para **Aplicativos do Teams** > **Gerenciar aplicativos**. Você deve ser um administrador global ou administrador de serviço do Teams para acessar a página.
 
 > [!NOTE]
-> A página Gerenciar aplicativos ainda não está disponível nas implantações do Microsoft 365 Government Community Cloud (GCC) do Teams.
+> A página Gerenciar aplicativos ainda não está disponível nas implantações do Microsoft 365 Government Community Cloud High (GCCH) ou departamento de defesa (DoD) do Teams.
 
 ## <a name="view-apps"></a>Exibir aplicativos
 
@@ -41,11 +41,11 @@ Você pode exibir todos os aplicativos, incluindo as informações a seguir sobr
 
 ![Captura de tela da página Aplicativos gerenciados](media/manage-apps.png)
 
-- **Nome**: o nome do aplicativo. Clique no nome do aplicativo para ir até a página de detalhes do aplicativo para ver mais informações sobre o aplicativo. Isso inclui uma descrição do aplicativo, se ele é permitido ou bloqueado, versão, política de privacidade, termos de uso, categorias que se aplicam ao aplicativo, status de certificação, recursos com suporte e ID do aplicativo. Veja um exemplo:
+- **Nome**: o nome do aplicativo. Selecione o nome do aplicativo para ir até a página de detalhes do aplicativo para ver mais informações sobre o aplicativo. Isso inclui uma descrição do aplicativo, se ele é permitido ou bloqueado, versão, política de privacidade, termos de uso, categorias que se aplicam ao aplicativo, status de certificação, recursos com suporte e ID do aplicativo. Veja um exemplo:
 
   ![Captura de tela da página de detalhes de aplicativos para um aplicativo](media/manage-apps-app-details.png)
   
-- **Certificação**: se o aplicativo passou pela certificação, você verá o atestado do **Microsoft 365 ou** **o Publisher.** Clique no link para exibir detalhes de certificação do aplicativo. Se você vir " **--** ", não temos informações de certificação para o aplicativo. Para saber mais sobre aplicativos certificados no Teams, leia Programa de Certificação de Aplicativos [do Microsoft 365.](/teams-app-certification/all-apps)  
+- **Certificação**: se o aplicativo passou pela certificação, você verá o atestado do **Microsoft 365 ou** **o Publisher.** Selecione o link para exibir detalhes de certificação do aplicativo. Se você vir " **--** ", não temos informações de certificação para o aplicativo. Para saber mais sobre aplicativos certificados no Teams, leia Programa de Certificação de Aplicativos [do Microsoft 365.](/teams-app-certification/all-apps)  
 - **Publisher**: Nome do editor.
 - **Status de publicação**: Status de publicação de aplicativos personalizados.
 - **Status**: Status do aplicativo no nível da organização, que pode ser um dos seguintes:
@@ -68,7 +68,7 @@ Você pode exibir todos os aplicativos, incluindo as informações a seguir sobr
 - **Categorias**: categorias que se aplicam ao aplicativo.
 - **Versão**: Versão do aplicativo.
 
-Para ver as informações que você deseja na tabela, clique em **Editar** Coluna no canto superior direito para adicionar ou remover colunas à tabela.
+Para ver as informações que você deseja na tabela, selecione **Editar Coluna** no canto superior direito para adicionar ou remover colunas à tabela.
 
 ## <a name="publish-a-custom-app-to-your-organizations-app-store"></a>Publicar um aplicativo personalizado na loja de aplicativos da sua organização
 
@@ -91,7 +91,7 @@ O desenvolvedor cria um pacote de aplicativos do Teams usando [o Teams App Studi
 
 Para carregar um novo aplicativo personalizado, selecione **Carregar** para carregar o pacote do aplicativo. O aplicativo não é realçado depois de carregado, portanto, você precisará pesquisar a lista de aplicativos na página Gerenciar aplicativos para encontrá-lo.
 
-Para atualizar um aplicativo depois que ele é carregado, na lista de aplicativos na página Gerenciar aplicativos, clique no nome do aplicativo e clique em **Atualizar**. Isso substitui o aplicativo existente e todas as políticas de permissão de aplicativo e políticas de configuração de aplicativo permanecem impostas para o aplicativo atualizado.
+Para atualizar um aplicativo depois de carregado, na lista de aplicativos na página Gerenciar aplicativos, selecione o nome do aplicativo e selecione **Atualizar**. Isso substitui o aplicativo existente e todas as políticas de permissão de aplicativo e políticas de configuração de aplicativo permanecem impostas para o aplicativo atualizado.
 
 Para saber mais, confira [Publicar um aplicativo personalizado carregando um pacote de aplicativos.](upload-custom-apps.md)
 
@@ -99,7 +99,7 @@ Para saber mais, confira [Publicar um aplicativo personalizado carregando um pac
 
 A página Gerenciar aplicativos é onde você permite ou bloqueia aplicativos individuais no nível da organização. Ele mostra todos os aplicativos disponíveis e o status atual do aplicativo no nível da organização. (O bloqueio e a permissão de aplicativos no nível da organização foram movidos do painel de configurações de **aplicativos** em toda a organização para aqui.)
 
-Para permitir ou bloquear um aplicativo, selecione-o e clique em **Permitir** ou **Bloquear**. Quando você bloqueia um aplicativo, todas as interações com esse aplicativo são desabilitadas e o aplicativo não aparece no Teams para nenhum usuário em sua organização.
+Para permitir ou bloquear um aplicativo, selecione-o e selecione **Permitir** ou **Bloquear**. Quando você bloqueia um aplicativo, todas as interações com esse aplicativo são desabilitadas e o aplicativo não aparece no Teams para nenhum usuário em sua organização.
 
 Quando você bloqueia ou permite um aplicativo na página Gerenciar aplicativos, esse aplicativo é bloqueado ou permitido para todos os usuários em sua organização.  Quando você bloqueia ou permite um aplicativo em uma política de permissão de aplicativo do Teams, ele é bloqueado ou permitido para usuários que são atribuídos a essa política. Para que um usuário possa instalar e interagir com qualquer aplicativo, você deve permitir que o aplicativo no nível da organização na página Gerenciar aplicativos e na política de permissão do aplicativo atribuída ao usuário.
 
@@ -122,7 +122,7 @@ Agora você pode personalizar um aplicativo para incluir uma aparência específ
 
 ## <a name="purchase-services-for-third-party-apps"></a>Serviços de compra para aplicativos de terceiros
 
-Você pode pesquisar e comprar licenças para serviços oferecidos por aplicativos de terceiros para usuários em sua organização diretamente na página Gerenciar aplicativos. A **coluna Licenças** na tabela indica se um aplicativo oferece uma assinatura saaS paga. Clique **em Comprar agora** para exibir planos e informações de preços e comprar licenças para seus usuários. Para saber mais, confira [Comprar serviços para aplicativos de](purchase-third-party-apps.md)terceiros do Teams no centro de administração do Microsoft Teams.
+Você pode pesquisar e comprar licenças para serviços oferecidos por aplicativos de terceiros para usuários em sua organização diretamente na página Gerenciar aplicativos. A **coluna Licenças** na tabela indica se um aplicativo oferece uma assinatura saaS paga. Selecione **Comprar agora** para exibir planos e informações de preços e comprar licenças para seus usuários. Para saber mais, confira [Comprar serviços para aplicativos de](purchase-third-party-apps.md)terceiros do Teams no centro de administração do Microsoft Teams.
 
 ## <a name="grant-admin-consent-to-apps"></a>Conceder consentimento de administrador a aplicativos
 
@@ -137,7 +137,7 @@ As permissões RSC (consentimento específico do recurso) permitem que os propri
 Use as configurações de aplicativos em toda a organização para controlar se os usuários podem instalar aplicativos de terceiros e se os usuários podem carregar ou interagir com aplicativos personalizados em sua organização. As configurações de aplicativo em toda a organização controlam o comportamento de todos os usuários e substituem quaisquer outras políticas de permissão de aplicativo atribuídas aos usuários. Você pode usá-los para controlar aplicativos maliciosos ou problemáticos.
 
 > [!NOTE]
-> Para saber como usar configurações de aplicativo em toda a organização no Microsoft 365 Government - implantações GCC do Teams, consulte Gerenciar políticas de permissão de aplicativo [no Teams](teams-app-permission-policies.md).
+> Para saber como usar configurações de aplicativos em toda a organização no Microsoft 365 Government - Implantações do GCCH do Departamento de Defesa (DoD) da Nuvem governamental e do Departamento de Defesa (DoD) do Teams, consulte Manage app permission [policies in Teams](teams-app-permission-policies.md).
 
 1. Na página Gerenciar aplicativos, selecione **Configurações de aplicativo** em toda a organização. Você pode então definir as configurações desejadas no painel.
 
@@ -152,7 +152,7 @@ Use as configurações de aplicativos em toda a organização para controlar se 
     - **Permitir novos aplicativos de terceiros publicados na loja por padrão**: isso controla se os novos aplicativos de terceiros publicados na loja de aplicativos Teams se tornam automaticamente disponíveis no Teams. Você só pode definir essa opção se permitir aplicativos de terceiros.
 
 3. Em **Aplicativos personalizados**, desativar ou ativar **Permitir interação com aplicativos personalizados**. Essa configuração controla se os usuários podem interagir com aplicativos personalizados. Para saber mais, confira [Gerenciar políticas e configurações de aplicativos personalizados no Teams](teams-custom-app-policies-and-settings.md).
-4. Clique em **Salvar** para que as configurações do aplicativo para toda a organização tenham efeito.
+4. Selecione **Salvar** para que as configurações do aplicativo em toda a organização entre em vigor.
 
 ## <a name="related-topics"></a>Tópicos relacionados
 
