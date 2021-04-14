@@ -117,18 +117,18 @@ items:
                 href: teams-client-update.md
               - name: Solucionar problemas de instalação e atualização
                 href: troubleshoot-installation.md
-          - name: Treinamento do Teams
-            items:
-              - name: Visão Geral
-                href: training-microsoft-teams-landing-page.md
-              - name: Treinamento para o administrador do Teams
-                href: itadmin-readiness.md
-              - name: Sessões do Teams no Ignite 2020
-                href: ignite-2020-landing-page.md
-              - name: Treinamento ao vivo para o Teams
-                href: instructor-led-training-teams-landing-page.yml
-              - name: Treinamento online para o Teams
-                href: 'https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7'
+      - name: Treinamento do Teams
+        items:
+          - name: Visão Geral
+            href: training-microsoft-teams-landing-page.md
+          - name: Treinamento para o administrador do Teams
+            href: itadmin-readiness.md
+          - name: Sessões do Teams no Ignite 2020
+            href: ignite-2020-landing-page.md
+          - name: Treinamento ao vivo para o Teams
+            href: instructor-led-training-teams-landing-page.yml
+          - name: Treinamento online para o Teams
+            href: 'https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7'
   - name: Atualização do Skype for Business
     items:
       - name: Introdução
@@ -1325,6 +1325,8 @@ items:
             href: teams-app-setup-policies.md
           - name: Gerenciar políticas de aplicativo personalizado e as configurações no Teams
             href: teams-custom-app-policies-and-settings.md
+          - name: "Personalizar aplicativos no\_Teams"
+            href: customize-apps.md
   - name: Diretrizes governamentais e de indústrias
     items:
       - name: Visão Geral
