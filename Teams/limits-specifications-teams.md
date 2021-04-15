@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: d14dcbcc7176a482458e23b10e4f017b28ad24ea
-ms.sourcegitcommit: 109b3869afb5ff1ca4eaf771399d7cda70a43bea
+ms.openlocfilehash: 60ee9246df70f3f91bd5624ec9fece879b622896
+ms.sourcegitcommit: cfef9dd41cac0df83bd02b35036d8f8f1b472feb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/05/2021
-ms.locfileid: "51586490"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51697626"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Limites e especificações para o Microsoft Teams
 
@@ -131,7 +131,7 @@ Os nomes de canal também não podem começar com um caractere de sublinhado (_)
 
 |Recurso     | Limite máximo |
 |------------|---------------|
-|Número de pessoas em uma reunião (podem conversar e telefonar)  | 300. **Somente exibição** permite que até 10.000 participantes somente ouvintes participem de uma reunião na qual o organizador tenha uma licença para E3/E5/A3/A5 SKU.<br>**Observação:** Para o Teams Governamental (GCC, GCC Alta, DoD), o limite ainda é 250. Atualizaremos este artigo quando o limite de nuvem governamental aumentar de 250 para 300 e der suporte a transportadores de reunião. Saiba mais sobre a [experiência somente exibição](view-only-meeting-experience.md).|
+|Número de pessoas em uma reunião (podem conversar e telefonar)  | 300. **Somente exibição** permite que até 10.000 participantes somente ouvintes participem de uma reunião na qual o organizador tenha uma licença para E3/E5/A3/A5 SKU, como também governamental (GCC, GCC High, DoD). Saiba mais sobre a [experiência somente exibição](view-only-meeting-experience.md).|
 |O número de pessoas em uma chamada de áudio ou vídeo do chat | 20 |
 |Tamanho máximo do arquivo do PowerPoint | 2GB|
 |As equipes mantêm [gravações de reunião](cloud-recording.md) que não são carregadas no Microsoft Stream, disponíveis para download local | 20 dias |

@@ -20,12 +20,12 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 92ff8b256f203549541529336396fdd44f67b12c
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: edfa29dd1c2c3f5197b175f49d8d045967fc79f1
+ms.sourcegitcommit: d3c67eadf7cab167340d35b76401ff49fc7eb728
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51093991"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51749479"
 ---
 # <a name="security-and-microsoft-teams"></a>Segurança e Microsoft Teams
 
@@ -261,7 +261,7 @@ Os participantes da reunião também são categorizados por local e por credenci
     b. *Usuários remotos* – esses usuários estão ingressando de fora da rede corporativa. Podem ser funcionários que estão trabalhando em casa ou em trânsito, entre outros, como funcionários de fornecedores confiáveis que receberam credenciais corporativas em seus termos de serviço. Usuários remotos podem criar e ingressar em reuniões e atuar como apresentadores.
 .
 2. **Usuários que não pertencem ao locatário** esses usuários não têm credenciais no AD do Azure para o locatário.
-    a. *Os usuários federados*– os usuários federados têm credenciais válidas com parceiros federados e são tratados como autenticados pelo Teams, mas ainda são anônimos no locatário do organizador da reunião. Os usuários federados podem ingressar em reuniões e ser promovidos a apresentadores depois de ingressarem na reunião, mas não podem criar reuniões em empresas com as quais são federados.
+    a. *Usuários Federados* - os usuários federados têm credenciais válidas com parceiros federados e são tratados como autenticados pelo Teams, mas ainda são externos ao locatário do organizador da reunião. Os usuários federados podem ingressar em reuniões e ser promovidos a apresentadores depois de ingressarem na reunião, mas não podem criar reuniões em empresas com as quais são federados.
     b. *Os usuários anônimos* – os usuários anônimos não têm uma identidade do Active Directory e não são federados com o locatário.
 
 Muitas reuniões envolvem usuários externos. Esses mesmos clientes também querem garantias sobre a identidade de usuários externos antes de permitir que ingressem em uma reunião. Como a seção a seguir descreve, o Teams limita o acesso à reunião aos tipos de usuários cuja permissão foi explícita e exige que todos os tipos de usuários apresentem as *credenciais* apropriadas ao entrarem em uma reunião.
