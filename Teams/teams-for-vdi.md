@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 020ed67b695c10e54d43891d78a77783ab61ee81
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 9688b700d900720aa9af1c0f68cadee99d7de858
+ms.sourcegitcommit: 2ce82f301f2d59da57f579a23038b2cab5e31360
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119190"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "51858044"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>Teams para Infraestrutura de Área de Trabalho Virtualizada
 
@@ -377,10 +377,9 @@ Esse recurso está disponível no Teams versão 1.3.00.13565 e posterior.
 ### <a name="client-deployment-installation-and-setup"></a>Implantação, instalação e instalação do cliente
 
 - Com a instalação por máquina, o Teams na VDI não é atualizado automaticamente da maneira que os clientes do Teams não VDI são. Você precisa atualizar a imagem da VM instalando um novo MSI conforme descrito na seção Instalar ou atualizar o aplicativo de área de trabalho do [Teams na VDI.](#install-or-update-the-teams-desktop-app-on-vdi) Você deve desinstalar a versão atual para atualizar para uma versão mais recente.
+- Em ambientes Citrix, se o usuário se desconectar da Máquina Virtual enquanto o Teams está em execução, as atualizações do Teams podem fazer com que o usuário esteja em um estado não otimizado para AV quando se reconectar. Recomendamos que os usuários saiam do Teams antes de se desconectar da Máquina Virtual citrix para evitar esse cenário.
 - O Teams deve ser implantado por usuário ou por máquina. A implantação do Teams para simultâneo por usuário e por máquina não é suportada. Para migrar de cada máquina ou por usuário para um desses modos, siga o procedimento de desinstalação e reimplante para ambos os modos.
 - A Área de Trabalho Virtual do Windows e a VMware não suportam clientes baseados em MacOS e Linux no momento.
-- O Citrix não dá suporte a clientes MacOs no momento.
-- O Citrix não dá suporte ao uso de proxies HTTP explícitos definidos em um ponto de extremidade.
 
 ### <a name="calling-and-meetings"></a>Chamada e reuniões
 
@@ -396,6 +395,7 @@ Os seguintes recursos de chamada e reunião não são suportados:
 - Fila de chamada
 - Som de áudio/computador do sistema compartilhado
 - Bypass de mídia para Roteamento Direto
+- Ampliando o conteúdo compartilhado
 
 > [!NOTE]
 > Estamos trabalhando na adição de recursos de chamada e reunião que estão disponíveis apenas em ambientes que não sejam VDI. Isso pode incluir mais controle de administrador sobre qualidade, cenários adicionais de compartilhamento de tela e recursos avançados adicionados recentemente ao Teams. Entre em contato com seu representante do Teams para saber mais sobre os recursos futuros.

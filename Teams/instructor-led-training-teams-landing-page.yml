@@ -1,6 +1,6 @@
 ### YamlMime:Hub
 title: Treinamento do Microsoft Teams com instrutor
-summary: A Microsoft está feliz por hospedar uma série de sessões de treinamento online, gratuitas e ao vivo desenvolvidas para você começar a trabalhar com o Teams. Seja você um profissional de decisões de negócios, administrador, profissional de TI ou usuário final, você vai encontrar a aula ideal. Junte-se a nós para ver o Teams em ação, tirar suas dúvidas e interagir com nossos instrutores ao vivo. Para ver nossas aulas de treinamento em seu próprio tempo, visite nosso treinamento sob demanda para usuário final. Clique em uma sessão abaixo para se inscrever.
+summary: 'A Microsoft está feliz por hospedar uma série de sessões de treinamento online, gratuitas e ao vivo desenvolvidas para você começar a trabalhar com o Teams. Seja você um profissional de decisões de negócios, administrador, profissional de TI ou usuário final, você vai encontrar a aula ideal. Junte-se a nós para ver o Teams em ação, tirar suas dúvidas e interagir com nossos instrutores ao vivo. Para ver nossas aulas de treinamento em seu próprio tempo, visite nosso treinamento sob demanda para usuário final. Clique em uma sessão abaixo para se inscrever.'
 brand: teams
 metadata:
   title: Treinamento ministrado por instrutor para Microsoft Teams
@@ -9,58 +9,52 @@ metadata:
   author: SerdarSoysal
   ms.author: serdars
   ms.date: 06/16/2020
-  ms.openlocfilehash: 3e702f300e6d2b53319b694b3d536f539ad1ff56
-  ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
-  ms.translationtype: MT
-  ms.contentlocale: pt-BR
-  ms.lasthandoff: 03/23/2021
-  ms.locfileid: "51120612"
 highlightedContent:
   items:
-  - title: Diga olá para o Microsoft Teams
-    itemType: overview
-    url: https://aka.ms/SayhelloTeams
-  - title: Treinamento sob demanda do usuário final
-    itemType: video
-    url: https://aka.ms/TeamsOnDemand
-  - title: Ferramentas de adoção do Microsoft 365
-    itemType: deploy
-    url: https://adoption.microsoft.com
+    - title: Diga olá para o Microsoft Teams
+      itemType: overview
+      url: 'https://aka.ms/SayhelloTeams'
+    - title: Treinamento sob demanda do usuário final
+      itemType: video
+      url: 'https://aka.ms/TeamsOnDemand'
+    - title: Ferramentas de adoção do Microsoft 365
+      itemType: deploy
+      url: 'https://adoption.microsoft.com'
 productDirectory:
   items:
-  - title: Introdução ao Teams
-    imageSrc: https://docs.microsoft.com/office/media/icons/get-started-teams.svg
-    summary: 'De chat e reuniões a equipes e canais, os usuários deixarão esta sessão com a base para usar o Teams com confiança. (Público: todos)'
-    url: https://aka.ms/GetstartedwithMSTeams
-  - title: Use o bate-papo e ligue no Teams
-    imageSrc: https://docs.microsoft.com/office/media/icons/chat.svg
-    summary: 'Aprenda a gerenciar todas as suas conversas a partir de uma plataforma central. (Público: todos)'
-    url: https://aka.ms/ChatCallingInTeams
-  - title: Faça reuniões eficazes com Teams
-    imageSrc: https://docs.microsoft.com/office/media/icons/calendar-teams.svg
-    summary: 'Aprenda como tornar suas reuniões mais envolventes, produtivas e significativas. (Público: todos)'
-    url: https://aka.ms/RunmeetingsTeams
-  - title: Explorar equipes e canais no Teams
-    imageSrc: https://docs.microsoft.com/office/media/icons/users-group.svg
-    summary: 'Saiba como você pode simplificar seu projeto e a colaboração em grupo de trabalho. (Público: todos)'
-    url: https://aka.ms/TeamsandchannelsinTeams
-  - title: Crie espaços de trabalho colaborativos no Teams
-    imageSrc: https://docs.microsoft.com/office/media/icons/structure-teams.svg
-    summary: 'Explore maneiras de determinar a melhor abordagem para criar espaços de trabalho para projetos e grupos de trabalho. (Público: todos)'
-    url: https://aka.ms/CollaborateInTeams
-  - title: Aproveite dicas profissionais no Teams
-    imageSrc: https://docs.microsoft.com/office/media/icons/lightbulb-idea-capture-teams.svg
-    summary: 'Aprenda como o Teams pode ajudar a organizar seu dia de trabalho e tornar mais fácil ficar conectado com os colegas. (Público: todos)'
-    url: https://aka.ms/TeamsProTips
-  - title: Domine o trabalho em casa com o Teams
-    imageSrc: https://docs.microsoft.com/office/media/icons/headset-teams.svg
-    summary: 'Aprenda as melhores práticas para se manter conectado à sua equipe e manter a produtividade. (Público: todos)'
-    url: https://aka.ms/WFHTeams
-  - title: Teams for Education - Webinars
-    imageSrc: https://docs.microsoft.com/office/media/icons/education-tutorial-teams.svg
-    summary: 'Saiba como usar o Teams na educação superior. (Público-alvo: Funcionários, alunos, acadêmicos, centros de pesquisa, profissionais de TI)'
-    url: https://aka.ms/TeamsEduWebinars
-  - title: Workshops de planejamento de atualização
-    imageSrc: https://docs.microsoft.com/office/media/icons/migration-teams.svg
-    summary: 'Planejar e implementar uma atualização bem-sucedida para Teams. (Público: profissionais de TI, gerentes de mudança de adoção)'
-    url: ./upgrade-workshops-landing-page.yml
+    - title: Introdução ao Teams
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/get-started-teams.svg'
+      summary: 'De chat e reuniões a equipes e canais, os usuários deixarão esta sessão com a base para usar o Teams com confiança. (Público: todos)'
+      url: 'https://aka.ms/GetstartedwithMSTeams'
+    - title: Use o bate-papo e ligue no Teams
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/chat.svg'
+      summary: 'Aprenda a gerenciar todas as suas conversas a partir de uma plataforma central. (Público: todos)'
+      url: 'https://aka.ms/ChatCallingInTeams'
+    - title: Faça reuniões eficazes com Teams
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/calendar-teams.svg'
+      summary: 'Aprenda como tornar suas reuniões mais envolventes, produtivas e significativas. (Público: todos)'
+      url: 'https://aka.ms/RunmeetingsTeams'
+    - title: Explorar equipes e canais no Teams
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/users-group.svg'
+      summary: 'Saiba como você pode simplificar seu projeto e a colaboração em grupo de trabalho. (Público: todos)'
+      url: 'https://aka.ms/TeamsandchannelsinTeams'
+    - title: Crie espaços de trabalho colaborativos no Teams
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/structure-teams.svg'
+      summary: 'Explore maneiras de determinar a melhor abordagem para criar espaços de trabalho para projetos e grupos de trabalho. (Público: todos)'
+      url: 'https://aka.ms/CollaborateInTeams'
+    - title: Aproveite dicas profissionais no Teams
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/lightbulb-idea-capture-teams.svg'
+      summary: 'Aprenda como o Teams pode ajudar a organizar seu dia de trabalho e tornar mais fácil ficar conectado com os colegas. (Público: todos)'
+      url: 'https://aka.ms/TeamsProTips'
+    - title: Domine o trabalho em casa com o Teams
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/headset-teams.svg'
+      summary: 'Aprenda as melhores práticas para se manter conectado à sua equipe e manter a produtividade. (Público: todos)'
+      url: 'https://aka.ms/WFHTeams'
+    - title: Teams for Education - Webinars
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/education-tutorial-teams.svg'
+      summary: 'Saiba como usar o Teams na educação superior. (Público-alvo: Funcionários, alunos, acadêmicos, centros de pesquisa, profissionais de TI)'
+      url: 'https://aka.ms/TeamsEduWebinars'
+    - title: Workshops de planejamento de atualização
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/migration-teams.svg'
+      summary: 'Planejar e implementar uma atualização bem-sucedida para Teams. (Público: profissionais de TI, gerentes de mudança de adoção)'
+      url: ./upgrade-workshops-landing-page.yml
