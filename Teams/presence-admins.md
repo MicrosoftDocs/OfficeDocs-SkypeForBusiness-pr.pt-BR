@@ -9,7 +9,7 @@ audience: admin
 ms.reviewer: rakayala
 description: Conheça os estados de Presença no Microsoft Teams e as configurações administrativas para o recurso de Presença.
 ms.custom: seo-marvel-apr2020
-localization_priority: Normal
+localization_priority: Priority
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5263880e049eb779c01f95ea58c6866bc1f3aa3c
-ms.sourcegitcommit: d62e6cefceebe481eb207c59872f1aa67f0fc528
-ms.translationtype: MT
+ms.openlocfilehash: d7eaa2b35cdb01ce9bc59e69883ce1ac6ca20322
+ms.sourcegitcommit: 616403037ddb2d44f06cd9b2eaa9da699b119ef8
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "50460551"
+ms.lasthandoff: 04/15/2021
+ms.locfileid: "51768410"
 ---
 # <a name="user-presence-in-teams"></a>Presença do usuário no Teams
 
@@ -52,7 +52,7 @@ A presença faz parte do perfil de um usuário do Microsoft Teams (e por todo o 
 || ![Círculo púrpura com seta, indica Ausência temporária](media/Presence_OOF.png) Ausência Temporária. A Ausência Temporária é usada quando uma resposta automática é configurada. (Disponível somente no Outlook.) |
 |||
  > [!Note]
- > Para os usuários que há caixa de correio hospedada onprem, espera-se que haja atrasos de presença com um maximun de uma hora.
+ > Para os usuários com caixas de correio hospedadas no local, espera-se que haja atrasos de presença com o máximo de uma hora.
 Estados de presença configurados no aplicativo se baseiam na atividade do usuário (Disponível, Ausente), estados de calendário do Outlook (Em uma reunião) ou estados do aplicativo do Microsoft Teams (Em uma chamada, Em apresentação). Quando você está no modo de Foco baseado em seu calendário, **Foco** será o estado que as pessoas verão no Microsoft Teams. O modo de foco será exibido como **Não incomodar** em outros produtos.
 
 Seu estado de presença atual é alterado para Ausente ao bloquear o seu computador ou quando ele entra no modo de espera ou hibernação. No celular, seu status de presença é alterado para Ausente quando o aplicativo do Microsoft Teams está em segundo plano.

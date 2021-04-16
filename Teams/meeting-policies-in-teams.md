@@ -24,12 +24,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: Aprenda a gerenciar as configurações de política de reunião no Teams. Use as configurações de política para controlar os recursos disponíveis para os participantes da reunião em reuniões agendadas pelos usuários.
-ms.openlocfilehash: c13c4222b1c6d6fc9e0c6fcdf73e614999f874e5
-ms.sourcegitcommit: b52b6aba289396c4fc10dd856817137eb1bc1f67
+ms.openlocfilehash: 43ea3be7c8c8f99fdc762030ac526b4b068a4214
+ms.sourcegitcommit: 046b020cee8af00a1d0e5f5866f847d42e8ad9a5
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "51617864"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51712773"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Gerenciar políticas de reunião no Teams
 
@@ -127,7 +127,7 @@ Permite que o suplemento do Outlook seja uma política por usuário e se aplica 
 
 ![Captura de tela mostrando a capacidade de agendar uma nova reunião](media/meeting-policies-outlook-add-in.png)
 
-Se você desativar esse recurso, os usuários não conseguirão agendar. As reuniões do Teams ao criar uma nova reunião no Outlook. Por exemplo, no Outlook no Windows, a opção **Nova reunião do Teams** não será exibida na faixa de opções.
+Se você desabilitar esse recurso, os usuários não conseguirão agendar. As reuniões do Teams ao criar uma nova reunião no Outlook. Por exemplo, no Outlook no Windows, a opção **Nova reunião do Teams** não será exibida na faixa de opções.
 
 ### <a name="allow-channel-meeting-scheduling"></a>Permitir o agendamento de reunião do canal
 
@@ -170,7 +170,7 @@ O aplicativo de calendário de canal será mostrado na seção **Aplicativos da 
 
 O agendamento de reuniões privadas é uma política por usuário e se aplica antes do início de uma reunião. Essa configuração controla se os usuários podem agendar reuniões particulares no Teams. Uma reunião é particular quando não é publicada em um canal de uma equipe.
 
-Se você desativar **Permitir agendamento de reuniões privadas** e **Permitir agendamento de reunião de canal**, as opções **Adicionar participantes necessários** e **Adicionar canal** serão desabilitadas para os usuários no Teams. Por padrão, essa configuração é ativada.
+Se você desabilitar **Permitir agendamento de reuniões** privadas e **Permitir agendamento de reunião** de canal, as opções **Adicionar participantes necessários** e **Adicionar canal** serão desabilitadas para usuários no Teams. Por padrão, essa configuração é ativada.
 
 ### <a name="allow-meet-now-in-private-meetings"></a>Permitir Reunir Agora em reuniões particulares
 
@@ -451,6 +451,7 @@ Essas configurações controlam quais participantes da reunião devem aguardar n
 - [Permitir que pessoas anônimas iniciem uma reunião](#let-anonymous-people-start-a-meeting)
 - [Admitir pessoas automaticamente](#automatically-admit-people)
 - [Permitir que os usuários de acesso telefônico ignorem o lobby](#allow-dial-in-users-to-bypass-the-lobby)
+- [Permitir que os membros da equipe ignorem o lobby](#allow-team-members-to-bypass-the-lobby)
 - [Habilitar legendas ao vivo](#enable-live-captions)
 - [Permitir chat em reuniões](#allow-chat-in-meetings)
 
@@ -478,9 +479,10 @@ Esta é uma política por organizador. Essa configuração controla se as pessoa
 |Valor de configuração  |Comportamento de ingresso |
 |---------|---------|
 |**Todos**   |Todos os participantes da reunião participam da reunião diretamente, sem aguardar no lobby. Isso inclui usuários autenticados, usuários externos de organizações confiáveis (federado), convidados e usuários anônimos.     |
-|**Todos em sua organização e organizações federadas**     |Usuários autenticados dentro da organização, incluindo usuários convidados e os usuários de organizações confiáveis, entram na reunião diretamente sem aguardar no lobby.  Os usuários anônimos aguardam o lobby.   |
-|**Todos em sua organização**    |Usuários autenticados dentro da organização, incluindo usuários convidados, entram na reunião diretamente sem aguardar no lobby.  Os usuários de organizações confiáveis e usuários anônimos aguardam o lobby. Essa é a configuração padrão.           |
+|**Pessoas da minha organização e organizações confiáveis**     |Usuários autenticados dentro da organização, incluindo usuários convidados e os usuários de organizações confiáveis, entram na reunião diretamente sem aguardar no lobby. Os usuários anônimos aguardam o lobby.   |
+|**Pessoas na minha organização e convidados**    |Usuários autenticados dentro da organização, incluindo usuários convidados, entram na reunião diretamente sem aguardar no lobby. Os usuários de organizações confiáveis e usuários anônimos aguardam o lobby. Essa é a configuração padrão.           |
 |**Organizador somente**    |Somente os organizadores da reunião participam da reunião diretamente, sem aguardar no lobby. Todas as outras pessoas, incluindo os usuários autenticados dentro da organização, os usuários convidados, os usuários de organizações confiáveis e usuários anônimos devem aguardar no lobby.           |
+|**Pessoas na minha organização**  |Usuários autenticados de dentro da organização, excluindo usuários convidados, ingressam na reunião diretamente, sem esperar no lobby. Convidados e usuários de organizações confiáveis e usuários anônimos aguardam no lobby.|
 
 ### <a name="allow-dial-in-users-to-bypass-the-lobby"></a>Permitir que os usuários de acesso telefônico ignorem o lobby
 
@@ -488,6 +490,10 @@ Esta é uma política por organizador. Essa configuração controla se as pessoa
 
 > [!NOTE]
 > Se um usuário de acesso telefônico participar de uma reunião antes de um usuário da organização ingressar na reunião, ele será colocado no lobby até que um usuário da organização ingresse na reunião usando um cliente de equipes e o admita. Se você alterar a configuração padrão para qualquer usuário, ela será aplicada a todas as novas reuniões organizadas por esse usuário e a qualquer reunião anterior em que o usuário não tiver modificado as Opções de reunião.
+
+### <a name="allow-team-members-to-bypass-the-lobby"></a>Permitir que os membros da equipe ignorem o lobby
+
+As políticas de reunião têm uma configuração que permite aos membros da equipe ignorar o lobby da reunião. Adicionamos a opção EveryoneInCompanyExcludingGuests para que as pessoas na organização ignorem o lobby, mas excluam os usuários convidados de ignorar o lobby.
 
 ### <a name="enable-live-captions"></a>Habilitar legendas ao vivo
 
@@ -516,7 +522,7 @@ A configuração **Quem pode apresentar?** permite que os organizadores de reuni
 
 Você pode editar uma política de reunião do Teams existente usando o cmdlet [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy). Ou crie uma nova política de reunião do Teams usando o cmdlet [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) e atribua-a aos usuários.
 
-Para especificar o valor padrão da configuração **Quem pode apresentar?** no Teams, defina o parâmetro **DesignatedPresenterRoleMode** para um dos seguintes:
+Para especificar o valor padrão de **Quem pode apresentar?** configuração no Teams, defina o parâmetro **DesignatedPresenterRoleMode** para uma das seguintes configurações:
 
 - **EveryoneUserOverride**: todos os participantes da reunião podem ser apresentadores. Esse é o valor padrão. Esse parâmetro corresponde à configuração **Todos** no Teams.
 - **EveryoneInCompanyUserOverride**: os usuários autenticados na organização, incluindo os usuários convidados, podem ser apresentadores. Esse parâmetro corresponde à configuração **Pessoas na minha organização** no Teams.

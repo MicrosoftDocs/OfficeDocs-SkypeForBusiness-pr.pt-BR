@@ -26,12 +26,12 @@ description: Aprenda sobre recursos de saúde como a telessaúde do Microsoft Te
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
-ms.openlocfilehash: 00dbf546166dbc1fd40d633516ac77ffaff3774c
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: f6048d2413ea92e377358af43c7348abbbe00be1
+ms.sourcegitcommit: ca2230a981a1e3c03437d1ecb8727d66ad6967f9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51092679"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "51760594"
 ---
 # <a name="get-started-with-teams-for-healthcare-organizations"></a>Começar com o Teams para organizações de saúde
 
@@ -140,7 +140,7 @@ Para saber mais, confira [Gerenciar o aplicativo Listas para sua organização n
 
 ### <a name="track-and-monitor-tasks-with-the-tasks-app"></a>Acompanhar e monitorar tarefas com o aplicativo Tarefas
 
-Utilize o [Tarefas](https://support.microsoft.com/office/use-the-tasks-app-in-teams-e32639f3-2e07-4b62-9a8c-fd706c12c070) no Teams para acompanhar os itens pendentes para toda a sua equipe de saúde. Sua equipe de saúde pode criar, atribuir e agendar tarefas, categorizá-las e atualizar o status a qualquer momento, de qualquer dispositivo executando o Teams.
+Utilize o [Tarefas](https://support.microsoft.com/office/use-the-tasks-app-in-teams-e32639f3-2e07-4b62-9a8c-fd706c12c070) no Teams para acompanhar os itens pendentes para toda a sua equipe de saúde. Sua equipe de saúde pode criar, atribuir e agendar tarefas, categorizá-las e atualizar o status a qualquer momento, de qualquer dispositivo executando o Teams. Os profissionais e administradores de IT também podem publicar tarefas em equipes específicas para sua organização. Por exemplo, você pode publicar um conjunto de tarefas para novos protocolos de segurança ou uma nova etapa de entrada a ser usada em um hospital.
 
 Para saber mais, confira [Gerenciar o aplicativo Tasks para sua organização no Microsoft Teams](../../manage-tasks-app.md)
 

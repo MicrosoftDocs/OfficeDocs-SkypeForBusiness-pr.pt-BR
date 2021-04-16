@@ -17,12 +17,12 @@ localization_priority: Normal
 search.appverid: MET150
 description: Saiba mais sobre o serviço gerenciado salas do Microsoft Teams.
 f1keywords: ''
-ms.openlocfilehash: b174f0d3f608502d74d4dfbc33aa9bac66b684d1
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 9fdfa4a3fdb6c9058f5feada655a88abcd136b3e
+ms.sourcegitcommit: 616403037ddb2d44f06cd9b2eaa9da699b119ef8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117499"
+ms.lasthandoff: 04/15/2021
+ms.locfileid: "51768430"
 ---
 # <a name="microsoft-teams-rooms-managed-service"></a>Serviço gerenciado de Salas do Microsoft Teams
 
@@ -91,86 +91,7 @@ Para obter mais detalhes sobre a cobertura de suporte ao serviço gerenciado do 
 
 ## <a name="supported-regions"></a>Regiões com suporte
 
-O serviço gerenciado salas do Microsoft Teams está disponível nos seguintes países e regiões. 
-
-- Andorra
-- Austrália
-- Áustria
-- Bélgica
-- Ilha Bouvet
-- Brasil
-- Bulgária
-- Canadá
-- Ilha Christmas
-- Ilhas Cocos (Quilha)
-- Ilhas Cook
-- Croácia
-- Chipre
-- República Tcheca
-- Dinamarca
-- Estônia
-- Ilhas Faroe
-- Fiji
-- França
-- Alemanha
-- Gibraltar
-- Grécia
-- Groenlândia
-- Ilha Heard e Ilhas McDonald
-- RAE de Hong Kong
-- Hungria
-- Islândia
-- Índia
-- Irlanda
-- Itália
-- Japão
-- Kiribati
-- Letônia
-- Lesoto
-- Liechtenstein
-- Lituânia
-- Luxemburgo
-- SAR de Macau
-- Malta
-- Ilhas Marshall
-- México
-- Micronésia
-- Mônaco
-- Nauru
-- Países Baixos
-- Nova Zelândia
-- Niue
-- Ilha Norfolk
-- Ilhas Marianas do Norte
-- Noruega
-- Palau
-- Papua Nova Guiné
-- Ilhas Pitcairn
-- Polônia
-- Portugal
-- Romênia
-- Rússia
-- São Pedro e Miquelon
-- Samoa
-- San Marino
-- Singapura
-- Eslováquia
-- Eslovênia
-- Ilhas Salomão
-- África do Sul
-- Espanha
-- Suazilândia
-- Suécia
-- Suíça
-- Taiwan
-- Tokelau
-- Tonga
-- Tuvalu
-- Reino Unido
-- Estados Unidos
-- Vanuatu
-- Cidade do Vaticano
-- Wallis e Futuna
+O serviço gerenciado salas do Microsoft Teams está disponível em todos os países e regiões onde o Microsoft 365 está disponível. Para ver uma lista completa de países e regiões, consulte [Disponibilidade internacional do Microsoft 365](https://www.microsoft.com/microsoft-365/business/international-availability).
 
 ## <a name="support-inclusions-and-exclusions"></a>Incluir e excluir suporte
 

@@ -13,12 +13,12 @@ ms.collection:
 description: Saiba mais sobre as alterações mais recentes no Teams PowerShell.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 80e6225302cb733c37ba1720d95d8d8f1a220831
-ms.sourcegitcommit: 50111653f72f6758a3491a4dc3e91160ab75022c
+ms.openlocfilehash: 9687dcdca15507caad0c52ef13feb2c12fb61e9a
+ms.sourcegitcommit: 616403037ddb2d44f06cd9b2eaa9da699b119ef8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51506684"
+ms.lasthandoff: 04/15/2021
+ms.locfileid: "51768330"
 ---
 # <a name="microsoft-teams-powershell-release-notes"></a>Notas de versão do Microsoft Teams PowerShell
 
@@ -46,58 +46,6 @@ Esta página fornece o log de alterações mais recente do Teams PowerShell para
 | Abril de 2020 | [1.0.6](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.6) | <li>Autenticação e assinatura de assembly<li>Adicionado Get-CsPolicyPackage<li>Adicionado Get-CsUserPolicyPackage<li>Adicionado Get-CsUserPolicyPackageRecommendation<li>Adicionado Grant-CsUserPolicyPackage<li>Adicionado New-CsBatchPolicyPackageAssignmentOperation<li>Adicionado Set-TeamArchivedState<li>Adicionado Set-TeamPicture<li>Removido Get-TeamHelp</li>  |
 | Março de 2020 | [1.0.5](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.5) |<li>Adicionado New-CsBatchPolicyAssignmentOperation</li> |
 | Feb 2020 | [1.0.4](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.4) | <li>Get-Team otimizações</li>  |
-
-### <a name="cmdlet-availability"></a>Disponibilidade de cmdlet
-
-> [!NOTE]
-> A lista na tabela abaixo inclui apenas cmdlets que fazem parte nativamente do módulo do Teams PowerShell. Os cmdlets do Teams no módulo S[kype for Business Online Connector](/powershell/skype/intro?view=skype-ps) não são exibidos. No entanto, à medida que esses cmdlets são migrados de forma nativa para o Teams PowerShell, vamos adicioná-los a esta tabela.
-
-| Cmdlet | Disponível em Visualização Pública | Disponível em GA |
-| -| -- | --|
-| [Add-TeamChannelUser](/powershell/module/teams/add-teamchanneluser?view=teams-ps) | Sim | **Não** |
-| [Add-TeamUser](/powershell/module/teams/add-teamuser?view=teams-ps) | Sim | Sim |
-| [Add-TeamsAppInstallation](/powershell/module/teams/add-teamsappinstallation?view=teams-ps) | Sim | **Não**|
-| [Connect-MicrosoftTeams](/powershell/module/teams/connect-microsoftteams?view=teams-ps) | Sim | Sim |
-| [Disconnect-MicrosoftTeams](/powershell/module/teams/disconnect-microsoftteams?view=teams-ps) | Sim | Sim |
-| [Get-CsBatchPolicyAssignmentOperation](/powershell/module/teams/get-csbatchpolicyassignmentoperation?view=teams-ps) | Sim | Sim |
-| [Get-CsGroupPolicyAssignmentOperation](/powershell/module/teams/get-csgrouppolicyassignment?view=teams-ps) | Sim | **Não** |
-| [Get-CsOnlinePowerShellEndpoint](/powershell/module/skype/get-csonlineapplicationendpoint?view=skype-ps) | Sim | Sim |
-| [Get-CsPolicyPackage](/powershell/module/teams/get-cspolicypackage?view=teams-ps) | Sim | Sim |
-| [Get-CsUserPolicyAssignment](/powershell/module/teams/get-csuserpolicyassignment?view=teams-ps) | Sim | Sim |
-| [Get-CsUserPolicyPackage](/powershell/module/teams/get-csuserpolicypackage?view=teams-ps) | Sim | Sim |
-| [Get-CsUserPolicyPackageRecommendation](/powershell/module/teams/get-csuserpolicypackagerecommendation?view=teams-ps) | Sim | Sim |
-| [Get-Team](/powershell/module/teams/get-team?view=teams-ps) | Sim | Sim |
-| [Get-TeamChannel](/powershell/module/teams/get-teamchannel?view=teams-ps) | Sim | Sim|
-| [Get-TeamChannelUser](/powershell/module/teams/get-teamchanneluser?view=teams-ps) | Sim | **Não** |
-| [Get-TeamUser](/powershell/module/teams/get-teamuser?view=teams-ps) | Sim | Sim |
-| [Get-TeamsApp](/powershell/module/teams/get-teamsapp?view=teams-ps) | Sim | Sim |
-| [Get-TeamsAppInstallation](/powershell/module/teams/get-teamsappinstallation?view=teams-ps) | Sim | **Não** |
-| [Grant-CsUserPolicyPackage](/powershell/module/teams/grant-csuserpolicypackage?view=teams-ps) | Sim | Sim |
-| [New-CsBatchPolicyAssignmentOperation](/powershell/module/teams/new-csbatchpolicyassignmentoperation?view=teams-ps) | Sim | Sim |
-| [New-CsGroupPolicyAssignment](/powershell/module/teams/new-csgrouppolicyassignment?view=teams-ps) | Sim | Sim |
-| [New-CsBatchPolicyPackageAssignmentOperation](/powershell/module/teams/new-csbatchpolicypackageassignmentoperation?view=teams-ps) | Sim | Sim |
-| [New-CsOnlineSession](/powershell/module/skype/new-csonlinesession?view=skype-ps) | Sim | Sim |
-| [New-Team](/powershell/module/teams/new-team?view=teams-ps) | Sim | Sim |
-| [New-TeamChannel](/powershell/module/teams/new-teamchannel?view=teams-ps) | Sim | Sim |
-| [New-TeamsApp](/powershell/module/teams/new-teamsapp?view=teams-ps) | Sim | Sim |
-| [Remove-CsGroupPolicyAssignment](/powershell/module/teams/remove-csgrouppolicyassignment?view=teams-ps) | Sim | Sim |
-| [Remove-Team](/powershell/module/teams/remove-team?view=teams-ps) | Sim | Sim |
-| [Remove-TeamChannel](/powershell/module/teams/remove-teamchannel?view=teams-ps) | Sim | Sim |
-| [Remove-TeamChannelUser](/powershell/module/teams/remove-teamchanneluser?view=teams-ps) | Sim | **Não** |
-| [Remove-TeamsApp](/powershell/module/teams/remove-teamsapp?view=teams-ps) | Sim | Sim |
-| [Remove-TeamsAppInstallation](/powershell/module/teams/remove-teamsappinstallation?view=teams-ps) | Sim | **Não** |
-| [Remove-TeamTargetingHierarchy](./set-up-your-team-hierarchy.md#remove-your-hierarchy) | Sim | **Não**|
-| [Remove-TeamUser](/powershell/module/teams/remove-teamuser?view=teams-ps) | Sim | Sim |
-| [Set-CsGroupPolicyAssignment](/powershell/module/teams/set-csgrouppolicyassignment?view=teams-ps) | Sim | **Não** |
-| [Set-Team](/powershell/module/teams/set-team?view=teams-ps) | Sim | Sim |
-| [Set-TeamArchivedState](/powershell/module/teams/set-teamarchivedstate?view=teams-ps) | Sim | Sim |
-| [Set-TeamChannel](/powershell/module/teams/set-teamchannel?view=teams-ps) | Sim | Sim |
-| [Set-TeamPicture](/powershell/module/teams/set-teampicture?view=teams-ps) | Sim | Sim |
-| [Set-TeamsApp](/powershell/module/teams/set-teamapp?view=teams-ps) | Sim | Sim |
-| [Set-TeamTargetingHierarchy](/powershell/module/teams/set-teamtargetinghierarchy?view=teams-ps) | Sim | **Não** |
-| [Update-TeamsAppInstallation](/powershell/module/teams/update-teamappinstallation?view=teams-ps) | Sim | **Não** |
-| [Enable-CsOnlineSessionForReconnection](/skypeforbusiness/set-up-your-computer-for-windows-powershell/diagnose-problems-with-the-skype-for-business-online-connector) | **Não** | **Não** |
-
 
 ## <a name="related-topics"></a>Tópicos relacionados
 

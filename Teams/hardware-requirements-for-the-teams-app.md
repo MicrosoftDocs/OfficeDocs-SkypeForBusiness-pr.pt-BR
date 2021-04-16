@@ -10,7 +10,7 @@ ms.service: msteams
 ms.collection:
 - M365-collaboration
 - m365initiative-deployteams
-localization_priority: Normal
+localization_priority: Priority
 search.appverid: MET150
 description: Neste artigo, você aprenderá sobre os requisitos de hardware necessários para instalar e executar o Microsoft Teams.
 f1.keywords:
@@ -20,12 +20,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f5e6668229ef481d0b6c30683540c060495e0f21
-ms.sourcegitcommit: bd7847de9d1402476f8faaeae2ff97ec60d86a1b
-ms.translationtype: MT
+ms.openlocfilehash: fe6e1daa0092fdffb92b9a800acd17365e3ffffc
+ms.sourcegitcommit: 616403037ddb2d44f06cd9b2eaa9da699b119ef8
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/26/2021
-ms.locfileid: "51262348"
+ms.lasthandoff: 04/15/2021
+ms.locfileid: "51768210"
 ---
 # <a name="hardware-requirements-for-microsoft-teams"></a>Requisitos de hardware para o Microsoft Teams
 
@@ -35,7 +35,7 @@ Todos os requisitos das seções a seguir se aplicam aos aplicativos da área de
 
 | Componente | Requisito |
 |---------|---------|
-|Computador e processador    | Mínimo de 1,6 GHz (ou superior), 2 núcleos<br><br>Observação: para processadores Intel, a velocidade máxima atingida usando a Tecnologia Intel Turbo Boost (Frequência Max Turbo) deve ser considerada         |
+|Computador e processador    | Mínimo de 1,6 GHz (ou superior), 2 núcleos<br><br>Observação: para processadores Intel, deve ser considerada a velocidade máxima atingida usando a tecnologia Intel Note Plus (Max Note Frequency)         |
 |Memória     |    4,0 GB de RAM     |
 |Disco rígido    | 3 GB de espaço em disco disponível        |
 |Display    |   Resolução de tela 1024 x 768 |
@@ -55,7 +55,7 @@ Todos os requisitos das seções a seguir se aplicam aos aplicativos da área de
 |Memória     |   4,0 GB de RAM      |
 |Disco rígido    |   1,5 GB de espaço em disco disponível      |
 |Display    | Resolução de 1280 x 800 ou superior    |
-|Sistema operacional  |    Uma das três versões mais recentes do macOS. Você pode encontrar informações sobre as versões mais recentes do macOS e como atualizar a sua versão do macOS [aqui](https://support.apple.com/en-us/HT201260). Por exemplo, quando uma nova versão do macOS é lançada, a nova versão e as duas imediatamente antes dela se tornam as versões com suporte.      |
+|Sistema operacional  |    Uma das três versões mais recentes do macOS. Você pode encontrar informações sobre as versões mais recentes do macOS e como atualizar a sua versão do macOS [aqui](https://support.apple.com/pt-BR/HT201260). Por exemplo, quando uma nova versão do macOS é lançada, a nova versão e as duas imediatamente antes dela se tornam as versões com suporte.      |
 |Vídeo  |    Webcam compatível      |
 |Voz    |  Microfone e alto-falantes compatíveis, headset com microfone ou dispositivos equivalentes.       |
 |Chamadas de vídeo e reuniões | <ul><li>Exige um processador de 2 núcleos. É recomendável usar um processador de 4 núcleos ou melhor desempenho para uma resolução de compartilhamento e taxa de quadros de tela e vídeo mais alta. </li><li>Ingressar em uma reunião usando a detecção de proximidade em uma Sala do Microsoft Teams não está disponível no macOS.</li></ul>

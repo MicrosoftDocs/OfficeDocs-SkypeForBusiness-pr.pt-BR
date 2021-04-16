@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Saiba como configurar o Sistema de Telefonia para filas de chamadas com o Microsoft Teams, que fornece uma mensagem de saudação, música de espera, redirecionamento de chamadas e outros recursos.
-ms.openlocfilehash: 963633ef3ba1743522dbbacb93166f20d489e8be
-ms.sourcegitcommit: d3883b3d9de7251e60033bece53a2bab17d7b1b8
+ms.openlocfilehash: 87c65a104b8b6921aecf2ceb860d677cfa8f7d33
+ms.sourcegitcommit: ca2230a981a1e3c03437d1ecb8727d66ad6967f9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/30/2021
-ms.locfileid: "51450628"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "51760584"
 ---
 # <a name="create-a-call-queue"></a>Criar uma fila de chamadas
 
@@ -104,6 +104,9 @@ O **Modo de conferência** reduz significativamente o tempo necessário para que
   - Versão de telefone do Microsoft Teams 1449/1.0.94.2020051601 ou posterior
   
 As contas do Teams dos agentes precisam ser definidas para o modo apenas Teams. Os agentes que não atendem aos requisitos não são incluídos na lista de roteamento de chamadas. É recomendável habilitar o modo de conferência para suas filas de chamadas se todos os agentes estiverem usando clientes compatíveis.
+
+> [!NOTE]
+> O modo de conferência não será suportado se as chamadas telefônicas são roteadas para a fila de um gateway de Roteamento Direto habilitado para Roteamento Baseado em Local.
 
 O **método de roteamento** determina a ordem na qual os agentes recebem chamadas da fila. Escolha uma destas opções:
 

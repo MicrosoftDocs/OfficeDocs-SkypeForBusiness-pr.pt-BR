@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 description: O administrador pode ler as notas de versão das Salas do Microsoft Teams, que listam melhorias cumulativas nas Salas do Microsoft Teams.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a922f3fead6c33f70e7393dd536b856934ddb390
-ms.sourcegitcommit: 3861d661d32f507bd8479509ed09b1cfcf0b214f
+ms.openlocfilehash: d178e751a3601aa552c524385d32c3d7a51668f1
+ms.sourcegitcommit: 616403037ddb2d44f06cd9b2eaa9da699b119ef8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "51607534"
+ms.lasthandoff: 04/15/2021
+ms.locfileid: "51768361"
 ---
 # <a name="release-notes"></a>Notas de versão
 
@@ -75,7 +75,7 @@ Este artigo discute melhorias cumulativas nas Salas do Microsoft Teams.
 ### <a name="48190-04062021"></a>4.8.19.0 (04/06/2021)
 
 Introduzido nesta atualização:
-- Suporte a nuvem da comunidade governamental alta (GCCH) para salas do Teams. Os clientes GCCH com dispositivos existentes de Salas do Teams podem baixar a versão 4.8.18.0 a partir da atualização manual de um [dispositivo salas do Microsoft Teams](manual-update.md)
+- Suporte a nuvem da comunidade governamental alta (GCCH) para salas do Teams. Os clientes GCCH com dispositivos existentes de Salas do Teams podem baixar a versão 4.8.19.0 [de atualizar manualmente](manual-update.md) um dispositivo salas do Microsoft Teams
 - Participe de reuniões de Zoom com melhor qualidade de vídeo (suporte a 720p) e receba a galeria de vídeo dos participantes
 - Faixa de falha de login do Skype for Business removida para o modo padrão do Teams. Essa alteração dá suporte a organizações que removem a infraestrutura do Skype for Business
 - Reuniões do Teams ingressar na análise de link agora lidam com o Microsoft Defender Advanced Thread Protection Safe Links para permitir a junção perfeita do Teams externo
