@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9688b700d900720aa9af1c0f68cadee99d7de858
-ms.sourcegitcommit: 2ce82f301f2d59da57f579a23038b2cab5e31360
+ms.openlocfilehash: b7262cc77310a9ea198a51af720e6e5117a72111
+ms.sourcegitcommit: 4e1f5d99c1d0612dc5b50f850280983867ff53d8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 04/16/2021
-ms.locfileid: "51858044"
+ms.locfileid: "51874467"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>Teams para Infraestrutura de Área de Trabalho Virtualizada
 
@@ -395,7 +395,7 @@ Os seguintes recursos de chamada e reunião não são suportados:
 - Fila de chamada
 - Som de áudio/computador do sistema compartilhado
 - Bypass de mídia para Roteamento Direto
-- Ampliando o conteúdo compartilhado
+- Controle zoom 
 
 > [!NOTE]
 > Estamos trabalhando na adição de recursos de chamada e reunião que estão disponíveis apenas em ambientes que não sejam VDI. Isso pode incluir mais controle de administrador sobre qualidade, cenários adicionais de compartilhamento de tela e recursos avançados adicionados recentemente ao Teams. Entre em contato com seu representante do Teams para saber mais sobre os recursos futuros.

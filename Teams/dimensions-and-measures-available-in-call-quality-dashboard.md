@@ -22,12 +22,12 @@ ms.custom:
 - Reporting
 - seo-marvel-mar2020
 description: Obter informações detalhadas sobre as dimensões e medidas usadas pelo Painel de Qualidade de Chamadas (CQD) para o Microsoft Teams e o Skype for Business Online.
-ms.openlocfilehash: 6e7733320331cae0f57b82615fcebe9d8d620c72
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: cef151eb8941135112bab92a806b620727567bee
+ms.sourcegitcommit: b56727299d7ea47e23807114a4f5881e289c0b6a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51115569"
+ms.lasthandoff: 04/17/2021
+ms.locfileid: "51880450"
 ---
 # <a name="dimensions-and-measurements-available-in-call-quality-dashboard-cqd"></a>Dimensões e medidas disponíveis no Painel de Qualidade de Chamada (CQD)
 
@@ -77,8 +77,8 @@ As informações de dimensões são baseadas em parte nos dados carregados no po
 | Segundo sistema operacional filtrado  | Cadeia de caracteres  | Nome do sistema operacional e versão principal e secundária relatada pelo segundo ponto de extremidade. Essa cadeia de caracteres pode conter mais do que o nome e a versão do sistema operacional. <br/> **Valor de exemplo:** Windows 10  | <br/>&bull; O ponto de extremidade não reportou essas informações <br/>&bull; O relatório deste ponto de extremidade não foi recebido |
 | Primeira arquitetura do sistema operacional  | Cadeia de caracteres  | Arquitetura de hardware relatada pelo primeiro ponto de extremidade. <br/> **Valor de exemplo:** x64  | &bull; O ponto de extremidade não reportou essas informações <br/>&bull; O relatório deste ponto de extremidade não foi recebido <br/>&bull; O formato da arquitetura não foi reconhecido |
 | Segunda arquitetura do sistema operacional  | Cadeia de caracteres  | Arquitetura de hardware relatada pelo segundo ponto de extremidade. <br/> **Valor de exemplo:** x64  | &bull; O ponto de extremidade não reportou essas informações <br/>&bull; O relatório deste ponto de extremidade não foi recebido <br/>&bull; O formato da arquitetura não foi reconhecido  |
-| Primeiro Sinalizador de Virtualização  | Enumeração <br/>**Valores possíveis:** <br/> "0x00" = Nenhum " <br/> "0x01" = HyperV <br/> "0x02" = VMWare <br/> "0x04" = Computador virtual <br/> "0x08" = Xen PC | Sinalizador que indica o tipo de ambiente de virtualização relatado pelo primeiro ponto de extremidade. | <br/>&bull; Os dados não foram relatados pelo ponto de extremidade |
-| Segundo Sinalizador de Virtualização  | Enumeração <br/>**Valores possíveis:** <br/> "0x00" = Nenhum " <br/> "0x01" = HyperV <br/> "0x02" = VMWare <br/> "0x04" = Computador virtual <br/> "0x08" = Xen PC | Sinalizador que indica o tipo de ambiente de virtualização relatado pelo segundo ponto de extremidade.  | <br/>&bull; Os dados não foram relatados pelo ponto de extremidade |
+| Primeiro Sinalizador de Virtualização  | Enumeração <br/>**Valores possíveis:** <br/> "0x00" = Nenhum  <br/> "0x01" = Hyper-V <br/> "0x02" = VMware <br/> "0x04" = Computador virtual <br/> "0x08" = Xen PC | Sinalizador que indica o tipo de ambiente de virtualização relatado pelo primeiro ponto de extremidade. | <br/>&bull; Os dados não foram relatados pelo ponto de extremidade |
+| Segundo Sinalizador de Virtualização  | Enumeração <br/>**Valores possíveis:** <br/> "0x00" = Nenhum  <br/> "0x01" = Hyper-V <br/> "0x02" = VMware <br/> "0x04" = Computador virtual <br/> "0x08" = Xen PC | Sinalizador que indica o tipo de ambiente de virtualização relatado pelo segundo ponto de extremidade.  | <br/>&bull; Os dados não foram relatados pelo ponto de extremidade |
 |Primeiro Ponto de Extremidade Make |Cadeia de caracteres |Fabricante do dispositivo, as informações são lidas de um campo EndpointMake do arquivo endpoint Data. | <br/>&bull; Nenhum arquivo de dados para o ponto de extremidade |
 | Primeiro Modelo de Ponto de Extremidade |Cadeia de caracteres|Modelo de dispositivo, as informações são lidas de um campo EndpointModel do arquivo endpoint Data.| <br/>&bull; Nenhum arquivo de dados para o ponto de extremidade |
 | Primeiro tipo de ponto de extremidade|Cadeia de caracteres|Tipo de dispositivo, as informações são lidas de um campo EndpointType do arquivo endpoint Data.| <br/>&bull; Nenhum arquivo de dados para o ponto de extremidade |
@@ -91,6 +91,16 @@ As informações de dimensões são baseadas em parte nos dados carregados no po
 | Segundo Rótulo de Ponto de Extremidade 1|Cadeia de caracteres| Um rótulo personalizável, as informações são lidas de um arquivo de Dados do Ponto de Extremidade. | <br/>&bull; Nenhum arquivo de dados para o ponto de extremidade |
 | Segundo Rótulo do Ponto de Extremidade 2|Cadeia de caracteres|Um rótulo personalizável, as informações são lidas de um arquivo de Dados do Ponto de Extremidade.| <br/>&bull; Nenhum arquivo de dados para o ponto de extremidade|
 | Segundo Rótulo de Ponto de Extremidade 3|Cadeia de caracteres|Um rótulo personalizável, as informações são lidas de um arquivo de Dados do Ponto de Extremidade.| <br/>&bull; Nenhum arquivo de dados para o ponto de extremidade |
+| Primeiro ASN|Cadeia de caracteres|Número do sistema autônomo para o primeiro ponto de extremidade. <br/> **Valor de exemplo:** 8069  | <br/>&bull; Os dados de rede não estão disponíveis para determinar o ASN do ponto de extremidade |
+| Segundo ASN|Cadeia de caracteres|Número do sistema autônomo para o segundo ponto de extremidade. <br/> **Valor de exemplo:** 8069  | <br/>&bull; Os dados de rede não estão disponíveis para determinar o ASN do ponto de extremidade |
+| Primeiro código de país asn|Cadeia de caracteres|Código de país para o Número do Sistema Autônomo determinado para o primeiro ponto de extremidade. <br/> **Valor de exemplo:** EUA  | <br/>&bull; Os dados de rede não estão disponíveis para determinar o ASN do ponto de extremidade |
+| Segundo código de país asn|Cadeia de caracteres|Código de país para o Número do Sistema Autônomo determinado para o segundo ponto de extremidade. <br/> **Valor de exemplo:** EUA  | <br/>&bull; Os dados de rede não estão disponíveis para determinar o ASN do ponto de extremidade |
+| Primeiro país ASN|Cadeia de caracteres|Nome do país para o Número do Sistema Autônomo determinado para o primeiro ponto de extremidade. <br/> **Valor de exemplo:** Estados Unidos  | <br/>&bull; Os dados de rede não estão disponíveis para determinar o ASN do ponto de extremidade |
+| Segundo país ASN|Cadeia de caracteres|Nome do país para o Número do Sistema Autônomo determinado para o segundo ponto de extremidade. <br/> **Valor de exemplo:** Estados Unidos  | <br/>&bull; Os dados de rede não estão disponíveis para determinar o ASN do ponto de extremidade |
+| Primeira cidade asn|Cadeia de caracteres|Nome da cidade para o Número do Sistema Autônomo determinado para o primeiro ponto de extremidade. <br/> **Valor de exemplo:** Redmond  | <br/>&bull; Os dados de rede não estão disponíveis para determinar o ASN do ponto de extremidade |
+| Segunda CIDADE ASN|Cadeia de caracteres|Nome da cidade para o Número do Sistema Autônomo determinado para o segundo ponto de extremidade. <br/> **Valor de exemplo:** Redmond  | <br/>&bull; Os dados de rede não estão disponíveis para determinar o ASN do ponto de extremidade |
+| Primeiro estado ASN|Cadeia de caracteres|Nome de estado para o Número do Sistema Autônomo determinado para o primeiro ponto de extremidade. <br/> **Valor de exemplo:** WA  | <br/>&bull; Os dados de rede não estão disponíveis para determinar o ASN do ponto de extremidade |
+| Segundo estado ASN|Cadeia de caracteres|Nome de estado para o Número do Sistema Autônomo determinado para o segundo ponto de extremidade. <br/> **Valor de exemplo:** WA  | <br/>&bull; Os dados de rede não estão disponíveis para determinar o ASN do ponto de extremidade |
 |**Edifício**| | |
 | Primeira Rede | Cadeia de caracteres | Sub-rede usada para fluxo de mídia pelo primeiro ponto de extremidade se a sub-rede existir na sub-rede para os dados de construção de locatários. <br/> **Valor de exemplo:** 10.0.1.12.0 | &bull; Os dados de rede não foram relatados pelo ponto de extremidade <br/>&bull; A rede não é definida em dados de mapeamento de sub-rede.  |
 | Nome da Rede  | Cadeia de caracteres  | Nome da rede usada para fluxo de mídia pelo primeiro ponto de extremidade. Com base no mapeamento de sub-rede para dados de construção de locatários. <br/> **Valor de exemplo:** EUA/WA/REDMOND | &bull; Os dados de rede não foram relatados pelo ponto de extremidade <br/>&bull; A rede não é definida em dados de mapeamento de sub-rede  |
@@ -443,7 +453,10 @@ As informações de dimensões são baseadas em parte nos dados carregados no po
 |Tremulação|Milissegundos|A variação no tempo de chegada dos pacotes RTP. Confira Classificação [de fluxo no Painel de Qualidade de Chamada](stream-classification-in-call-quality-dashboard.md) para obter mais informações.<br/>**Exemplo:** 5.982||
 |Taxa de perda de pacotes|Porcentagem|A porcentagem de fluxos entre o Servidor de Mediação e o SBC ou Gateway, se disponível. Confira Classificação [de fluxo no Painel de Qualidade de Chamada](stream-classification-in-call-quality-dashboard.md) para obter mais informações.<br/>**Exemplo:** 1,2%||
 |Latência (Hora de Ida e volta)|Milissegundos|A média de tempo de ida e volta da propagação da rede por fluxo calculado. Confira Classificação [de fluxo no Painel de Qualidade de Chamada](stream-classification-in-call-quality-dashboard.md) para obter mais informações.<br/>**Exemplo:** 3,49||
+|**Reunião**|||
+|Cenário de reunião|Enumeração <br/>**Valores possíveis:** <br/> Bookings <br/> Conector EHR <br/> Desconhecido |Um campo fornecido pelas equipes de cliente de agendamento de reuniões (por exemplo, Bookings, Conector de EHR) por meio de sua telemetria para ajudar a distinguir suas reuniões do restante. A partir de abril de 2021, apenas o Bookings e o EHR Connector se inscreveram para fornecer telemetria para identificar o cenário de uma reunião.|O cliente de agendamento não forneceu esse parâmetro por meio de sua telemetria.|
 ||||
+
 
 ### <a name="notes-on-dimension-data-typeunits"></a>Observações sobre o tipo/unidades de dados de dimensão
 
