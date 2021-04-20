@@ -19,12 +19,12 @@ ms.collection:
 - m365solution-scenario
 ms.reviewer: ''
 description: Microsoft Teams e visitas virtuais com o aplicativo Bookings
-ms.openlocfilehash: 7cb948e020d27ccee396aebb8d1b36b022160a75
-ms.sourcegitcommit: 2d725b9925696e61e3e7338f890f086e009c28f2
+ms.openlocfilehash: e65e0b8c4af7397ebe0b152d2f977b2bf8cbb667
+ms.sourcegitcommit: f0e5da6136656261567ffe0fa3f2fedd901209a8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "51598600"
+ms.lasthandoff: 04/19/2021
+ms.locfileid: "51891258"
 ---
 # <a name="virtual-visits-with-microsoft-teams-and-the-bookings-app"></a>Visitas virtuais com o Microsoft Teams e o aplicativo Bookings
 
@@ -41,7 +41,7 @@ Os agendadores podem gerenciar vários calendários de departamentos e de funcio
 
 - O Microsoft Bookings deve ser ativado para a organização.
 
-- Os usuários devem ter uma licença apropriada*. O Office 365 A3, A5, E3 e E5, assim como o Microsoft 365 Business Standard, A3, A5, E3 e E5, possuem suporte.
+- Os usuários devem ter uma licença apropriada*. Há suporte para o Office 365 A3, A5, E3 e E5, além do Microsoft 365 Business Premium, Microsoft 365 Business Standard, A3, A5, E3 e E5.
 
 - Todos os usuários do aplicativo Bookings e todos os funcionários que participam das reuniões devem ter uma licença que ofereça suporte ao agendamento de Reunião no Teams.
 

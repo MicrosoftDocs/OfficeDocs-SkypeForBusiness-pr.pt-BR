@@ -15,12 +15,12 @@ localization_priority: Normal
 f1.keywords:
 - NOCSH
 description: Veja quais periféricos e dispositivos USB (como fones de ouvido, viva-voz, webcams e monitores) são certificados para o Microsoft Teams.
-ms.openlocfilehash: 61ebda3e8ef41678e6e9ca7e0c34a293ef86b81e
-ms.sourcegitcommit: 6e492297a886ff8c7894a6469965e63d1b806184
+ms.openlocfilehash: 83249166b725deab7ec0231b9dae761e5aa8a4a4
+ms.sourcegitcommit: b782ca2ef946ae25e847c2d1847a89993a8edef8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2021
-ms.locfileid: "51399148"
+ms.lasthandoff: 04/19/2021
+ms.locfileid: "51886700"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>Dispositivos de áudio e vídeo USB certificados para o Microsoft Teams
 
@@ -74,12 +74,17 @@ Se você for um fabricante e quiser ingressar no programa de certificação, con
 
 ## <a name="certified-devices"></a>Dispositivos certificados
 
-*Tabela atualizada em março de 2021*
+*Tabela atualizada em abril de 2021*
 
 | Fabricante        | Modelo                                                     | Qualificado      | Programa Certificado                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
+|Microsoft            |Alto-falante USB-C moderno                                       |4/15/2021       |Certificado para o Microsoft Teams                           |
+|Microsoft            |Headset USB moderno                                         |4/15/2021       |Certificado para o Microsoft Teams                           |
+|Yealink              |UVC20 Webcam                                               |3/30/2021       |Certificado para o Microsoft Teams                           |
+|Microsoft            |Webcam moderna                                              |3/24/2021       |Certificado para o Microsoft Teams                           |
 |EPOS/Sennheiser      |Adaptar fones de ouvido da série 200                                  |3/19/2021       |Certificado para o Microsoft Teams                           |
 |Jabra                |Evolve2 30 Headset                                         |3/1/2021        |Certificado para o Microsoft Teams                           |
+|Microsoft            |Surface Headphones 2+                                      |2/26/2021       |Certificado para o Microsoft Teams                           |
 |Poly                 |Barra de vídeo do Studio P15                                       |2/1/2021        |Certificado para o Microsoft Teams                           |
 |Poly                 |Sincronizar 40 alto-falantes                                       |1/19/2021       |Certificado para o Microsoft Teams                           |
 |Poly                 |Sincronizar 40+ viva-voz com Poly BT600 USB Dongle           |1/19/2021       |Certificado para o Microsoft Teams                           |

@@ -19,17 +19,17 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 820689e2bcfa190afefda9d161c787c6be9a7da0
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 2f8e24bd9035d45639ac4211435355fe7b792a2d
+ms.sourcegitcommit: b782ca2ef946ae25e847c2d1847a89993a8edef8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51118470"
+ms.lasthandoff: 04/19/2021
+ms.locfileid: "51886730"
 ---
 # <a name="cortana-voice-assistance-in-teams"></a>Assistência de voz da Cortana no Teams
 
 > [!Note]
-> A assistência de voz da Cortana é suportada em aplicativos móveis do Microsoft Teams iOS e Android, salas do Microsoft Teams no Windows e no Microsoft Teams é exibido, somente para usuários nos Estados Unidos. No momento, ele não está disponível para locatários GCC, GCC-High, DoD, EDU. A expansão para idiomas e regiões adicionais acontecerá como parte de versões futuras.
+> A assistência de voz da Cortana tem suporte em aplicativos móveis do Microsoft Teams para iOS e Android e o Microsoft Teams é exibido para usuários nos Estados Unidos, Reino Unido, Canadá, Índia e Austrália.  As Salas do Microsoft Teams no Windows só têm suporte para usuários nos Estados Unidos. A assistência de voz da Cortana não está disponível no momento para locatários GCC, GCC-High, DoD, EDU. A expansão para idiomas e regiões adicionais acontecerá como parte de versões futuras.
 
 > [!Note]
 > A assistência de voz da Cortana nas Salas do Microsoft Teams é lançada em Visualização. Em sua versão de visualização, a Cortana tem suporte apenas nos EUA com o idioma EN-US em dispositivos que conectaram microfones de Comício.
