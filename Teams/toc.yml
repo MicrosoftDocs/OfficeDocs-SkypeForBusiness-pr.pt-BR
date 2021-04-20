@@ -1097,7 +1097,7 @@ items:
                 href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-brunei.md
               - name: Bulgária
                 href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-bulgaria.md
-              - name: 'Chile '
+              - name: Chile
                 href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-chile.md
               - name: China (Norte)
                 href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-chinanorth-10-800-714-xxxx-range.md
@@ -1470,14 +1470,6 @@ items:
     items:
       - name: Especificações e limites do Teams
         href: limits-specifications-teams.md
-      - name: Mudar do Kaizala para o Microsoft Teams
-        items:
-          - name: Kaizala e o Microsoft Teams
-            items:
-              - name: Seu caminho para o Teams
-                href: prepare-for-teams.md
-                items:
-                  - name: Navegar os recursos do Teams
       - name: Licenciamento
         items:
           - name: Gerenciamento do acesso de usuários ao Teams
