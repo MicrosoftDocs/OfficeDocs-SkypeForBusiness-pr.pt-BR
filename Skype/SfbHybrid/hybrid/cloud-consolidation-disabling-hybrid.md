@@ -21,12 +21,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: Este artigo inclui etapas detalhadas para desabilitar o híbrido como parte da consolidação de nuvem para o Teams e o Skype for Business.
-ms.openlocfilehash: 18bda898563e10dbf964ba149f27202372fbcceb
-ms.sourcegitcommit: 71d90f0a0056f7604109f64e9722c80cf0eda47d
+ms.openlocfilehash: 08d305fa2650cffbadb0ec3122458f4a57e052a4
+ms.sourcegitcommit: 8750f98d59e74e3835d762d510fb0e038c8f17eb
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/09/2021
-ms.locfileid: "51656697"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "51899102"
 ---
 # <a name="disable-your-hybrid-configuration-to-complete-migration-to-the-cloud"></a>Desabilitar sua configuração híbrida para concluir a migração para a nuvem
 
@@ -41,7 +41,7 @@ Este artigo descreve como desabilitar sua configuração híbrida antes de desat
 - Etapa 4. [Remova sua implantação local do Skype for Business.](decommission-remove-on-prem.md)
 
 
-## <a name="overview"></a>Visão geral
+## <a name="overview"></a>Visão Geral
 
 Depois de atualizar todos os usuários do Skype for Business local para o Teams somente no Microsoft 365, você pode desmantelar a implantação local do Skype for Business. Antes de desativar a implantação local do Skype for Business e remover qualquer hardware, você deve separar logicamente a implantação local do Microsoft 365 desabilitando o híbrido. Desabilitar híbrido consiste nas três etapas a seguir:
 
@@ -106,7 +106,10 @@ Há duas opções disponíveis para lidar com essa situação:
 
 Os administradores podem gerenciar usuários que foram movidos anteriormente de um Skype for Business Server local para a nuvem, mesmo após a desativação da implantação local. Se você quiser fazer alterações no endereço sip de um usuário ou no número de telefone de um usuário (e o endereço sip ou número de telefone já tiver um valor no Active Directory local), você deve fazer isso no Active Directory local e permitir que os valores fluam para o Azure AD. Isso NÃO exige o Skype for Business Server local. Em vez disso, você pode modificar esses atributos diretamente no Active Directory local, usando o snap-in MMC de Usuários e Computadores do Active Directory (conforme mostrado abaixo) ou usando o PowerShell. Se você estiver usando o snap-in MMC, abra a página de propriedades do usuário, clique na guia Editor de Atributos e encontre os atributos apropriados para modificar:
 
-- Para modificar o endereço sip de um usuário, modifique `msRTCSIP-PrimaryUserAddress` o . Observação, se o `ProxyAddresses` atributo contiver um endereço sip, atualize também esse valor como uma prática prática. Embora o endereço sip seja ignorado pelo O365 se estiver preenchido, ele pode ser usado por outros `ProxyAddresses` `msRTCSIP-PrimaryUserAddress` componentes locais.
+- Para modificar o endereço sip de um usuário, modifique `msRTCSIP-PrimaryUserAddress` o .
+
+    > [!NOTE]
+    > Se o `ProxyAddresses` atributo contiver um endereço sip, atualize também esse valor como uma prática prática. Embora o endereço sip seja ignorado pelo O365 se estiver preenchido, ele pode ser usado por outros `ProxyAddresses` `msRTCSIP-PrimaryUserAddress` componentes locais.
 
 - Para modificar o número de telefone de um usuário, modifique `msRTCSIP-Line` *se ele já tiver um valor*.
 
@@ -172,7 +175,7 @@ Essa opção requer esforço adicional e planejamento adequado, pois os usuário
    Set-ADUser -Identity $user.SamAccountName -Clear msRTCSIP-DeploymentLocator}
    ```
 
-5. Execute o seguinte cmdlet local do Skype for Business PowerShell para adicionar o valor de endereço sip de volta ao proxy local do Active DirectoryAddresses. Isso impedirá problemas de interoperabilidade que dependem desse atributo. 
+5. Execute o seguinte Módulo local do Active Directory para Windows PowerShell cmdlet para adicionar o valor de endereço sip de volta ao proxy local do Active DirectoryAddresses. Isso impedirá problemas de interoperabilidade que dependem desse atributo. 
 
    ```PowerShell
    $sfbusers=import-csv "c:\data\SfbUsers.csv"

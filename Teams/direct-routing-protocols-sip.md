@@ -17,12 +17,12 @@ f1.keywords:
 description: Protocolos de Roteamento Direto
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8b1917408fa14ced9a490cba1559228dde924cfc
-ms.sourcegitcommit: cfef9dd41cac0df83bd02b35036d8f8f1b472feb
+ms.openlocfilehash: 04e9507595ef721ced5d47eb58646559601c5cab
+ms.sourcegitcommit: 8750f98d59e74e3835d762d510fb0e038c8f17eb
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51697776"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "51899122"
 ---
 # <a name="direct-routing---sip-protocol"></a>Roteamento Direto - protocolo SIP
 
@@ -168,6 +168,9 @@ Um usuário do Teams pode ter vários pontos de extremidade ao mesmo tempo. Por 
     > Em alguns casos, a resposta de mídia pode não ser gerada e o ponto final pode responder com a mensagem "Chamada Aceita".
 
 -   Chamada aceita – convertida pelo proxy SIP para a mensagem SIP 200 com SDP. Ao receber a mensagem 200, espera-se que o SBC envie e receba mídia de e para os candidatos SDP fornecidos.
+
+    > [!NOTE]
+    > O Roteamento Direto não dá suporte a Convite de Oferta Atrasada (Convidar sem SDP).
 
 #### <a name="multiple-endpoints-ringing-with-provisional-answer"></a>Vários pontos de extremidade tocando com resposta provisória
 

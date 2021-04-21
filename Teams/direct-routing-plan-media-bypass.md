@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: Saiba como planejar o bypass de mídia com Roteamento Direto do Sistema de Telefonia, que permite reduzir o caminho do tráfego de mídia e melhorar o desempenho.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: bbd31a62bf6ebcd481a3cdafeabaf29bb4767f2d
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: f2cbe739a567588b44bef87f7b852ed8de965ad3
+ms.sourcegitcommit: 8750f98d59e74e3835d762d510fb0e038c8f17eb
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51115589"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "51899092"
 ---
 # <a name="plan-for-media-bypass-with-direct-routing"></a>Planejar o bypass de mídia com Roteamento Direto
 
@@ -30,7 +30,7 @@ ms.locfileid: "51115589"
 
 O bypass de mídia permite reduzir o caminho do tráfego de mídia e reduzir o número de saltos em trânsito para melhorar o desempenho. Com o bypass de mídia, a mídia é mantida entre o Controlador de Borda de Sessão (SBC) e o cliente, em vez de enviá-la por meio do Microsoft Phone System. Para configurar o bypass de mídia, o SBC e o cliente devem estar no mesmo local ou rede.
 
-Você pode controlar o bypass de mídia para cada SBC usando o comando **Set-CSOnlinePSTNGateway** com o parâmetro **-MediaBypass** definido como true ou false. Se você habilitar o bypass de mídia, isso não significa que todo o tráfego de mídia ficará dentro da rede corporativa. Este artigo descreve o fluxo de chamada em diferentes cenários.    
+Você pode controlar o bypass de mídia para cada SBC usando o comando **Set-CSOnlinePSTNGateway** com o parâmetro **-MediaBypass** definido como true ou false. Se você habilitar o bypass de mídia, isso não significa que todo o tráfego de mídia ficará dentro da rede corporativa. Este artigo descreve o fluxo de chamada em diferentes cenários.
 
 Os diagramas a seguir ilustram a diferença no fluxo de chamada com e sem bypass de mídia.
 
@@ -126,7 +126,11 @@ Há dois componentes no Microsoft Cloud que podem estar no caminho do tráfego d
 
    Retransmissão de transporte pode ou não estar no caminho para chamadas ignoradas, originadas ou destinadas a usuários finais, dependendo de onde o usuário está e como a rede está configurada .
 
-O diagrama a seguir mostra dois fluxos de chamada – um com bypass de mídia habilitado e o segundo com bypass de mídia desabilitado. Observe que o diagrama ilustra apenas o tráfego proveniente de ou destinado a usuários finais.  
+O diagrama a seguir mostra dois fluxos de chamada – um com bypass de mídia habilitado e o segundo com bypass de mídia desabilitado.
+
+> [!NOTE]
+> O diagrama ilustra apenas o tráfego proveniente de ou destinado a usuários finais.  
+
 - O Controlador de Mídia é um microserviço no Azure que atribui processadores de mídia e cria ofertas de Protocolo de Descrição de Sessão (SDP).
 
 - O Proxy SIP é um componente que converte a sinalização REST HTTP usada no Teams para SIP.    
@@ -255,7 +259,8 @@ O tráfego de mídia flui entre o SBC e o cliente do Teams se a conectividade di
 
 O cliente deve ter acesso às portas especificadas (consulte tabela) no endereço IP público do SBC. 
 
-Observação: se o cliente estiver em uma rede interna, a mídia flui para o endereço IP público do SBC. Você pode configurar o fixamento de pelos em seu dispositivo NAT para que o tráfego nunca saia do equipamento de rede empresarial.
+> [!NOTE]
+> Se o cliente estiver em uma rede interna, a mídia flui para o endereço IP público do SBC. Você pode configurar o fixamento de pelos em seu dispositivo NAT para que o tráfego nunca saia do equipamento de rede empresarial.
 
 | Tráfego | De | Até | Porta de origem | Porta de destino|
 | :-------- | :-------- |:-----------|:--------|:---------|
@@ -274,7 +279,7 @@ Retransmissão de transporte estão no mesmo intervalo que processadores de míd
 
 - 52.112.0.0 /14 (endereços IP de 52.112.0.1 a 52.115.255.254)
 
-## <a name="office-365-gcc-dod-environment"></a>Ambiente do Office 365 GCC DoD
+### <a name="office-365-gcc-dod-environment"></a>Ambiente do Office 365 GCC DoD
 
 - 52.127.64.0/21
 
@@ -314,7 +319,7 @@ O intervalo de IP para tráfego de mídia é
 
 - 52.112.0.0 /14 (endereços IP de 52.112.0.1 a 52.115.255.254)
 
-## <a name="office-365-gcc-dod-environment"></a>Ambiente do Office 365 GCC DoD
+### <a name="office-365-gcc-dod-environment"></a>Ambiente do Office 365 GCC DoD
 
 - 52.127.64.0/21
 
@@ -349,8 +354,8 @@ O exemplo a seguir ilustra essa lógica.
 
 | Conjunto de usuários | Número de usuários | FQDN de tronco atribuído no OVRP | Bypass de mídia habilitado |
 | :------------ |:----------------- |:--------------|:--------------|
-Usuários com tronco de bypass que não seja de mídia | 980 | sbc1.contoso.com:5060 | true
-Usuários com tronco de bypass de mídia | 20 | sbc2.contoso.com:5061 | false | 
+Usuários com tronco de bypass que não seja de mídia | 980 | sbc1.contoso.com:5061 | false |
+Usuários com tronco de bypass de mídia | 20 | sbc2.contoso.com:5060 | true | 
 
 Ambos os troncos podem apontar para o mesmo SBC com o mesmo endereço IP público. As portas de sinalização TLS no SBC devem ser diferentes, conforme mostrado no diagrama a seguir. Observe que você precisará certificar-se de que seu certificado dá suporte a ambos os troncos. Em SAN, você precisa ter dois nomes (**sbc1.contoso.com** e **sbc2.contoso.com**) ou ter um certificado curinga.
 

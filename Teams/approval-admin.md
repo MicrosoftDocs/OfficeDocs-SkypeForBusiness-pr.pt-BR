@@ -2,7 +2,7 @@
 title: Disponibilidade do aplicativo Aprovações no Teams
 author: cichur
 ms.author: v-cichur
-ms.reviewer: aravin
+ms.reviewer: farhazk
 manager: serdars
 ms.topic: article
 audience: admin
@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4235232a9d74b4583ecaed19b68ff87de982085c
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 1e03ad5c562f7fd31599bbb86f08e411dfa4b415
+ms.sourcegitcommit: fb87d64c6f98041a1da50cf4ef6ff54cdc8d1d29
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51103007"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "51902565"
 ---
 # <a name="teams-approvals-app-availability"></a>Disponibilidade dos aplicativos de aprovação do Teams
 
@@ -40,6 +40,9 @@ A primeira aprovação criada a partir do aplicativo Aprovações acionará o pr
 
 Este artigo descreve os requisitos e as funções do aplicativo Aprovações.
 
+> [!NOTE]
+> Esse recurso ainda não foi lançado para usuários do Government Community Cloud (GCC), Government Community Cloud High (GCCH) e Department of Defense (DOD).
+
 ## <a name="required-permissions-and-licenses"></a>Permissões e licenças necessárias
 
 Para usar o aplicativo Aprovações, você precisa de permissão para os seguintes itens:
@@ -54,7 +57,7 @@ Para usar o aplicativo Aprovações, você precisa de permissão para os seguint
 
 ## <a name="storage-with-cds"></a>Armazenamento com CDS
 
-O CDM (Modelo de Dados Comum) é a linguagem de dados compartilhada usada por aplicativos de negócios e analíticos no CDS. Ele consiste em um conjunto de esquemas de dados extensíveis padronizados publicados pela Microsoft e por nossos parceiros que permitem a consistência dos dados e seu significado em aplicativos e processos empresariais. Saiba mais sobre o [dados comuns do Microsoft Power Platform](/power-automate/get-started-approvals).
+O CDM (Modelo de Dados Comum) é a linguagem de dados compartilhada usada por aplicativos de negócios e analíticos no CDS. Ele consiste em um conjunto de esquemas de dados padronizados e extensíveis publicados pela Microsoft e por nossos parceiros, que permite a consistência dos dados e seu significado entre aplicativos e processos comerciais. Saiba mais sobre o [dados comuns do Microsoft Power Platform](/power-automate/get-started-approvals).
 
 Saiba mais sobre o fluxo [de trabalho aprovação](/power-automate/modern-approvals).
 
