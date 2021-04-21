@@ -19,12 +19,12 @@ appliesto:
 - Microsoft Teams
 ms.custom:
 - seo-marvel-mar2020
-ms.openlocfilehash: ff6959319a55183f33c8998adc4a4a46c640bca4
-ms.sourcegitcommit: 616403037ddb2d44f06cd9b2eaa9da699b119ef8
+ms.openlocfilehash: 0bde5b2fac365369fea385a325cbd1d0d05cca07
+ms.sourcegitcommit: 8750f98d59e74e3835d762d510fb0e038c8f17eb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/15/2021
-ms.locfileid: "51768380"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "51899082"
 ---
 # <a name="prepare-your-organizations-network-for-microsoft-teams"></a>Preparar a rede da organização para o Microsoft Teams 
 
@@ -40,12 +40,11 @@ Se você já tiver[otimizado sua rede para o Microsoft 365 ou o Office 365](/Off
     |[Endereços IP](/office365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams) |<strong>13.107.64.0/18</strong>, <strong>52.112.0.0/14</strong>, e <strong>52.120.0.0/14</strong>         |
 
     > [!IMPORTANT]
-    > Se for necessário federar com o Skype for Business, seja local ou online, você precisará configurar alguns registros DNS adicionais.
+    > Se for necessário federar com o Skype for Business, seja local ou online, você precisará configurar um registro DNS adicional.
     >
-    >|Registros CNAME/Nome do host  |TTL  |Aponta para o endereço ou para o valor  |
-    >|---------|---------|---------|
-    >|sip     |    3600     |    sipdir.online.lync.com     |
-    >|lyncdiscover     |   3600      |    webdir.online.lync.com     |
+    >|Registro DNS  |Serviço  |Protocolo  |Prioridade  |Peso  |Porta  |Destino  |
+    >|---------|---------|---------|---------|---------|---------|---------|
+    >|SRV     |sipfederationtls     |TCP     |100     |1     |5061     |sipfed.online.lync.com     |
     
 2.  Você tem um domínio verificado para o Microsoft 365 ou para o Office 365 (por exemplo, contoso.com)?
     
@@ -85,8 +84,8 @@ Para uma discussão aprofundada sobre otimização de rede, incluindo orientaç�
 <table>
 <thead>
 <tr class="header">
-<th><strong>Tarefa de otimização da rede</strong></th>
-<th><strong>Detalhes</strong></th>
+<th>Tarefa de otimização de rede</th>
+<th>Detalhes</th>
 </tr>
 </thead>
 <tbody>
