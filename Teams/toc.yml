@@ -227,7 +227,7 @@ items:
                 href: /SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?bc=%2fSkypeForBusiness%2fhybrid%2fhybrid%2fmove-users-from-on-premises-to-skype-for-business-online%2fbreadcrumb%2ftoc.json&toc=%2fSkypeForBusiness%2fhybrid%2fhybrid%2fmove-users-from-on-premises-to-skype-for-business-online%2ftoc.json
           - name: Desativar o ambiente local do Skype for Business
             items:
-              - name: Visão geral
+              - name: Visão Geral
                 href: /SkypeForBusiness/hybrid/decommission-on-prem-overview
               - name: Mover usuários para a nuvem
                 href: /SkypeForBusiness/hybrid/decommission-move-on-prem-users
@@ -297,8 +297,6 @@ items:
         items:
           - name: Privacidade e o Microsoft Teams
             href: teams-privacy.md
-          - name: Práticas de coleta de dados
-            href: data-collection-practices.md
           - name: Localização dos dados no Teams
             href: location-of-data-in-teams.md
           - name: Bloquear o acesso ao Microsoft Office SharePoint Online para usuários específicos
@@ -561,7 +559,7 @@ items:
         items:
           - name: Gerenciar políticas de reunião
             items:
-              - name: Visão geral
+              - name: Visão Geral
                 href: meeting-policies-overview.md
               - name: Políticas gerais
                 href: meeting-policies-in-teams-general.md
@@ -659,7 +657,7 @@ items:
             href: audio-conferencing-pay-per-minute.md
           - name: Gerenciar as configurações de audioconferência para usuários
             items:
-              - name: Visão geral
+              - name: Visão Geral
                 href: manage-the-audio-conferencing-settings-for-a-user-in-teams.md
               - name: Ver uma lista de usuários habilitados para Audioconferência
                 href: see-a-list-of-users-that-are-enabled-for-audio-conferencing-in-teams.md
@@ -851,8 +849,6 @@ items:
                 href: aa-cq-cqd-historical-reports.md
               - name: Referência de voz e discagem
                 href: dial-voice-reference.md
-              - name: Relatório
-                href: aa-cq-cqd-historical-reports.md
           - name: Bloquear chamadas de entrada
             href: block-inbound-calls.md
           - name: Recuperação e estacionamento de chamadas
@@ -879,7 +875,7 @@ items:
             href: country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md
       - name: Roteamento Direto do Sistema de Telefonia
         items:
-          - name: Visão geral
+          - name: Visão Geral
             href: direct-routing-landing-page.md
           - name: Planejar o Roteamento Direto
             href: direct-routing-plan.md
@@ -1097,7 +1093,7 @@ items:
                 href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-brunei.md
               - name: Bulgária
                 href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-bulgaria.md
-              - name: Chile
+              - name: 'Chile '
                 href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-chile.md
               - name: China (Norte)
                 href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-chinanorth-10-800-714-xxxx-range.md
@@ -1545,10 +1541,6 @@ items:
             href: devices/teams-ip-phones.md
           - name: Telefones para o Skype for Business Online
             href: /SkypeForBusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/deploying-skype-for-business-online-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
-          - name: Alerta e monitoramento do Teams
-            href: alerts/teams-admin-alerts.md
-          - name: Monitoramento de integridade do dispositivo do Teams
-            href: alerts/device-health-status.md
       - name: Windows PowerShell do Teams
         items:
           - name: Visão Geral
