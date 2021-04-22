@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Saiba como configurar e testar os atendimentos automáticos para o Microsoft Teams.
-ms.openlocfilehash: 66bebbd381fb1997e2e8770debb24c7629525f1e
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 9efd30eb91e9760f800dd24935724d2a3cdd97c2
+ms.sourcegitcommit: c56c87e912a4b3729c7c52d8de78fd4d24448a8d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51092749"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51926047"
 ---
 # <a name="set-up-an-auto-attendant"></a>Configurar um atendimento automático
 
@@ -46,6 +46,11 @@ Os atendimentos automáticos podem direcionar chamadas, com base na entrada dos 
 - **Comunicado (Digitado)** - Digite uma mensagem. Texto que você deseja que o sistema leia. Você pode inserir até 1000 caracteres. O sistema reproduz o comunicado e retorna ao menu de atendimento automático.
 
 Você será solicitado a escolher uma dessas opções em vários estágios ao configurar um atendimento automático.
+
+> [!NOTE]
+> Ao escolher a Caixa Postal como destino, duas opções adicionais estão disponíveis:
+> - **Transcrição** (Padrão: Desligado) - quando habilitada, a mensagem de caixa postal será transcrita e incluída como parte do email.
+> - **Suprimir Saudação** (Padrão: Desligado) - quando habilitada, a mensagem padrão do sistema "Deixe uma mensagem após o tom. Quando terminar, desligue ou pressione a tecla hash para obter mais opções." será suprimido.
 
 Para configurar um atendimento automático, no Centro de administração do Teams, **expanda Voz,** selecione **Atendimento automático** e selecione **Adicionar**.
 
