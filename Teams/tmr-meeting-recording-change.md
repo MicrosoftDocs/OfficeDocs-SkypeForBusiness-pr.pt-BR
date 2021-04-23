@@ -2,7 +2,7 @@
 title: Usar o OneDrive for Business e o SharePoint para gravações de reunião
 author: cichur
 ms.author: v-cichur
-ms.reviewer: hao.moy
+ms.reviewer: debhag
 manager: serdars
 ms.topic: article
 audience: admin
@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 23be0069ffe862bcd5295493c8a6fc6acaa5f55d
-ms.sourcegitcommit: 950387da2a2c094b7580bcf81ae5d8b6dfba0d6b
+ms.openlocfilehash: d0de88cd3295e1e04681cf6ff63bccab80e4b4a8
+ms.sourcegitcommit: a731226d62d8b23fe73bd7bf61654e16367fbd90
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/08/2021
-ms.locfileid: "51637813"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "51948657"
 ---
 # <a name="use-onedrive-for-business-and-sharepoint-or-stream-for-meeting-recordings"></a>Usar o OneDrive for Business e o SharePoint ou o Stream para gravações de reunião
 
@@ -189,3 +189,8 @@ Confira [Como aplicar automaticamente um rótulo de retenção](/microsoft-365/c
 **Como atribuir políticas aos meus usuários no Microsoft Teams e quais políticas têm precedência?**
 
 Confira [Qual política tem precedência?](./assign-policies.md#which-policy-takes-precedence).
+
+**Para onde a gravação vai se o usuário não tiver o OneDrive for Business ou o SharePoint?**
+
+A gravação será realizada em nosso local de armazenamento temporário, onde será mantida por 21 dias. Durante esse tempo, o organizador deve baixar a gravação. Se não for baixada dentro de 21 dias, a gravação será excluída.
+

@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 description: Saiba mais sobre os requisitos para dar suporte a Salas do Microsoft Teams, incluindo a escolha do dispositivo apropriado, microfones, alto-falantes, câmeras e exibições.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 71a0be3fd0aaaca61b9a3f335f2be3480adc32f9
-ms.sourcegitcommit: cfef9dd41cac0df83bd02b35036d8f8f1b472feb
+ms.openlocfilehash: 9083a66add26ff7149fddd16052bac87625d2b27
+ms.sourcegitcommit: 234c928b9ac127716e3d5a92ee2bcdda1a415a38
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51697686"
+ms.lasthandoff: 04/23/2021
+ms.locfileid: "51959468"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Requisitos das Salas Microsoft Teams
 
@@ -63,6 +63,8 @@ Todos os pacotes e dispositivos da Sala do Microsoft Teams estão disponíveis e
    |[Crestron Flex UC-C100-T com PC ASUS](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-C100-T)|Core i5|8 GB |128 GB |
    |[Crestron Flex UC-M50-T com PC ASUS](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-M50-T)|Core i5|8 GB |128 GB |
    |[Crestron Flex UC-M70-T com PC ASUS](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-M70-T)|Core i5|8 GB |128 GB |
+   |[Crestron Flex UC-MX50-T com PC ASUS](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-MX50-T)|Core i5|8 GB |128 GB |
+   |[Crestron Flex UC-MX70-T com PC ASUS](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-MX70-T)|Core i5|8 GB |128 GB |
   |[Crestron Mercury Mini UC-MM30-T](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-MM30-T)|Core i5|8 GB |128 GB |
   |[Dell OptiPlex 7080 com Logitech TAP](https://www.dell.com/work/shop/cty/pdp/spd/optiplex-7080-xe-teams) | Core i5 & i7 |8 GB |128 GB|
   |[HP Elite Slice para Salas de Reunião G2](https://www8.hp.com/us/en/elite-family/elite-slice-for-meetings.html) |Core i5 |8 GB |128 GB |
@@ -82,6 +84,7 @@ Todos os pacotes e dispositivos da Sala do Microsoft Teams estão disponíveis e
   |[Yealink MVC 500 II](https://www.yealink.com/product/microsoft-teams-room-system-mvc500II) |Core i5|8 GB | 128 GB|
   |[Yealink MVC 800 II](https://www.yealink.com/product/microsoft-teams-room-system-mvc800II) |Core i5|8 GB | 128 GB|
   |[Yealink MVC 900 II](https://www.yealink.com/product/microsoft-teams-room-system-mvc900II) |Core i5|8 GB | 128 GB|
+  |[Yealink MVC840](https://www.yealink.com/product/microsoft-teams-room-system-mvc840) |Core i5|8 GB | 128 GB|
   
 > [!NOTE]
 > - Os processadores Core M3 não são compatíveis.
@@ -118,7 +121,8 @@ Esses dispositivos estão disponíveis na [Mostruário de produtos de acessório
 |[Huddly IQ Lite](https://www.huddly.com/conference-cameras/iq/) |1.3.29|
 |[Câmera de IQ Huddly](https://www.huddly.com/conference-cameras/iq/) |1.3.27|
 |[Câmera Jabra Panacast3](https://www.jabra.com/business/video-conferencing/jabra-panacast)|1.3.9.12|
-|Câmera de câmera Lenovo ThinkSmart|1.0.111.4|
+|[Câmera de câmera Lenovo ThinkSmart](https://www.lenovo.com/us/en/accessories-and-monitors/webcams-and-video/webcams/SMARTOF-BO-ThinkSmart-Cam/p/4Y71C41660)|1.0.111.4|
+|Barra Lenovo ThinkSmart |0.9.3| 
 |[Logitech brio](https://www.logitech.com/product/brio)   |V 2.2.50| &#x2714; |
 |[Logitech 930e](https://www.logitech.com/product/c930e-webcam)   | 8.0.914   | &#x2714; |
 |[Logitech Rally](https://www.logitech.com/product/rally-ultra-hd-conferencecam)   |1.2.4 |
@@ -163,8 +167,8 @@ Esses dispositivos estão disponíveis na [Mostruário de produtos de acessório
 |[Bose ControlSpace EX-440C DSP + </br> Bose P2600A AmpLink Amplificador + Microfone de Teto sennheiser TCC2 + Alto-falante de teto </br> Bose DesignMax DM2C-P](https://pro.bose.com/en_us/solutions/bose-work/es1-ceiling-audio-solution.html)|  Bose DSP: 2,290  </br> P2600A: 1,160  </br> TCC2:1.4.2  |  |
 |[Bose ControlSpace EX-1280C DSP](https://pro.bose.com/en_us/products/signal_processing_and_networking/controlspace_ex/cs_ex_1280c.html#v=cs_ex_1280c_black) +</br>Bose P2600A AmpLink Amplificador +</br> [Microfone de teto TCC2 sennheiser](https://pro.bose.com/en_us/solutions/bose-work/es1-ceiling-audio-solution.html) +</br> [Alto-falante de teto DesignMax DM2C -LP](https://pro.bose.com/en_us/products/loudspeakers/background_foreground/designmax/designmax_dm2c_lp.html#v=designmax_dm2c_lp_black) | Bose DSP: 2,290  </br> P2600A: 1,160  </br> TCC2:1.4.2  | 
 |[Bose ControlSpace EX-1280C DSP](https://pro.bose.com/en_us/products/signal_processing_and_networking/controlspace_ex/cs_ex_1280c.html#v=cs_ex_1280c_black) +</br>Bose P2600A AmpLink Amplificador+</br> [Microfone de teto TCC2 sennheiser](https://pro.bose.com/en_us/solutions/bose-work/es1-ceiling-audio-solution.html) +</br> [Alto-falante de teto EdgeMax EM180](https://pro.bose.com/en_us/products/loudspeakers/background_foreground/edgemax/edgemax_em180.html#v=edgemax_em180_white) | Bose DSP: 2,290  </br> P2600A: 1,160  </br> TCC2:1.4.2  |
-|[QSC Q-SYS Core 110f](https://www.qsc.com/systems/products/q-sys-ecosystem/products-peripherals-accessories/q-sys-cores/core-110f/) +</br> [Microfone de teto TCC2 sennheiser]() +</br> [QSC EnergyStar Power Amplificador SPA2-60](https://www.qsc.com/systems/products/power-amplifiers/energystar-amplifiers/spa-series/spa2-60/) +</br> [P-SYS NS Series Network Switch NS-1108P](https://www.qsc.com/systems/products/q-sys-ecosystem/products-peripherals-accessories/network-switches/q-sys-ns-series-network-switches/) + </br> [Alto-falantes AD-S402T de montagem de superfície de coluna QSC](https://www.qsc.com/systems/products/loudspeakers/column-surface-mount-loudspeakers/acousticdesigntm-series-column-surface-mount/ad-s402t/) +</br> [Câmera QSC PTZ 20x60](https://www.qsc.com/systems/products/q-sys-ecosystem/products-peripherals-accessories/conference-room-integration/ptz-ip-conference-cameras/) |P-sys Designer: 8.4.0.1 </br> <br> TCC2 : 1.5.1 Dante 1.2.0 </br>  <br> Não disponível </br>  <br>N1100v6.4.2.8 </br> Não disponível </br> <br> 6.3.2.2|
-|[QSC Q-SYS Core 110f](https://www.qsc.com/systems/products/q-sys-ecosystem/products-peripherals-accessories/q-sys-cores/core-110f/) +</br> [Microfone de teto TCC2 sennheiser]() +</br> [QSC EnergyStar Power Amplificador SPA2-60](https://www.qsc.com/systems/products/power-amplifiers/energystar-amplifiers/spa-series/spa2-60/) +</br> [P-SYS NS Series Network Switch NS-1108P](https://www.qsc.com/systems/products/q-sys-ecosystem/products-peripherals-accessories/network-switches/q-sys-ns-series-network-switches/) + </br> [Alto-falantes AD-C6T-LP de montagem de superfície de coluna QSC](https://www.qsc.com/systems/products/loudspeakers/ceiling-mount-loudspeakers/acousticdesigntm-series-ceiling-mount/ad-c6t-lp/?L=) +</br> [Câmera QSC PTZ 20x60](https://www.qsc.com/systems/products/q-sys-ecosystem/products-peripherals-accessories/conference-room-integration/ptz-ip-conference-cameras/) |P-sys Designer: 8.4.0.1 </br> <br> TCC2 : 1.5.1 Dante 1.2.0 </br>  <br> Não disponível </br>  <br>N1100v6.4.2.8 </br> Não disponível </br> <br> 6.3.2.2|
+|[QSC Q-SYS Core 110f](https://www.qsc.com/systems/products/q-sys-ecosystem/products-peripherals-accessories/q-sys-cores/core-110f/) +</br> [Microfone de teto TCC2 sennheiser]() +</br> [QSC EnergyStar Power Amplificador SPA2-60](https://www.qsc.com/systems/products/power-amplifiers/energystar-amplifiers/spa-series/spa2-60/) +</br> [P-SYS NS Series Network Switch NS-1108P](https://www.qsc.com/systems/products/q-sys-ecosystem/products-peripherals-accessories/network-switches/q-sys-ns-series-network-switches/) + </br> [Alto-falantes AD-S402T de montagem de superfície de coluna QSC](https://www.qsc.com/systems/products/loudspeakers/column-surface-mount-loudspeakers/acousticdesigntm-series-column-surface-mount/ad-s402t/) +</br> [Câmera QSC PTZ 20x60](https://www.qsc.com/systems/products/q-sys-ecosystem/products-peripherals-accessories/conference-room-integration/ptz-ip-conference-cameras/) |P-sys Designer: 8.4.0.1 </br> <br> TCC2 : 1.5.1 Dante 1.2.0 </br>  <br> N/D </br>  <br>N1100v6.4.2.8 </br> N/D </br> <br> 6.3.2.2|
+|[QSC Q-SYS Core 110f](https://www.qsc.com/systems/products/q-sys-ecosystem/products-peripherals-accessories/q-sys-cores/core-110f/) +</br> [Microfone de teto TCC2 sennheiser]() +</br> [QSC EnergyStar Power Amplificador SPA2-60](https://www.qsc.com/systems/products/power-amplifiers/energystar-amplifiers/spa-series/spa2-60/) +</br> [P-SYS NS Series Network Switch NS-1108P](https://www.qsc.com/systems/products/q-sys-ecosystem/products-peripherals-accessories/network-switches/q-sys-ns-series-network-switches/) + </br> [Alto-falantes AD-C6T-LP de montagem de superfície de coluna QSC](https://www.qsc.com/systems/products/loudspeakers/ceiling-mount-loudspeakers/acousticdesigntm-series-ceiling-mount/ad-c6t-lp/?L=) +</br> [Câmera QSC PTZ 20x60](https://www.qsc.com/systems/products/q-sys-ecosystem/products-peripherals-accessories/conference-room-integration/ptz-ip-conference-cameras/) |P-sys Designer: 8.4.0.1 </br> <br> TCC2 : 1.5.1 Dante 1.2.0 </br>  <br> N/D </br>  <br>N1100v6.4.2.8 </br> N/D </br> <br> 6.3.2.2|
 
 
 &Dagger; Os clientes podem escolher a interface Dante ou a opção de rede recomendada por Biamp/Sennheiser para esse pacote.

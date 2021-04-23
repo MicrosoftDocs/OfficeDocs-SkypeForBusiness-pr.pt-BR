@@ -18,12 +18,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 64416c08c7fa43883bfab060d63c7a7598ea3218
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 78737ec26d0aabfedcefa01abc3fb14c4bf118c7
+ms.sourcegitcommit: a731226d62d8b23fe73bd7bf61654e16367fbd90
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51092435"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "51948697"
 ---
 # <a name="microsoft-staffhub-has-been-retired"></a>O Microsoft StaffHub foi retirado
 
@@ -157,6 +157,9 @@ Para saber mais, confira [Gerenciar o aplicativo Shifts para sua organização n
 Você gerencia o Teams por meio do módulo do Microsoft Teams PowerShell e do módulo do Skype for Business PowerShell. Para obter mais informações, consulte [Visão geral do Teams PowerShell](../../teams-powershell-overview.md). No momento, não há cmdlets específicos do PowerShell disponíveis para gerenciar Turnos.  
 
 Se isso for algo em que você esteja interessado, envie-nos uma solicitação por meio do portal de comentários do [Teams no UserVoice](https://microsoftteams.uservoice.com/forums/555103-public-preview/category/182881-developer-platform).
+
+
+[!INCLUDE [uservoice-disclaimer-note](../../includes/uservoice-disclaimer-note.md)]
 
 #### <a name="is-reporting-available-to-view-shifts-usage-across-my-organization"></a>O relatório está disponível para exibir o uso de Turnos na minha organização?
 

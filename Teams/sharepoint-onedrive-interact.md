@@ -18,12 +18,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: b69b156e5cea0ff63925e91f5e3c077c794b3425
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 2d063cae8b87ffcacd63676da17fc000384c432c
+ms.sourcegitcommit: a731226d62d8b23fe73bd7bf61654e16367fbd90
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117029"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "51948617"
 ---
 # <a name="how-sharepoint-online-and-onedrive-for-business-interact-with-microsoft-teams"></a>Como o SharePoint Online e o OneDrive for Business interagem com o Microsoft Teams
 
@@ -52,6 +52,8 @@ A seguir está o exemplo de relações entre equipe, canal padrão e biblioteca 
 
 > [!NOTE]
 > No momento, não é possível substituir o site e a biblioteca de documentos padrão do SharePoint por outros. Recebemos o feedback de que isso seria interessante e estamos considerando a ideia. Confira o [Roteiro do Microsoft Teams](https://aka.ms/teamsroadmap) ou o [Teams UserVoice](https://aka.ms/TeamsUserVoice) para estar sempre informado sobre os recursos futuros.
+
+[!INCLUDE [uservoice-disclaimer-note](includes/uservoice-disclaimer-note.md)]
 
 > [!TIP]
 > Para adicionar uma guia à sua equipe que se vincula a uma página de site existente do SharePoint ou à biblioteca de documentos existente do SharePoint:

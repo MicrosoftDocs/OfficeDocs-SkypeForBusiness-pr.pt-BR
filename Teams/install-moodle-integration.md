@@ -20,12 +20,12 @@ ms.custom:
 - seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 60fabc107ba684afdf32c4eeeb0351f12dec883e
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 3d547d3c811f499faee5727634068a7807566293
+ms.sourcegitcommit: a731226d62d8b23fe73bd7bf61654e16367fbd90
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51120632"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "51948707"
 ---
 # <a name="installing-the-moodle-integration-with-microsoft-teams"></a>Instalando a integração do Moodle com o Microsoft Teams
 
@@ -188,3 +188,5 @@ Agora que você instalou o aplicativo, você pode adicionar a guia a qualquer ca
 Isso é tudo! Você e sua equipe agora podem começar a trabalhar com seus cursos Moodle diretamente do Microsoft Teams.
 
 Para compartilhar uma solicitação de recurso ou comentários conosco, acesse nossa [página de Voz do usuário](https://microsoftteams.uservoice.com/forums/916759-moodle).
+
+[!INCLUDE [uservoice-disclaimer-note](includes/uservoice-disclaimer-note.md)]

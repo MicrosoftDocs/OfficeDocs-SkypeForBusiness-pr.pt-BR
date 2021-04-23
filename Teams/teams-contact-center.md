@@ -13,12 +13,12 @@ f1.keywords:
 description: Uma visão geral da solução de centro de contato integrado como serviço (CCaaS) para o Microsoft Teams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 632fbacd9cd1ba8face3571597bc17e5e5a8a70b
-ms.sourcegitcommit: 71d90f0a0056f7604109f64e9722c80cf0eda47d
+ms.openlocfilehash: 14d83255644d3f748fdc81144b944ec4b62f5fbd
+ms.sourcegitcommit: a731226d62d8b23fe73bd7bf61654e16367fbd90
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/09/2021
-ms.locfileid: "51656747"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "51948682"
 ---
 # <a name="contact-center-integrations-for-microsoft-teams"></a>Integrações do Contact Center para o Microsoft Teams
 
@@ -65,6 +65,7 @@ As APIs permitem que os provedores de soluções desenvolvam e integrem soluçõ
 | `Luware` | https://luware.com/en/solutions/                                                                                       |
 | `Mida Solutions` | https://www.midasolutions.com/c3-cloud-contact-center-for-teams/                                        |
 | `novomind` | https://www.novomind.com/en/customer-service-software-call-center/microsoft-teams/                             |
+| `talkdesk` | https://www.talkdesk.com/cloud-contact-center/integrations/microsoft-teams/                                  |
 | `Tendfor` | https://www.tendfor.com/en/                                                                                     |
 
 Essa lista será atualizada à medida que mais provedores de soluções ingressarem e atenderem aos critérios de certificação.

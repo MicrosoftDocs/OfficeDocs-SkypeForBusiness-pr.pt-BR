@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: O administrador pode saber quais controladores de borda de sessão (SBCs) foram certificados para Roteamento Direto.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 36228b1c8d9e563670bfff2d1d3cebfcc9652023
-ms.sourcegitcommit: cfef9dd41cac0df83bd02b35036d8f8f1b472feb
+ms.openlocfilehash: 99684ef9e3a86fed267d57a2d5482f45dabfe176
+ms.sourcegitcommit: a731226d62d8b23fe73bd7bf61654e16367fbd90
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51697696"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "51948667"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>Lista de controladores de borda da sessão certificados para Roteamento Direto
 
@@ -110,4 +110,8 @@ A tabela a seguir lista dispositivos que são verificados para interoperabilidad
   | [Cisco](https://www.cisco.com/c/en/us/products/collateral/unified-communications/ata-190-series-analog-telephone-adapters/datasheet-c78-740013.html) |  Adaptador de telefone analógico multiplataforma do ATA 191 |     &#10004;     |
   
 Para nos dar comentários sobre o Produto sobre o Teams, como ideias para novos recursos, consulte [Uservoice](https://microsoftteams.uservoice.com).
+
+
+[!INCLUDE [uservoice-disclaimer-note](includes/uservoice-disclaimer-note.md)]
+
 Observe a certificação concedida a uma versão principal. Isso significa que há suporte para o firmware com qualquer número no firmware SBC após a versão principal.

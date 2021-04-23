@@ -1,0 +1,2 @@
+> [!NOTE]
+> A Microsoft vai mudar do UserVoice para a nossa própria solução de feedback do cliente em uma base de produto por produto durante 2021. [Saiba mais](https://support.microsoft.com/topic/-pages-430e1a78-e016-472a-a10f-dc2a3df3450a).
