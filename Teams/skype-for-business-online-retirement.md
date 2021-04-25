@@ -18,12 +18,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 8eac7d39835abdb05ee86be47504c3f9fecc7022
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: f5b8973034f9d0b65a5b6bdc11069a1e81efc477
+ms.sourcegitcommit: 900f28c4ac12d65ccbd996028205ba183b4afb03
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117009"
+ms.lasthandoff: 04/24/2021
+ms.locfileid: "51995149"
 ---
 # <a name="skype-for-business-online-retirement"></a>Desativação do Skype for Business Online
 
@@ -96,7 +96,7 @@ O Teams está disponível em muitos dos pacote do Microsoft 365. Os recursos que
 **A Microsoft está planejando atualizações programadas?**<br>
 No momento, não temos planos para atualizações programadas para clientes empresariais. Os clientes podem optar por migrar para o Teams, se fizer sentido para suas organizações, antes da data de desativação do Skype for Business Online em 31 de julho de 2021. Capacitaremos os administradores e os usuários com ferramentas e diretrizes para ajudar na transição para o Teams.
 
-Para dar suporte a clientes menores que podem não ter recursos de IT dedicados, a Microsoft está ajudando com atualizações automatizadas do Skype for Business Online para o Teams. Os clientes qualificados serão notificados da atualização por meio de emails e notificações do Centro de Mensagens. Detalhes adicionais são fornecidos nas comunicações. Para saber mais, confira [as atualizações automáticas do Skype for Business online para o Microsoft Teams](./upgrade-automated.md).
+Para dar suporte a clientes menores que podem não ter recursos de IT dedicados, a Microsoft está ajudando com atualizações automatizadas do Skype for Business Online para o Teams. Os clientes qualificados serão notificados da atualização por meio de emails e notificações do Centro de Mensagens. Detalhes adicionais são fornecidos nas comunicações. Para saber mais, confira [as atualizações automáticas do Skype for Business online para o Microsoft Teams](./upgrade-assisted.md).
 
 **Como o anúncio da desativação do Skype for Business Online afeta as organizações com configurações híbridas (Skype for Business Online e Skype for Business Server)?**<br>
 Os clientes híbridos com configurações locais e online serão solicitados a migrar os usuários do Skype for Business Online para o Microsoft Teams até a data de desativação de 31 de julho de 2021. Os caminhos de atualização para configurações híbridas criados com base nos princípios de coexistência e interoperabilidade permanecerão após a desativação do Skype for Business Online. Para obter mais informações confira [Coexistência com o Skype for Business](coexistence-chat-calls-presence.md) e [Entender a coexistência e a interoperabilidade do Microsoft Teams e do Skype for Business](teams-and-skypeforbusiness-coexistence-and-interoperability.md).

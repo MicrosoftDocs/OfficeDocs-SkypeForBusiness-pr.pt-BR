@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: Saiba quais telefones de mesa e conferência são certificados para o Microsoft Teams produzir os melhores resultados.
-ms.openlocfilehash: 6b56485287c5375657995736eda31f0d50fcd446
-ms.sourcegitcommit: a731226d62d8b23fe73bd7bf61654e16367fbd90
+ms.openlocfilehash: b82e6e90b5be3f3a6a86dc598a4c0e0a91a58f52
+ms.sourcegitcommit: 900f28c4ac12d65ccbd996028205ba183b4afb03
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "51948647"
+ms.lasthandoff: 04/24/2021
+ms.locfileid: "51995159"
 ---
 # <a name="microsoft-teams-certified-devices"></a>Dispositivos certificados do Microsoft Teams
 
@@ -162,6 +162,9 @@ Ao instalar uma nova versão de firmware em seu dispositivo, você pode determin
 
 | Modelo de dispositivo  | Versão do firmware | Versão incluída do produto |
 |:--------------|:-----------------|:-------------------------|
+| Poly Studio X30 | 3.3.2.286154          | Atualização 2021 #1    |
+| Poly Studio X50 | 3.3.2.286154          | Atualização 2021 #1    |
+| Poly TC8 | 3.3.2.286154                 | Atualização 2021 #1    |
 | Yealink VC210 |118.15.0.47     | Atualização 2021 #1    |
 | Yealink MeetingBar A20 | 133.15.0.54     | Atualização 2021 #1    |
 | Yealink MeetingBar A30 | 133.15.0.54     | Atualização 2021 #1    |

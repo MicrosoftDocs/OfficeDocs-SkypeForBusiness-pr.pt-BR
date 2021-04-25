@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 description: O administrador pode ler as notas de versão das Salas do Microsoft Teams, que listam melhorias cumulativas nas Salas do Microsoft Teams.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: d178e751a3601aa552c524385d32c3d7a51668f1
-ms.sourcegitcommit: 616403037ddb2d44f06cd9b2eaa9da699b119ef8
+ms.openlocfilehash: 609f477ef91c75cae47e6bbfd13b59cb804211c8
+ms.sourcegitcommit: 900f28c4ac12d65ccbd996028205ba183b4afb03
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/15/2021
-ms.locfileid: "51768361"
+ms.lasthandoff: 04/24/2021
+ms.locfileid: "51995289"
 ---
 # <a name="release-notes"></a>Notas de versão
 
@@ -29,6 +29,7 @@ Este artigo discute melhorias cumulativas nas Salas do Microsoft Teams.
 
 |Versão |Publicado para <br/> Microsoft Store |
 |--- |--- |
+|4.8.25.0 |04/22/2021 |
 |4.8.19.0 |04/06/2021 |
 |4.7.19.0 |02/03/2021 |
 |4.7.15.0 |12/11/2020 |
@@ -71,6 +72,15 @@ Este artigo discute melhorias cumulativas nas Salas do Microsoft Teams.
 |RTM (1.0.8) |12/7/2016 |
 
 ## <a name="microsoft-teams-rooms-feature-introduction-and-issue-resolution"></a>Microsoft Teams Rooms introdução e resolução de problemas
+
+### <a name="48250-04222021"></a>4.8.25.0 (04/22/2021)
+
+Introduzido nesta atualização:
+- Correção de um problema em que as informações de sala nos consoles das Salas do Teams não aparecem para contas de sala ocultas da GAL (lista de endereços global)
+
+> [!NOTE]
+> Os clientes GCCH podem baixar o pacote de atualização de um dispositivo de Salas do [Microsoft Teams manualmente](manual-update.md)
+
 
 ### <a name="48190-04062021"></a>4.8.19.0 (04/06/2021)
 

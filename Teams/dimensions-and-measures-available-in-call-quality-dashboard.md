@@ -22,12 +22,12 @@ ms.custom:
 - Reporting
 - seo-marvel-mar2020
 description: Obter informações detalhadas sobre as dimensões e medidas usadas pelo Painel de Qualidade de Chamadas (CQD) para o Microsoft Teams e o Skype for Business Online.
-ms.openlocfilehash: cef151eb8941135112bab92a806b620727567bee
-ms.sourcegitcommit: b56727299d7ea47e23807114a4f5881e289c0b6a
+ms.openlocfilehash: 1c91ce322e51705c9e0813b6c12a29af93319448
+ms.sourcegitcommit: 900f28c4ac12d65ccbd996028205ba183b4afb03
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/17/2021
-ms.locfileid: "51880450"
+ms.lasthandoff: 04/24/2021
+ms.locfileid: "51995299"
 ---
 # <a name="dimensions-and-measurements-available-in-call-quality-dashboard-cqd"></a>Dimensões e medidas disponíveis no Painel de Qualidade de Chamada (CQD)
 
@@ -407,6 +407,8 @@ As informações de dimensões são baseadas em parte nos dados carregados no po
 | É Sessão de Junção Anônima  | Boolean  | True se a conferência de junção do usuário for anônima, False caso contrário.   | &bull; Nenhum dado para determinar se o usuário foi ingressado anonimamente ou não   |
 | Tem blob de diagnóstico de mídia  | Boolean  | True se a sessão tiver dados de diagnóstico de mídia, False caso contrário.   | &bull; Alguns dados de sinalização não foram coletados para esse fluxo   |
 | Motivo da falha na instalação de chamada  | Enumeração  | Classificação do motivo pelo qual a conexão de mídia não pôde ser estabelecida para uma chamada. <br/>**Valores possíveis:** <br/> **Regra de isenção de** inspeção profunda de pacotes de FW ausente - indica que o equipamento de rede ao longo do caminho provavelmente impediu que o caminho de mídia fosse estabelecido devido a regras profundas de inspeção de pacotes. Isso pode ser devido a regras de proxy ou firewall não estarem configuradas corretamente. <br/> **Regra de isenção de bloqueio ip** de FW ausente - indica que os equipamentos de rede ao longo do caminho provavelmente impediram que o caminho de mídia fosse estabelecido para a rede do Office 365. Isso pode ser devido a regras de proxy ou firewall não estarem sendo configuradas corretamente para permitir o acesso a endereços IP e portas usadas para o tráfego do Skype for Business. <br/> **Outros** - indica que o caminho de mídia para a chamada não pôde ser estabelecido, mas a causa raiz não pôde ser classificada. <br/> Not Media Failure - indica que nenhum problema foi detectado com o estabelecimento do caminho de mídia.  | &bull; Falha na configuração de chamada devido a um problema de mídia desconhecido  |
+| Tipo de sessão  | Enumeração <br/>**Valores possíveis:** <br/> Conf, P2P  | Indica se o tipo de sessão de chamada foi um cenário de reunião (Conf) ou de chamada ponto a ponto (P2P). <br/> **Valor de exemplo:** Conf | |
+| Motivo da resposta cdr  | Enumeração <br/>**Valores possíveis:** <br/> 0 ou 200 = "OK" <br/> 410 = "MediaConnectivityErrors"<br/> 480 = "UserUnavailable"<br/> 487 = "PickupTimedOut" <br/> 603 = "CallDeclined" | Todos os outros códigos de CDR = "Outros" | Fornece o motivo da conclusão de uma sessão de chamada, se a chamada foi bem-sucedida ou não, e permite a diferenciação entre chamadas incompletas (sem resposta, ocupado, recusado) e chamadas com falha (estabelecimento de mídia). <br/> **Valor de exemplo:** Okey | <br/>&bull; Um valor de "Outro" indica que o código de resposta não é diagnosticamente útil fora das equipes de engenharia da Microsoft |
 |**DNS**|||
 | Cache dns resolve usado  | Boolean  | True se o ponto de extremidade usou cache DNS para resolver o endereço de retransmissão de mídia, False caso contrário.    | <br/>&bull; Esses dados não foram relatados pelo ponto de extremidade    |
 |**UserData**| |||

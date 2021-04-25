@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Saiba como configurar o Sistema de Telefonia para filas de chamadas com o Microsoft Teams, que fornece uma mensagem de saudação, música de espera, redirecionamento de chamadas e outros recursos.
-ms.openlocfilehash: 1202de31beddb8f70391d40d4e6218942c59cba1
-ms.sourcegitcommit: 4e1f5d99c1d0612dc5b50f850280983867ff53d8
+ms.openlocfilehash: f60714bc1c4868496209f414583c925da527460a
+ms.sourcegitcommit: 900f28c4ac12d65ccbd996028205ba183b4afb03
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "51874447"
+ms.lasthandoff: 04/24/2021
+ms.locfileid: "51995279"
 ---
 # <a name="create-a-call-queue"></a>Criar uma fila de chamadas
 
@@ -185,6 +185,7 @@ Os clientes a seguir têm suporte para agentes de chamada em uma fila de chamada
   - Cliente Skype for Business para iPad (versão 6.16.0 e posterior)
   - Cliente Microsoft Teams para Windows (versões 32-bit e 64-bit)
   - Cliente Microsoft Teams para Mac
+  - Microsoft Teams na [Infraestrutura de Área de Trabalho Virtualizada](/microsoftteams/teams-for-vdi) (Área de Trabalho Virtual do Windows, Citrix e VMware)
   - Aplicativo Microsoft Teams para iPhone
   - Aplicativo Microsoft Teams para Android
 
