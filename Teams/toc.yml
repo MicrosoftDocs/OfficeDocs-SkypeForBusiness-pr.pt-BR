@@ -187,6 +187,8 @@ items:
         href: continue-journey.md
       - name: Desativação do Skype for Business Online
         href: skype-for-business-online-retirement.md
+      - name: Atualizações assistidas do Skype for Business Online
+        href: upgrade-assisted.md
       - name: Perguntas frequentes
         href: FAQ-journey.yml
       - name: Referência
@@ -1422,8 +1424,6 @@ items:
       - name: Teams para o Varejo
         href: expand-teams-across-your-org/teams-for-retail-landing-page.md
         items:
-          - name: Introdução aos modelos de Varejo do Teams no centro de administração
-            href: retail-teams-templates-in-the-admin-console.md
           - name: Introdução aos modelos de Varejo do Teams
             href: get-started-with-retail-teams-templates.md
       - name: Teams para o Governo
