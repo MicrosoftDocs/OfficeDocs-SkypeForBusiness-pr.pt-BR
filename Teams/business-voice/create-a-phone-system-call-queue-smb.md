@@ -22,16 +22,16 @@ ms.custom:
 - ms.teamsadmincenter.callqueues.overview"
 - Phone System
 description: Saiba como configurar filas de chamadas com o Microsoft 365 Business Voice.
-ms.openlocfilehash: 40018ce331dfe8516e00c6781373d528a71e85c5
-ms.sourcegitcommit: 3861d661d32f507bd8479509ed09b1cfcf0b214f
+ms.openlocfilehash: ded780f0793a503e4f4089c7a201e659008e9eb7
+ms.sourcegitcommit: 5a39061c2156531f4b7f5f69eecf81a8c8b238d0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "51607553"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "52030121"
 ---
 # <a name="create-a-call-queue---small-business-tutorial"></a>Criar uma fila de chamada - tutorial de pequenas empresas
 
-Filas de chamadas fornecem um método de roteamento de chamadores para pessoas em sua organização que podem ajudar com um determinado problema ou pergunta. As chamadas são distribuídas uma por vez para as pessoas na fila (que são conhecidas como *agentes*). 
+As filas de chamadas fornecem um método de roteamento de chamadas para as pessoas da organização que podem ajudar com um problema ou pergunta específica. As chamadas são distribuídas uma por vez para as pessoas na fila (que são conhecidas como *agentes*). 
 
 As filas de chamada fornecem:
 
@@ -104,9 +104,9 @@ Você pode criar uma conta de recurso no centro de administração do Teams.
 
 4. Clique em **Salvar**.
 
-A nova conta aparecerá na lista de contas.
+   A nova conta aparecerá na lista de contas.
 
-![Captura de tela de uma lista de contas de recursos](../media/resource-accounts-page.png)
+   ![Captura de tela de uma lista de contas de recursos](../media/resource-accounts-page.png)
 
 ### <a name="assign-a-license"></a>Atribuir uma licença
 
@@ -138,9 +138,9 @@ Em seguida, vamos começar a criar uma nova fila de chamada e atribuir a conta d
 
 5. O Teams fornece música padrão aos chamadores enquanto eles estão em espera em uma fila. Se você quiser reproduzir um arquivo de áudio específico, escolha **Reproduzir um arquivo de áudio** e carregue um arquivo MP3, WAV ou WMA.
 
-> [!NOTE]
-> A gravação carregada não pode ser maior do que 5 MB.
-> A música padrão fornecida nas filas de chamadas do Teams é livre de royalties pagáveis pela organização. 
+   > [!NOTE]
+   > A gravação carregada não pode ser maior do que 5 MB.
+   > A música padrão fornecida nas filas de chamadas do Teams é livre de royalties pagáveis pela organização. 
 
 > [!div class="nextstepaction"]
 > [Etapa 3 - Agentes de chamada >](/microsoftteams/business-voice/create-a-phone-system-call-queue-smb?tabs=call-agents#steps)
