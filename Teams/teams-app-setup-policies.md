@@ -19,12 +19,12 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: ee50af6dec780480b8efdbf39dabb8e52ff03f3a
-ms.sourcegitcommit: cfef9dd41cac0df83bd02b35036d8f8f1b472feb
+ms.openlocfilehash: ebfcff8ce7215e34e3c17e9c09f3a56d249d5b40
+ms.sourcegitcommit: 1ee9b1857f472a5b95352f7471c0cf21be6ea0c3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51697706"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "52059195"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>Gerenciar políticas de configuração de aplicativo no Microsoft Teams
 
@@ -152,7 +152,9 @@ Para exibir todos os aplicativos fixados para um usuário, os usuários podem te
 
 #### <a name="what-do-i-need-to-know-about-the-teams-mobile-experience"></a>O que preciso saber sobre a experiência móvel do Teams
 
-Os clientes móveis do Teams (iOS e Android) atualmente não suportam aplicativos pessoais com guias estáticas. Dependendo dos aplicativos definidos na política, os aplicativos fixados no cliente da área de trabalho do Teams podem não aparecer nos clientes móveis do Teams. Os bots pessoais ainda aparecerão no Chat em clientes móveis.
+Os clientes móveis do Teams (iOS e Android) suportam aplicativos pessoais com guias estáticas. Os aplicativos fixados no cliente de área de trabalho do Teams serão exibidos nos clientes móveis do Teams. Bots pessoais aparecerão em Chat em clientes móveis.
+
+Aplicativos de terceiros (que podem ser baixados da Loja do Teams) precisam ser aprovados antes de aparecerem no celular. Se um administrador fixar um aplicativo, que não é aprovado pela Microsoft para Dispositivos Móveis, ele aparece na Área de Trabalho do Teams, mas não aparece no celular. Consulte [Clientes móveis para](/microsoftteams/platform/tabs/what-are-tabs#mobile-clients) obter mais informações.
 
 Com os clientes móveis do Teams, os usuários verão os principais aplicativos do Teams, como Atividade, Chat e Teams, e você pode fixar alguns aplicativos de primeira parte da Microsoft, como Shifts.
 

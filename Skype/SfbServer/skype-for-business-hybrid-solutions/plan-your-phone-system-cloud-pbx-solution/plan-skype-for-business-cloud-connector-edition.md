@@ -20,12 +20,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6ce0e580-8c4a-45de-a54f-e39e438335d6
 description: Encontre informações sobre o Skype for Business Cloud Connector Edition, um conjunto de VMs (Máquinas Virtuais) empacotados que implementam a conectividade PSTN local com o Sistema de Telefonia (Cloud PBX).
-ms.openlocfilehash: 33d0cc6262aa0d4c7a1f984534782a9fae93ab05
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 75abeba6c97b59b4795fc3399ff6a983db57bbff
+ms.sourcegitcommit: 03ff569a0b7a8e04d7b0ab32f370a9a537fa7fe7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51113707"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "52064707"
 ---
 # <a name="plan-for-skype-for-business-cloud-connector-edition"></a>Planejar o Skype for Business Cloud Connector Edition
 
@@ -34,7 +34,7 @@ ms.locfileid: "51113707"
 
 Encontre informações sobre o Skype for Business Cloud Connector Edition, um conjunto de VMs (Máquinas Virtuais) empacotados que implementam a conectividade PSTN local com o Sistema de Telefonia (Cloud PBX).
 
-O Cloud Connector Edition pode ser a solução certa para sua organização se você ainda não tiver uma implantação existente do Lync Server ou do Skype for Business Server. Se você ainda estiver investigando qual solução do Sistema de Telefonia é ideal para sua empresa, consulte [Soluções de telefonia da Microsoft.](../../../SfbHybrid/hybrid/msft-telephony-solutions.md)
+O Cloud Connector Edition pode ser a solução certa para sua organização se você ainda não tiver uma implantação existente do Lync Server ou do Skype for Business Server. Se você ainda estiver investigando qual solução do Sistema de Telefonia é ideal para sua empresa, consulte [Soluções de telefonia da Microsoft.](/microsoftteams/cloud-voice-landing-page)
 
 Este documento descreve os requisitos do Cloud Connector Edition e topologias com suporte e ajuda você a planejar sua implantação do Cloud Connector Edition. Leia este tópico antes de configurar seu ambiente do Cloud Connector. Quando estiver pronto para implantar e configurar o Cloud Connector Edition, consulte [Configure and manage Skype for Business Cloud Connector Edition](configure-skype-for-business-cloud-connector-edition.md).
 
@@ -61,7 +61,7 @@ Considere o seguinte ao planejar sua implantação do Cloud Connector Edition:
 
 - O Cloud Connector não exige uma implantação completa do Skype for Business Server local.
 
-    Atualmente, o Cloud Connector não pode existir em co-existência com servidores locais do Lync ou do Skype for Business. Se você quiser mover usuários existentes do Lync ou skype for Business para o Microsoft 365 e continuar fornecendo telefonia local para seus usuários, considere o Sistema de Telefonia com conectividade local usando uma implantação existente do Skype for Business Server. Para obter mais informações, consulte [Plan your Phone System (Cloud PBX) solution](/skypeforbusiness/hybrid/msft-telephony-solutions/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json) e Plan Phone System with [on-premises PSTN connectivity in Skype for Business Server](plan-phone-system-with-on-premises-pstn-connectivity.md).
+    Atualmente, o Cloud Connector não pode existir em co-existência com servidores locais do Lync ou do Skype for Business. Se você quiser mover usuários existentes do Lync ou skype for Business para o Microsoft 365 e continuar fornecendo telefonia local para seus usuários, considere o Sistema de Telefonia com conectividade local usando uma implantação existente do Skype for Business Server. Para obter mais informações, consulte [Plan your Phone System (Cloud PBX) solution](/microsoftteams/cloud-voice-landing-page.md) e Plan Phone System with [on-premises PSTN connectivity in Skype for Business Server](plan-phone-system-with-on-premises-pstn-connectivity.md).
 
 - Se você teve uma implantação anterior do Skype for Business ou do Lync Server e estendeu o esquema, não é necessário limpar o esquema para a implantação do Cloud Connector, desde que você tenha removido todos os componentes do Skype for Business ou do Lync Server do seu ambiente.
 
@@ -344,13 +344,13 @@ Esta tabela mostra as portas e os intervalos de porta para habilenciar a comunic
 
 
 
-|**IP de origem**|**IP de destino**|**Porta de origem**|**Porta de destino**|
+|**IP de Origem**|**IP de destino**|**Porta de origem**|**Porta de destino**|
 |:-----|:-----|:-----|:-----|
 |Componente de Mediação do Cloud Connector  <br/> |SBC/PSTN Gateway  <br/> |Qualquer  <br/> |TCP 5060\*\*  <br/> |
 |SBC/PSTN Gateway  <br/> |Componente de Mediação do Cloud Connector  <br/> |Qualquer  <br/> |TCP 5068/ TLS 5067  <br/> |
 |Componente de Mediação do Cloud Connector  <br/> |SBC/PSTN Gateway  <br/> |UDP 49 152 - 57 500  <br/> |Any\*\*\*  <br/> |
 |SBC/PSTN Gateway  <br/> |Componente de Mediação do Cloud Connector  <br/> |Any\*\*\*  <br/> |UDP 49 152 - 57 500  <br/> |
-|Componente de Mediação do Cloud Connector  <br/> |Clientes internos  <br/> |TCP 49 152 - 57 500\*  <br/> |TCP 50.000-50.019  <br/> (Opcional)  <br/> |
+|Componente de Mediação do Cloud Connector  <br/> |Clientes internos  <br/> |TCP 49 152 - 57 500\*  <br/> |TCP 50.000-50.019  <br/> Opcional.  <br/> |
 |Componente de Mediação do Cloud Connector  <br/> |Clientes internos  <br/> |UDP 49 152 - 57 500\*  <br/> |UDP 50.000-50.019  <br/> |
 |Clientes internos  <br/> |Componente de Mediação do Cloud Connector  <br/> |TCP 50.000-50.019  <br/> |TCP 49 152 - 57 500\*  <br/> |
 |Clientes internos  <br/> |Componente de Mediação do Cloud Connector  <br/> |UDP 50.000-50.019  <br/> |UDP 49 152 -57 500\*  <br/> |
@@ -383,7 +383,7 @@ Nesse caso, todo o tráfego de mídia para a Internet fluirá por meio da Borda 
 
 
 
-|**IP de origem**|**IP de destino**|**Porta de origem**|**Porta de destino**|
+|**IP de Origem**|**IP de destino**|**Porta de origem**|**Porta de destino**|
 |:-----|:-----|:-----|:-----|
 |Qualquer  <br/> |Interface Externa de Borda do Conector de Nuvem  <br/> |Qualquer  <br/> |TCP(MTLS) 5061  <br/> |
 |Interface Externa de Borda do Conector de Nuvem  <br/> |Qualquer  <br/> |Qualquer  <br/> |TCP(MTLS) 5061  <br/> |
@@ -405,7 +405,7 @@ Nesse caso, todo o tráfego de mídia para o ponto final na Internet pode fluir 
 **Firewall externo - configuração recomendada**
 
 
-|**IP de origem**|**IP de destino**|**Porta de origem**|**Porta de destino**|
+|**IP de Origem**|**IP de destino**|**Porta de origem**|**Porta de destino**|
 |:-----|:-----|:-----|:-----|
 |Qualquer  <br/> |Interface Externa de Borda do Conector de Nuvem  <br/> |Qualquer  <br/> |TCP(MTLS) 5061  <br/> |
 |Interface Externa de Borda do Conector de Nuvem  <br/> |Qualquer  <br/> |Qualquer  <br/> |TCP(MTLS) 5061  <br/> |
@@ -422,13 +422,13 @@ Nesse caso, todo o tráfego de mídia para o ponto final na Internet pode fluir 
 
 O computador host deve ser capaz de alcançar recursos externos para instalar, atualizar e gerenciar com êxito o Cloud Connector. A tabela a seguir mostra os destinos e portas necessários entre o computador host e os recursos externos.
 
-|Direção  <br/> |IP de origem  <br/> |IP de destino  <br/> |Porta de origem  <br/> |Porta de destino  <br/> |Protocolo  <br/> |Finalidade  <br/> |
+|Direção  <br/> |IP de origem  <br/> |IP de destino  <br/> |Porta de origem  <br/> |Porta de destino  <br/> |Protocolo  <br/> |Objetivo  <br/> |
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
 |Saída  <br/> |Cloud Connector host IPs  <br/> |qualquer  <br/> |qualquer  <br/> |53  <br/> |TCP/UDP  <br/> |DNS  <br/> |
 |Saída  <br/> |Cloud Connector host IPs  <br/> |qualquer  <br/> |qualquer  <br/> |80, 443  <br/> |TCP  <br/> |Lista de Revogação de Certificados (CRL)  <br/> |
 |Saída  <br/> |Cloud Connectorr host IPs  <br/> |qualquer  <br/> |qualquer  <br/> |80, 443  <br/> |TCP  <br/> |Atualização do Cloud Connector  <br/> Skype for Business Online  <br/> Admin PowerShell  <br/> Windows Update  <br/> |
 
-Se regras mais restritivas são necessárias, consulte as SEGUINTES URLs de lista branca:
+Se regras mais restritivas são necessárias, consulte as seguintes URLs de lista de permitir:
 
 - [URLs](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2) da Lista de Revogação de Certificados em [URLs do Office 365 e intervalos de endereços IP](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US)
 
@@ -711,7 +711,7 @@ O Cloud Connector 2.1 e posterior oferece suporte ao monitoramento do Cloud Conn
 
 Para obter mais informações, confira o seguinte:
 
-- [Soluções de telefonia da Microsoft](../../../SfbHybrid/hybrid/msft-telephony-solutions.md)
+- [Soluções de telefonia da Microsoft](/microsoftteams/cloud-voice-landing-page)
 
 - [Configurar e gerenciar o Skype for Business Cloud Connector Edition](configure-skype-for-business-cloud-connector-edition.md)
 

@@ -3,7 +3,7 @@ title: Personalizar aplicativos da Microsoft no Teams
 author: cichur
 ms.author: v-cichur
 manager: serdars
-ms.reviewer: vaagarw
+ms.reviewer: v-tbasra
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -18,17 +18,14 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Saiba como personalizar aplicativos no Microsoft Teams.
-ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 0f61cd0d56c1c050508e9a716ba9846d99d422ad
-ms.sourcegitcommit: 5a39061c2156531f4b7f5f69eecf81a8c8b238d0
+ms.openlocfilehash: 100a01c541c79ab62f10f3e11f086cdef5a11996
+ms.sourcegitcommit: 1ee9b1857f472a5b95352f7471c0cf21be6ea0c3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 04/27/2021
-ms.locfileid: "52030131"
+ms.locfileid: "52059175"
 ---
 # <a name="customize-apps-in-microsoft-teams"></a>Personalizar aplicativos no Microsoft Teams
-
-[!INCLUDE [preview-feature](includes/preview-feature.md)]
 
  O Microsoft Teams fornece personalização de aplicativos para aprimorar a experiência do Teams. Alguns desenvolvedores de aplicativos permitem que um aplicativo seja personalizado pelo administrador do Teams. O administrador pode personalizar ou renomear as propriedades do aplicativo com base nas necessidades organizacionais usando a página Gerenciar **aplicativos** do Centro de administração do Teams. Os detalhes que você pode personalizar são:
 

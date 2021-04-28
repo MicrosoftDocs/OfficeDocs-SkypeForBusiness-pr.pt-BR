@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.callqueues.overview"
 - Phone System
 description: Saiba como configurar filas de chamadas com o Microsoft 365 Business Voice.
-ms.openlocfilehash: ded780f0793a503e4f4089c7a201e659008e9eb7
-ms.sourcegitcommit: 5a39061c2156531f4b7f5f69eecf81a8c8b238d0
+ms.openlocfilehash: c7533227796fb9ae9357590993a9065dc01d5030
+ms.sourcegitcommit: 03ff569a0b7a8e04d7b0ab32f370a9a537fa7fe7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "52030121"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "52064817"
 ---
 # <a name="create-a-call-queue---small-business-tutorial"></a>Criar uma fila de chamada - tutorial de pequenas empresas
 
@@ -42,6 +42,12 @@ As filas de chamada fornecem:
 - Roteamento de chamadas, na ordem *Primeiro a Entrar, Primeiro a Sair* (PEPS), para os agentes.
 
 - Opções de administração para estouro da fila e tempo limite.
+
+#### <a name="video-demonstration"></a>Demonstração de vídeo
+
+Este vídeo demonstra como criar uma fila de chamada no Teams.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWCF23?autoplay=false]
 
 #### <a name="before-you-begin"></a>Antes de você começar
 

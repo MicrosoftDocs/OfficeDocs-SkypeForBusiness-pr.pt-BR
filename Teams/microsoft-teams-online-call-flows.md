@@ -18,12 +18,12 @@ appliesto:
 - Microsoft Teams
 description: Saiba como o Teams usa fluxos do Office 365 em várias topologias, bem como fluxos de equipe exclusivos usados para comunicação de mídia ponto a ponto.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a720838958fa249674f6216cbc24ade5134127bc
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 27a2c68483c3d54cb3f3572bbed3a06a53ccc67e
+ms.sourcegitcommit: 1ee9b1857f472a5b95352f7471c0cf21be6ea0c3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51098477"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "52059205"
 ---
 # <a name="microsoft-teams-call-flows"></a>Fluxos de chamadas do Microsoft Teams
 
@@ -87,12 +87,12 @@ A conectividade de fluxos de mídia do Teams é implementada usando procedimento
 
 ### <a name="technologies-that-are-not-recommended-with-microsoft-teams"></a>Tecnologias que não são recomendadas com o Microsoft Teams
 
-**Rede VPN**. Não é recomendado para tráfego de mídia (ou fluxo 2'). O cliente VPN deve usar VPN dividida e rotear o tráfego de mídia como qualquer usuário externo que não seja VPN, conforme especificado em Habilitando a mídia [do Lync para](https://techcommunity.microsoft.com/t5/Skype-for-Business-Blog/Enabling-Lync-Media-to-Bypass-a-VPN-Tunnel/ba-p/620210)ignorar um túnel VPN.
+**Rede VPN**. Não é recomendado para tráfego de mídia (ou fluxo 2'). O cliente VPN deve usar o túnel dividido e rotear o tráfego de mídia do Teams como qualquer usuário externo que não seja VPN, conforme especificado em Habilitando a mídia [do Lync para](https://techcommunity.microsoft.com/t5/Skype-for-Business-Blog/Enabling-Lync-Media-to-Bypass-a-VPN-Tunnel/ba-p/620210)ignorar um túnel VPN.
 
 > [!NOTE]
 > Embora o título indique Lync, ele também é aplicável ao Teams.
 
-**Shapers de pacote**. Qualquer tipo de snippers de pacotes, inspeção de pacotes ou dispositivos de formador de pacotes não são recomendados e podem degradar significativamente a qualidade.
+**Shapers de pacote**. Qualquer tipo de snipper de pacote, inspeção de pacotes ou dispositivos de modelador de pacotes não são recomendados para o tráfego de mídia do Teams e podem degradar significativamente a qualidade.
 
 ### <a name="principles"></a>Princípios
 
@@ -102,7 +102,7 @@ Há quatro princípios gerais que ajudam você a entender os fluxos de chamada d
 
 - Um ponto de extremidade de mídia do Teams no Microsoft 365 ou Office 365 é usado com base nas necessidades de processamento de mídia e não com base no tipo de chamada. (Por exemplo, uma chamada ponto a ponto pode usar um ponto de extremidade de mídia na nuvem para processar mídia para transcrição ou gravação, enquanto uma conferência com dois participantes pode não usar nenhum ponto de extremidade de mídia na nuvem.) No entanto, a maioria das conferências usará um ponto de extremidade de mídia para fins de combinação e roteamento, alocados onde a conferência está hospedada. O tráfego de mídia enviado de um cliente para o ponto de extremidade de mídia pode ser roteado diretamente ou usar um Retransmissão de Transporte no Microsoft 365 ou Office 365, se necessário devido às restrições de firewall de rede do cliente.
 
-- O tráfego de mídia para chamadas ponto a ponto assume a rota mais direta disponível, supondo que a chamada não exige um ponto de extremidade de mídia na nuvem (consulte o princípio anterior). A rota preferencial é direta para o par remoto (cliente), mas se essa rota não estiver disponível, uma ou mais Retransmissão de Transporte retransmitirão o tráfego. É recomendável que o tráfego de mídia não transversa servidores como shapers de pacotes, servidores VPN e assim por diante, pois isso afetará a qualidade da mídia.
+- O tráfego de mídia para chamadas ponto a ponto leva a rota mais direta disponível, supondo que a chamada não exige um ponto de extremidade de mídia na nuvem (consulte o princípio anterior). A rota preferencial é direta para o par remoto (cliente), mas se essa rota não estiver disponível, uma ou mais Retransmissão de Transporte retransmitirão o tráfego. É recomendável que o tráfego de mídia não transversa servidores como shapers de pacotes, servidores VPN e assim por diante, pois isso afetará a qualidade da mídia.
 
 - O tráfego de sinalização sempre vai para o servidor mais próximo do usuário.
 

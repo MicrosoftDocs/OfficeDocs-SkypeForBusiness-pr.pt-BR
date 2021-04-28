@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Saiba como configurar o Sistema de Telefonia para filas de chamadas com o Microsoft Teams, que fornece uma mensagem de saudação, música de espera, redirecionamento de chamadas e outros recursos.
-ms.openlocfilehash: f60714bc1c4868496209f414583c925da527460a
-ms.sourcegitcommit: 900f28c4ac12d65ccbd996028205ba183b4afb03
+ms.openlocfilehash: 8b4fe4283ac9734c1dc29bf33759039098578744
+ms.sourcegitcommit: 03ff569a0b7a8e04d7b0ab32f370a9a537fa7fe7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/24/2021
-ms.locfileid: "51995279"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "52064797"
 ---
 # <a name="create-a-call-queue"></a>Criar uma fila de chamadas
 
@@ -48,6 +48,12 @@ As filas de chamada fornecem:
 Certifique-se de ter lido [Plan for Teams auto attendants](plan-auto-attendant-call-queue.md) and call queues and followed the getting started [steps](plan-auto-attendant-call-queue.md#getting-started) before you follow the procedures in this article.
 
 Para configurar uma fila de chamadas, no Centro de administração do Teams, expanda **Voz**, clique em **Filas de chamadas** e, em seguida, clique em **Adicionar**.
+
+## <a name="video-demonstration"></a>Demonstração de vídeo
+
+Este vídeo mostra um exemplo básico de como criar uma fila de chamada no Teams.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWCF23?autoplay=false]
 
 ## <a name="resource-account-and-language"></a>Idioma e conta de recurso
 

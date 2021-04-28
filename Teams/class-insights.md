@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 68bb46beb40fdb4e5a0814a659df6af092903fc4
-ms.sourcegitcommit: f4393657584666842e874d526a08cfa1137b911d
+ms.openlocfilehash: 9be2f3e173a450f99b4ca6451684dd22e7ab267e
+ms.sourcegitcommit: 03ff569a0b7a8e04d7b0ab32f370a9a537fa7fe7
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51215316"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "52064847"
 ---
 # <a name="it-admin-guide-to-education-insights-in-microsoft-teams"></a>Guia para o Administrador de TI sobre o Insights no Microsoft Teams para Educação
 
@@ -133,6 +133,7 @@ Atualmente, os dados são coletados das seguintes áreas nas equipes de classe:
 | **Arquivos** |   Carregar, baixar, acessar, modificar, comentar e compartilhar um arquivo (não incluindo o conteúdo do arquivo).|
 | **Caderno do OneNote** |  Edição de uma página ou seção em um bloco de notas (não incluindo o conteúdo da página).|
 | **Reuniões** |    Participação (não incluindo o conteúdo da reunião).|
+| **[Refletir](reflect.md)** |   Check-ins (incluindo valores).|
 
 > [!NOTE]
 > A maioria dos dados coletados aparece no Insights dentro de poucos minutos. A participação em reuniões de classe (reuniões associadas a um dos canais de classe) aparece algumas horas após o final da reunião, geralmente até 24 horas depois.
