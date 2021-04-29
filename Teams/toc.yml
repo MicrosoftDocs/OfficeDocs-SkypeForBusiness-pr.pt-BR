@@ -1095,7 +1095,7 @@ items:
                 href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-brunei.md
               - name: Bulgária
                 href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-bulgaria.md
-              - name: 'Chile '
+              - name: Chile
                 href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-chile.md
               - name: China (Norte)
                 href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-chinanorth-10-800-714-xxxx-range.md
@@ -1395,6 +1395,8 @@ items:
                 href: class-insights.md
               - name: Sincronizar os dados SIS com Insights
                 href: education-insights-sis-data-sync.md
+              - name: Introdução ao Reflect
+                href: reflect.md
           - name: Tarefas do Teams para Educação
             href: expand-teams-across-your-org/assignments-in-teams.md
           - name: Recursos do Teams para administradores de Educação
