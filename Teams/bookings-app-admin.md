@@ -21,7 +21,7 @@ ms.reviewer: ''
 description: Microsoft Teams e visitas virtuais com o aplicativo Bookings
 ms.openlocfilehash: e65e0b8c4af7397ebe0b152d2f977b2bf8cbb667
 ms.sourcegitcommit: f0e5da6136656261567ffe0fa3f2fedd901209a8
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 04/19/2021
 ms.locfileid: "51891258"
@@ -41,7 +41,7 @@ Os agendadores podem gerenciar vários calendários de departamentos e de funcio
 
 - O Microsoft Bookings deve ser ativado para a organização.
 
-- Os usuários devem ter uma licença apropriada*. Há suporte para o Office 365 A3, A5, E3 e E5, além do Microsoft 365 Business Premium, Microsoft 365 Business Standard, A3, A5, E3 e E5.
+- Os usuários devem ter uma licença apropriada*. O Office 365 A3, A5, E3 e E5, assim como o Microsoft 365 Business Premium, Microsoft 365 Business Standard, A3, A5, E3 e E5, possuem suporte.
 
 - Todos os usuários do aplicativo Bookings e todos os funcionários que participam das reuniões devem ter uma licença que ofereça suporte ao agendamento de Reunião no Teams.
 
@@ -53,7 +53,7 @@ O aplicativo Microsoft Bookings do Teams está disponível na área de trabalho 
 
 ### <a name="control-access-to-bookings-within-your-organization"></a>Controle o acesso ao Bookings na sua organização
 
-Há várias formas de controlar quem tem acesso ao aplicativo Bookings e aos recursos específicos do aplicativo. Para saber como ativar ou desativar o Microsoft Bookings no Centro de administração do Microsoft 365, assim como criar uma política do aplicativo Bookings para permitir que os usuários selecionados criem calendários do Bookings, consulte [Obter acesso ao Microsoft Bookings](https://support.microsoft.com/en-us/office/get-access-to-microsoft-bookings-5382dc07-aaa5-45c9-8767-502333b214ce). Você também pode saber como [Criar uma política do aplicativo Teams para fixar o aplicativo Bookings aos usuários selecionados](teams-app-setup-policies.md).
+Há várias formas de controlar quem tem acesso ao aplicativo Bookings e aos recursos específicos do aplicativo. Para saber como ativar ou desativar o Microsoft Bookings no Centro de administração do Microsoft 365, assim como criar uma política do aplicativo Bookings para permitir que os usuários selecionados criem calendários do Bookings, consulte [Obter acesso ao Microsoft Bookings](https://support.microsoft.com/pt-BR/office/get-access-to-microsoft-bookings-5382dc07-aaa5-45c9-8767-502333b214ce). Você também pode saber como [Criar uma política do aplicativo Teams para fixar o aplicativo Bookings aos usuários selecionados](teams-app-setup-policies.md).
 
 ## <a name="recommended-meeting-policy-settings"></a>Configurações recomendadas da política de reunião
 

@@ -45,11 +45,11 @@ Para editar a política de Mensagens padrão existente para sua organização, c
 
 As configurações a seguir são de interesse especial para os aplicativos de saúde e devem ser consideradas na concepção de uma política customizada para uso no campo de saúde:
 
-## <a name="read-receipts"></a>Confirmação de leitura
+## <a name="read-receipts&quot;></a>Confirmação de leitura
 
 A confirmação de leitura permite que o remetente de uma mensagem de bate-papo saiba quando a sua mensagem foi lida pelo destinatário em chats individuais e em grupo de 20 pessoas ou menos. Use esta configuração para especificar se as confirmações de leitura são controladas pelo usuário, ativadas para todos ou desativadas para todos. As confirmações de leitura de mensagem são importantes em organizações de saúde porque eliminam a incerteza sobre se uma mensagem foi lida.
 
-Para aplicativos de saúde, escolha **Controlado pelo usuário** ou **Ativado para todos**. Lembre-se de que, ao usar a configuração **Ativado para todos**, a única maneira de definir confirmações para todos os  locatários é ter apenas uma política de mensagens para todos os locatários (a política padrão denominada "Global - padrão para toda a organização") ou fazer com que todas as políticas de mensagens no locatário usem as mesmas configurações para confirmações. O recurso de confirmação de leitura é mais eficaz quando o recurso está habilitado como **Ativado para todos**.
+Para aplicativos de saúde, escolha **Controlado pelo usuário** ou **Ativado para todos**. Lembre-se de que, ao usar a configuração **Ativado para todos**, a única maneira de definir confirmações para todos os  locatários é ter apenas uma política de mensagens para todos os locatários (a política padrão denominada &quot;Global - padrão para toda a organização") ou fazer com que todas as políticas de mensagens no locatário usem as mesmas configurações para confirmações. O recurso de confirmação de leitura é mais eficaz quando o recurso está habilitado como **Ativado para todos**.
 
 *Exemplo de uso sem confirmação de leitura:* Jakob Roth, um paciente de alto risco, é internado no hospital.  Sofia Krause é uma enfermeira que trabalha como parte da equipe interdisciplinar (IDT) de profissionais de saúde, que inclui diferentes especialistas, e é designada como coordenadora de cuidados primários responsável por este paciente.  Sofia envia emails e outras mensagens instantâneas para um grupo de enfermeiras e médicos que usam uma variedade de aplicativos e mensagens instantâneas e, geralmente, não obtém resposta ou indicação se uma mensagem foi lida pelos membros da equipe. Devido aos processos de comunicação emaranhados, a medicação de Jakob é mal aplicada e a sua permanência no hospital é prolongada.
 

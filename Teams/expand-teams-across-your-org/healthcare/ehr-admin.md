@@ -25,7 +25,7 @@ ms.reviewer: ''
 description: Usar o Microsoft Teams para configurar seu Sistema de visitas virtuais
 ms.openlocfilehash: 37b93533aeff6b519b1f5a65cf49211464b41388
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 03/23/2021
 ms.locfileid: "51096275"
@@ -66,7 +66,7 @@ Você também precisará de informações das seguintes pessoas em sua organiza�
 - Analista de clientes Epic
 
 > [!Note]
-> Revise o [Guia de Integração de Telehealth da Epic-Microsoft Teams](https://galaxy.epic.com/Search/GetFile?Url=1!68!100!100100357) com seu especialista técnico da Épico. Certifique-se de que todos os pré-requisitos sejam concluídos. 
+> Consulte o [Guia de integração de Telessaúde do Epic-Microsoft Teams](https://galaxy.epic.com/Search/GetFile?Url=1!68!100!100100357) com o especialista técnico do seu Epic. Certifique-se de que todos os pré-requisitos foram concluídos. 
 
 ## <a name="connector-setup"></a>Configuração do conector
 
@@ -144,7 +144,7 @@ Principais recursos da experiência do provedor:
 
 - Os provedores devem fazer uma entrada única com sua conta do Microsoft 365 ao ingressar em uma visita virtual pela primeira vez.
 
-- Após a entrada única, o provedor será levado diretamente para o compromisso virtual no Microsoft Teams. (O provedor deve estar conectado ao Microsoft Teams).
+- Após o logon único, o provedor será levado diretamente para o compromisso virtual no Microsoft Teams. (O provedor deve estar conectado ao Microsoft Teams).
 
 - O provedor pode ver atualizações em tempo real dos participantes que se conectam e desconectam para um determinado compromisso. O provedor pode ver quando o paciente está conectado a uma visita virtual.
 

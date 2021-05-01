@@ -21,7 +21,7 @@ appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 1688d4791c3d20ef28e9ff2a44349c87293acea3
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 03/23/2021
 ms.locfileid: "51101147"
@@ -121,7 +121,7 @@ Para obter as etapas sobre como configurar a hierarquia de segmentação de sua 
 
 ## <a name="power-automate-and-graph-api"></a>API Power Automate e Graph
 
-O Tasks oferece suporte ao Power Automate para Tarefas Pendentes e APIs de Gráfico para Planner. Para saber mais, veja:
+O Tasks oferece suporte ao Power Automate para To Do e APIs de Gráfico para Planner. Para saber mais, confira:
 
 - [Visão geral da API de planos e tarefas do planejador](/graph/planner-concept-overview)
 - [Usando a Microsoft To-Do para fazer com o Power Automate](https://support.office.com/article/using-microsoft-to-do-with-power-automate-526e8f75-217b-46e0-9e06-44780b72c295)
