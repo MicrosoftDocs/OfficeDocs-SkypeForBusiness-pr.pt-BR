@@ -23,7 +23,7 @@ searchScope:
 description: Saiba como usar e gerenciar pacotes de política do Teams para sua organização da área de saúde.
 ms.openlocfilehash: 830b8fc5f6938f84f188f5f5d732a3ecfd6eb5b1
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 03/23/2021
 ms.locfileid: "51117759"
@@ -84,7 +84,7 @@ Lembre-se de que você também pode alterar as configurações das políticas em
 
 ### <a name="assign"></a>Atribuir
 
-Atribua o pacote de política aos usuários. Se um usuário tiver uma política atribuída e, em seguida, você atribuir uma política diferente, a atribuição mais recente terá prioridade.
+Atribua o pacote de política aos usuários. Se um usuário tiver uma política atribuída e, mais tarde, você atribuir uma política diferente, a atribuição mais recente terá prioridade.
 
 #### <a name="assign-a-policy-package-to-one-or-several-users"></a>Atribuir um pacote de política a um ou vários usuários
 
