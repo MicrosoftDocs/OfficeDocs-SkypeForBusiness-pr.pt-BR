@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Aqui estão os serviços do Microsoft 365 e do Office 365 para Skype for Business e Microsoft Teams disponíveis para a Noruega.
-ms.openlocfilehash: 2b31513baa93a1e4f6c4f10760cffc90b3fbce5a
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Aqui estão os serviços Microsoft 365 Office 365 para Skype for Business e Microsoft Teams disponíveis para a Noruega.
+ms.openlocfilehash: a115834d56a2c68d3c7fd9652cd81537b4d6dfac
+ms.sourcegitcommit: 49cdcf344c63c805bcb6365804c6f5d1393e926a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51102327"
+ms.lasthandoff: 05/03/2021
+ms.locfileid: "52130180"
 ---
 # <a name="availability-in-norway"></a>Disponibilidade na Noruega
 
 [Encontre outro país ou região](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) ou saiba mais sobre a disponibilidade de Audioconferência e planos de chamadas por país e região.
 
-Aqui estão os serviços do Microsoft 365 e do Office 365 para Skype for Business e Microsoft Teams disponíveis para a Noruega.
+Aqui estão os serviços Microsoft 365 Office 365 para Skype for Business e Microsoft Teams disponíveis para a Noruega.
   
 ## <a name="audio-conferencing"></a>Audioconferência
 
@@ -59,11 +59,10 @@ Aqui estão os serviços do Microsoft 365 e do Office 365 para Skype for Busines
 
 |**Recurso**|**Detalhes**|
 |:-----|:-----|
-|Os Planos de Chamadas estão disponíveis para compra?  <br/> |Não  <br/> |
-|Minutos disponíveis para Planos de Chamadas  <br/> |Não aplicável  <br/> |
-|É possível fazer chamadas de saída?  <br/> |Não aplicável  <br/> |
-
-Se os Planos de Chamada não estiverem disponíveis para compra, considere a possibilidade de usar o [Roteamento Direto do Sistema de Telefonia](../direct-routing-landing-page.md). Com o Roteamento Direto, você pode usar o Sistema de Telefonia praticamente com qualquer portadora de telefonia.
+|Os Planos de Chamadas estão disponíveis para compra?  <br/> |Sim  <br/> |
+|Minutos disponíveis para planos de chamada. |Há quatro opções de plano disponíveis por mês de calendário: <ul><li>Plano de Chamada Doméstica de 120 minutos </li><li>Plano de Chamada Doméstica de 240 minutos</li></li><li>Plano de Chamada Doméstica de 1200 minutos </li></li><li>Plano de Chamada Doméstica e Internacional: 1200 minutos de chamada doméstica -OR- 600 minutos de chamada internacional (o que for atingido primeiro no mês do calendário)</li></li></ul>|
+|Pode fazer chamadas de saída para números premium?  <br/> | Não há suporte no momento. <br/> |
+|É possível fazer chamadas de saída?  <br/> | Para 196 países, incluindo [estes](users-can-make-outbound-calls-to-these-countries-and-regions.md).<br/> |
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Números de chamadas gratuitas e tarifadas para serviços
 

@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1e03ad5c562f7fd31599bbb86f08e411dfa4b415
-ms.sourcegitcommit: fb87d64c6f98041a1da50cf4ef6ff54cdc8d1d29
+ms.openlocfilehash: c71f08840ffa9c41622d07376933c14a7ae6b493
+ms.sourcegitcommit: 49cdcf344c63c805bcb6365804c6f5d1393e926a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "51902565"
+ms.lasthandoff: 05/03/2021
+ms.locfileid: "52129790"
 ---
 # <a name="teams-approvals-app-availability"></a>Disponibilidade dos aplicativos de aprovação do Teams
 
@@ -41,7 +41,7 @@ A primeira aprovação criada a partir do aplicativo Aprovações acionará o pr
 Este artigo descreve os requisitos e as funções do aplicativo Aprovações.
 
 > [!NOTE]
-> Esse recurso ainda não foi lançado para usuários do Government Community Cloud (GCC), Government Community Cloud High (GCCH) e Department of Defense (DOD).
+> Esse recurso ainda não foi lançado para usuários Nuvem da Comunidade Governamental (GCC), Nuvem da Comunidade Governamental High (GCCH) e Departamento de Defesa (DOD).
 
 ## <a name="required-permissions-and-licenses"></a>Permissões e licenças necessárias
 
@@ -57,7 +57,7 @@ Para usar o aplicativo Aprovações, você precisa de permissão para os seguint
 
 ## <a name="storage-with-cds"></a>Armazenamento com CDS
 
-O CDM (Modelo de Dados Comum) é a linguagem de dados compartilhada usada por aplicativos de negócios e analíticos no CDS. Ele consiste em um conjunto de esquemas de dados padronizados e extensíveis publicados pela Microsoft e por nossos parceiros, que permite a consistência dos dados e seu significado entre aplicativos e processos comerciais. Saiba mais sobre o [dados comuns do Microsoft Power Platform](/power-automate/get-started-approvals).
+O CDM (Modelo de Dados Comum) é a linguagem de dados compartilhada usada por aplicativos de negócios e analíticos no CDS. Ele consiste em um conjunto de esquemas de dados extensíveis padronizados publicados pela Microsoft e por nossos parceiros que permitem a consistência dos dados e seu significado em aplicativos e processos empresariais. Saiba mais sobre o [dados comuns do Microsoft Power Platform](/power-automate/get-started-approvals).
 
 Saiba mais sobre o fluxo [de trabalho aprovação](/power-automate/modern-approvals).
 
@@ -94,13 +94,13 @@ O aplicativo Aprovações está disponível por padrão. Você pode desabilitar 
 
   3. Procure o aplicativo Aprovações.
 
-![mostra a navegação do Centro de administração com Aplicativos do Teams > Gerenciar Aplicativos realçada](media/manage-approval-apps.png)
+     ![mostra a navegação do Centro de administração com Aplicativos do Teams > Gerenciar Aplicativos realçada](media/manage-approval-apps.png)
 
   4. Selecione Aprovações.
 
   5. Selecione o alternância para desabilitar o aplicativo em sua organização.
 
-![mostra os detalhes do aplicativo Aprovações](media/approvals-details.png)
+     ![mostra os detalhes do aplicativo Aprovações](media/approvals-details.png)
 
 ## <a name="retention-policy"></a>Política de retenção
 
@@ -136,6 +136,12 @@ Você pode procurar as seguintes atividades:
 
 - Assinatura eletrônica adicionada à solicitação de aprovação
 
+- Detalhes da solicitação de assinatura eletrônica exibida
+
+- Solicitação de assinatura eletrônica revisada
+
+- Solicitação de assinatura eletrônica cancelada
+
 Para obter acesso a mais aprovações de auditoria no Flow, habilita e configure a auditoria no ambiente padrão para as entidades de aprovação principais Aprovação, Solicitação de Aprovação e Resposta de Aprovação. Operações de criação, atualização e exclusão são eventos auditáveis para registros de Aprovação. Saiba mais sobre [dados de Auditoria e atividade do usuário para segurança e conformidade - Power Platform \| Microsoft Docs](/power-platform/admin/audit-data-user-activity).
 
 A auditoria pode ser personalizada ainda mais no [de Conformidade e Segurança do Microsoft 365](https://support.office.com/article/go-to-the-office-365-security-compliance-center-7e696a40-b86b-4a20-afcc-559218b7b1b8?ui=en-US&rs=en-US&ad=US).
@@ -154,3 +160,19 @@ No aplicativo Aprovações de Equipes, os usuários têm acesso para criar novas
 
 > [!Note]
 > Um usuário terá uma função de visualizador de uma solicitação se ele for parte do chat ou canal no qual a aprovação foi criada. Ela não terá a capacidade de tomar medidas na solicitação caso não tenha sido concedida essa função quando a aprovação foi criada.
+
+## <a name="approvals-e-signature-integration"></a>Aprova a integração de assinatura eletrônica
+
+As aprovações de assinatura eletrônica criadas a partir do aplicativo Aprovações são armazenadas no ambiente de nuvem do provedor selecionado. Para obter mais informações sobre o armazenamento em torno do contrato de assinatura eletrônica, consulte a documentação de armazenamento do provedor selecionado.
+
+Para usar o recurso de assinatura eletrônica do aplicativo Aprovações, você precisa dos seguintes itens:
+
+- Licença para o provedor de assinatura eletrônica específico que você está escolhendo usar. Para obter uma licença para sua organização, você precisará acessar o site do provedor.
+
+Para a funcionalidade de assinatura eletrônica Aprovações, parceiros de assinatura de terceiros aparecerão no aplicativo Teams Aprovações por padrão. Você pode desabilitar provedores de assinatura eletrônica específicos acessando as configurações do aplicativo no Teams de administração.
+
+1. No centro Teams de administração, em Gerenciar **aplicativos,** selecione o aplicativo Aprovações e escolha **Configurações**. 
+
+2. Cada provedor de assinatura eletrônica tem uma alternância ao lado dele que está na posição on (à direita) por padrão. Deslize a alternância para a esquerda para desabilitar um provedor de assinatura eletrônica específico. Se um administrador Teams desabilitar um provedor, os usuários finais não verão o provedor ao criar uma aprovação. Os usuários finais também não poderão exibir quaisquer solicitações de assinatura eletrônica que foram feitas com esse provedor.
+
+Aprovações de assinatura eletrônica criadas a partir do Aplicativo de Aprovações são armazenadas na nuvem do provedor selecionado. Portanto, você precisará acessar o site do provedor para exportar quaisquer dados sobre assinaturas eletrônicas. Consulte a documentação do provedor sobre exportação e retenção desses contratos.

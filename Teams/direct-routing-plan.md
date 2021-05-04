@@ -17,33 +17,33 @@ appliesto:
 f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
-description: Saiba como o Roteamento Direto do Sistema de Telefonia do Microsoft Phone permite que você conecte um Controlador de Borda de Sessão (SBC) fornecido pelo cliente com suporte ao Microsoft Phone System.
-ms.openlocfilehash: f99801989920bf82b07aa6f15fcab9a99b2df065
-ms.sourcegitcommit: 109b3869afb5ff1ca4eaf771399d7cda70a43bea
+description: Saiba como Telefone Microsoft o Roteamento Direto do Sistema permite que você conecte um SBC (Controlador de Borda de Sessão) fornecido pelo cliente com suporte ao Telefone Microsoft System.
+ms.openlocfilehash: 90ed1fe51c3b6e3ee6c498fd586e54a05ab533e3
+ms.sourcegitcommit: 49cdcf344c63c805bcb6365804c6f5d1393e926a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/05/2021
-ms.locfileid: "51586550"
+ms.lasthandoff: 05/03/2021
+ms.locfileid: "52130280"
 ---
 # <a name="plan-direct-routing"></a>Planejar o Roteamento Direto
 
 > [!Tip]
-> Assista à sessão a seguir para saber mais sobre os benefícios do Roteamento [Direto,](https://aka.ms/teams-direct-routing) como planejar e como implantá-la: Roteamento Direto no Microsoft Teams
+> Assista à sessão a seguir para saber mais sobre os benefícios do Roteamento Direto, como planejar e como implantá-la: [Roteamento Direto no Microsoft Teams](https://aka.ms/teams-direct-routing)
 
-O Roteamento Direto do Sistema do Microsoft Phone permite que você conecte um SBC (Controlador de Borda de Sessão) fornecido pelo cliente ao Microsoft Phone System.  Com esse recurso, por exemplo, você pode configurar a conectividade PSTN (Rede Telefônica Pública Comutada) local com o cliente do Microsoft Teams, conforme mostrado no diagrama a seguir: 
+Telefone Microsoft O Roteamento Direto do Sistema permite que você conecte um SBC (Controlador de Borda de Sessão) fornecido pelo cliente ao Telefone Microsoft System.  Com esse recurso, por exemplo, você pode configurar a conectividade PSTN (Rede Telefônica Pública Comutada) local com o cliente Microsoft Teams, conforme mostrado no diagrama a seguir: 
 
-![Diagrama mostrando a configuração da conectividade PSTN local](media/PlanDirectRouting1-PSTNwithTeams.png "Configuração da conectividade PSTN local com o cliente do Microsoft Teams")
+![Diagrama mostrando a configuração da conectividade PSTN local](media/PlanDirectRouting1-PSTNwithTeams.png "Configuração da conectividade PSTN local com Microsoft Teams cliente")
 
   > [!NOTE]
-  > O Skype for Business Online também permite que você emparelhe um SBC fornecido pelo cliente, mas isso requer uma implantação local do Skype for Business Server ou uma edição especial do Skype for Business, chamada Cloud Connector, entre o SBC e o Microsoft Cloud. Esse cenário é conhecido como voz híbrida. Por outro lado, o Roteamento Direto permite uma conexão direta entre o SBC com suporte e o Microsoft Cloud.
+  > Skype for Business Online também permite emparelhar um SBC fornecido pelo cliente, mas isso requer uma implantação local do Skype for Business Server ou uma edição especial do Skype for Business, chamada Cloud Connector, entre o SBC e o Microsoft Cloud. Esse cenário é conhecido como voz híbrida. Por outro lado, o Roteamento Direto permite uma conexão direta entre o SBC com suporte e o Microsoft Cloud.
 
 > [!Important]
-> O Cloud Connector Edition se aposentará em 31 de julho de 2021 junto com o Skype for Business Online. Depois que sua organização tiver atualizado para o Teams, saiba como conectar sua rede de telefonia local ao Teams usando [Roteamento Direto.](direct-routing-landing-page.md) 
+> O Cloud Connector Edition se aposentará em 31 de julho de 2021 junto com Skype for Business Online. Depois que sua organização tiver sido atualizada para Teams, saiba como conectar sua rede de telefonia local ao Teams usando [Roteamento Direto](direct-routing-landing-page.md). 
 
 Com o Roteamento Direto, você pode conectar seu SBC a praticamente qualquer tronco de telefonia ou interconectar com equipamento PSTN de terceiros. O Roteamento Direto permite que você: 
 
-- Use praticamente qualquer tronco PSTN com o Microsoft Phone System. 
-- Configure a interoperabilidade entre equipamentos de telefonia de propriedade do cliente, como pbx (troca de filial privada de terceiros), dispositivos analógicos e Sistema de Telefonia da Microsoft.
+- Use praticamente qualquer tronco PSTN com Telefone Microsoft System. 
+- Configure a interoperabilidade entre equipamentos de telefonia de propriedade do cliente, como pbx (troca de filial privada) de terceiros, dispositivos analógicos e Telefone Microsoft System.
 
 A Microsoft também oferece soluções de voz all-in-the-cloud, como Plano de Chamadas. No entanto, uma solução de voz híbrida pode ser melhor para sua organização se: 
 
@@ -51,7 +51,7 @@ A Microsoft também oferece soluções de voz all-in-the-cloud, como Plano de Ch
 - Sua organização exige conexão com dispositivos analógicos de terceiros, call centers e assim por diante. 
 - Sua organização tem um contrato existente com uma operadora PSTN.
 
-O Roteamento Direto também dá suporte a usuários que têm a licença adicional para o Plano de Chamadas da Microsoft. Para obter mais informações, consulte [Sistema de Telefonia e Planos de Chamadas.](calling-plan-landing-page.md) 
+O Roteamento Direto também dá suporte a usuários que têm a licença adicional para o Plano de Chamadas da Microsoft. Para obter mais informações, [consulte Sistema de Telefonia e Planos de Chamada.](calling-plan-landing-page.md) 
 
 Com o Roteamento Direto, quando os usuários participam de uma conferência agendada, o número de discagem é fornecido pelo serviço de Audioconferência da Microsoft, que exige o licenciamento adequado.  Ao discar, o serviço de Audioconferência da Microsoft coloca a chamada usando recursos de chamada online, o que exige o licenciamento adequado. (Observe que, se um usuário não tiver uma licença de Audioconferência da Microsoft, a chamada será roteado pelo Roteamento Direto.) Para obter mais informações, consulte [Online Meetings with Teams](https://products.office.com/microsoft-teams/online-meeting-solutions). 
  
@@ -74,68 +74,68 @@ Os requisitos de infraestrutura para os SBCs, domínios e outros requisitos de c
 |Requisito de infraestrutura|Você precisa do seguinte|
 |:--- |:--- |
 |Controlador de Borda de Sessão (SBC)|Um SBC com suporte. Para obter mais informações, consulte [SBCs com suporte](#supported-session-border-controllers-sbcs).|
-|Troncos de telefonia conectados ao SBC|Um ou mais troncos de telefonia conectados ao SBC. Em uma extremidade, o SBC se conecta ao Sistema de Telefonia Microsoft por meio de Roteamento Direto. O SBC também pode se conectar a entidades de telefonia de terceiros, como PBXs, Adaptadores de Telefonia Analógica e assim por diante. Qualquer opção de conectividade PSTN conectada ao SBC funcionará. (Para a configuração dos troncos PSTN para o SBC, consulte os fornecedores SBC ou provedores de tronco.)|
-|Organização do Microsoft 365 ou Office 365|Uma organização do Microsoft 365 ou do Office 365 que você usa para a casa dos usuários do Microsoft Teams e a configuração e a conexão com o SBC.|
-|Registrador de usuários|O usuário deve estar em casa no Microsoft 365 ou no Office 365.<br/>Se a sua empresa tiver um ambiente local do Skype for Business ou do Lync com conectividade híbrida com o Microsoft 365 ou o Office 365, você não poderá habilitar a voz no Teams para um usuário instalado no local.<br/><br/>Para verificar o registrador de um usuário, use o seguinte cmdlet do PowerShell do Skype for Business Online:<br/><code>Get-CsOnlineUser -Identity \<user> \| fl HostingProvider</code> <br/><br/>A saída do cmdlet deve mostrar:<br/><code>HostingProvider : sipfed.online.lync.com</code>|
-|Domínios|Um ou mais domínios adicionados às suas organizações do Microsoft 365 ou Office 365.<br/><br/>Observe que você não pode usar o domínio padrão, \* .onmicrosoft.com, que é criado automaticamente para seu locatário.<br/><br/>Para exibir os domínios, você pode usar o seguinte cmdlet do PowerShell do Skype for Business Online:<br/><code>Get-CsTenant \| fl Domains</code><br/><br/>Para obter mais informações sobre domínios e organizações do Microsoft 365 ou Office 365, consulte [Perguntas frequentes sobre domínios.](https://support.office.com/article/Domains-FAQ-1272bad0-4bd4-4796-8005-67d6fb3afc5a)|
+|Troncos de telefonia conectados ao SBC|Um ou mais troncos de telefonia conectados ao SBC. Em uma extremidade, o SBC se conecta ao sistema Telefone Microsoft via Roteamento Direto. O SBC também pode se conectar a entidades de telefonia de terceiros, como PBXs, Adaptadores de Telefonia Analógica e assim por diante. Qualquer opção de conectividade PSTN conectada ao SBC funcionará. (Para a configuração dos troncos PSTN para o SBC, consulte os fornecedores SBC ou provedores de tronco.)|
+|Microsoft 365 ou Office 365 organização|Uma Microsoft 365 ou Office 365 que você usa para o seu Microsoft Teams usuários e a configuração e a conexão com o SBC.|
+|Registrador de usuários|O usuário deve estar Microsoft 365 ou Office 365.<br/>Se sua empresa tiver um ambiente local Skype for Business ou Lync com conectividade híbrida com Microsoft 365 ou Office 365, você não poderá habilitar a voz no Teams para um usuário que está no local.<br/><br/>Para verificar o registrador de um usuário, use o seguinte cmdlet Skype for Business PowerShell Online:<br/><code>Get-CsOnlineUser -Identity \<user> \| fl HostingProvider</code> <br/><br/>A saída do cmdlet deve mostrar:<br/><code>HostingProvider : sipfed.online.lync.com</code>|
+|Domínios|Um ou mais domínios adicionados às organizações Microsoft 365 ou Office 365.<br/><br/>Observe que você não pode usar o domínio padrão, \* .onmicrosoft.com, que é criado automaticamente para seu locatário.<br/><br/>Para exibir os domínios, você pode usar o seguinte cmdlet Skype for Business PowerShell Online:<br/><code>Get-CsTenant \| fl Domains</code><br/><br/>Para obter mais informações sobre domínios e Microsoft 365 ou Office 365, consulte [Perguntas frequentes sobre domínios.](https://support.office.com/article/Domains-FAQ-1272bad0-4bd4-4796-8005-67d6fb3afc5a)|
 |Endereço IP público do SBC|Um endereço IP público que pode ser usado para se conectar ao SBC. Com base no tipo de SBC, o SBC pode usar NAT.|
-|FQDN (Nome de Domínio Totalmente Qualificado) para o SBC|Um FQDN para o SBC, onde a parte de domínio do FQDN é um dos domínios registrados em sua organização do Microsoft 365 ou office 365. Para obter mais informações, consulte [Nomes de domínio SBC](#sbc-domain-names).|
+|FQDN (Nome de Domínio Totalmente Qualificado) para o SBC|Um FQDN para o SBC, onde a parte de domínio do FQDN é um dos domínios registrados em sua Microsoft 365 ou Office 365 organização. Para obter mais informações, consulte [Nomes de domínio SBC](#sbc-domain-names).|
 |Entrada DNS pública para o SBC |Uma entrada DNS pública mapeando o FQDN SBC para o Endereço IP público. |
 |Certificado confiável público para o SBC |Um certificado para o SBC a ser usado para toda a comunicação com o Roteamento Direto. Para obter mais informações, consulte [Public trusted certificate for the SBC](#public-trusted-certificate-for-the-sbc).|
 |Pontos de conexão para Roteamento Direto |Os pontos de conexão para Roteamento Direto são os três FQDNs a seguir:<br/><br/>`sip.pstnhub.microsoft.com` – O FQDN global deve ser experimentado primeiro.<br/>`sip2.pstnhub.microsoft.com` – FQDN secundário, mapeia geograficamente para a região de segunda prioridade.<br/>`sip3.pstnhub.microsoft.com` – FQDN terciário, mapeia geograficamente para a região de terceira prioridade.<br/><br/>Para obter informações sobre os requisitos de configuração, consulte [Sinalização SIP: FQDNs](#sip-signaling-fqdns).|
-|Endereços IP de firewall e portas para mídia de Roteamento Direto |O SBC se comunica com os seguintes serviços na nuvem:<br/><br/>Proxy SIP, que lida com a sinalização<br/>Processador de Mídia, que lida com mídia - exceto quando o Desvio de Mídia está em<br/><br/>Esses dois serviços têm endereços IP separados no Microsoft Cloud, descritos posteriormente neste documento.<br/><br/>Para obter mais informações, consulte a seção [Microsoft Teams em](/office365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams) [URLs e intervalos de endereços IP.](/office365/enterprise/urls-and-ip-address-ranges) |
+|Endereços IP de firewall e portas para mídia de Roteamento Direto |O SBC se comunica com os seguintes serviços na nuvem:<br/><br/>Proxy SIP, que lida com a sinalização<br/>Processador de Mídia, que lida com mídia - exceto quando o Desvio de Mídia está em<br/><br/>Esses dois serviços têm endereços IP separados no Microsoft Cloud, descritos posteriormente neste documento.<br/><br/>Para obter mais informações, consulte a [seção Microsoft Teams em](/office365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams) [URLs e intervalos de endereços IP.](/office365/enterprise/urls-and-ip-address-ranges) |
 |Perfil de Transporte de Mídia|TCP/RTP/SAVP <br/>UDP/RTP/SAVP|
-Endereços IP de firewall e portas para mídia do Microsoft Teams |Para obter mais informações, [consulte URLs e intervalos de endereços IP](/office365/enterprise/urls-and-ip-address-ranges). |
+Endereços IP de firewall e portas para Microsoft Teams mídia |Para obter mais informações, [consulte URLs e intervalos de endereços IP](/office365/enterprise/urls-and-ip-address-ranges). |
 |||
 
 ## <a name="licensing-and-other-requirements"></a>Licenciamento e outros requisitos 
 
-Os usuários do Roteamento Direto devem ter as seguintes licenças atribuídas no Microsoft 365 ou no Office 365: 
+Os usuários do Roteamento Direto devem ter as seguintes licenças atribuídas Microsoft 365 ou Office 365: 
 
-- Microsoft Phone System. 
-- Microsoft Teams + Skype for Business Plan 2, se incluído no licenciamento.
+- Telefone Microsoft Sistema. 
+- Microsoft Teams + Skype for Business Plano 2, se incluído no licenciamento.
 - Conferência de Áudio da Microsoft (leia as anotações e o parágrafo abaixo para exemplos específicos sobre quando a licença é necessária).
 
 > [!NOTE]
-> O Plano do Skype for Business não deve ser removido de nenhum contrato de licenciamento no qual ele está incluído. 
+> Skype for Business O plano não deve ser removido de qualquer contrato de licenciamento no qual ele está incluído. 
 > 
 > [!IMPORTANT]
-> Os usuários do GCC High e do DoD devem desabilitar qualquer licenciamento de Audioconferência incluído no G5 e aguardar para habilitar qualquer Audioconferência até que o Roteamento Direto seja totalmente configurado. Os usuários devem ter números de telefone discados configurados e um bloco de discagem de trabalho antes de habilbilar licenças de Audioconferência. Consulte [Audioconferência com Roteamento Direto para GCC High e DoD](./audio-conferencing-with-direct-routing-for-gcch-and-dod.md) para obter mais detalhes.
+> GCC Os usuários high e DoD devem desabilitar qualquer licenciamento de Audioconferência incluído no G5 e aguardar para habilitar qualquer Audioconferência até que o Roteamento Direto seja totalmente configurado. Os usuários devem ter números de telefone discados configurados e um bloco de discagem de trabalho antes de habilbilar licenças de Audioconferência. Consulte [Audioconferência com Roteamento](./audio-conferencing-with-direct-routing-for-gcch-and-dod.md) Direto para GCC Alta e DoD para obter mais detalhes.
 
 
 > [!IMPORTANT]
 >  Caso você gostaria de adicionar participantes externos a reuniões agendadas, discando para eles ou fornecendo o número de discagem, a licença de audioconferência é necessária.
-> Para GCC High e DoD, não atribua uma licença de Audioconferência para usuários do G5.  Para usuários G3, não atribua uma licença de Audioconferência até que o Roteamento Direto seja totalmente configurado e o usuário tenha um bloco de discagem funcionando.
+> Para GCC Alta e DoD, não atribua uma licença de Audioconferência para usuários do G5.  Para usuários G3, não atribua uma licença de Audioconferência até que o Roteamento Direto seja totalmente configurado e o usuário tenha um bloco de discagem funcionando.
 
 
 ### <a name="ad-hoc-call-escalation-and-audio-conferencing-license"></a>Escalação de chamada ad hoc e licença de Audioconferência
 
-Um usuário do Teams pode iniciar uma chamada do Teams um-a-um para PSTN ou Teams para o Teams e adicionar um participante PSTN a ele. Esse cenário é chamado de conferência ad hoc. O caminho que a chamada leva depende se o usuário que escalona a chamada tem uma licença de Audioconferência da Microsoft atribuída ou não:
+Um Teams usuário pode iniciar uma chamada um-a-um Teams PSTN ou Teams para Teams e adicionar um participante PSTN a ela. Esse cenário é chamado de conferência ad hoc. O caminho que a chamada leva depende se o usuário que escalona a chamada tem uma licença de Audioconferência da Microsoft atribuída ou não:
 
-- Se o usuário do Teams que escalona a chamada tiver uma licença de Audioconferência da Microsoft atribuída, a escalada ocorrerá por meio do serviço de Audioconferência da Microsoft. O participante PSTN remoto que é convidado para a chamada existente recebe uma notificação sobre a chamada de entrada e vê o número da ponte da Microsoft atribuída ao usuário do Teams que iniciou a escalada.
-- Se o usuário do Teams que escalona a chamada não tiver a licença de Audioconferência da Microsoft atribuída, a escalação ocorrerá por meio de um Controlador de Borda de Sessão conectado à interface de Roteamento Direto. O participante PSTN remoto que é convidado para a chamada recebe uma notificação sobre a chamada de entrada e vê o número do usuário do Teams que iniciou a escalação. O SBC específico usado para a escalonamento é definido pela Política de Roteamento do usuário. 
+- Se o Teams usuário que escalona a chamada tiver uma licença de Audioconferência da Microsoft atribuída, a escalada ocorrerá por meio do serviço de Audioconferência da Microsoft. O participante PSTN remoto que é convidado para a chamada existente recebe uma notificação sobre a chamada de entrada e vê o número da ponte da Microsoft atribuída ao usuário Teams que iniciou a escalação.
+- Se o Teams usuário que escalona a chamada não tiver a licença de Audioconferência da Microsoft atribuída, a escalonamento ocorrerá por meio de um Controlador de Borda de Sessão conectado à interface de Roteamento Direto. O participante PSTN remoto que é convidado para a chamada recebe uma notificação sobre a chamada de entrada e vê o número do usuário Teams que iniciou a escalada. O SBC específico usado para a escalonamento é definido pela Política de Roteamento do usuário. 
 
 
 Além disso, você deve garantir o seguinte:
  
 - CsOnlineVoiceRoutingPolicy é atribuído ao usuário. 
-- Permitir Chamada Privada está habilitada no nível de locatário para o Microsoft Teams. 
+- Permitir Chamada Privada está habilitada no nível de locatário para Microsoft Teams. 
 
-O Roteamento Direto também dá suporte a usuários licenciados para o Plano de Chamadas da Microsoft. O Sistema de Telefonia da Microsoft com Plano de Chamadas pode rotear algumas chamadas usando a interface de Roteamento Direto. No entanto, os números de telefone dos usuários devem ser adquiridos online ou portados para a Microsoft.  
+O Roteamento Direto também dá suporte a usuários licenciados para o Plano de Chamadas da Microsoft. Telefone Microsoft O sistema com Plano de Chamadas pode rotear algumas chamadas usando a interface de Roteamento Direto. No entanto, os números de telefone dos usuários devem ser adquiridos online ou portados para a Microsoft.  
 
 Misturar o Plano de Chamadas e a conectividade de Roteamento Direto para o mesmo usuário é opcional, mas pode ser útil (por exemplo, quando o usuário recebe um Plano de Chamadas da Microsoft, mas deseja rotear algumas chamadas usando o SBC). Um dos cenários mais comuns são chamadas para PBXs de terceiros.  Com PBXs de terceiros, todas as chamadas, exceto chamadas para os telefones conectados a esse PBXs, são roteados usando o Plano de Chamadas da Microsoft, mas as chamadas para os telefones conectados a PBXs de terceiros vão para o SBC e, portanto, permanecem na rede corporativa e não na PSTN. 
 
-Para obter mais informações sobre o licenciamento do Sistema de Telefonia, consulte [Obter o máximo de Opções](https://products.office.com/compare-all-microsoft-office-products?tab=2) do Office e Do [Plano.](/office365/servicedescriptions/office-365-platform-service-description/office-365-plan-options) 
+Para obter mais informações sobre Sistema de Telefonia licenciamento, consulte Obter o máximo [de Office](https://products.office.com/compare-all-microsoft-office-products?tab=2) e Opções [de Plano.](/office365/servicedescriptions/office-365-platform-service-description/office-365-plan-options) 
 
-Para obter mais informações sobre licenciamento do Sistema de Telefonia, consulte [Licenciamento de complemento do Microsoft Teams.](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md) 
+Para obter mais informações sobre Sistema de Telefonia licenciamento, [consulte Microsoft Teams licenciamento de complemento.](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md) 
 
 ## <a name="supported-end-points"></a>Pontos de extremidade com suporte 
 
 Você pode usar como ponto de extremidade:
 
-- Qualquer cliente do Teams. 
-- Telefones de área comum. Consulte [Configurar a licença de Telefone de Área Comum do Microsoft Teams](./set-up-common-area-phones.md). Observe que você não precisa de uma licença de Plano de Chamadas ao configurar um Telefone de Área Comum com Roteamento Direto.
-- Telefones Skype for Business 3PIP. Consulte o suporte a telefones [do Skype for Business (3PIP) com o Microsoft Teams](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Skype-for-Business-phones-3PIP-support-with-Microsoft-Teams/ba-p/789351)
+- Qualquer Teams cliente. 
+- Telefones de área comum. Consulte [Configurar a licença Telefone Área](./set-up-common-area-phones.md)Comum para Microsoft Teams . Observe que você não precisa de uma licença de Plano de Chamadas ao configurar uma área comum Telefone com Roteamento Direto.
+- Skype for Business telefones 3PIP. Consulte [Skype for Business suporte a telefones (3PIP) com Microsoft Teams](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Skype-for-Business-phones-3PIP-support-with-Microsoft-Teams/ba-p/789351)
 
 
 ## <a name="sbc-domain-names"></a>Nomes de domínio SBC
@@ -150,7 +150,7 @@ contoso.com|Sim|**Nomes válidos:**<br/>sbc1.contoso.com<br/>ssbcs15.contoso.com
 |contoso.onmicrosoft.com|Não|O uso de domínios *.onmicrosoft.com não é suportado para nomes SBC
 
 Suponha que você queira usar um novo nome de domínio. Por exemplo, seu locatário contoso.com um nome de domínio registrado em seu locatário e você deseja usar sbc1.sip.contoso.com. Antes de poder emparelhar um SBC com o nome sbc1.sip.contoso.com, você deve registrar o nome de domínio sip.contoso.com em Domínios em seu locatário. Se você tentar emparelhar um SBC com sbc1.sip.contoso.com antes de registrar o nome de domínio, receberá o seguinte erro: "Não é possível usar o domínio "sbc1.sip.contoso.com", pois ele não foi configurado para esse locatário."
-Depois de adicionar o nome de domínio, você também precisa criar um usuário com upn user@sip.contoso.com e atribuir uma licença do Teams. Pode levar até 24 horas para provisionar totalmente o nome de domínio depois que ele for adicionado aos domínios do seu locatário, um usuário com um novo nome é criado e uma licença é atribuída ao usuário. 
+Depois de adicionar o nome de domínio, você também precisa criar um usuário com upn user@sip.contoso.com e atribuir uma Teams de usuário. Pode levar até 24 horas para provisionar totalmente o nome de domínio depois que ele for adicionado aos domínios do seu locatário, um usuário com um novo nome é criado e uma licença é atribuída ao usuário. 
 
 É possível que uma empresa tenha vários espaços de endereço SIP em um locatário. Por exemplo, uma empresa pode ter contoso.com como um espaço de endereço SIP e fabrikam.com como o segundo espaço de endereço SIP. Alguns usuários têm endereço user@contoso.com e alguns usuários têm endereço user@fabrikam.com. 
 
@@ -186,7 +186,7 @@ O certificado precisa ser gerado por uma das seguintes autoridades de certificad
 - Verisign, Inc. 
 - SSL.com
 - Starfield
-- Symantec Enterprise Mobile Root para Microsoft 
+- Symantec Enterprise Raiz Móvel da Microsoft 
 - SwissSign
 - CA de data/hora de descongelar
 - Trustwave
@@ -197,12 +197,12 @@ O certificado precisa ser gerado por uma das seguintes autoridades de certificad
 - Hongkong Post Root CA 1,2,3
 - CA raiz do Sectigo
 
-Para roteamento direto em ambientes GCCH e DoD do Office 365, o certificado precisa ser gerado por uma das seguintes autoridades de certificado raiz:
+Para roteamento direto Office 365 ambientes GCCH e DoD, o certificado precisa ser gerado por uma das seguintes autoridades de certificado raiz:
 - AC Raiz Global digiCert
 - AC raiz do EV de Alta Garantia digiCert
 
 > [!NOTE]
-> *Se o suporte MTLS (Mutual TLS) estiver habilitado para a conexão do Teams no SBC, você deverá instalar o Certificado Raiz de Baltimore CyberTrust no Armazenamento Raiz Confiável SBC do contexto TLS do Teams. (Isso porque os certificados de serviço da Microsoft usam o certificado raiz de Baltimore.) Para baixar o certificado raiz de Baltimore, consulte Cadeias de criptografia [do Office 365](/microsoft-365/compliance/encryption-office-365-certificate-chains).
+> *Se o suporte a TLS mútuo (MTLS) estiver habilitado para Teams conexão no SBC, você deverá instalar o Certificado Raiz do Baltimore CyberTrust no Armazenamento Raiz Confiável SBC do contexto TLS do Teams. (Isso porque os certificados de serviço da Microsoft usam o certificado raiz de Baltimore.) Para baixar o certificado raiz de Baltimore, consulte [Office 365 Cadeias de criptografia](/microsoft-365/compliance/encryption-office-365-certificate-chains).
 
 A Microsoft está trabalhando na adição de autoridades de certificação adicionais com base em solicitações de clientes. 
 
@@ -211,16 +211,16 @@ A Microsoft está trabalhando na adição de autoridades de certificação adici
 O Roteamento Direto é oferecido nos seguintes ambientes:
 - Microsoft 365 ou Office 365
 - Office 365 GCC
-- Office 365 GCC High
+- Office 365 GCC Alta
 - Office 365 DoD
 
-Saiba mais sobre [ambientes do Office 365](/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government) e do Governo dos EUA, como GCC, GCC High e DoD.
+Saiba mais sobre [Office 365 e ambientes](/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government) do Governo dos EUA, como GCC, GCC Alta e DoD.
 
-### <a name="microsoft-365-office-365-and-office-365-gcc-environments"></a>Ambientes do Microsoft 365, Office 365 e Office 365 GCC
+### <a name="microsoft-365-office-365-and-office-365-gcc-environments"></a>Microsoft 365, Office 365 ambientes Office 365 GCC ambientes
 
 Os pontos de conexão para Roteamento Direto são os três FQDNs a seguir:
 
-- **sip.pstnhub.microsoft.com** – FQDN Global – deve ser experimentado primeiro. Quando o SBC envia uma solicitação para resolver esse nome, os servidores DNS do Microsoft Azure retornam um endereço IP apontando para o datacenter principal do Azure atribuído ao SBC. A atribuição é baseada em métricas de desempenho dos datacenters e proximidade geográfica com o SBC. O endereço IP retornado corresponde ao FQDN principal.
+- **sip.pstnhub.microsoft.com** – FQDN Global – deve ser experimentado primeiro. Quando o SBC envia uma solicitação para resolver esse nome, os servidores DNS Microsoft Azure retornam um endereço IP apontando para o datacenter principal do Azure atribuído ao SBC. A atribuição é baseada em métricas de desempenho dos datacenters e proximidade geográfica com o SBC. O endereço IP retornado corresponde ao FQDN principal.
 - **sip2.pstnhub.microsoft.com** – FQDN secundário – mapeia geograficamente para a região de segunda prioridade.
 - **sip3.pstnhub.microsoft.com** – FQDN terciário – mapeia geograficamente para a região de terceira prioridade.
 
@@ -239,17 +239,19 @@ Os FQDNs – sip.pstnhub.microsoft.com, sip2.pstnhub.microsoft.com e sip3.pstnhu
 - 52.114.14.70
 - 52.114.16.74
 - 52.114.20.29
+- 52.114.36.156 
+- 52.114.32.169
 
 Você precisa abrir portas para todos esses endereços IP no firewall para permitir que o tráfego de entrada e saída entre e os endereços para sinalização.  Se o firewall dá suporte a nomes DNS, o FQDN **sip-all.pstnhub.microsoft.com** resolvido para todos esses endereços IP. 
 
 > [!IMPORTANT]
->  Como parte da expansão do Roteamento Direto do Teams e melhoria do serviço, implantamos novas instâncias da infraestrutura de Roteamento Direto na Austrália. Isso se reflete em dois endereços IP adicionais (52.114.16.74 e 52.114.20.29) para os quais os seguintes FQDNs serão resolvidos para clientes australianos – sip.pstnhub.microsoft.com, sip2.pstnhub.microsoft.com e sip3.pstnhub.microsoft.com. Você precisa adicionar esses dois endereços IP (52.114.16.74 e 52.114.20.29) às suas ACLs (Listas de Controle de Acesso IP) e abrir portas para todos esses endereços IP em seu firewall para permitir o tráfego de entrada e saída de e para os endereços para sinalização.
+>  Como parte da Teams de roteamento direto e melhoria de serviço, implantamos novas instâncias da infraestrutura de Roteamento Direto na Austrália. Isso se reflete em dois endereços IP adicionais (52.114.16.74 e 52.114.20.29) para os quais os seguintes FQDNs serão resolvidos para clientes australianos – sip.pstnhub.microsoft.com, sip2.pstnhub.microsoft.com e sip3.pstnhub.microsoft.com. Você precisa adicionar esses dois endereços IP (52.114.16.74 e 52.114.20.29) às suas ACLs (Listas de Controle de Acesso IP) e abrir portas para todos esses endereços IP em seu firewall para permitir o tráfego de entrada e saída de e para os endereços para sinalização.
 
-### <a name="office-365-gcch-and-dod-environment"></a>Ambiente GCCH e DoD do Office 365
+### <a name="office-365-gcch-and-dod-environment"></a>Office 365 Ambiente GCCH e DoD
 
 O ponto de conexão para Roteamento Direto é o seguinte FQDN:
 
-**sip.pstnhub.dod.teams.microsoft.us** – FQDN Global. Como o ambiente do DoD do Office 365 existe apenas nos data centers dos EUA, não há FQDNs secundários e terciários.
+**sip.pstnhub.dod.teams.microsoft.us** – FQDN Global. Como o Office 365 do DoD existe apenas nos data centers dos EUA, não há FQDNs secundários e terciários.
 
 O FQDN sip.pstnhub.dod.teams.microsoft.us será resolvido para um dos seguintes endereços IP:
 
@@ -258,11 +260,11 @@ O FQDN sip.pstnhub.dod.teams.microsoft.us será resolvido para um dos seguintes 
 
 Você precisa abrir portas para todos esses endereços IP no firewall para permitir que o tráfego de entrada e saída entre e os endereços para sinalização.
 
-### <a name="office-365-gcc-high-environment"></a>Ambiente do Office 365 GCC High
+### <a name="office-365-gcc-high-environment"></a>Office 365 GCC ambiente high
 
 O ponto de conexão para Roteamento Direto é o seguinte FQDN:
 
-**sip.pstnhub.gov.teams.microsoft.us** – FQDN Global. Como o ambiente GCC High existe apenas nos data centers dos EUA, não há FQDNs secundários e terciários.
+**sip.pstnhub.gov.teams.microsoft.us** – FQDN Global. Como o GCC ambiente High existe apenas nos data centers dos EUA, não há FQDNs secundários e terciários.
 
 O FQDN sip.pstnhub.gov.teams.microsoft.us será resolvido para um dos seguintes endereços IP:
 
@@ -273,15 +275,15 @@ Você precisa abrir portas para todos esses endereços IP no firewall para permi
 
 ## <a name="sip-signaling-ports"></a>Sinalização SIP: Portas
 
-Você deve usar as seguintes portas para ambientes do Microsoft 365 ou Office 365 nos quais o Roteamento Direto é oferecido:
+Você deve usar as seguintes portas para ambientes Microsoft 365 ou Office 365 onde o Roteamento Direto é oferecido:
 - Microsoft 365 ou Office 365
 - Office 365 GCC
-- Office 365 GCC High
+- Office 365 GCC Alta
 - Office 365 DoD
 
 |Tráfego|De|Até|Porta de origem|Porta de destino|
 |:--- |:--- |:--- |:--- |:--- |
-|SIP/TLS|SIP Proxy|SBC|1024 – 65535|Definido no SBC (Para o Office 365 GCC High/DoD somente a porta 5061 deve ser usada)|
+|SIP/TLS|SIP Proxy|SBC|1024 – 65535|Definido no SBC (Para Office 365 GCC somente a porta 5061 high/DoD deve ser usada)|
 SIP/TLS|SBC|SIP Proxy|Definido no SBC|5061|
 ||||||
 
@@ -304,16 +306,16 @@ Observe que os requisitos abaixo se aplicam se você quiser implantar o Roteamen
 
 O tráfego de mídia flui de e para um serviço separado no Microsoft Cloud. Os intervalos de endereços IP para tráfego de mídia são os seguinte.
 
-### <a name="microsoft-365-office-365-and-office-365-gcc-environments"></a>Ambientes do Microsoft 365, Office 365 e Office 365 GCC
+### <a name="microsoft-365-office-365-and-office-365-gcc-environments"></a>Microsoft 365, Office 365 ambientes Office 365 GCC ambientes
 
 - 52.112.0.0/14 (endereços IP de 52.112.0.1 a 52.115.255.254).
 - 52.120.0.0/14 (endereços IP de 52.120.0.1 a 52.123.255.254).
 
-### <a name="office-365-dod-environment"></a>Ambiente do Office 365 DoD
+### <a name="office-365-dod-environment"></a>Office 365 Ambiente do DoD
 
 - 52.127.64.0/21
 
-### <a name="office-365-gcc-high-environment"></a>Ambiente do Office 365 GCC High
+### <a name="office-365-gcc-high-environment"></a>Office 365 GCC ambiente high
 
 - 52.127.88.0/21
 
@@ -352,24 +354,24 @@ Locais onde apenas processadores de mídia são implantados (fluxos SIP por meio
 ### <a name="leg-between-sbc-and-cloud-media-processor-or-microsoft-teams-client"></a>Leg between SBC and Cloud Media Processor or Microsoft Teams client.
 Aplica-se a casos de bypass de mídia e não bypass.
 
-A interface de Roteamento Direto na etapa entre o Controlador de Borda de Sessão e o Processador de Mídia na Nuvem (sem bypass de mídia) ou entre o cliente do Teams e o SBC (se Bypass de Mídia habilitado) pode usar os seguintes codecs:
+A interface de Roteamento Direto na etapa entre o Controlador de Borda de Sessão e o Processador de Mídia na Nuvem (sem bypass de mídia) ou entre o cliente Teams e o SBC (se o Bypass de Mídia estiver habilitado) pode usar os seguintes codecs:
 
 - Bypass sem mídia (SBC para Processador de Mídia na Nuvem): SILK, G.711, G.722, G.729
-- Bypass de Mídia (cliente SBC para Teams): SILK, G.711, G.722, G.729
+- Desvio de mídia (SBC para Teams cliente): SILK, G.711, G.722, G.729
 
 Você pode forçar o uso do codec específico no Controlador de Borda de Sessão excluindo codecs indesejáveis da oferta.
 
 ### <a name="leg-between-microsoft-teams-client-and-cloud-media-processor"></a>Leg between Microsoft Teams Client and Cloud Media Processor
-Aplica-se apenas a caso de desvio de mídia. Com o Desvio de Mídia, a mídia flui diretamente entre o cliente do Teams e o SBC.
+Aplica-se apenas a caso de desvio de mídia. Com o Desvio de Mídia, a mídia flui diretamente entre o cliente Teams e o SBC.
 
-Na etapa entre o Processador de Mídia na Nuvem e o cliente do Microsoft Teams, é usado o SILK ou o G.722. A escolha do codec nesta etapa é baseada em algoritmos da Microsoft, que levam em consideração vários parâmetros. 
+Na etapa entre o Processador de Mídia na Nuvem e o cliente Microsoft Teams é usado o SILK ou o G.722. A escolha do codec nesta etapa é baseada em algoritmos da Microsoft, que levam em consideração vários parâmetros. 
 
 
 ## <a name="supported-session-border-controllers-sbcs"></a>Controladores de borda de sessão com suporte (SBCs)
 
 A Microsoft só dá suporte a SBCs certificados para emparelhar com Roteamento Direto. Como Enterprise Voice é essencial para empresas, a Microsoft executa testes intensivos com os SBCs selecionados e trabalha com os fornecedores SBC para garantir que os dois sistemas sejam compatíveis. 
 
-Os dispositivos que foram validados estão listados como Certificados para Roteamento Direto do Teams. Os dispositivos certificados têm garantia de funcionar em todos os cenários. 
+Os dispositivos que foram validados são listados como Certificados para Teams Roteamento Direto. Os dispositivos certificados têm garantia de funcionar em todos os cenários. 
 
 Para obter mais informações sobre SBCs com suporte, consulte Lista de Controladores de Borda de Sessão [certificados para Roteamento Direto.](direct-routing-border-controllers.md)
 

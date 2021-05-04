@@ -19,12 +19,12 @@ appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
 description: Este artigo descreve as funcionalidades do Microsoft Teams disponíveis para convidados.
-ms.openlocfilehash: 8eda5d3cabf497d105c0fd4a4610ba59db128bfc
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: e0efaaf036816980f5e104efebda253411827258
+ms.sourcegitcommit: 49cdcf344c63c805bcb6365804c6f5d1393e926a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51092079"
+ms.lasthandoff: 05/03/2021
+ms.locfileid: "52129720"
 ---
 # <a name="guest-experience-in-teams"></a>Experiência de convidado no Teams
 
@@ -52,7 +52,7 @@ A tabela a seguir compara as funcionalidades disponíveis no Teams para os membr
 |Publicar, excluir e editar mensagens  <br/> |&#x2713;|&#x2713;|
 |Compartilhar um arquivo de canal  <br/> |&#x2713;|&#x2713;|
 |Acessar arquivos do SharePoint<br/> |&#x2713;|&#x2713;|
-|Anexar arquivos<br/> |&#x2713;|Apenas conversas da equipe|
+|Anexar arquivos<br/> |&#x2713;|Somente postagens de canal|
 |Baixar arquivos particulares de chat<br/> |&#x2713;|&#x2713;|
 |Pesquisar dentro de arquivos<br/> |&#x2713;||
 |Compartilhar um arquivo de bate-papo  <br/> |&#x2713;||

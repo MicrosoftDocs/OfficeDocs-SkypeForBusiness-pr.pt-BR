@@ -24,26 +24,26 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Aqui estão os serviços do Microsoft 365 e do Office 365 para Skype for Business e Microsoft Teams disponíveis para Romênia.
-ms.openlocfilehash: 6ded589276ca8132090b5bda9a8d8425cd34e7d4
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Aqui estão os serviços para Skype for Business e Microsoft Teams disponíveis para a Romênia.
+ms.openlocfilehash: c094a08cd748adac8cd07b406cce3e43cf4ae17c
+ms.sourcegitcommit: 49cdcf344c63c805bcb6365804c6f5d1393e926a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51098487"
+ms.lasthandoff: 05/03/2021
+ms.locfileid: "52130170"
 ---
 # <a name="availability-in-romania"></a>Disponibilidade na Romênia
 
 [Encontre outro país ou região](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) ou saiba mais sobre a disponibilidade de Audioconferência e planos de chamadas por país e região.
 
-Aqui estão os serviços do Microsoft 365 e do Office 365 para Skype for Business e Microsoft Teams disponíveis para Romênia.
+Aqui estão os serviços Microsoft 365 e Office 365 para Skype for Business e Microsoft Teams disponíveis para a Romênia.
   
 ## <a name="audio-conferencing"></a>Audioconferência
 
 |**Recurso**|**Detalhes**|
 |:-----|:-----|
 |A Audioconferência está disponível para compra?  <br/> |Sim  <br/> |
-|Os números de telefone são atribuídos automaticamente para a Audioconferência?  <br/> |Os números de telefone não estão vinculados a uma cidade ou local específico. Para obter números de telefone dedicados, consulte [Obtendo números de telefone de serviço do Skype for Business e do Microsoft Teams](../getting-service-phone-numbers.md).  <br/> |
+|Os números de telefone são atribuídos automaticamente para a Audioconferência?  <br/> |Telefone números não estão vinculados a uma cidade ou local específico. Para obter números de telefone dedicados, consulte [Obtendo números de telefone de serviço do Skype for Business e do Microsoft Teams](../getting-service-phone-numbers.md).  <br/> |
 |Funcionalidade de discagem usando o recurso Telefonar para Mim  <br/> |Disponível  <br/> |
    
 ## <a name="phone-system"></a>Sistema de Telefonia
@@ -54,22 +54,21 @@ Aqui estão os serviços do Microsoft 365 e do Office 365 para Skype for Busines
 | Atendedores automáticos <br/> |Disponível  <br/> |
 |Filas de chamadas  <br/> |Disponível  <br/> |
 |Caixa postal  <br/> |Disponível  <br/> |
-   
+
 ## <a name="calling-plans"></a>Planos de Chamadas
 
 |**Recurso**|**Detalhes**|
 |:-----|:-----|
-|Os Planos de Chamadas estão disponíveis para compra?  <br/> |Não  <br/> |
-|Minutos disponíveis para Planos de Chamadas  <br/> |Não aplicável  <br/> |
-|É possível fazer chamadas de saída?  <br/> |Não aplicável  <br/> |
-
-Se os Planos de Chamada não estiverem disponíveis para compra, considere a possibilidade de usar o [Roteamento Direto do Sistema de Telefonia](../direct-routing-landing-page.md). Com o Roteamento Direto, você pode usar o Sistema de Telefonia praticamente com qualquer portadora de telefonia.
+|Os Planos de Chamadas estão disponíveis para compra?  <br/> |Sim  <br/> |
+|Minutos disponíveis para planos de chamada. |Há quatro opções de plano disponíveis por mês de calendário: <ul><li>Plano de Chamada Doméstica de 120 minutos </li><li>Plano de Chamada Doméstica de 240 minutos</li></li><li>Plano de Chamada Doméstica de 1200 minutos </li></li><li>Plano de Chamada Doméstica e Internacional: 1200 minutos de chamada doméstica -OR- 600 minutos de chamada internacional (o que for atingido primeiro no mês do calendário)</li></li></ul>Suporte de acessibilidade para Microsoft Teams [Prezentare generală accesibilitate um Microsoft Teams - Asistență Office](https://support.microsoft.com/ro-ro/office/prezentare-general%C4%83-accesibilitate-a-microsoft-teams-2d4009e7-1300-4766-87e8-7a217496c3d5?ui=ro-RO&rs=ro-RO&ad=RO)<br>[MicrosoftOnlineServicesTerms(WW)(Romeno)(fevereiro de 2021)](https://www.microsoft.com/licensing/terms/productoffering/AudioServices/EAEAS#GeneralServiceTerms)|
+|Pode fazer chamadas de saída para números premium?  <br/> | Não há suporte no momento. <br/> |
+|É possível fazer chamadas de saída?  <br/> | Para 196 países, incluindo [estes](users-can-make-outbound-calls-to-these-countries-and-regions.md).<br/> |
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Números de chamadas gratuitas e tarifadas para serviços
 
 |**Recurso**|**Detalhes**|
 |:-----|:-----|
-|Para quais capitais ou cidades importantes é possível obter números de chamadas tarifadas?  <br/> | Os números de telefone não estão vinculados a uma cidade ou local específico. <br/> |
+|Para quais capitais ou cidades importantes é possível obter números de chamadas tarifadas?  <br/> | Telefone números não estão vinculados a uma cidade ou local específico. <br/> |
 |Há números de chamada tarifada disponíveis?  <br/> |Sim  <br/> |
 |Há números de chamada gratuita disponíveis?  <br/> |Sim  <br/> |
    

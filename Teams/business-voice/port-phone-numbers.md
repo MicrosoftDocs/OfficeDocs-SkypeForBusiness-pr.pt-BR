@@ -14,15 +14,15 @@ MS.collection:
 - M365-collaboration
 - Teams_Business_Voice
 search.appverid: MET150
-description: ''
+description: Saiba como mover seus números de telefone existentes de seu provedor atual para o Microsoft 365 Business Voice.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8959b335d695630f991017c789916bfd2fcf697c
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: e950e9e3bf18664a6a877c31e253ce66753a6076
+ms.sourcegitcommit: 49cdcf344c63c805bcb6365804c6f5d1393e926a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51102907"
+ms.lasthandoff: 05/03/2021
+ms.locfileid: "52130260"
 ---
 # <a name="move-port-phone-numbers-to-business-voice"></a>Migrar (portabilidade) números de telefone para o Business Voice
 
@@ -31,7 +31,7 @@ ms.locfileid: "51102907"
 >
 > Se o locatário estiver localizado em um país ou região que não é compatível com o plano de chamada, confira [Obter ajuda de um revendedor ou parceiro da Microsoft](reseller-partner-support.md).
 
-Quando o assistente da Guia de Introdução ajuda você a configurar o Business Voice, ele atribui números de telefone à linha telefônica principal da empresa e para todos os usuários aos quais você atribuiu uma licença do Business Voice. Se você já tiver números de telefone que deseja manter quando migrar para o Business Voice, poderá trazê-los com você usando um processo chamado portabilidade de número de telefone. Depois de transferir seus números de telefone para o Business Voice, atribua-os a usuários e serviços. Os números antigos substituem os números temporários atribuídos pelo Assistente de Introdução.
+Ao configurar o Business Voice pela primeira vez, você adquirirá os números de telefone da linha principal da empresa e de todos os usuários aos quais você atribuiu uma licença do Business Voice. Se você já tiver números de telefone que deseja manter quando migrar para o Business Voice, poderá trazê-los com você usando um processo chamado portabilidade de número de telefone. Depois de transferir seus números de telefone para o Business Voice, atribua-os a usuários e serviços. Os números antigos substituem os números temporários que você adquiriu ao configurar o Business Voice.
 
 Antes de migrar números para o Business Voice, dê uma olhada em [Perguntas comuns sobre transferência de números de telefone](../phone-number-calling-plans/port-order-overview.md). O artigo inclui respostas a várias perguntas, incluindo quais os países ou regiões que têm suporte, quais números podem e não podem ser transferidos, quais as informações necessárias e assim por diante.
 
@@ -40,6 +40,7 @@ Quando estiver pronto para transferir os seus números de telefone para o Busine
 Depois que seus números de telefone forem migrados para o Business Voice, você precisará atribuí-los a pessoas. Para fazer isso, siga as etapas em [Alterar um número de telefone para um usuário](../assign-change-or-remove-a-phone-number-for-a-user.md#change-a-phone-number-for-a-user). Ao seguir estas etapas, você substituirá o número de telefone temporariamente atribuído ao usuário pelo seu número de telefone original.
 
 Se precisar de ajuda, fale conosco! Estamos aqui para ajudá-lo a migrar seus números de telefone para o Business Voice da maneira mais fácil possível. Não deixe de incluir as seguintes informações:
+
 - A ID da sua organização ***(como contoso***. onmicrosoft.com)
 - Quais tipos e quantos números para os quais você precisa obter ajuda
 - A pessoa que autoriza a sua conta

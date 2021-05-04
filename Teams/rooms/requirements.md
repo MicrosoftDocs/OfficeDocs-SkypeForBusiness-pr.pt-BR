@@ -13,18 +13,18 @@ localization_priority: Normal
 ms.assetid: 6b2b2684-8e9e-49ea-8c46-1c690964f982
 ms.collection:
 - M365-collaboration
-description: Saiba mais sobre os requisitos para dar suporte a Salas do Microsoft Teams, incluindo a escolha do dispositivo apropriado, microfones, alto-falantes, câmeras e exibições.
+description: Saiba mais sobre os requisitos de suporte Salas do Microsoft Teams, incluindo a escolha do dispositivo apropriado, microfones, alto-falantes, câmeras e exibições.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: bf1bf7f076a75fb9ce504d62391e93d0e6d65a6f
-ms.sourcegitcommit: 900f28c4ac12d65ccbd996028205ba183b4afb03
+ms.openlocfilehash: 7d213aba9a74d1ddcbe2215ed7930484aca40865
+ms.sourcegitcommit: 49cdcf344c63c805bcb6365804c6f5d1393e926a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/24/2021
-ms.locfileid: "51995169"
+ms.lasthandoff: 05/03/2021
+ms.locfileid: "52130150"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Requisitos das Salas Microsoft Teams
 
-Salas do Microsoft Teams são dimensionáveis para tamanhos de sala diferentes. As Salas do Teams usam uma ampla variedade de periféricos de áudio e vídeo certificados com base no tamanho e no uso da sala. Selecionando o dispositivo e o console principais da direita, combinados com microfones, alto-falantes, câmeras e exibições apropriadas para o espaço, você pode implantar salas do Microsoft Teams em espaços de qualquer tamanho de pequenos espaços de amontoamento para cima por meio de grandes espaços de conferência e salas de tabuleiro.  O conjunto completo de todos os periféricos de áudio e vídeo certificados disponíveis que podem ser usados para configurar a sua sala está disponível [Mostruário do dispositivo](https://products.office.com/microsoft-teams/across-devices).
+Salas do Microsoft Teams dimensionar para tamanhos de sala diferentes. Salas do Teams usar uma ampla variedade de periféricos de áudio e vídeo certificados com base no tamanho e no uso da sala. Selecionando o dispositivo e o console principais da direita, combinados com microfones, alto-falantes, câmeras e exibições apropriadas para o espaço, você pode implantar o Salas do Microsoft Teams em espaços de qualquer tamanho de pequenos espaços de amontoamento por meio de grandes espaços de conferência e salas de tabuleiro.  O conjunto completo de todos os periféricos de áudio e vídeo certificados disponíveis que podem ser usados para configurar a sua sala está disponível [Mostruário do dispositivo](https://products.office.com/microsoft-teams/across-devices).
 
 Este artigo resume a implantação e os requisitos de configuração do dispositivo para dar suporte às Salas do Microsoft Teams.
 
@@ -38,7 +38,7 @@ Consulte:
 > [!NOTE]
 > As Salas do Microsoft Teams entram no Microsoft Teams, no Skype for Business Server 2019, no Skype for Business Server 2015 ou no Skype for Business Online, e podem participar de reuniões hospedadas por qualquer um desses serviços.
 >
-> As plataformas anteriores, como o Lync Server 2013, não são compatíveis com as Salas do Microsoft Teams. Não há suporte para Salas do Microsoft Teams no Microsoft 365 ou Office 365 operado pela 21Vianet ou ambientes do DoD.
+> As plataformas anteriores, como o Lync Server 2013, não são compatíveis com as Salas do Microsoft Teams. Salas do Microsoft Teams é suportado em ambientes Microsoft 365 ou Office 365 operados pela 21Vianet ou pelo DoD.
 >
 > Se você tiver um Exchange Server local, as salas do Microsoft Teams exigirá o uso do Exchange Server 2013 SP1 ou posterior.
 
@@ -66,13 +66,14 @@ Todos os pacotes e dispositivos da Sala do Microsoft Teams estão disponíveis e
    |[Crestron Flex UC-MX50-T com PC ASUS](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-MX50-T)|Core i5|8 GB |128 GB |
    |[Crestron Flex UC-MX70-T com PC ASUS](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-MX70-T)|Core i5|8 GB |128 GB |
   |[Crestron Mercury Mini UC-MM30-T](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-MM30-T)|Core i5|8 GB |128 GB |
-  |[Dell OptiPlex 7080 com Logitech TAP](https://www.dell.com/work/shop/cty/pdp/spd/optiplex-7080-xe-teams) | Core i5 & i7 |8 GB |128 GB|
+  |[Dell OptiPlex 7080 com Logitech TAP](https://www.dell.com/work/shop/cty/pdp/spd/optiplex-7080-xe-teams) | I7 principais |16 GB |128 GB|
   |[HP Elite Slice para Salas de Reunião G2](https://www8.hp.com/us/en/elite-family/elite-slice-for-meetings.html) |Core i5 |8 GB |128 GB |
   |[HP Elite Slice G2 Audio Ready com Salas do Microsoft Teams](https://store.hp.com/us/en/pdp/hp-elite-slice-for-meeting-rooms-g2-skype-room-systems-audio-ready?jumpid=cp_r12131_us/en/psg/elite_slice_for_meetings/product/shop-now-eliteslicemeeting-g2-audio) |Core i5 |8 GB |128 GB |
-  |[Parceiro de Fatia HP Pronto com o TAP logitech]( https://www.logitech.com/video-collaboration/partners/hp.html)|Core i5|8 GB|128 GB|
+  |[Parceiro de Fatia HP Pronto com o TAP logitech]( https://www.logitech.com/video-collaboration/partners/hp.html)|Core i5|8 GB|128 GB| 
   |[Hub Lenovo ThinkSmart 500](https://www3.lenovo.com/us/en/hub500) |Core i5 |8 GB |128 GB |
   |[Lenovo ThinkSmart Hub](https://news.lenovo.com/pressroom/press-releases/new-thinksmart-hub-collaboration-solution-from-lenovo-helps-organizations-embrace-hybrid-working-model/) |Core i5 |8 GB |128 GB|
   |[Tocar logitech com o Intel NUC](https://www.logitech.com/product/microsoft-rooms)|Core i5|8 GB |128 GB |
+  |Computador NUC do Tap logitech Tap e Intel Tiger Canyon |Core i5|8 GB|128 GB|
   |[Logitech Tap e Lenovo ThinkSmart Minúsculo](https://www.logitech.com/video-collaboration/partners/lenovo.html)|Core i5|8 GB |128 GB|
   |[Poly G10-T com Lenovo ThinkSmart Minúsculo](https://www.poly.com/us/en/products/video-conferencing/g/g10) |Core i5| 8 GB | 128 GB|
   |[Yealink MVC300 com Intel NUC](https://www.yealink.com/products_154.html)|Core i5|8 GB |128 GB |
@@ -98,7 +99,7 @@ Todos os pacotes e dispositivos da Sala do Microsoft Teams estão disponíveis e
   |Surface Pro </br>(quinta geração) |Core i5 |8 GB ou 4 GB |128 GB ou mais |
   |Surface Pro 4 |Core i5 |8 GB ou 4 GB |128 GB ou mais |
 
-- Os dispositivos Surface Pro exigem uma das seguintes opções de estação de encaixe:
+- Surface Pro dispositivos exigem uma das seguintes opções de estação de encaixe:
 
   - [Logitech SmartDock](https://www.logitech.com/product/smartdock)
   - [Crestron SR](https://www.crestron.com/products/line/sr-for-skype-for-business-room-system )
