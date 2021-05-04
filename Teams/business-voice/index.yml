@@ -1,87 +1,81 @@
 ### YamlMime:Hub
-title: Documentação do Microsoft 365 Business Voice
-summary: Aprenda a planejar, configurar e usar o Microsoft 365 Business Voice na sua organização. O Business Voice facilita a configuração de um sistema telefônico avançado e flexível para empresas de pequeno e médio porte sem a despesa e a complexidade das soluções internas.
+title: Microsoft 365 Business Voice documentação
+summary: 'Aprenda a planejar, configurar e usar o Microsoft 365 Business Voice na sua organização. O Business Voice facilita a configuração de um sistema telefônico avançado e flexível para empresas de pequeno e médio porte sem a despesa e a complexidade das soluções internas.'
 metadata:
-  title: Documentação do Microsoft 365 Business Voice
-  description: Aprenda a planejar, implantar e usar o Microsoft 365 Business Voice.
+  title: Microsoft 365 Business Voice documentação
+  description: 'Aprenda a planejar, implantar e usar o Microsoft 365 Business Voice.'
   ms.topic: hub-page
   author: dstrome
   ms.author: dstrome
   ms.date: 06/17/2020
-  ms.openlocfilehash: 6cf78bac0d7fafee768641120116f8397b8566c8
-  ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
-  ms.translationtype: MT
-  ms.contentlocale: pt-BR
-  ms.lasthandoff: 03/23/2021
-  ms.locfileid: "51102947"
 productDirectory:
   items:
-  - title: Explorar
-    imageSrc: https://docs.microsoft.com/office/media/icons/blocks-blue.svg
-    links:
-    - url: whats-business-voice.md
-      text: O que é o Business Voice
-    - url: https://www.microsoft.com/microsoft-365/business-voice
-      text: Microsoft 365 Business Voice
-    - url: /office365/servicedescriptions/microsoft-365-business-voice-service-description
-      text: Descrição do serviço
-  - title: Configurar
-    imageSrc: https://docs.microsoft.com/office/media/icons/deploy-blue.svg
-    links:
-    - url: ./what-to-buy.md
-      text: Como obter o Business Voice
-    - url: get-ready-internet.md
-      text: Verificar sua conexão com a Internet
-    - url: prepare-users.md
-      text: Preparar os usuários
-    - url: use-getting-started-wizard.md
-      text: Executar o Assistente de Introdução
-  - title: Personalizar sua configuração
-    imageSrc: https://docs.microsoft.com/office/media/icons/migration-blue.svg
-    links:
-    - url: port-phone-numbers.md
-      text: Números de telefone existentes da porta
-    - url: ./create-a-phone-system-auto-attendant-smb.md
-      text: Configurar atendedores automáticos
-    - url: set-up-policies.md
-      text: Configurar políticas.
-    - url: ./create-a-phone-system-call-queue-smb.md
-      text: Configurar filas de chamadas
-  - title: Usar
-    imageSrc: https://docs.microsoft.com/office/media/icons/get-started-blue.svg
-    links:
-    - url: create-users.md
-      text: Criar mais usuários
-    - url: manage-devices.md
-      text: Gerenciar seus dispositivos
-    - url: monitor-quality.md
-      text: Monitorar a qualidade da chamada
-    - url: analytics-dashboard.md
-      text: Painel de qualidade da Análise de Chamadas
-  - title: Recursos para parceiros
-    imageSrc: https://docs.microsoft.com/office/media/icons/success-blue.svg
-    links:
-    - url: /partner-center/
-      text: Obtenha o Microsoft 365 Business no Partner Center
-    - url: https://www.microsoft.com/microsoft-365/partners/businessvoice
-      text: Microsoft 365 Business Voice para parceiros
-    - url: partner-resources.md
-      text: Recursos de suporte para Parceiros do Microsoft 365 Business Voice
-  - title: Precisa de ajuda?
-    imageSrc: https://docs.microsoft.com/office/media/icons/users-people.svg
-    links:
-    - url: https://support.office.com/article/Contact-support-for-business-products-Admin-Help-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b
-      text: Contatar o suporte do Microsoft 365 ou Office 365
-    - url: https://techcommunity.microsoft.com/t5/Small-and-Medium-Businesses/ct-p/SMB
-      text: Tech community de empresas de pequeno e médio porte
-  - title: Documentação de Ajuda
-    imageSrc: https://docs.microsoft.com/office/media/icons/chat.svg
-    links:
-    - url: ../cloud-voice-landing-page.md
-      text: Documentos de administração do Microsoft Teams
-    - url: https://microsoftteams.uservoice.com/
-      text: Comentários do UserVoice do Microsoft Teams
-    - url: https://support.office.com/teams
-      text: Documentos do cliente do Microsoft Teams
-    - url: /office365/admin/
-      text: Documentos de administração do Microsoft 365 e Office 365
+    - title: Explorar
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/blocks-blue.svg'
+      links:
+        - url: whats-business-voice.md
+          text: O que é o Business Voice
+        - url: 'https://www.microsoft.com/microsoft-365/business-voice'
+          text: Microsoft 365 Business Voice
+        - url: /office365/servicedescriptions/microsoft-365-business-voice-service-description
+          text: Descrição do serviço
+    - title: Configurar
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/deploy-blue.svg'
+      links:
+        - url: ./what-to-buy.md
+          text: Como obter o Business Voice
+        - url: get-ready-internet.md
+          text: Verificar sua conexão com a Internet
+        - url: prepare-users.md
+          text: Preparar os usuários
+        - url: set-up-overview.md
+          text: Configurar o Business Voice
+    - title: Personalizar sua configuração
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/migration-blue.svg'
+      links:
+        - url: port-phone-numbers.md
+          text: Números de telefone existentes da porta
+        - url: ./create-a-phone-system-auto-attendant-smb.md
+          text: Configurar atendedores automáticos
+        - url: set-up-policies.md
+          text: Configurar políticas.
+        - url: ./create-a-phone-system-call-queue-smb.md
+          text: Configurar filas de chamadas
+    - title: Usar
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/get-started-blue.svg'
+      links:
+        - url: create-users.md
+          text: Criar mais usuários
+        - url: manage-devices.md
+          text: Gerenciar seus dispositivos
+        - url: monitor-quality.md
+          text: Monitorar a qualidade da chamada
+        - url: analytics-dashboard.md
+          text: Painel de qualidade da Análise de Chamadas
+    - title: Recursos para parceiros
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/success-blue.svg'
+      links:
+        - url: /partner-center/
+          text: Obtenha o Microsoft 365 Business no Partner Center
+        - url: 'https://www.microsoft.com/microsoft-365/partners/businessvoice'
+          text: Microsoft 365 Business Voice para parceiros
+        - url: partner-resources.md
+          text: Recursos de suporte para Parceiros do Microsoft 365 Business Voice
+    - title: Precisa de ajuda?
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/users-people.svg'
+      links:
+        - url: 'https://support.office.com/article/Contact-support-for-business-products-Admin-Help-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b'
+          text: Contatar o suporte do Microsoft 365 ou Office 365
+        - url: 'https://techcommunity.microsoft.com/t5/Small-and-Medium-Businesses/ct-p/SMB'
+          text: Tech community de empresas de pequeno e médio porte
+    - title: Documentação de Ajuda
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/chat.svg'
+      links:
+        - url: ../cloud-voice-landing-page.md
+          text: Documentos de administração do Microsoft Teams
+        - url: 'https://microsoftteams.uservoice.com/'
+          text: Comentários do UserVoice do Microsoft Teams
+        - url: 'https://support.office.com/teams'
+          text: Documentos do cliente do Microsoft Teams
+        - url: /office365/admin/
+          text: Documentos de administração do Microsoft 365 e Office 365
