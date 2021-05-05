@@ -675,7 +675,7 @@ items:
                 href: enable-or-disable-sending-emails-when-their-settings-change-in-teams.md
               - name: Desabilitando números gratuitos para usuários específicos
                 href: disabling-toll-free-numbers-for-specific-teams-users.md
-              - name: Políticas de restrição de chamadas externas para Audioconferência e chamadas PSTN do usuário
+              - name: Políticas de restrição de chamadas de saída para Audioconferência e Chamada PSTN do usuário
                 href: outbound-calling-restriction-policies.md
               - name: Exibir e redefinir uma ID de conferência atribuída a um usuário
                 href: see-change-and-reset-a-conference-id-assigned-to-a-user-in-teams.md
@@ -1045,20 +1045,40 @@ items:
                 href: manage-phone-numbers-for-your-organization/phone-number-management-for-belgium.md
               - name: Gerenciamento de número de telefone para o Canadá
                 href: manage-phone-numbers-for-your-organization/phone-number-management-for-canada.md
+              - name: Gerenciamento de número de telefone para a República Tcheca
+                href: manage-phone-numbers-for-your-organization/phone-number-management-for-czech-republic.md
               - name: Gerenciamento de número de telefone para a Dinamarca
                 href: manage-phone-numbers-for-your-organization/phone-number-management-for-denmark.md
+              - name: Gerenciamento de número de telefone para a Finlândia
+                href: manage-phone-numbers-for-your-organization/phone-number-management-for-finland.md
               - name: Gerenciamento de número de telefone para a França
                 href: manage-phone-numbers-for-your-organization/phone-number-management-for-france.md
               - name: Gerenciamento de número de telefone para a Alemanha
                 href: manage-phone-numbers-for-your-organization/phone-number-management-for-germany.md
+              - name: Gerenciamento de número de telefone para a Hungria
+                href: manage-phone-numbers-for-your-organization/phone-number-management-for-hungary.md
               - name: Gerenciamento de número de telefone para a Irlanda
                 href: manage-phone-numbers-for-your-organization/phone-number-management-for-ireland.md
               - name: Gerenciamento de número de telefone para a Itália
                 href: manage-phone-numbers-for-your-organization/phone-number-management-for-italy.md
               - name: Gerenciamento de número de telefone para o Japão
                 href: manage-phone-numbers-for-your-organization/phone-number-management-for-japan.md
+              - name: Gerenciamento de número de telefone para Luxemburgo
+                href: manage-phone-numbers-for-your-organization/phone-number-management-for-luxembourg.md
+              - name: Gerenciamento de número de telefone para a Nova Zelândia
+                href: manage-phone-numbers-for-your-organization/phone-number-management-for-new-zealand.md
+              - name: Gerenciamento de número de telefone para a Noruega
+                href: manage-phone-numbers-for-your-organization/phone-number-management-for-norway.md
+              - name: Gerenciamento de número de telefone para a Polônia
+                href: manage-phone-numbers-for-your-organization/phone-number-management-for-poland.md
               - name: Gerenciamento de número de telefone para Portugal
                 href: manage-phone-numbers-for-your-organization/phone-number-management-for-portugal.md
+              - name: Gerenciamento de número de telefone para a Romênia
+                href: manage-phone-numbers-for-your-organization/phone-number-management-for-romania.md
+              - name: Gerenciamento de número de telefone para Singapura
+                href: manage-phone-numbers-for-your-organization/phone-number-management-for-singapore.md
+              - name: Gerenciamento de número de telefone para a Eslováquia
+                href: manage-phone-numbers-for-your-organization/phone-number-management-for-slovakia.md
               - name: Gerenciamento de número de telefone para a Espanha
                 href: manage-phone-numbers-for-your-organization/phone-number-management-for-spain.md
               - name: Gerenciamento de número de telefone para os Países Baixos
@@ -1095,7 +1115,7 @@ items:
                 href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-brunei.md
               - name: Bulgária
                 href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-bulgaria.md
-              - name: Chile
+              - name: 'Chile '
                 href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-chile.md
               - name: China (Norte)
                 href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-chinanorth-10-800-714-xxxx-range.md
@@ -1231,8 +1251,24 @@ items:
             href: business-voice/get-ready-internet.md
           - name: Preparar os usuários
             href: business-voice/prepare-users.md
-      - name: Executar o Assistente de Introdução
-        href: business-voice/use-getting-started-wizard.md
+      - name: Configurar o Business Voice
+        items:
+          - name: Visão Geral
+            href: business-voice/set-up-overview.md
+          - name: 'Etapa 1: configurar locais de emergência'
+            href: business-voice/set-up-emergency-locations.md
+          - name: 'Etapa 2: configurar números de telefone'
+            href: business-voice/set-up-phone-numbers.md
+          - name: 'Etapa 3: atribuir licenças'
+            href: business-voice/set-up-licenses.md
+          - name: 'Etapa 4: configurar uma conta de recurso'
+            href: business-voice/set-up-resource-account.md
+          - name: 'Etapa 5: atribuir números de telefone aos usuários'
+            href: business-voice/set-up-assign-numbers.md
+          - name: 'Etapa 6: configurar um atendedor automático'
+            href: business-voice/set-up-auto-attendant.md
+          - name: Recursos de pós-instalação
+            href: business-voice/set-up-finish.md
       - name: Personalizar sua configuração
         items:
           - name: Opções de personalização
@@ -1385,8 +1421,10 @@ items:
             href: scripts/powershell-script-security-groups-edu.md
           - name: Diretriz de baixa largura de banda para administradores do Education
             href: edu-remote-low-bandwidth.md
-          - name: Assistente de políticas do Teams para Educação
+          - name: Assistente de política do Teams para Educação
             href: easy-policy-setup-edu.md
+          - name: Aplicativo Career Coach no Teams para Educação
+            href: career-coach.md
           - name: Supervisionar chats no Teams
             href: supervise-chats-edu.md
           - name: Insights de Educação
