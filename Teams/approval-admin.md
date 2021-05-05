@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c71f08840ffa9c41622d07376933c14a7ae6b493
-ms.sourcegitcommit: 49cdcf344c63c805bcb6365804c6f5d1393e926a
+ms.openlocfilehash: 127fc2831e58e7ddea152c7754015a9126390ecc
+ms.sourcegitcommit: 5a738cbb96f09edd8c3779f9385bc9ed126e3001
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/03/2021
-ms.locfileid: "52129790"
+ms.lasthandoff: 05/04/2021
+ms.locfileid: "52212164"
 ---
 # <a name="teams-approvals-app-availability"></a>Disponibilidade dos aplicativos de aprovação do Teams
 
@@ -55,11 +55,20 @@ Para usar o aplicativo Aprovações, você precisa de permissão para os seguint
 
 - Licença para um [Power Automate](/power-automate/get-started-approvals), um Office 365 ou um Dynamics 365.
 
+- A licença do Microsoft Forms é necessária para os usuários configurarem novos modelos de aprovação.
+
 ## <a name="storage-with-cds"></a>Armazenamento com CDS
 
 O CDM (Modelo de Dados Comum) é a linguagem de dados compartilhada usada por aplicativos de negócios e analíticos no CDS. Ele consiste em um conjunto de esquemas de dados extensíveis padronizados publicados pela Microsoft e por nossos parceiros que permitem a consistência dos dados e seu significado em aplicativos e processos empresariais. Saiba mais sobre o [dados comuns do Microsoft Power Platform](/power-automate/get-started-approvals).
 
 Saiba mais sobre o fluxo [de trabalho aprovação](/power-automate/modern-approvals).
+
+As aprovações criadas a partir de um modelo ainda armazenam dados em CDS, como título, detalhes, ID do modelo e muito mais. As respostas enviadas na solicitação de aprovação são armazenadas em Formulários. Saiba mais sobre  [o armazenamento de dados do Microsoft Forms](https://support.microsoft.com/office/data-storage-for-microsoft-forms-97a34e2e-98e1-4dc2-b6b4-7a8444cb1dc3#:~:text=Where%20data%20is%20stored%20for%20Microsoft%20Forms.%20Microsoft,European-based%20tenants%20is%20stored%20on%20servers%20in%20Europe).
+
+>[!Note]
+>Se você excluir o modelo de formulário no site do Microsoft Forms, ele quebrará seu modelo de Aprovação e os usuários não poderão iniciar a solicitação. Os usuários receberão um erro "CDB TableNotFound" ao tentar abrir um modelo de Aprovação que foi excluído no Microsoft Forms.
+
+Os modelos de aprovação são armazenados no Substrate Data Armazenamento (SDS), que é uma plataforma de armazenamento compatível usada internamente apenas dentro da Microsoft. Os modelos de escopo da organização são armazenados em "fragmento de locatário" do SDS, e os modelos com escopo de equipe são armazenados em "fragmentos de grupo" do SDS. Isso significa que os modelos com escopo organizacional compartilham o mesmo tempo de vida dos modelos de locatário e de equipe compartilham o mesmo tempo de vida da equipe. Portanto, excluir permanentemente a equipe exclui os modelos relacionados.
 
 ## <a name="approvals-teams-app-permissions"></a>Permissões do aplicativo Aprovações do Teams
 
@@ -84,6 +93,15 @@ O aplicativo Aprovações Teams permite que você acesse os seguintes recursos:
 
 - Use as informações da equipe para contatá-los.
 
+Permissões do modelo de aprovação
+
+- Todos os proprietários de equipe podem criar um modelo de aprovação para equipes que eles próprios têm.
+
+- Quando um Administrador cria um modelo para toda a organização pela primeira vez, ele criará automaticamente uma nova equipe de Teams para todos os administradores do locatário, incluindo os administradores de serviço globais e de equipe. Esses administradores serão adicionados como proprietários da equipe, para que possam co-gerenciar modelos organizacionais. Os administradores novos na organização após a criação da equipe precisam ser adicionados manualmente como proprietários de equipe para que tenham as mesmas permissões para gerenciar modelos de toda a organização.
+
+> [!Note]
+> Se um administrador excluir a equipe, você terá um mês para restaurá-la no portal Azure Active Directory (AAD) para restaurar todos os dados relacionados. Após um mês ou se o administrador excluir essa equipe dentro da lixeira, você perderá todos os dados relacionados.
+
 ## <a name="disable-the-approvals-app"></a>Desabilitar o aplicativo Aprovações
 
 O aplicativo Aprovações está disponível por padrão. Você pode desabilitar o aplicativo no Centro de administração do Teams.
@@ -105,6 +123,12 @@ O aplicativo Aprovações está disponível por padrão. Você pode desabilitar 
 ## <a name="retention-policy"></a>Política de retenção
 
 As aprovações criadas a partir do Aplicativo Aprovações são armazenadas no ambiente de CDS padrão, que não dá suporte a backups no momento. Saiba mais sobre como fazer [backup e restaurar ambientes - Power Platform \| Microsoft Docs](/power-platform/admin/backup-restore-environments).
+
+Os dados armazenados no Forms não serão excluídos até que os proprietários da equipe os limpem da guia **formulários** excluídos no aplicativo Web do Microsoft Forms.
+
+## <a name="data-limitations"></a>Limitações de dados
+
+Cada equipe pode conter no máximo 400 modelos de aprovações, e cada modelo pode coletar no máximo 50.000 solicitações com base na funcionalidade atual no Microsoft Forms.
 
 ## <a name="auditing"></a>Auditoria
 
@@ -141,6 +165,14 @@ Você pode procurar as seguintes atividades:
 - Solicitação de assinatura eletrônica revisada
 
 - Solicitação de assinatura eletrônica cancelada
+
+- Criar um novo modelo
+
+- Editar um modelo existente
+
+- Habilitar/desabilitar um modelo
+
+- Modelo exibido
 
 Para obter acesso a mais aprovações de auditoria no Flow, habilita e configure a auditoria no ambiente padrão para as entidades de aprovação principais Aprovação, Solicitação de Aprovação e Resposta de Aprovação. Operações de criação, atualização e exclusão são eventos auditáveis para registros de Aprovação. Saiba mais sobre [dados de Auditoria e atividade do usuário para segurança e conformidade - Power Platform \| Microsoft Docs](/power-platform/admin/audit-data-user-activity).
 
