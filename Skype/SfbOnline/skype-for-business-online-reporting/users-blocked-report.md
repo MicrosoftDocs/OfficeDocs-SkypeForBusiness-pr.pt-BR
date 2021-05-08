@@ -18,44 +18,46 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Reporting
-description: 'Este relatório, juntamente com outros relatórios do Skype for Business, fornece detalhes sobre a atividade, incluindo o uso de PSTN em toda a sua organização. '
-ms.openlocfilehash: d5fa69d096f5dc5f2af6f8b5a3c04a3155b8cd9e
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+description: 'Este relatório, juntamente com outros Skype for Business, fornece detalhes sobre a atividade, incluindo o uso de PSTN em toda a sua organização. '
+ms.openlocfilehash: 174a186b2f629dced46910fd206d33ce82b701c8
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41692326"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52238127"
 ---
 # <a name="users-blocked-report"></a>Relatório de usuários bloqueados
 
-O novo painel relatórios **do** Skype for Business mostra a visão geral das atividades em todos os produtos Skype for Business em sua organização. Ele permite detalhar até relatórios individuais em nível de produto para lhe dar informações mais granulares sobre as atividades de cada produto. Por exemplo, você pode usar o relatório bloqueado de usuários do **Skype for Business** para ver os usuários em sua organização que foram impedidos de fazer chamadas PSTN. Este relatório, juntamente com outros relatórios do Skype for Business, fornece detalhes sobre a atividade, incluindo o uso de PSTN em toda a sua organização.
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
+
+O novo painel Skype for Business **relatórios** mostra a visão geral da atividade em todos os produtos Skype for Business em sua organização. Ele permite que você faça uma análise de relatórios individuais no nível do produto para dar uma visão mais granular sobre as atividades em cada produto. Por exemplo, você  pode usar o relatório Skype for Business usuários bloqueados para ver os usuários em sua organização que foram impedidos de fazer chamadas PSTN. Este relatório, juntamente com outros Skype for Business, fornece detalhes sobre a atividade, incluindo o uso de PSTN em toda a sua organização.
   
- Confira a visão geral [de Relatórios](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263) para obter mais relatórios disponíveis.
+ Confira a visão geral [relatórios](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263) para obter mais relatórios disponíveis.
   
 > [!NOTE]
-> Você pode ver todos os relatórios do Skype for Business ao entrar como administrador no Centro de administração do Microsoft 365. 
+> Você pode ver todos os relatórios de Skype for Business ao entrar como administrador no centro de administração Microsoft 365 local. 
   
-## <a name="how-to-get-to-the-skype-for-business-users-blocked-report"></a>Como acessar o relatório de usuários bloqueados do Skype for Business
+## <a name="how-to-get-to-the-skype-for-business-users-blocked-report"></a>Como chegar ao relatório Skype for Business usuários bloqueados
 
 ![Um ícone mostrando o logotipo do Skype for Business](../images/sfb-logo-30x30.png) **Usando o centro de administração do Skype for Business**
 
-- Vá para o centro de administração > **centros** de administração do Centro de administração do  >  **Skype for Business** relata  >  **usuários**  >  **bloqueados.**
+- Vá para o centro de administração > **centros de administração Skype for Business** centro de  >  **administração**  >  **Relatórios usuários**  >  **bloqueados**.
     
-## <a name="interpret-the-skype-for-business-users-blocked-report"></a>Interpretar o relatório de usuários bloqueados do Skype for Business
+## <a name="interpret-the-skype-for-business-users-blocked-report"></a>Interpretar o relatório Skype for Business usuários bloqueados
 
-Você pode exibir os usuários bloqueados olhando para cada uma das colunas exibidas.
+Você pode obter uma exibição em usuários bloqueados olhando para cada uma das colunas exibidas.
   
 Esta é a aparência do relatório. 
   
 ![Relatório de usuários bloqueados](../images/df50a413-7a51-4340-a59b-3f83de941762.png)
 
-A tabela mostra um detalhamento de todos os usuários que estão impedidos de fazer chamadas. Isso mostra todos os usuários que têm o Sistema de Telefonia ou Audioconferência atribuído a eles. Você pode adicionar/remover colunas na tabela.
+A tabela mostra uma divisão de todos os usuários que estão impedidos de fazer chamadas. Isso mostra todos os usuários que Sistema de Telefonia ou Audioconferência atribuídas a eles. Você pode adicionar/remover colunas na tabela.
 ***
 ![Número 1](../images/sfbcallout1.png)
-*   **A ID de** usuário é a assinatura do usuário.
-*   **Número de** telefone é o número atribuído a um usuário. 
-*   **O tempo de ação bloqueado** é o horário (UTC) que o usuário foi impedido de fazer chamadas.
-*   **Ação de** bloqueio é o tipo de ação que foi realizada para bloquear o usuário.
+*   **A ID do** usuário é a assinatura do usuário.
+*   **Telefone número** é o número atribuído a um usuário. 
+*   **O tempo de ação de** bloqueio é a hora (UTC) que o usuário foi impedido de fazer chamadas.
+*   **Ação de** bloqueio é o tipo de ação que foi tomada para bloquear o usuário.
 *   **O motivo da ação de** bloqueio é o motivo pelo qual o usuário foi impedido de fazer chamadas.
 ***
 ![Número 2](../images/sfbcallout2.png)<br/>
@@ -69,21 +71,21 @@ Isso exporta dados de todos os usuários e permite que você faça uma classific
 
 ## <a name="want-to-see-other-skype-for-business-reports"></a>Deseja ver outros relatórios do Skype for Business?
 
-- [Relatório de atividades do Skype for Business](activity-report.md) Você pode ver o quanto seus usuários estão usando ponto a ponto, organizaram e participaram de sessões de conferência.
+- [Skype for Business relatório de atividades](activity-report.md) Você pode ver o quanto seus usuários estão usando ponto a ponto, organizado e participando de sessões de conferência.
     
-- [Relatório de uso de dispositivos do Skype for Business](device-usage-report.md) Você pode ver os dispositivos, incluindo sistemas operacionais baseados no Windows e dispositivos móveis que têm o aplicativo Skype for Business instalado e o estão usando para mensagens de mensagens e reuniões.
+- [Skype for Business de uso do dispositivo](device-usage-report.md) Você pode ver os dispositivos, incluindo Windows operacionais baseados em Windows dispositivos móveis que têm o aplicativo Skype for Business instalado e o estão usando para IM e reuniões.
     
-- Relatório de atividade do organizador de [conferências do Skype for Business](conference-organizer-activity-report.md) Você pode ver o quanto seus usuários estão organizando conferências que usam mensagens de iM, áudio/vídeo, compartilhamento de aplicativos, Web, discagem – terceiros e discagem – Microsoft.
+- [Skype for Business relatório de atividades do organizador da conferência](conference-organizer-activity-report.md) Você pode ver o quanto seus usuários estão organizando conferências que usam IM, áudio/vídeo, compartilhamento de aplicativos, Web, discagem/saída - terceiros e discagem de terceiros - Microsoft.
     
-- [Relatório de atividade de participantes de conferências do Skype for Business](conference-participant-activity-report.md) Você pode ver em quantas conferências de IM, áudio/vídeo, compartilhamento de aplicativos, Web e conferência discada estão participando.
+- [Skype for Business relatório de atividade do participante da conferência](conference-participant-activity-report.md) Você pode ver quantas conferências de IM, áudio/vídeo, compartilhamento de aplicativos, Web e conferência discada/saída estão sendo participadas.
     
-- [Relatório de atividade ponto a ponto](peer-to-peer-activity-report.md) do Skype for Business Você pode ver o quanto seus usuários estão usando mensagens de texto, áudio/vídeo, compartilhamento de aplicativos e transferência de arquivos.
+- [Skype for Business relatório de atividades ponto a ponto](peer-to-peer-activity-report.md) Você pode ver o quanto seus usuários estão usando IM, áudio/vídeo, compartilhamento de aplicativos e transferência de arquivos.
     
-- [Relatório de uso de PSTN do Skype for Business](pstn-usage-report.md) Você pode ver o número de minutos gastos em chamadas de entrada/saída e o custo dessas chamadas.
+- [Skype for Business relatório de uso PSTN](pstn-usage-report.md) Você pode ver o número de minutos gastos em chamadas de entrada/saída e o custo dessas chamadas.
 
-- [Pools de minutos PSTN](pstn-minute-pools-report.md) do Skype for Business relatam o número de minutos consumidos durante o mês atual em sua organização.
+- [Skype for Business pools de minutos PSTN](pstn-minute-pools-report.md) você pode ver o número de minutos consumidos durante o mês atual em sua organização.
 
-- [Relatório de detalhes da sessão do Skype for Business](session-details-report.md) Você pode ver detalhes sobre as experiências de chamada de um usuário individual.
+- [Skype for Business de detalhes da sessão](session-details-report.md) Você pode ver detalhes sobre as experiências de chamada de cada usuário.
    
 ## <a name="related-topics"></a>Tópicos relacionados
 [Relatórios de atividades no centro de administração](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)

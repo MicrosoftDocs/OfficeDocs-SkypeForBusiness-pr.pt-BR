@@ -1,5 +1,5 @@
 ---
-title: Definir o tamanho do PIN para reuniões de Audioconferência no Skype for Business Online
+title: Definir o comprimento do PIN para reuniões de Audioconferência no Skype for Business Online
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,29 +21,31 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: Learn the parameters for the length and requirements of a PIN and see how to set the length for meetings in Skype for Business.
-ms.openlocfilehash: a2acaad15712621c33b275e914263f6781178d9b
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 2e4e1d087ad6e0f91d034c6a5abe513e8b3aab01
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51100787"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52238596"
 ---
-# <a name="set-the-pin-length-for-audio-conferencing-meetings-in-skype-for-business-online"></a>Definir o tamanho do PIN para reuniões de Audioconferência no Skype for Business Online
+# <a name="set-the-pin-length-for-audio-conferencing-meetings-in-skype-for-business-online"></a>Definir o comprimento do PIN para reuniões de Audioconferência no Skype for Business Online
+
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
 
 > [!NOTE]
-> Para obter informações sobre como definir o tamanho do PIN no Microsoft Teams, consulte Definir o tamanho do PIN para reuniões de [Audioconferência no Microsoft Teams](/en-us/MicrosoftTeams/Set-the-PIN-length-for-Audio-Conferencing-meetings-in-teams).
+> Para obter informações sobre como definir o comprimento do PIN Microsoft Teams, consulte Definir o comprimento do PIN para reuniões de [Audioconferência em Microsoft Teams](/en-us/MicrosoftTeams/Set-the-PIN-length-for-Audio-Conferencing-meetings-in-teams).
 
-Ao configurar a audioconferência para o Skype for Business, você receberá uma ponte de audioconferência. Uma ponte de conferência pode conter um ou mais números de telefone. O número de telefone definido será incluído nos convites da reunião para o aplicativo Skype for Business.
+Ao configurar a audioconferência para Skype for Business, você receberá uma ponte de audioconferência. Uma ponte de conferência pode conter um ou mais números de telefone. O número de telefone definido será incluído nos convites de reunião para o Skype for Business app.
   
-A ponte de audioconferência atende uma chamada feita por um usuário que discou para a reunião utilizando um telefone. Ele atende o chamador com prompts de voz de um atendedor automático e, dependendo de suas configurações, pode reproduzir notificações e pedir que os chamadores gravem seu nome. **As configurações** de ponte da Microsoft permitem alterar as configurações para notificações de reunião e a experiência de junção de reunião e definir o tamanho dos PINs usados pelos organizadores da reunião. Os organizadores da reunião usam PINs para iniciar reuniões se não puderem ingressar na reunião usando o aplicativo Skype for Business.
+A ponte de audioconferência atende uma chamada feita por um usuário que discou para a reunião utilizando um telefone. Ele atende o chamador com prompts de voz de um atendedor automático e, dependendo de suas configurações, pode reproduzir notificações e pedir que os chamadores gravem seu nome. **As configurações** de ponte da Microsoft permitem alterar as configurações para notificações de reunião e a experiência de junção de reunião e definir o tamanho dos PINs usados pelos organizadores da reunião. Os organizadores da reunião usam PINs para iniciar reuniões se não puderem ingressar na reunião usando o Skype for Business app.
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
   
 ## <a name="setting-the-pin-length"></a>Configurar o tamanho do PIN
  
-1. No Centro de administração do **Skype for Business**, na navegação à esquerda, vá para Configurações de ponte da Microsoft de **audioconferência.**  >  
+1. No centro **Skype for Business de** administração , na navegação à esquerda, vá para **Configurações** de ponte da Microsoft de audioconferência.  >  
     
 2. Em **Comprimento do** PIN de  >  **segurança,** selecione o número de dígitos que você deseja para o PIN e clique em **Salvar**.
     
@@ -54,7 +56,7 @@ A ponte de audioconferência atende uma chamada feita por um usuário que discou
 
 - PiNs podem ter de 4 a 12 dígitos; o padrão é 5. Somente números são usados para criar PINs. Letras e caracteres especiais não são usados.
     
-- Um PIN só é necessário para o organizador da reunião quando um usuário do Skype for Business ainda não iniciou a reunião. Se todos entrarem na reunião com discagem, o PIN é necessário para o organizador começar a reunião.
+- Um PIN só é necessário para o organizador da reunião quando um Skype for Business usuário ainda não iniciou a reunião. Se todos entrarem na reunião com discagem, o PIN é necessário para o organizador começar a reunião.
     
 - As configurações de segurança do PIN são aplicadas a todos os números de telefone associados a uma ponte da Microsoft. Elas serão aplicadas a todas as reuniões que usam os números de telefone associados a determinada ponte. 
     
@@ -64,11 +66,11 @@ A ponte de audioconferência atende uma chamada feita por um usuário que discou
     
 - Para definir o número de dígitos do PIN como 8:  `Set-CsOnlineDialInConferencingTenantSettings -PinLength 8`
     
-- O Windows PowerShell gerencia os usuários e o que eles podem ou não fazer. Com Windows PowerShell, você pode gerenciar o Microsoft 365 ou o Office 365 usando um único ponto de administração que pode simplificar seu trabalho diário quando você tem várias tarefas a fazer. Para começar a trabalhar com o Windows PowerShell, confira estes tópicos:
+- O Windows PowerShell gerencia os usuários e o que eles podem ou não fazer. Com Windows PowerShell, você pode gerenciar Microsoft 365 ou Office 365 usando um único ponto de administração que pode simplificar seu trabalho diário quando você tem várias tarefas a fazer. Para começar a trabalhar com o Windows PowerShell, confira estes tópicos:
     
-  - [Por que você precisa usar o Microsoft 365 ou o Office 365 PowerShell](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
+  - [Por que você precisa usar Microsoft 365 ou Office 365 PowerShell](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     
-  - [Melhores maneiras de gerenciar o Microsoft 365 ou o Office 365 com Windows PowerShell](/previous-versions//dn568025(v=technet.10))
+  - [Melhores maneiras de gerenciar Microsoft 365 ou Office 365 com Windows PowerShell](/previous-versions//dn568025(v=technet.10))
     
 - Windows PowerShell tem muitas vantagens em velocidade, simplicidade e produtividade sobre o uso apenas do centro de administração do Microsoft 365, como quando você está fazendo alterações de configurações para muitos usuários ao mesmo tempo. Saiba mais sobre essas vantagens nos seguintes tópicos: 
     
@@ -85,4 +87,4 @@ A ponte de audioconferência atende uma chamada feita por um usuário que discou
   
 ## <a name="see-also"></a>Confira também
 
-[Experimente ou compre Audioconferência no Microsoft 365 ou Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
+[Experimente ou compre Audioconferência em Microsoft 365 ou Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)

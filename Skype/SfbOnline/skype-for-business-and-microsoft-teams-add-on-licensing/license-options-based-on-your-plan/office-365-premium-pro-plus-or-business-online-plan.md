@@ -1,5 +1,5 @@
 ---
-title: Aplicativos do Microsoft 365 para empresas ou Skype for Business Online Plano Autônomo 2
+title: Microsoft 365 Apps para Grandes Empresas ou Skype for Business Plano Autônomo Online 2
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,17 +20,19 @@ f1.keywords:
 ms.custom:
 - Licensing
 - LIL_Placement
-description: Saiba mais sobre licenças, recursos e como comprar aplicativos do Microsoft 365 para empresas ou o Plano Autônomo 2 do Skype for Business Online.
-ms.openlocfilehash: d7c09d25a31d54a73591b53807828ea02c3d637c
-ms.sourcegitcommit: 693205da865111380b55c514955ac264031eb2fd
+description: Saiba mais sobre licenças de complemento, recursos e como comprar para Microsoft 365 Apps para Grandes Empresas, ou Skype for Business Plano Autônomo Online 2.
+ms.openlocfilehash: 0a3056cf6cb409f1a3b1cd524d1d9da8c7e12b32
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/02/2020
-ms.locfileid: "44204852"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52238414"
 ---
-# <a name="microsoft-365-apps-for-enterprise-or-skype-for-business-online-standalone-plan-2"></a>Aplicativos do Microsoft 365 para empresas ou Skype for Business Online Plano Autônomo 2
+# <a name="microsoft-365-apps-for-enterprise-or-skype-for-business-online-standalone-plan-2"></a>Microsoft 365 Apps para Grandes Empresas ou Skype for Business Plano Autônomo Online 2
 
-Se você já comprou o [Microsoft 365 Apps](https://products.office.com/en/business/office-365-proplus-business-software) para empresas ou o Plano Autônomo 2 do [Skype for Business Online,](https://products.office.com/skype-for-business/online)aqui estão as licenças de complemento que você precisa comprar para obter mais recursos do Skype for Business.
+[!INCLUDE [sfbo-retirement](../../../Hub/includes/sfbo-retirement.md)]
+
+Se você já comprou o [Microsoft 365 Apps para Grandes Empresas](https://products.office.com/en/business/office-365-proplus-business-software) ou [o Skype for Business Online Plano Autônomo 2](https://products.office.com/skype-for-business/online), aqui estão as licenças de complemento que você precisa comprar para obter mais recursos Skype for Business.
 
 > [!IMPORTANT]
 > Embora a Audioconferência, o Sistema de Telefonia e Planos de Chamada possam ser adquiridos com o Skype for Business Online Plan 2, para habilitar os recursos de chamada de voz, recomendamos que avalie um plano Enterprise E5 para ver se ele é mais vantajoso.
@@ -39,7 +41,7 @@ Se você já comprou o [Microsoft 365 Apps](https://products.office.com/en/busin
 |:-----|:-----|
 |**Para adicionar este recurso** <br/> |**Você precisa comprar** <br/> |
 |**Audioconferência** <br/> Buy 1 **Audio Conferencing** license for each person who is going to schedule or host a dial-in meeting. Attendees do not need licenses. <br/> |Complemento de **Audioconferência** <br/>Após adquirir a licença, a Microsoft será seu provedor de serviços de audioconferência. |
-|**Números de chamada gratuita para acesso discado a suas conferências e a capacidade de discar de uma conferência para adicionar alguém ligando para qualquer número de telefone do mundo** <br/> |[Créditos de Comunicações](/microsoftteams/set-up-communications-credits-for-your-organization)|
-|**Sistema de Telefonia** <br/> |1. [Mudar para outro plano do Microsoft 365 para empresas.](https://support.office.com/article/73318661-8f33-478b-bcc7-fb8d69dbb22a) Se você tiver aplicativos do Microsoft 365 para empresas ou o Plano Autônomo 2 do Skype for Business Online, recomendamos atualizar seu plano para um plano Enterprise E5 para obter recursos de voz na nuvem. Se você atualizar para um plano Enterprise E1 ou E3, verá a opção para comprar o complemento Sistema **de** Telefonia.<br/> 2. Complemento de **Sistema de Telefonia** <br/>  3. Planos de chamada: comprar um [Plano de Chamada.](/MicrosoftTeams/calling-plans-for-office-365) <br/>  Ou, use o [serviço de telefonia do seu provedor existente](../../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md#bkmk_existing).  <br/> |
-|**Planos de Chamadas** <br/> |1. [Mudar para outro plano do Microsoft 365 para empresas.](https://support.office.com/article/73318661-8f33-478b-bcc7-fb8d69dbb22a)  <br/> 2. Complemento de **Sistema de Telefonia** <br/> 3. [Plano de Chamadas](/MicrosoftTeams/calling-plans-for-office-365): você pode comprá-lo somente depois de ter comprado o complemento de **Sistema de Telefonia**. <br/> |
+|**Números de chamada gratuita para acesso discado às conferências e a capacidade de discar de uma conferência para adicionar alguém chamando qualquer número de telefone no mundo** <br/> |[Créditos de Comunicações](/microsoftteams/set-up-communications-credits-for-your-organization)|
+|**Sistema de Telefonia** <br/> |1. [Alternar para um plano Microsoft 365 de negócios](https://support.office.com/article/73318661-8f33-478b-bcc7-fb8d69dbb22a)diferente. Se você tiver Microsoft 365 Apps para Grandes Empresas ou Skype for Business Plano Autônomo Online 2, recomendamos atualizar seu plano para um plano Enterprise E5 para obter recursos de voz na nuvem. Se você atualizar para um plano Enterprise E1 ou E3, verá a opção de comprar o complemento de **Sistema de Telefonia**. <br/> 2. Complemento de **Sistema de Telefonia** <br/>  3. Planos de Chamada: comprar um [Plano de Chamada](/MicrosoftTeams/calling-plans-for-office-365) . <br/>  Ou, use o [serviço de telefonia do seu provedor existente](../../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md#bkmk_existing).  <br/> |
+|**Planos de Chamadas** <br/> |1. [Alternar para um plano Microsoft 365 de negócios](https://support.office.com/article/73318661-8f33-478b-bcc7-fb8d69dbb22a)diferente.  <br/> 2. Complemento de **Sistema de Telefonia** <br/> 3. [Plano de Chamadas](/MicrosoftTeams/calling-plans-for-office-365): você pode comprá-lo somente depois de ter comprado o complemento de **Sistema de Telefonia**. <br/> |
    

@@ -19,14 +19,16 @@ f1.keywords:
 ms.custom:
 - Setup
 description: 'Aprenda a configurar a segurança do aplicativo móvel para seus usuários. '
-ms.openlocfilehash: d599542970cec5aa4206f29d3ff7fa27ce36e9a0
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: f600230574b8d16a0f7907b4484da8ffcca6124e
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51109947"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52239628"
 ---
 # <a name="skype-for-business-mobile-app-security"></a>Segurança do aplicativo móvel do Skype for Business
+
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
 ## <a name="skype-for-business-client-security"></a>Segurança do Cliente Skype for Business
 

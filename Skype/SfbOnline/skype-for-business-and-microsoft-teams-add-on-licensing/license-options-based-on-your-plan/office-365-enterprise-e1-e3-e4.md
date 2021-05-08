@@ -21,14 +21,16 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 'Saiba como comprar licenças de complemento, recursos e como comprar os planos E1, E3 e E4 do Office 365 Enterprise. '
-ms.openlocfilehash: 8000a71c52c03d82c8d01c92601be01d48db04dd
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 54b24f2e3debf58305214bbc48dac56babcfc681
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43777956"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52238469"
 ---
 # <a name="office-365-enterprise-e1-e3-and-e4"></a>Office 365 Enterprise E1, E3 e E4
+
+[!INCLUDE [sfbo-retirement](../../../Hub/includes/sfbo-retirement.md)]
 
 Se você já adquiriu o [Office 365 Enterprise E1](https://products.office.com/business/office-365-enterprise-e1-business-software), [E3](https://products.office.com/business/office-365-enterprise-e3-business-software) ou E4, estas são as licenças de complementos que você precisa comprar para obter mais recursos do Skype for Business.
 
@@ -42,7 +44,7 @@ Se você já adquiriu o [Office 365 Enterprise E1](https://products.office.com/b
 |**Planos de Chamadas** <br/> |1. Complemento do **Sistema de Telefonia** <br/> 2. [Plano de Chamadas](/MicrosoftTeams/calling-plans-for-office-365): você pode comprá-lo somente depois de ter comprado o complemento do **Sistema de Telefonia**. <br/> |
    
  > [!IMPORTANT]
- > As licenças do Office 365 E4 foram oficialmente retiradas. Confira informações [importantes para clientes do Office 365 Enterprise E4](https://support.office.com/article/important-information-for-office-365-enterprise-e4-customers-f9572348-43a2-43fa-a3d8-3b6c9c042147) para obter mais detalhes.
+ > Office 365 As licenças E4 foram oficialmente retiradas. Confira [Informações importantes para Office 365 Enterprise E4 clientes para](https://support.office.com/article/important-information-for-office-365-enterprise-e4-customers-f9572348-43a2-43fa-a3d8-3b6c9c042147) obter mais detalhes.
   
 ## <a name="e1-and-e3-customers-how-to-see-prices-and-buy"></a>Clientes dos planos E1 e E3: como ver preços e comprar
 <a name="bkmk_buypremium"> </a>
@@ -71,7 +73,7 @@ The E3 plan is part of your Action Pack. To buy the **Phone System** and **Audio
 
 Em algumas situações, você não verá a opção para comprar complementos do Skype for Business no centro de administração do Microsoft 365.
 
-- **Você comprou o Microsoft 365 Business Standard por meio do GoDaddy.** Nesse caso, você não pode comprar complementos do Skype for Business. Você precisa trocar para o plano E3 (que não vende no GoDaddy) e, em seguida, poderá comprá-los. [Entre em contato com o suporte de produtos para empresas – ajuda para administradores](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
+- **Você comprou Microsoft 365 Business Standard godaddy**. Nesse caso, você não pode comprar Skype for Business complementos. Você precisa trocar para o plano E3 (que não vende no GoDaddy) e, em seguida, poderá comprá-los. [Entre em contato com o suporte de produtos para empresas – ajuda para administradores](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
 
 - **You have a monthly commitment instead of an annual commitment**. In some cases, customers who have a monthly commitment can't buy the add-ons (this is different from the payment method, which can be monthly). This is a known issue that we are fixing. [Contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
 

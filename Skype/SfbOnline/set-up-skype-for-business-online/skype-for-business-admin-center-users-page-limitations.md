@@ -1,5 +1,5 @@
 ---
-title: Limitações da página de usuários do centro de administração do Skype for Business Online
+title: Skype for Business Limitações de página de usuários do centro de administração online
 ms.reviewer: ''
 ms.author: tonysmit
 author: tonysmit
@@ -20,28 +20,30 @@ f1.keywords:
 ms.custom:
 - Setup
 - ms.lync.lac.UsersCountLimitationWarning
-description: 'Saiba como trabalhar dentro das limitações da exibição de usuários pelo administrador do Skype for Business Online. '
-ms.openlocfilehash: 71885e7d445c489177feb28577f717fc7241217a
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+description: 'Saiba como trabalhar dentro das limitações da exibição de usuários Skype for Business administrador online. '
+ms.openlocfilehash: 00726dd76d59bfd177d6626d97c69ecb259bb2ec
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41769584"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52239673"
 ---
-# <a name="skype-for-business-online-admin-center-users-page-limitations"></a>Limitações da página de usuários do centro de administração do Skype for Business Online
+# <a name="skype-for-business-online-admin-center-users-page-limitations"></a>Skype for Business Limitações de página de usuários do centro de administração online
 
-Por motivos de desempenho, o Centro de administração do **Skype for Business** exibe os primeiros 1.000 usuários em sua lista de usuários. Se você tiver mais de 1.000 usuários, **use** Filtrar Filtro e Pesquisar para encontrar as pessoas específicas que ![ você está ](../images/d360528a-a05a-4f0d-a7fd-25a6c696206a.png)  ![ ](../images/5cc29d50-4eec-48a4-bdad-bbeae230f9ae.png) procurando.
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
+
+Por motivos de **desempenho, Skype for Business centro** de administração exibe os primeiros 1.000 usuários em sua lista de usuários. Se você tiver mais de 1.000 usuários, use **Filtro** de Filtro e Pesquisa de Pesquisa para encontrar as pessoas específicas ![ que você está ](../images/d360528a-a05a-4f0d-a7fd-25a6c696206a.png)  ![ ](../images/5cc29d50-4eec-48a4-bdad-bbeae230f9ae.png) procurando.
   
 ## <a name="bulk-editing"></a>Edição em massa
 <a name="__top"> </a>
 
-1. Selecione os primeiros 1.000 usuários ou todos retornados pelo filtro  ou pesquisa marcando a caixa ao lado de Nome de exibição na parte superior da lista.
+1. Selecione os primeiros 1.000 usuários ou todos retornados pelo filtro ou pesquisa, verificando a caixa ao lado de **Nome** para Exibição na parte superior da lista.
     
-2. Clique **em Editar** ![ ](../images/2f8948c1-e4f3-4022-b9cd-37fed066056e.png) Editar.
+2. Clique **em Editar** Editar ![ ](../images/2f8948c1-e4f3-4022-b9cd-37fed066056e.png) .
     
 Você pode alterar o número de usuários mostrados em cada página com o controle na parte inferior da lista:
   
-![Navegação de página de usuários para alterar a quantidade de usuários na página](../images/7d8ba24e-e3e8-4ff8-92f7-98ac143aab6d.png)
+![Navegação de página dos usuários para alterar a quantidade de usuários na página](../images/7d8ba24e-e3e8-4ff8-92f7-98ac143aab6d.png)
   
 ## <a name="related-topics"></a>Tópicos relacionados
 [Instalar o Skype for Business Online](set-up-skype-for-business-online.md)

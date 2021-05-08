@@ -17,23 +17,32 @@ search.appverid: MET150
 description: Saiba como configurar uma conta de recurso Microsoft 365 Business Voice para uso com os atendentes automáticos.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 76e91a650e9e72c21a39d292e32fe5ff8ecbf80b
-ms.sourcegitcommit: 49cdcf344c63c805bcb6365804c6f5d1393e926a
+ms.openlocfilehash: 618f26394f2b4acc44d56b814bd31c20ffe1a370
+ms.sourcegitcommit: 32e3bb588abcbeded2d885483384c06706b280eb
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/03/2021
-ms.locfileid: "52130312"
+ms.lasthandoff: 05/08/2021
+ms.locfileid: "52282768"
 ---
 # <a name="step-4-set-up-a-business-voice-resource-account"></a>Etapa 4: Configurar uma conta de recurso do Business Voice
 
-Em Microsoft Teams, uma conta de recurso é necessária para cada atendimento automático ou fila de chamada. Contas de recursos também podem ser atribuídas a números de telefone de serviço. É assim que você atribui números de telefone a atendimentos automáticos e filas de chamadas permitindo que os chamadores de fora Teams para alcançar o atendimento automático ou fila de chamadas.
+As contas de recursos não são atribuídas a nenhum usuário específico. Em vez disso, as contas de recurso, que usam uma licença de usuário virtual gratuita, são usadas por dispositivos e serviços em Microsoft 365. Em Microsoft Teams, contas de recursos são atribuídas a números de telefone e são associadas a atendimentos automáticos e filas de chamadas.
+
+Ao associar contas de recursos a atendimentos automáticos e filas de chamadas, você pode adicionar um ou mais números de telefone gratuitos ou de chamada gratuita a eles. Por exemplo, você pode associar uma conta de recurso a um número de chamada a um atendimento automático para chamadores locais. Para chamadas de longa distância, você pode associar outra conta de recurso a um número de chamada gratuita ao mesmo atendimento automático.
+
+As seções deste artigo mostram como configurar uma conta de recurso e atribuir um número de telefone a ela. Mais tarde, você associará a conta de recurso a um atendente automático.
 
 ## <a name="obtain-virtual-user-licenses"></a>Obter licenças de usuário virtual
 
 As contas de recursos exigem uma licença para trabalhar com os atendimentos automáticos e filas de chamada. Você pode usar uma licença de *Microsoft 365 Sistema de Telefonia - Usuário Virtual.*
 
-1. Acesse o Centro de administração do Microsoft 365.
-2. Acesse **Complementos dos serviços**  >  **de Compra** de  >  **Cobrança** Consulte  >  **todos os produtos de complementos**
+> [!NOTE]
+> Você só deverá executar as etapas a seguir se tiver se inscreveu para um período de avaliação do Business Voice. Se você comprou licenças do Business Voice, as licenças virtuais já devem ser aplicadas à sua conta. 
+>
+> Para ver se você já tem licenças virtuais, entre Microsoft 365 usando uma conta com permissões de administrador global. Em seguida, vá para Cobrança > [Seus produtos](https://admin.microsoft.com/Adminportal/Home#/subscriptions). Se você tiver licenças virtuais, elas aparecerão como Microsoft 365 Sistema de Telefonia **- Usuário Virtual**.
+
+1. Abra o Microsoft 365 de administração e faça logoff com um usuário que seja um administrador global (geralmente essa é a conta que você usou para se inscrever no Microsoft 365).
+2. No painel de navegação esquerdo, vá para <a href="https://admin.microsoft.com/Adminportal/Home#/catalog" target="_blank"> **Cobrança**  >  **Serviços**</a>de Compra  >  **Complementos**  >  **Consulte todos os produtos complementos**.
 3. Role até o final para encontrar a licença **Microsoft 365 Sistema de Telefonia – Usuário Virtual.** Selecione **Detalhes** **e,** em seguida, Comprar .
 4. Na página de compra de licença, selecione o número de licenças de usuário virtual que você deseja. Você precisa de uma licença virtual para cada atendimento automático e fila de chamada que planeja configurar. Recomendamos selecionar pelo menos cinco licenças para que você possa facilmente configurar mais atendimentos automáticos e filas de chamada no futuro sem precisar comprar mais licenças imediatamente.
 5. **Desmarque Atribuir automaticamente a todos os seus usuários sem licenças**.
@@ -49,13 +58,14 @@ Depois de receber sua Microsoft 365 Sistema de Telefonia *- Licença de Usuário
 
 ![Captura de tela da interface do usuário adicionar conta de recurso](../media/resource-account-add.png)
 
-1. No centro Teams de administração, expanda **as** configurações de toda a organização e clique em **Contas de recursos.**
-2. Selecione **Adicionar**.
-3. No painel **Adicionar conta de** recurso, preencha Nome **de** exibição e, em seguida, Nome de **usuário**. Escolha um nome de exibição descritivo, como "Atendimento automático de linha principal" para descrever a finalidade da conta de recurso.
-4. Em **Tipo de conta de recurso,** selecione Atendimento **automático**.
-5. Selecione **Salvar**.
+1. Abra o Microsoft Teams de administração e faça logoff com um usuário que seja um administrador global (geralmente essa é a conta que você usou para se inscrever no Microsoft 365).
+2. No painel de navegação esquerdo, vá para Configurações de toda a organização Contas <a href="https://admin.teams.microsoft.com/company-wide-settings/resource-accounts" target="_blank">   >  **de recursos.**</a>
+3. Selecione **Adicionar**.
+4. No painel **Adicionar conta de** recurso, preencha Nome **de** exibição e, em seguida, Nome de **usuário**. Escolha um nome de exibição descritivo, como "Atendimento automático de linha principal" para descrever a finalidade da conta de recurso.
+5. Em **Tipo de conta de recurso,** selecione Atendimento **automático**.
+6. Selecione **Salvar**.
 
-![Captura de tela de uma lista de contas de recursos](../media/resource-accounts-page.png)
+![Captura de tela de uma lista de contas de recursos](../media/resource-accounts-auto-attendant-only-page.png)
 
 ## <a name="assign-a-license"></a>Atribuir uma licença
 
@@ -63,8 +73,9 @@ Depois de criar sua conta de recurso, você precisará atribuir uma Microsoft 36
 
 ![Captura de tela da interface do usuário atribuir licenças no Microsoft 365 de administração](../media/resource-account-assign-virtual-user-license.png)
 
-1. No centro Microsoft 365 de administração, vá para **Usuários**  >  **Usuários ativos.**
-2. Selecione sua conta de recurso.
+1. Abra o Microsoft 365 de administração e faça logoff com um usuário que seja um administrador global (geralmente essa é a conta que você usou para se inscrever no Microsoft 365).
+1. No painel de navegação esquerdo, vá para <a href="https://admin.microsoft.com/Adminportal/Home#/users" target="_blank"> **Usuários**  >  **Usuários ativos.**</a>
+1. Selecione sua conta de recurso.
 1. Na guia **Licenças e Aplicativos,** em **Licenças,** selecione **Microsoft 365 Sistema de Telefonia - Usuário Virtual**.
 1. Selecione **Salvar alterações** e, em **seguida, Fechar**.
 
@@ -72,13 +83,12 @@ Depois de criar sua conta de recurso, você precisará atribuir uma Microsoft 36
 
 ![Captura de tela da interface do usuário atribuir número de serviço](../media/resource-account-assign-phone-number.png)
 
-1. No centro Teams de administração, acesse **Configurações** em toda a organização e contas **de recurso.** 
+1. Abra o Microsoft Teams de administração e faça logoff com um usuário que seja um administrador global (geralmente essa é a conta que você usou para se inscrever no Microsoft 365).
+1. No painel de navegação esquerdo, vá para Configurações de toda a organização Contas <a href="https://admin.teams.microsoft.com/company-wide-settings/resource-accounts" target="_blank">   >  **de recursos.**</a>
 1. Selecione a conta de recurso que você acabou de criar e clique em **Atribuir/desatribuição.**
 1. Na lista **Telefone de tipos de número,** escolha **Online**.
 1. Na caixa **Número de telefone atribuído,** pesquise o número que deseja usar e clique em **Adicionar**. Certifique-se de incluir o código do país (por exemplo, **+1** 250 555 0012)
 1. Clique em **Salvar**.
-    > [!NOTE]
-    > Você não precisa selecionar um assistente automático em Atribuir **a** porque o atendimento automático ao que você deseja adicionar o número já está selecionado.
 
 > [!div class="nextstepaction"]
 > [Próxima etapa: Atribuir números de telefone aos usuários](set-up-assign-numbers.md)

@@ -18,21 +18,23 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Setup
-description: Saiba como corrigir problemas para administradores e usuários do Skype for Business no Microsoft 365 e No Office 365.
-ms.openlocfilehash: b9186064cab1932d34c49c2ed0d48bde2ce88787
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Saiba como corrigir problemas para administradores e usuários de Skype for Business em Microsoft 365 e Office 365.
+ms.openlocfilehash: b64cd39cee9a9981c5a5d605953d1e11c5ba06f0
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51109897"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52239410"
 ---
 # <a name="troubleshoot-problems-with-skype-for-business-online"></a>Solucionar problemas com o Skype for Business Online
+
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
 Às vezes as coisas não funcionam como você espera. Os tópicos desta lista poderão ajudar a corrigir problemas, se você for o administrador do Skype for Business Online ou ajudar seus usuários a resolverem seus problemas.
 
 ## <a name="troubleshoot-admin-issues-for-skype-for-business-online"></a>Solucionar problemas de administrador do Skype for Business Online
 
-Você pode obter respostas para a maioria das suas perguntas do Skype for Business Online no artigo Verificar as causas comuns dos erros de login do [Skype for Business Online.](troubleshooting-sign-in-errors-for-admins.md#toc323194094) O artigo KB a seguir também inclui muitos recursos de solução de problemas e referências de código de erro: Solução de problemas de erros de login do [Skype for Business Online para administradores.](./troubleshooting-sign-in-errors-for-admins.md)
+Você pode obter respostas para a maioria das suas perguntas Skype for Business Online no artigo Verificar causas comuns de erros de Skype for Business de login [online.](troubleshooting-sign-in-errors-for-admins.md#toc323194094) O artigo KB a seguir também inclui muitos recursos de solução de problemas e referências de código de erro: Solução de problemas Skype for Business erros de login online [para administradores](./troubleshooting-sign-in-errors-for-admins.md).
 
 Para problemas de conferência discagem, consulte Solução de problemas de [audioconferência e problemas conhecidos.](../audio-conferencing-in-office-365/audio-conferencing-troubleshooting-and-known-issues.md)
 
@@ -66,7 +68,7 @@ A maior parte dos problemas enfrentados pelos usuários do Skype for Business On
 
 - [Ajuda da reunião do Skype for Business](https://support.office.com/article/e0bc00a0-b01f-4f51-88fa-6f74abefa203)
 
-- [Treinamento do Skype for Business](https://support.office.com/article/2461b8dd-c825-4e18-9a4c-015bba5a5a7e)
+- [Skype for Business treinamento](https://support.office.com/article/2461b8dd-c825-4e18-9a4c-015bba5a5a7e)
 
 - [Apresentar programas no Skype for Business](https://support.office.com/article/a5e6f4dc-06ac-4ccd-9a52-649b4f4a5306)
 
@@ -75,9 +77,9 @@ A maior parte dos problemas enfrentados pelos usuários do Skype for Business On
 ## <a name="still-need-help-contact-support"></a>Ainda precisa de ajuda? Fale com o suporte.
 <a name="BK_SupportBridge_1"> </a>
 
-Como administrador do Microsoft 365 Apps for business, você tem acesso gratuito aos nossos agentes de suporte experientes para suporte a pré-vendas, conta e cobrança, bem como ajuda para resolver problemas técnicos. Você também pode [entrar em contato com o suporte](/microsoft-365/Admin/contact-support-for-business-products) em nome dos usuários do Microsoft 365 e do Office 365 em sua organização.
+Como administrador do Microsoft 365 Apps para Pequenos e Médios negócios, você tem acesso gratuito aos nossos agentes de suporte com conhecimento para suporte de pré-venda, conta e cobrança, bem como para ajudar a resolver problemas técnicos. Você também pode [entrar em contato com o suporte](/microsoft-365/Admin/contact-support-for-business-products) em nome de Microsoft 365 e Office 365 usuários em sua organização.
 
-- [Obter ajuda dos fóruns da comunidade do Microsoft 365 e do Office 365](https://go.microsoft.com/fwlink/p/?LinkId=518605)
+- [Obter ajuda dos fóruns Microsoft 365 e Office 365 comunidade](https://go.microsoft.com/fwlink/p/?LinkId=518605)
 
 - [Administradores: Ligar para o Suporte](/microsoft-365/Admin/contact-support-for-business-products)
 

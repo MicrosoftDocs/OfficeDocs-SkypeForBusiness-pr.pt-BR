@@ -20,14 +20,16 @@ ms.custom:
 - PowerShell
 - LIL_Placement
 description: Baixar, instalar e usar o Windows PowerShell 5.1 para criar uma sessão remota do PowerShell que se conecta ao Skype for Business online.
-ms.openlocfilehash: ed719a2df084c968c622a54fe145647b2d7b7aa8
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: fb73ccdf63cc64cbe309de1ff5223090d1c282bb
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51120330"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52239328"
 ---
 # <a name="download-and-install-windows-powershell-51"></a>Baixar e instalar o Windows PowerShell 5.1
+
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
 Caso esteja usando a Atualização de Aniversário do Windows 10 ou o Windows Server 2016, você já deve ter o Windows PowerShell 5.1. Esse aplicativo vem pré-instalado com esses sistemas operacionais.
   

@@ -18,60 +18,62 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Reporting
-description: A nova área Relatórios do Centro de Administração do Skype for Business mostra a atividade de chamadas e audioconferências em sua organização. Ele permite detalhar relatórios para lhe dar informações mais granulares sobre as atividades de cada usuário. Por exemplo, você pode usar o relatório de pools de minutos PSTN do Skype for Business para ver o número de minutos consumidos durante o mês atual em sua organização.
-ms.openlocfilehash: ac27e88b6e0f4945dde90f5e5f7bade31f20fe6a
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+description: A nova Skype for Business de Relatórios do Centro de Administração mostra a atividade de chamada e audioconferência em sua organização. Ele permite que você faça uma análise de relatórios para dar uma visão mais granular sobre as atividades de cada usuário. Por exemplo, você pode usar o relatório Skype for Business pools de minutos PSTN para ver o número de minutos consumidos durante o mês atual em sua organização.
+ms.openlocfilehash: d82f360c48b6e7478ef552826ee80ecaf508db0f
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43776246"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52238175"
 ---
 # <a name="pstn-minute-pools-report"></a>Relatório de pools de minutos PSTN
 
->[!NOTE]
->Este relatório só está disponível para clientes de visualização.
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
-A nova área Relatórios do Centro de Administração **do** Skype for Business mostra a atividade de chamadas e audioconferências em sua organização. Ele permite detalhar relatórios para lhe dar informações mais granulares sobre as atividades de cada usuário. Por exemplo, você pode usar o relatório de pools de minutos **PSTN** do Skype for Business para ver o número de minutos consumidos durante o mês atual em sua organização.
+>[!NOTE]
+>Este relatório só está disponível para visualizar clientes.
+
+A nova Skype for Business de  Relatórios do Centro de Administração mostra a atividade de chamada e audioconferência em sua organização. Ele permite que você faça uma análise de relatórios para dar uma visão mais granular sobre as atividades de cada usuário. Por exemplo, você pode usar o relatório Skype for Business pools de minutos **PSTN** para ver o número de minutos consumidos durante o mês atual em sua organização.
   
-Confira a visão geral [de Relatórios](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263) para obter mais relatórios disponíveis.
+Confira a visão geral [relatórios](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263) para obter mais relatórios disponíveis.
   
-Este relatório, juntamente com os outros relatórios do Skype for Business, fornece detalhes sobre as atividades em toda a sua organização. Esses detalhes são muito úteis ao investigar, planejar e tomar outras decisões de negócios para sua organização e para configurar [Créditos de Comunicação](/microsoftteams/what-are-communications-credits)
+Este relatório, juntamente com os outros relatórios Skype for Business, fornece detalhes sobre as atividades em toda a sua organização. Esses detalhes são muito úteis ao investigar, planejar e tomar outras decisões de negócios para sua organização e para configurar [créditos de comunicação](/microsoftteams/what-are-communications-credits)
   
 > [!NOTE]
-> Você pode ver todos os relatórios do Skype for Business ao fazer logoff como administrador no Centro de administração do Microsoft 365. 
+> Você pode ver todos os relatórios de Skype for Business quando fizer logoff como administrador no centro de administração Microsoft 365 local. 
   
-## <a name="how-to-get-to-the-skype-for-business-pstn-minute-pools-report"></a>Como acessar o relatório de pools de minutos PSTN do Skype for Business
+## <a name="how-to-get-to-the-skype-for-business-pstn-minute-pools-report"></a>Como chegar ao relatório de pools de minutos Skype for Business PSTN
 
 ![Um ícone mostrando o logotipo do Skype for Business](../images/sfb-logo-30x30.png) **Usando o centro de administração do Skype for Business**
 
-- Vá para o centro de administração > **administradores** do Centro de administração do Skype  >  **for Business** reportam pools de minutos  >    >  **PSTN.**
+- Vá para o centro de administração > **centros de** administração Skype for Business de administração Relatórios de pools de minutos  >    >    >  **PSTN**.
     
 > [!NOTE]
-> Dependendo da assinatura do Microsoft 365 ou do Office 365 que você tem, talvez você não veja todos os mesmos detalhes mostrados aqui. 
+> Dependendo da assinatura Microsoft 365 ou Office 365 você tem, talvez você não veja todos os mesmos detalhes mostrados aqui. 
   
-## <a name="interpret-the-skype-for-business-pstn-minute-pools-report"></a>Interpretar o relatório de pools de minutos PSTN do Skype for Business
+## <a name="interpret-the-skype-for-business-pstn-minute-pools-report"></a>Interpretar o Skype for Business de pools de minutos PSTN
 
-Você pode ver os pools de minutos do Skype for Business do usuário olhando para cada uma das colunas exibidas.
+Você pode obter uma exibição nos pools de Skype for Business de minuto do usuário, observando cada uma das colunas exibidas.
   
 Esta é a aparência do relatório.
   
 ## 
 
-![Relatório de pools de minutos PSTN do Skype for Business](../images/f5da5ca9-3466-4234-8f33-ab50ac5eb781.png)
+![Skype for Business Relatório de pools de minutos PSTN](../images/f5da5ca9-3466-4234-8f33-ab50ac5eb781.png)
   
 ***
-![Número 1](../images/sfbcallout1.png)<br/>A tabela mostra uma divisão dos pools de minutos por licença (recurso) e local de uso. 
-*    **O recurso** é a licença/plano de serviço usado para a chamada. Os planos de licença/serviço que você pode ver neste relatório incluem:
-     * MCOPSTN1 - Plano de Chamada Doméstica (planos da UE de 3.000 minutos para os EUA/1200 minutos
-     * MCOPSTN2 - Plano de Chamada Internacional & doméstico do qual você verá um pool doméstico (3.000 minutos EUA/Canadá/PR, países europeus de 1200 minutos) e um pool internacional (600 minutos). O limite de minutos é atingido sempre que o limite doméstico -OU- internacional é atingido dentro do mês do calendário. 
+![Número 1](../images/sfbcallout1.png)<br/>A tabela mostra uma divisão de pools de minutos por licença (funcionalidade) e local de uso. 
+*    **A funcionalidade** é o plano de licença/serviço usado para a chamada. Os planos de licença/serviço que você pode ver neste relatório incluem:
+     * MCOPSTN1 - Plano de Chamada Doméstica (planos da UE de 3.000 minutos dos EUA/1200 minutos
+     * MCOPSTN2 - Plano de Chamada & Doméstico do qual você verá um pool doméstico (3.000 minutos EUA/Canadá/PR, países europeus de 1200 minutos) e um pool internacional (600 minutos). O limite de minutos é atingido sempre que o limite internacional -OR doméstico é atingido dentro do mês do calendário. 
      * MCOPSTN5 - Plano de Chamada Doméstica (plano de chamada de 120 minutos)
      * MCOPSTN6 - Plano de Chamada Doméstica (plano de chamada de 240 minutos)
      * MCOMEETADD - Audioconferência
-*    **A Descrição do** Recurso é uma descrição do tipo de licença usada para a chamada.
-*    **O Pool de Minutos** do País é o local de uso da licença dos usuários que compartilham o pool de minutos. 
-*    **Minutos Usados** é o número de minutos usados a cada mês.
-*    **Total de** Minutos é o número total de minutos disponíveis para o mês. 
-*    **Porcentagem Usada** é a porcentagem de minutos usada para o mês. 
+*    **Descrição da funcionalidade** é uma descrição do tipo de licença utilizado para a chamada.
+*    **Pool de Minutos** do País é o local de uso da licença dos usuários que compartilham o pool de minutos. 
+*    **Minutos usados** é o número de minutos usados por mês.
+*    **Total de** minutos é o número total de minutos disponíveis para o mês. 
+*    **Percent Used** é a porcentagem de minutos usadas para o mês. 
 ***
 ![Número 2](../images/sfbcallout2.png)<br/>Clique para arrastar uma coluna para **Para agrupar por uma coluna específica, arraste e solte o cabeçalho da coluna aqui** se desejar criar uma exibição que agrupe todos os dados em uma ou mais colunas. 
 ***
@@ -79,19 +81,19 @@ Esta é a aparência do relatório.
    
 ## <a name="want-to-see-other-skype-for-business-reports"></a>Deseja ver outros relatórios do Skype for Business?
 
-- [Relatório de atividades do Skype for Business](activity-report.md) Você pode ver o quanto seus usuários estão usando ponto a ponto, organizaram e participaram de sessões de conferência.
+- [Skype for Business relatório de atividades](activity-report.md) Você pode ver o quanto seus usuários estão usando ponto a ponto, organizado e participando de sessões de conferência.
     
-- [Relatório de uso de dispositivos do Skype for Business](device-usage-report.md) Você pode ver os dispositivos, incluindo sistemas operacionais baseados no Windows e dispositivos móveis que têm o aplicativo Skype for Business instalado e o estão usando para mensagens de mensagens e reuniões.
+- [Skype for Business de uso do dispositivo](device-usage-report.md) Você pode ver os dispositivos, incluindo Windows operacionais baseados em Windows dispositivos móveis que têm o aplicativo Skype for Business instalado e o estão usando para IM e reuniões.
     
-- Relatório de atividade do organizador de [conferências do Skype for Business](conference-organizer-activity-report.md) Você pode ver o quanto seus usuários estão organizando conferências que usam mensagens de iM, áudio/vídeo, compartilhamento de aplicativos, Web, /discagem – terceiros e /discagem – Microsoft.
+- [Skype for Business relatório de atividades do organizador da conferência](conference-organizer-activity-report.md) Você pode ver o quanto seus usuários estão organizando conferências que usam IM, áudio/vídeo, compartilhamento de aplicativos, Web, /dial out - terceiros e /dial-out - Microsoft.
     
-- [Relatório de atividade de participantes de conferências do Skype for Business](conference-participant-activity-report.md) Você pode ver em quantas conferências de áudio, áudio/ vídeo, mensagens de áudio, compartilhamento de aplicativos, Web e discagem estão participando.
+- [Skype for Business relatório de atividade do participante da conferência](conference-participant-activity-report.md) Você pode ver quantos IM, áudio/vídeo, compartilhamento de aplicativos, Web e conferências de áudio discada estão sendo participadas.
     
-- [Relatório de atividade ponto a ponto](peer-to-peer-activity-report.md) do Skype for Business Você pode ver o quanto seus usuários estão usando mensagens de texto, áudio/vídeo, compartilhamento de aplicativos e transferência de arquivos.
+- [Skype for Business relatório de atividades ponto a ponto](peer-to-peer-activity-report.md) Você pode ver o quanto seus usuários estão usando IM, áudio/vídeo, compartilhamento de aplicativos e transferência de arquivos.
     
-- [Relatório bloqueado de usuários do Skype for Business](users-blocked-report.md) Você pode ver os usuários em sua organização que foram impedidos de fazer chamadas PSTN.
+- [Skype for Business relatório bloqueado de usuários](users-blocked-report.md) Você pode ver os usuários em sua organização que foram impedidos de fazer chamadas PSTN.
 
-- [Relatório de detalhes da sessão do Skype for Business](session-details-report.md) Você pode ver detalhes sobre as experiências de chamada de um usuário individual.
+- [Skype for Business de detalhes da sessão](session-details-report.md) Você pode ver detalhes sobre as experiências de chamada de cada usuário.
     
 ## <a name="related-topics"></a>Tópicos relacionados
 [Relatórios de atividades no centro de administração](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)

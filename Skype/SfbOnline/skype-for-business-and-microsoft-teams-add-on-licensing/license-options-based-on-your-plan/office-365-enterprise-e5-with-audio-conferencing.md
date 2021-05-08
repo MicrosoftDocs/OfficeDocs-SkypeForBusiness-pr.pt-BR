@@ -21,20 +21,22 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 'Saiba mais sobre licenças complementares, recursos e como comprá-los para planos do Office 365 Enterprise. '
-ms.openlocfilehash: 5181136bc95d2f74840af36ed6b4a29484485ed4
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: caa062e78fff49750c85e5db180081a96cae9f34
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42010574"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52238424"
 ---
 # <a name="office-365-enterprise-e5"></a>Office 365 Enterprise E5
+
+[!INCLUDE [sfbo-retirement](../../../Hub/includes/sfbo-retirement.md)]
 
 O plano [Office 365 Enterprise E5](https://products.office.com/business/office-365-enterprise-e5-business-software) inclui a maioria dos recursos do Skype for Business. Há apenas algumas opções adicionais.
   
 |||
 |:-----|:-----|
 |**Para adicionar este recurso** <br/> |**Você precisa comprar** <br/> |
-|**A audioconferência está incluída!** <br/> |Após adquirir a licença, a Microsoft será seu provedor de serviços de audioconferência.  <br/> |
-|**Números de chamada gratuita para acesso discado a suas reuniões e a capacidade de discar de uma reunião para adicionar alguém ligando para qualquer número de telefone do mundo.** <br/> |[Créditos de Comunicações](/microsoftteams/set-up-communications-credits-for-your-organization)|
-|**Sistema de Telefonia e caixa postal incluídos!** <br/> |Planos de Chamada: compre [um Plano de Chamada](/MicrosoftTeams/calling-plans-for-office-365) do Office 365. <br/>  Ou use o [serviço de telefonia do provedor existente](../../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md#bkmk_existing). |
+|**Audioconferência está incluída!** <br/> |Após adquirir a licença, a Microsoft será seu provedor de serviços de audioconferência.  <br/> |
+|**Números de chamada gratuita para acesso de discagem às reuniões e a capacidade de discar de uma reunião para adicionar alguém chamando qualquer número de telefone no mundo.** <br/> |[Créditos de Comunicações](/microsoftteams/set-up-communications-credits-for-your-organization)|
+|**Sistema de Telefonia e caixa postal incluídos!** <br/> |Planos de Chamada: compre [um Plano de Chamada](/MicrosoftTeams/calling-plans-for-office-365) Office 365. <br/>  Ou use o [serviço de telefonia do provedor existente](../../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md#bkmk_existing). |

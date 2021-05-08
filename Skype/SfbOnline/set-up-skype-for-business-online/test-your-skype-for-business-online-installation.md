@@ -19,20 +19,22 @@ f1.keywords:
 ms.custom:
 - Setup
 description: 'Learn to save time, support calls and increase satisfaction by setting up test accounts and computers, and testing dial-in conferencing, online features such as person-to-person calls, conferencing, and sign in and out. '
-ms.openlocfilehash: fea4b04f51560b602687eff90ca6932ce5d1be8f
-ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
+ms.openlocfilehash: 378fe1ad980de5c28c9175cf7e1e918b580c257a
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/08/2020
-ms.locfileid: "44164290"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52239512"
 ---
 # <a name="test-your-skype-for-business-online-installation"></a>Testar a instalação do Skype for Business Online
+
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
 Economize tempo, reduza as chamadas de suporte e melhore a satisfação do usuário testando sua instalação do Skype for Business Online antes de configurá-la para todas as pessoas em sua organização.
 
 Veja o que você precisa:
 
-- Pelo menos três contas do Microsoft 365 ou do Office 365 (suas e pelo menos duas outras).
+- Pelo menos três Microsoft 365 ou Office 365 contas (suas e pelo menos duas outras).
 
 - Um computador para cada conta de teste. Configure-os como os computadores típicos de sua organização.
 
@@ -51,7 +53,7 @@ Veja o que você precisa:
 ## <a name="set-up-test-accounts"></a>Configurar contas de teste
 <a name="__toc328126910"> </a>
 
-1. Vá para **Administrador do**  >  **Microsoft 365** ou grupos e usuários do **Office 365** e selecione Adicionar e  >  inserir as informações ![ ](../images/328ffb57-5f31-430a-b653-4a6b8e76d338.png) necessárias.
+1. Vá para **Administrador Microsoft 365** ou Office 365 Usuários e grupos e selecione adicionar Adicionar e  >   insira as informações   >   ![ ](../images/328ffb57-5f31-430a-b653-4a6b8e76d338.png) necessárias.
 
 2. Quando você chegar na Etapa 4 (Email), digite seu endereço de email. Assim, você terá um registro do novo nome de usuário e senha.
 
@@ -62,7 +64,7 @@ Veja o que você precisa:
 
 Em cada computador de teste:
 
-1. Vá para a home page do Microsoft 365 ou do Office 365 e entre com credenciais de uma de suas contas de teste.
+1. Vá para a Microsoft 365 ou Office 365 página inicial e entre com credenciais de uma de suas contas de teste.
 
 2. Vá para **Configurações**![Configurações: atualizar seu perfil, instalar software e conectá-lo à nuvem](../images/4b83e9cb-c7e4-46c8-b3d1-cfee017123ae.png) e clique em **Instale software e conecte-o à nuvem**.
 

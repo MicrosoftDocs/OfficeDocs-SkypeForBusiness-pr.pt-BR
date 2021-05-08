@@ -1,5 +1,5 @@
 ---
-title: Fazer alterações nas configurações de Transmissão de Reunião do Skype para sua organização
+title: Fazer alterações nas configurações Reunião do Skype transmissão da sua organização
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -19,24 +19,26 @@ f1.keywords:
 ms.custom:
 - SMB
 - ms.lync.lac.BroadcastMeetings
-description: Você pode habilitar a Transmissão de Reunião do Skype e fazer alterações nas configurações e políticas dessas reuniões.
-ms.openlocfilehash: 75b1894f486d6448662c459b0d77d4f5d3057a2f
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Você pode habilitar Reunião do Skype Transmissão e fazer alterações nas configurações e políticas dessas reuniões.
+ms.openlocfilehash: fae53601c858bf67db57352e18dbc9799243f996
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51106547"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52238643"
 ---
-# <a name="make-changes-to-skype-meeting-broadcast-settings-for-your-organization"></a>Fazer alterações nas configurações de Transmissão de Reunião do Skype para sua organização
+# <a name="make-changes-to-skype-meeting-broadcast-settings-for-your-organization"></a>Fazer alterações nas configurações Reunião do Skype transmissão da sua organização
+
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
 > [!IMPORTANT]
-> O centro de administração do Microsoft Teams substituiu o Centro de administração do Skype for Business (portal herdado). Todas as configurações para gerenciar o Skype for Business agora estão no Centro de administração do Teams. Você deve ter a função de administrador do [Azure AD](/azure/active-directory/roles/permissions-reference) de administrador global ou administrador do Skype for Business para gerenciar recursos do Skype for Business no centro de administração do Teams. Para obter mais informações, confira [Gerenciar as configurações do Skype for Business do centro de Administração do Microsoft Teams](/MicrosoftTeams/skype-for-business-settings?bc=%2fskypeforbusiness%2fbreadcrumb%2ftoc.json&toc=%2fskypeforbusiness%2fsfbotoc%2ftoc.json).
+> O Microsoft Teams de administração substituiu o Skype for Business de administração (portal herdado). Todas as configurações para o Skype for Business agora estão no centro Teams administrador. Você deve ter a função de administrador do [Azure AD](/azure/active-directory/roles/permissions-reference) de administrador global ou Skype for Business para gerenciar Skype for Business recursos no centro de administração Teams do Azure. Para obter mais informações, confira [Gerenciar as configurações do Skype for Business do centro de Administração do Microsoft Teams](/MicrosoftTeams/skype-for-business-settings?bc=%2fskypeforbusiness%2fbreadcrumb%2ftoc.json&toc=%2fskypeforbusiness%2fsfbotoc%2ftoc.json).
 
-Você pode habilitar a Transmissão de Reunião do Skype e fazer alterações nas configurações e políticas dessas reuniões.
+Você pode habilitar Reunião do Skype Transmissão e fazer alterações nas configurações e políticas dessas reuniões.
   
-- **Habilitar Transmissão de Reunião do Skype** Habilita a Transmissão de Reunião do Skype. Depois de habilitar a Transmissão de Reunião do Skype, você precisará [configurar sua rede para Transmissão de Reunião do Skype.](set-up-your-network-for-skype-meeting-broadcast.md) Faça esta etapa se quiser manter webinars e outras transmissões para pessoas fora da sua empresa. 
+- **Habilitar Reunião do Skype Transmissão** Habilita Reunião do Skype Transmissão. Depois de habilitar Reunião do Skype Transmissão, você precisará [configurar sua rede para Reunião do Skype Transmissão](set-up-your-network-for-skype-meeting-broadcast.md). Faça esta etapa se quiser manter webinars e outras transmissões para pessoas fora da sua empresa. 
     
-- **Habilitar recursos de Visualização** de Transmissão de Reunião do Skype para minha organização Os programas de clientes do Skype for Business fornecem acesso antecipado a novos produtos e recursos. Isso oferece à sua organização uma prévia do que está por vir e a oportunidade de testar os novos recursos em seu próprio ambiente e fazer comentários antes de lançarmos as com builds do produto para o público em geral.<br/>[Visualização do Skype for Business](https://www.skypepreview.com/)
+- **Habilitar Reunião do Skype recursos de Visualização de Transmissão para minha organização** Os Skype for Business de clientes oferecem acesso antecipado a novos produtos e recursos. Isso oferece à sua organização uma prévia do que está por vir e a oportunidade de testar os novos recursos em seu próprio ambiente e fazer comentários antes de lançarmos as com builds do produto para o público em geral.<br/>[Skype for Business visualização](https://www.skypepreview.com/)
     
 - **Permitir que os organizadores agendem reuniões anônimas** Isso permite que os organizadores criem eventos de transmissão que permitem que qualquer pessoa de fora de sua organização participe sem um requisito para entrar.
     
