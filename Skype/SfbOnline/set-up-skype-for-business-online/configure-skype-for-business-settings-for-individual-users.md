@@ -23,25 +23,27 @@ ms.custom:
 - ms.lync.lac.UsersGeneralOptions
 - ms.lync.lac.UsersLyncToPhoneMoreInfo
 description: 'Learn how to change the Skype for Business settings for individual users such as: Audio and video conferencing, recording of calls and meetings. '
-ms.openlocfilehash: 5ddad9b1502d0a271c20c412731c9872e247be1b
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 0123f285101b8d7190dd7450ddb876a136de13ce
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51093385"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52237527"
 ---
 # <a name="admins-configure-skype-for-business-settings-for-individual-users"></a>Administradores: Definir as configurações do Skype for Business para usuários individuais
 
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
+
 > [!IMPORTANT]
-> O centro de administração do Microsoft Teams substituiu o Centro de administração do Skype for Business (portal herdado). Todas as configurações para gerenciar o Skype for Business agora estão no Centro de administração do Teams. Você deve ter a função de administrador do [Azure AD](/azure/active-directory/roles/permissions-reference) de administrador global ou administrador do Skype for Business para gerenciar recursos do Skype for Business no centro de administração do Teams. Para obter mais informações, confira [Gerenciar as configurações do Skype for Business do centro de Administração do Microsoft Teams](/MicrosoftTeams/skype-for-business-settings?bc=%2fskypeforbusiness%2fbreadcrumb%2ftoc.json&toc=%2fskypeforbusiness%2fsfbotoc%2ftoc.json).
+> O Microsoft Teams de administração substituiu o Skype for Business de administração (portal herdado). Todas as configurações para o Skype for Business agora estão no centro Teams administrador. Você deve ter a função de administrador do [Azure AD](/azure/active-directory/roles/permissions-reference) de administrador global ou Skype for Business para gerenciar Skype for Business recursos no centro de administração Teams do Azure. Para obter mais informações, confira [Gerenciar as configurações do Skype for Business do centro de Administração do Microsoft Teams](/MicrosoftTeams/skype-for-business-settings?bc=%2fskypeforbusiness%2fbreadcrumb%2ftoc.json&toc=%2fskypeforbusiness%2fsfbotoc%2ftoc.json).
 
 Este artigo explica como os administradores configuram o Skype for Business para um pequeno número de usuários. Para fazer essas etapas em massa, incluímos links para os cmdlets Windows PowerShell que você pode usar.
   
 Para permitir (ou impedir) que todos na empresa se comuniquem com pessoas externas, veja:
   
-- Permitir que os usuários contatem usuários externos do [Skype for Business](allow-users-to-contact-external-skype-for-business-users.md): você pode permitir que sua organização use recursos avançados do Skype for Business (compartilhar áreas de trabalho, procurar quem está online, etc.) para se comunicar com pessoas em um negócio confiável (federado) específico. O artigo também explica como bloquear a comunicação com domínios específicos.
+- Permitir que os usuários contatem usuários externos [Skype for Business](allow-users-to-contact-external-skype-for-business-users.md): Você pode permitir que sua organização use recursos avançados de Skype for Business (compartilhar áreas de trabalho, procurar quem está online, etc.) para se comunicar com pessoas em uma empresa confiável (federada) específica. O artigo também explica como bloquear a comunicação com domínios específicos.
     
-- [Permitir que os usuários do Skype for Business adicionem contatos do Skype.](let-skype-for-business-users-add-skype-contacts.md) Você pode permitir que sua organização use o Skype for Business para procurar usuários do aplicativo gratuito Skype e enviar mensagens instantâneas para eles.
+- [Permitir Skype for Business usuários adicionem Skype contatos](let-skype-for-business-users-add-skype-contacts.md). Você pode permitir que sua organização use o Skype for Business para procurar usuários do aplicativo gratuito Skype e enviar mensagens instantâneas para eles.
     
 ## <a name="configure-general-settings-for-one-user"></a>Definir configurações gerais para um usuário
 <a name="__toc325019204"> </a>
@@ -70,7 +72,7 @@ Você deve ter [permissões de administrador](https://support.office.com/article
 |:-----|:-----|
 |Áudio e vídeo em HD  <br/> |Permitir que essa pessoa grave reuniões de áudio, áudio e vídeo ou não permita que ela agende reuniões (nenhuma).  <br/> |
 |Gravar conversas e reuniões  <br/> |Escolha o que esta pessoa tem permissão para gravar.  <br/> Essa opção não está disponível com o Skype for Business Basic.  <br/> |
-|Para fins de conformidade, desligue os recursos não arquivados  <br/> | Selecione esta opção se você for obrigado legalmente a preservar informações armazenadas eletronicamente. <br/>  Selecionar essa opção desabilita os recursos que não são capturados quando você tem um Hold [In-Place](/exchange/security-and-compliance/in-place-and-litigation-holds) definido no centro de administração do Exchange. Ele desativa os seguintes recursos: <br/>  Transferência de arquivos usando mensagens de chat <br/>  Páginas do OneNote compartilhadas <br/>  Anotações do PowerPoint <br/> |
+|Para fins de conformidade, desligue os recursos não arquivados  <br/> | Selecione esta opção se você for obrigado legalmente a preservar informações armazenadas eletronicamente. <br/>  Selecionar essa opção desabilita os recursos que não são capturados quando você tem um Hold [in-locar](/exchange/security-and-compliance/in-place-and-litigation-holds) definido no centro de administração Exchange local. Ele desativa os seguintes recursos: <br/>  Transferência de arquivos usando mensagens de chat <br/>  Páginas do OneNote compartilhadas <br/>  Anotações do PowerPoint <br/> |
    
 Para configurar essas configurações em massa, use o PowerShell. Consulte [Configurar seu computador para Windows PowerShell](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md).
   
@@ -101,11 +103,11 @@ Para configurar essas configurações em massa, use o PowerShell. Consulte [Conf
 |**Configuração da audioconferência**|**Descrição**|
 |:-----|:-----|
 |**Nome do provedor** <br/> |Escolha seu provedor na lista.  <br/> |
-|**Número de chamada tarifada** (obrigatório) <br/> |Para um ACP de terceiros, esses números de telefone são os que você recebeu do provedor de audioconferência. Se o usuário estiver usando o Microsoft como um provedor de audioconferência, estes serão os números definidos na ponte de audioconferência. Formatar os números conforme você deseja que eles apareçam nas solicitações de reunião do Skype for Business e do Microsoft Teams.  <br/> |
-|**Número de chamada gratuita** <br/> |Para um ACP de terceiros, esses números de telefone são os que você recebeu do provedor de audioconferência. Se o usuário estiver usando o Microsoft como um provedor de audioconferência, estes serão os números definidos na ponte de audioconferência. Formatar os números conforme você deseja que eles apareçam nas solicitações de reunião do Skype for Business e do Microsoft Teams.  <br/> |
+|**Número de chamada tarifada** (obrigatório) <br/> |Para um ACP de terceiros, esses números de telefone são os que você recebeu do provedor de audioconferência. Se o usuário estiver usando o Microsoft como um provedor de audioconferência, estes serão os números definidos na ponte de audioconferência. Formatar os números conforme você deseja que eles apareçam em Skype for Business e Microsoft Teams de reunião.  <br/> |
+|**Número de chamada gratuita** <br/> |Para um ACP de terceiros, esses números de telefone são os que você recebeu do provedor de audioconferência. Se o usuário estiver usando o Microsoft como um provedor de audioconferência, estes serão os números definidos na ponte de audioconferência. Formatar os números conforme você deseja que eles apareçam em Skype for Business e Microsoft Teams de reunião.  <br/> |
 |**ID de conferência e PIN** (obrigatório) <br/> |O PIN participante, ou código de conferência, usado para ingressar em reuniões agendadas por esse usuário e são fornecidos de um provedor de audioconferência de terceiros. Se o usuário estiver usando a Microsoft como provedor de audioconferência, isso não será necessário.  <br/> |
    
-Para configurar essas configurações em massa, use o PowerShell. Consulte [Definir os números de telefone incluídos em convites](../audio-conferencing-in-office-365/set-the-phone-numbers-included-on-invites.md) Configurar seu computador para [Windows PowerShell](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md).
+Para configurar essas configurações em massa, use o PowerShell. Consulte [Definir os números de telefone incluídos em convites](../audio-conferencing-in-office-365/set-the-phone-numbers-included-on-invites.md) Configurar seu computador [para](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)Windows PowerShell .
 
 
 [!INCLUDE [LinkedIn Learning Info](../../common/office/linkedin-learning-info.md)]

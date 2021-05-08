@@ -21,19 +21,21 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: 'Descubra o que você deve saber sobre PINs e como redefini-los no Skype for Business Online. '
-ms.openlocfilehash: 4b042775a5a0525099c0116d7d55d0092f560cdf
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 95c2d19a7d867d97ab977b722648de1373a4739b
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51114197"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52237747"
 ---
 # <a name="reset-the-audio-conferencing-pin-in-skype-for-business-online"></a>Redefinir o PIN de Audioconferência no Skype for Business Online
+
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
 > [!Note]
 > Para obter informações sobre a redefinição de PINs de Audioconferência no Microsoft Teams, consulte [Redefinir o PIN de Audioconferência no Microsoft Teams](/MicrosoftTeams/reset-the-audio-conferencing-pin-in-teams).
 
-Um PIN é um código que é criado para cada usuário do Skype for Business habilitado para audioconferência. Os PINs de audioconferência são usados pelos organizadores da reunião para identificar que eles são o organizador da reunião e permitir que eles iniciem uma reunião por telefone. Se eles usarem o aplicativo Skype for Business para iniciar a reunião, um PIN não será necessário. Se os usuários esquecerem o PIN e não puderem encontrá-lo no email que foi enviado para eles quando eles foram habilitados para audioconferência, um administrador pode redefinir seu PIN ou pode redefinir seu próprio PIN.
+Um PIN é um código que é criado para cada Skype for Business usuário habilitado para audioconferência. Os PINs de audioconferência são usados pelos organizadores da reunião para identificar que eles são o organizador da reunião e permitir que eles iniciem uma reunião por telefone. Se eles usarem o Skype for Business para iniciar a reunião, um PIN não será necessário. Se os usuários esquecerem o PIN e não puderem encontrá-lo no email que foi enviado para eles quando eles foram habilitados para audioconferência, um administrador pode redefinir seu PIN ou pode redefinir seu próprio PIN.
   
 As reuniões podem ser iniciadas quando um usuário autenticado ingressar usando o aplicativo Skype for Business ou quando o organizador ingressar com seu PIN pelo telefone. Se a reunião exigir um PIN para ser iniciada, os usuários que entrarem por telefone serão colocados no lobby e esperarão ouvindo música até que a reunião seja iniciada. Se o organizador de uma reunião não exigir um PIN para iniciar a reunião por telefone, os chamadores não precisarão fornecer um PIN para participar.
   
@@ -41,7 +43,7 @@ As reuniões podem ser iniciadas quando um usuário autenticado ingressar usando
 
 1. Entre com sua conta de trabalho ou de estudante.
     
-2. Vá para o centro de administração > **Skype for Business** e, na navegação à esquerda, clique em **Audioconferência**.
+2. Vá para o centro de administração > **Skype for Business** e, na navegação à esquerda, clique **em Audioconferência**.
     
 3. Clique em **Usuários**, selecione o usuário para o que você deseja redefinir o PIN.
     
@@ -60,7 +62,7 @@ Um usuário pode redefinir um PIN usando a opção **Redefinir PIN** na página 
 
 ## <a name="what-else-should-you-know-about-pins"></a>O que mais você deve saber sobre PINs?
 
-- Por motivos de segurança, o PIN só é mostrado para o administrador em uma ocasião: quando o PIN é redefinido. Depois que o PIN for redefinido por um administrador, o PIN será listado como ********** no Centro de administração do **Skype for Business** e nos resultados quando eles usarem Get-CsCsOnlineDialInConfencingUser no Windows PowerShell.
+- Por motivos de segurança, o PIN só é mostrado para o administrador em uma ocasião: quando o PIN é redefinido. Depois que o PIN for redefinido por um administrador, o PIN será listado como ********** no centro de administração do **Skype for Business** e nos resultados quando eles usarem Get-CsCsOnlineDialInConfencingUser no Windows PowerShell.
     
 - O envio automático de emails para usuários está habilitado por padrão e os usuários receberão um email com seu PIN quando eles estão habilitados para audioconferência ou quando o PIN for redefinido. Mas se você tiver desabilitado o envio automático de emails, um email de redefinição de PIN não será enviado para um usuário e você terá que enviar manualmente as informações de PIN para o usuário.
     
@@ -68,11 +70,11 @@ Um usuário pode redefinir um PIN usando a opção **Redefinir PIN** na página 
     
 - A configuração padrão é não permitir que uma reunião seja iniciada por chamadores anônimos.
     
-- Quando você habilita um usuário para audioconferência, por padrão, eles são enviados emails que incluem informações de conferência e seu PIN. O usuário deve ter uma caixa de correio do Microsoft 365 ou Office 365, pois quando um PIN é redefinido, um novo PIN será enviado ao usuário por email para seu endereço SMTP principal (alias) definido para o usuário.
+- Quando você habilita um usuário para audioconferência, por padrão, eles são enviados emails que incluem informações de conferência e seu PIN. O usuário deve ter uma caixa de correio Microsoft 365 ou Office 365, pois quando um PIN for redefinido, um novo PIN será enviado para o usuário por email para seu endereço SMTP principal (alias) definido para o usuário.
     
 - Quando você configura serviços de audioconferência, você pode definir os dígitos que são necessários para os PINs em sua organização. PINs podem ter somente de 4 a 12 dígitos, o padrão é 5. Se você alterar a configuração do tamanho do PIN, a configuração será aplicada somente aos PINs recém-gerados e não será aplicada à configuração do PIN para usuários existentes que estejam habilitados para audioconferência. Consulte [Definir o tamanho do PIN para reuniões de Audioconferência.](Set-the-PIN-length-for-Audio-Conferencing-meetings.md)
     
-- O email por padrão será definido como o endereço SMTP principal do usuário do Microsoft 365 ou Office 365. Você pode enviar um email para um endereço que não seja do Microsoft 365 ou que não seja do Office 365, como um endereço de email hotmail ou MSN. Você pode substituir o endereço de email padrão usando o Windows PowerShell. Isso será útil se os usuários não têm uma caixa de correio do Exchange no Microsoft 365 ou no Office 365.
+- O email por padrão será definido como o endereço SMTP Microsoft 365 ou Office 365 SMTP principal do usuário. Você pode enviar um email para um endereço não Microsoft 365 ou não Office 365, como um endereço de email do Hotmail ou MSN. Você pode substituir o endereço de email padrão usando o Windows PowerShell. Isso será útil se os usuários não têm uma caixa de correio Exchange no Microsoft 365 ou Office 365.
     
 - Para substituir o endereço de usuário padrão para o qual o email é enviado, o administrador do locatário pode usar o seguinte cmdlet: Set-CsOnlineDialInConferencingUser -amos.marble -ResetLeaderPIN -SendEmail -SendEmailToAddress "u@hotmail.com". O parâmetro SendEmail é necessário para substituir o endereço de email do usuário.
     
@@ -86,11 +88,11 @@ Um usuário pode redefinir um PIN usando a opção **Redefinir PIN** na página 
   Set-CsOnlineDialInConferencingUser -id amos.marble@contoso.com -ResetLeaderPIN
   ```
 
-- O Windows PowerShell gerencia os usuários e o que eles podem ou não fazer. Com Windows PowerShell, você pode gerenciar o Microsoft 365 ou o Office 365 usando um único ponto de administração que pode simplificar seu trabalho diário quando você tem várias tarefas a fazer. Para começar a trabalhar com o Windows PowerShell, confira estes tópicos:
+- O Windows PowerShell gerencia os usuários e o que eles podem ou não fazer. Com Windows PowerShell, você pode gerenciar Microsoft 365 ou Office 365 usando um único ponto de administração que pode simplificar seu trabalho diário quando você tem várias tarefas a fazer. Para começar a trabalhar com o Windows PowerShell, confira estes tópicos:
     
-  - [Por que você precisa usar o Microsoft 365 ou o Office 365 PowerShell](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
+  - [Por que você precisa usar Microsoft 365 ou Office 365 PowerShell](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     
-  - [Melhores maneiras de gerenciar o Microsoft 365 ou o Office 365 com Windows PowerShell](/previous-versions//dn568025(v=technet.10))
+  - [Melhores maneiras de gerenciar Microsoft 365 ou Office 365 com Windows PowerShell](/previous-versions//dn568025(v=technet.10))
     
 - Windows PowerShell tem muitas vantagens em velocidade, simplicidade e produtividade sobre o uso apenas do centro de administração do Microsoft 365, como quando você está fazendo alterações de configurações para muitos usuários ao mesmo tempo. Saiba mais sobre essas vantagens nos seguintes tópicos:
     

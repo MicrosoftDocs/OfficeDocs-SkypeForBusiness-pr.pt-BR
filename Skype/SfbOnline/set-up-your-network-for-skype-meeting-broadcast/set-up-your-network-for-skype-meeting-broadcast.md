@@ -19,23 +19,25 @@ f1.keywords:
 ms.custom:
 - SMB
 description: Learn about the Skype Meeting Broadcast feature of Skype for Business Online that enables you to schedule, produce, and broadcast meetings or events to large online audiences up to 10,000 attendees.
-ms.openlocfilehash: 513b6f8d677550557293855389eff29dc61c21c1
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: da27110313765bb50df92e3bafb6f09ceae5f301
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51106507"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52237547"
 ---
 # <a name="set-up-your-network-for-skype-meeting-broadcast"></a>Configurar a rede para a Transmissão de Reunião do Skype
 
-Depois de [habilitar a transmissão de](enable-skype-meeting-broadcast.md) reunião do Skype, você precisa configurar sua rede. Faça esta etapa se quiser manter webinars e outras transmissões para pessoas fora da sua empresa.
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
+
+Depois de [habilitar Reunião do Skype transmissão Reunião do Skype](enable-skype-meeting-broadcast.md) transmissão, você precisará configurar sua rede. Faça esta etapa se quiser manter webinars e outras transmissões para pessoas fora da sua empresa.
 
 > [!IMPORTANT]
-> O Skype for Business Online se aposentará em 31 de julho de 2021, quando o acesso ao serviço terminará. Incentivamos os clientes a iniciar a atualização para o Microsoft Teams, o cliente principal para comunicações e trabalho em equipe no Microsoft 365.
+> Skype for Business Online está se retirando em 31 de julho de 2021, quando o acesso ao serviço terminará. Incentivamos os clientes a começar a atualização para Microsoft Teams, o cliente principal para comunicações e trabalho em equipe Microsoft 365.
 
 Se você não tiver experiência com a configuração do firewall, considere contratar um [Parceiro Microsoft](https://go.microsoft.com/fwlink/?linkid=391089) para realizar essa etapa para você.
 
-Para ignorar essa etapa e, em vez disso, adicionar outra empresa à sua federação para que você possa convidá-los para transmissões, siga as etapas em Permitir que os usuários contatem usuários externos [do Skype for Business.](../set-up-skype-for-business-online/allow-users-to-contact-external-skype-for-business-users.md)
+Para ignorar essa etapa e, em vez disso, adicionar outra empresa à sua federação para que você possa convidá-los para transmissões, siga as etapas em Permitir que os usuários contatem usuários externos Skype for Business [usuários](../set-up-skype-for-business-online/allow-users-to-contact-external-skype-for-business-users.md).
 
 ## <a name="step-1-set-up-allowed-domains"></a>Etapa 1: Configurar domínios permitidos
 
@@ -45,7 +47,7 @@ Use **um** dos seguintes métodos para configurar domínios permitidos:
 
  **Método 1: Usar o centro de administração**
 
-1. Vá para o centro de administração e, na nav esquerda, clique em **Configurações** Serviços de  >  **&amp; complementos** e escolha **Skype for Business**.
+1. Vá para o centro de administração e, na nav esquerda, clique em Configurações de serviços e escolha  >  **&amp;** **Skype for Business**.
 
 2. Na página **compartilhamento** externo em **Exceções** de domínio, selecione Todos os domínios são **bloqueados,** exceto , e insira os domínios a seguir, separados com uma vírgula (,):
 
@@ -89,15 +91,15 @@ Use **um** dos seguintes métodos para configurar domínios permitidos:
   Set-CsTenantFederationConfiguration -AllowedDomains $newAllowList
   ```
 
-## <a name="step-2-add-skype-meeting-broadcast-domains-urls-and-ip-addresses"></a>Etapa 2: Adicionar domínios de Transmissão de Reunião do Skype, URLs e endereços IP
+## <a name="step-2-add-skype-meeting-broadcast-domains-urls-and-ip-addresses"></a>Etapa 2: Adicionar Reunião do Skype de transmissão, URLs e endereços IP
 
-A segunda etapa do processo de instalação é primeiro adicionar domínios necessários e, em seguida, adicionar endereços IP e URLs necessários para que a Transmissão de Reunião do Skype funcione.
+A segunda etapa no processo de instalação é primeiro adicionar domínios necessários e, em seguida, adicionar endereços IP e URLs que são necessárias para que Reunião do Skype Transmissão funcione.
 
-- **Adicione as URLs e endereços IP necessários** do ponto de extremidade do Skype for Business Online, vendo quais são necessários [aqui](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#bkmk_lyo).
+- **Adicione as URLs** e endereços IP do ponto de extremidade Skype for Business online, vendo quais são necessários [aqui](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#bkmk_lyo).
 
 ## <a name="set-up-skype-meeting-broadcast-in-hybrid-deployments-and-organizations"></a>Configurar a Transmissão de Reunião do Skype em implantações e organizações híbridas
 
-Se você tiver uma organização do Skype for Business Online e uma implantação local do Lync Server 2010, do Microsoft Lync Server 2013 e do Skype for Business Server 2015 e tiver usuários online e locais, há outras etapas de configuração que você precisará fazer além das acima para permitir que sua organização local se comunique com o Skype for Business Online e permita que todos os usuários insuportem uma Transmissão de Reunião do Skype. Para saber quais são esses requisitos, consulte [Configurar sua implantação local para Transmissão de Reunião do Skype](../../SfbServer/deploy/configure-skype-meeting-broadcast.md).
+Se você tiver uma organização do Skype for Business Online e uma implantação local do Lync Server 2010, do Microsoft Lync Server 2013 e do Skype for Business Server 2015 e tiver usuários online e no local, há outras etapas de instalação que você precisará fazer além das acima para permitir que sua organização local se comunique com o Skype for Business Online e permitir que todos os usuários insuportem uma transmissão Reunião do Skype. Para saber quais são esses requisitos, consulte [Configurar sua implantação local para Transmissão de Reunião do Skype](../../SfbServer/deploy/configure-skype-meeting-broadcast.md).
 
 ## <a name="related-topics"></a>Tópicos relacionados
 

@@ -23,25 +23,25 @@ ms.custom:
 - ms.lync.lac.ToolsCallQualityDashboard
 - seo-marvel-apr2020
 description: Saiba como ativar e usar o Painel de Qualidade de Chamadas e obter relatórios resumidos de qualidade das chamadas.
-ms.openlocfilehash: 2d671de0e2ddc5d4c2a4e321cf90e2e2f0dbe770
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: c71cb25732a99f207467a988ad0db54c959d15f4
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51162669"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52254445"
 ---
 # <a name="set-up-call-quality-dashboard-cqd"></a>Configurar o Painel de Qualidade de Chamada (CQD)
 
-Abra o Painel de Qualidade de Chamada da Microsoft (CQD) em [https://cqd.teams.microsoft.com](https://cqd.teams.microsoft.com) (entre com suas credenciais de administrador). Ou vá para o Centro de administração do Teams e selecione **Painel de Qualidade de Chamada**. 
+Abra o Painel de Qualidade de Chamada da Microsoft (CQD) em [https://cqd.teams.microsoft.com](https://cqd.teams.microsoft.com) (entre com suas credenciais de administrador). Ou vá para o centro de administração Teams e selecione **Painel de Qualidade de Chamada**. 
 
-:::image type="content" source="media/turning-on-and-using-call-quality-dashboard3.png" alt-text="Captura de tela do botão Painel de qualidade de chamada no Centro de administração do Teams":::
+:::image type="content" source="media/turning-on-and-using-call-quality-dashboard3.png" alt-text="Captura de tela do botão Painel de qualidade de chamada no Teams de administração":::
 
-Na página aberta, clique em **Entrar e** insira suas informações da conta de Administrador Global ou da conta do Microsoft Teams Service Administrator. Após a primeira vez que você entrar, o CQD começará a coletar e processar dados. Lembre-se de que pode levar uma ou mais horas para processar dados suficientes para exibir resultados significativos nos relatórios.
+Na página aberta, clique em **Entrar e** insira sua conta de Administrador Global ou Microsoft Teams informações da conta de administrador. Após a primeira vez que você entrar, o CQD começará a coletar e processar dados. Lembre-se de que pode levar uma ou mais horas para processar dados suficientes para exibir resultados significativos nos relatórios.
 
-O CQD mostra a qualidade de chamadas e reuniões, no nível de toda a organização, para o Microsoft Teams, o Skype for Business Online e o Skype for Business Server 2019. 
+O CQD mostra a qualidade de chamada e reunião, no nível de toda a organização, para Microsoft Teams, Skype for Business Online e Skype for Business Server 2019. 
 
 > [!IMPORTANT]
-> Para usar o CQD com o Skype for Business Server 2019, você terá que [configurar o Conector de Dados de Chamada.](/skypeforbusiness/hybrid/configure-call-data-connector) Consulte [Plan Call Data Connector](/skypeforbusiness/hybrid/plan-call-data-connector) before you start.
+> Para usar o CQD com Skype for Business Server 2019, você terá que [configurar o Conector de Dados de Chamada.](/skypeforbusiness/hybrid/configure-call-data-connector) Consulte [Plan Call Data Connector](/skypeforbusiness/hybrid/plan-call-data-connector) before you start.
 
 
 ## <a name="assign-admin-roles-for-access-to-cqd"></a>Atribuir funções de administrador para acesso ao CQD
@@ -51,18 +51,18 @@ Atribua [funções](/microsoft-365/admin/add-users/about-admin-roles) para acess
 Se você quiser que os usuários que não são administradores (como engenheiros de suporte e agentes do helpdesk) usem o Painel de Qualidade de Chamada, você pode atribuir a esses usuários uma das seguintes funções, que dá acesso ao CQD. 
 
 
-|  |Exibir relatórios  |Exibir campos EUII  |Criar relatórios  |Carregar dados de construção  |
+|  |Exibir relatórios  |Exibir campos EUII  |Criar relatórios  |Upload criar dados  |
 |---------|:-------:|:-------:|:-------:|:-------:|
 |Administrador Global     |Sim         |Sim         |Sim         |Sim         |
-|Administrador de Serviço do Teams     |Sim         |Sim         |Sim         |Sim         |
+|Administrador do Teams     |Sim         |Sim         |Sim         |Sim         |
 |Administrador de Comunicações de Equipes     |Sim         |Sim         |Sim         |Sim         |
 |Engenheiro de Suporte de Comunicações de Equipes     |Sim         |Sim         |Sim         |Não         |
-|Especialista em Suporte de Comunicações do Teams     |Sim         |Não         |Sim         |Não         |
-|Administrador do Skype for Business     |Sim         |Sim         |Sim         |Sim         |
+|Teams Especialista em Suporte de Comunicações     |Sim         |Não         |Sim         |Não         |
+|Skype for Business Administrador     |Sim         |Sim         |Sim         |Sim         |
 |Leitor Global |Sim         |Sim         |Sim         |Não         |
 |Leitor de Relatórios<sup>1</sup>     |Sim         |Não         |Sim         |Não         |
 
-<sup>1</sup> Além de ler relatórios CQD, o [](https://support.office.com/article/activity-reports-0d6dfb17-8582-4172-a9a9-aed798150263) Leitor de Relatórios pode exibir todos os relatórios de atividades no centro de administração e quaisquer relatórios do pacote de conteúdo de Adoção [do Microsoft 365](https://support.office.com/article/Office-365-Adoption-content-pack-77ff780d-ab19-4553-adea-09cb65ad0f1f).
+<sup>1 Além</sup> de ler relatórios CQD, o [](https://support.office.com/article/activity-reports-0d6dfb17-8582-4172-a9a9-aed798150263) Leitor de Relatórios pode exibir todos os relatórios de atividades no centro de administração e quaisquer relatórios do pacote de conteúdo Microsoft 365 [Adoção.](https://support.office.com/article/Office-365-Adoption-content-pack-77ff780d-ab19-4553-adea-09cb65ad0f1f)
 
 > [!NOTE]
 > Se você não estiver vendo [EUII (informações](CQD-data-and-reports.md#euii-data) de identificação do usuário final) e tiver uma das funções que têm permissão para ver essas informações, tenha em mente que o CQD só mantém a EUII por 28 dias. Qualquer coisa com mais de 28 dias é excluída.
@@ -80,20 +80,20 @@ Após a primeira vez que você entrar, o CQD começará a coletar e processar da
 
 
 
-## <a name="use-power-bi-to-analyze-cqd-data"></a>Usar o Power BI para analisar dados CQD
+## <a name="use-power-bi-to-analyze-cqd-data"></a>Usar Power BI para analisar dados CQD
 
-Novidade em janeiro de 2020: Baixar modelos de [consulta do Power BI para CQD](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true). Modelos personalizáveis do Power BI que você pode usar para analisar e relatar seus dados CQD.
+Novidade em janeiro de 2020: [Baixar Power BI de consulta para CQD](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true). Modelos de Power BI personalizáveis que você pode usar para analisar e relatar seus dados CQD.
 
-Leia [Use o Power BI para analisar dados CQD](CQD-Power-BI-query-templates.md) para saber mais.
+Leia [Use Power BI para analisar dados CQD](CQD-Power-BI-query-templates.md) para saber mais.
 
 
 ## <a name="related-topics"></a>Tópicos relacionados
 
-[Melhorar e monitorar a qualidade das chamada para o Teams](monitor-call-quality-qos.md)
+[Melhorar e monitorar a qualidade de chamada para Teams](monitor-call-quality-qos.md)
 
 [O que é CQD?](CQD-what-is-call-quality-dashboard.md)
 
-[Carregar dados de locatário e construção](CQD-upload-tenant-building-data.md)
+[Upload locatário e a criação de dados](CQD-upload-tenant-building-data.md)
 
 [Dados e relatórios do CQD](CQD-data-and-reports.md)
 
@@ -103,4 +103,4 @@ Leia [Use o Power BI para analisar dados CQD](CQD-Power-BI-query-templates.md) p
 
 [Classificação de fluxo no CQD](stream-classification-in-call-quality-dashboard.md)
 
-[Usar o Power BI para analisar dados CQD](CQD-Power-BI-query-templates.md)
+[Usar Power BI para analisar dados CQD](CQD-Power-BI-query-templates.md)

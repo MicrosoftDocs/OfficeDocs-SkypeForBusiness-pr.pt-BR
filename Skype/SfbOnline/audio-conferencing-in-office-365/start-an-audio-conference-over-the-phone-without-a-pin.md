@@ -21,30 +21,32 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: 'Aprender a habilitar ou desabilitar chamadores anônimos para ingressar em uma reunião a partir do centro de administração Skype for Business ou usando um script do PowerShell. '
-ms.openlocfilehash: 6eb62e2a2a295644185b3f0e6fd424749dc5bf56
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 655f61c449554a9044095a5b8ef8bd8ef2940bc4
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51111937"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52237587"
 ---
 # <a name="start-an-audio-conference-over-the-phone-without-a-pin-in-skype-for-business-online"></a>Iniciar uma audioconferência por telefone sem um PIN no Skype for Business Online
+
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
 > [!Note]
 > Para obter informações sobre como iniciar uma audioconferência de áudio sem um PIN no Microsoft Teams, consulte [Iniciar uma audioconferência de áudio por telefone sem um PIN no Microsoft Teams](/MicrosoftTeams/start-an-audio-conference-over-the-phone-without-a-pin-in-teams).
 
-Pode ser frustrante para os usuários que discam para uma reunião ser realizada no lobby da reunião ouvindo música porque o organizador da reunião do Skype for Business não iniciou a reunião. 
+Pode ser frustrante para os usuários que discam para uma reunião ser realizada no lobby da reunião ouvindo música porque o organizador da reunião Skype for Business não iniciou a reunião. 
   
 Se um organizador da reunião chamar a reunião, por padrão, um PIN será necessário para iniciar uma reunião. Você pode defini-lo para que qualquer pessoa possa discar para uma reunião e não ser solicitado que um PIN inicie a reunião. Você pode usar o Centro de administração do Skype for Business para habilitar ou desabilitar essa configuração para um único usuário.
   
-Um PIN não será necessário para o organizador da reunião se alguém tiver iniciado a reunião a partir do aplicativo Skype for Business. É necessário inserir um PIN somente quando o organizador da reunião participa da reunião por telefone. O PIN para reuniões é enviado ao usuário de áudio quando ele recebe a licença de **Audioconferência** e está habilitado para Audioconferência. Consulte Enviar um email para um usuário com suas informações de [Audioconferência](send-an-email-to-a-user-with-their-dial-in-information.md) e Emails que são enviados automaticamente aos usuários quando suas configurações de [Audioconferência mudarem.](emails-sent-to-users-when-their-settings-change.md)
+Um PIN não será necessário para o organizador da reunião se alguém tiver iniciado a reunião do aplicativo Skype for Business. É necessário inserir um PIN somente quando o organizador da reunião participa da reunião por telefone. O PIN para reuniões é enviado ao usuário de áudio quando ele recebe a licença de **Audioconferência** e está habilitado para Audioconferência. Consulte Enviar um email para um usuário com suas informações de [Audioconferência](send-an-email-to-a-user-with-their-dial-in-information.md) e Emails que são enviados automaticamente aos usuários quando suas configurações de [Audioconferência mudarem.](emails-sent-to-users-when-their-settings-change.md)
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
   
 ## <a name="enable-or-disable-anonymous-callers-from-joining-a-meeting"></a>Habilitar ou desabilitar chamadores anônimos para participar de uma reunião
     
-1. No Centro **de administração do Skype for Business**, na navegação à esquerda, vá para Usuários de **Audioconferência.**  >   
+1. No centro **Skype for Business de** administração , na navegação à esquerda, vá para Usuários **de Audioconferência**  >  . 
     
 2. Na lista, selecione o usuário e, no painel Ação, clique em **Editar**. 
     
@@ -54,7 +56,7 @@ Um PIN não será necessário para o organizador da reunião se alguém tiver in
 
 
     
- **Usando o Windows Powershell**
+ **Usando Windows Powershell**
   
 - Execute o seguinte: 
     
@@ -82,11 +84,11 @@ Um PIN não será necessário para o organizador da reunião se alguém tiver in
 
 - Para economizar tempo e automatizar a tarefa para mais de um usuário, você pode usar o cmdlet [Set-CsOnlineDialInConferencingUser](/powershell/module/skype/Set-CsOnlineDialInConferencingUser).
     
-- No que diz respeito ao Windows PowerShell, o Skype for Business Online gerencia os usuários e o que eles podem ou não fazer. Com Windows PowerShell, você pode gerenciar o Microsoft 365 ou o Office 365 usando um único ponto de administração que pode simplificar seu trabalho diário quando você tem várias tarefas a fazer. Para começar a trabalhar com o Windows PowerShell, confira estes tópicos:
+- No que diz respeito ao Windows PowerShell, o Skype for Business Online gerencia os usuários e o que eles podem ou não fazer. Com Windows PowerShell, você pode gerenciar Microsoft 365 ou Office 365 usando um único ponto de administração que pode simplificar seu trabalho diário quando você tem várias tarefas a fazer. Para começar a trabalhar com o Windows PowerShell, confira estes tópicos:
     
-  - [Por que você precisa usar o Microsoft 365 ou o Office 365 PowerShell](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
+  - [Por que você precisa usar Microsoft 365 ou Office 365 PowerShell](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     
-  - [Melhores maneiras de gerenciar o Microsoft 365 ou o Office 365 com Windows PowerShell](/previous-versions//dn568025(v=technet.10))
+  - [Melhores maneiras de gerenciar Microsoft 365 ou Office 365 com Windows PowerShell](/previous-versions//dn568025(v=technet.10))
     
 - Windows PowerShell tem muitas vantagens em velocidade, simplicidade e produtividade sobre o uso apenas do centro de administração do Microsoft 365, como quando você está fazendo alterações de configurações para muitos usuários ao mesmo tempo. Saiba mais sobre essas vantagens nos seguintes tópicos: 
     
@@ -101,4 +103,4 @@ Um PIN não será necessário para o organizador da reunião se alguém tiver in
   
 ## <a name="related-topics"></a>Tópicos relacionados
 
-[Experimente ou compre Audioconferência no Microsoft 365 ou Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
+[Experimente ou compre Audioconferência em Microsoft 365 ou Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
