@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 4b371d696008d7ef58ce7722e6a9f27e9c9bc970
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 96012732c3f8023535e67cd753a16a7aac32f913
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117799"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52240491"
 ---
 # <a name="plan-for-lifecycle-management-in-teams"></a>Planejar o gerenciamento de ciclo de vida no Teams
 
@@ -78,7 +78,7 @@ As funções de administrador de equipe determinam quais recursos cada detentor 
 </thead>
 <tbody>
    <tr>
-    <td valign="top" colspan="2">Administrador de Serviço do Teams</td>
+    <td valign="top" colspan="2">Administrador do Teams</td>
     <td valign="top">Gerenciar o serviço do Teams; criar e gerenciar Grupos do Microsoft 365</td>
     <td valign="top">Gerenciar reuniões, inclusive políticas de reunião, configurações e pontes de conferência<sup>1</sup><br><br>Gerenciar voz, inclusive políticas de chamada, inventário e atribuição de números de telefone, filas de chamadas e atendedores automáticos<sup>1</sup><br><br>Gerenciar mensagens, inclusive políticas de mensagens<sup>1</sup><br><br>Gerenciar todas as configurações de toda a organização, inclusive federação, atualização do Teams e configurações de cliente do Teams<sup>1</sup><br><br>Gerenciar as equipes na organização e as configurações associadas, inclusive associação<sup>2</sup><br><br>Exibir a página de perfil do usuário e solucionar problemas de qualidade de chamada do usuário usando o conjunto de ferramentas avançado de solução de problemas<sup>3</sup></td>
 </tr>
@@ -117,7 +117,7 @@ Para obter mais informações, confira [Planejar a governança no Teams](plan-te
 
 ## <a name="teams-lifecycle-stages"></a>Etapas do ciclo de vida das equipes
 
-De modo geral, uma equipe tem um propósito que está alinhado a um projeto ou a uma meta. Mesmo que uma equipe tenha sido formada com base em um interesse em comum, a associação a ela provavelmente mudará com o tempo e a discussão poderá se tornar obsoleta, mas surgir novamente de maneira um pouco diferente em outra equipe.
+De modo geral, uma equipe possui uma finalidade que está alinhada a um projeto ou para atingir um objetivo. Mesmo que uma equipe tenha sido formada com base em um interesse compartilhado, a associação com a equipe provavelmente mudará ao longo do tempo e a discussão poderá ficar obsoleta, apenas para aparecer novamente de uma maneira um pouco diferente em uma equipe diferente.
 
 Cada equipe tem um começo, quando ela é criada e os canais são configurados; um meio, quando a equipe é usada e a colaboração ocorre para corresponder ao ritmo do fluxo de trabalho; e, às vezes, um fim, quando a equipe conclui seu propósito e chega ao fim da vida útil. 
 
@@ -138,10 +138,10 @@ Os proprietários da equipe convidam membros, definem a imagem e a descrição d
 
 As equipes podem ser criadas por meio de diversos métodos:
 
--   Crie a equipe do zero. Adicione membros usando aliases de email ou nomes de usuário individuais ou expanda uma lista de distribuição.
--   Crie a equipe com base em uma equipe existente e use sua configuração de canal e qualquer configuração de aplicativo como modelo. Opcionalmente, você também pode usar sua lista de membros.
--   Adicione uma equipe a um grupo existente do Microsoft 365, que também fornece acesso à equipe à sua caixa de correio e ao site do SharePoint.
--   Use as APIs do Teams do Microsoft Graph ou cmdlets do PowerShell para criar equipes. As APIs podem criar equipes de forma programática com base nos atributos do Catálogo de Endereços Global (como região ou departamento) ou em processos empresariais (compromissos de clientes ou listas de participantes de salas de aula, por exemplo).
+-   Crie a equipe do zero. Adicione membros usando pseudônimos de e-mail ou nomes de usuário individuais, ou expanda uma lista de distribuição.
+-   Crie a equipe com base em uma equipe existente e use sua configuração de canal e qualquer configuração de aplicativo como modelo. Opcionalmente, você também pode usar sua lista de associação.
+-   Adicione uma equipe a um grupo existente do Microsoft 365, o qual também fornece à equipe acesso à sua caixa de correio e ao site do SharePoint.
+-   Use as APIs do Microsoft Graph Teams ou os cmdlets do PowerShell para criar equipes. As APIs podem criar equipes de forma programática com base nos atributos do Livro de Endereços Global (como região ou departamento) ou processos de negócios (compromissos de cliente ou lista de participação em sala de aula, por exemplo).
 
 Use estes links para obter mais informações sobre como organizar as equipes:
 
@@ -176,7 +176,7 @@ Considere os nomes dos canais antes de criá-los, pois renomear um canal na equi
 
 A confiança, a tolerância e o espírito de colaboração aumentarão gradativamente, à medida que as comunicações dos grupos-chave forem iniciadas e mantidas no Teams. Os membros da equipe veem a utilidade das conversas em grupo, em comparação com os chats entre duas pessoas. Equipes individuais tendem a desenvolver sua própria personalidade, auxiliadas por recursos divertidos, como Giphys e figurinhas. Ao mesmo tempo, é importante que o comportamento nocivo ou rude seja desencorajado sempre que ocorrer.
 
-Como as equipes são semelhantes a organismos vivos, ocasionalmente precisam ser verificadas e cuidadas. Estas são algumas das práticas recomendadas:
+Como as equipes são em forma de vida, ocasionalmente, elas precisam de verificação e de cuidado. Essas são algumas práticas recomendadas:
 
 - Use defensores para manter o uso, se ele começar a diminuir, e também para descobrir e propagar novos comportamentos criativos. 
 - Gerencie os convidados criteriosamente, garantindo que o acesso deles seja encerrado quando a necessidade de negócios terminar.

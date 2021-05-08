@@ -19,14 +19,16 @@ f1.keywords:
 ms.custom:
 - Setup
 description: 'Aprenda causas comuns para erros de sinal do Skype for Business Online e trabalhe na solução de problemas. '
-ms.openlocfilehash: ec441528fb6805f4c2c1c47c50f2debd62675a8a
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 653ad6fec51803cbf818595a39412d535c49d969
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51103837"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52239399"
 ---
 # <a name="troubleshooting-skype-for-business-online-sign-in-errors-for-administrators"></a>Solucionando erros de entrada no Skype for Business Online para administradores
+
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
 Para solucionar erros de entrada no Skype for Business Online, comece eliminando as causas mais comuns de dificuldade de entrada. Se necessário, você pode seguir etapas de resolução específicas com base no tipo de erro. Se o usuário ainda não conseguir entrar, colete informações adicionais e, em seguida, procure ajuda adicional.
 
@@ -144,7 +146,7 @@ Para instalar um certificado SSL de terceiro no servidor Active Domain Federatio
 
 Este procedimento é uma possível correção para a mensagem de erro **Problema ao adquirir seu certificado pessoal requerido para entrar**.
 
-Para eliminar possíveis problemas de certificados ou credenciais, primeiro renove o certificado do usuário no Gerenciador de certificados do Windows. Para fazer isso, execute estas etapas:
+Para eliminar possíveis problemas de certificados ou credenciais, primeiro renove o certificado do usuário no Gerenciador de Certificados do Windows. Para fazer isto, siga estes passos:
 
 1. Abra o Gerenciador de Certificados do Windows. Para fazer isso, clique em **Iniciar**, clique em **Executar**, digite **certmgr.msc** e, em seguida, clique em **OK**.
 
@@ -154,7 +156,7 @@ Para eliminar possíveis problemas de certificados ou credenciais, primeiro reno
 
 4. Clique com o botão direito do mouse no certificado e, em seguida, clique em **Excluir**.
 
-Em seguida, se o usuário estiver executando o Windows 7, remova suas credenciais armazenadas no Gerenciador de Credenciais do Windows. Para fazer isso, execute estas etapas:
+Em seguida, se o usuário estiver executando o Windows 7, remova suas credenciais armazenadas no Gerenciador de Credenciais do Windows. Para fazer isto, siga estes passos:
 
 1. Clique em **Iniciar**, em **Painel de Controle** e clique em **Gerenciador do Credenciais**.
 
@@ -206,7 +208,7 @@ Se você ainda não conseguir resolver os problemas de entrada do usuário, conf
 ## <a name="collect-more-information-and-seek-additional-help"></a>Coletar mais informações e buscar ajuda adicional
 <a name="collect-more-information"> </a>
 
-Se você seguiu as orientações acima e ainda não conseguiu resolver seus problemas de entrada, você deve coletar informações adicionais e entrar em contato com o suporte técnico. Para fazer isso, execute estas etapas:
+Se você seguiu as orientações acima e ainda não conseguiu resolver seus problemas de entrada, você deve coletar informações adicionais e entrar em contato com o suporte técnico. Para fazer isso, siga estes passos:
 
 1. Obtenha os arquivos de log e os detalhes do log de eventos do Windows na máquina do usuário. Para obter instruções passo a passo, consulte o tópico de ajuda do usuário final [Ativar logs de erros no Lync](https://support.office.com/article/eaf6602b-95e0-4c27-869f-36017475806c).
 

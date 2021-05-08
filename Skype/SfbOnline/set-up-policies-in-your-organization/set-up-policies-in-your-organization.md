@@ -18,16 +18,18 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Setup
-ms.openlocfilehash: a6a00dc43e578753796cf7a9b03ff7cedfa46ed4
-ms.sourcegitcommit: 80b66127b3415c99f9468625add6a8f2c36bca74
+ms.openlocfilehash: 20da0e58c2f8b47f2c1d84959eb3ae3f69ba377c
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/07/2020
-ms.locfileid: "48376554"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52240016"
 ---
 # <a name="set-up-policies-in-your-organization"></a>Configurar políticas em sua organização
 
-As políticas ajudam a determinar os recursos do Skype for Business Online disponibilizados aos usuários. Consulte os artigos a seguir para obter detalhes completos.
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
+
+As políticas ajudam a determinar os recursos do Skype for Business Online que são disponibilizados para os usuários. Consulte os artigos a seguir para obter detalhes completos.
 
 - [Bloquear transferências de arquivo ponto a ponto](block-point-to-point-file-transfers.md)
 - [Criar políticas personalizadas de acesso externo](create-custom-external-access-policies.md)

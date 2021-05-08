@@ -20,24 +20,26 @@ ms.custom:
 - Setup
 - LIL_Placement
 description: 'Veja como permitir que as pessoas que estão usando o Skype for Business entrem em contato com os usuários do Skype for Business que estão foram da organização e os adicionem na sua lista de contatos.  '
-ms.openlocfilehash: 71282fe105c85cadca9aab341fc1b5e6ffbe47d2
-ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
+ms.openlocfilehash: d68fc27dfb1c77935ce74e278092f6ed4ae3d7dc
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/08/2020
-ms.locfileid: "44164470"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52239830"
 ---
 # <a name="let-skype-for-business-users-add-skype-contacts"></a>Permitir que os usuários do Skype for Business adicionem contatos do Skype
 
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
+
 Com o Skype for Business, os usuários podem pesquisar todos os usuários do Skype (o aplicativo gratuito!) e enviar mensagens instantâneas para eles. Este artigo explica o que você precisa fazer para adicionar contatos do Skype. 
   
-Você deve ter [permissões de administrador](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d?ui=en-US&rs=en-US&ad=US) no Microsoft 365 ou no Office 365 para fazer isso.
+Você deve ter [permissões de](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d?ui=en-US&rs=en-US&ad=US) administrador Microsoft 365 ou Office 365 fazer isso.
 
 ![Um ícone mostrando o logotipo do Skype for Business](../images/sfb-logo-30x30.png) **Usando o centro de administração do Skype for Business**
   
-1. Entre com sua conta de administrador do Microsoft 365 ou do Office 365 em [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home#/homepage) .
+1. Entre com sua conta Microsoft 365 ou Office 365 admin em [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home#/homepage) .
     
-2. No centro de administração, vá para **Centros de Administração do** Skype for  >  **Business.** 
+2. No centro de administração, vá para **Centros de Administração**  >  **Skype for Business**. 
     
     ![Escolha o Centro de administração do Skype for Business.](../images/376a7a45-e6e3-4716-be09-d2f294d885a2.png)
   

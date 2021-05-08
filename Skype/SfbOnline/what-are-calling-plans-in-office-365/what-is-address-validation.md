@@ -20,18 +20,20 @@ ms.custom:
 - Calling Plans
 - ms.lync.lac.CivicAddressValidation
 description: 'Saiba o que é a validação de endereço, por que ela é importante e como está relacionada a endereços e serviços de emergência. '
-ms.openlocfilehash: 9cde4246cf449e1259fb7b46264f20d65d3a7849
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: dfd582236289e7a7891b52d34c758f78a95a89f7
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44220691"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52237947"
 ---
 # <a name="what-is-address-validation"></a>O que é validação de endereço?
 
-Ao configurar os Planos de Chamada, você precisará atribuir um número de telefone e um endereço de emergência a cada um dos seus usuários.
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]?
+
+Ao configurar Planos de Chamadas, você precisará atribuir um número de telefone e um endereço de emergência a cada um dos seus usuários.
   
-A validação de um endereço envolve a garantia de que ele está correto e também formatado corretamente. É possível que um endereço de emergência parcialmente correto, como um nome incorretamente da cidade, ainda possa ser aprovado na validação. O processo de validação usa todas as partes de um endereço fornecido para determinar se ele contém informações suficientes para encaminhar a chamada para a central de serviços de emergência apropriada. Se for o caso, ele será validado e poderá ser atribuído a um número de telefone.
+A validação de um endereço envolve a garantia de que ele está correto e também formatado corretamente. É possível que um endereço de emergência parcialmente correto, como um nome mistyped da cidade, ainda possa passar na validação. O processo de validação usa todas as partes de um endereço fornecido para determinar se ele contém informações suficientes para encaminhar a chamada para a central de serviços de emergência apropriada. Se for o caso, ele será validado e poderá ser atribuído a um número de telefone.
 
 > [!NOTE]
 > Se precisar de mais números de telefone, veja [Contatar o suporte de produtos para empresas - Ajuda para administradores](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).

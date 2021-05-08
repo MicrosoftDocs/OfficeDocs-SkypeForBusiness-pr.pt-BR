@@ -19,23 +19,25 @@ f1.keywords:
 - CSH
 ms.custom:
 - Optimization
-description: Este artigo fornece informações sobre como usar um servidor proxy com o Skype for Business.
-ms.openlocfilehash: a154b36fc03dc84916d5cb4bd383ff80bef901cd
-ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
+description: Este artigo fornece informações sobre como usar um servidor proxy com Skype for Business.
+ms.openlocfilehash: 09ed98c5f69d6e244a5f87125e4ad607e4d16226
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/08/2020
-ms.locfileid: "41863742"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52240410"
 ---
-# <a name="proxy-servers-for-skype-for-business-online"></a>Servidores proxy do Skype for Business Online
+# <a name="proxy-servers-for-skype-for-business-online"></a>Servidores proxy para Skype for Business Online
 
-Este artigo fornece orientações sobre como usar um servidor proxy com o Skype for Business.
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
+
+Este artigo fornece orientações sobre como usar um servidor proxy com Skype for Business.
   
 ## <a name="not-using-a-proxy-server-is-recommended"></a>É recomendável não usar um servidor proxy
 
-Quando se trata de tráfego do Skype for Business por proxies, a Microsoft recomenda ignorar proxies. Proxies não tornar o Skype for Business mais seguro porque o tráfego já está criptografado.
+Quanto ao tráfego do Skype for Business por meio de proxies, a Microsoft recomenda não usar proxies. Proxies não fazem com que Skype for Business mais seguro porque o tráfego já está criptografado.
   
-E ter um proxy pode causar problemas. Problemas relacionados ao desempenho podem ser introduzidos ao ambiente por meio da latência e da perda de pacotes. Problemas como esses resultarão em uma experiência negativa em cenários como áudio e vídeo do Teams ou skype for Business, em que os fluxos em tempo real são essenciais.
+E o uso de um proxy pode ocasionar problemas. Problemas relacionados ao desempenho podem ocorrer no ambiente devido à latência e à perda de pacote. Problemas como esses resultarão em uma experiência negativa em cenários Teams ou Skype for Business como áudio e vídeo, onde fluxos em tempo real são essenciais.
   
 ## <a name="if-you-need-to-use-a-proxy-server"></a>Caso seja necessário o uso de um servidor proxy
 

@@ -22,31 +22,33 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: Learn how to assign Microsoft the dial-in conferencing provider for Skype for Business.
-ms.openlocfilehash: b0276b0f5ed50e3c287bc872de45d6c1c4c69157
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 74469a7686855d1bb17627282a9f2e5378a0d59e
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51110037"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52237757"
 ---
 # <a name="assign-microsoft-as-the-audio-conferencing-provider"></a>Atribuir a Microsoft como provedor de audioconferência
 
-Para usar a Audioconferência no Microsoft 365 ou Office 365 com o Skype for Business e o Microsoft Teams, os usuários em sua organização precisam ter uma licença de Audioconferência atribuída a eles. Consulte [Try or purchase Audio Conferencing in Microsoft 365 or Office 365](try-or-purchase-audio-conferencing-in-office-365.md) to get more information on licensing and how it costs.
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
-A Conferência de Áudio da Microsoft fornece números de telefone discados, PINs e IDs de conferência que podem ser usados pelos participantes da reunião para ingressar nas reuniões da sua organização. Você só precisa atribuir a Microsoft como provedor de audioconferência a pessoas que vão agendar ou conduzir reuniões do Skype for Business ou do Microsoft Teams.
+Para usar a Audioconferência em Microsoft 365 ou Office 365 com Skype for Business e Microsoft Teams, os usuários em sua organização precisam ter uma licença de Audioconferência atribuída a eles. Consulte [Try or purchase Audioconferncing in Microsoft 365 or Office 365](try-or-purchase-audio-conferencing-in-office-365.md) to get more information on licensing and how it costs.
+
+A Conferência de Áudio da Microsoft fornece números de telefone discados, PINs e IDs de conferência que podem ser usados pelos participantes da reunião para ingressar nas reuniões da sua organização. Você só precisa atribuir a Microsoft como provedor de audioconferência a pessoas que vão agendar ou conduzir Skype for Business ou Microsoft Teams reuniões.
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
   
 ## <a name="assign-microsoft-as-the-audio-conferencing-provider"></a>Atribuir a Microsoft como provedor de audioconferência
 
-### <a name="an-icon-showing-the-skype-for-business-logo-using-the-skype-for-business-admin-center"></a>![Um ícone mostrando o logotipo do Skype for Business](../images/sfb-logo-30x30.png) Usar o Centro de administração do Skype for Business
+### <a name="an-icon-showing-the-skype-for-business-logo-using-the-skype-for-business-admin-center"></a>![Um ícone mostrando o logotipo Skype for Business](../images/sfb-logo-30x30.png) Usar o Centro de administração do Skype for Business
 
-1. Vá para o portal herddo do centro de **administração do Microsoft Teams.**  >  
+1. Vá para o **Microsoft Teams de administração portal**  >  **herdado**.
     
-2. No Centro de administração do **Skype for Business**, na navegação à esquerda, vá para **Audioconferência**.
+2. No centro **Skype for Business de** administração , na navegação à esquerda, vá para **Audioconferência**.
     
-3. Se você vir um banner notificando que há usuários que têm uma licença de **Audioconferência** atribuída, mas ainda não têm a Microsoft definida como provedor de audioconferência, clique em Clique aqui para movê-los.  Se você não vir o banner, no Centro de administração do **Skype for Business** clique em **Usuários** e selecione o filtro Usuários prontos para serem movidos para **Audioconferência.**
+3. Se você vir um banner notificando que há usuários que têm uma licença de **Audioconferência** atribuída, mas ainda não têm a Microsoft definida como provedor de audioconferência, clique em Clique aqui para movê-los.  Se você não vir o banner, no centro de administração do Skype for Business clique em **Usuários** e selecione o filtro Usuários prontos para serem movidos para o filtro **audioconferência.** 
     
 4. Na página propriedades do usuário, em Nome **do provedor,** selecione **Microsoft** na listada.
     
@@ -196,5 +198,5 @@ Script.ps1 -CsvFile <Path of the csv file>
 Para saber mais sobre como usar o Windows PowerShell, veja [Usar o Windows PowerShell para realizar tarefas de gerenciamento comuns do Skype for Business Online](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md).
   
 ## <a name="related-topics"></a>Tópicos relacionados
-[Experimente ou compre Audioconferência no Microsoft 365 ou Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md) 
+[Experimente ou compre Audioconferência em Microsoft 365 ou Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md) 
  [Configurar o Skype for Business Online](../set-up-skype-for-business-online/set-up-skype-for-business-online.md)

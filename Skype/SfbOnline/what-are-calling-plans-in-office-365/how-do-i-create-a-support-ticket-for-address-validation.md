@@ -22,14 +22,16 @@ ms.custom:
 - Calling Plans
 - ms.lync.lac.CivicAddressValidationOpenSupportTicket
 description: A validação de endereço é uma parte importante da configuração de Planos de Chamada. Ela fornece ao usuário da organização um endereço de chamada de emergência que pode ser usado pelos serviços de resposta a emergências.
-ms.openlocfilehash: 86b1658624c9514bc030048b04dd9bd93c4a3306
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: e163e80e3c3a14dba2431f812b53167e8d0af31a
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44220721"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52238007"
 ---
 # <a name="how-do-i-create-a-support-ticket-for-address-validation"></a>Como faço para criar um tíquete de suporte para validação de endereços?
+
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]?
 
 A validação de endereço é uma parte importante da configuração de Planos de Chamada. Ela fornece ao usuário da organização um endereço de chamada de emergência que pode ser usado pelos serviços de resposta a emergências. A maneira de fazer isso depende do tamanho da sua organização.
 
@@ -46,9 +48,9 @@ A validação de endereço é uma parte importante da configuração de Planos d
 
 ## <a name="for-organizations-with-more-than-150-users-create-a-service-request-to-validate-an-emergency-address"></a>Para organizações com mais de 150 usuários, crie uma solicitação de serviço para validar um endereço de emergência
 
-1. Entre como administrador do Microsoft 365 ou do Office 365 com sua conta do trabalho ou da escola.
+1. Entre como administrador para Microsoft 365 ou Office 365 com sua conta de trabalho ou de estudante.
     
-2. No centro de administração, na navegação à esquerda, clique em **Suporte**  >  **a Nova solicitação de serviço.**
+2. No centro de administração, na navegação à esquerda, clique em **Suporte**  >  **Nova solicitação de serviço.**
     
 3. Em **Solicitações de serviço**, clique em **Adicionar**.
     
@@ -73,7 +75,7 @@ A validação de endereço é uma parte importante da configuração de Planos d
       - País ou região
     
      > [!IMPORTANT]
-     > **Coloque o país/região onde oferecemos Planos de Chamada em que você está tentando validar um endereço de emergência ao atribuir um número de telefone.**
+     > **Coloque o país/região em que oferecemos Planos de Chamada em que você está tentando validar um endereço de emergência ao atribuir o número de telefone.**
   
       - CEP
     
@@ -98,7 +100,7 @@ A validação de endereço é uma parte importante da configuração de Planos d
 8. Confira as informações e clique em **Enviar solicitação**.
     
 > [!TIP]
-> O número de referência será listado na página **solicitações de** serviço no Centro de administração do Microsoft 365.
+> O número de referência será listado na página **Solicitações de** serviço no Microsoft 365 de administração.
   
 ## <a name="related-topics"></a>Tópicos relacionados
 [Perguntas comuns sobre a transferência de números de telefone](/microsoftteams/transferring-phone-numbers-common-questions)

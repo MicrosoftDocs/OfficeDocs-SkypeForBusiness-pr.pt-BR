@@ -21,16 +21,16 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.deploymentadvisor.overview
 description: Utilize o Advisor for Teams para ajudá-lo a planejar e concluir a implementação do Microsoft Teams.
-ms.openlocfilehash: 865575bf030720fcd25ae029d4b552730f05a992
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 98a2d2ee2bdfca82de0f42651b1936d982ab6805
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51093761"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52240546"
 ---
 # <a name="use-advisor-for-teams-to-help-you-roll-out-microsoft-teams"></a>Use o Assistente do Teams para ajudá-lo na implantação do Microsoft Teams
 
-O Advisor for Teams orienta você durante a implementação do Microsoft Teams.. Ele avalia o ambiente da organização do Microsoft 365 e identifica as configurações mais comuns que você pode precisar atualizar ou modificar antes de implementar o Teams com êxito. Em seguida, o Assistente do Teams cria uma Equipe de implantação (no Teams), com canais para cada carga de trabalho que você deseja implantar. Cada carga de trabalho da Equipe de implantação vem com um plano abrangente do Planner que inclui todas as tarefas de implantação para cada carga de trabalho.  Utilizando este plano do Planner, você atribuirá tarefas às pessoas responsáveis por cada fase da implementação, incluindo o gerente de projeto, administradores de serviço do Teams, pessoas de suporte e sua equipe de adoção e prontidão do usuário. Cada tarefa de implantação contém todas as orientações e recursos necessários para concluir a tarefa com êxito.
+O Advisor for Teams orienta você durante a implementação do Microsoft Teams.. Ele avalia o ambiente da organização do Microsoft 365 e identifica as configurações mais comuns que você pode precisar atualizar ou modificar antes de implementar o Teams com êxito. Em seguida, o Assistente do Teams cria uma Equipe de implantação (no Teams), com canais para cada carga de trabalho que você deseja implantar. Cada carga de trabalho da Equipe de implantação vem com um plano abrangente do Planner que inclui todas as tarefas de implantação para cada carga de trabalho.  Ao usar o plano do Planner, você atribuirá tarefas às pessoas responsáveis por cada fase da implementação, incluindo o gerente de projeto, administradores de serviço do Teams, pessoas de suporte e sua equipe de adoção e prontidão do usuário. Cada tarefa de implantação contém todas as orientações e recursos necessários para concluir a tarefa com êxito.
 
 O Assistente do Teams faz parte do [centro de administração do Teams](https://admin.teams.microsoft.com). No mínimo, você precisará de uma licença do Microsoft 365 Business Basic para que possa aproveitar as vantagens da integração do Advisor for Teams com o Forms e o Planner. Para usar o Assistente do Teams, clique no botão **Iniciar** no widget de **Implantação da Carga de Trabalho do Teams** no Painel. Ou vá para **Planejamento** > **Teams Advisor**.
 
@@ -41,7 +41,7 @@ Para obter uma visão geral dirigida da experiência do Assistente do Teams, con
 
 ## <a name="using-advisor-for-teams"></a>Utilizando o Advisor for Teams
 
-**As licenças do Teams, Forms e Planner são necessárias para usar o Assistente do Teams.** No entanto, não é necessário ser um administrador do Teams para usar o Assistente do Teams, qualquer pessoa em sua organização pode usá-lo. Configuramos permissões especiais para que usuários não administradores possam acessar o Assistente do Teams, mesmo que seja no centro de administração do Teams. Você TEM que ser um administrador do Teams, Administrador de Serviços do Teams ou Administrador Global para abrir as avaliações de prontidão dos locatários (isso ocorre porque as funções especiais não administrativas não têm acesso às APIs do Microsoft Graph, subjacentes às avaliações).
+**As licenças do Teams, Forms e Planner são necessárias para usar o Assistente do Teams.** No entanto, não é necessário ser um administrador do Teams para usar o Assistente do Teams, qualquer pessoa em sua organização pode usá-lo. Configuramos permissões especiais para que usuários não administradores possam acessar o Assistente do Teams, mesmo que seja no centro de administração do Teams. Você PRECISA ser Administrador do Teams, Administrador de Serviços do Teams ou Administrador Global para abrir as avaliações de prontidão dos locatários (isso ocorre porque as funções especiais não administrativas não possuem acesso às APIs do Microsoft Graph, subjacentes às avaliações).
 
 > [!IMPORTANT]
 > Se o **Teams Advisor** estiver ausente em **Planejamento** no centro de administração do Teams, isso significa que o usuário não está licenciado para o Teams.
@@ -136,7 +136,7 @@ Depois que o Assistente do Teams a criar a equipe de Implantação, o bot do Ass
 >
 
 > [!IMPORTANT]
-> O Bot do Assistente do Teams é usado apenas para enviar uma mensagem de boas-vindas à sua Equipe de implantação. Nenhum dado adicional é coletado.
+> O Bot do Supervisor para Teams é usado apenas para enviar uma mensagem de boas-vindas para sua equipe de Implementação. Nenhum dado adicional é coletado.
 
 > [!IMPORTANT]
 > O bot do Assistente do Teams está habilitado por padrão. Não desabilite-o se você usa ou planeja usar o Assistente do Teams.
@@ -206,7 +206,7 @@ Como o contato principal para seus usuários para perguntas “como fazer”, se
 
 Depois de personalizar o site e reunir seus planos de aprendizagem, considere como você aumentará a conscientização de seus usuários para incentivá-los a usar roteiros de aprendizagem para o aprendizado contínuo.
 
-Use os canais de comunicação para divulgar o site e gerar conscientização. Por exemplo, inclua um slogan padrão como “Confira nosso site de treinamento e suporte para saber como ser produtivo no Teams” nas comunicações com seus usuários.
+Use seus canais de comunicação para promover o site e gerar conscientização. Por exemplo, inclua um tipo de marcação padrão, como "Consulte nosso site de treinamento e suporte para saber como ser produtivo com o Teams" nas comunicações com os usuários.
 
 Envolva os usuários destacando as maneiras como eles podem colaborar no Teams e, em seguida, direcione-os ao site de roteiros de aprendizagem para aprender como.
 
@@ -252,7 +252,7 @@ O Assistente do Teams solicita o seu contrato para coletar informações não fa
 
 ### <a name="can-i-use-advisor-for-teams-with-fasttrack"></a>Posso usar o Assistente do Teams com o FastTrack?
 
-Sim, o FastTrack usa o Assistente do Teams para todos os clientes que desejam implantar o Teams. Eles podem ajudar na configuração inicial da Equipe de implantação usando o Assistente do Teams (se necessário) e também fornecer o suporte necessário sobre tópicos específicos durante a implantação do Teams.
+Sim, o FastTrack aproveita o Supervisor para Teams de todos os clientes que procuram implementar o Teams. Eles podem ajudar com a configuração inicial da sua equipe de Implementação usando o Supervisor para Teams (se necessário) e também fornecer o suporte necessário para tópicos específicos durante a implementação do Teams.
 
 ### <a name="can-i-use-advisor-for-teams-with-a-partner"></a>Posso usar o Assistente do Teams com um parceiro?
 

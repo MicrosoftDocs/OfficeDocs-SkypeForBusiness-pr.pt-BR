@@ -13,16 +13,18 @@ appliesto:
 - Skype for Business
 localization_priority: Normal
 ms.custom: Learn how to use PowerShell to manage inbound call blocking in Skype for Business Online.
-ms.openlocfilehash: 7848aff5f5b4dbb56be713b9241f2ace1ee6e6b3
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: dae0d585df2f67904712e9220f16213a2f925369
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51102067"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52238027"
 ---
 # <a name="block-inbound-calls"></a>Bloquear chamadas de entrada
 
-Os Planos de Chamadas do Skype for Business Online agora suportam o bloqueio de chamadas de entrada da PSTN (rede telefônica pública comutado). Esse recurso permite que uma lista global de locatários de padrões de números seja definida para que a ID do chamador de cada chamada PSTN de entrada para o locatário possa ser verificada na lista para uma combinação. Se uma combinação for feita, uma chamada de entrada será rejeitada.
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
+
+Skype for Business Os Planos de Chamadas Online agora suportam o bloqueio de chamadas de entrada da PSTN (rede telefônica pública comutado). Esse recurso permite que uma lista global de locatários de padrões de números seja definida para que a ID do chamador de cada chamada PSTN de entrada para o locatário possa ser verificada na lista para uma combinação. Se uma combinação for feita, uma chamada de entrada será rejeitada.
 
 Esse recurso de bloqueio de chamadas de entrada só funciona em chamadas de entrada que se originam da PSTN e só funcionam em uma base global do locatário. Ele não está disponível por usuário.  
 

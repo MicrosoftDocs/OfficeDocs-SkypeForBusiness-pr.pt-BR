@@ -22,16 +22,18 @@ ms.custom:
 - Calling Plans
 - ms.lync.lac.NumberActivationStateIncomplete
 description: A validação de endereço é uma parte importante da configuração de Planos de Chamada. Ela fornece ao usuário da organização um endereço de chamada de emergência que pode ser usado pelos serviços de resposta a emergências.
-ms.openlocfilehash: 784877ce6f1d860d2bd98ace9ccf977890f60230
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: 39f63f670685acff79163299ce9cd1a7858821da
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44220661"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52237897"
 ---
 # <a name="why-is-number-activation-listed-as-incomplete"></a>Por que a ativação de número está listada como incompleta?
 
-A validação de endereço é uma parte importante da configuração de Planos de Chamada. Se, por algum motivo, um número de  telefone não estiver ativado e estiver listado como incompleto devido à validação de endereço, será necessário criar e enviar uma solicitação de serviço. A maneira de fazer isso depende do tamanho da sua organização.
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]?
+
+A validação de endereço é uma parte importante da configuração de Planos de Chamada. Se por algum motivo um número de telefone  não estiver ativado e estiver listado como incompleto devido à validação de endereço, você precisará criar e enviar uma solicitação de serviço. A maneira de fazer isso depende do tamanho da sua organização.
   
 ## <a name="for-organizations-150-or-less-follow-these-steps"></a>Para organizações com 150 usuários ou menos, siga estas etapas
 1. No centro de administração, escolha **Precisa de ajuda?**
@@ -42,9 +44,9 @@ A validação de endereço é uma parte importante da configuração de Planos d
 
 ## <a name="for-organizations-with-more-than-150-users-create-a-service-request-to-validate-an-emergency-address"></a>Para organizações com mais de 150 usuários, crie uma solicitação de serviço para validar um endereço de emergência
 
-1. Entre como administrador do Microsoft 365 ou do Office 365 com sua conta do trabalho ou da escola.
+1. Entre como administrador para Microsoft 365 ou Office 365 com sua conta de trabalho ou de estudante.
     
-2. No centro de administração, na navegação à esquerda, clique em **Suporte**  >  **a Nova solicitação de serviço.**
+2. No centro de administração, na navegação à esquerda, clique em **Suporte**  >  **Nova solicitação de serviço.**
     
 3. Em **Solicitações de serviço**, clique em **Adicionar**.
     
@@ -69,7 +71,7 @@ A validação de endereço é uma parte importante da configuração de Planos d
       - País ou região
     
      > [!IMPORTANT]
-     > **Coloque o país/região onde oferecemos Planos de Chamada em que você está tentando validar um endereço de emergência ao atribuir um número de telefone.**
+     > **Coloque o país/região em que oferecemos Planos de Chamada em que você está tentando validar um endereço de emergência ao atribuir o número de telefone.**
   
       - CEP
     
@@ -94,7 +96,7 @@ A validação de endereço é uma parte importante da configuração de Planos d
 8. Confira as informações e clique em **Enviar solicitação**.
     
 > [!TIP]
-> O número de referência será listado na página **solicitações de** serviço no Centro de administração do Microsoft 365.
+> O número de referência será listado na página **Solicitações de** serviço no Microsoft 365 de administração.
 
 > [!NOTE]
 > Se precisar de mais números de telefone, veja [Contatar o suporte de produtos para empresas - Ajuda para administradores](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
