@@ -1,5 +1,5 @@
 ---
-title: Baixar e instalar o módulo conector do Skype for Business Online
+title: Baixar e instalar o módulo Skype for Business Conector Online
 ms.reviewer: ''
 ms.author: tonysmit
 author: tonysmit
@@ -18,24 +18,26 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - PowerShell
-description: Baixe, instale e use o Conector do Skype for Business Online para criar uma sessão Windows PowerShell remota que se conecta ao Skype for Business Online.
-ms.openlocfilehash: 0e00b9dd18b04deaf3d2123de1fa9609040c4e2f
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Baixe, instale e use o conector Skype for Business Online para criar uma sessão Windows PowerShell remota que se conecta ao Skype for Business Online.
+ms.openlocfilehash: e9429b385f83f6b76e211614f953f7d439df524e
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51097197"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52238862"
 ---
-# <a name="download-and-install-the-teams-powershell-module"></a><span data-ttu-id="40bb6-103">Baixar e instalar o módulo do Teams PowerShell</span><span class="sxs-lookup"><span data-stu-id="40bb6-103">Download and install the Teams PowerShell module</span></span>
+# <a name="download-and-install-the-teams-powershell-module"></a><span data-ttu-id="f0f34-103">Baixar e instalar o módulo Teams PowerShell</span><span class="sxs-lookup"><span data-stu-id="f0f34-103">Download and install the Teams PowerShell module</span></span>
+
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
 > [!NOTE]
 
-> <span data-ttu-id="40bb6-104">A versão pública mais recente do [Teams PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams/) é integrada ao Skype for Business Online Connector, fornecendo um único módulo para o gerenciamento do Teams e do PowerShell online do Skype for Business.</span><span class="sxs-lookup"><span data-stu-id="40bb6-104">The latest [Teams PowerShell public release](https://www.powershellgallery.com/packages/MicrosoftTeams/) is integrated with Skype for Business Online Connector, providing a single module for Teams and Skype for Business online PowerShell management.</span></span>
+> <span data-ttu-id="f0f34-104">A versão pública Teams do [PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams/) mais recente é integrada ao Skype for Business Online Connector, fornecendo um único módulo para o gerenciamento Teams e Skype for Business PowerShell online.</span><span class="sxs-lookup"><span data-stu-id="f0f34-104">The latest [Teams PowerShell public release](https://www.powershellgallery.com/packages/MicrosoftTeams/) is integrated with Skype for Business Online Connector, providing a single module for Teams and Skype for Business online PowerShell management.</span></span>
 
 
-1. <span data-ttu-id="40bb6-105">Instale o [módulo do Teams PowerShell](/microsoftteams/teams-powershell-install).</span><span class="sxs-lookup"><span data-stu-id="40bb6-105">Install the [Teams PowerShell module](/microsoftteams/teams-powershell-install).</span></span>
+1. <span data-ttu-id="f0f34-105">Instale o [módulo Teams PowerShell](/microsoftteams/teams-powershell-install).</span><span class="sxs-lookup"><span data-stu-id="f0f34-105">Install the [Teams PowerShell module](/microsoftteams/teams-powershell-install).</span></span>
     
-2. <span data-ttu-id="40bb6-106">Abra um prompt Windows PowerShell de comando e execute os seguintes comandos:</span><span class="sxs-lookup"><span data-stu-id="40bb6-106">Open a Windows PowerShell command prompt and run the following commands:</span></span> 
+2. <span data-ttu-id="f0f34-106">Abra um prompt Windows PowerShell de comando e execute os seguintes comandos:</span><span class="sxs-lookup"><span data-stu-id="f0f34-106">Open a Windows PowerShell command prompt and run the following commands:</span></span> 
 
    ```powershell
    # When using Teams PowerShell Module
@@ -43,7 +45,7 @@ ms.locfileid: "51097197"
    $credential = Get-Credential
    Connect-MicrosoftTeams -Credential $credential
    ```
-   <span data-ttu-id="40bb6-107">Se você quiser mais informações sobre como iniciar o Windows PowerShell, consulte Conectar-se a todos os serviços do [Microsoft 365 ou do Office 365](/microsoft-365/enterprise/connect-to-all-microsoft-365-services-in-a-single-windows-powershell-window) em uma única janela de Windows PowerShell ou Configurar seu computador para Windows PowerShell [.](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)</span><span class="sxs-lookup"><span data-stu-id="40bb6-107">If you want more information about starting Windows PowerShell, see [Connect to all Microsoft 365 or Office 365 services in a single Windows PowerShell window](/microsoft-365/enterprise/connect-to-all-microsoft-365-services-in-a-single-windows-powershell-window) or [Set up your computer for Windows PowerShell](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md).</span></span>
+   <span data-ttu-id="f0f34-107">Se você quiser mais informações sobre como iniciar Windows PowerShell, consulte Conexão para todos os serviços Microsoft 365 ou [Office 365](/microsoft-365/enterprise/connect-to-all-microsoft-365-services-in-a-single-windows-powershell-window) em uma única janela de Windows PowerShell ou Configurar seu computador para Windows PowerShell [.](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)</span><span class="sxs-lookup"><span data-stu-id="f0f34-107">If you want more information about starting Windows PowerShell, see [Connect to all Microsoft 365 or Office 365 services in a single Windows PowerShell window](/microsoft-365/enterprise/connect-to-all-microsoft-365-services-in-a-single-windows-powershell-window) or [Set up your computer for Windows PowerShell](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md).</span></span>
   
-## <a name="related-topics"></a><span data-ttu-id="40bb6-108">Tópicos relacionados</span><span class="sxs-lookup"><span data-stu-id="40bb6-108">Related topics</span></span>
-[<span data-ttu-id="40bb6-109">Configurar seu computador para gerenciamento do skype for business online usando o Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="40bb6-109">Set up your computer for skype for business online management using Windows PowerShell</span></span>](set-up-your-computer-for-windows-powershell.md)
+## <a name="related-topics"></a><span data-ttu-id="f0f34-108">Tópicos relacionados</span><span class="sxs-lookup"><span data-stu-id="f0f34-108">Related topics</span></span>
+[<span data-ttu-id="f0f34-109">Configurar seu computador para gerenciamento do skype for business online usando Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="f0f34-109">Set up your computer for skype for business online management using Windows PowerShell</span></span>](set-up-your-computer-for-windows-powershell.md)

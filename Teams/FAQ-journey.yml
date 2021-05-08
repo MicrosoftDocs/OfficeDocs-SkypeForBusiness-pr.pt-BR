@@ -1,8 +1,8 @@
 ### YamlMime:FAQ
 metadata:
   title: Perguntas frequentes sobre a atualização do Skype for Business para o Teams
-  author: msdmaguire
-  ms.author: dmaguire
+  author: dstrome
+  ms.author: dstrome
   manager: serdars
   ms.topic: conceptual
   ms.service: msteams
@@ -21,12 +21,12 @@ metadata:
   - M365-collaboration
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: 7ae2f78db68a84106b25329f374ac93f616fba31
-  ms.sourcegitcommit: 900f28c4ac12d65ccbd996028205ba183b4afb03
+  ms.openlocfilehash: 1f23be9a2324bc3fe51f19440562cdcc31df8ad0
+  ms.sourcegitcommit: 32e3bb588abcbeded2d885483384c06706b280eb
   ms.translationtype: MT
   ms.contentlocale: pt-BR
-  ms.lasthandoff: 04/24/2021
-  ms.locfileid: "51995269"
+  ms.lasthandoff: 05/08/2021
+  ms.locfileid: "52282698"
 title: Perguntas frequentes ‒ atualização do Skype for Business para o Microsoft Teams
 summary: ''
 sections:
@@ -34,9 +34,9 @@ sections:
   questions:
   - question: Há um prazo rígido segundo o qual os clientes precisam passar do Skype for Business Online para o Teams?
     answer: >
-      Sim. [O Skype for Business Online será desativado](skype-for-business-online-retirement.md) em 31 de julho de 2021 e, em seguida, não estará mais acessível ou com suporte. Incentivamos os clientes do Skype for Business Online a começar a usar o Teams e que iniciem agora o planejamento das atualizações para terem tempo suficiente para concluir a atualização antes da data de desativação.
-  - question: A Transmissão de Reunião do Skype vai se aposentar ao mesmo tempo que o Skype for Business online?
-    answer: "Sim. Eventos do Teams Live é a solução sucessora para Transmissão de Reunião do Skype.    \n"
+      Sim. [Skype for Business Online será](skype-for-business-online-retirement.md) retirado em 31 de julho de 2021, momento em que ele não estará mais acessível. Incentivamos os clientes do Skype for Business Online a começar a usar o Teams e que iniciem agora o planejamento das atualizações para terem tempo suficiente para concluir a atualização antes da data de desativação.
+  - question: A Reunião do Skype Broadcast vai se aposentar ao mesmo tempo que Skype for Business online?
+    answer: "Sim. Teams Eventos ao vivo é a solução sucessora para Reunião do Skype Transmissão.    \n"
   - question: Quanto tempo levará a atualização de minha organização para o Microsoft Teams?
     answer: >
       A jornada de sua organização do Skype for Business para o Teams pode ser definida por você. Para ajudar no planejamento e na execução, desenvolvemos diretrizes abrangentes de atualização com base em uma estrutura comprovada e projetada para ajudá-lo a navegar pelos elementos técnicos e organizacionais de alteração. Comece sua jornada familiarizando-se com nossa [estrutura de sucesso de atualização](upgrade-framework.md) e recursos associados que servem como a base para navegar em sua jornada do Skype for Business para o Teams.
@@ -52,7 +52,7 @@ sections:
 
 
       A Microsoft também oferece workshops interativos e ao vivo, nos quais compartilhamos guias, práticas recomendadas e recursos projetados para dar início ao planejamento e implementação de atualizações. [Saiba mais sobre os workshops de planejamento de atualização](./upgrade-workshops-landing-page.yml).
-  - question: Minha organização já está executando o Teams junto com o Skype for Business. Posso simplesmente desabilitar o Skype for Business?
+  - question: Minha organização já usa o Teams junto com o Skype for Business. Posso simplesmente desabilitar o Skype for Business?
     answer: >
       Não. Será necessário mudar os usuários para o modo Apenas Teams para concluir a atualização para o Teams. Se a sua organização estiver pronta para atualizar para o Teams, reserve algum tempo para se comunicar com os usuários, para que eles saibam o que está acontecendo e se acostumem ao Teams. Isso garantirá que eles tenham uma experiência de atualização positiva e reduzirá o número de chamadas para a assistência técnica. Para exemplos de modelos de comunicação, baixe nosso [Kit de Sucesso na Atualização](https://aka.ms/UpgradeSuccessKit).
   - question: Com quem poderei entrar em contato se tiver dúvidas sobre o processo de atualização?
@@ -76,15 +76,11 @@ sections:
   - question: Os usuários ainda poderão usar o Skype for Business depois que eu ativar a notificação de atualização no cliente?
     answer: >
       Sim, a notificação de atualização simplesmente alertará os usuários de que o Skype for Business será atualizado para o Microsoft Teams e os convidará a começar a usar o Microsoft Teams, caso ainda não tenham feito isso. Recomendamos complementar a notificação com uma campanha de conscientização (emails, perguntas frequentes, disponibilidade de assistência técnica, cartazes/sinalização) para comunicar mais detalhes específicos da organização, como o prazo para a atualização, planos de ação para o usuário, acesso a treinamento e assim por diante. Para obter modelos de comunicação, baixe nosso [Kit de Sucesso da Atualização](https://aka.ms/UpgradeSuccessKit).
-  - question: O que isso significa do ponto de vista de licença? Como os clientes pagarão pelos serviços de comunicações inteligentes no Microsoft Teams?
+  - question: O que isso significa do ponto de vista de licença? Como os clientes pagarão por recursos como Audioconferência e chamada em Teams?
     answer: >
       O Microsoft Teams está disponível nos pacotes do Microsoft 365 e Office 365. Os recursos que atualmente são cargas de trabalho premium no Skype for Business Online continuarão a ser cargas de trabalho premium no Microsoft Teams. Os investimentos em licenças existentes feitos por clientes serão transferidos para o Microsoft Teams. Por exemplo, se um cliente tiver adquirido a Audioconferência autônoma ou como parte do E5 com o Skype for Business, a Audioconferência será habilitada no Microsoft Teams da mesma forma como está disponível hoje.
-  - question: A Microsoft está planejando atualizações programadas?
-    answer: >
-      No momento, não temos planos para atualizações programadas para clientes empresariais. Os clientes podem optar por migrar para o Teams, se fizer sentido para suas organizações, antes da data de desativação do Skype for Business Online em 31 de julho de 2021. Capacitaremos os administradores e os usuários com ferramentas e diretrizes para ajudar na transição para o Teams.
-
-
-      Com o objetivo de oferecer suporte a clientes de menor porte que talvez não tenham recursos de TI dedicados, a Microsoft está ajudando com atualizações automatizadas do Skype for Business Online para o Microsoft Teams. Os clientes qualificados serão notificados da atualização por meio de emails e notificações do Centro de Mensagens. Detalhes adicionais são fornecidos nas comunicações. Para saber mais, confira [as atualizações automáticas do Skype for Business online para o Microsoft Teams](upgrade-assisted.md).
+  - question: O planejamento da Microsoft tem atualizações assistidas?
+    answer: "Com a aposentadoria de 31 de julho de 2021 do serviço Skype for Business Online em exibição, a Microsoft se dedica a ajudar os clientes a fazer uma transição bem-sucedida para o Teams fornecendo orientações de atualização, workshops online, bem como treinamento de usuário e administrador. \n\nSkype for Business Os clientes online podem ser agendados para atualizações assistidas para Microsoft Teams. Este programa foi projetado para ajudar os clientes com os elementos técnicos de atualização de um locatário Skype for Business Online para Teams Somente. Os clientes agendados para atualizações assistidas receberão notificações no centro de administração do Teams, bem como no Centro de Mensagens Microsoft 365 90 dias antes da data de atualização para permitir tempo para preparação técnica e do usuário.  Para obter mais informações, consulte [Atualizações assistidas do Skype for Business Online para Microsoft Teams](upgrade-assisted.md).\n"
   - question: Quais são os benefícios da infraestrutura de back-end do Teams?
     answer: >
       O Teams foi desenvolvido para a nuvem, tendo uma arquitetura de microsserviços altamente escalonável e com consumo de largura de banda eficiente, que fornece uma telemetria mais robusta e habilita manutenções e atualizações com o mínimo de interrupção. Como resultado, os usuários levam menos tempo para ingressar em reuniões e obterão uma experiência melhor no navegador, sem precisar baixar plug-ins. Com essa infraestrutura moderna, é mais fácil começar a usar os Serviços Cognitivos da Microsoft, que incluem funcionalidades de transcrição, tradução, reconhecimento de fala e Machine Learning e podem tornar a comunicação e a colaboração mais fáceis e eficientes.
@@ -106,8 +102,7 @@ sections:
     answer: >
       O núcleo da nossa solução de voz é o Sistema de Telefonia que está disponível hoje. Os clientes também podem adicionar um Plano de Chamadas da Microsoft, que fornece suporte completo para chamadas, incluindo a aquisição e a atribuição de números diretamente no Microsoft 365. Os clientes que desejam manter os troncos de telefonia da telecomunicações poderão usar o Roteamento direto, que está incluído como parte do Sistema de telefonia. Misture e combine os dois como achar melhor para as necessidades da sua organização, para ter uma solução de voz completa.
   - question: Quais são as diretrizes para os clientes já implantados no Sistema de Telefonia (Cloud PBX) do Skype for Business Online?
-    answer: >
-      As chamadas do Microsoft Teams estão prontas para todas as suas necessidades de comunicação. Recomendamos que todos os clientes do Microsoft 365 comecem a usar o Teams de forma independente ou em paralelo ao Skype for Business.
+    answer: "As chamadas do Microsoft Teams estão prontas para todas as suas necessidades de comunicação. Incentivamos todos os Microsoft 365 a começar a usar Teams o mais rápido possível. O Teams ajudará a garantir que todas as cargas de trabalho críticas sejam habilitadas para Teams antes da reforma do serviço Skype for Business Online. \n"
   - question: Qual é a orientação para os clientes que usam o Enterprise Voice hoje que desejam migrar para o Teams e usar os recursos de chamadas?
     answer: >
       Os clientes interessados em levar seu próprio serviço telefônico para o Microsoft Teams agora podem fazer isso com a disponibilidade geral do [Roteamento Direto](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Direct-Routing-is-now-Generally-Available/ba-p/210359). O Roteamento Direto e os Planos de Chamadas são as duas opções para o sinal de linha no Microsoft Teams.
@@ -121,4 +116,4 @@ sections:
     answer: >
       Os [dispositivos de salas de reunião](https://products.office.com/microsoft-teams/across-devices) são fundamentais para nossa visão de local de trabalho moderno. Os [serviços de interoperabilidade de vídeo na nuvem](./cloud-video-interop.md) para dar suporte às reuniões do Microsoft Teams com os sistemas VTC existentes estão disponíveis por meio de nossos parceiros Pexip, Polycom e Blue Jeans.
   - question: A última geração dos Sistemas de Salas Skype v2 dará suporte a reuniões no Microsoft Teams?
-    answer: Rebranded Skype Room Systems to Microsoft Teams Rooms which fully supports Microsoft Teams meetings and offers a easy migration path from Skype for Business to Teams by just enabling Teams on the device. Além da capacidade de os usuários identificarem salas do Microsoft Teams próximas com a detecção de proximidade, as reuniões do Teams podem ser unidas com um único clique, suporte a tela dupla, o Microsoft Whiteboard e continuamos a trazer recursos inovadores como uma câmera de conteúdo com captura inteligente.
+    answer: Renomeado para Skype Room Systems para Salas do Microsoft Teams que oferece suporte total Microsoft Teams reuniões Microsoft Teams e oferece um caminho de migração fácil de Skype for Business para Teams apenas habilitando Teams no dispositivo. Além da capacidade de os usuários identificarem o Salas do Microsoft Teams próximo com a detecção de proximidade, as reuniões do Teams podem ser unidas com um único clique, suporte a tela dupla, Microsoft Whiteboard e continuaremos a trazer recursos inovadores como uma câmera de conteúdo com captura inteligente.
