@@ -18,20 +18,22 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Setup
-ms.openlocfilehash: a6a00dc43e578753796cf7a9b03ff7cedfa46ed4
-ms.sourcegitcommit: 80b66127b3415c99f9468625add6a8f2c36bca74
+ms.openlocfilehash: 20da0e58c2f8b47f2c1d84959eb3ae3f69ba377c
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/07/2020
-ms.locfileid: "48376554"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52240016"
 ---
-# <a name="set-up-policies-in-your-organization"></a><span data-ttu-id="b48d5-102">Configurar políticas em sua organização</span><span class="sxs-lookup"><span data-stu-id="b48d5-102">Set up policies in your organization</span></span>
+# <a name="set-up-policies-in-your-organization"></a><span data-ttu-id="bd619-102">Configurar políticas em sua organização</span><span class="sxs-lookup"><span data-stu-id="bd619-102">Set up policies in your organization</span></span>
 
-<span data-ttu-id="b48d5-103">As políticas ajudam a determinar os recursos do Skype for Business Online disponibilizados aos usuários.</span><span class="sxs-lookup"><span data-stu-id="b48d5-103">Policies help determine the features of Skype for Business Online that are made available to users.</span></span> <span data-ttu-id="b48d5-104">Consulte os artigos a seguir para obter detalhes completos.</span><span class="sxs-lookup"><span data-stu-id="b48d5-104">See the following articles for complete details.</span></span>
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
-- [<span data-ttu-id="b48d5-105">Bloquear transferências de arquivo ponto a ponto</span><span class="sxs-lookup"><span data-stu-id="b48d5-105">Block point-to-point file transfers</span></span>](block-point-to-point-file-transfers.md)
-- [<span data-ttu-id="b48d5-106">Criar políticas personalizadas de acesso externo</span><span class="sxs-lookup"><span data-stu-id="b48d5-106">Create custom external access policies</span></span>](create-custom-external-access-policies.md)
-- [<span data-ttu-id="b48d5-107">Retenção de arquivos grandes anexados a uma reunião</span><span class="sxs-lookup"><span data-stu-id="b48d5-107">Retaining large files attached to a meeting</span></span>](retaining-large-files-attached-to-a-meeting.md)
-- [<span data-ttu-id="b48d5-108">Configurar políticas de conferência para sua organização</span><span class="sxs-lookup"><span data-stu-id="b48d5-108">Set up conferencing policies for your organization</span></span>](set-up-conferencing-policies-for-your-organization.md)
-- [<span data-ttu-id="b48d5-109">Configurar políticas móveis para sua organização</span><span class="sxs-lookup"><span data-stu-id="b48d5-109">Set up mobile policies for your organization</span></span>](set-up-mobile-policies-for-your-organization.md)
-- [<span data-ttu-id="b48d5-110">Configurar políticas de clientes para sua organização</span><span class="sxs-lookup"><span data-stu-id="b48d5-110">Set up client policies for your organization</span></span>](set-up-client-policies-for-your-organization.md)
+<span data-ttu-id="bd619-103">As políticas ajudam a determinar os recursos do Skype for Business Online que são disponibilizados para os usuários.</span><span class="sxs-lookup"><span data-stu-id="bd619-103">Policies help determine the features of Skype for Business Online that are made available to users.</span></span> <span data-ttu-id="bd619-104">Consulte os artigos a seguir para obter detalhes completos.</span><span class="sxs-lookup"><span data-stu-id="bd619-104">See the following articles for complete details.</span></span>
+
+- [<span data-ttu-id="bd619-105">Bloquear transferências de arquivo ponto a ponto</span><span class="sxs-lookup"><span data-stu-id="bd619-105">Block point-to-point file transfers</span></span>](block-point-to-point-file-transfers.md)
+- [<span data-ttu-id="bd619-106">Criar políticas personalizadas de acesso externo</span><span class="sxs-lookup"><span data-stu-id="bd619-106">Create custom external access policies</span></span>](create-custom-external-access-policies.md)
+- [<span data-ttu-id="bd619-107">Retenção de arquivos grandes anexados a uma reunião</span><span class="sxs-lookup"><span data-stu-id="bd619-107">Retaining large files attached to a meeting</span></span>](retaining-large-files-attached-to-a-meeting.md)
+- [<span data-ttu-id="bd619-108">Configurar políticas de conferência para sua organização</span><span class="sxs-lookup"><span data-stu-id="bd619-108">Set up conferencing policies for your organization</span></span>](set-up-conferencing-policies-for-your-organization.md)
+- [<span data-ttu-id="bd619-109">Configurar políticas móveis para sua organização</span><span class="sxs-lookup"><span data-stu-id="bd619-109">Set up mobile policies for your organization</span></span>](set-up-mobile-policies-for-your-organization.md)
+- [<span data-ttu-id="bd619-110">Configurar políticas de clientes para sua organização</span><span class="sxs-lookup"><span data-stu-id="bd619-110">Set up client policies for your organization</span></span>](set-up-client-policies-for-your-organization.md)
