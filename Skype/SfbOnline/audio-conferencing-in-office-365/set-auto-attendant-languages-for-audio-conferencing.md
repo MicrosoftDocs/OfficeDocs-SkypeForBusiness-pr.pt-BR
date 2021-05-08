@@ -21,14 +21,16 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: Consulte como selecionar idiomas para o atendedor automático para um número de Audioconferência no Skype for Business Online.
-ms.openlocfilehash: d2b4c0d9be666a6ee7de9c2bd36b8dd06cccdf32
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 714312989bc3898fea2ed0d335fed8f5f2eebbb3
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51109989"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52237017"
 ---
 # <a name="set-auto-attendant-languages-for-audio-conferencing-in-skype-for-business-online"></a>Definir os idiomas para o atendedor automático de Audioconferência no Skype for Business Online
+
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
 > [!Note]
 > Para obter informações sobre como definir idiomas para o atendedor automático no Microsoft Teams, consulte [Definir idiomas para o atendedor automático de Audioconferência no Microsoft Teams](/MicrosoftTeams/set-auto-attendant-languages-for-audio-conferencing-in-teams).
@@ -45,9 +47,9 @@ Escolha um idioma principal e até quatro idiomas secundários. O idioma princip
   
 ## <a name="set-the-conferencing-auto-attendant-languages"></a>Definir os idiomas de atendimento automático de conferência
 
-Você deve ser um [administrador global ou](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) administrador do Skype for [Business](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) para executar esta etapa.
+Você deve ser um [administrador global ou](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) Skype for Business [para](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) executar esta etapa.
     
-1. No Centro **de administração do Skype for Business**, na navegação à esquerda, vá para Portal **Herdada**. Uma vez no portal herdado, selecione **Audioconferência** e clique em **Ponte da Microsoft.**
+1. No centro **Skype for Business de** administração , na navegação à esquerda, vá para **Portal Herdada**. Uma vez no portal herdado, selecione **Audioconferência** e clique em **Ponte da Microsoft.**
     
 2. Selecione o número de telefone de audioconferência na lista e, no painel Ação, clique em **Definir idiomas**. Só é possível alterar os idiomas dos números de audioconferência dedicados.  
     
@@ -64,7 +66,7 @@ Você deve ser um [administrador global ou](https://support.office.com/article/d
     
 - Os idiomas podem ser definidos para números de telefone dedicados, mas não para números compartilhados.
     
-- Para ver uma lista de países/regiões em que a Audioconferência no Microsoft 365 ou Office 365 usando a Microsoft como provedor está disponível, consulte Números de telefone para [Audioconferência](phone-numbers-for-audio-conferencing.md).
+- Para ver uma lista de países/regiões em que a Audioconferência em Microsoft 365 ou Office 365 usando a Microsoft como o provedor está disponível, consulte Telefone números para [Audioconferência](phone-numbers-for-audio-conferencing.md).
     
 ## <a name="want-to-use-windows-powershell"></a>Você deseja usar o Windows PowerShell?
 
@@ -74,4 +76,4 @@ Para saber mais, consulte [Using Windows PowerShell to do common Skype for Busin
   
 ## <a name="related-topics"></a>Tópicos relacionados
 
-[Experimente ou compre Audioconferência no Microsoft 365 ou Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
+[Experimente ou compre Audioconferência em Microsoft 365 ou Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)

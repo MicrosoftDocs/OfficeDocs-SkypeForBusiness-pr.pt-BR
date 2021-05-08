@@ -16,12 +16,12 @@ search.appverid: MET150
 description: Saiba mais sobre registros de depuração, mídia e desktop produzidos pelo Microsoft Teams, onde podem ser encontrados e como eles podem ajudar na resolução de problemas.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e3e2c4d42d511e2a33a797099132ac42c0475d36
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: f816830f24a3d1180cb33a91a3f02d30d360cfef
+ms.sourcegitcommit: 2c2176b9d32b8f7218e8d11e82c0ae01318bfdc5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51112187"
+ms.lasthandoff: 05/07/2021
+ms.locfileid: "52264871"
 ---
 <a name="use-log-files-in-troubleshooting-microsoft-teams"></a>Usar arquivos de registro para solucionar problemas no Microsoft Teams
 =================================================
@@ -34,7 +34,7 @@ Existem três tipos de arquivos de log produzidos automaticamente pelo cliente, 
 
 -   Registros de desktop
 
-Ao criar uma solicitação de suporte com o Suporte da Microsoft, o engenheiro de suporte precisará dos registros de depuração. Ter os logs de depuração em mãos antes de criar a solicitação de suporte permitirá que a Microsoft comece a solucionar o problema rapidamente. Os logs de **mídia** ou **área de trabalho** são necessários apenas se solicitados pela Microsoft.
+Ao criar uma solicitação de suporte com o Suporte da Microsoft, o engenheiro de suporte precisará dos registros de depuração. Ter os logs de depuração em mãos antes de criar a solicitação de suporte permitirá que a Microsoft comece a solucionar o problema rapidamente. **Os** logs **de** mídia ou área de trabalho só serão necessários se solicitados pela Microsoft.
 
 > [!NOTE]
 > Neste artigo, o termo **Logs de depuração** se refere aos logs usados para solução de problemas. No entanto, os arquivos gerados para esses logs conterão o termo **logs de diagnóstico** em seus nomes.  
@@ -142,6 +142,26 @@ Linux:
 |Mac OSX     |~/Library/Application Support/Microsoft/Teams/logs.txt         |
 |Linux       |~/.config/Microsoft/Microsoft Teams/logs.txt         |
 
+
+<a name="browser-trace"></a>Rastreamento do navegador
+---------------------------
+
+Para algumas categorias de erros, o Suporte da Microsoft pode exigir que você colete um rastreamento do navegador. Essas informações podem fornecer detalhes importantes sobre o estado do cliente Teams quando o erro ocorrer.
+
+Antes de iniciar o rastreamento do navegador, certifique-se de estar Teams. É importante fazer isso antes de iniciar o rastreamento para que o rastreamento não contenha informações confidenciais de login.
+
+Depois de entrar, selecione um dos links a seguir, conforme apropriado para seu navegador, e siga as etapas fornecidas. 
+
+-   [Borda & Chrome (Chromium)](/azure/azure-portal/capture-browser-trace#google-chrome-and-microsoft-edge-chromium?preserve-view=true#resolution)
+
+-   [Borda](/azure/azure-portal/capture-browser-trace#microsoft-edge-edgehtml?preserve-view=true#resolution)
+
+-   [Safari](/azure/azure-portal/capture-browser-trace#apple-safari?preserve-view=true#resolution)
+
+-   [Firefox](/azure/azure-portal/capture-browser-trace#firefox?preserve-view=true#resolution)
+
+> [!NOTE]
+> Nas etapas, substitua todas as referências ao portal do Azure pelo Teams cliente. 
 
 ## <a name="related-topics"></a>Tópicos relacionados
 

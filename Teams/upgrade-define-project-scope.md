@@ -1,7 +1,7 @@
 ---
-title: Definir o escopo do projeto para a atualização do Skype for Business para o Microsoft Teams
-author: msdmaguire
-ms.author: dmaguire
+title: Definir o escopo do projeto para sua Skype for Business para Microsoft Teams atualização
+author: dstrome
+ms.author: dstrome
 manager: serdars
 ms.topic: conceptual
 audience: admin
@@ -20,18 +20,18 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5db7d97dfe54fb4bd1409c1f71a7609f8450b180
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: b6ad3c5062a96a4becff32136c551a3247aa660f
+ms.sourcegitcommit: 32e3bb588abcbeded2d885483384c06706b280eb
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51122175"
+ms.lasthandoff: 05/08/2021
+ms.locfileid: "52282578"
 ---
 # <a name="define-your-project-scope"></a>Definir o escopo de seu projeto
 
-![Atualizar diagrama de jornada, realçando o estágio de Definição do Projeto](media/upgrade-banner-project-definition.png "Etapas da jornada de atualização, com ênfase no estágio de Definição do Projeto")
+![Atualizar diagrama de jornada, realçando o estágio Project Definição](media/upgrade-banner-project-definition.png "Etapas da jornada de atualização, com ênfase no estágio de Definição do Projeto")
 
-Este artigo faz parte do estágio de Definição do Projeto de sua jornada de atualização, uma atividade que você conclui após criar uma coligação de patrocinadores e equipe de projeto das partes interessadas que você identificou são fundamentais para o sucesso do seu projeto. Antes de prosseguir, confirme se você concluiu as seguintes atividades:
+Este artigo faz parte do estágio Project Definição da sua jornada de atualização, uma atividade que você conclui após criar uma coligação de patrocinadores e equipe de projeto das partes interessadas identificadas são fundamentais para o sucesso do seu projeto. Antes de prosseguir, confirme se você concluiu as seguintes atividades:
 
 - [Participantes do projeto inscritos](upgrade-enlist-stakeholders.md)
 
@@ -42,12 +42,12 @@ Levar tempo para definir sua visão de projeto, escopo, metas e governança ajud
 | ![Um ícone representando pontos de decisão](media/audio_conferencing_image7.png) <br/>Pontos de decisão|<ul><li>O que você deseja realizar com esse projeto (em outras palavras, por que você está fazendo isso)?</li><li>Qual é a aparência do sucesso?</li><li>Quais são os riscos e qual é o seu plano para reduzir esses riscos?</li></ul> |
 | ![Um ícone representando os próximos passos](media/audio_conferencing_image9.png)<br/>Próximas etapas|<ul><li>Discuta as seções a seguir com sua equipe de projeto e patrocinadores.</li><li>Documente sua visão, escopo, metas e riscos para este projeto.</li><li>Revisite sua equipe de projeto para validar se você contratou a equipe certa.</li></ul>|
 
-## <a name="project-vision"></a>Visão do projeto
+## <a name="project-vision"></a>Project visão
 
 Sua visão é o "quadro geral" ou o estado final eventual que responde à pergunta: "Por que estamos fazendo esse projeto?" Uma visão ideal aborda os drivers de negócios da sua organização e as perspectivas de adicionar valor do usuário, conforme mostrado nos exemplos a seguir:
 
-- **Driver de negócios da** organização : a padronização no Microsoft Teams se alinha com a transformação digital no local de trabalho e nos permite impulsionar as eficiências operacionais, eliminar soluções redundantes e economizar US$ 5 milhões.
-- **Valor do usuário- adicionar**: o Microsoft Teams (1) economiza tempo fornecendo um único local para notas de projeto, documentos do Office, membros da equipe, conversas e reuniões; (2) simplifica a comunicação usando uma lista de contatos centralizada e o controle de chat persistente para acesso rápido às suas conversas e (3) alivia a frustração de tentar encontrar esse anexo de email perdido, armazenar e acessar arquivos em um só lugar.
+- **Driver de negócios** da organização : a padronização no Microsoft Teams se alinha com a transformação digital do local de trabalho e nos permite impulsionar a eficiência operacional, eliminar soluções redundantes e economizar US$ 5 milhões.
+- **Valor do usuário- add**: Microsoft Teams (1) economiza tempo fornecendo um único local para anotações do projeto, Office documentos, membros da equipe, conversas e reuniões; (2) simplifica a comunicação usando uma lista de contatos centralizada e o controle de chat persistente para acesso rápido às suas conversas e (3) alivia a frustração de tentar encontrar esse anexo de email perdido, armazenar e acessar arquivos em um só lugar.
 
 Considere os seguintes pontos de discussão para ajudar a refinar sua visão:
 
@@ -62,15 +62,15 @@ Considere os seguintes pontos de discussão para ajudar a refinar sua visão:
 > [!TIP]
 > Identifique casos de uso e personas para refinar ainda mais sua visão do projeto.
 
-## <a name="project-scope"></a>Escopo do projeto
+## <a name="project-scope"></a>Project escopo
 
-Sua visão só pode ser percebida ao longo do tempo, por várias fases. O escopo do projeto define  o foco do seu projeto no momento e serve para manter sua equipe de projeto focada em suas tarefas atuais, permitindo que você realize sua visão de longo prazo. Por exemplo, seu escopo pode chamar para você executar um piloto, implantar uma carga de trabalho específica, como voz ou reuniões, ou habilitar o Teams juntamente com o Skype for Business conforme você planeja a atualização ao longo do tempo. Como parte do escopo do projeto, você deve avaliar:
+Sua visão só pode ser percebida ao longo do tempo, por várias fases. O escopo do projeto define  o foco do seu projeto no momento e serve para manter sua equipe de projeto focada em suas tarefas atuais, permitindo que você realize sua visão de longo prazo. Por exemplo, seu escopo pode chamar para você executar um piloto, implantar uma carga de trabalho específica, como voz ou reuniões, ou habilitar o Teams juntamente com Skype for Business ao planejar a atualização ao longo do tempo. Como parte do escopo do projeto, você deve avaliar:
 
 - [Os vários modos de coexistência](./teams-and-skypeforbusiness-coexistence-and-interoperability.md)e quais seriam ideais para sua organização.
-- A melhor maneira de o Skype for Business e o Teams coexistiram antes de mudar para o Teams.
+- A melhor maneira de Skype for Business e Teams coexistir antes de mudar para Teams.
 - Se você deve conduzir um [piloto para](./pilot-essentials.md) validar a preparação técnica e do usuário em sua organização.
 
-## <a name="project-goals"></a>Metas do projeto
+## <a name="project-goals"></a>Project metas
 
 Suas metas definem o resultado que você deseja e permitem medir o sucesso do projeto. As metas podem ser definidas como objetivos e _principais_ resultados (OKRs), e as medidas de sucesso do projeto podem ser definidas como indicadores de sucesso _principais_ (KSIs). É essencial que você receba a participação total dos participantes do projeto na definição de OKRs e KSIs, para ajudar a garantir que eles sintam uma noção de propriedade e alinhe essas medidas de sucesso às tarefas definidas do projeto. As metas devem incluir uma combinação de sucesso técnico e focado no usuário.
 
@@ -82,24 +82,24 @@ Suas metas definem o resultado que você deseja e permitem medir o sucesso do pr
   - Realista: estado quais resultados podem ser alcançados realisticamente, considerando os recursos disponíveis
   - Relacionado ao tempo: especifique quando os resultados podem ser alcançados
 
-A tabela a seguir mostra exemplos de OKRs e KSIs para as fases iniciais de um projeto de atualização do Skype for Business para o Teams.
+A tabela a seguir mostra exemplos de OKRs e KSIs para as fases iniciais de um Skype for Business para Teams de atualização.
 
 | Objective | Resultado da chave | Para fazer |
 |---|---|---|
-| Pilot Teams juntamente com o Skype for Business, no [modo somente colaboração](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md) | FY19Q2: piloto de 500 usuários conduzido e concluído | <ul><li>Identificar usuários piloto</li><li>Criar um plano de teste piloto</li><li>Habilitar usuários piloto no Teams</li><li>Implementar o piloto</li><li>Executar uma pesquisa de feedback piloto</li><li>Medir o sucesso piloto</li></ul> |
-| Executar com êxito o modo somente colaboração para todos os usuários da organização juntamente com o Skype for Business | <ul><li>60% dos usuários do Skype for Business estão usando o Teams dentro de 30 dias após a lançamento</li><li>A satisfação do usuário com o Teams é &#8805;80%</li></ul> | <ul><li>Projetar e executar um plano amplo de comunicação e treinamento</li><li>Habilitar todos os usuários para o Teams no modo somente colaboração</li><li>Controlar o uso mensal</li><li>Coletar comentários do usuário</li><li>Monitorar a qualidade/a saúde da rede</li><li>Mitigar conforme necessário</li></ul> |
+| Piloto Teams ao lado Skype for Business, no [modo somente colaboração](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md) | FY19Q2: piloto de 500 usuários conduzido e concluído | <ul><li>Identificar usuários piloto</li><li>Criar um plano de teste piloto</li><li>Habilitar usuários piloto Teams</li><li>Implementar o piloto</li><li>Executar uma pesquisa de feedback piloto</li><li>Medir o sucesso piloto</li></ul> |
+| Execute com êxito o modo somente colaboração para todos os usuários da organização juntamente com Skype for Business | <ul><li>60% dos Skype for Business usuários estão usando Teams dentro de 30 dias após a adoção</li><li>A satisfação do usuário Teams é &#8805;80%</li></ul> | <ul><li>Projetar e executar um plano amplo de comunicação e treinamento</li><li>Habilitar todos os usuários Teams no modo somente colaboração</li><li>Controlar o uso mensal</li><li>Coletar comentários do usuário</li><li>Monitorar a qualidade/a saúde da rede</li><li>Mitigar conforme necessário</li></ul> |
 
 | Tipo | Indicador de sucesso chave | Como foi mensurado | Critérios de sucesso | Mensurado |
 |---|---|---|---|---|
-| **Rede e qualidade** | Porcentagem de chamadas de áudio ruins deve ser mínima | [Painel de Qualidade de Chamada (CQD)](https://aka.ms/sof-cqd) | \<3% das chamadas ruins com o Teams | Semanalmente, em seguida, mensalmente |
-| **Uso e conscientização** | A experiência de chat, reuniões e chamadas é igual ou melhor do que o Skype for Business | Pesquisa | 80% concordam ou concordam fortemente | Semanalmente por meio do piloto, pós-lançamento |
-| **Uso e adoção** | Os usuários usam a solução ativamente | Relatórios do Microsoft 365 ou CQD | Participação de 90% de usuários piloto, melhor do que a solução atual | Semanalmente, em seguida, mensalmente |
-| **Uso e treinamento** | Eu tinha recursos adequados de treinamento/ajuda para usar o Teams com êxito | Pesquisa pós-piloto | 80% concordam ou concordam fortemente | Pós-piloto, pós-lançamento |
-| **Satisfação do usuário** | Eu recomendaria o Teams para outras pessoas | [Net Promoter Score (NPS)](http://www.npscalculator.com/en) por meio de pesquisa pós-piloto | NPS \> 0 | Pós-piloto, pós-lançamento |
+| **Rede e qualidade** | Porcentagem de chamadas de áudio ruins deve ser mínima | [Painel de Qualidade de Chamada (CQD)](https://aka.ms/sof-cqd) | \<3% das chamadas ruins com Teams | Semanalmente, em seguida, mensalmente |
+| **Uso e conscientização** | A experiência de chat, reuniões e chamada é igual ou melhor do que Skype for Business | Pesquisa | 80% concordam ou concordam fortemente | Semanalmente por meio do piloto, pós-lançamento |
+| **Uso e adoção** | Os usuários usam a solução ativamente | Microsoft 365 relatórios ou CQD | Participação de 90% de usuários piloto, melhor do que a solução atual | Semanalmente, em seguida, mensalmente |
+| **Uso e treinamento** | Eu tinha recursos adequados de treinamento/ajuda para usar com êxito Teams | Pesquisa pós-piloto | 80% concordam ou concordam fortemente | Pós-piloto, pós-lançamento |
+| **Satisfação do usuário** | Eu recomendaria Teams outras pessoas | [Net Promoter Score (NPS)](http://www.npscalculator.com/en) por meio de pesquisa pós-piloto | NPS \> 0 | Pós-piloto, pós-lançamento |
 | **Driver de negócios** | Economia de custo | Contas a pagar | \$X milhão de despesas de custo em soluções de terceiros | Seis meses, um ano e cinco anos após o lançamento |
 
 > [!TIP]
-> Para ajudar a garantir que seu projeto permaneça no caminho certo, considere a definição de etapas menores e de curto prazo, além de metas maiores e de longo prazo. Isso pode incluir métricas que você capturará como parte do piloto do usuário. Ao considerar sua linha do tempo, use o Roteiro do [Microsoft 365](https://aka.ms/O365Roadmap) se você estiver aguardando recursos que ainda não estão disponíveis no Teams.
+> Para ajudar a garantir que seu projeto permaneça no caminho certo, considere a definição de etapas menores e de curto prazo, além de metas maiores e de longo prazo. Isso pode incluir métricas que você capturará como parte do piloto do usuário. Ao considerar sua linha do tempo, use o [Microsoft 365 roteiro](https://aka.ms/O365Roadmap) se você estiver aguardando recursos que ainda não estão disponíveis no Teams.
 
 ## <a name="risks-and-mitigation"></a>Riscos e mitigação
 
@@ -113,16 +113,16 @@ A tabela a seguir mostra exemplos de OKRs e KSIs para as fases iniciais de um pr
 
 ## <a name="timeline"></a>Linha do tempo
 
-À medida que você escopo sua jornada de atualização, certifique-se de definir uma linha do tempo para etapas principais (por exemplo, habilenciar o Teams juntamente com o Skype for Business para todos os usuários) além da data de conclusão. Uma linha do tempo definida ajuda sua equipe de projeto a ir para um estado final consistente e informa o cronograma de retorno de trabalho correto, ajudando a garantir que seu projeto permaneça no caminho certo. Considere uma linha do tempo não muito acelerada (onde as tarefas podem ser ignoradas) ou muito distante (onde o momento pode ser perdido). As contas de linha do tempo ideais para:
+À medida que você escopo sua jornada de atualização, certifique-se de definir uma linha do tempo para etapas principais (por exemplo, habilitando o Teams juntamente com Skype for Business para todos os usuários) além da data de conclusão. Uma linha do tempo definida ajuda sua equipe de projeto a ir para um estado final consistente e informa o cronograma de retorno de trabalho correto, ajudando a garantir que seu projeto permaneça no caminho certo. Considere uma linha do tempo não muito acelerada (onde as tarefas podem ser ignoradas) ou muito distante (onde o momento pode ser perdido). As contas de linha do tempo ideais para:
 
 - **Preparação do produto para requisitos de** [](https://aka.ms/O365Roadmap) conformidade e cenário do usuário : Consulte o roteiro do produto para avaliar quando o Teams estará pronto para sua organização.
-- **Grupos de** atualização : Determine se você estará habilitando o Teams ou atualizando usuários por grupos de atualização, o que pode afetar a linha do tempo de sua jornada de atualização geral.
+- **Grupos de** atualização : determine se você estará habilitando Teams ou atualizando usuários por grupos de atualização, o que pode afetar a linha do tempo de sua jornada de atualização geral.
 - **Fatores organizacionais,** como congelamento de alterações, fim do ano fiscal, ciclos de vida de implantação : Discutir e contabilizar todos os processos internos que possam influenciar sua linha do tempo de atualização.
 - **Outras alterações que estão ocorrendo ao** mesmo tempo: considere as alterações de grupo ou o espaçamento delas para facilitar uma experiência de usuário positiva e minimizar qualquer impacto na produtividade.
 - **Resourcing**: Confirme a alocação de recursos com seus participantes do projeto para garantir que a equipe de projeto reunida tenha largura de banda suficiente para concluir todas as tarefas necessárias.
 
-Como ponto de referência, uma linha do tempo de exemplo é fornecida para as fases de pré-atualização, atualização e pós-atualização da jornada [Upgrade Pro](./upgrade-start-here.md), que recomendamos que você ajuste conforme necessário para se alinhar às necessidades específicas da sua organização.
+Como ponto de referência, uma linha do tempo de exemplo é fornecida para as fases de pré-atualização, atualização e pós-atualização da jornada upgrade Pro , que incentivamos [você a](./upgrade-start-here.md)ajustar conforme necessário para se alinhar às necessidades específicas da sua organização.
 
 Depois de concluir as atividades descritas acima, você deve ter uma base sólida para seu projeto. Continue com suas [atividades de preparação técnica](./upgrade-prepare-environment.md) e [preparação](./upgrade-prepare-organization.md) organizacional.
 
-Lembre-se: o Skype for Business Online será reformado em 31 de julho de 2021. Após esse tempo, o serviço skype for Business Online não será mais acessível ou suportado. Para maximizar a realização de benefícios e garantir que sua organização tenha tempo adequado para concluir sua atualização, recomendamos que você comece sua jornada para o Microsoft Teams hoje.
+Lembre-se: Skype for Business Online será aposentado em 31 de julho de 2021. Após esse tempo, o Skype for Business online não estará mais acessível ou com suporte. Para maximizar a realização de benefícios e garantir que sua organização tenha tempo adequado para concluir sua atualização, recomendamos que você comece sua jornada para Microsoft Teams hoje.

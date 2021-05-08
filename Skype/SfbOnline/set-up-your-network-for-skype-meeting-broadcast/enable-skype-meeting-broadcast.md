@@ -18,40 +18,42 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - SMB
-description: Para que as pessoas em sua organização possam usar a Transmissão de Reunião do Skype, você precisa habilita-la. Para fazer isso, você precisa saber como usar Windows PowerShell. Se você não conhece o Windows PowerShell, considere contratar um Parceiro Microsoft para realizar essa etapa para você.
-ms.openlocfilehash: ab59348d32ef130df6b0de6e1eb65c92d0222e04
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Para que as pessoas em sua organização possam usar Reunião do Skype Transmissão, você precisa habilita-la. Para fazer isso, você precisa saber como usar Windows PowerShell. Se você não conhece o Windows PowerShell, considere contratar um Parceiro Microsoft para realizar essa etapa para você.
+ms.openlocfilehash: 6cdd7f12483025697b139203907f87f9cd3dc764
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51097107"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52237007"
 ---
 # <a name="enable-skype-meeting-broadcast"></a>Habilitar a Transmissão de Reunião do Skype
 
-> [!IMPORTANT]
-> O Skype for Business Online se aposentará em 31 de julho de 2021, quando o acesso ao serviço terminará. Incentivamos os clientes a iniciar a atualização para o Microsoft Teams, o cliente principal para comunicações e trabalho em equipe no Microsoft 365.
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
-Para que as pessoas em sua organização possam usar a Transmissão de Reunião do Skype, você precisa habilita-la. Para fazer isso, você precisa saber como usar Windows PowerShell. Se você não conhece o Windows PowerShell, considere contratar um [Parceiro Microsoft](https://go.microsoft.com/fwlink/?linkid=391089) para realizar essa etapa para você.
+> [!IMPORTANT]
+> Skype for Business Online está se retirando em 31 de julho de 2021, quando o acesso ao serviço terminará. Incentivamos os clientes a começar a atualização para Microsoft Teams, o cliente principal para comunicações e trabalho em equipe Microsoft 365.
+
+Para que as pessoas em sua organização possam usar Reunião do Skype Transmissão, você precisa habilita-la. Para fazer isso, você precisa saber como usar Windows PowerShell. Se você não conhece o Windows PowerShell, considere contratar um [Parceiro Microsoft](https://go.microsoft.com/fwlink/?linkid=391089) para realizar essa etapa para você.
 
 
 
 > [!NOTE]
-> O centro de administração do Microsoft Teams substituiu o Centro de administração do Skype for Business (portal herdado). Todas as configurações para gerenciar o Skype for Business agora estão no Centro de administração do Teams. Você deve ter a função de administrador do [Azure AD](/azure/active-directory/roles/permissions-reference) de administrador global ou administrador do Skype for Business para gerenciar recursos do Skype for Business no centro de administração do Teams. Para obter mais informações, confira [Gerenciar as configurações do Skype for Business do centro de Administração do Microsoft Teams](/MicrosoftTeams/skype-for-business-settings?bc=%2fskypeforbusiness%2fbreadcrumb%2ftoc.json&toc=%2fskypeforbusiness%2fsfbotoc%2ftoc.json).
+> O Microsoft Teams de administração substituiu o Skype for Business de administração (portal herdado). Todas as configurações para o Skype for Business agora estão no centro Teams administrador. Você deve ter a função de administrador do [Azure AD](/azure/active-directory/roles/permissions-reference) de administrador global ou Skype for Business para gerenciar Skype for Business recursos no centro de administração Teams do Azure. Para obter mais informações, confira [Gerenciar as configurações do Skype for Business do centro de Administração do Microsoft Teams](/MicrosoftTeams/skype-for-business-settings?bc=%2fskypeforbusiness%2fbreadcrumb%2ftoc.json&toc=%2fskypeforbusiness%2fsfbotoc%2ftoc.json).
 
   
 ## <a name="enable-skype-meeting-broadcast-using-the-skype-for-business-admin-center"></a>Habilitar Transmissão de Reunião do Skype usando o centro de administração do Skype for Business
 
 ![Um ícone mostrando o logotipo do Skype for Business](../images/sfb-logo-30x30.png) **Usando o centro de administração do Skype for Business**
 
-1. Entre com sua conta de administrador global ou conta de administrador do Skype for Business em [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home) .
+1. Entre com sua conta de administrador global ou Skype for Business de administrador em [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home) .
     
 2. No centro de administração, vá para **Centros de administração**  >  **Teams**.
     
-3. No Centro **de administração do Teams,** acesse **Reuniões de transmissão** de transmissão de reuniões do portal  >  **herdado** e selecione  >   **Habilitar Transmissão de Reunião do Skype**.
+3. No centro **de Teams de** administração, vá para Reuniões de transmissão de transmissão de reuniões do **portal**  >  **herdado** e selecione  >   **Habilitar Reunião do Skype Transmissão**.
     
 ## <a name="enable-skype-meeting-broadcast-using-powershell"></a>Habilitar a Transmissão de Reunião do Skype usando o PowerShell
 
-1. Instale o [módulo do Teams PowerShell](/microsoftteams/teams-powershell-install).
+1. Instale o [módulo Teams PowerShell](/microsoftteams/teams-powershell-install).
     
 2. Abra um prompt Windows PowerShell de comando e execute os seguintes comandos: 
 

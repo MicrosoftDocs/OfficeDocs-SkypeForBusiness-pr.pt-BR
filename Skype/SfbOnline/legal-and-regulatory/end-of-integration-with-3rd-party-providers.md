@@ -1,5 +1,5 @@
 ---
-title: 'Programa de fim de vida para a integração do Skype for Business com provedores de audioconferência de terceiros '
+title: 'Programa de fim de vida para a integração de Skype for Business com provedores de audioconferência de terceiros '
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,34 +20,36 @@ ms.custom:
 - Legal
 hideEdit: true
 description: Em 31 de julho de 2021, o programa de fim de vida concluirá a integração do Skype for Business com provedores de audioconferência de terceiros (ACP de terceiros).
-ms.openlocfilehash: 5e48c7deb114136e0b12c2636cf562213890656d
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: ca97e2f243cbc9884cc724b976829fbe8f421b2c
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51100767"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52237167"
 ---
-# <a name="end-of-life-program-for-the-integration-of-skype-for-business-with-third-party-audio-conferencing-providers"></a>Programa de fim de vida para a integração do Skype for Business com provedores de audioconferência de terceiros 
+# <a name="end-of-life-program-for-the-integration-of-skype-for-business-with-third-party-audio-conferencing-providers"></a>Programa de fim de vida para a integração de Skype for Business com provedores de audioconferência de terceiros 
 
-A Microsoft anuncia o início do programa de fim de vida para a integração do Skype for Business com provedores de audioconferência de terceiros (ACPs). 
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
+
+A Microsoft anuncia o início do programa de fim de vida para a integração de Skype for Business com provedores de audioconferência de terceiros (ACPs). 
 
 O programa de fim de vida será concluído em 31 de julho de 2021. Quando o programa for concluído, a integração do Skype for Business com provedores de audioconferência de terceiros irá parar de funcionar e as seguintes alterações serão observadas nessa data (31 de julho de 2021):
 
-- Os participantes que tentarem ingressar em qualquer reunião do Skype for Business por meio de números de discagem fornecidos por um serviço ACP de terceiros não serão mais conectados à reunião do Skype for Business.
+- Os participantes que tentarem ingressar em qualquer reunião Skype for Business por meio de números de discagem fornecidos por um serviço ACP de terceiros não serão mais conectados à reunião Skype for Business de terceiros.
  
-- Os usuários habilitados para um serviço ACP de terceiros não terão mais suas informações de discagem incluídas automaticamente em novos convites de reunião do Skype for Business.
+- Os usuários habilitados para um serviço ACP de terceiros não terão mais suas informações de discagem automaticamente incluídas em quaisquer novos convites de Skype for Business de reunião.
 
 Como parte do anúncio do início do programa de fim de vida, as seguintes alterações entraram em vigor e continuarão em vigor até a conclusão do programa de fim de vida: 
 
-- Os clientes sem usuários do Skype for Business configurados para usar um serviço ACP de terceiros não poderão configurar nenhum usuário para usar um serviço ACP de terceiros.
+- Os clientes sem Skype for Business configurados para usar um serviço ACP de terceiros não poderão configurar nenhum usuário para usar um serviço ACP de terceiros.
 
-- Os clientes existentes com usuários do Skype for Business configurados para usar um serviço ACP de terceiros continuarão a adicionar novos usuários durante o período de fim de vida. Observe que não recomendamos configurar usuários adicionais do Skype for Business para usar um serviço ACP de terceiros, pois as alterações que entrarão em vigor em 31 de julho de 2021 também serão aplicadas a eles.
+- Os clientes existentes com Skype for Business configurados para usar um serviço ACP de terceiros continuarão a adicionar novos usuários durante o período de fim de vida. Observe que não recomendamos configurar usuários adicionais Skype for Business usar um serviço ACP de terceiros, pois as alterações que entrarão em vigor em 31 de julho de 2021 também serão aplicadas a eles.
 
 ## <a name="preparing-for-this-change"></a>Preparando-se para essa mudança
 
 Para se preparar para essa alteração, incentivamos as organizações afetadas a notificar seus usuários habilitados sobre essa atualização planejada antes de 31 de julho de 2021. 
 
-Após 31 de julho de 2021, os usuários podem continuar a usar o Skype for Business sem interrupção em suas reuniões online; no entanto, as organizações precisarão habilitar seus usuários para Audioconferência fornecidas pela Microsoft se exigirem audioconferência discada com o Skype for Business ou o Microsoft Teams. Para saber mais sobre a Audioconferência da Microsoft, consulte [Audioconferência](https://products.office.com/skype-for-business/audio-conferencing). 
+Após 31 de julho de 2021, os usuários podem continuar a usar Skype for Business sem interrupção em suas reuniões online; no entanto, as organizações precisarão habilitar seus usuários para Audioconferência fornecidas pela Microsoft se exigirem audioconferência discada com Skype for Business ou Microsoft Teams. Para saber mais sobre a Audioconferência da Microsoft, consulte [Audioconferência](https://products.office.com/skype-for-business/audio-conferencing). 
 
 Dependendo do estado final desejado de uma organização, há três caminhos que podem ser seguidos:
 
@@ -59,7 +61,7 @@ Dependendo do estado final desejado de uma organização, há três caminhos que
 
 As organizações que decidirem migrar para a Audioconferência da Microsoft e concluir sua migração antes de 31 de julho de 2021, não terão impacto no serviço durante ou após essa data. A migração para a Audioconferência da Microsoft apresentará as seguintes alterações em uma organização: 
 
-- O serviço será cobrado com todos os outros serviços do Microsoft 365 ou office 365. 
+- O serviço será cobrado com todos os outros Microsoft 365 ou Office 365 serviços. 
 
 - Se a assinatura padrão for comprada, o custo de discagem por telefone será incluído no custo mensal da assinatura por usuário. 
 
@@ -73,7 +75,7 @@ As organizações que decidirem migrar para a Audioconferência da Microsoft e c
 
 Migrar para a Audioconferência da Microsoft é simples e pode ser feito em apenas algumas etapas após a aquisição das licenças do serviço. Para saber mais sobre como migrar para a Audioconferência da Microsoft, consulte:
 
-- [Experimente ou compre Audioconferência no Microsoft 365 ou Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
+- [Experimente ou compre Audioconferência em Microsoft 365 ou Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
  
 **Resumo:**
 
@@ -83,13 +85,13 @@ Migrar para a Audioconferência da Microsoft é simples e pode ser feito em apen
 
 ### <a name="path-2-continue-to-separately-use-a-third-party-audio-conferencing-provider"></a>Caminho #2: continuar a usar separadamente um provedor de audioconferência de terceiros
 
-As organizações que decidirem continuar usando um ACP de terceiros em e após 31 de julho de 2021 terão impacto no serviço porque as informações de discagem ACP de terceiros não poderão mais ser usadas para ingressar na parte de áudio de uma reunião do Skype for Business. 
+As organizações que decidirem continuar usando um ACP de terceiros em e após 31 de julho de 2021 terão impacto no serviço porque as informações de discagem ACP de terceiros não poderão mais ser usadas para ingressar na parte de áudio de uma reunião Skype for Business de terceiros. 
 
-Para evitar a fragmentação de áudio em reuniões do Skype for Business, fazendo com que alguns participantes participem via VoIP e outros por meio do ACP de terceiros, é recomendável que essas organizações desabilitem o uso de VoIP nas reuniões de seus usuários. Dessa forma, todos os participantes precisarão ingressar na parte de áudio de uma reunião usando o ACP de terceiros e todas as outras cargas de trabalho da reunião (como chat ou compartilhamento de tela) podem continuar a ser suportadas pelo Skype for Business. 
+Para evitar a fragmentação de áudio em reuniões Skype for Business, fazendo com que alguns participantes participem via VoIP e outros por meio do ACP de terceiros, é recomendável que essas organizações desabilitem o uso de VoIP nas reuniões de seus usuários. Dessa forma, todos os participantes precisarão ingressar na parte de áudio de uma reunião usando o ACP de terceiros e todas as outras cargas de trabalho da reunião (como chat ou compartilhamento de tela) podem continuar a ser suportadas por meio de Skype for Business. 
 
 - Para desabilitar VoIP de todas as reuniões de um determinado organizador, defina o parâmetro AllowIPAudio de sua Política de Conferência como false por meio do cmdlet Set-CsConferencingPolicy. Para obter informações adicionais, [consulte Set-CsConferencingPolicy](/powershell/module/skype/set-csconferencingpolicy?view=skype-ps).
  
-Em termos de agendamento e a partir de 31 de julho de 2021, as informações de discagem de um ACP de terceiros não serão mais incluídas automaticamente nos convites de reunião do Skype for Business. Os usuários precisarão adicionar manualmente as informações de discagem em seus convites de reunião do Skype for Business se desejarem continuar incluindo essas informações como parte de suas reuniões. 
+Em termos de agendamento, e a partir de 31 de julho de 2021, as informações de discagem de um ACP de terceiros não serão mais incluídas automaticamente nos convites de reunião Skype for Business de reunião. Os usuários precisarão adicionar manualmente as informações de discagem em seus convites de reunião Skype for Business se desejarem continuar incluindo essas informações como parte de suas reuniões. 
 
 Observe que, em 31 de julho de 2021, as reuniões de usuários existentes não serão reagendadas automaticamente para remover qualquer informação de discagem ACP de terceiros. As organizações que decidem manter o VoIP habilitado para as reuniões de seus usuários devem considerar desabilitar a integração de ACP de terceiros para seus usuários e reagendar suas reuniões usando o serviço de migração de reunião para remover as informações de discagem de audioconferência de terceiros de suas reuniões existentes e impedir a fragmentação de áudio em reuniões já agendadas. 
 
@@ -113,7 +115,7 @@ Observe que, em 31 de julho de 2021, as reuniões de usuários existentes não s
 
 ### <a name="path-3-stop-using-dial-in-conferencing-altogether"></a>Caminho #3: pare de usar a conferência discagem completamente
 
-As organizações que decidem parar de usar a conferência discada completamente (nem fornecida pela Microsoft nem por um ACP de terceiros) podem contar totalmente com o VoIP para dar suporte à parte de áudio de uma reunião do Skype for Business. 
+As organizações que decidem parar de usar a conferência discada completamente (nem fornecida pela Microsoft nem por um ACP de terceiros) podem contar totalmente com o VoIP para dar suporte à parte de áudio de uma reunião Skype for Business de terceiros. 
 
 Essas organizações precisariam desabilitar seus usuários de usar um provedor de audioconferência de terceiros e remarcar automaticamente suas reuniões usando o serviço de migração de reunião para remover suas informações de conferência discada. 
 

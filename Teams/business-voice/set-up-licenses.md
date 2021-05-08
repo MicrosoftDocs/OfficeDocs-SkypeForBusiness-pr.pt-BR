@@ -17,22 +17,23 @@ search.appverid: MET150
 description: Saiba como atribuir Microsoft 365 Business Voice licenças a seus usuários
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4b90c8b735495ab52cc6452cb4044a43e008a027
-ms.sourcegitcommit: 49cdcf344c63c805bcb6365804c6f5d1393e926a
+ms.openlocfilehash: 1ed0bb27393e0f32a4830e3e3cf6398834b12167
+ms.sourcegitcommit: 32e3bb588abcbeded2d885483384c06706b280eb
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/03/2021
-ms.locfileid: "52129963"
+ms.lasthandoff: 05/08/2021
+ms.locfileid: "52282548"
 ---
 # <a name="step-3-assign-business-voice-licenses"></a>Etapa 3: Atribuir licenças do Business Voice
 
 Cada usuário que precisa usar Microsoft 365 Business Voice precisa ter licenças atribuídas para o Business Voice.
 
-1. No centro [Microsoft 365 de administração](https://admin.microsoft.com), vá para a página   >  <a href="https://go.microsoft.com/fwlink/p/?linkid=842264" target="_blank">Licenças de</a> Cobrança.
-2. Selecione **Microsoft 365 Business Voice**.
-3. Na página detalhes do produto, selecione **Atribuir licenças**.
-4. No painel **Atribuir licenças aos** usuários, comece a digitar um nome e escolha-o entre os resultados para adicioná-lo à lista. É possível selecionar até 20 usuários de cada vez.
-5. Quando tiver terminado, selecione **Atribuir**, e então selecione **Fechar**.
+1. Abra o Microsoft 365 de administração e faça logoff com um usuário que seja um administrador global (geralmente essa é a conta que você usou para se inscrever no Microsoft 365).
+1. No painel de navegação esquerdo, vá para <a href="https://go.microsoft.com/fwlink/p/?linkid=842264" target="_blank">   >  **Licenças de Cobrança**</a>.
+1. Selecione **Microsoft 365 Business Voice**.
+1. Na página detalhes do produto, selecione **Atribuir licenças**.
+1. No painel **Atribuir licenças aos** usuários, comece a digitar um nome e escolha-o entre os resultados para adicioná-lo à lista. É possível selecionar até 20 usuários de cada vez.
+1. Quando tiver terminado, selecione **Atribuir**, e então selecione **Fechar**.
 
 > [!div class="nextstepaction"]
 > [Próxima etapa: Configurar uma conta Teams recurso](set-up-resource-account.md)

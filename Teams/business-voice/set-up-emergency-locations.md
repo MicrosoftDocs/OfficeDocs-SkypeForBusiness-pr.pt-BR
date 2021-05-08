@@ -17,12 +17,12 @@ search.appverid: MET150
 description: Saiba como configurar locais de emergência para Microsoft 365 Business Voice.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 531d1b747a86c84e99c2b6f06a83ae405527f3ba
-ms.sourcegitcommit: 49cdcf344c63c805bcb6365804c6f5d1393e926a
+ms.openlocfilehash: 9fab5fead952837e2fb272819a600381252bcbf8
+ms.sourcegitcommit: 32e3bb588abcbeded2d885483384c06706b280eb
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/03/2021
-ms.locfileid: "52130323"
+ms.lasthandoff: 05/08/2021
+ms.locfileid: "52282528"
 ---
 # <a name="step-1-set-up-a-business-voice-emergency-location"></a>Etapa 1: Configurar um local de emergência do Business Voice
 
@@ -32,8 +32,8 @@ Se você tiver usuários em vários locais, como home offices ou escritórios em
 
 ## <a name="add-an-emergency-location"></a>Adicionar um local de emergência
 
-1. Abra o [Microsoft Teams](https://admin.teams.microsoft.com) de administração e faça logoff com um usuário que seja um administrador global (geralmente essa é a conta que você usou para se inscrever no Microsoft 365).
-1. Na navegação à esquerda do centro de administração Microsoft Teams, clique em **Locais**  >  **Endereços de emergência**.
+1. Abra o Microsoft Teams de administração e faça logoff com um usuário que seja um administrador global (geralmente essa é a conta que você usou para se inscrever no Microsoft 365).
+1. No painel de navegação esquerdo, vá para <a href="https://admin.teams.microsoft.com/locations" target="_blank"> **Locais**  >  **Endereços de emergência**</a>.
 1. Clique em **Adicionar**.
 1. Insira um nome e uma descrição para o local.
 1. Selecione o país ou a região e insira o endereço.

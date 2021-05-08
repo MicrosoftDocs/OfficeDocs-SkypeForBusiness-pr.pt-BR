@@ -1,13 +1,13 @@
 ---
 title: Conduzir um piloto de usuário para avaliar e testar como o Microsoft Teams funcionará em sua organização
-author: msdmaguire
-ms.author: dmaguire
+author: dstrome
+ms.author: dstrome
 manager: serdars
 ms.topic: article
 ms.service: msteams
 ms.reviewer: landerl
 audience: admin
-description: Diretrizes para iniciar um piloto do Microsoft Teams para explorar tudo o que o Teams pode oferecer à sua organização, enquanto você continua a usar o Skype for Business
+description: Diretrizes para iniciar um Microsoft Teams piloto para explorar tudo o que Teams pode oferecer à sua organização, enquanto você continua a usar Skype for Business
 localization_priority: Normal
 ms.custom: Teams-upgrade-guidance
 search.appverid: MET150
@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4e2d909722674f23e253d0ae937efddb14d96d7a
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: fe1cf351bb5d3d4a950b818505a8e5d93fa7ab27
+ms.sourcegitcommit: 32e3bb588abcbeded2d885483384c06706b280eb
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51108367"
+ms.lasthandoff: 05/08/2021
+ms.locfileid: "52282088"
 ---
 # <a name="conduct-a-user-pilot"></a>Realizar um piloto de usuário
 
@@ -40,7 +40,7 @@ Este artigo faz parte do estágio implantação e implementação da jornada de 
 
 Implantando novas tecnologias, sua organização pode perceber o valor de negócios, como economia de custos, conformidade com a segurança, satisfação dos funcionários e eficiências operacionais, mas também pode afetar a produtividade e a infraestrutura organizacional dos usuários (sua rede). Antes de habilizar a nova tecnologia em toda a sua organização, conduza um piloto de usuário formal. Assim como você pintaria um pequeno patch de cor em uma parede antes de pintar toda a sala, você testaria uma ampla implantação em uma escala menor, conduzindo um piloto para validar a preparação técnica e do usuário, identificar e atenuar problemas e ajudar a garantir uma implementação bem-sucedida em toda a organização.
 
-Para obter os resultados mais realistas, o piloto deve envolver usuários reais, imitar como eles se comunicam e colaborar e verificar experiências técnicas e de usuário. Se sua organização está considerando executar o Skype for Business e o Teams lado a lado, atualizar para o Teams no futuro ou implantar uma nova funcionalidade como uma chamada ou conferência, um piloto pode ajudar a identificar o caminho certo para a sua organização. Às vezes considerado a Fase 1 de uma implantação, o piloto ideal aproveita a preparação que você já iniciou e implementa seu plano definido com um grupo direcionado de usuários.
+Para obter os resultados mais realistas, o piloto deve envolver usuários reais, imitar como eles se comunicam e colaborar e verificar experiências técnicas e de usuário. Se sua organização está considerando executar Skype for Business e Teams lado a lado, atualizar para o Teams no futuro ou implantar uma nova funcionalidade como uma chamada ou conferência, um piloto pode ajudar a identificar o caminho certo para a sua organização. Às vezes considerado a Fase 1 de uma implantação, o piloto ideal aproveita a preparação que você já iniciou e implementa seu plano definido com um grupo direcionado de usuários.
 
 | | |
 |---|---|
@@ -54,14 +54,14 @@ Para obter os resultados mais realistas, o piloto deve envolver usuários reais,
 
 Um piloto bem-sucedido definiu datas de início e fim e metas [claramente definidas para](upgrade-define-project-scope.md#project-goals) medir o sucesso. Essas metas devem se alinhar ao escopo do seu projeto mais amplo, conforme documentado quando você definiu o escopo do projeto [e](upgrade-define-project-scope.md)será usada para informar seu caminho para frente depois que o piloto for final. Você também deve garantir que incluiu os participantes certos durante a duração do projeto. Você vai querer ter certeza de permitir tempo suficiente para executar o piloto e avaliar seu impacto: recomendamos um mínimo de 30 dias.
 
-Comece pequeno e adicione ao piloto conforme apropriado, seja adicionando cargas de trabalho ou recursos ou usuários adicionais, ganhando tempo para avaliar os resultados e ajustar seu piloto à medida que você itera. Você pode até optar por executar pilotos subsequentes à medida que os novos recursos do Teams são lançados de acordo com o roteiro.
+Comece pequeno e adicione ao piloto conforme apropriado, seja adicionando cargas de trabalho ou recursos ou usuários adicionais, ganhando tempo para avaliar os resultados e ajustar seu piloto à medida que você itera. Você pode até optar por executar pilotos subsequentes à medida que novos recursos Teams são lançados de acordo com o roteiro.
 
 ## <a name="2-select-your-pilot-participants-and-test-scenarios"></a>2. Selecione seus participantes piloto e cenários de teste
 
-Uma das tarefas mais importantes do planejamento do piloto é uma seleção criteriosa dos participantes. Lembre-se de que o Teams é otimizado para o trabalho em equipe, portanto, não se esqueça de selecionar participantes piloto não somente com base em funções ou personas, mas também com base em seu projeto e no trabalho entre equipes. Um ótimo lugar para começar é pedir aos seus participantes e gerentes de departamento projetos reais que você pode validar no Teams. Um exemplo de um projeto baseado em função pode ser usar o Teams com sua organização de vendas para garantir que os representantes de campo possam acessar facilmente os recursos necessários e compartilhar informações com outros membros do campo. Um exemplo de trabalho baseado em projeto pode estar coordenando um evento de lançamento de produto com as equipes de marketing, treinamento, relações públicas e planejamento de eventos. Independentemente dos cenários selecionados, o piloto deve estender-se às pessoas-chave em TI, treinamento e seu helpdesk, para que você possa validar completamente a solução enquanto otimiza totalmente os recursos de gerenciamento de projetos.
+Uma das tarefas mais importantes do planejamento do piloto é uma seleção criteriosa dos participantes. Lembre-se de Teams é otimizado para o trabalho em equipe, portanto, não se esqueça de selecionar participantes piloto não somente com base em funções ou personas, mas também com base em seu projeto e no trabalho entre equipes. Um ótimo lugar para começar é pedir aos seus participantes e gerentes de departamento projetos reais que você pode validar Teams. Um exemplo de um projeto baseado em função pode ser usar o Teams com sua organização de vendas para garantir que os representantes de campo possam acessar facilmente os recursos necessários e compartilhar informações com outros membros do campo. Um exemplo de trabalho baseado em projeto pode estar coordenando um evento de lançamento de produto com as equipes de marketing, treinamento, relações públicas e planejamento de eventos. Independentemente dos cenários selecionados, o piloto deve estender-se às pessoas-chave em TI, treinamento e seu helpdesk, para que você possa validar completamente a solução enquanto otimiza totalmente os recursos de gerenciamento de projetos.
 
 > [!Tip]
-> Ao selecionar os participantes do grupo piloto do Teams, certifique-se de incluir os principais usuários do Skype for Business. Verifique com esses usuários para entender como eles usam o Skype for Business hoje e, em seguida, crie um plano de teste para verificar se o Teams pode atender às suas necessidades atuais.
+> Ao selecionar seus Teams do grupo piloto, certifique-se de incluir os principais usuários de Skype for Business. Verifique com esses usuários para entender como eles usam Skype for Business hoje e, em seguida, crie um plano de teste para verificar se os Teams podem atender às suas necessidades atuais.
 
 ## <a name="3-design-your-test-plan-and-feedback-survey"></a>3. Projete seu plano de teste e uma pesquisa de feedback
 
@@ -74,7 +74,7 @@ Sua organização pode optar por pilotar todas as funcionalidades de uma só vez
 É fundamental para o sucesso do piloto que você instrua os participantes piloto sobre o que está acontecendo, quando e por que e o que é esperado deles. Para impulsionar a emoção e a participação máxima, certifique-se de incluir mensagens de valor do usuário, além de links para treinamento e suporte onde os usuários podem obter informações adicionais à medida que eles passam pelo piloto. Aqui estão alguns recursos de exemplo para começar com seu plano piloto de comunicações:
 
 - [Recursos piloto](https://aka.ms/UpgradeSuccessKit), incluindo modelos de email e perguntas de pesquisa de feedback de exemplo
-- [Alternar para o Teams do Skype for Business](https://support.office.com/article/Switch-to-Teams-from-Skype-for-Business-6295a0ae-4e8e-4bba-a100-64cc951cc964), um guia de início rápido projetado para ajudar os usuários do Skype for Business a começar com o Teams
+- [Alternar para Teams de](https://support.office.com/article/Switch-to-Teams-from-Skype-for-Business-6295a0ae-4e8e-4bba-a100-64cc951cc964)Skype for Business , um guia de início rápido projetado para ajudar Skype for Business usuários a começar a Teams
 
 ## <a name="5-conduct-your-pilot"></a>5. Conduzir seu piloto
 
@@ -108,9 +108,9 @@ Se os resultados indicarem:
 
 - **Suas metas piloto (por exemplo, satisfação** do usuário e qualidade de rede) foram atingidas, você deve estar pronto para prosseguir com a próxima fase da distribuição. Dependendo das metas do seu projeto, isso pode ser um dos seguintes:
   - Estender o piloto a participantes adicionais
-  - [Habilitando o Teams juntamente com o Skype for Business (**modo Ilhas)** para algumas ou todas as suas organizações](./setting-your-coexistence-and-upgrade-settings.md)
-  - [Atualizando usuários do Skype for Business para o Teams ( modo somente **do Teams)** para alguns ou de toda a sua organização](./setting-your-coexistence-and-upgrade-settings.md)
+  - [Habil Teams ao lado Skype for Business (**modo Ilhas)** para alguns ou todos os da sua organização](./setting-your-coexistence-and-upgrade-settings.md)
+  - [Atualizando usuários de Skype for Business para Teams (**Teams somente** modo) para alguns ou para toda a sua organização](./setting-your-coexistence-and-upgrade-settings.md)
 - Seu piloto não atingiu os resultados que você queria **(por exemplo,** satisfação do usuário e qualidade de rede), de tempo para fazer os ajustes apropriados ao seu plano e revisitar seu piloto.
 
 > [!Tip]
-> Aliste seus participantes piloto como campeões pares para ajudar a evangelizar e a incluir novos usuários no Teams. Os campeões de pares podem se relacionar facilmente com outros usuários, compartilhar suas próprias experiências e aprendizados e oferecer suporte e orientação aos colegas. Saiba mais sobre [campeões](https://go.microsoft.com/fwlink/?linkid=859068) e como você pode usá-los em sua própria lançamento.
+> Aliste seus participantes piloto como campeões pares para ajudar a evangelizar e a incluir novos usuários Teams. Os campeões de pares podem se relacionar facilmente com outros usuários, compartilhar suas próprias experiências e aprendizados e oferecer suporte e orientação aos colegas. Saiba mais sobre [campeões](https://go.microsoft.com/fwlink/?linkid=859068) e como você pode usá-los em sua própria lançamento.

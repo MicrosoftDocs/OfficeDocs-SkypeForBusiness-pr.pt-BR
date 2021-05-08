@@ -20,23 +20,23 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - seo-marvel-apr2020
-description: Saiba como usar o Centro de administração do Microsoft Teams ou Windows PowerShell para criar e gerenciar planos de discagem (planos de discagem de chamada PSTN).
-ms.openlocfilehash: 0b2c8c64d1e4e01843c6565d43a07e0ebdb24d71
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Saiba como usar o centro de administração Microsoft Teams ou Windows PowerShell para criar e gerenciar planos de discagem (planos de discagem de chamada PSTN).
+ms.openlocfilehash: f94c847f5c75e793856c0975678e2806629e2dcd
+ms.sourcegitcommit: 32e3bb588abcbeded2d885483384c06706b280eb
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51120803"
+ms.lasthandoff: 05/08/2021
+ms.locfileid: "52282358"
 ---
 # <a name="create-and-manage-dial-plans"></a>Criar e gerenciar planos de discagem
 
-Depois de planejar os planos de discagem para sua organização e descobrir todas as regras de normalização que precisam ser criadas para roteamento de chamadas, você estará pronto para criar os planos de discagem. Você pode usar o centro de administração do Microsoft Teams ou Windows PowerShell para criar e gerenciar planos de discagem.  
+Depois de planejar os planos de discagem para sua organização e descobrir todas as regras de normalização que precisam ser criadas para roteamento de chamadas, você estará pronto para criar os planos de discagem. Com uma conta de administrador com uma licença de Teams válida, você pode usar o centro de administração Microsoft Teams ou Windows PowerShell para criar e gerenciar planos de discagem.  
 
 ## <a name="using-the-microsoft-teams-admin-center"></a>Usando o centro de administração do Microsoft Teams
 
 ### <a name="create-a-dial-plan"></a>Criar um plano de discagem
 
-1. Na navegação à esquerda do Centro de administração do Microsoft Teams, vá para **Plano de**  >  **Discagem de Voz**.
+1. Na navegação à esquerda do centro de administração Microsoft Teams, vá para **Plano de**  >  **Discagem de Voz**.
 2. Clique **em Adicionar** e insira um nome e uma descrição para o plano de discagem.
     ![Captura de tela mostrando a página Adicionar para criar um plano de discagem](media/create-dial-plan.png)
 3. Em **Detalhes do plano de** discagem, especifique um prefixo de discagem externa se os usuários precisarem discar um ou mais dígitos principais adicionais (por exemplo, 9) para obter uma linha externa. Para fazer isso:
@@ -49,14 +49,14 @@ Depois de planejar os planos de discagem para sua organização e descobrir toda
 5. Organize as regras de normalização na ordem que você deseja. Clique **em Mover para cima** ou Mover **para** baixo para alterar a posição das regras na lista.
 
     > [!NOTE]
-    > O Teams percorre a lista de regras de normalização de cima para baixo e usa a primeira regra que corresponde ao número discado. Se você configurar um plano de discagem para que um número discado possa corresponder a mais de uma regra de normalização, certifique-se de que as regras mais restritivas sejam ordenadas acima das menos restritivas.
+    > Teams percorre a lista de regras de normalização da parte superior para baixo e usa a primeira regra que corresponde ao número discado. Se você configurar um plano de discagem para que um número discado possa corresponder a mais de uma regra de normalização, certifique-se de que as regras mais restritivas sejam ordenadas acima das menos restritivas.
 
 6. Clique em **Salvar**.
 7. Se você quiser testar o plano de discagem, em **Teste** plano de discagem , insira um número de telefone e clique em **Testar**.
 
 ### <a name="edit-a-dial-plan"></a>Editar um plano de discagem
 
-1. Na navegação à esquerda do Centro de administração do Microsoft Teams, vá para **Plano de**  >  **Discagem de Voz**.
+1. Na navegação à esquerda do centro de administração Microsoft Teams, vá para **Plano de**  >  **Discagem de Voz**.
 2. Selecione o plano de discagem clicando à esquerda do nome do plano de discagem e clique em **Editar**.
 3. Faça as alterações que você deseja e clique em **Salvar**.
 
@@ -194,7 +194,7 @@ Get-CsOnlineUser -Filter {HostingProvider -eq "sipfed.online.lync.com"} | Grant-
 
 Execute-os para adicionar o plano de discagem local existente chamado OPDP1 como um plano de discagem de locatário para sua organização. Primeiro, você precisa salvar o plano de discagem local em um arquivo .xml e usá-lo para criar o novo plano de discagem de locatário.
   
-Execute isso para salvar o plano de discagem local no arquivo .xml.
+Execute isso para salvar o plano de discagem local no arquivo .xml local.
   
 ```PowerShell
 $DPName = "OPDP1"

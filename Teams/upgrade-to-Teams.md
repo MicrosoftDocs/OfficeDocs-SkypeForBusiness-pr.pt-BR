@@ -1,13 +1,13 @@
 ---
-title: Visão geral da implementação da atualização para o Microsoft Teams
-author: msdmaguire
-ms.author: dmaguire
+title: Visão geral da implementação da atualização para Microsoft Teams
+author: dstrome
+ms.author: dstrome
 manager: serdars
 ms.topic: article
 ms.service: msteams
 ms.reviewer: landerl
 audience: admin
-description: Determine o caminho de atualização ideal para o Microsoft Teams com base em sua implantação atual do Skype for Business.
+description: Determine o caminho de atualização ideal para Microsoft Teams com base em sua implantação Skype for Business atual.
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3eb6c65d414217810c795aa72701a8e546f30643
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 1774b8bebc1330e69a611e64d4f0a8e01f05febb
+ms.sourcegitcommit: 32e3bb588abcbeded2d885483384c06706b280eb
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51096025"
+ms.lasthandoff: 05/08/2021
+ms.locfileid: "52282368"
 ---
 # <a name="overview-of-implementing-your-upgrade"></a>Visão geral da implementação da atualização
 
@@ -51,13 +51,13 @@ Este artigo faz parte do estágio implantação e implementação de sua jornada
 
 ## <a name="choose-your-upgrade-starting-point"></a>Escolha o ponto de partida da atualização
 
-As etapas que você executa para executar a atualização para o Teams dependem da implantação atual do Skype for Business:
+As etapas que você executa para executar sua atualização para Teams depende da implantação atual do Skype for Business:
 
 Com base no seu ambiente atual, escolha seu ponto de partida:  
 
-- **Se você estiver atualizando** do Skype for Business Online para o Teams, siga as etapas em [Upgrade from Skype for Business Online to Teams](./upgrade-to-teams-execute-skypeforbusinessonline.md).
+- **Se você estiver atualizando** do Skype for Business Online para o Teams , siga as etapas em Atualizar do [Skype for Business Online](./upgrade-to-teams-execute-skypeforbusinessonline.md)para Teams .
 
--  Se você estiver atualizando de um ambiente local do **Skype for Business,** será necessário executar algumas etapas adicionais para configurar a conectividade entre seus ambientes locais e online antes de mover seus usuários para o Teams. Para obter mais informações, [consulte Upgrade Skype for Business on-premises to Teams](upgrade-to-teams-execute-SkypeforBusinessHybridOnPrem.md).
+-  Se você estiver atualizando de um ambiente Skype for Business local, será necessário executar algumas etapas adicionais para configurar **a** conectividade entre seus ambientes locais e online antes de mover seus usuários para Teams. Para obter mais informações, consulte [Upgrade Skype for Business local para Teams](upgrade-to-teams-execute-SkypeforBusinessHybridOnPrem.md).
 
 
 

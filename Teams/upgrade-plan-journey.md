@@ -1,7 +1,7 @@
 ---
-title: Planejar a atualização do Skype for Business para o Microsoft Teams
-author: msdmaguire
-ms.author: dmaguire
+title: Planejar sua Skype for Business para Microsoft Teams atualização
+author: dstrome
+ms.author: dstrome
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
@@ -20,22 +20,22 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c9438f7f8fa97507e78e64633383e29ad032c3e4
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 5dd2fd5241533f54da3e5a06dab90df7f082fe2d
+ms.sourcegitcommit: 32e3bb588abcbeded2d885483384c06706b280eb
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119070"
+ms.lasthandoff: 05/08/2021
+ms.locfileid: "52282118"
 ---
 # <a name="plan-for-your-upgrade"></a>Planejar sua atualização
 
-![Diagrama da jornada de atualização do Teams](media/upgrade-banner-main.png "Certifique-se de que seu projeto está definido para o sucesso com a equipe de projeto certa. Defina o escopo, as metas e a linha do tempo do projeto. Confirme a preparação técnica e do usuário. Execute seu plano de lançamento. Mantenha o impulso para maximizar os resultados.")
+![Diagrama da jornada Teams atualização](media/upgrade-banner-main.png "Certifique-se de que seu projeto está definido para o sucesso com a equipe de projeto certa. Defina o escopo, as metas e a linha do tempo do projeto. Confirme a preparação técnica e do usuário. Execute seu plano de lançamento. Mantenha o impulso para maximizar os resultados.")
 
 Um ambiente técnico saudável, a adoção sustentada do usuário e a realização das suas metas de negócios começam com o planejamento adequado. Um plano sólido fornece uma estrutura para seu projeto de atualização e garante que todos os participantes estão trabalhando com os mesmos objetivos. Ao aproveitar o tempo para definir corretamente o sucesso, você pode medir os resultados à medida que avança pela implantação e verificar se está alcançando os resultados que você queria. O planejamento de sua jornada inclui:
 
 - [Alistamento de seus participantes do projeto](upgrade-enlist-stakeholders.md)
 - [Definindo o escopo do seu projeto](./upgrade-define-project-scope.md)
-- [Noções básicas sobre coexistência e interoperabilidade do Skype for Business e teams](./teams-and-skypeforbusiness-coexistence-and-interoperability.md)
+- [Noções básicas sobre coexistência e interoperabilidade de Skype for Business e Teams](./teams-and-skypeforbusiness-coexistence-and-interoperability.md)
 - [Escolher sua jornada de atualização com base nas suas necessidades de negócios](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 - [Planejando um piloto de usuário](pilot-essentials.md)
 

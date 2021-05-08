@@ -20,14 +20,16 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Aprenda as etapas de implantação para obter o firmware correto, atualizá-lo, se necessário, atribuir licenças e definir configurações para Telefones de Área Comum.
-ms.openlocfilehash: 16490c10418928f875d4513c509f17e09ac4359d
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 4fd45f446d71e581305f7e596c7eacc62f54f8ca
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51106427"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52237347"
 ---
 # <a name="set-up-common-area-phones"></a>Configurar telefones de área comum
+
+[!INCLUDE [sfbo-retirement](../../../Hub/includes/sfbo-retirement.md)]
 Um CAP (telefone de área comum) é normalmente colocado em áreas como saguões ou outras áreas disponíveis para muitas pessoas. Por exemplo, telefones de áreas de recepção, interfones ou telefones de salas de reunião, os CAPs são configurados como dispositivos em vez de usuários e se conectam automaticamente a uma rede. Nas etapas a seguir, ajudaremos você a configurar uma conta para o Sistema de Telefonia com planos de chamada, de modo que você possa implantar esses tipos de telefones na sua organização.
 
 ## <a name="prerequisites-for-common-area-phones"></a>Pré-requisitos para telefones de área comum
@@ -37,12 +39,12 @@ A primeira coisa a ser feita é confirmar que você já:
 - Comprou a licença do Telefone de Área Comum e um Plano de Chamadas.
 - Pesquisou e comprou telefones aprovados (veja a lista [aqui](deploying-skype-for-business-online-phones.md)).
 - Atualizou o firmware em seus telefones (veja o firmware suportado [neste tópico](getting-phones-for-skype-for-business-online.md)).  Você pode verificar o firmware do seu telefone da seguinte forma:
-  - **Telefones Polycom VVX**: Vá para **Configurações**  >  **Status Platform**  >    >  **Application**  >  **Main**.
+  - **Telefones VVX polycom**: Vá **para** Configurações Aplicativo principal da plataforma  >    >    >  **de**  >  status.
   - **Telefones yealink**: Vá para **Status** na tela do telefone principal.
   - **AudioCodes telefones**: Vá para **Menu Versão** do Firmware de Status do Dispositivo na tela  >    >   inicial.
-  - **Telefones do Lync Phone Edition (LPE)**: Acesse **Menu**  >  **Informações do sistema** na tela inicial.
+  - **Telefones do Lync Telefone Edition (LPE)**: Vá para **Menu**  >  **Informações do Sistema** da tela inicial.
 
-    As atualizações de firmware são gerenciadas pelo Serviço do Skype for Business. Todo firmware de telefone certificado pelo Skype for Business é carregado para o servidor de atualização do Skype for Business e a atualização do dispositivo é habilitada em todos os telefones por padrão.
+    As atualizações de firmware são gerenciadas pelo Skype for Business Service. Todo firmware de telefone certificado pelo Skype for Business é carregado para o servidor de atualização do Skype for Business e a atualização do dispositivo é habilitada em todos os telefones por padrão.
 
     Dependendo do tempo de inatividade no telefone e dos intervalos de sondagem, os telefones baixarão e instalarão automaticamente as versões certificadas mais recentes. Você pode desabilitar as configurações de atualização do dispositivo usando o cmdlet  [Set-CsIPPhonePolicy](/powershell/module/skype/set-csipphonepolicy) e definindo o *parâmetro EnableDeviceUpdate* como `false` .
 
@@ -52,7 +54,7 @@ Você precisará seguir estas etapas:
 ### <a name="step-1---buy-the-licenses"></a>Etapa 1 - Compre as licenças
 1. No centro de administração, vá para **Cobrança**  >  **Serviços de Compra** e adicione Outros **planos**.
 
-    ![Captura de tela da licença do Telefone de Área Comum](../../images/cap-license.png)
+    ![Captura de tela da licença Telefone Área Comum](../../images/cap-license.png)
 2. Clique em **Telefone de Área Comum** > **Comprar agora** > na página **Finalizar compra** clique em **Comprar agora**.
 3. Clique em expandir **Assinaturas de complementos** e depois clique em comprar um Plano de Chamadas. Escolha o Plano **de Chamada Doméstica** ou o Plano de Chamada Doméstico e **Internacional.**
 
@@ -82,9 +84,9 @@ Para mais detalhes, veja [Adicionar um usuário](https://support.office.com/arti
 
 ### <a name="step-3---assign-a-phone-number-to-the-common-area-phone-user-account"></a>Etapa 3 - Atribuir um número de telefone à conta de usuário do Telefone de Área Comum
 
-![Um ícone mostrando o logotipo do Skype for Business Atribuir um número de telefone ao usuário usando o ](../../images/sfb-logo-30x30.png) Centro de administração do Skype for **Business**
+![Um ícone mostrando o logotipo Skype for Business Atribuir um número de telefone ao usuário usando o Skype for Business ](../../images/sfb-logo-30x30.png) **de administração**
 
-1. No centro de administração > **centros de administração** skype for  >  **Business**.
+1. No centro de administração > **centros de administração**  >  **Skype for Business**.
 2. No **Centro de administração do Skype for Business** >  **Voz** > **Números de telefone**.
 3. Selecione um número na lista de números de telefone e clique em **Atribuir**.
 4. Na página **Atribuir**, na caixa **Usuário de voz** digite o nome do usuário usado para o telefone e, em seguida, selecione o usuário no menu suspenso **Selecionar um usuário de voz**.
@@ -98,7 +100,7 @@ Para mais detalhes, veja [Adicionar um usuário](https://support.office.com/arti
 
 Para mais detalhes, veja [Obtenção de números de telefone para seus usuários](/microsoftteams/getting-phone-numbers-for-your-users).
 
-Se você estiver se perguntando, você também pode levar seu número de telefone que você tem com outra operadora e "*porta*" ou transferi-los para o Microsoft 365 ou Office 365. Veja, [Transferir números de telefone para o Teams](/microsoftteams/phone-number-calling-plans/transfer-phone-numbers-to-teams).
+Se você estiver se perguntando, você também pode pegar seu número de telefone que você tem com outra operadora e "*porta*" ou transferi-los para Microsoft 365 ou Office 365. Veja, [Transferir números de telefone para Teams](/microsoftteams/phone-number-calling-plans/transfer-phone-numbers-to-teams).
 
 ### <a name="step-4---setting-up-your-phone"></a>Etapa 4 - Configurar seu telefone
 
@@ -138,7 +140,7 @@ O telefone ou telefones que você possui devem ter o **Modo de Telefone de Área
 
 
 > [!NOTE]
-> O site de configuração do CAP informa que ele redefinirá a senha da conta CAP para uma senha aleatória. Observe que a conta à qual o CAP está se referindo é a conta do Active Directory do Azure (AAD). Se você criou a conta somente no AAD, então o processo é direto. Se você tiver sincronizado um Active Directory local com o AAD e usar um IDP ou ADFS de terceiros, o provisionamento cap falhará. Nesse caso, você precisa usar apenas uma conta do Microsoft 365 ou Office 365/Azure Active Directory (por exemplo, uma conta com **onmicrosoft.com** domínio) para que o provisionamento cap funcione.
+> O site de configuração do CAP informa que ele redefinirá a senha da conta CAP para uma senha aleatória. Observe que a conta à qual o CAP está se referindo é a conta do Active Directory do Azure (AAD). Se você criou a conta somente no AAD, então o processo é direto. Se você tiver sincronizado um Active Directory local com o AAD e usar um IDP ou ADFS de terceiros, o provisionamento cap falhará. Nesse caso, você precisa usar apenas uma conta Microsoft 365 ou Office 365/Azure Active Directory (por exemplo, uma conta com **onmicrosoft.com** domínio) para que o provisionamento cap funcione.
 
 
 ### <a name="related-topics"></a>Tópicos relacionados
