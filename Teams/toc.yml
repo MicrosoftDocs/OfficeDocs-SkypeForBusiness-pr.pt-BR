@@ -1269,14 +1269,14 @@ items:
             href: business-voice/set-up-assign-numbers.md
           - name: 'Etapa 6: configurar um atendedor automático'
             href: business-voice/set-up-auto-attendant.md
+          - name: 'Etapa 7: números de telefone da porta (opcional)'
+            href: business-voice/port-phone-numbers.md
           - name: Recursos de pós-instalação
             href: business-voice/set-up-finish.md
       - name: Personalizar sua configuração
         items:
           - name: Opções de personalização
             href: business-voice/customize-business-voice.md
-          - name: Portabilidade de números de telefone
-            href: business-voice/port-phone-numbers.md
           - name: Configurar políticas de chamadas
             href: business-voice/set-up-policies.md
           - name: Gerenciar pacotes de política
