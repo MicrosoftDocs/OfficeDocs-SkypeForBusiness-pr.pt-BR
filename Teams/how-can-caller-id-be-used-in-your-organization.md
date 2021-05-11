@@ -1,16 +1,16 @@
 ---
 title: Como a identificação de chamadas pode ser usada em sua organização
-ms.author: mikeplum
-author: MikePlumleyMSFT
+ms.author: crowe
+author: CarolynRowe
 manager: serdars
-ms.reviewer: mikedav, roykuntz
+ms.reviewer: jens, roykuntz
 ms.topic: article
 ms.assetid: 5a0bd8ba-3334-46ee-becf-1025597737f6
 ms.tgt.pltfrm: cloud
-ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection:
 - M365-voice
+ms.service: msteams
 audience: Admin
 appliesto:
 - Skype for Business
@@ -21,73 +21,90 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - ms.teamsadmincenter.voice.callerid.overview
-description: A ID do chamador pode ser controlada para chamadas de entrada e de saída para usuários do Sistema de Telefonia usando uma política chamada CallingLineIdentity.
-ms.openlocfilehash: e723311b2780dd1d43bad4874b72133e09ff4fc3
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: A ID do chamador pode ser controlada para chamadas de entrada e de saída para usuários Sistema de Telefonia usando uma política chamada CallingLineIdentity.
+ms.openlocfilehash: 2a104679be84dfdaa4574353ccc79142d8a82284
+ms.sourcegitcommit: 83f14c4c79559ef28357ff076938e52b369fc0c7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51120672"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52308340"
 ---
 # <a name="how-can-caller-id-be-used-in-your-organization"></a>Como a identificação de chamadas pode ser usada em sua organização
 
-A ID do chamador pode ser controlada para chamadas de entrada e de saída para usuários do Sistema de Telefonia usando uma política chamada CallingLineIdentity.
+A ID do chamador consiste em duas informações identificáveis voltadas para o usuário:
+
+- Um número de telefone (geralmente chamado de CLID ou ID de linha de chamada). Este é o PSTN (Número de Telefone Comutado Público) apresentado como a identificação do chamador.
+
+- Um nome de parte de chamada (normalmente conhecido como CNAM). 
   
-A funcionalidade de ID do chamador está disponível para todos os usuários do Sistema de Telefonia, independentemente da conectividade PSTN:
+A funcionalidade de ID do chamador está disponível para todos os usuários Sistema de Telefonia independentemente da opção de conectividade PSTN:
 
 - Planos de Chamada da Microsoft 
 
 - Roteamento Direto do Sistema de Telefonia 
   
-- Conectividade PSTN Online
-    
-- Conectividade PSTN local com o Skype for Business Cloud Connector Edition (exige o Cloud Connector Edition 1.4.2 e posterior)
-    
-- Conectividade PSTN local com o Skype for Business Server (exige o Skype for Business Server 2015 CU5 e posterior)
-    
-> [!NOTE]
-> [!OBSERVAçãO] Esta política não está disponível no Skype for Business 2015 Server. 
-  
-## <a name="outbound-caller-id"></a>Identificação de chamada de saída
+Você pode controlar a ID do Chamador para chamadas de entrada e de saída usando uma política chamada CallingLineIdentity. Para obter mais informações, consulte Mais sobre a ID da Linha de Chamada [e o Nome da Parte de Chamada.](more-about-calling-line-id-and-calling-party-name.md)
 
-Há três opções disponíveis para a ID do chamador PSTN de saída:
+  
+## <a name="outbound-pstn-caller-id"></a>ID do chamador PSTN de saída
+
+Para a ID do chamador PSTN de saída, as opções a seguir estão disponíveis. 
+
+> [!NOTE]
+> Algumas opções, indicadas abaixo, estão em versão prévia.
   
 - O número de telefone atribuído ao usuário, que é o padrão.
+
+- Anônimo, que está disponível removendo a apresentação do número PSTN do usuário. 
+
+- Um número de telefone substituto, que pode ser:
+
+  - Um número de telefone que é classificado como um número de serviço e de chamada gratuita no inventário de números de telefone de Planos de Chamadas. Normalmente, ele é atribuído a um Teams Atendedor Automático ou Fila de Chamada.
+
+  - **Versão prévia.** Um número de telefone local por meio do Roteamento Direto atribuído a uma conta de recurso usada por um Teams Atendedor Automático ou Fila de Chamadas. 
+
+- **Versão prévia.** O Nome da Parte de Chamada ou CNAM definido na chamada PSTN de saída.  
     
-- Um número de telefone que é classificado como um *número de* *serviço* e de chamada gratuita no inventário de números de telefone de Planos de Chamadas. Geralmente é atribuído a um atendente automático da organização ou a uma fila de chamadas.
-    
-- Definido como anônimo.
-    
-No entanto, você não pode atribuir esses tipos de números de telefone para identificação de chamada de saída:
-  
-- Todos os números de telefone que são classificados como um  *usuário no*  inventário de números de telefone de Planos de Chamadas
-    
-- Um número de telefone local do Skype for Business Server
-    
-Para definir a identificação de chamada de saída, consulte [Definir a identificação de chamadas para um usuário](./set-the-caller-id-for-a-user.md).
+Para obter mais informações, consulte [Definir a ID do Chamador para um usuário](./set-the-caller-id-for-a-user.md).
   
 ### <a name="end-user-control-of-outbound-caller-id"></a>Controle do usuário final da ID do chamador de saída
 
-O atributo EnableUserOverride permite que usuários individuais ou múltiplos alterem a configuração de ID do chamador para **Anonymous**. Isso é aplicável apenas quando uma política CallingLineIdentity é configurada com um parâmetro CallingIDSubstitute da LineURI ou Substitute. O valor padrão do EnableUserOverride é False.
-  
-Os usuários finais podem definir a ID  do chamador como **Anônimo** usando a guia Configurações no cliente da área de trabalho do Skype for Business, selecione Chamar um Usuário **Final** (se habilitado pelo administrador) e selecione **Ocultar** meu número de telefone e informações de perfil para todas as chamadas . No Teams, os usuários podem ir para a imagem de perfil no canto superior direito, selecionar Configurações Chamadas e, em Seguida, em  >   **ID** do Chamador, selecione Ocultar meu número de telefone e informações de perfil para todas as **chamadas**.
-  
-||||
-|:-----|:-----|:-----|
-|**Windows** <br/> |**Versão** <br/> |**Compatível** <br/> |
-|Clique para Executar  <br/> |CC (Current Channel) lançado em 6 de dezembro de 2016 - versão 1611 (Compilação 7571.2072)  <br/> |Sim  <br/> |
-|Clique para Executar  <br/> |CC (Current Channel) lançado em 22 de fevereiro de 2017 - versão 1701 (Compilação 7766.2060)  <br/> |Sim  <br/> |
-|Clique para Executar  <br/> |Canal Adiado lançado em 13 de junho de 2017 - versão 1701 (Compilação 7766.2092)  <br/> |Sim  <br/> |
-|MSI  <br/> |Skype for Business  <br/> |Não  <br/> |
-|Mac  <br/> |Skype for Business  <br/> |Não  <br/> |
+Os usuários podem alterar a configuração de ID do chamador como **Anônimo** definindo o atributo EnableUserOverride. 
+
+Se a ID do chamador de saída estiver definida como Anônima, EnableUserOverride não terá efeito e a ID do chamador será sempre definida como Anônima. O valor padrão do EnableUserOverride é False.
+
+Os usuários finais podem definir **a** ID do chamador como Anônimo indo para Chamadas Configurações > e, em Seguida, em **ID** do Chamador, selecione Ocultar o número de telefone e informações de perfil para todas as **chamadas**.
+
+### <a name="notes"></a>Observações
+
+Considere o seguinte:
+
+- Não é possível atribuir os seguintes tipos de números de telefone para a ID do chamador de saída:
+
+  - Qualquer número de telefone que seja classificado como um usuário no inventário de números de telefone de Planos de Chamadas.
+
+  - Qualquer número de telefone local por meio de Roteamento Direto atribuído a um usuário.
+
+  - Um Skype for Business Server número de telefone local.
+
+- O uso da substituição de número de telefone da conta de recurso só funciona para Teams usuários. A substituição do número de telefone de serviço funciona para usuários Skype for Business Online e Teams.
+
+- O Nome da Parte de Chamada só é enviado em chamadas nas quais a ID do chamador é substituída por LineUri, um número de telefone de conta de recurso ou serviço e quando o chamador é um usuário Teams.
+
+- Chamar Nome da Parte pode ter no máximo 200 caracteres, mas sistemas downstream podem suportar menos caracteres.
+
+- Para Roteamento Direto, a substituição de número de telefone e o Nome da Parte de Chamada é enviada no header SIP FROM. Se o OnlinePstnGateway correspondente estiver configurado com ForwardPai = True, o header SIP P-ASSERTED-IDENTITY conterá o usuário de chamada real.
+
+- EnableUserOverride tem precedência sobre outras configurações na política, a menos que a substituição seja definida como Anônima. Por exemplo, suponha que a instância de política tenha substituição usando uma conta de recurso e EnableUserOverride seja definida e habilitada pelo usuário. Nesse caso, a ID do chamador de saída será bloqueada e Anonymous será usado. Se uma instância de política tiver a substituição definida como Anonymous e EnableUserOverride estiver definida, a ID do chamador de saída sempre será Anônima, independentemente da configuração do usuário final.
+
    
 ## <a name="inbound-caller-id"></a>ID do chamador de entrada
 
-O Sistema de Telefonia mostrará a ID chamada para um número de telefone externo se o número estiver associado a um usuário no Azure AD. Se o número de telefone não estiver no Azure AD, o nome de exibição fornecido por telco será mostrado se ele estiver disponível.
+Sistema de Telefonia mostrará o número de telefone externo de entrada como a ID do chamador. Se o número estiver associado a um usuário ou contato no Azure AD ou a um contato pessoal, os clientes Skype for Business e Teams mostrarão a ID do chamador com base nessa informação. Se o número de telefone não estiver no Azure AD ou em um contato pessoal, o nome de exibição fornecido por telco será mostrado se ele estiver disponível.
 
-O atributo BlockIncomingCallerID permite o bloqueio da identificação de chamada nas chamadas PSTN de entrada. Você pode definir esse atributo, mas ele não está disponível para os usuários finais na página de configurações do usuário. E ele está disponível atualmente apenas com a conectividade PSTN Online.
+O atributo BlockIncomingCallerID permite o bloqueio da identificação de chamada nas chamadas PSTN de entrada. Você pode definir esse atributo, mas ele não está disponível para os usuários finais na página de configurações do usuário. Quando essa configuração estiver habilitada, o chamador PSTN de entrada será exibido como proveniente do Anonymous.
   
-Para definir a identificação de chamada de saída, consulte [Definir a identificação de chamadas para um usuário](./set-the-caller-id-for-a-user.md).
+Para bloquear a ID do chamador de entrada, consulte Definir a [ID do Chamador para um usuário](./set-the-caller-id-for-a-user.md).
   
 ## <a name="related-topics"></a>Tópicos relacionados
 [Perguntas comuns sobre a transferência de números de telefone](./phone-number-calling-plans/port-order-overview.md)

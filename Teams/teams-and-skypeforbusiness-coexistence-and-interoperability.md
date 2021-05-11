@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8afb7738d05fd61122ac2188d049419ef41054ea
-ms.sourcegitcommit: 32e3bb588abcbeded2d885483384c06706b280eb
+ms.openlocfilehash: 809de40e8c97eefbd3fc1a938e53328c3be0020f
+ms.sourcegitcommit: 17ad87556fb8e0de3c498e53f98f951ae3fa526b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/08/2021
-ms.locfileid: "52282758"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52306025"
 ---
 # <a name="understand-microsoft-teams-and-skype-for-business-coexistence-and-interoperability"></a>Compreender Microsoft Teams e Skype for Business coexistência e interoperabilidade
 
@@ -54,7 +54,7 @@ As seções a seguir descrevem os modos de coexistência disponíveis quando voc
 Recomendamos que você revise os seguintes modos de coexistência para ajudar a determinar qual caminho é o certo para sua organização.
 
 > [!Important]
-> Apresentar nova tecnologia ou fazer alterações no seu ambiente Skype for Business existente e familiar, ao mesmo tempo em que fornece grandes novos benefícios para os negócios, pode ser prejudicial para os usuários. Leve tempo para avaliar a preparação do usuário e implementar um plano de comunicação e treinamento antes de implementar qualquer uma das alterações descritas neste artigo. Além disso, recomendamos que você pilote seu plano com um grupo selecionado de usuários antes de implementá-lo em toda a sua organização.
+> Os modos de coexistência continuarão a existir após a aposentadoria do Skype for Business Online em 31 de julho de 2021, mas serão relevantes apenas para organizações com implantações locais de Skype for Business Server. Pouco antes da aposentadoria, os usuários que estão na implantação local podem ser atribuídos a qualquer modo diferente do TeamsOnly. No entanto, após a Skype for Business online, os usuários que estão na nuvem só podem ser o TeamsOnly.
 
 ### <a name="islands-mode"></a>Modo ilhas
 
@@ -334,7 +334,7 @@ Teams e Skype for Business têm listas separadas de contatos. Isso significa que
 
 - Para qualquer usuário Skype for Business Online, na primeira vez que fizer logoff no Teams, os contatos do Skype for Business serão copiados para Teams.  Esse comportamento não está disponível para usuários com uma conta local no Skype for Business Server.  
 
-- Depois que um usuário for atualizado para o TeamsOnly (por meio da atribuição do TeamsUpgradePolicy ou por meio do Move-CsUser -MoveToTeams), na próxima vez que um usuário entrar no Teams, os contatos existentes no Skype for Business serão mesclados com contatos existentes já no Teams. Esse comportamento acontece se a conta de Skype for Business do usuário está em casa no local ou online. 
+- Depois que um usuário for atualizado para o TeamsOnly (por meio da atribuição do TeamsUpgradePolicy ou por meio do Move-CsUser -MoveToTeams), na próxima vez que um usuário entrar no Teams, os contatos existentes no Skype for Business serão mesclados com contatos existentes já no Teams. Esse comportamento acontece se o usuário foi movido para o TeamsOnly de local ou online. 
 
 Em ambos os casos, a transferência de contatos do Skype for Business para Teams é assíncrona, portanto, pode levar alguns minutos para que os contatos apareçam Teams. Os dois eventos acima são o que disparam a cópia.  
 

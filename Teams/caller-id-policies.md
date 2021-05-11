@@ -1,9 +1,9 @@
 ---
 title: Gerenciar políticas de identificação de chamadas no Microsoft Teams
-ms.author: mikeplum
-author: MikePlumleyMSFT
+ms.author: crowe
+author: CarolynRowe
 manager: serdars
-ms.reviewer: jastark
+ms.reviewer: roykuntz; jens
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -17,27 +17,28 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
-description: Saiba como usar e gerenciar políticas de ID do chamador no Microsoft Teams para alterar ou bloquear a ID do chamador dos usuários do Teams em sua organização.
-ms.openlocfilehash: cd15245523cdc3f5fb3625a2b4cfdae4deebb7d3
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Saiba como usar e gerenciar políticas de ID do chamador Microsoft Teams alterar ou bloquear a ID do chamador de Teams usuários em sua organização.
+ms.openlocfilehash: cd928af5213a1e6fa927662adaba0fefecb687d5
+ms.sourcegitcommit: 83f14c4c79559ef28357ff076938e52b369fc0c7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51102777"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52308370"
 ---
 # <a name="manage-caller-id-policies-in-microsoft-teams"></a>Gerenciar políticas de identificação de chamadas no Microsoft Teams
 
->[!INCLUDE [new-feature-teams-admin-center](includes/new-feature-teams-admin-center.md)]
+> [!NOTE]
+> Para definir a ID do chamador como um número de telefone da conta de recurso e definir o nome da parte de chamada, use os cmdlets do PowerShell New-CsCallingLineIdentity ou Set-CsCallingLineIdentity no módulo 2.3.1 do Teams PowerShell ou posterior. (Essas opções não estão disponíveis no Microsoft Teams de administração.) 
 
-Como administrador, você pode usar políticas de ID do chamador no Microsoft Teams para alterar ou bloquear a ID do chamador (também conhecida como ID de linha de chamada). Por padrão, o número de telefone dos usuários do Teams pode ser visto quando eles fazem uma chamada para um telefone PSTN e o número de telefone de chamadores PSTN pode ser visto quando eles chamam um usuário do Teams. Você pode usar políticas de ID do chamador para exibir um número de telefone alternativo para usuários do Teams em sua organização ou impedir que um número de entrada seja exibido.
+Por padrão, quando um Teams faz uma chamada para um telefone PSTN, o número de telefone do Teams usuário fica visível. Da mesma forma, quando um chamador PSTN faz uma chamada para um usuário Teams, o número de telefone do chamador PSTN fica visível.
 
-Por exemplo, quando os usuários fazem uma chamada, você pode alterar a ID do chamador para exibir o número de telefone principal da sua organização em vez dos números de telefone dos usuários.
+Como administrador, você pode usar políticas de ID do chamador para alterar ou bloquear a ID do chamador (também conhecida como ID de linha de chamada). Você pode usar políticas de ID do chamador para exibir um número de telefone alternativo para usuários Teams sua organização, bloquear o número de telefone de saída, impedir que um número de entrada seja exibido ou definir o Nome da Parte de Chamada (CNAM). Por exemplo, quando um usuário faz uma chamada, você pode alterar a ID do chamador para exibir o número de telefone principal e o nome da empresa da sua organização, em vez do número de telefone do usuário.
 
-Você gerencia políticas de ID do chamador indo para **políticas** de ID do Chamador de Voz  >   no centro de administração do Microsoft Teams. Você pode usar a política global (padrão para toda a organização) ou criar e atribuir políticas personalizadas. Os usuários em sua organização obterão automaticamente a política global, a menos que você crie e atribua uma política personalizada.
+Você gerencia políticas de ID do chamador indo para **políticas** de ID do Chamador de Voz no centro de administração  >   Microsoft Teams de voz. Você pode usar a política global (padrão para toda a organização) ou criar e atribuir políticas personalizadas. Os usuários em sua organização obterão automaticamente a política global, a menos que você crie e atribua uma política personalizada.
 
 ## <a name="create-a-custom-caller-id-policy"></a>Criar uma política de ID do chamador personalizado
 
-1. Na navegação à esquerda do Centro de administração do Microsoft Teams, acesse **Políticas** de  >  **ID do Chamador de Voz.**
+1. Na navegação à esquerda do centro de administração Microsoft Teams, vá para **Políticas** de  >  **ID do Chamador de Voz.**
 2. Clique em **Adicionar**. <br>
 ![Captura de tela da nova página de política de ID do chamador no centro de administração](media/caller-id-policies-add-policy.png)
 3. Insira um nome e uma descrição para a política.
@@ -59,7 +60,7 @@ Você gerencia políticas de ID do chamador indo para **políticas** de ID do Ch
 
 Você pode editar a política global ou quaisquer políticas personalizadas que você criar. 
 
-1. Na navegação à esquerda do Centro de administração do Microsoft Teams, acesse **Políticas** de  >  **ID do Chamador de Voz.**
+1. Na navegação à esquerda do centro de administração Microsoft Teams, vá para **Políticas** de  >  **ID do Chamador de Voz.**
 2. Selecione a política clicando à esquerda do nome da política e, a seguir, clique em **Editar**.
 3. Altere as configurações que você deseja e clique em **Salvar**.
 
@@ -70,5 +71,7 @@ Você pode editar a política global ou quaisquer políticas personalizadas que 
 ## <a name="related-topics"></a>Tópicos relacionados
 
 [New-CsCallingLineIdentity](/powershell/module/skype/new-cscallinglineidentity?view=skype-ps)
+
+[Set-CsCallingLineIdentity](/powershell/module/skype/set-cscallinglineidentity?view=skype-ps)
 
 [Atribua políticas a seus usuários no Teams](assign-policies.md)

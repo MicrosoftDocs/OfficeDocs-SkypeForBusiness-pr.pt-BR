@@ -3,6 +3,91 @@
 
 
 
+## <a name="week-of-may-03-2021"></a>Semana de 03 de maio de 2021
+
+
+| Publicado em |Título do tópico | Alteração |
+|------|------------|--------|
+| 5/3/2021 | [Telefone gerenciamento de números para a República Tcheca](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-czech-republic) | adicionado |
+| 5/3/2021 | [Telefone gerenciamento de números para a Finlândia](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-finland) | adicionado |
+| 5/3/2021 | [Telefone gerenciamento de números para a Hungria](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-hungary) | adicionado |
+| 5/3/2021 | [Telefone gerenciamento de números para Luxemburgo](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-luxembourg) | adicionado |
+| 5/3/2021 | [Telefone gerenciamento de números para a Nova Zelândia](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-new-zealand) | adicionado |
+| 5/3/2021 | [Telefone gerenciamento de números para a Noruega](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-norway) | adicionado |
+| 5/3/2021 | [Telefone gerenciamento de números para a Polônia](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-poland) | adicionado |
+| 5/3/2021 | [Telefone gerenciamento de números para a Romênia](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-romania) | adicionado |
+| 5/3/2021 | [Telefone gerenciamento de números para Cingapura](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-singapore) | adicionado |
+| 5/3/2021 | [Telefone gerenciamento de números para a Eslováquia](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-slovakia) | adicionado |
+| 5/3/2021 | [Disponibilidade na República Tcheca](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-czech-republic) | modificado |
+| 5/3/2021 | [Experiência de convidado no Microsoft Teams](/MicrosoftTeams/guest-experience) | modificado |
+| 5/3/2021 | [Gerenciar números de telefone para sua organização](/MicrosoftTeams/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization) | modificado |
+| 5/3/2021 | [Requisitos das Salas do Microsoft Teams](/MicrosoftTeams/rooms/requirements) | modificado |
+| 5/3/2021 | [Microsoft Teams Notas de versão do PowerShell](/MicrosoftTeams/teams-powershell-release-notes) | modificado |
+| 5/4/2021 | [Usar Teams modelos no centro de administração](/MicrosoftTeams/get-started-with-teams-templates-in-the-admin-console) | modificado |
+| 5/4/2021 | [Dados e relatórios no Painel de Qualidade de Chamada (CQD)](/MicrosoftTeams/cqd-data-and-reports) | modificado |
+| 5/4/2021 | [Disponibilidade do aplicativo Aprovações no Teams](/MicrosoftTeams/approval-admin) | modificado |
+| 5/4/2021 | [Armazenamento de aplicativos personalizados](/MicrosoftTeams/customize-your-app-store) | modificado |
+| 5/4/2021 | [Cartazes de soluções de voz e arquitetura de TI do Microsoft Teams](/MicrosoftTeams/teams-architecture-solutions-posters) | modificado |
+| 5/5/2021 | [Teams para Infraestrutura de Área de Trabalho Virtualizada](/MicrosoftTeams/teams-for-vdi) | modificado |
+| 5/5/2021 | [Considerações sobre o modo Teams Only (Apenas Teams)](/MicrosoftTeams/teams-only-mode-considerations) | modificado |
+| 5/5/2021 | [Considerações da PSTN ao atualizar para Teams de Skype for Business](/MicrosoftTeams/upgrade-to-teams-on-prem-pstn-considerations) | modificado |
+| 5/5/2021 | [Gerenciar equipes no centro de administração do Microsoft Teams](/MicrosoftTeams/manage-teams-in-modern-portal) | modificado |
+| 5/5/2021 | [Experiência de chat nativa para usuários externos (federados) no Microsoft Teams](/MicrosoftTeams/native-chat-for-external-users) | modificado |
+| 5/5/2021 | [Use o planejador de rede para Microsoft Teams](/MicrosoftTeams/network-planner) | modificado |
+| 5/5/2021 | [Planejar o gerenciamento do ciclo de vida](/MicrosoftTeams/plan-teams-lifecycle) | modificado |
+| 5/5/2021 | [Gerenciar Salas do Microsoft Teams](/MicrosoftTeams/rooms/rooms-manage) | modificado |
+| 5/5/2021 | [Gerenciar Teams com Microsoft Teams PowerShell](/MicrosoftTeams/teams-powershell-managing-teams) | modificado |
+| 5/5/2021 | [Configurar o Painel de Qualidade de Chamada (CQD)](/MicrosoftTeams/turning-on-and-using-call-quality-dashboard) | modificado |
+| 5/5/2021 | [Operações do Microsoft Teams\| Serviço de gerenciamento \| Qualidade](/MicrosoftTeams/upgrade-operate-my-service) | modificado |
+| 5/5/2021 | [Use o Assistente do Teams para ajudá-lo na implantação do Microsoft Teams](/MicrosoftTeams/use-advisor-teams-roll-out) | modificado |
+| 5/5/2021 | [Usar as funções de administrador do Microsoft Teams para gerenciar o Teams](/MicrosoftTeams/using-admin-roles) | modificado |
+| 5/5/2021 | [O que são Créditos de Comunicação?](/MicrosoftTeams/what-are-communications-credits) | modificado |
+| 5/6/2021 | [Dimensões e medidas - Painel de Qualidade de Chamada (CQD)](/MicrosoftTeams/dimensions-and-measures-available-in-call-quality-dashboard) | modificado |
+| 5/6/2021 | [Usar Teams modelos no centro de administração](/MicrosoftTeams/get-started-with-teams-templates-in-the-admin-console) | modificado |
+| 5/6/2021 | [Usar arquivos de log para solucionar problemas no Microsoft Teams](/MicrosoftTeams/log-files) | modificado |
+| 5/6/2021 | [Planejar o bypass de mídia com Roteamento Direto](/MicrosoftTeams/direct-routing-plan-media-bypass) | modificado |
+| 5/6/2021 | Criar um 'aplicativo Portal da Intranet' do Teams a partir de um site ou página do SharePoint Online | removido |
+| 5/7/2021 | [Configurar para webinars em Microsoft Teams](/MicrosoftTeams/set-up-webinars) | adicionado |
+| 5/7/2021 | [Configurar um atendimento automático para o número de telefone principal da sua empresa](/MicrosoftTeams/business-voice/set-up-auto-attendant) | modificado |
+| 5/7/2021 | [Perguntas frequentes sobre a atualização do Skype for Business para o Teams](/MicrosoftTeams/faq-journey) | modificado |
+| 5/7/2021 | [Perguntas comuns sobre a Audioconferência](/MicrosoftTeams/audio-conferencing-common-questions) | modificado |
+| 5/7/2021 | [Migrar números de telefone para o Business Voice](/MicrosoftTeams/business-voice/port-phone-numbers) | modificado |
+| 5/7/2021 | [Atribuir números de telefone do Business Voice aos seus usuários](/MicrosoftTeams/business-voice/set-up-assign-numbers) | modificado |
+| 5/7/2021 | [Configurar Microsoft 365 Business Voice locais de emergência](/MicrosoftTeams/business-voice/set-up-emergency-locations) | modificado |
+| 5/7/2021 | [Atribuir Microsoft 365 Business Voice licenças](/MicrosoftTeams/business-voice/set-up-licenses) | modificado |
+| 5/7/2021 | [Configurar Microsoft 365 Business Voice números de telefone](/MicrosoftTeams/business-voice/set-up-phone-numbers) | modificado |
+| 5/7/2021 | [Configurar uma conta Microsoft 365 Business Voice de recursos](/MicrosoftTeams/business-voice/set-up-resource-account) | modificado |
+| 5/7/2021 | [Como usar o Microsoft Teams efetivamente](/MicrosoftTeams/continue-journey) | modificado |
+| 5/7/2021 | [Criar e gerenciar planos de discagem](/MicrosoftTeams/create-and-manage-dial-plans) | modificado |
+| 5/7/2021 | [Telefones e dispositivos para Microsoft Teams](/MicrosoftTeams/devices/usb-devices) | modificado |
+| 5/7/2021 | [Gerenciar políticas de reunião](/MicrosoftTeams/meeting-policies-in-teams) | modificado |
+| 5/7/2021 | [Conduzir um piloto de usuário para avaliar e testar como o Microsoft Teams funcionará em sua organização](/MicrosoftTeams/pilot-essentials) | modificado |
+| 5/7/2021 | [Definir suas configurações de coexistência e atualização](/MicrosoftTeams/setting-your-coexistence-and-upgrade-settings) | modificado |
+| 5/7/2021 | [Desativação do Skype for Business Online](/MicrosoftTeams/skype-for-business-online-retirement) | modificado |
+| 5/7/2021 | [Compreender Microsoft Teams e Skype for Business coexistência e interoperabilidade](/MicrosoftTeams/teams-and-skypeforbusiness-coexistence-and-interoperability) | modificado |
+| 5/7/2021 | [Escolha sua jornada de atualização de Skype for Business para Microsoft Teams](/MicrosoftTeams/upgrade-and-coexistence-of-skypeforbusiness-and-teams) | modificado |
+| 5/7/2021 | [Definir o escopo do projeto para sua Skype for Business para Microsoft Teams atualização](/MicrosoftTeams/upgrade-define-project-scope) | modificado |
+| 5/7/2021 | [Mobilizar os stakeholders \| Planejamento da atualização do Skype for Business para o Teams](/MicrosoftTeams/upgrade-enlist-stakeholders) | modificado |
+| 5/7/2021 | [Sobre a estrutura de atualização - Skype for Business para Teams](/MicrosoftTeams/upgrade-framework) | modificado |
+| 5/7/2021 | [Avaliar a preparação de alterações organizacionais para Skype for Business para Teams atualização](/MicrosoftTeams/upgrade-org-change-readiness) | modificado |
+| 5/7/2021 | [Avalie seu ambiente antes de atualizar para Teams](/MicrosoftTeams/upgrade-plan-journey-evaluate-environment) | modificado |
+| 5/7/2021 | [Pré-requisitos e dependências ambientais para atualização para Teams](/MicrosoftTeams/upgrade-plan-journey-prerequisites) | modificado |
+| 5/7/2021 | [Planejar sua Skype for Business para Microsoft Teams atualização](/MicrosoftTeams/upgrade-plan-journey) | modificado |
+| 5/7/2021 | [Preparar sua equipe de IT para Microsoft Teams](/MicrosoftTeams/upgrade-prepare-it-pros) | modificado |
+| 5/7/2021 | [Preparar seu serviço para uma atualização para Microsoft Teams](/MicrosoftTeams/upgrade-prepare-environment-prepare-service) | modificado |
+| 5/7/2021 | [Preparar seu ambiente para atualização para Teams](/MicrosoftTeams/upgrade-prepare-environment) | modificado |
+| 5/7/2021 | [Preparar sua organização para uma atualização do Skype for Business para Teams](/MicrosoftTeams/upgrade-prepare-organization) | modificado |
+| 5/7/2021 | [Começar a atualizar Skype for Business para Teams](/MicrosoftTeams/upgrade-start-here) | modificado |
+| 5/7/2021 | [Atualizar Skype for Business local para Microsoft Teams](/MicrosoftTeams/upgrade-to-teams-execute-skypeforbusinesshybridonprem) | modificado |
+| 5/7/2021 | [Atualizar do Skype for Business Online para o Microsoft Teams](/MicrosoftTeams/upgrade-to-teams-execute-skypeforbusinessonline) | modificado |
+| 5/7/2021 | [Estratégias de atualização para administradores de IT](/MicrosoftTeams/upgrade-to-teams-on-prem-implement) | modificado |
+| 5/7/2021 | [Ferramentas para atualizar para Teams de uma implantação Skype for Business local](/MicrosoftTeams/upgrade-to-teams-on-prem-tools) | modificado |
+| 5/7/2021 | [Visão geral da implementação da atualização para Microsoft Teams](/MicrosoftTeams/upgrade-to-teams) | modificado |
+| 5/7/2021 | [Considerações da PSTN ao atualizar para Teams de Skype for Business](/MicrosoftTeams/upgrade-to-teams-on-prem-pstn-considerations) | modificado |
+| 5/7/2021 | [Preparar um plano de preparação do usuário para atualização de Skype for Business para Teams](/MicrosoftTeams/upgrade-user-readiness) | modificado |
+| 5/7/2021 | [Usar as funções de administrador do Microsoft Teams para gerenciar o Teams](/MicrosoftTeams/using-admin-roles) | modificado |
+
+
 ## <a name="week-of-april-26-2021"></a>Semana de 26 de abril de 2021
 
 
@@ -203,54 +288,3 @@
 | 4/9/2021 | [Experiência de reunião somente para visualização](/MicrosoftTeams/view-only-meeting-experience) | modificado |
 | 4/9/2021 | [Dispositivos para o Microsoft Teams](/MicrosoftTeams/devices/teams-ip-phones) | modificado |
 | 4/9/2021 | [Requisitos das Salas do Microsoft Teams](/MicrosoftTeams/rooms/requirements) | modificado |
-
-
-## <a name="week-of-march-29-2021"></a>Semana de 29 de março de 2021
-
-
-| Publicado em |Título do tópico | Alteração |
-|------|------------|--------|
-| 3/29/2021 | [Provisionamento remoto e entrada para dispositivos Teams Android](/MicrosoftTeams/devices/remote-provision-remote-login) | adicionado |
-| 3/29/2021 | [Implantar Salas do Microsoft Teams usando Microsoft Endpoint Configuration Manager](/MicrosoftTeams/rooms/rooms-scale) | modificado |
-| 3/29/2021 | [Usar o suplemento de Reunião do Microsoft Teams no Outlook](/MicrosoftTeams/teams-add-in-for-outlook) | modificado |
-| 3/29/2021 | Autorizar o acesso para convidado no Microsoft Teams | removido |
-| 3/29/2021 | [Gerenciar políticas de retenção para Microsoft Teams](/MicrosoftTeams/retention-policies) | modificado |
-| 3/30/2021 | [Configurar um assistente automático para Microsoft Teams - tutorial de pequenas empresas](/MicrosoftTeams/business-voice/create-a-phone-system-auto-attendant-smb) | modificado |
-| 3/30/2021 | [Criar uma fila de chamada no Microsoft Teams - tutorial de pequenas empresas](/MicrosoftTeams/business-voice/create-a-phone-system-call-queue-smb) | modificado |
-| 3/30/2021 | [Criar uma fila de chamadas no Microsoft Teams](/MicrosoftTeams/create-a-phone-system-call-queue) | modificado |
-| 3/30/2021 | [Introdução à Teams gravação baseada em política para & reuniões](/MicrosoftTeams/teams-recording-policy) | modificado |
-| 3/30/2021 | [Personalizar aplicativos microsoft em Teams](/MicrosoftTeams/customize-apps) | adicionado |
-| 3/30/2021 | [Configure o Microsoft Teams na sua empresa](/MicrosoftTeams/deploy-enterprise-setup) | modificado |
-| 3/30/2021 | [Gerenciar seus aplicativos no Microsoft Teams de administração](/MicrosoftTeams/manage-apps) | modificado |
-| 3/30/2021 | [Personalizar aplicativos microsoft em Teams](/MicrosoftTeams/customize-apps) | modificado |
-| 3/30/2021 | [Salas do Microsoft Teams](/MicrosoftTeams/rooms/index) | modificado |
-| 3/31/2021 | [Configurar um assistente automático para Microsoft Teams - tutorial de pequenas empresas](/MicrosoftTeams/business-voice/create-a-phone-system-auto-attendant-smb) | modificado |
-| 3/31/2021 | [Criar uma fila de chamada no Microsoft Teams - tutorial de pequenas empresas](/MicrosoftTeams/business-voice/create-a-phone-system-call-queue-smb) | modificado |
-| 3/31/2021 | [Relatório de uso de dispositivos do Microsoft Teams](/MicrosoftTeams/teams-analytics-and-reports/device-usage-report) | modificado |
-| 3/31/2021 | [Análise e relatórios do Microsoft Teams](/MicrosoftTeams/teams-analytics-and-reports/teams-reporting-reference) | modificado |
-| 3/31/2021 | [Relatório de atividades do usuário do Microsoft Teams](/MicrosoftTeams/teams-analytics-and-reports/user-activity-report) | modificado |
-| 3/31/2021 | [Notas de versão para Microsoft Teams](/MicrosoftTeams/release-notes/release-notes) | modificado |
-| 3/31/2021 | [Requisitos das Salas do Microsoft Teams](/MicrosoftTeams/rooms/requirements) | modificado |
-| 4/1/2021 | [Instalar Power BI Conector para usar modelos de consulta CQD](/MicrosoftTeams/cqd-power-bi-connector) | modificado |
-| 4/1/2021 | [Notas de versão para Microsoft Teams](/MicrosoftTeams/release-notes/release-notes) | modificado |
-| 4/1/2021 | [Usar chats supervisionados](/MicrosoftTeams/supervise-chats-edu) | modificado |
-| 4/1/2021 | [Usar o OneDrive for Business e o SharePoint para gravações de reunião](/MicrosoftTeams/tmr-meeting-recording-change) | modificado |
-| 4/2/2021 | [Configurar um assistente automático para Microsoft Teams - tutorial de pequenas empresas](/MicrosoftTeams/business-voice/create-a-phone-system-auto-attendant-smb) | modificado |
-| 4/2/2021 | [Criar uma fila de chamada no Microsoft Teams - tutorial de pequenas empresas](/MicrosoftTeams/business-voice/create-a-phone-system-call-queue-smb) | modificado |
-| 4/2/2021 | [Criar um modelo de equipe personalizado Microsoft Teams](/MicrosoftTeams/create-a-team-template) | modificado |
-| 4/2/2021 | [Dispositivos para o Microsoft Teams](/MicrosoftTeams/devices/teams-ip-phones) | modificado |
-| 4/2/2021 | [Gerenciar as configurações da sua organização](/MicrosoftTeams/enable-features-office-365) | modificado |
-| 4/2/2021 | [Gerenciar políticas de mensagens no Teams](/MicrosoftTeams/messaging-policies-in-teams) | modificado |
-| 4/2/2021 | [O que são os eventos ao vivo do Microsoft Teams ?](/MicrosoftTeams/teams-live-events/what-are-teams-live-events) | modificado |
-| 4/2/2021 | [Microsoft Teams Notas de versão do PowerShell](/MicrosoftTeams/teams-powershell-release-notes) | modificado |
-| 4/2/2021 | [Atribuir políticas a usuários e grupos](/MicrosoftTeams/assign-policies-users-and-groups) | adicionado |
-| 4/2/2021 | [Atribuir pacotes de política a usuários e grupos](/MicrosoftTeams/assign-policy-packages) | adicionado |
-| 4/2/2021 | [Atribuir políticas em Teams](/MicrosoftTeams/policy-assignment-overview) | adicionado |
-| 4/2/2021 | [Personalizar aplicativos microsoft em Teams](/MicrosoftTeams/customize-apps) | modificado |
-| 4/2/2021 | [Gerenciar seus aplicativos no Microsoft Teams de administração](/MicrosoftTeams/manage-apps) | modificado |
-| 4/2/2021 | [Gerenciamento de números de telefone para a Bélgica](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-belgium) | modificado |
-| 4/2/2021 | [Gerenciar pacotes de política em Microsoft Teams](/MicrosoftTeams/manage-policy-packages) | modificado |
-| 4/2/2021 | [Gerenciar Teams com políticas](/MicrosoftTeams/manage-teams-with-policies) | modificado |
-| 4/2/2021 | [Use o CQD para gerenciar a qualidade de chamada e reunião no Microsoft Teams](/MicrosoftTeams/quality-of-experience-review-guide) | modificado |
-| 4/2/2021 | [Notas de versão para Microsoft Teams](/MicrosoftTeams/release-notes/release-notes) | modificado |
-| 4/2/2021 | [Teams Contact Center](/MicrosoftTeams/teams-contact-center) | modificado |
