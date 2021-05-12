@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2f9df0bf1c4acaf8ec32db07ce4af961c491ba0d
-ms.sourcegitcommit: 8750f98d59e74e3835d762d510fb0e038c8f17eb
+ms.openlocfilehash: 76137c0ebfe73c6ba500a0dbcdc8ee1a01de85fc
+ms.sourcegitcommit: 242561bfc12504614633539ca696b91dfc890b92
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "51899112"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "52328553"
 ---
 # <a name="teams-view-only-meeting-experience"></a>Experiência de reunião somente para visualização de Teams
 
@@ -31,18 +31,18 @@ ms.locfileid: "51899112"
 > [!Note]
 > Se a sua reunião ou webinar atingir a capacidade máxima, o Teams será perfeitamente escalado para acomodar uma experiência de transmissão somente visualização para 10.000 pessoas. Além disso, durante este período de maior trabalho remoto, aproveite as transmissões ainda maiores para 20.000 pessoas até o final deste ano.
 
-O Microsoft Teams permite que até 10.000 participantes participem de uma reunião do Teams. Depois que a capacidade da reunião principal for atingida (que é quando 300 usuários ingressam em uma reunião), os participantes adicionais ingressarão com uma experiência somente para exibição.
+O Microsoft Teams permite que até 10.000 participantes participem de uma reunião do Teams. Depois que a capacidade da reunião principal for atingida (que é quando 1.000 usuários entram em uma reunião), os participantes adicionais ingressarão com uma experiência somente de exibição.
 
-Os participantes que ingressarem na reunião primeiro, até a capacidade da reunião principal, terão a experiência de reunião completa do Teams. Eles podem compartilhar áudio e vídeo, ver vídeos compartilhados e participar do bate-papo da reunião.
+Os participantes que ingressarem na reunião primeiro, até a capacidade da reunião principal, terão a experiência de Teams reunião completa. Eles podem compartilhar áudio e vídeo, ver vídeos compartilhados e participar do bate-papo da reunião.
 
 Os participantes que ingressarem depois que a capacidade da reunião principal for atingida terão uma experiência somente para visualização.
 
-Os participantes poderão ingressar na experiência somente para exibição por meio da área de trabalho, da Web e do Teams mobile (Android e iOS).
+Os participantes poderão ingressar na experiência somente para exibição por meio de desktop, web e Teams mobile (Android e iOS).
 
 > [!Note]
-> A capacidade de limite atual da "reunião principal", ou seja, o número de usuários totalmente interativos é 300.
+> A capacidade de limite atual da "reunião principal", ou seja, o número de usuários totalmente interativos é 1000 e inclui GCC.
 
-## <a name="teams-view-only-experience-controls"></a>Controles de experiência somente para exibição do Teams
+## <a name="teams-view-only-experience-controls"></a>Teams de experiência somente exibição
 
 Você habilita a experiência somente para exibição usando o PowerShell.
 
@@ -56,7 +56,7 @@ Para desabilitar a experiência somente para exibição, você também pode usar
 Set-CsTeamsMeetingPolicy -Identity Global -StreamingAttendeeMode Disabled
 ```
 
-No futuro, você poderá habilitar ou desabilitar a experiência somente para exibição no centro de administração do Teams.
+No futuro, você poderá habilitar ou desabilitar a experiência somente exibição no Teams de administração.
 
 ## <a name="impact-to-users"></a>Impacto nos usuários
 
@@ -64,7 +64,7 @@ A experiência de um usuário varia de acordo com vários fatores.
 
 Quando a capacidade da reunião principal for atingida, um participante não poderá participar da reunião se alguma das seguintes condições for verdadeira:
 
-- Um administrador desabilitou a experiência somente de exibição do Teams para o organizador ou para todo o locatário.
+- Um administrador desabilitou a Teams somente exibição para o organizador ou para todo o locatário.
 - O participante somente para exibição não pode ignorar o lobby. Por exemplo, se um organizador de uma  reunião optar por fazer com que apenas pessoas da minha organização ignorem o lobby e um participante que está fora da organização tentar ingressar como um participante somente para exibição, eles não poderão participar.
 
 Quando a capacidade da reunião principal for atingida, o organizador da reunião e os apresentadores verão uma faixa informando que os novos participantes ingressarão como participantes somente para exibição.
@@ -102,14 +102,14 @@ O participante somente visualização não poderá experimentar as seguintes op�
 
 - Participe da reunião se o participante não tiver permissão para ignorar o lobby com base nas políticas ou opções de lobby definidas.
 - Entre na sala somente para visualização usando a conferência de áudio.
-- Participe da sala somente exibição usando o sistema salas do Microsoft Teams ou usando serviços CVI (Cloud Video Interop).
+- Participe da sala somente exibição usando o Salas do Microsoft Teams ou usando serviços CVI (Cloud Video Interop).
 - Compartilhe seu áudio ou vídeo.
 - Veja ou participe do chat da reunião.
 - Veja o feed de vídeo dos participantes da reunião, a menos que o participante seja o palestrante ativo.
-- Consulte Arquivos do PowerPoint compartilhados usando a funcionalidade do PowerPoint Live ou compartilhamentos de aplicativos individuais (diferente do compartilhamento de área de trabalho ou tela).
+- Consulte PowerPoint arquivos compartilhados usando a funcionalidade PowerPoint Live ou compartilhamentos individuais de aplicativos (diferente do compartilhamento de área de trabalho ou tela).
 - Levante a mão na reunião.
 - Enviar ou ver reações.
-- Interaja com qualquer aplicativo 3P integrando-se à Reunião do Teams, incluindo As Votações.
+- Interaja com qualquer aplicativo 3P que se integre à reunião Teams, incluindo votações.
 
 ## <a name="view-only-feature-limitations"></a>Limitações do recurso somente visualização
 
