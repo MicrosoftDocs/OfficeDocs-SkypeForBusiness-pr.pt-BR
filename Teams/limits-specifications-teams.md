@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 60ee9246df70f3f91bd5624ec9fece879b622896
-ms.sourcegitcommit: cfef9dd41cac0df83bd02b35036d8f8f1b472feb
+ms.openlocfilehash: 5fbf2efa3ad1d77300138a57336b4254ea788e84
+ms.sourcegitcommit: 242561bfc12504614633539ca696b91dfc890b92
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51697626"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "52328503"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Limites e especificações para o Microsoft Teams
 
@@ -131,7 +131,7 @@ Os nomes de canal também não podem começar com um caractere de sublinhado (_)
 
 |Recurso     | Limite máximo |
 |------------|---------------|
-|Número de pessoas em uma reunião (podem conversar e telefonar)  | 300. **Somente exibição** permite que até 10.000 participantes somente ouvintes participem de uma reunião na qual o organizador tenha uma licença para E3/E5/A3/A5 SKU, como também governamental (GCC, GCC High, DoD). Saiba mais sobre a [experiência somente exibição](view-only-meeting-experience.md).|
+|Número de pessoas em uma reunião (podem conversar e telefonar)  | 1000, inclui GCC, mas ainda não para GCCH ou DoD. **Somente exibição** permite que até 20.000 participantes, somente ouvintes, participem de uma reunião na qual o organizador tenha uma licença para E3/E5/A3/A5 SKU, bem como, Governo (GCC, GCC High, DoD). Saiba mais sobre a [experiência somente exibição](view-only-meeting-experience.md).|
 |O número de pessoas em uma chamada de áudio ou vídeo do chat | 20 |
 |Tamanho máximo do arquivo do PowerPoint | 2GB|
 |As equipes mantêm [gravações de reunião](cloud-recording.md) que não são carregadas no Microsoft Stream, disponíveis para download local | 20 dias |
@@ -139,7 +139,7 @@ Os nomes de canal também não podem começar com um caractere de sublinhado (_)
 ### <a name="meeting-expiration"></a>Expiração de reunião
 
 > [!NOTE]
-> Um URL de reunião nunca para de funcionar. A expiração está relacionada apenas a quaisquer números de acesso telefônico PSTN e/ou políticas e configurações de reunião subjacentes.
+> Um URL de reunião nunca para de funcionar. A expiração está relacionada apenas a qualquer número de discagem PSTN e/ou políticas e configurações de reunião subjacentes.
 
 |Tipo de reunião  |A reunião expira após esse período  |Sempre que você iniciar ou atualizar uma reunião, a expiração será ampliada por esse período de tempo  |
 |---------|---------|---------|
