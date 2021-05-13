@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 200e3c34c5c7136a441f492d0228c6af6f551a94
-ms.sourcegitcommit: fdef9b52247097e5cae64f01b6b2b710c5b203cf
+ms.openlocfilehash: 8c54a38a547708b78f652096cdad577088283c5b
+ms.sourcegitcommit: 50ec59b454e751d952cde9fd13c8017529d0e1d6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/20/2021
-ms.locfileid: "49909145"
+ms.lasthandoff: 05/13/2021
+ms.locfileid: "52469643"
 ---
 # <a name="required-mobile-diagnostic-data-for-microsoft-teams"></a>Dados de diagnóstico móvel necessários para o Microsoft Teams
 
@@ -57,7 +57,7 @@ O artigo a seguir contém uma lista de eventos do Microsoft Teams para dispositi
   - A guia **Atividade** é exibida.
   - O Teams captura um evento na guia **Atividade**.
 - **activityTypeDropdown** - captura o uso do filtro de atividades para alternar entre **Minha atividade** e **Feeds**.
-- **addChannel** - adicionando um canal. Esse item fornece dados de sucesso em torno da criação bem-sucedida de um canal.
+- **addChannel** - adicionar um canal. Esse item fornece dados de sucesso em torno da criação bem-sucedida de um canal.
 - **AddMember** - acionado quando o botão **Convidar pessoas** é selecionado no menu **Mais**.
 - **addMembers** - adiciona membros a uma equipe ou canal privado.
 - **addToCalendar** - marca o botão **Adicionar ao calendário** para eventos de calendário ausentes no calendário particular.
@@ -121,7 +121,7 @@ O artigo a seguir contém uma lista de eventos do Microsoft Teams para dispositi
 - **BYOELiveEventJoin** - evento ao vivo BYOE (transmita seu próprio evento) é ingressado por um usuário.
 - **calendarLiveChatClicked** - conversa da reunião ao vivo na guia **Agendar**.
 - **calendarMeetingJoin** - **botão Ingressar reunião** selecionado em um calendário.
-- **calendarTab** - selecionar a guia **Reuniões** no canto inferior. Útil para compreender o uso do calendário e comparar com outros aplicativos no canto inferior, ou determinar se ocorreu uma falha ao processar a postagem de calendário depois de selecioná-la na barra inferior.
+- **calendarTab** - Selecione a guia **Reuniões** no trilho inferior. Útil para compreender o uso do calendário e comparar com outros aplicativos no trilho inferior, ou determinar se ocorreu uma falha ao processar a postagem de calendário depois de selecioná-la na barra inferior.
 - **calendarTabClicked** - nas circunstâncias listadas abaixo, isso mostrará o uso do calendário e permitirá que você compare com outros aplicativos de navegação na barra inferior. Pode ser usado para determinar se ocorreu uma falha quando:
   - A guia **Agendar** é exibida.
   - A guia **Reuniões** é selecionada no canto inferior.
@@ -222,7 +222,7 @@ O artigo a seguir contém uma lista de eventos do Microsoft Teams para dispositi
   - Desativar o vídeo.
   - Botão do vídeo selecionado durante uma reunião ao vivo ou uma chamada.
 - **callPark** - acionado quando:
-  - **Estacionar chamada** é selecionado no **...** menu.
+  - **Estacionar Chamada** é selecionado no menu **...**.
   - O botão **Recuperar** está selecionado.
   - **Atender** está selecionado na caixa de diálogo recuperar.
   - **Cancelar** está selecionado na caixa de diálogo recuperar.
@@ -359,6 +359,7 @@ O artigo a seguir contém uma lista de eventos do Microsoft Teams para dispositi
 - **composeParticipantAdded** - quando um participante é adicionado ao aplicativo Turnos.
 - **composeSearchResult** - seleção de resultado da extensão da mensagem, o que é útil para entender a relevância dos resultados da pesquisa do aplicativo. Também melhora a telemetria de envio de mensagens com dados de aplicativos.
 - **composeSelectExtension** - toque em um aplicativo ME.
+- **composeSendSmartReply** - um item de resposta inteligente é clicado.
 - **composeSendMessage** - melhora a telemetria de envio de mensagens com dados de aplicativos.
 - **confirmAudioOn** - um usuário confirma que eles querem o áudio ativado.
 - **confirmFileShare** - **Compartilhar** está selecionado na caixa de diálogo de confirmação.
@@ -399,7 +400,7 @@ O artigo a seguir contém uma lista de eventos do Microsoft Teams para dispositi
 - **createPlannerTask** - verifica uma chamada para o serviço Planner. Confirma que uma tarefa foi criada com êxito em uma lista de tarefas compartilhadas.
 - **createShiftClicked** - quando um gerente seleciona **Criar um turno**.
 - **createShiftOrTimeOffClicked** acionado se você selecionar **Criar um turno** ou **Folga**.
-- **createTask** - usado para quando a ação de criação falhar, verificar o serviço Planner. Confirma falha na operação da criação de uma tarefa.
+- **createTask** - usado para quando a ação de criação falha, e para verificar a chamada para o serviço do Planner. Confirma se uma operação para criar tarefa falhou.
 - **createTaskList** - quando um usuário acessa o modo de exibição criar plano da exibição da página inicial.
 - **createTeam** - fornece dados de sucesso em relação à criação bem-sucedida ou ignorada da criação de uma nova equipe, quando:
   - O botão **Concluído** é selecionado na página **Criar equipe**.
@@ -489,6 +490,7 @@ O artigo a seguir contém uma lista de eventos do Microsoft Teams para dispositi
 - **editNavigation** - **Reordenar** é selecionada no menu **Mais** para editar a ordem dos aplicativos na barra inferior.
 - **editRsvpMeetingOptions** - selecionar **RSVP** para alterar da seleção anterior.
 - **editShiftClicked** - edite um turno.
+- **editSmartReply** - um item de resposta inteligente é editado.
 - **editTeam** - um usuário toca em um botão para editar uma equipe que possui ou administra.
 - **editTeam, editChannel** - relacionados ao sucesso na adição de membros de uma equipe e à criação bem-sucedida de uma equipe existente quando:
   - O botão **Cancelar** é selecionado na página **Adicionar membros** (equipe ou canal existente).
@@ -522,7 +524,7 @@ O artigo a seguir contém uma lista de eventos do Microsoft Teams para dispositi
 - **expand/collapse** - seção dos contatos do dispositivo ou contatos da empresa.
 - **expandCollapseSection** - toque em um cabeçalho da seção para expandir ou recolher uma seção.
 - **Expected: atMention - Android: chatSendMessage - iOS: sendMsg** - @menciona um bot em uma caixa de texto.
-- **Expected: botClickCardAction - Android: showCard - iOS: missing** - toca nos botões dos cartões. Os cartões são construções essenciais da plataforma, e a medição do uso e do padrão são necessários para compreender o uso da plataforma e ficar de olho nos possíveis problemas no lado do cliente.
+- **Expected: botClickCardAction - Android: showCard - iOS: missing** - tocar nos botões de cartão. Os cartões são construções essenciais da plataforma, e a medição do uso e do padrão são necessários para compreender o uso da plataforma e ficar de olho nos possíveis problemas no lado do cliente.
 - **Expected: chatSendMessage - iOS: composeSendMessage** - tocar em **Responder** e responder a um bot do chat em um canal.
 - **Expected: composeSendMessage - Android: replyChannel - iOS: missing** - tocar em **Responder** e responder a um bot do chat em um canal.
 - **Expected: messageLike - Android: reactLike_CM** - curtir uma mensagem do bot.
@@ -560,13 +562,13 @@ O artigo a seguir contém uma lista de eventos do Microsoft Teams para dispositi
 - **galleryImage** - imagem carregada - galeria.
 - **get_directions_clicked** - o botão **Obter instruções** é selecionado.
 - **goToNotificationSettings** - acesse a página de configurações de notificação na caixa de diálogo **atualizamos as configurações de notificação**.
-- **GPSPromptClicked** - a opção **Permitir** ou **Não permitir** é selecionada em uma solicitação do sistema operacional. permitindo ou não o GPS.
+- **GPSPromptClicked** - a opção **Permitir** ou **Não Permitir** é selecionada em uma solicitação do sistema operacional. Permintido GPS ou não.
 - **group_map_closed** - um usuário abre a exibição do mapa do chat.
 - **group_map_open** - o usuário fecha o modo de exibição do mapa.
 - **groupCallJoin** - um usuário une-se a uma chamada de grupo.
 - **groupClicked** - controla quando um usuário seleciona o grupo de turno.
 - **guideMe** - os usuários selecionam uma faixa que os informa sobre aplicativo 3P que bloqueia notificações e oferece diretrizes para a solução de problemas.
-- **hamburgerMenu** - navegue para o menu hamburger. O menu hamburger contém ações importantes, como opções de conta, configurações de notificação, configuração de dados e perfil.
+- **hamburgerMenu** - navegar no menu hamburger. O menu hamburger contém ações importantes, como opções de conta, configurações de notificação, configuração de dados e configurações de perfil.
 - **handoffComplete** - uma reunião ou chamada foi entregue nesse dispositivo.
 - **handoffJoin** uma opção de entrega de reunião é selecionada na folha de ações.
 - **hardwareAudioOff** - desative o áudio por meio dos botões de hardware.
@@ -635,7 +637,7 @@ O artigo a seguir contém uma lista de eventos do Microsoft Teams para dispositi
 - **location_family_sync** - exibir membros de um grupo de Família que foram criados no aplicativo família MSA. Confirma que todos os membros da família que podem receber consentimento estão sendo exibidos.
 - **location_group_map_sync** - o modo de exibição de mapa é exibido.
 - **location_map_load** - carregar modo de exibição do mapa.
-- **location_map_markers_load** - carregar modo de exibição do mapa. Confirma que os marcadores de localização para todos os usuários que compartilham ativamente estão exibidos corretamente no modo de exibição de mapa.
+- **location_map_markers_load** - carregamento do modo de exibição de mapa. Confirma que os marcadores de localização para todos os usuários que compartilham ativamente são exibidos corretamente no modo de exibição de mapa.
 - **location_message_send** - um usuário inicia uma sessão de compartilhamento de local.
 - **location_data_use_privacy_denied** - o usuário ignora ou seleciona **Agora não** em um pop-up explicando o uso dos dados do local por TFL.
 - **location_data_use_privacy_granted** - o usuário ignora ou seleciona **Permitir** em um pop-up explicando o uso dos dados do local por TFL.
@@ -645,6 +647,7 @@ O artigo a seguir contém uma lista de eventos do Microsoft Teams para dispositi
 - **loginFailed** - o usuário não conseguiu fazer login.
 - **loginSuccess** - o usuário conseguiu fazer login.
 - **manageBlockedNumbers** - acessar números bloqueados nas Configurações.
+- **manualSendMessage** - uma mensagem é enviada manualmente.
 - **mapAppPicker** - quando um usuário seleciona o aplicativo de mapeamento a ser usado quando eles tocam em um cartão de local.
 - **markAsRead** - marcar como lida.
 - **markAsUnread** - marcar como não lida.
@@ -712,7 +715,7 @@ O artigo a seguir contém uma lista de eventos do Microsoft Teams para dispositi
 - **muteParticipant** - ativar o mudo para o participante (mover para a folha de ação).
 - **my_location_button_clicked** - o usuário centraliza o mapa em sua localização selecionando o botão **Meu local**.
 - **my_location_clicked** - o usuário centraliza o mapa em sua localização selecionando o **ponto azul** no mapa.
-- **myShiftPickerClicked** - registrado somente se a solicitação sendo enviada é uma troca ou oferta. O seletor **Meu turno** é selecionado.
+- **myShiftPickerClicked** - somente registro de log se a solicitação enviada for uma troca ou oferta. O seletor **Meu Turno** é selecionado.
 - **nameGroupChat** - nome do chat em grupo.
 - **nativeTimeClockBreak** - uma interrupção no relógio de ponto.
 - **nativeChatLink** - um link para o chat nativo é selecionado.
@@ -1011,6 +1014,7 @@ O artigo a seguir contém uma lista de eventos do Microsoft Teams para dispositi
   - O destino de encaminhamento de chamada simultânea está definido.
   - O encaminhamento de chamadas simultâneas está habilitado (Telefonar-me está habilitado e o toque é definido).
 - **skipVerificationForLink** - o usuário optou por ignorar a verificação.
+- **smartReply** - botão de alternância para resposta inteligente é clicado.
 - **SMSSendMessage** - o usuário envia uma mensagem SMS.
 - **sortChanged** - acionado quando o usuário altera a ordem de classificação enquanto exibe uma lista de tarefas.
 - **startEditing** - **o botão Editar** é selecionado.
@@ -1044,9 +1048,9 @@ O artigo a seguir contém uma lista de eventos do Microsoft Teams para dispositi
 - **switchTeamsDialogTriggered** - um usuário exibe a guia **Turnos**.
 - **tabActionCopyLink** - como os usuários detectam e usam a aba copiar link em dispositivos móveis.
 - **tabActionMoreOptions** - entende reticências (**...**) de dentro de uma guia.
-- **tabActionOpenInBrowser** - abrir ao uso do navegador. Isso é necessário para compreender se os usuários preferem abrir uma guia fora do Teams.
-- **tabActionOpenInBrowserFromTab** - entender o uso do navegador de dentro de uma guia para obter mais opções – capacidade de detecção e uso.
-- **tabActionOpenInTeams** - abrir em uso. Isso é essencial para entender se a guia pode ser definida por padrão para ser aberta no Teams.
+- **tabActionOpenInBrowser** - abrir no navegador usado. Isso é necessário para compreender se os usuários preferem abrir uma guia fora do Teams.
+- **tabActionOpenInBrowserFromTab** - entender o uso do navegador em uma guia para obter mais opções: capacidade de detecção e uso.
+- **tabActionOpenInTeams** - abrir no uso. Isso é essencial para entender se a guia pode ser definida por padrão para ser aberta no Teams.
 - **tabActionRemove** - entenda o quão detectável é a opção excluir e o uso do recurso.
 - **tabActionRename** - entenda o quão detectável é a opção renomear e o uso do recurso.
 - **tabActionSetting, Android - fix** - como os usuários descobrem e usam a guia configuração em dispositivos móveis.
@@ -1065,15 +1069,15 @@ O artigo a seguir contém uma lista de eventos do Microsoft Teams para dispositi
 - **tasksAppLaunchDashboardSeeAll** - o aplicativo Tarefas é aberto a partir do botão do painel **Ver todas**, verificar a inicialização do aplicativo pelo serviço MT.
 - **tasksAppLaunchDefault** - o aplicativo Tarefas é aberto a partir da gaveta inferior, verificar a inicialização do aplicativo pelo serviço MT.
 - **tabCalendarClicked** - um usuário escolheu uma equipe no seletor de equipe.
-- **teamChannelChanged** - acionado quando um usuário seleciona e navega para um plano da lista de planos. Enviados somente para appInsights, não para Aria.
+- **teamChannelChanged** - acionado quando um usuário seleciona e navega para um plano da lista de planos. Somente enviado para appInsights, não para Aria.
 - **teamCreate** - um usuário seleciona a opção para criar uma nova equipe.
 - **teamEdit** - um usuário edita algum aspecto de uma equipe que possui ou administra.
 - **teamNav** - opções do menu Exibir para uma equipe.
 - **teamsDeviceCallResumed** - um usuário com um periférico conectado Bluetooth (encaixe no celular) reativa uma chamada a partir da espera.
 - **teamSelectedClicked** - quando um usuário seleciona **Equipe selecionada** para um quadro de horários.
 - **teamShiftPickerClicked** - quando um usuário adiciona uma nova entrada de intervalo. O evento é registrado depois que o usuário salva as alterações.
-- **tenantSwitch** - em Trocar locatário. Inclui métricas de sucesso para o recurso MTMA (vários locatários e várias contas), isso ajuda a identificar e corrigir problemas de forma proativa e oferecer uma experiência de mudança suave.
-- **tenantSwitchUnsupportedError** - erro de locatário incompatível (quando um usuário vê o erro). Inclui métricas de sucesso para o recurso MTMA (vários locatários e várias contas), oferece telemetria para os erros de conta ou troca de locatário, para que possamos identificar e corrigir problemas de forma proativa e oferecer uma experiência de mudança suave.
+- **tenantSwitch** - em Alternar Locatário. Inclui métricas de sucesso para o recurso MTMA (vários locatários e várias contas), isso ajuda a identificar e corrigir problemas de forma proativa e oferecer uma experiência de mudança suave.
+- **tenantSwitchUnsupportedError** - Erro sem suporte de locatário (quando um usuário vê o erro). Inclui métricas de sucesso para o recurso MTMA (vários locatários e várias contas), oferece telemetria para os erros de conta ou troca de locatário, para que possamos identificar e corrigir problemas de forma proativa e oferecer uma experiência de mudança suave.
 - **timeClockClicked** - um usuário seleciona o botão **Relógio de ponto** na guia Meus turnos.
 - **timeOffReasonClicked** - determinar se um motivo para a folga está citado.
 - **timesheetAddClicked** - quando um usuário adiciona uma anotação às suas edições de intervalo. O evento é registrado depois que o usuário salva as alterações.
@@ -1109,8 +1113,7 @@ O artigo a seguir contém uma lista de eventos do Microsoft Teams para dispositi
 - **updatePersonalTask** - confirma que uma tarefa pessoal foi atualizada com êxito.
 - **updatePlaybackSpeedVoicemail** - o valor de velocidade de reprodução da caixa postal é alterado.
 - **updateTask** - confirma falha na ação da atualização de tarefas.
-- **updateTaskState** - confirma que o estado da tarefa foi atualizado.
-ação.
+- **updateTaskState** - confirma que o estado da tarefa foi atualizado. Ação.
 - **upgrade** - selecionar o botão **Atualizar** no menu **Mais**.
 - **uploadFile** - um usuário seleciona **Carregar do dispositivo**.
 - **uploadSelectedFile** - acionado sob essas circunstâncias:
@@ -1186,6 +1189,9 @@ ação.
 - **load_smart_task_list** - confirma a busca bem-sucedida de tarefas de uma lista de tarefas inteligente na exibição da lista de tarefa.
 - **rename_personal_plan** - confirma a renomeação bem-sucedida de uma lista pessoal de tarefas.
 - **rename_planner_plan** - confirma a renomeação bem-sucedida de uma lista de tarefas compartilhada.
+- **smart_reply_enabled** - confirma que a resposta inteligente está habilitada para o usuário atual.
+- **smart_reply_received** - confirma que uma sugestão de resposta inteligente foi recebida.
+- **smart_reply_banned** - confirma que a resposta inteligente não pode ser exibida para o usuário atual.
 - **update_planner_task_and_nav_to_view** - confirma a atualização bem-sucedida de um item de tarefa compartilhada e quanto tempo demora para um usuário chegar à exibição resultante após a ação.
 - **update_personal_task_and_nav_to_view** - confirma a atualização bem-sucedida de um item de tarefa pessoal e quanto tempo demora para um usuário chegar à exibição resultante após - **updatePlannerTask** - confirma que um usuário atualizou com sucesso uma tarefa em uma lista de tarefa compartilhadas.
 

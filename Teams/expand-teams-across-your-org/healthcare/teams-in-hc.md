@@ -28,7 +28,7 @@ ms.custom:
 - seo-marvel-jun2020
 ms.openlocfilehash: f6048d2413ea92e377358af43c7348abbbe00be1
 ms.sourcegitcommit: ca2230a981a1e3c03437d1ecb8727d66ad6967f9
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 04/14/2021
 ms.locfileid: "51760594"
@@ -76,7 +76,7 @@ Use a plataforma completa de reuniões no Microsoft Teams para agendar, gerencia
 
 ## <a name="teams-policy-packages"></a>Pacotes de políticas do Teams
 
-Aplicar os pacotes de políticas do Teams para definir o que diferentes funções podem fazer no Teams. Por exemplo, especifique as políticas para:
+Aplique pacotes de política do Teams para definir o que diferentes funções podem fazer no Teams. Por exemplo, especifique políticas para:
 
 - Funcionários da saúde, como enfermeiros registrados, enfermeiros chefe, médicos e assistentes sociais, para que eles tenham acesso total ao chat, chamadas, gerenciamento de turnos e reuniões.
 - Os operadores de informações na sua organização de saúde, como equipe de TI, de informática, equipe financeira e responsáveis pela conformidade podem ter acesso total ao chat, chamadas e reuniões.
@@ -110,9 +110,9 @@ Reúna sua equipe de saúde para coordenar o cuidado o colaborar com o Microsoft
 O Microsoft Teams permite que os médicos, clínicos, enfermeiros e outros funcionários colaborem de forma eficiente com recursos de colaboração incluídos no Microsoft Teams, como:
 
 - Configurar equipes e canais para suas equipes de saúde e operadores de informações. Utilizar os canais com guias como uma forma de estruturar o trabalho, com ajuda adicional de guias em que eles podem fixar fontes de informações.
-- Conversar, postar mensagens e se comunicar. Sua equipe pode ter conversas persistentes sobre pacientes diferentes que precisam de atenção.
-- Chamar e se reunir com membros da equipe de saúde. Organizar reuniões individuais ou usar reuniões de canal para gerenciar reuniões diárias, com o poder dos recursos de áudio, vídeo, compartilhamento de tela, gravação e transcrição do Teams.
-- Armazenar e compartilhar arquivos e documentos. Sua equipe de saúde faz parte de uma única equipe virtualizada que trabalha e colabora em documentos do Office.
+- Converse, poste mensagens e se comunique. Sua equipe pode ter conversas persistentes sobre diferentes pacientes que precisam de atenção.
+- Ligue e reúna-se com membros da equipe de saúde. Configure reuniões individuais ou use reuniões de canal para gerenciar reuniões diárias com os recursos de áudio, vídeo, compartilhamento de tela, gravação e transcrição do Teams.
+- Armazene e compartilhe arquivos e documentos. Sua equipe de saúde faz parte de uma única equipe virtualizada que trabalha e colabora com documentos do Office.
 
 Além disso, sua equipe pode usar aplicativos no Teams para:
 
@@ -128,9 +128,9 @@ Além disso, sua equipe pode usar aplicativos no Teams para:
 
 O aplicativo Listas no Microsoft Teams ajuda os usuários da sua organização a controlar informações, organizar o trabalho e gerenciar fluxos de trabalho. O aplicativo é pré-instalado para todos os usuários do Teams e está disponível como uma guia em cada equipe e canal. As listas podem ser criadas do zero, de modelos predefinidos ou importando dados do Excel.
 
-As equipes de saúde podem usar o modelo Patients para começar. Elas podem criar listas para acompanhar as necessidades e o status dos pacientes. Os dados existentes de pacientes em planilhas do Excel podem ser trazidos para criar uma lista no Teams. Essas listas podem ser usadas para cenários como rondas e monitoramento de pacientes para coordenar o cuidado.
+As equipes de saúde podem usar o modelo Pacientes para começar. Elas podem criar listas para acompanhar as necessidades e o status dos pacientes. Os dados existentes de pacientes em planilhas do Excel podem ser trazidos para criar uma lista no Teams. Essas listas podem ser usadas para cenários como rondas e monitoramento de pacientes para coordenar o cuidado.
 
-Por exemplo, um enfermeiro chefe cria uma lista de pacientes em uma equipe que inclui todos os membros da equipe de saúde. Durante as rondas, a equipe de saúde acessa o Teams em seus dispositivos móveis e atualiza as informações do paciente na lista, o que todos na equipe podem visualizar para se manterem em sincronia. Nas sessões de ronda em que a equipe de saúde se reúne para discutir e avaliar as principais métricas de desempenho de saúde para garantir que um paciente esteja na direção certa para receber alta, ela pode compartilhar estas informações usando o Teams em uma tela de exibição grande. os membros de equipe de saúde que não estão no local podem ingressar remotamente.
+Por exemplo, uma técnica em enfermagem cria uma lista de pacientes em uma equipe que inclui todos os membros da equipe de saúde. Nas rondas, a equipe de saúde acessa o Teams nos seus dispositivos móveis e atualiza as informações dos pacientes na lista, e todos na equipe podem visualizar para ficar em sincronia. Nas sessões de ronda em que a equipe de saúde se reúne para discutir e avaliar as principais métricas de desempenho de saúde para garantir que um paciente receba alta, essas informações podem ser compartilhadas usando o Teams em uma tela de exibição grande. Os membros da equipe de saúde que não estejam no site podem ingressar remotamente.
 
 Esta é uma lista de exemplo que foi organizada para rondas de pacientes.
 
@@ -140,7 +140,7 @@ Para saber mais, confira [Gerenciar o aplicativo Listas para sua organização n
 
 ### <a name="track-and-monitor-tasks-with-the-tasks-app"></a>Acompanhar e monitorar tarefas com o aplicativo Tarefas
 
-Utilize o [Tarefas](https://support.microsoft.com/office/use-the-tasks-app-in-teams-e32639f3-2e07-4b62-9a8c-fd706c12c070) no Teams para acompanhar os itens pendentes para toda a sua equipe de saúde. Sua equipe de saúde pode criar, atribuir e agendar tarefas, categorizá-las e atualizar o status a qualquer momento, de qualquer dispositivo executando o Teams. Os profissionais e administradores de IT também podem publicar tarefas em equipes específicas para sua organização. Por exemplo, você pode publicar um conjunto de tarefas para novos protocolos de segurança ou uma nova etapa de entrada a ser usada em um hospital.
+Utilize o [Tarefas](https://support.microsoft.com/office/use-the-tasks-app-in-teams-e32639f3-2e07-4b62-9a8c-fd706c12c070) no Teams para acompanhar os itens pendentes para toda a sua equipe de saúde. Sua equipe de saúde pode criar, atribuir e agendar tarefas, categorizá-las e atualizar o status a qualquer momento, de qualquer dispositivo executando o Teams. Os profissionais e administradores de TI também podem publicar tarefas para equipes específicas da sua organização. Por exemplo, você pode publicar um conjunto de tarefas para novos protocolos de segurança ou uma nova etapa da saúde para ser usada em um hospital.
 
 Para saber mais, confira [Gerenciar o aplicativo Tasks para sua organização no Microsoft Teams](../../manage-tasks-app.md)
 

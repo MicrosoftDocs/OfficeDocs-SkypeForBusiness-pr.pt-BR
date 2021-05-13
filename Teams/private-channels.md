@@ -18,12 +18,12 @@ appliesto:
 localization_priority: Priority
 search.appverid: MET150
 description: Aprenda a usar e gerenciar canais privados no Microsoft Teams.
-ms.openlocfilehash: 77ebc7abc73163bfdc9804d22efa12ade510d925
-ms.sourcegitcommit: 234c928b9ac127716e3d5a92ee2bcdda1a415a38
+ms.openlocfilehash: 543060371a42c3b0c514828779be14676fda8a25
+ms.sourcegitcommit: 50ec59b454e751d952cde9fd13c8017529d0e1d6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2021
-ms.locfileid: "51959478"
+ms.lasthandoff: 05/13/2021
+ms.locfileid: "52469613"
 ---
 # <a name="private-channels-in-microsoft-teams"></a>Canais privados no Microsoft Teams
 
@@ -36,7 +36,7 @@ Por exemplo, um canal privado é útil nestes cenários:
 - Um grupo de pessoas em uma equipe deseja um espaço reservado para colaborar sem precisar criar uma equipe separada.
 - Um subconjunto de pessoas em uma equipe deseja um canal privado para discutir informações confidenciais, como orçamentos, recursos, posicionamento estratégico e assim por diante.
 
-Um ícone de cadeado indica um canal privado. Somente membros de canais privados podem ver e participar de canais privados aos quais foram adicionados.
+Um ícone de cadeado indica um canal particular. Apenas membros de canais particulares podem visualizar e participar de canais particulares aos quais são adicionados.
 
 Quando um canal privado é criado, ele é vinculado à equipe pai e não pode ser movido para uma equipe diferente. Além disso, os canais privados não podem ser convertidos em canais padrão e vice-versa.
 
@@ -74,14 +74,14 @@ A tabela a seguir descreve quais ações os proprietários, membros e convidados
 
 |Ação  |Proprietário de equipe|Membro da equipe|Convidado da equipe|Proprietário do canal privado|Membro do canal privado|Convidado do canal privado|
 |---------|---------|---------|---------|---------|---------|---------|
-|Criar um canal privado|Controlado pelo administrador|Controlado pelo administrador e proprietário da equipe|Não|N/D|N/D|Não disponível|
+|Criar um canal privado|Controlado pelo administrador|Controlado pelo administrador e proprietário da equipe|Não|Não disponível|Não disponível|Não disponível|
 |Excluir canal privado|Sim|Não|Não|Sim|Não|Não|
-|Sair do canal privado|Não disponível|N/D|N/D|Sim, a menos que eles sejam o último proprietário|Sim|Sim|
-|Editar canal privado|Não|N/D|N/D|Sim|Não|Não|
+|Sair do canal privado|Não disponível|Não disponível|N/D|Sim, a menos que eles sejam o último proprietário|Sim|Sim|
+|Editar canal privado|Não|Não disponível|Não disponível|Sim|Não|Não|
 |Restaurar canal privado excluído|Sim|Não|Não|Sim|Não|Não|
-|Adicionar membros|Não|N/D|N/D|Sim|Não|Não|
-|Editar configurações|Não|N/D|N/D|Sim|Não|Não|
-|Gerenciar guias e aplicativos|Não|N/D|N/D|Sim, os aplicativos devem ser instalados para a equipe|Controle de proprietário do canal|Não|
+|Adicionar membros|Não|Não disponível|Não disponível|Sim|Não|Não|
+|Editar configurações|Não|Não disponível|Não disponível|Sim|Não|Não|
+|Gerenciar guias e aplicativos|Não|Não disponível|N/D|Sim, os aplicativos devem ser instalados para a equipe|Controle de proprietário do canal|Não|
 
 ## <a name="manage-the-lifecycle-of-private-channels"></a>Gerenciar o ciclo de vida de canais privados
 
@@ -120,6 +120,8 @@ Cada equipe pode ter no máximo 30 canais privados e cada canal privado pode ter
 Quando você criar uma equipe a partir de uma equipe existente, os canais privados dela não serão copiados.
 
 No momento, as notificações dos canais privados não estão incluídas nos emails de atividades perdidas.
+
+As políticas de retenção não possuem suportade das mensagens em canais privados.
 
 ## <a name="related-topics"></a>Tópicos relacionados
 
