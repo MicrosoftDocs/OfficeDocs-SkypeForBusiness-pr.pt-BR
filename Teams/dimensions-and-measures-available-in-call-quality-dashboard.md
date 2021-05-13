@@ -22,12 +22,12 @@ ms.custom:
 - Reporting
 - seo-marvel-mar2020
 description: Obter informações detalhadas sobre as dimensões e medidas usadas pelo Painel de Qualidade de Chamada (CQD) para Microsoft Teams e Skype for Business Online.
-ms.openlocfilehash: 63a9bba74b1c072a9c61885db03fa85357e034e9
-ms.sourcegitcommit: 2c2176b9d32b8f7218e8d11e82c0ae01318bfdc5
+ms.openlocfilehash: 981c5811f00d2e9005bd1387a7b58d23431af848
+ms.sourcegitcommit: 50ec59b454e751d952cde9fd13c8017529d0e1d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52264941"
+ms.lasthandoff: 05/13/2021
+ms.locfileid: "52469733"
 ---
 # <a name="dimensions-and-measurements-available-in-call-quality-dashboard-cqd"></a>Dimensões e medidas disponíveis no Painel de Qualidade de Chamada (CQD)
 
@@ -416,12 +416,12 @@ As informações de dimensões são baseadas em parte nos dados carregados no po
 | Segundo ObjectId do Usuário|Cadeia de caracteres|A ID do objeto Active Directory do usuário do segundo ponto de extremidade. Disponível apenas para os últimos 28 dias de dados e visível apenas para usuários com funções que permitem o acesso EUII. | |
 | Primeiro endereço MAC|Cadeia de caracteres|O endereço MAC (controle de acesso à mídia) do dispositivo de rede do primeiro ponto de extremidade. Disponível apenas para os últimos 28 dias de dados e visível apenas para usuários com funções que permitem o acesso EUII.| |
 | Segundo endereço MAC|Cadeia de caracteres|O endereço MAC (controle de acesso de mídia) do dispositivo de rede do segundo ponto de extremidade. Disponível apenas para os últimos 28 dias de dados e visível apenas para usuários com funções que permitem o acesso EUII.| |
-| Primeiro Sip Uri|Cadeia de caracteres|O URI SIP (Protocolo de Iniciação de Sessão) do usuário do primeiro ponto de extremidade. Preenchido apenas para Skype for Business pontos de extremidade. Disponível apenas para os últimos 28 dias de dados e visível apenas para usuários com funções que permitem o acesso EUII.|
-| Uri de Segundo Sip|Cadeia de caracteres|O URI SIP do usuário do primeiro ponto de extremidade. Preenchido apenas para Skype for Business pontos de extremidade. Disponível apenas para os últimos 28 dias de dados e visível apenas para usuários com funções que permitem o acesso EUII.|
-| Primeiro Telefone Número|Cadeia de caracteres|O número de telefone do usuário do primeiro ponto de extremidade. Preenchido apenas para pontos de extremidade PSTN. Disponível apenas para os últimos 28 dias de dados e visível apenas para usuários com funções que permitem o acesso EUII.|
-| Segundo Telefone Número|Cadeia de caracteres|O número de telefone do usuário do segundo ponto de extremidade. Preenchido apenas para pontos de extremidade PSTN. Disponível apenas para os últimos 28 dias de dados e visível apenas para usuários com funções que permitem o acesso EUII.|
-| Primeiro UPN|Cadeia de caracteres|O nome principal do usuário (UPN) do usuário do primeiro ponto de extremidade. Disponível apenas para os últimos 28 dias de dados e visível apenas para usuários com funções que permitem o acesso EUII.|
-| Segundo UPN|Cadeia de caracteres|O nome principal do usuário (UPN) do usuário do segundo ponto de extremidade. Disponível apenas para os últimos 28 dias de dados e visível apenas para usuários com funções que permitem o acesso EUII.| <br/>&bull; Nem todos os UserTypes têm UPNs; incluem as dimensões Second UserType ou Second User ObjectId para saber mais sobre esses pontos de extremidade |
+| Primeiro Sip Uri|Cadeia de caracteres|O URI SIP (Protocolo de Iniciação de Sessão) do usuário do primeiro ponto de extremidade. Disponível apenas para os últimos 28 dias de dados e visível apenas para usuários com funções que permitem o acesso EUII.| &bull;Preenchido apenas para Skype for Business pontos de extremidade. <br/>&bull; O usuário não tem permissões para exibir EUII. |
+| Uri de Segundo Sip|Cadeia de caracteres|O URI SIP do usuário do primeiro ponto de extremidade. Disponível apenas para os últimos 28 dias de dados e visível apenas para usuários com funções que permitem o acesso EUII.| &bull;Preenchido apenas para Skype for Business pontos de extremidade.<br/>&bull; O usuário não tem permissões para exibir EUII. |
+| Primeiro Telefone Número|Cadeia de caracteres|O número de telefone do usuário do primeiro ponto de extremidade. Disponível apenas para os últimos 28 dias de dados e visível apenas para usuários com funções que permitem o acesso EUII. Os últimos quatro dígitos de números PSTN são sempre ofuscados no CQD independentemente dos privilégios de exibição euII.<br/> **Valor de exemplo:** +1425555****| &bull; Preenchido apenas para pontos de extremidade PSTN. <br/>&bull; O usuário não tem permissões para exibir EUII. |
+| Segundo Telefone Número|Cadeia de caracteres|O número de telefone do usuário do segundo ponto de extremidade. Disponível apenas para os últimos 28 dias de dados e visível apenas para usuários com funções que permitem o acesso EUII. Os últimos quatro dígitos de números PSTN são sempre ofuscados no CQD independentemente dos privilégios de exibição euII.<br/> **Valor de exemplo:** +1425555**** | &bull; Preenchido apenas para pontos de extremidade PSTN.<br/>&bull; O usuário não tem permissões para exibir EUII. |
+| Primeiro UPN|Cadeia de caracteres|O nome principal do usuário (UPN) do usuário do primeiro ponto de extremidade. Disponível apenas para os últimos 28 dias de dados e visível apenas para usuários com funções que permitem o acesso EUII.| &bull; Nem todos os UserTypes têm UPNs; incluem as dimensões Second UserType ou Second User ObjectId para saber mais sobre esses pontos de extremidade. |
+| Segundo UPN|Cadeia de caracteres|O nome principal do usuário (UPN) do usuário do segundo ponto de extremidade. Disponível apenas para os últimos 28 dias de dados e visível apenas para usuários com funções que permitem o acesso EUII.| &bull; Nem todos os UserTypes têm UPNs; incluem as dimensões Second UserType ou Second User ObjectId para saber mais sobre esses pontos de extremidade. |
 | Primeiro texto de comentários|Cadeia de caracteres|Texto de comentários verbatim, se for o caso, fornecido pelo usuário do primeiro ponto de extremidade no final de uma chamada. Disponível apenas para os últimos 28 dias de dados e visível apenas para usuários com funções que permitem o acesso EUII. | |
 | Segundo texto de comentários|Cadeia de caracteres| Texto de comentários verbatim, se for o caso, fornecido pelo usuário do segundo ponto de extremidade no final de uma chamada. Disponível apenas para os últimos 28 dias de dados e visível apenas para usuários com funções que permitem o acesso EUII.|
 | Primeiro nome do ponto de extremidade do cliente|Cadeia de caracteres|O nome do computador do primeiro ponto de extremidade. Disponível apenas para os últimos 28 dias de dados e visível apenas para usuários com funções que permitem o acesso EUII.|

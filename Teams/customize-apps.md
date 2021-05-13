@@ -1,5 +1,5 @@
 ---
-title: Personalizar aplicativos da Microsoft no Teams
+title: Personalizar aplicativos no Microsoft Teams
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -17,17 +17,17 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
-description: Saiba como personalizar aplicativos no Microsoft Teams.
-ms.openlocfilehash: 100a01c541c79ab62f10f3e11f086cdef5a11996
-ms.sourcegitcommit: 1ee9b1857f472a5b95352f7471c0cf21be6ea0c3
+description: Saiba como personalizar aplicativos em Microsoft Teams.
+ms.openlocfilehash: a43272c19c00079b5a0f0299a5630ca6e6ec78e5
+ms.sourcegitcommit: 40f76bc6b5e304faea8516a78f8576ba1cdb7f7c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "52059175"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "52337798"
 ---
 # <a name="customize-apps-in-microsoft-teams"></a>Personalizar aplicativos no Microsoft Teams
 
- O Microsoft Teams fornece personalização de aplicativos para aprimorar a experiência do Teams. Alguns desenvolvedores de aplicativos permitem que um aplicativo seja personalizado pelo administrador do Teams. O administrador pode personalizar ou renomear as propriedades do aplicativo com base nas necessidades organizacionais usando a página Gerenciar **aplicativos** do Centro de administração do Teams. Os detalhes que você pode personalizar são:
+ Microsoft Teams oferece personalização de aplicativo para aprimorar a experiência Teams aplicativo. Alguns desenvolvedores de aplicativos permitem que um aplicativo seja personalizado pelo Teams administrador. O administrador pode personalizar ou renomear as propriedades do aplicativo com base nas necessidades organizacionais usando a página Gerenciar aplicativos Teams **centro** de administração. Os detalhes que você pode personalizar são:
 
 - Nome curto
 - Descrição curta
@@ -39,17 +39,17 @@ ms.locfileid: "52059175"
 - Ícone de outline
 - Cor do destaque
 
-Consulte o [esquema de Manifesto do Teams](https://docs.microsoft.com/microsoftteams/platform/resources/schema/manifest-schema) para obter detalhes sobre os campos que você pode personalizar.
+Consulte o [Teams de manifesto para](https://docs.microsoft.com/microsoftteams/platform/resources/schema/manifest-schema) obter detalhes sobre os campos que você pode personalizar.
 
 > [!NOTE]
-> A personalização de aplicativos não é suportada no GCCH (Government Community Cloud High) ou no Departamento de Defesa (DoD) no momento.
+> Não há suporte para personalização de aplicativos Nuvem da Comunidade Governamental High (GCCH) ou Departamento de Defesa (DoD) neste momento.
 
 ## <a name="customize-the-apps-details"></a>Personalizar os detalhes do aplicativo
 
 Para começar a personalizar um aplicativo, conclua as seguintes etapas:
 
 1. Entre no Centro de administração do Teams.
-2. Expanda **Aplicativos do Teams** e selecione **Gerenciar aplicativos**.
+2. Expanda **Teams Aplicativos** e selecione **Gerenciar aplicativos**.
 3. Verifique a **coluna Personalizável** da lista de aplicativos e classificar por aplicativos personalizáveis.
 
    ![A coluna personalizar que está ordenada](media/customize-column.png)
@@ -84,7 +84,7 @@ Para começar a personalizar um aplicativo, conclua as seguintes etapas:
 
 5. Expanda **a seção Ícone.**
 
-   a. Carregar um ícone. Use um ícone de cor completa (192 x 192) pixel no formato PNG.
+   a. Upload um ícone. Use um ícone de cor completa (192 x 192) pixel no formato PNG.
 
    b. Escolha uma cor de contorno de ícone. Use um pixel de contorno transparente (32x32) no formato PNG.
 
@@ -98,9 +98,9 @@ Para começar a personalizar um aplicativo, conclua as seguintes etapas:
 
    O aplicativo personalizado agora está listado na página **Gerenciar aplicativos.** Você terá apenas uma versão do aplicativo, já que a personalização dos recursos do aplicativo não cria uma cópia do aplicativo.
 
-Agora, os usuários finais do Teams podem abrir o cliente do Teams para ver o aplicativo personalizado.
+Agora, Teams usuários finais podem abrir o cliente Teams para ver o aplicativo personalizado.
 
-   ![Aplicativo personalizado no cliente do Teams](media/contoso-app.png)
+   ![Aplicativo personalizado no Teams cliente](media/contoso-app.png)
 
 ### <a name="special-considerations-for-customizing-an-app"></a>Considerações especiais para personalizar um aplicativo
 
@@ -135,7 +135,7 @@ A qualquer momento, você pode redefinir os detalhes do aplicativo para as confi
 
 1. Entre no Centro de administração do Teams.
 
-2. Expanda **Aplicativos do Teams** e selecione **Gerenciar aplicativos**.
+2. Expanda **Teams Aplicativos** e selecione **Gerenciar aplicativos**.
 
 3. Selecione o nome do aplicativo.
 
@@ -147,11 +147,11 @@ A qualquer momento, você pode redefinir os detalhes do aplicativo para as confi
 
 **Quanto tempo levará para meus usuários verem o aplicativo personalizado?**
 
-Embora o administrador possa ver imediatamente as alterações no Centro de Administração do Teams, pode levar até 24 horas para os usuários finais verem as alterações.  
+Embora o administrador possa ver imediatamente as alterações no Teams Admin Center, pode levar até 24 horas para os usuários finais verem as alterações.  
 
 **O provedor de aplicativos pode personalizar o aplicativo para seus clientes?**
 
- Não, o administrador de um locatário precisa personalizar o aplicativo para seu locatário usando o Centro de Administração do Teams.
+ Não, o administrador de um locatário precisa personalizar o aplicativo para seu locatário usando o Teams Admin Center.
 
 **O aplicativo personalizado será implantado automaticamente para substituir meu aplicativo personalizado atual em um locatário?**
 

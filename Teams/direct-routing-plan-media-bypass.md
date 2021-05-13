@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: Saiba como planejar o bypass de mídia com Sistema de Telefonia Roteamento Direto, que permite reduzir o caminho do tráfego de mídia e melhorar o desempenho.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 9b6624a81994c1d6797ed996fbcc233fe75f8907
-ms.sourcegitcommit: 83f14c4c79559ef28357ff076938e52b369fc0c7
+ms.openlocfilehash: 4978c7ce2a69f23164a3869dd69368b3aaad2c4e
+ms.sourcegitcommit: 50ec59b454e751d952cde9fd13c8017529d0e1d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52308350"
+ms.lasthandoff: 05/13/2021
+ms.locfileid: "52469623"
 ---
 # <a name="plan-for-media-bypass-with-direct-routing"></a>Planejar o bypass de mídia com Roteamento Direto
 
@@ -296,7 +296,7 @@ O intervalo de portas do Teams Retransmissão de Transporte (aplicável a todos 
 | Tráfego | De | Até | Porta de origem | Porta de destino|
 | :-------- | :-------- |:-----------|:--------|:---------|
 UDP/SRTP | Retransmissão de transporte | SBC | 50 000 -59 999    | Definido no SBC |
-| UDP/SRTP | SBC | Retransmissão de transporte | Definido no SBC | 50 000 – 59 999, 3478, 3479     |
+| UDP/SRTP | SBC | Retransmissão de transporte | Definido no SBC | 50 000 – 59 999, 3478-3481     |
 
 
 > [!NOTE]
@@ -304,11 +304,11 @@ UDP/SRTP | Retransmissão de transporte | SBC | 50 000 -59 999    | Definido no 
 > 
 > - v4, que só pode funcionar com o intervalo de portas de 50 000 a 59 999
 > 
-> - v6, que funciona com as portas 3478, 3479
+> - v6, que funciona com as portas 3478-3481
 
 Neste momento, o bypass de mídia só dá suporte à versão v4 de Retransmissão de Transporte. Apresentaremos o suporte do v6 no futuro. 
 
-Você precisa abrir as portas 3478 e 3479 para transição. Quando a Microsoft apresentar suporte para retransmissão de transporte v6 com Bypass de Mídia, você não precisará reconfigurar seu equipamento de rede ou SBCs. 
+Você precisa abrir as portas 3478-3481 para transição. Quando a Microsoft apresentar suporte para retransmissão de transporte v6 com Bypass de Mídia, você não precisará reconfigurar seu equipamento de rede ou SBCs. 
 
 ### <a name="requirements-for-using-media-processors"></a>Requisitos para usar processadores de mídia
 
@@ -333,8 +333,8 @@ O intervalo de portas dos Processadores de Mídia (aplicável a todos os ambient
 
 | Tráfego | De | Até | Porta de origem | Porta de destino|
 | :-------- | :-------- |:-----------|:--------|:---------|
-UDP/SRTP | Processador de Mídia | SBC | 3478, 3479 e 49 152 – 53 247    | Definido no SBC |
-| UDP/SRTP | SBC | Processador de Mídia | Definido no SBC | 3478, 3479 e 49 152 – 53 247     |
+UDP/SRTP | Processador de Mídia | SBC | 3478-3481 e 49 152 – 53 247    | Definido no SBC |
+| UDP/SRTP | SBC | Processador de Mídia | Definido no SBC | 3478-3481 e 49 152 – 53 247     |
 
 ## <a name="configure-separate-trunks-for-media-bypass-and-non-media-bypass"></a>Configurar troncos separados para bypass de mídia e bypass sem mídia  
 
