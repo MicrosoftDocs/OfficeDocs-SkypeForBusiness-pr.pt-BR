@@ -1,10 +1,10 @@
 ### YamlMime:Hub
-title: Treinamento do Microsoft Teams com instrutor
-summary: 'A Microsoft está feliz por hospedar uma série de sessões de treinamento online, gratuitas e ao vivo desenvolvidas para você começar a trabalhar com o Teams. Seja você um profissional de decisões de negócios, administrador, profissional de TI ou usuário final, você vai encontrar a aula ideal. Junte-se a nós para ver o Teams em ação, tirar suas dúvidas e interagir com nossos instrutores ao vivo. Para ver nossas aulas de treinamento em seu próprio tempo, visite nosso treinamento sob demanda para usuário final. Clique em uma sessão abaixo para se inscrever.'
+title: Treinamento do usuário final para Microsoft Teams
+summary: 'A Microsoft está feliz por hospedar uma série de sessões de treinamento online, gratuitas e ao vivo desenvolvidas para você começar a trabalhar com o Teams. Seja você um profissional de decisões de negócios, administrador, profissional de TI ou usuário final, você vai encontrar a aula ideal. Participe conosco para ver Microsoft Teams em ação, obter suas perguntas respondidas e interagir com nossos instrutores ao vivo. Para exibir nossas aulas de treinamento em seu próprio horário, visite nosso treinamento de usuário final sob demanda. Clique em uma sessão abaixo para se inscrever.'
 brand: teams
 metadata:
-  title: Treinamento ministrado por instrutor para Microsoft Teams
-  description: Saiba mais sobre como se inscrever em cursos gratuitos de treinamento ministrados por instrutor para aprender tudo sobre o Microsoft Teams.
+  title: Treinamento do usuário final para Microsoft Teams
+  description: 'A Microsoft está animada para fornecer aulas de treinamento virtual gratuitas, ao vivo, projetadas para que você se Teams. Seja você um profissional de decisões de negócios, administrador, profissional de TI ou usuário final, você vai encontrar a aula ideal. Participe conosco para ver Microsoft Teams em ação, obter suas perguntas respondidas e interagir com nossos instrutores ao vivo. Clique em uma sessão abaixo para se inscrever e confira mais cursos abaixo.'
   ms.topic: hub-page
   author: SerdarSoysal
   ms.author: serdars
@@ -16,7 +16,7 @@ highlightedContent:
       url: 'https://aka.ms/SayhelloTeams'
     - title: Treinamento sob demanda do usuário final
       itemType: video
-      url: 'https://aka.ms/TeamsOnDemand'
+      url: 'https://support.microsoft.com/office/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7'
     - title: Ferramentas de adoção do Microsoft 365
       itemType: deploy
       url: 'https://adoption.microsoft.com'
@@ -42,7 +42,7 @@ productDirectory:
       imageSrc: 'https://docs.microsoft.com/office/media/icons/structure-teams.svg'
       summary: 'Explore maneiras de determinar a melhor abordagem para criar espaços de trabalho para projetos e grupos de trabalho. (Público: todos)'
       url: 'https://aka.ms/CollaborateInTeams'
-    - title: Aproveite dicas profissionais no Teams
+    - title: Usar dicas profissionais em Teams
       imageSrc: 'https://docs.microsoft.com/office/media/icons/lightbulb-idea-capture-teams.svg'
       summary: 'Aprenda como o Teams pode ajudar a organizar seu dia de trabalho e tornar mais fácil ficar conectado com os colegas. (Público: todos)'
       url: 'https://aka.ms/TeamsProTips'
@@ -58,3 +58,13 @@ productDirectory:
       imageSrc: 'https://docs.microsoft.com/office/media/icons/migration-teams.svg'
       summary: 'Planejar e implementar uma atualização bem-sucedida para Teams. (Público: profissionais de TI, gerentes de mudança de adoção)'
       url: ./upgrade-workshops-landing-page.yml
+additionalContent:
+  sections:
+    - title: Cursos
+      items:
+        - title: Certificação especialista em trabalho em equipe
+          summary: A colaboração é uma habilidade vital para a força de trabalho atual. Saiba como os recursos robustos dentro Microsoft Teams permitem que você permaneça conectado e trabalhe com mais eficiência com sua equipe
+          url: /learn/paths/teamwork-specialist
+        - title: Certificação especialista em adoção de serviços
+          summary: O curso de certificação especialista em adoção de serviços da Microsoft Teams. Saiba como impulsionar a adoção de serviços Microsoft em sua organização
+          url: /learn/paths/m365-service-adoption
