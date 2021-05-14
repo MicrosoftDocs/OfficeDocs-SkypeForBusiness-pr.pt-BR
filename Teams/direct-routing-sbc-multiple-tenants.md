@@ -17,28 +17,28 @@ f1.keywords:
 - NOCSH
 description: Saiba como configurar um Controlador de Borda de Sessão (SBC) para atender a vários locatários para parceiros da Microsoft e/ou operadoras PSTN.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 742b02709585e9a25b170bc99aab3d1939d63f10
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 8ff378d55f551cfb11bd6f185840407e20095035
+ms.sourcegitcommit: 272e8cf0075a566f055801433c9eb0313050530f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51096527"
+ms.lasthandoff: 05/14/2021
+ms.locfileid: "52486375"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>Configurar um controlador de borda da sessão para vários locatários
 
 O Roteamento Direto dá suporte à configuração de um Controlador de Borda de Sessão (SBC) para atender a vários locatários.
 
 > [!NOTE]
-> Este cenário foi projetado para parceiros da Microsoft e/ou operadoras PSTN, chamados de operadoras posteriormente neste documento. Uma operadora vende serviços de telefonia entregues ao Microsoft Teams para seus clientes. 
+> Este cenário foi projetado para parceiros da Microsoft e/ou operadoras PSTN, chamados de operadoras posteriormente neste documento. Uma operadora vende serviços de telefonia entregues Microsoft Teams para seus clientes. 
 
 Uma operadora:
-- Implanta e gerencia um SBC em seu datacenter (os clientes não precisam implementar um SBC e recebem serviços de telefonia da operadora no cliente do Teams).
+- Implanta e gerencia um SBC em seu datacenter (os clientes não precisam implementar um SBC e recebem serviços de telefonia da operadora no cliente Teams).
 - Interconecta o SBC a vários locatários.
 - Fornece serviços PSTN aos clientes.
 - Gerencia a qualidade da chamada de ponta a ponta.
 - Cobra separadamente pelos serviços PSTN.
 
-A Microsoft não gerencia operadoras. A Microsoft oferece um PBX (Microsoft Phone System) e um cliente teams. A Microsoft também certifica telefones e certifica os SBCs que podem ser usados com o Sistema de Telefonia da Microsoft. Antes de escolher uma operadora, certifique-se de que sua escolha tenha um SBC certificado e possa gerenciar a qualidade da voz de ponta a ponta.
+A Microsoft não gerencia operadoras. A Microsoft oferece um PBX (Telefone Microsoft System) e um Teams cliente. A Microsoft também certifica telefones e certifica os SBCs que podem ser usados com o Telefone Microsoft System. Antes de escolher uma operadora, certifique-se de que sua escolha tenha um SBC certificado e possa gerenciar a qualidade da voz de ponta a ponta.
 
 A seguir estão as etapas técnicas de implementação para configurar o cenário.
 
@@ -52,17 +52,17 @@ A seguir estão as etapas técnicas de implementação para configurar o cenári
 2. Ative o nome do subdomínio.
 3. Configure o tronco da operadora para o locatário do cliente e provisione usuários.
 
-*Certifique-se de entender as noções básicas de DNS e como o nome de domínio é gerenciado no Microsoft 365 ou no Office 365. Revise Obter ajuda com domínios do [Microsoft 365 ou Office 365](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef) antes de prosseguir.*
+*Certifique-se de entender as noções básicas de DNS e como o nome de domínio é gerenciado Microsoft 365 ou Office 365. Revise [Obter ajuda com Microsoft 365 ou Office 365 domínios antes](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef) de prosseguir.*
 
 ## <a name="deploy-and-configure-the-sbc"></a>Implantar e configurar o SBC
 
 Para as etapas detalhadas sobre como implantar e configurar SBCs para um cenário de hospedagem SBC, consulte a documentação do fornecedor SBC.
 
-- **AudioCodes:** [Notas](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-Microsoft-Teams)de Configuração de Roteamento Direto , a configuração do cenário de hospedagem SBC descrito em "Conectando AudioCodes SBC ao Microsoft Teams Direct Routing Routing Model Configuration Note". 
+- **AudioCodes:** Notas de Configuração de Roteamento Direto [,](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-Microsoft-Teams)a configuração do cenário de hospedagem SBC descrito em "Conectando AudioCodes SBC Microsoft Teams Observação de Configuração do Modelo de Hospedagem de Roteamento Direto". 
 - **Oracle:** [Observações de Configuração](https://www.oracle.com/technetwork/indexes/documentation/acme-packet-2228107.html)de Roteamento Direto , a configuração do cenário de hospedagem SBC é descrita na seção "Microsoft". 
-- **Comunicações da Faixa de Opções:**  Consulte o Guia de Configuração principal do [Microsoft Teams SBC](https://support.sonus.net/display/IOT/PBXs+-+SBC+5k7kSWe) de Comunicações da Faixa de Opções para a documentação sobre como configurar os SBCs da Série Ribbon Core e para esta página Ribbon [Best Practice - Configuring Carriers for Microsoft Teams Direct Routing SBC Edge](https://support.sonus.net/display/UXDOC81/Connect+SBC+Edge+to+Microsoft+Teams+Direct+Routing+to+Support+Direct+Routing+Carrier)
-- **TE-Systems (anynode):**  Registre-se na página [Comunidade te-Systems](https://community.te-systems.de/) para documentação e exemplos sobre como configurar o SBC anynode para vários locatários.
-- **Metawitch:**  Registre-se na [página Comunidade de Metaswitch](https://manuals.metaswitch.com/MAN39555) para saber como habilitar o Perimeta SBC para vários locatários.
+- **Comunicações da Faixa de Opções:**  Consulte o Guia de Configuração do Centro de Configuração do [S Microsoft Teams BC](https://support.sonus.net/display/IOT/PBXs+-+SBC+5k7kSWe) de Comunicações da Faixa de Opções para a documentação sobre como configurar os SBCs da série Ribbon Core e para esta página Ribbon [Best Practice - Configuring Carriers for Microsoft Teams Direct Routing SBC Edge](https://support.sonus.net/display/UXDOC81/Connect+SBC+Edge+to+Microsoft+Teams+Direct+Routing+to+Support+Direct+Routing+Carrier)
+- **TE-Systems (anynode):**  Registre-se na página de Community [TE-Systems](https://community.te-systems.de/) para documentação e exemplos sobre como configurar o SBC anynode para vários locatários.
+- **Metawitch:**  Registre-se na [página Community Metawitch](https://manuals.metaswitch.com/MAN39555) para documentação sobre como habilitar o Perimeta SBC para vários locatários.
 
 > [!NOTE]
 > Preste atenção em como configurar o header "Contact". O header de contato é usado para encontrar o locatário do cliente na mensagem de convite de entrada. 
@@ -75,13 +75,13 @@ Para o cenário de hospedagem, você precisa criar:
 
 No exemplo a seguir:
 - O Adatum é uma operadora que atende vários clientes fornecendo serviços de Internet e telefonia.
-- Woodgrove Bank, Contoso e Adventure Works são três clientes que têm domínios do Microsoft 365 ou office 365, mas recebem os serviços de telefonia do Adatum.
+- Woodgrove Bank, Contoso e Adventure Works são três clientes que têm Microsoft 365 ou Office 365 domínios, mas recebem os serviços de telefonia do Adatum.
 
-Os subdomas **DEVEM** corresponder ao nome FQDN do tronco que será configurado para o cliente e o FQDN no header Contato ao enviar o Convite para o Microsoft 365 ou o Office 365. 
+Os subdomas **DEVEM** corresponder ao nome FQDN do tronco que será configurado para o cliente e o FQDN no header Contato ao enviar o convite para Microsoft 365 ou Office 365. 
 
-Quando uma chamada chega à interface de Roteamento Direto do Microsoft 365 ou Office 365, a interface usa o header Contato para encontrar o locatário onde o usuário deve ser procurado. O Roteamento Direto não usa a procurar número de telefone no Convite, pois alguns clientes podem ter números não DID que podem se sobrepor a vários locatários. Portanto, o nome FQDN no header contato é necessário para identificar o locatário exato para procurar o usuário pelo número de telefone.
+Quando uma chamada chega à interface Microsoft 365 ou Office 365 Roteamento Direto, a interface usa o header Contato para encontrar o locatário onde o usuário deve ser procurado. O Roteamento Direto não usa a procurar número de telefone no Convite, pois alguns clientes podem ter números não DID que podem se sobrepor a vários locatários. Portanto, o nome FQDN no header contato é necessário para identificar o locatário exato para procurar o usuário pelo número de telefone.
 
-*Confira Obter ajuda com domínios do  [Office 365](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef) para obter mais informações sobre como criar nomes de domínio em organizações do Microsoft 365 ou Office 365.*
+*Confira Obter [ajuda com Office 365 domínios para](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef) obter mais informações sobre como criar nomes de domínio em Microsoft 365 ou Office 365 organizações.*
 
 O diagrama a seguir resume os requisitos para domínio base, subdomas e header de contato.
 
@@ -112,15 +112,15 @@ Para configurar a base e os subdomas, siga as etapas descritas abaixo. No exempl
 
 ### <a name="ensure-that-you-have-appropriate-rights-in-the-carrier-tenant"></a>Verifique se você tem direitos apropriados no locatário da operadora
 
-Você só poderá adicionar novos domínios se entrar no Centro de administração do Microsoft 365 como Administrador Global. 
+Você só poderá adicionar novos domínios se entrar no centro de administração Microsoft 365 como Administrador Global. 
 
-Para validar a função que você tem, entre no Centro de administração do Microsoft 365 ( , vá para Usuários Usuários ativos e verifique se você tem uma função de Administrador https://portal.office.com)   >  Global. 
+Para validar a função que você tem, entre no centro de administração do Microsoft 365 ( , acesse Usuários Usuários ativos e verifique se você tem uma função de Administrador https://portal.office.com)   >  Global. 
 
-Para obter mais informações sobre funções de administrador e como atribuir uma função no Microsoft 365 ou Office 365, consulte [Sobre funções de administrador](https://support.office.com/article/About-Office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d).
+Para obter mais informações sobre funções de administrador e como atribuir uma função em Microsoft 365 ou Office 365, consulte [Sobre funções de administrador](https://support.office.com/article/About-Office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d).
 
 ### <a name="add-a-base-domain-to-the-tenant-and-verify-it"></a>Adicionar um domínio base ao locatário e confirmá-lo
 
-1. No Centro de administração do Microsoft 365, acesse **Setup**  >  **Domains**  >  **Add domain**.
+1. No centro Microsoft 365 de administração, vá para **Setup**  >  **Domains**  >  **Add domain**.
 2. Na caixa **Inserir um domínio que você possui,** digite o FQDN do domínio base. No exemplo a seguir, o domínio base é *customers.adatum.biz*.
 
     ![Captura de tela mostrando a página Adicionar um domínio](media/direct-routing-2-sbc-add-domain.png)
@@ -130,19 +130,19 @@ Para obter mais informações sobre funções de administrador e como atribuir u
 
     ![Captura de tela mostrando a confirmação de um nome de domínio verificado](media/direct-routing-3-sbc-verify-domain.png)
 
-5. Clique **em Próximo** e, na página Atualizar **Configurações de DNS,** selecione **Eu mesmo** adicionarei os registros DNS e clique em **Próximo.**
-6. Na próxima página, limpe todos os valores (a menos que você queira usar o nome de domínio para Exchange, SharePoint ou Teams/Skype for Business), clique em **Next** e clique em **Concluir**. Certifique-se de que seu novo domínio está no status completo da Instalação.
+5. Clique **em Próximo** e, na página Atualizar **Configurações** DNS, selecione Eu mesmo adicionarei os registros **DNS** e clique em **Próximo**.
+6. Na próxima página, limpe todos os valores (a menos que você queira usar o nome de domínio para Exchange, SharePoint ou Teams/Skype for Business), clique em Next **e** clique em **Concluir**. Certifique-se de que seu novo domínio está no status completo da Instalação.
 
     ![Captura de tela mostrando domínios com o status da Instalação concluída](media/direct-routing-14-sbc-setup-complete.png)
 
 ### <a name="activate-the-domain-name"></a>Ativar o nome de domínio
 
-Depois de registrar um nome de domínio, você precisará ativá-lo adicionando pelo menos um usuário com licença do Sistema de Telefonia e atribuindo um endereço SIP com a parte FQDN do endereço SIP correspondente ao domínio base criado. A licença pode ser revogada após a ativação do domínio (pode levar até 24 horas).
+Depois de registrar um nome de domínio, você precisará ativá-lo adicionando pelo menos um usuário com uma licença Sistema de Telefonia e atribuindo um endereço SIP com a parte FQDN do endereço SIP correspondente ao domínio base criado. A licença pode ser revogada após a ativação do domínio (pode levar até 24 horas).
 
 > [!NOTE]
-> O locatário da Operadora deve manter pelo menos uma licença do Sistema de Telefonia atribuída ao locatário para evitar a remoção da configuração do Skype for Business. 
+> O locatário da Operadora deve manter pelo menos uma licença Sistema de Telefonia atribuída ao locatário para evitar a remoção da configuração Skype for Business de usuário. 
 
-*Confira [Obter ajuda com domínios do Microsoft 365 ou Office 365](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef) para obter mais informações sobre como adicionar usuários nas organizações do Microsoft 365 ou office 365.*
+*Confira [Obter ajuda com Microsoft 365 ou Office 365 domínios](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef) para obter mais informações sobre como adicionar usuários em Microsoft 365 ou Office 365 organizações.*
 
 Por exemplo: test@customers.adatum.biz
 
@@ -156,14 +156,14 @@ Você precisará criar um nome de subdomínio exclusivo para cada cliente. Neste
 
 ### <a name="ensure-that-you-have-appropriate-rights-in-the-customer-tenant"></a>Verifique se você tem direitos apropriados no locatário do cliente
 
-Você só poderá adicionar novos domínios se entrar no Centro de administração do Microsoft 365 como Administrador Global. 
+Você só poderá adicionar novos domínios se entrar no centro de administração Microsoft 365 como Administrador Global. 
 
-Para validar a função que você tem, entre no Centro de administração do Microsoft 365 ( , vá para Usuários Usuários ativos e verifique se você tem uma função de Administrador https://portal.office.com)   >  Global. 
+Para validar a função que você tem, entre no centro de administração do Microsoft 365 ( , acesse Usuários Usuários ativos e verifique se você tem uma função de Administrador https://portal.office.com)   >  Global. 
 
-Para obter mais informações sobre funções de administrador e como atribuir uma função no Microsoft 365 ou Office 365, consulte [Sobre funções de administrador](https://support.office.com/article/About-Office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d).
+Para obter mais informações sobre funções de administrador e como atribuir uma função em Microsoft 365 ou Office 365, consulte [Sobre funções de administrador](https://support.office.com/article/About-Office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d).
 
 ### <a name="add-a-subdomain-to-the-customer-tenant-and-verify-it"></a>Adicione um subdomínio ao locatário do cliente e verifique se ele
-1. No Centro de administração do Microsoft 365, acesse **Setup**  >  **Domains**  >  **Add domain**.
+1. No centro Microsoft 365 de administração, vá para **Setup**  >  **Domains**  >  **Add domain**.
 2. Na caixa **Inserir um domínio que você possui,** digite o FQDN do subdomínio para esse locatário. No exemplo abaixo, o subdomínio é sbc1.customers.adatum.biz.
 
     ![Captura de tela da página Adicionar um domínio](media/direct-routing-5-sbc-add-customer-domain.png)
@@ -183,7 +183,7 @@ Para obter mais informações sobre funções de administrador e como atribuir u
 
     Para obter mais informações, consulte [Create DNS records at any DNS hosting provider](https://support.office.com/article/create-dns-records-at-any-dns-hosting-provider-for-office-365-7b7b075d-79f9-4e37-8a9e-fb60c1d95166).
 
-7. Volte para o centro de administração do Microsoft 365 do cliente e clique em **Verificar**. 
+7. Volte para o centro de administração Microsoft 365 cliente e clique em **Verificar**. 
 8. Na próxima página, selecione **Eu mesmo adicionarei os registros DNS** e clique em **Next**.
 
     ![Captura de tela de opções na página Atualizar configurações de DNS](media/direct-routing-9-sbc-update-dns.png)
@@ -207,7 +207,7 @@ Para obter mais informações sobre funções de administrador e como atribuir u
 
 Depois de registrar um nome de domínio, você precisa ativá-lo adicionando pelo menos um usuário e atribuindo um endereço SIP com a parte FQDN do endereço SIP que corresponde ao subdomínio criado no locatário do cliente. A licença pode ser revogada do usuário após a ativação do subdomínio (pode levar até 24 horas).
 
-*Confira [Obter ajuda com domínios do Microsoft 365 ou Office 365](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef) para obter mais informações sobre como adicionar usuários nas organizações do Microsoft 365 ou office 365.*
+*Confira [Obter ajuda com Microsoft 365 ou Office 365 domínios](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef) para obter mais informações sobre como adicionar usuários em Microsoft 365 ou Office 365 organizações.*
 
 Por exemplo: test@sbc1.customers.adatum.biz
 
@@ -243,6 +243,8 @@ Duas novas entidades foram introduzidas:
 -    As opções são enviadas somente para o FQDN do tronco da operadora. O status de saúde do tronco da operadora é aplicado a todos os troncos derivados e é usado para decisões de roteamento. Saiba mais sobre as [opções de Roteamento Direto.](./direct-routing-monitor-and-troubleshoot.md)
 -    A operadora pode drenar o tronco da operadora e todos os troncos derivados também serão esvaziados. 
  
+> [!NOTE]
+> Regras de conversão de números aplicadas no tronco da operadora não se aplicam a troncos derivados. Esse é um problema conhecido. Como solução alternativa, a regra de conversão de números deve ser criada para o locatário de cada cliente.
 
 **Migração do modelo anterior para o tronco da operadora**
  

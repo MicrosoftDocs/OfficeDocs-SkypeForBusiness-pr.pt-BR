@@ -23,12 +23,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 'Saiba mais sobre os recursos, disponibilidade e como planejar e configurar o Telefone Microsoft System para sua empresa. '
-ms.openlocfilehash: 877c7d49710821632477803cbc36c8009411cd3a
-ms.sourcegitcommit: 50ec59b454e751d952cde9fd13c8017529d0e1d6
+ms.openlocfilehash: eba13d07c41af8b449d0164542c4d241b1b54f66
+ms.sourcegitcommit: 272e8cf0075a566f055801433c9eb0313050530f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/13/2021
-ms.locfileid: "52469723"
+ms.lasthandoff: 05/14/2021
+ms.locfileid: "52486355"
 ---
 # <a name="heres-what-you-get-with-phone-system"></a>Veja o que você obtém com o Sistema de Telefonia
 
@@ -52,7 +52,7 @@ Sistema de Telefonia fornece os seguintes recursos. A menos que seja notado de o
 |Responder/iniciar chamadas (por nome e número)  <br/> |Permite que os usuários atendam chamadas de entrada com um toque e faça chamadas de saída discando o número de telefone completo ou clicando em um nome no cliente.  <br/> |
 |[Opções de encaminhamento de chamada e toque simultâneo](https://support.office.com/article/call-forwarding-call-groups-and-simultaneous-ring-in-teams-a88da9e8-1343-4d3c-9bda-4b9615e4183e) <br/> |Permite que os usuários configurarem regras de encaminhamento para que as chamadas possam ir com elas para qualquer lugar, ou as chamadas podem ser encaminhadas para colegas ou para a caixa postal.  <br/> |
 |[Retirada de chamada de grupo e encaminhamento para grupo](call-sharing-and-group-call-pickup.md) <br/> | Permite que os usuários compartilhem chamadas de entrada com colegas para que os colegas possam atender chamadas que ocorrem enquanto o usuário não está disponível. Menos prejudicial para destinatários do que outras formas de compartilhamento de chamadas (como encaminhamento de chamadas ou toque simultâneo) porque os usuários podem configurar como eles querem ser notificados de uma chamada compartilhada de entrada. |
-|[Transferir uma chamada e transferência consultiva](https://support.office.com/article/Transfer-a-call-in-Teams-b7f40f14-e083-46b9-b739-68038c8f73a0) <br/> |Permite que os usuários transfira chamadas para outra pessoa. Ou, se precisarem sair do escritório, mas quiserem continuar a conversa, poderão transferir as chamadas do computador ou do telefone IP para o celular.  <br/> |
+|[Transferir uma chamada e transferência consultiva](https://support.office.com/article/Transfer-a-call-in-Teams-b7f40f14-e083-46b9-b739-68038c8f73a0) <br/> |Permite que os usuários transfira chamadas para outra pessoa. Ou, se precisarem sair do escritório, mas quiserem continuar a conversa, poderão transferir as chamadas do computador ou do telefone IP para o celular.  <br/> Observe que os *usuários precisam* ter voz habilitada para receber chamadas transferidas de outro usuário. |
 |[Transferir para a chamada no meio da caixa postal*](https://support.office.com/article/Transfer-a-call-in-Teams-b7f40f14-e083-46b9-b739-68038c8f73a0) <br/> | Permite que os usuários transfira para a caixa postal durante uma chamada. |
 |[Recuperação e estacionamento de chamadas](call-park-and-retrieve.md)  <br/> | Permite que os usuários coloquem uma chamada em espera no serviço Teams na nuvem. Quando uma chamada é estacionada, o serviço gera um código exclusivo para recuperação de chamada. O usuário que estacionou a chamada ou outra pessoa pode então usar esse código e um aplicativo ou dispositivo com suporte para recuperar a chamada. <br/> |
 |Número de telefone de chamada da pesquisa  <br/> | Permite que os usuários façam uma chamada da caixa de pesquisa usando o comando /call e especificando um nome ou um número. <br/> |
