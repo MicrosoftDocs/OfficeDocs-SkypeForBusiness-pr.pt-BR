@@ -119,16 +119,12 @@ items:
                 href: troubleshoot-installation.md
       - name: Treinamento do Teams
         items:
-          - name: Visão Geral
-            href: training-microsoft-teams-landing-page.md
           - name: Treinamento para o administrador do Teams
             href: itadmin-readiness.md
-          - name: Sessões do Teams no Ignite 2020
+          - name: Sessões do Teams no Ignite
             href: ignite-2020-landing-page.md
-          - name: Treinamento ao vivo para o Teams
+          - name: Treinamento para o usuário final do Teams
             href: instructor-led-training-teams-landing-page.yml
-          - name: Treinamento online para o Teams
-            href: 'https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7'
   - name: Atualização do Skype for Business
     items:
       - name: Introdução
@@ -345,7 +341,7 @@ items:
             items:
               - name: Gerenciar o acesso externo
                 href: manage-external-access.md
-              - name: Chat nativo do Teams
+              - name: Chats Nativos do Teams
                 href: native-chat-for-external-users.md
               - name: As interoperabilidade do Skype e do Teams
                 href: teams-skype-interop.md
@@ -357,7 +353,7 @@ items:
                 href: /microsoft-365/solutions/collaborate-as-team
               - name: Experiência do convidado
                 href: guest-experience.md
-              - name: Habilitar ou desabilitar o acesso de convidados
+              - name: Habilitar ou desabilitar o acesso dos convidados
                 href: set-up-guests.md
               - name: Adicionar um convidado a uma equipe
                 href: view-guests.md
@@ -531,7 +527,7 @@ items:
             items:
               - name: Gerenciar o acesso externo
                 href: manage-external-access.md
-              - name: Chat nativo do Teams
+              - name: Chats Nativos do Teams
                 href: native-chat-for-external-users.md
               - name: As interoperabilidade do Skype e do Teams
                 href: teams-skype-interop.md
@@ -545,7 +541,7 @@ items:
                 href: guest-experience.md
               - name: Autorizar acesso de convidados
                 href: teams-dependencies.md
-              - name: Habilitar ou desabilitar o acesso de convidados
+              - name: Habilitar ou desabilitar o acesso dos convidados
                 href: set-up-guests.md
               - name: Adicionar um convidado a uma equipe
                 href: add-guests.md
@@ -1289,7 +1285,7 @@ items:
             href: business-voice/set-up-policies.md
           - name: Gerenciar pacotes de política
             href: business-voice/policy-packages.md
-          - name: Criar usuários adicionais
+          - name: Criar um ou mais usuários
             href: business-voice/create-users.md
           - name: Configurar uma fila de chamadas
             href: business-voice/create-a-phone-system-call-queue-smb.md
@@ -1495,23 +1491,6 @@ items:
             href: audio-conferencing-with-direct-routing-for-gcch-and-dod.md
           - name: Pacotes de políticas Teams para o Governo
             href: policy-packages-gov.md
-  - name: Solução de problemas
-    href: /MicrosoftTeams/troubleshoot/teams
-    items:
-      - name: Solucionar problemas de instalação e atualização
-        href: troubleshoot-installation.md
-      - name: Solucionar problemas de conectividade do cliente Teams
-        href: connectivity-issues.md
-      - name: Problemas ao receber mensagens e chamadas em sistemas herdados
-        href: legacy-login-issues.md
-      - name: Usar arquivos de registro para solucionar problemas no Teams
-        href: log-files.md
-      - name: Verificar a integridade do serviço para o Teams
-        href: service-health.md
-      - name: Contatar o suporte para produtos empresariais – Ajuda para Administradores
-        href: /microsoft-365/admin/contact-support-for-business-products
-      - name: Como pesquisar o PIN de suporte
-        href: support-pin.md
   - name: Referência
     items:
       - name: Especificações e limites do Teams
