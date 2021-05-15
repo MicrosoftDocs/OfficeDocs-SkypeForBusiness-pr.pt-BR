@@ -19,12 +19,12 @@ ms.custom:
 description: Vídeos de treinamento, apresentações do PowerPoint, tutoriais e outros recursos para administradores sobre como planejar, implantar e executar o Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c4d75ce28d6c9e23c9fdf0c24ee284a9ba0a4902
-ms.sourcegitcommit: 50ec59b454e751d952cde9fd13c8017529d0e1d6
+ms.openlocfilehash: 0b4aa047177e44f5ee922ece2ec327fc4d211c12
+ms.sourcegitcommit: 745b37921a878f1b524a274bfb2fd0732716a5c8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/13/2021
-ms.locfileid: "52469563"
+ms.lasthandoff: 05/15/2021
+ms.locfileid: "52498716"
 ---
 # <a name="getting-started-with-admin-training-for-microsoft-teams"></a>Iniciando o treinamento de administrador para Microsoft Teams
 
@@ -78,6 +78,14 @@ Use os recursos de treinamento para se instruir sobre o Teams, ensinar outras pe
 | Módulo 8: Salas do Microsoft Teams--Dicas, truques e solução de problemas (18:14 min)|[Vídeo](https://www.youtube.com/watch?v=W3b-iRrFECA)  | [Apresentação](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-8a-tips-tricks-troubleshooting.pdf?raw=true)|
 | Instruções de junção de um toque |  | [Apresentação](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-8b-one-touch-join-instructions.pdf?raw=true)  |
 
+<h2>Teams Dispositivos Android</h2>
+
+<p>A tabela a seguir contém links para treinamento em vídeo abrangente, com decks de PowerPoint (no formato PDF), em dispositivos Android Microsoft Teams que inclui telas do Teams, telefones Teams, Salas do Teams para Android e painéis Teams.  
+
+| Módulo | Vídeo | PowerPoint deck (PDF)  |
+| ------------ | -------------------- | -------------------- |
+| Módulo 1: introdução a Microsoft Teams dispositivos Android  | |[Apresentação](https://download.microsoft.com/download/8/0/2/8020c233-8989-4def-b3ea-fb06365c663a/%281%29%20Introduction%20to%20Microsoft%20Teams%20Android%20Devices.pdf) |
+| Módulo 2: Planejamento Microsoft Teams dispositivos Android|| [Apresentação](https://download.microsoft.com/download/f/8/f/f8f94605-9545-449b-b5d3-f24efc55f966/Planning%20Microsoft%20Teams%20Android%20Devices.pdf) |
 <h2>Guias interativos</h2>
 
 | Título                                                                       | Resumo                                                                                                                                                                                                               |  Link para o Guia                             |
@@ -107,4 +115,5 @@ Use os recursos de treinamento para se instruir sobre o Teams, ensinar outras pe
 - [Tutorial: Reuniões no Teams](tutorial-meetings-in-teams.yml)
 - [Tutorial: audioconferência no Teams](tutorial-audio-conferencing.yml)
 - [Tutorial: entendendo as chamadas no Teams](tutorial-calling-in-teams.yml)
+
 

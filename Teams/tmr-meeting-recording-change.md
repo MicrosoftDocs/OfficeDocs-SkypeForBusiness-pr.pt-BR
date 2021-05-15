@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8cad935092b1b3b99209c45bf61b7ee40d285ea6
-ms.sourcegitcommit: 50ec59b454e751d952cde9fd13c8017529d0e1d6
+ms.openlocfilehash: c92f4d0bf3e72f79687fa151567052934b49ba55
+ms.sourcegitcommit: a628b22c9a0ef3bcd7dee3f308a79b4c427872cc
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/13/2021
-ms.locfileid: "52469653"
+ms.lasthandoff: 05/14/2021
+ms.locfileid: "52491788"
 ---
 # <a name="use-onedrive-for-business-and-sharepoint-or-stream-for-meeting-recordings"></a>Usar o OneDrive for Business e o SharePoint ou o Stream para gravações de reunião
 
@@ -182,7 +182,7 @@ Seu vídeo será reproduzido no reprodutor de vídeo do OneDrive for Business ou
 
 O Stream, como uma plataforma, não será substituído em breve. Os vídeos que residem atualmente no Stream continuarão lá até começarmos a migração. Na migração, esses vídeos serão migrados para o OneDrive for Business e para o SharePoint. Consulte [migração do Stream clássico](/stream/streamnew/classic-migration) para saber mais.
 
-**Como aplico um rótulo de retenção?**
+**Como aplicar um rótulo de retenção a Microsoft Teams de reunião?**
 
 Confira [Como aplicar automaticamente um rótulo de retenção](/microsoft-365/compliance/apply-retention-labels-automatically?view=o365-worldwide#microsoft-teams-meeting-recordings).
 
@@ -190,7 +190,7 @@ Confira [Como aplicar automaticamente um rótulo de retenção](/microsoft-365/c
 
 Confira [Qual política tem precedência?](./assign-policies.md#which-policy-takes-precedence).
 
-**Para onde a gravação vai se o usuário não tiver OneDrive for Business ou SharePoint?**
+**Para onde vai a gravação se o usuário não tiver OneDrive for Business ou SharePoint, ou se a cota de armazenamento estiver cheia?**
 
 A gravação será realizada em nosso local de armazenamento temporário, onde será mantida por 21 dias. Durante esse tempo, o organizador deve baixar a gravação. Se não for baixada dentro de 21 dias, a gravação será excluída.
 

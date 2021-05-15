@@ -1,5 +1,5 @@
 ---
-title: Configurar um atendimento automático para o Microsoft Teams
+title: Configurar um atendimento automático para Microsoft Teams
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
@@ -21,28 +21,28 @@ f1.keywords:
 - CSH
 ms.custom:
 - Phone System
-description: Saiba como configurar e testar os atendimentos automáticos para o Microsoft Teams.
-ms.openlocfilehash: 9efd30eb91e9760f800dd24935724d2a3cdd97c2
-ms.sourcegitcommit: c56c87e912a4b3729c7c52d8de78fd4d24448a8d
+description: Saiba como configurar e testar os atendimentos automáticos para Microsoft Teams.
+ms.openlocfilehash: 2aef87d1a7885df01b02a5708ac1079ea8021add
+ms.sourcegitcommit: 745b37921a878f1b524a274bfb2fd0732716a5c8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51926047"
+ms.lasthandoff: 05/15/2021
+ms.locfileid: "52498786"
 ---
 # <a name="set-up-an-auto-attendant"></a>Configurar um atendimento automático
 
-Os atendentes automáticos permitem que as pessoas liguem para sua organização e naveguem por um sistema de menus para falar com o departamento certo, fila de chamada, pessoa ou operador. Você pode criar assistentes automáticos para sua organização com o centro de administração do Microsoft Teams ou com o PowerShell.
+Os atendentes automáticos permitem que as pessoas liguem para sua organização e naveguem por um sistema de menus para falar com o departamento certo, fila de chamada, pessoa ou operador. Você pode criar assistentes automáticos para sua organização com o Microsoft Teams de administração ou com o PowerShell.
 
-Certifique-se de ter lido [Plan for Teams auto attendants](plan-auto-attendant-call-queue.md) and call queues and followed the getting started [steps](plan-auto-attendant-call-queue.md#getting-started) before you follow the procedures in this article.
+Leia Plan for Teams auto attendants and [call queues](plan-auto-attendant-call-queue.md) [](plan-auto-attendant-call-queue.md#getting-started) e siga as etapas de início antes de seguir os procedimentos neste artigo.
 
 Os atendimentos automáticos podem direcionar chamadas, com base na entrada dos chamadores, para um dos seguintes destinos: <a name="call-routing-options" ></a>
 
 - **Operador** - o operador definido para o atendimento automático. Definir um operador é opcional. O operador pode ser definido como qualquer um dos outros destinos nesta lista.
-- **Pessoa na organização** - uma pessoa em sua organização que pode receber chamadas de voz. Essa pessoa pode ser um usuário online ou um usuário hospedado no local usando o Skype for Business Server.
+- **Pessoa na organização** - uma pessoa em sua organização que pode receber chamadas de voz. Essa pessoa pode ser um usuário online ou um usuário hospedado no local usando Skype for Business Server.
 - **Aplicativo de voz** - outro atendimento automático ou uma fila de chamadas. (Escolha a conta de recurso associada ao atendimento automático ou fila de chamada ao escolher esse destino.)
-- **Caixa** postal - a caixa de correio de voz associada a um grupo do Microsoft 365 especificado.
+- **Caixa** postal - a caixa de correio de voz associada a um grupo Microsoft 365 que você especificar.
 - **Número de telefone externo** - qualquer número de telefone. (Consulte [detalhes técnicos de transferência externa](create-a-phone-system-auto-attendant.md#external-phone-number-transfers---technical-details)).
-- **Comunicado (Arquivo de áudio)** - Reproduzir um arquivo de áudio. Uma mensagem de anúncio gravada que você carrega salva como áudio em . WAV, . MP3 ou . Formato WMA. A gravação não pode ser maior do que 5 MB. O sistema reproduz o comunicado e retorna ao menu de atendimento automático.
+- **Comunicado (Arquivo de áudio)** - Reproduzir um arquivo de áudio. Uma mensagem de anúncio gravada que você carrega salva como áudio em . WAV, .MP3 ou . Formato WMA. A gravação não pode ser maior do que 5 MB. O sistema reproduz o comunicado e retorna ao menu de atendimento automático.
 - **Comunicado (Digitado)** - Digite uma mensagem. Texto que você deseja que o sistema leia. Você pode inserir até 1000 caracteres. O sistema reproduz o comunicado e retorna ao menu de atendimento automático.
 
 Você será solicitado a escolher uma dessas opções em vários estágios ao configurar um atendimento automático.
@@ -52,7 +52,13 @@ Você será solicitado a escolher uma dessas opções em vários estágios ao co
 > - **Transcrição** (Padrão: Desligado) - quando habilitada, a mensagem de caixa postal será transcrita e incluída como parte do email.
 > - **Suprimir Saudação** (Padrão: Desligado) - quando habilitada, a mensagem padrão do sistema "Deixe uma mensagem após o tom. Quando terminar, desligue ou pressione a tecla hash para obter mais opções." será suprimido.
 
-Para configurar um atendimento automático, no Centro de administração do Teams, **expanda Voz,** selecione **Atendimento automático** e selecione **Adicionar**.
+Para configurar um atendimento automático, no centro de administração Teams, **expanda Voz,** selecione **Assistentes automáticos** e selecione **Adicionar**.
+
+## <a name="video-demonstration"></a>Demonstração de vídeo
+
+Este vídeo mostra um exemplo básico de como criar um assistente automático no Teams.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWEnCG?autoplay=false]
 
 ## <a name="general-info"></a>Informações gerais
 
@@ -79,7 +85,7 @@ Para configurar um atendimento automático, no Centro de administração do Team
 
 Escolha se deseja reproduzir uma saudação quando o atendente automático atender uma chamada.
 
-Se você selecionar **Reproduzir um arquivo de áudio,** poderá usar o botão **Carregar** arquivo para carregar uma mensagem de saudação gravada salva como áudio em . WAV, . MP3 ou . Formato WMA. A gravação não pode ser maior do que 5 MB.
+Se você selecionar **Reproduzir um arquivo de** áudio, poderá usar o botão de arquivo **Upload** para carregar uma mensagem de saudação gravada salva como áudio em . WAV, .MP3 ou . Formato WMA. A gravação não pode ser maior do que 5 MB.
 
 Se você selecionar **Digitar uma mensagem de** saudação, o sistema lerá o texto que você digitar (até 1000 caracteres) quando o atende automaticamente atender a uma chamada.
 
@@ -117,7 +123,7 @@ Se você atribuir chaves de discagem a destinos, recomendamos que você escolha 
 
 Se você não atribuiu chaves de discagem, escolha uma opção para pesquisa **de diretório.**
 
-**Discar por nome** - Se você habilitar essa opção, os chamadores poderão dizer o nome do usuário ou digitá-lo no teclado do telefone. Qualquer usuário online ou qualquer usuário hospedado no local usando o Skype for Business Server, é um usuário qualificado e pode ser encontrado com Dial por nome. (Você pode definir quem é e não está incluído no diretório na página [de](#dial-scope) escopo discar.)
+**Discar por nome** - Se você habilitar essa opção, os chamadores poderão dizer o nome do usuário ou digitá-lo no teclado do telefone. Qualquer usuário online ou qualquer usuário hospedado no local usando Skype for Business Server, é um usuário qualificado e pode ser encontrado com Dial por nome. (Você pode definir quem é e não está incluído no diretório na página [de](#dial-scope) escopo discar.)
 
 **Discar por extensão** - Se você habilitar essa opção, os chamadores poderão se conectar aos usuários em sua organização discando sua extensão de telefone. Qualquer usuário online ou qualquer usuário hospedado no local usando o Skype for Business Server, é um usuário qualificado e pode ser encontrado com **Dial por extensão.** (Você pode definir quem é e não está incluído no diretório na página [de](#dial-scope) escopo discar.)
 
@@ -139,7 +145,7 @@ O formato necessário para inserir a extensão no campo número de telefone do u
 - Exemplo 2: Set-MsolUser -UserPrincipalName usern@domain.com -Phonenumber "+15555555678x5678"
 - Exemplo 3: Set-MsolUser -UserPrincipalName usern@domain.com -Phonenumber "x5678"
 
-Você pode definir a extensão no centro de administração do [Microsoft 365](https://admin.microsoft.com/) ou no centro de administração [do Azure Active Directory.](https://aad.portal.azure.com) Pode levar até 12 horas antes que as alterações sejam disponibilizadas para os atendimentos automáticos e filas de chamada.
+Você pode definir a extensão no centro de administração [Microsoft 365](https://admin.microsoft.com/) ou no Azure Active Directory [de administração.](https://aad.portal.azure.com) Pode levar até 12 horas antes que as alterações sejam disponibilizadas para os atendimentos automáticos e filas de chamada.
 
 > [!NOTE]
 > Se você quiser usar os recursos  **Discar** por nome e Discar por extensão, você pode atribuir uma chave de discagem no seu atendimento automático principal para alcançar um atendimento automático habilitado para Discagem **pelo nome**. Nesse atendimento automático, você pode atribuir a tecla 1 (que não tem letras associadas a ela) para alcançar o atendimento automático **Discar** por extensão.
@@ -192,9 +198,9 @@ Quando você adicionou todos os feriados, selecione **Próximo**.
 
 ![Captura de tela do escopo de discagem incluem e excluem opções](media/auto-attendant-dial-scope.png)
 
-O *escopo de* discagem define quais usuários estão disponíveis no diretório quando um chamador usa discagem por nome ou discagem por extensão. O padrão de **Todos os usuários online** inclui todos os usuários em sua organização que são usuários online ou hospedados no local usando o Skype for Business Server.
+O *escopo de* discagem define quais usuários estão disponíveis no diretório quando um chamador usa discagem por nome ou discagem por extensão. O padrão de **Todos os usuários online** inclui todos os usuários em sua organização que são usuários online ou hospedados no local usando Skype for Business Server.
 
-Você pode incluir ou excluir  usuários específicos selecionando Grupo de usuários personalizado em **Incluir** ou **Excluir** e escolher um ou mais grupos, listas de distribuição ou grupos de segurança do Microsoft 365. Por exemplo, talvez você queira excluir executivos em sua organização do diretório de discagem. (Se um usuário estiver em ambas as listas, ele será excluído do diretório.)
+Você pode incluir ou excluir  usuários específicos  selecionando Grupo de usuários personalizado em **Incluir** ou Excluir e escolher um ou mais grupos de Microsoft 365, listas de distribuição ou grupos de segurança. Por exemplo, talvez você queira excluir executivos em sua organização do diretório de discagem. (Se um usuário estiver em ambas as listas, ele será excluído do diretório.)
 
 > [!NOTE]
 > Pode levar até 36 horas para que um novo usuário tenha seu nome listado no diretório.
@@ -219,7 +225,7 @@ Consulte os [Pré-requisitos](plan-auto-attendant-call-queue.md#prerequisites) p
 
 - Para uma conta de recurso com uma licença [de](calling-plans-for-office-365.md)Plano de Chamada , o número de telefone de transferência externa deve ser inserido no formato E.164 (+[código do país][código de área][número de telefone]).
 
-- Para uma conta de recurso com uma política de roteamento de voz online de Licença do Sistema de Telefonia e Roteamento Direto, o formato de número de telefone de transferência externa depende das configurações do Controlador de Borda de Sessão [(SBC).](direct-routing-connect-the-sbc.md)
+- Para uma conta de recurso com uma política Sistema de Telefonia de roteamento de voz online de Licença e Roteamento Direto, o formato de número de telefone de transferência externa depende das configurações do Controlador de Borda de Sessão [(SBC).](direct-routing-connect-the-sbc.md)
 
 O número de telefone de saída exibido é determinado da seguinte forma:
 
@@ -228,7 +234,7 @@ O número de telefone de saída exibido é determinado da seguinte forma:
     - Se definido como Desabilitado, o número de telefone do chamador original será exibido. Essa é a configuração padrão e recomendada.
     - Se definido como Habilitado, o número de telefone da conta de recurso será exibido.
 
-Em um ambiente híbrido do Skype for Business, para transferir uma chamada de atendimento automático para a PSTN, crie um novo usuário local com encaminhamento de chamada definido para o número PSTN. O usuário deve estar habilitado para Enterprise Voice e ter uma política de voz atribuída. Para saber mais, confira [Transferência de chamada de atendimento automático para PSTN](/SkypeForBusiness/plan/exchange-unified-messaging-online-migration-support#auto-attendant-call-transfer-to-pstn).
+Em um Skype for Business híbrido, para transferir uma chamada de atendimento automático para a PSTN, crie um novo usuário local com encaminhamento de chamada definido para o número PSTN. O usuário deve estar habilitado para Enterprise Voice e ter uma política de voz atribuída. Para saber mais, confira [Transferência de chamada de atendimento automático para PSTN](/SkypeForBusiness/plan/exchange-unified-messaging-online-migration-support#auto-attendant-call-transfer-to-pstn).
 
 ### <a name="create-an-auto-attendant-with-powershell"></a>Criar um atendimento automático com o PowerShell
 

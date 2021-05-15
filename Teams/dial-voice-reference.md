@@ -21,13 +21,13 @@ ms.custom:
 - ms.teamsadmincenter.autoattendants.overview
 - Phone System
 - seo-marvel-apr2020
-description: Saiba mais sobre as opções de discagem automática e fila de chamadas e reconhecimento de voz no Teams.
-ms.openlocfilehash: f62a04735d386637489d52956e6a064a2eba1e4e
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Saiba mais sobre as opções de discagem automática e fila de chamadas e reconhecimento de voz Teams.
+ms.openlocfilehash: ee79f5024ee15fc1b8f00ecd5026f2eb5a9b4b22
+ms.sourcegitcommit: a628b22c9a0ef3bcd7dee3f308a79b4c427872cc
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51098437"
+ms.lasthandoff: 05/14/2021
+ms.locfileid: "52491808"
 ---
 # <a name="auto-attendant-and-call-queue-dialing-and-voice-recognition-reference"></a>Referência de discagem de fila de chamada e atendimento automático e reconhecimento de voz
 
@@ -35,9 +35,9 @@ Dial by Name é um recurso de um atendimento automático que também é conhecid
 
 ## <a name="searching-for-users"></a>Pesquisar usuários
 
-Os usuários que você deseja ter localizado e alcançado usando Discagem por Nome não são necessários para ter um número de telefone ou ter Planos de Chamadas atribuídos a eles, mas eles devem estar Enterprise Voice habilitados para usuários do **Skype for Business Server.** A discagem por Nome poderá até mesmo encontrar e transferir chamadas para usuários do Microsoft Teams hospedados em diferentes países ou regiões para organizações multi-nacionais. Considerando os pré-requisitos envolvidos, você habilita explicitamente Dial by Name em um atendimento automático.
+Os usuários que você deseja ter localizado e alcançado usando Discagem por Nome não são necessários para ter um número de telefone ou ter Planos de Chamadas atribuídos **a eles,** mas eles devem estar Enterprise Voice habilitados para Skype for Business Server usuários . A discagem por Nome poderá até mesmo encontrar e transferir chamadas para Microsoft Teams usuários hospedados em diferentes países ou regiões para organizações multi-nacionais. Considerando os pré-requisitos envolvidos, você habilita explicitamente Dial by Name em um atendimento automático.
 
-Discar por extensão é um recurso de um atendimento automático que também faz parte da pesquisa de diretório. Ele permite que as pessoas que chamam o seu atendimento automático usem voz (reconhecimento de fala) ou suas respostas de teclado de telefone (DTMF) para inserir a extensão de telefone do usuário que estão tentando alcançar e, em seguida, fazer com que a chamada seja transferida para eles. Os usuários que você deseja ter localizado e alcançado usando o Dial por extensão não são necessários para ter um número de telefone ou ter Planos de Chamadas atribuídos a eles, mas eles devem estar Enterprise Voice habilitados para usuários do **Skype for Business Server.** Você também precisará ter um plano de discagem configurado adequadamente para seus usuários. A discagem por extensão poderá até mesmo encontrar e transferir chamadas para usuários do Microsoft Teams hospedados em diferentes países ou regiões para organizações multi-nacionais. Considerando os pré-requisitos envolvidos, você habilita explicitamente Dial por extensão em um atendimento automático.
+Discar por extensão é um recurso de um atendimento automático que também faz parte da pesquisa de diretório. Ele permite que as pessoas que chamam o seu atendimento automático usem voz (reconhecimento de fala) ou suas respostas de teclado de telefone (DTMF) para inserir a extensão de telefone do usuário que estão tentando alcançar e, em seguida, fazer com que a chamada seja transferida para eles. Os usuários que você deseja ter localizado e alcançado usando Discagem por extensão não são necessários para ter um número de telefone ou ter Planos de Chamadas atribuídos **a eles,** mas eles devem estar Enterprise Voice habilitados para Skype for Business Server usuários . Você também precisará ter um plano de discagem configurado adequadamente para seus usuários. A discagem por extensão poderá até mesmo encontrar e transferir chamadas para Microsoft Teams usuários hospedados em diferentes países ou regiões para organizações multi-nacionais. Considerando os pré-requisitos envolvidos, você habilita explicitamente Dial por extensão em um atendimento automático.
 
 ### <a name="maximum-directory-size"></a>Tamanho máximo do diretório
 
@@ -80,7 +80,7 @@ Há vários caracteres especiais que são usados durante a pesquisa de pessoas p
 
 As pessoas podem procurar outras pessoas em sua organização com sua voz (reconhecimento de fala). Eles também podem entrar em contato com qualquer pessoa no Active Directory dizendo o nome completo ou parcial da pessoa que está tentando localizar. O uso de entradas de voz pode reconhecer nomes em vários formatos, incluindo FirstName, LastName, FirstName + LastName ou LastName + FirstName.
   
-Você pode habilitar o reconhecimento de fala para um atendimento automático, mas a entrada do teclado de telefone (DTMF) não está desabilitada. A entrada do teclado de telefone pode ser usada a qualquer momento, mesmo que o reconhecimento de fala seja habilitado no atendimento automático.
+Você pode habilitar o reconhecimento de fala para um atendimento automático, mas a entrada do teclado de telefone (DTMF) não está desabilitada. Telefone entrada do teclado pode ser usada a qualquer momento, mesmo que o reconhecimento de fala seja habilitado no atendimento automático.
   
 Assim como com a entrada do teclado de telefone, se vários nomes são encontrados, a pessoa que está chamando ouvir uma lista de nomes para selecionar.
   
@@ -101,33 +101,9 @@ Os chamadores podem dizer nomes nos seguintes formatos:
   
 ## <a name="language-support"></a>Suporte a idiomas
 
-Os idiomas a seguir estão disponíveis para texto em fala usado com prompts de saída:
-  
-|-|-|-|
-|:-----|:-----|:-----|
-|Árabe (EG)  |Inglês (NZ)  |Coreano (KO)  |
-|Chinês (HK)  |Inglês (Reino Unido) |Noruega (NO)  |
-|Chinês (TW) |Inglês (EUA) |Polonês (PL)  |
-|Chinês (ZH) |Finlandês (FI) |Português (BR) |
-|Dinamarquês (DA)  |Francês (CA)  |Português (PT) |
-|Holandês (NL)   |Francês (FR)  |Russo (RU) |
-|Inglês (AU)  |Alemão (DE) |Espanhol (ES)  |
-|Inglês (CA)  |Italiano (IT) |Espanhol (MX)|
-|Inglês (IN)  |Japonês (JP) |Sueco (SV)|
+O suporte a idiomas para reconhecimento de texto para fala e fala está disponível nesses [idiomas com suporte.](create-a-phone-system-auto-attendant-languages.md)
 
-A entrada de reconhecimento de fala para os atendimentos automáticos está disponível nos seguintes idiomas:
-  
-|-|-|
-|:-----|:-----|
-|Chinês (ZH)  |Francês (FR)  |
-|Inglês (AU)  |Alemão (DE)  |
-|Inglês (CA)  |Italiano (IT)  |
-|Inglês (IN)  |Japonês (JP)  |
-|Inglês (Reino Unido)  |Português (BR)  |
-|Inglês (EUA)  |Espanhol (ES)  |
-|Francês (CA)   |Espanhol (MX)  |
-
-Os seguintes comandos de voz estão disponíveis nos 14 idiomas com suporte para reconhecimento de fala:
+Os seguintes comandos de voz estão disponíveis para reconhecimento de fala: 
   
 |Comando de voz| Corresponde a |
 |:-----|:-----|
