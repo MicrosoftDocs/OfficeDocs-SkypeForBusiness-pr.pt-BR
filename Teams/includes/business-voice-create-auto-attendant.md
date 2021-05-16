@@ -1,3 +1,9 @@
+#### <a name="video-demonstration"></a>Demonstração de vídeo
+
+Este vídeo mostra um exemplo básico de como criar um assistente automático no Teams.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWEnCG?autoplay=false]
+
 #### <a name="before-you-begin"></a>Antes de você começar
 
 Obter os números de serviço (números de serviço são um tipo especial de número de telefone que são usados por atendentes automáticos) que você precisa para os atendimentos automáticos que você deseja que sejam acessíveis discando diretamente de fora da sua organização. Isso pode incluir [a transferência de números de outro provedor ou](../phone-number-calling-plans/transfer-phone-numbers-to-teams.md) a [solicitação de novos números de serviço.](../getting-service-phone-numbers.md)
