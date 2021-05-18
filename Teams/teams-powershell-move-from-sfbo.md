@@ -12,12 +12,12 @@ ms.collection:
 description: Saiba como mover do conector Skype for Business Online para o módulo Teams PowerShell para gerenciar Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e788fc8cd31bd6e8754e410132e02829eaa2cad8
-ms.sourcegitcommit: 50ec59b454e751d952cde9fd13c8017529d0e1d6
+ms.openlocfilehash: 0b08505ca97672d5285c8ff46b0e5d3cf58e9f84
+ms.sourcegitcommit: 56bebf42f545af57fdf387faa90e555abc8acd40
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/13/2021
-ms.locfileid: "52469713"
+ms.lasthandoff: 05/18/2021
+ms.locfileid: "52513864"
 ---
 # <a name="migrating-from-skype-for-business-online-connector-to-the-teams-powershell-module"></a>Migrando do Skype for Business Online para o módulo Teams PowerShell
 
@@ -35,8 +35,10 @@ Teams O Módulo do PowerShell fornece um conjunto completo de cmdlets para geren
 
 Migrar do uso do Skype for Business Online para Teams módulo do PowerShell é fácil e simples. As etapas a seguir explicam como fazer isso.
 
-1. Instale o módulo Teams do PowerShell mais recente. Para ver as etapas, [consulte Install Microsoft Teams Powershell](teams-powershell-install.md).
+1. Instale o módulo Teams do PowerShell mais recente. Para ver etapas, [consulte Install Microsoft Teams PowerShell](teams-powershell-install.md).
+
 2. Desinstale Skype conector para Empresas Online. Para fazer isso, no Painel de Controle, vá para Programas e **Recursos,** selecione **Skype for Business Online, Windows PowerShell Módulo** e selecione **Desinstalar**.
+
 3. Em seus scripts do PowerShell, altere o nome do módulo referenciado ```Import-Module``` de
 
     `SkypeOnlineConnector` ou `LyncOnlineConnector` `MicrosoftTeams` para .
@@ -47,41 +49,50 @@ Migrar do uso do Skype for Business Online para Teams módulo do PowerShell é f
 
     ```powershell
        # When using the Skype for Business online connector
-         Import-Module SkypeForBusinessConnector [LyncOnlineConnector]
+         
+         # Establishing a session
+         Import-Module SkypeOnlineConnector [LyncOnlineConnector]
          $credential = Get-Credential
          $SkypeSession = New-CsOnlineSession -Credential $credential
          Import-Session $SkypeSession
     
-       # Example getting tenant details
+         # Example getting tenant details
          Get-csTenant
+         
+         # Disconnecting and closing the Session 
+         Get-PsSession $SkypeSession | Remove-PsSession
     
        # When using Teams PowerShell Module 2.0 or later
+       
+         # Establishing a session
          Import-Module MicrosoftTeams
          $credential = Get-Credential
          Connect-MicrosoftTeams -Credential $credential
        
-       # Example getting tenant details
+         # Example getting tenant details
          Get-csTenant
-    
-       # Closing the Session when using the Skype for Business online connector
-         Get-PsSession $SkypeSession | Remove-PsSession
-    
-       # Disconnecting from Teams PowerShell Module 
+         
+         # Disconnecting and closing the Session  
          Disconnect-MicrosoftTeams
     ```
 
 ## <a name="online-support"></a>Suporte Online
 
 Economize tempo iniciando sua solicitação de serviço online. Ajudaremos você a encontrar uma solução ou a conectá-lo ao suporte técnico.
+
 1.  Vá para o centro de administração em [https://admin.microsoft.com](https://admin.microsoft.com) . Se você receber uma mensagem que diga que não tem permissão para acessar esta página ou executar essa ação, então você não é um administrador. Who tem permissões de administrador na minha empresa?
+
 2.  Selecione a **opção Precisa de ajuda?** button.
+
 3.  Na Necessidade **de ajuda?** painel, diga-nos com o que você precisa de ajuda e pressione Enter.
+
 4.  Se os resultados não ajudarem, selecione **Contatar suporte**.
+
 5.  Insira uma descrição do seu problema, confirme seu número de contato e endereço de email, selecione seu método de contato preferencial e selecione **Contact me**. O tempo de espera esperado é indicado no Need help? painel.
 
 ## <a name="related-topics"></a>Tópicos relacionados
 
-[Instalar Microsoft Teams Powershell](teams-powershell-install.md)
+[Instalar Microsoft Teams PowerShell](teams-powershell-install.md)
 
 [Gerenciar Teams com Teams PowerShell](teams-powershell-managing-teams.md)
 

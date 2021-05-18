@@ -17,16 +17,16 @@ description: Saiba mais sobre políticas de gravação de eventos ao vivo.
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 9c808e4ae4e27e48c14c45711ef80ffd1c812125
-ms.sourcegitcommit: 3fc6fb528806f967bdc80671761cd45c32db6516
+ms.openlocfilehash: f9654c139433ffa764767e0a2140896eab52204b
+ms.sourcegitcommit: 56bebf42f545af57fdf387faa90e555abc8acd40
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/26/2021
-ms.locfileid: "51383965"
+ms.lasthandoff: 05/18/2021
+ms.locfileid: "52513844"
 ---
-# <a name="live-event-recording-policies-in-microsoft-teams"></a>Políticas de gravação de eventos ao vivo no Microsoft Teams
+# <a name="live-event-recording-policies-in-microsoft-teams"></a>Políticas de gravação de eventos ao vivo Microsoft Teams
 
-Você tem várias opções para gravar um evento ao vivo do Microsoft Teams. As opções de gravação são definidas usando políticas de gravação. Este artigo descreve as várias configurações.
+Você tem várias opções para gravar um evento Microsoft Teams ao vivo. As opções de gravação são definidas usando políticas de gravação. Este artigo descreve as várias configurações.
 
 As opções de gravação são definidas usando o comando Do PowerShell [Set-CsTeamsMeetingBroadcastPolicy](/powershell/module/skype/set-csteamsmeetingbroadcastpolicy?view=skype-ps).
 
@@ -52,17 +52,13 @@ Como parte da política de transmissão, há uma configuração que você pode a
 | ------------------------------- | ---------------------------------------------------- | ------------------------------------- |
 | Sempre gravar               | Desabilitado e selecionado                                | Habilitado e selecionado         |
 | O organizador pode gravar ou não | Habilitado e selecionado por padrão                  | Habilitado e selecionado por padrão   |
-| Nunca gravar               | Desabilitado e não selecionado                            | Habilitado e não selecionado      |
+| Nunca gravar               | Desabilitado e não selecionado                            | Desabilitado e não selecionado      |
 
-Quando a política é definida como **Sempre registrar**, a página de política tem as seguintes opções selecionadas:
-
-![configurações de política de eventos ao vivo](../media/live-event-recording-policy.png "Captura de tela de configurações de política de eventos ao vivo no centro de administração do Microsoft Teams")
-
-## <a name="storage-and-persistence-behavior"></a>Comportamento de armazenamento e persistência
+## <a name="storage-and-persistence-behavior"></a>Armazenamento e comportamento de persistência
 
 | Opção                                       | Estado   | DVR                                                   | VOD                                                     | Gravando                |
 | ------------------------------------------------ | ------------ | --------------------------------------------------------- | ----------------------------------------------------------- | ---------------------------- |
-| Gravação disponível para produtores e apresentadores | Selecionado     | O DVR está disponível e o ativo do Azure Media Services (AMS) é armazenado por 180 dias | O participante pode acessar e assistir ao evento                     |                              |
+| Gravação disponível para produtores e apresentadores | Selecionado     | O DVR está disponível e o ativo Serviços de Mídia do Azure (AMS) é armazenado por 180 dias | O participante pode acessar e assistir ao evento                     |                              |
 |                                                  | Não Selecionado | O DVR está disponível e o ativo AMS é armazenado por 180 dias | O participante não terá acesso ao evento após o fim |                              |
 ||Desabilitado (Não selecionado)|DVR está disponível e o ativo AMS é excluído após o evento|O participante não terá acesso ao evento após o fim||
 | Gravação disponível para produtores e apresentadores | Selecionado     |                                                           |                                                             | Um MP4 é criado e armazenado |
@@ -73,4 +69,4 @@ Quando a política é definida como **Sempre registrar**, a página de política
 - [O que são eventos ao vivo de Teams?](what-are-teams-live-events.md)
 - [Planejar eventos ao vivo do Teams](plan-for-teams-live-events.md)
 - [Definir configurações de eventos ao vivo do Teams](configure-teams-live-events.md)
-- [Gravação de reunião de nuvens do Teams](../cloud-recording.md)
+- [Teams de reunião de nuvens](../cloud-recording.md)
