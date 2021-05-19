@@ -1,5 +1,5 @@
 ---
-title: Planejar os atendimentos automáticos e filas de chamada do Teams
+title: Planejar Teams atendimentos automáticos e filas de chamada
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
@@ -24,14 +24,14 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Saiba mais sobre os atendimentos automáticos e filas de chamada e como usá-los para ajudar os chamadores a passar por um sistema de menus para alcançar pessoas ou departamentos em sua organização.
-ms.openlocfilehash: 2e81f1d40c73cb8bcdf0a5ebd48f05c015732afe
-ms.sourcegitcommit: bd7847de9d1402476f8faaeae2ff97ec60d86a1b
+ms.openlocfilehash: 1ccce8205afcf019fea539823c21e3a29a2fa206
+ms.sourcegitcommit: d5e77f8a3b8084ed92f0a77888a555626309591b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/26/2021
-ms.locfileid: "51262636"
+ms.lasthandoff: 05/18/2021
+ms.locfileid: "52517744"
 ---
-# <a name="plan-for-teams-auto-attendants-and-call-queues"></a>Planejar os atendimentos automáticos e filas de chamada do Teams
+# <a name="plan-for-teams-auto-attendants-and-call-queues"></a>Planejar Teams atendimentos automáticos e filas de chamada
 
 Os atendentes automáticos permitem configurar opções de menu para rotear chamadas com base na entrada do chamador. Opções de menu, como "Para Vendas, pressione 1.  Para Serviços pressionar 2", para um atendimento automático, uma organização permite que uma organização forneça uma série de opções que orientam os chamadores para seu destino rapidamente, sem depender de um operador humano para lidar com chamadas de entrada.
 
@@ -70,7 +70,7 @@ Você pode atribuir um número de telefone a uma fila de chamadas, no entanto, a
 Para configurar os atendimentos automáticos e filas de chamada, você precisa dos seguintes recursos:
 
 - Uma conta de recurso para cada atendimento automático e cada fila de chamada
-- Um sistema de telefonia gratuito - Licença de usuário virtual para cada conta de recurso
+- Uma licença Sistema de Telefonia de usuário virtual para cada conta de recurso
 - Pelo menos um número [de serviço da Microsoft,](getting-service-phone-numbers.md)um número de roteamento direto ou um número híbrido para cada conta de recurso que você deseja discar diretamente
  - O número de serviço pode ser um número gratuito ou de tarifação gratuita
 
@@ -79,15 +79,15 @@ Os agentes que recebem chamadas das filas de chamadas devem estar Enterprise Voi
 - Uma política de roteamento de voz online atribuída se a fila de chamadas usa o modo de transferência
 - Uma licença de Audioconferência ou uma política de roteamento de voz online atribuída se a fila de chamadas usar o modo de conferência
 
-Se seus agentes estão usando o aplicativo do Microsoft Teams para chamadas de fila de chamadas, eles precisam estar no modo TeamsOnly.
+Se seus agentes estão usando o aplicativo Microsoft Teams para chamadas de fila de chamadas, eles precisam estar no modo TeamsOnly.
 
-Ao transferir chamadas para um número de telefone externo, a conta de recurso que executa a transferência (ou seja, a associada ao atendimento automático ou fila de chamadas) deve ter uma licença de Usuário Virtual do Sistema de Telefonia do Microsoft 365 e uma das seguintes atribuídas:
+Ao transferir chamadas para um número de telefone externo, a conta de recurso que executa a transferência (ou seja, a associada ao atendimento automático ou fila de chamadas) deve ter uma licença de usuário virtual Microsoft 365 Sistema de Telefonia e uma das seguintes atribuídas:
 
-- Uma [licença do Plano de](calling-plans-for-office-365.md) Chamada
-- Uma [política de roteamento de voz online](manage-voice-routing-policies.md)
+- Uma [licença do Plano de](calling-plans-for-office-365.md) Chamadas e um número de telefone atribuído
+- Uma [política de roteamento de](manage-voice-routing-policies.md) voz online (atribuição de número de telefone é opcional ao usar Roteamento Direto)
 
 > [!NOTE]
-> Os números de serviço de Roteamento Direto para o atendimento automático e filas de chamadas são suportados apenas para usuários do Microsoft Teams e agentes de chamada.<br>
+> Os números de serviço de Roteamento Direto para o atendimento automático e filas de chamadas são suportados somente Microsoft Teams usuários e agentes de chamada.<br>
 > Não há suporte para transferências entre troncos de Plano de Chamadas e Roteamento Direto.<br>
 > Em um cenário híbrido, a conta de recurso deve ser criada no local. Para obter mais informações, consulte [Plan Cloud call queues](/skypeforbusiness/hybrid/plan-call-queue).
 
@@ -114,20 +114,20 @@ Agentes podem ser adicionados às filas de chamada das seguintes maneiras:
 - Usuários individuais
 - Listas de distribuição
 - Grupos de segurança, incluindo grupos de segurança habilitados para email
-- Grupos ou Equipes do Microsoft 365
+- Microsoft 365 Grupos ou Teams
 
-Você pode usar uma combinação dessas opções para cada fila, se necessário. Os grupos que têm um endereço de email podem ser usados para caixa postal. O uso do Teams oferece várias vantagens, incluindo armazenamento de arquivos compartilhados e chat entre agentes, uma caixa de correio comum onde as caixas postal podem ser recebidas e uma plataforma extensível que pode incluir a integração com seus aplicativos de linha de negócios ou Aplicativos do Power.
+Você pode usar uma combinação dessas opções para cada fila, se necessário. Os grupos que têm um endereço de email podem ser usados para caixa postal. O uso Teams oferece várias vantagens, incluindo armazenamento de arquivos compartilhados e chat entre agentes, uma caixa de correio comum onde as caixas postal podem ser recebidas e uma plataforma extensível que pode incluir a integração com seus aplicativos de linha de negócios ou Power Apps.
 
 Recomendamos escolher uma estratégia para adicionar agentes de chamada às filas antes de iniciar sua configuração.
 
 Se você tiver uma infraestrutura de fila de chamadas e atendimento automático existente e estiver migrando para o Teams, precisará de um plano para transferir seus números de telefone existentes para os novos atendimentos automáticos e filas de chamadas. Talvez seja necessário criar uma ordem [de porta para](phone-number-calling-plans/port-order-overview.md) mover seus números de outros provedores. Recomendamos que você adquira temporariamente um ou mais novos números de telefone e teste seus fluxos de fila de chamadas e atendimento automáticos antes de alterná-los sobre os números que você tem no serviço.
 
-*O modo de* conferência é uma opção em filas de chamadas que reduz significativamente o tempo necessário para conectar chamadas VOIP do Teams e chamadas PSTN a um agente. Para que o modo de conferência funcione, os agentes na fila de chamada devem usar um dos seguintes clientes:
+*O modo de* conferência é uma opção em filas de chamadas que reduz significativamente o tempo necessário para conectar Teams chamadas VOIP e PSTN a um agente. Para que o modo de conferência funcione, os agentes na fila de chamada devem usar um dos seguintes clientes:
 
 - A versão mais recente do cliente de área de trabalho do Microsoft Teams, do aplicativo Android ou do aplicativo iOS
   - Versão de telefone do Microsoft Teams 1449/1.0.94.2020051601 ou posterior
   
-De definir as contas do Teams dos Agentes como modo somente do Teams. Os agentes que não atendem aos requisitos não são incluídos na lista de roteamento de chamadas.
+De definir as contas Teams agentes para Teams modo somente de Teams. Os agentes que não atendem aos requisitos não são incluídos na lista de roteamento de chamadas.
 
 É recomendável habilitar o modo de conferência para suas filas de chamadas se todos os agentes estiverem usando clientes compatíveis.
 
@@ -149,10 +149,10 @@ Os atendimentos automáticos roteam todas as chamadas de uma das seguintes manei
 
 Quando as chamadas são redirecionadas por um atendimento automático ou fila de chamadas, você pode escolher entre os seguintes destinos de roteamento de chamadas:
 
-- **Pessoa na organização** - uma pessoa em sua organização que é capaz de receber chamadas de voz. Pode ser um usuário online ou um usuário hospedado no local usando o Skype for Business Server.
+- **Pessoa na organização** - uma pessoa em sua organização que é capaz de receber chamadas de voz. Pode ser um usuário online ou um usuário hospedado no local usando Skype for Business Server.
 - **Aplicativo de voz** - outro atendimento automático ou uma fila de chamadas. Escolha a conta de recurso associada ao destino.
 - **Número de telefone externo** - qualquer número de telefone. (Consulte [detalhes técnicos de transferência externa](create-a-phone-system-auto-attendant.md#external-phone-number-transfers---technical-details)).
-- **Caixa** postal - a caixa de correio de voz associada a um grupo do Microsoft 365 especificado.
+- **Caixa** postal - a caixa de correio de voz associada a um grupo Microsoft 365 que você especificar.
 - **Operador** (somente o atendimento automático) - o operador definido para o atendimento automático. Definir um operador é opcional. Um operador pode ser qualquer um dos outros destinos nesta lista.
 
 Os atendimentos automáticos oferecem opções de roteamento de chamadas separadas para chamadas recebidas fora do horário comercial e feriados. O roteamento de chamadas após o horário permite todas as opções listadas acima, enquanto o roteamento de chamadas de feriado permite apenas redirecionar ou desconectar uma chamada, mas nenhuma opção de chave de discagem.
@@ -199,9 +199,9 @@ Depois de concluir as tarefas de planejamento neste artigo, siga estas etapas pa
 
 1. Obter os números de serviço necessários para os atendimentos automáticos e filas de chamada que você deseja que sejam acessíveis discando diretamente de fora da sua organização. Isso pode incluir [a transferência de números de outro provedor ou](phone-number-calling-plans/transfer-phone-numbers-to-teams.md) a [solicitação de novos números de serviço.](getting-service-phone-numbers.md)
 
-2. Obter um [Sistema de Telefonia - Licença de](teams-add-on-licensing/virtual-user.md) usuário virtual para cada conta de recurso que você planeja criar. Essas licenças são gratuitas, portanto, sugerimos obter alguns extras caso você decida fazer alterações em suas contas de recursos no futuro.
+2. Obter uma [Sistema de Telefonia - Licença de usuário virtual](teams-add-on-licensing/virtual-user.md) para cada conta de recurso que você planeja criar. Essas licenças são gratuitas, portanto, sugerimos obter alguns extras caso você decida fazer alterações em suas contas de recursos no futuro.
 
-3. [Crie uma conta de recurso](manage-resource-accounts.md) para cada atendimento automático e fila de chamada que você deseja criar. Atribua a cada conta um Sistema de Telefonia - Licença do Usuário Virtual e, opcionalmente, um número de serviço.
+3. [Crie uma conta de recurso](manage-resource-accounts.md) para cada atendimento automático e fila de chamada que você deseja criar. Atribua a cada conta uma Sistema de Telefonia - Licença de usuário virtual e, opcionalmente, um número de serviço.
 
 4. [Crie os feriados](set-up-holidays-in-teams.md) para os quais você deseja ter roteamento de chamadas separado em seus atendimentos automáticos.
 
@@ -209,7 +209,7 @@ Depois de concluir as tarefas de planejamento neste artigo, siga estas etapas pa
 
 6. Crie os grupos que você deseja usar para conter os agentes de chamada para as filas de chamada.
 
-7. Se você planeja permitir discagem por extensão, certifique-se de ter adicionado o número de extensão de seus usuários ao perfil do Azure Active Directory.
+7. Se você planeja permitir a discagem por extensão, certifique-se de ter adicionado o número de extensão dos usuários ao perfil Azure Active Directory usuário.
 
 Depois de concluir as etapas acima, você estará pronto para criar seus atendimentos automáticos e filas de chamada. Como os atendimentos automáticos e filas de chamadas podem redirecionar chamadas umas para as outras, consulte o diagrama de fluxo de trabalho criado para determinar qual atendimento automático ou fila de chamadas deve ser criado primeiro. No exemplo no diagrama acima, você criaria as filas de chamada de vendas e suportaria as filas de chamada antes de criar o atendimento automático principal da Contoso, pois o principal atendimento automático precisa direcionar os chamadores para as vendas e dar suporte às filas de chamada.
 

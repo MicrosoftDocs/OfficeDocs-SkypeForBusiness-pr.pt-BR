@@ -19,28 +19,30 @@ ms.custom:
 description: Vídeos de treinamento, apresentações do PowerPoint, tutoriais e outros recursos para administradores sobre como planejar, implantar e executar o Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0b4aa047177e44f5ee922ece2ec327fc4d211c12
-ms.sourcegitcommit: 745b37921a878f1b524a274bfb2fd0732716a5c8
+ms.openlocfilehash: 44f89bc41f8c4f8a866e2c08837f37b282fbe2cb
+ms.sourcegitcommit: 02703e8f9a512848e158a3a4f38d84501ad5f633
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2021
-ms.locfileid: "52498716"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52526664"
 ---
 # <a name="getting-started-with-admin-training-for-microsoft-teams"></a>Iniciando o treinamento de administrador para Microsoft Teams
 
 Use os recursos de treinamento para se instruir sobre o Teams, ensinar outras pessoas ou realizar workshops. Volte aqui frequentemente para novos conteúdos.
 
-|       Ícone        | Descrição               |    Ícone           |Descrição               |
-| :------------ | :------------ | :------------ | :------------ |
-| [Inicie a sua adoção aqui](./get-started-with-teams-quick-start.md) | [Exibir Teams recursos por plataforma](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3) |
-| [Veja vídeos de melhores práticas e instruções no canal Coffee in the Cloud no YouTube](https://www.youtube.com/channel/UCs2IXBqperxWVe2ozrr3Gdg/videos) | [Teams Conversas de giz: aprenda práticas recomendadas e orientações práticas sobre cenários Teams populares](./chalk-talks-landing-page.yml) |
+
+|  |  |
+|---------|---------|
+|[Inicie a sua adoção aqui](./get-started-with-teams-quick-start.md)     |[Exibir Teams recursos por plataforma](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)         |
+|[Veja vídeos de melhores práticas e instruções no canal Coffee in the Cloud no YouTube](https://www.youtube.com/channel/UCs2IXBqperxWVe2ozrr3Gdg/videos)     |[Teams Conversas de giz: aprenda práticas recomendadas e orientações práticas sobre cenários Teams populares](./chalk-talks-landing-page.yml)         |
+
 
 <h2>Principais ofertas de treinamento e cursos</h2>
 
-|   Ícone            | Descrição              |  Ícone             |    Descrição           |
-| :------------ | :------------ | :------------ | :------------ |
-| [Ofereça suporte a trabalhadores remotos usando o Microsoft Teams](support-remote-work-with-teams.md#support-remote-workers-using-microsoft-teams) | [Teams essenciais para a IT](https://aka.ms/MicrosoftTeamsforIT) | [Gerenciar a colaboração de equipe para IT](/learn/paths/m365-manage-team-collaboration) | [Certificação especialista em adoção de serviços](/learn/paths/m365-service-adoption) |
-| [Introdução ao trabalho em equipe no Microsoft 365](/learn/modules/intro-to-teamwork-in-m365/index) | [Certificado da Microsoft 365: Administrador Associado de Trabalho em Equipe](/learning/m365-teamwork-administrator.aspx) |
+| | |  |
+|---------|---------|---------|
+|[**Teams essenciais**](https://aka.ms/MicrosoftTeamsforIT) para TI – a série de vídeo "Teams para TI" da Microsoft mostra a você – o administrador – como lançar, configurar e gerenciar Teams.     |[**Suporte a funcionários**](support-remote-work-with-teams.md#support-remote-workers-using-microsoft-teams) remotos usando Microsoft Teams - Obter as orientações de que você precisa , incluindo links para treinamento – para dar suporte aos usuários que estão trabalhando em casa.         |[**Gerenciar a colaboração de equipe para IT**](/learn/paths/m365-manage-team-collaboration) - Saiba como usar o Teams para facilitar o trabalho em equipe e comunicação em sua organização em aplicativos e dispositivos.         |
+|[**Certificação de Especialista em Adoção**](/learn/paths/m365-service-adoption) de Serviços - O curso de certificação especialista em adoção de serviços da Microsoft Teams. Aprenda a conduzir a adoção dos serviços Microsoft em sua organização.     |[**Introdução ao trabalho em equipe Microsoft 365**](/learn/modules/intro-to-teamwork-in-m365/index) - O curso de Certificação de Especialista em Adoção de Serviços da Microsoft Teams. Aprenda a conduzir a adoção dos serviços Microsoft em sua organização.        |[**Microsoft 365 Certificado:**](/learning/m365-teamwork-administrator.aspx) Associado ao Administrador de Trabalho em Equipe - os administradores de trabalho em equipe do Microsoft 365 configuram, implantam e gerenciam cargas de trabalho do Microsoft 365 ou Office 365, como SharePoint (online, local e híbrida), OneDrive e Teams.        |
 
 
 <h2>Treinamento técnico</h2>
