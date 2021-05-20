@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 83c1693125140fcb78d2267ad3955f67d5c5d9a9
-ms.sourcegitcommit: 745b37921a878f1b524a274bfb2fd0732716a5c8
+ms.openlocfilehash: 93a58b878443943b2dbd8322dc710bf59d3827e9
+ms.sourcegitcommit: 6227667c9941cc3289029099b7b6781581f16ea7
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2021
-ms.locfileid: "52498766"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52569229"
 ---
 # <a name="required-mobile-diagnostic-data-for-microsoft-teams"></a>Dados de diagnóstico móvel necessários para o Microsoft Teams
 
@@ -1188,11 +1188,43 @@ O artigo a seguir contém uma lista de eventos do Microsoft Teams para dispositi
 - **whiteboardUsed** - um usuário anota em um quadro de comunicações (qualquer ação no WebView).
 - **wiki - No AS assigned** - telemetria de uso do wiki.
 
+### <a name="panelview"></a>Panelview
+
+> [!NOTE]
+> Para obter informações sobre as propriedades de eventos PanelView, consulte [Propriedades enviadas com os eventos PanelView](#properties-sent-with-panelview-events).
+
+- **fileDeleteF** - Acionanda quando uma operação de exclusão de arquivo falha.
+- **fileDeleteSucces** - Acionada quando uma operação de exclusão de arquivo é bem-sucedida.
+- **filePreview** - Acionada nos seguintes cenários:
+  - Quando a opção de compartilhamento é mapeada na tela de visualização de arquivo.
+  - Quando a opção Copiar é mapeada na tela de visualização de arquivo.
+  - Quando a opção de download é mapeada na tela de visualização de arquivo.
+  - Quando uma visualização de arquivo é carregada com êxito.
+- **files** - Acionada nos seguintes cenários:
+  - Quando um arquivo é visualizado no aplicativo do Teams.
+  - Quando a opção de carregamento de arquivo é mapeada na tela de arquivos do OneDrive.
+  - Quando a opção "Copiar Link" é mapeada na tela de visualização de arquivo.
+  - Quando a tela de compartilhamento de arquivos for descartada.
+  - Quando o menu de opções de arquivos é aberto ou quando uma das opções nesse menu é mapeada.
+  - Quando a tela de arquivos "in-call" é aberta.
+  - Quando um arquivo é mapeado para abrir.
+- **filesChannel** - Acionada quando a tela de arquivos de canal é aberta.
+- **fileSources** - Acionada quando o menu de opções de arquivos é aberto ou quando uma das opções nesse menu é mapeada.
+- **filesPersonal** – Acionada quando um lote de arquivos é carregado na tela de arquivos recentes ou do OneDrive.
+- **fileUploadDeleteTried** - Acionada quando um anexo de arquivo é excluído ou desgastado da área da mensagem.
+- **fileUploadFloadFload** - Acionada quando uma operação de carregamento de arquivo falha.
+- **fileUploadIndividualNotification** - Acionada quando o conteúdo da notificação de upload de arquivo é alterado ou quando há interação com a notificação. As interações podem incluir gestos como deslizar a tela para descartar a notificação ou tocar na notificação, etc.
+- **fileUploadSuccess** - Acionada quando uma operação de carregamento de arquivo é bem-sucedida.
+- **fileUploadSummaryNotification** – Acionada quando o conteúdo da notificação de resumo de upload de arquivo é alterado ou quando há interação com a notificação. As interações podem incluir gestos como deslizar a tela para descartar a notificação ou tocar na notificação, etc.
+- **meetingFiles** - Acionada quando a tela de arquivos de reunião é aberta.
+- **navPersonalFiles** - Acionada quando a navegação para a tela de arquivos é executada.
+
 ### <a name="scenario"></a>Cenário
 
 > [!NOTE]
 > Para obter informações sobre as propriedades de eventos PanelAction, consulte [Propriedades enviadas com os eventos de cenário](#properties-sent-with-scenario-events).
 
+- **chat_add_giphy** - Confirma se a ação de renderização do GIF Giphy foi bem-sucedida ou falhou.
 - **cortanaError** para monitorar o erro ocorrido da Cortana.
 - **cortanaView** – para monitorar o aparecimento da tela da Cortana.
 - **cortanaRestart** para monitorar a reinicialização da Cortana.
@@ -1216,6 +1248,7 @@ O artigo a seguir contém uma lista de eventos do Microsoft Teams para dispositi
 - **create_personal_task** - confirma a criação bem-sucedida de um item de tarefa pessoal.
 - **create_planner_plan_and_nav_to_view** - confirma a criação bem-sucedida de uma lista de tarefas compartilhadas e quanto tempo demora para um usuário chegar na exibição resultante após a ação.
 - **create_planner_task** - confirma a criação bem-sucedida de um item de tarefa compartilhada.
+- **forwardExistingAmsObject** Confirma se a ação de encaminhamento de mídia foi bem-sucedida ou falhou.
 - **delete_personal_plan** - confirma a exclusão bem-sucedida de uma lista pessoal de tarefas.
 - **delete_personal_task** - confirma a exclusão bem-sucedida de um item de tarefas pessoais.
 - **delete_planner_plan** - confirma a exclusão bem-sucedida de uma lista de tarefas compartilhada.
@@ -1231,13 +1264,20 @@ O artigo a seguir contém uma lista de eventos do Microsoft Teams para dispositi
 - **meetingInsightLocatorRender** - confirma a renderização da dica de locador de conteúdo relacionado à reunião.
 - **meetingInsightRender** - confirma a renderização do conteúdo relacionado à reunião.
 - **meetingInsightVisible** - confirma a visibilidade do conteúdo relacionado à reunião.
+- **open_image** Confirma se o processamento de imagem em tela inteira foi bem-sucedido ou falhou.
 - **rename_personal_plan** - confirma a renomeação bem-sucedida de uma lista pessoal de tarefas.
 - **rename_planner_plan** - confirma a renomeação bem-sucedida de uma lista de tarefas compartilhada.
+- **save_image** Confirma se a ação de salvar imagem foi bem-sucedida ou falhou.
+- **share_image** Confirma se a ação de compartilhamento de imagem foi bem-sucedida ou falhou.
 - **smart_reply_enabled** - confirma que a resposta inteligente está habilitada para o usuário atual.
 - **smart_reply_received** - confirma que uma sugestão de resposta inteligente foi recebida.
 - **smart_reply_banned** - confirma que a resposta inteligente não pode ser exibida para o usuário atual.
 - **update_planner_task_and_nav_to_view** - confirma a atualização bem-sucedida de um item de tarefa compartilhada e quanto tempo demora para um usuário chegar à exibição resultante após a ação.
-- **update_personal_task_and_nav_to_view** - confirma a atualização bem-sucedida de um item de tarefa pessoal e quanto tempo demora para um usuário chegar à exibição resultante após - **updatePlannerTask** - confirma que um usuário atualizou com sucesso uma tarefa em uma lista de tarefa compartilhadas.
+- **update_personal_task_and_nav_to_view** - confirma a atualização bem-sucedida de um item de tarefa pessoal e quanto tempo demora para um usuário chegar à exibição resultante após 
+- **updatePlannerTask** - Confirma se um usuário atualizou com êxito uma tarefa em uma lista de contatos compartilhados.
+- **upload_images** Confirma se a ação de carregamento de imagem foi bem-sucedida ou falhou.
+- **upload_voice_messages** Confirma se a ação de carregamento de mensagem de voz foi bem-sucedida ou falhou.
+- **voiceMessageUpload** Confirma se a ação de carregamento da mensagem de voz foi bem-sucedida ou falhou.
 
 ## <a name="property-lists"></a>Listas de propriedades
 

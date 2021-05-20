@@ -20,12 +20,12 @@ localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cafd88594935565595a48a55c6a6b8f07d254345
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 4ca2c048b28d82c7c41a7f98712264c739bce210
+ms.sourcegitcommit: d5e77f8a3b8084ed92f0a77888a555626309591b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117669"
+ms.lasthandoff: 05/18/2021
+ms.locfileid: "52517734"
 ---
 # <a name="admin-quick-start---meetings-and-live-events-in-microsoft-teams"></a>Início rápido do administrador – reuniões e eventos ao vivo no Microsoft Teams
 
@@ -34,9 +34,9 @@ Há duas maneiras de se reunir no Microsoft Teams - reuniões e eventos ao vivo.
 > [!Note]
 > Para saber mais sobre configuração rápida de reuniões e eventos do Teams em diferentes plataformas, confira [recursos do Teams por plataforma](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3).
 
- - **Reuniões** no Teams incluem áudio, vídeo e compartilhamento de tela para até 300 pessoas. Elas são uma das principais maneiras de colaboração no Teams. E não é necessário ser membro de uma organização (ou até mesmo ter uma conta no Teams!) para participar de uma reunião no Teams - basta verificar no convite as instruções sobre como ingressar.
+ - **Reuniões** no Teams incluem compartilhamento de áudio, vídeo e tela para até 1000 pessoas. Elas são uma das principais formas de colaboração no Teams. E você não precisa ser membro de uma organização (ou mesmo ter uma conta do Teams!) para participar de uma reunião do Teams — basta olhar no convite para obter instruções sobre como ingressar.
 
- - **Eventos ao vivo** são uma extensão das reuniões do Teams que permitem agendar e produzir eventos que podem ser transmitidos para grandes públicos online – até 10.000 pessoas. Se precisar de uma reunião para mais de 300 pessoas, use um evento ao vivo.
+ - **Eventos ao vivo** são uma extensão das reuniões do Teams que permitem agendar e produzir eventos que são transmitidos para grandes audiências online, até 10.000 pessoas. Se você precisar de uma reunião para mais de 1000 pessoas, use um evento ao vivo.
 
 ## <a name="get-licenses-for-meetings-and-live-events"></a>Obter licenças para reuniões e eventos ao vivo
 
