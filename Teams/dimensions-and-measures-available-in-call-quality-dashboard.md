@@ -22,12 +22,12 @@ ms.custom:
 - Reporting
 - seo-marvel-mar2020
 description: Obter informações detalhadas sobre as dimensões e medidas usadas pelo Painel de Qualidade de Chamada (CQD) para Microsoft Teams e Skype for Business Online.
-ms.openlocfilehash: 981c5811f00d2e9005bd1387a7b58d23431af848
-ms.sourcegitcommit: 50ec59b454e751d952cde9fd13c8017529d0e1d6
+ms.openlocfilehash: b44323d8fd15b3e0f97269afe7459981348d977b
+ms.sourcegitcommit: d3a5efa1e11e4dad97f31d633d31aa7c9b2dee57
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/13/2021
-ms.locfileid: "52469733"
+ms.lasthandoff: 05/20/2021
+ms.locfileid: "52583920"
 ---
 # <a name="dimensions-and-measurements-available-in-call-quality-dashboard-cqd"></a>Dimensões e medidas disponíveis no Painel de Qualidade de Chamada (CQD)
 
@@ -157,7 +157,7 @@ As informações de dimensões são baseadas em parte nos dados carregados no po
 | Duração (Minutos)  | Intervalo (minutos)  | Duração do fluxo em minutos. Valores agrupados por intervalo. <br/> **Valor de exemplo:** 065: [3 a 4) ||
 | Duração (Segundos)  | Intervalo (segundos) | Duração do fluxo em segundos. Valores agrupados por intervalo. <br/> **Valor de exemplo:** 062: [1 -2)||
 |**Data**|||
-|Hora de Término|  Cadeia de caracteres| Hora do dia em que a chamada terminou.|&bull; Falha na configuração de chamada |
+|Hora de Término|  Cadeia de caracteres| Hora do dia em que a chamada terminou.|&bull; A configuração de chamada falhou ou não foi estabelecida (consulte Motivo de resposta do CDR) |
 | Year  | Integer  | Ano do final do fluxo. Os valores são relatados no fuso horário UTC. <br/> **Valor de exemplo:** 2018 | |
 | Mês  | Integer  | Mês do final do fluxo. Os valores são relatados no fuso horário UTC. <br/> **Valor de exemplo:** 2 | |
 | Dia  | Integer  | Dia do fim do fluxo. Os valores são relatados no fuso horário UTC. <br/> **Valor de exemplo:** 1 | |
@@ -168,10 +168,10 @@ As informações de dimensões são baseadas em parte nos dados carregados no po
 | Dia do Ano  | Integer  | Dia do ano do final do fluxo. Os valores são relatados no fuso horário UTC. <br/> **Valor de exemplo:** 32 | |
 | Dia da Semana  | Cadeia de caracteres  | Dia da semana do final do fluxo. Os valores são relatados no fuso horário UTC. <br/> **Valor de exemplo:** Quarta-feira | |
 | Número do dia da semana  | Integer  | Número de dia da semana do final do fluxo. Os valores são relatados no fuso horário UTC. <br/> **Valor de exemplo:** 3 | |
-|Semana|  Cadeia de caracteres  |Data inicial da semana em que a chamada ocorreu. <br/> **Valor de exemplo:** 2019-09-01 |&bull; Falha na configuração de chamada |
+|Semana|  Cadeia de caracteres  |Data inicial da semana em que a chamada ocorreu. <br/> **Valor de exemplo:** 2019-09-01 |&bull; A configuração de chamada falhou ou não foi estabelecida (consulte Motivo de resposta do CDR) |
 | Month Year  | Cadeia de caracteres  | Mês e ano do final do fluxo. Os valores são relatados no fuso horário UTC. <br/> **Valor de exemplo:** 2017-02 | |
 | Mês Completo  | Data e hora  | Mês completo do final do fluxo. Os valores são relatados no fuso horário UTC. <br/> **Valor de exemplo:** 2017-02-01T00:00:00 | |
-|Hora de início|Cadeia de caracteres  |Hora do dia em que a chamada foi iniciada.|&bull; Falha na configuração de chamada |
+|Hora de início|Cadeia de caracteres  |Hora do dia em que a chamada foi iniciada.|&bull; A configuração de chamada falhou ou não foi estabelecida (consulte Motivo de resposta do CDR) |
 |**UserAgent** | | |
 | Primeiro Domínio  | Cadeia de caracteres  | Domínio do usuário do primeiro ponto de extremidade. Se o primeiro ponto de extremidade for um servidor de conferência, ele usará o domínio do organizador da reunião. Também pode ser o domínio das contas de serviço usadas no cenário.  <br/> **Valor de exemplo:** contoso <span></span> .com | |
 | Segundo Domínio  | Cadeia de caracteres  | Domínio do usuário do segundo ponto de extremidade. Se o segundo ponto de extremidade for um servidor de conferência, ele usará o domínio do organizador da reunião. Também pode ser o domínio das contas de serviço usadas no cenário. <br/> **Valor de exemplo:** contoso <span></span> .com  | |

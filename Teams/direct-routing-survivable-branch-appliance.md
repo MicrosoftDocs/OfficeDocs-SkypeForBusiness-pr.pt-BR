@@ -21,21 +21,21 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: edf2c2a97bec2b167f1218d983d3c9f7fa4bd667
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 6d6342f41b3cd4bfad690794c0b6474ca45e78c8
+ms.sourcegitcommit: bdd9901db1fc741aaec9c7ddcf5ee1caaca4d777
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51096421"
+ms.lasthandoff: 05/20/2021
+ms.locfileid: "52589235"
 ---
 # <a name="survivable-branch-appliance-sba-for-direct-routing"></a>Aparelho de Filial Desavivável (SBA) para Roteamento Direto
 
 
-Ocasionalmente, um site do cliente que usa Roteamento Direto para se conectar ao Microsoft Phone System pode ter uma paralisação na Internet.
+Ocasionalmente, um site do cliente que usa Roteamento Direto para se conectar ao Telefone Microsoft System pode ter uma paralisação na Internet.
 
 Suponha que o site do cliente , chamado de filial, temporariamente não possa se conectar à nuvem da Microsoft por meio do Roteamento Direto. No entanto, a intranet dentro da filial ainda está totalmente funcional e os usuários podem se conectar ao Controlador de Borda de Sessão (SBC) que está fornecendo conectividade PSTN.
 
-Este artigo descreve como usar um Aparelho de Filial Desavivável (SBA) para permitir que o Microsoft Phone System continue a fazer e receber chamadas PSTN (Rede Telefônica Pública Comutado) no caso de uma paralisação.
+Este artigo descreve como usar um Aparelho de Filial Desavivável (SBA) para permitir que o sistema Telefone Microsoft continue a fazer e receber chamadas PSTN (Rede Telefônica Pública Comutado) no caso de uma paralisação.
 
 ## <a name="prerequisites"></a>Pré-requisitos
 
@@ -43,23 +43,23 @@ O SBA é um código distribuível fornecido pela Microsoft para fornecedores SBC
 
 Para obter o firmware mais recente do Controlador de Borda de Sessão com o Aparelho de Filial Suportável incorporado, entre em contato com o fornecedor SBC. Além disso, o seguinte é necessário:
 
-- O SBC precisa ser configurado para o Desvio de Mídia para garantir que o cliente do Microsoft Teams no site de filial possa ter a mídia fluindo diretamente com o SBC. 
+- O SBC precisa ser configurado para Bypass de Mídia para garantir que o cliente Microsoft Teams no site de filial possa ter a mídia fluindo diretamente com o SBC. 
 
 - O TLS1.2 deve estar habilitado no sistema operacional VM do SBA.
 
-## <a name="supported-teams-clients"></a>Clientes do Teams com suporte
+## <a name="supported-teams-clients"></a>Clientes Teams com suporte
 
-O recurso SBA é suportado nos seguintes clientes do Microsoft Teams: 
+O recurso SBA é suportado nos seguintes clientes Microsoft Teams: 
 
-- Área de trabalho do Microsoft Teams Windows 
+- Microsoft Teams Windows desktop 
 
-- Área de trabalho macOS do Microsoft Teams 
+- Microsoft Teams macOS desktop 
 
 ## <a name="how-it-works"></a>Como funciona
 
-Durante uma interrupção na Internet, o cliente do Teams deve alternar para o SBA automaticamente e as chamadas em andamento devem continuar sem interrupções. Nenhuma ação é necessária do usuário. Assim que o cliente do Teams detectar que a Internet está em funcionamento e todas as chamadas de saída são concluídas, o cliente retornará ao modo de operação normal e se conectará a outros serviços do Teams. O SBA carregará registros de dados de chamada coletados na nuvem e o histórico de chamada será atualizado para que essas informações sejam disponibilizadas para revisão pelo administrador do locatário. 
+Durante uma interrupção na Internet, Teams cliente deve alternar para o SBA automaticamente e as chamadas em andamento devem continuar sem interrupções. Nenhuma ação é necessária do usuário. Assim que o cliente Teams detectar que a Internet está em funcionamento e todas as chamadas de saída são concluídas, o cliente retornará ao modo de operação normal e se conectará a outros serviços Teams serviços. O SBA carregará registros de dados de chamada coletados na nuvem e o histórico de chamada será atualizado para que essas informações sejam disponibilizadas para revisão pelo administrador do locatário. 
 
-Quando o cliente do Microsoft Teams está no modo offline, a seguinte funcionalidade relacionada a chamada está disponível: 
+Quando o Microsoft Teams cliente está no modo offline, a seguinte funcionalidade relacionada a chamada está disponível: 
 
 - Fazendo chamadas PSTN via SBA/SBC local com a mídia fluindo através do SBC.
 
@@ -69,14 +69,14 @@ Quando o cliente do Microsoft Teams está no modo offline, a seguinte funcionali
 
 ## <a name="configuration"></a>Configuração
 
-Para que o recurso SBA funcione, o cliente do Teams precisa saber quais SBAs estão disponíveis em cada site de filial e quais SBAs são atribuídos aos usuários nesse site. As etapas de configuração são as seguintes:
+Para que o recurso SBA funcione, o cliente Teams precisa saber quais SBAs estão disponíveis em cada site de filial e quais SBAs são atribuídos aos usuários nesse site. As etapas de configuração são as seguintes:
 
 1. Crie os SBAs.
-2. Crie a política de sobrevivência de filial do Teams.
+2. Crie a Teams de sobrevivência de filial.
 3. Atribua a política aos usuários.
-4. Registre um aplicativo para o SBA com o Azure Active Directory.
+4. Registre um aplicativo para o SBA com Azure Active Directory.
 
-Toda a configuração é feita usando cmdlets do PowerShell do Skype for Business Online. (O centro de administração do Teams ainda não dá suporte ao recurso SBA de Roteamento Direto.) 
+Toda a configuração é feita usando Skype for Business cmdlets do PowerShell Online. (O Teams de administração do Teams ainda não dá suporte ao recurso SBA de Roteamento Direto.) 
 
 (Para obter informações sobre como configurar o SBC, com links para a documentação do fornecedor SBC, consulte Session Border Controller configuration at the end of this article.)
 
@@ -102,7 +102,7 @@ Site        :
 Description : SBA 1 
 ```
 
-### <a name="create-the-teams-branch-survivability-policy"></a>Criar a Política de Sobrevivência de Filial do Teams 
+### <a name="create-the-teams-branch-survivability-policy"></a>Criar a política Teams de sobrevivência de filial 
 
 Para criar uma política, use o cmdlet New-CsTeamsSurvivableBranchAppliancePolicy. Este cmdlet tem os seguintes parâmetros. Observe que a política pode conter um ou mais SBAs.
 
@@ -149,15 +149,15 @@ Você pode remover uma política de um usuário concedendo a política de $Null 
 C:\> Grant-CsTeamsSurvivableBranchAppliancePolicy -PolicyName $Null -Identity user@contoso.com 
 ```
 
-### <a name="register-an-application-for-the-sba-with-azure-active-directory"></a>Registrar um aplicativo para o SBA com o Azure Active Directory
+### <a name="register-an-application-for-the-sba-with-azure-active-directory"></a>Registrar um aplicativo para o SBA com Azure Active Directory
 
-Para permitir que diferentes SBAs usados em seu locatário leiam os dados necessários do Microsoft 365, você precisa registrar um aplicativo para o SBA com o Azure Active Directory. 
+Para permitir que diferentes SBAs usados em seu locatário leiam os dados necessários do Microsoft 365, você precisa registrar um aplicativo para o SBA com Azure Active Directory. 
 
 Para obter mais informações sobre o registro do aplicativo, consulte o seguinte:
 
-- [Desenvolver aplicativos de linha de negócios para o Azure Active Directory](/azure/active-directory/manage-apps/developer-guidance-for-integrating-applications)
+- [Desenvolver aplicativos de linha de negócios para Azure Active Directory](/azure/active-directory/manage-apps/developer-guidance-for-integrating-applications)
 
-- [Registre um aplicativo na plataforma de identidade da Microsoft.](/azure/active-directory/develop/quickstart-register-app)  
+- [Registre um aplicativo com o plataforma de identidade da Microsoft](/azure/active-directory/develop/quickstart-register-app).  
 
 Você só precisa registrar um aplicativo para uso por todos os SBAs em seu locatário. 
 
@@ -172,7 +172,7 @@ Para o aplicativo SBA, lembre-se do seguinte:
 - Tipos de conta com suporte = Conta somente neste diretório organizacional. 
 - O Uri de Redirecionamento da Web = https://login.microsoftonline.com/common/oauth2/nativeclient .
 - Tokens de concessão implícitos = tokens de acesso e tokens de ID. 
-- Permissões de API = Skype and Teams Tenant Admin Access -> Application permissions -> application_access_custom_sba_appliance.
+- Permissões de API = Skype e Teams acesso de administrador de locatário -> Permissões de aplicativo -> application_access_custom_sba_appliance.
 - Segredo do cliente: você pode usar qualquer descrição e expiração. 
 - Lembre-se de copiar o segredo do cliente imediatamente após a criação. 
 - A ID do aplicativo (cliente) é mostrada na guia Visão geral.
@@ -212,5 +212,3 @@ Reporte quaisquer problemas à organização de suporte do fornecedor SBC. Ao re
 - O SBA não dá suporte às configurações de encaminhamento de chamada. 
 
 - Não há suporte para fazer uma chamada de emergência para um número de emergência configurado para chamada de emergência dinâmica (E911).
-
-- A saída de Get-CsOnlineUser mostra TeamsBranchSurvivabilityPolicy.
