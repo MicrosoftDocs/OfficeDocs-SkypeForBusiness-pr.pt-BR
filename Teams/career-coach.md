@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9911f880ba817afff10acb2a347a5c8c776d059c
-ms.sourcegitcommit: 49cdcf344c63c805bcb6365804c6f5d1393e926a
+ms.openlocfilehash: d2a5bc0f459bb9e7dac8878a5ad75911ba4b1b82
+ms.sourcegitcommit: 330e60ff3549cd5cff5b52ad95dc4259e4e8de13
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/03/2021
-ms.locfileid: "52129954"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52628900"
 ---
 # <a name="purchase-configure-and-enable-career-coach-for-microsoft-teams"></a>Comprar, configurar e habilitar o Career Coach para Microsoft Teams
 
@@ -194,13 +194,6 @@ O documento precisa estar no formato CSV com um tamanho máximo de 18 MB. O docu
 > [!NOTE]
 > Comece com o [documento de catálogo de cursos]( https://aka.ms/career-coach/docs/it-admins/sample-catalog) de exemplo para começar.
 
-##### <a name="sample-csv-file"></a>Exemplo .CSV arquivo
-
-```
-courseId,title,sourceLink,description,language,format,thumbnailLink,thumbnailAltText,educationLevel,topics
-"AA-501","Analytics Foundations","https://example.com/course-id","This course equips the student with the knowledge and skills needed to conduct and present large-scale studies based on advanced analytics.","en-us","In-person","https://via.placeholder.com/360x200","Undergraduate","Alt text for the thumbnail","analytics, data science, data analysis, linear regression"
-```
-
 A tabela a seguir mostra os itens a incluir no catálogo de cursos:
 
 
@@ -260,6 +253,10 @@ O Career Coach pode ser personalizado para ser exclusivo da sua instituição ed
   
 3. Selecione **Aplicar**.
 
+## <a name="making-career-coach-available-to-your-organization"></a>Disponibilizar o Career Coach para sua organização
+
+Agora que o Career Coach foi configurado para sua organização. Siga estas etapas para garantir que o Career Coach está disponível para a organização Microsoft Teams.
+
 ### <a name="enable-the-app"></a>Habilitar o aplicativo
 
 Depois de concluir a configuração, habilita o aplicativo para alunos e usuários licenciados para que eles tenham acesso ao Career Coach.  
@@ -276,21 +273,37 @@ Depois de concluir a configuração, habilita o aplicativo para alunos e usuári
   > [!NOTE]
   > Permitido significa que o aplicativo está disponível para usuários em sua instituição educacional. Bloqueado significa que o aplicativo não está disponível para os alunos.
 
-#### <a name="pin-the-app"></a>Fixar o aplicativo
+### <a name="add-career-coach-as-an-installed-app"></a>Adicionar o Career Coach como um aplicativo instalado
+
+> [!NOTE]
+> Esta etapa garante 1) que o Career Coach seja configurado corretamente para sua organização 2) que os alunos encontrem o Career Coach.
+
+1. Entre no centro de **administração Teams.**
+
+2. Selecione **Teams políticas de instalação de** &gt;  &gt; *aplicativos Sua política*. 
+
+3. Em Aplicativos instalados, selecione Adicionar aplicativos.
+
+4. No painel Adicionar aplicativos instalados, pesquise os aplicativos que você deseja instalar automaticamente para os usuários quando eles começarem a Teams. Você também pode filtrar aplicativos por política de permissão do aplicativo. Quando você escolher sua lista de aplicativos, selecione Adicionar.
+
+### <a name="pin-the-app"></a>Fixar o aplicativo
 
 O Pinning Career Coach torna o aplicativo mais acessível e visível para os alunos.
 
 1. Entre no centro de **administração Teams.**
 
-1. Selecione **Teams políticas de instalação de** &gt;  &gt; *aplicativos Sua política*. 
+2. Selecione **Teams políticas de instalação de** &gt;  &gt; *aplicativos Sua política*. 
 
-2. Em **Aplicativos Fixados,** escolha **Adicionar aplicativos**.
+3. Em **Aplicativos Fixados,** escolha **Adicionar aplicativos**.
 
-1. **Pesquise o Técnico** de Carreira e selecione **Adicionar**.
+4. **Pesquise o Técnico** de Carreira e selecione **Adicionar**.
 
-1. Escolha a ordem para que o aplicativo apareça e selecione **Salvar**.
+5. Escolha a ordem para que o aplicativo apareça e selecione **Salvar**.
 
-   Os alunos serão notificados Microsoft Teams que o Career Coach foi fixado.  
+> [!NOTE]
+> Os alunos serão notificados Microsoft Teams que o Career Coach foi fixado.
+
+Referência [Gerenciar políticas de configuração de aplicativos na Microsoft](https://docs.microsoft.com/microsoftteams/teams-app-setup-policies) para obter detalhes adicionais.
 
 ## <a name="resources"></a>Recursos
 

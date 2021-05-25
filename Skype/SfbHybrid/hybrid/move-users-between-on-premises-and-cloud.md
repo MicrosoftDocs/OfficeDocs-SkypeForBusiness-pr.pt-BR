@@ -18,12 +18,12 @@ ms.collection:
 - Adm_Skype4B_Online
 ms.custom: ''
 description: 'Resumo: em uma implantação local do Skype for Business Server que está habilitada para híbrido, você pode mover usuários entre o ambiente local e a nuvem (seja para Microsoft Teams ou para Skype for Business Online antes de sua aposentadoria)..'
-ms.openlocfilehash: 8fce1799ba3e10f2e96b8beab0fbde7805c7c229
-ms.sourcegitcommit: 17ad87556fb8e0de3c498e53f98f951ae3fa526b
+ms.openlocfilehash: 3140811a08f582488e672fccbfa7f34678b813d4
+ms.sourcegitcommit: 9d446485aa842abbdcd34d946b247166c2bf1610
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52305945"
+ms.lasthandoff: 05/25/2021
+ms.locfileid: "52642081"
 ---
 # <a name="move-users-between-on-premises-and-cloud"></a>Mover os usuários entre um ambiente local e a nuvem
 
@@ -40,7 +40,7 @@ Pré-requisitos para mover um usuário para a nuvem (seja para Teams modo Soment
 
 - A organização deve ter o Azure AD Conexão configurado corretamente e estar sincronizando todos os atributos relevantes para o usuário, conforme descrito em [Configure Azure AD Conexão](configure-azure-ad-connect.md).
 - Skype for Business híbrido deve ser configurado, conforme descrito em [Configure Skype for Business híbrido](configure-federation-with-skype-for-business-online.md).
-- O usuário deve ter uma licença para Teams e Skype for Business Online (Plano 2). Mesmo após a aposentadoria do Skype for Business Online, o Skype for Business licese Online ainda é necessário.  Além disso:
+- O usuário deve ter uma licença para Teams e Skype for Business Online (Plano 2). Mesmo após a aposentadoria do Skype for Business Online, a Skype for Business online ainda é necessária.  Além disso:
     - Se o usuário estiver habilitado para conferência discada no local, por padrão, o usuário também deve ter uma licença de Audioconferência atribuída Teams antes de mover o usuário online. Depois de migrar para a nuvem, o usuário será provisionado para conferências de áudio na nuvem. Se, por algum motivo, você quiser mover um usuário para a nuvem, mas não usar a funcionalidade de audioconferência, poderá substituir essa verificação especificando o `BypassAudioConferencingCheck` parâmetro em `Move-CsUser` .
     - Se o usuário estiver habilitado para Enterprise Voice no local, por padrão, o usuário deve ter uma licença Sistema de Telefonia atribuída no Teams antes de mover o usuário online. Depois de migrar para a nuvem, o usuário será provisionado para o sistema de telefonia na nuvem. Se, por algum motivo, você quiser mover um usuário para a nuvem, mas não usar Sistema de Telefonia funcionalidade, poderá substituir essa verificação especificando o `BypassEnterpriseVoiceCheck` parâmetro em `Move-CsUser` .
 
@@ -68,10 +68,10 @@ Para mover os usuários entre o local e a nuvem (seja para Teams ou para o Skype
 
 Para mover os usuários entre o local e a nuvem, você deve usar uma conta com privilégios suficientes no ambiente de Skype for Business Server local, bem como na organização Teams local. Você pode usar uma conta que tenha todos os privilégios necessários ou pode usar duas contas, nesse caso, você acessaria as ferramentas locais usando credenciais locais e, nessas ferramentas, forneceria credenciais adicionais para uma conta administrativa Teams.  
 
-- No ambiente local, o usuário que realizará a mudança deve ter a função CSServerAdminstrator no Skype for Business Server.
+- No ambiente local, o usuário que executa a movimentação deve ter a função CSServerAdministrator no Skype for Business Server.
 - No Teams, o usuário que executa a movimentação deve atender a um dos seguintes critérios:
   - O usuário é membro da função Administrador Global.
-  - O usuário é membro das funções Administrador Teams Administrador e Administrador do Usuário.
+  - O usuário é membro das funções administrador Teams administrador e administrador do usuário.
   - O usuário é membro das funções administrador Skype for Business administrador e administrador do usuário.  
 
     > [!Important]
@@ -97,7 +97,7 @@ Para obter mais detalhes sobre opções de telefonia em ambientes híbridos, bem
 
 As políticas (por exemplo, para controlar mensagens, reuniões e comportamento de chamadas) em ambientes online e locais são independentes. Talvez você queira considerar a configuração de quaisquer políticas no ambiente e atribuí-las ao usuário antes de mover esse usuário do local para a nuvem, para que ele tenha a configuração correta assim que eles são migrados para online.
 
-## <a name="see-also"></a>Também consulte
+## <a name="see-also"></a>Confira também
 
 [Migrar usuários de um ambiente local para o Teams](move-users-from-on-premises-to-teams.md)
 

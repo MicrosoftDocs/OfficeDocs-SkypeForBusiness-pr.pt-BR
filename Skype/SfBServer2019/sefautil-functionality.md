@@ -12,17 +12,17 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
-description: 'Resumo: Saiba como usar o PowerShell para obter a funcionalidade SEFAUtil no Skype for Business Server 2019 após a instalação da Atualização Cumulativa 1.'
-ms.openlocfilehash: d97dd84a3d05cf18752e40dd73a8c5f7e9752d3d
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 'Resumo: saiba como usar o PowerShell para obter a funcionalidade SEFAUtil no Skype for Business Server 2019 após a instalação da Atualização Cumulativa 1.'
+ms.openlocfilehash: fa7bccaa30b559bf694274471b1f8883e8482861
+ms.sourcegitcommit: 330e60ff3549cd5cff5b52ad95dc4259e4e8de13
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51120502"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52629000"
 ---
 # <a name="using-sefautil-functionality-via-powershell-in-skype-for-business-server-2019"></a>Usando a funcionalidade SEFAUtil por meio do PowerShell no Skype for Business Server 2019
 
-SEFAUtil (Ativação de Recurso de Extensão Secundária) permite que os administradores e agentes de assistência do Skype for Business Server configurem as configurações de toque de representante, encaminhamento de chamada e Retirada de Chamadas de Grupo em nome de um usuário do Skype for Business Server. Essa ferramenta também permite que os administradores consultem as configurações de roteamento de chamadas publicadas para um usuário específico. Depois de instalar a atualização cumulativa de julho do Skype for Business Server 2019, a seguinte funcionalidade que pode ser gerenciada apenas por meio do SEFAUtil também será gerenciável por meio do PowerShell:
+SEFAUtil (Ativação de Recurso de Extensão Secundária) permite que os administradores e agentes auxiliares do Skype for Business Server configurem as configurações de toque de representante, encaminhamento de chamada e Retirada de Chamada de Grupo em nome de um usuário Skype for Business Server. Essa ferramenta também permite que os administradores consultem as configurações de roteamento de chamadas publicadas para um usuário específico. Depois de instalar a atualização cumulativa Skype for Business Server 2019 de julho de 2019, a seguinte funcionalidade que pode ser gerenciada atualmente apenas por meio do SEFAUtil também será gerenciável por meio do PowerShell:
 
 - [Configurações de encaminhamento de chamada](#call-forwarding-settings)
 - [Configurações de delegação](#delegation-settings)
@@ -52,7 +52,7 @@ Este cmdlet modifica as configurações de encaminhamento de chamada do usuário
 - `Set-CsUserCallForwardingSettings [-Identity] <UserIdParameter> -EnableSimulRing <String> [-UnansweredToVoicemail]  [-UnansweredWaitTime <TimeSpan>] [-Delegates <PSListModifier>] [-Team <PSListModifier>] [-TeamDelegateRingWaitTime <TimeSpan>] [-SettingsActiveWorkHours]`
 - `Set-CsUserCallForwardingSettings [-Identity] <UserIdParameter> -EnableSimulRing <String> [-UnansweredToOther <String>] [-UnansweredWaitTime <TimeSpan>] [-Delegates <PSListModifier>]  [-Team <PSListModifier>]  [-TeamDelegateRingWaitTime <TimeSpan>]  [-SettingsActiveWorkHours]`
 
-Este cmdlet modifica as configurações de SimulRing (novamente, com dois exemplos de parâmetros, um para não responder à caixa postal e o segundo sem resposta para outro).
+Este cmdlet modifica as configurações de anel simultâneo (novamente, com dois exemplos de parâmetro, um para não responder à caixa postal e o segundo sem resposta para outro).
 
 ## <a name="delegation-settings"></a>Configurações de delegação
 
@@ -64,7 +64,7 @@ Este cmdlet retorna um objeto de lista de representantes e exibe a lista de repr
 
 - `Set-CsUserDelegates -Identity <UserIdParameter> [-Delegates <PSListModifier>]`
 
-Este cmdlet modifica as configurações de delegação do usuário especificado, retorna um objeto de lista de representantes e exibe a lista de representantes, em caso de sucesso. Em caso de falha, uma mensagem de erro apropriada será mostrada. 
+Este cmdlet modifica as configurações de delegação do usuário especificado, retorna um objeto de lista de representantes e exibe a lista de representantes, em caso de êxito. Em caso de falha, uma mensagem de erro apropriada será mostrada. 
 
 - `Set-CsUserDelegates -Identity <UserIdParameter> [-Delegates @{add=[list]}] [-Delegates @{remove=[list]}]`
 
@@ -103,7 +103,7 @@ Para implantações locais, os cmdlets introduzidos neste recurso só podem ser 
 - CsHelpDesk - Obter para todos os cmdlets
 
 Para obter mais informações sobre essas funções de administrador, consulte [Create Skype for Business Server Control Panel Administrators](../SfbServer/help-topics/help-depwiz/create-skype-for-business-server-control-panel-administrators.md). O administrador pode acessar esses cmdlets fazendo logon diretamente ou remotamente em um computador servidor.
-Para uma implantação híbrida, os administradores do Skype for Business devem ser capazes de chamar Get and Set para todos os cmdlets. Para obter mais informações sobre a lista completa de funções, consulte [Sobre funções de administrador](/microsoft-365/admin/add-users/about-admin-roles).
+Para uma implantação híbrida, Skype for Business administradores devem ser capazes de chamar Get and Set para todos os cmdlets. Para obter mais informações sobre a lista completa de funções, consulte [Sobre funções de administrador](/microsoft-365/admin/add-users/about-admin-roles).
 
 > [!NOTE]
 > A descoberta automática do servidor deve estar habilitada. Nenhum requisito adicional de licenciamento será introduzido para uso dos cmdlets.

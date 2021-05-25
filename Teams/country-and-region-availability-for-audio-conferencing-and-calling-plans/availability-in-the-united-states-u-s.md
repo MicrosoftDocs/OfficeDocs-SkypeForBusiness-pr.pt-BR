@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Aqui estão os serviços do Microsoft 365 e do Office 365 para Skype for Business e Microsoft Teams disponíveis para os Estados Unidos.
-ms.openlocfilehash: 65cd883ef6cffc295f8559bbb4b1779cae020946
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Aqui estão os serviços Microsoft 365 Office 365 para Skype for Business e Microsoft Teams disponíveis para os Estados Unidos.
+ms.openlocfilehash: b3503c3a8c5421c7a2059019d3798bf23823960d
+ms.sourcegitcommit: 330e60ff3549cd5cff5b52ad95dc4259e4e8de13
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51094643"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52629030"
 ---
 # <a name="availability-in-the-united-states-us"></a>Disponibilidade nos Estados Unidos (EUA)
 
 [Encontre outro país ou região](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) ou saiba mais sobre a disponibilidade de Audioconferência e planos de chamadas por país e região.
 
-Aqui estão os serviços do Microsoft 365 e do Office 365 para Skype for Business e Microsoft Teams disponíveis para os Estados Unidos. Confira [Como comprar um plano de chamada](../calling-plans-for-office-365.md) para obter mais informações.
+Aqui estão os serviços Microsoft 365 Office 365 para Skype for Business e Microsoft Teams disponíveis para os Estados Unidos. Confira [Como comprar um plano de chamada](../calling-plans-for-office-365.md) para obter mais informações.
 
 ## <a name="audio-conferencing"></a>Audioconferência
 
@@ -64,9 +64,9 @@ Aqui estão os serviços do Microsoft 365 e do Office 365 para Skype for Busines
 | Pode fazer chamadas de saída para números premium? <br/> | Não há suporte no momento. <br/>                                                                                                                                                                                                                                                                                               |
 | É possível fazer chamadas de saída?  <br/>                | Para 196 países, incluindo [estes](users-can-make-outbound-calls-to-these-countries-and-regions.md).<br/>                                                                                                                                                                                                                      |
 > [!Note]
-> As chamadas para o Canadá são tratadas como chamadas domésticas.
+> Quando um usuário do Plano de Chamadas (doméstico ou doméstico e internacional) nos EUA discar um número de telefone no Canadá, ele será tratado como uma chamada doméstica. Esse também é o caso quando um usuário no Canadá disca um número de telefone nos EUA. No entanto, se você também usar políticas de plano de chamada para limitar o discagem do usuário apenas para "doméstico", um usuário dos EUA não poderá chamar o Canadá e, da mesma forma, um usuário do Canadá não poderá chamar um usuário dos EUA.
 
->[!Note] 
+>[!Note]
 > A chamada doméstica dos Estados Unidos inclui chamadas para todos os 50 estados dos EUA e Porto Rico. Os usuários atribuídos ao local de uso da licença dos EUA e/ou porto-riquenho compartilham o mesmo pool de minutos.
 
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Números de chamadas gratuitas e tarifadas para serviços

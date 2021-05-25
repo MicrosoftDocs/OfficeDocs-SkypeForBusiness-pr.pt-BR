@@ -23,17 +23,20 @@ ms.custom:
 - ms.teamsadmincenter.callqueues.overview"
 - Phone System
 - seo-marvel-apr2020
-description: Saiba como configurar o Sistema de Telefonia para filas de chamadas com o Microsoft Teams, que fornece uma mensagem de saudação, música de espera, redirecionamento de chamadas e outros recursos.
-ms.openlocfilehash: 8b4fe4283ac9734c1dc29bf33759039098578744
-ms.sourcegitcommit: 03ff569a0b7a8e04d7b0ab32f370a9a537fa7fe7
+description: Saiba como configurar filas de chamada para grandes organizações no Microsoft Teams, que fornece uma mensagem de saudação, música de espera, redirecionamento de chamada e outros recursos.
+ms.openlocfilehash: 926e3903f0ee59271d0b4806cf61ad02a6f52088
+ms.sourcegitcommit: 330e60ff3549cd5cff5b52ad95dc4259e4e8de13
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "52064797"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52628930"
 ---
 # <a name="create-a-call-queue"></a>Criar uma fila de chamadas
 
 As filas de chamadas fornecem um método de roteamento de chamadas para as pessoas da organização que podem ajudar com um problema ou pergunta específica. As chamadas são distribuídas uma por vez para as pessoas na fila (que são conhecidas como *agentes*). 
+
+> [!TIP]
+> Este artigo é de grandes organizações. Se sua organização for uma pequena empresa, leia Criar uma fila [de chamada - tutorial de pequenas](/microsoftteams/business-voice/create-a-phone-system-call-queue-smb) empresas.
 
 As filas de chamada fornecem:
 
@@ -45,9 +48,7 @@ As filas de chamada fornecem:
 
 - Opções de administração para estouro da fila e tempo limite.
 
-Certifique-se de ter lido [Plan for Teams auto attendants](plan-auto-attendant-call-queue.md) and call queues and followed the getting started [steps](plan-auto-attendant-call-queue.md#getting-started) before you follow the procedures in this article.
-
-Para configurar uma fila de chamadas, no Centro de administração do Teams, expanda **Voz**, clique em **Filas de chamadas** e, em seguida, clique em **Adicionar**.
+Leia Plan for Teams auto attendants and [call queues](plan-auto-attendant-call-queue.md) [](plan-auto-attendant-call-queue.md#getting-started) e siga as etapas de início antes de seguir os procedimentos neste artigo.
 
 ## <a name="video-demonstration"></a>Demonstração de vídeo
 
@@ -55,7 +56,11 @@ Este vídeo mostra um exemplo básico de como criar uma fila de chamada no Teams
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWCF23?autoplay=false]
 
-## <a name="resource-account-and-language"></a>Idioma e conta de recurso
+## <a name="create-the-call-queue"></a>Criar a fila de chamada
+
+Para configurar uma fila de chamadas, no Centro de administração do Teams, expanda **Voz**, clique em **Filas de chamadas** e, em seguida, clique em **Adicionar**.
+
+### <a name="resource-account-and-language"></a>Idioma e conta de recurso
 
 ![Captura de tela das configurações de idioma e da conta de recurso](media/call-queue-name-language.png)
 
@@ -65,7 +70,7 @@ Este vídeo mostra um exemplo básico de como criar uma fila de chamada no Teams
 
 3. Escolha um [idioma com suporte](create-a-phone-system-call-queue-languages.md). Esse idioma será usado para comandos de voz gerados pelo sistema e para a transcrição da caixa postal (se habilitados).
 
-## <a name="greetings-and-music-on-hold-in-queue"></a>Saudações e música de espera na fila
+### <a name="greetings-and-music-on-hold-in-queue"></a>Saudações e música de espera na fila
 
 Especifique se você deseja reproduzir uma saudação aos chamadores quando eles chegarem na fila. Carregue um arquivo MP3, WAV ou WMA contendo a saudação que deseja reproduzir.
 
@@ -75,21 +80,21 @@ O Teams fornece música padrão aos chamadores enquanto eles estão em espera em
 > A gravação carregada não pode ser maior do que 5 MB.
 > A música padrão fornecida nas filas de chamadas do Teams é livre de royalties pagáveis pela organização. 
 
-## <a name="call-agents"></a>Agentes de chamada
+### <a name="call-agents"></a>Agentes de chamada
 
 Revise os [pré-requisitos para adicionar agentes a uma fila de chamada.](plan-auto-attendant-call-queue.md#prerequisites)
 
 ![Captura de tela das configurações de usuários e grupos para filas de chamada](media/call-queue-users-groups.png)
 
-##### <a name="teams-channel"></a>Canal do Teams
+##### <a name="teams-channel"></a>Teams canal
 
-Você pode adicionar até 200 agentes por meio de um canal do Teams.
+Você pode adicionar até 200 agentes por meio de um Teams canal.
 
-Se você quiser usar [um canal do Teams](https://support.microsoft.com/office/9f07dabe-91c6-4a9b-a545-8ffdddd2504e)para gerenciar a fila, selecione a opção Escolher uma **equipe** e clique em Adicionar **um canal**. Pesquise a equipe que você deseja usar, selecione-a e clique em **Adicionar**. Selecione o canal que você deseja usar e clique em **Aplicar**.
+Se você quiser usar [um canal Teams para gerenciar](https://support.microsoft.com/office/9f07dabe-91c6-4a9b-a545-8ffdddd2504e)a fila, selecione a opção Escolher uma **equipe** e clique em Adicionar **um canal**. Pesquise a equipe que você deseja usar, selecione-a e clique em **Adicionar**. Selecione o canal que você deseja usar e clique em **Aplicar**.
 
-Os seguintes clientes são suportados ao usar um canal do Teams para filas de chamada: 
+Os seguintes clientes são suportados ao usar um canal Teams para filas de chamada: 
 
-  - Cliente Microsoft Teams Windows
+  - Microsoft Teams Windows cliente
   - Cliente Microsoft Teams para Mac
 
 ##### <a name="users-and-groups"></a>Usuários e grupos
@@ -105,7 +110,7 @@ Para adicionar um grupo à fila, clique em **Adicionar grupos**, procure o grupo
 > [!NOTE]
 > Os novos usuários adicionados a um grupo podem levar até oito horas para receberem a sua primeira chamada.
 
-## <a name="call-routing"></a>Roteamento de chamadas
+### <a name="call-routing"></a>Roteamento de chamadas
 
 ![Captura de tela das configurações de método de roteamento e modo de conferência](media/call-queue-conference-mode-routing-method.png)
 
@@ -153,7 +158,7 @@ As seguintes configurações são recomendadas:
 > [!NOTE]
 > Se o roteamento baseado em presença não for habilitado e houver várias chamadas na fila, o sistema apresentará essas chamadas simultaneamente aos agentes, independentemente do status de presença. Isso resultará em várias notificações de chamada aos agentes, particularmente se alguns agentes não atenderem à chamada inicial apresentada.
 
-## <a name="call-overflow-handling"></a>Administração de estouro de chamadas
+### <a name="call-overflow-handling"></a>Administração de estouro de chamadas
 
 ![Captura de tela das configurações de estouro de chamadas](media/call-queue-overflow-handling.png)
 
@@ -164,7 +169,7 @@ Você pode optar por desconectar a chamada ou redirecioná-la para qualquer um d
 > [!NOTE]
 > Se o número máximo de chamadas for definido como 0, então a mensagem de saudação não será reproduzida.
 
-## <a name="call-timeout-handling"></a>Administração de tempo limite de chamada
+### <a name="call-timeout-handling"></a>Administração de tempo limite de chamada
 
 ![Captura de tela das configurações de tempo limite de chamada](media/call-queue-timeout-handling.png)
 
@@ -191,7 +196,7 @@ Os clientes a seguir têm suporte para agentes de chamada em uma fila de chamada
   - Cliente Skype for Business para iPad (versão 6.16.0 e posterior)
   - Cliente Microsoft Teams para Windows (versões 32-bit e 64-bit)
   - Cliente Microsoft Teams para Mac
-  - Microsoft Teams na [Infraestrutura de Área de Trabalho Virtualizada](/microsoftteams/teams-for-vdi) (Área de Trabalho Virtual do Windows, Citrix e VMware)
+  - Microsoft Teams infraestrutura [de área de trabalho virtualizada](/microsoftteams/teams-for-vdi) (Windows área de trabalho virtual, Citrix e VMware)
   - Aplicativo Microsoft Teams para iPhone
   - Aplicativo Microsoft Teams para Android
 

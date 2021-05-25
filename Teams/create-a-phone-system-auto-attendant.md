@@ -21,17 +21,20 @@ f1.keywords:
 - CSH
 ms.custom:
 - Phone System
-description: Saiba como configurar e testar os atendimentos automáticos para Microsoft Teams.
-ms.openlocfilehash: 2aef87d1a7885df01b02a5708ac1079ea8021add
-ms.sourcegitcommit: 745b37921a878f1b524a274bfb2fd0732716a5c8
+description: Saiba como configurar e testar os atendimentos automáticos para grandes organizações em Microsoft Teams.
+ms.openlocfilehash: 270a2e613e387b797cb70914ad400da80b15b1ca
+ms.sourcegitcommit: 330e60ff3549cd5cff5b52ad95dc4259e4e8de13
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2021
-ms.locfileid: "52498786"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52628940"
 ---
 # <a name="set-up-an-auto-attendant"></a>Configurar um atendimento automático
 
 Os atendentes automáticos permitem que as pessoas liguem para sua organização e naveguem por um sistema de menus para falar com o departamento certo, fila de chamada, pessoa ou operador. Você pode criar assistentes automáticos para sua organização com o Microsoft Teams de administração ou com o PowerShell.
+
+> [!TIP]
+> Este artigo é de grandes organizações. Se sua organização for uma empresa simples, leia Configurar um atendimento [automático - tutorial de pequenas empresas.](/microsoftteams/business-voice/create-a-phone-system-auto-attendant-smb)
 
 Leia Plan for Teams auto attendants and [call queues](plan-auto-attendant-call-queue.md) [](plan-auto-attendant-call-queue.md#getting-started) e siga as etapas de início antes de seguir os procedimentos neste artigo.
 

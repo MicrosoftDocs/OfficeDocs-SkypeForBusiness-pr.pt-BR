@@ -19,23 +19,22 @@ ms.custom:
 description: Vídeos de treinamento, apresentações do PowerPoint, tutoriais e outros recursos para administradores sobre como planejar, implantar e executar o Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 901a6bd2f6eb2c120af45aef8d4ca9eb4bea45e5
-ms.sourcegitcommit: bdd9901db1fc741aaec9c7ddcf5ee1caaca4d777
+ms.openlocfilehash: 6aa1224982dce5bad2d2a46cb2100bac283ef3ef
+ms.sourcegitcommit: 330e60ff3549cd5cff5b52ad95dc4259e4e8de13
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2021
-ms.locfileid: "52589185"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52628780"
 ---
 # <a name="getting-started-with-admin-training-for-microsoft-teams"></a>Iniciando o treinamento de administrador para Microsoft Teams
 
 Use os recursos de treinamento para se instruir sobre o Teams, ensinar outras pessoas ou realizar workshops. Volte aqui frequentemente para novos conteúdos.
 
-
-|  |  |
-|---------|---------|
-|[Inicie a sua adoção aqui](./get-started-with-teams-quick-start.md)     |[Exibir Teams recursos por plataforma](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)         |
-|[Veja vídeos de melhores práticas e instruções no canal Coffee in the Cloud no YouTube](https://www.youtube.com/channel/UCs2IXBqperxWVe2ozrr3Gdg/videos)     |[Teams Conversas de giz: aprenda práticas recomendadas e orientações práticas sobre cenários Teams populares](./chalk-talks-landing-page.yml)         |
-
+|               |               |               |               |
+| :------------ | :------------ | :------------ | :------------ |
+|![uma mão e uma seta para cima](/office/media/icons/get-started-teams.png) |[Inicie a sua adoção aqui](./get-started-with-teams-quick-start.md)     |![document with a list](/office/media/icons/document-teams.png)|[Exibir Teams recursos por plataforma](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)         |
+|![um botão de reprodução de vídeo](/office/media/icons/video-play.png) |[Veja vídeos de melhores práticas e instruções no canal Coffee in the Cloud no YouTube](https://www.youtube.com/channel/UCs2IXBqperxWVe2ozrr3Gdg/videos)     |![pessoa com uma chave inglesa](/office/media/icons/administrator.png) |[Teams Conversas de giz: aprenda práticas recomendadas e orientações práticas sobre cenários Teams populares](./chalk-talks-landing-page.yml)         |
+|  |  | |
 
 <h2>Principais ofertas de treinamento e cursos</h2>
 
@@ -84,10 +83,12 @@ Use os recursos de treinamento para se instruir sobre o Teams, ensinar outras pe
 
 <p>A tabela a seguir contém links para treinamento em vídeo abrangente, com decks de PowerPoint (no formato PDF), em dispositivos Android Microsoft Teams que inclui telas do Teams, telefones Teams, Salas do Teams para Android e painéis Teams.  
 
-| Módulo | Vídeo | PowerPoint deck (PDF)  |
-| ------------ | -------------------- | -------------------- |
-| Módulo 1: introdução a Microsoft Teams dispositivos Android  | |[Apresentação](https://download.microsoft.com/download/8/0/2/8020c233-8989-4def-b3ea-fb06365c663a/%281%29%20Introduction%20to%20Microsoft%20Teams%20Android%20Devices.pdf) |
-| Módulo 2: Planejamento Microsoft Teams dispositivos Android|| [Apresentação](https://download.microsoft.com/download/f/8/f/f8f94605-9545-449b-b5d3-f24efc55f966/Planning%20Microsoft%20Teams%20Android%20Devices.pdf) |
+| Módulo | PowerPoint deck (PDF)  |
+| ------------| -------------------- |
+| Módulo 1: introdução a Microsoft Teams dispositivos Android  |[Apresentação](https://download.microsoft.com/download/8/0/2/8020c233-8989-4def-b3ea-fb06365c663a/%281%29%20Introduction%20to%20Microsoft%20Teams%20Android%20Devices.pdf) |
+| Módulo 2: Planejamento Microsoft Teams dispositivos Android|[Apresentação](https://download.microsoft.com/download/f/8/f/f8f94605-9545-449b-b5d3-f24efc55f966/Planning%20Microsoft%20Teams%20Android%20Devices.pdf) |
+|Módulo 3: recursos de Microsoft Teams Dispositivos Android |[Apresentação](https://download.microsoft.com/download/c/9/9/c9922544-7e27-40af-bf19-dbdc8516f0c1/Module%203-%20Features%20of%20Microsoft%20Teams%20Android%20Devices.pdf)
+
 <h2>Guias interativos</h2>
 
 | Título                                                                       | Resumo                                                                                                                                                                                                               |  Link para o Guia                             |
