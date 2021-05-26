@@ -17,14 +17,20 @@ search.appverid: MET150
 description: Saiba como configurar o Microsoft 365 Business Voice em sua empresa ou organização de pequeno a médio porte.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 534005df5161a69fd64ac94c444046508b9d7fd1
-ms.sourcegitcommit: 49cdcf344c63c805bcb6365804c6f5d1393e926a
+ms.openlocfilehash: 892b093003accf782b7fb6c0a6234bf1f8beb952
+ms.sourcegitcommit: 592e5a0638c7739dfaa3565b67d4edc621eebc9f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/03/2021
-ms.locfileid: "52130324"
+ms.lasthandoff: 05/26/2021
+ms.locfileid: "52656034"
 ---
 # <a name="set-up-microsoft-365-business-voice"></a>Configurar Microsoft 365 Business Voice
+
+</br>
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWEu8R]  
+
+</br>
 
 O Business Voice é um sistema de telefonia completo que pode substituir seu provedor de telefonia existente. Se você é uma nova empresa configurando números de telefone pela primeira vez ou uma empresa estabelecida mudando de um provedor de telefonia local herdado, as etapas nestes artigos podem ajudá-lo a se levantar e executar com o Business Voice. Quando terminar de configurar o Business Voice:
 

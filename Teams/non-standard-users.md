@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c27a73928e0740eb325c269fd5ac625fa4c43086
-ms.sourcegitcommit: 330e60ff3549cd5cff5b52ad95dc4259e4e8de13
+ms.openlocfilehash: 50ab15d188f2f8a198f59446a0bd5fd8015d0c74
+ms.sourcegitcommit: 592e5a0638c7739dfaa3565b67d4edc621eebc9f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52628920"
+ms.lasthandoff: 05/26/2021
+ms.locfileid: "52656024"
 ---
 # <a name="microsoft-teams-apps-behavior-for-non-standard-users"></a>Microsoft Teams de aplicativos para usuários não padrão
 
@@ -67,8 +67,10 @@ Os usuários externos não podem instalar, atualizar ou excluir aplicativos em q
 
 ### <a name="usage-behavior-and-policy-for-external-users"></a>Comportamento e política de uso para usuários externos
 
-- Os usuários externos não podem usar nenhum aplicativo Teams e, quando um usuário externo é adicionado a um contexto com usuários nativos, todos os usuários – nativos e externos – não podem mais usar aplicativos.
-- Os usuários externos não são afetados pelas políticas de aplicativos, pois não podem usar Teams aplicativos.
+- As pessoas de outras organizações aderem à política de permissão de usuário padrão da organização de hospedagem e às configurações de toda a organização.
+- Os usuários na organização de hospedagem podem adicionar aplicativos em chats de reunião com pessoas de outras organizações. As pessoas de outras organizações não podem adicionar aplicativos em chats de reunião, mas podem interagir com bots e guias depois de adicionados ao chat.
+- Depois que um bot é instalado em um chat, ele pode se comunicar proativamente com pessoas de outras organizações nesse chat e essas pessoas podem se comunicar com o bot.
+- As políticas de dados da organização de hospedagem, bem como as práticas de compartilhamento de dados de quaisquer aplicativos de terceiros compartilhados pela organização desse usuário, são aplicadas.
 
 ## <a name="anonymous-users"></a>Usuários anônimos
 

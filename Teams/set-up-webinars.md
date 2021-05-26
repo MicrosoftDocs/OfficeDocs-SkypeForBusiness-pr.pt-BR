@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 - m365initiative-meetings
 description: Saiba como gerenciar políticas do Webinar para Teams reuniões.
-ms.openlocfilehash: 739c0b5494b0ecc5b9a20fd8db4756313848325b
-ms.sourcegitcommit: e5d6a2c3ad45c1285016b93ec4c7afea907d71a1
+ms.openlocfilehash: bc1460f93259a9dd3095cf764c38b56ab703bba0
+ms.sourcegitcommit: 592e5a0638c7739dfaa3565b67d4edc621eebc9f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52275512"
+ms.lasthandoff: 05/26/2021
+ms.locfileid: "52656044"
 ---
 # <a name="set-up-for-webinars-in-microsoft-teams"></a>Configurar para webinars em Microsoft Teams
 
@@ -58,10 +58,10 @@ Set-CsTeamsMeetingPolicy -AllowMeetingRegistration True
 ```
 ### <a name="configure-who-can-register-for-webinars"></a>Configurar quem pode se registrar para webinars
 
-Você pode restringir o registro aos usuários somente em sua organização ou abri-lo para todos dentro e fora do locatário. Por padrão, **WhoCanRegister** está habilitado e definido como **Todos**. Se você quiser desativar o registro de reunião, de definir **WhoCanRegister** como **False**.
+Você pode restringir o registro aos usuários somente em sua organização ou abri-lo para todos dentro e fora do locatário. Por padrão, **WhoCanRegister** está habilitado e definido como **Todos**. Se você quiser desativar o registro de reunião, de definir **AllowMeetingRegistration** como **False**.
 
 > [!IMPORTANT]
-> Lembre-se de **que AllowPrivateMeetingScheduling** deve ser definido como **True** para **WhoCanRegister** funcionar. Além disso, as Listas da Microsoft precisam ser configuradas SharePoint. Para saber mais, confira [Configurações de controle para Listas da Microsoft.](/sharepoint/control-lists)
+> Lembre-se de **que AllowPrivateMeetingScheduling** deve ser definido como **True** para **AllowMeetingRegistration** funcionar. Além disso, as Listas da Microsoft precisam ser configuradas SharePoint. Para saber mais, confira [Configurações de controle para Listas da Microsoft.](/sharepoint/control-lists)
 
 **Para permitir *que apenas* usuários em sua organização se registrem para webinars, execute:**
 

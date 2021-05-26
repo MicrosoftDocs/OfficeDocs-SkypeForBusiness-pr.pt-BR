@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
 description: Saiba como Telefone Microsoft o Roteamento Direto do Sistema permite que você conecte um SBC (Controlador de Borda de Sessão) fornecido pelo cliente com suporte ao Telefone Microsoft System.
-ms.openlocfilehash: 90ed1fe51c3b6e3ee6c498fd586e54a05ab533e3
-ms.sourcegitcommit: 49cdcf344c63c805bcb6365804c6f5d1393e926a
+ms.openlocfilehash: 531b1f22a6a59a9ef72bf97be92ab15596736b80
+ms.sourcegitcommit: 592e5a0638c7739dfaa3565b67d4edc621eebc9f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/03/2021
-ms.locfileid: "52130280"
+ms.lasthandoff: 05/26/2021
+ms.locfileid: "52656064"
 ---
 # <a name="plan-direct-routing"></a>Planejar o Roteamento Direto
 
@@ -245,7 +245,10 @@ Os FQDNs – sip.pstnhub.microsoft.com, sip2.pstnhub.microsoft.com e sip3.pstnhu
 Você precisa abrir portas para todos esses endereços IP no firewall para permitir que o tráfego de entrada e saída entre e os endereços para sinalização.  Se o firewall dá suporte a nomes DNS, o FQDN **sip-all.pstnhub.microsoft.com** resolvido para todos esses endereços IP. 
 
 > [!IMPORTANT]
->  Como parte da Teams de roteamento direto e melhoria de serviço, implantamos novas instâncias da infraestrutura de Roteamento Direto na Austrália. Isso se reflete em dois endereços IP adicionais (52.114.16.74 e 52.114.20.29) para os quais os seguintes FQDNs serão resolvidos para clientes australianos – sip.pstnhub.microsoft.com, sip2.pstnhub.microsoft.com e sip3.pstnhub.microsoft.com. Você precisa adicionar esses dois endereços IP (52.114.16.74 e 52.114.20.29) às suas ACLs (Listas de Controle de Acesso IP) e abrir portas para todos esses endereços IP em seu firewall para permitir o tráfego de entrada e saída de e para os endereços para sinalização.
+> Como parte da Teams melhoria de serviço e expansão do Roteamento Direto, implantamos novas instâncias da infraestrutura de Roteamento Direto na Austrália em novembro de 2020. Isso se reflete em dois endereços IP adicionais (52.114.16.74 e 52.114.20.29) para os quais os seguintes FQDNs serão resolvidos para clientes australianos – sip.pstnhub.microsoft.com, sip2.pstnhub.microsoft.com e sip3.pstnhub.microsoft.com. Você precisa adicionar esses dois endereços IP (52.114.16.74 e 52.114.20.29) às suas ACLs (Listas de Controle de Acesso IP) e abrir portas para todos esses endereços IP em seu firewall para permitir o tráfego de entrada e de saída dos endereços para sinalização.
+
+> [!IMPORTANT]
+> Como parte da Teams de roteamento direto e melhoria de serviço, implantamos novas instâncias da infraestrutura de Roteamento Direto no Japão em maio de 2021. Isso se reflete em dois endereços IP adicionais (52.114.36.156 e 52.114.32.169) para os quais os seguintes FQDNs serão resolvidos para clientes japoneses – sip.pstnhub.microsoft.com, sip2.pstnhub.microsoft.com e sip3.pstnhub.microsoft.com. Você precisa adicionar esses dois endereços IP (52.114.36.156 e 52.114.32.169) às suas ACLs (Listas de Controle de Acesso IP) e abrir portas para todos esses endereços IP no firewall para permitir o tráfego de entrada e saída dos endereços para sinalização.
 
 ### <a name="office-365-gcch-and-dod-environment"></a>Office 365 Ambiente GCCH e DoD
 
@@ -341,13 +344,8 @@ Locais onde os componentes de proxy SIP e processador de mídia implantados:
 - EUA (dois datacenters do Leste Dos EUA e oeste dos EUA)
 - Europa (datacenters de Amsterdã e Dublin)
 - Ásia (datacenters de Cingapura e Hong Kong)
-
-Locais onde apenas processadores de mídia são implantados (fluxos SIP por meio do datacenter mais próximo listado acima):
 - Japão (datacenters JP East e West)
 - Austrália (datacenters AU East e Southeast)
-
-
-
 
 ## <a name="media-traffic-codecs"></a>Tráfego de mídia: Codecs
 

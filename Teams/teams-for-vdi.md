@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 30f5dc38b713e59b49a166694d5c760accc639be
-ms.sourcegitcommit: 326aa6375cb830cdb0f82ea791b84d570758853a
+ms.openlocfilehash: a24de985b601b1d84250863e06fed90a77699483
+ms.sourcegitcommit: 592e5a0638c7739dfaa3565b67d4edc621eebc9f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2021
-ms.locfileid: "52221804"
+ms.lasthandoff: 05/26/2021
+ms.locfileid: "52656074"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>Teams para Infraestrutura de Área de Trabalho Virtualizada
 
@@ -402,8 +402,7 @@ Os seguintes recursos de chamada e reunião não são suportados:
 A seguir estão os problemas conhecidos e limitações de chamada e reuniões:
 
 - A interoperabilidade com Skype for Business está limitada a chamadas de áudio; não há nenhuma modalidade de vídeo.
-- Somente um único fluxo de vídeo de entrada é suportado em reuniões ou chamadas de grupo. Quando várias pessoas enviam vídeo, apenas o vídeo do alto-falante dominante é mostrado a qualquer momento.
-- A resolução de fluxo de vídeo de entrada e saída é limitada à resolução de 720p. Essa é uma limitação do WebRTC.
+- A resolução de fluxo de vídeo de entrada e saída é limitada à resolução de 720p.
 - Há suporte para apenas um fluxo de vídeo de uma câmera de entrada ou de um fluxo de compartilhamento de tela. Quando há um compartilhamento de tela de entrada, esse compartilhamento de tela é mostrado, em vez do vídeo do alto-falante dominante.
 - Teams alternar para usar o último dispositivo de áudio que um usuário selecionou, se o dispositivo estiver desconectado e, em seguida, reconectado.
 - Compartilhamento de tela de saída:
