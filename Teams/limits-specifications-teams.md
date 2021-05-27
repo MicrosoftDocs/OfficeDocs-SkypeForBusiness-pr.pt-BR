@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 5fbf2efa3ad1d77300138a57336b4254ea788e84
-ms.sourcegitcommit: 242561bfc12504614633539ca696b91dfc890b92
+ms.openlocfilehash: b714da86c51072eb7efae846dbeb29b205674751
+ms.sourcegitcommit: 330e60ff3549cd5cff5b52ad95dc4259e4e8de13
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "52328503"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52628880"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Limites e especificações para o Microsoft Teams
 
@@ -53,9 +53,9 @@ Este artigo descreve alguns dos limites, das especificações e de outros requis
 
 <sup>2</sup> Esse limite inclui equipes arquivadas. 
 
-<sup>3</sup> Para aumentar ainda mais o número de equipes, você deve entrar em contato com o suporte da Microsoft e solicitar um aumento adicional no número de objetos do Azure Active Directory em seu locatário. O aumento só é realizado para cenários reais de produção.
+<sup>3</sup> Para aumentar ainda mais o número de equipes, você deve entrar em contato com o suporte da Microsoft e solicitar um aumento adicional no número de objetos do Azure Active Directory em seu inquilino. O aumento só é feito para cenários de produção da vida real.
 
-<sup>4</sup> Os canais excluídos podem ser restaurados dentro de 30 dias. Durante esses 30 dias, um canal excluído continua a ser contado no limite de 200 canais ou 30 canais privados por equipe. Depois de 30 dias, um canal e seu conteúdo excluídos serão permanentemente excluídos e o canal deixará de contar com o limite por equipe.
+<sup>4</sup> Os canais excluídos podem ser restaurados dentro de 30 dias. Durante esses 30 dias, um canal excluído continua a ser contado para o limite de 200 canais ou 30 canais privados por equipe. Após 30 dias, um canal excluído e seu conteúdo são permanentemente excluídos e o canal não conta mais para o limite por equipe.
 
 <sup>5</sup> 28 KB é um limite aproximado porque inclui a própria mensagem (texto, links de imagens, etc.), @-menções, número de conectores e reações.
 
@@ -78,7 +78,7 @@ O bate-papo do Teams funciona em um back-end do Microsoft Exchange, para que os 
 
 <sup>1</sup> Se você tiver mais de 20 pessoais em um bate-papo, os seguintes recursos do bate-papo serão desabilitados: respostas automáticas do Outlook e mensagens de status do Teams; indicador de digitação; chamadas de áudio e vídeo; compartilhamento; confirmação de leitura. O botão "Configurar opções de entrega" (!) também é removido quando os chats de grupo privado contêm mais de 20 membros.
 
-<sup>2</sup> Apenas 200 membros de cada vez podem ser adicionados a um chat em grupo. [Confira este artigo para saber mais](/microsoftteams/troubleshoot/teams-administration/unable-send-message-group-chat).
+<sup>2</sup> Apenas 200 membros de cada vez podem ser adicionados a um chat em grupo. [Veja este artigo para mais informações](/microsoftteams/troubleshoot/teams-administration/unable-send-message-group-chat) .
 
 <sup>3</sup> Se o número de anexos exceder esse limite, você verá uma mensagem de erro.
 
@@ -131,7 +131,7 @@ Os nomes de canal também não podem começar com um caractere de sublinhado (_)
 
 |Recurso     | Limite máximo |
 |------------|---------------|
-|Número de pessoas em uma reunião (podem conversar e telefonar)  | 1000, inclui GCC, mas ainda não para GCCH ou DoD. **Somente exibição** permite que até 20.000 participantes, somente ouvintes, participem de uma reunião na qual o organizador tenha uma licença para E3/E5/A3/A5 SKU, bem como, Governo (GCC, GCC High, DoD). Saiba mais sobre a [experiência somente exibição](view-only-meeting-experience.md).|
+|Número de pessoas em uma reunião (podem conversar e telefonar)  | 1000, inclui GCC, mas ainda não para GCCH, DoD, ou A1 (300). **Somente exibição** permite que até 20.000 participantes, somente ouvintes, participem de uma reunião na qual o organizador tenha uma licença para E3/E5/A3/A5 SKU, bem como, Governo (GCC, GCC High, DoD). Saiba mais sobre a [experiência somente exibição](view-only-meeting-experience.md).|
 |O número de pessoas em uma chamada de áudio ou vídeo do chat | 20 |
 |Tamanho máximo do arquivo do PowerPoint | 2GB|
 |As equipes mantêm [gravações de reunião](cloud-recording.md) que não são carregadas no Microsoft Stream, disponíveis para download local | 20 dias |

@@ -17,12 +17,12 @@ description: Saiba como gerenciar seus aplicativos Teams na página Gerenciar ap
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: d42c9609014e4609e74f3cf5022b350d9890ef58
-ms.sourcegitcommit: 49cdcf344c63c805bcb6365804c6f5d1393e926a
+ms.openlocfilehash: 16b139750e5a227cc6702e0f8d57cd2f4625f983
+ms.sourcegitcommit: 358038cee16ac041da10a67c26cf463901ae53d8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/03/2021
-ms.locfileid: "52129660"
+ms.lasthandoff: 05/26/2021
+ms.locfileid: "52669223"
 ---
 # <a name="manage-your-apps-in-the-microsoft-teams-admin-center"></a>Gerenciar seus aplicativos no Microsoft Teams de administração
 
@@ -149,6 +149,10 @@ Use as configurações de aplicativos em toda a organização para controlar se 
 
         > [!NOTE]
         > Quando **Permitir que aplicativos de** terceiros sejam desativados, os [webhooks](/microsoftteams/platform/webhooks-and-connectors/what-are-webhooks-and-connectors) de saída serão desabilitados, o que significa que os usuários não podem cria-los. Quando essa configuração está ativada, os webhooks de saída são habilitados para todos os usuários e você pode controlá-los no nível do usuário, permitindo ou bloqueando o aplicativo Webhook de saída por meio de políticas de permissão de [aplicativo.](teams-app-permission-policies.md) <br><br>Observe que, se [](teams-app-permission-policies.md) você tiver políticas de permissão  de aplicativo existentes para aplicativos **da Microsoft** que usam a configuração Permitir aplicativos específicos e bloquear todos os outros, e quiser habilitar webhooks de saída para usuários, adicione o aplicativo Webhook de saída à lista.
+
+        > [!NOTE]
+        > Teams os usuários podem adicionar aplicativos quando hospedam reuniões ou chats com pessoas de outras organizações. Eles também podem usar aplicativos compartilhados por pessoas em outras organizações quando ingressarem em reuniões ou chats hospedados por essas organizações. As políticas de dados da organização do usuário de hospedagem, bem como as práticas de compartilhamento de dados de quaisquer aplicativos de terceiros compartilhados pela organização desse usuário, são aplicadas.
+
     - **Permitir novos aplicativos de terceiros publicados na loja por padrão**: isso controla se os novos aplicativos de terceiros publicados na loja de aplicativos Teams se tornam automaticamente disponíveis no Teams. Você só pode definir essa opção se permitir aplicativos de terceiros.
 
 3. Em **Aplicativos personalizados**, desativar ou ativar **Permitir interação com aplicativos personalizados**. Essa configuração controla se os usuários podem interagir com aplicativos personalizados. Para saber mais, confira [Gerenciar políticas e configurações de aplicativos personalizados no Teams](teams-custom-app-policies-and-settings.md).
