@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d2a5bc0f459bb9e7dac8878a5ad75911ba4b1b82
-ms.sourcegitcommit: 330e60ff3549cd5cff5b52ad95dc4259e4e8de13
+ms.openlocfilehash: 1ec7ef2f09728abdb2db8acc3be948a50faaf304
+ms.sourcegitcommit: 36924dc54fe7b09607b07d7543fe7e39eb4d2483
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52628900"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "52684568"
 ---
 # <a name="purchase-configure-and-enable-career-coach-for-microsoft-teams"></a>Comprar, configurar e habilitar o Career Coach para Microsoft Teams
 
@@ -69,7 +69,7 @@ O Career Coach está disponível em todo o mundo (exceto China e Rússia) para i
 
 ### <a name="assign-app-licenses-to-users"></a>Atribuir licenças de aplicativo aos usuários
 
-Para obter instruções passo a passo, consulte [Atribuir licenças aos usuários](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users).
+Para obter instruções passo a passo, consulte [Atribuir licenças aos usuários](/microsoft-365/admin/manage/assign-licenses-to-users).
 
 ### <a name="turn-on-linkedin-account-connections"></a>Ativar conexões de conta do LinkedIn
 
@@ -303,7 +303,7 @@ O Pinning Career Coach torna o aplicativo mais acessível e visível para os alu
 > [!NOTE]
 > Os alunos serão notificados Microsoft Teams que o Career Coach foi fixado.
 
-Referência [Gerenciar políticas de configuração de aplicativos na Microsoft](https://docs.microsoft.com/microsoftteams/teams-app-setup-policies) para obter detalhes adicionais.
+Referência [Gerenciar políticas de configuração de aplicativos na Microsoft](/microsoftteams/teams-app-setup-policies) para obter detalhes adicionais.
 
 ## <a name="resources"></a>Recursos
 

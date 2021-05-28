@@ -16,12 +16,12 @@ search.appverid: MET150
 description: Saiba mais sobre logs de depuração, mídia e área de trabalho produzidos pelo Microsoft Teams, onde eles podem ser encontrados e como eles podem ajudar no monitoramento e solução de problemas.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 58460390d9562d77ed6a4e3dfcbb3948cbe2749e
-ms.sourcegitcommit: 40f76bc6b5e304faea8516a78f8576ba1cdb7f7c
+ms.openlocfilehash: a18dbef0441055c1202c2b77ce4f8af87040e561
+ms.sourcegitcommit: 17e34d2de3d10f1d04929a695e301127db7014bd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "52337738"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "52689689"
 ---
 # <a name="use-log-files-to-monitor-and-troubleshoot-microsoft-teams"></a>Usar arquivos de log para monitorar e solucionar Microsoft Teams
 
@@ -33,14 +33,29 @@ Há três tipos de arquivos de log produzidos automaticamente pelo cliente, que 
 
 -   [Registros de desktop](#desktop-logs)
 
-Este artigo descreve os três logs e como eles são usados. 
-
-Para obter informações sobre como solucionar problemas específicos, consulte: [Teams Solução de Problemas](/MicrosoftTeams/troubleshoot/teams). Para obter informações sobre como contatar o suporte, consulte [Obter suporte](/microsoft-365/business-video/get-help-support).
-
-Ao criar uma solicitação de suporte com o Suporte da Microsoft, o engenheiro de suporte precisará dos registros de depuração. Ter os logs de depuração em mãos antes de criar a solicitação de suporte permitirá que a Microsoft comece a solucionar o problema rapidamente. **Os** logs **de** mídia ou área de trabalho só serão necessários se solicitados pela Microsoft.
+Este artigo descreve esses logs e como eles são usados. Para obter informações sobre como solucionar problemas específicos, consulte: [Teams Solução de Problemas](/MicrosoftTeams/troubleshoot/teams). Para obter informações sobre como contatar o suporte, consulte [Obter suporte](/microsoft-365/business-video/get-help-support). Ao criar uma solicitação de suporte com o Suporte da Microsoft, o engenheiro de suporte precisará dos registros de depuração. Ter os logs de depuração em mãos antes de criar a solicitação de suporte permitirá que a Microsoft comece a solucionar o problema rapidamente. **Os** logs **de** mídia ou área de trabalho só serão necessários se solicitados pela Microsoft.
 
 > [!NOTE]
 > Neste artigo, o termo **Logs de depuração** se refere aos logs usados para solução de problemas. No entanto, os arquivos gerados para esses logs conterão o termo **logs de diagnóstico** em seus nomes.  
+
+## <a name="collect-and-enable-logging"></a>Coletar e habilitar o log
+
+É importante coletar logs assim que ocorrer um problema. Os logs podem ser coletados com apenas alguns cliques.
+
+Windows: clique com o botão direito do mouse no ícone Teams na bandeja do sistema e escolha **Coletar arquivos de suporte**. 
+
+Mac: selecione o menu Ajuda e escolha **Coletar arquivos de suporte**.
+
+Os logs de depuração, área de trabalho e mídia serão coletados em uma pasta com o nome MSTeams Diagnostics Log <local data and time> . Essa pasta pode ser compactada e compartilhada quando você abre uma solicitação de suporte com o Suporte da Microsoft. A pasta conterá pastas para Área de Trabalho, Reunião (Mídia) e Depuração (Web). Você pode coletar os arquivos usando os seguintes atalhos de teclado:
+
+Windows: Crtl + Alt + Shift + 1
+
+Mac: Opção + Comando + Turno + 1
+
+O registro de mídia está desabilitado por padrão. Para habilitar o log de mídia, os usuários devem ativar a opção no Teams cliente. Vá para **Configurações** Geral e selecione Habilitar log para diagnóstico de reunião (requer a  >   **reinicialização Teams)**. O Teams cliente deve ser reiniciado para iniciar o registro em log.
+
+> [!NOTE]
+> Se o log de mídia estiver habilitado, haverá arquivos adicionais incluídos na pasta Reunião que são necessários para investigar problemas de áudio e vídeo. Se o log de mídia não estiver habilitado, haverá um número limitado de logs disponíveis.
 
 A tabela a seguir descreve os vários clientes e seus logs associados. Os arquivos de registro são armazenados os locais específicos do cliente e do sistema operacional.
 
@@ -58,7 +73,7 @@ Para obter uma lista completa dos sistemas operacionais e navegadores compatíve
 
 ## <a name="debug-logs"></a>Registros de depuração
 
-Estes são os registros mais comuns e são necessários para todos os casos de suporte da Microsoft. Os logs de depuração são produzidos pelos clientes de desktop Windows e Mac, bem como por clientes baseados em navegador. Os logs são baseados em texto e são lidos de baixo para cima. Eles podem ser lidos usando qualquer editor baseado em texto, e novos logs são criados ao efetuar o registro em log no cliente.
+Consulte a _seção Coletar e habilitar o registro em log_ para obter Windows e instruções do Mac. Os logs de depuração são produzidos pelos clientes de desktop Windows e Mac, bem como por clientes baseados em navegador. Os logs são baseados em texto e são lidos de baixo para cima. Eles podem ser lidos usando qualquer editor baseado em texto, e novos logs são criados ao efetuar o registro em log no cliente.
 
 Os registros de depuração mostram os seguintes fluxos de dados:
 
@@ -68,47 +83,19 @@ Os registros de depuração mostram os seguintes fluxos de dados:
 
 -   Chamada/conversa
 
-Os registros de depuração são produzidos usando os seguintes métodos específicos do sistema operacional:
+Para coletar logs para Linux: atalho do teclado: Ctrl + Alt + Shift + 1 Os arquivos estarão disponíveis em ~/Downloads
 
--   Windows:
-
-      Atalho do teclado: Ctrl + Alt + Shift + 1
-
--   Mac OSX:
-
-      Atalho de teclado: Option + Command + Shift + 1
-
--   Linux:
-
-      Atalho de teclado: Ctrl + Alt + Shift + 1
-
-Os registros de depuração são baixados automaticamente para as seguintes pastas:
-
--   Windows: %userprofile%\\Downloads
-
--   Mac OSX: ~/Downloads
-
--   Linux: ~/Downloads
-
--   Navegador: será solicitado que você salve o registro de depuração no local de salvamento padrão
+Para coletar logs para Navegador: Atalho do teclado: Crtl + Alt + Shift + 1 Os arquivos estarão disponíveis em %userprofile%\Downloads
 
 ## <a name="media-logs"></a>Registros de mídia
 
-Os registros de mídia contêm dados de diagnóstico sobre áudio, vídeo e compartilhamento de tela nas reuniões do Teams. Eles são necessários para casos de suporte vinculados a problemas relacionados a chamadas.
+Consulte a _seção Coletar e habilitar o registro em log_ para obter Windows e instruções do Mac. Os registros de mídia contêm dados de diagnóstico sobre áudio, vídeo e compartilhamento de tela nas reuniões do Teams. Eles são necessários para casos de suporte vinculados a problemas relacionados a chamadas.
 
 O registro de mídia está desabilitado por padrão. Para registrar dados de diagnóstico para reuniões do Teams, os usuários devem ativar a opção no cliente Teams. Vá para **Configurações** > **Gerais**, marque a caixa de seleção **Habilitar registro para diagnóstico de reunião (requer a reinicialização do Teams**), reinicie o Teams e reproduza o problema. 
 
-A tabela a seguir descreve os locais de registro de mídia. Ao enviar os arquivos de log para o suporte da Microsoft, verifique a data e hora dos arquivos de log para garantir que os logs abrangem o período de tempo em que você reproduziu o problema.
+Ao enviar os arquivos de log para o suporte da Microsoft, verifique a data e hora dos arquivos de log para garantir que os logs abrangem o período de tempo em que você reproduziu o problema.
 
-|Cliente |Localização |
-|---------|---------|
-|Windows     |%appdata%\Microsoft\Teams\media-stack\\*.blog         |
-|            |%appdata%\Microsoft\Teams\skylib\\*.blog
-|            |%appdata%\Microsoft\Teams\media-stack\\*.etl         |
-|Mac OSX     |~/Library/Application Support/Microsoft/Teams/media-stack/*.blog         |
-|            |~/Library/Application Support/Microsoft/Teams/skylib/*.blog         |
-|Linux       |~/.config/Microsoft/Microsoft Teams/media-stack/*.blog         |
-|            |~/.config/Microsoft/Microsoft Teams/skylib/*.blog         |
+Para coletar logs para Linux: os arquivos estarão disponíveis em ~/.config/Microsoft/Microsoft Teams/media-stack/ .blog e *~/.config/Microsoft/Microsoft Teams/skylib/ .blog.*
 
 Aqui está uma lista dos arquivos de log gerados e as informações que eles contêm.
 
@@ -122,25 +109,10 @@ Aqui está uma lista dos arquivos de log gerados e as informações que eles con
 
 ## <a name="desktop-logs"></a>Registros de desktop
 
-Os logs da área de trabalho, também conhecidos como logs de bootstrapper, contêm dados de log que ocorrem entre o cliente da área de trabalho e o navegador. Como os logs de mídia, esses logs só são necessários se solicitados pela Microsoft. Os logs são baseados em texto e podem ser lidos usando qualquer editor baseado em texto em um formato de cima para baixo.
+Consulte a _seção Coletar e habilitar o registro em log_ para obter Windows e instruções do Mac. Os logs da área de trabalho, também conhecidos como logs de bootstrapper, contêm dados de log que ocorrem entre o cliente da área de trabalho e o navegador. Como os logs de mídia, esses logs só são necessários se solicitados pela Microsoft. Os logs são baseados em texto e podem ser lidos usando qualquer editor baseado em texto em um formato de cima para baixo.
 
-Windows:
-
- - Clique com o botão direito no ícone do **Microsoft Teams** na bandeja do sistema e selecione **Obter Logs**.
-
-Mac OsX:
-
- - Escolha **Obter Logs** no menu suspenso **Ajudar**.
-
-Linux:
-
- - Clique no ícone do **Microsoft Teams** na bandeja do sistema e selecione **Obter Logs**.
-
-|Cliente |Localização |
-|---------|---------|
-|Windows     |%appdata%\Microsoft\Teams\logs.txt         |
-|Mac OSX     |~/Library/Application Support/Microsoft/Teams/logs.txt         |
-|Linux       |~/.config/Microsoft/Microsoft Teams/logs.txt         |
+Para coletar logs para Linux: clique no ícone Microsoft Teams na bandeja do sistema e selecione **Obter Logs.**
+Os arquivos estarão disponíveis em ~/.config/Microsoft/Microsoft Teams/logs.txt.  
 
 
 ## <a name="browser-trace"></a>Rastreamento do navegador

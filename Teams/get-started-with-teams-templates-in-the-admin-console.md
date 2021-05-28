@@ -1,5 +1,5 @@
 ---
-title: Usar Teams modelos no centro de administração
+title: Usar modelos de equipe no centro de administração
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -11,28 +11,28 @@ localization_priority: Normal
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
-description: Saiba como usar modelos Teams para criar espaços de colaboração com canais para diferentes tópicos usando modelos pré-instalados.
+description: Saiba como usar modelos de equipe para criar espaços de colaboração com canais para diferentes tópicos usando modelos pré-instalados.
 f1.keywords:
 - CSH
 ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c898d8b0d79eae6fb7042ab087e94a0fff5d275f
-ms.sourcegitcommit: 6c1b051c4e29a74bc15cdfd0716893a25ba18719
+ms.openlocfilehash: 773b97197a4f233dea9a404d87e669239b3969f6
+ms.sourcegitcommit: 36924dc54fe7b09607b07d7543fe7e39eb4d2483
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/04/2021
-ms.locfileid: "52207949"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "52684448"
 ---
-# <a name="get-started-with-teams-templates-in-the-admin-center"></a>Começar a usar Teams modelos no centro de administração
+# <a name="get-started-with-team-templates-in-the-admin-center"></a>Começar a usar modelos de equipe no centro de administração
 
 **A capacidade de criar modelos personalizados ainda não é suportada para clientes EDU.**
 
 > [!NOTE]
-> Canais privados e rótulos de sensibilidade atualmente não são suportados em Teams modelos. A criação de canal privado não está incluída nas definições de modelo. A opção rótulo de sensibilidade em **Criar equipe a partir do fluxo de** modelos não será aplicada à equipe.
+> Canais privados e rótulos de sensibilidade atualmente não são suportados em modelos de equipe. A criação de canal privado não está incluída nas definições de modelo. A opção rótulo de sensibilidade em **Criar equipe a partir do fluxo de** modelos não será aplicada à equipe.
 
-Teams modelos são definições pré-criadas da estrutura de uma equipe projetada em torno de uma necessidade de negócios ou projeto. Use modelos pré-construídos ou crie seu próprio modelo. Teams modelos permitem que você crie rapidamente espaços de colaboração com canais para diferentes tópicos e pré-instalar aplicativos para puxar conteúdo e serviços críticos de missão. Teams modelos fornecem uma estrutura de equipe predefinida que pode ajudá-lo a criar facilmente equipes consistentes em toda a sua organização. Atualmente, você pode criar uma equipe a partir de um modelo em Teams ou usando o [Microsoft Graph](get-started-with-teams-templates.md).
+Modelos de equipe são definições pré-criadas da estrutura de uma equipe projetada em torno de uma necessidade de negócios ou projeto. Use modelos pré-construídos ou crie seu próprio modelo. Os modelos de equipe permitem que você crie rapidamente espaços de colaboração com canais para diferentes tópicos e pré-instalar aplicativos para puxar conteúdo e serviços críticos de missão. Os modelos de equipe fornecem uma estrutura de equipe predefinida que pode ajudá-lo a criar facilmente equipes consistentes em toda a organização. Atualmente, você pode criar uma equipe a partir de um modelo em Teams ou usando o [Microsoft Graph](get-started-with-teams-templates.md).
 
 Este artigo descreve os seguintes recursos:
 
@@ -42,11 +42,11 @@ Este artigo descreve os seguintes recursos:
 
 Este artigo é para você se você for responsável por planejar, implantar e gerenciar várias equipes em toda a sua organização
 
-## <a name="teams-template-capabilities"></a>Teams de modelo
+## <a name="team-template-capabilities"></a>Recursos de modelo de equipe
 
-A maioria das propriedades em uma equipe são incluídas e suportadas por modelos. No momento, há algumas propriedades e recursos que não são suportados. A tabela a seguir fornece um resumo rápido do que está incluído e o que não está incluído em Teams modelos.
+A maioria das propriedades em uma equipe são incluídas e suportadas por modelos. No momento, há algumas propriedades e recursos que não são suportados. A tabela a seguir fornece um resumo rápido do que está incluído e o que não está incluído nos modelos de equipe.
 
-| **Propriedades de equipe suportadas por Teams modelos** | **Propriedades de equipe ainda não suportadas por Teams modelos** |
+| **Propriedades de equipe suportadas por modelos de equipe** | **Propriedades de equipe ainda não suportadas por modelos de equipe** |
 | ------------------------------------------------ | -------------------------------------------------------- |
 | Tipo de modelo base | Associação da equipe |
 | Nome da equipe | Imagem da equipe |
@@ -110,6 +110,16 @@ Os modelos são limitados a um número específico de canais, guias e aplicativo
 |||
 
 Confira [Limites e especificações de Teams](limits-specifications-teams.md) para obter mais informações.
+
+## <a name="manage-templates-in-powershell"></a>Gerenciar modelos no PowerShell
+
+Use os cmdlts a seguir para gerenciar seus modelos no PowerShell.
+
+- [Get-CsTeamTemplate](/powershell/module/teams/get-csteamtemplate?view=teams-ps) 
+- [Get-CsTeamTemplateList](/powershell/module/teams/get-csteamtemplatelist?view=teams-ps)
+- [New-CsTeamTemplate](/powershell/module/teams/new-csteamtemplate?view=teams-ps)
+- [Remove-CsTeamTemplate](/powershell/module/teams/remove-csteamtemplate?view=teams-ps) 
+- [Update-CsTeamTemplate](/powershell/module/teams/update-csteamtemplate?view=teams-ps)
 
 ## <a name="related-topics"></a>Tópicos relacionados
 

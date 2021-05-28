@@ -1,5 +1,5 @@
 ---
-title: Gerenciar modelos do Teams no centro de administração
+title: Gerenciar modelos de equipe no centro de administração
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -17,18 +17,18 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
-description: Saiba como gerenciar modelos do Teams no centro de administração
-ms.openlocfilehash: db28d1fa3c84210c3f1e2d80e74a59252f922258
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Saiba como gerenciar modelos de equipe no centro de administração
+ms.openlocfilehash: dd88f76d0f74b6a1fe48bd934e7cfc8ee9ab4ccc
+ms.sourcegitcommit: 36924dc54fe7b09607b07d7543fe7e39eb4d2483
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51093921"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "52684578"
 ---
-# <a name="manage-teams-templates-in-the-admin-center"></a>Gerenciar modelos do Teams no centro de administração
+# <a name="manage-team-templates-in-the-admin-center"></a>Gerenciar modelos de equipe no centro de administração
 
-Gerencie os modelos do Teams que os usuários finais veem criando políticas de modelos no centro de administração. Em cada política de modelo, você pode designar quais modelos são mostrados ou ocultos.
-Atribua usuários diferentes a políticas de modelo diferentes para que seus usuários visualizam apenas o subconjunto de modelos do Teams especificados.
+Gerencie os modelos de equipe que os usuários finais veem criando políticas de modelos no centro de administração. Em cada política de modelo, você pode designar quais modelos são mostrados ou ocultos.
+Atribua usuários diferentes a políticas de modelo diferentes para que seus usuários visualizam apenas o subconjunto de modelos de equipe especificados.
 
 Assista a este breve vídeo para saber como gerenciar políticas de modelo.
 
@@ -38,13 +38,13 @@ Assista a este breve vídeo para saber como gerenciar políticas de modelo.
 
 1. Entre no Centro de administração do Teams.
 
-2. Expanda **políticas**  >  **de Modelos do** Teams.
+2. Expanda **Teams**  >  **de modelos.**
 
 3. Selecione **Adicionar**.
 
     ![As políticas de modelo são selecionadas e Add é realçada](media/template-policies-1.png)
 
-1. Na seção **Configurações de Políticas de Modelos,** conclua os seguintes campos:
+1. Na seção **Políticas de modelos Configurações,** conclua os seguintes campos:
 
     - Nome da Política de Modelos
 
@@ -104,7 +104,7 @@ R: Todos os novos modelos estarão visíveis por padrão. Você pode optar por o
 
 R: Quaisquer modelos excluídos não estarão mais presentes em nenhuma política de modelos.
 
-**P: Posso atribuir vários usuários a uma política de modelo no Centro de Administração do Teams?**
+**P: Posso atribuir vários usuários a uma política de modelo no Teams Admin Center?**
 
 R: Sim.
 
@@ -112,14 +112,14 @@ R: Sim.
 1. Na tabela de lista Usuários, selecione os usuários que você deseja atribuir a uma determinada política de modelos.
 1. Selecione Editar configurações e altere o campo Políticas de modelos.
 1. Selecione aplicar.
-   Saiba mais [Atribuir políticas aos seus usuários no Microsoft Teams - Microsoft Teams Microsoft \| Docs](./assign-policies.md#assign-a-policy-to-a-batch-of-users).
+   Saiba mais [Atribuir políticas aos seus usuários em Microsoft Teams - Microsoft Teams Microsoft \| Docs](./assign-policies.md#assign-a-policy-to-a-batch-of-users).
 
 **P: Como vejo todos os usuários atribuídos a uma política específica?**
 
 R: No Centro de administração:
 
 1. Vá para a **seção Usuários.**
-2. Selecione o filtro na tabela de lista Usuários e filtre a política de modelo de equipes.
+2. Selecione o filtro na tabela de lista Usuários e filtre a política de modelo de equipe.
 3. Selecione **Aplicar**.
 
 ![A política de modelo selecionada e exibir usuários](media/template-policies-5.png)
@@ -142,6 +142,6 @@ R: Não, não há suporte para políticas de modelo para EDU.
 
 - [Criar um modelo de equipe a partir de um modelo de equipe existente](./create-template-from-existing-template.md)
 
-- [Atribuir políticas aos seus usuários no Microsoft Teams - Microsoft Teams \| Microsoft Docs](./assign-policies.md)
+- [Atribuir políticas aos usuários em Microsoft Teams - Microsoft Teams \| Microsoft Docs](./assign-policies.md)
 
 - [Atribuir em lotes usuários a uma política](/powershell/module/teams/new-csbatchpolicyassignmentoperation)

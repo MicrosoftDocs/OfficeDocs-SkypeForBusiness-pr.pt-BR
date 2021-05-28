@@ -1,5 +1,5 @@
 ---
-title: 'Auditando o aplicativo Patients para administradores de CONFORMIDADE e DE CONFORMIDADE do Teams '
+title: 'Auditando o aplicativo Pacientes para Teams de CONFORMIDADE e conformidade '
 author: dstrome
 ms.author: dstrome
 manager: serdars
@@ -14,14 +14,14 @@ ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_Healthcare
 ms.reviewer: anach
-description: Saiba mais sobre como auditar o aplicativo Patients para administradores do Teams
+description: Saiba mais sobre como auditar o aplicativo Patients para Teams administradores
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 3cf850b8ae7312fa6c43f879baefb617f48d30b3
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: a2c5b006384d113dde82f702dee68a82b99685f6
+ms.sourcegitcommit: e6e6a2a85ff376f97a3af3548e13d1273fa84a52
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51096185"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "52697828"
 ---
 # <a name="audit-logs-for-patients-app"></a>Logs de auditoria para o aplicativo de pacientes
 
@@ -34,7 +34,7 @@ Um log de auditoria para atividades de aplicativos de pacientes permite que as e
 
 ## <a name="meet-hipaa-requirements"></a>Atender aos requisitos HIPAA
 
-De acordo com as diretrizes hipaaa, os provedores de saúde são necessários para manter registros de todo o acesso à PHI, para que seja possível que as alterações sejam auditadas. A Microsoft está comprometida com seus clientes corporativos usando o Microsoft Teams e para ajudá-los a atender aos requisitos e controles HIPAA. O acesso ao PHI por meio do Aplicativo de Pacientes é totalmente rastreado e os logs são disponibilizados no Centro de Conformidade do Microsoft 365, conforme descrito no artigo de funcionalidade de Pesquisa de [Log de](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance) Auditoria.
+De acordo com as diretrizes hipaaa, os provedores de saúde são necessários para manter registros de todo o acesso à PHI, para que seja possível que as alterações sejam auditadas. A Microsoft está comprometida com seus clientes corporativos usando Microsoft Teams e para ajudá-los a atender aos requisitos e controles HIPAA. O acesso ao PHI por meio do Aplicativo de Pacientes é totalmente rastreado e os logs são disponibilizados no centro de Conformidade Microsoft 365, conforme descrito no artigo de funcionalidade de Pesquisa de [Log de](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance) Auditoria.
 
 > [!IMPORTANT]
 > A responsabilidade de manter a privacidade do paciente é colocada no provedor de saúde por lei. A lei dá aos pacientes acesso à privacidade e exige que um administrador de IT ou controlador HIPAA possa determinar facilmente quais registros de pacientes foram acessados ou alterados por um profissional de saúde. Um dos exemplos mais comuns de uma violação de acesso à PHI é o acesso a pacientes VIP. A funcionalidade de log de auditoria é necessária para conduzir investigações de qualquer violação de acesso à PHI e atender aos requisitos hipaaa.
@@ -45,8 +45,8 @@ De acordo com as diretrizes hipaaa, os provedores de saúde são necessários pa
 
 Uma Auditoria depende de várias configurações anteriores:
 
-1. O administrador teria que trabalhar com o provedor de serviços FHIR para ter a EMR em um formato usado pelo Aplicativo de Pacientes. Consulte [Integrando registros eletrônicos de saúde no Microsoft Teams.](patients-app.md)
-2. Um administrador do provedor de saúde teria que habilitar o aplicativo de pacientes no Centro de Administração do Teams. Confira [Gerenciar políticas de configuração de aplicativos no Microsoft Teams](../../teams-app-setup-policies.md) e artigos relacionados para obter mais informações.
+1. O administrador teria que trabalhar com o provedor de serviços FHIR para ter a EMR em um formato usado pelo Aplicativo de Pacientes. 
+2. Um administrador do provedor de saúde teria que habilitar o aplicativo de pacientes Teams Centro de Administração. Consulte [Gerenciar políticas de configuração de aplicativos em Microsoft Teams](../../teams-app-setup-policies.md) e artigos relacionados para obter mais informações.
 3. O administrador teria que habilitar auditorias de atividade, da mesma forma que habilitam qualquer auditoria de log de [atividades,](/office365/securitycompliance/turn-audit-log-search-on-or-off#turn-on-audit-log-search)conforme descrito em Before you [begin](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance#before-you-begin) and Turn audit log search on or off . Se o log de auditoria já estiver on, nada de especial será necessário para o Aplicativo de Pacientes. Sempre que um provedor de saúde instala e executa o aplicativo em uma Equipe, os logs de auditoria registram suas atividades phi.
 4. O administrador precisaria então anunciar a disponibilidade do aplicativo Pacientes, e os funcionários de Saúde teriam que começar a gerar atividades para serem incluídos em uma auditoria.
 
@@ -60,14 +60,14 @@ Para obter instruções sobre como executar uma pesquisa do log de atividades, c
 
 O aplicativo Patients tem suas próprias atividades registradas, listadas na tabela a seguir:
 
-|Nome amigável |Operação|Descrição|
+|Nome amigável | Operação | Descrição|
 |:---|:---|:---|
 | Lista de pacientes exibida | PatientListView | Um usuário exibiu uma lista de pacientes.|
 | Lista de pacientes excluídos | PatientListDelete | Um usuário excluiu uma lista de pacientes.|
 | Adicionado paciente à lista | PatientListAddPatient | Um paciente foi adicionado a uma lista de pacientes. |
 | Observação adicionada para o paciente | PatientNoteAdd | Uma observação foi adicionada a um registro de paciente. |
 | Esquema de paciente criado | PatientSchemaCreate | Um conjunto de colunas usadas no registro do paciente foi criado. |
-| O usuário iniciou uma exportação | ExportInitiation | Os dados dos pacientes foram exportados do aplicativo Patients para um arquivo do Excel. O arquivo será salvo no site do SharePoint team. |
+| O usuário iniciou uma exportação | ExportInitiation | Os dados do paciente foram exportados do aplicativo Patients para um arquivo Excel de pacientes. O arquivo será salvo no site do SharePoint team. |
 | Lista de pacientes criada | PatientListCreate | Um usuário criou uma lista de pacientes.|
 | Definir lista de pacientes padrão| PatientListDefaultSet| Um usuário definir uma lista específica como a lista padrão.|
 | Paciente removido da lista| PatientListRemovePatient | Um paciente foi removido de uma lista de pacientes. |
@@ -78,14 +78,11 @@ O aplicativo Patients tem suas próprias atividades registradas, listadas na tab
 | Detalhes do paciente exibidos | PatientView | Um usuário exibiu um registro de paciente.|
 | Detalhes do paciente editado | PatientDetailsEdit | Um detalhe em um registro de paciente foi editado. |
 | Definir conexão EHR | EHRConnectionSet | De definir a URL usada para se conectar à conexão de Serviço EHR FHIR. Exemplo: https://<span>api-v8-dstu2.hspconsortium.org/ContosoHospital/open</span>  |
-||||
 
 Você pode personalizar sua Auditoria conforme necessário para pesquisar ou filtrar qualquer uma dessas atividades registradas.
 
-As atividades registradas para o Microsoft Teams em geral são descritas nas [atividades do Microsoft Teams.](/office365/securitycompliance/search-the-audit-log-in-security-and-compliance#microsoft-teams-activities)
+As atividades registradas para Microsoft Teams em geral são descritas [em Microsoft Teams atividades](/office365/securitycompliance/search-the-audit-log-in-security-and-compliance#microsoft-teams-activities).
 
 ## <a name="related-topics"></a>Tópicos relacionados
 
 [Pesquisar o log de auditoria](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance)
-
-[Integração dos Registros Eletrônicos de Saúde no Microsoft Teams](patients-app.md)

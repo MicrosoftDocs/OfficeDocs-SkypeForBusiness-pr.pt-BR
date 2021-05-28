@@ -17,12 +17,12 @@ ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 description: Mova os pontos de extremidade do aplicativo hirido antes de desativá-lo Skype for Business ambiente local.
-ms.openlocfilehash: 562da9e8e83684ab3ff532be68190161ffc412b5
-ms.sourcegitcommit: 02703e8f9a512848e158a3a4f38d84501ad5f633
+ms.openlocfilehash: 959a3ed47993f431636fe3c99b8502cf9aa634fe
+ms.sourcegitcommit: 36924dc54fe7b09607b07d7543fe7e39eb4d2483
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52526714"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "52684378"
 ---
 # <a name="move-hybrid-application-endpoints-before-decommissioning-your-on-premises-environment"></a>Mover pontos de extremidade de aplicativo híbrido antes de encerrar seu ambiente local
 
@@ -46,7 +46,7 @@ Antes de mover esses pontos de extremidade para online, você deve garantir que 
    ```PowerShell
    Get-CsHybridApplicationEndpoint|select Sipaddress, DisplayName, ApplicationID, LineUri |Export-Csv -Path "c:\backup\HybridEndpoints.csv"
    ```
-2. Crie e licencie novas [contas de](https://docs.microsoft.com/microsoftteams/manage-resource-accounts) recursos Microsoft 365 substituir os pontos de extremidade do aplicativo híbrido local existentes.
+2. Crie e licencie novas [contas de](/microsoftteams/manage-resource-accounts) recursos Microsoft 365 substituir os pontos de extremidade do aplicativo híbrido local existentes.
 
 3. Associe as novas Contas de Recursos aos pontos de extremidade do aplicativo híbrido existentes.
 
@@ -70,7 +70,7 @@ Antes de mover esses pontos de extremidade para online, você deve garantir que 
    }
    ```
 
-6. Atribua números de telefone às novas Contas de Recursos criadas na Etapa 2. Para obter mais informações sobre como atribuir um número de telefone a uma conta de recurso, consulte o seguinte artigo: [Atribuir um número de serviço](https://docs.microsoft.com/microsoftteams/manage-resource-accounts#assign-a-service-number).
+6. Atribua números de telefone às novas Contas de Recursos criadas na Etapa 2. Para obter mais informações sobre como atribuir um número de telefone a uma conta de recurso, consulte o seguinte artigo: [Atribuir um número de serviço](/microsoftteams/manage-resource-accounts#assign-a-service-number).
 
 7. Exclua os pontos de extremidade locais executando o seguinte comando local Skype for Business Server PowerShell:
 

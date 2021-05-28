@@ -1,5 +1,5 @@
 ---
-title: Usar modelos governamentais do Teams no centro de administração
+title: Usar modelos de equipe do governo no centro de administração
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -11,7 +11,7 @@ ms.collection:
 - M365-collaboration
 localization_priority: Normal
 search.appverid: MET150
-description: Saiba como usar. Modelos do Teams para criar estruturas de equipe projetadas para necessidades governamentais fornecendo configurações, canais e aplicativos pré-instalados predefinidos usando o centro de administração.
+description: Saiba como usar modelos de equipe para criar estruturas de equipe projetadas para necessidades governamentais fornecendo configurações, canais e aplicativos pré-instalados predefinidos usando o centro de administração.
 f1.keywords:
 - CSH
 ms.custom:
@@ -19,24 +19,24 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: db22de142b9e7f2bead93e607dd01c9dd362ddba
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: ff975fc80c0b08136fa18d2b7c31cd100e405911
+ms.sourcegitcommit: 36924dc54fe7b09607b07d7543fe7e39eb4d2483
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51092209"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "52684528"
 ---
-# <a name="use-teams-government-templates-in-the-admin-center"></a>Usar modelos governamentais do Teams no centro de administração
+# <a name="use-government-team-templates-in-the-admin-center"></a>Usar modelos de equipe do governo no centro de administração
 
-Os modelos do Teams permitem que você crie equipes de forma rápida e fácil, fornecendo um modelo predefinido de configurações, canais e aplicativos pré-instalados.
+Os modelos de equipe permitem que você crie equipes de forma rápida e fácil, fornecendo um modelo predefinido de configurações, canais e aplicativos pré-instalados.
 
-Os modelos do Teams têm definições pré-criadas de estruturas de equipe projetadas em torno das necessidades governamentais. Você também pode estender os modelos do Teams para criar equipes adaptadas às suas necessidades organizacionais específicas.
+Os modelos de equipe têm definições pré-criadas de estruturas de equipe projetadas em torno das necessidades governamentais. Você também pode estender os modelos de equipe para criar equipes adaptadas às suas necessidades organizacionais específicas.
 
-Neste artigo, apresentamos cada um dos modelos do Teams e recomendamos como usá-los.
+Neste artigo, apresentamos cada um dos modelos de equipe e recomendamos como usá-los.
 
 Este artigo é para você se você for responsável por planejar, implantar e gerenciar várias equipes em sua organização governamental. Você já implantou o serviço Teams em sua organização. Se você ainda não implementou o Teams, comece lendo [Como implementar o Microsoft Teams](./deploy-overview.md).
 
-Para saber mais sobre os modelos de equipe em geral, confira [Primeiros passos com os modelos do Teams](get-started-with-teams-templates-in-the-admin-console.md).
+Para saber mais sobre modelos de equipe em geral, consulte [Get started with team templates](get-started-with-teams-templates-in-the-admin-console.md).
 
 ## <a name="coordinate-incident-response"></a>Coordenar a resposta a incidentes
 
@@ -44,5 +44,5 @@ Centralize a comunicação e os recursos críticos para sua equipe de gerenciame
 
 | Tipo de modelo base |baseTemplateId | Propriedades que vêm com este modelo base |
 |-------------------|-------|---------------------------------------------------------------------------|
-|Coordenar a resposta a incidentes|`com.microsoft.teams.template.CoordinateIncidentResponse`|Canais: <ul><li>Geral<li>Comunicados</li><li>Logística</li><li>Planejamento</li><li>Recuperação</li><li>Urgente</li></ul> Aplicativos: <ul><li>Wiki</li><li>Excel</li><li>OneNote</li><li>SharePoint</li><li>Planner</li></ul>|
+|Coordenar a resposta a incidentes|`com.microsoft.teams.template.CoordinateIncidentResponse`|Canais: <ul><li>Geral<li>Comunicados</li><li>Logística</li><li>Planejamento</li><li>Recuperação</li><li>Urgente</li></ul> Apps: <ul><li>Wiki</li><li>Excel</li><li>OneNote</li><li>SharePoint</li><li>Planner</li></ul>|
 ||||

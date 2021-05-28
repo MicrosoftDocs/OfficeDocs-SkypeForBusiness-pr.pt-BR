@@ -17,12 +17,12 @@ description: Os conectores mantêm sua equipe atualizada com conteúdo e atualiz
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 62406da5e9feff7286023b955bd031bddda110b1
-ms.sourcegitcommit: 358038cee16ac041da10a67c26cf463901ae53d8
+ms.openlocfilehash: 3e6e65c3462242b82691a292770de684b6c4404b
+ms.sourcegitcommit: 36924dc54fe7b09607b07d7543fe7e39eb4d2483
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/26/2021
-ms.locfileid: "52669143"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "52684238"
 ---
 # <a name="use-microsoft-365-and-custom-connectors-in-microsoft-teams"></a>Use Microsoft 365 conectores personalizados e Microsoft Teams
 
@@ -32,7 +32,8 @@ Qualquer membro de uma equipe pode conectar sua equipe a serviços de nuvem popu
 
 Microsoft 365 conectores podem ser usados com grupos de Microsoft Teams e Microsoft 365, facilitando que todos os membros fiquem em sincronia e recebam informações relevantes rapidamente. O Microsoft Teams e o Exchange usam o mesmo modelo de conector, permitindo que você use os mesmos conectores em ambas as plataformas. No entanto, vale a pena notar que desabilitar conectores para o grupo Microsoft 365 que uma equipe depende desabilitará a capacidade de criar conectores para essa equipe também.
 
-> [Observação] Os conectores são desabilitados por padrão nos ambientes de Community (GCC) do Governo. Se você precisar habilita-los, desmarque os parâmetros ConnectorsEnabled ou ConnectorsEnabledForTeams para $true com o cmdlet [SetOrganizationConfig.](/powershell/module/exchange/set-organizationconfig?view=exchange-ps) Anteriormente, você precisava se conectar ao [Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell?view=exchange-ps).
+> [!NOTE]
+> Os conectores são desabilitados por padrão nos ambientes de nuvem governamental Community (GCC). Se você precisar habilita-los, desmarque os parâmetros ConnectorsEnabled ou ConnectorsEnabledForTeams para $true com o cmdlet [SetOrganizationConfig.](/powershell/module/exchange/set-organizationconfig?view=exchange-ps) Anteriormente, você precisava se conectar ao [Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell?view=exchange-ps).
 
 ## <a name="add-a-connector-to-a-channel"></a>Adicionar um conector a um canal
 
