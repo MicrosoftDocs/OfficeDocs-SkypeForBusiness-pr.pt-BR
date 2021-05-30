@@ -20,12 +20,12 @@ description: Neste artigo, você aprenderá sobre os fatores a serem considerado
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 79142779c633aeb852826ee04f5fb5c3c9aeb07f
-ms.sourcegitcommit: 950387da2a2c094b7580bcf81ae5d8b6dfba0d6b
+ms.openlocfilehash: fbacbc4e17d08ae8e5e3a86338f764976ac34b4d
+ms.sourcegitcommit: ea9a0119d184179300e51f58ca4fee249c12d00a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/08/2021
-ms.locfileid: "51637853"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "52699332"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Planejar eventos ao vivo no Microsoft Teams
 
@@ -85,7 +85,7 @@ Para um convidado apresentar em um evento ao vivo, execute as seguintes tarefas:
 2. Solicite que o usuário aceite o convite de convidado e participe da equipe.
 3. [Agende o evento ao vivo e adicione o convidado ao seu grupo de eventos](https://support.microsoft.com/article/schedule-a-teams-live-event-7a9ce97c-e1cd-470f-acaf-e6dfc179a0e2).
 
-Como prática recomendada, recomendamos que você crie um canal para produtores e apresentadores do evento ao vivo para que eles possam conversar e compartilhar informações antes do evento. Os convidados que não têm credenciais do Microsoft 365 não verão o calendário nas equipes. Para que seja mais fácil se juntar ao evento, os produtores podem postar o link de evento no canal. Os apresentadores podem abrir o Teams, ir para o canal e selecionar o link para ingressar no evento.
+Como prática recomendada, sugerimos que você crie um canal para produtores e apresentadores do evento ao vivo para que eles possam conversar e compartilhar informações antes do evento. Os convidados que não têm credenciais do Microsoft 365 não verão o Calendário no Teams. Para que seja mais fácil ingressar no evento, os produtores podem postar o link do evento no canal. Os apresentadores podem abrir o Teams, ir para o canal e selecionar o link para ingressar no evento.
 
 ## <a name="who-can-watch-live-events"></a>Quem pode assistir a eventos ao vivo
 
@@ -106,7 +106,7 @@ A tabela a seguir destaca os principais recursos oferecidos em eventos ao vivo e
 > [!IMPORTANT]
 > **O limite de eventos ao vivo do Microsoft 365 cresce**
 >
-> **Para continuar a atender às necessidades de nossos clientes, até 30 de junho de 2021, estenderemos aumentos temporários de limite para eventos ao vivo, incluindo**:
+> **Para continuar a dar suporte às necessidades dos nossos clientes, até janeiro de 2022, estenderemos os aumentos temporários de eventos ao vivo, incluindo**:
 >
 >- Suporte a eventos para até 20.000 participantes
 >- 50 eventos podem ser hospedados simultaneamente em um locatário
