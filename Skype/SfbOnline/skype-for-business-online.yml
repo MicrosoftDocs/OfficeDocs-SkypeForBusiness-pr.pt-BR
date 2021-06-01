@@ -1,6 +1,6 @@
 ### YamlMime:Landing
 title: Administrador do Skype for Business Online
-summary: O Skype for Business Online se aposentará em 31 de julho de 2021, quando o acesso ao serviço terminará. Incentivamos os clientes a iniciar a atualização para o Microsoft Teams, o hub para trabalho em equipe no Microsoft 365.
+summary: Skype for Business Online está se retirando em 31 de julho de 2021, quando o acesso ao serviço terminará. Incentivamos os clientes a começar a atualização para Microsoft Teams, o hub para trabalho em equipe Microsoft 365.
 metadata:
   title: Administrador do Skype for Business Online
   description: Saiba como gerenciar o Skype for Business Online em sua organização.
@@ -24,7 +24,7 @@ metadata:
   ms.lasthandoff: 03/23/2021
   ms.locfileid: "51118920"
 landingContent:
-- title: Sobre o Skype for Business Online
+- title: Sobre Skype for Business Online
   linkLists:
   - linkListType: whats-new
     links:
@@ -108,7 +108,7 @@ landingContent:
   linkLists:
   - linkListType: overview
     links:
-    - text: O que é o Sistema de Telefonia?
+    - text: O que é Sistema de Telefonia?
       url: /MicrosoftTeams/what-is-phone-system-in-office-365
     - text: Veja o que você obtém com o Sistema de Telefonia
       url: /MicrosoftTeams/here-s-what-you-get-with-phone-system

@@ -180,8 +180,8 @@ Você pode saber mais sobre Planos de Chamada lendo Sistema de Telefonia [e Plan
 |Online  <br/> |Local  <br/> |Web Sign-in  <br/> |Sim  <br/> |Não  <br/> |Não  <br/> |
 |Online  <br/> |Local  <br/> |Nome de usuário/Senha  <br/> |Sim  <br/> |Sim  <br/> |Não  <br/> |
 |Local  <br/> |Online/local  <br/> |Autenticação PIN  <br/> |Sim  <br/> |Não  <br/> |Não  <br/> |
-|Local  <br/> |Online/local  <br/> |Nome de usuário/Senha  <br/> |Sim  <br/> |Sim  <br/> |N/D  <br/> |
-|Local  <br/> |Online/local  <br/> |Entrar por computador (BTOE)  <br/> |Sim  <br/> |Sim  <br/> |N/D  <br/> |
+|Local  <br/> |Online/local  <br/> |Nome de usuário/Senha  <br/> |Sim  <br/> |Sim  <br/> |Não disponível  <br/> |
+|Local  <br/> |Online/local  <br/> |Entrar por computador (BTOE)  <br/> |Sim  <br/> |Sim  <br/> |Não disponível  <br/> |
    
 - **Telefone recursos** O conjunto de recursos pode variar ligeiramente com base no parceiro de telefone IP. Para obter o conjunto de recursos completo e para obter mais informações sobre os recursos para cada fabricante de telefone, consulte Obter telefones [para Skype for Business Online](getting-phones-for-skype-for-business-online.md).
     
