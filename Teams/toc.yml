@@ -307,6 +307,8 @@ items:
             href: policy-control-diagnostic-data-desktop.md
           - name: Experiências conectadas opcionais
             href: teams-privacy-oce-overview.md
+          - name: Transferência de dados de conexão do operador
+            href: operator-connect-data-transfer.md
   - name: Gerenciar e monitorar equipes
     items:
       - name: Visão Geral
@@ -957,6 +959,12 @@ items:
                 href: manage-voice-routing-policies.md
               - name: Dispositivo de Ramificação de Roteamento Direto Sobrevivente
                 href: direct-routing-survivable-branch-appliance.md
+      - name: Conexão do Operador
+        items:
+          - name: Plano para a Conexão do Operador
+            href: operator-connect-plan.md
+          - name: Configurar a Conexão do Operador
+            href: operator-connect-configure.md
       - name: Telefones
         items:
           - name: Gerenciar números de telefone para sua organização
@@ -1390,6 +1398,8 @@ items:
             items:
               - name: Visitas virtuais com o Teams - Integração com EHR
                 href: expand-teams-across-your-org/healthcare/ehr-admin.md
+              - name: Relatórios de administrador de Registro de Integridade Eletrônica
+                href: expand-teams-across-your-org/healthcare/ehr-admin-reports.md
               - name: Visitas virtuais com o Bookings e o Teams
                 href: bookings-app-admin.md
           - name: Exibir e atribuir pacotes de política

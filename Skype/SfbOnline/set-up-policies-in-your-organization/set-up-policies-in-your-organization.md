@@ -25,15 +25,15 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 05/06/2021
 ms.locfileid: "52240016"
 ---
-# <a name="set-up-policies-in-your-organization"></a><span data-ttu-id="bd619-102">Configurar políticas em sua organização</span><span class="sxs-lookup"><span data-stu-id="bd619-102">Set up policies in your organization</span></span>
+# <a name="set-up-policies-in-your-organization"></a><span data-ttu-id="f1c23-102">Configurar políticas em sua organização</span><span class="sxs-lookup"><span data-stu-id="f1c23-102">Set up policies in your organization</span></span>
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
-<span data-ttu-id="bd619-103">As políticas ajudam a determinar os recursos do Skype for Business Online que são disponibilizados para os usuários.</span><span class="sxs-lookup"><span data-stu-id="bd619-103">Policies help determine the features of Skype for Business Online that are made available to users.</span></span> <span data-ttu-id="bd619-104">Consulte os artigos a seguir para obter detalhes completos.</span><span class="sxs-lookup"><span data-stu-id="bd619-104">See the following articles for complete details.</span></span>
+<span data-ttu-id="f1c23-103">As políticas ajudam a determinar os recursos do Skype for Business Online que são disponibilizados para os usuários.</span><span class="sxs-lookup"><span data-stu-id="f1c23-103">Policies help determine the features of Skype for Business Online that are made available to users.</span></span> <span data-ttu-id="f1c23-104">Consulte os artigos a seguir para obter detalhes completos.</span><span class="sxs-lookup"><span data-stu-id="f1c23-104">See the following articles for complete details.</span></span>
 
-- [<span data-ttu-id="bd619-105">Bloquear transferências de arquivo ponto a ponto</span><span class="sxs-lookup"><span data-stu-id="bd619-105">Block point-to-point file transfers</span></span>](block-point-to-point-file-transfers.md)
-- [<span data-ttu-id="bd619-106">Criar políticas personalizadas de acesso externo</span><span class="sxs-lookup"><span data-stu-id="bd619-106">Create custom external access policies</span></span>](create-custom-external-access-policies.md)
-- [<span data-ttu-id="bd619-107">Retenção de arquivos grandes anexados a uma reunião</span><span class="sxs-lookup"><span data-stu-id="bd619-107">Retaining large files attached to a meeting</span></span>](retaining-large-files-attached-to-a-meeting.md)
-- [<span data-ttu-id="bd619-108">Configurar políticas de conferência para sua organização</span><span class="sxs-lookup"><span data-stu-id="bd619-108">Set up conferencing policies for your organization</span></span>](set-up-conferencing-policies-for-your-organization.md)
-- [<span data-ttu-id="bd619-109">Configurar políticas móveis para sua organização</span><span class="sxs-lookup"><span data-stu-id="bd619-109">Set up mobile policies for your organization</span></span>](set-up-mobile-policies-for-your-organization.md)
-- [<span data-ttu-id="bd619-110">Configurar políticas de clientes para sua organização</span><span class="sxs-lookup"><span data-stu-id="bd619-110">Set up client policies for your organization</span></span>](set-up-client-policies-for-your-organization.md)
+- [<span data-ttu-id="f1c23-105">Bloquear transferências de arquivo ponto a ponto</span><span class="sxs-lookup"><span data-stu-id="f1c23-105">Block point-to-point file transfers</span></span>](block-point-to-point-file-transfers.md)
+- [<span data-ttu-id="f1c23-106">Criar políticas personalizadas de acesso externo</span><span class="sxs-lookup"><span data-stu-id="f1c23-106">Create custom external access policies</span></span>](create-custom-external-access-policies.md)
+- [<span data-ttu-id="f1c23-107">Retenção de arquivos grandes anexados a uma reunião</span><span class="sxs-lookup"><span data-stu-id="f1c23-107">Retaining large files attached to a meeting</span></span>](retaining-large-files-attached-to-a-meeting.md)
+- [<span data-ttu-id="f1c23-108">Configurar políticas de conferência para sua organização</span><span class="sxs-lookup"><span data-stu-id="f1c23-108">Set up conferencing policies for your organization</span></span>](set-up-conferencing-policies-for-your-organization.md)
+- [<span data-ttu-id="f1c23-109">Configurar políticas móveis para sua organização</span><span class="sxs-lookup"><span data-stu-id="f1c23-109">Set up mobile policies for your organization</span></span>](set-up-mobile-policies-for-your-organization.md)
+- [<span data-ttu-id="f1c23-110">Configurar políticas de clientes para sua organização</span><span class="sxs-lookup"><span data-stu-id="f1c23-110">Set up client policies for your organization</span></span>](set-up-client-policies-for-your-organization.md)

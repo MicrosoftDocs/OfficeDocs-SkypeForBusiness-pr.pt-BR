@@ -26,26 +26,26 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 05/06/2021
 ms.locfileid: "52240083"
 ---
-# <a name="set-up-client-policies-for-your-organization"></a><span data-ttu-id="47751-103">Configurar políticas de clientes para sua organização</span><span class="sxs-lookup"><span data-stu-id="47751-103">Set up client policies for your organization</span></span>
+# <a name="set-up-client-policies-for-your-organization"></a><span data-ttu-id="c5745-103">Configurar políticas de clientes para sua organização</span><span class="sxs-lookup"><span data-stu-id="c5745-103">Set up client policies for your organization</span></span>
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
-<span data-ttu-id="47751-104">A ajuda de políticas de cliente determina os recursos do Skype for Business Online que são disponibilizados para os usuários; por exemplo, você pode dar a alguns usuários o direito de transferir arquivos enquanto nega este direito a outros usuários.</span><span class="sxs-lookup"><span data-stu-id="47751-104">Client policies help determine the features of Skype for Business Online that are made available to users; for example, you might give some users the right to transfer files while denying this right to other users.</span></span>
+<span data-ttu-id="c5745-104">A ajuda de políticas de cliente determina os recursos do Skype for Business Online que são disponibilizados para os usuários; por exemplo, você pode dar a alguns usuários o direito de transferir arquivos enquanto nega este direito a outros usuários.</span><span class="sxs-lookup"><span data-stu-id="c5745-104">Client policies help determine the features of Skype for Business Online that are made available to users; for example, you might give some users the right to transfer files while denying this right to other users.</span></span>
   
-<span data-ttu-id="47751-105">As configurações de política de cliente podem ser configuradas no momento em que uma política é criada ou você pode usar o cmdlet **Set-CsClientPolicy** para modificar as configurações de uma política existente.</span><span class="sxs-lookup"><span data-stu-id="47751-105">Client policy settings can be configured at the time a policy is created, or you can use the **Set-CsClientPolicy** cmdlet to modify the settings of an existing policy.</span></span>
+<span data-ttu-id="c5745-105">As configurações de política de cliente podem ser configuradas no momento em que uma política é criada ou você pode usar o cmdlet **Set-CsClientPolicy** para modificar as configurações de uma política existente.</span><span class="sxs-lookup"><span data-stu-id="c5745-105">Client policy settings can be configured at the time a policy is created, or you can use the **Set-CsClientPolicy** cmdlet to modify the settings of an existing policy.</span></span>
   
-## <a name="set-your-client-policies"></a><span data-ttu-id="47751-106">Definir suas políticas de cliente</span><span class="sxs-lookup"><span data-stu-id="47751-106">Set your client policies</span></span>
+## <a name="set-your-client-policies"></a><span data-ttu-id="c5745-106">Definir suas políticas de cliente</span><span class="sxs-lookup"><span data-stu-id="c5745-106">Set your client policies</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="47751-107">Para todas as configurações de política do cliente no Skype for Business Online,  você deve usar o Windows PowerShell e não pode usar o centro de administração Skype for Business **cliente.**</span><span class="sxs-lookup"><span data-stu-id="47751-107">For all of the client policy settings in Skype for Business Online, you must use Windows PowerShell and you **can't use** the **Skype for Business admin center**.</span></span> 
+> <span data-ttu-id="c5745-107">Para todas as configurações de política do cliente no Skype for Business Online,  você deve usar o Windows PowerShell e não pode usar o centro de administração Skype for Business **cliente.**</span><span class="sxs-lookup"><span data-stu-id="c5745-107">For all of the client policy settings in Skype for Business Online, you must use Windows PowerShell and you **can't use** the **Skype for Business admin center**.</span></span> 
   
-### <a name="start-windows-powershell"></a><span data-ttu-id="47751-108">Iniciar Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="47751-108">Start Windows PowerShell</span></span>
+### <a name="start-windows-powershell"></a><span data-ttu-id="c5745-108">Iniciar Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="c5745-108">Start Windows PowerShell</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="47751-109">O Conector Skype for Business Online atualmente faz parte do módulo mais recente do PowerShell do Teams.</span><span class="sxs-lookup"><span data-stu-id="47751-109">Skype for Business Online Connector is currently part of the latest Teams PowerShell module.</span></span> <span data-ttu-id="47751-110">Se você estiver usando o último lançamento público do PowerShell Teams, não precisa instalar o Conector do Skype for Business Online.</span><span class="sxs-lookup"><span data-stu-id="47751-110">If you're using the latest Teams PowerShell public release, you don't need to install the Skype for Business Online Connector.</span></span>
-1. <span data-ttu-id="47751-111">Instale o [módulo Teams PowerShell](/microsoftteams/teams-powershell-install).</span><span class="sxs-lookup"><span data-stu-id="47751-111">Install the [Teams PowerShell module](/microsoftteams/teams-powershell-install).</span></span>
+> <span data-ttu-id="c5745-109">O Conector Skype for Business Online atualmente faz parte do módulo mais recente do PowerShell do Teams.</span><span class="sxs-lookup"><span data-stu-id="c5745-109">Skype for Business Online Connector is currently part of the latest Teams PowerShell module.</span></span> <span data-ttu-id="c5745-110">Se você estiver usando o último lançamento público do PowerShell Teams, não precisa instalar o Conector do Skype for Business Online.</span><span class="sxs-lookup"><span data-stu-id="c5745-110">If you're using the latest Teams PowerShell public release, you don't need to install the Skype for Business Online Connector.</span></span>
+1. <span data-ttu-id="c5745-111">Instale o [módulo Teams PowerShell](/microsoftteams/teams-powershell-install).</span><span class="sxs-lookup"><span data-stu-id="c5745-111">Install the [Teams PowerShell module](/microsoftteams/teams-powershell-install).</span></span>
     
-2. <span data-ttu-id="47751-112">Abra um prompt Windows PowerShell de comando e execute os seguintes comandos:</span><span class="sxs-lookup"><span data-stu-id="47751-112">Open a Windows PowerShell command prompt and run the following commands:</span></span> 
+2. <span data-ttu-id="c5745-112">Abra um prompt Windows PowerShell de comando e execute os seguintes comandos:</span><span class="sxs-lookup"><span data-stu-id="c5745-112">Open a Windows PowerShell command prompt and run the following commands:</span></span> 
 
     ```powershell
    # When using Teams PowerShell Module
@@ -54,93 +54,93 @@ ms.locfileid: "52240083"
    $credential = Get-Credential
    Connect-MicrosoftTeams -Credential $credential
    ```
-   <span data-ttu-id="47751-113">Se você quiser mais informações sobre como iniciar Windows PowerShell, consulte Conexão para todos os serviços Microsoft 365 ou [Office 365](/microsoft-365/enterprise/connect-to-all-microsoft-365-services-in-a-single-windows-powershell-window) em uma única janela de Windows PowerShell ou Configurar seu computador para Windows PowerShell [.](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)</span><span class="sxs-lookup"><span data-stu-id="47751-113">If you want more information about starting Windows PowerShell, see [Connect to all Microsoft 365 or Office 365 services in a single Windows PowerShell window](/microsoft-365/enterprise/connect-to-all-microsoft-365-services-in-a-single-windows-powershell-window) or [Set up your computer for Windows PowerShell](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md).</span></span>
+   <span data-ttu-id="c5745-113">Se você quiser mais informações sobre como iniciar Windows PowerShell, consulte Conexão para todos os serviços Microsoft 365 ou [Office 365](/microsoft-365/enterprise/connect-to-all-microsoft-365-services-in-a-single-windows-powershell-window) em uma única janela de Windows PowerShell ou Configurar seu computador para Windows PowerShell [.](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)</span><span class="sxs-lookup"><span data-stu-id="c5745-113">If you want more information about starting Windows PowerShell, see [Connect to all Microsoft 365 or Office 365 services in a single Windows PowerShell window](/microsoft-365/enterprise/connect-to-all-microsoft-365-services-in-a-single-windows-powershell-window) or [Set up your computer for Windows PowerShell](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md).</span></span>
  
-### <a name="disable-emoticons-and-presence-notifications-and-prevent-saving-of-ims"></a><span data-ttu-id="47751-114">Desabilitar emoticons e notificações de presença e impedir a economia de IMs</span><span class="sxs-lookup"><span data-stu-id="47751-114">Disable emoticons and presence notifications and prevent saving of IMs</span></span>
+### <a name="disable-emoticons-and-presence-notifications-and-prevent-saving-of-ims"></a><span data-ttu-id="c5745-114">Desabilitar emoticons e notificações de presença e impedir a economia de IMs</span><span class="sxs-lookup"><span data-stu-id="c5745-114">Disable emoticons and presence notifications and prevent saving of IMs</span></span>
 
-- <span data-ttu-id="47751-115">Para criar uma nova política para essas configurações, execute:</span><span class="sxs-lookup"><span data-stu-id="47751-115">To create a new policy for these settings, run:</span></span>
+- <span data-ttu-id="c5745-115">Para criar uma nova política para essas configurações, execute:</span><span class="sxs-lookup"><span data-stu-id="c5745-115">To create a new policy for these settings, run:</span></span>
     
  
    ```powershell
    New-CsClientPolicy -Identity ClientPolicy -DisableEmoticons $true -DisablePresenceNote -$true -DisableSavingIM $true
    ```
 
-  <span data-ttu-id="47751-116">Consulte mais no cmdlet [New-CsClientPolicy.](/powershell/module/skype/New-CsClientPolicy)</span><span class="sxs-lookup"><span data-stu-id="47751-116">See more on the [New-CsClientPolicy](/powershell/module/skype/New-CsClientPolicy) cmdlet.</span></span>
+  <span data-ttu-id="c5745-116">Consulte mais no cmdlet [New-CsClientPolicy.](/powershell/module/skype/New-CsClientPolicy)</span><span class="sxs-lookup"><span data-stu-id="c5745-116">See more on the [New-CsClientPolicy](/powershell/module/skype/New-CsClientPolicy) cmdlet.</span></span>
     
-- <span data-ttu-id="47751-117">Para conceder a nova política criada a todos os usuários em sua organização, execute:</span><span class="sxs-lookup"><span data-stu-id="47751-117">To grant the new policy you created to all of the users in your organization, run:</span></span>
+- <span data-ttu-id="c5745-117">Para conceder a nova política criada a todos os usuários em sua organização, execute:</span><span class="sxs-lookup"><span data-stu-id="c5745-117">To grant the new policy you created to all of the users in your organization, run:</span></span>
     
  
    ```powershell
    Grant-CsClientPolicy -identity "amos.marble@contoso.com" -PolicyName ClientPolicy
    ```
 
-  <span data-ttu-id="47751-118">Consulte mais no cmdlet [Grant-CsClientPolicy.](/powershell/module/skype/Grant-CsClientPolicy)</span><span class="sxs-lookup"><span data-stu-id="47751-118">See more on the [Grant-CsClientPolicy](/powershell/module/skype/Grant-CsClientPolicy) cmdlet.</span></span>
+  <span data-ttu-id="c5745-118">Consulte mais no cmdlet [Grant-CsClientPolicy.](/powershell/module/skype/Grant-CsClientPolicy)</span><span class="sxs-lookup"><span data-stu-id="c5745-118">See more on the [Grant-CsClientPolicy](/powershell/module/skype/Grant-CsClientPolicy) cmdlet.</span></span>
     
-<span data-ttu-id="47751-119">Se você já tiver criado uma política, poderá usar o cmdlet [Set-CsClientPolicy](/powershell/module/skype/Set-CsClientPolicy) para fazer alterações na política existente e, em seguida, usar o cmdlet [Grant-CsClientPolicy](/powershell/module/skype/Grant-CsClientPolicy) para aplicar as configurações aos seus usuários.</span><span class="sxs-lookup"><span data-stu-id="47751-119">If you have already created a policy, you can use the [Set-CsClientPolicy](/powershell/module/skype/Set-CsClientPolicy) cmdlet to make changes to the existing policy, and then use the [Grant-CsClientPolicy](/powershell/module/skype/Grant-CsClientPolicy) cmdlet to apply the settings to your users.</span></span>
+<span data-ttu-id="c5745-119">Se você já tiver criado uma política, poderá usar o cmdlet [Set-CsClientPolicy](/powershell/module/skype/Set-CsClientPolicy) para fazer alterações na política existente e, em seguida, usar o cmdlet [Grant-CsClientPolicy](/powershell/module/skype/Grant-CsClientPolicy) para aplicar as configurações aos seus usuários.</span><span class="sxs-lookup"><span data-stu-id="c5745-119">If you have already created a policy, you can use the [Set-CsClientPolicy](/powershell/module/skype/Set-CsClientPolicy) cmdlet to make changes to the existing policy, and then use the [Grant-CsClientPolicy](/powershell/module/skype/Grant-CsClientPolicy) cmdlet to apply the settings to your users.</span></span>
   
-### <a name="enable-urls-or-hyperlinks-to-be-clickable-in-ims"></a><span data-ttu-id="47751-120">Habilitar URLs ou hyperlinks para tornarem-se clicáveis nas mensagens instantâneas</span><span class="sxs-lookup"><span data-stu-id="47751-120">Enable URLs or hyperlinks to be clickable in IMs</span></span>
+### <a name="enable-urls-or-hyperlinks-to-be-clickable-in-ims"></a><span data-ttu-id="c5745-120">Habilitar URLs ou hyperlinks para tornarem-se clicáveis nas mensagens instantâneas</span><span class="sxs-lookup"><span data-stu-id="c5745-120">Enable URLs or hyperlinks to be clickable in IMs</span></span>
 
-- <span data-ttu-id="47751-121">Para criar uma nova política para essas configurações, execute:</span><span class="sxs-lookup"><span data-stu-id="47751-121">To create a new policy for these settings, run:</span></span>
+- <span data-ttu-id="c5745-121">Para criar uma nova política para essas configurações, execute:</span><span class="sxs-lookup"><span data-stu-id="c5745-121">To create a new policy for these settings, run:</span></span>
     
  
    ```powershell
    New-CsClientPolicy -Identity URLClientPolicy -EnableURL $true
    ```
 
-  <span data-ttu-id="47751-122">Consulte mais no cmdlet [New-CsClientPolicy.](/powershell/module/skype/New-CsClientPolicy)</span><span class="sxs-lookup"><span data-stu-id="47751-122">See more on the [New-CsClientPolicy](/powershell/module/skype/New-CsClientPolicy) cmdlet.</span></span>
+  <span data-ttu-id="c5745-122">Consulte mais no cmdlet [New-CsClientPolicy.](/powershell/module/skype/New-CsClientPolicy)</span><span class="sxs-lookup"><span data-stu-id="c5745-122">See more on the [New-CsClientPolicy](/powershell/module/skype/New-CsClientPolicy) cmdlet.</span></span>
     
-- <span data-ttu-id="47751-123">Para conceder a nova política criada a todos os usuários em sua organização, execute:</span><span class="sxs-lookup"><span data-stu-id="47751-123">To grant the new policy you created to all of the users in your organization, run:</span></span>
+- <span data-ttu-id="c5745-123">Para conceder a nova política criada a todos os usuários em sua organização, execute:</span><span class="sxs-lookup"><span data-stu-id="c5745-123">To grant the new policy you created to all of the users in your organization, run:</span></span>
     
  
    ```powershell
    Grant-CsClientPolicy -identity "amos.marble@contoso.com" -PolicyName URLClientPolicy
    ```
 
-  <span data-ttu-id="47751-124">Consulte mais no cmdlet [Grant-CsClientPolicy.](/powershell/module/skype/Grant-CsClientPolicy)</span><span class="sxs-lookup"><span data-stu-id="47751-124">See more on the [Grant-CsClientPolicy](/powershell/module/skype/Grant-CsClientPolicy) cmdlet.</span></span>
+  <span data-ttu-id="c5745-124">Consulte mais no cmdlet [Grant-CsClientPolicy.](/powershell/module/skype/Grant-CsClientPolicy)</span><span class="sxs-lookup"><span data-stu-id="c5745-124">See more on the [Grant-CsClientPolicy](/powershell/module/skype/Grant-CsClientPolicy) cmdlet.</span></span>
     
-<span data-ttu-id="47751-125">Se você já tiver criado uma política, poderá usar o cmdlet [Set-CsClientPolicy](/powershell/module/skype/Set-CsClientPolicy) para fazer alterações na política existente e, em seguida, usar o cmdlet [Grant-CsClientPolicy](/powershell/module/skype/Grant-CsClientPolicy) para aplicar as configurações aos seus usuários.</span><span class="sxs-lookup"><span data-stu-id="47751-125">If you have already created a policy, you can use the [Set-CsClientPolicy](/powershell/module/skype/Set-CsClientPolicy) cmdlet to make changes to the existing policy, and then use the [Grant-CsClientPolicy](/powershell/module/skype/Grant-CsClientPolicy) cmdlet to apply the settings to your users.</span></span>
+<span data-ttu-id="c5745-125">Se você já tiver criado uma política, poderá usar o cmdlet [Set-CsClientPolicy](/powershell/module/skype/Set-CsClientPolicy) para fazer alterações na política existente e, em seguida, usar o cmdlet [Grant-CsClientPolicy](/powershell/module/skype/Grant-CsClientPolicy) para aplicar as configurações aos seus usuários.</span><span class="sxs-lookup"><span data-stu-id="c5745-125">If you have already created a policy, you can use the [Set-CsClientPolicy](/powershell/module/skype/Set-CsClientPolicy) cmdlet to make changes to the existing policy, and then use the [Grant-CsClientPolicy](/powershell/module/skype/Grant-CsClientPolicy) cmdlet to apply the settings to your users.</span></span>
   
-### <a name="prevent-showing-recent-contacts"></a><span data-ttu-id="47751-126">Impedir a exibição de contatos recentes</span><span class="sxs-lookup"><span data-stu-id="47751-126">Prevent showing recent contacts</span></span>
+### <a name="prevent-showing-recent-contacts"></a><span data-ttu-id="c5745-126">Impedir a exibição de contatos recentes</span><span class="sxs-lookup"><span data-stu-id="c5745-126">Prevent showing recent contacts</span></span>
 
-- <span data-ttu-id="47751-127">Para criar uma nova política para essas configurações, execute:</span><span class="sxs-lookup"><span data-stu-id="47751-127">To create a new policy for these settings, run:</span></span>
+- <span data-ttu-id="c5745-127">Para criar uma nova política para essas configurações, execute:</span><span class="sxs-lookup"><span data-stu-id="c5745-127">To create a new policy for these settings, run:</span></span>
    
    ```powershell
    New-CsClientPolicy -Identity ContactsClientPolicy -ShowRecentContacts $false 
    ```
 
-  <span data-ttu-id="47751-128">Consulte mais no cmdlet [New-CsClientPolicy.](/powershell/module/skype/New-CsClientPolicy)</span><span class="sxs-lookup"><span data-stu-id="47751-128">See more on the [New-CsClientPolicy](/powershell/module/skype/New-CsClientPolicy) cmdlet.</span></span>
+  <span data-ttu-id="c5745-128">Consulte mais no cmdlet [New-CsClientPolicy.](/powershell/module/skype/New-CsClientPolicy)</span><span class="sxs-lookup"><span data-stu-id="c5745-128">See more on the [New-CsClientPolicy](/powershell/module/skype/New-CsClientPolicy) cmdlet.</span></span>
     
-- <span data-ttu-id="47751-129">Para conceder a nova política criada para o Amos Marble, execute:</span><span class="sxs-lookup"><span data-stu-id="47751-129">To grant the new policy you created to Amos Marble, run:</span></span>
+- <span data-ttu-id="c5745-129">Para conceder a nova política criada para o Amos Marble, execute:</span><span class="sxs-lookup"><span data-stu-id="c5745-129">To grant the new policy you created to Amos Marble, run:</span></span>
    
    ```powershell
    Grant-CsClientPolicy -identity "amos.marble@contoso.com" -PolicyName ContactsClientPolicy
    ```
 
-  <span data-ttu-id="47751-130">Consulte mais no cmdlet [Grant-CsClientPolicy.](/powershell/module/skype/Grant-CsClientPolicy)</span><span class="sxs-lookup"><span data-stu-id="47751-130">See more on the [Grant-CsClientPolicy](/powershell/module/skype/Grant-CsClientPolicy) cmdlet.</span></span>
+  <span data-ttu-id="c5745-130">Consulte mais no cmdlet [Grant-CsClientPolicy.](/powershell/module/skype/Grant-CsClientPolicy)</span><span class="sxs-lookup"><span data-stu-id="c5745-130">See more on the [Grant-CsClientPolicy](/powershell/module/skype/Grant-CsClientPolicy) cmdlet.</span></span>
     
-  <span data-ttu-id="47751-131">Se você já tiver criado uma política, poderá usar o cmdlet [Set-CsClientPolicy](/powershell/module/skype/Set-CsClientPolicy) para fazer alterações na política existente e, em seguida, usar o cmdlet [Grant-CsClientPolicy](/powershell/module/skype/Grant-CsClientPolicy) para aplicar as configurações aos seus usuários.</span><span class="sxs-lookup"><span data-stu-id="47751-131">If you have already created a policy, you can use the [Set-CsClientPolicy](/powershell/module/skype/Set-CsClientPolicy) cmdlet to make changes to the existing policy, and then use the [Grant-CsClientPolicy](/powershell/module/skype/Grant-CsClientPolicy) cmdlet to apply the settings to your users.</span></span>
+  <span data-ttu-id="c5745-131">Se você já tiver criado uma política, poderá usar o cmdlet [Set-CsClientPolicy](/powershell/module/skype/Set-CsClientPolicy) para fazer alterações na política existente e, em seguida, usar o cmdlet [Grant-CsClientPolicy](/powershell/module/skype/Grant-CsClientPolicy) para aplicar as configurações aos seus usuários.</span><span class="sxs-lookup"><span data-stu-id="c5745-131">If you have already created a policy, you can use the [Set-CsClientPolicy](/powershell/module/skype/Set-CsClientPolicy) cmdlet to make changes to the existing policy, and then use the [Grant-CsClientPolicy](/powershell/module/skype/Grant-CsClientPolicy) cmdlet to apply the settings to your users.</span></span>
   
-## <a name="want-to-know-more-about-windows-powershell"></a><span data-ttu-id="47751-132">Deseja saber mais sobre o Windows PowerShell?</span><span class="sxs-lookup"><span data-stu-id="47751-132">Want to know more about Windows PowerShell?</span></span>
+## <a name="want-to-know-more-about-windows-powershell"></a><span data-ttu-id="c5745-132">Deseja saber mais sobre o Windows PowerShell?</span><span class="sxs-lookup"><span data-stu-id="c5745-132">Want to know more about Windows PowerShell?</span></span>
 
-- <span data-ttu-id="47751-133">O Windows PowerShell gerencia os usuários e o que eles podem ou não fazer.</span><span class="sxs-lookup"><span data-stu-id="47751-133">Windows PowerShell is all about managing users and what users are allowed or not allowed to do.</span></span> <span data-ttu-id="47751-134">Com Windows PowerShell, você pode gerenciar o Microsoft 365 ou Office 365 e Skype for Business Online usando um único ponto de administração que pode simplificar seu trabalho diário, quando você tem várias tarefas a fazer.</span><span class="sxs-lookup"><span data-stu-id="47751-134">With Windows PowerShell, you can manage Microsoft 365 or Office 365 and Skype for Business Online using a single point of administration that can simplify your daily work, when you have multiple tasks to do.</span></span> <span data-ttu-id="47751-135">Para começar a trabalhar com o Windows PowerShell, confira estes tópicos:</span><span class="sxs-lookup"><span data-stu-id="47751-135">To get started with Windows PowerShell, see these topics:</span></span>
+- <span data-ttu-id="c5745-133">O Windows PowerShell gerencia os usuários e o que eles podem ou não fazer.</span><span class="sxs-lookup"><span data-stu-id="c5745-133">Windows PowerShell is all about managing users and what users are allowed or not allowed to do.</span></span> <span data-ttu-id="c5745-134">Com Windows PowerShell, você pode gerenciar o Microsoft 365 ou Office 365 e Skype for Business Online usando um único ponto de administração que pode simplificar seu trabalho diário, quando você tem várias tarefas a fazer.</span><span class="sxs-lookup"><span data-stu-id="c5745-134">With Windows PowerShell, you can manage Microsoft 365 or Office 365 and Skype for Business Online using a single point of administration that can simplify your daily work, when you have multiple tasks to do.</span></span> <span data-ttu-id="c5745-135">Para começar a trabalhar com o Windows PowerShell, confira estes tópicos:</span><span class="sxs-lookup"><span data-stu-id="c5745-135">To get started with Windows PowerShell, see these topics:</span></span>
     
-  - [<span data-ttu-id="47751-136">Uma introdução ao Windows PowerShell e ao Skype for Business Online</span><span class="sxs-lookup"><span data-stu-id="47751-136">An introduction to Windows PowerShell and Skype for Business Online</span></span>](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
+  - [<span data-ttu-id="c5745-136">Uma introdução ao Windows PowerShell e ao Skype for Business Online</span><span class="sxs-lookup"><span data-stu-id="c5745-136">An introduction to Windows PowerShell and Skype for Business Online</span></span>](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     
-  - [<span data-ttu-id="47751-137">Seis motivos pelos quais você pode querer usar Windows PowerShell gerenciar Microsoft 365 ou Office 365</span><span class="sxs-lookup"><span data-stu-id="47751-137">Six Reasons Why You Might Want to Use Windows PowerShell to Manage Microsoft 365 or Office 365</span></span>](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
+  - [<span data-ttu-id="c5745-137">Seis motivos pelos quais você pode querer usar Windows PowerShell gerenciar Microsoft 365 ou Office 365</span><span class="sxs-lookup"><span data-stu-id="c5745-137">Six Reasons Why You Might Want to Use Windows PowerShell to Manage Microsoft 365 or Office 365</span></span>](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     
-- <span data-ttu-id="47751-138">Windows PowerShell tem muitas vantagens em velocidade, simplicidade e produtividade sobre o uso apenas do centro de administração do Microsoft 365, como quando você está fazendo alterações de configuração para muitos usuários ao mesmo tempo.</span><span class="sxs-lookup"><span data-stu-id="47751-138">Windows PowerShell has many advantages in speed, simplicity, and productivity over only using the Microsoft 365 admin center such as when you are making setting changes for many users at one time.</span></span> <span data-ttu-id="47751-139">Saiba mais sobre essas vantagens nos seguintes tópicos:</span><span class="sxs-lookup"><span data-stu-id="47751-139">Learn about these advantages in the following topics:</span></span>
+- <span data-ttu-id="c5745-138">Windows PowerShell tem muitas vantagens em velocidade, simplicidade e produtividade sobre o uso apenas do centro de administração do Microsoft 365, como quando você está fazendo alterações de configuração para muitos usuários ao mesmo tempo.</span><span class="sxs-lookup"><span data-stu-id="c5745-138">Windows PowerShell has many advantages in speed, simplicity, and productivity over only using the Microsoft 365 admin center such as when you are making setting changes for many users at one time.</span></span> <span data-ttu-id="c5745-139">Saiba mais sobre essas vantagens nos seguintes tópicos:</span><span class="sxs-lookup"><span data-stu-id="c5745-139">Learn about these advantages in the following topics:</span></span>
     
-  - <span data-ttu-id="47751-140">[Melhores maneiras de gerenciar Microsoft 365 ou Office 365 com Windows PowerShell](/previous-versions//dn568025(v=technet.10))</span><span class="sxs-lookup"><span data-stu-id="47751-140">[Best ways to manage Microsoft 365 or Office 365 with Windows PowerShell](/previous-versions//dn568025(v=technet.10))</span></span>
+  - <span data-ttu-id="c5745-140">[Melhores maneiras de gerenciar Microsoft 365 ou Office 365 com Windows PowerShell](/previous-versions//dn568025(v=technet.10))</span><span class="sxs-lookup"><span data-stu-id="c5745-140">[Best ways to manage Microsoft 365 or Office 365 with Windows PowerShell](/previous-versions//dn568025(v=technet.10))</span></span>
     
-  - [<span data-ttu-id="47751-141">Usar o Windows PowerShell para gerenciar o Skype for Business Online</span><span class="sxs-lookup"><span data-stu-id="47751-141">Using Windows PowerShell to manage Skype for Business Online</span></span>](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
+  - [<span data-ttu-id="c5745-141">Usar o Windows PowerShell para gerenciar o Skype for Business Online</span><span class="sxs-lookup"><span data-stu-id="c5745-141">Using Windows PowerShell to manage Skype for Business Online</span></span>](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     
-  - [<span data-ttu-id="47751-142">Usando o Windows PowerShell para realizar tarefas comuns de gerenciamento do Skype for Business Online</span><span class="sxs-lookup"><span data-stu-id="47751-142">Using Windows PowerShell to do common Skype for Business Online management tasks</span></span>](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
+  - [<span data-ttu-id="c5745-142">Usando o Windows PowerShell para realizar tarefas comuns de gerenciamento do Skype for Business Online</span><span class="sxs-lookup"><span data-stu-id="c5745-142">Using Windows PowerShell to do common Skype for Business Online management tasks</span></span>](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     
-## <a name="related-topics"></a><span data-ttu-id="47751-143">Tópicos relacionados</span><span class="sxs-lookup"><span data-stu-id="47751-143">Related topics</span></span>
-[<span data-ttu-id="47751-144">Criar políticas personalizadas de acesso externo</span><span class="sxs-lookup"><span data-stu-id="47751-144">Create custom external access policies</span></span>](create-custom-external-access-policies.md)
+## <a name="related-topics"></a><span data-ttu-id="c5745-143">Tópicos relacionados</span><span class="sxs-lookup"><span data-stu-id="c5745-143">Related topics</span></span>
+[<span data-ttu-id="c5745-144">Criar políticas personalizadas de acesso externo</span><span class="sxs-lookup"><span data-stu-id="c5745-144">Create custom external access policies</span></span>](create-custom-external-access-policies.md)
 
-[<span data-ttu-id="47751-145">Bloquear transferências de arquivo ponto a ponto</span><span class="sxs-lookup"><span data-stu-id="47751-145">Block point-to-point file transfers</span></span>](block-point-to-point-file-transfers.md)
+[<span data-ttu-id="c5745-145">Bloquear transferências de arquivo ponto a ponto</span><span class="sxs-lookup"><span data-stu-id="c5745-145">Block point-to-point file transfers</span></span>](block-point-to-point-file-transfers.md)
 
-[<span data-ttu-id="47751-146">Configurar políticas de conferência em sua organização</span><span class="sxs-lookup"><span data-stu-id="47751-146">Set up conferencing policies in your organization</span></span>](set-up-conferencing-policies-for-your-organization.md)
+[<span data-ttu-id="c5745-146">Configurar políticas de conferência em sua organização</span><span class="sxs-lookup"><span data-stu-id="c5745-146">Set up conferencing policies in your organization</span></span>](set-up-conferencing-policies-for-your-organization.md)
 
   
