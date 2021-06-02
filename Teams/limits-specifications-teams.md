@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b714da86c51072eb7efae846dbeb29b205674751
-ms.sourcegitcommit: 330e60ff3549cd5cff5b52ad95dc4259e4e8de13
+ms.openlocfilehash: 3f15b2ad9fce413602ed531067ed7e2b280ed122
+ms.sourcegitcommit: 90615674e9703aa5ea32be64ab3638aa30e83127
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52628880"
+ms.lasthandoff: 06/02/2021
+ms.locfileid: "52717722"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Limites e especificações para o Microsoft Teams
 
@@ -118,17 +118,6 @@ Os nomes de canal também não podem começar com um caractere de sublinhado (_)
 
 ## <a name="meetings-and-calls"></a>Reuniões e chamadas
 
-> [!IMPORTANT]
-> **O limite de eventos ao vivo do Microsoft 365 cresce**
->
-> **Para continuar a atender às necessidades de nossos clientes, até 30 de junho de 2021, estenderemos aumentos temporários de limite para eventos ao vivo, incluindo**:
->
->- Suporte a eventos para até 20.000 participantes
->- 50 eventos podem ser hospedados simultaneamente em um locatário
->- Duração do evento de 16 horas por transmissão
->
-> Além disso, os Eventos ao Vivo com até 100.000 participantes podem ser planejados por meio do programa de assistência do Microsoft 365. A equipe avaliará cada solicitação e trabalhará com você para determinar opções que podem estar disponíveis. [Saiba Mais](https://aka.ms/Stream/Blog/LiveEventOptions).
-
 |Recurso     | Limite máximo |
 |------------|---------------|
 |Número de pessoas em uma reunião (podem conversar e telefonar)  | 1000, inclui GCC, mas ainda não para GCCH, DoD, ou A1 (300). **Somente exibição** permite que até 20.000 participantes, somente ouvintes, participem de uma reunião na qual o organizador tenha uma licença para E3/E5/A3/A5 SKU, bem como, Governo (GCC, GCC High, DoD). Saiba mais sobre a [experiência somente exibição](view-only-meeting-experience.md).|
@@ -139,7 +128,7 @@ Os nomes de canal também não podem começar com um caractere de sublinhado (_)
 ### <a name="meeting-expiration"></a>Expiração de reunião
 
 > [!NOTE]
-> Um URL de reunião nunca para de funcionar. A expiração está relacionada apenas a qualquer número de discagem PSTN e/ou políticas e configurações de reunião subjacentes.
+> Um URL de reunião nunca para de funcionar. A expiração está relacionada apenas a qualquer número de discagem PSTN, coordenadas CVI e/ou políticas e configurações de reunião subjacentes.
 
 |Tipo de reunião  |A reunião expira após esse período  |Sempre que você iniciar ou atualizar uma reunião, a expiração será ampliada por esse período de tempo  |
 |---------|---------|---------|
@@ -216,10 +205,10 @@ Os limites para as equipes de classe estão listados na tabela a seguir:
 |Recurso  |Limite máximo  |
 |---------|---------|
 |Número de membros em uma equipe    | Confira a seção [Equipes e canais](#teams-and-channels) deste artigo        |
-|Número de membros para usar Tarefas em uma equipe de classe    | 200        |
-|Número de membros para usar um Bloco de Anotações de Classe do OneNote em uma equipe de classe     |200         |
+|Número de membros para usar Tarefas em uma equipe de classe    | 300        |
+|Número de membros para usar um Bloco de Anotações de Classe do OneNote em uma equipe de classe     |300         |
 
-Uma equipe de classe pode dar suporte a mais de 200 membros. No entanto, se você planeja usar o aplicativo de Tarefas ou o aplicativo de Bloco de Anotações de Classe dentro da sua equipe, precisará manter o número de membros abaixo dos limites máximos acima.
+Uma equipe de classe pode dar suporte para mais de 300 membros. No entanto, se você planeja usar o aplicativo Tarefas ou o aplicativo Bloco de Anotações de Classe na sua equipe, será necessário manter o número de membros abaixo dos limites máximos acima.
 
 ## <a name="tags"></a>Marcas
 

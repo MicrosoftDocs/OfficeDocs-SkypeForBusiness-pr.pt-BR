@@ -17,20 +17,22 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d7eaa2b35cdb01ce9bc59e69883ce1ac6ca20322
-ms.sourcegitcommit: 616403037ddb2d44f06cd9b2eaa9da699b119ef8
+ms.openlocfilehash: 82d9f152dbba345f876ac166bcf6833e53bab799
+ms.sourcegitcommit: 90615674e9703aa5ea32be64ab3638aa30e83127
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/15/2021
-ms.locfileid: "51768410"
+ms.lasthandoff: 06/02/2021
+ms.locfileid: "52718032"
 ---
 # <a name="user-presence-in-teams"></a>Presença do usuário no Teams
 
 A presença faz parte do perfil de um usuário do Microsoft Teams (e por todo o Microsoft 365 ou o Office 365). A presença indica a disponibilidade e o status atual do usuário para outros usuários. Por padrão, todas as pessoas da sua organização que usam o Teams podem ver (quase em tempo real) se outros usuários estiverem disponíveis online. A presença é atualizada em tempo real nas versões web e desktop quando você atualizar a página no celular. 
 
- > [!Note]
+ > [!NOTE]
  > Para saber mais sobre os perfis de usuário do Microsoft Teams em diferentes plataformas, confira [recursos do Microsoft Teams por plataforma](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3).
 
+ > [!NOTE]
+ > O Teams respeita sua configuração de privacidade, portanto, se você habilitou o modo de privacidade, sua presença não estará visível para usuários externos.
 ## <a name="presence-states-in-teams"></a>Estados de presença no Microsoft Teams
 
 |Usuário configurado|Aplicativo configurado|
@@ -43,16 +45,17 @@ A presença faz parte do perfil de um usuário do Microsoft Teams (e por todo o 
 || ![Círculo vermelho aberto, indica ocupado](media/Presence_Busy_OOF.png) Em uma chamada, ausência temporária|
 |  ![Círculo vermelho com linha branca, indica Não Incomodar](media/Presence_DND.png) Não incomodar ||
 || ![Círculo vermelho com linha branca, indica Em Apresentação](media/Presence_DND.png) Em Apresentação|
-|| ![Círculo vermelho com linha branca, indica Focado](media/Presence_DND.png) Focado. Foco acontece quando os usuários agendam tempo de foco em MyAnalytics/Insights em seus calendários.|
+|| ![Círculo vermelho com linha branca, indica Focado](media/Presence_DND.png) Com foco. O foco acontece quando os usuários agendam o tempo de foco no MyAnalytics/Insights em seus calendários.|
 | ![Ícone de relógio amarelo, indica ausente](media/Presence_Away.png) Ausente| ![Ícone de relógio amarelo, indica ausente](media/Presence_Away.png) Ausente|
 || ![Ícone de relógio amarelo, indica ausente](media/Presence_Away.png) Ausente Visto por Último *horário*|
 |![Ícone de relógio amarelo, indica ausente, volto logo](media/Presence_Away.png) Volto Logo| |
-|![Círculo cinza com x, indica Offline](media/Presence_Offline.png) Invisível|![Círculo cinza com x, indica Offline](media/Presence_Offline.png) Offline.  Quando os usuários não estão conectados em algum dispositivo por alguns minutos, eles aparecem como invisíveis. | |
+|![Círculo cinza com x, indica Offline](media/Presence_Offline.png) Invisível|![Círculo cinza com x, indica Offline](media/Presence_Offline.png) Desligada. Quando os usuários não estão conectados em nenhum dos seus dispositivos por alguns minutos, eles aparecem invisíveis. | |
 || ![Círculo cinza aberta, indica status desconhecido](media/Presence_Unknown.png) Status desconhecido|
-|| ![Círculo púrpura com seta, indica Ausência temporária](media/Presence_OOF.png) Ausência Temporária. A Ausência Temporária é usada quando uma resposta automática é configurada. (Disponível somente no Outlook.) |
+|| ![Círculo púrpura com seta, indica Ausência temporária](media/Presence_OOF.png) Ausência Temporária. A Ausência Temporária é usada quando uma resposta automática é definida. |
 |||
- > [!Note]
- > Para os usuários com caixas de correio hospedadas no local, espera-se que haja atrasos de presença com o máximo de uma hora.
+ > [!NOTE]
+ > Para usuários que têm sua caixa de correio hospedada no local, são esperados atrasos de presença de uma hora (máximo).
+
 Estados de presença configurados no aplicativo se baseiam na atividade do usuário (Disponível, Ausente), estados de calendário do Outlook (Em uma reunião) ou estados do aplicativo do Microsoft Teams (Em uma chamada, Em apresentação). Quando você está no modo de Foco baseado em seu calendário, **Foco** será o estado que as pessoas verão no Microsoft Teams. O modo de foco será exibido como **Não incomodar** em outros produtos.
 
 Seu estado de presença atual é alterado para Ausente ao bloquear o seu computador ou quando ele entra no modo de espera ou hibernação. No celular, seu status de presença é alterado para Ausente quando o aplicativo do Microsoft Teams está em segundo plano.
