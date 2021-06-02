@@ -22,19 +22,19 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Saiba como configurar e testar os atendimentos automáticos para grandes organizações em Microsoft Teams.
-ms.openlocfilehash: 270a2e613e387b797cb70914ad400da80b15b1ca
-ms.sourcegitcommit: 330e60ff3549cd5cff5b52ad95dc4259e4e8de13
+ms.openlocfilehash: 52a9636a6a92656293e90d00563be16b500ee4ce
+ms.sourcegitcommit: 90615674e9703aa5ea32be64ab3638aa30e83127
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52628940"
+ms.lasthandoff: 06/02/2021
+ms.locfileid: "52717862"
 ---
 # <a name="set-up-an-auto-attendant"></a>Configurar um atendimento automático
 
 Os atendentes automáticos permitem que as pessoas liguem para sua organização e naveguem por um sistema de menus para falar com o departamento certo, fila de chamada, pessoa ou operador. Você pode criar assistentes automáticos para sua organização com o Microsoft Teams de administração ou com o PowerShell.
 
 > [!TIP]
-> Este artigo é de grandes organizações. Se sua organização for uma empresa simples, leia Configurar um atendimento [automático - tutorial de pequenas empresas.](/microsoftteams/business-voice/create-a-phone-system-auto-attendant-smb)
+> Este artigo é para grandes organizações. Se sua organização for uma pequena empresa, leia [Configurar um atendimento automático - tutorial de pequenas](/microsoftteams/business-voice/create-a-phone-system-auto-attendant-smb) empresas.
 
 Leia Plan for Teams auto attendants and [call queues](plan-auto-attendant-call-queue.md) [](plan-auto-attendant-call-queue.md#getting-started) e siga as etapas de início antes de seguir os procedimentos neste artigo.
 
@@ -77,8 +77,8 @@ Este vídeo mostra um exemplo básico de como criar um assistente automático no
 
 5. Escolha se deseja habilitar entradas de voz. Quando habilitada, o nome de cada opção de menu se torna uma palavra-chave de reconhecimento de fala. Por exemplo, os chamadores podem dizer "Um" para selecionar a opção de menu mapeada para a tecla 1 ou podem dizer "Vendas" para selecionar a opção de menu chamada "Vendas".
 
-> [!NOTE]
-> Se você escolher um idioma na Etapa 4 que não suporte entradas de voz, essa opção será desabilitada.
+   > [!NOTE]
+   > Se você escolher um idioma na Etapa 4 que não suporte entradas de voz, essa opção será desabilitada.
 
 6. Selecione **Próximo**.
 

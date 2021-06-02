@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e82c862810448552bb9d2dc2d721815b5db43f55
-ms.sourcegitcommit: 17e34d2de3d10f1d04929a695e301127db7014bd
+ms.openlocfilehash: bb6ceacb6e7a2cc4d458c86edda96511e5230ace
+ms.sourcegitcommit: 90615674e9703aa5ea32be64ab3638aa30e83127
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "52689882"
+ms.lasthandoff: 06/02/2021
+ms.locfileid: "52717852"
 ---
 # <a name="configure-operator-connect"></a>Configurar o operador Conexão
 
@@ -76,7 +76,7 @@ Para adquirir números para novos Teams usuários, siga estas etapas:
 
 4. **Adquirir números.** Acesse o site da sua operadora para solicitar e adquirir números de telefone. Para ver uma lista de sites de operadores, consulte [Operators](#operators). Você precisará fornecer sua ID de locatário. Se você não conhece sua ID de locatário, consulte Encontre sua ID Microsoft 365 [locatário](/onedrive/find-your-office-365-tenant-id) para obter mais informações.
 
-5. **Atribuir números.** Depois que o operador concluir o pedido, ele carregará números de teste em seu locatário. Você pode exibir os números e o provedor no centro de administração Teams, indo para **Voz > Telefone números**. Atribua números aos usuários usando o Teams de administração ou usando o PowerShell. Para obter mais informações, consulte [Atribuir números](#assign-numbers).
+5. **Atribuir números.** Depois que o operador concluir o pedido, ele carregará números no locatário. Você pode exibir os números e o provedor no centro de administração Teams, indo para **Voz > Telefone números**. Atribua números aos usuários usando o Teams de administração ou usando o PowerShell. Para obter mais informações, consulte [Atribuir números](#assign-numbers).
  
 
 ### <a name="move-numbers-from-calling-plans-to-operator-connect"></a>Mover números de Planos de Chamada para Operador Conexão
@@ -108,7 +108,7 @@ Para adquirir números para novos Teams usuários, siga estas etapas:
 
 3. Acesse o site da sua operadora para solicitar e adquirir números de telefone. Para ver uma lista de sites de operadores, consulte [Operators](#operators). Você precisará fornecer sua ID de locatário. Se você não conhece sua ID de locatário, consulte Encontre sua ID Microsoft 365 [locatário](/onedrive/find-your-office-365-tenant-id) para obter mais informações.
 
-4. Depois que o operador concluir o pedido, ele carregará números de teste em seu locatário. Você pode exibir os números e o provedor no centro de administração Teams, indo para **Voz > Telefone números**. Atribua números Conexão operador aos usuários usando o centro de administração Teams ou usando o PowerShell. Para obter mais informações, consulte [Atribuir números](#assign-numbers).
+4. Depois que o operador concluir o pedido, ele carregará números no locatário. Você pode exibir os números e o provedor no centro de administração Teams, indo para **Voz > Telefone números**. Atribua números Conexão operador aos usuários usando o centro de administração Teams ou usando o PowerShell. Para obter mais informações, consulte [Atribuir números](#assign-numbers).
 
    
 

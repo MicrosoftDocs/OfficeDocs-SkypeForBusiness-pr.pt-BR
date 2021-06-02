@@ -16,12 +16,12 @@ search.appverid:
 f1.keywords:
 - NOCSH
 description: 'Resumo: Saiba mais sobre a arquitetura lógica dos serviços de produtividade no Microsoft 365, liderada pelo Microsoft Teams. Saiba também sobre soluções de voz do Teams.'
-ms.openlocfilehash: b124a32cc2b0285f364d1211ea8d23eb2d6e64c2
-ms.sourcegitcommit: 5a738cbb96f09edd8c3779f9385bc9ed126e3001
+ms.openlocfilehash: 75f1a4a2be0cc2669537a6f7afd031468d246a1a
+ms.sourcegitcommit: 90615674e9703aa5ea32be64ab3638aa30e83127
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/04/2021
-ms.locfileid: "52212154"
+ms.lasthandoff: 06/02/2021
+ms.locfileid: "52717962"
 ---
 # <a name="microsoft-teams-it-architecture-and-voice-solutions-posters"></a>Cartazes de soluções de voz e arquitetura de TI do Microsoft Teams
 
@@ -32,7 +32,6 @@ O Teams é importante para a arquitetura lógica de serviços de produtividade d
 Esta série de ilustrações oferece uma visão da arquitetura lógica dos serviços de produtividade para arquitetos empresariais, liderada pelo Teams.
 
 [![Imagem em miniatura para o cartaz de arquitetura lógica do Teams](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/msft-teams-logical-architecture-thumb.png)](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/msft-m365-teams-logical-architecture.pdf)  <br/>[PDF](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/msft-m365-teams-logical-architecture.pdf) | [Visio](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/msft-m365-teams-logical-architecture.vsdx)
-
 
 ## <a name="groups-in-microsoft-365"></a>Grupos do Microsoft 365
 

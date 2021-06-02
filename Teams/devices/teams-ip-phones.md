@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: Saiba quais telefones de mesa e conferência são certificados Microsoft Teams para produzir os melhores resultados.
-ms.openlocfilehash: bbc596f0e0e3d973b170b6631941020437bdb778
-ms.sourcegitcommit: 330e60ff3549cd5cff5b52ad95dc4259e4e8de13
+ms.openlocfilehash: 9795b78de51f554e7091bc3d2fbd333efccaffb6
+ms.sourcegitcommit: 90615674e9703aa5ea32be64ab3638aa30e83127
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52629020"
+ms.lasthandoff: 06/02/2021
+ms.locfileid: "52717882"
 ---
 # <a name="microsoft-teams-certified-devices"></a>Microsoft Teams certificados
 
@@ -44,9 +44,9 @@ Os seguintes dispositivos são Certificados no Programa de Certificação Micros
 
 |Modelo de dispositivo                         | Versão do firmware                                                                                                                                                                                                                           | Data de lançamento
 |:---------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-----------------------------|
-| UC-P10-T (com e sem o handset)    | 1.0.0.80                                                 | Maio de 2021                     |
-| UC-P10-C-T (com e sem o handset)  | 1.0.0.80                                                 | Maio de 2021                     |
-| UC-P8-C-T (com e sem o handset)   | 1.0.0.80                                                 | Maio de 2021                     |
+| Crestron UC-P10-T (com e sem o handset)    | 1.0.0.80                                                 | Maio de 2021                     |
+| Crestron UC-P10-C-T (com e sem o handset)  | 1.0.0.80                                                 | Maio de 2021                     |
+| Crestron UC-P8-C-T (com e sem o handset)   | 1.0.0.80                                                 | Maio de 2021                     |
 | Yealink MP52                           | 145.15.0.6                                               | Abril de 2021                   |
 | AudioCodes C435HD                      | 1.12.33                                                  | Abril de 2021                   |
 | AudioCodes C470HD                      | 1.8.293                                                  | Janeiro de 2021                 |

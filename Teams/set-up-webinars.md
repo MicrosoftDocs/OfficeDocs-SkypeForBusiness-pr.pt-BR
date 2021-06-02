@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 - m365initiative-meetings
 description: Saiba como gerenciar políticas do Webinar para Teams reuniões.
-ms.openlocfilehash: bc1460f93259a9dd3095cf764c38b56ab703bba0
-ms.sourcegitcommit: 592e5a0638c7739dfaa3565b67d4edc621eebc9f
+ms.openlocfilehash: aafa7b57eea1228fa5565bb4d5e95304b42751a3
+ms.sourcegitcommit: 90615674e9703aa5ea32be64ab3638aa30e83127
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/26/2021
-ms.locfileid: "52656044"
+ms.lasthandoff: 06/02/2021
+ms.locfileid: "52718042"
 ---
 # <a name="set-up-for-webinars-in-microsoft-teams"></a>Configurar para webinars em Microsoft Teams
 
@@ -54,7 +54,7 @@ Leia [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolic
 Para permitir que os usuários em sua organização agendem webinars, execute:
 
 ```powershell
-Set-CsTeamsMeetingPolicy -AllowMeetingRegistration True
+Set-CsTeamsMeetingPolicy -AllowMeetingRegistration $True
 ```
 ### <a name="configure-who-can-register-for-webinars"></a>Configurar quem pode se registrar para webinars
 
@@ -66,7 +66,7 @@ Você pode restringir o registro aos usuários somente em sua organização ou a
 **Para permitir *que apenas* usuários em sua organização se registrem para webinars, execute:**
 
 ```powershell
-Set-CsTeamsMeetingPolicy -AllowPrivateMeetingScheduling True
+Set-CsTeamsMeetingPolicy -AllowPrivateMeetingScheduling $True
 ```
 
 Em seguida, execute:
@@ -78,7 +78,7 @@ Set-CsTeamsMeetingPolicy -WhoCanRegister EveryoneInCompany
 **Para permitir que qualquer pessoa, incluindo usuários anônimos, registre-se para webinars, execute:**
 
 ```powershell
-Set-CsTeamsMeetingPolicy -AllowPrivateMeetingScheduling True
+Set-CsTeamsMeetingPolicy -AllowPrivateMeetingScheduling $True
 ```
 
 Em seguida, execute:

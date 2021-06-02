@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: Leia este artigo para localizar códigos de país de caminho de mídia para Roteamento Direto para que você possa selecionar o caminho de mídia ideal.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 56cdc48b33e048776a43a37864930fc153c47aac
-ms.sourcegitcommit: c80af314f1a573f99dd66858301c004ccc5410d6
+ms.openlocfilehash: 330d178c7bfa969020ffc8c26b1e05283c182ae8
+ms.sourcegitcommit: 90615674e9703aa5ea32be64ab3638aa30e83127
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/09/2021
-ms.locfileid: "51648120"
+ms.lasthandoff: 06/02/2021
+ms.locfileid: "52717992"
 ---
 # <a name="direct-routing-media-path-country-codes"></a>Códigos de país do caminho de mídia de roteamento direto
 
@@ -37,7 +37,7 @@ Set-CSOnlinePSTNGateway -Identity sbc1.contoso.com –MediaRelayRoutingLocationO
 Observe que a Microsoft só recomenda definir esse parâmetro se os logs de chamada indicarem claramente que a atribuição padrão do datacenter para o caminho de mídia não usa o caminho mais próximo do datacenter SBC. 
 
 > [!NOTE]
-> -MediaRelayRoutingLocationOverride - este comando não está disponível para uso em cenários de roteamento direto.
+> O parâmetro MediaRelayRoutingLocationOverride é reservado para uso com operadoras gerenciadas.
  
 ## <a name="country-code-reference-table"></a>Tabela de referência de código de país
 
@@ -233,7 +233,7 @@ A tabela a seguir mostra os valores de código do país para o parâmetro -Media
 | Rússia          | RU |
 | Ruanda          | RW |
 | Saba            | XS |
-| São Barthelemy | BL |
+| Saint Barthélemy | BL |
 | São Cristóvão e Névis | KN |
 | Santa Lúcia     | LC |
 | São Martinho    | MF |
@@ -297,4 +297,3 @@ A tabela a seguir mostra os valores de código do país para o parâmetro -Media
 | Iêmen           | YE |
 | Zâmbia          | ZM |
 | Zimbábue        | ZW |
-
