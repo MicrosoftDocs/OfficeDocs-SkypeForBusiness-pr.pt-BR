@@ -16,310 +16,310 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 95272545080559b94faeff42d715b8f57c4d0242
-ms.sourcegitcommit: ea9a0119d184179300e51f58ca4fee249c12d00a
+ms.openlocfilehash: 8a16f6cbb3d6ade57a81bb245c42c5ea0917f849
+ms.sourcegitcommit: 19b9904588fcc14398e65b4153ab9fe7f5dd6a5d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "52699352"
+ms.lasthandoff: 06/03/2021
+ms.locfileid: "52729777"
 ---
-# <a name="purchase-configure-and-enable-career-coach-for-microsoft-teams"></a><span data-ttu-id="21f4f-103">Comprar, configurar e habilitar o Career Coach para Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="21f4f-103">Purchase, configure, and enable Career Coach for Microsoft Teams</span></span>
+# <a name="purchase-configure-and-enable-career-coach-for-microsoft-teams"></a><span data-ttu-id="0e051-103">Comprar, configurar e habilitar o Career Coach para Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="0e051-103">Purchase, configure, and enable Career Coach for Microsoft Teams</span></span>
 
-<span data-ttu-id="21f4f-104">O Career Coach é um Microsoft Teams para Educação, desenvolvido pelo LinkedIn, que fornece orientações personalizadas para que os alunos do ensino superior naveguem em sua jornada de carreira.</span><span class="sxs-lookup"><span data-stu-id="21f4f-104">Career Coach is a Microsoft Teams for Education app powered by LinkedIn that provides personalized guidance for higher education students to navigate their career journey.</span></span> <span data-ttu-id="21f4f-105">O Career Coach oferece às instituições educacionais uma solução de carreira unificada para que os alunos descubram seu caminho de carreira, cresçam habilidades do mundo real e criem sua rede em um só lugar.</span><span class="sxs-lookup"><span data-stu-id="21f4f-105">Career Coach offers educational institutions a unified career solution for students to discover their career path, grow real-world skills, and build their network all in one place.</span></span>
+<span data-ttu-id="0e051-104">O Career Coach é um Microsoft Teams para Educação, desenvolvido pelo LinkedIn, que fornece orientações personalizadas para que os alunos do ensino superior naveguem em sua jornada de carreira.</span><span class="sxs-lookup"><span data-stu-id="0e051-104">Career Coach is a Microsoft Teams for Education app powered by LinkedIn that provides personalized guidance for higher education students to navigate their career journey.</span></span> <span data-ttu-id="0e051-105">O Career Coach oferece às instituições educacionais uma solução de carreira unificada para que os alunos descubram seu caminho de carreira, cresçam habilidades do mundo real e criem sua rede em um só lugar.</span><span class="sxs-lookup"><span data-stu-id="0e051-105">Career Coach offers educational institutions a unified career solution for students to discover their career path, grow real-world skills, and build their network all in one place.</span></span>
 
-<span data-ttu-id="21f4f-106">Saiba mais sobre [o Career Coach](https://aka.ms/career-coach).</span><span class="sxs-lookup"><span data-stu-id="21f4f-106">Learn more about [Career Coach](https://aka.ms/career-coach).</span></span>
-
-> [!NOTE]
-> <span data-ttu-id="21f4f-107">Use as práticas recomendadas e dicas úteis neste guia para habilitar os recursos do Career Coach para alunos, professores e funcionários.</span><span class="sxs-lookup"><span data-stu-id="21f4f-107">Use the best practices and helpful tips in this guide to enable the capabilities of Career Coach for students, faculty, and staff.</span></span> <span data-ttu-id="21f4f-108">Consulte o [artigo guia de planejamento](https://support.microsoft.com/office/c5d0b934-bfcf-4fe7-8a85-ba7bbb1b6ad4) rápido.</span><span class="sxs-lookup"><span data-stu-id="21f4f-108">See the [Quick planning guide](https://support.microsoft.com/office/c5d0b934-bfcf-4fe7-8a85-ba7bbb1b6ad4) article.</span></span>
-
-## <a name="review-the-requirements"></a><span data-ttu-id="21f4f-109">Revisar os requisitos</span><span class="sxs-lookup"><span data-stu-id="21f4f-109">Review the requirements</span></span>
-
-<span data-ttu-id="21f4f-110">Para habilitar o Career Coach para sua instituição educacional, revise o que você precisa para fazer com que o aplicativo seja executado.</span><span class="sxs-lookup"><span data-stu-id="21f4f-110">To enable Career Coach for your educational institution, review what you need to get the app up and running.</span></span>
-
-<span data-ttu-id="21f4f-111">**Requisitos técnicos**</span><span class="sxs-lookup"><span data-stu-id="21f4f-111">**Technical requirements**</span></span>
-
-  - <span data-ttu-id="21f4f-112">Office 365 locatário com Azure Active Directory</span><span class="sxs-lookup"><span data-stu-id="21f4f-112">Office 365 tenant with Azure Active Directory</span></span>
-
-  - <span data-ttu-id="21f4f-113">Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="21f4f-113">Microsoft Teams</span></span>
-
-  - <span data-ttu-id="21f4f-114">Conexões de conta do LinkedIn em Azure Active Directory</span><span class="sxs-lookup"><span data-stu-id="21f4f-114">LinkedIn account connections in Azure Active Directory</span></span>
-
-<span data-ttu-id="21f4f-115">**Licenças**</span><span class="sxs-lookup"><span data-stu-id="21f4f-115">**Licenses**</span></span>
-
-  - <span data-ttu-id="21f4f-116">Docentes</span><span class="sxs-lookup"><span data-stu-id="21f4f-116">Faculty</span></span> 
-
-  - <span data-ttu-id="21f4f-117">Alunos</span><span class="sxs-lookup"><span data-stu-id="21f4f-117">Students</span></span>
+<span data-ttu-id="0e051-106">Saiba mais sobre [o Career Coach](https://aka.ms/career-coach).</span><span class="sxs-lookup"><span data-stu-id="0e051-106">Learn more about [Career Coach](https://aka.ms/career-coach).</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="21f4f-118">Uma licença do Corpo Docente do Técnico de Carreira deve ser atribuída ao administrador de IT concluindo a configuração.</span><span class="sxs-lookup"><span data-stu-id="21f4f-118">A Career Coach Faculty license must be assigned to the IT admin completing the configuration.</span></span>
+> <span data-ttu-id="0e051-107">Use as práticas recomendadas e dicas úteis neste guia para habilitar os recursos do Career Coach para alunos, professores e funcionários.</span><span class="sxs-lookup"><span data-stu-id="0e051-107">Use the best practices and helpful tips in this guide to enable the capabilities of Career Coach for students, faculty, and staff.</span></span> <span data-ttu-id="0e051-108">Consulte o [artigo guia de planejamento](https://support.microsoft.com/office/c5d0b934-bfcf-4fe7-8a85-ba7bbb1b6ad4) rápido.</span><span class="sxs-lookup"><span data-stu-id="0e051-108">See the [Quick planning guide](https://support.microsoft.com/office/c5d0b934-bfcf-4fe7-8a85-ba7bbb1b6ad4) article.</span></span>
 
-<span data-ttu-id="21f4f-119">**Dados e arquivos de sua instituição educacional**</span><span class="sxs-lookup"><span data-stu-id="21f4f-119">**Data and files from your educational institution**</span></span>
+## <a name="review-the-requirements"></a><span data-ttu-id="0e051-109">Revisar os requisitos</span><span class="sxs-lookup"><span data-stu-id="0e051-109">Review the requirements</span></span>
 
-  - <span data-ttu-id="21f4f-120">Dados do catálogo de cursos</span><span class="sxs-lookup"><span data-stu-id="21f4f-120">Course catalog data</span></span>
+<span data-ttu-id="0e051-110">Para habilitar o Career Coach para sua instituição educacional, revise o que você precisa para fazer com que o aplicativo seja executado.</span><span class="sxs-lookup"><span data-stu-id="0e051-110">To enable Career Coach for your educational institution, review what you need to get the app up and running.</span></span>
 
-  - <span data-ttu-id="21f4f-121">Campos de estudo oferecidos</span><span class="sxs-lookup"><span data-stu-id="21f4f-121">Fields of study offered</span></span>
+<span data-ttu-id="0e051-111">**Requisitos técnicos**</span><span class="sxs-lookup"><span data-stu-id="0e051-111">**Technical requirements**</span></span>
 
-  - <span data-ttu-id="21f4f-122">Página do LinkedIn da instituição educacional</span><span class="sxs-lookup"><span data-stu-id="21f4f-122">Educational institution’s LinkedIn page</span></span>
+  - <span data-ttu-id="0e051-112">Office 365 locatário com Azure Active Directory</span><span class="sxs-lookup"><span data-stu-id="0e051-112">Office 365 tenant with Azure Active Directory</span></span>
 
-  - <span data-ttu-id="21f4f-123">Assinatura do campus do LinkedIn Learning (preferencial)</span><span class="sxs-lookup"><span data-stu-id="21f4f-123">LinkedIn Learning campus subscription (preferred)</span></span>
+  - <span data-ttu-id="0e051-113">Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="0e051-113">Microsoft Teams</span></span>
 
-## <a name="purchase-the-career-coach-licenses"></a><span data-ttu-id="21f4f-124">Comprar as licenças do Career Coach</span><span class="sxs-lookup"><span data-stu-id="21f4f-124">Purchase the Career Coach licenses</span></span>
+  - <span data-ttu-id="0e051-114">Conexões de conta do LinkedIn em Azure Active Directory</span><span class="sxs-lookup"><span data-stu-id="0e051-114">LinkedIn account connections in Azure Active Directory</span></span>
 
-<span data-ttu-id="21f4f-125">O Career Coach está disponível em todo o mundo (exceto China e Rússia) para instituições de ensino superior qualificadas por meio de Inscrição para Soluções de Educação (EES), Provedores de Serviços de Nuvem (CSP) e centro de administração Microsoft 365 (web direct).</span><span class="sxs-lookup"><span data-stu-id="21f4f-125">Career Coach is available worldwide (except China and Russia) for qualified higher education institutions through Enrollment for Education Solutions (EES), Cloud Service Providers (CSP), and Microsoft 365 admin center (web direct).</span></span> <span data-ttu-id="21f4f-126">Como um Microsoft Teams, os clientes devem ter Microsoft 365 A3/A5 ou Office 365 A1/A3/A5.</span><span class="sxs-lookup"><span data-stu-id="21f4f-126">As a Microsoft Teams app, customers must have Microsoft 365 A3/A5 or Office 365 A1/A3/A5.</span></span>
+<span data-ttu-id="0e051-115">**Licenças**</span><span class="sxs-lookup"><span data-stu-id="0e051-115">**Licenses**</span></span>
 
-### <a name="assign-app-licenses-to-users"></a><span data-ttu-id="21f4f-127">Atribuir licenças de aplicativo aos usuários</span><span class="sxs-lookup"><span data-stu-id="21f4f-127">Assign app licenses to users</span></span>
+  - <span data-ttu-id="0e051-116">Docentes</span><span class="sxs-lookup"><span data-stu-id="0e051-116">Faculty</span></span> 
 
-<span data-ttu-id="21f4f-128">Para obter instruções passo a passo, consulte [Atribuir licenças aos usuários](/microsoft-365/admin/manage/assign-licenses-to-users).</span><span class="sxs-lookup"><span data-stu-id="21f4f-128">For step-by-step instructions, see [Assign licenses to users](/microsoft-365/admin/manage/assign-licenses-to-users).</span></span>
+  - <span data-ttu-id="0e051-117">Alunos</span><span class="sxs-lookup"><span data-stu-id="0e051-117">Students</span></span>
 
-### <a name="turn-on-linkedin-account-connections"></a><span data-ttu-id="21f4f-129">Ativar conexões de conta do LinkedIn</span><span class="sxs-lookup"><span data-stu-id="21f4f-129">Turn on LinkedIn account connections</span></span>
+> [!NOTE]
+> <span data-ttu-id="0e051-118">Uma licença do Corpo Docente do Técnico de Carreira deve ser atribuída ao administrador de IT concluindo a configuração.</span><span class="sxs-lookup"><span data-stu-id="0e051-118">A Career Coach Faculty license must be assigned to the IT admin completing the configuration.</span></span>
 
-<span data-ttu-id="21f4f-130">O Coach **de Carreira** exige que os usuários da sua instituição educacional tenham a capacidade de conectar sua conta Microsoft 365 sua conta do LinkedIn que é facilitada no Career Coach</span><span class="sxs-lookup"><span data-stu-id="21f4f-130">Career Coach **requires** your educational institution’s users to have the ability to connect their Microsoft 365 account to their LinkedIn account that is facilitated within Career Coach</span></span>
+<span data-ttu-id="0e051-119">**Dados e arquivos de sua instituição educacional**</span><span class="sxs-lookup"><span data-stu-id="0e051-119">**Data and files from your educational institution**</span></span>
 
-1. <span data-ttu-id="21f4f-131">Entre no Centro de administração do [Azure AD](https://aad.portal.azure.com/) com uma conta que é um administrador global da organização do Azure AD.</span><span class="sxs-lookup"><span data-stu-id="21f4f-131">Sign in to the [Azure AD admin center](https://aad.portal.azure.com/) with an account that's a global admin for the Azure AD organization.</span></span>
+  - <span data-ttu-id="0e051-120">Dados do catálogo de cursos</span><span class="sxs-lookup"><span data-stu-id="0e051-120">Course catalog data</span></span>
 
-2. <span data-ttu-id="21f4f-132">Selecione **Usuários**.</span><span class="sxs-lookup"><span data-stu-id="21f4f-132">Select **Users**.</span></span>
+  - <span data-ttu-id="0e051-121">Campos de estudo oferecidos</span><span class="sxs-lookup"><span data-stu-id="0e051-121">Fields of study offered</span></span>
 
-3. <span data-ttu-id="21f4f-133">Na página **Usuários,** selecione **Configurações do usuário**.</span><span class="sxs-lookup"><span data-stu-id="21f4f-133">On the **Users** page, select **User settings**.</span></span>
+  - <span data-ttu-id="0e051-122">Página do LinkedIn da instituição educacional</span><span class="sxs-lookup"><span data-stu-id="0e051-122">Educational institution’s LinkedIn page</span></span>
 
-4. <span data-ttu-id="21f4f-134">Em conexões de conta **do LinkedIn,** permita que os usuários conectem suas contas para acessar suas conexões do LinkedIn em alguns aplicativos da Microsoft.</span><span class="sxs-lookup"><span data-stu-id="21f4f-134">Under **LinkedIn account connections**, allow users to connect their accounts to access their LinkedIn connections within some Microsoft apps.</span></span> <span data-ttu-id="21f4f-135">Nenhum dado é compartilhado até que os usuários consentam em conectar suas contas.</span><span class="sxs-lookup"><span data-stu-id="21f4f-135">No data is shared until users consent to connect their accounts.</span></span>
+  - <span data-ttu-id="0e051-123">Assinatura do campus do LinkedIn Learning (preferencial)</span><span class="sxs-lookup"><span data-stu-id="0e051-123">LinkedIn Learning campus subscription (preferred)</span></span>
 
-   - <span data-ttu-id="21f4f-136">Selecione **Sim** para habilitar o serviço para todos os usuários em sua instituição educacional</span><span class="sxs-lookup"><span data-stu-id="21f4f-136">Select **Yes** to enable the service for all users in your educational institution</span></span>
+## <a name="purchase-the-career-coach-licenses"></a><span data-ttu-id="0e051-124">Comprar as licenças do Career Coach</span><span class="sxs-lookup"><span data-stu-id="0e051-124">Purchase the Career Coach licenses</span></span>
 
-   - <span data-ttu-id="21f4f-137">Selecione **Grupo selecionado** para habilitar o serviço apenas para um grupo de usuários selecionados em sua instituição educacional</span><span class="sxs-lookup"><span data-stu-id="21f4f-137">Select **Selected group** to enable the service for only a group of selected users in your educational institution</span></span>
+<span data-ttu-id="0e051-125">O Career Coach está disponível em todo o mundo (exceto China e Rússia) para instituições de ensino superior qualificadas por meio de Inscrição para Soluções de Educação (EES), Provedores de Serviços de Nuvem (CSP) e centro de administração Microsoft 365 (web direct).</span><span class="sxs-lookup"><span data-stu-id="0e051-125">Career Coach is available worldwide (except China and Russia) for qualified higher education institutions through Enrollment for Education Solutions (EES), Cloud Service Providers (CSP), and Microsoft 365 admin center (web direct).</span></span> <span data-ttu-id="0e051-126">Como um Microsoft Teams, os clientes devem ter Microsoft 365 A3/A5 ou Office 365 A1/A3/A5.</span><span class="sxs-lookup"><span data-stu-id="0e051-126">As a Microsoft Teams app, customers must have Microsoft 365 A3/A5 or Office 365 A1/A3/A5.</span></span>
 
-   - <span data-ttu-id="21f4f-138">Selecione **Não** para retirar o consentimento de todos os usuários em sua instituição educacional</span><span class="sxs-lookup"><span data-stu-id="21f4f-138">Select **No** to withdraw consent from all users in your educational institution</span></span>
+### <a name="assign-app-licenses-to-users"></a><span data-ttu-id="0e051-127">Atribuir licenças de aplicativo aos usuários</span><span class="sxs-lookup"><span data-stu-id="0e051-127">Assign app licenses to users</span></span>
 
-<span data-ttu-id="21f4f-139">Saiba como integrar [conexões de conta do LinkedIn Azure Active Directory](/azure/active-directory/enterprise-users/linkedin-integration)</span><span class="sxs-lookup"><span data-stu-id="21f4f-139">Learn how to [Integrate LinkedIn account connections in Azure Active Directory](/azure/active-directory/enterprise-users/linkedin-integration)</span></span>
+<span data-ttu-id="0e051-128">Para obter instruções passo a passo, consulte [Atribuir licenças aos usuários](/microsoft-365/admin/manage/assign-licenses-to-users).</span><span class="sxs-lookup"><span data-stu-id="0e051-128">For step-by-step instructions, see [Assign licenses to users](/microsoft-365/admin/manage/assign-licenses-to-users).</span></span>
 
-## <a name="configure-career-coach-in-the-teams-admin-center"></a><span data-ttu-id="21f4f-140">Configurar o Career Coach no Teams de administração</span><span class="sxs-lookup"><span data-stu-id="21f4f-140">Configure Career Coach in the Teams admin center</span></span>
+### <a name="turn-on-linkedin-account-connections"></a><span data-ttu-id="0e051-129">Ativar conexões de conta do LinkedIn</span><span class="sxs-lookup"><span data-stu-id="0e051-129">Turn on LinkedIn account connections</span></span>
 
-<span data-ttu-id="21f4f-141">Usando as configurações de administrador no Microsoft Teams de administração, você pode configurar o Career Coach para sua instituição educacional e habilita-lo para os usuários.</span><span class="sxs-lookup"><span data-stu-id="21f4f-141">Using the admin settings in the Microsoft Teams admin center, you can configure Career Coach for your educational institution and enable it for users.</span></span>
+<span data-ttu-id="0e051-130">O Coach **de Carreira** exige que os usuários da sua instituição educacional tenham a capacidade de conectar sua conta Microsoft 365 sua conta do LinkedIn que é facilitada no Career Coach</span><span class="sxs-lookup"><span data-stu-id="0e051-130">Career Coach **requires** your educational institution’s users to have the ability to connect their Microsoft 365 account to their LinkedIn account that is facilitated within Career Coach</span></span>
 
-## <a name="access-the-career-coach-app-settings"></a><span data-ttu-id="21f4f-142">Acessar as configurações do aplicativo Career Coach</span><span class="sxs-lookup"><span data-stu-id="21f4f-142">Access the Career Coach app settings</span></span>
+1. <span data-ttu-id="0e051-131">Entre no Centro de administração do [Azure AD](https://aad.portal.azure.com/) com uma conta que é um administrador global da organização do Azure AD.</span><span class="sxs-lookup"><span data-stu-id="0e051-131">Sign in to the [Azure AD admin center](https://aad.portal.azure.com/) with an account that's a global admin for the Azure AD organization.</span></span>
 
-<span data-ttu-id="21f4f-143">Use a [página Gerenciar aplicativos](/microsoftteams/manage-apps) para exibir os Teams aplicativos no catálogo de aplicativos da sua instituição educacional.</span><span class="sxs-lookup"><span data-stu-id="21f4f-143">Use the [Manage apps page](/microsoftteams/manage-apps) to view the Teams apps in your educational institution’s app catalog.</span></span>
+2. <span data-ttu-id="0e051-132">Selecione **Usuários**.</span><span class="sxs-lookup"><span data-stu-id="0e051-132">Select **Users**.</span></span>
 
-1. <span data-ttu-id="21f4f-144">Entre no centro de **administração Teams.**</span><span class="sxs-lookup"><span data-stu-id="21f4f-144">Sign in to the **Teams admin center**.</span></span>
+3. <span data-ttu-id="0e051-133">Na página **Usuários,** selecione **Configurações do usuário**.</span><span class="sxs-lookup"><span data-stu-id="0e051-133">On the **Users** page, select **User settings**.</span></span>
 
-2. <span data-ttu-id="21f4f-145">Na navegação à esquerda, selecione Teams  >  **aplicativos Gerenciar aplicativos**.</span><span class="sxs-lookup"><span data-stu-id="21f4f-145">In the left navigation, select **Teams apps** > **Manage apps**.</span></span>  
+4. <span data-ttu-id="0e051-134">Em conexões de conta **do LinkedIn,** permita que os usuários conectem suas contas para acessar suas conexões do LinkedIn em alguns aplicativos da Microsoft.</span><span class="sxs-lookup"><span data-stu-id="0e051-134">Under **LinkedIn account connections**, allow users to connect their accounts to access their LinkedIn connections within some Microsoft apps.</span></span> <span data-ttu-id="0e051-135">Nenhum dado é compartilhado até que os usuários consentam em conectar suas contas.</span><span class="sxs-lookup"><span data-stu-id="0e051-135">No data is shared until users consent to connect their accounts.</span></span>
+
+   - <span data-ttu-id="0e051-136">Selecione **Sim** para habilitar o serviço para todos os usuários em sua instituição educacional</span><span class="sxs-lookup"><span data-stu-id="0e051-136">Select **Yes** to enable the service for all users in your educational institution</span></span>
+
+   - <span data-ttu-id="0e051-137">Selecione **Grupo selecionado** para habilitar o serviço apenas para um grupo de usuários selecionados em sua instituição educacional</span><span class="sxs-lookup"><span data-stu-id="0e051-137">Select **Selected group** to enable the service for only a group of selected users in your educational institution</span></span>
+
+   - <span data-ttu-id="0e051-138">Selecione **Não** para retirar o consentimento de todos os usuários em sua instituição educacional</span><span class="sxs-lookup"><span data-stu-id="0e051-138">Select **No** to withdraw consent from all users in your educational institution</span></span>
+
+<span data-ttu-id="0e051-139">Saiba como integrar [conexões de conta do LinkedIn Azure Active Directory](/azure/active-directory/enterprise-users/linkedin-integration)</span><span class="sxs-lookup"><span data-stu-id="0e051-139">Learn how to [Integrate LinkedIn account connections in Azure Active Directory](/azure/active-directory/enterprise-users/linkedin-integration)</span></span>
+
+## <a name="configure-career-coach-in-the-teams-admin-center"></a><span data-ttu-id="0e051-140">Configurar o Career Coach no Teams de administração</span><span class="sxs-lookup"><span data-stu-id="0e051-140">Configure Career Coach in the Teams admin center</span></span>
+
+<span data-ttu-id="0e051-141">Usando as configurações de administrador no Microsoft Teams de administração, você pode configurar o Career Coach para sua instituição educacional e habilita-lo para os usuários.</span><span class="sxs-lookup"><span data-stu-id="0e051-141">Using the admin settings in the Microsoft Teams admin center, you can configure Career Coach for your educational institution and enable it for users.</span></span>
+
+## <a name="access-the-career-coach-app-settings"></a><span data-ttu-id="0e051-142">Acessar as configurações do aplicativo Career Coach</span><span class="sxs-lookup"><span data-stu-id="0e051-142">Access the Career Coach app settings</span></span>
+
+<span data-ttu-id="0e051-143">Use a [página Gerenciar aplicativos](/microsoftteams/manage-apps) para exibir os Teams aplicativos no catálogo de aplicativos da sua instituição educacional.</span><span class="sxs-lookup"><span data-stu-id="0e051-143">Use the [Manage apps page](/microsoftteams/manage-apps) to view the Teams apps in your educational institution’s app catalog.</span></span>
+
+1. <span data-ttu-id="0e051-144">Entre no centro de **administração Teams.**</span><span class="sxs-lookup"><span data-stu-id="0e051-144">Sign in to the **Teams admin center**.</span></span>
+
+2. <span data-ttu-id="0e051-145">Na navegação à esquerda, selecione Teams  >  **aplicativos Gerenciar aplicativos**.</span><span class="sxs-lookup"><span data-stu-id="0e051-145">In the left navigation, select **Teams apps** > **Manage apps**.</span></span>  
 
     > [!NOTE]
-    > <span data-ttu-id="21f4f-146">Você deve ser um administrador global ou Teams de serviço para acessar a página.</span><span class="sxs-lookup"><span data-stu-id="21f4f-146">You must be a global admin or Teams service admin to access the page.</span></span>
+    > <span data-ttu-id="0e051-146">Você deve ser um administrador global ou Teams de serviço para acessar a página.</span><span class="sxs-lookup"><span data-stu-id="0e051-146">You must be a global admin or Teams service admin to access the page.</span></span>
 
-3. <span data-ttu-id="21f4f-147">Pesquise ou procure **o Career Coach**.</span><span class="sxs-lookup"><span data-stu-id="21f4f-147">Search or browse for **Career Coach**.</span></span>  
+3. <span data-ttu-id="0e051-147">Pesquise ou procure **o Career Coach**.</span><span class="sxs-lookup"><span data-stu-id="0e051-147">Search or browse for **Career Coach**.</span></span>  
 
-4. <span data-ttu-id="21f4f-148">Selecione **Técnico de** Carreira e selecione **Configurações.**</span><span class="sxs-lookup"><span data-stu-id="21f4f-148">Select **Career Coach**, and then select **Settings.**</span></span>  
+4. <span data-ttu-id="0e051-148">Selecione **Técnico de** Carreira e selecione **Configurações.**</span><span class="sxs-lookup"><span data-stu-id="0e051-148">Select **Career Coach**, and then select **Settings.**</span></span>  
 
-    ![mostra o aplicativo de Técnico de Carreira selecionado com a opção Configurações mostrando](media/app-settings.png)
+    ![mostra o aplicativo de Técnico de Carreira selecionado com a opção Configurações mostrando](media/career-coach-app.png)
 
-### <a name="configure-the-career-coach-app-settings"></a><span data-ttu-id="21f4f-150">Configurar as configurações do aplicativo de Técnico de Carreira</span><span class="sxs-lookup"><span data-stu-id="21f4f-150">Configure the Career Coach app settings</span></span>
+### <a name="configure-the-career-coach-app-settings"></a><span data-ttu-id="0e051-150">Configurar as configurações do aplicativo de Técnico de Carreira</span><span class="sxs-lookup"><span data-stu-id="0e051-150">Configure the Career Coach app settings</span></span>
 
-<span data-ttu-id="21f4f-151">O Career Coach tem cinco categorias de configuração:</span><span class="sxs-lookup"><span data-stu-id="21f4f-151">Career Coach has five configuration categories:</span></span>
+<span data-ttu-id="0e051-151">O Career Coach tem cinco categorias de configuração:</span><span class="sxs-lookup"><span data-stu-id="0e051-151">Career Coach has five configuration categories:</span></span>
 
-- [<span data-ttu-id="21f4f-152">Marca e preferências</span><span class="sxs-lookup"><span data-stu-id="21f4f-152">Brand and preferences</span></span>](#brand-and-preferences)
+- [<span data-ttu-id="0e051-152">Marca e preferências</span><span class="sxs-lookup"><span data-stu-id="0e051-152">Brand and preferences</span></span>](#brand-and-preferences)
 
-- [<span data-ttu-id="21f4f-153">Configuração do LinkedIn</span><span class="sxs-lookup"><span data-stu-id="21f4f-153">LinkedIn configuration</span></span>](#linkedin-configuration)
+- [<span data-ttu-id="0e051-153">Configuração do LinkedIn</span><span class="sxs-lookup"><span data-stu-id="0e051-153">LinkedIn configuration</span></span>](#linkedin-configuration)
 
-- [<span data-ttu-id="21f4f-154">Catálogo de cursos</span><span class="sxs-lookup"><span data-stu-id="21f4f-154">Course catalog</span></span>](#course-catalog)
+- [<span data-ttu-id="0e051-154">Catálogo de cursos</span><span class="sxs-lookup"><span data-stu-id="0e051-154">Course catalog</span></span>](#course-catalog)
 
-- [<span data-ttu-id="21f4f-155">Campos de estudo</span><span class="sxs-lookup"><span data-stu-id="21f4f-155">Fields of study</span></span>](#fields-of-study)
+- [<span data-ttu-id="0e051-155">Campos de estudo</span><span class="sxs-lookup"><span data-stu-id="0e051-155">Fields of study</span></span>](#fields-of-study)
 
-- [<span data-ttu-id="21f4f-156">Personalização</span><span class="sxs-lookup"><span data-stu-id="21f4f-156">Customization</span></span>](#customization)
-
-> [!NOTE]
-> <span data-ttu-id="21f4f-157">Marca e preferências, configuração do LinkedIn,  catálogo de cursos e Campos de estudo são necessários para habilitar efetivamente o aplicativo para alunos, professores e funcionários.</span><span class="sxs-lookup"><span data-stu-id="21f4f-157">Brand and preferences, LinkedIn configuration, Course catalog, and Fields of study are **required** to effectively enable the app for students, faculty, and staff.</span></span>
-
-#### <a name="brand-and-preferences"></a><span data-ttu-id="21f4f-158">Marca e preferências</span><span class="sxs-lookup"><span data-stu-id="21f4f-158">Brand and preferences</span></span>
-
-<span data-ttu-id="21f4f-159">De definir o nome, o logotipo e o idioma padrão da sua instituição educacional na página de configurações de marca e preferências.</span><span class="sxs-lookup"><span data-stu-id="21f4f-159">Set your educational institution’s name, logo, and default language on the brand and preferences settings page.</span></span>
-
-![a seção identidade visual do Career Coach do centro de administração](media/brand-preferences.png)
-
-##### <a name="educational-institution-icon"></a><span data-ttu-id="21f4f-161">Ícone da instituição educacional</span><span class="sxs-lookup"><span data-stu-id="21f4f-161">Educational institution icon</span></span>
-
-<span data-ttu-id="21f4f-162">O ícone da instituição educacional é usado em todo o Career Coach para identificar conteúdo exclusivo para sua instituição educacional, recursos de catálogo de cursos em todo o aplicativo e na seção experiências do mundo real do painel.</span><span class="sxs-lookup"><span data-stu-id="21f4f-162">The educational institution icon is used throughout Career Coach to identify content unique to your educational institution, course catalog resources throughout the app, and on the real-world experiences section of the dashboard.</span></span> <span data-ttu-id="21f4f-163">O ícone é melhor formatado como:</span><span class="sxs-lookup"><span data-stu-id="21f4f-163">The icon is best formatted as:</span></span>
-
- - <span data-ttu-id="21f4f-164">Um PNG transparente</span><span class="sxs-lookup"><span data-stu-id="21f4f-164">A transparent PNG</span></span>
- - <span data-ttu-id="21f4f-165">Proporção de 1:1</span><span class="sxs-lookup"><span data-stu-id="21f4f-165">Aspect ratio of 1:1</span></span>
- - <span data-ttu-id="21f4f-166">Tamanho máximo de 64 px x 64 px.</span><span class="sxs-lookup"><span data-stu-id="21f4f-166">Maximum size of 64 px x 64 px.</span></span>
-
-##### <a name="educational-institution-thumbnail"></a><span data-ttu-id="21f4f-167">Miniatura da instituição educacional</span><span class="sxs-lookup"><span data-stu-id="21f4f-167">Educational institution thumbnail</span></span>
-
-<span data-ttu-id="21f4f-168">O ícone da instituição educacional será usado para recursos de catálogo de cursos em todo o aplicativo quando uma imagem específica não estiver disponível para um curso.</span><span class="sxs-lookup"><span data-stu-id="21f4f-168">The educational institution icon will be used for course catalog resources throughout the app when a specific image isn't available for a course.</span></span> <span data-ttu-id="21f4f-169">O ícone é melhor formatado como:</span><span class="sxs-lookup"><span data-stu-id="21f4f-169">The icon is best formatted as:</span></span>
-
-- <span data-ttu-id="21f4f-170">Um PNG</span><span class="sxs-lookup"><span data-stu-id="21f4f-170">A PNG</span></span>
-- <span data-ttu-id="21f4f-171">Proporção de 16:9</span><span class="sxs-lookup"><span data-stu-id="21f4f-171">Aspect ratio of 16:9</span></span>
-- <span data-ttu-id="21f4f-172">Tamanho máximo de 360 px x 200 px.</span><span class="sxs-lookup"><span data-stu-id="21f4f-172">Maximum size of 360 px x 200 px.</span></span>
-
-#### <a name="linkedin-configuration"></a><span data-ttu-id="21f4f-173">Configuração do LinkedIn</span><span class="sxs-lookup"><span data-stu-id="21f4f-173">LinkedIn configuration</span></span>
-
-<span data-ttu-id="21f4f-174">A configuração do LinkedIn conecta o Career Coach com dados de ex-alunos públicos do LinkedIn.</span><span class="sxs-lookup"><span data-stu-id="21f4f-174">The LinkedIn configuration connects Career Coach with public alumni data from LinkedIn.</span></span>
+- [<span data-ttu-id="0e051-156">Personalização</span><span class="sxs-lookup"><span data-stu-id="0e051-156">Customization</span></span>](#customization)
 
 > [!NOTE]
-> <span data-ttu-id="21f4f-175">O Career Coach não pode ser habilitado sem a conexão de página do LinkedIn verificada.</span><span class="sxs-lookup"><span data-stu-id="21f4f-175">Career Coach can't be enabled without the LinkedIn page connection verified.</span></span>
+> <span data-ttu-id="0e051-157">Marca e preferências, configuração do LinkedIn,  catálogo de cursos e Campos de estudo são necessários para habilitar efetivamente o aplicativo para alunos, professores e funcionários.</span><span class="sxs-lookup"><span data-stu-id="0e051-157">Brand and preferences, LinkedIn configuration, Course catalog, and Fields of study are **required** to effectively enable the app for students, faculty, and staff.</span></span>
 
-##### <a name="add-and-confirm-the-linkedin-page"></a><span data-ttu-id="21f4f-176">Adicionar e confirmar a página do LinkedIn</span><span class="sxs-lookup"><span data-stu-id="21f4f-176">Add and confirm the LinkedIn page</span></span>
+#### <a name="brand-and-preferences"></a><span data-ttu-id="0e051-158">Marca e preferências</span><span class="sxs-lookup"><span data-stu-id="0e051-158">Brand and preferences</span></span>
 
-<span data-ttu-id="21f4f-177">Determine a página do LinkedIn da instituição educacional.</span><span class="sxs-lookup"><span data-stu-id="21f4f-177">Determine the educational institution's LinkedIn page.</span></span> <span data-ttu-id="21f4f-178">Encontre a página do LinkedIn pesquisando no LinkedIn ou conectando-se a um membro da equipe de serviços de carreira para determinar a página correta a ser usada.</span><span class="sxs-lookup"><span data-stu-id="21f4f-178">Find the LinkedIn page by searching on LinkedIn or connecting with a career services staff member to determine the correct page to use.</span></span>  
+<span data-ttu-id="0e051-159">De definir o nome, o logotipo e o idioma padrão da sua instituição educacional na página de configurações de marca e preferências.</span><span class="sxs-lookup"><span data-stu-id="0e051-159">Set your educational institution’s name, logo, and default language on the brand and preferences settings page.</span></span>
+
+![a seção identidade visual do Career Coach do centro de administração](media/career-coach-brand.png)
+
+##### <a name="educational-institution-icon"></a><span data-ttu-id="0e051-161">Ícone da instituição educacional</span><span class="sxs-lookup"><span data-stu-id="0e051-161">Educational institution icon</span></span>
+
+<span data-ttu-id="0e051-162">O ícone da instituição educacional é usado em todo o Career Coach para identificar conteúdo exclusivo para sua instituição educacional, recursos de catálogo de cursos em todo o aplicativo e na seção experiências do mundo real do painel.</span><span class="sxs-lookup"><span data-stu-id="0e051-162">The educational institution icon is used throughout Career Coach to identify content unique to your educational institution, course catalog resources throughout the app, and on the real-world experiences section of the dashboard.</span></span> <span data-ttu-id="0e051-163">O ícone é melhor formatado como:</span><span class="sxs-lookup"><span data-stu-id="0e051-163">The icon is best formatted as:</span></span>
+
+ - <span data-ttu-id="0e051-164">Um PNG transparente</span><span class="sxs-lookup"><span data-stu-id="0e051-164">A transparent PNG</span></span>
+ - <span data-ttu-id="0e051-165">Proporção de 1:1</span><span class="sxs-lookup"><span data-stu-id="0e051-165">Aspect ratio of 1:1</span></span>
+ - <span data-ttu-id="0e051-166">Tamanho máximo de 64 px x 64 px.</span><span class="sxs-lookup"><span data-stu-id="0e051-166">Maximum size of 64 px x 64 px.</span></span>
+
+##### <a name="educational-institution-thumbnail"></a><span data-ttu-id="0e051-167">Miniatura da instituição educacional</span><span class="sxs-lookup"><span data-stu-id="0e051-167">Educational institution thumbnail</span></span>
+
+<span data-ttu-id="0e051-168">O ícone da instituição educacional será usado para recursos de catálogo de cursos em todo o aplicativo quando uma imagem específica não estiver disponível para um curso.</span><span class="sxs-lookup"><span data-stu-id="0e051-168">The educational institution icon will be used for course catalog resources throughout the app when a specific image isn't available for a course.</span></span> <span data-ttu-id="0e051-169">O ícone é melhor formatado como:</span><span class="sxs-lookup"><span data-stu-id="0e051-169">The icon is best formatted as:</span></span>
+
+- <span data-ttu-id="0e051-170">Um PNG</span><span class="sxs-lookup"><span data-stu-id="0e051-170">A PNG</span></span>
+- <span data-ttu-id="0e051-171">Proporção de 16:9</span><span class="sxs-lookup"><span data-stu-id="0e051-171">Aspect ratio of 16:9</span></span>
+- <span data-ttu-id="0e051-172">Tamanho máximo de 360 px x 200 px.</span><span class="sxs-lookup"><span data-stu-id="0e051-172">Maximum size of 360 px x 200 px.</span></span>
+
+#### <a name="linkedin-configuration"></a><span data-ttu-id="0e051-173">Configuração do LinkedIn</span><span class="sxs-lookup"><span data-stu-id="0e051-173">LinkedIn configuration</span></span>
+
+<span data-ttu-id="0e051-174">A configuração do LinkedIn conecta o Career Coach com dados de ex-alunos públicos do LinkedIn.</span><span class="sxs-lookup"><span data-stu-id="0e051-174">The LinkedIn configuration connects Career Coach with public alumni data from LinkedIn.</span></span>
+
+> [!NOTE]
+> <span data-ttu-id="0e051-175">O Career Coach não pode ser habilitado sem a conexão de página do LinkedIn verificada.</span><span class="sxs-lookup"><span data-stu-id="0e051-175">Career Coach can't be enabled without the LinkedIn page connection verified.</span></span>
+
+##### <a name="add-and-confirm-the-linkedin-page"></a><span data-ttu-id="0e051-176">Adicionar e confirmar a página do LinkedIn</span><span class="sxs-lookup"><span data-stu-id="0e051-176">Add and confirm the LinkedIn page</span></span>
+
+<span data-ttu-id="0e051-177">Determine a página do LinkedIn da instituição educacional.</span><span class="sxs-lookup"><span data-stu-id="0e051-177">Determine the educational institution's LinkedIn page.</span></span> <span data-ttu-id="0e051-178">Encontre a página do LinkedIn pesquisando no LinkedIn ou conectando-se a um membro da equipe de serviços de carreira para determinar a página correta a ser usada.</span><span class="sxs-lookup"><span data-stu-id="0e051-178">Find the LinkedIn page by searching on LinkedIn or connecting with a career services staff member to determine the correct page to use.</span></span>  
   
-1. <span data-ttu-id="21f4f-179">Entre no centro de **administração Teams.**</span><span class="sxs-lookup"><span data-stu-id="21f4f-179">Sign in to the **Teams admin center**.</span></span>
+1. <span data-ttu-id="0e051-179">Entre no centro de **administração Teams.**</span><span class="sxs-lookup"><span data-stu-id="0e051-179">Sign in to the **Teams admin center**.</span></span>
 
-1. <span data-ttu-id="21f4f-180">Selecione **Teams**  >  **aplicativos Gerenciar**  >  **aplicativos Conexão** LinkedIn do Coach de  >  **Carreira.**</span><span class="sxs-lookup"><span data-stu-id="21f4f-180">Select **Teams apps** > **Manage apps** > **Career Coach** > **LinkedIn connection**.</span></span>
+1. <span data-ttu-id="0e051-180">Selecione **Teams**  >  **aplicativos Gerenciar**  >  **aplicativos Conexão** LinkedIn do Coach de  >  **Carreira.**</span><span class="sxs-lookup"><span data-stu-id="0e051-180">Select **Teams apps** > **Manage apps** > **Career Coach** > **LinkedIn connection**.</span></span>
 
-2. <span data-ttu-id="21f4f-181">Insira a URL da página do LinkedIn da sua instituição educacional.</span><span class="sxs-lookup"><span data-stu-id="21f4f-181">Enter your educational institution's LinkedIn page URL.</span></span>  
+2. <span data-ttu-id="0e051-181">Insira a URL da página do LinkedIn da sua instituição educacional.</span><span class="sxs-lookup"><span data-stu-id="0e051-181">Enter your educational institution's LinkedIn page URL.</span></span>  
 
-3. <span data-ttu-id="21f4f-182">Selecione **Aplicar**.</span><span class="sxs-lookup"><span data-stu-id="21f4f-182">Select **Apply**.</span></span>
+3. <span data-ttu-id="0e051-182">Selecione **Aplicar**.</span><span class="sxs-lookup"><span data-stu-id="0e051-182">Select **Apply**.</span></span>
 
-4. <span data-ttu-id="21f4f-183">Copie a URL de verificação e compartilhe-a com a documentação de administrador de página do LinkedIn da sua instituição [educacional.](https://www.linkedin.com/help/linkedin/answer/4783/linkedin-page-admins-overview?lang=en)</span><span class="sxs-lookup"><span data-stu-id="21f4f-183">Copy the verification URL and share it with your educational institution’s LinkedIn page admin [LinkedIn page admin documentation](https://www.linkedin.com/help/linkedin/answer/4783/linkedin-page-admins-overview?lang=en).</span></span> <span data-ttu-id="21f4f-184">O link de verificação expira após 30 dias.</span><span class="sxs-lookup"><span data-stu-id="21f4f-184">The verification link expires after 30 days.</span></span>  
+4. <span data-ttu-id="0e051-183">Copie a URL de verificação e compartilhe-a com a documentação de administrador de página do LinkedIn da sua instituição [educacional.](https://www.linkedin.com/help/linkedin/answer/4783/linkedin-page-admins-overview?lang=en)</span><span class="sxs-lookup"><span data-stu-id="0e051-183">Copy the verification URL and share it with your educational institution’s LinkedIn page admin [LinkedIn page admin documentation](https://www.linkedin.com/help/linkedin/answer/4783/linkedin-page-admins-overview?lang=en).</span></span> <span data-ttu-id="0e051-184">O link de verificação expira após 30 dias.</span><span class="sxs-lookup"><span data-stu-id="0e051-184">The verification link expires after 30 days.</span></span>  
 
-   ![configurações do linkedin para o coach de carreira](media/linkedin.png)  
+   ![configurações do linkedin para o coach de carreira](media/career-coach-linked-in.png)  
 
-#### <a name="course-catalog"></a><span data-ttu-id="21f4f-186">Catálogo de cursos</span><span class="sxs-lookup"><span data-stu-id="21f4f-186">Course catalog</span></span>
+#### <a name="course-catalog"></a><span data-ttu-id="0e051-186">Catálogo de cursos</span><span class="sxs-lookup"><span data-stu-id="0e051-186">Course catalog</span></span>
 
-<span data-ttu-id="21f4f-187">O catálogo de cursos representa os cursos e aulas oferecidos aos alunos pela sua instituição educacional.</span><span class="sxs-lookup"><span data-stu-id="21f4f-187">The course catalog represents the courses and classes offered to students by your educational institution.</span></span> <span data-ttu-id="21f4f-188">Esses cursos são usados dentro do aplicativo em duas áreas:</span><span class="sxs-lookup"><span data-stu-id="21f4f-188">These courses are used within the app in two areas:</span></span>
+<span data-ttu-id="0e051-187">O catálogo de cursos representa os cursos e aulas oferecidos aos alunos pela sua instituição educacional.</span><span class="sxs-lookup"><span data-stu-id="0e051-187">The course catalog represents the courses and classes offered to students by your educational institution.</span></span> <span data-ttu-id="0e051-188">Esses cursos são usados dentro do aplicativo em duas áreas:</span><span class="sxs-lookup"><span data-stu-id="0e051-188">These courses are used within the app in two areas:</span></span>
 
-- <span data-ttu-id="21f4f-189">Os cursos são retornados como parte dos recursos de aprendizagem.</span><span class="sxs-lookup"><span data-stu-id="21f4f-189">Courses are returned as part of learning resources.</span></span>  
+- <span data-ttu-id="0e051-189">Os cursos são retornados como parte dos recursos de aprendizagem.</span><span class="sxs-lookup"><span data-stu-id="0e051-189">Courses are returned as part of learning resources.</span></span>  
 
-- <span data-ttu-id="21f4f-190">Cursos e metadados de curso, como descrições, são usados para ajudar os alunos a identificar suas habilidades ao carregar uma transcrição.</span><span class="sxs-lookup"><span data-stu-id="21f4f-190">Courses and course meta data, like descriptions, are used to help students identify their skills when they upload a transcript.</span></span>  
+- <span data-ttu-id="0e051-190">Cursos e metadados de curso, como descrições, são usados para ajudar os alunos a identificar suas habilidades ao carregar uma transcrição.</span><span class="sxs-lookup"><span data-stu-id="0e051-190">Courses and course meta data, like descriptions, are used to help students identify their skills when they upload a transcript.</span></span>  
 
-<span data-ttu-id="21f4f-191">Para criar o catálogo de cursos, crie uma lista de todos os cursos ministrados em sua instituição educacional e carregue-o como um arquivo CSV.</span><span class="sxs-lookup"><span data-stu-id="21f4f-191">To create the course catalog, put together a list of all courses taught at your educational institution and upload it as a CSV file.</span></span> <span data-ttu-id="21f4f-192">O aplicativo desenha do catálogo de cursos para identificar as habilidades de um aluno a partir de sua transcrição e sugerir cursos a fazer.</span><span class="sxs-lookup"><span data-stu-id="21f4f-192">The app draws from the course catalog to identify a student’s skills from their transcript and to suggest courses to take.</span></span> 
+<span data-ttu-id="0e051-191">Para criar o catálogo de cursos, crie uma lista de todos os cursos ministrados em sua instituição educacional e carregue-o como um arquivo CSV.</span><span class="sxs-lookup"><span data-stu-id="0e051-191">To create the course catalog, put together a list of all courses taught at your educational institution and upload it as a CSV file.</span></span> <span data-ttu-id="0e051-192">O aplicativo desenha do catálogo de cursos para identificar as habilidades de um aluno a partir de sua transcrição e sugerir cursos a fazer.</span><span class="sxs-lookup"><span data-stu-id="0e051-192">The app draws from the course catalog to identify a student’s skills from their transcript and to suggest courses to take.</span></span> 
 
-##### <a name="course-catalog-documents-formatting-and-schema"></a><span data-ttu-id="21f4f-193">Formatação e esquema de documentos do catálogo de cursos</span><span class="sxs-lookup"><span data-stu-id="21f4f-193">Course catalog documents formatting and schema</span></span>
+##### <a name="course-catalog-documents-formatting-and-schema"></a><span data-ttu-id="0e051-193">Formatação e esquema de documentos do catálogo de cursos</span><span class="sxs-lookup"><span data-stu-id="0e051-193">Course catalog documents formatting and schema</span></span>
 
-<span data-ttu-id="21f4f-194">O documento precisa estar no formato CSV com um tamanho máximo de 18 MB.</span><span class="sxs-lookup"><span data-stu-id="21f4f-194">The document needs to be in CSV format with a maximum size of 18 MB.</span></span> <span data-ttu-id="21f4f-195">O documento deve conter o título do curso **de** campos necessários , **a ID do** curso e a URL do **curso.**</span><span class="sxs-lookup"><span data-stu-id="21f4f-195">The document must contain the required fields **course title**, **course ID**, and **course URL**.</span></span> <span data-ttu-id="21f4f-196">Incluir os campos recomendados melhora a experiência dos alunos retornando melhores resultados de pesquisa e identificação de habilidades.</span><span class="sxs-lookup"><span data-stu-id="21f4f-196">Including the recommended fields improves the experience for students by returning better search results and skill identification.</span></span>
+<span data-ttu-id="0e051-194">O documento precisa estar no formato CSV com um tamanho máximo de 18 MB.</span><span class="sxs-lookup"><span data-stu-id="0e051-194">The document needs to be in CSV format with a maximum size of 18 MB.</span></span> <span data-ttu-id="0e051-195">O documento deve conter o título do curso **de** campos necessários , **a ID do** curso e a URL do **curso.**</span><span class="sxs-lookup"><span data-stu-id="0e051-195">The document must contain the required fields **course title**, **course ID**, and **course URL**.</span></span> <span data-ttu-id="0e051-196">Incluir os campos recomendados melhora a experiência dos alunos retornando melhores resultados de pesquisa e identificação de habilidades.</span><span class="sxs-lookup"><span data-stu-id="0e051-196">Including the recommended fields improves the experience for students by returning better search results and skill identification.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="21f4f-197">Comece com o [documento de catálogo de cursos]( https://aka.ms/career-coach/docs/it-admins/sample-catalog) de exemplo para começar.</span><span class="sxs-lookup"><span data-stu-id="21f4f-197">Start with the [sample course catalog]( https://aka.ms/career-coach/docs/it-admins/sample-catalog) document to get started.</span></span>
+> <span data-ttu-id="0e051-197">Comece com o [documento de catálogo de cursos]( https://aka.ms/career-coach/docs/it-admins/sample-catalog) de exemplo para começar.</span><span class="sxs-lookup"><span data-stu-id="0e051-197">Start with the [sample course catalog]( https://aka.ms/career-coach/docs/it-admins/sample-catalog) document to get started.</span></span>
 
-<span data-ttu-id="21f4f-198">A tabela a seguir mostra os itens a incluir no catálogo de cursos:</span><span class="sxs-lookup"><span data-stu-id="21f4f-198">The following table shows the items to include in the course catalog:</span></span>
+<span data-ttu-id="0e051-198">A tabela a seguir mostra os itens a incluir no catálogo de cursos:</span><span class="sxs-lookup"><span data-stu-id="0e051-198">The following table shows the items to include in the course catalog:</span></span>
 
 
-| <span data-ttu-id="21f4f-199">Nome</span><span class="sxs-lookup"><span data-stu-id="21f4f-199">Name</span></span>             | <span data-ttu-id="21f4f-200">Status</span><span class="sxs-lookup"><span data-stu-id="21f4f-200">Status</span></span>      | <span data-ttu-id="21f4f-201">Tipo</span><span class="sxs-lookup"><span data-stu-id="21f4f-201">Type</span></span>   | <span data-ttu-id="21f4f-202">Descrição</span><span class="sxs-lookup"><span data-stu-id="21f4f-202">Description</span></span>                                                                    |
+| <span data-ttu-id="0e051-199">Nome</span><span class="sxs-lookup"><span data-stu-id="0e051-199">Name</span></span>             | <span data-ttu-id="0e051-200">Status</span><span class="sxs-lookup"><span data-stu-id="0e051-200">Status</span></span>      | <span data-ttu-id="0e051-201">Tipo</span><span class="sxs-lookup"><span data-stu-id="0e051-201">Type</span></span>   | <span data-ttu-id="0e051-202">Descrição</span><span class="sxs-lookup"><span data-stu-id="0e051-202">Description</span></span>                                                                    |
 |------------------|-------------|--------|--------------------------------------------------------------------------------|
-| <span data-ttu-id="21f4f-203">courseId</span><span class="sxs-lookup"><span data-stu-id="21f4f-203">courseId</span></span>         | <span data-ttu-id="21f4f-204">Obrigatório</span><span class="sxs-lookup"><span data-stu-id="21f4f-204">Required</span></span>    | <span data-ttu-id="21f4f-205">string</span><span class="sxs-lookup"><span data-stu-id="21f4f-205">string</span></span> | <span data-ttu-id="21f4f-206">Geralmente, a id do curso (normalmente mapeia para o que é gerado na transcrição).</span><span class="sxs-lookup"><span data-stu-id="21f4f-206">Usually the course id (Typically maps to what is generated in the transcript).</span></span> |
-| <span data-ttu-id="21f4f-207">title</span><span class="sxs-lookup"><span data-stu-id="21f4f-207">title</span></span>            | <span data-ttu-id="21f4f-208">Obrigatório</span><span class="sxs-lookup"><span data-stu-id="21f4f-208">Required</span></span>    | <span data-ttu-id="21f4f-209">string</span><span class="sxs-lookup"><span data-stu-id="21f4f-209">string</span></span> | <span data-ttu-id="21f4f-210">Geralmente o título do curso.</span><span class="sxs-lookup"><span data-stu-id="21f4f-210">Usually the course title.</span></span>                                                      |
-| <span data-ttu-id="21f4f-211">sourceLink</span><span class="sxs-lookup"><span data-stu-id="21f4f-211">sourceLink</span></span>       | <span data-ttu-id="21f4f-212">Obrigatório</span><span class="sxs-lookup"><span data-stu-id="21f4f-212">Required</span></span>    | <span data-ttu-id="21f4f-213">URL</span><span class="sxs-lookup"><span data-stu-id="21f4f-213">URL</span></span>    | <span data-ttu-id="21f4f-214">Link do site para a página do curso.</span><span class="sxs-lookup"><span data-stu-id="21f4f-214">Website link to the course page.</span></span>                                               |
-| <span data-ttu-id="21f4f-215">description</span><span class="sxs-lookup"><span data-stu-id="21f4f-215">description</span></span>      | <span data-ttu-id="21f4f-216">Recomendado</span><span class="sxs-lookup"><span data-stu-id="21f4f-216">Recommended</span></span> | <span data-ttu-id="21f4f-217">string</span><span class="sxs-lookup"><span data-stu-id="21f4f-217">string</span></span> | <span data-ttu-id="21f4f-218">Texto de introdução para o curso.</span><span class="sxs-lookup"><span data-stu-id="21f4f-218">Introduction text for the course.</span></span>                                              |
-| <span data-ttu-id="21f4f-219">language</span><span class="sxs-lookup"><span data-stu-id="21f4f-219">language</span></span>         | <span data-ttu-id="21f4f-220">Recomendado</span><span class="sxs-lookup"><span data-stu-id="21f4f-220">Recommended</span></span> | <span data-ttu-id="21f4f-221">string</span><span class="sxs-lookup"><span data-stu-id="21f4f-221">string</span></span> | <span data-ttu-id="21f4f-222">Idioma do curso.</span><span class="sxs-lookup"><span data-stu-id="21f4f-222">Language of the course.</span></span> <span data-ttu-id="21f4f-223">Use códigos de idioma padrão.</span><span class="sxs-lookup"><span data-stu-id="21f4f-223">Use standard language codes.</span></span>                           |
-| <span data-ttu-id="21f4f-224">format</span><span class="sxs-lookup"><span data-stu-id="21f4f-224">format</span></span>           | <span data-ttu-id="21f4f-225">Recomendado</span><span class="sxs-lookup"><span data-stu-id="21f4f-225">Recommended</span></span> | <span data-ttu-id="21f4f-226">string</span><span class="sxs-lookup"><span data-stu-id="21f4f-226">string</span></span> | <span data-ttu-id="21f4f-227">Modo de ensino, por exemplo, online, vídeo, pessoalmente.</span><span class="sxs-lookup"><span data-stu-id="21f4f-227">Mode of teaching, e.g., online, video, in-person.</span></span>                              |
-| <span data-ttu-id="21f4f-228">thumbnailLink</span><span class="sxs-lookup"><span data-stu-id="21f4f-228">thumbnailLink</span></span>    | <span data-ttu-id="21f4f-229">Recomendado</span><span class="sxs-lookup"><span data-stu-id="21f4f-229">Recommended</span></span> | <span data-ttu-id="21f4f-230">URL</span><span class="sxs-lookup"><span data-stu-id="21f4f-230">URL</span></span>    | <span data-ttu-id="21f4f-231">Link em miniatura para a imagem do curso.</span><span class="sxs-lookup"><span data-stu-id="21f4f-231">Thumbnail link to the course image.</span></span>                                            |
-| <span data-ttu-id="21f4f-232">thumbnailAltText</span><span class="sxs-lookup"><span data-stu-id="21f4f-232">thumbnailAltText</span></span> | <span data-ttu-id="21f4f-233">Recomendado</span><span class="sxs-lookup"><span data-stu-id="21f4f-233">Recommended</span></span> | <span data-ttu-id="21f4f-234">string</span><span class="sxs-lookup"><span data-stu-id="21f4f-234">string</span></span> | <span data-ttu-id="21f4f-235">Texto alt de acessibilidade para a imagem</span><span class="sxs-lookup"><span data-stu-id="21f4f-235">Accessibility alt text for the image</span></span>                                           |
-| <span data-ttu-id="21f4f-236">educationLevel</span><span class="sxs-lookup"><span data-stu-id="21f4f-236">educationLevel</span></span>   | <span data-ttu-id="21f4f-237">Recomendado</span><span class="sxs-lookup"><span data-stu-id="21f4f-237">Recommended</span></span> | <span data-ttu-id="21f4f-238">string</span><span class="sxs-lookup"><span data-stu-id="21f4f-238">string</span></span> | <span data-ttu-id="21f4f-239">Nível de estudo, ex.</span><span class="sxs-lookup"><span data-stu-id="21f4f-239">Study level, ex.</span></span> <span data-ttu-id="21f4f-240">Graduando/Graduando.</span><span class="sxs-lookup"><span data-stu-id="21f4f-240">Undergraduate/Graduate.</span></span>                                       |
-| <span data-ttu-id="21f4f-241">tópicos</span><span class="sxs-lookup"><span data-stu-id="21f4f-241">topics</span></span>           | <span data-ttu-id="21f4f-242">Recomendado</span><span class="sxs-lookup"><span data-stu-id="21f4f-242">Recommended</span></span> | <span data-ttu-id="21f4f-243">string</span><span class="sxs-lookup"><span data-stu-id="21f4f-243">string</span></span> | <span data-ttu-id="21f4f-244">Tópicos ou marcas associadas às habilidades que os cursos ministram.</span><span class="sxs-lookup"><span data-stu-id="21f4f-244">Topics or tags that are associated with the skills the courses teach.</span></span>          |
+| <span data-ttu-id="0e051-203">courseId</span><span class="sxs-lookup"><span data-stu-id="0e051-203">courseId</span></span>         | <span data-ttu-id="0e051-204">Obrigatório</span><span class="sxs-lookup"><span data-stu-id="0e051-204">Required</span></span>    | <span data-ttu-id="0e051-205">string</span><span class="sxs-lookup"><span data-stu-id="0e051-205">string</span></span> | <span data-ttu-id="0e051-206">Geralmente, a id do curso (normalmente mapeia para o que é gerado na transcrição).</span><span class="sxs-lookup"><span data-stu-id="0e051-206">Usually the course id (Typically maps to what is generated in the transcript).</span></span> |
+| <span data-ttu-id="0e051-207">title</span><span class="sxs-lookup"><span data-stu-id="0e051-207">title</span></span>            | <span data-ttu-id="0e051-208">Obrigatório</span><span class="sxs-lookup"><span data-stu-id="0e051-208">Required</span></span>    | <span data-ttu-id="0e051-209">string</span><span class="sxs-lookup"><span data-stu-id="0e051-209">string</span></span> | <span data-ttu-id="0e051-210">Geralmente o título do curso.</span><span class="sxs-lookup"><span data-stu-id="0e051-210">Usually the course title.</span></span>                                                      |
+| <span data-ttu-id="0e051-211">sourceLink</span><span class="sxs-lookup"><span data-stu-id="0e051-211">sourceLink</span></span>       | <span data-ttu-id="0e051-212">Obrigatório</span><span class="sxs-lookup"><span data-stu-id="0e051-212">Required</span></span>    | <span data-ttu-id="0e051-213">URL</span><span class="sxs-lookup"><span data-stu-id="0e051-213">URL</span></span>    | <span data-ttu-id="0e051-214">Link do site para a página do curso.</span><span class="sxs-lookup"><span data-stu-id="0e051-214">Website link to the course page.</span></span>                                               |
+| <span data-ttu-id="0e051-215">description</span><span class="sxs-lookup"><span data-stu-id="0e051-215">description</span></span>      | <span data-ttu-id="0e051-216">Recomendado</span><span class="sxs-lookup"><span data-stu-id="0e051-216">Recommended</span></span> | <span data-ttu-id="0e051-217">string</span><span class="sxs-lookup"><span data-stu-id="0e051-217">string</span></span> | <span data-ttu-id="0e051-218">Texto de introdução para o curso.</span><span class="sxs-lookup"><span data-stu-id="0e051-218">Introduction text for the course.</span></span>                                              |
+| <span data-ttu-id="0e051-219">language</span><span class="sxs-lookup"><span data-stu-id="0e051-219">language</span></span>         | <span data-ttu-id="0e051-220">Recomendado</span><span class="sxs-lookup"><span data-stu-id="0e051-220">Recommended</span></span> | <span data-ttu-id="0e051-221">string</span><span class="sxs-lookup"><span data-stu-id="0e051-221">string</span></span> | <span data-ttu-id="0e051-222">Idioma do curso.</span><span class="sxs-lookup"><span data-stu-id="0e051-222">Language of the course.</span></span> <span data-ttu-id="0e051-223">Use códigos de idioma padrão.</span><span class="sxs-lookup"><span data-stu-id="0e051-223">Use standard language codes.</span></span>                           |
+| <span data-ttu-id="0e051-224">format</span><span class="sxs-lookup"><span data-stu-id="0e051-224">format</span></span>           | <span data-ttu-id="0e051-225">Recomendado</span><span class="sxs-lookup"><span data-stu-id="0e051-225">Recommended</span></span> | <span data-ttu-id="0e051-226">string</span><span class="sxs-lookup"><span data-stu-id="0e051-226">string</span></span> | <span data-ttu-id="0e051-227">Modo de ensino, por exemplo, online, vídeo, pessoalmente.</span><span class="sxs-lookup"><span data-stu-id="0e051-227">Mode of teaching, e.g., online, video, in-person.</span></span>                              |
+| <span data-ttu-id="0e051-228">thumbnailLink</span><span class="sxs-lookup"><span data-stu-id="0e051-228">thumbnailLink</span></span>    | <span data-ttu-id="0e051-229">Recomendado</span><span class="sxs-lookup"><span data-stu-id="0e051-229">Recommended</span></span> | <span data-ttu-id="0e051-230">URL</span><span class="sxs-lookup"><span data-stu-id="0e051-230">URL</span></span>    | <span data-ttu-id="0e051-231">Link em miniatura para a imagem do curso.</span><span class="sxs-lookup"><span data-stu-id="0e051-231">Thumbnail link to the course image.</span></span>                                            |
+| <span data-ttu-id="0e051-232">thumbnailAltText</span><span class="sxs-lookup"><span data-stu-id="0e051-232">thumbnailAltText</span></span> | <span data-ttu-id="0e051-233">Recomendado</span><span class="sxs-lookup"><span data-stu-id="0e051-233">Recommended</span></span> | <span data-ttu-id="0e051-234">string</span><span class="sxs-lookup"><span data-stu-id="0e051-234">string</span></span> | <span data-ttu-id="0e051-235">Texto alt de acessibilidade para a imagem</span><span class="sxs-lookup"><span data-stu-id="0e051-235">Accessibility alt text for the image</span></span>                                           |
+| <span data-ttu-id="0e051-236">educationLevel</span><span class="sxs-lookup"><span data-stu-id="0e051-236">educationLevel</span></span>   | <span data-ttu-id="0e051-237">Recomendado</span><span class="sxs-lookup"><span data-stu-id="0e051-237">Recommended</span></span> | <span data-ttu-id="0e051-238">string</span><span class="sxs-lookup"><span data-stu-id="0e051-238">string</span></span> | <span data-ttu-id="0e051-239">Nível de estudo, ex.</span><span class="sxs-lookup"><span data-stu-id="0e051-239">Study level, ex.</span></span> <span data-ttu-id="0e051-240">Graduando/Graduando.</span><span class="sxs-lookup"><span data-stu-id="0e051-240">Undergraduate/Graduate.</span></span>                                       |
+| <span data-ttu-id="0e051-241">tópicos</span><span class="sxs-lookup"><span data-stu-id="0e051-241">topics</span></span>           | <span data-ttu-id="0e051-242">Recomendado</span><span class="sxs-lookup"><span data-stu-id="0e051-242">Recommended</span></span> | <span data-ttu-id="0e051-243">string</span><span class="sxs-lookup"><span data-stu-id="0e051-243">string</span></span> | <span data-ttu-id="0e051-244">Tópicos ou marcas associadas às habilidades que os cursos ministram.</span><span class="sxs-lookup"><span data-stu-id="0e051-244">Topics or tags that are associated with the skills the courses teach.</span></span>          |
 
-##### <a name="add-the-course-catalog"></a><span data-ttu-id="21f4f-245">Adicionar o catálogo de cursos</span><span class="sxs-lookup"><span data-stu-id="21f4f-245">Add the course catalog</span></span>
+##### <a name="add-the-course-catalog"></a><span data-ttu-id="0e051-245">Adicionar o catálogo de cursos</span><span class="sxs-lookup"><span data-stu-id="0e051-245">Add the course catalog</span></span>
 
-1. <span data-ttu-id="21f4f-246">Entre no centro de **administração Teams.**</span><span class="sxs-lookup"><span data-stu-id="21f4f-246">Sign in to the **Teams admin center**.</span></span>
+1. <span data-ttu-id="0e051-246">Entre no centro de **administração Teams.**</span><span class="sxs-lookup"><span data-stu-id="0e051-246">Sign in to the **Teams admin center**.</span></span>
 
-1. <span data-ttu-id="21f4f-247">Selecione **Teams** &gt; **aplicativos Gerenciar** &gt; **aplicativos Career Coach** &gt; **Configurações** Catálogo de &gt; **Cursos.**  </span><span class="sxs-lookup"><span data-stu-id="21f4f-247">Select **Teams apps** &gt; **Manage apps** &gt; **Career Coach** &gt; **Settings** &gt;  **Course catalog**.</span></span>
+1. <span data-ttu-id="0e051-247">Selecione **Teams** &gt; **aplicativos Gerenciar** &gt; **aplicativos Career Coach** &gt; **Configurações** Catálogo de &gt; **Cursos.**  </span><span class="sxs-lookup"><span data-stu-id="0e051-247">Select **Teams apps** &gt; **Manage apps** &gt; **Career Coach** &gt; **Settings** &gt;  **Course catalog**.</span></span>
 
-2. <span data-ttu-id="21f4f-248">Upload cursos no formato CSV.</span><span class="sxs-lookup"><span data-stu-id="21f4f-248">Upload courses in CSV format.</span></span>
+2. <span data-ttu-id="0e051-248">Upload cursos no formato CSV.</span><span class="sxs-lookup"><span data-stu-id="0e051-248">Upload courses in CSV format.</span></span>
 
-4. <span data-ttu-id="21f4f-249">Selecione **Aplicar**.</span><span class="sxs-lookup"><span data-stu-id="21f4f-249">Select **Apply**.</span></span>
+4. <span data-ttu-id="0e051-249">Selecione **Aplicar**.</span><span class="sxs-lookup"><span data-stu-id="0e051-249">Select **Apply**.</span></span>
 
    ![a seção catálogo de cursos do aplicativo de técnico de carreira](media/course-catalog.png)
 
-#### <a name="fields-of-study"></a><span data-ttu-id="21f4f-251">Campos de estudo</span><span class="sxs-lookup"><span data-stu-id="21f4f-251">Fields of study</span></span>
+#### <a name="fields-of-study"></a><span data-ttu-id="0e051-251">Campos de estudo</span><span class="sxs-lookup"><span data-stu-id="0e051-251">Fields of study</span></span>
 
-<span data-ttu-id="21f4f-252">Os campos de estudo são sinônimos de áreas de interesse principais, de nível acadêmico e de grau.</span><span class="sxs-lookup"><span data-stu-id="21f4f-252">The fields of study are synonymous with major areas of interest, academic major, and degree.</span></span> <span data-ttu-id="21f4f-253">Esses títulos são referenciados pelos alunos quando começam a usar o aplicativo e começam a configurar seu perfil personalizado.</span><span class="sxs-lookup"><span data-stu-id="21f4f-253">These titles are referenced by students when they start using the app and begin setting up their personalized profile.</span></span>
+<span data-ttu-id="0e051-252">Os campos de estudo são sinônimos de áreas de interesse principais, de nível acadêmico e de grau.</span><span class="sxs-lookup"><span data-stu-id="0e051-252">The fields of study are synonymous with major areas of interest, academic major, and degree.</span></span> <span data-ttu-id="0e051-253">Esses títulos são referenciados pelos alunos quando começam a usar o aplicativo e começam a configurar seu perfil personalizado.</span><span class="sxs-lookup"><span data-stu-id="0e051-253">These titles are referenced by students when they start using the app and begin setting up their personalized profile.</span></span>
 
-<span data-ttu-id="21f4f-254">Adicione todos os campos de estudo disponíveis para alunos como Engenharia, Inglês, Negócios e assim por diante.</span><span class="sxs-lookup"><span data-stu-id="21f4f-254">Add all fields of study available to students such as Engineering, English, Business, and so on.</span></span> <span data-ttu-id="21f4f-255">A lista de campos permite que os alunos descubram campos de estudo que podem interesse a eles e adicionem sua área de foco ao perfil.</span><span class="sxs-lookup"><span data-stu-id="21f4f-255">The list of fields lets students discover fields of study that may interest them and add their area of focus to their profile.</span></span>
+<span data-ttu-id="0e051-254">Adicione todos os campos de estudo disponíveis para alunos como Engenharia, Inglês, Negócios e assim por diante.</span><span class="sxs-lookup"><span data-stu-id="0e051-254">Add all fields of study available to students such as Engineering, English, Business, and so on.</span></span> <span data-ttu-id="0e051-255">A lista de campos permite que os alunos descubram campos de estudo que podem interesse a eles e adicionem sua área de foco ao perfil.</span><span class="sxs-lookup"><span data-stu-id="0e051-255">The list of fields lets students discover fields of study that may interest them and add their area of focus to their profile.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="21f4f-256">Comece com o [campo de exemplo do documento de](https://aka.ms/career-coach/docs/it-admins/sample-fieldsofstudy) estudo.</span><span class="sxs-lookup"><span data-stu-id="21f4f-256">Start with the [sample field of study](https://aka.ms/career-coach/docs/it-admins/sample-fieldsofstudy) document.</span></span>
-##### <a name="add-the-fields-of-study"></a><span data-ttu-id="21f4f-257">Adicionar os campos de estudo</span><span class="sxs-lookup"><span data-stu-id="21f4f-257">Add the fields of study</span></span>
+> <span data-ttu-id="0e051-256">Comece com o [campo de exemplo do documento de](https://aka.ms/career-coach/docs/it-admins/sample-fieldsofstudy) estudo.</span><span class="sxs-lookup"><span data-stu-id="0e051-256">Start with the [sample field of study](https://aka.ms/career-coach/docs/it-admins/sample-fieldsofstudy) document.</span></span>
+##### <a name="add-the-fields-of-study"></a><span data-ttu-id="0e051-257">Adicionar os campos de estudo</span><span class="sxs-lookup"><span data-stu-id="0e051-257">Add the fields of study</span></span>
 
-1. <span data-ttu-id="21f4f-258">Entre no centro de **administração Teams.**</span><span class="sxs-lookup"><span data-stu-id="21f4f-258">Sign in to the **Teams admin center**.</span></span>
-1. <span data-ttu-id="21f4f-259">Selecione **Teams** &gt; **aplicativos Gerenciar** &gt; **aplicativos Career Coach** &gt; **Configurações** Campos &gt; **de estudo**.  </span><span class="sxs-lookup"><span data-stu-id="21f4f-259">Select **Teams apps** &gt; **Manage apps** &gt; **Career Coach** &gt; **Settings** &gt;  **Fields of study**.</span></span>
+1. <span data-ttu-id="0e051-258">Entre no centro de **administração Teams.**</span><span class="sxs-lookup"><span data-stu-id="0e051-258">Sign in to the **Teams admin center**.</span></span>
+1. <span data-ttu-id="0e051-259">Selecione **Teams** &gt; **aplicativos Gerenciar** &gt; **aplicativos Career Coach** &gt; **Configurações** Campos &gt; **de estudo**.  </span><span class="sxs-lookup"><span data-stu-id="0e051-259">Select **Teams apps** &gt; **Manage apps** &gt; **Career Coach** &gt; **Settings** &gt;  **Fields of study**.</span></span>
 
-2. <span data-ttu-id="21f4f-260">Upload campo de estudo no formato CSV.</span><span class="sxs-lookup"><span data-stu-id="21f4f-260">Upload field of study in CSV format.</span></span>
+2. <span data-ttu-id="0e051-260">Upload campo de estudo no formato CSV.</span><span class="sxs-lookup"><span data-stu-id="0e051-260">Upload field of study in CSV format.</span></span>
 
-3. <span data-ttu-id="21f4f-261">Selecione **Aplicar**.</span><span class="sxs-lookup"><span data-stu-id="21f4f-261">Select **Apply**.</span></span>
+3. <span data-ttu-id="0e051-261">Selecione **Aplicar**.</span><span class="sxs-lookup"><span data-stu-id="0e051-261">Select **Apply**.</span></span>
 
-#### <a name="customization"></a><span data-ttu-id="21f4f-262">Personalização</span><span class="sxs-lookup"><span data-stu-id="21f4f-262">Customization</span></span>
+#### <a name="customization"></a><span data-ttu-id="0e051-262">Personalização</span><span class="sxs-lookup"><span data-stu-id="0e051-262">Customization</span></span>
 
-<span data-ttu-id="21f4f-263">O Career Coach pode ser personalizado para ser exclusivo da sua instituição educacional.</span><span class="sxs-lookup"><span data-stu-id="21f4f-263">Career Coach can be customized to be unique to your educational institution.</span></span> <span data-ttu-id="21f4f-264">A personalização dá suporte à adição de experiências ao painel.</span><span class="sxs-lookup"><span data-stu-id="21f4f-264">The customization supports adding experiences to the dashboard.</span></span> <span data-ttu-id="21f4f-265">É recomendável adicionar links a placas de trabalho, eventos, escritório de serviços de carreira, eventos relacionados à carreira, clubes de alunos e qualquer outro recurso que ajude os alunos a obter experiência no mundo real.</span><span class="sxs-lookup"><span data-stu-id="21f4f-265">It's recommended to add links to job boards, events, career services office, career-related events, student clubs, and any other resources that help students gain real-world experience.</span></span>
+<span data-ttu-id="0e051-263">O Career Coach pode ser personalizado para ser exclusivo da sua instituição educacional.</span><span class="sxs-lookup"><span data-stu-id="0e051-263">Career Coach can be customized to be unique to your educational institution.</span></span> <span data-ttu-id="0e051-264">A personalização dá suporte à adição de experiências ao painel.</span><span class="sxs-lookup"><span data-stu-id="0e051-264">The customization supports adding experiences to the dashboard.</span></span> <span data-ttu-id="0e051-265">É recomendável adicionar links a placas de trabalho, eventos, escritório de serviços de carreira, eventos relacionados à carreira, clubes de alunos e qualquer outro recurso que ajude os alunos a obter experiência no mundo real.</span><span class="sxs-lookup"><span data-stu-id="0e051-265">It's recommended to add links to job boards, events, career services office, career-related events, student clubs, and any other resources that help students gain real-world experience.</span></span>
 
-##### <a name="add-customized-experiences"></a><span data-ttu-id="21f4f-266">Adicionar experiências personalizadas</span><span class="sxs-lookup"><span data-stu-id="21f4f-266">Add customized experiences</span></span>
+##### <a name="add-customized-experiences"></a><span data-ttu-id="0e051-266">Adicionar experiências personalizadas</span><span class="sxs-lookup"><span data-stu-id="0e051-266">Add customized experiences</span></span>
 
-1. <span data-ttu-id="21f4f-267">Entre no centro de **administração Teams.**</span><span class="sxs-lookup"><span data-stu-id="21f4f-267">Sign in to the **Teams admin center**.</span></span>
+1. <span data-ttu-id="0e051-267">Entre no centro de **administração Teams.**</span><span class="sxs-lookup"><span data-stu-id="0e051-267">Sign in to the **Teams admin center**.</span></span>
 
-1. <span data-ttu-id="21f4f-268">Selecione **Teams** &gt; **aplicativos Gerenciar** &gt; **aplicativos Career Coach**  >  **Configurações** &gt; **Personalização.**</span><span class="sxs-lookup"><span data-stu-id="21f4f-268">Select **Teams apps** &gt; **Manage apps** &gt; **Career Coach** > **Settings** &gt; **Customization**.</span></span>
+1. <span data-ttu-id="0e051-268">Selecione **Teams** &gt; **aplicativos Gerenciar** &gt; **aplicativos Career Coach**  >  **Configurações** &gt; **Personalização.**</span><span class="sxs-lookup"><span data-stu-id="0e051-268">Select **Teams apps** &gt; **Manage apps** &gt; **Career Coach** > **Settings** &gt; **Customization**.</span></span>
 
-2. <span data-ttu-id="21f4f-269">Adicione cada URL, um título e uma descrição curta.</span><span class="sxs-lookup"><span data-stu-id="21f4f-269">Add each URL, a title, and short description.</span></span>  
+2. <span data-ttu-id="0e051-269">Adicione cada URL, um título e uma descrição curta.</span><span class="sxs-lookup"><span data-stu-id="0e051-269">Add each URL, a title, and short description.</span></span>  
   
-3. <span data-ttu-id="21f4f-270">Selecione **Aplicar**.</span><span class="sxs-lookup"><span data-stu-id="21f4f-270">Select **Apply**.</span></span>
+3. <span data-ttu-id="0e051-270">Selecione **Aplicar**.</span><span class="sxs-lookup"><span data-stu-id="0e051-270">Select **Apply**.</span></span>
 
-## <a name="making-career-coach-available-to-your-organization"></a><span data-ttu-id="21f4f-271">Disponibilizar o Career Coach para sua organização</span><span class="sxs-lookup"><span data-stu-id="21f4f-271">Making Career Coach available to your organization</span></span>
+## <a name="making-career-coach-available-to-your-organization"></a><span data-ttu-id="0e051-271">Disponibilizar o Career Coach para sua organização</span><span class="sxs-lookup"><span data-stu-id="0e051-271">Making Career Coach available to your organization</span></span>
 
-<span data-ttu-id="21f4f-272">Agora que o Career Coach foi configurado para sua organização.</span><span class="sxs-lookup"><span data-stu-id="21f4f-272">Now that Career Coach has been configured for your organization.</span></span> <span data-ttu-id="21f4f-273">Siga estas etapas para garantir que o Career Coach está disponível para a organização Microsoft Teams.</span><span class="sxs-lookup"><span data-stu-id="21f4f-273">Follow these steps to ensure that Career Coach is available to organization in Microsoft Teams.</span></span>
+<span data-ttu-id="0e051-272">Agora que o Career Coach foi configurado para sua organização.</span><span class="sxs-lookup"><span data-stu-id="0e051-272">Now that Career Coach has been configured for your organization.</span></span> <span data-ttu-id="0e051-273">Siga estas etapas para garantir que o Career Coach está disponível para a organização Microsoft Teams.</span><span class="sxs-lookup"><span data-stu-id="0e051-273">Follow these steps to ensure that Career Coach is available to organization in Microsoft Teams.</span></span>
 
-### <a name="enable-the-app"></a><span data-ttu-id="21f4f-274">Habilitar o aplicativo</span><span class="sxs-lookup"><span data-stu-id="21f4f-274">Enable the app</span></span>
+### <a name="enable-the-app"></a><span data-ttu-id="0e051-274">Habilitar o aplicativo</span><span class="sxs-lookup"><span data-stu-id="0e051-274">Enable the app</span></span>
 
-<span data-ttu-id="21f4f-275">Depois de concluir a configuração, habilita o aplicativo para alunos e usuários licenciados para que eles tenham acesso ao Career Coach.</span><span class="sxs-lookup"><span data-stu-id="21f4f-275">After you complete the configuration, enable the app for students and licensed users so they'll have access to Career Coach.</span></span>  
+<span data-ttu-id="0e051-275">Depois de concluir a configuração, habilita o aplicativo para alunos e usuários licenciados para que eles tenham acesso ao Career Coach.</span><span class="sxs-lookup"><span data-stu-id="0e051-275">After you complete the configuration, enable the app for students and licensed users so they'll have access to Career Coach.</span></span>  
   
 > [!NOTE]
-> <span data-ttu-id="21f4f-276">Você deve ter permissões de função de administrador global ou Teams de administrador.</span><span class="sxs-lookup"><span data-stu-id="21f4f-276">You must have Global or Teams admin role permissions.</span></span>
+> <span data-ttu-id="0e051-276">Você deve ter permissões de função de administrador global ou Teams de administrador.</span><span class="sxs-lookup"><span data-stu-id="0e051-276">You must have Global or Teams admin role permissions.</span></span>
 
-1. <span data-ttu-id="21f4f-277">Entre no centro de **administração Teams.**</span><span class="sxs-lookup"><span data-stu-id="21f4f-277">Sign in to the **Teams admin center**.</span></span>
+1. <span data-ttu-id="0e051-277">Entre no centro de **administração Teams.**</span><span class="sxs-lookup"><span data-stu-id="0e051-277">Sign in to the **Teams admin center**.</span></span>
 
-1. <span data-ttu-id="21f4f-278">Selecione **Teams** &gt; **aplicativos Gerenciar aplicativos** &gt; **Career Coach**.</span><span class="sxs-lookup"><span data-stu-id="21f4f-278">Select **Teams apps** &gt; **Manage apps** &gt; **Career Coach**.</span></span>
+1. <span data-ttu-id="0e051-278">Selecione **Teams** &gt; **aplicativos Gerenciar aplicativos** &gt; **Career Coach**.</span><span class="sxs-lookup"><span data-stu-id="0e051-278">Select **Teams apps** &gt; **Manage apps** &gt; **Career Coach**.</span></span>
 
-2. <span data-ttu-id="21f4f-279">Mover a alternância Status para **Permitido**.</span><span class="sxs-lookup"><span data-stu-id="21f4f-279">Move the Status toggle to **Allowed**.</span></span>  
+2. <span data-ttu-id="0e051-279">Mover a alternância Status para **Permitido**.</span><span class="sxs-lookup"><span data-stu-id="0e051-279">Move the Status toggle to **Allowed**.</span></span>  
 
   > [!NOTE]
-  > <span data-ttu-id="21f4f-280">Permitido significa que o aplicativo está disponível para usuários em sua instituição educacional.</span><span class="sxs-lookup"><span data-stu-id="21f4f-280">Allowed means that the app is available for users in your educational institution.</span></span> <span data-ttu-id="21f4f-281">Bloqueado significa que o aplicativo não está disponível para os alunos.</span><span class="sxs-lookup"><span data-stu-id="21f4f-281">Blocked means that the app isn't available to students.</span></span>
+  > <span data-ttu-id="0e051-280">Permitido significa que o aplicativo está disponível para usuários em sua instituição educacional.</span><span class="sxs-lookup"><span data-stu-id="0e051-280">Allowed means that the app is available for users in your educational institution.</span></span> <span data-ttu-id="0e051-281">Bloqueado significa que o aplicativo não está disponível para os alunos.</span><span class="sxs-lookup"><span data-stu-id="0e051-281">Blocked means that the app isn't available to students.</span></span>
 
-### <a name="add-career-coach-as-an-installed-app"></a><span data-ttu-id="21f4f-282">Adicionar o Career Coach como um aplicativo instalado</span><span class="sxs-lookup"><span data-stu-id="21f4f-282">Add Career Coach as an installed app</span></span>
-
-> [!NOTE]
-> <span data-ttu-id="21f4f-283">Esta etapa garante 1) que o Career Coach seja configurado corretamente para sua organização 2) que os alunos encontrem o Career Coach.</span><span class="sxs-lookup"><span data-stu-id="21f4f-283">This step ensures 1) that Career Coach is properly configured for your organization 2) that students find Career Coach.</span></span>
-
-1. <span data-ttu-id="21f4f-284">Entre no centro de **administração Teams.**</span><span class="sxs-lookup"><span data-stu-id="21f4f-284">Sign in to the **Teams admin center**.</span></span>
-
-2. <span data-ttu-id="21f4f-285">Selecione **Teams políticas de instalação de** &gt;  &gt; *aplicativos Sua política*.</span><span class="sxs-lookup"><span data-stu-id="21f4f-285">Select **Teams apps** &gt;**Setup policies** &gt; *Your policy*.</span></span> 
-
-3. <span data-ttu-id="21f4f-286">Em Aplicativos instalados, selecione Adicionar aplicativos.</span><span class="sxs-lookup"><span data-stu-id="21f4f-286">Under Installed apps, select Add apps.</span></span>
-
-4. <span data-ttu-id="21f4f-287">No painel Adicionar aplicativos instalados, pesquise os aplicativos que você deseja instalar automaticamente para os usuários quando eles começarem a Teams.</span><span class="sxs-lookup"><span data-stu-id="21f4f-287">In the Add installed apps pane, search for the apps you want to automatically install for users when they start Teams.</span></span> <span data-ttu-id="21f4f-288">Você também pode filtrar aplicativos por política de permissão do aplicativo.</span><span class="sxs-lookup"><span data-stu-id="21f4f-288">You can also filter apps by app permission policy.</span></span> <span data-ttu-id="21f4f-289">Quando você escolher sua lista de aplicativos, selecione Adicionar.</span><span class="sxs-lookup"><span data-stu-id="21f4f-289">When you've chosen your list of apps, select Add.</span></span>
-
-### <a name="pin-the-app"></a><span data-ttu-id="21f4f-290">Fixar o aplicativo</span><span class="sxs-lookup"><span data-stu-id="21f4f-290">Pin the app</span></span>
-
-<span data-ttu-id="21f4f-291">O Pinning Career Coach torna o aplicativo mais acessível e visível para os alunos.</span><span class="sxs-lookup"><span data-stu-id="21f4f-291">Pinning Career Coach will make the app more accessible and visible for students.</span></span>
-
-1. <span data-ttu-id="21f4f-292">Entre no centro de **administração Teams.**</span><span class="sxs-lookup"><span data-stu-id="21f4f-292">Sign in to the **Teams admin center**.</span></span>
-
-2. <span data-ttu-id="21f4f-293">Selecione **Teams políticas de instalação de** &gt;  &gt; *aplicativos Sua política*.</span><span class="sxs-lookup"><span data-stu-id="21f4f-293">Select **Teams apps** &gt;**Setup policies** &gt; *Your policy*.</span></span> 
-
-3. <span data-ttu-id="21f4f-294">Em **Aplicativos Fixados,** escolha **Adicionar aplicativos**.</span><span class="sxs-lookup"><span data-stu-id="21f4f-294">Under **Pinned apps**, choose **Add apps**.</span></span>
-
-4. <span data-ttu-id="21f4f-295">**Pesquise o Técnico** de Carreira e selecione **Adicionar**.</span><span class="sxs-lookup"><span data-stu-id="21f4f-295">Search for **Career Coach**, and then select **Add**.</span></span>
-
-5. <span data-ttu-id="21f4f-296">Escolha a ordem para que o aplicativo apareça e selecione **Salvar**.</span><span class="sxs-lookup"><span data-stu-id="21f4f-296">Choose the order for the app to appear and select **Save**.</span></span>
+### <a name="add-career-coach-as-an-installed-app"></a><span data-ttu-id="0e051-282">Adicionar o Career Coach como um aplicativo instalado</span><span class="sxs-lookup"><span data-stu-id="0e051-282">Add Career Coach as an installed app</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="21f4f-297">Os alunos serão notificados Microsoft Teams que o Career Coach foi fixado.</span><span class="sxs-lookup"><span data-stu-id="21f4f-297">Students will be notified in Microsoft Teams that Career Coach has been pinned.</span></span>
+> <span data-ttu-id="0e051-283">Esta etapa garante 1) que o Career Coach seja configurado corretamente para sua organização 2) que os alunos encontrem o Career Coach.</span><span class="sxs-lookup"><span data-stu-id="0e051-283">This step ensures 1) that Career Coach is properly configured for your organization 2) that students find Career Coach.</span></span>
 
-<span data-ttu-id="21f4f-298">Referência [Gerenciar políticas de configuração de aplicativos na Microsoft](/microsoftteams/teams-app-setup-policies) para obter detalhes adicionais.</span><span class="sxs-lookup"><span data-stu-id="21f4f-298">Reference [Manage app setup policies in Microsoft](/microsoftteams/teams-app-setup-policies) for additional details.</span></span>
+1. <span data-ttu-id="0e051-284">Entre no centro de **administração Teams.**</span><span class="sxs-lookup"><span data-stu-id="0e051-284">Sign in to the **Teams admin center**.</span></span>
 
-## <a name="resources"></a><span data-ttu-id="21f4f-299">Recursos</span><span class="sxs-lookup"><span data-stu-id="21f4f-299">Resources</span></span>
+2. <span data-ttu-id="0e051-285">Selecione **Teams políticas de instalação de** &gt;  &gt; *aplicativos Sua política*.</span><span class="sxs-lookup"><span data-stu-id="0e051-285">Select **Teams apps** &gt;**Setup policies** &gt; *Your policy*.</span></span> 
 
-<span data-ttu-id="21f4f-300">Os recursos a seguir ajudarão você a planejar seu aplicativo de Técnico de Carreira.</span><span class="sxs-lookup"><span data-stu-id="21f4f-300">The following resources will help you plan your Career Coach app.</span></span>
+3. <span data-ttu-id="0e051-286">Em Aplicativos instalados, selecione Adicionar aplicativos.</span><span class="sxs-lookup"><span data-stu-id="0e051-286">Under Installed apps, select Add apps.</span></span>
 
-- [<span data-ttu-id="21f4f-301">Bem-vindo ao Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="21f4f-301">Welcome to Microsoft Teams</span></span>](Teams-overview.md)
+4. <span data-ttu-id="0e051-287">No painel Adicionar aplicativos instalados, pesquise os aplicativos que você deseja instalar automaticamente para os usuários quando eles começarem a Teams.</span><span class="sxs-lookup"><span data-stu-id="0e051-287">In the Add installed apps pane, search for the apps you want to automatically install for users when they start Teams.</span></span> <span data-ttu-id="0e051-288">Você também pode filtrar aplicativos por política de permissão do aplicativo.</span><span class="sxs-lookup"><span data-stu-id="0e051-288">You can also filter apps by app permission policy.</span></span> <span data-ttu-id="0e051-289">Quando você escolher sua lista de aplicativos, selecione Adicionar.</span><span class="sxs-lookup"><span data-stu-id="0e051-289">When you've chosen your list of apps, select Add.</span></span>
 
-- [<span data-ttu-id="21f4f-302">Como implantar o Teams</span><span class="sxs-lookup"><span data-stu-id="21f4f-302">How to roll out Teams</span></span>](get-started-with-teams-resources-for-org-wide-rollout.md?tabs=SmallBusiness)
+### <a name="pin-the-app"></a><span data-ttu-id="0e051-290">Fixar o aplicativo</span><span class="sxs-lookup"><span data-stu-id="0e051-290">Pin the app</span></span>
 
-- [<span data-ttu-id="21f4f-303">Visão geral de equipes e canais no Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="21f4f-303">Overview of teams and channels in Microsoft Teams</span></span>](teams-channels-overview.md)
+<span data-ttu-id="0e051-291">O Pinning Career Coach torna o aplicativo mais acessível e visível para os alunos.</span><span class="sxs-lookup"><span data-stu-id="0e051-291">Pinning Career Coach will make the app more accessible and visible for students.</span></span>
 
-- [<span data-ttu-id="21f4f-304">Gerenciando aplicativos Microsoft Teams Admin Center</span><span class="sxs-lookup"><span data-stu-id="21f4f-304">Managing apps in Microsoft Teams Admin Center</span></span>](manage-apps.md)
+1. <span data-ttu-id="0e051-292">Entre no centro de **administração Teams.**</span><span class="sxs-lookup"><span data-stu-id="0e051-292">Sign in to the **Teams admin center**.</span></span>
 
-- [<span data-ttu-id="21f4f-305">Kit de Orientação Virtual Online</span><span class="sxs-lookup"><span data-stu-id="21f4f-305">Online Virtual Orientation Kit</span></span>](https://www.microsoft.com/education/remote-learning/virtual-orientation) 
+2. <span data-ttu-id="0e051-293">Selecione **Teams políticas de instalação de** &gt;  &gt; *aplicativos Sua política*.</span><span class="sxs-lookup"><span data-stu-id="0e051-293">Select **Teams apps** &gt;**Setup policies** &gt; *Your policy*.</span></span> 
 
-- [<span data-ttu-id="21f4f-306">Limites e especificação de Teams canais</span><span class="sxs-lookup"><span data-stu-id="21f4f-306">Limits and specification of Teams channels</span></span>](limits-specifications-teams.md)
+3. <span data-ttu-id="0e051-294">Em **Aplicativos Fixados,** escolha **Adicionar aplicativos**.</span><span class="sxs-lookup"><span data-stu-id="0e051-294">Under **Pinned apps**, choose **Add apps**.</span></span>
 
-- [<span data-ttu-id="21f4f-307">Iniciando o treinamento de administrador para Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="21f4f-307">Getting started with admin training for Microsoft Teams</span></span>](ITAdmin-readiness.md)
+4. <span data-ttu-id="0e051-295">**Pesquise o Técnico** de Carreira e selecione **Adicionar**.</span><span class="sxs-lookup"><span data-stu-id="0e051-295">Search for **Career Coach**, and then select **Add**.</span></span>
 
-- [<span data-ttu-id="21f4f-308">Solução de problemas do Teams</span><span class="sxs-lookup"><span data-stu-id="21f4f-308">Teams troubleshooting</span></span>](/microsoftteams/troubleshoot/teams-welcome)
+5. <span data-ttu-id="0e051-296">Escolha a ordem para que o aplicativo apareça e selecione **Salvar**.</span><span class="sxs-lookup"><span data-stu-id="0e051-296">Choose the order for the app to appear and select **Save**.</span></span>
 
-- [<span data-ttu-id="21f4f-309">Gerenciar políticas de permissões de aplicativo no Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="21f4f-309">Manage app permission policies in Microsoft Teams</span></span>](teams-app-permission-policies.md)
+> [!NOTE]
+> <span data-ttu-id="0e051-297">Os alunos serão notificados Microsoft Teams que o Career Coach foi fixado.</span><span class="sxs-lookup"><span data-stu-id="0e051-297">Students will be notified in Microsoft Teams that Career Coach has been pinned.</span></span>
+
+<span data-ttu-id="0e051-298">Referência [Gerenciar políticas de configuração de aplicativos na Microsoft](/microsoftteams/teams-app-setup-policies) para obter detalhes adicionais.</span><span class="sxs-lookup"><span data-stu-id="0e051-298">Reference [Manage app setup policies in Microsoft](/microsoftteams/teams-app-setup-policies) for additional details.</span></span>
+
+## <a name="resources"></a><span data-ttu-id="0e051-299">Recursos</span><span class="sxs-lookup"><span data-stu-id="0e051-299">Resources</span></span>
+
+<span data-ttu-id="0e051-300">Os recursos a seguir ajudarão você a planejar seu aplicativo de Técnico de Carreira.</span><span class="sxs-lookup"><span data-stu-id="0e051-300">The following resources will help you plan your Career Coach app.</span></span>
+
+- [<span data-ttu-id="0e051-301">Bem-vindo ao Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="0e051-301">Welcome to Microsoft Teams</span></span>](Teams-overview.md)
+
+- [<span data-ttu-id="0e051-302">Como implantar o Teams</span><span class="sxs-lookup"><span data-stu-id="0e051-302">How to roll out Teams</span></span>](get-started-with-teams-resources-for-org-wide-rollout.md?tabs=SmallBusiness)
+
+- [<span data-ttu-id="0e051-303">Visão geral de equipes e canais no Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="0e051-303">Overview of teams and channels in Microsoft Teams</span></span>](teams-channels-overview.md)
+
+- [<span data-ttu-id="0e051-304">Gerenciando aplicativos Microsoft Teams Admin Center</span><span class="sxs-lookup"><span data-stu-id="0e051-304">Managing apps in Microsoft Teams Admin Center</span></span>](manage-apps.md)
+
+- [<span data-ttu-id="0e051-305">Kit de Orientação Virtual Online</span><span class="sxs-lookup"><span data-stu-id="0e051-305">Online Virtual Orientation Kit</span></span>](https://www.microsoft.com/education/remote-learning/virtual-orientation) 
+
+- [<span data-ttu-id="0e051-306">Limites e especificação de Teams canais</span><span class="sxs-lookup"><span data-stu-id="0e051-306">Limits and specification of Teams channels</span></span>](limits-specifications-teams.md)
+
+- [<span data-ttu-id="0e051-307">Iniciando o treinamento de administrador para Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="0e051-307">Getting started with admin training for Microsoft Teams</span></span>](ITAdmin-readiness.md)
+
+- [<span data-ttu-id="0e051-308">Solução de problemas do Teams</span><span class="sxs-lookup"><span data-stu-id="0e051-308">Teams troubleshooting</span></span>](/microsoftteams/troubleshoot/teams-welcome)
+
+- [<span data-ttu-id="0e051-309">Gerenciar políticas de permissões de aplicativo no Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="0e051-309">Manage app permission policies in Microsoft Teams</span></span>](teams-app-permission-policies.md)
