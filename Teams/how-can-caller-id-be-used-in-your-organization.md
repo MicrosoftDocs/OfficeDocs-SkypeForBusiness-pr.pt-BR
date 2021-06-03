@@ -22,12 +22,12 @@ ms.custom:
 - Calling Plans
 - ms.teamsadmincenter.voice.callerid.overview
 description: A ID do chamador pode ser controlada para chamadas de entrada e de saída para usuários Sistema de Telefonia usando uma política chamada CallingLineIdentity.
-ms.openlocfilehash: 2a104679be84dfdaa4574353ccc79142d8a82284
-ms.sourcegitcommit: 83f14c4c79559ef28357ff076938e52b369fc0c7
+ms.openlocfilehash: 43d3d6633ca46485aa111a7d97b9bd37b0547818
+ms.sourcegitcommit: 02e243d6c58eab463a00ed45dadd80112087006e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52308340"
+ms.lasthandoff: 06/02/2021
+ms.locfileid: "52723542"
 ---
 # <a name="how-can-caller-id-be-used-in-your-organization"></a>Como a identificação de chamadas pode ser usada em sua organização
 
@@ -49,9 +49,6 @@ Você pode controlar a ID do Chamador para chamadas de entrada e de saída usand
 ## <a name="outbound-pstn-caller-id"></a>ID do chamador PSTN de saída
 
 Para a ID do chamador PSTN de saída, as opções a seguir estão disponíveis. 
-
-> [!NOTE]
-> Algumas opções, indicadas abaixo, estão em versão prévia.
   
 - O número de telefone atribuído ao usuário, que é o padrão.
 
@@ -61,9 +58,9 @@ Para a ID do chamador PSTN de saída, as opções a seguir estão disponíveis.
 
   - Um número de telefone que é classificado como um número de serviço e de chamada gratuita no inventário de números de telefone de Planos de Chamadas. Normalmente, ele é atribuído a um Teams Atendedor Automático ou Fila de Chamada.
 
-  - **Versão prévia.** Um número de telefone local por meio do Roteamento Direto atribuído a uma conta de recurso usada por um Teams Atendedor Automático ou Fila de Chamadas. 
+  - Um número de telefone local por meio do Roteamento Direto atribuído a uma conta de recurso usada por um Teams Atendedor Automático ou Fila de Chamadas. 
 
-- **Versão prévia.** O Nome da Parte de Chamada ou CNAM definido na chamada PSTN de saída.  
+- O Nome da Parte de Chamada ou CNAM definido na chamada PSTN de saída.  
     
 Para obter mais informações, consulte [Definir a ID do Chamador para um usuário](./set-the-caller-id-for-a-user.md).
   
