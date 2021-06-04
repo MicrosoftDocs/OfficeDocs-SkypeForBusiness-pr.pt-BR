@@ -1572,7 +1572,7 @@ items:
             href: devices/phones-displays-deploy.md
           - name: Dispositivos de áudio e vídeo USB
             href: devices/usb-devices.md
-          - name: Implantar barras de colaboração do Microsoft Teams
+          - name: Implantar Salas do Microsoft Teams no Android
             href: devices/collab-bar-deploy.md
           - name: Dispositivos e soluções para salas de reunião
             href: /skypeforbusiness/certification/devices-meeting-rooms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
