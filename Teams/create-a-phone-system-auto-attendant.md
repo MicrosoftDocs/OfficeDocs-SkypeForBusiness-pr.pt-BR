@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Saiba como configurar e testar os atendimentos automáticos para grandes organizações em Microsoft Teams.
-ms.openlocfilehash: 52a9636a6a92656293e90d00563be16b500ee4ce
-ms.sourcegitcommit: 90615674e9703aa5ea32be64ab3638aa30e83127
+ms.openlocfilehash: cc4d0de8fd1d6c643f23b6e8215f0f7a343b2a8f
+ms.sourcegitcommit: 17d0108fb4d36a3f56144460683f53d77a8a0a7f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/02/2021
-ms.locfileid: "52717862"
+ms.lasthandoff: 06/05/2021
+ms.locfileid: "52777793"
 ---
 # <a name="set-up-an-auto-attendant"></a>Configurar um atendimento automático
 
@@ -43,17 +43,12 @@ Os atendimentos automáticos podem direcionar chamadas, com base na entrada dos 
 - **Operador** - o operador definido para o atendimento automático. Definir um operador é opcional. O operador pode ser definido como qualquer um dos outros destinos nesta lista.
 - **Pessoa na organização** - uma pessoa em sua organização que pode receber chamadas de voz. Essa pessoa pode ser um usuário online ou um usuário hospedado no local usando Skype for Business Server.
 - **Aplicativo de voz** - outro atendimento automático ou uma fila de chamadas. (Escolha a conta de recurso associada ao atendimento automático ou fila de chamada ao escolher esse destino.)
-- **Caixa** postal - a caixa de correio de voz associada a um grupo Microsoft 365 que você especificar.
+- **Caixa** postal - a caixa de correio de voz associada a um grupo Microsoft 365 que você especificar. Você pode escolher se deseja transcrições de caixa postal e o "Por favor, deixe uma mensagem após o tom". prompt do sistema.
 - **Número de telefone externo** - qualquer número de telefone. (Consulte [detalhes técnicos de transferência externa](create-a-phone-system-auto-attendant.md#external-phone-number-transfers---technical-details)).
 - **Comunicado (Arquivo de áudio)** - Reproduzir um arquivo de áudio. Uma mensagem de anúncio gravada que você carrega salva como áudio em . WAV, .MP3 ou . Formato WMA. A gravação não pode ser maior do que 5 MB. O sistema reproduz o comunicado e retorna ao menu de atendimento automático.
 - **Comunicado (Digitado)** - Digite uma mensagem. Texto que você deseja que o sistema leia. Você pode inserir até 1000 caracteres. O sistema reproduz o comunicado e retorna ao menu de atendimento automático.
 
 Você será solicitado a escolher uma dessas opções em vários estágios ao configurar um atendimento automático.
-
-> [!NOTE]
-> Ao escolher a Caixa Postal como destino, duas opções adicionais estão disponíveis:
-> - **Transcrição** (Padrão: Desligado) - quando habilitada, a mensagem de caixa postal será transcrita e incluída como parte do email.
-> - **Suprimir Saudação** (Padrão: Desligado) - quando habilitada, a mensagem padrão do sistema "Deixe uma mensagem após o tom. Quando terminar, desligue ou pressione a tecla hash para obter mais opções." será suprimido.
 
 Para configurar um atendimento automático, no centro de administração Teams, **expanda Voz,** selecione **Assistentes automáticos** e selecione **Adicionar**.
 

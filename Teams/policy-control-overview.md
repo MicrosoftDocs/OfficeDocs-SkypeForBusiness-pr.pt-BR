@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b4e87103a5325e231bb07ca56ee5c14b8f48294a
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 1a4b0dcc52b5c497d594a26fda09f3f48b1c563a
+ms.sourcegitcommit: 17d0108fb4d36a3f56144460683f53d77a8a0a7f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117779"
+ms.lasthandoff: 06/05/2021
+ms.locfileid: "52777892"
 ---
 # <a name="policy-control-overview-for-microsoft-teams"></a>Visão geral do controle de política do Microsoft Teams
 
@@ -35,7 +35,7 @@ Este artigo tem como objetivo fornecer informações sobre os controles de priva
 Como parte dessas mudanças, haverá elementos novos e atualizados da interface do usuário (IU) e configurações de política
 
 > [!IMPORTANT]
-> Para obter mais informações, confira o conteúdo da [Visão geral do Controle de Política](/deployoffice/privacy/overview-privacy-controls) do M365.
+> Para obter mais informações, confira o conteúdo da [Visão Geral do Controle de Política](/deployoffice/privacy/overview-privacy-controls) do Microsoft 365.
 
 ## <a name="diagnostic-data-sent-from-microsoft-365-apps-for-enterprise-to-microsoft"></a>Dados de diagnóstico enviados do Microsoft 365 Apps para Grandes Empresas para a Microsoft
 
@@ -59,9 +59,10 @@ Os seguintes clientes aderem aos controles de diagnóstico e enviarão dados:
 - Android
 - Área de trabalho (somente o componente que está usando a API do Win32)
 
-Para obter o diagnóstico de dados móveis obrigatórios, confira [Dados de diagnóstico de controle de política para dispositivos móveis](policy-control-diagnostic-data-mobile.md).
+Para ver uma lista de eventos de dados de diagnóstico necessários e suas propriedades, consulte os seguintes artigos:
 
-Para obter o diagnóstico de dados da área de trabalho obrigatórios, confira [Dados de diagnóstico de controle de política para área de trabalho](policy-control-diagnostic-data-desktop.md).
+- [Dados de diagnóstico móvel necessários para o Microsoft Teams](policy-control-diagnostic-data-mobile.md)
+- [Dados necessários de diagnóstico da área de trabalho para o Microsoft Teams](policy-control-diagnostic-data-desktop.md)
 
 ## <a name="diagnostic-data-sent-from-the-teams-app-to-microsoft"></a>Dados de diagnóstico enviados do aplicativo Teams para a Microsoft
 
@@ -77,24 +78,25 @@ Os dados de diagnóstico obrigatórios podem incluir, por exemplo, informações
 
 Se você optar por nos enviar dados de diagnóstico opcionais, os dados de diagnóstico obrigatórios também serão incluídos.
 
-Como administrador da sua organização, você poderá usar uma configuração de política para escolher o nível de dados de diagnóstico que será enviado para nós. Dados diagnósticos opcionais serão enviados à Microsoft, a menos que você altere a configuração. O fornecimento de dados de diagnóstico opcionais permite que a equipe de engenharia do Office na Microsoft detecte, diagnostique e atenue os problemas para reduzir os impactos em sua organização.
+Como administrador da sua organização, você poderá usar uma configuração de política para escolher o nível de dados de diagnóstico que será enviado para nós. Dados diagnósticos opcionais serão enviados à Microsoft, a menos que você altere a configuração. O fornecimento de dados de diagnóstico opcionais permite que a equipe de engenharia do Office na Microsoft detecte, diagnostique e atenue os problemas para reduzir os impactos em sua organização. 
+
+Para escolher que nível de dados de diagnóstico são enviados para nós, use o [serviço de política de nuvem do Office](/deployoffice/overview-office-cloud-policy-service) e defina a configuração da política *Configurar o nível de dados de diagnóstico de software cliente enviados pelo Office para a Microsoft*. Essa é a mesma configuração de política usada para configurar que nível de dados de diagnóstico são enviados por outros aplicativos do Office (como Word, Excel e PowerPoint) que vêm com os Aplicativos do Microsoft 365 para empresas.
 
 Os usuários não poderão alterar o nível de dados de diagnóstico de seus dispositivos se eles estiverem conectados ao Teams com suas credenciais organizacionais, que às vezes são chamadas de conta corporativa ou de estudante.
 
 Esses dados de diagnóstico não incluem nomes de usuários, seus endereços de email ou o conteúdo de seus arquivos do Office. Nosso sistema cria uma ID exclusiva que é associada a dados de diagnóstico do usuário. Quando recebemos dados de diagnóstico mostrando que o aplicativo Teams falhou 100 vezes, essa ID exclusiva nos permite determinar se foi um único usuário que teve esse problema 100 vezes ou se foi o aplicativo de 100 usuários que falhou uma vez. Não usamos essa ID exclusiva para identificar um usuário específico.
 
+Para ver quais dados de diagnóstico foram enviados à Microsoft, você poderá usar o Visualizador de Dados de Diagnóstico, que você pode baixar e instalar gratuitamente da Microsoft Store. Para saber mais, consulte [Usando o Visualizador de Dados de Diagnóstico com o Office](https://support.microsoft.com/topic/cf761ce9-d805-4c60-a339-4e07f3182855).
+
+> [!NOTE]
+> O suporte para o Visualizador de Dados de Diagnóstico está disponível para Equipes em dispositivos com Android. O suporte para Equipes em dispositivos com Windows, macOS ou iOS está sendo trabalhado.
+
 ## <a name="required-service-data-for-connected-experiences"></a>Dados de serviço obrigatórios para experiências conectadas
 
-Dados de serviço necessários são dados que nos permitem fornecer essas experiências conectadas baseadas em nuvem e que ajudam a tornar essas experiências seguras e a funcionarem conforme o esperado. Três tipos de informações compõem os dados de serviço necessários.
-
-- **Conteúdo de cliente**, que é o conteúdo criado por você usando o Office, como o texto digitado em um documento do Word.
-- **Dados funcionais**, que inclui informações necessárias para que uma experiência conectada execute suas tarefas, como as informações de configuração do aplicativo.
-- **Dados de diagnóstico de serviço**, que são os dados necessários para manter o serviço seguro, atualizado e com o desempenho esperado. Como esses dados estão estritamente relacionados à experiência conectada, eles são separados dos níveis de dados de diagnóstico obrigatórios ou opcionais.
-
-Você pode optar por não oferecer essa funcionalidade a seus usuários; nesse caso, essas informações não serão fornecidas à Microsoft para oferecer suporte à funcionalidade das experiências conectadas. Você pode saber mais sobre os [dados de serviço obrigatórios](/deployoffice/privacy/required-service-data).
+Dados de serviço necessários são dados que nos permitem fornecer essas experiências conectadas baseadas em nuvem e que ajudam a tornar essas experiências seguras e a funcionarem conforme o esperado. Você pode optar por não oferecer essa funcionalidade a seus usuários; nesse caso, essas informações não serão fornecidas à Microsoft para oferecer suporte à funcionalidade das experiências conectadas. Você pode saber mais sobre os [dados de serviço obrigatórios](/deployoffice/privacy/required-service-data).
 
 ## <a name="essential-services-for-microsoft-teams"></a>Serviços essenciais do Microsoft Teams
 
-Há também um conjunto de serviços essenciais para que o Microsoft 365 Apps para Grandes Empresas funcione bem e tais serviços não podem ser desabilitados. Por exemplo, o serviço de licenciamento que confirma que você está corretamente licenciado para usar o Microsoft 365 Apps para Grandes Empresas. Os dados de serviço necessários sobre esses serviços são coletados e enviados à Microsoft, independentemente de qualquer outra configuração de política.
+Também há um conjunto de serviços que são essenciais para os aplicativos do Microsoft 365 Apps para Grandes Empresas e não podem ser desabilitados. Por exemplo, o serviço de licenciamento que confirma que você está corretamente licenciado para usar o Microsoft 365 Apps para Grandes Empresas. Os dados de serviço necessários sobre esses serviços são coletados e enviados à Microsoft, independentemente de qualquer outra configuração de política.
 
 Para saber mais, confira [Serviços essenciais do Office](/deployoffice/privacy/essential-services).

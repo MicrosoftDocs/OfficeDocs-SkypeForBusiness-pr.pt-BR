@@ -22,12 +22,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c6f6b3cbb80fb209c519593c28077b03e4a13ed9
-ms.sourcegitcommit: ab566ddab9d26440bac1716a975f30e075d0c7b5
-ms.translationtype: HT
+ms.openlocfilehash: 2ce282df27a30f0741a7b95a5400fd5ba6d4e367
+ms.sourcegitcommit: 3840d72f9ad1c0c7803dc3662a0318f558fe92ab
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/14/2021
-ms.locfileid: "49865165"
+ms.lasthandoff: 06/03/2021
+ms.locfileid: "52739541"
 ---
 # <a name="overview-of-teams-and-channels-in-microsoft-teams"></a>Visão geral de equipes e canais no Microsoft Teams
 
@@ -54,12 +54,11 @@ Veja este pequeno vídeo para saber mais sobre as práticas recomendadas para cr
 
    > [!VIDEO https://www.youtube.com/embed/WkAVgNKn0hs]
 
-<a name="membership-roles-and-settings"></a>Associação, funções e configurações
-------------------------------
+## <a name="membership-roles-and-settings"></a>Associação, funções e configurações
 
 **Associação da equipe**
 
-Quando o Microsoft Teams é ativado para toda a organização, os proprietários da equipe designada podem convidar qualquer funcionário com quem trabalham para ingressar na equipe. O Microsoft Teams torna fácil para os proprietários de equipe adicionarem pessoas na empresa baseado nos seus nomes. Dependendo das configurações usadas pela empresa, convidados que são membros da equipe, mas não pertencem à empresa também podem sem adicionados às suas equipes. Veja [Acesso de Convidado no Microsoft Teams](guest-access.md) para obter mais detalhes. 
+Quando o Microsoft Teams é ativado para toda a organização, os proprietários da equipe designada podem convidar qualquer funcionário com quem trabalham para ingressar na equipe. O Microsoft Teams torna fácil para os proprietários de equipe adicionarem pessoas na empresa baseado nos seus nomes. Dependendo das configurações da sua organização, as pessoas de fora da sua organização podem ser adicionadas às suas equipes como convidados. Veja [Acesso de Convidado no Microsoft Teams](guest-access.md) para obter mais detalhes. 
 
 Os proprietários da equipe também podem criar uma equipe baseado em um grupo existente do Microsoft 365. Qualquer alteração feita no grupo será sincronizada automaticamente com o Microsoft Teams. Criar uma equipe baseada em um grupo existente do Microsoft 365, não apenas simplifica o processo de convidar e gerenciar os membros, mas também sincroniza os arquivos do grupo no Microsoft Teams.
 
@@ -71,6 +70,9 @@ Existem duas funções principais no Microsoft Teams:
 - **Membros da equipe** - as pessoas que os proprietários convidam para ingressar na equipe.
 
 Além disso, se a moderação estiver configurada, os proprietários e membros da equipe poderão ter recursos de moderador para um canal. Os moderadores podem iniciar novas postagens no canal e controlar se os membros da equipe podem responder às mensagens existentes do canal. Os proprietários da equipe podem atribuir moderadores em um canal. (Os proprietários da equipe têm recursos de moderador por padrão.) Os moderadores em um canal podem adicionar ou remover outros moderadores nesse canal. Para mais informações, consulte [Configurar e gerenciar a moderação de canal no Microsoft Teams](manage-channel-moderation-in-teams.md).
+
+> [!NOTE]
+> Quando você adiciona um proprietário de equipe, eles também são adicionados como um membro, exceto quando a equipe é criada no centro de administração do Teams ou quando uma equipe é adicionada a um grupo de Microsoft 365 novo ou existente.
 
 **Configurações da equipe** 
 
@@ -86,8 +88,7 @@ Por padrão, todos os usuários têm permissões para criar uma equipe no Micros
 
 Uma atividade importante de planejamento inicial para envolver os usuários com o Microsoft Teams é ajudar as pessoas a pensarem sobre e entenderem como o Teams pode aprimorar a colaboração no dia a dia. Converse com as pessoas e ajude-as a selecionar cenários de negócios em que elas estejam colaborando atualmente de maneira fragmentada. Reúna-os em um canal com as guias relevantes que os ajudarão a realizar seu trabalho. Um dos casos de uso mais eficientes do Microsoft Teams é em qualquer processo multiorganizacional. 
 
-<a name="example-teams"></a>Exemplo do Teams
---------------
+## <a name="example-teams"></a>Exemplo do Teams
 
 Abaixo estão alguns exemplos funcionais de como os diferentes tipos de usuários podem abordar a criação de equipes, canais e aplicativos (guias/conectores/bots). Isso pode ser útil para ajudar a iniciar uma conversa sobre o Microsoft Teams com sua comunidade de usuários. Ao pensar em como implementar o Microsoft Teams em sua organização, lembre-se de fornecer orientações sobre como estruturar suas equipes; no entanto, os usuários têm controle de como eles podem se auto-organizar. São apenas exemplos para ajudar as equipes a começar a pensar nas possibilidades.
 

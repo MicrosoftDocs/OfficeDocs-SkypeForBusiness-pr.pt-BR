@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Saiba mais sobre os atendimentos automáticos e filas de chamada e como usá-los para ajudar os chamadores a passar por um sistema de menus para alcançar pessoas ou departamentos em sua organização.
-ms.openlocfilehash: 1ccce8205afcf019fea539823c21e3a29a2fa206
-ms.sourcegitcommit: d5e77f8a3b8084ed92f0a77888a555626309591b
+ms.openlocfilehash: 51ab11603a957dad9748def3a1508de6e42577f5
+ms.sourcegitcommit: 3840d72f9ad1c0c7803dc3662a0318f558fe92ab
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "52517744"
+ms.lasthandoff: 06/03/2021
+ms.locfileid: "52739631"
 ---
 # <a name="plan-for-teams-auto-attendants-and-call-queues"></a>Planejar Teams atendimentos automáticos e filas de chamada
 
@@ -152,7 +152,7 @@ Quando as chamadas são redirecionadas por um atendimento automático ou fila de
 - **Pessoa na organização** - uma pessoa em sua organização que é capaz de receber chamadas de voz. Pode ser um usuário online ou um usuário hospedado no local usando Skype for Business Server.
 - **Aplicativo de voz** - outro atendimento automático ou uma fila de chamadas. Escolha a conta de recurso associada ao destino.
 - **Número de telefone externo** - qualquer número de telefone. (Consulte [detalhes técnicos de transferência externa](create-a-phone-system-auto-attendant.md#external-phone-number-transfers---technical-details)).
-- **Caixa** postal - a caixa de correio de voz associada a um grupo Microsoft 365 que você especificar.
+- **Caixa** postal - a caixa de correio de voz associada a um grupo Microsoft 365 que você especificar. Você pode escolher se deseja transcrições de caixa postal e o "Por favor, deixe uma mensagem após o tom". prompt do sistema.
 - **Operador** (somente o atendimento automático) - o operador definido para o atendimento automático. Definir um operador é opcional. Um operador pode ser qualquer um dos outros destinos nesta lista.
 
 Os atendimentos automáticos oferecem opções de roteamento de chamadas separadas para chamadas recebidas fora do horário comercial e feriados. O roteamento de chamadas após o horário permite todas as opções listadas acima, enquanto o roteamento de chamadas de feriado permite apenas redirecionar ou desconectar uma chamada, mas nenhuma opção de chave de discagem.

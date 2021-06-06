@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 93a58b878443943b2dbd8322dc710bf59d3827e9
-ms.sourcegitcommit: 6227667c9941cc3289029099b7b6781581f16ea7
+ms.openlocfilehash: 03206c6a1d3a9bfb8a42446e7134ad21689d93cc
+ms.sourcegitcommit: 02e243d6c58eab463a00ed45dadd80112087006e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52569229"
+ms.lasthandoff: 06/02/2021
+ms.locfileid: "52723562"
 ---
 # <a name="required-mobile-diagnostic-data-for-microsoft-teams"></a>Dados de diagnóstico móvel necessários para o Microsoft Teams
 
@@ -109,10 +109,6 @@ O artigo a seguir contém uma lista de eventos do Microsoft Teams para dispositi
   - Números das configurações.
 - **blockChat** - bloqueia um bot do chat. Esse aperfeiçoamento de telemetria existente em conversas só adiciona informações sobre o aplicativo.
 - **botClickCardAction** - uso do cartão do conector.
-- **brbFeedback** - relacionados ao desempenho do formulário de comentários BRB.
-- **brbFormCancelled** - um evento enviado quando o formulário de comentários BRB é cancelado e o usuário retorna para o aplicativo.
-- **brbFormOpened** - um evento enviado quando o formulário BRB é aberto.
-- **brbFormSubmit** - um evento enviado quando o usuário seleciona **Enviar** no formulário de comentários.
 - **breakStartEndClicked** - na tela registrar entrada, o botão **Iniciar** ou **Terminar intervalo** é selecionado.
 - **breakStartEndTriggered** - registro que um usuário decide para usar o início ou o fim do intervalo.
 - **bucketSelected** - confirma que um bucket foi selecionado com êxito.
@@ -348,6 +344,7 @@ O artigo a seguir contém uma lista de eventos do Microsoft Teams para dispositi
 - **companionDismissProximity** - ignore a faixa complementar.
 - **companionJoin** - a opção ingressar como um complemento está selecionada na folha.
 - **companionJoinProximity** - que ingressou pela faixa complementar.
+- **completeVaultFRE** - o usuário conclui o processo de geração de uma chave mestra que é usada para criptografar seus dados do Cofre.
 - **completionStateChange** - acionado quando um botão de filtro concluído ou não concluído é selecionado no modo de exibição de filtro a partir da lista de tarefas.
 - **composeExpandComposer** - botão **Formatar** tocado.
 - **composeFilePick** - o seletor de arquivo nativo é iniciado.
@@ -436,6 +433,7 @@ O artigo a seguir contém uma lista de eventos do Microsoft Teams para dispositi
 - **deleteMeeting** - selecionar o botão **Excluir** na página de detalhes da reunião.
 - **deletePersonalTask** - confirma que uma tarefa pessoal foi excluída com êxito.
 - **deletePersonalSubtask** - confirma que uma subtarefa pessoal foi excluída com êxito.
+- **deletePersonalVaultItem** - o usuário solicita a exclusão de seu Cofre pessoal.
 - **deletePlannerTask** - confirma que uma operação de exclusão de tarefa compartilhada foi concluída com êxito.
 - **deleteShift** - exclusão de turnos.
 - **duration_picker_dismissed** - quando o seletor de duração é ignorado.
@@ -575,6 +573,8 @@ O artigo a seguir contém uma lista de eventos do Microsoft Teams para dispositi
 - **funSelectItem** - imagem Giphy escolhida. Os dados de sucesso do recurso de anexo do giphy no Teams.
 - **galleryImage** - imagem carregada - galeria.
 - **get_directions_clicked** - o botão **Obter instruções** é selecionado.
+- **giphyUserDisabled** - O usuário seleciona para recusar os termos/condições do Giphy.
+- **giphyUserEnabled** - O usuário seleciona para aceitar os termos/condições do Giphy.
 - **goToNotificationSettings** - acesse a página de configurações de notificação na caixa de diálogo **atualizamos as configurações de notificação**.
 - **GPSPromptClicked** - a opção **Permitir** ou **Não Permitir** é selecionada em uma solicitação do sistema operacional. Permintido GPS ou não.
 - **group_map_closed** - um usuário abre a exibição do mapa do chat.
@@ -621,6 +621,7 @@ O artigo a seguir contém uma lista de eventos do Microsoft Teams para dispositi
 - **labelSelected** - confirma que um rótulo foi selecionado com êxito.
 - **labelUnselected** - confirma que um rótulo foi desassociado com êxito.
 - **launchLinksGallery** -quando um usuário entra na galeria de links no painel de controle.
+- **launchSlideshow** - o usuário inicializa o visualizador de imagens em tela cheia do Apresentação de Slides a partir de um dos três possíveis locais de recurso do aplicativo. 
 - **Fonte de inicialização, como direct, link, appShortcut** - inicia diretamente ou por meio de um link (gravação de gerenciamento de aplicativo móvel (MAM) ou telemetria de gerenciamento de dispositivo móvel (MDM) na inicialização do aplicativo para coletar dados para usuários ativos).
 - **leaveChat** - confirmar a saída do chat.
 - **legacyChatLink** - um link é selecionado para um chat herdado.
@@ -660,7 +661,9 @@ O artigo a seguir contém uma lista de eventos do Microsoft Teams para dispositi
 - **location_sharing_stop** - um usuário interrompe o compartilhamento de seu local ao vivo em um chat.
 - **loginFailed** - o usuário não conseguiu fazer login.
 - **loginSuccess** - o usuário conseguiu fazer login.
-- **manageBlockedNumbers** - acessar números bloqueados nas Configurações.
+- **logoutVault** - o usuário sai do aplicativo e, por sua vez, sai do Cofre. 
+- **manageBlockedNumbers** - acessar números bloqueados em Configurações.
+- **manageVaultKey** - o usuário altera sua escolha de gerenciamento da chave do Cofre (MSA versus auto rastreado).
 - **manualSendMessage** - uma mensagem é enviada manualmente.
 - **mapAppPicker** - quando um usuário seleciona o aplicativo de mapeamento a ser usado quando eles tocam em um cartão de local.
 - **markAsRead** - marcar como lida.
@@ -712,6 +715,7 @@ O artigo a seguir contém uma lista de eventos do Microsoft Teams para dispositi
 - **meetingUserFreemium** - um usuário freemium entrou na reunião.
 - **meetingUserGuest** - um usuário convidado entrou na reunião.
 - **meetingUserTenant** - um usuário do locatário entrou na reunião.
+- **memeGenerated** - quando um meme é gerado devido a entrada do usuário de dados de imagem e de texto. 
 - **messageCopyMessage** - copiar a mensagem.
 - **messageDelete** - excluir a mensagem.
 - **messageEditMessage** - editar a mensagem.
@@ -944,6 +948,7 @@ O artigo a seguir contém uma lista de eventos do Microsoft Teams para dispositi
 - **requestToJoinTeam** - solicitar ingresso na equipe (pública ou privada).
 - **requestRequestToJoinTeamError** - erro com a solicitação de ingresso.
 - **requestTypeClicked** - determinar o tipo de solicitação que as pessoas selecionam no seletor de solicitações.
+- **resetLocalVault** - o usuário redefine e limpa todos os dados do Cofre de seu dispositivo.
 - **resolveIssue** - **Resolver** é selecionado no submenu do solucionador de problemas de notificação para navegar até o aplicativo bloqueador.
 - **responseClicked** - um usuário seleciona uma página de resposta.
 - **retryButtonClicked** - o botão **Repetir** é selecionado.
@@ -1007,6 +1012,7 @@ O artigo a seguir contém uma lista de eventos do Microsoft Teams para dispositi
 - **Setting/Dismiss** - configuração de contatos do dispositivo.
 - **settingsNavReadReceiptNotice** - o usuário acessou configurações passando pelo aviso de recursos.
 - **settingsOpened** - isso é acionado quando o fuso horário do dispositivo do usuário não corresponde ao fuso horário da equipe e o usuário vai para as Configurações.
+- **setupPinVault** – o usuário salva um pin do Cofre para a sua conta. 
 - **sharefile** - acionado quando **Compartilhar o arquivo** é selecionado. Também ajuda a verificar se:
   - O usuário conseguiu iniciar a operação de compartilhamento de arquivo.
   - O usuário pode compartilhar um arquivo com êxito.
@@ -1187,6 +1193,8 @@ O artigo a seguir contém uma lista de eventos do Microsoft Teams para dispositi
 - **voicemail - No AS assigned** - um orador toca em um item da caixa postal.
 - **whiteboardUsed** - um usuário anota em um quadro de comunicações (qualquer ação no WebView).
 - **wiki - No AS assigned** - telemetria de uso do wiki.
+- **poorNetworkBanner** - faixa de rede ruim mostrada.
+- **poorNetworkBanner** - faixa de rede inválida mostrada.
 
 ### <a name="panelview"></a>Panelview
 
@@ -1224,6 +1232,11 @@ O artigo a seguir contém uma lista de eventos do Microsoft Teams para dispositi
 > [!NOTE]
 > Para obter informações sobre as propriedades de eventos PanelAction, consulte [Propriedades enviadas com os eventos de cenário](#properties-sent-with-scenario-events).
 
+- **app_incremental_sync_launch** Confirma se a contagem de dados foi atualizada com êxito para inicialização fria.
+- **app_incremental_sync_resume** Confirma se a contagem de dados foi atualizada com êxito para inicialização suave/quente.
+- **app_start_cold** Para monitorar inicialização fria de aplicativo (somente para Android).
+- **app_start_hot** Para monitorar inicialização quente de aplicativo (somente para Android).
+- **app_start_warm** Para monitorar inicialização suave de aplicativo (somente para Android).
 - **chat_add_giphy** - Confirma se a ação de renderização do GIF Giphy foi bem-sucedida ou falhou.
 - **cortanaError** para monitorar o erro ocorrido da Cortana.
 - **cortanaView** – para monitorar o aparecimento da tela da Cortana.
@@ -1278,6 +1291,18 @@ O artigo a seguir contém uma lista de eventos do Microsoft Teams para dispositi
 - **upload_images** Confirma se a ação de carregamento de imagem foi bem-sucedida ou falhou.
 - **upload_voice_messages** Confirma se a ação de carregamento de mensagem de voz foi bem-sucedida ou falhou.
 - **voiceMessageUpload** Confirma se a ação de carregamento da mensagem de voz foi bem-sucedida ou falhou.
+- **cancel_channel_meeting** Confirma se o cancelamento de uma reunião de canal foi bem-sucedida ou falhou.
+- **cancel_meeting** Confirma se o cancelamento de uma reunião foi bem-sucedida ou falhou.
+- **cancel_private_meeting** Confirma se o cancelamento de uma reunião foi bem-sucedida ou falhou.
+- **edit_channel_meeting** Confirma se a operação de edição de uma reunião de canal foi bem-sucedida ou falhou.
+- **edit_meeting** Confirma se a operação de edição de uma reunião foi bem-sucedida ou falhou.
+- **server_fetch_agenda_view** Confirma se a sincronização de eventos do calendário usando a API de Camada Central foi bem-sucedida ou falhou.
+- **server_fetch_date_picker_view** Confirma se a sincronização de eventos do calendário usando a API REST do Outlook foi bem-sucedida ou falhou.
+- **server_fetch_agenda_view_group** Confirma se a sincronização de eventos do calendário usando a API de Camada Central para o grupo TFL foi bem-sucedida ou falhou.
+- **server_fetch_date_picker_view_incremental** Confirma se a sincronização incremental de eventos do calendário usando a API REST do Outlook foi bem-sucedida ou falhou.
+- **meeting_details** Confirma se a sincronização de detalhes da reunião foi bem-sucedida ou falhou.
+- **show_meeting_participants** Confirma se a exibição da lista de participantes da reunião foi bem-sucedida ou falhou.
+
 
 ## <a name="property-lists"></a>Listas de propriedades
 

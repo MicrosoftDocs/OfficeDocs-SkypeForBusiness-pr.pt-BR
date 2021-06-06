@@ -21,12 +21,12 @@ description: O administrador do Teams ou de TI pode configurar o acesso externo 
 appliesto:
 - Microsoft Teams
 localization_priority: Priority
-ms.openlocfilehash: f475fea52e28981e99b1456d52d291473ff8fc50
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 5f472ef2a009a3a0b9b87222d951ef34b65da15a
+ms.sourcegitcommit: f5b6a0fe055e42e06eee21ce311813b5127474ea
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51092259"
+ms.lasthandoff: 06/03/2021
+ms.locfileid: "52741070"
 ---
 # <a name="manage-external-access-in-microsoft-teams"></a>Gerenciar o acesso externo no Microsoft Teams
 
@@ -36,7 +36,7 @@ Se você deseja que pessoas de outras organizações tenham acesso a equipes e c
 
 Usar o acesso externo quando:
   
-- Você tem usuários em domínios diferentes que precisam colaborar. Por exemplo, pedro@contoso.com e eduarda@northwindtraders.com estão trabalhando em um projeto junto com outros nos domínios contoso.com e northwindtraders.com.
+- Você tem usuários em diferentes domínios que precisam trabalhar juntos. Por exemplo, pedro@contoso.com e eduarda@northwindtraders.com estão trabalhando em um projeto junto com outros nos domínios contoso.com e northwindtraders.com.
 
 - Você desejar que as pessoas em sua organização usem o Teams para entrar em contato com pessoas em empresas específicas de fora de sua organização.
 
@@ -48,6 +48,9 @@ Usar o acesso externo quando:
 ## <a name="plan-for-external-access"></a>Planejar o acesso externo
 
 O acesso externo é ativado por padrão no Teams, o que significa que sua organização pode se comunicar com todos os domínios externos. Se adicionar domínios bloqueados, todos os outros domínios serão permitidos; mas se adicionar domínios permitidos, todos os outros domínios serão bloqueados. A exceção a esta regra é se participantes anônimos são permitidos nas reuniões. Existem três cenários para configurar o acesso externo no centro de administração do Teams (**Configurações gerais de organização** > **Acesso externo**):
+
+> [!NOTE]
+> Os usuários do Teams podem adicionar aplicativos ao hospedar reuniões ou chats com pessoas de outras organizações. Eles também podem usar aplicativos compartilhados por pessoas de outras organizações quando ingressarem em reuniões ou chats hospedados por essas organizações. As políticas de dados da organização do usuário de hospedagem, assim como as práticas de compartilhamento de dados de qualquer aplicativo de terceiros compartilhado pela organização desse usuário, serão aplicadas.
 
 > [!NOTE]
 > Se você desabilitar o acesso externo em sua organização, os usuários externos ainda poderão ingressar em reuniões por meio de ingresso anônimo. Para saber mais, veja [Gerenciar configurações de reunião no Teams](./meeting-settings-in-teams.md).
@@ -94,9 +97,9 @@ Para testar sua configuração, você precisa de um usuário do Teams que não s
 
 2. No aplicativo do Teams, pesquise um endereço de email e envie uma solicitação de chat.
 
-3. Peça ao seu contato do Teams para lhe enviar uma solicitação de chat. Se você não receber a solicitação, é porque o problema está nas suas configurações de firewall (pressupondo que seu contato já confirmou que as configurações de firewall dele estão corretas).
+3. Peça ao seu contato do Teams para enviar a você uma solicitação de chat. Se você não receber a solicitação, o problema são as suas configurações de firewall (assumindo que já tenha sido confirmado que as configurações de firewall estão corretas).
 
-4. Outra maneira de testar se o problema está no seu firewall é acessar um local com WiFi não protegido pelo seu firewall, como uma cafeteria, e usar o Teams para enviar uma solicitação de chat ao seu contato. Se conseguir enviar a mensagem usando o WiFi do local e não conseguir fazer o mesmo no seu trabalho, isso quer dizer que o problema está no seu firewall.
+4. Outra maneira de testar se o problema é o firewall, basta usar o WiFi de um lugar que não tenha firewall, como uma cafeteria, e usar o Teams para enviar uma solicitação de chat para um contato. Se a mensagem for enviada de lá, mas não de seu trabalho, então você saberá que o problema é o firewall.
 
 > [!NOTE]
 > Isso funcionará se você e outro usuário habilitarem o acesso externo e permitirem domínios um do outro. Se não funcionar, o outro usuário deve verificar se a configuração que ele está usando está bloqueando o seu domínio.
@@ -124,7 +127,7 @@ As seções a seguir descrevem como habilitar a federação para cenários de ac
 
 Para habilitar que os usuários em sua organização se comuniquem com usuários em outra organização, ambas as organizações devem habilitar a federação. As etapas para habilitar a federação para uma determinada organização dependem se a organização é puramente online, híbrida ou puramente local.
 
-|**Se sua organização é** |**Habilitar a federação como segue**  |
+| Se sua organização for | Habilitar a federação da seguinte forma |
 |:---------|:-----------------------|
 |Online sem Skype for Business no local. Isso inclui organizações que têm usuários TeamsOnly e/ou usuários do Skype for Business Online.| Se estiver usando o Centro de Administração Teams: <br>-   Certifique-se de que **Os usuários podem se comunicar com outros usuários do Skype for Business e Teams** configuração está habilitada em Acesso Externo.<br>- Se você não estiver usando a federação aberta (que permite a federação com qualquer outro domínio), adicione o domínio externo à lista Permitido.<br><br>Se estiver usando PowerShell:<br>- Certifique-se de que o locatário esteja habilitado para federação: `Get-CsTenantFederationConfiguration` deve mostrar `AllowFederatedUsers=true` <br>- Garanta o valor efetivo do usuário de `CsExternalAccessPolicy` tem `EnableFederationAccess=true`.<br>- Se você não estiver usando federação aberta, certifique-se de que o domínio de destino esteja listado em `AllowedDomains` de `CsTenantFederationConfiguration`. |
 |Puro no local | Em ferramentas locais: <br>- Certifique-se de que a federação está habilitada em `CsAccessEdgeConfiguration`.<br>- Certifique-se de que a federação para o usuário está habilitada por meio de `ExternalAccessPolicy` (seja por meio da política global, política do site ou política atribuída pelo usuário). <br> - Se você não estiver usando federação aberta, certifique-se de que o domínio de destino esteja listado em `AllowedDomains`. |
@@ -134,7 +137,7 @@ Para habilitar que os usuários em sua organização se comuniquem com usuários
 
 Os chats e chamadas de entrada de uma organização da federação vão parar no Teams do usuário ou no cliente Skype for Business, dependendo do modo do usuário destinatário na Política de atualização de equipes.
 
-|**Se você quiser** |**Fazem isto:**  |
+| Se você quiser | Faça o seguinte: |
 |:---------|:-----------------------|
 | Garanta que os chats e chamadas federados de entrada cheguem ao cliente Teams do usuário: | Configure seus usuários para serem TeamsOnly.
 | Garanta que os chats e chamadas federados de entrada cheguem ao cliente Skype for Business do usuário | Configure seus usuários para estarem em qualquer modo diferente de TeamsOnly. |
@@ -144,7 +147,7 @@ Os chats e chamadas de entrada de uma organização da federação vão parar no
 
 Para habilitar a federação entre usuários em sua organização e usuários consumidores do Skype:
 
-|**Se sua organização é** |**Habilite a federação do consumidor da seguinte maneira**  |
+| Se sua organização for | Habilitar a federação do consumidor da seguinte forma |
 |:---------|:-----------------------|
 | Puro online, sem Skype for Business local.  Isso inclui organizações que têm usuários TeamsOnly e/ou usuários do Skype for Business Online. | Se estiver usando o Centro de Administração Teams: <br>No Acesso Externo, ative a configuração **Os usuários podem se comunicar com usuários do Skype**.<br><br>Se estiver usando PowerShell: <br>- Certifique-se de que o locatário está habilitado para federação: `Get-CsTenantFederationConfiguration` deve mostrar `AllowPublicUsers=true`. <br> - Garanta o valor efetivo do usuário de `CsExternalAccessPolicy` tem `EnablePublicCloudAccess=true`. |
 | Puro no local | Em ferramentas locais: <br> - Certifique-se de que o Skype está habilitado como parceiro federado. <br> - Garantir `EnablePublicCloudAccess=true` para o usuário por meio de `ExternalAccessPolicy` (por meio de política global, política do site ou política atribuída pelo usuário).|

@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Saiba como configurar filas de chamada para grandes organizações no Microsoft Teams, que fornece uma mensagem de saudação, música de espera, redirecionamento de chamada e outros recursos.
-ms.openlocfilehash: 73b0e0c6c73b86e544ade5a43756e2e80c60c25a
-ms.sourcegitcommit: 90615674e9703aa5ea32be64ab3638aa30e83127
+ms.openlocfilehash: fe0c2863c627f728f5418cfeb9b7b17c91d246fa
+ms.sourcegitcommit: 17d0108fb4d36a3f56144460683f53d77a8a0a7f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/02/2021
-ms.locfileid: "52717872"
+ms.lasthandoff: 06/05/2021
+ms.locfileid: "52777922"
 ---
 # <a name="create-a-call-queue"></a>Criar uma fila de chamadas
 
@@ -60,17 +60,33 @@ Este vídeo mostra um exemplo básico de como criar uma fila de chamada no Teams
 
 Para configurar uma fila de chamadas, no Centro de administração do Teams, expanda **Voz**, clique em **Filas de chamadas** e, em seguida, clique em **Adicionar**.
 
-### <a name="resource-account-and-language"></a>Idioma e conta de recurso
+Digite um nome para a fila de chamadas.
 
-![Captura de tela das configurações de idioma e da conta de recurso](media/call-queue-name-language.png)
+### <a name="resource-accounts"></a>Contas de recursos
 
-1. Digite um nome para a fila de chamadas.
+![Captura de tela das configurações da conta de recurso](media/call-queue-name-language.png)
 
-2. Clique em **Adicionar contas**, procure a conta de recurso que você deseja usar com a fila de chamadas, clique em **Adicionar** e, em seguida, clique em **Adicionar**. (Os agentes verão o nome da conta de recurso quando receberem uma chamada de entrada.)
+Clique em **Adicionar contas**, procure a conta de recurso que você deseja usar com a fila de chamadas, clique em **Adicionar** e, em seguida, clique em **Adicionar**. (Os agentes verão o nome da conta de recurso quando receberem uma chamada de entrada.)
 
-3. Escolha um [idioma com suporte](create-a-phone-system-call-queue-languages.md). Esse idioma será usado para comandos de voz gerados pelo sistema e para a transcrição da caixa postal (se habilitados).
+### <a name="assign-calling-id"></a>Atribuir ID de chamada
+
+![Captura de tela das configurações de ID de chamada](media/call-queue-assign-calling-id.png)
+
+Se você planeja usar um canal Teams para seus agentes de chamada, pode atribuir um número de ID do chamador de saída para os agentes especificando uma ou mais contas de recurso com um número de telefone.
+
+Clique **em** Adicionar , pesquise as contas de recurso que você deseja permitir que os agentes para fins de ID de chamada ao fazer chamadas de saída, clique em Adicionar **e** em **Adicionar**.
+
+Se você não estiver usando um canal Teams para controlar a associação de agentes, considere definir diretamente a ID do chamador para membros da fila de chamada para o número de serviço da fila de chamada ou o atendimento automático apropriado. Para mais informações, confira [Gerenciar políticas de identificação de chamadas no Microsoft Teams](caller-id-policies.md).
+
+### <a name="language"></a>Linguagem
+
+![Captura de tela das configurações de idioma](media/call-queue-language.png)
+
+Escolha um [idioma com suporte](create-a-phone-system-call-queue-languages.md). Esse idioma será usado para comandos de voz gerados pelo sistema e para a transcrição da caixa postal (se habilitados).
 
 ### <a name="greetings-and-music-on-hold-in-queue"></a>Saudações e música de espera na fila
+
+![Captura de tela de saudações e música em espera nas configurações de fila](media/call-queue-greetings-music.png)
 
 Especifique se você deseja reproduzir uma saudação aos chamadores quando eles chegarem na fila. Carregue um arquivo MP3, WAV ou WMA contendo a saudação que deseja reproduzir.
 
@@ -136,10 +152,12 @@ O **método de roteamento** determina a ordem na qual os agentes recebem chamada
 
 ![Captura de tela das configurações de roteamento, recusa e tempo de alerta](media/call-queue-presence-agents-time.png)
 
-
 O **Roteamento baseado em presença** usa o status de disponibilidade dos agentes de chamada para determinar se um agente deve ser incluído na lista de roteamento de chamadas para o método de roteamento selecionado. Os agentes de chamada cujo status de disponibilidade está definido como **Disponível**, estão incluídos na lista de roteamento de chamadas e podem receber chamadas. Os agentes cujo status de disponibilidade está definido com qualquer outro status, são excluídos da lista de roteamento de chamadas e não receberão chamadas até que seu status de disponibilidade volte para **Disponível**. 
 
 Habilite o roteamento de chamadas baseado em presença com qualquer um dos métodos de roteamento.
+
+> [!NOTE]
+> Quando **ocioso** mais longo é selecionado como o método de roteamento, o roteamento  baseado em presença é necessário e automaticamente habilitado, mesmo que a alternância de roteamento baseada em presença seja desligada e acinzenada.
 
 Se um agente optar por não receber chamadas, ele não será incluído na lista de roteamento de chamadas, independentemente do status de disponibilidade definido. 
 
@@ -178,10 +196,6 @@ Você pode optar por desconectar a chamada ou redirecioná-la para qualquer um d
 Você pode optar por desconectar a chamada ou redirecioná-la para um dos destinos de roteamento de chamadas. Por exemplo, você pode pedir ao chamador que deixe uma mensagem de voz para os agentes na fila. Para transferências externas, consulte [Pré-requisitos](plan-auto-attendant-call-queue.md#prerequisites) e [transferências de números de telefone externos – detalhes técnicos](create-a-phone-system-auto-attendant.md#external-phone-number-transfers---technical-details) para formatação de números.
 
 Quando você tiver selecionado as opções de tempo limite de chamada, clique em **Salvar**.
-
-## <a name="caller-id-for-outbound-calls"></a>Identificação de Chamadas para chamadas de saída
-
-Como os agentes em uma fila de chamadas podem discar para retornar uma chamada do cliente, considere configurar a identificação de chamadas dos membros de uma fila de chamadas para o número de serviço de um atendedor automático apropriado. Para mais informações, confira [Gerenciar políticas de identificação de chamadas no Microsoft Teams](caller-id-policies.md).
 
 ## <a name="supported-clients"></a>Clientes com suporte
 

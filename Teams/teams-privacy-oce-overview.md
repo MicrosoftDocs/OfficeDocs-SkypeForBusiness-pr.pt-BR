@@ -14,19 +14,21 @@ search.appverid: MET150
 description: Este artigo descreve as experiências conectadas opcionais que você verá no Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 228a14c29d082037de1bbcd1f9f5ee45e3a35728
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 49b2cf94f660b7935ae61aadf21bdb9a7a78fb21
+ms.sourcegitcommit: 17d0108fb4d36a3f56144460683f53d77a8a0a7f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51094071"
+ms.lasthandoff: 06/05/2021
+ms.locfileid: "52777882"
 ---
 # <a name="overview-of-optional-connected-experiences-in-microsoft-teams"></a>Visão geral das experiências conectadas opcionais no Microsoft Teams
 
 Se você tiver uma conta corporativa ou de estudante, o administrador da sua organização poderá fornecer a você a capacidade de usar um ou mais serviços baseados em nuvem (também chamados de **"experiências conectadas opcionais"**) ao usar o Microsoft Teams, como GIPHY e/ou o serviço de Prévia de URL. Esses serviços baseados em nuvem são opcionais. O uso deles é uma escolha sua. Eles são oferecidas para você em termos diferentes dos [Termos de Serviço Online da Microsoft](https://www.microsoft.com/licensing/product-licensing/products), conforme descrito separadamente para cada serviço opcional. Este artigo lista os serviços do Teams com suporte à nuvem.
 
+Se o administrador tiver dado a você a capacidade de usar experiências conectadas opcionais no Teams, você poderá acessar **Configurações** > **Privacidade** no Teams e escolher se deseja usar experiências conectadas opcionais.
+
 > [!NOTE]
-> Se você é um administrador, confira o artigo [Gerenciar controles de privacidade](/deployoffice/privacy/manage-privacy-controls) para saber como fornecer ou restringir a capacidade de seus usuários de usar experiências conectadas opcionais.
+> Se for um administrador, você poderá dar ou restringir a capacidade dos usuários de usar experiências conectadas opcionais. Você pode fazer isso usando o [serviço de política de nuvem do Office](/deployoffice/overview-office-cloud-policy-service) e configurando o *Permitir o uso de experiências conectadas opcionais adicionais na configuração de política do Office*. 
 
 ## <a name="giphy"></a>GIPHY
 
@@ -42,8 +44,8 @@ O serviço de visualização de URL gera, automaticamente, um trecho de visualiz
 
 ## <a name="related-articles"></a>Artigos relacionados
 
-- [Visão geral dos controles de privacidade do Microsoft 365 Apps para Grandes Empresas](/deployoffice/privacy/overview-privacy-controls)
 - [Visão geral de controles de política para o Teams](policy-control-overview.md)
 - [Privacidade e Microsoft Teams](teams-privacy.md)
+- [Visão geral das experiências conectadas opcionais no Office](/deployoffice/privacy/optional-connected-experiences)
 - [Dados de serviço necessários para o Office](/deployoffice/privacy/required-service-data)
 - [Configurações de Privacidade da Conta](https://support.microsoft.com/office/3e7bc183-bf52-4fd0-8e6b-78978f7f121b)

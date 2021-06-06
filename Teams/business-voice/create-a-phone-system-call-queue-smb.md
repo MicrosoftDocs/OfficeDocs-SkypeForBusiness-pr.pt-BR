@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.callqueues.overview"
 - Phone System
 description: Saiba como configurar filas de chamada para pequenas empresas em Microsoft 365 Business Voice.
-ms.openlocfilehash: 755c4914271c96cdd668bb2933872ebf1fa21b94
-ms.sourcegitcommit: 330e60ff3549cd5cff5b52ad95dc4259e4e8de13
+ms.openlocfilehash: be6c53855a6d32f8348f02b18ac3074388dafc88
+ms.sourcegitcommit: 3840d72f9ad1c0c7803dc3662a0318f558fe92ab
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52629050"
+ms.lasthandoff: 06/03/2021
+ms.locfileid: "52739663"
 ---
 # <a name="create-a-call-queue---small-business-tutorial"></a>Criar uma fila de chamada - tutorial de pequenas empresas
 
@@ -136,9 +136,13 @@ Em seguida, vamos começar a criar uma nova fila de chamada e atribuir a conta d
 
 2. Clique em **Adicionar contas**, procure a conta de recurso que você deseja usar com a fila de chamadas, clique em **Adicionar** e, em seguida, clique em **Adicionar**.
 
+3. (Opcional) Em **Atribuir ID** de chamada, clique em **Adicionar**, pesquisar as contas de recurso que você criou para o seu assistente automático, clique em Adicionar **e** clique em **Adicionar**. Isso dará aos seus agentes de chamada a ID do chamador da sua linha principal quando eles chamarem.
+
+    ![Captura de tela das configurações de ID de chamada](../media/call-queue-assign-calling-id.png)
+
 3. Escolha um idioma. Esse idioma será usado para comandos de voz gerados pelo sistema e para a transcrição da caixa postal (se habilitados).
 
-    ![Captura de tela das configurações de idioma e da conta de recurso](../media/call-queue-name-language.png)
+    ![Captura de tela das configurações da conta de recurso](../media/call-queue-name-language.png)
 
 4. Especifique se você deseja reproduzir uma saudação aos chamadores quando eles chegarem na fila. Carregue um arquivo MP3, WAV ou WMA contendo a saudação que deseja reproduzir.
 

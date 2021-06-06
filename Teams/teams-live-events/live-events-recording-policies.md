@@ -17,12 +17,12 @@ description: Saiba mais sobre políticas de gravação de eventos ao vivo.
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: f9654c139433ffa764767e0a2140896eab52204b
-ms.sourcegitcommit: 56bebf42f545af57fdf387faa90e555abc8acd40
+ms.openlocfilehash: 8d25f37f94a514b83bd37e44d1b022bac064a839
+ms.sourcegitcommit: 3840d72f9ad1c0c7803dc3662a0318f558fe92ab
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "52513844"
+ms.lasthandoff: 06/03/2021
+ms.locfileid: "52739651"
 ---
 # <a name="live-event-recording-policies-in-microsoft-teams"></a>Políticas de gravação de eventos ao vivo Microsoft Teams
 
@@ -58,7 +58,7 @@ Como parte da política de transmissão, há uma configuração que você pode a
 
 | Opção                                       | Estado   | DVR                                                   | VOD                                                     | Gravando                |
 | ------------------------------------------------ | ------------ | --------------------------------------------------------- | ----------------------------------------------------------- | ---------------------------- |
-| Gravação disponível para produtores e apresentadores | Selecionado     | O DVR está disponível e o ativo Serviços de Mídia do Azure (AMS) é armazenado por 180 dias | O participante pode acessar e assistir ao evento                     |                              |
+| Gravação disponível para participantes | Selecionado     | O DVR está disponível e o ativo Serviços de Mídia do Azure (AMS) é armazenado por 180 dias | O participante pode acessar e assistir ao evento                     |                              |
 |                                                  | Não Selecionado | O DVR está disponível e o ativo AMS é armazenado por 180 dias | O participante não terá acesso ao evento após o fim |                              |
 ||Desabilitado (Não selecionado)|DVR está disponível e o ativo AMS é excluído após o evento|O participante não terá acesso ao evento após o fim||
 | Gravação disponível para produtores e apresentadores | Selecionado     |                                                           |                                                             | Um MP4 é criado e armazenado |

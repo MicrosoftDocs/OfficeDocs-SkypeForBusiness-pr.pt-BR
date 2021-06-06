@@ -82,7 +82,7 @@ Para configurar um atendimento automático
 
 4. Especifique o fuso horário desse atendimento automático. O fuso horário é usado para calcular o horário comercial se você criar um fluxo de chamada separado para depois do horário.
 
-5. Especifique um idioma para esse atendimento automático. Esse é o idioma que será usado para prompts de voz gerados pelo sistema.
+5. [Especifique um idioma com suporte](../create-a-phone-system-auto-attendant-languages.md) para esse atendimento automático. Esse é o idioma que será usado para prompts de voz gerados pelo sistema. 
 
 6. Escolha se deseja habilitar entradas de voz. Quando habilitada, o nome de cada opção de menu se torna uma palavra-chave de reconhecimento de fala. Por exemplo, os chamadores podem dizer "Um" para selecionar a opção de menu mapeada para a tecla 1 ou podem dizer "Vendas" para selecionar a opção de menu chamada "Vendas".
 
@@ -122,7 +122,7 @@ Escolha suas opções de fluxo de chamada
     - **Pessoa na organização** - uma pessoa em sua organização que é capaz de receber chamadas de voz.
     - **Aplicativo de voz** - outro atendimento automático ou uma fila de chamadas.
     - **Número de telefone externo** - qualquer número de telefone. Use este formato: +[código do país][código de área][número de telefone]
-    - **Caixa** postal - a caixa de correio de voz associada a um grupo Microsoft 365 que você especificar.
+    - **Caixa** postal - a caixa de correio de voz associada a um grupo Microsoft 365 que você especificar. Você pode escolher se deseja transcrições de caixa postal e o "Por favor, deixe uma mensagem após o tom". prompt do sistema.
     - **Operador** - o operador definido para o atendimento automático. Definir um operador é opcional. O operador pode ser definido como qualquer um dos outros destinos nesta lista.
 
     Recomendamos a configuração de 0 tecla para o operador.
