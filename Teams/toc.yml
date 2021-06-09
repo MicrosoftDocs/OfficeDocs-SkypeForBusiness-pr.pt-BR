@@ -827,10 +827,12 @@ items:
             items:
               - name: Configurar a Caixa Costal na Nuvem
                 href: set-up-phone-system-voicemail.md
+              - name: Gerenciar políticas de Caixa Postal
+                href: manage-voicemail-policies.md
               - name: Alterar o idioma padrão da caixa postal
                 href: change-the-default-language-for-greetings-and-emails.md
               - name: Idiomas de mensagens e saudações da caixa postal
-                href: languages-for-voicemail-greetings-and-messages.md
+                href: languages-for-voicemail-greetings-and-messages-teams.md
           - name: Identificação de chamadas
             items:
               - name: Como a identificação de chamada pode ser usada em sua organização
