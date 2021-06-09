@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c92f4d0bf3e72f79687fa151567052934b49ba55
-ms.sourcegitcommit: a628b22c9a0ef3bcd7dee3f308a79b4c427872cc
+ms.openlocfilehash: f204869bf068350bdc49801654f84856f32a44a0
+ms.sourcegitcommit: 8ad05b37c0b714adb069bc2503e88366ab75c57d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/14/2021
-ms.locfileid: "52491788"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "52796625"
 ---
 # <a name="use-onedrive-for-business-and-sharepoint-or-stream-for-meeting-recordings"></a>Usar o OneDrive for Business e o SharePoint ou o Stream para gravações de reunião
 
@@ -153,7 +153,6 @@ Como vídeos são como qualquer outro arquivo no OneDrive for Business e no Shar
 
 > [!NOTE]
 > Você não receberá um email quando a gravação terminar de salvar, mas a gravação aparecerá no chat da reunião depois que terminar. Isso acontecerá muito mais rápido do que no Stream anteriormente.
-> Você pode controlar com quem compartilhar a gravação, mas não poderá impedir que pessoas com acesso compartilhado baixem a gravação.  
 
 **Como posso gerenciar as legendas?**
 

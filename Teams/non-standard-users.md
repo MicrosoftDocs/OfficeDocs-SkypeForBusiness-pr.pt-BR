@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 50ab15d188f2f8a198f59446a0bd5fd8015d0c74
-ms.sourcegitcommit: 592e5a0638c7739dfaa3565b67d4edc621eebc9f
+ms.openlocfilehash: d7b79371cdc8ff5109bf67b1c78639106a83a95e
+ms.sourcegitcommit: 8ad05b37c0b714adb069bc2503e88366ab75c57d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/26/2021
-ms.locfileid: "52656024"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "52796638"
 ---
 # <a name="microsoft-teams-apps-behavior-for-non-standard-users"></a>Microsoft Teams de aplicativos para usuários não padrão
 
@@ -63,13 +63,13 @@ Os bots podem enviar mensagens proativas aos usuários convidados, mas os convid
 
 ### <a name="install-update-and-delete-for-external-users"></a>Instalar, atualizar e excluir usuários externos
 
-Os usuários externos não podem instalar, atualizar ou excluir aplicativos em qualquer contexto, como um pessoal, chat, canal ou reunião. Eles não têm acesso ao Teams app store.
+Os usuários externos não podem instalar, atualizar ou excluir aplicativos em qualquer contexto, como um pessoal, chat, canal ou reunião. Eles não têm acesso ao Teams de aplicativos da organização de hospedagem.
 
 ### <a name="usage-behavior-and-policy-for-external-users"></a>Comportamento e política de uso para usuários externos
 
-- As pessoas de outras organizações aderem à política de permissão de usuário padrão da organização de hospedagem e às configurações de toda a organização.
-- Os usuários na organização de hospedagem podem adicionar aplicativos em chats de reunião com pessoas de outras organizações. As pessoas de outras organizações não podem adicionar aplicativos em chats de reunião, mas podem interagir com bots e guias depois de adicionados ao chat.
-- Depois que um bot é instalado em um chat, ele pode se comunicar proativamente com pessoas de outras organizações nesse chat e essas pessoas podem se comunicar com o bot.
+- Pessoas de outras organizações aderem à política global (padrão em toda a organização) da organização de hospedagem
+- Os usuários na organização de hospedagem podem adicionar aplicativos em chats de reunião com pessoas de outras organizações. As pessoas de outras organizações não podem adicionar aplicativos em chats de reunião, mas podem interagir com bots, guias e extensões de mensagens depois de adicionadas ao chat.
+- Depois que um bot é instalado em um chat de reunião, ele pode se comunicar proativamente com pessoas de outras organizações nesse chat e essas pessoas podem se comunicar com o bot.
 - As políticas de dados da organização de hospedagem, bem como as práticas de compartilhamento de dados de quaisquer aplicativos de terceiros compartilhados pela organização desse usuário, são aplicadas.
 
 ## <a name="anonymous-users"></a>Usuários anônimos

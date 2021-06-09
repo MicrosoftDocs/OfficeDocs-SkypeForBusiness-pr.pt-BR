@@ -18,12 +18,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Saiba como personalizar aplicativos em Microsoft Teams.
-ms.openlocfilehash: dbf92ec3899599f732f2898f042f51f30f91f15b
-ms.sourcegitcommit: 36924dc54fe7b09607b07d7543fe7e39eb4d2483
+ms.openlocfilehash: 6ef38c613151ece58591cf395add35276cb55c03
+ms.sourcegitcommit: 8ad05b37c0b714adb069bc2503e88366ab75c57d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "52684588"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "52796855"
 ---
 # <a name="customize-apps-in-microsoft-teams"></a>Personalizar aplicativos no Microsoft Teams
 
@@ -111,6 +111,7 @@ A observação a seguir inclui detalhes importantes sobre como personalizar um a
 > - Os dados de personalização fornecidos pelo administrador são armazenados na região mais próxima.
 > - Você é responsável por garantir que os links para termos de uso ou política de privacidade sejam válidos.
 > - Caso o editor de aplicativos não permita mais que um campo seja personalizável, uma mensagem será exibida na página de detalhes do aplicativo notificando o administrador sobre os campos que não podem mais ser personalizados. Todas as alterações feitas nesse campo serão revertidas para os valores originais.
+> - Recomendamos testar as alterações de personalização do aplicativo em um Teams de teste antes de fazer essas alterações em seu ambiente de produção.
 > - As alterações na identidade visual podem exigir até 24 horas para os usuários verem as alterações.
 
 ## <a name="review-app-details"></a>Revisar detalhes do aplicativo

@@ -21,12 +21,12 @@ searchScope:
 - Microsoft Teams
 - Microsoft Cloud for Healthcare
 description: Saiba como usar e gerenciar pacotes de política do Teams para sua organização da área de saúde.
-ms.openlocfilehash: 830b8fc5f6938f84f188f5f5d732a3ecfd6eb5b1
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
-ms.translationtype: HT
+ms.openlocfilehash: 19c0fee14138b248c4e25d88a9103df4a5618598
+ms.sourcegitcommit: 8ad05b37c0b714adb069bc2503e88366ab75c57d
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117759"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "52796805"
 ---
 # <a name="teams-policy-packages-for-healthcare"></a>Pacotes de políticas do Teams para a área de saúde
 
@@ -86,6 +86,9 @@ Lembre-se de que você também pode alterar as configurações das políticas em
 
 Atribua o pacote de política aos usuários. Se um usuário tiver uma política atribuída e, mais tarde, você atribuir uma política diferente, a atribuição mais recente terá prioridade.
 
+> [!NOTE]
+> Cada usuário exigirá o complemento Comunicações Avançadas para receber uma atribuição de pacote de política personalizada. Para obter mais informações, consulte [Advanced Communications add-on for Microsoft Teams](/microsoftteams/teams-add-on-licensing/advanced-communications).
+
 #### <a name="assign-a-policy-package-to-one-or-several-users"></a>Atribuir um pacote de política a um ou vários usuários
 
 Para atribuir um pacote de política a um ou vários usuários, na barra de navegação à esquerda do centro de administração do Microsoft Teams, vá para **Pacotes de política** e, em seguida, selecione **Gerenciar usuários**.  
@@ -114,4 +117,4 @@ Um lote pode conter até 5.000 usuários. Você pode especificar os usuários po
 
 [Gerenciar pacotes de política em equipes](manage-policy-packages.md)
 
-[Atribua políticas a seus usuários no Teams](assign-policies.md)
+[Atribuir pacotes de política a usuários e grupos](assign-policy-packages.md)

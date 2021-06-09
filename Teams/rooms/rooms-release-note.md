@@ -1,5 +1,5 @@
 ---
-title: Notas de versão
+title: Notas de versão para Salas do Microsoft Teams
 ms.author: dstrome
 author: dstrome
 ms.reviewer: sohailta
@@ -14,14 +14,14 @@ ms.collection:
 - M365-collaboration
 description: O administrador pode ler as notas de versão Salas do Microsoft Teams, que listam melhorias cumulativas Salas do Microsoft Teams.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: e9911061cd3b461c014a184a0ffb1df4d0f49e02
-ms.sourcegitcommit: 50ec59b454e751d952cde9fd13c8017529d0e1d6
+ms.openlocfilehash: 6d44d8a854a3aa4d66d7ecec346db24db2cfd6c1
+ms.sourcegitcommit: 8ad05b37c0b714adb069bc2503e88366ab75c57d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/13/2021
-ms.locfileid: "52469543"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "52796845"
 ---
-# <a name="release-notes"></a>Notas de versão
+# <a name="release-notes-for-microsoft-teams-rooms"></a>Notas de versão para Salas do Microsoft Teams
 
 Este artigo discute melhorias cumulativas no Salas do Microsoft Teams.
 

@@ -1,7 +1,7 @@
 ---
 title: Considerações da PSTN ao atualizar para Teams de Skype for Business
-author: msdmaguire
-ms.author: dmaguire
+author: dstrome
+ms.author: dstrome
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1d2a33b408ffbb4154ce6e872ae9e1e9bb48dd67
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: f4024e62c90ef99f3280d5aec15cd718b3d2b6de
+ms.sourcegitcommit: 8ad05b37c0b714adb069bc2503e88366ab75c57d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52240501"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "52796815"
 ---
 # <a name="pstn-considerations-for-upgrading-to-teams-from-skype-for-business-on-premises"></a>Considerações do PSTN para atualizar para Teams de Skype for Business local
 
@@ -38,7 +38,9 @@ Além disso, os artigos a seguir descrevem conceitos de atualização importante
 
 
  > [!NOTE]
- > - O Sistema de Telefonia com Teams só é suportado quando o usuário está no modo TeamsOnly.  Se o usuário estiver no modo Ilhas, Sistema de Telefonia só será suportado com Skype for Business. 
+ > - O Sistema de Telefonia com Teams só é suportado quando a conta do usuário recebe uma política de atualização Teams com o modo Somente Teams.  
+ > - O Sistema de Telefonia com Skype for Business só é suportado quando a conta do usuário recebe uma política de atualização Teams com um modo SfB. 
+ > - Sistema de Telefonia não é suportado quando a conta do usuário recebe uma política de atualização Teams com o modo Ilhas.
  > - Qualquer encaminhamento de chamada, grupo de chamada de equipe e configurações de delegação de Skype for Business não são migradas e precisarão ser recriadas para Teams.
  > - Para uma visão geral dos Microsoft Teams de voz na nuvem e ajude a decidir qual solução de voz da Microsoft é ideal para sua organização, consulte [Plan your Teams voice solution](cloud-voice-landing-page.md).
 

@@ -21,12 +21,12 @@ ms.custom: ms.teamsadmincenter.policypackages.overview
 localization_priority: Priority
 search.appverid: MET150
 description: Saiba mais sobre políticas em uma configuração EDU ou educacional e como usar e gerenciar pacotes de políticas no Microsoft Teams.
-ms.openlocfilehash: 10b87a804523758df69a68ff9c5812a6ea5b448c
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: a23c54003f700b3d6dc3e0c45cbbc9ee42a311ed
+ms.sourcegitcommit: 8ad05b37c0b714adb069bc2503e88366ab75c57d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117789"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "52796835"
 ---
 # <a name="teams-policies-and-policy-packages-for-education"></a>Políticas do Teams e pacotes de políticas para Educação
 
@@ -54,7 +54,7 @@ Você pode gerenciar todas as políticas do Teams no [centro de administração 
 
 ### <a name="where-to-find-microsoft-teams-policies"></a>Onde encontrar as políticas do Microsoft Teams
 
-Depois de fazer logon no centro de administração do Teams, você poderá acessar as configurações de políticas de qualquer área do Teams que você precisa gerenciar, clicando na opção de política na navegação à esquerda do centro de administração do Teams. Incluímos uma captura de tela do local das políticas de mensagens.
+Depois de fazer o logon no Centro de administração do Teams, você poderá acessar as configurações de política de qualquer área do Teams que precise gerenciar, clicando na opção de política na navegação à esquerda do centro de administração do Teams. Incluímos uma captura de tela da localização das políticas de mensagens.
 
 :::image type="content" source="media/edu-messaging-policies.png" alt-text="Local da política de mensagens no centro de administração do Teams.":::
 
@@ -169,7 +169,10 @@ Lembre-se de que você também pode alterar as configurações das políticas em
 
 ### <a name="assign"></a>Atribuir
 
-Atribua o pacote de política aos usuários. Se um usuário tiver uma política atribuída e, em seguida, você atribuir uma política diferente, a atribuição mais recente terá prioridade.
+Atribua o pacote de política aos usuários. Se um usuário tiver uma política atribuída e, mais tarde, você atribuir uma política diferente, a atribuição mais recente terá prioridade.
+
+> [!NOTE]
+> Cada usuário exigirá o complemento de Comunicações Avançadas para receber uma atribuição de pacote de políticas personalizadas. Para obter mais informações, consulte [Complemento de Comunicações Avançadas para o Microsoft Teams ](/microsoftteams/teams-add-on-licensing/advanced-communications).
 
 #### <a name="assign-a-policy-package-to-one-or-several-users"></a>Atribuir um pacote de política a um ou vários usuários
 

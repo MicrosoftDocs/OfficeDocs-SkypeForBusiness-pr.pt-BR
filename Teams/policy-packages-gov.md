@@ -1,5 +1,5 @@
 ---
-title: Pacotes de política do Teams para o governo
+title: Teams de política para o governo
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -16,18 +16,18 @@ f1.keywords: ''
 ms.custom: ''
 localization_priority: Normal
 search.appverid: MET150
-description: Saiba como usar e gerenciar pacotes de política do Teams para sua organização governamental.
-ms.openlocfilehash: 891d8762a914a003e3707d8f5eab29b3d8d916c9
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Saiba como usar e gerenciar pacotes de Teams de política para sua organização governamental.
+ms.openlocfilehash: 41ae937323b37948c03128efd565f40c02bbd6a2
+ms.sourcegitcommit: 8ad05b37c0b714adb069bc2503e88366ab75c57d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117769"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "52796865"
 ---
-# <a name="teams-policy-packages-for-government"></a>Pacotes de política do Teams para o governo
+# <a name="teams-policy-packages-for-government"></a>Teams de política para o governo
 
 > [!NOTE]
-> No momento, os pacotes de política não estão disponíveis em implantações do Microsoft 365 Government GCC High ou DoD.
+> No momento, os pacotes de política não estão disponíveis Microsoft 365 implantações GCC Alta ou DoD.
 
 ## <a name="overview"></a>Visão Geral
 
@@ -41,7 +41,7 @@ Pacotes de política pré-definem políticas para o seguinte, dependendo do paco
 - Configuração do aplicativo
 - Eventos ao vivo
 
-Atualmente, o Teams inclui os seguintes pacotes de política para o governo.
+Teams atualmente inclui os seguintes pacotes de política para o governo.
 
 |Nome do pacote listado no Centro de Administração do Microsoft Teams|Melhor usado para|Descrição |
 |---------|---------|---------|
@@ -71,7 +71,10 @@ Lembre-se de que você também pode alterar as configurações das políticas em
 
 ### <a name="assign"></a>Atribuir
 
-Atribua o pacote de política aos usuários. Se um usuário tiver uma política atribuída e, em seguida, você atribuir uma política diferente, a atribuição mais recente terá prioridade.
+Atribua o pacote de política aos usuários. Se um usuário tiver uma política atribuída e, mais tarde, você atribuir uma política diferente, a atribuição mais recente terá prioridade.
+
+> [!NOTE]
+> Cada usuário exigirá o complemento Comunicações Avançadas para receber uma atribuição de pacote de política personalizada. Para obter mais informações, consulte [Advanced Communications add-on for Microsoft Teams](/microsoftteams/teams-add-on-licensing/advanced-communications).
 
 #### <a name="assign-a-policy-package-to-one-or-several-users"></a>Atribuir um pacote de política a um ou vários usuários
 
@@ -101,4 +104,4 @@ Um lote pode conter até 5.000 usuários. Você pode especificar os usuários po
 
 [Gerenciar pacotes de política em equipes](manage-policy-packages.md)
 
-[Atribua políticas a seus usuários no Teams](assign-policies.md)
+[Atribuir pacotes de política a usuários e grupos](assign-policy-packages.md)
