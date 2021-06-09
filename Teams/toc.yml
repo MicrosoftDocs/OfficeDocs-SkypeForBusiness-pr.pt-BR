@@ -481,8 +481,6 @@ items:
         href: teams-policies.md
       - name: Configurar a moderação de canal no Teams
         href: manage-channel-moderation-in-teams.md
-      - name: Compartilhando arquivos no Teams
-        href: sharing-files-in-teams.md
       - name: Integração de emails do Teams e Outlook
         href: teams-outlook-email-integration.md
       - name: Compartilhar para o Teams a partir do Outlook
