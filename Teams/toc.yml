@@ -832,7 +832,7 @@ items:
               - name: Alterar o idioma padrão da caixa postal
                 href: change-the-default-language-for-greetings-and-emails.md
               - name: Idiomas de mensagens e saudações da caixa postal
-                href: languages-for-voicemail-greetings-and-messages-teams.md
+                href: languages-for-voicemail-greetings-and-messages.md
           - name: Identificação de chamadas
             items:
               - name: Como a identificação de chamada pode ser usada em sua organização
