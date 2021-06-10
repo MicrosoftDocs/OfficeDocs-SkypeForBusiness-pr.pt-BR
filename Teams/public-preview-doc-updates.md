@@ -18,12 +18,12 @@ description: Obtenha mais informações sobre a prévia pública no Microsoft Te
 appliesto:
 - Microsoft Teams
 localization_priority: Priority
-ms.openlocfilehash: cc3dca351924daa368658a8f0c110099768e9986
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: b0719e68dcbf1c73c15ee58e8c7d6be08f359aa5
+ms.sourcegitcommit: 2591c96d8613660220c5af71fc945e27b31175d7
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117699"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "52863252"
 ---
 # <a name="microsoft-teams-public-preview"></a>Visualização Pública do Microsoft Teams
 
@@ -36,7 +36,7 @@ Para obter uma lista do que está disponível na visualização pública do Team
 
 ## <a name="set-the-update-policy"></a>Definir a política de atualização
 
-A visualização pública é habilitada por usuário, e a opção de ativar a visualização pública é controlada por uma política administrativa. As políticas de atualização são usadas para gerenciar o Microsoft Teams e os usuários de visualização do Office que verão recursos de pré-lançamento ou pré-visualização no aplicativo Microsoft Teams. Você pode usar a política Global (Padrão em toda a organização) e personalizá-la ou criar uma ou mais políticas personalizadas para os usuários. A política precisa ser atribuída a usuários específicos porque não sobrescreve a política global.
+A visualização pública é habilitada por usuário, e a opção para ativar a visualização pública é controlada em uma política administrativa. As políticas de atualização são usadas para gerenciar o Teams e os usuários de visualização do Office que verão os recursos de pré-lançamento ou de pré-visualização no aplicativo do Teams. Você pode usar a política Global (padrão Org-wide) e personalizá-la, ou criar uma ou mais políticas personalizadas para seus usuários.
 
 1. Entre no Centro de administração.
 2. Selecione **Teams**>**Atualizar políticas**.
@@ -52,8 +52,8 @@ Também é possível definir a política usando o Windows PowerShell usando o cm
 
 Para habilitar a visualização pública em uma área de trabalho ou cliente da web, você precisa realizar as seguintes tarefas:
 
-1. Selecione o perfil para exibir o menu Teams.
-2. Selecione **Sobre** → **Visualização pública**.
+1. Selecione os três pontos à esquerda do seu perfil para exibir o menu Teams.
+2. Selecione **Sobre** > **Visualização pública**.
 3. Selecione **Alternar para Visualização pública**.
 
 ## <a name="related-topics"></a>Tópicos relacionados

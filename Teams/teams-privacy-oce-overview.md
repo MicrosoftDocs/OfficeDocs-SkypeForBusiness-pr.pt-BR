@@ -14,12 +14,12 @@ search.appverid: MET150
 description: Este artigo descreve as experiências conectadas opcionais que você verá no Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 49b2cf94f660b7935ae61aadf21bdb9a7a78fb21
-ms.sourcegitcommit: 17d0108fb4d36a3f56144460683f53d77a8a0a7f
+ms.openlocfilehash: 588dd904794ce79cfdcdbfa7fb9e17275f1d3661
+ms.sourcegitcommit: 2591c96d8613660220c5af71fc945e27b31175d7
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/05/2021
-ms.locfileid: "52777882"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "52863232"
 ---
 # <a name="overview-of-optional-connected-experiences-in-microsoft-teams"></a>Visão geral das experiências conectadas opcionais no Microsoft Teams
 
@@ -28,7 +28,7 @@ Se você tiver uma conta corporativa ou de estudante, o administrador da sua org
 Se o administrador tiver dado a você a capacidade de usar experiências conectadas opcionais no Teams, você poderá acessar **Configurações** > **Privacidade** no Teams e escolher se deseja usar experiências conectadas opcionais.
 
 > [!NOTE]
-> Se for um administrador, você poderá dar ou restringir a capacidade dos usuários de usar experiências conectadas opcionais. Você pode fazer isso usando o [serviço de política de nuvem do Office](/deployoffice/overview-office-cloud-policy-service) e configurando o *Permitir o uso de experiências conectadas opcionais adicionais na configuração de política do Office*. 
+> Se for um administrador, você poderá dar ou restringir a capacidade dos usuários de usar experiências conectadas opcionais. Você pode fazer isso usando o [serviço de política de nuvem do Office](/deployoffice/overview-office-cloud-policy-service) e configurando o *Permitir o uso de experiências conectadas opcionais adicionais na configuração de política do Office*. Essa é a mesma configuração de política que controla se as experiências conectadas opcionais estão disponíveis para os usuários nos aplicativos do Office (como Word, Excel e PowerPoint) que vêm com os o Microsoft 365 Apps para Grandes Empresas.
 
 ## <a name="giphy"></a>GIPHY
 

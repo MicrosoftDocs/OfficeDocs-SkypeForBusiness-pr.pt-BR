@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1a4b0dcc52b5c497d594a26fda09f3f48b1c563a
-ms.sourcegitcommit: 17d0108fb4d36a3f56144460683f53d77a8a0a7f
+ms.openlocfilehash: 7f642b1ce9a767c30077374aa193355edbbbef09
+ms.sourcegitcommit: 2591c96d8613660220c5af71fc945e27b31175d7
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/05/2021
-ms.locfileid: "52777892"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "52863212"
 ---
 # <a name="policy-control-overview-for-microsoft-teams"></a>Visão geral do controle de política do Microsoft Teams
 
@@ -84,7 +84,7 @@ Para escolher que nível de dados de diagnóstico são enviados para nós, use o
 
 Os usuários não poderão alterar o nível de dados de diagnóstico de seus dispositivos se eles estiverem conectados ao Teams com suas credenciais organizacionais, que às vezes são chamadas de conta corporativa ou de estudante.
 
-Esses dados de diagnóstico não incluem nomes de usuários, seus endereços de email ou o conteúdo de seus arquivos do Office. Nosso sistema cria uma ID exclusiva que é associada a dados de diagnóstico do usuário. Quando recebemos dados de diagnóstico mostrando que o aplicativo Teams falhou 100 vezes, essa ID exclusiva nos permite determinar se foi um único usuário que teve esse problema 100 vezes ou se foi o aplicativo de 100 usuários que falhou uma vez. Não usamos essa ID exclusiva para identificar um usuário específico.
+Esses dados de diagnóstico não incluem nomes de usuários, endereços de email ou outros conteúdos de usuário, como arquivos do Office compartilhados no Teams, uma mensagem de chat enviada no Teams ou o texto de uma postagem publicada em um canal do Teams. Nosso sistema cria uma ID exclusiva que é associada a dados de diagnóstico do usuário. Quando recebemos dados de diagnóstico mostrando que o aplicativo Teams falhou 100 vezes, essa ID exclusiva nos permite determinar se foi um único usuário que teve esse problema 100 vezes ou se foi o aplicativo de 100 usuários que falhou uma vez. Não usamos essa ID exclusiva para identificar um usuário específico.
 
 Para ver quais dados de diagnóstico foram enviados à Microsoft, você poderá usar o Visualizador de Dados de Diagnóstico, que você pode baixar e instalar gratuitamente da Microsoft Store. Para saber mais, consulte [Usando o Visualizador de Dados de Diagnóstico com o Office](https://support.microsoft.com/topic/cf761ce9-d805-4c60-a339-4e07f3182855).
 
