@@ -20,7 +20,7 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - seo-marvel-apr2020
-description: Você pode baixar e imprimir essas etiquetas para chamada de emergência quando estiver usando planos de chamada no Microsoft 365 ou no Office 365.
+description: Você pode baixar e imprimir esses rótulos para chamada de emergência quando estiver usando Planos de Chamada em Microsoft 365 ou Office 365.
 ms.openlocfilehash: 30286acb1d1b91f52287d50eab7a72d7efe94915
 ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
@@ -30,9 +30,9 @@ ms.locfileid: "44691457"
 ---
 # <a name="emergency-calling-labels"></a>Rótulos de chamada de emergência
 
-São etiquetas de aviso de isenção de responsabilidade ou adesivos de chamada de emergência (911) para uso com etiquetas de endereço Avery 5160 (1" x 2 5/8") ou podem ser dimensionadas se você quiser usar outros tipos de etiquetas.
+São rótulos de aviso de isenção de responsabilidade de chamada de emergência (911) ou adesivos para uso com rótulos de endereço do Avery 5160 (1" x 2 5/8") ou podem ser dimensionadas se você quiser usar outros tipos de rótulos.
 
-[Clique para baixar um arquivo .zip para rótulos de Chamada de Emergência (en-us).](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
+[Clique para baixar um arquivo .zip para rótulos de Chamada de Emergência (en-us)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true).
 
 ## <a name="related-topics"></a>Tópicos relacionados
 

@@ -14,7 +14,7 @@ f1.keywords:
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
-description: Exemplos de como usar o PowerShell para definir políticas no Teams para controlar quem pode realizar eventos ao vivo em sua organização e os recursos disponíveis nos eventos.
+description: Exemplos de como usar o PowerShell para definir políticas no Teams para controlar quem pode manter eventos ao vivo em sua organização e os recursos disponíveis nos eventos.
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
@@ -27,7 +27,7 @@ ms.locfileid: "51119140"
 ---
 # <a name="use-powershell-to-set-live-events-policies-in-microsoft-teams"></a>Usar o PowerShell para definir políticas de eventos ao vivo no Microsoft Teams
 
-Você pode usar os seguintes cmdlets Windows PowerShell para definir e atribuir configurações de política para eventos ao vivo no Teams: 
+Você pode usar os seguintes cmdlets Windows PowerShell para definir e atribuir configurações de política para eventos ao vivo em Teams: 
 - [Get-CsTeamsMeetingBroadcastPolicy](/powershell/module/skype/get-csteamsmeetingbroadcastpolicy?view=skype-ps)
 - [Set-CsTeamsMeetingBroadcastPolicy](/powershell/module/skype/set-csteamsmeetingbroadcastpolicy?view=skype-ps)
 - [New-CsTeamsMeetingBroadcastPolicy](/powershell/module/skype/new-csteamsmeetingbroadcastpolicy?view=skype-ps)
@@ -37,12 +37,12 @@ Você pode usar os seguintes cmdlets Windows PowerShell para definir e atribuir 
 Aqui estão alguns exemplos.
 
 > [!NOTE]
-> Antes de executar esses cmdlets, você deve estar conectado ao PowerShell do Skype for Business Online. Para obter mais informações, consulte [Manage Skype for Business Online with Microsoft 365 or Office 365 PowerShell](/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell).
+> Antes de executar esses cmdlets, você deve estar conectado ao Skype for Business PowerShell Online. Para obter mais informações, consulte [Manage Skype for Business Online with Microsoft 365 or Office 365 PowerShell](/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell).
 
 ## <a name="allow-users-to-schedule-live-events"></a>Permitir que os usuários agendem eventos ao vivo 
 
 > [!NOTE]
-> Esses exemplos são para eventos produzidos no Teams. Para eventos produzidos com um aplicativo ou dispositivo externo, há etapas adicionais que você deve fazer. Para obter mais informações, consulte Permitir que os usuários [agendem eventos que foram produzidos com um aplicativo ou dispositivo externo.](set-up-for-teams-live-events.md#enable-users-to-schedule-events-that-were-produced-with-an-external-app-or-device)
+> Esses exemplos são para eventos produzidos em Teams. Para eventos produzidos com um aplicativo ou dispositivo externo, há etapas adicionais que você deve fazer. Para obter mais informações, consulte Permitir que os usuários [agendem eventos que foram produzidos com um aplicativo ou dispositivo externo.](set-up-for-teams-live-events.md#enable-users-to-schedule-events-that-were-produced-with-an-external-app-or-device)
 
 **Permitir que um usuário agende eventos ao vivo**
 
@@ -130,7 +130,7 @@ Set-CsTeamsMeetingBroadcastPolicy -Identity Global -BroadcastAttendeeVisibility 
 ```
 ## <a name="set-the-recording-option-for-live-events"></a>Definir a opção de gravação para eventos ao vivo
 > [!NOTE]
-> Essa configuração se aplica apenas a eventos produzidos no Teams.
+> Essa configuração se aplica somente a eventos produzidos em Teams.
 
 De definir a política global para desabilitar a gravação para eventos ao vivo:
 ```PowerShell
@@ -138,7 +138,7 @@ Set-CsTeamsMeetingBroadcastPolicy -Identity Global -BroadcastRecordingMode Alway
 ```
 ## <a name="set-live-captions-and-subtitles-in-live-events"></a>Definir legendas e legendas ao vivo em eventos ao vivo
 > [!NOTE]
-> Essa configuração se aplica apenas a eventos produzidos no Teams. 
+> Essa configuração se aplica somente a eventos produzidos em Teams. 
 
 Definir a política global para ativar legendas e legendas ao vivo (transcrição) para participantes do evento:
 ```PowerShell

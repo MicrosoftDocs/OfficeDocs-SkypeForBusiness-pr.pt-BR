@@ -28,14 +28,14 @@ ms.locfileid: "51117269"
 
 Use este script do PowerShell para criar uma política de mensagens no Microsoft Teams e atribuí-la aos usuários. 
 
-Para obter mais informações sobre como usar esse script do PowerShell, consulte [Início rápido - Teams for Education](../teams-quick-start-edu.yml).
+Para obter mais informações sobre como usar esse script do PowerShell, consulte [Início rápido - Teams para Educação](../teams-quick-start-edu.yml).
 
-Este script usa o cmdlet [Grant-CsTeamsMessagingPolicy](/powershell/module/skype/grant-csteamsmessagingpolicy) que está no módulo do PowerShell do Skype for Business Online. Consulte [Visão geral do Teams PowerShell](../teams-powershell-overview.md) para saber mais sobre como gerenciar o Teams usando o PowerShell.
+Este script usa o cmdlet [Grant-CsTeamsMessagingPolicy](/powershell/module/skype/grant-csteamsmessagingpolicy) que está no módulo Skype for Business PowerShell Online. Consulte [Teams visão geral do PowerShell](../teams-powershell-overview.md) para saber mais sobre como gerenciar Teams usando o PowerShell.
 
 
 ## <a name="before-you-start"></a>Antes de começar
 
-Baixe e instale o [módulo do PowerShell](https://www.microsoft.com/download/details.aspx?id=39366)do Skype for Business Online e reinicie o computador, se solicitado.
+Baixe e instale o [módulo Skype for Business PowerShell Online](https://www.microsoft.com/download/details.aspx?id=39366)e reinicie o computador, se solicitado.
 
 Para se inclinar mais, consulte [Manage Skype for Business Online with Office 365 PowerShell](/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell).
 
@@ -61,4 +61,4 @@ $dataSetFilePath = "<csv file with user ids for newly provisioned students> "
 ```
 
 > [!NOTE]
-> Você também pode atribuir uma política de mensagens diretamente aos usuários em escala por meio de uma atribuição de política em lote ou a um grupo de que os usuários são membros. Para obter mais informações, [consulte Atribuir políticas](../batch-group-policy-assignment-edu.md) a grandes conjuntos de usuários em sua escola e Atribuir políticas aos usuários no [Teams.](../assign-policies.md)
+> Você também pode atribuir uma política de mensagens diretamente aos usuários em escala por meio de uma atribuição de política em lote ou a um grupo de que os usuários são membros. Para obter mais informações, consulte Atribuir políticas a [grandes conjuntos](../batch-group-policy-assignment-edu.md) de usuários em sua escola e Atribuir políticas aos seus usuários em [Teams](../assign-policies.md).

@@ -23,7 +23,7 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Aqui estão os serviços do Microsoft 365 e do Office 365 para Skype for Business e Microsoft Teams disponíveis para a Albânia.
+description: Aqui estão os serviços Microsoft 365 e Office 365 para Skype for Business e Microsoft Teams disponíveis para a Albânia.
 ms.openlocfilehash: 1bc14449b8388348ac6fe8783d42129f68a301e2
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
@@ -35,7 +35,7 @@ ms.locfileid: "51118450"
 
 [Encontre outro país ou região](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) ou saiba mais sobre a disponibilidade de Audioconferência e planos de chamadas por país e região.
 
-Aqui estão os serviços do Microsoft 365 e do Office 365 para Skype for Business e Microsoft Teams disponíveis para a Albânia.
+Aqui estão os serviços Microsoft 365 e Office 365 para Skype for Business e Microsoft Teams disponíveis para a Albânia.
   
 ## <a name="audio-conferencing"></a>Audioconferência
 
@@ -72,7 +72,7 @@ Se os Planos de Chamada não estiverem disponíveis para compra, considere a pos
 |Há números de chamada tarifada disponíveis?  <br/> |Sim ([a pedido](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)) <br/> |
 |Os números gratuitos estão disponíveis?  <br/> |Não  <br/> |
    
- Se você quiser obter números de telefone gratuitos e de chamada gratuita para Audioconferências, Atendimentos Automáticos e Filas de Chamadas, consulte Obter números de telefone de serviço para [Skype for Business](../getting-service-phone-numbers.md)e Microsoft Teams .
+ Se você quiser obter números de telefone gratuitos e de chamada gratuita para Audioconferências, Atendimentos Automáticos e Filas de Chamadas, consulte Obter números de telefone de serviço para Skype for Business e [Microsoft Teams](../getting-service-phone-numbers.md).
   
 ## <a name="communications-credits"></a>Créditos de Comunicação
 

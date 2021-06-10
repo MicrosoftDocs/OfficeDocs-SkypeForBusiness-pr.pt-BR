@@ -19,15 +19,14 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: da2d330986ca2fd924df75e0fcae6fc4388c5d48
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 97cce8577c2d3c23e097f5e3bf5d819d51a16b10
+ms.sourcegitcommit: 36bc47b2b9ee0e738fa814c31accacfe816da4a3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51120833"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "52856360"
 ---
-<a name="archive-or-delete-a-team-in-microsoft-teams"></a>Arquivar ou excluir uma equipe no Microsoft Teams
-===========================================
+# <a name="archive-or-delete-a-team-in-microsoft-teams"></a>Arquivar ou excluir uma equipe no Microsoft Teams
 
 Com o tempo, uma equipe criada no Microsoft Teams pode não ser usada ou você pode querer arquivar ou excluir uma equipe no final de um projeto. Se você for um administrador do Microsoft Teams, siga as etapas neste artigo para arquivar ou excluir uma equipe que não é mais necessária.
 
@@ -48,7 +47,7 @@ Siga estas etapas para arquivar uma equipe. Você deve ser um administrador de s
 
     ![Captura de tela da mensagem de arquivamento do Teams](media/teams-archive-message.png)
 
-4. Para impedir que as pessoas editem o conteúdo no site do SharePoint e na guia Wiki associados à equipe, selecione Tornar o site do **SharePoint somente** leitura para membros da equipe . (Os proprietários do Teams ainda poderão editar esse conteúdo.)
+4. Para impedir que as pessoas editem o conteúdo no site SharePoint e na guia Wiki associados à equipe, selecione Tornar o site SharePoint somente leitura para membros da **equipe.** (Teams proprietários ainda poderão editar esse conteúdo.)
 5. Selecione **Arquivar** para arquivar a equipe. O status da equipe será alterado para **Arquivada**.
 
 ## <a name="make-an-archived-team-active"></a>Reativar uma equipe arquivada
@@ -70,9 +69,9 @@ Se a equipe não for necessária no futuro, você pode excluí-la, em vez de arq
 
 ## <a name="restore-a-deleted-team"></a>Restaurar uma equipe excluída
 
-Siga estas etapas para restaurar uma equipe excluída restaurando o grupo do Microsoft 365 associado à equipe. Restaurar o grupo do Microsoft 365 para uma equipe restaura o conteúdo da equipe, incluindo guias, canais padrão e canais privados e seus conjunto de sites associados.
+Siga estas etapas para restaurar uma equipe excluída restaurando o grupo Microsoft 365 que está associado à equipe. Restaurar o grupo Microsoft 365 para uma equipe restaura o conteúdo da equipe, incluindo guias, canais padrão e canais privados e seus conjunto de sites associados.
 
-Por padrão, um grupo excluído do Microsoft 365 é mantido por 30 dias. Esse período de 30 dias é chamado de "exclusão temporária" porque você pode restaurar o grupo. Para saber mais, consulte [Restore a deleted Group](/microsoft-365/admin/create-groups/restore-deleted-group).
+Por padrão, um grupo de Microsoft 365 excluído é mantido por 30 dias. Esse período de 30 dias é chamado de "exclusão temporária" porque você pode restaurar o grupo. Para saber mais, consulte [Restore a deleted Group](/microsoft-365/admin/create-groups/restore-deleted-group).
 
 ### <a name="install-the-azureadpreview-module"></a>Instalar o módulo AzureADPreview
 
@@ -92,14 +91,14 @@ Por padrão, um grupo excluído do Microsoft 365 é mantido por 30 dias. Esse pe
     Install-Module AzureADPreview
     ```
 
-### <a name="restore-the-deleted-microsoft-365-group"></a>Restaurar o grupo excluído do Microsoft 365
+### <a name="restore-the-deleted-microsoft-365-group"></a>Restaurar o grupo Microsoft 365 excluído
 
 1. Conecte-se ao Azure AD executando o seguinte:
     ```PowerShell
     Connect-AzureAD
     ```
     Quando solicitado, entre usando sua conta de administrador e senha.  
-2. Execute o seguinte para exibir uma lista de todos os grupos do Microsoft 365 excluídos de forma suave que ainda estão dentro do período de retenção de 30 dias. Use o parâmetro **-All $True** se você tiver muitos grupos.
+2. Execute o seguinte para exibir uma lista de todos os grupos de Microsoft 365 que ainda estão dentro do período de retenção de 30 dias. Use o parâmetro **-All $True** se você tiver muitos grupos.
     ```PowerShell
     Get-AzureADMSDeletedGroup
     ```

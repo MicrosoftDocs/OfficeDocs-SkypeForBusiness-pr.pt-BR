@@ -98,8 +98,8 @@ Nas tabelas a seguir:
 
 | <br/><br/> Modo   | Originador <br/><br/> Cliente | <br/><br/> SfB &nbsp; homed |<br/><br/>Route->|   Destinatário <br/><br/> TeamsOnly  |
 |--- |--- |--- |--- | --- |
-| Ilhas   |Microsoft Teams<br/>Skype for Business<br/>Microsoft Teams <br/>Skype for Business<br/>|Online<br/> Online<br/> On-prem<br/> On-prem<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;|  Teams <br/>*Microsoft Teams* <br/>**Não é possível** <br/>*Microsoft Teams*  |
-|SfB\*  | Skype for Business<br/>Skype for Business<br/> | Online<br/> On-prem<br/> | &boxv;<br/>&boxv; | *Microsoft Teams*  <br/>*Microsoft Teams*   |
+| Ilhas   |Microsoft Teams<br/>Skype for Business<br/>Microsoft Teams <br/>Skype for Business<br/>|Online<br/> Online<br/> On-prem<br/> On-prem<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;|  Teams <br/>*Teams* <br/>**Não é possível** <br/>*Teams*  |
+|SfB\*  | Skype for Business<br/>Skype for Business<br/> | Online<br/> On-prem<br/> | &boxv;<br/>&boxv; | *Teams*  <br/>*Teams*   |
 |TeamsOnly  | Teams | Online |  &boxv; |Teams   |
 |  |  |  | | |
 
@@ -138,8 +138,8 @@ As tabelas abaixo descrevem qual cliente receberá uma chamada do originador (tr
 
 | <br/><br/>Modo | Originador<br/><br/> Cliente| <br/><br/>SfB homed|<br/><br/>Route->|  Destinatário<br/>  <br/> TeamsOnly  |
 |--- |--- |--- |--- |--- |
-| Ilhas  |Microsoft Teams<br/>Skype for Business <br/>Microsoft Teams <br/>Skype for Business <br/>|Online<br/> Online<br/> On-prem<br/> On-prem<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;| Teams <br/>*Microsoft Teams* <br/>**Não é possível** <br/>*Microsoft Teams* |
-| SfB\* |Skype for Business <br/>Skype for Business  | Online<br/> On-prem| &boxv;<br/>&boxv;|*Microsoft Teams* <br/>*Microsoft Teams*   |
+| Ilhas  |Microsoft Teams<br/>Skype for Business <br/>Microsoft Teams <br/>Skype for Business <br/>|Online<br/> Online<br/> On-prem<br/> On-prem<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;| Teams <br/>*Teams* <br/>**Não é possível** <br/>*Teams* |
+| SfB\* |Skype for Business <br/>Skype for Business  | Online<br/> On-prem| &boxv;<br/>&boxv;|*Teams* <br/>*Teams*   |
 | TeamsOnly |Teams |Online |&boxv; |Teams |
 |  | | | | |
 

@@ -1,5 +1,5 @@
 ---
-title: Configuração do teclado de discagem do Teams
+title: Teams de discagem
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -16,7 +16,7 @@ appliesto:
 localization_priority: Normal
 f1.keywords:
 - NOCSH
-description: Saiba mais sobre como configurar o teclado de discagem no cliente do Teams para que os usuários possam acessar a funcionalidade PSTN (Rede Telefônica Pública Comutado).
+description: Saiba como configurar o bloco de discagem no cliente Teams para que os usuários possam acessar a funcionalidade PSTN (Rede Telefônica Pública Comutado).
 ms.openlocfilehash: 44fcbb766cadaa4b31aa065fae80fdcd48c5453f
 ms.sourcegitcommit: a94a267c421a78587b0dbbea5fa167aad2882e9b
 ms.translationtype: MT
@@ -24,21 +24,21 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 07/01/2020
 ms.locfileid: "45012409"
 ---
-# <a name="dial-pad-configuration"></a>Configuração do teclado de discagem
+# <a name="dial-pad-configuration"></a>Configuração de bloco de discagem
 
-No cliente do Teams, o teclado de discagem permite que os usuários acessem a funcionalidade PSTN (Rede Telefônica Pública Comutado). O teclado de discagem está disponível para usuários com uma licença do Sistema de Telefonia, desde que eles sejam configurados corretamente. Todos os critérios a seguir são necessários para que o teclado de discagem mostre:
+No cliente Teams, o bloco de discagem permite que os usuários acessem a funcionalidade PSTN (Rede Telefônica Pública Comutado). O bloco de discagem está disponível para usuários com uma licença Sistema de Telefonia, desde que eles sejam configurados corretamente. Todos os critérios a seguir são necessários para que o bloco de discagem mostre:
 
-- O usuário tem uma licença do Sistema Telefônico habilitado ("MCOEV")
-- O usuário tem o Plano de Chamada da Microsoft ou está habilitado para Roteamento Direto
-- O usuário tem o Enterprise Voice habilitado
-- O usuário está online e não no Skype for Business local
-- O usuário tem a Política de Chamada do Teams habilitada
+- O usuário tem uma licença Sistema de Telefonia (MCOEV) habilitada
+- O usuário tem o Plano de Chamadas da Microsoft ou está habilitado para Roteamento Direto
+- O usuário Enterprise Voice habilitado
+- O usuário está em casa online e não Skype for Business local
+- O usuário Teams Política de Chamada habilitada
 
-As seções a seguir descrevem como usar o PowerShell para verificar os critérios. Na maioria dos casos, você precisa ver várias propriedades na saída do cmdlet Get-CsOnlineUser. Os exemplos pressuem $user seja o endereço UPN ou sip do usuário.
+As seções a seguir descrevem como usar o PowerShell para verificar os critérios. Na maioria dos casos, você precisa ver várias propriedades na saída do cmdlet Get-CsOnlineUser. Os exemplos presumem $user seja o endereço UPN ou sip do usuário.
 
-## <a name="user-has-an-enabled-phone-system-mcoev-license"></a>O usuário tem uma licença do Sistema Telefônico habilitado ("MCOEV")
+## <a name="user-has-an-enabled-phone-system-mcoev-license"></a>O usuário tem uma licença Sistema de Telefonia (MCOEV) habilitada
 
-Você deve garantir que o plano atribuído para o usuário mostre o atributo **CapabilityStatus** definido como Habilitado e o Plano de Capacidade definido como **MCOEV** (licença do Sistema de Telefonia). Você pode ver MCOEV, MCOEV1 e assim por diante. Todos são aceitáveis, desde que o Plano de Capacidade comece com MCOEV.
+Você deve garantir que o plano atribuído para o usuário mostre o atributo **CapabilityStatus** definido como Habilitado e o Plano de Recursos definido como **MCOEV** (licença Sistema de Telefonia). Você pode ver MCOEV, MCOEV1 e assim por diante. Todos são aceitáveis, desde que o Plano de Funcionalidade comece com MCOEV.
 
 Para verificar se os atributos estão definidos corretamente, use o seguinte comando:
 
@@ -46,7 +46,7 @@ Para verificar se os atributos estão definidos corretamente, use o seguinte com
 Get-CsOnlineUser -Identity $user|select AssignedPlan|fl
 ```
 
-A saída terá a seguinte aparência. Você só precisa verificar os atributos **CapabilityStatus** e **Plano de Capacidade:**
+A saída terá a seguinte aparência. Você só precisa verificar os atributos **CapabilityStatus** e **Plano de** Funcionalidade:
 
 ```
 <Plan SubscribedPlanId="2f9eda01-4630-4a5c-bdb3-cf195f22d240"  
@@ -63,9 +63,9 @@ A saída terá a seguinte aparência. Você só precisa verificar os atributos *
 ```
 
 
-## <a name="user-has-microsoft-calling-plan-or-is-enabled-for-direct-routing"></a>O usuário tem o Plano de Chamada da Microsoft OU está habilitado para Roteamento Direto
+## <a name="user-has-microsoft-calling-plan-or-is-enabled-for-direct-routing"></a>User has Microsoft Calling Plan OR is enabled for Direct Routing
 
-**Se o usuário** tiver o Plano de Chamada da Microsoft, você deve garantir que o atributo **CapabilityStatus** está definido como Habilitado e que o Plano de Capacidade está definido como **MCOPSTN.** Você pode ver MCOPSTN1, MCOPSTN2 e assim por diante. Todos são aceitáveis, desde que o Plano de Capacidade comece com o MCOPSTN.
+**Se o usuário** tiver o Plano de Chamada da Microsoft, verifique se o atributo **CapabilityStatus** está definido como Habilitado e que o Plano de Funcionalidades está definido como **MCOPSTN**. Você pode ver MCOPSTN1, MCOPSTN2 e assim por diante. Todos são aceitáveis, desde que o Plano de Funcionalidade comece com MCOPSTN.
 
 Para verificar os atributos, use o seguinte comando:
 
@@ -73,7 +73,7 @@ Para verificar os atributos, use o seguinte comando:
 Get-CsOnlineUser -Identity $user|select AssignedPlan|fl
 ```
 
-A saída terá a seguinte aparência. Você só precisa verificar os atributos **CapabilityStatus** e **Plano de Capacidade:**
+A saída terá a seguinte aparência. Você só precisa verificar os atributos **CapabilityStatus** e **Plano de** Funcionalidade:
 
 ```  
 <Plan SubscribedPlanId="71d1258e-a4e6-443f-884e-0f3d6f644bb1" 
@@ -89,7 +89,7 @@ xmlns="http://schemas.microsoft.com/online/directoryservices/change/2008/11">
 </Plan>
   ```
 
-**Se o usuário estiver habilitado** para Roteamento Direto, o usuário deverá ter um valor não nulo para o OnlineVoiceRoutingPolicy. Para verificar o atributo, use o seguinte comando:
+Se o usuário estiver habilitado para **Roteamento** Direto, o usuário deverá ter um valor não nulo para OnlineVoiceRoutingPolicy. Para verificar o atributo, use o seguinte comando:
   
 ```
 Get-CsOnlineUser -Identity $user|Select OnlineVoiceRoutingPolicy 
@@ -103,9 +103,9 @@ OnlineVoiceRoutingPolicy
 Test_Policy
 ```
 
-## <a name="user-has-enterprise-voice-enabled"></a>O usuário tem o Enterprise Voice habilitado
+## <a name="user-has-enterprise-voice-enabled"></a>O usuário Enterprise Voice habilitado
 
-Para verificar se o usuário tem o Enterprise Voice habilitado, use o seguinte comando:
+Para verificar se o usuário Enterprise Voice habilitado, use o seguinte comando:
 
 ```
 Get-CsOnlineUser -Identity $user|Select EnterpriseVoiceEnabled
@@ -120,9 +120,9 @@ EnterpriseVoiceEnabled
 
 ```
  
-## <a name="user-is-homed-online-and-not-in-skype-for-business-on-premises"></a>O usuário está online e não no Skype for Business local
+## <a name="user-is-homed-online-and-not-in-skype-for-business-on-premises"></a>O usuário está em casa online e não Skype for Business local
 
-Para garantir que o usuário está online e não no Skype for Business no local, o RegistradorPool não deve ser nulo e o HostingProvider deve conter um valor que começa com "sipfed.online".  Para verificar os valores, use o seguinte comando:
+Para garantir que o usuário está em casa online e não no Skype for Business local, o RegistradorPool não deve ser nulo e o HostingProvider deve conter um valor que comece com "sipfed.online".  Para verificar os valores, use o seguinte comando:
 
 ```
 Get-CsOnlineUser -Identity $user|Select RegistrarPool, HostingProvider
@@ -136,9 +136,9 @@ RegistrarPool                 HostingProvider
 sippoolbn10M02.infra.lync.com sipfed.online.lync.com
 ```
 
-## <a name="user-has-teams-calling-policy-enabled"></a>O usuário tem a Política de Chamada do Teams habilitada
+## <a name="user-has-teams-calling-policy-enabled"></a>O usuário Teams Política de Chamada habilitada
 
-O TeamsCallingPolicy eficaz do usuário deve ter AllowPrivateCalling definido como true.  Por padrão, os usuários herdam a política global, que tem AllowPrivateCallingPolicy definido como true por padrão.
+O TeamsCallingPolicy efetivo do usuário deve ter AllowPrivateCalling definido como true.  Por padrão, os usuários herdam a política global, que tem AllowPrivateCallingPolicy definida como true por padrão.
 
 Para obter o TeamsCallingPolicy para um usuário e verificar se AllowPrivateCalling está definido como true, use o seguinte comando:
 
@@ -163,18 +163,18 @@ BusyOnBusyEnabledType      : Disabled
 MusicOnHoldEnabledType     : Enabled
 ``` 
 
-## <a name="additional-notes"></a>Anotações adicionais
+## <a name="additional-notes"></a>Notas adicionais
 
--   Talvez seja necessário reiniciar o cliente do Teams depois de fazer qualquer uma dessas alterações de configuração.
+-   Talvez seja necessário reiniciar o cliente Teams depois de fazer qualquer uma dessas alterações de configuração.
 
 -   Se você atualizou recentemente qualquer um dos critérios acima, talvez seja necessário aguardar algumas horas para que o cliente receba as novas configurações.
 
--   Se você ainda não vir o teclado de discagem, verifique se há um erro de provisionamento usando o seguinte comando:
+-   Se você ainda não vir o bloco de discagem, verifique se há um erro de provisionamento usando o seguinte comando:
 
   ```
   Get-CsOnlineUser -Identity $user|Select McoValidationError
   ```
 
--    Se tiver mais de 24 horas e você ainda estiver vendo problemas, entre em contato com o Suporte.
+-    Se tiver sido mais de 24 horas e você ainda estiver vendo problemas, entre em contato com o Suporte.
 
 

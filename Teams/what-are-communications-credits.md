@@ -97,7 +97,7 @@ Notificações importantes relacionadas ao saldo de Créditos de Comunicação d
 - Administrador de Comunicações de Equipes
 - Engenheiro de Suporte de Comunicações de Equipes
 - Teams Especialista em Suporte de Comunicações
-- Teams Administrador
+- Administrador do Teams
 
 > [!NOTE]
 > Os Créditos de Comunicações também são usados para números de taxa premium. O chamador paga os encargos.

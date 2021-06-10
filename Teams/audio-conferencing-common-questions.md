@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: A seguir estão algumas das principais perguntas que temos de nossos clientes que querem usar Audioconferência.
-ms.openlocfilehash: 48450dad380294503fdffc9210e225777ad60bb3
-ms.sourcegitcommit: 32e3bb588abcbeded2d885483384c06706b280eb
+ms.openlocfilehash: 6547aa6cb0021cfdb7a9cf3af1f77ebc8f625c5d
+ms.sourcegitcommit: 36bc47b2b9ee0e738fa814c31accacfe816da4a3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/08/2021
-ms.locfileid: "52282738"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "52856410"
 ---
 # <a name="audio-conferencing-common-questions"></a>Perguntas comuns sobre a Audioconferência
 
@@ -129,12 +129,21 @@ Estamos trabalhando em uma solução que permitirá que o usuário acesse e rede
   
 ## <a name="what-in-meeting-dial-pad-commands-are-supported"></a>Quais comandos de discagem na reunião são suportados?
 
-- *6 (Mute/unmute sozinho)
-    
-- *1 (Reproduz as descrições dos comandos de discagem que estão disponíveis) 
+Para participantes e organizadores da reunião:
 
-- *2, *21, *22 (Notificações de lobby e entrada)
-    
+| Nome do comando | Teclas de comando | Descrição                                                     |
+|--------------|--------------|-----------------------------------------------------------------|
+| Menu De comando | \*1          | Pressione \* 1 para reproduzir as descrições dos comandos de discagem que estão disponíveis. |
+| Mute/unmute  | \*6          | Pressione \* 6 para silenciar ou desativar a si mesmo.                         |
+
+Somente para organizadores de reuniões:
+
+| Nome do comando                   | Teclas de comando | Descrição                                                 |
+|--------------------------------|--------------|-------------------------------------------------------------|
+| Admitir tudo                      | \*21         | Pressione \* 21 para admitir todos os participantes aguardando no lobby.  |
+| Mute all                       | \*22         | Pressione \* 21 para silenciar todos os participantes (exceto o organizador). |
+| Alternar Enter/Exit Announcement | \*23         | Pressione \* 23 para habilitar ou desabilitar o Anúncio de Enter/Exit.    |
+
 ## <a name="can-attendees-dial-out-to-international-phone-numbers-when-they-are-in-a-skype-for-business-or-microsoft-teams-meeting"></a>Os participantes podem discar para números de telefone internacionais quando estão em uma Skype for Business ou Microsoft Teams reunião?
 
 Sim, os participantes podem discar internacionalmente e convidar outros chamadores para uma Skype for Business ou Microsoft Teams reunião. Consulte [Discando em uma reunião Microsoft Teams](dialing-out-from-a-teams-meeting-so-other-people-can-join-it.md) para que outras pessoas possam participar ou [discar](/SkypeForBusiness/audio-conferencing-in-office-365/dialing-out-from-a-meeting-so-other-people-can-join-it)de uma reunião do Skype for Business Online para que outras pessoas possam participar dela .
@@ -150,7 +159,7 @@ Agendar uma reunião que será ingressada por todos os participantes usando um t
 - **Opção #1**: Por padrão, se o organizador da reunião e todos os participantes ingressarem em uma reunião usando um telefone, o organizador da reunião precisará inserir seu PIN de Audioconferência para in-locar. Os chamadores são perguntados se querem se autenticar como organizador de uma determinada reunião quando discam o número de telefone de uma reunião online. Todos os participantes que ingressarem na reunião por meio de discagem antes do início do organizador serão colocados no lobby e ouvirão música em espera. Para Skype for Business reuniões, assim que o organizador o iniciar, insera seu PIN de Audioconferência, todos os participantes no lobby ingressarão automaticamente na reunião. Para Microsoft Teams reuniões, os participantes ingressarão na reunião de acordo com o valor da configuração de admitir automaticamente as pessoas na política de reunião do organizador.
 
 - **Opção #2**: A configuração "Permitir que chamadores não autenticados sejam as primeiras pessoas em uma reunião" está desabilitada por padrão. Se a configuração estiver habilitada para um determinado organizador, todas as reuniões agendadas por esse organizador poderão ser iniciadas antes que o organizador insinte o PIN de Audioconferência. Quando essa configuração estiver habilitada, a reunião começará assim que o primeiro participante ingressar nele por meio de um número de telefone discado e o primeiro participante não será colocado no lobby. Para obter mais informações, consulte [Manage Audio conferencing settings for a](manage-the-audio-conferencing-settings-for-a-user-in-teams.md) user in Microsoft Teams or Manage Audio [conferencing settings for a user in Skype for Business Online](/SkypeForBusiness/audio-conferencing-in-office-365/manage-the-audio-conferencing-settings-for-a-user).
-   
+  
 ## <a name="related-topics"></a>Tópicos relacionados
 
 [Instalar o Skype for Business Online](/SkypeForBusiness/set-up-skype-for-business-online/set-up-skype-for-business-online)

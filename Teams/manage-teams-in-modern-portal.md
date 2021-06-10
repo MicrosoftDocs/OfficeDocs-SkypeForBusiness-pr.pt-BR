@@ -36,7 +36,7 @@ Este artigo fornece uma visão geral das ferramentas de gerenciamento para Teams
 Como administrador, talvez seja necessário exibir ou atualizar as equipes que sua organização definiu para colaboração, ou talvez seja necessário executar ações de correção, como a atribuição de proprietários para equipes sem proprietário. Você pode gerenciar as equipes usadas em sua organização por meio do módulo Microsoft Teams PowerShell e do Microsoft Teams de administração. Você pode acessar o centro de administração em <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a> . Para recursos de administração completa usando esses dois toolsets, você deve garantir que você tenha uma das seguintes funções:
 
 - Administrador Global
-- Teams Administrador
+- Administrador do Teams
 
 Você pode saber mais sobre funções de administrador no Teams em Usar funções de administrador do Microsoft Teams para gerenciar o Teams e ler mais sobre [como](using-admin-roles.md)usar os cmdlets do PowerShell para gerenciar equipes na referência do [cmdlet Microsoft Teams](/powershell/teams/?view=teams-ps).
 

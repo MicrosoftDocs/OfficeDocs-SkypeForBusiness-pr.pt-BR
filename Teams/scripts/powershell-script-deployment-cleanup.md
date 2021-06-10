@@ -1,5 +1,5 @@
 ---
-title: Exemplo de script do PowerShell - Limpeza de implantação do Teams
+title: Exemplo de script do PowerShell - Teams de implantação
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -7,7 +7,7 @@ ms.topic: article
 ms.reviewer: amitsri
 ms.service: msteams
 audience: admin
-description: Use este script do PowerShell para desinstalar o Teams e remover a pasta do Teams para usuários.
+description: Use este script do PowerShell para desinstalar Teams e remover a pasta Teams para usuários.
 f1.keywords:
 - NOCSH
 localization_priority: Normal
@@ -24,9 +24,9 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 03/23/2021
 ms.locfileid: "51117289"
 ---
-# <a name="powershell-script-sample---teams-deployment-clean-up"></a>Exemplo de script do PowerShell - Implantação do Teams limpa
+# <a name="powershell-script-sample---teams-deployment-clean-up"></a>Exemplo de script do PowerShell - Teams implantação limpa
 
-Use este script para remover o Teams. Esse script desinstala o Teams e remove a pasta do Teams para um usuário. Execute este script para cada perfil de usuário no qual o Teams foi instalado em um computador.
+Use este script para remover Teams. Esse script desinstala Teams e remove a pasta Teams para um usuário. Execute esse script para cada perfil de usuário no qual Teams foi instalado em um computador.
 
 
 ## <a name="sample-script"></a>Script de exemplo
@@ -65,4 +65,4 @@ catch
 ## <a name="related-topics"></a>Tópicos relacionados
 
 - [Instalar o Microsoft Teams usando o Microsoft Endpoint Configuration Manager](../msi-deployment.md)
-- [Implantar o Teams com aplicativos do Microsoft 365](/deployoffice/teams-install)
+- [Implantar Teams com Microsoft 365 Apps](/deployoffice/teams-install)

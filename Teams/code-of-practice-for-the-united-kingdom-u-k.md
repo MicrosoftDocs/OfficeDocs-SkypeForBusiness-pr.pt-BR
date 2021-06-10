@@ -1,5 +1,5 @@
 ---
-title: Código de prática para o Reino Unido. - Planos de chamada do Microsoft 365
+title: Código de prática para o Reino Unido. - Microsoft 365 planos de chamada
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -22,7 +22,7 @@ ms.custom:
 - Legal
 - seo-marvel-mar2020
 hideEdit: true
-description: Aprenda o código de prática para planos de Chamada PSTN para o Skype for Business UK, incluindo, onde obter ajuda e como enviar reclamações e resolver controvérsias.
+description: Saiba o código de prática para planos de chamada PSTN para Skype for Business Reino Unido, incluindo, onde obter ajuda e como enviar reclamações e resolver disputas.
 ms.openlocfilehash: ac741fec8ccd7262e865ef4aaef8f3858faf3cb7
 ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
@@ -30,9 +30,9 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/10/2020
 ms.locfileid: "44689757"
 ---
-# <a name="calling-plans-in-microsoft-365---code-of-practice-for-the-united-kingdom-uk"></a>Planos de chamada no Microsoft 365 – Código de prática para o Reino Unido (Reino Unido)
+# <a name="calling-plans-in-microsoft-365---code-of-practice-for-the-united-kingdom-uk"></a>Planos de chamada Microsoft 365 - Código de prática para o Reino Unido (Reino Unido)
 
-Este Código se aplica a clientes de pequenas empresas (organizações com 10 funcionários ou menos) no Reino Unido em relação ao serviço do Microsoft 365 ou do Plano de Chamada do Office 365 (o "Serviço") de acordo com os regulamentos de comunicações do Reino Unido. Outros serviços do Skype for Business são regidos por seu contrato de serviço com a Microsoft e outros termos aplicáveis ao uso do serviço específico.
+Este Código se aplica a clientes de pequenas empresas (organizações com 10 funcionários ou menos) no Reino Unido (Reino Unido) em relação ao serviço de Plano de Chamada do Microsoft 365 ou Office 365 (o "Serviço") de acordo com as regulamentações de comunicações do Reino Unido. Outros serviços do Skype for Business são regidos por seu contrato de serviço com a Microsoft e outros termos aplicáveis ao uso do serviço específico.
 
 ## <a name="1-about-skype-for-business"></a>1. Sobre o Skype for Business
 
@@ -44,7 +44,7 @@ Se tiver dúvidas sobre vendas, cobrança ou suporte técnico, entre em contato 
 
 Número de telefone de chamada gratuita: 0800 032 6417
 
-Online: Entre no Centro de administração do Microsoft 365 e envie uma solicitação de serviço selecionando Nova solicitação de **serviço** em **Suporte.**
+Online: entre no centro de administração Microsoft 365 e envie uma solicitação de serviço selecionando **Nova solicitação de serviço** em **Suporte**.
 
 O horário comercial é de segunda a sexta, 9h-17h.
 
@@ -52,7 +52,7 @@ Você pode obter resposta a algumas de suas dúvidas visitando o [site do Skype 
 
 ## <a name="3-complaints-and-dispute-resolution"></a>3. Reclamações e solução de controvérsias
 
-Nossas prioridades são a satisfação do cliente e o excelente serviço. No entanto, se você tiver uma reclamação, trabalharemos rapidamente para resolver o problema. Nossos Planos de Chamada no [Microsoft 365 ou no Office 365 –](complaint-handling-code-for-the-united-kingdom-u-k.md) o código de tratamento de reclamações para a página do Reino Unido (Reino Unido) detalha os procedimentos para que pequenas empresas nos deem uma reclamação e nosso esquema independente de solução de controvérsias.
+Nossas prioridades são a satisfação do cliente e o excelente serviço. No entanto, se você tiver uma reclamação, trabalharemos rapidamente para resolver o problema. Nossos Planos de Chamada em Microsoft 365 ou Office 365 - o código de tratamento de reclamações para a página reino unido [(Reino Unido)](complaint-handling-code-for-the-united-kingdom-u-k.md) detalha os procedimentos para pequenas empresas registrarem uma reclamação conosco e nosso esquema independente de resolução de conflitos.
   
 ## <a name="4-number-porting"></a>4. Portabilidade numérica
 
@@ -60,13 +60,13 @@ Em certos casos, o Skype for Business pode ser incapaz de transferir o número d
 
 ## <a name="5-service-reliability"></a>5. Confiabilidade do serviço
 
-O Plano de Chamada do Microsoft 365 ou do Office 365 depende da sua conexão de banda larga. Se a conexão de banda larga sofrer um corte de energia ou uma falha, você não poderá fazer telefonemas. As causas das falhas podem estar fora de nosso controle.
+Microsoft 365 ou Office 365 plano de chamada depende de sua conexão de banda larga. Se a conexão de banda larga sofrer um corte de energia ou uma falha, você não poderá fazer telefonemas. As causas das falhas podem estar fora de nosso controle.
 
 ## <a name="6-emergency-calls"></a>6. Chamadas de emergência
 
-O Skype for Business fornece acesso a serviços públicos de chamadas de emergência pelos números 999/112 para clientes na Inglaterra, no País de Gales, na Escócia e na Irlanda do Norte. No entanto, as chamadas de emergência para 999 ou 112 operam de forma diferente com os serviços do Microsoft 365 ou do Plano de Chamada do Office 365 do que os serviços telefônicos tradicionais. Os clientes devem notificar cada usuário dos serviços do Plano de Chamada do Microsoft 365 ou do Office 365 sobre essas diferenças.
+O Skype for Business fornece acesso a serviços públicos de chamadas de emergência pelos números 999/112 para clientes na Inglaterra, no País de Gales, na Escócia e na Irlanda do Norte. No entanto, as chamadas de emergência para o 999 ou 112 operam de forma diferente com serviços Microsoft 365 ou Office 365 de Chamada do que nos serviços telefônicos tradicionais. Os clientes são obrigados a notificar cada usuário do Microsoft 365 ou Office 365 serviços de Plano de Chamada dessas diferenças.
 
-As diferenças incluem o seguinte: (i) o Skype for Business pode não saber a localização real de um chamador, o que pode resultar na envio de serviços de emergência para o local errado; (ii) quando um usuário do Skype for Business disca uma chamada de emergência, o usuário pode ser solicitado por um operador a fornecer sua localização atual para ajudar a rotear corretamente a chamada de emergência e encaminhar serviços de emergência; (iii) se o dispositivo do usuário não tiver energia, estiver com uma queda de energia ou, por qualquer motivo, não puder acessar a Internet de outra forma, o usuário não poderá fazer uma chamada de emergência por meio dos serviços do Microsoft 365 ou do Plano de Chamada do Office 365; e (iv) embora os serviços do Plano de Chamada do Microsoft 365 e do Office 365 possam ser usados em qualquer lugar do mundo onde uma conexão com a Internet está disponível, os usuários não devem ligar para 999 ou 112 fora da Inglaterra, País de Gales, Escócia ou Irlanda do Norte, pois a chamada provavelmente não será encaminhada para o serviço de emergência apropriado.
+As diferenças incluem o seguinte: (i) Skype for Business pode não saber a localização real de um chamador, o que pode resultar em que os serviços de emergência estão sendo despachados para o local errado; (ii) quando um usuário Skype for Business disca uma chamada de emergência, o usuário pode ser solicitado por um operador a fornecer sua localização atual para ajudar a rotear corretamente a chamada de emergência e encaminhar os serviços de emergência; (iii) se o dispositivo do usuário não tiver energia, estiver com uma falta de energia ou, por qualquer motivo, não puder acessar a Internet de outra forma, o usuário não poderá fazer uma chamada de emergência por meio dos serviços Microsoft 365 ou Office 365 Plano de Chamada; e (iv) embora os serviços de Plano de Chamada Microsoft 365 e Office 365 possam ser usados em qualquer lugar do mundo onde uma conexão com a Internet está disponível, os usuários não devem chamar 999 ou 112 fora da Inglaterra, País de Gales, Escócia ou Irlanda do Norte, pois a chamada provavelmente não será roteada para o serviço de emergência apropriado.
 
 É importante que todos os clientes registrem a localização dos usuários e mantenham essas informações atualizadas para que possam ser fornecidas aos serviços de emergência. Você pode fazer mudanças nas informações de localização online por meio do portal do administrador do Skype for Business.
 

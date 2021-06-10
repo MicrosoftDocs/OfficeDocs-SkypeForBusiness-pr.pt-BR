@@ -42,7 +42,7 @@ Ao criar equipes, recomendamos começar com um pequeno número de equipes e memb
 
 ## <a name="create-channels-to-focus-discussions"></a>Crie canais para concentrar discussões
 
-Depois de criar sua equipe, é uma boa ideia começar a pensar nos diferentes projetos e tipos de conversas que você precisa dar suporte. Crie canais iniciais para que as pessoas saibam onde contribuir e encontrar conversas existentes. Use nomes descritivos de canais para facilitar que as pessoas saibam para onde ir durante cada conversa. Adicione ferramentas (como OneNote, Power BI ou Planner) como guias a um canal para que os membros tenham tudo o que precisam, diretamente no canal. Você também pode adicionar uma página da Web comumente usada como uma guia a um canal.
+Depois de criar sua equipe, é uma boa ideia começar a pensar nos diferentes projetos e tipos de conversas que você precisa suportar. Crie canais iniciais para que as pessoas saibam onde contribuir e encontrar conversas existentes. Use nomes descritivos de canais para facilitar que as pessoas saibam para onde ir durante cada conversa. Adicione ferramentas (como OneNote, Power BI ou Planner) como guias a um canal para que os membros tenham tudo o que precisam, diretamente no canal. Você também pode adicionar uma página da Web comumente usada como uma guia a um canal.
 
 Saiba mais sobre como [trabalhar em equipes](https://support.office.com/article/teams-and-channels-df38ae23-8f85-46d3-b071-cb11b9de5499#ID0EAABAAA=Work_in_teams) com essas dicas rápidas aos usuários finais.
 

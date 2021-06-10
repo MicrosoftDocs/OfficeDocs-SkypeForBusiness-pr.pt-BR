@@ -7,7 +7,7 @@ ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: bjwhalen
 audience: admin
-description: Saiba mais sobre a experiência do cliente do Teams e a conformidade com modos de coexistência (SfBOnly, SfBWithTeamsCollab, SfBWithTeamsCollabAndMeetings).
+description: Saiba mais Teams experiência do cliente e conformidade com modos de coexistência (SfBOnly, SfBWithTeamsCollab, SfBWithTeamsCollabAndMeetings).
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -31,26 +31,26 @@ ms.locfileid: "51119250"
 
 <a name="about-upgrade-basic"></a>
 
-O objetivo dos modos de coexistência do Skype for Business (SfBOnly, SfBWithTeamsCollab, SfBWithTeamsCollabAndMeetings) é fornecer uma experiência simples e previsível para os usuários finais à medida que as organizações migram do Skype for Business para o Teams.  Para uma organização mudar  para o Teams, o modo Somente Equipes é o destino final para cada usuário, embora nem todos os usuários precisem ser atribuídos somente ao **Teams** (ou a qualquer outro modo) ao mesmo tempo.  Antes de os usuários chegarem ao modo TeamsOnly, as organizações podem usar qualquer um dos modos de coexistência do Skype for Business para garantir uma comunicação previsível entre os usuários que são o **Teams Only** e aqueles que ainda não estão. 
+O objetivo dos modos de coexistência do Skype for Business (SfBOnly, SfBWithTeamsCollab, SfBWithTeamsCollabAndMeetings) é fornecer uma experiência simples e previsível para os usuários finais à medida que as organizações migram de Skype for Business para Teams.  Para uma organização mudar para Teams, o modo somente **Teams** é o destino final para cada usuário, embora nem todos os usuários precisem ser atribuídos somente Teams **(ou** qualquer outro modo) ao mesmo tempo.  Antes de os usuários chegarem ao modo TeamsOnly, as organizações podem usar qualquer um dos modos de coexistência do Skype for Business para garantir uma comunicação previsível entre os usuários que estão Teams **somente** e aqueles que ainda não estão. 
 
-Quando um usuário está em qualquer um dos modos skype for Business, todos os chats de entrada e chamadas são roteados para o cliente skype for Business do usuário. Para evitar confusão do usuário final e garantir o roteamento adequado, a funcionalidade de chamada e chat no cliente do Teams é desabilitada quando um usuário está em qualquer um dos modos do Skype for Business. Da mesma forma, o agendamento de reuniões no Teams é explicitamente desabilitado quando os usuários estão nos modos SfBOnly ou SfBWithTeamsCollab e explicitamente habilitados quando um usuário está no modo SfBWithTeamsCollabAndMeetings.
+Quando um usuário está em qualquer um dos modos Skype for Business, todos os chats de entrada e chamadas são roteados para o cliente Skype for Business usuário. Para evitar confusão do usuário final e garantir o roteamento adequado, a funcionalidade de chamada e de chat no cliente Teams é desabilitada quando um usuário está em qualquer um dos modos Skype for Business de usuário. Da mesma forma, o agendamento de reunião no Teams é explicitamente desabilitado quando os usuários estão nos modos SfBOnly ou SfBWithTeamsCollab e explicitamente habilitados quando um usuário está no modo SfBWithTeamsCollabAndMeetings.
 
-Como a presença é uma indicação de capacidade de acesso por meio de chat e chamada, quando o chat e a chamada são desabilitados, a auto-presença no Teams (ou seja, a exibição da própria presença no cliente do Teams na imagem do usuário) também fica oculta. 
+Como a presença é uma indicação de alcance por meio de chat e chamada, quando o chat e a chamada são desabilitados, a auto-presença no Teams (ou seja, a exibição da própria presença no cliente Teams na imagem do usuário) também fica oculta. 
 
-## <a name="how-the-available-functionality-in-teams-client-changes-based-on-mode"></a>Como a funcionalidade disponível no cliente do Teams muda com base no modo
+## <a name="how-the-available-functionality-in-teams-client-changes-based-on-mode"></a>Como a funcionalidade disponível no Teams cliente muda com base no modo
 
 A funcionalidade disponível no Teams depende do modo de coexistência do usuário, conforme definido por TeamsUpgradePolicy. A tabela a seguir resume o comportamento:
 
-|Modo efetivo do usuário|Experiência no cliente do Teams|
+|Modo efetivo do usuário|Experiência no Teams cliente|
 |---|---|
-|Qualquer modo skype for Business|A chamada, o Chat e a auto-presença estão desabilitados.|
+|Qualquer Skype for Business modo|A chamada, o Chat e a auto-presença estão desabilitados.|
 |SfBWithTeamsCollabAndMeetings|Agendamento de reuniões está disponível|
 |SfBWithTeamsCollab ou SfBOnly<sup>1</sup>|O agendamento de reuniões não está disponível|
 |||
 
-As capturas de tela a seguir ilustram a diferença entre **o modo Teams Only** ou **Islands** e todos os outros modos. Observe que os ícones de chat e chamada estão disponíveis por padrão com o modo **Teams Only** ou **Islands** (captura de tela à esquerda), mas não com os outros modos (captura de tela à direita):
+As capturas de tela a seguir ilustram a diferença entre Teams **modo Somente** ou **Ilhas** e todos os outros modos. Observe que os ícones de chat e  chamada estão disponíveis por padrão com o modo Somente Teams ou **Ilhas** (captura de tela à esquerda), mas não com os outros modos (captura de tela à direita):
 
-![Uma comparação lado a lado dos modos do Teams](media/teams-mode-comparison.png)
+![Uma comparação lado a lado de Teams modos](media/teams-mode-comparison.png)
 
 Além disso, a auto-presença não está disponível nos outros modos, conforme mostrado aqui.
 
@@ -61,7 +61,7 @@ Além disso, a auto-presença não está disponível nos outros modos, conforme 
 
 
 ## <a name="impact-of-mode-on-other-policy-settings"></a>Impacto do modo em outras configurações de política
-Conforme descrito acima, o impacto do modo de coexistência de um usuário é a funcionalidade disponível no cliente do Teams do usuário. Isso significa que o valor do modo pode ter precedência sobre o valor de outras configurações de política, dependendo do modo. Especificamente, o modo de coexistência afeta se as seguintes configurações de política são atendida:
+Conforme descrito acima, o impacto do modo de coexistência de um usuário é a funcionalidade disponível no cliente Teams usuário. Isso significa que o valor do modo pode ter precedência sobre o valor de outras configurações de política, dependendo do modo. Especificamente, o modo de coexistência afeta se as seguintes configurações de política são atendida:
 
 |**Modalidade (App)**|**Policy.Setting**|
 |---|---|

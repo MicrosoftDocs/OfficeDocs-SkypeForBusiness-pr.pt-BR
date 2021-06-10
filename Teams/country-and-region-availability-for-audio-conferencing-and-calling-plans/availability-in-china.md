@@ -24,7 +24,7 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Aqui estão os serviços do Microsoft 365 e do Office 365 para Skype for Business e Microsoft Teams disponíveis para a China.
+description: Aqui estão os serviços Microsoft 365 Office 365 para Skype for Business e Microsoft Teams disponíveis para a China.
 ms.openlocfilehash: 76feb7bba530b766e8d00880963058d770a1bd49
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
@@ -36,14 +36,14 @@ ms.locfileid: "51118240"
 
 [Encontre outro país ou região](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) ou saiba mais sobre a disponibilidade de Audioconferência e planos de chamadas por país e região.
 
-Aqui estão os serviços do Microsoft 365 e do Office 365 para Skype for Business e Microsoft Teams disponíveis para a China.
+Aqui estão os serviços Microsoft 365 Office 365 para Skype for Business e Microsoft Teams disponíveis para a China.
   
 ## <a name="audio-conferencing"></a>Audioconferência
 
 |**Recurso**|**Detalhes**|
 |:-----|:-----|
 |A Audioconferência está disponível para compra?  <br/> |Sim, para uso por usuários localizados fora da China. Entre em contato com sua equipe de conta para obter informações adicionais.  <br/> |
-|Os números de telefone são atribuídos automaticamente para a Audioconferência?  <br/> | Não geográfico. Os números de telefone não estão vinculados a uma cidade ou local específico. <br/>  Para obter números de telefone dedicados, consulte [Obtendo números de telefone de serviço do Skype for Business e do Microsoft Teams](../getting-service-phone-numbers.md).  <br/> |
+|Os números de telefone são atribuídos automaticamente para a Audioconferência?  <br/> | Não geográfico. Telefone números não estão vinculados a uma cidade ou local específico. <br/>  Para obter números de telefone dedicados, consulte [Obtendo números de telefone de serviço do Skype for Business e do Microsoft Teams](../getting-service-phone-numbers.md).  <br/> |
 |Funcionalidade de discagem usando o recurso Telefonar para Mim  <br/> | Sim, exceto para clientes que compram o serviço da China. Os recursos de discagem estão desabilitados para clientes que compram o serviço da China.   <br/> |
    
 ## <a name="phone-system"></a>Sistema de Telefonia

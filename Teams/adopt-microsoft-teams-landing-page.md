@@ -1,7 +1,7 @@
 ---
 title: Adotar o Microsoft Teams
 ms.reviewer: karuanag
-description: Saiba mais sobre os recursos de adoção disponíveis para ajudá-lo a planejar e implantar o Microsoft Teams em sua organização.
+description: Saiba mais sobre os recursos de adoção disponíveis para ajudá-lo a planejar e implantar Microsoft Teams em sua organização.
 ms.topic: overview
 author: serdarsoysal
 ms.author: serdars
@@ -19,19 +19,19 @@ ms.custom:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 020875ca5e0938fce322654be0e4a7b3e032ebf6
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 4083c0cf50062e69554218dd090a14812b29a6c0
+ms.sourcegitcommit: 36bc47b2b9ee0e738fa814c31accacfe816da4a3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51118480"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "52856380"
 ---
 # <a name="adopt-microsoft-teams"></a>Adotar o Microsoft Teams
 
 > [!NOTE]
-> Para obter uma visão geral sobre como fazer a transição para aprendizagem remota e recursos para ajudá-lo a começar, confira nossa [home page de aprendizado remoto](https://www.microsoft.com/education/remote-learning).
+> Para obter uma visão geral sobre como fazer a transição para aprendizagem remota e recursos para ajudá-lo a começar, confira nossa [home page de aprendizado remoto](/education/remote-learning).
 
-Se você quiser lançar o Teams a partir do chat, as equipes [](get-started-with-teams-quick-start.md)& canais e reuniões, use nossas diretrizes prescritivas Começar, que foi projetada para que você se ative e seja executado rapidamente. Se você for uma grande organização com uma configuração híbrida ou local do Skype for Business ou se quiser lançar recursos de voz (como planos de chamadas do Microsoft 365 ou Office 365 ou sistema telefônico), você pode começar com nossas diretrizes De início, mas você precisará das orientações adicionais abaixo, em Diretrizes de adoção mais [profundas.](#deeper-adoption-guidance)
+Se você quiser lançar um Teams começar com chat, equipes & canais e reuniões, use nossas diretrizes prescritivas De início [,](get-started-with-teams-quick-start.md)que foi projetada para que você seja iniciado e executado rapidamente. Se você for uma grande organização com uma configuração híbrida ou local Skype for Business ou se quiser lançar recursos de voz (como planos de chamadas ou sistemas telefônicos do Microsoft 365 ou do Office 365), você pode começar com nossas diretrizes De início, mas precisará das orientações adicionais abaixo, sob orientação de adoção mais [profunda.](#deeper-adoption-guidance)
 
 |               |               |               |               |               |               |
 | :-------------| :-------------| :-------------| :-------------| :-------------| :-------------|
@@ -40,7 +40,7 @@ Se você quiser lançar o Teams a partir do chat, as equipes [](get-started-with
 
 ### <a name="deeper-adoption-guidance"></a>[Diretrizes de adoção mais profundas](#deeper-adoption-guidance)
 
-Os planos de adoção podem ser simples de complexos, dependendo do ambiente. Para implantações em grande escala, confira as diretrizes abaixo para garantir que sua organização tenha uma transição suave para o Teams.
+Os planos de adoção podem ser simples de complexos, dependendo do ambiente. Para implantações em grande escala, confira as diretrizes abaixo para garantir que sua organização tenha uma transição suave para Teams.
 
 |               |               |               |               |               |               |
 | :-------------| :-------------| :-------------| :-------------| :-------------| :-------------|

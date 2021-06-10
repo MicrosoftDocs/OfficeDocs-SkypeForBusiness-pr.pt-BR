@@ -10,7 +10,7 @@ ms.service: msteams
 ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
-description: Neste artigo, você aprenderá sobre as atividades na fase de inicialização da adoção do Microsoft Teams. Entenda as práticas recomendadas sobre a configuração e o planejamento da equipe do Microsoft Teams.
+description: Neste artigo, você aprenderá sobre as atividades na fase de inicialização da Microsoft Teams adoção. Entenda as práticas recomendadas sobre Microsoft Teams configuração e planejamento de equipe.
 f1.keywords:
 - CSH
 ms.custom:
@@ -30,12 +30,12 @@ ms.locfileid: "49806121"
 ---
 # <a name="microsoft-teams-adoption-phase-1---start"></a>Fase 1 de adoção do Microsoft Teams - Início
 
-Você iniciará a adoção do Teams com as seguintes atividades:
+Você iniciará sua adoção Teams com as seguintes atividades:
 
-- [Validar pré-requisitos de adoção.](#validate-adoption-prerequisites)
-- [Reúna sua equipe.](#assemble-your-team)
-- [Compreender equipes e canais.](teams-adoption-understand-teams-and-channels.md)
-- [Configurar suas primeiras equipes no Teams para](teams-adoption-your-first-teams.md) criar seu conhecimento técnico.
+- [Valide os pré-requisitos de adoção.](#validate-adoption-prerequisites)
+- [Montar sua equipe](#assemble-your-team).
+- [Entenda equipes e canais](teams-adoption-understand-teams-and-channels.md).
+- [Configurar suas primeiras equipes no Teams](teams-adoption-your-first-teams.md) para criar seu conhecimento técnico.
 - [Avalie a preparação da sua organização para alterações.](teams-adoption-assess-readiness.md)
 
 O objetivo principal dessa fase é garantir sua preparação para a fase de experimentação. Você também determinará se precisa de ajuda da Microsoft ou de nossa rede de parceiros qualificados.  
@@ -50,27 +50,27 @@ A tabela a seguir lista as principais funções para sua equipe de projeto. Em u
 
 | Função | Responsabilidades | Departamento |
 | ---- | ---------------- | ---------- |
-| Patrocinador Executivo<sup>1</sup> | Comunicar visão de alto nível. Conecte a implementação do Teams às principais iniciativas de missão e prioridade na empresa. | Liderança Executiva |
-| Proprietário do Sucesso<sup>1</sup> | Garanta que as metas de negócios sejam realizadas a partir da adoção do Teams. | Qualquer departamento |
-| Gerenciador de<sup>Programas 1</sup> | Supervisione todo o processo de lançamento e de lançamento do Teams. | IT |
-| Campeões<sup>1</sup> | Ajude a disponibilizar o Teams, dar suporte à criação de habilidades e fornecer informações de uso. | Vários departamentos |
-| Líder de treinamento | Gerencie e comunique conteúdo de treinamento sobre o Teams. | IT ou outros |
-| Participantes do departamento (participantes)<sup>2</sup> | Identifique como departamentos específicos usarão o Teams e incentivarão o envolvimento. | Qualquer departamento (gerenciamento) |
-| Especialistas em<sup>TI 1</sup> | Supervisione todos os aspectos técnicos da implementação, incluindo integrações. | IT |
-| Communication Lead<sup>2</sup> | Supervisione as comunicações de toda a empresa sobre o Teams. | Comunicações Corporativas, IT ou outros |
-| Gerenciador de Comunidade | Gerenciar a atividade de rede do Yammer do dia a dia. Forneça orientações e práticas recomendadas. | Vários departamentos |
+| Patrocinador Executivo<sup>1</sup> | Comunicar visão de alto nível. Conexão Teams implementação às principais iniciativas de missão e prioridade na empresa. | Liderança Executiva |
+| Success Owner<sup>1</sup> | Certifique-se de que as metas de negócios sejam realizadas Teams lançamento. | Qualquer departamento |
+| Gerenciador de<sup>Programas 1</sup> | Supervisione todo o Teams de lançamento e lançamento. | TI |
+| Campeões<sup>1</sup> | Ajude a evangelizar Teams, dar suporte à criação de habilidades e fornecer informações de uso. | Vários departamentos |
+| Líder de treinamento | Gerenciar e comunicar conteúdo de treinamento sobre Teams. | IT ou outros |
+| Department Leads (Stakeholders)<sup>2</sup> | Identifique como departamentos específicos usarão Teams e incentivarão o envolvimento. | Qualquer departamento (gerenciamento) |
+| Especialistas em<sup>TI 1</sup> | Supervisione todos os aspectos técnicos da implementação, incluindo integrações. | TI |
+| Líder de comunicação<sup>2</sup> | Supervisione as comunicações de toda a empresa sobre Teams. | Comunicações Corporativas, IT ou outros |
+| Community Gerente | Gerenciar a atividade de rede Yammer dia a dia. Fornecer diretrizes e práticas recomendadas. | Vários departamentos |
 
 <sup>1</sup> Essas funções são essenciais para o sucesso do seu projeto.</br>
 <sup>2</sup> Essas funções são importantes para o sucesso geral do programa.
 
-Na maioria dos casos, essa equipe inicial deve ser um pequeno grupo de pessoas semelhantes que estão interessadas no Teams e também podem ser responsáveis por sua implementação. À medida que seu plano de adoção avança para fases adicionais, você incluirá mais pessoas em sua equipe. Também sugerimos que você tire proveito dos recursos da Microsoft disponíveis para ajudá-lo. 
+Na maioria dos casos, essa equipe inicial deve ser um pequeno grupo de pessoas com mente semelhante que estão interessadas no Teams e também podem ser responsáveis por sua implementação. À medida que seu plano de adoção passa para fases adicionais, você incluirá mais pessoas em sua equipe. Também sugerimos que você tire proveito dos recursos da Microsoft disponíveis para ajudá-lo. 
 
 ## <a name="additional-resources"></a>Recursos adicionais
 
-A [Comunidade Técnica da Microsoft](https://aka.ms/TechCommunity) fornece informações fornecidas por pares sobre a adoção e problemas técnicos para muitos produtos do Microsoft 365 e do Office 365. Sugerimos que você participe das seguintes comunidades:
+O [microsoft technical Community](https://aka.ms/TechCommunity) fornece informações sobre adoção e problemas técnicos para muitos Microsoft 365 e Office 365 produtos. Sugerimos que você participe das seguintes comunidades:
 
-- [Comunidade Técnica do Microsoft Teams](https://aka.ms/TeamsCommunity) – receba respostas para perguntas sobre produtos, aprenda com outros clientes do Teams e siga nosso blog para se manter atualizado sobre novos recursos e casos de uso para o Teams. 
-- [Programa Dos](https://aka.ms/O365Champions) Campeões e a comunidade de Adoção de Direção : aprenda com seus colegas sobre como melhor impulsionar a adoção de cargas de trabalho do Microsoft 365 ou do Office 365, como Teams, SharePoint, Yammer e outros produtos. Abra para profissionais de IT, usuários comerciais, o desenvolvedor "acidental" e qualquer pessoa interessada em impulsionar a adoção de serviços de nuvem.  
+- [Microsoft Teams Technical Community](https://aka.ms/TeamsCommunity) – obter perguntas sobre produtos respondidas, aprender com outros clientes Teams e seguir nosso blog para se manter atualizado sobre novos recursos e casos de uso para Teams. 
+- [Programa campeões](https://aka.ms/O365Champions) e a comunidade de adoção de direção – aprenda com seus colegas sobre como melhor impulsionar a adoção de cargas de trabalho de Microsoft 365 ou Office 365, como Teams, SharePoint, Yammer e outros produtos. Abra para profissionais de IT, usuários comerciais, desenvolvedor "acidental" e qualquer pessoa interessada em impulsionar a adoção de serviços de nuvem.  
 
 
-![Um ícone que representa a próxima ](media/teams-adoption-next-icon.png) etapa: [Entender equipes e canais](teams-adoption-understand-teams-and-channels.md)
+![Um ícone que representa a próxima etapa ](media/teams-adoption-next-icon.png) Next: [Compreender equipes e canais](teams-adoption-understand-teams-and-channels.md)
