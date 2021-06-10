@@ -1,5 +1,5 @@
 ---
-title: Estudo de caso de voz do Teams Contoso
+title: Teams de caso contoso de voz
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -14,7 +14,7 @@ ms.reviewer: jowrig
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Estudo de caso de voz do Teams para corporação multi-nacional
+description: Teams de caso de voz para corporação multi-nacional
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 19200ec5ab1556b0f2b4fda2f389e60bc236015b
@@ -24,13 +24,13 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 03/23/2021
 ms.locfileid: "51097487"
 ---
-# <a name="contoso-case-study-teams-voice-migration-overview"></a>Estudo de caso contoso: Visão geral da migração de voz do Teams
+# <a name="contoso-case-study-teams-voice-migration-overview"></a>Estudo de caso contoso: Teams de migração de voz
 
-Este artigo apresenta um estudo de caso para como uma corporação multi-nacional fictícia, Contoso, implementou uma solução de voz do Teams para sua organização.
+Este artigo apresenta um estudo de caso para como uma corporação multi-nacional fictícia, Contoso, implementou uma solução Teams voz para sua organização.
 
-A Contoso implantou o Microsoft 365 Enterprise e abordou as principais decisões de design e detalhes de implementação para os seguintes: rede, identidade, Windows 10 Enterprise, Office 365 ProPlus, gerenciamento de dispositivo móvel, proteção de informações, segurança, atualização do Skype for Business para o Teams, Sistema de Telefonia e Audioconferência.  
+A Contoso implantou o Microsoft 365 Enterprise e abordou as principais decisões de design e detalhes de implementação para os seguintes: rede, identidade, Windows 10 Enterprise, Office 365 ProPlus, gerenciamento de dispositivo móvel, proteção de informações, segurança, atualização do Skype for Business para Teams, Sistema de Telefonia e Audioconferência.  
 
-Este artigo se concentra em como a Contoso migrou seus usuários locais para o Teams para comunicação unificada, colaboração e voz. Para obter informações em segundo plano sobre como a Contoso acelerou sua transformação digital usando os serviços de nuvem da Microsoft, consulte todos os artigos principais começando com a visão geral do estudo de caso [contoso.](/microsoft-365/enterprise/contoso-case-study?view=o365-worldwide)
+Este artigo se concentra em como a Contoso migrou seus usuários locais para Teams comunicação unificada, colaboração e voz. Para obter informações em segundo plano sobre como a Contoso acelerou sua transformação digital usando os serviços de nuvem da Microsoft, consulte todos os artigos principais começando com a visão geral do estudo de caso [contoso.](/microsoft-365/enterprise/contoso-case-study?view=o365-worldwide)
 
 https://docs.microsoft.com/microsoft-365/enterprise/contoso-case-study?view=o365-worldwide 
 
@@ -43,31 +43,31 @@ Nos artigos principais, você encontrará informações sobre o seguinte:
 - Office 365 Pro Plus
 - Gerenciamento de dispositivos móveis
 - Proteção de informações
-- Resumo da segurança do Microsoft 365 Enterprise
+- Resumo da Microsoft 365 Enterprise segurança
 - Equipe para um projeto ultra-secreto
-- Site do SharePoint Online para ativos digitais altamente confidenciais
+- SharePoint Site online para ativos digitais altamente confidenciais
 
-Para obter informações sobre como planejar uma atualização, você vai querer começar com a atualização do [Microsoft Teams](upgrade-start-here.md).
+Para obter informações sobre como planejar uma atualização, você vai querer começar com a atualização de Microsoft Teams [.](upgrade-start-here.md)
 
-## <a name="contoso-business-goals-for-teams"></a>Metas comerciais da Contoso para o Teams
+## <a name="contoso-business-goals-for-teams"></a>Metas de negócios da Contoso para Teams
 
-Para migrar seus usuários locais para o Teams para comunicação unificada, colaboração e voz, a Contoso decidiu os seguintes objetivos comerciais:
+Para migrar seus usuários locais para Teams comunicação unificada, colaboração e voz, a Contoso decidiu os seguintes objetivos comerciais:
 
-- Habilitar o Teams 
+- Teams habilitação 
 
-  A equipe unificada de comunicação e colaboração da Contoso habilitava o Teams com as políticas corretas para governar e habilitar a colaboração interna e externa segura. 
+  A equipe unificada de comunicação e colaboração da Contoso Teams com as políticas corretas para governar e habilitar a colaboração interna e externa segura. 
 
 - Atualização do Skype for Business para o Teams 
 
-  O Skype for Business foi amplamente implantado dentro da Contoso. Com a necessidade de sair de sistemas herdáveis, a Contoso decidiu atualizar seus usuários do Skype for Business para o Teams. Para obter mais informações, consulte [Estudo de caso contoso: Plano de atualização do Teams](voice-case-study-migration-plan.md).
+  Skype for Business foi amplamente implantado dentro da Contoso. Com a necessidade de sair de sistemas herdado, a Contoso decidiu atualizar seus usuários Skype for Business para Teams. Para obter mais informações, consulte [Estudo de caso contoso: Teams plano de atualização](voice-case-study-migration-plan.md).
 
 - Sistema de Telefonia  
 
-  O Skype for Business com voz corporativa foi amplamente implantado na Contoso. Com a necessidade de mover sistemas herdados que eram o próximo salto para seus servidores de mediação, a Contoso migrou seus usuários de voz corporativa do Skype for Business para o Sistema de Telefonia. Os sites da Contoso usavam o Plano de Chamadas da Microsoft, o Roteamento Direto do Sistema de Telefonia ou uma combinação de ambos. Para obter mais informações, consulte [Estudo de caso contoso: Sistema de Telefonia](voice-case-study-phone-system.md).
+  Skype for Business com voz corporativa foi amplamente implantado dentro da Contoso. Com a necessidade de mover os sistemas herdados que eram o próximo salto para seus servidores de mediação, a Contoso migrou seus usuários de voz Skype for Business corporativos para Sistema de Telefonia. Os sites da Contoso usavam o Plano de Chamadas da Microsoft, Sistema de Telefonia Roteamento Direto ou uma combinação de ambos. Para obter mais informações, consulte Estudo de caso [contoso: Sistema de Telefonia](voice-case-study-phone-system.md).
 
 - Roteamento com Base no Local 
 
-  Com locais de escritório em países regulamentados por telefonia, a Contoso precisava recriar o roteamento de Location-Based que estava presente no Skype for Business em sua implantação do Sistema de Telefonia. Para obter mais informações, consulte [Estudo de caso contoso: Location-Based Routing](voice-case-study-location-based-routing.md).
+  Com locais de escritório em países regulamentados por telefonia, a Contoso precisava recriar o roteamento de Location-Based que estava presente no Skype for Business em sua implantação Sistema de Telefonia de telefonia. Para obter mais informações, consulte [Estudo de caso contoso: Location-Based Routing](voice-case-study-location-based-routing.md).
 
 - Chamadas de emergência 
 
@@ -79,7 +79,7 @@ Para migrar seus usuários locais para o Teams para comunicação unificada, col
 
 - Otimização de mídia local 
 
-  A Contoso aproveitou a Otimização de Mídia Local em locais onde eles tinham um tronco de rota direta para o Microsoft Phone System que era aproveitado por sites remotos. Para obter mais informações, consulte [Plan for Local Media Optimization](direct-routing-media-optimization.md) and Configure Local Media [Optimization](direct-routing-media-optimization-configure.md).
+  A Contoso aproveitou a Otimização de Mídia Local em locais onde eles tinham um tronco de rota direta para Telefone Microsoft Sistema que foi aproveitado por sites remotos. Para obter mais informações, consulte [Plan for Local Media Optimization](direct-routing-media-optimization.md) and Configure Local Media [Optimization](direct-routing-media-optimization-configure.md).
 
 - Atendimentos Automáticos e Filas de Chamada
 

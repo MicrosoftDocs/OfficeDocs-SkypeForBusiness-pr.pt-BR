@@ -1,5 +1,5 @@
 ---
-title: Criar um modelo de equipe personalizado no Microsoft Teams
+title: Criar um modelo de equipe personalizado Microsoft Teams
 author: cichur
 ms.author: v-cichur
 ms.reviewer: aaglick
@@ -8,7 +8,7 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 search.appverid: MET150
-description: Saiba como criar um modelo de equipe personalizado no Microsoft Teams.
+description: Saiba como criar um modelo de equipe personalizado em Microsoft Teams.
 localization_priority: Normal
 f1.keywords:
 - NOCSH
@@ -23,7 +23,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/02/2021
 ms.locfileid: "51506728"
 ---
-# <a name="create-a-custom-team-template-in-microsoft-teams"></a>Criar um modelo de equipe personalizado no Microsoft Teams
+# <a name="create-a-custom-team-template-in-microsoft-teams"></a>Criar um modelo de equipe personalizado Microsoft Teams
 
 **Modelos personalizados ainda não são suportados para clientes EDU.**
 
@@ -33,7 +33,7 @@ Para começar:
 
 1. Entre no Centro de administração do Teams.
 
-2. Na navegação à esquerda, **expanda** modelos  >  **de Equipe do** Teams.
+2. Na navegação à esquerda, expanda **Teams**  >  **modelos de equipe**.
 
 3. Selecione **Adicionar**.
 
@@ -61,7 +61,7 @@ Para começar:
 
 8. Selecione **Enviar** quando concluído.
 
-Seu novo modelo é exibido na lista **Modelos de** equipe. O modelo pode ser usado para criar uma equipe no Teams.
+Seu novo modelo é exibido na lista **Modelos de** equipe. O modelo pode ser usado para criar uma equipe em Teams.
 
 > [!Note]
 > Pode levar até 24 horas para que os usuários do teams vejam um modelo personalizado na galeria.
@@ -97,11 +97,11 @@ Para começar:
 
 No momento, estamos trabalhando em uma correção para equipes futuras criadas a partir de modelos personalizados.
 
-**Problema**: ao usar o Teams no navegador, alguns sites não suportam ser renderizados em uma guia do Teams.
+**Problema**: ao usar Teams no navegador, alguns sites não suportam ser renderizados em uma guia Teams.
 
 ![mensagem de erro do navegador](media/browser-error-message.png)
 
-**Solução**: se você tiver problemas para visualizar o conteúdo da guia site, será redirecionado para abrir a guia em uma página da Web separada ou abrir o Teams no aplicativo da área de trabalho em vez de exibir seu aplicativo de guia do site.
+**Solução**: se você tiver problemas para exibir o conteúdo da guia site, será redirecionado para abrir a guia em uma página da Web separada ou abrir o Teams no aplicativo da área de trabalho em vez de exibir seu aplicativo de guia de site.
 
 ## <a name="related-topics"></a>Tópicos relacionados
 

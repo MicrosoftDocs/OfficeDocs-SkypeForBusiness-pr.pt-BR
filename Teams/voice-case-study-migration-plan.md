@@ -1,5 +1,5 @@
 ---
-title: Estudo de caso de voz do Teams Contoso
+title: Teams de caso contoso de voz
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -13,7 +13,7 @@ ms.reviewer: jowrig
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Estudo de caso de voz do Teams para corporação multi-nacional
+description: Teams de caso de voz para corporação multi-nacional
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: b0da56bc0da083654a0cd694bd5983f2fe4fe515
@@ -23,9 +23,9 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 03/23/2021
 ms.locfileid: "51093721"
 ---
-# <a name="contoso-case-study-teams-upgrade-plan"></a>Estudo de caso contoso: Plano de atualização do Teams
+# <a name="contoso-case-study-teams-upgrade-plan"></a>Estudo de caso contoso: Teams plano de atualização
 
-Na decisão de migrar do Skype for Business para o Teams, a Contoso quis oferecer uma experiência de transição fácil para os usuários finais. Em vez de alternar todos para o Teams ao mesmo tempo, eles decidiram configurar a conectividade híbrida e usar o método de recursos sobrepostos para mover os usuários para o Teams. Isso permitia que os usuários do Teams e do Skype for Business locais compartilhavam presença e se comunicavam. À medida que os usuários entraram no piloto do Sistema de Telefonia, eles foram movidos para o modo Somente do Teams.
+Na decisão de migrar do Skype for Business para Teams, a Contoso quis oferecer uma experiência de transição fácil para os usuários finais. Em vez de alternar todos para Teams ao mesmo tempo, eles decidiram configurar a conectividade híbrida e usar o método de recursos sobrepostos para mover os usuários para Teams. Isso permitiu que os usuários Teams e Skype for Business local compartilhavam presença e se comunicavam. Quando os usuários entraram no piloto Sistema de Telefonia, eles foram movidos para Teams modo Somente.
 
 Para entender os conceitos fundamentais sobre atualização, métodos e modos, a Contoso leu os seguintes artigos:
 
@@ -33,7 +33,7 @@ Para entender os conceitos fundamentais sobre atualização, métodos e modos, a
 - [Estratégias de atualização para administradores de IT](upgrade-to-teams-on-prem-implement.md) 
 - [Diretrizes de migração e interoperabilidade](migration-interop-guidance-for-teams-with-skype.md)
  
-A Contoso também participou da sessão Ignite 2019 Projetando seu caminho do [Skype for Business para o Teams.](https://myignite.techcommunity.microsoft.com/sessions/81820?source=sessions) Contoso aprendeu sobre:
+A Contoso também participou da sessão Ignite 2019 [Projetando seu](https://myignite.techcommunity.microsoft.com/sessions/81820?source=sessions)caminho de Skype for Business para Teams . Contoso aprendeu sobre:
 
 - Conceitos fundamentais, como interoperabilidade, federação e comportamento de atualização 
 
@@ -45,16 +45,16 @@ A Contoso também participou da sessão Ignite 2019 Projetando seu caminho do [S
 
   - Agendamento de reuniões 
 
-  - Disponibilidade da funcionalidade de colaboração em clientes do Teams 
+  - Disponibilidade da funcionalidade de colaboração em Teams clientes 
 
 Para planejar e configurar a conectividade híbrida, a primeira etapa para [](/SkypeForBusiness/hybrid/plan-hybrid-connectivity) mover seu ambiente local para a nuvem, a Contoso leu Planejar conectividade híbrida e [Configurar](/SkypeForBusiness/hybrid/configure-hybrid-connectivity) conectividade híbrida para entender como: 
 
-  - Configure seu serviço de ambiente local para federar com o Office 365. 
+  - Configure seu serviço de ambiente local para federar com Office 365. 
 
-  - Configurar seu ambiente local para confiar no Office 365 e habilitar o espaço de endereço SIP compartilhado com o Office 365 
+  - Configure seu ambiente local para confiar Office 365 e habilitar o espaço de endereço SIP compartilhado com Office 365 
 
-  - Habilita o espaço de endereço SIP compartilhado em seu locatário do Office 365.
+  - Habilita o espaço de endereço SIP compartilhado em seu Office 365 locatário.
 
   - Use o modo Ilhas durante o piloto técnico.
 
-  - Alternar usuários para o modo TeamsOnly quando o usuário for habilitado para o Sistema de Telefonia. O modo TeamsOnly é necessário para Plano de Chamadas e Roteamento Direto.
+  - Alternar usuários para o modo TeamsOnly depois que o usuário está habilitado para Sistema de Telefonia. O modo TeamsOnly é necessário para Plano de Chamadas e Roteamento Direto.

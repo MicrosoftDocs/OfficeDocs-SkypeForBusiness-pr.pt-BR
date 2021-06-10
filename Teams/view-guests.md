@@ -21,7 +21,7 @@ ms.custom:
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-description: Neste artigo, você aprenderá como um administrador pode exibir informações sobre usuários convidados no Microsoft Teams.
+description: Neste artigo, você aprenderá como um administrador pode exibir informações sobre usuários convidados em Microsoft Teams.
 ms.openlocfilehash: 6e079a142fa6b3efcace3d4b246dbbbd16e736dd
 ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: MT
@@ -31,12 +31,12 @@ ms.locfileid: "49031037"
 ---
 # <a name="view-guest-users-in-a-team"></a>Visualizar usuários convidados em uma equipe
 
-Qualquer pessoa em uma equipe pode ver todos os membros de uma equipe, incluindo convidados, por meio **de Gerenciar equipe** no Microsoft Teams. Consulte [Ver quem está em uma equipe ou em um canal](https://support.office.com/article/see-who-s-on-a-team-or-in-a-channel-5c6be9be-9c45-4a0f-a1a0-f332b23cb6b7) para obter mais detalhes.
+Qualquer pessoa em uma equipe pode ver todos os membros de uma equipe, incluindo convidados, por meio **de Gerenciar equipe** em Microsoft Teams. Consulte [Ver quem está em uma equipe ou em um canal](https://support.office.com/article/see-who-s-on-a-team-or-in-a-channel-5c6be9be-9c45-4a0f-a1a0-f332b23cb6b7) para obter mais detalhes.
 
 Para identificar usuários convidados:
 
-1.  Entre no Centro de administração [do Microsoft 365.](https://admin.microsoft.com)
-2.  Selecione **o Teams do Centro de**  >  **administração.**
-3.  No Centro de administração do Teams, selecione **Usuários.** Você verá **o convidado** anexado ao nome de exibição de qualquer usuário convidado.
+1.  Entre no centro de administração [Microsoft 365.](https://admin.microsoft.com)
+2.  Selecione **Centros de administração**  >  **Teams**.
+3.  No centro Teams de administração, selecione **Usuários**. Você verá **convidado** anexado ao nome de exibição de qualquer usuário convidado.
   
 Você também pode identificar usuários convidados de dentro de uma equipe que você possui.  

@@ -20,7 +20,7 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
-description: 'Saiba como habilitar ou desabilitar o Skype de enviar emails aos usuários quando configurações como alterações de pino ou o número de conferência padrão mudar no Microsoft Teams. '
+description: 'Saiba como habilitar ou desabilitar Skype enviar emails para os usuários quando configurações como alterações de pino ou o número de conferência padrão é Microsoft Teams. '
 ms.openlocfilehash: e1bb6df0a443f01ed3c9bc70d03eedc05f217ce4
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
@@ -30,7 +30,7 @@ ms.locfileid: "51092699"
 ---
 # <a name="enable-or-disable-sending-emails-when-audio-conferencing-settings-change-in-microsoft-teams"></a>Ativar ou desativar o envio de e-mails quando as configurações de audioconferência são alteradas no Microsoft Teams
 
-Os usuários são automaticamente notificados por email quando estão habilitados para Audioconferência. No entanto, pode haver momentos em que você deseja reduzir o número de emails enviados aos usuários do Microsoft Teams. Nesses casos, você pode desabilitar o envio de emails.
+Os usuários são automaticamente notificados por email quando estão habilitados para Audioconferência. No entanto, pode haver momentos em que você deseja reduzir o número de emails enviados para Microsoft Teams usuários. Nesses casos, você pode desabilitar o envio de emails.
   
 Se você desabilitar o envio de emails, os emails de Audioconferência não serão enviados para seus usuários, incluindo emails para quando os usuários estão habilitados ou desabilitados para a audioconferência, quando o PIN é redefinido e quando a ID da conferência e o número de telefone de conferência padrão são trocados.
   
@@ -57,7 +57,7 @@ Aqui está um exemplo do email que é enviado aos usuários quando eles estão h
 
 ## <a name="enable-or-disable-email-from-being-sent-to-users"></a>Habilitar ou desabilitar o envio de emails aos usuários
 
-Você pode usar o Microsoft Teams ou Windows PowerShell para habilitar ou desabilitar emails enviados aos usuários.
+Você pode usar Microsoft Teams ou Windows PowerShell para habilitar ou desabilitar emails enviados aos usuários.
 
 ![Um ícone que mostra o logotipo do Microsoft Teams](media/teams-logo-30x30.png) **Usando o centro de administração do Microsoft Teams**
 
@@ -75,12 +75,12 @@ Você pode usar o Microsoft Teams ou Windows PowerShell para habilitar ou desabi
 
 **Usando Windows PowerShell**
   
-Consulte a [referência do Microsoft Teams PowerShell](/powershell/module/teams/?view=teams-ps) para obter mais informações.
+Consulte a [Microsoft Teams referência do PowerShell](/powershell/module/teams/?view=teams-ps) para obter mais informações.
 
     
 ## <a name="want-to-know-more-about-windows-powershell"></a>Deseja saber mais sobre o Windows PowerShell?
 
-O Windows PowerShell gerencia os usuários e o que eles podem ou não fazer. Com Windows PowerShell, você pode gerenciar o Microsoft 365 ou o Office 365 usando um único ponto de administração que pode simplificar seu trabalho diário quando você tem várias tarefas a fazer. Para começar a trabalhar com o Windows PowerShell, confira estes tópicos:
+O Windows PowerShell gerencia os usuários e o que eles podem ou não fazer. Com Windows PowerShell, você pode gerenciar Microsoft 365 ou Office 365 usando um único ponto de administração que pode simplificar seu trabalho diário quando você tem várias tarefas a fazer. Para começar a trabalhar com o Windows PowerShell, confira estes tópicos:
     
   - [Por que você precisa usar o PowerShell do Office 365](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     

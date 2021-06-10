@@ -21,7 +21,7 @@ ms.custom:
 - Calling Plans
 - ms.teamsadmincenter.voice.phonenumbers.searchacquire.tooltip.numbertype
 - seo-marvel-apr2020
-description: Neste artigo, você aprenderá sobre diferentes tipos de número de telefone que o Microsoft Teams usa para Planos de Chamadas.
+description: Neste artigo, você aprenderá sobre diferentes tipos de número de telefone que Microsoft Teams usa para Planos de Chamadas.
 ms.openlocfilehash: f636fa56284fe9ce7c56f3ad6380c18d3b49baff
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
@@ -31,7 +31,7 @@ ms.locfileid: "51094337"
 ---
 # <a name="different-kinds-of-phone-numbers-used-for-calling-plans"></a>Diferentes tipos de números de telefone utilizados para Planos de Chamadas
 
-O Microsoft Teams usa diferentes tipos de número de telefone, dependendo da finalidade para a qual você deseja usar o número de telefone. O  Teams usa números de usuário, que podem  ser atribuídos aos usuários em sua organização, e números de serviço, que são atribuídos a serviços como Audioconferência, atendimentos automáticos ou filas de chamada. Os números de telefone de serviço têm *uma capacidade de chamada simultânea maior do*  que os números de usuário. Os números de telefone de serviço estão disponíveis, mas variam de acordo com o país/região e o tipo de número (seja um número de chamada gratuita ou de chamada gratuita). Se você precisar de tipos de número adicionais ou outros que não os números vistos no Centro de administração do Microsoft Teams, você pode enviar uma solicitação de número de telefone para a ajuda do service [desk PSTN.](manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)
+Microsoft Teams usa diferentes tipos de número de telefone, dependendo da finalidade para a qual você deseja usar o número de telefone. Teams usa números  de usuário, que podem ser atribuídos  aos usuários em sua organização, e números de serviço, que são atribuídos a serviços como Audioconferência, atendimento automático ou filas de chamada. Os números de telefone de serviço têm *uma capacidade de chamada simultânea maior do*  que os números de usuário. Os números de telefone de serviço estão disponíveis, mas variam de acordo com o país/região e o tipo de número (seja um número de chamada gratuita ou de chamada gratuita). Se você precisar de tipos de número adicionais ou outros que não os números vistos no centro de administração Microsoft Teams, você pode enviar uma solicitação de número de telefone para a ajuda do service [desk PSTN.](manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)
   
 - **Números de usuário**
     
@@ -51,7 +51,7 @@ O Microsoft Teams usa diferentes tipos de número de telefone, dependendo da fin
         
       - **Números não geográficos** Números não geográficos são números nacionais que não têm uma relação com uma área geográfica dentro de um país/região. Por exemplo, números não geográficos geralmente têm o mesmo custo ao chamar o número de qualquer lugar dentro do país/região.
    
-  - **Números de serviço gratuitos** Esses números de serviço normalmente não incorrem em um custo de tarifa para o chamador. O Teams fornece números de gratuitas nacionais em mais de 60 países/regiões.
+  - **Números de serviço gratuitos** Esses números de serviço normalmente não incorrem em um custo de tarifa para o chamador. Teams fornece números de gratuitas nacionais em mais de 60 países/regiões.
     
     > [!CAUTION]
     > Alguns países/regiões e tipos de número de origem, como chamadas provenientes de telefones celulares, podem, em alguns casos, incorrer em um custo de chamada. 

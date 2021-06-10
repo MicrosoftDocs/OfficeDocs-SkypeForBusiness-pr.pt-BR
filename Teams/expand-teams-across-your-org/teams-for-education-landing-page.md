@@ -1,6 +1,6 @@
 ---
 title: Teams para o ensino
-description: Saiba mais sobre os recursos de administrador disponíveis para ajudá-lo a implantar, adotar e gerenciar o Teams com êxito em sua escola ou instituição.
+description: Saiba mais sobre os recursos de administrador disponíveis para ajudá-lo a implantar, adotar e gerenciar Teams em sua escola ou instituição.
 ms.topic: conceptual
 author: cichur
 ms.author: v-cichur
@@ -28,13 +28,13 @@ ms.locfileid: "51092499"
 ---
 # <a name="teams-for-education"></a>Teams para o ensino
 
-Com o Teams, educadores e professores podem criar salas de aula colaborativas, conectar-se em comunidades de aprendizagem profissional e se comunicar com alunos e educadores. Use os recursos de administrador aqui para ajudá-lo a implantar, adotar e gerenciar com êxito o Teams em sua escola ou instituição. 
+Com Teams, educadores e professores podem criar salas de aula colaborativas, se conectar em comunidades de aprendizagem profissional e se comunicar com alunos e educadores. Use os recursos de administrador aqui para ajudá-lo a implantar, adotar e gerenciar Teams em sua escola ou instituição. 
 
 
 |               |               |
 | ------------- | ------------- |
 | ![Captura de tela do ícone de seta direita](../media/arrow-right-2-teams.svg)  |  [Início rápido - Administradores do Teams for Education](../teams-quick-start-edu.yml) |
 | ![Captura de tela do ícone de papel e lápis](../media/sign-up-teams.svg) | [Tarefas do Teams for Education](./assignments-in-teams.md) |
-| ![Captura de tela do ícone de insights](../media/insights-teams.svg) | [Insights no Teams for Education](../class-insights.md) |
-| ![Captura de tela do ícone da caixa de ferramentas](../media/toolbox.svg)  |  [Recursos para administradores do Teams for Education](../resources-teams-edu.md) |
-| ![Captura de tela do ícone de lista de verificação](../media/task-checklist-planning-teams.svg)  |  [Perguntas frequentes sobre governança para administradores do Teams for Education](../plan-teams-governance-edu.md) |
+| ![Captura de tela do ícone de insights](../media/insights-teams.svg) | [Insights em Teams para Educação](../class-insights.md) |
+| ![Captura de tela do ícone da caixa de ferramentas](../media/toolbox.svg)  |  [Recursos para Teams para administradores de Educação](../resources-teams-edu.md) |
+| ![Captura de tela do ícone de lista de verificação](../media/task-checklist-planning-teams.svg)  |  [Perguntas frequentes sobre governança para Teams para administradores de Educação](../plan-teams-governance-edu.md) |

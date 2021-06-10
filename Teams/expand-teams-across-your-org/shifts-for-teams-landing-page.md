@@ -1,6 +1,6 @@
 ---
 title: Turnos do Teams
-description: Obter as diretrizes de administrador que você precisa configurar e gerenciar Turnos, a ferramenta de gerenciamento de agendamento, no Teams.
+description: Receba as diretrizes de administrador que você precisa configurar e gerenciar Turnos, a ferramenta de gerenciamento de agendamento, Teams.
 ms.topic: conceptual
 author: cichur
 ms.author: v-cichur
@@ -30,7 +30,7 @@ ms.locfileid: "51092549"
 ---
 # <a name="shifts-for-teams"></a>Turnos do Teams
 
-O Teams fornece aos Funcionários de Linha de Frente em sua organização as ferramentas necessárias para se comunicar e colaborar de forma eficaz. Este artigo mostra como configurar e gerenciar. Muda e use a ferramenta de gerenciamento de agendamento no Teams.
+Teams dá aos Trabalhadores de Linha de Frente em sua organização as ferramentas necessárias para se comunicar e colaborar de forma eficaz. Este artigo mostra como configurar e gerenciar. Shifts and use the schedule management tool in Teams.
 
 ### <a name="set-up-and-manage-shifts-for-your-organization"></a>Configurar e gerenciar turnos para sua organização
 
@@ -42,9 +42,9 @@ O Teams fornece aos Funcionários de Linha de Frente em sua organização as fer
 
 |               |               |
 | ------------- | ------------- |
-| ![api](../media/api-small.svg) | **[APIs shift graph](/graph/api/resources/shift?view=graph-rest-1.0)** As APIs shifts Graph permitem integrar dados shifts com sistemas de gerenciamento de força de trabalho externos. Você terá a flexibilidade de criar experiências de Turnos personalizadas no back-end, ao mesmo tempo em que oferece aos usuários uma experiência rica e front-end no Teams.             |
-| ![api](../media/api-small.svg) | **[Integrações de gerenciamento de força de trabalho](https://github.com/OfficeDev/Microsoft-Teams-Shifts-WFM-Connectors)** Se você estiver usando sistemas de gerenciamento de força de trabalho de terceiros, como Kronos e JDA, para agendamento, hora e participação, você pode se integrar diretamente às APIs shifts Graph e SDK com integrações de código aberto. |
-| ![api](../media/process-flow-teams-small.svg) | **[Turnos + Power Automate](https://github.com/OfficeDev/Microsoft-Teams-Shifts-Power-Automate-Templates)** Turnos + Power Automate permite que você pegue informações de Shifts e crie fluxos de trabalho personalizados com outros aplicativos e execute operações em escala. Automatizar processos-chave com pouco ou nenhum código. Os gatilhos e modelos suportam uma variedade de cenários, como a habilitação de aprovações automáticas para solicitações de turno quando a aprovação de um gerente não é necessária. |
+| ![api](../media/api-small.svg) | **[APIs Graph shift](/graph/api/resources/shift?view=graph-rest-1.0)** As mudanças Graph APIs permitem integrar dados shifts com sistemas de gerenciamento de força de trabalho externos. Você terá a flexibilidade de criar experiências personalizadas de Shifts no back-end, ao mesmo tempo que oferece aos usuários uma experiência de front-end rica no Teams.             |
+| ![api](../media/api-small.svg) | **[Integrações de gerenciamento de força de trabalho](https://github.com/OfficeDev/Microsoft-Teams-Shifts-WFM-Connectors)** Se você estiver usando sistemas de gerenciamento de força de trabalho de terceiros, como Kronos e JDA, para agendamento, hora e participação, poderá integrar-se diretamente com shifts por meio de APIs de turnos Graph e SDK com integrações de código aberto. |
+| ![api](../media/process-flow-teams-small.svg) | **[Turnos + Power Automate](https://github.com/OfficeDev/Microsoft-Teams-Shifts-Power-Automate-Templates)** Shifts + Power Automate permite que você pegue informações de Shifts e crie fluxos de trabalho personalizados com outros aplicativos e execute operações em escala. Automatizar processos-chave com pouco ou nenhum código. Os gatilhos e modelos suportam uma variedade de cenários, como a habilitação de aprovações automáticas para solicitações de turno quando a aprovação de um gerente não é necessária. |
 
 ## <a name="featured-training"></a>Treinamento em destaque
 

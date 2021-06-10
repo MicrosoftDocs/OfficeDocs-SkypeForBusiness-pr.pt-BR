@@ -18,25 +18,23 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 85a03967b9ea7facb5f7a69090b1b5902b601f64
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: 6656871e2232df82f81bfea4568cf857e4271d79
+ms.sourcegitcommit: 36bc47b2b9ee0e738fa814c31accacfe816da4a3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46581382"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "52855900"
 ---
-<a name="best-practices-for-user-feedback-methods-in-microsoft-teams"></a>Boas práticas de métodos de feedback do usuário no Microsoft Teams
-===========================================================
+# <a name="best-practices-for-user-feedback-methods-in-microsoft-teams"></a>Boas práticas de métodos de feedback do usuário no Microsoft Teams
 
-A adoção de uma nova experiência de colaboração gira em torno de mudar o comportamento dos seus usuários. As pessoas precisam de treinamento, incentivo e exemplos positivos. É também fundamental que se sintam ouvidas durante a transição. Caso já tenha estabelecido anteriormente métodos de feedback bem-sucedidos na sua organização, considere ampliá-los para incluir a implementação do seu Teams. Se ainda não tiver feito isso antes, considere uma das seguintes abordagens:
+A adoção de uma nova experiência de colaboração gira em torno de mudar o comportamento dos seus usuários. A mudança humana requer treinamento, incentivo e exemplos positivos. Também é fundamental que as pessoas se sintam ouvidas durante a transição. Caso já tenha estabelecido anteriormente métodos de feedback bem-sucedidos na sua organização, considere ampliá-los para incluir a implementação do seu Teams. Se você ainda não fez isso antes, considere uma das seguintes abordagens:
 
--   Criar uma equipe pública no Microsoft Teams que qualquer usuário possa ingressar para fornecer comentários sobre sua experiência (tendo em mente que os grupos públicos estão limitados a 5.000 usuários).
+- Crie uma equipe pública dentro Microsoft Teams que qualquer usuário possa participar para fornecer comentários sobre sua experiência (tenha em mente que os grupos públicos estão limitados a 5.000 usuários).
 
--   Uso do Yammer para oferecer uma comunidade aberta para boas práticas e suporte para a experiência.
+- Use Yammer para fornecer uma comunidade aberta para práticas recomendadas e suporte para a experiência.
 
-Os métodos de feedback conduzidos pela comunidade exige o envolvimento dos defensores e dos proprietários do serviço. Recomendamos a criação de um calendário de monitoramento que faça um rodízio entre esses membros. Uma boa prática é a criação de uma equipe separada dentro do Microsoft Teams, como um local onde os defensores possam colaborar, compartilhar recursos e boas práticas antes de compartilhá-los com toda a equipe. Os defensores desempenham um papel consultivo para os usuários que adotam o novo serviço, oferecem uma presença amigável e humana para a mudança e colaboram com outros membros da sua equipe de implantação para levantar e solucionar problemas.
+Os métodos de feedback conduzidos pela comunidade exige o envolvimento dos defensores e dos proprietários do serviço. Recomendamos a criação de um calendário de monitoramento que faça um rodízio entre esses membros. Uma dica é criar uma equipe separada dentro Microsoft Teams como um local onde esses campeões podem colaborar, compartilhar recursos e práticas recomendadas antes de compartilhá-los com a equipe mais ampla. Os defensores executam uma função de consultoria para os usuários que adotam o novo serviço, fornecem uma face amigável e humana para a alteração e colaboram com outros membros da sua equipe de implantação para levantar e resolver problemas.
 
-<a name="showcases"></a>Exemplos
----------
+## <a name="showcases"></a>Exemplos
 
-Ao continuar essa jornada, você encontrará exemplos no seu próprio ambiente de funcionários, cuja criatividade com o Microsoft Teams o surpreenderão e o encantarão. Recomendamos que você compartilhe esses exemplos ao máximo. Isso incentivará outras pessoas a serem inovadoras, instruir os usuários que podem estar anteriormente na curva de adoção e recompensar aqueles que aproveitaram o tempo para pensar sobre como usar melhor o Microsoft Teams em seu ambiente. Estabelecer uma meta mensurável ou identificar um número específico de exemplos a cada trimestre pode ser útil para manter a sua dinâmica de adoção.
+À medida que você continua nesta jornada, você encontrará vitrines em seu próprio ambiente de funcionários cuja criatividade com Microsoft Teams irá surpreendê-lo e encante-lo. Compartilhe essas exibições amplamente. Isso incentivará outras pessoas a serem inovadoras, instruir os usuários que podem estar anteriormente na curva de adoção e recompensar aqueles que aproveitaram o tempo para pensar em como usar melhor o Microsoft Teams em seu ambiente. Estabelecer uma meta mensurável ou identificar um número específico de exemplos a cada trimestre pode ser útil para manter a sua dinâmica de adoção.

@@ -25,7 +25,7 @@ ms.locfileid: "51092509"
 ---
 # <a name="teams-for-healthcare"></a>Teams para Serviços de Saúde
 
-O Teams oferece às equipes de saúde e profissionais de saúde uma maneira segura de se comunicar, coordenar o atendimento ao paciente e melhorar a eficiência operacional. Aqui você encontrará os recursos de administração necessários para gerenciar o Teams para equipes de saúde em sua organização.
+Teams oferece às equipes de saúde e profissionais de saúde uma maneira segura de se comunicar, coordenar o cuidado do paciente e melhorar a eficiência operacional. Aqui você encontrará os recursos de administração necessários para gerenciar o Teams para equipes de saúde em sua organização.
 
 |               |               |
 | ------------- | ------------- |

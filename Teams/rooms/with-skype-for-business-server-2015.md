@@ -1,5 +1,5 @@
 ---
-title: Implantar salas do Microsoft Teams com o Skype for Business Server
+title: Implantar Salas do Microsoft Teams com Skype for Business Server
 ms.author: dstrome
 author: dstrome
 manager: serdars
@@ -13,7 +13,7 @@ localization_priority: Normal
 ms.collection:
 - M365-collaboration
 ms.assetid: a038e34d-8bc8-4a59-8ed2-3fc00ec33dd7
-description: Leia este tópico para obter informações sobre como implantar salas do Microsoft Teams com o Skype for Business Server.
+description: Leia este tópico para obter informações sobre como implantar Salas do Microsoft Teams com Skype for Business Server.
 ms.custom: seo-marvel-apr2020
 ms.openlocfilehash: 9ee33ec1ded7e8461f629c4552236ee60828a168
 ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
@@ -22,14 +22,14 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 12/12/2020
 ms.locfileid: "49662256"
 ---
-# <a name="deploy-microsoft-teams-rooms-with-skype-for-business-server"></a>Implantar salas do Microsoft Teams com o Skype for Business Server
+# <a name="deploy-microsoft-teams-rooms-with-skype-for-business-server"></a>Implantar Salas do Microsoft Teams com Skype for Business Server
   
-Este tópico explica como adicionar uma conta de dispositivo para Salas do Microsoft Teams quando você tem uma implantação local e de floresta única.
+Este tópico explica como você adiciona uma conta de dispositivo para Salas do Microsoft Teams quando você tem uma implantação local e de floresta única.
   
-Se você tiver uma implantação local e única com o Exchange 2013 SP1 ou posterior e o Skype for Business Server 2015 ou posterior, poderá usar os scripts fornecidos do Windows PowerShell para criar contas de dispositivo. Se você estiver usando uma implantação de várias florestas, poderá usar cmdlets equivalentes que produzirão os mesmos resultados. Esses cmdlets são descritos nesta seção.
+Se você tiver uma implantação local de floresta única com o Exchange 2013 SP1 ou posterior e Skype for Business Server 2015 ou posterior, poderá usar os scripts Windows PowerShell fornecidos para criar contas de dispositivo. Se você estiver usando uma implantação de várias florestas, poderá usar cmdlets equivalentes que produzirão os mesmos resultados. Esses cmdlets são descritos nesta seção.
 
   
-Antes de começar a implantar as Salas do Microsoft Teams, certifique-se de ter as permissões corretas para executar os cmdlets associados.
+Antes de começar a Salas do Microsoft Teams, certifique-se de ter as permissões certas para executar os cmdlets associados.
   
 
    ``` Powershell
@@ -43,9 +43,9 @@ Antes de começar a implantar as Salas do Microsoft Teams, certifique-se de ter 
    Import-PSSession $sessLync
    ```
 
-   Observe que $strExchangeServer é o nome de domínio totalmente qualificado (FQDN) do seu servidor Exchange e $strLyncFQDN é o FQDN da sua implantação do Skype for Business Server.
+   Observe que $strExchangeServer é o FQDN (nome de domínio totalmente qualificado) do seu servidor Exchange, e o $strLyncFQDN é o FQDN da sua implantação Skype for Business Server.
 
-2. Depois de estabelecer uma sessão, você criará uma nova caixa de correio e a habilitará como uma RoomMailboxAccount ou alterará as configurações de uma caixa de correio de sala existente. Isso permitirá que a conta se autenture nas Salas do Microsoft Teams.
+2. Depois de estabelecer uma sessão, você criará uma nova caixa de correio e a habilitará como RoomMailboxAccount ou alterará as configurações de uma caixa de correio de sala existente. Isso permitirá que a conta seja autenticada Salas do Microsoft Teams.
 
     Se você alterar uma caixa de correio do recurso:
 
@@ -61,7 +61,7 @@ Antes de começar a implantar as Salas do Microsoft Teams, certifique-se de ter 
    -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String <password> -AsPlainText -Force)
    ```
 
-3. Você pode definir várias propriedades do Exchange na conta do dispositivo para melhorar a experiência de reunião para as pessoas. Para saber quais propriedades precisam ser definidas, confira a seção Propriedades do Exchange.
+3. Você pode definir várias Exchange na conta do dispositivo para melhorar a experiência de reunião para as pessoas. Para saber quais propriedades precisam ser definidas, confira a seção Propriedades do Exchange.
 
    ``` Powershell
    Set-CalendarProcessing -Identity $acctUpn -AutomateProcessing AutoAccept -AddOrganizerToSubject $false -AllowConflicts $false -DeleteComments
@@ -69,19 +69,19 @@ Antes de começar a implantar as Salas do Microsoft Teams, certifique-se de ter 
    Set-CalendarProcessing -Identity $acctUpn -AddAdditionalResponse $true -AdditionalResponse "This is a Skype Meeting room!"
    ```
 
-4. Se você decidir que a senha não expira, também poderá defini-la com cmdlets do Windows PowerShell. Para obter mais informações, confira Gerenciamento de senha.
+4. Se você decidir não ter a senha expirada, poderá definir isso com Windows PowerShell cmdlets também. Para obter mais informações, confira Gerenciamento de senha.
 
    ``` Powershell
    Set-AdUser $acctUpn -PasswordNeverExpires $true
    ```
 
-5. Habilita a conta no Active Directory para que ela seja autenticada nas Salas do Microsoft Teams.
+5. Habilita a conta no Active Directory para que ela seja autenticada Salas do Microsoft Teams.
 
    ``` Powershell
    Set-AdUser $acctUpn -Enabled $true
    ```
 
-6. Habilitar a conta do dispositivo com o Skype for Business Server habilitando sua conta do Microsoft Teams Rooms Active Directory em um pool do Skype for Business Server:
+6. Habilita a conta de dispositivo com Skype for Business Server habilitando sua conta do Salas do Microsoft Teams Active Directory em um pool Skype for Business Server:
 
    ``` Powershell
    Enable-CsMeetingRoom -SipAddress sip:PROJECTRIGEL01@contoso.com -DomainController DC-ND-001.contoso.com
@@ -90,7 +90,7 @@ Antes de começar a implantar as Salas do Microsoft Teams, certifique-se de ter 
 
     Você deverá usar o endereço do protocolo SIP e o controlador de domínio do projeto
 
-7. **Opcional**. Você também pode permitir que as Salas do Microsoft Teams façam e recebam chamadas telefônicas PSTN (rede telefônica pública comutado) habilitando o Enterprise Voice para sua conta. O Enterprise Voice não é um requisito para salas do Microsoft Teams, mas se você quiser a funcionalidade de discagem PSTN para o cliente Salas do Microsoft Teams, veja como habilita-lo:
+7. **Opcional**. Você também pode permitir Salas do Microsoft Teams fazer e receber chamadas telefônicas PSTN (rede telefônica pública comutado) habilitando Enterprise Voice para sua conta. Enterprise Voice não é um requisito para Salas do Microsoft Teams, mas se você quiser a funcionalidade de discagem PSTN para o cliente Salas do Microsoft Teams, veja como habilita-la:
 
    ``` Powershell
    Set-CsMeetingRoom PROJECTRIGEL01 -DomainController DC-ND-001.contoso.com -LineURI "tel:+14255550555;ext=50555"
@@ -101,7 +101,7 @@ Antes de começar a implantar as Salas do Microsoft Teams, certifique-se de ter 
 
    Novamente, será necessário substituir o controlador de domínio fornecido e os exemplos de números de telefone por suas próprias informações. O valor do parâmetro $true permanece o mesmo.
 
-## <a name="sample-room-account-setup-in-exchange-and-skype-for-business-server-on-premises"></a>Exemplo: configuração de conta de sala no Exchange e no Skype for Business Server local
+## <a name="sample-room-account-setup-in-exchange-and-skype-for-business-server-on-premises"></a>Exemplo: configuração de conta de sala Exchange e Skype for Business Server local
 
 ``` Powershell
 New-Mailbox -Alias rigel1 -Name "Rigel 1" -Room -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String "" -AsPlainText -Force)
@@ -119,7 +119,7 @@ Grant-CsDialPlan -PolicyName e15dp2.contoso.com -Identity rigel1
 
 ## <a name="related-topics"></a>Tópicos relacionados
 
-[Configurar contas para salas do Microsoft Teams](rooms-configure-accounts.md)
+[Configurar contas para Salas do Microsoft Teams](rooms-configure-accounts.md)
 
 [Planejar as Salas do Microsoft Teams](rooms-plan.md)
   

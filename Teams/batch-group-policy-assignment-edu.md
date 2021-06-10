@@ -29,11 +29,11 @@ ms.locfileid: "51092899"
 [!INCLUDE [policy-wizard-edu](includes/policy-wizard-edu.md)]
 
 > [!NOTE]
-> Para saber mais sobre como atribuir políticas no Microsoft Teams, consulte [Assign policies to your users in Teams](assign-policies.md).
+> Para saber mais sobre como atribuir políticas em Microsoft Teams, consulte Atribuir políticas aos usuários [em Teams](assign-policies.md).
 
 ## <a name="overview"></a>Visão Geral
 
-Você precisa dar aos alunos e educadores acesso a diferentes recursos no Microsoft Teams? Você pode identificar rapidamente os usuários em sua organização por tipo de licença e atribuí-los a política apropriada. Este tutorial mostra como atribuir uma política de reunião a grandes conjuntos de usuários em sua escola. Você pode atribuir políticas usando o Centro de administração do Microsoft Teams e o PowerShell e mostraremos as duas maneiras.
+Você precisa dar aos alunos e educadores acesso a diferentes recursos no Microsoft Teams? Você pode identificar rapidamente os usuários em sua organização por tipo de licença e atribuí-los a política apropriada. Este tutorial mostra como atribuir uma política de reunião a grandes conjuntos de usuários em sua escola. Você pode atribuir políticas usando o centro de administração Microsoft Teams e o PowerShell e mostraremos as duas maneiras.
 
 Você pode atribuir uma política de reunião a um grupo de segurança de que os usuários são membros ou diretamente aos usuários em escala por meio de uma atribuição de política em lotes. Você aprenderá a:
 
@@ -41,7 +41,7 @@ Você pode atribuir uma política de reunião a um grupo de segurança de que os
 
 - **Use [a atribuição de política em lote](assign-policies.md#assign-a-policy-to-a-batch-of-users) para atribuir uma política de reunião diretamente aos usuários em massa.** Você pode atribuir uma política para até 5.000 usuários por vez. Se você tiver mais de 5.000 usuários, poderá enviar vários lotes. Com esse método, quando você tiver novos usuários, precisará executar a atribuição em lotes para atribuir a política a esses novos usuários.
 
-Lembre-se de que, no Teams, os usuários receberão automaticamente a política Global (padrão em toda a organização) para um tipo de política do Teams, a menos que você crie e atribua uma política personalizada. Como a população de alunos geralmente é o maior conjunto de usuários e eles geralmente recebem as configurações mais restritivas, recomendamos que você faça o seguinte:
+Lembre-se de Teams, os usuários receberão automaticamente a política Global (padrão em toda a organização) para um tipo de política Teams, a menos que você crie e atribua uma política personalizada. Como a população de alunos geralmente é o maior conjunto de usuários e eles geralmente recebem as configurações mais restritivas, recomendamos que você faça o seguinte:
 
 - Crie uma política personalizada que permita recursos fundamentais, como chat privado e agendamento de reuniões e atribua a política à sua equipe e educadores.
 - Atribua a política personalizada aos seus funcionários e educadores.
@@ -51,7 +51,7 @@ Lembre-se de que a política Global será aplicada a todos os usuários em sua e
 
 Neste tutorial, os alunos receberão a política de reunião global e atribuiremos uma política de reunião personalizada chamada EducatorMeetingPolicy a funcionários e educadores. Presumimos que você editou a política global para adaptar as configurações de reunião para alunos e criou uma política personalizada que define [a](policy-packages-edu.md) experiência de reunião para funcionários e educadores.
 
-![Captura de tela da página Políticas de reunião no centro de administração do Teams](media/batch-group-policy-assignment-edu-meeting-policies.png)
+![Captura de tela da página Políticas de reunião no Teams de administração](media/batch-group-policy-assignment-edu-meeting-policies.png)
 
 ## <a name="assign-a-policy-to-a-group"></a>Atribuir uma política a um grupo
 
@@ -74,7 +74,7 @@ Você precisará concluir todas essas etapas para que sua equipe e educadores he
 
 Primeiro, crie um grupo de segurança para sua equipe e educadores.
 
-Com [a SDS](/SchoolDataSync/) (Sincronização de Dados Escolares), você pode criar facilmente [educadores](/SchoolDataSync/edu-security-groups) e alunos de grupos de segurança em sua escola. Recomendamos que você use o SDS para criar os grupos de segurança necessários para gerenciar políticas para sua escola.
+Com [School Data Sync](/SchoolDataSync/) (SDS), você pode facilmente criar educadores e [alunos](/SchoolDataSync/edu-security-groups) de grupos de segurança em sua escola. Recomendamos que você use o SDS para criar os grupos de segurança necessários para gerenciar políticas para sua escola.
 
 Se você não conseguir implantar o SDS em seu ambiente, use este script do [PowerShell](scripts/powershell-script-security-groups-edu.md) para criar dois grupos de segurança, um para todos os funcionários e educadores com uma licença de Docente atribuída e outro para todos os alunos que têm uma licença de aluno atribuída. Você precisará executar esse script rotineiramente para manter os grupos atualizados e atualizados.
 
@@ -83,7 +83,7 @@ Se você não conseguir implantar o SDS em seu ambiente, use este script do [Pow
 #### <a name="using-the-microsoft-teams-admin-center"></a>Usando o centro de administração do Microsoft Teams
 
 > [!NOTE]
-> Atualmente, a atribuição de política a grupos usando o Centro de administração do Microsoft Teams está disponível apenas para a política de chamada do Teams, política de estacionamento de chamada do Teams, política do Teams, política de eventos ao vivo do Teams, política de reunião do Teams e política de mensagens do Teams. Para outros tipos de política, use o PowerShell.
+> Atualmente, a atribuição de política para grupos usando o centro de administração do Microsoft Teams está disponível apenas para a política de chamada do Teams, a política de estacionamento de chamada do Teams, Teams política de Teams, Teams política de eventos ao vivo, Teams política de reunião e Teams de mensagens. Para outros tipos de política, use o PowerShell.
 
 1. Na barra de navegação à esquerda do Centro de Administração do Microsoft Teams, vá para **Reuniões** > **Políticas de Reunião**.
 2. Selecione a **guia Atribuição de política de** grupo.
@@ -102,11 +102,11 @@ Para alterar a classificação de uma atribuição de grupo, você precisa prime
 #### <a name="using-powershell"></a>Usando o Windows PowerShell
 
 > [!NOTE]
-> Atualmente, a atribuição de política a grupos usando o PowerShell não está disponível para todos os tipos de política do Teams. Consulte [New-CsGroupPolicyAssignment para](/powershell/module/teams/new-csgrouppolicyassignment) a lista de tipos de política com suporte.
+> Atualmente, a atribuição de política a grupos usando o PowerShell não está disponível para todos os tipos Teams de política. Consulte [New-CsGroupPolicyAssignment para](/powershell/module/teams/new-csgrouppolicyassignment) a lista de tipos de política com suporte.
 
-##### <a name="install-and-connect-to-the-microsoft-teams-powershell-module"></a>Instalar e conectar-se ao módulo do Microsoft Teams PowerShell
+##### <a name="install-and-connect-to-the-microsoft-teams-powershell-module"></a>Instalar e conectar ao módulo Microsoft Teams PowerShell
 
-Execute o seguinte para instalar o [módulo do Teams PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams) (se ainda não estiver instalado). Instale a versão 1.0.5 ou posterior.
+Execute o seguinte para instalar o [Teams do PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams) (se ainda não estiver instalado). Instale a versão 1.0.5 ou posterior.
 
 ```powershell
 Install-Module -Name MicrosoftTeams
@@ -136,9 +136,9 @@ Para saber mais, confira [O que você precisa saber sobre a atribuição de pol�
 
 Siga estas etapas para remover a política de reunião que foi atribuída diretamente à sua equipe e educadores.
 
-#### <a name="install-and-connect-to-the-microsoft-teams-powershell-module"></a>Instalar e conectar-se ao módulo do Microsoft Teams PowerShell
+#### <a name="install-and-connect-to-the-microsoft-teams-powershell-module"></a>Instalar e conectar ao módulo Microsoft Teams PowerShell
 
-Execute o seguinte para instalar o [módulo do Teams PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams) (se ainda não estiver instalado). Instale a versão 1.0.5 ou posterior.
+Execute o seguinte para instalar o [Teams do PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams) (se ainda não estiver instalado). Instale a versão 1.0.5 ou posterior.
 
 ```powershell
 Install-Module -Name MicrosoftTeams
@@ -193,13 +193,13 @@ Siga estas etapas para atribuir uma política de reunião personalizada chamada 
 
 ### <a name="using-powershell"></a>Usando o Windows PowerShell
 
-#### <a name="connect-to-the-azure-ad-powershell-for-graph-module-and-the-teams-powershell-module"></a>Conecte-se ao módulo powershell do Azure AD para Graph e ao módulo do Teams PowerShell
+#### <a name="connect-to-the-azure-ad-powershell-for-graph-module-and-the-teams-powershell-module"></a>Conexão o módulo powershell do Azure AD para Graph e o módulo Teams PowerShell
 
 Antes de executar as etapas deste artigo, você precisará instalar e se conectar ao módulo do Azure AD PowerShell para Graph (para identificar usuários por suas licenças atribuídas) e ao módulo do Microsoft Teams PowerShell (para atribuir as políticas a esses usuários).
 
-##### <a name="install-and-connect-to-the-azure-ad-powershell-for-graph-module"></a>Instalar e conectar-se ao módulo powershell do Azure AD para Graph
+##### <a name="install-and-connect-to-the-azure-ad-powershell-for-graph-module"></a>Instalar e conectar-se ao Azure AD PowerShell para Graph módulo
 
-Abra um prompt de Windows PowerShell de comando (execute o Windows PowerShell como administrador) e execute o seguinte para instalar o módulo powershell do Azure Active Directory para Graph.
+Abra um prompt de Windows PowerShell de comando (execute o Windows PowerShell como administrador) e execute o seguinte para instalar o Azure Active Directory PowerShell para Graph módulo.
 
 ```powershell
 Install-Module -Name AzureAD
@@ -213,11 +213,11 @@ Connect-AzureAD
 
 Quando for solicitado, entre usando suas credenciais de administrador.
 
-Para saber mais, confira [Conectar-se com o módulo PowerShell do Azure Active Directory para Graph.](/office365/enterprise/powershell/connect-to-office-365-powershell#connect-with-the-azure-active-directory-powershell-for-graph-module)
+Para saber mais, consulte [Conexão o Azure Active Directory PowerShell para Graph módulo](/office365/enterprise/powershell/connect-to-office-365-powershell#connect-with-the-azure-active-directory-powershell-for-graph-module).
 
-##### <a name="install-and-connect-to-the-microsoft-teams-powershell-module"></a>Instalar e conectar-se ao módulo do Microsoft Teams PowerShell
+##### <a name="install-and-connect-to-the-microsoft-teams-powershell-module"></a>Instalar e conectar ao módulo Microsoft Teams PowerShell
 
-Execute o seguinte para instalar o [módulo do Teams PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams) (se ainda não estiver instalado). Instale a versão 1.0.5 ou posterior.
+Execute o seguinte para instalar o [Teams do PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams) (se ainda não estiver instalado). Instale a versão 1.0.5 ou posterior.
 
 ```powershell
 Install-Module -Name MicrosoftTeams
@@ -314,7 +314,7 @@ Get-CsUserPolicyAssignment -Identity hannah@contoso.com
 
 **Não estou familiarizado com o PowerShell para Teams. Onde posso saber mais?**
 
-Para uma visão geral do uso do PowerShell para gerenciar o Teams, consulte [Visão geral do Teams PowerShell](teams-powershell-overview.md). Para obter mais informações sobre os cmdlets usados neste artigo, consulte:
+Para ver uma visão geral sobre como usar o PowerShell para gerenciar Teams, [consulte Teams visão geral do PowerShell.](teams-powershell-overview.md) Para obter mais informações sobre os cmdlets usados neste artigo, consulte:
 
 - [New-CsGroupPolicyAssignment](/powershell/module/teams/new-csgrouppolicyassignment)
 - [Get-CsGroupPolicyAssignment](/powershell/module/teams/get-csgrouppolicyassignment)
@@ -325,5 +325,5 @@ Para uma visão geral do uso do PowerShell para gerenciar o Teams, consulte [Vis
 ## <a name="related-topics"></a>Tópicos relacionados
 
 - [Atribuir políticas aos usuários](assign-policies.md)
-- [Políticas e pacotes de políticas do Teams para Educação](policy-packages-edu.md)
+- [Políticas do Teams e pacotes de políticas para Educação](policy-packages-edu.md)
 - [Gerenciar políticas de reunião no Teams](meeting-policies-in-teams.md)

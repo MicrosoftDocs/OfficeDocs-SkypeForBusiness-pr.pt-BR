@@ -21,7 +21,7 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
-description: Saiba como habilitar ou desabilitar se os usuários podem gravar seus nomes quando ingressarem em uma reunião no Microsoft Teams.
+description: Saiba como habilitar ou desabilitar se os usuários podem gravar seus nomes quando ingressarem em uma reunião Microsoft Teams.
 ms.openlocfilehash: 8b92e0d4a73cc18ceaf374f1a05102e51752c083
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
@@ -31,7 +31,7 @@ ms.locfileid: "51092689"
 ---
 # <a name="enable-users-to-record-their-name-when-they-join-a-meeting-in-microsoft-teams"></a>Permitir que usuários gravem seu nome ao entrar em uma reunião no Microsoft Teams
 
-Ao configurar a Audioconferência no Microsoft 365 ou Office 365, você receberá números de telefone e o que é chamado de ponte de audioconferência. Uma ponte de conferência pode conter um ou mais números de telefone.
+Ao configurar a Audioconferência em Microsoft 365 ou Office 365, você receberá números de telefone e o que é chamado de ponte de audioconferência. Uma ponte de conferência pode conter um ou mais números de telefone.
   
 A ponte de conferência atende uma chamada feita por um usuário que discou para uma reunião utilizando um telefone. A ponte de conferência atende o chamador com prompts de voz de um atendedor automático e, dependendo de suas configurações, pode reproduzir notificações, solicitar que os chamadores gravem seus nomes e configurar a segurança de PIN para organizadores da reunião. Os PINs são dados aos organizadores da reunião para permitir que eles iniciem uma reunião. Entretanto, você pode configurar a reunião sem a necessidade de um PIN para começar.
 
@@ -55,7 +55,7 @@ A ponte de conferência atende uma chamada feita por um usuário que discou para
 
 ## <a name="want-to-know-more-about-windows-powershell"></a>Deseja saber mais sobre o Windows PowerShell?
 
-O Windows PowerShell gerencia os usuários e o que eles podem ou não fazer. Com Windows PowerShell, você pode gerenciar o Microsoft 365 ou o Office 365 usando um único ponto de administração que pode simplificar seu trabalho diário quando você tem várias tarefas a fazer. Para começar a trabalhar com o Windows PowerShell, confira estes tópicos:
+O Windows PowerShell gerencia os usuários e o que eles podem ou não fazer. Com Windows PowerShell, você pode gerenciar Microsoft 365 ou Office 365 usando um único ponto de administração que pode simplificar seu trabalho diário quando você tem várias tarefas a fazer. Para começar a trabalhar com o Windows PowerShell, confira estes tópicos:
     
   - [Por que você precisa usar o PowerShell do Office 365](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     

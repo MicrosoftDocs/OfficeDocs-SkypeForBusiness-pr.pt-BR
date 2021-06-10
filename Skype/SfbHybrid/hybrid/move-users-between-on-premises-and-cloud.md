@@ -18,12 +18,12 @@ ms.collection:
 - Adm_Skype4B_Online
 ms.custom: ''
 description: 'Resumo: em uma implantação local do Skype for Business Server que está habilitada para híbrido, você pode mover usuários entre o ambiente local e a nuvem (seja para Microsoft Teams ou para Skype for Business Online antes de sua aposentadoria)..'
-ms.openlocfilehash: 3140811a08f582488e672fccbfa7f34678b813d4
-ms.sourcegitcommit: 9d446485aa842abbdcd34d946b247166c2bf1610
+ms.openlocfilehash: 998adf068dbfd360cb5a3e279320d1fee96f761f
+ms.sourcegitcommit: 36bc47b2b9ee0e738fa814c31accacfe816da4a3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/25/2021
-ms.locfileid: "52642081"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "52855940"
 ---
 # <a name="move-users-between-on-premises-and-cloud"></a>Mover os usuários entre um ambiente local e a nuvem
 
@@ -56,13 +56,13 @@ Quando um usuário é movido do local para a nuvem:
 
 Para mover os usuários entre o local e a nuvem (seja para Teams ou para o Skype for Business Online), use o cmdlet Move-CsUser ou o Painel de Controle de Administração do Skype for Business, ambos eles são ferramentas locais. Essas ferramentas oferecem suporte a três caminhos de mudança:
 
-- [Do Skype for Business Server (local)](move-users-from-on-premises-to-teams.md) diretamente para Teams Somente (que também os move para Skype for Business Online).  A opção de mover diretamente do local para  o Teams Somente está disponível no Skype for Business Server 2019, bem como na Atualização Cumulativa 8 para Skype for Business Server 2015. As organizações que usam versões anteriores do Skype for Business Server podem mover os usuários para o Teams Only movendo-os primeiro para o Skype for Business Online e, em seguida, aplicando o modo Teams Only a esses usuários quando estiverem online. 
+- [Do Skype for Business Server (local)](move-users-from-on-premises-to-teams.md) diretamente para Teams Somente (que também os move para Skype for Business Online).  O comportamento para mover diretamente do local para o Teams Somente agora é automático, independentemente de qual versão do Skype for Business Server ou do Lync Server é usada. Não é mais necessário especificar a `-MoveToTeams` opção para obter esse comportamento.  
+- [Do Skype for Business Server (local) ao Skype for Business Online.](move-users-from-on-premises-to-skype-for-business-online.md) Os clientes que ainda precisam mover os usuários para o Skype for Business Online sem se tornarem o TeamsOnly podem fazer isso primeiro movendo o usuário para a nuvem com o modo TeamsOnly e atualizando o modo do usuário para que seja algo diferente do TeamsOnly usando ou o Centro de Administração `Grant-CsTeamsUpgradePolicy` Teams. Essa opção não estará mais disponível depois que o Skype for Business Online for retirado.
+- [Do online (Teams somente ou não), para local](move-users-from-the-cloud-to-on-premises.md).
 
 > [!NOTE] 
-> Em breve, não será mais necessário especificar a opção -MoveToTeams no Move-CsUser para mover os usuários diretamente do local para o TeamsOnly. No momento, se essa opção não for especificada, os usuários transiram da sua residência no Skype for Business Server local para o Skype for Business Online e seu modo permanece inalterado. Após a reforma, ao mover um usuário do local para a nuvem com Move-CsUser, os usuários serão atribuídos automaticamente ao modo TeamsOnly e suas reuniões no local serão convertidas automaticamente em reuniões Teams, como se a opção -MoveToTeams tivesse sido especificada, independentemente de a opção ser realmente especificada. Esperamos lançar essa funcionalidade antes da aposentadoria real de 31 de julho de 2021.
-
-- [Do Skype for Business Server (local) ao Skype for Business Online.](move-users-from-on-premises-to-skype-for-business-online.md) Essa opção não estará mais disponível em breve.
-- [Do online (Teams somente ou não), para local](move-users-from-the-cloud-to-on-premises.md).
+> Não é mais necessário especificar a opção -MoveToTeams no Move-CsUser para mover os usuários diretamente do local para o TeamsOnly. Anteriormente, se essa opção não foi especificada, os usuários mudaram de Skype for Business Server local para o Skype for Business Online, e seu modo permaneceu inalterado. Agora, ao mover um usuário do local para a nuvem com Move-CsUser, os usuários são atribuídos automaticamente ao modo TeamsOnly e suas reuniões do local são automaticamente convertidas em reuniões de Teams, como se a opção tivesse sido especificada, independentemente de a opção ter sido `-MoveToTeams` realmente especificada. 
+> 
 
 ## <a name="required-administrative-credentials"></a>Credenciais administrativas necessárias
 

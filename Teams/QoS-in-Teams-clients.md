@@ -1,5 +1,5 @@
 ---
-title: Implementar qoS (Qualidade de Serviço) em clientes do Microsoft Teams
+title: Implementar qoS (Qualidade de Serviço) em Microsoft Teams clientes
 author: SerdarSoysal
 ms.author: serdars
 manager: Serdars
@@ -7,7 +7,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: vkorlep, siunies
 audience: admin
-description: Saiba como usar a QoS (Qualidade do Serviço) para otimizar o tráfego de rede para o cliente da área de trabalho do Microsoft Teams.
+description: Saiba como usar a QoS (Qualidade do Serviço) para otimizar o tráfego de rede para o cliente Microsoft Teams desktop.
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -26,9 +26,9 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 03/23/2021
 ms.locfileid: "51094779"
 ---
-# <a name="implement-quality-of-service-qos-in-microsoft-teams-clients"></a>Implementar qoS (Qualidade de Serviço) em clientes do Microsoft Teams
+# <a name="implement-quality-of-service-qos-in-microsoft-teams-clients"></a>Implementar qoS (Qualidade de Serviço) em Microsoft Teams clientes
 
-Você pode usar a QoS (Qualidade de Serviço baseada em política) na Política de Grupo para definir o intervalo de portas de origem para o valor DSCP predefinido no cliente teams. Os intervalos de porta especificados na tabela a seguir são um ponto de partida para criar uma política para cada carga de trabalho.
+Você pode usar a QoS (Qualidade de Serviço baseada em política) na Política de Grupo para definir o intervalo de portas de origem para o valor DSCP predefinido no cliente Teams. Os intervalos de porta especificados na tabela a seguir são um ponto de partida para criar uma política para cada carga de trabalho.
 
 *Tabela 1. Intervalos de portas iniciais recomendados*
 
@@ -39,9 +39,9 @@ Você pode usar a QoS (Qualidade de Serviço baseada em política) na Política 
 |Compartilhamento de tela/aplicativo| 50.040-50.059|TCP/UDP|18|Assured Forwarding (AF21)|
 | | | | | |
 
-Sempre que possível, configure as configurações de QoS baseadas em política em um objeto de Política de Grupo. As etapas a seguir são muito  [semelhantes à](/SkypeForBusiness/manage/network-management/qos/configuring-port-ranges-for-your-skype-clients#configure-quality-of-service-policies-for-clients-running-on-windows-10)Configuração de intervalos de porta e uma política de Qualidade de Serviço para seus clientes no Skype for Business Server , que tem alguns detalhes adicionais que podem não ser necessários.
+Sempre que possível, configure as configurações de QoS baseadas em política em um objeto de Política de Grupo. As etapas a seguir são muito semelhantes à Configuração de [intervalos](/SkypeForBusiness/manage/network-management/qos/configuring-port-ranges-for-your-skype-clients#configure-quality-of-service-policies-for-clients-running-on-windows-10)de porta e uma política de Qualidade de Serviço para seus clientes no Skype for Business Server , que tem alguns detalhes adicionais que podem não ser necessários.
 
-Para criar uma política de áudio QoS para computadores Windows 10 ingressados no domínio, primeiro faça logoff em um computador no qual o Gerenciamento de Política de Grupo foi instalado. Abra o Gerenciamento de Política de Grupo (clique em Iniciar, aponte para Ferramentas Administrativas e clique em Gerenciamento de Política de Grupo) e conclua as seguintes etapas:
+Para criar uma política de áudio QoS para computadores Windows 10 de domínio, primeiro faça logoff em um computador no qual o Gerenciamento de Política de Grupo foi instalado. Abra o Gerenciamento de Política de Grupo (clique em Iniciar, aponte para Ferramentas Administrativas e clique em Gerenciamento de Política de Grupo) e conclua as seguintes etapas:
 
 1. No Gerenciamento de Política de Grupo, localize o contêiner onde a nova política deve ser criada. Por exemplo, se todos os seus computadores clientes estão localizados em uma UO denominada **Clients**, a nova política deve ser criada na UO de Clientes.
 
@@ -51,11 +51,11 @@ Para criar uma política de áudio QoS para computadores Windows 10 ingressados 
 
 1. Clique com o botão direito do mouse na política recém-criada e clique em **Editar**.
 
-1. No Editor de Gerenciamento de Política de Grupo, **expanda** Configuração do **Computador, Configurações** do Windows, clique com o botão direito do mouse em **QoS** baseado em Política e clique em **Criar nova política**.
+1. No Editor de Gerenciamento de Política de Grupo, **expanda** Configuração do Computador, expanda Windows Configurações **,** clique com o botão direito do mouse em **QoS** baseado em Política e clique em **Criar nova política**.
 
 1. Na caixa **de diálogo QoS** baseada em política, na página de abertura, digite um nome para a nova política na **caixa** Nome. Selecione **Especificar Valor DSCP** e de definir o valor **como 46**. Deixe **Especificar Taxa de Aceleração de Saída** não eleita e clique em **Próximo**.
 
-1. Na próxima página, selecione **Somente aplicativos** com esse nome executável e insira o **nome** Teams.exee clique em **Próximo**. Essa configuração instrui a política a priorizar apenas o tráfego correspondente do cliente do Teams.
+1. Na próxima página, selecione **Somente aplicativos** com esse nome executável e insira o **nome** Teams.exee clique em **Próximo**. Essa configuração instrui a política a priorizar apenas o tráfego correspondente do Teams cliente.
 
 1. Na terceira página, certifique-se de que qualquer endereço **IP** de origem e qualquer endereço **IP** de destino estão selecionados e clique em **Próximo**. Essas duas configurações garantem que os pacotes sejam gerenciados independentemente de qual computador (endereço IP) enviou os pacotes e qual computador (endereço IP) receberá os pacotes.
 
@@ -99,11 +99,11 @@ Para verificar se os valores do objeto Diretiva de Grupo foram definidos, execut
 
 1. Abra o Editor do Registro e vá para
 
-   HKEY \_ LOCAL \_ MACHINE \\ Software \\ Policies \\ Microsoft \\ Windows \\ QoS
+   HKEY \_ LOCAL MACHINE Software Policies Microsoft Windows \_ \\ \\ \\ \\ \\ QoS
 
    Verifique os valores das entradas do Registro listadas na Tabela 2.
 
-   *Tabela 2. Valores para entradas do Registro do Windows para QoS*
+   *Tabela 2. Valores para Windows entradas do Registro para QoS*
 
    |          Nome          |  Tipo  |    Dados     |
    |         :---:          | :---:  |    :---:    |

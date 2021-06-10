@@ -33,20 +33,20 @@ ms.locfileid: "51506718"
 
 ## <a name="overview"></a>Visão Geral
 
-Com eventos ao vivo do Teams, os usuários em sua organização podem transmitir conteúdo de vídeo e reunião para grandes audiências online.
+Com Teams eventos de vida, os usuários em sua organização podem transmitir conteúdo de vídeo e reunião para grandes audiências online.
 
 Os eventos ao vivo do Microsoft 365 levam a transmissão de vídeo a um novo patamar. Os eventos ao vivo encorajam a conexão ao longo de todo o ciclo de vida do engajamento com os participantes antes, durante e depois dos eventos ao vivo. Você pode criar eventos ao vivo no local da sua audiência, da equipe ou da comunidade, usando o Microsoft Stream, o Microsoft Teams ou o Yammer.  
 
-O Microsoft Teams entrega a colaboração baseada em chat, as chamadas, as reuniões e os eventos ao vivo, para que você possa expandir a audiência de suas reuniões. Os eventos ao vivo do Microsoft Teams são uma extensão das reuniões do Microsoft Teams, permitindo aos usuários transmitir vídeo e o conteúdo da reunião para uma grande audiência online. Os eventos ao vivo são destinados a comunicações de um-para-muitos nos quais o apresentador do evento lidera as interações e a participação da audiência é basicamente visualizar o conteúdo compartilhado pelo apresentador. Os participantes podem assistir ao evento ao vivo ou gravado no Yammer, no Teams ou no Stream e podem interagir com os apresentadores usando Q & A ou uma conversa do Yammer.
+O Microsoft Teams entrega a colaboração baseada em chat, as chamadas, as reuniões e os eventos ao vivo, para que você possa expandir a audiência de suas reuniões. Os eventos ao vivo do Microsoft Teams são uma extensão das reuniões do Microsoft Teams, permitindo aos usuários transmitir vídeo e o conteúdo da reunião para uma grande audiência online. Os eventos ao vivo são destinados a comunicações de um-para-muitos nos quais o apresentador do evento lidera as interações e a participação da audiência é basicamente visualizar o conteúdo compartilhado pelo apresentador. Os participantes podem assistir ao evento ao vivo ou gravado em Yammer, Teams ou Stream e podem interagir com os apresentadores usando Q & A ou uma conversa Yammer moderada.
 
-Os eventos ao vivo do Microsoft Teams são considerados a próxima versão da Transmissão de Reunião do Skype e substituirão os recursos fornecidos na Transmissão de Reunião do Skype. Nesse momento, a Microsoft continuará a dar suporte à Transmissão de Reunião do Skype para os usuários que estiverem usando o Skype for Business em suas organizações, sem interrupções no serviço para eventos novos ou futuros. No entanto, recomendamos que você experimente eventos ao vivo do Teams para usar todos os recursos novos e interessantes, incluindo compartilhamento de tela e suporte para codificadores de hardware/software externos.
+Os eventos ao vivo do Microsoft Teams são considerados a próxima versão da Transmissão de Reunião do Skype e substituirão os recursos fornecidos na Transmissão de Reunião do Skype. Nesse momento, a Microsoft continuará a dar suporte à Transmissão de Reunião do Skype para os usuários que estiverem usando o Skype for Business em suas organizações, sem interrupções no serviço para eventos novos ou futuros. No entanto, recomendamos que você experimente Teams eventos ao vivo para usar todos os recursos novos e interessantes, incluindo compartilhamento de tela e suporte para codificadores de hardware/software externos.
 
 Então, vamos começar. Primeiro, dê uma olhada no diagrama a seguir que mostra os componentes de alto nível envolvidos nos eventos ao vivo do Microsoft 365 e como eles estão conectados.
 
 ![Os componentes principais dos eventos ao vivo](../media/live-event-flow-diagram.png  "Componentes principais de eventos ao vivo, agendamento, produção, plataforma de streaming, terceiros certificados e fornecedores de eCDN.")
 
 > [!Note]
-> Queremos enfatizar que os Eventos do Teams Live, dada a natureza da tecnologia de transmissão, geralmente excedem populações normais (internas) de reuniões.
+> Queremos enfatizar que Teams eventos ao vivo, dada a natureza da tecnologia de transmissão, geralmente excedem populações normais (internas).
 >
 > Como acontece com outros serviços de transmissão de mídia de maior alcance, dependemos das Redes de Entrega de Conteúdo para entregar o conteúdo do seu evento ao vivo aos destinatários. Esse conteúdo é protegido por métodos de criptografia e sujeito à autorização por tokens de acesso que são emitidos apenas para destinatários com base na configuração da reunião de eventos ao vivo.
 >
@@ -56,7 +56,7 @@ Então, vamos começar. Primeiro, dê uma olhada no diagrama a seguir que mostra
 
 ### <a name="event-group-roles"></a>Papeis do grupo de evento
 
-Eventos ao vivo no Teams capacitam várias funções (organizador, produtor, apresentador e participante) para transmitir e participar de um evento com êxito. Para saber mais, confira [Papeis de grupo de evento](https://support.office.com/article/get-started-with-microsoft-teams-live-events-d077fec2-a058-483e-9ab5-1494afda578a?ui=en-US&rs=en-US&ad=US#bkmk_roles).
+Eventos ao vivo Teams capacitar várias funções (organizador, produtor, apresentador e participante) para transmitir e participar de um evento com êxito. Para saber mais, confira [Papeis de grupo de evento](https://support.office.com/article/get-started-with-microsoft-teams-live-events-d077fec2-a058-483e-9ab5-1494afda578a?ui=en-US&rs=en-US&ad=US#bkmk_roles).
 
 ## <a name="key-components"></a>Componentes principais
 

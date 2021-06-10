@@ -14,7 +14,7 @@ audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-description: Use o relatório CQD (Painel de Qualidade de Chamadas) PSTN do Microsoft Teams para monitorar e solucionar problemas de chamadas PSTN no Microsoft Teams.
+description: Use o Microsoft Teams de Qualidade de Chamada (CQD)) relatório de Roteamento Direto PSTN para monitorar e solucionar problemas de chamadas PSTN no Microsoft Teams.
 ms.openlocfilehash: f2b63f991f42aa4de9e0e4474137f7f992f95c53
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
@@ -24,7 +24,7 @@ ms.locfileid: "51094975"
 ---
 # <a name="using-the-cqd-pstn-direct-routing-report"></a>Usando o relatório de Roteamento Direto PSTN PSTN
 
-Novo em março de 2020, adicionamos um relatório de Roteamento Direto do Painel de Qualidade de Chamadas (CQD) do Microsoft Teams para nossos modelos de consulta do Power BI baixáveis para [CQD](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true). 
+Novo em março de 2020, adicionamos um relatório de Roteamento Direto do Painel de Qualidade de Chamada (CQD) Microsoft Teams PSTN para nossos modelos de consulta Power BI para download para [CQD](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true). 
 
 
 O relatório de Roteamento Direto PSTN (CQD PSTN Direct Routing Report.pbit) ajuda você a entender os padrões de uso e a qualidade dos seus serviços PSTN. Use este relatório para monitorar o uso do serviço, informações sobre seu Controlador de Borda de Sessão (SBC), o serviço de telefonia, os parâmetros de rede e os detalhes da Taxa de Eficácia de Rede. Essas informações podem ajudá-lo a identificar problemas, incluindo o motivo das chamadas não a atender. Por exemplo, você poderá ver quando o volume cair ou quantas chamadas serão afetadas e por qual motivo.
@@ -40,7 +40,7 @@ O Relatório de Roteamento Direto PSTN do CQD tem quatro seções:
 
   - [Parâmetros de rede](#network-parameters)
 
-## <a name="highlights"></a>Realçadores
+## <a name="highlights"></a>Destaques
 
 1. Analisar por tipo de chamada, SBC, país chamador e chamador
 
@@ -125,7 +125,7 @@ No NER Good Percentage Hourly Trend, você pode encontrar que o dip acontece por
 
 ## <a name="network-parameters"></a>Parâmetros de rede
 
-Todos os parâmetros de rede são medidos da interface roteamento direto para o Controlador de Borda de Sessão. Para obter informações sobre os valores recomendados, consulte [Prepare your organization's network for Microsoft Teams](prepare-network.md), and look at the Customer Edge to Microsoft Edge recommended values.
+Todos os parâmetros de rede são medidos da interface roteamento direto para o Controlador de Borda de Sessão. Para obter informações sobre os valores recomendados, consulte Prepare your [organization's network for Microsoft Teams](prepare-network.md), and look at the Customer Edge to Microsoft Edge recommended values.
 
   - **Tremido** – É a medida milissegunda de variação no tempo de atraso de propagação da rede calculada entre dois pontos de extremidade usando RTCP (O Protocolo de Controle RTP).
 
@@ -145,6 +145,6 @@ Se você vir um pico em qualquer um dos quatro gráficos (Latência, Tremência,
 
 ## <a name="related-topics"></a>Tópicos relacionados
 
-[Usar o Power BI para analisar dados CQD para o Microsoft Teams](CQD-PSTN-report.md)
+[Use Power BI para analisar dados CQD para Microsoft Teams](CQD-PSTN-report.md)
 
 [Solução de problemas do Teams](/MicrosoftTeams/troubleshoot/teams)

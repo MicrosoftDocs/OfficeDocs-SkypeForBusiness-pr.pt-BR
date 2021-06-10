@@ -20,7 +20,7 @@ f1.keywords:
 - CSH
 ms.custom:
 - Calling Plans
-description: 'Saiba como obter novos, porta ou transferir números existentes para o Teams e como mostrar as alterações aos seus usuários. '
+description: 'Saiba como obter novos, porta ou transferir números existentes para Teams e como mostrar as alterações aos seus usuários. '
 ms.openlocfilehash: c80f7a54af697322665c110c14aeccaf5fa4f667
 ms.sourcegitcommit: 109b3869afb5ff1ca4eaf771399d7cda70a43bea
 ms.translationtype: MT
@@ -34,11 +34,11 @@ Antes de configurar usuários em sua organização para fazer e receber chamadas
   
 Há três maneiras de obter números de usuário:
 
-- **Use o centro de administração do Microsoft Teams.** Para alguns países e regiões, você pode obter números para seus usuários usando o Centro de administração do Microsoft Teams. Consulte [Obter novos números de telefone para seus usuários](#get-new-phone-numbers-for-your-users).
+- **Use o Microsoft Teams de administração.** Para alguns países e regiões, você pode obter números para seus usuários usando o Microsoft Teams de administração. Consulte [Obter novos números de telefone para seus usuários](#get-new-phone-numbers-for-your-users).
 
 - **Fazer a portabilidade de seus números existentes.** Você pode por ou transferir números existentes de seu provedor de serviços ou operadora de telefonia atual. Consulte [Transferir os números dos telefones ao Teams](./phone-number-calling-plans/transfer-phone-numbers-to-teams.md) ou [Gerenciar números de telefone da sua organização](/microsoftteams/manage-phone-numbers-for-your-organization) para obter mais informações.  
   
-- **Usar um formulário de solicitação para novos números.** Às vezes (dependendo do seu país ou região), você não poderá obter seus novos números de telefone usando o Centro de Administração do Microsoft Teams ou precisará de números de telefone ou códigos de área específicos. Para obter mais informações, consulte [Gerenciar números de telefone para sua organização](/microsoftteams/manage-phone-numbers-for-your-organization).
+- **Usar um formulário de solicitação para novos números.** Às vezes (dependendo do seu país ou região), você não poderá obter seus novos números de telefone usando o Centro de Administração Microsoft Teams ou precisará de números de telefone ou códigos de área específicos. Para obter mais informações, consulte [Gerenciar números de telefone para sua organização](/microsoftteams/manage-phone-numbers-for-your-organization).
   
 > [!NOTE]
 > Se você precisar de ajuda para configurar números de telefone para sua organização, entre em contato [com o Support Contact for Business Products - Ajuda do administrador.](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products?view=o365-worldwide&tabs=online)
@@ -49,8 +49,8 @@ Há três maneiras de obter números de usuário:
 
 Você deve ser um administrador de serviço do Teams para fazer essas alterações. Veja [ Use funções de administrador Teams para gerenciar o Teams](./using-admin-roles.md) para ler sobre como obter funções e permissões de administrador.
 
-1. Vá para o Centro de Administração do Microsoft Teams.
-2. Na navegação à esquerda, vá para **Números de Telefone**  >  **de** Voz e clique em **Adicionar**.
+1. Vá para o Microsoft Teams Admin Center.
+2. Na navegação à esquerda, vá para **Voz**  >  **Telefone números** e clique em **Adicionar**.
 3. Insira um nome para a ordem e adicione uma descrição.
 4. Na página Local e quantidade, faça o seguinte:
     1. Em **País ou região**, selecione um país ou região.
@@ -66,7 +66,7 @@ Você deve ser um administrador de serviço do Teams para fazer essas alteraçõ
   
 ## <a name="port-or-transfer-phone-numbers-from-your-service-provider-or-phone-carrier"></a>Fazer a portabilidade ou transferir os números de telefone de seu provedor de serviços ou de sua operadora de telefonia
   
-- Se você precisar de 999 ou menos números de telefone para seus usuários, use o assistente de portação no Centro de Administração do Microsoft Teams. Siga as etapas em [Transferir números de telefone para o Teams](./phone-number-calling-plans/transfer-phone-numbers-to-teams.md). Se seu país ou região não estiver listado no assistente de portabilidade, [](/microsoftteams/manage-phone-numbers-for-your-organization) você poderá enviar [manualmente](phone-number-calling-plans/manually-submit-port-order.md) um pedido de porta ou ver Gerenciar números de telefone para sua organização baixar a Carta de Autorização correta (LOA).
+- Se você precisar de 999 ou menos números de telefone para seus usuários, use o assistente de portação no Microsoft Teams Admin Center. Siga as etapas em [Transferir números de telefone para Teams](./phone-number-calling-plans/transfer-phone-numbers-to-teams.md). Se seu país ou região não estiver listado no assistente de portabilidade, [](/microsoftteams/manage-phone-numbers-for-your-organization) você poderá enviar [manualmente](phone-number-calling-plans/manually-submit-port-order.md) um pedido de porta ou ver Gerenciar números de telefone para sua organização baixar a Carta de Autorização correta (LOA).
 
 - Se você precisar por mais de 999 números de telefone, envie [manualmente](phone-number-calling-plans/manually-submit-port-order.md) um pedido de porta ou consulte [Gerenciar](/microsoftteams/manage-phone-numbers-for-your-organization) números de telefone da sua organização para baixar a LOA (Carta de Autorização) correta e enviá-la para o service [desk PSTN](manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md) para obter todos os seus números transferidos.
 
@@ -74,7 +74,7 @@ Você deve ser um administrador de serviço do Teams para fazer essas alteraçõ
 
 ![Um ícone que mostra o logotipo do Microsoft Teams](media/teams-logo-30x30.png) **Usando o centro de administração do Microsoft Teams**
 
-Na navegação à esquerda do centro de administração, vá até Números de **Telefone** de Voz para exibir os números de sua organização, incluindo local, tipo de número  >   e informações de status.
+Na navegação à esquerda do centro de administração, vá até **Voz** Telefone números para exibir os números da sua organização, incluindo informações de localização, tipo de  >   número e status.
   
 ## <a name="assign-phone-numbers-to-users"></a>Atribuir números de telefone aos usuários
 
