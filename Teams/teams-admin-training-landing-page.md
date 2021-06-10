@@ -1,7 +1,7 @@
 ---
 title: Treinamento para o administrador do Microsoft Teams
 ms.reviewer: ''
-description: Receba o treinamento e o suporte do administrador necessários para gerenciar o Microsoft Teams em sua organização.
+description: Receba o treinamento do administrador e o suporte necessários para gerenciar Microsoft Teams em sua organização.
 author: cichur
 manager: serdars
 audience: admin
@@ -43,7 +43,7 @@ Saiba como gerenciar o Teams para sua organização.
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>NOVO: treinamento ministrdo por instrutor para o Teams</h3>
+                        <h3>NOVO: treinamento ministrado por instrutor para Teams</h3>
                     </div>
                 </div>
             </div>

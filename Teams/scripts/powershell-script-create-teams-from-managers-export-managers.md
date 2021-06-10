@@ -23,16 +23,16 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 03/23/2021
 ms.locfileid: "51117309"
 ---
-# <a name="powershell-script-sample---export-managers-and-their-directs"></a><span data-ttu-id="77f0c-103">Exemplo de script do PowerShell - Exportar gerentes e seus directs</span><span class="sxs-lookup"><span data-stu-id="77f0c-103">PowerShell script sample - Export managers and their directs</span></span>
+# <a name="powershell-script-sample---export-managers-and-their-directs"></a><span data-ttu-id="6bf5e-103">Exemplo de script do PowerShell - Exportar gerentes e seus directs</span><span class="sxs-lookup"><span data-stu-id="6bf5e-103">PowerShell script sample - Export managers and their directs</span></span>
 
-<span data-ttu-id="77f0c-104">Use este script do PowerShell para exportar uma lista de gerentes e seus diretos para sua organização, em preparação para a criação de uma equipe de gerente de pessoas para cada gerente com seus directs como membros da equipe.</span><span class="sxs-lookup"><span data-stu-id="77f0c-104">Use this PowerShell script to export a list of managers and their directs for your organization, in preparation for creating a people manager team for each manager with their directs as team members.</span></span>
+<span data-ttu-id="6bf5e-104">Use este script do PowerShell para exportar uma lista de gerentes e seus diretos para sua organização, em preparação para a criação de uma equipe de gerente de pessoas para cada gerente com seus directs como membros da equipe.</span><span class="sxs-lookup"><span data-stu-id="6bf5e-104">Use this PowerShell script to export a list of managers and their directs for your organization, in preparation for creating a people manager team for each manager with their directs as team members.</span></span>
 
-<span data-ttu-id="77f0c-105">Para saber mais sobre esse script do PowerShell, leia [Create people manager teams](../create-manager-directs-teams.md).</span><span class="sxs-lookup"><span data-stu-id="77f0c-105">To learn about this PowerShell script, read [Create people manager teams](../create-manager-directs-teams.md).</span></span>
+<span data-ttu-id="6bf5e-105">Para saber mais sobre esse script do PowerShell, leia [Create people manager teams](../create-manager-directs-teams.md).</span><span class="sxs-lookup"><span data-stu-id="6bf5e-105">To learn about this PowerShell script, read [Create people manager teams](../create-manager-directs-teams.md).</span></span>
 
-<span data-ttu-id="77f0c-106">Se você é novato no PowerShell e precisa de ajuda para começar, consulte [Visão geral do Azure PowerShell](/powershell/azure/overview?view=azurermps-5.1.1).</span><span class="sxs-lookup"><span data-stu-id="77f0c-106">If you're new to PowerShell and need help getting started, see [Overview of Azure PowerShell](/powershell/azure/overview?view=azurermps-5.1.1).</span></span>
+<span data-ttu-id="6bf5e-106">Se você é novato no PowerShell e precisa de ajuda para começar, consulte [Visão geral do Azure PowerShell](/powershell/azure/overview?view=azurermps-5.1.1).</span><span class="sxs-lookup"><span data-stu-id="6bf5e-106">If you're new to PowerShell and need help getting started, see [Overview of Azure PowerShell](/powershell/azure/overview?view=azurermps-5.1.1).</span></span>
 
 
-## <a name="export-managers-script"></a><span data-ttu-id="77f0c-107">Export-Managers script</span><span class="sxs-lookup"><span data-stu-id="77f0c-107">Export-Managers script</span></span>
+## <a name="export-managers-script"></a><span data-ttu-id="6bf5e-107">Export-Managers script</span><span class="sxs-lookup"><span data-stu-id="6bf5e-107">Export-Managers script</span></span>
 
 ```powershell
 <# 
