@@ -1,5 +1,5 @@
 ---
-title: Atualizações de conteúdo do Microsoft Teams
+title: Microsoft Teams de conteúdo
 author: SerdarSoysal
 ms.author: serdars
 manager: serdars
@@ -8,7 +8,7 @@ ms.service: msteams
 audience: admin
 ms.date: 05/16/2019
 ms.reviewer: LolaJ
-description: Este tópico é uma lista de tópicos de ajuda do Microsoft Teams que foram atualizados recentemente, incluindo links para os tópicos atualizados.
+description: Este tópico é uma lista de Microsoft Teams de ajuda que foram atualizados recentemente, incluindo links para os tópicos atualizados.
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
@@ -25,8 +25,8 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 08/06/2020
 ms.locfileid: "46583800"
 ---
-# <a name="microsoft-teams-content-updates"></a><span data-ttu-id="aaeeb-103">Atualizações de conteúdo do Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="aaeeb-103">Microsoft Teams content updates</span></span>
+# <a name="microsoft-teams-content-updates"></a><span data-ttu-id="a4648-103">Microsoft Teams de conteúdo</span><span class="sxs-lookup"><span data-stu-id="a4648-103">Microsoft Teams content updates</span></span>
 
-<span data-ttu-id="aaeeb-104">Este tópico lista os tópicos do Microsoft Teams que foram alterados recentemente.</span><span class="sxs-lookup"><span data-stu-id="aaeeb-104">This topic lists Microsoft Teams topics that have been changed recently.</span></span>
+<span data-ttu-id="a4648-104">Este tópico lista Microsoft Teams tópicos que foram alterados recentemente.</span><span class="sxs-lookup"><span data-stu-id="a4648-104">This topic lists Microsoft Teams topics that have been changed recently.</span></span>
 
 > [!INCLUDE [teams-content-updates](includes/teams-content-updates.md)]
