@@ -32,7 +32,7 @@ Com as equipes de toda a organização, os administradores globais podem criar f
 
 ![Captura de tela da opção Toda a organização para criar uma equipe de toda a organização](media/create-org-wide-team.png "Captura de tela da opção Toda a organização para criar uma equipe de toda a organização")
 
-Quando uma equipe de toda a organização é criada, todos os administradores globais e administradores de serviço do Teams são adicionados como proprietários de equipe e todos os usuários ativos são adicionados como membros da equipe. Os usuários não licenciados também são adicionados à equipe. Na primeira vez que um usuário não licenciado entra no Teams, o usuário recebe uma licença do Microsoft Teams Exploratory. Para saber mais sobre a licença Exploratory, confira [gerenciar a licença do Microsoft Teams Exploratory](teams-exploratory.md). 
+Quando uma equipe de toda a organização é criada, todos os administradores globais e Teams de serviço são adicionados como proprietários de equipe e todos os usuários ativos são adicionados como membros da equipe. Os usuários não licenciados também são adicionados à equipe. Na primeira vez que um usuário não licenciado entra no Teams, o usuário recebe uma licença do Microsoft Teams Exploratory. Para saber mais sobre a licença Exploratory, confira [gerenciar a licença do Microsoft Teams Exploratory](teams-exploratory.md). 
 
 Estes tipos de contas não serão adicionados à sua equipe de toda a organização:
 
@@ -92,4 +92,4 @@ Modelos de equipe não podem ser usados para criar uma equipe em toda a organiza
 
 ## <a name="see-also"></a>Confira também
 
-Assista a um vídeo sobre [como criar uma equipe de toda a empresa no Microsoft Teams](https://support.office.com/article/037bb27a-bcc9-48fe-8d72-44d9482420a3).
+Assista a um vídeo sobre [como criar uma equipe de toda a](https://support.office.com/article/037bb27a-bcc9-48fe-8d72-44d9482420a3)empresa em Microsoft Teams .

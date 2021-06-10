@@ -38,7 +38,7 @@ Você pode usar os pacotes [de política incluídos no Teams](#policy-packages-i
 Você pode personalizar as configurações das políticas em um pacote de política para atender às necessidades de seus usuários. Quando você altera as configurações de políticas em um pacote, todos os usuários atribuídos a esse pacote obterão as configurações atualizadas. Você gerencia pacotes de política usando o Microsoft Teams de administração ou o PowerShell.
 
 > [!NOTE]
-> Cada usuário exigirá o complemento Comunicações Avançadas para receber uma atribuição de pacote de política personalizada. Para obter mais informações, consulte [Advanced Communications add-on for Microsoft Teams](/microsoftteams/teams-add-on-licensing/advanced-communications).
+> Cada usuário exigirá o complemento de Comunicações Avançadas para receber uma atribuição de pacote de políticas personalizadas. Para obter mais informações, consulte [Complemento de Comunicações Avançadas para o Microsoft Teams ](/microsoftteams/teams-add-on-licensing/advanced-communications).
 
 ## <a name="what-is-a-policy-package"></a>O que é um pacote de política?
 

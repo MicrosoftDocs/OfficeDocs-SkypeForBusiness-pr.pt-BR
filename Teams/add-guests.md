@@ -18,7 +18,7 @@ localization_priority: Normal
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-description: Os administradores podem aprender a adicionar novos convidados a uma organização nos clientes da área de trabalho e da Web do Microsoft Teams e no portal de colaboração B2B do Azure Active Directory.
+description: Os administradores podem aprender a adicionar novos convidados a uma organização Microsoft Teams clientes da área de trabalho e da Web e Azure Active Directory portal de colaboração B2B.
 ms.openlocfilehash: 1d44aff9b62a5ba6de7c22499f5a20f187d7781b
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
@@ -40,7 +40,7 @@ Os administradores também podem delegar permissões para adicionar convidados p
 
 Com a colaboração do Azure AD B2B, as organizações podem impor políticas de acesso condicional e autenticação multifator (MFA) para usuários B2B. Essas políticas podem ser impostas no nível do locatário, aplicativo ou usuário individual, da mesma maneira que podem ser habilitadas para membros e funcionários em tempo integral da organização. Essas políticas são aplicadas na organização de recursos. Para obter mais informações, consulte [Acesso condicional para usuários de colaboração B2B](/azure/active-directory/external-identities/conditional-access). Convidados individuais não podem ser bloqueados.
 
-Os convidados que você já adicionou por meio do Azure AD B2B, grupos do Microsoft 365 ou SharePoint estão prontos para ir. O administrador do Microsoft 365 ou um proprietário de equipe pode adicionar esses convidados às suas respectivas equipes. Se você adicionar um convidado diretamente ao grupo do Microsoft 365 associado a uma equipe, o convidado terá acesso à equipe, mas o grupo do Microsoft 365 não gera um email de convite para o convidado, portanto, alguém na equipe deve notificar o convidado.
+Os convidados que você já adicionou por meio do Azure AD B2B, Microsoft 365 grupos ou SharePoint estão prontos para ir. O Microsoft 365 administrador ou um proprietário de equipe pode adicionar esses convidados às suas respectivas equipes. Se você adicionar um convidado diretamente ao grupo de Microsoft 365 associado a uma equipe, o convidado terá acesso à equipe, mas o grupo Microsoft 365 não gera um email de convite para o convidado, portanto, alguém na equipe deve notificar o convidado.
 
 > [!NOTE]
 > Os convidados estão sujeitos aos limites de serviço do [Microsoft 365 ou Office 365](/office365/servicedescriptions/office-365-service-descriptions-technet-library) e do [Azure Active Directory](/azure/active-directory/external-identities/current-limitations).

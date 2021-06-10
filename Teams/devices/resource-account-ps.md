@@ -1,5 +1,5 @@
 ---
-title: Criando contas de recursos do Microsoft Teams para barras de colaboração para o Microsoft Teams usando o PowerShell
+title: Criando Microsoft Teams contas de recursos para barras de colaboração para Microsoft Teams usando o PowerShell
 ms.author: mitressl
 author: flinchbot
 manager: ericwe
@@ -14,7 +14,7 @@ ms.collection:
 - M365-collaboration
 ms.custom: ''
 ms.assetid: f09f4c2a-2608-473a-9a27-f94017d6e9dd
-description: Leia este tópico para obter informações sobre como implantar barras de colaboração para o Microsoft Teams.
+description: Leia este tópico para obter informações sobre como implantar barras de colaboração para Microsoft Teams.
 ROBOTS: NOINDEX, NOFOLLOW
 ms.openlocfilehash: 812fb4704661aa11d3388048fa044030cdb1ce00
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
@@ -23,28 +23,28 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 03/23/2021
 ms.locfileid: "51115599"
 ---
-# <a name="create-a-microsoft-365-resource-account-using-the-powershell"></a>Criar uma conta de recurso do Microsoft 365 usando o PowerShell
+# <a name="create-a-microsoft-365-resource-account-using-the-powershell"></a>Criar uma Microsoft 365 de recursos usando o PowerShell
 
-Leia este tópico para obter informações sobre como criar contas de recursos para barras de colaboração do Microsoft Teams usando o PowerShell.
+Leia este tópico para obter informações sobre como criar contas de recursos para barras de colaboração para Microsoft Teams usando o PowerShell.
 
-A maneira mais fácil de criar uma conta de recurso é usando o Centro de administração do Microsoft 365. [Consulte este artigo sobre como fazer isso](resource-account-ui.md).
+A maneira mais fácil de criar uma conta de recurso é usando o Microsoft 365 de administração. [Consulte este artigo sobre como fazer isso](resource-account-ui.md).
 
 [!INCLUDE [m365-teams-resource-account-difference](../includes/m365-teams-resource-account-difference.md)]
 
 ## <a name="requirements"></a>Requisitos
 
-Antes de implantar salas do Microsoft Teams com o Office 365, certifique-se de ter atendido aos requisitos. Para obter mais informações, [consulte Deploy collaboration bars for Microsoft Teams](collab-bar-deploy.md).
+Antes de implantar Salas do Microsoft Teams com Office 365, certifique-se de ter atendido aos requisitos. Para obter mais informações, [consulte Deploy collaboration bars for Microsoft Teams](collab-bar-deploy.md).
 
-- Se você precisar de recursos PSTN para a barra de colaboração, precisará da licença do Sistema de Telefonia.
+- Se você precisar de recursos PSTN para a barra de colaboração, precisará Sistema de Telefonia licença.
 
-- Suas contas de recursos devem ter caixas de correio do Exchange. Como são contas de recurso, nenhuma licença do Exchange é necessária. Recomendamos o uso da licença salas de reunião para contas de recursos.
+- Suas contas de recursos devem ter Exchange caixas de correio. Como são contas de recurso, nenhuma Exchange é necessária. Recomendamos o uso da licença salas de reunião para contas de recursos.
 
 
 ### <a name="add-a-resource-account"></a>Adicionar uma conta de recurso
 
-1. Conecte-se ao PowerShell do Exchange Online. Para obter instruções, [consulte Connect to Exchange Online PowerShell](/powershell/exchange/exchange-online/exchange-online-powershell-v2/exchange-online-powershell-v2?view=exchange-ps#install-and-maintain-the-exchange-online-powershell-v2-module).
+1. Conexão para Exchange Online PowerShell. Para obter instruções, [consulte Conexão Exchange Online PowerShell](/powershell/exchange/exchange-online/exchange-online-powershell-v2/exchange-online-powershell-v2?view=exchange-ps#install-and-maintain-the-exchange-online-powershell-v2-module).
 
-2. No PowerShell do Exchange Online, crie uma nova caixa de correio de sala ou modifique uma caixa de correio de sala existente.
+2. No Exchange Online PowerShell, crie uma nova caixa de correio de sala ou modifique uma caixa de correio de sala existente.
 
    - Para criar uma nova caixa de correio de sala, use a seguinte sintaxe:
 
@@ -81,7 +81,7 @@ Antes de implantar salas do Microsoft Teams com o Office 365, certifique-se de t
    Para obter informações detalhadas sobre sintaxes e parâmetros, consulte [New-Mailbox](/powershell/module/exchange/mailboxes/new-mailbox) e [Set-Mailbox](/powershell/module/exchange/mailboxes/set-mailbox).
 
 
-3. No PowerShell do Exchange Online, configure as seguintes configurações na caixa de correio da sala para melhorar a experiência de reunião:
+3. No Exchange Online PowerShell, configure as seguintes configurações na caixa de correio da sala para melhorar a experiência de reunião:
 
    - AutomateProcessing: AutoAccept (Os organizadores da reunião recebem a decisão de reserva de sala diretamente sem intervenção humana: free = accept; busy = decline.)
 
@@ -95,7 +95,7 @@ Antes de implantar salas do Microsoft Teams com o Office 365, certifique-se de t
 
    - AddAdditionalResponse: $true (O texto especificado pelo parâmetro AdditionalResponse é adicionado às solicitações de reunião.)
 
-   - AdditionalResponse: "Esta sala tem uma barra de colaboração para o Microsoft Teams!" (O texto adicional a ser acrescentado à solicitação de reunião.)
+   - AdditionalResponse: "Esta sala tem uma barra de colaboração para Microsoft Teams!" (O texto adicional a ser acrescentado à solicitação de reunião.)
 
    Este exemplo configura essas configurações na caixa de correio de sala chamada Huddle-Room-01.
 
@@ -105,10 +105,10 @@ Antes de implantar salas do Microsoft Teams com o Office 365, certifique-se de t
 
    Para obter informações detalhadas sobre sintaxes e parâmetros, consulte [Set-CalendarProcessing](/powershell/module/exchange/mailboxes/set-calendarprocessing).
 
-4. Conecte-se ao MS Online PowerShell para fazer configurações do Active Directory executando o `Connect-MsolService -Credential $cred` cmdlet do powershell.   Para obter detalhes sobre o Active Directory, consulte [Azure ActiveDirectory (MSOnline) 1.0](/powershell/azure/active-directory/overview?view=azureadps-1.0). 
+4. Conexão ao PowerShell do MS Online para fazer configurações do Active Directory executando o `Connect-MsolService -Credential $cred` cmdlet do powershell.   Para obter detalhes sobre o Active Directory, consulte [Azure ActiveDirectory (MSOnline) 1.0](/powershell/azure/active-directory/overview?view=azureadps-1.0). 
 
    > [!NOTE]
-   > [Não há suporte para o PowerShell 2.0 do Azure Active Directory.](/powershell/azure/active-directory/overview?view=azureadps-2.0) 
+   > Azure Active Directory não há suporte para o [PowerShell 2.0.](/powershell/azure/active-directory/overview?view=azureadps-2.0) 
 
 5. De definir a senha huddleroom01@contoso.onmicrosoft.com não expirar usando a seguinte sintaxe:
 
@@ -116,7 +116,7 @@ Antes de implantar salas do Microsoft Teams com o Office 365, certifique-se de t
       Set-MsolUser -UserPrincipalName huddleroom01@contoso.onmicrosoft.com -PasswordNeverExpires $true
       ```
     
-6. A conta de recurso precisa ter uma licença válida do Office 365, preferencialmente a SKU da Sala de Reunião. Você também precisa atribuir um local de uso à sua conta de dispositivo— isso determina quais SKUs de licença estão disponíveis para sua conta. Você pode usar `Get-MsolAccountSku` para recuperar uma lista de SKUs disponíveis para seu locatário do Office 365.
+6. A conta de recurso precisa ter uma Office 365 de Office 365, preferencialmente a Sala de Reunião SKU. Você também precisa atribuir um local de uso à sua conta de dispositivo— isso determina quais SKUs de licença estão disponíveis para sua conta. Você pode usar `Get-MsolAccountSku` para recuperar uma lista de SKUs disponíveis para seu Office 365 locatário.
 
       ``` Powershell
       Get-MsolAccountSku
@@ -128,13 +128,13 @@ Antes de implantar salas do Microsoft Teams com o Office 365, certifique-se de t
       Set-MsolUser -UserPrincipalName huddleroom01@contoso.onmicrosoft.com -UsageLocation "US"
       Set-MsolUserLicense -UserPrincipalName huddleroom01@contoso.onmicrosoft.com -AddLicenses contoso:meeting_room
       ```
-   Para obter instruções [detalhadas, consulte Atribuir licenças a contas de usuário com o Office 365 PowerShell](/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell#use-the-microsoft-azure-active-directory-module-for-windows-powershell).
+   Para obter instruções [detalhadas, consulte Assign licenses to user accounts with Office 365 PowerShell](/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell#use-the-microsoft-azure-active-directory-module-for-windows-powershell).
 
 
 
 
-[Configurar contas para barras de colaboração do Microsoft Teams usando o PowerShell](resource-account-ps.md)
+[Configurar contas para barras de colaboração para Microsoft Teams usando o PowerShell](resource-account-ps.md)
 
-[Implantar barras de colaboração para o Microsoft Teams](collab-bar-deploy.md)
+[Implantar barras de colaboração para Microsoft Teams](collab-bar-deploy.md)
 
-[Barras de colaboração para licenciamento do Microsoft Teams](../rooms/rooms-licensing.md)
+[Barras de colaboração para Microsoft Teams Licenciamento](../rooms/rooms-licensing.md)

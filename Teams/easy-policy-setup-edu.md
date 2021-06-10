@@ -1,5 +1,5 @@
 ---
-title: Assistente de Política de Educação do Teams para aplicar facilmente políticas para aprendizado seguro
+title: Teams assistente de Política de Educação para aplicar facilmente políticas para aprendizado seguro
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -15,7 +15,7 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
-description: Saiba como usar o assistente de política do Teams for Education para aplicar facilmente políticas para alunos e educadores para manter seu ambiente de aprendizagem seguro.
+description: Saiba como usar o assistente de política Teams educação para aplicar facilmente políticas para alunos e educadores para manter seu ambiente de aprendizagem seguro.
 f1keywords: ''
 ms.openlocfilehash: 7eca1fca8a4c054d2787b205c5e57ced274416da
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
@@ -24,15 +24,15 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 03/23/2021
 ms.locfileid: "51111087"
 ---
-# <a name="use-the-teams-for-education-policy-wizard-to-easily-apply-policies-for-a-safe-learning-environment"></a>Use o Assistente de Política do Teams para Educação para aplicar facilmente políticas para um ambiente de aprendizado seguro
+# <a name="use-the-teams-for-education-policy-wizard-to-easily-apply-policies-for-a-safe-learning-environment"></a>Use o Teams para o Assistente de Política de Educação para aplicar facilmente políticas para um ambiente de aprendizado seguro
 
 ## <a name="overview"></a>Visão Geral
 
-O Assistente de Política do Microsoft Teams para Educação simplifica o gerenciamento de políticas para seus alunos e educadores. Use-o para aplicar de forma fácil e rápida o conjunto mais importante de políticas relevantes para a criação de uma experiência de aprendizado segura e produtiva.
+O Microsoft Teams para o Assistente de Política de Educação simplifica o gerenciamento de políticas para seus alunos e educadores. Use-o para aplicar de forma fácil e rápida o conjunto mais importante de políticas relevantes para a criação de uma experiência de aprendizado segura e produtiva.
 
-As políticas no Teams permitem controlar como o Teams se comporta em seu ambiente e quais recursos estão disponíveis para os usuários. Por exemplo, há políticas de chamada, políticas de reunião e políticas de mensagens, para nomear alguns, e cada área de política pode ser personalizada para atender às necessidades da sua organização.
+As políticas Teams permitir que você controle como Teams se comporta em seu ambiente e quais recursos estão disponíveis para os usuários. Por exemplo, há políticas de chamada, políticas de reunião e políticas de mensagens, para nomear alguns, e cada área de política pode ser personalizada para atender às necessidades da sua organização.
 
-Para manter um ambiente de aprendizado seguro e focado, é importante definir políticas para controlar o que os alunos podem fazer no Teams. Por exemplo, você pode usar políticas para controlar quem pode usar chat privado e chamada privada, quem pode agendar reuniões e quais tipos de conteúdo podem ser compartilhados. Você também pode usar políticas para ativar recursos do Teams que enriquecem a experiência de aprendizado.
+Para manter um ambiente de aprendizado seguro e focado, é importante definir políticas para controlar o que os alunos podem fazer Teams. Por exemplo, você pode usar políticas para controlar quem pode usar chat privado e chamada privada, quem pode agendar reuniões e quais tipos de conteúdo podem ser compartilhados. Você também pode usar políticas para ativar Teams recursos que enriquecem a experiência de aprendizado.
 
 As políticas devem ser ajustadas para alunos e educadores manterem a experiência de aprendizado segura. As políticas para alunos precisam ser mais restritivas para reduzir o risco de receber níveis inadequados de acesso. Educadores e funcionários precisam de um conjunto separado de políticas que podem ser mais permissivas para permitir que eles sejam bem-sucedidos. Por exemplo, permitir que os educadores agendem reuniões e restrinjam os alunos a fazer isso.
 
@@ -41,9 +41,9 @@ As políticas devem ser ajustadas para alunos e educadores manterem a experiênc
 Este artigo explica como executar o assistente.
 
 > [!IMPORTANT]
-> As políticas aplicadas pelo assistente atenderão às necessidades da maioria dos clientes do Teams for Education. O assistente ajusta a definição Global (padrão em toda a organização) de um conjunto principal de políticas com configurações que recomendamos para a segurança do aluno e aplica-a aos alunos. O assistente também cria e atribui um conjunto de políticas personalizadas a educadores e funcionários. A maioria dos clientes do Teams for Education não precisará usar outros métodos de atribuição de política após a execução deste assistente. Use outros métodos de atribuição de política *somente* se você quiser criar e gerenciar manualmente políticas para seus alunos, educadores e funcionários.
+> As políticas aplicadas pelo assistente atenderão às necessidades da maioria dos clientes Teams Educação. O assistente ajusta a definição Global (padrão em toda a organização) de um conjunto principal de políticas com configurações que recomendamos para a segurança do aluno e aplica-a aos alunos. O assistente também cria e atribui um conjunto de políticas personalizadas a educadores e funcionários. A Teams para clientes education não precisará usar outros métodos de atribuição de política após a execução deste assistente. Use outros métodos de atribuição de política *somente* se você quiser criar e gerenciar manualmente políticas para seus alunos, educadores e funcionários.
 
-## <a name="teams-for-education-policy-wizard"></a>Assistente de Política de Educação do Teams para Educação
+## <a name="teams-for-education-policy-wizard"></a>Teams assistente de política educacional
 
 <a name="polwiz_intro"> </a>
 
@@ -67,7 +67,7 @@ Agora, vamos começar!
 
 Siga estas etapas para executar o assistente.
 
-1. Se você for novo no Teams, o assistente será iniciado automaticamente. Caso contrário, você pode iniciar o assistente a qualquer momento a partir do painel. Na navegação à esquerda do Centro de administração do Microsoft  Teams, vá para **Painel** e, em seguida, na configuração de política Fácil para um pacote de ambiente de aprendizado seguro, selecione **Configuração rápida**.
+1. Se você for novo no Teams, o assistente será iniciado automaticamente. Caso contrário, você pode iniciar o assistente a qualquer momento a partir do painel. Na navegação à esquerda do centro de administração Microsoft Teams, vá  para **Painel** e, em seguida, na configuração de política fácil para um painel de ambiente de aprendizagem seguro, selecione **Configuração rápida**.
 
     :::image type="content" source="media/easy-policy-setup-quick-setup.png" alt-text="Captura de tela do assistente no painel":::
 
@@ -97,13 +97,13 @@ Siga estas etapas para executar o assistente.
 > [!IMPORTANT]
 > Conclua esta etapa somente se você tiver políticas existentes atribuídas a alunos ou educadores e **funcionários *antes* de ter o assistente.** Se você for novo no Teams e não tiver nenhuma política existente além das políticas criadas pelo assistente, ignore isso e vá para a etapa 2.
 
-No Teams, para uma determinada área de política, uma política pode ser aplicada a um usuário das seguintes maneiras:
+Em Teams, para uma determinada área de política, uma política pode ser aplicada a um usuário das seguintes maneiras:
 
 - Atribuição direta ao usuário
 - Atribuição a um grupo de que o usuário é membro
 - Se o usuário não receber diretamente uma política ou não for membro de nenhum grupo atribuído a uma política, o usuário obtém automaticamente a política Global (padrão em toda a organização)
 
-Se mais de uma dessas atribuições de política existirem para um usuário, o Teams usará a ordem a seguir para determinar qual atribuição de política entra em vigor. Para obter mais informações, consulte [Qual política tem precedência?](assign-policies.md#which-policy-takes-precedence) e [Regras de precedência.](assign-policies.md#precedence-rules)
+Se mais de uma dessas atribuições de política existirem para um usuário, Teams a ordem a seguir para determinar qual atribuição de política entra em vigor. Para obter mais informações, consulte [Qual política tem precedência?](assign-policies.md#which-policy-takes-precedence) e [Regras de precedência.](assign-policies.md#precedence-rules)
 
 |Atribuições de política de um usuário|Política que entra em vigor |
 |---------|---------|
@@ -129,15 +129,15 @@ Por exemplo, você atribuiu uma política de reunião diretamente aos educadores
 
 O assistente ajusta e aplica essas [políticas automaticamente.](#policies-applied-by-the-wizard) Existem poucas medidas adicionais, que você pode querer tomar com base nas necessidades da sua instituição para se manter segura.
 
-Consulte [Mantendo os alunos seguros ao usar o Teams para aprendizado a distância](https://support.microsoft.com/office/keeping-students-safe-while-using-teams-for-distance-learning-f00fa399-0473-4d31-ab72-644c137e11c8#ID0EBBAAA) para obter recomendações de segurança adicionais.
+Consulte [Mantendo os alunos seguros ao usar Teams para aprendizagem a distância](https://support.microsoft.com/office/keeping-students-safe-while-using-teams-for-distance-learning-f00fa399-0473-4d31-ab72-644c137e11c8#ID0EBBAAA) para obter recomendações de segurança adicionais.
 
 <a name="polwiz_mc"> </a>
 
 ### <a name="step-3-check-message-center-for-policy-updates"></a>Etapa 3: Verificar o Centro de Mensagens para atualizações de política
 
-Atualmente, o assistente aplica nossas políticas recomendadas ao executar. É importante saber que, à medida que novas políticas se tornam disponíveis no Teams, as configurações Globais (padrão em toda a organização) para segurança do aluno não são adicionadas automaticamente pelo assistente. Esse recurso estará disponível em uma versão futura.
+Atualmente, o assistente aplica nossas políticas recomendadas ao executar. É importante saber que, à medida que novas políticas se tornam disponíveis no Teams, as configurações Globais (padrão de toda a organização) para segurança do aluno não são adicionadas automaticamente pelo assistente. Esse recurso estará disponível em uma versão futura.
 
-Até que esse recurso fique disponível, verifique o Centro de Mensagens [(no](https://admin.microsoft.com/AdminPortal/Home?#/MessageCenter) Centro de administração do Microsoft 365) com frequência para se manter atualizado sobre novas políticas e configurações de política no Teams. À medida que novos recursos se tornam disponíveis, talvez seja preciso atualizar manualmente suas políticas para manter seu ambiente de aprendizado seguro.
+Até que esse recurso fique disponível, verifique o Centro de Mensagens [(no](https://admin.microsoft.com/AdminPortal/Home?#/MessageCenter) centro de administração do Microsoft 365) com frequência para se manter atualizado sobre novas políticas e configurações de política no Teams. À medida que novos recursos se tornam disponíveis, talvez seja preciso atualizar manualmente suas políticas para manter seu ambiente de aprendizado seguro.
 
 ## <a name="make-changes-in-the-wizard"></a>Fazer alterações no assistente
 
@@ -145,7 +145,7 @@ Até que esse recurso fique disponível, verifique o Centro de Mensagens [(no](h
 
 Se você precisar fazer alterações depois de executar o assistente, poderá re runá-lo e alterar suas seleções.
 
-1. Na navegação à esquerda do Centro de administração do Microsoft  Teams, vá para **Painel** e, em seguida, na configuração de política Fácil para um pacote de ambiente de aprendizado seguro, selecione **Alterar**.
+1. Na navegação à esquerda do centro de administração Microsoft Teams, vá  para **Painel** e, em seguida, na configuração de política fácil para um painel de ambiente de aprendizagem seguro, selecione **Alterar**.
 2. A partir daqui, continue por cada página do assistente para fazer suas alterações. Você pode alterar o tipo de instituição, o grupo de educadores e funcionários aos quais deseja atribuir políticas ou ambos.
 
 A tabela a seguir resume o que acontece quando você faz uma alteração no assistente.
@@ -162,7 +162,7 @@ A tabela a seguir resume o que acontece quando você faz uma alteração no assi
 
 ### <a name="policy-areas"></a>Áreas de política
 
-Aqui estão as áreas de política e os nomes de política correspondentes cobertos pelo assistente. Para encontrar essas políticas, vá para o Centro de administração do Microsoft Teams e, na navegação à esquerda, vá para cada página de área de política.
+Aqui estão as áreas de política e os nomes de política correspondentes cobertos pelo assistente. Para encontrar essas políticas, vá para o centro de administração Microsoft Teams e, na navegação à esquerda, vá para cada página de área de política.
 
 #### <a name="students"></a>[**Alunos**](#tab/students/)
 
@@ -226,7 +226,7 @@ Aqui está uma lista das definições de política Global (padrão em toda a org
 |Políticas de eventos ao vivo  |       |Permitir agendamento         |Desabilitado         |Desabilitado|
 |  |       |Permitir transcrição para participantes          |Habilitado       |Habilitado|
 |  |       |Quem pode ingressar eventos ao vivo agendados        |Todos na organização        |Todos na organização|
-|  |       |Quem pode gravar um evento         |Always         |Always|
+|  |       |Who pode gravar um evento         |Always         |Always|
 |Políticas de mensagens  |       |Os proprietários podem excluir as mensagens enviadas         |Desabilitado|Habilitado|
 |  |       |Apagar mensagens enviadas         |Desabilitado         |Habilitado|
 |  |       |Editar mensagens enviadas         |Desabilitado         |Habilitado|
@@ -246,7 +246,7 @@ Aqui está uma lista das definições de política Global (padrão em toda a org
 |Política de permissão do aplicativo  |       |Aplicativos da Microsoft         |Bloquear aplicativos específicos e permitir que todos os outros > Walkie Talkie bloqueados         |Permitir todos os aplicativos|
 |  |       |Aplicativos de terceiros         |Permitir todos os aplicativos         |Permitir todos os aplicativos|
 |  |       |Aplicativos personalizados         |Permitir todos os aplicativos         |Permitir todos os aplicativos|
-|Política de configuração de aplicativo  |           |Carregar aplicativos personalizados           |Desabilitado         |Desabilitado|
+|Política de configuração de aplicativo  |           |Upload aplicativos personalizados           |Desabilitado         |Desabilitado|
 |  |       |Permitir o pinamento do usuário |Habilitado         |Habilitado|
 |  |       |Aplicativos instalados         |Nenhum         |Nenhum|
 |  |       |Aplicativos fixados         |Atividade, Calendário, Teams         |Atividade, Chats, Teams, Calendário, Chamada, Arquivo
@@ -294,7 +294,7 @@ Aqui está uma lista das definições de política personalizadas atribuídas ao
 |Políticas de eventos ao vivo  |       |Permitir agendamento         |Habilitado         |Habilitado|
 |  |       |Permitir transcrição para participantes          |Habilitado       |Habilitado|
 |  |       |Quem pode ingressar eventos ao vivo agendados        |Todos na organização        |Todos na organização|
-|  |       |Quem pode gravar um evento         |Sempre gravar         |Sempre gravar|
+|  |       |Who pode gravar um evento         |Sempre gravar         |Sempre gravar|
 |Políticas de mensagens  |       |Os proprietários podem excluir as mensagens enviadas         |Habilitado|Habilitado|
 |  |       |Apagar mensagens enviadas         |Habilitado         |Habilitado|
 |  |       |Editar mensagens enviadas         |Habilitado         |Habilitado|
@@ -325,6 +325,6 @@ Aqui está uma lista das definições de política personalizadas atribuídas ao
 
 ## <a name="related-topics"></a>Tópicos relacionados
 
-- [Políticas e pacotes de políticas do Teams para Educação](policy-packages-edu.md)
+- [Políticas do Teams e pacotes de políticas para Educação](policy-packages-edu.md)
 - [Atribuir políticas a grandes conjuntos de usuários em sua escola](batch-group-policy-assignment-edu.md)
-- [Manter os alunos seguros ao usar o Teams para aprendizado à distância](https://support.microsoft.com/office/keeping-students-safe-while-using-teams-for-distance-learning-f00fa399-0473-4d31-ab72-644c137e11c8)
+- [Manter os alunos seguros durante o uso Teams para aprendizagem à distância](https://support.microsoft.com/office/keeping-students-safe-while-using-teams-for-distance-learning-f00fa399-0473-4d31-ab72-644c137e11c8)

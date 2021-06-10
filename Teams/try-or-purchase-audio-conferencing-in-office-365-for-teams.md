@@ -1,5 +1,5 @@
 ---
-title: Experimente ou compre Audioconferência no Microsoft 365 para Teams
+title: Experimente ou compre Audioconferência em Microsoft 365 para Teams
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -23,7 +23,7 @@ ms.custom:
 - Audio Conferencing
 - ms.lync.lac.CpcGettingStarted
 - seo-marvel-mar2020
-description: 'Veja como tentar ou comprar licenças de Audioconferência (Conferência PSTN) para o Microsoft 365 ou Office 365 para configurar chamadas de conferência para as qual as pessoas podem discar. '
+description: 'Confira como tentar ou comprar licenças de Conferência de Áudio (Conferência PSTN) para Microsoft 365 ou Office 365 configurar chamadas de conferência para as qual as pessoas possam discar. '
 ms.openlocfilehash: b4cf789289bc1f05e9e8bba79409f204112f288b
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
@@ -31,9 +31,9 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 03/23/2021
 ms.locfileid: "51116529"
 ---
-# <a name="try-or-purchase-audio-conferencing-in-microsoft-365-for-microsoft-teams"></a>Experimente ou compre Audioconferência no Microsoft 365 para o Microsoft Teams
+# <a name="try-or-purchase-audio-conferencing-in-microsoft-365-for-microsoft-teams"></a>Experimente ou compre Audioconferência em Microsoft 365 para Microsoft Teams
 
-Às vezes, as pessoas da sua organização precisam usar um telefone para ligar para uma reunião. O Microsoft Teams inclui o recurso audioconferência para apenas esta situação! As pessoas podem ligar para reuniões do Microsoft Teams usando um telefone, em vez de usar o aplicativo do Microsoft Teams em um dispositivo móvel ou computador.
+Às vezes, as pessoas da sua organização precisam usar um telefone para ligar para uma reunião. Microsoft Teams inclui o recurso audioconferência para apenas esta situação! As pessoas podem ligar para Microsoft Teams reuniões usando um telefone, em vez de usar o aplicativo Microsoft Teams em um dispositivo móvel ou computador.
 
 Você só precisa configurar a audioconferência para pessoas que planejam agendar ou conduzir reuniões. Participantes que fazem chamadas para a reunião não precisam ter licenças atribuídas a eles e nenhum outro tipo de configuração.
 
@@ -49,13 +49,13 @@ Você deve ser um [administrador global ou administrador de cobrança](https://s
 
 2. Obtenha suas licenças de **Audioconferência**. Se você quiser:
 
-   - **Experimente antes** de comprá-lo: você pode se inscrever em uma avaliação gratuita do Office 365 Enterprise E5 que inclui Audioconferência. Confira a [Avaliação do Office 365 Enterprise E5](https://portal.office.com/Signup?OfferId=101bde18-5ffb-4d79-a47b-f5b2c62525b3).
+   - **Experimente antes** de comprá-lo: você pode se inscrever para uma avaliação Office 365 Enterprise E5 gratuita que inclui Audioconferência. Confira a [Avaliação do Office 365 Enterprise E5](https://portal.office.com/Signup?OfferId=101bde18-5ffb-4d79-a47b-f5b2c62525b3).
 
-   - **Compre-o**: consulte [Licenciamento de complemento do Microsoft Teams](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
+   - **Compre-o**: [consulte Microsoft Teams licenciamento de complementos](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
 
 3. [Atribua licenças aos usuários](/microsoft-365/admin/manage/assign-licenses-to-users) da sua organização que vão agendar ou conduzir reuniões.
 
-4. Se você adquiriu licenças complementares de Audioconferência e Créditos de Comunicação, atribua-as também. Para obter instruções, [consulte Atribuir licenças de complemento do Microsoft Teams](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
+4. Se você adquiriu licenças complementares de Audioconferência e Créditos de Comunicação, atribua-as também. Para obter instruções, [consulte Assign Microsoft Teams add-on licenses](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
 
 ### <a name="to-buy-and-assign-pay-per-minute-audio-conferencing-licenses"></a>Para comprar e atribuir licenças de Audioconferência de pagamento por minuto
 
@@ -77,7 +77,7 @@ Se você for um cliente de Volume e Licenciamento, pode obter licenças de Audio
 
 ## <a name="step-2-set-the-audio-conferencing-provider-for-people-who-lead-or-schedule-meetings"></a>Etapa 2: Configure o provedor de serviços de audioconferência para pessoas que lideram ou agendam reuniões
 
-Quando você atribui uma licença de **Audioconferência** a pessoas em sua organização que não têm o Skype for Business integrado a um provedor de audioconferência de terceiros, eles estão todos prontos para ir! (Você não precisará definir o provedor de serviços de audioconferência para eles.)
+Quando você atribui uma licença de **Audioconferência** a pessoas em sua organização que não têm uma Skype for Business integrada a um provedor de audioconferência de terceiros, elas estão todas configuradas e prontas para ir! (Você não precisará definir o provedor de serviços de audioconferência para eles.)
 
 Se você tiver usuários habilitados com um provedor de audioconferência de terceiros, você deverá alterar o provedor desses usuários para a Microsoft. Para alterar o provedor de um usuário, consulte [Atribuir a Microsoft como o provedor de audioconferência](/skypeforbusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider).
 
@@ -98,7 +98,7 @@ As etapas a seguir são **opcionais**, mas muitos administradores gostam de segu
 
 ## <a name="related-topics"></a>Tópicos relacionados
 
-[Habilitar o Teams em sua organização](office-365-set-up.md)
+[Habilitar Teams em sua organização](office-365-set-up.md)
 
 [Números de telefone para audioconferência](phone-numbers-for-audio-conferencing-in-teams.md)
 

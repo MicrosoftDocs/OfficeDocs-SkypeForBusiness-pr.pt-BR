@@ -62,7 +62,7 @@ A integração Moodle no Microsoft Teams é produzida pelo [pacote do plug-in do
 1. Entre no servidor Moodle como administrador e selecione **Administração de site** no painel de navegação esquerdo.
 1. Selecione a guia **Plug-ins** e, em seguida, clique em **Instalar plug-ins**.
 1. Na seção **Instalar plug-in do arquivo ZIP**, clique no botão **Escolha um arquivo**.
-1. Selecione a **opção Carregar um arquivo** na navegação à esquerda, procure o arquivo que você baixou acima e clique em Carregar esse **arquivo**.
+1. Selecione o **Upload uma opção de** arquivo na navegação à esquerda, navegue até o arquivo que você baixou acima e clique Upload este **arquivo**.
 1. Selecione a opção **Administração do site** no painel de navegação à esquerda novamente, para retornar ao seu painel de administração. Role a tela para baixo até **Plug-ins locais** e clique no link **Integração do Microsoft Office 365**. Mantenha a página de configuração aberta em uma guia separada do navegador, pois ela será usada durante todo o restante deste processo.
 
 Você pode encontrar mais informações sobre como instalar plug-ins do Moodle na [documentação do Moodle](https://docs.moodle.org/34/en/Installing_plugins).
@@ -127,7 +127,7 @@ Em seguida, você precisará registrar o Moodle como um aplicativo no Azure Acti
     * Para habilitar o OpenID Connect, clique no link **Gerenciar a autenticação** e clique no ícone de olho na linha **OpenId Connect** se estiver acinzentado.
     * Em seguida, você precisará habilitar a incorporação de quadro. Clique no link **Segurança HTTP** e, em seguida, clique na caixa de seleção ao lado de **Permitir incorporação de quadro**.
     * A próxima etapa é habilitar os serviços da Web, que habilitarão os recursos da API do Moodle. Clique no link **Recursos avançados** e, em seguida, verifique se a caixa de seleção ao lado de **Habilitar serviços Web** está marcada.
-    * Por fim, você precisará habilitar os serviços externos para o Microsoft 365 ou o Office 365. Clique no link **Serviços externos** e, então:
+    * Por fim, você precisará habilitar os serviços externos para Microsoft 365 ou Office 365. Clique no link **Serviços externos** e, então:
         * Clique em **Editar** na linha **Moodle Office 365 Webservices**.
         * Marque a caixa de seleção ao lado de **Habilitada**, em seguida, clique em **Salvar alterações**
     * Em seguida, você precisará editar suas permissões de usuário autenticado para permitir que eles criem tokens de serviço Web. Clique no link **Editando a função 'Usuário autenticado'**. Role para baixo e localize a funcionalidade **Criar um token de serviço Web** e marque a caixa de seleção **Permitir**.
@@ -153,7 +153,7 @@ Para instalar o bot, primeiro será necessário registrá-lo na [Plataforma de I
 1. Clique no link **Portal de Registro de Aplicativos Microsoft** e efetue logon com sua ID da Microsoft.
 1. Insira um nome para seu aplicativo (Por exemplo. MoodleBot) e clique no botão **Criar**.
 1. Copie a **ID do aplicativo** e cole-a no campo **Identificação do aplicativo bot** na página **Configurações da equipe**.
-1. Clique no botão **Gerar nova senha**. Copie a senha gerada e a colar no campo Senha do Aplicativo **Bot** na página **Configurações da** Equipe.
+1. Clique no botão **Gerar nova senha**. Copie a senha gerada e a colar no campo Senha do Aplicativo **bot** na **página Configurações** Equipe.
 1. Role até a parte inferior do formulário e clique em **Salvar alterações**.
 
 Agora que você gerou a ID do aplicativo e a senha, chegou a hora de implantar o bot no Azure. Clique no botão **Implantar no Azure** e preencha o formulário com as informações necessárias (a ID do aplicativo bot, a senha do aplicativo bot e o segredo Moodle estão na página **Configurações da equipe** e as informações do Azure estão na página **Configuração**). Depois de preencher o formulário, marque a caixa de seleção para concordar com os termos e condições e, em seguida, clique no botão **Compra** (todos os recursos do Azure são implantados no nível gratuito).

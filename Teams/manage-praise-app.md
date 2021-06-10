@@ -1,5 +1,5 @@
 ---
-title: Gerenciar o aplicativo elogiar no centro de administração do Teams
+title: Gerenciar o Elogio aplicativo no Teams de administração
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -8,7 +8,7 @@ audience: admin
 ms.topic: article
 ms.service: msteams
 localization_priority: Normal
-description: Saiba mais sobre as configurações de administrador no aplicativo Elogiar no centro de administração do Microsoft Teams
+description: Saiba mais sobre as configurações de administrador no aplicativo Elogio no centro de administração Microsoft Teams local
 ms.openlocfilehash: becaccc9c8370d25e3d085e3c896d4f1a8a0ad95
 ms.sourcegitcommit: 900f28c4ac12d65ccbd996028205ba183b4afb03
 ms.translationtype: MT
@@ -16,29 +16,29 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/24/2021
 ms.locfileid: "51995179"
 ---
-# <a name="manage-the-praise-app-in-the-microsoft-teams-admin-center"></a>Gerenciar o aplicativo elogiar no centro de administração do Microsoft Teams
+# <a name="manage-the-praise-app-in-the-microsoft-teams-admin-center"></a>Gerenciar o Elogio no centro Microsoft Teams administrador
 
 > [!NOTE]
-> Os administradores devem ter uma licença do Teams para acessar esse recurso. Se você tentar acessar esse recurso sem uma licença do Teams, você receberá uma mensagem de erro.
+> Os administradores devem ter uma Teams para acessar esse recurso. Se você tentar acessar esse recurso sem uma Teams de Teams, você obterá uma mensagem de erro.
 
-O aplicativo Elogiar no Microsoft Teams ajuda os usuários a mostrar apreço aos membros de sua organização ou sala de aula. Com uma seleção de conjuntos de selos para escolher e a opção de criar seus próprios selos, o Praise foi projetado para ajudar a reconhecer o esforço que entra na ampla gama de trabalho que os usuários do Teams fazem, de educadores a Trabalhadores de Linha de Frente. Para saber mais, confira [Enviar elogios para as pessoas.](https://support.microsoft.com/office/send-praise-to-people-50f26b47-565f-40fe-8642-5ca2a5ed261e)
+O Elogio aplicativo no Microsoft Teams ajuda os usuários a mostrar apreço aos membros de sua organização ou sala de aula. Com uma seleção de conjuntos de selos a escolher e a opção de criar seus próprios selos, o Elogio foi projetado para ajudar a reconhecer o esforço que se dá na ampla gama de trabalho que os usuários Teams fazem, de educadores a Trabalhadores de Linha de Frente. Para saber mais, confira [Enviar Elogio para pessoas](https://support.microsoft.com/office/send-praise-to-people-50f26b47-565f-40fe-8642-5ca2a5ed261e).
 
-Os administradores podem controlar quais selos estão disponíveis para sua organização no Centro de administração do Microsoft Teams. Na navegação à esquerda, vá para **Aplicativos do Teams > Gerenciar aplicativos**. Na lista de aplicativos, clique em **Elogiar** e, em seguida, selecione **Configurações**.  A partir daqui, você pode optar por habilitar conjuntos de selos padrão e integrados e criar selos personalizados.
+Os administradores podem controlar quais selos estão disponíveis para sua organização Microsoft Teams centro de administração. Na navegação à esquerda, acesse Teams **aplicativos > Gerenciar aplicativos**. Na lista de aplicativos, clique **em Elogio** e selecione **Configurações**.  A partir daqui, você pode optar por habilitar conjuntos de selos padrão e integrados e criar selos personalizados.
 
-![Captura de tela da guia Configurações do aplicativo Elogiar](media/manage-praise-app-settings.png)
+![Captura de tela Configurações guia para o Elogio app](media/manage-praise-app-settings.png)
 
 > [!NOTE]
-> O recurso de aplicativo Dedros não está disponível para nuvens do governo dos EUA.
+> O Elogio de aplicativo não está disponível para nuvens do governo dos EUA.
 
 ## <a name="use-built-in-badge-sets"></a>Usar conjuntos de selos integrados
 
-Conjuntos integrados são conjuntos de selos projetados pela Microsoft para o aplicativo Praise. Esses conjuntos não podem ser editáveis pelos administradores. O conjunto de selos padrão já está habilitado e disponível no aplicativo Elogiar. Para alterar a disponibilidade do conjunto padrão ou de qualquer conjunto de selos, alterne a alternância correspondente para Ligar ou Desligar. 
+Conjuntos integrados são conjuntos de selos projetados pela Microsoft para o Elogio app. Esses conjuntos não podem ser editáveis pelos administradores. O conjunto de selos padrão já está habilitado e disponível no Elogio app. Para alterar a disponibilidade do conjunto padrão ou de qualquer conjunto de selos, alterne a alternância correspondente para Ligar ou Desligar. 
 
 <a name="default-badges"></br></a>
 
 ### <a name="default-badges"></a>Selos padrão
 
-O conjunto de selos padrão foi projetado para ajudar os usuários do Teams a reconhecer seus pares para ir além e acima com seu trabalho.
+O conjunto de selos padrão foi projetado para ajudar Teams os usuários reconhecerem seus pares para ir além e acima com seu trabalho.
 
 ![Visualização do conjunto de selos padrão](media/default-set-praise.png)
 
@@ -65,7 +65,7 @@ Selecione **Criar um selo personalizado.** A partir daqui, você pode projetar u
    > [!TIP]
    > Se você for novo nos valores de hexaxa, este artigo inclui uma introdução rápida [para](#hex-colors-intro) mostrar como usá-los.
 
-3. Carregar uma imagem de selo. O tipo de arquivo aceito é . PNG. O arquivo de imagem deve ter menos de 40 KB com dimensões máximas de 216 X 216 pixels.
+3. Upload imagem de selo. O tipo de arquivo aceito é .PNG. O arquivo de imagem deve ter menos de 40 KB com dimensões máximas de 216 X 216 pixels.
 ![Selo com campos de plano de fundo, texto e imagem rotulados](media/praise-app-badge-fields.png)
 
 4. Localize seu nome de selo: em **Nomes de selo localizados,** selecione **Adicionar**. Selecione a localidade desejada na listada. Em seguida, insira o nome do selo no idioma designado.
@@ -87,7 +87,7 @@ Os valores de cores hexadecimais são cadeias de caracteres de seis dígitos hex
 
 Por exemplo, o valor hexaxa para a cor vermelha é #FF0000 porque vermelho é definido com o maior valor possível, FF e verde e azul são definidos no menor valor possível, 00.
 
-Para explorar cores diferentes e seus valores de hexaxa, confira [o selador de](https://www.bing.com/search?q=color+picker)cores do Bing.
+Para explorar cores diferentes e seus valores de hexaxa, confira [Bing selador de cores](https://www.bing.com/search?q=color+picker).
 
 Abaixo está uma lista de cores de exemplo para começar:
 
@@ -110,13 +110,13 @@ Abaixo está uma lista de cores de exemplo para começar:
 
 **Ao selecionar uma imagem, lembre-se das dimensões do selo.** Para a melhor qualidade, recomendamos carregar um arquivo de imagem de 216 x 216 pixels (que são as dimensões máximas). Evite alongar ou distorcer a imagem para se ajustar a essas dimensões.
 
-**Se a imagem do selo não for retangular, faça a imagem transparente.** Você precisará fazer isso antes de carregar o arquivo de imagem em Praise.
+**Se a imagem do selo não for retangular, faça a imagem transparente.** Você precisará fazer isso antes de carregar o arquivo de imagem para Elogio.
 
 ![Left: badge with non-transparent image, right: badge with transparent image](media/praise-app-best-practices.png)
 
 ## <a name="badge-set-assets"></a>Ativos de conjunto de selos
 
-Os conjuntos de selos integrados não podem ser modificados, portanto, quando um conjunto integrado está habilitado, todos os selos no conjunto são adicionados ao aplicativo Praise. Se você quiser adicionar selos específicos de um conjunto integrado e deixar outras pessoas de fora, re-crie os selos que deseja usar como selos personalizados. Você pode baixar a imagem do selo e encontrar as cores de texto e plano de fundo dos selos de conjuntos integrados nas tabelas abaixo.
+Os conjuntos de selos integrados não podem ser modificados, portanto, quando um conjunto integrado está habilitado, todos os selos no conjunto são adicionados ao aplicativo Elogio. Se você quiser adicionar selos específicos de um conjunto integrado e deixar outras pessoas de fora, re-crie os selos que deseja usar como selos personalizados. Você pode baixar a imagem do selo e encontrar as cores de texto e plano de fundo dos selos de conjuntos integrados nas tabelas abaixo.
 
 ### <a name="default-badges-assets"></a>Ativos de selos padrão
 

@@ -7,7 +7,7 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.reviewer: landerl
-description: Saiba como fazer a transição da sua organização para o Microsoft Teams de uma implantação local do Skype for Business.
+description: Saiba como fazer a transição da sua organização para Microsoft Teams de uma implantação Skype for Business local.
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -27,7 +27,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 03/23/2021
 ms.locfileid: "51115549"
 ---
-# <a name="upgrade-from-a-skype-for-business-on-premises-deployment-to-teams"></a>Atualizar de uma implantação local do Skype for Business para o Teams
+# <a name="upgrade-from-a-skype-for-business-on-premises-deployment-to-teams"></a>Atualizar de uma implantação Skype for Business local para Teams
 
 ![Estágios da jornada de atualização, com ênfase no estágio implantação e implementação](media/upgrade-banner-deployment.png "Estágios da jornada de atualização, com ênfase no estágio implantação e implementação")
 
@@ -41,31 +41,31 @@ Este artigo faz parte do estágio implantação e implementação de sua jornada
 - [Preparou sua organização](./upgrade-prepare-organization.md)
 - [Conduzido um piloto](./pilot-essentials.md)
 
-Siga as diretrizes deste artigo se você tiver implantado o Skype for Business ou o Microsoft Lync no local e sua organização quiser atualizar para o Microsoft Teams seletivamente, usando vários modos de coexistência ou tudo. 
+Siga as diretrizes deste artigo se você tiver implantado o Skype for Business ou o Microsoft Lync no local e sua organização quiser atualizar para o Microsoft Teams seletivamente, usando vários modos de coexistência ou todo o pacote. 
 
 > [!IMPORTANT]
 > [!INCLUDE [upgrade-disclaimer](includes/upgrade-disclaimer.md)]
 
 ## <a name="step-1-deploy-hybrid-connectivity"></a>Etapa 1: Implantar conectividade híbrida
 
-O principal pré-requisito para atualizar seus usuários para o Teams é implantar a conectividade híbrida.
+O principal pré-requisito para atualizar seus usuários para Teams é implantar a conectividade híbrida.
 
 Para obter mais informações, [consulte Deploy hybrid connectivity between Skype for Business Server and Skype for Business Online](/skypeforbusiness/skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/deploy-hybrid-connectivity)
 
 ## <a name="step-2-implement-your-chosen-upgrade-journey-for-your-organization"></a>Etapa 2: Implementar sua jornada de atualização escolhida para sua organização
 
-Depois de concluir sua configuração híbrida, você pode planejar mover seus usuários para o Microsoft 365 ou o Office 365.
+Depois de concluir sua configuração híbrida, você pode planejar mover seus usuários para Microsoft 365 ou Office 365.
 
 Para obter mais informações, consulte:
 
 - [TeamsUpgradePolicy: gerenciando migração e coexistência.](upgrade-to-teams-on-prem-tools.md)
 
-- [Mova os usuários do local para o Skype for Business Online.](/skypeforbusiness/skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/move-users-from-on-premises-to-skype-for-business-online)
+- [Mover usuários do local para o Skype for Business Online](/skypeforbusiness/skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/move-users-from-on-premises-to-skype-for-business-online).
 
-## <a name="phone-system-and-teams-upgrade"></a>Atualização do Sistema de Telefonia e do Teams
+## <a name="phone-system-and-teams-upgrade"></a>Sistema de Telefonia e Teams atualização
 
-A transição de sistemas telefônicos locais para o Teams permitirá que você aproveite o Roteamento Direto do Sistema de Telefonia ("Roteamento Direto") ou os Planos de Chamadas fornecidos pela Microsoft para o Microsoft 365 ou o Office 365.
+A transição de sistemas telefônicos locais para o Teams permitirá que você tire proveito do roteamento direto Sistema de Telefonia ("Roteamento Direto") ou dos Planos de Chamadas fornecidos pela Microsoft para Microsoft 365 ou Office 365.
 
-Se você não estiver usando Planos de Chamadas, precisará fazer a transição da implantação de voz corporativa para o Roteamento Direto do Sistema de Telefonia como parte da atualização para o Teams.
+Se você não estiver usando Planos de Chamadas, precisará fazer a transição da implantação de voz da empresa para Sistema de Telefonia Roteamento Direto como parte da atualização para Teams.
 
-Para obter mais informações, [consulte considerações adicionais para Roteamento Direto do Sistema de Telefonia](./direct-routing-landing-page.md). Se você estiver planejando usar Planos de Chamadas, consulte nossas diretrizes para transferir seus números [de telefone para o Teams](phone-number-calling-plans/transfer-phone-numbers-to-teams.md).
+Para obter mais informações, [consulte considerações adicionais sobre Sistema de Telefonia Roteamento Direto.](./direct-routing-landing-page.md) Se você estiver planejando usar Planos de Chamadas, consulte nossas diretrizes para transferir seus números de telefone [para](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)Teams .

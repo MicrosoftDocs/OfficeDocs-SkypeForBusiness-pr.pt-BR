@@ -11,7 +11,7 @@ localization_priority: Normal
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
-description: Saiba mais sobre a expiração e renovação de equipe e como usar a política de expiração de grupo do Microsoft 365 para limpar automaticamente as equipes não usadas no Microsoft Teams.
+description: Saiba mais sobre a expiração e renovação da equipe e como usar Microsoft 365 política de expiração de grupo para limpar automaticamente as equipes não usadas no Microsoft Teams.
 f1.keywords:
 - NOCSH
 appliesto:
@@ -27,7 +27,7 @@ ms.locfileid: "51116949"
 
 Organizações com um grande número de equipes geralmente têm equipes que nunca são realmente usadas. Isso pode acontecer devido a vários motivos, incluindo experimentação de produto, colaboração de equipe de curto prazo ou proprietários de equipe deixando a organização. Com o tempo, essas equipes podem se acumular e criar uma sobrecarga nos recursos do locatário.  
 
-Para reduzir o número de equipes não usadas, como administrador, você pode usar a política de expiração de grupo do [Microsoft 365](/microsoft-365/admin/create-groups/office-365-groups-expiration-policy) para limpar automaticamente as equipes não usadas. Como as equipes têm o suporte de grupos, as políticas de expiração de grupo também se aplicam automaticamente às equipes.
+Para reduzir o número de equipes não usadas, como administrador, você pode usar Microsoft 365 política de expiração de grupo para limpar automaticamente as equipes não usadas. [](/microsoft-365/admin/create-groups/office-365-groups-expiration-policy) Como as equipes têm o suporte de grupos, as políticas de expiração de grupo também se aplicam automaticamente às equipes.
 
 Quando você aplica uma política de expiração a uma equipe, um proprietário da equipe recebe uma notificação para renovação de equipe 30 dias, 15 dias e 1 dia antes da data de expiração da equipe. Quando o proprietário da equipe recebe a notificação, ele pode clicar em **Renovar agora** nas configurações da equipe para renovar a equipe.
 
@@ -45,4 +45,4 @@ Para evitar a exclusão acidental, a renovação automática é automaticamente 
 
 **A data de expiração da equipe e do grupo subjacente não é igual**
 
-Antes que uma equipe seja renovada, o grupo que faz o backs da equipe é renovado primeiro. Como parte da renovação, uma nova data de expiração é definida no grupo para uma data futura. Essa nova data pode não estar imediatamente visível no Teams. Pode levar até 24 horas para sincronizar. Se você vir uma discrepância entre a data de expiração de uma equipe e seu grupo subjacente, aguarde 24 horas antes de procurar mais suporte.
+Antes que uma equipe seja renovada, o grupo que faz o backs da equipe é renovado primeiro. Como parte da renovação, uma nova data de expiração é definida no grupo para uma data futura. Essa nova data pode não estar imediatamente visível Teams. Pode levar até 24 horas para sincronizar. Se você vir uma discrepância entre a data de expiração de uma equipe e seu grupo subjacente, aguarde 24 horas antes de procurar mais suporte.

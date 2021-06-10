@@ -1,5 +1,5 @@
 ---
-title: Ferramentas & workshops - Planejar, entregar, & adotar o Teams
+title: Ferramentas & workshops - Planejar, entregar, & adotar Teams
 author: SerdarSoysal
 ms.author: serdars
 manager: serdars
@@ -29,24 +29,24 @@ Baixe estas ferramentas para usar durante o planejamento, implantação e adoç�
 
 - [Kit de sucesso do cliente Microsoft Teams](https://aka.ms/TeamsCustomerSuccess)
 
-    Esse kit contém uma ampla variedade de apresentações, modelos de email, dicas & truques e cartazes que você pode usar para lançar e impulsionar a adoção do Teams em sua organização. Ele inclui dois guias de início rápido para administradores e líderes de equipe e usa exemplos de caso para cada departamento. Use esses recursos para aproveitar ao máximo o Teams para várias funções em sua organização, incluindo Marketing, Vendas, Finanças, Recursos Humanos, IT, Engenharia e Gerenciamento de Projetos.
+    Esse kit contém uma ampla variedade de apresentações, modelos de email, dicas & truques e cartazes que você pode usar para lançar e impulsionar a adoção de Teams em sua organização. Ele inclui dois guias de início rápido para administradores e líderes de equipe e usa exemplos de caso para cada departamento. Use esses recursos para aproveitar ao máximo Teams várias funções em sua organização, incluindo Marketing, Vendas, Finanças, Recursos Humanos, IT, Engenharia e Gerenciamento Project.
 
 - [Como implantar o Teams](./deploy-overview.md)
 
-    Siga nosso caminho recomendado para a implantação do Teams.
+    Siga nosso caminho recomendado para a implantação Teams.
 
 
-- [Obter treinamento técnico do Teams](itadmin-readiness.md)
+- [Obter Teams treinamento técnico](itadmin-readiness.md)
 
     Use esses recursos de treinamento técnico para se instruir, ensinar outras pessoas ou executar workshops.
 
-- [Clientes governamentais do Office 365](plan-for-government-gcc.md)
+- [Office 365 Government Clientes](plan-for-government-gcc.md)
 
-   Sua jornada para o Teams é muito parecido com a experiência de nossos clientes corporativos. À medida que o Teams se torna geralmente disponível para seus locatários, recomendamos que você comece com nosso artigo [Plan for Microsoft 365 Government - GCC deployments](plan-for-government-gcc.md) article and [Admin quick start guide](https://download.microsoft.com/download/F/3/9/F39B4F10-5720-4516-87E1-91E5A5678EFB/MicrosoftTeams-AdminQuickStart-EnableTeams.docx). Nossa [visão geral de segurança e conformidade](security-compliance-overview.md) ajudará você a ter confiança sobre o Teams em seu ambiente.
+   Sua jornada para Teams é muito parecido com a experiência de nossos clientes corporativos. À Teams se torna geralmente disponível para seus locatários, recomendamos que você comece com nosso Plano para Microsoft 365 [Governamental -](plan-for-government-gcc.md) artigo GCC implantações do GCC e Guia de início rápido do [administrador.](https://download.microsoft.com/download/F/3/9/F39B4F10-5720-4516-87E1-91E5A5678EFB/MicrosoftTeams-AdminQuickStart-EnableTeams.docx) Nossa [visão geral de segurança e conformidade](security-compliance-overview.md) ajudará você a ter confiança sobre Teams em seu ambiente.
 
-- [Teams for Education - Início rápido para administradores](./teams-quick-start-edu.yml)
+- [Teams educação - Início rápido para administradores](./teams-quick-start-edu.yml)
 
-    Use este tutorial para passar por uma rollout do Teams para sua organização educacional.
+    Use este tutorial para passar por uma Teams para sua organização educacional.
 
 ### <a name="see-also"></a>Confira também
 
@@ -56,7 +56,7 @@ Baixe estas ferramentas para usar durante o planejamento, implantação e adoç�
 
 [Ferramentas para adoção](adopt-tools-and-downloads.md)
 
-[Workshop de Planejamento de Atualização do Skype for Business para Equipes](https://www.microsoft.com/microsoft-365/partners/intelligentcommunications/skype-for-business-teams)
+[Skype for Business para Teams Workshop de Planejamento de Atualização](https://www.microsoft.com/microsoft-365/partners/intelligentcommunications/skype-for-business-teams)
 
 [Migrar usuários de um ambiente local para o Teams](/skypeforbusiness/hybrid/move-users-from-on-premises-to-teams)
 

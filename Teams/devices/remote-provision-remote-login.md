@@ -1,5 +1,5 @@
 ---
-title: Provisionamento remoto e entrada para dispositivos Android do Teams
+title: Provisionamento remoto e entrada para dispositivos Teams Android
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -25,9 +25,9 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/27/2021
 ms.locfileid: "52059185"
 ---
-# <a name="remote-provisioning-and-sign-in-for-teams-android-devices"></a>Provisionamento remoto e entrada para dispositivos Android do Teams
+# <a name="remote-provisioning-and-sign-in-for-teams-android-devices"></a>Provisionamento remoto e entrada para dispositivos Teams Android
 
-Os administradores de IT podem provisionar e entrar remotamente em um dispositivo Teams Android. Para provisionar um dispositivo remotamente, o administrador precisa carregar as IDs MAC dos dispositivos que estão sendo provisionados e criar um código de verificação. Todo o processo pode ser concluído remotamente a partir do Centro de administração do Teams.
+Os administradores de IT podem provisionar e entrar remotamente em um Teams Android. Para provisionar um dispositivo remotamente, o administrador precisa carregar as IDs MAC dos dispositivos que estão sendo provisionados e criar um código de verificação. Todo o processo pode ser concluído remotamente a partir do Teams de administração.
 
 ## <a name="review-the-supported-devices"></a>Revisar os dispositivos com suporte
 
@@ -35,14 +35,14 @@ A lista a seguir mostra os requisitos de firmware de dispositivo Android.
 
 |Categoria de dispositivo|Modelo de dispositivo|Versão do firmware|
 |-|-|-|
-|Telefones do Teams|Yealink T55/T56/T58|58.15.0.124|
-|Telefones do Teams|Yealink VP59|91.15.0.58|
-|Telefones do Teams|Yealink CP960|73.15.0.117|
-|Telefones do Teams|Yealink MP56/MP54/MP58|122.15.0.36|
-|Telefones do Teams|Crestron UC-2|1.0.3.52|
-|Telefones do Teams|  Poly Trio C60|  7.0.2.1071|
-|Telefones do Teams|  CCX400/CCX500/CCX600    |7.0.2.1072|
-|Telefones do Teams|  Códigos de áudio C448HD/C450HD/C470HD|   1.10.120|
+|Teams telefones|Yealink T55/T56/T58|58.15.0.124|
+|Teams telefones|Yealink VP59|91.15.0.58|
+|Teams telefones|Yealink CP960|73.15.0.117|
+|Teams telefones|Yealink MP56/MP54/MP58|122.15.0.36|
+|Teams telefones|Crestron UC-2|1.0.3.52|
+|Teams telefones|  Poly Trio C60|  7.0.2.1071|
+|Teams telefones|  CCX400/CCX500/CCX600    |7.0.2.1072|
+|Teams telefones|  Códigos de áudio C448HD/C450HD/C470HD|   1.10.120|
 
 ## <a name="add-a-device-mac-address"></a>Adicionar um endereço MAC de dispositivo
 
@@ -64,12 +64,12 @@ Na janela **Provisionar novos dispositivos,** você pode adicionar o endereço M
 1. Insira um local, que ajuda os técnicos a identificar onde instalar os dispositivos.
 1. Selecione **Aplicar** quando concluído.
 
-### <a name="upload-a-file-to-add-a-device-mac-address"></a>Carregar um arquivo para adicionar um endereço MAC do dispositivo
+### <a name="upload-a-file-to-add-a-device-mac-address"></a>Upload um arquivo para adicionar um endereço MAC do dispositivo
 
-1. Na guia **Aguardando ativação,** selecione **Carregar IDs MAC**.
+1. Na guia **Aguardando ativação,** selecione **Upload IDs MAC**.
 2. Baixe o modelo de arquivo.
 3. Insira a ID mac e o local e salve o arquivo.
-4. **Selecione o arquivo** e selecione **Carregar**.
+4. **Selecione o arquivo** e selecione **Upload**.
 
 ## <a name="generate-a-verification-code"></a>Gerar um código de verificação
 
@@ -82,9 +82,9 @@ Você precisa de um código de verificação para os dispositivos. O código de 
 
 ## <a name="provision-the-device"></a>Provisione o dispositivo
 
-Quando o dispositivo é ligado e conectado à rede, o técnico provisiona o dispositivo. Essas etapas são concluídas no dispositivo Teams.
+Quando o dispositivo é ligado e conectado à rede, o técnico provisiona o dispositivo. Essas etapas são concluídas no Teams dispositivo.
 
-1. O técnico seleciona **Dispositivo de provisionamento** nas **Configurações**.  
+1. O técnico seleciona **Provisionamento do** **dispositivo** Configurações .  
 
    ![Provisione a nova opção de dispositivo na guia Ações](../media/provision-device1.png)
   
@@ -111,4 +111,4 @@ O dispositivo provisionado aparece na guia **Aguardando** entrada. Inicie o proc
 ## <a name="related-article"></a>Artigo relacionado
 
 - [Gerenciar seus dispositivos no Teams](device-management.md)
-- [Atualizar dispositivos do Teams remotamente](remote-update.md)
+- [Atualizar Teams dispositivos remotamente](remote-update.md)

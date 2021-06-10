@@ -1,5 +1,5 @@
 ---
-title: Iniciar a Conferência de Áudio pelo telefone sem um PIN no Teams
+title: Iniciar a Conferência de Áudio pelo telefone sem um PIN Teams
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,7 +21,7 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
-description: 'Saiba como habilitar ou desabilitar os chamadores anônimos de ingressar em uma reunião do Centro de administração do Teams. '
+description: 'Saiba como habilitar ou desabilitar os chamadores anônimos de ingressar em uma reunião do Teams de administração. '
 ms.openlocfilehash: 520bf720a01a686a103748cdbbf26cb8426e94f2
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
@@ -31,11 +31,11 @@ ms.locfileid: "51116959"
 ---
 # <a name="start-an-audio-conference-over-the-phone-without-a-pin-in-microsoft-teams"></a>Iniciar uma audioconferência por telefone sem um PIN no Microsoft Teams
 
-Pode ser frustrante para os usuários que discam para uma reunião ser realizada no lobby da reunião ouvindo música porque o organizador da reunião do Microsoft Teams não iniciou a reunião. 
+Pode ser frustrante para os usuários que discam para uma reunião ser realizada no lobby da reunião ouvindo música porque o organizador Microsoft Teams de reunião ainda não iniciou a reunião. 
   
 Se um organizador da reunião chamar a reunião, por padrão, um PIN será necessário para iniciar uma reunião. Você pode defini-lo para que qualquer pessoa possa discar para uma reunião e não ser solicitado que um PIN inicie a reunião. Você pode usar o centro de administração para habilitar ou desabilitar essa configuração para um único usuário.
   
-Um PIN não será necessário para o organizador da reunião se alguém tiver iniciado a reunião a partir do aplicativo do Microsoft Teams. É necessário inserir um PIN somente quando o organizador da reunião participa da reunião por telefone. O PIN para reuniões é enviado ao usuário de áudio quando ele recebe a licença de **Audioconferência** e está habilitado para Audioconferência. Consulte Enviar um email para um usuário com suas informações de [Audioconferência](send-an-email-to-a-user-with-their-dial-in-information-in-teams.md) e Emails que são enviados automaticamente aos usuários quando suas configurações de [Audioconferência mudarem.](emails-sent-to-users-when-their-settings-change-in-teams.md)
+Um PIN não será necessário para o organizador da reunião se alguém tiver iniciado a reunião a partir do aplicativo Microsoft Teams. É necessário inserir um PIN somente quando o organizador da reunião participa da reunião por telefone. O PIN para reuniões é enviado ao usuário de áudio quando ele recebe a licença de **Audioconferência** e está habilitado para Audioconferência. Consulte Enviar um email para um usuário com suas informações de [Audioconferência](send-an-email-to-a-user-with-their-dial-in-information-in-teams.md) e Emails que são enviados automaticamente aos usuários quando suas configurações de [Audioconferência mudarem.](emails-sent-to-users-when-their-settings-change-in-teams.md)
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
@@ -56,7 +56,7 @@ Um PIN não será necessário para o organizador da reunião se alguém tiver in
 
 **Usando Windows PowerShell**
   
-Consulte a [referência do Microsoft Teams PowerShell](/powershell/module/teams/?view=teams-ps) para obter mais informações.
+Consulte a [Microsoft Teams referência do PowerShell](/powershell/module/teams/?view=teams-ps) para obter mais informações.
 
 ## <a name="what-else-should-you-know"></a>O que mais você deve saber?
 
@@ -76,14 +76,14 @@ Consulte a [referência do Microsoft Teams PowerShell](/powershell/module/teams/
     
 ## <a name="want-to-know-more-about-windows-powershell"></a>Deseja saber mais sobre o Windows PowerShell?
 
-O Windows PowerShell gerencia os usuários e o que eles podem ou não fazer. Com Windows PowerShell, você pode gerenciar o Microsoft 365 ou o Office 365 usando um único ponto de administração que pode simplificar seu trabalho diário quando você tem várias tarefas a fazer. Para começar a trabalhar com o Windows PowerShell, confira estes tópicos:
+O Windows PowerShell gerencia os usuários e o que eles podem ou não fazer. Com Windows PowerShell, você pode gerenciar Microsoft 365 ou Office 365 usando um único ponto de administração que pode simplificar seu trabalho diário quando você tem várias tarefas a fazer. Para começar a trabalhar com o Windows PowerShell, confira estes tópicos:
     
   - [Por que você precisa usar o PowerShell do Office 365](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     
-  - [Melhores maneiras de gerenciar o Microsoft 365 ou o Office 365 com Windows PowerShell](/previous-versions//dn568025(v=technet.10))
+  - [Melhores maneiras de gerenciar Microsoft 365 ou Office 365 com Windows PowerShell](/previous-versions//dn568025(v=technet.10))
     
 Para obter mais informações sobre o Windows PowerShell, consulte a [referência do Microsoft Teams PowerShell](/powershell/module/teams/?view=teams-ps) para obter mais informações.
   
 ## <a name="related-topics"></a>Tópicos relacionados
 
-[Experimente ou compre Audioconferência no Microsoft 365 ou Office 365](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
+[Experimente ou compre Audioconferência em Microsoft 365 ou Office 365](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
