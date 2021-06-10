@@ -18,7 +18,7 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.meetingpolicies.contentsharing
 - seo-marvel-apr2020
-description: Aprenda a gerenciar configurações de política de reunião no Teams para compartilhamento de conteúdo.
+description: Aprenda a gerenciar configurações de política de reunião em Teams para compartilhamento de conteúdo.
 ms.openlocfilehash: 7b318ad0025d6c68b041c65d8fbb78cbfbc87723
 ms.sourcegitcommit: 2d725b9925696e61e3e7338f890f086e009c28f2
 ms.translationtype: MT
@@ -68,7 +68,7 @@ Se essa configuração estiver ativada para o usuário, a opção **Atribuir con
 
 ![Captura de tela mostrando a opção Conceder controle](media/meeting-policies-give-control.png)
 
-Se a configuração estiver desligada para o usuário, a **opção Dar Controle** não estará disponível.
+Se as configurações estiverem desativadas para o usuário, a opção **Conceder Controle** não estará disponível.
 
 ![Captura de tela mostrando que a opção Conceder controle não está disponível](media/meeting-policies-give-control-not-available.png)
 

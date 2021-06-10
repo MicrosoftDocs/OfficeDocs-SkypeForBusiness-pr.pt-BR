@@ -25,7 +25,7 @@ ms.custom:
 - Calling Plans
 - LIL_Placement
 - seo-marvel-mar2020
-description: Saiba se Audioconferência, Sistema de Telefonia, Planos de Chamadas, Créditos de Comunicações e números de telefone gratuito e de chamada gratuita estão disponíveis em um país ou região.
+description: Saiba se Audioconferência, Sistema de Telefonia, Planos de Chamadas, Créditos de Comunicação e números de telefone gratuitos e de chamada gratuita estão disponíveis em um país ou região.
 ms.openlocfilehash: 050554b7a2c558aca9157fd910a2ee7a317ee9e2
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
@@ -161,7 +161,7 @@ Se você estiver procurando uma planilha com todos os países e regiões, baixe 
 
 ***
 
-Depois de verificar se um dos serviços do Skype for Business ou do Microsoft Teams está disponível, você pode ver o licenciamento de complementos do Skype for Business e do Microsoft Teams para [ajudá-lo](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md) a comprar licenças e atribuí-las aos usuários.
+Depois de verificar se um dos serviços Skype for Business ou Microsoft Teams está disponível, você pode ver o licenciamento de complementos Skype for Business e Microsoft Teams para [ajudá-lo a](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md) comprar licenças e atribuí-las aos usuários.
 
 > [!NOTE]
 >
@@ -171,7 +171,7 @@ Depois de verificar se um dos serviços do Skype for Business ou do Microsoft Te
 
 ### <a name="audio-conferencing"></a>Audioconferência
 
-Ocasionalmente, as pessoas em sua organização precisarão usar um telefone para participar de uma reunião. O Skype for Business e o Microsoft Teams incluem o recurso audioconferência para apenas esta situação! As pessoas podem participar de uma reunião usando um telefone em vez de usar o aplicativo Skype for Business e Microsoft Teams em um dispositivo móvel ou computador. Quando você decidir que deseja Audioconferência para sua organização, compre uma licença de **Audioconferência** para cada pessoa em sua organização que irá agendar/hospedar uma reunião de áudio.
+Ocasionalmente, as pessoas em sua organização precisarão usar um telefone para participar de uma reunião. Skype for Business e Microsoft Teams inclui o recurso audioconferência para apenas esta situação! As pessoas podem participar de uma reunião usando um telefone em vez de usar o aplicativo Skype for Business e Microsoft Teams em um dispositivo móvel ou computador. Quando você decidir que deseja Audioconferência para sua organização, compre uma licença de **Audioconferência** para cada pessoa em sua organização que irá agendar/hospedar uma reunião de áudio.
   
 Com a Audioconferência, há números de telefone gratuitos e de chamada gratuita que podem ser usados pelos usuários para discar em reuniões. Os números de chamada dos países ou regiões a seguir são atribuídos automaticamente como números compartilhados de Audioconferência para organizações quando elas estiverem habilitadas para Audioconferência. Números de tarifação gratuita e de tarifação dedicados podem ser atribuídos à sua organização a partir de cidades adicionais.
 
@@ -193,7 +193,7 @@ Discar de uma reunião para outro país/região do mundo que não está listado 
   
 ### <a name="phone-system"></a>Sistema de Telefonia
 
-Com o Sistema de Telefonia, você cria atendedores automáticos e filas de chamadas (com um número gratuito ou de chamada gratuita) para atender chamadas de entrada para sua organização. Quando você adiciona um Plano de Chamadas para usuários, eles podem usar o Skype for Business para cuidar de tarefas básicas de controle de chamadas, como a colocação e recebimento de chamadas, a transferência de chamadas e a muting e a desatração de chamadas. **Os usuários do Sistema** de Telefonia clicam em um nome no seu livro de endereços e o Skype for Business fará uma chamada para essa pessoa. Para fazer e receber **chamadas,** os usuários do Sistema de Telefonia usam seus dispositivos móveis, um fone de ouvido com um laptop ou computador ou um dos muitos telefones IP que funcionam com o Skype for Business.
+Com Sistema de Telefonia, você cria atendedores automáticos e filas de chamadas (com um número de chamada gratuita ou de chamada gratuita) para atender chamadas de entrada para sua organização. Quando você adiciona um Plano de Chamadas para usuários, eles podem usar o Skype for Business para cuidar de tarefas básicas de controle de chamadas, como fazer e receber chamadas, transferir chamadas e muting e desatar chamadas. **Sistema de Telefonia** os usuários clicam em um nome no seu livro de endereços e Skype for Business fazer uma chamada para essa pessoa. Para fazer e receber **chamadas,** Sistema de Telefonia usuários usam seus dispositivos móveis, um fone de ouvido com um laptop ou computador ou um dos muitos telefones IP que funcionam com Skype for Business.
 
 > A disponibilidade de números de telefone celular de alguns desses locais pode variar a qualquer momento, dependendo dos níveis de inventário. Além de obter números de telefone para usuários individuais, também é possível pesquisar e adquirir números de telefone gratuitos ou de chamada gratuita para serviços como Audioconferência (para pontes de conferência), atendimentos automáticos e filas de chamadas. Eles são chamados de números de serviço. Confira [Obter números de telefone do serviço](../getting-service-phone-numbers.md) para obter números de telefone. No entanto, para os usuários, depois de atribuir um Plano de Chamada a eles, você pode atribuir um número de telefone para que eles possam fazer e receber chamadas telefônicas. Para encontrar esses números de telefone, acesse [Obter números de telefone para seus usuários](../getting-phone-numbers-for-your-users.md). Você também pode conferir[Atribuir, alterar ou remover o número de telefone de um usuário](../assign-change-or-remove-a-phone-number-for-a-user.md).
 
@@ -217,7 +217,7 @@ Você também pode ver [Sistema de Telefonia e licenciamento de Planos de Chamad
 
 Além de obter números de telefone para usuários individuais, também é possível pesquisar e adquirir números de telefone gratuitos ou de chamada gratuita para serviços como Audioconferência (para pontes de conferência), atendimentos automáticos e filas de chamadas. Eles são chamados de números de serviço.
   
-Veja a seguir uma lista de capitais e principais cidades onde você pode obter números de serviços para usar com Audioconferências o e Planos de Chamadas. Você obterá números de serviço de chamada desses locais usando o **Centro de administração do Skype for Business.**
+Veja a seguir uma lista de capitais e principais cidades onde você pode obter números de serviços para usar com Audioconferências o e Planos de Chamadas. Você obterá números de serviço de pedágio desses locais usando o **centro de Skype for Business de administração**.
   
 Se você quiser obter um número de serviço gratuito ou de chamada gratuita, você pode ver [Obter números de telefone de serviço](../getting-service-phone-numbers.md). Se você já tiver um número de serviço gratuito ou de chamada gratuita que deseja transferir de um provedor diferente, consulte Gerenciar números de telefone [para sua organização](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
 

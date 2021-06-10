@@ -33,12 +33,12 @@ ms.locfileid: "51102637"
 ---
 # <a name="change-the-settings-for-an-audio-conferencing-bridge"></a>Alterar as configurações de uma ponte de audioconferência
 
-Ao configurar a Audioconferência no Microsoft 365 ou No Office 365, você receberá números de telefone para seus usuários do que é chamado de ponte de audioconferência. Uma ponte de conferência pode conter um ou mais números de telefone. Esses números de telefone são usados quando os chamadores discam para uma reunião. O número de telefone está incluído na parte inferior do convite de reunião do Skype for Business ou do Microsoft Teams.
+Ao configurar a Audioconferência no Microsoft 365 ou Office 365, você receberá números de telefone para seus usuários do que é chamado de ponte de audioconferência. Uma ponte de conferência pode conter um ou mais números de telefone. Esses números de telefone são usados quando os chamadores discam para uma reunião. O número de telefone está incluído na parte inferior do Skype for Business ou Microsoft Teams de reunião.
   
-A ponte de conferência atende a uma chamada e solicita ao chamador prompts de voz usando um atendedor automático de reunião e, dependendo das configurações, pode reproduzir notificações, pedir que os chamadores gravem seus nomes e controlem as configurações de PIN. Os PINs são dados aos organizadores da reunião para permitir que eles iniciem uma reunião quando não estão usando um aplicativo do Skype for Business ou do Microsoft Teams.
+A ponte de conferência atende a uma chamada e solicita ao chamador prompts de voz usando um atendedor automático de reunião e, dependendo das configurações, pode reproduzir notificações, pedir que os chamadores gravem seus nomes e controlem as configurações de PIN. Os PINs são dados aos organizadores da reunião para permitir que eles iniciem uma reunião quando não estão usando um aplicativo Skype for Business ou Microsoft Teams.
 
   > [!IMPORTANT]
-  > Um PIN só é necessário para o organizador da reunião quando um usuário de aplicativo do Skype for Business ou do Microsoft Teams ainda não iniciou a reunião. Se todos estão discando para a reunião, o PIN será necessário para que o organizador da reunião inicie a reunião. 
+  > Um PIN só é necessário para o organizador da reunião quando um usuário Skype for Business ou Microsoft Teams aplicativo ainda não iniciou a reunião. Se todos estão discando para a reunião, o PIN será necessário para que o organizador da reunião inicie a reunião. 
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
@@ -63,7 +63,7 @@ A ponte de conferência atende a uma chamada e solicita ao chamador prompts de v
 4. Para definir o tamanho do PIN para reuniões, selecione o número de dígitos que você deseja para o PIN na lista de comprimento **do PIN.**
 
 5. Para especificar se deve enviar emails para seus usuários, habilitar ou desabilitar Enviar emails automaticamente para os usuários se a configuração **de audioconferência** mudar.
-    Consulte [Emails enviados automaticamente aos](emails-sent-to-users-when-their-settings-change-in-teams.md) usuários quando suas configurações de Audioconferência mudam no Microsoft Teams ou Emails enviados aos usuários quando suas configurações mudam no [Skype for Business Online](/SkypeForBusiness/audio-conferencing-in-office-365/emails-sent-to-users-when-their-settings-change) para obter mais informações.
+    Consulte [Emails enviados automaticamente](emails-sent-to-users-when-their-settings-change-in-teams.md) aos usuários quando suas configurações de Audioconferência mudarem no Microsoft Teams ou Emails enviados aos usuários quando suas configurações mudarem no [Skype for Business Online](/SkypeForBusiness/audio-conferencing-in-office-365/emails-sent-to-users-when-their-settings-change) para obter mais informações.
  
 6. Clique em **Salvar**. 
 
@@ -71,13 +71,13 @@ A ponte de conferência atende a uma chamada e solicita ao chamador prompts de v
 
 - Para economizar tempo ou automatizar esse processo, você pode usar o cmdlet [Set-CsDialinConferencingBridge.](/powershell/module/skype/Set-CsOnlineDialInConferencingBridge)
     
-- O Windows PowerShell gerencia os usuários e o que eles podem ou não fazer. Com Windows PowerShell, você pode gerenciar o Microsoft 365 ou o Office 365 usando um único ponto de administração que pode simplificar seu trabalho diário quando você tem várias tarefas a fazer. Para começar a trabalhar com o Windows PowerShell, confira estes tópicos:
+- O Windows PowerShell gerencia os usuários e o que eles podem ou não fazer. Com Windows PowerShell, você pode gerenciar Microsoft 365 ou Office 365 usando um único ponto de administração que pode simplificar seu trabalho diário quando você tem várias tarefas a fazer. Para começar a trabalhar com o Windows PowerShell, confira estes tópicos:
     
   - [Por que você precisa usar o PowerShell do Office 365](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     
-  - [Melhores maneiras de gerenciar o Microsoft 365 ou o Office 365 com Windows PowerShell](/previous-versions//dn568025(v=technet.10))
+  - [Melhores maneiras de gerenciar Microsoft 365 ou Office 365 com Windows PowerShell](/previous-versions//dn568025(v=technet.10))
     
-- Windows PowerShell tem muitas vantagens em velocidade, simplicidade e produtividade sobre apenas o uso do centro de administração do Microsoft 365, como quando você está fazendo alterações de configuração para muitos usuários ao mesmo tempo. Saiba mais sobre essas vantagens nos seguintes tópicos: 
+- Windows PowerShell tem muitas vantagens em velocidade, simplicidade e produtividade sobre o uso apenas do centro de administração do Microsoft 365, como quando você está fazendo alterações de configuração para muitos usuários ao mesmo tempo. Saiba mais sobre essas vantagens nos seguintes tópicos: 
     
   - [Uma introdução ao Windows PowerShell e ao Skype for Business Online](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
     

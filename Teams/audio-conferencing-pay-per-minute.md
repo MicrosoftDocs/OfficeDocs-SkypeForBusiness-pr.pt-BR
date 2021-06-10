@@ -55,14 +55,14 @@ Enquanto a oferta de licença de Audioconferência por usuário inclui o uso de 
 > Você pode encontrar as taxas de discagem e discagem associadas  a esses tipos de chamadas, revendo a seção Ver taxas para onde você deseja chamar em [Audioconferência](https://products.office.com/microsoft-teams/online-meeting-solutions#Rates).
   
   
-O pagamento por minuto exige que sua organização tenha [créditos de comunicação](what-are-communications-credits.md) definidos. Se quiser mais detalhes, consulte [Set up Communications Credits for your organization](set-up-communications-credits-for-your-organization.md) and/or Microsoft Teams [add-on licensing](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing).
+O pagamento por minuto exige que sua organização tenha [créditos de comunicação](what-are-communications-credits.md) definidos. Se quiser mais detalhes, consulte [Set up Communications Credits for](set-up-communications-credits-for-your-organization.md) your organization and/or Microsoft Teams [add-on licensing](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing).
 
   
 Para habilitar o pagamento por minuto de Audioconferência para usuários em sua organização, consulte [Try or purchase AudioConncing in Microsoft Office 365 or Office 365](try-or-purchase-audio-conferencing-in-office-365-for-teams.md).
 
 ## <a name="why-is-it-best-for-you"></a>Por que é melhor para você?
 
-- O pagamento por minuto só será cobrado por minuto para cada chamada de entrada ou de saída feita por cada participante durante uma reunião agendada (as taxas variam para chamada de chamada gratuita ou de chamada gratuita e por destino) em vez de usar o aplicativo Skype for Business ou Teams em um dispositivo móvel ou computador.
+- O pagamento por minuto só será cobrado por minuto para cada chamada de entrada ou de saída feita por cada participante durante uma reunião agendada (as taxas variam para chamada de chamada gratuita ou de chamada gratuita e por destino) em vez de usar um aplicativo Skype for Business ou Teams em um dispositivo móvel ou computador.
 
 - Capacidade de gerenciar o custo, pois os administradores podem controlar para restringir os tipos de discagem (internacionais e domésticos) que podem ser feitos a partir das reuniões de um organizador. Consulte Políticas de restrição de chamadas de saída [para Audioconferência e chamadas PSTN de usuário](./outbound-calling-restriction-policies.md)
 

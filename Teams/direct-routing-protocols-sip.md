@@ -45,7 +45,7 @@ Antes que uma chamada de entrada ou saída possa ser processada, as mensagens OP
 > [!NOTE]
 > Os headers SIP não contêm userinfo no URI SIP em uso. De acordo com [a RFC 3261, seção 19.1.1](https://tools.ietf.org/html/rfc3261#section-19.1.1), a parte userinfo de um URI é opcional e PODE estar ausente quando o host de destino não tem uma noção de usuários ou quando o próprio hosst é o recurso que está sendo identificado. Se o sinal @ estiver presente em um URI SIP, o campo do usuário NÃO DEVE estar vazio.
 
-Em uma chamada de entrada, o proxy SIP precisa encontrar o locatário ao qual a chamada está destinada e encontrar o usuário específico dentro desse locatário. O administrador de locatários pode configurar números não DID, por exemplo +1001, em vários locatários. Portanto, é importante encontrar o locatário específico no qual realizar a análise de números, pois os números não DID podem ser os mesmos em várias organizações do Microsoft 365 ou Office 365.  
+Em uma chamada de entrada, o proxy SIP precisa encontrar o locatário ao qual a chamada está destinada e encontrar o usuário específico dentro desse locatário. O administrador de locatários pode configurar números não DID, por exemplo +1001, em vários locatários. Portanto, é importante encontrar o locatário específico no qual executar a análise de números, pois os números não DID podem ser os mesmos em várias organizações Microsoft 365 ou Office 365.  
 
 Esta seção descreve como o proxy SIP localiza o locatário e o usuário e executa a autenticação do SBC na conexão de entrada.
 
@@ -71,11 +71,11 @@ Ao receber o convite, o proxy SIP executa as seguintes etapas:
 
 2. Tente encontrar um locatário usando o nome FQDN completo apresentado no header Contato.  
 
-   Verifique se o nome FQDN do header de contato (sbc1.adatum.biz) está registrado como um nome DNS em qualquer organização do Microsoft 365 ou Office 365. Se for encontrada, a procurar o usuário será realizada no locatário que tem o FQDN SBC registrado como um nome de domínio. Se não for encontrada, a Etapa 3 será aplicada.   
+   Verifique se o nome FQDN do header de contato (sbc1.adatum.biz) está registrado como um nome DNS em qualquer Microsoft 365 ou Office 365 organização. Se for encontrada, a procurar o usuário será realizada no locatário que tem o FQDN SBC registrado como um nome de domínio. Se não for encontrada, a Etapa 3 será aplicada.   
 
 3. A etapa 3 só se aplica se a Etapa 2 falhar. 
 
-   Remova a parte do host do FQDN, apresentada no header de contato (FQDN: sbc12.adatum.biz, após remover a parte do host: adatum.biz) e verifique se esse nome está registrado como um nome DNS em qualquer organização do Microsoft 365 ou Office 365. Se for encontrada, a procurar usuário será realizada neste locatário. Se não for encontrada, a chamada falhará.
+   Remova a parte do host do FQDN, apresentada no header de contato (FQDN: sbc12.adatum.biz, após remover a parte do host: adatum.biz) e verifique se esse nome está registrado como um nome DNS em qualquer organização Microsoft 365 ou Office 365. Se for encontrada, a procurar usuário será realizada neste locatário. Se não for encontrada, a chamada falhará.
 
 4. Usando o número de telefone apresentado no Request-URI, execute a consulta de número reverso no locatário encontrado na Etapa 2 ou 3. Corresponder o número de telefone apresentado a um URI SIP do usuário no locatário encontrado na etapa anterior.
 
@@ -158,7 +158,7 @@ A tabela a seguir resume as diferenças de fluxo de chamada e semelhanças entre
 
 ###  <a name="non-media-bypass-flow"></a>Fluxo de bypass que não seja de mídia
 
-Um usuário do Teams pode ter vários pontos de extremidade ao mesmo tempo. Por exemplo, cliente do Teams para Windows, cliente do Teams para iPhone e Teams Phone (cliente Do Teams Android). Cada ponto de extremidade pode sinalizar um rest HTTP da seguinte forma:
+Um Teams usuário pode ter vários pontos de extremidade ao mesmo tempo. Por exemplo, Teams para Windows cliente, Teams para cliente iPhone e Teams Telefone (Teams cliente Android). Cada ponto de extremidade pode sinalizar um rest HTTP da seguinte forma:
 
 -   Progresso da chamada – convertido pelo proxy SIP para a mensagem SIP 180. Ao receber a mensagem 180, o SBC deve gerar toque local.
 
@@ -176,9 +176,9 @@ Um usuário do Teams pode ter vários pontos de extremidade ao mesmo tempo. Por 
 
 1.  Ao receber o primeiro Convite do SBC, o proxy SIP envia a mensagem "SIP SIP/2.0 100 Tentando" e notifica todos os pontos de extremidade do usuário final sobre a chamada de entrada. 
 
-2.  Após a notificação, cada ponto de extremidade começará a tocar e enviar mensagens "Andamento da chamada" para o proxy SIP. Como um usuário do Teams pode ter vários pontos de extremidade, o proxy SIP pode receber várias mensagens de Progresso de Chamada.
+2.  Após a notificação, cada ponto de extremidade começará a tocar e enviar mensagens "Andamento da chamada" para o proxy SIP. Como um Teams usuário pode ter vários pontos de extremidade, o proxy SIP pode receber várias mensagens de Progresso de Chamada.
 
-3.  Para cada mensagem de Progresso de Chamada recebida dos clientes, o proxy SIP converte a mensagem Progresso da Chamada para a mensagem SIP "SIP SIP/2.0 180 Trying". O intervalo para o envio dessas mensagens é definido pelo intervalo de mensagens de recebimento do Controlador de Chamada. No diagrama a seguir, há duas 180 mensagens geradas pelo proxy SIP. Essas mensagens vêm dos dois pontos de extremidade do Teams do usuário. Cada cliente tem uma ID de Marca exclusiva.  Cada mensagem proveniente de um ponto de extremidade diferente será uma sessão separada (o parâmetro "tag" no campo "Para" será diferente). Mas um ponto de extremidade pode não gerar a mensagem 180 e enviar a mensagem 183 imediatamente, conforme mostrado no diagrama a seguir.
+3.  Para cada mensagem de Progresso de Chamada recebida dos clientes, o proxy SIP converte a mensagem Progresso da Chamada para a mensagem SIP "SIP SIP/2.0 180 Trying". O intervalo para o envio dessas mensagens é definido pelo intervalo de mensagens de recebimento do Controlador de Chamada. No diagrama a seguir, há duas 180 mensagens geradas pelo proxy SIP. Essas mensagens vêm dos dois Teams pontos de extremidade do usuário. Cada cliente tem uma ID de Marca exclusiva.  Cada mensagem proveniente de um ponto de extremidade diferente será uma sessão separada (o parâmetro "tag" no campo "Para" será diferente). Mas um ponto de extremidade pode não gerar a mensagem 180 e enviar a mensagem 183 imediatamente, conforme mostrado no diagrama a seguir.
 
 4.  Depois que um ponto de extremidade gera uma mensagem de Resposta de Mídia com os endereços IP dos candidatos à mídia do ponto de extremidade, o proxy SIP converte a mensagem recebida em uma mensagem "Progresso da Sessão SIP 183" com o SDP do cliente substituído pelo SDP do Processador de Mídia. No diagrama a seguir, o ponto de extremidade do Bifurcação 2 atendeu à chamada. Se o tronco não for ignorado, a mensagem SIP 183 será gerada apenas uma vez (Ring Bot ou Client End Point). O 183 pode vir em uma bifurcação existente ou iniciar um novo.
 
@@ -191,9 +191,9 @@ Um usuário do Teams pode ter vários pontos de extremidade ao mesmo tempo. Por 
 
 1.  Ao receber o primeiro Convite do SBC, o proxy SIP envia a mensagem "SIP SIP/2.0 100 Tentando" e notifica todos os pontos de extremidade do usuário final sobre a chamada de entrada. 
 
-2.  Após a notificação, cada ponto de extremidade começará a tocar e enviar a mensagem "Progresso da chamada" para o proxy SIP. Como um usuário do Teams pode ter vários pontos de extremidade, o proxy SIP pode receber várias mensagens de Progresso de Chamada.
+2.  Após a notificação, cada ponto de extremidade começará a tocar e enviar a mensagem "Progresso da chamada" para o proxy SIP. Como um Teams usuário pode ter vários pontos de extremidade, o proxy SIP pode receber várias mensagens de Progresso de Chamada.
 
-3.  Para cada mensagem de Progresso de Chamada recebida dos clientes, o proxy SIP converte a mensagem Progresso da Chamada para a mensagem SIP "SIP SIP/2.0 180 Trying".  O intervalo para o envio das mensagens é definido pelo intervalo de recebimento das mensagens do Controlador de Chamada. Na imagem abaixo, há duas 180 mensagens geradas pelo proxy SIP, o que significa que o usuário se registrou em três clientes do Teams e cada cliente envia o andamento da chamada. Cada mensagem será uma sessão separada (parâmetro "tag" no campo "Para" é diferente)
+3.  Para cada mensagem de Progresso de Chamada recebida dos clientes, o proxy SIP converte a mensagem Progresso da Chamada para a mensagem SIP "SIP SIP/2.0 180 Trying".  O intervalo para o envio das mensagens é definido pelo intervalo de recebimento das mensagens do Controlador de Chamada. Na imagem abaixo, há duas 180 mensagens geradas pelo proxy SIP, o que significa que o usuário se registrou em três clientes Teams e cada cliente envia o andamento da chamada. Cada mensagem será uma sessão separada (parâmetro "tag" no campo "Para" é diferente)
 
 4.  Uma mensagem de Aceitação de Chamada é enviada com os candidatos finais do ponto de extremidade que aceitaram a chamada. A mensagem aceitação de chamada é convertida na mensagem SIP 200. 
 
@@ -273,9 +273,9 @@ O padrão é explicado na Seção 6 da RFC 5589. Os RFCs relacionados são:
 Essa opção assume que o proxy SIP age como um Transferor e envia uma mensagem Refer para o SBC. O SBC age como um Transferee e lida com Refer para gerar uma nova oferta de transferência. Há dois casos possíveis:
 
 - A chamada é transferida para um participante PSTN externo. 
-- A chamada é transferida de um usuário do Teams para outro usuário do Teams no mesmo locatário por meio do SBC. 
+- A chamada é transferida de um Teams para outro Teams usuário no mesmo locatário por meio do SBC. 
 
-Se a chamada for transferida de um usuário do Teams para outro por meio do SBC, o SBC deverá emitir um novo convite (iniciar uma nova caixa de diálogo) para o destino de transferência (o usuário do Teams) usando as informações recebidas na mensagem Referir. 
+Se a chamada for transferida de um usuário Teams para outro por meio do SBC, o SBC deverá emitir um novo convite (iniciar uma nova caixa de diálogo) para o destino de transferência (o usuário Teams) usando as informações recebidas na mensagem Referir. 
 
 Para preencher os campos To/Transferor para a transação da solicitação internamente, o proxy SIP precisa transmitir essas informações dentro dos headers REFER-TO/REFERRED-BY. 
 
@@ -311,7 +311,7 @@ A Microsoft recomenda sempre aplicar o parâmetro user=phone para simplificar o 
 
 ## <a name="history-info-header"></a>History-Info header
 
-O History-Info é usado para retargeting de solicitações SIP e "fornecer(s) um mecanismo padrão para capturar as informações do histórico de solicitações para habilitar uma ampla variedade de serviços para redes e usuários finais". Para obter mais informações, [consulte RFC 4244 – Seção 1.1](http://www.ietf.org/rfc/rfc4244.txt). Para o Microsoft Phone System, esse header é usado em cenários de Simulring e Encaminhamento de Chamadas.  
+O History-Info é usado para retargeting de solicitações SIP e "fornecer(s) um mecanismo padrão para capturar as informações do histórico de solicitações para habilitar uma ampla variedade de serviços para redes e usuários finais". Para obter mais informações, [consulte RFC 4244 – Seção 1.1](http://www.ietf.org/rfc/rfc4244.txt). Para Telefone Microsoft System, esse header é usado em cenários de Simulring e Encaminhamento de Chamada.  
 
 Se o envio, a History-Info está habilitada da seguinte forma:
 
@@ -368,4 +368,4 @@ A reinicialização no Roteamento Direto é implementada de acordo com os seguin
 
 *Um agente define o restante dos campos no SDP para esse fluxo de mídia como faria em uma oferta inicial desse fluxo de mídia (consulte a Seção 4.3).  Consequentemente, o conjunto de candidatos PODE incluir alguns, nenhum ou todos os candidatos anteriores para esse fluxo e MAY incluem um conjunto totalmente novo de candidatos coletados, conforme descrito na Seção 4.1.1.*
 
-Se a chamada foi estabelecida inicialmente com bypass de mídia e a chamada é transferida para um cliente do Skype for Business, o Roteamento Direto precisa inserir um Processador de Mídia, isso porque o Roteamento Direto não pode ser usado com um cliente skype for Business com bypass de mídia. O Roteamento Direto inicia o processo de reinicialização do ICE alterando o ice-pwd e o ice-ufrag e oferecendo novos candidatos à mídia em uma reinvite.
+Se a chamada foi estabelecida inicialmente com bypass de mídia e a chamada é transferida para um cliente Skype for Business, o Roteamento Direto precisa inserir um Processador de Mídia, isso porque o Roteamento Direto não pode ser usado com um cliente Skype for Business com bypass de mídia. O Roteamento Direto inicia o processo de reinicialização do ICE alterando o ice-pwd e o ice-ufrag e oferecendo novos candidatos à mídia em uma reinvite.

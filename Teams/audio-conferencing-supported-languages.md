@@ -31,7 +31,7 @@ ms.locfileid: "51098507"
 ---
 # <a name="audio-conferencing-supported-languages"></a>Idiomas suportados na audioconferência
 
-Ao configurar e configurar a Audioconferência no Microsoft 365 ou No Office 365, você pode selecionar os idiomas principal e secundário (até 4) que são usados quando os chamadores discam para uma reunião do Skype for Business ou do Microsoft Teams. Aqui está a lista de idiomas com suporte para Audioconferência: 
+Ao configurar e configurar a Audioconferência no Microsoft 365 ou Office 365, você pode selecionar os idiomas principal e secundário (até 4) que são usados quando os chamadores discam para uma reunião de Skype for Business ou Microsoft Teams. Aqui está a lista de idiomas com suporte para Audioconferência: 
   
 > [!IMPORTANT]
 > Idiomas primários e secundários só podem ser alterados em números de telefone de Audioconferência dedicados. 
@@ -87,17 +87,17 @@ Ao configurar e configurar a Audioconferência no Microsoft 365 ou No Office 365
    
 Se você estiver procurando por países ou regiões onde você pode comprar Audioconferência, consulte Disponibilidade de país e região para [Audioconferência e Planos de Chamada.](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
   
-Se você estiver procurando por países ou regiões específicos com números de telefone para Audioconferência, consulte Números de telefone para [Audioconferência](phone-numbers-for-audio-conferencing-in-teams.md) no Microsoft Teams ou Números de telefone para [Audioconferência](/SkypeForBusiness/audio-conferencing-in-office-365/phone-numbers-for-audio-conferencing)no Skype for Business Online .
+Se você estiver procurando por países ou regiões específicos que tenham números de telefone para Audioconferência, consulte Telefone números para [Audioconferência](phone-numbers-for-audio-conferencing-in-teams.md) em Microsoft Teams ou números Telefone para [Audioconferência no Skype for Business Online](/SkypeForBusiness/audio-conferencing-in-office-365/phone-numbers-for-audio-conferencing).
   
 ## <a name="want-to-know-how-to-manage-with-windows-powershell"></a>Quer saber como gerenciar com o Windows PowerShell?
 
 - Para economizar tempo ou automatizar isso, você pode usar os cmdlets [Get-CsOnlineDialInConferencingLanguagesSupported](/powershell/module/skype/Get-CsOnlineDialInConferencingLanguagesSupported) ou [Set-CsOnlineDialInConferencingServiceNumber.](/powershell/module/skype/Set-CsOnlineDialInConferencingServiceNumber)
     
-- O Windows PowerShell gerencia os usuários e o que eles podem ou não fazer. Com Windows PowerShell, você pode gerenciar o Microsoft 365 ou o Office 365 usando um único ponto de administração que pode simplificar seu trabalho diário quando você tem várias tarefas a fazer. Para começar a trabalhar com o Windows PowerShell, confira estes tópicos:
+- O Windows PowerShell gerencia os usuários e o que eles podem ou não fazer. Com Windows PowerShell, você pode gerenciar Microsoft 365 ou Office 365 usando um único ponto de administração que pode simplificar seu trabalho diário quando você tem várias tarefas a fazer. Para começar a trabalhar com o Windows PowerShell, confira estes tópicos:
     
   - [Por que você precisa usar o PowerShell do Office 365](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     
-  - [Melhores maneiras de gerenciar o Microsoft 365 ou o Office 365 com Windows PowerShell](/previous-versions//dn568025(v=technet.10))
+  - [Melhores maneiras de gerenciar Microsoft 365 ou Office 365 com Windows PowerShell](/previous-versions//dn568025(v=technet.10))
     
 - Windows PowerShell tem muitas vantagens em velocidade, simplicidade e produtividade sobre o uso apenas do centro de administração do Microsoft 365, como quando você está fazendo alterações de configurações para muitos usuários ao mesmo tempo. Saiba mais sobre essas vantagens nos seguintes tópicos: 
     
@@ -112,4 +112,4 @@ Se você estiver procurando por países ou regiões específicos com números de
   
 ## <a name="related-topics"></a>Tópicos relacionados
 
-[Experimente ou compre Audioconferência no Microsoft 365 ou Office 365](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
+[Experimente ou compre Audioconferência em Microsoft 365 ou Office 365](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)

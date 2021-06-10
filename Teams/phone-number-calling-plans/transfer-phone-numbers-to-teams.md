@@ -1,5 +1,5 @@
 ---
-title: Transferir números de telefone para o Microsoft Teams
+title: Transferir números de telefone para Microsoft Teams
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -17,7 +17,7 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
-description: Saiba como usar o assistente de portação para transferir seu número de telefone do provedor de serviços atual para o Microsoft Teams.
+description: Saiba como usar o assistente de portação para transferir seu número de telefone do provedor de serviços atual para Microsoft Teams.
 ms.custom: seo-marvel-mar2020
 ms.openlocfilehash: dfc3141eea8d16a86c0f37221e597feac3bb957e
 ms.sourcegitcommit: 6f7b91f573e2a034f8c5474be2c5cb2971f4b5ab
@@ -26,26 +26,26 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 03/04/2021
 ms.locfileid: "50421276"
 ---
-# <a name="transfer-phone-numbers-to-microsoft-teams"></a>Transferir números de telefone para o Microsoft Teams
+# <a name="transfer-phone-numbers-to-microsoft-teams"></a>Transferir números de telefone para Microsoft Teams
 
-Use o assistente de portação no centro de administração do Microsoft Teams para transferir seus números de telefone do seu provedor de serviços atual para o Teams. Depois de por seus números de telefone para o Teams, a Microsoft se tornará seu provedor de serviços e cobrará por esses números de telefone.
+Use o assistente de portação no centro de administração Microsoft Teams para transferir seus números de telefone do seu provedor de serviços atual para Teams. Depois que você porta seus números de telefone para Teams, a Microsoft se tornará seu provedor de serviços e cobrará por esses números de telefone.
 
-Antes de começar, recomendamos que você revise as informações em [O que é uma ordem de porta?](port-order-overview.md) Se você tiver números de serviço para pontes de conferência discagem, atendentes automáticos ou outros números de serviço, números de telefone gratuitos ou ter mais de 999 números de telefone de usuário (assinante) que você precisa transferir para o Teams, consulte [Gerenciar](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) números de telefone para sua organização para baixar os formulários corretos e enviá-los para nós.
+Antes de começar, recomendamos que você revise as informações em [O que é uma ordem de porta?](port-order-overview.md) Se você tiver números de serviço para pontes de conferência discagem, atendentes automáticos ou outros números de serviço, números de telefone gratuitos ou tiver mais de 999 números de telefone de usuário (assinante) que você precisa transferir para o Teams, consulte [Manage phone numbers for](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) your organization to download the correct forms and send them to us.
 
   > [!NOTE]
   > Processamos pedidos de portabilidade para transferir números de telefone somente em dias úteis dos Estados Unidos e não em feriados públicos ou finais de semana.
 
-## <a name="create-a-port-order-and-transfer-your-phone-numbers-to-teams"></a>Criar um pedido de porta e transferir seus números de telefone para o Teams
+## <a name="create-a-port-order-and-transfer-your-phone-numbers-to-teams"></a>Crie uma ordem de porta e transfira seus números de telefone para Teams
 
 > [!NOTE]
 > Atualmente, você pode usar esse assistente para obter números de telefone para **o Reino Unido, Estados Unidos e Canadá.** Para obter números de telefone para outros países e regiões, você pode [enviar manualmente um pedido de porta](manually-submit-port-order.md). Para obter o formulário, você precisa enviar manualmente uma ordem de porta, selecione seu país ou região na listada em Gerenciar números de telefone [para sua organização](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
 
-1. Na navegação à esquerda do Centro de administração do Microsoft Teams, vá para **Números de Telefone** de  >  **Voz**. Clique **em Números** e em **Porta** para iniciar o assistente de portabilidade.
+1. Na navegação à esquerda do centro de administração Microsoft Teams, vá para **Voz**  >  **Telefone números**. Clique **em Números** e em **Porta** para iniciar o assistente de portabilidade.
 2. Revise as informações na página **Começar** e, quando estiver pronto, clique em **Próximo**.
 3. Na página **Selecionar local e tipo de** número, especifique o seguinte e clique em **Próximo**:
 
     - **País ou região**: País ou região onde você está recebendo números.
-    - **Tipo de número de** telefone : Tipo de número, como números geográficos ou gratuitos.
+    - **Telefone tipo de número**: Tipo de número, como números geográficos ou gratuitos.
     - **Números atribuídos a**: a que os números são atribuídos. Por exemplo, usuários, ou recursos de conferência ou voz.
 
 4. Na página **Adicionar informações da conta,** conclua o seguinte e clique em **Próximo**.
@@ -57,7 +57,7 @@ Antes de começar, recomendamos que você revise as informações em [O que é u
         - **Nome do pedido**: Nome do seu pedido
         - **Emails de notificação**: endereços de email para receber notificações de pedido. Se você inserir vários endereços de email, separe cada um deles com um ponto e vírgula.
         - **Data de transferência**: data de transferência emitida pelo provedor de serviços atual.
-    - **Detalhes do número de telefone**
+    - **Telefone número**
         - **Tipo de** porta : se você está fazendo uma porta completa para transferir todos os números ou uma porta parcial para transferir alguns de seus números.
     - **Pessoa solicitando detalhes**  
         - O nome da sua organização e os detalhes de contato da pessoa que está solicitando a transferência.
@@ -70,7 +70,7 @@ Antes de começar, recomendamos que você revise as informações em [O que é u
     > [!NOTE]
     > O arquivo CSV deve ter apenas uma coluna com um header chamado PhoneNumber. Cada número de telefone deve estar em uma linha separada e pode ser apenas dígitos ou no formato E.164.
 
-6. Na página **Concluir seu pedido,** clique em **Carregar** uma Carta de Autorização assinada para carregar uma cópia digitalizada da Carta de Autorização assinada (LOA).
+6. Na página Concluir seu  **pedido,** clique Upload uma Carta de Autorização assinada para carregar uma cópia digitalizada da Carta de Autorização assinada (LOA).
 
     Se você ainda não baixou e assinou a LOA, faça o seguinte:
     
@@ -89,7 +89,7 @@ Antes de começar, recomendamos que você revise as informações em [O que é u
 
 Quando recebermos seu pedido de portabilidade, você receberá um email que verifica sua solicitação. Sua solicitação é verificada e atualizada diariamente e você será notificado sobre seu progresso e status no email. Se sua solicitação de porta for rejeitada pela operadora perdedora, contate o [service desk PSTN](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md).
 
-Para exibir o status da sua ordem de porta, na navegação à esquerda do centro de administração do Microsoft Teams, vá para > pedidos de Porta de Voz e clique em  >  Histórico **de pedidos**. Cada status do pedido de porta está listado na **coluna Status.** Para saber mais, confira [Qual é o status dos pedidos de portabilidade?](port-order-status.md)
+Para exibir o status da sua ordem de porta, na navegação à esquerda do centro de administração Microsoft Teams, vá para > pedidos de Porta de Voz e clique em Histórico de  >   **pedidos**. Cada status do pedido de porta está listado na **coluna Status.** Para saber mais, confira [Qual é o status dos pedidos de portabilidade?](port-order-status.md)
 
 ## <a name="related-topics"></a>Tópicos relacionados
 

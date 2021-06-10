@@ -79,7 +79,7 @@ Você pode usar as seguintes ferramentas para monitorar sua configuração:
 
 O serviço de Roteamento Direto tem códigos de erro muito descritivos relatados ao Call Analytics ou aos logs SBC. 
 
-O Painel de Qualidade de Chamada fornece informações sobre qualidade e confiabilidade de chamada. Para saber mais sobre como solucionar problemas usando a Análise de Chamadas, consulte [Acione](/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard) e use o Painel de Qualidade de Chamadas para o Microsoft Teams e o Skype for Business Online e Use a Análise de Chamadas para solucionar problemas de baixa qualidade de [chamada.](/SkypeForBusiness/using-call-quality-in-your-organization/use-call-analytics-to-troubleshoot-poor-call-quality) 
+O Painel de Qualidade de Chamada fornece informações sobre qualidade e confiabilidade de chamada. Para saber mais sobre como solucionar problemas usando a Análise de Chamada, consulte [Acione](/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard) e use o Painel de Qualidade de Chamada para Microsoft Teams e Skype for Business Online e Use a Análise de Chamada para solucionar problemas de baixa qualidade de [chamada.](/SkypeForBusiness/using-call-quality-in-your-organization/use-call-analytics-to-troubleshoot-poor-call-quality) 
 
 Em caso de falhas de chamada, a Análise de Chamada fornece códigos SIP padrão para ajudá-lo na solução de problemas. 
 

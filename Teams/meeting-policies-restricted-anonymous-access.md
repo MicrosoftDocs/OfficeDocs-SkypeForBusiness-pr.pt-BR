@@ -15,7 +15,7 @@ appliesto:
 - Microsoft Teams
 f1.keywords: ''
 ms.custom: ''
-description: Saiba como remover a política de reunião RestrictedAnonymousAccess Teams dos usuários em sua organização.
+description: Saiba como remover a política de reunião RestrictedAnonymousAccess Teams de usuários em sua organização.
 ms.openlocfilehash: aab4b524ee0c9ab5cab3244a0897730fea0361a7
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
@@ -25,19 +25,19 @@ ms.locfileid: "51121339"
 ---
 # <a name="remove-the-restrictedanonymousaccess-teams-meeting-policy-from-users"></a>Remover a política de reunião do Teams RestrictedAnonymousAccess dos usuários
 
-[As políticas de](meeting-policies-in-teams.md) reunião no Microsoft Teams são usadas para controlar os recursos que estão disponíveis para os participantes da reunião para reuniões agendadas pelos usuários em sua organização. 
+[As políticas de](meeting-policies-in-teams.md) reunião Microsoft Teams são usadas para controlar os recursos que estão disponíveis para os participantes da reunião para reuniões agendadas pelos usuários em sua organização. 
 
-O Teams inclui uma política interna chamada RestrictedAnonymousAccess, que contém configurações pré-definidas que incluem a restrição de usuários anônimos de iniciar uma reunião. (Usuários anônimos são usuários que não foram autenticados.) As configurações predefinidas na política de reunião não podem ser editadas ou alteradas pelos administradores.
+Teams inclui uma política interna chamada RestrictedAnonymousAccess, que contém configurações pré-definidas que incluem a restrição de usuários anônimos de iniciar uma reunião. (Usuários anônimos são usuários que não foram autenticados.) As configurações predefinidas na política de reunião não podem ser editadas ou alteradas pelos administradores.
 
-Este artigo mostra como usar o PowerShell para remover a política de reunião RestrictedAnonymousAccess dos usuários que são atribuídos a essa política. Para saber mais sobre como gerenciar o Teams usando o PowerShell, consulte [Visão geral do Teams PowerShell.](teams-powershell-overview.md)
+Este artigo mostra como usar o PowerShell para remover a política de reunião RestrictedAnonymousAccess dos usuários que são atribuídos a essa política. Para saber mais sobre como gerenciar o Teams usando o PowerShell, consulte Teams visão geral do [PowerShell.](teams-powershell-overview.md)
 
 ## <a name="before-you-start"></a>Antes de começar
 
-Instale e conecte-se ao [módulo do PowerShell do Skype for Business.](/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell) Para obter orientações passo a passo, consulte [Install Microsoft Teams PowerShell](teams-powershell-install.md).
+Instale e conecte-se ao [módulo Skype for Business PowerShell](/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell). Para obter orientações passo a passo, consulte [Install Microsoft Teams PowerShell](teams-powershell-install.md).
 
-## <a name="get-the-teams-meeting-policy-assignments-for-your-organization"></a>Obter as atribuições de política de reunião do Teams para sua organização
+## <a name="get-the-teams-meeting-policy-assignments-for-your-organization"></a>Obter as Teams de política de reunião da sua organização
 
-Execute o seguinte para obter as atribuições de política de reunião do Teams para sua organização.
+Execute o seguinte para obter as Teams de reunião da sua organização.
 
 ```powershell
 Get-CsOnlineUser | Select-Object objectid, TeamsMeetingPolicy | Group-Object TeamsMeetingPolicy
@@ -70,7 +70,7 @@ Get-CsOnlineUser |? TeamsMeetingPolicy -eq "RestrictedAnonymousAccess" | Select-
 Com [a atribuição](assign-policies.md#assign-a-policy-to-a-batch-of-users)de política em lote, o número máximo de usuários para os quais você pode remover ou atualizar políticas é 5.000 por vez. Por exemplo, se você tiver mais de 5.000 usuários, precisará enviar vários lotes. Para melhores resultados, não envie vários lotes por vez. Permitir que lotes concluam o processamento antes de enviar mais lotes.
 
 > [!NOTE]
-> O cmdlet [New-CsBatchPolicyAssignmentOperation](/powershell/module/teams/new-csbatchpolicyassignmentoperation?view=teams-ps) está no módulo do Teams PowerShell. Antes de seguir estas etapas, instale e conecte-se ao [módulo do Teams PowerShell.](https://www.powershellgallery.com/packages/MicrosoftTeams) Para obter orientações passo a passo, consulte [Install Microsoft Teams PowerShell](teams-powershell-install.md).
+> O cmdlet [New-CsBatchPolicyAssignmentOperation](/powershell/module/teams/new-csbatchpolicyassignmentoperation?view=teams-ps) está no módulo Teams PowerShell. Antes de seguir estas etapas, instale e conecte-se ao [módulo Teams PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams). Para obter orientações passo a passo, consulte [Install Microsoft Teams PowerShell](teams-powershell-install.md).
 
 Execute os seguintes comandos para remover a política de reunião RestrictedAnonymousAccess de um lote de usuários.
 
@@ -96,4 +96,4 @@ Certifique-se **de que ErrorCount** seja **0** (zero) e **OverallStatus** seja *
 
 - [Gerenciar políticas de reunião no Teams](meeting-policies-in-teams.md)
 - [Visão Geral do PowerShell do Teams](teams-powershell-overview.md)
-- [Atribua políticas a seus usuários no Teams](assign-policies.md)
+- [Atribuir políticas aos usuários no Microsoft Teams](assign-policies.md)

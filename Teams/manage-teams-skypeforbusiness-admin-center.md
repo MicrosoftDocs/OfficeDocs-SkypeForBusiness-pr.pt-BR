@@ -1,5 +1,5 @@
 ---
-title: Gerenciar a transição do Teams para o novo centro de administração do Teams
+title: Gerenciar Teams transição para o novo Teams de administração
 author: SerdarSoysal
 ms.author: serdars
 manager: serdars
@@ -8,7 +8,7 @@ audience: admin
 ms.service: msteams
 ms.reviewer: ''
 search.appverid: MET150
-description: Saiba como gerenciar configurações de locatários e usuários para o Teams durante a transição do Teams no centro de administração do Microsoft 365 para o novo centro de administração do Teams.
+description: Saiba como gerenciar configurações de usuários e locatários para Teams durante a transição do Teams no centro de administração Microsoft 365 para o novo centro de administração Teams.
 localization_priority: Normal
 f1.keywords:
 - CSH
@@ -34,20 +34,20 @@ ms.locfileid: "51100897"
 > [!IMPORTANT]
 > [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 
-## <a name="what-is-the-new-microsoft-teams-admin-center"></a>Qual é o novo centro de administração do Microsoft Teams  
+## <a name="what-is-the-new-microsoft-teams-admin-center"></a>Qual é o novo Microsoft Teams de administração  
 
-A nova experiência do centro de administração fornecerá uma experiência unificada para gerenciar o Teams e o Skype for Business. Estamos fornecendo funcionalidade adicional, informações de ponta a ponta e a capacidade de gerenciar as configurações do Teams em um nível de usuário.
+A nova experiência do centro de administração fornecerá uma experiência unificada para gerenciar Teams e Skype for Business. Estamos fornecendo funcionalidade adicional, informações de ponta a ponta e a capacidade de gerenciar Teams configurações em um nível de usuário.
 
-![Captura de tela do centro de administração do Microsoft Teams.](media/manage-teams-skype-for-business-admin-center-portal.png)
+![Captura de tela do Microsoft Teams de administração.](media/manage-teams-skype-for-business-admin-center-portal.png)
 
-## <a name="settings-migrated-to-the-new-microsoft-teams-admin-center"></a>Configurações migradas para o novo centro de administração do Microsoft Teams
+## <a name="settings-migrated-to-the-new-microsoft-teams-admin-center"></a>Configurações migrado para o novo Microsoft Teams de administração
 
-A tabela a seguir identifica as seções da experiência do Teams que foram migradas e mostra a relação entre as configurações atuais e as políticas no novo portal de administração.
+A tabela a seguir identifica as seções da experiência Teams que foram migradas e mostra a relação entre as configurações atuais e as políticas no novo portal de administração.
 
-|Seção do Teams no Centro de administração do Microsoft 365  |Nome da configuração (nível de locatário)  |Política do centro de administração do Microsoft Teams   |Nível: Locatário ou Usuário   |
+|Seção de Teams no Microsoft 365 de administração  |Nome da configuração (nível de locatário)  |Microsoft Teams de centro de administração   |Nível: Locatário ou Usuário   |
 |---------|---------|---------|---------|
 |Geral     |Mostrar gráfico organizacional no perfil pessoal        |  [TeamsClientConfiguration](/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)       |  Locatário       |
-|Geral     |Usar o Skype for Business para destinatários que não têm o Teams         |[TeamsClientConfiguration](/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Locatário         |
+|Geral     |Use Skype for Business para destinatários que não têm Teams         |[TeamsClientConfiguration](/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Locatário         |
 |Integração de email     |Permitir que os usuários enviem emails para canais         |[TeamsClientConfiguration](/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Locatário         |
 |Integração de email     |Permitir lista de envios         |[TeamsClientConfiguration](/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)        |Locatário         |
 |Armazenamento em nuvem personalizado     |Box         |[TeamsClientConfiguration](/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Locatário         |
@@ -55,8 +55,8 @@ A tabela a seguir identifica as seções da experiência do Teams que foram migr
 |Armazenamento em nuvem personalizado     |Egnyte        |[TeamsClientConfiguration](/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Locatário         |
 |Armazenamento em nuvem personalizado     |Google Drive        |[TeamsClientConfiguration](/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Locatário         |
 |Armazenamento em nuvem personalizado     |ShareFile        |[TeamsClientConfiguration](/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Locatário         |
-|Configurações por tipo de usuário/licença     |Ativar ou desativar o Microsoft Teams para todos os usuários          |Preterido<sup>1</sup>        |         |
-|Equipes e canais     |         |Redireciona para o Azure Active Directory Group Management (mesmo que a experiência atual).              |Usuário         |
+|Configurações por tipo de usuário/licença     |Ativar Microsoft Teams para todos os usuários          |Preterido<sup>1</sup>        |         |
+|Equipes e canais     |         |Redireciona para Azure Active Directory Gerenciamento de Grupo (o mesmo que a experiência atual).              |Usuário         |
 |Equipes e canais     |         |Redireciona para o Gerenciamento de Grupo do AAD (mesmo que a experiência atual).             |Usuário          |
 |Aplicativos|Habilitar novos aplicativos externos por padrão|Configurações de aplicativos em toda a organização|Locatário|
 |Aplicativos|Permitir aplicativos externos|Configurações de aplicativos em toda a organização|Locatário|
@@ -78,7 +78,7 @@ A tabela a seguir identifica as seções da experiência do Teams que foram migr
 |Mensagens     |Permitir que os usuários excluam suas próprias mensagens         |[TeamsMessagingPolicy](/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |Usuário         |
 |Mensagens     |Permite que os usuários conversem em particular         |[TeamsMessagingPolicy](/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |Usuário         |
 
-<sup>1</sup> Preterido para Convidado. A habilitação/desabilitação do Convidado agora pode ser gerenciada no centro de administração do Microsoft Teams. Habilitando/desabilitando o Teams for Business Enterprise, o Aluno Edu e o Edu Faculty serão preterido em breve. Isso deve ser gerenciado atribuindo licenças no Centro de administração do Microsoft 365. Consulte [Gerenciar o acesso do usuário ao Microsoft Teams](user-access.md).
+<sup>1</sup> Preterido para Convidado. A habilitação/desabilitação do Convidado agora pode ser gerenciada no Microsoft Teams de administração. A habilitação/desabilitação Teams para Empresas Enterprise, Estudante Edu e Professores Edu serão preterida em breve. Isso deve ser gerenciado atribuindo licenças no Microsoft 365 de administração. Consulte [Gerenciar o acesso do usuário Microsoft Teams](user-access.md).
 <br><br>
 <sup>2</sup> Sideloading é dividido da seguinte forma:
 
@@ -88,31 +88,31 @@ A tabela a seguir identifica as seções da experiência do Teams que foram migr
 <sup>3</sup> Aplicativos padrão e aplicativos externos podem ser habilitados e desabilitados no nível do usuário no TeamsAppPermissionPolicy. Além disso, os aplicativos podem ser bloqueados no nível do locatário em configurações de aplicativos em toda a organização que substituem qualquer configuração de usuário e de nível de locatário.
 
 > [!NOTE]
-> Você continuará a usar o painel Grupos no Centro de administração do Microsoft 365 para configuração relacionada ao Teams e canais. As configurações para Aplicativos permanecerão na área do Teams do Centro de administração do Microsoft 365 e serão migradas posteriormente.
+> Você continuará a usar o painel Grupos no centro de administração Microsoft 365 para configuração relacionada a Teams e canais. Configurações para Aplicativos permanecerá na área Teams do centro de administração Microsoft 365 e será migrada posteriormente.
 
 ## <a name="manage-settings-during-the-migration"></a>Gerenciar configurações durante a migração
 
-Você pode continuar a modificar configurações no Centro de administração do Microsoft 365 e no Centro de administração do Skype for Business até que a migração de uma seção seja concluída para o locatário.
+Você pode continuar a modificar configurações no centro de administração Microsoft 365 e no centro de administração Skype for Business até que a migração para uma seção seja concluída para o locatário.
 
 A tabela a seguir mostra onde você pode gerenciar recursos durante a migração.
 
-|Recurso  |Centro de administração do Microsoft Teams                      |Centro de administração do Skype for Business (herdada)  |Centro de administração do Microsoft 365  |
+|Recurso  |Microsoft Teams de administração                      |Skype for Business de administração (herdado)  |Microsoft 365 de administração  |
 |---------|:---------:|:---------:|:---------:|
-|Políticas de mensagens, reuniões e eventos ao vivo do Teams     |     X    |         |         |
-|Política de atualização do Teams     |    X     |         |         |
+|Teams Políticas de mensagens, reuniões e eventos ao vivo     |     X    |         |         |
+|Teams Política de atualização     |    X     |         |         |
 |Configurações de convidado para Mensagens, Reuniões e Voz     |   X      |         |         |
-|Gerenciamento do Ciclo de Vida do Teams   |    X    |      |       |
-|Configurações do Teams   |    X    |      |       |
+|Teams Gerenciamento de Ciclo de Vida   |    X    |      |       |
+|Teams Configurações   |    X    |      |       |
 |Configurações de acesso externo     |    X    |      |       |
 |Gerenciamento de usuários    |         |         |    X     |
 |Audioconferência     |    X     |    X     |         |
 |Planos de chamada     |    X    |    X     |         |
 |Sistema de Telefonia    |    X    |     X    |         |
-|Gerenciamento de números de telefone     |    X    |   X      |         |
+|Telefone gerenciamento de números     |    X    |   X      |         |
 |Licenciamento para recursos de voz na nuvem     |         |         |    X     |
 |Atendedores automáticos     |    X    |          |         |
 |Filas de chamadas     |    X    |          |         |
 
 ## <a name="manage-settings-after-the-migration"></a>Gerenciar configurações após a migração
 
-Quando a migração dessas configurações for concluída, as desabilitaremos no centro de administração do Microsoft 365 e no Centro de administração do Skype for Business e elas poderão ser gerenciadas no novo centro de administração do Microsoft Teams.
+Quando a migração dessas configurações for concluída, as desabilitaremos no centro de administração do Microsoft 365 e no centro de administração do Skype for Business, e elas poderão ser gerenciadas no novo centro de administração Microsoft Teams.

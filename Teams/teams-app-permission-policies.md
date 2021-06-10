@@ -45,7 +45,7 @@ Se sua organização já estiver no Teams, as configurações do aplicativo defi
 Digamos, por exemplo, que você deseja bloquear todos os aplicativos de terceiros e permitir aplicativos específicos da Microsoft para a equipe de RH em sua organização. Primeiro, você deve ir para a página [Gerenciar aplicativos](manage-apps.md) e certificar-se de que os aplicativos que deseja permitir para a equipe de RH são permitidos no nível da organização. Em seguida, crie uma política personalizada chamada Política de Permissão de Aplicativos de RH, defina-a para bloquear e permitir os aplicativos que você deseja e atribua-a aos usuários da equipe de RH.
 
 > [!NOTE]
-> Se você implantou o Teams em um ambiente microsoft 365 Government Community Cloud High (GCCH) e Department of Defense (DoD), consulte [Manage org-wide app settings for Microsoft 365 Government](#manage-org-wide-app-settings-for-microsoft-365-government) to learn more about third-party app settings that are unique to GCCH and DoD.
+> Se você implantou o Teams em um ambiente de Alta Microsoft 365 Nuvem da Comunidade Governamental (GCCH) e Departamento de Defesa (DoD), consulte Gerenciar configurações de [aplicativos](#manage-org-wide-app-settings-for-microsoft-365-government) em toda a organização para o Microsoft 365 Government para saber mais sobre configurações de aplicativos de terceiros exclusivas do GCCH e do DoD.
 
 ## <a name="create-a-custom-app-permission-policy"></a>Criar uma política de permissão de aplicativo personalizada
 
@@ -86,7 +86,7 @@ Você pode usar o centro de administração do Microsoft Teams para editar uma p
 
 ## <a name="manage-org-wide-app-settings-for-microsoft-365-government"></a>Gerenciar configurações de aplicativos em toda a organização para o Microsoft 365 Government  
 
-Em uma implantação do Microsoft 365 Government - GCCH e DoD do Teams, é importante saber o seguinte sobre configurações de aplicativos de terceiros, que são exclusivas do GCCH e do DoD.
+Em uma implantação Microsoft 365 Government - GCCH e DoD do Teams, é importante saber o seguinte sobre configurações de aplicativos de terceiros, que são exclusivas do GCCH e do DoD.
 
 No GCCH e no DoD, todos os aplicativos de terceiros são bloqueados por padrão. Além disso, você verá a seguinte observação sobre o gerenciamento de aplicativos de terceiros na página de políticas de permissão de aplicativos no centro de administração do Microsoft Teams.
 
@@ -100,10 +100,10 @@ Use as configurações de aplicativos de toda a organização para controlar se 
     
 2. Em **Aplicativos de terceiros**, desabilite ou ative essas configurações para controlar o acesso a aplicativos de terceiros:
 
-    - **Permitir aplicativos de terceiros**: controla se os usuários podem usar aplicativos de terceiros. Se você desabilitar esta configuração, seus usuários não poderão instalar ou usar aplicativos de terceiros. Em uma implantação do Microsoft 365 Government - GCCH e DoD do Teams, essa configuração está desligada por padrão.
+    - **Permitir aplicativos de terceiros**: controla se os usuários podem usar aplicativos de terceiros. Se você desabilitar esta configuração, seus usuários não poderão instalar ou usar aplicativos de terceiros. Em um Microsoft 365 government - implantação GCCH e DoD de Teams, essa configuração está desligada por padrão.
     - **Permitir novos aplicativos de terceiros publicados na loja por padrão**: isso controla se os novos aplicativos de terceiros publicados na loja de aplicativos Teams se tornam automaticamente disponíveis no Teams. Você só pode definir essa opção se permitir aplicativos de terceiros.
 
-3. Em **Aplicativos bloqueados**, adicione os aplicativos que deseja bloquear em sua organização. Em uma implantação do Microsoft 365 Government - GCCH e DoD do Teams, todos os aplicativos de terceiros são adicionados a essa lista por padrão. Para qualquer aplicativo de terceiros que você deseja permitir em sua organização, remova o aplicativo desta lista de aplicativos bloqueados. Quando você bloqueia um aplicativo em toda a organização, o aplicativo é automaticamente bloqueado para todos os seus usuários, independentemente de ser permitido em qualquer política de permissão de aplicativo
+3. Em **Aplicativos bloqueados**, adicione os aplicativos que deseja bloquear em sua organização. Em um Microsoft 365 government - implantação GCCH e DoD do Teams, todos os aplicativos de terceiros são adicionados a essa lista por padrão. Para qualquer aplicativo de terceiros que você deseja permitir em sua organização, remova o aplicativo desta lista de aplicativos bloqueados. Quando você bloqueia um aplicativo em toda a organização, o aplicativo é automaticamente bloqueado para todos os seus usuários, independentemente de ser permitido em qualquer política de permissão de aplicativo
 4. Clique em **Salvar** para que as configurações do aplicativo para toda a organização tenham efeito.
 
 Conforme mencionado anteriormente, para permitir aplicativos de terceiros, você pode editar e usar a política global (padrão para toda a organização) ou criar e atribuir políticas personalizadas.

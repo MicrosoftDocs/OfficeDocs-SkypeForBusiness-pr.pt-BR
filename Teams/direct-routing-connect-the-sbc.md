@@ -1,5 +1,5 @@
 ---
-title: Conectar seu Controlador de Borda de Sessão (SBC) ao Roteamento Direto
+title: Conexão controlador de borda de sessão (SBC) para Roteamento Direto
 ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
@@ -15,7 +15,7 @@ appliesto:
 - Microsoft Teams
 f1.keywords:
 - NOCSH
-description: Saiba como configurar e conectar seu SBC ao Roteamento Direto do Sistema de Telefonia.
+description: Saiba como configurar e conectar seu SBC ao Sistema de Telefonia Roteamento Direto.
 ms.openlocfilehash: 697f426b9c9dc3215d653520658282fab1787001
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
@@ -23,18 +23,18 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 03/23/2021
 ms.locfileid: "51122245"
 ---
-# <a name="connect-your-session-border-controller-sbc-to-direct-routing"></a>Conectar seu Controlador de Borda de Sessão (SBC) ao Roteamento Direto
+# <a name="connect-your-session-border-controller-sbc-to-direct-routing"></a>Conexão controlador de borda de sessão (SBC) para Roteamento Direto
 
-Este artigo descreve como configurar um Controlador de Borda de Sessão (SBC) e conectá-lo ao Roteamento Direto do Sistema de Telefonia.  Esta é a etapa 1 das seguintes etapas para configurar o Roteamento Direto:
+Este artigo descreve como configurar um Controlador de Borda de Sessão (SBC) e conectá-lo Sistema de Telefonia Roteamento Direto.  Esta é a etapa 1 das seguintes etapas para configurar o Roteamento Direto:
 
-- **Etapa 1. Conectar seu SBC ao Sistema de Telefonia e validar a conexão** (Este artigo)
+- **Etapa 1. Conexão seu SBC com Sistema de Telefonia e valide a conexão** (Este artigo)
 - Etapa 2. [Habilitar usuários para Roteamento Direto](direct-routing-enable-users.md)
 - Etapa 3. [Configurar roteamento de chamadas](direct-routing-voice-routing.md)
 - Etapa 4. [Traduzir números para um formato alternativo](direct-routing-translate-numbers.md)
 
 Para obter informações sobre todas as etapas necessárias para configurar o Roteamento Direto, consulte [Configure Direct Routing](direct-routing-configure.md).
 
-Você pode usar o Centro de [administração do Microsoft Teams](#using-the-microsoft-teams-admin-center) ou o [PowerShell](#using-powershell) para configurar e conectar um SBC ao Roteamento Direto.
+Você pode usar o [Microsoft Teams de](#using-the-microsoft-teams-admin-center) administração ou [o PowerShell](#using-powershell) para configurar e conectar um SBC ao Roteamento Direto.
 
 ## <a name="using-the-microsoft-teams-admin-center"></a>Usando o centro de administração do Microsoft Teams
 
@@ -43,7 +43,7 @@ Você pode usar o Centro de [administração do Microsoft Teams](#using-the-micr
 3. Insira um FQDN para o SBC. <br><br>Certifique-se de que a parte do nome de domínio do FQDN corresponde a um domínio registrado em seu locatário e tenha em mente que o nome de domínio não é suportado para o nome de domínio `*.onmicrosoft.com` FQDN SBC. Por exemplo, se você tiver dois nomes de domínio `contoso.com` e , use como o nome `contoso.onmicrosoft.com` `sbc.contoso.com` SBC. Se estiver usando um subdomínio, certifique-se de que esse subdomínio também esteja registrado em seu locatário. Por exemplo, se você quiser usar `sbc.service.contoso.com` , então precisa ser `service.contoso.com` registrado.
 4. Configure as configurações a seguir para o SBC, com base nas necessidades da sua organização. Para obter detalhes sobre cada uma dessas configurações, consulte [Configurações SBC](#sbc-settings).
 
-    ![Captura de tela da página adicionar SBC no centro de administração do Microsoft Teams](media/direct-routing-add-sbc.png)
+    ![Captura de tela da página adicionar SBC no Microsoft Teams de administração](media/direct-routing-add-sbc.png)
 
 5. Quando terminar, clique em **Salvar**.
 
@@ -51,11 +51,11 @@ Você pode usar o Centro de [administração do Microsoft Teams](#using-the-micr
 
 Para conectar seu SBC ao Roteamento Direto, você precisará:
 
-1. [Conecte-se ao Skype for Business Online usando o PowerShell](#connect-to-skype-for-business-online-by-using-powershell).
-2. [Conecte o SBC ao locatário](#connect-the-sbc-to-the-tenant).
+1. [Conexão para Skype for Business Online usando o PowerShell](#connect-to-skype-for-business-online-by-using-powershell).
+2. [Conexão SBC para o locatário](#connect-the-sbc-to-the-tenant).
 3. [Verifique a conexão SBC](#verify-the-sbc-connection).
 
-### <a name="connect-to-skype-for-business-online-by-using-powershell"></a>Conectar-se ao Skype for Business Online usando o PowerShell
+### <a name="connect-to-skype-for-business-online-by-using-powershell"></a>Conexão para Skype for Business Online usando o PowerShell
 
 Você pode usar uma sessão do PowerShell conectada ao locatário para emparelhar o SBC à interface de Roteamento Direto. Para abrir uma sessão do PowerShell, siga as etapas descritas em [Configurar o computador para](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)Windows PowerShell .
  
@@ -76,7 +76,7 @@ Function       Remove-CsOnlinePSTNGateway 1.0        tmp_v5fiu1no.wxt
 Function       Set-CsOnlinePSTNGateway    1.0        tmp_v5fiu1no.wxt
 </pre>
 
-### <a name="connect-the-sbc-to-the-tenant"></a>Conectar o SBC ao locatário
+### <a name="connect-the-sbc-to-the-tenant"></a>Conexão SBC para o locatário
 
 Use o cmdlet [New-CsOnlinePSTNGateway](/powershell/module/skype/new-csonlinepstngateway) para conectar o SBC ao locatário. Em uma sessão do PowerShell, digite o seguinte e pressione Enter:
 
@@ -156,18 +156,18 @@ Para validar o emparelhamento usando opções SIP de entrada, use a interface de
 
 ## <a name="sbc-settings"></a>Configurações SBC
 
-Esta tabela lista as opções que você pode definir para o SBC no centro de administração do Microsoft Teams e usando o cmdlet [New-CsOnlinePSTNGateway.](/powershell/module/skype/new-csonlinepstngateway)
+Esta tabela lista as opções que você pode definir para o SBC no centro de administração Microsoft Teams e usando o cmdlet [New-CsOnlinePSTNGateway.](/powershell/module/skype/new-csonlinepstngateway)
 
-|Necessário?|Configuração do centro de administração do Microsoft Teams|Parâmetro do PowerShell|Descrição|Padrão|Valores possíveis|Tipo e restrições|
+|Necessário?|Microsoft Teams de centro de administração|Parâmetro do PowerShell|Descrição|Padrão|Valores possíveis|Tipo e restrições|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
 |Sim|**Adicionar um FQDN para o SBC**|FQDN |Nenhum|Nome do FQDN, limite 63 caracteres|String, consulte a lista de caracteres permitidos e não permitidos em Convenções de Nomenal no Active Directory para [computadores, domínios, sites e OUs](https://support.microsoft.com/help/909264)|
 |Não|**Habilitado**|Habilitado|Use para ativar o SBC para chamadas de saída. Você pode usar isso para remover temporariamente o SBC do serviço enquanto ele está sendo atualizado ou durante a manutenção. |Falso|Verdadeiro<br/>Falso|Boolean|
 |Sim|**Porta de sinalização SIP**|SipSignalingPort |Essa é a porta de escuta usada para se comunicar com o Roteamento Direto usando o protocolo TLS (Camada de Transporte).|Nenhum|Qualquer porta|0 a 65535 |
 |Não|**Enviar opções SIP**|SendSIPOptions |Define se o SBC enviará mensagens de opções SIP. É altamente recomendável ativar essa configuração. Quando essa configuração é desligada, o SBC é excluído do sistema de Monitoramento e Alerta.|Verdadeiro|Verdadeiro<br/>Falso|Boolean|
-|Não|**Histórico de chamada de encaminhamento**|ForwardCallHistory |Indica se as informações do histórico de chamada são encaminhadas pelo tronco. Ao ativar isso, o proxy do Microsoft 365 ou office 365 envia um header Histórico-info e Referred-by. |Falso|Verdadeiro<br/>Falso|Boolean|
+|Não|**Histórico de chamada de encaminhamento**|ForwardCallHistory |Indica se as informações do histórico de chamada são encaminhadas pelo tronco. Quando você ativar isso, o proxy Microsoft 365 ou Office 365 enviará um header History-info e Referred-by. |Falso|Verdadeiro<br/>Falso|Boolean|
 |Não|**Header forward P-Asserted-identity (PAI)**|ForwardPAI|Indica se o header pai é encaminhado junto com a chamada. O header PAI oferece uma forma de verificar a identidade do chamador. Se essa configuração estiver em, o header Privacy:ID também será enviado.|Falso|Verdadeiro<br/>Falso|Boolean|
 |Não|**Capacidade de chamada simultânea**|MaxConcurrentSessions |Quando você definir um valor, o sistema de alertas notificará você quando o número de sessões simultâneas for 90% ou superior a esse valor. Se você não definir um valor, os alertas não são gerados. No entanto, o sistema de monitoramento relatará o número de sessões simultâneas a cada 24 horas. |Null|Null<br/>1 a 100.000 ||
-|Não|**Códigos de resposta de failover**|FailoverResponseCodes<br>|Se o Roteamento Direto receber qualquer código de erro SIP 4xx ou 6xx em resposta a um Convite de saída, a chamada será considerada concluída por padrão. Saída significa uma chamada de um cliente do Teams para o PSTN com fluxo de tráfego: cliente do Teams -> Roteamento Direto -> SBC -> rede de telefonia). Quando você especifica um código de resposta de failover, isso força o Roteamento Direto a tentar outro SBC (se houver outro SBC na política de roteamento de voz do usuário) quando ele receber os códigos especificados se o SBC não puder fazer uma chamada por causa da rede ou outros problemas. Para saber mais, confira [Failover de códigos SIP específicos recebidos do Controlador](direct-routing-trunk-failover-on-outbound-call.md)de Borda de Sessão (SBC).|408, 503, 504||Int|
+|Não|**Códigos de resposta de failover**|FailoverResponseCodes<br>|Se o Roteamento Direto receber qualquer código de erro SIP 4xx ou 6xx em resposta a um Convite de saída, a chamada será considerada concluída por padrão. Saída significa uma chamada de um cliente Teams para a PSTN com fluxo de tráfego: Teams cliente -> Roteamento Direto -> SBC -> rede de telefonia). Quando você especifica um código de resposta de failover, isso força o Roteamento Direto a tentar outro SBC (se houver outro SBC na política de roteamento de voz do usuário) quando ele receber os códigos especificados se o SBC não puder fazer uma chamada por causa da rede ou outros problemas. Para saber mais, confira [Failover de códigos SIP específicos recebidos do Controlador](direct-routing-trunk-failover-on-outbound-call.md)de Borda de Sessão (SBC).|408, 503, 504||Int|
 |Não|**Tempos de failover (segundos)**|FailoverTimeSeconds |Quando você definir um valor, as chamadas de saída que não são atendidas pelo gateway no tempo definido são roteadas para o próximo tronco disponível. Se não houver troncos adicionais, a chamada será automaticamente retirada. O valor padrão é 10 segundos. Em uma organização com redes lentas e respostas de gateway, isso pode resultar em chamadas sendo retiradas desnecessariamente.|10|Número|Int|
 |Não|**País ou região preferencial para tráfego de mídia**|MediaRelayRoutingLocationOverride |Use para definir manualmente seu país ou região preferencial para tráfego de mídia. Recomendamos definir isso somente se os logs de chamada indicarem claramente que a atribuição padrão do datacenter para o caminho de mídia não usa o caminho mais próximo do datacenter SBC. Por padrão, o Roteamento Direto atribui um datacenter com base no endereço IP público do SBC e sempre seleciona o caminho mais próximo do datacenter SBC. No entanto, em alguns casos, o caminho padrão pode não ser o caminho ideal. Esse parâmetro permite definir manualmente a região preferencial para tráfego de mídia. |Nenhum|Códigos de país no formato ISO||
 |Não|**SBC dá suporte a PIDF/LO para chamadas de emergência**|PidfloSupported|Especifique se o SBC dá suporte ao Objeto de Local de Formato de Dados de Presença (PIDF/LO) para chamadas de emergência.||||

@@ -29,15 +29,15 @@ ms.locfileid: "51120823"
 
 Cada número de telefone ativo deve ter um local de emergência associado quando você atribui o número de telefone a um usuário. (Você associa o endereço quando você tem um número de telefone no Office 365 ou quando você transfere um número de telefone.) Ao associar o número a um local de emergência, você também pode adicionar um local para fornecer um local mais exato em um local físico. Um local pode ser o piso, a asa de construção ou o número do escritório onde o usuário está localizado. Você pode ter um número ilimitado de locais para um determinado local de emergência e pode alterar o local se o usuário mudar para um escritório ou edifício diferente. Por exemplo, se o usuário mudar do piso 34 para o 35º andar.
   
-Para saber como obter Planos de Chamada e quanto eles custam, consulte [Licenciamento de complemento do Teams](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
+Para saber como obter Planos de Chamada e quanto eles custam, [consulte Teams licenciamento de complemento.](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
   
-Você pode atribuir ou alterar o local para um local de emergência para um usuário no centro de administração do Microsoft Teams ou usando o PowerShell.
+Você pode atribuir ou alterar o local para um local de emergência para um usuário no centro de administração Microsoft Teams ou usando o PowerShell.
 
 ## <a name="using-the-microsoft-teams-admin-center"></a>Usando o centro de administração do Microsoft Teams
 
-1. Na navegação à esquerda do Centro de administração do Microsoft Teams, clique em **Números de Telefone** de  >  **Voz**.
+1. Na navegação à esquerda do centro de administração Microsoft Teams, clique **em Voz Telefone**  >  **números**.
 
-2. Na página **Números de** telefone, clique na guia **Números,** selecione um número de usuário na lista e clique em **Editar**.
+2. Na página **Telefone números,** clique na guia **Números,** selecione um número de usuário na lista e clique em **Editar**.
 
 3. No painel **Editar,** em **Local de emergência,** faça um dos seguintes procedimentos:
 

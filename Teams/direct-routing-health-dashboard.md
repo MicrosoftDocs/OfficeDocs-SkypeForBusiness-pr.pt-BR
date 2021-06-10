@@ -32,7 +32,7 @@ O Painel de Saúde monitora dois níveis de informações:
 - Saúde geral dos SBCs conectados
 - Informações detalhadas sobre os SBCs conectados
 
-Você pode exibir o Painel de Saúde no Microsoft Teams e no Centro de Administração do Skype for Business.
+Você pode exibir o Painel de Saúde no Microsoft Teams e Skype for Business Admin Center.
 
 ## <a name="overall-health"></a>Saúde geral
 
@@ -98,7 +98,7 @@ A exibição detalhada mostra os seguintes parâmetros adicionais:
 
 - **Chamada simultânea**- mostra quantas chamadas simultâneas o SBC lidou. Essas informações são úteis para prever o número de canais simultâneos necessários e ver a tendência. Você pode deslizar os dados por número de dias e direção de chamada (fluxos de entrada/saída/Todos).
 
-- **Parâmetros de rede** - Todos os parâmetros de rede são medidos da interface roteamento direto para o Controlador de Borda de Sessão. Para obter informações sobre os valores recomendados, consulte [Prepare your organization's network for Microsoft Teams](./prepare-network.md), and look at the Customer Edge to Microsoft Edge recommended values.
+- **Parâmetros de rede** - Todos os parâmetros de rede são medidos da interface roteamento direto para o Controlador de Borda de Sessão. Para obter informações sobre os valores recomendados, consulte Prepare your [organization's network for Microsoft Teams](./prepare-network.md), and look at the Customer Edge to Microsoft Edge recommended values.
 
    - Tremido – É a medida milissegunda de variação no tempo de atraso de propagação da rede calculada entre dois pontos de extremidade usando RTCP (O Protocolo de Controle RTP).
 

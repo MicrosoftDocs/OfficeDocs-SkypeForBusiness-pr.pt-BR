@@ -43,13 +43,13 @@ Para entrar em contato com a equipe do Service Desk PSTN, envie email para o ali
 > [!NOTE]
 > As respostas da América do Norte podem ser adiadas devido a um grande aumento nas solicitações de entrada. O backlog está sendo limpo em uma base FIFO (First In, First Out).
 
-## <a name="transfer-or-port-your-existing-phone-numbers-to-microsoft-teams"></a>Transferir ou portar seus números de telefone existentes para o Microsoft Teams
+## <a name="transfer-or-port-your-existing-phone-numbers-to-microsoft-teams"></a>Transferir ou portar seus números de telefone existentes para Microsoft Teams
 Envie emails para o alias de email apropriado da tabela acima. Inclua o máximo de detalhes possível, como:
   - Sua [ID da Organização (ID de locatário) ou domínios da Microsoft atualmente ativos.](/onedrive/find-your-office-365-tenant-id)
   - Os tipos de números de telefone com os quais você precisa de assistência; como usuário, tarifa de serviço ou serviço gratuito.
   - Outros detalhes importantes com base em sua solicitação.
 
-## <a name="get-new-phone-numbers-for-microsoft-teams"></a>Obter novos números de telefone para o Microsoft Teams
+## <a name="get-new-phone-numbers-for-microsoft-teams"></a>Obter novos números de telefone para Microsoft Teams
 Envie emails para o alias de email apropriado da tabela acima. Inclua o máximo de detalhes possível, como:
   - Sua [ID da Organização (ID de locatário) ou domínios microsoft atualmente ativos.](/onedrive/find-your-office-365-tenant-id)
   - Os tipos de números de telefone com os quais você precisa de assistência; como usuário, tarifa de serviço ou serviço gratuito.

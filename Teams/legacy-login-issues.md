@@ -1,5 +1,5 @@
 ---
-title: Problemas de recebimento de mensagens e chamadas em sistemas herdadas no Teams
+title: Problemas de recebimento de mensagens e chamadas em sistemas herdado em Teams
 ms.reviewer: ''
 author: cichur
 ms.author: v-cichur
@@ -27,7 +27,7 @@ ms.locfileid: "51120602"
 <a name="issues-receiving-messages-and-calls-on-legacy-systems"></a>Problemas de recebimento de mensagens e chamadas em sistemas herdadas
 ==============================================================
 
-Os usuários podem ter problemas para receber mensagens ou chamadas se eles estão usando versões mais antigas do Teams ou se fizeram logor com outros aplicativos.
+Os usuários podem ter problemas para receber mensagens ou chamadas se eles estão usando versões mais antigas Teams ou se fizeram logo in-lo com outros aplicativos.
 
 ## <a name="legacy-adu-setups"></a>Configurações herdas do ADU
 
@@ -40,9 +40,9 @@ Os usuários podem ter problemas para receber mensagens ou chamadas se eles est�
 > [!NOTE]
 > Pular ou ignorar o pré-preenchimento do nome do usuário para nomes de usuários que terminam com ".local" ou ".corp" está ativado por padrão, por isso, não é necessário definir uma chave de registro para desativá-los.
 
-Confira [Entrar no Microsoft Teams usando a autenticação moderna](sign-in-teams.md) para obter mais informações.
+Consulte [Entrar para Microsoft Teams autenticação moderna](sign-in-teams.md) para obter mais informações.
 
-## <a name="skype-token-revocation"></a>Revogação de token do Skype
+## <a name="skype-token-revocation"></a>Skype revogação de token
 
 Ao alterar/redefinir uma senha, os clientes mais antigos não receberão mensagens e chamadas por até uma hora. Para resolver esse problema, reinicie o aplicativo ou mova-se para clientes mais novos.
 

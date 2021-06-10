@@ -17,7 +17,7 @@ ms.custom:
 - ms.teamsadmincenter.assignments.tooltip.emaildigest
 - ms.teamsadmincenter.assignments.tooltip.makecode
 - ms.teamsadmincenter.assignments.tooltip.turnitin
-description: Saiba como gerenciar atribuições no centro de administração do Microsoft Teams no Teams for Education.
+description: Saiba como gerenciar atribuições no Microsoft Teams de administração no Teams education.
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
@@ -30,29 +30,29 @@ ms.locfileid: "51121369"
 ---
 # <a name="assignments-in-teams-for-education"></a>Tarefas do Teams for Education
 
-Os recursos Atribuições e Notas no Teams for Education permitem que os educadores atribuam tarefas, trabalhos ou testes aos alunos. Os educadores podem gerenciar cronogramas de atribuição, instruções, adicionar recursos para a atribuição, notas com rubricas e muito mais. Eles também podem acompanhar o progresso da classe e do aluno individual na guia Notas.
+Os recursos Atribuições e Notas no Teams para Educação permitem que os educadores atribuam tarefas, trabalho ou testes aos seus alunos. Os educadores podem gerenciar cronogramas de atribuição, instruções, adicionar recursos para a atribuição, notas com rubricas e muito mais. Eles também podem acompanhar o progresso da classe e do aluno individual na guia Notas.
 
-[Saiba mais sobre atribuições e notas no Teams for Education.](https://support.office.com/article/microsoft-teams-5aa4431a-8a3c-4aa5-87a6-b6401abea114?ui=en-US&rs=en-IE&ad=IE#ID0EAABAAA=Assignments)
+[Saiba mais sobre atribuições e notas no Teams para Educação.](https://support.office.com/article/microsoft-teams-5aa4431a-8a3c-4aa5-87a6-b6401abea114?ui=en-US&rs=en-IE&ad=IE#ID0EAABAAA=Assignments)
 
 > [!Note]
-> Para obter detalhes sobre as atribuições do Teams em diferentes plataformas, consulte [Recursos do Teams por plataforma](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3).
+> Para obter detalhes sobre Teams atribuições em diferentes plataformas, [consulte Teams recursos por plataforma](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3).
 
-## <a name="assignments-integrations-in-the-microsoft-teams-admin-center"></a>Integrações de atribuições no centro de administração do Microsoft Teams
+## <a name="assignments-integrations-in-the-microsoft-teams-admin-center"></a>Integrações de atribuições no Microsoft Teams de administração
 
-Usando as configurações de administrador no Centro de administração do Microsoft Teams, você pode ativar ou desativar recursos para educadores em sua organização e seus alunos. Veja a seguir as configurações relacionadas a atribuições:
+Usando as configurações de administrador no Microsoft Teams de administração, você pode ativar ou desativar recursos para educadores em sua organização e seus alunos. Veja a seguir as configurações relacionadas a atribuições:
 
 <a name="#bkemaildigest"> </a>
 ### <a name="weekly-guardian-email-digest"></a>Resumo semanal de email do guardião
 
 
-Emails de tutor são enviados a cada fim de semana para pais ou responsáveis. O email contém informações sobre atribuições da semana anterior e da próxima semana. A sincronização pai e guardião pode ser configurada usando [a Sincronização de Dados escolares](/schooldatasync/parent-contact-sync).
+Emails de tutor são enviados a cada fim de semana para pais ou responsáveis. O email contém informações sobre atribuições da semana anterior e da próxima semana. A Sincronização pai e guardião pode ser configurada usando [School Data Sync](/schooldatasync/parent-contact-sync).
 
 1. Importar informações de contato pai por meio da Sincronização pai e guardião no SDS. Para obter instruções sobre como habilitar a sincronização pai e guardião, consulte [Enableing Parent and Guardian Sync](/schooldatasync/parent-contact-sync#enabling-parent-and-guardian-sync).
 
-2. A opção Ativar a Configuração do Guardião no centro de administração do Microsoft Teams, já que a configuração está desabilitada por padrão. Isso permitirá que os professores enviem um resumo semanal.
+2. A opção Ativar a Configuração do Guardião no Microsoft Teams de administração, já que a configuração está desabilitada por padrão. Isso permitirá que os professores enviem um resumo semanal.
 
    > [!NOTE]
-   > Os professores podem optar por não participar do resumo desmarcando a configuração dentro de sua própria equipe de classe pessoal ( Configurações de atribuição >**Emails pai/tutor**).
+   > Os professores podem optar por não participar do resumo, desmarcando a configuração dentro de sua própria equipe de classe pessoal (**Assignment Configurações > Parent/Guardian Emails**).
 
 Para verificar se os Pais receberão o email, os três itens a seguir devem ser verdadeiros:
 
@@ -73,7 +73,7 @@ MakeCode é um produto da Microsoft que está sujeito aos termos de uso [e](http
 
 A configuração padrão para esse recurso é - **Off**.
 
-Para habilitar as atribuições makeCode no Teams,  vá para o Centro de Administração do **Teams,** navegue até a seção Atribuições e ative a opção de alternância MakeCode como **Ativado.** Clique em **Salvar**. Permita algumas horas para que essas configurações entre em vigor.
+Para habilitar as Teams MakeCode no Teams, vá para o Centro  de Administração Teams, navegue até **a** seção Atribuições e ative a opção de alternância MakeCode **como** Ativado. Clique em **Salvar**. Permita algumas horas para que essas configurações entre em vigor.
 
 Para obter mais informações sobre como esse recurso funciona, consulte esta [demonstração de vídeo](https://makecode.com/blog/teams/teams-assignments).
 
@@ -102,7 +102,7 @@ Selecione **Integrações** no menu lateral e selecione **Adicionar Integração
 
 ![Captura de tela mostrando a adição de uma nova integração](./educationImages/Assignments_mopo_turnitin2.png)
 
-O **TurnitinApiKey** será dado a você depois de seguir os prompts. Copie a chave da API e a colar no centro de administração do Microsoft Teams.  Esta é a única hora em que você pode exibir a chave.
+O **TurnitinApiKey** será dado a você depois de seguir os prompts. Copie a chave da API e a colar no centro de Microsoft Teams de administração.  Esta é a única hora em que você pode exibir a chave.
 
 ![Captura de tela mostrando a cópia da chave da API](./educationImages/Assignments_mopo_turnitin3.png)
 

@@ -27,17 +27,17 @@ ms.locfileid: "51102977"
 ---
 # <a name="assign-or-change-an-emergency-location-for-a-user"></a>Atribuir ou alterar um local de emergência para um usuário
 
-Ao configurar Planos de Chamadas, você precisa atribuir um local de emergência a cada número de telefone ou usuário. Em países europeus, o local de emergência é associado ao número de telefone quando você o consegue do Microsoft 365 ou do Office 365 ou quando você transfere um número de telefone para o Microsoft 365 ou o Office 365. Nos Estados Unidos, o local de emergência é associado ao número de telefone quando é atribuído ao usuário. O endereço de emergência pode ser alterado se o usuário atribuído a ele se mover para um novo local. Para obter mais informações sobre endereços e locais de emergência, consulte [O que são locais de emergência, locais e roteamento de chamadas?](./what-are-emergency-locations-addresses-and-call-routing.md).
+Ao configurar Planos de Chamadas, você precisa atribuir um local de emergência a cada número de telefone ou usuário. Em países europeus, o local de emergência é associado ao número de telefone quando você o consegue do Microsoft 365 ou Office 365 ou quando você transfere um número de telefone para Microsoft 365 ou Office 365. Nos Estados Unidos, o local de emergência é associado ao número de telefone quando é atribuído ao usuário. O endereço de emergência pode ser alterado se o usuário atribuído a ele se mover para um novo local. Para obter mais informações sobre endereços e locais de emergência, consulte [O que são locais de emergência, locais e roteamento de chamadas?](./what-are-emergency-locations-addresses-and-call-routing.md).
   
-Para saber como obter um Plano de Chamada e quanto eles custam, consulte [Licenciamento de complemento do Teams.](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
+Para saber como obter um Plano de Chamada e quanto eles custam, [consulte Teams licenciamento de complemento.](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
   
-Você pode atribuir ou alterar um local de emergência para um usuário no centro de administração do Microsoft Teams ou usando o PowerShell.
+Você pode atribuir ou alterar um local de emergência para um usuário no centro de administração Microsoft Teams ou usando o PowerShell.
 
 ## <a name="using-the-microsoft-teams-admin-center"></a>Usando o centro de administração do Microsoft Teams
 
-1. Na navegação à esquerda do Centro de administração do Microsoft Teams, clique em **Números de Telefone** de  >  **Voz**.
+1. Na navegação à esquerda do centro de administração Microsoft Teams, clique **em Voz Telefone**  >  **números**.
 
-2. Na página **Números de** telefone, clique na guia **Números,** selecione um número de usuário na lista e clique em **Editar**.
+2. Na página **Telefone números,** clique na guia **Números,** selecione um número de usuário na lista e clique em **Editar**.
 
 3. No painel **Editar,** em **Local de emergência,** faça um dos seguintes procedimentos:
 

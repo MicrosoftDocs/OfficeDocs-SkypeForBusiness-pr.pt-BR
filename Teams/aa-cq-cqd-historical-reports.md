@@ -21,7 +21,7 @@ ms.custom:
 - Reporting
 - ms.teamsadmincenter.directrouting.cqd
 - ms.lync.lac.ToolsCallQualityDashboard
-description: Saiba mais sobre como usar o relatório do Power BI do Painel de Qualidade de Chamada para exibir Atendedor Automático dados históricos da Fila de Chamada.
+description: Saiba mais sobre como usar o relatório do Painel de Qualidade de Chamada Power BI para exibir Atendedor Automático dados históricos da Fila de Chamada.
 ms.openlocfilehash: d3c8bd7181bab9ee7c199aedbac8a6fcc4c78d75
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
@@ -31,7 +31,7 @@ ms.locfileid: "51121539"
 ---
 # <a name="auto-attendant--call-queue-historical-report"></a>Atendedor Automático & Histórico da Fila de Chamada
 
-O Modelo de Power BI do Relatório Histórico da Fila de Chamada do CQD Teams Atendedor Automático & fornece os três relatórios a seguir:
+O Modelo de Relatório Histórico Teams Atendedor Automático & de Fila de Chamada Power BI do CQD fornece os três relatórios a seguir:
 
 - Atendedor Automático – mostrando a análise das chamadas que vêm para seus Assistentes Automáticos.
 - Fila de Chamadas – mostrando a análise das chamadas que vêm em suas Filas de Chamadas.
@@ -41,9 +41,9 @@ Esses relatórios usam [](CQD-Power-BI-query-templates.md) dados do armazenament
 
 ## <a name="what-are-the-requirements"></a>Quais são os requisitos? 
 
-Você precisa ter a Área de Trabalho do Power BI instalada. Você pode instalá-lo na [Microsoft Windows Store](https://aka.ms/pbidesktopstore).
+Você precisa ter Power BI Desktop instalado. Você pode instalá-lo no [Microsoft Windows Store](https://aka.ms/pbidesktopstore).
 
-Você pode usar a versão gratuita da Área de Trabalho do Power BI. A versão mínima compatível é 2.85.681.0 (setembro de 2020).
+Você pode usar a versão gratuita do Power BI Desktop. A versão mínima compatível é 2.85.681.0 (setembro de 2020).
 
 ## <a name="permissions-to-access-the-cqd-pipeline"></a>Permissões para acessar o pipeline do CQD
 
@@ -51,28 +51,28 @@ A conta que você usa para exibir o relatório histórico do AA & CQ Analytics p
 
 ## <a name="installation"></a>Instalação 
 
-As etapas a seguir pressuem que você já instalou a Área de Trabalho do Power BI no computador e que sua conta tem as permissões necessárias para acessar o pipeline de dados CQD.
+As etapas a seguir pressuem que você já instalou Power BI Desktop no computador e que sua conta tem as permissões necessárias para acessar o pipeline de dados CQD.
 
 Execute estas etapas:
 
-- Baixe os [Modelos de Consulta do CQD Power BI](https://www.microsoft.com/download/details.aspx?id=102291) e salve o arquivo zip em um diretório em seu computador.
+- Baixe o [CQD Power BI Modelos](https://www.microsoft.com/download/details.aspx?id=102291) de Consulta e salve o arquivo zip em um diretório em seu computador.
 
 - Clique duas vezes no arquivo zip para abri-lo.
 
-- Clique duas vezes no arquivo de modelo "CQ e AA combinado Analytics 20201105.pbit" e a Área de Trabalho do Power BI deve ser lançada.
+- Clique duas vezes no arquivo de modelo "CQ e AA combinado analytics 20201105.pbit" e Power BI Desktop deve iniciar.
 
 - Você será solicitado a selecionar a região do pipeline de dados CQD. Selecione a região onde seu locatário está localizado.
 
   :::image type="content" source="media/cqd-teams-aa-cq-historical-report-01.png" alt-text="Captura de tela selecionando a região do pipeline de dados CQD":::
 
- - Você pode ver a região usando o cmdlet do PowerShell do Skype for Business Online (Get-CsTenant). Saída serviceInstance. 
+ - Você pode ver a região usando o cmdlet Skype for Business PowerShell Online (Get-CsTenant). Saída serviceInstance. 
  A região será exibida após o /like neste exemplo:
 
    microsoftcommunicationsonline/noam-4a-s7 onde a região é noam.
  
  - O relatório será lançado com dados de exemplo.
  
- - Para ver seus próprios dados, clique em **Atualizar** na guia Página Central em Consultas na Área de Trabalho do Power BI.
+ - Para ver seus próprios dados, clique em **Atualizar** na guia Home em Consultas Power BI Desktop.
 
    :::image type="content" source="media/cqd-teams-aa-cq-historical-report-02.png" alt-text="Captura de tela selecionando a opção de atualização":::
 
@@ -80,7 +80,7 @@ Execute estas etapas:
 
   :::image type="content" source="media/cqd-teams-aa-cq-historical-report-03.png" alt-text="Captura de tela mostrando logon":::
 
-- Selecione **Conectar** e assista à atualização de dados.
+- Selecione **Conexão** e assista à atualização de dados.
 
 ## <a name="data-latency-and-aa--cq-analytics"></a>Latência de dados e análise do AA & CQ
 
@@ -116,7 +116,7 @@ Execute estas etapas:
 |Atendedor Automático De pesquisa de diretório  |string                   |Método de pesquisa do Livro de Endereços Últimos        |
 |Atendedor Automático Ação de Transferência          |string                   |Tipo de destino de transferência de chamada<br>valores possíveis:<br>§ desconhecido - tipo de entidade não foi especificado<br>§ user - entidade do usuário<br>§ orgaa - Entidade Atendedor Automático organizacional<br>§ hunt_group - Entidade fila de chamada<br>§ application - entidade de aplicativo de voz<br>§ external_pstn - entidade PSTN externa<br>§ shared_voicemail - entidade de caixa postal compartilhada|
 |Atendedor Automático Resultado da Chamada              |string                   |Resultado da chamada:<br>§ desconhecido<br>§ transferred_to_user<br>§ transferred_to_operator<br>§ failover_to_operator<br>§ user_terminated<br>§ service_declined<br>§ service_terminated<br>§ failed_to_establish_media<br>§ terminated_no_operator<br>§ terminated_transfer_failed<br>§ terminated_automatic_selection<br>§ transferred_to_shared_voicemail<br>§ oaa_chain_too_long<br>§ oaa_session_too_long|
-|Atendedor Automático fluxo de chamada                |string                   |Encapsula os diferentes estados de Atendedor Automático Call<br>§ abs_search<br>§ call_termination<br>§ call_transfer<br>§ main_menu<br>§ user_selection<br>§ speech_input_confirmation<br>§ first_level_menu<br>§ automatic_menu<br>§ comunicado|
+|Atendedor Automático chamada Flow                |string                   |Encapsula os diferentes estados de Atendedor Automático Call<br>§ abs_search<br>§ call_termination<br>§ call_transfer<br>§ main_menu<br>§ user_selection<br>§ speech_input_confirmation<br>§ first_level_menu<br>§ automatic_menu<br>§ comunicado|
 |Está Atendedor Automático envolvido              |Boolean                  |Indicado se a AA está envolvida na chamada |
 |Atendedor Automático contagem de ações do chamador      |int                      |Contagem da ação usada pelo chamador         |
 |Atendedor Automático de duração da cadeia   |int                      |Duração da chamada no AA                 |
@@ -131,7 +131,7 @@ Execute estas etapas:
 |É a fila de chamada envolvida                  |Boolean                  |Se a fila de chamada estiver envolvida nessa chamada igual a 1 |
 
 
-### <a name="power-bi-data-model-dimensions"></a>Dimensões do modelo de dados do Power BI
+### <a name="power-bi-data-model-dimensions"></a>Power BI do modelo de dados
 
 |Nome                                    |Tipo de dados                |Descrição                            |
 |:---------------------------------------|:------------------------|:--------------------------------------|
@@ -162,7 +162,7 @@ Execute estas etapas:
 |Duração média da chamada( Segundos)         |int                      |Duração total das chamadas de fila de chamadas em segundos     |
 
 
-### <a name="power-bi-graph-description-auto-attendant"></a>Descrição do gráfico do Power BI Atendedor Automático
+### <a name="power-bi-graph-description-auto-attendant"></a>Power BI descrição do gráfico Atendedor Automático
 
 |Nome                                      |Descrição                            |
 |:---------------------------------------|:--------------------------------------|

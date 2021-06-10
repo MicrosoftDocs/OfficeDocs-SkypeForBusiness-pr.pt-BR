@@ -34,11 +34,11 @@ ms.locfileid: "51100957"
 ---
 # <a name="what-are-cloud-auto-attendants"></a>O que são os atendimentos automáticos na nuvem?
 
-O Sistema de Telefonia fornece atendimentos automáticos, que podem ser usados para permitir que chamadores externos e internos se movam por um sistema de menus para localizar e fazer ou transferir chamadas para usuários ou departamentos em sua organização.
+Sistema de Telefonia fornece atendimentos automáticos, que podem ser usados para permitir que chamadores externos e internos se movam por um sistema de menus para localizar e fazer ou transferir chamadas para usuários ou departamentos em sua organização.
   
 Na maioria das vezes, um atendente automático é um nó em um sistema, dando a um chamador uma série de prompts de voz ou arquivos de áudio que ouvem em vez de um operador humano. Quando as pessoas ligam para um número associado a um atendente automático, suas opções podem redirecionar a chamada para um usuário ou localizar alguém em sua organização e depois se conectar a esse usuário. Eles podem expressar suas escolhas e interagir com o sistema de menus usando um teclado de telefone (DTMF) ou reconhecimento de fala. As escolhas que eles fazem também podem redirecionar a chamada para outro atendimento automático ou para uma fila de chamada.
   
-Para configurar um atendimento automático para o Sistema de Telefonia, vá para [Configurar um atendimento automático na nuvem.](create-a-phone-system-auto-attendant.md)
+Para configurar um assistente automático para Sistema de Telefonia, vá para [Configurar um atendimento automático na nuvem.](create-a-phone-system-auto-attendant.md)
   
 Um assistente automático na nuvem tem os seguintes recursos:
   
@@ -52,20 +52,20 @@ Um assistente automático na nuvem tem os seguintes recursos:
 - Ele dá suporte à caixa postal compartilhada para que os chamadores deixem uma mensagem para uma organização.
 
 > [!NOTE]
-> Este artigo se aplica ao Microsoft Teams e ao Skype for Business Online.
+> Este artigo se aplica ao Microsoft Teams e Skype for Business Online.
 
 ## <a name="getting-started"></a>Introdução
 
 Para começar a usar os atendedores automáticos, é importante lembrar-se de que:
 
-- Um atendente automático é necessário para ter uma conta de recurso associada. Consulte [Gerenciar contas de recursos no Teams para](manage-resource-accounts.md) obter detalhes sobre contas de recursos. <!-- You can either use an existing resource account or create a new resource account as you set up your auto attendant. -->
-- Ao atribuir um número de telefone a um atendente automático, estritamente falando, você está atribuindo-o à conta de recurso associada a esse atendimento automático. Isso fornece uma maneira de ter mais de um número de telefone acessando um atendimento automático. Na maioria das vezes, uma conta de recurso usará a licença de Usuário Virtual do Sistema de Telefonia gratuita. Esta licença fornece recursos do Sistema de Telefonia para números de telefone no nível organizacional e permite que você crie atendimentos automáticos e filas de chamadas.
+- Um atendente automático é necessário para ter uma conta de recurso associada. Consulte [Gerenciar contas de recursos em Teams](manage-resource-accounts.md) para obter detalhes sobre contas de recursos. <!-- You can either use an existing resource account or create a new resource account as you set up your auto attendant. -->
+- Ao atribuir um número de telefone a um atendente automático, estritamente falando, você está atribuindo-o à conta de recurso associada a esse atendimento automático. Isso fornece uma maneira de ter mais de um número de telefone acessando um atendimento automático. Na maioria das vezes, uma conta de recurso usará a licença de usuário virtual Sistema de Telefonia gratuita. Essa licença fornece Sistema de Telefonia recursos para números de telefone no nível organizacional e permite que você crie atendimentos automáticos e filas de chamadas.
 
 > [!NOTE]
-> Os números de serviço de Roteamento Direto para o atendimento automático e filas de chamadas são suportados apenas para usuários do Microsoft Teams e agentes de chamada.
+> Os números de serviço de Roteamento Direto para o atendimento automático e filas de chamadas são suportados somente Microsoft Teams usuários e agentes de chamada.
 
    > [!TIP]
-   > Para redirecionar chamadas para um operador ou uma  opção de menu que seja um usuário online com uma licença do Sistema de Telefonia, você precisará habilitar sua conta para Enterprise Voice ou atribuir Planos de Chamadas a eles. Consulte [Atribuir licenças de complemento do Microsoft Teams.](teams-add-on-licensing/assign-teams-add-on-licenses.md) Você também pode usar o Windows PowerShell. Por exemplo, execute:  `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
+   > Para redirecionar chamadas para um operador ou uma  opção de menu que seja um usuário online com uma licença de Sistema de Telefonia, você precisará habilitar sua conta para Enterprise Voice ou atribuir Planos de Chamadas a eles. Consulte [Atribuir Microsoft Teams licenças de complemento.](teams-add-on-licensing/assign-teams-add-on-licenses.md) Você também pode usar o Windows PowerShell. Por exemplo, execute:  `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
   
 - Para obter e usar números de serviço gratuitos para seus atendimentos automáticos, você precisa configurar Créditos de Comunicação. Para fazer isso, consulte [O que são Créditos de Comunicação?](what-are-communications-credits.md) e [Configurar Créditos de Comunicação para sua organização](set-up-communications-credits-for-your-organization.md).
 
@@ -80,9 +80,9 @@ Para começar a usar os atendedores automáticos, é importante lembrar-se de qu
 
 ### <a name="searching-for-users"></a>Pesquisar usuários
 
-Dial by Name é um recurso de um atendimento automático que também é conhecido como pesquisa de diretório. Ele permite que as pessoas que chamam seu atendimento automático usem voz (reconhecimento de fala) ou suas respostas de teclado de telefone (DTMF) para inserir um nome completo ou parcial no diretório da empresa de pesquisa, localizar a pessoa e, em seguida, ter a chamada transferida para ela. Os usuários que você deseja ter localizado e alcançado usando Discagem por Nome não são necessários para ter um número de telefone ou ter Planos de Chamadas atribuídos a eles, mas eles devem ter uma licença do Sistema de Telefonia se eles são usuários online ou Enterprise Voice habilitados para usuários do **Skype for Business Server.** A discagem por Nome poderá até mesmo encontrar e transferir chamadas para usuários do Microsoft Teams hospedados em diferentes países ou regiões para organizações multi-nacionais. Considerando os pré-requisitos envolvidos, você habilita explicitamente Dial by Name em um atendimento automático.
+Dial by Name é um recurso de um atendimento automático que também é conhecido como pesquisa de diretório. Ele permite que as pessoas que chamam seu atendimento automático usem voz (reconhecimento de fala) ou suas respostas de teclado de telefone (DTMF) para inserir um nome completo ou parcial no diretório da empresa de pesquisa, localizar a pessoa e, em seguida, ter a chamada transferida para ela. Os usuários que você deseja ter localizado e alcançado usando Discagem por Nome não são necessários para ter um número de telefone ou ter Planos de Chamadas atribuídos a eles, mas eles devem ter uma licença Sistema de Telefonia se eles são usuários online ou Enterprise Voice **habilitados para** usuários Skype for Business Server . A discagem por Nome poderá até mesmo encontrar e transferir chamadas para Microsoft Teams usuários hospedados em diferentes países ou regiões para organizações multi-nacionais. Considerando os pré-requisitos envolvidos, você habilita explicitamente Dial by Name em um atendimento automático.
 
-Discar por extensão é um recurso de um atendimento automático que também faz parte da pesquisa de diretório. Ele permite que as pessoas que chamam o seu atendimento automático usem voz (reconhecimento de fala) ou suas respostas de teclado de telefone (DTMF) para inserir a extensão de telefone do usuário que estão tentando alcançar e, em seguida, fazer com que a chamada seja transferida para eles. Os usuários que você deseja ter localizado e alcançado usando o Dial por extensão não são necessários para ter um número de telefone ou ter Planos de Chamadas atribuídos a eles, mas eles devem ter uma licença do Sistema de Telefonia se eles são usuários online ou Enterprise Voice habilitados para usuários do **Skype for Business Server.** Você também precisará ter um plano de discagem configurado adequadamente para seus usuários. A discagem por extensão poderá até mesmo encontrar e transferir chamadas para usuários do Microsoft Teams hospedados em diferentes países ou regiões para organizações multi-nacionais. Considerando os pré-requisitos envolvidos, você habilita explicitamente Dial por extensão em um atendimento automático.
+Discar por extensão é um recurso de um atendimento automático que também faz parte da pesquisa de diretório. Ele permite que as pessoas que chamam o seu atendimento automático usem voz (reconhecimento de fala) ou suas respostas de teclado de telefone (DTMF) para inserir a extensão de telefone do usuário que estão tentando alcançar e, em seguida, fazer com que a chamada seja transferida para eles. Os usuários que você deseja ter localizado e alcançado usando o Dial por extensão não são necessários para ter um número de telefone ou ter Planos de Chamadas atribuídos **a eles,** mas eles devem ter uma licença de Sistema de Telefonia se eles são usuários online ou Enterprise Voice habilitados para usuários Skype for Business Server . Você também precisará ter um plano de discagem configurado adequadamente para seus usuários. A discagem por extensão poderá até mesmo encontrar e transferir chamadas para Microsoft Teams usuários hospedados em diferentes países ou regiões para organizações multi-nacionais. Considerando os pré-requisitos envolvidos, você habilita explicitamente Dial por extensão em um atendimento automático.
 
 #### <a name="maximum-directory-size"></a>Tamanho máximo do diretório
 
@@ -126,7 +126,7 @@ Há vários caracteres especiais que são usados durante a pesquisa de pessoas p
 
 As pessoas podem procurar outras pessoas em sua organização com sua voz (reconhecimento de fala). Eles também podem entrar em contato com qualquer pessoa no Active Directory dizendo o nome da pessoa que estão tentando localizar. O uso de entradas de voz pode reconhecer nomes em vários formatos, incluindo FirstName, LastName, FirstName + LastName ou LastName + FirstName.
   
-Você pode habilitar o reconhecimento de fala para um atendimento automático, mas a entrada do teclado de telefone (DTMF) não está desabilitada. A entrada do teclado de telefone pode ser usada a qualquer momento, mesmo que o reconhecimento de fala seja habilitado no atendimento automático.
+Você pode habilitar o reconhecimento de fala para um atendimento automático, mas a entrada do teclado de telefone (DTMF) não está desabilitada. Telefone entrada do teclado pode ser usada a qualquer momento, mesmo que o reconhecimento de fala seja habilitado no atendimento automático.
   
 Assim como com a entrada do teclado de telefone, se vários nomes são encontrados, a pessoa que está chamando ouvir uma lista de nomes para selecionar.
   
@@ -198,7 +198,7 @@ A tecla 0 e o comando de voz "Operator" direcionam a chamada para o operador des
   
 O operador pode ser definido como:
   
-- Um usuário do Microsoft Teams ou um usuário do Skype for Business Server Enterprise Voice habilitado.
+- Um Microsoft Teams usuário ou um Skype for Business Server que está Enterprise Voice habilitado.
 - Outro atendedor automático que é configurado para sua organização.
 - Qualquer fila de chamada existente que é configurada em sua organização. Para ver mais sobre filas de chamada, consulte [Create a Cloud call queue](/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue).
 
@@ -210,7 +210,7 @@ Cada atendimento automático tem várias opções possíveis de tratamento de ch
   
 - A chamada pode ser desconectada depois que uma saudação é reproduzida.
 - Também é possível:
-  - Redirecione a chamada para um  usuário do Microsoft Teams que tenha uma licença do Sistema de Telefonia Enterprise Voice habilitada ou tenha Planos de Chamadas atribuídos a eles. Você pode configurá-lo para que o chamador possa ser enviado para a caixa postal. Para isso, selecione uma **Pessoa em sua empresa** e defina as chamadas dessa pessoa para serem encaminhadas diretamente para a caixa postal.
+  - Redirecione a chamada para um usuário  Microsoft Teams que tenha uma licença Sistema de Telefonia que está Enterprise Voice habilitada ou tenha Planos de Chamada atribuídos a eles. Você pode configurá-lo para que o chamador possa ser enviado para a caixa postal. Para isso, selecione uma **Pessoa em sua empresa** e defina as chamadas dessa pessoa para serem encaminhadas diretamente para a caixa postal.
 
   - Redirecionar a chamada para uma fila de chamada. Para ver mais sobre filas de chamada, consulte [Create a Cloud call queue](/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue).
 
@@ -222,12 +222,12 @@ Essas opções são expressas ao chamador pelo atendimento automático quando el
 
 Os atendentes automáticos de nuvem permitem que você crie prompts de menu ("Pressione 1 para Vendas, Pressione 2 para Serviços") e configurar opções de menu para rotear chamadas com base em seleções de usuário. As opções de menu para um atendimento automático permitem que uma organização forneça uma série de opções que orientam os chamadores para seu destino mais rapidamente, sem depender de um operador humano para lidar com chamadas de entrada. Os prompts de menu podem ser criados usando texto para fala (prompts gerados pelo sistema) ou carregando um arquivo de áudio gravado. O reconhecimento de fala aceita comandos de voz para navegação sem mãos, mas as pessoas que estão ligando também podem usar o teclado do telefone para navegar nos menus.
   
-As teclas de 0 a 9 podem ser atribuídas para discar chaves em um atendimento automático usando o Centro de administração do Skype for Business. Diferentes conjuntos de opções de menu podem ser criadas para os horários comerciais e horários fora do expediente, e você pode habilitar ou desabilitar o Discar por Nome nas **Opções de Menu**. As teclas podem ser mapeadas para transferir as chamadas para:
+As teclas de 0 a 9 podem ser atribuídas para discar chaves em um atendimento automático usando o Skype for Business de administração. Diferentes conjuntos de opções de menu podem ser criadas para os horários comerciais e horários fora do expediente, e você pode habilitar ou desabilitar o Discar por Nome nas **Opções de Menu**. As teclas podem ser mapeadas para transferir as chamadas para:
   
 - Um operador, que é mapeado para a tecla 0 por padrão. No entanto, ele pode ser reatribuido para qualquer outra chave ou removido do menu.
 - Uma fila de chamada.
 - Outro atendedor automático. Os menus de vários níveis podem ser definidos apontando uma Opção de **Menu** em um atendimento automático para outro, com seu próprio conjunto de Opções de Menu, que é chamado de atendimento automático "aninhado".
-- Um usuário do Microsoft Teams que tem uma licença **do** Sistema de Telefonia Enterprise Voice habilitada ou tem Planos de Chamadas atribuídos a eles. Você pode configurá-lo para que o chamador possa ser enviado para a caixa postal. Para isso, selecione uma **Pessoa em sua empresa** e defina as chamadas dessa pessoa para serem encaminhadas diretamente para a caixa postal.
+- Um Microsoft Teams usuário que tem  uma Sistema de Telefonia de Enterprise Voice habilitada ou tem Planos de Chamada atribuídos a eles. Você pode configurá-lo para que o chamador possa ser enviado para a caixa postal. Para isso, selecione uma **Pessoa em sua empresa** e defina as chamadas dessa pessoa para serem encaminhadas diretamente para a caixa postal.
   
 O nome de cada opção de menu se tornará uma palavra-chave de reconhecimento de fala se o reconhecimento de fala tiver sido habilitado. Por exemplo, os chamadores podem dizer "Um" para selecionar a opção de menu mapeada para a tecla 1 ou podem dizer "Vendas" para selecionar a mesma opção de menu chamada "Vendas".
   
@@ -237,10 +237,10 @@ Para configurar um atendimento automático e as opções de menu, vá [Configura
 
 Você pode atribuir um número de serviço da Microsoft, um número de roteamento direto ou um número híbrido à conta de recurso vinculada do seu assistente automático (ou a várias contas de recurso se mais de um número de telefone for desejado). Consulte [Plan Direct Routing](direct-routing-plan.md) para obter detalhes adicionais.
 
-Para atribuir um número de serviço, você precisará obter ou portuar seus números de serviço de tarifação ou de tarifa gratuita existentes. Depois que você receber os números de telefone de serviço gratuito ou de chamada gratuita, eles aparecerão no Centro de administração do **Skype for Business** números de telefone de  >    >  **voz.** **Tipo de** número listado como **Serviço - Gratuito**. Para obter seus números de serviço, consulte Obter números de telefone de serviço para [o Skype for Business](./getting-service-phone-numbers.md) e o Microsoft Teams ou, se você quiser transferir e o número de serviço existente, consulte Transfer phone numbers to [Teams](phone-number-calling-plans/transfer-phone-numbers-to-teams.md).
+Para atribuir um número de serviço, você precisará obter ou portuar seus números de serviço de tarifação ou de tarifa gratuita existentes. Depois que você receber os números de telefone de serviço gratuito ou de chamada gratuita, eles aparecerão no centro de administração  >  **Skype for Business voz Telefone**  >  **números**. **Tipo de** número listado como **Serviço - Gratuito**. Para obter seus números de serviço, consulte Obter números de telefone de serviço para Skype for Business e [Microsoft Teams](./getting-service-phone-numbers.md) ou, se quiser transferir e o número de serviço existente, consulte [Transfer phone numbers to Teams](phone-number-calling-plans/transfer-phone-numbers-to-teams.md).
   
 > [!NOTE]
-> Se você estiver fora dos Estados Unidos, não poderá usar o Centro de administração do Microsoft Teams para obter números de serviço. Vá [Gerenciar números de telefone para sua organização,](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) em vez disso, para ver como fazer isso.
+> Se você estiver fora dos Estados Unidos, não poderá usar o centro de administração Microsoft Teams para obter números de serviço. Vá [Gerenciar números de telefone para sua organização,](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) em vez disso, para ver como fazer isso.
   
 ## <a name="related-topics"></a>Tópicos relacionados
 

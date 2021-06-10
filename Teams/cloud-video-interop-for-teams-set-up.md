@@ -80,7 +80,7 @@ Você precisará executar os cmdlets a seguir para provisionar a chave de locat�
 
 Você precisará fornecer consentimento de permissão para que os dispositivos de teleconferência de vídeo (VTCs) participem de suas reuniões de organizações por meio do serviço de parceiro. Esse link de consentimento também será fornecido pelo seu parceiro.  
  
-Quando essas etapas são concluídas, os usuários que estão individualmente habilitados por meio do cmdlet Grant acima ou todos os usuários na organização, se o locatário estiver habilitado, terão coordenadas VTC em todas as reuniões do Teams agendadas. Qualquer VTC pode participar dessas reuniões por meio dessas coordenadas.
+Quando essas etapas são concluídas, os usuários que estão individualmente habilitados por meio do cmdlet Grant acima ou todos os usuários na organização, se o locatário estiver habilitado, terão coordenadas VTC em todas as reuniões de Teams agendadas. Qualquer VTC pode participar dessas reuniões por meio dessas coordenadas.
 
 
 |Nome|Descrição curta da permissão do aplicativo| Descrição|
@@ -92,21 +92,21 @@ Quando essas etapas são concluídas, os usuários que estão individualmente ha
 
 ## <a name="schedule"></a>Agendar
 
-Em seguida, agende a reunião do Teams com coordenadas de interop de vídeo. O usuário habilitado pode agendar reuniões de equipes por meio de:
-- [Add-in de Reunião do Teams para Outlook](teams-add-in-for-outlook.md)
-- Desktop cliente do Teams e celular
+Em seguida, agende Teams reunião com coordenadas de interop de vídeo. O usuário habilitado pode agendar reuniões de equipes por meio de:
+- [Teams Complemento de reunião para Outlook](teams-add-in-for-outlook.md)
+- Teams desktop cliente e celular
 
 
 ## <a name="join"></a>Ingressar
 
-Você pode participar de reuniões do Teams com seus dispositivos VTC das seguintes maneiras:
+Você pode participar Teams reuniões com seus dispositivos VTC das seguintes maneiras:
  
 - IVR (Resposta interativa de voz)
     - Você pode discar para a IVR do parceiro usando o tenantkey@domain. 
-    - Depois de estar na IVR do parceiro, você será solicitado a inserir a VTC conferenceId, que o conectará à reunião do Teams.
+    - Depois de estar no IVR do parceiro, você será solicitado a inserir a VTC conferenceId, que o conectará à reunião Teams.
 - Discagem direta
-    - Você pode discar diretamente para a reunião do Teams sem interagir com a IVR do parceiro usando o recurso de discagem direta usando a cadeia de caracteres completa de tenantkey. VTC ConferenceId@domain.
+    - Você pode discar diretamente para a reunião Teams sem interagir com a IVR do parceiro usando o recurso de discagem direta usando a cadeia de caracteres completa de tenantkey. VTC ConferenceId@domain.
 - Discagem por toque único
-    - Se você tiver uma sala integrada do Teams, poderá usar os recursos de discagem de um toque oferecidos pelo parceiro (sem precisar digitar qualquer cadeia de caracteres de discagem).
+    - Se você tiver uma sala de Teams integrada, poderá usar os recursos de discagem de um toque oferecidos pelo parceiro (sem precisar digitar qualquer cadeia de caracteres de discagem).
 
-Por fim, envolva-se com os usuários do Teams em suas reuniões usando áudio, vídeo e compartilhamento de conteúdo.
+Por fim, envolva-se com Teams usuários em suas reuniões usando áudio, vídeo e compartilhamento de conteúdo.

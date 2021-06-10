@@ -21,7 +21,7 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.voice.dialplans.overview
 - Calling Plans
-description: 'Saiba que tipo de planos de chamada de discagem (planos de discagem de chamada PSTN) estão disponíveis com o Teams e como escolher um para sua organização.  '
+description: 'Saiba que tipo de planos de chamada de discagem (planos de discagem de chamada PSTN) estão disponíveis com Teams e como escolher um para sua organização.  '
 ms.openlocfilehash: 86ec311a7abec9b9268555884db3ff8de7ee256b
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
@@ -39,15 +39,15 @@ Consulte [Criar e gerenciar planos de discagem](create-and-manage-dial-plans.md)
 
 ## <a name="tenant-dial-plan-scope"></a>Escopo do plano de discagem do locatário
 
-O escopo de um plano de discagem determina o nível hierárquico em que o plano de discagem pode ser aplicado. Os clientes obterão o plano de discagem apropriado por meio das configurações de provisionamento que são fornecidas automaticamente quando os usuários fazem login no Teams. Como administrador, você pode gerenciar e atribuir níveis de escopo do plano de discagem usando o Centro de administração do Microsoft Teams ou o PowerShell Remoto.
+O escopo de um plano de discagem determina o nível hierárquico em que o plano de discagem pode ser aplicado. Os clientes obterão o plano de discagem apropriado por meio das configurações de provisionamento que são fornecidas automaticamente quando os usuários fazem logo Teams. Como administrador, você pode gerenciar e atribuir níveis de escopo do plano de discagem usando o centro de administração Microsoft Teams ou o PowerShell Remoto.
 
-No Teams, há dois tipos de planos de discagem: escopo de serviço e escopo de locatário (que é para sua organização). Um plano de discagem com escopo de serviço é definido para cada país ou região onde o Sistema de Telefonia está disponível. Cada usuário recebe automaticamente o plano de discagem do país de serviço que corresponde ao local de uso atribuído ao usuário. Você não pode alterar o plano de discagem do país de serviço, mas pode criar planos de discagem com escopo de locatário, o que aumenta o plano de discagem do país de serviço. À medida que os clientes são provisionados, eles obtém um "plano de discagem efetivo", que é uma combinação do plano de discagem do país de serviço e do plano de discagem de locatário com escopo apropriado. Portanto, não é necessário definir todas as regras de normalização nos planos de discagem do locatário, visto que eles já podem existir no plano de discagem do país de serviço.
+Em Teams, há dois tipos de planos de discagem: escopo de serviço e escopo de locatário (que é para sua organização). Um plano de discagem com escopo de serviço é definido para cada país ou região onde Sistema de Telefonia está disponível. Cada usuário recebe automaticamente o plano de discagem do país de serviço que corresponde ao local de uso atribuído ao usuário. Você não pode alterar o plano de discagem do país de serviço, mas pode criar planos de discagem com escopo de locatário, o que aumenta o plano de discagem do país de serviço. À medida que os clientes são provisionados, eles obtém um "plano de discagem efetivo", que é uma combinação do plano de discagem do país de serviço e do plano de discagem de locatário com escopo apropriado. Portanto, não é necessário definir todas as regras de normalização nos planos de discagem do locatário, visto que eles já podem existir no plano de discagem do país de serviço.
 
 Os planos de discagem de locatários podem ser divididos em dois escopos : escopo de locatário ou escopo do usuário. Se um locatário definir e atribuir um plano de discagem com escopo de usuário, esse usuário será provisionado com um plano de discagem efetivo do plano de discagem do país de serviço do usuário e o plano de discagem do usuário atribuído. Se um locatário definir um plano de discagem com escopo de locatário, mas não atribuir um plano de discagem com escopo de usuário, esse usuário será provisionado com um plano de discagem efetivo do plano de discagem do país de serviço do usuário e o plano de discagem de locatário.
 
-A seguir está o modelo de herança de planos de discagem no Teams.
+A seguir está o modelo de herança de planos de discagem Teams.
 
-![Como os planos de discagem são herdados no Teams](media/b2744f33-ebbd-4c23-bfba-1747312ab178.png)
+![Como os planos de discagem são herdados Teams](media/b2744f33-ebbd-4c23-bfba-1747312ab178.png)
 
 A seguir são apresentados planos de discagem efetivos possíveis:
 
@@ -111,7 +111,7 @@ Como qualquer plano de discagem de locatário é efetivamente mesclado com o pla
 ### <a name="creating-normalization-rules"></a>Criação de regras de normalização
 <a name="createrule"> </a>
 
-As regras de normalização .NET Framework expressões regulares para especificar padrões de combinação numérica que o servidor usa para traduzir cadeias de caracteres de discagem para o formato E.164. As regras de normalização podem ser criadas especificando a expressão regular para a correspondência e a conversão a ser feita quando uma correspondência é encontrada. Ao concluir, você pode digitar um número de teste para verificar se a regra de normalização funciona como o esperado.
+As regras de normalização usam .NET Framework expressões regulares para especificar padrões de combinação numérica que o servidor usa para traduzir cadeias de caracteres de discagem para o formato E.164. As regras de normalização podem ser criadas especificando a expressão regular para a correspondência e a conversão a ser feita quando uma correspondência é encontrada. Ao concluir, você pode digitar um número de teste para verificar se a regra de normalização funciona como o esperado.
 
 Para obter detalhes sobre como usar .NET Framework expressões regulares, [consulte .NET Framework Expressões Regulares](/dotnet/standard/base-types/regular-expressions).
 

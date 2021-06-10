@@ -1,5 +1,5 @@
 ---
-title: Gerenciar sua topologia de rede para recursos de voz na nuvem no Microsoft Teams
+title: Gerenciar sua topologia de rede para recursos de voz na nuvem Microsoft Teams
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -18,7 +18,7 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
-description: Saiba como configurar configurações de rede para recursos de voz na nuvem no Microsoft Teams.
+description: Saiba como configurar as configurações de rede para recursos de voz na nuvem Microsoft Teams.
 ms.openlocfilehash: c77f1e6d31953ce529bff1fab6aa16e1d889e29f
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
@@ -26,13 +26,13 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 03/23/2021
 ms.locfileid: "51101057"
 ---
-# <a name="manage-your-network-topology-for-cloud-voice-features-in-microsoft-teams"></a>Gerenciar sua topologia de rede para recursos de voz na nuvem no Microsoft Teams
+# <a name="manage-your-network-topology-for-cloud-voice-features-in-microsoft-teams"></a>Gerenciar sua topologia de rede para recursos de voz na nuvem Microsoft Teams
 
-Se sua organização [](location-based-routing-plan.md) estiver implantando o Roteamento Baseado em Local para Roteamento Direto ou chamada de emergência [dinâmica,](configure-dynamic-emergency-calling.md)você deve definir as configurações de rede para uso com esses recursos de voz na nuvem no Microsoft Teams. As configurações de rede são usadas para determinar o local de um cliente do Teams e incluem regiões de rede, sites de rede, sub-redes e endereços IP confiáveis. Dependendo do recurso de voz na nuvem e da funcionalidade que você está implantando, configure algumas ou todas essas configurações. Para saber mais sobre esses termos, consulte [Configurações de rede para recursos de voz na nuvem.](cloud-voice-network-settings.md)
+Se sua organização [](location-based-routing-plan.md) estiver implantando o Roteamento Baseado em Localização para Roteamento Direto ou chamada de emergência [dinâmica,](configure-dynamic-emergency-calling.md)você deve configurar as configurações de rede para uso com esses recursos de voz na nuvem Microsoft Teams. As configurações de rede são usadas para determinar o local de um cliente Teams e incluem regiões de rede, sites de rede, sub-redes e endereços IP confiáveis. Dependendo do recurso de voz na nuvem e da funcionalidade que você está implantando, configure algumas ou todas essas configurações. Para saber mais sobre esses termos, consulte [Configurações de rede para recursos de voz na nuvem.](cloud-voice-network-settings.md)
 
-Você configura as configurações de rede na **página Topologia** de rede do Centro de administração do Microsoft Teams ou usando Windows PowerShell.
+Você configura as configurações de rede na **página Topologia** de rede do centro de administração Microsoft Teams ou usando Windows PowerShell.
 
-## <a name="configure-network-settings-in-the-microsoft-teams-admin-center"></a>Configurar configurações de rede no centro de administração do Microsoft Teams
+## <a name="configure-network-settings-in-the-microsoft-teams-admin-center"></a>Configurar configurações de rede no Microsoft Teams de administração
 
 [!INCLUDE [preview-feature](includes/preview-feature.md)]
 
@@ -40,7 +40,7 @@ Você define regiões de rede, sites de rede e sub-redes na guia **Sites** de re
 
 #### <a name="add-and-configure-a-network-site"></a>Adicionar e configurar um site de rede
 
-1. Na navegação à esquerda do Centro de administração do Microsoft Teams, vá até **Locais**  >  **Topologia de Rede** e clique na guia Sites **de** rede.
+1. Na navegação à esquerda do centro de administração Microsoft Teams, vá para **Localizações** Topologia de Rede e clique na  >  guia **Sites de** rede.
 2. Clique **em Adicionar** e insira um nome e uma descrição para o site.
 
     ![Captura de tela da página Adicionar site de rede](media/manage-network-topology-add-site.png)
@@ -49,25 +49,25 @@ Você define regiões de rede, sites de rede e sub-redes na guia **Sites** de re
 4. Para habilitar Location-Based roteamento para o site, ative **o roteamento baseado em Local.**
 5. Para atribuir políticas de serviços de emergência ao site, faça uma ou ambas as seguintes:
 
-    - Se sua organização usar Planos de Chamada ou roteamento Direto do Sistema de Telefonia implantado, em **Política** de Chamada de Emergência, selecione a política que você deseja.
-    - Se sua organização implantou o Roteamento Direto do Sistema de Telefonia, em **Política** de roteamento de chamadas de emergência, selecione a política que você deseja.
+    - Se sua organização usar Planos de Chamada ou Sistema de Telefonia roteamento direto, em Política de chamada de **emergência,** selecione a política que você deseja.
+    - Se a sua organização Sistema de Telefonia roteamento direto, em **Política** de roteamento de chamadas de emergência, selecione a política que você deseja.
 
 6. Para associar uma sub-rede ao site, em **Sub-redes,** clique **em Adicionar sub-redes**. Especifique a versão IP, o endereço IP, o intervalo de rede, adicione uma descrição e clique em **Aplicar**. Cada sub-rede deve ser associada a um site específico.
 7. Clique em **Salvar**.
 
 #### <a name="modify-a-network-site"></a>Modificar um site de rede
 
-1. Na navegação à esquerda do Centro de administração do Microsoft Teams, vá até **Locais**  >  **Topologia de Rede** e clique na guia Sites **de** rede.
+1. Na navegação à esquerda do centro de administração Microsoft Teams, vá para **Localizações** Topologia de Rede e clique na  >  guia **Sites de** rede.
 2. Selecione o site clicando à esquerda do nome do site e clique em **Editar**.
 3. Faça as alterações que você deseja e clique em **Salvar.**
 
 ### <a name="manage-external-trusted-ip-addresses"></a>Gerenciar endereços IP confiáveis externos
 
-Você gerencia endereços IP confiáveis externos na guia **IPs Confiáveis** na **página Topologia** de rede do centro de administração do Microsoft Teams. Você pode adicionar um número ilimitado de endereços IP confiáveis externos.
+Você gerencia endereços IP confiáveis externos na guia **IPs Confiáveis** na **página Topologia** de rede do Microsoft Teams de administração. Você pode adicionar um número ilimitado de endereços IP confiáveis externos.
 
 #### <a name="add-a-trusted-ip-address"></a>Adicionar um endereço IP confiável
 
-1. Na navegação à esquerda do centro de administração do Microsoft Teams, vá até **Locais** Topologia de Rede e clique na guia  >   **IPs Confiáveis.**
+1. Na navegação à esquerda do centro de administração Microsoft Teams, vá para **Localizações** Topologia de Rede e clique na guia  >   **IPs Confiáveis.**
 2. Clique em **Novo**.
 3. No painel **Adicionar endereço IP** confiável, especifique a versão IP, o endereço IP, o intervalo de rede, adicione uma descrição e clique em **Aplicar**.
 
@@ -75,13 +75,13 @@ Você gerencia endereços IP confiáveis externos na guia **IPs Confiáveis** na
 
 #### <a name="edit-a-trusted-ip-address"></a>Editar um endereço IP confiável
 
-1. Na navegação à esquerda do centro de administração do Microsoft Teams, vá até **Locais** Topologia de Rede e clique na guia  >   **IPs Confiáveis.**
+1. Na navegação à esquerda do centro de administração Microsoft Teams, vá para **Localizações** Topologia de Rede e clique na guia  >   **IPs Confiáveis.**
 2. Selecione o endereço IP clicando à esquerda dele e clique em **Editar**.
 3. No painel **Editar endereço IP** confiável, faça as alterações que você deseja e clique em **Aplicar**.
 
 ## <a name="configure-network-settings-using-powershell"></a>Configurar configurações de rede usando o PowerShell
 
-Para concluir as etapas nesta seção, você precisará de alguma familiaridade com cmdlets do PowerShell. Para saber mais, confira [Visão geral do Teams PowerShell](teams-powershell-overview.md).
+Para concluir as etapas nesta seção, você precisará de alguma familiaridade com cmdlets do PowerShell. Para saber mais, consulte [Teams Visão Geral do PowerShell.](teams-powershell-overview.md)
 
 ### <a name="define-network-regions"></a>Definir regiões de rede
 
@@ -184,4 +184,4 @@ Consulte também [Set-CsTenantTrustedIPAddress](/powershell/module/skype/set-cst
 
 ## <a name="related-topics"></a>Tópicos relacionados
 
-- [Configurações de rede para recursos de voz na nuvem no Teams](cloud-voice-network-settings.md)
+- [Configurações de rede para recursos de voz na nuvem Teams](cloud-voice-network-settings.md)

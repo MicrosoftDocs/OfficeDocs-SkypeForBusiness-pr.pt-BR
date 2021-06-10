@@ -31,7 +31,7 @@ ms.locfileid: "51617763"
 ---
 # <a name="audio-conferencing-subscription-dial-outcall-me-at-minutes-benefit"></a>Benefícios da assinatura de audioconferência "Dial-Out"/"Call Me At"
 
-## <a name="microsoft-teams-and-skype-for-business-pstn-audio-conferencing"></a>Audioconferência PSTN do Microsoft Teams e Skype for Business
+## <a name="microsoft-teams-and-skype-for-business-pstn-audio-conferencing"></a>Microsoft Teams e Skype for Business PSTN Audioconferência
 
 Cada assinatura de Audioconferência fornece 60 minutos por usuário por mês que podem ser usados para discar para números não premium em QUALQUER um dos países de Zona A, conforme descrito neste documento. O tamanho do pool de minutos de discagem do locatário baseia-se nas *licenças* adquiridas. Esse benefício é aplicável  às licenças de assinatura mensais de Audioconferência e não se estende a licenças de pagamento por minuto de Audioconferência.
 
@@ -76,11 +76,11 @@ Considere o exemplo a seguir. Um cliente comprou 115 licenças de assinatura de 
 
 ## <a name="how-can-i-monitor-minute-my-pool-usage"></a>Como posso monitorar minuto de uso do pool?
 
-- Você pode monitorar o uso em seu pool de minutos de discagem no centro de administração do Microsoft Teams. Na navegação à esquerda, vá para **Análise & relatórios** de uso e selecione Pools de minutos  >   **PSTN.** O pool de minutos de discagem Zona A será rotulado no relatório como "Chamadas de saída para países de zona A".
+- Você pode monitorar o uso no pool de minutos de discagem no Microsoft Teams de administração. Na navegação à esquerda, vá para **Análise & relatórios** de uso e selecione Pools de minutos  >   **PSTN.** O pool de minutos de discagem Zona A será rotulado no relatório como "Chamadas de saída para países de zona A".
 - As notificações por email serão enviadas aos seguintes administradores quando a utilização do pool de minutos de discagem da sua organização atingir 80% e 100%:
 
   - Administrador de Cobrança
-  - Administrador do Skype for Business
+  - Skype for Business Administrador
   - Administrador Global 
   - Administrador do Usuário
   - Administrador do Helpdesk
@@ -93,7 +93,7 @@ Considere o exemplo a seguir. Um cliente comprou 115 licenças de assinatura de 
   - Administrador de Autenticação Privilegiada
   - Administrador de Comunicações de Equipes
   - Engenheiro de Suporte de Comunicações de Equipes
-  - Especialista em Suporte de Comunicações do Teams
+  - Teams Especialista em Suporte de Comunicações
   - Administrador do Teams
 
 Para obter informações adicionais sobre Créditos de Comunicação, consulte [Communications Credits](what-are-communications-credits.md).

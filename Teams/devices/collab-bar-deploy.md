@@ -1,5 +1,5 @@
 ---
-title: Implantar salas do Microsoft Teams no Android
+title: Implantar Salas do Microsoft Teams no Android
 ms.author: mitressl
 author: flinchbot
 manager: serdars
@@ -14,7 +14,7 @@ ms.collection:
 - M365-collaboration
 ms.custom: ''
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
-description: Leia este artigo para saber mais sobre como implantar salas do Microsoft Teams no Android.
+description: Leia este artigo para saber mais sobre como implantar Salas do Microsoft Teams no Android.
 ms.openlocfilehash: 3da0192ee3676f5ff7294ba719c778ea7b1cc7b2
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
@@ -22,15 +22,15 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 03/23/2021
 ms.locfileid: "51120793"
 ---
-# <a name="deploy-microsoft-teams-rooms-on-android"></a>Implantar salas do Microsoft Teams no Android
+# <a name="deploy-microsoft-teams-rooms-on-android"></a>Implantar Salas do Microsoft Teams no Android
 
-A implantação das Salas do Microsoft Teams no Android pode ser dividida nas seguintes fases:
+A implantação Salas do Microsoft Teams no Android pode ser dividida nas seguintes fases:
 
 - **Preparação do site** Confirme se seus locais de implantação (salas) atendem aos requisitos de implantação.
-- **Preparação do serviço** Criar contas de recursos e atribuí-las aos dispositivos ([consulte Create a resource account using the Microsoft 365 admin center](resource-account-ui.md)). Embora seja recomendável usar uma licença de sala dedicada, uma conta de usuário final corretamente licenciada também pode entrar em Salas do Teams no Android.
-- **Configuração e implantação** Configurar salas do Teams e conectar os dispositivos periféricos necessários (consulte a documentação do fabricante para obter detalhes).
+- **Preparação do serviço** Criar contas de recurso e atribuí-las aos dispositivos ([consulte Create a resource account using the Microsoft 365 admin center](resource-account-ui.md)). Embora seja recomendável usar uma licença de sala dedicada, uma conta de usuário final corretamente licenciada também pode entrar Salas do Teams no Android.
+- **Configuração e implantação** Configurar Salas do Teams e conectar os dispositivos periféricos necessários (consulte a documentação do fabricante para obter detalhes).
 
-Para gerenciar salas do Teams, você precisa ser um administrador global, administrador do Serviço do Teams ou administrador do Dispositivo do Teams. Para obter mais informações sobre funções de administrador, [consulte Usar funções de administrador do Microsoft Teams para gerenciar o Teams](../using-admin-roles.md).
+Para gerenciar Salas do Teams, você precisa ser um administrador global, um administrador do serviço Teams ou um administrador Teams Device. Para obter mais informações sobre funções de administrador, consulte [Use Microsoft Teams de administrador para gerenciar Teams](../using-admin-roles.md).
 
 ## <a name="site-readiness"></a>Preparação do site
 
@@ -42,35 +42,35 @@ Nossas recomendações para sites de barra de colaboração são:
 - Contas de recurso dedicadas
 - Exibições habilitadas para toque
 - Cabeamento Ethernet
-- QoS (Qualidade de Serviço) habilitada na rede para mídia do Microsoft Teams
+- Qualidade do Serviço (QoS) habilitada na rede para Microsoft Teams mídia
 
 Para considerações sobre a instalação física, consulte a documentação do fabricante e, se você tiver uma, aproveite a experiência da sua equipe audiovisual antes de instalar e montar telas e executar o cabeamento.
 
 > [!TIP]
-> Certifique-se de fazer check-out [Prepare your network for Teams for bandwidth](../prepare-network.md) planning and assessing your network's suitability for real-time traffic.
+> Certifique-se de fazer check-out Prepare your [network for Teams](../prepare-network.md) for bandwidth planning and assessing your network's suitability for real-time traffic.
 >
-> Não recomendamos a colocação de servidores proxy entre dispositivos teams e a Internet. Para obter mais informações sobre servidores proxy e Teams, confira [Servidores proxy para Teams](../proxy-servers-for-skype-for-business-online.md).
+> Não recomendamos a colocação de servidores proxy entre Teams dispositivos e a Internet. Para obter mais informações sobre servidores proxy e Teams, confira [Servidores Proxy para](../proxy-servers-for-skype-for-business-online.md)Teams .
 
 |    |     |
 |-----------|------------|
-| ![Um ícone representando pontos de decisão](../media/audio_conferencing_image7.png) <br/>Pontos de decisão|<ul><li>Confirme se seus sites atendem aos requisitos de preparação do site para barras de colaboração do Microsoft Teams.</li><li>Confirme se você forneceu largura de banda suficiente para cada site.</li></ul>|
+| ![Um ícone representando pontos de decisão](../media/audio_conferencing_image7.png) <br/>Pontos de decisão|<ul><li>Confirme se seus sites atendem aos requisitos de preparação do site para barras de colaboração para Microsoft Teams.</li><li>Confirme se você forneceu largura de banda suficiente para cada site.</li></ul>|
 | ![Um ícone que representa as próximas etapas](../media/audio_conferencing_image9.png)<br/>Próximas etapas|<ul><li>Comece a planejar a implantação e a configuração da barra de colaboração.</li></ul>|
 
 ## <a name="service-readiness"></a>Prontidão de serviço
 
-Antes de implantar salas do Teams, você precisa decidir se elas usarão contas de recursos do Microsoft 365, contas de usuário final ou uma mistura de ambas. As contas de recurso do Microsoft 365 são caixas de correio e contas do Teams que são dedicadas a recursos específicos, como sala, projetor e assim por diante. Essas contas de recursos podem responder automaticamente a convites de reunião usando regras definidas quando elas são criadas. A menos que as Salas do Teams se dediquem a um indivíduo específico para uso particular, recomendamos configurar uma conta de recurso do Microsoft 365 para ela.
+Antes de implantar Salas do Teams, você precisa decidir se elas usarão contas de recursos Microsoft 365, contas de usuário final ou uma mistura de ambas. Microsoft 365 contas de recursos são caixas de correio e Teams que são dedicadas a recursos específicos, como sala, projetor e assim por diante. Essas contas de recursos podem responder automaticamente a convites de reunião usando regras definidas quando elas são criadas. A Salas do Teams for dedicada a um indivíduo específico para seu uso particular, recomendamos configurar uma Microsoft 365 de recursos para ela.
 
 ### <a name="using-a-resource-account"></a>Usando uma conta de recurso
 
-Se você decidir configurar uma conta de recurso do Microsoft 365, precisará comprar uma licença da Sala de Reunião para ela. A licença da Sala de Reunião inclui uma caixa de correio de recurso que permite que as pessoas em sua organização reservem a sala de reunião por meio do Outlook ou do Teams. A licença também permite vídeo e audioconferência e compartilhamento de tela entre os participantes da reunião.
+Se você decidir configurar uma conta de recurso Microsoft 365, precisará comprar uma Sala de Reunião para ela. A Sala de Reunião inclui uma caixa de correio de recurso que permite que as pessoas em sua organização reservem a sala de reunião por meio de Outlook ou Teams. A licença também permite vídeo e audioconferência e compartilhamento de tela entre os participantes da reunião.
 
-Se você precisar receber ou fazer chamadas para ou de um número de telefone [externo,](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md?tabs=small-business)talvez seja necessário um Plano de Chamadas ou uma licença de complemento do Microsoft 365 Business Voice. Se você tiver o Roteamento Direto habilitado em sua organização, você só precisará do SKU da Sala de Reunião.
+Se você precisar receber ou fazer chamadas para ou de um número de telefone externo, talvez seja necessário um Plano de Chamadas ou uma Microsoft 365 Business Voice [de complemento.](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md?tabs=small-business) Se você tiver o Roteamento Direto habilitado em sua organização, você só precisará do SKU de Sala de Reunião.
 
 Ao criar uma conta de recurso, você pode escolher se a conta pode aceitar ou recusar automaticamente solicitações de reunião, permitir reuniões recorrentes, especificar até que ponto as pessoas podem reservar o recurso e assim por diante.
 
 [!INCLUDE [m365-teams-resource-account-difference](../includes/m365-teams-resource-account-difference.md)]
 
-Para obter mais informações sobre contas de recursos do Microsoft 365, consulte [Create a resource account using the Microsoft 365 admin center](resource-account-ui.md).
+Para obter mais informações sobre Microsoft 365 de recursos, consulte [Create a resource account using the Microsoft 365 admin center](resource-account-ui.md).
 
 |    |     |
 |-----------|------------|
@@ -83,18 +83,18 @@ O planejamento de configuração e implantação abrange as seguintes áreas pri
 
 - Provisionamento de conta de recursos
 - Implantação de dispositivo
-- Configuração de aplicativos e dispositivos periféricos do Teams Rooms
+- Salas do Teams de aplicativo e dispositivo periférico
 -  Testes
 - Gerenciamento de ativos
 
 ### <a name="account-provisioning"></a>Provisionamento de conta
 
-Se você planeja usar contas de recurso do Microsoft 365 para permitir que os usuários reservem barras de colaboração, siga as instruções em Criar uma conta de recurso usando o Centro de administração do [Microsoft 365](resource-account-ui.md) para criar uma conta de recurso do Microsoft 365 para cada barra de colaboração que precisa de uma. Também é onde você precisará adicionar uma licença de Sala de Reunião à conta de recurso e, se quiser fazer ou receber chamadas de números de telefone externos ou de números de telefone externos, uma licença de Plano de Chamadas ou Business Voice se sua organização não estiver usando Roteamento Direto.
+Se você planeja usar Microsoft 365 de recursos para permitir que os usuários reservem barras de colaboração, siga as instruções em Criar uma conta de recurso usando o centro de administração do [Microsoft 365](resource-account-ui.md) para criar uma conta de recurso Microsoft 365 para cada barra de colaboração que precise de uma. Também é onde você precisará adicionar uma licença de Sala de Reunião à conta de recurso e, se você quiser fazer ou receber chamadas para ou de números de telefone externos, uma licença de Plano de Chamadas ou Business Voice se sua organização não estiver usando Roteamento Direto.
 
-Se você deseja atribuir salas do Teams a usuários individuais para uso particular, não é necessário configurar nenhuma conta adicional. Os usuários podem entrar em barras de colaboração usando suas contas pessoais.
+Se você quiser atribuir Salas do Teams usuários individuais para uso particular, não será necessário configurar nenhuma conta adicional. Os usuários podem entrar em barras de colaboração usando suas contas pessoais.
 
 > [!TIP]
-> Tornar os nomes de exibição para suas contas de recursos do Microsoft 365 descritivos e fáceis de entender. Esses são os nomes que os usuários verão ao pesquisar e adicionar Salas do Teams às reuniões. Você pode usar uma convenção como Nome da Sala de *Site*( Capacidade Máxima da Sala ), portanto, por exemplo, Curie, uma sala de reunião de 4 pessoas em Londres, pode ter o nome de exibição - LON-CURIE(4).
+> Tornar os nomes de exibição para suas Microsoft 365 de recursos descritivos e fáceis de entender. Esses são os nomes que os usuários verão ao pesquisar e adicionar Salas do Teams reuniões. Você pode usar uma convenção como Nome da Sala de *Site*( Capacidade Máxima da Sala ), portanto, por exemplo, Curie, uma sala de reunião de 4 pessoas em Londres, pode ter o nome de exibição - LON-CURIE(4).
 
 |    |     |
 |-----------|------------|
@@ -107,14 +107,14 @@ Em seguida, você precisa criar seu plano para entregar os dispositivos e seus d
 
 |    |     |
 |-----------|------------|
-| ![Um ícone representando pontos de decisão](../media/audio_conferencing_image7.png) <br/>Pontos de decisão|<ul><li>Decida quem gerenciará a implantação site a site.</li><li> Identifique os recursos que instalarão salas do Teams no site e realizarão a configuração e os testes.</li></ul>|
+| ![Um ícone representando pontos de decisão](../media/audio_conferencing_image7.png) <br/>Pontos de decisão|<ul><li>Decida quem gerenciará a implantação site a site.</li><li> Identifique os recursos que instalarão Salas do Teams local e realizar a configuração e o teste.</li></ul>|
 | ![Um ícone que representa as próximas etapas](../media/audio_conferencing_image9.png)<br/>Próximas etapas|<ul><li>Inicie o teste do dispositivo.</li></ul>|
 
 ### <a name="testing"></a> Testes
 
-Depois de ter implantado salas do Teams, você deve testá-las. Entre em Salas do Teams e verifique se os recursos esperados estão funcionando. É altamente recomendável que você verifique  se elas estão aparecendo na seção Barras de colaboração na guia **Dispositivos** do Centro de administração do Microsoft Teams. Também é importante que você faça várias chamadas de teste e reuniões para verificar a qualidade e o desempenho.
+Depois de ter implantado Salas do Teams, você deve testá-los. Entre no Salas do Teams e verifique se os recursos esperados estão funcionando. É altamente recomendável que você verifique  se elas estão aparecendo na seção Barras de colaboração na guia **Dispositivos** do Microsoft Teams de administração. Também é importante que você faça várias chamadas de teste e reuniões para verificar a qualidade e o desempenho.
 
-Recomendamos que, como parte da adoção geral do Microsoft Teams, você configure a criação de arquivos para o Painel de Qualidade de Chamada (CQD), monitore tendências de qualidade e participe do processo de Revisão da Qualidade da Experiência. Para obter mais informações, consulte o [Guia de Revisão de Qualidade da Experiência.](../quality-of-experience-review-guide.md)
+Recomendamos que, como parte da Microsoft Teams geral, você configure a criação de arquivos para o Painel de Qualidade de Chamada (CQD), monitore tendências de qualidade e participe do processo de Revisão da Qualidade da Experiência. Para obter mais informações, consulte o [Guia de Revisão de Qualidade da Experiência.](../quality-of-experience-review-guide.md)
 
 ### <a name="asset-management"></a>Gerenciamento de ativos
 
@@ -122,6 +122,6 @@ Como parte da implantação, você deseja atualizar seu registro de ativo com o 
 
 ## <a name="related-topics"></a>Tópicos relacionados
 
-[Configurar contas para salas do Microsoft Teams usando o Centro de administração do Microsoft Teams](resource-account-ui.md)
+[Configurar contas para Salas do Microsoft Teams usando o Microsoft Teams de administração](resource-account-ui.md)
 
 <!-- [Configure accounts for collaboration bars for Microsoft Teams using PowerShell](resource-account-ps.md) -->

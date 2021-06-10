@@ -27,7 +27,7 @@ ms.locfileid: "51122195"
 
 Este artigo descreve o que é necessário para migrar para o Roteamento Direto de uma perspectiva de configuração do Skype for Business Online e do Teams. Este artigo aborda a migração dos seguintes sistemas: 
  
-- Sistema de Telefonia com Planos de Chamadas (para Teams e Skype for Business Online) 
+- Sistema de Telefonia com Planos de Chamada (para Teams e Skype for Business Online) 
 - Sistema de Telefonia com conectividade PSTN local no Skype for Business Server (para Skype for Business Online)  
 - Sistema de Telefonia com conectividade PSTN local usando o Cloud Connector Edition (para Skype for Business Online)
 
@@ -36,7 +36,7 @@ Além dessas etapas de configuração, também é necessário configurar o Contr
 
 ## <a name="user-provisioning-end-state-for-various-pstn-connectivity-options"></a>Provisionamento de usuário estado final para várias opções de conectividade PSTN 
 
-A tabela a seguir mostra o estado final de um usuário provisionado para as opções de conectividade PSTN selecionadas com o Sistema de Telefonia. São exibidos somente os atributos relevantes para voz.
+A tabela a seguir mostra o estado final de um usuário provisionado para as opções de conectividade PSTN selecionadas com Sistema de Telefonia. São exibidos somente os atributos relevantes para voz.
 
 |Atributos de objeto do usuário |Sistema de Telefonia com Planos de Chamadas|Sistema de Telefonia com conectividade PSTN local por meio do Skype for Business Server|Sistema de Telefonia com conectividade PSTN via Cloud Connector|Sistema de Telefonia com conectividade PSTN local por meio de Roteamento Direto|
 |---|---|---|---|---|
@@ -97,7 +97,7 @@ Grant-CsVoiceRoutingPolicy -PolicyName $NULL -Identity <UPN>
 ## <a name="migrating-from-office-365-phone-system-with-on-premises-pstn-connectivity-via-cloud-connector-edition"></a>Migração do Sistema de Telefonia do Office 365 com conectividade PSTN local através da Edição Cloud Connector 
 
 > [!Important]
-> O Cloud Connector Edition se aposentará em 31 de julho de 2021 junto com o Skype for Business Online. Depois que sua organização tiver atualizado para o Teams, saiba como conectar sua rede de telefonia local ao Teams usando [Roteamento Direto.](direct-routing-landing-page.md)
+> O Cloud Connector Edition se aposentará em 31 de julho de 2021 junto com Skype for Business Online. Depois que sua organização tiver sido atualizada para Teams, saiba como conectar sua rede de telefonia local ao Teams usando [Roteamento Direto](direct-routing-landing-page.md).
 
 Para obter mais informações sobre como migrar do Sistema de Telefonia com conectividade PSTN local via Cloud Conector, confira o seguinte:
 

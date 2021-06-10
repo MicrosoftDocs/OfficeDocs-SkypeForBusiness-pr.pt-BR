@@ -24,10 +24,10 @@ ms.locfileid: "51891278"
 ---
 # <a name="set-up-your-team-targeting-hierarchy"></a>Configure a hierarquia de segmentação de sua equipe
 
-Configurar uma hierarquia de direcionamento de equipe permitirá que sua organização publique conteúdo em um grande conjunto de equipes. A hierarquia de direcionamento de equipe define como todas as equipes em sua hierarquia estão relacionadas umas às outras, quais usuários podem publicar tarefas e quais usuários de equipes têm permissões para publicar. Os recursos de publicação estão desabilitados para todos os usuários, a menos que uma hierarquia de direcionamento de equipe esteja configurada para sua organização. Para configurar uma hierarquia de direcionamento de equipe, você precisará criar um arquivo que defina a hierarquia e, em seguida, carregue-a no Teams para aplicá-la à sua organização. Depois que o esquema é carregado, os aplicativos dentro do Teams podem usá-lo.
+Configurar uma hierarquia de direcionamento de equipe permitirá que sua organização publique conteúdo em um grande conjunto de equipes. A hierarquia de direcionamento de equipe define como todas as equipes em sua hierarquia estão relacionadas umas às outras, quais usuários podem publicar tarefas e quais usuários de equipes têm permissões para publicar. Os recursos de publicação estão desabilitados para todos os usuários, a menos que uma hierarquia de direcionamento de equipe esteja configurada para sua organização. Para configurar uma hierarquia de direcionamento de equipe, você precisará criar um arquivo que defina a hierarquia e, em seguida, carregue-a no Teams para aplicá-lo à sua organização. Depois que o esquema é carregado, os aplicativos dentro Teams podem usá-lo.
 
 > [!IMPORTANT]
-> Para a versão inicial, apenas o aplicativo Tasks dá suporte a equipes hierárquicas.  Aplicar uma hierarquia de direcionamento de equipe à sua organização [permitirá](https://support.microsoft.com/office/publish-task-lists-to-create-and-track-work-in-your-organization-095409b3-f5af-40aa-9f9e-339b54e705df) a publicação de tarefas no aplicativo Tarefas. Você não verá uma hierarquia de equipes em outras áreas do Microsoft Teams.
+> Para a versão inicial, apenas o aplicativo Tasks dá suporte a equipes hierárquicas.  Aplicar uma hierarquia de direcionamento de equipe à sua organização [permitirá](https://support.microsoft.com/office/publish-task-lists-to-create-and-track-work-in-your-organization-095409b3-f5af-40aa-9f9e-339b54e705df) a publicação de tarefas no aplicativo Tarefas. Você não verá uma hierarquia de equipes em outras áreas Microsoft Teams.
 
 Veja um exemplo de como a hierarquia é representada no aplicativo Tarefas no Teams. Depois que uma lista de tarefas é criada, os membros da equipe de publicação podem selecionar as equipes de destinatários para enviar (publicar) a lista de tarefas para. Ao selecionar equipes, a equipe de publicação pode filtrar por hierarquia, por atributos ou uma combinação de ambos.<br>
 
@@ -35,7 +35,7 @@ Veja um exemplo de como a hierarquia é representada no aplicativo Tarefas no Te
 
 ## <a name="terminology"></a>Terminologia
 
-Os termos a seguir serão importantes à medida que você navegar em hierarquias. O Teams será chamado de **nós**.
+Os termos a seguir serão importantes à medida que você navegar em hierarquias. Teams serão chamados de **nós**.
 
 * **Nós raiz** são os nós mais top da hierarquia. No exemplo, As Comunicações de Varejo é um nó raiz.
 * **Nós pai e** **nós filhos são** termos que representam uma relação entre dois nós conectados. No exemplo, o Distrito 01 é um nó filho da Área 1.
@@ -104,7 +104,7 @@ Depois de adicionar as três colunas necessárias, você pode adicionar colunas 
 
 Ao adicionar uma coluna de atributo, lembre-se do seguinte:
 
-* O nome da coluna que você especificar ou o nome da coluna que você especificar antes dos dois pontos (:) se torna o nome do atributo. Esse valor será exibido nos aplicativos do Teams que usam a hierarquia.
+* O nome da coluna que você especificar ou o nome da coluna que você especificar antes dos dois pontos (:) se torna o nome do atributo. Esse valor será exibido nos aplicativos Teams que usam a hierarquia.
 * Você pode ter até 50 colunas de atributo em sua hierarquia.
 * O nome da coluna pode ter até 100 caracteres e conter apenas os caracteres A-Z, a-z e 0-9 e espaços. Os nomes de coluna devem ser exclusivos.
 
@@ -116,7 +116,7 @@ Categorizando os itens de trabalho uma vez centralmente, a equipe de publicaçã
 
 Ao adicionar uma coluna de bucket, observe o seguinte:
 
-* O nome da coluna se torna o nome do bucket. Cada bucket especificado aparecerá na lista Buckets nos aplicativos do Teams que usam a hierarquia.
+* O nome da coluna se torna o nome do bucket. Cada bucket especificado aparecerá na lista Buckets no Teams aplicativos que usam a hierarquia.
 * Recomendamos que você não inclua informações confidenciais em nomes de bucket. No momento, as equipes de publicação não podem remover um bucket por meio da publicação após a criação.
 * O nome da coluna deve ser precedido por uma hashtag (#). Pode ter até 100 caracteres e conter apenas os caracteres A-Z, a-z e 0-9. Por exemplo, #Operations e #Frozen Goods.
 * Uma hierarquia pode conter até 25 colunas de bucket. Planejamos trabalhar com clientes para aumentar esse limite para organizações maiores.
@@ -150,7 +150,7 @@ Los Angeles Store,West Regional Zone,204a1287-2efb-4a8a-88e0-56fbaf5a2389,Large,
 
 ## <a name="apply-your-hierarchy"></a>Aplicar sua hierarquia
 
-Depois de definir sua hierarquia no arquivo CSV do esquema, você estará pronto para carregar no Teams. Para fazer isso, execute o seguinte comando. Você deve ser um administrador global ou administrador de serviço do Teams para fazer esta etapa.
+Depois de definir sua hierarquia no arquivo CSV do esquema, você estará pronto para carregar no Teams. Para fazer isso, execute o seguinte comando. Você deve ser um administrador global ou Teams de serviço para fazer esta etapa.
 
 ```powershell
 Set-TeamTargetingHierarchy -FilePath "C:\ContosoTeamSchema.csv"
@@ -173,7 +173,7 @@ O comando retornará os seguintes campos:
 Campo|Descrição
 -----|------------
 Id | A ID exclusiva para o carregamento.
-Status | Status do carregamento. Os valores **incluem Iniciar,** **Validar,** **Bem-sucedido** e **Falha**
+Status | Upload status. Os valores **incluem Iniciar,** **Validar,** **Bem-sucedido** e **Falha**
 ErrorDetails | Detalhes se houver um erro de carregamento. Para obter mais informações sobre os detalhes do erro, consulte a seção Solução de problemas. Se não houver nenhum erro, este campo será em branco.
 LastUpdatedAt | Data e hora de quando o arquivo foi atualizado pela última vez.
 LastModifiedBy | A ID do último usuário que modificou o arquivo.
@@ -193,14 +193,14 @@ Ao confirmar a exclusão, a mensagem de status ainda exibirá o esquema anterior
 
 ## <a name="create-a-sample-hierarchy"></a>Criar uma hierarquia de exemplo
 
-### <a name="install-the-teams-powershell-module"></a>Instalar o módulo do Teams PowerShell
+### <a name="install-the-teams-powershell-module"></a>Instalar o módulo Teams PowerShell
 
 > [!IMPORTANT]
-> Para executar esta etapa, você deve instalar e usar o módulo de visualização pública do Teams PowerShell da [Galeria do PowerShell.](https://www.powershellgallery.com/packages/MicrosoftTeams/) Para ver as etapas sobre como instalar o módulo, consulte [Install Teams PowerShell](teams-powershell-install.md).
+> Para executar esta etapa, você deve instalar e usar o módulo de visualização pública Teams PowerShell da [Galeria do PowerShell.](https://www.powershellgallery.com/packages/MicrosoftTeams/) Para ver as etapas sobre como instalar o módulo, consulte [Install Teams PowerShell](teams-powershell-install.md).
 
 ### <a name="sample-script"></a>Script de exemplo
 
-O script a seguir pode ser usado para criar as equipes e carregar um arquivo .csv para seu locatário do Microsoft Teams. Se você tiver uma hierarquia existente, esse script a substituirá.
+O script a seguir pode ser usado para criar as equipes e carregar um arquivo .csv para seu Microsoft Teams locatário. Se você tiver uma hierarquia existente, esse script a substituirá.
 
 #### <a name="create-teams-for-a-simple-hierarchy"></a>Criar equipes para uma hierarquia simples
 
@@ -234,7 +234,7 @@ $csvOutputPath = $env:USERPROFILE + "\downloads\testhierarchy-" + (Get-Date -For
 $csvOutput | Out-File $csvOutputPath
 ```
 
-#### <a name="upload-the-hierarchy"></a>Carregar a hierarquia
+#### <a name="upload-the-hierarchy"></a>Upload hierarquia
 
 ```powershell
 Set-TeamTargetingHierarchy -FilePath $csvOutputPath
@@ -264,15 +264,15 @@ Error: InvalidTeamId
 Description: TeamID in row # doesn't match a valid Group ID. Please view our documentation to learn how to get the proper GroupID for each team.
 ```
 
-Verifique se você está usando o TeamId correto para a equipe em seu arquivo CSV de esquema. A TeamId deve ser igual à ID de Grupo do grupo do Microsoft 365 que é o suporte da equipe. Você pode procurar a ID de Grupo da equipe no centro de administração do Microsoft Teams.
+Verifique se você está usando o TeamId correto para a equipe em seu arquivo CSV de esquema. A TeamId deve ser a mesma que a ID de Grupo do grupo Microsoft 365 que resvala a equipe. Você pode procurar a ID de Grupo da equipe no Microsoft Teams de administração.
 
-1. Na navegação à esquerda do centro de [administração do Microsoft Teams,](https://admin.teams.microsoft.com/)acesse **Teams**  >  **Manage teams**.
+1. Na navegação à esquerda do centro de administração [Microsoft Teams,](https://admin.teams.microsoft.com/)vá **para Teams**  >  **Gerenciar equipes**.
 2. Se a **coluna ID do** Grupo não for exibida na tabela, selecione **Editar colunas** no canto superior direito da tabela e, em seguida, acione a **ID do Grupo**.
 3. Localize a equipe na lista e localize a ID do Grupo.
 
-Certifique-se de que o TeamId no arquivo CSV do esquema corresponde à ID do Grupo exibida no centro de administração do Microsoft Teams.
+Certifique-se de que o TeamId no arquivo CSV do esquema corresponde à ID do Grupo exibida no centro de administração Microsoft Teams de grupo.
 
 ## <a name="related-topics"></a>Tópicos relacionados
 
-* [Gerenciar o aplicativo Tarefas para sua organização no Teams](manage-tasks-app.md)
+* [Gerenciar o aplicativo Tarefas para sua organização em Teams](manage-tasks-app.md)
 * [Visão Geral do PowerShell do Teams](teams-powershell-overview.md)

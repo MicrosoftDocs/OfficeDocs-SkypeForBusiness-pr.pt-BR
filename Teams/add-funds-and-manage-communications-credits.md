@@ -29,7 +29,7 @@ ms.custom:
 - O365P_SFBVoiceCredit
 - O365P_SFBVoiceCreditAether
 - Licensing
-description: 'Saiba como pagar os créditos de Comunicação (Consumo PSTN) para serviços do Skype for Business e veja planos para manter seus usuários com acesso contínuo ao sistema de telefonia. '
+description: 'Saiba como pagar os créditos de Comunicação (Consumo PSTN) por serviços Skype for Business e veja planos para manter seus usuários com acesso contínuo ao sistema de telefonia. '
 ms.openlocfilehash: 4730cf33a11adfa3d1527304ef0adecf2d2209cb
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
@@ -39,13 +39,13 @@ ms.locfileid: "51121489"
 ---
 # <a name="add-funds-and-manage-communications-credits"></a>Adicionar fundos e gerenciar Créditos de Comunicação
 
-Os Créditos de Comunicações são uma maneira conveniente de pagar pelo Sistema de Telefonia e planos de chamadas no Microsoft 365 ou office 365. Os Créditos de Comunicação ajudam a garantir que você e seus usuários nunca sejam capturados sem serem capazes de:
+Os Créditos de Comunicações são uma maneira conveniente de pagar Sistema de Telefonia planos de chamada e Microsoft 365 ou Office 365. Os Créditos de Comunicação ajudam a garantir que você e seus usuários nunca sejam capturados sem serem capazes de:
   
 - Discar para reuniões de Audioconferência usando números de telefone discados gratuitos.
 
 - Discar de uma reunião de Audioconferência para adicionar outra pessoa de qualquer lugar do mundo.
 
-- Discar de uma reunião de Audioconferência para seu celular com o aplicativo Skype for Business ou Microsoft Teams instalado.
+- Discar de uma reunião de Audioconferência para seu telefone celular com o aplicativo Skype for Business ou Microsoft Teams instalado.
 
 - Disce qualquer número de telefone internacional quando você tiver um **Plano de Chamadas Domésticas**.
 
@@ -75,11 +75,11 @@ Você pode ver os planos e os preços visitando um dos seguintes links:
 
 - [Planos de audioconferência](https://go.microsoft.com/fwlink/?LinkId=799762 )
 
-- [Planos do Sistema de Telefonia](https://go.microsoft.com/fwlink/?LinkId=799763)
+- [Sistema de Telefonia planos](https://go.microsoft.com/fwlink/?LinkId=799763)
 
-Você também pode ver informações ao entrar no Centro de administração do Microsoft 365 e ir para **Cobrança**  >  **de Assinaturas**  >  **Adicionar assinaturas**.
+Você também pode ver informações ao entrar no centro de administração Microsoft 365 e ir para **Cobrança**  >  **de Assinaturas**  >  **Adicionar assinaturas**.
   
-Para ver uma tabela com a licença ou licenças que você precisará para cada recurso, consulte [Licenciamento de complemento do Microsoft Teams](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
+Para ver uma tabela com a licença ou licenças que você precisará para cada recurso, [consulte Microsoft Teams licenciamento de complemento.](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
   
 ## <a name="related-topics"></a>Tópicos relacionados
 
@@ -87,4 +87,4 @@ Para ver uma tabela com a licença ou licenças que você precisará para cada r
 
 - [Configurar a Caixa Postal na Nuvem - Ajuda da administração](set-up-phone-system-voicemail.md)
 
-- [Configurar planos de chamada e](set-up-calling-plans.md) planos de chamada para o Microsoft [365 ou Office 365](calling-plans-for-office-365.md)
+- [Configurar planos de chamada e](set-up-calling-plans.md) planos de chamada para Microsoft 365 ou [Office 365](calling-plans-for-office-365.md)

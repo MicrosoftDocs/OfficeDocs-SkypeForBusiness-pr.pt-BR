@@ -15,7 +15,7 @@ ms.collection:
 - m365initiative-meetings
 - m365initiative-meetings-enabler
 - enabler-strategic
-description: Saiba como gerenciar configurações para eventos ao vivo do Teams que são realizados em sua organização.
+description: Saiba como gerenciar configurações para Teams eventos ao vivo que são realizados em sua organização.
 f1.keywords:
 - CSH
 ms.custom:
@@ -31,11 +31,11 @@ ms.locfileid: "51637873"
 ---
 # <a name="configure-live-event-settings-in-microsoft-teams"></a>Configurar eventos ao vivo no Microsoft Teams
 
-Use as configurações de eventos ao vivo do Teams para definir configurações para eventos ao vivo que são realizados em sua organização. Você pode configurar uma URL de suporte e configurar um provedor de distribuição de vídeo de terceiros. Essas configurações se aplicam a todos os eventos ao vivo criados em sua organização.
+Use Teams configurações de eventos ao vivo para definir configurações para eventos ao vivo que são realizados em sua organização. Você pode configurar uma URL de suporte e configurar um provedor de distribuição de vídeo de terceiros. Essas configurações se aplicam a todos os eventos ao vivo criados em sua organização.
 
-Você pode gerenciar facilmente essas configurações no centro de administração do Microsoft Teams. Na navegação à esquerda, vá para **Reuniões**  >  **Ao vivo configurações de eventos**.
+Você pode gerenciar facilmente essas configurações no Microsoft Teams de administração. Na navegação à esquerda, vá para **Reuniões**  >  **Ao vivo configurações de eventos**.
 
-![Captura de tela das configurações de eventos ao vivo do Teams](../media/teams-live-events-settings.png "Captura de tela das configurações de eventos ao vivo do Teams que você pode configurar no centro de administração do Microsoft Teams")
+![Captura de tela de Teams de eventos ao vivo](../media/teams-live-events-settings.png "Captura de tela Teams configurações de eventos ao vivo que você pode configurar no Microsoft Teams de administração")
 
 ## <a name="set-up-event-support-url"></a>Configurar a URL de suporte a eventos
 
@@ -46,7 +46,7 @@ Essa URL é mostrada para participantes do evento ao vivo. Adicione a URL de sup
 1. Na navegação à esquerda, vá para **Configurações do** evento Meetings  >  **Live**.
 2. Em **URL de Suporte,** insira a URL de suporte da sua organização.
 
-    ![Configuração de URL de suporte para eventos ao vivo no centro de administração](../media/teams-live-events-settings-supporturl.png "Captura de tela da configuração de URL de suporte para eventos ao vivo do Teams")
+    ![Configuração de URL de suporte para eventos ao vivo no centro de administração](../media/teams-live-events-settings-supporturl.png "Captura de tela da configuração de URL de suporte para Teams eventos ao vivo")
 
 ### <a name="using-windows-powershell"></a>Usar o Windows PowerShell
 
@@ -58,7 +58,7 @@ Set-CsTeamsMeetingBroadcastConfiguration -SupportURL “{your URL}”
 Para obter mais informações, [consulte Set-CsTeamsMeetingBroadcastConfiguration](/powershell/module/skype/set-csteamsmeetingbroadcastconfiguration?view=skype-ps).
 ## <a name="configure-a-third-party-video-distribution-provider"></a>Configurar um provedor de distribuição de vídeo de terceiros 
 
-Se você comprou e configurou uma solução de rede definida por software (SDN) ou uma solução de rede de entrega de conteúdo empresarial (eCDN) por meio de um parceiro de entrega de vídeo da Microsoft, configure o provedor para eventos ao vivo no Teams. 
+Se você comprou e configurou uma solução de rede definida por software (SDN) ou uma solução de rede de distribuição de conteúdo empresarial (eCDN) por meio de um parceiro de entrega de vídeo da Microsoft, configure o provedor para eventos ao vivo no Teams. 
 
 ### <a name="an-icon-showing-the-microsoft-teams-logo-using-the-microsoft-teams-admin-center"></a>![Um ícone mostrando o logotipo do Microsoft Teams](../media/teams-logo-30x30.png) Usando o centro de administração do Microsoft Teams
 
@@ -101,7 +101,7 @@ Para obter mais informações, [consulte Set-CsTeamsMeetingBroadcastConfiguratio
 > A mudança do Microsoft Stream para o [OneDrive for Business e o Microsoft Office SharePoint Online para gravações de reunião](../tmr-meeting-recording-change.md) será uma abordagem em fases. No lançamento você poderá optar por aceitar essa experiência, em novembro você terá que recusar se quiser continuar usando o Stream e, no início de 2021, exigiremos que todos os clientes usem o OneDrive for Business e o Microsoft Office SharePoint Online para novas gravações de reunião.
 
 >[!Note]
-> Sua solução eCDN escolhida está sujeita aos termos de serviço e política de privacidade do provedor de terceiros selecionados, que regerão o uso da solução do provedor eCDN. Seu uso da solução do provedor eCDN não estará sujeito aos termos de licenciamento por volume da Microsoft ou aos Termos de Serviços Online. Se você não concordar com os termos do provedor de terceiros, não habilita a solução eCDN no Microsoft Teams.
+> Sua solução eCDN escolhida está sujeita aos termos de serviço e política de privacidade do provedor de terceiros selecionados, que regerão o uso da solução do provedor eCDN. Seu uso da solução do provedor eCDN não estará sujeito aos termos de licenciamento por volume da Microsoft ou aos Termos de Serviços Online. Se você não concordar com os termos do provedor de terceiros, não habilita a solução eCDN em Microsoft Teams.
 
 ### <a name="related-topics"></a>Tópicos relacionados
 - [O que são os eventos ao vivo do Teams?](what-are-teams-live-events.md)

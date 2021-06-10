@@ -32,12 +32,12 @@ ms.locfileid: "51102653"
 ---
 # <a name="change-the-phone-numbers-on-your-audio-conferencing-bridge"></a>Alterar os números de telefone em sua ponte de Audioconferência
 
-Quando você compra **licenças de Audioconferência,** a Microsoft está hospedando sua ponte de audioconferência para sua organização. A ponte de audioconferência fornece números de telefone discados de locais diferentes para que os organizadores e participantes da reunião possam usá-los para ingressar em reuniões do Skype for Business ou do Microsoft Teams usando um telefone.
+Quando você compra **licenças de Audioconferência,** a Microsoft está hospedando sua ponte de audioconferência para sua organização. A ponte de audioconferência fornece números de telefone discados de locais diferentes para que os organizadores e participantes da reunião possam usá-los para ingressar em reuniões Skype for Business ou Microsoft Teams usando um telefone.
   
 Além dos números de telefone já atribuídos à ponte de conferência, você pode obter números de serviço adicionais [(números](./getting-service-phone-numbers.md) de chamada gratuita e de chamada gratuita usados para audioconferência) de outros locais e atribuí-los à ponte de conferência para que você possa expandir a cobertura para seus usuários.
   
 > [!NOTE]
-> Para poder atribuir/desatribuição de um número de telefone para uma ponte de conferência, o número de telefone deve ser um número de '*serviço*'. Você pode ver o tipo de número que é navegando até números de Telefone de Voz no centro de administração do Microsoft Teams e olhando na  >   coluna **Tipo de** Número. Os Créditos de Comunicações do Microsoft 365 ou Office 365 devem ser definidos primeiro para que os usuários discem para a ponte em um número gratuito.
+> Para poder atribuir/desatribuição de um número de telefone para uma ponte de conferência, o número de telefone deve ser um número de '*serviço*'. Você pode ver o tipo de número que é navegando para números Telefone Voz no centro de administração Microsoft Teams e olhando na  >   coluna **Tipo de** Número. Microsoft 365 ou Office 365 créditos de comunicações devem ser definidos primeiro para que os usuários discem para a ponte em um número gratuito.
 
 ## <a name="steps-when-you-are-assigning-a-new-service-phone-number-to-your-conference-bridge"></a>Etapas durante a atribuição de um novo número de telefone de serviço a sua ponte de conferência
 
@@ -45,7 +45,7 @@ Além dos números de telefone já atribuídos à ponte de conferência, você p
 
 ![Um ícone que mostra o logotipo do Microsoft Teams](media/teams-logo-30x30.png) **Usando o centro de administração do Microsoft Teams**
 
-1. No painel de navegação esquerdo, vá para **Números de Telefone** de  >  **Voz**.
+1. No painel de navegação esquerdo, vá para **Voz** Telefone  >  **números**.
 
 2. Selecione o número de telefone na lista e clique em **Editar**.
 
@@ -67,7 +67,7 @@ Somente um número de tarifa de serviço pode ser definido como o número padrã
  
 ### <a name="step-3---change-the-default-phone-numbers-that-are-included-in-the-meeting-invites-of-users-optional"></a>Etapa 3 - Alterar os números de telefone padrão incluídos nos convites de reunião dos usuários (opcional)
 
-Os números de telefone padrão de um usuário são os que estão incluídos em seus convites de reunião ao agendar uma reunião. Para obter mais informações, incluindo como os números de telefone padrão são atribuídos para novos usuários, consulte Definir os números de telefone incluídos em [convites](set-the-phone-numbers-included-on-invites-in-teams.md) no Microsoft Teams ou Definir os números de telefone incluídos em [convites](/SkypeForBusiness/audio-conferencing-in-office-365/set-the-phone-numbers-included-on-invites)no Skype for Business Online .
+Os números de telefone padrão de um usuário são os que estão incluídos em seus convites de reunião ao agendar uma reunião. Para obter mais informações, incluindo como os números de telefone padrão são [atribuídos para](/SkypeForBusiness/audio-conferencing-in-office-365/set-the-phone-numbers-included-on-invites)novos usuários, consulte Definir os números de telefone incluídos em [convites](set-the-phone-numbers-included-on-invites-in-teams.md) no Microsoft Teams ou Definir os números de telefone incluídos em convites no Skype for Business Online .
 
 ![Um ícone que mostra o logotipo do Microsoft Teams](media/teams-logo-30x30.png) **Usando o centro de administração do Microsoft Teams**
 
@@ -114,9 +114,9 @@ Substitua o número padrão de tarifa ou gratuita para todos os usuários que t�
 Set-CsOnlineDialInConferencingUserDefaultNumber -FromNumber <Number to be removed> -ToNumber <Number to be set as new default> -NumberType <"Toll" or "Toll-Free"> -RescheduleMeetings
 ```
  > [!IMPORTANT] 
- >Você também pode alterar o número de usuários de tarifação padrão ou gratuita no centro de administração do Microsoft Teams. No entanto, isso não reagendará automaticamente suas reuniões. 
+ >Você também pode alterar o número padrão de usuários com tarifa ou gratuita no centro de Microsoft Teams de administração. No entanto, isso não reagendará automaticamente suas reuniões. 
  
- Para obter informações adicionais, consulte [Set the phone numbers included on invites in Microsoft Teams](set-the-phone-numbers-included-on-invites-in-teams.md) or Set the phone numbers included on [invites in Skype for Business Online](/SkypeForBusiness/audio-conferencing-in-office-365/set-the-phone-numbers-included-on-invites).
+ Para obter informações adicionais, consulte Definir os números de telefone [incluídos](set-the-phone-numbers-included-on-invites-in-teams.md) em convites no Microsoft Teams ou Definir os números de telefone incluídos em [convites no Skype for Business Online](/SkypeForBusiness/audio-conferencing-in-office-365/set-the-phone-numbers-included-on-invites).
 
   > [!NOTE]
   > [!OBSERVAçãO] Dependendo do tamanho de sua organização, isso poderia demorar para concluir.
@@ -135,7 +135,7 @@ Para obter mais informações sobre o Meeting Migration Service, veja [Configura
 
 ![Um ícone que mostra o logotipo do Microsoft Teams](media/teams-logo-30x30.png) **Usando o centro de administração do Microsoft Teams**
 
-1. Na navegação à esquerda, vá para **Números de Telefone** de  >  **Voz**.
+1. Na navegação à esquerda, vá para **Voz**  >  **Telefone números**.
 
 2. Se o número de telefone for um número de chamada gratuita, selecione o número de telefone da lista e clique em **Liberar**. Se o número de telefone for um número de chamada, entre em contato com o suporte [da Microsoft](/microsoft-365/admin/contact-support-for-business-products) para que o número de telefone não seja atribuído.
 
@@ -180,7 +180,7 @@ Para economizar tempo automatizando esse processo, você pode usar os cmdlets [S
   ```
 
     > [!NOTE]
-    > O local usado acima precisa corresponder às informações de contato dos usuários definidas no Centro de administração do Microsoft 365.
+    > O local usado acima precisa corresponder às informações de contato dos usuários que estão definidas no centro de administração Microsoft 365.
 
 ## <a name="troubleshooting"></a>Solução de problemas
 
@@ -202,15 +202,15 @@ Unregister-CsOnlineDialInConferencingServiceNumber -BridgeName "Conference Bridg
 
 ## <a name="about-windows-powershell"></a>Sobre Windows PowerShell
 
-Com Windows PowerShell você pode gerenciar usuários e o que eles são ou não têm permissão para fazer. Windows PowerShell pode ajudá-lo a gerenciar o Microsoft 365 ou o Office 365 e o Skype for Business Online usando um único ponto de administração que pode simplificar seu trabalho diário, especialmente quando você tem várias tarefas a fazer. Para começar a trabalhar com o Windows PowerShell, confira estes tópicos:
+Com Windows PowerShell você pode gerenciar usuários e o que eles são ou não têm permissão para fazer. Windows PowerShell pode ajudá-lo a gerenciar Microsoft 365 ou Office 365 e Skype for Business Online usando um único ponto de administração que pode simplificar seu trabalho diário, especialmente quando você tem várias tarefas a fazer. Para começar a trabalhar com o Windows PowerShell, confira estes tópicos:
 
   - [Uma introdução ao Windows PowerShell e ao Skype for Business Online](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
 
   - [Por que você precisa usar o PowerShell do Office 365](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
 
-Windows PowerShell tem muitas vantagens em velocidade, simplicidade e produtividade sobre apenas o uso do centro de administração do Microsoft 365, como quando você está fazendo alterações de configuração para muitos usuários ao mesmo tempo. Saiba mais sobre essas vantagens nos seguintes tópicos:
+Windows PowerShell tem muitas vantagens em velocidade, simplicidade e produtividade sobre o uso apenas do centro de administração do Microsoft 365, como quando você está fazendo alterações de configuração para muitos usuários ao mesmo tempo. Saiba mais sobre essas vantagens nos seguintes tópicos:
 
-  - [Melhores maneiras de gerenciar o Microsoft 365 ou o Office 365 com Windows PowerShell](/previous-versions//dn568025(v=technet.10))
+  - [Melhores maneiras de gerenciar Microsoft 365 ou Office 365 com Windows PowerShell](/previous-versions//dn568025(v=technet.10))
 
   - [Usar o Windows PowerShell para gerenciar o Skype for Business Online](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
 

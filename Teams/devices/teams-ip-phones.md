@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: Saiba quais telefones de mesa e conferência são certificados Microsoft Teams para produzir os melhores resultados.
-ms.openlocfilehash: 9795b78de51f554e7091bc3d2fbd333efccaffb6
-ms.sourcegitcommit: 90615674e9703aa5ea32be64ab3638aa30e83127
+ms.openlocfilehash: d82a7e738db87fcf2903e511184f84ac2fb12150
+ms.sourcegitcommit: 51d15c49538affe97dd42ff2fd6d75e4b1952139
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/02/2021
-ms.locfileid: "52717882"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "52865998"
 ---
 # <a name="microsoft-teams-certified-devices"></a>Microsoft Teams certificados
 
@@ -110,6 +110,7 @@ A seguir estão as versões mais recentes Teams de firmware e aplicativos de tel
 
 | Versão do produto | Data de lançamento  | Microsoft Teams versão do aplicativo | Portal da Empresa versão | Versão do Agente de Administração |
 |:----------------|:--------------|:----------------------------|:-----------------------|:--------------------|
+| Atualização 2021 #2  | 8 de junho de 2021  |1449/1.0.94.2021051303|  5.0.5088.0 |  1.0.0.202103160138.product (256) |
 | Atualização 2021 #1A | 5 de abril de 2021  |1449/1.0.94.2021033002|  5.0.5045.0 |  1.0.0.202101280722.product (253) |
 | Atualização 2021 #1  | 26 de março de 2021  |1449/1.0.94.2021022403 |  5.0.5045.0 |  1.0.0.202101280722.product (253) |
 | Atualização 2020 #7  | 8 de dezembro de 2020  |1449/1.0.94.2020111101 | 5.0.4927.0            | 1.0.0.202010121132.product (223) |
@@ -124,8 +125,16 @@ Ao instalar uma nova versão de firmware em seu dispositivo, você pode determin
 
 | Modelo de dispositivo        | Versão do firmware     | Versão incluída do produto  |
 |:--------------------|:---------------------|:-------------------------|
+| Poly Trio C60   | 7.0.3.0342  | Atualização 2021 #2                        |
+| Poly CCX400/CCX500/CCX600   | 7.0.3.0347 | Atualização 2021 #2                     |
+| Códigos de áudio C448HD/C450HD/C470HD   | 1.10.143  | Atualização 2021 #2           |
+| Yealink T55/T56/T58   | 58.15.0.131  | Atualização 2021 #2                       |
+| Yealink VP59   | 91.15.0.63  | Atualização 2021 #2                               |
+| Yealink CP960  |73.15.0.126  | Atualização 2021 #2                               |
+| Yealink MP56/MP54/MP58  |122.15.0.44 | Atualização 2021 #2                       |
+| Crestron UC-2  |1.0.3.66 | Atualização 2021 #2 |
 | Poly Trio C60   | 7.0.2.1071  | Atualização 2021 #1                        |
-| CCX400/CCX500/CCX600   | 7.0.2.1072  | Atualização 2021 #1                 |
+| Poly CCX400/CCX500/CCX600   | 7.0.2.1072  | Atualização 2021 #1                 |
 | Códigos de áudio C448HD/C450HD/C470HD   | 1.10.120  | Atualização 2021 #1       |
 | Yealink T55/T56/T58   | 58.15.0.124  | Atualização 2021 #1                      |
 | Yealink VP59   | 91.15.0.58  | Atualização 2021 #1                              |
@@ -187,6 +196,7 @@ A seguir estão as versões mais recentes Microsoft Teams displays de aplicativo
 
 |Versão do produto| Data de lançamento | Microsoft Teams versão do aplicativo | Portal da Empresa versão | Versão do Agente de Administração |
 |:----------------|:-------------|:----------------------------|:-----------------------|:--------------------|
+|Atualização 2021 #2  |9 de junho de 2021 |1449/1.0.95.2021042103    |5.0.5088.0            |  1.0.0.202103160138.product (256)|
 |Atualização 2021 #1  |18 de março de 2021 |1449/1.0.95.2021021104    |5.0.5045.0            | 1.0.0.202101280722.product (253)|
 
 
@@ -196,7 +206,9 @@ Ao instalar uma nova versão de firmware em seu dispositivo, você pode determin
 
 | Modelo de dispositivo  | Versão do firmware | Versão incluída do produto|
 |:--------------|:-----------------|:-------------------------|
+|Lenovo ThinkSmart View| CD-18781Y.210507.111 |Atualização 2021 #2 |
 |Lenovo ThinkSmart View| CD-18781Y.210228.109 |Atualização 2021 #1 |
+
 
 
 ## <a name="more-resources"></a>Mais recursos

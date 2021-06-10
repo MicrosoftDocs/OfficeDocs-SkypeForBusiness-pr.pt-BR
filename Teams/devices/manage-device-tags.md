@@ -1,5 +1,5 @@
 ---
-title: Gerenciar e filtrar marcas de dispositivo do Microsoft Teams
+title: Gerenciar e filtrar Microsoft Teams de dispositivo
 author: dstrome
 ms.author: dstrome
 manager: serdars
@@ -11,7 +11,7 @@ ms.collection:
 - M365-collaboration
 f1.keywords:
 - CSH
-description: Saiba como gerenciar e filtrar marcas em seus dispositivos do Microsoft Teams.
+description: Saiba como gerenciar e filtrar marcas em seus Microsoft Teams dispositivos.
 localization_priority: Normal
 search.appverid: MET150
 appliesto:
@@ -23,13 +23,13 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 03/18/2021
 ms.locfileid: "50874991"
 ---
-# <a name="manage-microsoft-teams-device-tags"></a>Gerenciar marcas de dispositivo do Microsoft Teams
+# <a name="manage-microsoft-teams-device-tags"></a>Gerenciar Microsoft Teams de dispositivo
 
-As marcas de dispositivo no Microsoft Teams permitem agrupar, organizar e gerenciar com mais facilidade os dispositivos implantados em sua organização. Com o Centro de administração do Microsoft Teams, você pode adicionar uma ou mais marcas a dispositivos, usar filtros para exibir dispositivos que corresponderem à marca especificada e, em seguida, executar ações nos dispositivos que têm essa marca.
+As marcas de dispositivo Microsoft Teams permitem agrupar, organizar e gerenciar com mais facilidade os dispositivos implantados em sua organização. Com o Microsoft Teams de administração, você pode adicionar uma ou mais marcas a dispositivos, usar filtros para exibir dispositivos que corresponderem à marca especificada e, em seguida, executar ações nos dispositivos que têm essa marca.
 
-Você pode adicionar uma marca de dispositivo a mais de um tipo de dispositivo. No entanto, quando você abre um painel de dispositivos no centro de administração, apenas os dispositivos desse tipo são retornados. Por exemplo, você pode atribuir a marca "Corporativa" a telefones e dispositivos salas do Teams. Se você procurar a marca "Corporativa" enquanto estiver em **Telefones de**  >  **Dispositivos,** somente os telefones serão retornados. Da mesma forma, se você procurar a marca "Corporativa" em **Salas** do Teams de Dispositivos, somente os dispositivos  >  salas do Teams serão retornados.
+Você pode adicionar uma marca de dispositivo a mais de um tipo de dispositivo. No entanto, quando você abre um painel de dispositivos no centro de administração, apenas os dispositivos desse tipo são retornados. Por exemplo, você pode atribuir a marca "Corporativa" a telefones e Salas do Teams dispositivos. Se você procurar a marca "Corporativa" enquanto estiver em **Telefones de**  >  **Dispositivos,** somente os telefones serão retornados. Da mesma forma, se você procurar a marca "Corporativa" em **Dispositivos**  >  **Salas do Teams**, somente Salas do Teams dispositivos serão retornados.
 
-Para gerenciar marcas de dispositivo, você precisa ser um administrador global, administrador do Serviço do Teams ou administrador do Dispositivo do Teams. Para obter mais informações sobre funções de administrador, [consulte Usar funções de administrador do Microsoft Teams para gerenciar o Teams](../using-admin-roles.md).
+Para gerenciar marcas de dispositivo, você precisa ser um administrador global, Teams de serviço ou Teams de dispositivo. Para obter mais informações sobre funções de administrador, consulte [Use Microsoft Teams de administrador para gerenciar Teams](../using-admin-roles.md).
 
 > [!IMPORTANT]
 > As marcas de dispositivo são atribuídas à conta de recurso que está registrada em um dispositivo. Se você assinar uma conta de recurso de um dispositivo e usá-la para entrar em outro dispositivo, as marcas de dispositivo serão aplicadas ao novo dispositivo.
@@ -43,7 +43,7 @@ Usando o painel de gerenciamento de marca de dispositivo, você pode:
 - Remova as marcas de dispositivo que não são mais necessárias. Antes de remover uma marca de dispositivo, você precisará removê-la de todos os dispositivos aos que foram adicionados.
 - Renomeie as marcas de dispositivo. Quando você renomeia uma marca de dispositivo, essa alteração é refletida em todos os dispositivos aos que foram adicionados. As marcas podem ter até 25 caracteres.
 
-1. Entre no Centro de administração do Microsoft Teams visitando https://admin.teams.microsoft.com .
+1. Entre no centro de Microsoft Teams de administração visitando https://admin.teams.microsoft.com .
 2. Navegue **até Dispositivos** e escolha qualquer painel de dispositivos, como **Telefones**.
 3. Selecione **Ações** no canto superior direito da página e selecione **Todas as marcas de dispositivo.**
 4. Para criar uma marca de dispositivo, selecione **+ Adicionar**, forneça um valor para a marca de dispositivo e selecione o **ícone Salvar.**
@@ -56,7 +56,7 @@ Usando o painel de gerenciamento de marca de dispositivo, você pode:
 
 Quando você adiciona marcas a um dispositivo, pode selecionar uma marca existente ou criar uma nova. As marcas podem ter até 25 caracteres.
 
-1. Entre no Centro de administração do Microsoft Teams visitando https://admin.teams.microsoft.com .
+1. Entre no centro de Microsoft Teams de administração visitando https://admin.teams.microsoft.com .
 2. Navegue **até Dispositivos** e escolha o painel de dispositivos que contém o dispositivo no qual você deseja adicionar ou remover marcas.
 3. Coloque uma marca de seleção ao lado do dispositivo em que você deseja adicionar ou remover marcas e selecione **Gerenciar marcas**.
 4. Se você quiser adicionar uma marca:
@@ -69,18 +69,18 @@ Quando você adiciona marcas a um dispositivo, pode selecionar uma marca existen
 
 ## <a name="add-or-remove-tags-on-multiple-devices"></a>Adicionar ou remover marcas em vários dispositivos
 
-Quando você adiciona marcas a um dispositivo, pode selecionar uma marca existente ou criar uma nova. As marcas podem ter até 25 caracteres. Se você quiser remover uma marca de vários dispositivos, você precisará selecionar o usuário do Teams associado ao dispositivo e remover a marca do usuário.
+Quando você adiciona marcas a um dispositivo, pode selecionar uma marca existente ou criar uma nova. As marcas podem ter até 25 caracteres. Se você quiser remover uma marca de vários dispositivos, você precisará selecionar o usuário Teams que está associado ao dispositivo e remover a marca do usuário.
 
-1. Entre no Centro de administração do Microsoft Teams visitando https://admin.teams.microsoft.com .
+1. Entre no centro de Microsoft Teams de administração visitando https://admin.teams.microsoft.com .
 2. Navegue **até Dispositivos** e escolha o painel de dispositivos que contém os dispositivos em que você deseja adicionar ou remover marcas.
 3. Coloque uma marca de seleção ao lado dos dispositivos em que você deseja adicionar ou remover marcas e selecione **Gerenciar marcas**.
 4. Se você quiser adicionar uma marca:
-    1. Comece a digitar o nome da marca que você deseja adicionar em **Gerenciar marcas para todos os dispositivos dos usuários do Teams.**
+    1. Comece a digitar o nome da marca que você deseja adicionar em **Gerenciar marcas para todos os** dispositivos de Teams usuários .
     2. Se a marca já existir, selecione-a na lista de marcas retornadas.
     3. Se a marca não existir, selecione **Adicionar " como uma nova \<tag name> marca**.
 5. Se você quiser remover uma marca:
-    1. Expanda **Selecionar usuários do Teams**.
-    2. Expanda **\<x> marcas** sob o nome do usuário do Teams do que você deseja remover marcas.
+    1. Expanda **Selecionar Teams usuários**.
+    2. Expanda **\<x> marcas** sob o nome do usuário Teams você deseja remover marcas.
     3. Selecione **X** ao lado da marca que você deseja remover.
 6. Repita as etapas acima se quiser adicionar ou remover mais marcas.
 7. Selecione **Aplicar**.
@@ -89,7 +89,7 @@ Quando você adiciona marcas a um dispositivo, pode selecionar uma marca existen
 
 Se você tiver adicionado marcas de dispositivo aos dispositivos, poderá usá-las para filtrar a lista de dispositivos para retornar apenas os dispositivos que tiveram uma marca especificada adicionada a eles. Isso pode ser útil se você quiser apenas exibir todos os dispositivos em uma sala específica, todos os dispositivos de um determinado tipo ou qualquer outro critério que você usou ao adicionar suas marcas. Você também pode executar ações em massa em dispositivos retornados, como aplicar atualizações em ondas ou definir políticas de configuração diferentes, dependendo dos grupos de dispositivos identificados usando marcas de dispositivo.
 
-1. Entre no Centro de administração do Microsoft Teams visitando https://admin.teams.microsoft.com .
+1. Entre no centro de Microsoft Teams de administração visitando https://admin.teams.microsoft.com .
 2. Navegue **até Dispositivos** e escolha o painel de dispositivos que contém os dispositivos que você deseja filtrar.
 3. Selecione o **ícone Filtro.**
 4. Se você quiser especificar apenas uma única marca ou se quiser encontrar dispositivos que tenham todas as marcas especificadas, selecione Corresponder a **todas essas condições**.
@@ -98,4 +98,4 @@ Se você tiver adicionado marcas de dispositivo aos dispositivos, poderá usá-l
 7. Se quiser adicionar mais marcas de dispositivo, selecione **Adicionar mais** e repita a etapa 6 para cada marca que deseja adicionar.
 8. Selecione **Aplicar**.
 
-Depois de filtrar os dispositivos em sua lista de dispositivos, você poderá executar ações neles como normalmente faria. Por exemplo, você pode selecioná-las e atribuir configurações, editar suas configurações (se eles são dispositivos salas do Teams) e assim por diante. Quando terminar, você poderá remover o filtro selecionando  o **X** ao lado da entrada do filtro Marca ou selecionando **Limpar** tudo no lado direito da lista.
+Depois de filtrar os dispositivos em sua lista de dispositivos, você poderá executar ações neles como normalmente faria. Por exemplo, você pode selecioná-las e atribuir configurações, editar suas configurações (se Salas do Teams dispositivos) e assim por diante. Quando terminar, você poderá remover o filtro selecionando  o **X** ao lado da entrada do filtro Marca ou selecionando **Limpar** tudo no lado direito da lista.

@@ -30,13 +30,13 @@ ms.locfileid: "51122205"
 ---
 # <a name="phone-system-direct-routing"></a>Roteamento Direto do Sistema de Telefonia
 
-Você concluiu a [Introdução](get-started-with-teams-quick-start.md). Você implementou o Teams com [chat, equipes, canais e aplicativos](deploy-chat-teams-channels-microsoft-teams-landing-page.md) na organização. Talvez você tenha implantado [Reuniões & conferência.](deploy-meetings-microsoft-teams-landing-page.md) Agora você está pronto para adicionar cargas de trabalho de voz na nuvem e decidiu usar sua própria operadora de telefonia para conectividade PSTN (Rede Telefônica Pública Comugada) usando Roteamento Direto do Sistema de Telefonia. Com o Roteamento Direto, você pode usar o Sistema de Telefonia praticamente com qualquer portadora de telefonia.
+Você concluiu a [Introdução](get-started-with-teams-quick-start.md). Você implementou o Teams com [chat, equipes, canais e aplicativos](deploy-chat-teams-channels-microsoft-teams-landing-page.md) na organização. Talvez você tenha implantado [Reuniões & conferência.](deploy-meetings-microsoft-teams-landing-page.md) Agora você está pronto para adicionar cargas de trabalho de voz na nuvem e decidiu usar sua própria operadora de telefonia para conectividade PSTN (Rede Telefônica Pública Comugada) usando Sistema de Telefonia Roteamento Direto. Com o Roteamento Direto, você pode usar o Sistema de Telefonia praticamente com qualquer portadora de telefonia.
 
 Este artigo descreve as principais decisões de implantação para Roteamento Direto, bem como considerações adicionais que você pode querer pensar, com base nas necessidades da sua organização. Você também deve ler [o Cloud Voice no Microsoft Teams](cloud-voice-landing-page.md) para obter mais informações sobre as ofertas de voz na nuvem da Microsoft.
 
 ## <a name="learn-more-about-direct-routing"></a>Saiba mais sobre Roteamento Direto
 
-Os artigos a seguir fornecem mais informações sobre como configurar e usar o Roteamento Direto do Sistema de Telefonia. Configurar o Roteamento Direto requer a compreensão do design de roteamento PSTN. Você deve ler todos esses artigos para entender como planejar e configurar o Roteamento Direto:
+Os artigos a seguir fornecem mais informações sobre como configurar e usar Sistema de Telefonia Roteamento Direto. Configurar o Roteamento Direto requer a compreensão do design de roteamento PSTN. Você deve ler todos esses artigos para entender como planejar e configurar o Roteamento Direto:
 
 - [Planejar o Roteamento Direto](direct-routing-plan.md) 
 - [Configurar o Roteamento Direto](direct-routing-configure.md)
@@ -50,7 +50,7 @@ Além disso, talvez você queira ler os seguintes artigos, dependendo de seus re
 -  [Contas de usuário em um ambiente híbrido com conectividade PSTN](direct-routing-user-accounts-in-a-hybrid-environment.md)
 - Assista à sessão a seguir para saber mais sobre Roteamento Direto: [Roteamento Direto no Microsoft Teams](https://aka.ms/teams-direct-routing)
 
-## <a name="core-deployment-decisions"></a>Decisões principais de implantação
+## <a name="core-deployment-decisions"></a>Decisões importantes sobre implantação
 
 Estas são as principais decisões a considerar para Roteamento Direto. 
 
@@ -62,7 +62,7 @@ Tenho as licenças necessárias para Roteamento Direto? | Para obter mais inform
 
 ### <a name="session-border-controller-sbc-considerations"></a>Considerações do Controlador de Borda de Sessão (SBC)
 
-Com o Roteamento Direto, você conecta seu próprio Controlador de Borda de Sessão (SBC) diretamente ao Sistema de Telefonia.  Para ver uma lista de SBCs certificados, consulte Controladores de Borda de Sessão [Com Suporte.](direct-routing-border-controllers.md)
+Com o Roteamento Direto, você conecta seu próprio Controlador de Borda de Sessão (SBC) diretamente Sistema de Telefonia.  Para ver uma lista de SBCs certificados, consulte Controladores de Borda de Sessão [Com Suporte.](direct-routing-border-controllers.md)
 
 |Pergunte a si mesmo|Ação |
 |:------------|:-------|
@@ -72,7 +72,7 @@ Tenho vários locatários? | Para obter mais informações, [consulte Configure 
 
 ### <a name="voice-routing-considerations"></a>Considerações sobre roteamento de voz
 
-Você precisará configurar o Sistema de Telefonia para rotear as chamadas para os SBCs específicos.
+Você precisará configurar o Sistema de Telefonia rotear as chamadas para os SBCs específicos.
 
 |Pergunte a si mesmo|Ação |
 |:------------|:-------|
@@ -80,13 +80,13 @@ Você precisará configurar o Sistema de Telefonia para rotear as chamadas para 
 | Quais usuários serão atribuídos à política de roteamento de voz que eu defina? | Consulte os exemplos em [Configure Voice Routing](direct-routing-configure.md). |
 |||
 
-### <a name="ensure-incoming-calls-land-in-the-teams-client-using-teamsupgradepolicy"></a>Garantir que as chamadas de entrada chegam ao cliente do Teams usando TeamsUpgradePolicy
+### <a name="ensure-incoming-calls-land-in-the-teams-client-using-teamsupgradepolicy"></a>Verifique se as chamadas de entrada chegam ao cliente Teams teamsUpgradePolicy
 
-O Roteamento Direto só é suportado com o Microsoft Teams. Para receber chamadas PSTN por meio de Roteamento Direto, você precisa configurar o TeamsUpgradePolicy para garantir que as chamadas de entrada sejam recebidas no Teams. Os usuários devem estar no modo Somente do Teams, o que você pode fazer atribuindo a eles a instância "UpgradeToTeams" do TeamsUpgradePolicy. 
+O Roteamento Direto só é suportado com Microsoft Teams. Para receber chamadas PSTN por meio de Roteamento Direto, você precisa configurar o TeamsUpgradePolicy para garantir que as chamadas de entrada sejam recebidas em Teams. Os usuários devem estar Teams modo Somente, o que você pode fazer atribuindo a eles a instância "UpgradeToTeams" do TeamsUpgradePolicy. 
 
 |Pergunte a si mesmo|Ação |
 |:------------|:-------|
-|O que significa o modo Teams Only? | Para obter mais informações, consulte [Diretrizes de migração](./migration-interop-guidance-for-teams-with-skype.md)e interoperabilidade para organizações que usam o Teams em conjunto com o Skype for Business .|
+|O que Teams modo Only significa? | Para obter mais informações, consulte [Diretrizes de migração](./migration-interop-guidance-for-teams-with-skype.md)e interoperabilidade para organizações que usam Teams em conjunto com Skype for Business .|
 |||
 
 ## <a name="additional-deployment-considerations"></a>Considerações adicionais sobre implantação
@@ -95,6 +95,6 @@ Você pode considerar o seguinte, com base nas necessidades e configurações da
 
 | Pergunte a si mesmo| Ação |
 | :------------|:-------|
-| Você tem uma implantação existente do Skype for Business Server com conectividade híbrida configurada? |  Para entender como as contas de usuário em um ambiente híbrido são provisionadas e gerenciadas, consulte Contas de usuário em um ambiente híbrido com [conectividade PSTN](direct-routing-user-accounts-in-a-hybrid-environment.md).| 
-| Você está migrando para Roteamento Direto do Plano de Chamadas ou de um ambiente local do Skype for Business? | Para entender mais sobre como migrar para Roteamento Direto de um ambiente existente, consulte [Migrating to Direct Routing](direct-routing-migrating.md). |
+| Você tem uma implantação Skype for Business Server existente com conectividade híbrida configurada? |  Para entender como as contas de usuário em um ambiente híbrido são provisionadas e gerenciadas, consulte Contas de usuário em um ambiente híbrido com [conectividade PSTN](direct-routing-user-accounts-in-a-hybrid-environment.md).| 
+| Você está migrando para Roteamento Direto do Plano de Chamadas ou de um ambiente Skype for Business local? | Para entender mais sobre como migrar para Roteamento Direto de um ambiente existente, consulte [Migrating to Direct Routing](direct-routing-migrating.md). |
 |||

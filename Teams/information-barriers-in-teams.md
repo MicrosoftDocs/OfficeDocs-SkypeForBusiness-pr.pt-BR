@@ -1,6 +1,6 @@
 ---
 title: Barreiras de informações no Microsoft Teams
-description: Este artigo explica o que são barreiras de informações no Microsoft Teams e como eles podem afetar o Teams.
+description: Este artigo explica o que são barreiras de informações no Microsoft Teams e como eles podem afetar Teams.
 author: robmazz
 ms.author: robmazz
 manager: laurawi
@@ -29,9 +29,9 @@ As barreiras de informações (IBs) são políticas que um administrador pode co
 
 >[!NOTE]
 >- Grupos de barreira de informações (IB) não podem ser criados entre locatários.
->- O uso de bots, aplicativos do Azure Active Directory (Azure AD) e algumas APIs para adicionar usuários não é suportado na versão 1.
+>- O uso de bots, Azure Active Directory aplicativos (Azure AD) e algumas APIs para adicionar usuários não são suportados na versão 1.
 >- Os canais privados são compatíveis com as políticas de IB que você configura.
->- Novo: para obter informações sobre o suporte a barreiras para sites do SharePoint conectados ao Teams, consulte [Segments associated with Microsoft Teams sites](/sharepoint/information-barriers#segments-associated-with-microsoft-teams-sites).
+>- Novo: para obter informações sobre o suporte a barreiras para SharePoint sites conectados ao Teams, consulte [Segments associated](/sharepoint/information-barriers#segments-associated-with-microsoft-teams-sites)with Microsoft Teams sites .
 
 As políticas de IB também impedem pesquisa e descoberta. Se você tentar se comunicar com alguém com quem não deve se comunicar, não encontrará esse usuário no selador de pessoas.
 
@@ -47,7 +47,7 @@ No entanto, desde a introdução de EIs, muitas outras áreas os descobriram út
 
 - Governo: o acesso e o controle de informações são limitados entre departamentos e grupos.
 
-- Serviços profissionais: um grupo de pessoas em uma empresa só é capaz de conversar com um cliente ou um cliente específico por meio do acesso de convidados durante um envolvimento do cliente.
+- Professional: um grupo de pessoas em uma empresa só é capaz de conversar com um cliente ou um cliente específico por meio do acesso de convidados durante um envolvimento do cliente.
 
 Por exemplo, Enrico pertence ao segmento Bancário e Pradeep pertence ao segmento consultor financeiro. Enrico e Pradeep não podem se comunicar uns com os outros porque a política de IB da organização bloqueia a comunicação e a colaboração entre esses dois segmentos. No entanto, Enrico e Pradeep podem se comunicar com Lee no RH.
 
@@ -64,18 +64,18 @@ O Serviço de Avaliação da Política de Barreira de Informações determina se
 
 ## <a name="managing-information-barrier-policies"></a>Gerenciar políticas de barreira de informações
 
-As políticas de IB são gerenciadas no Centro de Conformidade do Microsoft 365 (SCC) usando cmdlets do PowerShell. Para obter mais informações, consulte [Define policies for information barriers](/office365/securitycompliance/information-barriers-policies).
+As políticas de IB são gerenciadas Microsoft 365 Centro de Conformidade (SCC) usando cmdlets do PowerShell. Para obter mais informações, consulte [Define policies for information barriers](/office365/securitycompliance/information-barriers-policies).
 
 > [!IMPORTANT]
-> Antes de configurar ou definir políticas, você deve habilitar a pesquisa de diretório com escopo no Microsoft Teams. Aguarde pelo menos algumas horas após a habilitação da pesquisa de diretório com escopo antes de configurar ou definir políticas para barreiras de informações. Para obter mais informações, consulte [Definir políticas de barreira de informações](/office365/securitycompliance/information-barriers-policies#prerequisites).
+> Antes de configurar ou definir políticas, você deve habilitar a pesquisa de diretório com escopo Microsoft Teams. Aguarde pelo menos algumas horas após a habilitação da pesquisa de diretório com escopo antes de configurar ou definir políticas para barreiras de informações. Para obter mais informações, consulte [Definir políticas de barreira de informações](/office365/securitycompliance/information-barriers-policies#prerequisites).
 
 ## <a name="information-barriers-administrator-role"></a>Função de administrador de barreiras de informações
 
-A função de Gerenciamento de Conformidade do IB é responsável pelo gerenciamento de políticas de IB. Para obter mais informações sobre essa função, consulte Permissões no Centro de Conformidade do [Microsoft 365.](/office365/securitycompliance/permissions-in-the-security-and-compliance-center)
+A função de Gerenciamento de Conformidade do IB é responsável pelo gerenciamento de políticas de IB. Para obter mais informações sobre essa função, consulte [Permissions in the Microsoft 365 Compliance Center](/office365/securitycompliance/permissions-in-the-security-and-compliance-center).
 
 ## <a name="information-barrier-triggers"></a>Gatilhos de barreira de informações
 
-As políticas de IB são ativadas quando os seguintes eventos do Teams ocorrem:
+As políticas de IB são ativadas quando os seguintes eventos Teams ocorrem:
 
 - **Membros são adicionados a uma** equipe - Sempre que você adiciona um usuário a uma equipe, a política do usuário deve ser avaliada em relação às políticas de IB de outros membros da equipe. Depois que o usuário for adicionado com êxito, o usuário poderá executar todas as funções na equipe sem mais verificações. Se a política do usuário os impede de serem adicionados à equipe, o usuário não aparece na pesquisa.
 
@@ -109,9 +109,9 @@ As políticas de IB são ativadas quando os seguintes eventos do Teams ocorrem:
     > [!div class="mx-imgBorder"]
     > ![Captura de tela mostrando a char do usuário com configurações bloqueadas](media/ib-after-screen-share-policy.png)
 
-- Um usuário faz uma chamada telefônica no **Teams** - Sempre que um usuário inicia uma chamada de voz (via VOIP) para outro usuário ou grupo de usuários, a chamada é avaliada para garantir que ela não viole as políticas de IB de outros membros da equipe. Se houver alguma violação, a chamada de voz será bloqueada.
+- Um usuário faz uma chamada telefônica no Teams **-** Sempre que um usuário inicia uma chamada de voz (via VOIP) para outro usuário ou grupo de usuários, a chamada é avaliada para garantir que ela não viole as políticas de IB de outros membros da equipe. Se houver alguma violação, a chamada de voz será bloqueada.
 
-- **Convidados no Teams** - As políticas de IB também se aplicam aos convidados no Teams. Se os convidados precisam ser descobertos na lista de endereços global da sua organização, consulte Gerenciar o acesso de convidados [nos Grupos do Microsoft 365](/microsoft-365/admin/create-groups/manage-guest-access-in-groups). Depois que os convidados são descobertos, você pode [definir políticas de IB.](/office365/securitycompliance/information-barriers-policies)
+- **Convidados em Teams** - As políticas de IB se aplicam aos convidados Teams também. Se os convidados precisam ser descobertos na lista de endereços global da sua organização, consulte Gerenciar o acesso de convidados [em Microsoft 365 Grupos](/microsoft-365/admin/create-groups/manage-guest-access-in-groups). Depois que os convidados são descobertos, você pode [definir políticas de IB.](/office365/securitycompliance/information-barriers-policies)
 
 ## <a name="how-policy-changes-impact-existing-chats"></a>Como as alterações de política impactam chats existentes
 
@@ -151,7 +151,7 @@ Atualmente, os usuários experimentam os seguintes cenários se uma política de
 
 - **Selador de** Pessoas - Os usuários bloqueados não estarão visíveis no selador de pessoas.
 
-    ![Captura de tela do Teams alertando o usuário de que a política impede a exibição das informações de outro usuário](media/information-barriers-people-picker.png)
+    ![Captura de tela Teams alertando o usuário de que a política impede a exibição das informações de outro usuário](media/information-barriers-people-picker.png)
 
 - **Guia Atividade** - Se um usuário visitar a guia **Atividade** de um usuário bloqueado, nenhuma postagem será exibida. (A **guia Atividade** exibe apenas postagens de canal e não haveria canais comuns entre os dois usuários.)
 
@@ -180,21 +180,21 @@ Atualmente, os usuários experimentam os seguintes cenários se uma política de
     > [!div class="mx-imgBorder"]
     > ![Captura de tela mostrando o usuário bloqueado do chat](media/ib-after-chat-contacts-policy.png)
 
-- **Migração** do Skype para o Teams - Durante uma migração do Skype for Business para o Teams, todos os usuários, mesmo os usuários bloqueados por políticas de IB, serão migrados para o Teams. Esses usuários são tratados conforme descrito acima.
+- **Skype** para Teams migração - Durante uma migração do Skype for Business para o Teams, todos os usuários, mesmo os usuários bloqueados por políticas de IB, serão migrados para o Teams. Esses usuários são tratados conforme descrito acima.
 
-## <a name="teams-policies-and-sharepoint-sites"></a>Políticas do Teams e sites do SharePoint
+## <a name="teams-policies-and-sharepoint-sites"></a>Teams políticas e SharePoint sites
 
-Quando uma equipe é criada, um site do SharePoint é provisionado e associado ao Microsoft Teams para a experiência de arquivos. As políticas de barreira de informações não são aduzidas neste site e arquivos do SharePoint por padrão. Para habilitar barreiras de informações no SharePoint e no OneDrive, siga as diretrizes e etapas no tópico Usar barreiras de informações [com o SharePoint.](/sharepoint/information-barriers#enable-sharepoint-and-onedrive-information-barriers-in-your-organization)
+Quando uma equipe é criada, um site SharePoint é provisionado e associado ao Microsoft Teams para a experiência de arquivos. As políticas de barreira de informações não são aprididas neste SharePoint site e arquivos por padrão. Para habilitar barreiras de informações SharePoint e OneDrive, siga as diretrizes e etapas no tópico [Usar barreiras](/sharepoint/information-barriers#enable-sharepoint-and-onedrive-information-barriers-in-your-organization) de informações com SharePoint.
 
 ## <a name="required-licenses-and-permissions"></a>Licenças e permissões necessárias
 
-Para obter mais informações sobre licenças e permissões, incluindo planos e preços, consulte Diretrizes de licenciamento do [Microsoft 365 para](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance)conformidade & segurança.
+Para obter mais informações sobre licenças e permissões, incluindo planos e preços, consulte Microsoft 365 de licenciamento para conformidade [& segurança.](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance)
 
 ## <a name="known-issues"></a>Problemas conhecidos
 
 - Os usuários não podem ingressar em reuniões **ad hoc**: se as políticas de IB estão habilitadas, os usuários não podem participar de reuniões se o tamanho da lista de reuniões for maior do que os limites de participação da [reunião.](limits-specifications-teams.md) A causa raiz é que as verificações de IB dependem se os usuários podem ser adicionados a uma lista de chat de reunião e somente quando eles podem ser adicionados à lista têm permissão para ingressar na reunião. Um usuário que entra em uma reunião uma vez adiciona esse usuário à lista; portanto, para reuniões recorrentes, a lista pode ser preenchida rapidamente. Depois que a lista de chat atingir [os](limits-specifications-teams.md)limites de participação da reunião, nenhum usuário adicional poderá ser adicionado à reunião. Se a IB estiver habilitada para o locatário e a lista de chat estiver cheia para uma reunião, novos usuários (os usuários que ainda não estão na lista) não poderão participar da reunião. Porém, se a IB não estiver habilitada para o locatário e a lista de chat de reunião estiver cheia, novos usuários (os usuários que ainda não estão na lista) poderão ingressar na reunião, embora não vejam a opção de chat na reunião. Uma solução de curto prazo é remover membros inativos da lista de chat de reunião para dar espaço a novos usuários. No entanto, aumentaremos o tamanho das escalações de chat de reunião em uma data posterior.
 - **Os usuários não podem participar** de reuniões de canal: se as políticas de IB estão habilitadas, os usuários não podem participar de reuniões de canal se não são membros da equipe. A causa raiz é que as verificações de IB dependem se os usuários podem ser adicionados a uma lista de chat de reunião e somente quando eles podem ser adicionados à lista têm permissão para ingressar na reunião. O thread de chat em uma reunião de canal está disponível apenas para membros da equipe/canal, e os não membros não podem ver ou acessar o thread de chat. Se a IB estiver habilitada para o locatário e um membro não da equipe tentar ingressar em uma reunião de canal, esse usuário não poderá ingressar na reunião. No entanto, se  o IB não estiver habilitado para o locatário e um membro não da equipe tentar ingressar em uma reunião de canal, o usuário poderá ingressar na reunião, mas não verá a opção de chat na reunião.
-- Proprietários de equipe não são removidos **:** se uma nova política de IB for aplicada que resulta em dois ou mais segmentos conflitantes presentes em um canal do Teams, os segmentos com proprietários de equipe receberão preferência maior e outros usuários de segmento serão removidos. Além disso, no momento, os proprietários da equipe não estão sendo removidos, mesmo que eles estão em conflito com outros proprietários/usuários. Os administradores de locatários e outros proprietários de canal terão que remover os proprietários conflitantes manualmente.
+- Os proprietários de equipe não são removidos **:** se uma nova política de IB for aplicada que resulta em dois ou mais segmentos conflitantes presentes em um canal Teams, os segmentos com proprietários de equipe receberão maior preferência e outros usuários de segmento serão removidos. Além disso, no momento, os proprietários da equipe não estão sendo removidos, mesmo que eles estão em conflito com outros proprietários/usuários. Os administradores de locatários e outros proprietários de canal terão que remover os proprietários conflitantes manualmente.
 - **Número máximo de segmentos permitidos em um locatário**: cada locatário pode configurar até 100 segmentos ao configurar políticas de IB. Não há limite para o número de políticas que podem ser configuradas.
 
 - As políticas de IB não funcionam para usuários **federados**: se você permitir a federação com locatários externos, os usuários desses locatários não serão restritos por políticas de IB. Se os usuários da sua organização ingressarem em um chat ou reunião organizada por usuários federados externos, as políticas de IB também não restringirão a comunicação entre os usuários da sua organização.
@@ -209,5 +209,5 @@ Para obter mais informações sobre licenças e permissões, incluindo planos e 
 
 ## <a name="availability"></a>Disponibilidade
 
-- O recurso está disponível em nossa nuvem pública; em janeiro de 2021, nós rolamos Barreiras de Informações na nuvem GCC.
+- O recurso está disponível em nossa nuvem pública; em janeiro de 2021, nós rolamos Barreiras de Informações na GCC nuvem.
 - O recurso ainda não está disponível nas nuvens GCCH e DOD.

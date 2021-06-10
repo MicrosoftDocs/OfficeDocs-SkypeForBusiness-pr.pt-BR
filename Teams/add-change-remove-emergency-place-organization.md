@@ -16,7 +16,7 @@ appliesto:
 localization_priority: Normal
 f1.keywords:
 - NOCSH
-description: Saiba como adicionar, alterar ou remover um local de emergência para sua organização no centro de administração do Microsoft Teams.
+description: Saiba como adicionar, alterar ou remover um local de emergência para sua organização no Microsoft Teams de administração.
 ms.custom: seo-marvel-mar2020
 ms.openlocfilehash: 50343fbd1d16694e46afafe53114f2dde4b7b150
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
@@ -29,15 +29,15 @@ ms.locfileid: "51121499"
 
 Dependendo do número de locais físicos em sua organização, você pode adicionar locais para edifícios, pisos e escritórios para criar um local de emergência mais específico. Consulte [Gerenciar chamada de emergência](what-are-emergency-locations-addresses-and-call-routing.md) para obter mais informações.
   
-Para saber como obter um Plano de Chamada e quanto eles custam, consulte [Licenciamento de complemento do Teams.](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
+Para saber como obter um Plano de Chamada e quanto eles custam, [consulte Teams licenciamento de complemento.](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
 
-Você gerencia locais de emergência para sua organização no centro de administração do Microsoft Teams ou usando o PowerShell.
+Você gerencia locais de emergência para sua organização no centro de administração Microsoft Teams ou usando o PowerShell.
   
 ## <a name="add-a-place-to-an-emergency-location"></a>Adicionar um local a um local de emergência
 
 ### <a name="using-the-microsoft-teams-admin-center"></a>Usando o centro de administração do Microsoft Teams
 
-1. Na navegação à esquerda do centro de administração do Microsoft Teams, clique em **Locais**  >  **Endereços de emergência.**
+1. Na navegação à esquerda do centro de administração Microsoft Teams, clique em **Locais**  >  **Endereços de emergência**.
 2. Na lista, clique no nome do local para o qual você deseja adicionar um lugar.
 3. Na guia **Locais,** clique em **Adicionar**.
 4. Insira um nome de local e clique em **Aplicar**.
@@ -50,7 +50,7 @@ Consulte [New-CsOnlineLisLocation](/powershell/module/skype/new-csonlinelislocat
 
 ### <a name="using-the-microsoft-teams-admin-center"></a>Usando o centro de administração do Microsoft Teams
 
-1. Na navegação à esquerda do centro de administração do Microsoft Teams, clique em **Locais**  >  **Endereços de emergência.**
+1. Na navegação à esquerda do centro de administração Microsoft Teams, clique em **Locais**  >  **Endereços de emergência**.
 2. Na lista, clique no nome do local para o qual você deseja alterar um local.
 3. Na guia **Locais,** selecione o local que você deseja alterar e clique em **Editar**.
 4. Atualize as informações do local e clique em **Aplicar**.
@@ -63,7 +63,7 @@ Consulte [Set-CsOnlineLisLocation](/powershell/module/skype/set-csonlinelislocat
 
 ### <a name="using-the-microsoft-teams-admin-center"></a>Usando o centro de administração do Microsoft Teams
 
-1. Na navegação à esquerda do centro de administração do Microsoft Teams, clique em **Locais**  >  **Endereços de emergência.**
+1. Na navegação à esquerda do centro de administração Microsoft Teams, clique em **Locais**  >  **Endereços de emergência**.
 2. Na lista, clique no nome do local para o qual você deseja remover um local.
 3. Na guia **Locais,** selecione o local que você deseja remover e clique em **Excluir**.
 

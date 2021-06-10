@@ -19,7 +19,7 @@ f1.keywords:
 - CSH
 ms.custom:
 - Calling Plans
-description: Saiba como atribuir, alterar ou remover um número de telefone de trabalho para os usuários do Teams para que empresas e clientes externos possam ligar.
+description: Saiba como atribuir, alterar ou remover um número de telefone de trabalho para seus usuários Teams para que empresas e clientes externos possam chamar.
 ms.openlocfilehash: 4f40049b3856f24d3ae5ddd3999be7213817bcdc
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
@@ -29,23 +29,23 @@ ms.locfileid: "51120813"
 ---
 # <a name="assign-change-or-remove-a-phone-number-for-a-user-calling-plans"></a>Atribuir, alterar ou remover um número de telefone para um usuário (Planos de Chamadas)
 
-Ao configurar Planos de Chamadas, atribua números de telefone aos usuários. No Microsoft Teams, o número de telefone que você atribui é listado quando um usuário clica em **Chamadas**. Para obter instruções sobre como atribuir, alterar ou remover um número de telefone de um usuário em um cenário de Roteamento Direto, consulte [Enable users for Direct Routing, voice, and voicemail](./direct-routing-enable-users.md).
+Ao configurar Planos de Chamadas, atribua números de telefone aos usuários. Em Microsoft Teams, o número de telefone atribuído é listado quando um usuário clica em **Chamadas**. Para obter instruções sobre como atribuir, alterar ou remover um número de telefone de um usuário em um cenário de Roteamento Direto, consulte [Enable users for Direct Routing, voice, and voicemail](./direct-routing-enable-users.md).
 
-![Número de telefone do usuário exibido no Teams.](media/teams-phone-number.png)
+![Número de telefone do usuário exibido em Teams.](media/teams-phone-number.png)
 
-Quando você estiver configurando usuários para que eles possam fazer e receber chamadas telefônicas, primeiro você deve usar o centro de administração do Microsoft Teams e atribuir um número de telefone. Você pode alterar ou remover o número de telefone se precisar.
+Quando você estiver configurando usuários para que eles possam fazer e receber chamadas telefônicas, primeiro você deve usar o centro de administração Microsoft Teams e atribuir um número de telefone. Você pode alterar ou remover o número de telefone se precisar.
   
-Para saber como obter Planos de Chamada no Teams e quanto eles custam, consulte [Licenciamento de complemento do Teams](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
+Para saber como obter Planos de Chamada em Teams e quanto eles custam, consulte [Teams licenciamento de complemento.](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
   
 > [!NOTE]
-> Uma maneira de ver se um usuário tem uma licença atribuída é indo para o Centro de administração do Microsoft Teams > **Usuários**. Se uma licença for atribuída, ela será indicada na página.  Você também pode usar o centro de administração do Microsoft 365.
+> Uma maneira de ver se um usuário tem uma licença atribuída é indo para o Microsoft Teams de administração > **Usuários**. Se uma licença for atribuída, ela será indicada na página.  Você também pode usar o Microsoft 365 de administração.
   
 ## <a name="assign-a-phone-number-to-a-user"></a>Atribuir um número de telefone a um usuário
  
 ![Um ícone que mostra o logotipo do Microsoft Teams](media/teams-logo-30x30.png) **Usando o centro de administração do Microsoft Teams**
     
-1. Na navegação à esquerda, clique em **Números de Telefone** de  >  **Voz**.
-2. Na página **Números de** telefone, selecione um número não atribuído na lista e clique em **Editar**.  
+1. Na navegação à esquerda, clique **em Voz Telefone**  >  **números**.
+2. Na página **Telefone números,** selecione um número não atribuído na lista e clique em **Editar**.  
 3. No painel **Editar,** em **Atribuído** a , procure o usuário por nome de exibição ou nome de usuário e clique em **Atribuir**.
 4. Para atribuir ou alterar o local de emergência associado, em **Local de** emergência, procure e selecione o local.
 5. Dependendo se você deseja enviar um email para o usuário com suas informações de número de telefone, desativar ou ativar o usuário de email com informações **de número de telefone**. Por padrão, isso está em. 
@@ -62,11 +62,11 @@ Para um exemplo do PowerShell, consulte [Set-CsOnlineVoiceUser](/powershell/modu
 ![Um ícone que mostra o logotipo do Microsoft Teams](media/teams-logo-30x30.png) **Usando o centro de administração do Microsoft Teams**
     
 1. Na navegação à esquerda, clique em **Usuários,** localize e clique duas vezes no usuário que você deseja, clique em Conta **e** em Informações **Gerais,** anote o número de telefone atribuído ao usuário.
-2. Na navegação à esquerda, clique em **Números de Telefone** de  >  **Voz**.
-3. Na página **Números de** telefone, selecione o número identificado na etapa 1 e clique em **Editar**.  
+2. Na navegação à esquerda, clique **em Voz Telefone**  >  **números**.
+3. Na página **Telefone números,** selecione o número identificado na etapa 1 e clique em **Editar**.  
 4. No painel **Editar,** em **Atribuído** a , clique no **X** para remover o usuário.
 5. Clique em **Salvar**.
-6. Na página **Números de** telefone, selecione um número não atribuído na lista e clique em **Editar**.  
+6. Na página **Telefone números,** selecione um número não atribuído na lista e clique em **Editar**.  
 7. No painel **Editar,** em **Atribuído** a , procure o usuário por nome de exibição ou nome de usuário e clique em **Atribuir**.
 8. Para atribuir ou alterar o local de emergência associado, em **Local de** emergência, procure e selecione o local.
 9. Clique em **Salvar**.
@@ -78,8 +78,8 @@ Para um exemplo do PowerShell, consulte [Set-CsOnlineVoiceUser](/powershell/modu
 ![Um ícone que mostra o logotipo do Microsoft Teams](media/teams-logo-30x30.png) **Usando o centro de administração do Microsoft Teams**
 
 1. Na navegação à esquerda, clique em **Usuários,** localize e clique duas vezes no usuário que você deseja, clique em Conta **e** em Informações **Gerais,** anote o número de telefone atribuído ao usuário.
-2. Na navegação à esquerda, clique em **Números de Telefone** de  >  **Voz**.
-3. Na página **Números de** telefone, selecione o número identificado na etapa 2 e clique em **Editar**.  
+2. Na navegação à esquerda, clique **em Voz Telefone**  >  **números**.
+3. Na página **Telefone números,** selecione o número identificado na etapa 2 e clique em **Editar**.  
 4. No painel **Editar,** em **Atribuído** a , clique no **X** para remover o usuário.
 5. Clique em **Salvar**.
 
@@ -97,4 +97,4 @@ Para um exemplo do PowerShell, consulte [Set-CsOnlineVoiceUser](/powershell/modu
 
 [Set-CsOnlineVoiceUser](/powershell/module/skype/set-csonlinevoiceuser?view=skype-ps)
 
-[Planos de chamada para o Microsoft 365](./calling-plans-for-office-365.md)
+[Planos de chamada para Microsoft 365](./calling-plans-for-office-365.md)

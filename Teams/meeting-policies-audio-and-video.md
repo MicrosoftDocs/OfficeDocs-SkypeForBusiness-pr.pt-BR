@@ -18,7 +18,7 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.meetingpolicies.audioandvideo
 - seo-marvel-apr2020
-description: Aprenda a gerenciar configurações de política de reunião no Teams para áudio e vídeo.
+description: Aprenda a gerenciar configurações de política de reunião em Teams para áudio e vídeo.
 ms.openlocfilehash: 3f7a557555d6846c4ada792ceb05da43ce91ed0f
 ms.sourcegitcommit: 2d725b9925696e61e3e7338f890f086e009c28f2
 ms.translationtype: MT
@@ -73,7 +73,7 @@ Esta é uma política por usuário. Essa configuração controla se o áudio pod
 
 |Valor de configuração |Comportamento  |
 |---------|---------|
-|**Áudio de saída e entrada habilitado**    |O áudio de entrada e saída é permitido na reunião. Essa é a configuração padrão. |
+|**Áudio de saída e entrada habilitado**    |O vídeo de saída e entrada, que é permitido na reunião, é a configuração padrão. |
 |**Desabilitado**     |O áudio de entrada e saída não é permitido na reunião.     |
 
 Se definido como **Desabilitada** para um usuário, esse usuário ainda poderá agendar e organizar reuniões, mas não poderá usar o áudio. Para participar de uma reunião, eles devem discar por meio da PSTN (Rede Telefônica Pública Comutada) ou fazer com que a reunião seja chamada e ingressar por telefone. Os participantes da reunião que não têm políticas atribuídas (por exemplo, participantes anônimos) têm essa configuração para **Áudio de saída e de entrada habilitado** por padrão. Em clientes móveis do Teams, se essa configuração estiver desabilitada, o usuário precisará discar para a reunião por meio da PSTN.
@@ -106,7 +106,7 @@ Para saber mais, confira [Gerenciar áudio/vídeo para participantes da reunião
 
 ### <a name="allow-ip-video"></a>Permitir vídeo IP
 
-Esta é uma combinação de uma política por usuário e por organizador. O vídeo é um componente fundamental para reuniões. Em algumas organizações, os administradores podem querer ter mais controle sobre quais reuniões têm vídeo. Essa configuração controla se o vídeo pode ser habilitado em reuniões hospedadas por um usuário e em chamadas 1:1 e de grupo iniciadas por um usuário. Nos clientes móveis do Teams, essa configuração controla se os usuários podem compartilhar fotos e vídeos em uma reunião. 
+Esta é uma combinação de uma política por usuário e por organizador. O vídeo é um componente fundamental para reuniões. Em algumas organizações, os administradores podem querer ter mais controle sobre quais reuniões têm vídeo. Essa configuração controla se o vídeo pode ser habilitado em reuniões hospedadas por um usuário e em chamadas 1:1 e de grupo iniciadas por um usuário. Em Teams clientes móveis, essa configuração controla se os usuários podem compartilhar fotos e vídeos em uma reunião. 
 
 As reuniões organizadas por um usuário que possui essa configuração de política habilitada permitem o compartilhamento de vídeo na reunião pelos participantes da reunião, caso os participantes também tenham a configuração de política habilitada. Os participantes da reunião que não possuem políticas atribuídas (por exemplo, participantes anônimos e federados) herdam a política do organizador da reunião.
 
@@ -134,7 +134,7 @@ Para saber mais, confira [Gerenciar áudio/vídeo para participantes da reunião
 
 #### <a name="which-ip-video-policy-setting-takes-precedence"></a>Qual configuração de política de vídeo IP tem precedência?
 
-Para um usuário, a configuração de política mais restritiva para o vídeo tem prioridade. Aqui estão alguns exemplos.
+Para um usuário, a configuração de política mais restritiva para o vídeo tem prioridade. Veja alguns exemplos.
 
 |Permitir vídeo IP|Modo de vídeo IP|Experiência de compartilhamento|
 |---------|---------|---------|
@@ -198,5 +198,5 @@ Para especificar se os usuários podem personalizar o plano de fundo do vídeo e
 ## <a name="related-topics"></a>Tópicos relacionados
 
 - [Visão Geral do PowerShell do Teams](teams-powershell-overview.md)
-- [Atribua políticas a seus usuários no Teams](assign-policies.md)
+- [Atribuir políticas aos usuários no Microsoft Teams](assign-policies.md)
 

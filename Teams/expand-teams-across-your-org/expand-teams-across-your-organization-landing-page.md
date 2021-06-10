@@ -1,6 +1,6 @@
 ---
 title: Expanda o Microsoft Teams em toda a sua organização
-description: Saiba mais sobre os recursos disponíveis para criar a implantação padrão do Teams para ajudá-lo a tirar o máximo do Teams para tipos de organização específicos.
+description: Saiba mais sobre os recursos disponíveis para criar a implantação Teams padrão para ajudá-lo a tirar o máximo Teams tipos de organização específicos.
 ms.topic: conceptual
 author: cichur
 ms.author: v-cichur
@@ -24,7 +24,7 @@ ms.locfileid: "51121359"
 ---
 # <a name="expand-microsoft-teams-across-your-organization"></a>Expanda o Microsoft Teams em toda a sua organização
 
-Esses recursos se baseam nas diretrizes de implantação padrão do Teams e foram projetados para ajudá-lo a obter o máximo do Teams para tipos de organização específicos. Se você ainda não implantou o Teams, consulte o caminho recomendado para o Teams em [Como lançar o Microsoft Teams.](../deploy-overview.md)
+Esses recursos se baseam nas diretrizes de implantação Teams padrão e foram projetados para ajudá-lo a tirar o máximo Teams tipos de organização específicos. Se você ainda não tiver implantado Teams, consulte o caminho recomendado para Teams em [How to roll out Microsoft Teams](../deploy-overview.md).
 
 |               |               |               |               |               |               | 
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | 

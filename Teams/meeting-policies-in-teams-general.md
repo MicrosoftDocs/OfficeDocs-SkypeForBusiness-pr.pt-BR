@@ -18,7 +18,7 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.meetingpolicies.general
 - seo-marvel-apr2020
-description: Saiba como gerenciar as configurações de política de reunião geral no Teams.
+description: Aprenda a gerenciar as configurações gerais de política de reunião Teams.
 ms.openlocfilehash: fb5f537e5cc96ba363fb4aa68bbfff2af513db6b
 ms.sourcegitcommit: 2d725b9925696e61e3e7338f890f086e009c28f2
 ms.translationtype: MT
@@ -30,7 +30,7 @@ ms.locfileid: "51598695"
 
 <a name="bkgeneral"> </a>
 
-Este artigo descreve as seguintes configurações gerais de política para reuniões do Teams:
+Este artigo descreve as seguintes configurações gerais de política para reuniões Teams reuniões:
 
 - [Permitir Reunir Agora em canais](#allow-meet-now-in-channels)
 - [Permitir o suplemento do Outlook](#allow-the-outlook-add-in)
@@ -43,7 +43,7 @@ Este artigo descreve as seguintes configurações gerais de política para reuni
 
 ## <a name="allow-meet-now-in-channels"></a>Permitir Reunir agora nos canais
 
-Essa é uma política por usuário e se aplica antes de começar uma reunião. Essa configuração controla se um usuário pode iniciar uma reunião ad hoc em um canal do Teams. Se você ativar isso, os usuários poderão clicar no botão **Atender** para iniciar uma reunião ad hoc ou agendar uma reunião no canal. O valor padrão é True.
+Essa é uma política por usuário e se aplica antes de começar uma reunião. Essa configuração controla se um usuário pode iniciar uma reunião ad hoc em um Teams canal. Se você ativar isso, os usuários poderão clicar no botão **Atender** para iniciar uma reunião ad hoc ou agendar uma reunião no canal. O valor padrão é True.
 
 [![Captura de tela mostrando o ícone Reunir agora abaixo de uma mensagem ](media/meeting-policies-meet-now.png)](media/meeting-policies-meet-now.png#lightbox)
 
@@ -53,7 +53,7 @@ Essa é uma política por usuário e se aplica antes de começar uma reunião. E
 
 ![Captura de tela mostrando a capacidade de agendar uma nova reunião](media/meeting-policies-outlook-add-in.png)
 
-Se você desativar isso, os usuários não poderão agendar reuniões do Teams quando criarem uma nova reunião no Outlook. Por exemplo, no Outlook no Windows, a opção **Nova reunião do Teams** não será exibida na faixa de opções.
+Se você desativar isso, os usuários não poderão agendar Teams reuniões quando criarem uma nova reunião no Outlook. Por exemplo, no Outlook no Windows, a opção **Nova reunião do Teams** não será exibida na faixa de opções.
 
 ## <a name="allow-channel-meeting-scheduling"></a>Permitir o agendamento de reunião do canal
 
@@ -90,7 +90,7 @@ No Centro de Administração:
 
 O aplicativo de calendário de canal será mostrado na seção **Aplicativos da Microsoft** na página de políticas de permissão do aplicativo.
 
-![Captura de tela mostrando a política de permissões do aplicativo no centro de administração do Teams.](media/manage-microsoft-apps-policy.png)
+![Captura de tela mostrando a política de permissões do aplicativo no Teams de administração.](media/manage-microsoft-apps-policy.png)
 
 ## <a name="allow-scheduling-private-meetings"></a>Permitir o agendamento de reuniões particulares
 
@@ -145,9 +145,9 @@ Para especificar o suplemento de reunião que você deseja disponibilizar para o
 
 ## <a name="meeting-reactions"></a>Reações de reunião
 
-A configuração AllowMeetingReactions só pode ser aplicada usando o PowerShell. Não há opção para alternar AllowMeetingReactions a partir do centro de administração do Teams.
+A configuração AllowMeetingReactions só pode ser aplicada usando o PowerShell. Não há nenhuma opção para ativar ou desativar AllowMeetingReactions no Centro de administração do Teams.
 
-As reações de reunião são Desligadas por padrão. Desligar reações para um usuário não significa que um usuário não pode usar reações em reuniões agendadas. O organizador da reunião ainda pode ativar reações da página de opção de reunião, independentemente da configuração padrão.
+As reações de reunião estão ativadas por padrão. Desativar as reações para um usuário não significa que ele não possa usar as reações nas reuniões agendadas por ele. O organizador da reunião ainda pode ativar as reações na página de opção da reunião, independentemente da configuração padrão.
 
 
 ## <a name="related-topics"></a>Tópicos relacionados
